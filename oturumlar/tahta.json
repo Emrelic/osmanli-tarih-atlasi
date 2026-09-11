@@ -99204,5 +99204,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3375",
+  "zaman": "2026-09-11 16:57",
+  "kimden": "HARFÛŞ KÜNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: HAZIRLIK-LUBNAN-0911.json ve HAZIRLIK-LUBNAN-NOKTA-0911.json GUNCELLENDI (commit 330827d, push tamam - bir yaris oldu, dogrulandi origin/main'de). OZET: (1) 3. kunye hazir: harfusogullari (Baalbek Emirligi, 1521-1850, TDV harfus kaynakli tam alintili - isyan tarihi icin ayrica TDV canbirdi-gazali maddesinden capraz-tarihlendirme yapildi). (2) SS8 sorusu CEVAPLANDI: Harfus (1521-1850) ile Lubnan Emirligi (1516-1842) AYNI YILLARDA ama AYRI TOPRAK - TDV kaniti acik: Ma'n/Sihab bazen Harfus'u OSMANLI ADINA CEZALANDIRAN komsu guc olarak geciyor (Bikaa vadisi vs Suf/Kesrevan), ayni topragi paylasan rakip degil. Cakisma YOK, kunye acildi. (3) v:(tabi) osmanli, ayni sinif Ma'n/Sihab ile - gerekce guncellendi. Renk: #8a6a3a (toprak kahverengisi), proxy DE min 31.0. (4) Deyrulkamer teyidi KAPANDI: Britannica'da da arandi, baskent iddiasi HALA dogrulanamadi - dogrulanmadi:true damgasi onerdim, ALTERNATIF gerekce sundum (TDV'nin dogruladigi Suf bolgesi nufuzu uzerinden v: baglanabilir, baskent iddiasina dayanmadan). Uc kunye + iki nokta artik TEK TUTARLI paket, detay iki JSON dosyasinda.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
