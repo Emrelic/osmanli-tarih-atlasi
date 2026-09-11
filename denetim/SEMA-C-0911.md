@@ -629,3 +629,26 @@ SINAV 3 — ZAMAN SINIRI DOĞRU MU
 Bu üç sınavın 1'i ölçüldü (İstanbul/Kırklareli işaret testi, elle), 2'si ve
 3'ü TASARLANDI ama arac/ donuk olduğu için KOŞULMADI — bir uygulama
 oturumunun KABUL ÖLÇÜTÜ olarak kullanılması ÖNERİLİR.
+
+### 8.6 🆕 ŞEMA GENİŞLEMESİ — `hat.tur:"paralel"|"meridyen"` (C DOSYA YAZIM, ikinci kayıt)
+
+İkinci gerçek kayıt (Mısır-Sudan, 1899, 22. paralel — `TASLAK-hukuki_sinirlar.js`)
+yazılırken §8.1'in şeması EKSİK çıktı: `hat:` alanı yalnız `nokta_dizisi`
+(çizgi hat) öngörüyordu, ama bu antlaşmanın birincil metni (Wikisource
+"Sudan Convention 1899" Madde I) sınırı **tek bir enlem değeriyle**
+tanımlıyor — çizgi değil eşik. C VERİ TOPLAMA'nın bağımsız bulgusuyla
+(kendi raporu, "Sykes-Picot'nin TAM TERSİ: saf paralel/meridyen eşiği,
+cross-product'tan UCUZ") örtüşüyor — iki oturum aynı ihtiyacı farklı
+yollarla buldu.
+
+```
+hat.tur ARTIK ÜÇ DEĞER ALIYOR:
+  "cetvel" | "dogal-tanimsiz"   → hat.nokta_dizisi (§8.2, YEREL cross-product)
+  "paralel"                     → hat.enlem (sayı) — kapsama.yon_kurali:
+                                   "P.lat >= X -> taraf, P.lat < X -> öteki"
+  "meridyen"                    → hat.boylam (sayı) — aynı desen, boylam ekseninde
+```
+Bu üçüncü tür cross-product/nearest-segment GEREKTİRMEZ — motor için
+EN UCUZ hat cinsi (tek sayısal karşılaştırma). Şemaya İKİNCİ bir gerçek
+kayıtla (tek örnekle değil, D021 gereği) eklendiği için hem KAYIT hem
+ŞEMA aynı anda doğrulanmış oluyor.
