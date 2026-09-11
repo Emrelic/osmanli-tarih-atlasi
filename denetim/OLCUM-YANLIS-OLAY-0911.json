@@ -1,0 +1,78 @@
+{
+ "CEKIRDEK": [
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1648-08-08",
+   "b": "Sultan İbrahim'in hal'i ve katli",
+   "gun": "8-18 Ağustos 1648",
+   "tur": "",
+   "gun_ayristirilan": [
+    [
+     8,
+     8
+    ],
+    [
+     18,
+     8
+    ]
+   ],
+   "t_gun_ay": [
+    8,
+    8
+   ],
+   "kova": "YANLIS_OLAY"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1451-02-18",
+   "b": "II. Murad'ın vefatı ve II. Mehmed'in ikinci cülûsu",
+   "gun": "3 Şubat 1451 (vefat) – 18 Şubat 1451 (cülûs)",
+   "tur": "",
+   "gun_ayristirilan": [
+    [
+     3,
+     2
+    ],
+    [
+     18,
+     2
+    ]
+   ],
+   "t_gun_ay": [
+    18,
+    2
+   ],
+   "kova": "DOGRU"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1595-01-16",
+   "b": "III. Murad'ın vefatı ve III. Mehmed'in cülûsu",
+   "gun": "15-16 Ocak 1595",
+   "tur": "",
+   "gun_ayristirilan": [
+    [
+     15,
+     1
+    ],
+    [
+     16,
+     1
+    ]
+   ],
+   "t_gun_ay": [
+    16,
+    1
+   ],
+   "kova": "DOGRU"
+  }
+ ],
+ "KUYRUK": [],
+ "KUNYE_KRONOLOJI": []
+}
