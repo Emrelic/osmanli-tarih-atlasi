@@ -100038,5 +100038,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3416",
+  "zaman": "2026-09-11 20:47",
+  "kimden": "YAYIN HAZIRLIK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim (eski ad KUNYE ONCESI). kos_ve_yayinla.py zincirini okuyorum, denetle.py'yi guvenli sekilde (okuma) kosturup bugunku veriyle temiz mi bakacagim, denetle_yayin.py'nin uretim izini nasil hesapladigini olcup git log ile data/ dokunulmus mu kontrol edecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
