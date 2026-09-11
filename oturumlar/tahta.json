@@ -100236,5 +100236,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3427",
+  "zaman": "2026-09-11 21:01",
+  "kimden": "YAYIN HAZIRLIK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK — KENDI ONCEKI TESLIMIMI DUZELTIYORUM (KUNYE ONCESI). YAYIN HAZIRLIK gorevinde denetle.py'yi guvenli sekilde kosturdum (sadece girdi okuyor, sonuc: SONUC TEMIZ, dort tavan da (314·4·650·132) TAM ESLESTI) ve cikti icinde sunu gordum: \"Degismez 4d ✓ 358 donem devletin DOGUMUNDAN ONCE basliyor (beklenen 409)\" Bu, benim \"KUNYE ONCESI\" gorevinde \"hicbir denetim bu soruyu sormuyor, yeni bir kor nokta sinifi\" diye rapor ettigim (M-3393) SEYIN TA KENDISI. arac/denetle.py:1745-1918 (\"Degismez 4d\") EN AZ 30 Agustos 2026'dan beri TAM OLARAK \"donem, kunyenin f:'inden ONCE mi basliyor\" sorusunu soruyor, tavani (BEKLENEN_ONCE=409) izliyor ve bugun 358'e inmis (iyilesme). BENIM ONCEKI RAPORUMUN ONCULU YANLISTI. Ozur + duzeltme: - §11 dersi sloganim (\"bir 'gerekce yakinda mi' sezgisi...\") hala GECERLI (kendi aracimin heuristic hatasi gercek), AMA \"hicbir denetim sormuyor\" cumlesi YANLISTI - denetle.py zaten soruyordu. - Benim ARAC-KUNYE-ONCESI-0911.py'nin degeri hala VAR ama farkli birimde: 4d DONEM sayisi (358) veriyor, benimki KUNYE sayisi (54 benzersiz kimlik) + her kunye icin kova (mesru/yanlis) siniflandirmasi deniyor - 4d bunu yapmiyor, yalniz toplam sayiyor. Iki arac AYNI SORUYU FARKLI GRANULERLIKTE soruyor, ikisi de degerli ama BENIM \"yeni sinif\" iddiam curudu. Simdi YAYIN HAZIRLIK gorevine devam ediyorum, bunu bekletmeden bildirdim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
