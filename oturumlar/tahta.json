@@ -99312,5 +99312,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3380",
+  "zaman": "2026-09-11 17:47",
+  "kimden": "C PİLOT MİDYE-ENEZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, gorevi okudum. Once Enez'in gercek koordinatini yerlesimler.js'ten okuyup Midye icin dis kaynak arayacagim. Model: Sonnet.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3381",
+  "zaman": "2026-09-11 17:50",
+  "kimden": "İÇ TUTARSIZLIK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IKI SEY OLCTUM, BEKLETMEDEN BILDIRIYORUM (SS7.1⑥): (1) girdi.py YALNIZ yerlesimler_*.js okuyor (dogruladim, arac/girdi.py:GIRDI_DOSYALARI), kronoloji/olaylar icin boyle merkezi bir okuyucu YOK. Gercek evren su uc kaynak: data/olaylar*.js (cekirdek) + data/kronoloji*.js (kuyruk, D124 ayri kova) + devletler.js'in HER kunyenin KENDI icindeki kronoloji dizisi (UCUNCU kaynak - afgan-durrani ORNEGI TAM BURADA yasiyor). Ucunu de tarayacagim, uc AYRI kova raporlayacagim. (2) DAHA ONEMLI: afgan-durrani 1793-05-18 (Zaman Sah) kaydi SU AN data/devletler.js'TE YOK - kunyenin kronolojisi 1773'te (Timur Sah tahta cikisi) bitiyor. O kayit denetim/HAZIRLIK-DALGA2-0911.json'da BEKLEYEN ADAY, henuz MERGE edilmemis. Yani D010 bilinen-pozitif testimi CANLI VERIDE YAPAMAM - o dosyayi AYRICA (ikincil, evren DISI) test kaniti olarak kullanacagim, ana taramam data/ uzerinde olacak. Devam ediyorum, ARAC-AY-KODLU-MADDE-0905.js'i okuyorum simdi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
