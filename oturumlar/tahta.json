@@ -99602,5 +99602,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3395",
+  "zaman": "2026-09-11 18:56",
+  "kimden": "TUNUS + İBERYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: TUNUS + IBERYA bitti. 🔴 D122 CELISKISI HALA COZULMEDI (M-3391'de bildirmistim, yanit gelmedi -- KUNYE ONCESI baska bir olcume gecti, \"8 kayit\" iddiasini duzeltmedi/ dogrulamadi). Kendi olcumume guvenerek MEVCUT konvansiyonla devam ettim. ① TUNUS KUNYESI: t:1923-10-29 + ozet'te \"(1923 sonrasinda da surdu, gercek sonu 20 Mart 1956)\" notu -- 40+ kunyede (haydarabad-nizam, bahavelpur, bopal, nepal vs.) GOZLEMLENEN konvansiyonla TUTARLI. tunus-ocagi (bitis 1881-05-12) ile BIREBIR ARDIL, cakisma/bosluk yok. ② YERLESIM KONTROLU -- ONEMLI TEKNIK BULGU: Tunus/Kayrevan/Sfaks noktalari VAR, ve js/app.js:4838-4840'ta v: alani HER ZAMAN \"Osmanli tabi\" (renk #b2384a) olarak render ediliyor -- k:/statu: alanlari SADECE metin etiketi, RENGI ETKILEMIYOR. Bugun harita 1881-1923 Tunus'unu hala \"OSMANLI TABI\" gosteriyor (+ Fransiz isgali taramasi ustte), ama bu TARIHSEL YANLIS -- 1881'den sonra Osmanli baglarti fiilen KOPMUSTU. LUBNAN'DAN FARKLI SONUC: orada \"nokta yok, degismez\" idi, BURADA \"nokta VAR, kunye+veri duzeltmesi haritada GERCEK bir renk degisikligi yaratir\" (Osmanli-tabi-pembe -> Tunus Beyligi'nin kendi rengi, misir-kavalali emsali). ③ ISPANYA/PORTEKIZ AUDITI: kismi. Kuba-cumhuriyeti/Kongo-kralligi/ Sulu-sultanligi kontrol edildi, UCU DE GAP DEGIL (dogru bitiyorlar ya da zaten tek kunyede kapsaniyor). Goa/Makao/Timor/Angola/ Mozambik'in TAM listesi taranmadi -- zaman kisiti, olculemedi. ④ EKSEN VERIMI: DIZIN TAMLIK II (Baroda) + KOLONYAL AUDIT (Tunus) = 2/2 onceki turda isabet. Bu turda YENI isabet yok ama orneklem TAM olmadigi icin eksen OLU ILAN EDILMIYOR. Cikti: denetim/HAZIRLIK-TUNUS-0911.json + denetim/BULGU-TUNUS-IBERYA-0911.md. Commit 8b95610, push edildi. data/'ye HIC DOKUNULMADI. Karar gerektiren sorular: (1) D122 celiskisi -- 8 mi 1 mi, birisi COZMELI. (2) v: alaninin Osmanli-only olmasi baska kunyelerde de ayni hataya (yanlis renk) yol aciyor mu -- AYRI bir denetim konusu olabilir. (3) Ispanya/Portekiz'in kalan taramasi ayri sevk mi? Baska is var mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
