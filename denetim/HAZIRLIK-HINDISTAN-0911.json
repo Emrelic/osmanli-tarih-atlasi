@@ -1,0 +1,102 @@
+{
+  "_not": "HAZIRLIK dosyasidir, data/ ICINE YAZILMADI. Tum aramalar denetim/ARAC-NORMAL-0903.py norm() ile yapildi, ASCII substring KULLANILMADI (D064/kendi gecmis hatam).",
+
+  "d022_ongoru": {
+    "yazildi": "olcumden ONCE",
+    "tahmin_1": "devletler.js'de meysur/maratha/sih YOK", "sonuc_1": "🔴 ÇÜRÜDÜ — ÜÇÜ DE VAR",
+    "tahmin_2": "§3.5.0'ın 6 eksiği hâlâ yok", "sonuc_2": "🟢 TUTTU — 6'sı da (ya da 5'i, bkz. not) hâlâ yok",
+    "tahmin_3": "1.MURAT'ın '3 küme' özeti ile BULGU-KUNYE-ALANI'nin kendi listesi arasında sayım farkı çıkacak", "sonuc_3": "🟢 TUTTU — aşağıda §1",
+    "tahmin_4": "meysur için tek künye yetmeyecek, ardıl şart", "sonuc_4": "🟡 KISMEN — bu 11 olay için meysur YETİYOR (hepsi 1799'dan önce), ama meysur-racaligi ayrı bir açık borç olarak KALIYOR (§3.5.0 zaten biliyordu)"
+  },
+
+  "① SAYIM_DUZELTMESI": {
+    "1MURAT_ozeti": "Mysore(5) + Sih(4) + Maratha/Durrani(2) = 11",
+    "BULGU_KUNYE_ALANI_gercek_listesi": "Sind(1) + Mysore(4) + Maratha/Durrani(2) + Sih(4) = 11",
+    "fark": "Mysore 5 değil 4 — ve gözden kaçan dördüncü küme: SIND (1554, Erguniler yıkılıp Tarhan hanedanı). 1.MURAT'ın özeti bunu hiç saymamış.",
+    "onem": "Sind kaydı ayrı ele alındı aşağıda — künye zaten var VE pencere uyuyor, bu yüzden 1.MURAT'ın gözden kaçırması sonucu ETKİLEMİYOR ama sayım tam olsun diye düzeltildi."
+  },
+
+  "🔴🔴_ANA_BULGU_gorevin_onculu_kismen_yanlisti": {
+    "gorev_diyordu": "meysur/Sih/maratha künyeleri aday listesinde yok, devletler.js'de var mı AYRICA taranmalı",
+    "olcum": "ÜÇÜ DE devletler.js'DE ZATEN VAR — meysur, maratha, sih-imparatorlugu",
+    "ayrim": "'aday listesinde yok' (KRONOLOJİ KÜNYE'nin otomatik eşleştirme aracının önerdiği adaylar arasında yok) İLE 'devletler.js'de yok' (kayıt hiç mevcut değil) AYNI ŞEY DEĞİL. Birincisi bir ARAÇ/KAPSAM boşluğu, ikincisi bir VERİ boşluğu — D051 (\"iki ayrı sorunun aynı cevabı vermesi aynı soru olduğu anlamına gelmez\")'in tam örneği.",
+    "sonuc": "Bu görevin asıl işi 'künye taslağı hazırlamak' değil, 'zaten var olan künyelere BAĞLAMAK' oldu — ④ maddesi bu yüzden ①'den daha büyük çıktı."
+  },
+
+  "② PENCERE_KONTROLU_11_kayit": [
+    { "kayit": "1554-01-01 Erguniler yıkılıp Sind'de Tarhan hanedanı kuruldu", "kunye": "sind", "kunye_penceresi": "1281-01-01 → 1843-02-17", "durum": "✓ UYUYOR", "not": "sind'in KENDİ ic kronolojisi (1351 Samma · 1520 Ergun · 1783 Talpur) bu 1554 Tarhan geçişini İÇERMİYOR — küçük, ayrı bir eksiklik (künye sorunu değil, künyenin kendi kronoloji dizisinin eksiği)" },
+    { "kayit": "1761-01-01 Haydar Ali Meysûr'da fiilî iktidarı ele geçirdi", "kunye": "meysur", "kunye_penceresi": "1761-01-01 → 1799-05-04", "durum": "✓ UYUYOR (f: ile TAM eşleşme)" },
+    { "kayit": "1761-01-14 Üçüncü Pânipat: Ahmed Şah Dürrânî Marathaları yendi", "kunye": "afgan-durrani (kazanan) + maratha (kaybeden)", "kunye_penceresi": "afgan-durrani 1747-1823 · maratha 1674-1818", "durum": "✓ İKİSİ DE UYUYOR", "not": "D190 ailesi gibi çift-künyeli bir savaş kaydı — hangi künyenin dosyasına yazılacağı uygulamanın kararı" },
+    { "kayit": "1761-01-14 Marathalar ağır yenilgi (dup)", "kunye": "maratha", "durum": "✓ UYUYOR", "not": "KÜNYE ALANI zaten '(dup)' diye işaretlemiş — muhtemelen aynı olayın iki ayrı dosyada kaydı, bu görevin kapsamı dışı" },
+    { "kayit": "1780-01-01 Tîpû Sultan roket topçuluğu geliştirdi", "kunye": "meysur", "durum": "✓ UYUYOR" },
+    { "kayit": "1782-12-07 Haydar Ali öldü, Tîpû Sultan geçti", "kunye": "meysur", "durum": "✓ UYUYOR" },
+    { "kayit": "1786-01-01 Tîpû Sultan Osmanlı'ya elçi gönderdi", "kunye": "meysur", "durum": "✓ UYUYOR" },
+    { "kayit": "1799-07-07 Rançit Singh Lahor'u ele geçirdi", "kunye": "sih-imparatorlugu", "kunye_penceresi": "1801-04-12 → 1849-03-29", "durum": "🔴🔴 UYMUYOR — olay künyenin f:'İNDEN 21 AY ÖNCE", "not": "AYRINTI §3'te" },
+    { "kayit": "1801-04-12 Rançit Singh taç giydi", "kunye": "sih-imparatorlugu", "durum": "✓ UYUYOR (f: ile TAM eşleşme)" },
+    { "kayit": "1830-01-01 Rançit Singh Altın Tapınak'ı kaplattı", "kunye": "sih-imparatorlugu", "durum": "✓ UYUYOR" },
+    { "kayit": "1839-06-27 Rançit Singh öldü", "kunye": "sih-imparatorlugu", "durum": "✓ UYUYOR" }
+  ],
+
+  "③ 🔴_TEK_GERCEK_PENCERE_SORUNU_sih_imparatorlugu": {
+    "olay": "1799-07-07 Rançit Singh Lahor'u ele geçirdi",
+    "kunyenin_f": "1801-04-12 (Rançit Singh'in 'Maharaja' unvanıyla TAÇ GİYDİĞİ gün)",
+    "celiski": "Lahor'un fiilî ele geçirilişi (1799) ile resmî unvan/taç giyme (1801) arasında 21 aylık fark var. Künyenin f:'i UNVAN tarihini kullanıyor, DE FACTO iktidar tarihini değil.",
+    "emsal_karsilastirma": "Projenin KENDİ konvansiyonu tam tersi yönde: `meysur`ün f:'i Haydar Ali'nin unvan almadığı, yalnız FİİLEN iktidarı ele geçirdiği 1761 tarihi. Yani sih-imparatorlugu'nun f:'i, meysur'un kendi emsaliyle TUTARSIZ.",
+    "cozum_onerileri": [
+      "A) f:'i 1799-07-07'ye ÇEK — meysur emsaliyle tutarlı olur, 1799 kaydı içeri girer",
+      "B) f:'i DEĞİŞTİRME — 1799 kaydı 'künye penceresi dışında' diye işaretlenir (D011: veri penceresi ile künye penceresi ayrı şeylerdir), Rançit Singh'in 1799-1801 arası dönemi bir ÖNCEKİ kimliğe (Pencap'ın o dönemki dağınık Sih misl/konfederasyon yapısı, kendi künyesi YOK) ya da AÇIK bırakılır"
+      ],
+    "oneri": "A — künyenin KENDİ İÇİNDEKİ tutarlılık (meysur emsali) daha ağır basıyor, ve kaynak (Wikipedia 'Ranjit Singh': Lahor'un alınışı 7 Temmuz 1799) sağlam. Ama KARAR EMRE'NİN/1.MURAT'IN — künye f:/t: değiştirmek `data/` yazımı, bu hazırlık dosyası önerir, uygulamaz."
+  },
+
+  "④ §3.5.0_ALTI_BILINEN_EKSIK — DOGRULANDI, TASLAKLAR": {
+    "genel_not": "Hepsi TDV'de ÖLÜ (302): meysur-racaligi, gvalyar, indor, kolhapur taranmadı ayrı ayrı ama meysur-racaligi/gvalyar/indor/kolhapur icin curl denendi, hepsi 302. Bu bölge/tanecik TDV'nin kapsamadığı bir alan (§4 coğrafî+tanecik boşluğu) — standart akademik kaynak MEŞRU.",
+    "①_meysur_racaligi": {
+      "id_onerisi": "meysur-racaligi", "ad_onerisi": "Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)",
+      "f_onerisi": "1799-05-04", "f_gerekcesi": "meysur künyesinin t:'i İLE TAM ZİNCİRLEME (D084: komşunun kullandığı günü kullanmak kendi gününü seçmekten dayanaklıdır) — Tipu'nun ölümü/Seringapatam'ın düşüşü",
+      "t_onerisi": "1923-10-29 (atlasın kendi pencere sonu, haydarabad-nizam emsali) — GERÇEK son 1947/1950 ama proje konvansiyonu böyle görünüyor, TEYİT İSTİYOR",
+      "bolge": "guney-asya",
+      "kaynak": "bulunamadı — TDV'de madde yok (meysur-racaligi 302), dayanak: standart akademik kaynak (Wikipedia 'Kingdom of Mysore': '5 yaşındaki Krishnaraja Wodeyar III, 30 Haziran 1799'da İngiliz Doğu Hindistan Şirketi tarafından tahta oturtuldu, himaye altında')",
+      "ardil_kurali_notu": "§3.5.0'ın kendi tanısı: 'aynı devlet DEĞİL' — meysur (Haydar Ali/Tipu Sultanlığı) ile meysur-racaligi (restore edilmiş Hindu Wodeyar hanedanı) FARKLI rejimler, aynı toprak. Bu yüzden GENİŞLETME değil YENİ KÜNYE doğru."
+    },
+    "②_gvalyar": {
+      "id_onerisi": "gvalyar", "ad_onerisi": "Gvalyar Devleti (Sindiya Hanedanı)",
+      "f_onerisi": "1731-01-01 (yaklaşık — Ranoji Sindiya'nın kuruluşu, GÜN/AY doğrulanmadı)",
+      "t_onerisi": "1923-10-29 (atlas pencere sonu, TEYİT İSTİYOR) — gerçek son 1948",
+      "bolge": "guney-asya",
+      "kaynak": "bulunamadı — TDV'de madde yok (302), dayanak: standart akademik kaynak (Wikipedia 'Gwalior State': 'Ranoji Sindiya 1731'de kurdu, 1745'e kadar hükümdarlık etti')",
+      "not": "maratha'nın (Peşva merkezli) 1818'deki çöküşünden SONRA da bağımsız prenslik olarak sürdü — meysur-racaligi ile AYNI SINIF (§3.5.0 ARDIL deseni)"
+    },
+    "③_indor": {
+      "id_onerisi": "indor", "ad_onerisi": "İndor Devleti (Holkar Hanedanı)",
+      "f_onerisi": "1732-07-29", "f_gerekcesi": "Wikipedia 'Indore State': '29 Temmuz 1732'de kuruldu'",
+      "t_onerisi": "1923-10-29 (atlas pencere sonu, TEYİT İSTİYOR) — gerçek son 1948",
+      "bolge": "guney-asya",
+      "kaynak": "bulunamadı — TDV'de madde yok (302), dayanak: standart akademik kaynak (Wikipedia 'Indore State')"
+    },
+    "④_kolhapur": {
+      "id_onerisi": "kolhapur", "ad_onerisi": "Kolhapur Devleti (Şivâcî'nin İkinci Kolu)",
+      "f_onerisi": "bulunamadı — yaklaşık 1707-1710 (Tarabai/II. Sambhaji kolu ana Maratha tahtından ayrıldığı dönem), KESİN GÜN DOĞRULANAMADI",
+      "t_onerisi": "1923-10-29 (atlas pencere sonu, TEYİT İSTİYOR) — gerçek son 1949",
+      "bolge": "guney-asya",
+      "kaynak": "bulunamadı — TDV'de madde yok (302), dayanak: standart akademik kaynak (Wikipedia 'Kolhapur State'). f: KESİNLEŞMEDEN yazılmamalı — bu bir sonraki araştırma adımı"
+    },
+    "⑤⑥_pejeng_ve_bali_kralliklari_pejeng": {
+      "🟡_belirsizlik": "§3.5.0'daki liste bu ikisini AYRI iki slug gibi sayıyor ('pejeng · bali-kralliklari-pejeng') ama CLAUDE.md'nin KENDİ metni (§3.5.0 singhasari bölümü) TEK bir tarihsel boşluktan bahsediyor: Bali adasının 1292-1343 arası BAĞIMSIZ Pejeng hanedanı dönemi. Bu iki slug AYNI boşluğun iki farklı önerilen adı OLABİLİR — çözülmedi, bu görevin kapsamı dışı (bölge Güneydoğu Asya, 'Hindistan üçüncü taraf' değil).",
+      "id_onerisi": "bali-kralliklari-pejeng (tek slug, çift ad kaldırılsın öneri)",
+      "ad_onerisi": "Pejeng Hanedanı (Bali, Majapahit öncesi)",
+      "f_onerisi": "bulunamadı — 1292 civarı (Singasari'nin Bali kolunun bağımsızlaştığı dönem), KESİN GÜN YOK",
+      "t_onerisi": "1343-01-01 (Gajah Mada'nın Bali'yi alışı — CLAUDE.md'nin kendi metninde '1343 DOĞRU' diye zaten doğrulanmış)",
+      "kaynak": "bulunamadı — TDV kapsamı dışı (Güneydoğu Asya, İslam öncesi Hindu-Budist dönem), dayanak: standart akademik kaynak ARANMADI (bu görevin bölgesi değil, yalnız §3.5.0'ın envanterini doğrulamak için tarandı)"
+    }
+  },
+
+  "OZET_SAYILAR": {
+    "gorevde_verilen_onculu": "3 kume kunyesi ARANMAMIS/YOK sanildi",
+    "gercek": "3 kume kunyesi (meysur, maratha, sih-imparatorlugu) ZATEN VAR + 1 gozden kacan kume (sind) de VAR",
+    "11_kayittan_kac_baglandi": 11,
+    "pencere_uyusmazligi": 1,
+    "alti_bilinen_eksikten_dogrulanan": "5 benzersiz (pejeng/bali-kralliklari-pejeng AYNI BOSLUK olabilir)",
+    "taslak_hazirlanan": 5
+  }
+}
