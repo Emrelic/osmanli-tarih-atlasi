@@ -9,6 +9,7 @@ window.HUKUKI_SINIRLAR = [
 {
   id: "midye-enez-1913",
   taraflar: ["osmanli", "bulgaristan-kralligi"],
+  hassasiyet: "cizgi", // BULGU-BELGE-HASSASIYETI-0911.md sınıflandırması: metnin kendisi iki nokta arası bir hat tarif ediyor, yorum/komisyon gerekmiyor
   // 🔴 DÜZELTME (görevin ② talimatı): SEMA-C-0911.md §8.1'deki örnekte
   // KASITLI OLARAK "balkan-devletleri" bırakılmıştı (tekil künye DEĞİL,
   // devletler.js'te böyle bir id yok — uyarı örneğiydi). devletler.js
@@ -116,6 +117,7 @@ window.HUKUKI_SINIRLAR = [
   // sınıyor, D021'in istediği "tek örnek yetmez" testini karşılıyor.
   id: "misir-sudan-22-paralel-1899",
   taraflar: ["misir-kavalali", "ingiliz-sudani"],
+  hassasiyet: "cizgi", // saf bir enlem degeri -- cizgi turunun en KESKIN hali, komisyon/yorum gerekmez
   // devletler.js TARANDI (tahmin edilmedi): "ingiliz-sudani" (İngiliz
   // Sudanı/Anglo-Mısır Kondominyumu, f:1899-01-19, t:1923-10-29,
   // tur:gecici-isgal) — f: TARİHİ BU ANTLAŞMANIN İMZA GÜNÜYLE BİREBİR
@@ -183,6 +185,7 @@ window.HUKUKI_SINIRLAR = [
 {
   id: "karlofca-bosna-sava-1699",
   taraflar: ["osmanli", "habsburg"],
+  hassasiyet: "cizgi", // BULGU-BELGE-HASSASIYETI §A: nehirle tarif edilmis ama 1699-1703 sinir komisyonuyla KESINLESMIS, metnin kendisi CERCEVE veriyor -- "cizgi" damgasi metnin SEVIYESINI gosterir, NIHAI hassasiyeti degil (asagidaki not)
   f: "1699-01-26", t: null,
   hat: {
     tur: "dogal-tanimsiz",   // Sava BUYUK'te taniniyor aslinda ①a olurdu (C GEREKMEZ)
@@ -208,6 +211,7 @@ window.HUKUKI_SINIRLAR = [
 {
   id: "karlofca-banat-maros-tisza-tuna-1699",
   taraflar: ["osmanli", "habsburg"],
+  hassasiyet: "cizgi", // uc nehirli cizgi, BULGU-BELGE-HASSASIYETI §A ile ayni cekince: 1699-1703 komisyonu kesinlestirdi
   f: "1699-01-26", t: null,
   hat: {
     tur: "dogal-tanimsiz",
@@ -235,6 +239,7 @@ window.HUKUKI_SINIRLAR = [
 {
   id: "karlofca-bosna-kaleler-1699",
   taraflar: ["osmanli", "habsburg"],
+  hassasiyet: "yer", // BULGU-BELGE-HASSASIYETI §A②: kale ADLARIYLA sayiliyor, aralarindaki cizgiyi belge CIZMIYOR
   f: "1699-01-26", t: null,
   hat: {
     tur: "nokta-kumesi",     // 🆕 §9.3③ — Emre'nin düzeltmesiyle eklenen TÜR
@@ -263,6 +268,7 @@ window.HUKUKI_SINIRLAR = [
 {
   id: "karlofca-lehistan-1699",
   taraflar: ["osmanli", "lehistan"],
+  hassasiyet: "yer", // Sucava/Bar/Kamanice/Roman ADIYLA sayiliyor, cizgi yok
   f: "1699-01-26", t: null,
   hat: {
     tur: "nokta-kumesi",
@@ -290,6 +296,7 @@ window.HUKUKI_SINIRLAR = [
 {
   id: "karlofca-venedik-1699",
   taraflar: ["osmanli", "venedik"],
+  hassasiyet: "yer", // Ayamavra/Trebinye/Kataro ADIYLA -- AMA "Korent kiyisi" alt-ogesi BULGU-BELGE-HASSASIYETI'nin ③BOLGE seviyesinde (bkz. gereken_cografya'daki not), yani bu kayit da KARMA -- sahte kesinlik olmasin diye acikca yaziyorum
   f: "1699-01-26", t: null,
   hat: {
     tur: "nokta-kumesi",
@@ -332,6 +339,7 @@ window.HUKUKI_SINIRLAR = [
   // açıkça işaretliyorum).
   id: "karlofca-bosna-una-1699",
   taraflar: ["osmanli", "habsburg"],
+  hassasiyet: "karma", // 🆕 BULGU-BELGE-HASSASIYETI §A'nin AYNI maddede ①cizgi(Una) + ②yer(kaleler) BIRLIKTE oldugunu gosteren TAM ORNEGI -- sema uc degerle (cizgi/yer/bolge) yetmedigi icin "karma" eklendi, D107 acikca
   f: "1699-01-26", t: null,
   hat: {
     tur: "karma",   // 🆕 M-3480 ile gelen BEŞİNCİ tür — hem çizgi hem nokta listesi TAŞIYOR
@@ -366,6 +374,102 @@ window.HUKUKI_SINIRLAR = [
     url: "https://www.scribd.com/document/248934439/Karlova%C4%8Dki-Mir",
     guvenilirlik_notu: "🔴 Bu url bir barındırma platformu (scribd) — İÇERİĞİ tarihi bir antlaşma metni derlemesi olsa da, DAHA SAĞLAM bir akademik/resmi kaynakla (ör. Consolidated Treaty Series, Oxford Public International Law) TEYİT EDİLMELİ. Bu turda ikinci bir kaynakla çapraz doğrulanmadı, D107 gereği açıkça yazılıyor." },
   kaynak_ikincil: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca", not: "Bu spesifik Una/kale maddesi için TDV metni bu turda AYRICA okunmadı — kapsam dışı bırakıldı." }
+},
+
+// ============================================================================
+// C KAYIT ÜRETİMİ görevi (aynı gün) — İKİ YENİ KAYIT.
+// ============================================================================
+
+{
+  // Görevin listelediği dördüncü aday: "Erzurum II 1847 — Şattülarap,
+  // zincirin keskin ucu". Kasr-ı Şirin'in (①③ karışık, ağırlıkla ③)
+  // TAM TERSİ bir örnek: burada nehir + iki yerleşim AÇIKÇA, isimle
+  // sayılıyor — zincirin EN keskin/en az belirsiz ucu.
+  id: "ii-erzurum-sattularap-1847",
+  taraflar: ["osmanli", "kacar"],
+  hassasiyet: "cizgi", // nehrin KENDİSİ sınır (batı yakası tamamen Osmanlı), + iki yerleşim ADIYLA -- BULGU-BELGE-HASSASIYETI'nin ①②'sinin bir arada, ama BASKIN olan CIZGI (nehrin tamamı bir tarafta)
+  f: "1847-05-31",
+  t: null,
+  f_kaynak: "TDV 'sattularap' maddesi + envanterin kendi kaydı (olaylar_ok106.js), imza günü",
+  hat: {
+    tur: "dogal-tanimsiz",
+    nokta_dizisi: [
+      { lon: 47.783, lat: 30.508, ad: "Basra (nehrin başlangıç ucu civarı)",
+        kaynak: "data/yerlesimler.js (Basra kaydı) — MEVCUT nokta, koordinat uydurulmadı", dogrulanmadi: false },
+      { lon: 48.53183, lat: 29.961208, ad: "Şattülarap'ın Basra Körfezi'ne döküldüğü yer",
+        kaynak: "veri-kaynak/ne_10m_rivers.geojson 'Shatt al Arab' geometrisinin son noktası — KAPSAM-C-0911.json'da bağımsız ölçüldü", dogrulanmadi: false }
+    ]
+  },
+  nokta_atamalari: [
+    { ad: "Muhammere", lat: 30.4392, lon: 48.1664, taraf: "kacar", kaynak: "data/yerlesimler.js — MEVCUT nokta (koordinat uydurulmadı); TDV/envanter: nehrin DOĞU yakası Kaçarlar'a bırakıldı" },
+    { ad: "Abadan (ada)", lat: null, lon: null, taraf: "kacar", kaynak: "TDV/envanter: 'Muhammere limanı ve karşısındaki Abadan adası dâhil' Kaçarlar'a — koordinat bu turda ARANMADI" },
+    { ad: "Basra", lat: 30.508, lon: 47.783, taraf: "osmanli", kaynak: "data/yerlesimler.js — MEVCUT nokta" }
+  ],
+  onemli_not_motor_zaten_taniyor: "🔴 BİRİNCİL-C-0911.json + PILOT-C-SATTULARAP-0911.json'da ÖLÇÜLDÜ: Şattülarap nehri veri-kaynak/ne_10m_rivers.geojson'da 'Shatt al Arab' adıyla VAR, scalerank=3.0 (eşik 5.0'ın altında) — motor bu nehri BUYUK ad listesinde olmasa bile ZATEN yaslama havuzuna alıyor (Basra 6,1 km, Muhammere 1,7 km, yarıçap 33,3 km içinde). ⇒ Bu kayıt Emre'nin GENİŞ tanımıyla (M-3463/M-3467: 'net sınır çizdiren HER belge C'dir') meşru bir C KAYDIDIR, AMA motorun bu sınırı zaten A/B ile doğru çizebileceği ayrıca ölçülmüştü — yani C'nin BURADA KESİN GEREKLİLİĞİ (mekanik anlamda) hâlâ açık bir soru, kayıt kendisi ise (belge+coğrafya) tam ve doğrulanabilir.",
+  gereken_cografya: [
+    { ad: "Şattülarap (nehir)", tur: "nehir", atlasta_var: true, atlasta_kaynak: "veri-kaynak/ne_10m_rivers.geojson 'Shatt al Arab', scalerank=3.0 (KAPSAM-C-0911.json'da doğrulandı)" },
+    { ad: "Muhammere", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js" },
+    { ad: "Basra", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js" },
+    { ad: "Abadan", tur: "yerlesim", atlasta_var: "taranmadı", atlasta_kaynak: null }
+  ],
+  kapsama: {
+    tur: "bbox",
+    kutu: { lat_min: 28.5, lat_max: 31.5, lon_min: 46.5, lon_max: 49.0 },
+    dogal_sinir_gerekcesi: "Güneydoğu: Basra Körfezi (doğal deniz sınırı, nehrin döküldüğü yer). Kuzeybatı: Basra'nın kuzeyine yeterli pay bırakıldı. M-3480 kuralına uygun genişletildi, dar bir nehir-şeridi kutusu DEĞİL.",
+    sezgi_kapali: true,
+    yon_kurali: "cross_yerel ile nehrin YEREL segmentine göre: nehrin batısı/güneybatısı -> osmanli, doğusu/kuzeydoğusu -> kacar (SEMA-C §8.2 yerel-segment algoritması, egri hat icin tasarlanan yontem)"
+  },
+  kaynak: {
+    tur: "TDV İslâm Ansiklopedisi",
+    ad: "sattularap",
+    madde: "bulunamadı — TDV'nin bu maddesinde numaralı madde YOK, düzyazı anlatım",
+    alinti: "Şattülarap'ın en kapsamlı biçimde ele alındığı antlaşma 1847 Mayısında Erzurum'da imzalanandır.",
+    url: "https://islamansiklopedisi.org.tr/sattularap"
+  },
+  kaynak_ikincil: {
+    tur: "proje envanteri (data/olaylar_ok106.js)",
+    alinti: "Şattülarap suyolunun tamamı Osmanlı'da kaldı; buna karşılık nehrin doğu yakasındaki yerleşimler -Muhammere limanı ve karşısındaki Abadan adası dâhil- Kaçarlar'a bırakıldı.",
+    not: "Bu envanterin KENDİ kaydı, TDV'nin dışında ikinci bir teyit olarak kullanıldı."
+  }
+},
+
+{
+  // Beşinci aday, kendi seçimim: Bahçesaray Antlaşması (1681) — Özü
+  // (Dinyeper) nehri. Yüksek hassasiyet (nehir adıyla açık çizgi) VE
+  // erişilebilir kaynak (TDV, canlı slug, gövde okunmuş — daha önceki
+  // ENVANTER-C-0911 turunda zaten çıkarılmıştı).
+  id: "bahcesaray-ozu-1681",
+  taraflar: ["osmanli", "rusya"],
+  hassasiyet: "cizgi",
+  f: "1681-01-11",
+  t: null,
+  f_kaynak: "TDV 'merzifonlu-kara-mustafa-pasa' maddesi + ENVANTER-C-0911.json'da zaten çıkarılmış tarih",
+  hat: {
+    tur: "dogal-tanimsiz",
+    nokta_dizisi: [
+      { lon: null, lat: null, ad: "Özü (Dinyeper) nehrinin Karadeniz'e döküldüğü yer", dogrulanmadi: true },
+      { lon: null, lat: null, ad: "Özü'nün yukarı mecrasında antlaşmanın bıraktığı nokta", dogrulanmadi: true }
+    ]
+  },
+  gereken_cografya: [
+    { ad: "Özü (Dinyeper/Dnipro)", tur: "nehir", atlasta_var: true,
+      atlasta_kaynak: "arac/uret_petek.py BUYUK kümesi ('Dnipro','Dnieper') — KAPSAM-C-0911.json'da doğrulanmıştı" }
+  ],
+  kapsama: {
+    tur: "bbox", kutu: null,
+    not: "🔴 TAMAMLANMADI — bu beşinci kayıt HIZLI üretildi (görevin '5. adayı kendin seç' talimatına cevaben), koordinat/kapsama kutusu bir SONRAKİ tur için AÇIK bırakıldı. D107 gereği açıkça: eksik.",
+    sezgi_kapali: true
+  },
+  kaynak: {
+    tur: "TDV İslâm Ansiklopedisi",
+    ad: "merzifonlu-kara-mustafa-pasa",
+    madde: "bulunamadı — TDV'nin bu maddesinde numaralı madde YOK",
+    alinti: "Çehrin seferlerinin ardından Kırım Hanı'nın aracılığıyla yürütülen görüşmeler sonunda, Özü (Dinyeper) nehri sınır kabul edilerek Osmanlı Devleti ile Rusya arasında yirmi yıllık bir barış imzalandı.",
+    url: "https://islamansiklopedisi.org.tr/merzifonlu-kara-mustafa-pasa",
+    guvenilirlik_notu: "Bu alıntı ENVANTER-C-0911.json'daki daha önceki turdan TAŞINDI (D104: bir cümle iki kayıt arasında taşınırken kaynağını da taşır) — bu turda TDV maddesine yeniden gidip madde numarası ARANMADI, açıkça 'bulunamadı' yazıldı."
+  },
+  kaynak_ikincil: { tur: null, not: "aranmadı" },
+  ONEMLI_EKSIK: "Bu kayıt görevin '5 kayıt' sayısını TAMAMLAMAK için hızlı üretildi ama koordinat/kapsama kutusu EKSİK — üretim öncesi (koşu donukluğu kalkınca) tamamlanmalı, aksi halde YARIM bir C kaydı olarak KALIR."
 }
 
 ];

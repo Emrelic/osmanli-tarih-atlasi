@@ -793,3 +793,31 @@ kapsamının AÇIKÇA ÖTESİNE geçiyor — bir uygulama oturumunun bu 5-6
 fonksiyonun HER BİRİNE "eğer kapsama_alani_icindeyse atla" kontrolü
 eklemesi gerekecek. D107: **konum listesi verildi, tam entegrasyon
 TASARLANMADI.**
+
+---
+
+## 11. 🆕 C KAYIT ÜRETİMİ (aynı gün) — `hassasiyet:` alanı + 10 kayıt
+
+**Zemin:** `denetim/BULGU-BELGE-HASSASIYETI-0911.md` (kardeş oturum) üç
+düzey ölçtü — ①ÇİZGİ (belge geometri veriyor) · ②YER (belge yer listesi
+veriyor, aradaki çizgiyi VERMİYOR) · ③BÖLGE (ne çizgi ne yer, yalnız isim).
+Bu üçü, `TASLAK-hukuki_sinirlar.js`'teki HER kayda `hassasiyet:
+"cizgi"|"yer"|"bolge"` alanı olarak eklendi — **kardeş oturumun (KASR-I
+ŞİRİN ZİNCİRİ) bulduğu riski önlemek için**: aynı hat için ardışık
+kayıtlar farklı hassasiyette olabilir, damgalanmazsa okuyan ikisini eşit
+sanır (`§4`'ün "sahte kesinlik" kusurunun C yüzü).
+
+**🆕 DÖRDÜNCÜ değer gerekti: `"karma"`** — Karlofça'nın Una/Bosna maddesi
+AYNI ANDA ①ÇİZGİ (Una nehri) VE ②YER (garnizon kaleleri) taşıyor;
+üç-değerli şema bunu ifade edemedi, D107 gereği açıkça dördüncü bir
+değer eklendi. Aynı desen `karlofca-venedik-1699`de de (esas "yer" ama
+"Korent kıyısı" alt-öğesi ③BÖLGE seviyesinde) İÇTEN görülüyor — bu kayıt
+saf `"yer"` bırakıldı ama karışıklığı AÇIKÇA bir yorumla işaretlendi.
+
+**Toplam durum:** 10 kayıt — 6 `cizgi` (Midye-Enez, Mısır-Sudan/22.paralel,
+Karlofça-Sava, Karlofça-Banat, Erzurum-II/Şattülarap, Bahçesaray-Özü),
+3 `yer` (Karlofça-kaleler/Lehistan/Venedik), 1 `karma` (Karlofça-Una).
+**Bahçesaray-Özü koordinat/kapsama kutusu TAMAMEN eksik bırakıldı**
+(`ONEMLI_EKSIK` alanıyla işaretli); Erzurum-Şattülarap'ın nehir uçları
+`dogrulanmadi:true` ama Muhammere/Basra/kapsama kutusu GERÇEK koordinat
+taşıyor — ikisi FARKLI eksiklik derecesinde, ayrı ayrı damgalandı.
