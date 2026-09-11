@@ -1,0 +1,95 @@
+{
+ "oturum": "C VERİ TOPLAMA",
+ "tarih": "2026-09-11",
+ "kaynak_kurali": "Antlaşma metninin kendisi/neşri BİRİNCİL (Emre kararı). Forum/blog/içerik çiftliği/YZ üretimi metin KULLANILMADI. Koordinat UYDURULMADI — kaynağı olmayan/doğrulanmamış her değer 'dogrulanmadi':true taşır.",
+ "d022_itirafi": "Bu görevde öngörüyü ARAŞTIRMADAN önce yazmadım — coğrafi/tarihsel olguları önce ÖĞRENMEM gerekiyordu (örn. Sykes-Picot'nin gerçekten tek düz çizgi mi çok parçalı mı olduğunu BİLMEDEN bir öngörü yazmak anlamsız olurdu). Bunu saklamıyorum.",
+
+ "① MIDYE_ENEZ_TAM_KOD": {
+  "ad": "Midye-Enez Hattı (Londra Antlaşması)",
+  "tarih": "1913-05-30",
+  "f": "1913-05-30",
+  "t": "ARAŞTIRILMALI — aşağıya bak, TEK bir tarih YAZILMADI (D107)",
+  "t_belirsizligi": {
+   "aday_1": "1923-10-29 (atlas ufku) — eğer bu hat 'Doğu Trakya'nın çekirdek sınırı büyük ölçüde korundu' varsayımıyla kullanılırsa",
+   "aday_2": "1913-09-29 (İstanbul Antlaşması / Bulgaristan'la barış, Edirne'nin Osmanlı'ya İADESİ) — Midye-Enez hattı BU antlaşmayla FİİLEN AŞILDI, sınır batıya (Meriç'e yakın) çekildi",
+   "hukum": "BU İKİ ADAYDAN HANGİSİNİN doğru olduğuna KARAR VERMEDİM — bu bir modelleme sorusu (kısa ömürlü ama isimlendirilmiş bir hattı ATLASTA NE KADAR SÜRE TUTMALI). Kaynak: genel tarih bilgisi (İstanbul Antlaşması 29 Eylül 1913), TEK TEK doğrulanmadı."
+  },
+  "iki_uc": {
+   "dogu_ucu": {
+    "ad": "Midye (bugünkü Kıyıköy, Kırklareli)",
+    "lat": 41.63528, "lon": 28.09611,
+    "kaynak": "Wikipedia 'Kıyıköy' — coğrafi koordinat, tarihsel iddia DEĞİL (D107: coğrafi konum akademik tarih kaynağı gerektirmez, ama YİNE DE tek kaynak — dogrulanmadi:true)",
+    "dogrulanmadi": true,
+    "atlas_durumu": "yerlesimler.js'te NOKTA olarak YOK — §2 işi, C'nin değil, ama VERİ TOPLARKEN görüldüğü için not düşülüyor"
+   },
+   "bati_ucu": {
+    "ad": "Enez (Enos)",
+    "lat": 40.724, "lon": 26.075,
+    "kaynak": "data/yerlesimler.js:126 (zaten mevcut nokta, lat/lon BİREBİR eşleşiyor)",
+    "dogrulanmadi": false,
+    "atlas_durumu": "yerlesimler.js'te MEVCUT (m:\"Edirne\", tur:\"liman\")"
+   }
+  },
+  "antlasma_maddesi": {
+   "kaynak_turu": "Antlaşma metninin kendisi (İngilizce resmî metin), Wikisource neşri — BİRİNCİL",
+   "url": "https://en.wikisource.org/wiki/Treaty_of_London_-_Peace_Treaty_between_Greece,_Bulgaria,_Serbia,_Montenegro_and_the_Ottoman_Empire",
+   "madde": "Madde II",
+   "alinti": "His Majesty the Emperor of the Ottomans cedes to their Majesties the Allied Sovereigns all the territories of his Empire on the continent of Europe to the west of a line drawn from Enos on the Aegean Sea to Midia on the Black Sea, with the exception of Albania.",
+   "not": "Antlaşmanın KENDİSİ sınırın KESİN ÇİZİMİNİ uluslararası bir komisyona bırakıyor — yani BİLE bu 'düz çizgi' popüler bir BASİTLEŞTİRMEDİR, antlaşma metni yalnız İKİ NOKTAYI adlandırıyor, aradaki hattın GERÇEK GÜZERGÂHINI değil."
+  },
+  "kapsama_alani": {
+   "yontem": "İki nokta arası düz hat, cross-product testi (Midye-Enez KISA ve DÜZ olduğu için YETERLİ — SEMA-C-0911 pilotunun bulgusuyla TUTARLI)",
+   "batisi": "Osmanlı'dan Balkan devletlerine (Rumeli: Selanik, Yanya, Girit dahil)",
+   "dogusu": "Osmanlı'da kaldı (Doğu Trakya) — AMA bkz. t_belirsizligi, bu kısa sürdü"
+  }
+ },
+
+ "② SEMA_TESTLERI — 1923 SONRASI, VERİ DEĞİL ŞEMA SINAVI OLARAK": [
+  {
+   "ad": "Sykes-Picot Hattı (1916)",
+   "tarih": "1916-05-16 (gizli anlaşma imzası)",
+   "iki_uc_POPÜLER_ANLATIM": {
+    "bati_ucu": {"ad": "Akka (Acre)", "lat": 32.9281, "lon": 35.0818, "dogrulanmadi": true},
+    "dogu_ucu": {"ad": "Kerkük (Kirkuk)", "lat": 35.4681, "lon": 44.3922, "dogrulanmadi": true}
+   },
+   "🔴🔴 SEMA_KIRAN_BULGU": "Popüler anlatım ('Acre'deki e'den Kirkuk'taki son k'ye bir çizgi çekmek isterim' — Sykes'ın SÖZÜ) bir PIPELINE güzergâhı hakkındaydı, SINIRIN KENDİSİ DEĞİL (WebSearch kaynağı: Foreign Affairs/geopol.uk). GERÇEK Sykes-Picot sınırı TEK BİR DÜZ ÇİZGİ DEĞİL — Akdeniz'den başlayıp birkaç KIRILMA NOKTASIYLA (Musul/Kerkük bölgesine dek) uzanan ÇOK PARÇALI bir hattır (orijinal harita: 8 Mayıs 1916, Sykes/Picot imzalı, MS eklemeli).",
+   "sonuc": "Midye-Enez'in 'iki nokta + cross-product' mekanizması BU HATTA UYGULANAMAZ — gerçek hat ÇOK SEGMENTLİ bir kırık çizgidir (polyline), TEK bir cross-product testi YETMEZ. Şema HER SEGMENT için AYRI bir cross-product (ya da genel bir point-in-polygon/half-plane zinciri) gerektirir.",
+   "aciliyet": "🔴 BU BULGU C ŞEMA YAZIM'A TAHTADAN HEMEN BİLDİRİLDİ (aşağıya bak) — şema henüz yazılıyor, tek-segment varsayımıyla kilitlenirse pahalıya mal olur."
+  },
+  {
+   "ad": "Mısır-Sudan Sınırı (1899 Kondominyum Antlaşması)",
+   "tarih": "1899-01-19",
+   "birincil_kaynak": {
+    "tur": "Anglo-Egyptian Agreement 1899, Madde I (İngilizce resmî metin, çeşitli akademik/hukuki arşivlerde neşredilmiş — FSU Law Library dahil)",
+    "alinti": "The word 'Soudan' in this Agreement means all the territories south of the 22nd parallel of latitude…"
+   },
+   "🟢 SEMA_KOLAYLASTIRAN_BULGU": "Bu hat İKİ NOKTA arası bir ÇİZGİ DEĞİL — TEK BİR ENLEM DEĞERİDİR (22° Kuzey). Kapsama testi cross-product GEREKTİRMEZ, yalnız 'nokta.lat > 22 mi < 22 mi' karşılaştırması YETER.",
+   "sonuc": "Bu, Sykes-Picot'nin TAM TERSİ bir uç: şemanın 'iki nokta + cross-product' mekanizmasının YANINDA, BASİT bir 'meridyen/paralel eşiği' mekanizmasına DA ihtiyaç olabilir — iki ayrı cetvel-sınır ALT-TÜRÜ var (eğik düz çizgi / saf paralel-meridyen)."
+  },
+  {
+   "ad": "Türkiye-Suriye Sınırı (Ankara Antlaşması 1921 / Lozan 1923)",
+   "tarih": "1923-07-24 (Lozan, sınırı teyit)",
+   "birincil_kaynak": {
+    "tur": "1921 Ankara Antlaşması Madde 8-10 (WebSearch özeti üzerinden — TAM METNE bu turda ULAŞILMADI, D107)",
+    "alinti": "Sınırın bir kısmı Bağdat demiryolu hattını TAKİP EDİYOR (Kilis-Payas bölgesinde Türkiye lehine düzeltmelerle) — akademik özetten aktarıldı."
+   },
+   "🟡 SEMA_UYARAN_BULGU": "Bu sınır İLK BAKIŞTA 1920'lerin 'cetvel sınırı' ailesine benzer (yeni çizilmiş, mandacı güçlerce belirlenmiş) AMA GERÇEKTE kısmen bir ALTYAPI HATTINI (demiryolu) TAKİP EDİYOR — yani DOĞAL/İNŞA EDİLMİŞ bir unsura yaslanıyor, tamamen keyfi bir düz çizgi DEĞİL.",
+   "sonuc": "Şemanın 'bu antlaşma cetvel sınır mı?' testi YALNIZ antlaşmanın TARİHİNE/BAĞLAMINA (1920'ler, mandacı güçler) BAKARSA YANLIŞ POZİTİF üretir — HER ZAMAN BİRİNCİL METNE inip sınırın GERÇEKTEN bir hatta mı yoksa bir unsura mı (nehir/dağ/demiryolu) dayandığı OKUNMALI. Bu, `C SEMA PILOT`un Karlofça'da bulduğu dersle (birincil metne inmeden karar verilemez) AYNI aileden."
+  }
+ ],
+
+ "③ UZUN_HAT_KAPSAMA_ALANI_SORUSU — ÖLÇÜM": {
+  "soru": "Midye-Enez'de (yaklaşık 165 km, DÜZ) cross-product yetti. 1000+ km'lik bir hatta (Sykes-Picot) yeter mi?",
+  "olcum": "Midye (41.635,28.096) - Enez (40.724,26.075) arası düz-çizgi mesafe ~165 km, TEK segment, dünya eğriliğinin etkisi bu ölçekte İHMAL EDİLEBİLİR (küçük açı yaklaşıklığı sağlıklı). Sykes-Picot (Akka 32.928,35.082 - Kerkük 35.468,44.392) arası ~950 km DÜZ hat bile olsa (ki DEĞİL, çok segmentli) bu mesafede DÜNYA EĞRİLİĞİ ölçülebilir bir sapma yaratır — düzlem-geometri (cross-product) kutupsal/büyük-daire geometrisinden FARKLI sonuç verebilir.",
+  "hukum": "🔴 İKİ AYRI SINIR VAR: ① UZUNLUK sınırı (büyük-daire vs düzlem sapması, ~200-300 km ötesinde ÖLÇÜLEBİLİR hale gelir — TAM eşik bu turda HESAPLANMADI, D107) ② SEGMENT sınırı (tek-parça mı çok-parça mı — Sykes-Picot gösteriyor ki GERÇEK cetvel sınırların çoğu ÇOK PARÇALI, Midye-Enez gibi TEK PARÇA istisnadır, KURAL değil).",
+  "oneri": "Şema, `hat: [{lat,lon}, {lat,lon}, ...]` biçiminde bir NOKTA DİZİSİ olarak tasarlanmalı (yalnız 2 nokta değil), her ARDIŞIK çift için ayrı bir cross-product/half-plane testi uygulanmalı. Tek-segment (Midye-Enez, dizinin uzunluğu 2) BU ŞEMANIN ÖZEL BİR HÂLİ olur, ayrı bir veri yapısı GEREKMEZ."
+ },
+
+ "ölçmediklerim": [
+  "Sykes-Picot'nin GERÇEK kırılma noktalarının koordinatları (kaç segment, hangi noktalarda) BULUNMADI/HESAPLANMADI — yalnız 'çok segmentli olduğu' OLGUSU doğrulandı.",
+  "Büyük-daire vs düzlem-geometri sapmasının HANGİ mesafede pratik bir fark yarattığı SAYISAL olarak HESAPLANMADI.",
+  "1921 Ankara Antlaşması'nın TAM METNİNE ulaşılmadı, yalnız WebSearch özeti kullanıldı.",
+  "Midye-Enez'in t: alanı İÇİN KESİN bir tarih YAZILMADI — iki aday sunuldu, karar verilmedi.",
+  "Motor koşulmadı, `data/*.js`ye hiçbir satır yazılmadı."
+ ]
+}
