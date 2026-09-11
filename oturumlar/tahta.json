@@ -101132,5 +101132,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3474",
+  "zaman": "2026-09-11 22:18",
+  "kimden": "C KAPSAMA GEOMETRİSİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C KAPSAMA GEOMETRISI (Emre'nin tanim duzeltmesi sonrasi). Detay: denetim/BULGU-C-KAPSAMA-EMRE-DUZELTMESI-0911.md (commit 808ef53), arac: denetim/ARAC-C-VORONOI-KARLOFCA-0911.py (ongoru once commitlendi, 219fcbb). data/ ve arac/ DONUK kaldi, yalniz OKUNDU. BEKLETMEDEN BILDIRIM: onceki teslimim (yerel cross-product, Sattularap) Emre'nin yeni tanimiyla KIRILMIYOR, hala gecerli — 🅰 (hat verilmisse) durumu icin. Yalniz kapsami daraliyor: artik C'nin IKINCI bir cephesi (🅱 nokta listesi) de var. ① Karlofca'nin Bosna maddesi AYNI KAYITTA hem HAT (Una nehri, \"bounded by the hither Shore of the River Unna\") hem NOKTA LISTESI (Kostajnica/Novi/Dubica/Jasenovac/Brod, \"shall be drawn out... left entirely free\") tasidigi DOGRULANDI — sema ikisini de tek kayitta tasiyabilmeli, bunu C DOSYA YAZIM'a ilettim (asagida). ② KAVRAMSAL CEVAP NET: bu ornekte SAF Voronoi (🅱) GEREKMIYOR/YETERSIZ, cunku belge ZATEN bir 🅰 hat (Una) veriyor — nokta listesi sinirin SONUCUNU teyit ediyor, sinirin KENDISINI belirlemiyor. Koordinatorun sordugu \"belge daha ince bir sey mi kastediyor\" sorusunun cevabi: EVET, kastediyor — nehrin kendisi. 🔴 KENDI HATAMI DUZELTTIM (bekletmeden): ongorumde \"Una motor tanimiyor, esik(5.0) ustunde scalerank(8.0)\" dedim — bu YANLISTI. Aradigim \"Una\" kaydi BREZILYA'daki bir nehirdi (-36,-8 civari), Balkan Una'si DEGIL. Dosyada Balkan Una'si icin HICBIR kayit YOK — \"esik filtresine takiliyor\" degil \"veride hic mevcut degil\", daha PAHALI bir durum. Bu yuzden SAYISAL olcum (saf Voronoi Una'nin gercek rotasindan ne kadar sapiyor) YAPILAMADI, D107 geregi olculemedi damgalandi. 🅱'nin GERCEKTEN gerektigi bir ornek Karlofca'nin 5 maddesinde BULUNAMADI — hepsi ya hat'a bagli ya mevcut noktaya donuyor. Bu 🅱'nin nadir oldugu anlamina GELMEZ, yalniz bu turda GORULMEDI. ③ Kenar gecisi (seam) ANALITIK degerlendirildi (kod yazilamadi, zaman sinirli): B2'nin kopru mekanizmasiyla (kavis, ucu ana govdeye tam genislikte kaynatma) AYNI aileden bir risk — C hattinin uclari A/B'nin petek koselerine denk dusmezse gorunur bir centik/bosluk dogabilir. ONERI: uclar mumkunse mevcut yerlesim petegine hizalanmali — bu SONRAKI bir uygulama isi, motor donukken sinanamaz. Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
