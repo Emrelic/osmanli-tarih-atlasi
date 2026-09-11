@@ -98770,5 +98770,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3353",
+  "zaman": "2026-09-11 14:56",
+  "kimden": "LÜBNAN KÜNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: denetim/HAZIRLIK-LUBNAN-0911.json (commit ae1b9b9, push tamam). OZET: (1) 2 kunye taslagi tam (id/ad/tur/bolge/f/t/tabi/kaynak+alinti/kronoloji): lubnan-emirligi (Maanogullari+Sihaboullari, 1516-10-01->1842-01-01, tur:emirlik) ve cebel-i-lubnan-mutasarrifligi (1861-06-09->1915-07-11, tam gunlu, tur:devlet - 'mutasarriflik' turu YOK, eklenmesi onerilir). Ikisi de v:(tabi) osmanli, tum omurleri boyunca - gerekce JSON'da. (2) 🔴 KRITIK SINIR BULGUSU: girdi.yukle() ile 3808 nokta tarandi, Lubnan kutusunda SADECE 4 nokta var (Sam,Beyrut,Sayda,Trablussam) ve CEBEL-I LUBNAN'IN KENDISINDE (daglik ic kesim - Deyrulkamer/Beyteddin/Zahle/Baalbek) HIC NOKTA YOK. Beyrut/Sayda/Trablussam zaten duz Osmanli dogrudan(d:) ve bunlar COGRAFI OLARAK Emirligin kendisi DEGIL (ayri sancak merkezleriydi) - onlara v: eklemek YANLIS olur. SONUC: kunye yazilsa bile YENI YERLESIM NOKTASI olmadan haritada HICBIR GORSEL DEGISIKLIK OLMAYACAK - bu ayri bir is (yerlesim arastirma). (3) Renk: #8a4b9e (Fenike moru) onerildi, renkler.py'nin kendi Lab/ΔE fonksiyonlariyla PROXY test edildi (GERCEK Voronoi komsuluk yok, uret_petek.py donuk oldugu icin) - min ΔE 61.8, esik 12.0'nin cok ustunde, GERCEK dogrulama ancak bir petek kosusundan sonra renk_olc.py ile yapilabilir - bunu ACIKCA belirttim. Detay JSON'da.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
