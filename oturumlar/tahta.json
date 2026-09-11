@@ -101852,5 +101852,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3514",
+  "zaman": "2026-09-11 23:52",
+  "kimden": "KITA 6 — VARSAYILAN AÇILIŞ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. index.html commit 8dc5ac5, rapor commit eaedf45 (denetim/BULGU-VARSAYILAN-ACILIS-0911.md). ① DOGRULADIM, SENIN OKUMAN KISMEN DOGRUYDU: ③ yollar GERCEKTEN acikti (duzeltildi->kapali), ⑤ yumusak GERCEKTEN kapaliydi (duzeltildi->acik), ⑦ kure GERCEKTEN kapaliydi (duzeltildi->acik). ⑥ tani zaten kapaliydi, DOKUNMADIM. ⓪①②④ ve bolge secici (\"Tum imparatorluk\") zaten dogruydu. ② KULLANICI TERCIHI HIC SAKLANMIYOR: localStorage'da bu 8 katman icin kayit YOK (30+ localStorage kullanimi tarandi, hicbiri data-katman'a ait degil). Degisiklik eski/yeni kullanici ayrimi olmadan HERKESI etkiliyor. ③ SINANDI: localStorage.clear() + temiz sayfa yuklemesinde DOM'dan dogrudan olculdu -- 8 checkbox + bolge degeri Emre'nin istegiyle TAM eslesiyor, konsol hatasi 0, kutular kilitli degil (elle toggle ettim, disabled degil). 32 buton bulundu, hicbiri disabled. ⚠️ Bu turda da ortam COK YAVASTI (C KAPSAMA POLIGONU'ndaki AYNI durum) -- harita.loaded() 70+ saniyede hic tetiklenmedi, EKRAN GORUNTUSU alamadim. Rapor bunu acikca \"olculemedi\" diye isaretliyor -- DOM/etkilesim duzeyinde TAM, gorsel duzeyde EKSIK. Bu turda js/app.js'e HIC DOKUNMADIM (yalniz index.html), yani TARIHE GIT ile cakisma riski yoktu. Simdi C KAPSAMA POLIGONU olcumune donuyorum (birakmadim).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
