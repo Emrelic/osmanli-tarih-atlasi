@@ -99402,5 +99402,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3385",
+  "zaman": "2026-09-11 17:55",
+  "kimden": "KOLONYAL AUDİT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: KOLONYAL AUDIT bitti. ① KONVANSIYON AUDITI: 🟢 HOLLANDA (Guneydogu Asya) TUTARLI -- Guney Asya ile AYNI desen. yogyakarta 1755-1923, surakarta 1755-1923, mataram-sultanligi 1587-1755 (dogru bolunmeye kadar), brunei-sultanligi 1368-1923 -- hepsi zaten VAR. Ilk tahminim (Hollanda farkli davranir) CURUDU. 🟢 FRANSA-VIETNAM TUTARLI -- nguyen-hanedani 1802-1923 zaten var, Fransiz Hindicini himayesi altinda nominal hanedan dogru modellenmis. 🟢 FRANSA-FAS TUTARLI -- fas kunyesi 1549-1923, kendi ozet'i \"1923 sonrasinda da surdu\" diyor, 1912 himaye gecisini zaten dogru tasiyor. 🔴🔴 FRANSA-TUNUS TUTARSIZ, GERCEK EKSIK BULUNDU: tunus-ocagi 1574->1881-05-12 (Bardo Antlasmasi), ozet \"Fransiz protektorasiyla FIILEN SONA ERDI\" diyor -- BU YANLIS. TDV'nin KENDI 'tunus' maddesi: Huseyni hanedani NOMINAL bey olarak SURDU, \"Emin Bey on dokuzuncu bey sifatiyla ... 20 Mart 1956'da Tunus bagimsizligina kavusurken\" -- yani hanedan 1956'ya kadar surdu, 1923 ufkunun 33 yil OTESINE. devletler.js'te \"Tunus Beyligi (Fransiz Himayesi)\" 1881-1923 EKSIK -- misir-kavalali/Kirim/ Bogdan/Eflak emsalinin TAM KARSILIGI, suzeren Fransa. ⚪ ISPANYA/PORTEKIZ KISMEN tarandi (Filipinler/Kongo Kralligi kontrol edildi, ikisi de GAP DEGIL -- doğru bitiyorlar), Karayip/Angola/ Mozambik/Goa/Makao/Timor TAM TARANMADI -- zaman kisiti, D107 ile acikca \"olculemedi\" yaziyorum. ② TUTARLILIK SORUSU (D077): TERCIH DEGIL, TEK NOKTALI GERCEK EKSIK. Konvansiyon GUCLU ve TUTARLI uygulaniyor (3/4 imparatorlukta dogrulandi); Tunus istisna ve kasitli bir tasarim farki DEGIL -- kunyenin kendi ozet metni yanlis bir tarihsel iddia tasiyor, TDV'nin kendi maddesiyle CURUYOR. ③ KUNYE TASLAGI (YAZILMADI, oneri): tunus-beyligi-fransiz ¦ f:1881-05-12 ¦ t:1923-10-29 ¦ bolge:kuzey-afrika tabi:[{f:1881-05-12,t:1923-10-29,ust:\"fransa-cumhuriyet\"}] -- tabi: mekanizmasinin Osmanli/Rusya DISINDA ilk kullanimi olur (DIZIN TAMLIK II'nin yan bulgusuyla dogrudan bagli). Kaynak: TDV 'tunus', alinti raporda AYNEN var. ④ D187: Eksen OLU DEGIL -- ilk denemede 1/~15 isabet verdi (DIZIN TAMLIK II'deki Baroda'dan sonra IKINCI kez isliyor). Ama Ispanya/ Portekiz taramasi YARIM kaldi, \"eksen tukendi\" DEMIYORUM. Ongoru (denetim/ONGORU-KOLONYAL-AUDIT-0911.json, commit 0333768) -- karnesi: Hollanda tahmini TUTTU ama YONU TERSIYDI (on-kontrolde zaten sezilmisti, durustce not dusuldu); Fransa tahmini KISMEN TUTTU (Cezayir meru ilhak, ama Tunus'un sebebi 'ilhak' degil 'yanlis tarihsel iddia' cikti -- beklenenden FARKLI mekanizma); Ispanya olculemedi. Cikti: denetim/BULGU-KOLONYAL-AUDIT-0911.md. Commit 941036c, push edildi. data/'ye HIC DOKUNULMADI. Karar gerektiren 4 acik soru: ① Tunus Beyligi acilsin mi? ② tabi: mekanizmasi Fransa'ya genisletilsin mi? ③ harita rengi alsin mi (misir-kavalali emsali)? ④ Ispanya/Portekiz kalan taramasi ayri sevk mi? Baska is var mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
