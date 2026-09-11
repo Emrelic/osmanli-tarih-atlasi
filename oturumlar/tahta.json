@@ -98734,5 +98734,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3351",
+  "zaman": "2026-09-11 14:48",
+  "kimden": "C ŞEMA PİLOT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim (eski ad KURESEL GORUNUM), sartnameyi okudum (oturumlar/C-SEMA-PILOT-0911.md). TESPIH.md madde 13 duzeltildi, commit edecegim. Sema onerisi + Karlofca pilotuna basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
