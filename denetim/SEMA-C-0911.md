@@ -652,3 +652,96 @@ Bu üçüncü tür cross-product/nearest-segment GEREKTİRMEZ — motor için
 EN UCUZ hat cinsi (tek sayısal karşılaştırma). Şemaya İKİNCİ bir gerçek
 kayıtla (tek örnekle değil, D021 gereği) eklendiği için hem KAYIT hem
 ŞEMA aynı anda doğrulanmış oluyor.
+
+---
+
+## 9. 🔴🔴 EMRE'NİN TANIM DÜZELTMESİ (M-3463) — ŞEMA GÖZDEN GEÇİRİLDİ
+
+> **AYNEN:** *"C uygulanınca artık tavan, enklav düzeltme, koridor doldurma,
+> boşluk kapatma, arazi bölüşme filan hiçbir şey kalmaz. Belgede ne varsa
+> o çizilir. Belgede belirtilen nehir dağ yerleşim ne varsa haritaya
+> konur ve sınır bunların arasından geçirilir."*
+
+**Bu bölümün 1-8 arası HİÇBİR ölçümünü/pilotunu SİLMİYORUM** (D100:
+izlenebilirlik doğrulanmışlıktan önce gelir) — aşağıda hangi bölüm
+DURUYOR, hangisi SÜPÜRÜLDÜ, açıkça işaretliyorum.
+
+### 9.1 NE ÇÜRÜDÜ
+
+```
+🔴 §4 ("İKİ AYRI KAYIT CİNSİ VAR") — ②NOKTA-ATAMASI'nın "C'ye hiç gerek
+   yok, zaten A/B çözer" hükmü YANLIŞTI. Emre'nin tanımıyla nokta-ataması
+   da C'dir: belge bir yeri sayıyorsa o yer haritaya KONUR (yoksa
+   eklenir) ve komşularıyla ilişkisi C'nin kapsama/devralma alanı
+   içinde çözülür — A/B'nin kendi sezgisine (Voronoi/emilme) BIRAKILMAZ.
+🔴 §6.1 "① / ②" ayrımı (HAT vs NOKTA-ATAMASI, ikincisi "C'nin işi değil")
+   AYNI SEBEPTEN çürüdü.
+🔴 §7 DÜRÜST TAHMİN'in "110 antlaşmada C kesin gerekli: 1-2 vaka" sonucu
+   ARTIK YANLIŞ TABANDAN ÖLÇÜLMÜŞTÜ — o ölçüm yalnız ①c'yi (yapay/cetvel
+   hat) sayıyordu, ②'yi (nokta-ataması) HİÇ saymamıştı. GENİŞ ölçüt
+   (%83, ENVANTER-C-0911) artık DAR ölçütten (%15) daha yakın bir taban
+   olabilir — Emre'nin M-3463'teki kendi tahmini de bu yönde. KESİN
+   SAYI BU OTURUMDA YENİDEN ÖLÇÜLMEDİ, yalnız YÖN değişikliği kayda
+   geçiyor (D107: aranmadı ≠ ölçüldü).
+```
+
+### 9.2 NE DURUYOR (değişmedi)
+
+```
+🟢 §8.1 kayıt iskeleti (id/taraflar/f:/t:/hat/kapsama/kaynak/kaynak_ikincil)
+🟢 §8.2 yerel (nearest-segment) cross-product — ①a/①b/①c çizgi hatlar için
+🟢 §8.6 paralel/meridyen türü
+🟢 §8.5 üç sınav tasarımı (D010, iki yön) — YENİ hat türleri için de
+   AYNI mantıkla uygulanır, yalnız sınav senaryoları çoğalır
+🟢 Kaynak kuralı (antlaşma metni birincil, M-3329) — DEĞİŞMEDİ
+🟢 C'siz bölgelerin hiç etkilenmemesi — DEĞİŞMEDİ, hatta GÜÇLENDİ (9.3)
+```
+
+### 9.3 ŞEMAYA ÜÇ YENİ ZORUNLU/EK ALAN
+
+```
+① kapsama.sezgi_kapali: true   — 🆕 ZORUNLU alan. Kapsama alanı artık
+   yalnız "hangi taraf hangi tarafta" testi için değil, "A/B'nin
+   sezgisel mekanizmaları (B2 enklav birleştirme, B3 koridor kırpma,
+   boşluk paylaştırma, çöl tavanı, A1 yarıçap tavanı, §2 emilme kuralı)
+   bu kutunun içinde KAPALI" beyanıdır. Motor entegrasyon noktası
+   (§8.3) bu alanı görünce yalnız sahiplik atamasını değil, o adımlardan
+   HİÇBİRİNİ bu bölgede ÇALIŞTIRMAMALI — bu §8.3'ün betimlediği "kenar
+   yeniden atama" işleminden DAHA GENİŞ bir müdahale, motor
+   entegrasyonunun kendisi YENİDEN gözden geçirilmeli (§9.4).
+
+② gereken_cografya: [...]         — 🆕 ZORUNLU alan. Belgenin andığı
+   HER nehir/dağ/yerleşim, adı+atlasta var mı damgasıyla burada listelenir:
+   { ad, tur:"nehir"|"dag"|"yerlesim", atlasta_var: true|false,
+     atlasta_kaynak: "data/yerlesimler.js:NNN" | null,
+     not: "..." }
+   `atlasta_var:false` bir MAZERET değil, C'nin kendi iş kalemidir
+   (Emre'nin cümlesi) — bu envanterin KENDİSİ, hangi yeni noktaların
+   ekleneceğinin (§2 işi, ayrı oturum) SİPARİŞ LİSTESİDİR.
+
+③ hat.tur: "nokta-kumesi"          — 🆕 DÖRDÜNCÜ hat türü (cetvel/
+   dogal-tanimsiz/paralel'den SONRA). Belge bir ÇİZGİ değil bir NOKTA
+   LİSTESİ veriyorsa (Karlofça'nın Bosna kale listesi gibi): `hat.nokta_dizisi`
+   YOK, bunun yerine `nokta_atamalari: [{ad, lat, lon, taraf, kaynak}, ...]`
+   — HER nokta DOĞRUDAN bir tarafa atanır, cross-product/segment testi
+   GEREKMEZ (bu, §8.6'nın "paralel" türünden bile ucuz — sıfır geometri,
+   yalnız liste).
+```
+
+### 9.4 🔴 §8.3'ÜN MOTOR ENTEGRASYON NOKTASI YENİDEN GÖZDEN GEÇİRİLMELİ
+
+§8.3, C'yi yalnız "dönem döngüsünde sahiplik yeniden ata" olarak
+tarif ediyordu (satır ~4842-4856). Emre'nin tanımıyla C, kapsama
+alanı içindeki **B2/B3/boşluk/çöl-tavanı/A1/§2-emilme** adımlarının
+TAMAMINI atlamalı — bu adımların HER BİRİ `uret_petek.py`de FARKLI
+satırlarda (§2.4'te anılan yaslama SIRT_HAT/NEHIR_HAT ayrı, B2/B3
+fonksiyonları `_b2_enklav_birlestir`/`_b3_koridor_kirp` satır 1512/1614
+ayrı, çöl tavanı satır 2662 ayrı, A1 tavanı "Kıyı kesimi... A1 YARIÇAP
+TAVANI" satır 1898 ayrı). ⇒ **§8.3'ün verdiği TEK giriş noktası ARTIK
+YETERSİZ — C'nin gerçek entegrasyonu, kapsama alanı içindeki HER
+sezgisel adımı ayrı ayrı BY-PASS eden ÇOK NOKTALI bir müdahale
+gerektiriyor.** Bu, bu oturumun (şema/dosya yazımı, `arac/` donuk)
+kapsamının AÇIKÇA ÖTESİNE geçiyor — bir uygulama oturumunun bu 5-6
+fonksiyonun HER BİRİNE "eğer kapsama_alani_icindeyse atla" kontrolü
+eklemesi gerekecek. D107: **konum listesi verildi, tam entegrasyon
+TASARLANMADI.**

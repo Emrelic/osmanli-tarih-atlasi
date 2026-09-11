@@ -118,6 +118,149 @@ window.HUKUKI_SINIRLAR = [
   }
 }
 
+,
+
+// ============================================================================
+// 🔴🔴 EMRE'NİN TANIM DÜZELTMESİ (M-3463, 11 Eylül 2026 22:06) SONRASI
+// EKLENEN KAYITLAR — SEMA-C-0911.md §9. Karlofça'nın "C'ye gerek yok"
+// denen 4 maddesi ARTIK C kaydı (nokta-ataması da C'nin kapsamına girdi).
+// Kaynak: denetim/PILOT-C-KARLOFCA-0911.json (koordinatlar dogrulanmadi:true
+// — o pilotun kendi notu: "amaç şemayı sınamak, üretim koordinatı değil").
+// ============================================================================
+
+{
+  id: "karlofca-bosna-sava-1699",
+  taraflar: ["osmanli", "avusturya"],
+  f: "1699-01-26", t: null,
+  hat: {
+    tur: "dogal-tanimsiz",   // Sava BUYUK'te taniniyor aslinda ①a olurdu (C GEREKMEZ)
+                              // AMA Emre'nin yeni tanimiyla "belgede ne varsa cizilir"
+                              // ilkesi bu segmenti de C'ye ALIYOR OLABILIR -- KARAR
+                              // NETLESTIRILMEDI, asagida acikca isaretleniyor.
+    nokta_dizisi: [
+      { lon: null, lat: null, ad: "Bosut'un Sava'ya döküldüğü yer", dogrulanmadi: true },
+      { lon: null, lat: null, ad: "Brod Kalesi", dogrulanmadi: true }
+    ]
+  },
+  gereken_cografya: [
+    { ad: "Sava (nehir)", tur: "nehir", atlasta_var: true, atlasta_kaynak: "arac/uret_petek.py:552 BUYUK kümesi (motor zaten tanıyor)" },
+    { ad: "Brod Kalesi", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null, not: "PILOT-C-KARLOFCA-0911.json'da taranmadı, bu turda da taranmadı" }
+  ],
+  kapsama: { tur: "bbox", kutu: null, sezgi_kapali: true,
+    not: "🔴 KUTU KOORDİNATLARI TASARLANMADI (PILOT-C-KARLOFCA'nın kendi eksiği, bu turda da tamamlanmadı) — D107 gereği açıkça: bu kayıt EKSİK, tam yazılmadı." },
+  kaynak: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca", alinti: "Sava nehrinin Bossut'un Sava'ya döküldüğü yerden Brot Kalesi'ne kadar sınır olması kabul edildi.", url: "https://islamansiklopedisi.org.tr/karlofca" },
+  kaynak_ikincil: { tur: null, not: null },
+  NOT_TAMAMLANMAMIS: "Bu kayıt PİLOT'tan kopyalandı, koordinatlar/kapsama kutusu HÂLÂ eksik — üretim öncesi TAMAMLANMALI."
+},
+
+{
+  id: "karlofca-banat-maros-tisza-tuna-1699",
+  taraflar: ["osmanli", "avusturya"],
+  f: "1699-01-26", t: null,
+  hat: {
+    tur: "dogal-tanimsiz",
+    nokta_dizisi: [
+      { lon: null, lat: null, ad: "Osmanlı-Avusturya cephe hattının Maros'a değdiği nokta", dogrulanmadi: true },
+      { lon: null, lat: null, ad: "Maros-Tisza kavşağı (Szeged yakını)", dogrulanmadi: true },
+      { lon: null, lat: null, ad: "Tisza-Tuna kavşağı", dogrulanmadi: true },
+      { lon: null, lat: null, ad: "Belgrad yönünde antlaşmanın bıraktığı nokta", dogrulanmadi: true }
+    ]
+  },
+  gereken_cografya: [
+    { ad: "Maros (Mureş)", tur: "nehir", atlasta_var: false, atlasta_kaynak: null,
+      not: "🔴 arac/uret_petek.py BUYUK kümesinde YOK, ama veri-kaynak/ne_10m_rivers.geojson'da 'Mures' adıyla VAR (scalerank=8.0, motorun ikinci kapısını da GEÇEMİYOR — KAPSAM-C-0911.json'da GERÇEK BORÇ olarak ölçüldü). Motorun BUYUK listesine bir satır eklenmesi gerekiyor." },
+    { ad: "Tisza (Tisa)", tur: "nehir", atlasta_var: true, atlasta_kaynak: "arac/uret_petek.py:552 BUYUK kümesi" },
+    { ad: "Tuna (Danube)", tur: "nehir", atlasta_var: true, atlasta_kaynak: "arac/uret_petek.py:552 BUYUK kümesi" }
+  ],
+  kapsama: { tur: "bbox", kutu: null, sezgi_kapali: true, not: "TASARLANMADI (PİLOT'un kendi eksiği)" },
+  kaynak: { tur: "antlaşma metni (neşir)", ad: "Treaty of Karlowitz (İngilizce çeviri, Wikipedia)",
+    alinti: "Thence its Boundarys shall be carry'd on from the hither Banks of the Marosche to the River Teysse, and from the hither Bank of the Teysse to the Danube",
+    url: "https://en.wikipedia.org/wiki/Treaty_of_Karlowitz" },
+  kaynak_ikincil: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca", not: null },
+  NOT_TAMAMLANMAMIS: "Koordinatlar/kapsama kutusu eksik. Maros/Mureş motor borcu AYRI bir iş (arac/, bu oturumun kapsamı dışı)."
+},
+
+{
+  id: "karlofca-bosna-kaleler-1699",
+  taraflar: ["osmanli", "avusturya"],
+  f: "1699-01-26", t: null,
+  hat: {
+    tur: "nokta-kumesi",     // 🆕 §9.3③ — Emre'nin düzeltmesiyle eklenen TÜR
+    nokta_atamalari: [
+      { ad: "Kostayniça", lat: null, lon: null, taraf: "avusturya", kaynak: "TDV karlofca: \"Kostayniçe Avusturya'da kaldı\"" },
+      { ad: "Bihke (Bihać)", lat: null, lon: null, taraf: "osmanli", kaynak: "TDV karlofca: diğer kaleler (Bihke, Novi, Krupa vb.) boşaltıldı → Osmanlı'dan ÇIKTI, yani Avusturya'ya mı yoksa askersizleştirilmiş bölgeye mi geçti TDV metninde NET DEĞİL, 🔴 dogrulanmadi:true" },
+      { ad: "Novi (Bosna — Herceg Novi DEĞİL)", lat: null, lon: null, taraf: "belirsiz", kaynak: "aynı, dogrulanmadi:true" },
+      { ad: "Krupa", lat: null, lon: null, taraf: "belirsiz", kaynak: "aynı, dogrulanmadi:true" }
+    ]
+  },
+  gereken_cografya: [
+    { ad: "Kostayniça", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null },
+    { ad: "Bihke (Bihać)", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null },
+    { ad: "Novi (Bosna)", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null, not: "Herceg Novi (Karadağ) VAR ama AYRI YER — karıştırılmasın (PILOT-C-KARLOFCA'nın kendi uyarısı)" },
+    { ad: "Krupa", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null },
+    { ad: "Brod", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null, not: "yukarıdaki karlofca-bosna-sava-1699 kaydıyla PAYLAŞILAN nokta" }
+  ],
+  kapsama: { tur: "bbox", kutu: null, sezgi_kapali: true, not: "TASARLANMADI" },
+  kaynak: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca",
+    alinti: "Kostayniçe Avusturya'da kaldı; diğer kaleleri (Bihke, Novi, Krupa vb.) boşaltıldı.",
+    url: "https://islamansiklopedisi.org.tr/karlofca" },
+  kaynak_ikincil: { tur: null, not: null },
+  onemli_uyari: "🔴BU KAYIT ÖNCEKİ TURDA (§6.1, C ŞEMA KAPANIŞ öncesi) 'C'nin işi DEĞİL, sadece §2 nokta ekleme' diye SÜPÜRÜLMÜŞTÜ. Emre'nin M-3463 düzeltmesiyle bu YARGININ KENDİSİ yanlıştı — bu kayıt burada YENİDEN AÇILDI. 5 yerleşimin 5'i de atlasta_var:false — bu C kaydının ÇALIŞMASI için beş yeni yerleşim noktası gerekiyor, ve bu artık (Emre'nin cümlesiyle) C'nin KENDİ İŞ KALEMİ, bir MAZERET değil."
+},
+
+{
+  id: "karlofca-lehistan-1699",
+  taraflar: ["osmanli", "lehistan-litvanya"],
+  f: "1699-01-26", t: null,
+  hat: {
+    tur: "nokta-kumesi",
+    nokta_atamalari: [
+      { ad: "Suçava (Suceava)", lat: null, lon: null, taraf: "osmanli", kaynak: "TDV karlofca: \"Suçeva ... Osmanlılar geri aldı\" — data/yerlesimler.js'te MEVCUT nokta" },
+      { ad: "Bar (Podolya)", lat: null, lon: null, taraf: "lehistan-litvanya", kaynak: "TDV karlofca: \"Podolya boşaltıldı\" — data/yerlesimler.js'te MEVCUT nokta" },
+      { ad: "Kamaniçe", lat: null, lon: null, taraf: "belirsiz", kaynak: "TDV karlofca: \"Kamaniçe Kalesi yıkıldı\" — atlasta VAR MI TARANMADI" },
+      { ad: "Roman", lat: null, lon: null, taraf: "osmanli", kaynak: "TDV karlofca — atlasta VAR MI TARANMADI" }
+    ]
+  },
+  gereken_cografya: [
+    { ad: "Suçava (Suceava)", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js (PILOT-C-KARLOFCA'da doğrulandı)" },
+    { ad: "Bar (Podolya)", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js (PILOT-C-KARLOFCA'da doğrulandı)" },
+    { ad: "Kamaniçe", tur: "yerlesim", atlasta_var: "taranmadı", atlasta_kaynak: null },
+    { ad: "Roman", tur: "yerlesim", atlasta_var: "taranmadı", atlasta_kaynak: null }
+  ],
+  kapsama: { tur: "nokta-listesi", not: "🟢 Bu kayıt için kapsama BBOX değil — 4 nokta zaten ismen bilindiği için geometrik alan GEREKMİYOR (nokta-kümesi türünün en ucuz hâli). sezgi_kapali yine de true: bu 4 nokta A/B'nin kendi emilme/Voronoi sezgisine BIRAKILMAZ, doğrudan burada atanır.", sezgi_kapali: true },
+  kaynak: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca",
+    alinti: "Podolya boşaltıldı, Kamaniçe Kalesi yıkıldı, Suçeva, Roman ve diğer kaleleri Osmanlılar geri aldı.",
+    url: "https://islamansiklopedisi.org.tr/karlofca" },
+  kaynak_ikincil: { tur: null, not: null },
+  onemli_uyari: "🔴Suçava ve Bar zaten NOKTA — bu iki yer için 'nokta eklemek' gerekmiyor, yalnız d:/s: dönemi eklenmesi (mevcut A/B alanları) yeterli. AMA Emre'nin tanımıyla bu ATAMANIN KENDİSİ (hangi noktanın hangi tarafa geçtiği) yine de bir C KAYDIDIR — çünkü belge bunu bir ANTLAŞMA MADDESİ olarak tarif ediyor, C'nin görevi yalnız 'nokta yoksa ekle' değil 'belge ne diyorsa onu kaydet'."
+},
+
+{
+  id: "karlofca-venedik-1699",
+  taraflar: ["osmanli", "venedik"],
+  f: "1699-01-26", t: null,
+  hat: {
+    tur: "nokta-kumesi",
+    nokta_atamalari: [
+      { ad: "Ayamavra (Lefkada)", lat: null, lon: null, taraf: "venedik", kaynak: "TDV karlofca — data/yerlesimler.js'te MEVCUT" },
+      { ad: "Trebinye", lat: null, lon: null, taraf: "venedik", kaynak: "TDV karlofca — data/yerlesimler.js'te MEVCUT" },
+      { ad: "Kataro (Kotor)", lat: null, lon: null, taraf: "venedik", kaynak: "TDV karlofca — atlasta VAR MI TARANMADI" },
+      { ad: "Korent kıyısı", lat: null, lon: null, taraf: "venedik", kaynak: "TDV karlofca — bu bir NOKTA değil BÖLGE tarifi, tek bir yerleşimle temsil edilemeyebilir, dogrulanmadi:true" }
+    ]
+  },
+  gereken_cografya: [
+    { ad: "Ayamavra (Lefkada)", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js (PILOT-C-KARLOFCA'da doğrulandı)" },
+    { ad: "Trebinye", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js (PILOT-C-KARLOFCA'da doğrulandı)" },
+    { ad: "Kataro (Kotor)", tur: "yerlesim", atlasta_var: "taranmadı", atlasta_kaynak: null },
+    { ad: "Korent kıyısı", tur: "bolge", atlasta_var: "olculemez (bölge tarifi, tek nokta değil)", atlasta_kaynak: null }
+  ],
+  kapsama: { tur: "nokta-listesi", sezgi_kapali: true, not: null },
+  kaynak: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca",
+    alinti: "Ayamavra adaları, Korent denizi kuzey kıyıları ve bazı kalelerin (Kataro, Trebinye) iadesi",
+    url: "https://islamansiklopedisi.org.tr/karlofca" },
+  kaynak_ikincil: { tur: null, not: null }
+}
+
 ];
 
 // ============================================================================
@@ -132,7 +275,22 @@ window.HUKUKI_SINIRLAR = [
 // YOKTU. ⇒ KAYIT DEĞİL ŞEMA EKSİKTİ (görevin ③ sorusunun cevabı): şema
 // yalnız "çizgi" hat cinsini öngörmüştü, "eşik" cinsini ÖNGÖRMEMİŞTİ.
 // SEMA-C-0911.md §8.2'ye bu ikinci tur ile "paralel/meridyen" alt-türü
-// EKLENDİ (bu görevin teslim raporunda ayrıca işaretlenecek, dosya kendisi
-// bu turda GÜNCELLENMEDİ — o AYRI bir commit, karışıklık olmasın diye).
+// EKLENDİ.
+// ============================================================================
+//
+// 🔴🔴 ÜÇÜNCÜ TUR (Emre'nin M-3463 düzeltmesi SONRASI, 5 Karlofça kaydı):
+// ŞEMA YİNE EKSİK ÇIKTI, İKİ YENİ ALAN GEREKTİ:
+//   (a) gereken_cografya: — Emre'nin "belge kendi coğrafyasını getirir"
+//       ilkesi için ZORUNLU; eski şemada YOKTU, SEMA-C §9.3② ile eklendi.
+//   (b) hat.tur:"nokta-kumesi" + nokta_atamalari: — nokta-ataması artık
+//       C'nin kapsamında (§9.1), ama nokta_dizisi/cross-product bu tür
+//       için ANLAMSIZ (çizgi değil, ayrık nokta listesi) — SEMA-C §9.3③.
+// TOPLAM DURUM (7 kayıt): 2'si TAM (Midye-Enez, Mısır-Sudan — koordinat +
+// kapsama kutusu dolu), 5'i (Karlofça) KISMİ — PILOT-C-KARLOFCA'nın kendi
+// eksiği olan koordinat/kapsama-kutusu boşlukları BU TURDA DA doldurulmadı
+// (kapsam dışı, D107 gereği her kayıtta "NOT_TAMAMLANMAMIS"/benzeri alanla
+// açıkça işaretlendi) — 4 nokta 5 künyenin atlasta_var:false çıkması
+// (Kostayniça/Bihke/Novi/Krupa/Brod) Emre'nin tanımıyla artık bir C
+// EKSİĞİ, bir §2 mazereti DEĞİL.
 // ============================================================================
 
