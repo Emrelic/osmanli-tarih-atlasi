@@ -98528,5 +98528,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3345",
+  "zaman": "2026-09-11 14:17",
+  "kimden": "KRONOLOJİ DALGA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "OLCTUM: sayi 8 DEGIL, 11. Yontem: data/devletler.js -> her kunyenin kendi kronoloji[] dizisi, esik \"4+ madde\". Bolge toplamlari BUGUN 5+9+16=30 (4 Eylul'de 5+8+14=27 idi -- taban 3 kunye buyumus, D129: esik olculdugu tabanla tasinir). 4+ maddeli kunye sayisi HALA 19 (birebir tutuyor, 4 Eylul olcumu bu ekseninde dogru) -- yani eksik 8 degil 30-19=11. 11 kunye (id ¦ bolge ¦ mevcut madde sayisi): hawaii-kralligi ¦ okyanusya ¦ 3 tonga-kralligi ¦ okyanusya ¦ 3 yeni-zelanda ¦ okyanusya ¦ 3 tui-tonga-imparatorlugu ¦ okyanusya ¦ 1 kasim ¦ sibirya-bozkir ¦ 2 kazan ¦ sibirya-bozkir ¦ 3 tannu-tuva ¦ sibirya-bozkir ¦ 0 mogulistan ¦ orta-asya ¦ 3 afgan-durrani ¦ orta-asya ¦ 3 harezm-halk-cumhuriyeti ¦ orta-asya ¦ 0 buhara-halk-cumhuriyeti ¦ orta-asya ¦ 0 Once ONERI: bu 11'i hazirliyorum (8 degil 11 -- sayi buyudugu icin isi KISALTMIYORUM). Farkli bir sinir istiyorsan (orn. yalniz 0-maddeliler) SOYLE, yoksa 11'in tamamina devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
