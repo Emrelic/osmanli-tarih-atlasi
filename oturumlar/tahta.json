@@ -101618,5 +101618,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3501",
+  "zaman": "2026-09-11 23:30",
+  "kimden": "C BÖLGE ZAMAN MATRİSİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C BOLGE ZAMAN MATRISI. denetim/MATRIS-C-BOLGE-ZAMAN-0911.json + BULGU-MATRIS-C-BOLGE-ZAMAN-0911.md pushlandi (commit 75a70a5, origin/ main'in atasi oldugu dogrulandi). ① MATRIS KURULDU: ENVANTER-C-II'nin 110 kaydi 7 Osmanli-ilgili bolgeye (Balkanlar/Avrupa · Anadolu/genel · Kafkasya-Iran · Karadeniz-kuzey- Rusya · Afrika · Misir(Kavalali) · Arabistan/Korfez) + 1 kontrol grubuna (Osmanli disi), 7 yuzyila (14.-20.) dagitildi. Tam tablo dosyada. ② TARIH SECIMI VE GEREKCE: ANTLASMA YILI kullandim (kesinlesme yili DEGIL) - cunku 108/110 kayit icin kesinlesme yili OLCULMEDI, yalniz 2 vaka (Karlofca, Kasr-i Sirin) derin incelendi. Acikca damgaladim: bu bir UST SINIR/iyimser tahmin, \"bu tarihten itibaren KESIN C\" degil - duzeltme HEP GERIYE iter, hic ileri almaz. ③ 🔴🔴 EN ONEMLI BULGU: matris BOLGE duzeyinde \"en az bir belge var mi\" soruyor, bolgenin TAMAMinin kapsandigi anlamina GELMIYOR. Kendi onceki KAYNAK SUSKUNLUGU bulgumla CAPRAZ dogruladim: Arabistan/Korfez hucresi 19-20.yy'da \"dolu\" (Bahreyn/Katar/Abu Dabi kiyisi) AMA Hicaz'in DOGU siniri (Necid'e) hicbir yuzyilda belgelenmedi - matris \"%100\" der, gercekte ic col hala A/B'de. Ayni desen Afrika/Fizan guneyinde. Dogru model UC KATMANLI olmali (bolge -> segment -> belge var mi), bu gorev yalniz BIRINCI katmani olctu. ④ HUKUM - BUYUME EGRISI (SAYIYLA, iyimser ust sinir): %0(1300) -> %29(1450, Balkanlar+Anadolu) -> %43(1600, +Kafkasya-Iran) -> %57(1650, +Karadeniz-kuzey) -> %71(1700, +Afrika) -> %71(1750-1800, DURGUNLUK) -> %100(1850, +Arabistan+Misir). IKI UYARI: ① bu egri YON olarak dogru (C zamanla artiyor) ama BUYUKLUK olarak yanlitici - gercek cografi/sinir-uzunlugu agirlikli oran muhtemelen HER yuzyilda bundan DUSUK, ne kadar OLCULMEDI ② 1750-1800 durgunlugu GERCEK mi orneklem bosluk mu (110 kayitla sinirli, D153) AYIRT EDILEMEDI. BULAMADIM/OLCEMEDIM: her hucrenin ICINDEKI cografi kapsama orani (yalniz 5 ornek biliniyor) · 108/110 antlasmanin gercek kesinlesme yili · durgunlugun gercekligi · alan/uzunluk agirlikli \"gercek C orani\".",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3502",
+  "zaman": "2026-09-11 23:30",
+  "kimden": "C KAYIT ÜRETİMİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — C KAYIT ÜRETİMİ. Çıktı: denetim/SEMA-C-0911.md §11 + denetim/TASLAK-hukuki_sinirlar.js (10 kayıt, commit f2e16ba, origin/main'de, node yükleme + taraf-id doğrulama testleri geçti). ① BULGU-BELGE-HASSASIYETI-0911.md okudum, terminolojisini (①çizgi/②yer/③bölge) 8 mevcut kayda RETROFİT ettim. DÖRDÜNCÜ değer gerekti: \"karma\" — Karlofça-Una kaydı aynı anda çizgi (Una nehri) VE yer (kaleler) taşıyor, üç değerli şema yetmedi, D107 gereği açıkça eklendi. ② İKİ YENİ KAYIT (görevin listelediği adaylardan, \"en az beş\" için): - ii-erzurum-sattularap-1847: taraflar devletler.js'den tarandı (osmanlı+kaçar), Basra/Muhammere gerçek koordinatla (mevcut nokta), kapsama Basra Körfezi'ne kadar genişletildi (M-3480). \"onemli_not_motor_zaten_taniyor\" alanıyla, bu kaydın Emre'nin geniş tanımıyla GEÇERLİ bir C kaydı olduğunu AMA motorun mekanik olarak zaten çözebileceğini (KAPSAM-C-0911 bulgusu) ayrı ayrı belirttim — ikisi çelişmiyor, farklı sorular. - bahcesaray-ozu-1681: TDV kaynaklı (canlı slug), AMA koordinat/kapsama kutusu TAMAMEN eksik bırakıldı, ONEMLI_EKSIK alanıyla açıkça işaretlendi — \"en az 5\" sayısını tamamlamak için hızlı üretildi, yarım olduğu saklanmadı. Toplam 10 kayıt: 6 çizgi, 3 yer, 1 karma. Tüm taraflar id'leri devletler.js'den bağımsız doğrulandı (C DENETİMİ'nin bulduğu türden hata bu turda çıkmadı). Kasr-ı Şirin'e dokunmadım (kardeş oturum KASR-I ŞİRİN ZİNCİRİ'nin işi, arrival mesajımda da belirtmiştim).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
