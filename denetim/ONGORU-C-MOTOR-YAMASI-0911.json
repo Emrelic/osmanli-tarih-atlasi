@@ -1,0 +1,9 @@
+{
+  "oturum": "C MOTOR YAMASI",
+  "tarih": "2026-09-11",
+  "onceki_ongoruler": "v1 (kucuk kapsam) ve v2-mimari (post-hoc devralma) ONGORULERI hala GECERLI -- bu ongoru YALNIZCA M-3480'in (kutu dogal sinira genisler) ETKISINI ekliyor.",
+  "yeni_ongoru": {
+    "kapsam_buyumesi": "M-3480 (kutu dogal sinira genisler) + M-3467 (Karlofca/Kasr-i Sirin dahil, cok daha genis envanter) birlikte, ⑥'daki 'kesin etkilenir' listesini BUYUTUYOR: Degismez 2s (121) VE Degismez 7 (dizinsiz kimlik) hala en riskli, AMA simdi ayrica Degismez 1 (sahipsizlik, 315 beklenen) de RISK ALTINA GIRIYOR -- cunku genis kutu ICINE mevcut BASKA yerlesimlerin peteklerinin bir kismi da girecek (Midye-Enez kutusu Ege'den Karadeniz'e genisleyince ICINDE bugun 44 yerlesim var, C DEVIR ADIMI bunlarin HEPSININ PETEK_D'sini SILIP yeniden kurmaya calisacak -- eger belge bu 44'un TAMAMINI adiyla saymiyorsa (COK olasi, Midye-Enez SADECE iki nokta -Enez/Midye- taniyor), on-kosul (yama SS②) bunu YAKALAYIP C'yi REDDEDECEK. Yani buyuyen kutu ile birlikte 'C hic uygulanamaz' riski de ARTIYOR.",
+    "curume_sarti": "Eger C DENETIMI/C KAPLAMA COZUMU oturumlari genis kutunun ICINDEKI mevcut yerlesimleri de belge disi ama 'zaten dogru yerde' sayip on-kosuldan MUAF TUTAN bir kural bulursa (orn. 'belgenin ANMADIGI ama zaten dogru tarafta olan yerlesimler blokE etmez') bu ongoru curur -- boyle bir kural bu yamada YOK, SS②'nin oldugu gibi katı hali riskli."
+  }
+}

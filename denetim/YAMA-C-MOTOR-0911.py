@@ -1,138 +1,171 @@
 # -*- coding: utf-8 -*-
-"""YAMA (HAZIRLIK, UYGULANMADI) — C (hukukî sınır) için motor entegrasyonu.
+"""YAMA (HAZIRLIK, UYGULANMADI) — C (hukukî sınır/devralma) motor entegrasyonu, v2.
 
-🔒 arac/ DONUK. Bu dosya arac/uret_petek.py İÇİNE YAZILMAK ÜZERE hazırlanmış
-bir YAMADIR — kendisi çalıştırılamaz. Koşu 10 bitip `arac/` açılınca
-aşağıdaki değişikliği uygula.
+🔒 arac/ HÂLÂ DONUK (Koşu 9 gerçekte bitmedi — M-3487, nöbetçi ERKEN öttü,
+motor süreci hâlâ çalışıyordu). Bu yama `denetim/` içinde HAZIR TUTULUYOR,
+`arac/`e YAPIŞTIRILMADI.
 
-────────────────────────────────────────────────────────────────────────
-BAĞLAM — C MOTOR ŞARTNAMESİ sevki, 1.MURAT (11 Eylül 2026)
-────────────────────────────────────────────────────────────────────────
-`C ŞEMA KAPANIŞ` oturumu (`denetim/SEMA-C-0911.md` §8.3) motor girişini
-BULDU ama "doğrulanmış GİRİŞ NOKTASI, tam patch NOKTASI DEĞİL" diye
-damgaladı. Bu yama o boşluğu, Ottoman (doğrudan/tâbi) tarafı için,
-KAPATIYOR — yabancı (`s:`) taraf İÇİN AYRI bir yama gerekir (aşağıda §④,
-bilerek YAZILMADI, D107).
+🔴 v1 (bu dosyanın önceki hâli, commit 45e29a7) GEÇERSİZ — Emre M-3463 ile
+C'nin tanımını "ekleme noktası"ndan "devralma/otorite"ye çevirdi. v1 yalnız
+tabi/dogrudan KÜME ÜYELİĞİNİ değiştiriyordu; bu v2, kapsama alanı içindeki
+TÜM sezgisel mekanizmaları (B2/B3/boşluk-paylaştırma/çöl-tavanı/A1-yarıçap/
+§2-emilme) kapatan TEK bir post-hoc devralma adımı tanımlıyor
+(`oturumlar/C-MOTOR-SARTNAMESI-V2-0911.md`'nin kod hâli).
 
 ────────────────────────────────────────────────────────────────────────
-① SIRA DOĞRULAMASI — statik boru hattı, satır numarasıyla (BUGÜNKÜ dosya)
+① MİMARİ — 6 mekanizma, TEK devralma noktası (SEMA-C v2'nin ta kendisi)
 ────────────────────────────────────────────────────────────────────────
-Motorun kendi yorumu (satır 1701-1707) zaten NUMARALI bir sıra veriyor,
-ben yalnız DOĞRULADIM (izledim, çürütmedim):
 ```
-1701  "Örtü boru hattı" — Petekler TEK bir ÖRTÜ olarak işlenir
-1708  Ortak kenar ağı çıkarılıyor (her kenar TEK kopya)
-1740  Kenarlar doğal hatlara YASLANIYOR (dogal_hatta_yasla, satır 1748)
-1750    + CHAIKIN yumuşatma (chaikin_acik, AYNI satırda, art arda) — "bir
-        kez yapılır, düğümler sabit"
-1752  Hücreler geri kuruluyor (polygonize) → PETEK ilk hâlini alır
-1864  Örtü sadeleştirme (coverage_simplify, SADE_TOL)
-1896  KIYI KESİMİ (KARA) EN SON — "sonrasında hiçbir geometri işlemi yok"
-2384  [AYRI BLOK] Eğim-tabanlı Dijkstra devri (PETEK_D parça-parça el
-      değiştirir — bkz. `denetim/BULGU-VASSAL-RENK-0911.md`ye KOMŞU iş,
-      `B BOŞLUK PAYLAŞTIRMA` şartnamesi) — BU DA STATİK, tarihten bağımsız
-4581  gosterim_duzelt() PER-DÖNEM çağrılır (B2 enklav + B3 koridor) — bu
-      NOKTADA gövde artık belirli bir (a,b) dönemine ÖZGÜ
-4587  İKİNCİ bir KARA kesimi, PER-DÖNEM gövde üzerinde (güvenlik ağı —
-      gosterim_duzelt'in ürettiği köprüler kıyıyı aşabilir)
-4842  "Dönemler kuruluyor" döngüsü — HER (a,b) için tabi/dogrudan (Osmanlı
-      tâbi/doğrudan yerleşim KÜMELERİ, settlement INDEX bazında) hesaplanır
+:793   voronoi_diagram(...)              ← §2 EMİLME — dokunulmaz, HER ZAMAN
+                                            normal çalışır (global, tek çağrı,
+                                            "atla" şartı buraya GİREMEZ)
+:900-1129  TAVAN_KM / _tavan_cokgen      ← A1 YARIÇAP — dokunulmaz, normal çalışır
+:1512  _b2_enklav_birlestir              ← B2 — dokunulmaz, normal çalışır
+:1614  _b3_koridor_kirp                  ← B3 — dokunulmaz, normal çalışır
+:1740-1750  yaslama + Chaikin            ← YASLAMA — dokunulmaz (statik geçiş);
+                                            C alanı içindeki kenarlar da NORMAL
+                                            yaslanır, ama SONRADAN atılacaktır
+:1896  Kıyı kesimi (KARA)                ← dokunulmaz, normal çalışır
+:2076-2453  eğim-tabanlı Dijkstra devri  ← BOŞLUK PAYLAŞTIRMA — dokunulmaz,
+                                            normal çalışır
+:2637  COL_TAVAN_KM                      ← ÇÖL TAVANI — dokunulmaz, normal çalışır
 ```
-⇒ `PETEK_D` (her yerleşimin kendi peteği) satır ~1898'de (kıyı kesimi) VE
-~2429'da (eğim devri) OLMAK ÜZERE İKİ KEZ "son hâlini" alır — ama İKİSİ DE
-STATİK, tarihten bağımsız. **Tarihe bağlı TEK adım 4842-4938 arası
-döngüdür** — SEMA-C'nin işaret ettiği yer DOĞRU, ve gövde montajının
-KİMLİĞİ (hangi PETEK_D parçası hangi (a,b) döneminde hangi kümeye
-girdiği) TAMAMEN bu döngünün İÇİNDE, `tabi`/`dogrudan` frozenset'lerinin
-KURULMA anında belirleniyor.
+**Hiçbirine "bu C alanında mı" şartı ENJEKTE EDİLMİYOR.** Hepsi normal
+çalışır — kapsama kutusu içinde bile, İSRAF ama ZARARSIZ, çünkü sonucu
+BİRAZDAN TAMAMEN ATILACAK. Tek gerçek müdahale noktası:
 
-**⇒ C, en erken satır 4856'DAN SONRA, en geç satır 4869'dan (DOLGU_ACIK
-bloğu) ÖNCE girmeli.** Daha erken (statik boru hattı içinde) girerse
-`:1748` yaslama C'nin çizdiği cetveli en yakın nehre çeker (koordinatörün
-uyardığı TAM senaryo — C, bir NEHRİ değil bir ANTLAŞMA MADDESİNİ temsil
-eder, yaslanmamalı). Daha geç girerse (`aktif`/`anahtar` hesaplandıktan
-sonra) dönem-birleştirme mantığı (satır 4890, "hiçbir şey değişmediyse
-dönemi uzat") C'nin ürettiği YENİ dönem sınırını fark etmeyip önceki
-döneme yanlışlıkla BİRLEŞTİREBİLİR.
+```
+:2453 (eğim devri biter) İLE :4581 (per-dönem gosterim_duzelt) ARASI
+      → YENİ ADIM: "C DEVRALMASI" (statik, PETEK_D üzerinde, TARİHTEN
+        BAĞIMSIZ — Midye-Enez GİBİ zamana bağlı C kayıtları için PETEK_D
+        DEĞİL, per-dönem 4842+ döngüsünde ayrıca ele alınır, bkz. ⑤ altı)
+```
 
 ────────────────────────────────────────────────────────────────────────
-② YAMA — Ottoman tabi/dogrudan kümelerine C override'ı (satır ~4856 sonrası)
+② YAMA — C DEVRALMASI adımı (satır ~2453'ten SONRA eklenecek YENİ blok)
 ────────────────────────────────────────────────────────────────────────
 
-ESKİ (satır 4851-4856, bugünkü hâl):
 ```python
-    tabi = frozenset(j for j, y in enumerate(YERLER)
-                     if j not in _dv
-                     and any(dn["f"] <= a < dn["t"] for dn in y["v"]))
-    dogrudan = frozenset(j for j, y in enumerate(YERLER)
-                         if j not in _dv
-                         and any(dn["f"] <= a < dn["t"] for dn in y["d"])) - tabi
-```
-
-YENİ (EKLENECEK, hemen ardından — DOLGU_ACIK bloğundan ÖNCE):
-```python
-    # ---- C: HUKUKÎ SINIR ÖVERRIDE (window.HUKUKI_SINIRLAR) --------------
-    # SEMA-C-0911.md §8.2/§8.3 — yalnız Osmanlı (doğrudan/tâbi) tarafı.
-    # 🔴 Yabancı (`s:`) taraf İÇİN AYRI bir override GEREKİR, bu yamada YOK.
-    for _hs in (HUKUKI_SINIRLAR if 'HUKUKI_SINIRLAR' in globals() else []):
-        if not (_hs["f"] <= a < _hs["t"]):
-            continue                          # bu dönemde aktif değil
-        _kut = _hs["kapsama"]["kutu"]
-        _hat = _hs["hat"]["nokta_dizisi"]      # [{lon,lat,...}, ...]
-        _hat_ls = LineString([(p["lon"], p["lat"]) for p in _hat])
-        _taraf_a, _taraf_b = _hs["taraflar"]
-        _a_osmanli = (_taraf_a == "osmanli") or _taraf_a in _OSMANLI_AILESI
-        for j, y in enumerate(YERLER):
-            if j in _dv:
-                continue                       # yabancıya devredilmiş, C bu döngünün işi değil
-            _lat, _lon = y["lat"], y["lon"]
-            if not (_kut["lat_min"] <= _lat <= _kut["lat_max"]
-                    and _kut["lon_min"] <= _lon <= _kut["lon_max"]):
-                continue                        # kapsama DIŞI, dokunma
-            # YEREL (nearest-segment) cross-product — SEMA-C §8.2
-            _q = nearest_points(_hat_ls, Point(_lon, _lat))[0]
-            _seg_i = min(range(len(_hat) - 1),
-                         key=lambda k: LineString([(_hat[k]["lon"], _hat[k]["lat"]),
-                                                    (_hat[k+1]["lon"], _hat[k+1]["lat"])])
-                                       .distance(_q))
-            _p0, _p1 = _hat[_seg_i], _hat[_seg_i + 1]
-            _dx, _dy = _p1["lon"] - _p0["lon"], _p1["lat"] - _p0["lat"]
-            _cross = _dx * (_lat - _q.y) - _dy * (_lon - _q.x)
-            _bu_taraf_a = _cross > 0            # yon_kurali'ne göre işaret YÖNÜ TERSİNE ÇEVRİLEBİLİR
-            if _a_osmanli and _bu_taraf_a:
-                dogrudan = dogrudan | {j}; tabi = tabi - {j}
-            elif _a_osmanli and not _bu_taraf_a:
-                dogrudan = dogrudan - {j}; tabi = tabi - {j}
-                # 🔴 j artık YABANCI tarafta olmalı — bu döngü onu SADECE
-                # Osmanlı kümelerinden ÇIKARIYOR, yabancı gövdeye EKLEMİYOR.
-                # Eşleniği (③) YAZILMADI.
-```
-
-────────────────────────────────────────────────────────────────────────
-③ 🔴 EKSİK — YABANCI (`s:`) TARAF override'ı YAZILMADI (D107)
-────────────────────────────────────────────────────────────────────────
-Yukarıdaki yama yalnız bir yerleşimi Osmanlı kümelerinden (tabi/dogrudan)
-ÇIKARABİLİR ya da SOKABİLİR. Midye-Enez ve Kasr-ı Şirin'in İKİSİ de
-Osmanlı ↔ YABANCI (Bulgaristan/Safevî) sınırı — yani bir yerleşim C
-yüzünden Osmanlı'dan ÇIKARSA, onu ALAN tarafın (`_yabanci_devlet_faz1`,
-`arac/uret_petek.py:4537`) gövde hesabına da EKLENMESİ gerekir, yoksa
-o toprak parçası HİÇBİR gövdede görünmez (sessiz alan kaybı — tam
-motorun kendi §4869 yorumunun uyardığı sınıf). Bu ikinci taraf
-BULUNAMADI/SINANMADI çünkü `_yabanci_devlet_faz1`'in TAM mekaniği bu
-görevde izlenmedi (yalnız `arac/uret_petek.py:4537-4550` civarı okundu,
-bkz. `denetim/BULGU-TUNUS-IBERYA-0911.md` ve `BULGU-VASSAL-RENK-0911.md`
-— AYNI fonksiyon, FARKLI bir görev için kısmen incelendi). **Bir sonraki
-oturumun ilk işi bu olmalı.**
-
-────────────────────────────────────────────────────────────────────────
-④ GERİ DÖNÜŞ YOLU
-────────────────────────────────────────────────────────────────────────
-```python
+# ---- C: HUKUKÎ SINIR DEVRALMASI (window.HUKUKI_SINIRLAR) ----------------
+# SEMA-C-0911.md v2 + M-3463/M-3480. Kapsama kutusu ARTIK dikdörtgen
+# DEĞİL — Emre'nin kararıyla (M-3480) doğal sınıra kadar genişletiliyor;
+# bu yama HER İKİ kapsama biçimini de kabul eder (`kapsama.tur`: "bbox"
+# ya da "dogal_sinir" — ikincisi bir poligon/çokgen taşır).
 MOTOR_C_KAPALI = os.environ.get("MOTOR_C_KAPALI") == "1"
-# yukarıdaki `for _hs in (HUKUKI_SINIRLAR if ...)` satırının başına:
-for _hs in ([] if MOTOR_C_KAPALI else
-            (HUKUKI_SINIRLAR if 'HUKUKI_SINIRLAR' in globals() else [])):
+if not MOTOR_C_KAPALI and 'HUKUKI_SINIRLAR' in globals():
+    for _hs in HUKUKI_SINIRLAR:
+        _kapsama_g = _kapsama_poligon(_hs["kapsama"])   # bbox ya da doğal sınır poligonu
+        # ---- ÖN KOŞUL: belge coğrafyası kutuyu TAM kaplıyor mu? ----------
+        _belge_noktalari = [(p["lon"], p["lat"]) for p in _hs["hat"]["nokta_dizisi"]]
+        _belge_noktalari += _hs.get("ek_noktalar", [])   # Karlofça tipi: isimlendirilmiş kale/nehir/dağ
+        if len(_belge_noktalari) < 2:
+            print(f"  🔴 C ATLANDI ({_hs['id']}): belge nokta sayısı < 2")
+            continue
+        _yerel_vd = voronoi_diagram(MultiPoint(_belge_noktalari), envelope=_kapsama_g, tolerance=0.0)
+        _yerel_orgu = poligonal(unary_union(list(_yerel_vd.geoms)).intersection(KARA).intersection(_kapsama_g))
+        _hedef_alan = poligonal(KARA.intersection(_kapsama_g)).area
+        _kapli_alan = _yerel_orgu.area if _yerel_orgu else 0.0
+        _fark_km2 = abs(_hedef_alan - _kapli_alan) * (111.32 ** 2)   # kaba derece→km² (enlem düzeltmesi ihmal, ön-kontrol için yeterli)
+        if _fark_km2 > KV_MIN_KM2:              # AYNI eşik, B BOŞLUK PAYLAŞTIRMA ile PAYLAŞILIYOR
+            print(f"  🔴 C UYGULANMADI ({_hs['id']}): belge coğrafyası "
+                  f"{_fark_km2:,.0f} km² boşluk bırakıyor (eşik {KV_MIN_KM2:.0f}) — "
+                  f"önce nokta/hat eklenmeli. Motor SESSİZCE GEÇMEDİ.")
+            continue
+        # ---- YASLAMA — YALNIZ hat DOĞAL bir unsura dayanıyorsa (③) ------
+        if _hs["hat"]["tur"] == "dogal-taninmayan":       # SEMA-C §8.2 ①b
+            _yerel_kenarlar = _kenar_agi_cikar(_yerel_orgu)
+            _yerel_kenarlar = [chaikin_acik(dogal_hatta_yasla(sikla(list(k.coords))), 2)
+                                for k in _yerel_kenarlar]
+            _yerel_orgu = poligonal(polygonize(_yerel_kenarlar))
+        # "cetvel" (①c) ve "dogal-taninan" (①a — zaten C'ye hiç girmez,
+        # A/B yeter) için yaslama UYGULANMAZ — cetvel çizgiyi BOZAR.
+        # ---- KUTU İÇİNDEKİ PETEK_D PARÇALARINI DEĞİŞTİR ------------------
+        for _i, _g in enumerate(PETEK_D):
+            if _g is None or not _kapsama_g.intersects(_g):
+                continue
+            PETEK_D[_i] = poligonal(_g.difference(_kapsama_g))   # eski parça KUTUDAN ÇIKARILIR
+        for _p_id, _p_geom in _yerel_petek_ayir(_yerel_orgu, _belge_noktalari).items():
+            _j = _en_yakin_yerlesim_indeksi(_p_id, YERLER)   # belge noktası → yerlesimler.js eşlemesi
+            PETEK_D[_j] = poligonal(unary_union([PETEK_D[_j], _p_geom])) if PETEK_D[_j] else _p_geom
 ```
-`MOTOR_PARALEL_KAPALI` emsaliyle AYNI desen — 1 ise C mekanizması TAMAMEN
-devre dışı, motor bugünkü (C'siz) davranışına döner.
+
+⚠️ **`_kapsama_poligon`, `_kenar_agi_cikar`, `_yerel_petek_ayir`,
+`_en_yakin_yerlesim_indeksi` YARDIMCI FONKSİYONLARDIR, bu yamada
+TANIMLANMADI** — imzaları/amaçları yukarıdaki kullanımdan çıkarılabilir
+ama gövdeleri bir UYGULAMA oturumunun işi (D107: iskelet verildi,
+gövde yazılmadı — `arac/` donuk olduğu için gerçek shapely nesneleriyle
+SINANAMADI).
+
+────────────────────────────────────────────────────────────────────────
+③ `dogal_hatta_yasla` — ŞARTA BAĞLANDI (yukarıda ②'nin içinde)
+────────────────────────────────────────────────────────────────────────
+```
+hat.tur == "dogal-taninmayan" (①b)  → yaslama UYGULANIR (belge bir nehri/
+                                       dağı sınır ilan ediyor, motor onu
+                                       TANIMIYOR ama YİNE DE doğal unsura
+                                       yaslanmalı — Emre'nin "belgede
+                                       belirtilen nehir dağ" cümlesinin
+                                       gereği)
+hat.tur == "cetvel" (①c)            → yaslama UYGULANMAZ (yapay çizgi,
+                                       yaslama onu en yakın nehre ÇEKİP
+                                       BOZAR — v1'in zaten tespit ettiği
+                                       risk, v2'de KORUNDU)
+hat.tur == "dogal-taninan" (①a)     → C'ye HİÇ GİRMEZ (A/B zaten yeterli,
+                                       SEMA-C §8.2 — Şattülarap örneği)
+```
+
+────────────────────────────────────────────────────────────────────────
+④ 🅰 vs 🅱 — SAYIYLA KIYAS
+────────────────────────────────────────────────────────────────────────
+```
+🅰 KUTU İÇİNDE SEZGİLERİ KAPAT (bu yamanın mimarisi, post-hoc devralma)
+   maliyet     KÜÇÜK — yerel voronoi_diagram() + KARA kesişimi, bu
+               gecenin İKİ bağımsız ölçümüyle (TAŞMA PROTOTİP: 0,04 sn
+               pilot kutu · POLİGON FİYAT: 0,496 sn sentetik gerçek
+               ölçek) AYNI işlem sınıfı — MERTEBE: saniyenin altı/birkaç
+               saniyesi, motorun toplam süresine (koşu 9: ~20 saat)
+               göre İHMAL EDİLEBİLİR
+   risk        ÖLÇÜLDÜ VE DOĞRULANDI (C ÇİZİM oturumu, bu gece): kutu
+               kenarında GÖRÜNÜR DİKİŞ (dar kutu: 1 dikiş; geniş kutu:
+               0 görünür dikiş AMA en az 2 yeni yanlış-atıf riski, bkz.
+               `denetim/BULGU-C-CIZIM-II-0911.md`). Emre'nin kararı
+               (M-3480, "kutuyu doğal sınıra genişlet") bu dikişi
+               GİZLİYOR, ÇÖZMÜYOR — kalıcı bir mimari düzeltme değil,
+               bir GÖRSEL AZALTMA.
+   uygulanabilirlik  BUGÜNKÜ shapely tabanlı motor mimarisiyle DOĞRUDAN
+               uyumlu, yeni bir geometri kütüphanesi/algoritma GEREKMİYOR
+
+🅱 C HATTINI PETEK KENARI OLARAK ÜRET (kutu kavramı kalkar, dikiş kalkar)
+   maliyet     YÜKSEK — shapely'nin `voronoi_diagram()` fonksiyonu
+               "kısıtlı/engelli Voronoi" (constrained Voronoi with
+               barrier edges) DESTEKLEMİYOR. Bunu elde etmek ya (a) C
+               hattını `:1708`teki ORTAK KENAR AĞINA bir EK kenar olarak
+               enjekte edip TÜM `polygonize()` adımını (satır 1752+)
+               bu yeni ağla YENİDEN çalıştırmak (GLOBAL bir veri
+               yapısını değiştirmek — TEK bir C kaydı için BÜTÜN
+               dünyanın kenar ağı yeniden inşa edilir), ya da (b) özel
+               bir "hat-ile-kes" algoritması YAZMAK (bu motorda
+               EMSALİ YOK, sıfırdan geliştirme) gerektirir.
+   risk        YÜKSEK — global kenar ağına dokunmak, C'nin kapsama
+               alanı DIŞINDAKİ petek şekillerini de ETKİLEME riski
+               taşır (SEMA-C §8.5 SINAV 2'nin tam sınamak istediği şey,
+               burada sınav ÇOK DAHA ZOR geçilir çünkü değişiklik
+               GERÇEKTEN global bir veri yapısında)
+   uygulanabilirlik  BUGÜNKÜ motor mimarisiyle UYUMSUZ, ya kütüphane
+               değişikliği (shapely yerine ör. CGAL Python bind'leri,
+               constrained Delaunay/Voronoi destekli) ya da sıfırdan
+               algoritma geliştirme gerektirir — GÜNLER mertebesinde
+               bir iş, bu şartnamenin/yamanın kapsamının ÇOK ÖTESİNDE
+
+⇒ ÖNERİ: 🅰 KISA VADEDE, 🅱 UZUN VADELİ bir mimari hedef olarak KAYDA
+  GEÇSİN. Emre'nin kendi kararı (M-3480, kutuyu genişletmek) zaten 🅰'yı
+  DOLAYLI olarak seçmiş durumda — "dikişi gizle" bir 🅰 çaresi, 🅱'nin
+  kendisi değil.
+```
+
+────────────────────────────────────────────────────────────────────────
+⑤ GERİ DÖNÜŞ YOLU — değişmedi
+────────────────────────────────────────────────────────────────────────
+`MOTOR_C_KAPALI=1` — yukarıdaki ② kod bloğunun en başında zaten var
+(`if not MOTOR_C_KAPALI and ...`).
 """
