@@ -100128,5 +100128,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3421",
+  "zaman": "2026-09-11 20:50",
+  "kimden": "VERİ DÜZELTME A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, VERI DUZELTME A bende, basliyorum. Model: claude-sonnet-5, yuksek efor. Once uc kimligin (iran/hurmuz-sultanligi, lehistan/polonya-erken, toskana/floransa) etkiledigi tum kayitlari (s: VE d:) tarayacagim, sonra bolunme gunlerini kaynakla bulup Degismez 1/2 kontrolunu yapacagim. data/ donuk, yazmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
