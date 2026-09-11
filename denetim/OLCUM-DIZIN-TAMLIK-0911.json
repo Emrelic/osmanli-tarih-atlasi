@@ -1,0 +1,2179 @@
+{
+ "evren": 627,
+ "bilinen_oncul_kontrolu": {
+  "meysur-racaligi": false,
+  "gvalyar": false,
+  "indor": false,
+  "kolhapur": false,
+  "pejeng": false,
+  "bali-kralliklari-pejeng": false
+ },
+ "metod_a_bolge_bosluklari": [
+  {
+   "bolge": "orta-amerika-karayip",
+   "bosluk_baslangic": "1530-02-14",
+   "bosluk_bitis": "1821-09-15",
+   "gun": 106499,
+   "yil": 291.6,
+   "bolgedeki_kunye_sayisi": 8
+  },
+  {
+   "bolge": "anadolu",
+   "bosluk_baslangic": "1608-01-01",
+   "bosluk_bitis": "1878-06-04",
+   "gun": 98770,
+   "yil": 270.4,
+   "bolgedeki_kunye_sayisi": 35
+  },
+  {
+   "bolge": "sibirya-bozkir",
+   "bosluk_baslangic": "1783-04-19",
+   "bosluk_bitis": "1921-08-14",
+   "gun": 50520,
+   "yil": 138.3,
+   "bolgedeki_kunye_sayisi": 9
+  },
+  {
+   "bolge": "kafkasya",
+   "bosluk_baslangic": "1810-02-20",
+   "bosluk_bitis": "1917-11-07",
+   "gun": 39341,
+   "yil": 107.7,
+   "bolgedeki_kunye_sayisi": 10
+  },
+  {
+   "bolge": "guney-afrika",
+   "bosluk_baslangic": "1904-10-03",
+   "bosluk_bitis": "1923-10-29",
+   "gun": 6965,
+   "yil": 19.1,
+   "bolgedeki_kunye_sayisi": 18
+  },
+  {
+   "bolge": "orta-afrika",
+   "bosluk_baslangic": "1917-02-06",
+   "bosluk_bitis": "1923-10-29",
+   "gun": 2456,
+   "yil": 6.7,
+   "bolgedeki_kunye_sayisi": 24
+  },
+  {
+   "bolge": "anadolu",
+   "bosluk_baslangic": "1914-11-05",
+   "bosluk_bitis": "1920-04-23",
+   "gun": 1996,
+   "yil": 5.5,
+   "bolgedeki_kunye_sayisi": 35
+  },
+  {
+   "bolge": "kafkasya",
+   "bosluk_baslangic": "1921-03-16",
+   "bosluk_bitis": "1923-10-29",
+   "gun": 957,
+   "yil": 2.6,
+   "bolgedeki_kunye_sayisi": 10
+  }
+ ],
+ "metod_b_tekil_ardil_adaylari": [
+  {
+   "id": "bizans",
+   "ad": "Bizans (Doğu Roma) İmparatorluğu",
+   "bolge": "balkanlar",
+   "kunye_t": "1461-08-15"
+  },
+  {
+   "id": "sirp-despotlugu",
+   "ad": "Sırp Despotluğu",
+   "bolge": "balkanlar",
+   "kunye_t": "1459-06-20"
+  },
+  {
+   "id": "bulgar-carligi",
+   "ad": "İkinci Bulgar İmparatorluğu",
+   "bolge": "balkanlar",
+   "kunye_t": "1396-01-01"
+  },
+  {
+   "id": "bosna-kralligi",
+   "ad": "Bosna Krallığı",
+   "bolge": "balkanlar",
+   "kunye_t": "1463-05-01"
+  },
+  {
+   "id": "mora-despotlugu",
+   "ad": "Mora Despotluğu",
+   "bolge": "balkanlar",
+   "kunye_t": "1460-05-31"
+  },
+  {
+   "id": "atina-dukaligi",
+   "ad": "Atina Dukalığı",
+   "bolge": "balkanlar",
+   "kunye_t": "1458-06-04"
+  },
+  {
+   "id": "naksa-dukaligi",
+   "ad": "Naxos (Nakşa) Dukalığı",
+   "bolge": "balkanlar",
+   "kunye_t": "1579-01-01"
+  },
+  {
+   "id": "rodos-sovalyeleri",
+   "ad": "Rodos (Saint Jean/Malta Şövalyeleri)",
+   "bolge": "balkanlar",
+   "kunye_t": "1798-06-12"
+  },
+  {
+   "id": "sarki-rumeli",
+   "ad": "Şarkî Rumeli Vilayeti (Özerk)",
+   "bolge": "balkanlar",
+   "kunye_t": "1885-09-18"
+  },
+  {
+   "id": "dubrovnik",
+   "ad": "Dubrovnik (Ragusa) Cumhuriyeti",
+   "bolge": "balkanlar",
+   "kunye_t": "1808-01-31"
+  },
+  {
+   "id": "arvanid-sancagi",
+   "ad": "Arvanid Sancağı (Arnavut-ili)",
+   "bolge": "balkanlar",
+   "kunye_t": "1537-08-25"
+  },
+  {
+   "id": "crnojevic-zetasi",
+   "ad": "Crnojević Zetası",
+   "bolge": "balkanlar",
+   "kunye_t": "1499-01-01"
+  },
+  {
+   "id": "dejanovic-prensligi",
+   "ad": "Dejanović Prensliği (Kostadin-ili)",
+   "bolge": "balkanlar",
+   "kunye_t": "1395-05-17"
+  },
+  {
+   "id": "memluk",
+   "ad": "Memlûk Sultanlığı (Mısır-Suriye)",
+   "bolge": "misir-sudan",
+   "kunye_t": "1517-04-13"
+  },
+  {
+   "id": "fransiz-misir-seferi",
+   "ad": "Napolyon'un Mısır Seferi",
+   "bolge": "misir-sudan",
+   "kunye_t": "1801-10-02"
+  },
+  {
+   "id": "funj",
+   "ad": "Func (Sennâr) Sultanlığı",
+   "bolge": "misir-sudan",
+   "kunye_t": "1821-06-14"
+  },
+  {
+   "id": "afsar",
+   "ad": "Afşar Devleti (Nadir Şah)",
+   "bolge": "iran",
+   "kunye_t": "1796-01-01"
+  },
+  {
+   "id": "akkoyunlu",
+   "ad": "Akkoyunlu Devleti",
+   "bolge": "iran",
+   "kunye_t": "1514-01-01"
+  },
+  {
+   "id": "celayirli",
+   "ad": "Celâyirliler",
+   "bolge": "iran",
+   "kunye_t": "1431-01-01"
+  },
+  {
+   "id": "karakoyunlu",
+   "ad": "Karakoyunlu Devleti",
+   "bolge": "iran",
+   "kunye_t": "1469-01-01"
+  },
+  {
+   "id": "lur-i-buzurg",
+   "ad": "Lür-i Büzürg Atabegliği (Hazaraspîler)",
+   "bolge": "iran",
+   "kunye_t": "1424-01-01"
+  },
+  {
+   "id": "lur-i-kucek",
+   "ad": "Lür-i Küçek Atabegliği",
+   "bolge": "iran",
+   "kunye_t": "1597-01-01"
+  },
+  {
+   "id": "serbedariler",
+   "ad": "Serbedârîler",
+   "bolge": "iran",
+   "kunye_t": "1386-01-01"
+  },
+  {
+   "id": "kert",
+   "ad": "Kertler (Herat)",
+   "bolge": "iran",
+   "kunye_t": "1389-01-01"
+  },
+  {
+   "id": "muzafferi",
+   "ad": "Muzafferî Hanedanı",
+   "bolge": "iran",
+   "kunye_t": "1393-01-01"
+  },
+  {
+   "id": "kutlughanli",
+   "ad": "Kutluğhanlılar",
+   "bolge": "iran",
+   "kunye_t": "1306-01-01"
+  },
+  {
+   "id": "gilan-kiya",
+   "ad": "Kârkiyâ Hânedanı (Gilân)",
+   "bolge": "iran",
+   "kunye_t": "1592-01-01"
+  },
+  {
+   "id": "mazenderan-marasi",
+   "ad": "Mar'aşî Seyyidleri (Mâzenderan)",
+   "bolge": "iran",
+   "kunye_t": "1596-01-01"
+  },
+  {
+   "id": "zend",
+   "ad": "Zend Hanedanı (İran)",
+   "bolge": "iran",
+   "kunye_t": "1794-01-01"
+  },
+  {
+   "id": "hurmuz-sultanligi",
+   "ad": "Hürmüz Sultanlığı",
+   "bolge": "iran",
+   "kunye_t": "1514-01-01"
+  },
+  {
+   "id": "altinorda",
+   "ad": "Altın Orda (Deşt-i Kıpçak Hanlığı)",
+   "bolge": "sibirya-bozkir",
+   "kunye_t": "1502-01-01"
+  },
+  {
+   "id": "kirim",
+   "ad": "Kırım Hanlığı",
+   "bolge": "sibirya-bozkir",
+   "kunye_t": "1783-04-19"
+  },
+  {
+   "id": "zaporojye",
+   "ad": "Zaporojye Kazak Hetmanlığı",
+   "bolge": "sibirya-bozkir",
+   "kunye_t": "1775-06-16"
+  },
+  {
+   "id": "kasim",
+   "ad": "Kasım Hanlığı (Kasimov)",
+   "bolge": "sibirya-bozkir",
+   "kunye_t": "1681-01-01"
+  },
+  {
+   "id": "astarhan",
+   "ad": "Astarhan (Ejderhan) Hanlığı",
+   "bolge": "sibirya-bozkir",
+   "kunye_t": "1556-01-01"
+  },
+  {
+   "id": "nogay",
+   "ad": "Nogay Ordası",
+   "bolge": "sibirya-bozkir",
+   "kunye_t": "1783-01-01"
+  },
+  {
+   "id": "don-kazak",
+   "ad": "Don Kazak Ordası",
+   "bolge": "sibirya-bozkir",
+   "kunye_t": "1721-01-01"
+  },
+  {
+   "id": "erdel",
+   "ad": "Erdel Prensliği (Transilvanya)",
+   "bolge": "orta-avrupa",
+   "kunye_t": "1711-04-30"
+  },
+  {
+   "id": "prusya",
+   "ad": "Prusya Krallığı",
+   "bolge": "orta-avrupa",
+   "kunye_t": "1871-01-18"
+  },
+  {
+   "id": "orta-macar-kralligi",
+   "ad": "Orta Macar Krallığı (Tököli İmre)",
+   "bolge": "orta-avrupa",
+   "kunye_t": "1688-01-17"
+  },
+  {
+   "id": "novgorod",
+   "ad": "Novgorod Cumhuriyeti",
+   "bolge": "dogu-avrupa",
+   "kunye_t": "1478-01-15"
+  },
+  {
+   "id": "pskov",
+   "ad": "Pskov Cumhuriyeti",
+   "bolge": "dogu-avrupa",
+   "kunye_t": "1510-01-13"
+  },
+  {
+   "id": "tver",
+   "ad": "Tver Büyük Knezliği",
+   "bolge": "dogu-avrupa",
+   "kunye_t": "1485-09-12"
+  },
+  {
+   "id": "lehistan",
+   "ad": "Lehistan-Litvanya Birliği",
+   "bolge": "dogu-avrupa",
+   "kunye_t": "1795-10-24"
+  },
+  {
+   "id": "ryazan",
+   "ad": "Ryazan Knezliği",
+   "bolge": "dogu-avrupa",
+   "kunye_t": "1521-01-01"
+  },
+  {
+   "id": "teodoro",
+   "ad": "Theodoro (Gotya) Prensliği",
+   "bolge": "dogu-avrupa",
+   "kunye_t": "1475-12-01"
+  },
+  {
+   "id": "venedik",
+   "ad": "Venedik Cumhuriyeti",
+   "bolge": "italya",
+   "kunye_t": "1797-05-12"
+  },
+  {
+   "id": "cenova",
+   "ad": "Cenova Cumhuriyeti",
+   "bolge": "italya",
+   "kunye_t": "1797-06-14"
+  },
+  {
+   "id": "papalik",
+   "ad": "Papalık Devleti",
+   "bolge": "italya",
+   "kunye_t": "1870-09-20"
+  },
+  {
+   "id": "siena",
+   "ad": "Siena Cumhuriyeti",
+   "bolge": "italya",
+   "kunye_t": "1555-04-17"
+  },
+  {
+   "id": "mantua",
+   "ad": "Mantua Dukalığı (Gonzaga)",
+   "bolge": "italya",
+   "kunye_t": "1708-01-01"
+  },
+  {
+   "id": "piza",
+   "ad": "Pisa Cumhuriyeti",
+   "bolge": "italya",
+   "kunye_t": "1406-10-09"
+  },
+  {
+   "id": "karaman",
+   "ad": "Karamanoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1487-01-01"
+  },
+  {
+   "id": "germiyan",
+   "ad": "Germiyanoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1429-01-01"
+  },
+  {
+   "id": "aydin",
+   "ad": "Aydınoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1425-06-01"
+  },
+  {
+   "id": "saruhan",
+   "ad": "Saruhanoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1416-09-01"
+  },
+  {
+   "id": "mentese",
+   "ad": "Menteşeoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1424-01-01"
+  },
+  {
+   "id": "hamid",
+   "ad": "Hamîdoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1391-01-01"
+  },
+  {
+   "id": "candar",
+   "ad": "Candaroğulları (İsfendiyaroğulları)",
+   "bolge": "anadolu",
+   "kunye_t": "1461-01-01"
+  },
+  {
+   "id": "dulkadir",
+   "ad": "Dulkadiroğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1522-01-01"
+  },
+  {
+   "id": "ramazanoglu",
+   "ad": "Ramazanoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1608-01-01"
+  },
+  {
+   "id": "kibris-krallik",
+   "ad": "Kıbrıs Krallığı (Lüzinyan)",
+   "bolge": "anadolu",
+   "kunye_t": "1489-02-26"
+  },
+  {
+   "id": "kilikya-ermeni",
+   "ad": "Kilikya Ermeni Krallığı",
+   "bolge": "anadolu",
+   "kunye_t": "1375-04-14"
+  },
+  {
+   "id": "kibris-ingiliz",
+   "ad": "Kıbrıs'ın İngiliz İdaresi",
+   "bolge": "anadolu",
+   "kunye_t": "1914-11-05"
+  },
+  {
+   "id": "burhaneddin",
+   "ad": "Kadı Burhâneddin Devleti (Sivas)",
+   "bolge": "anadolu",
+   "kunye_t": "1398-01-01"
+  },
+  {
+   "id": "artuklu",
+   "ad": "Artukoğulları (Artuklu Beyliği)",
+   "bolge": "anadolu",
+   "kunye_t": "1409-01-01"
+  },
+  {
+   "id": "esrefogullari",
+   "ad": "Eşrefoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1326-01-01"
+  },
+  {
+   "id": "inancogullari",
+   "ad": "İnançoğulları (Denizli/Lâdik Beyliği)",
+   "bolge": "anadolu",
+   "kunye_t": "1368-01-01"
+  },
+  {
+   "id": "taceddin",
+   "ad": "Tâceddinoğulları (Canik)",
+   "bolge": "anadolu",
+   "kunye_t": "1427-01-01"
+  },
+  {
+   "id": "alaiye",
+   "ad": "Alâiye Beyliği (Alanya)",
+   "bolge": "anadolu",
+   "kunye_t": "1471-01-01"
+  },
+  {
+   "id": "teke",
+   "ad": "Tekeoğulları",
+   "bolge": "anadolu",
+   "kunye_t": "1423-01-01"
+  },
+  {
+   "id": "haciemir",
+   "ad": "Hacıemîroğulları (Bayramlı/Ordu)",
+   "bolge": "anadolu",
+   "kunye_t": "1427-06-01"
+  },
+  {
+   "id": "mutahharten",
+   "ad": "Erzincan-Kemah Beyliği (Mutahharten)",
+   "bolge": "anadolu",
+   "kunye_t": "1410-01-01"
+  },
+  {
+   "id": "fetret-mehmed",
+   "ad": "Çelebi Mehmed Saltanatı (Amasya/Anadolu)",
+   "bolge": "anadolu",
+   "kunye_t": "1413-07-05"
+  },
+  {
+   "id": "trabzon-rum",
+   "ad": "Trabzon Rum İmparatorluğu",
+   "bolge": "anadolu",
+   "kunye_t": "1461-08-15"
+  },
+  {
+   "id": "eyyubi-hisnikeyfa",
+   "ad": "Hısnıkeyfâ Eyyûbîleri",
+   "bolge": "anadolu",
+   "kunye_t": "1462-01-01"
+  },
+  {
+   "id": "cemisgezek-beyligi",
+   "ad": "Cemisgezek Beyligi (Melkisi)",
+   "bolge": "anadolu",
+   "kunye_t": "1420-01-01"
+  },
+  {
+   "id": "iskocya",
+   "ad": "İskoçya Krallığı",
+   "bolge": "bati-avrupa",
+   "kunye_t": "1707-05-01"
+  },
+  {
+   "id": "irlanda",
+   "ad": "İrlanda (Gal Beylikleri ve Krallığı)",
+   "bolge": "bati-avrupa",
+   "kunye_t": "1603-03-30"
+  },
+  {
+   "id": "bretanya",
+   "ad": "Bretanya Dükalığı",
+   "bolge": "bati-avrupa",
+   "kunye_t": "1532-08-13"
+  },
+  {
+   "id": "burgonya",
+   "ad": "Burgonya Dükalığı (Valois)",
+   "bolge": "bati-avrupa",
+   "kunye_t": "1482-03-27"
+  },
+  {
+   "id": "norvec-kralligi",
+   "ad": "Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)",
+   "bolge": "kuzey-avrupa",
+   "kunye_t": "1537-01-01"
+  },
+  {
+   "id": "gurcistan",
+   "ad": "Gürcistan Krallığı/Krallıkları",
+   "bolge": "kafkasya",
+   "kunye_t": "1801-09-12"
+  },
+  {
+   "id": "imereti",
+   "ad": "İmereti Krallığı",
+   "bolge": "kafkasya",
+   "kunye_t": "1810-02-20"
+  },
+  {
+   "id": "sirvansah",
+   "ad": "Şirvanşahlar",
+   "bolge": "kafkasya",
+   "kunye_t": "1538-01-01"
+  },
+  {
+   "id": "kabartay",
+   "ad": "Kabartay (Kabardey) Beylikleri",
+   "bolge": "kafkasya",
+   "kunye_t": "1774-07-21"
+  },
+  {
+   "id": "kumuk-samhalligi",
+   "ad": "Kumuk Şamhallığı (Tarki)",
+   "bolge": "kafkasya",
+   "kunye_t": "1607-01-01"
+  },
+  {
+   "id": "kaheti-kralligi",
+   "ad": "Kaheti Krallığı",
+   "bolge": "kafkasya",
+   "kunye_t": "1606-01-01"
+  },
+  {
+   "id": "suud-birinci",
+   "ad": "I. Suûdî Devleti (Vehhâbî Emirliği)",
+   "bolge": "arabistan",
+   "kunye_t": "1818-09-09"
+  },
+  {
+   "id": "suud-ikinci",
+   "ad": "II. Suûdî Devleti (Necid Emirliği)",
+   "bolge": "arabistan",
+   "kunye_t": "1891-01-24"
+  },
+  {
+   "id": "cebri",
+   "ad": "Cebrîler (Benî Cebr)",
+   "bolge": "arabistan",
+   "kunye_t": "1524-01-01"
+  },
+  {
+   "id": "nebhani",
+   "ad": "Nebhânîler (Uman)",
+   "bolge": "arabistan",
+   "kunye_t": "1515-04-01"
+  },
+  {
+   "id": "benihalid",
+   "ad": "Benî Hâlid Emirliği (Lahsa)",
+   "bolge": "arabistan",
+   "kunye_t": "1830-01-01"
+  },
+  {
+   "id": "tunus-ocagi",
+   "ad": "Tunus Ocağı (Hüseynî Hanedanı)",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1881-05-12"
+  },
+  {
+   "id": "trablusgarp-ocagi",
+   "ad": "Trablusgarp Ocağı (Karamanlı Hanedanı)",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1911-10-09"
+  },
+  {
+   "id": "sadi",
+   "ad": "Sâdî Hanedanı (Fas)",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1659-01-01"
+  },
+  {
+   "id": "abdulkadir",
+   "ad": "Emîr Abdülkādir Devleti",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1847-12-23"
+  },
+  {
+   "id": "zeyyani",
+   "ad": "Zeyyânîler (Tilimsan)",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1554-01-01"
+  },
+  {
+   "id": "tuareg-ahaggar",
+   "ad": "Kel Ahaggar Tuareg Konfederasyonu",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1902-05-07"
+  },
+  {
+   "id": "tuareg-accer",
+   "ad": "Kel Accer Tuareg Konfederasyonu",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1911-01-01"
+  },
+  {
+   "id": "ammarogullari",
+   "ad": "Ammâroğulları (Trablusgarp)",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1401-01-01"
+  },
+  {
+   "id": "konstantin-beyligi",
+   "ad": "Konstantin Beyliği (Ahmed Bey)",
+   "bolge": "kuzey-afrika",
+   "kunye_t": "1844-03-04"
+  },
+  {
+   "id": "granada",
+   "ad": "Gırnata (Nasrî) Emirliği",
+   "bolge": "iberya",
+   "kunye_t": "1492-01-02"
+  },
+  {
+   "id": "navarra",
+   "ad": "Navarra Krallığı",
+   "bolge": "iberya",
+   "kunye_t": "1620-10-19"
+  },
+  {
+   "id": "adal",
+   "ad": "Adal Sultanlığı / Harar Emirliği",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1887-01-06"
+  },
+  {
+   "id": "kaffa-kralligi",
+   "ad": "Kaffa Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1897-09-10"
+  },
+  {
+   "id": "sidamo-kralliklari",
+   "ad": "Sidamo Krallıkları",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1897-01-01"
+  },
+  {
+   "id": "vollayta-kralligi",
+   "ad": "Vollayta (Wolaita) Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1894-01-17"
+  },
+  {
+   "id": "ruanda",
+   "ad": "Ruanda Krallığı (Nyiginya)",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1916-05-06"
+  },
+  {
+   "id": "burundi",
+   "ad": "Burundi Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1916-06-06"
+  },
+  {
+   "id": "bunyoro",
+   "ad": "Bunyoro-Kitara Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1899-04-09"
+  },
+  {
+   "id": "nkore",
+   "ad": "Nkore (Ankole) Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1901-10-25"
+  },
+  {
+   "id": "karagve",
+   "ad": "Karagve Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1890-07-01"
+  },
+  {
+   "id": "toro",
+   "ad": "Toro Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1900-06-26"
+  },
+  {
+   "id": "nyamvezi",
+   "ad": "Nyamvezi Şeflikleri (Unyanyembe · Mirambo)",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1890-11-04"
+  },
+  {
+   "id": "hehe",
+   "ad": "Hehe Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1898-07-19"
+  },
+  {
+   "id": "ngoni",
+   "ad": "Ngoni Devletleri",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1898-01-01"
+  },
+  {
+   "id": "yao",
+   "ad": "Yao Sultanlıkları",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "ngonde",
+   "ad": "Ngonde Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1895-01-01"
+  },
+  {
+   "id": "fipa-nyakyusa",
+   "ad": "Fipa ve Nyakyusa Halkları",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1890-11-04"
+  },
+  {
+   "id": "lozi",
+   "ad": "Lozi (Barotse) Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1890-06-27"
+  },
+  {
+   "id": "kazembe",
+   "ad": "Mvata Kazembe Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "bemba",
+   "ad": "Bemba Krallığı (Citimukulu)",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "kaonde-ila",
+   "ad": "Kaonde ve İla Halkları",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1900-01-01"
+  },
+  {
+   "id": "kenya-kuzey-halklari",
+   "ad": "Kuzey Kenya Halkları (Borana · Rendille · Turkana · Somali klanları)",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1895-07-01"
+  },
+  {
+   "id": "kamba",
+   "ad": "Kamba Halkı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1895-07-01"
+  },
+  {
+   "id": "sakalava-menabe",
+   "ad": "Menabe Sakalava Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1897-02-28"
+  },
+  {
+   "id": "sakalava-boina",
+   "ad": "Boina Sakalava Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1897-02-28"
+  },
+  {
+   "id": "antemoro",
+   "ad": "Antemoro Krallığı",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1897-02-28"
+  },
+  {
+   "id": "antandroy",
+   "ad": "Antandroy ve Bara Halkları",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1900-01-01"
+  },
+  {
+   "id": "betsimisaraka",
+   "ad": "Betsimisaraka Konfederasyonu",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1817-01-01"
+  },
+  {
+   "id": "merina",
+   "ad": "Merina Krallığı (Madagaskar)",
+   "bolge": "dogu-afrika",
+   "kunye_t": "1897-02-28"
+  },
+  {
+   "id": "timurlu",
+   "ad": "Timurlu Devleti",
+   "bolge": "orta-asya",
+   "kunye_t": "1507-05-01"
+  },
+  {
+   "id": "turkmen",
+   "ad": "Türkmen Aşiret Konfederasyonları (Yomut, Teke, Salur, Göklen, Eymir)",
+   "bolge": "orta-asya",
+   "kunye_t": "1884-01-01"
+  },
+  {
+   "id": "hokand",
+   "ad": "Hokand Hanlığı",
+   "bolge": "orta-asya",
+   "kunye_t": "1876-02-19"
+  },
+  {
+   "id": "kazak-hanligi",
+   "ad": "Kazak Hanlığı",
+   "bolge": "orta-asya",
+   "kunye_t": "1847-01-01"
+  },
+  {
+   "id": "cungar",
+   "ad": "Cungar Hanlığı (Kalmuk)",
+   "bolge": "orta-asya",
+   "kunye_t": "1758-01-01"
+  },
+  {
+   "id": "yakub-beg",
+   "ad": "Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)",
+   "bolge": "orta-asya",
+   "kunye_t": "1878-03-16"
+  },
+  {
+   "id": "yarkent-hanligi",
+   "ad": "Yarkent (Sa'îdiyye) Hanlığı",
+   "bolge": "orta-asya",
+   "kunye_t": "1705-01-01"
+  },
+  {
+   "id": "mogulistan",
+   "ad": "Moğulistan (Doğu Çağatay Hanlığı)",
+   "bolge": "orta-asya",
+   "kunye_t": "1680-01-01"
+  },
+  {
+   "id": "ranquel",
+   "ad": "Ranquel Konfederasyonu",
+   "bolge": "guney-amerika",
+   "kunye_t": "1883-01-01"
+  },
+  {
+   "id": "guarani-misyonlari",
+   "ad": "Guaraní Cizvit Misyonları (Otuz Pueblo)",
+   "bolge": "guney-amerika",
+   "kunye_t": "1767-01-01"
+  },
+  {
+   "id": "arua",
+   "ad": "Aruã (Marajó)",
+   "bolge": "guney-amerika",
+   "kunye_t": "1836-01-01"
+  },
+  {
+   "id": "inka-imparatorlugu",
+   "ad": "İnka İmparatorluğu (Tahuantinsuyu)",
+   "bolge": "guney-amerika",
+   "kunye_t": "1572-09-24"
+  },
+  {
+   "id": "chimu-krallik",
+   "ad": "Chimu Krallığı (Chimor)",
+   "bolge": "guney-amerika",
+   "kunye_t": "1470-01-01"
+  },
+  {
+   "id": "colla-krallik",
+   "ad": "Colla (Qulla) Krallığı",
+   "bolge": "guney-amerika",
+   "kunye_t": "1450-01-01"
+  },
+  {
+   "id": "lupaqa-krallik",
+   "ad": "Lupaqa Krallığı",
+   "bolge": "guney-amerika",
+   "kunye_t": "1450-01-01"
+  },
+  {
+   "id": "mapuche-araukanya",
+   "ad": "Mapuche (Araukanya)",
+   "bolge": "guney-amerika",
+   "kunye_t": "1883-01-01"
+  },
+  {
+   "id": "muisca-konfederasyonu",
+   "ad": "Muisca Konfederasyonu",
+   "bolge": "guney-amerika",
+   "kunye_t": "1537-08-01"
+  },
+  {
+   "id": "futa-callon",
+   "ad": "Futa Callon İmamlığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1896-01-01"
+  },
+  {
+   "id": "futa-toro",
+   "ad": "Futa Toro Almamiliği",
+   "bolge": "bati-afrika",
+   "kunye_t": "1881-01-01"
+  },
+  {
+   "id": "colof",
+   "ad": "Colof (Jolof) İmparatorluğu",
+   "bolge": "bati-afrika",
+   "kunye_t": "1890-01-01"
+  },
+  {
+   "id": "kayor",
+   "ad": "Kayor (Cayor) Krallığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1886-10-27"
+  },
+  {
+   "id": "sine-salum",
+   "ad": "Sine ve Salum Krallıkları (Serer)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1887-01-01"
+  },
+  {
+   "id": "bundu",
+   "ad": "Bundu Emirliği",
+   "bolge": "bati-afrika",
+   "kunye_t": "1858-01-01"
+  },
+  {
+   "id": "moritanya-emirlikleri",
+   "ad": "Moritanya Emirlikleri (Trarza · Brakna · Tagant · Adrar)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1909-01-01"
+  },
+  {
+   "id": "berabis",
+   "ad": "Berâbîş Kabile Konfederasyonu",
+   "bolge": "bati-afrika",
+   "kunye_t": "1894-01-01"
+  },
+  {
+   "id": "gambiya-mandinka",
+   "ad": "Gambiya Mandinka Devletçikleri (Niumi · Kombo · Vuli)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1894-01-01"
+  },
+  {
+   "id": "vasulu",
+   "ad": "Vâsûlû Devleti (Samori Ture)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1898-09-29"
+  },
+  {
+   "id": "solima-yalunka",
+   "ad": "Solima Yalunka Krallığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1884-01-01"
+  },
+  {
+   "id": "bambara",
+   "ad": "Bambara Krallıkları (Segu ve Kaarta)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1861-03-10"
+  },
+  {
+   "id": "kenedugu",
+   "ad": "Kenedugu Krallığı (Sikasso)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1898-05-01"
+  },
+  {
+   "id": "mossi-vagadugu",
+   "ad": "Mossi Krallığı (Vagadugu)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1896-09-01"
+  },
+  {
+   "id": "yatenga",
+   "ad": "Yatenga Krallığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1895-01-01"
+  },
+  {
+   "id": "gurma",
+   "ad": "Gurma Krallığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1897-01-01"
+  },
+  {
+   "id": "liptako",
+   "ad": "Liptako Emirliği (Dori)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1897-01-01"
+  },
+  {
+   "id": "zerma",
+   "ad": "Zerma (Djerma) Devletçikleri",
+   "bolge": "bati-afrika",
+   "kunye_t": "1898-01-01"
+  },
+  {
+   "id": "kong-vattara",
+   "ad": "Kong Devleti (Vattara)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1897-05-01"
+  },
+  {
+   "id": "gyaaman",
+   "ad": "Gyaaman Krallığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1895-01-01"
+  },
+  {
+   "id": "buna",
+   "ad": "Buna Krallığı (Kulango)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1897-01-01"
+  },
+  {
+   "id": "gonja",
+   "ad": "Gonja Krallığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "dagbon",
+   "ad": "Dagbon Krallığı (Dagomba)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "eve-notse",
+   "ad": "Eve (Ewe) Notse Birliği",
+   "bolge": "bati-afrika",
+   "kunye_t": "1884-07-05"
+  },
+  {
+   "id": "borgu",
+   "ad": "Borgu Bariba Krallıkları (Nikki · Busa)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1898-01-01"
+  },
+  {
+   "id": "ibadan",
+   "ad": "İbadan Devleti",
+   "bolge": "bati-afrika",
+   "kunye_t": "1893-08-15"
+  },
+  {
+   "id": "aro-konfederasyonu",
+   "ad": "Aro Konfederasyonu",
+   "bolge": "bati-afrika",
+   "kunye_t": "1902-03-01"
+  },
+  {
+   "id": "nijer-deltasi",
+   "ad": "Nijer Deltası Şehir Devletleri (Kalabar · Bonny)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1884-09-10"
+  },
+  {
+   "id": "jukun-kvararafa",
+   "ad": "Kvararafa (Jukun) Krallığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1900-01-01"
+  },
+  {
+   "id": "tiv",
+   "ad": "Tiv Halkı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1900-01-01"
+  },
+  {
+   "id": "birom-plato",
+   "ad": "Jos Platosu Halkları (Birom · Jarava)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1903-01-01"
+  },
+  {
+   "id": "damagaram",
+   "ad": "Damagaram Sultanlığı (Zinder)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "adar",
+   "ad": "Adar Hausa Sahası (Tahoua · Konni · Madaova)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "tuareg-air",
+   "ad": "Aïr Tuareg Sultanlığı (Kel Ayr)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1900-01-01"
+  },
+  {
+   "id": "tuareg-adag",
+   "ad": "Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "tuareg-ivellemmedan",
+   "ad": "İvellemmedan Tuareg Konfederasyonu",
+   "bolge": "bati-afrika",
+   "kunye_t": "1899-01-01"
+  },
+  {
+   "id": "dan-guro",
+   "ad": "Dan · Guro · Bete Halkları (Fildişi orman kuşağı)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1898-01-01"
+  },
+  {
+   "id": "mali-imparatorlugu",
+   "ad": "Mali İmparatorluğu",
+   "bolge": "bati-afrika",
+   "kunye_t": "1670-01-01"
+  },
+  {
+   "id": "songhay-imparatorlugu",
+   "ad": "Songhay İmparatorluğu",
+   "bolge": "bati-afrika",
+   "kunye_t": "1591-04-13"
+  },
+  {
+   "id": "sokoto",
+   "ad": "Sokoto Halifeliği",
+   "bolge": "bati-afrika",
+   "kunye_t": "1903-07-27"
+  },
+  {
+   "id": "asanti",
+   "ad": "Aşanti İmparatorluğu",
+   "bolge": "bati-afrika",
+   "kunye_t": "1902-01-01"
+  },
+  {
+   "id": "dahomey",
+   "ad": "Dahomey Krallığı",
+   "bolge": "bati-afrika",
+   "kunye_t": "1894-01-01"
+  },
+  {
+   "id": "benin-kralligi",
+   "ad": "Benin Krallığı (Nijerya)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1897-02-18"
+  },
+  {
+   "id": "oyo-imparatorlugu",
+   "ad": "Oyo İmparatorluğu (Yoruba)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1836-01-01"
+  },
+  {
+   "id": "massina",
+   "ad": "Masina Halifeliği (Hamdullahi)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1862-01-01"
+  },
+  {
+   "id": "tekrur",
+   "ad": "Toucouleur Devleti (Umarî / Segu Tukulor)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1893-01-01"
+  },
+  {
+   "id": "arma",
+   "ad": "Arma Paşalığı (Tinbüktü)",
+   "bolge": "bati-afrika",
+   "kunye_t": "1760-01-01"
+  },
+  {
+   "id": "adamava",
+   "ad": "Adamava Emirliği (Fumbina)",
+   "bolge": "orta-afrika",
+   "kunye_t": "1901-09-02"
+  },
+  {
+   "id": "bamum",
+   "ad": "Bamum Krallığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1916-02-16"
+  },
+  {
+   "id": "vaday",
+   "ad": "Vaday Sultanlığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1912-01-01"
+  },
+  {
+   "id": "bagirmi",
+   "ad": "Bagirmi Sultanlığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1897-01-01"
+  },
+  {
+   "id": "rabih",
+   "ad": "Râbih b. Zübeyr Devleti",
+   "bolge": "orta-afrika",
+   "kunye_t": "1900-04-22"
+  },
+  {
+   "id": "kanem-tubu",
+   "ad": "Kanem Tubu Sahası (Teda-Daza)",
+   "bolge": "orta-afrika",
+   "kunye_t": "1913-01-01"
+  },
+  {
+   "id": "darul-kuti",
+   "ad": "Dârü'l-Kûtî Sultanlığı (Senûsî)",
+   "bolge": "orta-afrika",
+   "kunye_t": "1911-04-12"
+  },
+  {
+   "id": "zende",
+   "ad": "Zende (Azande) Sultanlıkları",
+   "bolge": "orta-afrika",
+   "kunye_t": "1912-01-01"
+  },
+  {
+   "id": "banda-gbaya",
+   "ad": "Banda ve Gbaya Halkları",
+   "bolge": "orta-afrika",
+   "kunye_t": "1903-01-01"
+  },
+  {
+   "id": "tio",
+   "ad": "Tio (Teke) Krallığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1880-10-03"
+  },
+  {
+   "id": "kasance",
+   "ad": "Kasance (Kasanje) Krallığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1910-01-01"
+  },
+  {
+   "id": "matamba",
+   "ad": "Matamba Krallığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1744-01-01"
+  },
+  {
+   "id": "ovimbundu",
+   "ad": "Ovimbundu Krallıkları (Bailundu · Viye · Vambu)",
+   "bolge": "orta-afrika",
+   "kunye_t": "1902-01-01"
+  },
+  {
+   "id": "ovambo",
+   "ad": "Ovambo Krallıkları (Ondonga · Kvanyama)",
+   "bolge": "orta-afrika",
+   "kunye_t": "1917-02-06"
+  },
+  {
+   "id": "tubu-tibesti",
+   "ad": "Tibesti Teda (Tubu) Konfederasyonu",
+   "bolge": "orta-afrika",
+   "kunye_t": "1914-01-01"
+  },
+  {
+   "id": "kanem-bornu",
+   "ad": "Kanem-Bornu İmparatorluğu",
+   "bolge": "orta-afrika",
+   "kunye_t": "1905-01-01"
+  },
+  {
+   "id": "kongo-kralligi",
+   "ad": "Kongo Krallığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1914-01-01"
+  },
+  {
+   "id": "ndongo",
+   "ad": "Ndongo Krallığı (Angola)",
+   "bolge": "orta-afrika",
+   "kunye_t": "1671-01-01"
+  },
+  {
+   "id": "loango",
+   "ad": "Loango Krallığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1883-01-01"
+  },
+  {
+   "id": "kuba",
+   "ad": "Kuba Krallığı",
+   "bolge": "orta-afrika",
+   "kunye_t": "1900-01-01"
+  },
+  {
+   "id": "lunda-imparatorlugu",
+   "ad": "Lunda İmparatorluğu",
+   "bolge": "orta-afrika",
+   "kunye_t": "1887-01-01"
+  },
+  {
+   "id": "rozvi",
+   "ad": "Rozvi İmparatorluğu (Changamire)",
+   "bolge": "guney-afrika",
+   "kunye_t": "1834-01-01"
+  },
+  {
+   "id": "matabele",
+   "ad": "Matabele (Ndebele) Krallığı",
+   "bolge": "guney-afrika",
+   "kunye_t": "1893-11-04"
+  },
+  {
+   "id": "manica",
+   "ad": "Manica Krallığı",
+   "bolge": "guney-afrika",
+   "kunye_t": "1891-01-01"
+  },
+  {
+   "id": "pedi",
+   "ad": "Pedi Krallığı",
+   "bolge": "guney-afrika",
+   "kunye_t": "1879-12-02"
+  },
+  {
+   "id": "venda",
+   "ad": "Venda Krallığı",
+   "bolge": "guney-afrika",
+   "kunye_t": "1898-01-01"
+  },
+  {
+   "id": "svazi",
+   "ad": "Svazi Krallığı",
+   "bolge": "guney-afrika",
+   "kunye_t": "1903-01-01"
+  },
+  {
+   "id": "basuto",
+   "ad": "Basuto (Basotho) Krallığı",
+   "bolge": "guney-afrika",
+   "kunye_t": "1868-03-12"
+  },
+  {
+   "id": "griqua",
+   "ad": "Griqua Devletleri (Griqualand Batı ve Doğu)",
+   "bolge": "guney-afrika",
+   "kunye_t": "1878-01-01"
+  },
+  {
+   "id": "tsvana",
+   "ad": "Tsvana Krallıkları (Ngvato · Kvena · Ngvaketse · Kgatla · Tavana)",
+   "bolge": "guney-afrika",
+   "kunye_t": "1885-03-31"
+  },
+  {
+   "id": "herero",
+   "ad": "Herero Halkı",
+   "bolge": "guney-afrika",
+   "kunye_t": "1904-01-12"
+  },
+  {
+   "id": "nama-orlam",
+   "ad": "Nama ve Orlam Kaptanlıkları",
+   "bolge": "guney-afrika",
+   "kunye_t": "1904-10-03"
+  },
+  {
+   "id": "xhosa",
+   "ad": "Xhosa Krallıkları",
+   "bolge": "guney-afrika",
+   "kunye_t": "1878-01-01"
+  },
+  {
+   "id": "zulu-kralligi",
+   "ad": "Zulu Krallığı",
+   "bolge": "guney-afrika",
+   "kunye_t": "1879-07-04"
+  },
+  {
+   "id": "transvaal",
+   "ad": "Transvaal (Güney Afrika Cumhuriyeti — Zuid-Afrikaansche Republiek)",
+   "bolge": "guney-afrika",
+   "kunye_t": "1902-05-31"
+  },
+  {
+   "id": "oranj",
+   "ad": "Oranj Hür Devleti (Oranje Vrijstaat)",
+   "bolge": "guney-afrika",
+   "kunye_t": "1902-05-31"
+  },
+  {
+   "id": "mutapa",
+   "ad": "Mwene Mutapa (Monomotapa)",
+   "bolge": "guney-afrika",
+   "kunye_t": "1695-01-01"
+  },
+  {
+   "id": "inuit",
+   "ad": "İnuit",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1880-09-01"
+  },
+  {
+   "id": "dene",
+   "ad": "Dene (Atabask Halkları)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1899-06-21"
+  },
+  {
+   "id": "kri",
+   "ad": "Kri (Nehiyaw)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1876-08-23"
+  },
+  {
+   "id": "ojibwe",
+   "ad": "Ojibwe (Anişinabe)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1850-09-07"
+  },
+  {
+   "id": "metis",
+   "ad": "Métis Ulusu",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1885-05-12"
+  },
+  {
+   "id": "lakota",
+   "ad": "Lakota (Teton Sioux)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1890-12-29"
+  },
+  {
+   "id": "nez-perce",
+   "ad": "Nez Perce (Nimíipuu)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1877-10-05"
+  },
+  {
+   "id": "hayda",
+   "ad": "Hayda",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1858-08-02"
+  },
+  {
+   "id": "vendat",
+   "ad": "Vendat (Huron) Konfederasyonu",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1649-03-16"
+  },
+  {
+   "id": "beothuk",
+   "ad": "Beothuk",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1829-06-06"
+  },
+  {
+   "id": "savni",
+   "ad": "Şavni (Shawnee)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1795-08-03"
+  },
+  {
+   "id": "miami",
+   "ad": "Miami (Myaamia)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1795-08-03"
+  },
+  {
+   "id": "sauk",
+   "ad": "Sauk (Asakiwaki)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1832-09-21"
+  },
+  {
+   "id": "abenaki",
+   "ad": "Abenaki (Wabanaki)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1725-12-15"
+  },
+  {
+   "id": "cikasav",
+   "ad": "Çikasav (Chickasaw)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1832-10-20"
+  },
+  {
+   "id": "ute",
+   "ad": "Ute (Núuchiu)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1880-01-01"
+  },
+  {
+   "id": "mandan",
+   "ad": "Mandan",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1851-09-17"
+  },
+  {
+   "id": "hidatsa",
+   "ad": "Hidatsa",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1851-09-17"
+  },
+  {
+   "id": "karga",
+   "ad": "Karga (Apsáalooke)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1851-09-17"
+  },
+  {
+   "id": "pavni",
+   "ad": "Pavni (Pawnee)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1857-09-24"
+  },
+  {
+   "id": "wicita",
+   "ad": "Wiçita",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1859-01-01"
+  },
+  {
+   "id": "aleut",
+   "ad": "Aleut (Unangax̂)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1784-08-14"
+  },
+  {
+   "id": "alutiiq",
+   "ad": "Alutiiq (Sugpiaq)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1784-08-14"
+  },
+  {
+   "id": "zuni",
+   "ad": "Zuni (A:shiwi)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1848-02-02"
+  },
+  {
+   "id": "nuxalk",
+   "ad": "Nuxalk (Bella Coola)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1858-08-02"
+  },
+  {
+   "id": "secwepemc",
+   "ad": "Secwépemc (Shuswap)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1858-08-02"
+  },
+  {
+   "id": "nuu-cah-nulth",
+   "ad": "Nuu-chah-nulth (Mowachaht)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1858-08-02"
+  },
+  {
+   "id": "klamath",
+   "ad": "Klamath (Maklaks)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1864-01-01"
+  },
+  {
+   "id": "sahaptin",
+   "ad": "Sahaptin (Orta Columbia halkları)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1855-01-01"
+  },
+  {
+   "id": "ponka",
+   "ad": "Ponka (Ponca)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1858-01-01"
+  },
+  {
+   "id": "occaneechi",
+   "ad": "Occaneechi",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1676-01-01"
+  },
+  {
+   "id": "etowah",
+   "ad": "Etowah",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1550-01-01"
+  },
+  {
+   "id": "payut",
+   "ad": "Payut (Paiute)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1872-01-01"
+  },
+  {
+   "id": "yavapai",
+   "ad": "Yavapai",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1873-01-01"
+  },
+  {
+   "id": "meskalero-apaci",
+   "ad": "Meskalero Apaçileri",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1873-01-01"
+  },
+  {
+   "id": "teksas-cumhuriyeti",
+   "ad": "Teksas Cumhuriyeti",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1845-12-29"
+  },
+  {
+   "id": "cahokia",
+   "ad": "Cahokia (Mississippi Kültürü)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1350-01-01"
+  },
+  {
+   "id": "cherokee",
+   "ad": "Cherokee Ulusu",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1791-07-02"
+  },
+  {
+   "id": "choctaw",
+   "ad": "Choctaw Konfederasyonu",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1830-09-27"
+  },
+  {
+   "id": "creek-konfederasyonu",
+   "ad": "Creek (Mvskoke) Konfederasyonu",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1832-03-24"
+  },
+  {
+   "id": "powhatan",
+   "ad": "Powhatan Konfederasyonu (Tsenacomoco)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1646-10-01"
+  },
+  {
+   "id": "natchez",
+   "ad": "Natchez (Grand Village)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1731-01-01"
+  },
+  {
+   "id": "pueblo-bagimsizligi",
+   "ad": "Pueblo Bağımsızlığı",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1692-08-01"
+  },
+  {
+   "id": "komanci",
+   "ad": "Komançi (Comanchería)",
+   "bolge": "kuzey-amerika",
+   "kunye_t": "1875-01-01"
+  },
+  {
+   "id": "babur-imparatorlugu",
+   "ad": "Bâbürlü (Timurlu-Hint) İmparatorluğu",
+   "bolge": "guney-asya",
+   "kunye_t": "1857-09-21"
+  },
+  {
+   "id": "vijayanagara",
+   "ad": "Vijayanagara İmparatorluğu",
+   "bolge": "guney-asya",
+   "kunye_t": "1646-01-01"
+  },
+  {
+   "id": "maratha",
+   "ad": "Maratha Konfederasyonu",
+   "bolge": "guney-asya",
+   "kunye_t": "1818-06-03"
+  },
+  {
+   "id": "sih-imparatorlugu",
+   "ad": "Sih İmparatorluğu (Pencap)",
+   "bolge": "guney-asya",
+   "kunye_t": "1849-03-29"
+  },
+  {
+   "id": "sur-hanedani",
+   "ad": "Sûrîler (Sûr Hânedanı)",
+   "bolge": "guney-asya",
+   "kunye_t": "1564-01-01"
+  },
+  {
+   "id": "gucerat-sultanligi",
+   "ad": "Gucerât Sultanlığı",
+   "bolge": "guney-asya",
+   "kunye_t": "1573-01-01"
+  },
+  {
+   "id": "bicapur",
+   "ad": "Âdilşâhî Sultanlığı (Bîcâpûr)",
+   "bolge": "guney-asya",
+   "kunye_t": "1686-09-22"
+  },
+  {
+   "id": "ahmednagar",
+   "ad": "Nizamşâhî Sultanlığı (Ahmednagar)",
+   "bolge": "guney-asya",
+   "kunye_t": "1636-01-01"
+  },
+  {
+   "id": "orissa",
+   "ad": "Orissa (Doğu Ganga ve Gacapati Krallığı)",
+   "bolge": "guney-asya",
+   "kunye_t": "1568-01-01"
+  },
+  {
+   "id": "sind",
+   "ad": "Sind (Sûmra, Samma, Ergunlu, Kalhora, Talpur)",
+   "bolge": "guney-asya",
+   "kunye_t": "1843-02-17"
+  },
+  {
+   "id": "kesmir",
+   "ad": "Keşmir Sultanlığı (Şah Mîr Hânedanı)",
+   "bolge": "guney-asya",
+   "kunye_t": "1586-10-01"
+  },
+  {
+   "id": "malva-sultanligi",
+   "ad": "Mâlvâ Sultanlığı",
+   "bolge": "guney-asya",
+   "kunye_t": "1562-01-01"
+  },
+  {
+   "id": "bidar",
+   "ad": "Barîdşâhî Sultanlığı (Bîdar)",
+   "bolge": "guney-asya",
+   "kunye_t": "1619-01-01"
+  },
+  {
+   "id": "berar",
+   "ad": "İmâdşâhî Sultanlığı (Berâr)",
+   "bolge": "guney-asya",
+   "kunye_t": "1574-01-01"
+  },
+  {
+   "id": "gond-kralliklari",
+   "ad": "Gond Krallıkları (Garha-Mandla, Deogarh)",
+   "bolge": "guney-asya",
+   "kunye_t": "1781-01-01"
+  },
+  {
+   "id": "ahom",
+   "ad": "Ahom Krallığı (Assam)",
+   "bolge": "guney-asya",
+   "kunye_t": "1826-01-01"
+  },
+  {
+   "id": "ladak",
+   "ad": "Ladakh Krallığı (Namgyal Hânedanı)",
+   "bolge": "guney-asya",
+   "kunye_t": "1834-01-01"
+  },
+  {
+   "id": "kalikut",
+   "ad": "Kalikut Zamorinliği",
+   "bolge": "guney-asya",
+   "kunye_t": "1766-01-01"
+  },
+  {
+   "id": "kandy",
+   "ad": "Kandy Krallığı (Seylan)",
+   "bolge": "guney-asya",
+   "kunye_t": "1815-03-02"
+  },
+  {
+   "id": "yafna",
+   "ad": "Yafna (Jaffna) Krallığı",
+   "bolge": "guney-asya",
+   "kunye_t": "1619-02-01"
+  },
+  {
+   "id": "bengal-sultanligi",
+   "ad": "Bengal Sultanlığı",
+   "bolge": "guney-asya",
+   "kunye_t": "1576-01-01"
+  },
+  {
+   "id": "yadava",
+   "ad": "Yadava Hanedanı (Devagiri)",
+   "bolge": "guney-asya",
+   "kunye_t": "1318-01-01"
+  },
+  {
+   "id": "avad",
+   "ad": "Avad Nevablığı (Oudh)",
+   "bolge": "guney-asya",
+   "kunye_t": "1856-02-07"
+  },
+  {
+   "id": "cavnpur-sultanligi",
+   "ad": "Cavnpur (Jaunpur) Sultanlığı — Şarkî Hanedanı",
+   "bolge": "guney-asya",
+   "kunye_t": "1483-01-01"
+  },
+  {
+   "id": "kakatiya",
+   "ad": "Kakatiya Hanedanı (Warangal)",
+   "bolge": "guney-asya",
+   "kunye_t": "1323-01-01"
+  },
+  {
+   "id": "pandya",
+   "ad": "Pandya Hanedanı (İkinci İmparatorluk)",
+   "bolge": "guney-asya",
+   "kunye_t": "1323-01-01"
+  },
+  {
+   "id": "madurai-sultanligi",
+   "ad": "Madurai Sultanlığı (Ma'bar)",
+   "bolge": "guney-asya",
+   "kunye_t": "1378-01-01"
+  },
+  {
+   "id": "hoysala",
+   "ad": "Hoysala Hanedanı",
+   "bolge": "guney-asya",
+   "kunye_t": "1343-01-01"
+  },
+  {
+   "id": "seylan-sinhala",
+   "ad": "Seylan Sinhala Krallıkları (Portekiz Öncesi)",
+   "bolge": "guney-asya",
+   "kunye_t": "1518-01-01"
+  },
+  {
+   "id": "kocin",
+   "ad": "Kochi (Cochin) Krallığı — Portekiz Öncesi",
+   "bolge": "guney-asya",
+   "kunye_t": "1503-01-01"
+  },
+  {
+   "id": "farukiler",
+   "ad": "Fârûkîler (Handeş Sultanlığı)",
+   "bolge": "guney-asya",
+   "kunye_t": "1601-01-01"
+  },
+  {
+   "id": "muromachi",
+   "ad": "Muromachi (Ashikaga) Şogunluğu",
+   "bolge": "dogu-asya",
+   "kunye_t": "1573-09-01"
+  },
+  {
+   "id": "ryukyu",
+   "ad": "Ryukyu Krallığı",
+   "bolge": "dogu-asya",
+   "kunye_t": "1879-03-27"
+  },
+  {
+   "id": "kuzey-yuan",
+   "ad": "Kuzey Yuan (Moğol Hanlığı)",
+   "bolge": "dogu-asya",
+   "kunye_t": "1691-05-30"
+  },
+  {
+   "id": "azuchi-momoyama",
+   "ad": "Azuchi-Momoyama Dönemi (Oda-Toyotomi Japonyası)",
+   "bolge": "dogu-asya",
+   "kunye_t": "1615-06-04"
+  },
+  {
+   "id": "guney-ming",
+   "ad": "Güney Ming (Hongguang, Longwu, Yongli Sarayları)",
+   "bolge": "dogu-asya",
+   "kunye_t": "1662-01-01"
+  },
+  {
+   "id": "hosut",
+   "ad": "Hoşut (Kokonor) Hanlığı",
+   "bolge": "dogu-asya",
+   "kunye_t": "1724-01-01"
+  },
+  {
+   "id": "tungning",
+   "ad": "Tungning Krallığı (Zheng / Koxinga)",
+   "bolge": "dogu-asya",
+   "kunye_t": "1683-10-05"
+  },
+  {
+   "id": "san-fan",
+   "ad": "Üç Vasal İsyanı (San Fan)",
+   "bolge": "dogu-asya",
+   "kunye_t": "1681-12-07"
+  },
+  {
+   "id": "taiping",
+   "ad": "Taiping Cennetsel Krallığı",
+   "bolge": "dogu-asya",
+   "kunye_t": "1864-07-19"
+  },
+  {
+   "id": "pingnan",
+   "ad": "Pingnan Devleti (Panthay, Du Wenxiu)",
+   "bolge": "dogu-asya",
+   "kunye_t": "1873-01-15"
+  },
+  {
+   "id": "le-hanedani",
+   "ad": "Lê Hanedanı (Đại Việt)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1789-01-01"
+  },
+  {
+   "id": "konbaung",
+   "ad": "Konbaung Hanedanı (Birmanya)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1885-11-29"
+  },
+  {
+   "id": "ace-sultanligi",
+   "ad": "Açe Sultanlığı (Sumatra)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1903-01-01"
+  },
+  {
+   "id": "poni",
+   "ad": "Po-ni (Poni) Krallığı",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1405-01-01"
+  },
+  {
+   "id": "sulu-sultanligi",
+   "ad": "Sulu Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1915-03-22"
+  },
+  {
+   "id": "ava",
+   "ad": "Yukarı Birmanya (Pinya, Sagaing, Ava Krallığı)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1555-01-01"
+  },
+  {
+   "id": "campa",
+   "ad": "Champa Krallığı",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1832-01-01"
+  },
+  {
+   "id": "mac-hanedani",
+   "ad": "Mạc Hanedanı (Đại Việt)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1677-01-01"
+  },
+  {
+   "id": "malay-sultanliklari",
+   "ad": "Malay Sultanlıkları (Kedah, Patani, Perak, Selangor, Trengganu, Pahang)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1909-07-10"
+  },
+  {
+   "id": "banten-sultanligi",
+   "ad": "Banten Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1813-01-01"
+  },
+  {
+   "id": "gova-makassar",
+   "ad": "Gova (Makassar) Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1667-11-18"
+  },
+  {
+   "id": "ternate-sultanligi",
+   "ad": "Ternate Sultanlığı (Moluk)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1663-01-01"
+  },
+  {
+   "id": "banda-adalari",
+   "ad": "Banda Adaları (Orang Kaya Meclisleri)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1621-03-08"
+  },
+  {
+   "id": "bali-kralliklari",
+   "ad": "Bali Krallıkları (Gelgel, Klungkung, Karangasem)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1908-04-28"
+  },
+  {
+   "id": "pagaruyung",
+   "ad": "Pagaruyung (Minangkabau) Krallığı",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1833-01-01"
+  },
+  {
+   "id": "filipin-racaliklari",
+   "ad": "Filipin Racalıkları (Tondo, Maynila, Cebu, Butuan)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1571-06-24"
+  },
+  {
+   "id": "magindanao-sultanligi",
+   "ad": "Magindanao Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1888-01-01"
+  },
+  {
+   "id": "pagan",
+   "ad": "Pagan Krallığı (Burma) — Son Dönem",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1297-01-01"
+  },
+  {
+   "id": "ho-hanedani",
+   "ad": "Hồ Hanedanı (Vietnam)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1407-06-17"
+  },
+  {
+   "id": "laos-kralliklari",
+   "ad": "Laos Krallıkları (Luang Prabang, Vientiane, Champasak)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1893-10-03"
+  },
+  {
+   "id": "sukhothai",
+   "ad": "Sukhothai Krallığı (Siyam)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1438-01-01"
+  },
+  {
+   "id": "samudra-pasai",
+   "ad": "Samudra Pasai Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1521-01-01"
+  },
+  {
+   "id": "pontianak",
+   "ad": "Pontianak Sultanlığı (Borneo)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1855-01-01"
+  },
+  {
+   "id": "kutai",
+   "ad": "Kutai Sultanlığı (Doğu Borneo)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1908-01-01"
+  },
+  {
+   "id": "bugis-kralliklari",
+   "ad": "Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)",
+   "bolge": "guneydogu-asya",
+   "kunye_t": "1905-08-06"
+  },
+  {
+   "id": "aztek-imparatorlugu",
+   "ad": "Aztek (Mexica) İmparatorluğu",
+   "bolge": "orta-amerika",
+   "kunye_t": "1521-08-13"
+  },
+  {
+   "id": "maya-sehir-devletleri",
+   "ad": "Maya Şehir Devletleri (Post-Klasik)",
+   "bolge": "orta-amerika",
+   "kunye_t": "1697-03-13"
+  },
+  {
+   "id": "nahua-sehir-devletleri",
+   "ad": "Nahua Şehir-Devletleri (Altepetl'ler)",
+   "bolge": "orta-amerika-karayip",
+   "kunye_t": "1521-08-13"
+  },
+  {
+   "id": "purepecha-imparatorlugu",
+   "ad": "Purépecha (Tarasko) İmparatorluğu",
+   "bolge": "orta-amerika-karayip",
+   "kunye_t": "1530-02-14"
+  },
+  {
+   "id": "tututepec-krallik",
+   "ad": "Tututepec Krallığı (Yucu Dzaa)",
+   "bolge": "orta-amerika-karayip",
+   "kunye_t": "1522-01-01"
+  },
+  {
+   "id": "zapotek-krallik",
+   "ad": "Zapotek Krallığı",
+   "bolge": "orta-amerika-karayip",
+   "kunye_t": "1523-01-01"
+  }
+ ],
+ "parametreler": {
+  "pencere_f": "1281-01-01",
+  "pencere_t": "1923-10-29",
+  "tolerans_gun_metod_b": 1095,
+  "min_bosluk_gun_metod_a": 200
+ }
+}
