@@ -145,4 +145,45 @@ tabanla birlikte taşınır" (`D129`) dersinin bir örneği olurdu.
 öncesine kod eklendi ve bir yeni print bloğu eklendi) — mevcut davranış
 (hangi bileşenin doldurulup hangisinin bırakılacağı) DEĞİŞMİYOR, yalnız
 GÖRÜNÜRLÜK ekleniyor. `_B23_SAYAC`in sayıları AYNI KALACAK.
+
+────────────────────────────────────────────────────────────────────────
+⑤ PARÇA D — 11 Eylül 2026, KORİDOR AĞZI sevkiyle EKLENDİ
+────────────────────────────────────────────────────────────────────────
+`denetim/BULGU-KORIDOR-AGZI-0911.md`: kodun tanımı (`w_der = 2*alan/
+çevre`, GÖVDENİN ortalaması) ile Emre'nin tanımı (koridorun karaya
+bağlandığı yerdeki AĞIZ genişliği) shapely ile sentetik "dogbone"
+şekillerinde AYRIŞTIRILDI. Bulgu: ayrışma TEK YÖNLÜ — ağız GENİŞ/gövde
+DAR durumunda kod hatalı biçimde DOLDURUR (gerçek kural SIĞ derdi);
+tersi (ağız dar/gövde geniş) bu şekil ailesinde hiç bulunamadı.
+Ucuz bir ikinci tahmin bulundu: `agiz.length / 2.0` — `agiz` zaten
+satır 1652'de hesaplanıyor, EK bir geometrik işlem gerekmiyor, sentetik
+testte gerçek ağız genişliğine %0,5'ten yakın isabet etti.
+
+--- PARÇA D — PARÇA B'deki kayıt satırını BUNUNLA DEĞİŞTİR ---
+# ESKİ (PARÇA B'nin _B3_KALAN_IHLAL.append çağrısı):
+#             _B3_KALAN_IHLAL.append((
+#                 isim, round(alan_km2(c), 1),
+#                 round(d_der * 111.32, 1), round(w_der * 111.32, 1), yasak))
+#
+# YENİ — iki genişlik tanımı da kaydedilir:
+            try:
+                _agiz_genislik = agiz.length / 2.0
+            except Exception:
+                _agiz_genislik = None
+            _B3_KALAN_IHLAL.append((
+                isim, round(alan_km2(c), 1),
+                round(d_der * 111.32, 1), round(w_der * 111.32, 1), yasak,
+                round(_agiz_genislik * 111.32, 1) if _agiz_genislik else None,
+                # 🔴 İKİ TANIM AYRIŞIYOR MU — koşu 10'da ÖLÇÜLECEK asıl soru:
+                (d_der > w_der) != (d_der > _agiz_genislik)
+                if _agiz_genislik else None))
+# ⚠️ Son alan `True` ise bu KAYIT kodun kararı (SIĞ/DOLU) ile Emre'nin
+#    kuralının kararı FARKLI olurdu demektir — koşu 10'un logunda bu
+#    alanın kaç kayıtta `True` olduğu SAYILMALI (§0'daki öngörünün
+#    gerçek sınavı budur).
+#
+# PARÇA C'nin print bloğuna da EKLE (satır formatına bir sütun daha):
+#     ayrisan = sum(1 for r in _B3_KALAN_IHLAL if len(r) > 5 and r[6])
+#     print(f"       -> bunlarin {ayrisan}'i agiz/govde tanimina gore "
+#           f"FARKLI karar verirdi (kod vs Emre'nin kurali)")
 """
