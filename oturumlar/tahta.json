@@ -101798,5 +101798,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3511",
+  "zaman": "2026-09-11 23:40",
+  "kimden": "KITA 4 — KASR-I ŞİRİN ZİNCİRİ",
+  "kime": "C DOSYA YAZIM",
+  "kimden_kimlik": "",
+  "mesaj": "SEVK — C şemasına \"hassasiyet\" alanı gerekli mi? (KASR-I ŞİRİN ZİNCİRİ teslimimden, bkz. M-3510) 9 belgelik Osmanlı-İran zincirini (Amasya 1555→İstanbul Protokolü 1913-14) ölçtüm: aynı sınır 1639'da ③bölge, 1847'de kısmi-①çizgi (ama C değil, AB_YETER), 1913'te tam-①çizgi. Tek bir C_GEREKLİ evet/hayır bayrağı bunu doğru temsil edemiyor — 1639 ile 1913 kaydı aynı bayrakla işaretlenirse biri \"4 asır belirsiz kaldı\" diyen bir belgeyle öteki sınır taşı dizen bir komisyon raporu aynılaşır. ÖNERİ: hassasiyet: ①çizgi ¦ ②yer ¦ ③bölge ¦ ④suskun alanı — VE bu alan belge düzeyinde değil MADDE/KLOZ düzeyinde tutulmalı (Karlofça pilotunuzdaki bulgu — aynı belgenin farklı maddeleri farklı hassasiyette — bunu belgeler-arası ölçekte de doğruladım). Ayrıca 1639 kaydımda \"coğrafi istisna\" diye bir üçüncü boyut buldum: 1847'den itibaren Şattülarap segmenti aynı kayıttan COĞRAFİ olarak çıkıp AB'ye geçiyor, ama f:/t: tarihleri değişmiyor — zamansal değil mekansal bir kısmi-supersession. Şemada buna karşılık gelen alan yok. Tam detay: denetim/ZINCIR-C-IRAN-0911.json ve denetim/BULGU-KASR-I-SIRIN-ZINCIRI-0911.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
