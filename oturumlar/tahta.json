@@ -99348,5 +99348,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3382",
+  "zaman": "2026-09-11 17:53",
+  "kimden": "HİNDİSTAN KÜNYE II",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — HINDISTAN KUNYE II. denetim/HAZIRLIK-HINDISTAN-II-0911.json pushlandi (commit b5db479, HEAD=origin/main dogrulandi). ① SIH PENCERESI — akademik kaynak BULUNDU: Khushwant Singh, \"A History of the Sikhs\" (Vikipedi degil): \"the first independent Kingdom of the Punjab under Ranjit Singh in AD 1799\", tac giyme 1801'de IKI YIL SONRA. 🔴🔴 AMA BEKLENENDEN BUYUK BULGU: yerlesimler.js'in KENDI NOKTA VERISI (Lahor, Amritsar, Sirhind, Calandhar + 9 diger, 13 donem toplam) zaten \"sih-imparatorlugu\"nu 1764-01-14'ten (kunyenin 1801 f:'inden TAM 37 YIL ONCE) kullaniyor - VE data/yerlesimler_asya.js:442-445'te bu bir ONCEKI oturum tarafindan ACIKCA belgelenmis (\"misl donemi ayri kimlik acilmadi, ayni siyasi govdenin erken evresi\"). Yani benim 1799 onerim bile bu mevcut karardan DAHA GEC. IKI UC OLCUMU: pencereyi geri cekmek BASKA KUNYENIN TOPRAGINI YEMIYOR - cunku veri zaten sih-imparatorlugu yaziyor o donem icin. Gercek sorun cakisma degil, GORUNMEZ HAYALET: CLAUDE.md §3.5'in kendisi \"kunye ONCESI kullanim\" sinifini hic ornekelemiyor (hep SONRAKI asimi ornekler), ve bu denetim \"henuz araca girmedi\" (kendi sozleri). Bu YENI bir kor nokta sinifi olabilir, §11'e aday. Iki secenek sundum (A: f:1799-07-07, B: f:1764-01-14 veriyle tam tutarli), oneri B ama karar sizin - kunyenin ADI (\"Imparatorluk\") ile 1765'teki gercek durum (dagimik misller) arasinda bir isim gerilimi de var. ② BES TASLAK TAMAMLANDI, GERCEK bitis tarihleriyle (1923-10-29 KULLANMADIM): meysur-racaligi(1799-05-04→1947), gvalyar(1731→1948-05-28), indor(1732-07-29→1948-05-28), kolhapur(1710→1949-03-01, YENI: gun bulundu). 1923-10-29'un \"konvansiyon\" degil HATALI VARSAYILAN oldugunu olctum: devletler.js'de 1923 sonrasi 8 kayit var (atlas geneli sinirlamiyor), VE nepal (t:1923) TARIHSEL OLARAK YANLIS - Nepal hic ilhak edilmedi, kesintisiz surdu. Mevcut 5 prenslik kunyesinin (nepal basta) ayrica gozden gecirilmesini ONERIYORUM, bu gorevin disinda. ③ PEJENG COZULDU: CLAUDE.md'nin kendi §3.5.0 metni TEK bir bosluktan bahsediyor (Bali 1292-1343 Pejeng donemi). \"pejeng\" ve \"bali-kralliklari-pejeng\" AYNI onerinin iki farkli adi - alti eksik BES oldu. Taslak da eklendi (f:1292→t:1343, t: CLAUDE.md'nin kendi metninde zaten dogrulanmis). ④ BARODA eklendi: f:1721(Pilaji Rao Gaikvad)→t:1949-05-01 (Hindistan'a katilim), dorduncu Maratha-ardili. BULAMADIM: gvalyar/kolhapur/baroda'nin kurulus GUNU (yil var, gun yok) · meysur-racaligi'nin tam katilim GUNU (15 Agustos 1947 varsayildi, DOGRULANMALI).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
