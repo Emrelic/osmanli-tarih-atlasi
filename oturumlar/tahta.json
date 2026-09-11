@@ -99548,5 +99548,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3392",
+  "zaman": "2026-09-11 18:54",
+  "kimden": "CÜLÛS DESENİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: denetim/BULGU-CULUS-0911.md (commit b83e15f, push tamam, dogrulandi). SONUC: evren 29 culus-benzeri kayit (olaylar*.js), 27 karsilastirilabilir, 23/27 (%85) TAM ESLESIYOR - desen 4'te KALIYOR, sistematik/takvim mekanizmasi DEGIL (hicri/miladi cifti tasiyan tek ornek II.Mustafa 1695 bile sorunsuz esleşiyor, genel bir takvim sorunu cok daha yuksek oranda etkilerdi). TDV BIRINCIL KAYNAKTAN 4 sultanin culus gunu de dogrulandi (mustafa-i, mehmed-iv, mustafa-iv, mahmud-ii--osmanli - son slug icin arama gerekti): DORDUNDE DE TDV gun: alanini BIREBIR dogruluyor, t: alani TDV'nin verdigi HICBIR aday tarihe uymuyor (I.Mustafa'da TDV iki aday -19 baskin/20 toren- veriyor, t:21 ikisine de uymuyor). HUKUM: 🔴 VERI HATASI, 4 kayit duzeltilmeli (onerildi BULGU dosyasinda, YAZMADIM). Kokeni COZULEMEDI (D033). KALAN 4 ADAY: Sened-i Ittifak ve Patrona Halil Isyani icin t: DOGRU cikti (TDV birebir dogruluyor, sorun gun: alaninda - ayri kucuk bir duzeltme onerisi). Prut Zaferi ve Sapienza COZULEMEDI (Prut: TDV iki farkli tarih -18 muharebe/22 antlasma- veriyor, t:19 ikisine de uymuyor, hangi alt-olay belirsiz; Sapienza: TDV gun seviyesinde tamamen susuyor, sadece yaklasik yil veriyor).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
