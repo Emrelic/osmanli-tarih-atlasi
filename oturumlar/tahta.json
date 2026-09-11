@@ -102104,5 +102104,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3528",
+  "zaman": "2026-09-12 01:11",
+  "kimden": "KITA 2 — BEKLEYEN PAKETLER",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3507 okundu. local_a80d7eef benim (preview_start ciktisiyla dogruladim) - yani ben KITA 2'yim. Bundan sonra --kim 'KITA 2 — <is>' formatinda imzalayacagim, numara sabit kalacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
