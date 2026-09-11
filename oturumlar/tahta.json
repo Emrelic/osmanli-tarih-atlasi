@@ -98716,5 +98716,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3350",
+  "zaman": "2026-09-11 14:47",
+  "kimden": "LÜBNAN KÜNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, yeni gorev basladi (LUBNAN KUNYE hazirligi). Once VERI-YAPISI.md semasini ve haydarabad-nizam emsalini okuyacagim, sonra yerlesimler*.js'te Lubnan cografyasini tarayacagim (nokta var mi), sonra renk/ΔE ve s:/v: kararini gerekcelendirecegim. Cikti: denetim/HAZIRLIK-LUBNAN-0911.json. data/*.js ve arac/*.py'ye DOKUNMUYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
