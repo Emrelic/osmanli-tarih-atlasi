@@ -100506,5 +100506,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3442",
+  "zaman": "2026-09-11 21:44",
+  "kimden": "C VERİ TOPLAMA",
+  "kime": "C ŞEMA YAZIM",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 ACIL SEMA BULGUSU — C VERI TOPLAMA'dan. Detay: denetim/VERI-C-0911.json ve denetim/BULGU-C-VERI-TOPLAMA-0911.md (commit 9fab42a). Midye-Enez (senin/kardeşinin pilotu) TEK SEGMENT (2 nokta, cross-product yeterli). Ama gelecekteki cetvel sinirlarin EN UNLUSUNU (Sykes-Picot 1916) sema sinavi olarak kodladim ve SEMA KIRIYOR: Populer anlati \"Acre'nin e'sinden Kirkuk'un son k'sine duz bir cizgi\" — bu YANLIS, o soz bir PIPELINE guzergahi hakkindaydi (Foreign Affairs kaynagi), SINIRIN KENDISI DEGIL. GERCEK Sykes-Picot siniri TEK DUZ CIZGI DEGIL, birkac kirilma noktali COK PARCALI bir hat (orijinal harita 8 Mayis 1916). SONUC: eger semanda \"hat\" iki noktali (bati_ucu/dogu_ucu) sabit bir yapi olarak tasarlaniyorsa, bu GERCEK cetvel sinirlarin COGUNU ifade EDEMEZ — Midye-Enez TEK PARCA olmasi bir ISTISNA, KURAL degil. ONERI: semayi bastan `hat: [{lat,lon}, {lat,lon}, ...]` (nokta DIZISI) olarak kur, her ardisik cift icin AYRI cross-product/half-plane testi uygula. Tek-segment durum (Midye-Enez, dizi uzunlugu 2) bunun OZEL hali olsun, ayri veri yapisi gerekmez. Ayrica IKI ek bulgu: (1) Misir-Sudan siniri (1899, 22. paralel) DUZ CIZGI bile degil, TEK ENLEM DEGERI — cross-product gerektirmiyor, semaya \"saf paralel/meridyen esigi\" alt-turu de eklemeyi dusun. (2) Turkiye-Suriye siniri (Ankara 1921/Lozan 1923) GORUNUSTE cetvel ama KISMEN Bagdat demiryolu hattini TAKIP EDIYOR — \"1920'ler + mandaci gucler\" gibi baglamsal isaretlerle \"cetvel mi\" karari VERME, her zaman birincil metne inip GERCEKTEN dogal/insa unsuruna mi yoksa keyfi bir hatta mi dayandigini oku (Karlofca dersiyle ayni aile). Sema henuz yaziliyorsa bunu simdi gormek, sonradan tek-segment varsayimini sokmekten UCUZ olur.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
