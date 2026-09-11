@@ -58,7 +58,9 @@ LOG = os.path.join(KOK, "denetim", "BEKCI-KOSU9.out")
 YOKLAMA = 120           # saniye
 CANLILIK = 3600         # saatlik canlilik raporu (`§7` kurali)
 OMUR = 30 * 3600        # 30 saat — kosu 8 (20s05dk) azamisinin USTUNDE
-BELLEK_ALARM = 3.0      # GB · 11 EYLUL 03:0x — 4.0 -> 3.0, ve artik TAHMIN DEGIL.
+BELLEK_ALARM = 3.6      # GB · 11 EYLUL — 4.0 -> 3.0 -> 3.6. UC DEGISIKLIK, IKI TABAN.
+#   Asagisi kronolojik: once 4.0'in tabansiz oldugu, sonra 3.0'in YANLIS OTTUGU
+#   olculdu. Deger ile gerekce AYRISMASIN diye ucu de duruyor.
 #   Kosu 8 (SIRALI, AYNI makine) tepe RSS 2725 MB olculdu — BEKCI-KOSU8C.out,
 #   sekiz saatlik nobet boyunca 640..2725 MB salindi. 3.0 GB o tepenin hemen ustu.
 #   ESKI 4.0 bir TAHMINDI ve GEC otuyordu: paralel kosu 4.02 GB'a ciktiginda makine
@@ -66,6 +68,28 @@ BELLEK_ALARM = 3.0      # GB · 11 EYLUL 03:0x — 4.0 -> 3.0, ve artik TAHMIN D
 #   1425/sn, surecin CPU'sunun %87'si CEKIRDEK kipinde, gercek hesap 0.068 cekirdek.
 #   Yani esik asildiginda kosu coktan olmustu. `D129`: bir esik, olculdugu TABANLA
 #   birlikte tasinir — 4.0 hicbir tabandan turetilmemisti.
+#
+#   🔴 UCUNCU DEGISIKLIK, 11 EYLUL 03:4x — 3.0 -> 3.6. VE SEBEBI: 3.0 YANLIS OTTU.
+#   03:21'de 3.30 GB'da ottu ve o bir ARIZA DEGIL, ACILIS TEPESIYDI. Olculdu:
+#       03:21  RSS 3.30 GB  bos  588 MB  0.50 cekirdek  %81 cekirdek  1473 hata/sn
+#       03:29  RSS 2.47 GB  bos 1419 MB  0.99 cekirdek  %11 cekirdek    42 hata/sn
+#       03:33  RSS 1.93 GB  bos 1580 MB  0.98 cekirdek  % 8 cekirdek    12 hata/sn
+#       03:35  RSS 1.82 GB  bos 1615 MB  1.00 cekirdek  % 8 cekirdek     9 hata/sn
+#   Yani motor acilista (166.966 hucrelik izgara + `_kv_dijkstra` modul duzeyinde)
+#   gercekten ~3.3 GB istiyor, sonra BIRAKIYOR. Kosu 8'in nobetcisi bunu HIC
+#   GORMEDI cunku koseunun 11. saatinde baslamisti — `D021`in nobetci yuzu:
+#   ornekleminin DISINDA kalan faz, temiz oldugu icin degil BAKILMADIGI icin
+#   temiz gorunuyordu. 2725 MB bir TEPE degil, saatlik ANLIK okumaydi (`D188`).
+#   3.6 = olculmus acilis tepesinin (3.30) ustu, paralel felaketin (4.02) altinda.
+#
+#   ⚠⚠ ASIL DERS — VE BU ESIK ONU COZMUYOR: RSS YANLIS SINYAL.
+#   Ayni RSS bandi hem SAGLIKLI hem OLUMCUL olabiliyor; belirleyen sey motorun
+#   kendi boyu degil MAKINENIN O ANDA BOS RAM'i. Dogru sinyal ikisi:
+#       cekirdek kipi / toplam CPU   saglikli %8-13   ·   takasta %81-87
+#       sert sayfa hatasi /sn        saglikli  9-42   ·   takasta 1425-1473
+#   Ayrim 10x ve 30x — RSS'in hic veremedigi kadar keskin. IKI YONDE DE
+#   GOZLENDI (yukaridaki tablo), ama KOD olarak sinanmadi; `D010` geregi CANLI
+#   bir 20 saatlik koseunun TEK nobetcisine sinanmamis dal EKLENMEZ. Kosu 10'un isi.
 #   ⚠ ACIK KALEM: RSS tek basina DOGRU SINYAL DEGILDI. Bu kosuyu olduren sey
 #   mutlak RSS degil, MAKINENIN BOS RAM'iydi. Dogru nobetci ayrica sunu sorar:
 #   bos fiziksel RAM < 500 MB, ya da cekirdek kipi / toplam CPU > 0.5. HENUZ
@@ -201,7 +225,7 @@ yaz("NOBETCI 9 basladi · PID %d · tetik %s" % (PID, os.path.basename(TETIK)))
 yaz("  taban: mtime %s  boyut %s" % (
     time.strftime("%d %b %H:%M", time.localtime(taban_m)) if taban_m else "YOK",
     "%.1f MB" % (taban_b / 1048576.0) if taban_b else "YOK"))
-yaz("  omur %d saat · yoklama %d sn · bellek alarmi %.1f GB (OLCULDU: kosu 8 tepe 2725 MB)"
+yaz("  omur %d saat · yoklama %d sn · bellek alarmi %.1f GB (gerekce: BELLEK_ALARM ust yazisi)"
     % (OMUR // 3600, YOKLAMA, BELLEK_ALARM))
 
 bas = time.time()

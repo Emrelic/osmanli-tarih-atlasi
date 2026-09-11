@@ -13,3 +13,11 @@
 [03:03:41] NOBETCI 9 basladi · PID 27996 · tetik donemler.js
 [03:03:41]   taban: mtime 08 Sep 07:22  boyut 31.3 MB
 [03:03:41]   omur 30 saat · yoklama 120 sn · bellek alarmi 3.0 GB (TAHMIN)
+[03:21:48] 🔴 BELLEK ESIGI ASILDI — 3.30 GB (esik 3.0 GB)
+[03:21:48]    Bu bir OLUM DEGIL, bir BAK isareti. CAPRAZ PARALEL'in B2
+[03:21:48]    bulgusu tam bu ekseni isaret ediyordu ve tam girdide ILK KEZ
+[03:21:48]    kosuyor. Kosu SURUYOR; makinenin bos RAM'ine bak.
+[03:39:00] ==============================================================
+[03:39:00] NOBETCI 9 basladi · PID 27996 · tetik donemler.js
+[03:39:00]   taban: mtime 08 Sep 07:22  boyut 31.3 MB
+[03:39:00]   omur 30 saat · yoklama 120 sn · bellek alarmi 3.6 GB (OLCULDU: kosu 8 tepe 2725 MB)
