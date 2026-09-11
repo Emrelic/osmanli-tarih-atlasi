@@ -1,0 +1,26 @@
+irak-kralligi | Irak Krallığı (Faysal I, İngiliz Mandası)
+suriye-lubnan-mandasi | Fransız Suriye-Lübnan Manda İdaresi
+filistin-mandasi | İngiliz Filistin Mandası
+urdun-emirligi | Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)
+misir-sultanligi | Mısır Sultanlığı (İngiliz Himayesi)
+misir-kralligi | Mısır Krallığı (I. Fuad)
+tannu-tuva | Tannu Tuva Halk Cumhuriyeti
+harezm-halk-cumhuriyeti | Harezm Halk Sovyet Cumhuriyeti
+buhara-halk-cumhuriyeti | Buhara Halk Sovyet Cumhuriyeti
+rif-cumhuriyeti | Rif Cumhuriyeti (Abdülkerim el-Hattâbî)
+ingiliz-guyanasi | İngiliz Guyanası
+hollanda-guyanasi | Hollanda Guyanası (Surinam)
+fransiz-guyanasi | Fransız Guyanası
+agadez-sultanligi | Agadez (Aïr) Sultanlığı — Tuareg
+kesiri-sultanligi | Kesîrî Sultanlığı (Hadramut iç kesimi)
+kuayti-sultanligi | Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)
+orta-macar-kralligi | Orta Macar Krallığı (Tököli İmre)
+arvanid-sancagi | Arvanid Sancağı (Arnavut-ili)
+mekke-serifligi | Mekke Şerifliği
+konstantin-beyligi | Konstantin Beyliği (Ahmed Bey)
+sani-emirligi | Âl-i Sânî Emirliği (Katar)
+sabah-emirligi | Sabah Emirliği (Kuveyt)
+kumuk-samhalligi | Kumuk Şamhallığı (Tarki)
+kaheti-kralligi | Kaheti Krallığı
+crnojevic-zetasi | Crnojević Zetası
+dejanovic-prensligi | Dejanović Prensliği (Kostadin-ili)
