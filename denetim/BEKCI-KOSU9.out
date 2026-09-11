@@ -1,0 +1,15 @@
+[01:12:09] ==============================================================
+[01:12:09] NOBETCI 9 basladi · PID 20756 · tetik donemler.js
+[01:12:09]   taban: mtime 08 Sep 07:22  boyut 31.3 MB
+[01:12:09]   omur 30 saat · yoklama 120 sn · bellek alarmi 4.0 GB (TAHMIN)
+[02:12:39] surec CANLI · nobet 1.0 sa · CPU 2806 sn · bellek 1529 MB (tepe 1.87 GB)
+[02:47:25] 🔴 BELLEK ESIGI ASILDI — 4.02 GB (esik 4.0 GB)
+[02:47:25]    Bu bir OLUM DEGIL, bir BAK isareti. CAPRAZ PARALEL'in B2
+[02:47:25]    bulgusu tam bu ekseni isaret ediyordu ve tam girdide ILK KEZ
+[02:47:25]    kosuyor. Kosu SURUYOR; makinenin bos RAM'ine bak.
+[03:01:35] 🔴 SUREC YOK ve tetik YAZILMADI — kosu COKMUS
+[03:01:35]    tepe bellek: 4.02 GB
+[03:03:41] ==============================================================
+[03:03:41] NOBETCI 9 basladi · PID 27996 · tetik donemler.js
+[03:03:41]   taban: mtime 08 Sep 07:22  boyut 31.3 MB
+[03:03:41]   omur 30 saat · yoklama 120 sn · bellek alarmi 3.0 GB (TAHMIN)

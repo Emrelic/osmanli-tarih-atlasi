@@ -58,7 +58,18 @@ LOG = os.path.join(KOK, "denetim", "BEKCI-KOSU9.out")
 YOKLAMA = 120           # saniye
 CANLILIK = 3600         # saatlik canlilik raporu (`§7` kurali)
 OMUR = 30 * 3600        # 30 saat — kosu 8 (20s05dk) azamisinin USTUNDE
-BELLEK_ALARM = 4.0      # GB · TAHMIN, olcum DEGIL (bkz. ust yazi)
+BELLEK_ALARM = 3.0      # GB · 11 EYLUL 03:0x — 4.0 -> 3.0, ve artik TAHMIN DEGIL.
+#   Kosu 8 (SIRALI, AYNI makine) tepe RSS 2725 MB olculdu — BEKCI-KOSU8C.out,
+#   sekiz saatlik nobet boyunca 640..2725 MB salindi. 3.0 GB o tepenin hemen ustu.
+#   ESKI 4.0 bir TAHMINDI ve GEC otuyordu: paralel kosu 4.02 GB'a ciktiginda makine
+#   (toplam 11.9 GB) ZATEN takas ediyordu — bos RAM 295 MB, sert sayfa hatasi
+#   1425/sn, surecin CPU'sunun %87'si CEKIRDEK kipinde, gercek hesap 0.068 cekirdek.
+#   Yani esik asildiginda kosu coktan olmustu. `D129`: bir esik, olculdugu TABANLA
+#   birlikte tasinir — 4.0 hicbir tabandan turetilmemisti.
+#   ⚠ ACIK KALEM: RSS tek basina DOGRU SINYAL DEGILDI. Bu kosuyu olduren sey
+#   mutlak RSS degil, MAKINENIN BOS RAM'iydi. Dogru nobetci ayrica sunu sorar:
+#   bos fiziksel RAM < 500 MB, ya da cekirdek kipi / toplam CPU > 0.5. HENUZ
+#   YAZILMADI (`D010`: iki yonde sinanmadan eklenmez) — kosu 10'un isi.
 
 
 def yaz(s):
@@ -90,11 +101,34 @@ def pid_bul():
     except Exception:
         return None
     kayitlar = [s.strip() for s in c.splitlines() if s.strip().isdigit()]
-    if len(kayitlar) != 1:
-        # 0 → kosu yok · 2+ → hangisi? Ikisinde de TAHMIN ETMEK yanlis hedefe
-        # nobet tutmaktir, ve nobetci bunu SOYLEMEZ.
+    if not kayitlar:
         return None
-    return int(kayitlar[0])
+    if len(kayitlar) == 1:
+        return int(kayitlar[0])
+    # 🔴 IKI SUREC NORMALDIR — 11 Eylul 01:10'da olculdu, ve ilk yazimim
+    #    bu yuzden NOBETCIYI HIC BASLATMAZDI:
+    #        8528  python -u arac\kos_ve_yayinla.py     <- ZINCIR (ebeveyn)
+    #       20756  python arac/uret_petek.py            <- MOTOR (cocuk)
+    #    "len != 1 ise TAHMIN ETME" kurali dogruydu, ama EVREN yanlisti:
+    #    zincir motoru ALT SUREC olarak kosturuyor, yani ikisi de meşru.
+    #    📌 `D037`: bir aletin evreni degisince, alet degismeden sessizce
+    #      yanilir — burada "yanilma"nin bicimi RED oldu, ve red de bir
+    #      hatadir: nobetci hic tutulmazdi ve kimse fark etmezdi.
+    # ⇒ HEDEF MOTORDUR (`uret_petek`): CPU'yu ve BELLEGI o harciyor, ve
+    #   B2 alarmi tam onun RSS'ine bakiyor. Zincir ebeveyni bosta bekliyor.
+    try:
+        c2 = subprocess.check_output(
+            ["powershell", "-NoProfile", "-c",
+             "Get-CimInstance Win32_Process -Filter \"Name='python.exe'\" | "
+             "Where-Object { $_.CommandLine -match 'uret_petek' } | "
+             "ForEach-Object { $_.ProcessId }"],
+            stderr=subprocess.DEVNULL).decode("ascii", "replace").strip()
+    except Exception:
+        return None
+    motor = [s.strip() for s in c2.splitlines() if s.strip().isdigit()]
+    if len(motor) == 1:
+        return int(motor[0])
+    return None
 
 
 def surec_bilgi(pid):
@@ -167,7 +201,7 @@ yaz("NOBETCI 9 basladi · PID %d · tetik %s" % (PID, os.path.basename(TETIK)))
 yaz("  taban: mtime %s  boyut %s" % (
     time.strftime("%d %b %H:%M", time.localtime(taban_m)) if taban_m else "YOK",
     "%.1f MB" % (taban_b / 1048576.0) if taban_b else "YOK"))
-yaz("  omur %d saat · yoklama %d sn · bellek alarmi %.1f GB (TAHMIN)"
+yaz("  omur %d saat · yoklama %d sn · bellek alarmi %.1f GB (OLCULDU: kosu 8 tepe 2725 MB)"
     % (OMUR // 3600, YOKLAMA, BELLEK_ALARM))
 
 bas = time.time()
