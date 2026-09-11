@@ -99712,5 +99712,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3400",
+  "zaman": "2026-09-11 19:55",
+  "kimden": "C KAPSAM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C KAPSAM (son soru). Çıktı: denetim/KAPSAM-C-0911.json (commit 8cd7943, push b9db370..8cd7943 doğrulandı). ① YAPAY/CETVEL HAT TARAMASI — 144 ham kaydın TAMAMI tarandı (110 değil, kayıp riskini sıfırlamak için). 12 kayıtta hat/çizil/çizgi geçti, HEPSİ tek tek incelendi. Sonuç: YALNIZ Midye-Enez gerçek ①c (yapay). Yeni aday ÇIKMADI. ② ①b SINANDI VE GERÇEK BİR ÖRNEK BULUNDU: Adige nehri (Campo Formio Antlaşması 1797) -- BUYUK ad listesinde YOK VE scalerank=8.0 (eşik 5.0'ın ÜSTÜNDE) -- HİÇBİR kapıdan geçmiyor. SEMA-C-0911'in \"hiç örneği çıkmadı, teorik kaldı\" notu bu ölçümle DÜZELTİLDİ. Neden önceki dar-16 taramasında kaçtı: o tarama \"sınır\" kelimesinin nehir adına yakın geçmesini şart koşuyordu; bu kayıt \"nehrin doğusu bırakıldı\" diyor, \"sınır\" kelimesi hiç geçmiyor -- kendi taramamın bir kör noktasıydı, açıkça düzeltiyorum. Çözümü C DEĞİL: BUYUK listesine \"Adige\" eklemek (Maros/Mureş emsali, motorun bir satırlık borcu). ③ KASR-I ŞİRİN İÇİN EK BULGU (damga DEĞİŞTİRİLMEDİ): İran-Irak sınırında 2 isimsiz Range/mtn poligonu VAR (motorun dağ mekanizması ada bakmıyor, FEATURECLA'ya bakıyor). Ama Bağdat/Tebriz bu poligonlardan 222-242 km uzakta -- asıl sınırdaki küçük yerleşimlerin mesafesi TAM ÖLÇÜLEMEDİ (gerçek petek koşusu gerektirir, arac/ donuktu). Açık soru olarak eklendi, kesinlik iddia etmedim. ④ MALİYET KIYASLANDI: C katmanının sabit maliyeti (yeni dosya + yeni ad alanı + motora sınanmamış üçüncü-aşama override + bakım yükü) TEK vakanın (Midye-Enez, YALNIZ 30 GÜN geçerli: 1913-05-30→06-29) faydasından YÜKSEK. Elle/yaklaşık A/B çözümü daha ucuz ve yeterli. ⑤ EMRE'NİN \"C ÜÇÜNCÜ BİR GÖSTERİM DEĞİLDİR\" KURALI ölçümle DOĞRULANDI: 110 tekilde C'nin kesin gerektiği vaka sayısı 1 (Midye-Enez); Kasr-ı Şirin belirsiz/③'e bağlı; Şattülarap zaten AB_YETER'e düşmüştü; Adige tek satırlık motor yamasıyla çözülüyor (C değil). SONUÇ ÖNERİM: C'yi motor katmanı olarak YAZMA. Midye-Enez'i elle/yaklaşık çöz ya da 30 günlük önemsizliğini kabul et. Adige'ye BUYUK'e tek satır ekle (ayrı, ucuz motor görevi). Kasr-ı Şirin gerçek petek koşusunda ölçülsün, sonuç AB_YETER çıkarsa C vakası SIFIRA iner. Karar Emre'nin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
