@@ -1,0 +1,11 @@
+{
+ "olusturan": "KITA 4 — B KABUL SINAVI",
+ "tarih": "2026-09-12",
+ "not": "Bu görev çoğunlukla SENTEZ (üç kardeş oturumun bu geceki ölçümlerini bir kabul-sınavı şemasına dönüştürmek), sıfırdan ölçüm değil. D022 burada iki farklı yerde uygulanıyor: (a) baseline sayıları OKUMADAN önce hangi ölçünün 1.MURAT'ın verdiği rakamla eşleşeceğini tahmin ettim, (b) 'boşluk paylaştırma' regresyon listesini kardeşin BULGU'sunu okumadan önce kendi tahminimi yazdım.",
+ "ongoruler": [
+  {"id": "O1", "iddia": "denetle.py'nin canlı çıktısı 1.MURAT'ın verdiği sayılarla (314/4/650/132) birebir eşleşecek — koşu 9 kapandıktan sonra veri donmuş olmalı."},
+  {"id": "O2", "iddia": "B2 enklav kabul sınavı için Cebel Merre (406.228 km²) 'KESİN KALMALI', Tarsus (2.137 km²) ya da Azak (15.796 km²) 'KESİN BİRLEŞMELİ' örneği olarak yeterli olacak — ayrıca yeni bir örnek aramaya gerek kalmayacak, çünkü BULGU-B-UCUZ-PARCALAR-0911.md zaten bunları adıyla veriyor."},
+  {"id": "O3", "iddia": "B3 koridor kabul sınavı YAZILAMAYACAK çünkü KITA 7'nin kendi açılış mesajı iki farklı tanımı (gövde ortalaması vs ağız genişliği) henüz ÇÖZÜLMEMİŞ durumda bırakıyor — D081 gereği, ölçütün karşılaştırdığı iki şey netleşmeden bir kabul eşiği yazmak erken olur."},
+  {"id": "O4", "iddia": "boşluk paylaştırma için regresyon listesi ZATEN B-BOSLUK-PAYLASTIRMA-0911.md §③'te var ve benim asıl işim onu TEKRARLAMAK değil, üç parçayı (B2/B3/boşluk) TEK bir kabul çerçevesinde birleştirmek ve eksik kalan görsel/sayısal kabul maddelerini eklemek olacak."}
+ ]
+}
