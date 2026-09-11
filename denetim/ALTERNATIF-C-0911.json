@@ -1,0 +1,51 @@
+{
+ "meta": {
+  "olusturan": "C ALTERNATİF",
+  "tarih": "2026-09-11",
+  "gorev": "Hukum kabul edildi (C yazilmiyor) -- alternatifi UYGULANABILIR hale getirmek + motor borclarini tek listede toplamak + tek paragraflik nihai karar",
+  "kural": "data/ ve arac/ DONUK, hazirlik YAPILDI, HICBIR SEY YAZILMADI"
+ },
+
+ "①_midye_enez_AB_cozumu": {
+  "beklenen_soru": "1913-05-30 -> 06-29 arasi hattin iki yakasindaki yerlesimler icin hangi noktalara hangi donem yazilacak?",
+  "🔴_BEKLENMEYEN_BULGU": "SORUNUN CEVABI: HICBIRI. Mevcut yerlesimler.js kayitlari INCELENDI ve zaten DOGRU -- YENİ HİÇBİR KAYIT GEREKMIYOR.",
+  "kanit": [
+   {"ad":"Edirne", "kayit":"s:[{f:1913-03-26,t:1913-07-21,d:bulgaristan-kralligi}]",
+    "yorum":"Bulgar donemi ASKERI tarihlerle (kusatma 26 Mart, geri alinis 21 Temmuz) kodlanmis -- Midye-Enez'in yasal penceresini (30 Mayis-29 Haziran) TAMAMEN KAPSIYOR ve AŞIYOR."},
+   {"ad":"Kırklareli", "kayit":"s:[{f:1912-10-24,t:1913-07-21,d:bulgaristan-kralligi}]",
+    "yorum":"Ayni desen -- I. Balkan Savasi'nin ELE GECIRME tarihinden (Ekim 1912!) itibaren, Midye-Enez'den COK ONCE zaten Bulgar."},
+   {"ad":"Vize", "kayit":"s:[{f:1913-03-26,t:1913-07-21,d:bulgaristan-kralligi}]",
+    "yorum":"Midye/Kiyikoy'un EN YAKIN mevcut komsu noktasi -- ayni desen, ayni pencereyi kapsiyor."},
+   {"ad":"Dimetoka", "kayit":"s:[{f:1913-05-30,t:1920-05-27,d:bulgaristan-kralligi}]",
+    "yorum":"🔴 DIKKAT: bu kaydin f: tarihi 1913-05-30 -- Londra Antlasmasi'nin GUNUYLE AYNI. Ama kendi 'neden'/'kaynak' alani BUNUN Midye-Enez'den DEGIL, komsu Sofulu kaydindan (12 km) MIRAS alindigini ve Meric'in BATI yakasinda olmasindan (Eylul 1913 Istanbul Antlasmasi'nda da Bulgar kaldi) geldigini acikca yaziyor. Yani bu bir Midye-Enez-ozel kaydi DEGIL, tarihi TESADUFEN ortusen bir Merit-hatti kaydi."}
+  ],
+  "neden_yeni_kayit_gerekmiyor": [
+   "Meric'in DOGUSUNDAKI noktalar (Edirne, Kirklareli, Vize) zaten ASKERI tarihlerle (kusatma/geri-alis) kodlanmis, TREATY TARIHI KULLANILMAMIŞ -- ve bu askeri pencere Midye-Enez'in yasal penceresini HEM ONCESINE HEM SONRASINA TASIYOR.",
+   "Meric'in BATISINDAKI noktalar (Dimetoka, Sofulu) zaten kaliciyken Bulgar (1920'ye kadar, cunku Eylul 1913 Istanbul Antlasmasi da onlari Meric'in batisinda birakti) -- Midye-Enez'in 30 gunluk penceresi bu noktalar icin PRATIKTE hicbir sey degistirmiyor.",
+   "Midye/Kiyikoy'un kendisi VE hattin gectigi bos koridor (Vize-Midye arasi, sahil seridi) yerlesimler.js'te NOKTA TASIMIYOR -- o seritte zaten hicbir kayit YOK ki bozulsun."
+  ],
+  "§8_cakisma_riski": "EGER yine de 30 gunluk ozel bir kayit eklenmeye kalkisilsaydi (ornegin Edirne'ye {f:1913-05-30,t:1913-06-29,d:balkan-devletleri}), bu MEVCUT VE DOGRU olan {f:1913-03-26,t:1913-07-21,d:bulgaristan-kralligi} kaydiyla CAKISIRDI (ic ice iki `s:` donemi) -- §8'in 'donemler cakismamali' kuralini IHLAL ederdi VE daha kotusu, DOGRU-TARIHLI bir kaydi YANLIS-TARIHLI (ve muglak bir 'balkan-devletleri' KUNYESI, ki devletler.js'te boyle bir tekil kimlik YOK, gercekte Bulgaristan) bir kayitla EZERDI. ⇒ Tebriz emsali (D003: f:=t: sifir uzunluk) burada GECERLI DEGIL -- risk sifir-uzunluk degil CAKISMA, ve cozum kaydi HIC EKLEMEMEK.",
+  "hukum": "Midye-Enez icin YAPILACAK HICBIR VERI ISI YOK. Mevcut A/B (askeri-tarih-esasli donemleme konvansiyonu) SORUNU ZATEN COZMUS DURUMDA -- cozum C ya da elle-A/B DEGIL, VAR OLAN VERININ KENDISI."
+ },
+
+ "②_motor_borclari_koşu_10_icin": {
+  "yontem": "Uc aday, IKI KAPIYA (BUYUK ad listesi + veri-kaynak/ne_10m_rivers.geojson scalerank<=5.0) karsi TEK TEK sinandi -- ikinci kapi bu kez ATLANMADI.",
+  "liste": [
+   {"nehir": "Adige", "BUYUK_ad_listesinde": false, "scalerank": 8.0, "esigin_altinda_mi": false,
+    "durum": "🔴 GERCEK BORÇ -- hicbir kapidan gecmiyor",
+    "duzeltme": "arac/uret_petek.py BUYUK kumesine \"Adige\" eklensin (tek satir)",
+    "kaynak_gerekce": "Campo Formio Antlasmasi (1797) -- KAPSAM-C-0911.json'da bulundu"},
+   {"nehir": "Maros/Mureş (Natural Earth adi: \"Mures\")", "BUYUK_ad_listesinde": false, "scalerank": 8.0, "esigin_altinda_mi": false,
+    "durum": "🔴 GERCEK BORÇ -- hicbir kapidan gecmiyor",
+    "duzeltme": "arac/uret_petek.py BUYUK kumesine \"Mures\" (ve varsa yerel yazim \"Maros\") eklensin (tek satir)",
+    "kaynak_gerekce": "Karlofça Antlaşması (1699), Banat/Macaristan sınırı -- SEMA-C-0911.md §3.2'de bulundu"},
+   {"nehir": "Shatt al Arab / Şattülarap", "BUYUK_ad_listesinde": false, "scalerank": 3.0, "esigin_altinda_mi": true,
+    "durum": "🟢 BORÇ DEĞİL -- ikinci kapidan (scalerank<=5.0) ZATEN GEÇİYOR, motor bu nehri ZATEN taniyor",
+    "duzeltme": "YOK -- BIRINCIL-C-0911.json'daki duzeltme + PILOT-C-SATTULARAP-0911.json'da zaten belgelendi",
+    "not": "Coordinatorun kendi talimatiyla AYRILDI -- bu liste yalniz GERCEK borclari icin"}
+  ],
+  "koşu_10_icin_tek_satirlik_diff_onerisi": "arac/uret_petek.py:552-575 BUYUK kumesine iki ad eklenir: \"Adige\" ve \"Mures\" (Natural Earth'un kullandigi tam ad). İKİSİ DE veri zaten mevcut (veri-kaynak/ne_10m_rivers.geojson), yalniz ADI LISTEYE eklenecek -- yeni veri indirme/donusum GEREKMIYOR."
+ },
+
+ "③_nihai_karar_tek_paragraf": "C (hukuki_sinirlar.js + motor override katmani) BUGÜN YAZILMAMALI: 144 antlaşmanın tamamı tarandı, kesin gereken vaka sayısı 1 (Midye-Enez, 1913 Londra) — ve o vaka bile incelenince GEREKSİZ çıktı, çünkü mevcut A/B veri modeli (yerleşim periyotlarını antlaşma tarihi değil ASKERİ olay tarihiyle kodlama geleneği) sorunu zaten kendiliğinden çözüyor; C'nin sabit maliyeti (yeni dosya + yeni ad alanı + Voronoi/yaslama sonucunu ezen sınanmamış bir motor adımı + kalıcı bakım yükü) sıfıra yakın bir faydaya karşı hiçbir zaman karşılanmaz. Alternatif zaten UYGULANMIŞ durumda — yapılacak tek iş, ilgisiz iki nehrin (Adige, Mureş) adını motorun BUYUK listesine eklemek, ki bu C değil sıradan bir veri-tanıma yaması. Bu karar ŞU ŞARTLA değişir: dünya kapsamı genişleyip (özellikle 19-20. yy sömürge/manda sınırları — Sykes-Picot, Afrika'nın cetvel sınırları, ABD eyalet sınırları gibi) meridyen/paralel temelli GERÇEKTEN doğal-unsursuz hatların sayısı bir avuçtan çıkıp ONLARCA'ya (bu envanterin ölçtüğü 144'lük evrenin bir kaç katı büyüklüğünde yeni bir evrende) ulaşırsa — o zaman sabit maliyet, artan vaka sayısına yayılır ve C'nin fayda/maliyet dengesi tersine döner."
+}
