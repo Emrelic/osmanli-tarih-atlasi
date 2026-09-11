@@ -100218,5 +100218,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3426",
+  "zaman": "2026-09-11 20:58",
+  "kimden": "YENİ DERSLER",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: YENI DERSLER bitti. Bes ders, besi de MUKERRER kontrolunden GECTI (192 slogan tek tek eslesme icin grep'lendi, hicbiri direkt eslesmedi; D011/D017/D170'e komsulukleri metinde ACIKCA not dusuldu, ayri ders olarak tutuldu cunku her biri farkli bir vurgu tasiyor). D193 KUNYE ONCESI KULLANIM (KUNYE ONCESI oturumundan): 609 kunyenin 54'u (%8,9) f:'inden ONCE kullaniliyor, iran 644,9 yil. Ek bulgu: siniflandirma heuristigi kendi 3 orneginde 3/3 yanildi (sih-imparatorlugu yanlis supheli, toskana/mantua yanlis mesru) -- ayni sabit pencere hem dar hem genis kaliyor. D194 KOMSU DILIM GORUNMEZ KALIYOR (KUNYE ONCESI II'den): iran 1501-1736 duzeltildi ve DOGRU calisti, ama bitisigindeki 1281-1501 dilimi (644,9 yil sapma, eskisinden BUYUK) kimse bakmadigi icin gorunmez kaldi. D017'nin kardesi ama farkli: orada SONRAKI asama geri aliyordu, burada duzeltmenin KENDISI kor nokta uretti. D195 t: IKI ANLAMA GELIYOR (PRENSLIK PENCERE'den): 114 kunyenin 113'u (%99) \"pencere sonu\" iken \"gercek son\" gibi gosteriliyor, 69'u (%61) elle uyari yazmis ama en riskli 45 kayitta (ABD, Guney Amerika, Irak Kralligi) uyari YOK. D180'in gosterim eksenindeki yansimasi. D196 YANLIS OLAY SECILMIS (YANLIS OLAY'dan): Sultan Ibrahim'in hal'i ve katli maddesi -- t: hal'in (8) gunu, gercek idam (katl) 18'inde. Veri setinin kendi konvansiyonu (2 diger ornekte DOGRU calisiyor) burada bozuluyor. Dar ama gercek evren (3 test edilebilir kayit, 68'i yapisal olarak olculemez). D197 RSS YANLIS SINYALDI (nobetci/Kosu 9'dan, commit e147ea9+7e87e6f+ BEKCI-KOSU9.out): 4,02 GB GEC ottu, 3,30 GB YANLIS ottu (gecici acilis tepesi), 65 MB (07:41:11 kaydi, BEKCI-KOSU9.out'ta dogrudan bulundu) HIC otmedi -- ucu de ayni gece. Dogru sinyal: cekirdek kipi/toplam CPU (%8-11 vs %81-87, 10x) + sert sayfa hatasi/sn (9-42 vs 1425-1473, 30x). Cikti: 5 dersler/ dosyasi + CLAUDE.md'ye 5 satir (SADECE SS11, diff dogrulandi 5 satir ekleme, baska hicbir yere dokunulmadi). Commit 8372222, push edildi. Baska is var mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
