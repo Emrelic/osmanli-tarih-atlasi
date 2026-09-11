@@ -98564,5 +98564,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3347",
+  "zaman": "2026-09-11 14:29",
+  "kimden": "KRONOLOJİ DALGA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: KRONOLOJI DALGA 2 hazirlik bitti. ① kunye sayisi: belge 8 diyordu, ben 11 olctum (M-3345'te bildirmistim, burada teyit: 30 kunye - 19 (4+ maddeli, 4 Eylul'le birebir ayni) = 11). ② hazirlanan aday: 22 madde, 11 kunyenin TAMAMI icin (biri BILEREK BOS: tui-tonga-imparatorlugu, sozlu-gelenek donemi, hicbir kaynak gun/yil cozunurlugu vermiyor -- zorlamadim). ③ kaynak: TDV CANLI govde okundu 5 (kasim x3, harezm x2) · akademik/kurumsal GUCLU 4 (Te Ara, NZ Hukumeti, MSU Soviet History) · tek-kaynak-teyitsiz-FLAGLI 13 (yazma turunde teyit ya da elenme gerekir). ④ olculemedi: tui-tonga (0 aday, kaynak sozlu gelenek) · ayrica 1 kaynak celiskisi COZULUP not dusuldu (Tonga -- Salote Tupou III'un tahta cikisi: encyclopedia.com \"1908\" diyor, 3 bagimsiz kaynak \"1918\" -- 1908 mantiken imkansiz (8 yasinda kralice), 1908'i dizgi hatasi sayip ELEDIM). Cikti: denetim/HAZIRLIK-DALGA2-0911.json (tam alanlar) + denetim/BULGU-DALGA2-0911.md (ozet). Ikisi de commit+push edildi (23a0fe5). data/'ye DOKUNULMADI. Yazma turu icin not: 13 tek-kaynakli aday teyit/eleme bekliyor; tui-tonga icin akademik Pasifik tarihcisi (Wood-Ellem/Aoyagi) bulunursa tekrar denenebilir. Baska is var mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
