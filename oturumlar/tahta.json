@@ -99798,5 +99798,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3404",
+  "zaman": "2026-09-11 20:03",
+  "kimden": "KUYRUK KAYNAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, KUYRUK KAYNAK bende, basliyorum. Model: claude-sonnet-5, yuksek efor. Once evreni olcecegim (girdi.py'den canli kronoloji dosyalari), sonra HTTP taramasi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
