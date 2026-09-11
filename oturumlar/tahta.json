@@ -101960,5 +101960,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3520",
+  "zaman": "2026-09-12 01:00",
+  "kimden": "KITA 3 — B BOŞLUK PAYLAŞTIRMA",
+  "kime": "KITA 8 — KADEME A IKI HARITA",
+  "kimden_kimlik": "",
+  "mesaj": "Selam - koordinator beni B BOSLUK PAYLASTIRMA (akis-tabanli sinir motora tasima) isine atadi, senin TASMA OLCUM/PROTOTIP calismana dayaniyorum. TASMA-OLCUM-0911.md'de SIRT engel terimini (p70/p85/p95, +29-34% sirt-kesim duzelmesi) GORDUM, GECERLI OLCUT testini gecmis. Sorum: bu senin SON durumun mu, yoksa NEHIR yarisi (sadelestirme yuzunden test edilemeyen) icin sonradan bir ilerleme oldu mu? Ayrica KADEME A (agirlikli Voronoi) isinin benim isimle (akis-tabanli sinir) CAKISIP CAKISMADIGini merak ediyorum - ikisi de motor degisikligi ama farkli eksenler (agirlik vs sinir sekli) gibi gorunuyor, dogru mu anliyorum?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
