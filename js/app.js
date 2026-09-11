@@ -8230,6 +8230,125 @@ document.getElementById("btn-ileri").addEventListener("click", function () {
   olayaGit(olaylar[suankiOlayI], false, true);   // ⏭ — aynı gerekçe
 });
 
+// ═══════════════════════════════════════════════════════════════════════
+// TARİHE GİT — 11 Eylül 2026, Emre: "tarihe git diye bir buton olsun ve
+// bir tarih yazıldığı zaman o tarihe en yakın kronolojik maddeye götürsün
+// tarih çizgimizi."
+// ═══════════════════════════════════════════════════════════════════════
+// 🔴 YENİDEN YAZMA, VAR OLANI KULLAN (D045): "önceki/sonraki olaya atla"
+// zaten `olayaGit(o, panelGoster, zorla)` ile hem zaman çizgisini
+// (`tarihAyarla`) hem kronoloji listesini (`olaylarGuncelle` → "simdiki"
+// sınıfı + `scrollIntoView`) hem detay panelini (`obGoster`) TEK ÇAĞRIDA
+// güncelliyor — burada yalnız "hangi olay" sorusu YENİ, geri kalanı AYNEN
+// devralınıyor.
+
+// Türkçe küçük harfe çevirme — "İ".toLowerCase() İKİ KOD NOKTASI verir
+// ("i" + U+0307 BİRLEŞİK NOKTA), yani "MAYIS".toLowerCase() "mayıs" ile
+// harfi harfine eşleşmeyebilir. `denetim/ARAC-NORMAL-0903.py`nin JS
+// eşdeğeri: harf harf ELLE eşlenir, sonra ASCII'ye de düşürülür ki
+// "agustos"/"eylul" gibi Türkçe karaktersiz yazımlar da çalışsın.
+function _tgKucuk(s) {
+  var e = { "İ": "i", "I": "ı", "Ş": "ş", "Ğ": "ğ", "Ü": "ü", "Ö": "ö", "Ç": "ç" };
+  var out = "";
+  for (var i = 0; i < s.length; i++) out += e[s[i]] || s[i].toLowerCase();
+  return out;
+}
+function _tgAscii(s) {
+  var e = { "ı": "i", "ğ": "g", "ü": "u", "ş": "s", "ö": "o", "ç": "c" };
+  var out = "";
+  for (var i = 0; i < s.length; i++) out += e[s[i]] || s[i];
+  return out;
+}
+var _TG_AY_NO = {};
+AYLAR.forEach(function (a, i) {
+  var k = _tgKucuk(a);
+  _TG_AY_NO[k] = i + 1;
+  _TG_AY_NO[_tgAscii(k)] = i + 1;
+});
+
+// Kabul edilen biçimler: "1453" · "1453-05" · "1453-05-29" · "29.05.1453" ·
+// "29 Mayıs 1453" · "mayıs 1453" (büyük/küçük harf ve aksansız yazım fark
+// etmez). Döner: {gi: gün indeksi} ya da {hata: kullanıcıya gösterilecek metin}.
+// ⚠️ SESSİZ KALMA YASAK (görev şartı) — her ayrıştırılamayan girdi bir
+// `hata` metniyle döner, boş/undefined DÖNMEZ.
+function tarihMetniAyristir(ham) {
+  var s = String(ham == null ? "" : ham).trim().replace(/\s+/g, " ");
+  if (!s) return { hata: "Bir tarih yazın." };
+  var m, yil, ay, gun;
+  if ((m = s.match(/^(\d{1,4})-(\d{1,2})(?:-(\d{1,2}))?$/))) {
+    yil = +m[1]; ay = +m[2]; gun = m[3] ? +m[3] : 1;
+  } else if ((m = s.match(/^(\d{1,2})\.(\d{1,2})\.(\d{1,4})$/))) {
+    gun = +m[1]; ay = +m[2]; yil = +m[3];
+  } else if ((m = s.match(/^(\d{1,2}) ([^\d ]+) (\d{1,4})$/))) {
+    gun = +m[1]; yil = +m[3];
+    ay = _TG_AY_NO[_tgKucuk(m[2])] || _TG_AY_NO[_tgAscii(_tgKucuk(m[2]))];
+    if (!ay) return { hata: "Ay adı tanınmadı: “" + m[2] + "” — " + AYLAR.join(", ") };
+  } else if ((m = s.match(/^([^\d ]+) (\d{1,4})$/))) {
+    yil = +m[2]; gun = 1;
+    ay = _TG_AY_NO[_tgKucuk(m[1])] || _TG_AY_NO[_tgAscii(_tgKucuk(m[1]))];
+    if (!ay) return { hata: "Ay adı tanınmadı: “" + m[1] + "” — " + AYLAR.join(", ") };
+  } else if ((m = s.match(/^(\d{1,4})$/))) {
+    yil = +m[1]; ay = 1; gun = 1;
+  } else {
+    return { hata: "Anlaşılamadı. Örnek: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453" };
+  }
+  if (ay < 1 || ay > 12) return { hata: "Ay 1-12 arası olmalı (“" + s + "”)" };
+  if (gun < 1 || gun > 31) return { hata: "Gün 1-31 arası olmalı (“" + s + "”)" };
+  if (yil < 1) return { hata: "Yıl geçersiz (“" + s + "”)" };
+  return { gi: Math.round(Date.UTC(yil, ay - 1, gun) / 864e5) };
+}
+
+// `olaylar[]` `.gi`ye göre ARTAN sırayla (olayIndexTazele'nin kendi
+// varsayımı) — ikili arama güvenli.
+function enYakinOlayBul(gi) {
+  if (!olaylar.length) return null;
+  var lo = 0, hi = olaylar.length - 1;
+  if (gi <= olaylar[0].gi) return olaylar[0];
+  if (gi >= olaylar[hi].gi) return olaylar[hi];
+  while (lo < hi) {
+    var mid = (lo + hi) >> 1;
+    if (olaylar[mid].gi < gi) lo = mid + 1; else hi = mid;
+  }
+  var sonra = olaylar[lo], once = olaylar[lo - 1];
+  if (!once) return sonra;
+  return (gi - once.gi) <= (sonra.gi - gi) ? once : sonra;
+}
+
+(function tariheGitKur() {
+  var giris = document.getElementById("tarihe-git-giris");
+  var buton = document.getElementById("tarihe-git-buton");
+  var durum = document.getElementById("tarihe-git-durum");
+  if (!giris || !buton || !durum) return;   // §11: sessiz atlama yerine erken çık, koşuyu bozma
+  function _durumYaz(metin, uyari) {
+    durum.textContent = metin;
+    durum.title = metin;
+    durum.classList.toggle("tarihe-git-uyari", !!uyari);
+  }
+  function calistir() {
+    var sonuc = tarihMetniAyristir(giris.value);
+    if (sonuc.hata) { _durumYaz("⚠️ " + sonuc.hata, true); return; }
+    if (!olaylar.length) { _durumYaz("⚠️ Kronoloji henüz yüklenmedi.", true); return; }
+    var hedefGi = sonuc.gi, kirpildi = null;
+    if (hedefGi < BASLANGIC) { kirpildi = "önce"; hedefGi = BASLANGIC; }
+    else if (hedefGi > BITIS) { kirpildi = "sonra"; hedefGi = BITIS; }
+    var o = enYakinOlayBul(hedefGi);
+    if (!o) { _durumYaz("⚠️ Yakın bir olay bulunamadı.", true); return; }
+    olayaGit(o, true, true);
+    if (kirpildi) {
+      _durumYaz("ℹ️ Atlas " + idxTarih(BASLANGIC).y + "–" + idxTarih(BITIS).y +
+        " arasını kapsıyor (yazdığınız tarih " +
+        (kirpildi === "önce" ? "öncesinde" : "sonrasında") +
+        "); en yakın olaya götürüldü: " + olayTarihYazi(o));
+    } else {
+      _durumYaz("✓ " + olayTarihYazi(o) + " — " + o.b);
+    }
+  }
+  buton.addEventListener("click", calistir);
+  giris.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") { calistir(); e.preventDefault(); }
+  });
+})();
+
 // Klavye: ←→ gün (Shift: yıl), boşluk oynat/durdur
 document.addEventListener("keydown", function (e) {
   if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;

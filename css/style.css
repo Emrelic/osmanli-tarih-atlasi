@@ -730,6 +730,31 @@ body {
   max-width: 130px;
 }
 #zaman { flex: 1 1 auto; accent-color: var(--osmanli-kirmizi); height: 5px; min-width: 90px; }
+/* 11 Eylül 2026 — "Tarihe git" girişi. `#zamanbar button`/`input` genel
+   kuralları zaten var; burada yalnız METİN GİRİŞİNİN kendine özgü genişliği
+   ve buton genişliğinin (32px varsayılanı "📅 Git" metnine dar kalıyor)
+   override'ı gerekiyor. */
+#tarihe-git-giris {
+  height: 27px;
+  width: 160px;
+  flex: 0 0 auto;
+  border-radius: 5px;
+  border: 1px solid var(--altin);
+  background: #f3e6c8;
+  font-size: 12px;
+  padding: 0 6px;
+}
+#tarihe-git-buton { width: auto; padding: 0 8px; font-size: 12px; }
+#tarihe-git-durum {
+  font-size: 11px;
+  color: #f3e6c8;
+  max-width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 0 1 auto;
+}
+#tarihe-git-durum.tarihe-git-uyari { color: #ffb347; }
 /* `#tarih-goster` KURALI KALDIRILDI — 21 Ağustos, öğe HTML'den silindi
    (bkz. index.html footer notu). Üst çubuktaki `#ustbar-tarih` yeterli. */
 
