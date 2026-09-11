@@ -64,7 +64,9 @@ def gun_no(s):
 
 def madde_listesi(dosya):
     txt = io.open(KOK + r"\data\kronoloji_%s.js" % dosya, encoding="utf-8").read()
-    return re.findall(r'\{\s*t:"(\d{4}-\d{2}-\d{2})",\s*b:"([^"]*)"', txt)
+    # (?:[^"\\]|\\.)* — kaçışlı tırnakları (\") da içeren metni doğru keser;
+    # önceki hali `\"kamikaze\"` gibi metinlerde ilk kaçışlı tırnakta KESİYORDU.
+    return re.findall(r'\{\s*t:"(\d{4}-\d{2}-\d{2})",\s*b:"((?:[^"\\]|\\.)*)"', txt)
 
 
 # ═════════════════════════════════════════════════════════════════════
@@ -140,7 +142,7 @@ IKI_ARTI_SINIFLAMA = {
         "buhara", "buhara", "buhara", "buhara", "buhara", "buhara",
         "hive", "hive", "hive", "hive", "hive", "hive", "hive", "hive",
         ["hive", "buhara"],       # 1655 Ebulgazi Buhara'ya akın
-        "hive", "hive", "hive", "hive", "hive", "hive", "hive",
+        "hive", "hive", "hive", "hive", "hive", "hive", "hive", "hive",
         "hokand", "hokand", "hokand", "hokand", "hokand", "hokand", "hokand", "hokand",
         ["hokand", "buhara"],     # 1840 Buhara'ya yenilgi
         ["hokand", "buhara"],     # 1842-06 Muhammed Ali Han Buhara Emiri idamı
@@ -208,7 +210,7 @@ for aile, idler in AILELER.items():
                                      "sinif": "mekanik", "yontem": "tarih_penceresi_tekil"})
             kova1_kunyeler[(aile, idx)] = eslesen[0]
         else:
-            deger = IKI_ARTI_SINIFLAMA[aile][ikiplus_sira]
+            deger = IKI_ARTI_SINIFLAMA.get(aile, [])[ikiplus_sira]
             ikiplus_sira += 1
             kunye = normalize_kunye(deger)
             if deger is None:
@@ -221,9 +223,9 @@ for aile, idler in AILELER.items():
                 sinif = "gercek_belirsizlik_icerik"
             sonuc["esleme"].append({"dosya": aile, "tarih": t, "b": b, "kunye": kunye,
                                      "sinif": sinif, "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"})
-    assert ikiplus_sira == len(IKI_ARTI_SINIFLAMA[aile]), \
+    assert ikiplus_sira == len(IKI_ARTI_SINIFLAMA.get(aile, [])), \
         "kova 2+ SAYISI DEĞİŞMİŞ: %s (%d != %d) — devletler.js ya da dosya değişmiş olabilir" % (
-            aile, ikiplus_sira, len(IKI_ARTI_SINIFLAMA[aile]))
+            aile, ikiplus_sira, len(IKI_ARTI_SINIFLAMA.get(aile, [])))
 
 toplam = len(sonuc["esleme"])
 mekanik = sum(1 for e in sonuc["esleme"] if e["sinif"] in ("mekanik", "gercek_belirsizlik_icerik"))
@@ -244,7 +246,12 @@ assert len(sonuc["ucuncu_taraf"]) == 12
 print()
 print("D140 SINAVI — aday künye SAYISI ile 🟠 (içerikle çözülme) ORANI ilişkili mi?")
 for aile in AILELER:
-    n2p = len(IKI_ARTI_SINIFLAMA[aile])
+    n2p = len(IKI_ARTI_SINIFLAMA.get(aile, []))
+    if n2p == 0:
+        print("  %-11s aday künye: %d  ·  2+ kovası: 0 (bu ailede yok — tarih penceresi tek başına yetti)"
+              % (aile, len(AILELER[aile])))
+        sonuc["d140_sinav"][aile] = {"aday_sayisi": len(AILELER[aile]), "iki_artı_toplam": 0, "orani_yuzde": None}
+        continue
     aday_sayisi = len(AILELER[aile])
     coz = sum(1 for v in IKI_ARTI_SINIFLAMA[aile] if isinstance(v, str))
     oran = coz / n2p * 100 if n2p else 0
@@ -262,7 +269,7 @@ print("D187 POZİTİF KONTROL — elle bilinen doğru eşleşmeler yakalanıyor 
 pk = [
     ("cin", "1281-06-23", "yuan-hanedani", "Kubilay Han'ın Yuan hanedanı, tarih penceresi TEK aday"),
     ("hindistan", "1206-01-01", None, "Delhi Sultanlığı kuruluş öncesi — atlas 1281 ufkunda YOK, kontrol dışı"),
-    ("japonya", "1281-06-23", "kamakura", "1281 tayfun günü Kamakura şogunluğu döneminde, TEK aday"),
+    ("japonya", "1281-08-15", "kamakura", "1281 tayfun günü (İkinci Moğol istilası) Kamakura şogunluğu döneminde, TEK aday"),
 ]
 for aile, tarih, beklenen, aciklama in pk:
     bulunan = None

@@ -1,0 +1,6172 @@
+{
+ "sema": {
+  "alan_adi": "kunye",
+  "bicim": "DİZİ (Array<string>) — tekil künye de tek elemanlı dizi olarak yazılır",
+  "gerekce": "İki biçim (bazen string bazen array) tüketici kodda `Array.isArray(m.kunye) ? m.kunye : [m.kunye]` gibi bir dallanma zorunlu kılar ve bu projede AYNI SINIFTAN kusurlar defalarca yaşandı (D089, D093, `tur` sözlük kayması, `sardinya`nın harita/id karışması). Tek biçim (hep dizi) bu dallanmayı YOK EDER — %87'si tek elemanlı olsa bile hepsi aynı okunur. `bolge:` alanına DOKUNULMAZ, ayrı eksen (`§3` M/K karışması dersi).",
+  "bos_dizi_anlami": "GERÇEK BOŞLUK (o tarihte hiçbir siyasi kimlik yok, örn. Osmanlı eyalet dönemi) — `null` DEĞİL, `[]`"
+ },
+ "esleme": [
+  {
+   "dosya": "cin",
+   "tarih": "1281-06-23",
+   "b": "İkinci Japonya seferi tayfunla dağıldı (\\\"kamikaze\\\")",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1287-01-01",
+   "b": "Pagan Krallığı'na (Birmanya) Yuan seferi",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1281-01-01",
+   "b": "Guo Shoujing'in Shoushi takvimi kabul edildi",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1291-01-01",
+   "b": "Marco Polo, İlhanlı prensesini götürmek üzere Çin'den ayrıldı",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1294-02-18",
+   "b": "Kubilay Han öldü",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1294-01-01",
+   "b": "Montecorvinolu Giovanni Pekin'e ulaştı — ilk Katolik misyonu",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1313-01-01",
+   "b": "Konfüçyüsçü sınav sistemi (keju) yeniden ilan edildi",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1313-01-01",
+   "b": "Wang Zhen'in Nong Shu (Tarım Kitabı) tamamlandı",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1351-05-01",
+   "b": "Kızıl Sarıklılar isyanı başladı",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1351-01-01",
+   "b": "Sarı Nehir'in Jia Lu'ya yönlendirilmesi",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1356-04-10",
+   "b": "Zhu Yuanzhang Nanjing'i ele geçirdi",
+   "kunye": [
+    "yuan-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1368-01-23",
+   "b": "Zhu Yuanzhang, Hongwu unvanıyla imparator ilan edildi",
+   "kunye": [
+    "yuan-hanedani",
+    "ming-hanedani"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1368-09-14",
+   "b": "Ming orduları Pekin'i aldı, Yuan sarayı kuzeye çekildi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1370-01-01",
+   "b": "İmparatorluk sınav sistemi Ming altında yeniden düzenlendi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1380-01-01",
+   "b": "Hu Weiyong davası — başbakanlık makamı kaldırıldı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1381-01-01",
+   "b": "Sarı Kayıtlar ve Lijia hane sistemi kuruldu",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1392-07-17",
+   "b": "Goryeo çöktü, Joseon Kore kuruldu — Ming'e tâbi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1398-06-24",
+   "b": "Hongwu İmparatoru öldü",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1402-07-13",
+   "b": "Jingnan seferi bitti — Yongle tahta çıktı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1403-01-01",
+   "b": "Yongle Ansiklopedisi'nin derlenmesi başladı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1406-01-01",
+   "b": "Ming, Đại Ngu'yu (Vietnam) işgal etti",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1405-07-11",
+   "b": "Zheng He'nin ilk deniz seferi başladı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1414-01-01",
+   "b": "Zheng He'nin dördüncü seferi Hürmüz ve Doğu Afrika'ya ulaştı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1410-01-01",
+   "b": "Yongle'nin Moğollara karşı ilk şahsi seferi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1420-01-01",
+   "b": "Yasak Şehir tamamlandı, başkent Pekin'e taşındı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1424-08-12",
+   "b": "Yongle, Moğol seferinde döneşte öldü",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1427-01-01",
+   "b": "Ming, Vietnam'dan çekildi — Lê hanedanı kuruldu",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1449-09-01",
+   "b": "Tumu Krizi — Oyratlar Ming imparatorunu esir aldı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1457-02-11",
+   "b": "Tianshun restorasyonu — Zhengtong tahta geri döndü",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1472-01-01",
+   "b": "Wang Yangming doğdu",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1494-01-01",
+   "b": "Liu Daxia'nın Sarı Nehir ıslah projesi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1517-01-01",
+   "b": "Portekizliler ilk kez Kanton'a ulaştı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1521-09-07",
+   "b": "Tunmen Muharebesi — Ming donanması Portekizlileri yendi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1521-04-19",
+   "b": "Jiajing İmparatoru tahta çıktı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1529-01-09",
+   "b": "Wang Yangming öldü",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1550-08-01",
+   "b": "Altan Han'ın Moğolları Pekin'i kuşattı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1557-01-01",
+   "b": "Portekizliler Makao'da yerleşim hakkı aldı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1561-01-01",
+   "b": "Qi Jiguang'ın Wokou korsanlarına karşı seferleri",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1567-01-01",
+   "b": "Longqing kaihai — deniz ticareti kısmen serbest bırakıldı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1571-01-01",
+   "b": "Manila galyon ticareti başladı — Amerika gümüşü Çin'e aktı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1572-07-05",
+   "b": "Wanli İmparatoru tahta çıktı, Zhang Juzheng reformları başladı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1581-01-01",
+   "b": "Tek Kırbaç (Single Whip) vergi reformu genelleştirildi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1583-09-10",
+   "b": "Matteo Ricci Zhaoqing'e yerleşti",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1592-01-01",
+   "b": "Wu Cheng'en'in Batı'ya Seyahat'i (Xiyou Ji) yaygınlaştı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1592-05-23",
+   "b": "Japonya'nın Kore'yi işgali — Ming müdahale etti",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1596-01-01",
+   "b": "Li Shizhen'in Bencao Gangmu'su yayımlandı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1601-01-24",
+   "b": "Matteo Ricci Pekin'e ulaştı, Wanli'ye hediyeler sundu",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1602-01-01",
+   "b": "Ricci'nin dünya haritası (Kunyu Wanguo Quantu) basıldı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1607-01-01",
+   "b": "Öklid'in Elementler'i Çinceye çevrildi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1616-05-15",
+   "b": "Nurhaci \\\"Sonraki Jin\\\"i (Qing'in öncülü) ilan etti",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1619-04-14",
+   "b": "Sarhu Muharebesi — Ming, Nurhaci karşısında ağır yenilgi aldı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1630-01-01",
+   "b": "Adam Schall von Bell Pekin'de Ming takvim reformuna katıldı",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1636-05-15",
+   "b": "Hong Taiji hanedan adını \\\"Qing\\\" ilan etti",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1642-09-01",
+   "b": "Kaifeng sedleri bilerek yıkıldı — Sarı Nehir felaketi",
+   "kunye": [
+    "ming-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1644-04-25",
+   "b": "Li Zicheng Pekin'i aldı, son Ming imparatoru intihar etti",
+   "kunye": [
+    "dashun",
+    "guney-ming"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1644-06-06",
+   "b": "Qing orduları Pekin'i aldı, Dorgon nâip oldu",
+   "kunye": [
+    "qing-hanedani",
+    "dashun"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1645-07-21",
+   "b": "Saç örgüsü (queue) fermanı yayımlandı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1645-06-08",
+   "b": "Nanjing düştü — Güney Ming direnişi güneye çekildi",
+   "kunye": [
+    "qing-hanedani",
+    "guney-ming"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1661-02-05",
+   "b": "Kangxi İmparatoru tahta çıktı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1662-01-01",
+   "b": "Yongli yakalanıp idam edildi — Güney Ming direnişi bitti",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1662-02-01",
+   "b": "Koxinga Tayvan'ı Hollandalılardan aldı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1673-12-01",
+   "b": "Üç Senyörlük İsyanı (San Fan) başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1683-08-01",
+   "b": "Qing, Tayvan'ı fethetti — Zheng hanedanı teslim oldu",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1685-01-01",
+   "b": "Dört gümrük limanı açıldı (Kanton · Xiamen · Ningbo · Şanghay)",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1689-09-07",
+   "b": "Nerçinsk Antlaşması — Rusya ile sınır çizildi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1690-09-03",
+   "b": "Ulan Butung Muharebesi — Galdan'a karşı ilk büyük zafer",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1691-05-30",
+   "b": "Halha Moğolları Dolonnor'da Qing'e tâbi oldu",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1700-01-01",
+   "b": "Çin Ayinleri Tartışması (Rites Controversy) doruğa çıktı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1708-01-01",
+   "b": "Kangxi Atlası için Cizvit haritalama seferi başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1711-01-01",
+   "b": "Kangxi toprak vergisi nüfusunu dondurdu",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1716-01-01",
+   "b": "Kangxi Sözlüğü yayımlandı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1720-09-01",
+   "b": "Qing kuvvetleri Lhasa'ya girdi — Tibet himayeye alındı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1722-12-20",
+   "b": "Kangxi öldü, Yongzheng tahta çıktı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1727-08-20",
+   "b": "Kyakhta Antlaşması — Rusya sınırı ve ticareti düzenlendi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1729-01-01",
+   "b": "Askerî Danışma Kurulu (Grand Council) kuruldu",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1735-10-08",
+   "b": "Yongzheng öldü, Qianlong tahta çıktı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1755-01-01",
+   "b": "Qianlong'un Cungar seferleri başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1757-01-01",
+   "b": "Kanton Sistemi — dış ticaret tek limana kısıtlandı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1759-01-01",
+   "b": "Doğu Türkistan (Altışehir) fethi tamamlandı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1759-01-01",
+   "b": "Flint Olayı — ticaret kısıtlamaları sıkılaştırıldı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1774-01-01",
+   "b": "Wang Lun Ayaklanması — Beyaz Lotus'un habercisi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1782-01-01",
+   "b": "Siku Quanshu (Dört Hazine Külliyatı) tamamlandı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1791-01-01",
+   "b": "Kızıl Konak Rüyası (Hongloumeng) ilk kez basıldı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1792-01-01",
+   "b": "Gorkha-Tibet Savaşı'na Qing müdahalesi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1793-09-14",
+   "b": "Makartney Elçiliği Qianlong huzuruna kabul edildi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1796-02-09",
+   "b": "Qianlong tahttan çekildi, Jiaqing'e devretti",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1796-02-01",
+   "b": "Beyaz Lotus Ayaklanması başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1799-02-22",
+   "b": "Qianlong öldü, Heshen tutuklanıp idam edildi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1813-01-01",
+   "b": "Sekiz Trigram Ayaklanması Yasak Şehir'e sıçradı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1834-01-01",
+   "b": "İngiliz Doğu Hindistan Şirketi'nin Çin tekeli sona erdi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1839-06-03",
+   "b": "Lin Zexu Humen'de afyonu imha etti",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1840-06-01",
+   "b": "Birinci Afyon Savaşı başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1842-08-29",
+   "b": "Nanking Antlaşması imzalandı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1850-01-01",
+   "b": "Xianfeng İmparatoru tahta çıktı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1851-01-11",
+   "b": "Hong Xiuquan, Taiping İsyanı'nı ilan etti",
+   "kunye": [
+    "qing-hanedani",
+    "taiping"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1853-03-19",
+   "b": "Taiping, Nanjing'i alıp \\\"Tianjing\\\" başkenti ilan etti",
+   "kunye": [
+    "qing-hanedani",
+    "taiping"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1856-10-08",
+   "b": "Arrow Olayı — İkinci Afyon Savaşı'nın kıvılcımı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1860-10-18",
+   "b": "Yazlık Saray (Yuanmingyuan) İngiliz-Fransız kuvvetlerince yakıldı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1860-10-24",
+   "b": "Pekin Sözleşmesi — Kowloon devredildi, afyon meşrulaştı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1861-01-20",
+   "b": "Zongli Yamen kuruldu — ilk modern dışişleri organı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1861-11-01",
+   "b": "Xianfeng öldü — Cixi'nin nâiplik dönemi başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1862-01-01",
+   "b": "Kendini Güçlendirme Hareketi (Yangwu) başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1862-01-01",
+   "b": "Tongwen Guan (Yabancı Diller Okulu) kuruldu",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1864-07-19",
+   "b": "Nanjing geri alındı — Taiping İsyanı bastırıldı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1865-01-01",
+   "b": "Jiangnan Tersanesi ve Cephanesi kuruldu",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1871-01-01",
+   "b": "İli Krizi — Rusya bölgeyi işgal etti",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1872-01-01",
+   "b": "İlk Çinli öğrenci grubu Amerika'ya gönderildi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1875-02-25",
+   "b": "Guangxu İmparatoru çocuk yaşta tahta çıktı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1876-01-01",
+   "b": "Woosung Demiryolu — Çin'in ilk demiryolu açıldı ve söküldü",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1878-03-16",
+   "b": "Zuo Zongtang Doğu Türkistan'ı yeniden fethetti",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1884-08-23",
+   "b": "Çin-Fransız Savaşı — Fuzhou donanması imha edildi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1888-01-01",
+   "b": "Beiyang Filosu resmen kuruldu",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1894-07-25",
+   "b": "Birinci Çin-Japon Savaşı başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1895-04-17",
+   "b": "Şimonoseki Antlaşması imzalandı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1898-06-11",
+   "b": "Yüz Gün Reformu başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1898-09-21",
+   "b": "Cixi darbe yaptı — Guangxu hapsedildi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1898-03-06",
+   "b": "Almanya Jiaozhou Körfezi'ni (Qingdao) 99 yıllığına kiraladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1899-10-18",
+   "b": "Boksör Ayaklanması yayılmaya başladı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1900-06-20",
+   "b": "Sekiz Ülke İttifakı'na karşı savaş ilan edildi, elçilikler kuşatıldı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1901-09-07",
+   "b": "Boksör Protokolü imzalandı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1901-01-29",
+   "b": "Yeni Politikalar (Xinzheng) reformları ilan edildi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1905-09-02",
+   "b": "İmparatorluk sınav sistemi (keju) kaldırıldı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1908-11-14",
+   "b": "Guangxu ve Cixi bir gün arayla öldü, Puyi tahta çıktı",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1911-05-09",
+   "b": "Demiryolları millîleştirme kararı isyanı ateşledi",
+   "kunye": [
+    "qing-hanedani"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1911-10-10",
+   "b": "Wuchang Ayaklanması — Xinhai Devrimi başladı",
+   "kunye": [
+    "qing-hanedani",
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1911-12-29",
+   "b": "Sun Yat-sen geçici cumhurbaşkanı seçildi",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1912-02-12",
+   "b": "Puyi tahttan feragat etti — Qing hanedanı sona erdi",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1912-02-15",
+   "b": "Yuan Shikai cumhurbaşkanı oldu",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1912-11-01",
+   "b": "Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilan etti",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1913-07-12",
+   "b": "İkinci Devrim — Yuan Shikai'ye karşı ayaklanma bastırıldı",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1915-12-12",
+   "b": "Yuan Shikai kendini imparator ilan etti (Hongxian)",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1916-06-06",
+   "b": "Yuan Shikai öldü — savaş ağaları dönemi başladı",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1917-07-01",
+   "b": "Zhang Xun'un on iki günlük restorasyon girişimi",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1919-05-04",
+   "b": "4 Mayıs Hareketi başladı",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1921-07-23",
+   "b": "Çin Komünist Partisi kuruldu",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1923-01-26",
+   "b": "Sun Yat-sen — Sovyet Rusya iş birliği bildirisi (Sun-Ioffe)",
+   "kunye": [
+    "cin-cumhuriyeti"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1290-06-13",
+   "b": "Celâlüddin Fîrûz Halacî, Delhi'de Halacî hanedanını kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1296-07-19",
+   "b": "Alâeddin Halacî amcası Celâlüddin'i öldürterek tahta geçti",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1298-01-01",
+   "b": "Alâeddin Halacî Gucerât'ı fethetti",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1303-08-26",
+   "b": "Alâeddin Halacî Çitor'u (Mevar) kuşatıp aldı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1303-01-01",
+   "b": "Moğol ordusu Delhi'yi kuşattı, Alâeddin şehri savundu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1305-01-01",
+   "b": "Alâeddin Halacî Mâlvâ'yı fethetti",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1310-02-26",
+   "b": "Malik Kâfûr Dekken'de Varangal'ı (Kakatiya) kuşatıp haraca bağladı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1311-01-01",
+   "b": "Malik Kâfûr'un Dekken seferi Mâbâr'a (Pandya) kadar ulaştı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1316-01-04",
+   "b": "Alâeddin Halacî öldü, iktidar mücadelesi başladı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1320-09-06",
+   "b": "Gıyâsüddin Tuğluk tahta çıktı, Tuğluk hanedanı kuruldu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1327-01-01",
+   "b": "Muhammed b. Tuğluk başkenti Devagiri'ye (Devletâbâd) taşıdı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1329-01-01",
+   "b": "Muhammed b. Tuğluk bakır/pirinç sikkeyi gümüş değerinde tedavüle soktu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1334-01-01",
+   "b": "İbn Battûta Delhi'ye geldi, Muhammed b. Tuğluk onu kadı tayin etti",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1325-10-18",
+   "b": "Şair Emîr Hüsrev-i Dihlevî öldü",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1334-01-01",
+   "b": "Mâbâr (Madurai) Sultanlığı Delhi'den bağımsızlığını ilan etti",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1351-03-23",
+   "b": "Fîrûz Şah Tuğluk tahta çıktı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1356-01-01",
+   "b": "Fîrûz Şah, Topra ve Meerut'taki Aşoka sütunlarını Delhi'ye taşıttı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1398-12-17",
+   "b": "Timur Delhi'yi işgal edip yağmaladı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1414-05-28",
+   "b": "Hızır Han Seyyid hanedanını kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1451-04-19",
+   "b": "Behlûl Lûdî Delhi'de Lûdî hanedanını kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1504-01-01",
+   "b": "Sultan İskender Lûdî Agra şehrini kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1526-04-21",
+   "b": "Birinci Pânipat Savaşı: Bâbür, Delhi Sultanlığı'na son verdi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1527-03-16",
+   "b": "Bâbür, Khanwa'da Racput ittifakını yendi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1530-12-26",
+   "b": "Bâbür öldü, Hümâyun tahta çıktı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1539-06-26",
+   "b": "Çausa Savaşı'nda Şîr Şah Sûrî Hümâyun'u yendi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1540-05-17",
+   "b": "Kannauc Savaşı: Şîr Şah Sûrî Hindistan'a hâkim oldu, Hümâyun sürgüne gitti",
+   "kunye": [
+    "babur-imparatorlugu",
+    "sur-hanedani"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1542-01-01",
+   "b": "Şîr Şah Sûrî Delhi-Bengal karayolunu (bugünkü Grand Trunk Road) yeniden imar etti",
+   "kunye": [
+    "sur-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1555-07-23",
+   "b": "Hümâyun, Safevî desteğiyle Delhi'yi geri aldı",
+   "kunye": [
+    "babur-imparatorlugu",
+    "sur-hanedani"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1556-01-27",
+   "b": "Hümâyun kütüphane merdiveninden düşerek öldü, Ekber tahta çıktı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1556-11-05",
+   "b": "İkinci Pânipat Savaşı: Bayram Han, Hemu'yu yenip Delhi'yi kurtardı",
+   "kunye": [
+    "babur-imparatorlugu",
+    "sur-hanedani"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1564-01-01",
+   "b": "Ekber Şah gayrimüslimlerden alınan cizyeyi kaldırdı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1568-02-23",
+   "b": "Ekber Şah Çitor Kalesi'ni fethetti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1571-01-01",
+   "b": "Ekber Şah yeni başkent Fetihpûr Sikri'yi kurmaya başladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1573-08-20",
+   "b": "Ekber Şah Gucerât'ı fethetti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1575-01-01",
+   "b": "Ekber Şah Fetihpûr Sikri'de İbâdethâne'yi kurdu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1576-04-03",
+   "b": "Ekber Şah Bengal Sultanlığı'na son verdi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1579-06-22",
+   "b": "Ekber Şah Mahzar Fermanı'nı yayımladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1582-01-01",
+   "b": "Ekber Şah Dîn-i İlâhî'yi ilan etti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1590-01-01",
+   "b": "Ebü'l-Fazl, Âîn-i Ekberî'yi tamamladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1586-01-01",
+   "b": "Ekber Şah Keşmir'i ilhak etti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1600-12-31",
+   "b": "İngiliz Doğu Hindistan Şirketi Londra'da imtiyaz fermanıyla kuruldu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1604-08-16",
+   "b": "Guru Arjan, Altın Tapınak'ta Âdi Grânth'ı tamamladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1605-10-27",
+   "b": "Ekber Şah öldü, Cihangir tahta çıktı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1611-05-25",
+   "b": "Cihangir, Nur Cihan ile evlendi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1622-06-01",
+   "b": "Safevîler Kandehar'ı Bâbürlülerden geri aldı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1627-11-08",
+   "b": "Cihangir öldü, Şah Cihan tahta çıktı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1631-06-17",
+   "b": "Mümtaz Mahal doğumda öldü",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1632-01-01",
+   "b": "Tâc Mahal'in inşaatı başladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1638-01-01",
+   "b": "Şah Cihan başkenti Şahcihanâbâd'a (Yeni Delhi) taşımaya karar verdi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1648-04-19",
+   "b": "Şah Cihan sarayını Şahcihanâbâd'a (Kızıl Kale) taşıdı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1657-09-06",
+   "b": "Şah Cihan'ın hastalığı üzerine oğulları arasında taht mücadelesi başladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1658-07-31",
+   "b": "Evrengzîb Delhi'de tahta çıktı, babasını hapsetti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1659-08-30",
+   "b": "Evrengzîb kardeşi Dârâ Şükûh'u idam ettirdi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1666-01-22",
+   "b": "Şah Cihan Agra Kalesi'nde hapiste öldü",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1669-09-02",
+   "b": "Evrengzîb, Benâres'teki Vişvanâth Tapınağı'nın yıkılmasını emretti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1679-04-02",
+   "b": "Evrengzîb gayrimüslimlerden cizyeyi yeniden koydu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1681-01-01",
+   "b": "Evrengzîb, Dekken seferine bizzat çıktı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1686-09-12",
+   "b": "Evrengzîb Bîcâpur Sultanlığı'nı ilhak etti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1687-09-21",
+   "b": "Evrengzîb Golkonda Sultanlığı'nı ilhak etti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1689-03-11",
+   "b": "Evrengzîb, Şivâcî'nin oğlu Sambâjî'yi idam ettirdi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1699-04-13",
+   "b": "Guru Gobind Singh, Khalsa'yı kurdu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1707-03-03",
+   "b": "Evrengzîb öldü",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1719-02-28",
+   "b": "Seyyid Kardeşler İmparator Ferruhsiyer'i tahttan indirip öldürttü",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1724-01-01",
+   "b": "Nizamülmülk Haydarâbâd Nizamlığı'nı fiilen bağımsız kurdu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1739-03-13",
+   "b": "Nadir Şah Delhi'yi işgal edip yağmaladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1757-06-23",
+   "b": "Plasi Savaşı: İngiliz Doğu Hindistan Şirketi Bengal'e hâkim oldu",
+   "kunye": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1761-01-14",
+   "b": "Üçüncü Pânipat Savaşı: Ahmed Şah Dürrânî Marathaları bozguna uğrattı",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1764-10-23",
+   "b": "Buksar Savaşı: İngilizler, Bâbürlü-Avad-Bengal ittifakını yendi",
+   "kunye": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1765-08-12",
+   "b": "Allahâbâd Antlaşması: Şirket, Bengal-Bihar-Orissa'nın vergi toplama hakkını (Divânî) aldı",
+   "kunye": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1786-01-01",
+   "b": "Tîpû Sultan, Osmanlı Sultanı I. Abdülhamid'e ittifak için elçi gönderdi",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1792-03-18",
+   "b": "Üçüncü Anglo-Mysore Savaşı, Seringapatam Antlaşması'yla sona erdi",
+   "kunye": [
+    "ingiliz-hindistani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1793-01-01",
+   "b": "Bengal'de Daimi Arazi Tesviyesi (Permanent Settlement) uygulandı",
+   "kunye": [
+    "ingiliz-hindistani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1799-05-04",
+   "b": "Dördüncü Anglo-Mysore Savaşı: Seringapatam düştü, Tîpû Sultan savaşarak öldü",
+   "kunye": [
+    "ingiliz-hindistani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1347-08-03",
+   "b": "Alâeddin Hasan Behmen Şah, Behmenî Sultanlığı'nı kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1425-01-01",
+   "b": "Behmenî başkenti Gülberge'den Bîdar'a taşındı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1481-04-05",
+   "b": "Behmenî veziri Mahmud Gâvân idam edildi",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1490-01-01",
+   "b": "Behmenî valileri Bîcâpur, Ahmednagar ve Berâr'da fiilen bağımsızlaştı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1518-01-01",
+   "b": "Kutbülmülk, Golkonda Kutubşâhî Sultanlığı'nı kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1591-01-01",
+   "b": "Muhammed Kulî Kutub Şah, Haydarâbâd şehrini kurdu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1565-01-26",
+   "b": "Talikota Savaşı: Dekken sultanlıkları ittifakı Vijayanagara'yı yendi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1509-01-01",
+   "b": "Krişnadevarâya, Vijayanagara tahtına çıktı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1595-01-01",
+   "b": "Ahmednagar Sultanlığı, Çand Bîbî önderliğinde Bâbürlü kuşatmasına direndi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1656-01-01",
+   "b": "Bîcâpur'da Gol Gumbaz'ın inşası tamamlandı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1339-01-01",
+   "b": "Şah Mîr, Keşmir Sultanlığı'nı kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1420-01-01",
+   "b": "Zeynelâbidin, Keşmir'de tahta çıktı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1407-01-01",
+   "b": "Zafer Han (I. Muzaffer Şah), bağımsız Gucerât Sultanlığı'nı kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1411-01-01",
+   "b": "Ahmed Şah, Ahmedâbâd şehrini kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1509-02-03",
+   "b": "Diu deniz savaşı: Portekiz, Gucerât-Memlûk-Kalikut donanmasını yendi",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1538-09-04",
+   "b": "Osmanlı-Gucerât ittifakı Diu'yu kuşattı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1573-08-20",
+   "b": "Gucerât Sultanlığı, Ekber Şah tarafından ilhak edildi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1401-01-01",
+   "b": "Dilâver Han, Mâlvâ Sultanlığı'nı kurdu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1531-01-01",
+   "b": "Gucerât Sultanı Bahadır Şah, Mâlvâ'yı ilhak etti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1414-01-01",
+   "b": "Racâ Ganeş, Bengal Sultanlığı'nda kısa süreliğine iktidarı ele geçirdi",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1442-01-01",
+   "b": "Bengal Sultanı Gıyâsüddin Âzam Şah, Çin ve Mekke ile elçi teatisinde bulundu",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1538-04-06",
+   "b": "Şîr Şah Sûrî, Bengal Sultanlığı'nı fethetti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1554-01-01",
+   "b": "Erguniler yıkılıp Sind'de Tarhan hanedanı kuruldu",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1674-06-06",
+   "b": "Şivâcî, Raygad'da kral olarak taç giydi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1680-04-03",
+   "b": "Şivâcî öldü",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1707-01-01",
+   "b": "Maratha gücü Peşvalar önderliğinde gevşek bir konfederasyona dönüştü",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1737-03-29",
+   "b": "Marathalar Delhi'ye akın düzenledi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1761-01-14",
+   "b": "Marathalar Üçüncü Pânipat'ta ağır yenilgi aldı",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1775-01-01",
+   "b": "Birinci Anglo-Maratha Savaşı başladı",
+   "kunye": [
+    "ingiliz-hindistani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1799-07-07",
+   "b": "Rançit Singh Lahor'u ele geçirdi",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1801-04-12",
+   "b": "Rançit Singh, Mahâracâ unvanıyla taç giydi",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1830-01-01",
+   "b": "Rançit Singh, Altın Tapınak'ı altın kaplattı",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1839-06-27",
+   "b": "Rançit Singh öldü",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1846-03-09",
+   "b": "Birinci Anglo-Sih Savaşı, Lahor Antlaşması'yla sona erdi",
+   "kunye": [
+    "ingiliz-hindistani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1849-03-29",
+   "b": "İkinci Anglo-Sih Savaşı sonunda İngilizler Pencap'ı ilhak etti",
+   "kunye": [
+    "ingiliz-hindistani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1761-01-01",
+   "b": "Haydar Ali, Meysûr'da fiilî iktidarı ele geçirdi",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1780-01-01",
+   "b": "İkinci Anglo-Mysore Savaşı'nda Haydar Ali, İngilizlere ağır kayıplar verdirdi",
+   "kunye": [
+    "ingiliz-hindistani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1782-12-07",
+   "b": "Haydar Ali öldü, yerine oğlu Tîpû Sultan geçti",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1780-01-01",
+   "b": "Tîpû Sultan'ın ordusunda roket topçuluğu (Mysore roketleri) geliştirildi",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1325-04-03",
+   "b": "Sûfî şeyhi Nizâmeddin Evliyâ öldü",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1499-01-01",
+   "b": "Guru Nanak, Sihizm'in temellerini attı",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1518-01-01",
+   "b": "Bhaktî şairi Kabîr öldü",
+   "kunye": [
+    "delhi-sultanligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1545-05-22",
+   "b": "Şîr Şah Sûrî'nin türbesi Sâsârâm'da tamamlandı",
+   "kunye": [
+    "sur-hanedani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1562-01-01",
+   "b": "Müzisyen Tansen, Ekber Şah'ın sarayına katıldı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1570-01-01",
+   "b": "Hümâyun'un Türbesi Delhi'de tamamlandı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1574-01-01",
+   "b": "Tulsîdâs, Râmçeritmânas'ı yazmaya başladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1613-01-11",
+   "b": "İngiliz Doğu Hindistan Şirketi Sûrat'ta ilk ticaret fabrikasını açtı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1615-01-10",
+   "b": "Sir Thomas Roe, Cihangir'in sarayına İngiliz elçisi olarak kabul edildi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1628-01-01",
+   "b": "İtimâdüddevle Türbesi Agra'da tamamlandı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1630-01-01",
+   "b": "Dekken'de büyük kıtlık başladı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1674-07-04",
+   "b": "Fransızlar Pondişeri'yi kurdu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1690-08-24",
+   "b": "Job Charnock, Kalküta'yı İngiliz ticaret yerleşimi olarak kurdu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1700-01-01",
+   "b": "Velî Deccanî, Urduca gazeller yazarak dîvân oluşturdu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1724-01-01",
+   "b": "Racâ Jai Singh II, Delhi'de Jantar Mantar rasathanesini kurdu",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1651-01-01",
+   "b": "Fransız gezgin Tavernier, Golkonda elmas madenlerini ziyaret etti",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1666-01-01",
+   "b": "Dakka muslini Avrupa pazarlarında 'dokunmuş hava' olarak ün kazandı",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1770-01-01",
+   "b": "Büyük Bengal Kıtlığı başladı",
+   "kunye": [
+    "ingiliz-hindistani"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1590-01-01",
+   "b": "Jahangir döneminde Bâbürlü minyatür resim okulu doğa gözlemine yöneldi",
+   "kunye": [
+    "babur-imparatorlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1517-01-22",
+   "b": "Ridâniye — Memlük Devleti'nin sonu, Mısır'ın Osmanlı'ya katılışı",
+   "kunye": [
+    "memluk"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1517-01-22",
+   "b": "Süveyş'in Osmanlı idaresine geçişi — Kızıldeniz kapısı",
+   "kunye": [
+    "memluk"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1517-01-24",
+   "b": "Osmanlı birliklerinin Kahire'ye ilk girişi",
+   "kunye": [
+    "memluk"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1517-02-08",
+   "b": "Canbirdi Gazâlî'nin Osmanlı hizmetine alınması — Memlük kadrolarının sisteme dâhili",
+   "kunye": [
+    "memluk"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1517-05-19",
+   "b": "İskenderiye'nin teslimi — Mısır fethinin tamamlanması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1517-07-06",
+   "b": "Hicaz'ın Kahire üzerinden savaşsız katılışı",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1524-01-01",
+   "b": "Hâin Ahmed Paşa'nın kendini sultan ilan etmesi ve isyanının bastırılması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1525-01-01",
+   "b": "İbrahim Paşa Kanunnâmesi — Mısır'ın ikili idare çerçevesinin kurulması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1711-01-01",
+   "b": "Büyük Fitne — Kāsımiyye-Zülfikāriyye çatışması ve beylerbeyinin azli",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1723-01-01",
+   "b": "Kāsımiyye fırkasından Çerkez Mehmed'in şeyhülbeledliğe gelmesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1729-01-01",
+   "b": "Çerkez Mehmed'in ölümü — Kazdağlı hizbinin yükselişinin başlaması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1760-01-01",
+   "b": "Kazdağlıların Bulutkapan Ali Bey'i şeyhülbeledliğe ataması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1768-01-01",
+   "b": "Ali Bey'in Ebu'z-Zeheb aracılığıyla rakiplerini tasfiyesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1769-06-01",
+   "b": "Ali Bey'in Osmanlı'ya bağlılığı fiilen reddetmesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1770-11-01",
+   "b": "Ali Bey'in Zâhir el-Ömer ile ittifak kurup Suriye seferini başlatması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1771-06-01",
+   "b": "Şam'ın Ali Bey/Ebu'z-Zeheb kuvvetlerince ele geçirilmesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1771-06-11",
+   "b": "Ebu'z-Zeheb'in ihaneti — Şam'dan Mısır'a ani dönüşü",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1772-04-01",
+   "b": "Ebu'z-Zeheb'in Ali Bey'i Kahire'den kovması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1773-04-01",
+   "b": "Sâlihiye Muharebesi — Ali Bey'in Ebu'z-Zeheb tarafından bozguna uğratılması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1773-05-08",
+   "b": "Ali Bey el-Kebir'in ölümü",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1775-06-01",
+   "b": "Ebu'z-Zeheb'in Zâhir el-Ömer'e karşı seferde ölümü",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1775-07-01",
+   "b": "Ebu'z-Zeheb sonrası Muhammediyye-Aleviyye fırka mücadelesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1786-01-01",
+   "b": "Cezayirli Gazi Hasan Paşa'nın Mısır'a gönderilmesi — merkezin son ciddi müdahalesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1798-07-01",
+   "b": "Napolyon'un Mısır'ı işgali — Avrupa'nın Osmanlı çekirdek toprağına ilk doğrudan saldırısı",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1798-07-21",
+   "b": "Ehramlar (İmbâbe) Muharebesi — Kölemen süvarisinin dağılması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1798-09-03",
+   "b": "Osmanlı'nın Fransa'ya savaş ilanı — İngiltere ve Rusya ile ittifak",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1799-05-20",
+   "b": "Napolyon'un Akkâ'da durdurulması — Mısır işgalinin en uç noktası",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1801-03-08",
+   "b": "Kavalalı Mehmed Ali Mısır'a çıktı",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1801-10-09",
+   "b": "Mısır'ın Fransızlardan tahliyesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1802-06-25",
+   "b": "Paris Antlaşması — Fransa ile barışın kurulması",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1803-05-01",
+   "b": "Arnavut askerlerinin valiyi devirmesi — üçlü iktidar mücadelesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1805-05-13",
+   "b": "Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1805-07-03",
+   "b": "Bâbıâli'nin Mehmed Ali'ye vezirlik rütbesiyle valilik fermanı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1807-03-17",
+   "b": "İngiliz Fraser seferinin İskenderiye'ye çıkması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1807-04-21",
+   "b": "Reşid bozgunu — İngilizlerin püskürtülmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1811-03-01",
+   "b": "Kal'a Vakası — Kölemen beylerinin tasfiyesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1811-09-03",
+   "b": "Hicaz seferinin başlaması — Tosun Paşa Yenbu'ya çıktı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1812-12-03",
+   "b": "Medine'nin geri alınması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1813-01-23",
+   "b": "Mekke'nin geri alınması — hac yolunun açılması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1813-05-02",
+   "b": "Tâif'in geri alınması — Hicaz seferinin tamamlanışı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1815-01-20",
+   "b": "Bisel Muharebesi — Suûdî kuvvetlerinin bozguna uğraması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1818-09-09",
+   "b": "Dir'iye'nin düşüşü — İlk Suûdî Devleti'nin sonu",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1820-07-20",
+   "b": "Sudan seferinin başlaması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1821-01-04",
+   "b": "Dongola'nın alınması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1821-06-01",
+   "b": "Jumel pamuğunun Mısır tarımına girmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1821-06-14",
+   "b": "Sennâr (Fûnc) Sultanlığı'nın teslimi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1821-08-19",
+   "b": "Kordofan'ın ele geçirilmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1821-11-14",
+   "b": "Bulak Matbaası'nın resmî açılışı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1822-06-28",
+   "b": "Girit'e Mısır kuvvetlerinin çıkması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1822-10-24",
+   "b": "İsmâil Paşa'nın Şendî'de öldürülmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1824-07-19",
+   "b": "II. Mahmud'un Mora için Mehmed Ali'den yardım istemesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1825-02-24",
+   "b": "İbrâhim Paşa'nın Mora'ya çıkması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1825-06-22",
+   "b": "Tripoliçe'nin geri alınması — Mora'nın merkezinin düşüşü",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1826-01-01",
+   "b": "Mehmed Ali'nin Paris'e ilk büyük öğrenci heyetini göndermesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1826-04-22",
+   "b": "Missolonghi'nin düşüşü",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1827-06-01",
+   "b": "Kasrü'l-Aynî Tıp Mektebi'nin kuruluşu",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1827-10-20",
+   "b": "Navarin Baskını — Mısır donanmasının yakılması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1828-01-01",
+   "b": "Vekâyi-i Mısır'ın yayın hayatına başlaması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1828-08-06",
+   "b": "İskenderiye Sözleşmesi — Mısır'ın Mora'dan çekilme kararı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1828-10-05",
+   "b": "Mısır kuvvetlerinin Mora'yı boşaltması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1830-11-01",
+   "b": "Girit'in idaresinin Mehmed Ali'ye bırakılması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1831-10-31",
+   "b": "İbrâhim Paşa'nın Suriye'ye girmesi — Birinci Mısır Meselesi başladı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1831-11-27",
+   "b": "Akkâ kuşatmasının başlaması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1832-05-27",
+   "b": "Akkâ'nın düşmesi — Bâbıâli Mehmed Ali'yi âsi ilan etti",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1832-06-15",
+   "b": "Şam'ın teslim olması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1832-06-25",
+   "b": "Halep'in ele geçirilmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1832-07-08",
+   "b": "Humus Muharebesi — Osmanlı ordusunun bozgunu",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1832-07-29",
+   "b": "Belen Geçidi bozgunu — Çukurova'nın açılması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1832-11-21",
+   "b": "Mısır ordusunun Konya'ya girmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1832-12-21",
+   "b": "Konya Meydan Muharebesi — Osmanlı sadrazamının esir alınması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1833-01-01",
+   "b": "Telhîsu'l-İbrîz'in Bulak'ta basılması — Tahtâvî'nin Paris izlenimleri",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1833-02-02",
+   "b": "Mısır ordusunun Kütahya'ya ulaşması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1833-05-14",
+   "b": "Kütahya Sözleşmesi — Suriye ve Adana Mehmed Ali'ye bırakıldı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1834-01-01",
+   "b": "Mühendishâne'nin kurulması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1834-05-19",
+   "b": "Filistin-Nablus isyanı Mısır idaresine karşı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1835-01-01",
+   "b": "Tercüme okulunun Medresetü'l-elsün'e dönüştürülmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1837-10-15",
+   "b": "Cebel-i Dürûz ayaklanması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1838-05-25",
+   "b": "Mehmed Ali'nin bağımsızlık niyetini bildirmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1839-06-24",
+   "b": "Nizip Muharebesi — İkinci Mısır Meselesi'nin zirvesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1839-07-14",
+   "b": "Osmanlı donanmasının Mısır'a teslimi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1839-07-27",
+   "b": "Büyük devletlerin ortak notası — Mısır Meselesi'nin Avrupalılaşması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1840-07-15",
+   "b": "Londra Antlaşması — Mehmed Ali'ye ültimatom",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1840-09-11",
+   "b": "Beyrut bombardımanı — müttefik çıkarması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1840-10-10",
+   "b": "Beyrut ve sahil şehirlerinin elden çıkması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1840-11-03",
+   "b": "Akkâ'nın iki saatte düşmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1840-11-27",
+   "b": "İskenderiye Konvansiyonu — Mehmed Ali'nin geri adımı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1841-02-25",
+   "b": "Mısır ordusunun Suriye ve Çukurova'yı boşaltması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1841-05-24",
+   "b": "Ferman: Mısır valiliğinin Kavalalı ailesine irsî bırakılması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1841-06-01",
+   "b": "Tahtâvî'nin resmî gazete idaresine getirilmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1848-09-01",
+   "b": "İbrâhim Paşa'nın fiilen Mısır valisi olması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1849-08-02",
+   "b": "Kavalalı Mehmed Ali Paşa'nın ölümü",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1858-06-01",
+   "b": "Antikiteler Servisi'nin kuruluşu — Mısırbilimin kurumsallaşması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1859-04-25",
+   "b": "Süveyş Kanalı kazısının başlaması ve Port Said'in kuruluşu",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1861-06-01",
+   "b": "Amerikan İç Savaşı'nın Mısır pamuğuna talebi patlatması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1863-04-03",
+   "b": "İsmâiliye'nin kuruluşu — Hidiv İsmail'in Süveyş berzahındaki yatırımı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1865-01-01",
+   "b": "Sevâkin, Masavva ve Dahlak'ın Mısır'a bağlanması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1867-06-01",
+   "b": "Hidiv İsmail'in Paris ziyareti ve Kahire'yi yeniden imar kararı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1867-06-08",
+   "b": "Mısır valilerine 'hidiv' unvanının verilmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1869-11-17",
+   "b": "Süveyş Kanalı'nın açılışı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1870-03-23",
+   "b": "Dârü'l-Kütübi'l-Mısriyye'nin kuruluşu",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1871-03-01",
+   "b": "Cemâleddin Efgânî'nin Kahire'ye gelişi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1871-06-01",
+   "b": "Kasrünnîl Köprüsü'nün inşası",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1872-01-01",
+   "b": "Bogos (Kerene) bölgesinin Mısır'a ilhakı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1874-06-01",
+   "b": "İsmail Paşa'nın Ezbekiye'ye taşınması — yeni şehir merkezinin doğuşu",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1874-11-02",
+   "b": "Darfur Sultanlığı'nın Mısır'a ilhakı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1875-08-05",
+   "b": "El-Ahrâm gazetesinin kuruluşu",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1876-01-01",
+   "b": "Düyûn-ı Umûmiyye — Mısır'ın mali iflası ve Avrupa denetimi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1878-06-01",
+   "b": "Muhammed Abduh'un Ezher'de müderrisliğe başlaması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1879-06-26",
+   "b": "İsmail Paşa'nın azli",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1879-08-26",
+   "b": "Cemâleddin Efgânî'nin Mısır'dan sürgün edilmesi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1882-07-11",
+   "b": "İskenderiye'nin bombardımanı — İngiliz işgalinin ilk adımı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1882-09-13",
+   "b": "Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1883-11-05",
+   "b": "Şeykan bozgunu — Sudan'daki Mısır idaresinin çöküşünün başlangıcı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1885-01-26",
+   "b": "Hartum'un düşüşü — Sudan'ın tamamının kaybı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1896-09-23",
+   "b": "Dongola'nın geri alınışı — Sudan'ın yeniden fethinin başlaması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1898-09-02",
+   "b": "Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1899-01-19",
+   "b": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1899-06-01",
+   "b": "Muhammed Abduh'un Mısır Baş Müftülüğü'ne atanması",
+   "kunye": [
+    "misir-kavalali"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1914-12-18",
+   "b": "Mısır'ın İngiliz himayesine alınması — Osmanlı hükümranlığının sonu",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1915-01-14",
+   "b": "Birinci Kanal Harekâtı — Osmanlı'nın Süveyş'e taarruzu",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1500-01-01",
+   "b": "Şeybânî Han Buhara'yı ele geçirdi, Şeybânî devletinin kuruluşu",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1501-01-01",
+   "b": "Semerkant'ın fethi — Bâbür Mirza'nın kovulması",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1507-01-01",
+   "b": "Herat'ın fethi — Horasan Şeybânî hâkimiyetine girdi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1510-12-02",
+   "b": "Şeybânî Han'ın Merv'de yenilip öldürülmesi ⭐ (dunya paylaşılan olay)",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1525-01-01",
+   "b": "Ubeydullah Han Merv'i fethetti",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1529-01-01",
+   "b": "Ubeydullah Han Herat'ı fethetti",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1533-01-01",
+   "b": "Ubeydullah Han bütün Mâverâünnehir Şeybânîlerinin lideri oldu",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1536-01-01",
+   "b": "Mîr-i Arab Medresesi tamamlandı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1538-01-01",
+   "b": "Ubeydullah Han Harzem (Hîve) topraklarını işgal etti",
+   "kunye": [
+    "buhara",
+    "hive"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1539-01-01",
+   "b": "Ubeydullah Han'ın ölümü",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1557-05-01",
+   "b": "II. Abdullah Han Buhara'yı ele geçirip başkent yaptı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1561-05-01",
+   "b": "İskender Han nominal Şeybânî tahtına çıkarıldı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1574-01-01",
+   "b": "Belh'in fethi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1578-01-01",
+   "b": "Semerkant'ın ele geçirilmesi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1582-01-01",
+   "b": "Taşkent ve kuzey Seyhun bölgesinin fethi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1583-06-22",
+   "b": "II. Abdullah Han resmen tahta çıktı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1588-01-01",
+   "b": "Taşkent isyanının bastırılması ve Herat'ın yeniden fethi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1594-01-01",
+   "b": "Osmanlı payitahtına elçi gönderilmesi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1596-01-01",
+   "b": "Harzem'in (Hîve) yeniden fethi",
+   "kunye": [
+    "buhara",
+    "hive"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1598-01-01",
+   "b": "II. Abdullah Han'ın ölümü ve taht kavgaları",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1599-01-01",
+   "b": "Şeybânî hanedanının sonu — Canoğulları (Astrahanlılar) iktidara geldi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1611-01-01",
+   "b": "İmam Kulı Han döneminde hanlık zirveye ulaştı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1636-01-01",
+   "b": "Şîrdâr Medresesi tamamlandı (Semerkant, Registan)",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1660-01-01",
+   "b": "Tillâkârî Medresesi tamamlandı — Registan üçlemesi tamam",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1710-01-01",
+   "b": "Hokand ayrılıp bağımsız hanlık kurdu",
+   "kunye": [
+    "buhara",
+    "hokand"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1740-01-01",
+   "b": "Nâdir Şah'ın istilası — Buhara ve Hîve nominal vassal oldu",
+   "kunye": [
+    "buhara",
+    "hive"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1785-01-01",
+   "b": "Canoğulları hanedanının sonu — Mangıt emirliğinin kuruluşu",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1800-01-01",
+   "b": "Şah Murad'ın ölümü, Emir Haydar'ın tahta çıkışı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1826-01-01",
+   "b": "Nasrullah Han'ın kanlı taht kavgasıyla iktidara gelişi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1842-06-24",
+   "b": "Nasrullah Han, İngiliz subayları Stoddart ve Conolly'yi idam ettirdi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1842-01-01",
+   "b": "Nasrullah Han'ın Hokand'ı geçici olarak ilhakı",
+   "kunye": [
+    "buhara",
+    "hokand"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1860-01-01",
+   "b": "Nasrullah Han'ın ölümü, Muzafferüddin'in tahta çıkışı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1868-06-02",
+   "b": "Buhara Emirliği Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1885-01-01",
+   "b": "Muzafferüddin'in ölümü, Abdülahad Han'ın tahta çıkışı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1900-01-01",
+   "b": "Buhara'da ilk usûl-i cedîd okulları açıldı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1910-01-01",
+   "b": "Abdülahad Han'ın ölümü — son emir Alim Han tahta çıktı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1910-01-01",
+   "b": "Buhara ulemasının Osmanlı'ya yardım çağrısı",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1920-09-02",
+   "b": "Kızıl Ordu Buhara'yı ele geçirdi, emirlik sona erdi",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1512-01-01",
+   "b": "Yadigâroğulları Harzem'i (Hîve) fethetti — hanlığın kuruluşu",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1603-01-01",
+   "b": "Başkentin Ürgenç'ten Hîve'ye taşınması",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1626-01-01",
+   "b": "Ebulgazi'nin iktidar mücadelesinde başarısızlığı",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1629-01-01",
+   "b": "Ebulgazi başkent Hîve'yi geçici olarak ele geçirdi",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1639-01-01",
+   "b": "Ebulgazi'nin on yıllık İran esaretinden kaçışı",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1642-01-01",
+   "b": "Ebulgazi Bahadır Han'ın Gürgenç'te han ilan edilmesi",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1645-01-01",
+   "b": "Ebulgazi tüm Harzem'in hâkimi oldu",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1648-01-01",
+   "b": "Ebulgazi'nin Türkmen ve Kalmuklara karşı seferleri (1648-1656)",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1655-01-01",
+   "b": "Ebulgazi'nin Buhara Özbek Hanlığı'na karşı akınları",
+   "kunye": [
+    "hive",
+    "buhara"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1659-01-01",
+   "b": "Ebulgazi Bahadır Han'ın Şecere-i Terâkime'yi tamamlaması",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1663-01-01",
+   "b": "Ebulgazi Bahadır Han'ın ölümü",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1825-01-01",
+   "b": "Allahkulı Han döneminde hanlığın parlak çağı",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1855-01-01",
+   "b": "Serahs'ta Türkmenlere yenilgi, Muhammed Emin Han'ın ölümü",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1864-01-01",
+   "b": "Seyyid Muhammed Rahim Bahadır Han'ın tahta çıkışı",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1873-08-12",
+   "b": "Hîve Hanlığı Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1873-01-01",
+   "b": "Osmanlı'nın Hîve'ye ittifak girişimi",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1920-02-02",
+   "b": "Son Han Seyyid Abdullah'ın tahttan çekilmesi",
+   "kunye": [
+    "hive"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1920-04-26",
+   "b": "Harezm Halk Cumhuriyeti ilan edildi",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1710-01-01",
+   "b": "Şahruh Bey Hokand'ı kurdu",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1721-01-01",
+   "b": "Şahruh Bey'in ölümü, Abdülkerim'in tahta çıkışı",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1758-01-01",
+   "b": "Erdene Bey döneminde sınırların genişlemesi",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1808-01-01",
+   "b": "Âlim Han, Taşkent'i fethetti",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1812-01-01",
+   "b": "Muhammed Ömer Han'ın Rusya ile diplomatik ilişki başlatması",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1822-01-01",
+   "b": "Muhammed Ali Han'ın tahta çıkışı",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1826-01-01",
+   "b": "Doğu Türkistan'a askerî destek gönderilmesi",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1831-01-01",
+   "b": "Çin (Qing) ile antlaşma — Doğu Türkistan'dan çekiliş",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1840-01-01",
+   "b": "Buhara'ya karşı yenilgi",
+   "kunye": [
+    "hokand",
+    "buhara"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1842-06-01",
+   "b": "Muhammed Ali Han'ın Buhara Emiri tarafından idamı",
+   "kunye": [
+    "hokand",
+    "buhara"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1864-01-01",
+   "b": "Rus ilerleyişi — Evliyaata ve Çimkent'in kaybı",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1865-06-29",
+   "b": "Taşkent'in fethi ⭐ (dunya paylaşılan olay)",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1868-01-01",
+   "b": "Hudayâr Han, Rusya ile antlaşma imzaladı",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1873-01-01",
+   "b": "Hokand'da büyük halk ayaklanması başladı",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1876-02-19",
+   "b": "Hokand Hanlığı ilhak edildi ⭐ (dunya paylaşılan olay)",
+   "kunye": [
+    "hokand"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1569-01-01",
+   "b": "Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
+   "kunye": [],
+   "sinif": "ucuncu_taraf",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1779-01-01",
+   "b": "Buhara'dan Osmanlı'ya ilk büyük elçilik",
+   "kunye": [
+    "buhara"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1281-08-15",
+   "b": "İkinci Moğol istilası \\\"kamikaze\\\" tayfunuyla dağıldı",
+   "kunye": [
+    "kamakura"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1297-01-01",
+   "b": "Kamakura Şogunluğu, samuraylar için borç affı (Tokusei-rei) ilan etti",
+   "kunye": [
+    "kamakura"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1333-07-04",
+   "b": "Kamakura Şogunluğu yıkıldı, İmparator Go-Daigo doğrudan iktidara döndü",
+   "kunye": [
+    "kenmu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1336-11-07",
+   "b": "Ashikaga Takauji, Muromachi Şogunluğu'nu kurdu — Nanboku-chō bölünmesi başladı",
+   "kunye": [
+    "muromachi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1392-11-19",
+   "b": "Nanboku-chō bölünmesi sona erdi, saraylar birleşti",
+   "kunye": [
+    "muromachi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1397-01-01",
+   "b": "Yoshimitsu, Kinkaku-ji'yi (Altın Köşk) inşa ettirdi",
+   "kunye": [
+    "muromachi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1401-01-01",
+   "b": "Yoshimitsu, Ming Çin'iyle mühürlü tabaka (kangō) ticaretini başlattı",
+   "kunye": [
+    "muromachi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1467-05-20",
+   "b": "Ōnin Savaşı başladı — Sengoku (Savaşan Beylikler) dönemi açıldı",
+   "kunye": [
+    "muromachi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1489-01-01",
+   "b": "Yoshimasa, Ginkaku-ji'yi (Gümüş Köşk) inşa ettirdi",
+   "kunye": [
+    "muromachi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1543-08-25",
+   "b": "Portekizliler Tanegaşima'ya ulaşıp ateşli silahı Japonya'ya tanıttı",
+   "kunye": [
+    "muromachi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1549-08-15",
+   "b": "Francis Xavier, Kagoşima'ya ulaşıp Hıristiyan misyonerliğini başlattı",
+   "kunye": [
+    "muromachi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1568-10-18",
+   "b": "Oda Nobunaga Kyoto'ya girdi, birleşme süreci başladı",
+   "kunye": [
+    "muromachi",
+    "azuchi-momoyama"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1571-10-01",
+   "b": "Nobunaga, Enryaku-ji manastırını yakıp yıktı",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1575-06-28",
+   "b": "Nagashino Savaşı: Nobunaga'nın tüfekli piyadesi Takeda süvarisini ezdi",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1582-02-20",
+   "b": "Tenshō Elçilik Heyeti dört genç Hıristiyan samurayı Avrupa'ya gönderdi",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1582-06-21",
+   "b": "Honnō-ji Vakası: Nobunaga suikaste kurban gitti",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1588-08-29",
+   "b": "Hideyoshi \\\"Kılıç Avı\\\" fermanını çıkardı",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1592-05-23",
+   "b": "Hideyoshi Kore'yi işgal etti — Ming müdahale etti (Imjin Savaşı)",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1597-02-05",
+   "b": "Nagazaki'de 26 Hıristiyan çarmıha gerilerek idam edildi",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1598-09-18",
+   "b": "Hideyoshi öldü, Kore'den çekilme başladı",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1600-10-21",
+   "b": "Sekigahara Savaşı: Tokugawa Ieyasu üstünlüğü kesin olarak ele geçirdi",
+   "kunye": [
+    "azuchi-momoyama"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1603-03-24",
+   "b": "Tokugawa Ieyasu, Edo'da şogunluğunu kurdu",
+   "kunye": [
+    "azuchi-momoyama",
+    "edo-bakufu"
+   ],
+   "sinif": "dogru_cokluk",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1614-01-27",
+   "b": "Tokugawa şogunluğu Hıristiyanlığı tamamen yasakladı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "gercek_belirsizlik_icerik",
+   "yontem": "icerik_okuma (2+ aday, tarih ayıramadı)"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1615-06-04",
+   "b": "Osaka Kalesi düştü, Toyotomi hanesi tükendi",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1635-06-21",
+   "b": "Sankin-kōtai (dönüşümlü ikamet) sistemi resmileştirildi",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1637-12-17",
+   "b": "Shimabara İsyanı patlak verdi",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1639-07-05",
+   "b": "\\\"Sakoku\\\" fermanıyla ülke neredeyse tamamen dışa kapatıldı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1641-06-25",
+   "b": "Hollanda ticaret istasyonu Nagazaki'deki Dejima adacığına taşındı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1657-03-02",
+   "b": "Meireki Büyük Yangını Edo'yu kül etti",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1689-05-16",
+   "b": "Matsuo Bashō, \\\"Oku no Hosomichi\\\" yolculuğuna çıktı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1703-03-20",
+   "b": "47 Ronin'in intikamı — Akō Vakası sona erdi",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1720-01-01",
+   "b": "Şogun Yoshimune, Hıristiyanlık dışı Batı kitaplarının ithal yasağını gevşetti",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1774-08-01",
+   "b": "Sugita Genpaku, \\\"Kaitai Şinşo\\\"yu (Yeni Anatomi Kitabı) yayımladı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1782-01-01",
+   "b": "Tenmei Kıtlığı başladı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1798-01-01",
+   "b": "Motoori Norinaga, \\\"Kojiki-den\\\"i tamamladı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1831-01-01",
+   "b": "Katsushika Hokusai, \\\"Fuji Dağı'nın Otuz Altı Manzarası\\\" serisini yayımladı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1837-06-01",
+   "b": "Ōşio Heihaçirō, Osaka'da ayaklandı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1853-07-08",
+   "b": "Komodor Perry'nin \\\"Kara Gemileri\\\" Uraga'ya demirledi",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1858-07-29",
+   "b": "ABD ile \\\"eşitsiz\\\" Ansei Ticaret Antlaşması imzalandı",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1860-03-24",
+   "b": "Şogunluk baş danışmanı Ii Naosuke suikaste kurban gitti",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1866-03-07",
+   "b": "Satsuma-Chōshū İttifakı gizlice kuruldu",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1867-11-09",
+   "b": "Şogun Yoshinobu iktidarı imparatora iade etti (Taisei Hōkan)",
+   "kunye": [
+    "edo-bakufu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1868-01-03",
+   "b": "Meiji Restorasyonu ilan edildi, şogunluk kaldırıldı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1868-04-06",
+   "b": "Beş Maddelik Yemin (Charter Oath) ilan edildi",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1872-08-03",
+   "b": "Gakusei (Eğitim Sistemi) fermanıyla zorunlu ilköğretim getirildi",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1872-10-04",
+   "b": "Tomioka İpek Fabrikası açıldı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1885-03-16",
+   "b": "Fukuzawa Yukichi, \\\"Datsu-A Ron\\\" (Asya'dan Çıkış) makalesini yayımladı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1889-02-05",
+   "b": "Tokyo Sanat Okulu (bugünkü Tokyo Sanat Üniversitesi) kuruldu",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1890-12-01",
+   "b": "Kitasato Şibasaburō, Tokyo'da kendi Bulaşıcı Hastalıklar Enstitüsü'nü kurdu",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1871-08-29",
+   "b": "Han sistemi kaldırılıp vilayetler (ken) kuruldu",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1871-12-23",
+   "b": "Iwakura Heyeti, Batı'yı incelemek üzere yola çıktı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1872-10-14",
+   "b": "Japonya'nın ilk demiryolu (Tokyo-Yokohama) açıldı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1873-01-10",
+   "b": "Askerlik yasası ile evrensel zorunlu askerlik getirildi",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1877-02-15",
+   "b": "Satsuma İsyanı: Saigō Takamori son samuray direnişini başlattı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1877-04-12",
+   "b": "Tokyo İmparatorluk Üniversitesi kuruldu",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1889-02-11",
+   "b": "Meiji Anayasası kabul edildi",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1890-09-16",
+   "b": "Ertuğrul Fırkateyni Kuşimoto açıklarında battı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1892-01-01",
+   "b": "Yamada Torajirō, Ertuğrul yardım bağışlarını İstanbul'a götürdü",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1894-07-25",
+   "b": "Birinci Çin-Japon Savaşı başladı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1895-04-17",
+   "b": "Şimonoseki Antlaşması imzalandı — Tayvan Japonya'ya geçti",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1902-01-30",
+   "b": "İngiliz-Japon İttifakı imzalandı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1904-02-08",
+   "b": "Rus-Japon Savaşı başladı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1905-05-27",
+   "b": "Tsushima Deniz Muharebesi: Rus Baltık Filosu yok edildi",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1905-09-05",
+   "b": "Portsmouth Antlaşması Rus-Japon Savaşı'nı sona erdirdi",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1910-08-29",
+   "b": "Japonya Kore'yi ilhak etti",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1911-02-21",
+   "b": "ABD ile yeni antlaşmayla gümrük özerkliği geri kazanıldı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1912-07-30",
+   "b": "Meiji İmparatoru öldü, Taishō dönemi başladı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1914-08-23",
+   "b": "Japonya, İtilaf Devletleri yanında I. Dünya Savaşı'na girdi",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1918-08-03",
+   "b": "Pirinç Ayaklanmaları ülke çapına yayıldı",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1919-01-18",
+   "b": "Japonya, Paris Barış Konferansı'nda ırksal eşitlik önergesini sundu — reddedildi",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1923-09-01",
+   "b": "Büyük Kantō Depremi Tokyo ve Yokohama'yı yerle bir etti",
+   "kunye": [
+    "meiji-japonya"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1217-01-01",
+   "b": "Sırbistan Krallığı ilan edildi (Stefan İlk-Taçlı)",
+   "kunye": [
+    "sirbistan-nemanjic"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1331-01-01",
+   "b": "Stefan Duşan tahta çıktı",
+   "kunye": [
+    "sirbistan-nemanjic"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1346-04-16",
+   "b": "Duşan imparatorluk tacı giydi (Üsküp meclisi)",
+   "kunye": [
+    "sirbistan-nemanjic"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1355-12-20",
+   "b": "Duşan'ın ani ölümü, imparatorluğun parçalanması başladı",
+   "kunye": [
+    "sirbistan-nemanjic"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1371-09-26",
+   "b": "Çirmen (Meriç) Savaşı — ağır yenilgi",
+   "kunye": [
+    "sirbistan-nemanjic"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1389-06-15",
+   "b": "I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi",
+   "kunye": [
+    "sirbistan-nemanjic"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1402-01-01",
+   "b": "Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)",
+   "kunye": [
+    "sirp-despotlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1427-01-01",
+   "b": "Đurađ Branković despot oldu, başkent Semendire'ye taşındı",
+   "kunye": [
+    "sirp-despotlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1439-08-18",
+   "b": "Semendire'nin ilk düşüşü",
+   "kunye": [
+    "sirp-despotlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1444-08-15",
+   "b": "Edirne-Segedin Antlaşması ile Semendire ve despotluk toprakları iade edildi",
+   "kunye": [
+    "sirp-despotlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1448-10-17",
+   "b": "II. Kosova Savaşı — despotluğun tarafsızlığı",
+   "kunye": [
+    "sirp-despotlugu"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1459-06-20",
+   "b": "Semendire'nin düşüşü — Sırp Despotluğu'nun sonu",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1463-01-01",
+   "b": "Peç (İpek) Patrikliği kaldırıldı",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1557-01-01",
+   "b": "Peç Patrikliği ihya edildi (Sokollu Mehmed Paşa)",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1690-01-01",
+   "b": "Büyük Sırp Göçü (Arsenije III Crnojević)",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1739-09-18",
+   "b": "Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1766-01-01",
+   "b": "Peç Patrikliği kalıcı olarak kaldırıldı",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1804-02-14",
+   "b": "Birinci Sırp Ayaklanması başladı (Kara Yorgi)",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1806-01-01",
+   "b": "Belgrad'ın Sırp isyancılarca ele geçirilmesi",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1813-01-01",
+   "b": "Ayaklanmanın bastırılması, Belgrad'ın geri alınışı",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1815-04-23",
+   "b": "İkinci Sırp Ayaklanması (Miloš Obrenović)",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1826-10-07",
+   "b": "Akkerman Sözleşmesi — Sırp haklarının genişletilmesi garanti edildi",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1829-09-14",
+   "b": "Edirne Antlaşması — Osmanlı-Rus savaşının sonu, Sırp özerkliğinin yolu açıldı",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1830-10-17",
+   "b": "Özerklik fermanı (Hatt-ı Şerif) yayımlandı",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1867-01-01",
+   "b": "Osmanlı garnizonları Sırp kalelerinden çekildi",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1876-06-30",
+   "b": "Sırbistan Osmanlı Devleti'ne savaş ilan etti",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1878-03-03",
+   "b": "Ayastefanos (San Stefano) Antlaşması — bağımsızlık ilk kez tanındı",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1878-07-13",
+   "b": "Berlin Antlaşması — bağımsızlık kesinleşti, Niş ve Pirot katıldı",
+   "kunye": [
+    "sirbistan-prensligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1882-03-06",
+   "b": "Sırbistan Krallığı ilan edildi (I. Milan)",
+   "kunye": [
+    "sirbistan-kralligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1885-11-14",
+   "b": "Sırp-Bulgar Savaşı başladı",
+   "kunye": [
+    "sirbistan-kralligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1903-06-11",
+   "b": "Mayıs Darbesi — Obrenović hanedanının sonu, Karađorđević'e geçiş",
+   "kunye": [
+    "sirbistan-kralligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1908-10-06",
+   "b": "Bosna-Hersek'in ilhakı — Sırbistan'ın savaş tehdidi",
+   "kunye": [
+    "sirbistan-kralligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1912-10-08",
+   "b": "Birinci Balkan Savaşı'na giriş — Kosova ve Vardar Makedonyası alındı",
+   "kunye": [
+    "sirbistan-kralligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1913-08-10",
+   "b": "Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti",
+   "kunye": [
+    "sirbistan-kralligi"
+   ],
+   "sinif": "mekanik",
+   "yontem": "tarih_penceresi_tekil"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1918-12-01",
+   "b": "Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşme",
+   "kunye": [],
+   "sinif": "kunye_yok",
+   "yontem": "tarih_penceresi_bos"
+  }
+ ],
+ "d140_sinav": {
+  "cin": {
+   "aday_sayisi": 9,
+   "iki_artı_toplam": 19,
+   "orani_yuzde": 63.2
+  },
+  "hindistan": {
+   "aday_sayisi": 4,
+   "iki_artı_toplam": 29,
+   "orani_yuzde": 41.4
+  },
+  "misir": {
+   "aday_sayisi": 2,
+   "iki_artı_toplam": 0,
+   "orani_yuzde": null
+  },
+  "ozbek": {
+   "aday_sayisi": 3,
+   "iki_artı_toplam": 67,
+   "orani_yuzde": 86.6
+  },
+  "japonya": {
+   "aday_sayisi": 6,
+   "iki_artı_toplam": 4,
+   "orani_yuzde": 50.0
+  },
+  "sirbistan": {
+   "aday_sayisi": 4,
+   "iki_artı_toplam": 0,
+   "orani_yuzde": null
+  }
+ },
+ "pozitif_kontrol": [
+  {
+   "aile": "cin",
+   "tarih": "1281-06-23",
+   "beklenen": "yuan-hanedani",
+   "bulunan": "yuan-hanedani",
+   "aciklama": "Kubilay Han'ın Yuan hanedanı, tarih penceresi TEK aday"
+  },
+  {
+   "aile": "hindistan",
+   "tarih": "1206-01-01",
+   "beklenen": null,
+   "bulunan": null,
+   "aciklama": "Delhi Sultanlığı kuruluş öncesi — atlas 1281 ufkunda YOK, kontrol dışı"
+  },
+  {
+   "aile": "japonya",
+   "tarih": "1281-08-15",
+   "beklenen": "kamakura",
+   "bulunan": "kamakura",
+   "aciklama": "1281 tayfun günü (İkinci Moğol istilası) Kamakura şogunluğu döneminde, TEK aday"
+  },
+  {
+   "aile": "cin",
+   "tarih": "1911-10-10",
+   "beklenen": [
+    "qing-hanedani",
+    "cin-cumhuriyeti"
+   ],
+   "bulunan": [
+    "qing-hanedani",
+    "cin-cumhuriyeti"
+   ],
+   "aciklama": "Xinhai Devrimi — dış kaynakla doğrulanabilir çift-künye vakası"
+  }
+ ],
+ "ucuncu_taraf": [
+  {
+   "dosya": "hindistan",
+   "tarih": "1761-01-14",
+   "b": "Üçüncü Pânipat Savaşı: Ahmed Şah Dürrânî Marathaları bozguna uğrattı",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1786-01-01",
+   "b": "Tîpû Sultan, Osmanlı Sultanı I. Abdülhamid'e ittifak için elçi gönderdi",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1554-01-01",
+   "b": "Erguniler yıkılıp Sind'de Tarhan hanedanı kuruldu",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "sur-hanedani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1761-01-14",
+   "b": "Marathalar Üçüncü Pânipat'ta ağır yenilgi aldı",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1799-07-07",
+   "b": "Rançit Singh Lahor'u ele geçirdi",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1801-04-12",
+   "b": "Rançit Singh, Mahâracâ unvanıyla taç giydi",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1830-01-01",
+   "b": "Rançit Singh, Altın Tapınak'ı altın kaplattı",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1839-06-27",
+   "b": "Rançit Singh öldü",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1761-01-01",
+   "b": "Haydar Ali, Meysûr'da fiilî iktidarı ele geçirdi",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1782-12-07",
+   "b": "Haydar Ali öldü, yerine oğlu Tîpû Sultan geçti",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1780-01-01",
+   "b": "Tîpû Sultan'ın ordusunda roket topçuluğu (Mysore roketleri) geliştirildi",
+   "adaylar": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1569-01-01",
+   "b": "Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
+   "adaylar": [
+    "buhara",
+    "hive"
+   ]
+  }
+ ],
+ "dogru_cokluk": [
+  {
+   "dosya": "cin",
+   "tarih": "1368-01-23",
+   "b": "Zhu Yuanzhang, Hongwu unvanıyla imparator ilan edildi",
+   "kunye": [
+    "yuan-hanedani",
+    "ming-hanedani"
+   ]
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1644-04-25",
+   "b": "Li Zicheng Pekin'i aldı, son Ming imparatoru intihar etti",
+   "kunye": [
+    "dashun",
+    "guney-ming"
+   ]
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1644-06-06",
+   "b": "Qing orduları Pekin'i aldı, Dorgon nâip oldu",
+   "kunye": [
+    "qing-hanedani",
+    "dashun"
+   ]
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1645-06-08",
+   "b": "Nanjing düştü — Güney Ming direnişi güneye çekildi",
+   "kunye": [
+    "qing-hanedani",
+    "guney-ming"
+   ]
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1851-01-11",
+   "b": "Hong Xiuquan, Taiping İsyanı'nı ilan etti",
+   "kunye": [
+    "qing-hanedani",
+    "taiping"
+   ]
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1853-03-19",
+   "b": "Taiping, Nanjing'i alıp \\\"Tianjing\\\" başkenti ilan etti",
+   "kunye": [
+    "qing-hanedani",
+    "taiping"
+   ]
+  },
+  {
+   "dosya": "cin",
+   "tarih": "1911-10-10",
+   "b": "Wuchang Ayaklanması — Xinhai Devrimi başladı",
+   "kunye": [
+    "qing-hanedani",
+    "cin-cumhuriyeti"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1540-05-17",
+   "b": "Kannauc Savaşı: Şîr Şah Sûrî Hindistan'a hâkim oldu, Hümâyun sürgüne gitti",
+   "kunye": [
+    "babur-imparatorlugu",
+    "sur-hanedani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1555-07-23",
+   "b": "Hümâyun, Safevî desteğiyle Delhi'yi geri aldı",
+   "kunye": [
+    "babur-imparatorlugu",
+    "sur-hanedani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1556-11-05",
+   "b": "İkinci Pânipat Savaşı: Bayram Han, Hemu'yu yenip Delhi'yi kurtardı",
+   "kunye": [
+    "babur-imparatorlugu",
+    "sur-hanedani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1757-06-23",
+   "b": "Plasi Savaşı: İngiliz Doğu Hindistan Şirketi Bengal'e hâkim oldu",
+   "kunye": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1764-10-23",
+   "b": "Buksar Savaşı: İngilizler, Bâbürlü-Avad-Bengal ittifakını yendi",
+   "kunye": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "hindistan",
+   "tarih": "1765-08-12",
+   "b": "Allahâbâd Antlaşması: Şirket, Bengal-Bihar-Orissa'nın vergi toplama hakkını (Divânî) aldı",
+   "kunye": [
+    "babur-imparatorlugu",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1538-01-01",
+   "b": "Ubeydullah Han Harzem (Hîve) topraklarını işgal etti",
+   "kunye": [
+    "buhara",
+    "hive"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1596-01-01",
+   "b": "Harzem'in (Hîve) yeniden fethi",
+   "kunye": [
+    "buhara",
+    "hive"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1710-01-01",
+   "b": "Hokand ayrılıp bağımsız hanlık kurdu",
+   "kunye": [
+    "buhara",
+    "hokand"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1740-01-01",
+   "b": "Nâdir Şah'ın istilası — Buhara ve Hîve nominal vassal oldu",
+   "kunye": [
+    "buhara",
+    "hive"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1842-01-01",
+   "b": "Nasrullah Han'ın Hokand'ı geçici olarak ilhakı",
+   "kunye": [
+    "buhara",
+    "hokand"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1655-01-01",
+   "b": "Ebulgazi'nin Buhara Özbek Hanlığı'na karşı akınları",
+   "kunye": [
+    "hive",
+    "buhara"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1840-01-01",
+   "b": "Buhara'ya karşı yenilgi",
+   "kunye": [
+    "hokand",
+    "buhara"
+   ]
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1842-06-01",
+   "b": "Muhammed Ali Han'ın Buhara Emiri tarafından idamı",
+   "kunye": [
+    "hokand",
+    "buhara"
+   ]
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1568-10-18",
+   "b": "Oda Nobunaga Kyoto'ya girdi, birleşme süreci başladı",
+   "kunye": [
+    "muromachi",
+    "azuchi-momoyama"
+   ]
+  },
+  {
+   "dosya": "japonya",
+   "tarih": "1603-03-24",
+   "b": "Tokugawa Ieyasu, Edo'da şogunluğunu kurdu",
+   "kunye": [
+    "azuchi-momoyama",
+    "edo-bakufu"
+   ]
+  }
+ ],
+ "kunye_yok": [
+  {
+   "dosya": "misir",
+   "tarih": "1517-05-19",
+   "b": "İskenderiye'nin teslimi — Mısır fethinin tamamlanması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1517-07-06",
+   "b": "Hicaz'ın Kahire üzerinden savaşsız katılışı"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1524-01-01",
+   "b": "Hâin Ahmed Paşa'nın kendini sultan ilan etmesi ve isyanının bastırılması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1525-01-01",
+   "b": "İbrahim Paşa Kanunnâmesi — Mısır'ın ikili idare çerçevesinin kurulması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1711-01-01",
+   "b": "Büyük Fitne — Kāsımiyye-Zülfikāriyye çatışması ve beylerbeyinin azli"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1723-01-01",
+   "b": "Kāsımiyye fırkasından Çerkez Mehmed'in şeyhülbeledliğe gelmesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1729-01-01",
+   "b": "Çerkez Mehmed'in ölümü — Kazdağlı hizbinin yükselişinin başlaması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1760-01-01",
+   "b": "Kazdağlıların Bulutkapan Ali Bey'i şeyhülbeledliğe ataması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1768-01-01",
+   "b": "Ali Bey'in Ebu'z-Zeheb aracılığıyla rakiplerini tasfiyesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1769-06-01",
+   "b": "Ali Bey'in Osmanlı'ya bağlılığı fiilen reddetmesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1770-11-01",
+   "b": "Ali Bey'in Zâhir el-Ömer ile ittifak kurup Suriye seferini başlatması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1771-06-01",
+   "b": "Şam'ın Ali Bey/Ebu'z-Zeheb kuvvetlerince ele geçirilmesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1771-06-11",
+   "b": "Ebu'z-Zeheb'in ihaneti — Şam'dan Mısır'a ani dönüşü"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1772-04-01",
+   "b": "Ebu'z-Zeheb'in Ali Bey'i Kahire'den kovması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1773-04-01",
+   "b": "Sâlihiye Muharebesi — Ali Bey'in Ebu'z-Zeheb tarafından bozguna uğratılması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1773-05-08",
+   "b": "Ali Bey el-Kebir'in ölümü"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1775-06-01",
+   "b": "Ebu'z-Zeheb'in Zâhir el-Ömer'e karşı seferde ölümü"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1775-07-01",
+   "b": "Ebu'z-Zeheb sonrası Muhammediyye-Aleviyye fırka mücadelesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1786-01-01",
+   "b": "Cezayirli Gazi Hasan Paşa'nın Mısır'a gönderilmesi — merkezin son ciddi müdahalesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1798-07-01",
+   "b": "Napolyon'un Mısır'ı işgali — Avrupa'nın Osmanlı çekirdek toprağına ilk doğrudan saldırısı"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1798-07-21",
+   "b": "Ehramlar (İmbâbe) Muharebesi — Kölemen süvarisinin dağılması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1798-09-03",
+   "b": "Osmanlı'nın Fransa'ya savaş ilanı — İngiltere ve Rusya ile ittifak"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1799-05-20",
+   "b": "Napolyon'un Akkâ'da durdurulması — Mısır işgalinin en uç noktası"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1801-03-08",
+   "b": "Kavalalı Mehmed Ali Mısır'a çıktı"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1801-10-09",
+   "b": "Mısır'ın Fransızlardan tahliyesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1802-06-25",
+   "b": "Paris Antlaşması — Fransa ile barışın kurulması"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1803-05-01",
+   "b": "Arnavut askerlerinin valiyi devirmesi — üçlü iktidar mücadelesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1805-05-13",
+   "b": "Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1914-12-18",
+   "b": "Mısır'ın İngiliz himayesine alınması — Osmanlı hükümranlığının sonu"
+  },
+  {
+   "dosya": "misir",
+   "tarih": "1915-01-14",
+   "b": "Birinci Kanal Harekâtı — Osmanlı'nın Süveyş'e taarruzu"
+  },
+  {
+   "dosya": "ozbek",
+   "tarih": "1920-09-02",
+   "b": "Kızıl Ordu Buhara'yı ele geçirdi, emirlik sona erdi"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1459-06-20",
+   "b": "Semendire'nin düşüşü — Sırp Despotluğu'nun sonu"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1463-01-01",
+   "b": "Peç (İpek) Patrikliği kaldırıldı"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1557-01-01",
+   "b": "Peç Patrikliği ihya edildi (Sokollu Mehmed Paşa)"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1690-01-01",
+   "b": "Büyük Sırp Göçü (Arsenije III Crnojević)"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1739-09-18",
+   "b": "Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1766-01-01",
+   "b": "Peç Patrikliği kalıcı olarak kaldırıldı"
+  },
+  {
+   "dosya": "sirbistan",
+   "tarih": "1918-12-01",
+   "b": "Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşme"
+  }
+ ]
+}
