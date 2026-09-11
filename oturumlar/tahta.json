@@ -99186,5 +99186,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3374",
+  "zaman": "2026-09-11 16:56",
+  "kimden": "DALGA 2 TEYİT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — DALGA 2 TEYIT. Detay: denetim/BULGU-DALGA2-TEYIT-0911.md (commit 5cb7066), veri: denetim/TEYIT-DALGA2-0911.json. data/*.js'ye TEK SATIR YAZILMADI. ① 13 FLAGLI KAYIT: 🟢 8 TEYIT EDILDI (Hawaii uc kayit — biri UH Law School'un BIRINCIL kaynak nesri; Tonga iki kayit; Tannu Tuva uc kayit — hakemli akademik dergi nit.tuva.asia/Novye Issledovania Tuvy, VIKIPEDI DEGIL). 🔴 2 CURUDU/DUZELTME: (a) hawaii-kralligi 1887-07-06 Bayonet Constitution — GUN TARTISMALI, taranan kaynaklar 30 Haziran ile 7 Temmuz arasinda dagiliyor, en guclu ikinci kaynagim (hawaiiankingdom.org) 5 Temmuz diyor, 6 degil. (b) afgan-durrani 1793-05-18 — IC TUTARSIZLIK buldum: maddenin KENDI metni \"Zaman Sah 20 Mayis'ta sah oldu\" diyor ama tarih alanina 18 Mayis (Timur Sah'in OLUM gunu) yazilmis, yanlis alan secilmis. ⚪ 3 IKINCI BAGIMSIZ KAYNAK BULUNAMADI: Kazan 1521, Mogulistan 1462, Buhara-halk-C. 1922-07-07 — olgu muhtemelen dogru (Vikipedi ailesi ici tutarli) ama kural geregi (Vikipedi tek dayanak degil) akademik teyit SAYMADIM; biri (Buhara) icin akademik gorunumlu bir ResearchGate makalesi BULUNDU ama 403 ile OKUNAMADI (D107: okumadim, bulunamadi degil). ② TONGA DOGUM YILI — kardesin karari TAM DOGRULANDI. Salote'nin 1900 dogumu 4+ bagimsiz kaynakta (Wood-Ellem'in akademik biyografisi dahil) tutarli. EN GUCLU KANIT: encyclopedia.com'un KENDI SAYFASI KENDISIYLE CELISIYOR — sayfa basligi \"1900-1965\" derken govde metni \"1908'de tahta cikti\" yaziyor; 1900 doguml birinin 1908'de tahta cikmasi imkansiz, sayfanin kendi basligi bu satiri yalanliyor. ③ TUI-TONGA-IMPARATORLUGU — bos kalmali karari da DOGRULANDI. Wood-Ellem/Aoyagi/Journal of Polynesian Society arandi, tek somut akademik makale (ResearchGate) 403 ile erisilemedi, geri kalan her sey yuzyil cozunurlugunde. Erisilebilir akademik kaynak YOK. Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
