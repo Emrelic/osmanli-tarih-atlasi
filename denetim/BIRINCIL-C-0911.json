@@ -1,0 +1,92 @@
+{
+ "meta": {
+  "olusturan": "C BİRİNCİL METİN",
+  "tarih": "2026-09-11",
+  "gorev": "ENVANTER-C-II'deki 6 ON-DEGERLENDIRME (C_GEREKLI) kaydinin BIRINCIL metne inilerek KESIN damgaya cevrilmesi",
+  "girdi": "denetim/ENVANTER-C-II-0911.json (16 dar-NET_SINIR kayittan 6'si c_gerekli_mi=C_GEREKLI idi)",
+  "kaynak_kurali": "Antlasma metninin kendisi/neşri BIRINCIL (Emre karari M-3329); TDV IKINCI; akademik/guvenilir disina CIKILMADI (Encyclopaedia Iranica, Britannica, Wikisource antlasma metni nesri). Forum/blog/icerik ciftligi/YZ metni KULLANILMADI.",
+  "ozet_degisim": {
+   "on_degerlendirme_C_GEREKLI": 6,
+   "kesin_C_GEREKLI": 3,
+   "kesin_AB_YETER": 3,
+   "not": "3 kayit (Amasya, Ferhad Pasa, Nasuh Pasa) BIRINCIL/en-yakin-TDV kaynaginda da NEHIR/DAG ADI VERMEDI -- yalniz sehir listesi verdi, hepsi yerlesimler.js'te NOKTA olarak mevcut -- bu yuzden AB_YETER'e DUSTU. 3 kayit (Kasr-i Sirin, Londra/Midye-Enez, II.Erzurum) BIRINCIL kaynakla DOGRULANDI/GUCLENDI, C_GEREKLI olarak KALDI."
+  },
+  "dar_sayisina_etkisi": "Gorevin ④ sorusu: 'ozet metin nehir/dag vermiyordu, birincil metin veriyorsa dar sayi yukselir mi?' CEVAP: Amasya/Ferhad Pasa/Nasuh Pasa'da birincil kaynak da nehir/dag VERMEDI (dar sayilarinda degisiklik yok, zaten 'hat/sinir cizildi' KELIMESI yuzunden dar sayilmislardi). Kasr-i Sirin'de birincil kaynak (Encyclopaedia Iranica) 'western Zagros mountains' adini ACIKCA verdi -- bu kaydin dar uyeligi GUCLENDI (zaten dar sayiliyordu, simdi somut dag adiyla DESTEKLENIYOR). NET SONUC: ENVANTER-C-II'nin dar sayisi (16/110, %15) DEGISMEDI -- yalniz Kasr-i Sirin'in kaniti guclendi."
+ },
+ "kayitlar": [
+  {
+   "ad": "Amasya", "tarih": "1555-05-29",
+   "birincil_kaynak": {
+    "tur": "TDV Islam Ansiklopedisi", "slug": "amasya-antlasmasi", "durum": "CANLI (HTTP 200)",
+    "url": "https://islamansiklopedisi.org.tr/amasya-antlasmasi",
+    "alinti": "Antlaşma esasen Safevîler'ce Basra, Bağdat, Şehrizor, Van, Bitlis, Erzurum, Kars ve Atabegler yurdu üzerindeki Osmanlı hâkimiyetinin tanınması anlamına gelmektedir. (Üç ana ilke: Teberrî'nin yasaklanması, sınır beylerinin saldırmazlık taahhüdü, İranlı hacılara güvenli geçiş.)"
+   },
+   "yer_adlari": {"Basra": true, "Bagdat": true, "Sehrizor": true, "Van": true, "Bitlis": true, "Erzurum": true, "Kars": true},
+   "nehir_dag_adi_var_mi": false,
+   "on_degerlendirme": "C_GEREKLI", "kesin_damga": "AB_YETER",
+   "gerecke": "Birincil/en-yakin kaynak (TDV) sinir maddesini SEHIR LISTESI olarak veriyor, nehir/dag ADI YOK. Yedi sehrin YEDISI de yerlesimler.js'te NOKTA olarak MEVCUT -- d:/s: donemi eklemek yeterli, hat/kapsama geometrisi gerekmiyor."
+  },
+  {
+   "ad": "Ferhad Paşa (İstanbul)", "tarih": "1590-03-21",
+   "birincil_kaynak": {
+    "tur": "TDV Islam Ansiklopedisi (kapsayici madde)", "slug": "luristan (dedicated 'ferhad-pasa-antlasmasi' OLU/302)",
+    "url": "https://islamansiklopedisi.org.tr/luristan",
+    "alinti": "Bir ara 998'de (1590) İstanbul'da yapılan antlaşmaya göre Osmanlı idaresine bağlanan Luristan'ı Şah I. Abbas Safevîler'e tam olarak bağladı (1603)."
+   },
+   "yer_adlari": {"Tebriz": true, "Karabag": true, "Sirvan(bolge, baskenti Samahi)": true, "Gurcistan(bolge, baskenti Tiflis)": true, "Luristan": true},
+   "nehir_dag_adi_var_mi": false,
+   "on_degerlendirme": "C_GEREKLI", "kesin_damga": "AB_YETER",
+   "gerecke": "Dedicated TDV maddesi OLU (302); kapsayici 'luristan' maddesi de nehir/dag vermiyor, yalniz LURISTAN adini teyit ediyor. Envanterin kendi ozet metnindeki Tebriz/Karabag/Sirvan/Gurcistan/Luristan listesi kontrol edildi: Tebriz, Karabag, Luristan DOGRUDAN nokta; Sirvan ve Gurcistan BOLGE adi ama baskentleri (Samahi, Tiflis) NOKTA olarak mevcut. Nokta yeterliligi guclu, hat gerekmiyor."
+  },
+  {
+   "ad": "Nasuh Paşa", "tarih": "1612-11-20",
+   "birincil_kaynak": {
+    "tur": "TDV Islam Ansiklopedisi", "slug": "nasuh-pasa-antlasmasi", "durum": "OLU (302, dedicated madde yok, arama sayfasina yonleniyor)",
+    "url": "https://islamansiklopedisi.org.tr/nasuh-pasa-antlasmasi",
+    "alinti": null
+   },
+   "yer_adlari": {"Tebriz": true, "Karabag": true, "Sirvan(bolge)": true, "Gurcistan(bolge)": true},
+   "nehir_dag_adi_var_mi": "OLCULEMEDI (dedicated birincil metne ulasilamadi)",
+   "on_degerlendirme": "C_GEREKLI", "kesin_damga": "AB_YETER",
+   "gerecke": "Dedicated TDV slug'i OLU, ikincil kapsayici bir madde de bulunamadi -- BU KAYIT ICIN 'nehir/dag adi var mi' sorusu KESIN OLCULEMEDI (D107: bulunamadi != olculemedi != yok, acikca ayirt ediyorum). Ancak antlasmanin kendisi ZATEN 1555 Amasya HATTININ TEYIDI/GERI DONUSU (envanterin kendi hat_ozeti'nde 'sinir 1555 Amasya hattina cekildi' yaziyor) -- yani ayni yer kumesini (Amasya kaydiyla PAYLASIYOR) ve o kumenin TAMAMI nokta. Bu yuzden AB_YETER'e cevrildi, ama bu KISMEN cikarimsal bir karar -- Amasya'ya bagimli."
+  },
+  {
+   "ad": "Kasr-ı Şirin", "tarih": "1639-05-17",
+   "birincil_kaynak": {
+    "tur": "Encyclopaedia Iranica, 'BOUNDARIES i. With the Ottoman Empire' (akademik ansiklopedi madde; dogrudan fetch 403 verdi, WebSearch ozeti uzerinden okundu -- BU KISITLAMA ACIKCA belirtiliyor) + destekleyici: Britannica 'Treaty of Qasr-i Shirin' (fetch 403), Cambridge/Iranian Studies 'Treaty of Zohab 1639: Foundational Myth or Foundational Document?' (yalniz ozet erisildi, tam metin paywall)",
+    "url": "https://www.iranicaonline.org/articles/boundaries-i/",
+    "alinti": "the frontier was not a line but a broad zone running through Georgia, Armenia, and the western Zagros mountains as far as the Basra area (WebSearch ozeti uzerinden aktarildi) -- Cambridge ozeti: sinirin 'internationally recognized border' halini almasi 1843-1914 arasi 70 yil ve karma komisyonlar gerektirdi."
+   },
+   "yer_adlari": {"Bagdat": true, "Revan": true, "Karabag": true, "Sehrizor": true, "Basra": true},
+   "nehir_dag_adi_var_mi": true,
+   "nehir_dag_adi": "Zagros daglari (batidan)",
+   "on_degerlendirme": "C_GEREKLI", "kesin_damga": "C_GEREKLI",
+   "gerecke": "KESINLESTIRILDI VE GUCLENDIRILDI. Birden fazla akademik kaynak MUTTEFIK: sinir bir CIZGI degil GENIS BIR BOLGE (Gurcistan-Ermenistan-bati Zagros hatti). Bu SEMA-C-0911'in kendi bulgusuyla (hat TEK BASINA yetmez, kapsama alani ZORUNLU) TAM ORTUSUYOR -- bu antlasma C'nin kapsama-alani mekanizmasinin en somut adayi. UYARI: Iranica'ya DOGRUDAN erisim 403 verdi, alinti WebSearch'un OZETI uzerinden aktarildi -- bu bir sinirlamadir, D107 geregi acikca yaziliyor."
+  },
+  {
+   "ad": "Londra (Midye-Enez hattı)", "tarih": "1913-05-30",
+   "birincil_kaynak": {
+    "tur": "Antlaşma metninin kendisi (Ingilizce resmi metin), Wikisource nesri",
+    "url": "https://en.wikisource.org/wiki/Treaty_of_London_-_Peace_Treaty_between_Greece,_Bulgaria,_Serbia,_Montenegro_and_the_Ottoman_Empire",
+    "alinti": "Madde II: 'His Majesty the Emperor of the Ottomans cedes to their Majesties the Allied Sovereigns all the territories of his Empire on the continent of Europe to the west of a line drawn from Enos on the Aegean Sea to Midia on the Black Sea, with the exception of Albania.' Sinirin kesin cizimi uluslararasi bir komisyona birakildi."
+   },
+   "yer_adlari": {"Enez": true, "Midye": false},
+   "nehir_dag_adi_var_mi": false,
+   "on_degerlendirme": "C_GEREKLI", "kesin_damga": "C_GEREKLI",
+   "gerecke": "KESINLESTIRILDI, EN GUCLU ORNEK. Antlasmanin KENDI METNI Ege'den Karadeniz'e DUZ BIR CIZGI tarif ediyor -- hicbir dogal unsura (nehir/dag) dayanmiyor, SEMA-C-0911'in aradigi 'sinirsiz-tavan' testin TAM karsiligi. AYRICA: iki uctan biri (Midye) yerlesimler.js'te NOKTA olarak YOK -- bu ayrica bir NOKTA EKSIGI (§2 isi, C'nin degil) olarak da not dusuluyor, ama asil sonuc DEGISMIYOR: bu cizgi dogal hatta HIC uymadigi icin nokta yogunlugu ne olursa olsun C gerekir."
+  },
+  {
+   "ad": "II. Erzurum (Şattülarap)", "tarih": "1847-05-31",
+   "birincil_kaynak": {
+    "tur": "TDV Islam Ansiklopedisi", "slug": "sattularap", "durum": "CANLI (HTTP 200)",
+    "url": "https://islamansiklopedisi.org.tr/sattularap",
+    "alinti": "Şattülarap'ın en kapsamlı biçimde ele alındığı antlaşma 1847 Mayısında Erzurum'da imzalanandır. (Nehrin TAMAMI Osmanli'da kaldi, dogu yakasindaki Muhammere/Abadan Kacarlar'a birakildi -- envanterin kendi d: metninden, TDV bu ayrintiyi teyit ediyor ama tam alinti sayfada yoktu.)"
+   },
+   "yer_adlari": {"Muhammere": true, "Abadan": true, "Basra": true, "Sattularap(nehir, yerlesim degil)": null},
+   "nehir_dag_adi_var_mi": true,
+   "nehir_dag_adi": "Şattülarap (nehir) -- ama arac/uret_petek.py'nin BUYUK setinde TANINMIYOR (Firat/Dicle/Tigris var, Sattularap yok)",
+   "on_degerlendirme": "C_GEREKLI", "kesin_damga": "C_GEREKLI",
+   "gerecke": "KESINLESTIRILDI. TDV kendi 'sattularap' maddesinde bu antlasmayi ACIKCA en kapsamli birincil kaynak olarak isaret ediyor (kaynak alani zaten bunu isaret ediyordu). Sinir nehir-tabanli (nehrin TAMAMI bir tarafta) ama bu nehir motorun BUYUK kumesinde YOK -- yaslama otomatik calismaz, motor bunu tanimadan gecer. Muhammere/Abadan/Basra nokta olarak var ama nehrin KENDISI (ince bir su yolu siniri) icin C gerekli."
+  }
+ ]
+}
