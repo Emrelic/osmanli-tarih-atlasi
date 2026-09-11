@@ -1,0 +1,121 @@
+{
+  "oturum": "DALGA 2 TEYİT",
+  "tarih": "2026-09-11",
+  "zemin": "denetim/HAZIRLIK-DALGA2-0911.json (KRONOLOJİ DALGA 2 oturumu) — 13 'tek-kaynak-teyitsiz' flag'li aday",
+  "yontem": "WebSearch/WebFetch ile IKINCI BAGIMSIZ kaynak arandi. Vikipedi TEK DAYANAK sayilmadi -- bir maddenin sadece BIRDEN COK Vikipedi sayfasiyla capraz kontrol edilmesi 'bagimsiz akademik/kurumsal kaynak' SAYILMADI, ayri damgalandi (asagida ⚪).",
+  "ozet": {
+    "teyit_edildi": 8,
+    "curudu_veya_duzeltme_gerekiyor": 2,
+    "ikinci_bagimsiz_kaynak_bulunamadi": 3,
+    "toplam": 13
+  },
+
+  "teyit_edildi": [
+    {
+      "id": "hawaii-kralligi", "t": "1819-11-01",
+      "konu": "ʻAi Noa — kapu sisteminin sona ermesi",
+      "kaynak": "Punahou School Bulletin ('Ending the Kapu') + University of Hawaiʻi Mānoa ders notu (chiggins/284w) — ikisi de KURUMSAL, TDV kapsami disi bolge icin mesru (SS4)",
+      "sonuc": "Ay hassasiyeti (Kasim 1819) DOGRULANDI. Gun hicbir kaynakta yok, aday zaten YYYY-MM-01 yazmisti -- hassasiyet UYGUN."
+    },
+    {
+      "id": "hawaii-kralligi", "t": "1840-10-08",
+      "konu": "İlk yazılı Anayasa",
+      "kaynak": "University of Hawaiʻi School of Law Library, Archival Collections -- BIRINCIL KAYNAK NESRI ('granted by Kamehameha III, October 8, 1840') + hawaiiankingdom.org PDF (belgenin kendisi) + History.com 'This Day in History'",
+      "sonuc": "GUCLU TEYIT -- birincil kaynak yayini bulundu, en yuksek guven kademesi."
+    },
+    {
+      "id": "hawaii-kralligi", "t": "1894-07-04",
+      "konu": "Hawaii Cumhuriyeti ilanı, Sanford Dole",
+      "kaynak": "U.S. Department of State, Foreign Relations of the United States 1894 (resmi devlet arsivi) + Britannica (Sanford Ballard Dole maddesi)",
+      "sonuc": "TEYIT -- iki bagimsiz KURUMSAL kaynak, TDV disi bolgede en yuksek kademe."
+    },
+    {
+      "id": "tonga-kralligi", "t": "1893-02-18",
+      "konu": "I. George Tupou öldü, II. George Tupou tahta çıktı",
+      "kaynak": "Britannica ('George Tupou II' maddesi) + Find a Grave (birincil mezar kaydi) -- Wikipedia'dan BAGIMSIZ",
+      "sonuc": "TEYIT -- gun birebir eslesiyor."
+    },
+    {
+      "id": "tonga-kralligi", "t": "1918-04-05",
+      "konu": "II. George Tupou öldü (verem), Sālote Tupou III tahta çıktı",
+      "kaynak": "Elizabeth Wood-Ellem, 'Queen Sālote of Tonga: The Story of an Era, 1900-1965' (Auckland University Press, 1999) -- alanin TANIMLAYICI akademik biyografisi",
+      "sonuc": "TEYIT EDILDI. Kardesin encyclopedia.com'u ELEME KARARI ONAYLANDI -- ayrintili gerekce asagida § TONGA DOGUM YILI."
+    },
+    {
+      "id": "tannu-tuva", "t": "1921-08-14",
+      "konu": "Bağımsızlık ilanı, ilk anayasa",
+      "kaynak": "nit.tuva.asia (Novye Issledovaniâ Tuvy / 'New Research of Tuva' -- Tuva Beseri Bilimler Enstitusu'nun HAKEMLI akademik dergisi, Wikipedia DEGIL)",
+      "sonuc": "TEYIT -- 13-16 Agustos kongresi, 14'u ilan gunu olarak detaylandirilmis, aday ile birebir."
+    },
+    {
+      "id": "tannu-tuva", "t": "1922-03-03",
+      "konu": "Hükümet fiilen göreve başladı",
+      "kaynak": "nit.tuva.asia (ayni akademik dergi ailesi)",
+      "sonuc": "TEYIT -- '3 Mart'ta calismaya basladi' aday ile birebir."
+    },
+    {
+      "id": "tannu-tuva", "t": "1923-10-12",
+      "konu": "İlk Büyük Kurultay",
+      "kaynak": "nit.tuva.asia (Buyuk Kurultay'in kurumsal rolunu inceleyen makale)",
+      "sonuc": "TEYIT -- 12 Ekim 1923 birebir."
+    }
+  ],
+
+  "curudu_veya_duzeltme_gerekiyor": [
+    {
+      "id": "hawaii-kralligi", "t_oneri_eski": "1887-07-06",
+      "konu": "Bayonet Constitution -- Kalākaua'nın imzalaması",
+      "bulgu": "GUN TARTISMALI, tek bir dogru gun YOK. Taranan kaynaklar BIRBIRINDEN FARKLI gunler veriyor: 30 Haziran (tehdit/karsi karsiya gelme) · 1 Temmuz (kabine degisikligi baskisi) · 5 Temmuz (hawaiiankingdom.org: 'taslak 5 Temmuz oglenden sonra tamamlandi, Yargic Judd Kral'a yemin ettirdi, ayni gun ilan edildi') · 6 Temmuz (adayin kendi iddiasi) · 7 Temmuz (baska bir kaynagin 'kabul edildi' dedigi gun). En detayli/kurumsal ikinci kaynak (hawaiiankingdom.org, Hawai Krallıgi'nin uluslararasi hukuk temelli tarih arastirma platformu) 5 Temmuz diyor -- adayin 6 Temmuz'u DESTEKLENMIYOR.",
+      "hukum": "🔴 KISMEN CURUDU -- ay/yil (Temmuz 1887) SAGLAM, GUN duzeltilmeli: 1887-07-05 onerilir (hawaiiankingdom.org'a dayanarak) AMA bu da tek kaynak; yazma turunda gun HASSASIYETI dususurulup YYYY-07-01 yazilmasi (D014/D110 -- takvim/hassasiyet ailesi) daha guvenli olabilir."
+    },
+    {
+      "id": "afgan-durrani", "t_oneri_eski": "1793-05-18",
+      "konu": "Timur Şah'ın ölümü / Zaman Şah'ın tahta çıkışı",
+      "bulgu": "İÇ TUTARSIZLIK bulundu -- adayin KENDI anlatim metni 'Zaman Şah 20 Mayıs 1793'te şah oldu' diyor, ama t_oneri alanina 1793-05-18 (Timur Şah'in OLUM gunu) yazilmis. Bagimsiz arama Timur Sah'in olumunu 18 Mayis 1793, Zaman Sah'in TAHTA CIKISINI (reign start) 20 Mayis 1793 olarak DOGRULADI (Wikipedia 'Zaman Shah Durrani' -- 'reign 20 May 1793 to 25 July 1801').",
+      "hukum": "🔴 TARIH ALANI YANLIS SECILMIS -- anlatilan olay (Zaman Sah'in culuÌ‚su) 1793-05-20 olmali; 1793-05-18 Timur Sah'in kendi olum tarihidir ve BASKA bir madde (Timur Sah'in olumu) icin kullanilmali, Zaman Sah'in culusu icin degil. Yazma turunda AYRILMASI onerilir: iki ayri madde (① Timur Sah oldu, 05-18 · ② Zaman Sah culuÌ‚su, 05-20) YA DA tek madde kalacaksa tarih 05-20'ye DUZELTILMELI."
+    }
+  ],
+
+  "ikinci_bagimsiz_kaynak_bulunamadi": [
+    {
+      "id": "kazan", "t": "1521-01-01",
+      "konu": "Sahib Giray Kazan'a geldi, Şah Ali kovuldu",
+      "bulgu": "Olgunun kendisi Wikipedia'nin IKI AYRI maddesinde (Sahib I Giray, Shah-Ali) TUTARLI ve DETAYLI anlatiliyor ('ilkbahar 1521 Sahib Kazan'a girdi, Sahgali Muskovya'ya kacti') -- ama IKISI DE Vikipedi ailesinden, KURAL GEREGI (Vikipedi tek dayanak degil) bu BAGIMSIZ AKADEMIK kaynak SAYILMAZ. Ailenin onerdigi Keenan ('The Jarlyk of Axmed-xan') bu turda ULASILAMADI.",
+      "damga": "⚪ İKİNCİ BAĞIMSIZ KAYNAK BULUNAMADI -- olgu muhtemelen dogru (ic tutarli, cakisma yok) ama akademik teyit HENUZ YOK. `bulunamadı` degil, `ölçülemedi` -- arandi, akademik kaynağa bu turda ULAŞILAMADI."
+    },
+    {
+      "id": "mogulistan", "t": "1462-01-01",
+      "konu": "Esen Buka Han öldü, hanlık ikiye bölündü",
+      "bulgu": "Ayni durum -- Wikipedia'nin IKI maddesi (Moghulistan, Esen Buqa II) tutarli ama ikisi de ayni aile.",
+      "damga": "⚪ İKİNCİ BAĞIMSIZ KAYNAK BULUNAMADI -- ayni gerekce."
+    },
+    {
+      "id": "buhara-halk-cumhuriyeti", "t": "1922-07-07",
+      "konu": "Fayzulla Hocayev'e suikast girişimi",
+      "bulgu": "Wikipedia'nin 'Enver Pasha's campaign in Bukhara' maddesi (spesifik, genel BPSR maddesinden FARKLI bir sayfa) tarihi birebir dogruluyor. Ayrica ResearchGate'te 'Fayzulla Khodjayev - National and Political Leader of the Uzbek People' basligiyla akademik gorunumlu bir makale VAR ama 403 ile ERISILEMEDI -- icerigi OKUNAMADI, dogrulamaya KATILMADI.",
+      "damga": "⚪ İKİNCİ BAĞIMSIZ KAYNAK BULUNAMADI (erisim engeli) -- `okumadım` damgasi: akademik kaynak GORULDU ama OKUNAMADI, bu `bulunamadı` ile KARISTIRILMASIN (D107)."
+    }
+  ],
+
+  "tonga_dogum_yili_yeniden_sinama": {
+    "gorev": "Kardeşin 1918 kararını (encyclopedia.com'un '12 Nisan 1908' kaydını 'mantıken imkânsız -- 8 yaşında kraliçe' diye elemesi) bağımsız doğrula",
+    "bulgu": [
+      "Sālote Tupou III'ün doğum tarihi (13 Mart 1900) EN AZ DÖRT BAĞIMSIZ kaynakta tutarlı: National Library of New Zealand, Wood-Ellem'in akademik biyografisinin KİTABININ BAŞLIĞI ('...1900-1965'), Team Queens, History of Royal Women.",
+      "🔴🔴 EN GÜÇLÜ KANIT — encyclopedia.com'un KENDİ SAYFASI KENDİSİYLE ÇELİŞİYOR: sayfanın BAŞLIĞI 'Salote Topou III (1900-1965)' diyor, ama GÖVDE METNİ 'she took the throne on April 12, 1908' yazıyor. 1900 doğumlu birinin 1908'de tahta çıkması 8 yaşında demektir -- sayfanın kendi başlığı bunu YALANLIYOR.",
+      "Wikipedia + Britannica-tier kaynaklar: II. George Tupou 5 Nisan 1918'de öldü, 18 yaşındaki kızı Salote 6 Nisan'da kraliçe ilan edildi (1918-1900=18, TUTARLI)."
+    ],
+    "hukum": "🟢 KARDEŞİN KARARI TAM OLARAK DOĞRULANDI. encyclopedia.com'daki '1908' bir DİZGİ/YAZIM HATASIDIR (muhtemelen 1918→1908 rakam kayması) -- sayfanın kendi başlığıyla iç çelişkisi bunu kanıtlıyor. Doğru tarih 1918-04-05/06'dır."
+  },
+
+  "tui_tonga_imparatorlugu": {
+    "gorev": "Bir Pasifik tarihçisi (Wood-Ellem/Aoyagi) akademik kaynak olarak bulunabiliyor mu dene",
+    "denenen": [
+      "Wood-Ellem + Tuʻi Tonga arama -- yalnız Salote donemi calismasi cikti, Tuʻi Tonga imparatorlugu (13-15.yy) DONEMINE ait bir eseri bulunamadi",
+      "Aoyagi + Tuʻi Tonga arama -- dogrudan sonuc YOK",
+      "ResearchGate 'Tuʻi Tonga Empire' makalesi -- 403 ile ERISILEMEDI (yazari/kaynagi bile OKUNAMADI)",
+      "Journal of the Polynesian Society + Tuʻitātui/Momo arama -- sonuclar Wikipedia'ya donuyor, dergiye DOGRUDAN erisim saglanamadi",
+      "Genel akademik konsensus (Wikipedia uzerinden ozetlenmis): imparatorluk ~950'de kuruldu, zirve 1200-1500, Momo/Tuʻitātui 11-12.yy -- YUZYIL cozunurlugunde, GUN/YIL yok"
+    ],
+    "hukum": "🟡 BOŞ KALMALI -- kardeşin kararı DOĞRULANDI. Bu turda da erişilebilir, günlük/yıllık çözünürlük veren AKADEMİK bir kaynak BULUNAMADI (ResearchGate erişim engeliyle, JPS dergisine doğrudan erişilemeyerek). Yıl uydurmak bu kuralı ihlal eder -- BOŞ bırakmak devam ediyor."
+  }
+}
