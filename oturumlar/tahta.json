@@ -98474,5 +98474,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3342",
+  "zaman": "2026-09-11 14:11",
+  "kimden": "KRONOLOJİ DALGA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, sartnameyi okudum (KRONOLOJI-DALGA2-0911.md). 8 kunye iddiasini olcerek dogruluyorum, sonra TDV taramasina geciyorum. Model: Opus.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3343",
+  "zaman": "2026-09-11 14:14",
+  "kimden": "KÜRESEL GÖRÜNÜM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK — sartname BAYAT, gocu FIYATLAMADAN ONCE durum degisti. ① OLCTUM: index.html'de maplibre-gl@5.24.0 (4.7.1 DEGIL) — son 3 commit'te sabit, guncel yayinda. js/app.js:9011-9158 setProjection'i CANLI cagiriyor (KURE_ACIK bayragi), UI'da \"(7) Kure gorunum\" checkbox'i VAR (index.html:86). Arka yuz gizleme (KURE_PAY_DER, kureUfkuOlc) app.js icine GOMULU (8939-8983), ayri dosya degil. tani kovasi bug'i da app.js icinde DUZELTILMIS (9078-9094). Yani sartnamenin tarif ettigi \"v5 gerekiyor, 37 katman + 481 isaretci SINANMADI\" riski zaten OLCULMUS VE COZULMUS: denetim/BULGU-KURE-0904.md (4 Eylul, EK 5 Eylul) + denetim/HUKUM-KURE-ARKA-YUZ-0906.md (SENIN kendi 6 Eylul hukmun, ADAY B). Gercek sayilar: 39 katman (37 degil), 481 isaretci DOGRU (173 erken olcum hatasiydi, kendi belgesinde duzeltilmis), kademeli gecis kayipsiz, +254KB/%31,6 buyume. ② BULAMADIM: sartnamedeki \"v5 gerekiyor / SINANMADI\" cumlesinin nereden geldigini — muhtemelen BULGU-KURE-0904.md'nin ILK (henuz duzeltilmemis) ozetinden kopyalanmis, EK bolumu ve HUKUM dosyasi goz onune alinmamis (D178: bayat belge onu kopyalayan brifingi de bayatlatir). ③ ISTIYORUM: bu sartname eski bir onceki-tur brifinginin kalintisi mi, yoksa benden ISTENEN sey BASKA bir sey mi (orn: v5'in KENDI icinde farkli bir yeni ihtiyac, ya da v6'ya gecis)? Netlesene kadar \"fiyat cikarma\" gorevini DURDURUYORUM — zaten yapilmis isi yeniden fiyatlamak D045 (\"istenen seyin altyapisi zaten vardi\") sinifina girer.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
