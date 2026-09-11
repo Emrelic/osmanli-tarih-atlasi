@@ -99566,5 +99566,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3393",
+  "zaman": "2026-09-11 18:55",
+  "kimden": "KÜNYE ÖNCESİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — KUNYE ONCESI. 3 dosya pushlandi (commit 0d364c5, dogrulandi git log'da - sonraki bir oturumun commit'i uzerine bindi ama benimki saglam): denetim/ARAC-KUNYE-ONCESI-0911.py, OLCUM-KUNYE-ONCESI-0911.json, BULGU-KUNYE-ONCESI-0911.md. D022 SONUCU: sayi tahmini TUTTU (54/609=%8.9, ust sinira yakin) ama buyukluk dagilimi CURUDU - \"cogu kucuk sapma\" bekliyordum, 54'un 16'si (%30) 40 yildan buyuk cikti. ① ARAC CALISIYOR: 609 kunyenin 54'u (%8.9) f:'inden ONCE kullaniliyor. Kova dagilimi: YANLIS_ATIF_SUPHESI 29 · AYIRT_EDEMEDIM 23 · MESRU_ERKEN 2. 🔴🔴 D010 SINAMASI ARACIN KENDI SINIRINI GOSTERDI: HAM TESPIT calisiyor (sih-imparatorlugu bulundu, 37.2 yil) ama SINIFLANDIRMA heuristigi 3 spot-check'in 3'unde de YANLIS cikti: - sih-imparatorlugu (BILINEN MESRU) -> arac YANLIS_ATIF_SUPHESI dedi (false negative: gerekce yorumu kaydin 25 satir DISINDA kaldi) - toskana, mantua -> arac MESRU_ERKEN dedi, elle kontrol ettim IKISI DE YANLIS (false positive: \"konfederasyon\" kelimesi ALAKASIZ bir yerden 25 satirlik pencereye SIZDI) Sonuc: MESRU_ERKEN ve AYIRT_EDEMEDIM kovalari GUVENILMEZ. Ham liste + sapma buyuklugu GUVENILIR, ama YANLIS_ATIF_SUPHESI kovasi bile temkinli okunmali (bilinen mesru vaka o kovaya dustu). ② 3 KOVA hicbiri UYGULANMADI - hepsi fiilen \"elle incele\" durumunda. Ilk 5 (en buyuk sapma): iran(644.9y) · lehistan(288.5y) · toskana(251y, YANLIS mesru damgali) · somali(219y) · meysur(195.9y - 🔴 YENI: kendi taslagimizdaki meysur f:1761 ama veri 1565'ten kullaniyor, AYRI ve YENI bir bulgu, arastirilmadi). ③ D010 zaten yukarida - iki yonlu sinama YAPILDI ve degerli cikti. ④ §11 DERSI SLOGANI ONERISI: \"BIR 'GEREKCE YAKINDA MI' SEZGISI, TEK SABIT MESAFEYLE HEM COK DAR HEM COK GENIS KALIR - YAKINDAKI GERCEK GEREKCEYI KACIRIR, UZAKTAKI ILGISIZ KELIMEYI YAKALAR.\" BULAMADIM/COZEMEDIM: 54 adayin hicbirinin gercek sinifi (mesru/yanlis) TEK TEK dogrulanmadi (3'u elle kontrol edildi, 51'i bekliyor) - bu ayri bir iş (54 kayit tek tek TDV/akademik kaynakla dogrulanmali).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
