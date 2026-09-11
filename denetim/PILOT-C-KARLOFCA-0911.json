@@ -1,0 +1,110 @@
+{
+  "_not": "PİLOT dosyasıdır, data/ İÇİNE YAZILMADI. Şema önerisi: denetim/SEMA-C-0911.md. Koordinatlar YAKLAŞIKTIR ve doğrulanmadı — pilotun amacı şemayı sınamak, üretim koordinatı üretmek değil. dogrulanmadi:true taşıyan her lat/lon bir SONRAKİ iş.",
+  "antlasma": {
+    "id": "karlofca",
+    "ad": "Karlofça Antlaşması",
+    "tarih": "1699-01-26",
+    "taraflar": ["osmanli", "avusturya", "venedik", "lehistan-litvanya"],
+    "kaynak": "TDV islamansiklopedisi.org.tr/karlofca (HTTP 200, gövde okundu) + Wikipedia 'Treaty of Karlowitz' (orijinal İngilizce çeviriden alıntı)"
+  },
+  "hat_kayitlari": [
+    {
+      "id": "karlofca-bosna-sava",
+      "sinif": "HAT",
+      "antlasma": "karlofca",
+      "f": "1699-01-26",
+      "t": null,
+      "taraf_a": "osmanli",
+      "taraf_b": "avusturya",
+      "hat": [
+        {
+          "tur": "nehir",
+          "ad": "Sava",
+          "engine_taniyor_mu": true,
+          "engine_kaynagi": "arac/uret_petek.py:552 BUYUK kümesi",
+          "baslangic": { "aciklama": "Bosut'un Sava'ya döküldüğü yer", "lat": null, "lon": null, "dogrulanmadi": true },
+          "bitis": { "aciklama": "Brod Kalesi", "lat": null, "lon": null, "dogrulanmadi": true }
+        }
+      ],
+      "kapsama": {
+        "tur": "bbox",
+        "kutu": null,
+        "not": "TASARLANMADI — §2.3'ün açık sorusu: kapsama nasıl türetilecek?"
+      },
+      "kaynak": "TDV karlofca: \"Sava nehrinin Bossut'un Sava'ya döküldüğü yerden Brot Kalesi'ne kadar sınır olması kabul edildi.\"",
+      "tikanma": "YOK — temiz HAT örneği, Sava zaten engine'in tanıdığı nehir"
+    },
+    {
+      "id": "karlofca-banat-maros-tisza-tuna",
+      "sinif": "HAT",
+      "antlasma": "karlofca",
+      "f": "1699-01-26",
+      "t": null,
+      "taraf_a": "osmanli",
+      "taraf_b": "avusturya",
+      "hat": [
+        {
+          "tur": "nehir",
+          "ad": "Maros (Mureş)",
+          "engine_taniyor_mu": false,
+          "not": "arac/uret_petek.py:552 BUYUK kümesinde YOK — bu segment bugün motora tanıtılmamış",
+          "baslangic": { "aciklama": "Osmanlı-Avusturya cephe hattının Maros'a değdiği nokta", "lat": null, "lon": null, "dogrulanmadi": true },
+          "bitis": { "aciklama": "Maros'un Tisza'ya karıştığı yer (Szeged yakını)", "lat": null, "lon": null, "dogrulanmadi": true }
+        },
+        {
+          "tur": "nehir",
+          "ad": "Tisza (Tisa)",
+          "engine_taniyor_mu": true,
+          "engine_kaynagi": "arac/uret_petek.py:552 BUYUK kümesi",
+          "baslangic": { "aciklama": "Maros-Tisza kavşağı", "lat": null, "lon": null, "dogrulanmadi": true },
+          "bitis": { "aciklama": "Tisza'nın Tuna'ya döküldüğü yer", "lat": null, "lon": null, "dogrulanmadi": true }
+        },
+        {
+          "tur": "nehir",
+          "ad": "Tuna (Danube)",
+          "engine_taniyor_mu": true,
+          "engine_kaynagi": "arac/uret_petek.py:552 BUYUK kümesi",
+          "baslangic": { "aciklama": "Tisza-Tuna kavşağı", "lat": null, "lon": null, "dogrulanmadi": true },
+          "bitis": { "aciklama": "Belgrad yönünde antlaşmanın sınırı bıraktığı nokta", "lat": null, "lon": null, "dogrulanmadi": true }
+        }
+      ],
+      "kapsama": { "tur": "bbox", "kutu": null, "not": "TASARLANMADI" },
+      "kaynak": "Wikipedia 'Treaty of Karlowitz' — orijinal çeviriden alıntı: \"Thence its Boundarys shall be carry'd on from the hither Banks of the Marosche to the River Teysse, and from the hither Bank of the Teysse to the Danube\"",
+      "tikanma": "🔴 Maros(Mureş) engine'in adlı-nehir kümesinde YOK — C kaydı yazılabilir ama motor onu çizmeden önce arac/uret_petek.py BUYUK kümesine eklenmesi gerekir (C'nin değil motorun borcu)"
+    }
+  ],
+  "nokta_atamasi_kayitlari_ONERI_C_DEGIL": [
+    {
+      "id": "karlofca-bosna-kaleler",
+      "sinif": "NOKTA-ATAMASI",
+      "aciklama": "Kostayniça Avusturya'da kaldı; Bihke, Novi, Krupa boşaltıldı (Osmanlı'dan çıktı)",
+      "kaynak": "TDV karlofca",
+      "yerlesim_taramasi": {
+        "taranan_dosya_sayisi": 77,
+        "bulunan": { "Kostayniça": false, "Bihke": false, "Novi (Bosna)": false, "Krupa": false, "Brod": false },
+        "not": "Herceg Novi (Karadağ) VAR ama BAŞKA bir yer — Bosna'nın Novi'siyle KARIŞTIRILMASIN"
+      },
+      "tikanma": "🔴🔴 Beş kalenin HİÇBİRİ yerlesimler.js ailesinde yok — çare C DEĞİL, §6 yöntemiyle yeni nokta eklemek. Nokta eklenmeden ne A/B ne C bu maddeyi ifade edebilir."
+    },
+    {
+      "id": "karlofca-lehistan-suceva",
+      "sinif": "NOKTA-ATAMASI",
+      "aciklama": "Podolya boşaltıldı, Kamaniçe Kalesi yıkıldı, Suçeva ve Roman Osmanlılara geri verildi",
+      "kaynak": "TDV karlofca",
+      "yerlesim_taramasi": {
+        "bulunan": { "Suçava (Suceava)": true, "Bar (Podolya)": true, "Kamaniçe": "taranmadı", "Roman": "taranmadı" }
+      },
+      "tikanma": "YOK — Suçava zaten yerlesimler.js'te, C gerekmez: doğrudan o noktanın d: dizisine {f:\"1699-01-26\",...} eklenir"
+    },
+    {
+      "id": "karlofca-venedik",
+      "sinif": "NOKTA-ATAMASI",
+      "aciklama": "Ayamavra adaları, Korent kıyıları, Kataro ve Trebinye'nin iadesi",
+      "kaynak": "TDV karlofca",
+      "yerlesim_taramasi": {
+        "bulunan": { "Ayamavra (Lefkada)": true, "Trebinye": true, "Kataro": "taranmadı", "Korent kıyısı": "taranmadı — nokta değil bölge tarifi" }
+      },
+      "tikanma": "KISMEN YOK — Ayamavra ve Trebinye zaten nokta, C gerekmez; Kataro/Korent ölçülemedi (bu pilotun kapsamı dışında bırakıldı)"
+    }
+  ]
+}
