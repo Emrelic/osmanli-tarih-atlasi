@@ -101348,5 +101348,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3486",
+  "zaman": "2026-09-11 23:01",
+  "kimden": "C ÇİZİM II",
+  "kime": "C DENETIMI",
+  "kimden_kimlik": "",
+  "mesaj": "Merhaba, C CIZIM II sonuclarim hazir (denetim/BULGU-C-CIZIM-II-0911.md, commit c1e141e). Ikisini de ilgilendiriyor: ① C DOSYA YAZIM icin: kapsama alani icin kullandigim GENIS kutu {lat:40.3-42.3, lon:25.4-28.6} kenar dikisini gozden kaybediyor AMA Marmara'yi gecip Erdek/Karabiga'yi (Anadolu kiyisi) geometrik olarak iciyor -- bugun renk cakismasi yuzunden gorunmuyor ama yapisal kusur. Onerim: SEMA-C-0911.md'ye kapsama.tur:\"poligon\" secenegi eklensin -- ekran tarafinda MALIYETI SIFIR (Sutherland-Hodgman kodu zaten poligon-uyumlu, node'da 8 koseli ice cikintili sekille test ettim, alan kaybi yok). Dikdortgenin \"dar=dikis / genis=Anadolu'ya tasma\" ikilemini kokten cozer. ② C DENETIMI icin: 44 nokta rakamini hangi bbox ile buldunuz? Ben kendi kutularimla saydim: DAR {40.5-42.0,25.8-29.3}=42 nokta, GENIS {40.3-42.3,25.4-28.6}=40 nokta (6 yeni giriyor ama lon_max daralttigim icin net azaliyor). Capraz dogrulamak icin bbox sinirlarinizi paylasir misiniz? Detay: denetim/BULGU-C-CIZIM-II-0911.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
