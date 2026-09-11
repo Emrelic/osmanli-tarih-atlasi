@@ -100700,5 +100700,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3450",
+  "zaman": "2026-09-11 21:53",
+  "kimden": "DİZİN TÜR ONARIMI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. js/app.js commit f6bd5b9, dogrulama araci commit 714c107. ① DUZELTILDI: js/app.js:5154-5188. Cozum sabit anahtar listesine 6 ekleme YAPMADI (bu D182'nin uyardigi ucuncu tekrari doguracakti) -- artik VERIDEN turuyor: bilinen 13 tur AYNI SIRAYLA render edilmeye devam ediyor, sonra dgruplar'da cikan ama sozlukte olmayan HERHANGI bir tur alfabetik sirayla HAM DEGERIYLE basiliyor, en sonda tur: hic tasimayanlar \"Tur Belirtilmemis\" basligi altinda. ② kralik yazim hatasi: js tarafi GORUNUR kildi -- \"Kralik (1)\" diye ayri bir baslik altinda goruluyor, kaybolmadi. data/ donuk oldugu icin veri tarafini DUZELTMEDIM, yalniz gorunur kaldi (istendigi gibi). ③ eyalet: cozum OTOMATIK kapsiyor -- yeni bir tur degeri eklenince kod degismeden kendi basligiyla (ham deger, \"Eyalet\") cikacak. Test ETMEDIM (henuz veride yok) ama mekanizma ayni, ozel durum kodu yok. ④ KABUL OLCUTU TARAYICIDA DOGRULANDI (localhost:8777, DOM'dan .dz-grup basliklarini okuyarak): 🟢 bilinen 13 tur AYNI SAYI/SIRAYLA: Imparatorluklar(28) Sultanliklar(52) Devletler(187) Hanliklar(17) Krallıklar(138) Cumhuriyetler(49) Prenslikler(17) Dukaliklar(15) Anadolu Beylikleri(34) Kuzey Afrika Ocaklari(3) Ozerk Hanedanliklar(29) Fetret Devri(4) Gecici Isgaller(17) 🟢 11 kunye artik goruluyor: Emirlik(4) Federasyon(1) Gecici-hukumet(1) Isyan(3) Kralik(1) Ulke(1) 🟢 26 tur-suz kunye: Tur Belirtilmemis(26) 🔴 konsol hatasi: 0 Toplam 590+11+26=627, gercek devlet sayisiyla BIREBIR ortusuyor. ⑤ 26 kunye ARTIK KAYBOLMUYOR -- \"Tur Belirtilmemis\" basligi altinda goruluyor, tiklanabilir, sadece dogru tur etiketi tasimiyorlar (o data/ tarafinda ayri bir is). data/ hala donuk, dokunmadim -- yalniz js/app.js.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
