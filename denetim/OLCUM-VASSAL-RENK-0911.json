@@ -1,0 +1,40 @@
+{
+  "v_tasiyan": { "kunye": 136, "donem": 163 },
+  "kid_ile_isaretli": {
+    "toplam_donem": 112,
+    "dagilim": {
+      "misir-kavalali": 46, "eflak": 16, "bogdan": 13, "cezayir-ocagi": 10,
+      "sirbistan-prensligi": 5, "trablusgarp-ocagi": 5, "bulgaristan-prensligi": 7,
+      "sarki-rumeli": 3, "haciemir": 2, "kuveyt": 2, "kirim": 1, "katar": 1, "zeta": 1
+    },
+    "hukum": "Bu 13 kid'in TAMAMI ya devletler.js'te tabi.ust==='osmanli' (8'i: misir-kavalali, eflak, bogdan, kirim, sirbistan-prensligi, bulgaristan-prensligi + dulkadir/erdel bu listede yok ama tabi tasiyor) ya da HIC tabi: alani tasimiyor (cezayir-ocagi, trablusgarp-ocagi, sarki-rumeli, haciemir, kuveyt, katar, zeta -- 7 kimlik). SIFIRI Osmanli-disi bir uste (ör. fransa, rusya) isaret ediyor. Bu 112 donemin HICBIRI VASSAL RENK duzeltmesinden ETKILENMEZ (dogrulandi, hem Node hem canli tarayici testinde)."
+  },
+  "kid_yok": {
+    "toplam_kunye": 38, "toplam_donem": 51,
+    "siniflandirma_ORNEK_MADDE_MADDE": {
+      "gercekten_yanlis_renk_bugun_ADAY_ama_KID_YOK_BUGUN": [
+        "Tunus/Kayrevan/Gabes/Sfaks/Cerbe/Kerkene 1881-1923 dilimi (Fransiz himayesi -- 1881 sonrasi)",
+        "Kandiye/Hanya/Girit-Resmo/Sfakia/Sitia 1830-1841 dilimi (Misir-Kavalali idaresi)",
+        "Kandiye/Hanya/Girit-Resmo/Sfakia/Sitia 1898-1913 dilimi (Girit Devleti — zaten kunye var: girit-devleti)",
+        "Kutahya/Konya/Karaman 1832-1833 (Misir ordusu ISGALI -- v: degil isg: OLMALIYDI, ayri bir miskodlama)"
+      ],
+      "muhtemelen_doğru_ama_hassasiyet_eksik": [
+        "Erdel/Budin/Peste/Varad/Yanova (Macaristan Zapolya/Erdel Prensligi donemi -- gercekten Osmanli tabi)",
+        "Mekke/Medine/Taif (Mekke Serifligi -- gercekten Osmanli tabi)",
+        "Tarki/Zagem/Kutaisi (Kumuk Samhalligi/Kaheti/Imereti -- Kafkas tabi devletleri)",
+        "Konstantin/Annaba/Bicaye/Setif/Biskra (Ahmed Bey'in 'Osmanli adina' direnisi 1830-38)",
+        "Zebid, Tuggurt, Batnoz, Dubrovnik"
+      ]
+    },
+    "onemli_not": "kid: YOK olan 38/51'in TAM siniflandirmasi (hangisi 'gercekten yanlis' hangisi 'dogru ama imprecise') bu turda TEK TEK TDV/tarihle dogrulanmadi -- yalniz ORNEK/BELIRGIN vakalar (Tunus, Girit) tanindi. D107: olculemedi, digerleri icin.",
+    "cozum_veri_katmaninda": "Bu 38 kunyeye dogru kid: eklemek data/ DEGISIKLIGI gerektirir (donuk) -- yalniz ONERI, uygulanmadi."
+  },
+  "mimari_bulgu": {
+    "ana_harita": "arac/uret_petek.py + data/donemler.js -- IKISI DE DONUK. Motor y['d']+y['v']'yi HER YERDE tek 'Osmanli' kategorisi sayiyor (satir 2899,4481,4545,4627), kid: dallanmasi HICBIR YERDE yok. ⇒ ANA HARITANIN rengi bu js/app.js duzeltmesinden ETKILENMEZ -- motor yeniden kosmadan degismez.",
+    "detay_paneli": "js/app.js:_yerlesimSerit (settlement 'Yerlesim Kronolojileri' dizin panelindeki sahiplik seridi) CANLI js kodu -- BU duzeltildi, test edildi, canli tarayicida DOGRULANDI (ekran goruntusu)."
+  },
+  "test_sonuclari": {
+    "node_izole_test": { "eflak": "etkilenmedi", "bogdan": "etkilenmedi", "kirim": "etkilenmedi", "erdel": "etkilenmedi", "misir-kavalali": "etkilenmedi", "sirbistan-prensligi": "etkilenmedi", "sentetik_fransiz_tabi": "yakalandi_dogru_calisiyor", "gercek_veride_etkilenen_donem_sayisi": 0 },
+    "canli_tarayici_test": "Bukres (Eflak, kid:eflak, 1462-1878) 'Yerlesim Kronolojileri' panelinde 'Osmanli (tabi)' olarak DOGRU gosterildi -- ekran goruntusu alindi, degisiklik YOK (beklenen sonuc)."
+  }
+}

@@ -4823,6 +4823,29 @@ var _DEVLET_RENK = (function () {
 // Sonuç haritayla BİREBİR aynı — çubuk, haritanın o günkü hâlinin zaman
 // eksenine serilmiş hâli.
 // ⚠️ `isg:` AYRI: zemini ezmez, ÜSTÜNE taralı çizilir — haritada da öyle.
+// 🆕 VASSAL RENK — 11 Eylül 2026. `v:` dönemleri buraya kadar HER ZAMAN
+// "Osmanlı tâbi" (#b2384a) döndürüyordu; `kid:` alanı (varsa) OKUNMUYORDU.
+// Bugünkü veri için zararsızdı çünkü BÜTÜN `kid:` değerleri (eflak, bogdan,
+// kirim, misir-kavalali, cezayir-ocagi, sirbistan-prensligi, …) zaten
+// Osmanlı'nın KENDİ ailesinden (`devletler.js`teki `tabi.ust === "osmanli"`
+// ya da hiç `tabi:` taşımıyor — 11 Eylül 2026 ölçümü, VASSAL RENK). Ama
+// Tunus gibi OSMANLI-DIŞI bir süzerene (Fransa) bağlanacak gelecekteki bir
+// `kid:` için kod HİÇBİR ZAMAN doğru süzereni göstermeyecekti — şema alanı
+// VARDI, okunmuyordu. Aşağıdaki `_KID_YABANCI_UST` yalnız `tabi.ust`si
+// AÇIKÇA "osmanli" DIŞINDA olan kimlikleri işaretler; böylece:
+//   · bugünkü hiçbir kayıt ETKİLENMEZ (hiçbiri bu kümeye düşmüyor — ölçüldü)
+//   · Boğdan/Eflak/Kırım/Erdel'in rengi KORUNUR (tabi.ust'ları "osmanli")
+//   · yeni bir künye (ör. Tunus Beyliği, ust:"fransa-cumhuriyet") kid: ile
+//     bağlanınca KENDİ kimliğiyle gösterilir, Osmanlı'ya karışmaz
+var _KID_YABANCI_UST = (function () {
+  var m = {};
+  (window.DEVLETLER || []).forEach(function (d) {
+    if (d.id && d.tabi && d.tabi.length && d.tabi[0].ust && d.tabi[0].ust !== "osmanli")
+      m[d.id] = d.tabi[0].ust;
+  });
+  return m;
+})();
+
 function _yerlesimSerit(y) {
   var uc = {};
   function ekle(a) { (y[a] || []).forEach(function (p) { uc[p.f] = 1; uc[p.t] = 1; }); }
@@ -4836,8 +4859,13 @@ function _yerlesimSerit(y) {
       if ((p = y.d[i]).f <= gun && gun < p.t)
         return { ad: "Osmanlı", cins: "doğrudan", renk: "#8e0b22" };
     for (i = 0; i < (y.v || []).length; i++)
-      if ((p = y.v[i]).f <= gun && gun < p.t)
+      if ((p = y.v[i]).f <= gun && gun < p.t) {
+        if (p.kid && _KID_YABANCI_UST[p.kid])
+          return { ad: devletAdi(p.kid),
+                    cins: "tâbi (" + devletAdi(_KID_YABANCI_UST[p.kid]) + ")",
+                    renk: _DEVLET_RENK[p.kid] || "#9a9a9a" };
         return { ad: "Osmanlı", cins: "tâbi", renk: "#b2384a" };
+      }
     for (i = 0; i < (y.s || []).length; i++)
       if ((p = y.s[i]).f <= gun && gun < p.t)
         return { ad: devletAdi(p.d), cins: "", renk: _DEVLET_RENK[p.d] || "#9a9a9a" };
