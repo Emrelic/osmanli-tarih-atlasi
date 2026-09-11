@@ -190,6 +190,105 @@ yeniden değerlendirilmeli.
 
 ---
 
+## 🔴🔴 EK — M-3463 GENİŞLEMESİ: Emre C'nin tanımını düzeltti, iki YENİ denetim eklendi
+
+Görev sürerken Emre C'nin kapsamını büyüttü: *"C uygulanınca artık tavan,
+enklav düzeltme, koridor doldurma, boşluk kapatma, arazi bölüşme filan
+hiçbir şey kalmaz. Belgede ne varsa o çizilir."* Kapsama kutusu içinde
+A/B'nin SEZGİSEL mekanizmaları (emilme dahil) KAPANIYOR — bu, `SEMA-C-
+0911.md §9`da zaten şemaya işlendi (`kapsama.sezgi_kapali`, `gereken_
+cografya`, `hat.tur:"nokta-kumesi"`). İki YENİ denetim eklendi:
+
+### C5 — Kapsama kaplama (görevin kendi ifadesiyle "en tehlikeli yer")
+```
+NE SORUYOR   : kapsama.kutu İÇİNDEKİ HER GERÇEK yerleşim, gereken_
+               cografya'da anılıyor mu? Anılmıyorsa: sezgi kapalıyken bu
+               nokta HİÇBİR mekanizmayla bir tarafa atanmaz → Değişmez
+               1 ihlali (delik).
+İKİ YÖN      : ① sentetik eksik liste (2 noktadan 1'i eksik) → ✓ YAKALADI
+               ② sentetik TAM liste → ✓ DOĞRU (temiz geçti)
+```
+🔴🔴 **GERÇEK VERİDE ÇARPICI SONUÇ:** Midye-Enez'in kapsama kutusunda
+(40.5-42.0K/25.8-29.3D) **44 GERÇEK yerleşim** var (İstanbul, Kırklareli,
+Edirne, Tekirdağ dahil) ve kayıt henüz `gereken_cografya` TAŞIMIYOR (M-3463
+öncesi yazıldı) — yani BUGÜN uygulansaydı **44 nokta sahipsiz kalırdı.**
+Aynı desen 7 kaydın 7'sinde de: **hiçbiri henüz göç etmemiş**, C5 hepsini
+"`sezgi_kapali` yok, GÖÇ GEREKİYOR" diye işaretliyor. **Bu C5'in İLK
+gerçek işi** — bir sonraki uygulama turu bu göçü YAPMADAN `sezgi_kapali:
+true` yazarsa harita delinir.
+
+### C6 — Belgenin saydığı yerler atlasta var mı (İKİNCİ KAPI dahil)
+```
+NE SORUYOR   : gereken_cografya'daki her kalem (yerleşim/nehir/dağ)
+               GERÇEKTEN atlasta var mı? Nehirler için İKİ KAPI (ad
+               listesi ∪ scalerank<=5.0) — TEK kapıya bakıp yanlış hüküm
+               vermemek için (kardeş oturumun Şattülarap dersi AYNEN
+               uygulandı).
+```
+🔴🔴 **BU DENETİMİN YAZIMI SIRASINDA ÜÇ KENDİ HATAM BULUNDU VE DÜZELTİLDİ**
+(D049/D107 — hiçbiri silinmedi, düzeltme İÇERDE damgalandı):
+```
+① Parantezli isimler ("Tuna (Danube)", "Sava (nehir)") norm() sonrası
+   BUYUK kümesiyle eşleşmiyordu → ana ad + parantez içi alternatif ad
+   AYRI AYRI denendi (denetle.py'nin `_madde_yeri_aniyor` deseni AYNEN
+   taşındı, D023). Düzeltmeden ÖNCE Sava/Tisza/Tuna YANLIŞLIKLA "yok"
+   çıkıyordu — üçü de gerçekten BUYUK'te VAR.
+② 600 karakterlik ad→lat/lon arama penceresi (B-UCUZ-PARÇALAR'dan
+   KOPYALANMIŞTI) `Suçava (Suceava)` gibi ÇOK UZUN `neden:`/`kaynak:`
+   alanı taşıyan kayıtlarda YETMİYORDU — nokta SESSİZCE kaçıyordu.
+   2000'e çıkarıldı, ölçüldü: Suçava artık yakalanıyor.
+③ `atlasta_var:"taranmadı"` gibi bir STRING damga, Python'da
+   `bool("taranmadı")==True` olduğu için YANLIŞLIKLA "yanlış beyan"
+   sayılıyordu — string değerler artık "damga" (ölçülemedi) olarak AYRI
+   işleniyor, doğru/yanlış karşılaştırmasına sokulmuyor.
+```
+📌 **Üçü de D010'un aynı dersini tekrarlıyor: bir denetim yalnız
+SENTETİK veriyle değil GERÇEK veriyle de sınanmalı** — sentetik
+testlerimin hiçbiri bu üç hatayı yakalayamazdı çünkü onları YAZAN kişi
+(ben) aynı kör noktayı sentetik veriye de taşımıştı.
+
+**Düzeltmeden SONRA gerçek veride kalan GERÇEK bulgular:**
+```
+🔴 `avusturya` / `lehistan-litvanya` devletler.js'te YOK — gerçek id'ler
+   `habsburg` / `lehistan`. 4 Karlofça kaydı bunu taşıyor.
+   ⚠️ AMA BU TEK BAŞINA "yazarın hatası" değil — `avusturya` yerlesimler.js
+   ailesinde `d:`/`s:` alanı olarak **173 KEZ** kullanılıyor (`habsburg`
+   yalnız 2 kez) — yani C kaydının yazarı YERLEŞİK bir konvansiyonu takip
+   etti, ama o konvansiyonun KENDİSİ devletler.js'in dizini ile UYUŞMUYOR.
+   Bu, bu görevin kapsamı DIŞINDA bir ÖNCEDEN VAR OLAN sistemik boşluk
+   (muhtemelen "künyesiz" sınıfının bir üyesi, `denetle.py`nin zaten
+   izlediği bir kova) — burada YALNIZ İŞARETLENDİ, düzeltilmedi.
+🟡 `kaynak.madde` alanı 5/7 kayıtta BOŞ — ama bu kısmen bir ŞEMA
+   TUTARSIZLIĞI: bu kayıtlar `madde` yerine `ad:"karlofca"` (TDV madde
+   başlığı) kullanıyor. Emre'nin M-3329 kuralı (antlaşma metni birincil,
+   TDV onu AKTARIYORSA kural bozulmuyor) burada muhtemelen İHLAL
+   EDİLMİYOR — ama alan adı standartlaşmalı (`madde` mi `ad` mı, TEK
+   isim seçilmeli).
+🟡 `Korent kıyısı` kaydı `tur:"bolge"` taşıyor — şemanın üç türüne
+   (yerlesim/nehir/dag) uymuyor. Yeni bir tür mü gerekiyor, yoksa bu
+   kayıt YANLIŞ mı sınıflandırılmış — KARAR gerektiriyor, ben karar
+   VERMEDİM.
+```
+
+### ③ Önceki maddeler (C1-C4) hâlâ geçerli mi?
+
+Evet — dördü de yeni 6 kayıtla (Karlofça'nın parçaları) tekrar çalıştı,
+hiçbiri güvenilmezleşmedi. C1 yukarıdaki avusturya/lehistan bulgusunu
+ZATEN kendi mekanizmasıyla yakaladı (yeni bir değişiklik gerekmedi).
+
+### ④ Kapsama kenarında süreksizlik — ÖLÇÜLEMEDİ, ama çerçevesi net
+
+Bu soru (bir yerleşim C alanının içinde ama peteği dışına taşarsa ne
+olur) **gerçek petek geometrisi olmadan yanıtlanamaz** — `arac/` donuk.
+Çerçeve: `kapsama.kutu`nun kenarında, İÇERİDE `gereken_cografya`nın
+belirlediği sahiplik, DIŞARIDA A/B'nin Voronoi/emilme sonucu geçerli
+olacak; ikisinin kenarda ÇAKIŞMAMASI (aynı petek her iki kuralda da AYNI
+tarafa düşmesi) SEMA-C'nin kendi SINAV 2'sinin (referans-koşu diff) işi.
+Bu betik bunu SIMÜLE edemez — D107: konum/çerçeve verildi, ölçüm
+YAPILAMADI.
+
+---
+
 ## Öz-değerlendirme (D107)
 
 - **ÖLÇÜLDÜ:** Midye-Enez'in kronoloji senkronu (bağımsız, iki ayrı

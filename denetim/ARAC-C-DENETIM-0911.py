@@ -159,6 +159,21 @@ def en_yakin_gun_farki(hedef, gun_listesi_no):
 # ============================================================================
 # C1 — TARAF KÜNYESİ GEÇERLİLİĞİ
 # ============================================================================
+def _pad(s):
+    """🔴 ÜÇ HANELİ YIL TUZAĞI (CLAUDE.md §3.5.0, D-serisi bilinen vaka):
+    `"697-01-01" <= "1699-01-26"` ham string karşılaştırmasında YANLIŞ
+    (`"6" > "1"`). Bu betiğin İLK koşusu TAM BU TUZAĞA düştü — venedik'in
+    GERÇEK f:"697-01-01"si "C kaydından SONRA kuruldu" diye YANLIŞ
+    raporlandı. Yıl kısmını 4 haneye tamamlayıp karşılaştırmak ÇÖZÜM
+    (aynı proje içinde başka üç yerde de aynı düzeltme yapılmış — CLAUDE.md
+    kaydı)."""
+    if not s:
+        return s
+    parca = s.split("-", 1)
+    yil = parca[0].rjust(4, "0")
+    return yil + ("-" + parca[1] if len(parca) > 1 else "")
+
+
 def c1_taraf_gecerliligi(kayit, devlet_ix):
     """`taraflar` alanı TAM İKİ, GERÇEK ve BİRBİRİNDEN FARKLI devletler.js
     id'si taşıyor mu, ve bu iki devletin kendi ömrü (f/t) C kaydının [f,t)
@@ -178,9 +193,9 @@ def c1_taraf_gecerliligi(kayit, devlet_ix):
             continue
         kf, kt = devlet_ix[tid]
         cf, ct = kayit.get("f"), kayit.get("t")
-        if kf and cf and kf > cf:
+        if kf and cf and _pad(kf) > _pad(cf):
             hatalar.append(f"`{tid}` C kaydından ({cf}) SONRA kuruldu ({kf}) — taraf o tarihte yoktu")
-        if kt and ct and kt < ct:
+        if kt and ct and _pad(kt) < _pad(ct):
             hatalar.append(f"`{tid}` C kaydı bitmeden ({ct}) ÖNCE bitti ({kt}) — taraf o tarihte yoktu")
     return hatalar
 
@@ -300,6 +315,190 @@ def c4_kaynak_butunlugu(kayit):
 
 
 # ============================================================================
+# 🔴🔴 M-3463 GENİŞLEMESİ (Emre'nin C tanım düzeltmesi) — C5/C6
+# "C uygulanınca artık tavan, enklav düzeltme, koridor doldurma, boşluk
+# kapatma, arazi bölüşme filan hiçbir şey kalmaz. Belgede ne varsa o çizilir."
+# ⇒ kapsama.kutu İÇİNDE A/B'nin sezgisel mekanizmaları (emilme dahil) KAPALI.
+# Bu iki denetim `SEMA-C-0911.md §9.3`ün YENİ şema alanlarını (gereken_
+# cografya, kapsama.sezgi_kapali) doğrular.
+# ============================================================================
+sys.path.insert(0, os.path.join(KOK, "denetim"))
+try:
+    from importlib import import_module
+    _normal_mod = import_module("ARAC-NORMAL-0903".replace("-", "_"))
+except Exception:
+    _normal_mod = None
+    # dosya adı tire içeriyor, doğrudan import edilemez — aşağıda dosya
+    # yolundan yükleniyor (D023: kendi normalleştiricimi YAZMIYORUM, VAR
+    # OLANI çağırıyorum, yalnız Python'un tire-isim kısıtını aşıyorum).
+if _normal_mod is None:
+    import importlib.util
+    _yol = os.path.join(KOK, "denetim", "ARAC-NORMAL-0903.py")
+    _spec = importlib.util.spec_from_file_location("arac_normal_0903", _yol)
+    _normal_mod = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(_normal_mod)
+norm = _normal_mod.norm
+
+
+def yerlesim_listesi_yukle():
+    """Tüm GIRDI_DOSYALARI'ndan (ad, lat, lon) listesi — C1'in yaptığı gibi
+    kendi mini-ayrıştırıcı, yalnız isimlendirme için (D023: petek/sahiplik
+    hesaplamıyor, `girdi.py`nin GIRDI_DOSYALARI listesini AYNEN kullanıyor)."""
+    sys.path.insert(0, os.path.join(KOK, "arac"))
+    import girdi as _girdi
+    out = []
+    for dosya in _girdi.GIRDI_DOSYALARI:
+        try:
+            txt = io.open(os.path.join(KOK, "data", dosya), encoding="utf-8").read()
+        except Exception:
+            continue
+        for m in re.finditer(r'\{\s*ad:"([^"]+)"', txt):
+            # 🔴 BULUNDU (bu betiğin kendi hatası): B-UCUZ-PARÇALAR'ın 600 karakterlik
+            # penceresi buradan KOPYALANMIŞTI, ama `yerlesimler.js:422` (Suçava)
+            # gibi çok uzun `neden:`/`kaynak:` alanı taşıyan kayıtlarda `lat:`
+            # 600 karakterin ÖTESİNDE kalıyor — nokta SESSİZCE KAÇIYORDU (C5/C6
+            # bunu farkında olmadan "yok" sayardı). 2000'e çıkarıldı, ölçüldü:
+            # Suçava artık yakalanıyor.
+            pencere = txt[m.end():m.end() + 2000]
+            lm = re.search(r'lat:([\-0-9.]+),\s*lon:([\-0-9.]+)', pencere)
+            if lm:
+                out.append((m.group(1), float(lm.group(1)), float(lm.group(2)), dosya))
+    return out
+
+
+def c5_kapsama_kaplama(kayit, yerlesim_listesi):
+    """M-3463 §9.3① — kapsama kutusu İÇİNDEKİ HER GERÇEK yerleşim,
+    `gereken_cografya`da anılıyor mu? Anılmıyorsa: sezgi kapalıyken bu
+    nokta HİÇBİR mekanizmayla bir tarafa atanmaz — Değişmez 1'in doğrudan
+    ihlali (delik)."""
+    kutu = kayit.get("kapsama", {}).get("kutu")
+    if not kutu:
+        return ["`kapsama.kutu` yok — kaplama testi yapılamaz"]
+    gereken = kayit.get("gereken_cografya") or []
+    gereken_norm = {norm(g.get("ad", "")) for g in gereken if isinstance(g, dict)}
+    sezgi_kapali = kayit.get("kapsama", {}).get("sezgi_kapali")
+    delikler = []
+    for ad, lat, lon, dosya in yerlesim_listesi:
+        if not (kutu["lat_min"] <= lat <= kutu["lat_max"] and
+                kutu["lon_min"] <= lon <= kutu["lon_max"]):
+            continue
+        if norm(ad) not in gereken_norm:
+            delikler.append(f"`{ad}` ({dosya}) kutunun İÇİNDE ama `gereken_cografya`da YOK")
+    if delikler and sezgi_kapali is not True:
+        delikler.insert(0, "⚠️ `kapsama.sezgi_kapali` alanı YOK/false — bu kayıt M-3463 "
+                           "ÖNCESİ şemayla yazılmış, GÖÇ GEREKİYOR (aşağıdaki delikler "
+                           "bugün için teorik, sezgi_kapali:true olduğunda GERÇEKLEŞİR)")
+    return delikler
+
+
+def _buyuk_sade_kumesi():
+    """arac/uret_petek.py'nin BUYUK setini AYNEN okur (kopyalamaz, dosyadan
+    çeker) — D023."""
+    txt = io.open(os.path.join(KOK, "arac", "uret_petek.py"), encoding="utf-8").read()
+    i = txt.index("BUYUK = {")
+    j = txt.index("}", i)
+    # küme literali birden çok satıra yayılıyor, yorum satırları (#...) VAR —
+    # yalnız tırnak içindeki dizeleri çek.
+    blok = txt[i:j]
+    adlar = re.findall(r'"([^"]+)"', blok)
+    return {norm(a) for a in adlar}
+
+
+def _nehir_scalerank_kumesi():
+    yol = os.path.join(KOK, "veri-kaynak", "ne_10m_rivers.geojson")
+    try:
+        gj = json.load(io.open(yol, encoding="utf-8"))
+    except Exception:
+        return None  # ölçülemedi — dosya yok/okunamadı
+    out = {}
+    for f in gj["features"]:
+        pr = f["properties"]
+        for alan in ("name", "name_en", "name_alt"):
+            ad = pr.get(alan)
+            if ad:
+                try:
+                    sr = float(pr.get("scalerank"))
+                except (TypeError, ValueError):
+                    sr = 99.0
+                n = norm(ad)
+                if n not in out or sr < out[n]:
+                    out[n] = sr
+    return out
+
+
+def _ad_varyantlari(ad):
+    """"Tuna (Danube)" → ["tuna (danube)", "tuna", "danube"]. Ana ad +
+    parantez içi alternatif ad — projenin KENDİ deseni (`denetle.py`
+    `_madde_yeri_aniyor`, `re.sub(r"\\s*\\(.*?\\)", "", ad)`) burada AYNEN
+    uygulandı (D023: kendi ayrıştırıcı YAZILMADI, var olan desen taşındı)."""
+    varyantlar = [norm(ad)]
+    ana = re.sub(r"\s*\(.*?\)", "", ad).strip()
+    if ana and ana != ad:
+        varyantlar.append(norm(ana))
+    ic = re.findall(r"\(([^)]*)\)", ad)
+    for i in ic:
+        if i.strip():
+            varyantlar.append(norm(i.strip()))
+    return varyantlar
+
+
+def c6_gereken_cografya_dogrulama(kayit, yerlesim_ix_norm, buyuk_sade, nehir_scalerank):
+    """M-3463 §9.3② — `gereken_cografya`daki HER kalem gerçekten atlasta var
+    mı? İKİ KAPI kuralı nehirler için AYNEN uygulanır (ad listesi ∪
+    scalerank<=5.0) — yalnız ad listesine bakıp yanlış hüküm vermemek için."""
+    hatalar = []
+    for g in (kayit.get("gereken_cografya") or []):
+        ad, tur = g.get("ad", "?"), g.get("tur")
+        iddia = g.get("atlasta_var")
+        varyantlar = _ad_varyantlari(ad)
+        if tur == "yerlesim":
+            gercek = any(v in yerlesim_ix_norm for v in varyantlar)
+        elif tur == "nehir":
+            kapi1 = any(v in buyuk_sade for v in varyantlar)
+            kapi2 = (nehir_scalerank is not None and
+                     any(v in nehir_scalerank and nehir_scalerank[v] <= 5.0 for v in varyantlar))
+            gercek = kapi1 or kapi2
+            if not kapi1 and not kapi2 and nehir_scalerank is None:
+                hatalar.append(f"`{ad}` (nehir): scalerank verisi OKUNAMADI — "
+                                f"yalnız AD LİSTESİ kontrol edildi, İKİNCİ KAPI "
+                                f"ÖLÇÜLEMEDİ (D107)")
+                continue
+        elif tur == "dag":
+            if g.get("lat") is None or g.get("lon") is None:
+                hatalar.append(f"`{ad}` (dağ): koordinat YOK — FEATURECLA yakınlık "
+                                f"testi ÖLÇÜLEMEDİ (D107, bu betik motorun dağ "
+                                f"mekanizmasını AD ile değil FEATURECLA ile eşleştiği "
+                                f"için isim tek başına yeterli veri değil)")
+                continue
+            hatalar.append(f"`{ad}` (dağ): FEATURECLA yakınlık testi bu betikte "
+                            f"UYGULANMADI — SEMA-C/KAPSAM-C-0911'in ölçtüğü yöntem "
+                            f"(ne_10m_geography_regions_polys.geojson) burada TEKRARLANMADI, "
+                            f"ayrı bir betik gerektirir (D107: ölçülemedi)")
+            continue
+        else:
+            hatalar.append(f"`{ad}`: `tur` alanı tanınmıyor ({tur!r}) — "
+                            f"'yerlesim'|'nehir'|'dag' olmalı")
+            continue
+        if isinstance(iddia, str):
+            # 🔴 BULUNDU: `atlasta_var:"taranmadı"` gibi bir DAMGA da kullanılıyor
+            # (D107'nin kendi diliyle) — bu bir `True`/`False` iddiası DEĞİL,
+            # "ölçülemedi" beyanı. `bool("taranmadı")` Python'da True'dur ve
+            # ilk sürümüm bunu YANLIŞ BEYAN sanıyordu — düzeltildi: string
+            # değer bir DAMGA sayılır, doğru/yanlış KARŞILAŞTIRMASINA sokulmaz.
+            hatalar.append(f"`{ad}` ({tur}): `atlasta_var:\"{iddia}\"` bir DAMGA "
+                            f"(ölçülemedi türünde) — betik bunu doğrulayamaz, "
+                            f"içerik oturumu GERÇEK ölçüm yapmalı (bu betiğin "
+                            f"kendi ölçümü: {gercek})")
+        elif iddia is not None and bool(iddia) != gercek:
+            hatalar.append(f"`{ad}` ({tur}): kayıt `atlasta_var:{iddia}` diyor ama "
+                            f"GERÇEK durum {gercek} — kayıt YANLIŞ BEYAN taşıyor")
+        elif iddia is None:
+            hatalar.append(f"`{ad}` ({tur}): `atlasta_var` alanı YOK (gerçek durum: "
+                            f"{gercek}) — alan ZORUNLU, doldurulmalı")
+    return hatalar
+
+
+# ============================================================================
 # SENTETİK SINAV KAYITLARI — D187/D010: her denetimin BİLİNEN pozitifi VE
 # BİLİNEN negatifi (bu betiğin İÇİNDE — data/'ya YAZILMADI, yalnız bellekte)
 # ============================================================================
@@ -364,7 +563,54 @@ def oz_sinav(devlet_ix, gun_no_kumesi):
           f"{'✓ YAKALADI' if pozitif_ok3 else '✗ KAÇIRDI'}")
     sonuc["C3"] = pozitif_ok3
 
-    return sonuc
+    # --- C5 (kapsama kaplama, M-3463 §9.3①) ---
+    sentetik_yerlesim = [("test-nokta-a", 40.0, 30.0, "sentetik"),
+                         ("test-nokta-b", 40.05, 30.05, "sentetik")]
+    kayit_eksik = {
+        "kapsama": {"kutu": {"lat_min": 39.9, "lat_max": 40.1,
+                             "lon_min": 29.9, "lon_max": 30.1},
+                    "sezgi_kapali": True},
+        "gereken_cografya": [{"ad": "test-nokta-a", "tur": "yerlesim"}],
+    }
+    h_c5_eksik = c5_kapsama_kaplama(kayit_eksik, sentetik_yerlesim)
+    pozitif_ok5a = any("test-nokta-b" in h for h in h_c5_eksik)
+    kayit_tam = {
+        "kapsama": {"kutu": {"lat_min": 39.9, "lat_max": 40.1,
+                             "lon_min": 29.9, "lon_max": 30.1},
+                    "sezgi_kapali": True},
+        "gereken_cografya": [{"ad": "test-nokta-a", "tur": "yerlesim"},
+                             {"ad": "test-nokta-b", "tur": "yerlesim"}],
+    }
+    h_c5_tam = c5_kapsama_kaplama(kayit_tam, sentetik_yerlesim)
+    pozitif_ok5b = len(h_c5_tam) == 0
+    print(f"C5 (kapsama kaplama)    eksik liste → {len(h_c5_eksik)} delik "
+          f"{'✓ YAKALADI' if pozitif_ok5a else '✗ KAÇIRDI'}  |  "
+          f"tam liste → {len(h_c5_tam)} delik "
+          f"{'✓ DOĞRU (temiz geçti)' if pozitif_ok5b else '✗ YANLIŞ-POZİTİF'}")
+    sonuc["C5"] = pozitif_ok5a and pozitif_ok5b
+
+    # --- C6 (gereken_cografya doğrulama, M-3463 §9.3②) ---
+    yerlesim_listesi_gercek = yerlesim_listesi_yukle()
+    yerlesim_ix_norm = {norm(y[0]) for y in yerlesim_listesi_gercek}
+    buyuk_sade = _buyuk_sade_kumesi()
+    nehir_sr = _nehir_scalerank_kumesi()
+    kayit_c6_test = {"gereken_cografya": [
+        {"ad": "Enez", "tur": "yerlesim", "atlasta_var": True},          # GERÇEK, doğru beyan
+        {"ad": "Uydurulmus Sehir 123", "tur": "yerlesim", "atlasta_var": True},  # YANLIŞ beyan
+        {"ad": "Meriç", "tur": "nehir", "atlasta_var": True},            # GERÇEK (BUYUK'te var)
+        {"ad": "Uydurulmus Nehir 456", "tur": "nehir", "atlasta_var": True},     # YANLIŞ beyan
+    ]}
+    h_c6 = c6_gereken_cografya_dogrulama(kayit_c6_test, yerlesim_ix_norm, buyuk_sade, nehir_sr)
+    yakalanan_yanlislar = sum(1 for h in h_c6 if "YANLIŞ BEYAN" in h)
+    pozitif_ok6 = yakalanan_yanlislar == 2  # iki uydurma kayıt YAKALANMALI
+    yanlislikla_yakalanan_gercekler = sum(1 for h in h_c6
+                                          if ("Enez" in h or "Meriç" in h) and "YANLIŞ" in h)
+    print(f"C6 (gereken_cografya)   2 gerçek + 2 uydurma → {yakalanan_yanlislar}/2 uydurma "
+          f"YAKALANDI {'✓' if pozitif_ok6 else '✗'}, gerçekler yanlış işaretlendi mi: "
+          f"{yanlislikla_yakalanan_gercekler} {'✓ (0 olmalı)' if yanlislikla_yakalanan_gercekler == 0 else '✗ YANLIŞ-POZİTİF'}")
+    sonuc["C6"] = pozitif_ok6 and yanlislikla_yakalanan_gercekler == 0
+
+    return sonuc, yerlesim_listesi_gercek, yerlesim_ix_norm, buyuk_sade, nehir_sr
 
 
 # ============================================================================
@@ -383,7 +629,8 @@ def main():
     print(f"[VERİ] {len(gun_listesi)} benzersiz gün bulundu")
 
     # ---- ÖZ-SINAV ÖNCE — denetimler GÜVENİLİR Mİ? ----
-    oz = oz_sinav(devlet_ix, gun_no_kumesi)
+    oz, yerlesim_listesi_gercek, yerlesim_ix_norm, buyuk_sade, nehir_sr = \
+        oz_sinav(devlet_ix, gun_no_kumesi)
     guvenilmez = [k for k, v in oz.items() if not v]
     if guvenilmez:
         print(f"\n🔴🔴 GÜVENİLMEZ DENETİM(LER): {guvenilmez} — bunlar 'temiz' RAPORU VERSE"
@@ -430,6 +677,24 @@ def main():
                 print(f"      - {h}")
         else:
             print("  C4 kaynak bütünlüğü: ✓ (tur/madde/alıntı dolu, ikincil damgalı)")
+
+        h5 = c5_kapsama_kaplama(kayit, yerlesim_listesi_gercek)
+        if h5:
+            toplam_ihlal += len([h for h in h5 if not h.startswith("⚠️")])
+            print(f"  C5 kapsama kaplama: ✗ {len(h5)} bulgu")
+            for h in h5:
+                print(f"      - {h}")
+        else:
+            print("  C5 kapsama kaplama: ✓ (kutu içindeki her yerleşim gereken_cografya'da)")
+
+        h6 = c6_gereken_cografya_dogrulama(kayit, yerlesim_ix_norm, buyuk_sade, nehir_sr)
+        if h6:
+            toplam_ihlal += len(h6)
+            print(f"  C6 gereken_cografya doğrulama: ✗ {len(h6)} sorun")
+            for h in h6:
+                print(f"      - {h}")
+        else:
+            print("  C6 gereken_cografya doğrulama: ✓ (kayıt yok ya da hepsi doğrulandı)")
 
     h3 = c3_c_ile_c_cakismasi(kayitlar)
     if h3:
