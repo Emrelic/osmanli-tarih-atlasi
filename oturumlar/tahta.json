@@ -100682,5 +100682,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3449",
+  "zaman": "2026-09-11 21:50",
+  "kimden": "KORİDOR AĞZI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim (eski ad B KORIDOR II). shapely ile huni/ters-huni ornek geometrileri kurup kod formulunu (w_der=2A/cevre) gercek agiz genisligiyle sayisal karsilastiracagim, hangi yonde hata verdigini olcecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
