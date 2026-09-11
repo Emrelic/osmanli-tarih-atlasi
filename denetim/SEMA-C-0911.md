@@ -226,6 +226,48 @@ büyük ölçüde A/B'nin işi, C'nin değil.
 
 ---
 
+## 4b. İKİNCİ PİLOT — MİDYE-ENEZ (C PİLOT MİDYE-ENEZ, aynı gün) — EN GÜÇLÜ ÖRNEK
+
+Karlofça zayıf bir örnekti (5 maddenin 4'ü C'ye ihtiyaç duymuyordu). Midye-Enez
+(Londra Antlaşması 1913, Madde II) **en güçlü örnek**: antlaşmanın kendi metni
+*"a line drawn from Enos on the Aegean Sea to Midia on the Black Sea"* diyor —
+hiçbir doğal unsura (nehir/dağ) dayanmıyor, düz/cetvel çizgisi. Tam kodlama:
+`denetim/PILOT-C-MIDYE-ENEZ-0911.json`. Üç somut ilerleme:
+
+**① KAPSAMA ALANI ARTIK FORMÜLLÜ.** Karlofça pilotu kapsama'yı yalnız bir bbox
+*önerisi* olarak bırakmıştı ("kesin koordinat SONRAKİ iş"). Bu pilot bir
+**cross-product testi** verdi: `A`=Enez, `B`=Midye, herhangi bir `P` noktası için
+`cross = (B.lon-A.lon)*(P.lat-A.lat) - (B.lat-A.lat)*(P.lon-A.lon)`; işaret
+tarafı belirler. İstanbul (-2,08 → Osmanlı) ve Kırklareli (+0,99 → Balkan) ile
+doğrulandı — Kırklareli bu antlaşmayla gerçekten geçici olarak Bulgaristan'a
+geçmişti. ⇒ §2.3'ün "kapsama nasıl poligona çevrilir" sorusunun **düz çizgili
+hatlar için** somut cevabı budur (eğri hatlar için hâlâ açık, bkz. §4 SONUÇ).
+
+**② NOKTA-EKSİĞİ İKİ SINIFA AYRILDI.** Karlofça'nın Bosna kale örneği
+(Kostayniça vb.) "②NOKTA-ATAMASI, nokta yok, çare C değil nokta eklemek"
+diyordu. Midye-Enez'de de bir uç (Midye/Kıyıköy) nokta olarak YOK, ama bu kez
+**①HAT tipi** bir sınır — ve hat kendi kapsama alanı içinde Voronoi'nin
+YERİNE geçtiği için nokta OLMADAN DA çalışıyor. ⇒ **Kural netleşti: nokta
+eksikliği yalnız ②'de (nokta-atamasında) BLOKE EDİCİdir; ①'de (hat+kapsama)
+İSTEĞE BAĞLIDIR** (genel harita tamlığı için faydalı ama C'nin çalışması buna
+bağlı değil). İki pilot bu ayrımı BİRLİKTE ispatlıyor.
+
+**③ C KAYDININ ÖLÜMÜ ÇÖZÜLDÜ — §5③'ün önerisi doğrulandı.** Midye-Enez hattı
+fiilen 29 Haziran 1913'te (II. Balkan Savaşı, Osmanlı ordusu hattı aştı) sona
+erdi; hukuken 29 Eylül 1913'te (İstanbul Antlaşması, Meriç sınırı) yeni bir
+çizgiyle değişti. Bulgu: **`f:`/`t:` standart deseni YETER, ayrı bir "artık
+geçersiz" beyanına gerek yok.** `t:` dolduğunda ve ardıl bir C kaydı yoksa
+bölge otomatik A/B'ye (Voronoi + varsa doğal yaslama) döner — çünkü kapsama
+zaten yalnız o kaydın `f:`/`t:` penceresinde geçerlidir. Ve ardıl (Meriç)
+zaten C GEREKTİRMİYOR (Meriç `BUYUK`'te tanınıyor, `BİRİNCİL-C-0911`'de
+ölçüldü) — yani bu örnekte üstüne binen şey yeni bir C kaydı değil, sade A/B.
+
+📌 Ders: hat-tipi (Midye-Enez) ile nokta-atama-tipi (Karlofça Bosna kaleleri)
+sınırların nokta-bağımlılığı FARKLI — bir "C'ye nokta lazım mı" sorusu tek
+cevaplı değil, sınıfa göre değişiyor.
+
+---
+
 ## 5. AÇIK SORULAR — Emre'ye
 
 ```

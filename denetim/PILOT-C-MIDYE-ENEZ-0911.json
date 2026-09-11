@@ -1,0 +1,61 @@
+{
+ "meta": {
+  "olusturan": "C PİLOT MİDYE-ENEZ",
+  "tarih": "2026-09-11",
+  "gorev": "Midye-Enez hattini (Londra Antlasmasi 1913, Madde II) uctan uca C semasiyla kodlamak -- Karlofca'nin (zayif ornek) tersine EN GUCLU C ornegi",
+  "kaynak_kurali": "Antlasma metni birincil (Wikisource nesri, zaten BIRINCIL-C-0911'de bulundu). Koordinatlar icin Wikipedia (Kiyikoy/Midye maddesi) -- akademik/guvenilir; firstworldwar.com denendi, SSL sertifikasi GECERSIZ cikti, KULLANILMADI."
+ },
+
+ "①_hat": {
+  "aciklama": "Enez (Ege) - Midye/Kiyikoy (Karadeniz) arasi, antlasma metninin kendi ifadesiyle: 'a line drawn from Enos on the Aegean Sea to Midia on the Black Sea'",
+  "baslangic": {
+   "ad": "Enez", "lat": 40.724, "lon": 26.075,
+   "kaynak": "data/yerlesimler.js:126 (MEVCUT NOKTA, uydurulmadi -- projenin kendi verisi)",
+   "dogrulanmadi": false
+  },
+  "bitis": {
+   "ad": "Midye (bugunku Kiyikoy, Kirklareli/Vize)", "lat": 41.63528, "lon": 28.09611,
+   "kaynak": "Wikipedia 'Kıyıköy' maddesi, 41°38'07\"N 28°05'46\"E -- NOKTA OLARAK YOK (yerlesimler.js'te aranmadi/bulunamadi), bu yuzden koordinat DIS kaynaktan alindi ve acikca boyle isaretleniyor",
+   "dogrulanmadi": false,
+   "not": "Ikinci bir kaynak (latitude.to, 41.6345/28.0910) ~1 km fark ile TEYIT etti -- iki bagimsiz kaynak uyusuyor, guven yuksek"
+  },
+  "tur": "duz_cizgi_cetvel",
+  "birincil_metin_notu": "Antlasma metni SADECE 'Enos'tan Midia'ya bir hat' diyor, ARA GUZERGAHI TARIF ETMIYOR. Ikincil bir kaynak (WebSearch ozeti, firstworldwar.com kokenli) hattin Meric nehrini bir sure TAKIP ETTIGINI iddia etti, ama bu kaynak SSL sertifikasi gecersiz oldugu icin DOGRUDAN DOGRULANAMADI ve akademik olmadigi icin ZATEN kullanilmayacakti. ⇒ Bu iddia envanterde KULLANILMIYOR, 'olculemedi' olarak isaretleniyor. Birincil metne gore hat duz kabul edildi.",
+  "demarkasyon_notu": "Antlasmanin kendisi kesin cizimi bir Uluslararasi Komisyona birakiyor (Wikipedia Treaty of London 1913 + Hansard 23 Temmuz 1913 debate, ikisi de bunu teyit ediyor); komisyonun kesin/nihai harita ciktisi bu pilotta ARANMADI (kapsam disi, D107 geregi acikca yaziliyor)."
+ },
+
+ "②_kapsama_alani": {
+  "yontem": "Cross-product testi: A=Enez(26.075,40.724), B=Midye(28.09611,41.63528). Herhangi bir P noktasi icin cross = (B.lon-A.lon)*(P.lat-A.lat) - (B.lat-A.lat)*(P.lon-A.lon). cross>0 ise P hattin KUZEYBATISINDA (Balkan/musttefik tarafi), cross<0 ise GUNEYDOGUSUNDA (Osmanli tarafi).",
+  "dogrulama": {
+   "istanbul(28.97,41.0)": "cross=-2.08 (negatif) -> Osmanli tarafi -- DOGRU, Istanbul hep Osmanli kaldi",
+   "kirklareli(27.226,41.735)": "cross=+0.99 (pozitif) -> Balkan tarafi -- DOGRU, Kirklareli bu antlasmayla GECICI olarak Bulgaristan'a gecti (2. Balkan Savasi'nda geri alindi)"
+  },
+  "bbox_oneri": {"tur": "bbox", "kutu": {"lat_min": 40.5, "lat_max": 42.0, "lon_min": 25.8, "lon_max": 29.3},
+    "not": "Ege'den Karadeniz'e Trakya yarimadasinin tamamini kapsayan kaba kutu; hattin GERCEKTEN gectigi dar seridi kapsiyor, Istanbul'un batisinda kaliyor (28.97 < 29.3 sinirinda -- Istanbul'un KENDISI bu kutunun icinde ama cross-testiyle doğru tarafa dusuyor)."},
+  "taraf_a_taraf_b": {"taraf_a": "balkan-devletleri (Bulgaristan agirlikli, 1913 Londra antlasmasinda muttefik)",
+    "taraf_b": "osmanli", "yon_kurali": "cross>0 -> taraf_a, cross<0 -> taraf_b"},
+  "SEMA_C_bulgusuyla_iliski": "SEMA-C-0911 §2.3'un dedigi gibi HAT TEK BASINA yetmiyordu -- bu pilot cross-product testiyle kapsama sorununu SOMUT bir FORMULE cevirdi (Karlofca pilotu bunu YALNIZ bbox onerisiyle birakmisti, hesaplama kurali vermemisti). Bu, ikinci pilotun ilkine kattigi somut ilerleme."
+ },
+
+ "③_midye_nokta_eksigi": {
+  "tespit": "Midye/Kiyikoy yerlesimler.js ailesinde (77 dosya) NOKTA olarak YOK -- BIRINCIL-C-0911'de de, bu pilotta da dogrulandi.",
+  "soru": "C hatti bu noktasizligi telafi ediyor mu, yoksa nokta EKLENMELI mi?",
+  "cevap": "IKISI DE, AMA FARKLI ISLER: C hatti kendi KAPSAMA ALANI icinde (yukaridaki bbox) Voronoi'nin YERINE GECTIGI icin, Midye NOKTASIZ OLSA BILE o bolgenin hangi tarafa dustugu C mekanizmasiyla KESIN olarak belirlenir -- yani HARITA DOGRULUGU icin nokta EKLENMESI SART DEGIL, C zaten calisir. AMA: (1) Midye/Kiyikoy kendisi bir YERLESIM -- kullanicinin haritada goreceği bir nokta/kasaba OLARAK eksik (genel harita tamligi, kullanici deneyimi sorunu, C'nin isi degil); (2) eger ILERIDE bu bolgede BASKA bir C kaydi (ornegin daha erken/gec bir Trakya siniri) gerekirse, YAKINDA bir nokta olmadan yeni hatlarin uc noktalarini DOGRULAMAK zorlasir. ⇒ ONERI: Midye/Kiyikoy'un nokta olarak eklenmesi AYRI, ISTEGE BAGLI bir §2 isidir -- C PİLOT'un KENDISI icin BLOKE EDICI DEGIL, ama genel harita kalitesi icin FAYDALI OLURDU.",
+  "SEMA_C_bulgusuyla_iliski": "SEMA-C-0911 §3.3'teki Bosna kale ornegi (Kostayniça, Bihke, Novi, Krupa) 'nokta YOK, care C DEGIL nokta eklemek' diyordu -- ORADA nokta-atamasi (②) sinifiydi, C'nin isi degildi. BURADA ise hat-tipi (①) bir sinir, nokta OLMADAN DA calisir -- iki durum FARKLI: nokta-atamasinda nokta ZORUNLU (o TEK mekanizma), hat-tipinde nokta ISTEGE BAGLI (kapsama alani zaten yeterli)."
+ },
+
+ "④_zaman_boyutu": {
+  "olay_zinciri": [
+   {"t": "1913-05-30", "olay": "Londra Antlasmasi imzalandi, Midye-Enez hatti CIZILDI", "kaynak": "Wikisource antlasma metni"},
+   {"t": "1913-06-29", "olay": "II. Balkan Savasi basladi; Osmanli ordusu Midye-Enez hattini ASTI, Edirne ile Dogu Trakya'yi FIILEN geri aldi", "kaynak": "data/olaylar_ek5.js:403 (projenin kendi kaydi, kaynak:'osmanlilar')"},
+   {"t": "1913-09-29", "olay": "Istanbul Antlasmasi: Meric nehri YENI (ve kalici) sinir olarak KABUL EDILDI, Edirne/Kirklareli Osmanli'da TESCIL edildi", "kaynak": "data/olaylar_ek5.js:404"}
+  ],
+  "onerilen_C_kaydi_omru": {"f": "1913-05-30", "t": "1913-06-29",
+    "gerekce": "Atlasin kendi konvansiyonu (§10, kronoloji ile harita SENKRON olmali) FIILI TASARRUFU esas alir -- kagit uzerindeki antlasma tarihini degil. Ordu hatti astigi an (29 Haziran) bu C kaydinin GECERLILIGI FIILEN biter; 30 Eyul'deki Istanbul Antlasmasi yalniz bunu HUKUKEN TESCIL eder (D076: 'idari devir sahiplik degisimi degildir' dersinin ZAMAN yonu)."},
+  "bosluk_sorunu": "29 Haziran - 29 Eylul arasi (3 ay) bu bolgenin C kaydi YOK -- Midye-Enez hatti kapandi ama Meric hatti (YENI C ya da A/B kaydi) henuz baslamadi. Bu ARADAKI donemde bolge FIILEN Osmanli elindeydi (savas + fiili geri alim), yani dogru davranis A/B'nin (Edirne/Kirklareli gibi NOKTALARIN d:/s: dizisi) bu 3 ayi ZATEN Osmanli olarak isaretlemesidir -- C'nin BOS BIRAKTIGI arayi A/B doldurur, cunku Meric hem BUYUK'te tanili HEM de yerlesim noktalari (Edirne, Kirklareli) zaten MEVCUT. C'YE GEREK KALMAZ.",
+  "ardil_kayit": "Meric siniri (1913-09-29'dan itibaren) C GEREKTIRMIYOR -- BIRINCIL-C-0911'de zaten olculdu: Meric nehri arac/uret_petek.py'nin BUYUK setinde TANINIYOR ('Maritsa','Meric'), yani A/B + dogal yaslama YETER.",
+  "genel_kural_onerisi": "Bir C kaydi KAPANDIGINDA (t: dolduğunda) VE ayni bolgede hemen bir ardil C kaydi YOKSA, o bolge OTOMATIK olarak A/B'ye (Voronoi + varsa dogal yaslama) DONER -- kapsama alaninin AYRICA 'kapatilmasi' gerekmez, cunku kapsama zaten yalniz o C kaydinin f:/t: penceresinde GECERLI. SEMA-C-0911 §5③'un onerisi ('yeni kayit ustune biner') bu ornekle DOGRULANDI: Midye-Enez (C) kapanir, Meric (A/B, YENI bir C kaydi DEGIL) ustune biner -- ve bu STANDART A/B DESENIYLE (donem-ustune-donem) TUTARLI, ozel bir 'hat artik gecersiz' beyanina GEREK YOK."
+ },
+
+ "sema_guncelleme_ozeti": "denetim/SEMA-C-0911.md'ye eklenen: (1) kapsama alani icin somut CROSS-PRODUCT formulu (Karlofca'da yoktu), (2) hat-tipi (①) sinirlarda nokta-eksikligi BLOKE EDICI DEGIL (nokta-atamasi (②) sinifindan FARKLI -- Karlofca'nin Bosna kale ornegiyle KARISTIRILMAMALI), (3) C kaydinin OLUMU: f:/t: STANDART deseni YETER, ayri bir 'gecersiz' beyanina GEREK YOK, ardil kayit yoksa bolge otomatik A/B'ye doner."
+}
