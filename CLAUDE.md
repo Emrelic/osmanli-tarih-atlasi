@@ -2353,3 +2353,4 @@ Notlar:
 - 🔴🔴 **`t:` ALANI İKİ ANLAMA GELİYOR — "devlet bitti" ve "atlasın penceresi bitiyor" — ve kayıtta ikisi AYRIŞTIRILAMIYOR.** — [`D195`](dersler/D195-t-alani-iki-anlama-geliyor.md)
 - 🔴 **YANLIŞ OLAY SEÇİLMİŞ — tarih doğru, metin doğru, ama tarih KOMŞU bir olayın günü.** — [`D196`](dersler/D196-yanlis-olay-secilmis-komsu-olayin-gunu.md)
 - 🔴🔴 **RSS YANLIŞ SİNYALDİ — aynı bant hem sağlıklı hem ölümcül olabiliyor, bir gecede ÜÇ yönden.** — [`D197`](dersler/D197-rss-yanlis-sinyaldi-uc-yonden.md)
+- 🔴 **BİR KOŞUNUN ÇIKTISI ALETİN HÂLİNE BAĞLIDIR — "koşu bitti" YAYININ İNDİĞİ AN DEĞİLDİR.** — [`D198`](dersler/D198-yayin-inene-kadar-alet-donuk.md)

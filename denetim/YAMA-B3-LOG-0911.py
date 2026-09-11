@@ -186,4 +186,74 @@ testte gerçek ağız genişliğine %0,5'ten yakın isabet etti.
 #     ayrisan = sum(1 for r in _B3_KALAN_IHLAL if len(r) > 5 and r[6])
 #     print(f"       -> bunlarin {ayrisan}'i agiz/govde tanimina gore "
 #           f"FARKLI karar verirdi (kod vs Emre'nin kurali)")
+
+────────────────────────────────────────────────────────────────────────
+⑥ UYGULANMIŞ NİHAİ HÂL — 12 Eylül 2026, KITA 7 (D179: BİRLEŞİK, TEK KAYNAK)
+────────────────────────────────────────────────────────────────────────
+Yukarıdaki A/B/C/D parçaları AYRI AYRI yazıldığı için birleştirme
+(B'nin gövdesi + D'nin `_B3_KALAN_IHLAL.append` satırı) UYGULAYICIYA
+BIRAKILMIŞTI. 1.MURAT'ın uyarısı üzerine (M-3531: "diff bir yedek, asıl
+kaynak bu dosya olsun, ikisi AYRIŞMASIN") üç blok TEK PARÇA, doğrudan
+yapıştırılabilir hâlde aşağıda — bu, `arac/uret_petek.py` commit
+365f4eb'de FİİLEN uygulanmış olan TAM metindir (satır numaraları o
+commit'e göre, sürüm ilerledikçe kayabilir, `denetim/
+YAMA-B3-UYGULANMIS-0912.diff` tam yedek).
+
+--- BLOK 1 — _B23_SAYAC bloğunun HEMEN ALTINA (bkz. PARÇA A) ---
+_B3_KALAN_IHLAL = []   # her öğe: (isim, km2, derinlik_km,
+                       #  genislik_km_govde_ort, sebep, genislik_km_agiz,
+                       #  tanimlar_ayrisiyor_mu)
+
+--- BLOK 2 — _b3_koridor_kirp() içinde, eski "if yasak == 'kb': ... if
+    yasak == 'yerlesim': ..." İKİ AYRI DALIN YERİNE (PARÇA B+D BİRLEŞİK) ---
+        yasak = _yasakli_mi(c, sahip_ix)
+        if yasak in ("kb", "yerlesim"):
+            try:
+                q = int(_TUM_AGAC.nearest(c.centroid))
+                isim = YERLER[q].get("ad", "?")
+            except Exception:
+                isim = "?"
+            try:
+                _agiz_genislik = agiz.length / 2.0
+            except Exception:
+                _agiz_genislik = None
+            _ayrisiyor = ((d_der > w_der) != (d_der > _agiz_genislik)
+                          if _agiz_genislik else None)
+            _B3_KALAN_IHLAL.append((
+                isim, round(alan_km2(c), 1),
+                round(d_der * 111.32, 1), round(w_der * 111.32, 1), yasak,
+                round(_agiz_genislik * 111.32, 1) if _agiz_genislik else None,
+                _ayrisiyor))
+            if yasak == "kb":
+                _B23_SAYAC["b3_kb"] += 1
+            else:
+                _B23_SAYAC["b3_yerlesim"] += 1
+            continue
+
+--- BLOK 3 — mevcut "🧩 B3 KORİDOR:" print satırının HEMEN ALTINA (PARÇA
+    C+D BİRLEŞİK) ---
+    if _B3_KALAN_IHLAL:
+        _toplam_km2 = sum(r[1] for r in _B3_KALAN_IHLAL)
+        _ayrisan = sum(1 for r in _B3_KALAN_IHLAL if len(r) > 6 and r[6])
+        print(f"  🔴 B3 KALAN İHLAL (PRE-kıyı-kesim, GÜVENİLİR): "
+              f"{len(_B3_KALAN_IHLAL)} bileşen · {_toplam_km2:,.0f} km²")
+        for isim, km2, der, gen, sebep, agiz_gen, ayrisiyor in sorted(
+                _B3_KALAN_IHLAL, key=lambda r: -r[2])[:15]:
+            print(f"       {isim:<28} {km2:>10,.0f} km²  "
+                  f"derinlik {der:>6.0f} km · gövde-genişlik {gen:>5.0f} km · "
+                  f"ağız-genişlik {agiz_gen if agiz_gen is not None else '?':>5} km  "
+                  f"[{sebep}]" + ("  ⚠️AYRIŞIYOR" if ayrisiyor else ""))
+        if len(_B3_KALAN_IHLAL) > 15:
+            print(f"       … +{len(_B3_KALAN_IHLAL) - 15} bileşen daha "
+                  f"(tam liste için ayrı bir dökümü iste)")
+        print(f"       -> bunların {_ayrisan}'i ağız/gövde tanımına göre "
+              f"FARKLI karar verirdi (kod vs Emre'nin kuralı)")
+    else:
+        print("  🟢 B3 KALAN İHLAL: 0 — SIĞ dışında hiçbir bileşen "
+              "muafiyetle atlanmadı")
+
+⚠️ ESKİ "if yasak == 'kb':" / "if yasak == 'yerlesim':" İKİ AYRI dal
+SİLİNİR, BLOK 2 onların YERİNE geçer — iki ayrı `continue` tek bir
+birleşik dala indirgeniyor, davranış (hangi bileşen doldurulur/bırakılır)
+DEĞİŞMİYOR, yalnız ikisi TEK bir yerde loglanıyor.
 """
