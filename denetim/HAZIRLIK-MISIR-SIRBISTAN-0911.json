@@ -1,0 +1,78 @@
+{
+  "olcum_notu": {
+    "④_madde_sayisi_KENDIN_DOGRULA": {
+      "sevkteki_iddia": "30 misir + 7 sirbistan = 37 (BULGU-KRONOLOJI-KUNYE-0911.md)",
+      "benim_olcumum": "28 misir + 6 sirbistan = 34 — SAYI DÜZELTİLDİ, 37 DEĞİL",
+      "yontem": "denetim/ARAC-KRONOLOJI-KUNYE-0911.py'yi bagimsiz yeniden calistirdim (BIREBIR ayni 30/7 sonucu aldim, tekrarlanabilirlik dogrulandi). Sonra kova-0 maddelerin TAM METIN listesini dokup TEK TEK okudum (script `AILE2['misir']=['memluk','misir-kavalali']` ve `AILE2['sirbistan']=[...4 kunye...]` aday listeleriyle sinirliydi).",
+      "bulgu": "3 kayit YANLIŞ ADRESE düşüyor — gerçek boşluk DEĞİL, aday-künye LİSTESİ EKSİK: '1914-12-18' ve '1915-01-14' (misir) aslında `misir-sultanligi` (f:1914-12-18, t:1922-03-15) künyesinin penceresine düşüyor ama bu künye AILE2 listesinde YOK; '1918-12-01' (sirbistan) aslında `yugoslavya` (f:1918-12-01) künyesine düşüyor ama o da listede YOK. Bu, kardeşin kendi rapordaki 'hindistan ⚪' bulgusuyla AYNI SINIF hata (aday listesi eksikliği), farklı yer.",
+      "sonuc": "Bu 3 kayıt zaten VAR OLAN künyelere (misir-sultanligi ×2, yugoslavya ×1) bağlanabilir — YENİ künyeye İHTİYAÇLARI YOK. Gerçek 'Osmanlı doğrudan eyalet dönemi' boşluğu: MISIR 28 madde (1517-05-19 → 1786-01-01 arası, hepsi 1517-04-13 ile 1805-07-03 arasında), SIRBISTAN 6 madde (1459-06-20 → 1766-01-01 arası, hepsi 1459-06-20 ile 1804-02-14 arasında).",
+      "damga": "🟢 ÖLÇÜLDÜ, kendi aracımla (bkz. denetim/ARAC-MISIR-SIRBISTAN-KOVA0-0911.py) — çürüyen bir öngörü (D022: 37 doğrulanacak sanılıyordu, 34 çıktı)."
+    }
+  },
+
+  "kunyeler": [
+    {
+      "id_onerisi": "misir-eyaleti",
+      "ad_onerisi": "Osmanlı Mısır Eyaleti",
+      "f": "1517-04-13",
+      "t": "1805-07-03",
+      "bolge": "misir-sudan",
+      "tur_onerisi": "🔴 AÇIK SORU — devletler.js'in tur sözlüğünde (beylik|cumhuriyet|devlet|dukalik|emirlik|federasyon|gecici-hukumet|gecici-isgal|hanedanlik|hanlik|imparatorluk|isyan|kralik|krallik|ocaklik|prenslik|sehzadelik|sultanlik|ulke) 'EYALET' hiç YOK. 627 künyenin HİÇBİRİ bugün bu türde değil — bu, dizindeki İLK saf-idari-dönem künyesi olur. Şema notu 'yetmezse yeni tür eklenebilir, bu listeye de yazılmalı' diyor; öneri: tur:'eyalet' eklensin. Karar Emre'nin/1.MURAT'ın.",
+      "f_kaynak": "TDV 'misir' maddesi: Tumanbay'ın idamı '21 Rebîülevvel 923 / 13 Nisan 1517' — memluk künyesinin kendi t: alanıyla BİREBİR aynı gün, bağımsız TDV doğrulaması yapıldı.",
+      "t_kaynak": "TDV 'kavalali-mehmed-ali-pasa' maddesi: '3 Temmuz 1805' — Bâbıâli tarafından valiliğe getirilme günü — misir-kavalali künyesinin kendi f: alanıyla BİREBİR aynı gün, bağımsız TDV doğrulaması yapıldı.",
+      "harita_onerisi": "🟢 HARİTA RENGİ VERİLMEMELİ (harita: alanı hiç yazılmasın)",
+      "harita_gerekcesi": "yerlesimler.js'te Mısır yerleşimleri (Kahire, İskenderiye, Dimyat, Asyut — dördü de bağımsız grep ile doğrulandı) bu dönemi ZATEN `d:` ailesinde tutuyor (doğrudan Osmanlı, örn. Kahire: `d:[{f:\"1517-02-15\",t:\"1805-07-03\",y:\"savas\"}]`), `s:` DEĞİL. Yani harita BUGÜN BİLE doğru boyanıyor — bölge zaten 'osmanli' doğrudan rengiyle çiziliyor. Yeni bir harita: anahtarı eklemek VAR OLMAYAN bir ikinci gövde icat eder (görevin kendi uyardığı risk). Emsal: devletler.js'teki 627 künyenin 376'sı ZATEN harita: TAŞIMIYOR — bu sıradan bir desen, istisna değil.",
+      "kaynak": "misir (TDV, canlı) — künye ozet metninde TDV'nin kendi kronoloji kesitleri (İbrahim Paşa Kanunnâmesi, Kazdağlı-Kāsımiyye çekişmesi, Ali Bey el-Kebir, Napolyon işgali, Kavalalı'nın valiliği) ayrıca doğrulanabilir; bu turda yalnız uç tarihler (f/t) TDV'den bağımsız doğrulandı, ARA kronoloji maddeleri (28 tanesi) TEK TEK TDV'ye karşı sınanmadı — YAZMA TURUNDA yapılmalı.",
+      "kronoloji_baglanacak_madde_sayisi": 28,
+      "kronoloji_ornekleri_ilk_5": [
+        "1517-05-19 | İskenderiye'nin teslimi — Mısır fethinin tamamlanması",
+        "1517-07-06 | Hicaz'ın Kahire üzerinden savaşsız katılışı",
+        "1525-01-01 | İbrahim Paşa Kanunnâmesi — Mısır'ın ikili idare çerçevesinin kurulması",
+        "1798-07-01 | Napolyon'un Mısır'ı işgali",
+        "1805-05-13 | Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi"
+      ]
+    },
+
+    {
+      "id_onerisi": "sirbistan-eyaleti",
+      "ad_onerisi": "Osmanlı Sırbistan'ı (Doğrudan İdare Dönemi)",
+      "f": "1459-06-20",
+      "t": "1804-02-14",
+      "bolge": "balkanlar",
+      "tur_onerisi": "aynı açık soru — bkz. misir-eyaleti",
+      "f_kaynak": "TDV 'semendire' maddesi: '20 Haziran 1459'da Lazar Brankoviç'in dul eşi Helena kaleyi Osmanlılar'a teslim etti' — sirp-despotlugu künyesinin kendi t: alanıyla BİREBİR aynı gün, bağımsız TDV doğrulaması yapıldı.",
+      "t_kaynak": "🟡 TDV 'sirbistan' maddesi yalnız YIL veriyor ('1804'te Karadjordje liderliğinde Sırp isyanı patlak verdi'), GÜN vermiyor. Gün (14 Şubat / Orašac toplantısı) Wikipedia'dan çapraz alındı, İKİNCİ AKADEMİK KAYNAKLA teyit edilmedi (zaman kısıtı) — sirbistan-prensligi künyesinin kendi f: alanı zaten bu günü taşıyor, ben YENİ bir hassasiyet ÜRETMEDİM, mevcut künyenin gününü DEVRALDIM (`§4`'ün 'künyenin f:/t: günü kaynak değildir ama devralmak uydurmak değildir' kuralı).",
+      "harita_onerisi": "🟢 HARİTA RENGİ VERİLMEMELİ (harita: alanı hiç yazılmasın)",
+      "harita_gerekcesi": "yerlesimler.js'te Sırbistan yerleşimleri (Semendire, Belgrad, Kragujevac, Çaçak — dördü de bağımsız grep ile doğrulandı) bu dönemi `d:` ailesinde tutuyor (örn. Semendire: `d:[{f:1459-06-20,t:1688-10-01},{f:1690-09-09,t:1717-08-18},{f:1738-08-01,t:1867-04-18}]`), `s:` DEĞİL — ARADA Avusturya işgal pencereleri (1688-1690, 1717-1738) zaten AYRICA doğru modellenmiş. Harita bugün de doğru; yeni harita: anahtarı gereksiz ikinci gövde icat eder.",
+      "kaynak": "sirbistan (TDV, canlı, yıl düzeyinde) — künyenin ARA kronoloji maddeleri (Peç Patrikliği ihyası/kaldırılışı, Büyük Sırp Göçü, Belgrad Antlaşması) bu turda TEK TEK TDV'ye karşı sınanmadı — YAZMA TURUNDA yapılmalı.",
+      "kronoloji_baglanacak_madde_sayisi": 6,
+      "kronoloji_tam_liste": [
+        "1459-06-20 | Semendire'nin düşüşü — Sırp Despotluğu'nun sonu",
+        "1463-01-01 | Peç (İpek) Patrikliği kaldırıldı",
+        "1557-01-01 | Peç Patrikliği ihya edildi (Sokollu Mehmed Paşa)",
+        "1690-01-01 | Büyük Sırp Göçü (Arsenije III Crnojević)",
+        "1739-09-18 | Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü",
+        "1766-01-01 | Peç Patrikliği kalıcı olarak kaldırıldı"
+      ]
+    }
+  ],
+
+  "yanlis_adrese_dusen_3_kayit_YENI_KUNYEYE_DAHIL_EDILMEDI": [
+    {"aile": "misir", "t": "1914-12-18", "b": "Mısır'ın İngiliz himayesine alınması", "dogru_adres": "misir-sultanligi (f:1914-12-18, t:1922-03-15) — zaten devletler.js'te var"},
+    {"aile": "misir", "t": "1915-01-14", "b": "Birinci Kanal Harekâtı", "dogru_adres": "misir-sultanligi — aynı"},
+    {"aile": "sirbistan", "t": "1918-12-01", "b": "Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşme", "dogru_adres": "yugoslavya (f:1918-12-01) — zaten devletler.js'te var"}
+  ],
+
+  "teslim_ozeti": {
+    "① kunye_taslagi": "iki taslak hazır, f/t TDV'den bağımsız doğrulandı (Mısır'ın ikisi de, Sırbistan'ın yalnız f'si gün-hassasiyetinde TDV'de var; t günü mevcut künyeden devralındı, yeni hassasiyet üretilmedi)",
+    "② d_s_v_sorusu": "🟢 ÖLÇÜLDÜ VE GEREKÇELENDİRİLDİ — yerlesimler.js'te ilgili yerleşimler ZATEN `d:` (doğrudan Osmanlı) ailesinde, `s:` değil. Yeni künye salt KRONOLOJİ BAĞLAMAK için, mevcut hiçbir yerleşim kaydı DEĞİŞMEYECEK.",
+    "③ harita_etkisi": "Renk ALINMAYACAK (harita: alanı yok) — emsal: 627 künyenin 376'sı zaten harita taşımıyor, __BOSLUK__ emsaliyle aynı sınıf (künye var, boya yok, D111'i ihlal etmiyor çünkü toprak zaten doğru boyalı).",
+    "④ kac_madde_baglanir": "🔴 SAYI DÜZELTİLDİ: 37 DEĞİL, 34 (28 Mısır + 6 Sırbistan). 3 kayıt (2 Mısır + 1 Sırbistan) yanlış aday-listesi yüzünden yanlış kovaya düşmüştü, gerçekte VAR OLAN başka künyelere (misir-sultanligi, yugoslavya) ait."
+  },
+
+  "olculemeyen_yazma_turunde_yapilacak": [
+    "28 Mısır + 6 Sırbistan maddesinin HER BİRİ TDV'ye karşı TEK TEK sınanmadı (yalnız künyenin uç f:/t: tarihleri sınandı) — D107 gereği açıkça yazıyorum.",
+    "Sırbistan't: günü (14 Şubat 1804) ikinci bağımsız akademik kaynakla teyit edilmedi, yalnız Wikipedia.",
+    "tur: alanına 'eyalet' eklenmesi bir şema kararı — burada YALNIZ ÖNERİLDİ, uygulanmadı (data/ donuk)."
+  ]
+}
