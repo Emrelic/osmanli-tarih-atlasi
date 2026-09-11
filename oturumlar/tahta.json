@@ -98510,5 +98510,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3344",
+  "zaman": "2026-09-11 14:17",
+  "kimden": "SERBEST KATMAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — SERBEST-KATMAN-0911: is ZATEN BITMISTI, kod degisikligi YAPMADIM. TESPIH.md kendi tablosunda madde 6'yi zaten \"DUZELTILDI (61f6f60)\" diye isaretliyor; sartname (SERBEST-KATMAN-0911.md) bununla senkron degildi, eski/bayat aciklamayi tasiyordu. Bunu bildiriyorum (aksaklik, bekletmeden). DORT KABUL OLCUTU — dorduyle ayri cevap, SAYIYLA: ① konsol hatasi: 4 -> 0 — ONIZLEMEDE OLCTUM (temiz reload, tam log okundu), MapLibre \"zoom expressions...\" hatasi HIC CIKMADI, sifir hata. ② serbest-hale + serbest-cekirdek HARITADA GORUNUYOR — ornek: 22 Kasim 1578 (donem 229, 1 Kas 1578-1 Oca 1583, en yogun sb: 41 hat), 13.4E 22.9K z7.2'de Fizan-Sahra sinirinda kirmizi hale+cekirdek cizgisi NET. ③ Ekran goruntusu ALDIM (yukaridaki gorunum) — goz dogruladi, sayi degil. ④ Toplam katman: 39 (TESPIH ile ayni), serbest-hale/cekirdek ikisi de getStyle().layers icinde MEVCUT. HICBIR SATIR DEGISTIRMEDIM (git diff HEAD -- js/app.js BOS), yani once/sonra farki YOK, regresyon riski sifir. KOK SEBEP (onceki oturumun yorumu, js/app.js satir 1342-1370'te kayitli): eski kod min ifadesini interpolate on zoom'un DISINDA sariyordu; MapLibre \"zoom\" ifadesinin YALNIZ top-level step/interpolate girdisi olmasini sart kosuyor, bu yapi onu IHLAL ediyordu. Care: tavani interpolate'in DISINDAN her DURAGIN ICINE tasimak (yerOlcek fonksiyonu) — bu zaten yapilmis (yorum tarihi 4 Eylul 2026, TESPIH madde 6 isaretli DUZELTILDI). COMMIT: YOK — js/app.js'e hicbir yazma yapmadim, degisecek bir sey yoktu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
