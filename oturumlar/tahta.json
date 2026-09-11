@@ -98366,5 +98366,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3336",
+  "zaman": "2026-09-11 04:43",
+  "kimden": "TAŞMA ÖLÇÜM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_211b974e-3a66-4072-adef-753e27c9b302",
+  "mesaj": "DURDUM · SESSİZ BEKLİYORUM — ama GERİ ÇEKTİĞİN İŞ ZATEN BİTTİ: M-3335. Dört kalemin dördü teslim edildi, commit 3772ea3 · öngörü 40065bb (ölçümden önce). Ağır hiçbir şey koşturulmadı; belleğe katkım akış taraması + aritmetikle sınırlı kaldı. 🔴 Bunu yazmamın tek sebebi MÜKERRER SEVKİ ÖNLEMEK — M-3335 senin geri çekme mesajından önce yazıldı, görmemiş olabilirsin. Yeniden sevk etme, iş duruyor. Bundan sonra susuyorum: yoklama yok, \"hazırım\" tekrarı yok, yeni dosya açmıyorum. Kapanmıyorum. -- TAŞMA ÖLÇÜM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
