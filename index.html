@@ -61,13 +61,17 @@
       <label><input type="checkbox" data-katman="altlik" checked> <span>⓪ Fizikî altlık (Esri fotoğrafı)</span><em id="kat-sayi-altlik"></em></label>
       <label><input type="checkbox" data-katman="cografya" checked> <span>① Coğrafya</span><em id="kat-sayi-cografya"></em></label>
       <label><input type="checkbox" data-katman="yerlesim" checked> <span>② Yerleşim yerleri</span><em id="kat-sayi-yerlesim"></em></label>
-      <label><input type="checkbox" data-katman="yollar" checked> <span>③ Yollar ve koridorlar</span><em id="kat-sayi-yollar"></em></label>
+      <!-- 🆕 VARSAYILAN AÇILIŞ (11 Eylül 2026, Emre'nin ekran görüntüsü) —
+           ③ KAPALI olarak değiştirildi (önceden AÇIKTI). -->
+      <label><input type="checkbox" data-katman="yollar"> <span>③ Yollar ve koridorlar</span><em id="kat-sayi-yollar"></em></label>
       <label><input type="checkbox" data-katman="siyasi" checked> <span>④ Siyasî yapılar</span><em id="kat-sayi-siyasi"></em></label>
       <!-- ⑤ RENK ÜSLUBU — bir görünürlük değil, bir KİP. 4 Eylül
            2026, Emre: "şimdiki renk tarzı da korunsun ama eski
            soft renk tarzını da getirelim, coğrafya görünsün."
            İşaretsiz = SERT (bugünkü). Bedeli app.js SIYASI_KIP'te. -->
-      <label><input type="checkbox" data-katman="yumusak"> <span>⑤ Yumuşak renk (coğrafya alttan görünür)</span><em id="kat-sayi-yumusak"></em></label>
+      <!-- 🆕 VARSAYILAN AÇILIŞ (11 Eylül 2026, Emre'nin ekran görüntüsü) —
+           ⑤ AÇIK olarak değiştirildi (önceden KAPALIYDI). -->
+      <label><input type="checkbox" data-katman="yumusak" checked> <span>⑤ Yumuşak renk (coğrafya alttan görünür)</span><em id="kat-sayi-yumusak"></em></label>
       <!-- ⑥ TANI HATLARI — 4 Eylül 2026, Emre (H-0008): "bu çizgiler
            ne işe yarıyor... kapatmak için bir buton olsun".
            `g-sirt-motor` + `g-nehir-motor`: motorun yasladığı hedefler.
@@ -79,11 +83,12 @@
            yapmamız lazım." Fizibilite: denetim/BULGU-KURE-0904.md.
            Kararı Emre verdi: maplibre 5.24.0'a geçildi ve küre AYRI
            BİR KİP oldu — "her şey ya da hiç" değil.
-           VARSAYILAN KAPALI: işaretsizken atlas bugünküyle BİREBİR aynı
-           (göç ölçüldü: 3 tarih × 2 zoom, katman/işaretçi/hata özdeş).
            Açılınca uzak yarımkürenin etiketleri gizlenir — DOM
-           işaretçisini küre kapatamaz, çare app.js'te ve KALİBRE. -->
-      <label><input type="checkbox" data-katman="kure"> <span>⑦ Küre görünüm (dünya yuvarlak)</span><em id="kat-sayi-kure"></em></label>
+           işaretçisini küre kapatamaz, çare app.js'te ve KALİBRE.
+           🆕 VARSAYILAN AÇILIŞ (11 Eylül 2026, Emre'nin ekran görüntüsü) —
+           AÇIK olarak değiştirildi (önceden KAPALIYDI, yukarıdaki eski
+           gerekçe artık geçersiz — kayıt için siliniyor değil KALSIN). -->
+      <label><input type="checkbox" data-katman="kure" checked> <span>⑦ Küre görünüm (dünya yuvarlak)</span><em id="kat-sayi-kure"></em></label>
       <div id="katman-not"></div>
     </div>
     <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
