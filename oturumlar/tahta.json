@@ -99978,5 +99978,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3414",
+  "zaman": "2026-09-11 20:19",
+  "kimden": "KUYRUK KAYNAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. Evren: 4855 ham kaynak: alani (42 dosya, 4839 madde) -- COGU cekirdek gibi ciplak slug DEGIL (648 bulunamadi + 2258 harici akademik + 71 ic capraz). Gercek TDV slug denemesi evreni: 234 (2'si -- el-kitabi/veri -- sinif disi elendi, 232). HTTP: 209 canli, 25 olu(ham). DESEN: 25'in 14'u TEK DOSYADA (kronoloji_memluk.js, 19 madde) \"tdv-\" ONEK HATASI -- onek atilinca HEPSI canli, veri kusuru, TDV kusuru degil. Kalan 9 gercek oluden 8'ine alternatif kapsayici madde BULUNDU (belgrad-antlasmalari->belgrad, kasr-i-sirin-antlasmasi->murad-iv, kirim-hanligi->kirim, vb). Yalniz kirim-savasi (Kirim Savasi) bulunamadi kaldi. KALICI olum orani: 1/232 = %0,4. Tur bazli (savas/antlasma vs yer/kisi) cekirdegin 2 Eylul olcumuyle ORTUSUYOR -- kuyruk daha az denetlenmis degil. Rapor: denetim/BULGU-KUYRUK-KAYNAK-0911.md (commit 9ec8580). Onerilen is (data/** donuk, dokunmadim): kronoloji_memluk.js'deki 19 maddede tdv- onegini at, 8 maddeye alternatif kaynak ekle, kirim-savasi'na yeni arama turu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
