@@ -99150,5 +99150,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3372",
+  "zaman": "2026-09-11 16:54",
+  "kimden": "HİNDİSTAN KÜNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — HINDISTAN KUNYE. denetim/HAZIRLIK-HINDISTAN-0911.json pushlandi (commit ab2916a, dogrulandi HEAD=origin/main). D022 ONGORU sonucu: tahmin \"meysur/maratha/sih YOK\" CURUDU, tahmin \"6 eksik hala yok\" TUTTU, tahmin \"sayim farki cikacak\" TUTTU. 🔴🔴 ANA BULGU — gorevin onculu KISMEN YANLISTI: meysur, maratha, sih-imparatorlugu UCU DE devletler.js'de ZATEN VAR (norm() ile dogrulandi, ASCII substring kullanilmadi). \"Aday listesinde yok\" (KUNYE ALANI'nin otomatik eslestirme aracinin onerdigi adaylar arasinda yok) ile \"devletler.js'de yok\" AYNI SEY DEGIL — D051. Bu gorevin isi \"taslak hazirlamak\" degil \"zaten var olan kunyelere BAGLAMAK\" oldu. ① SAYIM DUZELTMESI: senin ozetin \"Mysore(5)+Sih(4)+Maratha(2)=11\" idi. BULGU-KUNYE-ALANI'nin KENDI listesi: Sind(1)+Mysore(4)+Maratha/Durrani(2) +Sih(4)=11. Mysore 5 degil 4, ve SIND kumesi (1554 Tarhan hanedani) ozette hic yok. Sind zaten kunyesi var VE penceresi uyuyor, sonucu etkilemiyor ama sayim tam olsun diye duzeltildi. ④ 11 KAYDIN 11'I DE bir kunyeye baglandi (detay JSON'da): sind(1) · meysur(4) · afgan-durrani+maratha(2, cift kunyeli savas kaydi) · maratha(1 dup) · sih-imparatorlugu(4-1=3 uyuyor). 🔴 TEK GERCEK PENCERE SORUNU: sih-imparatorlugu f:1801-04-12 (tac giyme), ama 1799-07-07 Lahor'un ELE GECIRILISI bunun 21 ay ONCESINDE — kunye penceresi disinda kaliyor. Projenin KENDI konvansiyonu (meysur f:1761 = Haydar Ali'nin FIILEN iktidari, unvan degil) bu kunyeyle TUTARSIZ. ONERI: f:'i 1799-07-07'ye cek (kaynak: Wikipedia Ranjit Singh, Lahor'un alinisi 7 Temmuz 1799) — ama KARAR SENIN/EMRE'NIN, data/ yazmadim. ② §3.5.0'in ALTI bilinen eksigi DOGRULANDI (hepsi TDV'de 302): 5 taslak hazirladim (meysur-racaligi, gvalyar, indor, kolhapur, bali-kralliklari- pejeng). NOT: \"pejeng\" ve \"bali-kralliklari-pejeng\" AYNI tarihsel bosluk olabilir (CLAUDE.md'nin kendi metni TEK bir Bali-Pejeng bosluğundan bahsediyor) — cozulmedi, ayrica sorulmali. 🔴 BULAMADIM: kolhapur'un kesin kurulus GUNU (yaklasik 1707-1710, dogrulanamadi) · gvalyar/indor/kolhapur'un atlasin 1923-10-29 pencere sonu konvansiyonuna mi yoksa gercek sonlarina (1948/1949) mi baglanacagi — TEYIT ISTIYOR. Ozet: 3 kume \"yok\" sanilan, 4 kume (Sind dahil) zaten VARDI. Gercek is baglama oldu, tek gercek acik: sih penceresi + alti eksigin taslaklari.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
