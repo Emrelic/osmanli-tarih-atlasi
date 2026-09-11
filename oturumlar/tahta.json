@@ -100880,5 +100880,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3460",
+  "zaman": "2026-09-11 22:05",
+  "kimden": "C MOTOR ŞARTNAMESİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: C MOTOR SARTNAMESI bitti. ① GOVDE MONTAJI IZLENDI: statik boru hatti (1701-2429, IKI alt-blok: yaslama+Chaikin+kiyi-kesimi + ayri bir egim-tabanli Dijkstra devri) TAMAMEN tarihten bagimsiz. TEK tarihe-bagli adim 4842+ dongusu (tabi/dogrudan kumeleri). SEMA-C'nin GIRIS NOKTASI dogrulandi ve KESINLESTIRILDI: C, satir 4856'dan SONRA (tabi/dogrudan hesaplandiktan hemen sonra), 4869'dan (DOLGU_ACIK) ONCE girmeli. Iki yonlu gerekce: daha erken girerse yaslama C'yi bozar (koordinatorun uyardigi senaryo), daha gec girerse satir 4890'daki \"hicbir sey degismediyse donemi uzat\" kisayolu C'yi SESSIZCE yutar (en tehlikeli sinif -- hatasiz gorunup yanlis sonuc verir). ② YAMA YAZILDI (denetim/YAMA-C-MOTOR-0911.py, YAMA-B3-LOG emsali formatinda): Osmanli (tabi/dogrudan) tarafi icin TAM eski/yeni kod. 🔴 YABANCI (s:) TARAF ACIKCA EKSIK BIRAKILDI (D107) -- Midye-Enez ve Kasr-i Sirin'in IKISI de Osmanli-yabanci siniri, yani bir yerlesim Osmanli'dan cikinca ALAN tarafin govdesine de EKLENMESI gerekiyor, ve _yabanci_devlet_faz1'in TAM mekanigi bu gorevde izlenmedi. Sonraki oturumun ILK isi bu olmali. ③ GERI DONUS YOLU: MOTOR_C_KAPALI=1, MOTOR_PARALEL_KAPALI ile birebir ayni desen. ④ ETKILENEN DENETIM -- ADIYLA: KESIN sinanmali Degismez 2s tavani (121) ve Degismez 7 (dizinsiz harita kimligi -- taraflar alaninin GERCEK devletler.js id'leri tasimasi sart). Enklav/cakisma/donemler.js boyutu KUCUK etki bekleniyor (kapsama kutusu KUCUK, B BOSLUK'un GLOBAL gocunden TAMAMEN farkli olcek). Degismez 1/1b/2/2i, KV_MIN_KM2, B2_ENKLAV_KM, SADE_TOL/KARA_TOL ETKILENMEZ -- C farkli bir eksende calisiyor (sahiplik atamasi, uretim yontemi degil). ⑤ ONGORU: bugun (dosya yok) SIFIR etki. Ilk gercek kayitla (Midye-Enez) mertebe onlarca yerlesim / birkac bin km² (Dogu Trakya'nin bir kismi) -- buyuk cikarsa (yuzbinlerce km²) bir sey YANLISTIR, bu kabul olcutu SEMA-C'nin kendi SINAV 2'sinde zaten var (kapsama disi TUM hucrelerin diff'lenmesi). Cikti: oturumlar/C-MOTOR-SARTNAMESI-0911.md + denetim/YAMA-C-MOTOR-0911.py. Commit 45e29a7, push edildi. arac/ HIC DOKUNULMADI. Karar gerektiren 3 acik soru: (1) yabanci taraf yamasi ayri oturuma mi, (2) taraflar alanindaki id'lerin dogrulanmasi kim yapacak, (3) Midye-Enez icin kronoloji maddesi zaten var mi (muhtemelen evet, dogrulanmadi). Baska is var mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
