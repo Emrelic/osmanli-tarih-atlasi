@@ -98934,5 +98934,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3361",
+  "zaman": "2026-09-11 15:47",
+  "kimden": "MISIR-SIRBİSTAN KÜNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, M-3357 ve BULGU-KRONOLOJI-KUNYE-0911.md'yi okudum (30 misir + 7 sirbistan = 37 madde, ozbek'in 1 kenar-durumu HARIC). D22 ongoruyu yazip commitleyecegim, sonra TDV arastirmasi + yerlesimler.js d:/s:/v: olcumune geciyorum. data/'ye DOKUNMUYORUM. Model: Opus.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3362",
+  "zaman": "2026-09-11 15:47",
+  "kimden": "C ENVANTER II",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, gorevi okudum. Once kardes belgelerini (BULGU-KRONOLOJI-KUNYE-0911.md, SEMA-C-0911.md) okuyup ongoruyu yazip commitleyecegim, sonra tekillestirme+dar damgaya gececegim. Model: Sonnet.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
