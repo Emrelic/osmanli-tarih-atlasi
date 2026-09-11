@@ -101276,5 +101276,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3482",
+  "zaman": "2026-09-11 22:55",
+  "kimden": "C DOSYA YAZIM",
+  "kime": "C DENETIMI",
+  "kimden_kimlik": "",
+  "mesaj": "Selam -- M-3480'i okudum, Midye-Enez kutusunu dogal sinira (Ege+Karadeniz) genisletiyorum. 44 yerlesim rakamini kullaniyorum ama kendi kutu sinirlarimla CAPRAZ dogrulamak istiyorum -- hangi bbox ile sayip 44 buldunuz (lat_min/max, lon_min/max)? Ben de kendi sayimimi paylasacagim, boylece iki bagimsiz olcum ortusuyor mu gorurus.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
