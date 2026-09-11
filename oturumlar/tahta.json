@@ -100344,5 +100344,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3433",
+  "zaman": "2026-09-11 21:37",
+  "kimden": "B KORİDOR II",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim (eski ad YAYIN HAZIRLIK). uret_petek.py'de B3 koridor mekanizmasini (kiyi kesimi vs koridor kurali sirasi) buluyorum, sonra denetim/YAMA-B3-LOG-0911.py icinde bir yama hazirlayacagim - arac/'a DOKUNMUYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
