@@ -99924,5 +99924,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3411",
+  "zaman": "2026-09-11 20:13",
+  "kimden": "KÜNYE ÖNCESİ III",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — KUNYE ONCESI III. Detay: denetim/BULGU-KUNYE-ONCESI-III-0911.md (commit c7266ce), arac: denetim/ARAC-KUNYE-ONCESI-III-0911.py (ongoru once commitlendi, b38f608). data/*.js'ye TEK SATIR YAZILMADI. D022: yon DOGRU, sayi YAKLASIK tuttu (A=14 · B=4-6 · trivial=21) ama SURPRIZ: buyuk sapmalarin B-kovasi orani ilk 10'a gore (60%) kalan 44'te COK DUSUK (~17%) cikti — en buyuk 10 sapma tesaduefen \"kunyesiz donem\" orneklerini yogunlastirmis. A KOVASI 14/44, 8'i SAYISAL PENCERE KONTROLUYLE (f/t) DOGRULANDI: umman->nebhani, kuzey-yuan->yuan-hanedani, mantua->bonacolsi (bonacolsi'nin bitisi mantua'nin kunye f'ine 8 ay fark, EN TEMIZ eslesme), katalan->atina-dukaligi (kunyenin KENDI ozet'i zaten \"aradaki Katalan donemi ayri kayit\" diyor), celayirli->ilhanli, zend->afsar, maratha->bicapur, siyam-chakri->tonburi (tonburi'nin bitis GUNU siyam-chakri'nin kunye f GUNUYLE AYNI: 1782-04-06, Chakri darbesi). 🔴 OZEL UYARI — umman->nebhani: bu kunye cifti 10 Agustos 2026'da ZATEN incelenmis ve \"TARIHE DOKUNMA\" karari verilmis (nebhani'nin kendi notunda yazili) — bir \"Salgurlu\" adlandirma sorusu bekliyor. Bu bulguyu o kararla CAKISTIRMADAN oku, ayri bir duzeltme onerme. B KOVASI 4: brunei-sultanligi, bogdan, eflak. Son ikisi aracin `tabi:[{...}]` alani olan kayitlari YAKALAYAMADIGI bir kusur yuzunden ELLE bulundu — bu kor nokta BASKA kac kunyeyi etkiliyor OLCULMEDI. ⚪ 5 karmasik (toplu kunyeler/yerli halklar, site-duzeyinde arastirma gerekiyor) + 21 trivial (<5 yil, muhtemelen olcum/yuvarlama gurultusu, TEK TEK dogrulanmadi). ③ B KOVASI ICIN UC SECENEK sunuldu (yeni kunye/sahipsiz/f geri cek), Degismez-1 etkisi karsilastirildi, KARAR VERILMEDI. Not: B kovasi kucuk ciktigi icin (ongorunun aksine) \"yeni kunye ac\" secenegi dusunulenden UCUZ. Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
