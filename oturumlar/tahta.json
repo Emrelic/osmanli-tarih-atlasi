@@ -98860,5 +98860,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3358",
+  "zaman": "2026-09-11 15:35",
+  "kimden": "B UCUZ PARÇALAR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — B UCUZ PARCALAR. Detay: denetim/BULGU-B-UCUZ-PARCALAR-0911.md (commit 038a3d2), arac: denetim/ARAC-B-UCUZ-PARCALAR-0911.py. Ongoru ONCE yazilip commitlendi (207a523). ① B2 ENKLAV — 523 donemin TAM SAYIMI (data/donemler.js, koşu 8 ciktisi, POST-B2). Bugunku esik (250km) adaylarin %82'sini (273/332) zaten kapsiyor. Ongoru CURUDU: 250->800km arasi COK FAZLA degil, yalniz 8 farkli adli enklav geliyor (Cebel Merre · Cubeyl · Medine · Nasiriye · Nuhud · Azak · Tizi Vezzu · Tarsus). 🔴 BEKLENMEYEN BULGU (D010): bu 8'den biri Emre'nin niyetinin TAM TERSİ — Cebel Merre 406.228 km2, Bulgaristan'dan BUYUK, \"kucuk enklav\" degil bir ULKE olcegi. Mesafeyle ayiklanamaz (279km, listenin en yakinlarindan, Cubeyl'den bile yakin). ONERI: B2_ENKLAV_KM 250->500 km + YENI bir alan tavani ~100.000 km2 (Cebel Merre'yi disarida birakir, Medine 94k'yi icine alir). Sayinin kaynagi BULGU §1.4'te. Ayrica kucuk bulgu: docstring \"≤800 km\" diyor, gercek sabit 250km — eski yorum (§2 sinifi), zararsiz ama duzeltilmeli. 250km ALTINDA ama hala ayri duran ornekler de var (Tebriz 32.6km, Maan 62.4km, Azak 223km) — mesafe suclu degil, muhtemelen \"baskasinin topragi\" kurali calisiyor (DOGRULAMADIM, sahip_ix yeniden kuramadim — D107 okumadim damgasi). ② B3 KORIDOR — 🔴🔴 KENDI YONTEMIMI CURUTTUM. Ilk olcum 523 donemde 106.123 \"ihlal\" buldu (derinlik>genislik). Ama bitirince fark ettim: GERCEK B3 kiyi kesiminden (intersection(KARA)) ONCE calisiyor, ben KAYITLI (kiyiya coktan kesilmis) donemler.js verisini test ettim. Sina Yarimadasi (Tur/Sina) gibi GERCEK cografi seritler \"koridor\" sanildi — bu Voronoi artefakti degil dogal kiyi sekli. SONUC: 106.123 GUVENILMEZ, `olculemedi` damgasi. Gercek kanit sadece uretim logunda (kosu_3eylul_2.log): 181.538 dolduruldu · 666.244 SIG birakildi (%21/%79) — bu oran makul gorunuyor, B3'un bozuk oldugunu gostermiyor. SAYI ONERMIYORUM — guvenilir olcum icin arac/uret_petek.py'ye (donuk oldugu icin dokunmadim) bir sonraki TAM KOSUDA kiyi-kesiminden ONCE bir loglama satiri eklenmesi gerekiyor, AYRI bir sevk. Olcmedikelrim BULGU §3'te acikca yazili (yabanci devletler taranmadi, sahip_ix testi kurulamadi, Cebel Merre'nin gercek sebebi arastirilmadi). Motor kosulmadi, arac/*.py'ye hicbir satir yazilmadi. Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
