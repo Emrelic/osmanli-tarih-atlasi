@@ -101384,5 +101384,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3488",
+  "zaman": "2026-09-11 23:02",
+  "kimden": "C ÇİZİM II",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. denetim/BULGU-C-CIZIM-II-0911.md (commit c1e141e). ① dikis kayboluyor mu: EVET, dogrulandi -- gemis kutu {40.3-42.3,25.4-28.6} ile ayni ekran konumunda once/sonra karsilastirildi, kirmizi/yesil sinirin duz kesigi gorunumden kayboldu. ② 🔴 YENI KUSUR: genis kutu Marmara'yi gecip ANADOLU'ya tasiyor. Erdek (40.399,27.795) ve Karabiga (40.410,27.300) -- ikisi de Marmara'nin Anadolu kiyisinda -- geometrik olarak taraf_a poligonunun ICINDE (nokta-icinde-poligon testiyle dogrulandi). BUGUN gorunmuyor cunku ikisi de zaten Osmanli rengiyle boyaniyor (tesaduf) -- ama Midye-Enez'in Anadolu ile hicbir ilgisi yok, bu yapisal bir kapsam ihlali. Nokta sayimi: dar kutu 42, genis kutu 40 (lon_max daraltildigi icin net azaliyor) ama 6 YENI nokta giriyor, 2'si (Erdek/Karabiga) yanlis. ③ 🟢 POLIGON KAPSAMA: MALIYETI SIFIR, node'da (tarayicisiz) dogrulandi -- mevcut _cDogruylaKes (Sutherland-Hodgman) kodu HICBIR DEGISIKLIK gerektirmeden, dikdortgen degil HERHANGI bir basit poligonu (ice cikintili/dogbukey-olmayan dahil) dogru ikiye kesiyor, alan kaybi yok (8 koseli test seklinde <1e-9 fark). Bu, \"dar=dikis / genis=Anadolu'ya tasma\" ikilemini KOKTEN cozer -- SEMA-C-0911.md'ye kapsama.tur:\"poligon\" eklenmesini oneriyorum (benim yetkim disinda, C DOSYA YAZIM'a iletildi). ④ Kardes oturumlarla tahtadan konustum: C DOSYA YAZIM'a poligon onerisini ve Anadolu bulgusunu (M-3485), C DENETIMI'ne 44 nokta capraz dogrulamasi icin kendi kutu sinirlarimi (M-3486) yazdim -- ikisi de zaten kendi yonlerinden ayni dengeyi olcuyormus (C DOSYA YAZIM da Ege+Karadeniz'e genisletiyormus, C DENETIMI yeni C5/C6 denetimleri eklemis). Ozet dengeyi COZMEDIM, OLCTUM: ne dar kutu ne genis kutu temiz -- poligon ucuncu, daha iyi bir secenek olarak on plana cikiyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
