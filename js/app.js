@@ -1260,6 +1260,29 @@ harita.on("load", function () {
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
     paint: { "line-color": "#4d0713", "line-width": 1.8 } });
 
+  // 🆕 C ÇİZİM KATMANI (11 Eylül 2026, SEMA-C-0911.md §8) — window.HUKUKI_
+  // SINIRLAR'ın antlaşma sınırları. "C üçüncü bir katman DEĞİL" (Emre) —
+  // devlet/vassal/osmanli dolgularının HEMEN ÜSTÜNE, yalnız aktif kaydın
+  // `kapsama.kutu`sunun İÇİNDE, yalnız `f<=gün<t` penceresinde biner; kutu
+  // dışında ve pencere dışında ALTTAKİ dolgular AYNEN görünmeye devam eder
+  // (bu source/layer boşken hiçbir piksel değişmez — D010 SINAV 2/3).
+  // Motor (`uret_petek.py`) tarafı bu sınırı petek geometrisine henüz
+  // işlemiyor (§8.3, tasarlandı/sınanmadı); bu yüzden "A/B'nin sınırı
+  // gizlenecek" burada RENK ÜSTÜNE BOYAMAYLA (client-side) sağlanıyor —
+  // gerçek petek kenarı değişmiyor, yalnız görünüm düzeltiliyor.
+  // ⚠️ try/catch: bu iki katmanın kurulumu (yeni, bugün eklendi) bir sebeple
+  // atarsa, `harita.on("load", ...)` içindeki GERİ KALAN bütün kurulumu
+  // (haritaHazir=true dahil) SESSİZCE durdurmasın — codebase'in kendi
+  // deseniyle aynı (`try { devletiYay(...) } catch(e) {}`).
+  try {
+    harita.addSource("hukuki-sinir-dolgu", { type: "geojson", data: bosVeri() });
+    harita.addLayer({ id: "hukuki-sinir-dolgu", type: "fill", source: "hukuki-sinir-dolgu",
+      paint: { "fill-color": ["get", "renk"], "fill-opacity": 1 } });
+    harita.addSource("hukuki-sinir-hat", { type: "geojson", data: bosVeri() });
+    harita.addLayer({ id: "hukuki-sinir-hat", type: "line", source: "hukuki-sinir-hat",
+      paint: { "line-color": "#1a1a1a", "line-width": 2.2, "line-dasharray": [2, 1.3] } });
+  } catch (e) { console.error("C ÇİZİM KATMANI kurulamadı:", e); }
+
   // SERBEST KENAR — sahipsiz alanla komşu sınır: keskin çizgi yerine SÖNEN kenar.
   // Ölçüt kullanıcının cümlesinden: oraya bakınca "burada sınır yok" anlaşılmalı,
   // "şu sınır var" değil. Bu yüzden ayrı bir çizgi rengi YOK — dolgunun kendi
@@ -4807,6 +4830,107 @@ var _DEVLET_RENK = (function () {
   return m;
 })();
 
+// 🆕 C ÇİZİM KATMANI — window.HUKUKI_SINIRLAR'ı ekrana çeviren mantık.
+// Şema: SEMA-C-0911.md §8.1. Motor (uret_petek.py) henüz bu sınırı petek
+// geometrisine işlemiyor (§8.3) — burada yapılan, aktif kaydın `kapsama.
+// kutu`sunu taraf_a/taraf_b renkleriyle YENİDEN boyayıp (devlet/vassal/
+// osmanli dolgularının ÜSTÜNE) hattı üstüne çizmek. Kutu DIŞINDA ve
+// pencere DIŞINDA hiçbir kaynak dokunulmuyor (D010 SINAV 2/3).
+function _cTarafRengi(id) {
+  if (id === "osmanli") return "#8e0b22";
+  return _DEVLET_RENK[id] || "#9a9a9a";
+}
+function _cCross(A, B, P) {
+  // A,B,P: [lon,lat]. §4b/§8.2'nin formülüyle BİREBİR aynı.
+  return (B[0] - A[0]) * (P[1] - A[1]) - (B[1] - A[1]) * (P[0] - A[0]);
+}
+function _cKesisim(P1, P2, A, B) {
+  var d1 = _cCross(A, B, P1), d2 = _cCross(A, B, P2);
+  var t = d1 / (d1 - d2);
+  return [P1[0] + t * (P2[0] - P1[0]), P1[1] + t * (P2[1] - P1[1])];
+}
+// Sutherland–Hodgman: DIŞBÜKEY bir poligonu TEK bir sonsuz doğruya (A→B)
+// göre keser, yalnız istenen tarafı (negatifTutulsun) döndürür. `kapsama.
+// kutu` her zaman bir dikdörtgen (dışbükey) olduğu için bu KESİN ve
+// sınanmış bir yöntemdir (2 noktalı/cetvel hat — SEMA §8.2 ①c).
+function _cDogruylaKes(poly, A, B, negatifTutulsun) {
+  var out = [], n = poly.length;
+  for (var i = 0; i < n; i++) {
+    var cur = poly[i], prev = poly[(i - 1 + n) % n];
+    var cs = _cCross(A, B, cur), ps = _cCross(A, B, prev);
+    var curIn = negatifTutulsun ? cs <= 0 : cs >= 0;
+    var prevIn = negatifTutulsun ? ps <= 0 : ps >= 0;
+    if (curIn) {
+      if (!prevIn) out.push(_cKesisim(prev, cur, A, B));
+      out.push(cur);
+    } else if (prevIn) {
+      out.push(_cKesisim(prev, cur, A, B));
+    }
+  }
+  return out;
+}
+function _cBboxPoligonu(k) {
+  return [[k.lon_min, k.lat_min], [k.lon_max, k.lat_min],
+          [k.lon_max, k.lat_max], [k.lon_min, k.lat_max]];
+}
+// ⚠️ SINIR: `nokta_dizisi`nin İKİDEN FAZLA noktası varsa (SEMA §8.2 ①b,
+// eğri/doğal-tanınmayan hat) dolgu-bölme yalnız İLK ve SON nokta arasındaki
+// DÜZ ÇİZGİYE göre yapılır — bu bir YAKLAŞIKLIKTIR, şemanın kendisi de
+// N-noktalı bölmeyi "tasarlandı, sınanmadı" diye işaretliyor (§8.2). Hattın
+// KENDİSİ (çizilen çizgi) yine TAM polyline'ı kullanır, yalnız dolgu-bölme
+// yaklaşık. Bugün test edilen tek örnek (Midye-Enez) zaten 2 noktalı,
+// yaklaşıklık devreye GİRMİYOR.
+function _cKayitGeometrisi(kayit) {
+  var nd = (kayit.hat || {}).nokta_dizisi || [];
+  if (nd.length < 2) return null;
+  var A = [nd[0].lon, nd[0].lat], B = [nd[nd.length - 1].lon, nd[nd.length - 1].lat];
+  var k = (kayit.kapsama || {}).kutu;
+  if (!k) return null;
+  var kutuPoly = _cBboxPoligonu(k);
+  var negatif = _cDogruylaKes(kutuPoly, A, B, true);   // cross <= 0 taraf
+  var pozitif = _cDogruylaKes(kutuPoly, A, B, false);  // cross >= 0 taraf
+  // §4b'nin ÖLÇÜLMÜŞ örneğiyle doğrulandı: negatif taraf taraflar[0]
+  // (taraf_a), pozitif taraf taraflar[1] (taraf_b) — bkz. C ÇİZİM
+  // KATMANI teslim notu: şemanın `yon_kurali` STRING adı ("pozitif_
+  // taraf_a") bu ölçülmüş sonuçla ÇELİŞİYOR, isim değil ÖLÇÜM esas alındı.
+  var taraflar = kayit.taraflar || [];
+  var hatCizgisi = nd.map(function (p) { return [p.lon, p.lat]; });
+  return {
+    dolgu: [negatif, pozitif].map(function (poly, i) {
+      if (poly.length < 3) return null;
+      poly = poly.slice(); poly.push(poly[0]);
+      return { type: "Feature",
+        properties: { renk: _cTarafRengi(taraflar[i]) },
+        geometry: { type: "Polygon", coordinates: [poly] } };
+    }).filter(Boolean),
+    hat: { type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: hatCizgisi } }
+  };
+}
+var _cAktifId = null;
+function _hukukiSinirGuncelle(gun) {
+  if (!haritaHazir || !harita.getSource("hukuki-sinir-dolgu")) return;
+  var aktif = (window.HUKUKI_SINIRLAR || []).filter(function (k) {
+    return gunIdx(k.f) <= gun && gun < gunIdx(k.t);
+  });
+  var id = aktif.map(function (k) { return k.id; }).join("+") || null;
+  if (id === _cAktifId) return;               // hiçbir şey değişmedi — dokunma
+  _cAktifId = id;
+  if (!aktif.length) {
+    harita.getSource("hukuki-sinir-dolgu").setData(bosVeri());
+    harita.getSource("hukuki-sinir-hat").setData(bosVeri());
+    return;
+  }
+  var dolguFeat = [], hatFeat = [];
+  aktif.forEach(function (kayit) {
+    var g = _cKayitGeometrisi(kayit);
+    if (!g) return;
+    dolguFeat = dolguFeat.concat(g.dolgu);
+    hatFeat.push(g.hat);
+  });
+  harita.getSource("hukuki-sinir-dolgu").setData({ type: "FeatureCollection", features: dolguFeat });
+  harita.getSource("hukuki-sinir-hat").setData({ type: "FeatureCollection", features: hatFeat });
+}
+
 // Bir yerleşimin sahipliğini HARİTANIN KENDİ ÖNCELİK KURALIYLA çözer.
 //
 // 🔴 İLK SÜRÜM YANLIŞTI VE KENDİ ÇIKTISI ELE VERDİ: Tebriz'in dilimleri
@@ -5391,6 +5515,13 @@ function guncelle() {
     }
     zoomUygula(d);
   }
+  // 🆕 C ÇİZİM KATMANI — `di !== aktifDonem` kapısının DIŞINDA, HER
+  // `guncelle()` çağrısında çalışır. Sebep: bir HUKUKI_SINIRLAR kaydının
+  // `f`/`t` sınırı, altındaki dönem (`di`) kırılmasıyla AYNI güne denk
+  // gelmeyebilir — dönem değişmese bile C penceresi açılıp kapanabilir.
+  // Kendi `_cAktifId` önbelleği (yukarıda) gereksiz `setData` çağrısını
+  // zaten engelliyor, o yüzden bu her tur çalışsa da ucuzdur.
+  if (haritaHazir) _hukukiSinirGuncelle(suanki);
   // 🔴 SUÇLU ARAYIŞI — `agirOlc` sarmalayıcısı yalnız uçuş sürerken ölçer
   // (`_AGIR.acik`), öteki zaman doğrudan çağrıya düşer, maliyeti YOK.
   // Kare sayacı "866 ms boşluk" diyor ama KİMİN bloklattığını söylemiyor;
@@ -9122,7 +9253,11 @@ var KATMAN_KUMESI = [
   { anahtar: "cografya", ad: "Coğrafya",  kalip: /^(zemin|g-)/ },
   { anahtar: "yollar",   ad: "Yollar",    kalip: /^(koridor-|sefer-)/ },
   { anahtar: "siyasi",   ad: "Siyasî",
-    kalip: /^(devlet|imparatorluk|vassal|himaye|osmanli|serbest|bolge|devir|isgal|veri-siniri)/ }
+    // 🆕 `hukuki-sinir-` — C ÇİZİM KATMANI (11 Eylül 2026). devlet/vassal/
+    // osmanli'nin ÜSTÜNE binen bölgesel düzeltme; kapatma/açma bakımından
+    // AYNI "siyasî" kovaya ait — ayrı bir kova açmak "C üçüncü bir katman
+    // DEĞİL" kuralına ters düşerdi.
+    kalip: /^(devlet|imparatorluk|vassal|himaye|osmanli|serbest|bolge|devir|isgal|veri-siniri|hukuki-sinir-)/ }
 ];
 
 function katmanSinifla() {
