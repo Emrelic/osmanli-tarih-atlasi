@@ -1,0 +1,683 @@
+{
+ "CEKIRDEK": [
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1711-07-19",
+   "b": "Prut Zaferi",
+   "gun": "21 Temmuz 1711",
+   "tur": "",
+   "t_ayrisan": [
+    1711,
+    7,
+    19
+   ],
+   "metin_tarihleri": [
+    [
+     21,
+     7,
+     1711
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1730-09-25",
+   "b": "Patrona Halil İsyanı",
+   "gun": "28 Eylül 1730",
+   "tur": "",
+   "t_ayrisan": [
+    1730,
+    9,
+    25
+   ],
+   "metin_tarihleri": [
+    [
+     28,
+     9,
+     1730
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1808-10-07",
+   "b": "Sened-i İttifak",
+   "gun": "29 Eylül 1808",
+   "tur": "",
+   "t_ayrisan": [
+    1808,
+    10,
+    7
+   ],
+   "metin_tarihleri": [
+    [
+     29,
+     9,
+     1808
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1539-01-01",
+   "b": "Zebîd'in Osmanlı hâkimiyetine kesin girişi",
+   "gun": "1539 başı (kesin gün kaynakta yok; üst sınır 10 Mart 1539)",
+   "tur": "",
+   "t_ayrisan": [
+    1539,
+    1,
+    1
+   ],
+   "metin_tarihleri": [
+    [
+     10,
+     3,
+     1539
+    ]
+   ],
+   "kova": "YUMUSAK_01"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1507-05-24",
+   "b": "Şeybânî Han'ın Herat'ı ve Horasan'ı Timurlulardan alışı",
+   "gun": "8 Muharrem 913 / 20 Mayıs 1507 (Herat'ın düşüşü) — 15 Muharrem/27 Mayıs (hutbenin Şeybânî adına okunuşu)",
+   "tur": "",
+   "t_ayrisan": [
+    1507,
+    5,
+    24
+   ],
+   "metin_tarihleri": [
+    [
+     20,
+     5,
+     1507
+    ],
+    [
+     27,
+     5,
+     null
+    ]
+   ],
+   "kova": "AYRISTIRAMADIM"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1905-01-01",
+   "b": "İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi",
+   "gun": "24 Ocak 1905",
+   "tur": "",
+   "t_ayrisan": [
+    1905,
+    1,
+    1
+   ],
+   "metin_tarihleri": [
+    [
+     24,
+     1,
+     1905
+    ]
+   ],
+   "kova": "YUMUSAK_01"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1503-04-02",
+   "b": "Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
+   "gun": "25 Mart 1503 (Müjde/Annunciation mütarekesi) — veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
+   "tur": "",
+   "t_ayrisan": [
+    1503,
+    4,
+    2
+   ],
+   "metin_tarihleri": [
+    [
+     25,
+     3,
+     1503
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1891-01-01",
+   "b": "Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
+   "gun": "21 Ocak 1891",
+   "tur": "",
+   "t_ayrisan": [
+    1891,
+    1,
+    1
+   ],
+   "metin_tarihleri": [
+    [
+     21,
+     1,
+     1891
+    ]
+   ],
+   "kova": "YUMUSAK_01"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1335-05-02",
+   "b": "Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması",
+   "gun": "2 Nisan 1335 (Dük VI. Heinrich'in ölümü) — Habsburg beratı birkaç hafta içinde",
+   "tur": "",
+   "t_ayrisan": [
+    1335,
+    5,
+    2
+   ],
+   "metin_tarihleri": [
+    [
+     2,
+     4,
+     1335
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1891-02-06",
+   "b": "Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",
+   "gun": "Şubat 1891 (basında 28 Şubat'ta haber verildi, alınış ayın ilk haftasında)",
+   "tur": "",
+   "t_ayrisan": [
+    1891,
+    2,
+    6
+   ],
+   "metin_tarihleri": [
+    [
+     28,
+     2,
+     null
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1557-01-01",
+   "b": "Habeş Eyaleti'nin kuruluşu — Kızıldeniz kıyısının Osmanlı idaresine girişi",
+   "gun": "15 Şâban 962 (5 Temmuz 1555) kuruluş, 2 Nisan 1557 Masavva'nın alınışı",
+   "tur": "",
+   "t_ayrisan": [
+    1557,
+    1,
+    1
+   ],
+   "metin_tarihleri": [
+    [
+     2,
+     4,
+     1557
+    ],
+    [
+     5,
+     7,
+     1555
+    ]
+   ],
+   "kova": "AYRISTIRAMADIM"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1361-01-01",
+   "b": "I. Murad döneminde kuzeydoğu Trakya'nın fethi — Vize ve çevresi",
+   "gun": "763 (1361-62) — TDV Edirne için gün verir (5 Mayıs 1361), çevre için vermez",
+   "tur": "",
+   "t_ayrisan": [
+    1361,
+    1,
+    1
+   ],
+   "metin_tarihleri": [
+    [
+     5,
+     5,
+     1361
+    ]
+   ],
+   "kova": "YUMUSAK_01"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1686-08-30",
+   "b": "Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
+   "gun": "Ağustos 1686 (TDV yalnız yıl verir; akademik kaynağa göre yardım ordusu 29 Ağustos'ta bozuldu, şehir birkaç gün içinde teslim oldu)",
+   "tur": "",
+   "t_ayrisan": [
+    1686,
+    8,
+    30
+   ],
+   "metin_tarihleri": [
+    [
+     29,
+     8,
+     null
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1499-08-28",
+   "b": "Sapienza (Zonchio) Deniz Zaferi — Akdeniz'de ilk büyük donanma başarısı",
+   "gun": "12-25 Ağustos 1499",
+   "tur": "",
+   "t_ayrisan": [
+    1499,
+    8,
+    28
+   ],
+   "metin_tarihleri": [
+    [
+     25,
+     8,
+     1499
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1803-08-06",
+   "b": "Şerif Gālib'in Mekke'yi geri alması",
+   "gun": "Ağustos 1803 başı — TDV yalnız kuşatmanın başlangıcını (12 Temmuz) ve süresini (25 gün) veriyor, gün türetilmiştir",
+   "tur": "",
+   "t_ayrisan": [
+    1803,
+    8,
+    6
+   ],
+   "metin_tarihleri": [
+    [
+     12,
+     7,
+     null
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1622-05-21",
+   "b": "I. Mustafa'nın ikinci kez tahta çıkarılması",
+   "gun": "20 Mayıs 1622",
+   "tur": "",
+   "t_ayrisan": [
+    1622,
+    5,
+    21
+   ],
+   "metin_tarihleri": [
+    [
+     20,
+     5,
+     1622
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1648-08-09",
+   "b": "IV. Mehmed'in yedi yaşında cülusu",
+   "gun": "8 Ağustos 1648",
+   "tur": "",
+   "t_ayrisan": [
+    1648,
+    8,
+    9
+   ],
+   "metin_tarihleri": [
+    [
+     8,
+     8,
+     1648
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1807-05-30",
+   "b": "IV. Mustafa tahta çıktı",
+   "gun": "29 Mayıs 1807",
+   "tur": "",
+   "t_ayrisan": [
+    1807,
+    5,
+    30
+   ],
+   "metin_tarihleri": [
+    [
+     29,
+     5,
+     1807
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "CEKIRDEK",
+   "dosya": "olaylar*.js",
+   "kunye": null,
+   "t": "1808-07-29",
+   "b": "II. Mahmud tahta çıktı",
+   "gun": "28 Temmuz 1808",
+   "tur": "",
+   "t_ayrisan": [
+    1808,
+    7,
+    29
+   ],
+   "metin_tarihleri": [
+    [
+     28,
+     7,
+     1808
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  }
+ ],
+ "KUYRUK": [
+  {
+   "kaynak": "KUYRUK",
+   "dosya": "kronoloji*.js",
+   "kunye": null,
+   "t": "1814-01-01",
+   "b": "Goya'nın \"3 Mayıs 1808\" tablosunu tamamlaması",
+   "gun": "",
+   "tur": "kultur",
+   "t_ayrisan": [
+    1814,
+    1,
+    1
+   ],
+   "metin_tarihleri": [
+    [
+     3,
+     5,
+     1808
+    ]
+   ],
+   "kova": "YUMUSAK_01"
+  }
+ ],
+ "KUNYE_KRONOLOJI": [
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "kirim",
+   "t": "1783-04-19",
+   "b": "Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda 8 Nisan 1783 olarak da geçer — o ESKİ TAKVİM/Julian karşılığıdır, XVIII. yy'da fark 11 gün. Bu dizin YENİ TAKVİM/Gregoryen kullanır; aynı konvansiyon Küçük Kaynarca'da da geçerli: 1774-07-21 Yeni, Eski'de 10 Temmuz)",
+   "gun": "",
+   "tur": "son",
+   "t_ayrisan": [
+    1783,
+    4,
+    19
+   ],
+   "metin_tarihleri": [
+    [
+     8,
+     4,
+     1783
+    ],
+    [
+     10,
+     7,
+     null
+    ]
+   ],
+   "kova": "AYRISTIRAMADIM"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "sovyet-rusya",
+   "t": "1917-11-07",
+   "b": "Ekim İhtilâli — Bolşevikler Petrograd'da iktidarı ele geçirdi (Jülyen takvimle 25 Ekim)",
+   "gun": "",
+   "tur": "kurulus",
+   "t_ayrisan": [
+    1917,
+    11,
+    7
+   ],
+   "metin_tarihleri": [
+    [
+     25,
+     10,
+     null
+    ]
+   ],
+   "kova": "TAKVIM_SUPHESI"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "garbi-trakya",
+   "t": "1913-10-25",
+   "b": "İstanbul Muahedesi'nin (29 Eylül 1913) şart koştuğu teslim süresi doldu, bölge fiilen Bulgaristan'a devredildi",
+   "gun": "",
+   "tur": "son",
+   "t_ayrisan": [
+    1913,
+    10,
+    25
+   ],
+   "metin_tarihleri": [
+    [
+     29,
+     9,
+     1913
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "habesistan",
+   "t": "1889-05-02",
+   "b": "Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı (kaynak: Britannica, madde: \"Treaty of Wichale\"; TDV'de müstakil madde bulunamadı). ⚠️ ÖLÇÜLMEDİ: yerleşim noktalarındaki 'Habeşistan→İtalya' kırılması ('1889-01-01') bu antlaşma gününe mi, yoksa İtalyan Eritre sömürgesinin resmî ilanına (1890-01-01) mı karşılık geliyor — üç aday tarih (antlaşma/işgal/sömürge ilanı) birbirinden ayırt edilmedi. Önceki kayıt bu tarihi 'II. Menelik tahta çıktı' olayıyla da karıştırıyordu; o, IV. Yohannes'in 9 Mart 1889'daki ölümüyle başlayan ayrı ve kendi başına ölçülmemiş bir süreçtir, buradan çıkarıldı.",
+   "gun": "",
+   "tur": "antlasma",
+   "t_ayrisan": [
+    1889,
+    5,
+    2
+   ],
+   "metin_tarihleri": [
+    [
+     9,
+     3,
+     1889
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "transkafkasya",
+   "t": "1918-05-26",
+   "b": "Gürcistan ayrıldı — federasyon dağıldı; 28 Mayıs'ta Ermenistan ve Azerbaycan da ayrıldı",
+   "gun": "",
+   "tur": "kayip",
+   "t_ayrisan": [
+    1918,
+    5,
+    26
+   ],
+   "metin_tarihleri": [
+    [
+     28,
+     5,
+     null
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "tbmm-turkiye",
+   "t": "1921-08-23",
+   "b": "Sakarya Meydan Muharebesi başladı (13 Eylül'e dek)",
+   "gun": "",
+   "tur": "savas",
+   "t_ayrisan": [
+    1921,
+    8,
+    23
+   ],
+   "metin_tarihleri": [
+    [
+     13,
+     9,
+     null
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "zulu-kralligi",
+   "t": "1879-01-10",
+   "b": "İngiliz kuvvetlerinin Zululand'a girmesiyle Anglo-Zulu Savaşı başladı; savaşın gerekçesi Sir Bartle Frere'in 11 Aralık 1878'de Cetshwayo'ya verdiği, orduyu otuz gün içinde dağıtmasını isteyen ültimatomdu",
+   "gun": "",
+   "tur": "savas",
+   "t_ayrisan": [
+    1879,
+    1,
+    10
+   ],
+   "metin_tarihleri": [
+    [
+     11,
+     12,
+     1878
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "kenmu",
+   "t": "1336-07-04",
+   "b": "Minatogawa Muharebesi'nde Takauji, Nitta Yoshisada'yı yenip Kusunoki Masashige'yi öldürdü ve Kyoto'yu ele geçirdi (Cambridge History of Japan temelli literatür; takvim dönüşümü nedeniyle bazı kaynaklar 25 Mayıs 1336 da verir)",
+   "gun": "",
+   "tur": "savas",
+   "t_ayrisan": [
+    1336,
+    7,
+    4
+   ],
+   "metin_tarihleri": [
+    [
+     25,
+     5,
+     1336
+    ]
+   ],
+   "kova": "TAKVIM_SUPHESI"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "bharatpur-cat",
+   "t": "1805-01-02",
+   "b": "General Gerard Lake komutasındaki İngiliz kuvvetleri, İkinci Anglo-Maratha Savaşı sırasında Bharatpur Kalesi'ni kuşattı; dört hücum geri püskürtüldü, İngilizler 3.000'den fazla zayiat verip 22 Şubat 1805'te kuşatmayı utanç verici biçimde kaldırdı — İngilizlerin Hindistan'daki nadir yenilgilerinden biri",
+   "gun": "",
+   "tur": "savas",
+   "t_ayrisan": [
+    1805,
+    1,
+    2
+   ],
+   "metin_tarihleri": [
+    [
+     22,
+     2,
+     1805
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  },
+  {
+   "kaynak": "KUNYE_KRONOLOJI",
+   "dosya": "devletler.js",
+   "kunye": "transvaal",
+   "t": "1895-12-29",
+   "b": "Jameson Baskını başladı: İngiliz görevlileri ve maden sanayii önderleri Transvaal hükûmetini devirmek için silâhlı bir akın düzenledi ve 2 Ocak 1896'da başarısız oldu",
+   "gun": "",
+   "tur": "isyan",
+   "t_ayrisan": [
+    1895,
+    12,
+    29
+   ],
+   "metin_tarihleri": [
+    [
+     2,
+     1,
+     1896
+    ]
+   ],
+   "kova": "GERCEK_CELISKI"
+  }
+ ]
+}
