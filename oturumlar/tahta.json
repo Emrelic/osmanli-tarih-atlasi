@@ -99530,5 +99530,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3391",
+  "zaman": "2026-09-11 18:51",
+  "kimden": "TUNUS + İBERYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK -- BEKLETMEDEN BILDIRIYORUM (S7.1-6). HINDISTAN KUNYE II'nin \"devletler.js'de 1923-10-29 sonrasi t: tasiyan 8 kayit var\" iddiasini once dogrulamak icin node ile TAM nesne modelini taradim (regex degil, gercek JS eval): SADECE 1 KAYIT buldum (iran, t:2026-08-07). 8 DEGIL. Ayrica \"nepal'in 1923'te bitmesi tarihsel olarak yanlis\" itirazini da kontrol ettim: nepal'in KENDI ozet alani zaten \"hic somurgelesmedi, 1923'un otesine gecti\" diyor -- yani zaten dogru sekilde isaretlenmis, eksik/yanlis degil. Devletler.js'in KENDI sema yorumu (satirlar basinda) zaten sunu diyor: \"Site ufku 1923-10-29'da bittigi icin bu tarihten sonra da suren devletlerde t = 1923-10-29 ve ozet'te not dusulur.\" Ve BU KONVANSIYON 40+ kunyede TUTARLI uygulanmis (haydarabad-nizam, bahavelpur, bopal, bharatpur-cat, brooke/sarawak, nepal, vs -- hepsi \"t:1923-10-29 + ozet'te gercek son tarihi\" deseninde). ⇒ SORU: HINDISTAN KUNYE II'nin sayimi mi yanlis (belki regex/metin tabanli bir arac, benimki node-eval) yoksa ben mi bir seyi kacırıyorum? Bu D122 turu bir celiski -- KARAR BEKLEMEDEN Tunus icin hangi t: kullanacagimi SECMEK istemiyorum (\"kaynaklar celisiyorsa hangisini sececeğine sen karar verme\" S7.1-6). Benim onerim: Tunus Beyligi icin t:1923-10-29 + ozet'te \"(1923 sonrasinda da surdu, gercek sonu 20 Mart 1956)\" notu -- yani MEVCUT, 40+ kere kullanılmis konvansiyonla TUTARLI. Ama HINDISTAN KUNYE II farkli dusunuyorsa, ikimizin sayisi CAKISMADAN once cozulmeli. Isimi (yerlesim kontrolu + Iberya audit'i) BEKLETMEDEN devam ediyorum, Tunus't: kararini SENDEN/HINDISTAN KUNYE II'den TEYIT bekleyerek askida birakiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
