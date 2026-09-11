@@ -1,0 +1,42 @@
+{
+  "_ne": "TAŞMA PROTOTİP — RESMİ GÖRMEDEN ÖNCE yazıldı. D022.",
+  "_kim": "TAŞMA PROTOTİP (local_211b974e-3a66-4072-adef-753e27c9b302)",
+  "_tarih": "2026-09-11",
+  "_niye_onemli": "Bu sefer öngörülen şey bir SAYI değil bir GÖRÜNTÜ. Resmi gördükten sonra 'evet, beklediğim buydu' demek bedavadır; bu dosya o bedavalığı ortadan kaldırıyor.",
+
+  "P1_sinirlar_topografyaya_yaslanacak_mi": {
+    "ongoru": "KISMEN — ve bu ayrımı ŞİMDİ yazıyorum: sınırlar ORGANİK ve EĞRİ çıkacak, ama sırt çizgilerine KESKİN biçimde OTURMAYACAK.",
+    "gerekce": "Sürtünme = 1 + 0,005·|gradyan| SÜREKLİ bir alandır, bir ENGEL değil. Yüksek gradyan bandı sınırı iter ama bir çizgiye KİLİTLEMEZ; sırt boyunca yürümek de pahalıdır. Keskin yaslanma için engel terimi (nehir/sırt maliyeti) gerekir — o bugün YOK.",
+    "curutur": "Sınırlar gözle görülür biçimde sırt hatlarının ÜSTÜNDEN geçiyorsa (yani keskin yaslanma varsa) ÖNGÖRÜ ÇÜRÜR — ve bu İYİ HABER olur."
+  },
+  "P2_gorsel_kusur": {
+    "ongoru": "MERDİVEN BASAMAKLARI GÖRÜNECEK. 0,05° hücre, pilot kutuda ~380×120; basamak gözle seçilir. Chaikin sonrası büyük ölçüde kaybolur.",
+    "curutur": "Ham (yumuşatmasız) resimde basamak seçilemiyorsa"
+  },
+  "P3_poligon_sayisi": {
+    "ongoru": "300-600 poligon (kutuda ~301 tohum + parçalanma)",
+    "curutur": "200'ün altı ya da 1.500'ün üstü"
+  },
+  "P4_sure": {
+    "ongoru": "Tüm prototip < 60 sn; Dijkstra < 5 sn (45.600 hücre × 8 komşu ≈ 365k gevşetme, saf Python)",
+    "curutur": "Dijkstra 30 sn'yi aşarsa"
+  },
+  "P5_bellek": {
+    "ongoru": "Tepe < 500 MB, ve tepeyi Dijkstra DEĞİL ne_10m_land.geojson'un json.load'u yapacak (10,2 MB dosya → ~150-250 MB Python nesnesi)",
+    "curutur": "Tepe 1 GB'ı aşarsa — o zaman koordinatöre SORULACAK, kutu küçültülecek"
+  },
+  "P6_8_vs_16_yon": {
+    "ongoru": "Fark GÖZLE ZOR SEÇİLİR ama ÖLÇÜLEBİLİR: sahibi değişen hücre %2-8 arası. Sebep: sürtünme alanı sekizgen sapmasını maskeliyor — engebeli arazide yönsel sapma, eğim sapmasının yanında küçük kalır.",
+    "curutur": "%1'in altı ya da %20'nin üstü"
+  },
+  "P7_en_buyuk_fark_nerede": {
+    "ongoru": "Düz-çizgi Voronoi ile ızgara arasındaki EN BÜYÜK fark DAĞLIK alanda değil, KIYI ve YARIMADA'da çıkacak — çünkü ızgara kara yolundan yürüyor ve körfezi DOLAŞMAK zorunda, düz çizgi ise körfezi KESİYOR.",
+    "gerekce": "Eğim çarpanı en fazla ~11 kat; deniz ise SONSUZ maliyet (geçilmez). Sonsuz, 11'i her zaman yener.",
+    "curutur": "En büyük fark iç bölgede/dağda çıkarsa"
+  },
+
+  "_bilerek_riskli": [
+    "P1 — sevkin bütün gerekçesi 'sınırlar topografyaya yaslanacak'. Ben KISMEN diyorum ve ayrımı önceden tarif ediyorum. Resim keskin yaslanma gösterirse açıkça yanılmış olurum.",
+    "P7 — herkesin dağ beklediği yerde ben KIYI diyorum."
+  ]
+}
