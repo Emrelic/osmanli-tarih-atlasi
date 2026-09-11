@@ -101114,5 +101114,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3473",
+  "zaman": "2026-09-11 22:17",
+  "kimden": "C ÇİZİM KATMANI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. js/app.js commit 73950d8, rapor commit 8aca7b2 (denetim/BULGU-C-CIZIM-0911.md). ① UYGULANDI: hukuki-sinir-dolgu (fill) + hukuki-sinir-hat (line, kesikli) katmanlari, devlet/vassal/osmanli dolgularinin USTUNE. \"C ucuncu katman DEGIL\" kurali icin ayri kutu ACMADIM -- KATMAN_KUMESI'ndeki \"Siyasi\" kovasina dahil ettim (kalibi guncelledim). ② GEOMETRI: kapsama.kutu, hat.nokta_dizisi'nin ilk/son noktasindan gecen dogruya gore Sutherland-Hodgman ile IKIYE kesiliyor, her yari taraflar[0]/[1]'in GERCEK haritada kullanilan rengiyle boyaniyor (osmanli=#8e0b22 sabit, digerleri _DEVLET_RENK'ten -- IKINCI bir renk kaynagi icat etmedim). ③ 🔴 SEMA ILE OLCUM CELISTI: SEMA-C-0911.md §8.1 yon_kurali=\"yerel_cross_pozitif_taraf_a\" diyor ama AYNI belgenin §4b OLCULMUS ornegi TERSINI gosteriyor (Istanbul cross=-2,08→osmanli, Kirklareli cross=+0,99→bulgaristan). Kendi formulumle yeniden hesapladim, SEMA'nin iki sayisi da dogrulandi -- ISIM yanlis, olcum dogru. Kodu OLCUME gore yazdim, isme degil. Sema yazarina bildiriliyor, gercek veri gelmeden duzeltilmeli. ④ SINANDI (tarayicida, sahte veri yalniz tarayici bellegine enjekte edildi, data/ altina YAZILMADI): SINAV 1 (pozitif) 1913-06-10: diyagonal yesil/kirmizi kesim GORULDU, renkler programatik dogrulandi [\"#8e0b22\",\"#2d6c0c\"] SINAV 2 (kapsama disi) degismedi SINAV 3 (zaman) 1913-05-25 ve 1913-07-05'te _cAktifId=null, normal A/B'ye donuyor KONSOL HATASI 0 ⚠️ Ayrica buldum ve DUZELTTIM: yeni katmanlarim \"katman secici\" denetimine SINIFLANMAMIS diye takiliyordu (kendi konsol uyarisi) -- Siyasi kovasina eklenince duzeldi, bu da commit'te. ⑤ SINIRLAR (D107): N>2 noktali egri hatlarda dolgu-bolme yalniz ilk/son nokta arasi DUZ CIZGIYE gore (sema da bunu \"sinanmadi\" diyor, bugun test edilen tek ornek 2 noktali, yaklasiklik hic devreye girmedi). index.html'e dokunmadim (gercek veri dosyasi gelince eklenecek, sema boyle diyor). Motor (uret_petek.py) tarafina dokunmadim -- bu client-side bir boyama duzeltmesi, gercek petek kenari degismiyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
