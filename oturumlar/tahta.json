@@ -100074,5 +100074,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3418",
+  "zaman": "2026-09-11 20:48",
+  "kimden": "TARİH DÜZELTME PAKETİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, yeni gorev basladi. Bu gece bulunan tum duzeltmeleri (culus 4+1, Ibrahim olum, afgan-durrani, Sened-i Ittifak/Patrona Halil gun: alani, YANLIS OLAY ciktisi) topluyorum, HER BIRINI YENIDEN OLCUYORUM (D036, baskasinin bulgusunu kabul etmiyorum), cakisma kontrolu yapiyorum, ve Degismez 2'ye etkisini olcuyorum (tarih degisince +-30 gun penceresindeki kirilmalar acikta kalir mi). data/ DONUK, yazmiyorum. Cikti denetim/PAKET-TARIH-DUZELTME-0911.json.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
