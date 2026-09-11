@@ -475,3 +475,134 @@ kendiliğinden ucuz yol olur. Geçidi *modellemek* değil, sırtı *doğru çizm
 6.095.287 · 3.336.475 · 20.880.000                 → koşu logları (önceki tur)
 0.30°/0.35° · SADE_TOL 0.012 · KARA_TOL 0.002      → uret_petek.py (grep)
 ```
+
+---
+
+# TAŞMA PROTOTİP — ÇALIŞAN PROTOTİP VE BEŞ RESİM · 11 Eylül 2026
+
+> Öngörü: `denetim/ONGORU-TASMA-PROTOTIP-0911.json`, commit **3e74cdd**,
+> **resmi görmeden önce.** Prototip depo ağacının DIŞINDA
+> (`…\Temp\claude\…\scratchpad\tasma_prototip.py`); `arac/` ve `data/` yalnız
+> OKUNDU. Motor değiştirilmedi, koşu açılmadı.
+> **Ölçülen tepe bellek 168,7 MB · toplam 48,6 sn** — koordinatörün 1 GB sınırının
+> altında kaldı, sormaya gerek olmadı.
+
+## KARNE — 7 öngörü, 1'i çürüdü, 1'inin GEREKÇESİ çürüdü
+```
+🟢 P1 sınırlar KISMEN yaslanır (organik ama sırta kilitlenmez)   TUTTU
+🟢 P2 merdiven görünür, Chaikin siler                            TUTTU (+ ek bulgu)
+🟢 P3 300-600 poligon                          396               TUTTU
+🟢 P4 Dijkstra < 5 sn                          3,20 sn           TUTTU
+🟡 P5 tepe < 500 MB                            168,7 MB          sayı TUTTU
+      "tepeyi json.load yapacak"                                 GEREKÇE ÇÜRÜDÜ
+🟢 P6 8↔16 yön farkı %2-8                      %3,59             TUTTU
+🔴 P7 en büyük fark KIYIDA olacak, dağda değil                   ÇÜRÜDÜ
+```
+
+## ① RESİMLER — beş PNG, `denetim/` altında
+```
+TASMA-PROTOTIP-1-YANYANA-0911.png    Doğu Anadolu · ÜÇ panel: bugün · önerilen · ÜST ÜSTE
+TASMA-PROTOTIP-5-TOROS-0911.png      Toroslar+Akdeniz · aynı üç panel (dağ VE kıyı bir arada)
+TASMA-PROTOTIP-3-MERDIVEN-0911.png   ham merdiven ↔ Chaikin — 1,6°×1,2° yakınlaşma
+TASMA-PROTOTIP-2-GENEL-0911.png      bütün pilot kutu, üst/alt
+TASMA-PROTOTIP-4-FARK-0911.png       fark SEBEP SEBEP ayrıştırılmış (3 katman)
+```
+
+### 🔴 VE İLK ÇİZİM OKUNMUYORDU — kusuru ÖLÇÜM DEĞİL GÖZ buldu
+İlk sürümde 19°lik kutuya 376 petek sığdırdım, kabartma yıkanmıştı, iki panel
+gözle ayırt edilemiyordu. Sayılar doğruydu (%12,9 fark), **resim yanlıştı.**
+📌 Ve ikinci sürüm de yanlış soruyu cevaplıyordu: renk lekesi sınırın **EĞRİ**
+olduğunu gösteriyor, **ARAZİYE UYDUĞUNU** göstermiyor — ikisi ayrı iddia.
+⇒ Üçüncü sürümde renk kaldırıldı, arazi öne alındı, sınır tek başına hat olarak
+çizildi ve üçüncü panelde iki yöntem **üst üste** bindirildi.
+**Sevkin kendi cümlesi haklı çıktı: sayı "yaslandı" demez, GÖZ der — ve göz
+resmin KENDİSİNİ de denetliyor.**
+
+## ② GÖZLE HÜKÜM — dürüstlük maddesi (sevk ③)
+
+🟢 **SINIRLAR GERÇEKTEN ARAZİYİ GÖRÜYOR.** Düz çizgi Voronoi'de sınırlar geometrik
+doğrular; ızgarada vadi boyunca akıyor, dik yamaçlardan kaçıyor, körfezi dolaşıyor.
+Fark **bakar bakmaz görülüyor** — kimseye "şuraya dikkat et" demeye gerek yok.
+
+🟡 **AMA SIRT ÇİZGİSİNE KİLİTLENMİYOR — P1 tuttu ve bu bir SINIRDIR.**
+Sınırlar organik ve eğri, ama bir sırtın tam üstünden geçmiyor; bazı yerlerde
+sırtı **kesiyor**. Sebep yapısal ve önceden yazmıştım: `sürtünme = 1 + 0,005·|eğim|`
+**sürekli bir alan**, bir **engel** değil. Yüksek eğim bandı sınırı iter ama
+bir çizgiye **kilitlemez** — sırt boyunca yürümek de pahalıdır.
+⇒ **Emre'nin "dağa toslayınca duracak" tarifi için engel terimi gerekiyor**
+(④'ün nehir/sırt çarpanı). Eğim tek başına o işi görmüyor; **yaklaştırıyor.**
+
+🔴 **VE ÇİRKİN OLANI DA GÖSTERİYORUM:** merdiven basamakları **açıkça görünüyor**
+(`…-3-MERDIVEN…`, sol panel). Chaikin onları siliyor — **ama karşılığında
+sınırı DALGALANDIRIYOR**: basamak gidiyor, yerine düzenli bir *fisto* geliyor.
+Bu bir kusur değil bir **takas**, ve raporlanmadan geçilmemeli.
+
+## ③ SAYILAR — ve hangi sebep ne kadar
+```
+pilot kutu        Anadolu (26,36,45,42) + 1,5° pay · ızgara 440×180 = 79.200
+kara hücresi      55.174 · erişilen 55.154 · tohum 376 (370'i ızgaraya oturdu)
+sürtünme          medyan 1,563 · en yüksek 6,86
+poligon           396 · ham köşe 12.232   (poligonlaştırma 0,04 sn)
+
+AYRIŞTIRILMIŞ FARK (erişilen hücrenin yüzdesi):
+  ① KARA YOLU   düz Voronoi → sürtünmesiz ızgara    4.767  %8,64
+  ② EĞİM        sürtünmesiz → eğimli ızgara         4.767  %8,64
+  ③ TOPLAM      düz Voronoi → eğimli ızgara         7.088  %12,85
+  ④ 8 ↔ 16 yön                                      1.982  %3,59
+```
+
+### 🔴 P7 ÇÜRÜDÜ — ve tam olarak çürüdü
+*"En büyük fark dağda değil KIYIDA çıkacak; sonsuz maliyet 11 katı her zaman
+yener"* demiştim. Ölçüm: **ikisi TAM OLARAK EŞİT.** Kara yolu tek başına %8,64,
+eğim tek başına %8,64. Ne kıyı baskın, ne dağ.
+📌 Ve toplam (%12,85) ikisinin toplamından (%17,3) **küçük**: iki etki aynı
+hücrelerin bir kısmında **birbirini götürüyor** (kesişim 1.415 hücre).
+
+### 🟢 VE AYNI SAYININ İKİ KEZ ÇIKMASI ÖNCE ALETTEN ŞÜPHELENDİRDİ (`D117`)
+4.767 = 4.767 bir yazılım hatası gibi kokuyordu. **Sınadım, hata yok:**
+```
+vor is s_duz            False        diziler AYNI NESNE DEĞİL
+array_equal(vor,s_duz)  False        içerikleri de farklı
+A=vor≠duz ∩ B=duz≠egim  1.415        kümeler FARKLI (A\B = B\A = 3.352)
+yarım örneklem ×3       2370/2387 · 2394/2344 · 2371/2399  → EŞİTLİK BOZULUYOR
+```
+⇒ **Yapısal bir özdeşlik YOK; eşitlik gerçek bir TESADÜF.** Komşu ölçüm
+`duz↔y16 = 4.807` de aynı bantta — yani ~4.700-4.900 bandında bir denk gelme.
+Raporluyorum ama **bir anlam yüklemiyorum.**
+
+## ④ 8 → 16 YÖN — ve KENDİ ÖNCEKİ TAHMİNİMİ DÜZELTİYORUM
+```
+Dijkstra 8 yön   3,20 sn
+Dijkstra 16 yön  4,37 sn      ⇒ 1,36 KAT
+```
+🔴 Önceki teslimimde *"komşu sayısı 2× ⇒ süre ~2×, çağrı başına +102..135 sn"*
+demiştim. **Ölçüm 1,36× diyor, 2× değil.** Sebep: 16 komşu daha *iyi* yollar
+bulduğu için yığın daha az kabarıyor; kenar sayısı iki katına çıksa da iş iki
+katına çıkmıyor. ⇒ Motorun gerçek ölçeğinde ek maliyet **+37..49 sn/çağrı**,
+yani koşunun **%0,15'i** — daha önce yazdığımın üçte biri.
+⚠️ **Ve bu prototipin mutlak süreleri motora TAŞINMAZ:** benim Dijkstra'm numpy
+dizilerinde skalar indeksliyor, motorunki `array('f')` + düz liste kullanıyor.
+Taşınabilir olan **oran** (1,36×), **saniye değil** (`D129`).
+
+## ⑤ MALİYET — pilottan tam girdiye
+```
+pilot 55.174 kara hücresi     Dijkstra 3,20 sn · poligonlaştırma 0,04 sn
+tam   6.095.287 kara hücresi  → 110 kat hücre
+motorun ÖLÇÜLMÜŞ tam koşusu   Dijkstra 102-135 sn (koşu logları, %0,2)
+poligonlaştırma tam ölçekte   kardeş oturum ölçtü: 0,496 sn / 3.843 poligon
+```
+⇒ **Poligonlaştırma tam ölçekte yarım saniye.** Maliyet tarafında bu işin önünde
+duran hiçbir şey yok; `②`de yazdığım gibi darboğaz Dijkstra'nın BELLEĞİ
+(637+159 MB/çağrı) ve onun da 5 katlık ucuz çaresi ölçüldü (`array`).
+
+## ⑥ NE YAPILMADI — damgalı
+```
+⚪ ÖLÇÜLMEDİ   nehir/sırt ENGEL terimi konmuş hâli (④'ün çarpanı 13,0/15,0)
+              — bu prototip YALNIZ eğim taşıyor. Emre'nin "nehirde duracak"
+              tarifi HENÜZ DENENMEDİ.
+⚪ ÖLÇÜLMEDİ   boğaz/geçit — su hücresi hâlâ geçilmez (yapısal, `:2256`)
+⚪ ÖLÇÜLMEDİ   bu sınırların DEĞİŞMEZ 1/2/7 · çakışma · enklav denetimlerinden
+              geçip geçmediği. Hepsi düz-çizgi Voronoi tabanında kalibre
+              edildi (sevkin kendi uyarısı) ve prototip onlara HİÇ sorulmadı.
+🔴 YAPILMADI   motorda hiçbir değişiklik. Süzgeç yerinde, `A`nın tanımı yerinde.
+```
