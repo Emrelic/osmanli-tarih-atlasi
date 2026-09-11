@@ -162,6 +162,13 @@ tanıtılmamış bir nehirle sınırlı — C şeması bunu bir `hat` girdisi ol
 YAZABİLİR ama motor onu çizmeden önce `BUYUK`'e `"Maros","Mures","Mureș"`
 eklenmesi gerekir (bu, C'nin değil `uret_petek.py`nin bir satırlık borcu).
 
+### 🔴 DÜZELTME (11 Eylül, sonraki tur — `HAZIRLIK-BOSNA-NOKTA-0911.json`)
+Aşağıdaki §3.3'te **"Bihke: false"** yazıyordu — **YANLIŞTI.** ASCII
+alt-dizgi araması Türkçe `ç` ile Hırvatça `ć` arasındaki farktan dolayı
+**`Bihaç (Bihać)` kaydını kaçırdı** (`data/yerlesimler_ek.js`, 44.817,
+15.871 — ZATEN VAR). Kendi hatam, `§4`/`D054`/`D064`'ün aynı sınıfı.
+Ayrıntı ve düzeltilmiş liste: `denetim/HAZIRLIK-BOSNA-NOKTA-0911.json`.
+
 ### 3.3 🔴🔴 Bosna'nın kale listesi — NOKTA-ATAMASI, ama noktalar YOK
 ```
 "Kostayniçe Avusturya'da kaldı; diğer kaleleri (Bihke, Novi, Krupa vb.)

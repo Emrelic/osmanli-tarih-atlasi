@@ -1,0 +1,120 @@
+{
+  "_not": "HAZIRLIK dosyasidir, data/ ICINE YAZILMADI. arac/uret_petek.py calistirilmadi (kosu 9 canli, arac/ donuk) — 'kim kazaniyor' tahminleri YAKINLIK HESABIdir, kesin Voronoi sonucu DEGIL.",
+
+  "🔴_DUZELTME_ONCEKI_TESLIMDE": {
+    "hata": "denetim/SEMA-C-0911.md ve PILOT-C-KARLOFCA-0911.json'da 'Bihke: false' yazmistim — YANLIS.",
+    "sebep": "ASCII alt-dizgi aramasi ('bihac' in isim.lower()) Turkce 'ç' ile Hirvatca 'ć' arasindaki fark yuzunden 'Bihaç (Bihać)' kaydini KACIRDI. CLAUDE.md §4 Turkce yazim ekseni + D054/D064'un AYNI hatasi, bu sefer BENDEN.",
+    "gercek": "Bihaç (Bihać) 44.817,15.871 data/yerlesimler_ek.js'te ZATEN VAR. Bu is tanimindaki 'Bihac yok' onculu KISMEN YANLISTI — asagida duzeltilmis liste var.",
+    "yontem_duzeltmesi": "Bu dosyada TUM aramalar denetim/ARAC-NORMAL-0903.py norm() ile yapildi, ASCII substring KULLANILMADI."
+  },
+
+  "antlasma": {
+    "id": "karlofca", "tarih": "1699-01-26",
+    "madde_kaynagi_birincil": "Karlofça Antlaşması, Bosna/Hırvatistan hattı — İngilizce çeviriden doğrudan alıntı (tarihî antlaşma metni koleksiyonu, WebSearch ile bulundu): \"The Country belonging to the Dominion of his Imperial Ottoman Majesty, as far as the River Unna towards Bosnia, shall be limited and bounded by the hither Shore of the River Unna: and all the Imperial Garrisons that are in Novi, Dubizza, Sessenovizza, Doboy and Bred on the part of Bosnia, and any other such place in this Tract, shall be drawn out from thence, and the same shall be left entirely free. ... Castanoviz and the Islands below the Country of Novi, towards the Save, together with the farthermost Bank of the said River Unna, are and remain in the Power of the Emperor of the Romans.\"",
+    "madde_kaynagi_ikincil_TDV": "TDV karlofca: \"Kostayniçe Avusturya'da kaldı; diğer kaleleri (Bihke, Novi, Krupa vb.) boşaltıldı.\""
+  },
+
+  "🔴_CELISKI_TDV_ILE_BIRINCIL_METIN": [
+    {
+      "konu": "Bihać'ın durumu",
+      "TDV_diyor": "Bihke boşaltıldı (Osmanlı'dan çıktı)",
+      "birincil_metin_diyor": "Bihać, evacuate edilen kaleler listesinde (Novi, Dubizza, Sessenovizza, Doboy, Bred) YOK",
+      "bagimsiz_kaynak": "İki ayrı WebSearch sonucu: '1699 treaty made Bosnia the empire's westernmost province' (Bihać dahil) ve 'Croatian and Bihać borders agreed by mid-1700' (uzun sureli komisyon anlasmazligi, ama SONUCTA Osmanli'da kaldigi ima ediliyor)",
+      "hukum": "ÇÖZÜLMEDİ — M-3329 karari geregi birincil metin esas alinir, ama iki kaynak da tam netlik vermiyor (komisyon süreci 1700-1703 arasi sürmüş, Bihać özelinde anlaşmazlık olabilir). Emre'nin karari: TDV mi yoksa bu WebSearch alintisi mi esas alinsin, YOKSA Latince/orijinal metne mi gidilsin?",
+      "simdiki_veri_etkisi": "Bihaç zaten yerlesimler.js'te OSMANLI olarak duruyor (mevcut veri, tarih siniri yok görünüyor) — bu celiski cozulmeden dokunulmamali"
+    },
+    {
+      "konu": "Krupa'nın durumu",
+      "TDV_diyor": "Krupa boşaltılanlar arasında",
+      "birincil_metin_diyor": "Krupa, evacuate listesinde YOK (Novi, Dubizza, Sessenovizza, Doboy, Bred)",
+      "hukum": "ÇÖZÜLMEDİ — aynı sınıf çelişki, aynı soru Emre'ye"
+    }
+  ],
+
+  "yeni_nokta_adaylari": [
+    {
+      "ad_onerisi": "Kostayniçe (Kostajnica)",
+      "lat": 45.183, "lon": 16.683,
+      "koordinat_durumu": "genel coğrafi bilgi — HARİTA/GPS İLE DOĞRULANMADI",
+      "kur": "bulunamadı — bu pilotun kapsamı dışı, ayrı araştırma gerekir",
+      "onceki_donem_baslangici": "bulunamadı — Osmanlı fethi tarihi ayrıca araştırılmalı (medieval Hırvat/Bosna kalesi, fetih tarihi net değil)",
+      "1699_donusumu": { "f": "bulunamadı (fetih)", "t_1699": "1699-01-26", "1699_sonrasi": "avusturya" },
+      "kaynak": "Birincil antlaşma metni: \"Castanoviz ... are and remain in the Power of the Emperor of the Romans\" — AÇIKÇA Avusturya'ya bırakılıyor",
+      "mukerrer_kontrolu": { "norm_eslesme": "YOK (denetim/ARAC-NORMAL-0903.py ile 3641 nokta tarandı)", "en_yakin_mevcut_nokta": "Sisak (45.466,16.378), ~39 km", "durum": "MÜKERRER DEĞİL — 3 km eşiğinin çok üstünde" },
+      "iki_uc_olcumu": {
+        "bugun_hangi_petege_dusuyor_tahmin": "Sisak (Avusturya/Hırvat) petegine — 39 km, bölgedeki en yakın mevcut nokta",
+        "yon": "🔴 OSMANLI EKSİK görünüyor olabilir — Kostajnica 1699'dan ÖNCE uzun süre Osmanlı sınır kalesiydi (ilk Osmanlı eline geçişi 16. yy), ama bugün muhtemelen tüm tarih boyunca Avusturya/Hırvat gösteriliyor çünkü nokta yok",
+        "damga": "TAHMİN — motor koşulmadan (arac/ donuk) kesinleşmez, yakınlık hesabıdır"
+      }
+    },
+    {
+      "ad_onerisi": "Bosna Novi'si (Bosanski Novi / Novi Grad) — Herceg Novi'den AYRI, KARIŞTIRILMASIN",
+      "lat": 45.048, "lon": 16.377,
+      "koordinat_durumu": "genel coğrafi bilgi — DOĞRULANMADI",
+      "kur": "bulunamadı",
+      "onceki_donem_baslangici": "bulunamadı",
+      "1699_donusumu": { "f": "bulunamadı (fetih)", "t_1699": "1699-01-26", "1699_sonrasi": "avusturya" },
+      "kaynak": "Birincil antlaşma metni: \"Imperial Garrisons that are in Novi ... shall be drawn out ... left entirely free\"",
+      "mukerrer_kontrolu": { "norm_eslesme_bulundu_ama_YANLIS_NOVI": ["Yenipazar (Novi Pazar) 43.140,20.517 — 300+ km uzakta, AYRI yer", "Herseknovi (Herceg Novi) 42.453,18.538 — AYRI yer", "Çernovitz (Çernivtsi) 48.292,25.935 — AYRI yer"], "en_yakin_mevcut_nokta": "Sisak (45.466,16.378), ~46 km", "durum": "MÜKERRER DEĞİL — norm() 'novi' iceren 3 farkli yeri buldu, hicbiri BU Novi degil (D185: ad aramasi iki yone yanilir)" },
+      "iki_uc_olcumu": {
+        "bugun_hangi_petege_dusuyor_tahmin": "Sisak (Avusturya/Hırvat), ~46 km",
+        "yon": "🔴 OSMANLI EKSİK görünüyor olabilir — aynı gerekçe Kostajnica ile",
+        "damga": "TAHMİN"
+      }
+    },
+    {
+      "ad_onerisi": "Bosna Dubiçası (Bosanska Dubica)",
+      "lat": 45.174, "lon": 16.810,
+      "koordinat_durumu": "genel coğrafi bilgi — DOĞRULANMADI",
+      "kur": "bulunamadı", "onceki_donem_baslangici": "bulunamadı",
+      "1699_donusumu": { "f": "bulunamadı (fetih)", "t_1699": "1699-01-26", "1699_sonrasi": "avusturya" },
+      "kaynak": "Birincil antlaşma metni: \"...Dubizza...shall be drawn out...left entirely free\"",
+      "mukerrer_kontrolu": { "norm_eslesme": "YOK", "en_yakin_mevcut_nokta": "Sisak (45.466,16.378), ~47 km", "durum": "MÜKERRER DEĞİL" },
+      "iki_uc_olcumu": { "bugun_hangi_petege_dusuyor_tahmin": "Sisak (Avusturya/Hırvat), ~47 km", "yon": "🔴 OSMANLI EKSİK görünüyor olabilir", "damga": "TAHMİN" }
+    },
+    {
+      "ad_onerisi": "Jasenovaç (Jasenovac)",
+      "lat": 45.281, "lon": 16.917,
+      "koordinat_durumu": "genel coğrafi bilgi — DOĞRULANMADI",
+      "kur": "bulunamadı", "onceki_donem_baslangici": "bulunamadı",
+      "1699_donusumu": { "f": "bulunamadı (fetih)", "t_1699": "1699-01-26", "1699_sonrasi": "avusturya" },
+      "kaynak": "Birincil antlaşma metni: \"...Sessenovizza...shall be drawn out...left entirely free\"",
+      "mukerrer_kontrolu": { "norm_eslesme": "YOK", "en_yakin_mevcut_nokta": "Sisak (45.466,16.378), ~47 km", "durum": "MÜKERRER DEĞİL" },
+      "iki_uc_olcumu": { "bugun_hangi_petege_dusuyor_tahmin": "Sisak (Avusturya/Hırvat), ~47 km", "yon": "🔴 OSMANLI EKSİK görünüyor olabilir", "damga": "TAHMİN" }
+    },
+    {
+      "ad_onerisi": "Bosna Brod'u (Bosanski Brod)",
+      "lat": 45.138, "lon": 17.988,
+      "koordinat_durumu": "genel coğrafi bilgi — DOĞRULANMADI. Slavonski Brod (Sava'nın karşı/Hırvat yakası, ~45.160,18.016) ile KARIŞTIRILMASIN — bu ayrı nokta",
+      "kur": "bulunamadı", "onceki_donem_baslangici": "bulunamadı",
+      "1699_donusumu": { "f": "bulunamadı (fetih)", "t_1699": "1699-01-26", "1699_sonrasi": "avusturya" },
+      "kaynak": "Birincil antlaşma metni: \"...Bred...shall be drawn out...left entirely free\" (bu, denetim/SEMA-C-0911.md §3.1'deki Sava HAT segmentinin BİTİŞ noktası 'Brot Kalesi' ile AYNI yer olabilir — TDV'de 'Brot', bu kaynakta 'Bred')",
+      "mukerrer_kontrolu": { "norm_eslesme_YANLIS": ["Albreda-Cufure (Afrika, 'bred' alt-dizgisi ile yanlış eslesme, 13.000+ km uzakta)"], "en_yakin_mevcut_nokta": "Srebrenik (44.705,18.489), ~62 km", "durum": "MÜKERRER DEĞİL" },
+      "iki_uc_olcumu": {
+        "bugun_hangi_petege_dusuyor_tahmin": "Srebrenik (OSMANLI), ~62 km",
+        "yon": "🔴🔴 TERS YÖN — burada OSMANLI FAZLA görünüyor olabilir: Brod 1699'da TAHLİYE EDİLDİ (Avusturya'ya geçti) ama en yakın mevcut nokta Osmanlı olduğu için harita muhtemelen 1699 SONRASINDA da Brod'u Osmanlı gösteriyor",
+        "damga": "TAHMİN — ve CLAUDE.md §3.5.1'in TAM ÖRNEĞİ: bu beş adayın DÖRDÜ 'Osmanlı eksik' yönünde, biri (Brod) TERS yönde. Tek yönden bakmak yarısını kaçırırdı"
+      }
+    }
+  ],
+
+  "zaten_var_DOKUNULMAYACAK": [
+    {
+      "ad": "Bihaç (Bihać)", "lat": 44.817, "lon": 15.871, "dosya": "data/yerlesimler_ek.js",
+      "not": "Önceki teslimimde 'yok' denmişti — YANLIŞTI, düzeltildi yukarıda. Mevcut kaydına dokunulmadı, yalnız TESPİT edildi."
+    },
+    {
+      "ad": "Bosanska Krupa", "durum": "yerlesimler.js'te YOK (norm() ile de bulunamadı) — ama TDV/birincil metin ÇELİŞKİSİ netleşmeden (yukarı bakınız) eklenmesi ERTELENDİ. Krupa'nın 1699'da el değiştirip değiştirmediği belirsiz."
+    }
+  ],
+
+  "OZET_SAYILAR": {
+    "sartnamede_verilen_5_aday": ["Kostajnica","Bihać","Novi","Krupa","Brod"],
+    "bihac_zaten_vardi_DUZELTME": 1,
+    "krupa_celiski_yuzunden_ERTELENDI": 1,
+    "gercekten_YENI_ve_KAYNAKLI_aday": 5,
+    "gercekten_YENI_liste": ["Kostajnica","Bosanski Novi (Novi Grad)","Bosanska Dubica","Jasenovac","Bosanski Brod"],
+    "mukerrer_cikan": 0,
+    "iki_uc_yonu": { "osmanli_eksik_yonunde": 4, "osmanli_fazla_yonunde": 1 }
+  }
+}
