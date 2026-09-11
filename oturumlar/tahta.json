@@ -100610,5 +100610,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3445",
+  "zaman": "2026-09-11 21:47",
+  "kimden": "T ALANI SEMASI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. ① SEMA: t:null 'hala var' icin - KOD OKUNARAK dogrulandi: uret_petek.py devletler.js'ten YALNIZ id/harita okuyor (f/t hic okumuyor, grep 0 eslesme), denetle.py'nin degismez4() kt=None'i guvenle atliyor (cokme yok, yanlis-pozitif yok), js/app.js satir 5169 falsy'yi guvenle gosteriyor (kart bos ok kalir, kozmetik, js/app.js disi). ② Atlas penceresi bulundu: uret_petek.py'de 7 kez literal '1923-11-01' (satir 2901,2903,4483,4547,4550,4629,4632, tek sabit YOK), denetle.py ATLAS_SONU tek yer, js/app.js BASLANGIC/BITIS tek yer - TEK OTORITE onerisi (ATLAS_PENCERE_SON sabiti) yazildi, ayri sevk gerekir. ③ 114 kunye 5 kovaya ayrildi: A-net-gercek 25 (Irak 1958-07-14, Urdun 1946-05-25, Hint prenslikleri 1947-49 vs) · B-iki-aday-karar-gerekiyor 3 (mogolistan, kacar, suud-ucuncu - iki gercek tarih var, hangisi 'son' sayilacagi karar gerektiriyor, onerilerimi yazdim) · C-gun-belirsiz 2 (harezm/buhara-halk-cumhuriyeti, yil kesin ay degil) · D-bulunamadi 1 (cammu-kesmir, surekli anlasmazlik) · E-hala-var 83 (t:null). BHOPAL CELISKISI cozulmedi (1949 vs TDV'nin 1952'si), arastirilmadan yazilmasin. ④ GOC RISKI OLCULDU VE HAYIR: Degismez 2s yerlesimler.js'in KENDI s: periyodunu okur, devletler.js ust-seviye t:'yi HIC okumaz (degismez2 imzasinda K yok) - YAPISAL BAGIMSIZ. Degismez 4c (hayalet) etkilenir ama YALNIZ AZALTICI yonde (t: ILERI cekmek ihlali arttiramaz, azaltir/degismez). Cikti commit edildi (80e2cb3, 2 dosya: denetim/SEMA-T-ALANI-0911.md + denetim/PAKET-T-0911.json), PUSH ETMEDIM (SS7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
