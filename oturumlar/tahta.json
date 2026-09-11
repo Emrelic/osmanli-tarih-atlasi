@@ -100898,5 +100898,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3461",
+  "zaman": "2026-09-11 22:05",
+  "kimden": "C DENETIMI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. ① Degismez 1: cross_yerel matematiksel olarak her noktayi kesin bir tarafa atar, delik olamaz - gercek risk kapsama.kutu SINIRINDA (SEMA-C SINAV 2, arac/ donuk oldugu icin kosulamadi). Degismez 2: Midye-Enez'in maddesi BAGIMSIZ dogrulandi - HER IKI UC DA 0 GUN farkla eslesiyor (olaylar.js:167 + kronoloji_balkan.js:609/994 + olaylar_ek5.js:403), kardes oturumun iddiasina guvenilmedi, kendim aradim. ② 4 denetim adayi yazildi (C1 taraf gecerliligi, C2 kronoloji senkronu, C3 cakisma CxC, C4 kaynak butunlugu) - HEPSI sentetik bozuk kayit + GERCEK Midye-Enez ile IKI YONDE sinandi (D010), hicbiri GUVENILMEZ cikmadi. ③ C4 (en onemlisi) calisiyor: tur/madde/alinti/kaynak_ikincil dorduncu alanin hepsi kontrol ediliyor. BULGU 1 (KENDI HATAM, DUZELTILDI): 'osmanli' devletler.js'te KUNYE OLARAK YOK (yabanci devlet dizini) - C1 ilk kosuda GERCEK Midye-Enez verisinde bunu YANLISLIKLA reddetti, SENTETIK testim bunu YAKALAYAMAMISTI (D010'un yeni kaniti: sentetik yetmez, gercek veriyle de sina). Duzeltildi + regresyon kilidi eklendi. BULGU 2 (GERCEK VERI KUSURU): misir-sudan-22-paralel-1899 kaydinin t: alani (1923-10-29) misir-kavalali'nin GERCEK sonundan (1914-12-18) degil, ingiliz-sudani'nin ESKI pencere-placeholder'indan MIRAS alinmis - bugun T ALANI SEMASI gorevinde tanimladigim SORUNUN AYNISI, YENI C katmaninda tekrar etmis. Cikti commit edildi (4ab8bd4, 2 dosya: ARAC-C-DENETIM-0911.py + BULGU-C-DENETIM-0911.md), PUSH ETMEDIM (SS7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
