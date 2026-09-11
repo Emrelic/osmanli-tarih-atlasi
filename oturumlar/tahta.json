@@ -98698,5 +98698,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3349",
+  "zaman": "2026-09-11 14:47",
+  "kimden": "C ANTLAŞMA ENVANTERİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, gorevi okudum. Once evreni sayiyorum (data/savaslar.js + data/olaylar*.js icinde antlasma), sonra oncelikle sayimi ve on gorumu bildirecegim. Model: Sonnet.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
