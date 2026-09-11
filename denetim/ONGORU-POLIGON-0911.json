@@ -1,0 +1,37 @@
+{
+  "oturum": "POLİGON FİYAT",
+  "tarih": "2026-09-11",
+  "not": "Kardeş oturum TASMA-OLCUM zaten dört kalemin cogunu olcmus (bkz. oturumlar/TASMA-OLCUM-0911.md TESLIM bolumu). Bu ongoru onlarin sayilarini TEKRAR TURETMEK icin degil, (a) benim ozgun katkim olan rasterio.features.shapes mertebe/sure tahmini icin ve (b) onlarin dort bulgusunu BAGIMSIZ olarak dogrulayip dogrulamayacagim icin yazildi.",
+  "ongoruler": [
+    {
+      "id": "P1",
+      "konu": "poligon sayisi (rasterio.features.shapes ile _kvsahip izgarasindan)",
+      "tahmin": "birkaç bin (2.000-8.000) ayrı poligon/halka — sahiplenen hücre sayısı (3.336.475) değil, DİSTİNCT OWNER (tohum hücresi) sayısı belirleyici; DURUM.md'nin küresel 3805 yerleşim sayısı bir ÜST SINIR, kümelenme (aynı 5,57km hücreye düşen birden fazla yerleşim) ve pencere-dışı elemeler bunu düşürür",
+      "cürüme_şartı": "eğer bir hücrede TEK sahip yerine sık sık PARÇALANMIŞ (disconnected) bölgeler oluşuyorsa (örn. kıyı şeridi kesişmeleri, dar boğazlar) sayı bu üst sınırı 2-5 katına çıkarabilir — bu durumda tahmin çürür"
+    },
+    {
+      "id": "P2",
+      "konu": "rasterio.features.shapes süresi (3.336.475 hücrelik alan için)",
+      "tahmin": "saniyeler mertebesinde (5-60 sn) — GDAL'ın C tabanlı contour-tracing algoritması saniyede milyonlarca hücre işler; bu makinede küçük bir sentetik ölçekli benchmark ile TAHMİN edilecek, gerçek veri üzerinde KOŞULMAYACAK (arac/data donuk)",
+      "cürüme_şartı": "eğer bu makinede sentetik 1M hücrelik benchmark 10 saniyeden uzun sürerse, gerçek 3,3M hücre için tahmin 100+ saniyeye çıkar ve öngörü çürür"
+    },
+    {
+      "id": "P3",
+      "konu": "donemler.js boyutu (kardeş oturumun '0,9 kat' iddiası)",
+      "tahmin": "DOĞRULANACAK — kardeşin aritmetiği (7.710.950 km / (5,570 km hücre) × (4/π) ≈ 1.763.903 köşe, mevcut 2.031.647'nin altında) kendi başına tutarlı görünüyor; benim kendi taramamla (donemler.js üzerinde bağımsız köşe/segment sayımı) TEYİT edeceğim, çürütmeyi beklemiyorum",
+      "cürüme_şartı": "eğer benim bağımsız taramam farklı bir köşe/km rakamı verirse (örn. dosyanın format varsayımı yanlışsa) çürür"
+    },
+    {
+      "id": "P4",
+      "konu": "nehir/sırt sürtünme çapası (kardeşin dogal_hatta_yasla 0.30°/0.35° türetmesi)",
+      "tahmin": "DOĞRULANACAK — 0,30°≈33,4km ve 0,35°≈39,0km rakamları grep ile doğrudan doğrulanabilir (bunlar zaten uret_petek.py'de yazılı sabitler); çarpan aritmetiği (1+66,8/5,57≈13,0) basit bölme, çürümesi beklenmiyor",
+      "cürüme_şartı": "eğer uret_petek.py'de bu sabitler farklı bir satırda/değerde bulunursa çürür"
+    },
+    {
+      "id": "P5",
+      "konu": "8→16 yön ek maliyeti (%0,2 taban)",
+      "tahmin": "DOĞRULANACAK — koşu loglarından bağımsız grep ile aynı süre aralığını (1dk42sn-2dk15sn) ve toplam koşu süresini (~14 saat) teyit edeceğim",
+      "cürüme_şartı": "eğer log dosyalarında farklı bir süre görürsem (log rotasyonu/farklı koşu karışmışsa) çürür"
+    }
+  ]
+}
