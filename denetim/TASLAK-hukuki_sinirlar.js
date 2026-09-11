@@ -35,11 +35,53 @@ window.HUKUKI_SINIRLAR = [
     ]
   },
 
+  gereken_cografya: [
+    { ad: "Enez", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js:126" },
+    { ad: "Midye (Kıyıköy)", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null,
+      not: "Belgenin ADLANDIRDIĞI iki yerden biri, atlasta nokta olarak YOK — Emre'nin ilkesiyle bu C'nin kendi iş kalemi (§2'ye havale EDİLMEDİ, burada AÇIKÇA kayıtlı duruyor)." }
+  ],
+  // 🔴 Bu ikisi DIŞINDA, kapsama.kutu içindeki 65 (67-2) yerleşim belgede
+  // HİÇ ADLANDIRILMIYOR — bkz. aşağıdaki `kapsama_kaplama_analizi` (C5'in
+  // "44/67 nokta kaplanmalı" bulgusuna karşı ÖLÇÜM + üç seçenek, KARAR
+  // VERİLMEDİ, M-3480 talimatı).
+
   kapsama: {
     tur: "bbox",
-    kutu: { lat_min: 40.5, lat_max: 42.0, lon_min: 25.8, lon_max: 29.3 },
+    // 🔴 GÜNCELLEME (M-3480, Emre'nin "doğal sınıra kadar cömertçe genişlet"
+    // kuralı) — eski kutu (40.5-42.0K/25.8-29.3D) hattın DAR çevresine
+    // kırpılmıştı, ekranda yapay bir dikiş üretme riski taşıyordu. Yeni
+    // kutu iki DOĞAL sınıra (Ege + Karadeniz kıyı şeridi) kadar uzatıldı.
+    kutu: { lat_min: 40.0, lat_max: 42.5, lon_min: 25.5, lon_max: 29.5 },
+    kutu_eski_dar: { lat_min: 40.5, lat_max: 42.0, lon_min: 25.8, lon_max: 29.3 },
+    dogal_sinir_gerekcesi: "Güney/batı: Ege kıyısı (Enez ve Dedeağaç/Alexandroupoli çevresi açık denize taşar). Kuzey/doğu: Karadeniz kıyısı (Midye/Kıyıköy'ün ötesi + İstanbul/Boğaziçi'nin doğal su sınırı). Kenarların hiçbiri kara ortasında BİTMİYOR — ölçüt (M-3480'in kendi cümlesi) sağlanıyor.",
+    sezgi_kapali: true,
     yon_kurali: "cross_yerel > 0  ->  taraflar[1] (bulgaristan-kralligi) ; cross_yerel < 0  ->  taraflar[0] (osmanli)",
     formul: "cross_yerel = dx*(P.lat-A.lat) - dy*(P.lon-A.lon), dx=(B.lon-A.lon), dy=(B.lat-A.lat), A/B=nokta_dizisi'nin (tek segment olduğu için) uçları — SEMA-C §8.2'nin YEREL/nearest-segment algoritmasının bu TEK-SEGMENTLİ (①c) özel durumu; N=2 olduğu için 'en yakın segment' HER ZAMAN aynı tek segmenttir, yani bu formül GLOBAL cross-product ile BİREBİR AYNI sonucu verir."
+  },
+
+  kapsama_kaplama_analizi: {
+    // 🔴 M-3480 ③ talimatı: "ÖLÇ, ŞIKLARIYLA SUN, KARAR VERME."
+    olcum: {
+      eski_dar_kutuda_yerlesim: 42,   // bu oturumda BAĞIMSIZ sayıldı (girdi.GIRDI_DOSYALARI, regex-tabanlı)
+      yeni_genis_kutuda_yerlesim: 67, // aynı yöntemle, C DENETIMI'nin "44" rakamına YAKIN ama TAM AYNI değil
+      fark_notu: "C DENETIMI bağımsız olarak eski dar kutuda 44 buldu, ben 42 — küçük fark muhtemelen bbox sınır dahil/hariç kuralı ya da regex ayrıştırma farkı; İKİ BAĞIMSIZ ölçüm aynı BÜYÜKLÜK MERTEBESİNDE (40'lı), bu yeterli çapraz doğrulama sayıldı. Genişletilmiş kutuda +25-30 ek yerleşim (bu turda SADECE benim tarafımdan ölçüldü, C DENETIMI henüz genişletilmiş kutuyu ölçmedi).",
+      belgenin_adlandirdigi: 2   // yalnız Enez ve Midye — Madde II başka HİÇBİR yer/nehir/dağ anmıyor
+    },
+    kaplanmamis_65_nokta_icin_uc_secenek: [
+      { id: "A_geometrik_otomatik",
+        aciklama: "cross_yerel testiyle OTOMATİK ata — hattın hangi yakasındaysa o taraf. Sahiplik BELGEDEN değil GEOMETRİDEN gelir.",
+        artisi: "Uygulaması en kolay, zaten var olan formülün DOĞRUDAN genişletilmesi — ayrı kod gerekmez.",
+        eksisi: "Emre'nin 'tek otorite belgedir' ilkesiyle GERİLİMLİ: belge bu 65 yeri hiç anmıyor, ama onlara da hüküm veriyoruz." },
+      { id: "B_metinden_cikarsama",
+        aciklama: "Antlaşmanın genel ifadesinden ('hattın batısı müttefiklere, doğusu Osmanlı'da kalır') TÜRET — metinsel çıkarsama.",
+        artisi: "Emre'nin 'belge konuşuyorsa motor susar' ilkesine DAHA yakın bir GEREKÇE sunar (metnin MANTIĞI uygulanıyor, salt geometri değil).",
+        eksisi: "Bu düz-çizgili (①c) hat için SONUÇ A ile MATEMATİKSEL OLARAK BİREBİR AYNI — cross-product zaten 'hangi tarafta' sorusunun geometrik karşılığı. Fark yalnız GEREKÇENİN diline, ÇIKTIYA değil." },
+      { id: "C_kismi_sezgi",
+        aciklama: "Yalnız belgenin ADLANDIRDIĞI 2 nokta (Enez, Midye) C ile atanır; kapsama kutusundaki DİĞER 65 nokta için sezgi (Voronoi/A/B) AÇIK bırakılır — kapsama.sezgi_kapali TÜM KUTU için değil, yalnız hattın YAKIN ÇEVRESİ için true olur.",
+        artisi: "Emre'nin 'belge ne diyorsa o' ilkesini EN SIKI biçimde uygular — belge susan yerde motor da susmaz, eski haline döner.",
+        eksisi: "Şemaya YENİ bir kavram gerektirir ('kısmî sezgi_kapali', bölgesel/nokta-bazlı) — SEMA-C §9.3'te YOK, bu üçüncü şık şemanın KENDİSİNİ genişletmeyi gerektiriyor. Ayrıca dikiş sorununu YARI ÇÖZER: kutu geniş olduğu için dış Voronoi ile İÇ sezginin (aynı mekanizma) arasında dikiş OLMAZ, ama İÇ sezgi ile hattın YAKININ arasında YİNE bir mikro-dikiş olabilir." }
+    ],
+    benim_gozlemim_karar_degil: "A ve B, düz-çizgili (①c) bir hat için ÇIKTI olarak AYNI (yalnız gerekçe farklı) — asıl seçim A/B ikilisi ile C arasında. C, kavramsal olarak en TUTARLI ama şemaya yeni bir alan ekliyor. Karar Emre'nin."
   },
 
   sinav_kaydi: {
@@ -80,9 +122,19 @@ window.HUKUKI_SINIRLAR = [
   // AYNI (1899-01-19), bağımsız doğrulandı. "misir-kavalali" (Mısır
   // Kavalalı Hanedanı) 1899'da hâlâ aktif (t:1914-12-18).
   f: "1899-01-19",
-  t: "1923-10-29",
+  t: "1914-12-18",
+  // 🔴 DÜZELTME (C DENETIMI'nin C1 bulgusu, bağımsız çalıştırdığım C1'de
+  // AYNI sonuç doğrulandı): t: EKSİ ingiliz-sudani'nin ESKİ atlas-penceresi-
+  // sonu placeholder'ından (1923-10-29) DEVRALINMIŞTI, ama misir-kavalali
+  // (taraflar[0]) 1914-12-18'de zaten SONA ERİYOR — [f,t) penceresinde her
+  // iki tarafın da GEÇERLİ olması şartını (C1) İHLAL ediyordu. t: artık
+  // misir-kavalali'nin GERÇEK sonuna çekildi. Bu, KUZEY tarafın kimliği
+  // değiştiği (misir-sultanligi'ne) için sınırın kendisinin YENİDEN
+  // değerlendirilmesi gerektiği anlamına gelir — bu kaydın 1914-12-18
+  // SONRASI için ayrı bir ardıl C kaydı (ya da AB_YETER kararı) AYRI bir
+  // iş, burada AÇILMADI.
   f_kaynak: "Sudan Convention (1899), imza günü — Wikisource neşri, Madde I",
-  t_kaynak: "ingiliz-sudani künyesinin kendi t: alanı (devletler.js) — yeni hassasiyet üretilmedi, mevcut künyeden devralındı (D084)",
+  t_kaynak: "misir-kavalali künyesinin kendi t: alanı (devletler.js, 1914-12-18) — DÜZELTİLDİ, önceki hâli ingiliz-sudani'den yanlış devralınmıştı",
 
   hat: {
     tur: "paralel",           // 🆕 ŞEMA GENİŞLEMESİ — bkz. SEMA-C-0911.md §8.2 güncellemesi
@@ -130,7 +182,7 @@ window.HUKUKI_SINIRLAR = [
 
 {
   id: "karlofca-bosna-sava-1699",
-  taraflar: ["osmanli", "avusturya"],
+  taraflar: ["osmanli", "habsburg"],
   f: "1699-01-26", t: null,
   hat: {
     tur: "dogal-tanimsiz",   // Sava BUYUK'te taniniyor aslinda ①a olurdu (C GEREKMEZ)
@@ -155,7 +207,7 @@ window.HUKUKI_SINIRLAR = [
 
 {
   id: "karlofca-banat-maros-tisza-tuna-1699",
-  taraflar: ["osmanli", "avusturya"],
+  taraflar: ["osmanli", "habsburg"],
   f: "1699-01-26", t: null,
   hat: {
     tur: "dogal-tanimsiz",
@@ -182,12 +234,12 @@ window.HUKUKI_SINIRLAR = [
 
 {
   id: "karlofca-bosna-kaleler-1699",
-  taraflar: ["osmanli", "avusturya"],
+  taraflar: ["osmanli", "habsburg"],
   f: "1699-01-26", t: null,
   hat: {
     tur: "nokta-kumesi",     // 🆕 §9.3③ — Emre'nin düzeltmesiyle eklenen TÜR
     nokta_atamalari: [
-      { ad: "Kostayniça", lat: null, lon: null, taraf: "avusturya", kaynak: "TDV karlofca: \"Kostayniçe Avusturya'da kaldı\"" },
+      { ad: "Kostayniça", lat: null, lon: null, taraf: "habsburg", kaynak: "TDV karlofca: \"Kostayniçe Avusturya'da kaldı\"" },
       { ad: "Bihke (Bihać)", lat: null, lon: null, taraf: "osmanli", kaynak: "TDV karlofca: diğer kaleler (Bihke, Novi, Krupa vb.) boşaltıldı → Osmanlı'dan ÇIKTI, yani Avusturya'ya mı yoksa askersizleştirilmiş bölgeye mi geçti TDV metninde NET DEĞİL, 🔴 dogrulanmadi:true" },
       { ad: "Novi (Bosna — Herceg Novi DEĞİL)", lat: null, lon: null, taraf: "belirsiz", kaynak: "aynı, dogrulanmadi:true" },
       { ad: "Krupa", lat: null, lon: null, taraf: "belirsiz", kaynak: "aynı, dogrulanmadi:true" }
@@ -210,13 +262,13 @@ window.HUKUKI_SINIRLAR = [
 
 {
   id: "karlofca-lehistan-1699",
-  taraflar: ["osmanli", "lehistan-litvanya"],
+  taraflar: ["osmanli", "lehistan"],
   f: "1699-01-26", t: null,
   hat: {
     tur: "nokta-kumesi",
     nokta_atamalari: [
       { ad: "Suçava (Suceava)", lat: null, lon: null, taraf: "osmanli", kaynak: "TDV karlofca: \"Suçeva ... Osmanlılar geri aldı\" — data/yerlesimler.js'te MEVCUT nokta" },
-      { ad: "Bar (Podolya)", lat: null, lon: null, taraf: "lehistan-litvanya", kaynak: "TDV karlofca: \"Podolya boşaltıldı\" — data/yerlesimler.js'te MEVCUT nokta" },
+      { ad: "Bar (Podolya)", lat: null, lon: null, taraf: "lehistan", kaynak: "TDV karlofca: \"Podolya boşaltıldı\" — data/yerlesimler.js'te MEVCUT nokta" },
       { ad: "Kamaniçe", lat: null, lon: null, taraf: "belirsiz", kaynak: "TDV karlofca: \"Kamaniçe Kalesi yıkıldı\" — atlasta VAR MI TARANMADI" },
       { ad: "Roman", lat: null, lon: null, taraf: "osmanli", kaynak: "TDV karlofca — atlasta VAR MI TARANMADI" }
     ]
@@ -253,12 +305,67 @@ window.HUKUKI_SINIRLAR = [
     { ad: "Trebinye", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js (PILOT-C-KARLOFCA'da doğrulandı)" },
     { ad: "Kataro (Kotor)", tur: "yerlesim", atlasta_var: "taranmadı", atlasta_kaynak: null },
     { ad: "Korent kıyısı", tur: "bolge", atlasta_var: "olculemez (bölge tarifi, tek nokta değil)", atlasta_kaynak: null }
+    // 🔴 ŞEMA KARARI (C DENETIMI'nin sorduğu, burada YANITLANIYOR — bu bir
+    // ŞEMA TAMLIĞI kararı, Emre'nin substantif kararlarından FARKLI):
+    // gereken_cografya.tur artık "yerlesim"|"nehir"|"dag" ÜÇÜNE EK olarak
+    // "bolge" de KABUL EDİYOR — bir antlaşma her zaman NOKTA/ÇİZGİ tarif
+    // etmez, bazen bir KIYI ŞERİDİ/BÖLGE de tarif edebilir (Korent kıyısı
+    // gibi) ve bunu "ölçülemez" diye atlamak D107'yi ihlal eder — dördüncü
+    // tur olarak KAYDA GEÇİRMEK, atlamaktan iyidir.
   ],
   kapsama: { tur: "nokta-listesi", sezgi_kapali: true, not: null },
   kaynak: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca",
     alinti: "Ayamavra adaları, Korent denizi kuzey kıyıları ve bazı kalelerin (Kataro, Trebinye) iadesi",
     url: "https://islamansiklopedisi.org.tr/karlofca" },
   kaynak_ikincil: { tur: null, not: null }
+},
+
+{
+  // 🆕 M-3480 ③ talimatı: KARMA kayıt — aynı maddede HEM hat (Una nehri)
+  // HEM nokta listesi (garnizon kaleleri) var. Kardeş oturum (C ÇİZİM
+  // KATMANI) buldu; birincil metin BAĞIMSIZ olarak bu oturumda ARANDI ve
+  // DOĞRULANDI (WebSearch, "Treaty of Karlowitz Overview 1699" — bir
+  // tarihi antlaşma metni derlemesi; scribd barındırıyor, BİRİNCİL METNİN
+  // KENDİSİ bir akademik/resmi kaynak DERLEMESİ, scribd yalnız BARINDIRMA
+  // platformu — D073 sınıfı bir ayrım, kaynağın MARKASI değil İÇERİĞİ
+  // önemli, ama bu url DAHA SAĞLAM bir barındırmayla değiştirilmeli,
+  // açıkça işaretliyorum).
+  id: "karlofca-bosna-una-1699",
+  taraflar: ["osmanli", "habsburg"],
+  f: "1699-01-26", t: null,
+  hat: {
+    tur: "karma",   // 🆕 M-3480 ile gelen BEŞİNCİ tür — hem çizgi hem nokta listesi TAŞIYOR
+    cizgi_segmenti: {
+      tur: "dogal-tanimsiz",
+      nokta_dizisi: [
+        { lon: null, lat: null, ad: "Una nehrinin Bosna'ya bakan (osmanlı) kıyısı boyunca sınır başlangıcı", dogrulanmadi: true },
+        { lon: null, lat: null, ad: "Una nehrinin Sava'ya döküldüğü civar (Novi yakını)", dogrulanmadi: true }
+      ]
+    },
+    nokta_atamalari: [
+      { ad: "Novi (Bosna)", lat: null, lon: null, taraf: "osmanli", kaynak: "'...Imperial Garrisons that are in Novi...shall be drawn out...and the same shall be left entirely free' — garnizon çekiliyor, bölge OSMANLI'da kalıyor (serbest bırakılıyor, Avusturya'ya GEÇMİYOR)" },
+      { ad: "Dubica (Dubizza)", lat: null, lon: null, taraf: "osmanli", kaynak: "aynı madde" },
+      { ad: "Jasenovac (Sessenovizza — dogrulanmadi:true, kimlik KESİN değil)", lat: null, lon: null, taraf: "osmanli", kaynak: "aynı madde, dogrulanmadi:true" },
+      { ad: "Doboy (Doboj — dogrulanmadi:true)", lat: null, lon: null, taraf: "osmanli", kaynak: "aynı madde, dogrulanmadi:true" },
+      { ad: "Brod (Bred — dogrulanmadi:true, karlofca-bosna-sava-1699'daki Brod Kalesi İLE AYNI YER Mİ ayrı yer mi BELİRSİZ)", lat: null, lon: null, taraf: "osmanli", kaynak: "aynı madde, dogrulanmadi:true" },
+      { ad: "Kostajnica (Castanoviz)", lat: null, lon: null, taraf: "habsburg", kaynak: "'...Castanoviz...together with the farthermost Bank of the said River Unna, are and remain in the Power of the Emperor of the Romans' — Kostajnica ve Una'nın öte yakası Avusturya'da KALIYOR" }
+    ]
+  },
+  gereken_cografya: [
+    { ad: "Una (nehir)", tur: "nehir", atlasta_var: false, atlasta_kaynak: null,
+      not: "🔴🔴 KARDEŞ OTURUMUN DÜZELTMESİ, BU OTURUMDA BAĞIMSIZ DOĞRULANDI: veri-kaynak/ne_10m_rivers.geojson'da 'Una' adıyla TEK bir kayıt var ve koordinatları (-36.88,-8.29) — BREZİLYA'daki bir Una nehri, Balkan Una'sıyla İLGİSİZ. Balkan Una'sı için dosyada HİÇBİR kayıt YOK. Bu Adige/Mureş'ten (motor tanımıyor AMA veri VAR) FARKLI bir sınıf: kaynak VERİNİN KENDİSİNDE yok — arac/uret_petek.py'nin BUYUK listesine ekleme YETMEZ, önce veri-kaynak/ altına GERÇEK Una geometrisi kazandırılmalı (Natural Earth'ün daha yüksek çözünürlüklü bir sürümü ya da başka bir kaynak)." },
+    { ad: "Novi (Bosna)", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null, not: "karlofca-bosna-kaleler-1699 kaydıyla PAYLAŞILAN eksik nokta" },
+    { ad: "Dubica", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null },
+    { ad: "Kostajnica", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null, not: "karlofca-bosna-kaleler-1699'daki 'Kostayniça' İLE AYNI YER (yazım farkı) — İKİ KAYITTA da eksik, TEK nokta ekleneceği için TEKRAR SAYILMAMALI" },
+    { ad: "Jasenovac / Doboy / Brod", tur: "yerlesim", atlasta_var: "kimlik dogrulanmadi", atlasta_kaynak: null }
+  ],
+  kapsama: { tur: "karma", kutu: null, sezgi_kapali: true,
+    not: "TASARLANMADI — hem çizgi hem nokta içeren bir 'karma' kaydın kapsama alanı nasıl hesaplanır (segment-bbox + nokta-tamponu birleşimi mi?) SEMA-C §8/§9'da HENÜZ tarif edilmedi, bu kaydın kendisi bu boşluğu GÖSTERİYOR." },
+  kaynak: { tur: "antlaşma metni (neşir/derleme)", ad: "Treaty of Karlowitz — 'Karlovački Mir' derlemesi",
+    alinti: "The Country belonging to the Dominion of his Imperial Ottoman Majesty, as far as the River Unna towards Bosnia, shall be limited and bounded by the hither Shore of the River Unna: and all the Imperial Garrisons that are in Novi, Dubizza, Sessenovizza, Doboy and Bred on the part of Bosnia...shall be drawn out from thence, and the same shall be left entirely free. But whereas Castanoviz...together with the farthermost Bank of the said River Unna, are and remain in the Power of the Emperor of the Romans...",
+    url: "https://www.scribd.com/document/248934439/Karlova%C4%8Dki-Mir",
+    guvenilirlik_notu: "🔴 Bu url bir barındırma platformu (scribd) — İÇERİĞİ tarihi bir antlaşma metni derlemesi olsa da, DAHA SAĞLAM bir akademik/resmi kaynakla (ör. Consolidated Treaty Series, Oxford Public International Law) TEYİT EDİLMELİ. Bu turda ikinci bir kaynakla çapraz doğrulanmadı, D107 gereği açıkça yazılıyor." },
+  kaynak_ikincil: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca", not: "Bu spesifik Una/kale maddesi için TDV metni bu turda AYRICA okunmadı — kapsam dışı bırakıldı." }
 }
 
 ];

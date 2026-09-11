@@ -655,6 +655,54 @@ kayıtla (tek örnekle değil, D021 gereği) eklendiği için hem KAYIT hem
 
 ---
 
+## 9.5 🔴 M-3480 — KAPSAMA KUTUSU DOĞAL SINIRA GENİŞLETME KURALI
+
+*(numaralandırma notu: bu bölüm §9'un (M-3463) hemen ardından, §10'dan
+ÖNCE gelecek şekilde konumlandırıldı — dosyanın kendi önceki bölümleri
+de (§4b/4c/6, §5/7/8'den önce) numaraya göre değil KRONOLOJİK sırayla
+eklenmiş, bu doküman GENEL olarak "ekleme sırası = numara sırası değil"
+konvansiyonunu zaten taşıyor.)
+
+> **YAZIM KURALI (Emre'nin kararı, aynen):** *"Bir C kaydının kapsama
+> alanı, hattın geçtiği yerden başlayıp doğal bir sınıra kadar uzatılır.
+> Kutu, hattın dar çevresine KIRPILMAZ. Ölçüt: kapsama alanının kenarı,
+> gözle ayırt edilebilir bir sınır değişimi ÜRETMEMELİDİR."*
+
+**Gerekçe:** dar bir dikdörtgenin düz kenarı, dışarıdaki A/B'nin organik
+(kıyıya/nehre/sırta yaslanmış) sınırıyla uyuşmaz — ekranda yapay bir
+dikiş oluşur. Geniş kutuda dikiş aynı-renkli/belirsiz bir bölgenin
+içinde kalıp GÖRÜNMEZ olur.
+
+**🔴 Bedel — C DENETİMİ'nin C5 bulgusuyla DOĞRUDAN çatışıyor:** kutu
+genişledikçe içine DAHA ÇOK gerçek yerleşim girer, ve `sezgi_kapali`
+o bölgede TÜM sezgiyi kapattığı için bu noktaların HEPSİ `gereken_
+cografya` ile kaplanmalı — yoksa sahipsiz kalıp harita delinir
+(`Değişmez 1`). Midye-Enez'de ölçüldü: eski dar kutu ~42-44 yerleşim,
+yeni geniş kutu (Ege-Karadeniz) ~67 — ve belgenin kendisi bunların
+YALNIZ 2'sini (Enez, Midye) adlandırıyor. **Kalan 65 nokta için ÜÇ
+seçenek var (geometrik otomatik atama / metinden çıkarsama / kısmî
+sezgi), KARAR VERİLMEDİ** — bkz. `TASLAK-hukuki_sinirlar.js`'in
+`kapsama_kaplama_analizi` alanı, tam ölçüm ve üç şık orada.
+
+**Şemaya eklenen:** `kapsama.kutu_eski_dar` (izlenebilirlik için önceki
+dar kutu SİLİNMEDEN saklanır, D100) ve `kapsama.dogal_sinir_gerekcesi`
+(hangi doğal unsura kadar genişletildiği, tek cümlede).
+
+**🆕 BEŞİNCİ hat türü — `hat.tur:"karma"`:** C DOSYA YAZIM'ın Karlofça-
+Una kaydı (Una nehri + Novi/Dubica/Kostajnica gibi garnizon kaleleri
+AYNI antlaşma maddesinde) şemayı bir kez daha kırdı: tek bir kayıt hem
+ÇİZGİ (nehir) hem NOKTA LİSTESİ taşıyabiliyor. `hat.tur:"karma"` alanı
+`cizgi_segmenti` (§8.2 formatı) VE `nokta_atamalari` (§9.3③ formatı)
+alanlarını BİRLİKTE taşır. Bu türün `kapsama` hesaplama yöntemi
+(segment-bbox + nokta-tamponu nasıl birleşir) **TASARLANMADI** — D107.
+
+**🆕 `gereken_cografya.tur` dördüncü değer alıyor: `"bolge"`** — bazı
+antlaşma maddeleri (Karlofça'nın "Korent kıyısı" gibi) ne nokta ne çizgi,
+bir KIYI ŞERİDİ/BÖLGE tarif eder. Bu bir şema-tamlığı kararıdır (Emre'nin
+substantif kararlarından ayrı), C DOSYA YAZIM tarafından verildi.
+
+---
+
 ## 9. 🔴🔴 EMRE'NİN TANIM DÜZELTMESİ (M-3463) — ŞEMA GÖZDEN GEÇİRİLDİ
 
 > **AYNEN:** *"C uygulanınca artık tavan, enklav düzeltme, koridor doldurma,
