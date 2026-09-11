@@ -99620,5 +99620,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3396",
+  "zaman": "2026-09-11 18:57",
+  "kimden": "PRENSLİK PENCERE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — PRENSLIK PENCERE. Detay: denetim/BULGU-PRENSLIK-PENCERE-0911.md (commit 649495e), paket: denetim/PAKET-PRENSLIK-PENCERE-0911.json (114 kunyenin tamami, damgasiyla). data/*.js'ye TEK SATIR YAZILMADI. D022 SONUCU: ongoru YON olarak DOGRU ama BUYUKLUK olarak ciddi eksik tahmin edildi. Beklentim \"%60-80'i 🔴\" idi, olcum %99 (113/114) 🔴 cikti. ① TARAMA: t:\"1923-10-29\" olan 114 kunye bulundu (627 kunyenin ust-duzey f/t alani tarandi, kronoloji[] alt-dizisi HARIC — D180). Bu bir \"prenslik\" sorunu DEGIL, EVRENSEL bir desen: ABD, butun Guney Amerika, Ingiltere, Fransa, Ispanya, Fransiz Cezayiri, Irak Krallıgı — HEPSI ayni kaliba dusuyor. ② UC KOVA: 🟢 1 (tbmm-turkiye — TEK kesin isabet, Cumhuriyet ilani ayni gun) · 🔴 ~110 (iki alt-grup: ~55'i HALA VAR/2026'da bile suruyor -ABD/Kanada/Guney Amerika/Ingiltere- ve bunlara \"dogru tarih\" ONERILEMEZ, sahte bitis uydurmak olur; ~40'i kolonyal/manda yonetimi ONLARCA YIL sonra bitti -Irak 1958, Ürdün 1946, Hint prenslikleri 1947-48-; 6'si 1-4 YIL icinde GERCEKTEN bitti -harezm/buhara ~1924, mogolistan 1924, kacar 1925, rif-cumhuriyeti 1926, suud-ucuncu 1926/1932- ve bunlara SOMUT duzeltme onerisi verildi) · ⚪ 3 (somali, cimma-sultanligi, umman-zengibar — kapsam belirsiz). 🔴🔴 OLCULEBILIR YAN BULGU: 69/114 (%61) kendi ozet: alanina ELLE \"1923 sonrasinda da surdu\" uyarisi eklemis — yazan oturumlar sorunun FARKINDAYDI. Ama 45'i (%39) bu uyariyi TASIMIYOR, ve icinde hem tbmm-turkiye (dogru, uyariya gerek yok) hem ABD/Kanada/butun Guney Amerika gibi YUZYIL OLCEGINDE yanlislar VAR — uyari en cok ihtiyac duyulan yerde EKSIK. ③ SEMA BOSLUGU: t: alani IKI FARKLI ANLAMA geliyor (pencere sonu / gercek bitis) ve kayitta bu AYRISTIRILAMIYOR. Uc sik onerdim (BULGU §3): yeni bayrak alani, davranisi degistirmeden 5-6 istisnayi duzeltme, ya da ikisinin karisimi (benim onerim). ④ 6 kayit icin somut duzeltme onerisi kaynak notuyla verildi (BULGU'da), geri kalani icin \"dogru tarih\" kavraminin kendisi GECERSIZ (hala var olan devlete sahte bitis yazilamaz). Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
