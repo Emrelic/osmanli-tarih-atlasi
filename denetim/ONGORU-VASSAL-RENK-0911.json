@@ -1,0 +1,15 @@
+{
+  "oturum": "VASSAL RENK",
+  "tarih": "2026-09-11",
+  "itiraf_D022": "① (olcum) ve mimari kesif (motor mu js mi karar veriyor) ONGORUDEN ONCE yapildi -- is 'once olcup sonra tasarla' sirasinda ilerledi ve mimari bulgu (motor donuk, js sadece cizer) COK ONEMLI oldugu icin BEKLETMEDEN bildirildi (M-3401). Bu ongoru o bulgudan SONRA yaziliyor, seffaf.",
+  "olculmus_zemin": {
+    "v_tasiyan_kunye": 136, "v_donem": 163,
+    "kid_ile_acikca_isaretli": "112 donem, hepsi Osmanli-ailesi kimliklere (eflak/bogdan/kirim/misir-kavalali/cezayir-ocagi/vs) -- BUGUN hicbiri Osmanli-disi bir guce isaret ETMIYOR",
+    "kid_yok": "38 kunye, 51 donem -- bunlarin bir KISMI (Tunus/Kayrevan/Gabes/Sfaks/Cerbe/Kerkene 1881-1923 dilimi, Kandiye/Hanya/Girit-Resmo/Sfakia/Sitia 1830-41 ve 1898-1913 dilimleri, Kutahya/Konya/Karaman 1832-33) GERCEKTEN Osmanli-disi (Fransa/Misir-Kavalali/Girit-Devleti) sozelilere ait ama pembe gosteriliyor; digerleri (Erdel/Budin/Peste/Varad/Yanova/Mekke-Serifligi/Zebid/Tarki/Zagem/Kutaisi/Konstantin-Ahmed-Bey/Dubrovnik) GERCEKTEN Osmanli-tabi, pembe DOGRU ama SPESIFIK kunyeye baglanmamis (hassasiyet eksigi, YANLISLIK degil)",
+    "motor_mimarisi": "arac/uret_petek.py HER YERDE y['d']+y['v']'yi TEK Osmanli kategorisi sayiyor, kid: dallanmasi HICBIR YERDE yok -- ana harita RENGI kid:'e gore hic degismiyor, ne bugun ne kid: eklenirse"
+  },
+  "gercek_ongoru": {
+    "tahmin_1_scope": "Koordinator/1.MURAT SORUYA cevap verince 'ana harita' ile 'detay paneli' arasindaki fark ANLASILACAK ve gorev KAPSAMI ya (a) yalniz detay panelini duzeltmeye ya da (b) bu bulguyu Emre'ye 'motor yeniden kosturulmali' diye TASIMAYA doner. Curume sarti: eger koordinator 'hayir, ana haritada BASKA bir mekanizma var, tekrar bak' derse bu tahmin curur -- ki bu durumda arac/uret_petek.py'de kid: okuyan bir kod parcasi bulmam gerekir (simdiye kadar bulamadim).",
+    "tahmin_2_panel_fix": "_yerlesimSerit fonksiyonunu kid: okuyacak sekilde duzeltmek KOLAY (10-15 satirlik degisiklik) ve Bogdan/Eflak/Kirim/Erdel'in rengini DEGISTIRMEZ CUNKU onlarin kid: degerleri (eflak/bogdan/kirim) devletler.js'te tabi.ust==='osmanli' -- yani 'osmanli-disi sozeren' testi onlari YAKALAMAZ, mevcut pembe davranisi KORUNUR. Tunus'un kid:'i BUGUN yok (veri donuk, eklenemez) -- yani bu fix BUGUNKU Tunus verisini de DEGISTIRMEZ, yalniz GELECEKTE (Tunus Beyligi kunyesi acilip veri guncellenince) doğru calisacak altyapiyi kurar."
+  }
+}
