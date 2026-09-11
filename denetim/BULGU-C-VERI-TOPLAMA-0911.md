@@ -49,8 +49,16 @@ UYGULANAMAZ.** Şema, bir nokta DİZİSİ (`hat:[{lat,lon},...]`) ve HER
 ARDIŞIK çift için ayrı bir cross-product/half-plane testi
 gerektirecek. Midye-Enez (2 noktalı) bunun ÖZEL bir hâli olur.
 
-**🔴 BU BULGU C ŞEMA YAZIM'A TAHTADAN DOĞRUDAN BİLDİRİLDİ** (aşağıya
-bak) — şema henüz yazılıyor, tek-segment varsayımıyla kilitlenmeden.
+**🔴 BU BULGU C ŞEMA YAZIM'A TAHTADAN DOĞRUDAN BİLDİRİLDİ** — ama
+mesaj GECİKMİŞ çıktı: C ŞEMA YAZIM aynı sorunu (Şattülarap pilotunda,
+bağımsız olarak) ZATEN ÇÖZMÜŞTÜ ve teslimi (M-3437) benim mesajımdan
+ÖNCE gelmişti. Çözümleri BENİMKİNDEN DAHA İYİ: nokta dizisi/LineString
+(N-1 segment) + YEREL (nearest-segment) cross-product — global yerine
+yerel teğet kullanmaları eğri hatlardaki sapma sorununu da ayrıca
+çözüyor. Aciliyeti geri çektim (M-3443), Sykes-Picot/Mısır-Sudan/
+Türkiye-Suriye örneklerimi gelecekteki STRES TESTİ malzemesi olarak
+bıraktım. Bu, `§11`in "aynı bulguya iki bağımsız yoldan varmak" ailesinin
+olumlu bir örneği — israf değil, çapraz doğrulama.
 
 ### Mısır-Sudan (1899, 22. paralel) — ŞEMA KOLAYLAŞTIRAN
 
