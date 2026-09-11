@@ -1,0 +1,10 @@
+{
+  "oturum": "C MOTOR ŞARTNAMESİ (v2 -- Emre'nin M-3463 duzeltmesinden SONRA)",
+  "tarih": "2026-09-11",
+  "onceki_ongoru_curudu": "v1'de 'C uygulaninca kapsam KUCUK, mertebe onlarca yerlesim/birkac bin km²' demistim -- bu M-3463 ile CURUDU: Karlofca'nin KENDISI artik C sayiliyor (Bosna kale listesi -- 5 isimli kale, hicbiri yerlesimler.js'te yok), yani C'nin YERLESIM EKLEME yuku de var. ENVANTER-C-II'nin 'genis olcut %83'u (110 antlasmanin ~91'i) artik 'dar %15'ten (16 antlasma) daha DOGRU mertebe olabilir.",
+  "yeni_ongoru": {
+    "mimari": "C'nin dogru mimarisi 'her mekanizmaya ayri ayri kapsama-kontrolu enjekte etmek' DEGIL, TEK bir POST-HOC OVERRIDE noktasi olacak: butun statik boru hatti (Voronoi+A1-tavan+enklav+koridor+yaslama+kiyi-kesimi+bosluk-paylastirma+col-tavani) NORMAL calisir (kapsama kutusu icinde bile, israf ama zararsiz), sonra TEK bir asamada kapsama kutusu icindeki TUM PETEK_D parcalari ATILIP belgenin kendi nokta kumesinden YEREL bir mini-Voronoi ile YENIDEN kurulur. Gerekce: Emre'nin 'devralma' sozcugu TEK NOKTADAN devralmayi ima ediyor, alti ayri mekanizmayi tek tek 'kapatmak' YUKSEK implementasyon riski tasir (6 farkli veri yapisi, 6 farkli enjeksiyon noktasi, birini kacirma riski D043 sinifinda bir hata uretir).",
+    "emilme_on_kosulu": "belgenin adlandirdigi nokta kumesi (nehir+dag+yerlesim), kapsama kutusunun TAMAMINI mini-Voronoi ile kapladiginda SIFIR bosluk kalmali -- bu motor tarafindan ÖLÇÜLEBİLİR bir on-kosul (mini-Voronoi kur, kapsama kutusuyla kesisimini al, KARA maskesinden CIKAR, kalan varsa HATA ver/uygulama).",
+    "curume_sarti": "Eger bir sonraki tur kodda GERCEKTEN her mekanizmaya ayri kapsama-kontrolu enjekte etmenin DAHA UCUZ oldugunu olcerse (orn. cunku post-hoc override'in kenar-kaynasmasi/topoloji riski enjeksiyondan daha PAHALI cikarsa) bu tahmin curur."
+  }
+}
