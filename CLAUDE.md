@@ -2348,3 +2348,8 @@ Notlar:
 - 🔴🔴 **AYNI AD, TERS ANLAM — `savaslar.js`in dört kardeş kümesinde `t` bir yerde BAŞLANGIÇ, bir yerde BİTİŞ.** — [`D190`](dersler/D190-ayni-ad-ters-anlam-savaslar-js-in-dort.md)
 - 🔴 **«BİR `if` İLE SORULABİLİYOR MU» YETMİYOR — SORUYU SORACAK `if` YAZILMIŞ MI?** — [`D191`](dersler/D191-bir-if-ile-sorulabiliyor-mu-yetmiyor-soruyu.md)
 - 🔴🔴 **BİR ALET YANLIŞ BİR *SIRA* ÜRETEBİLİR — ve sıra, değerden daha sessiz yalan söyler.** — [`D192`](dersler/D192-bir-alet-yanlis-bir-sira-uretebilir-ve-sira.md)
+- 🔴 **KÜNYE AŞIMI HEP SONRASINI SORAR, ÖNCESİNİ HİÇ SORMAZ — ve ölçülünce %8,9 çıktı.** — [`D193`](dersler/D193-kunye-oncesi-kullanim-sadece-sonrasi.md)
+- 🔴 **BİR DÜZELTME KOMŞU DİLİMİ GÖRÜNMEZ BIRAKABİLİR — düzeltmenin KENDİSİ kör nokta üretti.** — [`D194`](dersler/D194-bir-duzeltme-komsu-dilimi-gorunmez.md)
+- 🔴🔴 **`t:` ALANI İKİ ANLAMA GELİYOR — "devlet bitti" ve "atlasın penceresi bitiyor" — ve kayıtta ikisi AYRIŞTIRILAMIYOR.** — [`D195`](dersler/D195-t-alani-iki-anlama-geliyor.md)
+- 🔴 **YANLIŞ OLAY SEÇİLMİŞ — tarih doğru, metin doğru, ama tarih KOMŞU bir olayın günü.** — [`D196`](dersler/D196-yanlis-olay-secilmis-komsu-olayin-gunu.md)
+- 🔴🔴 **RSS YANLIŞ SİNYALDİ — aynı bant hem sağlıklı hem ölümcül olabiliyor, bir gecede ÜÇ yönden.** — [`D197`](dersler/D197-rss-yanlis-sinyaldi-uc-yonden.md)
