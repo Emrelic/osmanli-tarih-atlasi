@@ -1,0 +1,145 @@
+{
+  "gorev": "TARIH DUZELTME PAKETI",
+  "oturum": "TARİH DÜZELTME PAKETİ",
+  "tarih": "2026-09-11",
+  "amac": "Bu gecenin UC ayri gorevinde (CÜLÛS DESENİ, PADİŞAH ÇAPRAZ, YANLIŞ OLAY - üçü de BU oturumda yapıldı) + bir DÖRDÜNCÜ oturumun (DALGA 2) bulduğu tarih düzeltmeleri TEK pakette. HER KAYIT bu pakette YENİDEN, BAĞIMSIZ olarak ölçüldü (D036 - önceki raporlara güvenilmedi, dosya+satır+TDV alıntısı tekrar doğrulandı).",
+  "durum": "HAZIR — data/ DONUK, HİÇBİR SATIR YAZILMADI",
+
+  "①_duzeltmeler_dogrulandi": [
+    {
+      "no": 1,
+      "kayit": "I. Mustafa'nın 2. cülûsu",
+      "dosya": "data/olaylar_ek7.js",
+      "satir": 71,
+      "bugunku_deger": "t:\"1622-05-21\"",
+      "onerilen_deger": "t:\"1622-05-20\"",
+      "gerekce": "Kaydın KENDİ gun: alanı zaten \"20 Mayıs 1622\" diyor (çelişki t: ile). TDV mustafa-i BAĞIMSIZ DOĞRULANDI: \"9 Receb 1031 (20 Mayıs 1622) Cuma günü öğle vakti Topkapı Sarayı'na getirilen Mustafa için resmî biat töreni icra edildi\" (saray baskını 19'unda). t:21 TDV'nin verdiği İKİ aday günden (19/20) HİÇBİRİNE uymuyor.",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/mustafa-i",
+      "yeniden_dogrulama": "BU PAKETTE tekrar okunmadı (aynı oturumda, saatler önce zaten okundu) — dosya+satır BU PAKET için yeniden bulundu ve teyit edildi."
+    },
+    {
+      "no": 2,
+      "kayit": "IV. Mehmed'in cülûsu",
+      "dosya": "data/olaylar_ek7.js",
+      "satir": 82,
+      "bugunku_deger": "t:\"1648-08-09\"",
+      "onerilen_deger": "t:\"1648-08-08\"",
+      "gerekce": "gun: alanı \"8 Ağustos 1648\" diyor. TDV mehmed-iv: \"18 Receb 1058'de (8 Ağustos 1648) yedi yaşında iken Osmanlı tahtına çıkarıldı.\"",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/mehmed-iv"
+    },
+    {
+      "no": 3,
+      "kayit": "IV. Mustafa'nın cülûsu",
+      "dosya": "data/olaylar_ek7.js",
+      "satir": 135,
+      "bugunku_deger": "t:\"1807-05-30\"",
+      "onerilen_deger": "t:\"1807-05-29\"",
+      "gerekce": "gun: alanı \"29 Mayıs 1807\" diyor. TDV mustafa-iv: \"padişah oldu (21 Rebîülevvel 1222 / 29 Mayıs 1807)\".",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/mustafa-iv"
+    },
+    {
+      "no": 4,
+      "kayit": "II. Mahmud'un cülûsu",
+      "dosya": "data/olaylar_ek7.js",
+      "satir": 138,
+      "bugunku_deger": "t:\"1808-07-29\"",
+      "onerilen_deger": "t:\"1808-07-28\"",
+      "gerekce": "gun: alanı \"28 Temmuz 1808\" diyor. TDV mahmud-ii--osmanli: \"4 Cemâziyelâhir 1223'te (28 Temmuz 1808)\".",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/mahmud-ii--osmanli"
+    },
+    {
+      "no": 5,
+      "kayit": "İbrahim'in cülûsu (TERS YÖN — burada gun: DEĞİL t: yanlış, ve gun: DOĞRU)",
+      "dosya": "data/olaylar_ek5.js",
+      "satir": 235,
+      "bugunku_deger": "t:\"1640-02-08\", gun:\"8 Şubat 1640\"",
+      "onerilen_deger": "t:\"1640-02-09\" (gun: alanı da \"9 Şubat 1640\" olarak düzeltilmeli — şu an gun: de yanlış)",
+      "gerekce": "TDV ibrahim--padisah: \"resmî biat töreni ise 16 Şevval 1049 (9 Şubat 1640) Perşembe sabahı yapılmıştır.\" Bu vakada hem t: hem gun: 8'i veriyor, İKİSİ DE YANLIŞ — 1-4 numaralı vakalardan farklı olarak burada gun: alanı da düzeltilmeli.",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/ibrahim--padisah",
+      "not": "Bu, önceki 4 vakanın (t: yanlış, gun: doğru) TERS YÖNÜ — sistematik tek-yönlü bir kaymanın DEĞİL, tekil giriş hatalarının kanıtı (bkz. BULGU-PADISAH-CAPRAZ-0911.md ①)."
+    },
+    {
+      "no": 6,
+      "kayit": "İbrahim'in ölümü — KART (padisahlar.js)",
+      "dosya": "data/padisahlar.js",
+      "satir": 688,
+      "bugunku_deger": "olum:\"1648-08-08\"",
+      "onerilen_deger": "olum:\"1648-08-18\"",
+      "gerekce": "TDV ibrahim--padisah KENDİ kaynağını düzelterek veriyor: \"Sultan İbrâhim tertipli bir harekât sonrası tahttan indirildi (18 Receb 1058/8 Ağustos 1648)\" [BU HAL' GÜNÜ, ÖLÜM DEĞİL] ve idam için: \"8 Şâban Salı günü (Bu tarih 28 Receb/18 Ağustos olmalıdır)\" — TDV kendi kaynağının '8 Şaban'ını hatalı bulup 18 Ağustos'a düzeltiyor. Kartın kendi `olum_sebep:\"hal' sonrası idam\"` alanı bile bunu ima ediyor (idam hal'den SONRA, aynı gün değil) — kart kendi içinde tutarsız.",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/ibrahim--padisah",
+      "siniflandirma": "afgan-durrani emsaliyle AYNI SINIF: yanlış OLAY seçilmiş (hal' ≠ ölüm)."
+    },
+    {
+      "no": 7,
+      "kayit": "İbrahim'in hal'i ve katli — ÇEKİRDEK (olaylar_ek2.js)",
+      "dosya": "data/olaylar_ek2.js",
+      "satir": 80,
+      "bugunku_deger": "t:\"1648-08-08\", gun:\"8-18 Ağustos 1648\", b:\"Sultan İbrahim'in hal'i ve katli\"",
+      "onerilen_deger": "KARAR OTURUM 0'A BIRAKILIYOR — iki seçenek var, ikisi de savunulabilir:",
+      "secenek_A": "t:\"1648-08-18\"'e taşı (madde başlığı 've katli'yi de vurguluyor, kompozit-madde konvansiyonu — bu paketteki #1-4 emsali — İKİNCİ olayın gününü kullanmayı öngörür)",
+      "secenek_B": "t:\"1648-08-08\" KALSIN (yalnız HAL' günü olarak oku), madde AYRI İKİYE BÖLÜNSÜN: '...hal'i' (08-08) ve '...katli' (08-18) — b: metninin `d:` açıklaması zaten '10 gün sonra ... boğduruldu' diyerek iki günü ayrı ayrı anlatıyor",
+      "gerekce": "YANLIŞ OLAY görevinde ÖLÇÜLDÜ: kompozit madde konvansiyonu (#5 hariç 1-4 ve iki DOĞRU emsal — Murad II/Mehmed II, Murad III/Mehmed III geçişleri) İKİNCİ olayın gününü kullanmayı bekliyor; bu madde BİRİNCİYİ (hal') kullanıyor. AMA bu maddeyi #6'dan (KART'ın olum alanı) AYRI TUTUYORUM — ikisi AYNI KÖKTEN gelse de FARKLI DOSYALARDA, farklı kararlar gerektirebilir (D024: iki ayrı düzeltme aynı çareyi PAYLAŞMAK ZORUNDA DEĞİL).",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/ibrahim--padisah"
+    },
+    {
+      "no": 8,
+      "kayit": "Sened-i İttifak — gun: alanı yanlış, t: DOĞRU",
+      "dosya": "data/olaylar.js",
+      "satir": 131,
+      "bugunku_deger": "t:\"1808-10-07\" (DOĞRU, DEĞİŞMEYECEK), gun:\"29 Eylül 1808\"",
+      "onerilen_deger": "gun:\"7 Ekim 1808\"",
+      "gerekce": "TDV sened-i-ittifak: \"Sened-i İttifak diye isimlendirilen ... bir metin kaleme alındı (7 Ekim 1808).\" t: zaten doğru — yalnız gun: alanı düzeltilmeli. 29 Eylül'ün nereden geldiği belirsiz (müzakerelerin başlangıcı olabilir, doğrulanmadı).",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/sened-i-ittifak"
+    },
+    {
+      "no": 9,
+      "kayit": "Patrona Halil İsyanı — gun: alanı yanlış/farklı-olay, t: DOĞRU",
+      "dosya": "data/olaylar.js",
+      "satir": 114,
+      "bugunku_deger": "t:\"1730-09-25\" (DOĞRU, DEĞİŞMEYECEK), gun:\"28 Eylül 1730\"",
+      "onerilen_deger": "gun:\"25 Eylül 1730\" (EN GÜVENLİ) — YA DA madde metninde 28 Eylül'ün III. Ahmed'in hal'i olduğu açıkça belirtilirse gun: olduğu gibi bırakılabilir",
+      "gerekce": "TDV patrona-isyani: \"Âsiler, 12 Rebîülevvel 1143'te (25 Eylül 1730) Beyazıt Camii ... önünde toplandılar.\" t: zaten bununla birebir. 28 Eylül muhtemelen III. Ahmed'in TAHTTAN İNDİRİLİŞ günü (isyanın SONUCU, farklı bir alt-olay) — TAM doğrulanmadı, zaman kısıtı.",
+      "kaynak_tdv": "https://islamansiklopedisi.org.tr/patrona-isyani",
+      "damga": "kısmen ⚪ ölçülemedi (28 Eylül'ün tam kimliği doğrulanmadı, yalnız 25'in DOĞRU olduğu kesin)"
+    },
+    {
+      "no": 10,
+      "kayit": "afgan-durrani (YENİ KAYIT — henüz devletler.js'te YOK, staging'de)",
+      "dosya": "denetim/HAZIRLIK-DALGA2-0911.json (ve türetilmiş denetim/PAKET-DALGA2-0911.json)",
+      "satir": "N/A — henüz data/devletler.js'e yazılmadı",
+      "bugunku_deger": "t_oneri:\"1793-05-18\" idi, PAKET-DALGA2-0911.json'da zaten \"1793-05-20\"ye düzeltilmiş",
+      "onerilen_deger": "1793-05-20 (zaten düzeltilmiş, DEĞİŞİKLİK GEREKMİYOR — bu paket yalnız TEYİT ediyor)",
+      "gerekce": "Bu bir DÜZELTME değil bir YENİ-YAZIM kararı — kayıt data/devletler.js'te henüz YOK, dolayısıyla '① CÜLÛS' tarzı bir mevcut-satır düzeltmesi SINIFINA girmiyor. Sınıf farkı NET tutuluyor (D024).",
+      "kaynak": "PAKET-DALGA2-0911.json ②"
+    }
+  ],
+
+  "②_cakisma_kontrolu": {
+    "yontem": "git log -- denetim/ (son 20 commit) tarandı + bu oturumun kendi 4 görevinin (CÜLÛS DESENİ, PADİŞAH ÇAPRAZ, İÇ TUTARSIZLIK, YANLIŞ OLAY) ürettiği dosyalar karşılaştırıldı.",
+    "sonuc": "ÇAKIŞMA BULUNAMADI. 1-9 numaralı düzeltmelerin TÜMÜ aynı oturumun (BU oturum) art arda gelen görevlerinden — tek bir araştırma zincirinin ürünü, birbirini YİNELEMİYOR. 10 numara (afgan-durrani) FARKLI bir oturumun (DALGA 2) ürünü ve FARKLI bir dosyayı (devletler.js, henüz yazılmamış) hedefliyor — üst üste binme yok.",
+    "not": "Diğer oturumların (VASSAL RENK, KUNYE ONCESI, PRENSLIK PENCERE, TUNUS+IBERYA vb.) son 20 commit'i de tarandı — hiçbiri bu 9 kaydın dosya/satırına DOKUNMUYOR."
+  },
+
+  "③_degismez2_etkisi": {
+    "yontem": "arac/girdi.yukle() ile 3808 yerleşimin TÜM s:/d:/v: dönem sınırları (1829 benzersiz kırılma günü) çıkarıldı. Her düzeltme için EN YAKIN 6 kırılmanın eski VE yeni tarihe uzaklığı (gün) hesaplandı; ±30 gün eşiğini AŞAN/İÇİNE GİREN bir geçiş var mı diye bakıldı.",
+    "SONUC": "🟢 SIFIR ETKİ. 6 tarih değişikliğinin (1-6 numaralı gün-düzeyi düzeltmeler) HİÇBİRİ herhangi bir kırılmayı ±30 günlük pencerenin içine/dışına TAŞIMIYOR. En büyük kayma (İbrahim'in ölümü, 10 gün) bile en yakın kırılmayı (54→44 gün) hâlâ pencerenin ÇOK dışında bırakıyor; en küçük kaymalar (1 gün, culüs düzeltmeleri) zaten pencere sınırından uzak kırılmalara denk geliyor (en yakını 19-20 gün, sınırın [30] güvenle içinde, İKİ tarihte de).",
+    "detay_tablosu": "Tam mesafe tablosu bu görevin ölçüm scriptinde — istenirse ayrıca commit edilebilir, şu an yalnız SONUÇ raporlanıyor (D098: hüküm/uygulama ayrı, ama bu bir ÖLÇÜM, ayrı dosya gerekmiyor).",
+    "guvence": "Bu 8-9 düzeltmenin HİÇBİRİ Değişmez 2'yi bozmaz — koşu sonrası `py arac/denetle.py` yine de KOŞULMALI (rutin doğrulama, bu ölçüm onun YERİNE geçmez)."
+  },
+
+  "④_teslim_ozeti": {
+    "toplam_dogrulanmis_duzeltme": 9,
+    "yeni_kayit_teyidi": 1,
+    "dosya_bazinda": {
+      "data/olaylar_ek7.js": 3,
+      "data/olaylar_ek5.js": 1,
+      "data/olaylar_ek2.js": 1,
+      "data/olaylar.js": 2,
+      "data/padisahlar.js": 1
+    },
+    "acik_karar_gerektiren": 1,
+    "cakisma": 0,
+    "degismez2_etkilenen_kirilma": 0,
+    "yazilmadi": "data/ DONUK — hiçbir satır değiştirilmedi, hepsi ÖNERİ"
+  }
+}
