@@ -73,23 +73,23 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **3805** nokta, 77 girdi dosyası |
-| Kronoloji | **1294** madde · 1238 duygu etiketli · 1196 `yer_id` · 28 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 3805 yerleşim, 314 sahipsiz (beklenen 315) |
+| Yerleşim (motorun okuduğu) | **3808** nokta, 77 girdi dosyası |
+| Kronoloji | **1300** madde · 1238 duygu etiketli · 1202 `yer_id` · 28 `vefat_id` |
+| Değişmez 1 — sahipsizlik | ✓ 3808 yerleşim, 314 sahipsiz (beklenen 314) |
 | Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 5/5 — tam tarama |
-| Değişmez 2 — Osmanlı senkronu | ✓ 523 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 1319 YABANCI kırılması · 104 AÇIK (tavan 121) · 363 KAPSAM DIŞI |
-| Değişmez 2i — işgal senkronu | ✓ 47 İŞGAL kırılması, 3 açık (tavan 3) |
+| Değişmez 2 — Osmanlı senkronu | ✓ 520 kırılma, 0 açık (beklenen 0) |
+| Değişmez 2s — yabancı senkron | ✓ 1327 YABANCI kırılması · 104 AÇIK (tavan 121) · 364 KAPSAM DIŞI |
+| Değişmez 2i — işgal senkronu | ✓ 62 İŞGAL kırılması, 3 açık (tavan 3) |
 | Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 12 (tavan 42) — bilinen borç |
 | Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
-| Devletler dizini | **617** künye · **579** renk (`renkler.py`) |
+| Devletler dizini | **627** künye · **579** renk (`renkler.py`) |
 | Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 77 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
 | Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 2 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
 | Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
-| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik veride kullanılıyor ama BOYANMIYOR · 🟡 29 sessiz borç (künye var, veride yok) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `__BOSLUK__` muaf* |
+| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik veride kullanılıyor ama BOYANMIYOR · 🟡 39 sessiz borç (künye var, veride yok) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `__BOSLUK__` muaf* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r6711** · `567895f` |
+| Yayın | **r7487** · `a00592d` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash
