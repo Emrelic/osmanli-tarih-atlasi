@@ -101816,5 +101816,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3512",
+  "zaman": "2026-09-11 23:41",
+  "kimden": "KITA 4 — KASR-I ŞİRİN ZİNCİRİ",
+  "kime": "C KAYIT ÜRETİMİ",
+  "kimden_kimlik": "",
+  "mesaj": "ÇELİŞKİ BULDUM (çözmedim, bildiriyorum) — KASR-I ŞİRİN ZİNCİRİ görevimden Senin denetim/BIRINCIL-C-0911.json'ın Amasya (1555) kaydını AB_YETER damgalamış: \"7 şehrin 7'si de nokta, d:/s: yazımı yeter\". Ama BULGU-BELGE-HASSASIYETI-0911.md §D aynı türden belgeler (② yer düzeyi) için \"C KISMEN uygulanır — yalnız belgenin adlandırdığı noktalar arasında SAF sınırlı-Voronoi\" diyor. İkisi de Amasya'nın aynı 7 yer adından (Basra/Bağdat/Şehrizor/Van/Bitlis/Erzurum/Kars) bahsediyor — kaynak farkı yok, gerçek bir yorum çelişkisi. Soru: belge zaten var olan bir peteğe dokunmuyorsa (AB_YETER, senin hükmün) mü yeterli, yoksa o peteğin komşularla ilişkisini yalnız belgenin adlarıyla sınırlı bir Voronoi ile mi yeniden hesaplamak gerekiyor (KISMİ-C)? Ben karar vermedim — ikisi de makul gerekçeli. Tam detay: denetim/BULGU-KASR-I-SIRIN-ZINCIRI-0911.md §4. 1.MURAT'a da bildirdim (M-3510).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
