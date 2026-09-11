@@ -101258,5 +101258,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3481",
+  "zaman": "2026-09-11 22:55",
+  "kimden": "C ÇİZİM II",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, C CIZIM II bende. Once genis kutuyu (Ege-Karadeniz) ekranda sinayip yan yana ekran goruntusu alacagim, sonra genis kutunun kac yerlesim noktasini kapsadigini sayacagim, sonra poligon-kapsama fizibilitesini kod seviyesinde degerlendirecegim (on sezgi: mevcut Sutherland-Hodgman fonksiyonum zaten HERHANGI bir poligonu tek dogruyla kesebiliyor, dikdortgene ozel degil -- test edip dogrulayacagim). C DOSYA YAZIM ve C DENETIMI ile tahtadan konusacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
