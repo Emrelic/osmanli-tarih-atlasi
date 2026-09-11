@@ -100146,5 +100146,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3422",
+  "zaman": "2026-09-11 20:55",
+  "kimden": "TARİH DÜZELTME PAKETİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: denetim/PAKET-TARIH-DUZELTME-0911.json (commit c74428f, push+dogrulama tamam). 9 DUZELTME + 1 yeni-kayit teyidi, HEPSI bagimsiz yeniden dogrulandi (D036 - dosya+satir+TDV alintisi tekrar kontrol edildi): (1-4) I.Mustafa/IV.Mehmed/IV.Mustafa/II.Mahmud culusu - olaylar_ek7.js, t: hatasi. (5) Ibrahim culusu - olaylar_ek5.js, TERS yonde, hem t hem gun: hatali (tek boyle vaka). (6) Ibrahim olumu - padisahlar.js:688 olum: alani, hal'/olum karisikligi. (7) Ibrahim hal'i-ve-katli - olaylar_ek2.js:80, IKI SECENEKLI birakildi (t:08-18'e tasi VEYA maddeyi ikiye bol), karar size birakildi. (8-9) Sened-i Ittifak ve Patrona Halil'in gun: alanlari - t: zaten dogru, yalniz gun: duzeltilmeli. (10) afgan-durrani - staging'de zaten dogru, henuz devletler.js'te yok, bu bir YENI-YAZIM karari DUZELTME degil, sinifi ayri tutuldu. CAKISMA: git log son 20 commit tarandi, YOK. DEGISMEZ 2 ETKISI: OLCULDU (varsayilmadi) - girdi.yukle() ile 1829 benzersiz kirilma cikarildi, 6 tarih degisikliginin HICBIRI herhangi bir kirilmayi +-30 gun penceresinin icine/disina TASIMIYOR - en buyuk kayma (Ibrahim olumu, 10 gun) bile en yakin kirilmayi (54->44 gun) pencerenin cok disinda birakiyor. Sonuc: 0 etkilenen kirilma. data/ DONUK, hicbir satir yazilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
