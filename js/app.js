@@ -5155,16 +5155,40 @@ function dizinDoldur(sekme) {
     // 🔴 TESPİH KUŞAK 0/1 sessiz kayıp taraması (4 Ağustos, arac/denetle_gorunur.py
     // ölçtü) — `sehzadelik` (4 kayıt: Fetret Devri'nin şehzade saltanatları) bu
     // sözlükte yoktu, TUR_ADI'nin mimar/edebiyatci'yi unutmasıyla AYNI hata sınıfı.
+    // 🔴🔴 DİZİN TÜR ONARIMI (11 Eylül 2026) — AYNI SINIF HATA SESSİZCE TEKRAR
+    // ETMİŞTİ: bu döngü DEVLET_TUR_ADI'nin SABİT anahtarlarını geziyordu,
+    // dgruplar'ınkini DEĞİL — `emirlik`/`isyan`/`ulke`/`kralik`(yazım hatası)/
+    // `gecici-hukumet`/`federasyon` (11 künye) ve `tur:` HİÇ taşımayan 26 künye
+    // dizinde hiç görünmüyordu (bkz. denetim/BULGU-TUR-SOZLUGU-0911.md).
+    // D182: koruma YAMADA değil ARAÇTA durmalı ⇒ liste artık VERİDEN türüyor;
+    // bilinmeyen bir `tur:` (örn. yakında eklenecek `eyalet`) ya da hiç `tur:`
+    // taşımayan bir kayıt BİR DAHA sessizce kaybolamaz.
     var DEVLET_TUR_ADI = { imparatorluk:"İmparatorluklar", sultanlik:"Sultanlıklar", devlet:"Devletler",
       hanlik:"Hanlıklar", krallik:"Krallıklar", cumhuriyet:"Cumhuriyetler", prenslik:"Prenslikler",
       dukalik:"Dükalıklar", beylik:"Anadolu Beylikleri", ocaklik:"Kuzey Afrika Ocakları",
       hanedanlik:"Özerk Hanedanlıklar", sehzadelik:"Fetret Devri Şehzade Saltanatları",
       "gecici-isgal":"Geçici İşgaller / Statü Değişimleri" };
+    var TUR_YOK = "__tur_belirtilmemis__";
     var dgruplar = {};
-    (window.DEVLETLER || []).forEach(function (d) { (dgruplar[d.tur] = dgruplar[d.tur] || []).push(d); });
-    Object.keys(DEVLET_TUR_ADI).forEach(function (tur) {
+    (window.DEVLETLER || []).forEach(function (d) {
+      var anahtar = d.tur || TUR_YOK;
+      (dgruplar[anahtar] = dgruplar[anahtar] || []).push(d);
+    });
+    // Sıra: önce bilinen 13 tür (ESKİ GÖRÜNÜMLE BİREBİR AYNI SIRA) — sonra
+    // veride çıkan ama sözlükte olmayan türler alfabetik — en sonda "tür
+    // belirtilmemiş". Başlığı olmayan (bilinmeyen) tür HAM DEĞERİYLE basılır —
+    // gizlenmez, çünkü ham değerin görünmesi kendi başına bir uyarıdır
+    // (`kralik` yazım hatası gibi — D107: sessizce düzeltilmez, GÖRÜNÜR kalır).
+    var digerTurler = Object.keys(dgruplar).filter(function (t) {
+      return !DEVLET_TUR_ADI[t] && t !== TUR_YOK;
+    }).sort();
+    var sira = Object.keys(DEVLET_TUR_ADI).concat(digerTurler);
+    if (dgruplar[TUR_YOK]) sira.push(TUR_YOK);
+    sira.forEach(function (tur) {
       if (!dgruplar[tur]) return;
-      baslik(DEVLET_TUR_ADI[tur] + " (" + dgruplar[tur].length + ")");
+      var ad = tur === TUR_YOK ? "Tür Belirtilmemiş"
+             : DEVLET_TUR_ADI[tur] || (tur.charAt(0).toUpperCase() + tur.slice(1));
+      baslik(ad + " (" + dgruplar[tur].length + ")");
       dgruplar[tur].forEach(function (d) {
         satir(d.ad, d.baskent || "", (d.f || "") + " → " + (d.t || ""),
               function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(d.f)); });
