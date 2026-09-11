@@ -1,0 +1,85 @@
+﻿diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index b40e99b..1b2062f 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -1444,6 +1444,12 @@ _B23_SAYAC = {
+     # tâbi girintiye hiç köprü kurulmamış demektir — ikisi de BULGU.
+     "b2_kopru_dogrudan": 0, "b2_kopru_tabi": 0,
+ }
++# KITA 7 — B3 KORİDOR (12 Eylül 2026, `denetim/YAMA-B3-LOG-0911.py`).
++# B3'ün GERÇEKTEN elediği/bıraktığı "derin" bileşenleri, isim+km² ile,
++# PRE-kıyı-kesim biriktirir — B UCUZ PARÇALAR'ın çürüyen 106.123 sayısının
++# YERİNE geçecek güvenilir sayı. Her öğe: (isim, km2, derinlik_km,
++# genislik_km_govde_ort, sebep, genislik_km_agiz, tanimlar_ayrisiyor_mu).
++_B3_KALAN_IHLAL = []
+ # 0038/H-0004 — köprünün hangi gövdeye yaslandığını ölçen tampon (derece).
+ # ~0,02° ≈ 2 km: köprü `difference` ile üretildiği için iki gövdeye de
+ # DEĞMEZ; temas ancak tamponla ölçülür. Çok küçük seçilirse ikisi de sıfır
+@@ -1665,11 +1671,35 @@ def _b3_koridor_kirp(g, sahip_ix):
+             _B23_SAYAC["b3_sig"] += 1
+             continue
+         yasak = _yasakli_mi(c, sahip_ix)
+-        if yasak == "kb":
+-            _B23_SAYAC["b3_kb"] += 1
+-            continue
+-        if yasak == "yerlesim":
+-            _B23_SAYAC["b3_yerlesim"] += 1
++        if yasak in ("kb", "yerlesim"):
++            # KITA 7 — B3 KORİDOR: bu bileşen GERÇEKTEN "derin" (d_der > w_der)
++            # ama bir muafiyet yüzünden doldurulmuyor — Emre'nin kuralına göre
++            # bu PRE-kıyı-kesim gerçek bir "kalan ihlal" adayı. İKİ genişlik
++            # tanımı da kaydedilir (D022'nin kendi sınavı): kod `w_der`
++            # (gövde ortalaması, 2*alan/çevre) kullanıyor; Emre'nin kuralı
++            # AĞIZ genişliğini işaret ediyor — `agiz.length/2.0` (sentetik
++            # "dogbone" testinde gerçek ağız genişliğine %0,5 isabet etti,
++            # `denetim/BULGU-KORIDOR-AGZI-0911.md`).
++            try:
++                q = int(_TUM_AGAC.nearest(c.centroid))
++                isim = YERLER[q].get("ad", "?")
++            except Exception:
++                isim = "?"
++            try:
++                _agiz_genislik = agiz.length / 2.0
++            except Exception:
++                _agiz_genislik = None
++            _ayrisiyor = ((d_der > w_der) != (d_der > _agiz_genislik)
++                          if _agiz_genislik else None)
++            _B3_KALAN_IHLAL.append((
++                isim, round(alan_km2(c), 1),
++                round(d_der * 111.32, 1), round(w_der * 111.32, 1), yasak,
++                round(_agiz_genislik * 111.32, 1) if _agiz_genislik else None,
++                _ayrisiyor))
++            if yasak == "kb":
++                _B23_SAYAC["b3_kb"] += 1
++            else:
++                _B23_SAYAC["b3_yerlesim"] += 1
+             continue
+         # AĞIZ BIRAKILIR: ağza w kadar yakın şerit doldurulmaz.
+         # ⚠️ Tampon `disari`ya DEĞİL `agiz`a uygulanır — `disari` koca bir
+@@ -5156,6 +5186,26 @@ else:
+           f"{_B23_SAYAC['b3_sig']} SIĞ diye BIRAKILDI (Emre bunu istiyor) · "
+           f"{_B23_SAYAC['b3_kapali']} kapalı · "
+           f"{_B23_SAYAC['b3_yerlesim']} yerleşimli · {_B23_SAYAC['b3_kb']} k.bosluk")
++    # KITA 7 — B3 KORİDOR: PRE-kıyı-kesim, isimli/km² güvenilir liste.
++    if _B3_KALAN_IHLAL:
++        _toplam_km2 = sum(r[1] for r in _B3_KALAN_IHLAL)
++        _ayrisan = sum(1 for r in _B3_KALAN_IHLAL if len(r) > 6 and r[6])
++        print(f"  🔴 B3 KALAN İHLAL (PRE-kıyı-kesim, GÜVENİLİR): "
++              f"{len(_B3_KALAN_IHLAL)} bileşen · {_toplam_km2:,.0f} km²")
++        for isim, km2, der, gen, sebep, agiz_gen, ayrisiyor in sorted(
++                _B3_KALAN_IHLAL, key=lambda r: -r[2])[:15]:
++            print(f"       {isim:<28} {km2:>10,.0f} km²  "
++                  f"derinlik {der:>6.0f} km · gövde-genişlik {gen:>5.0f} km · "
++                  f"ağız-genişlik {agiz_gen if agiz_gen is not None else '?':>5} km  "
++                  f"[{sebep}]" + ("  ⚠️AYRIŞIYOR" if ayrisiyor else ""))
++        if len(_B3_KALAN_IHLAL) > 15:
++            print(f"       … +{len(_B3_KALAN_IHLAL) - 15} bileşen daha "
++                  f"(tam liste için ayrı bir dökümü iste)")
++        print(f"       -> bunların {_ayrisan}'i ağız/gövde tanımına göre "
++              f"FARKLI karar verirdi (kod vs Emre'nin kuralı)")
++    else:
++        print("  🟢 B3 KALAN İHLAL: 0 — SIĞ dışında hiçbir bileşen "
++              "muafiyetle atlanmadı")
+ 
+     # 🔴 ÇÖL EŞİĞİ KARNESİ — "kapatılmayanı da say ve bas" (MOTOR ÜÇ KALEM).
+     # `col_dusen` = 4 puanı geçerdi ama çölde olduğu için 8'e takıldı.
