@@ -1,0 +1,134 @@
+{
+ "meta": {
+  "olusturan": "KITA 4 — KASR-I ŞİRİN ZİNCİRİ",
+  "tarih": "2026-09-11",
+  "gorev": "Osmanli-Iran (Safevi->Afsar->Kacar) sinir belgeleri zincirini Amasya 1555'ten Istanbul Protokolu 1913-14'e kadar cikarmak, her belgeyi hassasiyet duzeyine (①cizgi/②yer/③bolge) gore siniflandirmak, C semasinin 'hassasiyet alani' ihtiyacini olcmek, ve en az 1639+1847 kayitlarini kodlamak.",
+  "girdi": [
+   "denetim/BULGU-BELGE-HASSASIYETI-0911.md (kardes oturum, Karlofca+Kasr-i Sirin karisik hassasiyet olcumu)",
+   "denetim/BULGU-KAYNAK-SUSKUNLUGU-0911.md (kardes oturum, 1555-1639 Kafkasya 'PARCALI' tespiti + bolge×donem matrisi)",
+   "denetim/BIRINCIL-C-0911.json (Amasya/Ferhad Pasa/Nasuh Pasa/Kasr-i Sirin/II.Erzurum icin birincil metin damgalari, ve II.Erzurum'un C_GEREKLI->AB_YETER duzeltmesi)",
+   "TDV: safeviler, kacarlar (safeviler.txt/kacarlar.txt uzerinden grep tarandi -- Serav/Kerden/1913 icin YENI bilgi CIKMADI)",
+   "WebSearch: Treaty of Serav 1618, First Treaty of Erzurum 1823, Treaty of Kerden 1746, Constantinople Protocol 1913-1914"
+  ],
+  "kaynak_kurali_notu": "TDV bu zincirin BUYUK KISMINDA SESSIZ (yalniz Amasya/luristan/sattularap slug'lari canli). Serav/Kerden/Erzurum-I/1913-Protokol icin TDV'de dogrudan madde BULUNAMADI -- CLAUDE.md §4 'TDV kapsamadigi tanecik/olay -> standart akademik kaynak MESRU' kuralina gore Encyclopaedia Iranica (yeşil liste) kullanildi; parstimes.com gibi kirmizi/yesil listede yer ALMAYAN bir hobi sitesi yalniz DESTEKLEYICI olarak anildi, TEK DAYANAK yapilmadi. Fandom/military-history wiki HIC kullanilmadi (D162: alintidan once kaynagin turu SINANIR)."
+ },
+
+ "① HASSASIYET SEMASI SORUSU — cevap": {
+  "soru": "C kaydi kendi hassasiyet (①cizgi/②yer/③bolge) alanini tasimali mi?",
+  "olcum": "Bu zincirin 9 belgesinin DAMGASI: ②,②,②,②(zayif kaynakli),③,③(miras),③(miras),AB_YETER(①'e ragmen C gerekmiyor),①. Yani AYNI SINIRIN ayni yy icinde bile hassasiyeti ①<->③ arasinda SICRIYOR -- Karlofca'da (kardes bulgusu) TEK BIR belgenin ICINDE bile boyle.",
+  "hukum": "EVET, hassasiyet ALAN OLARAK sart. Tek bir 'C_GEREKLI mi' bayragi (evet/hayir) bu zinciri YANLIS temsil eder: 1639 (③, bolge) ile 1913-14 Protokolu (①, cizgi+sinir tasi) AYNI 'C_GEREKLI=true' degerini tasirdi, ama biri 4 asir 'belirsiz' kaldigini SOYLEYEN bir belge, oteki fiili sinir tasi dizen bir komisyon raporu. Ikisini ayni bayrakla isaretlemek D116'nin 'cok parcali bir iliskiyi tek sayiya indiren olcu, kusuru alt sinir olarak gosterir' hatasidir.",
+  "onerilen_alan": "hassasiyet: '①cizgi' | '②yer' | '③bolge' | '④suskun' (belge yok, KAYNAK-SUSKUNLUGU'nun 5 adayi icin) -- VE bu alan TEK DEGER DEGIL, kardes SEMA-C-0911 §3'un Karlofca pilotunun gosterdigi gibi AYNI belgenin FARKLI MADDELERI icin FARKLI olabilir; yani sema alani belge-duzeyinde degil MADDE/KLOZ-duzeyinde tutulmali.",
+  "sevk": "Bu bulgu 'C ŞEMA' ve 'C DOSYA YAZIM' oturumlarina TAHTADAN bildirilecek (§7.1 yatay mesaj, asagida)."
+ },
+
+ "② ZINCIR — sirayla, 9 belge": [
+  {
+   "sira": 1, "ad": "Amasya", "tarih": "1555-05-29",
+   "hassasiyet": "②yer",
+   "kaynak": "TDV amasya-antlasmasi (CANLI)",
+   "alinti": "Basra, Bağdat, Şehrizor, Van, Bitlis, Erzurum, Kars ve Atabegler yurdu üzerindeki Osmanlı hâkimiyetinin tanınması.",
+   "durum": "AB_YETER (BIRINCIL-C-0911.json'da zaten damgali) -- 7 yer adinin 7'si de yerlesimler.js'te nokta.",
+   "not": null
+  },
+  {
+   "sira": 2, "ad": "Ferhad Paşa / İstanbul", "tarih": "1590-03-21",
+   "hassasiyet": "②yer",
+   "kaynak": "TDV luristan (kapsayici madde; dedicated ferhad-pasa-antlasmasi OLU)",
+   "alinti": "998'de (1590) İstanbul'da yapılan antlaşmaya göre Osmanlı idaresine bağlanan Luristan.",
+   "durum": "AB_YETER (BIRINCIL-C-0911.json'da zaten damgali) -- Tebriz/Karabağ/Luristan nokta, Şirvan/Gürcistan bölge ama başkentleri (Şamahı/Tiflis) nokta.",
+   "not": null
+  },
+  {
+   "sira": 3, "ad": "Nasuh Paşa", "tarih": "1612-11-20",
+   "hassasiyet": "②yer (cikarimsal)",
+   "kaynak": "TDV nasuh-pasa-antlasmasi OLU (302) -- dedicated madde yok",
+   "alinti": null,
+   "durum": "AB_YETER (BIRINCIL-C-0911.json'da zaten damgali) -- Amasya hattinin TEYIDI/GERI DONUSU sayildigi icin ayni nokta kumesini miras aliyor.",
+   "not": "D107: 'nehir/dag adi var mi' sorusu bu kayit icin OLCULEMEDI (dedicated metne erisilemedi), ama sonuc Amasya'dan MIRAS alindigi icin degismiyor."
+  },
+  {
+   "sira": 4, "ad": "Serav (Sarab)", "tarih": "1618-09-26",
+   "hassasiyet": "②yer (cikarimsal, ZAYIF KAYNAK)",
+   "kaynak": "🔴 TDV SESSIZ (safeviler.txt grep: 'Serav'/'1618'/'Kasr' icin SIFIR eslesme). Bulunan tek ozet WebSearch uzerinden, Wikipedia 'Treaty of Serav' + military-history Fandom'a dayaniyor -- IKISI DE bu projenin kaynak kuralinda TEK BASINA GECERLI DEGIL (Wikipedia hicbir zaman tek dayanak degil; Fandom wiki KIRMIZI LISTE 'kaynaksiz derleme site').",
+   "alinti": "(ZAYIF KAYNAKLI, alinti olarak KAYDEDILMIYOR) -- ozet: 'Nasuh Pasa antlasmasinin sinir hattina KUCUK duzeltmelerle benzer, yillik haracin 200 yukten 100 yuke indirilmesi'.",
+   "durum": "🟡 KAYNAKSIZ-AMA-ZARARSIZ: ozet doğruysa bile yeni bir yer adi EKLEMIYOR (Nasuh Pasa'nin ayni kumesini 'kucuk duzeltme' ile tekrarliyor), yani zincirin AB_YETER hukmunu DEGISTIRMEZ.",
+   "not": "🔴 BULUNAMADI diye damgalanmiyor cunku bir OZET var; ama o ozetin dayanagi bu projenin kirmizi cizgisinin ALTINDA -- D107'nin ucune (bulunamadi/olculemedi/okumadim) DORDUNCU bir durum: 'bulundu ama KAYNAK STANDARDI TUTMUYOR, iceriginin KENDISI ALINTILANMADAN raporlaniyor'. Bu ayrimin kendisi ayri bir sevk konusu olabilir, burada yalniz ISARETLENIYOR."
+  },
+  {
+   "sira": 5, "ad": "Kasr-ı Şirin (Zuhâb)", "tarih": "1639-05-17",
+   "hassasiyet": "③bölge",
+   "kaynak": "Encyclopaedia Iranica 'Boundaries i. With the Ottoman Empire' + Iranian Studies/Cambridge 'Treaty of Zohab 1639: Foundational Myth or Foundational Document?' + TDV murad-iv (gün teyidi: 14 Muharrem 1049 / 17 Mayıs 1639)",
+   "alinti": "the only clause that was stated in the treaty was that merchants from both realms could pass unharmed... the transformation of this indeterminate borderland into a clearly defined... border took almost four centuries... internationally recognized border only after 1843-1914 commissions.",
+   "durum": "C_GEREKLI (③bölge) — KODLANDI, asagida §③.",
+   "not": "Iki BAGIMSIZ akademik kaynak MUTTEFIK: sinir CIZGI degil GENIS BIR KUSAK (Gürcistan-Ermenistan-batı Zagros)."
+  },
+  {
+   "sira": 6, "ad": "Kerden (Kordan)", "tarih": "1746-09-04",
+   "hassasiyet": "③bölge (MİRAS — yeni hassasiyet EKLEMİYOR)",
+   "kaynak": "Encyclopaedia Iranica 'NĀDER SHAH'",
+   "alinti": "Nāder... concluded an agreement with the Ottomans in 1746 at Kordān that reestablished the 1639 borders (Qasr-i-Shirin treaty boundaries restored WITHOUT CHANGE).",
+   "durum": "C KAYDI GEREKMIYOR — bu belge YENI bir sinir cizmiyor, 1639'un GECERLILIGINI 107 yil sonra TEYIT ediyor.",
+   "not": "Zincirin 'contiguous vs gap' sorusuna EN GUCLU KANIT: eger sinir 1639-1746 arasi bir 'bosluk'ta A/B'ye dusseydi, 1746 antlasmasi 'YENIDEN CIZDIK' derdi -- 'RESTORED WITHOUT CHANGE' diyor, yani 1639 metni ARADA HIC KESINTISIZ gecerliydi."
+  },
+  {
+   "sira": 7, "ad": "I. Erzurum", "tarih": "1823-07-29",
+   "hassasiyet": "③bölge (MİRAS — yeni hassasiyet EKLEMİYOR)",
+   "kaynak": "WebSearch ozeti (Wikipedia 'Ottoman-Persian War 1820-1823' kaynakli, DOGRUDAN akademik metne inilemedi — 🟡 ZAYIF, Iranica'da ayri madde bulunamadi)",
+   "alinti": "The first Treaty of Erzurum ESSENTIALLY CONFIRMED THE 1639 BORDER and thus failed to resolve the disputes that had led to conflict.",
+   "durum": "C KAYDI GEREKMIYOR — 1746 ile AYNI SINIF: teyit, yeni cizgi degil.",
+   "not": "🟡 Bu kaydin kaynagi Kerden/Kasr-i Sirin kadar saglam degil (Wikipedia-turevi ozet) — ama HUKMUN KENDISI (1639'u teyit) 1746 ile TUTARLI, yani ZAYIF kaynak bile olsa BAGIMSIZ IKINCI bir teyit sayilabilir. Daha saglam kaynak ARANMADI (WebSearch rate-limit sonrasi tek sorguyla yetinildi) — bu bir D107 'okumadim/derinlemesine aranmadi' damgasidir."
+  },
+  {
+   "sira": 8, "ad": "II. Erzurum (Şattülarap)", "tarih": "1847-05-31",
+   "hassasiyet": "①çizgi (yalnız Şattülarap segmenti icin)",
+   "kaynak": "TDV sattularap (CANLI)",
+   "alinti": "Şattülarap'ın en kapsamlı biçimde ele alındığı antlaşma 1847 Mayısında Erzurum'da imzalanandır.",
+   "durum": "🔴 AB_YETER — C KAYDI GEREKMIYOR (BIRINCIL-C-0911.json'un KENDI DUZELTMESI, DUZELTME_0911_ucuncu_pilot: motorun scalerank<=5.0 esigi Sattularap'i (scalerank 3.0) zaten NEHIR_HAT havuzuna aliyor, kod degisikligi gerekmiyor).",
+   "not": "🔴🔴 GOREVIN ISTEDIGI '1847 KAYDI' BURADA BILEREK C_GEREKLI OLARAK KODLANMADI — cunku C_GEREKLI olarak kodlamak, sibling oturumun ZATEN OLCEREK duzelttigi bir hukmu SESSIZCE GERI ALMAK olurdu (D017 ailesi: bir duzeltme dogru calisabilir, sonraki asama onu geri alabilir — burada TERSI: ben geri alirsam kendim yanlis asama olurum). Asagida §③'te BU KAYDIN NEDEN 'null/degenerate C kaydi' oldugu ayrica kodlandi."
+  },
+  {
+   "sira": 9, "ad": "İstanbul Protokolü (Konstantinopol Protokolü)", "tarih_imza": "1913-11-17", "tarih_tamam": "1914-10",
+   "hassasiyet": "①çizgi (TAM HAT + SINIR TASI)",
+   "kaynak": "Encyclopaedia Iranica 'BOUNDARIES v. With Turkey' + (destekleyici, TEK DAYANAK DEGIL) parstimes.com metin nesri",
+   "alinti": "From November 1913 to October 1914 a boundary commission established the Constantinople Protocol, providing a detailed delimitation of the ENTIRE boundary... surveyed the border on the ground and DEMARCATED IT WITH PILLARS (excluding the Qatur area which remained in dispute).",
+   "durum": "C_GEREKLI (①çizgi) — bu zincirin GERCEK KAPANISI; 1639'un ③bölge kaydini NIHAYET ①cizgiye CEVIRIYOR. KODLANMADI (gorev kapsami disinda birakildi, yalniz TESPIT edildi) — sevk gerekiyorsa ayri bir gorev.",
+   "not": "Turkiye VE Iran'in HER IKISI de sonradan protokolun 'zayifken dayatildigi' iddiasiyla itiraz ettigini kaynak ayrica belirtiyor — bu SIYASI ihtilaf, GEOMETRIK durumu (sinir tasi dizilmis olmasi) DEGISTIRMIYOR."
+  }
+ ],
+
+ "③ MİNİMUM KODLANAN KAYITLAR (1639 + 1847)": {
+  "kasr_i_sirin_1639": {
+   "id_taslagi": "c-iran-kasr-i-sirin-1639",
+   "hassasiyet": "③bölge",
+   "f": "1639-05-17",
+   "t": "1913-11-17",
+   "t_gerekcesi": "KESINTISIZ (contiguous), GAP DEGIL. Kanit: 1746 Kerden ('restored WITHOUT CHANGE') ve 1823 I.Erzurum ('essentially confirmed the 1639 border') ikisi de 1639 metninin ARADA HIC KESINTIYE UGRAMADAN GECERLI kaldigini soyluyor. t: 1913-11-17'de kesiliyor cunku o gun Istanbul Protokolu ILK KEZ '①cizgi' hassasiyetinde bir belge getiriyor -- yani bu SIRADA baslayan sey bolge kaydinin BITISI degil, hassasiyetinin YUKSELMESI.",
+   "kapsam_notu": "🔴 SPATIAL ISTISNA (zamansal degil): 1847'den itibaren bu bolge kaydinin GUNEY UCUNDAKI Sattularap/Basra segmenti ARTIK bu C kaydinin sorumlulugunda DEGIL -- cunku 1847 o segmenti AB_YETER'e (motorun scalerank kapisi) devrediyor. Bu bir f:/t: TARIH DEGISIKLIGI degil, kaydin KAPSADIGI ALANIN 1847'den sonra KUCULMESI (guney ucu cikariliyor). Semaya bunu ifade eden bir alan YOK -- bu da ①'deki 'hassasiyet madde-duzeyinde tutulmali' onerisini DESTEKLIYOR: TEK bir bolge kaydi, zaman icinde KISMI OLARAK baska bir mekanizmaya (AB) devredebiliyor, ve bu devir TARIHLE degil COGRAFYAYLA olcülüyor.",
+   "yer_adlari": ["Bağdat", "Revan", "Karabağ", "Şehrizor", "Basra(1847'ye kadar; sonra segment cikarilir)"],
+   "kaynak": "Encyclopaedia Iranica + Iranian Studies/Cambridge (bkz. ②/sıra 5)"
+  },
+  "erzurum_ii_1847": {
+   "id_taslagi": null,
+   "hassasiyet": "①çizgi (ama C KAYDI DEGIL)",
+   "durum": "NULL/DEGENERATE C KAYDI — bilerek KODLANMADI.",
+   "gerekce": "Sibling oturumun (C KAYIT ÜRETİMİ / BIRINCIL-C-0911.json) DUZELTME_0911_ucuncu_pilot bulgusu: Şattülarap nehri motorun BUYUK (ad listesi) kumesinde YOK ama motorun IKINCI kapisinda (scalerank<=5.0 esigi) ZATEN VAR (scalerank 3.0) -- yani motor bu siniri KOD DEGISIKLIGI OLMADAN otomatik cizebiliyor. Bu kaydi yine de C_GEREKLI olarak kodlamak, D024'un 'iki ayri kusur tek satirda raporlanirsa, careleri ters olsa bile ayni care uygulanir' riskini TERS yonde uretirdi: burada kusur YOK (motor zaten cozuyor), 'care' (C mekanizmasi) GEREKSIZ YERE uygulanirsa BOS YERE A/B'nin calisan mekanizmasi DEVRE DISI birakilmis olur.",
+   "contiguous_vs_gap_sorusu": "SORU BU KAYIT ICIN ANLAMSIZLASIYOR — cunku 'gap' ya da 'contiguous' iki C kaydi arasindaki ILISKIYI sorar, ve burada IKINCI bir C kaydi YOK. Kasr-i Sirin kaydinin kendisi (yukarida) bu durumu 'spatial istisna' olarak zaten tasiyor: 1847'den sonra GUNEY UCU o bolge kaydindan COGRAFI olarak CIKARILIYOR, TARIHSEL olarak degil."
+  }
+ },
+
+ "④ 1555-1639 PARÇALI KAFKASYA BELGELERİ — 'en zor hücre' sorusuna cevap": {
+  "soru": "Amasya/Ferhad Pasa/Nasuh Pasa/Serav (1555-1618) C mi, yoksa A/B mi kalmali?",
+  "olcum": "Dordunun DORDU de ②yer hassasiyetinde (Amasya/Ferhad Pasa dogrulandi, Nasuh Pasa/Serav MIRAS/cikarimsal) VE dordunun DORDU de BIRINCIL-C-0911.json'da AB_YETER damgali -- cunku her belgenin adlandirdigi YERLERIN TAMAMI yerlesimler.js'te zaten NOKTA olarak mevcut.",
+  "hukum": "NE SAF A/B NE SAF C — ÜÇÜNCÜ BİR HÜCRE: '②KISMİ-C'. Bu belgeler A/B'nin sezgisine (Voronoi/enklav/koridor) TAMAMEN GUVENMIYOR -- her biri ACIKCA hangi YERLERIN hangi TARAFA gectigini SOYLUYOR (Basra/Bagdat/Sehrizor Osmanli'da, Tebriz/Karabag Safevi'de gibi). Ama bu bir CIZGI DEGIL, bir NOKTA ATAMASI. Cozum: bu noktalarin d:/s: donemleri BELGENIN KENDISINDEN dogrudan yazilir (yani NOKTA ATAMASI belgeye dayanir, A/B'nin 'en yakin peteğe emilme' tahminine degil) -- ama noktalar ARASI bosluk yine NORMAL A/B mekanizmasiyla (Voronoi) doldurulur, C'nin 'butun mekanizmayi kapat' tanimindaki gibi FULL TAKEOVER olmadan.",
+  "onemli_ayrim": "Bu, M-3463/M-3467'nin 'C = TAM DEVRALMA, A/B'nin hicbir mekanizmasi calismaz' tanimindan FARKLI bir ORTA HAL. KAYNAK-SUSKUNLUGU raporunun §④'unde zaten '① kaynak sinir soylemiyor AMA egemenligi soyluyor -> A/B (Voronoi ile doldur)' diye tanimlanan sinif ile BIRINCIL-C-0911'in 'AB_YETER' damgasi AYNI SEYI anlatiyor -- ama BULGU-BELGE-HASSASIYETI'nin §D'sindeki '② YER DÜZEYİ — C KISMEN uygulanır, SAF Voronoi/dik-acıortay bolme' onerisi FARKLI bir sey soyluyor: yalniz BELGENIN ADLANDIRDIGI noktalar arasinda SINIRLI bir bolme.\n⇒ IKI KARDES OTURUM AYNI VERIYE (Amasya) IKI FARKLI ISIM VERMIS: biri 'AB_YETER' (normal motor calissin) diyor, oteki 'C KISMEN, sinirli Voronoi gerekir' diyor. BEN BU CELISKIYI COZMEDIM, sadece OLCTUM VE RAPORLUYORUM (D073: celiski ilan etmeden once ayni yerden bahsettiklerini dogrula) -- ikisi de Amasya'nin YEDI YER ADINDAN bahsediyor, yani gercek bir celiski, kaynak farki degil.",
+  "oneri_sevke": "C ŞEMA / C DOSYA YAZIM oturumlarina TAHTADAN sorulacak soru: 'Bir polity'nin peteği zaten VAR ve belge yalniz bu peteğin HANGI TARAFA gectigini soyluyorsa (Amasya gibi), bu normal d:/s: yazimi mi (AB_YETER), yoksa peteğin sinirini KOMSULARIYLA yeniden hesaplayan sinirli-Voronoi mi (KISMI-C)? Iki kardes bulgu FARKLI cevap veriyor.'"
+ },
+
+ "⑤ ÖLÇMEDİKLERİM": [
+  "Serav 1618'in TAM METNI hicbir yerde bulunamadi (TDV sessiz, akademik tam metin erisilemedi) -- yalniz Wikipedia/Fandom-turevi bir ozet var, ALINTI OLARAK KULLANILMADI, yalniz ISARETLENDI.",
+  "I. Erzurum 1823 icin Iranica'da AYRI bir madde aranmadi (yalniz genel NADER SHAH ve Ottoman-Persian Relations maddeleri tarandi) -- ikinci bir WebSearch turu ile daha saglam kaynak bulunabilir, YAPILMADI (zaman/rate-limit).",
+  "Istanbul Protokolu 1913-14'un TAM METNINE (parstimes.com disinda) inilmedi -- yalniz Iranica ozeti okundu, birebir madde numaralari/sinir tasi koordinatlari CIKARILMADI.",
+  "②'deki 'KISMI-C' hucresinin GEOMETRIK UYGULANMASI (sinirli-Voronoi kodu) TASARLANMADI/SINANMADI -- yalniz kavramsal olarak tarif edildi, KITA 3 (SINIRLI VORONOI) oturumunun isiyle CAKISIYOR OLABILIR, bu oturumla KOORDINE EDILMEDI.",
+  "Kasr-i Sirin kaydinin 'spatial istisna' (1847'den sonra guney ucun cikarilmasi) fikri YALNIZ ANALITIK -- gercek bir poligon/geometri UZERINDE test edilmedi, `arac/` donuk oldugu icin KODLANAMADI da."
+ ]
+}
