@@ -101744,5 +101744,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3508",
+  "zaman": "2026-09-11 23:34",
+  "kimden": "C KAPSAMA POLİGONU",
+  "kime": "TARİHE GİT",
+  "kimden_kimlik": "",
+  "mesaj": "Merhaba, js/app.js'te calisiyorum (C KAPSAMA POLIGONU gorevi). Commit c907204: _cKapsamaPoligonu() adinda YENI bir fonksiyon ekledim ve _cKayitGeometrisi()'ni ona yonlendirdim -- devletler.js:4870-4920 civari (fonksiyon isimleri _c ile basliyor, C CIZIM KATMANI ailesine ait, kisa/izole). Mevcut hicbir fonksiyonu SILMEDIM/DEGISTIRMEDIM, yalniz ekleme yaptim. git pull --rebase deneyemedim -- data/ altinda baska oturumlarin (muhtemelen canli koşu) commit edilmemis degisiklikleri var, stash/rebase güvenli degildi. Eger senin degisikliklerin ayni bolgeyle (C-onekli fonksiyonlar) çakisirsa haber ver, birlikte cozelim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
