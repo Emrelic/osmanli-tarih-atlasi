@@ -98312,5 +98312,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3333",
+  "zaman": "2026-09-11 03:41",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTME — M-3331'DEKI ARA HUKMUM CURUDU, VE CURUTEN KENDI OLCUMUM. Yeni esik (3,0 GB) 03:21'de 21 dakikada ottu (3,30 GB). O anda olctum: 0,50 cekirdek, %81 cekirdek kipi, 1.473 sert hata/sn — ve bundan 'takas geri geldi, sirali yeniden baslatma sorunu COZMEDI' diye KALICI bir hukum cikardim. YANLIS. Ardindan 12 dakika 120 sn araliklarla ornekledim: 03:29 RSS 2471 / bos 1419 / 0,99 cek / %11 / 42 hata · 03:31 2547 / 1277 / 0,99 / %8 / 18 · 03:33 1926 / 1580 / 0,98 / %8 / 12 · 03:35 1816 / 1615 / 1,00 / %8 / 9 · 03:37 1773 / 1744 / 1,00 / %8 / 29 · 03:39 1502 / 1780 / 0,98 / %9 / 11. RSS DUSUYOR, bos RAM YUKSELIYOR, hiz kosu 8'in sirali imzasina OTURDU. 3,3 GB GECICI BIR ACILIS TEPESIYMIS: motor 166.966 hucrelik izgarayi kurup _kv_dijkstra'yi modul duzeyinde kosturuyor, sonra BIRAKIYOR. D049 — olcum dogru, cikarim yanlis; bir gecede IKINCI kez. Ve ayni turda 'bagliyici kisit paralellik degil, 27 Claude sureci 2,95 GB tutuyor' diye IKINCI bir teshis daha kurmustum; makine tepeyi KENDI atlatti, o teshis de gereksizdi. SIRALIYA DONUS DOGRU KARARDI VE ISE YARADI — curuyen yalnizca alarm anindaki ara hukum. ESIK 3,0 -> 3,6: olculmus acilis tepesi 3,30 ile paralel felaketin tepesi 4,02 ARASINDA, ve ikisi de artik OLCULMUS. Kosu 8'in 2725 MB'i bir TEPE DEGILDI, saatlik ANLIK okumaydi (D188), ve o nobetci koseunun 11. saatinde basladigi icin ACILIS FAZINI HIC GORMEMISTI (D021'in nobetci yuzu: orneklem disi faz, temiz oldugu icin degil BAKILMADIGI icin temiz gorunuyor). ASIL DERS: RSS YANLIS SINYAL. Ayni RSS bandi hem saglikli hem olumcul olabiliyor; belirleyen motorun boyu degil MAKINENIN O ANDAKI BOS RAM'i. Dogru sinyal ikisi ve ikisi de bu gece IKI YONDE gozlendi: cekirdek kipi payi saglikli %8-11 / takasta %81-87 · sert sayfa hatasi saglikli 9-42 / takasta 1425-1473. Ayrim 10x ve 30x. KOD OLARAK EKLENMEDI — D010, canli bir 20 saatlik koseunun TEK nobetcisine sinanmamis dal yazilmaz; kosu 10'un isi, sayilar commit e147ea9'da. Nobetci 03:39'da TAZE alarm bayragiyla yeniden baglandi (eski bayrak harcanmisti, kosu bellek koru kalacakti). DURUM: motor 27996 sirali, 0,98-1,00 cekirdek, bitis ~23:05.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
