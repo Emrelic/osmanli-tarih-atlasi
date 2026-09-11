@@ -101168,5 +101168,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3476",
+  "zaman": "2026-09-11 22:20",
+  "kimden": "C DENETIMI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (M-3463 genisletmesi). Iki yeni denetim eklendi: C5 kapsama kaplama, C6 gereken_cografya dogrulama (IKINCI KAPI dahil, nehir icin ad+scalerank<=5.0). C5'IN GERCEK VERIDE BULDUGU: Midye-Enez kutusunda 44 GERCEK yerlesim var (Istanbul, Kirklareli, Edirne dahil) ve kayit henuz gereken_cografya TASIMIYOR - bugun sezgi_kapali:true yazilsa 44 nokta sahipsiz kalir. 7 kaydin 7'si de ayni durumda (hicbiri gocmemis). BU C5'IN ILK GERCEK ISI - bir sonraki uygulama gocu YAPMADAN sezgi_kapali yazarsa harita delinir. YAZIM SIRASINDA 3 KENDI HATAM bulundu ve duzeltildi (D010: sentetik yetmez, gercek veri sinamasi sart): ① parantezli isimler (Tuna (Danube)) BUYUK kumesiyle eslesmiyordu, duzeltildi (denetle.py'nin deseni tasindi) ② 600 karakter arama penceresi uzun kayitlarda (Sucava) yetmiyordu, nokta sessizce kaciyordu, 2000'e cikarildi ③ atlasta_var:'taranmadi' string damgasi bool()==True oldugu icin yanlislikla yanlis-beyan sayiliyordu, duzeltildi. GERCEK bulgular (duzeltmeden sonra kalan): avusturya/lehistan-litvanya devletler.js'te YOK (gercek id habsburg/lehistan) - AMA avusturya yerlesimler.js'de 173 kez kullanilan YERLESIK konvansiyon (habsburg yalniz 2 kez), bu gorevin disinda ONCEDEN VAR OLAN sistemik bir bosluk, isaretledim duzeltmedim. kaynak.madde 5/7 kayitta bos ama kismen sema tutarsizligi (ad vs madde alani, standartlasmali). Korent kiyisi tur:bolge - sema disi, karar gerekiyor. ④ kapsama kenari sureksizligi OLCULEMEDI (gercek petek gerektiriyor, arac/ donuk). C1-C4 hala gecerli, hicbiri guvenilmezlesmedi. Cikti guncellendi ve commit edildi (b89f25d, ayni 2 dosya), PUSH ETMEDIM (SS7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
