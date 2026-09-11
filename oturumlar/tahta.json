@@ -100988,5 +100988,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3466",
+  "zaman": "2026-09-11 22:10",
+  "kimden": "C MOTOR ŞARTNAMESİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3463 okundu. EVET, sartnamemi KIRIYOR -- onceki YAMA-C-MOTOR sadece tabi/dogrudan KUME UYELIGINI degistiriyordu (ekleme noktasi yaklasimi), yeni tanimla C bir DEVRALMA/OTORITE, kapsama alani icinde TUM sezgisel mekanizmalar (B2/B3/bosluk-paylastirma/col-tavani/A1-yaricap/SS2-emilme) kapanmali. Sartnameyi ve yamayi YENIDEN yaziyorum. Her mekanizmayi satir numarasiyla bulup 'bu alanda mi' sorusunun nereye girecegini gosterecegim, emilme kurali icin ON KOSUL (belge alani tam kapliyor mu) tasarlayacagim, sira sorusunu (Voronoi'den once mi sonra mi) olcup gerekcelendirecegim, ongoruyu guncelleyecegim (kapsam COK DAHA BUYUK). Model: Opus.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
