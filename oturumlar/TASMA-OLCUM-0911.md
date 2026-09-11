@@ -820,3 +820,115 @@ uygulanmadı. İki panel de **ham Voronoi ∩ kara**; kıyas için doğru olan b
 ## ⑥ MALİYET
 Toplam koşu birkaç saniye, tepe bellek birinci turun önbelleğiyle ~170 MB.
 Ağırlıklı Voronoi **ek maliyet getirmiyor**: aynı argmin, tek fark bölen.
+
+---
+
+# KITA 8 — B ENGEL TERİMİ · İKİNCİ TUR · 12 Eylül 2026
+
+> ⚠️ Sevkin ①③④ maddeleri **dün teslim edildi** (M-3457 · commit `6e0df82`).
+> Bu tur onları tekrarlamıyor; dün **damgalı iki eksiği** kapatıyor:
+> `🔴 nehir yarısı SINANMADI` ve `⚪ geçit ÖLÇÜLEMEDİ`. İkisi de koşu 9
+> canlıyken kapalıydı; `arac/` açıldı, ikisi de açıldı.
+> **30,2 sn · TEPE RSS 149,2 MB.**
+
+## ① 🔴 NEHİR KAPISI AÇILDI — ve dünkü tur YANLIŞ NEHİR KÜMESİNİ sınamış
+
+Motorun nehir süzgeci **iki kapılı**. Dün yalnız ikincisini uygulayabilmiştim.
+Bugün birincisi de açıldı — **yeniden yazmadan**: `uret_petek.py`nin **552-587.
+satırları** (`BUYUK` · `_ad_sadelestir` · `BUYUK_SADE`) olduğu gibi `exec`
+edildi (`D023`: kendi yazdığın ayrıştırıcı, var olandan her zaman kötüdür).
+```
+YALNIZ scalerank≤5 (dünkü tur)      7 parça ·   516 hücre
+İKİ KAPI (ad listesi + scalerank)  20 parça · 1.602 hücre      ⇒ 3,1 KAT
+   ad kapısından geçen 20  ·  scalerank kapısından 0
+   adlar: Kızılırmak · Sakarya · B. Menderes · Fırat · Dicle · Ceyhan ·
+          Kelkit · Murat · Aras · Kura · Kuban · Evros · Simav
+```
+🔴 **VE ASIL SAYI SONDAKİ SIFIR:** pilot kutuda `scalerank` kapısından geçen
+parça **0**. Yani Anadolu'da nehirleri **tamamen ad listesi** taşıyor ve dünkü
+tur, kullanılan 20 parçanın hiçbirini o kapıdan alamamıştı.
+⇒ Dün *"nehir yarısı pratikte sınanmadı"* diye damgalamıştım; **damga doğruydu
+ve bugün ölçüldü.**
+
+## ② HANGİ ENGEL NE KADAR — ve nehir sırttan ÇOK DAHA VERİMLİ
+| engel | cezalı hücre | sahip değiştiren | **hücre başına verim** |
+|---|---|---|---|
+| yalnız NEHİR | 1.597 | 2.204 (%4,0) | **1,38** |
+| yalnız SIRT (p85) | 8.276 | 2.437 (%4,4) | 0,29 |
+| ikisi | 9.778 | 4.788 (%8,7) | 0,49 |
+
+🔴 **Nehir, cezalanan hücre başına sırttan 4,7 KAT etkili.** Sebep yapısal ve
+Emre'nin tarifiyle birebir: **nehir bir ÇİZGİ, sırt bir BANT.** Çizgi keser,
+bant yalnız pahalılaştırır. *"Geniş bir nehire gelindiğinde ilerleme
+KESİLECEK"* cümlesi tam da bu farkı söylüyor.
+📌 Ve gözle görülüyor: `KITA8-B-2-UC-HAL-NEHIR` panel ③'te Kızılırmak (mavi)
+boyunca sınırların nehre **oturduğu** yerler var; ② panelinde yok.
+
+**Eşik serisi** (sırt+nehir): p70 %13,8 · p85 %8,7 · p95 %5,5 —
+`KITA8-B-3-ESIK-SERISI`. **Aralık veriliyor, hüküm verilmiyor.**
+
+## ③ P7 ÖLÇÜTÜ — ikinci kez ölçüldü, ikinci kez ATEŞLENEMEZ
+```
+kara yolu 4.767 · eğim 4.767 · ENGEL 4.788
+```
+İlk iki terim **engelden etkilenemez**: biri düz Voronoi ↔ sürtünmesiz, öteki
+sürtünmesiz ↔ eğimli. Engel **üçüncü** terim. Ölçüt karşılaştırdığı iki şeyi
+ayırt etmiyor ⇒ **tanımı gereği ateşlenemez** (`D081`).
+⚠️ Ve tuhaf bir yakınlık: ENGEL 4.788, ötekilerden **%0,4** uzak. Bir anlam
+yüklemiyorum — dün `D117` sınavıyla ölçtüm, bu bandda (~4.700-4.900) denk
+gelmeler oluyor.
+
+## ④ 🔴🔴 GEÇİT — ÖLÇÜLDÜ, VE SINAV AYIRT ETMİYOR (kontrol değişkeni)
+
+Dünkü sınavım ters etiketliydi; bugün **doğrusunu** kurdum: sırt bandının
+**bağlantılı bileşenleri** çıkarıldı, sınırın bir bileşeni kestiği hücrelerin
+eğimi **o bileşenin kendi dağılımında** hangi yüzdeliğe düşüyor diye soruldu.
+Geçit varsa kesişler **alt kuyruğa** toplanmalı.
+```
+ENGELLİ (sırt p85 + nehir)          medyan %60,0  ·  %50 altı 2/27
+```
+İlk okumam: *"🔴 geçit etkisi yok"*. **Sonra kontrol değişkenini koştum
+(`D132`) ve o hüküm de düştü:**
+```
+① düz Voronoi (araziyi HİÇ bilmiyor)   medyan %57,0
+② sürtünmesiz ızgara                   medyan %56,9
+③ eğimli ızgara (ENGELSİZ — KONTROL)   medyan %61,0
+④ ENGELLİ                              medyan %60,0
+```
+⇒ **Sayı, yöntemden neredeyse BAĞIMSIZ.** Araziyi hiç bilmeyen düz Voronoi
+%57, açık engelli model %60. Dört yöntem arasındaki toplam oynama **4 puan.**
+🔴 **Böyle bir sınav bir hüküm taşıyamaz.** *"%60 ⇒ geçit yok"* demek, tabanı
+%57 olan bir ölçüyü sonuç sanmaktı. Damga: **`ölçülemedi`** — ve bu sefer
+**niçin ölçülemediği de ölçüldü.**
+
+📌 **VE SEBEBİ KAVRAMSAL, ARAÇSAL DEĞİL:**
+> **Geçit bir YOL iddiasıdır; sınır ise bir EŞİT-MALİYET YERİDİR.**
+> Su geçitten sızar — ama bunun sınıra yansıması *"sınır geçitten geçer"*
+> değil, *"geçidin ÖTESİNDEKİ toprak beri yakanın olur"*, yani sınır
+> **geçidin ardında ŞİŞER.** Ben geçişin yerini ölçtüm; şişmeyi ölçmedim.
+
+🟢 **DOĞRU SINAVIN TASARIMI** (yazıldı, koşulmadı):
+```
+her bant bileşeninde eşiğin ALTINDA kalan boşlukları (geçitleri) bul
+her geçit için: ÖTE yakada, geçitten ≤X km içerideki hücreler
+ENGELSİZ hâlde kimin? ENGELLİ hâlde kimin?
+geçit çalışıyorsa: beri yakanın tohumu öte yakada TOPRAK KAZANIR
+```
+📌 Bu, `§11`in *"bir ölçüt karşılaştırdığı iki şeyi ayırt etmiyorsa, cevabı
+EVET olsa bile soru yanlış sorulmuştur"* dersinin **üçüncü** vakası — ve
+üçünde de aynı gecede: koordinatörün P7'si, dünkü ters etiketim, bugünkü
+yüzdelik sınavı.
+
+## ⑤ MALİYET
+```
+engelli Dijkstra 1,53-1,84 sn   (engelsiz 3,20 sn)
+```
+Engel Dijkstra'yı **yavaşlatmıyor, hızlandırıyor** — pahalı hücreler erken
+elenince yığın daha az kabarıyor. Motor bütçesinde **bedava**.
+
+## ⑥ PNG'LER
+```
+denetim\KITA8-B-1-UC-HAL-TOROS-0912.png    Toroslar+Akdeniz · bugün/sürtünme/engel
+denetim\KITA8-B-2-UC-HAL-NEHIR-0912.png    Kızılırmak havzası · NEHİR burada görünüyor
+denetim\KITA8-B-3-ESIK-SERISI-0912.png     p70 · p85 · p95 yan yana
+```
