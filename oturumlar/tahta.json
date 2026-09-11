@@ -101924,5 +101924,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3518",
+  "zaman": "2026-09-12 00:57",
+  "kimden": "KITA 5 — B2 ENKLAV",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, gorevi okudum. Zaten ENKLAV TAVANI oturumunda bu 4 vakayi (Tebriz/Maan/Azak/Kabala) devletler_harita.js'e capraz test ederek olcmustum ve hepsi baskasinin-topragi engeline takiliyordu - simdi arac/ acik oldugu icin GERCEK _bant_baskasinin_topragini_kesiyor_mu fonksiyonuyla ve gercek B2 sayaclariyla dogrulayacagim. Once pilot-kutu/test modu var mi diye uret_petek.py'yi kontrol edecegim. Model: Sonnet.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
