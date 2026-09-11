@@ -13,6 +13,13 @@
   },
   "dar_sayisina_etkisi": "Gorevin ④ sorusu: 'ozet metin nehir/dag vermiyordu, birincil metin veriyorsa dar sayi yukselir mi?' CEVAP: Amasya/Ferhad Pasa/Nasuh Pasa'da birincil kaynak da nehir/dag VERMEDI (dar sayilarinda degisiklik yok, zaten 'hat/sinir cizildi' KELIMESI yuzunden dar sayilmislardi). Kasr-i Sirin'de birincil kaynak (Encyclopaedia Iranica) 'western Zagros mountains' adini ACIKCA verdi -- bu kaydin dar uyeligi GUCLENDI (zaten dar sayiliyordu, simdi somut dag adiyla DESTEKLENIYOR). NET SONUC: ENVANTER-C-II'nin dar sayisi (16/110, %15) DEGISMEDI -- yalniz Kasr-i Sirin'in kaniti guclendi."
  },
+ "DUZELTME_0911_ucuncu_pilot": {
+  "tarih": "2026-09-11 (ayni gun, C ŞEMA KAPANIŞ gorevi sirasinda)",
+  "ne_yanlisti": "Asagidaki 'II. Erzurum (Şattülarap)' kaydinin 'kesin_damga':'C_GEREKLI' hukmu HATALIYDI. Gerekce olarak 'nehir arac/uret_petek.py BUYUK setinde TANINMIYOR' yazilmisti -- bu YALNIZ AD LISTESINE bakilarak soylenmisti, motorun IKINCI kapisi (scalerank<=5.0 esigi, uret_petek.py:629) HIC KONTROL EDILMEMISTI.",
+  "duzeltilmis_olcum": "veri-kaynak/ne_10m_rivers.geojson: 'Shatt al Arab' scalerank=3.0 (esigin altinda) -- yani AD LISTESINDE olmasa bile motorun NEHIR_HAT havuzuna ZATEN GIRIYOR. Basra (6,1 km) ve Muhammere (1,7 km) bu nehre 33,3 km'lik yaslama yaricapinin COK icinde. ⇒ Motor bu siniri OTOMATIK olarak nehre yaslayabilir, HICBIR KOD DEGISIKLIGI GEREKMEZ.",
+  "duzeltilmis_damga": "AB_YETER (II. Erzurum/Şattülarap icin C_GEREKLI DEGIL, veri kaynagi: denetim/PILOT-C-SATTULARAP-0911.json)",
+  "ders": "D043 'aletin gosterdigi != dosyada yazan' ailesinin bir uyesi: BUYUK (ad listesi) TEK KAPI degildi, ben onu TEK KAPI sanip olcum yaptim. Iki kapili bir sistemde SADECE BIRINI kontrol etmek, digerini kontrol etmemis olmanin AYNISI degildir -- YANLIS SONUC uretir. Bu hata kendi tarafimdan, uc gun sonraki bir gorevde (C ŞEMA KAPANIŞ) fark edildi ve DUZELTILDI, saklanmadi."
+ },
  "kayitlar": [
   {
    "ad": "Amasya", "tarih": "1555-05-29",

@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "olusturan": "C ŞEMA KAPANIŞ — üçüncü pilot",
+  "tarih": "2026-09-11",
+  "gorev": "Sattularap/II.Erzurum 1847'yi uctan uca kodlamak VE cross-product formulunu EGRI bir dogal hatta sinamak",
+  "onemli_duzeltme": "BU PILOT, BIRINCIL-C-0911.json'daki KENDI ONCEKI SONUCUMU CURUTUYOR. Asagida acikca yaziliyor."
+ },
+
+ "duzeltme_BIRINCIL_C_0911": {
+  "eski_iddia": "BIRINCIL-C-0911.json: 'Sattularap motorun BUYUK setinde TANINMIYOR (Firat/Dicle var, Sattularap yok) -- ince bir su yolu sinirini motor otomatik yaslayamaz' -> C_GEREKLI",
+  "hata": "BU OLCUM EKSIKTI: yalniz `BUYUK` AD LISTESINE bakildi, `arac/uret_petek.py`nin NEHIR filtresinin IKINCI KAPISI (scalerank <= 5.0 esigi) HIC KONTROL EDILMEDI.",
+  "yeni_olcum": "veri-kaynak/ne_10m_rivers.geojson icinde 'Shatt al Arab' adiyla KAYITLI VE scalerank=3.0 (esik 5.0'IN ALTINDA). uret_petek.py:629 kosulu: `if _ad is None and _sr > NEHIR_ONEM_ESIGI: continue` -- yani AD LISTESINDE OLMASA BILE scalerank<=5 olan HER nehir NEHIR_HAT'A (yaslama havuzu) GIRIYOR. Sattularap bu ikinci kapidan ZATEN GECIYOR.",
+  "mesafe_dogrulamasi": {
+   "Basra(47.783,30.508)_Sattularap_min_km": 6.10,
+   "Muhammere(48.1664,30.4392)_Sattularap_min_km": 1.74,
+   "yaslama_yaricapi_nehir_mes_km": 33.3,
+   "sonuc": "IKI YERLESIM DE yaslama yaricapinin COK icinde -- eger Voronoi'de komsu iki farkli-sahipli petek varsa (Basra Osmanli, Muhammere Kacar), `dogal_hatta_yasla()` bu kenari OTOMATIK olarak nehre ceker. C GEREKMIYOR."
+  },
+  "duzeltilmis_damga": "AB_YETER (motor zaten yeterli -- hicbir kod degisikligi bile gerekmez, sadece Basra/Muhammere/Abadan noktalarinin d:/s:/v: donemlerinin DOGRU olmasi yeter -- bu bir VERI dogrulama isi, C'nin degil)",
+  "yan_gozlem_dogrulanmadi": "data/yerlesimler.js'te Muhammere kaydi `s:[{f:\"1812-01-01\",...,d:\"kacar\"}]` gosteriyor -- yani 1812'den beri Kacar. Bu 1847 antlasmasindan 35 yil ONCE. Bu ya (a) mesru bir tarihsel nuans (Muhammere 1812'den beri fiilen Arap seyhligi/Iran nufuzunda, 1847 yalniz HUKUKEN tescil ediyor) ya da (b) veri tutarsizligi OLABILIR -- BU PILOTUN KAPSAMI DISINDA, olculmedi, ayri bir is olarak bildiriliyor (D107)."
+ },
+
+ "①_hat_ve_kapsama": {
+  "gercek_geometri": "veri-kaynak/ne_10m_rivers.geojson 'Shatt al Arab', 66 nokta, (47.4685,30.9685)'ten (48.5318,29.9612)'e KIVRIMLI bir hat, ~163 km duz-hat mesafesi.",
+  "cross_product_egri_hat_testi": {
+   "yontem": "Ayni A/B uc noktalariyla DUZ cizgi cross-product testi kuruldu, sonra NEHRIN GERCEK 66 noktasi bu duz cizgiye karsi test edildi.",
+   "sonuc": {
+    "maksimum_dikey_sapma_km": 11.1,
+    "sapmanin_yeri": "[48.305, 30.313] civari",
+    "duz_cizgiyi_kesme_sayisi": 4,
+    "yorum": "Nehir duz cizgiyi DORT KEZ kesiyor -- yani bazi noktalarda nehrin GUNEYINDE, bazi noktalarda KUZEYINDE. ⇒ ⌐CROSS-PRODUCT FORMULU (2 UC NOKTALI DUZ CIZGI) EGRI/KIVRIMLI DOGAL HATLAR ICIN GUVENILIR DEGIL — 11 km'lik bir seritte YANLIS TARAF atanir. Midye-Enez'de (yapay duz cizgi) bu sorun YOKTU cunku hattin KENDISI zaten duzdu; burada dogal nehir kivrimli oldugu icin formul KIRILIYOR."
+   },
+   "SEMA_C_sonucu": "⇒ Kural: cross-product SADECE hattin GERCEKTEN duz/cetvel oldugu (Midye-Enez gibi) durumlarda güvenlidir. Egri/dogal hatlarda YA (a) hattin GERCEK POLYLINE'i (nehrin veri-kaynak'taki kendi noktalari) segment segment kullanilmali, YA DA (b) -- bu ornekte oldugu gibi -- nehir zaten NEHIR_HAT icindeyse C'YE HIC GEREK YOK, motor kendi geometrisini KULLANIR (motor NE ZATEN GERCEK POLYLINE'i biliyor)."
+  }
+ },
+
+ "②_sonuc": "BU ANTLASMA ICIN C KAYDI YAZILMADI -- cunku GEREKMIYOR. Pilotun kendisi, cross-product'in egri hatlarda kirildigini GOSTERDI (yukarida), ama Sattularap ORNEGINDE bu zaten SORUN DEGIL cunku motor nehri KENDI GERCEK GEOMETRISIYLE zaten taniyor (scalerank kapisi). C'nin gercekten gerekecegi durum ancak 'dogal hat AMA scalerank>5 (kucuk/onemsiz nehir, veri kumesinde COK KABA cizilmis)' olurdu -- bu envanterde OLCULEN uc kayittan hicbiri bu alt-sinifa GIRMIYOR."
+}

@@ -268,23 +268,162 @@ cevaplı değil, sınıfa göre değişiyor.
 
 ---
 
-## 5. AÇIK SORULAR — Emre'ye
+## 4c. ÜÇÜNCÜ PİLOT — ŞATTÜLARAP (C ŞEMA KAPANIŞ, aynı gün) — DESENİ KIRDI
+
+İstenen tam olarak buydu: *"üçüncüsü deseni kırmalı, yoksa tesadüf olabilir."*
+Kırdı — ama beklenmedik yönde: **kendi `BİRİNCİL-C-0911` hükmümü çürüttü.**
+
+Tam kodlama ve düzeltme: `denetim/PILOT-C-SATTULARAP-0911.json`.
+
+**① CROSS-PRODUCT EĞRİ HATLARDA KIRILIYOR — ölçüldü.** `veri-kaynak/
+ne_10m_rivers.geojson`'daki gerçek "Shatt al Arab" geometrisi (66 nokta,
+~163 km) Midye-Enez'in aynı 2-uç-noktalı düz-çizgi testine karşı sınandı:
+gerçek nehir bu düz çizgiyi **4 kez kesiyor**, en fazla **11,1 km** sapıyor.
+⇒ **Cross-product SADECE hattın gerçekten düz/cetvel olduğu (Midye-Enez)
+durumlarda güvenlidir; kıvrımlı doğal hatlarda 11 km'lik bir şeritte YANLIŞ
+TARAF atar.** Eğri hatlar için ya nehrin kendi polyline'ı segment segment
+kullanılmalı, ya da (bu örnekte olduğu gibi) C'ye hiç gerek kalmaz (aşağı bak).
+
+**② 🔴🔴 KENDİ HATAM BULUNDU VE DÜZELTİLDİ.** `BİRİNCİL-C-0911.json`
+Şattülarap için "`BUYUK` setinde tanınmıyor, motor otomatik yaslayamaz" diye
+`C_GEREKLİ` hükmü vermişti — bu **yalnızca ad listesine** bakılarak
+söylenmişti. `arac/uret_petek.py:629`'daki İKİNCİ kapı (Natural Earth
+`scalerank <= 5.0`) hiç kontrol edilmemiş. Ölçüldü: Shatt al Arab
+`scalerank=3.0` — eşiğin altında, yani **ad listesinde olmasa bile
+`NEHIR_HAT` havuzuna zaten giriyor.** Basra (6,1 km) ve Muhammere (1,7 km)
+33,3 km'lik yaslama yarıçapının çok içinde. ⇒ **Motor bu sınırı otomatik
+yaslayabilir — hiçbir kod değişikliği bile gerekmez.** Düzeltilmiş damga:
+`AB_YETER`. `BİRİNCİL-C-0911.json`'a bu düzeltme kendi içinde işlendi
+(orijinal hüküm SİLİNMEDİ, "yanlıştı" diye damgalandı — D049/D107).
+
+📌 Ders (`D043`'ün yeni bir yüzü): **iki kapılı bir süzgeçte yalnız birini
+kontrol etmek, ikisini de kontrol etmemiş olmakla AYNI SONUCU verir —
+ama YANLIŞ bir güvenle.** `BUYUK` "tek kapı" SANILDI, değildi.
+
+**③ SONUÇ: 3. pilot için C kaydı YAZILMADI, çünkü gerekmiyor.** Üç
+pilotun (Karlofça · Midye-Enez · Şattülarap) ortak deseni artık şu:
+```
+Karlofça     yer devri (②) — C'nin işi değil, A/B'nin işi
+Midye-Enez   yapay düz çizgi (①), doğal unsura HİÇ dayanmıyor — C GEREKLİ
+Şattülarap   doğal eğri hat (①), AMA motor onu ZATEN TANIYOR — C GEREKMİYOR
+```
+⇒ **C yalnız "doğal unsura dayanmayan, yapay/cetvel sınır" durumunda kesin
+gereklidir.** Doğal bir hat (nehir/dağ) söz konusu olduğunda önce "motor bu
+hattı zaten biliyor mu" (ad listesi VE scalerank, ikisi de) sorulmalı —
+çoğu zaman cevap evet çıkıyor ve C'ye hiç gerek kalmıyor.
+
+---
+
+## 6. ŞEMA KESİNLEŞTİRME
+
+### 6.1 Kayıt cinsleri — üç pilotun ayırdığı
 
 ```
-① C, yalnız "nokta YOK ve hat da doğal hatta uymuyor" durumunda mı
-   gerekli, yoksa "TDV/antlaşma bir hat tarif ediyorsa" HER ZAMAN mı C
-   yazılsın (nokta yeterli olsa bile)? Öneri: BİRİNCİSİ — ikincisi C'yi
-   A/B'nin yerine geçirir, üstüne eklemez.
-② `kapsama` alanı kim çizecek — elle mi (bbox/poligon), yoksa `taraf_a`/
-   `taraf_b`'nin O ANKİ petek kümesinden OTOMATİK mi türetilecek? Otomatik
-   olursa C'nin "elle yazılan tek coğrafî kaynak" (`yerlesimler.js`)
-   ilkesine yeni bir istisna açılır (`§8`).
-③ Bir HAT sonraki bir antlaşmayla değişince (`t:` kapanınca) o bölgedeki
-   Voronoi NASIL geri devreye girer — kapsama alanı da mı kapanır, yoksa
-   yeni bir C kaydı mı üstüne biner? Öneri: yeni kayıt üstüne biner
-   (mevcut A/B'nin dönem-üstüne-dönem deseniyle TUTARLI).
-④ `hukuki_sinirlar.js` yeni bir dosya mı, yoksa mevcut `savaslar.js`
-   içine mi (zaten antlaşma künyesi orada) eklenir? Öneri: AYRI dosya —
-   `savaslar.js` bugün coğrafî geometri taşımıyor, `§7` ad alanı kuralı
-   (D175) yeni bir sorumluluğun yeni bir dosyada durmasını öğütlüyor.
+① HAT              antlaşma bir çizgi/hat tarif ediyor (nehir/dağ/cetvel)
+   ①a doğal, motor TANIYOR (ad listesi ∪ scalerank≤5)   → C GEREKMEZ, A/B yeter
+   ①b doğal, motor TANIMIYOR (küçük/kaba çizilmiş nehir) → C gerekebilir
+       (bu envanterde HİÇ örneği çıkmadı — üç aday da ya ②'ydi ya ①a ya
+       tamamen yapay; ①b hâlâ TEORİK, ölçülmüş bir örneği yok)
+   ①c yapay/cetvel (düz çizgi, hiçbir doğal unsura dayanmaz) → C KESİN GEREKLİ
+② NOKTA-ATAMASI    antlaşma bir YERİ bir tarafa veriyor, çizgi tarif etmiyor
+   → C'nin işi DEĞİL, mevcut A/B (nokta varsa d:/s:/v: dönemi eklemek) yeter;
+     nokta yoksa çare YENİ NOKTA EKLEMEK (§2 işi), C DEĞİL
+```
+110 tekil antlaşmanın (`ENVANTER-C-II-0911`) dar-NET_SINIR 16 kaydından
+**yalnız 2'si ①c sınıfına düşüyor: Kasr-ı Şirin (geniş bölge/Zagros,
+kesin çizgisiz) ve Midye-Enez (yapay düz çizgi).** Şattülarap ①a'ya
+düzeltildi. Diğer 13'ü ya ② ya da zaten `A/B_YETER` idi.
+
+### 6.2 Zorunlu alanlar (`window.HUKUKI_SINIRLAR`, `§7` ad alanı kuralı:
+dosya adındaki ayırt edici parça — `hukuki_sinirlar` — değişken adında da)
+
+```js
+// data/hukuki_sinirlar.js  →  window.HUKUKI_SINIRLAR
+{
+  id: "midye-enez-1913",             // benzersiz
+  antlasma: "midye-enez-1913",       // savaslar.js/ANTLASMALAR künyesine bağ (varsa)
+  f: "1913-05-30", t: "1913-06-29",  // A/B'nin d:/s:/v: deseniyle AYNI biçim
+  taraf_a: "balkan-devletleri", taraf_b: "osmanli",
+  hat: [{ tur:"duz_cizgi"|"nehir"|"dag", ad:"...",
+          baslangic:{ad,lat,lon,kaynak,dogrulanmadi:bool},
+          bitis:{ad,lat,lon,kaynak,dogrulanmadi:bool} }],
+  kapsama: { tur:"bbox", kutu:{lat_min,lat_max,lon_min,lon_max},
+             yon_kurali: "cross>0 -> taraf_a, cross<0 -> taraf_b" },  // ZORUNLU, §2.3
+  kaynak: "antlaşma metninin kendisi/neşri — birincil"
+}
+```
+`dogrulanmadi:true` bir uç için koordinat kaynağı zayıfsa/bulunamadıysa
+kullanılır (D107 — "bulunamadı" bir SONUÇTUR, uydurmaktan iyidir).
+
+### 6.3 Motor entegrasyon noktası — TASARLANDI, UYGULANMADI
+
+`arac/uret_petek.py`'nin gün-bazlı üretim döngüsünde önerilen sıra:
+```
+1) Voronoi hücreleri hesaplanır (mevcut)
+2) dogal_hatta_yasla() ile doğal hatlara çekilir (mevcut)
+3) 🆕 O GÜN aktif (f<=g<t) bir HUKUKI_SINIRLAR kaydı varsa: kaydın
+   `kapsama` kutusu içindeki hücre/kenarlar, Voronoi/yaslama SONUCU
+   GÖRMEZDEN GELİNEREK `yon_kurali`ye göre taraf_a/taraf_b'ye
+   YENİDEN atanır (bir tür son-aşama override, boya/BOYALAR
+   adımından ÖNCE).
+```
+⚠️ Bu sıra **tasarım önerisidir, `arac/`e dokunularak SINANMADI** —
+görev şartı `data/` VE (dolaylı olarak) `arac/` donuktu. Gerçek entegrasyon
+ayrı bir motor oturumunun işi (D107: öneri ≠ ölçüm).
+
+---
+
+## 5. AÇIK SORULAR — Emre'ye (TEK YERDE toplandı, üç pilot sonrası)
+
+```
+① C hangi durumda gerekli? ÖNERİ (üç pilotla GÜÇLENDİ): yalnız ①c —
+   "doğal unsura HİÇ dayanmayan, yapay/cetvel sınır" durumunda. Doğal
+   hat (①a/①b) varsa önce motorun onu TANIYIP TANIMADIĞI (ad listesi
+   VE scalerank) ölçülmeli — Şattülarap'ta ölçülmeden C'ye gidilmiş
+   olsaydı BOŞ YERE bir kayıt yazılırdı.
+② `kapsama` alanı elle mi otomatik mi? ÖNERİ: ELLE, ama artık bir
+   YÖNTEMLE — cross-product formülü (bu oturumda verildi, iki test
+   noktasıyla doğrulandı) düz çizgiler için ELLE hesaplanabilir bir
+   kural sağlıyor. Otomatik türetme (taraf_a/b'nin o anki petek
+   kümesinden) hâlâ ayrı bir risk taşıyor (§8 istisnası).
+③ C kaydı nasıl "ölür"? ÇÖZÜLDÜ (Midye-Enez pilotu): `f:`/`t:` standart
+   deseni yeter, ayrı "geçersiz" beyanına gerek yok; `t:` dolduğunda
+   ardıl kayıt yoksa bölge otomatik A/B'ye döner.
+④ Dosya: `hukuki_sinirlar.js` mi, `savaslar.js` içine mi? ÖNERİ: AYRI
+   dosya (`§7`/D175 — yeni sorumluluk yeni dosyada durur).
+⑤ 🆕 Karlofça'nın Bosna kale listesi (Kostayniça, Bihke/Bihać, Novi,
+   Krupa, Brod — SEMA-C §3.3) hâlâ `yerlesimler.js`'te YOK. Bunlar C'nin
+   değil §2'nin (yeni nokta ekleme) işi — ama BEKLEMEDE, kimse
+   üstlenmedi. Emre'ye: bu 5 nokta ayrı bir NOKTA EKLEME görevine mi
+   dönüşsün?
+⑥ 🆕 EN ÖNEMLİSİ — C'YE DEĞER Mİ? Bkz. §7 aşağıda, ayrı ve dürüst bir
+   bölüm olarak.
+```
+
+---
+
+## 7. DÜRÜST TAHMİN — C'YE DEĞER Mİ?
+
+```
+110 tekil antlaşmanın (ENVANTER-C-II) dar-NET_SINIR kümesi: 16
+Bunların BİRİNCİL METİNLE kesinleşen C_GEREKLİ sayısı:      2
+  (Kasr-ı Şirin 1639 · Midye-Enez 1913 — Şattülarap DÜZELTİLDİ, çıktı)
+```
+**Cevap: iki antlaşma için ayrı bir şema+motor katmanı yazmaya BUGÜN
+değmez.** Gerekçe:
+- Maliyet: yeni dosya (`hukuki_sinirlar.js`) + yeni ad alanı + motora yeni
+  bir üçüncü-aşama override adımı (§6.3, sınanmamış, gerçek risk taşıyor —
+  Voronoi/yaslama SONUCUNU ezen bir mekanizma, `§2`'nin zayıf noktasına
+  YENİ bir dokunma yüzeyi açar).
+- Fayda: 2 kayıt. Kasr-ı Şirin zaten "geniş bölge, kesin çizgisiz" — C ile
+  bile MÜKEMMEL çözülemez (§4 SONUÇ, hâlâ geçerli: kapsama→poligon
+  dönüşümü tasarlanmadı). Midye-Enez tek başına GERÇEKTEN net bir C adayı.
+- ⇒ **Öneri (kararı Emre verir): C'yi ŞİMDİ bir motor katmanı olarak
+  YAZMA. Bunun yerine Midye-Enez (ve gerekirse Kasr-ı Şirin) için, o
+  bölgenin/döneminin d: dönemini ELLE, kabaca bugünkü A/B şemasıyla
+  (mümkün olan en yakın yaklaşıklıkla) kodla — 2 kayıt için özel bir
+  şema fazlalık.** C şeması (bu üç pilotun ürettiği bilgi) BELGELENMİŞ
+  DURUYOR (`SEMA-C-0911.md`, üç `PILOT-C-*.json`) — envanter büyür de
+  ①c sınıfı 10-15 kayda çıkarsa, o zaman motor katmanı yeniden gündeme
+  gelebilir. Bugün için maliyet/fayda dengesi KATMANA KARŞI.
 ```
