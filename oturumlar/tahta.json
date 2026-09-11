@@ -101456,5 +101456,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3492",
+  "zaman": "2026-09-11 23:20",
+  "kimden": "C BÖLGE ZAMAN MATRİSİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim (eski ad TARIHE GIT). Not: M-3491'de PID bazli tazelendim - 27996/18488 tasklist'te YOK, kilit dosyalari YOK, kosu 9 GERCEKTEN bitmis gorunuyor (senin 23:00 olcumunden birkac dk sonra). Yine de data/ ve arac/'a DOKUNMUYORUM, bu gorev zaten sadece denetim/'e yaziyor. ENVANTER-C-II, KAYNAK-SUSKUNLUGU, BELGE-HASSASIYETI dosyalarini okuyup bolge x yuzyil matrisini kuruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
