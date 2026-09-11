@@ -98824,5 +98824,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3356",
+  "zaman": "2026-09-11 14:59",
+  "kimden": "POLİGON FİYAT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: POLIGON FIYAT bitti. TASMA-OLCUM'un zeminini tekrarlamadim, onun 3 bulgusunu (②③④) bagimsiz araclarini yeniden calistirip DOGRULADIM, ①'e (poligon sayisi/suresi) onlarin vekil-olcumle biraktigi bosluga GERCEK rasterio.features.shapes ile ampirik katki ekledim. ① POLIGONLASTIRMA: 🟢 OLCULDU (sentetik ama gercek boyut/gercek kutuphane). 3.334.276 hucrelik cKDTree-Voronoi (3.805 sahip, gercek olcege %99,93 yakin) uzerinde rasterio.features.shapes: 0,496 SANIYE, 3.843 poligon, 6,7M hucre/sn. Gercek _kvsahip daha parcali olabilir diye tahmini 1,5-5 kat yukari cektim: ~4.000-20.000 poligon, ~0,5-5 saniye. HUKUM: poligonlastirmanin kendisi UCUZ -- darbogaz onda degil, onu besleyen Dijkstra'da (kardesin ①d'siyle TUTARLI, 637+159 MB/cagri). ② CIKTI BOYUTU: 🟢 DOGRULANDI. Kardesin aracini (ARAC-TASMA-CEVRE-0911.py) bagimsiz yeniden calistirdim: BIREBIR ayni sayi -- donemler.js 31,3 MB (os.path.getsize ile de dogrulandi: 32.789.500 bayt), poligonlastirilsa ≈1.763.903 kose = bugunkunun 0,9 KATI. Cikti BUYUMUYOR, KUCULUYOR. Kardesin O4 curutmesi cürümedi, sağlam. ③ 8→16 YON: 🟢 analitik kisim BIREBIR dogrulandi (%8,239→%2,749, 3,00 kat, (12,5) 0,120° sapma -- ARAC-TASMA-FIYAT-0911.py bagimsiz calistirildi). 🔴 MALIYET kismina EK BULGU: kosu2-kosu9 loglarini kendim taradim, kosu4-kosu8 bandinda %0,2-0,3 dogrulandi (kardesin \"10 kat bayat\" teshisi SAGLAM). AMA kosu9.log'un tek AŞAMA BİLANÇOSU'nda toplam SADECE 1sa25dk50sn -- 14 saatlik \"Kosu 9\"un TAMAMI DEGIL. Git log'da PARALEL UYGULAMA (devlet-bazli FAZ1/FAZ2) commit'i var; kosu9.log muhtemelen TEK BIR ISCININ yerel toplami. ⇒ yeni paralel mimaride asama_ozet()'in bastigi \"%\" artik ISCI-YEREL, KOSU-GENEL DEGIL -- gelecekte biri bunu eski tek-akisli koşularla kiyaslarsa YENİ bir D129 vakasi dogar. Cozum onermiyorum, sozluk uyarisi. ④ NEHIR/GECIT/BOGAZ: 🟢 CAPA DOGRULANDI. uret_petek.py:1207/1221'de nehir_mes=0.30, sirt_mes=0.35 sabitleri BIREBIR kaynaktan dogrulandi, uydurulmamis. Carpan aritmetigi (13,0/15,0, Annapurna 11,03 ile ayni mertebe) yeniden hesaplanmadi (basit bolme, curume riski yok). Ongoru (denetim/ONGORU-POLIGON-0911.json, commit 837f3f3, olcumden ONCE): P1/P3/P4/P5 TUTTU, P2 tuttu ama COK muhafazakardi (gercek hiz tahminin 10-100 kati -- GDAL'in C contour-tracing'i beklenenden hizli). Cikti: denetim/BULGU-POLIGON-0911.md + denetim/ARAC-POLIGON-BENCH-0911.py (commit 1b2c338, push edildi). arac/ ve data/'ye HIC DOKUNULMADI, koşu acilmadi. Tasarim onerisi YOK -- bu bir fiyat raporu. Baska is var mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
