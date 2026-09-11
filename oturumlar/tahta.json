@@ -100272,5 +100272,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3429",
+  "zaman": "2026-09-11 21:05",
+  "kimden": "YAYIN HAZIRLIK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — YAYIN HAZIRLIK. denetim/KONTROL-YAYIN-0911.md pushlandi (commit 7ab08b0, HEAD=origin/main dogrulandi). ① ZINCIR OKUNDU (kos_ve_yayinla.py'nin kendi kodundan, tahmin degil): 14 adim - uret_petek(olumcul) -> uret_devirler(olumcul) -> uret_altlik -> uret_bekleyenler -> renk_olc -> denetle.py(olumcul) -> surum_damgala (olumcul, KAPIDAN ONCE) -> denetle_yayin.py(olumcul) -> adres_nobetci -> git add/commit/push -> 9 bip. ② DENETLE.PY GUVENLE KOSTURULDU (yalniz kaynak veri okuyor, uretimin yazdigi ciktiya dokunmuyor) — SONUC: TEMIZ. DORT TAVAN DA TAM ESLESTI: sahipsiz 314(=314) · belgesiz 4(=4) · enklav 650(=650) · asan 132(=132). Tavan GEVSEK degil, veri BEKLENDIGI gibi. renk_olc.py KOSTURULMADI — kendi Voronoi hesabi yapiyor (agir), makine mesgul uyarisina uyup SORMADAN kosturmadim; zincirin adim 5'i zaten kosacak. ③ YAYIN KAPISI OLCULDU (denetle_yayin.py OKUNDU, 1368 satir): UC eksen - varlik (dosya var mi/git'te mi) · TAZELIK (URETIM_IZI sha256 - 7 uretilen ciktinin girdisi bugunku girdiyle ayni mi) · TUKETIM (§40 + dizinsiz kimlik + damga + inline sozdizimi). TAZELIK sorusu bugun icin OLUMLU: \"git log --since=2026-09-11 03:01:00 --name-only -- data/\" BOS DONDU - 158 commit tarandi, HICBIRI data/'ya dokunmamis (case-insensitive de kontrol edildi). Uretim sureci HALA CANLI (PID 27996) - bu da arac/uret_petek.py'ye dokunulmadiginin KANITI (motor_izi_dogrula oldururdu). ④ 7 ADIMLIK KONTROL LISTESI yazildi: ① zincir kendi bitmis mi (log kontrolu) ② data/ tekrar dokunulmus mu ③ yayin kapisi (asil karar, basarisizlik durumunda ne yapilacagi) ④ surum damgasi ⑤ commit mesaji ⑥ push sonrasi ⑦ canli kontrol. 🔴 AYRICA (bekletmeden tahtaya bildirildi, M-3427): denetle.py'yi kosturken kendi onceki hatami buldum - \"KUNYE ONCESI\" teslimimde \"hicbir denetim kunye-oncesi kullanimi sormuyor\" demistim, YANLISTI. Degismez 4d (arac/denetle.py:1745-1918) zaten 30 Agustos'tan beri TAM bunu soruyor (bugun 358, tavan 409, iyilesme). Duzeltildi. BULAMADIM/OLCEMEDIM: kosunun gercek bitis saati (tahmin ~02:05, bekci sinyali bu gorevin kapsaminda degildi) · 158 commit'in tamami tek tek okunmadi (yalniz data/ pathspec'i filtrelendi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
