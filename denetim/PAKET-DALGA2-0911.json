@@ -1,0 +1,65 @@
+{
+  "oturum": "DALGA 2 KAPANIŞ",
+  "tarih": "2026-09-11",
+  "amac": "denetim/HAZIRLIK-DALGA2-0911.json (KRONOLOJİ DALGA 2) + denetim/TEYIT-DALGA2-0911.json (DALGA 2 TEYİT) TEK tutarlı pakete getirildi. Koşu bitince TEK sevkle inecek. data/*.js'ye TEK SATIR YAZILMADI.",
+  "toplam_aday": 22,
+  "ozet": { "yazilabilir_gun_dahil": 18, "yazilabilir_duzeltmeyle": 1, "yazilabilir_kaynak_notuyla_supheli": 3, "bos_kalir": 1 },
+
+  "① HAWAII 1887 BAYONET CONSTITUTION — KAPANDI, KENDİ ÇÜRÜTMEM DÜZELTİLDİ": {
+    "onceki_hukum_DALGA2_TEYIT": "🔴 ÇÜRÜDÜ sanılmıştı (hawaiiankingdom.org 5 Temmuz diyordu, aday 6 Temmuz)",
+    "yeni_bulgu": "UH Law School'un işaret ettiği BİRİNCİL KAYNAK METNİNE (Wikisource'daki 1887 Anayasası'nın TAM METNİ) dönüldü. Belgenin KENDİ dateline'ı: 'SIGNED BY HIS MAJESTY KALAKAUA, JULY 6, AND PROMULGATED JULY 7, 1887.' Ve sonundaki yemin kaydı: 'Subscribed and sworn to before me this sixth day of July, A. D., 1887.' Ayrıca University of Hawaiʻi Mānoa'nın kendi tarih takvimi sayfası da günü '6 Temmuz' başlığıyla anıyor (Punawaiola, 'Iulai 6').",
+      "hukum_DUZELTILDI": "🟢 TEYİT EDİLDİ — aday DOĞRUYMUŞ. Bir önceki turda hawaiiankingdom.org'un (ikincil bir anlatı-blog) '5 Temmuz'unu, belgenin KENDİ metninden daha güvenilir saymışım — bu YANLIŞ bir kaynak hiyerarşisiydi. Birincil kaynak (anayasanın kendi dateline'ı) her zaman ikincil bir anlatıdan ÜSTÜNDÜR. Kendi önceki hükmümü çürütüyorum.",
+    "kaynak": "1887 Constitution of the Kingdom of Hawaii, Wikisource (belgenin transkripsiyonu, dateline ve yemin kaydı dahil) + Punawaiola/UH Mānoa 'Iulai 6' sayfası",
+    "yazma_turu": "1887-07-06 AYNEN YAZILABİLİR, gün DOĞRU."
+  },
+
+  "② AFGAN-DÜRRÂNÎ — DÜZELTİLDİ": {
+    "karar": "Madde metni CÜLÛSU anlatıyor (özne: Zaman Şah'ın şah olması; olayın anlamı/başlığı: 'hânedanın parçalanma sürecinin fiilen başlangıcı' — bu, Zaman Şah'ın tahta çıkışının kendisidir, Timur Şah'ın ölümü yalnızca TETİKLEYİCİ BAĞLAM olarak anılıyor).",
+    "sonuc": "🔴→✅ tarih 1793-05-18 → 1793-05-20 OLARAK DÜZELTİLDİ. Metin DEĞİŞMEDİ (zaten '20 Mayıs' diyordu), yalnız t_oneri alanı metinle hizalandı.",
+    "not_D024": "Bu, koordinatörün öngördüğü İKİ TERS DÜZELTMEDEN yalnız BİRİ uygulandı — metin cülûsu anlattığı için 'metin yanlış, tarih doğru' seçeneği (Timur Şah'ın ölümü olarak yeniden çerçeveleme) burada GEÇERSİZ. İkisini karıştırmadım.",
+    "kaynak": "Wikipedia 'Zaman Shah Durrani' (reign start 20 May 1793) + orijinal madde metninin kendisi"
+  },
+
+  "③ ÜÇ BULUNAMAYAN — SON TUR SONUCU": {
+    "kazan_1521": {
+      "durum": "⚪ HÂLÂ BULUNAMADI, ama akademik kaynak İSİMLERİ bu turda bulundu: Erman Şan, 'Moskova Rusyası ile Kazan Hanlığı İlişkileri (Şah Ali Döneminde: 1516-1552)' (academia.edu) ve Bakhtin/Khamidullin, 'Political history of the Kazan Khanate' (İçinde: 'The History of the Tatars since Ancient Times', c. 4, Kazan 2017). İKİSİ DE academia.edu 403 ile ERİŞİLEMEDİ.",
+      "damga": "D107 — okumadım (belge var, gövdesi okunamadı), bulunamadı DEĞİL."
+    },
+    "mogulistan_1462": {
+      "durum": "⚪ HÂLÂ BULUNAMADI SAYFA DÜZEYİNDE, ama TAM konuyu kapsayan iki standart akademik eser adı doğrulandı: Kim Hodong, 'The Early History of the Moghul Nomads: The Legacy of the Chaghatai Khanate' ve René Grousset, 'The Empire of the Steppes' (Rutgers UP, 1970). Sayfa/pasaj düzeyinde ERİŞİLEMEDİ.",
+      "damga": "D107 — okumadım (eserin VARLIĞI ve konu uyumu doğrulandı, içeriği okunamadı)."
+    },
+    "buhara_1922_07_07": {
+      "durum": "İKİNCİ ÇIKARICI DENENDİ (D107 ⑦): ResearchGate 403 → academia.edu benzeri 403 → media.neliti.com PDF 302/403 → İLERİ GİDİLDİ, asıl açık-erişim dergi sayfası (ijppr.umsida.ac.id) BAŞARIYLA OKUNDU (Rafikov Kudratilla Mirsagatovich, 'Fayzulla Khodjayev - National and Political Leader of the Uzbek People', Indonesian Journal of Public Policy Review, 2022). AMA bu makale 1924-1937 dönemini anlatıyor, 1922 suikast girişimine DEĞİNMİYOR.",
+      "damga": "⚪ Artık GERÇEKTEN bulunamadı (okumadım değil) — akademik kaynak okundu, konuyu KAPSAMIYOR."
+    },
+    "genel_hukum": "Üçü de YAZMA TURUNDA yazılabilir, ŞARTLA: `kaynak:` alanına Wikipedia-çapraz olduğu VE akademik kaynağın (varsa) erişilemediği AÇIKÇA yazılır — gizlenmez (`§4`)."
+  },
+
+  "④ TAM PAKET — 22 adayın tamamı, damgasıyla": [
+    {"kunye": "hawaii-kralligi", "t": "1819-11-01", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "Punahou School + UH Mānoa ders notu (kurumsal)"},
+    {"kunye": "hawaii-kralligi", "t": "1840-10-08", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "UH Law School Archival Collections — BİRİNCİL KAYNAK NEŞRİ"},
+    {"kunye": "hawaii-kralligi", "t": "1887-07-06", "damga": "🟢 (DÜZELTİLEREK teyit — bkz. ①)", "yazma_turu": "YAZILABİLİR", "kaynak": "1887 Anayasası'nın kendi metni (Wikisource) — BİRİNCİL KAYNAK"},
+    {"kunye": "hawaii-kralligi", "t": "1894-07-04", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "US State Dept FRUS 1894 + Britannica"},
+    {"kunye": "tonga-kralligi", "t": "1893-02-18", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "Britannica + Find a Grave"},
+    {"kunye": "tonga-kralligi", "t": "1918-04-05", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "Wood-Ellem, 'Queen Sālote of Tonga' (Auckland University Press, 1999)"},
+    {"kunye": "yeni-zelanda", "t": "1893-09-19", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "nzhistory.govt.nz (resmî)"},
+    {"kunye": "yeni-zelanda", "t": "1901-06-11", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "teara.govt.nz (resmî)"},
+    {"kunye": "kasim", "t": "1468-01-01", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "TDV kasim-hanligi (birincil, CANLI)"},
+    {"kunye": "kasim", "t": "1573-01-01", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "TDV kasim-hanligi"},
+    {"kunye": "kasim", "t": "1609-01-01", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "TDV kasim-hanligi"},
+    {"kunye": "kazan", "t": "1521-01-01", "damga": "⚪ (okumadım — bkz. ③)", "yazma_turu": "YAZILABİLİR (kaynak notu şeffaf yazılarak)", "kaynak": "Wikipedia çapraz (Sahib I Giray + Shah-Ali) — akademik kaynak (Erman Şan; Bakhtin/Khamidullin) bulundu, erişilemedi"},
+    {"kunye": "tannu-tuva", "t": "1921-08-14", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "nit.tuva.asia (hakemli akademik dergi)"},
+    {"kunye": "tannu-tuva", "t": "1922-03-03", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "nit.tuva.asia"},
+    {"kunye": "tannu-tuva", "t": "1923-10-12", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "nit.tuva.asia"},
+    {"kunye": "mogulistan", "t": "1462-01-01", "damga": "⚪ (okumadım — bkz. ③)", "yazma_turu": "YAZILABİLİR (kaynak notu şeffaf yazılarak)", "kaynak": "Wikipedia çapraz (Moghulistan + Esen Buqa II) — akademik kaynak (Kim Hodong; Grousset) bulundu, erişilemedi"},
+    {"kunye": "afgan-durrani", "t": "1793-05-20", "damga": "🔴→✅ DÜZELTİLDİ (eski: 1793-05-18)", "yazma_turu": "YAZILABİLİR (düzeltilmiş tarihle)", "kaynak": "Wikipedia 'Zaman Shah Durrani' — reign start 20 May 1793"},
+    {"kunye": "harezm-halk-cumhuriyeti", "t": "1920-04-26", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "TDV harizm (birincil, CANLI)"},
+    {"kunye": "harezm-halk-cumhuriyeti", "t": "1921-09-05", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "TDV harizm"},
+    {"kunye": "buhara-halk-cumhuriyeti", "t": "1920-10-08", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "soviethistory.msu.edu (MSU) + Wikipedia çapraz"},
+    {"kunye": "buhara-halk-cumhuriyeti", "t": "1921-09-01", "damga": "🟢", "yazma_turu": "YAZILABİLİR", "kaynak": "soviethistory.msu.edu (MSU) + Wikipedia çapraz"},
+    {"kunye": "buhara-halk-cumhuriyeti", "t": "1922-07-07", "damga": "⚪ (bulunamadı — bkz. ③, ikinci çıkarıcı denendi ve okundu ama konuyu kapsamıyor)", "yazma_turu": "YAZILABİLİR (kaynak notu şeffaf yazılarak)", "kaynak": "Wikipedia 'Enver Pasha's campaign in Bukhara' — akademik kaynak (Rafikov 2022) okundu, bu olayı İÇERMİYOR"}
+  ],
+
+  "tui_tonga_imparatorlugu": "BOŞ KALIR — künyeye madde YAZILMAZ (her iki oturumun da kararı, iki kez doğrulandı)."
+}
