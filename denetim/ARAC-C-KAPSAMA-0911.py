@@ -146,45 +146,91 @@ print("(Not: nehrin KENDİ noktalarında YEREL yöntemin işareti HER ZAMAN sabi
       "olmalı ki — her nokta kendi segmentine 0 mesafede, cross değeri o "
       "segmentin YÖNÜNE göre hep aynı taraf. Bu bir SAĞLAMLIK testidir.)")
 
-# ---------------- SINIR ARAMA — meander/kıvrım noktasında iki segment eşit mi ----------------
+# ---------------- SINIR ARAMA — meander/kıvrım noktasında UZAK bir segment YAKIN mı ----------------
 print()
 print("=" * 70)
-print("② SINIR ARAMA — belirsizlik şeridi (iki segment birbirine yakın mesafede mi)")
+print("② SINIR ARAMA — 'yanlış segment' riski: en yakın 2. aday UZAK bir")
+print("   parçaysa (ADJACENT değil) ve mesafece YAKINSA, taraf HANGİSİNE göre?")
 print("=" * 70)
-# nehrin en KIVRIMLI bölgesinde (66 nokta üzerinde), ORTA NOKTALARDAN
-# BİRKAÇINI test noktası olarak kullanıp en yakın İKİ segmentin mesafe
-# farkını ölç — fark küçükse (belirsizlik şeridi) işaretle.
 import random
 rnd = random.Random(20260911)
-belirsiz_sayisi = 0
-ORNEK = 200
+ADAY_SAYISI = 0
+UZAK_YAKIN_ADAY = 0
+ORNEK = 400
+OFSET_KM = 3.0   # nehrin 3 km yanında bir test noktası (gerçek yerleşim gibi)
 for _ in range(ORNEK):
     i = rnd.randint(0, len(coords) - 2)
     t = rnd.random()
-    lon = coords[i][0] + t * (coords[i + 1][0] - coords[i][0])
-    lat = coords[i][1] + t * (coords[i + 1][1] - coords[i][1])
-    # küçük bir dik ofsetle "nehrin yanında" bir test noktası üret
-    P = to_xy(lon, lat, LAT0)
-    # en yakın İKİ segmentin mesafesini bul
+    A_ll, B_ll = coords[i], coords[i + 1]
+    lon = A_ll[0] + t * (B_ll[0] - A_ll[0])
+    lat = A_ll[1] + t * (B_ll[1] - A_ll[1])
+    # segmentin dik yönünde OFSET_KM kaydır (gerçek bir "yerleşim" gibi)
+    Ax, Ay = to_xy(A_ll[0], A_ll[1], LAT0)
+    Bx, By = to_xy(B_ll[0], B_ll[1], LAT0)
+    dx, dy = Bx - Ax, By - Ay
+    norm = math.hypot(dx, dy) or 1e-9
+    px, py = -dy / norm, dx / norm  # birim dik
+    Px = Ax + t * dx + px * OFSET_KM
+    Py = Ay + t * dy + py * OFSET_KM
+    P = (Px, Py)
     mesafeler = []
     for j in range(len(POLY) - 1):
-        A, B = POLY[j], POLY[j + 1]
-        ABx, ABy = B[0] - A[0], B[1] - A[1]
+        Aj, Bj = POLY[j], POLY[j + 1]
+        ABx, ABy = Bj[0] - Aj[0], Bj[1] - Aj[1]
         L2 = ABx * ABx + ABy * ABy
         if L2 < 1e-9:
             continue
-        tt = max(0.0, min(1.0, ((P[0] - A[0]) * ABx + (P[1] - A[1]) * ABy) / L2))
-        qx, qy = A[0] + tt * ABx, A[1] + tt * ABy
+        tt = max(0.0, min(1.0, ((P[0] - Aj[0]) * ABx + (P[1] - Aj[1]) * ABy) / L2))
+        qx, qy = Aj[0] + tt * ABx, Aj[1] + tt * ABy
         d = math.hypot(P[0] - qx, P[1] - qy)
         mesafeler.append((d, j))
     mesafeler.sort()
-    if len(mesafeler) >= 2 and mesafeler[0][0] > 0.05:  # 50 m'den uzaksa anlamlı
-        fark_oran = (mesafeler[1][0] - mesafeler[0][0]) / mesafeler[0][0]
-        if fark_oran < 0.05:  # en yakın iki segment %5'ten az farklı
-            belirsiz_sayisi += 1
+    en_yakin_d, en_yakin_j = mesafeler[0]
+    # ADJACENT-OLMAYAN (arc-uzunluğunda en az 5 indeks uzak) bir aday,
+    # en yakının %20 farkı içindeyse -> GERÇEK bir "yanlış segment" riski
+    riskli_ornekler_bu_nokta = None
+    for d, j in mesafeler[1:]:
+        if abs(j - en_yakin_j) < 5:
+            continue  # komşu segment, önemsiz
+        ADAY_SAYISI += 1
+        if d < en_yakin_d * 1.20:
+            UZAK_YAKIN_ADAY += 1
+            riskli_ornekler_bu_nokta = (lon, lat, en_yakin_j, j, en_yakin_d, d)
+        break  # yalnız en yakın UZAK adayı say
+    if riskli_ornekler_bu_nokta and UZAK_YAKIN_ADAY <= 10:
+        print("  RİSKLİ ÖRNEK: (%.3f,%.3f) en_yakin_segment=%d (%.2f km) vs "
+              "UZAK_rakip_segment=%d (%.2f km)" % riskli_ornekler_bu_nokta)
 
-print("%d örnekten %d tanesi 'en yakın İKİ segment mesafece %%5'ten az farklı' "
-      "(belirsizlik adayı): %.1f%%" % (ORNEK, belirsiz_sayisi, 100.0 * belirsiz_sayisi / ORNEK))
+print("%d test noktasının %d'inde (arc-uzak) bir rakip segment vardı; "
+      "bunların %d'i (%%%.1f) en yakına ÇOK YAKIN (< %%20 fark) — "
+      "bu GERÇEK bir 'yanlış segment' riski taşıyan alt-küme."
+      % (ORNEK, ADAY_SAYISI, UZAK_YAKIN_ADAY,
+         (100.0 * UZAK_YAKIN_ADAY / ADAY_SAYISI) if ADAY_SAYISI else 0.0))
+
+# ---------------- ③ UZUN/DÜZ HAT SINAVI — Sykes-Picot tipi ----------------
+print()
+print("=" * 70)
+print("③ UZUN/DÜZ HAT SINAVI — Sykes-Picot tipi (Akka-Kerkük, 2 nokta, ~950 km)")
+print("=" * 70)
+AKKA = (35.0818, 32.9281)
+KERKUK = (44.3922, 35.4681)
+SP_LAT0 = (AKKA[1] + KERKUK[1]) / 2.0
+SP_POLY = [to_xy(AKKA[0], AKKA[1], SP_LAT0), to_xy(KERKUK[0], KERKUK[1], SP_LAT0)]
+# test noktaları: hattın YAKININDA birkaç şehir (Şam, Musul, Bağdat)
+SP_TEST = [
+    ("Şam (Damascus)", 36.2765, 33.5138),
+    ("Musul (Mosul)", 43.1189, 36.3350),
+    ("Bağdat (Baghdad)", 44.3661, 33.3152),
+]
+for ad, lon, lat in SP_TEST:
+    gC = global_cross((lon, lat), AKKA, KERKUK, SP_LAT0)
+    lC, mesafe_km, idx = nearest_segment_local_cross((lon, lat), SP_POLY, SP_LAT0)
+    print("%-20s global_cross=%14.1f  yerel_cross=%14.1f  (aynı işaret mi: %s)"
+          % (ad, gC, lC, "EVET" if (gC > 0) == (lC > 0) else "HAYIR"))
+print("  (Beklenen: TEK segmentli bir hatta yerel = global, çünkü 'en yakın "
+      "segment' HER ZAMAN tek segmentin kendisi — fark YALNIZ segment SAYISI "
+      "arttığında, yani hat KIRILDIĞINDA ortaya çıkar, UZUNLUK tek başına "
+      "sorun DEĞİL.)")
 
 print()
 print("BİTTİ.")
