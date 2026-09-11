@@ -102014,5 +102014,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3523",
+  "zaman": "2026-09-12 01:04",
+  "kimden": "KITA 8 — B ENGEL TERİMİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_211b974e-3a66-4072-adef-753e27c9b302",
+  "mesaj": "TESLİM — B ENGEL TERİMİ İKİNCİ TUR · commit 659c8d3 · 30,2 sn · 149,2 MB ⚠️ **ÖNCE BİR DÜZELTME: sevkin ①③④ maddeleri DÜN teslim edildi** — M-3457 · commit `6e0df82` · üç PNG. Tekrarlamadım (`⑤`in kendi kuralı: aynı işi iki kez yapmayın). Bu tur dünkü raporda **damgalı iki eksiği** kapatıyor; ikisi de koşu 9 canlıyken kapalıydı, `arac/` açılınca açıldı. ``` denetim\\KITA8-B-2-UC-HAL-NEHIR-0912.png ← ÖNCE BUNU. Kızılırmak havzası: NEHİR engeli burada GÖRÜNÜYOR denetim\\KITA8-B-1-UC-HAL-TOROS-0912.png Toroslar+Akdeniz, üç hâl denetim\\KITA8-B-3-ESIK-SERISI-0912.png p70 · p85 · p95 yan yana ``` (Emre'ye dosya olarak da yolladım.) ═══ ① 🔴 NEHİR KAPISI AÇILDI — dünkü tur YANLIŞ NEHİR KÜMESİNİ sınamış ═══ `uret_petek.py`nin **552-587. satırları** olduğu gibi `exec` edildi (`BUYUK` · `_ad_sadelestir` · `BUYUK_SADE`) — yeniden yazmadım (`D023`). ``` yalnız scalerank≤5 (dün) : 7 parça · 516 hücre İKİ KAPI : 20 parça · 1.602 hücre = 3,1 KAT ad kapısından 20 · scalerank kapısından SIFIR adlar: Kızılırmak · Sakarya · B. Menderes · Fırat · Dicle · Ceyhan · Kelkit · Murat · Aras · Kura · Kuban · Evros · Simav ``` 🔴 **Asıl sayı sondaki SIFIR:** Anadolu'da nehirleri **tamamen ad listesi** taşıyor. Dünkü tur, kullanılan 20 parçanın **hiçbirini** o kapıdan alamamıştı. ⇒ Dün *\"nehir yarısı pratikte sınanmadı\"* diye damgalamıştım — **damga doğruydu ve bugün ölçüldü.** ═══ ② 🟢 NEHİR, SIRTTAN 4,7 KAT VERİMLİ — ve sebebi Emre'nin cümlesi ═══ ``` cezalı hücre sahip değiştiren HÜCRE BAŞINA VERİM yalnız NEHİR 1.597 2.204 (%4,0) 1,38 yalnız SIRT (p85) 8.276 2.437 (%4,4) 0,29 ikisi 9.778 4.788 (%8,7) 0,49 ``` **Nehir bir ÇİZGİ, sırt bir BANT. Çizgi KESER, bant yalnız pahalılaştırır.** Emre'nin *\"geniş bir nehire gelindiğinde ilerleme KESİLECEK\"* cümlesi tam bu farkı söylüyor — ve ölçüm onu doğruluyor. 📌 Ve gözle de görünüyor: `…-2-UC-HAL-NEHIR` panel ③'te sınırlar Kızılırmak'ın mavi hattına **oturuyor**; panel ②'de oturmuyor. Eşik serisi: p70 %13,8 · p85 %8,7 · p95 %5,5 — **aralık veriyorum, hüküm yok.** ═══ ③ P7 ÖLÇÜTÜ — ikinci kez ölçüldü, ikinci kez ATEŞLENEMEDİ ═══ `kara yolu 4.767 · eğim 4.767 · ENGEL 4.788`. İlk iki terim engelden **etkilenemez** (biri düz Voronoi ↔ sürtünmesiz, öteki sürtünmesiz ↔ eğimli); engel **üçüncü** terim. Ölçüt karşılaştırdığı iki şeyi ayırt etmiyor (`D081`). ═══ ④ 🔴🔴 GEÇİT — ÖLÇTÜM, VE SINAVIN KENDİSİ AYIRT ETMİYOR ═══ Dünkü ters etiketli sınavın **doğrusunu** kurdum (bant bileşenleri + kesişin o bileşenin eğim dağılımındaki yüzdeliği). Sonuç `%60,0` çıktı ve *\"🔴 geçit etkisi yok\"* yazacaktım. **Kontrol değişkenini koştum (`D132`) ve o hüküm de düştü:** ``` ① düz Voronoi (araziyi HİÇ bilmiyor) %57,0 ② sürtünmesiz ızgara %56,9 ③ eğimli, ENGELSİZ (KONTROL) %61,0 ④ ENGELLİ %60,0 ``` ⇒ **Dört yöntem arasındaki toplam oynama 4 PUAN.** Araziyi hiç bilmeyen düz Voronoi %57, açık engelli model %60. Böyle bir sınav hüküm taşıyamaz: tabanı %57 olan bir ölçüyü sonuç sanmışım. **Damga `ölçülemedi` — ve bu sefer NİÇİN ölçülemediği de ölçüldü.** 📌 **SEBEP KAVRAMSAL, ARAÇSAL DEĞİL — ve bu bulgunun kendisi kalıcı:** > **Geçit bir YOL iddiasıdır; sınır bir EŞİT-MALİYET YERİDİR.** > Suyun geçitten sızması sınıra *\"sınır geçitten geçer\"* diye yansımaz; > *\"geçidin ÖTESİNDEKİ toprak beri yakanın olur\"* diye yansır — yani sınır > **geçidin ardında ŞİŞER.** Ben geçişin YERİNİ ölçtüm, ŞİŞMEYİ ölçmedim. 🟢 Doğru sınavın tasarımı raporda yazılı (geçidin öte yakasındaki toprağın sahibi engelli/engelsiz hâlde değişiyor mu). Koşulmadı. 📌 Ve bu, *\"bir ölçüt karşılaştırdığı iki şeyi ayırt etmiyorsa cevabı EVET olsa bile soru yanlış sorulmuştur\"* dersinin **bir gecede ÜÇÜNCÜ** vakası: senin P7'n · dünkü ters etiketim · bugünkü yüzdelik sınavı. ═══ ⑤ MALİYET ═══ Engelli Dijkstra 1,53-1,84 sn (engelsiz 3,20 sn) — engel **hızlandırıyor**, pahalı hücreler erken eleniyor. Motor bütçesinde bedava. ═══ ⑥ KITA 3'E GEÇİLDİ ═══ Sonuçları `KITA 3 — B BOŞLUK PAYLAŞTIRMA`ya ayrıca yazıyorum; şartnameyi o yazsın, ben ölçmeye devam edeyim. Boştayım. -- KITA 8 — B ENGEL TERİMİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
