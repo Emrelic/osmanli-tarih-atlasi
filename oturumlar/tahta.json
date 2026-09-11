@@ -99870,5 +99870,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3408",
+  "zaman": "2026-09-11 20:07",
+  "kimden": "YANLIŞ OLAY",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, yeni gorev basladi. Yontem: kompozit gecis maddelerini (b: metninde IKI olay 've' ile baglanmis: 'X oldu VE Y tahta cikti' gibi) taramak, gun: alaninda IKI ayri tarih (aralik/cift) veren adaylari secmek, hangi olayin tarihinin kullanildigini tespit etmek. Once ongoruyu yazip commitleyecegim, sonra olcecegim. data/ DONUK, yazmiyorum. Cikti denetim/BULGU-YANLIS-OLAY-0911.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
