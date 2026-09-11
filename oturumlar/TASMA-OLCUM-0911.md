@@ -714,3 +714,109 @@ engelli Dijkstra   1,49-1,58 sn   (engelsiz 3,20 sn'nin YARISI)
 📌 **Engel Dijkstra'yı YAVAŞLATMIYOR, HIZLANDIRIYOR** — pahalı hücreler
 erkenden elenince yığın daha az kabarıyor. ⇒ Engel terimi motor bütçesinde
 **bedava**; maliyet endişesi bu kalemde yok.
+
+---
+
+# KADEME A — İKİ HARİTA · `Z-0022` · 11 Eylül 2026
+*(bir aydır gecikmiş kalem; vade 14 Ağustos 2026)*
+
+## ① NE İSTENDİĞİ — ÖLÇÜLDÜ, UYDURULMADI
+
+`Z-0022` "Kademe A koşusunun iki haritası" diyor. **"Kademe A" bu depoda
+tanımlı** ve tek anlamı var — `ALTYAPI.md`:
+```
+:309   sahip(hücre) = argmin over i of  maliyet(yerleşim_i → hücre) ÷ w_i
+:314   kademe A = ÖKLİD MESAFE           ⇒ AĞIRLIKLI VORONOI (Apollonius)
+       kademe B = sürtünmeli yürüme      ⇒ maliyet-mesafe peteği (ızgara)
+:468   "kademe A: ağırlıklı Voronoi (formül yerine oturur, davranış DEĞİŞMEZ)"
+:111   ağırlık tablosu — ÖLÇÜLMÜŞ komşu mesafelerinden (29 : 46 : 67 ≈ 1 : 1,6 : 2,3)
+```
+⇒ **İKİ HÂL = ağırlıksız (bugünkü yayın) ↔ ağırlıklı (Kademe A).** Tek parametre,
+iki değer — `Z-0002`nin (Sahra: tavan var / tavan yok) birebir aynı ailesi.
+🟢 Uydurma yok: ağırlıklar tablodan **olduğu gibi** alındı
+(k1 1,50 · k2 1,00 · k3 0,69 · k4 0,43 · k0 0,69).
+
+### 🔴 VE `Z-0002`NİN RESMİ ZATEN VARDI — AMA BAYAT (`D045` sınavı yapıldı)
+`denetim/sahra-iki-hal.png` (460 KB) açıldı ve okundu. **İş yapılmış**: Sahra,
+tavan var / tavan kaldırılmış, yan yana. **Ama başlığı bugünü anlatmıyor:**
+```
+resmin başlığı   "BUGUNKU YAYIN (r1247)" · TAVAN_KM = {k0:280, k3:280, k4:140}
+BUGÜN            yayın r7050            · TAVAN_KM = {0:200, 1:200, 2:200, 3:200, 4:200}
+```
+⇒ Resim **~5.800 sürüm** eski ve tarif ettiği tavan değerleri **artık yürürlükte
+değil** (kademeye göre 280/140 iken bugün hepsi 200). `Z-0002` "teslim edilmedi"
+diye duruyordu; ölçüm şunu söylüyor: **teslim edilmemiş DEĞİL, BAYATLAMIŞ.**
+Emre'ye gösterilecekse yeniden üretilmeli — o ayrı bir kalem, bu turda yapmadım.
+
+## ② İKİ HARİTA — üretildi
+```
+denetim\KADEME-A-1-IKI-HARITA-0911.png   ← ASIL RESİM. Üç panel: bugün · Kademe A · ÜST ÜSTE
+denetim\KADEME-A-2-GENEL-0911.png        bütün pilot kutu, üst/alt
+```
+Aynı kutu · aynı 376 tohum · **tek fark ağırlık.** Nokta boyutu ve rengi kademeyi
+gösteriyor, böylece mekanizma gözle okunuyor: büyük merkez → büyük petek.
+
+## ③ FARK — 🔴 KÜÇÜK DEĞİL, BÜYÜK
+```
+kara hücresi 55.174 · sahip DEĞİŞEN 14.761   =  %26,8
+yer değiştiren alan                             356.294 km²
+```
+| kademe | w | ağırlıksız | KADEME A | değişim |
+|---|---|---|---|---|
+| k1 başkent (5) | 1,50 | 17.949 km² | 78.837 km² | **+%339** |
+| k2 eyalet merkezi (25) | 1,00 | 181.985 | 378.708 | **+%108** |
+| k3 sancak merkezi (129) | 0,69 | 513.337 | 539.550 | +%5 |
+| k0 kademesiz (4) | 0,69 | 29.850 | 20.169 | −%32 |
+| k4 kaza/kasaba (213) | 0,43 | 586.771 | 312.628 | **−%47** |
+
+**En çok kazanan:** Musul +31.787 km² · Ankara +18.572 · Kutaisi +17.260 ·
+Edirne +15.432 (740 → 16.172, **22 kat**) · Erzurum +14.510
+**En çok kaybeden:** Sincar −13.111 · Deyrizor −10.368 · Tikrit −9.369 ·
+Kırşehir −8.365 · Aşkale −7.998
+
+🟡 Dürüstlük şartı bu turda **ters yöne** işliyor: fark küçük değil, **büyük** —
+ve büyütmeye gerek yok, sayı kendi söylüyor.
+
+## ④ 🔴🔴 İKİ UYARI — ve ikisi de karar verilmeden önce bilinmeli
+
+### ④a BİR YERLEŞİM PETEĞİNİ TAMAMEN KAYBETTİ — `Değişmez 1` riski
+```
+Rumeli Hisarı (k4, w=0,43)   23 km² → 0 km²
+```
+Ağırlıklı Voronoi'de bir nokta, **kendi üstünde durduğu toprağı** güçlü bir
+komşuya kaptırabilir (burada İstanbul, k1). Motorun ızgara aşamasında bunun
+koruması **var** ve gerekçesi yazılı (`uret_petek.py:2320`: *"bir yerleşimin
+ÜZERİNDE DURDUĞU toprak asla başkasına geçemez… bu bir mesafe sorusu değil,
+tanım gereği böyle"*) — **ama Voronoi aşamasında yok.**
+⇒ Kademe A gönderilecekse o koruma **Voronoi'ye de taşınmalı.** Pilot kutuda
+1 vaka; dünya ölçeğinde ölçülmedi.
+
+### ④b EN BÜYÜK ETKİYİ, HİÇ ÖLÇÜLMEMİŞ OLAN AĞIRLIK ÜRETİYOR
+`ALTYAPI.md:118` şöyle diyor:
+> *"`k:1` ölçülemedi ve bu AÇIKÇA yazılıyor: yalnız dört nokta var (Söğüt ·
+> Bursa · Edirne · İstanbul)… `1,50` bir tahmindir ve öyle damgalanmıştır."*
+
+Ve tablodaki **en büyük değişimi tam o ağırlık üretiyor: k1 +%339.**
+🟢 **AMA O GEREKÇE ARTIK GEÇERLİ DEĞİL — ölçtüm:**
+```
+ALTYAPI.md'nin dediği   k:1 → 4 nokta, ölçüm anlamsız
+BUGÜN (girdi.yukle)     k:1 → 345 nokta (dünya) · 5 nokta (pilot kutu)
+dünya kademe dağılımı   k0 1.239 · k1 345 · k2 228 · k3 1.282 · k4 714
+```
+⇒ *"Ölçülemedi"* damgası **86 kat büyümüş bir veriye dayanıyor.** 1,50 bugün
+**ölçülebilir** ve ölçülmelidir — çünkü haritadaki en büyük tek değişimi o
+sayı belirliyor. Bu, `§1.5`in *"bir belgedeki sayı ölçüm değil, ölçümün
+fotoğrafıdır"* dersinin `ALTYAPI.md` yüzü.
+
+## ⑤ YÖNTEM — ve bir uyum kararı
+Mesafe **derece uzayında** ölçüldü, çünkü motorun kendi Voronoi'si de öyle
+(`uret_petek.py:792` → `Point(lon, lat)`). Km'ye çevirmek *"bugünkü hâli"*
+değiştirir ve kıyası bozardı. Ağırlık bir **oran** olduğu için bu seçim
+ağırlığın etkisini değiştirmez, yalnız tabanı motorunkiyle aynı tutar.
+⚪ **ÖLÇÜLMEDİ:** yaslama · Chaikin · göl çıkarma · yarıçap tavanı — hiçbiri
+uygulanmadı. İki panel de **ham Voronoi ∩ kara**; kıyas için doğru olan bu
+(tek değişen parametre), ama bu resimler **yayındaki haritanın kendisi değildir.**
+
+## ⑥ MALİYET
+Toplam koşu birkaç saniye, tepe bellek birinci turun önbelleğiyle ~170 MB.
+Ağırlıklı Voronoi **ek maliyet getirmiyor**: aynı argmin, tek fark bölen.
