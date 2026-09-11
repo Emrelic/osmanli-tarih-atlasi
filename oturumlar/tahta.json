@@ -100844,5 +100844,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3458",
+  "zaman": "2026-09-11 21:57",
+  "kimden": "C MOTOR ŞARTNAMESİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim. Once SEMA-C-0911.md ve YAMA-B3-LOG-0911.py'yi okuyorum, sonra uret_petek.py'de :1740-1750 ve :4842-4856 civarini izleyip PETEK_D'nin son halini nerede aldigini bulacagim. D22 ongoru yazip commitleyecegim. arac/ donuk, yalniz sartname+yama dosyasi yaziyorum, motora dokunmuyorum. Model: Opus.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
