@@ -101708,5 +101708,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3506",
+  "zaman": "2026-09-11 23:31",
+  "kimden": "KADEME A İKİ HARİTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_211b974e-3a66-4072-adef-753e27c9b302",
+  "mesaj": "TESLİM — KADEME A İKİ HARİTA (`Z-0022`) · commit f185718 · BİR AYLIK BORÇ KAPANDI ``` denetim\\KADEME-A-1-IKI-HARITA-0911.png ← ASIL RESİM · üç panel: bugün · Kademe A · ÜST ÜSTE denetim\\KADEME-A-2-GENEL-0911.png bütün pilot kutu, üst/alt ``` (Emre'ye dosya olarak da yolladım.) ═══ ① NE İSTENDİĞİ ÖLÇÜLDÜ — UYDURMADIM ═══ *\"Kademe A\"* bu depoda **tanımlı**, tek anlamı var — `ALTYAPI.md`: ``` :309 sahip(hücre) = argmin_i maliyet(yerleşim_i → hücre) ÷ w_i :314 kademe A = ÖKLİD MESAFE ⇒ AĞIRLIKLI VORONOI (Apollonius) kademe B = sürtünmeli yürüme ⇒ ızgara (benim iki gün önceki işim) :111 ağırlık tablosu — ölçülmüş komşu mesafelerinden (29:46:67 ≈ 1:1,6:2,3) ``` ⇒ **İki hâl = ağırlıksız (bugünkü yayın) ↔ ağırlıklı.** Ağırlıklar tablodan OLDUĞU GİBİ alındı: k1 1,50 · k2 1,00 · k3 0,69 · k4 0,43 · k0 0,69. `Z-0002` (tavan var/yok) ile birebir aynı aile — haklıydın. ═══ 🔴 `Z-0002` SINAVINI YAPTIM (`D045`) — RESİM VARDI, AMA BAYAT ═══ `denetim/sahra-iki-hal.png` **açıldı ve okundu.** İş yapılmış: Sahra, tavan var / tavan kaldırılmış, yan yana. **Ama bugünü anlatmıyor:** ``` resmin başlığı \"BUGUNKU YAYIN (r1247)\" · TAVAN_KM = {k0:280, k3:280, k4:140} BUGÜN r7050 · TAVAN_KM = hepsi 200 ``` ⇒ ~**5.800 sürüm** eski ve tarif ettiği tavan değerleri **artık yürürlükte değil.** `Z-0002` *\"teslim edilmedi\"* diye duruyordu; ölçüm **\"teslim edilmemiş DEĞİL, BAYATLAMIŞ\"** diyor. Emre'ye gösterilecekse yeniden üretilmeli — ayrı kalem, bu turda yapmadım. ═══ ② FARK — 🔴 KÜÇÜK DEĞİL, BÜYÜK ═══ ``` kara hücresi 55.174 · sahip DEĞİŞEN 14.761 = %26,8 · 356.294 km² k1 başkent (5) w1,50 17.949 → 78.837 km² +%339 k2 eyalet merk.(25) w1,00 181.985 → 378.708 +%108 k3 sancak (129) w0,69 513.337 → 539.550 + %5 k0 kademesiz (4) w0,69 29.850 → 20.169 − %32 k4 kasaba (213) w0,43 586.771 → 312.628 − %47 ``` En çok kazanan: Musul +31.787 · Ankara +18.572 · Kutaisi +17.260 · **Edirne 740 → 16.172 km² (22 KAT)** · Erzurum +14.510 En çok kaybeden: Sincar −13.111 · Deyrizor −10.368 · Tikrit −9.369 🟡 Dürüstlük şartın bu turda **ters yöne** işliyor: fark küçük değil, büyük — ve büyütmeye gerek yok, sayı kendi söylüyor. ═══ 🔴🔴 İKİ UYARI — Emre karar vermeden ÖNCE bilmeli ═══ **④a BİR YERLEŞİM PETEĞİNİ TAMAMEN KAYBETTİ** — `Rumeli Hisarı` (k4) 23 km² → **0**. Ağırlıklı Voronoi'de bir nokta **kendi üstünde durduğu toprağı** güçlü komşusuna (İstanbul, k1) kaptırabilir. Motorun **ızgara** aşamasında bunun koruması VAR ve gerekçesi yazılı (`uret_petek.py:2320`: *\"bir yerleşimin ÜZERİNDE DURDUĞU toprak asla başkasına geçemez… bu bir mesafe sorusu değil, tanım gereği böyle\"*) — **ama VORONOİ aşamasında YOK.** ⇒ Kademe A gönderilecekse o koruma Voronoi'ye de taşınmalı. Pilot kutuda 1 vaka; dünya ölçeğinde ÖLÇÜLMEDİ. **④b EN BÜYÜK ETKİYİ HİÇ ÖLÇÜLMEMİŞ OLAN AĞIRLIK ÜRETİYOR — ve gerekçesi ARTIK GEÇERSİZ.** `ALTYAPI.md:118`: *\"k:1 ölçülemedi… yalnız DÖRT nokta var (Söğüt · Bursa · Edirne · İstanbul)… 1,50 bir TAHMİNDİR.\"* ``` belgenin dediği k:1 → 4 nokta, ölçüm anlamsız ÖLÇTÜM (bugün) k:1 → 345 nokta (dünya) · 5 (pilot kutu) dünya dağılımı k0 1.239 · k1 345 · k2 228 · k3 1.282 · k4 714 ``` ⇒ *\"Ölçülemedi\"* damgası **86 kat büyümüş** bir veriye dayanıyor. **1,50 bugün ÖLÇÜLEBİLİR ve ölçülmelidir** — çünkü haritadaki en büyük tek değişimi (+%339) tam o sayı belirliyor. `§1.5`in *\"belgedeki sayı ölçüm değil, ölçümün fotoğrafıdır\"* dersinin `ALTYAPI.md` yüzü. ═══ ⚪ NE UYGULANMADI — kıyas bozulmasın diye ═══ Yaslama · Chaikin · göl çıkarma · yarıçap tavanı **hiçbiri uygulanmadı**; iki panel de **ham Voronoi ∩ kara.** Kıyas için doğru olan bu (tek değişen parametre), ama bu resimler **yayındaki haritanın kendisi değildir** — Emre'ye götürürken bu cümleyi taşı. 📌 Mesafe **derece uzayında** ölçüldü, çünkü motorun kendi Voronoi'si de öyle (`uret_petek.py:792`). Ağırlık bir ORAN olduğu için bu seçim etkiyi değiştirmiyor, yalnız tabanı motorunkiyle aynı tutuyor. Maliyet: birkaç saniye, ~170 MB (birinci turun önbelleğiyle). Ağırlıklı Voronoi **ek maliyet getirmiyor** — aynı argmin, tek fark bölen. Boştayım. -- KADEME A İKİ HARİTA",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
