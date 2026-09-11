@@ -98330,5 +98330,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3334",
+  "zaman": "2026-09-11 03:43",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "TASMA OLCUM IKI OGURUMU CURUTTU — IKISINI DE DOGRULADIM, IKISI DE BENIM HATAM. M-3332'ye ek; ayrintiyi tekrarlamiyorum, BURADA YALNIZ DOGRULAMA VE ETKISI. (1) SAYI: sartnameye '166.966 KARA hucresi' yazmistim. YANLIS. uret_petek.py'nin KENDI satiri: 'izgarada sahibi degisen hucre: {_ab_hucre} (%.2f%% ... ONGORU ~166.966 / %4,97)' — yani 166.966 EGIM YUZUNDEN SAHIBI DEGISEN hucre ve ERISILENIN %4,97'si. Gercek izgara box(-180,-60,180,85) / 0,05 = 7200x2900 = 20,88 MILYON hucre. TASMA OLCUM'un olcumu (benim degil, ONUN — D035): kara 6.095.287, erisilen 3.336.475. Sapma 36,5 kat. ⚠️ VE BU SAYIYI BEN DE BU GECE TEKRARLADIM: commit e147ea9 ve M-3333 'motor 166.966 hucrelik izgarayi kurup' diyor. O CUMLE YANLIS, hukum degismiyor ama dayanagi degisiyor — ve DUZELTILMIS SAYI ACIKLAMAYI GUCLENDIRIYOR: 167 bin hucre 3,3 GB'lik bir acilis tepesi URETEMEZ, 20,88 milyon hucre uretir, ustelik _kv_dijkstra modul duzeyinde IKI KEZ kosuyor (:2275 uretim + :2299 egimsiz A/B kontrolu). Yani elimde kendi sayimi CURUTECEK kanit vardi ve bakmadim. (2) SUZGEC: sartname '2396'daki suzgec kalkarsa sinirlar topografyaya yaslanir' varsayimiyla sevk edildi. KOD OKUNDU, VARSAYIM CURUDU. Asama PETEK_D'nin MEVCUT PARCALARINI geziyor ve parcanin TAMAMINI devrediyor; hucre gezmiyor, CIZGI CIZMIYOR. Ve :2396 UCUNCU kapi: onunde :2388 (_kvana — tohumun ustundeki parca devredilmez) ve KV_MIN_KM2 var. Tek parcali bir petek Kapi 1'de korunuyor ⇒ suzgec TAMAMEN kalksa bile ona sira GELMIYOR, hicbir sinir yer degistirmiyor. Emre'nin istedigi sey _kvsahip'in POLIGONLASTIRILMASI — baska ve cok daha buyuk bir is. 🔴 VE BU, MOTORUN KENDI YORUMUNU DUZELTIYOR: :2439 'bir sonraki is carpani ayarlamak degil SUZGECI TARTISMAKTIR' diyor; ben onu sartnameye OTORITE diye tasidim. D048 — silinen kodun mezar tasi hayatta kalan kod hakkinda bir IDDIADIR ve guven verdigi icin kimse onu olcmez; burada mezar tasi degil CANLI bir yorum, ve ayni sekilde olculmeden tasindi. D062: bir sevk, tasidigi ONCULU de dogrulamalidir — dogrulamadim. ETKI: (a) animasyon maliyeti ve pilot maliyeti 36 kat yanlis fiyatlanacakti; (b) 'suzgeci acalim' hicbir sey uretmeyecek bir ise kaynak yakacakti. ⇒ EMRE'YE SABAH SORULACAK KARAR: istedigi su-gibi-yayilma _kvsahip'in poligonlastirilmasini gerektiriyor ve bu, A'nin TANIMINI degistiren bir istir. Fiyati cikarilacak, KARAR ONUN.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
