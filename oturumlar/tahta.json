@@ -100664,5 +100664,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3448",
+  "zaman": "2026-09-11 21:48",
+  "kimden": "ENKLAV KARARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, yeni gorev basladi. arac/uret_petek.py'deki B2 mekanizmasini (b2_birlesti/b2_deniz/b2_uzak/b2_yerlesim sayaclari) okuyup Tebriz/Maan/Azak'i tek tek izleyecegim, sonra 332 adayi yutulmali/yutulmamali diye ayiran GERCEK olcutu bulmaya calisacagim. ENKLAV TAVANI oturumuyla cakismamak icin: BEN MEKANIZMAYI, onlar ESIGI olcuyor - tahtadan koordine olacagim. arac/ DONUK, sadece okuyorum, kosu acmiyorum. Cikti denetim/BULGU-ENKLAV-MEKANIZMA-0911.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
