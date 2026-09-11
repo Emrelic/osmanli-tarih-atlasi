@@ -606,3 +606,111 @@ duran hiçbir şey yok; `②`de yazdığım gibi darboğaz Dijkstra'nın BELLEĞ
               edildi (sevkin kendi uyarısı) ve prototip onlara HİÇ sorulmadı.
 🔴 YAPILMADI   motorda hiçbir değişiklik. Süzgeç yerinde, `A`nın tanımı yerinde.
 ```
+
+---
+
+# TAŞMA PROTOTİP II — ENGEL TERİMİ · 11 Eylül 2026
+
+> Depo ağacının DIŞINDA koştu · motor DEĞİŞTİRİLMEDİ · koşu AÇILMADI.
+> **Toplam 12,4 sn · TEPE RSS 150,1 MB** (birinci turun önbelleği kullanıldı) —
+> sormaya gerek olmadı, sınırın çok altında.
+
+## ⓪ ÖNCE İKİ DÜZELTME — ve biri BENİM SINAVIM
+
+### 🔴🔴 ① GEÇİT SINAVIM TERS ETİKETLİYDİ — ölçüm doğru, çıkarım yanlış (`D049`)
+Sınavı şöyle yazdım: *"sınırın sırt bandını kestiği hücre sayısı AZALMALI."*
+Ölçüm **arttığını** gösterdi ve alet **`🔴 geçit etkisi YOK`** bastı.
+```
+p70  sırt bandını kesen sınır hücresi   2.530 → 3.398   (+%34)
+p85                                     1.326 → 1.744   (+%32)
+p95                                       457 →   589   (+%29)
+kesişin eğim ortalaması (p85)  bant 425 · KESİŞ 441 m/hücre  ← BANTTAN YÜKSEK
+```
+**Ve bu artış BAŞARIDIR, başarısızlık değil.** Bir engel bandı iki tarafa da
+pahalı gelir; eşit-maliyet çizgisi bandın **İÇİNE** oturur. Yani sınır sırtın
+ÜSTÜNE çıkmıştır — ***birinci turda eksik olan tam da buydu.*** Üstelik kesiş
+hücrelerinin eğimi bandın ortalamasından **YÜKSEK**: sınır bandın en dik yerine
+yerleşiyor.
+📌 Sayı doğruydu, **etiketi yanlıştı** — ve yanlış etiket aletin kendi çıktısına
+`🔴 YOK` diye basıldı. Bir sonraki oturum o satırı okusa **çalışan bir mekanizmayı
+çalışmıyor sanacaktı.**
+
+### 🔴 ② SENİN KABUL ÖLÇÜTÜN AYIRT EDEMİYOR — ve sebebi yapısal
+*"Engel eklenince 4.767 = 4.767 denkliği BOZULMALI; bozulmazsa bir şey yanlıştır."*
+```
+ENGELSİZ  kara yolu 4.767 · eğim 4.767            ⇒ EŞİT
+p70/85/95 kara yolu 4.767 · eğim 4.767 · ENGEL 6.580 / 3.306 / 1.495
+```
+İki terim **engelden ETKİLENMİYOR, etkilenemez**: `kara yolu` = düz Voronoi ↔
+sürtünmesiz ızgara, `eğim` = sürtünmesiz ↔ eğimli ızgara. Engel bunların
+**ikisine de girmiyor**; ÜÇÜNCÜ bir terim ekliyor.
+⇒ **Ölçüt, tanımı gereği hiçbir zaman ateşlenemez.** Bir kabul ölçütünün
+karşılaştırdığı iki şeyi ayırt etmesi gerekir (`D081`).
+🟢 Ve zaten bozulacak bir şey de yok: birinci turda `D117` sınavıyla ölçtüm,
+denklik **yapısal değil tesadüf** (yarım örneklem üç denemede de bozdu).
+🟢 **GEÇERLİ ÖLÇÜT ŞU OLURDU** ve onu koşturdum: *"engel, sınırı sırt bandının
+İÇİNE taşımalı."* **Taşıdı** — yukarıdaki +%29..34.
+
+## ① EŞİKLER — UYDURULMADI, verinin kendi yüzdelikleri
+```
+eğim (m/hücre)   medyan 113 · p70 194 · p85 295 · p95 442 · en yüksek 1.172
+ceza             sırt 77,9 km · nehir 66,8 km
+                 çapa: motorun KENDİ yaslama yarıçapları (sirt_mes=0.35 ·
+                 nehir_mes=0.30) ⇒ Δ = 2R. Birinci turda türetildi, damgalıydı.
+```
+| eşik | engelli hücre | eğimliye göre değişen | süre |
+|---|---|---|---|
+| p70 (194 m) | 17.012 | 6.580 (%11,9) | 1,58 sn |
+| p85 (295 m) | 8.772 | 3.306 (%6,0) | 1,49 sn |
+| p95 (442 m) | 3.273 | 1.495 (%2,7) | 1,49 sn |
+
+⇒ **ARALIK VERİYORUM, HÜKÜM VERMİYORUM** (sevkin istediği buydu): p70 haritayı
+belirgin biçimde değiştiriyor, p95 neredeyse dokunmuyor. **p85 orta yol.**
+Hangisinin *doğru* olduğunu resim ve Emre söyler.
+
+## ② GÖZLE — dürüst hüküm
+`TASMA-PROTOTIP-7-UC-ASAMA-0911.png` üç aşamayı yan yana koyuyor:
+düz Voronoi → sürtünme → engel. **Mor bant engel hücreleridir.**
+
+🟡 **Dürüst olmak gerekirse: ② → ③ farkı GÖZLE İNCE.** Sayı %6,0 diyor ve
+resimde de o kadar görünüyor — birinci turun ① → ② sıçraması kadar çarpıcı
+DEĞİL. Sırtlara oturma **ölçümde net** (+%32), **gözde ikincil.**
+🔴 Bunu bir başarı gibi sunmuyorum: *"engel eklendi, harita düzeldi"* demek
+bu resimlerin taşıdığından fazlasını iddia etmek olurdu.
+
+## ③ 🔴 NEHİR YARISI NEREDEYSE HİÇ SINANMADI — ve sebebi benim sadeleştirmem
+```
+motorun nehir kapısı İKİ tane:  ① 31 adlık BUYUK_SADE beyaz listesi
+                                ② scalerank ≤ 5
+ben YALNIZ ②'yi uyguladım — ①'i uygulayamadım, çünkü `_ad_sadelestir`
+motorun İÇİNDE ve dosyayı çalıştırmadan alınamıyor (koşu 9 canlı, çalıştıramam)
+SONUÇ: pilot kutuda 7 nehir parçası · 516 hücre
+```
+⚠️ Ve Anadolu'da **asıl kapı ①'dir**: Kızılırmak · Yeşilırmak · Büyük Menderes ·
+Sakarya · Porsuk hep o listede. ⇒ **Emre'nin *"geniş nehire gelince ilerleme
+kesilecek"* tarifi bu turda pratikte SINANMADI.** Yukarıdaki bütün sayılar
+fiilen **SIRT engelinin** sayılarıdır.
+🟢 Çaresi ucuz ve bilinen: `_ad_sadelestir` + `BUYUK_SADE` ayrı bir modüle
+alınırsa (ya da koşu bitince motor içinden okunursa) nehir kapısı tam açılır.
+
+## ④ ⚪ GEÇİT — ÖLÇÜLEMEDİ, ve tasarımı yazıyorum
+Sevk *"eğimin kendisi geçidi söyler, ayrı veri arama"* dedi — **katılıyorum ve
+mekanizma kurulu**: eşiğin altındaki hücreye ceza yazılmıyor, yani sırt
+hattındaki alçak boşluk kendiliğinden ucuz yol oluyor.
+🔴 **Ama ÇALIŞTIĞINI GÖSTEREMEDİM.** Kurduğum sınav geçidi değil *sırta oturmayı*
+ölçüyordu (yukarıda düzeltildi). Geçidi ölçmek için gereken ayrı bir sınav:
+```
+sırt bandının BAĞLANTILI BİLEŞENLERİNİ çıkar
+her bileşen için: sınırın bandı ENİNE geçtiği (bir yakadan öbürüne) hücreleri bul
+o hücrelerin eğimini, bileşenin eğim DAĞILIMIYLA karşılaştır
+geçit varsa: geçişler dağılımın ALT kuyruğunda toplanır
+```
+Bu turda yazmadım. Damga **`ölçülemedi`**, `bulunamadı` değil.
+
+## ⑤ MALİYET
+```
+engelli Dijkstra   1,49-1,58 sn   (engelsiz 3,20 sn'nin YARISI)
+```
+📌 **Engel Dijkstra'yı YAVAŞLATMIYOR, HIZLANDIRIYOR** — pahalı hücreler
+erkenden elenince yığın daha az kabarıyor. ⇒ Engel terimi motor bütçesinde
+**bedava**; maliyet endişesi bu kalemde yok.
