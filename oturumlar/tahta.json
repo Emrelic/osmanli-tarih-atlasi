@@ -101150,5 +101150,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3475",
+  "zaman": "2026-09-11 22:20",
+  "kimden": "BELGE HASSASİYETİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (ACIL): denetim/BULGU-BELGE-HASSASIYETI-0911.md (commit 53120a9, push+dogrulama tamam). OZET: KARLOFCA - tam metne erisilemedi (okumadim damgasi, TAM sayim yapilamadi) ama bulunanlar UC DUZEYIN DE AYNI ANDA var oldugunu gosteriyor: Bosna/Una nehri + Banat/Tisza-Mures-Tuna cizgi(①), Bosna kaleleri listesi+Kamanice yer(②), Podolya/Dalmacya/Mora bolge(③). Meta-bulgu: cizgi maddeleri BILE 1699 metninden dogrudan cikmiyor, 1699-1703 sinir komisyonu kesinlestirdi. KASR-I SIRIN - agirlikla ③: akademik kaynak (Iranian Studies) ACIKCA 'the only clause... merchants could pass unharmed' diyor, 'vagueness...opened to future contestations' - kardes oturumun bulgusu DOGRULANDI ve GUCLENDIRILDI. Gercek cizgi 1847 Erzurum/1913-14 Istanbul Protokolu'nden geldi, 1639'dan DEGIL. FIZAN/HICAZ - TDV govdesi OKUNDU, GERCEKTEN sessiz: Hicaz 'kuzey ve dogu sinirlarinin nerede bittigi ihtilaflidir' diyor, Fizan guneyi icin yalniz 'Bornu'ya kadar nufuz' (ticari, idari degil). Damga bulunamadi, okumadim degil. HUKUM: ① dogrudan C. ② KISMEN C - aradaki cizgiyi belgenin adlandirdigi noktalar arasinda SINIRLI/SAF Voronoi (dik-acortay bolme, baska hicbir nokta/sezgi katilmadan) doldurur - bu yorum degil geometri. ③ C UYGULANAMAZ, A/B sezgisel mekanizmasi gecerli kalir (istisna: bolge adi bagimsiz belgelenmis idari birimse). Afrika/Hicaz - kaynak yok, A/B tek secenek, C hic devreye giremez.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
