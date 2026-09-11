@@ -1,0 +1,97 @@
+{
+  "gorev": "LUBNAN KUNYE HAZIRLIGI",
+  "oturum": "LÜBNAN KÜNYE",
+  "tarih": "2026-09-11",
+  "durum": "HAZIR — data/devletler.js DONUK oldugu icin YAZILMADI, bu dosya oneri/hazirliktir",
+
+  "①_kunye_taslaklari": [
+    {
+      "id": "lubnan-emirligi",
+      "ad": "Lübnan Emirliği (Ma'noğulları · Şihaboğulları)",
+      "tur": "emirlik",
+      "bolge": "arabistan",
+      "bolge_notu": "MEVCUT SÖZLÜKTE 'suriye-filistin' de var ama HİÇ KULLANILMIYOR (0 künye) — suriye-lubnan-mandasi ve filistin-mandasi zaten 'arabistan'a etiketli, ONLARLA TUTARLI olsun diye 'arabistan' seçildi. Koordinatör isterse 'suriye-filistin'e taşınıp o üçü BİRLİKTE düzeltilebilir — bu benim kararım değil, işaretliyorum.",
+      "f": "1516-10-01",
+      "f_notu": "GÜN BİLİNMİYOR — TDV yalnız 'Ekim 1516' veriyor, ay biliniyor gün bilinmiyor (D145 sınıfı, açıkça damgalanıyor).",
+      "t": "1842-01-01",
+      "t_notu": "GÜN BİLİNMİYOR — TDV yalnız 'Ocak 1842' veriyor.",
+      "baskent": "Dayr al-Kamer (Deyrülkamer) → Beyteddin",
+      "baskent_notu": "TDV alıntısında başkent adı geçmedi, standart akademik bilgiden (Şihab döneminde Beyteddin sarayı). BULUNAMADI damgası: TDV metninde doğrulanmadı.",
+      "harita": "lubnan-emirligi",
+      "harita_renk_onerisi": "#8a4b9e (Fenike moru) — bkz. ③",
+      "tabi": [{"f": "1516-10-01", "t": "1842-01-01", "ust": "osmanli"}],
+      "tabi_notu": "TÜM ÖMRÜ BOYUNCA tâbi — künyenin kendi f/t'siyle BİREBİR örtüşüyor (erdel emsali: 'tabi' f/t = künyenin kendi f/t, çünkü hiç bağımsız dönemi yok).",
+      "kaynak": "lubnan",
+      "kaynak_notu": "TDV https://islamansiklopedisi.org.tr/lubnan — HTTP 200 doğrulandı, gövde okundu (§4② tuzağı: canlı slug + doğru madde, kontrol edildi).",
+      "ozet": "1516'da Osmanlı fethinden sonra bölgenin idaresi Dürzî beylere bırakıldı; önce Ma'noğulları (1516-1697), sonra Şihaboğulları (1697-1842) hanedanları Osmanlı'ya tâbi yarı-özerk Lübnan Emirliği'ni yönettiler. Ahmed Ma'n'ın 1697'de çocuksuz ölümüyle Dürzî ileri gelenleri Beşîr Şihâbî'yi seçti; emirlik 1842'de doğrudan Osmanlı yönetimine döndü.",
+      "kronoloji": [
+        {"t": "1516-10-01", "tur": "kurulus", "b": "Osmanlı fethi sonrası bölge idaresi Ma'noğulları'na verildi", "kaynak": "TDV lubnan — \"Ekim 1516'da Osmanlı yönetimine giren bölgenin idaresiyle ilgili yapılan yeni düzenleme sonunda Lübnan'ın yönetimi ... Ma'noğulları'na verildi\""},
+        {"t": "1697-01-01", "tur": "hanedanlik", "b": "Ma'n hanedanının son emiri Ahmed çocuksuz öldü, Dürzî ileri gelenleri Beşîr Şihâbî'yi emir seçti", "kaynak": "TDV lubnan — \"Halefi olan oğlu Ahmed'in 1697'de geride çocuk bırakmadan ölmesiyle Lübnan'daki Ma'noğulları dönemi sona erdi\" / \"Bölgedeki Dürzî ileri gelenleri Lübnan Emirliği'ne Beşîr Şihâbî'yi seçtiler\""},
+        {"t": "1842-01-01", "tur": "son", "b": "Şihaboğulları'nın yönetimi sona erdi, bölge doğrudan Osmanlı yönetimine döndü", "kaynak": "TDV lubnan — \"Böylece Lübnan'daki Şihâbî ailesinin yönetimi sona erdi\""}
+      ]
+    },
+    {
+      "id": "cebel-i-lubnan-mutasarrifligi",
+      "ad": "Cebel-i Lübnan Mutasarrıflığı",
+      "tur": "devlet",
+      "tur_notu": "TAM OTURMUYOR — mevcut sözlükte 'mutasarrıflık' tür yok. Emsal statüsü bakımından sirbistan-prensligi'ne (prenslik) en yakın ama Mutasarrıflık HANEDAN DEĞİL, ATANMIŞ (yabancı devletlerce onaylı, Hıristiyan, Lübnanlı-olmayan) bir vali sistemiydi — 'prenslik' YANLIŞ OLUR. Güvenli varsayılan 'devlet' seçildi; koordinatör dilerse yeni tür 'mutasarriflik' eklenebilir (şema buna izin veriyor).",
+      "bolge": "arabistan",
+      "f": "1861-06-09",
+      "t": "1915-07-11",
+      "baskent": "Beyteddin (Ba'abda'ya taşındı 1888'de — BULUNAMADI, TDV alıntısında yok, standart kaynaktan)",
+      "harita": "cebel-i-lubnan-mutasarrifligi",
+      "harita_renk_onerisi": "#8a4b9e (aynı Fenike moru — bölgesel/görsel süreklilik için lubnan-emirligi ile AYNI renk, farklı harita anahtarı)",
+      "tabi": [{"f": "1861-06-09", "t": "1915-07-11", "ust": "osmanli"}],
+      "tabi_notu": "TÜM ÖMRÜ tâbi/özerk, künyenin kendi f/t'siyle birebir.",
+      "kaynak": "lubnan",
+      "kaynak_notu": "Aynı TDV maddesi, ayrı bölüm.",
+      "ozet": "1860 Dürzî-Maruni çatışmaları sonrası Avrupa devletlerinin baskısıyla kurulan, Osmanlı tebaası olmayan Hıristiyan bir valinin (mutasarrıf) yönettiği, uluslararası garantili özerk Osmanlı sancağı; I. Dünya Savaşı'nda Osmanlı tarafından tek taraflı feshedildi.",
+      "kronoloji": [
+        {"t": "1861-06-09", "tur": "kurulus", "b": "Cebel-i Lübnan Nizamnâmesi imzalandı, mutasarrıflık kuruldu", "kaynak": "TDV lubnan — \"9 Haziran 1861'de imzalanmış ve ardından bir fermanla yürürlüğe konmuştur\""},
+        {"t": "1915-07-11", "tur": "son", "b": "Osmanlı Devleti mutasarrıflığı tek taraflı olarak feshetti", "kaynak": "TDV lubnan — \"Osmanlı Devleti tarafından 11 Temmuz 1915'te tek taraflı olarak ilga edilmiş\""}
+      ]
+    }
+  ],
+
+  "②_yerlesim_sinir_olcumu": {
+    "yontem": "arac/girdi.yukle() ile 3808 noktalık MERKEZI VERİ okundu (D023: kendi ayrıştırıcım yazılmadı, mevcut yükleyici kullanıldı). Ad taraması + 33.0-34.7K/35.1-36.7D kutu taraması yapıldı (tüm Lübnan + Şam kenarı).",
+    "SONUC_KRITIK": "Kutuda YALNIZ 4 nokta var: Şam (33.513,36.292 — Suriye içi, Lübnan değil), Beyrut, Trablusşam, Sayda. CEBEL-İ LÜBNAN'IN KENDİSİNDE (dağlık iç kesim — Deyrülkamer, Beyteddin, Zahle, Baalbek) HİÇ NOKTA YOK.",
+    "beyrut_sayda_trablussam_bugunku_veri": {
+      "Beyrut": {"s": "memluk (→1516-09-27), sonra 1918-10-08'e kadar HİÇ s: yok", "d": "1516-09-27 → 1918-10-08 DÜZ Osmanlı DOĞRUDAN", "v_TEK_KAYIT": "1832-06-15 → 1840-10-10, kid:misir-kavalali (Mısır işgali) — BAŞKA HİÇBİR v: YOK"},
+      "Sayda": {"benzer": "aynı desen, d: 1517-01-01 → 1918-10-06, v: yalnız 1832-1840 misir-kavalali"},
+      "Trablusşam": {"benzer": "aynı desen, d: 1516-09-26 → 1918-10-13, v: yalnız 1832-1840 misir-kavalali"}
+    },
+    "HUKUM": "🔴 (a) Cebel-i Lübnan'ın GERÇEK toprağı (Emirliğin/Mutasarrıflığın fiilen yönettiği dağlık iç kesim) için HİÇBİR nokta yok — bu §2'nin tarif ettiği tam boşluk: 'noktası olmayan bölge en yakın peteğe emilir'. (b) Beyrut/Sayda/Trablusşam TARİHSEL OLARAK Emirliğin/Mutasarrıflığın kendisi DEĞİL — bunlar ayrı Osmanlı sancak merkezleriydi (kıyı şehirleri çoğu zaman Şam/Sayda eyaletine bağlıydı, Emirliğin doğrudan idaresinde değildi). Bu üç noktaya v:kid:lubnan-emirligi eklemek COĞRAFİ OLARAK YANLIŞ olur — kendi başlarına Osmanlı doğrudan sancak merkezleri olarak KALMALILAR.",
+    "SONUC": "⇒ KÜNYE YAZILSA BİLE, YENİ YERLEŞİM NOKTASI (Deyrülkamer/Beyteddin bölgesine en az 1) EKLENMEDEN haritada HİÇBİR GÖRSEL DEĞİŞİKLİK OLMAYACAK. Bu ayrı bir iş (yerleşim araştırma oturumu) — künye hazırlığı bunu ÇÖZMÜYOR, yalnız GÖRÜNÜR KILIYOR.",
+    "olculemeyen": "Zahle/Baalbek/Deyrülkamer/Beyteddin için TAM koordinat + kuruluş tarihi araştırması yapılmadı (kapsam dışı, ayrı iş)."
+  },
+
+  "③_renk_olcumu": {
+    "yontem": "arac/renkler.py İÇE AKTARILDI (salt-okunur, YAZILMADI) — kendi _lab_cevir/_de3 (CIE76 ΔE) fonksiyonları kullanıldı, D023 geregi kendi formülüm yazılmadı.",
+    "ONEMLI_SINIRLAMA": "🔴 GERÇEK Voronoi-komşu ΔE testi (renk_olc.py'nin asıl yaptığı) burada YAPILAMADI — o, üretilmiş petek geometrisi ister ve arac/uret_petek.py DONUK/koşulamaz durumda. Bu bir PROXY ölçümdür: coğrafi/tarihsel olarak muhtemel komşuların BİLİNEN renkleriyle karşılaştırıldı. GERÇEK doğrulama ancak künye yazılıp bir petek koşusundan sonra `py arac/renk_olc.py` ile yapılabilir.",
+    "proxy_komsu_kumesi": {
+      "kirim": "#b45a1e", "sirbistan": "#518790", "eflak": "#4db34d",
+      "bogdan": "#24905a", "kavalali (Misir 1832-40, AYNI DONEMDE komsu)": "#20d820",
+      "suriye-lubnan-mandasi (AYNI TOPRAGIN 1920 sonraki hali)": "#d24824",
+      "misir-kralligi": "#48d224", "misir-sultanligi": "#4ed224",
+      "osmanli-kirmizisi (dogrudan, js/app.js OSMANLI_KIRMIZI)": "#8e0b22"
+    },
+    "onerilen_renk": "#8a4b9e — 'Fenike moru' (Sayda/Sur'un antik mor boya ticaretine gönderme, tema uygun)",
+    "olculen_DE_min": "61,8 (en yakın proxy komsu: sirbistan/osmanli-kirmizisi) — 12,0 eşiğinin ÇOK üstünde, güvenli",
+    "diger_adaylar_da_test_edildi": "3 alternatif mor/leylak tonu da denendi (#7a4b8a, #9a5aa8, #5d4b9e), hepsi min ΔE 51-62 arası — hiçbiri mevcut yeşil/turuncu/teal kümesine yaklaşmıyor. Öneri KÜMEYE bakılarak seçildi (D koordinatörün uyarısı: tek komşuya değil kümeye bak)."
+  },
+
+  "④_osmanli_iliskisi_karari": {
+    "karar": "İKİSİ DE v: (tâbi) — s: (yabancı) DEĞİL",
+    "gerekce": [
+      "Lübnan Emirliği: TDV'nin kendi anlatımı bunu Osmanlı'nın 1516 fethi SONRASI kurduğu bir YEREL İDARE DÜZENLEMESİ olarak veriyor ('Osmanlı yönetimine giren bölgenin idaresiyle ilgili yapılan yeni düzenleme sonunda ... Ma'noğulları'na verildi') — bağımsız bir dış devlet değil, Osmanlı sistemi İÇİNDE bir özerklik. Boğdan/Eflak/Kırım/Sırbistan emsali BİREBİR uyuyor.",
+      "Cebel-i Lübnan Mutasarrıflığı: bizzat bir OSMANLI SANCAĞI (mutasarrıflık = sancak yöneticiliği), yalnız valisi uluslararası garantiyle atanıyordu. Bu da Sırbistan Prensliği'nin 1856 sonrası (Paris Antlaşması garantili) statüsüyle AYNI SINIF.",
+      "CLAUDE.md §3: 'OSMANLI ile tâbi çelişki SAYILMAZ' kuralı burada TAM olarak işliyor — ikisi de Osmanlı sistemi içinde, ayrımın bilerek yan yana durduğu bir örnek daha."
+    ],
+    "d_alani_notu": "Künyenin kendisi 'd:' (Osmanlı doğrudan) alanına GİRMİYOR — bu bir devletler.js künyesi, yerleşim d: alanı ayrı bir konudur ve ② başlığında ele alındı (Beyrut/Sayda/Trablusşam zaten d: ile doğru modellenmiş, DEĞİŞMEMELİ)."
+  },
+
+  "⑤_ek_bulgu_bolge_sozluk_tutarsizligi": {
+    "not": "DİZİN TAMLIK görevinden taşınan bulgu, burada TEKRAR TEYIT edildi: devletler.js başlığındaki KAPALI SÖZLÜK 'mezopotamya' ve 'suriye-filistin' bölgelerini tanımlıyor ama HİÇBİR künye bunları kullanmıyor (0/627) — bütün Levant içeriği 'arabistan'a sıkıştırılmış. Bu künyeleri yazarken AYNI 'arabistan' etiketini kullandım (tutarlılık için) ama şema tutarsızlığı KENDİSİ çözülmedi — ayrı bir karar/iş."
+  }
+}
