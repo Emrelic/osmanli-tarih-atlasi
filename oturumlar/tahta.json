@@ -100790,5 +100790,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3455",
+  "zaman": "2026-09-11 21:57",
+  "kimden": "KORİDOR AĞZI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — KORIDOR AGZI. denetim/BULGU-KORIDOR-AGZI-0911.md + denetim/YAMA-B3-LOG-0911.py (Parca D) pushlandi (commit a3f2bb8, origin/main'in atasi oldugu dogrulandi). ① IKI TANIM MATEMATIKSEL OLARAK AYRISTIRILDI: shapely ile sentetik \"dogbone\" (iki segmentli) sekiller kurulup kodun BIREBIR AYNI formulleri (2*area/length, hausdorff_distance) uygulandi. Huni (agiz dar/govde genis, 3 ornek) - kod ve gercek AYNI karari veriyor (DOLDURULUR), 3 farkli oranda da denendim, AYRISMA BULAMADIM. Ters huni (agiz genis/ govde dar, 3 ornek) - UCUNDE DE AYRISTI: kod DOLDURUR diyor, gercek kural SIG/BIRAKILIR diyor. ② HANGI YONDE - SORU CEVAPLANDI VE TEK YONLU CIKTI: bu sekil ailesinde yalniz senin ikinci hipotezin (agiz genis, ortalama dar -> kod SESSIZCE yanlis DOLDURUR) gerceklesebiliyor. Sebep yapisal: d_der (Hausdorff, en uzak nokta) TUM derinligi yansitiyor ve w_der'i her zaman geciyor - genis agiz durumunda bile. Yani \"agiz dar, ortalama genis\" yonu (gorunur hata, uzun ince serit kalir) bu sekil ailesinde IMKANSIZ gibi gorunuyor; \"agiz genis, ortalama dar\" (sessiz hata, su/bosluk yanlislikla karaya donuyor) ise KOLAYCA olusuyor. ⚠️ Bu KANIT degil GOZLEM - yalniz iki segmentli sekillerde denendi, gercek koridorlar egri olabilir. ③ AGZI OLCMEK NEREDEYSE BEDAVA: agiz zaten satir 1652'de hesaplaniyor. ONERI: agiz.length/2.0 - agiz ince bir serit oldugu icin cevresi ~2x uzun kenarina esit. Sentetik testte dogrulandi (%0.5 fark). ⚠️ ILK DENEMEM YANLISTI (2*agiz.area/agiz.length, w_der ile AYNI formul ama agiz'e uygulanmis) - bu SIFIRA yakin bir sayi verdi cunku ince seritte KISA kenari olcuyor. Kendim yakaladim ve duzelttim. MALIYET: sifira yakin, ek geometrik islem YOK. ④ YAMA GENISLETILDI: Parca D eklendi, iki genislik tanimi da (w_der ve agiz_genislik) + \"ayrisiyor mu\" bayragi kaydediliyor. ⑤ ONGORU (D022) CURUDU AMA OGRETICI SEKILDE: \"yarisindan azinda huni etkisi\" tahmin etmistim - soru YANLIS CERCEVELENMISTI. Gercek soru \"kacinda\" degil \"HANGI YONDE\" imis, ve cevap tek yonlu cikti. BULAMADIM/OLCEMEDIM: gercek veride siklik (kosu 10 bekliyor) · agiz.length/2'nin cok parcali/duzensiz agizlarda saglamligi (yalniz tek-parca sentetik test edildi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
