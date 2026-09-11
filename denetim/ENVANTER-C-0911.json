@@ -1,0 +1,1419 @@
+{
+ "meta": {
+  "olusturan": "C ANTLAŞMA ENVANTERİ",
+  "tarih": "2026-09-11",
+  "evren_1": "data/savaslar.js window.ANTLASMALAR — 41 kayit",
+  "evren_2": "data/olaylar*.js (35 dosya) icinde k:\"antlasma\" kategorili kronoloji maddesi — 103 kayit",
+  "not_kronoloji_js_haric": "gorev tanimi literal olarak 'data/olaylar*.js' dedi; data/kronoloji_*.js (deep-kronoloji kuyrugu, 40 dosya) TARANMADI. Ayrica sinir DEGERLENDIRMESI icin karsit sinyal olan diger k degerleri (fetih, savas, kayip vb.) de taranmadi -- yalnizca k:antlasma.",
+  "damga_kurali": "NET_SINIR = metin en az bir isimli yer (nehir/dag/sehir/bolge/ada) uzerinden bir devletten/tarafdan digerine gecen/taninan somut bir toprak/tasarruf degisikligi tarif ediyor. ETMIYOR = salt ittifak, ticaret, haraç, ic yonetim, tanima/statü degisikligi -- hicbir isimli yer toprak/tasarruf DEGISTIRMIYOR. OLCULEMEDI: bu turda hic cikmadi (butun kayitlarin govdesi okunabildi).",
+  "kalibrasyon_riski": "Bircok kayit SINIRDA (orn. protektora/himaye ilanlari -- Bahreyn, Katar, Umman, Somali -- isimli bolgeyi taniyor ama YENI bir HAT cizmiyor, var olan bir adanin/yarimadanin statusunu degistiriyor). Bu envanterde GENIS/CÖMERT olcut kullanildi ('en az bir isimli yer degisiyor'); DAR olcutle ('nehir/dag/hat kelimesi gecmeli') sayi ~20-25 kayit daha dusebilir. C ŞEMA PİLOT bu farki bilerek kullansin.",
+  "ongoru_notu": "D022 ihlal edildi: olcumden ONCE yazilmis bir ongoru YOK -- bu oturum dogrudan olcume gecti. Bu bir surec eksigi olarak BURADA bildiriliyor, geriye donuk ongoru UYDURULMADI."
+ },
+ "ozet": {
+  "toplam": 144,
+  "NET_SINIR": 116,
+  "ETMIYOR": 28,
+  "OLCULEMEDI": 0
+ },
+ "kayitlar": [
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Edirne-Segedin",
+   "tarih": "1444-06-12",
+   "taraflar": "Macaristan-Sırbistan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Sırp Despotluğu'nun (Semendire dahil) toprakları Osmanlı'dan Sırp Despotu Đurađ Branković'e iade edildi."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "İstanbul (Venedik)",
+   "tarih": "1479-01-25",
+   "taraflar": "Venedik",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "İşkodra ve Arnavutluk kıyısı Venedik'ten Osmanlı'ya geçti; Venedik Ege'deki bazı adalarını korudu, yıllık haraç ödemeyi kabul etti."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Amasya",
+   "tarih": "1555-05-29",
+   "taraflar": "Safevî",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Irak-ı Arab (Bağdat dahil) ve Doğu Anadolu Osmanlı'da kaldı; Revan ve Karabağ Safevî'de kaldı — ilk resmî Osmanlı-Safevî sınırı çizildi."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Ferhad Paşa (İstanbul)",
+   "tarih": "1590-03-21",
+   "taraflar": "Safevî",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Tebriz, Karabağ, Şirvan, Gürcistan ve Luristan'ın bir kısmı Safevî'den Osmanlı'ya geçti — Osmanlı'nın doğuda ulaştığı en geniş sınır."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Zitvatorok",
+   "tarih": "1606-11-11",
+   "taraflar": "Habsburg",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Nasuh Paşa",
+   "tarih": "1612-11-20",
+   "taraflar": "Safevî",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Tebriz, Karabağ, Şirvan ve Gürcistan Osmanlı'dan Safevî'ye geri döndü — sınır 1555 Amasya hattına çekildi."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Kasr-ı Şirin",
+   "tarih": "1639-05-17",
+   "taraflar": "Safevî",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Bağdat ve Irak-ı Arab kesin olarak Osmanlı'da kaldı; Revan ve Karabağ Safevî'de kaldı — bugünkü Türkiye-İran-Irak sınırının temeli atıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Bucaş",
+   "tarih": "1672-10-18",
+   "taraflar": "Lehistan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Podolya (Kamaniçe dahil) Lehistan'dan Osmanlı'ya geçti, Podolya Eyaleti kuruldu; Ukrayna'daki Kazak toprakları üzerinde Osmanlı himayesi tanındı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Karlofça",
+   "tarih": "1699-01-26",
+   "taraflar": "Kutsal İttifak",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Macaristan ve Erdel Osmanlı'dan Habsburg'a; Podolya Osmanlı'dan Lehistan'a; Mora ve Dalmaçya kıyıları Osmanlı'dan Venedik'e geçti. Azak konusu ayrı olarak Rusya ile 1700 İstanbul Antlaşması'na bırakıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Prut",
+   "tarih": "1711-07-21",
+   "taraflar": "Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Azak Kalesi ve çevresi Rusya'dan Osmanlı'ya geri döndü; Rusya Karadeniz kıyısındaki tahkimatını yıktı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Pasarofça",
+   "tarih": "1718-07-21",
+   "taraflar": "Habsburg-Venedik",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Belgrad, Semendire ve kuzey Sırbistan ile Batı Eflak Osmanlı'dan Habsburg'a geçti; buna karşılık Mora Venedik'ten Osmanlı'ya geri alındı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Belgrad",
+   "tarih": "1739-09-18",
+   "taraflar": "Habsburg-Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Belgrad ve kuzey Sırbistan ile Batı Eflak Habsburg'dan Osmanlı'ya geri alındı; Rusya'ya Azak yıkılmak şartıyla bırakıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Küçük Kaynarca",
+   "tarih": "1774-07-21",
+   "taraflar": "Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Kırım Hanlığı Osmanlı egemenliğinden çıkıp siyaseten bağımsız ilan edildi (dinî bağ hilafette kaldı); Rusya Karadeniz kıyısında Kerç, Yenikale ve Azak'ı aldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Bükreş",
+   "tarih": "1812-05-28",
+   "taraflar": "Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Besarabya (Prut-Dinyester arası) Osmanlı'ya bağlı Boğdan'dan koparılıp Rusya'ya bırakıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Edirne",
+   "tarih": "1829-09-14",
+   "taraflar": "Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Tuna deltasındaki adalar ve Ahıska-Ahılkelek Rusya'ya bırakıldı; Eflak ve Boğdan'da Rus işgali sona erdi ama özerklik genişledi; Yunanistan'ın bağımsızlığının önü açıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Londra Protokolü",
+   "tarih": "1830-02-03",
+   "taraflar": "İng-Fra-Rus",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Mora ve orta Yunanistan Osmanlı'dan ayrılıp bağımsız Yunanistan Krallığı'na verildi."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Kütahya Sözleşmesi",
+   "tarih": "1833-05-14",
+   "taraflar": "Mısır (Kavalalı)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Suriye, Filistin, Adana ve Girit valilikleri Osmanlı merkezinden Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın idaresine bırakıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Hünkâr İskelesi",
+   "tarih": "1833-07-08",
+   "taraflar": "Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak el değiştirmedi; karşılıklı savunma ittifakı kuruldu, gizli maddeyle Boğazlar üçüncü devletlerin savaş gemilerine Rusya lehine kapatıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Balta Limanı",
+   "tarih": "1838-08-16",
+   "taraflar": "İngiltere",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak konusu yok; iç tekeller kaldırıldı, İngiliz mallarına düşük gümrük ve serbest ticaret hakkı tanındı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Londra (Mısır)",
+   "tarih": "1840-07-15",
+   "taraflar": "İng-Rus-Avu-Prusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Mehmed Ali Paşa'ya Mısır'ın irsî valiliği karşılığında Suriye, Adana, Girit ve Hicaz'ı Osmanlı'ya iade etmesi şartı koşuldu."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "İskenderiye Konvansiyonu",
+   "tarih": "1840-11-27",
+   "taraflar": "Mısır (Kavalalı)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Suriye, Filistin, Adana, Girit ve Hicaz Mehmed Ali'den Osmanlı merkezine geri döndü; Mısır ve Sudan'ın irsî valiliği Mehmed Ali hanedanında bırakıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Londra Boğazlar Sözleşmesi",
+   "tarih": "1841-07-13",
+   "taraflar": "Büyük devletler",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak konusu yok; Boğazlar barış zamanında bütün yabancı savaş gemilerine kapatıldı, Hünkâr İskelesi'nin Rusya'ya tanıdığı ayrıcalık kaldırıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Paris",
+   "tarih": "1856-03-30",
+   "taraflar": "Avrupa devletleri",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Güney Besarabya Rusya'dan geri alınıp Boğdan'a katıldı; Karadeniz tarafsızlaştırılıp bütün devletlerin savaş gemilerine kapatıldı; Eflak-Boğdan'ın özerkliği güvence altına alındı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Berlin",
+   "tarih": "1878-07-13",
+   "taraflar": "Büyük devletler",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Sırbistan, Romanya ve Karadağ tam bağımsızlığını kazandı (toprakları büyüdü); küçültülmüş özerk Bulgaristan Prensliği kuruldu, Rumeli-i Şarkî ayrı özerk vilayet oldu; Bosna-Hersek'in idaresi Osmanlı'dan Avusturya-Macaristan'a geçti (egemenlik nominal Osmanlı'da kaldı); Kars, Ardahan, Batum Rusya'ya bırakıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Uşi",
+   "tarih": "1912-10-18",
+   "taraflar": "İtalya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Trablusgarp ve Bingazi (Libya) Osmanlı'dan İtalya'ya geçti; Oniki Ada İtalya'ya \\"
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Londra",
+   "tarih": "1913-05-30",
+   "taraflar": "Balkan devletleri",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Midye-Enez hattının batısındaki bütün Rumeli toprakları (Selanik, Yanya, Girit dahil) Osmanlı'dan Balkan devletlerine bırakıldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Mondros Mütarekesi",
+   "tarih": "1918-10-30",
+   "taraflar": "İtilaf devletleri",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Sevr",
+   "tarih": "1920-08-10",
+   "taraflar": "İtilaf devletleri",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Kars",
+   "tarih": "1921-10-13",
+   "taraflar": "Kafkas cumhuriyetleri",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Kars, Ardahan ve Iğdır Sovyet Ermenistan ve Gürcistan'dan TBMM Türkiyesi'ne kesin olarak geçti — bugünkü doğu sınırı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Mudanya Mütarekesi",
+   "tarih": "1922-10-11",
+   "taraflar": "İtilaf devletleri",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Doğu Trakya, Yunan işgalinden çıkıp savaş yapılmadan TBMM Türkiyesi'ne bırakıldı; İstanbul ve Boğazlar TBMM idaresine geçene dek İtilaf kuvvetlerinde kaldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Lozan",
+   "tarih": "1923-07-24",
+   "taraflar": "İtilaf devletleri",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Kerden",
+   "tarih": "1746-09-04",
+   "taraflar": "Afşar (Nadir Şah)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak el değiştirmedi; 1730'lardan beri tartışmalı Bağdat-Kirkük hattı 1639 Kasr-ı Şirin sınırına göre teyit edildi."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Sırbistan özerklik fermanı",
+   "tarih": "1830-08-30",
+   "taraflar": "Sırbistan Prensliği",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak el değiştirmedi; Sırbistan Prensliği'ne (1804-1815 isyanlarının sonucu) geniş iç özerklik ve kendi ordusunu kurma hakkı tanındı, yıllık haraca bağlı vasal statüsü resmileşti."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Serav",
+   "tarih": "1618-09-26",
+   "taraflar": "Safevî",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak el değiştirmedi (1612 sınırı korundu); Osmanlı'nın istediği yıllık ipek/haraç ödemesi Safevî'ce kabul edilmedi — gerilim 1623'te Bağdat'ın kaybına giden savaşı doğurdu."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Vasvar",
+   "tarih": "1664-08-09",
+   "taraflar": "Habsburg",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak büyük ölçüde korundu — Uyvar ve Novigrad (savaş sırasında alınmıştı) Osmanlı'da kaldı; buna karşılık Erdel'de Habsburg'un adayı tanındı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Ziştovi",
+   "tarih": "1791-08-04",
+   "taraflar": "Habsburg",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak el değiştirmedi — Avusturya savaş sırasında aldığı Belgrad ve Sırbistan'ı boşaltıp 1788 öncesi sınıra döndü."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Yaş",
+   "tarih": "1792-01-10",
+   "taraflar": "Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Bug-Dinyester arası (Yedisan) Rusya'ya bırakıldı; Rusya'nın 1783'te ilhak ettiği Kırım tanındı; Boğdan ve Eflak Osmanlı'da kaldı."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Akkerman",
+   "tarih": "1826-10-07",
+   "taraflar": "Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Toprak el değiştirmedi; Sırbistan'ın ve Eflak-Boğdan'ın özerkliği genişletildi, Rusya'nın Kafkasya'daki 1812 sınır kazanımları teyit edildi."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Ayastefanos (San Stefano)",
+   "tarih": "1878-03-03",
+   "taraflar": "Rusya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Ege'ye kadar uzanan büyük özerk Bulgaristan, Sırbistan/Karadağ/Romanya'nın tam bağımsızlığı ve Kars-Ardahan-Batum Rusya'ya öngörüldü; büyük devletlerin itirazıyla Berlin Kongresi'nde küçültüldü."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "İstanbul (Bulgaristan, 1913)",
+   "tarih": "1913-09-29",
+   "taraflar": "Bulgaristan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Edirne ve Kırklareli, II. Balkan Savaşı'nda geri alındığı gibi Osmanlı'da kesin kaldı; sınır Meriç'in biraz doğusundan çizildi."
+  },
+  {
+   "evren": "savaslar.js/ANTLASMALAR",
+   "ad": "Atina",
+   "tarih": "1913-11-14",
+   "taraflar": "Yunanistan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "data/savaslar.js ANTLASMALAR[].topraklar alani (Oturum 10'da yazilmis, TDV/akademik kaynakli)",
+   "hat_ozeti": "Girit'in fiilen 1908'den beri süren Yunanistan'a bağlılığı Osmanlı tarafından resmen tanındı; Ege adalarının statüsü büyük devletlere bırakıldı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Amasya Antlaşması",
+   "tarih": "1555-05-29",
+   "yer": "Amasya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: amasya-antlasmasi",
+   "hat_ozeti": "Yıllarca süren Osmanlı-Safevî savaşlarını bitiren ilk resmî barış antlaşmasıdır. Bağdat ve Irak Osmanlı'da kaldı, Doğu Anadolu sınırı ilk kez karşılıklı tanındı; Safevîler Osmanlı ülkesindeki Şiî propagandasını durdurmayı, Osmanlılar da İranlı hacıların geçiş güvenliğini üstlendi. Antlaşma, iki devlet arasındaki ilişkilerin hukukî çerçevesinin ilk örneği oldu."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Zitvatorok Antlaşması",
+   "tarih": "1606-11-11",
+   "yer": "Zsitva suyu ağzı, Macaristan",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: zitvatorok-antlasmasi",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Kasr-ı Şirin Antlaşması",
+   "tarih": "1639-05-17",
+   "yer": "Kasr-ı Şirin",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: kasr-i-sirin-antlasmasi",
+   "hat_ozeti": "IV. Murad'ın Bağdat'ı geri almasının (1638) ardından imzalanan antlaşma, yüz yılı aşkın Osmanlı-Safevî savaşlarına son verdi. Bağdat ve Irak kesin olarak Osmanlı'da kaldı, Revan Safevîlere bırakıldı; çizilen hat, küçük değişikliklerle bugünkü Türkiye-İran sınırının temeli oldu ve dünyanın en uzun ömürlü sınırlarından biri sayılır."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Bucaş Antlaşması — en geniş sınırlar",
+   "tarih": "1672-10-18",
+   "yer": "Bucaş, Podolya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bucas-antlasmasi",
+   "hat_ozeti": "Lehistan seferinde Kamaniçe'nin fethinin ardından imzalanan Bucaş Antlaşması'yla Podolya Osmanlı'ya katıldı ve Ukrayna'nın bir bölümü himaye altına alındı. İmparatorluk böylece Avrupa'daki en geniş sınırlarına ulaştı; bu nokta, genişleme çağının zirvesi ve aynı zamanda son halkası kabul edilir."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+   "tarih": "1699-01-26",
+   "yer": "Karlofça, Sırbistan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: karlofca",
+   "hat_ozeti": "On altı yıllık Kutsal İttifak savaşlarını bitiren Karlofça'yla Macaristan ve Erdel Avusturya'ya, Podolya Lehistan'a, Mora ve Dalmaçya kıyıları Venedik'e bırakıldı. Osmanlı tarihinde ilk kez bu ölçekte toprak, masa başında ve kalıcı olarak elden çıkıyordu; antlaşma, imparatorluğun Avrupa karşısında savunmaya geçtiği yeni çağın başlangıç belgesi sayılır ve Osmanlı diplomasi tarihinin de dönüm noktasıdır."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Prut Zaferi",
+   "tarih": "1711-07-19",
+   "yer": "Prut nehri kıyısı, Boğdan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: prut-antlasmasi",
+   "hat_ozeti": "Poltava yenilgisinden sonra Osmanlı'ya sığınan İsveç kralı meselesi yüzünden çıkan savaşta, Çar I. Petro'nun ordusu Prut kıyısında kuşatılarak teslim olmak zorunda kaldı. İmzalanan antlaşmayla Azak geri alındı; ordunun imha edilmemesi ve çarın serbest bırakılması ise o günden bugüne tartışılan bir karar olarak tarihe geçti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı",
+   "tarih": "1739-09-18",
+   "yer": "Belgrad",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: belgrad-antlasmalari",
+   "hat_ozeti": "Avusturya ve Rusya'ya karşı iki cephede yürütülen savaşın (1736–1739) sonunda Belgrad ve Kuzey Sırbistan geri alındı; Rusya Azak'ı silahsızlandırmayı ve Karadeniz'de donanma bulundurmamayı kabul etti. 18. yüzyıl Osmanlı diplomasisinin ve ordusunun son büyük başarısı sayılan antlaşma, imparatorluğa çeyrek yüzyıllık bir barış dönemi kazandırdı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Küçük Kaynarca Antlaşması",
+   "tarih": "1774-07-21",
+   "yer": "Küçük Kaynarca, Dobruca",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: kucuk-kaynarca-antlasmasi",
+   "hat_ozeti": "1768–1774 savaşını bitiren ve Osmanlı tarihinin en ağır antlaşmalarından sayılan Küçük Kaynarca'yla Kırım Hanlığı'na 'bağımsızlık' verildi — fiilen Rus nüfuz alanı yaratılmış oldu. Rusya Karadeniz kıyısına yerleşti, ticaret gemilerine Boğazlardan geçiş hakkı ve İstanbul'da daimî elçilik kazandı; Ortodoks tebaa üzerindeki muğlak himaye kaydı, sonraki yüzyılın müdahale gerekçelerinin kapısını araladı. İlk kez halkı Müslüman bir toprak Osmanlı hâkimiyetinden çıkarılıyordu."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Sened-i İttifak",
+   "tarih": "1808-10-07",
+   "yer": "İstanbul, Kâğıthane",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: sened-i-ittifak",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Berlin Antlaşması",
+   "tarih": "1878-07-13",
+   "yer": "Berlin",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: berlin-antlasmasi",
+   "hat_ozeti": "Ayastefanos'un yarattığı 'Büyük Bulgaristan'ı büyük devletler dengesi adına revize eden Berlin Kongresi, yine de ağır bir tablo bıraktı: Sırbistan, Karadağ ve Romanya bağımsız oldu; özerk Bulgaristan Prensliği kuruldu; Bosna-Hersek Avusturya işgaline, Kıbrıs İngiliz idaresine, Kars-Ardahan-Batum Rusya'ya bırakıldı. Rumeli'deki beş yüz yıllık Osmanlı düzeni büyük ölçüde çözüldü; 'şark meselesi' Avrupa diplomasisinin sürekli gündemi hâline geldi. Aynı tarihte elden çıkan diğer yerleşimler: Filibe, Vidin, Tırnova, Varna, Şumnu, Silistre, Rusçuk, Bükreş, Yaş, Köstence."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Mondros Mütarekesi",
+   "tarih": "1918-10-30",
+   "yer": "Limni adası, Mondros limanı",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: mondros-mutarekesi",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar.js",
+   "ad": "Lozan Antlaşması",
+   "tarih": "1923-07-24",
+   "yer": "Lozan, İsviçre",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: lozan-antlasmasi",
+   "hat_ozeti": "Sekiz ay süren çetin müzakerelerin sonunda imzalanan Lozan Barış Antlaşması'yla yeni Türk devletinin sınırları, tam bağımsızlığı ve egemenliği uluslararası alanda tanındı; kapitülasyonlar kaldırıldı, Düyûn-ı Umûmiyye tasfiye sürecine sokuldu, nüfus mübadelesi düzenlendi. Sevr'i fiilen hükümsüz kılan Lozan, Millî Mücadele'nin diplomatik zaferi ve Cumhuriyet'in kurucu dış belgesi kabul edilir."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek.js",
+   "ad": "Osmanlı-Ceneviz ahidnâmesi — 1352 antlaşmasının yenilenmesi",
+   "tarih": "1387-06-08",
+   "yer": "Pera (Galata)",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: ceneviz",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek.js",
+   "ad": "İstanbul Antlaşması — Arnavutluk ve İşkodra",
+   "tarih": "1479-01-25",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: iskodra",
+   "hat_ozeti": "16 yıllık Osmanlı-Venedik savaşı bitti; İşkodra ve Arnavutluk kıyıları Osmanlı'da kaldı. Aynı tarihte haritaya katılan diğer yerleşimler: Limni, Sisam, Bozbaba (Ay Strati)."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek.js",
+   "ad": "Bükreş Antlaşması — Besarabya'nın kaybı",
+   "tarih": "1812-05-28",
+   "yer": "Bükreş",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bukres-antlasmalari",
+   "hat_ozeti": "1806-1812 Rus savaşını bitiren antlaşmayla Prut'un doğusu (Besarabya) Rusya'ya bırakıldı. Aynı tarihte elden çıkan diğer yerleşimler: Akkirman, Kili, Hotin, Bender, İsmail."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek.js",
+   "ad": "Edirne Antlaşması",
+   "tarih": "1829-09-14",
+   "yer": "Edirne",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: edirne-antlasmasi",
+   "hat_ozeti": "Rus ordusunun Edirne'ye girdiği savaşın sonunda Tuna deltası kaybedildi; Yunanistan'ın özerkliği/bağımsızlığı fiilen kabul edildi. Aynı tarihte elden çıkan diğer yerleşimler: İbrail, Anapa, Ahıska."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek.js",
+   "ad": "Kars Antlaşması",
+   "tarih": "1921-10-13",
+   "yer": "Kars",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: kars",
+   "hat_ozeti": "TBMM ile Kafkas cumhuriyetleri arasında doğu sınırı bugünkü hâliyle çizildi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek.js",
+   "ad": "Süleyman Çelebi – Bizans antlaşması: Selanik'in iadesi",
+   "tarih": "1403-06-01",
+   "yer": "Gelibolu",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: suleyman-celebi-emir",
+   "hat_ozeti": "Fetret'te Rumeli'ye hükmeden Süleyman Çelebi, Bizans ve Latin devletleriyle anlaşarak Selanik ile bazı kıyı bölgelerini iade etti; haritada Selanik bu tarihte Osmanlı'dan çıkar."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek.js",
+   "ad": "Edirne-Segedin Antlaşması",
+   "tarih": "1444-06-12",
+   "yer": "Edirne ve Segedin",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: edirne-segedin-antlasmalari",
+   "hat_ozeti": "On yıllık barış: Sırp despotluğu iade edildi, Tuna sınır kabul edildi. Antlaşmanın papalık kışkırtmasıyla aylar içinde bozulması, Varna felaketine yol açtı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek11.js",
+   "ad": "Tanca İngiltere'ye devredildi",
+   "tarih": "1662-01-30",
+   "yer": "Tanca — Fas",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: None",
+   "hat_ozeti": "Portekiz'in bağımsızlık savaşında İngiliz desteğini sağlamak için yapılan evlilik antlaşmasının (23 Haziran 1661) ikinci maddesi Tanca'yı Catherine de Braganza'nın çeyizi olarak İngiltere'ye bırakıyordu. Sandwich Kontu'nun filosu 29 Ocak 1662'de demirledi ve ertesi gün Peterborough Kontu'nun töreniyle resmî devir yapıldı. Atlas bu kaydı önce 23 Ocak 1661 olarak taşıyordu — antlaşma günüyle fiilî devir günü arasında bir karışma; Bombay için zaten fiilî devir tarihi (18 Şubat 1665) yazıldığından aynı ölçüt Tanca'ya da uygulandı. İngilizler şehri 1684'te terk edecekti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek13.js",
+   "ad": "Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
+   "tarih": "1861-05-31",
+   "yer": "Bahreyn (Evâl adaları)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bahreyn",
+   "hat_ozeti": "TDV'nin kaydına göre \\"
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
+   "tarih": "1797-10-17",
+   "yer": "Split (Spalato), Zadar (Zara), Şibenik (Sebenico), Dubrovnik çevresi, Kotor (Cattaro), Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), Preveze, Parga",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı",
+   "hat_ozeti": "Napolyon Bonapart ile Avusturya temsilcisi Kont Cobenzl arasında 17 Ekim 1797'de imzalanan Campo Formio Antlaşması, bin yıllık Venedik Cumhuriyeti'ni resmen ortadan kaldırdı ve topraklarını paylaştırdı: Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya bırakıldı, Oniki Ada ve İyon Adaları (Korfu, Kefalonya, Zakynthos, Lefkada, Preveze ve Parga dahil Venedik'in Arnavutluk-Mora kıyısındaki üsleri) ise Fransa'ya geçti. Avusturya ayrıca Alçak Ülkeler'deki (bugünkü Belçika) topraklarını Fransa'ya bıraktı. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Campo Formio')."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
+   "tarih": "1809-09-17",
+   "yer": "Helsinki, Turku (Åbo), Tampere, Oulu, Kuopio, Vaasa, Mikkeli, Hämeenlinna, Pori, Jyväskylä",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı",
+   "hat_ozeti": "1808-1809 Rus-İsveç Savaşı'nı sona erdiren Fredrikshamn (bugünkü Hamina) Antlaşması 17 Eylül 1809'da imzalandı; İsveç, Åland Adaları dahil bütün Finlandiya'yı Rusya'ya bıraktı. Finlandiya, Rus İmparatorluğu'na bağlı geniş özerkliğe sahip bir Büyük Dükalık statüsüne kavuştu ve Luteran inancıyla İsveç hukukunu korudu. Bu, İsveç'in Baltık'taki büyük güç statüsünün fiilen sona ermesi anlamına geliyordu. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Hamina')."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
+   "tarih": "1814-01-14",
+   "yer": "Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Kristiansand, Haugesund, Lillehammer, Skien, Sogndal, Tønsberg, Mosjøen, Røros",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı",
+   "hat_ozeti": "Napolyon'un Leipzig'de yenilgisinin ardından Danimarka'ya güneyden saldıran İsveç, 14 Ocak 1814'te imzalanan Kiel Antlaşması ile Norveç'i (İzlanda, Faroe Adaları ve Grönland hariç) devraldı — 1380'den beri süren Danimarka-Norveç birliği böylece resmen sona erdi. Karşılığında İsveç, Pomeranya'daki topraklarını Danimarka'ya bıraktı; Danimarka ayrıca Helgoland'ı İngiltere'ye devretti. Norveç antlaşmaya silahla direnip kendi anayasasını ilân etti ve İsveç bunu tanımak zorunda kaldı — sonuç, 1905'e kadar sürecek bir kişisel birlik (real union) oldu. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Kiel')."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
+   "tarih": "1772-08-05",
+   "yer": "Daugavpils (Dünaburg), Polotsk, Vitebsk, Lvov, Yazlofça (Yazlovets)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı",
+   "hat_ozeti": "Rusya, Prusya ve Avusturya arasında 5 Ağustos 1772'de imzalanan antlaşmayla Polonya-Litvanya Devletler Birliği topraklarının yaklaşık üçte biri paylaşıldı: Rusya bugünkü Belarus ve Letonya'nın bir kısmını (Dünaburg, Polotsk, Vitebsk dahil) aldı, Avusturya ise Galiçya'yı (Lvov ve batı Podolya, Yazlovets dahil) ilhak etti; Prusya kıyı bölgesi Kraliyet Prusyası'nı devraldı. Polonya Seymi antlaşmayı ancak 30 Eylül 1773'te, baskı altında onayladı. Bu, 1795'e kadar sürecek üç paylaşımın ilkiydi. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland')."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
+   "tarih": "1793-01-23",
+   "yer": "Bar (Podolya), Kamaniçe, Meciboj (Mejibuji), Minsk, Çehrin (Çigirin), Gdansk, Poznan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı",
+   "hat_ozeti": "1791 anayasa reformlarının Rusya ve Prusya'yı tedirgin etmesi üzerine, iki devlet 23 Ocak 1793'te St. Petersburg'da imzaladıkları antlaşmayla Polonya'yı yeniden paylaştı: Rusya Litvanya-Belarus'un büyük bölümünü ve batı Ukrayna'yı (Kamaniçe, Bar, Minsk dahil) aldı, Prusya ise Gdansk ve Poznan'ı içeren Büyük Polonya'yı ilhak etti — toplam 307.000 km². Baskı altındaki Polonya Seymi antlaşmayı aynı yıl onaylamak zorunda kaldı; bu, Polonya'nın tam ilhakını iki yıl erteleyen kısa ömürlü bir paylaşımdı. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland')."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması",
+   "tarih": "1795-10-24",
+   "yer": "Kaunas, Krakov, Varşova, Vilnius, Šiauliai",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı",
+   "hat_ozeti": "Rusya, Prusya ve Avusturya, 24 Ekim 1795'te St. Petersburg'da imzaladıkları üçlü sözleşmeyle Polonya-Litvanya Devletler Birliği'nin kalan topraklarını tamamen paylaştılar: Rusya Litvanya (Vilnius, Kaunas dahil) ve Belarus'un kalanını aldı, Prusya Varşova dahil orta Polonya'yı, Avusturya ise Krakov dahil güney bölgeyi ilhak etti. Üç devlet ayrıca birbirlerinin yeni topraklarını askerî olarak garanti altına aldı ve Polonya'nın yeniden kurulması ihtimaline karşı önlem aldı. Bu, Polonya-Litvanya devletinin bağımsız bir ülke olarak tamamen ortadan kalkışıdır; XX. yüzyıla kadar yeniden kurulmayacaktır. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland')."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı",
+   "tarih": "1884-07-18",
+   "yer": "Berbera, Bulhar, Hargeysa, Burao, Erigavo, Borama, Lasanod, Odveyne, Buhodle, Ceel Afveyn, Hîs, Lâs Hore, Mayd, Taleh, Şeyh (Somaliland)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: somali",
+   "hat_ozeti": "TDV'nin Somali maddesine göre Zeyla, Berberâ ve Tâcûre 1884'te İngilizler tarafından Somaliland adıyla sömürgeleştirildi; standart akademik kaynağa göre bu süreç Berbera'da 21 Ramazan 1301'e (14 Temmuz 1884) rastlayan Habar Avel kabilesiyle imzalanan antlaşmayla başladı ve 1884-1886 arasında Gadabursi, Habar Tolcaala, Habar Gerhacis, İse ve Warsangeli kabileleriyle benzer antlaşmalar imzalanarak genişledi; İngiltere karşılığında askerî koruma vaat etti. Bu antlaşmalar zinciri 1887'de resmî Britanya Somaliland Himayesi'nin ilânına zemin hazırladı. ⚠️ TDV kesin gün vermiyor; tam tarih standart akademik kaynağa (antlaşma metinleri) dayanıyor."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — Haçlı devletinin sonu",
+   "tarih": "1489-02-26",
+   "yer": "Lefkoşa, Magosa, Girne, Baf, Limasol, Tuzla (Larnaka)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)",
+   "hat_ozeti": "Kocası Kral II. Jacques'in 1473'te ölümünden sonra kraliçe naibi olarak Kıbrıs'ı yöneten Venedikli Katerina Cornaro, mirasçısı olmadığı için Venedik hükûmetinin baskısıyla 26 Şubat 1489'da tahttan çekilerek adadaki hükümdarlık haklarını doge'ye ve Venedik Cumhuriyeti'ne devretti; karşılığında kraliçe unvanını korudu ve Terraferma'da Asolo kontluğunu aldı. Bu devirle 1192'den beri süren Lüzinyan (Lusignan) hânedanı hâkimiyeti ve son Haçlı devleti sona erdi, ada 1570-71 Osmanlı fethine kadar Venedik idaresinde kaldı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
+   "tarih": "1503-04-02",
+   "yer": "Kiev, Kursk, Nikarya (İkarya), Baturin, Hluhiv, Novgorod-Seversk, Orel, Poltava, Putivl, Çernigov",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Moskova-Litvanya savaşları tarihyazımı)",
+   "hat_ozeti": "1500-1503 Moskova-Litvanya Savaşı, Macaristan-Bohemya kralı II. Ulászló'nun arabuluculuğuyla altı yıllık bir mütarekeyle sona erdi; Litvanya Büyük Knezliği, Çernigov-Seversk bölgesi (Çernigov, Novgorod-Seversk, Starodub, Bryansk çevresi) ile Smolensk ve Polotsk civarındaki bazı topraklar dahil, Büyük Knezliğin yaklaşık üçte birini oluşturan geniş bir araziyi Moskova Büyük Knezliği'ne bırakmak zorunda kaldı. Bu, Moskova'nın Rus topraklarını 'toplama' sürecinde en büyük tek kazanımlarından biriydi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
+   "tarih": "1561-11-28",
+   "yer": "Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Daugavpils (Dünaburg), Narva",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Livonian War / Treaty of Vilnius tarihyazımı)",
+   "hat_ozeti": "Livonya Savaşı sırasında Rus baskısı altında dağılan Livonya Konfederasyonu'nun son büyük üstadı Gotthard Kettler, 28 Kasım 1561'de Vilnius'ta imzalanan antlaşmayla (Pacta Subiectionis) Litvanya Büyük Knezi ve Lehistan Kralı II. Zygmunt August'un himayesine girdi; Riga şehri hariç Livonya'nın büyük kısmı Lehistan-Litvanya'ya bağlandı, Kettler ise Kurland Dukalığı'nın ilk dükü oldu. Bu, Livonya Şövalye Tarikatı'nın Orta Çağ'dan Yeniçağ'a geçişteki son perdesiydi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İspanya'dan bağımsızlığını ilan etti",
+   "tarih": "1581-07-26",
+   "yer": "Amsterdam, Rotterdam, Utrecht, Groningen, Leeuwarden, Nijmegen, Middelburg",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Act of Abjuration tarihyazımı)",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
+   "tarih": "1714-03-07",
+   "yer": "Milano, Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Ypres, Lüksemburg",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Rastatt tarihyazımı)",
+   "hat_ozeti": "İspanyol Veraset Savaşı'nı Fransa ile Avusturya arasında sona erdiren Rastatt Antlaşması 7 Mart 1714'te imzalandı (Utrecht 1713'te İngiltere-Fransa arasını düzenlemişti); antlaşmayla Avusturya Habsburgları, İspanyol Hollandası'nı (bugünkü Belçika) ve İtalya'daki Napoli, Milano ve Sardunya'yı devraldı. Bu, Avusturya'nın tarihindeki en geniş toprak genişlemesiydi ve Habsburg hanedanının Orta Avrupa'daki ağırlığına Batı ve Güney Avrupa'da yeni bir cephe ekledi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
+   "tarih": "1721-08-30",
+   "yer": "Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Narva, Lappeenranta",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Nystad tarihyazımı)",
+   "hat_ozeti": "21 yıl süren Büyük Kuzey Savaşı'nı sona erdiren Nystad Antlaşması 30 Ağustos 1721'de Finlandiya'da imzalandı; İsveç, Rusya'ya Estonya, Livonya (Riga dahil), İngermanland ve güneydoğu Finlandiya'nın (Karelya) bir bölümünü bıraktı, buna karşılık Finlandiya'nın geri kalanını geri aldı ve tazminat ödendi. Antlaşma, İsveç'in büyük devlet statüsünün sonu ve Rusya'nın bir Avrupa imparatorluğu olarak yükselişinin resmî tescili sayılır — I. Petro bu zaferden sonra 'İmparator' unvanını aldı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi",
+   "tarih": "1815-06-09",
+   "yer": "Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Liège, Lüksemburg, Cenova, Varşova, Stralsund, Ypres",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Congress of Vienna / Final Act tarihyazımı)",
+   "hat_ozeti": "Napolyon Savaşları'nı sona erdiren büyük devletler (Avusturya, Rusya, Prusya, İngiltere, Fransa) arasında imzalanan Viyana Kongresi Nihai Senedi 9 Haziran 1815'te (Waterloo'dan 9 gün önce) kabul edildi ve kıtanın haritasını topluca yeniden çizdi: eski İspanyol/Avusturya Hollandası ile Birleşik Eyaletler 'Birleşik Hollanda Krallığı' altında birleşti, Ceneviz Cumhuriyeti Sardinya-Piyemonte Krallığı'na katıldı, Varşova Dükalığı'nın büyük kısmı 'Kongre Polonyası' adıyla Rusya'ya bağlandı ve İsveç Pomeranyası (Stralsund) Prusya'ya geçti. Bu tek gün, savaş sonrası Avrupa dengesinin (Concert of Europe) resmî başlangıcı sayılır."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+   "tarih": "1617-02-27",
+   "yer": "St. Petersburg (bölgesi), Oreşek (Nöteborg)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Stolbovo tarihyazımı)",
+   "hat_ozeti": "İngriya Savaşı'nı sona erdiren Stolbova Antlaşması, 27 Şubat 1617'de Ladoga Gölü güneyindeki Stolbova köyünde imzalandı; Rusya, Novgorod ve kuzeydeki diğer topraklarını geri alırken, İsveç Karelya ve İngriya'yı (Estonya-Finlandiya arası, İvangorod-Yam-Koporye-Oreşek kaleleri dahil) elinde tuttu ve Rusya'nın Baltık'a doğrudan kıyısı kesildi. Bu kesinti, 1703'te Büyük Petro'nun aynı bölgede St. Petersburg'u kurmasına kadar sürecekti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
+   "tarih": "1618-12-11",
+   "yer": "Smolensk, Çernigov, Novgorod-Seversk",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Deulino tarihyazımı)",
+   "hat_ozeti": "1609-1618 Lehistan-Rus Savaşı'nı sona erdiren Deulino Mütarekesi, 11 Aralık 1618'de imzalandı ve 14,5 yıllık bir ateşkes sağladı; Rusya, Smolensk (Vyazma hariç) ile Çernigov ve Novgorod-Seversk bölgelerindeki 29 şehri Lehistan-Litvanya Birliği'ne bırakmak zorunda kaldı — bu, Kargaşalar Dönemi'nin (Smuta) en ağır toprak kaybıydı. Bölge 1667 Andrusovo Mütarekesi'ne kadar Lehistan'da kalacaktı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
+   "tarih": "1654-01-08",
+   "yer": "Çernigov, Novgorod-Seversk, Baturin",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Pereyaslav Council 1654 tarihyazımı)",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+   "tarih": "1667-02-09",
+   "yer": "Kiev",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Andrusovo tarihyazımı)",
+   "hat_ozeti": "1654-1667 Lehistan-Rus Savaşı'nı sona erdiren Andrusovo Mütarekesi 13,5 yıllık bir ateşkes sağladı; Rusya, Smolensk, Çernigov-Seversk bölgesi ile Dinyeper'in sol yakasındaki Ukrayna'yı ve — başlangıçta iki yıllığına, fiilen kalıcı olarak — Kiev şehrini kazandı. Bu antlaşma, Ukrayna topraklarının Dinyeper boyunca Lehistan ve Rusya arasında bölünmesinin (ve Kiev'in Rusya'da kalmasının) hukuki temelini attı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+   "tarih": "1802-03-25",
+   "yer": "Menorka (Mahon)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Amiens tarihyazımı)",
+   "hat_ozeti": "Fransa, İspanya, Hollanda ve İngiltere arasında imzalanan Amiens Antlaşması (25 Mart 1802), İkinci Koalisyon Savaşı'nı geçici olarak sona erdirdi; İngiltere, savaş sırasında ele geçirdiği hemen bütün toprakları (Seylan ve Trinidad hariç) iade etti — bunlardan biri de 1798'de İspanya'dan alınan Menorka'ydı. Barış yalnız bir yıl sürdü, Mayıs 1803'te savaş yeniden patlak verdi, ama Menorka bu antlaşmadan sonra bir daha İngiliz eline geçmedi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye başladı",
+   "tarih": "1820-01-08",
+   "yer": "Ras el-Hayme (Cülfâr), Şârika, Abu Dabi",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (General Maritime Treaty of 1820 tarihyazımı)",
+   "hat_ozeti": "İngiltere, 1819'da Ras el-Hayme'yi bombalayıp 'korsan' Kasımî donanmasını dağıttıktan sonra, 8 Ocak 1820'de başlayıp bölgedeki şeyhliklerle tek tek imzalanarak Mart'a kadar tamamlanan Genel Deniz Antlaşması'nı dayattı; antlaşma korsanlığı ve köleliği yasakladı, gemilerin İngiliz bayrağı benzeri kırmızı-beyaz bayrak taşımasını zorunlu kıldı. Bu antlaşmayla 'Korsan Kıyısı' 'Mütareke Kıyısı'na (Trucial Coast) dönüştü ve bölge Umman Sultanlığı'ndan koparak fiilen İngiliz himayesine girdi — 1971'e kadar sürecek ilişkinin başlangıcıydı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
+   "tarih": "1466-10-19",
+   "yer": "Gdansk",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Second Peace of Thorn 1466 tarihyazımı)",
+   "hat_ozeti": "Prusya Konfederasyonu'nun 1454'te Alman Şövalyeleri (Teutonic Order) yönetimine karşı ayaklanmasıyla başlayan On Üç Yıl Savaşları'nı sona erdiren İkinci Thorn (Toruń) Antlaşması, 19 Ekim 1466'da imzalandı; Şövalyeler, Danzig'i (Gdansk) içeren Doğu Pomeranya'yı, Elbing'i (Elbląg) içeren Vistül ağzını ve Kulm bölgesini Lehistan Krallığı'na bıraktı — bu topraklar 'Kraliyet Prusyası' adını aldı. Doğu Prusya ise 1525'e kadar Şövalyeler'de kalacaktı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek16.js",
+   "ad": "İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
+   "tarih": "1916-11-03",
+   "yer": "Doha (Katar)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Anglo-Qatari Treaty of 1916 tarihyazımı)",
+   "hat_ozeti": "I. Dünya Savaşı sürerken, Basra Körfezi'ndeki İngiliz siyasi temsilcisi Binbaşı Percy Cox ile Katar şeyhi Abdullah bin Cassim Âl Sânî arasında 3 Kasım 1916'da imzalanan antlaşmayla Katar, dış ilişkilerini İngiltere'nin onayına bağlamayı kabul etti, karşılığında deniz saldırılarına karşı İngiliz koruması güvencesi aldı; bu antlaşma Katar'ın 1971'e kadar sürecek İngiliz himaye ilişkisinin hukuki temelini oluşturdu ve resmen 1918'de onaylandı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek17.js",
+   "ad": "Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
+   "tarih": "1815-11-05",
+   "yer": "Ayamavra (Lefkada)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulunamadı — TDV bu dönemi/bölgeyi kapsamıyor, dayanak: Encyclopaedia Britannica 'Treaty of Paris (1815)'",
+   "hat_ozeti": "⚠️ TDV bu maddeyi kapsamıyor — Napolyon sonrası İyon Adaları meselesi Osmanlı'nın artık taraf olmadığı bir Avrupa iç düzenlemesidir; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Paris'). 1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan AYRI bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek2.js",
+   "ad": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+   "tarih": "1590-03-21",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: luristan",
+   "hat_ozeti": "12 yıllık savaşı bitiren antlaşmayla Tebriz, Karabağ, Şirvan, Gürcistan ve Luristan Osmanlı'da kaldı; imparatorluk doğuda tarihinin en geniş sınırlarına ulaştı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek2.js",
+   "ad": "Nasuh Paşa Antlaşması",
+   "tarih": "1612-11-20",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: nasuh-pasa-antlasmasi",
+   "hat_ozeti": "1603'ten beri süren savaşı bitiren antlaşmayla 1590 kazanımlarından vazgeçildi ve 1555 Amasya sınırına dönüldü; doğu cephesinde denge yeniden kuruldu."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek3.js",
+   "ad": "Gelibolu Antlaşması — Bizans'a tavizler",
+   "tarih": "1403-06-15",
+   "yer": "Gelibolu",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: suleyman-celebi-emir",
+   "hat_ozeti": "Rumeli'deki konumunu güvenceye almak isteyen Süleyman Çelebi, Bizans ve Latin devletleriyle anlaşarak Selanik'i, Marmara kıyılarını ve bazı adaları iade etti; haraç ödemeyi bile kabul etti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek4.js",
+   "ad": "İskenderiye Sözleşmesi: Mısır Mora'dan çekilme kararı",
+   "tarih": "1828-08-06",
+   "yer": "İskenderiye",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: navarin",
+   "hat_ozeti": "Navarin'de donanmasını kaybeden Mehmed Ali, İstanbul'a danışmadan İngiliz amiraliyle doğrudan anlaşarak kuvvetlerini Mora'dan çekmeyi kabul etti. Bir valinin büyük devletlerle müstakil antlaşma yapması, gelecek krizin habercisiydi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek4.js",
+   "ad": "Kütahya Sözleşmesi — Suriye ve Adana Kavalalı'ya",
+   "tarih": "1833-05-14",
+   "yer": "Kütahya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: kutahya",
+   "hat_ozeti": "Bâbıâli Mısır, Girit ve Hicaz'ın yanı sıra Şam, Halep, Trablusşam ve Sayda valiliklerini Mehmed Ali'ye; Adana muhassıllığını İbrâhim Paşa'ya bıraktı. Karşılığında ordu Toroslar'ın güneyine çekildi. Bu bir antlaşma değil, padişahın bir valiye verdiği fermanlar biçimindeydi — mesele çözülmemiş, ertelenmişti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek4.js",
+   "ad": "Hünkâr İskelesi Antlaşması",
+   "tarih": "1833-07-08",
+   "yer": "Hünkâr İskelesi, İstanbul",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: hunkar-iskelesi-antlasmasi",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek4.js",
+   "ad": "Londra Antlaşması: dört devlet Osmanlı'nın yanında",
+   "tarih": "1840-07-15",
+   "yer": "Londra",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: londra-antlasmasi",
+   "hat_ozeti": "Fransa dışarıda bırakılarak imzalanan antlaşma Mehmed Ali'ye ültimatom verdi: on gün içinde kabul ederse Mısır irsî valiliği ve kayd-ı hayat şartıyla Akkâ; yirmi gün içinde kabul ederse yalnız Mısır; reddederse hiçbir şey. Vali reddetti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek4.js",
+   "ad": "İskenderiye Konvansiyonu",
+   "tarih": "1840-11-27",
+   "yer": "İskenderiye",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: kavalali-mehmed-ali-pasa",
+   "hat_ozeti": "Mehmed Ali Suriye, Adana, Girit ve Hicaz'dan vazgeçmeyi, Osmanlı donanmasını iade etmeyi ve padişahın hâkimiyetini tanımayı kabul etti; karşılığında Mısır'ın irsî valiliği güvenceye alındı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek4.js",
+   "ad": "Londra Boğazlar Sözleşmesi",
+   "tarih": "1841-07-13",
+   "yer": "Londra",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: londra-antlasmasi",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Bizans'ın haraca bağlanması — İzmit kuşatması ve antlaşma",
+   "tarih": "1333-08-01",
+   "yer": "İzmit (Nikomedia)",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: orhan",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu",
+   "tarih": "1352-01-01",
+   "yer": "İzmit körfezi — Pera (Galata)",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: orhan",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Konya kuşatması ve Karamanoğulları ile antlaşma",
+   "tarih": "1415-03-01",
+   "yer": "Konya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: mehmed-i",
+   "hat_ozeti": "Fetret Devri'nde Osmanlı topraklarına saldıran ve Bursa'yı kuşatan Karamanoğulları'na karşı Çelebi Mehmed büyük bir sefer düzenleyerek Muharrem 818'de Konya'yı kuşattı. Karamanoğlu hükümdarı barış istemek zorunda kaldı; antlaşma sonucunda Hamîd-ili ve Said-ili gibi bölgeler yeniden Osmanlı topraklarına katıldı. Ankara Savaşı'yla dağılan Anadolu birliğinin yamanmaya başladığı bu sefer, Çelebi Mehmed'in 'ikinci kurucu' sayılmasının somut gerekçelerindendir."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Osmanlı-Memlük barışı — Tunus arabuluculuğu",
+   "tarih": "1491-05-01",
+   "yer": "Kahire – İstanbul",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bayezid-ii",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Osmanlı-Venedik Savaşı'nın sona ermesi ve barış",
+   "tarih": "1502-12-14",
+   "yer": "İstanbul – Venedik",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: venedik",
+   "hat_ozeti": "1499'da başlayan ve Sapienza, İnebahtı, Modon ile Koron'un kaybıyla Venedik'i sarsan savaş 1502'de barışla sona erdi. Venedik, Mora'daki en önemli üslerini kaybederek Doğu Akdeniz'deki ticarî imtiyazlarını korumak karşılığında Osmanlı üstünlüğünü tanımak zorunda kaldı. II. Bayezid'in ihtiyatlı sayılan saltanatı, bu savaşla Osmanlı'yı Akdeniz'de ilk kez ciddi bir deniz gücü konumuna yükseltmişti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "İstanbul Antlaşması — Habsburglarla ilk barış",
+   "tarih": "1533-01-01",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: suleyman-i",
+   "hat_ozeti": "Ferdinand'ın elçisi Cornelius'u kabul eden padişah ateşkese rıza gösterdi ve Osmanlı ile Avusturya arasındaki ilk resmî barış metni ortaya çıktı. Antlaşmayla Ferdinand elinde tuttuğu Macar topraklarına karşılık yıllık vergi ödemeyi kabul etti, Avusturya arşidükü protokolde sadrazama denk sayıldı. Bu eşitsiz statü, Osmanlı diplomasisinin XVI. yüzyıldaki üstünlük iddiasının açık ifadesiydi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "İstanbul Antlaşması — Habsburglarla beş yıllık barış",
+   "tarih": "1547-06-18",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: suleyman-i",
+   "hat_ozeti": "Osmanlı ile Habsburglar arasında beş yıl süreli bir barış imzalandı; Ferdinand elinde tuttuğu Macar toprakları için yıllık 30.000 duka ödemeyi kabul etti. Antlaşma, Macaristan'ın üçe bölünmüş fiilî durumunu hukukî olarak tescil etti. Batı cephesinin böylece emniyete alınması, Kanunî'ye İran üzerine yeni seferler düzenleme imkânı verdi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Osmanlı-Fransız ittifakı — Fransız donanmasının Osmanlı emrine girmesi",
+   "tarih": "1553-02-01",
+   "yer": "İstanbul",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: turgut-reis",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Venedik'le İstanbul Antlaşması — Kıbrıs'ın tanınması",
+   "tarih": "1573-03-07",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: kibris",
+   "hat_ozeti": "Kutsal İttifak'ın dağılması üzerine yalnız kalan Venedik, Osmanlı ile ayrı barış yaparak Kıbrıs'ın Osmanlı'ya ait olduğunu resmen kabul etti ve savaş tazminatı ödemeyi kabullendi. Antlaşma, İnebahtı zaferinin Hıristiyan dünyasına siyasî bir kazanç sağlamadığını açıkça ortaya koydu. Venedik bundan sonra yetmiş yıl boyunca Osmanlı ile doğrudan savaşa girmekten kaçınacaktı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Hollanda'ya ilk ahidnâme verilmesi",
+   "tarih": "1612-07-06",
+   "yer": "İstanbul",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: hollanda",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Serav Antlaşması — İran'la barışın yenilenmesi",
+   "tarih": "1618-09-26",
+   "yer": "Serav (Serâb), Azerbaycan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osman-ii",
+   "hat_ozeti": "Pül-i Şikeste bozgunundan sonra İran'la varılan Serav Antlaşması, 1612 Nasuh Paşa Antlaşması'nın şartlarını büyük ölçüde teyit etti; Safevîlerin göndereceği yıllık ipek miktarı iki yüz yükten yüz yüke indirildi. Böylece 1603'ten beri süren doğu savaşlarının ikinci evresi kapandı. Barış uzun ömürlü olmayacak, Bağdat'ın 1623'te elden çıkmasıyla savaş yeniden alevlenecekti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Hotin Seferi ve Hotin Antlaşması",
+   "tarih": "1621-10-09",
+   "yer": "Hotin, Boğdan (Dinyester boyu)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: hotin",
+   "hat_ozeti": "II. Osman'ın bizzat kumanda ettiği büyük orduya karşı Chodkiewicz'in Hotin önünde kurduğu tahkimatlı ordugâh aşılamadı ve aylarca süren hücumlardan sonuç alınamadı. 9 Ekim'de imzalanan antlaşmayla Dinyester nehri sınır kabul edildi, Lehler Kazak akınlarını engellemeyi taahhüt etti. Zafer diye sunulmasına rağmen sonuç veremeyen sefer, genç padişahın yeniçeriye duyduğu güvensizliği ve ocağı tasfiye niyetini pekiştirdi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Vasvar Antlaşması",
+   "tarih": "1664-08-09",
+   "yer": "Vasvár, Macaristan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: vasvar-antlasmasi",
+   "hat_ozeti": "Sen Gotar bozgununa rağmen imzalanan antlaşma, Uyvar ve Varad'ın Osmanlı'da kalmasını, Erdel'in Osmanlı himayesinde tarafsız bırakılmasını ve Avusturya'nın 200.000 kuruş 'hediye' ödemesini hükme bağladı. Yirmi yıl süreli bu barış, savaşı kaybeden tarafın masada kazandığı nadir örneklerdendir. Antlaşmanın Habsburg kamuoyunda yarattığı hoşnutsuzluk, Orta Macar hareketini ve dolaylı olarak 1683 Viyana seferini besleyecekti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Bahçesaray Antlaşması — Rusya ile ilk resmî barış",
+   "tarih": "1681-01-11",
+   "yer": "Bahçesaray, Kırım",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: merzifonlu-kara-mustafa-pasa",
+   "hat_ozeti": "Çehrin seferlerinin ardından Kırım Hanı'nın aracılığıyla yürütülen görüşmeler sonunda, Özü (Dinyeper) nehri sınır kabul edilerek Osmanlı Devleti ile Rusya arasında yirmi yıllık bir barış imzalandı. Bu, iki devlet arasındaki ilk kapsamlı antlaşma olması bakımından Osmanlı-Rus ilişkilerinin başlangıç belgesi sayılır. Barış sayesinde doğu cephesi emniyete alınarak ordu Orta Avrupa'ya yönlendirilebildi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+   "tarih": "1700-07-14",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osmanlilar",
+   "hat_ozeti": "Karlofça'da Rusya ile yalnızca iki yıllık mütareke yapılabilmişti; kalıcı barış İstanbul'da bir buçuk yıl süren çetin pazarlıklardan sonra imzalandı. Osmanlı Devleti 1696'da kaybettiği Azak Kalesi'ni ve çevresindeki toprakları resmen Rusya'ya terk etti, Kırım hanının Moskova'dan aldığı yıllık vergiden vazgeçti. Buna karşılık Rusya İstanbul'da daimî elçi bulundurma hakkını elde etti; böylece Karadeniz'in kuzey kıyısında Rus varlığı hukuken tescillenmiş oldu."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Prut Antlaşması — Azak ve Taygan'ın geri alınması",
+   "tarih": "1711-07-21",
+   "yer": "Prut boyu, Yaş yakınları",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: prut-antlasmasi",
+   "hat_ozeti": "Prut boyunda kuşatılan Rus ordusunun teslim olmasıyla imzalanan yedi maddelik antlaşma, Azak Kalesi'nin arazisi ve mühimmatıyla birlikte Osmanlı'ya iadesini hükme bağladı. Taygan, Kamenka ve Yenikale istihkâmları yıkılacak, taraflar bu bölgelerde yeni kale inşa etmeyecekti. I. Petro'nun Voronej ve Azak'ta on altı yıl boyunca kurduğu donanma ve üs düzeni çöktü; Rusya'nın Karadeniz'e inişi yaklaşık elli yıl gecikti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Rusya ile Edirne Antlaşması",
+   "tarih": "1713-06-24",
+   "yer": "Edirne",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: ahmed-iii",
+   "hat_ozeti": "Prut'ta verilen sözlerin yerine getirilmemesi üzerine iki kez daha savaş ilân edilmiş, nihayet Ruslar'ın taahhütleri kabul etmesiyle Edirne'de kalıcı barış imzalandı. Antlaşma Prut şartlarını teyit etti; Rusya Lehistan işlerine karışmayacak, Kazak topraklarından çekilecek ve İsveç kralı Demirbaş Şarl'ın ülkesine dönüşüne engel olmayacaktı. Kuzey cephesinin böylece kapanması, Osmanlı Devleti'nin yüzünü Mora ve Venedik cephesine çevirmesini mümkün kıldı. Aynı tarihte haritaya katılan diğer yerleşimler: Hotin."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması",
+   "tarih": "1724-06-24",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: ahmed-iii",
+   "hat_ozeti": "Çöken Safevî ülkesi üzerinde Osmanlı ile Rusya'nın karşı karşıya gelmesini önlemek için Fransız elçisinin arabuluculuğuyla bir taksim antlaşması imzalandı. Hazar denizinin batı ve güney kıyıları Rusya'ya, Gürcistan, Şirvan, Azerbaycan ve Batı İran şehirleri Osmanlı Devleti'ne bırakıldı. Kâğıt üzerinde büyük bir kazanç gibi görünen bu paylaşım, kısa süre sonra Nâdir Şah'ın yükselişiyle fiilen geçersiz kalacaktı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması",
+   "tarih": "1727-10-04",
+   "yer": "Hemedan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: ahmed-iii",
+   "hat_ozeti": "Afgan hükümdarı Eşref Şah ile imzalanan antlaşmayla dört yıl süren savaş sona erdi ve Osmanlı Devleti'nin işgal ettiği Batı İran toprakları hukuken tanındı. Eşref Şah karşılığında Osmanlı padişahının halifeliğini kabul etti ve İran'da hutbenin padişah adına okunmasını üstlendi. Bu diplomatik zafer kısa ömürlü oldu; Nâdir Şah'ın 1730'da başlattığı karşı taarruz antlaşmanın kazanımlarını birkaç yıl içinde silip süpürecekti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Ahmed Paşa Antlaşması — Batı İran'ın büyük bölümünün iadesi",
+   "tarih": "1732-01-10",
+   "yer": "Bağdat / Kirmanşah",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osmanlilar",
+   "hat_ozeti": "Nâdir Şah'ın Melâyir'de kazandığı zafer ve arka arkaya gelen İran taarruzları üzerine Bağdat valisi Ahmed Paşa merkeze danışmadan bir barış metni imzaladı. Antlaşmaya göre Aras nehri sınır kabul edildi; Hemedan, Kirmanşah, Erdebil ve Tebriz gibi Batı İran şehirleri İran'a geri verildi, Gence ve Tiflis Osmanlı'da kaldı. İstanbul'da tepkiyle karşılanan bu metin Nâdir Şah tarafından da yetersiz bulundu ve daha 1732 yılı dolmadan savaş yeniden alevlendi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "İstanbul Antlaşması — Güney Kafkasya'nın İran'a terki",
+   "tarih": "1736-09-01",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osmanlilar",
+   "hat_ozeti": "Dört yıl süren ikinci İran savaşı, Arpaçay bozgunu ile Gence ve Tiflis'in kaybının ardından imzalanan antlaşmayla sona erdi. Osmanlı Devleti 1723'ten beri ele geçirdiği bütün Güney Kafkasya ve Batı İran topraklarından çekildi, sınır 1639 Kasr-ı Şîrin çizgisine döndü. On üç yıllık doğu seferlerinden geriye ağır bir malî yük ve boşalmış bir hazine kaldı; buna karşılık Rusya ile başlayan yeni savaş için doğu cephesinin kapanması hayatî bir kazançtı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması",
+   "tarih": "1739-10-03",
+   "yer": "Niş",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osmanlilar",
+   "hat_ozeti": "Avusturya'nın Belgrad'da barışa razı olmasıyla yalnız kalan Rusya, Fransız elçisi Villeneuve'ün arabuluculuğunda savaşı bitirmek zorunda kaldı. Azak Kalesi'nin istihkâmları yıkılarak bölge iki devlet arasında tarafsız arazi ilân edildi; Rusya Karadeniz'de savaş ve ticaret gemisi bulundurmama şartını kabul etti. Böylece Rusya'nın denize açılma hedefi bir kuşak daha ertelendi ve Osmanlı Devleti XVIII. yüzyılda son defa masadan kazançlı kalktı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Kerden Antlaşması — Osmanlı-İran savaşlarının sonu",
+   "tarih": "1746-09-04",
+   "yer": "Kerden, Kazvin yakınları",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osmanlilar",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Aynalıkavak Tenkihnâmesi — Kırım üzerine geçici uzlaşma",
+   "tarih": "1779-03-10",
+   "yer": "Aynalıkavak Kasrı, İstanbul",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: kirim",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Osmanlı-Prusya İttifakı",
+   "tarih": "1790-01-31",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: selim-iii",
+   "hat_ozeti": "Tahta çıkar çıkmaz Avrupa'da müttefik arayan III. Selim, Prusya ile karşılıklı yardım öngören bir ittifak antlaşması imzaladı; Prusya Rusya ve Avusturya'ya savaş açmayı, Osmanlı Devleti de Kırım geri alınmadan barış yapmamayı taahhüt etti. Bu, Osmanlı tarihinde bir Avrupa devletiyle imzalanan ilk gerçek karşılıklı ittifak metniydi ve klasik 'küffârla ittifak olmaz' anlayışının terk edildiğini gösteriyordu. Prusya savaşa girmedi, ancak Avusturya'yı barışa zorlayarak Ziştovi Antlaşması'nın önünü açtı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Ziştovi Antlaşması — Avusturya cephesinin kapanması",
+   "tarih": "1791-08-04",
+   "yer": "Ziştovi, Tuna boyu",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: zistovi-antlasmasi",
+   "hat_ozeti": "Prusya'nın baskısı ve Fransız İhtilâli'nin Avusturya'yı batıda meşgul etmesi sayesinde, iki devlet savaş öncesi sınırlar esas alınarak barışa vardı. Avusturya işgal ettiği Belgrad dahil bütün yerleri geri verdi; Osmanlı Devleti yalnızca Hırvatistan sınırında küçük düzeltmeler kabul etti. Batı cephesinin bu şartlarla kapanması, Osmanlı Devleti'nin bütün gücünü Rusya'ya karşı toplamasını sağladı ve Yaş Antlaşması'ndaki kaybı sınırladı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı",
+   "tarih": "1792-01-10",
+   "yer": "Yaş (Iaşi), Boğdan",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: yas-antlasmasi",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Paris Antlaşması — Fransa ile barışın yeniden kurulması",
+   "tarih": "1802-06-25",
+   "yer": "Paris",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: misir",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Kal'a-i Sultâniyye Antlaşması — İngiltere ile barış ve Boğazlar kaidesi",
+   "tarih": "1809-01-05",
+   "yer": "Kal'a-i Sultâniyye (Çanakkale)",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osmanlilar",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Akkirman Antlaşması — Sırbistan ve prensliklere tavizler",
+   "tarih": "1826-10-07",
+   "yer": "Akkirman (Belgorod-Dnestrovski)",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: sirbistan",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Amerika Birleşik Devletleri ile ilk antlaşma",
+   "tarih": "1830-05-07",
+   "yer": "İstanbul",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osmanlilar",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himayesi",
+   "tarih": "1849-05-01",
+   "yer": "Baltalimanı, İstanbul",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: eflak",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "İstanbul'da İngiltere ve Fransa ile ittifak antlaşması",
+   "tarih": "1854-03-12",
+   "yer": "İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: osmanlilar",
+   "hat_ozeti": "Kırım Savaşı'nda Rusya'ya karşı Osmanlı Devleti ile İngiltere ve Fransa arasında imzalanan ittifak antlaşması, üç devletin ortak harekât yürütmesini ve müttefiklerin savaş bitmeden ayrı barış yapmamasını hükme bağladı. Böylece Osmanlı Devleti tarihinde ilk kez büyük Avrupa devletleriyle eşit taraf sıfatıyla askerî bir ittifaka girdi. Bu antlaşma, iki yıl sonra Paris'te Osmanlı'nın Avrupa devletler sistemine resmen kabulünün de hukukî zeminini oluşturdu."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Paris Antlaşması: Kırım Savaşı'nın sonu ve Osmanlı'nın Avrupa devletler sistemine kabulü",
+   "tarih": "1856-03-30",
+   "yer": "Paris",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: paris-antlasmasi",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Edirne Mütarekesi: 93 Harbi'nde silahların susması",
+   "tarih": "1878-01-31",
+   "yer": "Edirne",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: ayastefanos-antlasmasi",
+   "hat_ozeti": "Sofya, Filibe ve Edirne'nin peş peşe düşmesi ve Rus ordusunun Marmara kıyılarına dayanması üzerine Bâbıâli mütareke istemek zorunda kaldı. Edirne'de imzalanan ateşkes, Bulgaristan'a özerklik, Karadağ-Sırbistan-Romanya'nın bağımsızlığı ve ağır savaş tazminatı gibi ön barış şartlarını Osmanlı'ya kabul ettirdi. Bu şartlar bir ay sonra Ayastefanos'ta antlaşma metnine dönüşecekti."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Ayastefanos Antlaşması: Büyük Bulgaristan tasarısı",
+   "tarih": "1878-03-03",
+   "yer": "Ayastefanos (Yeşilköy), İstanbul",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: ayastefanos-antlasmasi",
+   "hat_ozeti": "93 Harbi'ni bitiren Ayastefanos Antlaşması, Ege'ye kadar uzanan ve Makedonya'yı içine alan devasa bir özerk Bulgaristan kuruyor; Sırbistan, Karadağ ve Romanya'nın bağımsızlığını tanıyor; Kars, Ardahan, Batum ve Doğubayazıt'ı Rusya'ya bırakıyor, ayrıca ödenmesi imkânsız bir savaş tazminatı yüklüyordu. Rusya'yı Akdeniz'e indiren bu metin İngiltere ve Avusturya'nın şiddetli tepkisini çekti. Uygulanmadan dört ay içinde Berlin Kongresi'yle yeniden düzenlendi; yine de Osmanlı Rumelisi'nin sonunu ilan eden belge olarak kaldı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili",
+   "tarih": "1913-09-29",
+   "yer": "İstanbul / Edirne, Kırklareli, Dimetoka",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: bulgaristan",
+   "hat_ozeti": "II. Balkan Savaşı'nın ardından Osmanlı Devleti ile Bulgaristan arasında imzalanan antlaşma, Meriç nehrini sınır kabul ederek Edirne, Kırklareli, Dimetoka ve Doğu Trakya'nın Osmanlı'da kalmasını hukuken tescil etti. Kavala ve Dedeağaç Bulgaristan'da bırakıldı, iki ülke arasında karşılıklı nüfus mübadelesi ve Bulgaristan'daki Müslümanların hakları düzenlendi. Balkan felaketinden geri alınabilen tek toprak parçasının garantisi bu metindir. Aynı tarihte haritaya katılan diğer yerleşimler: Gümülcine."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri",
+   "tarih": "1913-11-14",
+   "yer": "Atina / Selanik, Yanya, Girit, Ege adaları",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: yunanistan",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması",
+   "tarih": "1914-08-02",
+   "yer": "İstanbul (Yeniköy)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: birinci-dunya-savasi",
+   "hat_ozeti": "Avrupa'da savaş patlar patlamaz, Sadrazam Said Halim Paşa'nın konağında Osmanlı Devleti ile Almanya arasında gizli bir ittifak antlaşması imzalandı; metin Rusya'nın Almanya'ya karşı savaşa girmesi hâlinde Osmanlı'nın da Almanya yanında yer almasını öngörüyordu. Antlaşma kabineden bile gizlendi, sadece dört kişi tarafından bilinmekteydi. Üç ay sonra Karadeniz baskınıyla Osmanlı Devleti fiilen savaşa sürüklenecek, imparatorluğun kaderi bu belgeyle bağlanacaktı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+   "tarih": "1918-03-03",
+   "yer": "Brest-Litovsk / Kars, Ardahan, Batum",
+   "damga": "ETMIYOR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: birinci-dunya-savasi",
+   "hat_ozeti": null
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Gümrü Antlaşması: TBMM hükümetinin ilk uluslararası antlaşması",
+   "tarih": "1920-12-03",
+   "yer": "Gümrü (Aleksandropol), Kars, Sarıkamış",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: milli-mucadele",
+   "hat_ozeti": "Kâzım Karabekir kumandasındaki Doğu cephesi ordusunun Sarıkamış ve Kars'ı geri alması üzerine Ermenistan barış istedi ve Gümrü'de imzalanan antlaşmayla Sevr'i tanımadığını, doğudaki toprak taleplerinden vazgeçtiğini kabul etti. Ankara hükümetinin imzaladığı bu ilk antlaşma, Sevr'i fiilen reddeden ilk uluslararası belge oldu ve TBMM'ye hukukî tanınma yolunu açtı. Doğu sınırı böylece güvence altına alınarak Batı cephesine kuvvet kaydırılması mümkün hâle geldi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Ankara İtilâfnâmesi: Fransa ile barış ve güney cephesinin kapanması",
+   "tarih": "1921-10-20",
+   "yer": "Ankara / Adana, Antep, Maraş, Urfa",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: milli-mucadele",
+   "hat_ozeti": "Sakarya zaferinin ardından Fransa ile Ankara'da imzalanan itilâfnâme ile güney cephesindeki savaş sona erdi; Fransız kuvvetleri Adana, Antep, Maraş ve Urfa dahil Çukurova ve Güneydoğu'yu boşaltarak Suriye sınırına çekildi. İtilâf devletlerinden biri böylece Ankara hükümetini fiilen tanımış oldu ve Sevr cephesinde ilk çatlak açıldı. Boşaltılan bölgelerden devralınan silahlar ve serbest kalan birlikler Büyük Taarruz'un hazırlığında kritik rol oynadı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Mudanya Mütarekesi: İstanbul ve Boğazlar'ın savaşsız devri",
+   "tarih": "1922-10-11",
+   "yer": "Mudanya, Bursa / İstanbul, Doğu Trakya",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: mudanya-mutarekesi",
+   "hat_ozeti": "Büyük Taarruz'un ardından Türk ordusunun Çanakkale ve İzmit'te İngiliz kuvvetleriyle karşı karşıya gelmesi üzerine Mudanya'da toplanan konferans, on bir günlük çetin pazarlıktan sonra mütarekeyle sonuçlandı. Doğu Trakya'nın Meriç'e kadar on beş gün içinde Yunanistan tarafından boşaltılarak Türk idaresine devri, İstanbul ve Boğazlar'ın da barış antlaşmasıyla teslimi kabul edildi. Böylece Millî Mücadele'nin silahlı safhası tek kurşun atılmadan kazanılmış bir diplomatik zaferle kapandı ve Lozan'ın kapısı açıldı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek5.js",
+   "ad": "Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve Banat kaybedildi",
+   "tarih": "1718-07-21",
+   "yer": "Pasarofça (Požarevac), Sırbistan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: pasarofca-antlasmasi",
+   "hat_ozeti": "Venedik'ten Mora geri alınmıştı, fakat savaşa giren Avusturya Petrovaradin ve Belgrad'da kazandığı zaferlerle masaya üstün geldi. İngiltere ile Hollanda'nın arabuluculuğunda imzalanan antlaşma Mora'yı Osmanlı'da bıraktı, buna karşılık Belgrad ile birlikte Kuzey Sırbistan, Banat ve Küçük Eflak Avusturya'ya terk edildi; Venedik ise İyon kıyısındaki Preveze ve Çuha gibi mevzilerini korudu. Aynı gün imzalanan ticaret ahidnâmesiyle Avusturya mallarından alınan gümrük yüzde beşten üçe indirildi. Antlaşma, Osmanlı Devleti'nin Orta Avrupa'daki geri çekilişini tescil ederken açtığı yirmi yedi yıllık barış Lâle Devri'nin (1718-1730) zeminini kurdu: Nevşehirli Damad İbrahim Paşa'nın yönetiminde ilk Osmanlı matbaası (1727, İbrahim Müteferrika), tercüme heyetleri, çiçek aşısı gözlemleri ve yeni bir saray-kültür hayatı bu barış yıllarının ürünüdür."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek7.js",
+   "ad": "Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi",
+   "tarih": "1735-03-10",
+   "yer": "Derbend, Bakü",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: dagistan",
+   "hat_ozeti": "Osmanlı tehdidine karşı İran ile ittifak arayan Rusya, on üç yıldır elinde tuttuğu Hazar kıyısı şehirlerini Gence Antlaşması ile Nadir Han'ın (henüz şah unvanını almamış) kumandasındaki İran'a iade etti. TDV İslâm Ansiklopedisi'nin Derbend maddesine göre bu geri çekilme Rusya'nın güneyde iki cepheden (Osmanlı ve İran) birden mücadele etmek istememesinin sonucuydu ve Nadir'in birkaç yıl sonra tahta çıkışının önünü açan askerî itibarını pekiştirdi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek7.js",
+   "ad": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+   "tarih": "1828-02-22",
+   "yer": "Revan (Erivan), Nahcıvan, Talış (Lenkeran-Astara)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: revan",
+   "hat_ozeti": "1826-1828 Rus-İran Savaşı İran'ın ağır yenilgisiyle sonuçlanınca Türkmençay'da imzalanan antlaşmayla Revan ve Nahcıvan hanlıkları ile Hazar kıyısındaki Talış bölgesi (Lenkeran, Astara) Rusya'ya bırakıldı; ayrıca ağır bir savaş tazminatı kondu. TDV İslâm Ansiklopedisi'nin Revan maddesine göre bu kayıp, Kafkasya'daki Rus-İran sınırının bugüne kadar büyük ölçüde geçerli kalacak biçimde çizildiği andır ve Ermeni nüfusun Revan'a göçünü de tetikledi."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek9.js",
+   "ad": "Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
+   "tarih": "1884-06-03",
+   "yer": "Adua, Habeşistan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: habesistan",
+   "hat_ozeti": "Mehdî ayaklanması Sudan'daki Mısır garnizonlarını kuşatınca İngiltere, Habeşistan'ın yardımını almak için 3 Haziran 1884'te Adua'da Yohannes IV ile antlaşma imzaladı. Antlaşmanın ikinci maddesi Bogos'u Habeşistan'a geri veriyor, karşılığında Habeşistan kuşatılmış garnizonların Masavva üzerinden tahliyesine yol açıyordu. Kerene böylece on iki yıllık Mısır idaresinden çıktı; beş yıl sonra bölge İtalyan Eritresi'ne katılacaktı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ek9.js",
+   "ad": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+   "tarih": "1899-01-19",
+   "yer": "Kahire · Sudan",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: sudan",
+   "hat_ozeti": "Ümmüdurman'dan dört ay sonra Kahire'de imzalanan antlaşma Sudan'ı 'Anglo-Mısır Sudanı' adıyla iki devletin ortak idaresine bağladı: iki bayrak birlikte çekilecek, genel vali hidiv tarafından İngiltere'nin muvafakatiyle atanacaktı. Uygulamada idare tamamen İngilizlerin elindeydi. Osmanlı Devleti, Sudan üzerindeki haklarının Mısır üzerinden kendisine ait olduğunu ileri sürerek antlaşmaya taraf olmadı ve tanımadı; ama fiilen dışarıda kaldı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_ok106.js",
+   "ad": "II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
+   "tarih": "1847-05-31",
+   "yer": "Erzurum",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: sattularap",
+   "hat_ozeti": "Yüzyılı aşkın süredir çözülemeyen Osmanlı-İran sınır anlaşmazlığı, İngiliz ve Rus arabuluculuğunda yürütülen uzun görüşmelerin ardından Erzurum'da imzalanan ikinci antlaşmayla düzenlendi. Şattülarap suyolunun tamamı Osmanlı'da kaldı; buna karşılık nehrin doğu yakasındaki yerleşimler -Muhammere limanı ve karşısındaki Abadan adası dâhil- Kaçarlar'a bırakıldı. Böylece Basra'nın 1546'daki ilhakından beri Osmanlı idaresinde sayılan Hûzistan kıyı şeridi üç yüz yıl sonra elden çıktı. Antlaşmanın çizdiği hattı yerinde tesbit etmek üzere kurulan sınır komisyonunun üyesi Mehmed Hurşid Paşa, 1848-1852 arasında bölgeyi dolaşarak Seyâhatnâme-i Hudûd'u kaleme aldı."
+  },
+  {
+   "evren": "olaylar*.js/k:antlasma",
+   "dosya": "data\\olaylar_p0036.js",
+   "ad": "Katar'dan Osmanlı feragati — Londra Sözleşmesi",
+   "tarih": "1913-07-29",
+   "yer": "Londra, Katar (Doha)",
+   "damga": "NET_SINIR",
+   "kaynak_bakilan": "veri kaydinin d: metni; kaynak alani: katar",
+   "hat_ozeti": "29 Temmuz 1913'te Londra'da imzalanan İngiliz-Osmanlı sözleşmesiyle Osmanlı Devleti, Katar yarımadası üzerindeki bütün taleplerinden feragat etti; yarımadanın Şeyh Kāsım b. Sânî ve haleflerince yönetilmesi kabul edildi. TDV'nin `katar` maddesine göre sözleşme resmen yürürlüğe girmedi ama fiilî durumu tescil etti — Osmanlı garnizonunun bölgeden tam çekilişi I. Dünya Savaşı ile tamamlandı. Doha (Bida) kaydında bu tarih zaten bir `v:` döneminin bitişi olarak duruyordu; bu madde o kırılmanın kaynağını taşır."
+  }
+ ]
+}
