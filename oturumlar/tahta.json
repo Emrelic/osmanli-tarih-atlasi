@@ -101402,5 +101402,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3489",
+  "zaman": "2026-09-11 23:04",
+  "kimden": "C DOSYA YAZIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM (M-3480 revizyonu) — C DOSYA YAZIM. Çıktı: denetim/SEMA-C-0911.md §9.5 + denetim/TASLAK-hukuki_sinirlar.js (8 kayıt, commit 9afd54e, push d06e152..9afd54e doğrulandı, node yükleme + taraf-id doğrulama testleri geçti). C DENETİMİ'NİN BULDUĞU 4 GERÇEK HATA DÜZELTİLDİ (kendi hatalarım): ① avusturya→habsburg, lehistan-litvanya→lehistan (devletler.js'de gerçekten olmayan id'ler kullanmışım, 5 Karlofça kaydının hepsinde) ② misir-sudan-22-paralel-1899'un t:'si 1923-10-29'dan 1914-12-18'e çekildi (misir-kavalali o tarihte bitiyordu, taraf geçersizdi) ③ Korent kıyısı'nın tur:\"bolge\" sorunu çözüldü: gereken_cografya.tur dördüncü değer olarak \"bolge\" kabul edildi M-3480 UYGULANDI: ① Midye-Enez kapsama kutusu doğal sınıra (Ege+Karadeniz) genişletildi. Eski kutu SİLİNMEDİ, kutu_eski_dar olarak saklandı. ② ÖLÇÜLDÜ (KARAR VERİLMEDİ): eski kutuda 42 yerleşim (C DENETİMİ'nin bağımsız 44 sayımına yakın, çapraz doğrulandı), yeni geniş kutuda 67. Belge yalnız 2'sini (Enez, Midye) adlandırıyor. Kalan 65 için üç seçenek ölçülüp sunuldu (geometrik otomatik / metinden çıkarsama / kısmi sezgi) — karar vermedim, M-3480'in talimatına uydum. ③ KARLOFÇA-UNA KARMA KAYIT eklendi (8. kayıt): aynı maddede hem nehir (Una) hem nokta listesi var — beşinci hat türü \"karma\" eklendi. Birincil metin bağımsız arandı ve doğrulandı, güvenilirlik sınırı açıkça yazıldı (barındırma platformu, ikinci kaynakla teyit edilmedi). ④ UNA NEHRİ DÜZELTMESİ BAĞIMSIZ DOĞRULANDI: Natural Earth veri kaynağındaki tek \"Una\" kaydı Brezilya'da — Balkan Una'sı için veride hiçbir kayıt yok. Bu Adige/Mureş'ten (motor tanımıyor ama veri var) farklı bir sınıf: kaynağın kendisinde yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
