@@ -34,10 +34,13 @@ ETMEZ (import etmek koşuyu tetikler — betik dosya en üstte doğrudan
 import io
 import json
 import math
+import re
 import sys
 import collections
-from shapely.geometry import Polygon, LineString, MultiPolygon, shape
+from shapely.geometry import Polygon, LineString, MultiPolygon, shape, box
 from shapely.ops import unary_union, nearest_points
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
 
@@ -60,16 +63,28 @@ print("DONEMLER: %d kayit (%s -> %s)" % (len(DON), DON[0]["t"], DON[-1]["t"]))
 gj = json.load(io.open(KOK + r"\veri-kaynak\motor_kara.geojson", encoding="utf-8"))
 KARA = unary_union([shape(f["geometry"]) for f in gj["features"]]).buffer(0)
 
-# Yerleşim adları — enklavı isimlendirmek için (yalnız ad + koordinat)
-yham = io.open(KOK + r"\data\yerlesimler.js", encoding="utf-8").read()
+# Yerleşim adları — enklavı isimlendirmek için (yalnız ad + koordinat).
+# TÜM girdi dosyaları taranır (`arac/girdi.py GIRDI_DOSYALARI`) — yalnız
+# `yerlesimler.js`e bakmak Kırım/Balkan gibi ek dosyalardaki adları
+# KAÇIRIR (`§5`in "hangi dosya canlı" dersi — bu araç yalnız İSİMLENDİRME
+# için okuyor, sahiplik/petek hesaplamaz, o yüzden GIRDI_DOSYALARI'nı
+# aynen kullanmak yeterli ve güvenli).
+sys.path.insert(0, KOK + r"\arac")
+import girdi as _girdi
 
 
 def yerlesim_listesi():
-    # basit ayrıştırma: {ad:"...", ..., k:[lon,lat] ...} kalıbı
-    import re
     out = []
-    for m in re.finditer(r'\{ad:"([^"]+)"[^}]*?k:\[([\-0-9.]+),([\-0-9.]+)\]', yham):
-        out.append((m.group(1), float(m.group(2)), float(m.group(3))))
+    for dosya in _girdi.GIRDI_DOSYALARI:
+        try:
+            txt = io.open(KOK + r"\data\%s" % dosya, encoding="utf-8").read()
+        except Exception:
+            continue
+        for m in re.finditer(r'\{\s*ad:"([^"]+)"', txt):
+            pencere = txt[m.end():m.end() + 600]
+            lm = re.search(r'lat:([\-0-9.]+),\s*lon:([\-0-9.]+)', pencere)
+            if lm:
+                out.append((m.group(1), float(lm.group(2)), float(lm.group(1))))
     return out
 
 
