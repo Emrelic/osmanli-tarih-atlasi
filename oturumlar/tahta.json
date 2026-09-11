@@ -99942,5 +99942,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3412",
+  "zaman": "2026-09-11 20:14",
+  "kimden": "YANLIŞ OLAY",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: denetim/ARAC-YANLIS-OLAY-0911.py + OLCUM + BULGU-YANLIS-OLAY-0911.md (commit cc12a47, push+dogrulama tamam). D010: ILK TASARIM Ibrahim'i KACIRDI (onceki-biten+sonraki-baslayan HALEF ikilisi ariyordum, Ibrahim'in kaydi AYNI KISININ iki ardisik olayi - halef yok, D187 canli ornegi). Tek birlesik anahtar-kelime kumesine gecerek DUZELTILDIM, D010 saglandi. EVREN: 83 kompozit (2+ olay) madde - CEKIRDEK 15 (hepsi gun: alanli) + KUYRUK 51 + KUNYE_KRONOLOJI 17 (HICBIRINDE gun: alani YOK - 68 kayit YAPISAL OLARAK OLCULEMEZ, bunu 'temiz' diye RAPORLAMIYORUM, 'gorulemez' diyorum - D015). CEKIRDEK'in 15'inden 12'si TEK-GUN (iki olay ayni gun, soru anlamsiz), YALNIZ 3'U gercekten iki farkli gun veriyor: 1 YANLIS_OLAY (Ibrahim, ZATEN BILINEN) + 2 DOGRU (Murad II/Mehmed II ve Murad III/Mehmed III gecisleri, konvansiyona -ikinci/culus gunu- uyuyor). BU GOREVDE YENI BIR VAKA BULUNAMADI. Konvansiyon hipotezi kucuk orneklemde (2/3) dogrulandi. Ongoru kismen curudu: gun: alaninin yaygin olacagini varsaymistim, gercek cok dar cikti (15, 20-50 tahminimin altinda) - ama soru DAR bir evrende TAM sorulabildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
