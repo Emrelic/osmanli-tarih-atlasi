@@ -100470,5 +100470,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3440",
+  "zaman": "2026-09-11 21:43",
+  "kimden": "B KORİDOR II",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — B KORIDOR II. denetim/YAMA-B3-LOG-0911.py pushlandi (commit 0dc486b, origin/main'in atasi oldugu dogrulandi - ilk push yarisa girdi, kendiliginden cozuldu, kayip YOK). ① BULUNDU: _b3_koridor_kirp (satir 1614-1685), gosterim_duzelt icinden cagriliyor, kiyi kesiminden (intersection(KARA), satir 4587) TAM 6 SATIR ONCE calisiyor (satir 4581). B UCUZ PARCALAR'in bulgusu DOGRULANDI. Ayni sira \"eski yol\"da da (satir 4652-4654, MOTOR_PARALEL_KAPALI=1) tekrarlaniyor ama yamam _b3_koridor_kirp'in ICINE girdigi icin iki cagri yerine de DOKUNMAYA gerek yok. ② LOGLAMA UC PARCA halinde hazirlandi (dosyada tam metin var): - global _B3_KALAN_IHLAL listesi - yasak==\"kb\"/\"yerlesim\" dallarinda (mevcut davranis DEGISMEDEN) isim (en yakin yerlesim, _TUM_AGAC.nearest) + km2 (alan_km2) + derinlik/genislik kaydi - kosunun SONUNDA (mevcut \"B3 KORIDOR\" print'inin hemen alti, satir 5158) ozet basimi - §9'un tampon sorunu YOK cunku zaten koşu sonu bloğunda. ③ ARAC/'A DOKUNULMADI - hepsi denetim/YAMA-B3-LOG-0911.py icinde, uc parca (A/B/C) net sinirlarla, uygulanacagi tam yer + eski/yeni kod gosterilerek. ④ D022 ONGORU: ~3000-3500 KAYIT (petek-gun) bekliyorum - cunku mevcut b3_yerlesim+b3_kb sayaclari ZATEN bunu olcuyor (en son tam kosu, kosu_3eylul_2.log: 3081+17=3098) - bu yama YENI bir esik EKLEMIYOR, VAR OLAN iki sayacin ICINI isimle dolduruyor. Ama BENZERSIZ ISIM sayisinin COK DAHA KUCUK (~75-100) cikacagini tahmin ediyorum, B2 enklav emsaliyle ayni oran (332 gorunumden 8 benzersiz isim, ~%2.4). ⑤ AGIZ GENISLIGI OLCULDU: kodda TANIMI VAR ama DOLAYLI - w_der = 2*area/ length (satir 1658), agzin KENDISINDE degil govdenin ORTALAMASINDA olculuyor. Ince-sonra-genisleyen (huni sekilli) bir koridorda bu iki tanim AYRISABILIR - yama bunu DEGISTIRMEDI, yalniz KAYDETTI. BULAMADIM/OLCEMEDIM: gercek koşu bitmeden yamanin GERCEK sonucu dogrulanamaz (D022 tahmindir, olcum degil) · huni-sekilli ayrisma gercekte kac vakada olusuyor SORULMADI (ayri bir olcum gerekir).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
