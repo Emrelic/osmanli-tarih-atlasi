@@ -1,0 +1,17 @@
+{
+  "gorev": "KITA 7 — B3 KORİDOR",
+  "tarih": "2026-09-12",
+  "itiraf_D022": "Bu öngörü, pilot ölçümün BİRİNCİ (kusurlu) denemesinden SONRA ve İKİNCİ (düzeltilmiş) denemesinden HEMEN ÖNCE yazıldı — D022'nin 'ölçümden önce yaz' kuralı tam anlamıyla uygulanmadı. Gerekçe: v1 pilotun (agiz'i düz bir çizgiyle yaklaşıklayan) GÜVENİLMEZ olduğu zaten görüldüğü için onun sonucu bu tahmine taşınmadı; ama v1'in kaba yönü (ayrışma varlığı, tek yönlülük) BULGU-KORIDOR-AGZI-0911.md'den zaten biliniyordu ve bu tahmin O bilgiye dayanıyor, kendi yeni ölçümüme değil. Bu, D022'nin kabul ettiği türden bir öngörü değil, sınırlı bir öngörü — dürüstçe damgalanıyor.",
+  "tahmin_1_ayrisma_yonu": {
+    "beklenti": "BULGU-KORIDOR-AGZI-0911.md'nin sentetik dogbone bulgusuyla AYNI yönde: ayrışma TEK YÖNLÜ olacak — kod (w_der) Emre'nin kuralının (agiz_genislik) DOLDURACAĞI değil BIRAKACAĞI durumları yanlışlıkla DOLDURUR. Ters yön (kod SIĞ derken Emre DOLDUR derdi) synthetic ailede HİÇ bulunmayacak.",
+    "gerekce": "BULGU-KORIDOR-AGZI-0911.md §2'nin yapısal açıklaması (d_der Hausdorff monoton derinliği yansıtır, w_der dar kuyruktan aşağı çekilebilir ama geniş uçtan aynı kolaylıkla yukarı çekilmiyor) genel bir asimetri iddiasıdır, tek bir şekil ailesine özgü değil — bu yüzden farklı bir sentetik kurulumda (gerçek kapat()/agiz zinciriyle, notch sınıfı) da AYNI yönde tekrarlanmasını bekliyorum."
+  },
+  "tahmin_2_ayrisma_sikligi": {
+    "beklenti": "Rastgele, B3_KAPAMA_DER (~50 km) ölçeğinde kurulmuş bir sentetik koridor/notch örnekleminde ayrışma oranı KÜÇÜK DEĞİL — en az %10, muhtemelen %15-30 aralığında olacak, çünkü ağız/gövde oranı rastgele seçildiğinde 'huni' geometrisi nadir bir alt-sınıf değil, sık bir alt-sınıftır.",
+    "gerekce": "BULGU-KORIDOR-AGZI-0911.md'nin kendi ①. öngörüsü ('yarısından azında, ~%20-30') YÖNDEN çürümüştü ama BÜYÜKLÜK tahmini olarak makul bir çerçeve bırakmıştı; kendi notch-tabanlı kurulumumun o aralığa yakın çıkmasını bekliyorum."
+  },
+  "tahmin_3_km2_ve_koridor_sayisi": {
+    "beklenti_koridor_sayisi": "kosu_3eylul_2.log'daki b3_yerlesim(3081)+b3_kb(17)=3098 sayısının BÜYÜK ÖLÇÜDE korunacağı — yama saf EKLEME olduğu için karar DEĞİŞMİYOR, yalnız GÖRÜNÜRLÜK ekleniyor (YAMA-B3-LOG-0911.py §④'ün kendi notu).",
+    "km2_damgasi": "ÖLÇÜLEMEZ OLARAK DAMGALANACAK — km² toplamı YENİ bir agregat (bu yamanın kendisi ekliyor), hiçbir geçmiş logda yok, ve tam/gerçek üretim koşusu olmadan (yasak, 20 saat) ya da sınırlı-bölge gerçek bir motor koşusu olmadan (bu görevin kapsamı dışında, ayrı bir mühendislik işi) GÜVENİLİR biçimde üretilemez. Sentetik pilotun km² sayısı gerçek yerleşim ölçeğini YANSITMAZ (dereceler keyfi seçildi, gerçek dağılıma bağlı değil)."
+  }
+}
