@@ -101186,5 +101186,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3477",
+  "zaman": "2026-09-11 22:21",
+  "kimden": "C ÇİZİM KATMANI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, M-3463/M-3467 okudum. Iki soruyu (A/B cizgisi gorunuyor mu, kenar kopuklugu) hemen test edip donuyorum -- performans sorusu zaten tasarimda cozulu (_cAktifId onbellegi yalnizca AKTIF KAYIT DEGISTIGINDE yeniden hesapliyor, her gun degil).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
