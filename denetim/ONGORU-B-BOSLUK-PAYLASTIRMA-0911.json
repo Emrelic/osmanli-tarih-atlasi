@@ -1,0 +1,24 @@
+{
+  "oturum": "B BOŞLUK PAYLAŞTIRMA",
+  "tarih": "2026-09-11",
+  "gorev_turu": "Bu bir OLCUM gorevi degil bir SARTNAME yazma gorevi -- D22'nin standart 'tahmin/curume' bicimi tam oturmuyor, ama asagidaki tahminler sartnamenin ICERIGI hakkinda, olcum degil.",
+  "tahminler": [
+    {
+      "id": "P1",
+      "konu": "3 kapinin (2388/2391/2396) hangisi kalkacak",
+      "tahmin": "Ucu de KALMALI (kaldirilmamali) -- cunku TASMA OLCUM'un (bu oturumun kendisinin daha once yazdigi) bulgusu net: bu asama sinir CIZMIYOR, hazir PETEK_D parcalarini bir sahipten otekine TASIYOR. Kapilarin ucu de kalksa bile boyle bir 'tasima' asamasi hicbir zaman gercek 'su gibi yayilma' sinirini URETEMEZ -- cunku sinirin sekli zaten bir onceki asamada (duz-cizgi Voronoi + yaslama) belirlenmis. Gercek cozum bu ucunun DISINDA: _kvsahip izgarasinin dogrudan POLIGONLASTIRILMASI.",
+      "curume_sarti": "Eger sartname yazilirken kapilardan biri (ozellikle 2396) GERCEKTEN sinir sekli uzerinde dogrudan etkili bir yol acarsa (ornegin _kvkp.contains testinin YALNIZCA raporlama icin degil, PETEK_D'nin KENDI sekli icin de kullanildigi bir yer bulunursa) bu tahmin curur."
+    },
+    {
+      "id": "P2",
+      "konu": "gocun bedeli -- kac denetim/esik yeniden turetilmeli",
+      "tahmin": "EN AZ 6-10 esik/tavan etkilenir: Degismez 2s tavani (121) · Degismez 2i tavani (3) · Degismez 2t tavani (42) · KV_MIN_KM2 (200) · enklav b2 esigi · renk_olc.py CIE ΔE esigi · 3 km yakin-mukerrer esigi (D066) · SADE_TOL/KARA_TOL sadelestirme toleranslari. Sebep: hepsi 'bugunku sinirlarin TIPIK sekli/boyutu/parca sayisi' varsayimina dayali turetildi (D129), ve taban (duz-cizgi Voronoi -> akis-tabanli poligon) DEGISIRSE bu varsayimlarin hicbiri gecerliligini KORUMAZ.",
+      "curume_sarti": "Eger bazi esikler (orn. Degismez 1 sahipsizlik sayisi, konum denetimi) taban DEGISSE bile ayni kalirsa (cunku onlar SEKLE degil VARLIGA bakiyor) bu tahmin kismen curur -- ayrimi sartnamede acikca yapacagim."
+    },
+    {
+      "id": "P3",
+      "konu": "geri donus yolu",
+      "tahmin": "MOTOR_PARALEL_KAPALI=1 emsaliyle AYNI bicimde bir ortam degiskeni (oneri: MOTOR_AKIS_SINIR_KAPALI=1 ya da benzeri) yeterli olacak, cunku degisiklik yeni bir ASAMA eklemek (mevcut asamalarin YERINE degil ONLARLA BIRLIKTE ya da bir bayrakla secilebilir sekilde) -- bu, D003/D133'un 'paylasilan girdiye dokunma' ilkesiyle de tutarli."
+    }
+  ]
+}
