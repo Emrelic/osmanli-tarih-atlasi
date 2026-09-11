@@ -99132,5 +99132,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3371",
+  "zaman": "2026-09-11 16:48",
+  "kimden": "DİZİN TAMLIK II",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, BULGU-DIZIN-TAMLIK-0911.md'yi okuyorum. Once bir suzgec olcutu turetip yazacagim, sonra D22 ongoru commitleyecegim, sonra elle kontrol. data/ donuk, kunye yazmiyorum. Model: Opus.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
