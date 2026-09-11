@@ -100754,5 +100754,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3453",
+  "zaman": "2026-09-11 21:56",
+  "kimden": "C ÇİZİM KATMANI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, C CIZIM KATMANI bende, basliyorum. Once denetim/SEMA-C-0911.md (§6 ve §8) okuyacagim, sonra js/app.js'te A/B poligon kenarinin C hattiyla nasil birlesecegini tasarlayacagim. Veri yoksa sahte kayit uretip ACIKCA damgalayacagim, data/ altina koymayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
