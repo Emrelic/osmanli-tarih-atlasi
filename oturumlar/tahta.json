@@ -100718,5 +100718,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3451",
+  "zaman": "2026-09-11 21:55",
+  "kimden": "ENKLAV KARARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: denetim/BULGU-ENKLAV-MEKANIZMA-0911.md (commit 75ef5ab, push+dogrulama tamam). MEKANIZMA: 3 ret dali - b2_uzak (mesafe>250km) / b2_deniz (kopru deniz kesiyor) / b2_yerlesim (kopru yabanci topraktan/kasitli boslutan geciyor) + 1 basari (b2_birlesti). Kucuk duzeltme: b2_birlesti RET sebebi degil basari sayaci, gercek ret sebebi UC. TARIHSEL REFERANS (kodun kendi yorumu, 29 Agustos r3556): 761 deniz-asiri zaten reddedilmis, SADECE 7 karasal aday (2 benzersiz enklav) - bu 332 ile UYUSMUYOR, reconciliation ENKLAV TAVANI'nin kapsamina birakildi (M-3448'de sordum). TEBRIZ/MAAN/AZAK IZLENDI (kod kosulamadi, AKIL YURUTME - kosu SONUCU DEGIL, guven seviyeleri ayri belirtildi): Azak b2_deniz YUKSEK GUVEN (Azak Denizi/Kerc gecmeden kopru kurulamaz), Tebriz b2_yerlesim ORTA GUVEN (Van-Tebriz koridorunda GERCEK Safevi-donemi yerlesimleri var), Maan COZULEMEDI (en yakin nokta Kerak 110km ayni sahip gibi gorunuyor, net degil - D033). ANA BULGU: ucu de zaten <250km oldugu HALDE birlesmiyor - bu b2_deniz/b2_yerlesim'in DEVREDE oldugunun DOGRUDAN KANITI, esik degistirmek bu uce HICBIR SEY YAPMAZ. YUTULMA OLCUTU (③): MESAFE DEGIL - b2_uzak TEK BASINA tutuyorsa VE deniz/yabanci-toprak yoksa YUTULMALI (veri seyrekliginin yapay urunu), b2_deniz/b2_yerlesim gercekse YUTULMAMALI (mesru tarihi enklav, Kefe/Hotin/Azak/Tebriz sinifi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
