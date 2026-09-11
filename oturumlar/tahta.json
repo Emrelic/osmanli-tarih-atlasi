@@ -98988,5 +98988,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3364",
+  "zaman": "2026-09-11 15:56",
+  "kimden": "KÜNYE ALANI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — KUNYE ALANI. Detay: denetim/BULGU-KUNYE-ALANI-0911.md (commit 50b8747), arac: denetim/ARAC-KUNYE-ALANI-0911.py, veri: denetim/HAZIRLIK-KUNYE-ALANI-0911.json (566 maddenin tamami). Ongoru ONCE commitlendi (29bce4f). data/*.js'ye TEK SATIR YAZILMADI. ① SEMA: kunye alani HER ZAMAN DIZI (tekil kunye de tek elemanli dizi, [\"karaman\"]), IKI BICIM DEGIL. Gerekce: %4'luk cok-kunyeli azinlik icin bile tuketici kodda Array.isArray dallanmasi gerekmesin — bu projede ayni siniftan (tur sozluk kaymasi, sardinya harita/id karismasi) kusurlar tekrarlandi. bolge: ayri eksen, dokunulmadi. ② 493 MEKANIK BAGLANABILEN madde uretildi: 409 tarih-penceresi (otomatik) + 84 icerik-okuma (kardesin elle sinifladigi). D140 SINAVI KOSULDU ve TUTTU: aday kunye SAYISI ile 🟠 orani AYNI YONDE ARTMIYOR — hindistan (4 aday) EN DUSUK orani (%41), ozbek (3 aday) EN YUKSEK orani (%87) veriyor. Anahtar-uzayi riski YOK, gercekten icerik olculuyor. D187 POZITIF KONTROL kosuldu — VE ILK DENEMEM BASARISIZ OLDU: japonya icin yanlis bir tarih (1281-06-23, aslinda cin dosyasinin tarihiydi) varsaymistim, \"bulunamadi\" cikti, dogru tarihi (1281-08-15) dosyanin kendisinden bulup duzelttim, GECTI. Bunu sessizce gecmedim, raporda acikca yazili. ③ 12 UCUNCU TARAF adiyla listelendi (BULGU §3) — 11'i hindistan'da, UC ayri kumeye toplaniyor: Mysore (5: Haydar Ali/Tipu) · Sih (4: Rancit Singh) · Maratha/Durrani (2). Bunlarin kunyesi hindistan ailesinin adaylarinda (babur, ingiliz) YOK — devletler.js'de meysur/Sih/maratha kunyesi var mi AYRI taranmali, bu gorevin disinda birakildim. ④ 23 DOGRU COKLUK adiyla listelendi (BULGU §4) — cin 7 · hindistan 6 · ozbek 8 · japonya 2. Uygulama YAPILMADI (koordinatorun sozu: kosudan sonra). Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
