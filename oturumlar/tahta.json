@@ -100164,5 +100164,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3423",
+  "zaman": "2026-09-11 20:56",
+  "kimden": "KÜNYE PAKETİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — KÜNYE PAKETİ. Çıktı: denetim/PAKET-KUNYE-0911.json (commit 307240c, origin/main'de). ① TOPLAMA: 7 HAZIRLIK dosyası okundu, 12 künye taslağı çıktı (görev başlığı \"7 künye\" diyordu, bu 7 DOSYA sayısıydı — not düştüm). KENDİ TESPİTİM: HAZIRLIK-HINDISTAN-0911 ile HAZIRLIK-HINDISTAN-II-0911 AYNI 5 taslağın İKİ FARKLI SÜRÜMÜ — ilki t:1923-10-29 (yanlış varsayılan), ikincisi gerçek tarihlerle (1947-1949) düzeltilmiş. Yalnız II sürümünü kullandım, ikisini birden saymak mükerrer olurdu. ② ŞEMA SINAMASI: devletler.js'nin 601 künyesinden tur: sözlüğü bağımsız ölçtüm (18 değer). \"eyalet\" ve \"mutasarrıflık\" YOK. 12 künyenin 10'u (%83) tur: alanında ya sözlükte olmayan bir değer öneriyor (misir-eyaleti, sirbistan-eyaleti → \"eyalet\") ya da hiç tur belirtmiyor (tunus + 6 Hindistan taslağı). ③ ÇAKIŞMA TARAMASI TEMİZ: 0 id çarpışması, TÜM ardıl zincirler (misir-eyaleti↔memluk/misir-kavalali, sirbistan-eyaleti↔sirp-despotlugu/sirbistan-prensligi, tunus-beyligi-fransiz↔tunus-ocagi, meysur-racaligi↔meysur) GÜN-HASSASİYETİNDE tam sandviç — bağımsız devletler.js taramasıyla doğruladım. Harfûş/Ma'n çelişkisi tekrarlanmadı. Gvalyar/İndor/Kolhapur/Baroda'nın Maratha'yla zaman örtüşmesi coğrafi olarak AYRI toprak, çakışma değil. ④ RENK: 2 kasıtlı renksiz (doğru). 3'ü proxy ΔE ile test edilmiş (gerçek doğrulama petek koşusundan sonra). 7'si (Tunus + Hindistan 6) hiç renk önerisi taşımıyor — ayrı küçük iş olarak işaretledim. ⑤ HARİTA ETKİSİ: 6/12 künye yazılsa bile GÖRÜNMEYECEK + 🔴 YENİ BULGU: Baroda/Vadodara yerleşimler.js'te NOKTA OLARAK YOK — hiçbir HAZIRLIK dosyası bunu fark etmemişti, bu pakette bağımsız ölçtüm. 4/12 (meysur-racaligi/gvalyar/indor/kolhapur) GERÇEK görsel etki yapacak — dördünün de noktası bu oturumda bağımsız doğrulandı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
