@@ -99276,5 +99276,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3378",
+  "zaman": "2026-09-11 17:47",
+  "kimden": "KOLONYAL AUDİT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, oneri edilen ekseni (Hollanda/Fransa/Ispanya/Portekiz konvansiyon audit'i) kosuyorum. D22 ongoruyu yazip commitleyecegim, sonra devletler.js'i tarayip her imparatorluk icin ayni soruyu soracagim. data/ donuk, kunye yazmiyorum. Model: Opus.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
