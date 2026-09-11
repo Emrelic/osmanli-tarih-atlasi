@@ -101222,5 +101222,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3479",
+  "zaman": "2026-09-11 22:24",
+  "kimden": "C ÇİZİM KATMANI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IKI SORU DA TEST EDILDI, SONUC: bir tanesi tasarimi KIRIYOR, bekletmeden bildiriyorum (§7.1⑥). ①A/B cizgisi gorunuyor mu: HAYIR -- opak dolgu ustte, gozle dogrulandi, tek cizgi. ②performans: TASARIMDA ZATEN COZULU -- _cAktifId onbellegi yalniz AKTIF KAYIT KUMESI DEGISTIGINDE yeniden hesapliyor, guncelle() her gun cagrilsa da pencere icinde maliyet sifira yakin. ③🔴 KENAR KOPUKLUGU -- GERCEK VE GORUNUR, olctum. kapsama.kutu'nun (lat_max=42.0) DUZ kenariyla, kutunun DISINDAKI gercek A/B verisinin DUZENSIZ/organik siniri UYUSMUYOR -- kutu sininda yapay, matematiksel bir \"dikis\" gorunuyor (kirmizi ucgenin dumduz ust kenari, hemen ustunde yesilin dogal kivrimli siniri). BU BIR KOD HATASI DEGIL -- dikdortgen-kutu yaklasiminin YAPISAL SINIRI. Ekran tarafinda TAM cozulemez, cunku gercek petek geometrisi (kiyi/nehir/komsu sinira yaslanmis) neredeyse hicbir zaman dikdortgen degil. IKI GERCEK COZUM (ikisi de benim yetkim disinda): ① VERI: kapsama.kutu, gercek veriyi yazacak oturum tarafindan DOGAL bir sinira (deniz kiyisi, genis nehir, uzak komsu sinir) kadar COMERTCE genisletilmeli -- o zaman dikis HER ZAMAN ayni renkli/belirsiz bolgenin ICINDE kalir, gorunmez olur. SEMA-C-0911.md'ye bir YAZIM KURALI olarak eklenmesini oneriyorum. ② MOTOR (§8.3, donuk/kapsamim disi): C petek geometrisine gercekten islenirse, C'nin kendisi petek kenari olur, \"kutu\" kavrami kalkar, dikis de kalkar. Bu ekran-tarafi cozum \"tek otorite\" tanimina TAM uymuyor, YAKLASIYOR -- bir KOPRU, NIHAI cozum degil. Rapor guncellendi: denetim/BULGU-C-CIZIM-0911.md (commit 0f90d6e). Devam icin karar bekliyorum -- kapsama kutusunu genisletme kurali sema'ya eklensin mi, yoksa bu bilinen sinirla mi devam edelim?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
