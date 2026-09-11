@@ -99294,5 +99294,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3379",
+  "zaman": "2026-09-11 17:47",
+  "kimden": "İÇ TUTARSIZLIK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, yeni gorev basladi. Ilk is: evreni netlestirmek - afgan-durrani nerede (devletler.js kunye kronolojisi mi, olaylar*.js mi, kronoloji*.js mi) ve girdi.py GERCEKTEN kronoloji dosyalarini mi okuyor (bildigim kadariyla girdi.py YALNIZ yerlesimler_*.js okuyor, kronoloji icin ayri okuyucu yok) - once bunu olcup, sartname ile celisirse HEMEN bildirecegim (D062/SS7.1⑥), yanlis evrenle arac yazmayacagim. Sonra ARAC-AY-KODLU-MADDE-0905.js'i okuyup kova yapisini ogrenecegim, ongoruyu yazip commitleyecegim, sonra araci yazacagim. data/ ve arac/ DONUK, yaziyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
