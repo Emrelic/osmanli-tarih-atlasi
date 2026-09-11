@@ -1,0 +1,15 @@
+{
+  "oturum": "TUNUS + İBERYA",
+  "tarih": "2026-09-11",
+  "itiraf_D022": "① icin bir olcum ONGORUDEN ONCE yapildi: HINDISTAN KUNYE II'nin '8 kayit 1923 sonrasi t: tasiyor' iddiasini dogrulamak icin node ile devletler.js'i taradim ve SADECE 1 KAYIT (iran, 2026-08-07) buldum, 8 DEGIL. Bu, asagidaki ongoruyu SEKILLENDIRDI (bilerek, seffaf).",
+  "gecmise_donuk_olcum_D122_vakasi": {
+    "sibling_iddia": "devletler.js'de 1923-10-29 SONRASI t: tasiyan 8 kayit var, en buyugu 2026-08-07 (iran)",
+    "benim_olcumum": "node ile TAM nesne modeli taranmis, SADECE 1 kayit (iran) 1923-10-29'u asiyor",
+    "yorum": "Bu bir D122 vakasi olabilir -- iki oturum ayni sayida CELISIYOR. Benim yontemim (node eval, gercek JS nesnesi) muhtemelen kardesinkinden (belki metin/regex tabanli) daha guvenilir, ama BUNU KANITLAMADAN 'ben haklıyım' DEMIYORUM -- raporda acikca yaziyorum, koordinator/kardes dogrulayabilir."
+  },
+  "gercek_ongoru": {
+    "tahmin_1_tunus_t": "t:1923-10-29 + ozet'te '(1923 sonrasinda da surdu, gercek sonu 20 Mart 1956)' notu -- MEVCUT KONVANSIYONLA (haydarabad-nizam/bahavelpur/bopal/nepal -- 40+ ornekte gozlemlenen desen) TUTARLI olacak. 't:1956-03-20' yazmak ise bu 40+ kunyeden FARKLI bir hassasiyet uretip TUTARSIZLIK yaratir. Curume sarti: eger koordinator/Emre '1923-10-29 sinirlamasi TAMAMEN kaldirilsin, HERKES gercek tarihini alsin' diye YENİ bir sema karari verirse bu tahmin gecersiz kalir (ama bu benim yetkim disinda bir tasarim karari).",
+    "tahmin_2_yerlesim": "Tunus/Kayrevan/Sfaks/Bizerte noktalari YERLESIMLER.js'te VAR olacak (Tunus buyuk ve iyi belgelenmis bir bolge) ve 1881-1923 arasi zaten dogru bicimde bir devlet kimligine (muhtemelen fransa-cumhuriyet ya da tunus-ocagi'nin devami gibi yanlis bir kimlige) bagli olacak -- kunye acilinca haritada GERCEKTEN bir sey degisecek (Lubnan'daki gibi 'nokta yok' durumu OLMAYACAK).",
+    "tahmin_3_iberya": "Ispanya/Portekiz'in Karayip/Angola/Mozambik/Goa/Makao/Timor kolonilerinde EN AZ 1 ek gercek eksik bulunacak (eksen sicak, D187 kapanmayacak) -- ama emin degilim, bu zayif bir tahmin."
+  }
+}
