@@ -102086,5 +102086,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3527",
+  "zaman": "2026-09-12 01:10",
+  "kimden": "KITA 2 — BEKLEYEN PAKETLER",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — KITA 2 CAKISMA TARAMASI. denetim/CAKISMA-BEKLEYEN-PAKETLER-0911.md pushlandi (commit 155a1ac, guvende dogrulandi). data/'ya HICBIR SEY YAZMADIM. ① PAKETLER: hepsi VAR + 1 BONUS bulundu (PAKET-PRENSLIK-PENCERE-0911.json, sevkte anilmiyordu). 🔴 ONEMLI: PAKET-114 ve PAKET-T AYRI PAKET DEGIL - 114 kaydin TAMAMINI karsilastirdim, gercek catisma 0, PAKET-PRENSLIK- PENCERE bunlarin ATASI. UCU de AYNI is, uc evre. INECEK OLAN YALNIZ PAKET-T (30 gercek degisiklik, 27 net + 2 YYYY-01-01 konvansiyonu + 3 karar bekliyor). ② CAKISMA TARAMASI (asil is): - GERCEK CATISMA (iki paket ayni kayda farkli deger): 0 - 🔴🔴 YANLIS ONCUL bulundu: PAKET-TARIH-DUZELTME #10 \"afgan-durrani henuz devletler.js'te yok\" diyor - GRUP ILE DOGRULADIM, ZATEN VAR (f:1747-10-01/t:1823-01-01). Onerilen kronoloji tarihi (1793-05-20) bu pencerenin icinde, kunye beklemeden HEMEN eklenebilir. PAKET- DALGA2'nin #10'u da ayni yanlis varsayimi devralmis. - 🟢 CAPRAZ DOGRULAMA: PAKET-VERI-DUZELTME-A ile BENIM ONCEKI gorevim (ARAC-KUNYE-ONCESI, \"iran\" 644.9 yil sapma) BAGIMSIZ olarak AYNI 5 kaydi (Tarki dahil) sorunlu buldu - ikisi de bunlari BU turda cozmuyor, ayri kalem olarak birakiyor (D024 disiplini dogru uygulanmis). - 12 yeni kunye ne devletler.js'te ne 114-listede cakisiyor (0/12). - Nokta paketleri (Lubnan/Bosna) cografi olarak 3000+ km ayri, cakisma yok; Lubnan noktalari KUNYE paketine BAGIMLI. ③ INIS SIRASI: ① PAKET-KUNYE (temel) ② nokta paketleri (Lubnan buna bagimli, Bosna bagimsiz ama birlikte) ③ digger 4 paket (PAKET-T · PAKET- VERI-DUZELTME-A · PAKET-DALGA2 · PAKET-TARIH-DUZELTME) BIRBIRINDEN VE 1-2'den BAGIMSIZ, sira onemsiz ④ 5 kayit KARAR BEKLIYOR bu turda INMIYOR (PAKET-T: kacar/mogolistan/suud-ucuncu · TARIH-DUZELTME: #7 Ibrahim hal-katli, #9 Patrona Halil). ④ D022 ONGORU: dort sayi (sahipsiz 314 · belgesiz 4 · enklav 650 · asan 132) BUYUK OLCUDE SABIT kalmasi bekleniyor - yeni noktalar mevcut govdeye bitisik, sahipsiz doldurmuyor; PAKET-T kunye t:'lerini ILERI cekiyor, YENI asim yaratmaz. 🔴 TEK GERCEK RISK: Toskana'nin 1532-01-01 kirilmasi icin \"1 yeni madde gerekli\" deniyor ama madde METNI paketin ICINDE YOK - birlikte inmezse Degismez 2 gecici olarak 1 ACIK verir. BULAMADIM/OLCEMEDIM: PAKET-DALGA2'nin 21/22 kaydi tek tek karsilastirilmadi (kapsam disi) · nokta paketlerinin mukerrer testleri YENIDEN sinanmadi (kendi ic testlerine guvenildi) · Degismez 2/2s'nin gercek etkisi KOSULMADAN kesin degil, D022 tahminidir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
