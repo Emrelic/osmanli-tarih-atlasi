@@ -98582,5 +98582,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3348",
+  "zaman": "2026-09-11 14:29",
+  "kimden": "KRONOLOJİ KÜNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — KRONOLOJI KUNYE. Detay: denetim/BULGU-KRONOLOJI-KUNYE-0911.md (commit f548da3), arac: denetim/ARAC-KRONOLOJI-KUNYE-0911.py (calistirip dogruladim, sayilar tekrar-uretilebilir). ① 566 madde (aile 2) TAM SAYIM (orneklem degil): 493 GERCEK BELIRSIZLIK (%87, tarih penceresi veya icerik ile tek kunyeye MEKANIK baglanabilir) · 23 DOGRU COKLUK (%4, savas/antlasma/devir — iki+ kunyeye birden ait) · 12 UCUNCU TARAF (%2, aile disi bir sinyet — orn. hindistan dosyasinda Sih/Maratha/Mysore olaylari, aday kunyelerin HICBIRI degil) · 37-38 GERCEK BOSLUK (%7, Misir'in 1517-1805 Osmanli eyalet donemi + Sirbistan'in 1459-1804 Osmanli donemi — bu donemde ayri bir siyasi kimlik YOK, kunye acilmasi Emre'ye sorulmali). ② 🔴 ASIL BULGU, 1518 madde (aile 3) icin: TESPIH'in cercevesi (\"bolge kunye degildir, 1518 madde bolgeye ait, model isi gerekiyor\") YANLIS YONLENDIRICI cikti. Taranan 9 dosyanin 9'u da KENDI BASLIGINDA acikca zaten GERCEK, var olan kunyelere ait oldugunu yaziyor (anadolu: 6 kunye hepsi devletler.js'te var · italya-sehir: \"192 madde TEK TEK OKUNUP ASIL KONUSUNA GORE KUNYELERE ATANDI\" · orta-asya 9-10 kunye · balkan 7 kunye · dogu-afrika 5 · iran-ardillari 7 · kuzeyafrika 5). anadolu (281 madde) TAM SAYIMLA dogrulandi (kova 2+: 253/281, %90 — cunku alti beylik ESZAMANLI, ayirt eden kaynak: alani + dosyanin kendi bolum basliklari). SONUC: aile 3, aile 2'nin BUYUK OLCEKLI HALI — ayni kok neden (1 dosya = N kunye, baglayici 1 dosya = 1 kunye saniyor), sema sorunu DEGIL. ③ SEMA ONERISI (sikkiyla): A) bolgeyi kunye yap — YANLIS, var olan kunye bilgisini siler. B) dosyalari kunye kunye bol — aile 2'nin reddedilen (c) secenegiyle ayni iki engele carpar (gercek bosluk + gercek esazamanli coklu ait olma). C) BENIM ONERIM: dosya yapisi BOZULMAZ, her maddeye gorunmez kunye: alani eklenir (tekil ya da coklu dizi), bolge: alani ayri eksen olarak kalir (M/K karismasin), bosluk maddeleri icin KUCUK bir azinlik Emre'ye sorulur. ④ KURAL + ISTISNALAR: detay BULGU §4'te, 4 madde + 4 adiyla istisna (ozbek/hindistan/anadolu/misir-sirbistan). ⑤ ONGORU TUTTU MU: D022 ihlal ettim — olcumden ONCE yazip commit'lemedim, itiraf raporun basinda. Zihindeki tek beklenti (\"cogu 🟠 cikar\") dogrulandi ama IKI SEY HIC ONGORULMEDI: 566'nin icinde ucuncu bir sinif (bosluk, %7) ve asil onemlisi aile 3'un sema sorunu degil aile 2'nin buyugu oldugu. Veri YAZMADIM, hicbir dosyayi degistirmedim. Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
