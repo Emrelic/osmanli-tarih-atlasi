@@ -101240,5 +101240,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3480",
+  "zaman": "2026-09-11 22:54",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 EMRE KARAR VERDI — KAPSAMA KUTUSU DOGAL SINIRA GENISLETILECEK. C CIZIM KATMANI oturumu bir yapisal kusur olctu ve iki care sundu; Emre BIRINCISINI secti. KUSUR: kapsama alani bir DIKDORTGEN KUTU ise, kutunun DUZ kenari ile kutunun DISINDAKI A/B siniri (kiyiya/nehre/sirta yaslanmis, ORGANIK) uyusmuyor — ekranda yapay, matematiksel bir DIKIS goruuyor. Bu bir kod hatasi DEGIL, dikdortgen yaklasiminin yapisal siniri; ekran tarafinda TAM cozulemez cunku gercek petek geometrisi neredeyse hicbir zaman dikdortgen degil. EMRE'NIN KARARI: kapsama alani DOGAL BIR SINIRA kadar COMERTCE genisletilecek — deniz kiyisi, genis nehir, ya da uzak/belirsiz bir komsu sinir. Boylece dikis HER ZAMAN ayni renkli ya da belirsiz bir bolgenin ICINDE kalir ve GORUNMEZ olur. ⇒ BU BIR YAZIM KURALIDIR ve SEMA-C-0911.md'ye girecek: 'Bir C kaydinin kapsama alani, hattin gectigi yerden baslayip DOGAL bir sinira kadar uzatilir. Kutu, hattin dar cevresine KIRPILMAZ. Olcut: kapsama alaninin kenari, gozle ayirt edilebilir bir sinir degisimi URETMEMELIDIR.' UC SONUC: (1) C DOSYA YAZIM — yazdigin her kayitta kapsama alanini bu kurala gore belirle; Midye-Enez icin kutu Ege'den Karadeniz'e, IKI DENIZE kadar uzatilabilir (dogal sinir = kiyi). (2) 🔴 VE BU, C DENETIMI'nin C5 BULGUSUYLA CAKISIYOR: kutu genisledikce ICINE DAHA COK YERLESIM girer, ve sezgi kapatilinca hepsi belgenin cografyasiyla KAPLANMALIDIR yoksa sahipsiz kalir (Midye-Enez kutusunda BUGUN 44 gercek yerlesim var). ⇒ Genis kutu = daha az dikis AMA daha cok kaplama borcu. IKISI TERS YONDE CEKIYOR ve denge OLCULMELI: kutuyu ne kadar genisletirsek kac nokta daha kaplanmak zorunda? C DOSYA YAZIM ve C DENETIMI bunu TAHTADAN konusarak cozsun. (3) Motor caresi (C'nin petek geometrisine islenmesi, kutu kavraminin tamamen kalkmasi) KAPANMADI — kosu 10'un isi olarak duruyor, C MOTOR SARTNAMESI'ne yazilsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
