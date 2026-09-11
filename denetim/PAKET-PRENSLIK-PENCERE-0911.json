@@ -1,0 +1,1039 @@
+{
+ "oturum": "PRENSLİK PENCERE",
+ "tarih": "2026-09-11",
+ "toplam": 114,
+ "ozet": {
+  "yon_1_gercek_dogru": 1,
+  "yon_2_yakin_1_4_yil_duzeltilebilir": 6,
+  "yon_3_penecere_sonu_genis": 104,
+  "olculemedi": 3
+ },
+ "kayitlar": [
+  {
+   "id": "abd",
+   "ad": "Amerika Birleşik Devletleri",
+   "bolge": "kuzey-amerika",
+   "f": "1776-07-04",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "afganistan",
+   "ad": "Afganistan (Bârekzâyî Emirliği)",
+   "bolge": "orta-asya",
+   "f": "1823-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "agadez-sultanligi",
+   "ad": "Agadez (Aïr) Sultanlığı — Tuareg",
+   "bolge": "bati-afrika",
+   "f": "1405-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "almanya",
+   "ad": "Kutsal Roma / Almanya",
+   "bolge": "orta-avrupa",
+   "f": "962-02-02",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "arjantin-cumhuriyeti",
+   "ad": "Arjantin Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1810-05-25",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "arnavutluk-bagimsiz",
+   "ad": "Arnavutluk Prensliği (Bağımsız)",
+   "bolge": "balkanlar",
+   "f": "1912-11-28",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "avustralya",
+   "ad": "Avustralya Milletler Topluluğu",
+   "bolge": "okyanusya",
+   "f": "1901-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "avusturya-cumhuriyet",
+   "ad": "Avusturya Cumhuriyeti (I. Cumhuriyet)",
+   "bolge": "orta-avrupa",
+   "f": "1918-11-12",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "bahavelpur",
+   "ad": "Bahavelpur Emirliği (Dâvudpotralar)",
+   "bolge": "guney-asya",
+   "f": "1748-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "bahreyn",
+   "ad": "Bahreyn (Âl Halîfe Şeyhliği)",
+   "bolge": "arabistan",
+   "f": "1783-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "belcika",
+   "ad": "Belçika Krallığı",
+   "bolge": "bati-avrupa",
+   "f": "1830-10-04",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "bharatpur-cat",
+   "ad": "Bharatpur Krallığı (Jat)",
+   "bolge": "guney-asya",
+   "f": "1733-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "bhopal",
+   "ad": "Bopal (Bhopal) Devleti",
+   "bolge": "guney-asya",
+   "f": "1708-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "bolivya-cumhuriyeti",
+   "ad": "Bolivya Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1825-08-06",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "brezilya-cumhuriyeti",
+   "ad": "Brezilya Birleşik Devletleri Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1889-11-15",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "brunei-sultanligi",
+   "ad": "Brunei Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "f": "1368-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "buganda",
+   "ad": "Buganda Krallığı",
+   "bolge": "dogu-afrika",
+   "f": "1300-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "ad": "Buhara Halk Sovyet Cumhuriyeti",
+   "bolge": "orta-asya",
+   "f": "1920-10-08",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴(c)",
+   "not": "1-4 yıl içinde bitti: ~1924 (SSC'ye dönüşüm) — gün bulunamadı"
+  },
+  {
+   "id": "bulgaristan-kralligi",
+   "ad": "Bulgaristan Krallığı (Çarlık)",
+   "bolge": "balkanlar",
+   "f": "1908-10-05",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "cammu-kesmir",
+   "ad": "Cammû-Keşmir (Dogra Hanedanı)",
+   "bolge": "guney-asya",
+   "f": "1846-03-16",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "cekoslovakya",
+   "ad": "Çekoslovakya Cumhuriyeti",
+   "bolge": "orta-avrupa",
+   "f": "1918-10-28",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "cezayir-fransiz",
+   "ad": "Fransız Cezayir İşgali",
+   "bolge": "kuzey-afrika",
+   "f": "1830-07-05",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "cimma-sultanligi",
+   "ad": "Cimma (Jimma) Sultanlığı",
+   "bolge": "dogu-afrika",
+   "f": "1830-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "⚪",
+   "not": "1932-05 bulundu ama (b)/(c) sınırı belirsiz, koordinatöre bırakıldı"
+  },
+  {
+   "id": "cin-cumhuriyeti",
+   "ad": "Çin Cumhuriyeti",
+   "bolge": "dogu-asya",
+   "f": "1911-10-10",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "cohor-sultanligi",
+   "ad": "Cohor (Johor) Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "f": "1528-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "cunagadh",
+   "ad": "Cunagadh (Junagadh) Nevablığı",
+   "bolge": "guney-asya",
+   "f": "1748-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "danimarka",
+   "ad": "Danimarka Krallığı (1814'e kadar Danimarka-Norveç)",
+   "bolge": "kuzey-avrupa",
+   "f": "1281-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "dominik-cumhuriyeti",
+   "ad": "Dominik Cumhuriyeti",
+   "bolge": "orta-amerika-karayip",
+   "f": "1844-02-27",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "ekvador-cumhuriyeti",
+   "ad": "Ekvador Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1830-05-13",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "estonya",
+   "ad": "Estonya Cumhuriyeti",
+   "bolge": "dogu-avrupa",
+   "f": "1918-02-24",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "fas",
+   "ad": "Fas (Sâdî / Alevî Şerifleri)",
+   "bolge": "kuzey-afrika",
+   "f": "1549-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "filistin-mandasi",
+   "ad": "İngiliz Filistin Mandası",
+   "bolge": "arabistan",
+   "f": "1920-07-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "finlandiya",
+   "ad": "Finlandiya Cumhuriyeti",
+   "bolge": "kuzey-avrupa",
+   "f": "1917-12-06",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "fransa-cumhuriyet",
+   "ad": "Fransa (1792 Sonrası — Cumhuriyet/İmparatorluk/Restorasyon)",
+   "bolge": "bati-avrupa",
+   "f": "1792-09-22",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "fransiz-cinhindi",
+   "ad": "Fransız Çinhindi (Indochine française)",
+   "bolge": "guneydogu-asya",
+   "f": "1859-02-17",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "fransiz-guyanasi",
+   "ad": "Fransız Guyanası",
+   "bolge": "guney-amerika",
+   "f": "1817-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "guatemala",
+   "ad": "Guatemala Cumhuriyeti",
+   "bolge": "orta-amerika-karayip",
+   "f": "1821-09-15",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "habesistan",
+   "ad": "Habeşistan İmparatorluğu",
+   "bolge": "dogu-afrika",
+   "f": "1270-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "haiti",
+   "ad": "Haiti Cumhuriyeti",
+   "bolge": "orta-amerika",
+   "f": "1804-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "ad": "Harezm Halk Sovyet Cumhuriyeti",
+   "bolge": "orta-asya",
+   "f": "1920-04-26",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴(c)",
+   "not": "1-4 yıl içinde bitti: ~1924 (SSC'ye dönüşüm) — gün bulunamadı"
+  },
+  {
+   "id": "haydarabad-nizam",
+   "ad": "Haydarabad Nizamlığı (Âsafcâh Hanedanı)",
+   "bolge": "guney-asya",
+   "f": "1724-10-11",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "hicaz-kralligi",
+   "ad": "Hicaz Krallığı (Şerif Hüseyin)",
+   "bolge": "arabistan",
+   "f": "1916-06-10",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "hollanda",
+   "ad": "Hollanda Cumhuriyeti",
+   "bolge": "bati-avrupa",
+   "f": "1581-07-26",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "hollanda-dogu-hint",
+   "ad": "Hollanda Doğu Hint Adaları",
+   "bolge": "guneydogu-asya",
+   "f": "1602-03-20",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "hollanda-guyanasi",
+   "ad": "Hollanda Guyanası (Surinam)",
+   "bolge": "guney-amerika",
+   "f": "1667-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "ingiliz-guyanasi",
+   "ad": "İngiliz Guyanası",
+   "bolge": "guney-amerika",
+   "f": "1831-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "ingiliz-hindistani",
+   "ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+   "bolge": "guney-asya",
+   "f": "1757-06-23",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "ingiliz-kuzey-amerika",
+   "ad": "İngiliz Kuzey Amerika (Kanada)",
+   "bolge": "kuzey-amerika",
+   "f": "1763-02-10",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "ingiliz-malaya",
+   "ad": "İngiliz Malaya",
+   "bolge": "guneydogu-asya",
+   "f": "1826-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "ingiliz-sudani",
+   "ad": "İngiliz Sudanı (Anglo-Mısır Kondominyumu)",
+   "bolge": "misir-sudan",
+   "f": "1899-01-19",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "ingiltere",
+   "ad": "İngiltere / Büyük Britanya",
+   "bolge": "bati-avrupa",
+   "f": "1066-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "irak-kralligi",
+   "ad": "Irak Krallığı (Faysal I, İngiliz Mandası)",
+   "bolge": "arabistan",
+   "f": "1921-08-23",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "irlanda-serbest-devlet",
+   "ad": "İrlanda Serbest Devleti",
+   "bolge": "bati-avrupa",
+   "f": "1922-12-06",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "ispanya",
+   "ad": "İspanya (Kastilya-Aragon)",
+   "bolge": "iberya",
+   "f": "1479-01-20",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "isvec",
+   "ad": "İsveç Krallığı",
+   "bolge": "kuzey-avrupa",
+   "f": "1523-06-06",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "isvicre",
+   "ad": "İsviçre Konfederasyonu",
+   "bolge": "orta-avrupa",
+   "f": "1291-08-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "italya",
+   "ad": "İtalya Krallığı",
+   "bolge": "italya",
+   "f": "1861-03-17",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "izlanda",
+   "ad": "İzlanda",
+   "bolge": "kuzey-avrupa",
+   "f": "1918-12-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "kacar",
+   "ad": "Kaçar Hanedanı (İran)",
+   "bolge": "iran",
+   "f": "1789-03-21",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴(c)",
+   "not": "1-4 yıl içinde bitti: 1925-10-31/12-15 (Ahmed Şah hal'i / Rıza Han) — kaynak: Wikipedia, akademik teyit edilmeli"
+  },
+  {
+   "id": "kamboc-kralligi",
+   "ad": "Kamboçya Krallığı (Post-Angkor)",
+   "bolge": "guneydogu-asya",
+   "f": "1431-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "kanada",
+   "ad": "Kanada Dominyonu",
+   "bolge": "kuzey-amerika",
+   "f": "1867-07-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "katar",
+   "ad": "Katar (Âl Sânî Şeyhliği)",
+   "bolge": "arabistan",
+   "f": "1868-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "kesiri-sultanligi",
+   "ad": "Kesîrî Sultanlığı (Hadramut iç kesimi)",
+   "bolge": "arabistan",
+   "f": "1450-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "kolombiya-cumhuriyeti",
+   "ad": "Kolombiya Cumhuriyeti (Yeni Granada soyu)",
+   "bolge": "guney-amerika",
+   "f": "1831-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "kuayti-sultanligi",
+   "ad": "Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)",
+   "bolge": "arabistan",
+   "f": "1881-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "kuba-cumhuriyeti",
+   "ad": "Küba Cumhuriyeti",
+   "bolge": "orta-amerika-karayip",
+   "f": "1902-05-19",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "kuveyt",
+   "ad": "Kuveyt (Sabah Şeyhliği)",
+   "bolge": "arabistan",
+   "f": "1752-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "letonya",
+   "ad": "Letonya Cumhuriyeti",
+   "bolge": "dogu-avrupa",
+   "f": "1918-11-18",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "liberya",
+   "ad": "Liberya Cumhuriyeti",
+   "bolge": "bati-afrika",
+   "f": "1822-04-25",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "litvanya",
+   "ad": "Litvanya Cumhuriyeti",
+   "bolge": "dogu-avrupa",
+   "f": "1918-02-16",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "luksemburg",
+   "ad": "Lüksemburg Büyük Dükalığı",
+   "bolge": "bati-avrupa",
+   "f": "1890-11-23",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "macaristan-naiplik",
+   "ad": "Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)",
+   "bolge": "orta-avrupa",
+   "f": "1918-11-16",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "manipur",
+   "ad": "Manipûr Krallığı",
+   "bolge": "guney-asya",
+   "f": "1281-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "meiji-japonya",
+   "ad": "Meiji ve Sonrası Japonya İmparatorluğu",
+   "bolge": "dogu-asya",
+   "f": "1868-01-03",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "meksika",
+   "ad": "Meksika (Bağımsız Dönem)",
+   "bolge": "orta-amerika",
+   "f": "1821-09-27",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "misir-kralligi",
+   "ad": "Mısır Krallığı (I. Fuad)",
+   "bolge": "misir-sudan",
+   "f": "1922-03-15",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "mogolistan",
+   "ad": "Moğolistan (Bogd Hanlık)",
+   "bolge": "dogu-asya",
+   "f": "1911-12-29",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴(c)",
+   "not": "1-4 yıl içinde bitti: 1924-05-20 (Bogd Han öldü) ya da 1924-11-26 (MHC ilanı) — karar gerekir"
+  },
+  {
+   "id": "nepal",
+   "ad": "Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)",
+   "bolge": "guney-asya",
+   "f": "1281-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "nguyen-hanedani",
+   "ad": "Nguyễn Hanedanı (Vietnam)",
+   "bolge": "guneydogu-asya",
+   "f": "1802-06-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "norvec",
+   "ad": "Norveç Krallığı (bağımsız)",
+   "bolge": "kuzey-avrupa",
+   "f": "1905-06-07",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "oniki-ada-italyan",
+   "ad": "İtalya'nın Oniki Ada İşgali",
+   "bolge": "balkanlar",
+   "f": "1912-05-04",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "panama-cumhuriyeti",
+   "ad": "Panama Cumhuriyeti",
+   "bolge": "orta-amerika-karayip",
+   "f": "1903-11-03",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "paraguay-cumhuriyeti",
+   "ad": "Paraguay Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1811-05-14",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "peru-cumhuriyeti",
+   "ad": "Peru Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1824-12-09",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "polonya",
+   "ad": "Polonya Cumhuriyeti (II. Cumhuriyet)",
+   "bolge": "dogu-avrupa",
+   "f": "1918-11-11",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "portekiz",
+   "ad": "Portekiz Krallığı",
+   "bolge": "iberya",
+   "f": "1139-07-25",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "racput",
+   "ad": "Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)",
+   "bolge": "guney-asya",
+   "f": "1281-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "rif-cumhuriyeti",
+   "ad": "Rif Cumhuriyeti (Abdülkerim el-Hattâbî)",
+   "bolge": "kuzey-afrika",
+   "f": "1921-09-18",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴(c)",
+   "not": "1-4 yıl içinde bitti: 1926-05-27 (İspanyol-Fransız zaferi)"
+  },
+  {
+   "id": "romanya-kralligi",
+   "ad": "Romanya Krallığı",
+   "bolge": "balkanlar",
+   "f": "1881-03-26",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "san-devletleri",
+   "ad": "Şan Beylikleri (Sawbwa'lıklar)",
+   "bolge": "guneydogu-asya",
+   "f": "1281-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "sarawak-brooke",
+   "ad": "Sarawak (Brooke Hanedanı)",
+   "bolge": "guneydogu-asya",
+   "f": "1841-09-24",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "sili-cumhuriyeti",
+   "ad": "Şili Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1818-02-12",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "siyam-chakri",
+   "ad": "Siyam Krallığı (Rattanakosin / Chakri Hanedanı)",
+   "bolge": "guneydogu-asya",
+   "f": "1782-04-06",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "somali",
+   "ad": "Somali Sultanlıkları",
+   "bolge": "dogu-afrika",
+   "f": "1500-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "⚪",
+   "not": "hangi sultanlık kastediliyor belirsiz"
+  },
+  {
+   "id": "sovyet-rusya",
+   "ad": "Sovyet Rusya / SSCB",
+   "bolge": "dogu-avrupa",
+   "f": "1917-11-07",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "surakarta",
+   "ad": "Surakarta Sunanlığı",
+   "bolge": "guneydogu-asya",
+   "f": "1755-02-13",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "suriye-lubnan-mandasi",
+   "ad": "Fransız Suriye-Lübnan Manda İdaresi",
+   "bolge": "arabistan",
+   "f": "1920-07-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "suud-ucuncu",
+   "ad": "III. Suûdî Devleti (Necid ve Hicaz Sultanlığı)",
+   "bolge": "arabistan",
+   "f": "1902-01-15",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴(c)",
+   "not": "1-4 yıl içinde bitti: 1926-01-08 (Hicaz Krallığı) ya da 1932-09-18 (Suudi Arabistan) — model kararı gerekir"
+  },
+  {
+   "id": "tannu-tuva",
+   "ad": "Tannu Tuva Halk Cumhuriyeti",
+   "bolge": "sibirya-bozkir",
+   "f": "1921-08-14",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "tbmm-turkiye",
+   "ad": "Türkiye Büyük Millet Meclisi Hükûmeti",
+   "bolge": "anadolu",
+   "f": "1920-04-23",
+   "t_mevcut": "1923-10-29",
+   "damga": "🟢",
+   "not": "gerçek bitiş, doğru"
+  },
+  {
+   "id": "tibet-ganden-phodrang",
+   "ad": "Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)",
+   "bolge": "dogu-asya",
+   "f": "1642-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "tidore-sultanligi",
+   "ad": "Tidore Sultanlığı (Moluk)",
+   "bolge": "guneydogu-asya",
+   "f": "1281-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "tonga-kralligi",
+   "ad": "Tonga Krallığı",
+   "bolge": "okyanusya",
+   "f": "1845-12-04",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "travankur",
+   "ad": "Travankur Krallığı (Venâd)",
+   "bolge": "guney-asya",
+   "f": "1281-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "umman",
+   "ad": "Umman (Ya'rubî / Bû Saîd) Sultanlığı",
+   "bolge": "arabistan",
+   "f": "1624-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "umman-zengibar",
+   "ad": "Umman-Zengibar Sultanlığı",
+   "bolge": "dogu-afrika",
+   "f": "1698-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "⚪",
+   "not": "kapsam (1698-1856 mi, 1964'e mi) ozet okunmadan belirsiz"
+  },
+  {
+   "id": "urdun-emirligi",
+   "ad": "Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)",
+   "bolge": "arabistan",
+   "f": "1921-02-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "uruguay-cumhuriyeti",
+   "ad": "Uruguay Doğu Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1828-08-27",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "venezuela-cumhuriyeti",
+   "ad": "Venezuela Cumhuriyeti",
+   "bolge": "guney-amerika",
+   "f": "1830-01-13",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "yemen-zeydi",
+   "ad": "Yemen Zeydî İmamlığı",
+   "bolge": "arabistan",
+   "f": "897-01-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "yeni-zelanda",
+   "ad": "Yeni Zelanda (İngiliz Kolonisi/Dominyonu)",
+   "bolge": "okyanusya",
+   "f": "1840-02-06",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "yogyakarta",
+   "ad": "Yogyakarta Sultanlığı",
+   "bolge": "guneydogu-asya",
+   "f": "1755-02-13",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "yugoslavya",
+   "ad": "Sırp-Hırvat-Sloven Krallığı (SHS)",
+   "bolge": "balkanlar",
+   "f": "1918-12-01",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  },
+  {
+   "id": "yunanistan",
+   "ad": "Yunanistan Krallığı",
+   "bolge": "balkanlar",
+   "f": "1821-03-25",
+   "t_mevcut": "1923-10-29",
+   "damga": "🔴",
+   "not": "pencere sonu — hâlâ var ya da onlarca yıl sonra bitti (bkz. BULGU (a)/(b))"
+  }
+ ]
+}
