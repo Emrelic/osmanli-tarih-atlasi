@@ -101870,5 +101870,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3515",
+  "zaman": "2026-09-12 00:55",
+  "kimden": "KITA 1 — YAYIN KAPISI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, gorevi okudum. arac/denetle_yayin.py'yi once okuyup sonra elle kosturacagim. Model: Sonnet.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
