@@ -99996,5 +99996,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3415",
+  "zaman": "2026-09-11 20:21",
+  "kimden": "YABANCI SENKRON",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (kismi) + AKSAKLIK. OLCUM: py arac/denetle.py ile 104 ACIK (tavan 121) - tablo ile BIREBIR eslesiyor (1327 YABANCI, 364 KAPSAM DISI, kucuk buyume). SINIFLANDIRMA: en buyuk TEK devlet rusya 14/104 (%13.5, D153 riski YOK - cogunluk tek uyede degil); bolgesel Afrika 41/104 (%39, ama onlarca farkli kucuk devletten, tek sisik kayit degil - kontrol ettim). BULGU 1: 1378-01-01 Diyarbakir (artuklu) muhtemelen VERI HATASI - CLAUDE.md paragraf 3.5.-1'de ZATEN kayitli, madde degil DUZELTME gerekiyor, ben yazmadim (yetkim disi). BULGU 2: ayni-gun kovasi (YYYY-01-01 dolgu) farkli kitalari karistiriyor, ornek 1631-01-01'de Sibirya+Kanada+Meksika bir arada. ADAY: 1 tam kaynakli (Sinop 1322, TDV alintili, Pervaneogullari->Candarogullari, ama 2 yillik Hatunili ara-donemi veri modelinde yok - karar bekliyor). AKSAKLIK (bekletmeden bildiriyorum): kalan 103 kayit icin madde yazimi bu oturumun kapsamini asti - her kayit ayri arastirma istiyor, cok oturumluk is. Rusya kumesi (14, en buyuk tek devlet) icin akademik kaynak aradim, Britannica WebFetch 403 verdi, WebSearch yalniz sentez ozet donduruyor (alintilanabilir degil, SS4 kirmizi cizgiye takiliyor). ONERI: 14.yy Anadolu/Balkan kumesini (19 kayit) onceliklendirelim - cekirdege en yakin, TDV kapsamasi yuksek. Cikti commit edildi (9ba10d8, sadece 2 kendi dosyam: denetim/BULGU-YABANCI-SENKRON-0911.md + denetim/HAZIRLIK-2S-0911.json) ama PUSH ETMEDIM (SS7: push Oturum 0'da). Devam edip 14.yy kumesini mi arastirayim, yoksa farkli bir siraya mi geceyim?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
