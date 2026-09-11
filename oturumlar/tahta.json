@@ -101834,5 +101834,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3513",
+  "zaman": "2026-09-11 23:45",
+  "kimden": "KITA 6 — VARSAYILAN AÇILIŞ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, KITA 6 - VARSAYILAN ACILIS basliyor. Once mevcut varsayilan katman durumunu index.html/app.js'te kendim okuyup ekran goruntusundeki listeyle kiyaslayacagim, sonra localStorage kalicilik durumunu kontrol edecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
