@@ -366,27 +366,95 @@ def yerlesim_listesi_yukle():
     return out
 
 
+GENEL_CIKARSAMA_DESENI = re.compile(
+    r"\b(west|east|north|south|batı|doğu|kuzey|güney)\b.*\b(of|to|from)\b|"
+    r"\ball\b.*\bterritories\b|\btüm\b.*\btopraklar", re.IGNORECASE)
+
+
 def c5_kapsama_kaplama(kayit, yerlesim_listesi):
-    """M-3463 §9.3① — kapsama kutusu İÇİNDEKİ HER GERÇEK yerleşim,
-    `gereken_cografya`da anılıyor mu? Anılmıyorsa: sezgi kapalıyken bu
-    nokta HİÇBİR mekanizmayla bir tarafa atanmaz — Değişmez 1'in doğrudan
-    ihlali (delik)."""
+    """M-3463 §9.3① + M-3480 ②/③ — kapsama kutusu İÇİNDEKİ HER GERÇEK
+    yerleşim, `gereken_cografya`da anılıyor mu? Anılmıyorsa: sezgi
+    kapalıyken bu nokta HİÇBİR mekanizmayla bir tarafa atanmaz — Değişmez
+    1'in doğrudan ihlali (delik).
+
+    🔴 M-3480 GENİŞLEMESİ: kutu artık `doğal sınıra` genişletilince
+    (M-3480) bu "delik" HER ZAMAN büyük çıkacak (Midye-Enez'de 44→67-70).
+    Üç çözüm var (A geometrik-otomatik · B metinden-çıkarsama · C kısmi-
+    sezgi) ve HANGİSİ seçilirse denetimin HÜKMÜ değişir — bu fonksiyon
+    artık kaydın YENİ (isteğe bağlı) `kaplanmamis_nokta_politikasi` alanına
+    BAKAR ve üç politikayı da AYRI AYRI değerlendirir. Alan YOKSA (bugünkü
+    çoğu taslak kayıt) eski KATI davranış sürer: HER kaplanmamış nokta bir
+    HATA'dır (D107: 'karar verilmedi' durumunun kendisi en güvenlisi)."""
     kutu = kayit.get("kapsama", {}).get("kutu")
     if not kutu:
         return ["`kapsama.kutu` yok — kaplama testi yapılamaz"]
     gereken = kayit.get("gereken_cografya") or []
     gereken_norm = {norm(g.get("ad", "")) for g in gereken if isinstance(g, dict)}
     sezgi_kapali = kayit.get("kapsama", {}).get("sezgi_kapali")
-    delikler = []
+    kaplanmamislar = []
     for ad, lat, lon, dosya in yerlesim_listesi:
         if not (kutu["lat_min"] <= lat <= kutu["lat_max"] and
                 kutu["lon_min"] <= lon <= kutu["lon_max"]):
             continue
         if norm(ad) not in gereken_norm:
-            delikler.append(f"`{ad}` ({dosya}) kutunun İÇİNDE ama `gereken_cografya`da YOK")
+            kaplanmamislar.append((ad, dosya))
+
+    politika = kayit.get("kaplanmamis_nokta_politikasi")
+    delikler = []
+
+    if not kaplanmamislar:
+        return delikler  # tam kaplanmış, politika sorusu YOK
+
+    if politika is None:
+        # ESKİ/KATI davranış — hiçbir politika beyan edilmemiş, HER
+        # kaplanmamış nokta bir HATA'dır (M-3480'den ÖNCEKİ C5 mantığı,
+        # geriye dönük uyumluluk için AYNEN korundu).
+        for ad, dosya in kaplanmamislar:
+            delikler.append(f"`{ad}` ({dosya}) kutunun İÇİNDE ama `gereken_cografya`da YOK "
+                             f"— politika beyan edilmemiş, KATI kural uygulanıyor")
+
+    elif politika in ("otomatik-geometrik", "metinden-cikarsama"):
+        # A ve B: cross_yerel HER noktayı bir tarafa atar (matematiksel
+        # olarak, §8.2) — Değişmez 1 KORUNUR, "delik" YOK. Ama bu bir
+        # BİLGİ notu olarak kaydedilir: bu N nokta BELGEDEN değil
+        # GEOMETRİDEN atanıyor — Emre'nin "belge konuşuyorsa motor susar"
+        # ilkesiyle GERİLİMLİ, hata değil ama ŞEFFAFLIK gerektiren bir durum.
+        delikler.append(f"ℹ️ BİLGİ (hata değil): {len(kaplanmamislar)} nokta "
+                         f"`{politika}` politikasıyla GEOMETRİDEN atanacak, belgeden değil "
+                         f"— Değişmez 1 korunur ama 'belge konuşuyorsa motor susar' ilkesi "
+                         f"bu noktalarda İSTİSNAİ olarak uygulanmıyor")
+        if politika == "metinden-cikarsama":
+            # B'nin KENDİ iddiasını doğrula: kaynak.alinti GERÇEKTEN genel
+            # bir yön/taraf ifadesi içeriyor mu? İçermiyorsa bu politika
+            # SEÇİLEMEZ — B, A'nın gerekçe kılıfına bürünmüş hâlidir ama
+            # gerekçe METİNDE OLMALI.
+            alinti = (kayit.get("kaynak", {}) or {}).get("alinti") or ""
+            if not GENEL_CIKARSAMA_DESENI.search(alinti):
+                delikler.append(f"🔴 `metinden-cikarsama` politikası seçilmiş ama "
+                                 f"`kaynak.alinti` içinde GENEL bir yön/taraf ifadesi "
+                                 f"(ör. 'west of', 'south of', 'tüm topraklar') BULUNAMADI "
+                                 f"— bu politika DAYANAKSIZ, aslında A'ya (geometrik) "
+                                 f"eşdeğer ama B'nin gerekçesini TAŞIMIYOR")
+
+    elif politika == "kismi-sezgi":
+        # C: yalnız gereken_cografya'daki noktalar C ile atanır, kalanı
+        # A/B'nin kendi Voronoi/sezgisi çözer (motor tarafında zaten
+        # ÇALIŞAN bir mekanizma — Değişmez 1 orada ZATEN korunuyor,
+        # C5'in bu noktada söyleyecek bir şeyi yok, AMA "yorum yapmama"
+        # ilkesinin KASITLI olarak delinmesi kayıt altına alınmalı.
+        delikler.append(f"ℹ️ BİLGİ (hata değil): {len(kaplanmamislar)} nokta kısmi-sezgi "
+                         f"politikasıyla A/B'nin (Voronoi/yaslama) sezgisine BIRAKILDI — "
+                         f"Değişmez 1 A/B'nin kendi garantisiyle korunuyor, ama "
+                         f"'motor bu bölgede YORUM YAPMAZ' ilkesi bu {len(kaplanmamislar)} "
+                         f"nokta için KASITLI olarak İHLAL EDİLİYOR (belgeye göre değil)")
+
+    else:
+        delikler.append(f"`kaplanmamis_nokta_politikasi:{politika!r}` TANINMIYOR — "
+                         f"'otomatik-geometrik'|'metinden-cikarsama'|'kismi-sezgi' olmalı")
+
     if delikler and sezgi_kapali is not True:
         delikler.insert(0, "⚠️ `kapsama.sezgi_kapali` alanı YOK/false — bu kayıt M-3463 "
-                           "ÖNCESİ şemayla yazılmış, GÖÇ GEREKİYOR (aşağıdaki delikler "
+                           "ÖNCESİ şemayla yazılmış, GÖÇ GEREKİYOR (aşağıdaki bulgular "
                            "bugün için teorik, sezgi_kapali:true olduğunda GERÇEKLEŞİR)")
     return delikler
 
@@ -587,7 +655,24 @@ def oz_sinav(devlet_ix, gun_no_kumesi):
           f"{'✓ YAKALADI' if pozitif_ok5a else '✗ KAÇIRDI'}  |  "
           f"tam liste → {len(h_c5_tam)} delik "
           f"{'✓ DOĞRU (temiz geçti)' if pozitif_ok5b else '✗ YANLIŞ-POZİTİF'}")
-    sonuc["C5"] = pozitif_ok5a and pozitif_ok5b
+
+    # --- C5 M-3480 ek: üç politika (A/B/C) da ayrı sınanıyor ---
+    kayit_a = dict(kayit_eksik, kaplanmamis_nokta_politikasi="otomatik-geometrik")
+    h_c5_a = c5_kapsama_kaplama(kayit_a, sentetik_yerlesim)
+    pozitif_ok5c = (len(h_c5_a) >= 1 and any(h.startswith("ℹ️") for h in h_c5_a)
+                    and not any("kutunun İÇİNDE ama" in h for h in h_c5_a))
+    kayit_b_iyi = dict(kayit_eksik, kaplanmamis_nokta_politikasi="metinden-cikarsama",
+                       kaynak={"alinti": "all territories to the west of this line"})
+    h_c5_b_iyi = c5_kapsama_kaplama(kayit_b_iyi, sentetik_yerlesim)
+    pozitif_ok5d = not any(h.startswith("🔴") for h in h_c5_b_iyi)
+    kayit_b_kotu = dict(kayit_eksik, kaplanmamis_nokta_politikasi="metinden-cikarsama",
+                        kaynak={"alinti": "bu antlaşma güzel bir antlaşmadır"})
+    h_c5_b_kotu = c5_kapsama_kaplama(kayit_b_kotu, sentetik_yerlesim)
+    pozitif_ok5e = any(h.startswith("🔴") for h in h_c5_b_kotu)
+    print(f"C5 (M-3480 politika)    A(geometrik)→bilgi-notu:{'✓' if pozitif_ok5c else '✗'}  "
+          f"B(genel-ifade-VAR)→temiz:{'✓' if pozitif_ok5d else '✗'}  "
+          f"B(genel-ifade-YOK)→REDDEDİLDİ:{'✓' if pozitif_ok5e else '✗'}")
+    sonuc["C5"] = pozitif_ok5a and pozitif_ok5b and pozitif_ok5c and pozitif_ok5d and pozitif_ok5e
 
     # --- C6 (gereken_cografya doğrulama, M-3463 §9.3②) ---
     yerlesim_listesi_gercek = yerlesim_listesi_yukle()
@@ -680,7 +765,7 @@ def main():
 
         h5 = c5_kapsama_kaplama(kayit, yerlesim_listesi_gercek)
         if h5:
-            toplam_ihlal += len([h for h in h5 if not h.startswith("⚠️")])
+            toplam_ihlal += len([h for h in h5 if not h.startswith("⚠️") and not h.startswith("ℹ️")])
             print(f"  C5 kapsama kaplama: ✗ {len(h5)} bulgu")
             for h in h5:
                 print(f"      - {h}")
