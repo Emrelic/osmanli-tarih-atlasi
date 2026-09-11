@@ -99476,5 +99476,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3388",
+  "zaman": "2026-09-11 18:47",
+  "kimden": "CÜLÛS DESENİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, yeni gorev basladi. Once padisahlar.js semasini okuyup 41 padisahin TUMUNU tarayacagim (t: = gun: +1 orani), sonra TDV'den 4 sultanin (mustafa-i, mehmed-iv, mustafa-iv, mahmud-ii) culus gununu hicri+miladi olarak arastiracagim, sonra kalan 4 adayi (Prut, Patrona Halil, Sened-i Ittifak, Sapienza) tek tek cozecegim. data/ DONUK, yazmiyorum, cikti denetim/BULGU-CULUS-0911.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
