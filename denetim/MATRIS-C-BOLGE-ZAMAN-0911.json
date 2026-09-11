@@ -1,0 +1,287 @@
+{
+  "_not": "olcum hazirlik dosyasidir, data/ ICINE YAZILMADI. NET_SINIR = antlasma YILI (kesinlesme yili DEGIL, D107 damgasi: bu bir UST SINIR/iyimser tahmindir).",
+  "metodoloji": "ENVANTER-C-II-0911.json 110 kayit, bolge etiketi anahtar-kelime+elle override ile tayin edildi, yuzyil = antlasma yili//100+1.",
+  "bolgeler_osmanli_ilgili": [
+    "Afrika",
+    "Anadolu/genel",
+    "Arabistan/Körfez",
+    "Balkanlar/Avrupa cephesi",
+    "Kafkasya/İran",
+    "Karadeniz-kuzey/Rusya",
+    "Mısır (Kavalalı)"
+  ],
+  "ilk_net_sinir_yili": {
+    "Afrika": 1662,
+    "Anadolu/genel": 1415,
+    "Arabistan/Körfez": 1820,
+    "Balkanlar/Avrupa cephesi": 1403,
+    "KONTROL (Osmanlı dışı)": 1466,
+    "Kafkasya/İran": 1555,
+    "Karadeniz-kuzey/Rusya": 1621,
+    "Mısır (Kavalalı)": 1828
+  },
+  "matris_bolge_x_yuzyil": {
+    "Afrika|17": {
+      "net": 1,
+      "toplam": 1
+    },
+    "Afrika|19": {
+      "net": 3,
+      "toplam": 3
+    },
+    "Afrika|20": {
+      "net": 1,
+      "toplam": 1
+    },
+    "Anadolu/genel|14": {
+      "net": 0,
+      "toplam": 3
+    },
+    "Anadolu/genel|15": {
+      "net": 3,
+      "toplam": 4
+    },
+    "Anadolu/genel|16": {
+      "net": 4,
+      "toplam": 6
+    },
+    "Anadolu/genel|17": {
+      "net": 0,
+      "toplam": 1
+    },
+    "Anadolu/genel|18": {
+      "net": 2,
+      "toplam": 2
+    },
+    "Anadolu/genel|19": {
+      "net": 3,
+      "toplam": 7
+    },
+    "Anadolu/genel|20": {
+      "net": 2,
+      "toplam": 2
+    },
+    "Arabistan/Körfez|19": {
+      "net": 2,
+      "toplam": 2
+    },
+    "Arabistan/Körfez|20": {
+      "net": 2,
+      "toplam": 2
+    },
+    "Balkanlar/Avrupa cephesi|15": {
+      "net": 3,
+      "toplam": 3
+    },
+    "Balkanlar/Avrupa cephesi|17": {
+      "net": 2,
+      "toplam": 3
+    },
+    "Balkanlar/Avrupa cephesi|18": {
+      "net": 5,
+      "toplam": 5
+    },
+    "Balkanlar/Avrupa cephesi|19": {
+      "net": 8,
+      "toplam": 10
+    },
+    "Balkanlar/Avrupa cephesi|20": {
+      "net": 5,
+      "toplam": 7
+    },
+    "KONTROL (Osmanlı dışı)|15": {
+      "net": 1,
+      "toplam": 1
+    },
+    "KONTROL (Osmanlı dışı)|16": {
+      "net": 2,
+      "toplam": 2
+    },
+    "KONTROL (Osmanlı dışı)|17": {
+      "net": 3,
+      "toplam": 3
+    },
+    "KONTROL (Osmanlı dışı)|18": {
+      "net": 4,
+      "toplam": 4
+    },
+    "KONTROL (Osmanlı dışı)|19": {
+      "net": 4,
+      "toplam": 4
+    },
+    "Kafkasya/İran|16": {
+      "net": 2,
+      "toplam": 2
+    },
+    "Kafkasya/İran|17": {
+      "net": 3,
+      "toplam": 3
+    },
+    "Kafkasya/İran|18": {
+      "net": 6,
+      "toplam": 6
+    },
+    "Kafkasya/İran|19": {
+      "net": 2,
+      "toplam": 2
+    },
+    "Kafkasya/İran|20": {
+      "net": 2,
+      "toplam": 3
+    },
+    "Karadeniz-kuzey/Rusya|17": {
+      "net": 3,
+      "toplam": 4
+    },
+    "Karadeniz-kuzey/Rusya|18": {
+      "net": 6,
+      "toplam": 7
+    },
+    "Karadeniz-kuzey/Rusya|19": {
+      "net": 2,
+      "toplam": 2
+    },
+    "Mısır (Kavalalı)|19": {
+      "net": 5,
+      "toplam": 5
+    }
+  },
+  "buyume_egrisi_yuzde": {
+    "1300": {
+      "sayi": 0,
+      "toplam": 7,
+      "oran_yuzde": 0,
+      "bolgeler": []
+    },
+    "1450": {
+      "sayi": 2,
+      "toplam": 7,
+      "oran_yuzde": 29,
+      "bolgeler": [
+        "Anadolu/genel",
+        "Balkanlar/Avrupa cephesi"
+      ]
+    },
+    "1500": {
+      "sayi": 2,
+      "toplam": 7,
+      "oran_yuzde": 29,
+      "bolgeler": [
+        "Anadolu/genel",
+        "Balkanlar/Avrupa cephesi"
+      ]
+    },
+    "1600": {
+      "sayi": 3,
+      "toplam": 7,
+      "oran_yuzde": 43,
+      "bolgeler": [
+        "Anadolu/genel",
+        "Balkanlar/Avrupa cephesi",
+        "Kafkasya/İran"
+      ]
+    },
+    "1650": {
+      "sayi": 4,
+      "toplam": 7,
+      "oran_yuzde": 57,
+      "bolgeler": [
+        "Anadolu/genel",
+        "Balkanlar/Avrupa cephesi",
+        "Kafkasya/İran",
+        "Karadeniz-kuzey/Rusya"
+      ]
+    },
+    "1700": {
+      "sayi": 5,
+      "toplam": 7,
+      "oran_yuzde": 71,
+      "bolgeler": [
+        "Afrika",
+        "Anadolu/genel",
+        "Balkanlar/Avrupa cephesi",
+        "Kafkasya/İran",
+        "Karadeniz-kuzey/Rusya"
+      ]
+    },
+    "1750": {
+      "sayi": 5,
+      "toplam": 7,
+      "oran_yuzde": 71,
+      "bolgeler": [
+        "Afrika",
+        "Anadolu/genel",
+        "Balkanlar/Avrupa cephesi",
+        "Kafkasya/İran",
+        "Karadeniz-kuzey/Rusya"
+      ]
+    },
+    "1800": {
+      "sayi": 5,
+      "toplam": 7,
+      "oran_yuzde": 71,
+      "bolgeler": [
+        "Afrika",
+        "Anadolu/genel",
+        "Balkanlar/Avrupa cephesi",
+        "Kafkasya/İran",
+        "Karadeniz-kuzey/Rusya"
+      ]
+    },
+    "1850": {
+      "sayi": 7,
+      "toplam": 7,
+      "oran_yuzde": 100,
+      "bolgeler": [
+        "Afrika",
+        "Anadolu/genel",
+        "Arabistan/Körfez",
+        "Balkanlar/Avrupa cephesi",
+        "Kafkasya/İran",
+        "Karadeniz-kuzey/Rusya",
+        "Mısır (Kavalalı)"
+      ]
+    },
+    "1900": {
+      "sayi": 7,
+      "toplam": 7,
+      "oran_yuzde": 100,
+      "bolgeler": [
+        "Afrika",
+        "Anadolu/genel",
+        "Arabistan/Körfez",
+        "Balkanlar/Avrupa cephesi",
+        "Kafkasya/İran",
+        "Karadeniz-kuzey/Rusya",
+        "Mısır (Kavalalı)"
+      ]
+    },
+    "1923": {
+      "sayi": 7,
+      "toplam": 7,
+      "oran_yuzde": 100,
+      "bolgeler": [
+        "Afrika",
+        "Anadolu/genel",
+        "Arabistan/Körfez",
+        "Balkanlar/Avrupa cephesi",
+        "Kafkasya/İran",
+        "Karadeniz-kuzey/Rusya",
+        "Mısır (Kavalalı)"
+      ]
+    }
+  },
+  "kritik_uyari": "Bu matris BOLGE duzeyinde \"en az bir belge var mi\" soruyor - bolgenin TAMAMININ kapsandigi anlamina GELMEZ. BULGU-KAYNAK-SUSKUNLUGU-0911.md 5 somut ic-bolge (Hicaz dogusu, Fizan guneyi, Habes ici, Basra guneyi, Kafkasya 1639 oncesi PARCALI) buldu ve bunlar matrisin \"dolu\" gosterdigi bolgelerin ICINDE HALA BOS.",
+  "hassasiyet_duzeltmesi_bilinen_iki_vaka": {
+    "Kafkasya/İran": {
+      "antlasma_yili": 1639,
+      "gercek_kesinlesme": "1847 (Erzurum) / 1913-14 (Istanbul Protokolu)",
+      "kaynak": "BULGU-BELGE-HASSASIYETI-0911.md #B"
+    },
+    "Balkanlar/Avrupa cephesi": {
+      "antlasma_yili": 1699,
+      "gercek_kesinlesme": "1699-1703 (sinir komisyonu)",
+      "kaynak": "BULGU-BELGE-HASSASIYETI-0911.md #A"
+    }
+  }
+}
