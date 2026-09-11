@@ -1,0 +1,70 @@
+{
+ "kapsam": "data/kronoloji_*.js (42 dosya, index.html'de bagli, 4839 madde)",
+ "toplam_kaynak_alani_ham": 4855,
+ "siniflandirma": {
+  "bulunamadi_beyani": 648,
+  "ic_capraz_referans": 71,
+  "harici_akademik_alinti": 2258,
+  "belirsiz_serbest_metin": 127,
+  "gercek_tdv_slug_denemesi_evreni": 234
+ },
+ "evren_disi_bulgular": {
+  "el-kitabi": "dokumante edilmis dahili damga (kronoloji_bizans.js:46-53) -- TDV slugu DEGIL, akademik kitap kaynagini isaretler, checklist DISI",
+  "veri": "siniflandirici yanlis-pozitifi -- Turkce 'veri' kelimesi ic referans onekidir, slug degil, checklist DISI"
+ },
+ "duzeltilmis_evren": 232,
+ "http_olcumu": {
+  "canli_200": 209,
+  "olu_302_ham": 25,
+  "olu_302_ham_iceren_dogru_olmayan_iki": ["el-kitabi", "veri"],
+  "duzeltilebilir_tdv_onek_hatasi": {
+   "sayi": 14,
+   "dosya": "data/kronoloji_memluk.js",
+   "toplam_madde_etkisi": 19,
+   "aciklama": "kaynak: alaninda 'tdv-<slug>' yazilmis, gercek TDV adresi onek olmadan CANLI. 14 slugun 14'u de test edildi, 14'u de onneksiz 200 donuyor.",
+   "slug_listesi": ["tdv-dirhem","tdv-ebu-said-bahadir-han","tdv-kansu-gavri","tdv-kayitbay","tdv-kibris","tdv-kubbetus-sahre","tdv-kudus","tdv-malatya","tdv-memlukler","tdv-muhammed-b-kalavun","tdv-ozbek-han","tdv-tenkiz","tdv-trablussam","tdv-vakif"]
+  },
+  "gercek_olu_kalici": {
+   "sayi": 9,
+   "liste": ["belgrad-antlasmalari","bukres-antlasmasi","cildir-savasi","ferhad-pasa-antlasmasi","firuz-sah","isfahan--iran","kasr-i-sirin-antlasmasi","kirim-hanligi","kirim-savasi"],
+   "alternatif_adres_bulundu": {
+    "belgrad-antlasmalari": "belgrad (200)",
+    "bukres-antlasmasi": "bukres (200)",
+    "cildir-savasi": "cildir-eyaleti (200, CLAUDE.md'de zaten bilinen)",
+    "ferhad-pasa-antlasmasi": "luristan (CLAUDE.md'de zaten bilinen -- TDV'de 'Istanbul antlasmasi' adiyla geciyor)",
+    "firuz-sah": "firuz-sah-tugluk (200)",
+    "isfahan--iran": "isfahan (200, --iran son eki gereksiz)",
+    "kasr-i-sirin-antlasmasi": "murad-iv (200, CLAUDE.md'de zaten bilinen ornek)",
+    "kirim-hanligi": "kirim (200, evrende zaten var)"
+   },
+   "bulunamadi_kalan": ["kirim-savasi"]
+  }
+ },
+ "sonuc_oranlari": {
+  "ham_olum_orani_bugun": "25/234 = %10.7",
+  "duzeltme_sonrasi_kalici_olum_orani": "1/232 = %0.4"
+ },
+ "tur_bazli_karsilastirma_cekirdekle": {
+  "cekirdek_2eylul_olcumu": {"OLAY": "5/5 = %100", "SAVAS": "13/27 = %48", "ANTLASMA": "7/25 = %28", "YER_KISI_YAPI": "12/502 = %2"},
+  "kuyruk_bu_olcum": {
+   "savas_antlasma_turu_toplam": 19,
+   "savas_antlasma_turu_gercek_olu": 6,
+   "savas_antlasma_orani": "6/19 = %31.6 (cekirdegin SAVAS/ANTLASMA araligiyla tutarli)",
+   "yer_kisi_devlet_turu_toplam": 215,
+   "yer_kisi_devlet_turu_gercek_olu": 3,
+   "yer_kisi_devlet_orani": "3/215 = %1.4 (cekirdegin YER/KISI/YAPI %2'sine cok yakin)"
+  }
+ },
+ "canli_200_ornek_denetimi": {
+  "yontem": "12 kisa/genel-gorunumlu slug icin <title> etiketi cekildi (baslik-carpismasi -- ordu/saray/cin deseni -- icin)",
+  "denenen": ["berid","hisbe","ikta","hidiv","taun","pamuk","surre","dirhem","esrefi","karimi","ulucami","func"],
+  "sonuc": "12/12 baslik slugla eslesiyor, carpisma YOK",
+  "uyari": "BU BIR ORNEKLEM, 209'un TAMAMI degil -- '200' kovasi 'temiz' degil 'olculemedi (tam)' olarak okunmali (D107)"
+ },
+ "ongoru_karsilastirma_D022": {
+  "olcumden_once_yazilan_ongoru": "tail evreninin agirlikli YER/KISI/HANEDAN oldugu (composisyon) tespit edilince, cekirdegin bu sinif icin %2 olcumune dayanarak %3-8 arasi dusuk bir olum orani tahmin edildi",
+  "ilk_ham_sonuc": "%10.7 -- ongoruden YUKSEK",
+  "duzeltme_sonrasi_sonuc": "%0.4 -- ongorunun ALTINDA",
+  "yorum": "ongoru YONELIM olarak dogruydu (dusuk cikacagini soyledi), ama BUYUKLUGU tdv-onek hatasi gibi VERI KUSURU kaynakli bir gurultu tarafindan gizlendi. Ham olcum bu gurultuyu ayiklamadan ongoruyu YANLIS CURUTURDU."
+ }
+}
