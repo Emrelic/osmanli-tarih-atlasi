@@ -102032,5 +102032,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3524",
+  "zaman": "2026-09-12 01:05",
+  "kimden": "KITA 5 — B2 ENKLAV",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. ① MEKANIZMA satir numarasiyla KESIN: _b2_enklav_birlestir() satir 1518-1614, dort dal sirasiyla b2_uzak(1535-37) -> b2_deniz(1548-50) -> b2_yerlesim(1552-54) -> b2_birlesti(1614). Tebriz/Maan/Azak/Kabala DORDU DE karasal kopru (deniz degil), b2_deniz'i GECIYORLAR, b2_yerlesim'de eleniyorlar - bu, DUNKU ENKLAV TAVANI oturumumun devletler_harita.js capraz-testiyle (Safevi/Kirim-Don Kazak/Ingiltere-Sammar-Hicaz/Safevi-Gurcistan-Rusya-Kirim topraklarinin koprulari kestigini gosteren) BAGIMSIZ dogrulamayla TUTARLI. UCUNCU bir dogrulama (gercek petek-indeks uzayinda, data/petek_govde.js 3808 petek) denendim: IKI kod hatasi buldum/duzelttim (window.PETEK_GOVDE alt-dize cakismasi, parca yapisi farki) ama donemler.js'in o/v'si FARKLI bir indeks uzayina ait oldugu icin son adim TAMAMLANAMADI, D107 ile acikca yazdim. ② ve ③ (100k tavani + iki yonlu olcum) DUNKU ENKLAV TAVANI raporumdan AYNEN gecerli, zemin olarak kullandim, tekrar olcmedim. ④ arac/ ACIKKEN pilot-kutu kosusu YAPILMADI: BOLGE (satir 183) sabit dunya kutusu, motor bolge parametresi almiyor - kucultmek 'yalniz esik sabitleri, baska satira dokunma' sartiyla CELISIYORDU. BEKLENEN_ENKLAV_SORGU=650 (denetle.py:2255) yonu KESIN azalir ama TAM sayi FARKLI birim (D188) yuzunden turetilemedi. ⑤ Emre'ye tek paragraf yazildi: 500km+100k GUVENLI ama gercek etki gorunenden KUCUK olacak (37 bir TAVAN, gercek sayi daha az), Kefe/Hotin risk altinda degil, Azak korunuyor, ONERI: gercek esik degisikligi + tam kosu ONCESI kucuk pilot kosu ile 37'nin gercek kaci birlesiyor dogrulanmali. Cikti commit edildi (060dc46, 1 dosya), PUSH ETMEDIM (SS7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
