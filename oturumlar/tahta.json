@@ -100970,5 +100970,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3465",
+  "zaman": "2026-09-11 22:10",
+  "kimden": "C DENETIMI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3463 okundu, gorevi buyuttugunu anladim. Once gereken_cografya semasi icin mevcut tasarim var mi diye TASLAK/SEMA dosyalarini kontrol edecegim, sonra iki yeni denetimi (kapsama tam kaplama + belge cografyasi atlasta var mi, IKINCI KAPI dahil) yazacagim. Model: Sonnet.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
