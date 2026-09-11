@@ -1,0 +1,13 @@
+{
+  "oturum": "MISIR-SIRBISTAN KÜNYE",
+  "tarih": "2026-09-11",
+  "itiraf_D022": "Bu oturum ① (künye tarihleri, TDV dogrulamasi) ve ② (d:/s:/v: sorusu, yerlesimler.js taramasi) icin ONGORUYU OLCUMDEN SONRA yaziyor -- protokol ihlal edildi, tipki TASMA ve KRONOLOJI-KUNYE'nin kendi itiraflari gibi. Sebep: is sirayla ilerledi (once TDV/veri okundu, sonra bu dosyanin gerekliligi fark edildi). Yalniz ④ (37-38 madde sayisinin bagimsiz dogrulanmasi) HENUZ YAPILMADI -- onun icin asagidaki tahmin GERCEKTEN oncedir.",
+  "geriye_donuk_kayit_1_ve_2": {
+    "olculen": "Kahire d:[{f:1517-02-15,t:1805-07-03}], Iskenderiye/Dimyat/Asyut d:[{f:1517-04-13 veya 1517-05-19,t:1805-07-03}]; Semendire/Belgrad/Kragujevac/Cacak d:[...1459-06-20...1804 civari...] -- HEPSI d: ailesinde, s: DEGIL. Bu bir tahmin degil, dogrudan grep sonucu.",
+    "TDV_dogrulamasi": "Tumanbay idami 13 Nisan 1517 (TDV 'misir'), Kavalali valiligi 3 Temmuz 1805 (TDV 'kavalali-mehmed-ali-pasa'), Semendire fethi 20 Haziran 1459 (TDV 'semendire') -- ucu de devletler.js'teki mevcut memluk/misir-kavalali/sirp-despotlugu kunyelerinin f:/t: alanlarina BIREBIR uyuyor. 1804-02-14 (Orasac toplantisi) TDV 'sirbistan' maddesinde yalniz YIL veriyor, gun Wikipedia'dan capraz dogrulandi (tek kaynak, ikinci akademik kaynak ARANMADI -- zaman kisiti)."
+  },
+  "ongoru_4_madde_sayisi": {
+    "tahmin": "Kendi bagimsiz taramam (ARAC-KRONOLOJI-KUNYE-0911.py'yi TEKRAR calistirip veya kendi kisa betigimle) sibling'in 30 (misir) + 7 (sirbistan) = 37 sayisini DOGRULAYACAK, cunku bu TARIH PENCERESI karsilastirmasi (madde tarihi vs aday kunye f/t) basit ve mekanik bir islem, yorum gerektirmiyor -- curume riski DUSUK.",
+    "curume_sarti": "Eger benim taramamda farkli bir sayi cikarsa (ornegin sibling'in script'inde bir kunye listesi eksikse, ya da benim taramamda ek bir aday kunye -- ornegin 'misir-fransiz-isgali' 1798-1801 -- kovaya girip sayiyi degistirirse) ongoru curur."
+  }
+}
