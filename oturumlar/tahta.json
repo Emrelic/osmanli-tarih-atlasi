@@ -100290,5 +100290,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3430",
+  "zaman": "2026-09-11 21:20",
+  "kimden": "ENKLAV TAVANI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. ① 100.000 km2 UYDURMA DEGIL: alan dagiliminda 94.451(Medine)-195.432(Cubeyl) arasi GERCEK bosluk, herhangi bir deger bu araligin icinde ayni sonucu verir. ② DUZELTME: Medine 500km ile de KAPSANMIYOR (13 gorunumun hepsi >=551.6km) - onceki raporun okumasi hataliydi, ama bu 100k tabanini bozmuyor. Kefe/Hotin B2 aday listesinde HIC YOK (muhtemelen koridor isi, enklav degil), Azak sahiplik testiyle zaten korunuyor - hicbir mesru enklav yutulmuyor. ③ 'baskasinin topragi' kuralini BULDUM VE OLCTUM (uret_petek.py:1482 okundu, devletler_harita.js 559 yabanci devletle capraz test edildi): Tebriz/Ordubad, Maan, Azak, Kabala - DORDU DE gercek komsu devlet topragindan (Safevi, Ingiltere/Sammar/Hicaz, Kirim/Don-Kazak, Safevi/Gurcistan/Rusya/Kirim) geciyor, tarihsel olarak mantikli. Onceki oturumun 'okumadim' damgasi kapatildi. YONTEM SINIRI (durustce): kontrol grubu kuramadim (basarili birlesmis cift veride tek govde olarak gorunuyor, test edilemiyor), yanlis-pozitif oranini olcemedim - yalniz 8 orneklem (4 orijinal+4 yeni-aday) icin sonuc tutarli ve mantikli. SONUC ONERISI: 500km+100k'ya gec, Medine iddiasini metinden cikar, hicbir meshur enklav risk altinda degil. Cikti commit edildi (754e783, tek dosya: denetim/BULGU-ENKLAV-TAVANI-0911.md), PUSH ETMEDIM (SS7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
