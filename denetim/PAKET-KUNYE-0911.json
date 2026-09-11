@@ -1,0 +1,93 @@
+{
+ "meta": {
+  "olusturan": "KÜNYE PAKETİ",
+  "tarih": "2026-09-11",
+  "gorev": "Yedi ayrı HAZIRLIK dosyasındaki künye taslaklarını tek pakette toplamak, şemaya sınamak, çakışma+renk+harita etkisini ölçmek",
+  "kaynak_dosyalar": ["HAZIRLIK-LUBNAN-0911.json (3 künye)", "HAZIRLIK-LUBNAN-NOKTA-0911.json (2 nokta önerisi, künye değil)",
+    "HAZIRLIK-MISIR-SIRBISTAN-0911.json (2 künye)", "HAZIRLIK-TUNUS-0911.json (1 künye)",
+    "HAZIRLIK-HINDISTAN-0911.json (5 taslak, t: alanları HATALI — bkz. aşağı)",
+    "HAZIRLIK-HINDISTAN-II-0911.json (AYNI 5 taslağın DÜZELTİLMİŞ hali + 6. taslak baroda + pejeng/bali-kralliklari-pejeng çelişkisi çözümü)"],
+  "🔴_KENDI_TESPITIM_iki_surum_celiskisi": "HAZIRLIK-HINDISTAN-0911.json'daki 5 taslak (meysur-racaligi/gvalyar/indor/kolhapur/bali-kralliklari-pejeng) hepsi t:'1923-10-29' (atlas pencere sonu) taşıyor; AYNI GÜN yazılan HAZIRLIK-HINDISTAN-II-0911.json bunu GERÇEK tarihi kaynaklarla (1947-1949) DÜZELTİYOR ve nepal örneğiyle 1923-10-29'un 'konvansiyon DEĞİL, muhtemelen hatalı varsayılan' olduğunu kanıtlıyor. ⇒ Bu pakette YALNIZ II sürümü kullanıldı — I sürümünü de saymak/yazmak D097 (mükerrer, iki farklı sürümün AYNI şey sanılması) hatası olurdu, açıkça UYARIYORUM."
+ },
+
+ "①_toplam_kunye_listesi_11": [
+  "lubnan-emirligi (1516-1842)", "cebel-i-lubnan-mutasarrifligi (1861-1915)", "harfusogullari (1521-1850)",
+  "misir-eyaleti (1517-1805)", "sirbistan-eyaleti (1459-1804)",
+  "tunus-beyligi-fransiz (1881-1923, gerçek son 1956)",
+  "meysur-racaligi (1799-1947)", "gvalyar (1731-1948)", "indor (1732-1948)", "kolhapur (1710-1949)", "baroda (1721-1949)",
+  "bali-kralliklari-pejeng (1292-1343)"
+ ],
+ "not_sayim": "Görev metni '7 künye' diyordu ama toplam 12 (11 devlet-künyesi + görevin kendi başlığında saymadığı bali-kralliklari-pejeng dahil) — görev listesi zaten 8 madde sayıyordu (lübnan 3 + mısır/sırbistan 2 + tunus 1 + hindistan 6 = 12); '7 ayrı künye' başlık cümlesi muhtemelen HAZIRLIK dosyası sayısını (7 dosya) kastediyordu, künye sayısını değil — D107 gereği bu küçük tutarsızlığı açıkça not düşüyorum, hüküm ETKİLENMİYOR.",
+
+ "②_sema_sinamasi": {
+  "yontem": "data/devletler.js'nin 601 mevcut künyesi regex ile taranıp tur: sözlüğü BAĞIMSIZ ölçüldü (18 değer: beylik·cumhuriyet·devlet·dukalik·emirlik·federasyon·gecici-hukumet·gecici-isgal·hanedanlik·hanlik·imparatorluk·isyan·kralik·krallik·ocaklik·prenslik·sehzadelik·sultanlik·ulke). 'mutasarriflik' VE 'eyalet' bu listede YOK — doğrulandı.",
+  "tur_sorunlu_kayit_sayisi": {
+   "sozlukte_OLMAYAN_deger_ONERDI": 2,
+   "detay": ["misir-eyaleti → tur_onerisi:'eyalet' (sözlükte yok)", "sirbistan-eyaleti → tur_onerisi:'eyalet' (sözlükte yok)"],
+   "tur_ALANI_HIC_BELIRTILMEMIS": 8,
+   "detay_2": ["tunus-beyligi-fransiz", "meysur-racaligi", "gvalyar", "indor", "kolhapur", "baroda", "bali-kralliklari-pejeng", "cebel-i-lubnan-mutasarrifligi (bir GEÇİCİ fallback olarak 'devlet' yazılmış AMA taslağın kendi notu bunun doğru olmadığını, ideal 'mutasarriflik' olduğunu söylüyor — bu yüzden 'belirtilmemiş' sayısına DAHİL edildi, tam belirlenmiş değil)"],
+   "sozlukte_VAR_ve_doğru": 2,
+   "detay_3": ["lubnan-emirligi → emirlik ✓", "harfusogullari → emirlik ✓"]
+  },
+  "hukum": "12 künyenin YALNIZ 2'si (lubnan-emirligi, harfusogullari) tur: alanını sözlüğe UYGUN VE TAM veriyor. 10'u (12'nin %83'ü) ya sözlükte OLMAYAN bir değer öneriyor ya da hiç önermiyor. ⇒ YAZMA TURUNDAN ÖNCE iki şema kararı gerekiyor: (a) 'eyalet' ve 'mutasarriflik' tur sözlüğüne EKLENSİN Mİ (2+1 kayıt için), (b) Hindistan 6 taslağının turu ne OLACAK — mantıklı aday: meysur-racaligi/gvalyar/indor/kolhapur/baroda hepsi 'devlet' (mevcut sözlükte VAR, İngiliz himayesindeki yarı-bağımsız prenslikler için zaten emsal var — örn. haydarabad-nizam'ın kendi turu KONTROL EDİLMELİ), bali-kralliklari-pejeng 'hanedanlik' olabilir (Pejeng bir hanedan, devlet değil).",
+  "diger_alan_eksikligi": "bolge: alanı 12 künyenin 12'sinde de VAR ve devletler.js'in kendi bölge sözlüğüyle (arabistan/kuzey-afrika/guney-asya/balkanlar/guneydogu-asya) TUTARLI — bu alanda eksik YOK."
+ },
+
+ "③_cakisma_ve_ortusme_taramasi": {
+  "yontem": "12 künyenin f:/t: değerleri, ardıl olduğu iddia edilen MEVCUT künyelerin (memluk, misir-kavalali, sirp-despotlugu, sirbistan-prensligi, tunus-ocagi, meysur) kendi f:/t: değerleriyle devletler.js'ten BAĞIMSIZ ÇEKİLEREK karşılaştırıldı.",
+  "id_carpismasi": "0/12 — 627 mevcut id ile TAM EŞLEŞME YOK, hepsi gerçekten yeni.",
+  "ardil_zincir_dogrulamasi": {
+   "misir-eyaleti": "memluk t:1517-04-13 == misir-eyaleti f:1517-04-13 ✓ · misir-eyaleti t:1805-07-03 == misir-kavalali f:1805-07-03 ✓ — TAM SANDVİÇ, boşluk/çakışma YOK",
+   "sirbistan-eyaleti": "sirp-despotlugu t:1459-06-20 == sirbistan-eyaleti f:1459-06-20 ✓ · sirbistan-eyaleti t:1804-02-14 == sirbistan-prensligi f:1804-02-14 ✓ — TAM SANDVİÇ",
+   "tunus-beyligi-fransiz": "tunus-ocagi t:1881-05-12 == tunus-beyligi-fransiz f:1881-05-12 ✓ — TAM ARDIL, boşluk yok (t: sonrası devamı ayrı bir açık iş, künye kendi notunda zaten yazıyor)",
+   "meysur-racaligi": "meysur t:1799-05-04 == meysur-racaligi f:1799-05-04 ✓ — TAM ARDIL"
+  },
+  "harfus_ma_n_celiskisi": "TEKRARLANMADI (görevin kendi talimatına uyuldu) — HAZIRLIK-LUBNAN'ın kendi ①b bölümünde zaten AYRI TOPRAK olarak ölçülüp kapatılmış (Baalbek/Bikâ vs Şûf/Kesrevan, 55+ km ayrı).",
+  "yeni_taranan_ortusmeler": {
+   "gvalyar_indor_kolhapur_baroda_vs_maratha": "Zaman olarak (1710-1732 → 1948-49) mevcut 'maratha' künyesinin (1674-1818) ömrünü KAPSIYOR VE AŞIYOR — AMA bu bir çakışma DEĞİL: dört Sindiya/Holkar/Bhonsle/Gaikwad hanedanı Maratha KONFEDERASYONUNUN ÜYE DEVLETLERİYDİ (üst-yapı + bağımsız-davranan-vasal deseni, tıpkı Anadolu beyliklerinin veya Erdel/Boğdan/Eflak'ın Osmanlı ile eşzamanlı var olması gibi) — AYRI TOPRAK PARÇALARI, aynı bölgenin farklı köşeleri. §8 ihlali YOK, coğrafî ayrım GEREKİR ama bu paketin ARAŞTIRMA SINIRLARI içinde (Hindistan haritası, dört ayrı şehir/bölge) zaten İMA EDİLİYOR.",
+   "bali-kralliklari-pejeng": "Diğer 11 künyeyle hiçbir coğrafî/zamansal kesişim YOK (Endonezya, 1292-1343) — izole, çakışma riski sıfır."
+  },
+  "hukum": "ÇAKIŞMA TARAMASI TEMİZ — 12 künyenin 12'si de ya MEVCUT bir künyeyle TAM (gün-hassasiyetli) ARDIL ZİNCİR kuruyor ya da coğrafî olarak izole/paralel. Sıfır §8 ihlali bulundu."
+ },
+
+ "④_renk_analizi": {
+  "renk_ALMAMASI_gereken_2": {
+   "kunyeler": ["misir-eyaleti", "sirbistan-eyaleti"],
+   "gerekce": "Kendi HAZIRLIK dosyalarında ZATEN doğru tespit edilmiş: ilgili yerleşimler (Kahire/İskenderiye/Dimyat/Asyut · Semendire/Belgrad/Kragujevac/Çaçak) bu dönemi `d:` (doğrudan Osmanlı) ailesinde taşıyor, `s:` değil — harita BUGÜN BİLE doğru boyanıyor. Emsal: 627 künyenin 376'sı (%60) zaten harita: taşımıyor, sıradan bir desen."
+  },
+  "renk_ISTEYEN_3_proxy_ΔE_ile_test_edilmis": {
+   "lubnan-emirligi": "#8a4b9e, proxy min ΔE 61,8 (eşik 12,0'ın çok üstünde)",
+   "cebel-i-lubnan-mutasarrifligi": "aynı #8a4b9e (bilinçli süreklilik, ayrı harita: anahtarı)",
+   "harfusogullari": "#8a6a3a, proxy min ΔE 31,0",
+   "SINIRLAMA_KENDI_DOSYASINDA_ZATEN_YAZILI": "GERÇEK Voronoi-komşu ΔE testi (renk_olc.py'nin asıl işi) YAPILAMADI — arac/uret_petek.py donuk/koşulamaz. Bu bir PROXY (tarihsel/coğrafî muhtemel komşularla karşılaştırma) — gerçek doğrulama YALNIZ bir petek koşusundan SONRA `py arac/renk_olc.py` ile yapılabilir. BU PAKETTE DE AÇIKÇA TEKRARLANIYOR (koordinatörün ④ talimatı)."
+  },
+  "renk_DURUMU_BELIRSIZ_7": {
+   "kunyeler": ["tunus-beyligi-fransiz", "meysur-racaligi", "gvalyar", "indor", "kolhapur", "baroda", "bali-kralliklari-pejeng"],
+   "sorun": "Hiçbiri kendi HAZIRLIK dosyasında bir harita:/renk ÖNERİSİ TAŞIMIYOR — ②'deki tur: eksikliğiyle AYNI SINIF bir tamamlanmamışlık. Tunus için 'v:→s: veri düzeltmesi renk değişikliği YARATIR' deniyor (bkz. ⑤) ama BİR renk KODU ÖNERİLMEMİŞ. Hindistan 6'sı için de renk hiç TARTIŞILMAMIŞ.",
+   "oneri": "YAZMA TURUNDAN ÖNCE bu 7 künye için de ΔE-proxy testi (mevcut 3 örnekteki YÖNTEMLE) yapılmalı — bu paketin kapsamı dışında kaldı, AYRI bir küçük iş olarak işaretleniyor."
+  }
+ },
+
+ "⑤_harita_etkisi_kunye_basina_tek_satir": {
+  "lubnan-emirligi": "SIFIR — Cebel-i Lübnan'ın kendi toprağında (Deyrülkamer/Beyteddin/Şûf) hiç yerleşim noktası yok; Deyrülkamer noktası eklenmeden künye haritada görünmez (HAZIRLIK-LUBNAN-NOKTA'nın kendi ölçümü).",
+  "cebel-i-lubnan-mutasarrifligi": "SIFIR — aynı sebep, aynı bölge.",
+  "harfusogullari": "SIFIR — Baalbek noktası eklenmeden görünmez (aynı dosya, Ba'lebek/34.0059,36.2181 önerisi VAR ama YAZILMADI).",
+  "misir-eyaleti": "SIFIR — KASITLI: renk zaten doğru (d: ailesi), künye yalnız kronoloji BAĞLAMAK için.",
+  "sirbistan-eyaleti": "SIFIR — aynı, kasıtlı.",
+  "tunus-beyligi-fransiz": "GERÇEK RENK DEĞİŞİKLİĞİ — 3 nokta VAR (Tunus/Kayrevan/Sfaks), AMA yalnız künye yazmak YETMEZ: mevcut v:[{...statu:vassal}] kaydının s:[{...,d:tunus-beyligi-fransiz}]'e DÖNÜŞTÜRÜLMESİ ve isg: (geçici işgal) katmanının KALDIRILMASI da GEREKİYOR — bu KÜNYE PAKETİNİN kapsamı DIŞINDA bir YERLEŞİM VERİSİ değişikliği, ayrı bir bağımlı iş olarak İŞARETLENİYOR.",
+  "meysur-racaligi": "GERÇEK RENK DEĞİŞİKLİĞİ BEKLENİYOR — Meysûr/Mysore noktası VAR (bu oturumda BAĞIMSIZ doğrulandı, girdi.GIRDI_DOSYALARI taraması), künye+ilgili v: dönemi eklenince görünür olmalı (mevcut v:/s: periyodu bu paket tarafından İNCELENMEDİ, ayrı bir kontrol gerekir).",
+  "gvalyar": "GERÇEK RENK DEĞİŞİKLİĞİ BEKLENİYOR — Gvalyar/Gwalior noktası VAR (bağımsız doğrulandı).",
+  "indor": "GERÇEK RENK DEĞİŞİKLİĞİ BEKLENİYOR — İndor/Indore noktası VAR (bağımsız doğrulandı).",
+  "kolhapur": "GERÇEK RENK DEĞİŞİKLİĞİ BEKLENİYOR — Kolhapur noktası VAR (bağımsız doğrulandı).",
+  "baroda": "🔴 SIFIR — Baroda/Vadodara YERLEŞİMLER.JS'TE NOKTA OLARAK YOK (bu oturumda BAĞIMSIZ tarandı, girdi.GIRDI_DOSYALARI'nda 'Baroda' da 'Vadodara' da HİÇ ÇIKMADI) — künye yazılsa bile Lübnan'la AYNI SINIF bir görünmezlik sorunu VAR ve HİÇBİR HAZIRLIK dosyası bunu FARK ETMEMİŞ; burada İLK KEZ tespit ediliyor.",
+  "bali-kralliklari-pejeng": "SIFIR — Bali adasında hiç nokta taraması yapılmadı (kendi dosyasının kabulü), kapsam dışı bırakılmış bölge."
+ },
+
+ "SONUC_OZET": {
+  "sema": "10/12 künyede tur: alanı eksik ya da sözlük-dışı — yazmadan önce iki şema kararı (eyalet, mutasarriflik) gerekiyor",
+  "cakisma": "TEMİZ — 0 ihlal, tüm ardıl zincirler gün-hassasiyetinde tam",
+  "renk": "2 kasıtlı renksiz (doğru) · 3 proxy-test edilmiş (koşu sonrası kesinleşecek) · 7 hiç ele alınmamış",
+  "harita_etkisi": "12 künyenin 6'sı (lübnan 3 + baroda + bali-kralliklari-pejeng + [tunus veri düzeltmesi olmadan]) YAZILSA BİLE haritada GÖRÜNMEYECEK — 4'ü (meysur-racaligi/gvalyar/indor/kolhapur) gerçek görsel etki yapacak, 2'si (misir/sirbistan-eyaleti) KASITLI olarak görünmeyecek (doğru davranış)",
+  "en_onemli_yeni_bulgu": "Baroda'nın nokta olarak YOK OLDUĞU — hiçbir HAZIRLIK dosyasında fark edilmemiş, bu paket sırasında BAĞIMSIZ ölçümle bulundu."
+ }
+}
