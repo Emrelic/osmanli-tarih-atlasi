@@ -427,3 +427,205 @@ değmez.** Gerekçe:
   ①c sınıfı 10-15 kayda çıkarsa, o zaman motor katmanı yeniden gündeme
   gelebilir. Bugün için maliyet/fayda dengesi KATMANA KARŞI.
 ```
+
+---
+
+## 8. EMRE'NİN KARARI — C YAZILACAK (C ŞEMA YAZIM, aynı gün)
+
+> **§7'nin "değmez" önerisi bir TAVSİYEYDİ, HÜKÜM DEĞİL — Emre'ye götürüldü
+> ve KARARI TERS ÇIKTI: C yazılacak.** Gerekçesi bugünün 1-2 vakalık
+> ölçümü değil, **atlasın gelecekteki (dünya kapsamı açıldığındaki)
+> ihtiyacı** — Sykes-Picot tipi cetvel sınırlar, sömürge sınırları,
+> meridyen/paralel hatları çoğalınca C'siz kalmak pahalı olur. Bu bölüm
+> şemayı **o geleceğe göre**, uygulanabilir ayrıntıda kesinleştiriyor.
+> `data/` ve `arac/` hâlâ DONUK — burada YALNIZ şema, kod YAZILMADI.
+
+### 8.1 `window.HUKUKI_SINIRLAR` — tam alan listesi
+
+`§7` ad alanı kuralı: dosya `data/hukuki_sinirlar.js` → değişken
+`window.HUKUKI_SINIRLAR` (dosya adındaki ayırt edici parça aynen değişkende).
+
+```js
+window.HUKUKI_SINIRLAR = [
+{
+  id: "midye-enez-1913",                    // ZORUNLU, benzersiz
+  taraflar: ["osmanli", "balkan-devletleri"],  // ZORUNLU, [taraf_a, taraf_b] — İKİ devletler.js künye id'si
+                                             // 🔴 "balkan-devletleri" TEKİL bir künye DEĞİL (devletler.js'te
+                                             // yok) — bu alan HER ZAMAN gerçek, TEKİL iki künye id'si taşımalı.
+                                             // Midye-Enez'in taraf_b'si bu yüzden GERÇEKTE "bulgaristan-kralligi"
+                                             // olmalı (§8.5'te düzeltildi) — burada YANLIŞ örnek olarak
+                                             // BİLEREK bırakıldı, hatanın kendisi bir UYARI taşısın diye.
+  f: "1913-05-30", t: "1913-06-29",         // ZORUNLU — A/B'nin d:/s:/v: deseniyle AYNI biçim (gün hassasiyeti)
+  hat: {
+    tur: "cetvel",                          // ZORUNLU — "dogal-tanimsiz" | "cetvel" (§8.2)
+    nokta_dizisi: [                         // ZORUNLU, ≥2 nokta, [lon,lat] sırayla
+      { lon: 26.075, lat: 40.724, ad: "Enez", kaynak: "data/yerlesimler.js:126 (mevcut nokta)" },
+      { lon: 28.09611, lat: 41.63528, ad: "Midye (Kıyıköy)",
+        kaynak: "Wikipedia 'Kıyıköy', 41°38'07\"N 28°05'46\"E — iki bağımsız kaynakla teyitli",
+        dogrulanmadi: false }
+    ]
+  },
+  kapsama: {                                // ZORUNLU, §8.2
+    tur: "bbox",
+    kutu: { lat_min: 40.5, lat_max: 42.0, lon_min: 25.8, lon_max: 29.3 },
+    yon_kurali: "yerel_cross_pozitif_taraf_a"   // bkz §8.2 algoritma
+  },
+  kaynak: {                                 // ZORUNLU — antlaşma BİRİNCİL
+    tur: "antlaşma metni (neşir)",
+    madde: "Madde II",
+    alinti: "His Majesty the Emperor of the Ottomans cedes ... to the west of a line drawn from Enos on the Aegean Sea to Midia on the Black Sea",
+    url: "https://en.wikisource.org/wiki/Treaty_of_London_-_Peace_Treaty_between_Greece,_Bulgaria,_Serbia,_Montenegro_and_the_Ottoman_Empire"
+  },
+  kaynak_ikincil: {                         // İSTEĞE BAĞLI — TDV/akademik ikinci kaynak, varsa
+    tur: null, not: "Bu vaka için ikincil kaynak aranmadı (kapsam dışıydı) — alan boş bırakılabilir, YOK diye SİLİNMEZ (D107)"
+  }
+}
+];
+```
+
+Alan alan gerekçe (§2.2'nin ilk taslağından FARKLILAŞAN kısımlar):
+- `taraflar` artık dizi (eski taslakta `taraf_a`/`taraf_b` ayrı alanlardı) —
+  `kapsama.yon_kurali` string'i hangisinin "pozitif" tarafı olduğunu söylüyor,
+  böylece iki alan tek bir çift + bir kuralla ifade ediliyor.
+- `hat.nokta_dizisi` — SEMA-C §4b/§4c'nin iki pilotundan (Midye-Enez düz,
+  Şattülarap eğri) çıkan BİRLEŞİK temsil: ①c (cetvel) için 2 nokta yeter,
+  ①b (doğal-tanınmayan) için nehrin/dağın GERÇEK polyline'ı (Natural Earth
+  kaynağından ya da elle sayısallaştırılmış) buraya yazılır — TEK şema,
+  İKİ hat cinsi.
+- `kaynak`/`kaynak_ikincil` ayrı nesneler (eski taslakta tek string'di) —
+  Emre'nin M-3329 kararı (antlaşma metni birincil, TDV ikincil) burada
+  ŞEMAYA gömüldü, her yeni C kaydı bu ayrımı YAZMAK ZORUNDA.
+
+### 8.2 Hat cinsleri VE eğri-hat çözümü (koordinatörün ④ sorusu — ÇÖZÜLDÜ)
+
+```
+①a DOĞAL-TANINAN     motor zaten tanıyor (BUYUK ad listesi ∪ scalerank≤5,
+                      ya da FEATURECLA=Range/mtn/Plateau/Gorge/Wetlands)
+                      → C YAZILMAZ, A/B + dogal_hatta_yasla YETER
+①b DOĞAL-TANINMAYAN  gerçek nehir/dağ AMA motor tanımıyor (Adige, Mureş —
+                      KAPSAM-C-0911'de ölçüldü) → C hattı GERÇEK polyline
+                      taşır (Natural Earth'ten aynı geometri kopyalanır)
+①c YAPAY/CETVEL       hiçbir doğal unsura dayanmaz (Midye-Enez) → C hattı
+                      İKİ (ya da az sayıda düz segment) NOKTA taşır
+②  NOKTA-ATAMASI      🔴 C'YE HİÇ GİRMEZ — antlaşma bir YERİ bir tarafa
+                      veriyor, ÇİZGİ tarif ETMİYOR (Karlofça'nın Bosna kale
+                      listesi, Amasya'nın şehir listesi). Çare mevcut A/B
+                      (nokta varsa d:/s:/v: dönemi eklemek) ya da nokta
+                      eksikse §2 (yeni yerleşim). `window.HUKUKI_SINIRLAR`a
+                      YAZILMAZ — bu şemanın EN SIK ihlal edileceği yer
+                      olacağı için AÇIKÇA burada tekrarlanıyor.
+```
+
+**🔴 EĞRİ HAT PROBLEMİ — ÇÖZÜLDÜ (ölçülemedi denmedi):**
+Koordinatörün kendi ölçümü (KAPSAM-C-0911): 2-uçlu düz-çizgi cross-product,
+Şattülarap'ın gerçek eğrisine karşı 11,1 km sapıyor ve çizgiyi 4 kez kesiyor
+— **global** cross-product (tek bir A→B vektörü) eğri hatta güvenilmez.
+
+**Çözüm: YEREL (nearest-segment) cross-product — motorun KENDİ
+`dogal_hatta_yasla()` mekanizmasının BİREBİR AYNI deseni.**
+```
+Herhangi bir petek-kenar noktası P için:
+  1) q = nearest_points(HAT_POLYLINE, P)[0]   — polyline üzerindeki en yakın nokta
+     (nokta_dizisi'nden kurulan bir LineString; ①c'de 2 nokta = tek segment,
+     ①b'de N nokta = N-1 segment — AYNI kod ikisini de kapsar)
+  2) q'nun düştüğü SEGMENTİN yerel teğet vektörü (dx,dy) bulunur
+     (o segmentin iki ucu arasındaki fark — GLOBAL A→B DEĞİL, YEREL segment)
+  3) cross_yerel = dx*(P.y - q.y) - dy*(P.x - q.x)
+  4) cross_yerel > 0 → taraf_a (yon_kurali'ne göre), < 0 → taraf_b
+```
+Bu, Midye-Enez'de (①c, tek segment) global cross-product ile TAM AYNI
+sonucu verir (segment zaten global doğrunun kendisi) — ①b'de (Şattülarap
+gibi çok segmentli eğri hatlarda) ise YEREL teğet kullanıldığı için 11 km'lik
+sapma sorunu ORTADAN KALKAR, çünkü karar HER ZAMAN en yakın gerçek nehir
+parçasına göre veriliyor, uzak bir düz-çizgi referansına göre DEĞİL.
+⚠️ **Bu bir TASARIM ÇÖZÜMÜdür, KOD OLARAK YAZILMADI/SINANMADI** (`arac/`
+donuk) — kendine has riskleri var (keskin U-dönüşlü nehirlerde iki uzak
+segment aynı P'ye yakın olabilir, "en yakın" tekil olmayabilir) ve bir
+uygulama oturumunda gerçek geometriyle sınanmalı. D107 gereği açıkça:
+**tasarlandı, sınanmadı.**
+
+### 8.3 Motor entegrasyon noktası — bulundu, satır numarasıyla
+
+`arac/uret_petek.py`nin **iki farklı** aşaması var ve C İKİSİNE DE
+KARIŞMAMALI:
+```
+satır 1740-1750  "Kenarlar doğal hatlara yaslanıp yumuşatılıyor"
+                  → STATİK, TEK SEFERLİK, TÜM TARİHTEN BAĞIMSIZ geometri
+                  (paylaşılan petek ÖRTÜSÜ inşa ediliyor — burada `g:` /
+                  tarih YOK). C BURAYA GİRMEZ — C tarihe bağlı, bu aşama değil.
+satır 4842-4856  "Dönemler kuruluyor (delta yapısı)" iç döngüsü
+                  `for i in range(len(tarihler) - 1): a, b = tarihler[i], tarihler[i+1]`
+                  — HER DÖNEM (a,b) için `tabi`/`dogrudan` (v:/d: aktif
+                  nokta kümeleri) burada hesaplanıyor. C BURAYA GİRER:
+                  `tabi`/`dogrudan` hesaplandıktan HEMEN SONRA (satır ~4856),
+                  o dönemde (a<t_C ve b>f_C, yani C kaydıyla ZAMAN ÖRTÜŞÜYORSA)
+                  aktif bir HUKUKI_SINIRLAR kaydı varsa: `kapsama` kutusu
+                  içindeki petek YÜZLERİ (bu döngüden SONRAKİ gövde/petek
+                  montaj adımlarının girdisi olan `_kume`/yüz listesi),
+                  Voronoi'nin/`_kume`'nin normal atadığı sahibi YERİNE,
+                  §8.2'nin yerel-cross-product kuralına göre YENİDEN
+                  taraf_a/taraf_b'ye atanır.
+```
+⚠️ **Bunun ÖTESİNDEKİ (gövde/petek montajının TAM MEKANİĞİ — `_kume`'nin
+bu döngüde mi yoksa `dogrudan`/`tabi`'den TÜRETİLEN ayrı bir adımda mı
+kullanıldığı) satır satır İZLENMEDİ** — bu, dosyanın 4800+ satırının
+TAMAMINI okumayı gerektirir ve bu görevin (şema yazımı, `arac/` donuk)
+kapsamı dışında. **Verdiğim satır aralığı (~4842-4856) doğrulanmış bir
+GİRİŞ NOKTASI, ama tam patch NOKTASI değil** — bir uygulama oturumu bu
+döngünün çıktısının nasıl gövdeye dönüştüğünü SATIR SATIR izlemeli.
+D107 gereği açıkça: **yapısal konum bulundu, tam mekanik İZLENMEDİ.**
+
+### 8.4 `index.html` değişikliği
+
+```
+🔴 §5 kuralı: yeni bir veri dosyası eklersen index.html'e de satır eklemelisin.
+   YENİ SATIR: <script src="data/hukuki_sinirlar.js"></script>
+   KONUM: data/devletler.js'in HEMEN SONRASI önerilir (künye verisiyle aynı
+   katman, savaslar.js'ten önce — hukuki_sinirlar bir künyeler-arası İLİŞKİ
+   taşıdığı için künye listesinden sonra, ama antlaşma/savaş verisinden
+   önce mantıklı bir okuma sırası kurar). KESİN SIRA `js/app.js`in hangi
+   sırayla `window.*` okuduğuna bağlı — BU GÖREVDE SINANMADI (data/ donuk).
+```
+
+### 8.5 SINAV TASARIMI — C doğru çalıştığını nasıl kanıtlar (D010: iki yönde)
+
+Midye-Enez'in kabul ölçütü, `taraflar` alanının doğru künyelerle
+düzeltildiği varsayımıyla (§8.1'in kendi uyarısı — `bulgaristan-kralligi`,
+`balkan-devletleri` değil):
+
+```
+SINAV 1 — HAT DOĞRU ÇALIŞIYOR MU (pozitif yön)
+  girdi   : 1913-06-10 (Midye-Enez'in aktif olduğu bir gün, f<g<t)
+  beklenen: İstanbul (28.97,41.0) → osmanli tarafında BOYALI
+            Kırklareli (27.225,41.735) → bulgaristan-kralligi tarafında BOYALI
+  kontrol : petek_govde.js'te o güne en yakın dönemde bu iki noktanın
+            HANGİ gövdeye ait olduğu okunur — cross_yerel işaretiyle
+            HESAPLANAN taraf İLE EŞLEŞMELİ (§8.2'nin dogrulama testi,
+            zaten bu oturumda İstanbul/Kırklareli için elle YAPILMIŞTI —
+            şimdi gerçek petek çıktısında TEKRARLANMALI)
+
+SINAV 2 — C'SİZ BÖLGELER DEĞİŞMEMİŞ Mİ (negatif yön — D010'un ASIL vurgusu)
+  yöntem : C EKLENMEDEN ÖNCEKİ bir referans koşusu (ör. koşu 9'un çıktısı)
+           ile C EKLENDİKTEN SONRAKİ koşunun `petek_govde.js`i, HUKUKI_
+           SINIRLAR kayıtlarının kapsama kutularının DIŞINDAKİ TÜM
+           hücreler için birebir DİFF'lenir
+  beklenen: fark SIFIR (byte-eşit ya da geometri-eşit) — Midye-Enez'in
+           kapsama kutusu (§8.1: 40.5-42.0K/25.8-29.3D) DIŞINDA HİÇBİR
+           petek, hiçbir tarihte DEĞİŞMEMELİ
+  neden_kritik: SEMA §2.3'ün kendi uyarısı — C, Voronoi/yaslama SONUCUNU
+           EZEN bir mekanizma; yanlış uygulanırsa kapsama kutusu dışına
+           TAŞABİLİR (bir bug) ya da kutu içi/dışı sınırında YENİ bir
+           dikiş/çatlak yaratabilir (poligon kapanmama riski, §2.3'ün
+           "açık eğri + kapalı bölge → iki yarım poligon" sorunuyla AYNI
+           SINIF) — bu sınav olmadan bu risk GÖRÜNMEZ kalır
+
+SINAV 3 — ZAMAN SINIRI DOĞRU MU
+  girdi  : 1913-05-25 (f'den ÖNCE) ve 1913-07-05 (t'den SONRA)
+  beklenen: HER İKİ günde de bölge NORMAL A/B'ye (Voronoi+yaslama) göre
+           boyalı — yani 05-25'te ESKİ sınır (savaş öncesi Ottoman Thrace),
+           07-05'te YENİ durum (Osmanlı ordusu hattı zaten aşmış) — C'nin
+           etkisi YALNIZ [f,t) penceresinde görünmeli, dışında SIFIR
+```
+Bu üç sınavın 1'i ölçüldü (İstanbul/Kırklareli işaret testi, elle), 2'si ve
+3'ü TASARLANDI ama arac/ donuk olduğu için KOŞULMADI — bir uygulama
+oturumunun KABUL ÖLÇÜTÜ olarak kullanılması ÖNERİLİR.
