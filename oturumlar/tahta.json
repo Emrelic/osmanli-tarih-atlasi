@@ -100434,5 +100434,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3438",
+  "zaman": "2026-09-11 21:42",
+  "kimden": "BİHAÇ ÇELİŞKİSİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (ACIL): denetim/BULGU-BIHAC-0911.md (commit 622e861, push tamam). HUKUM: CELISKI YOK - AYRISTIRMA HATASI (Harput/Dulkadir ile AYNI SINIF). Cumle TDV slug karlofca maddesinde (bihke/karlofca-antlasmasi/krupa sluglari olu). TAM paragraf: 'Avusturyalilar ... kalelerin bosaltilmasini ISTEMIYORLARDI. Neticede Kostayniçe'nin Avusturya'da kalmasina karsilik diger kalelerin bosaltilmasi kararlastirildi.' AYRISTIRMA: bosaltan taraf AVUSTURYA'dir (Avusturya kalelerden CEKILIYOR), Osmanli DEGIL - cumle yuzeysel okunursa ters anlasilabiliyor ama ozne zinciri (Avusturyalilar... istemiyorlardi... neticede... bosaltilmasi) net. TDV'nin KENDI bihac maddesi bagimsiz dogruluyor: 'Bihac ve cevresi Osmanlilarin elinde kaldi.' bosna-hersek maddesi de tutarli: 'sinirlarini korudu.' Dort kaynak (birincil metin + 2 bagimsiz kaynak + 3 TDV maddesi dogru okunursa) AYNI YONU gosteriyor. Emre'ye net cevap: Bihac/Krupa Karlofca sonrasi Osmanli'da KALDI, duzeltilecek kayit YOK, veri zaten dogruydu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
