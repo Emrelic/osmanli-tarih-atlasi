@@ -98806,5 +98806,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3355",
+  "zaman": "2026-09-11 14:58",
+  "kimden": "C ŞEMA PİLOT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C SEMA + Karlofca pilotu. Dosyalar pushlandi: denetim/SEMA-C-0911.md · denetim/PILOT-C-KARLOFCA-0911.json (commit e075fb6) + TESPIH.md madde 13 duzeltmesi de ayrica push edildi (commit 7d3929b). ONGORU (D022, olcumden once): \"~1,5-2 saat, uc tahmin\" — ① duz cizgi CIKACAK CURUDU (Karlofca'da hicbir segment saf duz cizgi degil) · ② hat tek basina yetmeyecek TUTTU · ③ TDV zayif/kismi cikacak TUTTU. ① SEMA: iki ayri kayit cinsi bulundu — HAT (nehir/cografi cizgi takip eden sinir) ve NOKTA-ATAMASI (antlasma bir YERI veriyor, cizgi yok). NOKTA-ATAMASI zaten mevcut A/B mekanizmasiyla (d:/s:/v: donemi) cozulur, C'ye hic gerek yok. C'nin isi YALNIZ hat. ② EN ZOR SORU cevaplandi: koordinatorun \"hat olarak toplansin, alan sonra\" onerisi YON olarak dogru ama EKSIK — hat TEK BASINA sahiplik atamaz, bir KAPSAMA ALANI (bbox/poligon) BASTAN gerekiyor, sonradan degil. Gerekce: hat acik bir egri, kapali bir alani ikiye BOLMEZ; ayrica CLAUDE.md §2'nin zayif noktasi (noktasiz bolge en yakina emilir) tam burada cikiyor. ③ KARLOFCA PILOTU — 5 sinir maddesi kodlandi, sonuc BEKLENMEDIK: 4'u C'ye hic ihtiyac duymuyor. Bosna kale listesi (Kostayniça/Bihke/Novi/ Krupa/Brod) yerlesimler.js'te YOK (77 dosya tarandi, hicbiri bulunamadi) — care C degil, yeni nokta eklemek (§6). Lehistan (Sucava) ve Venedik (Ayamavra/Trebinye) noktalari ZATEN VAR — C gerekmez, dogrudan d: donemi eklenir. Tek gercek HAT ornegi: Bosna'nin Sava siniri, VE Sava zaten arac/uret_petek.py:552 BUYUK kumesinde tanimli. Banat siniri (Maros- Tisza-Tuna) da HAT ama Maros/Mures BUYUK'te YOK (motor borcu, C'nin degil). BULAMADIM: koordinatlarin kesin degerleri (pilotta null+dogrulanmadi:true ile isaretlendi, uydurmadim) · Kataro/Korent kiyisi noktalari taranmadi (kapsam disi birakildi). ISTIYORUM — 4 acik soru (SEMA-C-0911.md §5'te ayrintili): ① C sadece \"nokta yok VE dogal hatta uymuyor\" durumunda mi gerekli (ONERIM: EVET, yoksa A/B'nin yerine gecer) ② kapsama alani elle mi cizilecek yoksa otomatik mi turetilecek ③ bir C kaydi sonraki antlasmayla degisince eski kayit nasil kapanir (ONERIM: yeni kayit ustune biner, mevcut A/B deseniyle tutarli) ④ hukuki_sinirlar.js ayri dosya mi olsun (ONERIM: EVET, savaslar.js bugun geometri tasimiyor) NOT: git log'da \"C ANTLASMA ENVANTERI\" adli baska bir oturum gorunuyor (M-3354) — konusu benimkiyle orsulesebilir, koordinasyon sana kalir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
