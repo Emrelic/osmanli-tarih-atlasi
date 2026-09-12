@@ -107383,7 +107383,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-12 19:41"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -107419,7 +107421,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-12 19:41"
+  },
   "yanit_no": "M-3592",
   "cins": "BILGI",
   "teyit": {},
