@@ -1,0 +1,85 @@
+{
+ "oturum": "KITA 9 — YURUME VE TIRMANMA BILIMI",
+ "tarih": "2026-09-12",
+ "kural": "D022 — ongoru OLCUMDEN ONCE yazildi ve commit'lendi. Hicbir kaynak acilmadan once, yalniz hafizadan.",
+ "uyari": "Bu dosyadaki HICBIR SAYI KAYNAK DEGILDIR. Bunlar SINANACAK tahminlerdir; kaynakli degerler VERI-YURUME-0912.json'a yazilacak.",
+
+ "O1_duz_arazi_gunluk_menzil_km": {
+  "tek_yuruyucu": [30, 40],
+  "kervan": [25, 30],
+  "yuklu_ordu": [15, 25],
+  "suvari": [40, 60],
+  "gerekce": "Ordu en yavas olani olmali: konak kurma/bozma, ikmal, agirlik. Suvari en hizli ama menzil ATIN dayanikliligiyla sinirli, binicinin degil.",
+  "curursE": "Ordu 25 km'nin USTUNE cikarsa, 'agirlik yavaslatir' onculu yanlis demektir."
+ },
+
+ "O2_egim_hiz": {
+  "tobler_formul_hatirlanan": "W = 6 * exp(-3.5 * |S + 0.05|) km/saat, S = tanjant egim",
+  "tobler_duz_hiz_km_s": 5.04,
+  "tobler_en_hizli_egim": "-0.05 civari (hafif INIS), ~6 km/saat",
+  "naismith_hatirlanan": "duz 5 km/saat + her 600 m tirmanis icin 1 saat",
+  "langmuir_duzeltmesi_hatirlanan": "hafif inisde (5-12 derece) 300 m basina 10 dk DUS; dik inisde (>12 derece) 300 m basina 10 dk EKLE",
+  "minetti_hatirlanan": "metabolik maliyet minimumu duz degil, ~-10% egimde (hafif inis); +45% ve -45% arasinda olculdu",
+  "ongoru_gecerlilik_sinirlari": "Tobler ve Naismith'in ikisi de ~%40 (22 derece) uzerinde COKER; bunun uzeri artik yuruyus degil.",
+  "curursE": "Minetti'nin minimumu duz cikarsa, 'inis bedava degil ama duzden ucuz' onculu yanlis."
+ },
+
+ "O3_tirmanma_hizi_m_saat": {
+  "ortalama_yuruyucu": [300, 400],
+  "formda_daglici": [500, 700],
+  "yuklu": [200, 300],
+  "yurumeden_tirmanisa_gecis_egimi_derece": [30, 35],
+  "gerekce": "30-35 derecenin uzerinde el kullanimi baslar; yuruyus formulleri tanimsiz hale gelir."
+ },
+
+ "O4_gecit_mi_tirmanis_mi": {
+  "esdegerlik_kurali_ongoru": "1 m tirmanis ~ 8 m duz yol (Naismith'ten: 600 m = 1 saat = 5 km duz -> 1000 m = 8,3 km)",
+  "esik_orani_ongoru_km_per_1000m": [7, 10],
+  "vaka_2000m_zirve_vs_1200m_gecit": "800 m tirmanis tasarrufu ~ 6,7 km duz yol. Dolanma 6,7 km'den AZ uzatiyorsa GECIT karli.",
+  "curursE": "Esik 15 km/1000m'nin uzerine cikarsa, gecitler sandigimdan COK daha karlidir ve motor onlari agirlikli aramalidir."
+ },
+
+ "O5_yukseklik_cezasi": {
+  "onemli_olmaya_baslama_kotu_m": 2500,
+  "3000m_de_performans_kaybi_yuzde": [10, 20],
+  "kar_siniri_mevsimlik_kapanma": "Anadolu/Balkanlar'da 2000 m uzeri geçitler kis boyunca (Kasim-Nisan) kapali olmali",
+  "ongoru": "Atlasin olceginde (cogu gecit <2500 m) yukseklik cezasi EGIM cezasinin yaninda IKINCIL kalir."
+ },
+
+ "O6_emrenin_uc_ornegi": {
+  "a_1000m_yatay_duz": {"sure_dk": 12, "dayanak": "1 km / 5,04 km/saat"},
+  "b_1000m_rakim_1000m_mesafe": {
+   "egim_yuzde": 100, "egim_derece": 45,
+   "ongoru": "BU BIR YURUYUS DEGIL. Tobler burada 0,15 km/saat gibi SACMA bir sayi verir (9+ saat). Gercek cevap: formuller GECERSIZ, arazi tirmanis sinifina girer.",
+   "sure_tahmin_saat": [2, 4],
+   "dayanak": "Naismith saf hali 1s52dk der ama 45 derecede gecersiz; gercek tirmanis hizi 300-400 m/saat -> 2,5-3,3 saat"
+  },
+  "c_1000m_rakim_4000m_mesafe": {
+   "egim_yuzde": 25, "egim_derece": 14,
+   "sure_tahmin_saat": [2.0, 2.5],
+   "dayanak": "Naismith 48dk + 1s40dk = 2s28dk · Tobler 4,12 km / 2,10 km/saat = 1s58dk"
+  },
+  "manset_ongoru": "b ile c arasindaki fark 'ayni rakim, farkli mesafe' oldugu halde EN AZ 1,5 KAT, ve b muhtemelen HIC YURUNMEZ. Emre'nin sezgisi (ayni sey degildir) DOGRU cikacak."
+ },
+
+ "O7_tarihi_capraz_kontrol": {
+  "osmanli_menzil_gunluk_km": [25, 35],
+  "kervan_gunluk_km": [25, 30],
+  "roma_ordusu_gunluk_km": [25, 30],
+  "ongoru": "TARIHI kaynak MODERN spor fizyolojisinden DAHA YAVAS gunluk menzil verecek — cunku modern rakam bir BIREYIN yuruyus hizi, tarihi rakam bir KAFILENIN gunluk ilerlemesi (konak, ikmal, yavas halka dahil).",
+  "ayrisma_ongoru_kat": [1.3, 2.0],
+  "curursE": "Tarihi menzil modern yuruyus menzilinden BUYUK cikarsa, ongorunun yonu ters demektir ve sebebi ayrica arastirilmali."
+ },
+
+ "O8_kalibrasyon_hedefi": {
+  "emrenin_kuzey_hedefi_km": [40, 50],
+  "bugunku_model_km": 70,
+  "ongoru": "Benim verimle dag menzili 70 km'den 40-55 km'ye inecek, ve bunu saglayan sey ORTALAMA egim degil HUCRE ICI DALGALANMA olacak (R3'un isi). Yani R1 tek basina hedefi tutturamaz; R1 + R3 birlikte tutturur.",
+  "curursE": "Yalniz egim-hiz egrisini duzeltmek 70'i 40-50'ye indiriyorsa, R3 (topografya zenginlestirme) bu hedef icin GEREKSIZ demektir."
+ },
+
+ "O9_yontem_riski": {
+  "en_buyuk_risk": "Tobler'in kendi makalesinin ORIJINAL metnine ulasamamak (1993, teknik rapor; hakemli dergi degil) ve formulu ikincil kaynaktan almak zorunda kalmak. O zaman D144 riski: beyan edilen kaynak iddiayi tasimayabilir.",
+  "ikinci_risk": "Menzilname verisinin KM degil KONAK/SAAT cinsinden olmasi; cevirme carpani kaynakta yoksa UYDURMA riski dogar. O halde konak/saat olarak birakilacak."
+ }
+}
