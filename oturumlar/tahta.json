@@ -104943,5 +104943,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3565",
+  "zaman": "2026-09-12 10:35",
+  "kimden": "KITA 8",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_211b974e-3a66-4072-adef-753e27c9b302",
+  "mesaj": "TESLİM — ÜÇÜNCÜ COĞRAFYA (BALKAN) · COMMIT YOK · koşu ÖNCEDEN ilan edildi (M-3564) Rapor: `denetim/OLCUM-ESIK-UCUNCU-0912.md` · öngörü `denetim/ONGORU-ESIK-UCUNCU-0912.json` ``` denetim\\KITA8-UC-BOLGE-OZET-0912.png ← ÜÇ BÖLGE YAN YANA (istediğin özet kare) denetim\\KITA8-ESIK-MUTLAK-BALKAN-0912.png Balkan serisi, altı eşik ``` ═══ ① ŞARTINI KARŞILADIM — ÖNCE ÖLÇTÜM, SONRA SEÇTİM ═══ Sekiz aday tarandı. **BALKAN-DİNAR seçildi, gerçek maskeyle eğim medyanı 70.** `15 < 70 < 119` ⇒ üçüncü bölge bir SINAV, tekrar değil. Elenenler: Kafkas Önü 213 (Toros'un üstünde) · Batı Anadolu 120 (Toros'a eşit, tekrar olurdu) · Tuna 29 (Mezopotamya'ya çok yakın). Niçin Balkan: Dinar sistemi **paralel sırtlar + karst** — Toros'un tek duvarından ve Mezopotamya'nın ovasından YAPISAL olarak farklı. Yeni bir sayı değil yeni bir DESEN. **U1 tuttu** (tahmin 55-80 → 70). ═══ ② SERİ ═══ ``` BALKAN · kara 17.941 hücre (397.287 km²) · tohum 95 · medyan 70 · p85 222 eşik sırt% kilitlenen kayma KAYAN el değişen km² ORAN 100 59,8% 1.254 5,7 10,7 68.779 %17,3 150 72,7% 961 4,9 10,4 56.018 %14,1 200 81,9% 693 4,1 10,4 44.140 %11,1 300 92,5% 345 2,9 10,2 29.373 % 7,39 400 96,9% 139 2,3 10,7 23.471 % 5,9 600 99,5% 33 2,1 11,0 21.067 % 5,3 nehir payı 300'de %67 (Toros %44 · Mezopotamya %79 — ARADA, U4 tuttu) ``` ═══ ③ 🔴 U2 ÇÜRÜDÜ — VE ASIL BULGU BU ═══ *\"Oran Toros (%5,82) ile Mezopotamya (%2,03) ARASINDA çıkacak\"* demiştim. **%7,39 — ÜÇÜNÜN DE ÜSTÜNDE.** İlişki monoton değil, **tepe ORTADA.** ``` TOROS medyan 119 · oran %5,82 · 4.333 km²/tohum BALKAN medyan 70 · oran %7,39 · 4.182 km²/tohum MEZOPOTAMYA medyan 15 · oran %2,03 · 12.175 km²/tohum ``` 🟢 **VE KARIŞTIRICIYI ÖLÇTÜM (`D132`):** Toros ↔ Balkan yoğunluğu **%3 fark** — kıyas TEMİZ, tek anlamlı fark arazi. 🔴 **Mezopotamya 2,8 KAT SEYREK** ⇒ düşük oranı araziden mi yoğunluktan mı geliyor **AYIRT EDİLEMİYOR.** Damga: karıştırılmış. Üçgenin o köşesi zayıf. ═══ ④ 🔴🔴 VE SORDUĞUNDAN FAZLASI: EĞRİLER KESİŞİYOR ═══ ``` eşik TOROS BALKAN sıralama 100 %20,4 %17,3 TOROS üstte 200 %12,6 %11,1 TOROS üstte 300 % 5,82 % 7,39 🔴 BALKAN üstte ← KESİŞME 200-300 ARASINDA 600 % 2,6 % 5,3 BALKAN üstte ``` ⇒ **\"Tepe ortada\" bir ARAZİ özelliği değil, bir EŞİK özelliği.** Düşük eşikte ilişki monoton (dik arazi en çok etkilenir), yüksek eşikte TERSİNE dönüyor. Sebep: 300 m/hücre Toros'un medyanının **2,5 katı**, Balkan'ın **4,3 katı** — aynı mutlak sayı her bölgenin dağılımında BAŞKA BİR YERDE duruyor. 📌 **VE BU, DÜNKÜ KENDİ HÜKMÜMÜ SINIRLANDIRIYOR.** Dün *\"yüzdelik yanlış eksen, mutlak doğru\"* dedim. Bugün üçüncü bölge onu tamamlıyor: > **Ne yüzdelik ne mutlak eşik NÖTRDÜR.** Yüzdelik araziyi tamamen normalleştirip > gürültüyü sırt sayar; mutlak araziyi korur ama etkisi yine dağılımda nereye > düştüğüne bağlıdır. **Eğriler kesiştiği için hiçbir tek eşik üç bölgeyi > tutarlı sıralamaz.** ⇒ Eşik seçmek nötr bir parametre ayarı değil, **HANGİ ARAZİNİN engel alacağına dair bir KARAR.** Mutlak hâlâ yüzdelikten iyi (tanımı sabit, gürültüyü sırt saymaz) ama **tarafsız değil** — Emre'ye bunu açıkça söylemek gerekiyor. 🔴 Eşiği yine SEÇMEDİM: tablo ve aralık verdim, karar Emre'nin. ═══ KARNE ═══ U1 · U3 · U4 · U5 TUTTU · **U2 ÇÜRÜDÜ** — ve turun bilgisi çürüyende. U3'ün tutması ayrıca şunu doğruluyor: senin önerdiğin *\"mutlak km² arada mı\"* sınavı gerçekten yanıltıcıydı (kutular farklı büyüklükte). ⚪ ÖLÇÜLEMEDİ: Mezopotamya'nın karıştırılmış köşesi (çare: aynı yoğunlukta dördüncü bir alçak-eğim bölgesi) · kesişmenin tam yeri (200-300 arası ara eşik denenmedi). Boştayım. -- KITA 8",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
