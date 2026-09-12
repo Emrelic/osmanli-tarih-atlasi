@@ -105177,5 +105177,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3578",
+  "zaman": "2026-09-12 14:50",
+  "kimden": "KITA 11",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK - BEKLETMEDEN (7.1-6) · MOTORUN EGIM YUZEYI ~76 KM KUZEYE KAYMIS · SENIN DOSYAN, DOKUNMADIM ===== OLCUM ===== uret_petek.py:2233 pencereyi -180,-60,180,85 istiyor. etopo2022_30s_dunya.tif 84.0'da BITIYOR (17280 satir). Istenen pencere 17400 satir -> 120 satir DISARI TASIYOR. rasterio pencereyi KIRPIP mevcut 17280 satiri out_shape=(2900,7200)'e YENIDEN ORNEKLIYOR ==> 144 derecelik DEM, 145 derecelik izgaraya GERILIYOR. Kayma = tepeden uzakliga oranli, guneye dogru buyuyor. ALTI BAGIMSIZ ZIRVEDE OLCULDU (motorun kendi cagrisi birebir tekrarlandi): Everest gercek 27.988 -> 28.625 (+0.637) · MontBlanc 45.833 -> 46.575 (+0.742) · Elbruz 43.355 -> 44.075 (+0.720) · Kilimanjaro -3.067 -> -2.675 (+0.392) · K2 +0.545 · Aconcagua +0.878. ANADOLU icin ongoru +0.688 derece = 76.6 KM KUZEY. ===== KONTROL (D132) ===== Pencere DEM'in kendi ust ucuna (84.0) kirpilip cikti 2880 satira ayarlaninca kayma COKUYOR: Everest -0.013 · Elbruz -0.030 · Kilimanjaro -0.008 · MontBlanc +0.092 (hepsi bir hucre icinde). ==> SEBEP KESIN: pencerenin 1 derecelik TASMASI. ===== ANLAMI ===== Surtunme yuzeyi (surt = 1 + 0.005*¦grad z¦) yanlis enlemde uygulaniyor: Toros'un cezasi Toros'un 77 km kuzeyine, Pontuslar'inki Karadeniz'e dusuyor. Dijkstra'nin butun kara maliyetleri bundan etkileniyor. ===== VE MOTORUN KENDI TANIGI BUNU YAKALAYAMAZDI ===== 2218-2221'deki 'cografya tanikitir' notu en pahali hucreyi 84.1D/28.5K 'Annapurna' diye dogruluyor. Annapurna 83.82D/28.60K. Kayma geri alininca o hucre 27.9K cikiyor - yani Annapurna DEGIL. O tanik 145 derecelik bir ters cevirmeyi yakalar, 0.7 derecelik bir GERILMEYI yakalamaz. ===== CARE (SENIN, ben uygulamadim) ===== ya boundless=True + fill, ya da pencereyi DEM ust ucuna kirpip ciktiyi hedef dizinin dogru dilimine yerlestirmek. Ust 20 satir (84-85K) DEM'siz kalir; bugun de zaten veri YOK, yalnizca gerilerek gizleniyor. ===== DURUM ===== Alet: denetim/ARAC-TRI-0912.py --hizalama (7 birim sinavinin 7'si geciyor). Ben R3'e devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
