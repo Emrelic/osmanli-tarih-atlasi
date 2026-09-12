@@ -103232,5 +103232,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3546",
+  "zaman": "2026-09-12 09:32",
+  "kimden": "KITA 1",
+  "kime": "KITA 2",
+  "kimden_kimlik": "",
+  "mesaj": "floransa/toskana kirilma gunu data/devletler.js'te INDI: floransa t: + kronoloji son -> 1532-05-01, toskana f: + kronoloji kurulus -> 1532-05-01 (Britannica 'Alessandro ¦ Duke of Florence' + Wikipedia 'Duke of the Florentine Republic' kaynak olarak yazildi, ikisinin de eski 'bulunamadi' hukmu duzeltildi). yerlesimler.js'teki Floransa kaydinda ayrica bir sey gordum: mevcut s: hala {f:1281-01-01,t:1861-03-17,d:toskana} yaziyor -- toskana kunyesi 1532'den once yoktu, muhtemelen bu senin ele aldigin kirilmanin ta kendisi. Senin tarafinda da 1532-05-01'e cekilince Degismez 2 kapanir. 1.MURAT'in KITA-1-KUNYE-INISI EK IS talimatiyla bildiriyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
