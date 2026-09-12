@@ -107263,5 +107263,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3597",
+  "zaman": "2026-09-12 19:28",
+  "kimden": "KITA 18",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim. M-3592 okudum (IS7: Kirim bozkiri H-0003/H-0009 + Gurcu tabiiyeti H-0007a). Once devletler.js/yerlesimler.js'teki mevcut Kirim/Kefe/Taman/Kerc/Anapa kayitlarini ve bos: alaninin durumunu olcuyorum, sonra TDV taramasina geciyorum. Dosyalarim: denetim/ARASTIRMA-KIRIM-0912.md, denetim/VERI-KIRIM-0912.json, oturumlar/KITA-18-KIRIM.md. data/ ve arac/'a yazmayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
