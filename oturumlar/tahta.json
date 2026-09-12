@@ -107281,5 +107281,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3598",
+  "zaman": "2026-09-12 19:30",
+  "kimden": "KITA 13",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GİDİŞAT — İŞ④ · ARAŞTIRMA BİTTİ · ÖNGÖRÜ MÜHÜRLENDİ · **YAZIM BEKLİYOR** öngörü: denetim/ONGORU-KITA13-IS4-0912.md · commit 0fa4ea5 (`data/` altına HİÇBİR ŞEY yazılmadan önce mühürlendi) 🔴 Aksaklığı send_message ile ayrıca gönderdim — sevkin öncülü YARIM çürüdü, kararını bekliyorum, o yüzden `data/` henüz BOŞ. ═══ ÖNGÖRÜM: **1 NOKTA. 1'i TDV kaynaklı.** ═══ Sevkin 12 adayından geriye **bir tek nokta** kalıyor ve bu sayının düşüklüğü işin küçüklüğü değil, **tespitin kendisi.** ``` 🟢 ZATEN VERİDE 10/12 Tobruk · Derne · Bingazi · Ecdâbiye · Dâhile (tam eşleşme) Hârice (Vâhât) · Bahriye (Bâvîtî) · Beyzâ (Kirene) (adı farklı) 🔴 ÜÇ MÜKERRER TUZAĞI — yazsaydım haritayı bozardı \"Farafra\" → Ferâfire 0,0 km \"Mercu (Marj)\" → Merc 4,8 km \"el-Beyda\" → Beyzâ (Kirene) 12,4 km ``` ═══ 🟢 SÎVE — TDV KAPSAYICI MADDEDEN DOĞRULANDI ═══ ``` dar slug sive · siva · siwa · vahat · amonyum · sive--misir → 302 ÖLÜ kapsayıcı `misir` → 200 · gövde 231.572 karakter · OKUNDU ``` > *\"vahalar (**Sîva**, Bahriyye, Feyyûm, Ferâfre, Dâhle ve Hârce)\"* ⇒ TDV'nin saydığı **altı** Batı Çölü vahasının **beşi atlasta VAR**, **yalnız Sîva yok.** Sîve bir tahmin değil, **kaynağın kendi listesindeki tek boşluk.** (§4'ün *\"dar slug tutmazsa kapsayıcı maddeyi dene\"* kuralı, ve kapsayıcı madde yine bir YER maddesi çıktı.) ═══ 🔴 EN KESKİN ÖNGÖRÜ: BOŞLUĞUN KENDİSİ DOĞRU, DOLDURULMAYACAK ═══ Senin kutun (30,0-31,8K / 21,2-24,5D) gerçekten boş — 169 km'ye kadar nokta yok. **Ama TDV `berka` o banda bir yerleşim adı VERMİYOR:** andığı her yer ya kıyıda (Merc · Bingazi · Beyzâ) ya çok güneyde (Kufra · Câlû · Cağbûb · Tâzirbû) — **ve dördü de atlasta ZATEN VAR** (Kufra 24,2/23,3 · Tâzirbû 25,7/21,1 · Câlû 29,0/21,5 · Cağbûb 29,7/24,5 `kur:1856`). ⇒ Emre'nin ilkesi gereği (`0019/H-0056`: *\"yok ise uyduracak hâlimiz yok, devasa boşluklar olacaksa olsun\"*) o banda **nokta yazmayacağım.** 🔴 Çürüme ölçütü yazılı: akademik bir kaynak o bantta 1281-1923 arası bir yerleşim gösterirse (Mekîlî · Tmimi · Ümmürrezem) öngörü çürür. ═══ ⚠️ VE İŞ④ İLE H-0016(5) BİRLEŞTİRİLMEMELİ ═══ ④. maddende *\"şerit dolunca o madde de kapanır mı\"* diye sordun. **KAPANMAZ.** H-0016(5) bir NOKTA sorunu değil bir **TARİH** sorunu: Derne · Tobruk · Bingazi · Sellûm **dördü de zaten VAR** ve dördü de `s:memluk → 1517-05-19 → d:OSMANLI` taşıyor. Nokta eklemek o zinciri değiştirmez. 🔴 Birleştirilirse tarih kusuru *\"nokta partisi bitti\"* diye kapanmış sayılır ve **sessizce kalır.** İki ayrı iş olarak tutulmalı. ═══ AVCİLE — ⚪ KARAR VERMEDİM ═══ Avcile (Awjila) 29,108/21,287 ↔ veride **Câlû 26,7 km**. İkiz vahalar. TDV `berka` *\"Senûsî merkezlerinden Cağbûb ve Câlû'yu 1927'de işgal ettiler\"* diyor — **Câlû anılıyor, Avcile anılmıyor.** 26,7 km eşiğin üstünde ama kaynak ikisini ayırmıyor. Şimdilik YAZMIYORUM, gerekçesi ve çürüme biçimi öngörüde yazılı. ═══ 🟢 TEYİT ═══ Koşu 9 bitmiş: `uret_petek` süreci yok, `data/donemler.js` son yazım 11 Eylül 22:58 ⇒ `data/` donuk değil. Yazma iznini yine de senin kararınla kullanacağım. BEKLİYORUM — (a) iç bölgeye kaydır mı, (b) sevkteki listeyi yaz mı.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
