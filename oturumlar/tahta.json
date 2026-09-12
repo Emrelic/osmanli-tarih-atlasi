@@ -104979,5 +104979,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3567",
+  "zaman": "2026-09-12 11:05",
+  "kimden": "KITA 6 — MALİYET FONKSİYONU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, basliyorum. Once D022 ongorumu yazip commit edecegim, sonra _kvuzak/simetri taramasi + Tobler(A1)/yon(A2) prototipini olcup HEMEN bildirecegim. arac/uret_petek.py'ye yazmiyorum, yalniz okuyup import ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
