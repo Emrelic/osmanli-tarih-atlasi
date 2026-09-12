@@ -68,6 +68,46 @@ BAĞIMSIZ, ayrı bir sabit. Tobler yalnız `uret_petek.py`ye inerse
 AYRIŞIR (`D143` sınıfı: aynı işi yapan iki zincir betiği). Motor
 oturumuna (1.MURAT) BEKLETMEDEN bildiriliyor.
 
+## Ⓐ3 — HÜCRE İÇİ GEÇİT: GERÇEK DEM İLE KÜÇÜK ÖLÇEKLİ DOĞRULANDI
+
+Zaman bütçesi tam bölge taraması yapmaya yetmedi — **tek bir bilinen
+geçit** (Gülek Boğazı / Cilician Gates, Toros) gerçek 30 yay-saniyelik
+DEM'den (`veri-kaynak/yukseklik/etopo2022_30s_atlas.tif`) okunarak
+sınandı (`denetim/ARAC-MALIYET-GECIT-0912.py`):
+
+```
+hücre [37.25-37.30K, 34.70-34.75D] (motorun KV_ADIM=0,05°'sinde TEK hücre)
+  z_min (olası geçit)         1077 m
+  z_max (zirve)                1532 m
+  z_ort (BUGÜNKÜ, Resampling.average)  1313 m
+⇒ ortalama, GEÇİDİ 236 m YÜKSELTİYOR — gerçek geçit kotunu (1077 m)
+  motor hiç GÖRMÜYOR, hücreyi 1313 m'lik düz bir duvar sanıyor.
+```
+**İddia gerçek veriyle doğrulandı** — 1 hücre, 36 alt-hücreden oluşuyor
+(6×6, 30″ DEM), ve tam bölge taraması yapılmadığı için bu **örneklem bir
+kanıt, genel bir ölçüm DEĞİL** (tek geçit, ⚪ genel istatistik ölçülemedi).
+
+**"En alçak geçiş kotu" tanımı (istenen, gerekçeli):**
+```
+ÖNERİM: z_gecis = hücrenin SINIR piksellerindeki (iç piksel DEĞİL) en
+düşük değer.
+GEREKÇE: bir geçidin TANIMI "bir taraftan girip öbür taraftan çıkabilme"
+— hücrenin İÇİNDE kapalı bir çukur (örn. kapalı bir vadi tabanı, krater)
+GEÇİT DEĞİLDİR, dışarı açılmaz. Basit `z_min` (tüm hücre) bu ayrımı
+YAPMAZ ve kapalı bir çukuru yanlışlıkla ucuz gösterebilir.
+ALTERNATİF (daha doğru, daha pahalı): tam bir "eyer noktası" (saddle
+point) analizi — komşu havza ayrımı gerektirir, bu ölçümün kapsamı
+dışında, bir sonraki adım olarak işaretleniyor.
+```
+
+## Ⓐ4 — TOROS/MEZOPOTAMYA KARŞILAŞTIRMASI: ⚪ ÖLÇÜLEMEDİ
+
+Zaman bütçesi yetmedi — gerçek petek üretimi (kesit koşusu bile) bu
+oturumun kalan bütçesini aşıyordu. **Uydurmuyorum, açıkça damgalıyorum.**
+Öneri: bu kalem ayrı, kısa bir takip turunda (yalnız Ⓐ1+Ⓐ2 zaten hazır
+olduğu için `_kv_dijkstra`ya Tobler eklenmiş bir KESİT koşusu, tam
+üretim değil) ölçülebilir.
+
 ## SİMETRİ TARAMASI
 
 `_kv_dijkstra` zaten yönlü graf mantığıyla yazılmış (`uzak[b] = uzak[a] +
