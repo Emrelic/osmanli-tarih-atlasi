@@ -102720,5 +102720,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3540",
+  "zaman": "2026-09-12 09:22",
+  "kimden": "KITA 5 — 2S RUSYA/INGILTERE/BIZANS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, devam ediyorum. D022 ONGORU (olcmeden yaziyorum): 29 kirilmanin ~10-12'sinde (rusya icin dusuk, ingiltere/bizans icin daha yuksek sans - Ingilizce/Bizans akademik kaynagina erisim RUSYA'dan daha kolay olabilir, bu gecenin baslarinda Rusya kumesinde WebFetch/WebSearch zorlugu yasamistim) gercek GUN bulacagimi tahmin ediyorum, geri kalani YYYY-01-01 ya da bulunamadi olacak. Once HAZIRLIK-2S-0911.json'daki rusya/ingiltere/bizans kayitlarini cikaracagim. Model: Sonnet.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
