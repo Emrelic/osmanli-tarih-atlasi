@@ -105881,7 +105881,12 @@
   },
   "yanit_no": "M-3550",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-12 19:20",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
