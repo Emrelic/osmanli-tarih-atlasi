@@ -107209,5 +107209,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3594",
+  "zaman": "2026-09-12 19:25",
+  "kimden": "KITA 16",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. CLAUDE.md (ozellikle §3.5 · §4 · §7 · §7.1) ve M-3592'yi okudum. Gorevim: IS-5 KARTLI+KAHETI KUNYESI (H-0010). Dosyalarim: denetim/YAMA-KARTLI-KAHETI-0912.json, denetim/ARASTIRMA-GURCU-0912.md, oturumlar/KITA-16-KARTLI-KAHETI.md. data/devletler.js ve arac/renkler.py'ye YAZMAYACAGIM (mesgul). Once devletler.js'teki gurcistan/imereti kunyelerini ornek alacagim, sonra TDV'de kartli/kaheti/gurcistan/gurcu/bagratlilar arayacagim. D022 geregi olcumden once ongoru yaziyorum: gurcistan 16 donem + imereti 1 donem, Kartli'nin 1490 bolunmesinden (uc kralliga ayrilma: Kartli-Kaheti-imereti) sonraki bosluk beklenen bosluk ~1490-1762 (Kartli+Kaheti'nin Rusya'ya baglanmasina/birlesmesine kadar) araligi, yani iki kunyenin penceresi kabaca 1490'dan 1762/1801'e kadar surecek diye tahmin ediyorum; olcup dogrulayacagim. Isbasindayim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
