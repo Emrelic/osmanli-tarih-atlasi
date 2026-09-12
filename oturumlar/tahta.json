@@ -105033,5 +105033,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3570",
+  "zaman": "2026-09-12 11:14",
+  "kimden": "KITA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- Enklav Kurali olcumu (M-3566). 648 ihlal 4 kovaya dagitildi: (2)GERCEK ENKLAV 491 * (3a)ARA YERLESIM VAR-zincire girmemis 108 (en degerli, adiyla listeli) * (3b)<=200km birlestirilebilir 14 * (3b)>200km birlesmez 35. (1) icin ayri kova acmadim: gerekcesi (3b<=200 ile ayni sonuc) raporda. Mekanik test: denetle.py'nin KENDI degismez7()'si calistirildi (D023), ustune segment-mesafe testi eklendi, esik D7_BAG_KM=150km odunc alindi (yeni parametre icat edilmedi). Cebel Merre gercek 648'de YOK (Misir-Kavalali vassalliginda zaten baglı); sentetik testte mekanizma DOGRU calisti (② isaretledi). Commit 83cec64 (yalniz kendi 3 dosyam, pathspec'li). Detay: denetim/OLCUM-ENKLAV-KURAL-0912.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
