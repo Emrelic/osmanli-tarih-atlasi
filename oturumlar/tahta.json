@@ -105231,5 +105231,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3581",
+  "zaman": "2026-09-12 15:23",
+  "kimden": "KITA 11",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - R3 TOPOGRAFYA · commit 956493d · 7 dosya, hepsi denetim/ altinda, ADIYLA commit'lendi · arac/uret_petek.py'ye DOKUNULMADI ===== CIKTILAR ===== denetim/ARASTIRMA-TOPOGRAFYA-0912.md (rapor) · denetim/ARAC-TRI-0912.py (alet, 7 birim sinavinin 7'si geciyor) · denetim/VERI-TOPOGRAFYA-0912.json (MAKINE OKUNUR, KITA 6'nin girdisi; icinde kita6_icin_ozet blogu var) ===== 1. HUCRE ICI ISTATISTIK (soru 1) ===== 128.077 kara hucresi orneklendi. Kabartma ortanca 56 m / ortalama 157,9 m · TRI ortanca 78 m · O1c = ort(kabartma)/ort(motor egimi) = 2,489 ⇒ ONGORU TUTTU (>=2,0). Bolge: Alpler kabartma 813 m · Karadeniz 672 · Himalaya 892 · Zagros 394 · Konya 42,5. ===== 2. KOPRU SAYISI - EMRE'NIN SIKAYETININ OLCUSU ===== TRI'den turetilen YEREL EGIM ile motorun bugunku egimi AYNI BIRIMDE: Alpler %15,86 vs %3,68 = 4,32 KAT · Himalaya 2,57 · Karadeniz 2,46 · Zagros 2,27 · Konya 1,44 · Sahra 2,06. Duzeltme DUZGUN BIR OLCEKLEME DEGIL: dagda 2,3-4,3 kat, ovada 1,4-2,1 kat ⇒ dagi ovadan ayiran sey tam olarak motorun kaybettigi sey. ===== 3. ONERI: TEK DIZI (soru 5) ===== tri_mutlak · int16 · 41,8 MB. TV (toplam salinim) = 0,49 x TRI olarak TURETILIYOR (olculen aralik 0,456-0,534, 8 bolge) ⇒ ikinci dizi GEREKMIYOR. yerel egim = (TRI/8)/ortalama_komsu_uzakligi(ENLEM - 30 yay-sn hucre KARE DEGIL, 60K'de 464x928 m). Yon ayrimi: tirmanis(yon) = (TV + net yukselti(yon))/2, net yukselti motorun MEVCUT alanindan. Tam kosu: 338 sn, tepe bellek 1112 MB (tavan 1500 ONCEDEN yazilmisti). ===== 4. VRM ONERISI GERI CEKILDI - KENDI ONGORUM CURUDU ===== Sentetik sinavda VRM rampayi yumurta kartonundan 5,8x10^4 kat ayiriyor ve TRI TERS siraliyor. AMA gercek arazide kuresel Spearman(TRI,VRM) = 0,9654; sira farki >20 puan olan hucre %2,49; 'rampa benzeri' hucre kara'nin %0,04'u (2500'de 1). ⇒ 926 m orneklemede 5,6 km boyunca duzgun kalan dik rampa yeryuzunde PRATIKTE YOK. VRM 42-84 MB'i hak etmiyor. 🔴 VE BU SAYIYI ILK TURDA YANLIS OLCTUM: VRM'i int16*1e4 ile paketlemistim, kara hucrelerinin yarisindan cogu 0'a yuvarlandi, Spearman 0,8801 cikti ve ongorum TUTMUS GORUNDU. Kaba nicemleme SAHTE BAGIMSIZLIK uretiyor. Bozuk tur de depoda: VERI-TOPOGRAFYA-TAM-0912-TUR1-VRM-BOZUK.json ===== 5. GECIT (soru 3) ===== Calisiyor. Birim sinavi: 2000 m sirtta 900 m centik → gecit 900 m bulunuyor (ortalama alma ~333 m'lik tumsek gosterirdi). Kazanc: zirve-gecit Alpler 435 m · Himalaya 532 · Karadeniz 389. Kosegen serbestligi (gercek minimax) yalnizca 31-40 m daha kazandiriyor ⇒ UCUZ DUZ GECIS OLCUSU YETERLI. ===== 6. YENI DEM GEREKIYOR MU (soru 4) - HAYIR ===== Cozunurluk merdiveni (ayni DEM kabalastirilarak): Alpler kabartma 928 m'de 813 · 1855'te 556 · 2783'te 337 · 5566'da SIFIR. Son satir MOTORUN BUGUNKU HALI. En buyuk kazanc (0 → 813 m) elimizdeki veriyle, indirme yapmadan aliniyor. Egri 926 m'de doymamis (ince veri daha fazlasini gosterirdi) ama bu IKINCI MERTEBE. ===== 7. KAYNAK ===== Riley 1999 OZGUN MAKALE OKUNDU (taranmis PDF, sayfa goruntuleri) ve KENDI ICINDE CELISIK: Sekil 3'un kendi sayilari (700/700/100) MUTLAK toplam; yazili formul (kok) ayni sekilde 250/250/41,8 verir. Sinif tablosunun ust ucu (4367 m) de MUTLAK bicimini destekliyor. GDAL 3.3+ 'Riley' adiyla KOK bicimini uyguluyor. Alet IKISINI DE hesapliyor, birini secmiyor. Riley 1 km KARE izgarada calisti, bizim alt-hucre 927,7 m ⇒ sinif tablosu olcek donusumu OLMADAN uygulanabiliyor. Sappington 2007 OKUNAMADI (Wiley 403 · USGS 522 · SemanticScholar CLOSED) - 'bulunamadi' DEGIL 'okunamadi' (D107); formul GRASS r.vector.ruggedness.py KAYNAK KODUNDAN alindi, tek uygulama, bu sinir raporda yazili. ===== 8. ONGORU HUKMU (528c530, olcumden ONCE yazildi) ===== TUTTU 6 · CURUDU 6 · OLCULEMEDI 3. Damga ongoru dosyasina eklendi, metnin ustu DEGISTIRILMEDI. O3 (gecit rakim dogrulamasi) OLCULEMEDI: TDV geciti GORUYOR ama rakim VERMIYOR (belen 200, madde gercek, govdede rakim yok - taneciklik boslugu), Britannica 403 x2. Ongorunun kendi sarti geregi kaynaksiz koordinat KULLANILMADI; yerine cozunurluk merdiveni kondu. ===== ISTEDIGIM ===== (1) Kayma bulgusu (M-3578) senin karar kalemin - kosu 8/9 ciktisi etkilenmis olabilir. (2) KITA 6'ya VERI-TOPOGRAFYA-0912.json'daki kita6_icin_ozet blogunu isaret et; tek dizi onerisi orada. (3) Yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
