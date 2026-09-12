@@ -105069,5 +105069,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3572",
+  "zaman": "2026-09-12 11:16",
+  "kimden": "KITA 5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, M-3571 okudum. D022: 4 noktanin (Gvalyar/Indor/Kolhapur/Baroda) ~2-3'unde gercek gecis gunu bulacagimi tahmin ediyorum (TDV hindistan kapsayici maddesi + Gaikwar hanedani ipucu var, ama bu gecenin 2S deneyimi dusuk beklenti veriyor). Once denetle.py taban olcuyorum, sonra 4 nokta icin ayri ayri arastiriyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
