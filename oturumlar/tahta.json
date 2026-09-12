@@ -105808,5 +105808,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3590",
+  "zaman": "2026-09-12 18:43",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 YENI PAKET — parti-emrelic-0043 · 19 MADDE · SIRAYA ALINDI kaynak: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0043\\PARTI.md KABA TASNIF (koordinator, gorseller ACILMADAN — metinden): A · ENKLAV GORUNTUSU H-0005 · H-0011 · H-0012 · H-0013 · (8 madde, en buyuk kume) H-0016 · H-0017 · H-0018 · H-0002 B · KRONOLOJI-HARITA SENKRONU H-0004 · H-0006 · H-0008 · H-0019 C · ARASTIRMA (kimlik/tarih) H-0003 · H-0007 · H-0009 · H-0010 · H-0015 D · YENI OZELLIK H-0001 (sefer guzergahi kesikli cizgi+ok) ⚠️ Bu tasnif METINDEN yapildi, GORSELLER acilmadi (bir gorsel metnine gore ~30 kat pahali — paketin kendi uyarisi). Tasnif SINANACAK, hukum degil. 🔑 VE H-0005 BIR SIKAYET DEGIL BIR KURAL — Emre'nin kendi sozleri: \"bir toprak enklav sekilde bir devletin topraklarindan kopup kaybediliyor ise veya enklav seklinde kazanilıyor ise bu durumda ARADAKI TOPRAKLARIN GERCEKTE NE OLDUGUNU SORGULAMALI.\" ⇒ Bu, Emre'nin 12 Eylul'de enklav tavanini gecersiz kilarken verdigi kuralin AYNISI: \"ne kadar buyuk\" degil \"ARADA NE VAR\". Ikinci kez, bagimsiz olarak, ayni ilkeyi soyluyor. ⇒ KITA 2'nin Ⓑ isini DOGRULUYOR ve genisletiyor: kural yalniz MEVCUT enklavlara degil, ENKLAV DOGURAN/KAYBEDEN GECISLERE de uygulanacak. ────────────────────────────────────────────────────────────── KITA 13 — YENI IS: PAKET 0043 TASNIFI (HUKUM DEGIL, KOK SEBEP) ────────────────────────────────────────────────────────────── dosyan: denetim/TRIYAJ-PAKET-0043-0912.md + .json · data/ ve arac/'a YAZMA 🔴 ISIN DUZELTMEK DEGIL, KOK SEBEP BULMAK. 19 maddeyi tek tek cozmeye kalkarsan 19 ayri is olur; kume halinde bakarsan muhtemelen 4-5 is. ① HER MADDEYI OKU (metin), gorseli YALNIZ metnin yetmediginde ac. Acdiginda RAPORLA — hangi maddede gorsel gerekti. ② KOK SEBEP HIPOTEZI KUR ve HER BIRINI SINA. Sekiz enklav maddesi ayni kokten mi? Adaylar (SINANACAK, varsayilmayacak): · DEM gerilmesi (bugun duzeltildi, 7803a87) — kosu 8/9 ciktisi ~75 km kaymis surtunme yuzeyiyle uretildi. Bu, ORTA ANADOLU ve DOGU ANADOLU goruntulerini ETKILEMIS OLABILIR. 🔴 SINAV: sikayet edilen goruntuler HANGI KOSUNUN ciktisi? Ekran goruntusu kendi tarihini tasir (D044). · noktasizlik (§2) — o bolgede yerlesim noktasi var mi? \"Bir harita yanlis raporu geldiginde ILK sorulacak soru budur.\" · enklav birlestirme kurallari (KITA 2, Ⓑ) · kronoloji-harita senkronu (Degismez 2) · renk cakismasi (H-0007 acikca \"renk neredeyse ayni\" diyor — bu bir §9 kalemi, `renk_olc.py` ile SINANABILIR) ③ CIKTIN: her maddeye BIR KOK SEBEP ETIKETI + hangi kumede oldugu + hangi oturuma gitmesi gerektigi. Ve HANGI MADDELER AYNI ISLE KAPANIR — bu en degerli kisim. ④ 🔴 UYDURMA: bir maddenin kok sebebini OLCEMEDIYSEN `olculemedi` yaz (D107). Sekiz maddeyi \"hepsi DEM yuzunden\" diye toplamak KOLAY ve muhtemelen YANLIS olur. ⑤ H-0001 (sefer guzergahi) bir KOK SEBEP maddesi DEGIL, yeni ozellik. Ayri tut. Not: `data/savaslar.js` icinde `SEFERLER` kumesi ZATEN VAR (CLAUDE.md §5) — once ONU olc, sifirdan tasarlama (D045). ⑥ D022 ongorusu ONCEDEN: 19 madde kac ayri KOK SEBEBE inecek? ⚠️ Ve bir sey KOORDINATORDEN: bu paketin cevabi `kutu/giden/ parti-emrelic-0043/CEVAP.json` olarak yazilacak (her maddeye hukum). Onu BEN yazacagim, senin triyajin girdisi olacak. Sen hukum yazma — KOK SEBEP yaz. ────────────────────────────────────────────────────────────── KITA 2 — Ⓑ ISINE EK GIRDI (H-0005) ────────────────────────────────────────────────────────────── Emre ayni ilkeyi IKINCI KEZ, bagimsiz olarak soyledi. Ⓑ kuralini GENISLET: dort kova yalniz DURAN enklavlara degil, ENKLAV DOGURAN ya da KAYBEDEN GECISLERE de uygulanacak. ⇒ Yeni soru: bir donem sinirinda bir toprak enklav HALINE GELIYORSA, o gecisin kendisi sorgulanmali — \"arada ne var\" o AN sorulmali. ⇒ Bu, senin ③(a) kovani (arada o devlete ait yerlesim var ama zincire katilmamis) ZAMAN eksenine tasiyor. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
