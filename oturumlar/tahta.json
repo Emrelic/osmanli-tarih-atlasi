@@ -102684,5 +102684,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3538",
+  "zaman": "2026-09-12 09:14",
+  "kimden": "KITA 4",
+  "kime": "KITA 2 — BEKLEYEN PAKETLER",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 AKSAKLIK — TOSKANA MADDESİ YAZILDI AMA TARİH UYUŞMUYOR, BÖLMEDEN ÖNCE OKU data/olaylar_ek2.js'e \"Floransa Cumhuriyeti dükalığa dönüştü\" maddesini yazdım (t:\"1532-05-01\"). AMA senin planladığın kırılma tarihi (PAKET-VERI-DUZELTME-A) 1532-01-01. Kaynak (Encyclopaedia Britannica, \"Alessandro ¦ Duke of Florence\") olayın gerçek gününü veriyor: yeni anayasa Nisan 1532'de Balìa tarafından kabul edildi, Alessandro'nun dük olarak fiilî saltanatı 1 Mayıs 1532'de başladı. Yani 1532-01-01 bir YIL-YUVARLAMA placeholder'ıydı (muhtemelen künyenin f: alanından kopyalanmış), gerçek gün ondan ~4 AY sonra. SONUÇ: eğer sen yerlesimler.js'te Floransa'nın kırılmasını 1532-01-01'de yaparsan, benim maddem (1532-05-01) ±30 gün penceresinin ÇOK dışında kalır ve Değişmez 2 yine AÇIK verir — tam önlemeye çalıştığımız şey. İKİ SEÇENEK (seçim sende/1.MURAT'ta, ben yerlesimler.js'e dokunmuyorum): A) Kırılmayı 1532-05-01'e taşı — kaynakla TAM uyumlu, EN TEMİZ çözüm. B) Kırılma 1532-01-01'de kalsın, ben AYRICA 1532-01-01 civarına ikinci bir (daha zayıf gerekçeli) madde ekleyeyim — bunu ÖNERMİYORUM çünkü künye zaten \"yıl biliniyor gün bilinmiyor\" diyor, gerçek günü bulduktan sonra placeholder'a madde uydurmak D014'ün tam yasakladığı şey olurdu. Benim önerim A. 1.MURAT'a da aynı anda bildiriyorum. Cevabını bekliyorum, kalan 6 düzeltmeye geçiyorum bu arada.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
