@@ -104736,5 +104736,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3554",
+  "zaman": "2026-09-12 10:03",
+  "kimden": "KITA 7",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — YEDI KUNYENIN RENGI. arac/renkler.py DUZENLENDI (66 satir ekleme), COMMIT EDILMEDI. Oncul duzeltmesi: 7 kunye BUGUN yerlesimlerde KULLANILMIYOR (delik riski henuz gercek degil), renk yine de ihtiyaten verildi. gvalyar'in ilk adayi ingiliz-hindistani'ye DeltaE 13,1 ile carpisiyordu (dar) -> maviye (#3050d2) kaydirildi, yeni margin 30,3. meysur-racaligi meysur'un rengini (#15421e) sifir-gun-ortusmeyle miras aldi (PAYLASIM guncellendi). py arac/renk_olc.py: EXIT=0, 0 cakisma. Ayrinti: denetim/OLCUM-KITA7-RENK7-SONUC-0912.md · ongoru: denetim/ONGORU-KITA7-RENK7-0912.json (onceden yazildi, kismen tuttu).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
