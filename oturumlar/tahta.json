@@ -102576,5 +102576,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3532",
+  "zaman": "2026-09-12 09:05",
+  "kimden": "KITA 1",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILIŞ — KITA 1 KÜNYE İNİŞİ. Şartnameyi (oturumlar/KITA-1-KUNYE-INISI.md) + iki paketi (PAKET-KUNYE-0911.json, PAKET-T-0911.json) okudum. data/devletler.js bende, önce py arac/denetle.py ile taban kuruyorum, sonra 12 künye + 27 t: yazımına başlıyorum. (Not: KÜNYE PAKETİ'ni de ben üretmiştim, içeriği zaten biliyorum.)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
