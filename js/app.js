@@ -438,6 +438,157 @@ function devletGuncelle(t) {
   etiketleriYerlestir();
 }
 
+// ═══════════════════════════════════════════════════════════════════════
+// GÜVEN KUŞAKLARI — KITA 12 PROTOTİPİ (12 Eylül 2026)
+// Şartname: oturumlar/MENZIL-KARARLARI-0912.md §③. Emre: "50 km garanti ·
+// 100 km fena değil · 200 km maksimum" — üç kademeye de EVET, haritada
+// gösterilsin.
+//
+// 🔴🔴 KUŞ UÇUŞU PROTOTİPTİR — GERÇEK YÜRÜME MALİYETİ DEĞİL. Motor bugün
+// kuşak bilgisi ÜRETMİYOR (`donemler.js`de yok); Ⓐ8 karara bağlandıktan
+// sonra KITA 6 + koordinatör gerçek veriyi bağlayacak. Bu blok o zamana
+// kadar TASARIMI görülebilir kılmak için yerleşim noktasından düz-çizgi
+// (kuş uçuşu) 50/100/200 km halkaları çiziyor. `guvenBanner()` bunu
+// ekranda AÇIKÇA yazar — D176: uygulanmamış/geçici bir yama işaretlenmezse
+// bir sonraki oturum onu gerçek veri sanır.
+//
+// ⚠️ SAHİPLİK DEĞİŞMİYOR — bu yalnız bir GÖSTERİM katmanı. `devlet-dolgu`
+// vb. hiçbir mevcut katman değiştirilmedi; güven kuşakları onların ÜSTÜNE,
+// yarı saydam bir örtü olarak eklenir.
+//
+// ⚠️ BİLİNEN SINIRLAR (D107 — bunlar prototipin kapsamı, "borç" değil):
+//   · Yalnız `y.s` (yabancı devlet) ve `y.d` (Osmanlı doğrudan) tarandı;
+//     tâbi `y.v` bu turda KAPSANMADI.
+//   · Her nokta KENDİ 50-100/100-200 km halkasını karartır; KOMŞU bir
+//     noktanın 50 km'lik güvenli alanına bu halka taşarsa da karartılır
+//     (gerçek "en yakın idare noktasına göre güven" için noktalar arası
+//     boole fark/birleşim gerekir — bu, üç STİLİ karşılaştırmak için
+//     GEREKLİ değildi, bu yüzden bu turda yapılmadı).
+//   · Kara/deniz'e göre KIRPILMADI — dairenin bir kısmı denize taşabilir.
+var GUVEN_YARICAP = { yuksek: 50, orta: 100, dusuk: 200 };
+var GUVEN_ODAK_DEVLET = null;   // ?guven=<devletId> ile açılır, varsayılan KAPALI
+var GUVEN_STIL = 1;             // ?guvenstil=1(soluk)|2(taralı)|3(kesikli kenar)
+
+// Kuş uçuşu km yarıçapında bir halka üretir — `_enYakinYerlesim` (satır
+// ~5069) ile AYNI düzlemsel yaklaşıklık: 200 km ölçeğinde yeterli, zaten
+// bu kodda kabul görmüş bir hata payı.
+function _kmDaireHalkasi(lon, lat, km, kenar) {
+  kenar = kenar || 48;
+  var co = Math.cos(lat * Math.PI / 180) || 0.0001;
+  var halka = [];
+  for (var i = 0; i <= kenar; i++) {
+    var a = (i / kenar) * Math.PI * 2;
+    halka.push([lon + (km * Math.sin(a)) / (111.32 * co),
+                lat + (km * Math.cos(a)) / 111.32]);
+  }
+  return halka;
+}
+// İki halkalı (delikli) poligon: dış yarıçap - iç yarıçap arası ANNULUS.
+// İç halka TERS SIRAYLA veriliyor (GeoJSON deliği dış halkadan farklı
+// sarım yönüister) — böylece 0-`kmIc` bölgesi HİÇ karartılmaz, yalnız
+// `kmIc`-`kmDis` arası örtülür.
+function _guvenAnnulus(lon, lat, kmDis, kmIc) {
+  var dis = _kmDaireHalkasi(lon, lat, kmDis, 48);
+  var ic = _kmDaireHalkasi(lon, lat, kmIc, 48).slice().reverse();
+  return [dis, ic];
+}
+// Bir devletin ("osmanli" doğrudanı dahil) verilen tarihte aktif idare
+// noktaları — kuş uçuşu prototipi için (bkz. üstteki BİLİNEN SINIRLAR).
+function guvenAktifNoktalar(devletId, t) {
+  var out = [];
+  (window.YERLESIMLER || []).forEach(function (y) {
+    if (y.lat == null || y.lon == null) return;
+    var aktif = false;
+    if (devletId === "osmanli" && y.d) {
+      for (var i = 0; i < y.d.length; i++) {
+        var p = y.d[i];
+        if (aktifAralik(gunIdx(p.f), gunIdx(p.t), t)) { aktif = true; break; }
+      }
+    }
+    if (!aktif && y.s) {
+      for (var j = 0; j < y.s.length; j++) {
+        var q = y.s[j];
+        if (q.d === devletId && aktifAralik(gunIdx(q.f), gunIdx(q.t), t)) { aktif = true; break; }
+      }
+    }
+    if (aktif) out.push([y.lon, y.lat]);
+  });
+  return out;
+}
+// Taralı (STİL 2) için ince, yarı saydam beyaz köşegen desen — aynı teknik
+// `isgalDesenleriKur()`te (satır ~2981): runtime'da üretilen küçük bir
+// raster, `fill-pattern` ile döşenir.
+function guvenDesenKur() {
+  if (harita.hasImage && harita.hasImage("guven-tarali")) return;
+  var K = 8, veri = new Uint8Array(K * K * 4);
+  for (var y = 0; y < K; y++) {
+    for (var x = 0; x < K; x++) {
+      var cizgi = ((x + y) % K) < 2;
+      var i = (y * K + x) * 4;
+      veri[i] = 255; veri[i + 1] = 255; veri[i + 2] = 255;
+      veri[i + 3] = cizgi ? 190 : 0;
+    }
+  }
+  harita.addImage("guven-tarali", { width: K, height: K, data: veri });
+}
+function guvenBanner(n) {
+  var el = document.getElementById("guven-banner");
+  if (!n) { if (el) el.style.display = "none"; return; }
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "guven-banner";
+    el.className = "guven-banner";
+    document.getElementById("harita").appendChild(el);
+  }
+  el.style.display = "";
+  var stilAd = { 1: "soluk dolgu", 2: "taralı dolgu", 3: "kesikli kenar" }[GUVEN_STIL] || GUVEN_STIL;
+  el.textContent = "🔴 PROTOTİP — KUŞ UÇUŞU MESAFE, GERÇEK YÜRÜME MALİYETİ DEĞİL · "
+    + GUVEN_ODAK_DEVLET + " · " + n + " nokta · stil: " + stilAd;
+}
+function guvenStilUygula() {
+  if (!haritaHazir) return;
+  var s = GUVEN_STIL;
+  ["guven-orta-dolgu", "guven-dusuk-dolgu"].forEach(function (id) {
+    harita.setLayoutProperty(id, "visibility", s === 1 ? "visible" : "none");
+  });
+  ["guven-orta-tarali", "guven-dusuk-tarali"].forEach(function (id) {
+    harita.setLayoutProperty(id, "visibility", s === 2 ? "visible" : "none");
+  });
+  ["guven-kenar-100", "guven-kenar-200"].forEach(function (id) {
+    harita.setLayoutProperty(id, "visibility", s === 3 ? "visible" : "none");
+  });
+}
+function guvenKusaklariGuncelle(t) {
+  if (!haritaHazir || !harita.getSource("guven-orta")) return;
+  if (!GUVEN_ODAK_DEVLET) {
+    harita.getSource("guven-orta").setData({ type: "FeatureCollection", features: [] });
+    harita.getSource("guven-dusuk").setData({ type: "FeatureCollection", features: [] });
+    guvenBanner(0);
+    return;
+  }
+  var noktalar = guvenAktifNoktalar(GUVEN_ODAK_DEVLET, t);
+  var ortaFs = [], dusukFs = [];
+  noktalar.forEach(function (nk) {
+    ortaFs.push({ type: "Feature", properties: {},
+      geometry: { type: "Polygon", coordinates: _guvenAnnulus(nk[0], nk[1], GUVEN_YARICAP.orta, GUVEN_YARICAP.yuksek) } });
+    dusukFs.push({ type: "Feature", properties: {},
+      geometry: { type: "Polygon", coordinates: _guvenAnnulus(nk[0], nk[1], GUVEN_YARICAP.dusuk, GUVEN_YARICAP.orta) } });
+  });
+  harita.getSource("guven-orta").setData({ type: "FeatureCollection", features: ortaFs });
+  harita.getSource("guven-dusuk").setData({ type: "FeatureCollection", features: dusukFs });
+  guvenBanner(noktalar.length);
+}
+// Konsoldan/URL'den çağrılabilir küçük kontrol yüzeyi (prototip amaçlı).
+window.guvenAc = function (devletId, stil) {
+  GUVEN_ODAK_DEVLET = devletId || null;
+  if (stil) GUVEN_STIL = stil;
+  guvenStilUygula();
+  guvenKusaklariGuncelle(suanki);
+};
+window.guvenKapat = function () { window.guvenAc(null); };
+window.guvenStil = function (stil) { GUVEN_STIL = stil; guvenStilUygula(); guvenBanner(
+  GUVEN_ODAK_DEVLET ? guvenAktifNoktalar(GUVEN_ODAK_DEVLET, suanki).length : 0); };
+
 // p5/H-0003 — kullanıcı: "haritaya yay" düğmesi: devlete tıkla, sınırlarını
 // ekrana sığdır, üstten alttan taşırma. `devletler_harita.js` her devletin
 // dönem gövdesini (dnm[].ft, MultiPolygon) zaten taşıyor — ayrı bir bbox
@@ -1511,6 +1662,41 @@ harita.on("load", function () {
     paint: { "line-color": ["get", "renk"], "line-width": 1.4,
              "line-dasharray": [3, 2] } });
 
+  // ═══ GÜVEN KUŞAKLARI — KITA 12 PROTOTİPİ (bkz. yukarıdaki fonksiyon
+  // bloğu, satır ~440). Bütün katmanlar başlangıçta GİZLİ — yalnız
+  // `window.guvenAc(devletId, stil)` çağrıldığında görünür olur; varsayılan
+  // haritayı hiçbir şekilde etkilemez. `devlet`/`vassal`/`osmanli`
+  // dolgularının ÜSTÜNE eklendiği için (bu satırlar onlardan SONRA) örtü
+  // her zaman görünür kalır.
+  guvenDesenKur();
+  harita.addSource("guven-orta", agirKaynak());    // annulus 50-100 km
+  harita.addSource("guven-dusuk", agirKaynak());   // annulus 100-200 km
+  // STİL 1 — SOLUK: yarı saydam beyaz dolgu, dışa doğru katmerlenerek koyulaşır
+  harita.addLayer({ id: "guven-orta-dolgu", type: "fill", source: "guven-orta",
+    layout: { visibility: "none" },
+    paint: { "fill-color": "#ffffff", "fill-opacity": 0.22 } });
+  harita.addLayer({ id: "guven-dusuk-dolgu", type: "fill", source: "guven-dusuk",
+    layout: { visibility: "none" },
+    paint: { "fill-color": "#ffffff", "fill-opacity": 0.42 } });
+  // STİL 2 — TARALI: köşegen çizgi deseni, dışa doğru sıklaşan opaklık
+  harita.addLayer({ id: "guven-orta-tarali", type: "fill", source: "guven-orta",
+    layout: { visibility: "none" },
+    paint: { "fill-pattern": "guven-tarali", "fill-opacity": 0.55 } });
+  harita.addLayer({ id: "guven-dusuk-tarali", type: "fill", source: "guven-dusuk",
+    layout: { visibility: "none" },
+    paint: { "fill-pattern": "guven-tarali", "fill-opacity": 1 } });
+  // STİL 3 — KESİKLİ KENAR: annulus kaynağının HEM dış hem iç halkası
+  // (poligonun iki halkası) çizgi olarak basılır ⇒ 100 km ve 200 km
+  // sınırları otomatik olarak KESİKLİ çizgiyle görünür, ayrı kaynak gerekmez.
+  harita.addLayer({ id: "guven-kenar-100", type: "line", source: "guven-orta",
+    layout: { visibility: "none", "line-join": "round" },
+    paint: { "line-color": "#ffffff", "line-width": 1.6,
+             "line-dasharray": [2, 2], "line-opacity": 0.9 } });
+  harita.addLayer({ id: "guven-kenar-200", type: "line", source: "guven-dusuk",
+    layout: { visibility: "none", "line-join": "round" },
+    paint: { "line-color": "#ffffff", "line-width": 1.2,
+             "line-dasharray": [1, 3], "line-opacity": 0.8 } });
+
   // ---------- BOŞLUĞUN CİNSİ — ARAYÜZ BOŞLUK CİNSİ görevi (15 Ağustos 2026) ----------
   // Emre: "Câlû'nun çevresinde bir devletin ya da devletsiz aşiret yapılarının
   // alanı var ise bunu ayrı bir renk ve işaretleme tekniği ile gösterelim.
@@ -1743,6 +1929,17 @@ harita.on("load", function () {
 
   haritaHazir = true;
   aktifDonem = -1;
+
+  // GÜVEN KUŞAKLARI (KITA 12 prototipi) — ekran görüntüsü almayı kolaylaştırmak
+  // için URL'den de açılabilir: ?guven=osmanli&guvenstil=2
+  try {
+    var _gp = new URLSearchParams(window.location.search);
+    if (_gp.get("guven")) {
+      GUVEN_ODAK_DEVLET = _gp.get("guven");
+      GUVEN_STIL = parseInt(_gp.get("guvenstil"), 10) || 1;
+      guvenStilUygula();
+    }
+  } catch (e) { /* eski tarayıcı ya da param yok — sessizce geç */ }
 
   // p2/H-0024 — bölge parlama mekanizması (yalnız mekanizma; simge YOK).
   // Tıklanan noktanın hangi AKTİF bölgeye düştüğü `noktaIcinde` ile elle
@@ -5563,6 +5760,10 @@ function guncelle() {
   // DOĞRU çalışıyordu, çizim zinciri DOĞRU çalışıyordu — kusur, kırpmanın
   // ihtiyacı olmayan bir zinciri çağırmasındaydı.
   agirOlc("devletGuncelle", function () { devletGuncelle(suanki); });
+  // GÜVEN KUŞAKLARI (KITA 12 prototipi) — GUVEN_ODAK_DEVLET boşken fonksiyon
+  // hemen çıkar (bkz. tanım, satır ~440), yani varsayılan durumda bu satırın
+  // maliyeti bir `if` kadardır.
+  agirOlc("guvenKusaklariGuncelle", function () { guvenKusaklariGuncelle(suanki); });
   if (!_kirpmaKilitli) {
     agirOlc("sehirGuncelle", function () { sehirGuncelle(suanki); });
     agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
@@ -9077,56 +9278,21 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
 guncelle();
 
 // ═══════════════════════════════════════════════════════════════════════
-// 0024/H-0010 — kullanıcı: "'Hakkında' menüsü olsun, koşu ve yayın tarihi
-// gibi bilgiler olsun."
-//
-// 🔴 EN ÖNEMLİ ÖLÇÜM: bu buton zaten VARDI ve Emre'nin KENDİ isteğiyle
-// silindi (index.html'in kendi notu: "Hakkında butonuna artık gerek yok.
-// Buradaki butonları tek bir 'butonları aç' butonuna tıklayınca dizilecek
-// şekilde saklayalım."). Silinen "Hakkında" proje künyesi + BEKLEYENLER
-// tablosuydu (iç işleyiş) — AYNI AD, BAŞKA İÇERİK. Bugün istenen yalnız
-// SÜRÜM BİLGİSİ (koşu + yayın tarihi). ⇒ Eski ağır modalı GERİ GETİRMEK
-// Emre'nin reddettiği şeyi geri getirmek olurdu — o yüzden burada YENİ
-// bir modal/menü YOK, yalnız haritanın kendi boş köşesine (MapLibre'nin
-// hiç kullanmadığı `bottom-left` kontrol yuvası, ölçüldü: 0×0, boş)
-// tıklama gerektirmeyen, küçük, sabit bir etiket ekleniyor.
-//
-// VERİ ZATEN ÜRETİLİYOR, İCAT EDİLMEDİ:
-//   sürüm     — bu betiğin kendi `<script src="js/app.js?v=rNN">` etiketi
-//   yayın     — `data/donemler.js`nin HTTP Last-Modified'ı (koşu SONUNDA
-//               bu dosyayı yazan üretim betiğinin damgası, CLAUDE.md §9)
-// ⚠️ ÖLÇMEDİM: GitHub Pages'in (Fastly CDN) Last-Modified başlığını
-// production'da BİREBİR git-commit tarihiyle verip vermediğini — yerelde
-// (bu sunucu) veriyor, orada varsayım. Vermezse etiket sessizce sürüm
-// numarasını gösterir, tarihi boş bırakır (aşağıdaki catch) — çökmez.
-(function surumEtiketiKur() {
-  var kaynakSrc = (document.currentScript && document.currentScript.src) || "";
-  var m = /[?&]v=([^&]+)/.exec(kaynakSrc);
-  var surum = m ? m[1] : "";
-  var el = document.createElement("div");
-  el.id = "surum-etiketi";
-  el.textContent = surum ? surum : "…";
-  el.title = "Osmanlı Tarih Atlası" + (surum ? " · sürüm " + surum : "");
-  var kontrolYuvasi = document.createElement("div");
-  kontrolYuvasi.className = "maplibregl-ctrl";
-  kontrolYuvasi.appendChild(el);
-  harita.addControl({
-    onAdd: function () { return kontrolYuvasi; },
-    onRemove: function () {}
-  }, "bottom-left");
-
-  var AY_KISA = ["Oca", "Şub", "Mar", "Nis", "May", "Haz",
-                 "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"];
-  fetch("data/donemler.js", { method: "HEAD" }).then(function (r) {
-    var lm = r.headers.get("last-modified");
-    if (!lm) return;
-    var d = new Date(lm);
-    if (isNaN(d.getTime())) return;
-    var okunur = d.getDate() + " " + AY_KISA[d.getMonth()] + " " + d.getFullYear();
-    el.textContent += " · " + okunur;
-    el.title += " · yayın (data/donemler.js üretimi): " + d.toLocaleString("tr-TR");
-  }).catch(function () { /* sessizce sürüm-yalnız kalır, çökmez */ });
-})();
+// 🪦 SOL ALT SÜRÜM DAMGASI KALDIRILDI — 12 Eylül 2026, Emre: "sol alttaki
+// damgayı, yayın damgasını kaldıralım, oraya yazmaya gerek yok." (tahta
+// M-3550, KITA 12 uyguladı.) Burada `surumEtiketiKur()` adıyla bir
+// `harita.addControl(..., "bottom-left")` kontrolü duruyordu; `el.id =
+// "surum-etiketi"` header'daki AYNI id'li `<span>` (index.html:146) ile
+// ÇAKIŞIYORDU — `§7`nin ad alanı dersinin DOM yüzü, iki ayrı dosya AYNI
+// id'yi paylaşınca `getElementById` hangisi DOM'da önce gelirse onu
+// döndürür. Header'daki span KALDI (Emre yalnız sol alttakini istedi,
+// bkz. js/app.js:5614 civarı); tek `id` sahibi kalınca o artık doğru
+// elemanı buluyor. `?v=rNN` önbellek kırıcısı ETKİLENMEDİ — o
+// `index.html`in kendi `<script src=...>` etiketinde, ekrana hiç
+// yazılmıyordu zaten.
+// Kaldırılan blok VERİ ÜRETMİYORDU (yalnız GÖSTERİYORDU) — `arac/
+// surum_damgala.py` ve koşu/yayın tarihi mekanizması bu satırdan
+// TAMAMEN bağımsız, hiçbir şey bozulmadı.
 
 // ═══════════════════════════════════════════════════════════════════════════
 // KATMAN SEÇİCİ — 4 Eylül 2026, Emre'nin isteği

@@ -2197,22 +2197,12 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 #harita.cok-uzak .savas-isaret .sv-ad { display: none; }
 #harita.cok-uzak .savas-isaret .sv-ikon { transform: scale(0.72); }
 
-/* 0024/H-0010 — sürüm + yayın tarihi etiketi. Eski "Hakkında" MODALININ
-   yerine DEĞİL (o Emre'nin kendi isteğiyle kaldırıldı, bkz. index.html
-   ve js/app.js notları) — MapLibre'nin hiç kullanmadığı bottom-left
-   kontrol yuvasına oturan, tıklama gerektirmeyen küçük bir etiket.
-   Diğer maplibregl-ctrl kutularıyla (üstteki yakınlaştırma) aynı beyaz
-   kutu görünümünü paylaşıyor ki yabancı bir eklenti gibi durmasın. */
-#surum-etiketi {
-  font-size: 10px;
-  color: #5a5245;
-  background: rgba(255, 255, 255, 0.85);
-  padding: 2px 6px;
-  border-radius: 3px;
-  white-space: nowrap;
-  cursor: default;
-  user-select: text;
-}
+/* 🪦 SOL ALT #surum-etiketi KURALI KALDIRILDI — 12 Eylül 2026 (M-3550,
+   KITA 12). Bu kural `js/app.js`teki `surumEtiketiKur()`ün bottom-left
+   MapLibre kontrolüne aitti; o blok kaldırıldı (bkz. app.js'teki mezar
+   taşı notu). Header'daki `#surum-etiketi` kuralı (yukarıda, ~satır 227)
+   ile AYNI id'yi hedefliyordu — iki kural aynı id için vardı, biri artık
+   karşılıksız kaldığı için silindi; header kuralı DOKUNULMADI. */
 
 /* ═══════════════════════════════════════════════════════════════════════
    KATMAN SEÇİCİ — 4 Eylül 2026, Emre'nin isteği (çoklu seçim)
@@ -2303,4 +2293,26 @@ body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
 .yer-cubuk-sarmal[data-mesafe]::after {
   content: attr(data-mesafe);
   display: block; font-size: 10px; color: #c8861a; margin-top: 3px;
+}
+
+/* ── GÜVEN KUŞAKLARI — KITA 12 PROTOTİPİ (12 Eylül 2026) ──────────────────
+   oturumlar/MENZIL-KARARLARI-0912.md §③. Motor bugün kuşak verisi
+   ÜRETMİYOR — bu banner KUŞ UÇUŞU prototibi ekranda AÇIKÇA işaretler
+   (D176: işaretlenmezse bir sonraki oturum bunu gerçek veri sanır). */
+.guven-banner {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  background: rgba(178, 24, 24, 0.94);
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font: 600 12.5px/1.4 -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: 0.2px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.45);
+  pointer-events: none;
+  white-space: nowrap;
 }
