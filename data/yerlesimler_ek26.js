@@ -93,7 +93,24 @@ window.YERLESIMLER_EK26 = [
   d:[], v:[] },
 
 // ───────── İRAN HATTI · Kasr-ı Şirin (1639) çizgisi ─────────
-{ ad:"Doğubayazıt",neden:"akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyordu ve BAŞLAMAYA DEVAM EDİYOR — Osmanlı kırılması korundu.",kaynak:"ankraj Van (117 km) · Erciş — külliyattaki zincir", tur:"kale", lat:39.548, lon:44.084, g:0, k:3, m:"Erzurum",
+// 🔴 KAYNAK DÜZELTİLDİ — KITA 13, 12 Eylül 2026 (paket 0043 / H-0018).
+//    ESKİ BEYAN: kaynak:"ankraj Van (117 km) · Erciş — külliyattaki zincir"
+//    O beyan KENDİNİ ÇÜRÜTÜYORDU: dayanak gösterilen Van'ın `d:`si
+//    **1548-08-25**, yani iddia edilen günden OTUZ DÖRT YIL SONRA.
+//    Bir kaydın dayanağı, kaydın iddiasından sonrayı gösteremez (`D144`:
+//    beyan edilen kaynak iddiayı taşımıyor olabilir — burada taşımıyordu).
+// 🟢 GERÇEK KAYNAK BULUNDU ve YIL DOĞRULANDI: TDV `dogubayazit` (200,
+//    gövde 14.416 kr, okundu) — "…yüzyılın sonlarına doğru Safevîler'in
+//    eline geçen Bayazıt, **1514'te Yavuz Sultan Selim tarafından Osmanlı
+//    topraklarına katıldı**." ⇒ 1514 YILI KAYNAKLI, uydurma değil.
+// ⚠️ AMA GÜN HÂLÂ KAYNAKSIZ ve bu AÇIKÇA yazılıyor (`§4`: künyenin/
+//    verinin günü bir KAYNAK DEĞİLDİR): `1514-09-06` Tebriz'e girilen
+//    gündür ve külliyatta 19 kayıt onu paylaşır. TDV gün vermiyor;
+//    "1514" diyor. Gün İÇ KAYNAKLIDIR, DEVRALINMIŞTIR (`D084`) ve
+//    değiştirilmedi — çünkü `1514-01-01` yazmak Çaldıran'dan (1514-08-23)
+//    ÖNCEYE düşerdi, yani daha kaba bir tarih DAHA YANLIŞ olurdu.
+// 📌 Bu düzeltme TARİHE DOKUNMAZ, yalnız DAYANAĞI doğru gösterir.
+{ ad:"Doğubayazıt",neden:"akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyor ve KORUNDU: TDV yılı (1514) doğruluyor, günü vermiyor. Gün külliyat içi devralmadır, kaynak DEĞİLDİR — açıkça damgalandı.",kaynak:"TDV `dogubayazit` — 1514 YILI kaynaklı: \"1514'te Yavuz Sultan Selim tarafından Osmanlı topraklarına katıldı\". GÜN kaynaksız: 1514-09-06 külliyat içi (Tebriz'e giriş günü, 19 kayıt paylaşıyor).", tur:"kale", lat:39.548, lon:44.084, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1514-09-06",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1514-09-06",t:"1920-04-23"}], v:[] },
 

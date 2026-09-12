@@ -546,6 +546,33 @@ window.SEFERLER = [
 { ad:"Turahan Bey'in Mora seferi (1423) — Hexamilion'un yıkılışı", tur:"akin", sonuc:"zafer",
   f:"1423-05-01", t:"1423-06-30",
   yol:[[22.42,39.64],[22.88,38.44],[23.05,38.02],[22.93,37.94],[22.38,37.51]] },
+// KITA 15 — parti-emrelic-0043/H-0006 (Emre: "niş ve sofyayı geçip İzladi'ye
+// dayanan bir ordu var, niş sofya elden çıkmış görünmüyor"). D030 gereği atlas
+// SEFERİ değil TASARRUFU boyar — Niş/Sofya 1443'te veride doğru biçimde Osmanlı
+// kalıyor (bir ordunun geçmesi el değiştirme değildir); eksik olan bu seferin
+// kendisiydi, `SEFERLER`de 1443 kaydı yoktu (61 kayıt tarandı, yok).
+// Kaynak TDV `murad-ii`, gövde okundu: "Receb 847 (Ekim 1443)'de Yanko
+// [Hunyadi], Sırp ve Macar kuvvetleriyle Tuna'yı geçti, Rumeli kuvvetlerini
+// yenip Niş ve Sofya'yı ele geçirdi, son Balkan geçitlerine ilerledi" ·
+// "1 Şâban 847 (24 Kasım 1443)'te II. Murad Haçlıları İzlâdi (Zlatitsa)
+// Geçidi'nde durdurdu." Gün TDV'de yalnız İzlâdi için var (24 Kasım); Tuna
+// geçişi ay hassasiyetinde (Ekim/Receb) ⇒ f: ayın 1'i (§4). TDV `izladi`
+// (gövde okundu) aynı olayı teyit ediyor: "İzlâdi Derbendi'nde yapılan
+// savaşta II. Murad'ın kuvvetleri bozguna uğrayarak geri çekilmiş, fakat
+// Haçlı kuvvetleri kış şartları yüzünden geri dönmüştür" — TAKTİK yenilgi,
+// STRATEJİK olarak Haçlı seferi amacına (Edirne/Meriç vadisi) ulaşamadan
+// bitti ⇒ sonuc: belirsiz (Osmanlı açısından ne net zafer ne net yenilgi).
+// Güzergâh (Tuna geçişi~Belgrad → Niş → Sofya → İzladi) `savaslar.js`teki
+// komşu kayıtların (Belgrad kuşatması, Niğbolu seferi) aynı noktalarıyla
+// hizalandı; İzladi'nin kendi koordinatı yok (bu dosyada ilk kez), gerçek
+// coğrafi konumundan alındı (Zlatitsa, 42,71K/24,14D).
+// Kronoloji tarafında zaten madde var (dokunulmadı, başka oturumun işi):
+// olaylar*.js "Uzun Sefer'in başlaması" (1443-01-01, Belgrad) ve "İzladi
+// bozgunu — Uzun Sefer" (1443-11-01, Niş) — bu SEFERLER kaydı onları
+// haritada bir güzergâh/ok olarak tamamlıyor, çelişmiyor.
+{ ad:"Uzun Sefer (1443) — Niş-Sofya-İzladi seferi", tur:"sefer", sonuc:"belirsiz", taraf:"dusman", renk:"#1f5fa8",
+  f:"1443-10-01", t:"1443-11-24",
+  yol:[[20.46,44.82],[21.90,43.32],[23.32,42.70],[24.14,42.71]] },
 { ad:"Varna Haçlı seferi (1444)", tur:"sefer", sonuc:"zafer", taraf:"dusman", renk:"#1f5fa8",
   f:"1444-09-20", t:"1444-11-10",
   yol:[[19.04,47.50],[20.46,44.82],[22.88,43.99],[24.90,43.71],[26.93,43.27],[27.92,43.21]] },
@@ -597,12 +624,22 @@ window.SEFERLER = [
   yol:[[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[21.33,43.58],[20.93,44.66],[20.46,44.82]] },
 { ad:"Otranto çıkarması (1480)", tur:"deniz", sonuc:"belirsiz",    f:"1480-06-01", t:"1481-02-01", yol:[[19.44,40.45],[18.9,40.2],[18.49,40.15]] },
 // Anadolu Orta Kol: Üsküdar-Bolu-Tosya-Amasya-Tokat-Sivas-Erzincan-Erzurum-Eleşkirt.
-{ ad:"Çaldıran seferi (1514)", tur:"sefer", sonuc:"zafer",      f:"1514-04-20", t:"1514-10-01",
+// KITA 15 — f: DÜZELTİLDİ (M-3599/M-tahta karar: eski gün kaynaksızdı, 31
+// gün sapıyordu). TDV `selim-i` (gövde okundu): "Edirne'den İran seferi
+// için yola çıktı (23 Muharrem 920 / 20 Mart 1514)." Aynı gün zaten
+// data/olaylar_p0043b.js'te bir kronoloji maddesi olarak da var.
+{ ad:"Çaldıran seferi (1514)", tur:"sefer", sonuc:"zafer",      f:"1514-03-20", t:"1514-10-01",
+  kaynak:"selim-i (TDV): \"Edirne'den İran seferi için yola çıktı (23 Muharrem 920 / 20 Mart 1514).\"",
   yol:[[26.56,41.68],[29.02,41.02],[31.61,40.74],[34.04,41.02],[35.83,40.65],[36.55,40.31],
        [37.02,39.75],[39.49,39.75],[41.27,39.90],[42.67,39.62],[43.91,39.09]] },
 // Sefer önce Safevî cephesine hazırlandığı için Sivas-Kayseri-Elbistan hattından
 // indi, Mercidabık'tan sonra Şam-Gazze menziliyle Ridaniye'ye ulaştı.
-{ ad:"Mısır seferi (1516-17)", tur:"sefer", sonuc:"zafer",      f:"1516-08-01", t:"1517-02-22",
+// KITA 15 — f: DÜZELTİLDİ (57 gün sapıyordu, kaynaksızdı). TDV `selim-i`
+// (gövde okundu): "Sinan Paşa'nın hareketinden beş hafta sonra Memlük
+// sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da
+// İstanbul'dan hareket etti." Aynı olay data/olaylar_ek5.js:154'te de var.
+{ ad:"Mısır seferi (1516-17)", tur:"sefer", sonuc:"zafer",      f:"1516-06-05", t:"1517-02-22",
+  kaynak:"selim-i (TDV): \"Sinan Paşa'nın hareketinden beş hafta sonra Memlük sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da İstanbul'dan hareket etti.\"",
   yol:[[29.02,41.02],[37.02,39.75],[35.48,38.73],[37.20,38.21],[37.38,37.07],[37.15,36.68],
        [37.16,36.20],[36.75,35.13],[36.29,33.51],[34.47,31.50],[31.28,30.06]] },
 { ad:"Rodos seferi (1522)", tur:"kusatma", sonuc:"zafer",         f:"1522-06-01", t:"1523-01-05",
