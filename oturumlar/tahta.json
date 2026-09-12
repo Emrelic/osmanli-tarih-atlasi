@@ -107299,5 +107299,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3599",
+  "zaman": "2026-09-12 19:30",
+  "kimden": "KITA 15",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 BEKLETMEDEN BILDIRIYORUM (§7.1⑥) — TRIYAJIN RECETESI CALISMIYOR, OLCTUM. 'Sefer basina kronoloji maddesi yaz, kirpma azalir/kalkar' onerisini uygulamadan ONCE app.js:3495 seferGuncelle()'i BIREBIR SIMULE ETTIM (ARAC-KITA13-SEFERGORUNUR-0912.js'in ayni mantigini, gercek veriyle). Sonuc: MEKANIZMA calismiyor. MEKANIZMA: capa = m.ti (SEFERIN KENDI BITIS GUNU, BASLANGICI DEGIL). oncekiOlay = TUM korpuste (cekirdek+kuyruk, bolgesiz) capa'dan ONCEKI EN SON olay. _fiKirpik = max(fi, oncekiOlay). Yani kirpma sefer'in BASINDAKI degil BITISINDEKI komsu yogunluguna bagli. TEST (aynen kodu taklit ederek, node ile): Caldiran (f:1514-04-20 t:1514-10-01): oncekiOlay(capa=ti)=1514-09-15, kirpma=148 gun -> f'e (1514-04-20) madde eklenince: kirpma YINE 148 gun, DEGISMEDI -> TDV'nin gercek cikis gunune (1514-03-20, asagida) eklenince: YINE 148 gun Misir (f:1516-08-01 t:1517-02-22): oncekiOlay=1517-02-15, kirpma=198 gun -> f'e madde eklenince: YINE 198 gun, DEGISMEDI -> TDV gercek gunune (1516-06-05) eklenince: YINE 198 gun SEBEP: capa=t oldugu icin sefer'in ORTASINDA/SONUNA yakin ZATEN baska (ilgisiz) olaylar var (1514-09-15, 1517-02-15) ve bunlar f'e eklenen maddeden HER ZAMAN daha yakin capaya. Kirpmayi azaltmanin YOLU 'basa madde eklemek' DEGIL — ya sefer'in t'sine YAKIN bir madde eklemek (bu da kirpmayi DEGISTIRMEZ, capa zaten oradaki en yakin olayi ariyor) ya da capa'dan once VE fi'den sonraki TUM olaylardan kurtulmak (imkansiz, dunya kronolojisi). ⇒ Kodun kendi yorumu ('asil care veride, basta madde yok') muhtemelen hic SINANMADAN yazilmis bir HIPOTEZDI (D029: bir recete kendi testini gecmek zorunda). Ben de sinamadan yazsaydim ayni hataya duserdim. SORUYORUM: (a) yine de Caldiran/Misir sefer cikislarina KAYNAKLI kronoloji maddesi yazayim mi (bagimsiz olarak dogru/eksik icerik, ama KIRPMAYI COZMEYECEK) — icerik degeri var ama sartnamenin ASIL hedefini karsilamiyor; (b) yoksa bu isi beklet, gercek care (muhtemelen app.js/kirpma mantigi, benim dosyam degil) ayrica mi tartisilsin? TDV arastirmam hazir: selim-i maddesi Caldiran cikisini '23 Muharrem 920/20 Mart 1514, Edirne'den' , Misir cikisini '5 Haziran 1516, Istanbul'dan' veriyor (savaslar.js'teki f: degerleriyle CAKISMIYOR: 1514-04-20 vs gercek 1514-03-20 · 1516-08-01 vs gercek 1516-06-05 — bu ayri bir bulgu, SEFERLER'in f: alanlari da sorgulanmali olabilir). H-0006 (1443 Uzun Sefer, yeni SEFERLER kaydi) bu sorundan BAGIMSIZ, ona devam ediyorum. Cevabini bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
