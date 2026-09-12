@@ -1,0 +1,71 @@
+{
+  "oturum": "KITA 18",
+  "oturum_kimlik": "local_51c63067-51c9-4ea3-aa3e-ec9e8fc4c566",
+  "gorev": "M-3592 IS-7 / ARASTIRMA-1 (parti-emrelic-0043) — H-0003 · H-0009",
+  "tarih": "2026-09-12",
+  "uyari": "Bu dosya HUKUM DEGILDIR — arastirma bulgusu + ONERI. Veri yazimi YAPILMADI (data/ ve arac/ dokunulmadi). Karar 1.MURAT'in.",
+  "ongoru_karnesi": [
+    {
+      "no": 1,
+      "ongoru": "TDV `kirim` maddesi, Nogay bozkir ulaslarinin hana tabiligini DOGRUDAN idare olarak degil GEVSEK bir baglilik olarak tarif edecek.",
+      "yazildigi_an": "TDV fetch'inden ONCE, yerel veri taramasi bittikten sonra",
+      "sonuc": "TUTTU",
+      "kanit": "TDV kirim: \"Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek Kırım için çok tehlikeli olmuşlardır.\""
+    },
+    {
+      "no": 2,
+      "ongoru": "TDV `anapa` maddesi, kalenin 1781'de OSMANLI tarafindan (Kirim Hanligi degil) dogrudan insa edildigini soyleyecek.",
+      "yazildigi_an": "TDV fetch'inden once",
+      "sonuc": "TUTTU",
+      "kanit": "TDV anapa: \"Osmanlılar, 1781'de Anapa burnuna kale inşasına karar verdiler\" — Ferah Ali Paşa yönetiminde."
+    },
+    {
+      "no": 3,
+      "ongoru": "Kirim'in kendi tabiligi (Osmanli'ya) da 'kesin bir vesika' ile degil orfi/fiili bir hamilik iliskisiyle tarif edilecek.",
+      "yazildigi_an": "TDV fetch'inden once, tahmin duzeyi dusuk (mevcut CLAUDE.md '§3 en yakin vassal' cumlesiyle CELISEBILIR diye ayrica isaretlendi)",
+      "sonuc": "TUTTU — ve beklenenden GUCLU cikti",
+      "kanit": "TDV kirim: \"Umumiyetle iddia edildiği şekilde bir tâbiiyet vesikası mevcut olmamakla beraber\" — yani resmi/yazili bir tabilik belgesi TDV'ye gore YOKTUR; iliski fiilen himaye/dostluk-dusmanlik ortakligi bicimindedir (Ahmed Pasa antlasmasi: \"han padişahın dostuna dost, düşmanına düşman olmayı ve onun hâmiliğini kabul etti\")."
+    }
+  ],
+  "olculmemis_yeni_bulgu": {
+    "konu": "Anapa'nin d: donemi 1791-1792 Rus isgalini atliyor",
+    "mevcut_veri": "data/yerlesimler.js:532 — Anapa d:[{f:\"1781-01-01\",t:\"1829-09-14\"}] KESINTISIZ",
+    "tdv_kaniti": "TDV anapa: \"Savaş süresince Ruslar tarafından üç defa kuşatılan Anapa üçüncü kuşatma sonunda 26 Temmuz 1791'de işgal edildi\" ... \"Yaş Antlaşması [1792] ile ... Osmanlı Devleti'ne geri verildi\"",
+    "boyut": "~5.5 ay (1791-07-26 → 1792-01-09 civari, Yas Antlasmasinin atlastaki gunu)",
+    "ikinci_kucuk_bulgu": "1828-06-24 Osman Pasa'nin fiili teslimi ile 1829-09-14 Edirne Antlasmasi'nin hukuki devri arasinda ~15 aylik fiili/hukuki fark var (ayni desen Kefe'nin 1771-1774 isg: alaninda zaten VAR); Anapa'da bu ayrim su an isg: ile de yakalanmiyor.",
+    "durum": "OLCULDU, YAZILMADI — veri yazma yetkim yok (IS-7 arastirma statusunde). Onerilen bicim: mevcut Kefe orneginin AYNISI (bkz data/yerlesimler.js:508) — d: dizisine 1791-07-26/1792-01-09 arasi bir 's:' kirilmasi eklemek YA DA 'isg:' alanini TERS yonde (rusya'nin KISA sureli isgali) kullanmak. Karar veri sahibine ait."
+  },
+  "alti_alt_soru_cevaplari": {
+    "1_bozkir_dogrudan_mi_tabi_kabile_mi": {
+      "cevap": "TABI KABILE — ve GEVSEK tabi. Ne hanligin kendi topragi (Bahcesaray gibi v: DEGIL cunku Nogaylar hanin degil kabile beylerinin/mirzalarinin yonetimindeydi) ne de bagimsiz bir devlet.",
+      "kaynak": "TDV kirim + TDV nogaylar (repo icinde onceden okunmus: \"Yedisan, Camboyluk, Bucak ve Kuban Nogayları Kırım Hanlığı denetiminde\") + TDV giray (\"Serasker sultan unvanıyla Giray sultanlara ... Kuban, Bucak ve Yedisan'ın idaresi de bırakılmıştı\")",
+      "model_sonucu": "Atlasin uc kovali semasi (d: dogrudan / v: tek-devlete-bagli-tabi / s: yabanci-devlet) bu ikinci-kademe tabiligi (Nogay -> Giray/Kirim -> Osmanli) IFADE EDEMIYOR. Mevcut veri (yerlesimler_ek_bozkir.js) bunu s:{d:\"kirim\"} ile YAKLASIK olarak kirim'in kendi topragiymis gibi gosteriyor — D089 anlaminda bir yaklasiklama, hukumsuz DEGIL ama nuansi kaybediyor."
+    },
+    "2_taman_kerc_anapa_hanligin_mi_osmanlinin_mi": {
+      "cevap": "Taman ve Kerc: DOGRUDAN OSMANLI (Kefe sancaginin kazalari) — veride ZATEN DOGRU (d: 1475/1482-1774). Anapa: 1441-1781 Kirim'in (dolayisiyla Osmanli'nin dolayli) nufuz alani, 1781'den itibaren DOGRUDAN Osmanli kalesi (Ferah Ali Pasa) — veride ZATEN DOGRU YONDE ama 1791-92 Rus isgali eksik (yukariya bkz).",
+      "kaynak": "TDV anapa (yeni okundu) + repo icinde onceden okunmus TDV kefe (\"beş kazayı sayıyor — Mangub · Suğdak · Kerç · Azak · Taman\")"
+    },
+    "3_cerkes_kabartay_hangi_tarihten_kimin": {
+      "cevap": "Zaten devletler.js `kabartay` kaydinda (7229-7233. satirlar) ayrintili ve TDV kaynakli cevaplanmis: kurulus tarihi YOK/uydurulmadi, 1739 Belgrad'da TARAFSIZ ilan edildi, 1774 Kucuk Kaynarca md.21 ile Rusya'ya birakildi. Bu arastirmanin ekleyecegi yeni bir seyi YOK — mevcut kayit saglam."
+    }
+  },
+  "arayuz_borcu_olcumu": {
+    "soru": "bos: alani kac kayitta dolu, hangi degerler, js/app.js okuyor mu?",
+    "bos_alani_canli_dosyalardaki_toplam": 348,
+    "olcum_yontemi": "arac/girdi.py GIRDI_DOSYALARI listesindeki 78 canli dosyada regex bos:\"[a-z-]*\" — triyajin soyledigi 361 rakamindan 13 eksik; fark muhtemelen olu/orphan dosyalarin da sayilmis olmasi (D005/§5 canlilik dersi)",
+    "deger_dagilimi": { "devletsiz": 157, "kabile": 154, "veri-yok": 53, "insansiz": 10, "hata": 7 },
+    "js_app_js_okuyor_mu": "HAYIR — js/app.js icinde .bos property erisimi SIFIR (grep dogrulandi). js/app.js'in ictigi tek 'bosluk' verisi TAMAMEN AYRI bir dosya: data/bos_alanlar.js (window.BOS_ALANLAR + window.BOS_CINSLER, 232 kayit, kendi cins/gosterim semasiyla).",
+    "iki_ayri_mekanizma_uyarisi": "AYNI KELIME ('bos') IKI AYRI SEYI ANLATIYOR (D124 sinifi): (1) yerlesim NOKTA kaydinin gomulu bos: alani — yazili ama HICBIR YERDE render edilmiyor; (2) data/bos_alanlar.js'in elle tutulan PARALEL listesi — render EDILIYOR ama yerlesimler*.js'teki bos: kayitlariyla OTOMATIK SENKRON DEGIL (orn. Tibesti/Hoggar/Karakum HER IKI dosyada da elle ayri ayri girilmis).",
+    "kirim_bozkirina_ozel_sonuc": "yerlesimler_ek_bozkir.js (Yedisan/Kuban Nogay/Stavropol-Kuma) bos: alanini HIC KULLANMIYOR — sadece s:{d:kirim} kullaniyor, yani zaten PETEK ustunden CIZILIYOR (arayuz borcu bu UC KAYDI dogrudan etkilemiyor). Eger oneri 'bos:\"kabile\" yaz' yonunde olursa, bu arayuz borcuna CARPAR ve haritada GORUNMEZ kalir (M-3592'nin uyardigi tam senaryo) — cunku hem embedded bos: okunmuyor HEM DE bu kayitlar zaten birer PETEK sahibi nokta, bos_alanlar.js'in beklentisi olan 'petek disi glif' degil."
+  },
+  "oneri_karar_degil": {
+    "A_statukoyu_koru": "s:{d:\"kirim\"} kalsin (bugun zaten cizilior). Eksigi: 'gevsek tabi' nuansini kaybediyor, Nogay bozkirini Kirim'in kendi topraklariyla ayni renkte gosteriyor.",
+    "B_ikinci_kademe_tabilik_semasi": "v: semasina zincirli tabilik eklensin (orn. kid:\"kirim\" olan bir kayit kirim'in kendisinin de ust:\"osmanli\" tabiligini miras alsin) — bu bir SEMA/MOTOR degisikligi, arastirma oturumunun yetkisi disinda, KOORDINATOR karari gerektirir.",
+    "C_bos_kabile_yaz": "VERI-YAPISI.md'nin de belirttigi gibi teknik olarak MUMKUN (Tibesti/Hoggar emsali) AMA su an js/app.js tarafindan RENDER EDILMEZ (yukaridaki arayuz borcu) VE Nogay bozkirinin gercek tarihini (gercek, surekli olmasa da bir siyasi bag vardi) Sahra/Tibesti gibi 'hicbir devlet hic ulasmadi' sinifiyla ayni kefeye koyar — TARIHSEL OLARAK YANLIS ESLESME.",
+    "kita_18_onerisi": "A (statukoyu koru) + neden: alanina TDV kirim alintisi eklensin ('gevsek tabi') — en ucuz, model degisikligi gerektirmeyen, ve mevcut dogrulugu KORUYAN secenek. B, gercek/tam cozum ama motor/sema karari ister."
+  },
+  "olculemedi_damgali": [
+    "H-0007(a) Gurcistan'in 15. yy'da Karakoyunlu'ya baglanip baglanmadigi SORUSU — hangi spesifik yerlesim kaydi/kirilma kastediliyor bilinmiyor (M-3592'nin bana gelen detayli gorev metninde bu kalem ACILMADI, sadece paket-duzeyi triyaj listesinde IS-7 baslığı altinda gorunuyor). OKUNMADI/ARANMADI — kapsam belirsizligi asagida bildirildi.",
+    "renk_olc.py / uret_petek.py'nin s: vs v: donemlerini haritada TAM OLARAK nasil renklendirdigi (acik/koyu ton farki) — arac/ bana kapali, motor kosturmadan olculemedi."
+  ]
+}
