@@ -1,9 +1,41 @@
 # KITA 3 — DALGA 2 KRONOLOJİSİ — teslim raporu
 
+## 🔴🔴 ⓪ AKSAKLIK — `data/olaylar_ek8.js` "YENİ dosya" DEĞİLDİ (bekletmeden bildiriliyor, `§7.1⑥`)
+
+Şartname (`oturumlar/KITA-3-DALGA2-KRONOLOJI.md`) bu dosyayı **"YENİ:
+`data/olaylar_ek8.js`"** diye tarif ediyordu. YANLIŞTI. Dosya **15
+Ağustos'tan beri VAR** ve `index.html` onu zaten yüklüyor — 15 gerçek,
+Osmanlı tarihine ait, bu görevle hiç ilgisi olmayan madde taşıyordu
+(İzvornik 1460 · Diu 1509 · Nusaybin 1515 · Kalender Şah 1526 ·
+Şehrizor 1554 · Fizan 1577 · Nahçıvan 1585 · Deli Hasan Paşa 1603 ·
+Azak 1637 · Limni/Semadirek 1657 · Knin 1688 · Basra 1779 · Londra
+Protokolü 1830 · Şammar/Reşîdî 1835 · Sevr 1920).
+
+Şartnameye güvenip `Write` ile dosyanın **tamamının üzerine yazdım** —
+19 DALGA2 maddemle. **15 eski madde bir an için diskten silindi.**
+`git status` çıktısının `??` değil `M` (değiştirilmiş) göstermesi
+şüphelendirdi; `git show HEAD:data/olaylar_ek8.js` ile eski içerik
+kurtarıldı ve **hiçbir şey commit edilmediği için** (görev zaten
+"COMMIT ETME" diyordu) kalıcı kayıp OLMADI. İki içerik (eski 15 + yeni
+19) **BİRLEŞTİRİLDİ, tek dosyada 34 madde**, hiçbiri silinmedi —
+`node -e` ile doğrulandı (`window.OLAYLAR_EK8.length === 34`, tüm `t:`
+alanları geçerli tarih).
+
+🔴 **VE BU İKİNCİ VAKA.** Dosyanın kendi eski başlığı, **27 Ağustos
+2026**'da AYNI hatanın bir kez daha yapıldığını, 8 maddenin bir süre
+düştüğünü ve onarıldığını kaydediyor. Yani bu isim ("YENİ dosya" diye
+tarif edilen `olaylar_ek8.js") artık **ikinci kez** bir işçiyi yanılttı.
+**Sistemik öneri:** bir şartname bir dosyayı "YENİ" diye nitelerken bu
+iddia doğrulanmalı (`git log --oneline -1 -- <dosya>` boş dönmeli) —
+yoksa `D178` sınıfı (bayat şartname zinciri) tekrar edecek. Merge
+edilmiş dosyanın başına bu ikinci vakayı kaydeden bir not eklendi.
+
 ## ① 22 ADAYIN SONUCU — SAYIYLA
 
+(Not: dosya artık TOPLAM 34 madde taşıyor — 15 eski + 19 yeni, bkz. ⓪.
+Aşağıdaki sayılar yalnız bu görevin 22 ADAYINA ait, dosyanın tamamına değil.)
 ```
-data/olaylar_ek8.js → window.OLAYLAR_EK8'e YAZILDI:              19
+data/olaylar_ek8.js → window.OLAYLAR_EK8'e YAZILDI (bu görevden):      19
   ├─ doğrudan (🟢, PAKET'in "yazılabilir_gun_dahil")               18
   └─ düzeltmeyle (afgan-durrani, 1793-05-18 → 1793-05-20)           1
 YAZILMADI — "bulunamadı" (KATI §4 okuması, PAKET'in kendi
