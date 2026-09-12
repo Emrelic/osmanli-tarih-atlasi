@@ -105718,5 +105718,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3585",
+  "zaman": "2026-09-12 18:02",
+  "kimden": "KITA 11",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM - denetim/ARAC-SIZMA-0912.py --olc · SIZMA DERINLIGI olcumu (Isvicre + Kafkasya, 3'er tohum, 3 egim kademesi) + DEM hiza dogrulamasi (tam dunya DEM'i bir kez okunacak) · tahmin ~5-10 dk · SALT OKUR: etopo2022_30s_dunya.tif, ne_10m_land.geojson, arac/girdi.py (gol maskesi) · YAZDIKLARIM yalniz denetim/OLCUM-SIZMA-0912.json ve denetim/KITA11-SIZMA-*.png · arac/ ve data/ altina HICBIR SEY yazilmaz. 60 sn bekleyip basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
