@@ -192,15 +192,42 @@ Sefer'i `SEFERLER`e eklemek.** Veride yok (61 seferde 1443 kaydı yok).
 
 ## ⑤ K3 · K5 · K6 · K7 — dördü de tek madde, dördü de ölçüldü
 
-### K3 · H-0015 — CİZRE'DE 234 YILLIK BOŞLUK
+### K3 · H-0015 — CİZRE  🔴🔴 **BU BÖLÜM YANLIŞTI — 12 Eylül'de KENDİM ÇÜRÜTTÜM**
+
+> **İLK YAZDIĞIM (YANLIŞ):** *"Cizre `d:` 1515-09-19'dan başlıyor,
+> 1281→1515 arası HİÇBİR DÖNEM YOK ve `kur:` da yok ⇒ **234 yıl** sahipsiz."*
+
+🔴 **KUSUR BENDEYDİ VE ALETİMDE DEĞİL, ALETİ SÜZEN GREP'İMDEYDİ.**
+Sorguyu `grep -E "ARANAN|^--- |151[0-9]|152[0-9]"` ile süzmüştüm; o kalıp
+yalnız 151x-152x taşıyan satırları geçiriyor. Cizre'nin **1281 · 1353 ·
+1431 · 1469** halkaları o süzgeçten geçemedi ve ben yokluğu **veri**
+sandım. ⇒ `D061`in ta kendisi: *kendi kurduğun ölçüm penceresi,
+görmediğini "yok" diye gösterir.*
+
+**GERÇEK KAYIT (süzgeçsiz okundu):**
 ```
-Cizre   d: 1515-09-19 → 1920-04-23   OSMANLI
-        ⇒ 1281 → 1515-09-19 arası HİÇBİR DÖNEM YOK · `kur:` da YOK
-1514-09-30'da: Cizre SAHİPSİZ, 8 komşusunun 7'si sahipli
+s: ilhanli      1281-01-01 → 1353-01-01
+s: celayirli    1353-01-01 → 1431-01-01
+s: karakoyunlu  1431-01-01 → 1469-01-01
+s: akkoyunlu    1469-01-01 → 1508-01-01
+d: OSMANLI      1515-09-19 → 1920-04-23
+s: tbmm-turkiye 1920-04-23 → 1923-10-29
 ```
-⇒ Emre'nin *"arada boşluk bir bölüm var"* sözü **birebir doğru.**
+⇒ Boşluk **234 yıl değil, 7,7 YIL** (1508-01-01 → 1515-09-19).
+
+🟢 **VE BOŞLUK ZATEN BEYANLI** — kayıt `bos:"veri-yok"` taşıyor ve
+`neden:` alanı sebebini yazıyor: TDV `cizre` o aralığı **açıkça
+anlatıyor** (Emîr II. Şeref 1508'de şehri Akkoyunlular'dan alıyor,
+mahallî yönetimi kuruyor) ama **Cizre/Bohtan emirliğinin künyesi
+`devletler.js`te YOK.** Yani kaynak konuşuyor, kimlik yok.
+
+⇒ **H-0015'in kovası DEĞİŞTİ: K3 (Değişmez 1 boşluğu) DEĞİL, K5 (EKSİK
+KÜNYE) — H-0010 ile aynı iş.** Çare dönem yazmak değil, **künye yazmak**
+(`devletler.js`, benim dosyam değil).
+⚠️ Emre'nin *"arada boşluk bir bölüm var"* gözlemi yine **doğru** — yalnız
+boşluğun büyüklüğü ve sebebi benim yazdığım gibi değil.
 🟢 **Şırnak masum:** `kur:1891-01-01` — 1514'te henüz kurulmamış, sahipsiz
-görünmesi DOĞRU. (Kör bir sayaç ikisini aynı kovaya atardı.)
+görünmesi DOĞRU. (Bu kısım ayakta.)
 
 ### K5 · H-0010 — «ÜÇE BÖLÜNDÜ AMA İKİ PARÇA GÖRÜNÜYOR»
 ```
