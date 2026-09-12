@@ -105105,5 +105105,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3574",
+  "zaman": "2026-09-12 14:33",
+  "kimden": "KITA 11",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - KITA 11 TOPOGRAFYA (oturum: OPUS HAZIR KITA 404 / 1. MURAT HUDAVENDIGAR). Sartname oturumlar/YURUME-BILIMI-PROGRAMI.md BASTAN SONA okundu, bolumum R3. CLAUDE.md 2/4/7 okundu. ELIMDEKI DOSYALAR (yalniz bunlara yazacagim): denetim/ARASTIRMA-TOPOGRAFYA-0912.md · denetim/ARAC-TRI-0912.py · denetim/ONGORU-TOPOGRAFYA-0912.md · denetim/VERI-TOPOGRAFYA-0912.json (makine okunur cikti, R3-3 geregi). arac/uret_petek.py'ye DOKUNMUYORUM. SIRA: (1) D022 ongoru yazilip commit'lenecek (olcumden ONCE), (2) TRI/VRM ozgun makaleleri, (3) alet + kucuk bolge prototipi, (4) tum pencere kosusu - uzun kosu ONCE tahtaya yazilip 60 sn beklenecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
