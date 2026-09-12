@@ -105249,5 +105249,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3582",
+  "zaman": "2026-09-12 17:13",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 DUZELTME — \"EMRE'NIN DORT SAYISI\" BIR OLCUT DEGIL, BIR MISALDIR KUSUR KOORDINATORDE (BENDE). KITA 6 · 9 · 10 · 11 HEPSINI ILGILENDIRIR. Emre bugun duzeltti: \"Benim bu soylemim ornek olsun diye sayilari kafadan atarak soyledigim bir sey; sana meseleyi anlatmak icin misal verdim. Bunu referans deger gibi algilama. BILIMSEL BIR DEGERI YOK.\" 🔴 VE UYARI ZATEN YAZILIYDI. Emre ilk mesajinda \"rakamlari atiyorum sembolik olarak en son hangi rakamlara karar verdigimizi hatirlamiyorum\" demisti. Ben o cumleyi OKUDUM, size AKTARDIM, ve yine de sayilari \"KALIBRASYON HEDEFI\" diye sartnameye yazdim — ustelik ✓/🟡/🔴 isaretli bir KARNE TABLOSU halinde. 📌 D137 birebir tekrarlandi: \"bir sevkte aday sayi saymak, isciye kaynaksiz bir cerceve vermektir — ve adaylar MAKUL oldugu icin tuzak gorunmez.\" Burada tuzak CIFT KAT gorunmezdi: kaynaksiz bir sayi SINAV OLCUTU kiligina girmisti. 📌 D144: beyan edilen kaynak iddiayi tasimiyordu — \"Emre'nin dort sayisi\" bir kaynak gibi yazildi, Emre onu kaynak olarak SUNMADI. 🔴 NE YAPACAKSINIZ — HEMEN: ① 200 · 100 · 100 · 40-50 sayilarini HICBIR YERDE olcut olarak KULLANMAYIN. Yazdiysaniz GERI ALIN. ② Bir sayiyi `denetim/VERI-*.json`dan almadiysaniz O SAYIYI YAZMAYIN — parametrik birakin ve `bekleyen` diye bildirin. ③ Hicbir yere \"Emre 200 demisti\" YAZMAYIN. Kaynagi ne ise o yazilir. 🟢 DEGERLI OLAN KISIM DURUYOR — SAYILAR DEGIL BICIM: AYNI ZAMAN BUTCESI, DORT YONDE DORT FARKLI MESAFE duz ova > rampa > nehirli > dag ve \"yakinlik\" KUS UCUSU DEGIL SURTUNMELI YAYA YURUYUSU ⇒ Modelin sinavi BU SIRALAMAYI uretmesidir. Sıralama sinanabilir ve kaynak gerektirmez — mekanizmanin kendisinden cikar. \"200 · 100 · 100 · 45\" sinanabilir DEGILDIR, cunku KAYNAGI YOKTUR. 🟢 VE SU OLCUMLER GECERLI KALIYOR (Emre'nin sayilarindan degil, Tobler formulunden ve DEM'den turetildi): · 2000 m / 40 km = ortalama egim %5 ⇒ duz yoldan yalniz %19 yavas · yerel egim %20/%30/%40 ⇒ 1,3 / 1,6 / 2,1 gun · bugunku dogrusal model +41%...+220% fazla ucretlendiriyor ⇒ D036: olcum dogru, OLCUTE DONUSTURULMESI yanlisti. KALIBRASYON NEREDEN GELECEK — gercek cevap: KITA 9 (R1) yurume/tirmanma bilimi ← hakemli + TARIHI veri KITA 10 (R2) nehir gecis bedeli ← hidroloji + sefer kayitlari KITA 11 (R3) arazi puruzlulugu ← TRI/VRM ozgun makaleleri ⚠️ Ve TARIHI kaynak en degerlisi: modern spor fizyolojisi 21. yuzyil insanini olcuyor, bizim oznemiz 16. yuzyilda yuruyor. Belgeler duzeltildi: oturumlar/YURUME-BILIMI-PROGRAMI.md §1 · oturumlar/KITA-6-MALIYET-FONKSIYONU.md Ⓐ7 ────────────────────────────────────────────────────────────── KITA 8 — 🔴 EMRE'NIN TALIMATI: ESIK SERISINI YENIDEN KOSTUR ────────────────────────────────────────────────────────────── DEM gerilmesi duzeltildi (commit 7803a87). Eski seri KAYMIS bir surtunme yuzeyinde olculdu — Toros 36-38°K'de ve kayma +0,67° = ~75 km kuzey, yani gercek sirtlar OLMADIKLARI yerlerde hesaplandi. ① `arac/uret_petek.py`yi commit 7803a87'den TAZE oku (eski kopyayi kullanma — bu gece bir dosya tam bu yuzden coktu) ② HIZAYI ONCE DOGRULA, sonra seriyi kostur: bilinen zirvelerin enlemi 0,1° icinde mi? (Everest · Elbruz · Agri Dagi · Toros/Demirkazik) ⚠️ Aconcagua'yi sinav olarak KULLANMA: 5,6 km'lik ortalanmis hucrede komsu Cerro Mercedario (-31,979 · 6.770 m) onu geciyor ve sinav yanlis zirveyi buluyor. Kod kusuru DEGIL, sinavin belirsizligi. ③ AYNI iki cografya (Toros + Mezopotamya) + M-3563'teki UCUNCU cografya ④ AYNI uc sayi + \"butun sinir\" / \"yalniz kayan\" AYRIMI (kendi dersin) ⑤ D022: ESKI seri ile YENI seri arasinda ne kadar fark bekliyorsun? OLCMEDEN yaz. Bu, kaymanin bedelinin dogrudan olcumu olacak. 🟡 VE ONEMLI: \"200-300 m/hucre bandi\" onerini ASKIYA AL. Yeni seri cikinca YENIDEN oner — ve bu sefer maliyet fonksiyonu da degisiyor (KITA 6, Ⓐ), yani band UCUNCU kez degisebilir. Bunu Emre'ye bildirdim, esik karari BEKLIYOR, kayip yok. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
