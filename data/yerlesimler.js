@@ -817,8 +817,100 @@ window.YERLESIMLER = [
 // ---------------- KUZEY AFRİKA ----------------
 { ad:"Trablus", tur:"liman", lat:32.897, lon:13.191, g:1, k:2, s:[{f:"1281-01-01",t:"1510-07-25",d:"hafsi"},{f:"1510-07-25",t:"1530-03-24",d:"ispanya"},{f:"1530-03-24",t:"1551-08-15",d:"sovalye"},{f:"1912-10-15",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01",y:"kusatma"},{f:"1835-05-26",t:"1912-10-15"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 { ad:"Misrata", tur:"sehir", lat:32.378, lon:15.092, g:0, k:3, m:"Trablus", s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
-{ ad:"Bingazi", tur:"liman", lat:32.117, lon:20.068, g:1, k:2, s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-15",t:"1923-10-29",d:"italya"}], d:[{f:"1517-05-19",t:"1711-03-01",y:"ilhak"},{f:"1835-05-26",t:"1912-10-15"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
-{ ad:"Derne", tur:"liman", lat:32.766, lon:22.639, g:0, k:3, m:"Bingazi", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}], d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
+{ ad:"Bingazi",
+  // 🔴 SİRENAYKA 1517-05-19 ANAKRONİZMİ DÜZELTİLDİ — 12 Eylül 2026
+  //   (paket 0043 · H-0016-5 · H-0017-2). `KITA 15` ölçtü, yama
+  //   `denetim/YAMA-SIRENAYKA-0912.json`.
+  //   ESKİ: s:memluk 1281→1517-05-19, sonra d:OSMANLI 1517-05-19'dan.
+  //   İKİ AYRI ANAKRONİZM vardı ve büyük olan ikincisi:
+  //     ① Memlûk Devleti 1517-04-13'te bitti ⇒ 36 günlük kuyruk
+  //     ② 🔴 SİRENAYKA HİÇ MEMLÛK OLMADI. 1517-05-19 Mısır Deltası'nın
+  //        günüdür ve buraya taşınmış ⇒ ~34 yıl erken boyanıyordu.
+  //   TDV `berka` 1281-1551 arası HİÇBİR egemen adı vermiyor ⇒ kaynak
+  //   SUSUYOR, o yüzden `bos:"devletsiz"` (`D020`: "sahipsiz"in iki cinsi
+  //   var ve sınavı kaynağın konuşup konuşmadığıdır).
+  //   TDV `trablusgarp`: "Sinan Paşa kumandasındaki Osmanlı donanması
+  //   şehri ele geçirdi (12 Şâban 958 / 15 Ağustos 1551)."
+  //
+  // 🟡 VE BİR SEÇİM YAPILDI, GİZLENMİYOR — EMRE'YE AÇIK SORU:
+  //   TDV `bingazi` İKİ tarih veriyor: *"1551 Trablusgarp seferi sırasında
+  //   Berka bölgesinin Osmanlı hâkimiyetine girmesinden sonra Bingazi de
+  //   KESİN olarak Osmanlı yönetimine katıldı (1578)."*
+  //   ⇒ 1551 BÖLGESEL · 1578 BİNGAZİ'NİN KENDİSİ için "kesin".
+  //   SEÇİLEN: 1551-08-15. Gerekçe: (a) TDV bölgeyi 1551'de Osmanlı
+  //   sayıyor, yani yanlış bir devlete atıf DEĞİL; (b) atlas "nominal" ile
+  //   "kesin"i ifade edemiyor ve `Değişmez 1` beyanlı sahipliği deliğe
+  //   tercih ediyor; (c) aynı şeritteki beş kardeş nokta (Ecdâbiye · Merc ·
+  //   Beyzâ 1551-08-15 · Tobruk 1556) ile tutarlı — aksi hâlde YENİ bir
+  //   tek-nokta enklavı doğardı.
+  //   ⚠️ ALTERNATİF `1578-01-01` MEŞRUDUR ve `§4`ün "kaynağın desteklediği
+  //   en kaba güvenli düzey" kuralı ona işaret eder. Karar Emre'nin;
+  //   değiştirilmesi TEK SATIRLIK.
+  bos:"devletsiz",
+  neden:"1281-1551 arası TDV `berka` hiçbir egemen adı vermiyor — kaynak SUSUYOR (D020). Osmanlı günü 1551-08-15 (Trablusgarp seferi); TDV Bingazi'nin KESİN katılımını ayrıca 1578 diye veriyor, seçim yorumda gerekçeli.",
+  kaynak:"TDV `berka` + `bingazi` + `trablusgarp` — gövdeleri okundu (KITA 15)",
+  tur:"liman", lat:32.117, lon:20.068, g:1, k:2, s:[{f:"1912-10-15",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01",y:"ilhak"},{f:"1835-05-26",t:"1912-10-15"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
+{ ad:"Derne",
+  // 🔴 SİRENAYKA 1517-05-19 ANAKRONİZMİ DÜZELTİLDİ — 12 Eylül 2026
+  //   (paket 0043 · H-0016-5). Bingazi ile AYNI kusur: `s:memluk`
+  //   1281→1517-05-19 ve Sirenayka hiç Memlûk olmadı.
+  //   🟢 AMA DERNE'DE KAYNAK SUSMUYOR — TAM ZİNCİR YAZILABİLDİ.
+  //   TDV `derne` (gövde okundu, KITA 15): *"Tunus'taki Hafsî hânedanının
+  //   idaresi sırasında Trablusgarp ile birlikte 1510'da İspanyollar
+  //   tarafından zaptedildi. 1530'dan itibaren Malta adasıyla beraber
+  //   Rodos'tan çıkarılan Saint Jean şövalyelerine verildi."*
+  //   TDV `trablusgarp`: *"1556'da Turgut Reis beylerbeyilikle buraya
+  //   geldi"* · `derne`: Turgut Reis *"doğuda Tobruk ve Derne'yi almıştı."*
+  //   ⇒ hafsi →1510 · ispanya 1510-1530 · rodos-sovalyeleri 1530-1556 ·
+  //     OSMANLI 1556-01-01'den. BOŞLUK YOK, `Değişmez 1` korunuyor.
+  //
+  //   🟢 VE KÜNYE SINAVI KOŞTURULDU (`§3.5.0`: "ardıl künyenin VAR OLMASI,
+  //   YAZILABİLİR olduğu anlamına gelmez — PENCERESİ DE TUTMALI").
+  //   `KITA 15` Malta Şövalyeleri künyesini ARAMADIĞINI açıkça damgaladı
+  //   (dosyası değildi); koordinatör `devletler.js`i TARADI — tahmin
+  //   edilen id ARANMADI (`§3.5.0`: bir gecede üç tek-harf kaçırması):
+  //     rodos-sovalyeleri  "Rodos (Saint Jean/Malta Şövalyeleri)"
+  //                        f:1310-01-01 → t:1798-06-12   🟢 1530-1556 TUTAR
+  //     ispanya            "İspanya (Kastilya-Aragon)"
+  //                        f:1479-01-20 → t:1923-10-29   🟢 1510-1530 TUTAR
+  //   ⇒ Yamanın "A (basit, boşluk bırak)" seçeneği REDDEDİLDİ: boşluk
+  //     `Değişmez 1`i bozardı ve künyeler mevcutken gereksizdi.
+  //   ⚠️ `hafsi` atfı burada MEŞRU — TDV Hafsî idaresini Derne için AÇIKÇA
+  //     anıyor. (Karşı örnek kayda değer: aynı künye 12 Fizan noktasında
+  //     296 yıl YANLIŞ atıf taşıyordu ve TDV `fizan` Hafsî'yi hiç anmıyor.
+  //     Fark: orada kaynak susuyordu, burada konuşuyor.)
+  //
+  // 🟢🟢 VE ÜÇ GÜNÜN ÜÇÜ DE KÜLLİYATTA ZATEN VARDI — GÜN SEÇİLMEDİ,
+  //   DEVRALINDI (`D084`: komşusunun/külliyatın kullandığı günü kullanmak
+  //   kendi gününü SEÇMEKTEN dayanaklıdır). İlk yazımda üçü de yuvarlak
+  //   (`1510-01-01` · `1530-01-01` · `1556-01-01`) kodlanmıştı; `denetle.py`
+  //   `1510-01-01`i AÇIK kırılma diye ötünce külliyat tarandı:
+  //     1510-07-25  olaylar_ek20.js  "Trablusgarp'ın İspanyollar'ca işgali
+  //                 — Hafsî hâkimiyetinin sonu" (Don Pedro Navarro)
+  //     1530-03-24  "Malta ve Trablus Saint Jean şövalyelerine verildi —
+  //                 Rodos'tan sürülen tarikatın yeni üssü"
+  //     1551-08-15  "Trablusgarp'ın fethi — Saint Jean şövalyelerinden
+  //                 Trablus alındı" (Turgut Reis, Sinan Paşa)
+  //   ⇒ Zincirin ÜÇ kırılması da anlatılmış; yeni madde YAZILMASI GEREKMEDİ
+  //     ve `Değişmez 2s`de açtığım tek açık (1510-01-01) KAPANDI.
+  //   📌 TDV `derne` Derne'yi Trablusgarp ile BİRLİKTE anıyor ("Trablusgarp
+  //     ile birlikte 1510'da…"), yani aynı günleri paylaşmaları kaynağın
+  //     kendi ifadesi.
+  //
+  // 🟡 OSMANLI GÜNÜ — KAYNAK KENDİYLE ÇELİŞİYOR, ÇELİŞKİ BİLDİRİLİYOR (`§4⑥`)
+  //   TDV `derne` gövdesi İKİ şey söylüyor: (a) *"1551'de Osmanlı idaresine
+  //   geçti"* ve (b) Turgut Reis beylerbeyi olduktan sonra *"doğuda Tobruk
+  //   ve Derne'yi almıştı"* — ve `trablusgarp` o beylerbeyiliği 1556'ya
+  //   koyuyor. `KITA 15` (b)'yi seçip 1556-01-01 önerdi.
+  //   SEÇİLEN: **1551-08-15**. Gerekçe: (a) TDV'nin kendi cümlesi 1551
+  //   diyor; (b) o gün külliyatta MADDELİ, 1556 değil; (c) şeritteki
+  //   kardeş noktalar (Bingazi · Ecdâbiye · Merc · Beyzâ) 1551-08-15 —
+  //   1556 yazmak 5 yıllık tek-nokta enklavı doğururdu.
+  //   ⚠️ `Tobruk` 1556-01-01'de KALIYOR (`yerlesimler_afrika.js`, KITA 15):
+  //     Tobruk Derne'nin 130 km DOĞUSU ve TDV onu doğuya genişlemeyle
+  //     anıyor — ayrı gün MEŞRU. Çelişki çözülmedi, KAYDA GEÇTİ.
+  kaynak:"TDV `derne` + `trablusgarp` — gövdeleri okundu (KITA 15); künye pencereleri koordinatör tarafından `devletler.js`te doğrulandı; ÜÇ kırılma günü külliyattan devralındı (olaylar_ek20 1510-07-25 · 1530-03-24 · 1551-08-15)",
+  tur:"liman", lat:32.766, lon:22.639, g:0, k:3, m:"Bingazi", s:[{f:"1281-01-01",t:"1510-07-25",d:"hafsi"},{f:"1510-07-25",t:"1530-03-24",d:"ispanya"},{f:"1530-03-24",t:"1551-08-15",d:"rodos-sovalyeleri"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 { ad:"Murzuk (Fizan)",kaynak:"fizan", tur:"bolge", lat:25.919, lon:13.919, g:0, k:2, s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}], d:[{f:"1577-01-01",t:"1711-03-01",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 { ad:"Tunus",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:36.800, lon:10.180, g:1, k:2, s:[{f:"1281-01-01",t:"1534-09-22",d:"hafsi"},{f:"1535-07-21",t:"1569-01-01",d:"hafsi"},{f:"1573-10-10",t:"1574-08-25",d:"ispanya"}], d:[{f:"1534-09-22",t:"1535-07-21",y:"savas"},{f:"1569-01-01",t:"1573-10-10",y:"fetih"},{f:"1574-08-25",t:"1705-07-17",y:"savas"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 { ad:"Kayrevan",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.678, lon:10.096, g:0, k:3, m:"Tunus", s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}], d:[{f:"1574-08-25",t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },

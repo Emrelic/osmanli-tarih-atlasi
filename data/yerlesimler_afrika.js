@@ -491,24 +491,54 @@ window.YERLESIMLER_AFRIKA = [
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
+// KITA 15 — SİRENAYKA ANAKRONİZMİ DÜZELTİLDİ (H-0016-5, tahta M-3600/sonrası).
+// ESKİ: s:[{1281→1517-05-19 memluk},...] — SİRENAYKA HİÇ MEMLÛK OLMADI.
+// 1517-05-19 Mısır Deltası'nın Osmanlı'ya geçiş günüdür (bkz. bu dosyada
+// satır ~77 "Delta ve Akdeniz kıyısı için Osmanlı devralma tarihi
+// 1517-05-19" yorumu) — Sirenayka'ya YANLIŞ TAŞINMIŞ, ~34 yıl erken.
+// KAYNAK: TDV `berka` + `bingazi` (gövde okundu): "Berka Mısır'ın
+// Osmanlılar tarafından fethinden sonra bu idareye bağlandı" ·
+// "1551 Trablusgarp seferi sırasında Berka bölgesinin Osmanlı
+// hâkimiyetine girmesinden sonra Bingazi de kesin olarak Osmanlı
+// yönetimine katıldı (1578)." TDV `trablusgarp`: "Kaptanıderyâ Sinan
+// Paşa kumandasındaki Osmanlı donanması şehri ele geçirdi (12 Şâban
+// 958/15 Ağustos 1551)." 1281-1551 için TDV `berka` hiçbir egemen ADI
+// VERMİYOR (kaynak susuyor) ⇒ bos:"devletsiz" (D020: kaynağın sessizliği
+// bizim bilgisizliğimizdir, uydurma yapılmadı). Bingazi'nin kendisinin
+// "kesin" 1578 tarihi BURAYA taşınmadı — 1551 Berka'nın GENEL geçiş
+// tarihi, kaynak bu üç iç nokta için ayrıca gün vermiyor.
 { ad:"Ecdâbiye", tur:"sehir", lat:30.755, lon:20.225, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
+  bos:"devletsiz", neden:"1281-1551 arası TDV `berka` hiçbir egemen adı vermiyor; kaynak susuyor.",
+  s:[{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 // Cebeliahdar (Yeşil Dağ): Bingazi ile Derne arasındaki verimli yayla.
 { ad:"Merc", tur:"sehir", lat:32.492, lon:20.833, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
+  bos:"devletsiz", neden:"1281-1551 arası TDV `berka` hiçbir egemen adı vermiyor; kaynak susuyor.",
+  s:[{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 { ad:"Beyzâ (Kirene)", tur:"sehir", lat:32.827, lon:21.858, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
+  bos:"devletsiz", neden:"1281-1551 arası TDV `berka` hiçbir egemen adı vermiyor; kaynak susuyor.",
+  s:[{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 // Derne ile Sellûm arasındaki tek liman; Mısır sınırına en yakın Osmanlı
 // noktası.
+// TOBRUK AYRI GÜN: TDV `derne` (gövde okundu) Tobruk'u Derne ile BİRLİKTE
+// ama Trablus'un 1551 fethinden SONRAKİ bir genişlemeye bağlıyor: "Turgut
+// Reis'in teşvik ve gayretleriyle Osmanlı hâkimiyetine geçtikten sonra
+// beylerbeyi unvanı ile buraya yerleşen Turgut Reis (Paşa) sınırlarını
+// genişleterek doğuda Tobruk ve Derne'yi almıştı." TDV `trablusgarp`:
+// "1556'da Turgut Reis beylerbeyilikle buraya geldi." Gün yok ⇒ 1556-01-01
+// (§4). Derne'nin kendisi (aynı cümlede, TDV Hafsî bağlantısını AÇIKÇA
+// veriyor: "Hafsî hânedanının idaresi sırasında Trablusgarp ile birlikte
+// 1510'da İspanyollar tarafından zaptedildi") `data/yerlesimler.js`'te —
+// BEN DOKUNMADIM, yama olarak bildirildi (denetim/YAMA-SIRENAYKA-0912.json).
 { ad:"Tobruk", tur:"liman", lat:32.077, lon:23.971, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
+  bos:"devletsiz", neden:"1281-1556 arası TDV `derne`/`berka` Tobruk için ayrı bir egemen adı vermiyor; kaynak susuyor.",
+  s:[{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1556-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 // ===========================================================================
 // 6) CEZAYİR EYALETİ
