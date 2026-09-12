@@ -1,0 +1,219 @@
+{
+ "meta": {
+  "oturum": "KITA 10 — NEHİR GEÇİŞİ",
+  "program": "oturumlar/YURUME-BILIMI-PROGRAMI.md · R2",
+  "tarih": "2026-09-12",
+  "ongoru_dosyasi": "denetim/NEHIR-ONGORU-0912.md",
+  "ongoru_commit": "7c61e0f (14:33:30 — tek kaynak okunmadan)",
+  "tuketici": "KITA 6 (maliyet fonksiyonu birleştirme)",
+  "uyari": "Bu dosyadaki HER sayı `kaynak` ve `guven` taşır. `guven` = olculdu | kaynakli | turetildi | olculemedi | bulunamadi"
+ },
+
+ "A_motorun_bugunku_hali": {
+  "nehir_gecis_bedeli": {
+   "deger": 0,
+   "birim": "km_esdeger",
+   "guven": "olculdu",
+   "kaynak": "AST taraması: arac/uret_petek.py:2268-2302 `_kv_dijkstra` gövdesinde nehir/river/akarsu/geçit/ford/köprü = 0 eşleşme",
+   "not": "Bugün bir nehir yürüyüşü HİÇ yavaşlatmıyor."
+  },
+  "nehrin_tek_kullanimi": {
+   "islev": "dogal_hatta_yasla",
+   "satir": 1221,
+   "guven": "olculdu",
+   "not": "Sınır ÇİZİLDİKTEN SONRA onu yatağa çeken bir YASLAMA; bir MALİYET değil."
+  },
+  "maliyet_modelinin_bicimi": {
+   "ifade": "nd = d + hypot(dx*di, _KVDY*dj) * surt[k]",
+   "tur": "HUCRE BASINA IZOTROPIK SURTUNME",
+   "guven": "olculdu",
+   "kirmizi_bulgu": "Nehir geçişi doğası gereği KENARA ait bir bedeldir; hücre sürtünmesi onu ifade EDEMEZ. İki somut sonucu: (a) nehir BOYUNCA yürümek ile nehri GEÇMEK aynı bedeli öder — oysa nehir boyu tarihte bir YOLDUR; (b) hücre 5.566 m, nehir ≤1 km ⇒ %80-95'i kara olan alan cezalanır.",
+   "literatur_destegi": "Herzog 2010: 'Cost functions are expected to be continuous... An exception is the crossing of streams'"
+  },
+  "hucre_boyutu_m": {"deger": 5566, "guven": "olculdu", "kaynak": "KV_ADIM 0.05° · uret_petek.py"},
+  "nehir_kapisi": {
+   "kural": "if _ad is None and _sr > NEHIR_ONEM_ESIGI (=5.0): continue",
+   "satir": 629,
+   "parca_toplam": 1455,
+   "gecen": 1371,
+   "elenen": 84,
+   "ad_sayesinde_gecen": 1107,
+   "scalerank_sayesinde_gecen": 4,
+   "guven": "olculdu",
+   "kaynak": "denetim/ARAC-NEHIR-KAPI-0912.py · veri-kaynak/ne_10m_rivers.geojson",
+   "kirmizi_bulgu": "Kapı ETKİSİZ: %94,2 geçiyor ve geçenlerin 1107'si SCALERANK'ten değil ADI olduğu için geçiyor. `NEHIR_ONEM_ESIGI=5.0` fiilen çalışmıyor."
+  }
+ },
+
+ "B_bedel_KIM_GECIYOR_a_bagli": {
+  "aciklama": "🔴 TEK BİR SAYI YOK. Ölçüm üç ayrı özne için üç ayrı mertebe verdi. KITA 6 önce özneyi seçmeli (R1① ile aynı soru).",
+  "kademeler": [
+   {
+    "ozne": "tek yürüyücü / yük hayvanı, GEÇİTTE",
+    "km_esdeger": 0.4,
+    "aralik": [0.2, 2.0],
+    "guven": "kaynakli",
+    "kaynak": "Herzog, I. (2010) 'Theory and Practice of Cost Functions', CAA2010 Proceedings — geçit hücrelerine çarpan 5, tampon yarıçapı 50 m, DEM 50 m",
+    "turetim": "(5-1) × ~100 m tampon geçişi ≈ 0,4 km"
+   },
+   {
+    "ozne": "tek yürüyücü, GEÇİT YOK (nehir tamponu)",
+    "km_esdeger": 1.9,
+    "aralik": [1.0, 4.0],
+    "guven": "kaynakli",
+    "kaynak": "Herzog 2010 — nehir tamponuna çarpan 20 (aynı 50 m taban)",
+    "turetim": "(20-1) × ~100 m ≈ 1,9 km"
+   },
+   {
+    "ozne": "ordu, HAZIR köprü/geçit",
+    "km_esdeger": 40,
+    "aralik": [8, 80],
+    "guven": "turetildi",
+    "kaynak": "1 günlük menzil ≈ 40 km (Emre'nin kalibrasyon tabanı: 5 gün × 8 saat = 200 km) · geçişin kendisi saatler-1 gün",
+    "not": "ÖLÇÜLMEDİ — hazır köprüden ordu geçiş süresi için birincil kayıt bulunamadı"
+   },
+   {
+    "ozne": "ordu, KÖPRÜ KURARAK (büyük nehir)",
+    "km_esdeger": 200,
+    "aralik": [120, 400],
+    "guven": "kaynakli",
+    "kaynak": "Drava/Osijek 1526: gemi köprüsü BEŞ GÜNDE kuruldu (300 m), ordu 14 Ağustos'ta Osijek'e vardı, Mohaç 29 Ağustos",
+    "turetim": "5 gün × 40 km/gün = 200 km eşdeğeri"
+   }
+  ],
+  "emrenin_100km_hukmu": {
+   "hukum": "DOGRULANDI — ama YALNIZ ORDU ÖZNESİ İÇİN ve GEÇİT YOKSA",
+   "guven": "kaynakli",
+   "not": "100 km, ordu kademesinin (40-200) tam ortasında. Tek yürüyücü için 50-250 KAT fazla."
+  }
+ },
+
+ "C_gecit_ford": {
+  "temel_hukum": "Nehir bir DUVAR değil, ÜZERİNDE DELİKLER olan bir duvardır.",
+  "gecit_no_gecit_orani": {
+   "deger": 4.0,
+   "guven": "kaynakli",
+   "kaynak": "Herzog 2010: nehir tamponu çarpanı 20, geçit çarpanı 5 ⇒ 20/5 = 4",
+   "kritik_not": "🔴 TAŞINABİLİR OLAN BU ORANDIR, ÇARPANIN KENDİSİ DEĞİL. Herzog'un 20'si 50 m hücrede ölçüldü; bizim hücremiz 5.566 m — 111 kat. Aynı sayıyı taşımak (D129) eşiği tabansız taşımaktır."
+  },
+  "gecilebilirlik_olcutleri": {
+   "akinti_hizi_max_m_s": {
+    "deger": 1.5,
+    "guven": "kaynakli",
+    "kaynak": "US Army FM 90-13 / FMFM 7-26, River Crossing Operations (1992): 'Fording is possible for stream velocity less than 1.5 meters per second.'"
+   },
+   "yatak_sarti": {
+    "deger": "firm and free of large rocks and other obstructions",
+    "guven": "kaynakli",
+    "kaynak": "FM 90-13"
+   },
+   "kiyi_uzunlugu_m": {
+    "deger": 300,
+    "guven": "kaynakli",
+    "kaynak": "FM 90-13: 'A ford site should have 300 meters along the near bank at the entry point'"
+   },
+   "yamac_egimi_yuzde": {
+    "tekerlekli_max": 33, "paletli_max": 60,
+    "tekerlekli_istenen": 25, "paletli_istenen": 50,
+    "guven": "kaynakli", "kaynak": "FM 90-13",
+    "not": "MODERN ARAÇ için. 16. yy arabası/topu için doğrudan geçerli DEĞİL; yön göstergesi."
+   },
+   "derinlik_tablosu": {
+    "guven": "olculemedi",
+    "not": "FM 90-13'te bir 'Draft (meters)' tablosu VAR (Ford: Personnel 0.10 · Wheeled 0.75 · Tracked 1.20) ama PDF sütun hizası bozuk çıkıyor ve bu değerlerin AZAMİ geçilebilir derinlik mi yoksa aracın gerektirdiği ASGARÎ su derinliği mi olduğu ayırt EDİLEMEDİ. Birincil nüshadan doğrulanmalı."
+   }
+  }
+ },
+
+ "D_veri_gecitler_nereden": {
+  "natural_earth": {
+   "gecit_katmani": false,
+   "guven": "olculdu",
+   "alanlar": ["dissolve", "scalerank", "featurecla", "name", "name_alt", "rivernum", "note", "min_zoom", "name_en", "min_label"],
+   "not": "Genişlik YOK, debi YOK, geçit YOK."
+  },
+  "viabundus_1_3": {
+   "kopru_dugumu": 450,
+   "feribot_dugumu": 460,
+   "gecit_toplam": 910,
+   "feribot_kenari": 149,
+   "zaman_araligi_dolu": "450/450 köprü · 460/460 feribot (`_From` alanı)",
+   "kapsam_bbox": {"lon": [3.0, 31.04], "lat": [49.67, 61.41]},
+   "osmanli_cekirdeginde": 0,
+   "tuna_havzasinda": 0,
+   "guven": "olculdu",
+   "kaynak": "veri-kaynak/viabundus/Viabundus-1.3-CSV.zip · Nodes.csv `Is_Bridge`/`Is_Ferry` · hakemli: Research Data Journal for the Humanities and Social Sciences 7/1 (2022), Brill · CC-BY 4.0 · DOI 10.5281/zenodo.10828107",
+   "hukum": "ŞEMA KANITLANDI, VERİ YETMİYOR. Viabundus tam da gereken şemayı taşıyor — geçit düğümü + ZAMAN ARALIĞI (atlas gün hassasiyetinde çalıştığı için bu şart). Ama kapsamı kuzey/orta Avrupa: Osmanlı çekirdeğinde 0, Tuna havzasında 0 geçit. ⇒ Şablon olarak kullanılır, kaynak olarak kullanılamaz."
+  }
+ },
+
+ "E_scalerank": {
+  "genislik_veya_debi_mi": false,
+  "guven": "olculdu",
+  "ters_cift_yuzde": 38,
+  "kaynak": "denetim/ARAC-NEHIR-KAPI-0912.py — 13 nehir, 72 karşılaştırılabilir çift, 27'sinde sıra TERS (rastgelede ~%50 beklenir)",
+  "en_keskin_ornek": "Sava (scalerank 7) ile Euphrates (scalerank 3): Sava'nın debisi ~4 KAT büyük, sıralaması 4 kademe KÖTÜ",
+  "hukum": "scalerank'ten genişlik/debi TÜRETİLEMEZ. Zayıf bir sıralı sinyal var ama bedel türetmeye yetmez.",
+  "debi_degerleri_uyarisi": "Kıyasta kullanılan ortalama debi değerleri REFERANS değerlerdir, birincil hidroloji kurumundan doğrulanmadı. Hüküm bunlara duyarlı DEĞİL: Sava/Fırat tersliği hiçbir makul belirsizlikle kapanmaz."
+ },
+
+ "F_mevsim": {
+  "oneri": "SEFER MEVSİMİ (ilkbahar-sonbahar) değeri kullanılsın; yıllık ortalama da en kötü hâl de kullanılmasın.",
+  "guven": "turetildi",
+  "gerekce": "Atlas TASARRUF boyar (D030) ve tasarruf yıl boyu sürer; ama tasarrufun KURULDUĞU an sefer mevsimidir. İlkbahar kar erimesi taşkını bu pencerenin İÇİNDEDİR ⇒ bu seçim bedeli düşürmez, YÜKSELTİR.",
+  "gun_hassasiyetinde_ifade_edilebilir_mi": {
+   "cevap": "EVET ama TAVSİYE EDİLMEZ",
+   "not": "Motor gün hassasiyetinde ve mevsimlik bir çarpan teknik olarak yazılabilir. Ama petek geometrisi her gün için yeniden üretiliyor ve mevsimlik bir bedel, aynı sınırın yıl içinde SALINMASINA yol açar — atlas bunu ÇİZER ve kullanıcı 'sınır oynuyor' diye görür. ⇒ TEK bir sefer-mevsimi değeri.",
+   "guven": "turetildi"
+  }
+ },
+
+ "G_tarihi_capraz_kontrol": [
+  {
+   "vaka": "Drava, Osijek — 1526",
+   "ozne": "Osmanlı ordusu (Kanunî, Mohaç seferi)",
+   "olay": "gemi köprüsü (300 m) BEŞ GÜNDE kuruldu; geçiş sonrası köprü YIKILDI",
+   "sure_gun": 5,
+   "guven": "kaynakli",
+   "kaynak": "Osijek'e varış 14 Ağustos 1526; İbrahim Paşa köprüyü 5 günde kurdu; Suleiman Bridge (Osijek-Darda) 16 Ağustos 1526'da başlandı, Mimar Sinan tasarımı, ~7 km uzunluk / 6 m genişlik",
+   "not": "Bu bir GEÇİT ARAMA değil, GEÇİT İMAL ETME vakasıdır — en pahalı kademe."
+  },
+  {
+   "vaka": "Ottoman köprücülüğünün resmî kaydı",
+   "olay": "Osmanlı askerî köprü inşası hakkındaki en erken resmî belgeler Szigetvár seferine (1566) ait",
+   "guven": "kaynakli",
+   "kaynak": "Ottoman Masonry Bridges in Anatolia and the Balkans (CORE)",
+   "not": "15. yy ikinci yarısından itibaren imparatorluğun iki ucunda ponton köprüler kuruluyor."
+  }
+ ],
+
+ "H_ongoru_karnesi": {
+  "O1_bimodal": {"hukum": "TUTTU", "not": "Herzog 20 (geçitsiz) / 5 (geçitte) — iki tepeli yapı yayımlanmış bir modelde birebir var."},
+  "O2_scalerank_yapilamaz": {"hukum": "TUTTU", "not": "genişlik/debi alanı YOK, %38 ters çift."},
+  "O3_sefer_mevsimi": {"hukum": "ÖNERİ — sınanabilir değil", "not": "bir tercih önerisidir, bir ölçüm değil."},
+  "O4_ordu_gun_mertebesi": {"hukum": "TUTTU", "not": "Drava 1526 = 5 gün; öngörü 2-10 gün demişti."},
+  "O5_kaynak_bulunur": {"hukum": "TUTTU", "not": "LCP literatüründe hazır katsayı VAR (Herzog), askerî talimnamede eşik VAR (FM 90-13), tarihî vaka VAR (Drava 1526)."},
+  "KENDI_CURUTTUGUM": {
+   "iddia": "Öngörüde 'Emre'nin 100 km'i tek hücreye konursa f≈19,0' diye türetmiştim ve Herzog'un 20'siyle çakışması bir DOĞRULAMA sanılabilirdi.",
+   "curuten_olcum": "Herzog'un çarpanı 50 m DEM ve 50 m tamponda ölçülmüş; bizim hücremiz 5.566 m — 111 kat.",
+   "sonuc": "Sayısal çakışma bir ÖLÇEK TESADÜFÜDÜR, bir doğrulama DEĞİL. Taşınabilir olan yalnız 4:1 ORANI."
+  }
+ },
+
+ "I_olculemeyenler": {
+  "gecit_yogunlugu": "ölçülemedi — bir nehirde geçitlerin ortalama aralığı. Not: buna bir SABİT olarak ihtiyaç YOK; geçitler veriye konursa dolanma bedelini modelin kendisi hesaplar.",
+  "fm_derinlik_tablosu": "ölçülemedi — sütun hizası bozuk, azamî mi asgarî mi ayırt edilemedi",
+  "herzog_carpaninin_bizim_olcegimizdeki_karsiligi": "ölçülemedi — 50 m'den 5.566 m'ye taşımanın doğru yolu ölçülmedi; bir kalibrasyon koşusu gerekir",
+  "ordu_hazir_kopruden_gecis_suresi": "bulunamadı — birincil kayıt aranmalı",
+  "osmanli_cografyasinda_gecit_verisi": "bulunamadı — Viabundus kapsamıyor; Osmanlı menzilnâmeleri ve köprü kayıtları ayrı bir iş",
+  "nehrin_YOL_olarak_degeri": "ölçülmedi — Herzog nehir boyu vadilerin tarihî yollarca KAÇINILDIĞINI (ıslak taban) ama su ihtiyacı yüzünden kaynağa yakın geçildiğini yazıyor. İki yönlü bir etki ve bu iş kapsamında ölçülmedi."
+ },
+
+ "J_KITA6_icin_oneri": {
+  "1": "Nehir bedelini HÜCRE sürtünmesine yazma — model onu ifade edemez. En az kötü yaklaşım: yalnız nehrin GEÇTİĞİ hücreye çarpan, ve nehre PARALEL kenarları muaf tutmak. Bu, mevcut Dijkstra'da kenar-yönü bilgisi gerektirir.",
+  "2": "TEK sayı yazma: özneyi (tek yürüyücü / ordu) seç ve B bölümündeki kademeyi kullan. Atlas TASARRUF boyuyorsa özne ORDU'dur.",
+  "3": "Geçit verisi olmadan nehir bedeli koymak, sınırları nehirlere YAPIŞTIRIR ve gerçek geçitlerden geçen tarihî yayılmaları BOZAR. Geçit verisi yoksa bedeli DÜŞÜK tut.",
+  "4": "`NEHIR_ONEM_ESIGI=5.0` fiilen çalışmıyor (%94,2 geçiyor, 1107'si ad sayesinde). Bir bedel bu kapıya bağlanacaksa kapı ÖNCE düzeltilmeli.",
+  "5": "Taşınabilir tek sayı geçit:geçitsiz = 1:4 oranıdır. Mutlak değer bu atlasın kendi ölçeğinde KALİBRE EDİLMELİ — Emre'nin dört sayısı (200/100/100/40-50 km) o kalibrasyonun sınavıdır."
+ }
+}

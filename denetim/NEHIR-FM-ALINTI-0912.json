@@ -1,0 +1,76 @@
+{
+ "kaynak": "US Army FM 90-13 / FMFM 7-26, River Crossing Operations (1992)",
+ "sayfa": 135,
+ "karakter": 302635,
+ "bulgu": {
+  "AKINTI HIZI": [
+   "Drift (meters) = current (MRS! x river 2 width Drift (feet) (meters) current (fps) x river 6."
+  ],
+  "DERINLIK": [
+   "A ford site should have 300 meters along the near bank at the entry point for deployment of overwatching elements.",
+   "• Water depth to a distance of 15 feet off shore.",
+   "The required water depth for a 30-percent slope with a 5-foot bank height is 183 centimeters (72 inches)."
+  ],
+  "BANKA/YAMAC": [
+   "Dry, hard slopes of 33 percent can be negotiated; however, slopes less than 25 percent are desired.",
+   "Tanks can climb 60-percent (31-degree) slopes on dry, hard surfaces; however, slopes less than 50 percent are desired.",
+   "For example, tanks can negotiate slopes of 60 percent, based on ideal conditions such as dry, hard surfaces.",
+   "Wheeled vehicles are generally limited to a maximum slope of 33 percent.",
+   "Move upstream or downstream until the azimuth to the point on the opposite bank is 45 degrees different than the original reading.",
+   "Maximum launch slope: 28 percent uphill 19 percent downhill 11 percent side slope *For crossings that exceed MLC 60."
+  ],
+  "GECIS HIZI": [
+   "It has the same amount of detailed planning as for a deliberate offensive crossing.",
+   "The planners’ terrain analyses in turn determine initial crossing requirements and estimated crossing rates.",
+   "Differences occur primarily because of the complexity of crossing a river (which makes extensive calculation necessary) and the need to balance tactics with crossing rates.",
+   "The engineer staff officer must very quickly convert raw terrain data and friendly infor- mation into crossing rates.",
+   "errain affect- ing crossing Templates enemy river defenses ENGINEER From terrain data and available crossing means, estimates crossing capability of cross- ing areas From troop list, calculates force crossing rates for each crossing area Templates enemy obstacle systems Figure 6-2.",
+   "Site comparison chart Site Red 1 1 Co 2-hour prep 8 rafts per hour 1-hour prep 12 rafts per hour 0-hour prep 18 rafts per hour Site Red 2 Site Red 3 Site Red 4 Site Red 5 Figure 6-4.",
+   "This overlay shows potential site locations, max- imum crossing rate for tanks and other fighting vehicles, and an estimate of the time required to put each cross- ing site into operation.",
+   "Tactics required for the crossing consider threat defenses near the crossing sites, threat reaction forces and earliest employment times, and crossing rates at each site.",
+   "Full Crossing Rate • Describe foot, wheeled, and tracked move- ment capability on roads, trails, and cross- country • Describe maximum crossing rate for fording, swimming, or rafting.",
+   "The quick-time march rate of 120 steps per minute, with a 30-inch step, equates to 1.",
+   "5 kilometers per hour (kph) SITE ANALYSIS A ground reconnaissance refines and confirms information gathered from other sources.",
+   "This tech- nique results in a uniform crossing rate in the least amount of time and is usually the desired technique.",
+   "Once assembled, all float bridges have a crossing rate of 200 vehicles per hour, with vehicle speed at 15 miles per hour.",
+   "The brief- ings include the following rules: • Vehicles will maintain maximum speed of 15 miles per hour while crossing the bridge.",
+   "Raft site capacity is the number of raft round trips per hour.",
+   "The engineer calculates raft site capacity by determining the raft trips per hour possible on a centerline (using raft turnaround time and the number of possible rafts from Figure A-2,page A-4) and multiplying by the number of possible centerlines at the site.",
+   "Figure A-1 shows the deter- mination of rafts per hour and assault site capacity for the division crossing overlay.",
+   "Since the crossing rate for rafts is less during darkness, each site shows total raft trips separately, during darkness and during light.",
+   "Raft round trips per hour per centerline from Figure A-2.",
+   "Division site overlay Engineer Planning Calculations A-3 FM 90-13/FMFM 7-26 River Width (meters) Round Trip (minutes) Number of Round Trips per hour Number of Rafts 75 100 125 150 175 225 300 8 10 11 12 16 8.",
+   "52 3280 3808 3936 River width (meters) 75 100 125 150 188 225 263 300 350 400 450 500 600 700 800 900 1000 1100 1200 Minutes per round trip 10 11 12 14 16 18 20 22 24 26 29 32 35 38 41 45 Round trips per hour Number of rafts per centerline Notes: 1.",
+   "5 MPS Velocity) Velocity 75 meters 150 meters 300 meters Pneumatic assault boat with OBM Pneumatic assault boat without OBM Rafts (LTR, M4T6, and ribbon) Minutes per round trip Trips per hour Minutes per round trip Trips per hour Minutes per round trip Trips per hour Rafts at each site 3 20 4 15 7 8 1 4 15 6 10 10 6 2 5 12 10 6 16 3 3 Notes: 1.",
+   "During daylignt hours, a ribbon bridge can be constructed at the rate of 200 meters (600 feet) per hour.",
+   "Bridge can cross 200 vehicles per hour with 30 meters spacing at 16 kilometers per hour.",
+   "85 (52) 18 18 18 18 12 Bridge 150 feet per hour 45.",
+   "7 meters per hour NA 16 13 11 Bridge Design Floats (bays) required for normal bridges are- ."
+  ]
+ },
+ "ford_cumleleri": [
+  "If it is shallow enough, fording is possible.",
+  "They can also cause a fording vehicle to throw a track.",
+  "Local inhabitants provide additional information about bridges, river flow, bank stability, road network, ford sites, and other river conditions.",
+  "They can be ford, assault boat, swim, raft, or bridge sites.",
+  "Assault battalions use either a ford or an assault boat site (or sometimes a swim site) as an assault site.",
+  "This condition worsens as fording, swimming, and rafting activities carry water onto it.",
+  "Routes and Approaches Units use the following routes and approaches: • Fords.",
+  "Dismounted forces may use approaches with steep slopes and heavy vegetation, while vehicle ford- ing requires paths or roads to approach fording sites.",
+  "Item Draft Remarks OPERATION meters Ford Personnel 0.10 Wheeled Vehicle 0.75 Tracked Vehicle 1.20 Assault/Swim Raft/Bridge Ml 13 (ARC) 1.50 M548 M2 Power boat (27 feet) LTR M4T6 Ribbon 2.00 1.07 1.00 0.60' 0.75’ 0.60’ Sufficient depth for operation of boats or vehicles to be used.",
+  "Detailed Procedures FM 90-13/FMFM 7-26 Banks Ford banks may be steep and rugged for dismounted troops.",
+  "Bank requirements Bottoms Ford bottoms must be free from obstacles, firm, and uniform.",
+  "Full Crossing Rate • Describe foot, wheeled, and tracked move- ment capability on roads, trails, and cross- country • Describe maximum crossing rate for fording, swimming, or rafting.",
+  "Assault Across the River Phase Each lead battalion in a ground assault should have at least one ford or assault boat site big enough to accommodate two companies abreast.",
+  "A hasty crossing is more likely to use fording vehicles than a deliberate crossing, since it allows the force to continue across the river without pausing to acquire other crossing means.",
+  "A ford site should have 300 meters along the near bank at the entry point for deployment of overwatching elements.",
+  "Vehicles cross by swimming or fording or are dragged or rafted across.",
+  "They swim an ACE or deep ford a bulldozer to get a winch capability to the far shore.",
+  "Bradleys either swim or ford, with towing assis- tance if necessary.",
+  "The military means to cross a river are — • Fording vehicles.",
+  "FORDING VEHICLES Combat vehicles can ford shallow rivers that have limited stream velocity and stable beds.",
+  "Some vehicles have kits to increase fording depth.",
+  "Fording is possible for stream velocity less than 1.5 meters per second.",
+  "Riverbeds at fording sites must be firm and free of large rocks and other obstructions."
+ ]
+}

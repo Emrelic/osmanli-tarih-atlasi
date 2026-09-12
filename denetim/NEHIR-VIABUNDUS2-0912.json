@@ -1,0 +1,75 @@
+{
+ "nodes_satir": 17518,
+ "nodes_sutun": [
+  "ID",
+  "Parent_ID",
+  "Name",
+  "Alternative_Name",
+  "Latitude",
+  "Longitude",
+  "Links",
+  "Zoomlevel",
+  "Is_Settlement",
+  "Settlement_From",
+  "Settlement_To",
+  "Settlement_Description",
+  "Is_Town",
+  "Town_First_Mentioned",
+  "Town_To",
+  "Town_Description",
+  "Is_Fair",
+  "Fair_From",
+  "Fair_To",
+  "Fair_Description",
+  "Is_Toll",
+  "Toll_From",
+  "Toll_To",
+  "Toll_Description",
+  "Is_Bridge",
+  "Bridge_From",
+  "Bridge_To",
+  "Bridge_Description",
+  "Is_Staple",
+  "Staple_From",
+  "Staple_To",
+  "Staple_Duration_Of_Stay",
+  "Staple_Description",
+  "Is_Ferry",
+  "Ferry_From",
+  "Ferry_To",
+  "Ferry_Description",
+  "Is_Harbour",
+  "Harbour_From",
+  "Harbour_To",
+  "Harbour_Description",
+  "Is_Lock",
+  "Lock_From",
+  "Lock_To",
+  "Lock_Description",
+  "Ready"
+ ],
+ "gecitle_ilgili_dugum": 970,
+ "edges_tip": {
+  "land": 18017,
+  "water": 1116,
+  "ferry": 149,
+  "lsnd": 1
+ },
+ "ferry_kenar": 149,
+ "ferry_uzunluk": {
+  "n": 149,
+  "min": 73.0,
+  "medyan": 1001.0,
+  "max": 49454.0
+ },
+ "bbox": {
+  "lon": [
+   3.2223332745538,
+   37.620599
+  ],
+  "lat": [
+   48.720509,
+   60.7135202118737
+  ]
+ }
+}

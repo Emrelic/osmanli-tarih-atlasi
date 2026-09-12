@@ -1,0 +1,102 @@
+{
+ "tablolar": {
+  "Descriptions.csv": 1880730,
+  "Edges.csv": 35317361,
+  "Edges_Comments.csv": 48482,
+  "Edges_Comments_Lang.csv": 55634,
+  "Fairs.csv": 170132,
+  "Fairs_Description.csv": 82239,
+  "Literature.csv": 378047,
+  "Literature_Link.csv": 637786,
+  "Nodes.csv": 6557029,
+  "Population.csv": 60147,
+  "Towns.csv": 1815266,
+  "Water-1500.csv": 21022321,
+  "database structure 1.3.pdf": 428034
+ },
+ "gecit_tasiyan": {
+  "Descriptions.csv": {
+   "satir": 9395,
+   "basliklar": "\"ID\",\"Nodes_ID\",\"Language\",\"Pertains_To\",\"Description\"",
+   "vurus": {
+    "bridge": 326,
+    "ferry": 281,
+    "ford": 6,
+    "brücke": 61,
+    "brucke": 1,
+    "toll": 1380
+   }
+  },
+  "Edges.csv": {
+   "satir": 19283,
+   "basliklar": "\"ID\",\"Geometry\",\"Type\",\"Certainty\",\"Zoomlevel\",\"From\",\"To\",\"Comment_ID\",\"Length\",\"From_Node\",\"To_Node\",\"Ready\"",
+   "vurus": {
+    "ferry": 149
+   }
+  },
+  "Edges_Comments.csv": {
+   "satir": 196,
+   "basliklar": "\"ID\",\"Comments\"",
+   "vurus": {
+    "bridge": 9,
+    "ferry": 2,
+    "ford": 3,
+    "toll": 17,
+    "crossing": 6
+   }
+  },
+  "Edges_Comments_Lang.csv": {
+   "satir": 176,
+   "basliklar": "\"ID\",\"Comments_ID\",\"Language\",\"Description\"",
+   "vurus": {
+    "ford": 1,
+    "toll": 2
+   }
+  },
+  "Fairs.csv": {
+   "satir": 889,
+   "basliklar": "\"ID\",\"Nodes_ID\",\"Name\",\"Continuation_From_ID\",\"From\",\"To\",\"Description\",\"Category\",\"Commodities\",\"Date\",\"Fixed_Day\",\"Fixed_Month\",\"Number_Of_Days\",\"Weekday\",\"Before_After\",\"Date_Depends_On\",\"Start_Max\",\"Start_Min\",\"End_Max\",\"End_Min\"",
+   "vurus": {
+    "toll": 5
+   }
+  },
+  "Fairs_Description.csv": {
+   "satir": 732,
+   "basliklar": "\"ID\",\"Fair_ID\",\"Language\",\"Description\"",
+   "vurus": {
+    "toll": 1
+   }
+  },
+  "Literature.csv": {
+   "satir": 1857,
+   "basliklar": "\"ID\",\"Ref_Short\",\"Ref_Long\",\"Type\"",
+   "vurus": {
+    "ford": 4,
+    "brücke": 21,
+    "toll": 16
+   }
+  },
+  "Literature_Link.csv": {
+   "satir": 15309,
+   "basliklar": "\"ID\",\"Literature_ID\",\"Nodes_ID\",\"Edges_ID\",\"Pertains_To\",\"Pages\"",
+   "vurus": {
+    "bridge": 43,
+    "ferry": 68,
+    "toll": 2280
+   }
+  },
+  "Nodes.csv": {
+   "satir": 18338,
+   "basliklar": "\"ID\",\"Parent_ID\",\"Name\",\"Alternative_Name\",\"Latitude\",\"Longitude\",\"Links\",\"Zoomlevel\",\"Is_Settlement\",\"Settlement_From\",\"Settlement_To\",\"Settlement_Description\",\"Is_Town\",\"Town_First_Mentioned\",\"Town_To\",\"Town_Description\",\"Is_Fair\",\"Fair_From\",\"Fair_To\",\"Fair_Description\",\"Is_Toll\",\"Toll_From\",\"Tol",
+   "vurus": {
+    "bridge": 1067,
+    "ferry": 777,
+    "ford": 148,
+    "brücke": 87,
+    "brucke": 6,
+    "toll": 3374,
+    "crossing": 143
+   }
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "kaynak_dosya": "veri-kaynak/ne_10m_rivers.geojson",
+ "parca": 1455,
+ "adli": 1367,
+ "adsiz": 88,
+ "alanlar": [
+  "dissolve",
+  "featurecla",
+  "min_label",
+  "min_zoom",
+  "name",
+  "name_alt",
+  "name_en",
+  "note",
+  "rivernum",
+  "scalerank"
+ ],
+ "genislik_alani_var_mi": false,
+ "debi_alani_var_mi": false,
+ "kapi": {
+  "esik": 5.0,
+  "gecen": 1371,
+  "elenen": 84,
+  "ad_sayesinde_gecen": 1107,
+  "scalerank_sayesinde_gecen": 4
+ },
+ "scalerank_vs_debi": [
+  {
+   "nehir": "Nile",
+   "scalerank": 1.0,
+   "debi_m3s": 2800
+  },
+  {
+   "nehir": "Danube",
+   "scalerank": 2.0,
+   "debi_m3s": 6500
+  },
+  {
+   "nehir": "Euphrates",
+   "scalerank": 3.0,
+   "debi_m3s": 356
+  },
+  {
+   "nehir": "Volga",
+   "scalerank": 3.0,
+   "debi_m3s": 8060
+  },
+  {
+   "nehir": "Oder",
+   "scalerank": 4.0,
+   "debi_m3s": 574
+  },
+  {
+   "nehir": "Tigris",
+   "scalerank": 4.0,
+   "debi_m3s": 1014
+  },
+  {
+   "nehir": "Rhine",
+   "scalerank": 4.0,
+   "debi_m3s": 2900
+  },
+  {
+   "nehir": "Elbe",
+   "scalerank": 5.0,
+   "debi_m3s": 870
+  },
+  {
+   "nehir": "Vistula",
+   "scalerank": 5.0,
+   "debi_m3s": 1080
+  },
+  {
+   "nehir": "Don",
+   "scalerank": 6.0,
+   "debi_m3s": 900
+  },
+  {
+   "nehir": "Po",
+   "scalerank": 6.0,
+   "debi_m3s": 1540
+  },
+  {
+   "nehir": "Sava",
+   "scalerank": 7.0,
+   "debi_m3s": 1564
+  },
+  {
+   "nehir": "Sakarya",
+   "scalerank": 8.0,
+   "debi_m3s": 193
+  }
+ ],
+ "ters_cift_yuzde": 37.5
+}

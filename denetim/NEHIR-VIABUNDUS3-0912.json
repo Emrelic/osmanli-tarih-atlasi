@@ -1,0 +1,25 @@
+{
+ "nodes_toplam": 17518,
+ "is_bridge": 450,
+ "is_ferry": 460,
+ "is_toll": 1350,
+ "gecit_toplam": 910,
+ "zaman_araligi": {
+  "kopru_from": 450,
+  "kopru_to": 450,
+  "feribot_from": 460,
+  "feribot_to": 460
+ },
+ "kapsam_bbox": {
+  "lon": [
+   3.004911,
+   31.038091
+  ],
+  "lat": [
+   49.667173,
+   61.407841
+  ]
+ },
+ "osmanli_cekirdeginde": 0,
+ "tuna_havzasinda": 0
+}
