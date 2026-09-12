@@ -717,6 +717,16 @@ GIRDI_DOSYALARI = [
     "yerlesimler_sibirya2.js",
     "yerlesimler_gamerika.js",
     "yerlesimler_kamerika.js",
+    "yerlesimler_hint0912.js",        # 1 nokta · Baroda (Vadodara)
+                                      # ⚠️ Sevk DÖRT nokta istiyordu; KITA 8
+                                      # ölçtü ve ÜÇÜ ZATEN VARDI —
+                                      # `Gvalyar (Gwalior)` · `İndor (Indore)`
+                                      # · `Kolhapûr`, hepsi yerlesimler_asya.js.
+                                      # Koordinatörün taraması onları
+                                      # `ad:"Gvalyar"` diye TAM AD eşleşmesiyle
+                                      # aradı; veri PARANTEZLİ ÇİFT AD yazıyor
+                                      # ve `Kolhapûr` şapkalı. ⇒ Dördü de
+                                      # yazılsaydı ÜÇ MÜKERRER nokta doğardı.
     "yerlesimler_p0037.js",           # 15 nokta · Bolgrad · Kahul · Zamość
                                       # ⚠️ Zamość/Lublin/Chełm `lehistan`
                                       # kullanıyor ama o künye 1795'te
