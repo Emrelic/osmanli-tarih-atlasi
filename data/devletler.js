@@ -6345,14 +6345,16 @@ window.DEVLETLER = [
 },
 { id:"haydarabad-nizam", ad:"Haydarabad Nizamlığı (Âsafcâh Hanedanı)", tur:"devlet", bolge:"guney-asya",
   f:"1724-10-11", t:"1948-09-17", baskent:"Haydarabad",
-  ozet:"Nizâmülmülk Âsafcâh'ın Babür'ün Dekken valiliğinden fiilen bağımsızlaşmasıyla kurulan, Hindistan'ın en büyük prens devleti; 1766'dan itibaren İngiliz himayesine girdi (1923 sonrasında da sürdü, gerçek sonu 13 Eylül 1948 Hindistan işgali). ÜLKE SÜREKLİLİĞİ kimliğidir — Âsafcâh hanedanı atlas ufkunun ötesine (1948) taşıyor, künye ufukta kesiliyor. (kaynak: TDV, madde: haydarabad-nizamligi — \"Bağımsızlığını 11 Ekim 1724'te ilan etmiştir\")",
+  ozet:"Nizâmülmülk Âsafcâh'ın Babür'ün Dekken valiliğinden fiilen bağımsızlaşmasıyla kurulan, Hindistan'ın en büyük prens devleti; 1766'dan itibaren İngiliz himayesine girdi. 🟢 DÜZELTİLDİ (KITA 1, 1.MURAT'ın D030 uyarısı üzerine) — işgal ile tasarruf devri AYRI: Hindistan'ın 'Operation Polo' harekâtı 13 Eylül 1948'de BAŞLADI, Nizam'ın orduları ve fiilî tasarruf 17 Eylül 1948'de TESLİM oldu — t: (1948-09-17) TESLİM gününü esas alıyor, işgalin başlangıcını değil (atlas seferi değil tasarrufu boyar). (kaynak: TDV, madde: haydarabad-nizamligi — \"Bağımsızlığını 11 Ekim 1724'te ilan etmiştir\")",
   kaynak:"haydarabad-nizamligi",
   kronoloji:[
     { t:"1724-10-11", tur:"kurulus", b:"Nizâmülmülk Âsafcâh bağımsızlığını ilan etti" },
     { t:"1731-01-01", tur:"vassal", b:"Nizamülmülk, Marathalar'la antlaşma imzalayıp bölgedeki varlıklarını ve Haydarâbâd dışında vergi toplama haklarını tanımak zorunda kaldı (TDV haydarabad-nizamligi maddesi)" },
     { t:"1766-01-01", tur:"antlasma", b:"İngiliz Doğu Hindistan Şirketi ile himaye antlaşması imzalandı; 1768'de bu antlaşma Karnataka nevvâbını da kapsayacak biçimde yenilendi (TDV haydarabad-nizamligi maddesi)" },
     { t:"1799-01-01", tur:"savas", b:"İngiltere'nin 1798'de verdiği askerî destekle Nizam Ali, Tîpû Sultan'a karşı yeniden savaşa girdi; Tîpû öldürülüp ordusu dağıtıldı (TDV haydarabad-nizamligi maddesi)" },
-    { t:"1802-01-01", tur:"antlasma", b:"İngilizlerle yeni bir antlaşma imzalanıp ticarî imtiyazlar tanındı, askerî bağımlılık pekişti (TDV haydarabad-nizamligi maddesi)" }
+    { t:"1802-01-01", tur:"antlasma", b:"İngilizlerle yeni bir antlaşma imzalanıp ticarî imtiyazlar tanındı, askerî bağımlılık pekişti (TDV haydarabad-nizamligi maddesi)" },
+    { t:"1948-09-13", tur:"isgal", b:"Hindistan, 'Operation Polo' harekâtıyla Haydarabad'ı işgale başladı", kaynak:"standart akademik kaynak (WebSearch) — künyenin t: alanı BU günü DEĞİL, teslim gününü esas alıyor" },
+    { t:"1948-09-17", tur:"son", b:"Nizam'ın orduları teslim oldu, Haydarabad fiilen Hindistan'a katıldı", kaynak:"standart akademik kaynak (WebSearch) — künyenin t: alanıyla birebir" }
   ]
 },
 { id:"bengal-nevabligi", ad:"Bengal Nevablığı", tur:"devlet", bolge:"guney-asya",
@@ -6632,14 +6634,16 @@ window.DEVLETLER = [
   ]
 },
 { id:"bharatpur-cat", ad:"Bharatpur Krallığı (Jat)", tur:"krallik", bolge:"guney-asya",
-  f:"1733-01-01", t:"1948-03-30", baskent:"Bharatpur",
-  ozet:"Bedan Singh'in kurduğu, Jat kabile konfederasyonundan doğan Hindu krallığı; Babür ve sonra İngiliz baskısına rağmen prens devleti olarak varlığını sürdürdü (1923 sonrasında da sürdü, 1947'ye dek). ÜLKE SÜREKLİLİĞİ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  f:"1733-01-01", t:"1948-03-18", baskent:"Bharatpur",
+  ozet:"Bedan Singh'in kurduğu, Jat kabile konfederasyonundan doğan Hindu krallığı; Babür ve sonra İngiliz baskısına rağmen prens devleti olarak varlığını sürdürdü. 🟢 DÜZELTİLDİ (KITA 1, 1.MURAT'ın D107 uyarısı üzerine, eski t:1948-03-30 KAYNAKLA DOĞRULANAMADI, 18 Mart'la KARIŞTIRILMIŞ olabilir) — Bharatpur 15 Ağustos 1947'de Hindistan'a katıldı (diğer prenslikler gibi), AMA ayrı bir devlet olarak varlığı Alwar/Dholpur/Karauli ile birleşip Matsya Birliği'ni kurduğu 18 Mart 1948'de SONA erdi (1949'da bu birlik Racasthan'a katıldı, künye o günü değil BİRLİK KURULUŞ gününü esas alıyor — D030, ilk tasarruf değişimi).",
+  kaynak:"🟢 DÜZELTİLDİ (eski 'bulunamadı' + doğrulanamayan 1948-03-30) — Wikipedia \"Matsya States Union\": \"formed on 18 March 1948 by the merger of four erstwhile princely states, Alwar, Bharatpur, Dholpur, and Karauli\". ⚠️ TDV'de müstakil maddesi yok, Wikipedia burada TEK dayanak — ikinci akademik kaynakla TEYİT EDİLMEDİ, açıkça damgalanıyor.",
   kronoloji:[
     { t:"1733-01-01", tur:"kurulus", b:"Bedan Singh, Bharatpur Krallığı'nı kurdu" },
     { t:"1761-06-12", tur:"toprak-kazanc", b:"Racah Suraj Mal, saltanatının zirvesinde Babür başkenti Agra'yı ele geçirdi; hükümdarlığı (1755-1763) boyunca krallık bugünkü Rajastan-Haryana-batı Uttar Pradeş-Delhi çevresini kapsayacak şekilde genişledi (Britannica 'Suraj Mal')" },
     { t:"1805-01-02", tur:"savas", b:"General Gerard Lake komutasındaki İngiliz kuvvetleri, İkinci Anglo-Maratha Savaşı sırasında Bharatpur Kalesi'ni kuşattı; dört hücum geri püskürtüldü, İngilizler 3.000'den fazla zayiat verip 22 Şubat 1805'te kuşatmayı utanç verici biçimde kaldırdı — İngilizlerin Hindistan'daki nadir yenilgilerinden biri" },
-    { t:"1826-01-18", tur:"savas", b:"İngilizlerin kuşatmasıyla fiilî bağımsızlığını kaybedip prens devletine dönüştü" }
+    { t:"1826-01-18", tur:"savas", b:"İngilizlerin kuşatmasıyla fiilî bağımsızlığını kaybedip prens devletine dönüştü" },
+    { t:"1947-08-15", tur:"vassal", b:"Hindistan'ın bağımsızlığıyla Bharatpur Hindistan'a katıldı (Instrument of Accession)", kaynak:"Wikipedia \"Bharatpur State\" — TEK kaynaklı" },
+    { t:"1948-03-18", tur:"son", b:"Alwar, Dholpur ve Karauli ile birleşip Matsya Birliği'ni kurdu, ayrı devlet olarak varlığı sona erdi", kaynak:"Wikipedia \"Matsya States Union\" — TEK kaynaklı" }
   ]
 },
 { id:"bhopal", ad:"Bopal (Bhopal) Devleti", tur:"devlet", bolge:"guney-asya",

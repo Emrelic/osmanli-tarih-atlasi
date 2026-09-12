@@ -685,7 +685,7 @@ window.PADISAHLAR = [
     kaynak:"TDV: murad-iv" },
   { id: "ibrahim",     ad: "Sultan İbrahim",               from: "1640-02", to: "1648-08",
     dogum:"1615-11-04",
-    olum:"1648-08-08",
+    olum:"1648-08-18",
     olum_yer:"İstanbul",
     olum_sebep:"hal' sonrası idam",
     baba:"I. Ahmed",
