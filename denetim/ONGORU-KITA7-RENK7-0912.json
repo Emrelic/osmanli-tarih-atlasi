@@ -1,0 +1,18 @@
+{
+  "gorev": "KITA 7 — YEDİ KÜNYENİN RENGİ (arac/renkler.py), M-3552",
+  "tarih": "2026-09-12",
+  "olcumden_once_yazildi": true,
+  "not": "Bu kez ölçümden ÖNCE yazıyorum (geçen tur İş②'de yazmamıştım, itiraf edilmişti — ONGORU-KITA7-B3-GERCEK-KESIT-0912.json). Sevkin kendisi bir ipucu içeriyor (dört Hint prensliğinin — gvalyar/indor/kolhapur/baroda — birbirine VE ingiliz-hindistani/haydarabad-nizam'a komşu olduğu) — bu bilgiyi BEN ölçmedim, koordinatör verdi; öngörüm bu bilgiyi KULLANIYOR ama geri kalan (tunus-beyligi-fransiz, meysur-racaligi, bali-kralliklari-pejeng'in gerçek komşuları) HENÜZ ölçülmedi.",
+  "tahmin_1_en_zor_kova": "Dört Hint prensliği (gvalyar·indor·kolhapur·baroda) BİRBİRİNE tam bağlı (klik, 4 düğüm) — DSATUR'a göre bu tek başına 4 FARKLI renk gerektirir, üstüne ingiliz-hindistani (#20d820) ve haydarabad-nizam (#e796ba)'dan da ΔE≥12 ayrışmalı. Beklenti: bu 4 kimlik dosyada BAŞKA HİÇBİR yerde kullanılmayan 4 YENİ hex alacak (palet REUSE'u burada mümkün olmayacak, çünkü hepsi birbirine komşu).",
+  "tahmin_2_kolay_kimlikler": "tunus-beyligi-fransiz, bali-kralliklari-pejeng, meysur-racaligi muhtemelen coğrafi olarak İZOLE (Tunus, Bali, güney Hindistan — birbirinden ve dört prenslikten UZAK) — bu üçü MEVCUT paletten bir hex'i (komşusu olmayan bir kimlikle) PAYLAŞABİLİR, yeni hex gerekmeyebilir.",
+  "tahmin_3_meysur_racaligi": "meysur-racaligi, meysur'un (2026'da #b34da5 → #15421e değişmiş) ARDILI ve muhtemelen ZAMAN İÇİNDE ÇAKIŞMIYOR (Meysur Sultanlığı 1799'da bitip Racalık başlıyor) — CLAUDE.md §3.5.0'ın 'aynı yerde ardıl, çakışma yoksa aynı renk MEŞRU' örüntüsüne göre meysur'un KENDİ rengini (#15421e) doğrudan MİRAS ALABİLİR, yeni bir hex gerekmeyebilir — ama bu YALNIZ zaman çakışması ölçülüp DOĞRULANIRSA uygulanır.",
+  "tahmin_4_baroda_gorunurluk": "baroda'nın yerleşim NOKTASI yok (sevk böyle diyor) — rengi VERİLECEK ama görünmeyecek; bu yüzden ΔE/görünürlük testi baroda için PRATİKTE anlamsız olacak (hiç boyanmayacağı için), yine de tam bir hex atanacak (§8: renksiz kimlik = harita deliği kuralı, kayıt tutarlılığı için).",
+  "olculecek_gercek_soru": "Bu tahminlerin doğruluğu arac/renk_olc.py + veri taramasıyla ölçülecek; ÇÜRÜRSE (ör. tunus-beyligi-fransiz aslında birine komşu çıkarsa) o kayıt AÇIKÇA yazılacak, sessizce düzeltilmeyecek.",
+  "sonuc_olcumden_sonra": {
+    "tahmin_1_en_zor_kova": "DOĞRULANDI YÖNDEN, ama İLK ADAY ÇÜRÜDÜ: `--oner` dört prensliğe TEK renk vermedi (doğru), ama gvalyar'ın ilk adayı (#6cd224) ingiliz-hindistani'den yalnız ΔE 13,1 ile ayrışıyordu — eşiğin (12) çok az üstü, benim öngördüğüm 'rahat 4 yeni hex' değil, DAR bir geçiş. Elle maviye kaydırıldı (#3050d2), yeni margin 30,3.",
+    "tahmin_2_kolay_kimlikler": "TUTTU: tunus-beyligi-fransiz ve bali-kralliklari-pejeng gerçekten izole çıktı (gerçek coğrafi komşularına ΔE 19-62 arası, hepsi güvenli) — ama 'mevcut hex PAYLAŞILABİLİR' kısmı tam tutmadı, `--oner` ikisine de YENİ hex önerdi (paylaşım aramadı, yalnız güvenli üretti) — ben de öyle bıraktım, gereksiz risk almadım.",
+    "tahmin_3_meysur_racaligi": "TUTTU VE DOĞRULANDI: tarih penceresi tam sıfır-gün örtüşme (t:1799-05-04 == f:1799-05-04), meysur'un rengi (#15421e) MİRAS ALINDI, PAYLASIM'a eklendi, `py arac/renk_olc.py` temiz geçti (0 çakışma).",
+    "tahmin_4_baroda_gorunurluk": "TUTTU: baroda'ya tam bir hex (#d25a24) verildi, yerleşim noktası olmadığı için görünürlük testi pratikte devreye girmedi ama kayıt tutarlı."
+  }
+}
+
