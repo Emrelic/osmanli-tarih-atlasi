@@ -1,0 +1,141 @@
+{
+ "alet": "ARAC-TRI-0912",
+ "tarih": "2026-09-12 15:05",
+ "izgara": {
+  "KV_ADIM": 0.05,
+  "nx": 7200,
+  "ny": 2900,
+  "alt_hucre": 36,
+  "dem": "veri-kaynak\\yukseklik\\etopo2022_30s_dunya.tif"
+ },
+ "sinavlar": [
+  {
+   "ad": "riley-sekil3",
+   "deger": {
+    "3a": {
+     "makale": 700.0,
+     "mutlak": 700.0,
+     "kok": 250.0
+    },
+    "3b": {
+     "makale": 700.0,
+     "mutlak": 700.0,
+     "kok": 250.0
+    },
+    "3c": {
+     "makale": 100.0,
+     "mutlak": 100.0,
+     "kok": 41.83
+    }
+   },
+   "MUTLAK_makaleyle_ayni": true,
+   "KOK_makaleyle_ayni": false,
+   "gecti": true,
+   "yorum": "Sekil 3'un sayilari MUTLAK TOPLAM. Makalenin yazili formulu (kok) AYNI sekilde 250/250/41,83 verir. Makale kendi icinde CELISIYOR."
+  },
+  {
+   "ad": "riley-sinif-ust-ucu",
+   "mutlak_gerektirdigi_komsu_farki_m": 545.9,
+   "kok_gerektirdigi_komsu_farki_m": 1544.0,
+   "gecti": true,
+   "yorum": "Tablonun ust ucu MUTLAK biciminde fiziken mumkun, KOK biciminde degil — Sekil 3'u BAGIMSIZ dogruluyor."
+  },
+  {
+   "ad": "normal-denkligi",
+   "en_buyuk_hata": 1.564621925354004e-07,
+   "gecti": true,
+   "yorum": "Gradyandan kurulan normal, egim/bakidan kurulanla AYNI."
+  },
+  {
+   "ad": "vrm-rampa-vs-karton",
+   "deger": {
+    "duz": {
+     "vrm_ort": 0.0,
+     "tri_mutlak_ort_m": 0.0
+    },
+    "rampa_%30": {
+     "vrm_ort": 7.71354251583034e-08,
+     "tri_mutlak_ort_m": 1669.8
+    },
+    "rampa_%100": {
+     "vrm_ort": 3.155540184707206e-08,
+     "tri_mutlak_ort_m": 5566.0
+    },
+    "yumurta_kartonu": {
+     "vrm_ort": 0.004507675301283598,
+     "tri_mutlak_ort_m": 791.1
+    },
+    "rastgele": {
+     "vrm_ort": 0.01956254057586193,
+     "tri_mutlak_ort_m": 1756.6
+    }
+   },
+   "gecti": true,
+   "vrm_ayirma_orani": 58438.5,
+   "tri_karton_bolu_rampa": 0.474,
+   "yorum": "Rampa ne kadar dik olursa olsun VRM~0 (1e-7, float32 gurultusu); yumurta kartonunda 0,0045 — arada 5x10^4 kat var. TRI ise TERS siraliyor: duzgun %30 rampaya 1670 m, 300 m genlikli yumurta kartonuna 791 m veriyor. => IKI OLCU DE GEREKLI: TRI buyukluk, VRM CINS."
+  },
+  {
+   "ad": "gecit-centik",
+   "duz_gecis_kotu_m": 900.0,
+   "minimax_kotu_m": 900.0,
+   "zirve_m": 2000.0,
+   "gecti": true,
+   "yorum": "Ortalama alma bu hucreyi 2000/6≈333 m'lik bir tumsek gibi gosterirdi; gecit olcusu 900 m'lik CENTIGI buluyor."
+  },
+  {
+   "ad": "tirmanis-yumurta-kartonu",
+   "olculen_m": 900.0,
+   "beklenen_m": 900.0,
+   "net_yukselti_m": 300.0,
+   "gecti": true,
+   "yorum": "Net yukselti 300 m; GERCEK tirmanis 900 m. Motorun bugunku olcusu net yukseltiyi gorur, tirmanisi GORMEZ."
+  },
+  {
+   "ad": "minimax-ust-sinir",
+   "ihlal": 0,
+   "ortalama_fark_m": 284.9,
+   "gecti": true,
+   "yorum": "Kosegenler serbest birakilinca darbogaz DUSMELI."
+  }
+ ],
+ "tam_pencere": {
+  "durum": "TAMAM",
+  "sure_sn": 337.7,
+  "kuresel": {
+   "ornek_kara_hucre": 128077,
+   "ornek_adim": 7,
+   "tri_ortanca_m": 78.0,
+   "tri_y90_m": 659.0,
+   "vrm_ortanca": 5.78e-05,
+   "vrm_y90": 0.00416,
+   "vrm_sifira_esit_%": 0.349,
+   "tirmanis_eniyi_ortanca_m": 2.0,
+   "z_max_ortanca_m": 417.0,
+   "O1a_kabartma_ortanca_m": 56.0,
+   "O1a_kabartma_ort_m": 157.9,
+   "O1c_kabartma_bolu_motor_egimi": 2.489,
+   "egim_motor_ortanca_m_hucre": 23.0,
+   "sira_farki_ortanca_puan": 2.99,
+   "sira_farki_20_puandan_buyuk_%": 2.49,
+   "sira_farki_40_puandan_buyuk_%": 0.4,
+   "spearman_tri_vrm_KURESEL": 0.9654,
+   "rampa_benzeri_hucre_%": 0.04,
+   "karton_benzeri_hucre_%": 0.002,
+   "riley_sinifi_%": {
+    "duz": 50.68,
+    "neredeyse-duz": 8.68,
+    "hafif": 6.96,
+    "orta": 7.23,
+    "epey": 12.22,
+    "cok": 9.16,
+    "asiri": 5.08
+   }
+  },
+  "tepe_bellek_mb": 1111.5,
+  "dem_disinda_kalan_satir": 20,
+  "dizi_sayisi": 8,
+  "dizi_basina_mb": 41.8,
+  "toplam_mb": 334.1
+ }
+}

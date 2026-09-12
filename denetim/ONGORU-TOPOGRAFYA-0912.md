@@ -81,6 +81,54 @@ ayırt edemiyor (rampa 151 km, dağ 70 km).
 ⇒ Tutarsa: **ayrımı yapan şey eğim değil pürüzlülüktür**, ve motorun
 eksik değişkeni budur.
 
+---
+# 🔵 HÜKÜM DAMGASI — ölçümden SONRA eklendi, ÜSTÜ DEĞİŞTİRİLMEDİ
+
+> Yukarıdaki metnin tek harfi değişmedi. Ölçümler:
+> `denetim/VERI-TOPOGRAFYA-0912.json` · rapor
+> `denetim/ARASTIRMA-TOPOGRAFYA-0912.md`
+
+```
+TUTTU 6   ·   ÇÜRÜDÜ 6   ·   ÖLÇÜLEMEDİ 3
+```
+
+| öngörü | hüküm | ölçülen |
+|---|---|---|
+| Ö1a kabartma ortanca 60-150 m | 🔴 ÇÜRÜDÜ | **56 m** (ortalama 157,9 — band içinde kalırdı) |
+| Ö1b dağ kabartması 400-800 m | 🔴 ÇÜRÜDÜ | 672 · 813 · 892 · 394 — 4'ün 1'i içeride, dördü de ±%12 |
+| **Ö1c kabartma/motor eğimi ≥ 2,0** | 🟢 **TUTTU** | **2,489** küresel (bölge aralığı 1,92-3,02) |
+| Ö2a Spearman(TRI,VRM) 0,50-0,90 | 🔴 ÇÜRÜDÜ | **0,9654** — ve öngörünün KENDİ çürüme şartı ateşledi |
+| Ö2b rampada VRM < 0,005 | 🟢 TUTTU | 0,00002 |
+| Ö2c dağda VRM > 0,02 | 🔴 ÇÜRÜDÜ | 0,0074 – 0,0124 |
+| Ö3a geçit hatası 150-400 m | ⚪ ÖLÇÜLEMEDİ | dış kaynak kapalı (TDV taneciklik · Britannica 403) |
+| Ö3b 8 geçidin 6'sı yüksek | ⚪ ÖLÇÜLEMEDİ | aynı |
+| Ö4a dizi ≤ 3 | 🟢 TUTTU | öneri **1** |
+| Ö4b ek bellek ≤ 130 MB | 🟢 TUTTU | öneri **41,8 MB** |
+| Ö4c float32 altı büyüklük önerilmeyecek | 🟢 TUTTU | önerilmedi |
+| Ö5a süre 8-25 dk | 🔴 ÇÜRÜDÜ | **6,1 / 5,6 dk** — tahminden hızlı |
+| Ö5b tepe bellek < 1,5 GB | 🟢 TUTTU | 979 / 1112 MB |
+| Ö6a rampa-dağ eğim farkı < 2 kat | ⚪ ÖLÇÜLEMEDİ | seçtiğim "RAMPA" bölgesi ölçülünce **düz** çıktı |
+| Ö6b rampa-dağ VRM farkı ≥ 5 kat | 🟢 TUTTU | 620 kat — ama DÜZ-DAĞ ekseninde |
+
+### 🔴 EN PAHALI ÇÜRÜME — Ö2a, ve iki kere çürüdü
+İlk tam koşuda ρ = **0,8801** çıktı ve öngörü **tutmuş göründü**. Sebep:
+VRM'i `int16 × 10⁴` ile paketlemiştim, kara hücrelerinin yarısından çoğu
+0'a yuvarlanmıştı. Düzeltilince ρ = **0,9654** ⇒ öngörünün kendi yazdığı
+*"> 0,95 ise ikisini birden önermem çürür"* şartı ateşledi ve **VRM önerisi
+geri çekildi.**
+📌 ***Kaba bir nicemleme iki değişken arasında SAHTE BAĞIMSIZLIK üretir, ve
+sahte bağımsızlık "yeni bilgi" gibi okunduğu için hatalı ölçüm hatalı
+öneriyi DOĞRULAR.***
+
+### 🟡 Ö3'ün öksüz kalmaması için (`D183`)
+Ö3 ne tuttu ne çürüdü — **ölçülemedi**, ve sebebi kayıtlı: TDV geçidi görüyor
+rakım vermiyor (`belen` 200, gövdede rakım yok), Britannica 403 (×2).
+Öngörünün kendi mazeret şartı (*"kaynaksız koordinat kullanılmaz"*)
+uygulandı. Yerine `§5`'teki **çözünürlük merdiveni** kondu — aynı sorunun
+(④) iç ölçülebilir hâli.
+
+---
+
 ## NE ÖNGÖRMÜYORUM (açıkça)
 - Maliyet fonksiyonunun nihai biçimini önermiyorum — o KITA 6'nın işi
   (`§3①`). Ben veri ve ölçüm üretiyorum.
