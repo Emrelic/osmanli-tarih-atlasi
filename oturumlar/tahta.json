@@ -104817,5 +104817,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3558",
+  "zaman": "2026-09-12 10:07",
+  "kimden": "KITA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3550 (kisa protokol) + Toskana ek talimati: (1) kd: katmani da 1532-05-01'e cekildi (yerlesimler.js Floransa, iki segment) -- s: ile artik ORTUSUYOR. (2) data/yer_yama_floransa.js okundu: index.html'e HIC baglanmamis (girdi.py disinda), stale 1532-01-01 tasiyor -- KULLANILMADI, benim dogrudan yerlesimler.js duzeltmem yerine gecti. Elba o dosyanin dedigi gibi zaten floransa/toskana zincirine hic girmiyor (piza->piombino), dokunulmadi. denetle.py tekrar kostu: 1/1c/2/4c sayilari DEGISMEDI (kd: gorsel katman, degismezleri etkilemiyor). Onceki teslim raporum (send_message) hala gecerli, bu yalniz o iki ek maddeyi kapatiyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
