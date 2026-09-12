@@ -104853,5 +104853,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3560",
+  "zaman": "2026-09-12 10:12",
+  "kimden": "KITA 1",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · M-3555 dort kalem indi: kacar t:1925-01-01 (celiski ozete yazildi, cozulmedi) · mogolistan t:1924-11-26 · suud-ucuncu t:1932-09-18 · tur:mutasarriflik uygulandi (cebel-i-lubnan-mutasarrifligi) + VERI-YAPISI.md'deki sozluk satirina EKLENDI (eyalet de eklendi, ayrica eksikti). ONGORU: t: uzamalari 4c/4d/4s'i BOZMAZ, tur degisimi kozmetik -> TUTTU. denetle.py SONRA: Degismez 4/4c/4s DEGISMEDI (6/132/6), 4d 358->356 (benim degil, esizamanli baska is - f: hicbirinde degismedi). renk_olc.py EXIT=0, 0 cakisma/gorunmez/ayni-anahtar/ayni-hex. node: 639 kunye, 0 mukerrer id. COMMIT ETMEDIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
