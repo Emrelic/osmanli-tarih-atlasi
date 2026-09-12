@@ -1,0 +1,8 @@
+{
+ "olcum_tarihi": "2026-09-12",
+ "olcen_oturum": "KITA 3 — kunye: alani yamasini indir",
+ "olcumden_once_yazildi": true,
+ "d022_ongoru": "denetle.py'nin butun Degismez sayilari (1/1b/2/2s/2i/2t · konum · dizin) YAMA ONCESI ve SONRASI BIREBIR AYNI KALACAK. Gerekce: `grep -n kunye arac/denetle.py` ile onceden dogrulandi — mevcut hicbir Degismez hesaplamasi olaylar*/kronoloji*.js kayitlarindaki YENI `kunye:` alanini OKUMUYOR (denetle.py'deki 'kunye' gecen tum satirlar yerlesimler.js'in d: kimligiyle ilgili, ayri bir kavram). Yani bu yama SAYISAL bir etki uretmeyecek — etkisi yalniz veri zenginligi/izlenebilirlik (D111 disiplini: hangi kunyenin gercek TARAF oldugunun kaydi).",
+ "curume_sarti": "eger ONCE/SONRA denetle.py sayilarindan HERHANGI BIRI degisirse, bu oncul YANLIS olur ve muhtemelen kunye: alani BASKA bir sey de degistirdi (orn. bir kayit yanlislikla silindi/bozuldu) — bu durumda HEMEN durup ARAC-KUNYE-ALANI-0912.py'nin eslestirmesini yeniden kontrol et.",
+ "olcum_yontemi": "py arac/denetle.py cikti ONCE (denetim/OLCUM-KUNYE-ALANI-ONCE-0912.txt) ve SONRA (denetim/OLCUM-KUNYE-ALANI-SONRA-0912.txt) diff'lenecek."
+}
