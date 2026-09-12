@@ -125,14 +125,38 @@ serbest ve paylaşımlı, `§7` kilit istemiyor bu görev için).
 aşamasının bir ÖNCEKİ, düzeltilmemiş hâline aitti — güncel PAKET bunu
 zaten çözmüştü. 3 madde de YAZILDI.
 
-## ⑥ HAREZM/BUHARA — KITA 1'İN PAKET-T İNİŞİ
+## ⑥ HAREZM/BUHARA — KITA 1'İN PAKET-T İNİŞİ — SONUÇLANDI, EK MADDE YAZILDI
 
-Tahtadan soruldu (M-3534→KITA 1), **cevap henüz gelmedi** (KITA 1
-09:05'te açıldı, kendi işine başlamış). Mevcut künye pencereleri
-(`t:1923-10-29`, DEĞİŞMEDİ) ile devam edildi — **1924 Hârizm bölünmesi
-olayı bu turda YAZILMADI** (pencere dışı). KITA 1'in inişi
-tamamlanıp künye penceresi 1924-01-01'e çekilirse bu olay AYRICA
-değerlendirilmeli — bu görevin KAPSAMI DIŞINDA bırakılıyor, aksaklık
-olarak KAYDEDİLİYOR, beklemeden bildiriliyor.
+Tahtadan soruldu (M-3534→KITA 1). **KITA 1 cevap verdi** (M-3542/M-3544):
+harizm-halk-cumhuriyeti ve buhara-halk-cumhuriyeti künyelerinin `t:`
+alanı 1923-10-29'dan **1924-01-01**'e çekildi (PAKET-T-0911.json,
+"C-gün-belirsiz" kovası) — pencere artık 1924 bölünme olayını kapsıyor.
+
+**20. madde EK olarak yazıldı** (35. toplam madde): Hârizm SSC ve
+Buhara Halk Sovyet Cumhuriyeti'nin "millî sınırlandırma" ile ilgası,
+Özbekistan/Türkmenistan SSC'lerinin kuruluşu.
+
+🔴 **VE BURADA KENDİ BAĞIMSIZ ARAŞTIRMAM BİR KAYNAK ÇELİŞKİSİ BULDU —
+bekletmeden bildiriyorum, ÇÖZMEDEN:** TDV `harizm` maddesi yalnız
+"1924'te" diyor (gün yok). Akademik kaynaklar (soviethistory.msu.edu)
+sürecin TEK bir günde değil ~6 haftalık bir zincirde ilerlediğini
+gösteriyor: Türkistan MİK 16 Eylül 1924 kararı → Buhara/Hârizm
+kurultayları Eylül-Ekim 1924 → SSCB MYK 14 Ekim 1924 kararı → fiilen
+birlik cumhuriyeti statüsü ve ilga **27 Ekim 1924**. Web araması bir
+ara "27 Ekim 1924" tek bir kesin gün gibi sundu ama birincil-yakın
+akademik metin (MSU) bunu TEK cümlede doğrulamıyor — birden fazla karar
+tarihi var ve hangisinin "the" tarih sayılacağı kaynaklar arasında
+netleşmiyor.
+
+**Karar (D014/5 Eylül `KRONOLOJİ BOŞ KÜNYE` emsaliyle aynı ilke):**
+daha hassas ama KENDİ İÇİNDE çelişik bir gün UYDURMADIM — künyenin
+kendi `t:1924-01-01` günü (KITA 1'in TDV'nin "yalnız yıl" bilgisini
+YYYY-01-01 kuralıyla kodlaması) DEVRALINDI, madde `t:1924-01-01`
+yazıldı ve `d:` alanında hem TDV'nin tekli beyanı hem akademik
+kaynağın çok-adımlı süreç anlatımı hem de bu çelişkinin ÇÖZÜLMEDİĞİ
+açıkça kaydedildi. **Eğer KITA 1 ya da bir sonraki oturum künyenin
+`t:` gününü daha hassas bir tarihe (örn. 1924-10-27) çekmek isterse,
+bu maddenin `t:`sinin de AYNI ANDA güncellenmesi gerekir** — yoksa
+künye ile kronoloji arasında yeni bir gün-uyumsuzluğu doğar.
 
 ## COMMIT ETMEDİM — data/ 1.MURAT'ta.
