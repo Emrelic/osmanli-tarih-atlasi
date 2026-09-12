@@ -105267,5 +105267,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3583",
+  "zaman": "2026-09-12 17:23",
+  "kimden": "KITA 8",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_211b974e-3a66-4072-adef-753e27c9b302",
+  "mesaj": "TESLİM — EŞİK SERİSİ YENİDEN KOŞULDU · 🟢 18/18 SAYI BİREBİR AYNI · COMMIT YOK Rapor: `denetim/OLCUM-ESIK-YENIDEN-0912.md` · öngörü `ONGORU-ESIK-YENIDEN-0912.json` (yeniden koşmadan ÖNCE yazıldı). Kod `uret_petek.py`den TAZE okundu (`7803a87`). ═══ ① HİZA SINAVI — ÖNCE, seriden AYRI ═══ ``` Everest −0,075° · Elbruz −0,025° · Ağrı +0,025° · Demirkazık −0,025° · Mont Blanc +0,025° EN BÜYÜK SAPMA 0,075° ⇒ 🟢 hepsi 0,1° içinde kıyas (düzeltme ÖNCESİ motor): Everest +0,637 · Elbruz +0,720 · Ağrı +0,673 ``` ⚠️ Aconcagua KULLANILMADI — uyarına uydum. ═══ ② 🔴 SEBEBİ ÖLÇÜLDÜ: BENİM PENCERELERİM HİÇ GERİLMEMİŞTİ ═══ Kusur **koşulludur**: istenen pencere DEM'in üst ucunu (84,0°K) **aşınca** rasterio kırpıyor, `out_shape` tam satırı dayatıyor, veri kuzeye geriliyor. Motor `-60 → 85` istiyordu ⇒ **1,0° aşıyordu.** ``` TOROS kuzey ucu 40,0°K · MEZOPOTAMYA 37,2°K · BALKAN 47,2°K DEM üst ucu 84,0°K ⇒ ÜÇÜ DE DEĞMİYOR ⇒ kırpma YOK ⇒ gerilme YOK ``` ═══ ③ YENİDEN KOŞU — düzeltilmiş kod yoluyla, üç bölge ═══ ``` TOROS 100/150/200/300/400/600 → 45.939 · 32.831 · 28.413 · 13.118 · 8.385 · 5.766 ESKİ SERİYLE 🟢 ALTIDA ALTI AYNI MEZOPOTAMYA 🟢 altıda altı AYNI BALKAN 🟢 altıda altı AYNI ``` 🟢 **18/18 SAYI BİREBİR AYNI.** Eğim medyanları · kara hücreleri · nehir payları · kilitlenen · kayan — hiçbiri değişmedi. ═══ ③b TEK ALARM ÇALDI VE O DA BENİM ALETİMDİ (`D117`) ═══ Kıyas kodum `🔴 eğim medyanı 119 → 118` bastı. Şüphelendim, ölçtüm: ``` HAM 118,965332 · int() → 118 (kıyas kodum KESİYOR) · %.0f → 119 (iki koşunun da BASTIĞI) ``` ⇒ Veri aynı; **alarm benim yuvarlama farkımdan doğdu.** Düzeltmeden raporlasaydım **olmayan bir kaymayı** kayda geçirecektim. ═══ ④ KAPSAM AYRIMI — sevkin öncülünü DARALTIYOR ═══ Sevk: *\"Eski serin KAYMIŞ bir sürtünme yüzeyinde ölçüldü.\"* ``` MOTORUN çıktısı (koşu 8 · 9) — dünya penceresi -60→85 🔴 GERÇEKTEN kaymış BENİM pilot serim — yerel pencereler 🟢 HİÇ kaymamış ``` ⇒ Düzeltme **değerli ve gerekliydi**; yalnız benim ölçümlerim kapsamında değildi. ⑤ maddende *\"kaymanın bedelinin doğrudan ölçümü\"* istemiştin: **benim kutularımda bedel SIFIR.** Öngörüm Y1/Y2/Y3 üçü de tuttu. ═══ ⑤ ÖTEKİ İKİ MADDEN ═══ 🟡 \"200-300 bandı\" ASKIDA KALIYOR — ölçüm tarafında değişen yok ama maliyet fonksiyonu (KITA 6 Ⓐ) değişeceği için yeniden önermiyorum. Karar bende değil. 🟢 \"Emre'nin dört sayısı\" BENİM hiçbir dosyamda ölçüt olarak GEÇMİYOR — tarandı, temiz. (Kullandığım 100…600, m/hücre cinsinden DEM GRADYAN eşiği; Emre'nin km/gün misalleriyle ilgisiz.) ⚠️ **AMA tarama başka bir dosyada iz buldu:** `denetim/ONGORU-YURUME-0912.json:78` bir çürütme şartında \"40-50\" kullanıyor. O dosya **KITA 9'un**, benim değil — sana bildiriyorum, düzeltmesi onda. ⚪ COMMIT ETMEDİM — son iki turda talimat öyleydi, bu sevkte bir şey yazmıyorsun. İstersen kendi dosyalarımı pathspec'le commit ederim, söyle yeter. Boştayım. -- KITA 8",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
