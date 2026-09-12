@@ -1,0 +1,62 @@
+   KARASAL enklav görünümü — n=275 · toplam 6,559,732 km²
+      p10         2,576 km²
+      p25         9,349 km²
+      p50        15,796 km²
+      p75        15,796 km²
+      p90        37,426 km²
+      p95        94,451 km²
+      p99       195,432 km²
+      p100      406,228 km²
+      en büyük  1 kayıt toplamın %6.2'ini taşıyor
+      en büyük  5 kayıt toplamın %18.1'ini taşıyor
+      en büyük 10 kayıt toplamın %31.5'ini taşıyor
+
+   TEKİL enklav (ada göre, en büyük hâli) — n=27 · toplam 1,061,228 km²
+      p10         2,177 km²
+      p25         4,615 km²
+      p50        11,370 km²
+      p75        24,731 km²
+      p90        79,596 km²
+      p95       165,138 km²
+      p99       351,421 km²
+      p100      406,228 km²
+      en büyük  1 kayıt toplamın %38.3'ini taşıyor
+      en büyük  5 kayıt toplamın %77.6'ini taşıyor
+      en büyük 10 kayıt toplamın %89.0'ini taşıyor
+
+   EN BÜYÜK 12 TEKİL ENKLAV:
+      Cebel Merre                      406,228 km²  en yakın mesafe 279 km
+      Cübeyl                           195,432 km²  en yakın mesafe 387 km
+      Medine                            94,451 km²  en yakın mesafe 552 km
+      Kabala                            69,692 km²  en yakın mesafe 191 km
+      Tebriz                            57,673 km²  en yakın mesafe 33 km
+      Maan                              37,426 km²  en yakın mesafe 62 km
+      Nâsıriye                          30,662 km²  en yakın mesafe 458 km
+      Nühûd                             18,801 km²  en yakın mesafe 279 km
+      Ordubad                           18,522 km²  en yakın mesafe 33 km
+      Azak                              15,796 km²  en yakın mesafe 223 km
+      Digor                             12,787 km²  en yakın mesafe 66 km
+      Tuzla (Bosna)                     11,964 km²  en yakın mesafe 15 km
+
+════════════════════════════════════════════════════════════════════════
+④ TAVANI DAĞILIMDAN TÜRET — tahminden değil
+════════════════════════════════════════════════════════════════════════
+   görünüm  en büyük LOG boşluk: 195,432 → 406,228 km²  (×2.1)  ⇒ tavan ≈ 281,762 km²
+   tekil    en büyük LOG boşluk: 195,432 → 406,228 km²  (×2.1)  ⇒ tavan ≈ 281,762 km²
+
+   ÖNERİLEN 100.000 km² TAVANI NE KESİYOR:
+      görünüm  9 / 275 kayıt tavanın ÜSTÜNDE (%3.3) · alanları 1,969,684 km²
+      tekil    2 / 27 kayıt tavanın ÜSTÜNDE (%7.4) · alanları 601,660 km²
+   TAVANIN ÜSTÜNDE KALAN TEKİL ENKLAVLAR (yani BİRLEŞTİRİLMEYECEKLER):
+      Cebel Merre                      406,228 km²
+      Cübeyl                           195,432 km²
+
+════════════════════════════════════════════════════════════════════════
+⑤ İKİ EVREN ÖRTÜŞÜYOR MU — K1'in sınavı
+════════════════════════════════════════════════════════════════════════
+   graf evreni benzersiz ad   524
+   geometri evreni benzersiz ad 27
+   ORTAK 13  ⇒ geometri evreninin %48.1'i grafta da var
+   örnek ortak: Azak, Bağdat, Cübeyl, Doğubayazıt, Dubrovnik, Kerene, Masavva, Medine, Nühûd, Saraybosna
+
+[exited with code 0]
