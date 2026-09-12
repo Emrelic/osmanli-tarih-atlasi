@@ -1,0 +1,582 @@
+{
+ "olcum_tarihi": "2026-09-12",
+ "olcen_oturum": "KITA 5 — KUNYE ALANI",
+ "d022_ongoru": "38 kunye_yok kaydinin ~15'inde (%40) gercek kimlik bulunacagi ONCEDEN tahmin edildi (olcmeden). GERCEK SONUC bu tahminden ÇOK DAHA IYI cikti (asagidaki ozete bak) — cunku misir-eyaleti/misir-kavalali/sirp-despotlugu/sirbistan-eyaleti/sirbistan-kralligi/buhara kunyelerinin KENDI f:/t: alanlari cogu olayla BIREBIR/yakin eslesti, bu ONCEDEN TAHMIN EDILMEMISTI (kunyelerin bu kadar hassas sinir tarihleri tasidigi bilinmiyordu).",
+ "kova_1_kunye_yok": {
+  "toplam": 38,
+  "kimlik_atandi": 37,
+  "bos_yazildi": 1,
+  "olculemedi": 0,
+  "kayitlar": [
+   {
+    "dosya": "misir",
+    "tarih": "1517-05-19",
+    "b": "İskenderiye'nin teslimi — Mısır fethinin tamamlanması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "misir-eyaleti'nin (KITA 1 bu gece yaziyor, f:1517) KENDI KURULUS olayi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1517-07-06",
+    "b": "Hicaz'ın Kahire üzerinden savaşsız katılışı",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "orta",
+    "gerekce": "Misir fethiyle es-zamanli, Kahire uzerinden gerceklesen olay — dogrudan aktor Osmanli merkezi olabilir ama misir-eyaleti baglaminda"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1524-01-01",
+    "b": "Hâin Ahmed Paşa'nın kendini sultan ilan etmesi ve isyanının bastırılması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "beylerbeyi isyani, dogrudan misir-eyaleti ici olay"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1525-01-01",
+    "b": "İbrahim Paşa Kanunnâmesi — Mısır'ın ikili idare çerçevesinin kurulması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Misir'in idare cercevesi kanunnamesi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1711-01-01",
+    "b": "Büyük Fitne — Kāsımiyye-Zülfikāriyye çatışması ve beylerbeyinin azli",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "eyalet ici hizip catismasi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1723-01-01",
+    "b": "Kāsımiyye fırkasından Çerkez Mehmed'in şeyhülbeledliğe gelmesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "eyalet ici seyhulbeledlik degisimi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1729-01-01",
+    "b": "Çerkez Mehmed'in ölümü — Kazdağlı hizbinin yükselişinin başlaması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "eyalet ici guc degisimi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1760-01-01",
+    "b": "Kazdağlıların Bulutkapan Ali Bey'i şeyhülbeledliğe ataması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Kazdaglilarin Ali Bey'i atamasi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1768-01-01",
+    "b": "Ali Bey'in Ebu'z-Zeheb aracılığıyla rakiplerini tasfiyesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Ali Bey'in rakip tasfiyesi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1769-06-01",
+    "b": "Ali Bey'in Osmanlı'ya bağlılığı fiilen reddetmesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Ali Bey'in Osmanli'ya baglilik reddi (isyan, eyalet ici)"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1770-11-01",
+    "b": "Ali Bey'in Zâhir el-Ömer ile ittifak kurup Suriye seferini başlatması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "orta",
+    "gerekce": "Ali Bey'in Suriye seferi — aktor misir-eyaleti'nin fiili yoneticisi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1771-06-01",
+    "b": "Şam'ın Ali Bey/Ebu'z-Zeheb kuvvetlerince ele geçirilmesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "orta",
+    "gerekce": "Sam'in ele gecirilmesi — aktor Misir kaynakli kuvvet"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1771-06-11",
+    "b": "Ebu'z-Zeheb'in ihaneti — Şam'dan Mısır'a ani dönüşü",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Ebu'z-Zeheb'in Misir'a donusu"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1772-04-01",
+    "b": "Ebu'z-Zeheb'in Ali Bey'i Kahire'den kovması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "eyalet ici iktidar degisimi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1773-04-01",
+    "b": "Sâlihiye Muharebesi — Ali Bey'in Ebu'z-Zeheb tarafından bozguna uğratılması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "eyalet ici catisma"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1773-05-08",
+    "b": "Ali Bey el-Kebir'in ölümü",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Ali Bey'in olumu"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1775-06-01",
+    "b": "Ebu'z-Zeheb'in Zâhir el-Ömer'e karşı seferde ölümü",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Ebu'z-Zeheb'in olumu"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1775-07-01",
+    "b": "Ebu'z-Zeheb sonrası Muhammediyye-Aleviyye fırka mücadelesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "eyalet ici firka mucadelesi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1786-01-01",
+    "b": "Cezayirli Gazi Hasan Paşa'nın Mısır'a gönderilmesi — merkezin son ciddi müdahalesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "merkezin mudahalesi, dogrudan eyalet"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1798-07-01",
+    "b": "Napolyon'un Mısır'ı işgali — Avrupa'nın Osmanlı çekirdek toprağına ilk doğrudan saldırısı",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Napolyon'un Misir'i (eyaletin kendi topragini) isgali"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1798-07-21",
+    "b": "Ehramlar (İmbâbe) Muharebesi — Kölemen süvarisinin dağılması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "eyalet topraginda muharebe"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1798-09-03",
+    "b": "Osmanlı'nın Fransa'ya savaş ilanı — İngiltere ve Rusya ile ittifak",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "dusuk",
+    "gerekce": "BORDERLINE — asil aktor OSMANLI MERKEZI (savas ilani Istanbul'da), misir-eyaleti dogrudan taraf degil ama olay Misir'i konu aliyor; D111 geregi dusuk guvenle isaretlendi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1799-05-20",
+    "b": "Napolyon'un Akkâ'da durdurulması — Mısır işgalinin en uç noktası",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "orta",
+    "gerekce": "Napolyon'un Misir seferinin devami, Akka'da (Filistin) ama AYNI kampanya"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1801-03-08",
+    "b": "Kavalalı Mehmed Ali Mısır'a çıktı",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Mehmed Ali'nin Misir'a cikisi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1801-10-09",
+    "b": "Mısır'ın Fransızlardan tahliyesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Misir'in Fransizlardan tahliyesi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1802-06-25",
+    "b": "Paris Antlaşması — Fransa ile barışın kurulması",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "dusuk",
+    "gerekce": "BORDERLINE — Paris Antlasmasi Osmanli-Fransa antlasmasi, misir-eyaleti dogrudan taraf degil ama konusu Misir'in tahliyesi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1803-05-01",
+    "b": "Arnavut askerlerinin valiyi devirmesi — üçlü iktidar mücadelesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "eyalet ici uclu iktidar mucadelesi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1805-05-13",
+    "b": "Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi",
+    "kunye": [
+     "misir-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "misir-eyaleti'nin KENDI SON olayi (misir-kavalali'nin f:1805-07-03'unden ~7 hafta once, ulemanin yerel ilani)"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1914-12-18",
+    "b": "Mısır'ın İngiliz himayesine alınması — Osmanlı hükümranlığının sonu",
+    "kunye": [
+     "misir-kavalali"
+    ],
+    "guven": "yuksek",
+    "gerekce": "misir-kavalali'nin KENDI t: alaniyla (1914-12-18) BIREBIR ayni gun — kendi kayip/son olayi"
+   },
+   {
+    "dosya": "misir",
+    "tarih": "1915-01-14",
+    "b": "Birinci Kanal Harekâtı — Osmanlı'nın Süveyş'e taarruzu",
+    "kunye": [],
+    "guven": "dusuk",
+    "gerekce": "REDDEDILDI (D111) — aktor OSMANLI (Suveys'e saldiran taraf), misir-sultanligi/misir-kavalali TARAF degil, sadece savas alani. Kunye YOK, uydurulmadi."
+   },
+   {
+    "dosya": "ozbek",
+    "tarih": "1920-09-02",
+    "b": "Kızıl Ordu Buhara'yı ele geçirdi, emirlik sona erdi",
+    "kunye": [
+     "buhara"
+    ],
+    "guven": "yuksek",
+    "gerekce": "buhara kunyesinin KENDI t: alaniyla (1920-09-02) BIREBIR ayni gun — kendi son olayi"
+   },
+   {
+    "dosya": "sirbistan",
+    "tarih": "1459-06-20",
+    "b": "Semendire'nin düşüşü — Sırp Despotluğu'nun sonu",
+    "kunye": [
+     "sirp-despotlugu"
+    ],
+    "guven": "yuksek",
+    "gerekce": "sirp-despotlugu kunyesinin KENDI t: alaniyla (1459-06-20) BIREBIR ayni gun — kendi son olayi. sirbistan-nemanjic DEGIL (o 1402'de bitti)"
+   },
+   {
+    "dosya": "sirbistan",
+    "tarih": "1463-01-01",
+    "b": "Peç (İpek) Patrikliği kaldırıldı",
+    "kunye": [
+     "sirbistan-eyaleti"
+    ],
+    "guven": "orta",
+    "gerekce": "sirbistan-eyaleti'nin (KITA 1 bu gece yaziyor, f~1459/t~1804) penceresi icinde, dini-idari olay"
+   },
+   {
+    "dosya": "sirbistan",
+    "tarih": "1557-01-01",
+    "b": "Peç Patrikliği ihya edildi (Sokollu Mehmed Paşa)",
+    "kunye": [
+     "sirbistan-eyaleti"
+    ],
+    "guven": "orta",
+    "gerekce": "ayni gerekce, pencere icinde"
+   },
+   {
+    "dosya": "sirbistan",
+    "tarih": "1690-01-01",
+    "b": "Büyük Sırp Göçü (Arsenije III Crnojević)",
+    "kunye": [
+     "sirbistan-eyaleti"
+    ],
+    "guven": "orta",
+    "gerekce": "pencere icinde ama IKINCI aday da olabilir: 'habsburg' (goc edilen taraf) — burada birincil (kaynak/menşe) taraf secildi"
+   },
+   {
+    "dosya": "sirbistan",
+    "tarih": "1739-09-18",
+    "b": "Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü",
+    "kunye": [
+     "sirbistan-eyaleti"
+    ],
+    "guven": "yuksek",
+    "gerekce": "Belgrad Antlasmasi ile sinirin eyalete donmesi, dogrudan eyalet konusu"
+   },
+   {
+    "dosya": "sirbistan",
+    "tarih": "1766-01-01",
+    "b": "Peç Patrikliği kalıcı olarak kaldırıldı",
+    "kunye": [
+     "sirbistan-eyaleti"
+    ],
+    "guven": "orta",
+    "gerekce": "pencere icinde, dini-idari olay"
+   },
+   {
+    "dosya": "sirbistan",
+    "tarih": "1918-12-01",
+    "b": "Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşme",
+    "kunye": [
+     "sirbistan-kralligi"
+    ],
+    "guven": "yuksek",
+    "gerekce": "sirbistan-kralligi kunyesinin KENDI t: alaniyla (1918-12-01) BIREBIR ayni gun — kendi son olayi. sirbistan-eyaleti DEGIL (1804'te bitti)"
+   }
+  ]
+ },
+ "kova_2_ucuncu_taraf": {
+  "toplam": 12,
+  "kimlik_atandi": 10,
+  "bos_yazildi": 1,
+  "olculemedi": 1,
+  "kayitlar": [
+   {
+    "dosya": "hindistan",
+    "tarih": "1761-01-14",
+    "b": "Üçüncü Pânipat Savaşı: Ahmed Şah Dürrânî Marathaları bozguna uğrattı",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "maratha",
+     "afgan-durrani"
+    ],
+    "guven": "yuksek",
+    "gerekce": "D111: gercek iki taraf bunlar (Durrani/Afgan kazandi, Maratha yenildi) — babur-imparatorlugu ve ingiliz-hindistani ikisi de TARAF DEGIL, yalniz tarih penceresi eslesmesiydi. maratha'nin KENDI kronolojisi bu olayi ZATEN 1761-01-14 tarihiyle tasiyor — capraz dogrulandi."
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1786-01-01",
+    "b": "Tîpû Sultan, Osmanlı Sultanı I. Abdülhamid'e ittifak için elçi gönderdi",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "meysur"
+    ],
+    "guven": "yuksek",
+    "gerekce": "D111: gercek aktor Meysur Sultanligi (Tipu Sultan). meysur'un KENDI kronolojisinde AYNI olay 1787-01-01 olarak kayitli (1 yillik fark, ayri bir tutarsizlik notu asagida) — capraz dogrulandi."
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1554-01-01",
+    "b": "Erguniler yıkılıp Sind'de Tarhan hanedanı kuruldu",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "sur-hanedani"
+    ],
+    "kunye": [],
+    "guven": "ölçülemedi",
+    "gerekce": "Ne 'argun' ne 'tarhan' devletler.js'te KUNYE olarak bulunamadi (tarandi) — babur-imparatorlugu/sur-hanedani da GERCEK taraf degil (Sind, Babur/Sur mucadelesinden AYRI bir bolgesel hanedan degisimi). EKSIK KUNYE olarak bildiriliyor."
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1761-01-14",
+    "b": "Marathalar Üçüncü Pânipat'ta ağır yenilgi aldı",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "maratha",
+     "afgan-durrani"
+    ],
+    "guven": "yuksek",
+    "gerekce": "yukaridakiyle AYNI olay, muhtemelen mukerrer kayit — ayni karar"
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1799-07-07",
+    "b": "Rançit Singh Lahor'u ele geçirdi",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "sih-imparatorlugu"
+    ],
+    "guven": "orta",
+    "gerekce": "sih-imparatorlugu'nun KENDI f:'i 1801-04-12 (bu olaydan SONRA) — bu olay kunyenin KURULUS SURECININ bir parcasi (Misir-eyaleti'nin 1517 fetih olayina benzer mantik), pencere disi ama ayni aktorun ONCUL olayi"
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1801-04-12",
+    "b": "Rançit Singh, Mahâracâ unvanıyla taç giydi",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "sih-imparatorlugu"
+    ],
+    "guven": "yuksek",
+    "gerekce": "sih-imparatorlugu'nun KENDI f: alaniyla (1801-04-12) BIREBIR ayni gun — kendi kurulus olayi"
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1830-01-01",
+    "b": "Rançit Singh, Altın Tapınak'ı altın kaplattı",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "sih-imparatorlugu"
+    ],
+    "guven": "yuksek",
+    "gerekce": "pencere icinde (1801-1849), dogrudan hukumdar olayi"
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1839-06-27",
+    "b": "Rançit Singh öldü",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "sih-imparatorlugu"
+    ],
+    "guven": "yuksek",
+    "gerekce": "pencere icinde, kunyenin kendi hukumdarinin olumu"
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1761-01-01",
+    "b": "Haydar Ali, Meysûr'da fiilî iktidarı ele geçirdi",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "meysur"
+    ],
+    "guven": "yuksek",
+    "gerekce": "meysur'un KENDI kronolojisinde AYNI olay ('kurulus' turu) BIREBIR ayni tarihle kayitli — capraz dogrulandi"
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1782-12-07",
+    "b": "Haydar Ali öldü, yerine oğlu Tîpû Sultan geçti",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "meysur"
+    ],
+    "guven": "yuksek",
+    "gerekce": "meysur'un KENDI kronolojisinde AYNI olay BIREBIR ayni tarihle kayitli — capraz dogrulandi"
+   },
+   {
+    "dosya": "hindistan",
+    "tarih": "1780-01-01",
+    "b": "Tîpû Sultan'ın ordusunda roket topçuluğu (Mysore roketleri) geliştirildi",
+    "adaylar": [
+     "babur-imparatorlugu",
+     "ingiliz-hindistani"
+    ],
+    "kunye": [
+     "meysur"
+    ],
+    "guven": "yuksek",
+    "gerekce": "pencere icinde (1761-1799), dogrudan Meysur'un kendi askeri gelisimi"
+   },
+   {
+    "dosya": "ozbek",
+    "tarih": "1569-01-01",
+    "b": "Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
+    "adaylar": [
+     "buhara",
+     "hive"
+    ],
+    "kunye": [],
+    "guven": "dusuk",
+    "gerekce": "REDDEDILDI (D111+D121) — ne 'buhara' ne 'hive' bu seferin GERCEK tarafi (ikisi de yalnizca BOLGESEL komsuluk yuzunden aday olmus, D121: komsuluk ipucudur kanit degildir). GERCEK taraflar Osmanli-Kirim (saldiran) ve Rusya (savunan) — 'kirim' devletler.js'te MEVCUT ama bu kayit onun icin DEGIL (zaten kirim/osmanlilar kendi kronolojisinde olmasi beklenir, burada SADECE bu ozbek-dosyali kaydin kendi ucuncu-taraf sorusu cevaplaniyor). EKSIK KUNYE degil, YANLIS DOSYAYA dusmus bir kayit olabilir — coordinatore bildiriliyor."
+   }
+  ]
+ },
+ "eksik_kunye_raporu": [
+  {
+   "ad": "argun / erguni",
+   "gerekce": "Sind Argun hanedani icin devletler.js'te kunye YOK",
+   "vaka_sayisi": 1
+  },
+  {
+   "ad": "tarhan (Sind)",
+   "gerekce": "Sind Tarhan hanedani icin devletler.js'te kunye YOK",
+   "vaka_sayisi": 1
+  }
+ ],
+ "kita1_e_bagimlilik": [
+  "misir-eyaleti",
+  "sirbistan-eyaleti"
+ ],
+ "not": "Bu yama data/'ya YAZILMADI — §7 geregi KITA 3/4'un dosyalari bitince UYGULANACAK. misir-eyaleti ve sirbistan-eyaleti KITA 1 tarafindan BU GECE yaziliyor (PAKET-KUNYE-0911.json'da dogrulandi) — bu iki kunyenin GERCEKTEN yazildigindan EMIN OLUNMADAN inis yapilmasin."
+}
