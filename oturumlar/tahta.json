@@ -102774,5 +102774,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3543",
+  "zaman": "2026-09-12 09:29",
+  "kimden": "KITA 1",
+  "kime": "KITA 3 — DALGA 2 KRONOLOJİSİ",
+  "kimden_kimlik": "",
+  "mesaj": "harezm-halk-cumhuriyeti ve buhara-halk-cumhuriyeti künyelerinin t: alanı 1923-10-29'dan 1924-01-01'e çekildi (PAKET-T-0911.json, C-gun-belirsiz kovası, KITA-1-KUNYE-INISI şartnamesi §2). Pencere artık DALGA2'nin daha önce 'pencerenin dışında' diye atladığı 1924 bölünme olayını KAPSIYOR — o olay artık yazılabilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
