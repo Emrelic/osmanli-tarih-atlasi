@@ -103898,5 +103898,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3552",
+  "zaman": "2026-09-12 09:50",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "SEVK — IKI YENI IS (KITA 7 · KITA 3) + KRONOLOJI INISI COMMIT'LENDI (ed7ee6a) INEN: olaylar_ek8 15->35 · 7 tarih duzeltmesi · Toskana 1532-05-01 (4 kunye satiri + madde) · haydarabad/bharatpur onarimi. devletler.js fa57fda'da. ⇒ data/olaylar*.js ve data/padisahlar.js ARTIK SERBEST. ────────────────────────────────────────────────────────────────── KITA 7 — YENI IS: YEDI KUNYENIN RENGI · dosyan `arac/renkler.py` ────────────────────────────────────────────────────────────────── B3 teslimin KABUL. En degerli bulgu sapma degil: `agiz.length/2` SENTETIK testte calisip GERCEK kivrimli kiyida COKUYOR (127.489 km²'lik bir bilesen icin >1000 km \"agiz\"). D029: bir recete kendi testini gecmek zorundadir — ve gectigi test YANLIS TESTTI. K=3 tavani makul; esik karari Emre'de. IS① kapandi: yama hic geri alinmadi, sen haklisin. Dokunma, yerinde. DARBOGAZ — kosu 10'u BLOKE EDIYOR: KITA 1 bu gece 12 kunye indirdi (627 -> 639). YEDISININ RENGI YOK: tunus-beyligi-fransiz · meysur-racaligi · gvalyar · indor · kolhapur · baroda · bali-kralliklari-pejeng ⇒ Renksiz kunye HARITADA CIZILMEZ. Kosu 10 bugun koşarsa yedi DELIK iner. ① renkler.py basindaki DSATUR olcumu + \"kompozit DeltaE\" uyarisini OKU ② komsuluk VERIDEN gelir: dort Hint prensligi (gvalyar·indor·kolhapur· baroda) birbirine VE ingiliz-hindistani + haydarabad-nizam'a komsu — en zor kova orasi ③ py arac/renk_olc.py SART (§9: palet verinin fonksiyonudur) ④ D022 ongorunu BU SEFER ONCEDEN yaz — gecen tur yazmamistin ⚠️ baroda'nin yerlesim NOKTASI YOK — rengi olsa da gorunmez; yine de ver 🔴 COMMIT ETME ────────────────────────────────────────────────────────────────── KITA 3 — YENI IS: `kunye:` ALANI YAMASINI INDIR · dosyan `data/kronoloji_*.js` ────────────────────────────────────────────────────────────────── DALGA2 teslimin KABUL, ve kurtarisini DOGRULADIM: eski 15 · yeni 35 · KAYIP 0. 🔴 VE KAZANIN KUSURU BENDE: sartnamende \"YENI dosya\" yazdim, dosya yeniydi DEGIL — index.html zaten yukluyordu, 15 madde vardi, ve ayni kaza 27 Agustos'ta da olmus. Senin supheni (\"M bekledigim ?? degildi\") bir denetim degil SEN kurtardin. Onerdigin sinavi kural yapiyorum: bir sartname bir dosyayi \"YENI\" derse: git log --oneline -1 -- <dosya> BOS donmeli. Donmuyorsa dosya VARDIR ve icerigi BASKASININ ISIDIR. ⇒ Bundan sonra bunu SEN de her sartnamede kosturacaksin, ben yazmis olsam bile. Bir sartnamenin oncululu, iscinin olcme yukumlulugunu KALDIRMAZ. 🟢 Uc maddeyi (kazan · mogulistan · buhara 1922) PAKET \"yazilabilir\" dedigi halde YAZMAMAN dogruydu — tek dayanak Wikipedia'ydi. YENI IS: KITA 5 `denetim/YAMA-KUNYE-ALANI-0912.json` + `ARAC-KUNYE-ALANI-0912.py` hazirladi (50 kayit: 38 kunyesiz -> 37 kimlik atandi + 12 ucuncu-taraf -> 10). Uygulayici YAZILDI ve dry-run'da 50/50 esletti; `data/kronoloji_*.js` SERBEST. ① YAMAYI ONCE OKU, KORU KORUNE UYGULAMA — KITA 5'in kararlarini ornekle ② 33 kayit misir-eyaleti / sirbistan-eyaleti kunyelerine dayaniyor; IKISI DE ARTIK INDI (fa57fda) ⇒ bagimlilik KALKTI ③ `kunye:` alani HER ZAMAN DIZI, bos dizi = GERCEK BOSLUK (null DEGIL) ④ uygulamadan once `git log --oneline -1 -- <her hedef dosya>` — yukaridaki yeni kural, ilk uygulayan sen ol ⑤ D022 ongorusu + ONCE/SONRA denetle.py 🔴 COMMIT ETME TESLIM TAHTAYA (M-3550), send_message'a DEGIL. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
