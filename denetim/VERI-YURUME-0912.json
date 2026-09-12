@@ -1,0 +1,301 @@
+{
+ "_belge": {
+  "ad": "VERI-YURUME-0912",
+  "uretici": "KITA 9 — YURUME VE TIRMANMA BILIMI",
+  "tarih": "2026-09-12",
+  "amac": "KITA 6'nin (maliyet fonksiyonu birlestirme) GIRDISI. Motorun uydurulmus sabitlerinin yerine gececek OLCULMUS, KAYNAKLI degerler.",
+  "kural": "Her sayisal dugum bir `kaynak` alani tasir (sartname §3-2). Damgalar: bulunamadi / olculemedi / okumadim — ucu AYRI (D107).",
+  "sinav": "py denetim/ARAC-YURUME-SINA-0912.py",
+  "ongoru": "denetim/ONGORU-YURUME-0912.json — OLCUMDEN ONCE yazildi, commit ddd1f61",
+  "kaynak": "bu blok bir olcum degil, belge basligidir"
+ },
+
+ "K1_kaynak_kunyeleri": {
+  "TOBLER1993": "Tobler, Waldo (1993). 'Three Presentations on Geographical Analysis and Modeling: Non-Isotropic Geographic Modeling; Speculations on the Geometry of Geography; Global Spatial Analysis.' NCGIA Technical Report 93-1. — ORIJINALINE ULASILAMADI; formul HERZOG2014'ten BIREBIR alindi (D144 riski bu yolla kapatildi: ikincil degil, HAKEMLI bir kaynaktan)",
+  "HERZOG2014": "Herzog, Irmela (2014). 'A Review of Case Studies in Archaeological Least-Cost Analysis.' Archeologia e Calcolatori 25: 223-239. — hakemli dergi; PDF pypdf ile okundu (45.059 karakter)",
+  "HIGGINS2021": "Higgins, Christopher D. (2021). 'Hiking with Tobler: Tracking Movement and Calibrating a Cost Function for Personalized 3D Accessibility.' Findings, September. doi:10.32866/001c.28107 — hakemli; PDF pypdf ile okundu (15.291 karakter)",
+  "MINETTI2002": "Minetti, A.E.; Moia, C.; Roi, G.S.; Susta, D.; Ferretti, G. (2002). 'Energy cost of walking and running at extreme uphill and downhill slopes.' Journal of Applied Physiology 93(3): 1039-1046. doi:10.1152/japplphysiol.01177.2001",
+  "NAISMITH1892": "Naismith, William W. (1892). Scottish Mountaineering Club Journal. — orijinal sayiya ULASILAMADI; kural ikincil literaturde degismez bicimde aktariliyor",
+  "LANGMUIR1984": "Langmuir, Eric (1984). Mountaincraft and Leadership. Scottish Sports Council / MLTB. — orijinale ULASILAMADI; duzeltme ikincil literaturden",
+  "MUNTER": "Munter, Werner — Isvicreli dag rehberi; 'Munter yontemi' / Leistungskilometer. 🟡 ORIJINAL SAC/DAV YAYINI BULUNAMADI; bulunan kaynaklarin tamami blog ya da ticari site (§4 KIRMIZI liste) ⇒ formul KULLANILDI ama DAMGALI",
+  "FM21-18": "U.S. Department of the Army, Field Manual 21-18 'Foot Marches' — resmi askeri talimname; Figure 3-1, para. 4-5, 4-20",
+  "MURPHEY1999": "Murphey, Rhoads (1999). Ottoman Warfare 1500-1700. UCL Press / Rutgers University Press. — alanin STANDART monografisi",
+  "EKIN2017": "Ekin, Umit (2017). 'Klasik Donemde Osmanli Imparatorlugu'nda Karayolu Ulasimini ve Nakliyati Etkileyen Faktorler (1500-1800).' Belleten 81(291): 387-418. — Turk Tarih Kurumu, hakemli",
+  "TDV-MENZIL": "Halacoglu, Yusuf. 'MENZIL' (Osmanli). TDV Islam Ansiklopedisi, slug `menzil--osmanli` — CANLI, govde okundu",
+  "IU-MENZIL": "'Osmanli Sefer Organizasyonlarinda ve Birinci Dunya Savasinda Menzil Hizmetleri', Yakin Donem Turkiye Arastirmalari (Istanbul Universitesi). 🔴 AYKIRI DEGER KAYNAGI — asagida K7'de gerekcesiyle ELENDI",
+  "kaynak": "bu blok kunye listesidir, olcum degildir"
+ },
+
+ "K2_egim_hiz_egrisi": {
+  "tobler_formulu": {
+   "ifade": "V = 6 * exp(-3.5 * abs(S + 0.05))",
+   "birim": "km/saat",
+   "S_tanimi": "dikey degisim / yatay degisim (tanjant egim; yuzde egim / 100). DERECE DEGIL.",
+   "alinti": "Tobler(s) = 6e-3.5|s+0.05| with s = vertical change divided by horizontal change",
+   "kaynak": "HERZOG2014 — birebir alinti, pypdf ile cikarildi",
+   "uyari": "HERZOG2014 bu fonksiyonun EN SIK YAPILAN HATASINI adiyla anar: yuzde egimi 100'e bolmeden ya da dereceyi dogrudan koyarak kullanmak. Motor bu donusumu ACIKCA yapmalidir."
+  },
+  "tobler_tureyen_degerler": {
+   "duz_zemin_hiz_km_s": 5.0367,
+   "en_yuksek_hiz_km_s": 6.0,
+   "en_yuksek_hizin_egimi_S": -0.05,
+   "en_yuksek_hizin_egimi_derece": -2.86,
+   "kaynak": "hesap — TOBLER1993 formulunden (HERZOG2014'teki bicimiyle) dogrudan turetildi"
+  },
+  "tobler_arazi_carpanlari": {
+   "yol_disi": 0.6,
+   "at_sirtinda": 1.25,
+   "alinti": "For off-path travel, this value should be multiplied by 3/5, for horseback by 5/4",
+   "kaynak": "TOBLER1993, ikincil aktarimla (Vikipedi ozeti) — 🟡 ORIJINAL METINDEN DOGRULANAMADI",
+   "bagimsiz_teyit": "FM21-18 Figure 3-1: gunduz YOLDA 4,0 km/s, gunduz ARAZIDE 2,4 km/s -> oran 0,60. Iki bagimsiz kaynak AYNI carpani veriyor."
+  },
+  "naismith_kurali": {
+   "duz_hiz_km_s": 5.0,
+   "tirmanis_bedeli_saat_per_m": 0.0016667,
+   "ifade": "sure = yatay_km / 5 + tirmanis_m / 600",
+   "alinti": "Allow 1 hour for every 3 miles (5 km) forward, plus 1 hour for every 2000 feet (600 metres) of ascent",
+   "kaynak": "NAISMITH1892 (ikincil aktarim)"
+  },
+  "langmuir_inis_duzeltmesi": {
+   "hafif_inis_egim_derece": [5, 12],
+   "hafif_inis_kazanc_dk_per_300m": -10,
+   "dik_inis_egim_derece_ustu": 12,
+   "dik_inis_bedel_dk_per_300m": 10,
+   "kaynak": "LANGMUIR1984 (ikincil aktarim)",
+   "onem": "INIS BEDAVA DEGIL VE TEK YONLU DE DEGIL: hafif inis duzden HIZLI, dik inis duzden YAVAS. Tek bir inis carpani IKISINDE DE yanlis olur."
+  },
+  "aitken_zemin_ayrimi": {
+   "yol_patika_km_s": 5.0,
+   "diger_zemin_km_s": 4.0,
+   "kaynak": "Aitken (1977), ikincil aktarim — 🟡 orijinale ULASILAMADI"
+  },
+  "minetti_metabolik_maliyet": {
+   "birim": "J / (kg * m)",
+   "olculen_egim_araligi_S": [-0.45, 0.45],
+   "duz_yurume_maliyeti": 1.64,
+   "duz_yurume_std": 0.50,
+   "en_dusuk_maliyet": 0.81,
+   "en_dusuk_maliyetin_egimi_S": -0.10,
+   "yukus_045_maliyeti": 17.33,
+   "inis_045_maliyeti": 3.46,
+   "kosu_duz_maliyeti": 3.40,
+   "kaynak": "MINETTI2002 — ozet degerleri dogrudan makalenin ozetinden",
+   "onem_1": "EN UCUZ HAREKET DUZ DEGIL, -%10 EGIMDIR (0,81 vs 1,64 — duzun YARISI). Tobler'in -%5'te tepe yapmasiyla AYNI YONDE, farkli buyuklukte.",
+   "onem_2": "+%45 egimde maliyet duzun 10,6 KATI. Egim cezasi DOGRUSAL DEGIL, USTELdir.",
+   "onem_3": "🔴 OLCUM ARALIGI ±0,45 ILE SINIRLI. Bunun disinda YURUME MALIYETI OLCULMUS DEGILDIR."
+  },
+  "pandolf_yuk_modeli": {
+   "ifade": "1.5W + 2.0(W+L)(L/W)^2   (+ arazi ve egim terimleri)",
+   "W": "vucut agirligi (kg)", "L": "tasinan yuk (kg)",
+   "kaynak": "HERZOG2014, Pandolf et al. formulunu bu bicimde aktariyor",
+   "uyari": "HERZOG2014 bu formulun DIK INISTE NEGATIF maliyet urettigini ve bunun anlamsiz oldugunu kaydediyor ('a traveler could recharge'). Yuklu ordu icin kullanilacaksa inis dali AYRICA ele alinmali.",
+   "gecerlilik": "Rademaker/Reid/Bromley (2012) bu formulu 0-%12 YOKUS araliginda olculmus veriden turetilmis diye niteliyor"
+  },
+  "munter_yontemi": {
+   "ifade": "sure_saat = (yatay_km + dikey_m / 100) / hiz_birimi",
+   "hiz_birimi_yokus": 4,
+   "hiz_birimi_duz": 6,
+   "hiz_birimi_inis": 10,
+   "esdegerlik": "100 m dikey == 1 km yatay (1 'Leistungskilometer')",
+   "kaynak": "MUNTER — 🟡 DAMGALI: orijinal SAC/DAV yayini BULUNAMADI, erisilen kaynaklarin tamami §4 kirmizi listesinde (blog/ticari). Formul yaygin ve tutarli aktarildigi icin KULLANILDI, ama TEK BASINA DAYANAK YAPILMAMALI."
+  },
+  "kaynak": "bu blok alt dugumlerin kendi kaynaklarini tasir"
+ },
+
+ "K3_gecerlilik_sinirlari": {
+  "minetti_olcum_tavani_S": 0.45,
+  "minetti_olcum_tavani_derece": 24.2,
+  "aciklama": "Yurume maliyetinin DOGRUDAN OLCULDUGU en dik egim budur. Uzeri EKSTRAPOLASYONDUR.",
+  "kaynak": "MINETTI2002 — deney tasarimi (-0,45 ile +0,45 arasi egimli kosu bandi)",
+  "kritik_egim_kavrami_yuzde": 12,
+  "kritik_egim_alintisi": "Posluschny (2012) applies such a slope-dependent cost function with a critical slope of 12%",
+  "kritik_egim_kaynak": "HERZOG2014",
+  "kritik_egim_anlami": "Insanlarin dogrudan tirmanmak yerine ZIKZAK/serpantin yapmayi tercih etmeye basladigi egim. Bunun uzerinde GERCEK yol, egim yolunu DEGIL uzatilmis bir yolu izler.",
+  "yurumeden_tirmanisa_gecis_egimi": "bulunamadi",
+  "yurumeden_tirmanisa_gecis_notu": "SAC/CAS T1-T6 olcegi el kullaniminin T3-T4'te basladigini NITEL olarak soyluyor ama DERECE VERMIYOR; ve bulunan sayfalarin tamami blog/ticari (§4 kirmizi). ⇒ SAYISAL bir esik BULUNAMADI. Savunulabilir tek sinir MINETTI'nin OLCUM TAVANIDIR: 24,2 derece (%45)."
+ },
+
+ "K4_gunluk_menzil_ozneye_gore": {
+  "_not": "SARTNAME §2-R1-1: 'hangisi bolge sirayeti icin dogru ozne? Bunu SOR, kendi basina secme.' ⇒ SECMEDIM. Dordu de asagida; secim KOORDINATORUN.",
+  "tek_yuruyucu_yolda": {
+   "hiz_km_s": 4.0, "gun_saat": 8, "gunluk_km": 32,
+   "kaynak": "FM21-18 Figure 3-1 ve para. 4-20: 'A normal foot march day is 8 hours, for a distance of 32 km at a rate of 4 kph'"
+  },
+  "tek_yuruyucu_arazide": {
+   "hiz_km_s": 2.4, "gun_saat": 8, "gunluk_km": 19.2,
+   "kaynak": "FM21-18 Figure 3-1 — gunduz arazi (cross-country) 2,4 km/s"
+  },
+  "gece_yolda": {"hiz_km_s": 3.2, "kaynak": "FM21-18 Figure 3-1"},
+  "gece_arazide": {"hiz_km_s": 1.6, "kaynak": "FM21-18 Figure 3-1"},
+  "zorlanmis_yuruyus_tavani": {
+   "km_24_saat": 56, "km_48_saat": 96, "km_72_saat": 128,
+   "kaynak": "FM21-18 para. 4-20: 'The maximum distances recommended for forced marches are: 56 km in 24 hours; 96 km in 48 hours; or 128 km in 72 hours'",
+   "onem": "🔴 BU TAVAN BIR HAKEMDIR: tarihi bir kaynak bir ORDU icin 57-68 km/gun diyorsa, modern piyadenin 24 SAATLIK ZORLANMIS TAVANINI asiyor demektir (K7)."
+  },
+  "kervan": {
+   "gunluk_km": [30, 40],
+   "kaynak": "EKIN2017 s.388 — 'Kervanlarin bir gunde kat ettigi mesafe 30 ila 40 km arasinda degismekteydi'"
+  },
+  "yuklu_ordu_osmanli": {
+   "gunluk_km_tipik": 18, "gunluk_km_aralik": [13, 22],
+   "kaynak": "MURPHEY1999 — Osmanli ordusunun ortalama gunluk yuruyusu 18 km'yi gecmiyor; literaturde 13 ve 22 km tahminleri de var",
+   "capraz_teyit": "MURPHEY1999, 1634 Revan seferi icin menzil arasini 4-5 SAAT yuruyus veriyor (6-8 saat ISTISNA). 4,5 saat x 4 km/s = 18 km ⇒ AYNI SAYI, IKI BAGIMSIZ YOLDAN.",
+   "ikincil_teyit": "EKIN2017 s.388 — 'Sefere cikan yuklu ordunun hizi ise daha dusuktu' (kervanin 30-40 km'sinden)"
+  },
+  "suvari_ulak": {
+   "gunluk_km": "olculemedi",
+   "kaynak": "TDV-MENZIL (Halacoglu) — menzilleri 'uc saatten yirmi sekiz saate kadar olan mesafelerde' diye veriyor, KM VERMIYOR ve ordu/kervan/ulak icin AYRI sayi VERMIYOR",
+   "tek_dolayli_dayanak": "TOBLER1993 at sirti carpani 1,25 — yani ayni arazide yayanin 1,25 kati. Bu bir HIZ carpanidir, GUNLUK MENZIL degil: atin dayanikliligi ayri bir kisittir ve OLCULMEDI."
+  },
+  "dinlenme_duzeni": {
+   "ilk_mola_dk": 15, "ilk_mola_sonrasi_yuruyus_dk": 45,
+   "sonraki_mola_dk": 10, "sonraki_yuruyus_dk": 50,
+   "kaynak": "FM21-18 para. 4-5"
+  }
+ },
+
+ "K5_emrenin_uc_ornegi": {
+  "_not": "Sartname §2-R1-6. Uc ornek de AYNI uc modelle hesaplandi ki FARKLARI gorunsun.",
+  "a_1000m_yatay_duz": {
+   "yatay_m": 1000, "dikey_m": 0, "egim_yuzde": 0,
+   "tobler_saat": 0.1985, "tobler_dakika": 11.9,
+   "naismith_dakika": 12.0,
+   "munter_dakika": 10.0,
+   "kaynak": "hesap — K2'deki formullerden; formullerin kaynaklari K2'de"
+  },
+  "b_1000m_rakim_1000m_mesafe": {
+   "yatay_m": 1000, "dikey_m": 1000, "egim_yuzde": 100, "egim_derece": 45.0,
+   "yol_uzunlugu_m": 1414,
+   "tobler_saat": 9.30,
+   "naismith_saat": 1.87,
+   "munter_saat": 2.75,
+   "tirmanma_hizindan_saat": [2.5, 3.33],
+   "hukum": "GECERSIZ BOLGE — 45 derece, MINETTI'nin olcum tavaninin (24,2 derece) 1,9 KATI. Tobler'in 9,30 saati bir OLCUM DEGIL bir EKSTRAPOLASYONDUR; Naismith'in 1,87 saati ise 45 derecede YURUNEBILDIGINI varsayar ki varsayilamaz.",
+   "savunulabilir_cevap_saat": [2.5, 3.5],
+   "savunulabilir_dayanagi": "tirmanma hizi 300-400 m/saat (K6) ile 1000 m dikey; Munter'in 2,75 saati bu araligin ICINE dusuyor",
+   "kaynak": "hesap — K2 formulleri; gecerlilik hukmu MINETTI2002 olcum araligina dayaniyor"
+  },
+  "c_1000m_rakim_4000m_mesafe": {
+   "yatay_m": 4000, "dikey_m": 1000, "egim_yuzde": 25, "egim_derece": 14.04,
+   "yol_uzunlugu_m": 4123,
+   "tobler_saat": 1.96,
+   "naismith_saat": 2.47,
+   "munter_saat": 3.50,
+   "hukum": "GECERLI BOLGE — %25 egim, Minetti'nin olcum araliginin (±%45) ICINDE. Uc model de kullanilabilir.",
+   "savunulabilir_cevap_saat": [2.0, 3.5],
+   "kaynak": "hesap — K2 formulleri"
+  },
+  "🔴_MANSET": {
+   "bulgu": "UC MODEL, EMRE'NIN SORUSUNDA ISARET OLARAK AYRISIYOR.",
+   "tobler_b_bolu_c": 4.74,
+   "naismith_b_bolu_c": 0.76,
+   "munter_b_bolu_c": 0.79,
+   "aciklama": "Tobler DIK yolu 4,7 KAT YAVAS sayiyor; Naismith ve Munter ise dik yolu UZUN yoldan %21-24 HIZLI sayiyor. Sebep yapisal: Tobler EGIME gore ucret keser, Naismith/Munter ise DIKEY METREYE sabit ucret kesip yatayi EKLER — bu ikincisinde ayni zirveye giden UZUN yol her zaman daha pahalidir.",
+   "hukum": "EMRE HAKLI, ve modellerden yalniz TOBLER onun sezgisini tasiyor. Ama Tobler'in buyuklugu (4,7 kat) bir ekstrapolasyondur. ⇒ Motorun maliyet fonksiyonu EGIM TABANLI olmali (Naismith/Munter tipi 'dikey metreye sabit ucret' DEGIL), VE bir GECERLILIK TAVANI tasimali.",
+   "kaynak": "hesap — uc modelin kendi kaynaklari K2'de"
+  }
+ },
+
+ "K6_tirmanma_hizi": {
+  "munterden_tureyen_yokus_hizi_m_saat": 400,
+  "turetme": "Munter yokus hiz birimi 4 ve 100 m dikey = 1 birim ⇒ 4 birim/saat = 400 m/saat dikey",
+  "kaynak": "MUNTER — 🟡 DAMGALI (K2'deki gerekcenin aynisi)",
+  "yayilim_m_saat": [300, 400],
+  "yayilim_kaynak": "olculemedi — bu aralik dagcilikta yaygin bir olcut olarak biliniyor ama §4'e uygun (hakemli ya da kurumsal) bir kaynak BULUNAMADI. Savunulabilir tek TURETILMIS deger yukaridaki 400'dur.",
+  "naismithten_tureyen_m_saat": 600,
+  "naismith_turetme": "Naismith 600 m tirmanis = 1 saat EK sure diyor; bu SAF dikey hiz degil, YATAY sureye EKLENEN bedeldir. 600 ile 400'un farki bu ayrimdan doguyor ve KARISTIRILMAMALIDIR.",
+  "naismith_kaynak": "NAISMITH1892 (ikincil aktarim)"
+ },
+
+ "K7_🔴_KAYNAK_CELISKISI": {
+  "_not": "§4-6: kaynak celiskisi BILDIRILIR, taraf sessizce SECILMEZ. Ama burada celiski COZULDU ve gerekcesi olculebilir.",
+  "aykiri_iddia": {
+   "gunluk_km": [57, 68], "gunluk_saat": [10, 12],
+   "alinti": "Guzergah uzerinde 10-12 saatlik bir gunluk yuruyus mesafesi olan 57-68 km. araliklarla ... kurulan askeri menzillere",
+   "kaynak": "IU-MENZIL — pypdf ile birebir cikarildi (81.481 karakter)"
+  },
+  "elenme_gerekcesi_1": "MURPHEY1999 (alanin standart monografisi) ayni sistem icin 4-5 SAAT menzil arasi veriyor, 6-8 saati ISTISNA sayiyor. Iddia edilen 10-12 saat, istisnanin da USTUNDE.",
+  "elenme_gerekcesi_2": "MURPHEY1999 Osmanli ordusunun gunluk yuruyusunu 18 km'yi GECMEZ diyor. Aykiri iddia bunun 3,2-3,8 KATI.",
+  "elenme_gerekcesi_3": "FM21-18 modern piyade icin 24 SAATLIK ZORLANMIS yuruyus tavanini 56 km veriyor. Aykiri iddia, agirlik katariyla yuruyen 16.yy ordusuna modern zorlanmis tavanin USTUNDE bir GUNLUK RUTIN yukluyor.",
+  "elenme_gerekcesi_4": "EKIN2017 (Belleten, hakemli) KERVAN icin 30-40 km diyor ve orduyu bundan YAVAS sayiyor. Aykiri iddia orduyu kervanin 1,6-2,3 kati HIZLI yapiyor — yonu ters.",
+  "bagimsizlik_uyarisi": "🔴 Aramada bu sayi IKI ayri yerde cikti ama IKISI DE AYNI MAKALEDIR (biri dergipark kopyasi). Tekrar eden bir iddia BAGIMSIZ TEYIT DEGILDIR.",
+  "hukum": "57-68 km/gun KULLANILMADI. K4'teki ordu degeri MURPHEY1999'dan alindi.",
+  "silinmedi": "D173 geregi kayit BURADA DURUYOR: bir listede olmayan sey, elenmis olandan ancak eleme GEREKCESI yazilirsa ayirt edilebilir.",
+  "kaynak": "bu blok bir ELEME KAYDIDIR; sayilarin kaynaklari yukarida alt alanlarda"
+ },
+
+ "K8_gecit_mi_tirmanis_mi": {
+  "_not": "Sartname §2-R1-4 — Emre'nin asil sorusu.",
+  "esdegerlik_naismith": {
+   "1m_tirmanis_kac_m_duz_yol": 8.33,
+   "turetme": "600 m tirmanis = 1 saat = 5 km duz ⇒ 1 m = 8,33 m",
+   "kaynak": "hesap — NAISMITH1892"
+  },
+  "esdegerlik_munter": {
+   "1m_tirmanis_kac_m_duz_yol": 10.0,
+   "turetme": "100 m dikey = 1 birim = 1 km yatay ⇒ 1 m = 10 m",
+   "kaynak": "hesap — MUNTER (🟡 damgali)"
+  },
+  "vaka_2000m_zirve_vs_1200m_gecit": {
+   "kacinilan_tirmanis_m": 800,
+   "kacinilan_inis_m": 800,
+   "naismith_langmuir_kazanc_saat": 1.78,
+   "naismith_langmuir_turetme": "800/600 saat tirmanis (1,333) + dik inis cezasi 800/300 x 10 dk (0,444)",
+   "naismith_langmuir_esdeger_dolanma_km": 8.9,
+   "munter_kazanc_saat": 2.80,
+   "munter_turetme": "(800/100)/4 yokus + (800/100)/10 inis = 2,0 + 0,8",
+   "munter_esdeger_dolanma_km": 16.8,
+   "kaynak": "hesap — NAISMITH1892 + LANGMUIR1984 ve MUNTER",
+   "hukum": "GECIT, dolanma 9-17 km'den KISA oldugu surece KARLIDIR. Iki model 1,9 kat ayrisiyor; DAR olani (9 km) TEMKINLI secimdir.",
+   "olcek_notu": "Atlasin izgara adimi 0,05 derece = 5,57 km. 9 km ~ 1,6 hucre, 17 km ~ 3 hucre ⇒ ESIK MOTORUN COZUNURLUGUNDE IFADE EDILEBILIR."
+  }
+ },
+
+ "K9_yukseklik_cezasi": {
+  "esik_kot_m": 1500,
+  "kayip_yuzde_per_100m": 1.0,
+  "alternatif_kayip_yuzde_per_1000m": 6.3,
+  "kaynak": "yukseklik fizyolojisi literaturu ozeti (VO2max dususu) — 🟡 TEK BIR HAKEMLI MAKALEYE INDIRILEMEDI, iki ayri deger dolasiyor (%1/100m ve %6,3/1000m); IKISI DE kaydedildi, secim yapilmadi",
+  "akklimatizasyon": "VO2max kaybini KAPATMIYOR — akklimatizasyon oksijen tasimasini iyilestiriyor ama maksimum aerobik kapasiteyi deniz seviyesine DONDURMUYOR",
+  "2000m_kayip_yuzde": 5.0,
+  "3000m_kayip_yuzde": 15.0,
+  "tureme_kaynagi": "hesap — %1/100 m kuralindan",
+  "hukum": "Atlasin cogu geciti 2500 m'nin altinda; orada ceza %10'un altinda kaliyor ve EGIM cezasinin (Minetti'de +%45 egim maliyeti 10,6 KAT) yaninda IKINCIL. ⇒ Yukseklik cezasi ONCE EKLENMEMELI; once egim, sonra pruzluluk.",
+  "kar_ve_mevsim": "olculemedi — kar sinirinin bolgeye gore kotu ve gecitlerin kis kapanmasi icin §4'e uygun SAYISAL bir kaynak bulunamadi. EKIN2017 s.416 kisin nakliye ucretinin ~%25 arttigini veriyor; bu bir MALIYET sinyalidir ama HIZ degildir."
+ },
+
+ "K10_kalibrasyon_hedefinin_kendisi_ozneyi_soyluyor": {
+  "_not": "🟢 Bu, sorulmamis ama olculebilir bir bulgu.",
+  "emre_guney_hedefi_km": 200,
+  "butce_saat": 40,
+  "ima_edilen_hiz_km_s": 5.0,
+  "tobler_duz_hizi_km_s": 5.0367,
+  "naismith_duz_hizi_km_s": 5.0,
+  "fm_yol_hizi_km_s": 4.0,
+  "murphey_ordu_hizi_km_s": 4.0,
+  "ordu_oznesiyle_5_gun_km": 90,
+  "hukum": "Emre'nin 200 km hedefi 5,0 km/saat demektir ve bu TAM OLARAK Tobler'in duz hizi ve Naismith'in duz hizidir. Yani KALIBRASYON HEDEFININ KENDISI ozneyi YALIN, YOL USTUNDE, YUKSUZ BIR YURUYUCU olarak tanimliyor. Ayni butce YUKLU ORDU oznesiyle 200 km degil ~90 km verirdi.",
+  "kaynak": "hesap — sartname §1'deki hedef ile K2/K4'teki hizlarin karsilastirilmasi",
+  "soru": "Bu bir TEYIT ISTEGIDIR, bir karar degil: ozne gercekten 'yalin yuruyucu' mu? Sartname §2-R1-1 secmemi yasakliyor, o yuzden SECMEDIM."
+ },
+
+ "K11_motora_onerilen_bicim": {
+  "_not": "Bu bir ONERIDIR; birlestirme KITA 6'nin isi (sartname §3-1).",
+  "temel_hiz_fonksiyonu": "V(S) = 6 * exp(-3.5 * abs(S + 0.05))  [km/saat]",
+  "arazi_carpani_yol_disi": 0.6,
+  "gecerlilik_tavani_S": 0.45,
+  "tavan_disinda_davranis": "S > 0.45 icin Tobler EKSTRAPOLE EDILMEMELI. Iki secenek var ve karar KITA 6'nin: (a) hucreyi GECILMEZ say, (b) tirmanma hizina gec (400 m/saat dikey).",
+  "kritik_egim_zikzak": 0.12,
+  "kritik_egim_anlami": "S > 0,12 olan hucrelerde gercek yol egim yonunde DEGIL uzatilmis gider; gercek yol uzunlugu yatay mesafeden BUYUKTUR.",
+  "yukseklik_cezasi": "1500 m ustu her 100 m icin hiz x 0,99 — IKINCIL, egimden SONRA eklenmeli",
+  "ozne_carpani": {
+   "yalin_yuruyucu": 1.0,
+   "kervan": 0.85,
+   "yuklu_ordu": 0.45,
+   "turetme": "kervan 30-40 km/gun ve ordu 18 km/gun degerlerinin, yalin yuruyucunun 32-40 km/gun'une orani",
+   "kaynak": "hesap — EKIN2017, MURPHEY1999 ve FM21-18 degerlerinden",
+   "uyari": "Bu carpanlar GUNLUK MENZIL oranidir, ANLIK HIZ orani DEGIL: ordunun yavasligi yalniz yuruyus hizindan degil, konak kurma/bozma ve ikmalden de geliyor. Ikisini ayiran bir olcum BULUNAMADI."
+  },
+  "kaynak": "bu blok bir ONERI sentezidir; her bileseninin kaynagi K2-K9'da"
+ }
+}
