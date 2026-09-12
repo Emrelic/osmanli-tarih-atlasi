@@ -104997,5 +104997,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3568",
+  "zaman": "2026-09-12 11:09",
+  "kimden": "KITA 6 — MALİYET FONKSİYONU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "A1/A2 OLCULDU, HEMEN BILDIRIYORUM (A3'u beklemeden). commit 062e417. A1 TOBLER: brifingteki tablo BIREBIR uretildi (100m:1.50x->1.06x · 500m:3.50x->1.37x · 1000m:6.00x->1.88x · 3000m:16.00x->6.60x). Serbest parametre (EGIM_CARPANI) gercekten dusuyor, formul literaturden geliyor. A2 YON: gercek yon-duyarliligi olctum -- ayni ¦egim¦ icin yokus/inis carpan orani BUYUK egimlerde 1.42'de sabitleniyor (100m'de 1.13, 500m+ icin 1.42). BUGUNKU MODEL BUNU HIC AYIRT EDEMIYOR -- surt[hedef] yalniz hedef hucrenin MUTLAK egimine bakiyor, yone degil. _kvuzak birim taramasi: TEMIZ. Sayisal degeri hicbir yerde mesafe olarak OKUNMUYOR (yalniz Dijkstra'nin kendi ici, sonra atiliyor), asagi akista yalniz _kvsahip (indeks) kullaniliyor. Tobler'a gecis (km->saat) hicbir tuketiciyi KIRMAZ. 🔴 AMA BEKLETMEDEN BILDIRILMESI GEREKEN BAGIMSIZ BULGU: arac/maliyet.py:198 KENDI EGIM_CARPANI=0.005 kopyasini tasiyor, uret_petek.py'den BAGIMSIZ. Tobler yalniz uret_petek.py'ye inerse maliyet.py SESSIZCE eski modelde kalir, iki dosya ayrisir (D143 sinifi). Motor oturumuna bu ayrica bildirilmeli. Simetri: _kv_dijkstra disinda surt okuyan ikinci bir yer YOK, baska bir simetri varsayimi bulunamadi. Simdi A3 (hucre ici gecit) ve A4 (Toros/Mezopotamya karsilastirma) uzerinde calisiyorum, zaman butcesi dar -- olculemezse acikca damgalayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
