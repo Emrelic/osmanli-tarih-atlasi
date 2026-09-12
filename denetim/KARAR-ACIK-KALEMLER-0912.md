@@ -6,23 +6,38 @@ Hazırlayan: KITA 6 — AÇIK KARARLAR · 12 Eylül 2026 · `data/` yazılmadı,
 
 ## 1. `kacar` — Kaçar hanedanının bitiş günü (t:)
 
-**① NE ÖLÇTÜM:** Ölçen oturum (T ALANI ŞEMASI) iki aday sundu: 1925-10-31
-(Meclis Ahmed Şah'ı hal'etti) / 1925-12-15 (Rızâ Han'ın taç giymesi).
-**AMA künyenin KENDİ dosyasında (satır 155), 7 Ağustos 2026'da yazılmış
-ÜÇÜNCÜ bir tarih zaten duruyor:** TDV `riza-sah-pehlevi` maddesinden
-doğrudan alıntı — *"31 Ocak 1924 tarihinde meclis... Ahmed Şah'ı gıyabında
-tahttan indirerek Kaçar hânedanına son verdi."*
-**② NEYİ BULAMADIM:** Ardıl künye (Pehlevî) `devletler.js`'te henüz YOK —
-"ardılın f: alanıyla tutarlılık" kontrolü bu yüzden yapılamadı, `ölçülemedi`.
-**③ İKİ ŞIK:**
-- A) Ölçen oturumun 1925 adaylarından biri (1925-12-15)
-- B) Künyenin kendi TDV-kaynaklı notu: **1924-01-31**
+🔴 **BU KALEM KOORDİNATÖR TARAFINDAN ÇÜRÜTÜLDÜ VE DÜZELTİLDİ (12 Eylül,
+1.MURAT) — aşağıdaki ilk hüküm YANLIŞTI, kayıt siliniyor değil damgalanıyor.**
 
-⇒ **ÖNERİM: B (1924-01-31).** ÇÜNKÜ: bu proje içinde ZATEN doğrulanmış,
-TDV'den doğrudan alıntılanmış bir tarih — 1925 adayları muhtemelen bu notu
-görmeden üretildi. RİSK: 1924-01-31 "meclisin tahttan indirmesi", fiilî
-iktidar devri biraz sonra olmuş olabilir — küçük bir kavramsal fark, ama
-kaynak açık ve TEK.
+**① NE ÖLÇTÜM (ilk tur):** Ölçen oturum (T ALANI ŞEMASI) iki aday sundu:
+1925-10-31 (Meclis Ahmed Şah'ı hal'etti) / 1925-12-15 (Rızâ Han'ın taç
+giymesi). Künyenin KENDİ dosyasında (satır 155, 7 Ağustos'tan beri) TDV
+`riza-sah-pehlevi` maddesinden bir alıntı duruyordu: *"31 Ocak 1924...
+Kaçar hânedanına son verdi."* Bunu ÖNERİM olarak sundum: 1924-01-31.
+
+🔴 **KOORDİNATÖRÜN DÜZELTMESİ:** Alıntı doğruydu AMA yanlış maddeden —
+künyenin KENDİ BEYAN ETTİĞİ `kaynak:` alanı `"kacarlar"`dır, `riza-
+sah-pehlevi` DEĞİL. `kacarlar` gövdesi yalnız **yıl** veriyor ("1925").
+`riza-sah-pehlevi`nin kendi iç sırası da tutarsız (31 Ocak 1924 → 23 ay
+boşluk → 12 Aralık 1925 şehinşah ilanı) — yaygın tarihleme meclisin
+hal'i **31 EKİM 1925** olduğunu söylüyor (`§4⑥`: canlı+doğru+dolu+KENDİ
+İÇİNDE ÇELİŞİK). `D105`/`D144`: beyan edilen kaynak iddiayı taşımıyordu.
+
+**② DÜZELTİLMİŞ ÖNERİ (koordinatörün, Emre'ye böyle götürülüyor):**
+**`t:"1925-01-01"`** — beyan edilen kaynak (`kacarlar`) yalnız YIL
+veriyor, `§4` gereği tarih alanı kaynağın desteklediği EN KABA GÜVENLİ
+düzeyi taşır; 1924-01-31 çelişkili bir dayanağa sahte GÜN kesinliği
+verirdi. Çelişkinin kendisi künye metnine kaydedilecek.
+
+📌 Ders (D122 ailesi): bulgu boşa gitmedi — bu çelişki ancak alıntı gün
+ışığına çıkarıldığı için görüldü; çürüten koordinatör oldu, bulduran bu
+oturumdu.
+
+⇒ **NİHAİ ÖNERİM (koordinatörün düzeltmesiyle): `t:"1925-01-01"`.**
+ÇÜNKÜ: künyenin beyan ettiği kaynak (`kacarlar`) yalnız yıl veriyor,
+gün-hassasiyetli 1924-01-31 çelişkili bir maddeden geliyordu. RİSK:
+yıl-hassasiyetine düşmek 1925 içindeki gerçek günü (muhtemelen 31 Ekim)
+gizler — ama bu, sahte bir güne bağlanmaktan daha güvenli.
 
 ---
 
@@ -132,7 +147,7 @@ artık dizinde sessizce kaybolmuyor, bkz. `js/app.js` commit `f6bd5b9`).
 
 | # | Kalem | Önerim |
 |---|---|---|
-| 1 | kacar t: | **1924-01-31** (künyenin kendi TDV notu) |
+| 1 | kacar t: | **1925-01-01** (koordinatör düzeltti — beyan edilen kaynak yalnız yıl veriyor) |
 | 2 | mogolistan t: | **1924-11-26** (kurumsal son) |
 | 3 | suud-ucuncu t: | **1932-09-18** (künyenin kendi adı/özeti) |
 | 4 | #7 İbrahim t: | **A — 1648-08-18'e taşı** |
