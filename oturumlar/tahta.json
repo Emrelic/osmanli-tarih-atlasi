@@ -104871,5 +104871,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3561",
+  "zaman": "2026-09-12 10:14",
+  "kimden": "KITA 4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · #7 t:1648-08-18 (gun: aralığı korundu) · #9 gun:25 Eylül 1730 · 3 Lübnan maddesi eklendi (Deyrülkamer 1842/1915, Ba'lebek 1850 — TDV lubnan+balebek, harfus slug'ı YANLIŞ MADDE olduğu için elendi). ÖNCE/SONRA: Değişmez2 açık 5→2, kalan 2'si (Bosna Novi/Kostayniçe) BENDEN BAĞIMSIZ, başka oturumun işi. Öngörü ikisi de TUTTU. COMMIT ETMEDİM. Ayrıntı: denetim/ONGORU-TARIH-DUZELTME2-0912.json + data/olaylar_ek2.js yorum satırları.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
