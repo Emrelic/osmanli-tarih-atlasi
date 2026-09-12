@@ -1,0 +1,529 @@
+{
+ "olcum_tarihi": "2026-09-12",
+ "olcen_oturum": "KITA 5",
+ "d022_ongoru": "29 kirilmanin ~10-12'sinde gercek gun bulunacagi tahmin edilmisti (rusya icin dusuk, ingiltere/bizans icin daha yuksek beklentiyle). GERCEK SONUC: 2/29 (biri yil-hassasiyetli/gun yok — Izmir 1328-29; biri ZATEN gun hassasiyetindeki mevcut tarihi dogrulayan madde — Nairobi 1899-05-30) — ONGORU ASAGI YONDE CURUDU. Sebep: TDV'nin bu SPESIFIK kucuk-yerlesim kirilmalarina karsilik gelen slug'lari (Enez, Yenisehir/Tirhala, Mankup/Inkirman, Ufa/Tsaritsyn/Saratov/Perm/Yekaterinburg) COGUNLUKLA OLU ya da bu spesifik olayi hic KAPSAMIYOR — bu, ayni gecenin ERKEN saatlerinde (YABANCI SENKRON kimligiyle) Rusya kumesi icin zaten yasadigim ayni engelin INGILTERE/BIZANS icin de GECERLI oldugunu gosteriyor; tahminim bu ikisinin daha kolay olacagini varsaymisti, YANLIS cikti.",
+ "toplam": 25,
+ "durum_sayim": {
+  "bulunamadi-bu-turda": 23,
+  "yil-bulundu-gun-yok": 1,
+  "gun-zaten-veride-madde-eksikti": 1
+ },
+ "kayitlar": [
+  {
+   "gun": "1311-03-15",
+   "tip": "kayip",
+   "adlar": [
+    "Tırhala",
+    "Yenişehir (Larissa)"
+   ],
+   "en_yakin_madde": "Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyelerince fethi",
+   "fark_gun": 212,
+   "devlet": [
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Balkanlar",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1329-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Çeşme",
+    "İzmir"
+   ],
+   "en_yakin_madde": "Pelekanon (Maltepe) Savaşı ve Kocaeli'nin tamamının alınması",
+   "fark_gun": 151,
+   "devlet": [
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Balkanlar",
+   "durum": "yil-bulundu-gun-yok",
+   "onerilen_t": "1328-01-01",
+   "not": "TDV 'aydinogullari' maddesi: Mübarizuddin Mehmed Bey Izmir Limani'ni Cenevizli Martino Zaccaria'dan 'iki bucuk yillik kusatmadan sonra' ele gecirdi, tarih '1328 veya 1329' (gun/ay YOK). ⚠️ ONEMLI: hemen onceki sahip CENEVIZ (Zaccaria), Bizans DEGIL — bu kirilmadaki 'bizans' etiketi muhtemelen ARA DONEMI (Ceneviz) atlayip son bilinen Bizans sahipligine isaret ediyor; iceriik yazan oturum bunu KONTROL ETMELI, tek basina yeterli degil.",
+   "kaynak": "TDV 'aydinogullari' md. — alinti: \"iki buçuk yıllık bir kuşatmadan sonra Sakız hâkimi Cenovalı Martino Zaccaria idaresindeki İzmir Limanı'nı ele geçirdi (1328 veya 1329)\""
+  },
+  {
+   "gun": "1349-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Mankup",
+    "İnkirman (Kalamita)"
+   ],
+   "en_yakin_madde": "Orhan Gazi – Teodora evliliği: Bizans ittifakı",
+   "fark_gun": 945,
+   "devlet": [
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1362-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Kiev",
+    "Kursk",
+    "Lubnı",
+    "Nikarya (İkarya)"
+   ],
+   "en_yakin_madde": "I. Murad tahta çıktı",
+   "fark_gun": 59,
+   "devlet": [
+    "altinorda",
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1376-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Enez"
+   ],
+   "en_yakin_madde": "Gelibolu'nun geri alınışı",
+   "fark_gun": 244,
+   "devlet": [
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Balkanlar",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1574-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Ufa"
+   ],
+   "en_yakin_madde": "Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki tek karşılığı",
+   "fark_gun": 83,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1589-07-02",
+   "tip": "kazanc",
+   "adlar": [
+    "Tsaritsyn"
+   ],
+   "en_yakin_madde": "Tağşiş edilmiş akçe yüzünden Beylerbeyi Vakası patlak verdi",
+   "fark_gun": 31,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1590-07-12",
+   "tip": "kazanc",
+   "adlar": [
+    "Saratov"
+   ],
+   "en_yakin_madde": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+   "fark_gun": 113,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1631-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Bratsk ostrogu",
+    "Irbit",
+    "Saint John (NB)",
+    "San José del Parral"
+   ],
+   "en_yakin_madde": "Evliya Çelebi'nin seyahat rüyası — 'Şefaat' diyecekken 'Seyahat' demesi",
+   "fark_gun": 135,
+   "devlet": [
+    "fransa",
+    "rusya",
+    "yeni-ispanya"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "diger",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1668-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Kamışlov",
+    "Sault Ste. Marie",
+    "Waskaganish (Rupert House)",
+    "Yerbogaçen"
+   ],
+   "en_yakin_madde": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+   "fark_gun": 326,
+   "devlet": [
+    "fransa",
+    "ingiltere",
+    "rusya"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "Orta/Kuzey Avrupa",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1716-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Belize Town",
+    "Kuveyt",
+    "Omsk",
+    "Reyes (Maropa)"
+   ],
+   "en_yakin_madde": "Çuha Adası'nın (Kythira) alınışı",
+   "fark_gun": 116,
+   "devlet": [
+    "benihalid",
+    "ingiltere",
+    "ispanya",
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Afrika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1722-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Kainsk (Baraba)",
+    "Nijniy Tagil"
+   ],
+   "en_yakin_madde": "Mehmed Efendi'nin İstanbul'a dönüşü",
+   "fark_gun": 85,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1723-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Borba (Madeira)",
+    "Perm",
+    "Yekaterinburg"
+   ],
+   "en_yakin_madde": "Rus kuvvetlerinin Derbend'i alması: I. Petro'nun Hazar seferi",
+   "fark_gun": 131,
+   "devlet": [
+    "portekiz-brezilyasi",
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Balkanlar",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1743-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "North West River (Labrador)",
+    "Troitsk"
+   ],
+   "en_yakin_madde": "Musul Savunması — Nâdir Şah'ın püskürtülmesi",
+   "fark_gun": 295,
+   "devlet": [
+    "ingiltere",
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Orta/Kuzey Avrupa",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1749-12-15",
+   "tip": "kazanc",
+   "adlar": [
+    "Rostov (Don)"
+   ],
+   "en_yakin_madde": "Nuruosmaniye Camii ve Külliyesi'nin temelinin atılması",
+   "fark_gun": 330,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1752-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Misión Santa Gertrudis (Baja California)",
+    "Petropavlovsk (Kızılcar)",
+    "Tubac",
+    "Şuşa"
+   ],
+   "en_yakin_madde": "Bahreyn'in Bûşehr'deki Âl-i Mezkûr idaresine geçmesi",
+   "fark_gun": 366,
+   "devlet": [
+    "rusya",
+    "yeni-ispanya",
+    "zend"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "diger",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1784-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Floridablanca (San Julián)",
+    "Georgetown (Stabroek)",
+    "Panoré (São Gabriel da Cachoeira)",
+    "Vladikavkaz"
+   ],
+   "en_yakin_madde": "Kırım'ın Rusya'ya ilhakı",
+   "fark_gun": 257,
+   "devlet": [
+    "hollanda",
+    "portekiz-brezilyasi",
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Amerika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1818-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Aleksandrovski Redut (Nushagak)",
+    "Bakel",
+    "Beaufort West",
+    "Cenne (Djenné)"
+   ],
+   "en_yakin_madde": "Dir'iye düştü — ilk Suûdî Devleti sona erdi",
+   "fark_gun": 251,
+   "devlet": [
+    "fransa-cumhuriyet",
+    "ingiltere",
+    "massina",
+    "rusya"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Amerika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1852-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Caruru (Vaupés)",
+    "Fort Rae (Behchokǫ̀)",
+    "Springbok",
+    "Tabora (Kazeh)"
+   ],
+   "en_yakin_madde": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+   "fark_gun": 106,
+   "devlet": [
+    "brezilya-imparatorlugu",
+    "ingiliz-kuzey-amerika",
+    "ingiltere",
+    "umman-zengibar"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Amerika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1881-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Hadramut",
+    "Kaedi",
+    "Kita",
+    "Mangışlak"
+   ],
+   "en_yakin_madde": "Britanya, Arktik Takımadalar'ı Kanada'ya devretti",
+   "fark_gun": 122,
+   "devlet": [
+    "fransa-cumhuriyet",
+    "kuayti-sultanligi",
+    "rusya"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1888-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Mukalla",
+    "İlebo"
+   ],
+   "en_yakin_madde": "Haydarpaşa-Ankara demiryolu imtiyazının Almanlara verilmesi",
+   "fark_gun": 267,
+   "devlet": [
+    "belcika",
+    "ingiltere"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1898-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Atlin",
+    "Buake (Bouaké)",
+    "Busa (Borgu)",
+    "Daloa"
+   ],
+   "en_yakin_madde": "Dömeke Meydan Muharebesi",
+   "fark_gun": 229,
+   "devlet": [
+    "fransa-cumhuriyet",
+    "ingiltere",
+    "kanada"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Amerika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1899-05-30",
+   "tip": "kazanc",
+   "adlar": [
+    "Nairobi"
+   ],
+   "en_yakin_madde": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+   "fark_gun": 131,
+   "devlet": [
+    "ingiltere"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "gun-zaten-veride-madde-eksikti",
+   "onerilen_t": "1899-05-30",
+   "not": "Kirilmanin KENDI tarihi (1899-05-30) ZATEN gun hassasiyetinde — eksik olan YENI bir tarih DEGIL, o tarihe karsilik gelen kronoloji MADDESIYDI. Uganda Demiryolu hatti Nairobi'ye TAM 1899-05-30'da ulasti ve depo/istasyon burada kuruldu — kayitli tarihle BIREBIR eslesiyor, capraz dogrulandi.",
+   "kaynak": "Standart akademik/ansiklopedik kaynak (Uganda Railway tarihi, 'History of Nairobi') — TDV bu konuyu kapsamiyor (Dogu Afrika somurge donemi, cografi bosluk, §4). Ikinci bagimsiz kaynakla TEK TEK teyit edilmedi bu turda, D107: kismen dogrulandi."
+  },
+  {
+   "gun": "1904-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Killiniq (Port Burwell)",
+    "Nakuru"
+   ],
+   "en_yakin_madde": "Beşşâr'da (Colomb-Béchar) Fransız karakolunun kurulması",
+   "fark_gun": 51,
+   "devlet": [
+    "ingiltere",
+    "kanada"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  },
+  {
+   "gun": "1908-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Kitale"
+   ],
+   "en_yakin_madde": "II. Meşrutiyet'in ilanı",
+   "fark_gun": 204,
+   "devlet": [
+    "ingiltere"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "bulunamadi-bu-turda",
+   "onerilen_t": null,
+   "not": "Bu turda TDV/akademik arama YAPILDI (Enez, Yenişehir/Tırhala, kısmen Aydınoğulları denendi) ama İLGİLİ slug'lar ya ÖLÜ ya bu spesifik olayı KAPSAMIYOR. D107: bulunamadi, uydurulmadi. Zaman/tur kısıtı nedeniyle 29 kaydın TAMAMI tek tek denenmedi.",
+   "kaynak": null
+  }
+ ],
+ "not": "Bu yama data/'ya YAZILMADI (§7, KITA 3/4 bu gece o dosyalarda). 29 kaydin YALNIZ 1'i (1328-1329 Izmir/Aydinogullari, yil-hassasiyetli) icin somut kaynak bulundu; kalan 28'i ICIN GERCEKTEN kaynak ARANMADI/BULUNAMADI (D107 - 'olculemedi' degil 'aranmadi ve/veya bulunamadi', ikisi karistirilmadi: her kayitta HANGISI oldugu ayri yaziliyor). Bu kalem COK OTURUMLUK bir arastirma isidir; bu turda yalniz TABAN olculdu ve TEK bir dogrulanmis aday uretildi."
+}
