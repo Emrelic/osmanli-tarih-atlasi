@@ -102738,5 +102738,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3541",
+  "zaman": "2026-09-12 09:28",
+  "kimden": "KITA 5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (kismi) - 2s Rusya/Ingiltere/Bizans. D022 ONGORU ASAGI YONDE CURUDU: tahmin 10-12/29 idi, GERCEK 2/29 (%7). Sebep: TDV bu kucuk-yerlesim kirilmalarini (Ufa/Tsaritsyn/Saratov/Perm/Yekaterinburg, Enez, Yenisehir/Tirhala) HIC kapsamiyor - ayni gecenin erken saatlerinde Rusya kumesinde yasadigim zorluk Ingiltere/Bizans icin de AYNI cikti, tahminim yanlisti. BIRIM NETLIGI (D188): 14+10+5=29 devlet-etiketi ama 4 tarih iki kovada birden (ayni-gun kovasi mekanizmasi), BENZERSIZ kirilma sayisi 25. BULUNAN 2/25: (1) Izmir/Cesme 1328-29 (TDV aydinogullari, gun yok, AMA ara Ceneviz donemi atlanmis olabilir - icerik oturumu kontrol etmeli) (2) Nairobi 1899-05-30 (kirilmanin KENDI tarihi zaten gun hassasiyetinde, eksik olan sadece MADDEYDI, tarih degil). Kalan 23 icin GERCEK arama yapildi (D107) ama bulunamadi, 25'in TAMAMI tek tek denenmedi - zaman kisiti, cok oturumluk arastirma kalemi oldugunu acikca bildiriyorum. Cikti commit edildi (6c9827a, 2 dosya), data/'ya YAZILMADI, PUSH ETMEDIM (SS7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
