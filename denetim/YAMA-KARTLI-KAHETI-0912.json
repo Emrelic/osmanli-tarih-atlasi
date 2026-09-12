@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "olusturan": "KITA 16",
+  "tarih": "2026-09-12",
+  "gorev": "M-3592 IS-5 (H-0010) — Gurcistan uce bolundugu halde haritada iki parca gorunmesi: kartli+kaheti kunye taslagi",
+  "kaynak_arastirma": "denetim/ARASTIRMA-GURCU-0912.md",
+  "🔒_YAZILMADI": "data/devletler.js VE arac/renkler.py calisma agaci KIRLI (baska oturumlar yaziyor) — bu dosya SADECE yamadir, 1.MURAT indirecek.",
+  "ongoru_D022": "M-3594'te tahtaya yazildi: pencere ~1490-1762/1801 beklendi, olcum 1490-01-01->1762-01-01 cikardi (TUTTU, bkz. arastirma dosyasi §6)"
+ },
+
+ "①_yeni_kunye_taslaklari_2": [
+  {
+   "id": "kartli",
+   "ad": "Kartli Krallığı",
+   "tur": "krallik",
+   "bolge": "kafkasya",
+   "f": "1490-01-01",
+   "t": "1762-01-01",
+   "baskent": "Tiflis",
+   "harita_onerisi": "kartli (yeni anahtar — mevcut hiçbir künyeyle çakışmıyor, 627+ mevcut id'de yok)",
+   "ozet": "Gürcistan Krallığı'nın 1490'da üçe bölünmesiyle ortaya çıkan doğu Gürcistan krallığı (bkz. [[gurcistan]] 1490 bölünme, [[imereti]] kardeş künye); başkenti Tiflis, Osmanlı-Safevî mücadelesinin merkezinde kaldı — 1555 Amasya Barışı ile Safevî nüfuzuna, 1578'de Osmanlı işgaline, 1590 Ferhad Paşa Antlaşması ile yeniden Osmanlı nüfuzuna girdi; 1762'de II. Teymuraz'ın ölümü üzerine oğlu II. İrakli (Herakli) tarafından Kaheti ile birleştirilip [[gurcistan]] kimliği altında (Kartli-Kaheti Krallığı olarak) 1801'e dek sürdü. ⚠️ Encyclopaedia Iranica (düşük güvenli — gövde okunamadı, yalnız arama özeti) Kartli'nin 1484'ten itibaren ayrı bir siyasi varlık olduğunu öne sürüyor; TDV ile tutarlılık için künyede 1490 kullanıldı, bkz. ARASTIRMA-GURCU-0912.md §2.",
+   "kaynak": "gurcistan (TDV İslâm Ansiklopedisi, madde: gurcistan) — kartli/kaheti için TDV'de müstakil madde YOK (302, taneciklik boşluğu), taslak mevcut gurcistan künyesinin kendi kronolojisinden türetildi",
+   "kronoloji": [
+    { "t": "1490-01-01", "tur": "kurulus", "b": "Gürcistan Krallığı'nın üçe bölünmesiyle ayrı krallık olarak ortaya çıktı" },
+    { "t": "1555-05-29", "tur": "antlasma", "b": "Amasya Barışı ile (Kaheti'yle birlikte) Safevî nüfuz bölgesine bırakıldı" },
+    { "t": "1578-08-24", "tur": "isgal", "b": "Osmanlı ordusu Tiflis şehrini savaşsız ele geçirdi" },
+    { "t": "1590-03-21", "tur": "antlasma", "b": "Ferhad Paşa Antlaşması ile Osmanlı nüfuzuna resmen bırakıldı" },
+    { "t": "1762-01-01", "tur": "birlesme", "b": "II. Teymuraz'ın ölümü üzerine oğlu II. İrakli (Herakli), Kartli ve Kaheti'yi tek idare altında birleştirdi — bkz. [[gurcistan]] (1762-1801 dönemi)" }
+   ]
+  },
+  {
+   "id": "kaheti",
+   "ad": "Kaheti Krallığı",
+   "tur": "krallik",
+   "bolge": "kafkasya",
+   "f": "1490-01-01",
+   "t": "1762-01-01",
+   "baskent": "Gremi (Zagem) → standart akademik kaynağa göre 1616 sonrası Telavi; TDV bu ayrıntıyı vermiyor",
+   "harita_onerisi": "kaheti (yeni anahtar — çakışma yok)",
+   "ozet": "Gürcistan Krallığı'nın 1490'da üçe bölünmesiyle ortaya çıkan doğu Gürcistan krallığı (bkz. [[gurcistan]], kardeş künye [[kartli]]); 1555 Amasya Barışı ile Kartli'yle birlikte Safevî nüfuzuna bırakıldı, 1578 Osmanlı seferi sonrası ocaklık statüsüyle haraca bağlandı (atlasta bu tâbi dönem Zagem kaydının v: alanında zaten işli, 1578-08-09→1606-01-01); 1762'de II. Teymuraz'ın ölümü üzerine oğlu II. İrakli tarafından Kartli ile birleştirilip [[gurcistan]] kimliği altında sürdü.",
+   "kaynak": "gurcistan (TDV İslâm Ansiklopedisi, madde: gurcistan) — kaheti için TDV'de müstakil madde YOK (302). 1578 ocaklık/haraç alıntısı Zagem kaydının kendi kaynak alanından devralındı (daha önce M-3045'te sınanmış): \"Kahet yöneticileri … haraca bağlandılar. Kahet ülkesi ocaklık olarak … Alexandre'a bırakıldı.\"",
+   "kronoloji": [
+    { "t": "1490-01-01", "tur": "kurulus", "b": "Gürcistan Krallığı'nın üçe bölünmesiyle ayrı krallık olarak ortaya çıktı" },
+    { "t": "1555-05-29", "tur": "antlasma", "b": "Amasya Barışı ile Kartli'yle birlikte Safevî nüfuz bölgesine bırakıldı" },
+    { "t": "1578-08-09", "tur": "vassal", "b": "Osmanlı seferi sonrası Kahet ülkesi ocaklık olarak Kral Alexandre'a bırakılıp haraca bağlandı" },
+    { "t": "1606-01-01", "tur": "vassal", "b": "Ocaklık/haraç düzeninin sona erdiği gün — atlasın kendi verisinden (Zagem kaydının v: alanı) alındı, ayrıca kaynakla DOĞRULANMADI (bulunamadı)" },
+    { "t": "1762-01-01", "tur": "birlesme", "b": "II. Teymuraz'ın ölümü üzerine oğlu II. İrakli, Kaheti ve Kartli'yi tek idare altında birleştirdi — bkz. [[gurcistan]] (1762-1801 dönemi)" }
+   ]
+  }
+ ],
+
+ "②_pencere_sinavi": {
+  "yontem": "Mevcut gurcistan kullanan 16 donemin TAMAMI okundu (bkz. ARASTIRMA-GURCU-0912.md §1); yalniz Tiflis (Kartli) ve Zagem (Kaheti) 'gurcistan 16 dononunden' cekirdek — 13'u sinir yerlesimi (Abhazya/Acara/Samtskhe-Meskheti), kapsam disi birakildi.",
+  "sonuc": "BOSLUK YOK, CAKISMA YOK — 1490-01-01 ve 1762-01-01 uclari mevcut gurcistan kronolojisiyle (bolunme/birlesme kayitlari) BIREBIR ayni gun. 1762-1801 arasini YENI kunyeye gerek kalmadan mevcut gurcistan ustleniyor."
+ },
+
+ "③_onerilen_s_degisikligi_UYGULANMADI": {
+  "not": "Bu bolum yalniz REFERANS icindir — data/yerlesimler.js'e KITA 16 tarafindan YAZILMADI (gorev kapsami disinda, dosya listesi 3 dosyayla sinirliydi). Uygulanacaksa asagidaki iki kayit degisir:",
+  "Tiflis": {
+   "mevcut": "s:[{f:\"1281-01-01\",t:\"1801-09-12\",d:\"gurcistan\"}, ...rusya vb devam ediyor]",
+   "onerilen": "s:[{f:\"1281-01-01\",t:\"1490-01-01\",d:\"gurcistan\"},{f:\"1490-01-01\",t:\"1762-01-01\",d:\"kartli\"},{f:\"1762-01-01\",t:\"1801-09-12\",d:\"gurcistan\"}, ...rusya vb AYNEN devam]"
+  },
+  "Zagem (Kaheti)": {
+   "mevcut": "s:[{f:\"1281-01-01\",t:\"1801-09-12\",d:\"gurcistan\"}, ...], v:[{f:\"1578-08-09\",t:\"1606-01-01\",k:\"Kaheti krallığı (tâbi)\",statu:\"vassal\"}]",
+   "onerilen": "s:[{f:\"1281-01-01\",t:\"1490-01-01\",d:\"gurcistan\"},{f:\"1490-01-01\",t:\"1762-01-01\",d:\"kaheti\"},{f:\"1762-01-01\",t:\"1801-09-12\",d:\"gurcistan\"}, ...AYNEN devam], v: ALANI DEĞİŞMEZ (zaten 1490-1762 penceresinin içinde, opsiyonel: kid:\"kaheti\" eklenebilir)"
+  }
+ },
+
+ "④_renk_onerisi_renklerpy_YAZILMADI": {
+  "kartli": { "hex": "#b5651d", "ad": "toprak/sienna tonu", "min_deltaE94_komsuya": "38.2 (sirvansah)", "min_deltaE94_altliga": "40.8" },
+  "kaheti": { "hex": "#2a7f9e", "ad": "petrol mavisi", "min_deltaE94_komsuya": "33.1 (safevi)", "min_deltaE94_altliga": "47.1" },
+  "kartli_vs_kaheti": "deltaE76 85.9 / deltaE94 43.9 — birbirinden de acikca ayrisiyor",
+  "esik": "renk_olc.py basligi: komsudan >=12, altliktan >=15 (her iki metrikte de kat kat asiliyor)",
+  "sinir": "Elle hesaplanan PROXY (Lab donusumu + CIE76/94 formulu) — renk_olc.py'nin GERCEK Voronoi-komsu tespiti calistirilmadi. Gercek dogrulama ancak bir petek kosusundan SONRA py arac/renk_olc.py ile yapilabilir.",
+  "not_H-0007b": "gurcistan #e020b0 ve karakoyunlu #e018e0 su an neredeyse ayni (Emre'nin sikayeti, KITA 17'nin isi) — kartli/kaheti onerileri bilerek o magenta ailesinden UZAK secildi."
+ },
+
+ "⑤_H-0007a_cevabi_ozet": "Gurcistan Karakoyunlulara TABI DEGILDI. TDV gurcistan + karakoyunlular maddeleri sadece uc akin/seferden bahsediyor (1412-13 Kara Yusuf, 1440 ve 1444/1445 Cihan Sah) ve TDV govdesi acikca yaziyor: 'Harac, tabiyet veya baglilik hakkinda acik bir belirtim yoktur.' 1412'de Gurcu krali Kara Yusuf'a karsi bizzat ittifaka ONCULUK etti (bagimli degil, hasim). Tam detay: ARASTIRMA-GURCU-0912.md §3."
+}
