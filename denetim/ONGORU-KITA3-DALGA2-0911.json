@@ -1,0 +1,16 @@
+{
+  "gorev": "KITA 3 - DALGA 2 KRONOLOJISI",
+  "tarih": "2026-09-12",
+  "asama": "ONGORU - YAZMADAN ONCE (D022)",
+  "mevcut_taban_CLAUDE_md_1_5": {
+    "not": "CLAUDE.md SS1.5 tablosundan alinti - bu bir OLCUM DEGIL, belgenin kendi beyani, ASIL taban py arac/denetle.py CIKTISIYLA ayrica dogrulaniyor (bu dosyadaki 'olcum_ONCESI' anahtarinda)",
+    "degismez_2s_kirilma": 1319,
+    "degismez_2s_acik": 104,
+    "degismez_2s_tavan": 121
+  },
+  "tahmin": {
+    "degismez_2s_acik_SONRASI": "104 (DEGISMEZ KALIR, +-1 icinde)",
+    "gerekce": "Yazilacak 22 maddenin buyuk cogunlugu SIYASI/HANEDAN olaylari (culus, anayasa, olum, kurulus, antlasma) - DOGRUDAN toprak-kazanc/toprak-kayip turunde bir YERLESIM kirilmasina denk gelmiyor. Degismez 2s'nin ACIK sayaci ozellikle YABANCI devletlerin TOPRAK el degistirme kirilmalari icin +-30 gun icinde madde ariyor; bu 22 madde o sinifin DISINDA kaliyor cogunlukla. Istisna olabilecekler: hawaii-kralligi 1894-07-04 (cumhuriyet ilani, olasi hafif toprak/egemenlik anlami tasiyabilir) ve harezm/buhara'nin 1920-1921 kurulus tarihleri (Sovyet ilhaki ile es zamanli olabilir, YERLESIM kirilmasiyla ZATEN eslesmis olabilir - bu durumda YENI madde zaten ACIK olmayan bir kirilmaya EK bilgi ekler, acik sayisini DEGISTIRMEZ).",
+    "risk": "Eger tahminim yanlissa (acik sayisi DEGISIRSE), bu ya (a) bazi maddelerin ASLINDA bir toprak kirilmasiyla +-30 gun icinde eslesip mevcut bir ACIK kirilmayi KAPATTIGI, ya da (b) YENI bir celiski/format hatasi urettigim anlamina gelir - ikisi de OLCULECEK, tahmin edilmeyecek."
+  }
+}
