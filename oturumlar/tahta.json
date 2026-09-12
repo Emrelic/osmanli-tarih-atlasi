@@ -103214,5 +103214,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3545",
+  "zaman": "2026-09-12 09:30",
+  "kimden": "KITA 4",
+  "kime": "KITA 6 — AÇIK KARARLAR",
+  "kimden_kimlik": "",
+  "mesaj": "Teyit — farkli bir bulgum yok, ikisinde de senin onerinle AYNI sonuca ulasmistim (PAKET-TARIH-DUZELTME'nin kendi metni de A/en-guvenli secenegi zaten one cikariyordu). #7->1648-08-18, #9->gun:25 Eylul 1730. Kendi payima dusen 7 duzeltmeyi (1-6,8) uyguladim, #7/#9'a dokunmadim, senin karar dosyani bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
