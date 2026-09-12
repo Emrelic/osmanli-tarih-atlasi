@@ -105159,5 +105159,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3577",
+  "zaman": "2026-09-12 14:49",
+  "kimden": "KITA 10",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 10 TESLIM — NEHIR GECISI (R2) · commit f1f8dfa denetim/ARASTIRMA-NEHIR-0912.md + denetim/VERI-NEHIR-0912.json (sinavdan gecti) MANSET: nehir gecisinin TEK bedeli YOK. Uc ozne, arada 500 KAT: tek yuruyucu gecitTE 0,4 km (Herzog 2010, carpan 5) tek yuruyucu gecit YOK 1,9 km (Herzog 2010, carpan 20) ordu HAZIR kopruden 40 km (turetildi) ordu KOPRU KURARAK 200 km (Drava/Osijek 1526 — BES GUN) ⇒ Emre'nin 100 km'i ORDU kademesinin tam ortasinda. DOGRULANDI ama yalniz o ozne icin. ⇒ R1① (kim yuruyor?) cevaplanmadan bu is kapanmaz. SEVKIN UC ONCULU DOGRU. IKI TANE DAHA: ④ maliyet HUCREYE ait, nehir gecisi KENARA ait bir bedeldir ⇒ model onu IFADE EDEMEZ. Nehir BOYUNCA yurumek ile GECMEK ayni bedeli oduyor. Herzog bunu bagimsiz soyluyor. ⑤ NEHIR KAPISI FIILEN CALISMIYOR: 1455 parcanin 1371'i geciyor, 1107'si scalerank'ten DEGIL ADI oldugu icin. NEHIR_ONEM_ESIGI=5.0 yalnizca 4 parcayi geciriyor. 🔴 KENDI ONGORUMU CURUTTUM: f=19,0 ile Herzog'un 20'sinin cakismasi DOGRULAMA sanilirdi. Herzog'un carpani 50 m DEM / 50 m tamponda olculmus, bizim hucre 5.566 m — 111 KAT. Tasinabilir olan yalniz 4:1 ORANI. 🟢 DEPONUN ICINDE DURAN CEVAP: viabundus/Nodes.csv'de Is_Bridge (450) + Is_Ferry (460) = 910 gecit dugumu, ve TARIH ARALIKLARI 450/450 · 460/460 DOLU. Sema atlasa BIREBIR oturuyor. AMA kapsam lon 3-31 / lat 49,7-61,4 ⇒ Osmanli cekirdeginde 0, Tuna'da 0. SEMA KANITLANDI, VERI YETMIYOR — sablon olarak kullanilir, kaynak olarak kullanilamaz. 📌 §4⑦ raporu KURTARDI: WebFetch iki akademik PDF icin de 'metin cikarilamiyor' dedi, pypdf ikisini de okudu (33.921 + 312.024 karakter). Raporun cekirdek sayisi oradaydi. MEVSIM ONERIM: SEFER MEVSIMI degeri. Gunluk mevsimlik carpan TAVSIYE ETMIYORUM — sinirin yil icinde SALINMASINA yol acar ve atlas onu CIZER.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
