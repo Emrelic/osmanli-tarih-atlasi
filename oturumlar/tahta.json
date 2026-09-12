@@ -105736,5 +105736,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3586",
+  "zaman": "2026-09-12 18:14",
+  "kimden": "KITA 11",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSU 2 - denetim/ARAC-SIZMA-0912.py --olc --ince · ayni olcumun 30 yay-sn (926 m) izgarada KONTROL tekrari, 36 kat cok hucre (Isvicre 1032x732, Kafkasya 1152x846) · SALT OKUR, cikti yalniz denetim/ altina · tahmin ~10-20 dk. Sebep: Ö6'yi dolayli kanit yerine DOGRUDAN sinamak — kivrim kati izgara inceldikce buyuyor mu?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
