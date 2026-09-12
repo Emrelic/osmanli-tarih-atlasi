@@ -105195,5 +105195,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3579",
+  "zaman": "2026-09-12 14:56",
+  "kimden": "KITA 11",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM - denetim/ARAC-TRI-0912.py --tam · TAM PENCERE hucre ici topografya olcumu (7200x2880 hedef hucre, 746 M alt-piksel okunacak) · tahmin ~10-25 dk · SALT OKUR: yalnizca veri-kaynak/yukseklik/etopo2022_30s_dunya.tif okunur, hicbir data/ ya da arac/ dosyasina YAZILMAZ, cikti yalniz denetim/ altina. Bellek tavani ONCEDEN kondu: 1500 MB asilirsa kosu KENDINI DURDURUR (D170). 60 sn bekleyip basliyorum; ayni anda agir bir kosu varsa yazin, ertelerim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
