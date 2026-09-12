@@ -1346,7 +1346,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"cezayir-fransiz", ad:"Fransız Cezayir İşgali", tur:"gecici-isgal", bolge:"kuzey-afrika",
-  f:"1830-07-05", t:"1923-10-29", baskent:"Cezayir",
+  f:"1830-07-05", t:"1962-07-05", baskent:"Cezayir",
   ozet:"Cezayir Ocağı'nın (bkz. [[cezayir-ocagi]]) sonunu getiren Fransız işgali; 1962'ye dek (site ufkunun dışında) sürdü. Batı'da Emîr Abdülkādir'in direniş devletiyle (bkz. [[abdulkadir]]) 1847'ye dek fiilen paylaşıldı.",
   kaynak:"cezayir",
   kronoloji:[
@@ -2061,22 +2061,22 @@ window.DEVLETLER = [
 // hanedanı eliyle doğan dükalık" diyordu — buradan doğrulandı. TDV'de
 // `floransa` maddesi yok (302), §4 gereği standart akademik kaynak.
 { id:"floransa", ad:"Floransa Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
-  f:"1115-01-01", t:"1532-01-01", baskent:"Floransa",
-  ozet:"Kontes Matilda'nın ölümüyle özerk bir komün/cumhuriyet olarak örgütlenen, yün ve bankacılık zenginliğiyle Rönesans'ın merkezlerinden biri olan şehir cumhuriyeti; Medici hanedanının fiilî iktidara gelmesiyle 1532'de dükalığa dönüştü (bkz. [[toskana]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  f:"1115-01-01", t:"1532-05-01", baskent:"Floransa",
+  ozet:"Kontes Matilda'nın ölümüyle özerk bir komün/cumhuriyet olarak örgütlenen, yün ve bankacılık zenginliğiyle Rönesans'ın merkezlerinden biri olan şehir cumhuriyeti; Medici hanedanının fiilî iktidara gelmesiyle 1 Mayıs 1532'de dükalığa dönüştü (bkz. [[toskana]]).",
+  kaynak:"🟢 DÜZELTİLDİ (KITA 4'ün bulduğu gün, KITA 1 uyguladı) — eski 'bulunamadı' hükmü SAHTE KESİNLİK taşıyordu (künye 1532-01-01 yazıyordu, kaynağı yoktu, §4). Britannica \"Alessandro | Duke of Florence\": Nisan 1532'de Balìa'da kabul edilen yeni anayasadan sonra Alessandro'nun dük olarak fiilî saltanatı 1 Mayıs 1532'de başladı. İkinci mutabık kaynak: Wikipedia \"Duke of the Florentine Republic\" (aynı gün). D030: atlas TASARRUFU boyar — ilan günü değil, FİİLÎ SALTANAT günü esas alındı.",
   kronoloji:[
     { t:"1115-01-01", tur:"kurulus", b:"Kontes Matilda'nın ölümüyle Floransa özerk bir cumhuriyet olarak örgütlendi" },
     { t:"1293-01-01", tur:"antlasma", b:"Adalet Kararnâmeleri (Ordinances of Justice) ile popolo yönetimi pekişti" },
     { t:"1434-09-26", tur:"hukumdar", b:"Cosimo de' Medici sürgünden dönüp şehrin fiilî hâkimi oldu" },
-    { t:"1532-01-01", tur:"son", b:"Alessandro de' Medici dük ilan edildi, Cumhuriyet resmen dükalığa dönüştü" }
+    { t:"1532-05-01", tur:"son", b:"Alessandro de' Medici'nin dük olarak fiilî saltanatı başladı, Cumhuriyet resmen dükalığa dönüştü (1 Mayıs 1532)", kaynak:"Britannica \"Alessandro | Duke of Florence\" + Wikipedia \"Duke of the Florentine Republic\"" }
   ]
 },
 { id:"toskana", ad:"Floransa / Toskana Büyük Dükalığı", tur:"dukalik", bolge:"italya",
-  f:"1532-01-01", t:"1860-03-22", baskent:"Floransa", harita:"toskana",
-  ozet:"Floransa Cumhuriyeti'nden Medici hanedanı eliyle doğan dükalık; 1569'da Büyük Dükalık'a yükseldi, İtalya birliğinde halkoylamasıyla Sardinya-Piyemonte'ye katıldı.",
-  kaynak:"toskana",
+  f:"1532-05-01", t:"1860-03-22", baskent:"Floransa", harita:"toskana",
+  ozet:"Floransa Cumhuriyeti'nden Medici hanedanı eliyle 1 Mayıs 1532'de doğan dükalık; 1569'da Büyük Dükalık'a yükseldi, İtalya birliğinde halkoylamasıyla Sardinya-Piyemonte'ye katıldı.",
+  kaynak:"🟢 DÜZELTİLDİ (KITA 4'ün bulduğu gün, KITA 1 uyguladı) — eski değer 'toskana' slug'ından devralınmıştı, gün kaynaksızdı. Britannica \"Alessandro | Duke of Florence\": Alessandro'nun dük olarak fiilî saltanatı 1 Mayıs 1532'de başladı; ikinci mutabık kaynak Wikipedia \"Duke of the Florentine Republic\". ⚠️ 1532-05-01 gerçekten ayın 1'i (§4 YYYY-MM-01 tuzağı DEĞİL — kaynağın kendisi 1 Mayıs diyor, uydurma yuvarlama değil).",
   kronoloji:[
-    { t:"1532-01-01", tur:"kurulus", b:"Floransa Cumhuriyeti, Medici hanedanı altında dükalığa dönüştü" },
+    { t:"1532-05-01", tur:"kurulus", b:"Floransa Cumhuriyeti, Medici hanedanı altında dükalığa dönüştü (1 Mayıs 1532)", kaynak:"Britannica \"Alessandro | Duke of Florence\" + Wikipedia \"Duke of the Florentine Republic\"" },
     { t:"1569-08-27", tur:"hukumdar", b:"I. Cosimo, Papa V. Pius tarafından Toskana Büyük Dükü ilan edildi" },
     { t:"1737-07-09", tur:"bolunme", b:"Medici hanedanı sönünce taç Habsburg-Lorraine hanedanına geçti" },
     { t:"1860-03-22", tur:"son", b:"Halkoylamasıyla Sardinya-Piyemonte'ye (yakında İtalya Krallığı'na) katıldı" }
@@ -4413,7 +4413,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"ingiliz-hindistani", ad:"İngiliz Hindistanı (Şirket ve Taç Dönemi)", tur:"gecici-isgal", bolge:"guney-asya",
-  f:"1757-06-23", t:"1923-10-29", baskent:"Kalküta → Yeni Delhi", harita:"ingiliz-hindistani",
+  f:"1757-06-23", t:"1947-08-15", baskent:"Kalküta → Yeni Delhi", harita:"ingiliz-hindistani",
   ozet:"Plasi Savaşı'yla Bengal'de başlayan, 1858'de Şirket'ten Taç'a geçen, alt kıtanın büyük bölümünü doğrudan veya prenslikler aracılığıyla yöneten sömürge idaresi (1923 sonrasında da sürdü, 1947'de bağımsızlığa dek).",
   kaynak:"hindistan",
   kronoloji:[
@@ -4669,7 +4669,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"nguyen-hanedani", ad:"Nguyễn Hanedanı (Vietnam)", tur:"hanedanlik", bolge:"guneydogu-asya",
-  f:"1802-06-01", t:"1923-10-29", baskent:"Huế", harita:"nguyen-hanedani",
+  f:"1802-06-01", t:"1945-08-25", baskent:"Huế", harita:"nguyen-hanedani",
   ozet:"Gia Long'un Tây Sơn'a son verip Vietnam'ı yeniden birleştirdiği son hanedan; Fransız baskısıyla 1880'lerde protektora hâline geldi (1923 sonrasında da sürdü, 1945'e dek).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -4780,7 +4780,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"hollanda-dogu-hint", ad:"Hollanda Doğu Hint Adaları", tur:"gecici-isgal", bolge:"guneydogu-asya",
-  f:"1602-03-20", t:"1923-10-29", baskent:"Batavia (Cakarta)", harita:"hollanda-dogu-hint",
+  f:"1602-03-20", t:"1949-12-27", baskent:"Batavia (Cakarta)", harita:"hollanda-dogu-hint",
   ozet:"Hollanda Doğu Hindistan Şirketi'nin (VOC) ticaret üsleri olarak başlayan, 1800'de şirketin iflasıyla doğrudan Hollanda devlet sömürgesine dönüşen Endonezya idaresi (1923 sonrasında da sürdü, 1945'e dek).",
   kaynak:"hollanda",
   kronoloji:[
@@ -4792,7 +4792,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"ingiliz-malaya", ad:"İngiliz Malaya", tur:"gecici-isgal", bolge:"guneydogu-asya",
-  f:"1826-01-01", t:"1923-10-29", baskent:"Singapur", harita:"ingiliz-malaya",
+  f:"1826-01-01", t:"1957-08-31", baskent:"Singapur", harita:"ingiliz-malaya",
   ozet:"Penang, Malaka ve Singapur'un (Boğaz Yerleşimleri) birleştirilmesiyle kurulan, sonradan Malay sultanlıklarını da himayeye alan İngiliz sömürge idaresi (1923 sonrasında da sürdü).",
   kaynak:"malezya",
   kronoloji:[
@@ -5496,7 +5496,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"racput", ad:"Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)", tur:"devlet", bolge:"guney-asya",
-  f:"1281-01-01", t:"1923-10-29", baskent:"Çitor/Udeypûr · Codhpûr · Caypûr (çok merkezli)", harita:"racput",
+  f:"1281-01-01", t:"1947-08-15", baskent:"Çitor/Udeypûr · Codhpûr · Caypûr (çok merkezli)", harita:"racput",
   ozet:"Racputâne'nin birbirinden bağımsız Hindu hânedanları; Delhi ve Bâbürlü baskısına yüzyıllarca direnip sonunda İngiliz himâyesinde prens devleti olarak 1923'ün ötesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5744,7 +5744,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"manipur", ad:"Manipûr Krallığı", tur:"krallik", bolge:"guney-asya",
-  f:"1281-01-01", t:"1923-10-29", baskent:"İmphâl", harita:"manipur",
+  f:"1281-01-01", t:"1949-10-15", baskent:"İmphâl", harita:"manipur",
   ozet:"Assam ile Birmanya arasındaki vadide Meitei hânedanının yönettiği krallık; 1891'de İngiliz himâyesine girdi ama tahtı 1923'ün ötesine taşıdı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5793,7 +5793,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"travankur", ad:"Travankur Krallığı (Venâd)", tur:"krallik", bolge:"guney-asya",
-  f:"1281-01-01", t:"1923-10-29", baskent:"Padmanabhapuram → Trivandrum", harita:"travankur",
+  f:"1281-01-01", t:"1949-07-01", baskent:"Padmanabhapuram → Trivandrum", harita:"travankur",
   ozet:"Malabar'ın güney ucunda Venâd'dan doğan, Kolaçel'de Hollanda donanmasını yenmesiyle anılan krallık; İngiliz himâyesinde 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6332,7 +6332,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"fransiz-cinhindi", ad:"Fransız Çinhindi (Indochine française)", tur:"gecici-isgal", bolge:"guneydogu-asya",
-  f:"1859-02-17", t:"1923-10-29", baskent:"Saygon → Hanoi",
+  f:"1859-02-17", t:"1954-07-21", baskent:"Saygon → Hanoi",
   ozet:"Fransa'nın Vietnam-Kamboçya-Laos'u tek sömürge idaresinde birleştirdiği yapı; Saygon'un düşüşüyle başladı (1923 sonrasında da sürdü, 1954'e dek). ÜLKE/COĞRAFYA SÜREKLİLİĞİ kimliğidir — hanedan değil, sömürge idaresinin coğrafi kapsamını temsil eder. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6344,7 +6344,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"haydarabad-nizam", ad:"Haydarabad Nizamlığı (Âsafcâh Hanedanı)", tur:"devlet", bolge:"guney-asya",
-  f:"1724-10-11", t:"1923-10-29", baskent:"Haydarabad",
+  f:"1724-10-11", t:"1948-09-17", baskent:"Haydarabad",
   ozet:"Nizâmülmülk Âsafcâh'ın Babür'ün Dekken valiliğinden fiilen bağımsızlaşmasıyla kurulan, Hindistan'ın en büyük prens devleti; 1766'dan itibaren İngiliz himayesine girdi (1923 sonrasında da sürdü, gerçek sonu 13 Eylül 1948 Hindistan işgali). ÜLKE SÜREKLİLİĞİ kimliğidir — Âsafcâh hanedanı atlas ufkunun ötesine (1948) taşıyor, künye ufukta kesiliyor. (kaynak: TDV, madde: haydarabad-nizamligi — \"Bağımsızlığını 11 Ekim 1724'te ilan etmiştir\")",
   kaynak:"haydarabad-nizamligi",
   kronoloji:[
@@ -6620,7 +6620,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"bahavelpur", ad:"Bahavelpur Emirliği (Dâvudpotralar)", tur:"devlet", bolge:"guney-asya",
-  f:"1748-01-01", t:"1923-10-29", baskent:"Bahawalpur",
+  f:"1748-01-01", t:"1955-10-14", baskent:"Bahawalpur",
   ozet:"Bahâvel Han'ın Sutlej kıyısında kurduğu, Abbasi hilafetine soy iddia eden Dâvudpotra hanedanının emirliği; 1802'de Afgan şahından sikke basma hakkı alarak egemen devlet statüsü kazandı, 1838'de İngiliz himayesine girdi (1923 sonrasında da sürdü, 1955'te idari birleşmeyle sona erdi). ÜLKE SÜREKLİLİĞİ kimliğidir — hanedan atlas ufkunun ötesine taşıyor. (kaynak: TDV, madde: bahavelpur — \"1748'de Emir Muhammed Bahâvel tarafından... kuruldu\")",
   kaynak:"bahavelpur",
   kronoloji:[
@@ -6632,7 +6632,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"bharatpur-cat", ad:"Bharatpur Krallığı (Jat)", tur:"krallik", bolge:"guney-asya",
-  f:"1733-01-01", t:"1923-10-29", baskent:"Bharatpur",
+  f:"1733-01-01", t:"1948-03-30", baskent:"Bharatpur",
   ozet:"Bedan Singh'in kurduğu, Jat kabile konfederasyonundan doğan Hindu krallığı; Babür ve sonra İngiliz baskısına rağmen prens devleti olarak varlığını sürdürdü (1923 sonrasında da sürdü, 1947'ye dek). ÜLKE SÜREKLİLİĞİ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6654,7 +6654,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"cunagadh", ad:"Cunagadh (Junagadh) Nevablığı", tur:"devlet", bolge:"guney-asya",
-  f:"1748-01-01", t:"1923-10-29", baskent:"Junagadh",
+  f:"1748-01-01", t:"1948-02-20", baskent:"Junagadh",
   ozet:"Babür valiliğinden ayrılan Babi hanedanının Gucerat'taki Müslüman nevablığı; İngiliz himayesinde 1947'ye dek sürdü, o yıl Pakistan'a katılma kararı Hindistan'ın işgaliyle geçersiz kılındı (1923 sonrasında da sürdü). ÜLKE SÜREKLİLİĞİ kimliğidir. ⚠️ BULUNAMADI (TDV'de): dokuz farklı yazım denendi (cunagadh, cunagad, canagadh, babiler, junagadh, babi-hanedani, babi-hanedanligi, kathiawar, cunagad-nevabligi) — HEPSİ ölü, TDV bu küçük Kathiawar prensliğini hiç kapsamıyor (taneciklik boşluğu).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6706,7 +6706,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"sarawak-brooke", ad:"Sarawak (Brooke Hanedanı)", tur:"devlet", bolge:"guneydogu-asya",
-  f:"1841-09-24", t:"1923-10-29", baskent:"Kuching",
+  f:"1841-09-24", t:"1946-07-01", baskent:"Kuching",
   ozet:"İngiliz maceracı James Brooke'un Brunei Sultanı'ndan aldığı toprakla kurduğu, \"Beyaz Racalar\" (White Rajahs) diye anılan özel/kişisel sömürge devleti; Brunei'den bağımsız bir hanedanlık olarak üç kuşak sürdü (1923 sonrasında da sürdü, 1946'da İngiliz tacına devredildi). ÜLKE SÜREKLİLİĞİ kimliğidir — Brooke hanedanı atlas ufkunun ötesine taşıyor. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7338,7 +7338,7 @@ window.DEVLETLER = [
         ]
 }
 ,
-{ id:"irak-kralligi", ad:"Irak Krallığı (Faysal I, İngiliz Mandası)", bolge:"arabistan", f:"1921-08-23", t:"1923-10-29",
+{ id:"irak-kralligi", ad:"Irak Krallığı (Faysal I, İngiliz Mandası)", bolge:"arabistan", f:"1921-08-23", t:"1958-07-14",
   ozet:"23 Ağustos 1921'de Faysal'ın kral ilan edilmesiyle kurulan, İngiliz mandası altındaki krallık; manda 1932'de (site ufkunun dışında) sona erdi, krallık 1958'e dek sürdü.",
   kaynak:"bulunamadı — TDV 'irak--ulke' CANLI ve dönemi (I. Dünya Savaşı sonrası) ele alıyor AMA madde uzun ve ilgili bölüm (§6 'Son Dönem') bu turda tam çekilemedi (kesik gövde). Tarih akademik kaynaktan: Britannica, 'Faisal I' (biography) — 23 Ağustos 1921 taç giyme.",
   kronoloji:[] },
@@ -7346,11 +7346,11 @@ window.DEVLETLER = [
   ozet:"Temmuz 1920'de Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verilmesinin ardından kurulan Fransız idaresi; Milletler Cemiyeti onayı ~1922, manda 1946'ya dek (site ufkunun dışında) sürdü.",
   kaynak:"TDV, madde: suriye — \"Fransız işgali, iki yıl sonra Milletler Cemiyeti'nin onayıyla resmen manda yönetimine dönüştü\" · \"Suriye'de Faysal dönemi sona erdi\" (Han Meyselûn, Temmuz 1920). Gün TDV'de VERİLMİYOR, yalnız ay/yıl — f: bu yüzden ayın 1'ine değil, TDV'nin verdiği AYA sabitlendi.",
   kronoloji:[] },
-{ id:"filistin-mandasi", ad:"İngiliz Filistin Mandası", bolge:"arabistan", f:"1920-07-01", t:"1923-10-29",
+{ id:"filistin-mandasi", ad:"İngiliz Filistin Mandası", bolge:"arabistan", f:"1920-07-01", t:"1948-05-14",
   ozet:"Aralık 1917 askerî işgalinin ardından Temmuz 1920'de mülkî idareye dönüşen, 24 Temmuz 1922'de Milletler Cemiyeti'nce resmen onaylanan İngiliz mandası; 1948'e dek (site ufkunun dışında) sürdü.",
   kaynak:"TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\" · \"İngiltere'nin Filistin ve Ürdün üzerindeki manda idaresini 24 Temmuz 1922'de onayladı\" (Milletler Cemiyeti).",
   kronoloji:[] },
-{ id:"urdun-emirligi", ad:"Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)", bolge:"arabistan", f:"1921-02-01", t:"1923-10-29",
+{ id:"urdun-emirligi", ad:"Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)", bolge:"arabistan", f:"1921-02-01", t:"1946-05-25",
   ozet:"Faysal'ın Şam'dan çıkarılmasının ardından kardeşi Abdullah'ın Şubat 1921'de kendini emir ilan etmesiyle kurulan, İngiliz himayesindeki emirlik; 1946'da (site ufkunun dışında) Ürdün Krallığı'na dönüştü.",
   kaynak:"TDV, madde: urdun — \"Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti.\"",
   kronoloji:[] },
@@ -7358,7 +7358,7 @@ window.DEVLETLER = [
   ozet:"18 Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 15 Mart 1922'de Fuâd'ın kral unvanını almasıyla Krallığa dönüştü.",
   kaynak:"🟢🟢 DÜZELTİLDİ (5 Eylül, M-2919 turu) — ESKİ 'bulunamadı' hükmü YANLIŞTI: TDV 'misir' maddesi CANLI ve modern dönemi ZENGİN kapsıyor (raw HTML doğrulandı, 278.117 karakter — eski turda erişim engelleri Britannica/LOC/Cambridge'e aitti, TDV'nin kendisi hiç denenmemiş/erişilememiş). AYNEN: \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı ... yerine amcası Hüseyin Kâmil'i Mısır sultanı olarak ilân etti.\" GÜN hassasiyetinde, f: değeriyle BİREBİR eşleşti (önceki 'hizalama' varsayımı artık BAĞIMSIZ DOĞRULANDI).",
   kronoloji:[] },
-{ id:"misir-kralligi", ad:"Mısır Krallığı (I. Fuad)", bolge:"misir-sudan", f:"1922-03-15", t:"1923-10-29",
+{ id:"misir-kralligi", ad:"Mısır Krallığı (I. Fuad)", bolge:"misir-sudan", f:"1922-03-15", t:"1953-06-18",
   ozet:"15 Mart 1922'de Sultan Ahmed Fuâd'ın kral (melik) unvanını almasıyla Sultanlık'tan dönüşen krallık; 1953'e dek (site ufkunun çok dışında) sürdü.",
   kaynak:"🟢🟢 DÜZELTİLDİ (5 Eylül, M-2919 turu) — TDV 'misir' maddesi (CANLI, raw HTML) AYNEN: \"Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı ve Mısır'da monarşi ilân edildi.\" GÜN hassasiyetinde. Eski turdaki 'iki tarih arasında karar veremedim' belirsizliği ÇÖZÜLDÜ — bkz. misir-sultanligi'nin `not:` alanı.",
   kronoloji:[] },
@@ -7366,23 +7366,23 @@ window.DEVLETLER = [
   ozet:"Rus İç Savaşı'nda Kızıl Ordu desteğiyle 14 Ağustos 1921'de kurulan, resmen hiçbir devletçe (SSCB hariç, 1926) tanınmayan ama fiilen bağımsız uydu devlet; 1944'te (site ufkunun dışında) SSCB'ye katıldı.",
   kaynak:"bulunamadı — TDV kapsam dışı (Moğolistan/Sibirya bozkır tarihi TDV'nin kapsamadığı coğrafya, `§4`). Britannica, 'Tannu-Tuva' (place madde).",
   kronoloji:[] },
-{ id:"harezm-halk-cumhuriyeti", ad:"Harezm Halk Sovyet Cumhuriyeti", bolge:"orta-asya", f:"1920-04-26", t:"1923-10-29",
+{ id:"harezm-halk-cumhuriyeti", ad:"Harezm Halk Sovyet Cumhuriyeti", bolge:"orta-asya", f:"1920-04-26", t:"1924-01-01",
   ozet:"Hive Hanlığı'nın Şubat 1920'de yıkılmasının ardından I. Harezm Kurultayı'nca 26 Nisan 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
   kaynak:"bulunamadı — TDV kapsam dışı (Sovyet dönemi Orta Asya, `§4`). Standart akademik/ansiklopedik (Wikipedia 'Khorezm People's Soviet Republic') — TEK kaynaklı.",
   kronoloji:[] },
-{ id:"buhara-halk-cumhuriyeti", ad:"Buhara Halk Sovyet Cumhuriyeti", bolge:"orta-asya", f:"1920-10-08", t:"1923-10-29",
+{ id:"buhara-halk-cumhuriyeti", ad:"Buhara Halk Sovyet Cumhuriyeti", bolge:"orta-asya", f:"1920-10-08", t:"1924-01-01",
   ozet:"2 Eylül 1920'de Kızıl Ordu'nun Buhara Emirliği'ni yıkmasının ardından 8 Ekim 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
   kaynak:"bulunamadı — mevcut `buhara` künyesinin kaynağı (TDV, madde: buhara-hanligi) yalnız EMİRLİĞİ kapsıyor, halefini DEĞİL (doğrulandı, TDV maddesi 'Kızıl Ordu tarafından yıkıldı' diyip bitiyor). Standart akademik/ansiklopedik (Wikipedia 'Bukharan People's Soviet Republic') — TEK kaynaklı.",
   kronoloji:[] },
-{ id:"rif-cumhuriyeti", ad:"Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", bolge:"kuzey-afrika", f:"1921-09-18", t:"1923-10-29",
+{ id:"rif-cumhuriyeti", ad:"Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", bolge:"kuzey-afrika", f:"1921-09-18", t:"1926-05-27",
   ozet:"22 Temmuz 1921 Annual zaferinin ardından 18 Eylül 1921'de Kuzey Fas'ta ilan edilen, İspanya'ya (ve sonradan Fransa'ya) karşı direnen dağlık cumhuriyet; 1926'da (site ufkunun dışında) yenildi.",
   kaynak:"bulunamadı — TDV kapsam dışı (bu spesifik siyasi yapı için doğrudan aranmadı, ama Fas'ın modern direniş tarihinin TDV'de zayıf kaldığı `§4`'te zaten belgeli). Britannica, 'Republic of the Rif' (place madde).",
   kronoloji:[] },
-{ id:"ingiliz-guyanasi", ad:"İngiliz Guyanası", bolge:"guney-amerika", f:"1831-01-01", t:"1923-10-29",
+{ id:"ingiliz-guyanasi", ad:"İngiliz Guyanası", bolge:"guney-amerika", f:"1831-01-01", t:"1966-05-26",
   ozet:"1831'de üç Hollanda kolonisinin (Essequibo, Demerara, Berbice) birleşmesiyle kurulan İngiliz taç kolonisi (1966'da bağımsızlaştı — site ufkunun çok dışında).",
   kaynak:"standart akademik/ansiklopedik (Britannica 'Guyana' maddesi, tarihçe bölümü) — İKİNCİ kaynakla eşleşmedi, TEK kaynaklı",
   kronoloji:[] },
-{ id:"hollanda-guyanasi", ad:"Hollanda Guyanası (Surinam)", bolge:"guney-amerika", f:"1667-01-01", t:"1923-10-29",
+{ id:"hollanda-guyanasi", ad:"Hollanda Guyanası (Surinam)", bolge:"guney-amerika", f:"1667-01-01", t:"1975-11-25",
   ozet:"1667 Breda Antlaşması'yla Hollanda'ya geçen, 1954'e kadar (site ufkunun dışında) sömürge statüsünde kalan Güney Amerika toprağı.",
   kaynak:"standart akademik/ansiklopedik — TEK kaynaklı, ikinci kaynakla eşleşmedi",
   kronoloji:[] },
@@ -7394,11 +7394,11 @@ window.DEVLETLER = [
   ozet:"1405'te yerel Tuareg boyları arasında arabuluculuk için kurulan Aïr Sultanlığı; 1500-1591 Songhay tâbiiyetinde kaldı, sonra yeniden bağımsızlaştı, 1906'da Fransız himayesine girdi (fiilî sömürge yönetimi ancak 1917'de, ayaklanmalar bastırıldıktan sonra).",
   kaynak:"🔴 TDV 'air' YANILTICI ÇIKTI — o madde Medine yakınındaki bir DAĞ hakkında (Âir dağı, hadis bağlamı), Agadez/Aïr Sultanlığı İLE İLGİSİ YOK (200≠madde tuzağı, raw HTML okunarak elendi). 'agades' TDV'de 302 ÖLÜ. TDV bu coğrafyayı (Batı Afrika Sahra-altı) kapsamıyor. Standart akademik: Britannica 'Agadez' + Wikipedia 'Sultanate of Agadez'.",
   kronoloji:[] },
-{ id:"kesiri-sultanligi", ad:"Kesîrî Sultanlığı (Hadramut iç kesimi)", bolge:"arabistan", f:"1450-01-01", t:"1923-10-29",
+{ id:"kesiri-sultanligi", ad:"Kesîrî Sultanlığı (Hadramut iç kesimi)", bolge:"arabistan", f:"1450-01-01", t:"1967-11-30",
   ozet:"Hadramut vadisinin iç kesimine (Sayvan, zaman zaman Terîm/Şibâm) hâkim olan Kesîrî kabilesi; 1538'de nominal Osmanlı sancağı ilan edilen dönemde bile 'idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi'; 1888 İngiliz-Yâfiî/Kuaytî himaye antlaşmasından sonra da İngilizler 'iç bölgeleri Kesîrîler'e bıraktı', yani kıyı gibi doğrudan himayeye girmedi.",
   kaynak:"TDV, madde: hadramut (CANLI, raw HTML doğrulandı, 2 Eylül taraması + 5 Eylül yeniden okuma) — \"XV. yüzyılın ikinci yarısında da Kesîrîler ülkenin bir bölümüne hâkim oldular.\" 🟡 HASSASİYET: kaynak yalnız 'yüzyılın ikinci yarısı' diyor, gün/yıl YOK — f: bu yüzden 1450-01-01 olarak YÜZYIL-YARISI kabaligindadir, sahte kesinlik DEĞİL.",
   kronoloji:[] },
-{ id:"kuayti-sultanligi", ad:"Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)", bolge:"arabistan", f:"1881-01-01", t:"1923-10-29",
+{ id:"kuayti-sultanligi", ad:"Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)", bolge:"arabistan", f:"1881-01-01", t:"1967-11-30",
   ozet:"1840'lardan itibaren güç toplayan Yâfiî lideri Ömer b. Avad el-Kuaytî, 1881 sonunda İngiliz desteğiyle Şihr ve Mükellâ dahil Hadramut kıyısının tamamını ele geçirdi; 1888'de İngiliz himaye antlaşması imzalandı (dış ilişkiler İngiltere'ye geçti, iç idare Kuaytî'de kaldı).",
   kaynak:"TDV, madde: hadramut (CANLI) — \"İngilizler Yâfiîler'i destekleyerek onların 1881 sonunda Şihr ve Mükellâ dahil bütün Hadramut sahilini ele geçirmelerini sağladılar ... 1888'de imzaladıkları himaye antlaşmasıyla ... Yâfiîler'in dış ilişkilerini tamamen üzerlerine aldılar.\" Britannica 'Qu'aiti sultanate' ile eşleşti. 🟡 f: 1881-01-01 — TDV '1881 sonunda' diyor (gün yok), YIL kullanıldı.",
   kronoloji:[] },
@@ -7441,7 +7441,7 @@ window.DEVLETLER = [
   ozet:"Gherardo Appiani'nin, Pisa'yı Visconti'ye devrederken kendine ayırdığı Piombino ve Elba/Pianosa/Montecristo adalarını kapsayan prenslik.",
   kaynak:"Wikipedia 'Principality of Piombino' (\"On February 19, 1399, Gherardo Appiani established the Lordship of Piombino after ceding Pisa to the Visconti of Milan... took possession of ... the islands of ... Elba\") + Britannica 'Elba' maddesi, çapraz doğrulandı. TDV kapsam dışı — `islamansiklopedisi.org.tr/piza` 302 ölü (raw HTML doğrulandı), Batı Avrupa TDV kapsamı zaten %0 ölçülmüş (§4).",
   kronoloji:[] },
-{ id:"ingiliz-sudani", ad:"İngiliz Sudanı (Anglo-Mısır Kondominyumu)", tur:"gecici-isgal", bolge:"misir-sudan", f:"1899-01-19", t:"1923-10-29",
+{ id:"ingiliz-sudani", ad:"İngiliz Sudanı (Anglo-Mısır Kondominyumu)", tur:"gecici-isgal", bolge:"misir-sudan", f:"1899-01-19", t:"1956-01-01",
   baskent:"Hartum",
   ozet:"Mehdî Devleti'nin İngiliz-Mısır ordularınca yıkılmasından sonra 19 Ocak 1899'da imzalanan antlaşmayla kurulan, nominal Osmanlı/Mısır ortaklığına rağmen fiilen İngiltere'nin yönettiği Sudan idaresi (1923 sonrasında da sürdü, 1956'da bağımsızlığa dek).",
   kaynak:"TDV, madde: sudan (CANLI, raw HTML doğrulandı, 102.752 karakter — '200≠madde' ve 'çıkarılamadı≠metin yok' tuzakları elendi, gövde gerçekten okundu) — AYNEN: \"19 Ocak 1899'da Sudan'da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçmiş oldu. Bâbıâli, hâkimiyet hakları ihlâl edildiği için bu antlaşmaya şiddetle karşı çıktıysa da bir netice alınamadı.\" GÜN hassasiyetinde.",
@@ -7494,5 +7494,114 @@ window.DEVLETLER = [
 { id:"dejanovic-prensligi", ad:"Dejanović Prensliği (Kostadin-ili)", bolge:"balkanlar", f:"1371-09-26", t:"1395-05-17",
   ozet:"Doğu Makedonya'da Dejanović ailesinin prensliği. Çirmen bozgunundan sonra Osmanlı tâbiiyetini kabul etti; Konstantin Dejanović Osmanlı ordusunda savaşırken öldü ve topraklar doğrudan Osmanlı idaresine geçti.",
   kaynak:"bulunamadı — `dejanovic` · `velbuzd` · `kostadin` üçü de 302 (ölü slug). Kapsayıcı madde denenmedi (`makedonya` · `uskup` aranmadı) ⇒ damga `bulunamadı` DEĞİL, 🔴 **ARANMAYA DEVAM**. `f:`/`t:` VERİDEN DEVRALINDI ve ikisi de bilinen savaş günleri (Çirmen 1371-09-26 · Rovine 1395-05-17), yani veri onları BAŞKA bir olaydan ödünç almış olabilir — DOĞRULANMADI.",
-  kronoloji:[] }
+  kronoloji:[] },
+
+// ============================================================================
+// KITA 1 — KÜNYE İNİŞİ (11 Eylül 2026) — PAKET-KUNYE-0911.json'dan 12 künye
+// tur: sözlüğüne "eyalet" eklendi (Emre onayı). "mutasarriflik" tur değeri
+// EKLENMEDİ — cebel-i-lubnan-mutasarrifligi geçici olarak tur:"devlet"
+// taşıyor, sözlüğe "mutasarriflik" eklenmesi ÖNERİLİYOR (karar Emre'nin).
+// ============================================================================
+{ id:"lubnan-emirligi", ad:"Lübnan Emirliği (Ma'noğulları · Şihaboğulları)", tur:"emirlik", bolge:"arabistan",
+  f:"1516-10-01", t:"1842-01-01", baskent:"Dayr al-Kamer (Deyrülkamer) → Beyteddin", harita:"lubnan-emirligi",
+  tabi:[{f:"1516-10-01", t:"1842-01-01", ust:"osmanli"}],
+  ozet:"1516'da Osmanlı fethinden sonra bölgenin idaresi Dürzî beylere bırakıldı; önce Ma'noğulları (1516-1697), sonra Şihaboğulları (1697-1842) hanedanları Osmanlı'ya tâbi yarı-özerk Lübnan Emirliği'ni yönettiler. Ahmed Ma'n'ın 1697'de çocuksuz ölümüyle Dürzî ileri gelenleri Beşîr Şihâbî'yi seçti; emirlik 1842'de doğrudan Osmanlı yönetimine döndü. ⚠️ Cebel-i Lübnan'ın kendi toprağında (Deyrülkamer/Beyteddin/Şûf) yerlesimler.js'te HİÇ nokta yok — künye yazıldı ama yeni yerleşim noktası eklenmeden haritada görünmeyecek (ayrı bir iş, PAKET-KUNYE-0911.json ⑤'te işaretli).",
+  kaynak:"TDV `lubnan` — HTTP 200, gövde okundu. 🟡 f: GÜN BİLİNMİYOR (TDV yalnız \"Ekim 1516\" veriyor) · t: GÜN BİLİNMİYOR (yalnız \"Ocak 1842\"). Baskent (Deyrülkamer/Beyteddin) TDV alıntısında geçmiyor, standart kaynaktan — bulunamadı damgası: TDV'de doğrulanmadı.",
+  kronoloji:[
+    { t:"1516-10-01", tur:"kurulus", b:"Osmanlı fethi sonrası bölge idaresi Ma'noğulları'na verildi", kaynak:"TDV lubnan — \"Ekim 1516'da Osmanlı yönetimine giren bölgenin idaresiyle ilgili yapılan yeni düzenleme sonunda Lübnan'ın yönetimi ... Ma'noğulları'na verildi\"" },
+    { t:"1697-01-01", tur:"hanedanlik", b:"Ma'n hanedanının son emiri Ahmed çocuksuz öldü, Dürzî ileri gelenleri Beşîr Şihâbî'yi emir seçti", kaynak:"TDV lubnan — \"Halefi olan oğlu Ahmed'in 1697'de geride çocuk bırakmadan ölmesiyle Lübnan'daki Ma'noğulları dönemi sona erdi\"" },
+    { t:"1842-01-01", tur:"son", b:"Şihaboğulları'nın yönetimi sona erdi, bölge doğrudan Osmanlı yönetimine döndü", kaynak:"TDV lubnan — \"Böylece Lübnan'daki Şihâbî ailesinin yönetimi sona erdi\"" }
+  ] },
+{ id:"cebel-i-lubnan-mutasarrifligi", ad:"Cebel-i Lübnan Mutasarrıflığı", tur:"devlet", bolge:"arabistan",
+  f:"1861-06-09", t:"1915-07-11", baskent:"Beyteddin (1888'de Ba'abda'ya taşındığı iddiası bulunamadı, standart kaynaktan)", harita:"cebel-i-lubnan-mutasarrifligi",
+  tabi:[{f:"1861-06-09", t:"1915-07-11", ust:"osmanli"}],
+  ozet:"1860 Dürzî-Maruni çatışmaları sonrası Avrupa devletlerinin baskısıyla kurulan, Osmanlı tebaası olmayan Hıristiyan bir valinin (mutasarrıf) yönettiği, uluslararası garantili özerk Osmanlı sancağı; I. Dünya Savaşı'nda Osmanlı tarafından tek taraflı feshedildi. Aynı sebeple (nokta yok) lubnan-emirligi ile AYNI görsel boşluğu taşıyor.",
+  kaynak:"TDV `lubnan` (aynı madde, ayrı bölüm). 🔴 tur: ÖNERİ — mevcut 18 değerli sözlükte 'mutasarrıflık' yok; mutasarrıflık hanedan değil ATANMIŞ (yabancı devletlerce onaylı, Lübnanlı-olmayan Hıristiyan) bir vali sistemi olduğundan 'prenslik' de uymuyor. Güvenli varsayılan 'devlet' yazıldı — sözlüğe 'mutasarriflik' eklenmesi ÖNERİLİYOR, karar Emre'nin.",
+  kronoloji:[
+    { t:"1861-06-09", tur:"kurulus", b:"Cebel-i Lübnan Nizamnâmesi imzalandı, mutasarrıflık kuruldu", kaynak:"TDV lubnan — \"9 Haziran 1861'de imzalanmış ve ardından bir fermanla yürürlüğe konmuştur\"" },
+    { t:"1915-07-11", tur:"son", b:"Osmanlı Devleti mutasarrıflığı tek taraflı olarak feshetti", kaynak:"TDV lubnan — \"Osmanlı Devleti tarafından 11 Temmuz 1915'te tek taraflı olarak ilga edilmiş\"" }
+  ] },
+{ id:"harfusogullari", ad:"Harfûşoğulları (Baalbek Emirliği)", tur:"emirlik", bolge:"arabistan",
+  f:"1521-01-01", t:"1850-01-01", harita:"harfusogullari",
+  tabi:[{f:"1521-01-01", t:"1850-01-01", ust:"osmanli"}],
+  ozet:"1516 Osmanlı fethinden kısa süre sonra, Canbirdi Gazâlî isyanı (1520-21) sırasında Baalbek bölgesine yerleşen bir yerel hanedan; Ba'lebek ve Bikâ' vadisinde, Osmanlı Şam eyaleti içinde yarı-özerk hakimiyet kurdu, Ma'noğulları/Şihaboğulları ile zaman zaman çatıştı (aynı toprak için değil, komşu/rakip güçler olarak — Baalbek ile Deyrülkamer arası 55+ km, çakışma yok), 19. yüzyıl ortasındaki Tanzimat reformlarıyla yerini doğrudan Osmanlı kaza idaresine bıraktı.",
+  kaynak:"TDV `harfus` — HTTP 200, içerik okunarak doğrulandı (⚠️ slug'ın birincil konusu Memlük dönemi 'harfûş' toplumsal terimi; hanedan alt bölüm — içerik dikkatle ayıklandı). f: GÜN/AY BİLİNMİYOR: TDV yalnız 'Canbirdi'nin isyanı esnasında Ba'lebek'e yerleştiler' diyor; isyan TDV `canbirdi-gazali`'de tarihlendi (bastırılma 27 Ocak 1521), yıl ondan ödünç alındı (D084). t: GÜN/YIL BELİRSİZ: TDV yalnız '19. yy ortası' diyor; 1850 kardeş TDV maddesi `balebek`ten çapraz alındı — bu bir ÇIKARSAMA, `harfus` maddesinin kendisi 1850'yi yazmıyor.",
+  kronoloji:[
+    { t:"1521-01-01", tur:"kurulus", b:"Harfûşoğulları, Canbirdi Gazâlî isyanı sırasında Ba'lebek bölgesine yerleşti", kaynak:"TDV harfus — \"Canbirdi'nin isyanı esnasında Harfûşoğulları Ba'lebek bölgesine yerleşmişlerdir.\" (isyan tarihi: TDV canbirdi-gazali)" },
+    { t:"1601-01-01", tur:"isyan", b:"XVII. yüzyıl başından itibaren Baalbek/Bikâ hakimiyeti için Harfûş emirleri arasında iç rekabet başladı", kaynak:"TDV harfus — \"XVII. yüzyıl başlarından itibaren Ba'lebek ve Bikā'da hâkimiyet için Harfûş emîrleri arasında rekabet çıkmış\"" },
+    { t:"1850-01-01", tur:"son", b:"Bölge Tanzimat reformuyla doğrudan Osmanlı kaza idaresine döndü, Harfûş hakimiyeti sona erdi", kaynak:"ÇAPRAZ-TARİHLENDİRME (harfus + balebek), bkz. t notu — harfus maddesinin kendisi bu yılı yazmıyor" }
+  ] },
+{ id:"misir-eyaleti", ad:"Osmanlı Mısır Eyaleti", tur:"eyalet", bolge:"misir-sudan",
+  f:"1517-04-13", t:"1805-07-03",
+  ozet:"Yavuz Sultan Selim'in Mısır'ı fethinden Kavalalı Mehmed Ali Paşa'nın valiliğine kadar, Mısır'ın doğrudan Osmanlı eyaleti olarak yönetildiği dönem. Harita rengi KASITLI OLARAK verilmedi — yerlesimler.js'teki Mısır noktaları (Kahire/İskenderiye/Dimyat/Asyut) bu dönemi zaten `d:` (doğrudan Osmanlı) ailesinde taşıyor, künye salt kronoloji bağlamak için yazıldı, mevcut hiçbir yerleşim kaydı değişmedi.",
+  kaynak:"f: TDV `misir` — Tomanbay'ın idamı '21 Rebîülevvel 923 / 13 Nisan 1517', memluk künyesinin t: alanıyla birebir aynı gün, bağımsız doğrulandı. t: TDV `kavalali-mehmed-ali-pasa` — '3 Temmuz 1805' Bâbıâli tarafından valiliğe getirilme günü, misir-kavalali künyesinin f: alanıyla birebir aynı gün, bağımsız doğrulandı. Ara kronoloji (İbrahim Paşa Kanunnâmesi, Napolyon işgali vb.) bu turda TEK TEK TDV'ye karşı sınanmadı, D107 gereği açıkça yazılıyor.",
+  kronoloji:[
+    { t:"1517-04-13", tur:"kurulus", b:"Kahire'nin düşüşüyle Mısır doğrudan Osmanlı eyaleti hâline geldi", kaynak:"TDV misir — Tomanbay'ın idamı, 13 Nisan 1517" },
+    { t:"1805-07-03", tur:"son", b:"Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi; doğrudan eyalet dönemi sona erdi", kaynak:"TDV kavalali-mehmed-ali-pasa — \"3 Temmuz 1805\"" }
+  ] },
+{ id:"sirbistan-eyaleti", ad:"Osmanlı Sırbistan'ı (Doğrudan İdare Dönemi)", tur:"eyalet", bolge:"balkanlar",
+  f:"1459-06-20", t:"1804-02-14",
+  ozet:"Sırp Despotluğu'nun sona ermesinden Kara Yorgi isyanına kadar, Sırbistan'ın doğrudan Osmanlı idaresinde kaldığı dönem (arada 1688-1690 ve 1717-1738 Avusturya işgal pencereleri ayrıca modellenmiş). Harita rengi KASITLI OLARAK verilmedi — yerlesimler.js'teki Sırbistan noktaları (Semendire/Belgrad/Kragujevac/Çaçak) bu dönemi zaten `d:` ailesinde taşıyor.",
+  kaynak:"f: TDV `semendire` — '20 Haziran 1459'da Lazar Brankoviç'in dul eşi Helena kaleyi Osmanlılar'a teslim etti', sirp-despotlugu künyesinin t: alanıyla birebir aynı gün, bağımsız doğrulandı. 🟡 t: TDV `sirbistan` yalnız YIL veriyor ('1804'te Karadjordje liderliğinde Sırp isyanı patlak verdi'); GÜN (14 Şubat) sirbistan-prensligi künyesinin kendi f: alanından DEVRALINDI, yeni hassasiyet üretilmedi (§4).",
+  kronoloji:[
+    { t:"1459-06-20", tur:"kurulus", b:"Semendire'nin düşüşüyle Sırp Despotluğu sona erdi, bölge doğrudan Osmanlı idaresine geçti", kaynak:"TDV semendire" },
+    { t:"1804-02-14", tur:"son", b:"Kara Yorgi liderliğindeki Sırp isyanı patlak verdi, doğrudan idare dönemi fiilen sona erdi", kaynak:"TDV sirbistan (yıl) + sirbistan-prensligi künyesinden devralınan gün" }
+  ] },
+{ id:"tunus-beyligi-fransiz", ad:"Tunus Beyliği (Fransız Himayesi Dönemi)", tur:"beylik", bolge:"kuzey-afrika",
+  f:"1881-05-12", t:"1956-03-20",
+  tabi:[{f:"1881-05-12", t:"1956-03-20", ust:"fransa-cumhuriyet"}],
+  ozet:"Bardo Antlaşması'yla kurulan Fransız himayesi altında, Hüseynî hanedanının beylik unvanını sürdürdüğü dönem; Emîn Bey'in (19. ve son bey) 20 Mart 1956'da bağımsızlığı görmesiyle sona erdi. 🔴 t: ATLASIN PENCERE SONU (1923-10-29) DEĞİL, GERÇEK bitiş tarihi yazıldı (D195, Emre kararı) — künye bu bakımdan PAKET-T'nin 27 kaydıyla AYNI ilkeyi kendi yaratılışında uyguluyor. ⚠️ HARİTA ETKİSİ AYRI BİR İŞ GEREKTİRİYOR: yerlesimler.js'teki Tunus/Kayrevan/Sfaks noktaları bu dönemi hâlâ v:[{statu:vassal}] (Osmanlı tâbi) olarak taşıyor + isg: (geçici işgal) katmanı biniyor; künye yazılması TEK BAŞINA haritayı değiştirmez — v: kaydının s:[{d:tunus-beyligi-fransiz}] olarak değiştirilmesi ve isg:'nin kaldırılması ayrı, bağımlı bir yerleşim-verisi işidir (HAZIRLIK-TUNUS-0911.json).",
+  kaynak:"TDV `tunus` (canlı) — \"Emîn Bey ... on dokuzuncu bey sıfatıyla ... 20 Mart 1956'da Tunus bağımsızlığına kavuşurken ... bir geleneği sürdürdü.\" Ardıllık: tunus-ocagi (t:1881-05-12) ile birebir ardıl, boşluk/çakışma yok.",
+  kronoloji:[
+    { t:"1881-05-12", tur:"vassal", b:"Bardo Antlaşması ile Tunus Fransız himayesine girdi", kaynak:"TDV tunus" },
+    { t:"1956-03-20", tur:"son", b:"Emîn Bey'in bağımsızlığı görmesiyle beylik dönemi resmen sona erdi", kaynak:"TDV tunus" }
+  ] },
+{ id:"meysur-racaligi", ad:"Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)", tur:"devlet", bolge:"guney-asya",
+  f:"1799-05-04", t:"1947-08-15",
+  ozet:"Tipu Sultan'ın Seringapatam'da ölümünün ardından İngilizlerin beş yaşındaki bir Wodeyar hanedanı üyesini tahta oturtup eski racalığı tekrar ihdas etmesiyle kurulan, İngiliz himayesindeki prens devleti; Hindistan'ın bağımsızlığıyla (Instrument of Accession) sona erdi. ARDIL kimlik — meysur (sultanlık) ile AYNI toprak, FARKLI devlet (§3.5.0).",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (WebSearch: Instrument of Accession, Ağustos 1947). 🟡 GÜN (15 Ağustos, bağımsızlık günü) yaklaşık kabul edildi, doğrulanmalı.",
+  kronoloji:[
+    { t:"1799-05-04", tur:"kurulus", b:"Meysûr'un düşüşü sonrası İngilizler eski Wodeyar hanedanını racalık olarak yeniden kurdu" },
+    { t:"1947-08-15", tur:"son", b:"Hindistan'ın bağımsızlığıyla Instrument of Accession imzalandı" }
+  ] },
+{ id:"gvalyar", ad:"Gvalyar Devleti (Sindiya Hanedanı)", tur:"devlet", bolge:"guney-asya",
+  f:"1731-01-01", t:"1948-05-28",
+  ozet:"Ranoji Sindiya'nın kurduğu, Maratha Konfederasyonu'nun üye devletlerinden biri olan Gvalyar; İngiliz himayesinde prens devleti olarak sürdü, Madhya Bharat'ın kuruluşuyla Hindistan'a katıldı.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl kesin (Ranoji Sindiya), gün bulunamadı. t: Madhya Bharat'ın kuruluşu — WebSearch doğrulamalı ikinci kaynakla teyit edilmedi.",
+  kronoloji:[
+    { t:"1731-01-01", tur:"kurulus", b:"Ranoji Sindiya, Gvalyar'da hâkimiyet kurdu" },
+    { t:"1948-05-28", tur:"son", b:"Madhya Bharat'ın kuruluşuyla Gvalyar Hindistan'a katıldı" }
+  ] },
+{ id:"indor", ad:"İndor Devleti (Holkar Hanedanı)", tur:"devlet", bolge:"guney-asya",
+  f:"1732-07-29", t:"1948-05-28",
+  ozet:"Holkar hanedanının kurduğu, Maratha Konfederasyonu'nun üye devletlerinden biri olan İndor; İngiliz himayesinde prens devleti olarak sürdü, Gvalyar ile AYNI Madhya Bharat birleşmesiyle Hindistan'a katıldı.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak.",
+  kronoloji:[
+    { t:"1732-07-29", tur:"kurulus", b:"Holkar hanedanı İndor'da hâkimiyet kurdu" },
+    { t:"1948-05-28", tur:"son", b:"Madhya Bharat'ın kuruluşuyla İndor Hindistan'a katıldı" }
+  ] },
+{ id:"kolhapur", ad:"Kolhapur Devleti (Şivâcî'nin İkinci Kolu)", tur:"devlet", bolge:"guney-asya",
+  f:"1710-01-01", t:"1949-03-01",
+  ozet:"Tarabai'nin 1709'da rakip saray kurup oğlu II. Şivâcî'yi 1710'da Kolhapur racası ilan etmesiyle doğan, Şivâcî hanedanının ikinci kolu; İngiliz himayesinde prens devleti olarak sürdü, Bombay Eyaleti'ne resmî devirle sona erdi.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl net, gün bulunamadı. t: Agreement of Merger (1 Şubat 1949), yürürlük 1 Mart 1949.",
+  kronoloji:[
+    { t:"1710-01-01", tur:"kurulus", b:"II. Şivâcî, Tarabai'nin rakip sarayınca Kolhapur racası ilan edildi" },
+    { t:"1949-03-01", tur:"son", b:"Bombay Eyaleti'ne resmî devir yürürlüğe girdi (Agreement of Merger, 1 Şubat 1949)" }
+  ] },
+{ id:"baroda", ad:"Baroda Devleti (Gaikvad Hanedanı)", tur:"devlet", bolge:"guney-asya",
+  f:"1721-01-01", t:"1949-05-01",
+  ozet:"Pilaji Rao Gaikvad'ın Baroda'yı Bâbürlü'den alışıyla kurulan, Maratha Konfederasyonu'nun dördüncü büyük üye devleti (Sindiya/Holkar/Bhonsle ile birlikte); İngiliz himayesinde prens devleti olarak sürdü, Hindistan'a resmî katılımla sona erdi. 🔴 Baroda/Vadodara yerlesimler.js'te NOKTA OLARAK YOK (bağımsız tarandı, girdi.GIRDI_DOSYALARI'nda hiç çıkmadı) — künye yazılsa bile Lübnan'la aynı sınıf bir görünmezlik sorunu var, ayrı bir iş.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl net, gün bulunamadı. t: WebSearch — \"Baroda merged into the Dominion of India on 1 May 1949\".",
+  kronoloji:[
+    { t:"1721-01-01", tur:"kurulus", b:"Pilaji Rao Gaikvad, Baroda'yı Bâbürlü idaresinden aldı" },
+    { t:"1949-05-01", tur:"son", b:"Baroda Hindistan'a resmî olarak katıldı" }
+  ] },
+{ id:"bali-kralliklari-pejeng", ad:"Bali Pejeng Krallığı", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1292-01-01", t:"1343-01-01",
+  ozet:"Singasari'nin Bali kolunun 1292'de bağımsızlaşmasıyla doğan, Gajah Mada'nın Bali'yi 1343'te almasına kadar süren kısa bağımsızlık dönemi. CLAUDE.md §3.5.0'ın kendi tespit ettiği boşluğu (Bali-kralliklari 1478'de başlıyor, 135 yıl GEÇ — 1292-1343 arası hiçbir kimlik kapsamıyordu) kapatmak için yazıldı; 'pejeng' ve 'bali-kralliklari-pejeng' aynı adayın iki farklı önerisiydi, TEK id (bölge önekli konvansiyon) kullanıldı.",
+  kaynak:"bulunamadı — bu görevin (Hindistan/Lübnan/Mısır/Sırbistan/Tunus) bölgesi dışı, yalnız §3.5.0 envanterini doğrulamak için kontrol edildi. Dayanak: CLAUDE.md'nin kendi doğrulaması (Gajah Mada'nın Bali'yi alışı 1343) — AYRICA araştırılmalı.",
+  kronoloji:[
+    { t:"1292-01-01", tur:"kurulus", b:"Singasari'nin Bali kolu bağımsızlaştı (Pejeng)" },
+    { t:"1343-01-01", tur:"son", b:"Gajah Mada, Majapahit adına Bali'yi aldı" }
+  ] }
 ];
