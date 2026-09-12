@@ -431,7 +431,11 @@ window.YERLESIMLER_AVRUPA = [
 // Siena cumhuriyeti 1555'te düştü (İspanyol garnizonu), 1557'de Toskana'ya devredildi
 { ad:"Siena", tur:"sehir", lat:43.319, lon:11.331, g:0, k:1,kd:[{f:"1281-01-01",t:"1555-04-17",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1555-04-17",d:"siena"},{f:"1555-04-17",t:"1557-07-03",d:"ispanya"},{f:"1557-07-03",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 // Pisa cumhuriyeti 1406'da Floransa'ya düştü
-{ ad:"Pisa", tur:"sehir", lat:43.716, lon:10.397, g:0, k:1,kd:[{f:"1281-01-01",t:"1406-10-09",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1406-10-09",d:"piza"},{f:"1406-10-09",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+// TOSKANA/FLORANSA BÖLÜNMESİ (KITA 2, 12 Eylül 2026) — Floransa kaydıyla
+// (yerlesimler.js) BİREBİR aynı gerekçe: 1406-1532 arası CUMHURİYET dönemi
+// "toskana" (henüz var olmayan bir dükalık) diye etiketlenmişti. Kırılma
+// günü 1532-05-01 — bkz. Floransa kaydındaki not.
+{ ad:"Pisa", tur:"sehir", lat:43.716, lon:10.397, g:0, k:1,kd:[{f:"1281-01-01",t:"1406-10-09",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1406-10-09",d:"piza"},{f:"1406-10-09",t:"1532-05-01",d:"floransa"},{f:"1532-05-01",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 
 // ── İTALYA: güney (Napoli Krallığı = napoli, mevcut kullanım) ──────────────
 { ad:"L'Aquila", tur:"sehir", lat:42.350, lon:13.399, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1861-02-13",d:"napoli"},{f:"1861-02-13",t:"1923-10-29",d:"italya"}] },

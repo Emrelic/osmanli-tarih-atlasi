@@ -426,7 +426,10 @@ window.YERLESIMLER = [
 { ad:"Kalas (Galatz)", tur:"liman", lat:45.435, lon:28.008, g:0, k:4, m:"Yaş", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}], d:[], v:[{f:"1456-06-01",t:"1878-07-13",k:"Boğdan Voyvodalığı",statu:"vassal",kid:"bogdan"}] },
 { ad:"İbrail", tur:"kale", lat:45.270, lon:27.972, g:0, k:3, m:"Silistre", isg:[{f:"1809-12-02",t:"1812-05-28",d:"rusya"},{f:"1828-06-23",t:"1829-09-14",d:"rusya"}], s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1829-09-14",t:"1859-01-24",d:"eflak"},{f:"1859-01-24",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}], v:[{f:"1462-06-01",t:"1538-09-01",k:"Eflak Voyvodalığı",statu:"vassal",kid:"eflak"}], d:[{f:"1538-09-01",t:"1829-09-14"}] },
 { ad:"Özi", tur:"kale", lat:46.6247, lon:31.5421, g:0, k:3,kd:[{f:"1542-01-01",t:"1593-01-01",k:3,m:"Akkirman"},{f:"1593-01-01",t:"1792-01-01",k:2,m:null}], m:"Silistre", s:[{f:"1737-07-13",t:"1738-08-01",d:"rusya"},{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1538-09-01",d:"kirim"},{f:"1788-12-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1538-09-01",t:"1737-07-13"},{f:"1738-08-01",t:"1788-12-17"}] },
-{ ad:"Kamaniçe", tur:"kale", lat:48.674, lon:26.574, g:0, k:2, s:[{f:"1281-01-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
+{ ad:"Kamaniçe", tur:"kale", lat:48.674, lon:26.574, g:0, k:2,
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT: 1569-07-01 Lublin
+  // Birliği'nden ÖNCE `polonya-erken` (PAKET-VERI-DUZELTME-A-0911.json).
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
 { ad:"Erdel (Kaloşvar)", tur:"bolge", lat:46.770, lon:23.591, g:0, k:2, s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-08-12",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}], v:[{f:"1541-08-29",t:"1687-08-12",k:"Erdel Prensliği",statu:"vassal"},{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)",statu:"vassal"}], d:[] },
 { ad:"Budin", ikiz:"Peşte", kaynak:"budin", tur:"sehir", lat:47.498, lon:19.040, g:2, k:2, s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)",statu:"vassal"}], d:[{f:"1541-08-29",t:"1686-09-02",y:"ilhak"}] },
 { ad:"Peçuy", tur:"sehir", lat:46.073, lon:18.233, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-07-21",d:"macaristan"},{f:"1686-10-14",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}], d:[{f:"1543-07-21",t:"1686-10-14",y:"kusatma"}] },
@@ -843,8 +846,13 @@ window.YERLESIMLER = [
 { ad:"Zagreb", tur:"sehir", lat:45.815, lon:15.982, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 { ad:"Ljubljana", tur:"sehir", lat:46.056, lon:14.506, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1335-05-02",d:"almanya"},{f:"1335-05-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 { ad:"Bratislava", tur:"sehir", lat:48.146, lon:17.107, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
-{ ad:"Krakov", tur:"sehir", lat:50.065, lon:19.945, g:0, k:1,kd:[{f:"1320-01-20",t:"1569-07-01",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
-{ ad:"Lvov", tur:"sehir", lat:49.840, lon:24.030, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Krakov", tur:"sehir", lat:50.065, lon:19.945, g:0, k:1,kd:[{f:"1320-01-20",t:"1569-07-01",k:1,m:null}], d:[],
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A):
+  // kd: alanı ZATEN 1569'da bölünüyordu, s: şimdi ona HİZALANDI.
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Lvov", tur:"sehir", lat:49.840, lon:24.030, g:0, k:3, d:[],
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A).
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
 { ad:"Kiev",kaynak:"polonya", tur:"sehir", lat:50.451, lon:30.524, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1667-02-09",d:"lehistan"},{f:"1667-02-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 { ad:"Harkov", tur:"sehir", lat:49.994, lon:36.231, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1654-01-01",d:"kirim"},{f:"1654-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 { ad:"Voronej", tur:"sehir", lat:51.672, lon:39.184, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1585-01-01",d:"kirim"},{f:"1585-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
@@ -884,7 +892,20 @@ window.YERLESIMLER = [
 { ad:"Barselona", tur:"liman", lat:41.387, lon:2.170, g:0, k:1,kd:[{f:"1281-01-01",t:"1479-01-20",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}] },
 { ad:"Valensiya", tur:"liman", lat:39.470, lon:-0.377, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}] },
 { ad:"Milano", tur:"sehir", lat:45.464, lon:9.190, g:0, k:1,kd:[{f:"1395-05-11",t:"1859-11-10",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1535-11-01",d:"milanoduka"},{f:"1535-11-01",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1859-06-04",d:"avusturya"},{f:"1859-06-04",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
-{ ad:"Floransa", tur:"sehir", lat:43.769, lon:11.256, g:0, k:1,kd:[{f:"1281-01-01",t:"1532-01-01",k:1,m:null},{f:"1532-01-01",t:"1860-03-22",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+// TOSKANA/FLORANSA BÖLÜNMESİ (KITA 2, 12 Eylül 2026) — denetim/PAKET-VERI-DUZELTME-A-0911.json
+// "toskana → floransa" kimliği. Kırılma günü PAKETİN ESKİ 1532-01-01'i DEĞİL,
+// KITA 1'in devletler.js'te indirdiği (M-3546) ve KITA 4'ün olaylar_ek2.js'e
+// yazdığı (M-3536/3538) GÜNCEL 1532-05-01 — Alessandro de' Medici'nin fiilî
+// dük saltanatının başladığı gün (Britannica "Alessandro | Duke of Florence"
+// + Wikipedia "Duke of the Florentine Republic"). 🔴 12 Eylül, koordinatörün
+// M-mesajı uyarınca DÜZELTİLDİ: `kd:` (bölgesel katman) İLK YAZIMDA
+// 1532-01-01'de bırakılmıştı, s: ile AYRIŞIYORDU — şimdi ikisi de 1532-05-01.
+// Ayrıca: `data/yer_yama_floransa.js` (5 Eylül, NEHİR SÜRTÜNME, M-2872) AYNI
+// bölünmeyi öneriyordu ama index.html'e HİÇ bağlanmamış (girdi.py'de yok) ve
+// stale 1532-01-01 taşıyor — kullanılmadı, bu satır onun yerine geçiyor.
+// Elba (yerlesimler.js, ayrı kayıt) o yamanın kastî dışladığı gibi zaten
+// floransa/toskana zincirine hiç girmiyor (piza→piombino) — dokunulmadı.
+{ ad:"Floransa", tur:"sehir", lat:43.769, lon:11.256, g:0, k:1,kd:[{f:"1281-01-01",t:"1532-05-01",k:1,m:null},{f:"1532-05-01",t:"1860-03-22",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1532-05-01",d:"floransa"},{f:"1532-05-01",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 { ad:"Torino", tur:"sehir", lat:45.070, lon:7.687, g:0, k:1,kd:[{f:"1720-08-02",t:"1861-03-17",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 { ad:"Cenova", tur:"liman", lat:44.4087, lon:8.9347, g:0, k:1,kd:[{f:"1281-01-01",t:"1797-06-14",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1797-06-14",d:"ceneviz"},{f:"1797-06-14",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 // ---- ORTA AVRUPA / ALMANYA ----
@@ -903,7 +924,9 @@ window.YERLESIMLER = [
 { ad:"Riga", tur:"liman", lat:56.949, lon:24.105, g:0, k:1,kd:[{f:"1918-11-18",t:"1923-10-29",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"letonya"}] },
 { ad:"Königsberg", tur:"liman", lat:54.710, lon:20.512, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1701-01-18",d:"almanya"},{f:"1701-01-18",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1923-10-29",d:"almanya"}] },
 { ad:"Gdansk", tur:"liman", lat:54.352, lon:18.646, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1466-10-19",d:"almanya"},{f:"1466-10-19",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1918-11-11",d:"almanya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
-{ ad:"Poznan", tur:"sehir", lat:52.409, lon:16.932, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1918-12-27",d:"almanya"},{f:"1918-12-27",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Poznan", tur:"sehir", lat:52.409, lon:16.932, g:0, k:3, d:[],
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A).
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1918-12-27",d:"almanya"},{f:"1918-12-27",t:"1923-10-29",d:"polonya"}] },
 { ad:"Varşova", tur:"sehir", lat:52.230, lon:21.011, g:0, k:1,kd:[{f:"1569-07-01",t:"1795-10-24",k:1,m:null},{f:"1918-11-11",t:"1923-10-29",k:1,m:null}], d:[], s:[{f:"1806-11-28",t:"1815-06-09",d:"varsova-dukaligi"}, {f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1806-11-28",d:"prusya"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
 { ad:"Vilnius",kaynak:"polonya", tur:"sehir", lat:54.687, lon:25.280, g:0, k:1,kd:[{f:"1281-01-01",t:"1569-07-01",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1923-10-29",d:"litvanya"}] },
 { ad:"Minsk",kaynak:"polonya", tur:"sehir", lat:53.904, lon:27.561, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
@@ -1201,9 +1224,15 @@ window.YERLESIMLER = [
 // → 1699-01-26 (Karlofça). Taksim tarihleri komşularıyla aynı: Podolya içi
 // Bar ve Meciboj 1793-01-23 (ikinci taksim, Kamaniçe gibi), Galiçya'daki
 // Yazlofça 1772-08-05 (birinci taksim, Lvov gibi) Avusturya'ya geçer.
-{ ad:"Bar (Podolya)", tur:"kale", lat:49.078, lon:28.260, g:0, k:3, m:"Kamaniçe", s:[{f:"1281-01-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
-{ ad:"Meciboj (Mejibuji)", tur:"kale", lat:49.431, lon:27.415, g:0, k:3, m:"Kamaniçe", s:[{f:"1281-01-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
-{ ad:"Yazlofça (Yazlovets)", tur:"kale", lat:48.951, lon:25.435, g:0, k:3, m:"Kamaniçe", s:[{f:"1281-01-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
+{ ad:"Bar (Podolya)", tur:"kale", lat:49.078, lon:28.260, g:0, k:3, m:"Kamaniçe",
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A).
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
+{ ad:"Meciboj (Mejibuji)", tur:"kale", lat:49.431, lon:27.415, g:0, k:3, m:"Kamaniçe",
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A).
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
+{ ad:"Yazlofça (Yazlovets)", tur:"kale", lat:48.951, lon:25.435, g:0, k:3, m:"Kamaniçe",
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A).
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
 
 // Balkanlar
 { ad:"Plevne", tur:"kale", lat:43.417, lon:24.617, g:1, k:3, m:"Sofya", s:[{f:"1281-01-01",t:"1393-07-17",d:"bulgaristan"},{f:"1877-12-10",t:"1878-07-13",d:"rusya"}, {f:"1878-07-13",t:"1908-10-05",d:"bulgaristan-prensligi"}, {f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1393-07-17",t:"1402-07-28",y:"kusatma"},{f:"1413-07-05",t:"1877-12-10"}] },
@@ -1470,9 +1499,21 @@ window.YERLESIMLER = [
 { ad:"Dahlak", tur:"kale", lat:15.692, lon:40.138, g:0, k:4, m:"Sevâkin", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}], v:[{f:"1865-01-01",t:"1885-02-05",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[{f:"1557-01-01",t:"1865-01-01"}] },
 { ad:"Ferasan (Farasan)", tur:"kale", lat:16.730, lon:42.009, g:0, k:4, m:"Sana", s:[{f:"1281-01-01",t:"1538-08-03",d:"yemen"},{f:"1635-01-01",t:"1849-05-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1538-08-03",t:"1635-01-01"},{f:"1849-05-01",t:"1918-10-30"}] },
 { ad:"Kemeran (Kamaran)", tur:"kale", lat:15.353, lon:42.587, g:0, k:4, m:"Sana", s:[{f:"1281-01-01",t:"1538-08-03",d:"yemen"},{f:"1635-01-01",t:"1849-05-01",d:"yemen"},{f:"1915-06-10",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1538-08-03",t:"1635-01-01"},{f:"1849-05-01",t:"1915-06-10"}] },
-{ ad:"Hürmüz Adası", tur:"kale", lat:26.861, lon:56.366, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1510-12-02",d:"iran"},{f:"1510-12-02",t:"1515-04-01",d:"safevi"},{f:"1515-04-01",t:"1622-05-01",d:"portekiz"},{f:"1622-05-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
-{ ad:"Kişm (Qeshm)", tur:"kale", lat:26.791, lon:55.821, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1510-12-02",d:"iran"},{f:"1510-12-02",t:"1515-04-01",d:"safevi"},{f:"1515-04-01",t:"1622-05-01",d:"portekiz"},{f:"1622-05-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
-{ ad:"Kiş (Kish)", tur:"kale", lat:26.526, lon:53.979, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
+{ ad:"Hürmüz Adası", tur:"kale", lat:26.861, lon:56.366, g:0, k:4, d:[],
+  // 🔴 12 Eylül 2026, KITA 2 — `iran`→`hurmuz-sultanligi` RELABEL
+  // (PAKET-VERI-DUZELTME-A-0911.json). Yalnız d: DEĞİŞTİ, tarihler AYNI:
+  // TDV `hurmuz--iran`: Portekiz'in 1514'te aldığı ada, İran'a değil bu
+  // yerel sultanlığa tâbiydi. Kaynak: PAKET-VERI-DUZELTME-A + kendi
+  // künyesi (devletler.js "hurmuz-sultanligi", f:1281,t:1514).
+  s:[{f:"1281-01-01",t:"1510-12-02",d:"hurmuz-sultanligi"},{f:"1510-12-02",t:"1515-04-01",d:"safevi"},{f:"1515-04-01",t:"1622-05-01",d:"portekiz"},{f:"1622-05-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
+{ ad:"Kişm (Qeshm)", tur:"kale", lat:26.791, lon:55.821, g:0, k:4, d:[],
+  // 🔴 12 Eylül 2026, KITA 2 — `iran`→`hurmuz-sultanligi` RELABEL, Hürmüz
+  // Adası ile BİREBİR AYNI GEREKÇE (PAKET-VERI-DUZELTME-A-0911.json).
+  s:[{f:"1281-01-01",t:"1510-12-02",d:"hurmuz-sultanligi"},{f:"1510-12-02",t:"1515-04-01",d:"safevi"},{f:"1515-04-01",t:"1622-05-01",d:"portekiz"},{f:"1622-05-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
+{ ad:"Kiş (Kish)", tur:"kale", lat:26.526, lon:53.979, g:0, k:4, d:[],
+  // 🔴 12 Eylül 2026, KITA 2 — `iran`→`hurmuz-sultanligi` RELABEL, aynı
+  // gerekçe (PAKET-VERI-DUZELTME-A-0911.json).
+  s:[{f:"1281-01-01",t:"1508-01-01",d:"hurmuz-sultanligi"},{f:"1508-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Sokotra", tur:"kale", lat:12.510, lon:53.872, g:0, k:4, d:[], s:[{f:"1281-01-01", t:"1507-01-01", d:"nebhani"},{f:"1507-01-01",t:"1511-01-01",d:"portekiz"},{f:"1511-01-01",t:"1923-10-29",d:"umman"}] },
 { ad:"Masira", tur:"kale", lat:20.414, lon:58.781, g:0, k:4, d:[], s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"},{f:"1515-04-01", t:"1923-10-29", d:"umman"}] },
 

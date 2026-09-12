@@ -217,6 +217,87 @@ window.YERLESIMLER_EK29 = [
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[], v:[] },
 
+// ═══════════════════ KÜME 3 — KARLOFÇA/BOSNA HATTI (KITA 2, 12 Eylül 2026) ═══════════════════
+//
+// Kaynak: Karlofça Antlaşması'nın BİRİNCİL metni (İngilizce çeviri):
+//   "The Country belonging to the Dominion of his Imperial Ottoman
+//    Majesty, as far as the River Unna towards Bosnia, shall be limited
+//    and bounded by the hither Shore of the River Unna: and all the
+//    Imperial Garrisons that are in Novi, Dubizza, Sessenovizza, Doboy
+//    and Bred on the part of Bosnia... shall be drawn out from thence,
+//    and the same shall be left entirely free."
+// Bu beş kale (Kostajnica ayrıca: "Castanoviz... remain in the Power of
+// the Emperor of the Romans") 1699-01-26'da Osmanlı'dan Avusturya'ya
+// geçti — `denetim/HAZIRLIK-BOSNA-NOKTA-0911.json` + `denetim/SEMA-C-
+// 0911.md`nin devamı, çakışma taraması `denetim/CAKISMA-BEKLEYEN-
+// PAKETLER-0911.md`de yapıldı.
+//
+// 🔴 ÇÖZÜLEN ÇELİŞKİ (HAZIRLIK-BOSNA-NOKTA'nın kendi kaydı): TDV `karlofca`
+//   "Kostayniçe Avusturya'da kaldı; diğer kaleleri (Bihke, Novi, Krupa
+//   vb.) boşaltıldı" diyordu. Birincil metin Bihaç'ı VE Krupa'yı boşaltılan
+//   kaleler listesinde ANMIYOR (yalnız Novi, Dubizza, Sessenovizza, Doboy,
+//   Bred). M-3329 kuralı (antlaşma metni birincil) uygulandı: Bihaç zaten
+//   veride Osmanlı olarak duruyor (yerlesimler_ek.js) — DOKUNULMADI. Krupa
+//   bu pakete EKLENMEDİ — birincil metin onu boşaltılanlar arasında
+//   saymıyor, TDV'nin genellemesi tek başına yeterli kaynak değil.
+//
+// 🔴 FETİH TARİHLERİ — üçü kaynaklı, ikisi KOMŞU EMSALİ (NOKTA MENZİL'in
+//   kendi yöntemi, yukarıdaki dosya başlığı §225: "en yakın mevcut
+//   noktaların zaman çizgisi izlendi"):
+//   Kostajnica  1556-07-17 KAYNAKLI (Wikipedia "Kostajnica Fortress":
+//               "conquered by the Ottomans on 17 July 1556")
+//   Bosanska Dubica  1538-01-01 KAYNAKLI (Wikipedia "Battle of Dubica":
+//               "In 1538 Dubica came under Ottoman rule") — gün yok, YYYY-01-01
+//   Bosanski Novi  1556-01-01 KAYNAKLI (aynı kaynak: "captured Kostajnica
+//               and Novi in 1556") — gün yok, YYYY-01-01
+//   Jasenovac  1538-01-01 KOMŞU EMSALİ (Dubica'dan, ~13 km) — KENDİ
+//               kaynağı bulunamadı, `dogrulanmadi:true` ruhunda
+//   Bosanski Brod  1538-01-01 KOMŞU EMSALİ (Dubica'dan, en yakın kaynaklı
+//               nokta) — KENDİ kaynağı bulunamadı
+//   ⚠️ Koordinatlar `denetim/HAZIRLIK-BOSNA-NOKTA-0911.json`den — genel
+//   coğrafi bilgi, GPS/harita ile birebir doğrulanmadı (`dogrulanmadi:true`
+//   damgası orijinal kayıtta duruyor).
+
+{ ad:"Kostayniçe (Kostajnica)", tur:"kale", lat:45.183, lon:16.683, g:0, k:3,
+  neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
+  d:[{f:"1556-07-17",t:"1699-01-26"}],
+  s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  v:[],
+  kaynak:"Karlofça Antlaşması birincil metni: \"Castanoviz... are and remain in the Power of the Emperor of the Romans\". Fetih: Wikipedia 'Kostajnica Fortress' — 17 Temmuz 1556." },
+
+{ ad:"Bosna Dubiçası (Bosanska Dubica)", tur:"kale", lat:45.174, lon:16.810, g:0, k:3,
+  neden:"1281-1538 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
+  d:[{f:"1538-01-01",t:"1699-01-26"}],
+  s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  v:[],
+  kaynak:"Karlofça Antlaşması birincil metni: \"...Dubizza...shall be drawn out...left entirely free\". Fetih: Wikipedia 'Battle of Dubica' — 1538." },
+
+{ ad:"Bosna Novi'si (Bosanski Novi)", tur:"kale", lat:45.048, lon:16.377, g:0, k:3,
+  neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
+  d:[{f:"1556-01-01",t:"1699-01-26"}],
+  s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  v:[],
+  kaynak:"Karlofça Antlaşması birincil metni: \"...Novi...shall be drawn out...left entirely free\". Fetih: aynı kaynak (Kostajnica ile birlikte), 1556 — Herseknovi (Herceg Novi) ile KARIŞTIRILMASIN, ayrı yer." },
+
+{ ad:"Jasenovaç (Jasenovac)", tur:"kale", lat:45.281, lon:16.917, g:0, k:3,
+  neden:"1281-1538 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı; 1538 tarihi de komşu emsali (Dubiça) olup KENDİ kaynağı yok.",
+  d:[{f:"1538-01-01",t:"1699-01-26"}],
+  s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  v:[],
+  kaynak:"Karlofça Antlaşması birincil metni: \"...Sessenovizza...shall be drawn out...left entirely free\". Fetih tarihi bulunamadı — komşu emsali (Bosna Dubiçası, 1538) kullanıldı, dogrulanmadi." },
+
+{ ad:"Bosna Brod'u (Bosanski Brod)", tur:"kale", lat:45.138, lon:17.988, g:0, k:3,
+  neden:"1281-1538 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı; 1538 tarihi de komşu emsali (Dubiça) olup KENDİ kaynağı yok.",
+  d:[{f:"1538-01-01",t:"1699-01-26"}],
+  s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  v:[],
+  kaynak:"Karlofça Antlaşması birincil metni: \"...Bred...shall be drawn out...left entirely free\" — bu, SEMA-C-0911.md §3.1'deki Sava HAT segmentinin bitiş noktasıyla (TDV 'Brot Kalesi') aynı yer olabilir. Fetih tarihi bulunamadı — komşu emsali (Bosna Dubiçası, 1538) kullanıldı, dogrulanmadi. Slavonski Brod (Sava'nın karşı/Hırvat yakası) ile KARIŞTIRILMASIN." },
+
 // ═══════════════════ KÜME 2 — MENZİL DURAKLARI ═══════════════════
 //
 // Kaynak: Sak-Çetin, DergiPark 258113 — Osmanlı ana menzil güzergâhının
@@ -410,5 +491,99 @@ window.YERLESIMLER_EK29 = [
 { ad:"Lanzaka (Lagkadas)",kaynak:"atina-antlasmasi",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"kasaba", lat:40.7500, lon:23.0667, g:0, k:4,
   s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
   d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}], v:[] },
+
+// ═══════════════════ KÜME 4 — LÜBNAN EMİRLİĞİ / HARFÛŞOĞULLARI ÇAPASI (KITA 2, 12 Eylül 2026) ═══════════════════
+//
+// Kaynak: `denetim/HAZIRLIK-LUBNAN-NOKTA-0911.json` (LÜBNAN YERLEŞİM oturumu,
+// 11 Eylül 2026) + `data/devletler.js` künyeleri `lubnan-emirligi` (satır
+// 7509), `cebel-i-lubnan-mutasarrifligi` (7519), `harfusogullari` (7528) —
+// üçü de KITA 1'in PAKET-KUNYE-INISI teslimiyle indi (bu paketin blokörü).
+//
+// 🔴 NİÇİN 3 NOKTA, HAZIRLIK DOSYASININ "4 ADAY"INDAN AZ: doğrudan
+// öneriyi (Deyrülkamer + Beyteddin + Ba'aklîn) OLDUĞU GİBİ yazmadım.
+// Hazırlık dosyasının kendi ①/②'sindeki mükerrer uyarısı Beyteddin'i
+// (2,08 km) ve Ba'aklîn'i (1,95 km) Deyrülkamer'e "AYRI nokta YAZMA"
+// diye açıkça elemiş — D002 sınıfı. Yazılanlar hazırlığın ③ özet
+// tavsiyesindeki ZORUNLU + GÜÇLÜ + İSTEĞE BAĞLI üçlü: Deyrülkamer,
+// Ba'lebek, Sûr (Tyre). Mükerrer sınavı bu oturumda AYRICA koşuldu
+// (girdi.yukle(), 3813 nokta): en yakın mevcut nokta Deyrülkamer için
+// Beyrut 21,92 km, Ba'lebek için Şam 55,23 km, Sûr için Sayda 35,97 km —
+// üçü de 3 km eşiğinin (D066) çok üstünde, çakışma yok.
+//
+// 🔴 AD ÇAKIŞMASI KONTROLÜ: veride ZATEN bir "Sûr" kaydı var
+// (yerlesimler.js:1874, lat 22,555/lon 59,520 — UMMAN'daki Sûr limanı,
+// nebhani/portekiz/umman kimlikleriyle). AYNI ADI kullanmak D065 sınıfı
+// bir karışıklık üretirdi; bu yüzden hazırlık dosyasının önerdiği gibi
+// "Sûr (Tyre) — Lübnan" adı kullanıldı, Umman kaydına DOKUNULMADI.
+//
+// DÖNEM ZİNCİRİ YÖNTEMİ — künyenin kendi f:/t: günleri devralındı
+// (D011: veri penceresi künye penceresini aşmamalı), gün UYDURULMADI:
+//   s: memluk (1281-01-01 → künyenin f:'i)
+//   v: kid:lubnan-emirligi (Deyrülkamer/Ba'lebek'te 2. künye) veya
+//      doğrudan d: (Sûr'da, TDV kaydı Emirlik'e HİÇ girmiyor — aşağı bkz.)
+//   d: doğrudan Osmanlı ARA dönemi (Emirlik/Mutasarrıflık arasındaki
+//      1842-1861 boşluk — künyelerin KENDİ f/t'leri arasındaki gerçek
+//      boşluk, uydurma değil)
+//   v: kid:cebel-i-lubnan-mutasarrifligi (yalnız Deyrülkamer/Ba'lebek)
+//   d: doğrudan Osmanlı, 1918 Birinci Dünya Savaşı çöküşüne kadar —
+//      KOMŞU EMSALİ (D084): en yakın kayıtlı kırılma günü Beyrut'un
+//      1918-10-08'i (yerlesimler.js:667) kullanıldı, kendi günü
+//      araştırılmadı.
+//   s: fransa-cumhuriyet / suriye-lubnan-mandasi — Beyrut/Şam ile
+//      BİREBİR aynı (1918-10-08 → 1920-07-24 → 1923-10-29), bölgesel
+//      tutarlılık için; bu iki günün ikisi de kronolojide zaten kayıtlı
+//      (Değişmez 2 bu ikisi için AÇILMIYOR — Beyrut/Şam'da zaten kapalı).
+//
+// 🔴 DEĞİŞMEZ 2 AÇIK KALAN KIRILMALAR — bekletmeden bildiriliyor, DÜZELTMEDİM:
+// künyelerin kendi f/t günleri (1516-10-01 · 1842-01-01 · 1861-06-09 ·
+// 1915-07-11) için `data/olaylar*.js` kronoloji ÇEKİRDEĞİNDE ±30 gün
+// içinde madde ARANMADI/BULUNAMADI — bu dört kırılma muhtemelen AÇIK
+// çıkacak (denetle.py çalıştırıldığında ölçülecek). Çare `olaylar*.js`e
+// madde yazmak, ve o dosya bu paketin sahiplik alanı DIŞINDA (§7).
+// Künyelerin KENDİ `kronoloji` alanları (devletler.js içinde) zaten bu
+// dört günü anlatıyor olabilir ama CLAUDE.md §5 açıkça ayırıyor: o alan
+// Değişmez 2'nin evreni DEĞİL, yalnız `olaylar*.js`+`kronoloji*.js`
+// (çekirdek) sayılıyor.
+//
+// kaynak: `denetim/HAZIRLIK-LUBNAN-NOKTA-0911.json` — TDV `lubnan`
+// (Ma'noğulları/Şihaboğulları nüfuzu), TDV `balebek` (Harfûş ailesi,
+// "1516'da... Osmanlı hâkimiyetine geçti... Harfûş ailesinin elinde
+// kaldı"), TDV `sur--lubnan` ("Yavuz Sultan Selim'in 1516 Mercidâbık
+// zaferinden sonra Sûr şehri de Osmanlı ülkesine katıldı").
+
+{ ad:"Deyrülkamer (Dayr al-Kamer)", tur:"kasaba", lat:33.6989, lon:35.5619, g:0, k:3,
+  dogrulanmadi:true,
+  neden:"'Ma'noğulları/Şihaboğulları'nın BAŞKENTİYDİ' iddiası yalnız Wikipedia'da var, TDV/Britannica'da DOĞRULANAMADI (hazırlık dosyası ②). Nokta ve v: bağı, künyenin kendi f/t penceresi ile TAM örtüştüğü ve TDV'nin doğruladığı 'Şûf bölgesi nüfuzu' gerekçesiyle sağlam; yalnız 'başkent' sıfatı doğrulanmamış kaldı.",
+  s:[{f:"1281-01-01",t:"1516-10-01",d:"memluk"},
+     {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
+     {f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  v:[{f:"1516-10-01",t:"1842-01-01",statu:"özerk",kid:"lubnan-emirligi"},
+     {f:"1861-06-09",t:"1915-07-11",statu:"özerk",kid:"cebel-i-lubnan-mutasarrifligi"}],
+  d:[{f:"1842-01-01",t:"1861-06-09"},{f:"1915-07-11",t:"1918-10-08"}],
+  kaynak:"TDV `lubnan` (Ma'noğulları 1585-1635 nüfuz genişlemesi, Şihaboğulları ~1697 Şûf'ta başlangıç) — 'başkent' iddiası dogrulanmadi:true, bkz. üstteki not." },
+
+// 🔴 KENDİ HATAMIN DÜZELTMESİ (ilk denetle.py koşusu yakaladı, CLAUDE.md
+// §3.5 "hayalet devlet" sınıfı): memluk s: dönemi ORİJİNAL YAZIMDA
+// 1521-01-01'e kadar uzuyordu — memluk künyesinin KENDİ ölüm tarihini
+// (devletler.js:105, t:"1517-04-13") 3,7 YIL AŞIYORDU. Düzeltme: memluk
+// Şam/Mercidabık günüyle (1516-09-27, komşu emsali — Şam kaydı
+// yerlesimler.js:665) kapatıldı, arada doğrudan Osmanlı `d:` dönemi
+// eklendi (1516-09-27→1521-01-01, Harfûş ailesinin fiilen yerleşmesine
+// kadar). Harfûşoğulları künyesinin kendi f:'i (1521-01-01) DEĞİŞMEDİ.
+{ ad:"Ba'lebek (Baalbek)", tur:"kasaba", lat:34.0059, lon:36.2181, g:0, k:3,
+  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},
+     {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
+     {f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  v:[{f:"1521-01-01",t:"1850-01-01",statu:"özerk",kid:"harfusogullari"}],
+  d:[{f:"1516-09-27",t:"1521-01-01"},{f:"1850-01-01",t:"1918-10-08"}],
+  kaynak:"TDV `balebek` (gövdesi okundu, `baalbek` slug'ı ona yönlendiriyor — §4② tuzağı): '1516'da Yavuz Sultan Selim'in Suriye seferi sırasında Osmanlı hâkimiyetine geçti... küçük beylerin, özellikle Harfûş ailesinin elinde kaldı' · '1850'de Bâbıâli'nin yeni düzenlemesiyle Şam vilâyetine tâbi bir kaza merkezi yapıldı'. Fetih günü Şam/Mercidabık (1516-09-27, komşu emsali) ile hizalandı; Harfûş hâkimiyeti künyenin kendi f:'i (1521-01-01, Canbirdi Gazâlî isyanı sonrası) ile başlıyor." },
+
+{ ad:"Sûr (Tyre) — Lübnan", tur:"liman", lat:33.2704, lon:35.2038, g:0, k:3,
+  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},
+     {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
+     {f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
+  d:[{f:"1516-09-27",t:"1918-10-08"}], v:[],
+  neden:"Emirlik/Mutasarrıflık'a v: BAĞLANMADI — TDV `sur--lubnan` idarî zincirini sancak-içi anlatıyor (Şam→Sayda→1865 Beyrut sancağı), Ma'noğlu Fahreddin'in müdahalesi biçimsel egemenlik değil başarısız bir onarım girişimi olarak geçiyor. Osmanlı doğrudanlığı hiç kesilmiyor.",
+  kaynak:"TDV `sur--lubnan` (ilk sınav `sur` yanlış madde/kavram karışıklığı riski taşıyordu, doğru slug içerik okunarak doğrulandı — §4② tuzağı): 'Yavuz Sultan Selim'in 1516 Mercidâbık zaferinden sonra Sûr şehri de Osmanlı ülkesine katıldı.' Gün Şam kaydıyla (yerlesimler.js:665) hizalandı — aynı Mercidâbık seferi, komşu emsali (D084)." },
 
 ];

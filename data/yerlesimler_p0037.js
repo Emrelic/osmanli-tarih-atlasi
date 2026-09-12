@@ -70,12 +70,14 @@ window.YERLESIMLER_P0037 = [
 // ───── H-0007 · Lublin — Volhinya — Polesye ─────
 // Kongre Lehistanı parçası (1795 Avusturya · 1809 Varşova Dukalığı · 1815 Rusya · 1918 Polonya)
 { ad:"Lublin", tur:"sehir", lat:51.2465, lon:22.5684, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A-0911.json).
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"TDV `lehistan` gövdesi çekilemedi (§4 ④ boilerplate), `lublin` 302. Dayanak: Norman Davies, God's Playground: A History of Poland (Oxford UP) — üçüncü taksim 24 Ekim 1795 (Batı Galiçya, Avusturya), Schönbrunn 14 Ekim 1809 (Varşova Dukalığı'na), Viyana Nihaî Senedi 9 Haziran 1815 (Kongre Lehistanı, Rusya). Koordinat: kronoloji_lehistan.js'teki eksik_nokta kaydıyla aynı. 1917-1918 kuyruğu Varşova kaydının deseni." },
 
 { ad:"Chełm (Kholm)", tur:"sehir", lat:51.1431, lon:23.4716, g:0, k:4, m:"Lublin",
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
+  // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A-0911.json).
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1917-03-15",d:"kongre-polonyasi"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"Lublin kaydıyla aynı dayanak (N. Davies, God's Playground); 1281-1340 Halic-Volhinya dönemi külliyatın deseni gereği (Lvov kaydı gibi) `lehistan` altında sadeleştirildi. Koordinat: coğrafî bilgi." },
 
