@@ -1,0 +1,6095 @@
+{
+ "alet": "ARAC-SIZMA-0912",
+ "tarih": "2026-09-12 18:18",
+ "butce_saat": 40.0,
+ "hiz_egrisi": "Tobler 1993 (R1/KITA 9'un alani)",
+ "ceza_eklendi": false,
+ "sinavlar": [
+  {
+   "ad": "duz-arazi-201-km",
+   "beklenen_km": 201.5,
+   "olculen_en_iyi_km": 200.2,
+   "kivrim_ortanca": 1.017,
+   "gecti": true,
+   "yorum": "Duz arazide sizma = 40 x 5,037 = 201 km ve kivrim 1,0 olmali. Izgara kosegen hatasi %5'i gecmemeli."
+  },
+  {
+   "ad": "sabit-egim-tobler",
+   "egim": 0.15,
+   "beklenen_km": 119.2,
+   "olculen_km": 117.9,
+   "gecti": true,
+   "yorum": "Tek tip yuzeyde sizma = butce x Tobler hizi."
+  },
+  {
+   "ad": "duvar-kivrim",
+   "duvar_otesi_en_buyuk_kivrim": 1.639,
+   "duvarsiz_ayni_yonde_kivrim": 1.033,
+   "duvar_otesi_sektor_sayisi": 5,
+   "gecti": true,
+   "yorum": "Izgara ENGELI temsil edebiliyorsa kivrim buyur (duvarli 1.64) ve engel yokken 1'e yakin kalir (duvarsiz 1.03). Bu sinav, gercek olcumde kivrimin 1'e yakin cikmasinin ARACIN kusuru DEGIL arazinin/izgaranin ozelligi oldugunu gosterir."
+  }
+ ],
+ "hiza": {
+  "ad": "dem-hizasi",
+  "zirveler": [
+   {
+    "zirve": "Everest",
+    "gercek_lat": 27.9881,
+    "bulunan_lat": 27.975,
+    "kayma": -0.013
+   },
+   {
+    "zirve": "Mont Blanc",
+    "gercek_lat": 45.8326,
+    "bulunan_lat": 45.825,
+    "kayma": -0.008
+   },
+   {
+    "zirve": "Elbruz",
+    "gercek_lat": 43.355,
+    "bulunan_lat": 43.325,
+    "kayma": -0.03
+   },
+   {
+    "zirve": "Kilimanjaro",
+    "gercek_lat": -3.0674,
+    "bulunan_lat": -3.075,
+    "kayma": -0.008
+   },
+   {
+    "zirve": "Agri Dagi",
+    "gercek_lat": 39.702,
+    "bulunan_lat": 39.725,
+    "kayma": 0.023
+   },
+   {
+    "zirve": "K2",
+    "gercek_lat": 35.88,
+    "bulunan_lat": 35.825,
+    "kayma": -0.055
+   }
+  ],
+  "en_buyuk_kayma_derece": 0.055,
+  "hucre_boyu_derece": 0.05,
+  "gecti": true,
+  "not": "Aconcagua KULLANILMADI: komsu Cerro Mercedario ortalanmis hucrede onu geciyor (koordinator uyarisi M-3584)."
+ },
+ "bolgeler": {
+  "ISVICRE": {
+   "izgara": [
+    172,
+    122
+   ],
+   "kara_hucre": 20559,
+   "arazi_profili": {
+    "a_motor": {
+     "egim_%_ortanca": 1.0,
+     "egim_%_y90": 6.59,
+     "tobler_hiz_ortanca_kmsa": 4.863
+    },
+    "b_tri": {
+     "egim_%_ortanca": 2.88,
+     "egim_%_y90": 20.59,
+     "tobler_hiz_ortanca_kmsa": 4.553
+    },
+    "c_gecit": {
+     "egim_%_ortanca": 2.5,
+     "egim_%_y90": 19.94,
+     "tobler_hiz_ortanca_kmsa": 4.615
+    },
+    "tri_m_ortanca": 218.0,
+    "z_ort_m_ortanca": 450.4
+   },
+   "tohumlar": {
+    "Luzern": {
+     "a_motor": {
+      "tohum_lat": 47.025,
+      "tohum_lon": 8.325,
+      "ulasilan_hucre": 4380,
+      "ulasilan_alan_km2": 92500.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 112.5,
+       "duz_km": 156.0,
+       "yurunen_km": 176.0,
+       "kivrim": 1.128,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 46.425,
+       "lon": 10.175,
+       "z_ort_m": 2506.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 176.7,
+       "yurunen_km": 192.6,
+       "kivrim": 1.09,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 48.125,
+       "lon": 6.625,
+       "z_ort_m": 517.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 22.5,
+       "duz_km": 191.2,
+       "yurunen_km": 195.5,
+       "kivrim": 1.023,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 48.525,
+       "lon": 9.575,
+       "z_ort_m": 794.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 112.5,
+       "duz_km": 156.0,
+       "yurunen_km": 176.0,
+       "kivrim": 1.128,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 46.425,
+       "lon": 10.175,
+       "z_ort_m": 2506.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.039,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 189.9,
+        "yurunen_km": 195.0,
+        "kivrim": 1.026,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.725,
+        "lon": 8.575,
+        "z_ort_m": 655.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 191.2,
+        "yurunen_km": 195.5,
+        "kivrim": 1.023,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 48.525,
+        "lon": 9.575,
+        "z_ort_m": 794.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 180.5,
+        "yurunen_km": 195.4,
+        "kivrim": 1.082,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.175,
+        "lon": 10.025,
+        "z_ort_m": 573.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 167.9,
+        "yurunen_km": 187.7,
+        "kivrim": 1.118,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 47.525,
+        "lon": 10.425,
+        "z_ort_m": 1240.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 163.5,
+        "yurunen_km": 169.1,
+        "kivrim": 1.035,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.925,
+        "lon": 10.475,
+        "z_ort_m": 1591.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 156.0,
+        "yurunen_km": 176.0,
+        "kivrim": 1.128,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 46.425,
+        "lon": 10.175,
+        "z_ort_m": 2506.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 170.4,
+        "yurunen_km": 175.5,
+        "kivrim": 1.03,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 45.675,
+        "lon": 9.375,
+        "z_ort_m": 253.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 172.5,
+        "yurunen_km": 180.6,
+        "kivrim": 1.046,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.575,
+        "lon": 9.125,
+        "z_ort_m": 169.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 166.8,
+        "yurunen_km": 175.4,
+        "kivrim": 1.051,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.525,
+        "lon": 8.275,
+        "z_ort_m": 217.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 160.6,
+        "yurunen_km": 164.2,
+        "kivrim": 1.022,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.775,
+        "lon": 7.275,
+        "z_ort_m": 1489.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 161.0,
+        "yurunen_km": 178.7,
+        "kivrim": 1.11,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 46.125,
+        "lon": 6.675,
+        "z_ort_m": 1370.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 182.4,
+        "yurunen_km": 188.2,
+        "kivrim": 1.032,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.925,
+        "lon": 5.925,
+        "z_ort_m": 631.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 182.4,
+        "yurunen_km": 190.5,
+        "kivrim": 1.044,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.175,
+        "lon": 5.925,
+        "z_ort_m": 279.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 176.7,
+        "yurunen_km": 192.6,
+        "kivrim": 1.09,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 48.125,
+        "lon": 6.625,
+        "z_ort_m": 517.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 190.2,
+        "yurunen_km": 192.3,
+        "kivrim": 1.011,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 48.475,
+        "lon": 6.975,
+        "z_ort_m": 426.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 189.1,
+        "yurunen_km": 190.3,
+        "kivrim": 1.007,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.725,
+        "lon": 8.275,
+        "z_ort_m": 402.0
+       }
+      ]
+     },
+     "b_tri": {
+      "tohum_lat": 47.025,
+      "tohum_lon": 8.325,
+      "ulasilan_hucre": 2980,
+      "ulasilan_alan_km2": 62934.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 135.0,
+       "duz_km": 93.0,
+       "yurunen_km": 105.2,
+       "kivrim": 1.131,
+       "harcanan_saat": 39.1,
+       "sinirlayan": "BUTCE",
+       "lat": 46.425,
+       "lon": 9.175,
+       "z_ort_m": 2078.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 162.9,
+       "yurunen_km": 184.2,
+       "kivrim": 1.131,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 47.725,
+       "lon": 6.425,
+       "z_ort_m": 305.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 22.5,
+       "duz_km": 181.6,
+       "yurunen_km": 184.4,
+       "kivrim": 1.015,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 48.425,
+       "lon": 9.575,
+       "z_ort_m": 799.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 135.0,
+       "duz_km": 93.0,
+       "yurunen_km": 105.2,
+       "kivrim": 1.131,
+       "harcanan_saat": 39.1,
+       "sinirlayan": "BUTCE",
+       "lat": 46.425,
+       "lon": 9.175,
+       "z_ort_m": 2078.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.078,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 178.9,
+        "yurunen_km": 183.8,
+        "kivrim": 1.028,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.625,
+        "lon": 8.575,
+        "z_ort_m": 649.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 181.6,
+        "yurunen_km": 184.4,
+        "kivrim": 1.015,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 48.425,
+        "lon": 9.575,
+        "z_ort_m": 799.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 167.5,
+        "yurunen_km": 182.0,
+        "kivrim": 1.087,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 48.075,
+        "lon": 9.925,
+        "z_ort_m": 610.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 148.3,
+        "yurunen_km": 165.9,
+        "kivrim": 1.118,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 47.475,
+        "lon": 10.175,
+        "z_ort_m": 1322.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 113.7,
+        "yurunen_km": 137.0,
+        "kivrim": 1.205,
+        "harcanan_saat": 38.8,
+        "sinirlayan": "BUTCE",
+        "lat": 47.025,
+        "lon": 9.825,
+        "z_ort_m": 2096.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 95.7,
+        "yurunen_km": 107.9,
+        "kivrim": 1.128,
+        "harcanan_saat": 39.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.675,
+        "lon": 9.475,
+        "z_ort_m": 1464.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 93.0,
+        "yurunen_km": 105.2,
+        "kivrim": 1.131,
+        "harcanan_saat": 39.1,
+        "sinirlayan": "BUTCE",
+        "lat": 46.425,
+        "lon": 9.175,
+        "z_ort_m": 2078.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 95.7,
+        "yurunen_km": 101.7,
+        "kivrim": 1.063,
+        "harcanan_saat": 38.6,
+        "sinirlayan": "BUTCE",
+        "lat": 46.175,
+        "lon": 8.525,
+        "z_ort_m": 1535.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 94.5,
+        "yurunen_km": 99.3,
+        "kivrim": 1.051,
+        "harcanan_saat": 38.6,
+        "sinirlayan": "BUTCE",
+        "lat": 46.175,
+        "lon": 8.325,
+        "z_ort_m": 691.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 114.8,
+        "yurunen_km": 129.8,
+        "kivrim": 1.131,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.225,
+        "lon": 7.375,
+        "z_ort_m": 735.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 144.4,
+        "yurunen_km": 168.1,
+        "kivrim": 1.164,
+        "harcanan_saat": 36.4,
+        "sinirlayan": "BUTCE",
+        "lat": 46.525,
+        "lon": 6.575,
+        "z_ort_m": 401.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 167.3,
+        "yurunen_km": 178.7,
+        "kivrim": 1.068,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.925,
+        "lon": 6.125,
+        "z_ort_m": 804.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 167.4,
+        "yurunen_km": 175.6,
+        "kivrim": 1.049,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 47.175,
+        "lon": 6.125,
+        "z_ort_m": 488.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 162.9,
+        "yurunen_km": 184.2,
+        "kivrim": 1.131,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.725,
+        "lon": 6.425,
+        "z_ort_m": 305.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 174.9,
+        "yurunen_km": 177.8,
+        "kivrim": 1.016,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.375,
+        "lon": 7.125,
+        "z_ort_m": 595.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 177.2,
+        "yurunen_km": 185.5,
+        "kivrim": 1.047,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 48.525,
+        "lon": 7.525,
+        "z_ort_m": 172.0
+       }
+      ]
+     },
+     "c_gecit": {
+      "tohum_lat": 47.025,
+      "tohum_lon": 8.325,
+      "ulasilan_hucre": 3191,
+      "ulasilan_alan_km2": 67390.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 157.5,
+       "duz_km": 101.9,
+       "yurunen_km": 114.3,
+       "kivrim": 1.121,
+       "harcanan_saat": 39.6,
+       "sinirlayan": "BUTCE",
+       "lat": 46.175,
+       "lon": 8.825,
+       "z_ort_m": 392.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 167.1,
+       "yurunen_km": 188.7,
+       "kivrim": 1.129,
+       "harcanan_saat": 39.7,
+       "sinirlayan": "BUTCE",
+       "lat": 47.675,
+       "lon": 6.325,
+       "z_ort_m": 326.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 22.5,
+       "duz_km": 184.5,
+       "yurunen_km": 188.8,
+       "kivrim": 1.023,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 48.475,
+       "lon": 9.525,
+       "z_ort_m": 790.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 157.5,
+       "duz_km": 101.9,
+       "yurunen_km": 114.3,
+       "kivrim": 1.121,
+       "harcanan_saat": 39.6,
+       "sinirlayan": "BUTCE",
+       "lat": 46.175,
+       "lon": 8.825,
+       "z_ort_m": 392.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 1,
+      "kivrim_ortanca_butun_sektorler": 1.105,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 180.1,
+        "yurunen_km": 188.4,
+        "kivrim": 1.046,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.575,
+        "lon": 9.025,
+        "z_ort_m": 476.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 184.5,
+        "yurunen_km": 188.8,
+        "kivrim": 1.023,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.475,
+        "lon": 9.525,
+        "z_ort_m": 790.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 170.2,
+        "yurunen_km": 185.9,
+        "kivrim": 1.092,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 48.075,
+        "lon": 9.975,
+        "z_ort_m": 613.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 159.3,
+        "yurunen_km": 179.3,
+        "kivrim": 1.126,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 47.575,
+        "lon": 10.275,
+        "z_ort_m": 767.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 125.1,
+        "yurunen_km": 160.1,
+        "kivrim": 1.28,
+        "harcanan_saat": 38.4,
+        "sinirlayan": "BUTCE",
+        "lat": 47.025,
+        "lon": 9.975,
+        "z_ort_m": 1319.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 104.1,
+        "yurunen_km": 117.9,
+        "kivrim": 1.132,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 46.575,
+        "lon": 9.525,
+        "z_ort_m": 2329.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 103.8,
+        "yurunen_km": 113.5,
+        "kivrim": 1.093,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.225,
+        "lon": 9.025,
+        "z_ort_m": 470.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 101.9,
+        "yurunen_km": 114.3,
+        "kivrim": 1.121,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 46.175,
+        "lon": 8.825,
+        "z_ort_m": 392.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 105.7,
+        "yurunen_km": 114.0,
+        "kivrim": 1.079,
+        "harcanan_saat": 39.2,
+        "sinirlayan": "BUTCE",
+        "lat": 46.075,
+        "lon": 8.275,
+        "z_ort_m": 389.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 122.3,
+        "yurunen_km": 138.6,
+        "kivrim": 1.133,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 46.225,
+        "lon": 7.225,
+        "z_ort_m": 1409.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 144.4,
+        "yurunen_km": 168.2,
+        "kivrim": 1.165,
+        "harcanan_saat": 35.9,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 46.525,
+        "lon": 6.575,
+        "z_ort_m": 401.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 167.3,
+        "yurunen_km": 178.8,
+        "kivrim": 1.069,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 46.925,
+        "lon": 6.125,
+        "z_ort_m": 804.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 167.9,
+        "yurunen_km": 187.6,
+        "kivrim": 1.117,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.525,
+        "lon": 6.225,
+        "z_ort_m": 298.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 167.1,
+        "yurunen_km": 188.7,
+        "kivrim": 1.129,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 47.675,
+        "lon": 6.325,
+        "z_ort_m": 326.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 177.9,
+        "yurunen_km": 184.8,
+        "kivrim": 1.039,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.425,
+        "lon": 7.175,
+        "z_ort_m": 500.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 179.8,
+        "yurunen_km": 190.3,
+        "kivrim": 1.058,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 48.525,
+        "lon": 7.425,
+        "z_ort_m": 265.0
+       }
+      ]
+     },
+     "_png": "denetim\\KITA11-SIZMA-ISVICRE-Luzern.png"
+    },
+    "Bern": {
+     "a_motor": {
+      "tohum_lat": 46.975,
+      "tohum_lon": 7.475,
+      "ulasilan_hucre": 4460,
+      "ulasilan_alan_km2": 94277.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 112.5,
+       "duz_km": 159.9,
+       "yurunen_km": 173.4,
+       "kivrim": 1.085,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 45.975,
+       "lon": 8.975,
+       "z_ort_m": 465.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 176.8,
+       "yurunen_km": 192.8,
+       "kivrim": 1.091,
+       "harcanan_saat": 39.4,
+       "sinirlayan": "BUTCE",
+       "lat": 48.075,
+       "lon": 5.775,
+       "z_ort_m": 378.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 0.0,
+       "duz_km": 194.6,
+       "yurunen_km": 196.0,
+       "kivrim": 1.007,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 48.725,
+       "lon": 7.525,
+       "z_ort_m": 197.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 112.5,
+       "duz_km": 159.9,
+       "yurunen_km": 173.4,
+       "kivrim": 1.085,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 45.975,
+       "lon": 8.975,
+       "z_ort_m": 465.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.038,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 194.6,
+        "yurunen_km": 196.0,
+        "kivrim": 1.007,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.725,
+        "lon": 7.525,
+        "z_ort_m": 197.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 189.8,
+        "yurunen_km": 191.7,
+        "kivrim": 1.01,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.375,
+        "lon": 8.925,
+        "z_ort_m": 505.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 179.5,
+        "yurunen_km": 196.7,
+        "kivrim": 1.096,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.075,
+        "lon": 9.225,
+        "z_ort_m": 621.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 172.1,
+        "yurunen_km": 189.6,
+        "kivrim": 1.101,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 47.375,
+        "lon": 9.675,
+        "z_ort_m": 422.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 166.9,
+        "yurunen_km": 172.9,
+        "kivrim": 1.036,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 46.975,
+        "lon": 9.675,
+        "z_ort_m": 1072.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 159.9,
+        "yurunen_km": 173.4,
+        "kivrim": 1.085,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 45.975,
+        "lon": 8.975,
+        "z_ort_m": 465.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 165.3,
+        "yurunen_km": 171.9,
+        "kivrim": 1.04,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 45.625,
+        "lon": 8.375,
+        "z_ort_m": 295.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 162.2,
+        "yurunen_km": 169.4,
+        "kivrim": 1.045,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 45.625,
+        "lon": 8.275,
+        "z_ort_m": 348.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 164.9,
+        "yurunen_km": 172.2,
+        "kivrim": 1.044,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.525,
+        "lon": 7.025,
+        "z_ort_m": 2827.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 171.4,
+        "yurunen_km": 176.1,
+        "kivrim": 1.028,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 45.675,
+        "lon": 6.275,
+        "z_ort_m": 1434.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 174.9,
+        "yurunen_km": 191.4,
+        "kivrim": 1.094,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.925,
+        "lon": 5.775,
+        "z_ort_m": 1106.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 189.8,
+        "yurunen_km": 193.0,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 46.925,
+        "lon": 4.975,
+        "z_ort_m": 193.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 189.7,
+        "yurunen_km": 189.9,
+        "kivrim": 1.001,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 46.975,
+        "lon": 4.975,
+        "z_ort_m": 185.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 176.8,
+        "yurunen_km": 192.8,
+        "kivrim": 1.091,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 48.075,
+        "lon": 5.775,
+        "z_ort_m": 378.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 190.3,
+        "yurunen_km": 192.3,
+        "kivrim": 1.011,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.425,
+        "lon": 6.125,
+        "z_ort_m": 299.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 189.4,
+        "yurunen_km": 192.6,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 48.675,
+        "lon": 7.325,
+        "z_ort_m": 362.0
+       }
+      ]
+     },
+     "b_tri": {
+      "tohum_lat": 46.975,
+      "tohum_lon": 7.475,
+      "ulasilan_hucre": 3317,
+      "ulasilan_alan_km2": 70116.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 135.0,
+       "duz_km": 103.8,
+       "yurunen_km": 105.7,
+       "kivrim": 1.018,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 46.175,
+       "lon": 8.175,
+       "z_ort_m": 1865.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 45.0,
+       "duz_km": 167.6,
+       "yurunen_km": 182.5,
+       "kivrim": 1.089,
+       "harcanan_saat": 39.3,
+       "sinirlayan": "BUTCE",
+       "lat": 48.025,
+       "lon": 9.075,
+       "z_ort_m": 708.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 0.0,
+       "duz_km": 183.6,
+       "yurunen_km": 186.0,
+       "kivrim": 1.013,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 48.625,
+       "lon": 7.575,
+       "z_ort_m": 178.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 135.0,
+       "duz_km": 103.8,
+       "yurunen_km": 105.7,
+       "kivrim": 1.018,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 46.175,
+       "lon": 8.175,
+       "z_ort_m": 1865.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.062,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 183.6,
+        "yurunen_km": 186.0,
+        "kivrim": 1.013,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.625,
+        "lon": 7.575,
+        "z_ort_m": 178.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 176.9,
+        "yurunen_km": 178.9,
+        "kivrim": 1.011,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.325,
+        "lon": 8.725,
+        "z_ort_m": 549.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 167.6,
+        "yurunen_km": 182.5,
+        "kivrim": 1.089,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 48.025,
+        "lon": 9.075,
+        "z_ort_m": 708.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 160.9,
+        "yurunen_km": 180.3,
+        "kivrim": 1.12,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 47.475,
+        "lon": 9.475,
+        "z_ort_m": 492.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 129.0,
+        "yurunen_km": 146.5,
+        "kivrim": 1.135,
+        "harcanan_saat": 39.2,
+        "sinirlayan": "BUTCE",
+        "lat": 46.975,
+        "lon": 9.175,
+        "z_ort_m": 1381.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 105.1,
+        "yurunen_km": 118.7,
+        "kivrim": 1.13,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.575,
+        "lon": 8.725,
+        "z_ort_m": 2520.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 103.8,
+        "yurunen_km": 105.7,
+        "kivrim": 1.018,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.175,
+        "lon": 8.175,
+        "z_ort_m": 1865.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 111.5,
+        "yurunen_km": 116.1,
+        "kivrim": 1.042,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 45.975,
+        "lon": 7.575,
+        "z_ort_m": 3224.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 118.9,
+        "yurunen_km": 129.3,
+        "kivrim": 1.088,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.975,
+        "lon": 6.925,
+        "z_ort_m": 1686.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 161.2,
+        "yurunen_km": 185.3,
+        "kivrim": 1.15,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 45.925,
+        "lon": 6.025,
+        "z_ort_m": 538.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 168.3,
+        "yurunen_km": 184.5,
+        "kivrim": 1.096,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.975,
+        "lon": 5.825,
+        "z_ort_m": 338.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 178.5,
+        "yurunen_km": 181.5,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.925,
+        "lon": 5.125,
+        "z_ort_m": 183.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 178.3,
+        "yurunen_km": 181.4,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.025,
+        "lon": 5.125,
+        "z_ort_m": 182.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 164.9,
+        "yurunen_km": 178.6,
+        "kivrim": 1.083,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 48.025,
+        "lon": 5.925,
+        "z_ort_m": 273.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 170.2,
+        "yurunen_km": 172.3,
+        "kivrim": 1.012,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.275,
+        "lon": 6.275,
+        "z_ort_m": 361.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 178.1,
+        "yurunen_km": 180.3,
+        "kivrim": 1.013,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 48.575,
+        "lon": 7.375,
+        "z_ort_m": 313.0
+       }
+      ]
+     },
+     "c_gecit": {
+      "tohum_lat": 46.975,
+      "tohum_lon": 7.475,
+      "ulasilan_hucre": 3511,
+      "ulasilan_alan_km2": 74217.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 112.5,
+       "duz_km": 112.0,
+       "yurunen_km": 143.0,
+       "kivrim": 1.277,
+       "harcanan_saat": 39.4,
+       "sinirlayan": "BUTCE",
+       "lat": 46.575,
+       "lon": 8.825,
+       "z_ort_m": 2386.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 170.3,
+       "yurunen_km": 186.1,
+       "kivrim": 1.093,
+       "harcanan_saat": 39.6,
+       "sinirlayan": "BUTCE",
+       "lat": 48.025,
+       "lon": 5.825,
+       "z_ort_m": 349.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 0.0,
+       "duz_km": 184.8,
+       "yurunen_km": 190.4,
+       "kivrim": 1.03,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 48.625,
+       "lon": 7.775,
+       "z_ort_m": 135.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 112.5,
+       "duz_km": 112.0,
+       "yurunen_km": 143.0,
+       "kivrim": 1.277,
+       "harcanan_saat": 39.4,
+       "sinirlayan": "BUTCE",
+       "lat": 46.575,
+       "lon": 8.825,
+       "z_ort_m": 2386.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.075,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 184.8,
+        "yurunen_km": 190.4,
+        "kivrim": 1.03,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.625,
+        "lon": 7.775,
+        "z_ort_m": 135.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 178.9,
+        "yurunen_km": 180.1,
+        "kivrim": 1.006,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 48.325,
+        "lon": 8.775,
+        "z_ort_m": 534.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 174.1,
+        "yurunen_km": 189.2,
+        "kivrim": 1.087,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.075,
+        "lon": 9.125,
+        "z_ort_m": 669.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 164.8,
+        "yurunen_km": 182.0,
+        "kivrim": 1.104,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.375,
+        "lon": 9.575,
+        "z_ort_m": 425.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 136.6,
+        "yurunen_km": 159.9,
+        "kivrim": 1.171,
+        "harcanan_saat": 38.6,
+        "sinirlayan": "BUTCE",
+        "lat": 46.975,
+        "lon": 9.275,
+        "z_ort_m": 1856.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 112.0,
+        "yurunen_km": 143.0,
+        "kivrim": 1.277,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 46.575,
+        "lon": 8.825,
+        "z_ort_m": 2386.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 117.3,
+        "yurunen_km": 127.1,
+        "kivrim": 1.083,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.075,
+        "lon": 8.275,
+        "z_ort_m": 389.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 113.5,
+        "yurunen_km": 118.4,
+        "kivrim": 1.043,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.975,
+        "lon": 7.775,
+        "z_ort_m": 2681.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 125.5,
+        "yurunen_km": 133.8,
+        "kivrim": 1.066,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 45.925,
+        "lon": 6.875,
+        "z_ort_m": 1430.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 163.8,
+        "yurunen_km": 186.5,
+        "kivrim": 1.139,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 45.925,
+        "lon": 5.975,
+        "z_ort_m": 523.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 168.3,
+        "yurunen_km": 184.6,
+        "kivrim": 1.097,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 45.975,
+        "lon": 5.825,
+        "z_ort_m": 338.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 178.5,
+        "yurunen_km": 181.6,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.925,
+        "lon": 5.125,
+        "z_ort_m": 183.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 178.3,
+        "yurunen_km": 181.4,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.025,
+        "lon": 5.125,
+        "z_ort_m": 182.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 170.3,
+        "yurunen_km": 186.1,
+        "kivrim": 1.093,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 48.025,
+        "lon": 5.825,
+        "z_ort_m": 349.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 178.6,
+        "yurunen_km": 182.1,
+        "kivrim": 1.019,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 48.275,
+        "lon": 6.075,
+        "z_ort_m": 341.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 183.6,
+        "yurunen_km": 188.2,
+        "kivrim": 1.025,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.625,
+        "lon": 7.375,
+        "z_ort_m": 348.0
+       }
+      ]
+     },
+     "_png": "denetim\\KITA11-SIZMA-ISVICRE-Bern.png"
+    },
+    "Lozan": {
+     "a_motor": {
+      "tohum_lat": 46.525,
+      "tohum_lon": 6.625,
+      "ulasilan_hucre": 4288,
+      "ulasilan_alan_km2": 91402.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 157.5,
+       "duz_km": 144.3,
+       "yurunen_km": 166.9,
+       "kivrim": 1.157,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 45.275,
+       "lon": 7.125,
+       "z_ort_m": 2939.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 177.6,
+       "yurunen_km": 193.5,
+       "kivrim": 1.09,
+       "harcanan_saat": 39.6,
+       "sinirlayan": "BUTCE",
+       "lat": 47.625,
+       "lon": 4.925,
+       "z_ort_m": 451.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 315.0,
+       "duz_km": 192.8,
+       "yurunen_km": 194.0,
+       "kivrim": 1.006,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 47.975,
+       "lon": 5.225,
+       "z_ort_m": 392.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 157.5,
+       "duz_km": 144.3,
+       "yurunen_km": 166.9,
+       "kivrim": 1.157,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 45.275,
+       "lon": 7.125,
+       "z_ort_m": 2939.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.072,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 189.2,
+        "yurunen_km": 191.5,
+        "kivrim": 1.012,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.225,
+        "lon": 6.725,
+        "z_ort_m": 443.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 186.3,
+        "yurunen_km": 192.6,
+        "kivrim": 1.034,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 48.025,
+        "lon": 7.725,
+        "z_ort_m": 212.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 177.6,
+        "yurunen_km": 193.6,
+        "kivrim": 1.09,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 47.625,
+        "lon": 8.325,
+        "z_ort_m": 398.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 167.6,
+        "yurunen_km": 188.1,
+        "kivrim": 1.122,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 47.075,
+        "lon": 8.675,
+        "z_ort_m": 1231.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 164.7,
+        "yurunen_km": 167.6,
+        "kivrim": 1.018,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 46.475,
+        "lon": 8.775,
+        "z_ort_m": 1308.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 153.9,
+        "yurunen_km": 169.9,
+        "kivrim": 1.104,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 45.575,
+        "lon": 8.075,
+        "z_ort_m": 436.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 155.9,
+        "yurunen_km": 168.4,
+        "kivrim": 1.081,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.425,
+        "lon": 7.875,
+        "z_ort_m": 232.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 144.3,
+        "yurunen_km": 166.9,
+        "kivrim": 1.157,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 45.275,
+        "lon": 7.125,
+        "z_ort_m": 2939.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 162.4,
+        "yurunen_km": 182.7,
+        "kivrim": 1.125,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 45.175,
+        "lon": 5.825,
+        "z_ort_m": 536.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 178.6,
+        "yurunen_km": 190.2,
+        "kivrim": 1.065,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.275,
+        "lon": 5.175,
+        "z_ort_m": 496.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 173.9,
+        "yurunen_km": 187.6,
+        "kivrim": 1.079,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 45.425,
+        "lon": 5.025,
+        "z_ort_m": 424.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 187.6,
+        "yurunen_km": 190.6,
+        "kivrim": 1.016,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 46.475,
+        "lon": 4.175,
+        "z_ort_m": 266.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 191.3,
+        "yurunen_km": 191.5,
+        "kivrim": 1.001,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.525,
+        "lon": 4.125,
+        "z_ort_m": 276.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 177.6,
+        "yurunen_km": 193.5,
+        "kivrim": 1.09,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 47.625,
+        "lon": 4.925,
+        "z_ort_m": 451.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 192.8,
+        "yurunen_km": 194.0,
+        "kivrim": 1.006,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 47.975,
+        "lon": 5.225,
+        "z_ort_m": 392.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 189.2,
+        "yurunen_km": 191.6,
+        "kivrim": 1.013,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.225,
+        "lon": 6.525,
+        "z_ort_m": 351.0
+       }
+      ]
+     },
+     "b_tri": {
+      "tohum_lat": 46.525,
+      "tohum_lon": 6.625,
+      "ulasilan_hucre": 3320,
+      "ulasilan_alan_km2": 70768.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 135.0,
+       "duz_km": 100.1,
+       "yurunen_km": 109.8,
+       "kivrim": 1.096,
+       "harcanan_saat": 38.9,
+       "sinirlayan": "BUTCE",
+       "lat": 45.875,
+       "lon": 7.525,
+       "z_ort_m": 2691.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 45.0,
+       "duz_km": 168.3,
+       "yurunen_km": 183.1,
+       "kivrim": 1.088,
+       "harcanan_saat": 39.6,
+       "sinirlayan": "BUTCE",
+       "lat": 47.575,
+       "lon": 8.225,
+       "z_ort_m": 360.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 315.0,
+       "duz_km": 181.5,
+       "yurunen_km": 181.7,
+       "kivrim": 1.001,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 47.875,
+       "lon": 5.275,
+       "z_ort_m": 401.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 135.0,
+       "duz_km": 100.1,
+       "yurunen_km": 109.8,
+       "kivrim": 1.096,
+       "harcanan_saat": 38.9,
+       "sinirlayan": "BUTCE",
+       "lat": 45.875,
+       "lon": 7.525,
+       "z_ort_m": 2691.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.085,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 175.0,
+        "yurunen_km": 183.2,
+        "kivrim": 1.047,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.025,
+        "lon": 7.325,
+        "z_ort_m": 200.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 175.0,
+        "yurunen_km": 182.2,
+        "kivrim": 1.041,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 47.975,
+        "lon": 7.525,
+        "z_ort_m": 200.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 168.3,
+        "yurunen_km": 183.1,
+        "kivrim": 1.088,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 47.575,
+        "lon": 8.225,
+        "z_ort_m": 360.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 151.5,
+        "yurunen_km": 175.7,
+        "kivrim": 1.16,
+        "harcanan_saat": 39.1,
+        "sinirlayan": "BUTCE",
+        "lat": 47.025,
+        "lon": 8.475,
+        "z_ort_m": 897.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 110.9,
+        "yurunen_km": 140.0,
+        "kivrim": 1.262,
+        "harcanan_saat": 39.2,
+        "sinirlayan": "BUTCE",
+        "lat": 46.525,
+        "lon": 8.075,
+        "z_ort_m": 3338.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 101.8,
+        "yurunen_km": 114.6,
+        "kivrim": 1.125,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 45.925,
+        "lon": 7.625,
+        "z_ort_m": 2279.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 100.1,
+        "yurunen_km": 109.8,
+        "kivrim": 1.096,
+        "harcanan_saat": 38.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.875,
+        "lon": 7.525,
+        "z_ort_m": 2691.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 105.9,
+        "yurunen_km": 140.6,
+        "kivrim": 1.328,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 45.575,
+        "lon": 6.725,
+        "z_ort_m": 1124.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 149.2,
+        "yurunen_km": 171.6,
+        "kivrim": 1.15,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 45.275,
+        "lon": 5.925,
+        "z_ort_m": 362.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 167.5,
+        "yurunen_km": 180.4,
+        "kivrim": 1.077,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.375,
+        "lon": 5.225,
+        "z_ort_m": 352.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 165.0,
+        "yurunen_km": 183.6,
+        "kivrim": 1.113,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.625,
+        "lon": 4.925,
+        "z_ort_m": 244.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 176.1,
+        "yurunen_km": 179.1,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 46.475,
+        "lon": 4.325,
+        "z_ort_m": 317.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 179.8,
+        "yurunen_km": 182.8,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 46.575,
+        "lon": 4.275,
+        "z_ort_m": 300.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 172.2,
+        "yurunen_km": 186.3,
+        "kivrim": 1.082,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 47.625,
+        "lon": 5.025,
+        "z_ort_m": 384.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 181.5,
+        "yurunen_km": 181.7,
+        "kivrim": 1.001,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.875,
+        "lon": 5.275,
+        "z_ort_m": 401.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 175.7,
+        "yurunen_km": 183.1,
+        "kivrim": 1.042,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.075,
+        "lon": 6.175,
+        "z_ort_m": 420.0
+       }
+      ]
+     },
+     "c_gecit": {
+      "tohum_lat": 46.525,
+      "tohum_lon": 6.625,
+      "ulasilan_hucre": 3469,
+      "ulasilan_alan_km2": 73944.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 135.0,
+       "duz_km": 106.1,
+       "yurunen_km": 122.7,
+       "kivrim": 1.156,
+       "harcanan_saat": 38.9,
+       "sinirlayan": "BUTCE",
+       "lat": 45.725,
+       "lon": 7.375,
+       "z_ort_m": 1050.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 45.0,
+       "duz_km": 172.2,
+       "yurunen_km": 186.0,
+       "kivrim": 1.08,
+       "harcanan_saat": 39.7,
+       "sinirlayan": "BUTCE",
+       "lat": 47.625,
+       "lon": 8.225,
+       "z_ort_m": 418.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 315.0,
+       "duz_km": 184.0,
+       "yurunen_km": 186.1,
+       "kivrim": 1.011,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 47.925,
+       "lon": 5.325,
+       "z_ort_m": 365.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 135.0,
+       "duz_km": 106.1,
+       "yurunen_km": 122.7,
+       "kivrim": 1.156,
+       "harcanan_saat": 38.9,
+       "sinirlayan": "BUTCE",
+       "lat": 45.725,
+       "lon": 7.375,
+       "z_ort_m": 1050.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.081,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 176.1,
+        "yurunen_km": 184.4,
+        "kivrim": 1.047,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 48.025,
+        "lon": 7.375,
+        "z_ort_m": 193.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 178.0,
+        "yurunen_km": 184.6,
+        "kivrim": 1.037,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.975,
+        "lon": 7.625,
+        "z_ort_m": 196.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 172.2,
+        "yurunen_km": 186.0,
+        "kivrim": 1.08,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 47.625,
+        "lon": 8.225,
+        "z_ort_m": 418.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 160.5,
+        "yurunen_km": 180.4,
+        "kivrim": 1.124,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 47.075,
+        "lon": 8.575,
+        "z_ort_m": 1029.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 118.6,
+        "yurunen_km": 147.7,
+        "kivrim": 1.245,
+        "harcanan_saat": 38.7,
+        "sinirlayan": "BUTCE",
+        "lat": 46.525,
+        "lon": 8.175,
+        "z_ort_m": 3040.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 107.8,
+        "yurunen_km": 122.2,
+        "kivrim": 1.134,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.925,
+        "lon": 7.725,
+        "z_ort_m": 3352.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 106.1,
+        "yurunen_km": 122.7,
+        "kivrim": 1.156,
+        "harcanan_saat": 38.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.725,
+        "lon": 7.375,
+        "z_ort_m": 1050.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 111.5,
+        "yurunen_km": 146.2,
+        "kivrim": 1.312,
+        "harcanan_saat": 39.2,
+        "sinirlayan": "BUTCE",
+        "lat": 45.525,
+        "lon": 6.725,
+        "z_ort_m": 1998.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 155.8,
+        "yurunen_km": 180.8,
+        "kivrim": 1.161,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 45.225,
+        "lon": 5.875,
+        "z_ort_m": 407.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 171.8,
+        "yurunen_km": 183.3,
+        "kivrim": 1.067,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 45.325,
+        "lon": 5.225,
+        "z_ort_m": 383.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 167.2,
+        "yurunen_km": 186.3,
+        "kivrim": 1.114,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.475,
+        "lon": 5.075,
+        "z_ort_m": 376.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 176.1,
+        "yurunen_km": 179.1,
+        "kivrim": 1.017,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.475,
+        "lon": 4.325,
+        "z_ort_m": 317.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 179.8,
+        "yurunen_km": 182.8,
+        "kivrim": 1.017,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.575,
+        "lon": 4.275,
+        "z_ort_m": 300.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 172.2,
+        "yurunen_km": 186.2,
+        "kivrim": 1.082,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 47.625,
+        "lon": 5.025,
+        "z_ort_m": 384.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 184.0,
+        "yurunen_km": 186.1,
+        "kivrim": 1.011,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.925,
+        "lon": 5.325,
+        "z_ort_m": 365.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 179.3,
+        "yurunen_km": 185.2,
+        "kivrim": 1.033,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 48.125,
+        "lon": 6.325,
+        "z_ort_m": 378.0
+       }
+      ]
+     },
+     "_png": "denetim\\KITA11-SIZMA-ISVICRE-Lozan.png"
+    }
+   }
+  },
+  "KAFKASYA": {
+   "izgara": [
+    192,
+    141
+   ],
+   "kara_hucre": 22036,
+   "arazi_profili": {
+    "a_motor": {
+     "egim_%_ortanca": 1.23,
+     "egim_%_y90": 7.11,
+     "tobler_hiz_ortanca_kmsa": 4.824
+    },
+    "b_tri": {
+     "egim_%_ortanca": 2.23,
+     "egim_%_y90": 17.33,
+     "tobler_hiz_ortanca_kmsa": 4.658
+    },
+    "c_gecit": {
+     "egim_%_ortanca": 2.05,
+     "egim_%_y90": 17.21,
+     "tobler_hiz_ortanca_kmsa": 4.688
+    },
+    "tri_m_ortanca": 174.8,
+    "z_ort_m_ortanca": 416.9
+   },
+   "tohumlar": {
+    "Vladikavkaz": {
+     "a_motor": {
+      "tohum_lat": 43.025,
+      "tohum_lon": 44.675,
+      "ulasilan_hucre": 4225,
+      "ulasilan_alan_km2": 95689.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 225.0,
+       "duz_km": 159.8,
+       "yurunen_km": 170.9,
+       "kivrim": 1.07,
+       "harcanan_saat": 39.1,
+       "sinirlayan": "BUTCE",
+       "lat": 42.025,
+       "lon": 43.275,
+       "z_ort_m": 849.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 90.0,
+       "duz_km": 174.9,
+       "yurunen_km": 177.8,
+       "kivrim": 1.016,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 42.975,
+       "lon": 46.825,
+       "z_ort_m": 795.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 22.5,
+       "duz_km": 196.6,
+       "yurunen_km": 197.8,
+       "kivrim": 1.006,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 44.475,
+       "lon": 46.075,
+       "z_ort_m": -10.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 225.0,
+       "duz_km": 159.8,
+       "yurunen_km": 170.9,
+       "kivrim": 1.07,
+       "harcanan_saat": 39.1,
+       "sinirlayan": "BUTCE",
+       "lat": 42.025,
+       "lon": 43.275,
+       "z_ort_m": 849.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.038,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 194.8,
+        "yurunen_km": 197.4,
+        "kivrim": 1.013,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.775,
+        "lon": 44.775,
+        "z_ort_m": 55.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 196.6,
+        "yurunen_km": 197.8,
+        "kivrim": 1.006,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 44.475,
+        "lon": 46.075,
+        "z_ort_m": -10.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 181.5,
+        "yurunen_km": 194.3,
+        "kivrim": 1.07,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 44.175,
+        "lon": 46.275,
+        "z_ort_m": -18.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 181.5,
+        "yurunen_km": 195.2,
+        "kivrim": 1.076,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.325,
+        "lon": 46.875,
+        "z_ort_m": -1.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 174.9,
+        "yurunen_km": 177.8,
+        "kivrim": 1.016,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.975,
+        "lon": 46.825,
+        "z_ort_m": 795.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 162.7,
+        "yurunen_km": 175.1,
+        "kivrim": 1.076,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 42.025,
+        "lon": 46.125,
+        "z_ort_m": 2428.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 166.3,
+        "yurunen_km": 171.8,
+        "kivrim": 1.033,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.725,
+        "lon": 45.675,
+        "z_ort_m": 800.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 173.6,
+        "yurunen_km": 182.1,
+        "kivrim": 1.049,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 41.475,
+        "lon": 44.925,
+        "z_ort_m": 457.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 173.1,
+        "yurunen_km": 177.9,
+        "kivrim": 1.028,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.475,
+        "lon": 44.475,
+        "z_ort_m": 687.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 169.2,
+        "yurunen_km": 176.1,
+        "kivrim": 1.041,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 41.675,
+        "lon": 43.725,
+        "z_ort_m": 2181.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 159.8,
+        "yurunen_km": 170.9,
+        "kivrim": 1.07,
+        "harcanan_saat": 39.1,
+        "sinirlayan": "BUTCE",
+        "lat": 42.025,
+        "lon": 43.275,
+        "z_ort_m": 849.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 163.1,
+        "yurunen_km": 168.6,
+        "kivrim": 1.034,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.925,
+        "lon": 42.675,
+        "z_ort_m": 2501.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 167.4,
+        "yurunen_km": 185.9,
+        "kivrim": 1.111,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 43.525,
+        "lon": 42.725,
+        "z_ort_m": 2211.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 181.5,
+        "yurunen_km": 194.1,
+        "kivrim": 1.069,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 44.175,
+        "lon": 43.075,
+        "z_ort_m": 497.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 194.4,
+        "yurunen_km": 196.4,
+        "kivrim": 1.01,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 44.425,
+        "lon": 43.225,
+        "z_ort_m": 313.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 194.8,
+        "yurunen_km": 197.4,
+        "kivrim": 1.013,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.775,
+        "lon": 44.575,
+        "z_ort_m": 157.0
+       }
+      ]
+     },
+     "b_tri": {
+      "tohum_lat": 43.025,
+      "tohum_lon": 44.675,
+      "ulasilan_hucre": 3143,
+      "ulasilan_alan_km2": 71184.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 135.0,
+       "duz_km": 103.0,
+       "yurunen_km": 108.1,
+       "kivrim": 1.049,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 42.175,
+       "lon": 45.175,
+       "z_ort_m": 1201.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 90.0,
+       "duz_km": 162.6,
+       "yurunen_km": 179.4,
+       "kivrim": 1.103,
+       "harcanan_saat": 39.4,
+       "sinirlayan": "BUTCE",
+       "lat": 43.025,
+       "lon": 46.675,
+       "z_ort_m": 957.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 0.0,
+       "duz_km": 194.6,
+       "yurunen_km": 194.8,
+       "kivrim": 1.001,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 44.775,
+       "lon": 44.675,
+       "z_ort_m": 68.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 135.0,
+       "duz_km": 103.0,
+       "yurunen_km": 108.1,
+       "kivrim": 1.049,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 42.175,
+       "lon": 45.175,
+       "z_ort_m": 1201.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.06,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 194.6,
+        "yurunen_km": 194.8,
+        "kivrim": 1.001,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.775,
+        "lon": 44.675,
+        "z_ort_m": 68.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 192.1,
+        "yurunen_km": 195.2,
+        "kivrim": 1.016,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.475,
+        "lon": 45.975,
+        "z_ort_m": -6.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 181.5,
+        "yurunen_km": 194.0,
+        "kivrim": 1.069,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.175,
+        "lon": 46.275,
+        "z_ort_m": -18.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 180.6,
+        "yurunen_km": 192.6,
+        "kivrim": 1.066,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 43.275,
+        "lon": 46.875,
+        "z_ort_m": 12.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 162.6,
+        "yurunen_km": 179.4,
+        "kivrim": 1.103,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 43.025,
+        "lon": 46.675,
+        "z_ort_m": 957.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 124.7,
+        "yurunen_km": 139.5,
+        "kivrim": 1.118,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 42.575,
+        "lon": 46.075,
+        "z_ort_m": 1810.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 103.0,
+        "yurunen_km": 108.1,
+        "kivrim": 1.049,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.175,
+        "lon": 45.175,
+        "z_ort_m": 1201.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 108.5,
+        "yurunen_km": 113.8,
+        "kivrim": 1.049,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.075,
+        "lon": 44.975,
+        "z_ort_m": 1168.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 110.6,
+        "yurunen_km": 116.6,
+        "kivrim": 1.054,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 42.075,
+        "lon": 44.275,
+        "z_ort_m": 785.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 111.5,
+        "yurunen_km": 116.3,
+        "kivrim": 1.044,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.125,
+        "lon": 44.075,
+        "z_ort_m": 741.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 112.1,
+        "yurunen_km": 124.8,
+        "kivrim": 1.114,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.475,
+        "lon": 43.525,
+        "z_ort_m": 1814.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 122.1,
+        "yurunen_km": 141.6,
+        "kivrim": 1.16,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 42.975,
+        "lon": 43.175,
+        "z_ort_m": 3311.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 152.2,
+        "yurunen_km": 169.8,
+        "kivrim": 1.116,
+        "harcanan_saat": 39.2,
+        "sinirlayan": "BUTCE",
+        "lat": 43.525,
+        "lon": 42.925,
+        "z_ort_m": 2202.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 181.5,
+        "yurunen_km": 194.1,
+        "kivrim": 1.069,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.175,
+        "lon": 43.075,
+        "z_ort_m": 497.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 192.1,
+        "yurunen_km": 195.3,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.475,
+        "lon": 43.375,
+        "z_ort_m": 228.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 189.7,
+        "yurunen_km": 194.4,
+        "kivrim": 1.025,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.725,
+        "lon": 44.475,
+        "z_ort_m": 188.0
+       }
+      ]
+     },
+     "c_gecit": {
+      "tohum_lat": 43.025,
+      "tohum_lon": 44.675,
+      "ulasilan_hucre": 3328,
+      "ulasilan_alan_km2": 75374.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 225.0,
+       "duz_km": 117.3,
+       "yurunen_km": 131.3,
+       "kivrim": 1.12,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 42.575,
+       "lon": 43.375,
+       "z_ort_m": 1014.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 90.0,
+       "duz_km": 162.6,
+       "yurunen_km": 179.4,
+       "kivrim": 1.103,
+       "harcanan_saat": 39.1,
+       "sinirlayan": "BUTCE",
+       "lat": 43.025,
+       "lon": 46.675,
+       "z_ort_m": 957.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 0.0,
+       "duz_km": 194.6,
+       "yurunen_km": 194.8,
+       "kivrim": 1.001,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 44.775,
+       "lon": 44.675,
+       "z_ort_m": 68.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 225.0,
+       "duz_km": 117.3,
+       "yurunen_km": 131.3,
+       "kivrim": 1.12,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 42.575,
+       "lon": 43.375,
+       "z_ort_m": 1014.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.07,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 194.6,
+        "yurunen_km": 194.8,
+        "kivrim": 1.001,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 44.775,
+        "lon": 44.675,
+        "z_ort_m": 68.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 192.1,
+        "yurunen_km": 195.2,
+        "kivrim": 1.016,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.475,
+        "lon": 45.975,
+        "z_ort_m": -6.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 181.5,
+        "yurunen_km": 194.2,
+        "kivrim": 1.07,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 44.175,
+        "lon": 46.275,
+        "z_ort_m": -18.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 180.6,
+        "yurunen_km": 192.6,
+        "kivrim": 1.066,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.275,
+        "lon": 46.875,
+        "z_ort_m": 12.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 162.6,
+        "yurunen_km": 179.4,
+        "kivrim": 1.103,
+        "harcanan_saat": 39.1,
+        "sinirlayan": "BUTCE",
+        "lat": 43.025,
+        "lon": 46.675,
+        "z_ort_m": 957.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 128.4,
+        "yurunen_km": 143.6,
+        "kivrim": 1.118,
+        "harcanan_saat": 38.5,
+        "sinirlayan": "BUTCE",
+        "lat": 42.575,
+        "lon": 46.125,
+        "z_ort_m": 1258.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 121.6,
+        "yurunen_km": 130.3,
+        "kivrim": 1.072,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 42.025,
+        "lon": 45.275,
+        "z_ort_m": 488.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 133.5,
+        "yurunen_km": 137.6,
+        "kivrim": 1.031,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 41.825,
+        "lon": 44.725,
+        "z_ort_m": 619.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 135.7,
+        "yurunen_km": 141.7,
+        "kivrim": 1.044,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.825,
+        "lon": 44.375,
+        "z_ort_m": 1312.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 129.1,
+        "yurunen_km": 138.5,
+        "kivrim": 1.073,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 42.025,
+        "lon": 43.875,
+        "z_ort_m": 644.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 117.3,
+        "yurunen_km": 131.3,
+        "kivrim": 1.12,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.575,
+        "lon": 43.375,
+        "z_ort_m": 1014.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 123.2,
+        "yurunen_km": 147.3,
+        "kivrim": 1.196,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 42.875,
+        "lon": 43.175,
+        "z_ort_m": 2060.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 152.2,
+        "yurunen_km": 175.4,
+        "kivrim": 1.153,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 43.525,
+        "lon": 42.925,
+        "z_ort_m": 2202.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 181.5,
+        "yurunen_km": 194.2,
+        "kivrim": 1.07,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 44.175,
+        "lon": 43.075,
+        "z_ort_m": 497.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 192.1,
+        "yurunen_km": 195.2,
+        "kivrim": 1.016,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 44.475,
+        "lon": 43.375,
+        "z_ort_m": 228.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 189.7,
+        "yurunen_km": 194.4,
+        "kivrim": 1.025,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 44.725,
+        "lon": 44.475,
+        "z_ort_m": 188.0
+       }
+      ]
+     },
+     "_png": "denetim\\KITA11-SIZMA-KAFKASYA-Vladikavkaz.png"
+    },
+    "Tiflis": {
+     "a_motor": {
+      "tohum_lat": 41.725,
+      "tohum_lon": 44.775,
+      "ulasilan_hucre": 3926,
+      "ulasilan_alan_km2": 90777.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 45.0,
+       "duz_km": 160.2,
+       "yurunen_km": 171.5,
+       "kivrim": 1.071,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 42.725,
+       "lon": 46.175,
+       "z_ort_m": 1906.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 180.0,
+       "duz_km": 173.2,
+       "yurunen_km": 178.2,
+       "kivrim": 1.029,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 40.175,
+       "lon": 44.575,
+       "z_ort_m": 1261.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 135.0,
+       "duz_km": 183.6,
+       "yurunen_km": 185.4,
+       "kivrim": 1.01,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 40.425,
+       "lon": 46.125,
+       "z_ort_m": 1625.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 45.0,
+       "duz_km": 160.2,
+       "yurunen_km": 171.5,
+       "kivrim": 1.071,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 42.725,
+       "lon": 46.175,
+       "z_ort_m": 1906.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.043,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 173.1,
+        "yurunen_km": 178.0,
+        "kivrim": 1.028,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 43.275,
+        "lon": 44.975,
+        "z_ort_m": 418.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 171.1,
+        "yurunen_km": 177.3,
+        "kivrim": 1.036,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.075,
+        "lon": 45.775,
+        "z_ort_m": 392.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 160.2,
+        "yurunen_km": 171.5,
+        "kivrim": 1.071,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.725,
+        "lon": 46.175,
+        "z_ort_m": 1906.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 170.2,
+        "yurunen_km": 178.8,
+        "kivrim": 1.051,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.775,
+        "lon": 46.825,
+        "z_ort_m": 2937.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 176.8,
+        "yurunen_km": 188.8,
+        "kivrim": 1.068,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 41.475,
+        "lon": 46.875,
+        "z_ort_m": 821.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 178.3,
+        "yurunen_km": 190.9,
+        "kivrim": 1.071,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 40.625,
+        "lon": 46.325,
+        "z_ort_m": 574.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 183.6,
+        "yurunen_km": 185.4,
+        "kivrim": 1.01,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.425,
+        "lon": 46.125,
+        "z_ort_m": 1625.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 173.6,
+        "yurunen_km": 179.6,
+        "kivrim": 1.034,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 40.175,
+        "lon": 45.025,
+        "z_ort_m": 3177.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 173.2,
+        "yurunen_km": 178.2,
+        "kivrim": 1.029,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 40.175,
+        "lon": 44.575,
+        "z_ort_m": 1261.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 181.0,
+        "yurunen_km": 181.2,
+        "kivrim": 1.001,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 40.425,
+        "lon": 43.475,
+        "z_ort_m": 1857.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 171.4,
+        "yurunen_km": 184.1,
+        "kivrim": 1.074,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 40.675,
+        "lon": 43.275,
+        "z_ort_m": 1851.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 174.4,
+        "yurunen_km": 177.3,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.2,
+        "sinirlayan": "BUTCE",
+        "lat": 41.675,
+        "lon": 42.675,
+        "z_ort_m": 1457.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 172.8,
+        "yurunen_km": 190.4,
+        "kivrim": 1.102,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 42.175,
+        "lon": 42.775,
+        "z_ort_m": 103.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 170.5,
+        "yurunen_km": 190.6,
+        "kivrim": 1.118,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.325,
+        "lon": 42.875,
+        "z_ort_m": 502.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 170.9,
+        "yurunen_km": 181.3,
+        "kivrim": 1.061,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.825,
+        "lon": 43.325,
+        "z_ort_m": 2563.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 178.3,
+        "yurunen_km": 182.2,
+        "kivrim": 1.022,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 43.325,
+        "lon": 44.625,
+        "z_ort_m": 582.0
+       }
+      ]
+     },
+     "b_tri": {
+      "tohum_lat": 41.725,
+      "tohum_lon": 44.775,
+      "ulasilan_hucre": 2955,
+      "ulasilan_alan_km2": 68326.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 0.0,
+       "duz_km": 114.9,
+       "yurunen_km": 120.9,
+       "kivrim": 1.052,
+       "harcanan_saat": 39.0,
+       "sinirlayan": "BUTCE",
+       "lat": 42.725,
+       "lon": 45.125,
+       "z_ort_m": 2851.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 270.0,
+       "duz_km": 157.0,
+       "yurunen_km": 173.9,
+       "kivrim": 1.108,
+       "harcanan_saat": 39.6,
+       "sinirlayan": "BUTCE",
+       "lat": 42.175,
+       "lon": 42.975,
+       "z_ort_m": 169.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 112.5,
+       "duz_km": 178.3,
+       "yurunen_km": 191.0,
+       "kivrim": 1.071,
+       "harcanan_saat": 39.7,
+       "sinirlayan": "BUTCE",
+       "lat": 40.625,
+       "lon": 46.325,
+       "z_ort_m": 574.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 0.0,
+       "duz_km": 114.9,
+       "yurunen_km": 120.9,
+       "kivrim": 1.052,
+       "harcanan_saat": 39.0,
+       "sinirlayan": "BUTCE",
+       "lat": 42.725,
+       "lon": 45.125,
+       "z_ort_m": 2851.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.058,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 114.9,
+        "yurunen_km": 120.9,
+        "kivrim": 1.052,
+        "harcanan_saat": 39.0,
+        "sinirlayan": "BUTCE",
+        "lat": 42.725,
+        "lon": 45.125,
+        "z_ort_m": 2851.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 118.5,
+        "yurunen_km": 123.3,
+        "kivrim": 1.04,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 42.525,
+        "lon": 45.725,
+        "z_ort_m": 2644.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 129.9,
+        "yurunen_km": 145.5,
+        "kivrim": 1.12,
+        "harcanan_saat": 38.7,
+        "sinirlayan": "BUTCE",
+        "lat": 42.175,
+        "lon": 46.225,
+        "z_ort_m": 2409.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 157.7,
+        "yurunen_km": 160.6,
+        "kivrim": 1.019,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 41.775,
+        "lon": 46.675,
+        "z_ort_m": 1679.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 175.0,
+        "yurunen_km": 190.2,
+        "kivrim": 1.087,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.375,
+        "lon": 46.825,
+        "z_ort_m": 280.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 178.3,
+        "yurunen_km": 191.0,
+        "kivrim": 1.071,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 40.625,
+        "lon": 46.325,
+        "z_ort_m": 574.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 172.3,
+        "yurunen_km": 185.4,
+        "kivrim": 1.076,
+        "harcanan_saat": 39.1,
+        "sinirlayan": "BUTCE",
+        "lat": 40.625,
+        "lon": 46.225,
+        "z_ort_m": 778.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 157.7,
+        "yurunen_km": 164.3,
+        "kivrim": 1.042,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 40.325,
+        "lon": 45.075,
+        "z_ort_m": 2081.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 155.9,
+        "yurunen_km": 164.3,
+        "kivrim": 1.054,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 40.325,
+        "lon": 44.675,
+        "z_ort_m": 1689.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 167.1,
+        "yurunen_km": 170.0,
+        "kivrim": 1.018,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.525,
+        "lon": 43.575,
+        "z_ort_m": 1476.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 161.5,
+        "yurunen_km": 172.7,
+        "kivrim": 1.07,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.725,
+        "lon": 43.375,
+        "z_ort_m": 1710.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 154.1,
+        "yurunen_km": 159.4,
+        "kivrim": 1.035,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 41.625,
+        "lon": 42.925,
+        "z_ort_m": 1167.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 157.0,
+        "yurunen_km": 173.9,
+        "kivrim": 1.108,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 42.175,
+        "lon": 42.975,
+        "z_ort_m": 169.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 155.5,
+        "yurunen_km": 174.1,
+        "kivrim": 1.12,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.325,
+        "lon": 43.075,
+        "z_ort_m": 708.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 140.7,
+        "yurunen_km": 149.5,
+        "kivrim": 1.063,
+        "harcanan_saat": 38.4,
+        "sinirlayan": "BUTCE",
+        "lat": 42.625,
+        "lon": 43.575,
+        "z_ort_m": 1657.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 120.1,
+        "yurunen_km": 126.3,
+        "kivrim": 1.052,
+        "harcanan_saat": 39.0,
+        "sinirlayan": "BUTCE",
+        "lat": 42.725,
+        "lon": 44.225,
+        "z_ort_m": 2561.0
+       }
+      ]
+     },
+     "c_gecit": {
+      "tohum_lat": 41.725,
+      "tohum_lon": 44.775,
+      "ulasilan_hucre": 3045,
+      "ulasilan_alan_km2": 70407.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 22.5,
+       "duz_km": 121.3,
+       "yurunen_km": 130.3,
+       "kivrim": 1.074,
+       "harcanan_saat": 39.4,
+       "sinirlayan": "BUTCE",
+       "lat": 42.525,
+       "lon": 45.775,
+       "z_ort_m": 2766.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 157.0,
+       "yurunen_km": 175.4,
+       "kivrim": 1.117,
+       "harcanan_saat": 39.5,
+       "sinirlayan": "BUTCE",
+       "lat": 42.275,
+       "lon": 43.025,
+       "z_ort_m": 594.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 112.5,
+       "duz_km": 178.3,
+       "yurunen_km": 190.9,
+       "kivrim": 1.071,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 40.625,
+       "lon": 46.325,
+       "z_ort_m": 574.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 22.5,
+       "duz_km": 121.3,
+       "yurunen_km": 130.3,
+       "kivrim": 1.074,
+       "harcanan_saat": 39.4,
+       "sinirlayan": "BUTCE",
+       "lat": 42.525,
+       "lon": 45.775,
+       "z_ort_m": 2766.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.071,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 123.4,
+        "yurunen_km": 127.9,
+        "kivrim": 1.036,
+        "harcanan_saat": 38.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.825,
+        "lon": 44.975,
+        "z_ort_m": 1582.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 121.3,
+        "yurunen_km": 130.3,
+        "kivrim": 1.074,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 42.525,
+        "lon": 45.775,
+        "z_ort_m": 2766.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 132.1,
+        "yurunen_km": 148.2,
+        "kivrim": 1.122,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 42.225,
+        "lon": 46.225,
+        "z_ort_m": 2566.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 157.7,
+        "yurunen_km": 166.3,
+        "kivrim": 1.055,
+        "harcanan_saat": 38.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.775,
+        "lon": 46.675,
+        "z_ort_m": 1679.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 173.8,
+        "yurunen_km": 187.4,
+        "kivrim": 1.078,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.425,
+        "lon": 46.825,
+        "z_ort_m": 295.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 178.3,
+        "yurunen_km": 190.9,
+        "kivrim": 1.071,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.625,
+        "lon": 46.325,
+        "z_ort_m": 574.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 172.3,
+        "yurunen_km": 185.3,
+        "kivrim": 1.075,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 40.625,
+        "lon": 46.225,
+        "z_ort_m": 778.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 156.6,
+        "yurunen_km": 161.5,
+        "kivrim": 1.031,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.325,
+        "lon": 44.975,
+        "z_ort_m": 2604.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 156.2,
+        "yurunen_km": 162.9,
+        "kivrim": 1.043,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.325,
+        "lon": 44.625,
+        "z_ort_m": 1531.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 169.6,
+        "yurunen_km": 171.4,
+        "kivrim": 1.011,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 40.525,
+        "lon": 43.525,
+        "z_ort_m": 1560.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 161.5,
+        "yurunen_km": 172.9,
+        "kivrim": 1.071,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 40.725,
+        "lon": 43.375,
+        "z_ort_m": 1710.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 154.1,
+        "yurunen_km": 165.0,
+        "kivrim": 1.071,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.625,
+        "lon": 42.925,
+        "z_ort_m": 1167.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 161.0,
+        "yurunen_km": 178.1,
+        "kivrim": 1.106,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.175,
+        "lon": 42.925,
+        "z_ort_m": 137.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 157.0,
+        "yurunen_km": 175.4,
+        "kivrim": 1.117,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 42.275,
+        "lon": 43.025,
+        "z_ort_m": 594.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 146.0,
+        "yurunen_km": 156.5,
+        "kivrim": 1.072,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 42.725,
+        "lon": 43.625,
+        "z_ort_m": 1811.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 134.0,
+        "yurunen_km": 137.7,
+        "kivrim": 1.027,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 42.925,
+        "lon": 44.625,
+        "z_ort_m": 1112.0
+       }
+      ]
+     },
+     "_png": "denetim\\KITA11-SIZMA-KAFKASYA-Tiflis.png"
+    },
+    "Kutaisi": {
+     "a_motor": {
+      "tohum_lat": 42.275,
+      "tohum_lon": 42.725,
+      "ulasilan_hucre": 3372,
+      "ulasilan_alan_km2": 77297.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 247.5,
+       "duz_km": 88.1,
+       "yurunen_km": 95.0,
+       "kivrim": 1.079,
+       "harcanan_saat": 19.0,
+       "sinirlayan": "KIYI/ENGEL",
+       "lat": 42.125,
+       "lon": 41.675,
+       "z_ort_m": -2.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 22.5,
+       "duz_km": 167.9,
+       "yurunen_km": 172.7,
+       "kivrim": 1.028,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 43.575,
+       "lon": 43.775,
+       "z_ort_m": 300.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 90.0,
+       "duz_km": 178.6,
+       "yurunen_km": 188.7,
+       "kivrim": 1.057,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 42.075,
+       "lon": 44.875,
+       "z_ort_m": 1341.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 45.0,
+       "duz_km": 159.4,
+       "yurunen_km": 173.3,
+       "kivrim": 1.087,
+       "harcanan_saat": 39.3,
+       "sinirlayan": "BUTCE",
+       "lat": 43.275,
+       "lon": 44.125,
+       "z_ort_m": 589.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 2,
+      "kivrim_ortanca_butun_sektorler": 1.06,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 165.8,
+        "yurunen_km": 174.5,
+        "kivrim": 1.053,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.675,
+        "lon": 43.425,
+        "z_ort_m": 594.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 167.9,
+        "yurunen_km": 172.7,
+        "kivrim": 1.028,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.575,
+        "lon": 43.775,
+        "z_ort_m": 300.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 159.4,
+        "yurunen_km": 173.3,
+        "kivrim": 1.087,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 43.275,
+        "lon": 44.125,
+        "z_ort_m": 589.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 172.8,
+        "yurunen_km": 175.8,
+        "kivrim": 1.017,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 42.325,
+        "lon": 44.825,
+        "z_ort_m": 1794.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 178.6,
+        "yurunen_km": 188.7,
+        "kivrim": 1.057,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.075,
+        "lon": 44.875,
+        "z_ort_m": 1341.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 170.6,
+        "yurunen_km": 185.7,
+        "kivrim": 1.088,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.225,
+        "lon": 44.225,
+        "z_ort_m": 1631.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 178.0,
+        "yurunen_km": 182.2,
+        "kivrim": 1.023,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 40.925,
+        "lon": 43.875,
+        "z_ort_m": 1957.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 173.6,
+        "yurunen_km": 179.5,
+        "kivrim": 1.034,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 40.725,
+        "lon": 42.975,
+        "z_ort_m": 2015.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 172.6,
+        "yurunen_km": 175.3,
+        "kivrim": 1.016,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.725,
+        "lon": 42.625,
+        "z_ort_m": 2359.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 165.9,
+        "yurunen_km": 176.1,
+        "kivrim": 1.062,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 41.175,
+        "lon": 41.375,
+        "z_ort_m": 1984.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 163.8,
+        "yurunen_km": 176.0,
+        "kivrim": 1.075,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 41.275,
+        "lon": 41.275,
+        "z_ort_m": 517.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 88.1,
+        "yurunen_km": 95.0,
+        "kivrim": 1.079,
+        "harcanan_saat": 19.0,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 42.125,
+        "lon": 41.675,
+        "z_ort_m": -2.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 105.9,
+        "yurunen_km": 118.4,
+        "kivrim": 1.118,
+        "harcanan_saat": 23.9,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 42.625,
+        "lon": 41.525,
+        "z_ort_m": 10.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 171.9,
+        "yurunen_km": 192.7,
+        "kivrim": 1.121,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 43.075,
+        "lon": 40.925,
+        "z_ort_m": 294.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 163.3,
+        "yurunen_km": 176.5,
+        "kivrim": 1.08,
+        "harcanan_saat": 39.3,
+        "sinirlayan": "BUTCE",
+        "lat": 43.325,
+        "lon": 41.325,
+        "z_ort_m": 2372.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 163.7,
+        "yurunen_km": 173.3,
+        "kivrim": 1.059,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 43.725,
+        "lon": 42.375,
+        "z_ort_m": 1960.0
+       }
+      ]
+     },
+     "b_tri": {
+      "tohum_lat": 42.275,
+      "tohum_lon": 42.725,
+      "ulasilan_hucre": 2287,
+      "ulasilan_alan_km2": 52425.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 247.5,
+       "duz_km": 88.1,
+       "yurunen_km": 95.0,
+       "kivrim": 1.078,
+       "harcanan_saat": 19.0,
+       "sinirlayan": "KIYI/ENGEL",
+       "lat": 42.125,
+       "lon": 41.675,
+       "z_ort_m": -2.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 67.5,
+       "duz_km": 148.1,
+       "yurunen_km": 156.8,
+       "kivrim": 1.058,
+       "harcanan_saat": 39.6,
+       "sinirlayan": "BUTCE",
+       "lat": 42.325,
+       "lon": 44.525,
+       "z_ort_m": 1622.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 169.2,
+       "yurunen_km": 189.8,
+       "kivrim": 1.122,
+       "harcanan_saat": 39.5,
+       "sinirlayan": "BUTCE",
+       "lat": 43.025,
+       "lon": 40.925,
+       "z_ort_m": -18.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 337.5,
+       "duz_km": 105.3,
+       "yurunen_km": 124.8,
+       "kivrim": 1.185,
+       "harcanan_saat": 39.0,
+       "sinirlayan": "BUTCE",
+       "lat": 43.175,
+       "lon": 42.325,
+       "z_ort_m": 2510.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 2,
+      "kivrim_ortanca_butun_sektorler": 1.093,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 106.3,
+        "yurunen_km": 109.8,
+        "kivrim": 1.033,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 43.225,
+        "lon": 42.875,
+        "z_ort_m": 3723.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 111.2,
+        "yurunen_km": 116.0,
+        "kivrim": 1.042,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 43.025,
+        "lon": 43.625,
+        "z_ort_m": 2948.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 117.7,
+        "yurunen_km": 137.9,
+        "kivrim": 1.171,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 42.725,
+        "lon": 44.025,
+        "z_ort_m": 2924.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 148.1,
+        "yurunen_km": 156.8,
+        "kivrim": 1.058,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 42.325,
+        "lon": 44.525,
+        "z_ort_m": 1622.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 165.5,
+        "yurunen_km": 180.6,
+        "kivrim": 1.091,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.925,
+        "lon": 44.675,
+        "z_ort_m": 520.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 153.2,
+        "yurunen_km": 171.2,
+        "kivrim": 1.118,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.725,
+        "lon": 44.425,
+        "z_ort_m": 1590.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 153.4,
+        "yurunen_km": 158.2,
+        "kivrim": 1.031,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 41.225,
+        "lon": 43.925,
+        "z_ort_m": 2673.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 151.5,
+        "yurunen_km": 157.2,
+        "kivrim": 1.037,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 40.925,
+        "lon": 42.975,
+        "z_ort_m": 2224.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 150.3,
+        "yurunen_km": 153.0,
+        "kivrim": 1.018,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.925,
+        "lon": 42.625,
+        "z_ort_m": 2122.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 148.0,
+        "yurunen_km": 164.8,
+        "kivrim": 1.114,
+        "harcanan_saat": 38.5,
+        "sinirlayan": "BUTCE",
+        "lat": 41.325,
+        "lon": 41.475,
+        "z_ort_m": 1370.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 156.9,
+        "yurunen_km": 171.8,
+        "kivrim": 1.095,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 41.325,
+        "lon": 41.325,
+        "z_ort_m": 210.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 88.1,
+        "yurunen_km": 95.0,
+        "kivrim": 1.078,
+        "harcanan_saat": 19.0,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 42.125,
+        "lon": 41.675,
+        "z_ort_m": -2.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 105.9,
+        "yurunen_km": 118.4,
+        "kivrim": 1.119,
+        "harcanan_saat": 24.1,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 42.625,
+        "lon": 41.525,
+        "z_ort_m": 10.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 169.2,
+        "yurunen_km": 189.8,
+        "kivrim": 1.122,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 43.025,
+        "lon": 40.925,
+        "z_ort_m": -18.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 140.1,
+        "yurunen_km": 163.0,
+        "kivrim": 1.163,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 43.175,
+        "lon": 41.525,
+        "z_ort_m": 2010.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 105.3,
+        "yurunen_km": 124.8,
+        "kivrim": 1.185,
+        "harcanan_saat": 39.0,
+        "sinirlayan": "BUTCE",
+        "lat": 43.175,
+        "lon": 42.325,
+        "z_ort_m": 2510.0
+       }
+      ]
+     },
+     "c_gecit": {
+      "tohum_lat": 42.275,
+      "tohum_lon": 42.725,
+      "ulasilan_hucre": 2389,
+      "ulasilan_alan_km2": 54763.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 247.5,
+       "duz_km": 88.1,
+       "yurunen_km": 95.1,
+       "kivrim": 1.079,
+       "harcanan_saat": 19.0,
+       "sinirlayan": "KIYI/ENGEL",
+       "lat": 42.125,
+       "lon": 41.675,
+       "z_ort_m": -2.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 180.0,
+       "duz_km": 150.3,
+       "yurunen_km": 158.6,
+       "kivrim": 1.055,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 40.925,
+       "lon": 42.625,
+       "z_ort_m": 2122.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 169.2,
+       "yurunen_km": 189.9,
+       "kivrim": 1.123,
+       "harcanan_saat": 39.6,
+       "sinirlayan": "BUTCE",
+       "lat": 43.025,
+       "lon": 40.925,
+       "z_ort_m": -18.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 337.5,
+       "duz_km": 113.2,
+       "yurunen_km": 138.4,
+       "kivrim": 1.222,
+       "harcanan_saat": 38.1,
+       "sinirlayan": "BUTCE",
+       "lat": 43.225,
+       "lon": 42.225,
+       "z_ort_m": 2995.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 2,
+      "kivrim_ortanca_butun_sektorler": 1.075,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 117.9,
+        "yurunen_km": 124.9,
+        "kivrim": 1.06,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 43.325,
+        "lon": 42.925,
+        "z_ort_m": 3052.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 114.9,
+        "yurunen_km": 116.1,
+        "kivrim": 1.01,
+        "harcanan_saat": 38.1,
+        "sinirlayan": "BUTCE",
+        "lat": 43.125,
+        "lon": 43.525,
+        "z_ort_m": 2329.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 122.8,
+        "yurunen_km": 137.6,
+        "kivrim": 1.12,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.825,
+        "lon": 44.025,
+        "z_ort_m": 1528.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 148.1,
+        "yurunen_km": 156.8,
+        "kivrim": 1.058,
+        "harcanan_saat": 38.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.325,
+        "lon": 44.525,
+        "z_ort_m": 1622.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 167.2,
+        "yurunen_km": 179.2,
+        "kivrim": 1.072,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.025,
+        "lon": 44.725,
+        "z_ort_m": 862.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 153.2,
+        "yurunen_km": 171.2,
+        "kivrim": 1.117,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 41.725,
+        "lon": 44.425,
+        "z_ort_m": 1590.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 157.2,
+        "yurunen_km": 161.2,
+        "kivrim": 1.026,
+        "harcanan_saat": 39.5,
+        "sinirlayan": "BUTCE",
+        "lat": 41.075,
+        "lon": 43.725,
+        "z_ort_m": 2092.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 156.2,
+        "yurunen_km": 160.0,
+        "kivrim": 1.024,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 40.875,
+        "lon": 42.875,
+        "z_ort_m": 2183.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 150.3,
+        "yurunen_km": 158.6,
+        "kivrim": 1.055,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.925,
+        "lon": 42.625,
+        "z_ort_m": 2122.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 157.8,
+        "yurunen_km": 170.5,
+        "kivrim": 1.081,
+        "harcanan_saat": 39.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.275,
+        "lon": 41.375,
+        "z_ort_m": 675.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 160.8,
+        "yurunen_km": 171.9,
+        "kivrim": 1.069,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 41.275,
+        "lon": 41.325,
+        "z_ort_m": 755.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 88.1,
+        "yurunen_km": 95.1,
+        "kivrim": 1.079,
+        "harcanan_saat": 19.0,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 42.125,
+        "lon": 41.675,
+        "z_ort_m": -2.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 105.9,
+        "yurunen_km": 118.4,
+        "kivrim": 1.119,
+        "harcanan_saat": 23.9,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 42.625,
+        "lon": 41.525,
+        "z_ort_m": 10.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 169.2,
+        "yurunen_km": 189.9,
+        "kivrim": 1.123,
+        "harcanan_saat": 39.6,
+        "sinirlayan": "BUTCE",
+        "lat": 43.025,
+        "lon": 40.925,
+        "z_ort_m": -18.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 140.1,
+        "yurunen_km": 160.2,
+        "kivrim": 1.144,
+        "harcanan_saat": 39.4,
+        "sinirlayan": "BUTCE",
+        "lat": 43.175,
+        "lon": 41.525,
+        "z_ort_m": 2010.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 113.2,
+        "yurunen_km": 138.4,
+        "kivrim": 1.222,
+        "harcanan_saat": 38.1,
+        "sinirlayan": "BUTCE",
+        "lat": 43.225,
+        "lon": 42.225,
+        "z_ort_m": 2995.0
+       }
+      ]
+     },
+     "_png": "denetim\\KITA11-SIZMA-KAFKASYA-Kutaisi.png"
+    }
+   }
+  }
+ },
+ "ince_kontrol": {
+  "_ne": "ayni pencere, ayni butce, hucre 927 m (5566 m yerine) — 36 kat cok hucre",
+  "bolgeler": {
+   "ISVICRE": {
+    "izgara": [
+     1032,
+     732
+    ],
+    "egim_%_ortanca": 3.54,
+    "egim_%_y90": 29.86,
+    "tohumlar": {
+     "Luzern": {
+      "tohum_lat": 47.046,
+      "tohum_lon": 8.312,
+      "ulasilan_hucre": 110830,
+      "ulasilan_alan_km2": 64991.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 157.5,
+       "duz_km": 102.9,
+       "yurunen_km": 121.8,
+       "kivrim": 1.184,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 46.121,
+       "lon": 8.321,
+       "z_ort_m": 342.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 164.8,
+       "yurunen_km": 187.3,
+       "kivrim": 1.137,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 47.763,
+       "lon": 6.396,
+       "z_ort_m": 272.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 22.5,
+       "duz_km": 181.0,
+       "yurunen_km": 185.3,
+       "kivrim": 1.024,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 48.462,
+       "lon": 9.504,
+       "z_ort_m": 748.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 157.5,
+       "duz_km": 102.9,
+       "yurunen_km": 121.8,
+       "kivrim": 1.184,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 46.121,
+       "lon": 8.321,
+       "z_ort_m": 342.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.14,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 177.8,
+        "yurunen_km": 183.1,
+        "kivrim": 1.03,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.638,
+        "lon": 8.537,
+        "z_ort_m": 741.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 181.0,
+        "yurunen_km": 185.3,
+        "kivrim": 1.024,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.462,
+        "lon": 9.504,
+        "z_ort_m": 748.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 165.2,
+        "yurunen_km": 187.8,
+        "kivrim": 1.137,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.096,
+        "lon": 9.871,
+        "z_ort_m": 607.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 156.2,
+        "yurunen_km": 178.7,
+        "kivrim": 1.144,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 47.579,
+        "lon": 10.229,
+        "z_ort_m": 751.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 128.9,
+        "yurunen_km": 159.7,
+        "kivrim": 1.239,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.854,
+        "lon": 9.988,
+        "z_ort_m": 1727.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 112.7,
+        "yurunen_km": 166.2,
+        "kivrim": 1.474,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.571,
+        "lon": 9.621,
+        "z_ort_m": 1329.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 110.2,
+        "yurunen_km": 131.1,
+        "kivrim": 1.19,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.179,
+        "lon": 9.012,
+        "z_ort_m": 225.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 102.9,
+        "yurunen_km": 121.8,
+        "kivrim": 1.184,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.121,
+        "lon": 8.321,
+        "z_ort_m": 342.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 103.8,
+        "yurunen_km": 122.9,
+        "kivrim": 1.184,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.112,
+        "lon": 8.296,
+        "z_ort_m": 269.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 127.4,
+        "yurunen_km": 148.7,
+        "kivrim": 1.167,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.179,
+        "lon": 7.221,
+        "z_ort_m": 477.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 162.7,
+        "yurunen_km": 188.1,
+        "kivrim": 1.156,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 46.487,
+        "lon": 6.338,
+        "z_ort_m": 706.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 169.5,
+        "yurunen_km": 179.8,
+        "kivrim": 1.06,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.971,
+        "lon": 6.079,
+        "z_ort_m": 735.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 168.3,
+        "yurunen_km": 174.8,
+        "kivrim": 1.039,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 47.163,
+        "lon": 6.096,
+        "z_ort_m": 450.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 164.8,
+        "yurunen_km": 187.3,
+        "kivrim": 1.137,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 47.763,
+        "lon": 6.396,
+        "z_ort_m": 272.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 175.5,
+        "yurunen_km": 186.5,
+        "kivrim": 1.062,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 48.504,
+        "lon": 7.412,
+        "z_ort_m": 344.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 176.3,
+        "yurunen_km": 187.8,
+        "kivrim": 1.065,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.529,
+        "lon": 7.479,
+        "z_ort_m": 181.0
+       }
+      ],
+      "_sure_sn": 3.4,
+      "butce_egrisi": {
+       "egri": [
+        {
+         "saat": 2,
+         "en_kotu_sektor_km": 6.0,
+         "ortanca_sektor_km": 8.2
+        },
+        {
+         "saat": 4,
+         "en_kotu_sektor_km": 12.6,
+         "ortanca_sektor_km": 15.9
+        },
+        {
+         "saat": 6,
+         "en_kotu_sektor_km": 19.4,
+         "ortanca_sektor_km": 23.4
+        },
+        {
+         "saat": 8,
+         "en_kotu_sektor_km": 22.4,
+         "ortanca_sektor_km": 30.5
+        },
+        {
+         "saat": 10,
+         "en_kotu_sektor_km": 28.0,
+         "ortanca_sektor_km": 37.9
+        },
+        {
+         "saat": 15,
+         "en_kotu_sektor_km": 39.0,
+         "ortanca_sektor_km": 60.7
+        },
+        {
+         "saat": 20,
+         "en_kotu_sektor_km": 52.8,
+         "ortanca_sektor_km": 80.1
+        },
+        {
+         "saat": 25,
+         "en_kotu_sektor_km": 63.2,
+         "ortanca_sektor_km": 98.1
+        },
+        {
+         "saat": 30,
+         "en_kotu_sektor_km": 77.0,
+         "ortanca_sektor_km": 119.8
+        },
+        {
+         "saat": 35,
+         "en_kotu_sektor_km": 87.3,
+         "ortanca_sektor_km": 141.4
+        },
+        {
+         "saat": 40,
+         "en_kotu_sektor_km": 102.9,
+         "ortanca_sektor_km": 163.8
+        }
+       ],
+       "20_km_kac_saat": 6.4,
+       "40_saatte_en_kotu_km": 102.9
+      }
+     },
+     "Bern": {
+      "tohum_lat": 46.954,
+      "tohum_lon": 7.454,
+      "ulasilan_hucre": 118491,
+      "ulasilan_alan_km2": 69603.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 135.0,
+       "duz_km": 103.8,
+       "yurunen_km": 115.2,
+       "kivrim": 1.11,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 46.154,
+       "lon": 8.154,
+       "z_ort_m": 2136.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 225.0,
+       "duz_km": 166.9,
+       "yurunen_km": 185.3,
+       "kivrim": 1.11,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 45.954,
+       "lon": 5.829,
+       "z_ort_m": 278.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 0.0,
+       "duz_km": 181.7,
+       "yurunen_km": 187.0,
+       "kivrim": 1.029,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 48.587,
+       "lon": 7.546,
+       "z_ort_m": 179.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 135.0,
+       "duz_km": 103.8,
+       "yurunen_km": 115.2,
+       "kivrim": 1.11,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 46.154,
+       "lon": 8.154,
+       "z_ort_m": 2136.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.103,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 181.7,
+        "yurunen_km": 187.0,
+        "kivrim": 1.029,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.587,
+        "lon": 7.546,
+        "z_ort_m": 179.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 176.1,
+        "yurunen_km": 183.8,
+        "kivrim": 1.044,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.254,
+        "lon": 8.796,
+        "z_ort_m": 589.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 171.6,
+        "yurunen_km": 188.1,
+        "kivrim": 1.096,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.021,
+        "lon": 9.104,
+        "z_ort_m": 644.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 163.5,
+        "yurunen_km": 184.7,
+        "kivrim": 1.129,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.504,
+        "lon": 9.463,
+        "z_ort_m": 394.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 132.2,
+        "yurunen_km": 168.4,
+        "kivrim": 1.274,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.954,
+        "lon": 9.196,
+        "z_ort_m": 1472.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 110.9,
+        "yurunen_km": 136.9,
+        "kivrim": 1.234,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.529,
+        "lon": 8.771,
+        "z_ort_m": 2446.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 103.8,
+        "yurunen_km": 115.2,
+        "kivrim": 1.11,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.154,
+        "lon": 8.154,
+        "z_ort_m": 2136.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 114.0,
+        "yurunen_km": 131.7,
+        "kivrim": 1.156,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.929,
+        "lon": 7.471,
+        "z_ort_m": 3148.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 127.5,
+        "yurunen_km": 146.9,
+        "kivrim": 1.152,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.896,
+        "lon": 6.812,
+        "z_ort_m": 1009.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 163.0,
+        "yurunen_km": 185.8,
+        "kivrim": 1.14,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.921,
+        "lon": 5.946,
+        "z_ort_m": 407.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 166.9,
+        "yurunen_km": 185.3,
+        "kivrim": 1.11,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.954,
+        "lon": 5.829,
+        "z_ort_m": 278.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 177.1,
+        "yurunen_km": 181.2,
+        "kivrim": 1.023,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.938,
+        "lon": 5.121,
+        "z_ort_m": 176.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 177.7,
+        "yurunen_km": 180.8,
+        "kivrim": 1.018,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 46.954,
+        "lon": 5.112,
+        "z_ort_m": 177.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 166.5,
+        "yurunen_km": 181.2,
+        "kivrim": 1.088,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.013,
+        "lon": 5.888,
+        "z_ort_m": 290.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 172.0,
+        "yurunen_km": 178.6,
+        "kivrim": 1.038,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.179,
+        "lon": 6.054,
+        "z_ort_m": 373.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 179.8,
+        "yurunen_km": 185.9,
+        "kivrim": 1.034,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.571,
+        "lon": 7.446,
+        "z_ort_m": 207.0
+       }
+      ],
+      "_sure_sn": 5.1,
+      "butce_egrisi": {
+       "egri": [
+        {
+         "saat": 2,
+         "en_kotu_sektor_km": 7.4,
+         "ortanca_sektor_km": 8.4
+        },
+        {
+         "saat": 4,
+         "en_kotu_sektor_km": 15.4,
+         "ortanca_sektor_km": 17.0
+        },
+        {
+         "saat": 6,
+         "en_kotu_sektor_km": 23.4,
+         "ortanca_sektor_km": 25.9
+        },
+        {
+         "saat": 8,
+         "en_kotu_sektor_km": 30.9,
+         "ortanca_sektor_km": 33.1
+        },
+        {
+         "saat": 10,
+         "en_kotu_sektor_km": 36.6,
+         "ortanca_sektor_km": 41.2
+        },
+        {
+         "saat": 15,
+         "en_kotu_sektor_km": 52.1,
+         "ortanca_sektor_km": 59.8
+        },
+        {
+         "saat": 20,
+         "en_kotu_sektor_km": 63.9,
+         "ortanca_sektor_km": 82.0
+        },
+        {
+         "saat": 25,
+         "en_kotu_sektor_km": 73.9,
+         "ortanca_sektor_km": 102.8
+        },
+        {
+         "saat": 30,
+         "en_kotu_sektor_km": 83.1,
+         "ortanca_sektor_km": 124.8
+        },
+        {
+         "saat": 35,
+         "en_kotu_sektor_km": 93.7,
+         "ortanca_sektor_km": 146.6
+        },
+        {
+         "saat": 40,
+         "en_kotu_sektor_km": 103.8,
+         "ortanca_sektor_km": 166.7
+        }
+       ],
+       "20_km_kac_saat": 5.2,
+       "40_saatte_en_kotu_km": 103.8
+      }
+     },
+     "Lozan": {
+      "tohum_lat": 46.521,
+      "tohum_lon": 6.629,
+      "ulasilan_hucre": 117100,
+      "ulasilan_alan_km2": 69340.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 112.5,
+       "duz_km": 101.2,
+       "yurunen_km": 127.7,
+       "kivrim": 1.262,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 45.879,
+       "lon": 7.562,
+       "z_ort_m": 2837.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 171.3,
+       "yurunen_km": 185.9,
+       "kivrim": 1.085,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 47.604,
+       "lon": 5.021,
+       "z_ort_m": 434.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 315.0,
+       "duz_km": 177.7,
+       "yurunen_km": 179.8,
+       "kivrim": 1.012,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 47.837,
+       "lon": 5.296,
+       "z_ort_m": 447.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 112.5,
+       "duz_km": 101.2,
+       "yurunen_km": 127.7,
+       "kivrim": 1.262,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 45.879,
+       "lon": 7.562,
+       "z_ort_m": 2837.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.095,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 174.4,
+        "yurunen_km": 183.9,
+        "kivrim": 1.055,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 47.979,
+        "lon": 7.479,
+        "z_ort_m": 200.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 173.6,
+        "yurunen_km": 182.8,
+        "kivrim": 1.053,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.962,
+        "lon": 7.512,
+        "z_ort_m": 203.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 171.5,
+        "yurunen_km": 189.6,
+        "kivrim": 1.106,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.571,
+        "lon": 8.287,
+        "z_ort_m": 440.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 157.3,
+        "yurunen_km": 180.7,
+        "kivrim": 1.149,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.062,
+        "lon": 8.537,
+        "z_ort_m": 444.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 113.5,
+        "yurunen_km": 148.1,
+        "kivrim": 1.305,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.521,
+        "lon": 8.113,
+        "z_ort_m": 2996.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 101.2,
+        "yurunen_km": 127.7,
+        "kivrim": 1.262,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.879,
+        "lon": 7.562,
+        "z_ort_m": 2837.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 110.5,
+        "yurunen_km": 137.6,
+        "kivrim": 1.244,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.737,
+        "lon": 7.512,
+        "z_ort_m": 520.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 102.9,
+        "yurunen_km": 146.0,
+        "kivrim": 1.419,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.596,
+        "lon": 6.646,
+        "z_ort_m": 1598.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 157.6,
+        "yurunen_km": 183.1,
+        "kivrim": 1.162,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.212,
+        "lon": 5.846,
+        "z_ort_m": 218.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 167.6,
+        "yurunen_km": 178.8,
+        "kivrim": 1.067,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 45.337,
+        "lon": 5.287,
+        "z_ort_m": 367.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 162.0,
+        "yurunen_km": 180.8,
+        "kivrim": 1.116,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 45.496,
+        "lon": 5.138,
+        "z_ort_m": 369.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 171.5,
+        "yurunen_km": 177.0,
+        "kivrim": 1.032,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.513,
+        "lon": 4.388,
+        "z_ort_m": 335.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 174.2,
+        "yurunen_km": 178.9,
+        "kivrim": 1.027,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 46.604,
+        "lon": 4.354,
+        "z_ort_m": 315.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 171.3,
+        "yurunen_km": 185.9,
+        "kivrim": 1.085,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 47.604,
+        "lon": 5.021,
+        "z_ort_m": 434.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 177.7,
+        "yurunen_km": 179.8,
+        "kivrim": 1.012,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 47.837,
+        "lon": 5.296,
+        "z_ort_m": 447.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 174.0,
+        "yurunen_km": 178.8,
+        "kivrim": 1.027,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 48.079,
+        "lon": 6.421,
+        "z_ort_m": 405.0
+       }
+      ],
+      "_sure_sn": 3.3,
+      "butce_egrisi": {
+       "egri": [
+        {
+         "saat": 2,
+         "en_kotu_sektor_km": 4.8,
+         "ortanca_sektor_km": 7.9
+        },
+        {
+         "saat": 4,
+         "en_kotu_sektor_km": 4.8,
+         "ortanca_sektor_km": 16.4
+        },
+        {
+         "saat": 6,
+         "en_kotu_sektor_km": 4.8,
+         "ortanca_sektor_km": 24.9
+        },
+        {
+         "saat": 8,
+         "en_kotu_sektor_km": 4.8,
+         "ortanca_sektor_km": 31.9
+        },
+        {
+         "saat": 10,
+         "en_kotu_sektor_km": 28.8,
+         "ortanca_sektor_km": 39.7
+        },
+        {
+         "saat": 15,
+         "en_kotu_sektor_km": 13.9,
+         "ortanca_sektor_km": 60.2
+        },
+        {
+         "saat": 20,
+         "en_kotu_sektor_km": 45.1,
+         "ortanca_sektor_km": 80.1
+        },
+        {
+         "saat": 25,
+         "en_kotu_sektor_km": 61.9,
+         "ortanca_sektor_km": 101.2
+        },
+        {
+         "saat": 30,
+         "en_kotu_sektor_km": 75.2,
+         "ortanca_sektor_km": 124.3
+        },
+        {
+         "saat": 35,
+         "en_kotu_sektor_km": 90.3,
+         "ortanca_sektor_km": 146.8
+        },
+        {
+         "saat": 40,
+         "en_kotu_sektor_km": 101.2,
+         "ortanca_sektor_km": 169.4
+        }
+       ],
+       "20_km_kac_saat": 9.3,
+       "40_saatte_en_kotu_km": 101.2
+      }
+     }
+    }
+   },
+   "KAFKASYA": {
+    "izgara": [
+     1152,
+     846
+    ],
+    "egim_%_ortanca": 2.51,
+    "egim_%_y90": 23.77,
+    "tohumlar": {
+     "Vladikavkaz": {
+      "tohum_lat": 43.021,
+      "tohum_lon": 44.679,
+      "ulasilan_hucre": 114477,
+      "ulasilan_alan_km2": 72025.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 135.0,
+       "duz_km": 114.3,
+       "yurunen_km": 130.7,
+       "kivrim": 1.143,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 42.121,
+       "lon": 45.354,
+       "z_ort_m": 572.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 90.0,
+       "duz_km": 160.6,
+       "yurunen_km": 182.0,
+       "kivrim": 1.134,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 43.021,
+       "lon": 46.654,
+       "z_ort_m": 894.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 0.0,
+       "duz_km": 192.7,
+       "yurunen_km": 193.4,
+       "kivrim": 1.003,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 44.754,
+       "lon": 44.696,
+       "z_ort_m": 69.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 135.0,
+       "duz_km": 114.3,
+       "yurunen_km": 130.7,
+       "kivrim": 1.143,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 42.121,
+       "lon": 45.354,
+       "z_ort_m": 572.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.099,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 192.7,
+        "yurunen_km": 193.4,
+        "kivrim": 1.003,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 44.754,
+        "lon": 44.696,
+        "z_ort_m": 69.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 191.4,
+        "yurunen_km": 194.7,
+        "kivrim": 1.018,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 44.471,
+        "lon": 45.962,
+        "z_ort_m": -5.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 180.1,
+        "yurunen_km": 192.2,
+        "kivrim": 1.067,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 44.171,
+        "lon": 46.254,
+        "z_ort_m": -16.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 180.2,
+        "yurunen_km": 195.1,
+        "kivrim": 1.083,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 43.354,
+        "lon": 46.854,
+        "z_ort_m": -1.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 160.6,
+        "yurunen_km": 182.0,
+        "kivrim": 1.134,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.021,
+        "lon": 46.654,
+        "z_ort_m": 894.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 128.3,
+        "yurunen_km": 148.7,
+        "kivrim": 1.159,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 42.546,
+        "lon": 46.112,
+        "z_ort_m": 1103.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 114.3,
+        "yurunen_km": 130.7,
+        "kivrim": 1.143,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.121,
+        "lon": 45.354,
+        "z_ort_m": 572.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 120.7,
+        "yurunen_km": 136.4,
+        "kivrim": 1.13,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.938,
+        "lon": 44.763,
+        "z_ort_m": 547.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 126.4,
+        "yurunen_km": 138.8,
+        "kivrim": 1.098,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.888,
+        "lon": 44.562,
+        "z_ort_m": 564.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 120.5,
+        "yurunen_km": 132.5,
+        "kivrim": 1.1,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 42.021,
+        "lon": 44.112,
+        "z_ort_m": 619.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 114.8,
+        "yurunen_km": 133.3,
+        "kivrim": 1.161,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.571,
+        "lon": 43.413,
+        "z_ort_m": 808.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 123.3,
+        "yurunen_km": 146.7,
+        "kivrim": 1.19,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.004,
+        "lon": 43.163,
+        "z_ort_m": 3208.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 157.0,
+        "yurunen_km": 181.1,
+        "kivrim": 1.154,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.563,
+        "lon": 42.888,
+        "z_ort_m": 2250.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 181.4,
+        "yurunen_km": 194.4,
+        "kivrim": 1.072,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 44.163,
+        "lon": 43.071,
+        "z_ort_m": 444.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 192.5,
+        "yurunen_km": 193.0,
+        "kivrim": 1.003,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 44.421,
+        "lon": 43.271,
+        "z_ort_m": 319.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 191.9,
+        "yurunen_km": 193.5,
+        "kivrim": 1.009,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 44.746,
+        "lon": 44.621,
+        "z_ort_m": 164.0
+       }
+      ],
+      "_sure_sn": 1.8,
+      "butce_egrisi": {
+       "egri": [
+        {
+         "saat": 2,
+         "en_kotu_sektor_km": 6.6,
+         "ortanca_sektor_km": 8.6
+        },
+        {
+         "saat": 4,
+         "en_kotu_sektor_km": 13.9,
+         "ortanca_sektor_km": 17.2
+        },
+        {
+         "saat": 6,
+         "en_kotu_sektor_km": 18.6,
+         "ortanca_sektor_km": 24.9
+        },
+        {
+         "saat": 8,
+         "en_kotu_sektor_km": 25.0,
+         "ortanca_sektor_km": 32.5
+        },
+        {
+         "saat": 10,
+         "en_kotu_sektor_km": 29.6,
+         "ortanca_sektor_km": 41.0
+        },
+        {
+         "saat": 15,
+         "en_kotu_sektor_km": 41.9,
+         "ortanca_sektor_km": 62.6
+        },
+        {
+         "saat": 20,
+         "en_kotu_sektor_km": 54.4,
+         "ortanca_sektor_km": 81.6
+        },
+        {
+         "saat": 25,
+         "en_kotu_sektor_km": 69.5,
+         "ortanca_sektor_km": 101.6
+        },
+        {
+         "saat": 30,
+         "en_kotu_sektor_km": 83.4,
+         "ortanca_sektor_km": 120.1
+        },
+        {
+         "saat": 35,
+         "en_kotu_sektor_km": 98.2,
+         "ortanca_sektor_km": 137.5
+        },
+        {
+         "saat": 40,
+         "en_kotu_sektor_km": 114.3,
+         "ortanca_sektor_km": 158.8
+        }
+       ],
+       "20_km_kac_saat": 6.4,
+       "40_saatte_en_kotu_km": 114.3
+      }
+     },
+     "Tiflis": {
+      "tohum_lat": 41.721,
+      "tohum_lon": 44.779,
+      "ulasilan_hucre": 106518,
+      "ulasilan_alan_km2": 68419.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 22.5,
+       "duz_km": 120.8,
+       "yurunen_km": 136.1,
+       "kivrim": 1.126,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 42.679,
+       "lon": 45.471,
+       "z_ort_m": 1148.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 158.9,
+       "yurunen_km": 177.5,
+       "kivrim": 1.117,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 42.271,
+       "lon": 43.004,
+       "z_ort_m": 632.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 112.5,
+       "duz_km": 180.7,
+       "yurunen_km": 194.7,
+       "kivrim": 1.077,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 40.629,
+       "lon": 46.379,
+       "z_ort_m": 532.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 22.5,
+       "duz_km": 120.8,
+       "yurunen_km": 136.1,
+       "kivrim": 1.126,
+       "harcanan_saat": 40.0,
+       "sinirlayan": "BUTCE",
+       "lat": 42.679,
+       "lon": 45.471,
+       "z_ort_m": 1148.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 0,
+      "kivrim_ortanca_butun_sektorler": 1.081,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 131.4,
+        "yurunen_km": 142.6,
+        "kivrim": 1.085,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.896,
+        "lon": 44.946,
+        "z_ort_m": 953.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 120.8,
+        "yurunen_km": 136.1,
+        "kivrim": 1.126,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 42.679,
+        "lon": 45.471,
+        "z_ort_m": 1148.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 131.3,
+        "yurunen_km": 153.6,
+        "kivrim": 1.17,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.188,
+        "lon": 46.237,
+        "z_ort_m": 2681.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 161.1,
+        "yurunen_km": 173.1,
+        "kivrim": 1.074,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 41.746,
+        "lon": 46.721,
+        "z_ort_m": 2234.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 174.8,
+        "yurunen_km": 186.7,
+        "kivrim": 1.068,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.471,
+        "lon": 46.854,
+        "z_ort_m": 464.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 180.7,
+        "yurunen_km": 194.7,
+        "kivrim": 1.077,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 40.629,
+        "lon": 46.379,
+        "z_ort_m": 532.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 178.9,
+        "yurunen_km": 192.3,
+        "kivrim": 1.075,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 40.588,
+        "lon": 46.296,
+        "z_ort_m": 699.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 155.5,
+        "yurunen_km": 167.0,
+        "kivrim": 1.074,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.421,
+        "lon": 45.462,
+        "z_ort_m": 1995.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 152.9,
+        "yurunen_km": 161.0,
+        "kivrim": 1.053,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 40.346,
+        "lon": 44.746,
+        "z_ort_m": 2017.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 164.4,
+        "yurunen_km": 169.6,
+        "kivrim": 1.032,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.571,
+        "lon": 43.546,
+        "z_ort_m": 1553.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 159.0,
+        "yurunen_km": 171.3,
+        "kivrim": 1.077,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.721,
+        "lon": 43.421,
+        "z_ort_m": 1657.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 158.4,
+        "yurunen_km": 176.8,
+        "kivrim": 1.116,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.179,
+        "lon": 43.021,
+        "z_ort_m": 1822.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 160.8,
+        "yurunen_km": 178.9,
+        "kivrim": 1.112,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.221,
+        "lon": 42.954,
+        "z_ort_m": 227.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 158.9,
+        "yurunen_km": 177.5,
+        "kivrim": 1.117,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.271,
+        "lon": 43.004,
+        "z_ort_m": 632.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 146.9,
+        "yurunen_km": 161.9,
+        "kivrim": 1.103,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.663,
+        "lon": 43.529,
+        "z_ort_m": 1838.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 127.6,
+        "yurunen_km": 139.9,
+        "kivrim": 1.096,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 42.796,
+        "lon": 44.237,
+        "z_ort_m": 1610.0
+       }
+      ],
+      "_sure_sn": 3.6,
+      "butce_egrisi": {
+       "egri": [
+        {
+         "saat": 2,
+         "en_kotu_sektor_km": 6.5,
+         "ortanca_sektor_km": 8.2
+        },
+        {
+         "saat": 4,
+         "en_kotu_sektor_km": 12.8,
+         "ortanca_sektor_km": 15.3
+        },
+        {
+         "saat": 6,
+         "en_kotu_sektor_km": 21.2,
+         "ortanca_sektor_km": 23.4
+        },
+        {
+         "saat": 8,
+         "en_kotu_sektor_km": 28.9,
+         "ortanca_sektor_km": 32.5
+        },
+        {
+         "saat": 10,
+         "en_kotu_sektor_km": 36.0,
+         "ortanca_sektor_km": 41.3
+        },
+        {
+         "saat": 15,
+         "en_kotu_sektor_km": 55.4,
+         "ortanca_sektor_km": 59.1
+        },
+        {
+         "saat": 20,
+         "en_kotu_sektor_km": 74.2,
+         "ortanca_sektor_km": 79.3
+        },
+        {
+         "saat": 25,
+         "en_kotu_sektor_km": 87.0,
+         "ortanca_sektor_km": 99.9
+        },
+        {
+         "saat": 30,
+         "en_kotu_sektor_km": 99.7,
+         "ortanca_sektor_km": 119.3
+        },
+        {
+         "saat": 35,
+         "en_kotu_sektor_km": 110.3,
+         "ortanca_sektor_km": 138.5
+        },
+        {
+         "saat": 40,
+         "en_kotu_sektor_km": 120.8,
+         "ortanca_sektor_km": 158.7
+        }
+       ],
+       "20_km_kac_saat": 5.7,
+       "40_saatte_en_kotu_km": 120.8
+      }
+     },
+     "Kutaisi": {
+      "tohum_lat": 42.271,
+      "tohum_lon": 42.704,
+      "ulasilan_hucre": 81306,
+      "ulasilan_alan_km2": 51775.0,
+      "EN_KOTU_SEKTOR": {
+       "yon_derece": 247.5,
+       "duz_km": 87.8,
+       "yurunen_km": 89.3,
+       "kivrim": 1.017,
+       "harcanan_saat": 18.0,
+       "sinirlayan": "KIYI/ENGEL",
+       "lat": 42.246,
+       "lon": 41.638,
+       "z_ort_m": -2.0
+      },
+      "ORTANCA_SEKTOR": {
+       "yon_derece": 67.5,
+       "duz_km": 148.8,
+       "yurunen_km": 165.5,
+       "kivrim": 1.112,
+       "harcanan_saat": 39.8,
+       "sinirlayan": "BUTCE",
+       "lat": 42.296,
+       "lon": 44.513,
+       "z_ort_m": 1211.0
+      },
+      "EN_IYI_SEKTOR": {
+       "yon_derece": 292.5,
+       "duz_km": 172.1,
+       "yurunen_km": 193.9,
+       "kivrim": 1.127,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 43.063,
+       "lon": 40.896,
+       "z_ort_m": 70.0
+      },
+      "EN_KOTU_SEKTOR_BUTCE_SINIRLI": {
+       "yon_derece": 0.0,
+       "duz_km": 107.6,
+       "yurunen_km": 121.9,
+       "kivrim": 1.133,
+       "harcanan_saat": 39.9,
+       "sinirlayan": "BUTCE",
+       "lat": 43.229,
+       "lon": 42.888,
+       "z_ort_m": 3946.0
+      },
+      "kiyi_sinirli_sektor_sayisi": 2,
+      "kivrim_ortanca_butun_sektorler": 1.119,
+      "PENCERE_KENARINA_DEGDI": false,
+      "sektorler": [
+       {
+        "yon_derece": 0.0,
+        "duz_km": 107.6,
+        "yurunen_km": 121.9,
+        "kivrim": 1.133,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.229,
+        "lon": 42.888,
+        "z_ort_m": 3946.0
+       },
+       {
+        "yon_derece": 22.5,
+        "duz_km": 112.8,
+        "yurunen_km": 129.9,
+        "kivrim": 1.151,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.013,
+        "lon": 43.646,
+        "z_ort_m": 3044.0
+       },
+       {
+        "yon_derece": 45.0,
+        "duz_km": 125.2,
+        "yurunen_km": 146.5,
+        "kivrim": 1.17,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.721,
+        "lon": 44.104,
+        "z_ort_m": 2962.0
+       },
+       {
+        "yon_derece": 67.5,
+        "duz_km": 148.8,
+        "yurunen_km": 165.5,
+        "kivrim": 1.112,
+        "harcanan_saat": 39.8,
+        "sinirlayan": "BUTCE",
+        "lat": 42.296,
+        "lon": 44.513,
+        "z_ort_m": 1211.0
+       },
+       {
+        "yon_derece": 90.0,
+        "duz_km": 168.4,
+        "yurunen_km": 183.1,
+        "kivrim": 1.087,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.938,
+        "lon": 44.696,
+        "z_ort_m": 514.0
+       },
+       {
+        "yon_derece": 112.5,
+        "duz_km": 153.1,
+        "yurunen_km": 172.8,
+        "kivrim": 1.129,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 41.738,
+        "lon": 44.413,
+        "z_ort_m": 1752.0
+       },
+       {
+        "yon_derece": 135.0,
+        "duz_km": 151.7,
+        "yurunen_km": 159.4,
+        "kivrim": 1.051,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.146,
+        "lon": 43.737,
+        "z_ort_m": 2187.0
+       },
+       {
+        "yon_derece": 157.5,
+        "duz_km": 151.1,
+        "yurunen_km": 160.6,
+        "kivrim": 1.063,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 40.921,
+        "lon": 42.913,
+        "z_ort_m": 2117.0
+       },
+       {
+        "yon_derece": 180.0,
+        "duz_km": 146.4,
+        "yurunen_km": 156.9,
+        "kivrim": 1.072,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 40.954,
+        "lon": 42.696,
+        "z_ort_m": 2206.0
+       },
+       {
+        "yon_derece": 202.5,
+        "duz_km": 159.1,
+        "yurunen_km": 176.5,
+        "kivrim": 1.109,
+        "harcanan_saat": 39.7,
+        "sinirlayan": "BUTCE",
+        "lat": 41.254,
+        "lon": 41.354,
+        "z_ort_m": 606.0
+       },
+       {
+        "yon_derece": 225.0,
+        "duz_km": 163.7,
+        "yurunen_km": 179.5,
+        "kivrim": 1.097,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 41.279,
+        "lon": 41.246,
+        "z_ort_m": 206.0
+       },
+       {
+        "yon_derece": 247.5,
+        "duz_km": 87.8,
+        "yurunen_km": 89.3,
+        "kivrim": 1.017,
+        "harcanan_saat": 18.0,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 42.246,
+        "lon": 41.638,
+        "z_ort_m": -2.0
+       },
+       {
+        "yon_derece": 270.0,
+        "duz_km": 106.6,
+        "yurunen_km": 120.3,
+        "kivrim": 1.129,
+        "harcanan_saat": 24.3,
+        "sinirlayan": "KIYI/ENGEL",
+        "lat": 42.638,
+        "lon": 41.504,
+        "z_ort_m": 13.0
+       },
+       {
+        "yon_derece": 292.5,
+        "duz_km": 172.1,
+        "yurunen_km": 193.9,
+        "kivrim": 1.127,
+        "harcanan_saat": 39.9,
+        "sinirlayan": "BUTCE",
+        "lat": 43.063,
+        "lon": 40.896,
+        "z_ort_m": 70.0
+       },
+       {
+        "yon_derece": 315.0,
+        "duz_km": 142.2,
+        "yurunen_km": 163.1,
+        "kivrim": 1.147,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 43.179,
+        "lon": 41.479,
+        "z_ort_m": 2556.0
+       },
+       {
+        "yon_derece": 337.5,
+        "duz_km": 117.9,
+        "yurunen_km": 147.2,
+        "kivrim": 1.248,
+        "harcanan_saat": 40.0,
+        "sinirlayan": "BUTCE",
+        "lat": 43.254,
+        "lon": 42.163,
+        "z_ort_m": 3049.0
+       }
+      ],
+      "_sure_sn": 2.9,
+      "butce_egrisi": {
+       "egri": [
+        {
+         "saat": 2,
+         "en_kotu_sektor_km": 7.3,
+         "ortanca_sektor_km": 8.3
+        },
+        {
+         "saat": 4,
+         "en_kotu_sektor_km": 14.9,
+         "ortanca_sektor_km": 17.6
+        },
+        {
+         "saat": 6,
+         "en_kotu_sektor_km": 22.0,
+         "ortanca_sektor_km": 25.9
+        },
+        {
+         "saat": 8,
+         "en_kotu_sektor_km": 28.9,
+         "ortanca_sektor_km": 33.0
+        },
+        {
+         "saat": 10,
+         "en_kotu_sektor_km": 34.2,
+         "ortanca_sektor_km": 40.0
+        },
+        {
+         "saat": 15,
+         "en_kotu_sektor_km": 48.3,
+         "ortanca_sektor_km": 58.9
+        },
+        {
+         "saat": 20,
+         "en_kotu_sektor_km": 63.0,
+         "ortanca_sektor_km": 75.4
+        },
+        {
+         "saat": 25,
+         "en_kotu_sektor_km": 73.8,
+         "ortanca_sektor_km": 91.4
+        },
+        {
+         "saat": 30,
+         "en_kotu_sektor_km": 87.1,
+         "ortanca_sektor_km": 107.1
+        },
+        {
+         "saat": 35,
+         "en_kotu_sektor_km": 87.8,
+         "ortanca_sektor_km": 126.8
+        },
+        {
+         "saat": 40,
+         "en_kotu_sektor_km": 87.8,
+         "ortanca_sektor_km": 147.6
+        }
+       ],
+       "20_km_kac_saat": 5.4,
+       "40_saatte_en_kotu_km": 87.8
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -76,6 +76,39 @@ düz gidiyor, oysa gerçek dağda yol vadiyi takip eder.
 kanıt: kıvrım katının düşük çıkması + geçit kademesinin (c) sızmayı
 belirgin biçimde DEĞİŞTİRMEMESİ.
 
+---
+# 🔵 HÜKÜM DAMGASI — ölçümden SONRA eklendi, ÜSTÜ DEĞİŞTİRİLMEDİ
+
+Ölçüm: `denetim/OLCUM-SIZMA-0912.md` + `.json` · **TUTTU 4 · ÇÜRÜDÜ 5**
+
+| öngörü | hüküm | ölçülen |
+|---|---|---|
+| Ö1 İsviçre 50-85 km | 🔴 ÇÜRÜDÜ | 93-104 km |
+| Ö2a kıvrım 1,3-1,9 | 🔴 ÇÜRÜDÜ | 1,02-1,28 |
+| **Ö2b kıvrım 5,8'in çok altında** | 🟢 **TUTTU** | **1,1** |
+| Ö3a a > c > b | 🟢 TUTTU | 6/6 tohum |
+| Ö3b a/b = 1,4-1,7 | 🟢 TUTTU | 1,39-1,68 |
+| Ö4a Kafkasya %60-90 | 🔴 ÇÜRÜDÜ | %110 |
+| Ö4b Kafkasya kıvrımı büyük | 🔴 ÇÜRÜDÜ | daha küçük |
+| Ö5 üç kademe de ≥40 km | 🟢 TUTTU | en cimri 93 km |
+| Ö6 eksik = ızgara çözünürlüğü | 🔴 ÇÜRÜDÜ | 6× inceltme kıvrımı DEĞİŞTİRMEDİ |
+
+### 🟢 Ö6 — "ölçemem" dediğim şeyi ölçtüm ve kendimi çürüttüm
+Öngörüde *"bunu doğrudan ölçemem, dolaylı kanıt kullanacağım"* yazmıştım.
+Ölçülebildi: ızgara 36 kat sıklaştırıldı (927 m hücre, 755 bin ve 975 bin
+hücre) ve kıvrım katı **1,1'den kıpırdamadı**. Dolaylı kanıtla yetinseydim
+yanlış sonuca **daha ikna edici biçimde** varmış olacaktım.
+📌 ***Bir öngörünün "ölçülemez" damgası, ölçüm yolunu aramamak için bir
+gerekçe değildir.***
+
+### 🔴 Ö1 ve Ö2a birlikte çürüdü — ve aynı yönde
+İkisi de arazinin gerçekte olduğundan **daha zorlayıcı** olduğunu
+varsayıyordu. Ölçüm ikisini de gevşetti: sızma tahminimden UZUN, kıvrım
+tahminimden DÜŞÜK. ⇒ Sistematik bir eğilim: **dağı gözümde büyütmüşüm**,
+ve tam olarak Emre'nin 20 km sezgisinin yönünde.
+
+---
+
 ## NE ÖNGÖRMÜYORUM
 - Ceza önermiyorum (`M-3584 ④`: ölçüp bildireceğim, yorumlamayacağım).
 - Tobler'ın doğru eğri olduğunu iddia etmiyorum — R1/KITA 9'un alanı.
