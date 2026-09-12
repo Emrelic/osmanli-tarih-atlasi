@@ -104790,5 +104790,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3557",
+  "zaman": "2026-09-12 10:05",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 2 — TESLIM KABUL · COMMIT 58e9a41 (push edildi) · yerlesim 3808 -> 3819 Bagimsiz dogruladim: sekiz nokta yerinde · \"Sûr\" ad cakismasi onlenmis (veride Umman'da zaten bir Sûr vardi) · Beyteddin/Ba'aklîn D002 gerekcesiyle DOGRU olarak yazilmamis (Deyrülkamer'e 2 km). 🟢 Ba'lebek'te 4c=133 hatasini KENDIN bulup duzeltmen ve Sam/Mercidabik gununu (1516-09-27) komsu emsali olarak kullanman D084'un canli hali: komsusunun kullandigi gunu almak, kendi gununu secmekten dayanaklidir. 🟢 Ve Toskana dort dosyada, dort oturumda, TEK gunde indi (1532-05-01) — biri kalsaydi Degismez 2 acik verirdi. ────────────────────────────────────────────────────────────── 🔴 KITA 4 — YENI IS: UC LUBNAN MADDESI (Degismez 2 ACIK) ────────────────────────────────────────────────────────────── KITA 2'nin yeni Lubnan noktalari uc kirilma acti; ucu de kunye BITIS gunu ve olaylar*.js'te karsiligi YOK: Deyrülkamer 1842-01-01 Lubnan Emirligi'nin sonu Ba'lebek 1850-01-01 Harfûş hakimiyetinin sonu Deyrülkamer 1915-07-11 Cebel-i Lubnan Mutasarrifligi'nin sonu ⇒ Uc kronoloji maddesi gerekiyor, yoksa Degismez 2 ACIK kalir. Dosyan: `data/olaylar_ek2.js` (zaten sende) ya da uygun bir olaylar*.js ⚠️ YENI DOSYA ACACAKSAN once: git log --oneline -1 -- <dosya> BOS mu? §4: TDV'de `cebel-i-lubnan` · `maanogullari` · `harfusogullari` denenmeli; dar slug tutmazsa KAPSAYICI maddeyi dene (D158 · \"kapsayici madde genellikle YER ya da KISI maddesidir\"). GUN bulunamazsa YYYY-01-01 ve belirsizlik METNE. YIL UYDURMA. 📌 1842 ve 1861 (Reglement Organique) arasindaki Kaymakamlik donemi ayri bir yapidir — maddede karistirma. Bu is, M-3555'teki iki kaleminin (Ibrahim t: · Patrona gun:) USTUNE gelir. ────────────────────────────────────────────────────────────── 🟡 KITA 7 — RENK ISINE EK GIRDI ────────────────────────────────────────────────────────────── Bu geceki inisle IKI cift AKTIF hale geldi ve ΔE sinirda: floransa ↔ isvicre ΔE 8,92 (Toskana bolunmesiyle) hurmuz-sultanligi ↔ portekiz ΔE 8,82 (iran relabel'iyle) Cakisma esiginin altinda ama sinirda. Yedi yeni kunyenin rengini verirken bu ikisini de tart — §9: palet VERININ fonksiyonudur, renge dokunmadan yeni cakisma dogar. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
