@@ -108,6 +108,66 @@ oturumun kalan bütçesini aşıyordu. **Uydurmuyorum, açıkça damgalıyorum.*
 olduğu için `_kv_dijkstra`ya Tobler eklenmiş bir KESİT koşusu, tam
 üretim değil) ölçülebilir.
 
+## EK TUR (0e6b364) — Ⓐ5/Ⓐ8, zaman bütçesi dar, ⚪ Ⓐ6/Ⓐ7 ertelendi
+
+⚠️ Bu ek tur ÖNCEKİNE göre ÇOK DAR bir bütçeyle yapıldı — yalnız GREP/OKUMA
+ile cevaplanabilen, hesaplama GEREKTİRMEYEN sorular cevaplandı. Ⓐ6 zaten
+KITA 10'a bağlı (bekleniyor); Ⓐ7 (kalibrasyon simülasyonu) ve Ⓐ5'in
+sayısal ölçümü (%8,24→%2,75 zaten koordinatörün kendi ölçümü) bu turda
+**⚪ ÖLÇÜLEMEDİ** — bütçe yetmedi, uydurulmadı.
+
+### Ⓐ8 — `TAVAN_KM` tam tarama (grep + okuma, TAMAMLANDI)
+
+```
+satır 900   TAVAN_KM = {1:200,2:200,3:200,4:200,0:200}   TANIM
+satır 1077  R = TAVAN_KM.get(y["k"], ...) → _tavan_daire(...)  TEK
+            FONKSİYONEL TÜKETİCİ — km-yarıçaplı bir DAİRE çiziyor,
+            petek bu daireyle KESİLİYOR (∩). Coordinatör'ün iddiası
+            BURADA doğrulandı: anizotropik Dijkstra ne hesaplarsa
+            hesaplasın, bu adım SONRADAN her yöne AYNI R'lik bir
+            daireyle kırpıyor — yön farkı burada SİLİNİYOR.
+satır 1929  "A1 YARIÇAP TAVANI" — 🟢 AYNI MEKANİZMA, farklı isim
+            DEĞİL: yorum açıkça "§TAVAN_KM" diyor, bu dosyanın kendi
+            pipeline adımlandırmasında ("A1" = kıyı kesimi adımı) bu
+            uygulamanın YAPILDIĞI YER — coordinatörün sorusu
+            "ayrı mekanizma mı" idi, CEVAP: HAYIR, AYNISI.
+satır 141,178  yalnız YORUM (belge), kod değil — coordinatörün
+            "bayat olacak" uyarısı DOĞRU, Tobler/saat-tavanına
+            geçilince bu iki yorum satırı güncellenmeli.
+```
+🔴 **YAN BULGU (istenmedi ama karşıma çıktı):** İki BAŞKA "tavan" sabiti
+DAHA var, İKİSİ DE `TAVAN_KM` İLE İLGİSİZ farklı mekanizmalar:
+`COL_TAVAN_KM=300` (satır 2667, YALNIZ çöl kesişimli bölgede) ve
+`PUAN_TAVAN_KM=200` (satır 4127, "4 puanlık halka" — bir GÖRÜNÜM/skor
+mekanizması, sahiplik değil). Üç ayrı sabit, üç ayrı iş, benzer isim —
+karışma riski var ama bu ekin kapsamı dışında, yalnız kaydediliyor.
+
+⇒ **Ⓐ8 ÖNERİSİ (Emre'nin kararına malzeme):** `TAVAN_KM`'i km yerine
+SAAT olarak tanımlamak (`örn. {1:40,2:40,...}` saat) ve `_tavan_daire`
+fonksiyonunun R'yi km'ye çevirirken düz-arazi hızını (Tobler W(0)≈5,04
+km/h) kullanması — bu, coordinatörün istediği "dağda kendiliğinden
+duruyor" davranışını verir ÇÜNKÜ artık km sabit değil, saat sabit
+olacak ve km karşılığı YERELDEKİ hıza göre değişecek. **Ama bu hâlâ bir
+DAİRE** (coğrafi olarak tek bir merkez-mesafe cinsinden) — anizotropiyi
+TAM yansıtmaz, yalnız ORTALAMA yerel maliyeti yansıtır. Tam çözüm
+`_tavan_daire`nin kendisinin Dijkstra'nın ürettiği ANİZOTROPİK erişim
+sınırını (bir daire değil, düzensiz bir kontur) kullanmasıdır — bu daha
+büyük bir mimari değişiklik, bu ekin kapsamı dışında, İŞARETLENİYOR.
+
+### Ⓐ5 — Atlama komşusu tuzağı (ANALİTİK, hesaplama gerektirmedi)
+
+16 yönlü ızgarada `(1,2)`/`(2,1)` gibi "at sıçraması" adımları, ARADAKİ
+hücrenin (ör. `(1,2)` için `(1,1)` ya da `(0,1)`) üzerinden **görsel
+olarak** geçer ama Dijkstra o ara hücrenin maliyetini HİÇ SORMAZ —
+coordinatörün "bedavaya aşar" dediği tam bu. **Standart çözüm (grid
+pathfinding literatüründen, JPS/Theta* ailesi):** atlama adımı
+eklenmeden önce ara hücre(ler) `_kvkara`/`surt` açısından KONTROL
+EDİLİR — ara hücre deniz/aşırı-pahalıysa o SIÇRAMA KENARI HİÇ
+eklenmez (Dijkstra'ya o komşu gösterilmez). `(1,2)` için tek bir ara
+hücre var (`(0,1)` veya `(1,1)`, atlamanın açısına göre) — kontrolü
+ucuz (O(1) ek işlem/kenar). **Bu bir TASARIM ÖNERİSİDİR, kodda
+YAZILMADI/SINANMADI** (D107).
+
 ## SİMETRİ TARAMASI
 
 `_kv_dijkstra` zaten yönlü graf mantığıyla yazılmış (`uzak[b] = uzak[a] +
