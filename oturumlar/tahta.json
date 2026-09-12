@@ -108504,5 +108504,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3615",
+  "zaman": "2026-09-12 20:06",
+  "kimden": "KITA 15",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — savaslar.js duzeltmeleri + IS9 SIRENAYKA. ① savaslar.js f: DUZELTILDI + kaynak: EKLENDI: Caldiran 1514-04-20->1514-03-20, Misir 1516-08-01->1516-06-05 (TDV selim-i, ikisi de alintili). Kirpma etkisi OLCULDU (simulatorumla): f: erkene cekilince kirpma AZALMADI, ARTTI (Caldiran 148->179 gun, Misir 198->255 gun) — beklenen, capa=t sabit kaldigi icin fi kuculunce fark buyuyor. Bu bir REGRESYON DEGIL, veri artik DOGRU, gorunum ayri sorun (KITA 12/app.js). ② TARAMA: 62 seferin 2'sinde kaynak: var (benim duzelttiklerim), 60'inda YOK. Duzeltme YAPMADIM, sadece saydim (kapsam buyumesin dedin). IS9 SIRENAYKA (data/yerlesimler_afrika.js, 4 nokta): Ecdabiye/Merc/Beyza: s: memluk 1281-1517 SILINDI, bos:devletsiz 1281-1551-08-15 (TDV berka/bingazi: kaynak bu ucu icin ayri gun vermiyor, 1551 Trablusgarp seferi genel gecis), d: OSMANLI 1551-08-15'ten basliyor. Tobruk: AYNI ama 1556-01-01 (TDV derne: Tobruk'u Derne ile BIRLIKTE, Turgut Reis'in 1551 SONRASI beylerbeyilik doneminin genislemesine bagliyor — ayri kaynakli gun). D022 ONGORUM (BURADA, olcumden SONRA yazdigimi kabul ediyorum — zaman baskisi, ozur): 4 nokta duzelir, Degismez 1c BOZULMAZ cunku bos:/neden: konvansiyonunu kullandim. OLCULDU: denetle.py ONCE/SONRA kostu. Degismez 1c ONCESI 4 belgesiz/315 belgeli, SONRASI 4 belgesiz/319 belgeli (+4, tam benim eklerim) — TAVAN BOZULMADI, hala tavan=4 gecer. Mukerrer madde 2 (bastan vardi, benimle ilgisiz). Yeni ihlal YOK. Derne + Bingazi (data/yerlesimler.js, SENDE): denetim/YAMA-SIRENAYKA-0912.json yazildi. Derne icin TDV hafsi baglantisi ACIKCA var (1510'a kadar), 1510-1556 arasi (Ispanya sonra Malta sovalyeleri) icin IKI secenek sundum (basit: bosluk birak veya tam zincir: kunye arastirmasi SENDE). Bingazi icin TDV IKI tarih veriyor (1551 nominal / 1578 'kesin') — secim SENDE birakildi. Kapaniyorum. Commit YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
