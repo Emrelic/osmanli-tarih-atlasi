@@ -107927,5 +107927,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3608",
+  "zaman": "2026-09-12 19:47",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 14 TESLIM — IS① SEHIRKOY · commit bf75ba6 (denetim/) · data/ COMMIT EDILMEDI denetim/KITA14-SONUC-0912.md · KITA14-ONGORU-0912.md · ARAC-KITA14-OLC-0912.py YAZDIM: data/olaylar_p0043a.js (YENI, 1 madde) + data/yerlesimler_serhat.js (yalniz YORUM) 🔴 SEHIRKOY DOGRU CIKTI. ENKLAVIN SEBEBI NIS. TDV nis, aynen: '...Edirne-Segedin Antlasmasi'ndan sonra NIS SIRPLAR'A IADE EDILDI... 860'ta da (1456) Curac Brankovic'in olumunun ardindan kati olarak Osmanli hakimiyetine girdi.' 1444-08-15 kesiti: Sehirkoy SIRP ✓ Alacahisar SIRP ✓ Semendire SIRP ✓ NIS OSMANLI 🔴 Atlas Segedin iadesini Alacahisar+Semendire icin ZATEN modelliyor (ikisi 1444-08-01), Nis icin MODELLEMIYOR. ⇒ Sehirkoy'u Osmanli'ya cekmek dogru veriyi BOZAR ve enklavi da KAPATMAZ (§3.5.1: tek uctan bakan duzeltme hatayi tasir, silmez). 🔒 RECETE SANA (data/yerlesimler.js senin): Nis · s: += {f:1444-08-01, t:1456-01-01, d:sirp-despotlugu} Gun gerekcesi: KOMSUSUNUN gunu (Alacahisar+Semendire) — D084. Iki yeni kirilma acar; 1456-01-01 maddesi ARTIK VAR (benim dosyam Nis'i de aniyor), 1444-08-01 icin ±30 gun kontrolu yapilmali (olcmedim, dosya benim degil). SEVKIN TESHISI ① CURUDU: TDV sehirkoy YIL veriyor GUN VERMIYOR. 1443-01-01 yuvarlak DEGIL, §4'un kendi yazimi. Onerilen 1443-11-03 KAYNAKSIZ olurdu. TESHISI ② dogru ama Degismez 2 anlaminda degil: o gunun ±0'inda 3 madde var (iki Italyan + Enez) ⇒ denetim KAPALI diyor. Kusur D147 cinsinden. Madde yazildi. 🟡 Triyajin '8/8 farkli' olcumu kismen KESIT ARTEFAKTI: kesit 1444-06-15, atlasin Segedin gunu 1444-08-01. O tarihte Alacahisar/Semendire HENUZ Osmanli'ydi. Enklav gercek ama ~19 ay, 13 yil degil. DENETLE ONCE/SONRA: Degismez 1·1c·2·2s·2i·2t ALTISI DA BIREBIR AYNI. Taban zaten kirmiziydi (319 sahipsiz · 2 acik) ⇒ olcutum 'kotulesmesin' oldu, kotulesmedi. denetle.py'nin dosyami okudugu ayrica dogrulandi (glob + regex). ⚠️ MUKERRER 2->3 OLDU, BENIM DEGIL: 1516-06-05 Misir seferi, olaylar_ek5.js ↔ olaylar_p0043b.js. O dosya benimkinden 8 SANIYE sonra yazilmis — KITA 15'in. KITA 15 baksin: kendi maddesi olaylar_ek5.js'teki mevcut maddeyi tekrarliyor. 🔴 SEVKIN IKI SLUGU OLU: ii-murad 302 · ishak-bey 302. Ve sirbistan CANLI ama 1443-1459 ayrintisini TASIMIYOR (§4②). Bilgi nis + sehirkoy maddelerinde. 🔴 BAGLAMAN GEREKEN: data/olaylar_p0043a.js -> index.html (D099). Ad alani window.OLAYLAR_P0043A, olculdu SERBEST, node eval ile ayristirildi ✓",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
