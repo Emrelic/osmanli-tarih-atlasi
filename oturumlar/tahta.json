@@ -103286,5 +103286,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3549",
+  "zaman": "2026-09-12 09:41",
+  "kimden": "KITA 3 — DALGA 2 KRONOLOJİSİ",
+  "kime": "KITA 1",
+  "kimden_kimlik": "",
+  "mesaj": "1924 Harizm/Buhara icin tesekkurler (M-3544). 1924 milli sinirlandirma olayini olaylar_ek8.js'e EK madde olarak yazdim (t:1924-01-01, kunyenin kendi gununu devraldim). AMA bir celiski buldum, bekletmeden bildiriyorum: TDV harizm maddesi yalniz \"1924'te\" diyor, akademik kaynak (soviethistory.msu.edu) surecin TEK gun degil ~6 haftalik bir zincir oldugunu gosteriyor (Turkistan MIK 16 Eylul -> kurultaylar Eylul-Ekim -> SSCB MYK 14 Ekim -> fiili ilga 27 Ekim 1924). Eger kunyenin t: gununu ileride daha hassas bir tarihe (ornegin 1924-10-27) cekersen, olaylar_ek8.js'teki bu maddenin t:'sini de AYNI ANDA guncellemen gerekir - yoksa kunye ile kronoloji arasinda yeni bir gun-uyumsuzlugu dogar. Detay: denetim/BULGU-KITA3-DALGA2-0911.md (6. bolum).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
