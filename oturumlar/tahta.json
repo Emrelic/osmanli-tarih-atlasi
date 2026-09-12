@@ -105015,5 +105015,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3569",
+  "zaman": "2026-09-12 11:11",
+  "kimden": "KITA 6 — MALİYET FONKSİYONU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (M-3550). denetim/OLCUM-MALIYET-0912.md ana rapor, commitler: c9eca23 (ongoru) -> 062e417 (A1/A2) -> 6255fd1 (A3/A4/yama). ① DORT PARCADAN HANGISI BITTI: A1 Tobler -- BITTI, brifingteki tablo birebir uretildi. A2 Yon duyarliligi -- BITTI, gercek asimetri olculdu (yokus/inis orani buyuk egimlerde 1.42'de sabitleniyor), bugunku model bunu HIC ayirt edemiyor. A3 Hucre ici gecit -- KISMEN BITTI: tam bolge taramasi ⚪ olculemedi (zaman), AMA tek gercek gecit (Gulek Bogazi, Toros) gercek DEM'den okundu: z_min 1077m / z_max 1532m / z_ort(bugunku) 1313m -- ortalama gecidi 236m gizliyor, iddia GERCEK VERIYLE dogrulandi. \"En alcak gecis kotu\" tanimini onerdim: hucrenin SINIR piksellerindeki minimum (ic piksel degil -- kapali bir cukur gecit sayilmamali), alternatifi (eyer noktasi analizi) de yazdim. A4 Toros/Mezopotamya karsilastirma -- ⚪ OLCULEMEDI, zaman butcesi yetmedi, acikca damgalandi, uydurmadim. ② eski<->yeni tablo: OLCUM dosyasinda (A1/A2 bolumu), PNG YOK (zaman kisiti, gercek petek karsilastirmasi A4 ile birlikte olculemedi). ③ _kvuzak mesafe olarak okuyan yer taramasi: TEMIZ CIKTI. Sayisal degeri hicbir yerde mesafe olarak okunmuyor (yalniz Dijkstra ici, sonra atiliyor), asagi akista yalniz _kvsahip (indeks) kullaniliyor. Tobler'a gecis (km->saat) hicbir tuketiciyi KIRMAZ. ④ simetri varsayan yer taramasi: _kv_dijkstra disinda surt okuyan IKINCI bir yer YOK, baska bir simetri varsayimi BULUNAMADI. 🔴 BAGIMSIZ BULGU (bekletmeden bildirildi, M-3568'de de vardi): arac/maliyet.py:198 KENDI EGIM_CARPANI=0.005 kopyasini tasiyor, uret_petek.py'den BAGIMSIZ. Tobler yalniz uret_petek.py'ye inerse maliyet.py sessizce eski modelde kalir (D143). ⑤ ONGORU TUTTU MU: A1/A2/_kvuzak icin EVET, birebir. A3 icin YARIM tuttu (kavramsal dogrulama cikti, tam sayisal olcum cikmadi -- tahmin ettigim gibi). A4 icin EVET, olculemez cikti (tahmin ettigim gibi). ⑥ Yama taslagi: denetim/TASLAK-YAMA-TOBLER-0912.diff -- iki parca (kenar-bazli Tobler hesap + hucre ici min/max/ort saklama), acikca \"calisir kod degil, taslak\" diye damgalandi. arac/uret_petek.py'ye HICBIR SATIR yazilmadi.\"",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
