@@ -2226,16 +2226,61 @@ if EGIM_CARPANI > 0 and EGIM_DEM:
     asama("Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)")
     import rasterio as _rio
     from rasterio.windows import from_bounds as _from_bounds
+    # 🔴🔴 DEM İZGARADAN KISA — VE KIRPILMAZSA GERİLİR. 12 Eylül 2026'da
+    #    ölçüldü (KITA 11 buldu, koordinatör bağımsız yeniden üretti).
+    #    ```
+    #    istenen ızgara   -60 → +85   (2900 satır × 0,05°)
+    #    etopo2022_30s    -60 → +84   (17280 satır × 30s)   ⇒ 1,0° EKSİK
+    #    ```
+    #    Eski kod pencereyi 85'e kadar istiyordu; rasterio pencereyi dosyaya
+    #    kırpıyor ama `out_shape=(2900, 7200)` verildiği için **144°'lik
+    #    veriyi 145°'lik ızgaraya YENİDEN ÖRNEKLİYOR** — yani DEM KUZEYE
+    #    DOĞRU GERİLİYOR. Ölçülen kayma (bilinen zirvelerin enlemi):
+    #    ```
+    #    Everest   +0,637°   Mont Blanc +0,742°   Elbruz +0,720°
+    #    K2        +0,544°   Kilimanjaro +0,392°  Aconcagua +0,878°
+    #    Ağrı Dağı +0,673°  ≈ 75 km KUZEY          ← Anadolu'daki bedel
+    #    ```
+    #    KONTROL: pencere 84,0'a kırpılıp çıktı 2880 satır yapılınca kayma
+    #    ÇÖKÜYOR (Everest −0,013 · Elbruz −0,030 · Kilimanjaro −0,008 ·
+    #    Ağrı +0,023) ⇒ sebep KESİN, başka bir şey değil.
+    # 🔴 BEDELİ: sürtünme yüzeyi YANLIŞ ENLEMDE. Koşu 8 ve 9 bu kodla koştu,
+    #    yani o çıktıların eğim yüzeyi de kaymış. Dijkstra dağ bedelini
+    #    75 km kuzeyde ödemiş.
+    # 📌 Ve kusur SESSİZDİ: hiçbir toplam ölçüm ötmez (kara oranı, eğim
+    #    medyanı, en pahalı hücre — hepsi makul kalır). `§11`in "bir aletin
+    #    evreni değişince alet sessizce yanılır" dersinin DEM yüzü; ve
+    #    hemen üstteki `np.flipud` yorumu "kayma SESSİZ olurdu" diye
+    #    UYARIYORDU — uyarı doğruydu, yalnız BAŞKA BİR EKSENDE gerçekleşti.
     with _rio.open(EGIM_DEM) as _ds:
         # Izgaranın GERÇEK kutusu: _kvnx/_kvny yuvarlanarak bulundu, o yüzden
         # BOLGE.bounds'un üst ucu değil ızgaranın kendi üst ucu kullanılır.
         # Aksi hâlde DEM yarım hücre kayardı ve kayma SESSİZ olurdu.
+        _dem_ust = float(_ds.bounds.top)
+        _ist_ust = _kvy0 + _kvny * KV_ADIM
+        # Pencereyi DEM'in KENDİ üst ucuna kırp — gerilmeyi böyle keseriz.
+        _ust = min(_ist_ust, _dem_ust)
+        _sat = int(round((_ust - _kvy0) / KV_ADIM))
         _win = _from_bounds(_kvx0, _kvy0,
-                            _kvx0 + _kvnx * KV_ADIM, _kvy0 + _kvny * KV_ADIM,
+                            _kvx0 + _kvnx * KV_ADIM, _ust,
                             transform=_ds.transform)
-        _z = _ds.read(1, window=_win, out_shape=(_kvny, _kvnx),
-                      resampling=_rio.enums.Resampling.average).astype("float32")
-    _z = _np.flipud(_z)
+        _zp = _ds.read(1, window=_win, out_shape=(_sat, _kvnx),
+                       resampling=_rio.enums.Resampling.average).astype("float32")
+    _zp = _np.flipud(_zp)          # artık satır 0 = GÜNEY (ızgarayla aynı yön)
+    if _sat == _kvny:
+        _z = _zp
+    else:
+        # Eksik kuşak ızgaranın KUZEY ucundadır (84°-85°K) ve orası
+        # neredeyse tamamen okyanus: en kuzeydeki kara Grönland'ın kuzey
+        # kıyısı (~83,6°K) ve Ellesmere (~83,1°K), ikisi de 84°'nin ALTINDA.
+        # Deniz seviyesi (0) ile doldurmak eğimi bozmaz ve `_kvkara` maskesi
+        # o hücreleri zaten dışarıda bırakır.
+        _z = _np.zeros((_kvny, _kvnx), dtype="float32")
+        _z[:_sat] = _zp
+        print(f"  ⚠️ DEM ızgaradan KISA: üst uç {_dem_ust:.2f}° < istenen "
+              f"{_ist_ust:.2f}° — {_kvny - _sat} satır (kuzey kuşağı) deniz "
+              f"seviyesiyle dolduruldu. GERİLME YOK (kırpıldı).")
+    del _zp
     _gy, _gx = _np.gradient(_z)
     _kvegim = _np.hypot(_gx, _gy)
     # array('f') — düz liste 6,4 M ayrı Python float'ı olurdu (~200 MB);
