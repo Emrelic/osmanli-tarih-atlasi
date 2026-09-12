@@ -104961,5 +104961,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3566",
+  "zaman": "2026-09-12 11:03",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "SEVK — EMRE UCUNU DE ONAYLADI: Ⓐ MALIYET · Ⓑ ENKLAV KURALI · Ⓒ KORIDOR 🔴 UCU DE `arac/uret_petek.py`ye BAKIYOR AMA HICBIRI ONA YAZMAYACAK. Motor TEK ELDE (1.MURAT). Uc oturum ayni dosyaya yazarsa sessiz veri kaybi olur (§7). Siz PROTOTIP + OLCUM + YAMA TASLAGI uretirsiniz, inis tek tek ve sirayla yapilir. ────────────────────────────────────────────────────────────── KITA 6 — Ⓐ MALIYET FONKSIYONU · sartname: oturumlar/KITA-6-MALIYET-FONKSIYONU.md ────────────────────────────────────────────────────────────── Tobler yurume fonksiyonu + yon duyarliligi + HUCRE ICI GECIT. Baslik olcum: bugunku model dagi 2-3 KAT fazla pahali sayiyor, ve Emre'nin uc orneginin ucu de 5.566 m'lik hucrenin ALTINDA — izgara onlari goremiyor. ⚠️ Isin Emre'nin esik kararini BEKLETIYOR — Ⓐ1/Ⓐ2 olcumu cikinca HEMEN bildir. ────────────────────────────────────────────────────────────── KITA 2 — Ⓑ ENKLAV KURALI · dosyan: denetim/OLCUM-ENKLAV-KURAL-0912.* ────────────────────────────────────────────────────────────── 🔴 EMRE TAVANI GECERSIZ KILDI — ve gerekcesi degerli: tavan \"NE KADAR BUYUK\" diye soruyor, Emre'nin kurali \"ARADA NE VAR\" diye soruyor. Ikincisi dogru soru. 281.762 / 100.000 tartismasi DUSTU. EMRE'NIN DORT KURALI (kendi sozleriyle, birebir uygulanacak): ① Devletin topraklari ARASINDA kalan bosluk → enklav DEGIL. Icinde yerlesim/asiret/siyasi yapi yoksa B'de kapanir. ② Ana kutleden ayrik + arada BASKA devletin sehri/bolgesi/asiret denetimi VAR → GERCEK ENKLAV. ASLA birlestirilmez. ③ Kopuk + arada hicbir yerlesim yok (bos arazi) (a) o devlete ait ARA YERLESIM var mi? → varsa zincire kat, enklav KAPANIR (b) yoksa ve arada baska devletin yapisi da yoksa → BIRLESTIR sart: iki bolge arasi < 200 km (>200 km → BIRLESMEZ) ④ A surumunde enklav birlestirme YOK. B surumunde VAR. ⚠️ Emre \"200 km'den kucuk ise birlessin fazla ise birlessin\" yazdi; ikincisi \"birlesmesin\" diye okundu — teyit edildi. SENIN ISIN — HUKUM DEGIL OLCUM: ① Bugunku 650 `degismez7` ihlalini (kova A-koridor 483 · B-bilinmiyor 164 · C-hakiki 3) Emre'nin DORT KOVASINA yeniden dagit. Kac tanesi ①, kac ②, kac ③a, kac ③b? ② ③(a) EN DEGERLI KOVA: \"arada o devlete ait yerlesim VAR ama zincire katilmamis\" — bu bir YAMA degil bir VERI ISI uretir ve enklavi GERCEKTEN kapatir. Kac tane? Adlariyla listele. ③ ②'yi ayirt etmek icin \"arada baska devletin yapisi var mi\" sorusunu MEKANIK hale getir: iki govde arasindaki dogru parcasi (ya da en kisa kara yolu) uzerinde baska bir kimligin petegi var mi? ⚠️ Bunun tanimini SEN yaz ve gerekcelendir — dogru parcasi mi, koridor mu, tampon mu? Secimini savun, ALTERNATIFINI de soyle. ④ 200 km sinirinin BUGUNKU veride ne kestigini olc: kac enklav altinda, kac ustunde. Emre sayiyi verdi, sen NE YAPTIGINI goster. 🔴 Cebel Merre'yi SINAV VAKASI olarak kullan: 12,950°K / 24,270°D (Darfur). Osmanli ana kutlesiyle arasinda Vaday/Darfur Sultanligi var ⇒ kural ② beklenir. Aletin bunu ② diye siniflandiriyor mu? Siniflandirmiyorsa ALET yanlis, kural degil. ────────────────────────────────────────────────────────────── KITA 7 — Ⓒ KORIDOR (renk isinden SONRA) · dosyan: denetim/ARAC-KORIDOR-*-0912.* ────────────────────────────────────────────────────────────── Emre \"en iyisi ne ise onu yapalim\" dedi, ve EK ONERIYI DE onayladi. Iki asama: ① SIMDI — K=3 korkulugu: agiz > 3 × (parcanin kutu kosegeni) ise olcu GUVENILMEZ, `w_der`e don. Bedava, 185 sacma sonucu kesiyor. ② ASIL CARE — ASINDIRMA (erozyon) OLCUSU, cunku K=3 orta kovayi COZMUYOR: 50-200 km agizli 2.494 parca (%10,7) \"makul gorunen\" ama dogrulugu BILINMEYEN sayi uretiyor. K=3 onlara dokunmaz. ``` sekli r kadar iceri buzustur (shapely buffer(-r)), r'yi buyut sekil ILK NEREDE IKIYE AYRILIYORSA orasi BOGAZDIR bogaz genisligi = 2 × r ``` Kivrimli kiyidan ETKILENMEZ: koylar cevreyi sisirir ama buzusmeyi degistirmez. shapely zaten yapiyor, yeni kutuphane YOK. ③ 🔴 23 binin TAMAMINDA kosturma — ONCE ayrisan 4.260 parcada sina. Maliyeti olc ve raporla; ucuzsa genislet. ④ D022 ongorusu: asindirma olcusu ile `w_der` kac parcada ayrisacak? HERKESE: teslim TAHTAYA (M-3550), kisa ozet + dosya yolu. YENI DOSYA acarsan: once `git log --oneline -1 -- <dosya>` BOS mu, yazdiktan sonra AYRISTIRILABILIR mi (`node -e eval` / `py <dosya>`). Bu gece bir dosya tam bu yuzden coktu ve olu oldugu icin cokmesi GORUNMUYORDU. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
