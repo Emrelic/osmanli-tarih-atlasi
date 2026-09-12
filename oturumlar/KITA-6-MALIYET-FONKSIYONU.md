@@ -130,18 +130,47 @@ parametrik bırak ve **bekleyen** diye bildir.
 `R2②` bunu araştırıyor. Mekanizman geçit kavramını **ifade edebilir**
 olmalı (tek bir küresel ceza yetmez).
 
-### Ⓐ7 🟢 KALİBRASYON = EMRE'NİN DÖRT SAYISI
-Uydurulmuş sabit yerine **ölçüt kümesi.** Bütçe: 5 gün × 8 saat = 40 saat.
+### Ⓐ7 🔴🔴 BU MADDE DÜZELTİLDİ — KALİBRASYON ÖLÇÜTÜ YOK
+
+Bu madde önce *"KALİBRASYON = EMRE'NİN DÖRT SAYISI"* diye yazılmıştı
+(düz 200 · dağ 40-50 · nehir ≈100 · rampa ~100) ve bir **karne tablosu**
+hâlinde `✓/🟡/🔴` işaretleriyle sunulmuştu. **YANLIŞTI. Emre düzeltti:**
+
+> *"Benim bu söylemim örnek olsun diye sayıları kafadan atarak söylediğim
+> bir şey; sana meseleyi anlatmak için misal verdim. Bunu referans değer
+> gibi algılama. **Bilimsel bir değeri yok.**"*
+
+🔴 Ve uyarı zaten yazılıydı — Emre ilk mesajında *"rakamları atıyorum
+sembolik olarak"* demişti. Koordinatör okudu, aktardı, ve yine de ölçüt
+yaptı. `D137`: **aday sayı saymak, işçiye kaynaksız bir çerçeve
+vermektir** — ve burada çerçeve bir **sınav tablosu** kılığındaydı, yani
+tuzak çift kat görünmezdi.
+
+### 🟢 YERİNE GEÇEN ŞEY: SAYI DEĞİL **BİÇİM SINAVI**
+
 ```
-                    HEDEF        bugünkü Tobler + ortalanmış DEM
-güney  düz ova      200 km       200 km   ✓
-batı   nehirli      ~100 km      100 km   ✓ (bedel ELLE konarak)
-doğu   rampa        ~100 km      151 km   🟡 fazla cömert
-kuzey  dağ          40-50 km      70 km   🔴 DAĞ CEZASI ZAYIF
+MODELİN GEÇMESİ GEREKEN SINAV — sıralama, mutlak değer DEĞİL:
+    düz ova  >  rampa  >  nehirli  >  dağ        (aynı zaman bütçesinde)
+ve "yakınlık" kuş uçuşu değil SÜRTÜNMELİ YAYA YÜRÜYÜŞÜ olmalı
 ```
-⇒ Modeli bu dörde oturt. **Dört ölçüt, üç bilinmeyen — fazlasıyla
-belirlenmiş**, yani kalibrasyon SINANABİLİR. Tutmayan yönü **bildir,
-zorlamayla uydurma** (`D022`: bir öngörünün çürümesi bilgidir).
+Bu **sınanabilir** bir öngörüdür ve kaynağı gerekmez — mekanizmanın
+kendisinden çıkar. `200 · 100 · 100 · 45` sınanabilir değildir, **çünkü
+kaynağı yoktur.**
+
+### SAYILAR NEREDEN GELECEK
+```
+🟢 KITA 9  (R1)  yürüme/tırmanma bilimi   → hakemli + TARİHÎ veri
+🟢 KITA 10 (R2)  nehir geçiş bedeli       → hidroloji + sefer kayıtları
+🟢 KITA 11 (R3)  arazi pürüzlülüğü        → TRI/VRM özgün makaleleri
+```
+🔴 **Bir sayıyı `denetim/VERI-*.json`dan almadıysan, o sayıyı YAZMA** —
+parametrik bırak ve `bekleyen` diye bildir. Ve hiçbir yere *"Emre 200
+demişti"* yazma; kaynağı ne ise o yazılır.
+
+🟢 **Şu ölçümler GEÇERLİ kalıyor** (Emre'nin sayılarından değil,
+formülden ve DEM'den türetildi): 2000 m/40 km'nin %19'luk sapması ·
+yerel eğim %20-40'ta 1,3-2,1 gün · doğrusal modelin +41%…+220% fazla
+ücretlendirmesi.
 
 ### Ⓐ8 🔴 TAVAN ZAMAN BÜTÇESİNE ÇEVRİLİYOR — EMRE'NİN KARARI
 ```

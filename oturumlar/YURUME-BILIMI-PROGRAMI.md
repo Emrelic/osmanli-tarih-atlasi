@@ -54,9 +54,64 @@ bugün hem imzalı madde hem YZ üretimi özet sunuyor.
 
 ---
 
-## 1. 🟢 KALİBRASYON HEDEFİ — Emre'nin kendi dört sayısı
+## 1. 🔴🔴 BU BÖLÜM DÜZELTİLDİ — DÖRT SAYI BİR ÖLÇÜT DEĞİL, BİR MİSALDİR
 
-Bu, programın en değerli girdisidir: **uydurulmamış bir ölçüt kümesi.**
+> **Emre, 12 Eylül 2026 — koordinatörü düzeltti:**
+> *"Benim bu söylemim örnek olsun diye sayıları kafadan atarak söylediğim
+> bir şey; sana meseleyi anlatmak için misal verdim. Bunu referans değer
+> gibi algılama. **Bilimsel bir değeri yok.**"*
+
+🔴 **VE KUSUR KOORDİNATÖRDE, ÜSTELİK UYARI YAZILIYDI.** Emre ilk
+mesajında *"rakamları atıyorum sembolik olarak en son hangi rakamlara
+karar verdiğimizi hatırlamıyorum"* demişti. Koordinatör o cümleyi
+**okudu, aktardı, ve yine de sayıları "KALİBRASYON HEDEFİ" diye bu
+belgeye yazdı.**
+
+```
+🔴 YAPILAN    misal → ölçüt   ("dört ölçüt, üç bilinmeyen, SINANABİLİR")
+🟢 DOĞRUSU    misal → MEKANİZMANIN TARİFİ
+```
+
+📌 `D137`in birebir tekrarı: *"bir sevkte aday sayı saymak, işçiye
+kaynaksız bir çerçeve vermektir — ve adaylar MAKUL olduğu için tuzak
+görünmez."* Burada tuzak **çift kat** görünmezdi, çünkü sayılar
+`✓/🟡/🔴` işaretleriyle bir **karne tablosuna** dönüştürülmüştü; yani
+kaynaksız bir sayı **sınav ölçütü** kılığına girmişti.
+⚠️ Ve `D144`: beyan edilen kaynak iddiayı taşımıyordu — "Emre'nin dört
+sayısı" bir kaynak gibi yazıldı, oysa Emre onu kaynak olarak **sunmadı.**
+
+### 🟢 DEĞERLİ OLAN KISIM: SAYILAR DEĞİL **BİÇİM**
+
+Emre'nin misalinin taşıdığı gerçek bilgi şudur ve **bu duruyor**:
+
+```
+AYNI ZAMAN BÜTÇESİ, DÖRT YÖNDE DÖRT FARKLI MESAFE
+   düz ovada  → en uzak
+   rampada    → daha kısa
+   nehirde    → geçiş bir BEDEL ödetir, sonra yürüyüş devam eder
+   dağda      → en kısa
+ve "yakınlık" KUŞ UÇUŞU DEĞİL, SÜRTÜNMELİ YAYA YÜRÜYÜŞÜDÜR
+```
+
+⇒ **Modelin sınavı bu BİÇİMİ üretmesidir**, belli sayıları değil.
+Sıralama (`düz > rampa > nehirli > dağ`) bir öngörüdür ve sınanabilir;
+`200 · 100 · 100 · 45` **sınanabilir bir şey değildir, çünkü kaynağı
+yoktur.**
+
+### KALİBRASYON NEREDEN GELECEK — gerçek cevap
+
+```
+🟢 R1  yürüme/tırmanma bilimi      ← hakemli + tarihî veri
+🟢 R2  nehir geçiş bedeli          ← hidroloji + tarihî sefer kayıtları
+🟢 R3  arazi pürüzlülüğü (TRI/VRM) ← özgün makaleler
+⇒ SAYILAR BURADAN GELİR. Emre'nin misali bir HEDEF DEĞİL.
+```
+⚠️ Ve model bir sayı ürettiğinde *"Emre 200 demişti"* diye **hiçbir yere
+yazılmayacak.** Kaynağı ne ise o yazılır.
+
+<details>
+<summary>Koordinatörün yanlış kurduğu tablo — kayıt için duruyor, ÖLÇÜT DEĞİL</summary>
+
 Emre bir yerleşimden dört yöne menzil tarif etti (bütçe: 5 gün × 8 saat):
 
 ```
@@ -86,6 +141,14 @@ Ve bugünkü `Resampling.average` tam o dalgalanmayı siliyor.
 
 **Emre'nin "yumurta kartonu" tarifi bunun tam karşılığıdır** — ve bu, üç
 işten `R3`ün varlık sebebi.
+
+</details>
+
+🟢 **Yukarıdaki `%19` ve `1,3-2,1 gün` ölçümleri GEÇERLİ kalıyor** —
+onlar Emre'nin sayılarından değil, **Tobler formülünden ve DEM'den**
+türetildi. Çürüyen tek şey *"Emre'nin dört sayısı bir ölçüttür"*
+iddiasıydı. ⇒ `D036`: hüküm ile teşhis ayrı şeylerdir; burada ölçüm
+doğru, **ölçüte dönüştürülmesi** yanlıştı.
 
 ---
 
