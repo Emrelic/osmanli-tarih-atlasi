@@ -717,6 +717,32 @@ GIRDI_DOSYALARI = [
     "yerlesimler_sibirya2.js",
     "yerlesimler_gamerika.js",
     "yerlesimler_kamerika.js",
+    "yerlesimler_p0043libya.js",      # 1 nokta · Sîva (Siwa) — paket 0043
+                                      # (H-0017), KITA 13. Sevk 12 ADAY
+                                      # verdi, ONU ZATEN VERİDEYDİ ve
+                                      # ÜÇÜ 3 KM TUZAĞIYDI:
+                                      #   "Farafra"      → Ferâfire  0,0 km
+                                      #   "Mercu (Marj)" → Merc      4,8 km
+                                      #   "el-Beyda"     → Beyzâ    12,4 km
+                                      # ⇒ harfiyen uygulansa ON MÜKERRER
+                                      # nokta. Koordinatörün taraması ADA
+                                      # baktı, işçi KOORDİNATA baktı —
+                                      # `yerlesimler_hint0912.js`teki aynı
+                                      # kaçırmanın ikinci vakası, aynı gün.
+                                      # 📌 Gerçek boşluk TEKTİ: TDV `mısır`
+                                      # altı Batı Çölü vahası sayıyor
+                                      # (Sîva · Bahriyye · Feyyûm ·
+                                      # Ferâfre · Dâhle · Hârce) ve BEŞİ
+                                      # atlasta; Sîva kaynağın kendi
+                                      # listesindeki tek eksikti.
+                                      # ⚠️ Dosyaya damgalı zayıflık: Sîva
+                                      # altı vahanın en özerkiydi, Mısır'ın
+                                      # fiilî denetimi 1820 Kavalalı
+                                      # seferiyle kuruldu; `v:1805-07-03`
+                                      # ondan ~15 yıl önce başlıyor. AMA
+                                      # dört kardeş vaha da aynısını
+                                      # taşıyor — atlasın konvansiyonu.
+                                      # Düzeltilecekse BEŞİ BİRLİKTE.
     "yerlesimler_hint0912.js",        # 1 nokta · Baroda (Vadodara)
                                       # ⚠️ Sevk DÖRT nokta istiyordu; KITA 8
                                       # ölçtü ve ÜÇÜ ZATEN VARDI —
