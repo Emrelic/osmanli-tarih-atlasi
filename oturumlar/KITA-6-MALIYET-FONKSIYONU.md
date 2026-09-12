@@ -101,6 +101,83 @@ HER model için: kaç petek sınırı sırta kilitlendi · ortalama kayma km ·
 PNG: eski model ↔ yeni model YAN YANA, aynı bölge
 ```
 
+### Ⓐ5 YÖN SAYISI 8 → 16 — Emre'nin açık isteği
+Bugün **8 yön** (`uret_petek.py:2290`):
+`((1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1))`
+
+Emre: *"16 ok ile 22,5 derecelik açılar ile çeşitli yönlere ilerleme."*
+Ölçüldü: sekizgen sapması **%8,24 → %2,75** (üç kat yuvarlak).
+```
+16 yön = 8 komşu + 8 "atlama" komşu  (±1,±2) ve (±2,±1)
+⚠️ ATLAMA KOMŞUNUN TUZAĞI: (1,2) adımı ARADAKİ hücrenin üstünden geçer.
+   O hücre DENİZ ya da çok pahalıysa, atlama onu BEDAVA AŞAR.
+   ⇒ Ara hücrelerin maliyeti de hesaba katılmalı, yoksa 16 yön bir
+     iyileştirme değil bir KAÇAK olur. Bunu ölç ve nasıl çözdüğünü yaz.
+```
+
+### Ⓐ6 NEHİR GEÇİŞ BEDELİ — 🔴 MOTORDA HİÇ YOK
+Ölçtüm: `_kv_dijkstra` içinde nehir **geçmiyor** (0 eşleşme). Nehir yalnız
+`dogal_hatta_yasla` (`:1221`) içinde var — o da sınır çizildikten **SONRA**
+onu yatağa çeken bir yaslama. KITA 8'in 67 km'lik nehir cezası yalnız
+**prototipte.** ⇒ Bugün nehir yürüyüşü **yavaşlatmıyor.**
+
+Emre'nin biçimi doğru: bedel *"kaç km'ye tekabül eden zaman"* cinsinden.
+🔴 **Ama sayıyı SEN uydurmayacaksın** — `KITA 10` (`R2`) bunu araştırıyor
+(`oturumlar/YURUME-BILIMI-PROGRAMI.md`). Sen **mekanizmayı** kur, sayıyı
+onun `denetim/VERI-NEHIR-0912.json` çıktısından al. Gelmemişse
+parametrik bırak ve **bekleyen** diye bildir.
+⚠️ Ve nehir bir DUVAR değil, **üzerinde geçitler olan** bir duvar —
+`R2②` bunu araştırıyor. Mekanizman geçit kavramını **ifade edebilir**
+olmalı (tek bir küresel ceza yetmez).
+
+### Ⓐ7 🟢 KALİBRASYON = EMRE'NİN DÖRT SAYISI
+Uydurulmuş sabit yerine **ölçüt kümesi.** Bütçe: 5 gün × 8 saat = 40 saat.
+```
+                    HEDEF        bugünkü Tobler + ortalanmış DEM
+güney  düz ova      200 km       200 km   ✓
+batı   nehirli      ~100 km      100 km   ✓ (bedel ELLE konarak)
+doğu   rampa        ~100 km      151 km   🟡 fazla cömert
+kuzey  dağ          40-50 km      70 km   🔴 DAĞ CEZASI ZAYIF
+```
+⇒ Modeli bu dörde oturt. **Dört ölçüt, üç bilinmeyen — fazlasıyla
+belirlenmiş**, yani kalibrasyon SINANABİLİR. Tutmayan yönü **bildir,
+zorlamayla uydurma** (`D022`: bir öngörünün çürümesi bilgidir).
+
+### Ⓐ8 🔴 TAVAN ZAMAN BÜTÇESİNE ÇEVRİLİYOR — EMRE'NİN KARARI
+```
+BUGÜN   TAVAN_KM = {1:200, 2:200, 3:200, 4:200, 0:200}   HER YÖNDE AYNI
+```
+**Sorun:** taşma yönlere göre farklı menzil hesapladıktan **sonra**,
+200 km'lik sert bir yarıçap tavanı hepsini **daireye geri kırpıyor.**
+Motor Emre'nin istediği ayrımı yapıyor, sonra üstünden siliyor.
+
+> **Emre, 12 Eylül 2026: "tavanı zaman bütçesine çevirelim."**
+
+```
+YENİ   tavan = YÜRÜYÜŞ SAATİ  (ör. 5 gün × 8 saat = 40 saat)
+       düz ovada  ~200 km'ye denk gelir  ← bugünkü davranışı KORUR
+       dağda      kendiliğinden 40-70 km'de durur
+       nehirde    geçiş bedeli bütçeden düşer
+⇒ Tavan artık bir KIRPMA değil, taşmanın KENDİ durma koşulu olur.
+```
+🔴 **DİKKAT — üç şey ölçülecek:**
+```
+① 200 km'yi kaç saate çevirmeli? Düz arazi hızından türet (5,04 km/saat
+   ⇒ 39,7 saat ≈ 5 gün). Bu, bugünkü davranışı düz arazide KORUMAK
+   demektir — geriye dönük uyum.
+② `TAVAN_KM` kaç yerde okunuyor? HEPSİNİ tara ve listele. Bir yerde
+   km diye kalırsa sessizce yanlış kırpar (`D124`).
+   📌 `uret_petek.py:141` ve `:178` eski tavan yorumlarını taşıyor —
+     onlar da bayat olacak, işaretle.
+③ A1 YARIÇAP TAVANI (`:807`) ayrı bir mekanizma mı, aynısı mı? ÖLÇ.
+   `motor_kara.geojson` ölçümü *"hiçbir petek noktasından ~200 km öteye
+   uzanmıyor"* diyor — yani tavan GERÇEKTEN kesiyor, âtıl değil.
+```
+⚠️ Ve kademe ayrımı: bugün k1-k4 hepsi 200. Zaman bütçesinde de aynı mı
+kalacak, yoksa bir başkent bir köyden daha uzağa mı erişir? **Emre 27
+Ağustos'ta kademe ayrımını KASTEN kaldırdı** — bunu değiştirmeyi
+önermeden ona sor.
+
 ## 2. 🔴 KURALLAR
 
 ```
