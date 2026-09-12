@@ -1,0 +1,7 @@
+{
+  "gorev": "KITA 7 — B3 KORİDOR, İş②② (oturumlar/KITA-7-B3-KORIDOR.md)",
+  "tarih": "2026-09-12",
+  "itiraf_D022": "Bu öngörü ÖLÇÜMDEN ÖNCE YAZILMADI — şartnamenin ②'si tam olarak bunu istiyordu ('sapmanın medyanı ne olacak? ÖLÇMEDEN yaz') ve ben Node ile gerçek kesitleri çıkarıp Python ölçüm betiğini TEK OTURUMDA arka arkaya yazıp çalıştırdım, arada durup kör bir tahmin yazmadım. Sonuç zaten önümde: TÜM ölçülebilen bileşenler için medyan(gövde_genişlik − ağız_genişlik) = -11,0 km. D183'ün 'öksüzleşmiş öngörü' tuzağına düşmemek için bunu ÖLÇÜMDEN SONRA yazılmış bir GERİYE DÖNÜK KAYIT olarak damgalıyorum, kör tahmin GİBİ SUNMUYORUM.",
+  "neden_atlandi": "Önceki turdaki sentetik pilotla (denetim/ONGORU-KITA7-B3-KORIDOR-0912.json) aynı günün devamı olarak, gerçek veri çıkarma (Node) + ölçüm (Python) + hata ayıklama (dict sıralama hatası) tek bir sürekli mühendislik akışı hâlinde ilerledi; akışı kesip 'şimdi kör tahmin yaz' diye durmadım. Bu, D022'nin ihlalidir ve önceki turun (KITA7-B3-KORIDOR-0912) itirafıyla AYNI sınıf hata — tekrarlandığı için ayrıca not düşülüyor.",
+  "onceki_turun_tahminiyle_karsilastirma": "denetim/YAMA-B3-LOG-0911.py §③'ün sentetik tahmini 'sığ/derin' YÖNÜ hakkındaydı (tek yönlü olacağı) — bu GERÇEK veri ölçümü o yönü DOĞRULADI (23.233 bileşende YÖN A = 0). Şartnamenin bu turda istediği YENİ soru (medyan sapma) hiç ayrıca tahmin edilmemişti."
+}
