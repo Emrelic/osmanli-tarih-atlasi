@@ -21,3 +21,61 @@ yalnız `_kvsahip` (indeks, değer değil) kullanılıyor gibi görünüyor.
 ```
 
 ---
+
+## Ⓐ1/Ⓐ2 SONUÇ — ÖNGÖRÜ TUTTU
+
+Prototip: `denetim/ARAC-MALIYET-TOBLER-0912.py` (saf Python, `uret_petek.py`
+okunmadı/değiştirilmedi — yalnız aynı sabitler literatürden yeniden yazıldı).
+
+**Ⓐ1 — tablo BİREBİR üretildi** (brifingle aynı, doğrulandı):
+```
+dz(m/hücre)  eğim    ESKİ    TOBLER   fark
+       100   1.0°   1.50x    1.06x   +41%
+       500   5.1°   3.50x    1.37x  +156%
+      1000  10.2°   6.00x    1.88x  +220%
+      3000  28.3°  16.00x    6.60x  +143%
+```
+
+**Ⓐ2 — yön duyarlılığı GERÇEK ve ölçüldü:**
+```
+dz(m)   YOKUŞ çarpan   İNİŞ çarpan   ORAN
+ 100        1.06x          0.94x     1.13
+ 500        1.37x          0.97x     1.42
+1000        1.88x          1.32x     1.42
+3000        6.60x          4.65x     1.42
+```
+Büyük eğimlerde oran **1,42**'de sabitleniyor (Tobler'ın +0,05 kaymasının
+etkisi büyük |S|'de sönüyor). **Bugünkü model bunu hiç ayırt edemiyor** —
+`surt[hedef]` yalnız hedef hücrenin MUTLAK eğimine bakıyor, kenarın hangi
+yöne gittiğine değil; aynı büyüklükteki bir yokuşta a→b ile b→a arasında
+KASITLI bir fark YOK (yalnız komşu hücrelerin tesadüfi eğim farkı kadar
+bir gürültü var).
+
+## `_kvuzak` BİRİM TARAMASI — TEMİZ ÇIKTI (öngörü tuttu)
+
+`grep -n "_kvuzak"` → yalnız 4 satır: üretildiği satır (2305), A/B ölçümü
+için ikinci kez üretildiği satır (2329, hemen `del` ediliyor), ve iki
+yorum satırı. **`_kvuzak`'ın SAYISAL DEĞERİ hiçbir yerde sonradan
+OKUNMUYOR** — yalnız Dijkstra'nın kendi iç karşılaştırması için var,
+sonra atılıyor. Aşağı akışta yalnız `_kvsahip` (bir İNDEKS, mesafe değil)
+kullanılıyor (satır 2331, 2333, 2430). ⇒ **Tobler'a geçiş (km→saat) hiçbir
+tüketiciyi KIRMAZ — mesafe olarak okuyan sıfır yer var.**
+
+🔴 **AMA BAĞIMSIZ BİR RİSK BULUNDU (öngörülmemişti):** `arac/maliyet.py:198`
+**KENDİ `EGIM_CARPANI = 0.005` KOPYASINI** taşıyor — `uret_petek.py`den
+BAĞIMSIZ, ayrı bir sabit. Tobler yalnız `uret_petek.py`ye inerse
+`maliyet.py` SESSİZCE eski doğrusal modelde kalır ve iki dosya
+AYRIŞIR (`D143` sınıfı: aynı işi yapan iki zincir betiği). Motor
+oturumuna (1.MURAT) BEKLETMEDEN bildiriliyor.
+
+## SİMETRİ TARAMASI
+
+`_kv_dijkstra` zaten yönlü graf mantığıyla yazılmış (`uzak[b] = uzak[a] +
+c(a,b)`, klasik Dijkstra) — algoritma simetri VARSAYMIYOR. Ama BUGÜNKÜ
+`c(a,b) = dist(a,b) * surt[b]` formülü DE FACTO neredeyse-simetriktir
+(yalnız hedef hücreye bakar, kimin gönderdiğine bakmaz) — Tobler'a
+geçilince `c(a,b) = dist(a,b) / W(S_ab)` olacak ve **gerçek anlamda**
+`c(a,b) ≠ c(b,a)` olacak. Bunu VARSAYAN/BOZACAK başka bir yer arandı:
+`_kv_dijkstra` dışında `surt`/`_kvsurt` okuyan başka kod YOK (tek tüketici
+bu fonksiyon) — simetri varsayan İKİNCİ bir yer BULUNAMADI.
+
