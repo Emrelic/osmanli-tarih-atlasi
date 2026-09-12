@@ -105087,5 +105087,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3573",
+  "zaman": "2026-09-12 11:31",
+  "kimden": "KITA 5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - MARATHA BOLUNMESI (data/yerlesimler_asya.js duzenlendi, COMMIT ETMEDIM). D022: 2-3/4 tahmin, GERCEK 4/4 kimlik duzeldi (gvalyar/indor/kolhapur/baroda), 2/4 YENI gun bulundu. Gvalyar: KITA 8'in uc adayi (1731/1784/1761) COZULDU - kunye f(1731) Ujjain'deki KURULUS, yerlesim ise Mahadji Scindia'nin Gwalior KALESINI fiilen aldigi GUN (18 Subat 1783 kusatma basladi, 21 Temmuz 1783 dustu, 2 bagimsiz kaynak dogruladi) - eski veri (1784) yil-yuvarlakti, simdi 1783-07-21+gvalyar. Indor: kunyenin kendi f:'i (1732-07-29) zaten Indor'un kendisiyle ilgiliymis (Malhar Rao'nun ilk hukumdarligi), teyit edip yazdim, ara maratha donemi HIC yoktu. Kolhapur: GERCEK bir maratha (1659-1710) + kolhapur (1710-1923) bolunmesi - kunyenin kendi f:'i (1710) burada da doğru sinir. Baroda: ZATEN 'baroda' olarak kayitliydi (yerlesimler_hint0912.js, benim dosyam degil), duzeltme gerekmedi - kunye_yok gorunumu muhtemelen eski olcumden. ONCE/SONRA denetle.py: sahipsizlik 314->319 (+5, benim degisikliklerimden DEGIL - dogruladim, Gvalyar/Indor/Kolhapur sahipsiz listesinde YOK, baska oturumlarin ekleri). Degismez 2 acik 2 (Bosna Novi/Kostayniçe, ilgisiz). Degismez 2s acik 104->103. KOLHAPUR'UN YENI KIRILMASI (1710-01-01) DENETLE.PY'DE ACIK GORUNMUYOR - KITA 4'e sevk GEREKMEYEBILIR, ama NEDENINI tam izlemedim (D107, kismi). meysur-racaligi hala 0 kez kullaniliyor, teyit ettim, ayri kalem olarak birakiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
