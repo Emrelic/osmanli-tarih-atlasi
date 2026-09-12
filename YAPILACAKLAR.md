@@ -10,6 +10,61 @@ durum tablosunu güncelle.
 
 ## Şimdi
 
+### 🔴 SEFER OKU 46/61 KIRPILIYOR — VE ÇARESİ VERİDE DEĞİL
+*(12 Eylül 2026 · `KITA 15` ölçtü · paket 0043 · H-0001 · H-0006 · H-0011b · H-0016)*
+
+Emre üç sefer güzergâhının haritada görünmediğini bildirdi. `SEFERLER`
+kümesi **zaten var** (61 kayıt · 61'inde `yol:` · 338 nokta) ve ok glifi de
+(`js/app.js:3279`) — yani `D045`: istenen şeyin altyapısı vardı.
+
+Görünmeme sebebi `js/app.js:3495 seferGuncelle()` içindeki bir **kırpma**:
+```
+çapa       = m.ti   ← SEFERİN BİTİŞ GÜNÜ (başlangıcı DEĞİL)
+öncekiOlay = bütün külliyatta çapadan önceki EN SON olay
+_fiKirpik  = max(fi, öncekiOlay)
+```
+```
+Çaldıran seferi  1514-04-20 → 1514-10-01    KIRPILAN 148 gün
+Mısır seferi     1516-08-01 → 1517-02-22    KIRPILAN 198 gün
+GENEL            61 seferin 46'sı kırpılıyor
+```
+
+🔴 **Kodun kendi yorumu bir ÇARE öneriyor ve o çare ÇALIŞMIYOR.** Yorum
+*"asıl çare veridedir: bu seferlerin başında kronoloji maddesi yok"*
+diyor. `KITA 15` uygulamadan önce `seferGuncelle()`ü birebir simüle etti:
+```
+sefer başına madde eklenince   Çaldıran 148 → 148   Mısır 198 → 198
+TDV'nin gerçek çıkış gününe    Çaldıran 148 → 148   Mısır 198 → 198
+```
+Sebep: çapa `ti` olduğu için seferin **sonuna yakın** zaten alâkasız
+olaylar var (1514-09-15 · 1517-02-15) ve onlar başa eklenen maddeden
+**her zaman** çapaya daha yakın.
+⇒ `D029` birebir: **bir reçete, uygulanınca kendi testini geçmek
+zorundadır.** Bu reçete geçmiyor — ve hiç sınanmamış bir **hipotez**
+kural gibi taşınıyordu. Koordinatör ve `KITA 13` ikisi de ona dayandı.
+📌 `D048`in (*silinen kodun mezar taşı hayatta kalan kod hakkında bir
+iddiadır*) **canlı yorum** hâli: burada iddia bir mezar taşında değil,
+çalışan kodun yanındaki yorumda duruyor ve **güven verdiği için kimse
+onu ölçmedi.**
+
+**ÇÖZÜLMEDİ — ve dosya kimsede değil.** `js/app.js` bu paketin hiçbir
+oturumuna verilmedi; kırpma mantığına dokunulması Emre'nin kararı.
+⚠️ Ve kaldırmak bir çare değil (`D012`): o kural 23 Ağustos'ta *"ok bir
+olay erken çıkıyor"* şikâyetini çözmek için kondu. Kaldıran, eski kusuru
+geri getirir. Doğru soru: **çapa `ti` mi olmalı, `fi` mi?**
+
+### 🟡 VE AYNI ÖLÇÜMDEN İKİNCİ BULGU — `SEFERLER`in `f:` ALANLARI KAYNAKSIZ
+
+```
+TDV `selim-i`   Çaldıran çıkışı  23 Muharrem 920 / 20 Mart 1514, Edirne'den
+                Mısır çıkışı     5 Haziran 1516, İstanbul'dan
+savaslar.js     Çaldıran f:1514-04-20   → 31 gün sapma
+                Mısır    f:1516-08-01   → 57 gün sapma
+```
+İkisi `KITA 15`te düzeltiliyor; **61 kaydın kaçında `kaynak:` alanı var**
+ayrıca sayılıyor. ⚠️ Bu bir gösterim kusuru değil **veri** kusurudur ve
+61 kaydın tamamını sorgulatır — ama tamamı bu turda düzeltilmiyor.
+
 ---
 
 # 🔴 YENİ DENETİM GEREKİYOR — madde ile veri birbirini tutmuyor
