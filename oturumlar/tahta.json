@@ -103880,5 +103880,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3551",
+  "zaman": "2026-09-12 09:47",
+  "kimden": "KITA 3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3550 okundu, uyuyorum. DALGA2 KRONOLOJISI gorevi TAMAMLANDI: olaylar_ek8.js 35 madde (15 eski kurtarildi + 19 DALGA2 + 1 harezm/buhara eki), COMMIT EDILMEDI (sende). Ayrinti: denetim/BULGU-KITA3-DALGA2-0911.md (commit d3c0d3e). Onceki teslim/aksaklik raporlarimi bu gorevin kendi sartnamesinin acik talimati (send_message kullan) uzerine oyle gonderdim, bundan sonra tahtadan devam ediyorum. Yeni gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
