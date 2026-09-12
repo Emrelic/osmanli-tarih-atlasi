@@ -1,0 +1,56 @@
+{
+  "_ne": "KITA 8 — B③ engel eşiği + B② enklav tavanı. D022: ÖLÇÜMDEN ÖNCE yazıldı ve commit'lendi.",
+  "_kim": "KITA 8 — B ENGEL VE ENKLAV (local_211b974e-3a66-4072-adef-753e27c9b302)",
+  "_tarih": "2026-09-12",
+  "_zemin": "Şartname okundu, BULGU-B-UCUZ-PARCALAR-0911.md okundu, degismez7 bir kez KOŞTURULDU (650 kayıt · kova A483/B164/C3 · 7,2 sn). Aşağıdaki öngörülerin HİÇBİRİ o koşudan türemiyor — hepsi HENÜZ ÖLÇÜLMEMİŞ şeyler hakkında.",
+
+  "is_1_engel_esigi": {
+    "E1_hangi_esik": {
+      "ongoru": "Emre'nin ölçütünü (dağa toslayınca dur, nehire gelince kesil) ORTA bant karşılar: p80-p90. Uçlar kaybeder — p70 sınırı bandın içine gömer ve 'yaslanma' okunmaz olur, p95 bandı o kadar daraltır ki sırt etkisi görünmez.",
+      "curutur": "En ikna edici hâl p75'in altında ya da p92'nin üstünde çıkarsa"
+    },
+    "E2_monotonluk": {
+      "ongoru": "Eşik GEVŞEDİKÇE (yüzdelik düştükçe) sırta kilitlenen sınır hücresi MONOTON artar",
+      "curutur": "Herhangi bir eşikte düşüş görülürse"
+    },
+    "E3_ortalama_kayma": {
+      "ongoru": "p85'te sınırın ortalama kayması 5-20 km bandında",
+      "curutur": "2 km'nin altı ya da 50 km'nin üstü"
+    },
+    "E4_ikinci_cografya": {
+      "ongoru": "🔴 ALÇAK EĞİMLİ coğrafyada (Mezopotamya) AYNI yüzdelik eşikleri çok daha ZAYIF etki üretir — çünkü yüzdelik BÜTÜN kutudan hesaplanıyor ve alçak bölgede eşiği aşan hücre neredeyse yok. Değişen hücre oranı Toros kutusunun YARISINDAN AZ olacak.",
+      "ek": "VE orada değişimin çoğunu NEHİR taşıyacak: nehrin payı %70'in üstünde.",
+      "gerekce": "D127 — bir oranı başka bir katmana taşımak o katmanın kendi yapısını yok sayar. Yüzdelik eşik taşınabilir bir sayı DEĞİL.",
+      "curutur": "Mezopotamya'da etki Toros'un yarısından fazlaysa, ya da nehir payı %70'in altındaysa"
+    }
+  },
+
+  "is_2_enklav_tavani": {
+    "K1_iki_ayri_evren": {
+      "ongoru": "🔴 '650 enklav' ile tavanın üstünde işleyeceği küme AYNI POPÜLASYON DEĞİL. 650 = `degismez7`in GRAF evreni (yerleşim komşuluğu, gün bazlı); tavanın hedefi = B2'nin GEOMETRİ evreni (332 karasal görünüm, donemler.js). Adların örtüşmesi %25'in altında.",
+      "curutur": "Örtüşme %25'i aşarsa"
+    },
+    "K2_carpik_dagilim": {
+      "ongoru": "Alan dağılımı AŞIRI çarpık: en büyük %1 toplam alanın yarısından fazlasını taşıyor",
+      "curutur": "En büyük %1'in payı %20'nin altındaysa"
+    },
+    "K3_dogal_bosluk": {
+      "ongoru": "Sıralı alan dizisinde log ölçekte EN BÜYÜK BOŞLUK, 30.000 - 200.000 km² bandına düşer. Tavan dağılımdan türetilirse oraya oturur.",
+      "curutur": "En büyük log-boşluk bu bandın dışına düşerse"
+    },
+    "K4_tavan_ne_kesiyor": {
+      "ongoru": "100.000 km² tavanı 332 görünümün EN ÇOK 5'ini kesiyor — yani tavan neredeyse bir NO-OP, yalnız 2-3 adlı devi dışarıda tutuyor",
+      "curutur": "5'ten fazla görünüm keserse"
+    },
+    "K5_artifakt_riski": {
+      "ongoru": "🔴 En büyük 5 enklavdan EN AZ BİRİ gerçek tarihî izolasyon değil, NOKTA SEYREKLİĞİ artifaktıdır (CLAUDE.md §2: noktasız bölge en yakın peteğe emilir). Cebel Merre bu yüzden 406.228 km² görünüyor olabilir.",
+      "curutur": "İlk beşin beşinin de çevresinde yoğun nokta varsa"
+    }
+  },
+
+  "_bilerek_riskli": [
+    "K1 — sevkin kendi cümlesine ('650 enklavın alan dağılımı') karşı çıkıyorum: o kümenin alanı YOK, ve tavan onun üstünde işlemiyor.",
+    "E4 — yüzdelik eşiğin taşınamayacağını iddia ediyorum; taşınırsa öngörüm de düşer.",
+    "K5 — bir sayının SEBEBİ hakkında iddia; ölçmesi en zor olanı, ve ölçemezsem `ölçülemedi` yazacağım."
+  ]
+}
