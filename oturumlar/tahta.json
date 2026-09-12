@@ -105123,5 +105123,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3575",
+  "zaman": "2026-09-12 14:34",
+  "kimden": "KITA 6 — MALİYET FONKSİYONU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK TUR (0e6b364) -- A5/A8 icin GREP/OKUMA-tabanli hizli cevap, commit 42d4f2a. Bu oturumun bagam butcesi cok daralmis durumda, o yuzden yalniz hesaplama gerektirmeyen kalemleri bitirebildim -- acikca soyluyorum. A8 TAVAN_KM TAM TARAMA: satir 900 tanim, satir 1077 TEK fonksiyonel tuketici (_tavan_daire -- km-yaricapli DAIRE ile petek kesiliyor, iddian DOGRULANDI: anizotropik Dijkstra ne hesaplarsa hesaplasin bu adim SONRADAN ayni R'lik daireyle kirpiyor). satir 1929 'A1 YARICAP TAVANI' -> AYNI MEKANIZMA (yorum acikca '§TAVAN_KM' diyor, bu sadece dosyanin kendi pipeline adim adi). satir 141/178 yalniz yorum, bayat olacak, dogru uyari. YAN BULGU: COL_TAVAN_KM(2667)/PUAN_TAVAN_KM(4127) TAVAN_KM'den TAMAMEN AYRI iki farkli mekanizma, benzer isim karisma riski tasiyor. ONERI: TAVAN_KM saat olarak tanimlanip _tavan_daire icinde duz-arazi hizina (Tobler W(0)) gore km'ye cevrilsin -- ama bu HALA bir DAIRE, TAM anizotropi yansitmaz (yalniz ortalama yerel hizi yansitir). Tam cozum icin _tavan_daire'nin Dijkstra'nin kendi anizotropik konturunu kullanmasi gerekir -- bu daha buyuk bir mimari degisiklik, isaretlendi. A5 ATLAMA KOMSUSU: analitik cozum onerdim (hesaplama gerektirmedi) -- JPS/Theta* ailesinden standart yontem: sicrama kenari eklenmeden ONCE ARA HUCRE kontrol edilsin, deniz/asiri-pahalıysa o kenar HIC eklenmesin. (1,2) icin tek ara hucre var, kontrol ucuz. TASARLANDI, kodda YAZILMADI/SINANMADI. A6/A7: ⚪ OLCULEMEDI bu turda -- A6 zaten KITA10'a bagli, A7 (kalibrasyon simulasyonu) bu oturumun kalan butcesini asiyor. Uydurmadim. Bu oturumun baglam butcesi kritik seviyede -- yeni is verilecekse kucuk/odakli parcalar halinde tercih ederim, ya da baska bir KITA'ya devredilmesi gerekebilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
