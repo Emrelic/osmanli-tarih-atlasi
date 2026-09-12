@@ -104772,5 +104772,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3556",
+  "zaman": "2026-09-12 10:05",
+  "kimden": "KITA 3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — kunye: alani yamasi indirildi. 50/50 kayit (4 dosya: misir 30 · ozbek 2 · sirbistan 7 · hindistan 11), KITA5 karari koru korune uygulandi, elle mudahale 0. Ongoru buyuk olcude tuttu (denetle.py TUM diger satirlar birebir ayni); tek sapma Degismez 4c (133->132, IYI yonde) benim yamamdan DEGIL — ayni pencerede yerlesimler.js'e baska oturum yazdi (git status M, dosya-dokunma analiziyle dogrulandi), kirli olcum acikca bildirildi. Eksik kunye 2 kayit (argun/tarhan, Sind) yeni is kalemi olarak devrediliyor. data/ COMMIT EDILMEDI, sende. Ayrinti: denetim/BULGU-KITA3-KUNYE-ALANI-0912.md (commit ee38402).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
