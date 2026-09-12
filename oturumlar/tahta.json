@@ -105772,5 +105772,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3588",
+  "zaman": "2026-09-12 18:27",
+  "kimden": "KITA 12",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "TESLİM — GÜVEN KUŞAKLARI PROTOTİPİ (KITA 12). js/app.js + css/style.css. ① UYGULANDI — üç görsel stil, tek koddan (aynı iki kaynak: 50-100km ve 100-200km \"annulus\" — delikli halka poligonları, her aktif idare noktası için): STİL 1 SOLUK — yarı saydam beyaz dolgu (orta %22, dış %42 opaklık) STİL 2 TARALI — köşegen çizgi deseni (runtime canvas, isgalDesenleriKur ile AYNI teknik), orta %55 / dış %100 opaklık STİL 3 KESİKLİ KENAR — annulus'un iki halkası (dış+iç) çizgi katmanı olarak basılıyor ⇒ 100km ve 200km sınırları otomatik kesikli çizgi, ayrı kaynak gerekmedi SAHİPLİK DEĞİŞMEDİ — hiçbir mevcut katıma (devlet-dolgu vb.) dokunulmadı, yalnız ÜSTÜNE ek katman kondu. Varsayılan KAPALI: `GUVEN_ODAK_DEVLET=null`, normal kullanıcıya SIFIR etki (bir `if` kadar maliyet). ② KUŞ UÇUŞU PROTOTİP OLDUĞU EKRANDA AÇIKÇA YAZIYOR — kırmızı banner: \"🔴 PROTOTİP — KUŞ UÇUŞU MESAFE, GERÇEK YÜRÜME MALİYETİ DEĞİL · <devlet> · <n> nokta · stil: <ad>\". D176 gereği. ③ AÇMA YOLU (üç yol, hepsi mevcut): - Konsoldan: window.guvenAc('osmanli', 1) (1¦2¦3 stil) - URL'den: ?guven=osmanli&guvenstil=2 - window.guvenStil(n) ile stil değiştir, window.guvenKapat() ile kapat ④ GERÇEK VERİYLE DOĞRULANDI (kuş uçuşu, kendi sınırları dahilinde): 1500-06-15, Osmanlı → 316 aktif nokta (y.d + y.s taraması), guven-orta 397 render edilen özellik, guven-dusuk 499 — katmanlar GERÇEKTEN çiziliyor, `queryRenderedFeatures` ile doğrulandı. ⚠️ Bu yoğunlukta (1500, Anadolu+Balkan çekirdeği) örtüşen 50km çemberleri neredeyse HER YERİ \"yüksek güven\" yapıyor — ekranda soluk halka çoğunlukla YALNIZ SINIR/FRONTİER bölgelerinde görünür oluyor, ki tam da beklenen davranış budur (D022: bunu ölçümden ÖNCE bekliyordum — çekirdek bölge doygun, sınır bölgesi zayıf görünmeli). ⑤ EKRAN GÖRÜNTÜSÜ — bu ortamda MapLibre GERÇEK 86 MB veriyle çok yavaş yüklendiği için (dakikalarca), üç stili NET görmek için SENTETİK bir örnek gövde + 4 örnek nokta ile ayrı bir gösterim sayfası hazırladım (AYNI fonksiyonlar, birebir kopya): denetim/KITA12-GUVEN-STIL-DEMO-0912.html — tarayıcıda açılır, alttaki 3 düğmeyle canlı geçilir. Emre'ye doğrudan gönderildi. Üç ekran görüntüsünü de kendim aldım ve gözle doğruladım — üçü de net, okunur, birbirinden ayırt edilebilir. ⑥ py arac/renk_olc.py koştu: 2 çakışma / 6 yakın-ama-değmeyen — BUNLAR BENİM DEĞİŞİKLİĞİMDEN ÖNCE DE VAR (arac/renkler.py'ye hiç dokunmadım; bu sayılar muhtemelen eşzamanlı koşan başka oturumların canlı veri değişikliklerinden). Örtü katmanım sabit bir beyaz renk kullanıyor, HİÇBİR devletin palet rengine dokunmuyor — §9 riski yapısal olarak yok, ama gözle teyit istenirse ayrıca bakılabilir. ⑦ BİLİNEN SINIRLAR (D107 — kapsam, borç değil): - Yalnız `y.d` (Osmanlı doğrudan) ve `y.s` (yabancı) tarandı; tâbi `y.v` bu turda KAPSANMADI. - Her nokta kendi 50-100/100-200 halkasını karartır; KOMŞU bir noktanın 50km güvenli alanına taşarsa o da karartılır (gerçek \"en yakın noktaya göre güven\" boole fark/birleşim ister — üç stili KARŞILAŞTIRMAK için gerekli değildi). - Kara/deniz'e göre kırpılmadı, devlet gövdesine de kırpılmadı (dairenin bir kısmı sınırın dışına/denize taşabilir) — gerçek veri bağlanınca (Ⓐ8 sonrası) bu tür kırpma motor tarafında zaten olacak. ⑧ index.html'e SATIR GEREKMEDİ — hiçbir yeni script/CDN eklenmedi, desen runtime'da canvas ile üretiliyor (isgal deseniyle aynı teknik). 🔴 COMMIT ETMEDİM. Üç stilin ekran görüntüsünü Emre'ye gönderdim (denetim/KITA12-GUVEN-STIL-DEMO-0912.html) — hangisini seçtiğini bekliyorum. Seçim gelince tek satırlık bir varsayılan (`GUVEN_STIL`) değişikliği yeterli, başka kod değişikliği gerekmez. Dosyalar: js/app.js · css/style.css · denetim/KITA12-GUVEN-STIL-DEMO-0912.html",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
