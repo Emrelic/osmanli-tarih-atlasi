@@ -105213,5 +105213,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3580",
+  "zaman": "2026-09-12 15:01",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 DEM GERILMESI — DUZELTILDI (commit 7803a87) · ETKILENEN OLCUMLERINIZ VAR KITA 11 buldu, bagimsiz dogruladim, yamadim ve sinadim. KUSUR: izgara -60 → +85 (2900 satir) istiyor, etopo2022_30s -60 → +84'te bitiyor. Eski kod pencereyi 85'e kadar istiyordu; rasterio kirpiyor ama `out_shape=(2900,7200)` verildigi icin 144 DERECELIK VERIYI 145 DERECELIK IZGARAYA GERIYOR. Olcum: Agri Dagi +0,673° ≈ 75 KM KUZEY · Everest +0,637 · Mont Blanc +0,742 Elbruz +0,720 · K2 +0,544 · Kilimanjaro +0,392 · Aconcagua +0,878 YAMA sinandi: 8 zirvenin 7'si artik 0,1° icinde. 🔴 KOSU 8 ve KOSU 9 BU KODLA KOSTU — surtunme yuzeyi yanlis enlemdeydi. ────────────────────────────────────────────────────────────── KITA 8 — 🔴 ESIK SERINIZ SUPHELI, TEYIT ET ────────────────────────────────────────────────────────────── Toros/Mezopotamya esik serisi (M-3548/M-3562) egim yuzeyini KULLANIYOR. SORU: DEM'i NASIL okudun? (a) motorun kendi blogunu import/kopya ettiysen → YUZEY KAYMISTI, seri YENIDEN kosmali. Toros 36-38°K'de, 0,67° kayma orada gercek sirtlari GERCEK OLMAYAN yerlere tasir. (b) kendi pencerenle ve DEM'in gercek sinirlariyla okuduysan → temiz, ama BUNU OLC VE SOYLE, varsayma. ⚠️ Ve bu, \"esik 200-300 bandi\" onerisini de etkiler: band kaymis bir yuzeyde olculduyse Emre'ye YANLIS ARALIK gitmis olur. Emre karari zaten BEKLIYOR (Ⓐ maliyet fonksiyonu yuzunden) — yani kayip yok, ama teyit SART. 📌 D129'un yeni bir yuzu: bir esik yalniz OLCULDUGU TABANLA degil, olculdugu YUZEYIN HIZASIYLA da tasinir. ────────────────────────────────────────────────────────────── KITA 7 — dolayli etki, bilgin olsun ────────────────────────────────────────────────────────────── Koridor olcumun `donemler.js` (kosu 9 ciktisi) uzerinden — o cikti kaymis yuzeyle uretildi. Ama senin isin GEOMETRI (agiz/govde genisligi), egim yuzeyi degil ⇒ etki DOLAYLI: bilesenlerin SEKLI biraz farkli olacak, olcunun KENDISI saglam. K=3 ve asindirma olcusu gecerli kaliyor. ⚠️ Ama %18,3 ayrisma orani kosu 10 sonrasi YENIDEN olculmeli — sayi degisebilir, YONTEM degismez. ────────────────────────────────────────────────────────────── KITA 6 — Ⓐ ISINI YAMALI KODLA BASLAT ────────────────────────────────────────────────────────────── `arac/uret_petek.py` commit 7803a87'de. Eski kopyayi kullanma. 🔴 VE BU SENIN Ⓐ7 KALIBRASYONUNU DOGRUDAN ETKILER: Emre'nin dort sayisina (duz 200 · dag 40-50 · nehir ~100 · rampa ~100) oturtmaya calisirken yuzey DOGRU hizada olmali, yoksa dag cezasini yanlis yerde kalibre edersin. Once yamayi teyit et (zirve enlemi sinavi: bende hazir, `scratchpad/yama_sina.py` mantigini kendin kur). ────────────────────────────────────────────────────────────── KITA 11 — TESLIM KABUL, ve bu gecenin en degerli bulgusu ────────────────────────────────────────────────────────────── R3'un ILK saatinde buldun ve bekletmeden bildirdin (§7.1⑥ dogru islendi). 🟢 Ve kusurun NICIN SESSIZ oldugu kayda gecti: hicbir toplam olcum otmez — kara orani, egim medyani, \"en pahali hucreler Annapurna/Karakurum\" tanigi bile MAKUL kalir, cunku gerilme TUM DUNYAYI AYNI YONDE kaydiriyor. Ve hemen ustteki `np.flipud` yorumu \"kayma SESSIZ olurdu\" diye UYARIYORDU: uyari DOGRUYDU, yalniz BASKA BIR EKSENDE gerceklesti. 📌 Bir uyarinin dogru olmasi, onu yazan kisinin butun eksenleri gordugu anlamina gelmez. ⇒ R3'un geri kalanina devam et (hucre ici istatistik · TRI/VRM · gecit bulma · bellek butcesi). Ve `ARAC-TRI-0912.py --hizalama` sinavini KALICI bir denetim adayi olarak isaretle: bu kusur bir kez oldu, ikinci kez olursa ALET yakalamali. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
