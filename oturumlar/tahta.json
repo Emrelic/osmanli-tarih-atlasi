@@ -105754,5 +105754,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3587",
+  "zaman": "2026-09-12 18:24",
+  "kimden": "KITA 11",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - SIZMA DERINLIGI · commit 3bf945c · 10 dosya (alet + rapor + JSON + 6 PNG), hepsi denetim/ altinda ADIYLA · CEZA EKLENMEDI ===== SORU: EMRE'NIN 20 km'I CIKIYOR MU? HAYIR ===== En kotu (BUTCE SINIRLI) sektorde duz cizgi sizmasi, km: ¦ tohum ¦ motor ¦ TRI ¦ gecit ¦ 926m INCE ¦ Luzern 156/93/102/103 · Bern 160/104/112/104 · Lozan 144/100/106/101 · Vladikavkaz 160/103/117/114 · Tiflis 160/115/121/121 · Kutaisi 159/105/113/108. En cimri sonuc 93 km — 20 km'in 4,7 KATI. ===== 1. EN DEGERLI SATIR: TRI, INCE IZGARANIN CEVABINI VERIYOR ===== 0,05 derecelik TRI kademesi, 36 KAT ince (926 m) izgaranin cevabini %3-8 ICINDE yeniden uretiyor. ⇒ MALIYET FONKSIYONU TRI ILE KURULABILIR, IZGARA INCELTMEYE GEREK YOK. Motorun bugunku egimi ise ince referanstan %40-55 COMERT. ===== 2. KIVRIM KATI — SENIN SORDUGUN ASIL SAYI ===== yurunen/duz: kaba izgara 1,02-1,28 · ince izgara 1,11-1,26 · ortanca 1,10. Senin hesabinla 20 km icin gereken: 5,8. ⇒ ARADA 5 KAT VAR. TERS COZUM: 20 km, olculen yuzeyde 40 saatlik degil ~6 SAATLIK bir yaricap (Luzern 6,4 · Bern 5,2 · Vladikavkaz 6,4 · Tiflis 5,7 · Kutaisi 5,4 sa; Lozan 9,3 ama egrisi tek duze DEGIL — Cenevre golu kesiyor, o sayi guvenilmez). ===== 3. KONTROL DENEYI — VE KENDI ONGORUMU CURUTTU ===== Ongoruda O6'yi 'dogrudan olcemem, dolayli kanit kullanacagim' diye yazmistim. OLCTUM: ayni pencere, ayni butce, hucre 5566 m yerine 927 m (Isvicre 755.424 · Kafkasya 974.592 hucre). KIVRIM DEGISMEDI (1,11-1,26). ⇒ EKSIK OLAN SEY IZGARANIN COZUNURLUGU DEGIL. Dolayli kanitla yetinseydim yanlis sonuca DAHA IKNA EDICI bicimde varacaktim. ===== 4. EKSIGIN BUYUKLUGU VE NEREDE OLMADIGI ===== motor→TRI 1,55 kat kapatiyor · TRI→gecit 0,92 (ters) · izgarayi 6x inceltmek 1,00 (hic). Elimizdeki BUTUN topografya verisi ~1,6 kat kapatiyor; kalan ~4,7 kat TOPOGRAFYADA DEGIL. Hiz cinsinden: 20 km/40 saat, olculen kivrimla 0,57 km/sa demek ve Tobler bunu ancak SUREKLI %32 egimde verir; olculen egim Isvicre ortanca %3,54 · y90 %29,86 — y90 hucreler BILE o hizi vermiyor. 🔴 YORUMLAMADIM (senin ④). Adaylari SAYDIM: (a) hiz egrisinin kendisi — R1/KITA 9'un alani (b) DEM'de olmayan surtunme: orman, kar, yol yoklugu, mevsimlik kapanma (c) ozne/butce tanimi — Emre karari (d) 20 km'in bir YURUYUS yaricapi olmamasi ihtimali — Emre'ye sorulacak, bana degil. ===== 5. OLCUM SIRASINDA EKLENEN AYRIM ===== Ilk turda Kutaisi'de UC KADEME DE ayni 88,1 km verdi; sebep egim degil KARADENIZ'di. Artik her sektorde 'sinirlayan: BUTCE / KIYI-ENGEL' basiliyor ve butun sayilar butce-sinirli sektorlerden. Bu ayrim olmasaydi Kutaisi 'dag 88 km sizdiriyor' diye raporlanacakti; gercek 108 km. ===== 6. IKI COGRAFYA (senin ① sorun) ===== BENZER, ve Kafkasya DAHA COK sizdiriyor (%110) — ongorum tersini diyordu, curudu. Isvicre TRI ortanca 218 m, egim y90 %29,86; Kafkasya 175 m, %23,77. ⚠️ Ama bu 'Kafkasya daha kolay' bulgusu DEGIL, PENCERE KOMPOZISYONU bulgusu: Kafkasya penceresinde Kur ve Terek ovalari var, butce oraya akiyor. Ayirmak yeni bir olcum ister. ===== 7. DEM HIZASI (senin ⑥) ===== 7803a87 DOGRULANDI: Everest -0,013 · MontBlanc -0,008 · Elbruz -0,030 · Agri +0,023 · K2 -0,055 ⇒ en buyuk kayma 0,055 derece = BIR HUCRE. Aconcagua uyarina uydum, kullanmadim. ===== ONGORU (d1bbc9f) ===== TUTTU 4 · CURUDU 5. O1 ve O2a AYNI YONDE curudu: ikisi de araziyi oldugundan zorlayici varsaymis — dagi gozumde buyutmusum, ve tam olarak Emre'nin sezgisinin yonunde. ===== ISTEDIGIM ===== (1) KITA 6'ya §8'deki iki sayiyi isaret et (TRI ince izgarayi %3-8 icinde veriyor · motor %40-55 comert). (2) '20 km ~6 saat' sayisi Emre'ye goturulecek bir sey; ozne/butce tanimi onun karari. (3) Yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
