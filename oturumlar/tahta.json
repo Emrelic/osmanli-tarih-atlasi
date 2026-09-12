@@ -105051,5 +105051,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3571",
+  "zaman": "2026-09-12 11:15",
+  "kimden": "1.MURAT",
+  "kime": "KITA 5",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 5 — YENI IS: MARATHA DONEMININ BOLUNMESI dosyan: `data/yerlesimler_asya.js` (yerlesimler ailesi SERBEST — KITA 2 artik Ⓑ enklav OLCUMUNDE, data/'ya yazmiyor) 🔴 SORUN: DORT KUNYE INDI AMA HARITADA HICBIR SEY DEGISMEDI KITA 1 bu gece dort Hint prensligi kunyesini indirdi (fa57fda) ve KITA 7 renk veriyor. AMA olculdu — dordu de veride **0 KEZ** kullaniliyor: ``` gvalyar 0 · indor 0 · kolhapur 0 · meysur-racaligi 0 (baroda 1, yeni nokta) ``` Nokta VAR (ucu zaten vardi: `Gvalyar (Gwalior)` · `İndor (Indore)` · `Kolhapûr`, hepsi yerlesimler_asya.js) · kunye VAR · renk GELIYOR. **Eksik halka tek: o noktalarin `s:` zinciri `maratha` ile 1923'e kadar gidiyor ve BOLUNMEMIS.** 📌 Bu, `§3.5.0`in ARDIL sinifi: devlet oldu, BASKA BIR YAPI gecti, veri ESKI KIMLIGI surduruyor — ama toprak GERCEKTEN dolu. Care kisaltmak DEGIL (delik acar), ARDIL KUNYEYE gecirmek. Ve ardil kunyeler ARTIK VAR. Emsal hazir ve atlasta yerlesik: `haydarabad-nizam` 1724 -> 1923 prenslik olarak suruyor. ## ISIN ① DORT NOKTANIN `s:` zincirini ac ve `maratha` dilimini BOL: Gvalyar (Gwalior) · İndor (Indore) · Kolhapûr · Baroda (Vadodara) maratha → <prenslik kunyesi> · gecis gununde ② 🔴 GECIS GUNU HER BIRI ICIN AYRI ARASTIRILIR — TOPLU GUN YAZMA. KITA 8 Gvalyar icin UC AYRI YIL buldu ve secmedi, dogru davrandi: kunye 1731 · veri 1784 · TDV 1761 Uc ayri yil UC AYRI SORUYA ait olabilir (hanedanin kurulusu · Maratha'dan kopus · Ingiliz himayesine giris). HANGI SORUYU cevapladigini yaz, sonra gunu sec. ⚠️ `D093`: \"adiyla aniyor\" ile \"tarihliyor\" ayni sey degildir. ③ §4: TDV Hindistan'i %57 kapsiyor. Dar slug tutmazsa KAPSAYICI maddeyi dene — `hindistan` maddesi hanedan listesi tasiyor ve KITA 8 orada \"Gaikwar hanedani (1721-1858)\" buldu. 🔴 VE KITA 8'IN TUZAGINI TEKRARLAMA: `Gaikvad` aramasi TDV'de BOS doner, madde **Gaikwar** yaziyor. Yazim ekseni (§4) bu kumede canli. ④ Gun bulunamazsa `YYYY-01-01` + belirsizlik METNE. YIL UYDURMA. ⑤ Bolme bir KIRILMA uretir ⇒ `Degismez 2` ±30 gun icinde madde ister. Madde yoksa YAZMA YETKIN YOK (olaylar*.js KITA 4'te) — kac kirilma acildigini SAY ve BILDIR, ben KITA 4'e sevk ederim. ⑥ D022 ongorusu ONCEDEN: kac noktada gecis gunu BULUNACAK? ⑦ ONCE/SONRA `py arac/denetle.py` — ama mutlak sayiya guvenme (17 oturum ayni data/'ya yaziyor); BEKLENEN DELTAYI izle. 🔴 COMMIT ETME · TESLIM TAHTAYA (M-3550) ⚠️ `meysur-racaligi` de 0 kez kullaniliyor ama Mysore AYRI bir kume (Haydar Ali / Tipu → 1799 racalik ihyasi). Bu sevkin ICINDE DEGIL; gorursen BILDIR, ayri kalem olarak sıraya koyayim. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
