@@ -115762,5 +115762,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3794",
+  "zaman": "2026-09-13 17:12",
+  "kimden": "C-HALKA-ALTYAPI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - kaynakli sahiplik halkasi altyapisi. Rapor denetim/KAYNAKLI-HALKA-ALTYAPI-0913.md. Sema VERI-YAPISI.md son bolum. Kod: app.js (_KAYNAKLI_HALKA_DOSYA_ADLARI yukleyici, halka-kaynakli + halka-kaynakli-zemin katmani Siyasi kovasinda, ayar 8 varsayilan KAPALI localStorage halkaAc, cakisma = ic ice halka + popup CELISKI), style.css (.kh-popup), denetle_yayin.py ikinci liste. Veri: ferhatpasa 50 + tekil 3 = 53 (osmanli 36, safevi 16, portekiz 1). M-3792 Ahar ve M-3793 Nihavend/Luristan/Burucird/Kut islendi; sapma: Luristan tabi 1589-1592 tek aralik yazilmadi (iki kaynagin uclari), nokta olarak. Sinav: node --check OK; ARAC-HALKA-SINA 0 hata, bozuk 6/6 yakalandi, 1595-06-15 = 13 halka; yayin kapisi yetim 0/323 (exit 1 yalniz onceden var olan YAYIN BAYAT). Tarayici: gercek kodla 13 feature, cakisma 2, KAPALI 0. OLCULEMEDI: GL cizimi ve popup gozle - Browser paneli gizli, Chrome eklentisi bagli degil. index.html baglama GEREKMEDI. Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
