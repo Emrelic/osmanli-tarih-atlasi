@@ -538,7 +538,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"antlasma", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","antlasma","hokand"],
   yer_id:"Kaşgar",
-  d:"Muhammed Ali Han, Buhara'nın artan baskısı karşısında Doğu Türkistan'daki ileri karakollarından çekilmeyi kabul edip Qing hanedanıyla bir antlaşma imzaladı; Hokand'ın Kaşgar üzerindeki iddiaları böylece resmen sona erdi. Ölçmedim ama bu olayın Çin kronolojisinde (", ic_not_d:"kronoloji_cin.js) ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.",
+  d:"Muhammed Ali Han, Buhara'nın artan baskısı karşısında Doğu Türkistan'daki ileri karakollarından çekilmeyi kabul edip Qing hanedanıyla bir antlaşma imzaladı; Hokand'ın Kaşgar üzerindeki iddiaları böylece resmen sona erdi. Ölçmedim ama bu olayın Çin kronolojisinde ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.", ic_not_d:"(kronoloji_cin.js)",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { t:"1840-01-01",

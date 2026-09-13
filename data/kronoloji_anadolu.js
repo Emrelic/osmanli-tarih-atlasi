@@ -435,7 +435,7 @@ window.KRONOLOJI_ANADOLU = [
 { t:"1071-08-26", b:"Malazgirt zaferi Anadolu'nun kapısını açtı", tur:"savas",
   onem:5, dunya:5, kapsam:"dis", etiket:["Malazgirt", "Büyük Selçuklu", "Bizans"],
   yer_id:"",
-  d:"Büyük Selçuklu Sultanı Alparslan, Bizans İmparatoru IV. Romanos Diogenes'i Malazgirt'te ağır bir yenilgiye uğrattı; bu zafer Türkmen boylarının önündeki son büyük engeli kaldırarak Anadolu'nun kapılarını açtı. Anadolu Selçuklu Devleti'ni kuracak olan I. Süleyman Şah da bu fetih dalgasının içinde yer aldı. (TDV", ic_not_d:"`selcuklular` maddesinin taşıdığı baştaki bağlam; devletin kendisi 1075'te kurulacaktır.)",
+  d:"Büyük Selçuklu Sultanı Alparslan, Bizans İmparatoru IV. Romanos Diogenes'i Malazgirt'te ağır bir yenilgiye uğrattı; bu zafer Türkmen boylarının önündeki son büyük engeli kaldırarak Anadolu'nun kapılarını açtı. Anadolu Selçuklu Devleti'ni kuracak olan I. Süleyman Şah da bu fetih dalgasının içinde yer aldı.", ic_not_d:"(TDV `selcuklular` maddesinin taşıdığı baştaki bağlam; devletin kendisi 1075'te kurulacaktır.)",
   kaynak:"selcuklular", yer_kon:[39.1467,42.5397] },
 
 { t:"1075-01-01", b:"I. Süleyman Şah tarafından kuruldu, İznik başkent oldu", tur:"kurulus",

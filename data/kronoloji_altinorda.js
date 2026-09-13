@@ -71,7 +71,7 @@ window.KRONOLOJI_ALTINORDA = [
 { t:"1300-01-01", b:"İlk fetret devri sona erdi, hanlık merkezî otoritesini yeniden kurdu", tur:"idari", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","idari"],
   yer_id:"Saray (Selitrennoye)",
-  d:"TDV ilk fetret devrinin XIV. yüzyılın başlarında kapandığını yazar", ic_not_d:"ama GÜN VERMEZ; buradaki 1300-01-01 o yüzden yuvarlak bir yıl başıdır, ölçülmüş bir gün değildir (CLAUDE.md §4: gün bilinmiyorsa YYYY-01-01). Bu tarihten sonra han otoritesi Saray'da yeniden toplanmış, devlet Özbek Han dönemindeki zirvesine giden yola girmiştir.",
+  d:"TDV ilk fetret devrinin XIV. yüzyılın başlarında kapandığını yazar. Bu tarihten sonra han otoritesi Saray'da yeniden toplanmış, devlet Özbek Han dönemindeki zirvesine giden yola girmiştir.", ic_not_d:"TDV gün vermez; buradaki 1300-01-01 yuvarlak bir yıl başıdır, ölçülmüş bir gün değildir (CLAUDE.md §4: gün bilinmiyorsa YYYY-01-01).",
   kaynak:"TDV, madde: altin-orda-hanligi — 'Bu ilk fetret devri XIV. yüzyılın başlarında sona erdi' (GÜN VERİLMİYOR, yıl yuvarlandı)" },
 
 { t:"1303-01-01", b:"Codex Cumanicus Suğdak'ta derlendi — Kıpçak Türkçesinin en eski sözlük ve metin derlemesi", tur:"kultur", onem:3, dunya:3, kapsam:"ic",

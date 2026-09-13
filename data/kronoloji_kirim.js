@@ -479,7 +479,7 @@ window.KRONOLOJI_KIRIM = [
 { t:"1784-01-08", b:"İstanbul'da imzalanan antlaşmayla Osmanlı, Kırım'ın Rusya'ya ilhakını resmen tanıdı", tur:"antlasma", onem:4, dunya:2, kapsam:"dis",
   etiket:["diplomasi"],
   yer_id:"", kapsam_genis:true,
-  d:"Kırım Hanlığı'nın son kapanış işareti: İstanbul'da imzalanan antlaşmayla Osmanlı Devleti, Kırım, Taman ve Kuban'ın Rusya'ya ilhakını resmen kabul etti. Bu madde 1783 sonrasına düştüğü için dosyanın 1441-1783 kapsamının dışındadır, ilhakın hukuki kapanışı olduğu için epilog olarak eklendi (bkz. data/", ic_not_d:"kronoloji_rusya.js'nin 1917 Ekim Devrimi'ni aynı gerekçeyle \\\"kapanış işareti\\\" olarak eklemesi).",
+  d:"Kırım Hanlığı'nın son kapanış işareti: İstanbul'da imzalanan antlaşmayla Osmanlı Devleti, Kırım, Taman ve Kuban'ın Rusya'ya ilhakını resmen kabul etti. Bu madde 1783 sonrasına düştüğü için dosyanın 1441-1783 kapsamının dışındadır, ilhakın hukuki kapanışı olduğu için epilog olarak eklendi.", ic_not_d:"(bkz. data/kronoloji_rusya.js'nin 1917 Ekim Devrimi'ni aynı gerekçeyle \\\"kapanış işareti\\\" olarak eklemesi)",
   kaynak:"kirim (TDV)", yer_id:"İstanbul" },
 { t:"1787-08-01", b:"Son han Şâhin Giray, Rodos'ta idam edildi", tur:"son", onem:5, dunya:1, kapsam:"ic",
   etiket:["siyaset"],

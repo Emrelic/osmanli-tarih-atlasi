@@ -486,11 +486,13 @@ window.KRONOLOJI_INGILTERE = [
   d:"Elizabeth, Osmanlı Devleti ile doğrudan siyasî ve ticarî ilişki kurmak amacıyla William Harborne'u İstanbul'a gönderdi; İspanya'ya karşı Osmanlı desteği arayışı da bu girişimin arka planındaydı. Harborne'un çabaları, iki yıl sonra ilk resmî ahidnameyle sonuçlanacaktı.",
   kaynak:"ingiltere (TDV)" },
 
-{ t:"1580-06-01", b:"İlk İngiliz-Osmanlı ahidnamesi imzalandı", tur:"antlasma",
+{ t:"1580-01-01", b:"İlk İngiliz-Osmanlı ahidnamesi imzalandı", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","diplomasi","ingiltere"],
+  gun:"1580",
   yer_id:"İstanbul",
   d:"Osmanlı Devleti, İngiliz tüccarlara Fransız ve Venedikli tüccarlarla benzer ticarî ayrıcalıklar tanıyan bir ahidname verdi; bu, İngiltere'nin Osmanlı topraklarında kapitülasyon rejimine dâhil olduğu ilk resmî belgedir. Anlaşma, Levant Company'nin kurulmasının hukukî zeminini oluşturdu.",
-  kaynak:"ingiltere (TDV)" },
+  ic_not_d:"Tarih düzeltmesi (KITA 14, 13 Eylül 2026): t: 1580-06-01 idi; TDV ingiltere yalnız yıl veriyor ('1580 tarihli bu ahidnâme'), ay ve gün kaynaksızdı → 1580-01-01. Çekirdekteki karşılığı olaylar_ek7.js 1580-01-01 ile aynı gün.",
+  kaynak:"ingiltere (TDV) — birebir: '1580 tarihli bu ahidnâmeye göre İngiliz tüccarları da Fransız ve Venedikliler’e daha önce verilen ticarî imtiyazlardan (kapitülasyon) aynı derecede istifade edeceklerdi.' · '…hemen ardından 1581’de Londra’da Levant Company adlı bir şirket kuruldu.'" },
 
 { t:"1581-09-11", b:"Levant Company kuruldu", tur:"ekonomi",
   onem:4, dunya:2, kapsam:"dis", etiket:["ekonomi","diplomasi","ingiltere"],

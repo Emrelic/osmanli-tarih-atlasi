@@ -92,7 +92,7 @@ window.KRONOLOJI_GURCISTAN = [
 { t:"1231-01-01", b:"Moğol istilası başladı", tur:"isgal", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","isgal"],
   yer_id:"", kapsam_genis:true,
-  d:"Moğol orduları 1231'de Gürcistan'a girdi; krallık bir asırdan uzun sürecek bir zayıflama ve parçalanma sürecine girdi. TDV'nin 'gurcistan' maddesi bu tarihi birebir veriyor (", ic_not_d:"devletler.js künyesindeki 1220 tarihinden farklıdır, bu dosyada TDV'nin doğrudan verdiği tarih esas alındı).",
+  d:"Moğol orduları 1231'de Gürcistan'a girdi; krallık bir asırdan uzun sürecek bir zayıflama ve parçalanma sürecine girdi. TDV'nin 'gurcistan' maddesi bu tarihi birebir veriyor.", ic_not_d:"(devletler.js künyesindeki 1220 tarihinden farklıdır, bu dosyada TDV'nin doğrudan verdiği tarih esas alındı)",
   kaynak:"gurcistan (TDV, madde: gurcistan — 'Moğollar 1231'de Gürcistan'a girdiler')" },
 
 { t:"1386-01-01", b:"Timur'un birinci Gürcistan seferi", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
@@ -287,7 +287,7 @@ window.KRONOLOJI_GURCISTAN = [
 { t:"1804-01-01", b:"İmereti ve Guriya'nın Rusya ile birleşmesi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis",
   etiket:["antlasma","diplomasi"],
   yer_id:"Kutaisi",
-  d:"Kartli-Kaheti'nin tam ilhakından üç yıl sonra İmereti ve Guriya da Rusya ile bir himaye/birleşme anlaşması imzaladı; TDV bu ilişkiyi ayrıntılandırmadan \\\"birleşti\\\" diye anıyor — muhtemelen kesin ilhaktan önceki bir vasallık anlaşmasıdır (bkz.", ic_not_d:"devletler.js imereti künyesi notu).",
+  d:"Kartli-Kaheti'nin tam ilhakından üç yıl sonra İmereti ve Guriya da Rusya ile bir himaye/birleşme anlaşması imzaladı; TDV bu ilişkiyi ayrıntılandırmadan \\\"birleşti\\\" diye anıyor— muhtemelen kesin ilhaktan önceki bir vasallık anlaşmasıdır.", ic_not_d:"(bkz. devletler.js imereti künyesi notu)",
   kaynak:"gurcistan (TDV, madde: gurcistan — 'İmeretiya ve Guriya [1804]')" },
 
 { t:"1810-02-20", b:"İmereti Krallığı'nın kesin ilhakı — Kral II. Solomon tahttan indirildi", tur:"son", onem:5, dunya:3, kapsam:"dis",

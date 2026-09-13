@@ -65,7 +65,7 @@ window.OLAYLAR_EK13 = [
   gun:"1569", ic_not_gun:"(TDV `tunus`: \\\"1569'daki ikinci müdahale\\\" · TDV `kilic-ali-pasa`: sefere çıkış Şevval 977 / Mart 1570 · batı literatürü: Ekim 1569'da hareket — gün hiçbirinde YOK)",
   yer:"Tunus, Beja — İfrîkıye", yer_id:"Tunus",
   kisiler:"Uluç (Kılıç) Ali Paşa, III. Mevlây Ahmed",
-  d:"Şarlken 1535'te Tunus'u aldığında şehri kendisi yönetmemiş, Hafsî sultanı Mevlây Hasan'ı tahta geri oturtmuştu; TDV'nin ifadesiyle Tunus şehri \\\"1569'daki Osmanlılar'ın ikinci müdahalesine kadar İspanyollar'ın himayesinde ve III. Mevlây Ahmed'in idaresinde\\\" kaldı. 27 Haziran 1568'de Cezayir beylerbeyiliğine getirilen Uluç Ali karadan Tunus üzerine yürüdü, Beja'da Hafsî sultanını yenerek şehre girdi; Mevlây Ahmed İspanyol presidiosu Halkulvâdî'ye sığındı. Böylece körfez ikiye bölündü — şehir Osmanlı, liman kalesi İspanyol — ve bu bölünme dört yıl sürdü. Seferin tarihinde kaynaklar ayrışır ve ayrışma TDV'nin kendi içindedir", ic_not_d:"`tunus` maddesi 1569, `kilic-ali-pasa` maddesi Şevval 977 (Mart 1570) der; ikisi de gün vermez.",
+  d:"Şarlken 1535'te Tunus'u aldığında şehri kendisi yönetmemiş, Hafsî sultanı Mevlây Hasan'ı tahta geri oturtmuştu; TDV'nin ifadesiyle Tunus şehri \\\"1569'daki Osmanlılar'ın ikinci müdahalesine kadar İspanyollar'ın himayesinde ve III. Mevlây Ahmed'in idaresinde\\\" kaldı. 27 Haziran 1568'de Cezayir beylerbeyiliğine getirilen Uluç Ali karadan Tunus üzerine yürüdü, Beja'da Hafsî sultanını yenerek şehre girdi; Mevlây Ahmed İspanyol presidiosu Halkulvâdî'ye sığındı. Böylece körfez ikiye bölündü — şehir Osmanlı, liman kalesi İspanyol — ve bu bölünme dört yıl sürdü.", ic_not_d:"Seferin tarihinde kaynaklar ayrışır ve ayrışma TDV'nin kendi içindedir: `tunus` maddesi 1569, `kilic-ali-pasa` maddesi Şevval 977 (Mart 1570) der; ikisi de gün vermez.",
   kaynak:"tunus", duygu:["🎉"] },
 
 // ---------------------------------------------------------------------------
@@ -127,7 +127,7 @@ window.OLAYLAR_EK13 = [
 // İkisi de yazıldı; koordinatör kırılmayı hangisine koyacağına karar verir.
 { t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc"],
   b:"Safi'nin Portekiz nüfuzuna girmesi",
-  gun:"1488 (kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal", ic_not_gun:". Gün hiçbirinde yok)",
+  gun:"1488", ic_not_gun:"(kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal. Gün hiçbirinde yok)",
   yer:"Safi (Asfi) — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
   d:"Atlas kıyısının en işlek tahıl ve balıkçılık limanı olan Safi, 1488'de Portekiz nüfuzuna girdi; şehir bir süre yerli yöneticiler eliyle Portekiz himayesinde yönetildi ve 1508'de doğrudan işgal edildi. Kaynaklar bu iki aşamayı farklı ağırlıklandırdığı için başlangıç tarihi 1488 ile 1508 arasında değişir; ikisi de aynı sürecin uçlarıdır. Safi elli üç yıl Portekiz elinde kaldı ve 1541'de Agadir'in düşüşünün ardından boşaltıldı.", duygu:["🎌"] },
 
@@ -169,7 +169,7 @@ window.OLAYLAR_EK13 = [
   gun:"12 Mart 1541 (kuşatma 16 Şubat 1541'de başladı)",
   yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs", yer_id:"Agadir",
   kisiler:"Muhammed eş-Şeyh (Sa'dî sultanı), Guterre de Monroy (vali)",
-  d:"Sa'dî sultanı Muhammed eş-Şeyh 16 Şubat 1541'de Santa Cruz kalesini kuşattı ve 12 Mart'ta zaptetti; vali Guterre de Monroy dahil altı yüz kadar Portekizli esir düştü. TDV", ic_not_d:"`fas` maddesi olayın siyasî ağırlığını şöyle veriyor: \\\"Muhammed'in 1539-1540'ta kardeşi Ahmed el-A'rec'i saf dışı bırakması ve 1541'de de Agādîr'i ele geçirmesi Fas'taki nüfuzunu bir hayli arttırdı.\\\" Kalenin düşüşü tek bir mevziin kaybı değil, Portekiz'in Fas siyasetinin çöküşüydü: yedi ay içinde Safi ve Azemmûr da boşaltıldı.",
+  d:"Sa'dî sultanı Muhammed eş-Şeyh 16 Şubat 1541'de Santa Cruz kalesini kuşattı ve 12 Mart'ta zaptetti; vali Guterre de Monroy dahil altı yüz kadar Portekizli esir düştü.", ic_not_d:"TDV `fas` maddesi olayın siyasî ağırlığını şöyle veriyor: \\\"Muhammed'in 1539-1540'ta kardeşi Ahmed el-A'rec'i saf dışı bırakması ve 1541'de de Agādîr'i ele geçirmesi Fas'taki nüfuzunu bir hayli arttırdı.\\\" Kalenin düşüşü tek bir mevziin kaybı değil, Portekiz'in Fas siyasetinin çöküşüydü: yedi ay içinde Safi ve Azemmûr da boşaltıldı.",
   kaynak:"fas", duygu:["😔"] },
 
 // ---------------------------------------------------------------------------
@@ -185,7 +185,7 @@ window.OLAYLAR_EK13 = [
   gun:"Ekim 1541 (tahliye Eylül-Ekim'de tamamlandı; gün kaynakta yok)",
   yer:"Safi (Asfi), Azemmûr — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
   kisiler:"III. João (Portekiz kralı), Muhammed eş-Şeyh",
-  d:"Agadir'in 12 Mart 1541'de düşmesi ve Fas sultanıyla umulan ittifakın kurulamaması üzerine III. João, Atlas kıyısındaki iki büyük mevziin boşaltılmasını emretti; Safi ve Azemmûr'un tahliyesi 1541 sonbaharında, Eylül-Ekim aylarında tamamlandı. TDV", ic_not_d:"`fas` maddesi aynı zinciri \\\"Portekizliler aynı yıl Azemmûr'u… boşaltmak zorunda kaldılar\\\" diye kaydeder. Böylece tek yılda üç mevzi elden çıktı ve Portekiz'in Fas kıyısındaki elli yıllık yayılması tersine döndü; geriye Sebte, Tanca, Arzila, Kasrüssagīr ve yeni tahkim edilen Mazagan kaldı.",
+  d:"Agadir'in 12 Mart 1541'de düşmesi ve Fas sultanıyla umulan ittifakın kurulamaması üzerine III. João, Atlas kıyısındaki iki büyük mevziin boşaltılmasını emretti; Safi ve Azemmûr'un tahliyesi 1541 sonbaharında, Eylül-Ekim aylarında tamamlandı. Böylece tek yılda üç mevzi elden çıktı ve Portekiz'in Fas kıyısındaki elli yıllık yayılması tersine döndü; geriye Sebte, Tanca, Arzila, Kasrüssagīr ve yeni tahkim edilen Mazagan kaldı.", ic_not_d:"TDV `fas` maddesi aynı zinciri \"Portekizliler aynı yıl Azemmûr'u… boşaltmak zorunda kaldılar\" diye kaydeder.",
   kaynak:"fas", duygu:["😔"] },
 
 // ---------------------------------------------------------------------------
@@ -201,7 +201,7 @@ window.OLAYLAR_EK13 = [
   gun:"1549", ic_not_gun:"(TDV `fas` 1550 der ve Kasrüssagīr ile birlikte anar; gün hiçbirinde yok)",
   yer:"Arzila (Asîlâ) — Fas kuzey kıyısı",
   kisiler:"III. João (Portekiz kralı), Muhammed eş-Şeyh",
-  d:"Malî bunalım ve Sa'dî baskısının birleşmesiyle III. João, 1471'den beri elde tutulan Arzila'yı boşalttı. TDV", ic_not_d:"`fas` maddesi tarihi bir yıl sonraya koyar ve şehri komşusuyla birlikte anar: \\\"Portekizliler… 1550'de de Kasrüssagīr ile Asîlâ'yı boşaltmak zorunda kaldılar\\\"; aynı yıl Fas şehri de Sa'dîler'in eline geçti. Portekiz'in Fas'taki varlığı böylece Sebte, Tanca ve Mazagan'a indi. Arzila 1577'de kısa süre yeniden işgal edilecek, 1589'da kesin olarak bırakılacaktı.",
+  d:"Malî bunalım ve Sa'dî baskısının birleşmesiyle III. João, 1471'den beri elde tutulan Arzila'yı boşalttı. Portekiz'in Fas'taki varlığı böylece Sebte, Tanca ve Mazagan'a indi. Arzila 1577'de kısa süre yeniden işgal edilecek, 1589'da kesin olarak bırakılacaktı.", ic_not_d:"TDV `fas` maddesi tarihi bir yıl sonraya koyar ve şehri komşusuyla birlikte anar: \"Portekizliler… 1550'de de Kasrüssagīr ile Asîlâ'yı boşaltmak zorunda kaldılar\"; aynı yıl Fas şehri de Sa'dîler'in eline geçti.",
   kaynak:"fas", duygu:["😔"], yer_id:"Arzila (Asilah)" },
 
 // ---------------------------------------------------------------------------
@@ -277,7 +277,7 @@ window.OLAYLAR_EK13 = [
   gun:"1559 (gün ve ay hiçbir kaynakta yok)",
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"Mustafa Paşa (Lahsa beylerbeyi)",
-  d:"Basra'nın 1546'da ilhakı ve Lahsa eyaletinin kurulmasıyla körfezin Arap kıyısına yerleşen Osmanlı Devleti, adanın inci ticaretini ve Portekiz'in Hürmüz hattını hedef alarak Lahsa beylerbeyi Mustafa Paşa kumandasında Bahreyn üzerine yürüdü. Seferin sonucu kaynaklarda ayrışır: TDV", ic_not_d:"`bahreyn` maddesi Osmanlılar'ın \\\"1559 yılında Bahreyn'i ele geçirip orada bir üs\\\" kurduğunu, adaların \\\"daha sonra tekrar Portekizliler'in idaresine\\\" geçtiğini yazar; batı literatürü ise kuşatmanın başarısız olduğunu, Hürmüz'den denizden gelen Portekiz takviyesinin Osmanlı kuvvetlerini püskürttüğünü ve her iki tarafı da kıran bir veba salgınının ardından Osmanlılar'ın teslim şartları istediğini kaydeder. İki anlatı sonucun kendisinde ayrılır; ortak olan, Bahreyn'in Osmanlı elinde kalıcı olmadığıdır.",
+  d:"Basra'nın 1546'da ilhakı ve Lahsa eyaletinin kurulmasıyla körfezin Arap kıyısına yerleşen Osmanlı Devleti, adanın inci ticaretini ve Portekiz'in Hürmüz hattını hedef alarak Lahsa beylerbeyi Mustafa Paşa kumandasında Bahreyn üzerine yürüdü. Seferin sonucu kaynaklarda ayrışır: TDV İslâm Ansiklopedisi Osmanlılar'ın \"1559 yılında Bahreyn'i ele geçirip orada bir üs\" kurduğunu, adaların \"daha sonra tekrar Portekizliler'in idaresine\" geçtiğini yazar; batı literatürü ise kuşatmanın başarısız olduğunu, Hürmüz'den denizden gelen Portekiz takviyesinin Osmanlı kuvvetlerini püskürttüğünü ve her iki tarafı da kıran bir veba salgınının ardından Osmanlılar'ın teslim şartları istediğini kaydeder. İki anlatı sonucun kendisinde ayrılır; ortak olan, Bahreyn'in Osmanlı elinde kalıcı olmadığıdır.",
   kaynak:"bahreyn", duygu:["🐎","😔"], yer_id:"Manama (Bahreyn)" },
 
 // ---------------------------------------------------------------------------
@@ -398,7 +398,7 @@ window.OLAYLAR_EK13 = [
   b:"Mardin kalesinin teslimi — Diyarbekir'in güneyinde Safevî direncinin sonu",
   gun:"Mayıs 1517", ic_not_gun:"(TDV `mardin`: şehrin zaptı \\\"1516 sonlarında VEYA Mayıs 1517\\\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \\\"kalesi ancak dokuz ay sonra teslim alındı\\\". Gün hiçbirinde YOK)",
   yer:"Mardin, Diyarbekir", yer_id:"Mardin", kisiler:"Bıyıklı Mehmed Paşa, Kara Han (Safevî valisi)",
-  d:"Çaldıran'dan sonra Diyarbekir bölgesine yürüyen Bıyıklı Mehmed Paşa Mardin'i kuşattığında Safevî kuvvetleri Ekim 1515'te kaleye çekildi; şehir Osmanlı eline geçtiği hâlde kale direndi. Safevî valisi Kara Han'ın takviyeyle karşı taarruza geçmesi Mayıs 1516'daki Koçhisar (Kızıltepe) Savaşı'yla sonuçlandı — Dede Garkın sahrasında bütün gün süren muharebede Kara Han'ın başı kesildi ve ordusu dağıldı. Kale ise TDV'nin ifadesiyle \\\"ancak dokuz ay sonra\\\" teslim oldu; TDV", ic_not_d:"`mardin` maddesi zaptı \\\"1516 sonlarında (veya Mayıs 1517)\\\" diye iki okumayla verir. ⚠️ Bu madde, atlasın Mardin için taşıdığı 1517 Mayıs tarihinin karşılığıdır ve Koçhisar Savaşı maddesinden (1516-05-01) AYRI bir olaydır: biri meydan muharebesi, öteki kalenin teslimi. İkisi bir yıl arayla durur ve ikisi de doğrudur.",
+  d:"Çaldıran'dan sonra Diyarbekir bölgesine yürüyen Bıyıklı Mehmed Paşa Mardin'i kuşattığında Safevî kuvvetleri Ekim 1515'te kaleye çekildi; şehir Osmanlı eline geçtiği hâlde kale direndi. Safevî valisi Kara Han'ın takviyeyle karşı taarruza geçmesi Mayıs 1516'daki Koçhisar (Kızıltepe) Savaşı'yla sonuçlandı — Dede Garkın sahrasında bütün gün süren muharebede Kara Han'ın başı kesildi ve ordusu dağıldı. Kale ise TDV'nin ifadesiyle \"ancak dokuz ay sonra\" teslim oldu.", ic_not_d:"TDV `mardin` maddesi zaptı \"1516 sonlarında (veya Mayıs 1517)\" diye iki okumayla verir. ⚠️ Bu madde, atlasın Mardin için taşıdığı 1517 Mayıs tarihinin karşılığıdır ve Koçhisar Savaşı maddesinden (1516-05-01) AYRI bir olaydır: biri meydan muharebesi, öteki kalenin teslimi. İkisi bir yıl arayla durur ve ikisi de doğrudur.",
   kaynak:"mardin", duygu:["🎉"] },
 
 // ===========================================================================

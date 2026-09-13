@@ -326,7 +326,7 @@ window.OLAYLAR_EK20 = [
   yer:"Königsberg",
   yer_id:"Königsberg",
   kisiler:"I. Friedrich, İmparator I. Leopold",
-  d:"Brandenburg Elektörü III. Friedrich, İmparator I. Leopold'un onayıyla Königsberg'de taç giyerek «Prusya'da Kral» unvanını aldı (18 Ocak 1701). Unvan Doğu Prusya'dan alınmıştı, çünkü orası Kutsal Roma İmparatorluğu'nun dışındaydı ve imparatora bağlı bir elektör ancak imparatorluk sınırları dışında kral olabilirdi. Hohenzollern hânedanının dağınık toprakları bu tarihten sonra tek bir devlet adıyla anılmaya başlandı. Atlasta Königsberg, Memel, Berlin ve Magdeburg bu günden itibaren", ic_not_d:"`prusya` kimliğiyle boyanır.",
+  d:"Brandenburg Elektörü III. Friedrich, İmparator I. Leopold'un onayıyla Königsberg'de taç giyerek «Prusya'da Kral» unvanını aldı (18 Ocak 1701). Unvan Doğu Prusya'dan alınmıştı, çünkü orası Kutsal Roma İmparatorluğu'nun dışındaydı ve imparatora bağlı bir elektör ancak imparatorluk sınırları dışında kral olabilirdi. Hohenzollern hânedanının dağınık toprakları bu tarihten sonra tek bir devlet adıyla anılmaya başlandı.", ic_not_d:"Atlasta Königsberg, Memel, Berlin ve Magdeburg bu günden itibaren `prusya` kimliğiyle boyanır.",
   kaynak:"prusya" },
 
 { t:"1807-07-09",
@@ -347,7 +347,7 @@ window.OLAYLAR_EK20 = [
   etiket:["siyaset","diplomasi","antlasma"],
   yer:"Münster ve Osnabrück",
   kisiler:"III. Ferdinand, Kraliçe Christina, XIV. Louis",
-  d:"Otuzyıl savaşlarını (1618-1648) bitiren antlaşmalar Münster ve Osnabrück'te aynı gün imzalandı (24 Ekim 1648). Kutsal Roma İmparatorluğu'nun üç yüz kadar prensliği kendi dış siyasetini yürütme hakkı kazandı; imparatorluk bir devlet olmaktan çıkıp bir çatıya dönüştü. TDV", ic_not_d:"`almanya` maddesi barışı ve parçalanmayı anlatır («Almanya 300'e yakın devlete bölündü») ama toprak ayrıntısına girmez; aşağıdaki devir standart akademik anlatıya dayanır: İsveç Batı Pomeranya'yı ve Stettin'i aldı, Brandenburg Doğu Pomeranya ile Magdeburg başpiskoposluğunun beklentisini kazandı — Hohenzollern'in 1701'de krallığa yürüyecek toprak birikimi burada başlar. Hollanda ve İsviçre'nin bağımsızlığı resmen tanındı. Osmanlı açısından önemi dolaylı ama büyüktür: Habsburglar batı cephesinden çekilince Orta Avrupa'da yeniden doğuya dönebilecek bir güç doğdu.",
+  d:"Otuzyıl savaşlarını (1618-1648) bitiren antlaşmalar Münster ve Osnabrück'te aynı gün imzalandı (24 Ekim 1648). Kutsal Roma İmparatorluğu'nun üç yüz kadar prensliği kendi dış siyasetini yürütme hakkı kazandı; imparatorluk bir devlet olmaktan çıkıp bir çatıya dönüştü. İsveç Batı Pomeranya'yı ve Stettin'i aldı, Brandenburg Doğu Pomeranya ile Magdeburg başpiskoposluğunun beklentisini kazandı — Hohenzollern'in 1701'de krallığa yürüyecek toprak birikimi burada başlar. Hollanda ve İsviçre'nin bağımsızlığı resmen tanındı. Osmanlı açısından önemi dolaylı ama büyüktür: Habsburglar batı cephesinden çekilince Orta Avrupa'da yeniden doğuya dönebilecek bir güç doğdu.", ic_not_d:"TDV `almanya` maddesi barışı ve parçalanmayı anlatır («Almanya 300'e yakın devlete bölündü») ama toprak ayrıntısına girmez; toprak devri standart akademik anlatıya dayanır.",
   kaynak:"almanya" },
 
 ];

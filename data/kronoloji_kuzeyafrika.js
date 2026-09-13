@@ -215,7 +215,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 
 { t:"1564-01-01", b:"İspanyollar Bâdis'i ele geçirdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip"],
-  d:"İspanya, Akdeniz kıyısındaki Bâdis adasını ele geçirdi. (Bâdis'in TDV'de müstakil maddesi yok; bilgi", ic_not_d:"`sadiler` maddesinden alındı.)",
+  d:"İspanya, Akdeniz kıyısındaki Bâdis adasını ele geçirdi.", ic_not_d:"(Bâdis'in TDV'de müstakil maddesi yok; bilgi `sadiler` maddesinden alındı.)",
   kaynak:"TDV `sadiler`: \"1564'te İspanyolların Bâdis adasını ele geçirmesi\"", yer_id:"Bâdis (Peñón de Vélez)" },
 
 { t:"1576-01-01", b:"Osmanlı desteğiyle Abdülmelik Fas'a girdi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",

@@ -70,7 +70,7 @@ window.OLAYLAR_EK21 = [
   //   inince Değişmez 2s'de AÇIK bir gün KAPANIR, yenisi doğmaz.
   { t:"1509-01-01", k:"siyaset", etiket:["siyaset","savas"],
     b:"Şah İsmâil'in Derbend'i alışı — Safevî hâkimiyeti Kafkas kapısına ulaştı",
-    gun:"1509 (915 h.", ic_not_gun:"; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
+    gun:"1509", ic_not_gun:"(915 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
     yer:"Derbend (Demirkapı) — Dağıstan, Hazar kıyısı", yer_id:"Derbend",
     kisiler:"Şah İsmail",
     d:"Şirvanşah Ferruh Yesâr'ın 1500'de yenilip öldürülmesiyle Bakü ve Şemâhî Safevî eline geçmiş, Derbend ise bir süre daha ayrı kalmıştı. Şah İsmâil 1509'da şehri zaptedip Rumlu oymaklarından birini buraya yerleştirdi; böylece Safevî hâkimiyeti Kafkasya'nın kuzey kapısına, Hazar ile dağlar arasındaki bu dar geçide ulaştı. 1538'de Şirvan'ın doğrudan Safevî idaresine girmesiyle bağ kalıcılaştı. Derbend 1578 seferinde Osmanlı eline geçecek ve 1607'ye kadar yedi sancaklı bir beylerbeyiliğin merkezi olacaktır. TDV'nin kaydı şöyledir: \\\"Safevî Devleti'nin kurulup gelişmesi, Derbend'de yeni bir dönemin başlangıcını teşkil etti. Şah İsmâil 1509'da şehri zaptedip Rumlu oymaklarından birini buraya yerleştirdi. 1538'de Şirvan doğrudan Safevî hâkimiyetine girince...\\\"", ic_not_d:"⚠️ TDV yalnız yılı veriyor, günü vermiyor — kayıt yılın ilkine yazıldı (CLAUDE.md §8).",
@@ -86,7 +86,7 @@ window.OLAYLAR_EK21 = [
   //   kuralına giriyor. Gün DEĞİŞMEDİ — yalnız kendi maddesi yazıldı.
   { t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset"],
     b:"Kars'ın Osmanlı topraklarına kesin katılışı — doğu serhaddinin çivisi",
-    gun:"1537 (944 h.", ic_not_gun:"; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
+    gun:"1537", ic_not_gun:"(944 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
     yer:"Kars", yer_id:"Kars",
     kisiler:"Dulkadırlı Mehmed Han, Kanûnî Sultan Süleyman",
     d:"Akkoyunlu Devleti'nin Safevîler tarafından yıkılmasından sonra Kars bir süre Avşar Türkmenlerinden Sevündük Han Kurçibaşı'nın elinde kalmıştı. Kanûnî'nin Irakeyn Seferi sırasında (940/1534) Pasin, Şüregel ve Oltu kaleleri alınırken Kars Kalesi'nin de Osmanlılara bağlanmış olması kuvvetle muhtemeldir; ancak şehrin kesin katılışı üç yıl sonradır. TDV'nin kaydı şöyledir: \\\"Kars, Osmanlı hizmetine girmiş olan Dulkadırlı Mehmed Han tarafından kesin olarak 944'te (1537) Osmanlı topraklarına dahil edilmiştir.\\\" Uzun mücadeleler yüzünden şehir ve kale büyük ölçüde harap olduğundan hızlı bir tamirata girişildi; 955'te (1548) kale onarılırken Safevîler şehre saldırdı ve kaleyi yeniden tahrip etti. Kars bundan sonra üç yüz kırk yıl boyunca Osmanlı'nın kuzeydoğu serhaddinin kilidi olarak kalacak, 1877-78 savaşının ardından Rusya'ya bırakılacaktır.", ic_not_d:"⚠️ TDV yalnız yılı veriyor, günü vermiyor — kayıt yılın ilkine yazıldı (CLAUDE.md §8).",

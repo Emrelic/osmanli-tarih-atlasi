@@ -19,6 +19,6 @@ window.OLAYLAR_P0037 = [
 { t:"1689-10-01", kesinlik:"ay", k:"kayip", etiket:["toprak-kayip"],
   b:"Vidin'in Avusturya'ya düşüşü — Ekim 1689",
   gun:"Ekim 1689", yer:"Vidin", yer_id:"Vidin", kisiler:"Ludwig von Baden",
-  d:"Niş'in 24 Eylül'de düşmesinden sonra Baden Markgrafı Ludwig Tuna boyunca ilerledi ve Vidin'i Fethülislâm ve Florentin kaleleriyle birlikte savaşmadan teslim aldı. Kale bir yıl geçmeden, Köprülüzâde Fâzıl Mustafa Paşa'nın 1690 karşı taarruzunda Karaman mutasarrıfı Dursun Mehmed Paşa'nın kara ordusu ile Mezemorta Hüseyin Paşa'nın Tuna donanması tarafından geri alındı. TDV", ic_not_d:"`vidin`: \\\"1689 Ekiminde hıristiyan birliğiyle yapılan savaşlarda Margrave Ludwig von Baden, Fethülislâm ve Florentin ile birlikte Vidin'i savaşmadan ele geçirdi.\\\"",
+  d:"Niş'in 24 Eylül'de düşmesinden sonra Baden Markgrafı Ludwig Tuna boyunca ilerledi ve Vidin'i Fethülislâm ve Florentin kaleleriyle birlikte savaşmadan teslim aldı. Kale bir yıl geçmeden, Köprülüzâde Fâzıl Mustafa Paşa'nın 1690 karşı taarruzunda Karaman mutasarrıfı Dursun Mehmed Paşa'nın kara ordusu ile Mezemorta Hüseyin Paşa'nın Tuna donanması tarafından geri alındı.", ic_not_d:"TDV `vidin`: \\\"1689 Ekiminde hıristiyan birliğiyle yapılan savaşlarda Margrave Ludwig von Baden, Fethülislâm ve Florentin ile birlikte Vidin'i savaşmadan ele geçirdi.\\\"",
   kaynak:"vidin", duygu:["😔"] }
 ];

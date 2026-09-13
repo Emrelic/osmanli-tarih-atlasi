@@ -356,7 +356,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { t:"1303-08-01", b:"Gāzân Han'ın toprak tahriri ve iktâ dağıtımı", tur:"reform",
   onem:4, dunya:2, kapsam:"ic", etiket:["reform","idari","toprak","mali"],
   yer_id:"", kapsam_genis:true,
-  d:"Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır. İmparatorluk çapında olduğu için", ic_not_d:"`yer_id` boştur.",
+  d:"Gāzân Han önce ülkedeki toprakların genel bir tahririni yaptırdı: vilâyetlere gönderilen yazıcılar köy köy dolaşıp 'defâtîr-i kanûn' adı verilen defterlere bütün özel mülk, incü ve vakıf arazilerini kaydettiler. Ardından 703 yılı başlarında (Ağustos 1303) askerî güzergâhlarla yaylak-kışlak yolları üzerindeki araziler Moğol askerlerine iktâ olarak dağıtıldı. Bu, İran'da toprağın merkezî bir defterle kayda geçirilmesinin ilk büyük örneğidir; ancak uygulama Gāzân'ın ölümünden sonra bütün ülkeye yaygınlaştırılamamıştır.", ic_not_d:"İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"incu" },
 
 { t:"1300-01-01", b:"Gāzân Han'ın vergi ve posta reformu — menzilhâneler", tur:"reform",
@@ -579,7 +579,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { t:"1344-01-01", b:"Nûşirevân son kukla ilhan olarak tahta çıkarıldı", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","siyaset"],
   yer_id:"Tebriz",
-  d:"Hasan-ı Kûçek'in tayin ettiği ilhanlar zincirinin sonuncusu olan Nûşirevân, 745 (1344) yılında tahta çıkarıldı ve adına 754'e (1353) kadar hutbe okundu. Hülâgû'nun kurduğu devletin resmî ömrü bu adın sikkelerden düşmesiyle biter", ic_not_d:"`devletler.js` künyesinin `t:1353-01-01` tarihi tam olarak buna dayanır.",
+  d:"Hasan-ı Kûçek'in tayin ettiği ilhanlar zincirinin sonuncusu olan Nûşirevân, 745 (1344) yılında tahta çıkarıldı ve adına 754'e (1353) kadar hutbe okundu.", ic_not_d:"Hülâgû'nun kurduğu devletin resmî ömrü bu adın sikkelerden düşmesiyle biter: `devletler.js` künyesinin `t:1353-01-01` tarihi tam olarak buna dayanır.",
   kaynak:"ilhanlilar" },
 
 { t:"1347-01-01", b:"Kara Ölüm İran'a ulaştı — Tebriz ve Bağdat'ta veba", tur:"salgin",
@@ -597,7 +597,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { t:"1355-01-01", b:"Melik Eşref dönemi kapandı — Çobanlıların Azerbaycan hâkimiyeti sona erdi", tur:"son",
   onem:5, dunya:2, kapsam:"dis", etiket:["son","hanedan","toprak-kayip"],
   yer_id:"Tebriz",
-  d:"Hasan-ı Kûçek'in kardeşi Melik Eşref'in 1343'te başlayan Azerbaycan hâkimiyeti 1355'te sona erdi; Çobanlılar'ın on yedi yıllık Tebriz idaresi böylece kapandı. TDV", ic_not_d:"`tebriz` maddesi şehrin el değiştirme sırasını doğrudan veriyor: 'İlhanlılar'ın ardından Çobanlı, Altın Orda, Muzafferîler ve Celâyirliler'in hâkimiyetine girdi.' ⚠️ Melik Eşref'in sonu için TDV `hasan-i-buzurg` maddesi 1355'i veriyor; Altın Orda Hanı Cânî Beg'in Tebriz'e girişi için ayrı bir gün ARANMADI, bu dosyanın kapsamı dışındadır.",
+  d:"Hasan-ı Kûçek'in kardeşi Melik Eşref'in 1343'te başlayan Azerbaycan hâkimiyeti 1355'te sona erdi; Çobanlılar'ın on yedi yıllık Tebriz idaresi böylece kapandı.", ic_not_d:"TDV `tebriz` maddesi şehrin el değiştirme sırasını doğrudan veriyor: 'İlhanlılar'ın ardından Çobanlı, Altın Orda, Muzafferîler ve Celâyirliler'in hâkimiyetine girdi.' ⚠️ Melik Eşref'in sonu için TDV `hasan-i-buzurg` maddesi 1355'i veriyor; Altın Orda Hanı Cânî Beg'in Tebriz'e girişi için ayrı bir gün ARANMADI, bu dosyanın kapsamı dışındadır.",
   kaynak:"hasan-i-buzurg" },
 
 // ═════════════════════════════════════════════════════════════════════

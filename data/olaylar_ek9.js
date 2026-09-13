@@ -245,7 +245,7 @@ window.OLAYLAR_EK9 = [
 { t:"1882-09-13", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması",
   gun:"13 Eylül 1882", yer:"Tellülkebîr, Şarkıyye", kisiler:"Ahmed Urâbî Paşa, General Garnet Wolseley",
-  d:"Wolseley kuvvetlerini Süveyş Kanalı üzerinden İsmâiliye'ye çıkarıp çölden yürüterek 13 Eylül 1882 şafağında Tel el-Kebîr'deki Mısır siperlerine baskın yaptı; muharebe bir saatte bitti. Urâbî ertesi gün teslim oldu ve İngiliz süvarisi aynı gün Kahire'ye girdi. Bu tarihten sonra Mısır'ın malî, askerî ve dış işleri fiilen İngiliz denetimine geçti; Osmanlı hükümranlığı ise hukuken 1914'e kadar sürdü. Atlasta bu ikilik", ic_not_d:"`isg:` işgal örtüsüyle gösterilir: taban rengi tâbi Mısır, üstündeki tarama İngiliz denetimi.",
+  d:"Wolseley kuvvetlerini Süveyş Kanalı üzerinden İsmâiliye'ye çıkarıp çölden yürüterek 13 Eylül 1882 şafağında Tel el-Kebîr'deki Mısır siperlerine baskın yaptı; muharebe bir saatte bitti. Urâbî ertesi gün teslim oldu ve İngiliz süvarisi aynı gün Kahire'ye girdi. Bu tarihten sonra Mısır'ın malî, askerî ve dış işleri fiilen İngiliz denetimine geçti; Osmanlı hükümranlığı ise hukuken 1914'e kadar sürdü.", ic_not_d:"Atlasta bu ikilik `isg:` işgal örtüsüyle gösterilir: taban rengi tâbi Mısır, üstündeki tarama İngiliz denetimi.",
   kaynak:"urabi-pasa", duygu:["😔"], yer_kon:[30.5636,31.9928] },
 
 // ---------------------------------------------------------------------------

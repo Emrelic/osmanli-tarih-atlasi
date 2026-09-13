@@ -696,7 +696,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1809-05-17", b:"Papalık topraklarının Fransa'ya ilhakı", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","din"],
-  d:"Napolyon, Kıta Ablukası'na direnen Papa VII. Pius'un topraklarını imparatorluğa ilhak etti; Papa'yı aforoz etmesi üzerine Fransız kuvvetleri onu tutuklayıp 1814'e kadar hapsetti. Olay", ic_not_d:"`data/devletler.js`teki Papalık Devleti kaydında zaten işlenmiştir; bu maddede Fransa cephesinden özetlenir.",
+  d:"Napolyon, Kıta Ablukası'na direnen Papa VII. Pius'un topraklarını imparatorluğa ilhak etti; Papa'yı aforoz etmesi üzerine Fransız kuvvetleri onu tutuklayıp 1814'e kadar hapsetti.", ic_not_d:"Olay, `data/devletler.js`teki Papalık Devleti kaydında zaten işlenmiştir; bu maddede Fransa cephesinden özetlenir.",
   kaynak:"data/devletler.js (Papalık Devleti kaydı) — Ambrogio Caiani, 'To Kidnap a Pope' (Yale UP, 2021)", yer_id:"Viyana" },
 
 { t:"1812-06-24", b:"Napolyon'un Rusya Seferi'nin başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Moskova",
@@ -881,7 +881,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1881-05-12", b:"Bardo Antlaşması — Tunus'un Fransız himayesine girmesi", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
   etiket:["antlasma","toprak-kazanc","isgal"],
-  d:"Fransa, sınır çatışmasını bahane ederek Tunus'u işgal edip Bey'i bir himaye antlaşması imzalamaya zorladı", ic_not_d:"`data/devletler.js`teki fransa-cumhuriyet kaydı bu olayı zaten işliyordu. Tunus'un fiilî Osmanlı-tâbi statüsünün sona ermesi, Kuzey Afrika'da Osmanlı nüfuzunun geri çekilişinin bir başka halkasıydı.",
+  d:"Fransa, sınır çatışmasını bahane ederek Tunus'u işgal edip Bey'i bir himaye antlaşması imzalamaya zorladı. Tunus'un fiilî Osmanlı-tâbi statüsünün sona ermesi, Kuzey Afrika'da Osmanlı nüfuzunun geri çekilişinin bir başka halkasıydı.", ic_not_d:"`data/devletler.js`teki fransa-cumhuriyet kaydı bu olayı zaten işliyordu.",
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) — standart ders kitabı bilgisiyle çapraz doğrulandı" },
 
 { t:"1885-07-06", b:"Pasteur'ün ilk kuduz aşısı uygulaması", tur:"bilim", onem:4, dunya:4, kapsam:"ic", yer_id:"Paris",

@@ -52,10 +52,15 @@ sonraki durumdan türetilir).
         Sonra `renk_olc.py` (§9: veriye dokunan her koşudan sonra).
 
 ## 5 · Kronoloji (donuk DEĞİL — koşu sürerken de inebilir)
-- [ ] İÇ NOT yamasının kalanı: KITA 14'ün 4 dosyası (olaylar_ek7 · ek2 · ek15 ·
-      kronoloji_ingiltere) serbest kalınca `py arac/ic_not_uygula.py
-      denetim/YAMA-IC-NOT-0913.json --uygula`; olaylar_ek8 (6) ve olaylar_kamerika
-      (3) metin değiştiği için YENİDEN TARANMALI (KITA 25 M-3752)
+- [ ] İÇ NOT yamasının kalanı: KITA 14'ün dosyaları (olaylar_ek5 · ek7 · ek8 ·
+      ek15 · p0044) serbest kalınca İKİ ADIM, sırayla:
+      `py arac/ic_not_uygula.py denetim/YAMA-IC-NOT-0913.json --uygula --haric <hâlâ meşgul>`
+      `py arac/ic_not_duzelt.py denetim/YAMA-IC-NOT-0913.json --uygula --haric <aynı>`
+      🔴 ikinci adım ŞART: yamanın bölme noktası cümle ortasına düşebiliyor
+      (13 Eylül: 409 kaydın 121'i yarım kalmıştı). ELLE listesi çıkarsa okur
+      cümlesi nota kaymış olabilir — gözle oku.
+      olaylar_ek8 (6) ve olaylar_kamerika (3) metin değiştiği için YENİDEN TARANMALI
+      (KITA 25 M-3752)
 - [ ] `denetim/YAMA-YER-ID-0913.json` 36 öneri — KITA 14'te (M-3747)
 
 ## 6 · Koşu 11 motor gündemi (Opus gerekir)

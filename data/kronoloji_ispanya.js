@@ -106,7 +106,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1469-10-19", b:"İsabel ile Fernando'nun evliliği — iki taç aynı hanedanda birleşti", tur:"hanedan", onem:5, dunya:3, kapsam:"ic", yer_id:"Valladolid",
   etiket:["hanedan","antlasma"],
-  d:"Kastilya prensesi İsabel, Aragon veliahdı Fernando ile Valladolid'de gizlice evlendi; evlilik izinsiz yapıldığı için önce tartışmalıydı, ama on yıl içinde iki tacın fiilen tek hanedanda birleşmesinin temeli oldu. Bu tarih hem", ic_not_d:"`kastilya` hem `aragon` hem `ispanya` künyelerinin `devletler.js`teki dönüm noktası olarak zaten kayıtlıydı.",
+  d:"Kastilya prensesi İsabel, Aragon veliahdı Fernando ile Valladolid'de gizlice evlendi; evlilik izinsiz yapıldığı için önce tartışmalıydı, ama on yıl içinde iki tacın fiilen tek hanedanda birleşmesinin temeli oldu.", ic_not_d:"Bu tarih hem `kastilya` hem `aragon` hem `ispanya` künyelerinin `devletler.js`teki dönüm noktası olarak zaten kayıtlıydı.",
   kaynak:"standart akademik kaynak (Elliott, Imperial Spain 1469-1716, 1. bölüm)" },
 
 { t:"1474-12-13", b:"İsabel, Kastilya kraliçesi ilan edildi", tur:"hanedan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
@@ -126,7 +126,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1492-01-02", b:"Gırnata'nın düşüşü — Endülüs'te sekiz asırlık İslâm hâkimiyeti sona erdi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Granada",
   etiket:["askeri","toprak-kazanc","din"],
-  d:"On yıllık kuşatma savaşının ardından son Nasrî emiri Ebû Abdullah (Boabdil), Gırnata'yı Katolik krallara teslim etti. TDV", ic_not_d:"`endulus` maddesi bunu \\\"İslâm hâkimiyetinin Endülüs'teki en son kalesi de düşmüş oldu\\\" diye özetler; Osmanlı donanması (Kemal Reis) sonraki yıllarda kaçan müslümanları Kuzey Afrika'ya taşıdı.",
+  d:"On yıllık kuşatma savaşının ardından son Nasrî emiri Ebû Abdullah (Boabdil), Gırnata'yı Katolik krallara teslim etti.", ic_not_d:"TDV `endulus` maddesi bunu \\\"İslâm hâkimiyetinin Endülüs'teki en son kalesi de düşmüş oldu\\\" diye özetler; Osmanlı donanması (Kemal Reis) sonraki yıllarda kaçan müslümanları Kuzey Afrika'ya taşıdı.",
   kaynak:"TDV `endulus`: \"1492'de teslim olmak zorunda kaldılar\" (gövdesi bu oturumda OKUNDU) · `data/devletler.js` `granada` künyesi" },
 
 { t:"1492-03-31", b:"Alhambra Fermanı — Yahudilerin sürgünü", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
@@ -161,7 +161,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1499-01-01", b:"Alcalá de Henares Üniversitesi'nin kuruluşu", tur:"bilim", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["bilim","kultur"],
-  d:"Kardinal Cisneros'un girişimiyle kurulan üniversite, kısa sürede Salamanca'nın yanında İspanya'nın ikinci büyük bilim merkezi hâline geldi; Complutensian Politgot İncil projesinin de merkeziydi. Alcalá'daki yerleşim kaydı bulunmadığından", ic_not_d:"`yer_id` boş bırakıldı.",
+  d:"Kardinal Cisneros'un girişimiyle kurulan üniversite, kısa sürede Salamanca'nın yanında İspanya'nın ikinci büyük bilim merkezi hâline geldi; Complutensian Politgot İncil projesinin de merkeziydi.", ic_not_d:"Alcalá'daki yerleşim kaydı bulunmadığından `yer_id` boş bırakıldı.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[40.4818,-3.3635] },
 
 { t:"1499-01-01", b:"Fernando de Rojas'ın La Celestina'sının yayımlanması", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"",
@@ -327,7 +327,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1565-05-18", b:"Malta Kuşatması başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma"],
-  d:"Osmanlı donanması, Malta Şövalyeleri'nin adasını kuşattı; İspanya kralı II. Felipe'nin egemenliği altındaki Sicilya Krallığı, kuşatma boyunca şövalyelere destek ve erzak sağladı. TDV", ic_not_d:"`malta-kusatmasi` maddesi ölçülmüş ve zayıf/erişilemez çıktığından bu madde standart akademik kaynağa dayanıyor.",
+  d:"Osmanlı donanması, Malta Şövalyeleri'nin adasını kuşattı; İspanya kralı II. Felipe'nin egemenliği altındaki Sicilya Krallığı, kuşatma boyunca şövalyelere destek ve erzak sağladı.", ic_not_d:"TDV `malta-kusatmasi` maddesi ölçülmüş ve zayıf/erişilemez çıktığından bu madde standart akademik kaynağa dayanıyor.",
   kaynak:"bulunamadı (TDV `malta-kusatmasi` slug'ı ölçüldü, madde gövdesi alınamadı) — standart akademik kaynak (Kamen)" },
 
 { t:"1565-09-07", b:"İspanyol \"Büyük Yardım\" filosu kuşatmayı kırdı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",

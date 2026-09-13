@@ -101,7 +101,7 @@ window.OLAYLAR_OK109 = [
     gun: "31 Ekim 1918",
     yer: "Budapeşte",
     kisiler: "Kont Mihály Károlyi",
-    d:"Merkezî devletlerin yenilgisi anlaşılınca Macaristan'da monarşi karşıtı duygular güçlendi ve sola bir kayış yaşandı. 31 Ekim 1918'de \\\"pat çiçeği devrimi\\\" sonunda radikal görüşlü Kont Mihály Károlyi başbakan oldu, ardından halk cumhuriyeti ilân edildi; Károlyi 11 Ocak 1919'da aslî cumhurbaşkanı seçildi. Kısa ömürlü komün ve Romanya işgalinin ardından 1 Mart 1920'de Miklós Horthy kral nâibliğine getirildi — atlastaki", ic_not_d:"`macaristan-naiplik` kimliği bu düzeni gösterir.",
+    d:"Merkezî devletlerin yenilgisi anlaşılınca Macaristan'da monarşi karşıtı duygular güçlendi ve sola bir kayış yaşandı. 31 Ekim 1918'de \\\"pat çiçeği devrimi\\\" sonunda radikal görüşlü Kont Mihály Károlyi başbakan oldu, ardından halk cumhuriyeti ilân edildi; Károlyi 11 Ocak 1919'da aslî cumhurbaşkanı seçildi.", ic_not_d:"Kısa ömürlü komün ve Romanya işgalinin ardından 1 Mart 1920'de Miklós Horthy kral nâibliğine getirildi — atlastaki `macaristan-naiplik` kimliği bu düzeni gösterir.",
     kaynak: "macaristan"
   },
 
