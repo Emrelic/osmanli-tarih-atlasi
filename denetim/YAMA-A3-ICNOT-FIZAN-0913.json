@@ -1,0 +1,26 @@
+{
+  "baslik": "PAKET-A3 · 0046/H-0001 — YAMA-IC-NOT-0913.json'dan YALNIZ Fizan (olaylar_ek8.js t:1577-01-01) iki kaydı. ek8 metni ile yeniden eşlendi: iki eski_metin dosyada birebir duruyor (13 Eylül 2026, PAKET-A3 ölçtü).",
+  "kaynak_yama": "denetim/YAMA-IC-NOT-0913.json",
+  "kayitlar": [
+    {
+      "dosya": "data\\olaylar_ek8.js",
+      "t": "1577-01-01",
+      "alan": "gun",
+      "kova": "karisik",
+      "eski_metin": "1577 — atlas verisindeki kırılma günü; TDV asıl olayı 1551'e bağlıyor",
+      "yeni_metin": "1577",
+      "tasinan_not": "atlas verisindeki kırılma günü; TDV asıl olayı 1551'e bağlıyor",
+      "gerekce": "H-0001 (paket 0046) — gun alanı ekrana basılıyor, TDV/atlas tarih çelişkisi süreç notu."
+    },
+    {
+      "dosya": "data\\olaylar_ek8.js",
+      "t": "1577-01-01",
+      "alan": "d",
+      "kova": "karisik",
+      "eski_metin": "Trablusgarp beylerbeyiliğinin baskısı sonucunda Sahra'nın kervan kavşağı Fizan, merkezi Murzuk olmak üzere Osmanlı tâbiiyetini kabul etti. TDV İslâm Ansiklopedisi'nin Fizan maddesine göre bölgeyi yöneten Evlâd-ı Muhammed hanedanı, düzenli vergi ödemek şartıyla iç işlerinde serbest bırakıldı; Fizan, 1551'de alınan Trablus eyaletine bağlı bir sancak olarak teşkilâtlandırıldı. Böylece Trablus-Murzuk-Bornu hattındaki köle, altın ve deve ticareti Osmanlı denetimine girdi. Bu dolaylı idare 1711'de Karamanlılar'ın, 1842'de ise doğrudan kaza teşkilâtının eline geçecekti. ⚠️ TDV BU SÜRECİ 1551'E BAĞLAR, 1577'YE DEĞİL. Atlas verisinde bu 12 yerleşimin `hafsi` (Tunus Hafsî Devleti) dönemi 1577-01-01'e kadar sürüyor ve bu tarihte Osmanlı tâbiiyetine geçiyor — ama Hafsî Devleti'nin kendisi 1574-09-13'te sona erdi (`oturumlar/NOKTA-HALKA2-3.md`'nin önceki tespiti: 2,3 yıllık bir 'hayalet', çözülmemiş bilinen borç). Bu madde o iç tarihe DOĞRU İÇERİĞİ bağlıyor; tarihin kendisinin 1551'e çekilip çekilmeyeceği ayrı bir karardır, VERİ SAHİPLİK'e devredilmiştir.",
+      "yeni_metin": "Trablusgarp beylerbeyiliğinin baskısı sonucunda Sahra'nın kervan kavşağı Fizan, merkezi Murzuk olmak üzere Osmanlı tâbiiyetini kabul etti. TDV İslâm Ansiklopedisi'nin Fizan maddesine göre bölgeyi yöneten Evlâd-ı Muhammed hanedanı, düzenli vergi ödemek şartıyla iç işlerinde serbest bırakıldı; Fizan, 1551'de alınan Trablus eyaletine bağlı bir sancak olarak teşkilâtlandırıldı. Böylece Trablus-Murzuk-Bornu hattındaki köle, altın ve deve ticareti Osmanlı denetimine girdi. Bu dolaylı idare 1711'de Karamanlılar'ın, 1842'de ise doğrudan kaza teşkilâtının eline geçecekti.",
+      "tasinan_not": "⚠️ TDV BU SÜRECİ 1551'E BAĞLAR, 1577'YE DEĞİL. Atlas verisinde bu 12 yerleşimin `hafsi` (Tunus Hafsî Devleti) dönemi 1577-01-01'e kadar sürüyor ve bu tarihte Osmanlı tâbiiyetine geçiyor — ama Hafsî Devleti'nin kendisi 1574-09-13'te sona erdi (`oturumlar/NOKTA-HALKA2-3.md`'nin önceki tespiti: 2,3 yıllık bir 'hayalet', çözülmemiş bilinen borç). Bu madde o iç tarihe DOĞRU İÇERİĞİ bağlıyor; tarihin kendisinin 1551'e çekilip çekilmeyeceği ayrı bir karardır, VERİ SAHİPLİK'e devredilmiştir.",
+      "gerekce": "Otomatik ayırma cümle sınırında (\"geçecekti.\" + \"⚠️\") — ic_not_duzelt ölçütüne göre tam cümle, okur metni yarım kalmıyor."
+    }
+  ]
+}

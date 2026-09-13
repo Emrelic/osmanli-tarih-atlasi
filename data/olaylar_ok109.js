@@ -77,7 +77,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-10-28", k: "kurulus", etiket: ["siyaset"],
-    b: "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet",
+    b: "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet", kapsam_genis:true,
     gun: "28 Ekim 1918",
     yer: "Prag, Bratislava, Kassa (Košice)",
     kisiler: "Tomáš Masaryk",
@@ -87,7 +87,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-10-30", k: "kurulus", etiket: ["siyaset"],
-    b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği",
+    b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği", kapsam_genis:true,
     gun: "30 Ekim 1918",
     yer: "Viyana, Graz",
     kisiler: "İmparator Karl",
@@ -107,7 +107,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-11-03", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
-    b: "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti",
+    b: "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti", kapsam_genis:true,
     gun: "3 Kasım 1918",
     yer: "Padova (Villa Giusti), Trento, Trieste",
     kisiler: "İmparator Karl",
@@ -117,7 +117,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-11-11", k: "siyaset", etiket: ["siyaset", "toprak-kaybi"],
-    b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor",
+    b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor", kapsam_genis:true,
     gun: "11 Kasım 1918",
     yer: "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
     kisiler: "İmparator Karl",
@@ -137,7 +137,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-12-01", k: "kurulus", etiket: ["siyaset", "toprak-kazanc"],
-    b: "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet",
+    b: "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet", kapsam_genis:true,
     gun: "1 Aralık 1918",
     yer: "Belgrad, Zagreb, Saraybosna, Erdel, Suçava, Çernovitz",
     kisiler: "Karadordević hânedanı, I. Ferdinand",
@@ -147,7 +147,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-09-10", k: "antlasma", etiket: ["antlasma"],
-    b: "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti",
+    b: "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti", kapsam_genis:true,
     gun: "10 Eylül 1919",
     yer: "Saint-Germain-en-Laye, Viyana",
     kisiler: "—",
@@ -157,7 +157,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
-    b: "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti",
+    b: "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti", kapsam_genis:true,
     gun: "4 Haziran 1920",
     yer: "Trianon (Versailles), Budapeşte",
     kisiler: "Miklós Horthy",
@@ -207,7 +207,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
-    b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü",
+    b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü", kapsam_genis:true,
     gun: "28 Haziran 1919",
     yer: "Versailles, Strazburg, Metz, Colmar, Mulhouse",
     kisiler: "—",
@@ -217,7 +217,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
-    b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+    b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti", kapsam_genis:true,
     gun: "27 Kasım 1919",
     yer: "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
     kisiler: "Çar Ferdinand, Boris",

@@ -39,6 +39,8 @@
 //   Uc ayri yanlis-pozitif sinifi, ucu de AYNI KOKTEN — kelime KONUYU degil
 //   baska bir seyi isaret ediyor: ① OZEL AD ② OLAY ③ YER OLARAK LIMAN.
 //   `imar_elenen` AYRI KOVA: eleme kovasi uc kez kendi icinde tarandi.
+// ── PAKET-A5 (13 Eylül 2026): 'konu26' (0035/H-0066 · Emre'nin 26 başlığı) ve 'afet'
+//    (0035/H-0034) bölümleri eklendi — üretici denetim/ARAC-A5-ETIKET-0913.py. ÖNERİ, veri değil.
 window.ETIKET_YAMA = {
  "semsiye_tablosu": [
   {
@@ -5853,5 +5855,1398 @@ window.ETIKET_YAMA = {
    }
   ],
   "artik_hata": "Son 17 kaydin 2'si (Fort Manoel'in adanin imari · Fonte Gaia anitsal cesmesi) HALA gercek imar gorunuyor ⇒ artik yanlis-negatif ~%12. Daha fazla gecis KAZANC AZALTIYOR; sayiyi gizlemek yerine BILDIRIYORUM."
+ },
+ "konu26": {
+  "kaynak": "0035/H-0066 · Emre'nin listesi (26 başlık — sayfada '25' deniyor, liste 26 satır) · PAKET-A5 13 Eylül 2026",
+  "kural": "Bir madde bir başlığa girer ⇔ k ∪ tur ∪ etiket değerlerinden biri başlığın deger_kumesi'nde VEYA başlık (b) baslik_deseni'ne uyuyor. Gövde (d) kullanılmaz. Çok başlık serbest (Emre: 'bir madde hem bilim teknoloji hem askeri olabilir'). vefat_id taşıyan madde Kişiler'e girer. Afet başlığı 'afet' bölümündeki kurala bağlı.",
+  "uretici": "denetim/ARAC-A5-ETIKET-0913.py",
+  "evren": "data/olaylar*.js + data/kronoloji*.js · 6210 madde (çekirdek 1372 · kuyruk 4838)",
+  "olcum": {
+   "en_az_bir_baslik": 6200,
+   "basliksiz": 10,
+   "basliksiz_kova": {
+    "kuyruk": 4,
+    "cekirdek": 6
+   },
+   "ortalama_baslik": 1.9,
+   "birden_cok": 3884,
+   "basliksiz_ornek": [
+    "1628-08-10|Vasa gemisi ilk seferinde battı",
+    "1714-10-11|XII. Karl, Osmanlı topraklarından ayrılıp Avrupa'ya döndü",
+    "1896-05-30|Hodınka faciası",
+    "1722-07-01|İsfahan kuşatması sırasında büyük açlık",
+    "1919-05|Mustafa Kemal Samsun'da — Millî Mücadele",
+    "1526-09-01|Mohaç sonrası Budin'in teslimi — Macar tahtına iki kral",
+    "1395-08-01|Anadolu Hisarı'nın yapımı",
+    "1423-09-14|Selanik'in Venedik'e devri",
+    "1452-08-31|Rumeli Hisarı tamamlandı — 'Boğazkesen'",
+    "1453-04-22|Gemiler karadan Haliç'e indirildi"
+   ]
+  },
+  "tablo": [
+   {
+    "id": "askeri",
+    "ad": "Askerî",
+    "madde": 2730,
+    "yalniz": 1424,
+    "deger_kumesi": [
+     "akin",
+     "asker",
+     "askeri",
+     "deniz",
+     "denizcilik",
+     "donanma",
+     "fetih",
+     "hacli",
+     "ic-savas",
+     "isgal",
+     "kayip",
+     "kazanc",
+     "kurtulus",
+     "kusatma",
+     "savas",
+     "savas-ilani",
+     "savunma",
+     "sefer",
+     "serhat",
+     "tahkimat",
+     "toprak",
+     "toprak-kaybi",
+     "toprak-kayip",
+     "toprak-kazanc",
+     "yagma",
+     "yenilgi",
+     "zafer"
+    ],
+    "baslik_deseni": null
+   },
+   {
+    "id": "siyasi",
+    "ad": "Siyasî",
+    "madde": 1815,
+    "yalniz": 216,
+    "deger_kumesi": [
+     "bagimsizlik",
+     "birlesme",
+     "bolunme",
+     "devlet-bolunmesi",
+     "devlet-kurulus",
+     "devlet-sonu",
+     "devrim",
+     "donum-noktasi",
+     "ilhak",
+     "itaat",
+     "koloni",
+     "kolonizasyon",
+     "kolonyalizm",
+     "kriz",
+     "kurulus",
+     "milliyetcilik",
+     "siyaset",
+     "siyasi",
+     "somurge",
+     "son",
+     "sömürgecilik",
+     "tabiiyet",
+     "vassal",
+     "yikilis"
+    ],
+    "baslik_deseni": null
+   },
+   {
+    "id": "idari",
+    "ad": "İdarî",
+    "madde": 517,
+    "yalniz": 49,
+    "deger_kumesi": [
+     "baskent",
+     "başkent",
+     "eyalet",
+     "idari",
+     "idari merkez",
+     "ikta",
+     "sinir",
+     "sınır"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(eyalet|sancağı|beylerbeyiliği|vilâyet|kaza teşkilât)"
+   },
+   {
+    "id": "diplomasi",
+    "ad": "Diplomasi ve uluslararası ilişkiler",
+    "madde": 1030,
+    "yalniz": 257,
+    "deger_kumesi": [
+     "antlasma",
+     "antlaşma",
+     "aracilik",
+     "baris",
+     "barış",
+     "diplomasi",
+     "dis-iliskiler",
+     "haraç",
+     "himaye",
+     "ittifak",
+     "milletler-cemiyeti",
+     "osmanli-temasi",
+     "ticaret antlaşması"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(elçi|sefaret|konferans|kongre)"
+   },
+   {
+    "id": "kisiler",
+    "ad": "Kişiler",
+    "madde": 541,
+    "yalniz": 1,
+    "deger_kumesi": [
+     "dogum",
+     "esaret",
+     "idam",
+     "kisi",
+     "olum",
+     "suikast",
+     "vefat",
+     "ölüm"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(vefatı|ölümü|doğumu|doğdu|öldü|öldürüldü|idamı|idam edildi|hayatı)"
+   },
+   {
+    "id": "isyan",
+    "ad": "İç ayaklanma ve isyanlar",
+    "madde": 447,
+    "yalniz": 33,
+    "deger_kumesi": [
+     "ayaklanma",
+     "direnis",
+     "direniş",
+     "hizip",
+     "ic-karisiklik",
+     "ic-savas",
+     "isyan",
+     "isyan sonu"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(isyan|ayaklanma|ihtilâl|ihtilal)"
+   },
+   {
+    "id": "darbe",
+    "ad": "Darbeler",
+    "madde": 84,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "darbe",
+     "darbe-askeri",
+     "darbe-siyasi"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(darbe|hal'i|hal’i|tahttan indiril)"
+   },
+   {
+    "id": "burokrasi",
+    "ad": "Bürokrasi",
+    "madde": 36,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "kurum",
+     "sadrazam"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(sadrazam|vezîriâzam|sadâret|şeyhülislâm|defterdar|reîsülküttâb|nişancı|kaptan-ı derya|divan-ı hümâyun|nezâret|nazırlığ)"
+   },
+   {
+    "id": "hanedan",
+    "ad": "Hânedan",
+    "madde": 898,
+    "yalniz": 93,
+    "deger_kumesi": [
+     "culus",
+     "cülus",
+     "evlilik",
+     "hanedan",
+     "hanedan-degisimi",
+     "hukumdar",
+     "hükümdar değişimi",
+     "müşterek saltanat",
+     "saray",
+     "taht",
+     "taht-degisikligi",
+     "taht-kavgasi",
+     "tahta çıkış",
+     "taç",
+     "veraset"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(tahta çık|cülûs|hânedan|hanedan|şehzade|padişah)"
+   },
+   {
+    "id": "bilim",
+    "ad": "Bilim teknoloji",
+    "madde": 353,
+    "yalniz": 40,
+    "deger_kumesi": [
+     "astronomi",
+     "bakteriyoloji",
+     "bilim",
+     "hastane",
+     "ilim",
+     "matbaa",
+     "mekanik",
+     "muhendislik",
+     "otomat",
+     "saglik",
+     "teknoloji",
+     "tip",
+     "tıp",
+     "tıp eseri"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(rasathane|matbaa|hastane|tıp|astronom|bilim)"
+   },
+   {
+    "id": "ekonomi",
+    "ad": "Ekonomi",
+    "madde": 513,
+    "yalniz": 58,
+    "deger_kumesi": [
+     "Karadeniz ticareti",
+     "baharat",
+     "darphane",
+     "ekonomi",
+     "esir-ticareti",
+     "esnaf",
+     "finans",
+     "gümüş",
+     "karimi",
+     "kervan",
+     "lonca",
+     "mali",
+     "para",
+     "seker",
+     "sikke",
+     "tahil",
+     "tekel",
+     "ticaret",
+     "ticaret yolu",
+     "vergi",
+     "zanaat"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(ticaret|gümrük|borç|akçe|sikke|vergi|kapitülasyon|tahvil)"
+   },
+   {
+    "id": "din",
+    "ad": "Din ve felsefe",
+    "madde": 493,
+    "yalniz": 20,
+    "deger_kumesi": [
+     "Ahilik",
+     "Katoliklik",
+     "Mevlevîlik",
+     "din",
+     "felsefe",
+     "fikih",
+     "fütüvvet",
+     "manastir",
+     "misyonerlik",
+     "suryani",
+     "tapinak",
+     "tarikat",
+     "tasavvuf",
+     "vahdet-i vücûd"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(cami|tarikat|şeyh|patrik|kilise|fetva|halife|hilâfet|ulemâ|hac |hacc)"
+   },
+   {
+    "id": "sanat",
+    "ad": "Sanat",
+    "madde": 42,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "dans",
+     "haiku",
+     "minyatur",
+     "minyatür",
+     "muzik",
+     "siir",
+     "tiyatro",
+     "ukiyo-e",
+     "zanaat"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(ressam|minyatür|mûsiki|musiki|besteci|şair|dîvân|heykel|opera|tiyatro|hattat|çini|resim)"
+   },
+   {
+    "id": "kultur",
+    "ad": "Kültür",
+    "madde": 561,
+    "yalniz": 84,
+    "deger_kumesi": [
+     "basin",
+     "cay-seremonisi",
+     "ceviri",
+     "dil",
+     "edebiyat",
+     "hikaye",
+     "kitap",
+     "kokugaku",
+     "kultur",
+     "seyahat",
+     "tarih",
+     "tarih-yaziciligi",
+     "tartisma",
+     "toren",
+     "yazi"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(gazete|kitap|eser|tarihçi|seyahatnâme|edebiyat)"
+   },
+   {
+    "id": "spor",
+    "ad": "Spor",
+    "madde": 9,
+    "yalniz": 4,
+    "deger_kumesi": [
+     "spor"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(cirit|güreş|okçu|Kırkpınar|olimpiyat|futbol|Okmeydanı)"
+   },
+   {
+    "id": "imar",
+    "ad": "İmar ve mimari",
+    "madde": 365,
+    "yalniz": 20,
+    "deger_kumesi": [
+     "Karatay Medresesi",
+     "Sultan Hanı",
+     "Ulu Cami",
+     "cami",
+     "imar",
+     "kale",
+     "kervansaray",
+     "kopru",
+     "külliye",
+     "mimari",
+     "restorasyon",
+     "sehircilik",
+     "tersane",
+     "ulucami",
+     "yenileme",
+     "İnce Minareli Medrese",
+     "İsa Bey Camii"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(camii|külliye|köprü|saray|inşa|sebil|çeşme|kervansaray|türbe)"
+   },
+   {
+    "id": "egitim",
+    "ad": "Eğitim",
+    "madde": 98,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "egitim",
+     "medrese"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(medrese|mektep|mekteb|okul|dârülfünûn|darülfünun|üniversite|maârif|maarif)"
+   },
+   {
+    "id": "islahat",
+    "ad": "Yenileşme ve ıslahat",
+    "madde": 429,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "anayasa",
+     "donusum",
+     "islahat",
+     "reform"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(ıslahat|tanzimat|nizâm-ı cedîd|nizam-ı cedid|meşrutiyet|reform|yenileşme)"
+   },
+   {
+    "id": "sosyal",
+    "ad": "Sosyal yaşam",
+    "madde": 274,
+    "yalniz": 6,
+    "deger_kumesi": [
+     "azinlik",
+     "hosgoru",
+     "kadin",
+     "kast",
+     "sosyal",
+     "sosyoloji",
+     "toplum",
+     "vakif"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(kahvehane|hamam|düğün|şenlik|sûr-ı hümâyun|kıyafet|yasağı)"
+   },
+   {
+    "id": "afet",
+    "ad": "Doğal afetler ve hastalıklar",
+    "madde": 94,
+    "yalniz": 5,
+    "deger_kumesi": "afet bölümüne bak",
+    "baslik_deseni": null
+   },
+   {
+    "id": "demografi",
+    "ad": "Demografi ve göç",
+    "madde": 93,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "demografi",
+     "diaspora",
+     "goc",
+     "gocmen",
+     "göç",
+     "iskan",
+     "nufus",
+     "surgun",
+     "sürgün",
+     "tehcir"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(göç|muhacir|iskân|sürgün|tehcir|nüfus sayımı|mübadele)"
+   },
+   {
+    "id": "hukuk",
+    "ad": "Hukuk düzeni",
+    "madde": 242,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "anayasa",
+     "dilekce",
+     "hukuk",
+     "kadı",
+     "kanun",
+     "meclis"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(kanunnâme|kanunname|nizamnâme|nizamname|mahkeme|mecelle|hukuk|kanun)"
+   },
+   {
+    "id": "ulastirma",
+    "ad": "Ulaştırma haberleşme altyapı",
+    "madde": 59,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "altyapi",
+     "kopru",
+     "liman",
+     "telgraf",
+     "ulasim",
+     "yol"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(demiryolu|demir yolu|telgraf|posta|kanal|köprü|vapur|tramvay|tünel|şimendifer|isâle|su yolu)"
+   },
+   {
+    "id": "sanayi",
+    "ad": "Sanayi tarım hayvancılık madencilik",
+    "madde": 25,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "maden",
+     "sanayi",
+     "tahil",
+     "tarim"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(fabrika|sanayi|maden|tarım|pamuk|dokuma|baruthane|tophane)"
+   },
+   {
+    "id": "kesif",
+    "ad": "Keşif ve icatlar",
+    "madde": 57,
+    "yalniz": 6,
+    "deger_kumesi": [
+     "cografya",
+     "kesif"
+    ],
+    "baslik_deseni": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(keşf|icad|icat|buluş|mucit|patent|dolaştı)"
+   },
+   {
+    "id": "magazin",
+    "ad": "Magazin",
+    "madde": 6,
+    "yalniz": 0,
+    "deger_kumesi": [
+     "hikaye",
+     "magazin",
+     "rivayet"
+    ],
+    "baslik_deseni": null
+   }
+  ],
+  "sinirlar": [
+   "Başlık desenleri kelime düzeyindedir ve yanlış pozitif üretebilir (imar bölümünün 'Köprülü' dersi); 'saray' Hânedan ile İmar'ı, 'kanun' Hukuk ile İslahat'ı birlikte tetikleyebilir — kesişme kasıtlı ama tek tek OKUNMADI (orneklem yok: ölçülemedi).",
+   "Sanat ile Kültür verideki k/tur:'kultur' değerinde birleşik duruyor; ayrım yalnız etiket ve başlık desenleriyle yapılabildi — kültür başlığı sanatı da içerir.",
+   "Spor · Keşif · Magazin · Ulaştırma · Sanayi başlıkları verideki karşılığı ince olduğu için küçük kalır; bu bir kusur değil, kronolojinin bugünkü içeriği.",
+   "577 etiket değerinin çoğu özel ad (kuyruk dosyaları: 'Mardin', 'Timur' …) — başlığa bağlanmadı; normalizasyon ayrı iş."
+  ]
+ },
+ "afet": {
+  "kaynak": "0035/H-0034 · Emre: 'deprem yangın sel gibi afetleri etiketleyelim' · PAKET-A5 13 Eylül 2026",
+  "alt_etiketler": {
+   "afet-deprem": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(deprem|zelzele)",
+   "afet-yangin": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(yangın|harîk)",
+   "afet-sel": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(sel(?:i|in|de|den|ler|leri)?(?![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])|taşkın|su baskını)",
+   "afet-salgin": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(veba|tâun|kolera|salgın|çiçek hastalığı|tifüs|kara ölüm)",
+   "afet-kitlik": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(kıtlı[kğ]|kuraklık|çekirge istila|çekirge sürü)",
+   "afet-volkan-firtina": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(yanardağ|volkan|tsunami|kasırga)"
+  },
+  "deger_eslemesi": {
+   "salgin": "afet-salgin",
+   "veba": "afet-salgin",
+   "kitlik": "afet-kitlik",
+   "dogal-afet": null,
+   "afet": null
+  },
+  "kural": "BAŞLIKTA alt etiket deseni (okunarak elenen haric listesi hariç) + mevcut salgin/veba/kitlik değerleri + YALNIZ GÖVDEDE geçip OKUNARAK seçilen açık liste. Gövde deseni tek başına etiket VERMEZ: 125 gövde adayının çoğu savaşın ya da biyografinin yan cümlesiydi.",
+  "haric_okunarak": [
+   "1554-01-26|Siena kuşatmasının başlaması",
+   "1722-07-01|İsfahan kuşatması sırasında"
+  ],
+  "govde_dahil_okunarak": {
+   "1755-11-02|Pombal, Lizbon'un yeniden": [
+    "afet-deprem"
+   ],
+   "1354-03-02|Gelibolu'nun alınışı": [
+    "afet-deprem"
+   ],
+   "1631-05-20|Magdeburg'un yakılıp": [
+    "afet-yangin"
+   ],
+   "1571-01-01|Devlet Giray, Oka Nehri": [
+    "afet-yangin"
+   ],
+   "1736-01-01|Feldmareşal Münnich": [
+    "afet-yangin"
+   ],
+   "1720-06-01|Tulumbacı Ocağı'nın kuruluşu": [
+    "afet-yangin"
+   ],
+   "1351-01-01|Sarı Nehir'in Jia Lu'ya": [
+    "afet-sel"
+   ],
+   "1494-01-01|Liu Daxia'nın Sarı Nehir": [
+    "afet-sel"
+   ],
+   "1642-09-01|Kaifeng sedleri bilerek": [
+    "afet-sel"
+   ],
+   "1796-05-14|Edward Jenner ilk çiçek": [
+    "afet-salgin"
+   ],
+   "1803-11-30|Balmis Aşı Seferi": [
+    "afet-salgin"
+   ],
+   "1890-12-01|Kitasato Şibasaburō": [
+    "afet-salgin"
+   ],
+   "1416-01-01|İbn Hacer Bezlü'l-mâ'ûn": [
+    "afet-salgin"
+   ],
+   "1430-01-01|Bezlü'l-mâ'ûn on dört": [
+    "afet-salgin"
+   ],
+   "1402-09-03|Gian Galeazzo'nun ölümü": [
+    "afet-salgin"
+   ],
+   "1846-11-29|Dede Efendi'nin hac": [
+    "afet-salgin"
+   ],
+   "1270-07-18|Sekizinci Haçlı Seferi": [
+    "afet-salgin"
+   ],
+   "1770-01-01|Büyük Bengal Kıtlığı": [
+    "afet-kitlik",
+    "afet-salgin"
+   ],
+   "1666-01-01|Kaşan-İsfahan bölgesinde": [
+    "afet-kitlik"
+   ],
+   "1782-01-01|Tenmei Kıtlığı başladı": [
+    "afet-kitlik",
+    "afet-volkan-firtina"
+   ],
+   "1908-12-28|Messina Depremi": [
+    "afet-volkan-firtina"
+   ],
+   "1303-08-08|Doğu Akdeniz depremi": [
+    "afet-volkan-firtina"
+   ],
+   "1755-11-01|Büyük Lizbon Depremi": [
+    "afet-volkan-firtina",
+    "afet-yangin"
+   ],
+   "1923-09-01|Büyük Kantō Depremi": [
+    "afet-yangin"
+   ]
+  },
+  "olcum": {
+   "madde": 94,
+   "cekirdek": 15,
+   "alt": {
+    "afet-salgin": 56,
+    "afet-yangin": 16,
+    "afet-deprem": 13,
+    "afet-sel": 3,
+    "afet-kitlik": 15,
+    "afet-volkan-firtina": 4
+   }
+  },
+  "maddeler": [
+   {
+    "dosya": "kronoloji_akkoyunlu.js",
+    "t": "1490-01-01",
+    "b": "VEBA SALGINI — Yâkub Bey, Selçuk Şah Begüm ve Yûsuf Mirza öldü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_almanya.js",
+    "t": "1631-05-20",
+    "b": "Magdeburg'un yakılıp yağmalanması",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_altinorda.js",
+    "t": "1346-01-01",
+    "b": "🔴 Kara Ölüm Kefe kuşatmasından Akdeniz'e yayıldı — Avrupa nüfusunun üçte biri öldü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_balkan.js",
+    "t": "1917-08-18",
+    "b": "Büyük Selanik Yangını",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_bizans.js",
+    "t": "1347-01-01",
+    "b": "Kara Ölüm İstanbul'a ulaştı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_bizans.js",
+    "t": "1354-03-02",
+    "b": "GELİBOLU DEPREMİ — Osmanlılar Rumeli'ye yerleşti",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cin.js",
+    "t": "1351-01-01",
+    "b": "Sarı Nehir'in Jia Lu'ya yönlendirilmesi",
+    "etiket_oneri": [
+     "afet-sel"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cin.js",
+    "t": "1494-01-01",
+    "b": "Liu Daxia'nın Sarı Nehir ıslah projesi",
+    "etiket_oneri": [
+     "afet-sel"
+    ]
+   },
+   {
+    "dosya": "kronoloji_cin.js",
+    "t": "1642-09-01",
+    "b": "Kaifeng sedleri bilerek yıkıldı — Sarı Nehir felaketi",
+    "etiket_oneri": [
+     "afet-salgin",
+     "afet-sel"
+    ]
+   },
+   {
+    "dosya": "kronoloji_dogu_afrika.js",
+    "t": "1567-01-01",
+    "b": "Oromo akınlarının yeniden başlaması ve Emîr Nûr'un tifüsten ölümü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_fransa.js",
+    "t": "1348-01-01",
+    "b": "Kara Ölüm'ün Fransa'yı vurması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_guney_asya.js",
+    "t": "1868-01-01",
+    "b": "Racputana'da büyük kıtlık yaşandı",
+    "etiket_oneri": [
+     "afet-kitlik",
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_hindistan.js",
+    "t": "1630-01-01",
+    "b": "Dekken'de büyük kıtlık başladı",
+    "etiket_oneri": [
+     "afet-kitlik"
+    ]
+   },
+   {
+    "dosya": "kronoloji_hindistan.js",
+    "t": "1770-01-01",
+    "b": "Büyük Bengal Kıtlığı başladı",
+    "etiket_oneri": [
+     "afet-kitlik",
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ingiltere.js",
+    "t": "1348-06-01",
+    "b": "Kara Ölüm İngiltere'ye ulaştı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ingiltere.js",
+    "t": "1665-06-01",
+    "b": "Büyük Londra Vebası",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ingiltere.js",
+    "t": "1666-09-02",
+    "b": "Büyük Londra Yangını",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ingiltere.js",
+    "t": "1796-05-14",
+    "b": "Edward Jenner ilk çiçek aşısını uyguladı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ingiltere.js",
+    "t": "1832-01-01",
+    "b": "Kolera salgını Britanya'yı vurdu",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ingiltere.js",
+    "t": "1918-06-01",
+    "b": "İspanyol Gribi salgını Britanya'yı vurdu",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ingiltere.js",
+    "t": "1845-09-13",
+    "b": "Patates mildiyösü ilk kez bildirildi — Büyük Kıtlık başladı",
+    "etiket_oneri": [
+     "afet-kitlik",
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_iran.js",
+    "t": "1666-01-01",
+    "b": "Kaşan-İsfahan bölgesinde veba salgını",
+    "etiket_oneri": [
+     "afet-kitlik",
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_iran.js",
+    "t": "1917-01-01",
+    "b": "1917-1919 büyük kıtlığı",
+    "etiket_oneri": [
+     "afet-kitlik"
+    ]
+   },
+   {
+    "dosya": "kronoloji_iran_ardillari.js",
+    "t": "1347-01-01",
+    "b": "Kara Ölüm İran'a ulaştı — Tebriz ve Bağdat'ta veba",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ispanya.js",
+    "t": "1803-11-30",
+    "b": "Balmis Aşı Seferi'nin yola çıkışı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_ispanya.js",
+    "t": "1649-01-01",
+    "b": "Büyük Sevilla Veba Salgını",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya.js",
+    "t": "1348-01-01",
+    "b": "Kara Ölüm Avignon'u vurur",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya.js",
+    "t": "1656-01-01",
+    "b": "Napoli vebası",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya.js",
+    "t": "1347-01-01",
+    "b": "Kefe kuşatması ve Kara Ölüm'ün Avrupa'ya taşınması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya.js",
+    "t": "1402-09-03",
+    "b": "Gian Galeazzo'nun ölümü — genişlemenin durması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya.js",
+    "t": "1630-01-01",
+    "b": "Milano vebası",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya.js",
+    "t": "1348-01-01",
+    "b": "Kara Ölüm'ün Floransa'yı vurması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya.js",
+    "t": "1348-01-01",
+    "b": "Kara Ölüm'ün Siena'yı vurması — katedral genişletme projesinin terki",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya.js",
+    "t": "1908-12-28",
+    "b": "Messina Depremi",
+    "etiket_oneri": [
+     "afet-deprem",
+     "afet-volkan-firtina"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya_sehir.js",
+    "t": "1347-01-01",
+    "b": "Kefe'den taşınan Kara Ölüm'ün Cenova limanına girmesi",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya_sehir.js",
+    "t": "1590-01-01",
+    "b": "Büyük kıtlık ve tahıl ithalatının Baltık'a kayması",
+    "etiket_oneri": [
+     "afet-kitlik"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya_sehir.js",
+    "t": "1656-07-01",
+    "b": "Büyük veba — nüfusun yarısının ölümü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya_sehir.js",
+    "t": "1590-06-01",
+    "b": "Serbest liman uygulaması — tahılın gümrüksüz girişi",
+    "etiket_oneri": [
+     "afet-kitlik"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya_sehir.js",
+    "t": "1570-11-17",
+    "b": "Ferrara depremi — şehrin ve sarayın sarsılması",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   },
+   {
+    "dosya": "kronoloji_italya_sehir.js",
+    "t": "1348-06-01",
+    "b": "Kara Ölüm'ün Siena'yı vurması — Dokuzlar rejiminin can damarının kesilmesi",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_japonya.js",
+    "t": "1657-03-02",
+    "b": "Meireki Büyük Yangını Edo'yu kül etti",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_japonya.js",
+    "t": "1782-01-01",
+    "b": "Tenmei Kıtlığı başladı",
+    "etiket_oneri": [
+     "afet-kitlik",
+     "afet-volkan-firtina"
+    ]
+   },
+   {
+    "dosya": "kronoloji_japonya.js",
+    "t": "1890-12-01",
+    "b": "Kitasato Şibasaburō, Tokyo'da kendi Bulaşıcı Hastalıklar Enstitüsü'nü kurdu",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_japonya.js",
+    "t": "1923-09-01",
+    "b": "Büyük Kantō Depremi Tokyo ve Yokohama'yı yerle bir etti",
+    "etiket_oneri": [
+     "afet-deprem",
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_kirim.js",
+    "t": "1571-01-01",
+    "b": "Devlet Giray, Oka Nehri savunma hattını yararak Moskova önlerine ulaştı ve şehri ateşe verdi — \"Taht-algan\" unvanı verildi",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_kirim.js",
+    "t": "1607-11-01",
+    "b": "II. Gazi Giray, Gazi Kirman'dan dönüş yolunda vebadan öldü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_kirim.js",
+    "t": "1736-01-01",
+    "b": "Feldmareşal Münnich komutasındaki Rus ordusu Kırım'ı istila etti, Han Sarayı'nı ve Bahçesaray'ı yaktı",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_kuzeyafrika.js",
+    "t": "1603-01-01",
+    "b": "Ahmed el-Mansûr vebadan öldü, taht kavgaları başladı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_kuzeyafrika.js",
+    "t": "1270-07-18",
+    "b": "Sekizinci Haçlı Seferi püskürtüldü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_macaristan.js",
+    "t": "1456-08-11",
+    "b": "Hunyadi János'un veba salgınında ölümü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_macaristan.js",
+    "t": "1738-01-01",
+    "b": "Büyük veba salgınının Güney Macaristan'ı vurması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_macaristan.js",
+    "t": "1831-08-01",
+    "b": "Doğu Slovakya kolera isyanı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1303-08-08",
+    "b": "Doğu Akdeniz depremi İskenderiye Feneri'ni ve Kahire'nin minarelerini yıktı",
+    "etiket_oneri": [
+     "afet-deprem",
+     "afet-volkan-firtina"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1347-07-01",
+    "b": "Kara Ölüm Mısır'a ulaştı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1348-08-01",
+    "b": "Kara Ölüm Dımaşk'ı vurdu — bir günde 300'den fazla ölü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1348-09-01",
+    "b": "1348 vebası Şam'ı vurdu",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1363-01-01",
+    "b": "Mısır'da yeni bir veba salgını görüldü",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1374-01-01",
+    "b": "İkinci büyük veba dalgası Kahire'yi iki yıl etkisi altında tuttu",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1403-01-01",
+    "b": "1403 kıtlığı",
+    "etiket_oneri": [
+     "afet-kitlik"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1403-06-01",
+    "b": "Kıtlık ve veba Kahire nüfusunun üçte ikisini yok etti",
+    "etiket_oneri": [
+     "afet-kitlik",
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1404-01-01",
+    "b": "Nil üzerinde tahıl nakliyesi krizi",
+    "etiket_oneri": [
+     "afet-kitlik"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1405-01-01",
+    "b": "1405 vebası",
+    "etiket_oneri": [
+     "afet-kitlik",
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1416-01-01",
+    "b": "İbn Hacer Bezlü'l-mâ'ûn'u yazmaya başladı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1430-01-01",
+    "b": "Bezlü'l-mâ'ûn on dört yıl sonra tamamlandı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1479-10-13",
+    "b": "Emeviyye Camii'nde büyük yangın çıktı",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_memluk.js",
+    "t": "1481-11-05",
+    "b": "Mescid-i Nebevî yangını ve Kayıtbay'ın yeniden inşası",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_orta_asya.js",
+    "t": "1796-12-01",
+    "b": "Kış salgını hayvanları kırdı — planlanan sefer yapılamadı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_portekiz.js",
+    "t": "1755-11-01",
+    "b": "Büyük Lizbon Depremi",
+    "etiket_oneri": [
+     "afet-deprem",
+     "afet-volkan-firtina",
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_portekiz.js",
+    "t": "1755-11-02",
+    "b": "Pombal, Lizbon'un yeniden inşasını üstlendi",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   },
+   {
+    "dosya": "kronoloji_rodos_sovalyeleri.js",
+    "t": "1348-01-01",
+    "b": "Kara Ölüm'ün Rodos'a ulaşması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_rodos_sovalyeleri.js",
+    "t": "1693-01-11",
+    "b": "Sicilya depreminin Malta'yı vurması",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   },
+   {
+    "dosya": "kronoloji_rodos_sovalyeleri.js",
+    "t": "1481-03-01",
+    "b": "Rodos'u vuran büyük deprem",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   },
+   {
+    "dosya": "kronoloji_rodos_sovalyeleri.js",
+    "t": "1675-06-01",
+    "b": "Büyük veba salgını",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_rusya.js",
+    "t": "1601-01-01",
+    "b": "Büyük kıtlık başladı (1603'e dek)",
+    "etiket_oneri": [
+     "afet-kitlik"
+    ]
+   },
+   {
+    "dosya": "kronoloji_rusya.js",
+    "t": "1812-09-14",
+    "b": "Moskova'nın tahliyesi ve yangını",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_rusya.js",
+    "t": "1891-01-01",
+    "b": "1891-92 kıtlığı — Volga bölgesi büyük açlık",
+    "etiket_oneri": [
+     "afet-kitlik"
+    ]
+   },
+   {
+    "dosya": "kronoloji_venedik.js",
+    "t": "1348-01-25",
+    "b": "Kara Ölüm",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_venedik.js",
+    "t": "1577-05-20",
+    "b": "Doge Sarayı yangını",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "kronoloji_venedik.js",
+    "t": "1630-01-01",
+    "b": "Büyük veba",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek14.js",
+    "t": "1598-09-01",
+    "b": "Dâvud Ağa'nın vebadan ölümü ve Yeni Cami inşaatının yarım kalması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek14.js",
+    "t": "1846-11-29",
+    "b": "Dede Efendi'nin hac sırasında Mina'da vefatı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek14.js",
+    "t": "1894-07-10",
+    "b": "1894 İstanbul depremi",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek5.js",
+    "t": "1354-03-02",
+    "b": "Gelibolu'nun alınışı — Rumeli'de kalıcı köprübaşı",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1466-01-01",
+    "b": "İstanbul'da veba salgını ve sarayın Edirne'ye taşınması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1509-09-14",
+    "b": "İstanbul'da 'Küçük Kıyamet' depremi",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1552-06-01",
+    "b": "İstanbul ve çevresinde yeni bir veba dalgası başladı",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1600-06-01",
+    "b": "1570'lerde başlayan tâun salgını İstanbul'u etkilemeyi sürdürüyordu",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1633-09-01",
+    "b": "Cibali Yangını",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1637-01-01",
+    "b": "İstanbul'da veba salgını",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1660-07-15",
+    "b": "İstanbul'da büyük yangın: Ağakapısı'nın yanması",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1720-06-01",
+    "b": "Tulumbacı Ocağı'nın kuruluşu",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1739-06-01",
+    "b": "İstanbul'da veba salgınının başlaması",
+    "etiket_oneri": [
+     "afet-salgin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1755-09-29",
+    "b": "Hocapaşa yangını",
+    "etiket_oneri": [
+     "afet-yangin"
+    ]
+   },
+   {
+    "dosya": "olaylar_ek7.js",
+    "t": "1766-05-01",
+    "b": "Büyük İstanbul depremi ve Fâtih Camii'nin yıkılması",
+    "etiket_oneri": [
+     "afet-deprem"
+    ]
+   }
+  ],
+  "sel_notu": "Emre'nin örneği 'sel' için başlıkta HİÇ madde yok (ölçüldü: 0); gövdede 7 aday okundu, 3'ü seçildi (Sarı Nehir). Osmanlı çekirdeğinde sel maddesi yok — içerik boşluğu, etiket boşluğu değil."
  }
 };

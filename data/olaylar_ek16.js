@@ -196,7 +196,7 @@ window.OLAYLAR_EK16 = [
 
 { t:"1527-01-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Demak Sultanlığı'nın Majapahit'i yıkıp Cava kıyısına hâkim olması",
-  gun:"1527 (TDV yıl verir, gün vermez)",
+  gun:"1527", ic_not_gun:"TDV yıl verir, gün vermez (0035/H-0062, PAKET-A3: parantezli süreç notu okur alanından taşındı).",
   yer:"Surabaya, Blitar, Bojonegoro, Jepara, Kudus, Madiun, Malang, Pasuruan, Pekalongan, Ponorogo, Rembang, Sumenep (Madura), Tegal, Trowulan (Majapahit)",
   yer_id:"Surabaya", kisiler:"Raden Patah, Sultan Trenggana",
   d:"TDV'nin Demak maddesine göre Cava'nın ilk bağımsız Müslüman devleti olan Demak Sultanlığı, XV. yüzyılın son çeyreğinde Raden Patah tarafından kuruldu; Cava kaynaklarına göre çökmekte olan Hindu-Budist Majapahit Krallığı, Demak'ın saldırılarıyla ortadan kalktı. 1527'de Demak, Çin kaynaklarının XI. yüzyıldan beri Majapahit hükümdarları için önemli bir liman olarak andığı Tuban'ı fethetti — bu, Majapahit'in son kalıntılarının da Demak'a bağlandığı yıldır ve Cava'nın büyük bölümünün İslâmlaşma sürecinin dönüm noktasıdır.", ic_not_d:"⚠️ TDV tam gün vermiyor; 1527-01-01 yıl beyanıdır.",

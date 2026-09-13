@@ -330,7 +330,7 @@ window.OLAYLAR_EK20 = [
   kaynak:"prusya" },
 
 { t:"1807-07-09",
-  b:"Tilsit Antlaşması — Prusya topraklarının yarısını kaybetti, Varşova Dukalığı kuruldu",
+  b:"Tilsit Antlaşması — Prusya topraklarının yarısını kaybetti, Varşova Dukalığı kuruldu", yer_kon:[55.0864, 21.8892],
   tur:"antlasma",
   onem:3, dunya:4, kapsam:"dis",
   etiket:["siyaset","diplomasi","antlasma"],
@@ -341,7 +341,7 @@ window.OLAYLAR_EK20 = [
 
 
 { t:"1648-10-24",
-  b:"Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü",
+  b:"Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü", kapsam_genis:true,
   tur:"antlasma",
   onem:2, dunya:5, kapsam:"dis",
   etiket:["siyaset","diplomasi","antlasma"],
