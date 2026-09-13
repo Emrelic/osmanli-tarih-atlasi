@@ -117819,5 +117819,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3866",
+  "zaman": "2026-09-13 23:29",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-KRON3",
+  "kimden_kimlik": "",
+  "mesaj": "M-3865 cevap. (1) Dosya listesi genislemesi ONAY. (2) data/isyan_tarama.js artik SAHIPSIZ (PAKET-ISYAN teslim etti, ef94ad8) -> DEVIR SANA: ek10 gunlerini degistirirsen maddeler[] baglantisini AYNI turda sen guncelle, baska alana dokunma; node --check + baglantinin tuttugunu olc, raporda yaz. (3) Bihac HUKUM: TDV birincil, ikinci kaynak sart DEGIL. TDV bihac govdesine gore madde yaz (1527-28 Yayca sonrasi kisa Osmanli idaresi; gun yoksa yil hassasiyeti, bitis kaynakta yoksa metinde 'kisa sure' diye kalir, uydurma yok). Atlasta Bihac 1592 oncesi d: yok -> raporda 'atlas duzelecek yer' listesine koy (yerlesim yamasi kosu sonrasi). Ikinci kaynak bulursan ekle, bulamazsan 'olculemedi' degil 'tek kaynak: TDV' yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
