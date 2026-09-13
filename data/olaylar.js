@@ -111,7 +111,7 @@ window.OLAYLAR = [
 // kayıttı; buradaki maddenin TEK farkı Lâle Devri kültür içeriğiydi (matbaa,
 // tercüme heyetleri, çiçek aşısı) ve o içerik ek5'e taşındı. Silmeden önce
 // taşındı — mükerrer temizliğinde kayıp veri en sinsi hatadır.
-{ t:"1730-09-25", k:"isyan", etiket:["isyan","kultur","ekonomi","darbe-askeri"], b:"Patrona Halil İsyanı", gun:"28 Eylül 1730", yer:"İstanbul", yer_id:"İstanbul", kisiler:"Patrona Halil, III. Ahmed, Nevşehirli Damad İbrahim Paşa",
+{ t:"1730-09-25", k:"isyan", etiket:["isyan","kultur","ekonomi","darbe-askeri"], b:"Patrona Halil İsyanı", gun:"25 Eylül 1730", yer:"İstanbul", yer_id:"İstanbul", kisiler:"Patrona Halil, III. Ahmed, Nevşehirli Damad İbrahim Paşa",
   d:"İran cephesindeki başarısızlık, vergiler ve saray çevresinin lüksüne duyulan öfke, hamam tellâğı Patrona Halil'in önderliğinde büyük bir ayaklanmaya dönüştü. Sadrazam İbrahim Paşa öldürüldü, III. Ahmed tahttan indirildi ve Lâle Devri sona erdi; isyancıların aylarca şehre hükmetmesi, merkezî otoritenin kırılganlığını çarpıcı biçimde gösterdi.", kaynak:"patrona-isyani", duygu:["✊"] },
 { t:"1739-09-18", k:"antlasma", etiket:["antlasma","diplomasi","ekonomi"], b:"Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı", gun:"18 Eylül 1739", yer:"Belgrad", yer_id:"Belgrad", kisiler:"I. Mahmud, İvaz Mehmed Paşa",
   d:"Avusturya ve Rusya'ya karşı iki cephede yürütülen savaşın (1736–1739) sonunda Belgrad ve Kuzey Sırbistan geri alındı; Rusya Azak'ı silahsızlandırmayı ve Karadeniz'de donanma bulundurmamayı kabul etti. 18. yüzyıl Osmanlı diplomasisinin ve ordusunun son büyük başarısı sayılan antlaşma, imparatorluğa çeyrek yüzyıllık bir barış dönemi kazandırdı.", kaynak:"belgrad-antlasmalari", duygu:["🤝"] },

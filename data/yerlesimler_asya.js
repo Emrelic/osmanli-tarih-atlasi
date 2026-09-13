@@ -844,8 +844,17 @@ window.YERLESIMLER_ASYA = [
 // Kesin gün bilinmediği için kur: YYYY-01-01 yazıldı.
 { ad:"İndor (Indore)", tur:"sehir", lat:22.7200, lon:75.8580, g:0, k:3, d:[],
   kur:"1715-01-01",
-  s:[{f:"1715-01-01", t:"1732-01-01", d:"babur-imparatorlugu"},
-     {f:"1732-01-01", t:"1923-10-29", d:"maratha"}] },
+  s:[{f:"1715-01-01", t:"1732-07-29", d:"babur-imparatorlugu"},
+     {f:"1732-07-29", t:"1923-10-29", d:"indor"}] },
+  // 🔴 KITA 5 (12 Eylül) — "maratha" → "indor" (Holkar Hanedanı). Künyenin
+  // KENDİ f:'i (1732-07-29) zaten İNDOR'un kendisiyle ilgili: 1720'de pargana
+  // merkezi Kampel'den Indore'ye taşındı, 29 Temmuz 1732'de Malhar Rao Holkar
+  // Bacırav Peşva tarafından "İndor'un ilk hükümdarı" ilan edildi (standart
+  // akademik kaynak, iki bağımsız kaynak — Britannica 'Holkar dynasty' +
+  // Wikipedia 'Indore State'/'Malhar Rao Holkar' birbirini doğruladı). Bu
+  // yüzden "maratha" (genel konfederasyon) ARA DÖNEMİ hiç yoktu — Holkar
+  // hânedanı İndor'u DOĞRUDAN Babürlü'den aldı. Önceki f: (1732-01-01) yıl
+  // doğru ama gün YOKTU; 07-29 ile hem hassasiyet hem kimlik düzeltildi.
 
 // Gvalyar — Hindistan'ın en güçlü kalelerinden; Tomar racputları 1398-1518,
 // Delhi 1518-1526, Bâbürlü, 1784'ten sonra Şinde (Maratha) hânedanının
@@ -856,8 +865,21 @@ window.YERLESIMLER_ASYA = [
      {f:"1518-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
-     {f:"1555-07-23", t:"1784-01-01", d:"babur-imparatorlugu"},
-     {f:"1784-01-01", t:"1923-10-29", d:"maratha"}] },
+     {f:"1555-07-23", t:"1783-07-21", d:"babur-imparatorlugu"},
+     {f:"1783-07-21", t:"1923-10-29", d:"gvalyar"}] },
+  // 🔴 KITA 5 (12 Eylül) — "maratha" → "gvalyar" (Sindiya Hanedanı), ve
+  // KITA 8'in ÜÇ ADAY (künye 1731 · veri 1784 · TDV 1761) sorusuna CEVAP:
+  // ÜÇÜ DE FARKLI SORUYU cevaplıyordu. 1731 Ranoji Sindiya'nın hânedanı
+  // KURDUĞU gün — ama başkenti UJJAIN'di, GWALIOR DEĞİL (D093: "adıyla
+  // anıyor" ≠ "tarihliyor"). Gwalior KALESİNİN KENDİSİ ancak Ranoji'nin oğlu
+  // Mahadji Scindia tarafından, 18 Şubat 1783'te başlayan ~5 aylık kuşatma
+  // sonunda, 21 Temmuz 1783'te Rana Chatra Singh'ten alındı (iki bağımsız
+  // kaynak — Wikipedia "Maratha Conquest of Gwalior and Gohad" + "Battle of
+  // Gwalior" birbirini doğruladı). Bu, TAM OLARAK BU YERLEŞİM NOKTASININ
+  // sorduğu soru. Eski f: (1784-01-01) bu olayın YIL-YUVARLAK hâliydi;
+  // 1783-07-21 ile hem gün hem doğru kimlik (gvalyar, "maratha" değil)
+  // kazandı — Babürlü'den DOĞRUDAN Sindiya'ya geçti, ara "maratha" dönemi
+  // hiç yaşanmadı.
 
 // Bhopâl — Afgan asıllı Dost Muhammed Han 1707'den sonra kurdu; 1818'de
 // İngiliz himayesine giren prens devleti, hânedan 1949'a kadar sürdü.
@@ -1275,7 +1297,16 @@ window.YERLESIMLER_ASYA = [
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1659-01-01", d:"bicapur"},
-     {f:"1659-01-01", t:"1923-10-29", d:"maratha"}] },
+     {f:"1659-01-01", t:"1710-01-01", d:"maratha"},
+     {f:"1710-01-01", t:"1923-10-29", d:"kolhapur"}] },
+  // 🔴 KITA 5 (12 Eylül) — Gvalyar/İndor'dan FARKLI: burada GERÇEK bir
+  // "maratha" ara dönemi VAR (1659-1710), çünkü Kolhapur BAŞTA (I. Şivâcî
+  // döneminde) genel Maratha devletinin bir parçasıydı; "kolhapur" kimliği
+  // ancak Tarabai'nin rakip saray kurup II. Şivâcî'yi 1710'da AYRI racası
+  // ilan etmesiyle DOĞDU (künyenin kendi f:'i, devletler.js). Bu YENİ bir
+  // KIRILMA üretiyor (1710-01-01) — ±30 gün içinde kronoloji maddesi
+  // gerektiriyor (Değişmez 2), olaylar*.js bu gece KITA 4'te, YAZMA
+  // YETKİM YOK — koordinatöre SAYIYLA bildiriliyor (1 kırılma).
 
 { ad:"Nâsik", tur:"sehir", lat:19.9980, lon:73.7900, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1318-01-01", d:"yadava"},

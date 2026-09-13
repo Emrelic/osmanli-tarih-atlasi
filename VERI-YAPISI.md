@@ -292,7 +292,7 @@ renginden bu yolla mahrumdu. Düzeltildi.
 | Alan | Anlamı |
 |---|---|
 | `id` | Benzersiz anahtar, küçük harf + tire. **Değiştirilmez** — bağlantıları kırar |
-| `tur` | `imparatorluk` \| `krallik` \| `prenslik` \| `dukalik` \| `cumhuriyet` \| `hanlik` \| `beylik` \| `devlet` \| `sultanlik` \| `ocaklik` \| `hanedanlik` \| `isyan` \| `gecici-isgal` |
+| `tur` | `imparatorluk` \| `krallik` \| `prenslik` \| `dukalik` \| `cumhuriyet` \| `hanlik` \| `beylik` \| `devlet` \| `sultanlik` \| `ocaklik` \| `hanedanlik` \| `isyan` \| `gecici-isgal` \| `gecici-hukumet` \| `federasyon` \| `sehzadelik` \| `ulke` \| `eyalet` 🆕 (M-3555, Emre) \| `mutasarriflik` 🆕 (M-3555, Emre — atanmış, uluslararası garantili özerk sancak; hanedan/prenslik DEĞİL) |
 | `bolge` | Kapalı sözlük — `anadolu`, `balkanlar`, `orta-avrupa`, `bati-avrupa`, `kuzey-avrupa`, `dogu-avrupa`, `italya`, `iberya`, `kafkasya`, `iran`, `mezopotamya`, `suriye-filistin`, `arabistan`, `kuzey-afrika`, `misir-sudan`, `dogu-afrika`, `bati-afrika`, `orta-afrika`, `guney-afrika`, `orta-asya`, `guney-asya`, `dogu-asya`, `guneydogu-asya`, `sibirya-bozkir`, `kuzey-amerika`, `orta-amerika`, `guney-amerika`, `okyanusya` |
 | `f` / `t` | Varlık aralığı. Gün bilinmiyorsa `YYYY-01-01`. 1923 sonrası süren devletlerde `t:"1923-10-29"` ve `ozet`te not |
 | `kronoloji[].tur` | `kurulus` \| `hukumdar` \| `toprak-kazanc` \| `toprak-kayip` \| `savas` \| `antlasma` \| `bolunme` \| `birlesme` \| `ittifak` \| `isyan` \| `isgal` \| `son` |

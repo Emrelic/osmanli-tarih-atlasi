@@ -169,7 +169,7 @@ window.KRONOLOJI_SIRBISTAN = [
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","son"],
   yer_id:"Semendire",
   d:"Fâtih Sultan Mehmed'in kuşatmasıyla Semendire teslim oldu ve Sırp Despotluğu ortadan kalktı; Sırbistan bir Osmanlı sancağı hâline geldi. Bu tarihten 1804'e (Birinci Sırp Ayaklanması) kadar 345 yıl boyunca ayrı bir Sırp devleti YOKTUR — devletler.js'in kendi ifadesiyle 'modern Sırbistan'la 4 asırlık kopukluk var.'",
-  kaynak:"TDV `sirbistan`: '1459'da Smederevo'nun (Semendire) ele geçirilişiyle Sırp Despotluğu ortadan kaldırıldı.'" },
+  kaynak:"TDV `sirbistan`: '1459'da Smederevo'nun (Semendire) ele geçirilişiyle Sırp Despotluğu ortadan kaldırıldı.'", kunye:["sirp-despotlugu"] },
 
 // ───────────────────────── OSMANLI DOĞRUDAN İDARESİ (1459-1804) — ayrı Sırp devleti YOK
 
@@ -177,31 +177,31 @@ window.KRONOLOJI_SIRBISTAN = [
   onem:3, dunya:1, kapsam:"ic", etiket:["din"],
   yer_id:"",
   d:"Sırp Ortodoks Kilisesi'nin bağımsız patrikliği kaldırıldı; Sırp kiliseleri doğrudan Fener Rum Ortodoks Patrikhânesi'ne bağlandı. Bu dönemde Sırbistan'ın kendi devleti yoktur; kilise, Sırp kimliğinin sürdüğü tek kurumsal çatıydı.",
-  kaynak:"TDV `sirbistan` — gün verilmiyor, YYYY-01-01." },
+  kaynak:"TDV `sirbistan` — gün verilmiyor, YYYY-01-01.", kunye:["sirbistan-eyaleti"] },
 
 { t:"1557-01-01", b:"Peç Patrikliği ihya edildi (Sokollu Mehmed Paşa)", tur:"din",
   onem:4, dunya:2, kapsam:"ic", etiket:["din"],
   yer_id:"",
   d:"Sırp asıllı Sadrazam Sokollu Mehmed Paşa'nın da rolüyle, doksan dört yıl önce kaldırılmış olan Peç Patrikliği yeniden ihya edildi; ilk patrik Sokollu'nun akrabası Makarije Sokolović oldu. İhya, Sırp Ortodoks kimliğinin Osmanlı idaresi altında kurumsal olarak sürmesini sağladı.",
-  kaynak:"TDV `sirbistan`: 'XVI. yüzyılın ortalarında Sokullu Mehmed Paşa'nın da rolüyle daha önce kaldırılmış olan Peç (İpek) patrikliği yeniden ihya edildi (1557).'" },
+  kaynak:"TDV `sirbistan`: 'XVI. yüzyılın ortalarında Sokullu Mehmed Paşa'nın da rolüyle daha önce kaldırılmış olan Peç (İpek) patrikliği yeniden ihya edildi (1557).'", kunye:["sirbistan-eyaleti"] },
 
 { t:"1690-01-01", b:"Büyük Sırp Göçü (Arsenije III Crnojević)", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"ic", etiket:["goc","din"],
   yer_id:"",
   d:"Osmanlı-Avusturya savaşında (1683-1699) Habsburg tarafını tutan Sırplar, savaş Osmanlı lehine döndüğünde Osmanlı misillemesinden korkarak Patrik Arsenije III Crnojević önderliğinde Kosova ve çevresini terk edip kuzeye, Habsburg topraklarındaki Karlofça'ya göç etti (tahminen on binlerce aile). Göç, Kosova'nın etnik demografisini kalıcı biçimde değiştirdi ve modern Sırp-Arnavut anlaşmazlığının köklerinden biri sayılır.",
-  kaynak:"TDV `sirbistan`: 'Patrik Arsenije III. Crnojević, 1690 yılında büyük bir grupla Kosova'yı terkederek Karlofça'ya göç etti.' Gün verilmiyor, YYYY-01-01." },
+  kaynak:"TDV `sirbistan`: 'Patrik Arsenije III. Crnojević, 1690 yılında büyük bir grupla Kosova'yı terkederek Karlofça'ya göç etti.' Gün verilmiyor, YYYY-01-01.", kunye:["sirbistan-eyaleti"] },
 
 { t:"1739-09-18", b:"Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü", tur:"toprak-kazanc",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc"],
   yer_id:"Belgrad",
   d:"1717-1739 arası yirmi iki yıl Habsburg idaresinde kalan Belgrad ve kuzey Sırbistan, Osmanlı-Avusturya savaşını bitiren Belgrad Antlaşması'yla yeniden Osmanlı'ya geçti. dunya puanı kronoloji_habsburg.js'teki aynı olayla eşleştirildi; kronoloji_kirim.js aynı olaya dunya:2 veriyor — iki dosya arasındaki bu çelişki bildirildi (M-1021), burada habsburg değeri alındı.",
-  kaynak:"TDV `avusturya` (kronoloji_habsburg.js'te alıntılanan): 'Avusturya Pasarofça'da kazandığı yerleri…ve Belgrad'ı geri vermiştir.'" },
+  kaynak:"TDV `avusturya` (kronoloji_habsburg.js'te alıntılanan): 'Avusturya Pasarofça'da kazandığı yerleri…ve Belgrad'ı geri vermiştir.'", kunye:["sirbistan-eyaleti"] },
 
 { t:"1766-01-01", b:"Peç Patrikliği kalıcı olarak kaldırıldı", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["din"],
   yer_id:"",
   d:"Peç Patrikliği bu kez kalıcı olarak kaldırıldı ve bölgedeki Sırp kiliseleri yeniden Fener Rum Ortodoks Patrikhânesi'ne bağlandı; Sırp kilisesinin kurumsal özerkliği 1832'ye (Sırp Ortodoks Kilisesi'nin özerklik kazanmasına) kadar kesintiye uğradı.",
-  kaynak:"TDV `sirbistan`: '1766'da kaldırılarak bölgedeki kiliseler yeniden Fener Rum Ortodoks Patrikhânesi'ne bağlandı.'" },
+  kaynak:"TDV `sirbistan`: '1766'da kaldırılarak bölgedeki kiliseler yeniden Fener Rum Ortodoks Patrikhânesi'ne bağlandı.'", kunye:["sirbistan-eyaleti"] },
 
 // ───────────────────────── SIRBİSTAN PRENSLİĞİ (1804-1882) — ulusal hareket, özerklik, bağımsızlık
 
@@ -313,6 +313,6 @@ window.KRONOLOJI_SIRBISTAN = [
   onem:5, dunya:3, kapsam:"dis", etiket:["kurulus","son"],
   yer_id:"Belgrad",
   d:"I. Dünya Savaşı'nın sonunda Sırbistan Krallığı, Avusturya-Macaristan'ın dağılmasından doğan Sloven-Hırvat-Sırp Devleti ile birleşerek Sırp-Hırvat-Sloven Krallığı'nı (sonradan Yugoslavya) kurdu; Sırbistan Krallığı bağımsız bir devlet olarak burada sona erdi. Tarih devletler.js `sirbistan-kralligi` künyesinin t: tarihidir — bu dosyanın kapsamı burada kapanıyor.",
-  kaynak:"devletler.js `sirbistan-kralligi` künyesi (t:'1918-12-01') + TDV `sirbistan` genel anlatısı." },
+  kaynak:"devletler.js `sirbistan-kralligi` künyesi (t:'1918-12-01') + TDV `sirbistan` genel anlatısı.", kunye:["sirbistan-kralligi"] },
 
 ];

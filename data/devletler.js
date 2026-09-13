@@ -151,15 +151,16 @@ window.DEVLETLER = [
 },
 
 { id:"kacar", ad:"Kaçar Hanedanı (İran)", tur:"devlet", bolge:"iran",
-  f:"1789-03-21", t:"1923-10-29", baskent:"Tahran", harita:"kacar",
-  ozet:"Ağa Muhammed Han'ın kurduğu son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: TDV `riza-sah-pehlevi` maddesi hanedanın resmî sonunu \"31 Ocak 1924 tarihinde meclis, Avrupa'da bulunan Ahmed Şah'ı gıyabında tahttan indirerek Kaçar hânedanına son verdi\" diye tarihliyor — 1925 değil 1924 (site ufkunun dışında). Ardılı için bkz. [[iran]]. `harita:` alanı ayrıca aynı gün `\"iran\"`den `\"kacar\"`a çekildi (bkz. `afsar` kaydındaki not — aylardır `afsar` ile aynı anahtarı paylaşıyordu).",
-  kaynak:"kacarlar",
+  f:"1789-03-21", t:"1925-01-01", baskent:"Tahran", harita:"kacar",
+  ozet:"Ağa Muhammed Han'ın kurduğu son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü. Ardılı için bkz. [[iran]]. `harita:` alanı ayrıca aynı gün `\"iran\"`den `\"kacar\"`a çekildi (bkz. `afsar` kaydındaki not — aylardır `afsar` ile aynı anahtarı paylaşıyordu). 🔴 ÇELİŞKİ ÇÖZÜLMEDİ, BİLDİRİLDİ (§4⑥, M-3555, 1.MURAT'ın kendi doğrulaması): (a) künyenin BEYAN ETTİĞİ kaynak `kacarlar` YALNIZ YIL veriyor — \"Kaçar hânedanı sona ermiş oldu (1925)\", gün yok ⇒ t: bu yüzden GÜN DEĞİL YIL hassasiyetinde (1925-01-01), §4'ün 'kaynağın desteklediği en kaba güvenli düzey' kuralı. (b) TDV `riza-sah-pehlevi` maddesi ise \"31 Ocak 1924 tarihinde meclis, Avrupa'da bulunan Ahmed Şah'ı gıyabında tahttan indirerek Kaçar hânedanına son verdi\" diyor — 1925 İLE ÇELİŞİYOR. (c) AMA aynı `riza-sah-pehlevi` maddesinin SONRAKİ iki tarihi (12 Aralık 1925 şehinşah ilanı · 25 Nisan 1926 taç giyme) yaygın tarihlemeyle BİREBİR uyuşuyor — yalnız İLK tarih (31 Ocak 1924 hal') ayrışıyor ve 12 Aralık 1925'e kadar 23 aylık bir boşluk bırakıyor. Hangisinin doğru olduğu BU KAYITTA ÇÖZÜLMÜYOR.",
+  kaynak:"kacarlar (t: için — YALNIZ YIL veriyor) · riza-sah-pehlevi (ÇELİŞEN 31 Ocak 1924 iddiası için, ayrıntı ozet'te) — ikisi de ayrı ayrı okunmalı, bkz. ozet",
   kronoloji:[
     { t:"1789-03-21", tur:"kurulus", b:"Ağa Muhammed Han Kaçar tahta çıktı, Tahran'ı başkent yaptı" },
     { t:"1794-01-01", tur:"birlesme", b:"Zend hanedanına son verildi, İran yeniden birleşti" },
     { t:"1821-01-01", tur:"savas", b:"Osmanlı-İran son savaşı (1823'e dek)" },
     { t:"1823-07-28", tur:"antlasma", b:"Erzurum Antlaşması — sınır düzenlemesi" },
-    { t:"1847-05-31", tur:"antlasma", b:"II. Erzurum Antlaşması — Şattülarap sınır anlaşmazlığı çözüldü" }
+    { t:"1847-05-31", tur:"antlasma", b:"II. Erzurum Antlaşması — Şattülarap sınır anlaşmazlığı çözüldü" },
+    { t:"1925-01-01", tur:"son", b:"Kaçar hânedanı sona erdi (gün belirsiz — bkz. ozet'teki çelişki: kacarlar 1925 diyor, riza-sah-pehlevi 31 Ocak 1924 diyor)", kaynak:"kacarlar — \"Kaçar hânedanı sona ermiş oldu (1925)\"" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — Emre'nin 7 Ağustos kararı: "iran bir devlet
@@ -1529,12 +1530,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"suud-ucuncu", ad:"III. Suûdî Devleti (Necid ve Hicaz Sultanlığı)", tur:"devlet", bolge:"arabistan",
-  f:"1902-01-15", t:"1923-10-29", baskent:"Riyad", harita:"suud",
-  ozet:"Abdülazîz bin Suûd'un Riyad'ı Reşîdîlerden geri almasıyla kurulan, sonradan Suûdî Arabistan Krallığı'na dönüşen devlet; site ufkunun (1923) ötesinde de sürdü. Bkz. [[suud-ikinci]], [[sammar]].",
+  f:"1902-01-15", t:"1932-09-18", baskent:"Riyad", harita:"suud",
+  ozet:"Abdülazîz bin Suûd'un Riyad'ı Reşîdîlerden geri almasıyla kurulan, sonradan Suûdî Arabistan Krallığı'na dönüşen devlet. Bkz. [[suud-ikinci]], [[sammar]]. 🔴 t: DÜZELTİLDİ (M-3555, 1.MURAT/Emre): künyenin KENDİ `ad:` ve bu ozet zaten 'Necid ve Hicaz Sultanlığı' unvanını taşıyor — bu unvan 1926-1932 arasının unvanıdır. t:'yi 1926'da (Hicaz Krallığı ilanı) bitirmek künyenin kendi adıyla ÇELİŞİRDİ; t: bu yüzden TAM BİRLEŞME'yi (Suûdî Arabistan Krallığı ilanı, 1932-09-18) esas alıyor.",
   kaynak:"abdulaziz-b-suud",
   kronoloji:[
     { t:"1902-01-15", tur:"kurulus", b:"Abdülazîz bin Suûd Riyad'ı geri alarak üçüncü Suûdî devletini kurdu" },
-    { t:"1921-11-02", tur:"toprak-kazanc", b:"Şammar (Hâil) emirliğinin teslimiyle Kuzey Necid'e hâkim oldu" }
+    { t:"1921-11-02", tur:"toprak-kazanc", b:"Şammar (Hâil) emirliğinin teslimiyle Kuzey Necid'e hâkim oldu" },
+    { t:"1926-01-08", tur:"antlasma", b:"Hicaz Krallığı ilan edildi (künyenin kendi adı buradan geliyor: 'Necid ve Hicaz Sultanlığı')" },
+    { t:"1932-09-18", tur:"son", b:"Suûdî Arabistan Krallığı ilan edilerek tam birleşme sağlandı" }
   ]
 },
 { id:"sammar", ad:"Şammar (Reşîdî) Emirliği", tur:"devlet", bolge:"arabistan",
@@ -2420,7 +2423,7 @@ window.DEVLETLER = [
     { t:"1815-06-09", tur:"kayip", b:"Viyana Kongresi nihaî senedi — dukalık dağıtıldı, toprakları Rusya, Prusya ve Avusturya arasında paylaşıldı" }
   ]
 },
-{ id:"kongre-polonyasi", ad:"Kongre Polonyası (Kraliyet Polonyası)", tur:"kralik", bolge:"dogu-avrupa",
+{ id:"kongre-polonyasi", ad:"Kongre Polonyası (Kraliyet Polonyası)", tur:"krallik", bolge:"dogu-avrupa",
   f:"1815-06-09", t:"1917-03-15", baskent:"Varşova", harita:"kongre-polonyasi",
   ozet:"Viyana Kongresi'nin Varşova Dukalığı topraklarından kurduğu, Rus çarının aynı zamanda Polonya kralı olduğu krallık; 1830 ve 1863 ayaklanmalarından sonra özerkliği kademeli olarak kaldırıldı ve Vistül Ülkesi'ne çevrildi. Bkz. [[varsova-dukaligi]] (öncülü) ve [[polonya]] (1918).",
   kaynak:"polonya — TDV; kuruluş günü TDV'nin kendi verdiği «Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî belgesi». ⚠️ BİTİŞ GÜNÜ TDV'DE YOK: gövde taramasında «1867» hiç geçmiyor. `t:1917-03-15` TDV'den DEĞİL, atlasın kendi modelinden (Rus Çarlığı künyesinin sonu) türetildi — açıkça yazılıyor.",
@@ -6240,13 +6243,15 @@ window.DEVLETLER = [
   ]
 },
 { id:"mogolistan", ad:"Moğolistan (Bogd Hanlık)", tur:"hanlik", bolge:"dogu-asya",
-  f:"1911-12-29", t:"1923-10-29", baskent:"Urga (Ulan Batur)", harita:"mogolistan",
-  ozet:"Qing'in çöküşüyle Dış Moğolistan Bogd Han önderliğinde muhtariyetini ilân etti; 1919-1921 arasında Çin işgali ve iç savaşın ardından 1921'de bağımsızlığını kazandı. TDV kapsamı dışında (Doğu Asya), standart akademik kaynağa göre yazıldı. ⚠️ TDV'nin `mogolistan` maddesi Çağatay sonrası MOĞULİSTAN'ı anlatır, modern Moğolistan'ı değil.",
+  f:"1911-12-29", t:"1924-11-26", baskent:"Urga (Ulan Batur)", harita:"mogolistan",
+  ozet:"Qing'in çöküşüyle Dış Moğolistan Bogd Han önderliğinde muhtariyetini ilân etti; 1919-1921 arasında Çin işgali ve iç savaşın ardından 1921'de bağımsızlığını kazandı. TDV kapsamı dışında (Doğu Asya), standart akademik kaynağa göre yazıldı. ⚠️ TDV'nin `mogolistan` maddesi Çağatay sonrası MOĞULİSTAN'ı anlatır, modern Moğolistan'ı değil. 🔴 t: DÜZELTİLDİ (M-3555, 1.MURAT/Emre): Bogd Han 1924-05-20'de ÖLDÜ ama HANLIK KURUMU o gün bitmedi — resmî/hukukî son, Moğolistan Halk Cumhuriyeti'nin ilan edildiği ve monarşinin resmen kaldırıldığı 1924-11-26'dır. Hükümdarın ölümü kurumu bitirmez.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1911-12-29", tur:"kurulus", b:"Bogd Han tahta çıktı: Dış Moğolistan muhtariyetini ilân etti" },
     { t:"1919-11-22", tur:"kayip", b:"Çin kuvvetleri Urga'ya girdi, muhtariyet kaldırıldı" },
-    { t:"1921-07-11", tur:"kurulus", b:"Halk hükümeti kuruldu: Moğolistan bağımsızlığını ilân etti" }
+    { t:"1921-07-11", tur:"kurulus", b:"Halk hükümeti kuruldu: Moğolistan bağımsızlığını ilân etti" },
+    { t:"1924-05-20", tur:"hukumdar", b:"Bogd Han öldü (kurumun sonu DEĞİL — ara dönem fiilen sürdü)" },
+    { t:"1924-11-26", tur:"son", b:"Moğolistan Halk Cumhuriyeti ilan edildi, monarşi resmen kaldırıldı" }
   ]
 },
 { id:"afgan-durrani", ad:"Dürrânî (Afgan) Devleti", tur:"devlet", bolge:"orta-asya",
@@ -7516,11 +7521,11 @@ window.DEVLETLER = [
     { t:"1697-01-01", tur:"hanedanlik", b:"Ma'n hanedanının son emiri Ahmed çocuksuz öldü, Dürzî ileri gelenleri Beşîr Şihâbî'yi emir seçti", kaynak:"TDV lubnan — \"Halefi olan oğlu Ahmed'in 1697'de geride çocuk bırakmadan ölmesiyle Lübnan'daki Ma'noğulları dönemi sona erdi\"" },
     { t:"1842-01-01", tur:"son", b:"Şihaboğulları'nın yönetimi sona erdi, bölge doğrudan Osmanlı yönetimine döndü", kaynak:"TDV lubnan — \"Böylece Lübnan'daki Şihâbî ailesinin yönetimi sona erdi\"" }
   ] },
-{ id:"cebel-i-lubnan-mutasarrifligi", ad:"Cebel-i Lübnan Mutasarrıflığı", tur:"devlet", bolge:"arabistan",
+{ id:"cebel-i-lubnan-mutasarrifligi", ad:"Cebel-i Lübnan Mutasarrıflığı", tur:"mutasarriflik", bolge:"arabistan",
   f:"1861-06-09", t:"1915-07-11", baskent:"Beyteddin (1888'de Ba'abda'ya taşındığı iddiası bulunamadı, standart kaynaktan)", harita:"cebel-i-lubnan-mutasarrifligi",
   tabi:[{f:"1861-06-09", t:"1915-07-11", ust:"osmanli"}],
   ozet:"1860 Dürzî-Maruni çatışmaları sonrası Avrupa devletlerinin baskısıyla kurulan, Osmanlı tebaası olmayan Hıristiyan bir valinin (mutasarrıf) yönettiği, uluslararası garantili özerk Osmanlı sancağı; I. Dünya Savaşı'nda Osmanlı tarafından tek taraflı feshedildi. Aynı sebeple (nokta yok) lubnan-emirligi ile AYNI görsel boşluğu taşıyor.",
-  kaynak:"TDV `lubnan` (aynı madde, ayrı bölüm). 🔴 tur: ÖNERİ — mevcut 18 değerli sözlükte 'mutasarrıflık' yok; mutasarrıflık hanedan değil ATANMIŞ (yabancı devletlerce onaylı, Lübnanlı-olmayan Hıristiyan) bir vali sistemi olduğundan 'prenslik' de uymuyor. Güvenli varsayılan 'devlet' yazıldı — sözlüğe 'mutasarriflik' eklenmesi ÖNERİLİYOR, karar Emre'nin.",
+  kaynak:"TDV `lubnan` (aynı madde, ayrı bölüm). 🟢 tur:\"mutasarriflik\" UYGULANDI (M-3555, Emre onayı) — geçici tur:\"devlet\" yerine. Gerekçe (Emre): 1861 Reglement Organique ile kurulan, Hıristiyan vali + uluslararası garantili özerk sancak; sıradan bir vilayet değil. Sözlük VERI-YAPISI.md'de de güncellendi (bkz. tur alan tablosu).",
   kronoloji:[
     { t:"1861-06-09", tur:"kurulus", b:"Cebel-i Lübnan Nizamnâmesi imzalandı, mutasarrıflık kuruldu", kaynak:"TDV lubnan — \"9 Haziran 1861'de imzalanmış ve ardından bir fermanla yürürlüğe konmuştur\"" },
     { t:"1915-07-11", tur:"son", b:"Osmanlı Devleti mutasarrıflığı tek taraflı olarak feshetti", kaynak:"TDV lubnan — \"Osmanlı Devleti tarafından 11 Temmuz 1915'te tek taraflı olarak ilga edilmiş\"" }

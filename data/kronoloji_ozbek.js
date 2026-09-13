@@ -327,7 +327,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["askeri","son","buhara"],
   yer_id:"Buhara",
   d:"Sovyet Kızıl Ordusu'nun Buhara'yı ele geçirmesiyle son emir Alim Han Afganistan'a kaçtı, Buhara Halk Sovyet Cumhuriyeti ilan edildi; 420 yıllık Özbek hanlıkları geleneğinin Buhara kolu böylece resmen sona erdi.",
-  kaynak:"TDV, madde: buhara-hanligi" },
+  kaynak:"TDV, madde: buhara-hanligi", kunye:["buhara"] },
 
 // ══════════════ HÎVE (HARZEM) HANLIĞI (1512-1920) ══════════════
 
@@ -605,7 +605,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["askeri","diplomasi","osmanli-temasi","buhara"],
   yer_id:"",
   d:"Sadrazam Sokullu Mehmed Paşa'nın planladığı Don-Volga kanal seferi, Astrahan'ı kuşattı; kuşatma Eylül 1569'da terk edildi. Seferin gerekçelerinden biri, Orta Asyalı Müslümanların hac yolunu ve Osmanlı-Mâverâünnehir ticaret/diplomasi hattını Rus ilerleyişine karşı güvence altına almaktı — Şeybânî/Canoğulları Buhara'sıyla 16. yüzyıl boyunca süren mektuplaşmaların jeopolitik arka planı budur. `dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
-  kaynak:"kronoloji_rusya.js ile çapraz doğrulandı (aynı olay, Osmanlı-Rusya perspektifiyle orada da kayıtlı)" },
+  kaynak:"kronoloji_rusya.js ile çapraz doğrulandı (aynı olay, Osmanlı-Rusya perspektifiyle orada da kayıtlı)", kunye:[] },
 
 { t:"1779-01-01",
   b:"Buhara'dan Osmanlı'ya ilk büyük elçilik",

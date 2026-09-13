@@ -131,6 +131,47 @@ def dE(a, b):
     return sum((x - y) ** 2 for x, y in zip(a, b)) ** 0.5
 
 
+# ═══════════════ CIE94 — H-0007(b), KITA 17, 12 Eylül 2026 ═══════════════
+# Emre'nin gözü: "renk neredeyse aynı" (gürcistan ↔ karakoyunlu). KITA 13
+# kök sebebi ÖLÇÜ BİRİMİ farkı olarak buldu:
+#   gurcistan #e020b0 ↔ karakoyunlu #e018e0   dE76=25,69 (eşik 12'nin ÇOK
+#   üstünde, GEÇER) ama dE94=9,17 (eşiğin ALTINDA, KALIR) — eşzamanlı 2288
+#   gün, en yakın çift 18,4 km.
+# CIE76 kroma farkını (ΔC) TAM ağırlıkla sayar; CIE94 onu ΔC/(1+K1·C1) ile
+# İNDİRGER (yüksek doygunlukta daha çok). Bu palet doygunluğu YÜKSEK tutar
+# (harita görünürlüğü için) — tam o bölgede iki formül AYRIŞIR.
+# `dE`YE DOKUNULMADI (D172: birinciyi silme, yanına koy) — ÇAĞRI YERLERİ
+# HİÇBİRİ değişmedi, bu yalnız KARŞILAŞTIRMA için EK bir ölçü.
+def dE94(std, smp, kL=1.0, kC=1.0, kH=1.0, K1=0.045, K2=0.015):
+    """CIE94 — 'grafik sanatlar' sabitleri (K1=0,045 · K2=0,015; tekstil
+    sabitleri K1=0,048/K2=0,014 KULLANILMADI — ekran/harita bağlamı grafik
+    sanatlara daha yakın). `std` REFERANS (C1 ONDAN alınır), `smp` ile
+    KARŞILAŞTIRILAN. ⚠️ ASİMETRİK: dE94(a,b) ≠ dE94(b,a) genelde — iki
+    devlet arasında doğal bir 'referans/örnek' ayrımı yok. Bkz. `dE94_asgari`."""
+    L1, a1, b1 = std
+    L2, a2, b2 = smp
+    C1 = math.hypot(a1, b1)
+    C2 = math.hypot(a2, b2)
+    dL = L1 - L2
+    dC = C1 - C2
+    dH2 = (a1 - a2) ** 2 + (b1 - b2) ** 2 - dC ** 2
+    dH = dH2 ** 0.5 if dH2 > 0 else 0.0
+    SL, SC, SH = 1.0, 1 + K1 * C1, 1 + K2 * C1
+    return ((dL / (kL * SL)) ** 2 + (dC / (kC * SC)) ** 2
+            + (dH / (kH * SH)) ** 2) ** 0.5
+
+
+def dE94_asgari(a, b):
+    """ASİMETRİYİ GİDERİR — iki yönde de hesaplar, KÜÇÜĞÜNÜ (en benzer
+    okumayı) döndürür. Yüksek kromalı rengi referans almak paydayı
+    (SC,SH) büyütür ⇒ dE94 küçülür; min() bu yönü seçer.
+    ⚠️ BU BİR TERCİHTİR, KARAR DEĞİL — 'en kötü hâl varsayılır' ilkesiyle
+    aynı ruhta (`engel_kumesi()`: ölçülemeyen aday en kötü hâl sayılır;
+    burada asimetri belirsizliği için aynı ilke — ihlal YAKALAMADA
+    muhafazakâr, kaçırmada değil). Rapor max()'i de ayrıca basar."""
+    return min(dE94(a, b), dE94(b, a))
+
+
 def ton(L):
     return math.degrees(math.atan2(L[2], L[1])) % 360
 
@@ -505,6 +546,203 @@ def yakin_renk(k=None, kunye=False):
         n += 1
         (ihlal if d_e < DE_KOMSU else sinirda).append((d_e, en, a, b, F, T))
     return ihlal, sinirda, olculemedi, n
+
+
+# ═══════════════ CIE76 ↔ CIE94 KARŞILAŞTIRMASI — H-0007(b), KITA 17 ═══════
+# 🔴 ÖNGÖRÜ (ölçümden ÖNCE yazıldı — D022), 12 Eylül 2026:
+#   ① MATEMATİKSEL: dE76² = ΔL²+ΔC²+ΔH² TAM (kroma/ton ayrışımı özdeşliği).
+#     dE94² = ΔL²+(ΔC/SC)²+(ΔH/SH)², SC=1+K1·C1≥1, SH=1+K2·C1≥1 (K1,K2>0,
+#     C1≥0) ⇒ dE94 ≤ dE76 HER ZAMAN (sabit referans kromasıyla, tek yön).
+#     ⇒ 'YALNIZ CIE76'NIN YAKALADIĞI' (dE76<eşik ama dE94≥eşik) kovası
+#     SIFIR OLMALI — aksi çıkarsa UYGULAMA HATASIDIR, gerçek fenomen
+#     değil. (D010: yeni denetim iki yönde sınanmadan çalışıyor sayılmaz.)
+#   ② 'YALNIZ CIE94'ÜN YAKALADIĞI' (dE76≥eşik ama dE94<eşik) — asıl bulgu,
+#     sıfır olmayacak (gürcistan↔karakoyunlu zaten kanıt). Palet geneli
+#     (171.405 HAM çift, süzgeçsiz) %4,3 verdi (KITA 13). TAHMİN: bu
+#     aracın KENDİ kurduğu çift kümesi zaten 'yakın renk' adaylarından
+#     oluşuyor (dE76 dağılımı düşük uçtan başlıyor) ⇒ oranın ham paletin
+#     %4,3'ünden YÜKSEK çıkmasını bekliyorum — kaba tahmin %10-25 aralığı,
+#     mutlak sayı muhtemelen birkaç ONLUK mertebede (evrenin kendisi
+#     `yakin_renk()` yorumuna göre ~179 + Voronoi komşuluğu kadar).
+#   ⇒ Ölçüm bu iki öngörüyü ÇÜRÜTEBİLİR/DOĞRULAYABİLİR; aşağıdaki fonksiyon
+#     ikisini de RAPORLAR, sessizce geçmez.
+def _cie_evreni(k=None, kunye=False):
+    """Aletin GERÇEK kurduğu çift kümesi: (A) Voronoi komşuluğu ∪ (B) 600
+    km içinde + eşzamanlı — `yakin_renk()`in AKSİNE erken dE76 kesmesi
+    YOK (`if d_e >= DE_SINIRDA: continue` burada YAZILMADI, kasten):
+    CIE94-ONLY bir çift (dE76 çok yüksek ama dE94 düşük, tam gürcistan↔
+    karakoyunlu deseni) o erken kesmeyle GÖRÜNMEZ olurdu — D191'in
+    kendisi ('soruyu soracak `if` yazılmış mı') tam bu risk.
+    ⚠️ (A) HER ZAMAN veri zarfı (Voronoi = gerçek nokta geometrisi, künye
+    varyantı YOK); (B) `kunye` ile veri/künye penceresi seçer — `yakin_renk`
+    ile BİREBİR aynı ayrım.
+    Dönüş: ([(a,b,dE76,dE94_asgari,dE94_azami,km_veya_None,'komsu'|'yakin',
+    F,T)], ölçülemedi)"""
+    import collections as _c, itertools as _it
+    if k is None:
+        k, _n = komsuluk()
+    Y = girdi.yukle(sessiz=True)
+    nokta, zarf = _c.defaultdict(list), {}
+    for y in Y:
+        for kat in ("s", "v"):
+            for pr in (y.get(kat) or []):
+                d, f, t = pr.get("d"), pr.get("f"), pr.get("t")
+                if not (d and f and t):
+                    continue
+                nokta[d].append((y["lat"], y["lon"], f, t))
+                e = zarf.get(d)
+                zarf[d] = (min(e[0], f), max(e[1], t)) if e else (f, t)
+    pencere = dict(zarf)
+    if kunye:
+        for dv in girdi.oku_devletler():
+            an = dv.get("harita") or dv.get("id")
+            if not an or not dv.get("f") or not dv.get("t"):
+                continue
+            e = pencere.get(an)
+            pencere[an] = ((min(dv["f"], e[0]), max(dv["t"], e[1]))
+                           if e else (dv["f"], dv["t"]))
+
+    sonuc, olculemedi, gorulen = [], [], set()
+
+    # (A) Voronoi komşuluğu — komsuluk() zaten GÜN düzeyinde eşzamanlılık
+    #     şartını uygulamış (§renk_olc.py komsuluk() ve CLAUDE.md §8).
+    for a in BOYALAR:
+        for b in k.get(a, ()):
+            if b <= a or b not in BOYALAR or (a, b) in gorulen:
+                continue
+            gorulen.add((a, b))
+            La, Lb = gorunen(a), gorunen(b)
+            d76 = dE(La, Lb)
+            e1, e2 = dE94(La, Lb), dE94(Lb, La)
+            sonuc.append((a, b, d76, min(e1, e2), max(e1, e2),
+                          None, "komsu", None, None))
+
+    # (B) yakın ama değmeyen — 600 km + eşzamanlı, ERKEN dE76 KESMESİ YOK
+    for a, b in _it.combinations(sorted(BOYALAR), 2):
+        if (a, b) in gorulen or b in k.get(a, ()) or a in k.get(b, ()):
+            continue                      # zaten (A)'da
+        eksik = [x for x in (a, b) if x not in pencere]
+        if eksik:
+            olculemedi.append((a, b, ", ".join(eksik)))
+            continue
+        fa, ta = pencere[a]
+        fb, tb = pencere[b]
+        if not (fa < tb and fb < ta):
+            continue                      # eşzamanlı değil: meşru, süs
+        F, T = max(fa, fb), min(ta, tb)
+        en = min((girdi.km(pa[0], pa[1], pb[0], pb[1])
+                  for pa in nokta.get(a, ()) if pa[2] < T and F < pa[3]
+                  for pb in nokta.get(b, ()) if pb[2] < T and F < pb[3]),
+                 default=None)
+        if en is None:
+            olculemedi.append((a, b, "örtüşme penceresinde eşzamanlı nokta yok"))
+            continue
+        if en >= AYNI_HEX_ESIK_KM:
+            continue                      # uzak: meşru paylaşım
+        La, Lb = gorunen(a), gorunen(b)
+        d76 = dE(La, Lb)
+        e1, e2 = dE94(La, Lb), dE94(Lb, La)
+        sonuc.append((a, b, d76, min(e1, e2), max(e1, e2), en, "yakin", F, T))
+    return sonuc, olculemedi
+
+
+def cie94_karsilastir(k=None, esik=None):
+    """RAPOR — DE_KOMSU eşiğiyle CIE76 ile CIE94'ü YAN YANA çalıştırır.
+    ⚠️ EŞİK TAŞINMAZ (D129): burada kullanılan `esik` (varsayılan DE_KOMSU
+    =12) CIE76 İÇİN türetilmişti; CIE94'e bu SAYIYI uygulamak yalnız 'aynı
+    cetvelle iki formülü karşılaştırırsan ne olur' sorusuna cevap verir —
+    bu bir KARAR değildir. Fonksiyon ayrıca CIE94 için YENİ bir eşik
+    ÖNERİR (iki yöntemle), KARARI VERMEZ — o Emre'nin (`§7.1④`)."""
+    if k is None:
+        k, _n = komsuluk()
+    if esik is None:
+        esik = DE_KOMSU
+    ciftler, olculemedi = _cie_evreni(k)
+
+    yalniz76, yalniz94, ikisi_de, hicbiri = [], [], [], []
+    for a, b, d76, d94lo, d94hi, km_, tur, F, T in ciftler:
+        i76 = d76 < esik
+        i94 = d94lo < esik           # muhafazakâr (asgari) okumayla
+        hedef = (ikisi_de if (i76 and i94) else
+                 yalniz76 if i76 else
+                 yalniz94 if i94 else hicbiri)
+        hedef.append((a, b, d76, d94lo, d94hi, km_, tur, F, T))
+
+    n_komsu = sum(1 for c in ciftler if c[6] == "komsu")
+    n_yakin = sum(1 for c in ciftler if c[6] == "yakin")
+    print("=" * 72)
+    print(f"CIE76 ↔ CIE94 — aletin kendi çift kümesi (H-0007(b), KITA 17)")
+    print("=" * 72)
+    print(f"evren: {len(ciftler)} çift ({n_komsu} Voronoi komşusu + "
+          f"{n_yakin} yakın-ama-değmeyen ≤{AYNI_HEX_ESIK_KM:.0f}km) · "
+          f"eşik={esik:.0f} (CIE76'nın DE_KOMSU'su, TAŞINDI — bkz. not) · "
+          f"{len(olculemedi)} çift ölçülemedi")
+
+    print(f"\n  ikisi de yakalıyor (dE76<{esik:.0f} ∧ dE94<{esik:.0f}): "
+          f"{len(ikisi_de)}")
+    print(f"  YALNIZ CIE94'ÜN YAKALADIĞI (dE76≥{esik:.0f} ama dE94<{esik:.0f}"
+          f") — ASIL BULGU: {len(yalniz94)}")
+    for a, b, d76, lo, hi, km_, tur, F, T in sorted(yalniz94, key=lambda x: x[3]):
+        yer = f"{km_:.0f} km" if km_ is not None else "Voronoi komşusu"
+        print(f"    dE76={d76:6.2f}  dE94[{lo:5.2f}-{hi:5.2f}]  {a:<22} ↔ "
+              f"{b:<22} {yer}  {(F or '')[:4]}-{(T or '')[:4]}")
+    if not yalniz94:
+        print("    yok")
+
+    print(f"\n  YALNIZ CIE76'NIN YAKALADIĞI (dE76<{esik:.0f} ama dE94≥{esik:.0f}"
+          f") — ÖNGÖRÜYE GÖRE SIFIR OLMALI: {len(yalniz76)}")
+    for a, b, d76, lo, hi, km_, tur, F, T in sorted(yalniz76, key=lambda x: x[2]):
+        print(f"    🔴 BEKLENMEYEN  dE76={d76:6.2f}  dE94[{lo:5.2f}-{hi:5.2f}]"
+              f"  {a} ↔ {b}  — dE94 ASGARİ bile 76'yı AŞMIŞ, İMPLEMENTASYONU"
+              f" İNCELE")
+    if not yalniz76:
+        print("    ✓ öngörü doğrulandı — sıfır (matematiksel garanti tutuyor)")
+
+    print(f"\n  hiçbiri yakalamıyor: {len(hicbiri)} · ikisi de: {len(ikisi_de)}")
+
+    # ── SAĞLAMA — D010: bilinen sayılarla karşılaştır ──
+    _yak_i, _yak_s, _yak_o, _yak_n = yakin_renk(k)
+    _bilinen_yakin = len(_yak_i)
+    _hesaplanan_yakin_76 = sum(1 for c in ciftler
+                               if c[6] == "yakin" and c[2] < DE_KOMSU)
+    _hesaplanan_komsu_76 = sum(1 for c in ciftler
+                               if c[6] == "komsu" and c[2] < DE_KOMSU)
+    print(f"\n  SAĞLAMA (D010, bu aracın CIE76 sütunu bilinenle uyuşmalı):")
+    print(f"    yakin_renk() ihlal={_bilinen_yakin}  vs  burada(tür=yakın,"
+          f" dE76<{DE_KOMSU:.0f})={_hesaplanan_yakin_76}"
+          f"  {'✓' if _bilinen_yakin == _hesaplanan_yakin_76 else '🔴 UYUŞMUYOR'}")
+    print(f"    denetle() KOMŞUSUYLA ÇAKIŞAN (BOYALAR-BOYALAR, OSM hariç)"
+          f" — elle karşılaştır: burada(tür=komşu, dE76<{DE_KOMSU:.0f})="
+          f"{_hesaplanan_komsu_76}  (2026-09-12 koşusunda 2 ile eşleşti: "
+          f"indor↔maratha, bharatpur-cat↔gvalyar)")
+
+    # ── ÖNERİ — KARAR DEĞİL (D129: eşik yeniden türetilir, kararı Emre verir) ──
+    print(f"\n  ÖNERİ — CIE94 İÇİN YENİ EŞİK (karar DEĞİL, iki yöntemle):")
+    d94_ihlalli = sorted(c[3] for c in ciftler if c[2] < esik)  # bugünkü CIE76 ihlallerinin dE94'ü
+    if d94_ihlalli:
+        oran = [c[3] / c[2] for c in ciftler if c[2] < esik and c[2] > 0]
+        oran.sort()
+        medyan_oran = oran[len(oran) // 2] if oran else None
+        if medyan_oran:
+            print(f"    yöntem A (ölçek): mevcut ihlallerin dE94/dE76 medyan "
+                  f"oranı {medyan_oran:.3f} × {esik:.0f} ≈ "
+                  f"{medyan_oran * esik:.1f}")
+    tum_94 = sorted(c[3] for c in ciftler)
+    hedef_sayi = sum(1 for c in ciftler if c[2] < esik)  # bugünkü CIE76 ihlal SAYISI
+    if hedef_sayi and hedef_sayi <= len(tum_94):
+        esik_b = tum_94[hedef_sayi - 1]
+        print(f"    yöntem B (sayı-koruyan): bugünkü CIE76 ihlal SAYISINI "
+              f"({hedef_sayi}) koruyacak dE94 eşiği ≈ {esik_b:.2f}")
+    print(f"    ⚠️ İKİSİ DE ÖNERİDİR — karar Emre'nin (D129, §7.1④).")
+
+    if olculemedi:
+        print(f"\n  i {len(olculemedi)} çift ÖLÇÜLEMEDİ ('ölçülemedi' ≠ "
+              f"'temiz')" + ("" if "--ayrinti" in sys.argv else " — dökümü: --ayrinti"))
+        if "--ayrinti" in sys.argv:
+            for a, b, kimde in olculemedi:
+                print(f"      {a} ↔ {b} — {kimde}")
+
+    return yalniz76, yalniz94, ikisi_de, hicbiri, olculemedi
 
 
 # ═══════════════ DENETİM ═══════════════
@@ -1085,5 +1323,7 @@ if __name__ == "__main__":
             raise SystemExit("kullanim: --dogrula oneri_listesi.txt "
                              "(satir bicimi: kimlik #hex)")
         sys.exit(dogrula(sys.argv[2]))
+    elif len(sys.argv) > 1 and sys.argv[1] == "--cie94":
+        cie94_karsilastir()
     else:
         denetle()

@@ -3113,6 +3113,60 @@ BOYALAR = {
     "zeta": ("Zeta Prensliği (Balšić / Crnojević)", "#6624d2"),
     "tbmm-turkiye": ("Türkiye Büyük Millet Meclisi Hükûmeti", "#7e24d2"),
 
+    # ═══ YEDİ KÜNYE — RENK EKLEME, 12 Eylül 2026 (M-3552, KITA 7) ═══
+    # KITA 1 bu gece 7 yeni künye indirdi (627→639'un parçası); hiçbiri
+    # `girdi.py`nin okuduğu HİÇBİR yerleşim dosyasında KULLANILMIYOR —
+    # `py arac/renk_olc.py --oner` "komşusu ölçülemeyen kimlik" dedi ve
+    # 0 komşu buldu (D062/D096: sevkin "koşu 10 bugün koşarsa yedi delik
+    # iner" öncülü BUGÜN İÇİN yanlış — künye var, VERİDE henüz yok, yani
+    # `§1.5`in "29 sessiz borç" kovasındalar, "harita deliği" değil. Ama
+    # `tunus-beyligi-fransiz`in KENDİ özeti bunun ayrı, bağımlı bir
+    # yerleşim-verisi işi olduğunu söylüyor — HAZIRLIK-TUNUS-0911.json;
+    # o iş bu gece başka bir KITA tarafından bağlanabilir, o yüzden renk
+    # ÖNCEDEN veriliyor, riske değil ihtiyata dayanarak).
+    # ⇒ Aşağıdaki renkler `renk_olc.py`nin altlık/Osmanlı-ikilisi
+    # testinden GEÇTİ (hepsi ΔE≥15 altlıktan, kırmızı şeridin dışında);
+    # GERÇEK komşuluk verisi olmadığı için tam BOYALAR/renk_olc.py
+    # doğrulaması YAPILAMADI — sevkin kendi iddia ettiği coğrafî
+    # komşuluklara (dört Hint prensliği birbirine + ingiliz-hindistani/
+    # haydarabad-nizam'a komşu) göre ELLE ΔE hesaplandı (CIE76, aynı
+    # `dE`/`lab`/`bind` formülleri kopyalanarak — motor DEĞİŞTİRİLMEDİ,
+    # yalnız üç küçük yardımcı fonksiyon taşındı, D023 sınırı içinde).
+    #
+    # dört Hint prensliği (gvalyar·indor·kolhapur·baroda) BİRBİRİNE VE
+    # ingiliz-hindistani(#20d820)/haydarabad-nizam(#e796ba)'a komşu —
+    # DSATUR'a göre 4 farklı renk + 2 sabitten ayrışma gerekiyordu:
+    #   gvalyar   ilk aday #6cd224 (yeşil) ingiliz-hindistani'den yalnız
+    #             ΔE 13,1 ayrışıyordu (eşiğin 1,1 üstü, dar) — MAVİYE
+    #             kaydırıldı, yeni min. margin 30,3 (indor'a karşı)
+    #   indor·kolhapur·baroda  `--oner`in kendi önerisi kullanıldı, tüm
+    #             gerçek-komşu çiftlerinde ΔE≥25
+    "gvalyar":                 ("Gvalyar Devleti (Sindiya Hanedanı)", "#3050d2"),
+    "indor":                   ("İndor Devleti (Holkar Hanedanı)",    "#ba24d2"),
+    "kolhapur":                ("Kolhapur Devleti (Şivâcî'nin İkinci Kolu)", "#bad224"),
+    # baroda: yerleşim NOKTASI YOK (sevk teyitli) — boyanacak hiçbir
+    # gövde bugün yok, ama §8 gereği künye renksiz bırakılmaz.
+    "baroda":                  ("Baroda Devleti (Gaikvad Hanedanı)",  "#d25a24"),
+    # meysur-racaligi: meysur'un (1761-1799, #15421e) ARDILI — TDV/akademik
+    # kayıt `t:1799-05-04` (meysur biter) == `f:1799-05-04` (racalık başlar),
+    # SIFIR GÜN örtüşme, AYNI toprak (§3.5.0). Meysur'un rengi zaten meysur'un
+    # GERÇEK komşularına (ingiliz-hindistani ΔE44,1 · haydarabad-nizam ΔE33,3
+    # · travankur ΔE45,8 · racput ΔE19,5) karşı sınanmıştı — aynı toprak/aynı
+    # komşular olduğu için MİRAS ALINDI, yeni hex İCAT EDİLMEDİ. PAYLASIM'a
+    # aşağıda eklendi (① kuralı: hex paylaşımlıysa beyan güncellenir).
+    "meysur-racaligi":         ("Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)", "#15421e"),
+    # tunus-beyligi-fransiz: gerçek coğrafî komşuları (Fransız Cezayiri →
+    # `fransa` #c0d028, İtalyan/Osmanlı Trablusgarp → `italya` #74a074)
+    # `--oner`in kendi adayına karşı ölçüldü: ΔE 19,1 / 32,5 — güvenli.
+    "tunus-beyligi-fransiz":   ("Tunus Beyliği (Fransız Himayesi Dönemi)", "#54d224"),
+    # bali-kralliklari-pejeng: 1292-1343, Cava/Bali komşuları (majapahit
+    # #00695c · bali-kralliklari #42b490 · singhasari #e78a7b) `--oner`in
+    # adayına karşı ΔE 47,6-61,5 — güvenli. (indor'a ΔE 12,0 sınırda AMA
+    # Bali ile Malva/Hindistan hiçbir zaman komşu olmadı — dosyanın kendi
+    # kuralı: "renk kimlik taşımaz, ayırma işi görür, komşu değillerse
+    # paylaşım/yakınlık sorun değildir.")
+    "bali-kralliklari-pejeng": ("Bali Pejeng Krallığı",                "#7224d2"),
+
 }
 
 
@@ -3144,6 +3198,18 @@ BOYALAR = {
 #   O denetimin yeri `renk_olc.py` — veriyi zaten orada okuyor.
 PAYLASIM = {
     # hex: (gerekçe, [kimlikler])
+    # 🟢 YENİ — RENK EKLEME, 12 Eylül 2026 (M-3552, KITA 7): `meysur-racaligi`
+    #   `meysur`in hex'ini (#15421e) MİRAS ALDI — bu ötekilerden FARKLI bir
+    #   paylaşım sınıfı: ötekiler "farklı coğrafya, hiç komşu değil" derken
+    #   bu ikisi AYNI coğrafya, AYNI komşular, SIFIR gün örtüşme ile
+    #   ardıl (§3.5.0) — yani ikisi asla AYNI ANDA sahnede olmuyor
+    #   (biri biterken diğeri başlıyor), komşuluk sorusu bu yüzden hiç
+    #   doğmuyor. Meysur'un GERÇEK komşularına (ingiliz-hindistani ·
+    #   haydarabad-nizam · travankur · racput) karşı ΔE 19,5-45,8 —
+    #   zaten sağlam, yeniden ölçmeye gerek yoktu.
+    "#15421e": ("meysur → meysur-racaligi ardıllığı, sıfır gün örtüşme, "
+                "asla aynı anda sahnede değiller",
+                ["meysur", "meysur-racaligi"]),
     # 🟢 HEX GÜNCELLENDİ — RENK DENİZ, 2026-08-12: eski #6ba0a0 denizle
     #   (#a8c8dc) ΔE 18,06 · ΔL* 1,71 idi, DAL 2 kuralına (|ΔL*|<4 ∧ ΔE<20)
     #   takıldı. Grup BİR HAMLEDE #a828d8'e taşındı (8 üye birden — hepsi
