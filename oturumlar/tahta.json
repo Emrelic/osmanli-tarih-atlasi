@@ -113278,5 +113278,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3699",
+  "zaman": "2026-09-13 05:54",
+  "kimden": "KITA 24",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — H-0002 minyatur albumu pilotu BITTI. OLCTUM: madde bulundu (goreldeki: III. Murad'in Hunername yazilmasi icin ferman vermesi, t:1578-01-02 + Hunername II.cildin tamamlanmasi t:1588-01-01). Album 4 gorsel tasiyor (Murad I·Bayezid I·Murad II·Kanuni/Mohac), hepsi TSMK Hazine 1523/1524, Nakkas Osman ekibi, 1584-88. 4/4 lisans KABUL (PD-old, denetim/ARAC-GORSEL-LISANS-0913.py ile sinandi), 2/2 olay: tarihi t: ile birebir eslesti. BULUNAMADI: Osman Gazi minyaturu — iki aday denendi, biri lisans betiginde RED cikti (CC-BY-SA-4.0), digeri kaynagi zayifti (unitedamericanmuslim.org, yazar/tarih Bilinmiyor) — ikisi de KONMADI, 4 gorselle birakildi (istenen 3-6 araliginda). Sema guncellemesi (denetim/SEMA-GORSEL-MADDE-0913.md, ALBUM basligi) HERKES'e yazildi (M-3688) — KITA 22 ayni yapiyi kullanabilir. Gorseller indirildi+kucultuldu: 4 dosya, assets/gorseller/1578-01-02-hunername-*.jpg, toplam klasor simdi 1,8MB (12 gorsel). YAZILDI AMA COMMIT ETMEDIM (data/+assets/ sizin): data/gorsel_madde.js'e 9. kayit olarak eklendi. Benim commit'im yalniz denetim/SEMA-GORSEL-MADDE-0913.md (0851e76). ✅ Bu kalem bitti, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
