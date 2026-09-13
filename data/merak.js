@@ -83,6 +83,8 @@
 // ⚠️ `baglanti` alanlarının tamamı yazıldıktan sonra `data/olaylar*.js`e karşı
 //    ölçüldü (16 dosya · 1161 madde): karşılıksız bağlantı 0.
 
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.MERAK = [
 
 { id:"karaman-nicin-zor", tur:"merak",
@@ -96,7 +98,7 @@ window.MERAK = [
     { tez:"İlhak biçimi de farklıydı",
       dayanak:"Batıda ilhaklar çoğu zaman savaşsız oldu: Germiyan toprakları 1381'de çeyiz olarak geldi, Hamîd ili satın alındı, bazıları antlaşmayla katıldı. Karaman'da ise her seferinde savaş gerekti ve ilhak 1397'den 1473'e kadar üç kuşak sürdü." }
   ],
-  baglanti:["1381-01-01","1386-06-01","1397-07-01","1468-01-01","1473-01-01"],
+  baglanti:["1381-01-01","1381-06-01","1386-06-01","1397-07-01","1415-03-01","1468-01-01","1473-01-01"],
   kesinlik:"tartismali",
   kaynak:"TDV: KARAMANOĞULLARI · GERMİYANOĞULLARI" },
 
@@ -111,7 +113,7 @@ window.MERAK = [
     { tez:"Dağ coğrafyası ilhakı pahalılaştırıyordu",
       dayanak:"Kafkas vadileri kale kale tutulmayı gerektiriyor, gelirse tımara bölünecek kadar toplu değildi. Haraç ve asker sağlayan bir tâbi krallık, masrafı kendi üstlenen bir eyaletten kârlıydı." }
   ],
-  baglanti:["1606-01-01","1723-06-15","1723-08-01"],
+  baglanti:["1490-01-01","1555-05-29","1606-01-01","1639-05-17","1723-06-15","1723-08-01"],
   kesinlik:"tartismali",
   kaynak:"TDV: GÜRCİSTAN · TİFLİS · AMASYA ANTLAŞMASI" },
 
@@ -126,7 +128,7 @@ window.MERAK = [
     { tez:"Bitişi de kurumsaldı",
       dayanak:"1603'ten sonra yerini ekberiyet ve kafes usulü aldı. Şehzadelerin sancağa çıkarılmaması taht kavgasını fiilen bitirdi; yani uygulamayı sona erdiren ahlâkî bir dönüşüm değil, veraset düzeninin değişmesiydi." }
   ],
-  baglanti:["1477-01-01","1513-04-24","1553-10-05","1562-07-23","1603-12-23"],
+  baglanti:["1477-01-01","1513-04-24","1553-10-05","1562-07-23","1595-01-27","1603-12-23"],
   kesinlik:"tartismali",
   kaynak:"TDV: KANUNNÂME · SANCAĞA ÇIKMA · AHMED I" },
 
@@ -156,7 +158,7 @@ window.MERAK = [
     { tez:"Ölçüt sorunu",
       dayanak:"'Saltanat' benzetmesi, görünür iktidarla perde arkasındaki fiilî etkiyi aynı kefeye koyduğu için tartışmalıdır." }
   ],
-  baglanti:["1534-01-01","1558-04-15","1595-02-01","1651-09-02"],
+  baglanti:["1534-01-01","1558-04-15","1583-12-07","1595-02-01","1651-09-02"],
   kesinlik:"tartismali",
   kaynak:"TDV: VÂLİDE SULTAN · KÖSEM SULTAN · HÜRREM SULTAN" },
 
@@ -171,7 +173,7 @@ window.MERAK = [
     { tez:"Kaldırılışı tek taraflı oldu",
       dayanak:"Osmanlı kapitülasyonları müzakereyle değil, 1914'te tek taraflı ilanla kaldırdı; kesin tasfiye Lozan'da mümkün oldu. Bir imtiyazın kaldırılması için savaş gerekmesi, onun artık araç olmaktan çıktığının ölçüsüdür." }
   ],
-  baglanti:["1352-01-01","1536-02-18","1580-06-01","1740-05-30"],
+  baglanti:["1352-01-01","1536-02-18","1580-01-01","1740-05-30","1914-09-09","1923-07-24"],
   kesinlik:"tartismali",
   kaynak:"TDV: İMTİYAZÂT-ı EONOMİYYE · AHİDNÂME" },
 
@@ -186,7 +188,7 @@ window.MERAK = [
     { tez:"Failin adı geç kaynaklarda çıkıyor",
       dayanak:"Miloš Obilić adı ancak XV. yüzyıl sonrası metinlerde geçer; olaya en yakın kayıtlar faili adlandırmaz. Ayrıntının ne kadarı olay, ne kadarı Kosova destanının sonradan biçimlendirdiği anlatıdır — belirsiz." }
   ],
-  baglanti:["1389-06"],
+  baglanti:["1389-06-15"],
   kesinlik:"tartismali",
   kaynak:"TDV: MURAD I · KOSOVA" },
 
@@ -218,7 +220,7 @@ window.MERAK = [
     { tez:"\"Hep başarısız\" ölçütü de tartışmalı",
       dayanak:"1444 baskısı savaş meydanında değil MASADA sonuç vermişti: Edirne-Segedin Antlaşması (12 Haziran 1444) ve ardından Semendire'nin fiilen Sırbistan'a iadesi (Ağustos 1444) Haçlı tarafının kazancıydı. TDV bu metnin \"gerçek anlamda bir barış mı yoksa geçici bir ateşkes mi olduğu\"nun tartışmalı olduğunu, Kardinal Cesarini ve Bizans imparatorunun devreye girmesiyle hükümsüz kaldığını yazar. ⇒ Sorun her zaman kazanamamak değil, kazanılanı korumamaktı." }
   ],
-  baglanti:["1396-09","1444-06-12","1444-08-01","1444-11"],
+  baglanti:["1396-09-25","1444-06-12","1444-08-01","1444-11-10"],
   kesinlik:"tartismali",
   kaynak:"TDV: HAÇLILAR · NİĞBOLU SAVAŞI · VARNA MUHAREBESİ" },
 
@@ -233,7 +235,7 @@ window.MERAK = [
     { tez:"Zincir fikrinin kendi sicili zayıf — ve Osmanlı'nın cevabı zincir değil TOP oldu",
       dayanak:"Zincir ancak İKİ UCU DA tutuluyorsa engeldir: Haliç zincirinin bir ucu Sirkeci'de Kentenarios burcuna, öteki ucu Karaköy'de Kastellion hisarına bağlıydı — ve 1203'te Batılı şövalyeler Kastellion'u ele geçirerek zinciri açmışlardı. 1453'te de zincir kırılmadı, 21 Nisan gecesi gemilerin Galata sırtlarından indirilmesiyle \"fonksiyonunu kaybetti\". Osmanlı aynı işi kalelere yerleştirdiği toplarla çözdü. ⚠️ Osmanlı'nın boğazlara zincir germeyi düşünüp düşünmediğine dair bir kayıt taranan TDV maddelerinde BULUNAMADI; bu görüş bir kayıt değil, zincirin ölçülmüş siciline dayanan bir çıkarımdır." }
   ],
-  baglanti:["1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
+  baglanti:["1354-03-02","1366-08-01","1376-09-01","1395-08-01","1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
   kesinlik:"tartismali",
   kaynak:"TDV: ÇANAKKALE · KİLİTBAHİR KALESİ · GELİBOLU · ANADOLUHİSARI · RUMELİHİSARI · HALİÇ · İSTANBUL" },
 
@@ -278,7 +280,7 @@ window.MERAK = [
     { tez:"Ölçüt sorunu: bunu Ankara Savaşı maddesi HİÇ anlatmıyor",
       dayanak:"TDV'nin Ankara Savaşı maddesi sonucu iki cümleyle özetler — \"bütün Anadolu Timur'a mensub emîrler tarafından istilâ edildi\" ve \"Anadolu'da uzun mücadeleler sonunda kurulmuş olan Türk birliği bozulmuş\" — şehzâdelerin tâbiiyetinden, yarlıgdan ya da Mûsâ'nın durumundan söz etmez. Bu bilgi ancak şehzâdelerin kendi biyografilerinde bulunuyor. ⇒ Soru tek bir kaynağa sorulduğunda cevapsız kalıyor; dört biyografi yan yana konduğunda ise ortaya bir zorlamadan çok bir MEŞRUİYET PAZARI çıkıyor." }
   ],
-  baglanti:["1402-07-28","1402-08-01","1402-08-20","1402-12-14","1402-12-20","1403-03-09"],
+  baglanti:["1402-03-13","1402-07-28","1402-08-01","1402-08-20","1402-12-14","1402-12-20","1403-03-09"],
   kesinlik:"tartismali",
   kaynak:"TDV: SÜLEYMAN ÇELEBİ, Emîr · MEHMED I · MÛSÂ ÇELEBİ · ANKARA SAVAŞI" },
 

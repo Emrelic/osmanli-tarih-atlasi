@@ -28,6 +28,8 @@
 // müstakil TDV maddesi ölü (belgrad-antlasmasi · bukres-antlasmasi 302);
 // hükümleri ülke/şehir maddelerinden toplandı ve `kaynak:`ta öyle yazıldı.
 // ============================================================================
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1555 AMASYA ─────────────────────────────────────────────────────────────
@@ -113,7 +115,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin: "Barışın ekonomik getirisi de oldu. Şah Abbas'ın başkenti Tebriz'den İsfahan'a taşıması ve Ermeni tüccarları için Yeni Culfa'yı kurması ticaret yollarını güneye kaydırmıştı; barış ortamında İran ipeği ve kumaşları Bağdat üzerinden Halep'e, Musul üzerinden Diyarbekir ve Anadolu şehirlerine taşındı. TDV'nin aktardığı rakamlara göre İran'ın ipek ihracatı 1640-1670 arasında yaklaşık yarı yarıya arttı. Bu dengeli dönem, Afşar hânedanının kurucusu Nâdir Şah'ın 1736'da iktidara gelişine kadar sürdü.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1638-12-24", "1639-05-17", "1746-09-04", "1847-05-31"],
+  olay: ["1638-12-24", "1639-05-17", "1736-03-08", "1746-09-04", "1847-05-31"],
   kaynak: "TDV: kasrisirin-antlasmasi · murad-iv"
 },
 
@@ -121,7 +123,7 @@ window.EKOKUMA_ANTLASMA2 = [
 {
   id: "antlasma-belgrad-1739",
   tur: "antlasma",
-  olay: ["1739-09-18"],
+  olay: ["1739-09-18", "1739-10-03"],
   metin: "TDV'de bu antlaşmanın müstakil maddesi bulunamadı (belgrad-antlasmasi adresi ölü); hükümler Avusturya, Rusya, Sırbistan ve Belgrad maddelerinden toplandı. AVUSTURYA ile: ① Avusturya, 1718 Pasarofça'da kazandığı yerleri — Banat hariç — geri verdi. ② Belgrad Osmanlı'ya teslim edildi; Avusturya'ya geçmiş olan Kuzey Sırbistan'ın bir kısmı yeniden Osmanlı yönetimine girdi. RUSYA ile: ③ Rusya, savaşın sonlarında ele geçirdiği Özi'yi ve Hotin'i, işgal ettiği Boğdan'la birlikte terk etti. ④ Azak Kalesi yıkılacak ve bulunduğu bölge iki tarafın da uzak duracağı 'boş arazi' sayılacaktı; TDV bunu Osmanlı için önemli bir kazanım olarak değerlendirir.",
   kesinlik: "kesin",
   kaynak: "TDV: avusturya · rusya · sirbistan · belgrad (gövde okundu; müstakil madde bulunamadı)"
@@ -142,7 +144,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin: "Barış iki imparatorluk arasında uzun bir sükûnet dönemi açtı. Avusturya, Maria Theresia döneminde veraset savaşları ve Prusya ile savaşlar yüzünden sıkıştığında Osmanlı bu zayıflıktan yararlanmayı seçmedi; Prusya Kralı II. Friedrich'in ısrarlı ittifak tekliflerine uzak kaldı. Rusya ise savaşı müttefikinden çok daha etkili yürüttüğü için Balkanlarda Habsburgların karşısına ciddi bir rakip olarak çıkmaya başladı. Belgrad'a dönüşün bedeli de ağırdı: 1741 tahririne göre Kuzey Sırbistan'daki 1546 köyün 721'i terk edilmişti. Belgrad Kalesi yeniden yapılarak ülkenin en büyük kalesi hâline getirildi.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1739-07-22", "1739-09-18", "1739-10-03"],
+  olay: ["1738-08-01", "1739-07-22", "1739-09-18", "1739-10-03"],
   kaynak: "TDV: avusturya · rusya · sirbistan · belgrad"
 },
 
@@ -200,7 +202,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin: "Özerklik hükmü hemen yerine getirilmedi: daha geniş haklar isteyen Sırpların isyanı 1813'te bastırıldı, Belgrad geri alındı ve isyanın lideri Karadjordje Avusturya'ya kaçtı. Ama 1815'te Miloş Obrenoviç'in önderliğinde ikinci Sırp isyanı çıktı; o da aynı yıl bastırılmasına rağmen bu tarihten sonra Sırplara tanınan imtiyazlar genişletilmeye başlandı ve mesele 1826 Akkerman Antlaşması'yla yeniden masaya geldi.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1804-02-14", "1806-12-22", "1812-05-28", "1813-10-05"],
+  olay: ["1804-02-14", "1806-12-22", "1812-05-28", "1813-10-05", "1815-04-23"],
   kaynak: "TDV: rusya · sirbistan · bogdan"
 },
 
@@ -229,7 +231,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin: "Rus ordusu 22 Ağustos 1829'da direnişle karşılaşmadan Edirne'ye girdi, Kırklareli ve Lüleburgaz'ı da işgal etti; Rus gemileri İstanbul Boğazı'na saldırırken bir filo da Çanakkale Boğazı'nı ablukaya aldı. Prusya'nın arabuluculuğuyla Edirne'ye giden Osmanlı delegeleri, ticaret tazminatındaki küçük bir değişiklik dışında Rus şartlarını hafifletemedi. Yük sonradan azaltıldı: 1830'da tazminat 8 milyon Felemenk altınına indirildi ve Yunanistan'ın tam bağımsızlığının kabulü şartıyla 1 milyon daha silindi; 1834 Ocağında 5 milyona düşürüldü. Tazminata bağlanan Rus çekilmesi Eflak-Boğdan'dan ancak 1834'te, Silistre'den 8 Nisan 1836 sözleşmesiyle gerçekleşti.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1827-10-20", "1828-04-26", "1829-09-14", "1830-02-03"],
+  olay: ["1821-03-25", "1827-07-06", "1827-10-20", "1828-04-26", "1829-09-14", "1830-02-03", "1834-01-01"],
   kaynak: "TDV: edirne-antlasmasi"
 },
 
@@ -258,7 +260,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin: "Verilen güvenceler kısa sürede işlemez oldu. Fransa 1870-1871'de Prusya'ya yenilince Rusya, o savaş bitmeden Karadeniz maddesine artık uymayacağını ilan etti; TDV bunu yaklaşan büyük Osmanlı-Rus savaşının ilk işareti sayar. Toprak bütünlüğü garantisi 1877-1878 savaşındaki büyük parçalanmayı önleyemedi. Savaşın bıraktığı borç yükü ve Islahat Fermanı'nın uygulanmasında yaşanan toplumsal çatışmalar sonraki dönemi belirledi. TDV, Berlin Kongresi'nde (1878) Bismarck'ın hakkını savunmaya çalışan Osmanlı delegelerine Avrupa hukukunun onlar için olmadığını söyleyerek çıkıştığını aktarır — 1856'da kazanılan statünün ne kadar kâğıt üzerinde kaldığının işareti.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1853-10-04", "1856-02-18", "1856-03-30"],
+  olay: ["1853-10-04", "1856-02-18", "1856-03-30", "1877-04-24", "1878-07-13"],
   kaynak: "TDV: paris-antlasmasi"
 }
 

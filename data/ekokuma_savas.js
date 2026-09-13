@@ -43,6 +43,8 @@
 //   kaynak · gorsel · gorsel_kaynak
 // ============================================================================
 
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_SAVAS = [
 
 { id:"savas-inebahti-1571", tur:"savas-hikayesi",
@@ -59,7 +61,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"İstanbul yenilgiyi 23 Ekim'de öğrendi; savaşta verilen terfiler geçersiz sayıldı, Uluç Ali'nin adı Kılıç'a çevrilip kaptanıderyâlık ona verildi. Kış boyunca tersanelerde yoğun bir gemi yapımı yürütüldü ve yeni donanma 13 Haziran 1572'de denize açıldı. Zaferin kalıcı bir karşılığı olmadı: Kıbrıs geri alınamadı, Venedik 1573'te yeni bir ahidnâmeyle tazminat ödemeyi kabul etti, Tunus 1574'te fethedildi. Buna karşın savaş, Avrupa'da Türklerin yenilmez olduğu inancını kırdı.",
   tartisma:"İki donanmanın gemi ve asker sayıları kaynaklarda birbirinden oldukça farklı verilir; buradaki rakamlar TDV maddesinin benimsediği yaklaşık değerlerdir.",
   kesinlik:"kesin",
-  olay:["1571-10-07"],
+  olay:["1570-07-23","1571-10-07","1572-06-01","1572-06-13","1573-03-07","1574-08-25"],
   kaynak:"TDV: inebahti-deniz-savasi (DİA 22, 2000, s. 287-289)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -77,7 +79,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Kaynaklara göre müttefikler 128 kalyon kaybetti. Zafer haberi 14 Ekim'de Boğdan seferinden dönen Kanûnî'ye Yanbolu'da ulaştı. TDV maddesine göre Preveze, gücünü asıl karada kurmuş olan Osmanlı Devleti'ni denizlerde de söz sahibi bir güce dönüştüren eşikti; kadırgaların kalyonlara üstün gelmesi de donanmada bu gemi türünün uzun süre tercih edilmesine yol açtı. Hıristiyan devletler ortak bir donanmayla ancak otuz üç yıl sonra, İnebahtı'da yeniden karşısına çıkabildi.",
   tartisma:"Müttefik donanmasının mevcudu kaynaklarda farklı verilir. Venedik komutanı Cappello'nun Doria'yı savaşmaktan kaçmakla suçladığı ileri sürülür; çekilme kararının gerekçesi tartışmalıdır.",
   kesinlik:"kesin",
-  olay:["1538-09"],
+  olay:["1537-10-01","1538-09"],
   kaynak:"TDV: preveze-deniz-muharebesi (DİA 34, 2007, s. 343-345)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -95,7 +97,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Ada Trablusgarp beylerbeyiliğine bağlandı, kalesi onarıldı. Piyâle Paşa eylül sonunda İstanbul'a döndü; beraberindeki esirler, ele geçirilen gemiler ve tutsak amiraller halkın ve padişahın gözü önünde karşılandı. Paşa bu başarı üzerine Şehzade Selim'in kızı Gevherhan Sultan'la evlendirildi. TDV'nin değerlendirmesiyle Cerbe, Barbaros'un Preveze'de başlattığı Akdeniz'deki Osmanlı üstünlüğünü pekiştiren zaferdir.",
   tartisma:"Müttefik kayıpları iki TDV maddesinde farklıdır: 'Cerbe' maddesi yetmişe yakın geminin batırıldığını ve yirmi kadarının ele geçirildiğini rivayet olarak aktarır; 'Piyâle Paşa' maddesi arşiv belgesine dayanarak on dokuz kadırga ve yirmi altı barça verir. Deniz zaferi bazı kronolojilerde 11 Mayıs'ta, bazılarında 14 Mayıs'ta durur; ikisi aynı üç günlük çatışmanın başı ve sonudur.",
   kesinlik:"kesin",
-  olay:["1560-01-01","1560-05-14","1560-07-30"],
+  olay:["1560-03-12","1560-05-14","1560-07-30"],
   kaynak:"TDV: cerbe (DİA 7, 1993, s. 391-392) · TDV: piyale-pasa (DİA 34, 2007, s. 296-297)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -113,7 +115,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Sefer rûznâmesine göre gömülen Macar ölüleri sayılırken 20.000 piyade ve 4000 süvari cesedi bulundu, esirlerin sayısı 10.000'e ulaştı. Kanûnî 11 Eylül'de direnişle karşılaşmadan Budin'e girdi, iki hafta sonra geri döndü. Kralın ölümü taht meselesini doğurdu: Osmanlılar Szapolyai'yi kendilerine bağlı kral olarak kabul ederken V. Karl'ın kardeşi Ferdinand da tahtta hak iddia etti. Ortaçağ Macar toprakları üçe bölündü ve Osmanlılarla Habsburglar arasında 150 yıl sürecek mücadele başladı.",
   tartisma:"Osmanlı kaybı sefer rûznâmesinde elli-altmış, Celâlzâde'de 150 kişi olarak geçer; TDV gerçek sayının bunların epeyce üstünde olduğunu belirtir. Hicrî tarihin karşılığı 28 Ağustos görünse de savaşın çarşamba günü yapılmış olması 29 Ağustos'a denk düşer.",
   kesinlik:"kesin",
-  olay:["1526-08-29"],
+  olay:["1526-08-29","1526-09-01"],
   kaynak:"TDV: mohac-muharebesi (DİA 30, 2020, s. 232-235)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -131,7 +133,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Şahın kaçmasıyla Safevî ordusu dağıldı, ordugâhı ve hazinesi Osmanlıların eline geçti. Osmanlı tarafında da Rumeli beylerbeyi ile on sancak beyi öldü. Selim 5 Eylül'de Tebriz'e girdi, bir hafta sonra yeniçerilerin itirazıyla kışlamadan geri döndü. Ertesi yıl Kemah alındı ve Dulkadır toprakları ilhak edildi; İdrîs-i Bitlisî'nin çabasıyla Diyarbekir'den Musul'a Güneydoğu Anadolu Osmanlı idaresine geçti. Tebriz'den Halep'e ve Bursa'ya giden ipek yolu Osmanlı denetimine girdi.",
   tartisma:"İki ordunun mevcudu kaynaklarda yaklaşık olarak verilir; kesin sayı bilinmez.",
   kesinlik:"kesin",
-  olay:["1514-08"],
+  olay:["1514-08","1514-09-06","1514-09-15","1515-05-19","1515-06-13","1515-09-19"],
   kaynak:"TDV: caldiran-savasi (DİA 8, 1993, s. 193-195)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -149,7 +151,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Memlükler 4000 dolayında, Osmanlılar biraz daha az kayıp verdi. Tomanbay 27-28 Ocak gecesi 7000 kişiyle Kahire'ye girip üç gün sokak çarpışması yürüttü, sonra şehri terk etmek zorunda kaldı. Selim 15 Şubat'ta Kahire'ye girdi; 13 Nisan 1517'de Tomanbay'ın yakalanıp idam edilmesiyle Mısır'da Osmanlı idaresi yerleşti. TDV, sonucu belirleyen etkenin Memlüklerin topa sahip olmalarına rağmen onu savaş düzeninin bir parçası saymaması olduğunu vurgular.",
   tartisma:"Bazı kaynaklar tarihi 23 Ocak verir; TDV bunu hicrî takvimdeki bir günlük kaymanın hesaba katılmamasından doğan bir hata sayar. Sinan Paşa'yı yaralayan hücum konusunda iki anlatı vardır: Canbirdi Gazâlî'nin süvari hücumu ya da Tomanbay'ın onu padişah sanıp teke tek çarpışması; TDV ikincisinin doğru olma ihtimalini zayıf bulur.",
   kesinlik:"kesin",
-  olay:["1517-01-22"],
+  olay:["1516-12-21","1517-01-22","1517-01-27","1517-02-15","1517-04-13"],
   kaynak:"TDV: ridaniye-savasi (DİA 35, 2008, s. 87-88)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -167,7 +169,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Kansu Gavri'nin kaçarken aniden rahatsızlanıp atından düşerek öldüğü anlaşıldı. Tutsakların arasından boyun eğmeyi reddeden emirler de dâhil olmak üzere yaklaşık 2000 Memlük askeri öldürüldü, bir kısmı ise salıverildi. Selim Halep'e girip Abbâsî halifesini iyi karşıladı; Hama, Humus ve Şam birer birer teslim oldu. Savaş Suriye, Lübnan ve Filistin'i Osmanlılara bıraktı, Mısır yolunu açtı ve Memlük Sultanlığı'nın tarihten silinişinin ilk büyük adımı oldu.",
   tartisma:"Bazı araştırmalar yenilgiyi Hayır Bey ile Canbirdi Gazâlî'nin ihanetine bağlar; TDV çağdaş kaynaklara dayanarak bunun doğru olmadığını, ikisinin padişahla temasının savaş bittikten sonra olduğunu yazar. Ordu mevcudu için kaynaklar 120.000'e varan rakamlar verse de 80.000 civarı daha olası kabul edilir.",
   kesinlik:"kesin",
-  olay:["1516-08"],
+  olay:["1516-07-30","1516-08","1516-08-28","1516-08-29","1516-09-27"],
   kaynak:"TDV: mercidabik-muharebesi (DİA 29, 2004, s. 174-176)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -185,7 +187,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Bayezid esaret altında, 8 Mart 1403'te Akşehir'de öldü. Timur'un emirleri Anadolu'yu baştan başa yağmaladı; Osmanlıların ortadan kaldırdığı beylikler yeniden canlandı. Bayezid'in oğulları arasında başlayan taht mücadelesi, yani Fetret Devri, birçok yerin elden çıkmasına ve kardeşlerin birbirinin kanını dökmesine yol açtı. TDV'ye göre bu yenilgi Anadolu'da kurulmuş siyasî birliği dağıttı, Osmanlı fetihlerini ve İstanbul'un fethini yarım yüzyıla yakın geciktirdi.",
   tartisma:"Savaşın günü kaynaklardan kesin olarak çıkmaz; TDV 28 Temmuz 1402'yi 'büyük bir ihtimalle' diye verir. Ordu mevcutları kaynaklara göre değişir.",
   kesinlik:"kesin",
-  olay:["1402-07-28"],
+  olay:["1399-11-01","1400-08-01","1401-02-01","1402-03-13","1402-07-28","1402-08-01","1402-09-15","1403-03-09"],
   kaynak:"TDV: ankara-savasi (DİA 3, 1991, s. 210-211) · TDV: bayezid-i (ölüm günü ve yeri)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -203,7 +205,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Jean de Nevers başta olmak üzere birçok soylu esir alındı; sağ kalanlar fidyeleri ödenince ülkelerine dönebildi. Sigismund bir kayıkla Tuna'daki Haçlı gemilerine ulaşarak kaçtı ve İstanbul'dan geçip Venedik'e gitti. Klasik anlamda son Haçlı seferi sayılan bu bozgun Bayezid'e İslâm dünyasında büyük şöhret kazandırdı, Osmanlıların Tuna'ya uzanan hâkimiyetini sağlamlaştırdı ve Macaristan'ı daha büyük bir tehdidin karşısında bıraktı.",
   tartisma:"Batı kaynaklarının Osmanlı ordusu için verdiği 200-400.000 rakamlarını TDV doğru bulmaz; mevcudun 80.000'e ulaşmamış olabileceğini belirtir. Kayıplar için kesin rakam yoktur; tahminler Osmanlı tarafı için 30.000 dolayında, Haçlılar için daha fazladır. Bayezid'in gece kale önüne kadar gidip dizdarla konuştuğuna dair anlatının doğruluğu şüphelidir.",
   kesinlik:"kesin",
-  olay:["1396-09"],
+  olay:["1395-01-01","1396-09-25"],
   kaynak:"TDV: nigbolu-savasi (DİA 33, 2007, s. 89-92)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -221,7 +223,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Kesin askerî başarı Osmanlıların oldu: Balkanlardaki yerel beylerin direnişi kırıldı, güneye inmenin ve Kuzey Sırbistan'a uzanmanın yolu açıldı. Uzun vadede savaş, Osmanlıların Balkanların güneyine yerleşmesine ve bölgenin toplumsal, ekonomik ve siyasî yapısının değişmesine zemin hazırladı. Sırp tarihyazımında ise Kosova, millî kimliğin oluşumunda merkezî bir destanın konusu oldu; 1989'da savaşın 600. yılı için Kosova ovasında düzenlenen tören, Yugoslavya'nın dağılmasına giden olayların başlangıç noktalarından biri sayılır.",
   tartisma:"Tarih tartışmalıdır: Batı kaynaklarındaki 15 Haziran 1389 eski takvime dayandığı için yeni takvimde 28 Haziran'a denk geldiği ileri sürülür. Murad'ın öldürülüşü farklı anlatılır: Osmanlı kaynakları yaralı gibi yaklaşan birinin suikastından söz eder; Enverî hançerleyenin, daha önce padişahın hizmetinde bulunup sonra kaçmış Miloş adlı bir Sırp beyi olduğunu yazar; Sırp ve Batı kaynakları ise önceden planlanmış bir saldırı anlatır. Brankoviç'in ihanetiyle savaşın kaybedildiği ve Bayezid'in suikastta parmağı olduğu iddialarını TDV dayanaksız bulur. Bazı Sırp kaynakları savaşı Sırp zaferi sayar.",
   kesinlik:"tartismali",
-  olay:["1389-06-15"],
+  olay:["1388-08-27","1389-06-15"],
   kaynak:"TDV: kosova-savaslari (DİA 26, 2002, s. 221-224) · TDV: bayezid-i (Yâkub'un öldürülmesi)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -239,7 +241,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Kardinal Cesarini kaçış sırasında öldü, Hunyadi Eflak'a çekildi. İki taraf da 7-8000 civarında kayıp verdi. Zafer, II. Murad'ın içerideki otoritesini yeniden güçlendirdi; Hıristiyan dünyasında Osmanlıların Avrupa'dan çıkarılabileceği inancını sarstı ve kiliselerin birleşmesinden yardım bekleyen Bizans'ın umudunu boşa çıkardı. Hunyadi ise rövanş için hazırlanmayı sürdürdü.",
   tartisma:"Segedin'de varılan uzlaşmanın kalıcı bir antlaşma sayılıp sayılamayacağı, yoksa kısa süreli bir silah bırakışması mı olduğu tartışılır; Macar kralının metne yemin edip etmediği de açık değildir. II. Murad adına yazılan fetihnâme kralın yaralı olarak ordugâha getirilip başının vurulduğunu söyler; bu bilgi dönemin öteki kaynaklarıyla çelişir. Kralın kesik başının zafer nişanesi olarak gönderildiği bir rivayettir.",
   kesinlik:"kesin",
-  olay:["1444-11-10"],
+  olay:["1444-06-12","1444-11-10"],
   kaynak:"TDV: varna-muharebesi (DİA 42, 2012, s. 527-530)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 

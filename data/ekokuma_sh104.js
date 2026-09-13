@@ -31,6 +31,8 @@
 //     zincir:[...], olay:[...], kaynak }
 // ============================================================================
 
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_SH104 = [
 
 { id:"topkapi-sarayi-insasi", tur:"sebep-sonuc",
@@ -41,7 +43,7 @@ window.EKOKUMA_SH104 = [
   metin:"Saray, art arda sıralanan üç kapı ve bunların ayırdığı avlulardan oluşan bir teşkilat zinciriydi. Bîrun (dış hizmet), birinci ve kısmen ikinci avludaki muhafız, ahır ve mutfak gibi birimleri kapsardı. Bâbüsselâm'ın ardındaki ikinci avluda, kubbeli Divân-ı Hümâyun'da devlet işleri görüşülürdü. Bâbüssaâde'nin arkasındaki üçüncü avlu Enderun'a, yani devşirme gençlerin yetiştirilip devlet kademelerine hazırlandığı saray okuluna ayrılmıştı. En içeride ise padişah ailesinin özel yaşam alanı Harem bulunurdu. Dıştan içe artan bu kapalılık aynı zamanda bir hiyerarşiydi: birinci avluya halk girebilir, ikinciye yalnız devlet işiyle gelenler kabul edilir, üçüncü avlu ve Harem'e ise çok dar bir çevre alınırdı — sarayın mimarisi, devletin merkezîleşmiş ve tabakalı düzenini taşa dökmüş hâliydi.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1453-05-29","1478-09-01"],
+  olay:["1453-05-29","1478-01-01","1478-09-01"],
   kaynak:"TDV: topkapi-sarayi" }
 
 ];

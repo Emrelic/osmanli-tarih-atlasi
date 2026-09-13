@@ -49,6 +49,8 @@
 //     zincir:[...], olay:[...], kaynak }
 // ============================================================================
 
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA = [
 
 { id:"yeniceri-ocagi-kurulusu", tur:"sebep-sonuc",
@@ -99,7 +101,7 @@ window.EKOKUMA = [
   metin:"Zimmî, dârülislâmda vatandaş olarak yaşayan ve kendisine güvence verilen gayrimüslimdir: canı ve malı dokunulmaz, ibadeti serbest, kendi aralarındaki davalarda kendi mahkemesine gitme hakkı vardır; karşılığında devletin hâkimiyetini tanır ve cizye öder. Cizye yalnız hür, ergin, çalışabilir ve ödeme gücü olan erkeklerden alınır — kadın, çocuk, yaşlı, âmâ, kötürüm, fakir ve ibadete çekilmiş din adamları muaftır — ve Osmanlı'da âlâ (48 dirhem), evsat (24) ve ednâ (12) olmak üzere üç sınıfa ayrılırdı. Cemaatler millet teşkilatıyla yönetilirdi; bu teşkilat etnik ya da dil aidiyetine değil din ve mezhep esasına dayanırdı, bu yüzden Ermeniler Gregoryen, Katolik ve Protestan olarak üç ayrı millet sayılıyordu. Patrik ve hahambaşı devlet adına vergi toplar, cemaati yönetir, hukuk uygular ve eğitimi denetlerdi; ama bu yetki devletin denetimindeydi — yalnız XVII. yüzyılda elli sekiz Rum patriği değiştirilmiştir.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1453-05-29","1421-06-01","1856-02-18"],
+  olay:["1453-05-29","1839-11-03","1856-02-18"],
   kaynak:"TDV: zimmi · cizye · millet · devsirme" }
 ,
 
@@ -122,7 +124,7 @@ window.EKOKUMA = [
 // KAYNAK: her kart TDV gövdesi OKUNARAK yazıldı; madde numaraları TDV'nin
 // kendi verdiği numaralardır. Uydurulmuş tek bir hüküm yoktur.
 
-{ id:"antlasma-karlofca-1699", tur:"antlasma", olay:["1699-01-26"],
+{ id:"antlasma-karlofca-1699", tur:"antlasma", olay:["1699-01-26","1703-01-01"],
   metin:"Macaristan cephesi: Tımışvar (Banat) eyaleti dışında Erdel dâhil bütün Macaristan Avusturya'ya bırakıldı. Sınır, Tisa nehrinin Tuna'ya döküldüğü yerden Bossut suyunun Sava'ya karıştığı yere kadar düz bir çizgi olarak kabul edildi; Baçka tarafları Avusturya'da kaldı, Titel bölgesi eski hâline bırakıldı. Avusturya, Osmanlı safında savaşan İmre Tököli ve mensuplarının Macar sınırlarından çekilmesini istedi; Râmi Mehmed Efendi bunu, Macaristan'da kalan taraftar ve akrabalarının serbestçe Osmanlı ülkesine geçebilmesi şartıyla kabul etti. Rusya cephesi: Azak ve çevresi Rusya'ya bırakıldı; buna karşılık Osmanlı hükümeti Karadeniz'in emniyeti için Kerç Boğazı'nda Yenikale'yi inşa ettirdi. 🔴 Ve bir talep REDDEDİLDİ: Rus elçisinin Karadeniz'de ticaret gemilerine serbest dolaşım isteği kabul edilmedi — aynı hak yetmiş beş yıl sonra Küçük Kaynarca'da verilecekti.",
   kesinlik:"kesin",
   kaynak:"TDV: karlofca (gövde okundu)" },
@@ -137,7 +139,7 @@ window.EKOKUMA = [
   kesinlik:"kesin",
   kaynak:"TDV: kucuk-kaynarca-antlasmasi (gövde okundu)" },
 
-{ id:"antlasma-berlin-1878", tur:"antlasma", olay:["1878-07-13"],
+{ id:"antlasma-berlin-1878", tur:"antlasma", olay:["1878-07-13","1878-07-29"],
   metin:"Berlin, Ayastefanos'un kurduğu büyük Bulgaristan'ı ÜÇE böldü. ① Sınırları daraltılmış bir Bulgaristan prensliği: Osmanlı Devleti'ne tâbi, iç işlerinde serbest, prensi halk tarafından seçilip Bâbıâli'ce tasdik ve büyük devletlerin muvafakatiyle tayin edilen, Osmanlı askerinin bulunmadığı bir yapı. ② Şarkî Rumeli eyaleti: idarî yönden bağımsız, ama siyasî ve askerî yönden Osmanlı'ya tâbi; Avrupa devletlerinin tasvibiyle Bâbıâli'nin beş yıl süreyle tayin edeceği bir hıristiyan vali tarafından idare edilecekti. ③ Makedonya: ıslahat yapılmak şartıyla Osmanlı'ya bırakıldı. Ayrıca Sırbistan'ın bağımsızlığı tanındı ve kendisine Niş ile Pirot verildi; Yunanistan'a bir miktar toprak verilecek; Bosna-Hersek Avusturya tarafından işgal edilecekti. Doğu cephesinde Kars, Ardahan ve Batum harp tazminatının bir kısmına karşılık Rusya'ya bırakıldı, Doğubayazıt ve Eleşkirt vadisi Osmanlı'da kaldı. Tazminatın miktarı sonradan belirlendi: 8 Şubat 1879 İstanbul Antlaşması'yla, Rusya'ya bırakılan yerlerin bedeli düşüldükten sonra 802.500.000 frank olarak tesbit edildi ve yedi yılda yirmi bir eşit taksitte ödenmesi kararlaştırıldı; 14 Mayıs 1882'de yıllık 350.000 liralık taksitlere çevrildi ve âşâr vergisi teminat gösterildi.",
   kesinlik:"kesin",
   kaynak:"TDV: berlin-antlasmasi (gövde okundu)" }

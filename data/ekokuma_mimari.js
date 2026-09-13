@@ -66,10 +66,12 @@
 // `data/gorsel_mimari.js` → `window.GORSEL_MIMARI`, `tur:"mimari"`. Bu
 // dosyada görsel alanı YOK — iki katman ayrı tutuluyor (D175).
 
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_MIMARI = [
 
 { id:"mimari-sultanahmet", tur:"teknik-bilimsel",
-  olay:["1609-08-09"],
+  olay:["1606-10-11","1609-08-09"],
   kisa:"Altı minareli ilk selâtin camii — ve hazineden, fetih zaferi olmadan yapılan ilki.",
   metin:"Sultan Ahmed Camii, I. Ahmed'in emriyle 1609'da Atmeydanı'nda başlanıp 1620'de tamamlandı; mimarı, Mimar Sinan'ın yanında yetişmiş Sedefkâr Mehmed Ağa'dır. Yapı, klasik Osmanlı cami şemasının revaklı avlulu düzenini izler: yaklaşık 22,4 metre çapındaki merkezî kubbe dört büyük payeye oturur, dört yönde birer yarım kubbeyle desteklenir ve bu yarım kubbeler üçer eksedrayla genişletilir. Döneme kadar denenmemiş bir düzenlemeyle altı minare yapılmıştır — TDV, bunun Kâbe'yle 'eşitlik' iddiasına yol açtığına dair yaygın rivayeti doğrulamaz, yalnız 'o zamana kadar denenmemiş bir düzenleme' olduğunu kaydeder.\n\nYapıda kesme küfeki taşı ağırlıklı malzeme olarak kullanılmış; iç mekân 21.000'i aşkın İznik ve Kütahya çinisiyle, mermer, ahşap ve maden süslemelerle donatılmıştır. 17. yüzyılın ilk çeyreğine ait olan cami, klasik Osmanlı mimarisinin son evresini temsil ederken bazı bölümlerinde barok motiflerle de karşılaşılır — yaklaşan üslup değişiminin ilk izleri.\n\nAyrı bir not: caminin banisi I. Ahmed, camiyi bir fetih zaferine dayanmadan doğrudan hazineden yaptırmıştır; bu, dönemin bazı çevrelerince eleştiri konusu olmuştur, çünkü büyük selâtin camileri geleneksel olarak bir zaferin anısına yapılırdı.",
   kesinlik:"kesin",

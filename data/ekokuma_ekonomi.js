@@ -70,6 +70,8 @@
 //     kesinlik, zincir:[...diğer kart id'leri...], olay:[...], kaynak }
 // ============================================================================
 
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_EKONOMI = [
 
 { id:"1585-tagsis-fiyat-devrimi", tur:"sebep-sonuc",
@@ -91,7 +93,7 @@ window.EKOKUMA_EKONOMI = [
   metin:"Üç sistem de aynı sorunu — devletin sürekli büyüyen mali ihtiyacını, doğrudan vergi toplama kapasitesi olmadan karşılamak — farklı biçimde çözmeye çalıştı. İltizamda kısalık (bir-üç yıl) mültezimi sömürüye itiyordu; mâlikâne ömür boyu sabit vergiyle bunu yumuşattı ama yalnız askerî zümreye açıktı, bu da talebi sınırlıyordu; esham mâlikâne hakkını hisselere bölüp -teoride- herkese satılabilir hâle getirerek talebi genişletti. Ama esham da kendi krizini doğurdu: TDV'nin Esham maddesine göre sistem hızla büyüdü (yıllık faiz ödemesi on yılda 400.000 kuruştan 2 milyon kuruşa çıktı) ve 1780'lerde maliyeciler hesap yaptığında, ölen sehim sahiplerinin yeniden satılan paylarından gelen gelirin ödenen yıllık faizin ancak küçük bir bölümünü karşıladığı görüldü; hazine artan faiz yükü altına girdi ve 1792'den itibaren yeni satışlar durduruldu. Mâlikâne satışlarının kendisi de 1840'larda tamamen sona erdi. Üçü birden Osmanlı mâliyesinin 17-18. yüzyılda 'gelirini artırmak için giderek daha karmaşık finansal araçlar icat etme, her aracın kendi krizini doğurması' döngüsünü gösterir.",
   kesinlik:"kesin",
   zincir:["1585-tagsis-fiyat-devrimi"],
-  olay:["1650-01-01","1695-01-01","1775-06-01"],
+  olay:["1650-01-01","1695-01-01","1774-07-21","1775-06-01"],
   kaynak:"TDV: malikane · esham" },
 
 { id:"balta-limani-mehmed-ali-ticaret-acilimi", tur:"sebep-sonuc",
@@ -124,7 +126,7 @@ window.EKOKUMA_EKONOMI = [
   metin:"Kapitülasyon başta 'imtiyaz' demekti: bir Müslüman devletin, güvenli ticaret yapabilmeleri için Hıristiyan devletlere tek taraflı olarak tanıdığı bir bağıştı — padişah isterse geri alabilirdi, ve yabancı tüccar Osmanlı kadı mahkemesine değil kendi konsolosuna tâbi olurdu (adlî kapitülasyon). Zaman içinde üç eksende değişti: ① SÜREKLİLİK — 1352'de padişahın ölümüyle geçersiz kabul edilebilecek bir bağışken, 1740'tan sonra kalıcı antlaşmaya dönüştü; ② KAPSAM — önce yalnız gümrük ve yargı ayrıcalığıyken, 1838 Balta Limanı ile Osmanlı pazarının bütününün (iç ticaret dahil) serbest rekabete açılmasının hukuki zeminine genişledi; ③ SAYI — 16. yüzyılda bir-iki devletle sınırlıyken 19. yüzyılda hemen bütün büyük Avrupa devletine 'en çok kayrılan millet' hükmüyle otomatik yayıldı. Bu üç eksen birleşince kapitülasyon, başlangıçtaki 'diplomatik jest'ten, Osmanlı hükümetinin kendi gümrük tarifesini ve kendi topraklarındaki yabancıları yargılama yetkisini belirleyemediği yapısal bir kısıtlamaya dönüştü. Kaldırılması bile bunu gösterir: hükümet bunu ancak Avrupa'nın Birinci Dünya Savaşı'yla meşgul olduğu bir anda, tek taraflı bir ilanla yapabildi.",
   kesinlik:"tartismali",
   zincir:["balta-limani-mehmed-ali-ticaret-acilimi"],
-  olay:["1352-01-01","1536-02-18","1740-05-30","1838-08-16","1914-09-09"],
+  olay:["1352-01-01","1536-02-18","1580-01-01","1612-07-06","1740-05-30","1838-08-16","1914-09-09","1923-07-24"],
   kaynak:"TDV: fransa · kapitulasyon (kısa tanım sayfası, tam madde çekilemedi) · ahidname · baltalimani-muahedesi · atlasın 1536-02-18 ve 1740-05-30 kayıtlarının kendi metni" }
 
 ];

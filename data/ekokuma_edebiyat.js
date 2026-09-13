@@ -29,6 +29,8 @@
 // bayatlar) ama BUGÜN sınırlı: tek dosya, tek yazar, tek commit. Bir
 // sonraki oturum bu üç kişiden birini DÜZELTİRSE, kişinin HER kartını
 // birden güncellemesi gerektiğini bilsin diye bu not buraya bırakıldı.
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_EDEBIYAT = [
   { id:"baki-kanuni-mersiyesi", tur:"edebiyat",
     baslik:"Bâkî'nin Kanûnî Sultan Süleyman için mersiyesi",
@@ -39,7 +41,7 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"Kanûnî Sultan Süleyman'ın 1566 Eylülünde Sigetvar seferi dönüşünde ölüm haberi İstanbul'a ulaştığında Bâkî, sultana duyduğu bağlılığı ve onun yüce şahsiyetini dile getiren mersiyesini yazdı. Osmanlı edebiyatının en tanınmış mersiyelerinden sayılır; mersiyenin son kısmı, birkaç hafta sonra tahta çıkacak II. Selim'e bir bakıma zemin hazırlar.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
-    kesinlik:"kesin", olay:["1566-09-01"],
+    kesinlik:"kesin", olay:["1566-09-01","1566-09-07"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Bâkî\" (Mehmed Çavuşoğlu, 1991) — https://islamansiklopedisi.org.tr/baki--sair" },
 
   { id:"baki-selim-culusiyesi", tur:"edebiyat",
@@ -51,7 +53,7 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"Kanûnî mersiyesinin hemen ardından, II. Selim tahta çıktığında (15 Rebîülevvel 974 / 30 Eylül 1566) Bâkî yeni padişaha bir cülûsiye sundu. Umduğu câizeyi bulamadığı gibi o sıralarda Murad Paşa müderrisliğinden de azledildi; ancak 1569'da uzun bir mâzullük döneminden çıkabildi.",
     alinti:{ metin:"bulunamadı — bkz. \"baki-kanuni-mersiyesi\" kaydı", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — bkz. \"baki-kanuni-mersiyesi\" kaydı",
-    kesinlik:"kesin", olay:["1566-09-30"],
+    kesinlik:"kesin", olay:["1566-09-24","1566-09-30"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Bâkî\" (Mehmed Çavuşoğlu, 1991) — https://islamansiklopedisi.org.tr/baki--sair" },
 
   { id:"fuzuli-bagdat-kasidesi", tur:"edebiyat",
@@ -87,7 +89,7 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"1718-1730 arasındaki Lâle Devri boyunca Nedîm, ifade sadeliği ve nükteli üslûbuyla yeni bir şiir tarzı geliştirdi. Nevşehirli Damad İbrahim Paşa'nın çevresinde gelişen bu tarz, divan şiirinde \"yerlileşme\" akımının en büyük temsilcisi sayılır — soyut mazmunlar yerine İstanbul'un günlük hayatı ve eğlence kültürü şiire girdi.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
-    kesinlik:"kesin", olay:["1718-01-01"],
+    kesinlik:"kesin", olay:["1718-01-01","1718-05-09"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Nedîm\" (Muhsin Macit) — https://islamansiklopedisi.org.tr/nedim--divan-sairi" },
 
   { id:"nedim-olumu", tur:"edebiyat",
@@ -99,7 +101,7 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"1730'daki Patrona Halil isyanı sırasında Nedîm hayatını kaybetti; kaynaklara göre ya isyan dehşetinden hastalanarak ya da kaçmaya çalışırken evinin damından düşerek öldü — ölüm şeklinin ayrıntısı kaynaklarda AYRIŞIYOR. Ölümüyle birlikte Lâle Devri'nin şiirdeki en parlak sesi de susmuş oldu; devrin kendisi de aynı isyanla sona erdi.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
-    kesinlik:"tartismali", olay:["1730-06-01"],
+    kesinlik:"tartismali", olay:["1730-06-01","1730-09-25"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Nedîm\" (Muhsin Macit) — https://islamansiklopedisi.org.tr/nedim--divan-sairi" },
 
   { id:"nefi-idami", tur:"edebiyat",

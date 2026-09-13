@@ -77,6 +77,8 @@
 // tutulmaz, iki okuma da dayanağıyla verilir (KITA-26-TARTISMA-0046.md §①).
 // ============================================================================
 
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_TARTISMA = [
 
 { id:"istanbul-rasathanesi-yiktirilmasi-tartisma", tur:"tartisma",
@@ -98,7 +100,7 @@ window.EKOKUMA_TARTISMA = [
   metin:"Kapitülasyon, Osmanlı'nın kendi ülkesinde güvenle ticaret yapabilmeleri için hıristiyan devletlere tanıdığı bir imtiyazdı; hukukî temeli ahidnâme adı verilen padişah belgesiydi. İngiltere'nin payına düşen imtiyaz salt bir ticaret meselesi değildi: 1578'de İstanbul'a gönderilen Harborne'un arkasında, Katolik İspanya'ya karşı Protestan İngiltere ile ortak çıkar arayan bir Osmanlı hesabı da vardı. Kısa vadeli sonucu somuttu — Levant Company Osmanlı topraklarındaki İngiliz ticaretini 1825'e kadar tek elde topladı ve iki ülke arasında kalıcı bir diplomatik ağ kurdu. Ahidnâmelerin kendisi de zamanla değişti: TDV'nin 'ahidname' maddesine göre başlangıçta tek taraflı ve dinî yeminle pekiştirilen bu belgeler, 19. yüzyılda 'muahede' (karşılıklı antlaşma) diline dönüştü — bu da Avrupa hükümdarlarının artık dilekçi değil eşit muhatap sayıldığının bir işaretidir.",
   kesinlik:"tartismali",
   zincir:[],
-  olay:["1578-01-01","1580-01-01","1581-09-11"],
+  olay:["1580-01-01"],
   kaynak:"TDV: ingiltere · imtiyazat · ahidname" }
 
 ];

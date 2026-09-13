@@ -50,6 +50,8 @@
 //   ekKartHtml magazin dalı onu kartın içine basmaz — kasıtlı.
 // ============================================================================
 
+// 13 Eylül 2026 · EKOKUMA-DAGITIM-0913: bağ alanları (olay/baglanti/t) içerik okunarak yeniden dağıtıldı —
+// gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_MAGAZIN = [
 
 // ---------- II. Mehmed (Fâtih) ----------
@@ -73,7 +75,7 @@ window.EKOKUMA_MAGAZIN = [
 
 // ---------- I. Selim (Yavuz) ----------
 { id:"yavuz-baba-zehir-soylentisi", tur:"magazin", kisi:["selim1", "bayezid2"],
-  t:"1512-04-24", olay:["1512-04-24"],
+  t:"1512-05-26", olay:["1512-05-26","1512-04-24"],
   soru:"Yavuz babasını zehirletti mi?",
   baslik:"Tahttan inen II. Bayezid'in şüpheli ölümü",
   metin:"II. Bayezid, yeniçerilerin baskısıyla 24 Nisan 1512'de tahtı oğlu Selim'e bıraktı ve Dimetoka'ya gitmek üzere İstanbul'dan ayrıldı. TDV'nin Bayezid maddesine göre yolda, Çorlu yakınındaki Abalar köyünde fenalaştı ve 10 Haziran 1512'de öldü; ansiklopedi ölümün sebebini son derece şüpheli bulur ve bazı yerli ve yabancı kayıtlara dayanan zehirlenme ihtimalinin tartışıldığını belirtir. Aynı ansiklopedinin Yavuz maddesi ise Selim'in babasını zehirlettiği yolundaki söylentilerin özellikle Batı kaynaklarında yer aldığını, fakat başka kaynaklarla doğrulanamadığını yazar.",
@@ -92,7 +94,7 @@ window.EKOKUMA_MAGAZIN = [
 
 // ---------- I. Süleyman (Kanûnî) ----------
 { id:"hurrem-nikah-buyu-soylentisi", tur:"magazin", kisi:["suleyman1"],
-  t:"1558-04-15", olay:["1558-04-15"],
+  t:"1534-01-01", olay:["1534-01-01"],
   soru:"Hürrem padişahı büyüyle mi bağladı?",
   baslik:"Teamülü bozan nikâh ve 'büyü' söylentisi",
   metin:"Osmanlı sarayında padişahın câriyeleriyle nikâhlanması bir zorunluluk değildi. TDV'ye göre Kanûnî, annesi Hafsa Sultan'ın 1534'teki ölümünün ardından Mâhidevran'ı Manisa'daki oğlu Mustafa'nın yanına gönderdi ve bu teamüle aykırı biçimde Hürrem'le resmen evlendi; bir Venedik kaynağı kararın halka duyurulduğunu ve hoşnutsuzlukla karşılandığını yazar. Busbecq gibi bazı çağdaş Avrupalı yazarlar ise Hürrem'in padişahın gönlünü büyüyle kazandığını nakleder — ansiklopedi bunu yalnızca bir nakil olarak aktarır.",
@@ -148,7 +150,7 @@ window.EKOKUMA_MAGAZIN = [
 
 // ---------- II. Abdülhamid ----------
 { id:"abdulhamid-hal-korkusu-hafiye", tur:"magazin", kisi:["abdulhamid2"],
-  t:"1876-08-31", olay:["1876-08-31"],
+  t:"1876-08-31", olay:["1876-08-31","1878-05-20"],
   soru:"Abdülhamid neyden korkuyordu?",
   baslik:"Tahttan indirilme korkusu: hafiyeler ve saraya yapışık cami",
   metin:"II. Abdülhamid, kendisinden önceki iki padişahın, Abdülaziz ile V. Murad'ın, art arda tahttan indirildiği bir ortamda tahta çıktı. TDV'ye göre bu yaşananlar vehimli mizacındaki şüpheciliği, kendisinin de indirileceği yolunda sabit bir fikre dönüştürdü; Çırağan vak'aları bu kaygıyı artırdı. Olup biteni öğrenmek için güçlü bir hafiye teşkilatı kurdu; jurnalciliği kötü saysa da vazgeçilmez bulduğunu söylerdi. Aynı endişe mimariye de yansıdı: V. Murad'ın yeniden tahta çıkarılmasından çekindiği için cuma selamlığında saraydan uzaklaşmamak amacıyla 1881-1885'te Yıldız Sarayı'nın önüne Yıldız Camii'ni yaptırdı.",
