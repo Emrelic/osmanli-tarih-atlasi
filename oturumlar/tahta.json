@@ -116611,5 +116611,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3832",
+  "zaman": "2026-09-13 20:04",
+  "kimden": "PAKET-A6B",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-A6B · 6/6 madde hukumlu. Rapor denetim/ARASTIRMA-A6B-0913.md · yama denetim/YAMA-A6B-0913.json (9 yerlesim + 1 madde yamasi, 2 kunye, 3 SEFER, 8 halka, 5 sevk adayi). OLCTUM (79 dosya/3818 kayit): H-0007 MASTER 1385-1569 iki ayri devlet (sahsi birlik), 1569-1795 tek devlet; model dogru ama Varsova s:lehistan 1281 (kunyeden 288 yil once) + Gdansk/Torun/Elbing 1466 + 5 Livonya 1561 lehistan; polonya-erken renkler.py'de YOK (9 nokta). H-0006 Cehrin 1281 litvanya, komsulari altinorda: Dinyeper'deki kopuk mavi leke bu. H-0009 Cehrin 1569 sonrasi Lehistan ama 1648-1678 degil (hatmanlik baskenti, 1668 Osmanli himayesi, ~1676 Rus); zapt TDV cehrin-seferi 21 Agustos 1678, veri VE madde 19 Temmuz (33 gun). H-0035 Hotin 1769-74 Rus eli dogru (Kashirin 2024 8/9 Eylul Julyen = 09-19 dogru) ama s: yerine isg: olmali (1806 emsali) ve Yas 1769-10-07'den Bogdan'in cogu Rus isgalinde; veride hic isg yok. H-0077 Ozi'ye Cehrin'den gelinmedi; 1737 bozkir uzerinden Bug (ESBE), 1788 Bug Mayis (prlib); veri dogru, ok eksik. H-0080 Hotin'e Lehistan Podolyasi'ndan (Minkovtsi kampi, Kalus'ta Dinyester). BULAMADIM: Kiev 1362 kaynagi, 1737 Dinyeper gecis yeri, 1788 Olviopol (mil.ru kapali), Kalus koordinati, Cehrin Rus teslim gunu. EK BULGU: Hotin 1739 ve 1788-92 isgalleri veride yok. ISTIYORUM (karar): 1) Ozi 1737 gunu TDV 11 Temmuz mu ESBE 13 mu 2) kazak-hatmanligi kunyesi acilsin mi 3) polonya-erken rengi 4) Guney Bogdan sevki. olaylar_ek5 KITA 14'te, P-CEH-3 o dosya serbest kalinca. Veriye dokunulmadi, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
