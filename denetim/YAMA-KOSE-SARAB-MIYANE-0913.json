@@ -1,0 +1,69 @@
+{
+  "oturum": "FERHATPASA-KOSE",
+  "tarih": "2026-09-13",
+  "hedef_dosya": "data/hukuki_sinirlar.js",
+  "hedef_kayit": "ferhad-pasa-1590-sinir-hatti",
+  "hedef_alan": "hat.nokta_dizisi",
+  "durum": "ÖNERİ — uygulanmadı (koşu 10 sürerken data/ donuk)",
+  "rapor": "denetim/OLCUM-KOSE-SARAB-MIYANE-0913.md",
+  "islem": [
+    { "tur": "degistir", "eski_ad": "4 · Sarâb ↔ Erdebil", "yeni_nesne_indeks": 0 },
+    { "tur": "degistir", "eski_ad": "5 · Miyâne ↔ Halhâl", "yeni_nesne_indeks": 1 },
+    { "tur": "sil_ve_atilanlara_ekle", "eski_ad": "6 · Miyâne ↔ Zencan", "atilan_indeks": 2 }
+  ],
+  "yeni_koseler": [
+    {
+      "ad": "4 · Areštanāb sınır köyü (Tebriz'in 12 fersah GD'su)",
+      "lat": 37.9323,
+      "lon": 46.7506,
+      "dogrulanmadi": true,
+      "hukum_dayanagi": "SINIRIN KENDİSİ kaynakta adıyla — Iranica AZARBAIJAN iv (C. E. Bosworth, Vol. III Fasc. 2-3, s.224-231, 1987): 'According to the Ottoman-Persian agreement of the Year of the Hare 1000/1591-92, Shah ʿAbbās I had to cede … western Azarbaijan, the frontier being fixed at the village of Areštanāb twelve farsakhs to the southeast of Tabrīz' ← Röhrborn 1966 s.6-9 (OKUNMADI) · Razmārā, Farhang IV s.15 (OKUNMADI) ║ batısı Tebriz OSMANLI (TDV tebriz [58]) · doğusu Sarâb SAFEVÎ (Emre kararı 13 Eylül; Eskandar Beg, tr. Savory II s.582 'advanced as far as Sarāb … returned to his base' · Kütükoğlu 1962 s.168 'Serâb'dan daha ileri gitmeyip Tebriz'e döndü')",
+      "konum_kaynagi": "GeoNames id 22871 'Arshatnāb' (East Azerbaijan, populated place) 37.9323 / 46.7506 — atlas noktası DEĞİL, orta nokta DEĞİL",
+      "not": "⚠️ İKİ ŞART AÇIK: (1) Areštanāb ↔ Arshatnāb ad eşlemesi ÇIKARIM (GeoNames kaydında alternatif ad ölçülemedi). (2) Tebriz→Arshatnāb kuş uçuşu ≈43 km, kaynak 'twelve farsakhs' ≈65-75 km — uyuşmazlık ÖLÇÜLDÜ, sebebi ölçülemedi. Ayrışma: TDV erdebil '1590'da … sınır Erdebil yakınlarından geçiyordu' (Arshatnāb→Erdebil ≈140 km) — taraf seçilmedi. Bostānābād/Ūjān (GeoNames 23290) hatta 1,7 km — 1590-1603 tarafı BULUNAMADI.",
+      "bant": "köşe konumu ±~30 km (mesafe uyuşmazlığı); Iranica BOUNDARIES i: sınır çizgi değil kuşak"
+    },
+    {
+      "ad": "5 · Heşrûd ↔ Miyâne",
+      "lat": 37.4494,
+      "lon": 47.3829,
+      "dogrulanmadi": true,
+      "hukum_dayanagi": "Heşrûd OSMANLI — TDV tebriz (A. S. Bilgili) 'Osmanlılar'ın 1593 idarî taksimine göre Tebriz eyaleti Tebriz (merkez, … Dihharkân, Dizecrûd, Adangı, Heşrûd, Rudgât, Mevâzi'cân) …' (listede Sarâb ve Miyâne YOK) ║ Miyâne SAFEVÎ — Emre kararı 13 Eylül (denetim/OLCUM-AHAR-SARAB-MIYANE-0913.md: çıkarım, orta) · Eskandar Beg, tr. Savory II s.828 (Eylül 1603: Erdebil valisine 'join the Shah at Mīāna') · Iranica AZARBAIJAN iv 'only the eastern part remained in Persian hands, being ruled from Ardabīl'",
+      "konum_kaynagi": "GeoNames: Hashtrūd id 142554 37.4779 / 47.0508 · Mīāneh id 124082 37.421 / 47.715 — orta nokta (iki uç da kaynakta adıyla anılan yer; atlas noktası değil)",
+      "not": "⚠️ Heşrûd = Hashtrūd eşlemesi ÇIKARIM (Farsça Hašt-rūd) — doğrulanmadı. Safevî ucu karar dayanaklı; tasarruf cümlesi değil. Açık kalem: Germrüd (Kütükoğlu dn.186: 20 Zilhicce 996 Osmanlı sancak beyi Mehmed Çavuş, Safevî talep etti; 1591 sonucu Kütükoğlu cilt II'de, OKUNMADI) — bu hatta Safevî yanda kalır.",
+      "bant": "Hashtrūd ile Miyâne arası ≈58 km kuşak; Torkamān (GeoNames 112634) hattın 11 km Safevî yanında, tarafı BULUNAMADI"
+    }
+  ],
+  "atilan_koseler_ek": [
+    {
+      "ad": "Sarâb ↔ Erdebil (KUZEY köşe 4, geçici)",
+      "lat": 38.0952,
+      "lon": 47.9149,
+      "neden": "Sarâb'ı Osmanlı ucu sayıyordu (çıkarım); Emre kararı 13 Eylül: Sarâb SAFEVÎ. Taraf sınaması: bu köşeyle Sarâb OSMANLI tarafına düşüyordu (denetim/ARAC-KSM-TARAF-0913.py). Yerine kaynakta adıyla sınır olan Areştanāb."
+    },
+    {
+      "ad": "Miyâne ↔ Halhâl (KUZEY köşe 5, geçici)",
+      "lat": 37.5196,
+      "lon": 48.1221,
+      "neden": "İki uç da belirsizdi; Emre kararı: Miyâne SAFEVÎ ⇒ iki uç da Safevî. Taraf sınaması: Miyâne OSMANLI tarafına düşüyordu."
+    },
+    {
+      "ad": "Miyâne ↔ Zencan (KUZEY köşe 6, geçici)",
+      "lat": 37.0486,
+      "lon": 48.1056,
+      "neden": "Miyâne SAFEVÎ kararıyla iki uç da Safevî ⇒ köşe tanımsız. Hashtrūd'un güneyi / Sakkız'ın doğusu için kaynaklı ve konumu ölçülebilir Osmanlı ucu BULUNAMADI (Sarukurgân · Egertû · Kavdûl GeoNames'te eşlenemedi). 5→7 segmenti taraf sınamasından geçti: Zencan · Miyâne Safevî, Leylân · Merâga Osmanlı."
+    }
+  ],
+  "emre_kararlari_notu_acik_onerisi": "Sarâb ve Miyâne SAFEVÎ (Emre kararı 13 Eylül) — köşe 4-5 kaynaklı yerlere taşındı (denetim/OLCUM-KOSE-SARAB-MIYANE-0913.md), köşe 6 atıldı; `gecici` KALDIRILDI. Açık: Areštanāb ad/mesafe eşlemesi · Heşrûd=Hashtrūd eşlemesi · Germrüd'ün 1591 tahdit sonucu (Kütükoğlu cilt II).",
+  "gereken_cografya_ek": [
+    { "ad": "Areštanāb (Arshatnāb) köyü", "tur": "yerlesim", "atlasta_var": false, "atlasta_kaynak": null, "not": "köşe coğrafî koordinatla kuruldu; nokta eklemek hattın çizimi için gerekmiyor. Atlas kontrolü YAPILMADI (atlas referans değil; yalnız çizim ihtiyacı sorusu)." }
+  ],
+  "taraf_sinamasi": {
+    "alet": "denetim/ARAC-KSM-TARAF-0913.py",
+    "yontem": "eşdikdörtgen izdüşüm cos(37.5°), en yakın segment çapraz çarpımı; işaret Van (Osmanlı) / Kazvin (Safevî) ile kalibre",
+    "eski_hat_yanlis": 2,
+    "eski_hat_yanlislar": ["Sarāb → osmanli", "Mīāneh → osmanli"],
+    "onerilen_hat_yanlis": 0,
+    "sinanan_nokta": 14,
+    "belirsiz_bilgi": { "Meshgīn Shahr": "safevi 27.4 km", "Bostānābād/Ūjān": "osmanli 1.7 km", "Torkamān": "safevi 11.3 km", "Qāflānkūh": "safevi 38.5 km" }
+  }
+}
