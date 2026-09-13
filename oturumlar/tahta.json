@@ -120225,5 +120225,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3959",
+  "zaman": "2026-09-14 01:41",
+  "kimden": "P08-KARADENIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P08 ARA BULGU (bekletmeden, §7.1⑥). ① KAYNAK CELISKISI — Taman: veri d:1482→1774-07-21 sonra s:rusya. TDV kucuk-kaynarca-antlasmasi Rusya'ya birakilanlari yalniz Kilburun·Yenikale·Kerc diye sayiyor; TDV anapa 1783 ilhakindan sonra 'Taman, Temruk, Ace, Acu kaleleri Kuban kuzeyinde Rusya'da kaldi' diyor ⇒ 1774-1783 Taman bagimsiz Kirim'da olmali. AMA ESBE 'Темрюк, город' 'Taman yarimadasinin Rusya'ya katilmasi (1774)' diyor. Taraf SECMEDIM, yama json'a KARAR diye yaziyorum (oneri: 1774-07-21→1783-04-19 s:kirim, TDV esas §4). ② YENI OLCUM — Silistre'de HIC isg: yok: ESBE 'Силистрия' 29 May J 1810 teslim (=1810-06-10 G; ESBE-TV 30 May diyor, 1 gun celiski) · Kutuzov 1811 surlari ucurup cekildi (TDV silistre 'Mayis 1811'; olaylar_ek21 maddesi var ama kaydi yok) · 1829: ESBE-TV '18 июня сдалась' (=1829-06-30 G) · TDV silistre 'Ruslar 1836'ya kadar Silistre'yi ellerinde tuttular' ⇒ 1829-1836 7 yil Rus isgali cizilmiyor. Yerlesimler.js kilitli → YAMA-KARADENIZ json + p0056'ya maddeler. ③ Yergogu: 1812 Bukres Antlasmasi md.5 metni okundu (ru.wikisource) — Eflak'i 'крепостями' ile iade ediyor, Yergogu adini ANMIYOR; PAKET-RUS RUS-1810-YER borcu bu okumayla kapaniyor (ad yok, kapsayici hukum var).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
