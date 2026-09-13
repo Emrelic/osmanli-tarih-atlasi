@@ -1,0 +1,36 @@
+{
+  "paket": "P12-EKOKUMA",
+  "tarih": "2026-09-14",
+  "not": "KİLİTLİ dosyalara (PAKET-TEMIZ: data/gorsel_madde.js · data/merak.js) YAZILMADI — yalnız öneri. Uygulayan: dosya sahibi / koordinatör.",
+  "gorsel_madde": [
+    {
+      "durum": "ADAY — UYGULANAMAZ HÂLDE (görsel dosyası yok)",
+      "madde": "0032/H-0010 Sultânî altını",
+      "hedef_olay": "1478-06-01 · olaylar_ek2.js · 'İlk Osmanlı altını (sultanî) basıldı'",
+      "kayit_taslagi": {
+        "id": "1478-06-01-sultani-mehmed2-nmah",
+        "tur": "madde",
+        "olay": ["1478-06-01|sultanî"],
+        "url": "BULUNAMADI — dosya indirilmedi",
+        "baslik": "Fâtih Sultan Mehmed adına İstanbul'da basılmış 1 altun (sultânî), 1478-79",
+        "gorsel_alt": "OLCULEMEDI — görsel görülmedi",
+        "eser": "1 Altun, Constantinople, Ottoman Empire, 1478 - 1479 · NU.68.159.6040 (Josiah K. Lilly Jr. Collection)",
+        "sanatci": "bulunamadı (darphane eseri)",
+        "yil": "1478-1479 (hicrî 883, kayıttaki 'alternate calendar date')",
+        "lisans": "CC0",
+        "gorsel_kaynak": "https://n2t.net/ark:/65665/ng49ca746a5-a0ef-704b-e053-15f76fa0b4fa",
+        "kesinlik": "cagdas"
+      },
+      "olcum": [
+        "Smithsonian Open Access API (api.si.edu, edanmdm:nmah_761293): metadata_usage.access = CC0; ihraç eden 'Mehmed II Sultan of the Ottoman Empire'; basım yeri Constantinople; altın; çap 2.03 cm.",
+        "AMA: kaydın online_media alanı API'de BOŞ döndü; collections.si.edu ve americanhistory.si.edu sayfalarından ids.si.edu görsel bağlantısı çıkarılamadı (403/bağlantı yok) ⇒ görsel dosyasının varlığı ÖLÇÜLEMEDİ.",
+        "ARAC-A2-BAG ④ lisans sınavı yalnız Commons dosya sayfasını tanıyor ⇒ bu kayıt o sınavdan geçemez; sınav genişletilmeden ya da görsel Commons'ta bulunmadan uygulanmamalı.",
+        "Taranıp BULUNAMAYAN: MET Open Access API ('sultani', 'Ottoman gold coin' — alakasız isabetler; departmentId=14 'Mehmed II' 0) · Cleveland Open Access ('sultani' 0, 'Ottoman coin' 0) · Yale LUX ('sultani' 37 kayıt, hepsi kitap, sikke yok) · Commons 'Category:Coins of Mehmed II' (5 dosya: akçe ve 'Impero ottomano ... in oro 05 maometto II' — lisansı ölçülmedi; A2 raporu Commons Mehmed II sikkelerini CC-BY-SA diye RED etmişti) · Commons API bir süre 'too many requests' verdi.",
+        "Madde metni kaynağı `sikke` (TDV, 200): gövdede 'sultânî' kelimesi GEÇMİYOR; yalnız 'Fâtih dönemine kadar Osmanlılar gümüş ve bakır sikke bastırdı' cümlesi var. `altin` gövdesi Fâtih'in 1463-1478 arasında Venedik/Ceneviz ve Memlük altınlarını darbettirdiğini söylüyor. Maddenin '1478-06-01' GÜNÜ okunan gövdelerde yok (ölçülemedi)."
+      ],
+      "istek": "Emre/koordinatör: NMAH kaydının görsel dosyası elle (tarayıcıda) doğrulanıp indirilsin mi, yoksa kalem 'bulunamadı' diye kapansın mı? Öneri: kalem AÇIK kalsın, CC0 kaynak adresi belli."
+    }
+  ],
+  "merak": [],
+  "merak_notu": "0032/H-0013 için bu turda merak kartı YAZILMADI (koordinatör TOPARLA komutu). Aday (gövdesi okunmuş): 'Osmanlı Devleti ne zaman kuruldu — 1299 mu, 1302 mi?' — TDV osman-i: '27 Temmuz 1302 tarihi Osmanlı hânedanının, dolayısıyla Osmanlı Devleti'nin kuruluş tarihi olarak kabul edilebilir.'"
+}

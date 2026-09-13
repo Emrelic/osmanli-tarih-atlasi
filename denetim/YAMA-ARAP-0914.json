@@ -1,0 +1,119 @@
+{
+  "olusturan": "P06-ARAP · 14 Eylül 2026 · 1.MURAT sevki (PAKET-SINIF2 P06)",
+  "durum": "YALNIZ ÖNERİ — data/ altında yalnız data/yerlesimler_ek_korfez.js yazıldı (Katar, K1). Geri kalanların hiçbiri UYGULANMADI. Koordinatör 'TOPARLA' dedi; araştırması bitmeyen kalemler 'yapilmadi' diye işaretli.",
+  "rapor": "denetim/P06-ARAP-0914.md",
+  "kaynak_kunyeleri": {
+    "TDV-katar": "islamansiklopedisi.org.tr/katar (200, gövde okundu)",
+    "TDV-riyad": "/riyad (200, gövde okundu; Z. Kurşun)",
+    "TDV-lahsa": "/lahsa (200, gövde okundu; 1669/1670 yılı YOK)",
+    "TDV-katif": "/katif (200, gövde okundu)",
+    "TDV-basra": "/basra (200, gövde okundu, Osmanlı dönemi bölümü)",
+    "TDV-uman": "/uman (200) · TDV-maskat /maskat (200) · TDV-hurmuz /hurmuz--iran (200)",
+    "TDV-timur": "/timur (200, gövde okundu)",
+    "TDV-bagdat": "/bagdat (200) · TDV-ahmed-celayir /ahmed-celayir (200) · TDV-celayirliler (200) · TDV-tikrit (200)",
+    "Iranica-Jalayerids": "Encyclopaedia Iranica, 'JALAYERIDS' — iranicaonline.org/articles/jalayerids (200, metin okundu)",
+    "TDV-ridaniye": "/ridaniye-savasi (200) · TDV-selim-i (200) · TDV-aris /aris (200) · TDV-suveys (200, 1517 günü YOK)",
+    "TDV-residiler": "/residiler (200, M. al-Rasheed) · TDV-vehhabilik (200) · TDV-suudiler (200) · TDV-diriye (200)",
+    "TDV-nube-sudan-habes": "/nube · /sudan · /habes-eyaleti (üçü 200, gövde okundu)",
+    "TDV-hemedan-urmiye-hoy-tebriz": "/hemedan · /urmiye · /hoy · /tebriz (dördü 200, gövde okundu)",
+    "TDV-misir-iskenderiye-kahire-cezzar": "/misir (6. bölüm Fransız işgali) · /iskenderiye · /kahire · /cezzar-ahmed-pasa (200)",
+    "olu_sluglar_olculdu_302": "beni-halid · benu-halid · halid-beni · ibrim · hail · kasim · bureyde · uneyze · ula · hicr · muazzam · ceberti · ahmed-pasa-antlasmasi · hemedan-antlasmasi · senendec · erdelan · erdelanlilar · mahabad · kusayr · salihiyye · nebhaniler · yaribiler · culfar · ras-ul-hayme · muntefik · tebuk--kale · hac-yolu"
+  },
+  "uygulanan": [
+    {
+      "id": "ARAP-K1", "madde": "parti-emrelic-0048/H-0011", "emsal": "YAMA-0048 Y4",
+      "dosya": "data/yerlesimler_ek_korfez.js", "kayit": "Katar Yarımadası (iç, dolgu)",
+      "degisiklik": "kasitli_bosluk:true KALDIRILDI · v:[{f:1559-01-01,t:1670-01-01,k:'Katar (Benî Müsellem) — Lahsâ beylerbeyiliğine bağlı',statu:vassal,kaynak}] EKLENDİ · neden: güncellendi · başa düzeltme yorumu (eski '1868/1871 ilk bağ' hükmü TDV katar ile çürüdü, silinmedi)",
+      "kaynak": "TDV katar: 'Katar sancağını kurarak buraya idareciler tayin etti (1559)'; 'tartışmasız biçimde Osmanlı hâkimiyetindeki topraklar içinde'",
+      "acik_nokta": "BİTİŞ 1670-01-01: TDV katar 1559→1776 atlıyor; TDV riyad değişimi yalnız 'XVII. yüzyılın ikinci yarısı' veriyor; TDV lahsa 1669/1670 vermiyor; web aramasında yalnız Vikipedi türevleri (tek dayanak olamaz). Yıl Lahsa/Ukayr/Katîf benihalid geçişine HİZALANDI — §4 şartlı komşu ① TAM karşılanmıyor, kayıtta açıkça yazılı. Koordinatör kararı: kalsın mı, EI2 'al-Hasā' (F. S. Vidal; TDV lahsa bibliyografyası) okunana dek mi beklesin.",
+      "denetim": "node --check OK · Değişmez 1: 324→324 · 1c: 4→4 · 1b 0 · 2: 0 açık · 2s 100→98 açık (başka işçilerin değişiklikleri de içeride) · 2i 3 · 4c 129 · 4d 356 · A2-BAG 612/612 HATA 0 · 'mükerrer madde' 1→6 çift: 1919-1920 işgal maddeleri, bu paketin DEĞİL"
+    }
+  ],
+  "yerlesim_onerileri": [
+    {
+      "id": "ARAP-T1", "madde": "parti-emrelic-0042/H-0030 + H-0032",
+      "cakisma": "🔴 Bağdat kaydı UYGULA-BAGDAT'ın kaydı (data/yerlesimler.js). Öneri YALNIZ 1393-1405 dönemine dokunur; 1623-1639'a DOKUNMAZ. Koordinatör BAGDAT teslimi sonrasına sıralasın.",
+      "kayit": "Bağdat", "dosya": "data/yerlesimler.js",
+      "eski": "s: timurlu 1393-01-01→1394-01-01 · celayirli 1394-01-01→1401-01-01 · timurlu 1401-01-01→1405-01-01 · celayirli 1405-01-01→1411-01-01",
+      "yeni": "celayirli(önceki).t ve timurlu.f 1393-01-01→1393-08-29 · timurlu 1394-01-01 bitişi KALIR (yıl) · celayirli.t ve timurlu.f 1401-01-01→1401-07-09",
+      "kaynak": "TDV timur: 'Bağdat'ı ele geçirdikten sonra (20 Şevval 795 / 29 Ağustos 1393)' · Iranica Jalayerids: 1393 işgal; Solṭān Aḥmad 'the following year' dönünce Timurlu garnizon çekildi; 'Taken by storm on 27 Ḏuʾl-qaʿda 803/9 July 1401'",
+      "gerekce": "Emre'nin gördüğü 'Timurlu valiliği' enklavı 'Timur Bağdat'ı zaptetti' (1393-08-29) maddesinden ÖNCE başlıyor; veri 1393-01-01 yuvarlak. İki fetih zaten iki ayrı dönem (H-0032'nin 'iki kez' isteği veride VAR).",
+      "eksik_zincir_bulunamadi": "1401-07-09→1405 bloğu TEK timurlu. TDV ahmed-celayir + Iranica: Aḥmad ve Kara Yûsuf 1401 yağmasından sonra Bağdat'a döndü; Kara Yûsuf Aḥmad'ı çıkardı; Mîrânşah oğlu Ebû Bekir Kara Yûsuf'u çıkardı; Aḥmad 1404/1405 döndü. Ara dilimlerin YILLARI kaynakta YOK ⇒ bölme önerilmedi (§3.5.-1 EKSİK ZİNCİR, kayıtlı borç). 1405 dönüşü: TDV '1405', Iranica '1404' ⇒ çelişki, dokunulmadı.",
+      "degismez2": "1401-07-09 için ±30 günde madde YOK (olaylar_ek11 1401-01-01 · kronoloji_timurlu 1401-06-01 kaynaksız). Önce madde düzeltmesi ARAP-M1.",
+      "komsu_not": "TDV tikrit: Timur Tikrît'i Safer 796 (Aralık 1393) aldı; Tikrit kaydı (BAGDAT kilidinde) celayirli. Garnizonun çekiliş günü yok ⇒ önerilmedi."
+    },
+    {
+      "id": "ARAP-M1", "tur": "madde düzeltmesi", "dosya": "data/olaylar_ek11.js", "madde_t": "1401-01-01 'Timur Bağdat'ı ikinci defa işgal etti'",
+      "oneri": "t:1401-07-09 · gun:'9 Temmuz 1401 (27 Zilkade 803)' · kaynak'a 'Iranica JALAYERIDS' ekle (TDV bagdat yalnız yıl veriyor)",
+      "not": "kronoloji_timurlu 1401-06-01 maddesinin günü de kaynaksız ('bulunamadı'); aynı gün düzeltmesi önerilir."
+    },
+    {
+      "id": "ARAP-S1", "madde": "parti-emrelic-0035/H-0053",
+      "kayitlar": [
+        {"ad": "El-Arîş", "dosya": "data/yerlesimler_afrika.js", "eski": "s memluk t / d f 1517-05-19", "yeni": "1517-01-11", "kaynak": "TDV ridaniye-savasi: 'Padişah da ertesi günü buradan ayrılıp 11 Ocak'ta Arîş'e ulaştı' · TDV selim-i: '11 Ocak'ta Arîş mevkiine ulaştı' · TDV aris: Selim 'deniz yolunu takip ederek Arîş'ten geçmiş'"},
+        {"ad": "Sâlihiyye", "dosya": "data/yerlesimler_afrika.js", "eski": "1517-05-19", "yeni": "1517-01-16", "kaynak": "TDV selim-i: '16 Ocak'ta Sâlihiye'ye gelindiğinde'"},
+        {"ad": "Katye", "dosya": "data/yerlesimler_afrika.js", "eski": "1517-05-19", "yeni": "1517-01-16", "kaynak": "gün komşudan: Sâlihiyye · TDV ridaniye-savasi 'Katya çölünden geçilirken … Gazze'den Sâlihiye'ye kadar çölde sekiz konak' (aynı sefer, aynı güzergâh; çöl geçişinin bittiği gün)"}
+      ],
+      "gerekce": "Emre 'Sina'yı kuzeyden değil güneyden mi geçti' diye soruyor: veri bugün Sina güneyi/Tûr/Süveyş'i 1517-02-15'te, kuzey kıyısını (El-Arîş/Katye/Sâlihiyye) 1517-05-19'da (İskenderiye teslimi) Osmanlı yapıyor ⇒ güzergâh ters görünüyor. Kaynak: ordu Akdeniz kıyısından geçti.",
+      "uyari_D030": "Atlas seferi değil tasarrufu boyar. Kaynak garnizon/idare demiyor; öneri 'Memlük ordusunun o hatta dönmemesi' varsayımına dayanır — koordinatör kararı. Alternatif: üçünü Ridaniye 1517-01-22'ye hizalamak.",
+      "dokunulmayan": "Süveyş/Sina güneyi/Tûr 1517-02-15 ve Kusayr/Sefâce 1517-04-13 — kaynakta gün YOK; ikisi de Kahire'den ÖNCE değil (Emre'nin sezgisiyle uyumlu). Bilbîs/Fâkûs vb. Delta 1517-05-19: gün bulunamadı.",
+      "degismez2": "1517-01-11: olaylar_ek5 1517-01-02 (9 gün) · 1517-01-16: 1517-01-22 Ridaniye (6 gün) — sayaç kapanır AMA D147: hiçbir madde Arîş'i/Sâlihiye'yi anlatmıyor ⇒ ARAP-M2 önerilir.",
+      "madde_duzeltmesi_M3": "olaylar_ek5 1517-01-22 'Süveyş'in alınışı' kaynak:suveys — TDV suveys gövdesinde 1517 günü/olayı YOK (D144). kronoloji_misir 1517-01-22 aynı. Kilit: olaylar_ek5 PAKET-TEMIZ'de."
+    },
+    {
+      "id": "ARAP-M2", "tur": "yeni madde önerisi", "t": "1517-01-11", "b": "Yavuz Sultan Selim'in ordusu Arîş'e ulaştı — Sina kıyı yolu",
+      "kaynak": "ridaniye-savasi · selim-i", "dosya": "koordinatör seçer (P06'ya olaylar dosyası verilmedi)"
+    },
+    {
+      "id": "ARAP-N1", "madde": "parti-emrelic-0035/H-0092 (Napolyon)",
+      "kesin_oneriler": [
+        {"ad": "El-Arîş", "dosya": "data/yerlesimler_afrika.js", "yeni_isg": "{f:1799-02-18,t:1799-11-17,d:fransa-cumhuriyet,kaynak:aris}", "kaynak": "TDV aris: '18 Şubat 1799'da Napolyon tarafından işgal edilen Arîş'i aynı yılın 17 Kasımında Osmanlılar … geri aldılar'", "degismez2i": "1799-02-18: ±30 günde yalnız 1799-03-18 Akkâ (28 gün, Arîş'i anlatmıyor) · 1799-11-17: madde YOK ⇒ iki madde önerisi (ARAP-M4)"},
+        {"ad": "Süveyş · Sina güneyi", "dosya": "data/yerlesimler.js", "eski": "isg d:'fransa'", "yeni": "d:'fransa-cumhuriyet'", "gerekce": "fransa künyesi t:1792-09-22 — 1798 işgali künye penceresi DIŞINDA (4c hayaleti). Öteki 5 taralı nokta zaten fransa-cumhuriyet."}
+      ],
+      "cevap_emreye": "Taranan 7 nokta işgalin gerçek alanında (Delta, Kahire, Asyut, Süveyş) ✓. Taranmayan Delta (Mansûre, Tanta, Demenhûr, Dessûk, Menzile, Mahalle, Şibînülkûm, Benhâ, Bilbîs, Fâkûs, Mît Gamr, Kafrüşşeyh, Bürüllüs, Ebûkîr, Sâlihiyye, Katye) ve Nil vadisi (Feyyûm → Asvan, Kusayr) Fransız denetimine girdi — TDV misir 'üç yıl sürecek olan işgal' diyor ama ŞEHİR BAŞINA gün vermiyor.",
+      "yapilmadi": "Taranmayan noktalara isg önerisi YAZILMADI: şehir başına gün kaynağı bulunamadı; tek olay-tek kaynak hizalaması (f 1798-07-01) Yukarı Mısır için ~6 ay erken olurdu (Asyut'un kendisi de öyle). Akademik kaynak (Cambridge History of Egypt II; Cebertî çevirisi) OKUNMADI.",
+      "celiski": "Bitiş: veri 1801-10-09 (madde kaynak:misir) ↔ TDV misir 'Ağustos 1801'de Mısır'ı terketmek zorunda kaldılar' ⇒ madde günü TDV'de yok. Başlangıç: TDV iskenderiye '30 Haziran 1798' ↔ TDV fransa '1 Temmuz' (veri). Karar koordinatörün.",
+      "akka": "Akkâ kuşatıldı, alınamadı (TDV cezzar: 19-20 Mart – 20 Mayıs 1799) ⇒ isg YAZILMAZ. Gazze/Yafa: gün bulunamadı."
+    },
+    {
+      "id": "ARAP-H1", "madde": "parti-emrelic-0035/H-0079 (Hâil · Nefud)",
+      "kayitlar": [
+        {"ad": "Hâil", "dosya": "data/yerlesimler.js", "yeni_s": "{f:1779-01-01,t:1818-09-09,d:suud}", "kaynak": "TDV residiler: '1779'da Suûdî-Vehhâbî güçleri Hâil emirliğini ele geçirdikleri sırada' · '1818'de Mehmed Ali Paşa kuvvetleri Dir'iye'ye hâkim olunca Cebelişemmer bölgesi Suûdî hâkimiyetinden çıktı' (gün: Dir'iye 1818-09-09, aynı olay)", "kunye": "suud-birinci 1744-1818-09-09 penceresi tutuyor"},
+        {"ad": "Nefud çölü (dolgu)", "dosya": "data/yerlesimler.js", "eski": "s suud f:1744-01-01", "yeni": "f:1779-01-01", "kaynak": "gün komşudan: Hâil (TDV residiler) — dolgu Cebelişemmer'in kuzeyi; 1744'te Suûdî nüfuzu 'Dir'iye sınırlarını aşmıyordu' (TDV suudiler)"},
+        {"ad": "Riyad", "dosya": "data/yerlesimler.js", "eski": "s suud f:1744-01-01", "yeni": "f:1773-01-01", "kaynak": "TDV riyad: Dehhâm b. Devvâs ile '1746-1773 yılları arasında otuz beş defa … mücadelenin sonunda Riyad Suûdîler'in eline geçti'"}
+      ],
+      "bulunamadi": "Buraydâ (Kasîm) · Uneyze · Şakrâ · Necid içi dolgu: s suud f:1744 — TDV vehhabilik yalnız '1792 yılına kadar … Riyad, Harc ve Kasîm'de hâkimiyet kurdular' (üst sınır). 1744 KAYNAKSIZ ve TDV suudiler ile çelişik; yıl bulunamadı ⇒ öneri yok, borç.",
+      "degismez2s": "1779-01-01 ve 1773-01-01 yeni YABANCI kırılma; ±30 günde ilgili madde YOK ⇒ ARAP-M5 (iki madde) önce.",
+      "cevap_emreye": "Hâil 1779'dan Vehhâbî-Suûdî idaresine girdi (TDV residiler); harita 1744'te Nefud'u boyarken Hâil'i boyamıyor — ikisi de yanlış yönde. 1744 İttifakı yalnız Dir'iye'dir."
+    },
+    {
+      "id": "ARAP-B1", "madde": "parti-0006/H-0001 (Katîf güneybatısı 'Safevî')",
+      "hukum": "Katîf/Lahsa/Ukayr/Cübeyl s safevi 1524-01-01→1550-01-01 atfı TDV ile ÇELİŞİYOR (§3.5.-1 'devlet var, yeri yanlış').",
+      "kaynak": "TDV katif: Cebrîler'in hâkimiyetine 'Basralı Şeyh Râşid b. Megāmis … 931'de (1524-25) son verdi' · 'Kanûnî … 941'de (1534) Bağdat'ı ele geçirmesiyle Katîf de Osmanlı Devleti'ne bağlanmış oldu; ancak … 1550'den itibaren ilgilenmeye başladılar' · TDV lahsa: Lahsâ 'Âl-i Ecved'in elinde iken … Basra beylerbeyiliğine bağlandı (1547)' · TDV basra: Basra 1508 Safevî; 1534'te Basra hâkimi Râşid b. Megāmis Kanûnî'ye itaatini bildirdi",
+      "neden_yazilamaz": "Râşid b. Megāmis (Basra şeyhliği) için künye YOK; cebri künyesi t:1524-01-01 (TDV lahsa Lahsâ'da Âl-i Ecved'i 1547'ye kadar anıyor ⇒ künye dar). Künye/renk P03'te kilitli.",
+      "oneri_taslak": "Katîf: cebri →1524 · [Basra şeyhliği/Megāmis künyesi] 1524→1534-12-04 · v Osmanlı 1534-12-04→1550 (TDV katif 'bağlanmış oldu') · d 1550 · Lahsa: cebri →1547 (künye genişletme) · d 1547. Basra: safevi 1508→1534-12-04 · v 1534-12-04→1546 'Basra (Râşid b. Megāmis) — Osmanlı'ya itaat' (gün komşudan: Bağdat 1534-12-04, aynı sefer).",
+      "portekiz_umman": "Maskat/Suhâr portekiz t 1650-01-26 ↔ TDV uman '1029/1620 Nâsır b. Mürşid döneminde' ↔ TDV maskat '1630'da' ⇒ TDV kendi içinde çelişik (§4⑥), veri üçüncü bir gün. Hürmüz Adası/Kişm portekiz t 1622-05-01 ↔ TDV hurmuz '23 Nisan 1622' (kronoloji_iran 1622-05-01 Iranica) ⇒ çelişki, öneri yok. Buraymî/Nizva umman f:1515-04-01 ↔ künye umman f:1624 (4d, 109 yıl) — P03.",
+      "cakisma": "Basra kaydının 1623-1639'u BAGDAT'ta; bu öneri 1508-1546'ya dokunur. Katîf/Lahsa zinciri CAPRAZ IBERYA yedi karar kalemiyle çakışabilir."
+    },
+    {
+      "id": "ARAP-F1", "madde": "parti-emrelic-0045/H-0012 (Fizan boşluğu)",
+      "oneri": "yeni dolgu: {ad:'Fizan kuzey platoları (dolgu)', tur:'bolge', lat:28.6, lon:12.5, g:0, k:0, bos:'devletsiz', kasitli_bosluk:true, neden:'Trablus kıyı kuşağı (Derc·Ğadâmis·Mızde) ile Fizan vahaları (Ubârî·Sebha) arası yerleşimsiz plato; TDV fizan: bölgenin kuzeyinde kalker, kum taşı ve bazaltlı platolar yükselir. Boşluk kasıtlı.'}",
+      "dosya": "data/yerlesimler_afrika.js (koordinatör)",
+      "olcum": "nicin_bos 28.37K/12.51D 1600: Ubârî 199.9 km (A1 140 yetişmez), Sebha 240 km ⇒ bugün TAVAN yüzünden beyansız beyaz (KITA16). İkinci leke 27.52K/9.67D: en yakın İllîzî (tuareg-accer) 166 km — Osmanlı alanı DEĞİL, dolgu önerilmedi.",
+      "soru": "Emre'ye: burası beyaz mı kalsın (öneri), yoksa Trablusgarp eyaleti kervan yolu (Mızde–Sebha) gerekçesiyle boyansın mı? Plato adı için coğrafî kaynak (GeoNames) OKUNMADI — ad TDV cümlesinden türetildi."
+    }
+  ],
+  "madde_onerileri": [
+    {"id": "ARAP-M4", "t": "1799-02-18", "b": "Napolyon Arîş'i işgal etti — Suriye seferinin başlangıcı", "kaynak": "aris"},
+    {"id": "ARAP-M4b", "t": "1799-11-17", "b": "Arîş'in Fransızlardan geri alınması", "kaynak": "aris"},
+    {"id": "ARAP-M5", "t": "1773-01-01", "b": "Riyad'ın Suûdîlerce alınması — Dehhâm b. Devvâs'la 27 yıllık mücadelenin sonu", "kaynak": "riyad", "kesinlik": "yıl"},
+    {"id": "ARAP-M5b", "t": "1779-01-01", "b": "Suûdî-Vehhâbî kuvvetleri Hâil emirliğini (Cebelişemmer) ele geçirdi", "kaynak": "residiler", "kesinlik": "yıl"}
+  ],
+  "cevap_olmayan_bulgular": [
+    {"id": "ARAP-O1", "madde": "parti-emrelic-0021/H-0010", "hukum": "ÇİFT İŞ ÖNLENDİ — UYGULA-BAGDAT kapsamında: YAMA-BAGDAT grup A (Tikrit, Sâmerrâ → 1638-12-24), D (Kerkük 1624-1625), F (Erbil, Kerkük günü). Öneri yazılmadı."},
+    {"id": "ARAP-O2", "madde": "parti-emrelic-0024/H-0005 (Basra 1703 Safevî dili)", "hukum": "VERİDE ÇÖZÜLMÜŞ, GÖRSEL BAYAT", "olcum": "nicin_bos 29.3K/47.6D 1703-08-22: Fâv 113 km · Abâdân 134 km · Basra 136 km — üçü OSMANLI, tavan yetişiyor; puan OSMANLI 22 / safevi 14. Abâdân d 1546→1847 artık Osmanlı; Kuveyt kur:1716. Görsel koşu öncesi. Dolgu noktası GEREKMİYOR. TDV zubeyr = Hz. Peygamber'in amcası (yanlış madde, §4②)."},
+    {"id": "ARAP-O3", "madde": "parti-emrelic-0035/H-0054 + H-0055 (Hicaz yolu)", "hukum": "BOŞLUK VERİDE KAPANMIŞ, GÖRSEL BAYAT · durak noktaları YAPILMADI", "olcum": "nicin_bos 1600: 27.6K/37.2D Tebük 107·Hicr 117·Ulâ 131 km OSMANLI 'BOYANIYOR olmalı' · 27.0K/36.3D el-Vech 87 km · 25.2K/38.6D Hayber/Medine/Yenbu. el-Hicr/el-Ulâ/el-Vech noktaları (yerlesimler_ok101.js) görselden sonra eklenmiş.", "yol": "TDV hicaz: iç yol 'Mekke-Yesrib-Hicr (Medâinüsâlih)-Tebük-Maan', kıyı kolu 'Kızıldeniz kıyısını takip ederek Bedir'e, buradan … Eyle'ye (Akabe), oradan Maan'a' · TDV tebuk: 965 (1558) saldırısından iki yıl sonra Kanûnî emriyle hac güzergâhında kaleler (Tebük Kalesi biri).", "bulunamadi": "Ara menzil kaleleri (Muazzam, Ahdar, Hediyye, Muveylih…) için TDV'de madde yok (muazzam 302); A. Latif Armağan 'Osmanlılar Zamanında Hac Yolu ve Menziller' (İÜ tez 1990) OKUNMADI. BES-ALTYAPI 5 koridor işine devir."},
+    {"id": "ARAP-O4", "madde": "parti-emrelic-0035/H-0065 (İbrim)", "hukum": "ÖNERİ YOK — kaynaklar ayrışıyor, Emre'ye", "kaynak": "TDV nube: Mısır fethinin ardından Halfa'ya kadar kontrol, İbrim'de idarî teşkilât (yıl yok) · TDV sudan: Hadım Süleyman Paşa'nın Kuseyr çıkarmasından (1538) sonra görevlendirilen Özdemir Bey 'İbrim ve Der kaleleriyle … ele geçirdi' (1538-1554 arası, yıl yok) · TDV habes-eyaleti: İbrim sancağı 26 Temmuz 1573'te Habeş eyaletine", "neden": "1517-15xx arası için ardıl kimlik (yerel Nûbe şeyhlikleri) künyesi yok; olaylar_ek5 1555-01-01 maddesinin yılı kaynakta yok. Orhonlu, Habeş Eyaleti (1974) OKUNMADI."},
+    {"id": "ARAP-O5", "madde": "parti-emrelic-0035/H-0074 (Hemedan barışı)", "hukum": "KISMEN — yeni bulgu + çelişki; ortadaki şehirler YAPILMADI", "bulgular": ["Urmiye: TDV urmiye '1724 yılında bir defa daha Osmanlı hâkimiyetine girdi. Nâdir Şah 1729'da … Urmiye'yi ele geçirdiler (1730)' — veri Urmiye'ye 1724 Osmanlı dönemi HİÇ yazmıyor (yalnız 1585-1603). Öneri taslağı: d {f:1724-01-01,t:1729-01-01}; 1730 sonrası bitiş BULUNAMADI.", "Antlaşma günü çelişkisi: olaylar_ek5 1727-10-04 'Hemedan Antlaşması' ↔ TDV hemedan '17 Safer 1141 (22 Eylül 1728) imzalanan Hemedan Barış Antlaşması'.", "Hoy (TDV hoy 1739 ↔ veri 1730) ve Tebriz (1731-11-15 geri alınış yok, 1732↔1736) zaten YAMA-A6C C-0076-c/d'de — tekrar yazılmadı."], "bulunamadi": "Selmâs · Merend · Culfa · Sakkız · Bâne · Mahabad · Senendec 1724-1730 sahibi: şehir başına kaynak aranmadı/bulunamadı (senendec · erdelan · mahabad sluglar 302)."}
+  ]
+}

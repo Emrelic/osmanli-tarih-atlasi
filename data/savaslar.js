@@ -241,6 +241,17 @@ window.SAVASLAR = [
   kaynak:"Yusuf Heper, \"Osmanlı-Rumen Kaynakları Perspektifinden Ferhad Paşa'nın Eflâk Seferine Tayini ve Yapılan Askerî Hazırlıklar (1595)\", GTTAD 5/10 (Temmuz 2023): \"13 Kasım 1594 tarihinde Bükreş'te Osmanlı Devleti'ne karşı fiilen isyan eden Mihail\" · Heper 2021: \"13 Kasım 1594 tarihinde Eflak ve Boğdan'da eş zamanlı olarak başlayan isyanlar\" · Mevlüde Gökçen Daş Darıcı, \"Eflak-Boğdan-Erdel Voyvodaları ve Osmanlı İstihbaratına Dair Rolleri\" (2019): \"Eflak voyvodası Mihal … ve Boğdan voyvodası Aron Tranul Osmanlı Devleti'ne isyan ederek\" (yıl 1594)" },
 { t:"1594-11-01", tur:"isyan", ad:"Boğdan ayaklanması — Aron Voyvoda'nın Yaş'ta isyanı (1594)", taraf_metin:"Boğdan Voyvodalığı (Aron)", sonuc:"belirsiz", seri:"habsburg", lat:47.162, lon:27.584, taraf:["osmanli","bogdan"],
   kaynak:"Heper 2021: \"13 Kasım 1594 tarihinde Eflak ve Boğdan'da eş zamanlı olarak başlayan isyanlar\" · bogdan (TDV): \"1594 yılı sonlarında Yaş ve Bükreş'te prensten alacağı olan bütün Türk ve Rumlar öldürüldü. Boğdan askerleri Dobruca'ya girdi.\" — Yaş noktası TDV'nin Boğdan için adını verdiği yer" },
+// P11-SEFER 14 Eylül 2026 — Kalûgerân işareti GÜNLE GERİ GELDİ (A4 §7① şartı: "gün bulunursa").
+// Gün kaynağı: History of Transylvania I (ed. B. Köpeczi, MTA Tarih Enstitüsü; İng. çev. MEK
+// mek.oszk.hu/03400/03407/html/118.html, basılı s. 1-749): "On 23 August, at Călugăreni, he managed to halt
+// Sinan Pasha's advance". Macar akademik eseri Gregoryen (Macaristan 1587'den) ⇒ 23 Ağustos GREGORYEN
+// (Rumen yazımında 13/23 Ağustos, Jülyen/Gregoryen). Önal s.390-395 OKUNMADI (academia.edu 403).
+// sonuc belirsiz, galip YOK: HoT "halt … but superior numbers soon forced him to withdraw" · TDV bukres
+// "Yenilen Eflaklılar geri çekili[nce]" · TDV eflak "baskın yaptıktan sonra geri çekildiyse de" — kaynaklar
+// galibi farklı veriyor. Koordinat: sefer okundaki istasyon (Nominatim Călugăreni, A4); TDV bukres
+// "Bükreş'e 4 mil (yaklaşık 6 km.)" bu noktayla (~30 km) UYUŞMUYOR — çelişki, çözülmedi.
+{ t:"1595-08-23", tur:"meydan", ad:"Kalûgerân (Călugăreni) muharebesi", taraf_metin:"Eflak Voyvodalığı (Mihail)", sonuc:"belirsiz", seri:"habsburg", lat:44.186, lon:26.001, taraf:["osmanli","eflak"],
+  kaynak:"History of Transylvania I (ed. B. Köpeczi, MTA; MEK html 118, s. 1-749): \"On 23 August, at Călugăreni, he managed to halt Sinan Pasha's advance, but superior numbers soon forced him to withdraw into the Carpathians\" · bukres (TDV): \"Kalûgerân (Çalugareni) mevkiinde Prens Mihal … ile Serdar Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595)\" · eflak (TDV): \"Koca Sinan Paşa'nın idaresindeki orduya Kalûgerân'da baskın yaptıktan sonra geri çekildiyse de\"" },
 { t:"1596-10-26", tur:"meydan", ad:"Haçova",                    taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:47.82, lon:20.72, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1600-10-22", tur:"kusatma", ad:"Kanije kuşatması",          taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:46.45, lon:16.99, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1620-09-17", tur:"meydan", ad:"Cecora (Ţuţora)",           taraf_metin:"Lehistan",          sonuc:"zafer",   seri:"lehistan",lat:47.10, lon:27.75, taraf:["osmanli","lehistan"], galip:"osmanli" },

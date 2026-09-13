@@ -1,86 +1,18 @@
-YAYIN — KOSU 9 INDI · mukerrer anahtar 6->0 · enklav 661->650 · paralel motor
+YAYIN — KOSU 11 INDI · Kirim uc ton (gevsek himaye) · Caldiran-Baskale · Bagdat 1638 · dalga SINIF2 verisi
 
-Bu commit'i bir INSAN degil, `arac/kos_ve_yayinla.py` zinciri atti. Mesaj
-KOSUDAN ONCE yazildi (10 Eylul 2026), cunku zincir tokensiz kosuyor ve
-sonradan mesaj yazacak kimse yok.
+Tokensiz zincir (arac/kos_ve_yayinla.py) uretti, denetledi ve kapidan gecirdi. Koordinator 14 Eylul 2026 gecesi baslatti.
 
-🔴 VE BU DOSYA KOSU 8'IN MESAJINI TASIYORDU — kosu 9'u baslatmaya
-   hazirlanirken goruldu. Baslatilsaydi kosu 9'un ciktisi git tarihine
-   "KOSU 8 INDI · vassal etiket katmani" diye gecerdi ve `git log` bir
-   daha guvenilmezdi. `D047`: log da bir CIKTIDIR ve o da BAYATLAR —
-   burada bayatlayan sey, HENUZ YAZILMAMIS bir commit'in mesajiydi.
-
-## NE GIRDI — son yayindan (00652fc) bu yana, ADIYLA
-
-VERI DUZELTMELERI (haritayi degistiren):
-  7e6049d  MUKERRER ANAHTAR 6 -> 0
-           Alti kayitta ayni alan IKI KEZ yaziliydi; JS sonuncuyu alir ve
-           birincisi SESSIZCE olur. UC KAYITTA "sonuncuyu tut" KUSUR
-           URETIYORDU — toplu bir kural uygulansaydi Yagodina 1689-90
-           Avusturya isgalini, Yedisan cift sahipligi geri alacak, Sirnak
-           tbmm'yi kaybedecekti.
-           🔴 Imadiye'de olcum hukmu TERSINE CEVIRDI: motorun okudugu
-             kopya 1918-1923'u duz `ingiltere` yapiyordu, oysa bolgenin
-             31 kaydi (Musul · Kerkuk · Erbil · Akra · Duhok · Zaho ·
-             Sincar · Telafer …) `irak-kralligi` 1921-08-23 tasiyor.
-             ⇒ Haritada IRAK KRALLIGI'NIN ORTASINDA IKI YILLIK BIR
-               INGILIZ ENKLAVI vardi. Kapandi.
-  c104b61  ENKLAV YAMASI INDI — 8 kayit · 9 `enklav: true` bayragi.
-           `Degismez 7` 661 -> 650. Yama 7 Eylul'den beri bekliyordu
-           (kosu 8 suruyordu, `§7`: kosu sirasinda `data/` DONUK).
-           🔴 Yama "s: dizisini degistir" diye DEGIL "bayrak ekle" diye
-             uygulandi: once 8 kaydin 8'inde canli `s:`in yamanınkiyle
-             birebir ayni oldugu OLCULDU (sapma 0), sonra yalniz eksik
-             bayraklar konuldu. Korukorune yazmak, aradaki uc gunde inen
-             her duzeltmeyi sessizce geri alirdi (`D108`).
-  e4e3f85  RENK CAKISMASI 1 -> 0 — `suriye-lubnan-mandasi` #9c24d2 ->
-           #d24824. Ikisi de mordu (`tbmm-turkiye` ile ΔE 5,0) ve
-           1920-1923 arasi KOMSU: Anadolu-Suriye siniri iki ayirt
-           edilemez mor arasinda kaliyordu.
-           ⚠️ ILK DENEME CAKISMAYI TASIDI: teal secildi, `filistin-mandasi`
-             ile ΔE 1,9'a dustu — DAHA KOTU. Komsu kumesinin tamami
-             olculup turuncu-kirmiziya gecildi.
-  ec2873e  MERSIN — Emre'nin 2 Eylul karari (`kur:1671`) sekiz gun sonra
-           veriye indi. Karar VERILMISTI ama uygulanmamisti.
-  404afc0  ERMENI DERBENDI · 7c7e80d SOGUT-DOMANIC KORIDORU — iki gercek
-           yerlesim, Emre'nin "tek noktadan bitisme" sikayetine karsi.
-
-DENETIM SIKILASTI:
-  c104b61  DORT TAVAN BIRDEN INDIRILDI — ve isteyen ALETIN KENDISIYDI
-           ("TAVAN GEVSEK" uyarisi dordunde de basiyordu):
-              sahipsiz  315 -> 314      belgesiz    7 -> 4
-              enklav    661 -> 650      asan      138 -> 132
-           `D004`UN TERS YUZU: olcutu GEVSETMEK yasak; ama olcum
-           IYILESINCE tavani INDIRMEK ZORUNLU — yoksa bir sonraki
-           gerileme sessizce yenen bir pay bulur ve alet yine "✓" basar.
-  fc6d1f7  KOSUYU BASLATACAK ZAMANLAYICI 13 AGUSTOS'TAN BERI BOZUKTU.
-           `State: Ready` diyordu, `LastTaskResult` 0x80070002 ("dosya
-           bulunamadi") — bosluklu yol tirnaklanmadan kaydedilmis.
-           `schtasks /run` 0 doner ("BASLATILDI" demek, "CALISTI" demek
-           DEGIL) ⇒ koordinator "kosu basladi" der, sabah ne log olur ne
-           cikti. Alet + `--onar` yazildi.
-
-MOTOR — PARALELLESTIRME (bu kosunun ILK kez calistirdigi sey):
-  1770f78 · 4a23d53 · d6fe2bb  PARALEL TASARIM — uc adim, sha256 DENK
-           (devlet basina VE donem basina), negatif capa AYRISTI.
-  260fa73  CAPRAZ PARALEL — dort bulgu. Ikisi ciktiyi bozmuyor ama
-           KOSUYU OLDUREBILIRDI ve hicbir bit sinavi goremezdi:
-              B2 BELLEK    `list(_ex.map(...))` butun ham geometriyi ayni
-                           anda tutuyordu; `rusya` (asamanin %22,2'si)
-                           80/579. sirada dogup kalan %86 boyunca bellekte
-                           kaliyordu. Bu makinede bos RAM 1,1 GB.
-              B3 NOBETCI   `ilerleme()` FAZ 2'ye tasinmisti; pahali faz
-                           boyunca log DONUYORDU. Ayni korluk 3 Eylul'de
-                           sekiz saat surdu.
-           📌 Ve capraz'in cumlesi: "301 noktalik kutu bunu YAPISAL
-             OLARAK gosteremez." Sinav gecmisti, ve gecmesi bir kanit
-             degildi — kutuda `rusya` YOK.
-
-⚠️ ACIKCA ODENMEYEN BEDEL (`D107`): TAM GIRDIDE bit denkligi SINANMADI.
-   Iki tam kosu ~28 saat sürerdi ve kazandirdigi 6-12 saatten pahaliydi.
-   Kalan risk yazili: paralel surum FARKLI AMA GECERLI bir cikti
-   uretirse `denetle.py` + yayin kapisi + `renk_olc.py` bunu YAKALAMAZ.
-   🟢 Geri donus ucuz: `MOTOR_PARALEL_KAPALI=1` eski dongusu AYNI
-     DOSYADA duruyor.
+BU KOSUNUN ICINDEKILER (girdi kosudan once dondu):
+  · MOTOR: himaye govdeleri d.h (8ba093e) — Kirim Hanligi Nogay bozkiri gevsek himaye, serit + acik ton #e8a2aa
+  · VERI-KIRIM (07235d9): 18 bozkir kaydi gevsek himaye 1475-1774 · kuzey vahsi bozkir (Voronej, Belgorod, Harkov,
+    Sloboda, Tambov) kasitli bosluk · Cerkes kiyisi 1441-1475 bosluk · Kabartay kendi kunyesi · Hacibey Litvanya ·
+    Taganrog 1711-1739 tampon · etiket 'Kirim Hanligi'
+  · Caldiran · Baskale 1548-1639 Safevi adaciklari kalkti · Van fethi 24 Agustos 1548 · Seyhrumi
+  · UYGULA-BAGDAT: Bagdat eyaleti 1638-12-24 hizasi · Sehrizor 1630 · Kerkuk ve Musul 1624-25
+  · P04 Sehirkoy Fetret · Herseknovi 1539 · P05 yeni Anadolu noktalari (Bayburt, Zamanti, Mesudiye, Golkoy) · Kigi 1514
+  · P06 Katar 1559-1670 tabi · isyan taramasi (Erdel 1599/1601, Bogdan 1600) · dis olay suzgeci · ayni gun yanip sonme ·
+    magazin akordeonu · devlet paneli madde tiklamasi onarildi · yeni madde dosyalari p0050-p0058 · ek okumalar
+⚠️ Yama onerisi olarak bekleyen (bu kosuda YOK): YAMA-TRAKYA · ISGAL1919 · ANADOLU · ARAP · KARADENIZ · KUZEY · UZAK ·
+   P01/P02 inisleri · P13B Y6/Y7 (denetim/P13B-UYGULANMADI-Y6Y7-0914.patch).
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

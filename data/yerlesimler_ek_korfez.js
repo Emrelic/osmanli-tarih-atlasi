@@ -46,9 +46,27 @@
 //   aralıkları 1602'yi kapsıyor). Düzeltme önerisi koordinatöre bildirildi,
 //   BU DOSYADAN uygulanmadı.
 // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// 🔴 14 EYLÜL 2026 — P06-ARAP (YAMA-0048 Y4 uygulandı, H-0011 "Doha 1602 Safevî mi")
+// Yukarıdaki "ilk somut bağ 1868/1871 · 1550'den itibaren Osmanlı boyamak
+// tarihen yanlış" hükmü TDV `katar` ile ÇÜRÜDÜ (gövde 14.09.2026 okundu):
+//   "önce Lahsâ beylerbeyiliğini, arkasından da Katar sancağını kurarak
+//    buraya idareciler tayin etti (1559)" · doğrudan idare "yarım kalmış",
+//   ama yarımada "tartışmasız biçimde Osmanlı hâkimiyetindeki topraklar
+//   içinde" (Benî Müsellem mahallî idarecileri üzerinden) ⇒ v: tâbi.
+// Dolgu artık 1559-1670 arası sahiplidir; ölçüm ve gerekçe vakası duruyor.
+// Bitiş: TDV `katar` 1559'dan 1776'ya atlıyor (gün/yıl YOK). TDV `riyad`:
+// Lahsâ beylerbeyileri yerine Benî Hâlid'in hüküm sürmesi "XVII. yüzyılın
+// ikinci yarısı" ⇒ yüzyıl-yarısı hassasiyeti. 1670-01-01 Lahsa/Ukayr/Katîf
+// kayıtlarının benihalid geçişiyle hizalandı; o YILIN kendi kaynağı
+// BULUNAMADI (kronoloji_arabistan 1670 maddesi de TDV'de yok diyor) —
+// §4 şartlı komşu ① TAM karşılanmıyor, rapor: denetim/P06-ARAP-0914.md.
+// ---------------------------------------------------------------------------
 window.YERLESIMLER_EK_KORFEZ = [
 { ad:"Katar Yarımadası (iç, dolgu)", tur:"bolge", lat:25.40, lon:50.95, g:0, k:0,
-  kasitli_bosluk:true, bos:"devletsiz",
-  neden:"Katar yarımadasının bu iç kesiminde nokta yoktu ve komşu Ukayr (Uceyr) peteğine emiliyordu (H-0021, py arac/nicin_bos.py --lat 25.3 --lon 51.2 --gun 1602-01-01: 106.6 km, OSMANLI, tavan YETİŞİR). Lahsa Eyaleti'nin (1550-1670 Osmanlı vassal) idaresi kıyı şeridiyle sınırlıydı; yarımadanın merkezî bir idareye ilk somut bağı 1868/1871 Osmanlı-Katar kazâsıdır (bkz. data/yerlesimler.js:982 Doha kaydı, v: 1871'den başlıyor). Bu nokta yalnızca peteğin nerede biteceğini belirleyen bir DOLGUDUR (bkz. data/yerlesimler.js:1011 'SAHİPSİZ BÖLGE NOKTALARI' / 'Nefud çölü' emsali) — hiçbir zaman sahiplendirilmez.",
-  d:[], s:[] },
+  bos:"devletsiz",
+  neden:"Katar yarımadasının bu iç kesiminde nokta yoktu ve komşu Ukayr (Uceyr) peteğine emiliyordu (H-0021, py arac/nicin_bos.py --lat 25.3 --lon 51.2 --gun 1602-01-01: 106.6 km, OSMANLI, tavan YETİŞİR). Bu nokta peteğin nerede biteceğini belirleyen bir DOLGUDUR. 1559-1670 arası Osmanlı'ya tâbi: TDV katar — Lahsâ beylerbeyiliği ve ardından Katar sancağı (1559); doğrudan idare yarım kaldı, hâkimiyet Benî Müsellem mahallî idarecileri üzerinden. 1559 öncesi ve 1670 sonrası (1868/1871 Osmanlı-Katar kazâsına kadar, Doha kaydı) sahipsizlik KASITLI HÜKÜM DEĞİL: bağlılık bulunamadı (TDV katar 1559'dan 1776'ya atlıyor). 1670 bitişi Lahsa/Ukayr benihalid geçişiyle hizalı; TDV riyad bu değişimi yalnız 'XVII. yüzyılın ikinci yarısı' diye veriyor, yılın kendi kaynağı bulunamadı.",
+  d:[], s:[],
+  v:[{ f:"1559-01-01", t:"1670-01-01", k:"Katar (Benî Müsellem) — Lahsâ beylerbeyiliğine bağlı", statu:"vassal",
+       kaynak:"TDV katar: 'Katar sancağını kurarak buraya idareciler tayin etti (1559)' · 'tartışmasız biçimde Osmanlı hâkimiyetindeki topraklar içinde' — bitiş: TDV riyad 'XVII. yüzyılın ikinci yarısı', yıl Lahsa kaydına hizalı (kaynağı bulunamadı)" }] },
 ];

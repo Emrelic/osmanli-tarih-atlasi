@@ -1,0 +1,112 @@
+{
+  "olusturan": "P07-KUZEY · 14 Eylul 2026",
+  "durum": "TASLAK — data/devletler.js ve arac/renkler.py'ye YAZILMADI (P03 kilidi). Uygulama YOK. Kutsal Roma icin iki secenek Emre'nin kararina sunuluyor.",
+  "id_taramasi": "§3.5 'tahmin edilen id aranmaz': data/devletler.js 639 kunyenin id + ad + harita + bolge alanlari regex ile TARANDI (alman|roma|kutsal|germen|prus|brandenb|bavyer|saksony|pfalz|palatin|hannover|kurland|livon|toton|teuton|sovalye|zapolya|dogu macar …). Sonuc: `kutsal-roma` id YOK — ama KUTSAL ROMA KIMLIGI VAR: id `almanya`, ad 'Kutsal Roma / Almanya', f 962-02-02, t 1923-10-29, harita 'almanya'. Aşağıdaki hiçbir yeni id devletler.js'te ve renkler.py'de YOK (grep 0). `prusya` künyesi var (1701-01-18→1871-01-18, harita alanı yok, renk anahtarı `prusya` #2478d2 var).",
+  "kosullu_zemin": "data/kronoloji_almanya.js (index.html'e BAĞLI) 14 ayrı `devlet:` kimliği kullanıyor ve HİÇBİRİNİN künyesi yok: brandenburg-prusya 47 · alman-imparatorlugu 32 · kutsal-roma 17 · saksonya 10 · weimar-cumhuriyeti 4 · pfalz 4 · hansa 4 · alman-konfederasyonu 4 · bavyera 3 · teuton-sovalyeleri 2 · hannover 2 · wurttemberg 1 · dini-elektorlukler 1 · baden 1. ⇒ Bölme için ad alanı ZATEN önerilmiş; taslak bu id'leri KULLANIYOR (yeni yazım üretmemek için).",
+  "motor_notu": "uret_petek.py:363-368 `_HARITA_ALT`: veri kimliği BOYALAR'da yoksa künyenin `harita:` alanına düşer. app.js:75 etiketi `harita` anahtarının İLK künye adından alır; devletler_harita.js adı renkler.py'den gelir. ⇒ Yeni künyeler `harita:'almanya'` taşırsa renk VE ETİKET değişmez ('Kutsal Roma / Almanya' 1923'te kalır). Emre'nin 0039/H-0007 şikâyetini kapatmak için EN AZ bir yeni BOYALAR anahtarı şart.",
+  "uretim_olcumu": "devletler_harita.js `almanya` 65 pencere; 1921-10-20 ve 1923-10-28'de pencere VAR (1920-06-15→1923-10-29, 16 hücre, etiket 'Kutsal Roma / Almanya') ⇒ 0039/H-0007 BUGÜN DE açık.",
+
+  "kutsal_roma": {
+    "soru": "0011/H-0001 + 0039/H-0007: Kutsal Roma 1281-1806 tek blok mu (a), beş seçici prenslik ayrı mı (b)?",
+    "olculen_almanya_kullanimi": {
+      "yerlesim": 135, "donem": 153,
+      "zaman_dilimi": {
+        "0962→1806-08-06": "77 yerleşim (68 Orta Avrupa + 9 Baltık)",
+        "1806-08-06→1815-06-08": 26, "1815-06-08→1866-08-23": 29, "1866-08-23→1871-01-18": 29,
+        "1871-01-18→1918-11-09": "97 (40 Orta Avrupa + 2 Baltık + 55 sömürge, 1883-05-01→1919-06-28)",
+        "1918-11-09→1923-10-29": "43 (40 + 2 + 1)"
+      },
+      "sinir_gununu_kesen_donem": {"1806-08-06": 26, "1815-06-08": 26, "1871-01-18": 29, "1918-11-09": 43},
+      "uyari": "İlk ölçümümde 962→1806 dilimi 0 çıktı: '962' < '1806' dizgi karşılaştırmasında YANLIŞ (üç haneli yıl tuzağı, §3.5). pad() ile düzeltildi, 77. Sayı ölçüm aletinin kendi kusurundan geçti, bildiriyorum."
+    },
+
+    "secenek_a": {
+      "tanim": "Tek blok, yalnız ZAMANA göre bölünür (koordinatör önerisi).",
+      "kunyeler": [
+        {"id": "kutsal-roma", "ad": "Kutsal Roma(-Cermen) İmparatorluğu", "tur": "imparatorluk", "bolge": "orta-avrupa",
+         "f": "962-02-02", "f_kaynak": "mevcut `almanya` künyesinden DEVRALINDI — kaynağı bu turda ÖLÇÜLMEDİ",
+         "t": "1806-08-06", "t_kaynak": "TDV-almanya YIL 1806 (okundu). GÜN: kronoloji_habsburg.js:516 'Die Welt der Habsburger' alıntısı — OKUNMADI.",
+         "harita_onerisi": "YENİ anahtar `kutsal-roma` (renk: mevcut #78d028 AYNEN taşınabilir — iki anahtar aynı anda sahnede değil; renk_olc ile ölçülmeli)"},
+        {"id": "alman-konfederasyonu", "ad": "Alman Devletleri (Ren ve Alman Konfederasyonları)", "tur": "federasyon", "bolge": "orta-avrupa",
+         "f": "1806-08-06", "t": "1871-01-18",
+         "kaynak": "TDV-almanya: Ren Konfederasyonu 1806 · çöküşü 1813 · Alman Konfederasyonu 1815 · dağılışı 1866 · Kuzey Almanya Konfederasyonu · İmparatorluk 18 Ocak 1871 (GÜN okundu).",
+         "celiski_6": "TDV-almanya Kuzey Almanya Konfederasyonu için '(1866-1878)' yazıyor, aynı paragrafta 1871'de İmparatorluğa katıldığını söylüyor ⇒ kaynak kendi içinde çelişik (§4 ⑥), bildiriyorum; taraf seçmedim.",
+         "neden_tek_kunye": "1806-1871 arasında üç ayrı yapı + güney devletleri (Bavyera, Württemberg, Baden 1866-1871 konfederasyon dışı). Ayrı ayrı yazmak (a)'yı fiilen (b)'ye çevirir. Tek şemsiye etiketi dürüst kısaltmadır — ozet alanında AÇIKÇA yazılmalı.",
+         "harita_onerisi": "YENİ anahtar"},
+        {"id": "alman-imparatorlugu", "ad": "Alman İmparatorluğu", "tur": "imparatorluk", "bolge": "orta-avrupa",
+         "f": "1871-01-18", "t": "1918-11-09",
+         "kaynak": "TDV-almanya iki gün de: '18 Ocak 1871' · 'tahttan feragat etmek zorunda kalan (9 Kasım 1918)'.",
+         "harita_onerisi": "mevcut `almanya` anahtarı, renkler.py adı 'Kutsal Roma / Almanya' → 'Almanya' (P03)"},
+        {"id": "weimar-cumhuriyeti", "ad": "Alman Cumhuriyeti (Weimar)", "tur": "cumhuriyet", "bolge": "orta-avrupa",
+         "f": "1918-11-09", "t": "1923-10-29",
+         "kaynak": "TDV-almanya: 'Aynı gün Alman Cumhuriyeti ilân edildi' (9 Kasım 1918). t = atlas penceresi, ozet'te not.",
+         "harita_onerisi": "`almanya` anahtarını paylaşabilir (etiket 'Almanya' ikisine de doğru) ⇒ yeni renk GEREKMEZ"}
+      ],
+      "etkilenen_yerlesim": {
+        "yeniden_etiket_1806_oncesi": "77 yerleşim: 26'sı 1806-08-06'da BÖLÜNÜR, 51'i (42 Orta Avrupa + 9 Baltık) yalnız kimlik değiştirir",
+        "1806_1871": "26-29 yerleşim, 1806-08-06 ve 1871-01-18'de bölünür",
+        "1871_sonrasi": "`almanya` kalır ⇒ veri DEĞİŞMEZ (alman-imparatorlugu + weimar harita:'almanya' ile)",
+        "toplam_dokunulan": "≈80 yerleşim · ≈105 dönem ucu",
+        "baltik_uyarisi": "9 Baltık kaydı `kutsal-roma`ya DEĞİL Töton/Livonya künyelerine gitmeli (YAMA-KUZEY Y1). Yoksa bir hayalet etiket başka bir hayaletle değişir."
+      },
+      "renk_ihtiyaci": "2 yeni BOYALAR anahtarı (`kutsal-roma` · `alman-konfederasyonu`) + `almanya` adının 'Almanya' olması. Asgari sürüm: yalnız `kutsal-roma` + ad değişimi ⇒ 1806-1871 'Almanya' etiketi taşır (1923 şikâyeti KAPANIR, 1806-1871 kısmen kusurlu kalır).",
+      "degismez_riski": {
+        "4c_4d": "Künye günleri ile veri bölme günleri BİREBİR aynı olursa +0. Risk: 1806-08-06 günü kaynaksız kalırsa künye YYYY-01-01'e düşer ve 26 dönem 4c/4d'ye girer. 1918-11-09 kesen 1 sömürge dönemi (bitişi 1919-06-28) weimar harita:'almanya' paylaşımıyla sorun değil.",
+        "2s": "Kimlik değişimi yeni YABANCI kırılma üretir: 1806-08-06 ve 1871-01-18 (çekirdek olaylar*'da madde bulunamadı — kuyrukta kronoloji_habsburg/fransa/almanya'da var). Tahmin +2 açık (tavan 121, bugün 100). ÖLÇÜLMEDİ.",
+        "3_5_hayalet": "Seçenek (a) mevcut bir ANAKRONİZMİ görünür kılar ama çözmez: Köln · Aachen · Trier · Mainz 1806-1814 arası kesintisiz `almanya`, oysa bu dilimde Fransız ilhakı konuşulur — KAYNAK ÖLÇÜLMEDİ, ayrı kalem."
+      },
+      "oncelik": "ONCELIK çöl seyyahı ile uyumlu: 4 künye, ≤2 renk, yeni NOKTA YOK."
+    },
+
+    "secenek_b": {
+      "tanim": "Beş seçici prenslik (Bavyera · Saksonya · Brandenburg · Palatina · Hannover) ayrı künye ve renk; kalanı `kutsal-roma`.",
+      "kunyeler": [
+        {"id": "bavyera", "ad": "Bavyera Dükalığı / Elektörlüğü", "f": "bulunamadı (1281 öncesi dükalık)", "elektorluk": "1623-02-25 — kronoloji_almanya.js:718 maddesi, kaynağı OKUNMADI", "t": "1806-01-01 (krallık, kronoloji_almanya.js:743 — YIL kodu)", "kaynak_durumu": "TDV-almanya Bavyera'yı yalnız coğrafya/erken ortaçağda anıyor — tarih YOK"},
+        {"id": "saksonya", "ad": "Saksonya Dükalığı / Elektörlüğü", "f": "bulunamadı", "elektorluk": "1356-01-10 Altın Ferman (kronoloji_almanya.js:79 — kaynak OKUNMADI)", "t": "1806 (krallık) — gün bulunamadı", "not": "1697-1763 Lehistan tacıyla şahsî birlik — etiket sorunu doğurur"},
+        {"id": "brandenburg-prusya", "ad": "Brandenburg Elektörlüğü", "f": "bulunamadı", "t": "1701-01-18 (TDV-prusya GÜN ✓) → mevcut `prusya` künyesi", "kaynak_durumu": "TDV-prusya: 'Brandenburg seçici prensliği olarak Kutsal Roma-Cermen İmparatorluğu’nun bir parçası' — tarih yok"},
+        {"id": "pfalz", "ad": "Ren Palatinası (Kurpfalz)", "f": "bulunamadı", "not": "1623-1648 elektörlük Bavyera'da; 1777 Bavyera ile birleşme — iki ek kırılma, günleri bulunamadı"},
+        {"id": "hannover", "ad": "Brunswick-Lüneburg (Hannover) Elektörlüğü", "f": "bulunamadı (elektörlük 1692 — kaynak ölçülmedi)", "t": "1806/1807 — bulunamadı", "not": "1714-1837 İngiliz tacıyla şahsî birlik (kronoloji_almanya.js:728/733)"},
+        {"id": "kutsal-roma", "ad": "Kutsal Roma İmparatorluğu (öteki imparatorluk devletleri)", "f": "962-02-02", "t": "1806-08-06", "not": "seçenek (a) ile aynı"}
+      ],
+      "etkilenen_yerlesim": {
+        "olculen_kutu_basina_bugunku_nokta": "Bavyera kutusu 6 (ama Würzburg · Nürnberg · Augsburg · Regensburg · Ulm Bavyera değil — piskoposluk/serbest şehir; Bavyera = Münih, 1) · Saksonya 2 (Dresden, Leipzig) · Brandenburg 3 (Berlin, Magdeburg; Stettin 1648'den İsveç) · Palatina 0 (Mainz Palatina DEĞİL, elektör başpiskoposluk) · Hannover kutusu 4 (Hamburg, Bremen serbest şehir; Kassel Hessen ⇒ Hannover = 1)",
+        "yeniden_etiket": "≈6 yerleşim",
+        "yeni_nokta_gereksinimi": "§2: tek noktalı elektörlük komşu devletçiklerin toprağını yutar. Elektörlük başına en az 3 nokta ⇒ ≈10-12 yeni nokta (adaylar: Heidelberg · Mannheim · Landshut · Ingolstadt · Amberg · Wittenberg · Frankfurt/Oder · Brandenburg/Havel · Celle · Lüneburg · Göttingen) — HEPSİ ADAY, tarihli kaynak ÖLÇÜLMEDİ",
+        "toplam": "≈6 yeniden etiket + ≈11 yeni nokta + (a)'nın bütün zaman bölmesi"
+      },
+      "renk_ihtiyaci": "5 yeni anahtar + `kutsal-roma` (+ (a)'nın 1806 sonrası anahtarları). Beşi de birbirine ve `kutsal-roma`ya KOMŞU ⇒ DSATUR/ΔE açısından en zor küme; renk_olc koşusu şart.",
+      "degismez_riski": {
+        "4c_4d": "Künye f günlerinin çoğu BULUNAMADI ⇒ YYYY-01-01 künyeleri ile 1281 başlayan veri arasında 4d riski düşük (künye 1281 öncesi), ama elektörlük/krallık geçişleri (1623 · 1692 · 1701 · 1777 · 1806) künye bölünürse her biri 4c/4d adayı.",
+        "2s": "Her elektörlük sınırı ve her statü geçişi yeni yabancı kırılma: tahmini ≥10 gün, çoğunun çekirdek maddesi yok ⇒ 2s tavanındaki 21 puanlık payı TEK BAŞINA tüketebilir. ÖLÇÜLMEDİ.",
+        "1": "Yeni noktaların 1281'den itibaren kesintisiz sahiplik zinciri kaynakla kurulmalı; kurulamayan dönem Değişmez 1 sahipsizi artırır."
+      },
+      "oncelik": "ONCELIK: 2. derece iş. Emre'nin 0011 sorusundaki 'mozaik' talebinin ilk kademesi; (a) bitmeden (b) başlarsa zaman bölmesi iki kez yapılır."
+    },
+
+    "iki_secenekte_ortak": "Emre 0011'de ayrıca 'küçük yapıları Osmanlı vassalları gibi KALIN bir sınırla şemsiyede topla' diyor. Bu bir ARAYÜZ kalemidir (P14/UI), iki seçenekle de uyumludur, künye gerektirmez.",
+    "p07_onerisi": "(a) — gerekçe ölçüldü: 4 künye/≤2 renk/0 nokta ve Emre'nin 1923 şikâyetini kapatıyor; (b) ≈11 kaynaksız nokta ve 2s tavanını zorluyor. Karar Emre'nin."
+  },
+
+  "diger_taslak_kunyeler": [
+    {"no": "T1", "id": "teuton-sovalyeleri", "ad": "Töton Tarikatı Devleti (Prusya)", "tur": "devlet", "bolge": "dogu-avrupa",
+     "f": "1233-01-01", "kesinlik": {"f": "yil"}, "f_kaynak": "Brit-Teutonic: 1233'te Prusya fethi başladı; 1309 Marienburg merkezli güçlü devlet",
+     "t": "1525-04-10", "t_kaynak": "Brit-Teutonic + TDV-polonya YIL 1525; GÜN kronoloji_almanya.js:161 (Clark, Iron Kingdom) OKUNMADI ⇒ okunmazsa t:'1525-01-01' kesinlik yil",
+     "kronoloji": [{"t": "1410-07-15", "tur": "savas", "b": "Grunwald — kronoloji_almanya.js:708, kaynak ölçülmedi"}, {"t": "1466-10-19", "tur": "toprak-kayip", "b": "İkinci Toruń Barışı — Pomerelia Polonya'ya, kalan Prusya için Polonya vasallığı (Brit-Teutonic yıl · TDV-polonya yıl)"}],
+     "not": "id kronoloji_almanya.js'teki yazımla AYNI seçildi."},
+    {"no": "T2", "id": "livonya", "ad": "Livonya Tarikatı ve Livonya Konfederasyonu", "tur": "devlet", "bolge": "dogu-avrupa",
+     "f": "1237-01-01", "kesinlik": {"f": "yil"}, "f_kaynak": "Brit-Teutonic: 1237'de Kılıç Kardeşleri Töton Tarikatı'nın şubesi oldu",
+     "t": "1561-11-28", "t_kaynak": "Brit-Courland + LNVM YIL 1561; gün olaylar_ek16.js:245 '28 Kasım 1561' (maddenin kaynağı ölçülmedi)"},
+    {"no": "T3", "id": "prusya-dukaligi", "ad": "Prusya Dukalığı", "tur": "dukalik", "bolge": "dogu-avrupa",
+     "f": "1525-04-10", "f_kaynak": "T1 t ile AYNI gün (pencere şartı)",
+     "t": "1701-01-18", "t_kaynak": "TDV-prusya GÜN: '18 Ocak 1701'de Königsberg'de taç giydi'",
+     "kronoloji": [{"t": "1618-01-01", "tur": "birlesme", "b": "Brandenburg ile şahsî birlik — GÜN/YIL kaynağı ÖLÇÜLMEDİ, yazılmadan önce sorulmalı"}, {"t": "1657-09-19", "tur": "antlasma", "b": "Wehlau — Polonya süzerenliği kalktı (Brit-Wehlau GÜN · TDV-polonya yıl)"}]},
+    {"no": "T4", "id": "kurlandiya", "ad": "Kurland ve Semigallia Dukalığı", "tur": "dukalik", "bolge": "dogu-avrupa",
+     "f": "1561-11-28", "f_kaynak": "T2 t ile AYNI gün (pencere şartı); kaynaklar YIL 1561 (Brit-Courland, LNVM)",
+     "t": "1795-01-01", "kesinlik": {"t": "yil"}, "t_kaynak": "Brit-Courland: 1795 Üçüncü Paylaşımda Rusya'ya katıldı — GÜN bulunamadı",
+     "kronoloji": [{"t": "1658-01-01", "tur": "isgal", "b": "İsveç Jelgava'yı aldı, dükü esir etti; 1660'ta iade (Brit-Courland YIL)"}]},
+    {"no": "T5", "id": "dogu-macar-kralligi", "ad": "Szapolyai Macar Krallığı (Doğu Macar Krallığı)", "tur": "krallik", "bolge": "orta-avrupa",
+     "f": "1526-11-10", "f_kaynak": "kronoloji_macaristan.js:398 maddesi (kaynak alanı OKUNMADI); TDV-macaristan YIL 1526",
+     "t": "1570-01-01", "t_kaynak": "PENCERE ŞARTI: mevcut `erdel` künyesi f:1570-01-01 (§4: künyenin günü devralınır, günün kendisi de kaynaksız — bildiriliyor)",
+     "not": "1526-08-29→11-10 fetret dilimi kimliksiz kalır; YAMA-KUZEY Y5/Y6 bu künyeye bağlı."}
+  ]
+}

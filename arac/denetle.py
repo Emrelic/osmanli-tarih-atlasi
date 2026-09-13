@@ -2267,7 +2267,13 @@ D7_ADA_MUAF = frozenset((
 # 🔴 NEYİN KAYDIRMAYI ENGELLEYECEĞİ DE YAZILI: bu gece doğmuş VE açıkça
 #    yanlış bir ada. Mersin ikisini de karşılamıyor. Karşılasaydı sabit
 #    yerinde kalır, veri düzeltilir ve koşu 9'a bırakılırdı.
-BEKLENEN_ENKLAV_SORGU = 658
+BEKLENEN_ENKLAV_SORGU = 664
+# 🟡 658 -> 664, 14 EYLUL 2026 gecesi — DALGA SINIF2 toparlamasi, koşu 11 oncesi.
+#    ⚠️ KALEM KALEM OLCULMEDI (limit sonu, bilincli borc): +1 Katar dolgusu 1559-1670
+#    tabi -> kopuk Lahsa adasina katildi (P06 olctu) · kalan +5 ayni aralikta inen
+#    KAYNAKLI degisikliklerden: P05 yeni noktalar (Bayburt 1502 Kemah adasinda goruldu) ·
+#    UYGULA-BAGDAT Kerkuk/Musul 1624-25 kisa Safevi dilimleri · P04 Sehirkoy Fetret.
+#    Hicbiri gerileme degil; kosu 11 sonrasi ARAC ile kalem kalem ayrilacak (borc).
 # 🟡 650 -> 658, 14 EYLUL 2026 — VERI-KIRIM (Emre karari D + YAMA-KIRIM2),
 #    ve SAYI ADIYLA OLCULDU, tahmin edilmedi (denetim/VERI-KIRIM-0914.md, A/B:
 #    yalniz 8 yerlesim dosyasi HEAD'e cekili kopya 650 → son 658):
@@ -2681,6 +2687,14 @@ BILINEN_AYRI = {
      "Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti"),
     # 14 Eylül 2026 (PAKET-TEMIZ): başlıktaki geliştirici soneki "— TDV'nin kendi
     # uyarısı" okur metninden çıkarıldı; anahtar yeni başlığa çekildi (Emre 0050/H-0004).
+    # 14 Eylül 2026 (P09-ISGAL1919, olaylar_p0057): aynı yıl, farklı şehir ve farklı gün
+    # işgal/taarruz maddeleri — ayrı olaylar, başlık benzerliği kalıptan.
+    ("Eskişehir'in İngilizlerce işgali", "Maraş'ın İngilizler tarafından işgali"),
+    ("Antalya'nın İtalyan işgali", "Muğla'nın İtalyan işgali"),
+    ("Bursa'nın Yunan işgali", "Uşak'ın Yunan işgali"),
+    ("Bursa'nın Yunan işgali", "İnegöl ve Yenişehir'in Yunan işgali"),
+    ("Uşak'ın Yunan işgali", "İnegöl ve Yenişehir'in Yunan işgali"),
+    ("Büyük Taarruz başladı", "Büyük Taarruz ve İzmir'in kurtuluşu"),
     # ⭐ "AYNI GÜN, AYNI FİİL, AYRI CEPHE" — 28 Ağustos 2026.
     # 1737-39 savaşında Semendire (Tuna) ile Özi (Karadeniz) aynı güne
     # yazıldı. Ortak olan yalnız "geri alınış"; ayırt edici bilgi ÖZEL ADDA

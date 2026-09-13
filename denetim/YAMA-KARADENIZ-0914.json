@@ -1,0 +1,99 @@
+{
+  "paket": "P08-KARADENIZ",
+  "tarih": "2026-09-14",
+  "sevk": "1.MURAT · oturumlar/DALGA-SINIF2-0914.md · denetim/PAKET-SINIF2-0914.md ### P08",
+  "rapor": "denetim/P08-KARADENIZ-0914.md",
+  "durum": "ÖNERİ — veri dosyalarına YAZILMADI (data/yerlesimler.js kilitli: P01→P02 sırası; olaylar_ek21.js madde t: değişikliği de öneri)",
+  "takvim": "ESBE günleri Jülyen; 19. yy +12 gün, 18. yy +11 gün (D110). Bütün f/t Gregoryen.",
+  "kaynak_kisaltmalari": {
+    "ESBE-TV": "Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России» — ru.wikisource ham wikitext, 14 Eyl 2026 okundu",
+    "ESBE-SIL": "ЭСБЕ «Силистрия» — ru.wikisource, okundu",
+    "ESBE-JUR": "ЭСБЕ «Журжево или Журжа» — ru.wikisource, okundu",
+    "ESBE-TEM": "ЭСБЕ «Темрюк, город» — ru.wikisource, okundu",
+    "BUKRES-1812": "«Бухарестский мирный договор 1812 года» metni — ru.wikisource, md. 4-5 okundu",
+    "TDV": "islamansiklopedisi.org.tr gövdeleri: silistre · ruscuk · nigbolu · yergogu · kucuk-kaynarca-antlasmasi · anapa · cerkezler · nogaylar · kalmuklar · ozu (hepsi 200, gövde okundu)"
+  },
+  "tekrarlanmayan": "PAKET-RUS YAMA-RUS-0913 isg önerileri (Yaş · Bükreş · Kili · Hotin · Bender 1806; İsmail 1809; Yergöğü 1810) BURAYA KOPYALANMADI — geçerli, oradan iner. Bu dosya yalnız onlara EK ve bir borç kapanışı taşır.",
+  "oneriler": [
+    {
+      "id": "SIL-1810",
+      "madde": "0035/H-0097 · H-0100",
+      "islem": "ekle",
+      "durum": "HAZIR (f gün · t ay)",
+      "dosya": "data/yerlesimler.js:351",
+      "kayit": "Silistre",
+      "eski": "isg alanı YOK",
+      "yeni_isg": {"f": "1810-06-10", "t": "1811-05-01", "d": "rusya", "kesinlik": {"f": "gun", "t": "ay"}, "kaynak": "ESBE «Силистрия» (29 May J 1810 teslim) · TDV silistre (1811 Mayısı surlar uçuruldu, Ruslar çekildi)"},
+      "cakisma_sinavi": "Silistre d: 1413-07-05→1878-07-13 kesintisiz; isg d: üzerine biner (Rusçuk/Niğbolu emsali) — ayrıca d: bölünmez",
+      "kaynak_alinti": ["ESBE-SIL: '29-го мая крепость была сдана на условии свободн[ого выхода]'", "ESBE-TV: '30 сдалась Силистрия' (1 gün çelişki — özel madde esas)", "TDV silistre: '1811 Mayısında çara Silistre surlarının havaya uçurulduğunu bildirdi'"],
+      "degismez_2i": "f 1810-06-10 → olaylar_p0056.js (aynı gün) · t 1811-05-01 → olaylar_ek21.js 'Silistre'nin tahliyesi' (aynı gün, bugün KIRILMASIZ duruyor)"
+    },
+    {
+      "id": "SIL-1829",
+      "madde": "0035/H-0097 (Tuna işgalleri genel)",
+      "islem": "ekle",
+      "durum": "HAZIR (f gün · t yıl)",
+      "dosya": "data/yerlesimler.js:351",
+      "kayit": "Silistre",
+      "yeni_isg": {"f": "1829-06-30", "t": "1836-01-01", "d": "rusya", "kesinlik": {"f": "gun", "t": "yil"}, "kaynak": "ESBE-TV (18 Haziran J 1829 teslim) · TDV silistre ('Ruslar 1836'ya kadar Silistre'yi ellerinde tuttular')"},
+      "kaynak_celiskisi": "TDV silistre işgali '1827-1828 savaşı esnasında' diye yıllıyor; ESBE-SIL ve ESBE-TV 1828 kuşatmasının kalktığını, teslimin 1829 olduğunu yazıyor. Gün veren ESBE esas.",
+      "degismez_2i": "f → olaylar_p0056.js 1829-06-30 · t → olaylar_p0056.js 1836-01-01 (kesinlik yıl)",
+      "not": "Edirne Antlaşması'ndan (1829-09-14) SONRA da süren işgal; atlasta hiç çizilmiyordu. Tahliyenin tazminat şartına bağlandığı cümle OKUNMADI."
+    },
+    {
+      "id": "RUS-1811",
+      "madde": "0035/H-0097 · H-0100",
+      "islem": "degistir (t)",
+      "durum": "KARAR — iki seçenek",
+      "dosya": "data/yerlesimler.js:353 + data/olaylar_ek21.js:47",
+      "kayit": "Rusçuk",
+      "eski": {"isg": {"f": "1810-09-26", "t": "1811-06-01", "d": "rusya", "kaynak": "ruscuk"}, "ek21_madde_t": "1811-06-01"},
+      "sorun": "ESBE-TV Rusçuk muharebesini '22' Haziran JÜLYEN veriyor = 4 Temmuz 1811 G; Kutuzov çekilişi muharebeden SONRA. Veri ve ek21 maddesi 1811-06-01'de bitiyor ⇒ harita Rusçuk'u muharebeden 33 gün önce Osmanlı gösteriyor. TDV '1811 Haziranında' diyor — muhtemelen Jülyen ay (D110).",
+      "secenek_a": {"t": "1811-07-04", "kesinlik": {"f": "gun", "t": "gun-alt-sinir"}, "gerekce": "kaynaklı muharebe günü; çekiliş bu günden sonra, gün yok", "degismez_2i": "olaylar_p0056.js 1811-07-04 aynı gün"},
+      "secenek_b": {"t": "1811-07-01", "kesinlik": {"f": "gun", "t": "ay"}, "gerekce": "ay kodu (Temmuz G); ama 07-01 muharebe gününden önce düşer"},
+      "oneri": "a — ve olaylar_ek21.js 1811-06-01 maddesinin t:'1811-07-04' olması (ic_not_gun: TDV Haziranı Jülyen)",
+      "f_notu": "f 1810-09-26 TDV; ESBE-TV '15 сент.' J = 27 Eylül G (1 gün çelişki, TDV esas §4 — DEĞİŞTİRME)"
+    },
+    {
+      "id": "NIG-KES",
+      "madde": "0035/H-0097",
+      "islem": "alan ekle",
+      "durum": "HAZIR (yalnız beyan)",
+      "dosya": "data/yerlesimler.js:352",
+      "kayit": "Niğbolu",
+      "eski": {"isg": {"f": "1810-10-01", "t": "1811-04-01", "d": "rusya", "kaynak": "nigbolu"}},
+      "yeni": {"isg": {"f": "1810-10-01", "t": "1811-04-01", "d": "rusya", "kesinlik": "ay", "kaynak": "TDV nigbolu (Ekim 1810 · Nisan 1811) · ESBE-TV ('Никополь и Турно сдались без сопротивления', 9 Ekim J sonrası)"}},
+      "not": "Günler DEĞİŞMEZ; iki uç da ay kodu, beyan eksikti (§4 hassasiyet)."
+    },
+    {
+      "id": "YER-BUKRES-BORC",
+      "madde": "0035/H-0100",
+      "islem": "kanıt (PAKET-RUS RUS-1810-YER önerisinin borcu)",
+      "durum": "RUS-1810-YER artık ÇIKARIMSIZ değil — HAZIR",
+      "kayit": "Yergöğü (Giurgiu)",
+      "okunan": "BUKRES-1812 md. 5: Rusya Boğdan'ın Prut sağ yakasını 've Büyük ve Küçük Eflak'ı, kaleleriyle' iade ediyor ('а также Большую и Малую Валахию, с крепостями'). Metin Yergöğü'yü ADIYLA ANMIYOR — ad bulunamadı; kapsayıcı hüküm var.",
+      "ek_bulgu": "ESBE-JUR: 'в 1810 г. Ж. было сдано нам вместе с Рущуком. Во время войны 1828—29 гг. Ж. опять было сдано нашим войскам' ⇒ 1828-29'da İKİNCİ bir Rus işgali var; GÜNÜ bulunamadı ⇒ yazılmadı.",
+      "sonuc": "H-0100'daki 'Bükreş sonrası boş Rus enklavı' = Yergöğü s:rusya 1810-09-27→1829-09-14 (yerlesimler.js:2269). RUS-1810-YER (isg 1810-09-27→1812-05-28 + d 1812-05-28→1829-09-14) inince enklav kalkar."
+    },
+    {
+      "id": "TAMAN-1774",
+      "madde": "0034/H-0036 · 0022/H-0005",
+      "islem": "degistir",
+      "durum": "KARAR — KAYNAK ÇELİŞKİSİ (tahta M-3959)",
+      "dosya": "data/yerlesimler.js:553",
+      "kayit": "Taman",
+      "eski": {"d": [{"f": "1482-06-01", "t": "1774-07-21"}], "s": [{"f": "1774-07-21", "t": "1917-03-15", "d": "rusya"}]},
+      "oneri_yeni": {"s_ekle": {"f": "1774-07-21", "t": "1783-04-19", "d": "kirim"}, "s_degistir": {"f": "1783-04-19", "t": "1917-03-15", "d": "rusya"}},
+      "lehine": ["TDV kucuk-kaynarca-antlasmasi Rusya'ya bırakılanları yalnız 'Kılburun, Yenikale ve Kerç' diye sayıyor", "TDV anapa: 1783 sonrası 'Taman, Temrük, Açe ve Açu kalelerinin Kuban nehrinin kuzeyinde Rusya'da kalması'"],
+      "aleyhine": ["ESBE-TEM: 'До присоединения Таманского полуострова к России (1774)'"],
+      "not": "Kırım 1774-1783 atlasta s:kirim (bağımsız) — Taman için aynı kimlik. §4 TDV esas; ESBE cümlesi 1774'ü 'Kırım'ın Osmanlı'dan ayrılışı' anlamında kullanıyor olabilir (ÖLÇÜLMEDİ). Emre kararı D'ye DOKUNMAZ (Taman v:/himaye taşımıyor)."
+    }
+  ],
+  "yazilmayanlar": [
+    {"konu": "İshakçı (Isaccea) · Babadağı 1809-1812 isg", "sebep": "ESBE-TV 1809 Maçin ve Hırsova'nın '14 Ağustos J'dan birkaç gün sonra' alındığını, kışın 'Maçin, Tulça, Hırsova'nın tutulacağını yazıyor; İshakçı ve Babadağ için 1809 günü bulunamadı, tahliye (1811/1812) günü bulunamadı. Maçin · Hırsova · Tulça noktası atlasta YOK."},
+    {"konu": "Yergöğü 1828-29 ikinci işgal", "sebep": "ESBE-JUR yıl veriyor, gün bulunamadı"},
+    {"konu": "1853 Prut geçişi günü", "sebep": "ESBE «Восточная война» girişi günsüz anlatıyor; bulunamadı (A3'ün elemesi geçerli)"},
+    {"konu": "Temrük · Açe · Açu noktaları (0034/H-0036)", "sebep": "ESBE-TEM Temrük'ü 'Türk köyü + Adass kalesi' diye anıyor, BAŞLANGIÇ yok; ESBE «Ачуев» tarih vermiyor; TDV anapa yalnız 1783 sonunu veriyor. Dönem başlangıcı yine BULUNAMADI ⇒ nokta yazılmadı (Y13 gerekçesi sürüyor)."},
+    {"konu": "Kalmuk tasarrufu — Bozkır (Deşt-i Kıpçak) 1632-1724", "sebep": "TDV kalmuklar İdil Kalmukları Hanlığı'nı 1632'de kurulmuş, 'Kırım ve Rusya ile savaşarak' 1724'e kadar bağımsız yazıyor; atlas Bozkır (48,5K 42,0D) 1502-1774'ü v: kirim gevşek himaye çiziyor (Emre kararı D, VERI-KIRIM). Noktanın Kalmuk kesimine düşüp düşmediği ÖLÇÜLMEDİ; D kararını bozacağı için ÖNERİ YAZILMADI — Emre'ye soru olarak raporda."}
+  ]
+}

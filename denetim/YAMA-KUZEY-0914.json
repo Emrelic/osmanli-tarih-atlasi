@@ -1,0 +1,135 @@
+{
+  "olusturan": "P07-KUZEY (dalga SINIF2, koordinator 1.MURAT) · 14 Eylul 2026",
+  "is": "Paket P07 · KUZEY + ORTA AVRUPA · 0014/H-0005 · 0024/H-0008 · 0025/H-0004 · 0025/H-0005 · 0035/H-0068 · 0039/H-0007 · 0044/H-0002 (+ 0011/H-0001 karar taslagi TASLAK-KUNYE-0914.json'da)",
+  "durum": "YALNIZ ONERI — data/ ve arac/ HICBIR DOSYAYA YAZILMADI. Yerlesim dosyalari ve devletler.js kilitli (UYGULA-BAGDAT · P01/P02/P03). Kunye taslaklari P03'e, yerlesim yamalari P02 sonrasina devredilir.",
+  "rapor": "denetim/P07-KUZEY-0914.md",
+  "olcum_tabani": "girdi.yukle() 3818 nokta · denetle.py 14 Eylul (D1 324/324 · 1b 0 · 2 531/0 · 2s 100/121 · 2i 3/3 · 4c 129 · 4d 356 · 7 658)",
+
+  "kaynak_kunyeleri": {
+    "TDV-prusya": "TDV Islam Ansiklopedisi «PRUSYA», c.34 s.354-358 (2007) — /prusya · HTTP 200 · govde okundu (32.046 kr). Brandenburg'u Kutsal Roma-Cermen parcasi diye aniyor; 18 Ocak 1701 kral.",
+    "TDV-polonya": "TDV «POLONYA» — /polonya · 200 · govde okundu (86.838 kr). 1466 antlasmasi; Dogu Prusya 1525'te dunyevi dukalik; 1657 Wehlau'ya kadar Polonya vasali.",
+    "TDV-almanya": "TDV «ALMANYA» — /almanya · 200 · govde okundu (115.005 kr). Ren Konfederasyonu 1806 · II. Franz tacı bıraktı (yıl 1806, gun YOK) · Alman Konfederasyonu 1815 · dağıldı 1866 · Alman Imparatorlugu 18 Ocak 1871 · feragat 9 Kasım 1918, 'Aynı gün Alman Cumhuriyeti ilân edildi'.",
+    "TDV-isvec": "TDV «ISVEC» — /isvec · 200 · govde okundu (68.997 kr). 'Nystad [Niştat] Antlaşması, 10 Eylül 1721'.",
+    "TDV-macaristan": "TDV «MACARISTAN» — /macaristan · 200 · govde okundu (69.974 kr). 1526'da iki kral secildi (gun YOK); 'Osmanlı himayesini kabul eden I. János' (tarih YOK); 1529 Budin Szapolyai'ye bırakıldı.",
+    "TDV-erdel": "TDV «ERDEL» — /erdel · 200 · govde okundu (24.138 kr). Szapolyai Ferdinand'a yenilince Osmanlı himayesine girdi (tarih YOK).",
+    "TDV-varad": "TDV «VARAD» — /varad · 200 · govde okundu (10.354 kr). '1538'de ... Osmanlılar'a tâbi Macar Kralı János Szapolyai'; bes sancak listesi (Debrecen dahil) 1660 SONRASI Varad eyaletine ait.",
+    "TDV-tokoli-imre": "Sándor Papp, TDV «TÖKÖLI, İmre», c.41 s.277-278 (2012) — /tokoli-imre · 200 · govde okundu (11.825 kr). 16 Eylul [1682] Fulek onunde prenslik alametleri; 15 Ekim 1685 yakalatıldı. Szatmár ANILMIYOR.",
+    "Varga2005": "J. Varga János, «Thököly Imre esztendeje: 1682», Történelmi Szemle 2005/3-4, s.347-371 (HUN-REN TTI PDF tti.abtk.hu, pypdf ile okundu, 86.238 kr). Cilt numarası ÖLÇÜLMEDİ.",
+    "Brit-Teutonic": "Encyclopaedia Britannica, «Teutonic Order» (britannica.com/topic/Teutonic-Order, curl, govde okundu). ⚠️ Sayfadaki 'Britannica AI' ozet blokları KULLANILMADI (D112); yalnız imzalı madde metni.",
+    "Brit-Courland": "Encyclopaedia Britannica, «Courland» (britannica.com/place/Courland, govde okundu; AI ozet blokları KULLANILMADI).",
+    "Brit-Wehlau": "Encyclopaedia Britannica, «Treaty of Wehlau» (Britannica Editors; govde okundu): Sept. 19, 1657.",
+    "LNVM": "Latvijas Nacionālais vēstures muzejs, sergi metni «Duchy of Courland and Semigallia and Grand Duchy of Lithuania (1561–1795)» (lnvm.gov.lv, kurumsal; govde okundu).",
+    "ArcticNorth2012": "«Arctic and North» 2012 No.5 (NArFU), makale PDF arcticandnorth.ru/upload/iblock/264/10.pdf s.12-16 (pypdf ile okundu). Yazar adı ÖLÇÜLMEDİ. Nyenskans · Koporye · Noteburg'u 1702-1703 Seremetev harekatına bağlıyor, GÜN VERMIYOR.",
+    "KULLANILMADI": "Vikipedi (Nyenskans 1 Mayıs 1703, Kraków 8 Nisan 1525, Courland 28 Kasım 1561/28 Mart 1795, Zápolya 10 Kasım 1526) — tek dayanak değil. muhisandor.com (blog) ve hungarianottomanwars.com (bibliyografyasız bireysel site) — §4 kırmızı liste. britannica.com Ingria/Narva/Stolbovo/Saint-Petersburg/John-Zapolya: 403/404, OKUNAMADI."
+  },
+
+  "yamalar": [
+    {
+      "no": "Y1",
+      "madde": "0025/H-0004 (Vilnius 1561) + 0014/H-0005 (üçgen)",
+      "sinif": "YANLIŞ ATIF (§3.5.-1 'devlet var, yeri yanlış' ailesi) — `almanya` (künye adı 'Kutsal Roma / Almanya') Töton Devleti ve Livonya için kullanılıyor",
+      "olculen": "9 Baltık kaydı 1281'den `almanya`: Königsberg · Klaipėda →1701-01-18 · Gdansk · Elbing · Toruń →1466-10-19 · Riga · Cēsis · Pärnu · Tartu · Daugavpils · Tallinn · Narva →1561-11-28",
+      "bagimlilik": "KÜNYE YOK: `teuton-sovalyeleri` · `livonya` · `prusya-dukaligi` (TASLAK-KUNYE T1-T3) + renkler (P03). Künye inmeden UYGULANAMAZ.",
+      "oneri": [
+        {"yer": "Königsberg", "dosya": "data/yerlesimler.js (KİLİTLİ)", "eski_s": "{f:'1281-01-01',t:'1701-01-18',d:'almanya'}", "yeni_s": "{f:'1281-01-01',t:'1525-04-10',d:'teuton-sovalyeleri'},{f:'1525-04-10',t:'1701-01-18',d:'prusya-dukaligi'}"},
+        {"yer": "Klaipėda (Memel)", "dosya": "data/yerlesimler_ek7.js", "eski_s": "{f:'1281-01-01',t:'1701-01-18',d:'almanya'}", "yeni_s": "aynı bölme (Königsberg ile)"},
+        {"yer": "Elbing (Elbląg) · Torun (Toruń)", "dosya": "data/yerlesimler.js · (Toruń dosyası ölçülmedi)", "eski_s": "{f:'1281-01-01',t:'1466-10-19',d:'almanya'}", "yeni_s": "{f:'1281-01-01',t:'1466-10-19',d:'teuton-sovalyeleri'}  (kırılma günü DEĞİŞMEZ — yalnız kimlik)"},
+        {"yer": "Gdansk", "dosya": "data/yerlesimler.js", "not": "🔴 AYRI TUTULDU: Brit-Teutonic Pomerelia/Danzig'i ancak 'by 1309' tarikatın sayıyor ⇒ 1281-~1308 Töton DEĞİL. Önceki sahip + gün ÖLÇÜLMEDİ. Bu kayda yalnız 1308/09→1466-10-19 için teuton önerilir; 1281-1308 dilimi SIRADA."},
+        {"yer": "Riga · Cēsis (Wenden) · Pärnu · Tartu (Dorpat) · Daugavpils (Dünaburg)", "dosya": "data/yerlesimler.js · yerlesimler_ek7.js · yerlesimler_ek11.js", "eski_s": "{f:'1281-01-01',t:'1561-11-28',d:'almanya'}", "yeni_s": "{f:'1281-01-01',t:'1561-11-28',d:'livonya'}"},
+        {"yer": "Tallinn (Reval) · Narva", "dosya": "data/yerlesimler_ek11.js", "eski_s": "{f:'1281-01-01',t:'1561-11-28',d:'almanya'}", "yeni_s": "{f:'1281-01-01',t:'1346-01-01',d:'danimarka',kesinlik:{t:'yil'}},{f:'1346-01-01',t:'1561-11-28',d:'livonya',kesinlik:{f:'yil'}}", "not": "Brit-Teutonic: Estonya tarikata 'after 1346' — YIL. 🔴 1346-01-01 çekirdekte maddesiz YENİ kırılma ⇒ 2s +1 (ölçülmedi, tahmin)."}
+      ],
+      "kaynak": "Brit-Teutonic (1233 Prusya fethi · 1309 devlet · 1346 Estonya · 1466 Toruń · 1525 dünyevî dukalık, Polonya süzerenliği) · TDV-polonya (1466 · 1525 · 1657 Wehlau'ya kadar vasal) · Brit-Wehlau (1657-09-19).",
+      "gun_damgasi": "1466-10-19 ve 1561-11-28 MEVCUT kırılma günleri, değiştirilmiyor (kaynakları bu turda ölçülmedi). 1525-04-10: kaynaklar YIL veriyor; gün kronoloji_almanya.js:161 (Clark, Iron Kingdom) ve kronoloji_lehistan.js:361'de — OKUNMADI ⇒ uygulamadan önce Clark sayfası okunmalı, yoksa 1525-01-01 + kesinlik:'yil'.",
+      "denetim_riski": "Değişmez 2s: 1525-04-10 yeni YABANCI kırılma (Königsberg, Klaipėda); çekirdek olaylar* maddesi yok, kuyrukta var (kronoloji_lehistan.js:361) ⇒ muhtemel +1 açık (tavan 121, bugün 100). 1346 +1. 4c/4d: künye pencereleri TASLAK günleriyle birebir tutarsa +0.",
+      "durum": "sirada — künye bekliyor"
+    },
+    {
+      "no": "Y2",
+      "madde": "0014/H-0005 (üçgen) · 0025/H-0004",
+      "sinif": "§2 NOKTASIZLIK",
+      "olculen": "Kurzeme/Zemgale kutusu 55.8-57.8K/20.9-24.3D: 0 nokta. 0,25° ızgarada en yakın nokta 1281-06-15: Riga 52 hücre · Šiauliai (LBD) 32 · Klaipėda 28 · Visby 7 · Pärnu 7; en uzak hücre 185,6 km. Emre'nin 1281 görüntüsündeki kuzeye uzanan LBD sivri ucu = Šiauliai peteği Kurland'a emiliyor.",
+      "oneri": [
+        {"yer": "Jelgava (Mitau)", "lat": 56.65, "lon": 23.72, "tur": "sehir", "koordinat": "coğrafî bilgi", "mesafe": "Riga 41 km — 3 km eşiği temiz",
+         "s_taslak": "[?1281→~1290 Semigal kabilesi, bos:'kabile'] · {~1290→1561-11-28 livonya} · {1561-11-28→1795 kurlandiya} · isg {1658→1660 isvec} · {1795→… rusya zinciri}",
+         "kaynak": "Brit-Courland: Semigallia 'about 1290' fethedildi · 1561 dukalık, Polonya tımarı · 1658 İsveç Jelgava'yı aldı, 1660 dük iade · 1795 Rusya'ya katıldı · 1918 Letonya. LNVM: 1561 Pacta subiectionis.",
+         "eksik": "GÜNLER: 1290 (onyil), 1561 günü, 1658/1660 günleri, 1795 günü, 1917-1918 zinciri — hepsi bulunamadı. Riga zinciri komşu günü olarak ALINAMAZ (Riga kaydında kaynak alanı YOK, §4 şartlı komşu ① sağlanmıyor)."}
+      ],
+      "not": "Kuldīga · Liepāja · Ventspils okunan kaynaklarda ADIYLA geçmiyor ⇒ önerilmedi (Emre: 'yerleşim var ise nokta konur, yok ise uyduracak halimiz yok' — varlık değil, TARİHLİ dayanak yok).",
+      "bagimlilik": "Y1 künyeleri (livonya) + T4 kurlandiya künyesi + renk.",
+      "durum": "sirada — UYGULANAMAZ (Değişmez 1: zincirin 1795 sonrası ve 1281-1290 dilimi dayanaksız)"
+    },
+    {
+      "no": "Y3",
+      "madde": "0024/H-0008 (1703 İngriya tek petek)",
+      "sinif": "§2 NOKTASIZLIK",
+      "olculen": "İngriya kutusu 58.5-61.5K/27-32.5D: 7 nokta (Lappeenranta · Viipuri · Eski Ladoga · Oreşek · St. Petersburg · Narva · Novgorod). Nyen · Koporye · Yam · Ivangorod YOK (normalleştiricili tam tarama, koordinatör ölçümüyle aynı). St. Petersburg kur:1703-05-27 ile doğup bütün bölgeyi kaplıyor.",
+      "oneri": [
+        {"yer": "Nyen (Nyenskans)", "lat": 59.95, "lon": 30.42, "mesafe": "St. Petersburg ~5 km (3 km eşiği temiz; zaman çizgileri FARKLI — D066)"},
+        {"yer": "Koporye", "lat": 59.71, "lon": 29.03},
+        {"yer": "Yam (Yamburg, Kingisepp)", "lat": 59.37, "lon": 28.61, "mesafe": "Narva ~24 km"}
+      ],
+      "s_taslak": "{…→1617-02-27 rusya zinciri} · {1617-02-27→1703-?? isvec} · {1703-??→1917-03-15 rusya} · rusya-gecici-hukumet · sovyet-rusya",
+      "kaynak": "ArcticNorth2012 s.12: Seremetev Noteburg, Nyenskans ve Koporye'yi 1702-1703 harekatında aldı; von Verdun müfrezesi Pskov'dan kuzeye (Yam) — YIL. Stolbova 1617-02-27: kronoloji_isvec.js:160 (Roberts) — OKUNMADI.",
+      "eksik": "1703 düşüş GÜNLERİ bulunamadı (yalnız Vikipedi — kullanılmadı). 1581-1595 ve 1611-1617 İsveç dönemleri ölçülmedi. Ivangorod ÖNERİLMEDİ: Narva'ya ~1,5 km, 3 km eşiği içinde; ayrı zaman çizgisi kaynakla kurulmadan açılamaz.",
+      "denetim_riski": "Gün yıl hassasiyetinde yazılırsa 1703-01-01 Değişmez 2s'de çekirdek maddesiz kırılma (+1) ve kayıt St. Petersburg'un kuruluşundan (1703-05-27) 5 ay önce Rus boyar — kaba tarih pencere şartını çiğner (§4). ⇒ Gün bulunmadan UYGULANMAZ.",
+      "durum": "sirada — gün kaynağı bekliyor"
+    },
+    {
+      "no": "Y3b",
+      "madde": "0024/H-0008 yan bulgu — NYSTAD İKİ TAKVİMDE",
+      "sinif": "KAYITLAR ARASI TUTARSIZLIK (D171) + TAKVİM (VERI-YAPISI §TAKVİM)",
+      "olculen": "Nystad kırılması 7 kayıtta 1721-08-30 (Lappeenranta · Narva · Riga · Cēsis · Tallinn · Pärnu · Tartu), 1 kayıtta 1721-09-10 (Viipuri). Kronolojide olaylar_ek16.js:269 '30 Ağustos 1721' (Jülyen) · kronoloji_isvec.js:311 ve kronoloji_rusya.js:363 1721-09-10. Aynı olaylar_ek16.js:341 St. Petersburg'u '16/27 Mayıs 1703 (Jülyen/Gregoryen)' deyip GREGORYEN günü yazıyor; bölgenin öteki günleri de Gregoryen (Oreşek 1702-10-22, Stolbova 1617-02-27).",
+      "kaynak": "TDV-isvec: '10 Eylül 1721'.",
+      "oneri": "Viipuri dahil 8 kaydın Nystad ucunu TEK güne hizala. Öneri 1721-09-10 (TDV günü, bölgenin Gregoryen deseni) — AMA VERI-YAPISI 'atlas Jülyen' diyor ⇒ HÜKÜM koordinatörün. Değişmez 2: iki gün 11 gün arayla, ikisinin de ±30 gününde madde var.",
+      "durum": "Koordinatöre soru (takvim hükmü)"
+    },
+    {
+      "no": "Y4",
+      "madde": "0035/H-0068 (Satu Mare 1680'ler)",
+      "sinif": "ATLAS DOĞRU — kaynakla DOĞRULANDI (1682 için)",
+      "olculen": "Szatmár (yerlesimler_ek_macaristan.js): s avusturya 1526-08-29→1918-11-11, v: YOK. 1682-09-16'da çevresi Kassa · Tokaj · Ungvár · Munkács Orta Macar tâbi, Debrecen Osmanlı ⇒ Habsburg ADASI.",
+      "kaynak": "Varga2005 s.364-365 (PDF s.19): 19 Kasım 1682 sekiz aylık Habsburg–Thököly anlaşması; kuruc bölgesindeki bazı kalelerde 'továbbra is királyi őrség marad' — sayılanlar arasında Ecsed ve SZATMÁR. Aynı makale s.353 dn.: Saponara 1681-1682 Szatmár kale komutanı (Habsburg).",
+      "hukum": "Emre'nin sorusu: 'Orta Macar olarak Tököli'ye bağlı değil mi?' ⇒ KALE: HAYIR — 1682 anlaşmasıyla kraliyet (Habsburg) garnizonu. Çevredeki bölge Thököly'nin fiilî alanı (Varga: Porta'nın talep listesinde Szabolcs ve Szatmár vármegyeleri). ⇒ Harita adası tarihî; kusur adanın BÜYÜKLÜĞÜ (§2: Nagybánya · Ecsed · Kálló noktasız).",
+      "kullanilmayan_iddia": "Blog/bireysel siteler 'Thököly Szatmár'ı 1682'de aldı, 1684'e dek tuttu' diyor — §4 kırmızı liste, KULLANILMADI; Varga2005'in 19 Kasım 1682 hükmüyle en az o tarihten sonrası için ÇELİŞİYOR. 1682-09-16→11-19 arası ve 1683-1685 ÖLÇÜLMEDİ.",
+      "veri_yamasi": "YOK.",
+      "bayrak_onerisi": {
+        "not": "§4 BAYRAK kuralı — tanıklık kaydı. Yeni dosya data/ altında olacağı için YAZILMADI; koordinatör açarsa ad alanı: data/kaynakli_halka_kuzey.js → window.KAYNAKLI_HALKA_KUZEY.",
+        "kayitlar": [
+          {"yer": "Szatmár (Satu Mare)", "devlet": "avusturya", "tur": "garnizon", "tarih": "1682-11-19", "kesinlik": "gun", "kaynak": {"ad": "Varga J. János, Thököly Imre esztendeje: 1682, Történelmi Szemle 2005/3-4", "sayfa": "364-365", "alinti": "továbbra is királyi őrség marad", "gelenek": "akademik"}, "not": "anlaşma 8 ay; yalnız anlaşma günü tanıklanıyor"}
+        ],
+        "halka_almaz": "Ecsed — atlasta nokta YOK (yer_kon gerekir, koordinat bu turda ölçülmedi)."
+      },
+      "durum": "cozuldu (1682) · 1683-1685 sirada"
+    },
+    {
+      "no": "Y5",
+      "madde": "0044/H-0002 (Mohaç sonrası yerleşimsiz parça)",
+      "sinif": "YANLIŞ TARİH ADAYI + DAYANAK KUSURU (D093)",
+      "olculen": "Tâbilik 1526-08-29/09-01'de başlıyor: Debrecen (v 1526-08-29) · Budin · Peşte · Erdel · Varad · Yanova · Ösek · Mohaç · Varadin · Baç · Erdel Belgradı · Brassó · Segesvár (`macaristan` 1526-09-01'de bitip v:'Macaristan (Zapolya vasal krallığı)'). Üretimde 1526-08-29 günü `macaristan` penceresi 1526-08-29→09-01 (6 hücre) — yani 3 gün sonra tâbi.",
+      "dayanak_kusuru": "Debrecen kaydının dayanağı TDV-varad'ın 'beş sancağı ... Debrecen' cümlesi. Gövde okundu: o cümle 1660 SONRASI Varad EYALETİNİ anlatıyor ⇒ adıyla anıyor, 1526'yı TARİHLEMİYOR (D093).",
+      "kaynak": "TDV-macaristan: 1526'da iki kral seçildi, Osmanlı himayesini kabul eden I. János (tarih yok), 1529 Budin Szapolyai'ye bırakıldı · TDV-erdel: Ferdinand'a yenilince himayeye girdi (tarih yok) · TDV-varad: 1538'de 'Osmanlılar'a tâbi Macar Kralı' · kronoloji_macaristan.js:398 Szapolyai seçimi 1526-11-10 (kaynağı ÖLÇÜLMEDİ).",
+      "hukum": "Okunan hiçbir kaynak 1526 Eylül'de tâbiliği desteklemiyor; TDV tâbiliği yenilgi SONRASINA ve 1529/1538'e bağlıyor. KITA 14'ün Budin 1529 bulgusuyla TUTARLI. ⇒ Emre'nin 'parça' şikâyetinin RENGİ (tâbi ton) 1526-1529 için DAYANAKSIZ.",
+      "oneri": "13 kaydın v: başlangıcı 1529'a çekilmeli; 1526-09-01→1529 dilimi tâbi DEĞİL Szapolyai krallığı (künye YOK → TASLAK T5 dogu-macar-kralligi). 1527-1528 Ferdinand'ın fiilî denetimi ölçülmedi. GÜNLER bulunamadı (TDV yıl veriyor).",
+      "denetim_riski": "13 kayıtta kimlik/tarih değişimi; `macaristan` künyesi 1526-08-29'da bitiyor ⇒ künye inmeden yazılırsa 4c +13. 1529 günü çekirdekte olaylar.js:65 (I. Viyana, t:'1529-09') ±30 gün içinde — gün seçimine bağlı, ölçülmedi.",
+      "durum": "sirada — gün kaynağı + T5 künyesi bekliyor"
+    },
+    {
+      "no": "Y6",
+      "madde": "0025/H-0005 (açık yeşil Macaristan toprakları kimin)",
+      "sinif": "GÖRÜNTÜ BAYAT + KAYITLAR ARASI TUTARSIZLIK",
+      "olculen": "Görsel 1566-09-07. Üretilmiş data/devletler_harita.js: `macaristan` 29 pencere, 1566-09-07'yi içeren pencere YOK (son: Zigetvar s:macaristan →1566-09-07 hariç, Gyula →1566-09-02). ⇒ Emre'nin gördüğü yeşil bugünkü yayında o gün ÇİZİLMİYOR (görüntü eski koşudan).",
+      "cevap": "Yeşil = Habsburg tacındaki Macar Krallığı'nın henüz düşmemiş kaleleri (Zigetvar · Gyula); ne Osmanlı ne bağımsız Macaristan. Veride aynı siyasî yapı İKİ KİMLİKLE yazılı: `macaristan` (15 dönem künyeyi aşıyor, 4c'nin 1 numaralı kimliği, en büyük 40 yıl = Gyula) ve `avusturya` (Kassa · Tokaj · Eğri · Győr · Komárom · Pozsony · Sopron · Nitra · Léva · Trencsén · Fülek · Ungvár · Munkács · Szatmár … 1526-08-29'dan).",
+      "oneri": "Tek kimlik kararı gerekiyor ama BASİT DEĞİL: Temeşvar · Segedin · Solnok · Gyula 1526-1551 Szapolyai/İzabella tarafındaydı (TDV-varad 1538 · 1541 ayrımı), Habsburg değil. ⇒ Önce T5 künyesi, sonra kayıt kayıt kaynak. Mekanik yeniden etiketleme ÖNERİLMEZ.",
+      "durum": "sirada (kaynak işi) — görüntü kısmı cozuldu (bayat)"
+    },
+    {
+      "no": "Y7",
+      "madde": "0014/H-0005 ilk yarı (Polesya / Lehistan-Litvanya üçgeni)",
+      "sinif": "BÜYÜK ÖLÇÜDE KAPANMIŞ — sayı çürüdü",
+      "olculen": "`litvanya-buyuk-dukalik` bugün 28 kayıtta (OK124: 8). Vilnius · Kaunas · Minsk · Grodno · Brest-Litovsk · Pinsk · Kovel 1281→1569-07-01 LBD. Emre'nin 1281 görüntüsündeki 'LEHISTAN-LITVANYA' etiketi bugünkü veriyle ÇİZİLMEZ (lehistan künyesi 1569'da başlıyor; 4d lehistan 9 dönem ayrıca açık). Polesya kutusunda 8 nokta; OK124'ün Doğu Polesya boşluğu (52,40K 28,90D, ~190 km) bu turda yeniden ÖLÇÜLMEDİ.",
+      "yan_bulgu": "Chełm · Kovel · Lublin 1281-1340 Halic-Volhinya dönemi 'külliyat deseni gereği sadeleştirildi' diye BEYANLI; `polonya-erken` künyesi 1320'de başlıyor ⇒ 4d polonya-erken 9 dönem. Künye/kimlik işi, bu pakette değil.",
+      "renk": "'Kutsal Roma rengi deniz rengine yakın' kısmı P03 (renk). Bugün almanya #78d028; görüntüdeki camgöbeği ton harman/bayat olabilir — ÖLÇÜLMEDİ (D119).",
+      "durum": "üçgen → Y2 (Kurland noktasızlığı) · Polesya sirada (OK124 kaynak kolu: ÖLÇÜLEMEDİ) · renk P03"
+    }
+  ]
+}

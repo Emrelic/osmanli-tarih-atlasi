@@ -753,7 +753,7 @@ GIRDI_DOSYALARI = [
                                       # aradı; veri PARANTEZLİ ÇİFT AD yazıyor
                                       # ve `Kolhapûr` şapkalı. ⇒ Dördü de
                                       # yazılsaydı ÜÇ MÜKERRER nokta doğardı.
-    "yerlesimler_p0037.js",           # 15 nokta · Bolgrad · Kahul · Zamość
+    "yerlesimler_anadolu_0914.js", "yerlesimler_p0037.js",           # 15 nokta · Bolgrad · Kahul · Zamość
                                       # ⚠️ Zamość/Lublin/Chełm `lehistan`
                                       # kullanıyor ama o künye 1795'te
                                       # bitiyor — 1809-1815 VARŞOVA

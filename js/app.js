@@ -6001,6 +6001,7 @@ function _hukukiSinirGuncelle(gun) {
 var _KAYNAKLI_HALKA_DOSYA_ADLARI = [
   "kaynakli_halka_ferhatpasa",  // window.KAYNAKLI_HALKA_FERHATPASA — Ferhat Paşa 1590 kolları
   "kaynakli_halka_tekil",       // window.KAYNAKLI_HALKA_TEKIL — Malaka · Kotur · Bargiri
+  "kaynakli_halka_bagdat",      // window.KAYNAKLI_HALKA_BAGDAT — UYGULA-BAGDAT 1624-1638 Irak
   "kaynakli_halka_kronoloji",   // window.KAYNAKLI_HALKA_KRONOLOJI — HALKA-KRONOLOJI (ff43e0c)
   "kaynakli_halka_fetih"        // window.KAYNAKLI_HALKA_FETIH — HALKA-FETIH: çekirdek kronolojide
                                 // devleti adıyla anmayan "X'in fethi" maddeleri (Emre kararı, 13 Eylül);
@@ -8212,6 +8213,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   // 🆕 14 Eylül 2026 — PAKET-UI4, koordinatör BAGLA komutuyla (dosya teslim edildikten sonra)
   "ekokuma_ibrahim",    // window.EKOKUMA_IBRAHIM — Sultan İbrahim dönemi magazin (PAKET-EK-B, 0050/H-0008)
   "ekokuma_kasrisirin", // window.EKOKUMA_KASRISIRIN — Kasr-ı Şirin Antlaşması (PAKET-EK-A)
+  "ekokuma_savas3", "ekokuma_antlasma3", "ekokuma_mimari2",   // P12-EKOKUMA 14 Eylül
   "ekokuma_kirimrus",   // window.EKOKUMA_KIRIMRUS — Kırım-Rus / 1571 Moskova (PAKET-EK-A)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız

@@ -1,0 +1,198 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index 795944e..5df6b13 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -3380,6 +3380,47 @@ def devir_kumesi(g):
+ # birebir aynısı); js/app.js line-blur ile dışa doğru söndürür.
+ SERBEST_TOL = 0.02          # ~2 km: gövde sınırı ile boş bölgenin çakışma payı
+ _SERBEST_ONBELLEK = {}
++# 🆕 P13B · 0048-Y7 (0048/H-0010 Katar batısı · bilinen ÜÇGEN kusurunun motor
++# yarısı, BULGULAR-UCGEN-19AGU §İKİNCİL). Kesişim `boundary ∩ buffer` hattı
++# PARÇALI ve DİŞLİ çıkarıyordu: ölçüldü (koşu 10, 1600-10-20 dönemi) serbest
++# hat 60 · u=39,5 km · 153 köşe · segment min 0,31 km — hale 40-80 px iken
++# 0,3 km'lik segment ekranda diken üretiyor.
++# Kural: bitişik parçalar `linemerge` ile BİRLEŞİR, sonra her hat
++# SERBEST_SADE_TOL ile (topoloji korumalı) sadeleşir. Tolerans BİLEREK
++# SERBEST_TOL'a eşit: hattın konumu zaten o payla bulanık (±2 km); onun
++# altındaki köşe bilgi taşımaz. Yalnız ÇİZİM hattını değiştirir — gövde
++# (`o`/`v`), sahiplik ve dönem sınırları DEĞİŞMEZ.
++SERBEST_SADE_TOL = 0.02
++
++
++def serbest_sadelestir(k, tol=None):
++    """Serbest kenar kesişimini (Line/MultiLine/GeometryCollection) birleştirip
++    sadeleştirir. Çizgi bileşeni yoksa None (hat_koord zaten [] verirdi)."""
++    tol = SERBEST_SADE_TOL if tol is None else tol
++    parca = []
++
++    def _topla(x):
++        if x is None or x.is_empty:
++            return
++        if x.geom_type in ("LineString", "LinearRing"):
++            if len(x.coords) >= 2:
++                parca.append(LineString(x.coords))
++        elif hasattr(x, "geoms"):
++            for y in x.geoms:
++                _topla(y)
++    _topla(k)
++    if not parca:
++        return None
++    m = linemerge(MultiLineString(parca)) if len(parca) > 1 else parca[0]
++    hs = [m] if m.geom_type == "LineString" else list(m.geoms)
++    out = []
++    for h in hs:
++        s = h.simplify(tol, preserve_topology=True) if tol > 0 else h
++        if not s.is_empty and s.length > 0:
++            out.append(s)
++    if not out:
++        return None
++    return out[0] if len(out) == 1 else MultiLineString(out)
+ 
+ 
+ def bos_bolge(g, pe):
+@@ -3408,7 +3449,7 @@ def serbest_kenar(g, govde, pe):
+         return None
+     try:
+         k = govde.boundary.intersection(b)
+-        return None if k.is_empty else k
++        return None if k.is_empty else serbest_sadelestir(k)   # 🆕 P13B Y7
+     except Exception:
+         return None
+ 
+@@ -3816,7 +3857,7 @@ else:
+ # Parçalar dosya başına TEK havuza yazılır, dönem kayıtları havuz indeksi taşır.
+ # js/app.js yüklerken indeksleri geometriye çevirir (aynı parça bellekte de
+ # tek nesne olur). Kazanç: kıyı 0.004 çözünürlükte kalırken dosya ~%60 küçülür.
+-def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol):
++def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol, sayac=None):
+     """B · UZAK COĞRAFYA SEYRELTME — YUK-SARTNAME.md.
+ 
+     Halka halka Douglas-Peucker, AMA `don_kose` kümesindeki köşeler SABİT.
+@@ -3843,17 +3884,30 @@ def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol):
+     ve YANLIŞ — aynı kıyıyı 1600'de A, 1700'de B kullanıyor, onlar hiç komşu
+     olmuyor. Zaman örtüşmesi eklenince %13,5'e iniyor; ayrım yapılmazsa
+     kazanç 27 MB yerine 4 MB olur.
++
++    🆕 P13B · 0048-Y6 (14 Eylül 2026) — GEÇERLİLİK KORUMASI.
++    `preserve_topology=False` bir koşuyu bir halkayı KENDİNİ KESER hâle
++    getirebiliyordu ve hiçbir yer bunu sormuyordu. Ölçüldü (koşu 10 çıktısı,
++    denetim/ARAC-P13B-SEYRELT-0914.py): DEVLET_PARCALAR 48.302 parçanın
++    3.334'ü GEÇERSİZ, 3.328'inde halka kendini kesiyor (0048/H-0009 Katar
++    doğusu "tuhaf şekil" bu sınıftan). Kural, halka başına üç kademe:
++      ① eski yol (koşu False) sonuç BASİTSE → AYNEN o (bit bit eskisi)
++      ② değilse koşular `preserve_topology=True` ile yeniden → basitse o
++      ③ o da değilse → ASLI (seyreltilmemiş halka; donmuş köşeler zaten içinde)
++    Sonra ÇOK HALKALI parçada delik/dış halka kesişmesi sorulur; geçersizse
++    ve aslı geçerliyse o parçanın halkaları aslına döner (döngü, en çok 4 tur).
++    `sayac` verilirse dört sayı yazılır — SIFIR da basılır (çağrı yerinde).
+     """
+-    from shapely.geometry import LineString as _LS
+-    yeni_halka, esle = [], {}
+-    for _hi, r in enumerate(halka_hav):
++    from shapely.geometry import LineString as _LS, LinearRing as _LR, Polygon as _PG
++
++    def _halka_sade(r, koru):
+         cs, run = [], []
+         for q in r:
+             # R1 — uretecle AYNI kuanta (don_kose_kur, yukarida).
+             if (round(q[0], 6), round(q[1], 6)) in don_kose:
+                 if len(run) > 2:
+                     cs.extend([list(x) for x in
+-                               _LS(run).simplify(tol, preserve_topology=False).coords][:-1])
++                               _LS(run).simplify(tol, preserve_topology=koru).coords][:-1])
+                 elif run:
+                     cs.extend(run[:-1])
+                 run = []
+@@ -3864,7 +3918,7 @@ def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol):
+                 run.append(q)
+         if len(run) > 2:
+             cs.extend([list(x) for x in
+-                       _LS(run).simplify(tol, preserve_topology=False).coords])
++                       _LS(run).simplify(tol, preserve_topology=koru).coords])
+         else:
+             cs.extend(run)
+         if len(cs) >= 3 and cs[0] != cs[-1]:
+@@ -3877,8 +3931,61 @@ def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol):
+                 t2.append(q)
+         if len(t2) >= 3 and t2[0] != t2[-1]:
+             t2.append(list(t2[0]))
++        return t2
++
++    def _basit(h):
++        try:
++            return _LR(h).is_simple
++        except Exception:
++            return False
++
++    _say = {"halka_koru": 0, "halka_asli": 0, "parca_asli": 0, "parca_kalan_gecersiz": 0}
++    yeni_halka, esle = [], {}
++    for _hi, r in enumerate(halka_hav):
++        t2 = _halka_sade(r, False)
++        if len(t2) >= 4 and not _basit(t2):
++            t3 = _halka_sade(r, True)                  # ② topoloji korumalı
++            if len(t3) >= 4 and _basit(t3):
++                t2 = t3
++                _say["halka_koru"] += 1
++            else:
++                t2 = []                                # ③ aslına dön
++                _say["halka_asli"] += 1
+         esle[_hi] = len(yeni_halka)
+         yeni_halka.append(t2 if len(t2) >= 4 else r)   # bozulduysa aslını koru
++    # ── çok halkalı parça: delik ↔ dış halka kesişmesi (halka tek tek basit olsa bile)
++    _cok = [ks for ks in parca_hav if len(ks) > 1]
++    for _tur in range(4):
++        _degisti = False
++        for ks in _cok:
++            try:
++                _gecerli = _PG(yeni_halka[esle[ks[0]]],
++                               [yeni_halka[esle[h]] for h in ks[1:]]).is_valid
++            except Exception:
++                _gecerli = False
++            if _gecerli or all(yeni_halka[esle[h]] is halka_hav[h] for h in ks):
++                continue
++            try:
++                _asli_gecerli = _PG(halka_hav[ks[0]], [halka_hav[h] for h in ks[1:]]).is_valid
++            except Exception:
++                _asli_gecerli = False
++            if not _asli_gecerli:
++                continue
++            for h in ks:
++                if yeni_halka[esle[h]] is not halka_hav[h]:
++                    yeni_halka[esle[h]] = halka_hav[h]
++                    _degisti = True
++            _say["parca_asli"] += 1
++        if not _degisti:
++            break
++    for ks in _cok:
++        try:
++            if not _PG(yeni_halka[esle[ks[0]]], [yeni_halka[esle[h]] for h in ks[1:]]).is_valid:
++                _say["parca_kalan_gecersiz"] += 1
++        except Exception:
++            _say["parca_kalan_gecersiz"] += 1
++    if sayac is not None:
++        sayac.update(_say)
+     for ks in parca_hav:
+         for i2 in range(len(ks)):
+             ks[i2] = esle[ks[i2]]
+@@ -5407,10 +5514,20 @@ _don = don_kose_kur(
+                              (r.get("o") or []) + (r.get("v") or []))
+                             for r in donemler]))
+ _k0 = sum(len(h) for h in DEV_HALKA)
+-DEV_HALKA = seyrelt(DEV_HALKA, DEV_PARCA, DEVLET_KAYIT, _don, SEYRELT_TOL)
++_SEYRELT_SAYAC = {}
++DEV_HALKA = seyrelt(DEV_HALKA, DEV_PARCA, DEVLET_KAYIT, _don, SEYRELT_TOL, _SEYRELT_SAYAC)
+ _k1 = sum(len(h) for h in DEV_HALKA)
+ print(f"  dondurulan köşe {len(_don):,} · yabancı havuz köşe "
+       f"{_k0:,} → {_k1:,} (%{_k1/_k0*100:.0f}) · boşluk 0 (yapısal)")
++# 🆕 P13B · 0048-Y6 — geçerlilik koruması bilançosu. SIFIR OLSA BİLE BASILIR.
++# Koşu 10 çıktısında 48.302 yabancı parçanın 3.334'ü geçersizdi (öncesi sayılmıyordu).
++print(f"  🧷 seyreltme geçerlilik koruması: kendini kesen halka "
++      f"{_SEYRELT_SAYAC.get('halka_koru', 0):,} topoloji korumalı yeniden · "
++      f"{_SEYRELT_SAYAC.get('halka_asli', 0):,} ASLINA döndü · çok halkalı parça "
++      f"{_SEYRELT_SAYAC.get('parca_asli', 0):,} aslına döndü · KALAN GEÇERSİZ çok halkalı "
++      f"parça {_SEYRELT_SAYAC.get('parca_kalan_gecersiz', 0):,} (0 BEKLENMEZ: girdisi "
++      f"zaten geçersiz olan parça aslına döner ve geçersiz kalır · Osmanlı havuzu "
++      f"benzetimi 294 girdi → 117 kalan · denetim/P13B-MOTOR-KOD-0914.md)")
+ 
+ _dyol = os.path.join(KOK, "data", "devletler_harita.js")
+ _dj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
