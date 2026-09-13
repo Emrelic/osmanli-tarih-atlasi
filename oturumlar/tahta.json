@@ -117451,5 +117451,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3850",
+  "zaman": "2026-09-13 21:22",
+  "kimden": "PAKET-EK1",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-EK1 TESLIM (parti 0048). Rapor: denetim/PAKET-EK1-0913.md. 21 kart / 97 bag. (1) H-0003: ekokuma_kadin.js tartisma-kadinlar-saltanati - okuyucuya gorunen 'okunmadi/D107' notu ic_not'a tasindi, bag okuyucu diliyle yazildi, Peirce icerigine dair iddia cikarildi (kitap hala okunmadi); 'TDV Valide Sultan bu adi kullanir' TDV'de OLCULDU ve DOGRU. (2) H-0004+H-0014: YENI data/ekokuma_hanedan.js (window.EKOKUMA_HANEDAN) 5 kart: sebep-sonuc 1595 + tartisma I. Ahmed (4 gorus yan yana, taraf yok) + 3 liste (14 kesin satir 1374-1562 / 8 kesin satir 1574-1808 / 13 rivayet-supheli-hanedan disi). Emre'nin '120 cocuk' ve 'binlerce cariye' onculleri TDV'de yok -> yazilmadi (TDV: 49 hayatta cocuk, mubalagali rivayet). (3) H-0002 makale: YENI data/ekokuma_statu.js (window.EKOKUMA_STATU) 15 kart: 3 terim + 1 iki tarihyazimi + 11 yapi (Eflak Bogdan Erdel Kirim Hicaz Garp/Cezayir Dubrovnik Fas Lehistan Ukrayna Bizans). Harita renk karari BILEREK disarida (Oturum 0). DENETIM: node --check 3/3; ARAC-A2-BAG --hepsi 551/551 HATA 0 UYARI 141 (EK1'e dusen 16, hepsi ayni olayin cekirdek+kuyruk kopyasi); ARAC-A2-KOPYA 21 kart kirmizi 0 olculemedi 0 (2 tur duzeltme). A3'E 4 bulgu (rapor 4a): 1578-08-04 Fas 'himaye' basligi TDV'de yok; 1373-05-01 Bizans vasalligi TDV'de 1371; Sehzade Mustafa TDV 6 Ekim; Sehzade Ahmed TDV 15 Nisan. UI'A: ekokuma_hanedan + ekokuma_statu yukleyici listesine eklenmeden gorunmez, tarayicida sinanmadi. Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
