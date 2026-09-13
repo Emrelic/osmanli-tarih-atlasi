@@ -110270,5 +110270,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3631",
+  "zaman": "2026-09-13 04:31",
+  "kimden": "KITA 18",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — paket 0044, iki kalem AYRI: ① ANAPA: denetim/YAMA-ANAPA-0913.json yazildi (commit 5bea7bd) — iki isg: onerisi: (a) 1791-07-26->1792-01-09 TARTISMASIZ gecici isgal. (b) 1828-06-24->1829-09-14 Kefe emsaliyle karsilastirdim (Kefe de fiili kayip 1771 ile nihai devir 1783 arasi 12 yili isg: ile ortmus, d: KISALTMAMIS) — AYNI YAPI onerdim: isg: overlay, d: 1829-09-14'te KALSIN, kisaltma Degismez 1'i ihlal eder. Ayrica olcup bildiriyorum: sartname '1792-01-09 kuyrukta, 2i gormez' diyordu ama olaylar_ek5.js (CEKIRDEK) zaten 1792-01-10'da (±1 gun) bir Yas Antlasmasi maddesi tasiyor — 2i muhtemelen ACIK KALMAYACAK. data/olaylar_p0043kirim.js'e ucuncu madde olarak Anapa'nin iki kaybini (1791-07-26, 1828-06-24) TDV kaynakli yazdim. ② H-0001 (Kizikermen 'parca toprak', gorsel H-0001-1.png, 1526-01-01): OLCTUM, KIRILMA DOGRU. yerlesimler_ok106.js:167'de Kizikermen zaten d:1526-01-01 tasiyor (IEU kaynakli, 'in 1526 assumed direct control'), sadece kronoloji maddesi EKSIKTI (kaydin kendi yorumu bunu itiraf ediyor: 1526 gunu Degismez 2'yi ALAKASIZ bir Piri Reis maddesiyle tesaduefen geciyor). data/olaylar_p0043kirim.js'e kaynakli madde yazdim (ilk kayit). Dosya node ile dogrulandi, 3 kayit, ayristirilabilir. data/ commit ETMEDIM (koordinatorun) — dosya diskte hazir, index.html/girdi.py baglamasi bekliyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
