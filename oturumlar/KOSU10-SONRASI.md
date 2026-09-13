@@ -165,6 +165,12 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       gevşek tâbi) + kaynak notu: ilgili bozkır dolgu noktalarının `neden:`/`kaynak:` alanına TDV `kirim` cümlesi
       ("tâbiiyet gevşek olup … hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklarla birleşebiliyordu") yazılır.
       Yerleşim dosyası olduğu için koşu sonrası. Ayrıntı: denetim/ARASTIRMA-KIRIM-0912.md.
+- [ ] **KRON3 atlas düzeltmeleri (d8e47ac, denetim/PAKET-KRON3-0913.md)** — maddeler kaynağa göre yazıldı, atlas geride:
+      Dubrovnik `s:` Fransız→Avusturya geçişi 1814-01-01 → **1814-01-28** (TDV + Matica hrvatska + Dubrovnik Devlet Arşivi) ·
+      Bihaç 1592 öncesi Osmanlı dönemi YOK — TDV `bihac`: 1463 Osmanlı hâkimiyeti ve 1527 Yayca sonrası kısa idare, iki
+      dönemin bitişi kaynakta yok (yazılamaz; `bulunamadı` damgasıyla araştırma kalemi).
+- [ ] **Çaldıran · Başkale (0049/H-0001)** — ARAS-CALDIRAN uyguluyor (ek26): 1548 → 1920 Osmanlı, 1639 adacığı kalkıyor ·
+      yer_yama_ok110 / tbmm_1920_0905 eski 1639 girdileri emekli · Van 1548 günü 24/25 (TDV van 24) şartlı düzeltme.
 - [ ] **ARAS0048 (paket 0048 görsel soruları)** — `denetim/YAMA-0048-0913.json` (7 yama): Y4 Katar/Doha dolgu → tâbi
       1559-1670 (TDV katar "tartışmasız Osmanlı hâkimiyeti"; haritada Safevî görünüyordu) · Y2 Aşağı Yayık–Emba Nogay
       dolgu noktası · Hârizm 1593-1598 Özbek (Buhara) işgali veride YOK · MOTOR (koşu 11): Y5 `_dolgu_kumesi` kasıtlı
