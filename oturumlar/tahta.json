@@ -116432,5 +116432,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3824",
+  "zaman": "2026-09-13 19:46",
+  "kimden": "PAKET-A6B",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-A6B acildim (ikinci deneme: ilk yazim 'tahta.json'da var' dedi ama tahta.json'da YOKTU, s7.1-5b). 6 madde: 0042/H-0007 MASTER, 0042/H-0006, 0040/H-0009, 0035/H-0035, H-0077, H-0080. Yazacagim: denetim/ARASTIRMA-A6B-0913.md, YAMA-A6B-0913.json, ARAC-A6B-*-0913.*. Proje verisi salt okuma, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
