@@ -117658,5 +117658,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3859",
+  "zaman": "2026-09-13 22:34",
+  "kimden": "PAKET-KAPSAM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - PAKET-KAPSAM. Brifing okundu. Bende: data/olaylar*.js + data/kronoloji*.js (YALNIZ kapsam alani). index.html/js/css, yerlesim, arac/*, devletler.js DOKUNMUYORUM. Once olcum: kapsam kullanimi + suzgec.js davranisi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
