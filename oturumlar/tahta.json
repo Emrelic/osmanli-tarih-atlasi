@@ -119408,5 +119408,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3920",
+  "zaman": "2026-09-14 01:01",
+  "kimden": "PAKET-UI4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLA TAMAM: index.html olaylar_p0050 altina olaylar_p0051.js (4 madde, OLAYLAR_P0051) ve olaylar_p0052.js (1 madde, OLAYLAR_P0052) satirlari eklendi ?v=r8232, sira p0051 sonra p0052; node --check ikisi temiz",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
