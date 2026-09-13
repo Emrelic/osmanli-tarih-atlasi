@@ -1395,33 +1395,11 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
    1.107 satır bir kerede gizlenir, DOM yeniden kurulmaz. */
 .duygu-kapali .o-duygu, .duygu-kapali .ob-duygu { display: none; }
 
-/* ---------- Kartvizit — PADISAH-KARTVIZITI.md ---------- */
-#ob-kartvizit {
-  margin-top: 8px;
-  padding-top: 8px;
-  border-top: 2px solid var(--altin);
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-#ob-kartvizit.gizli { display: none; }
-/* DUYGU-VE-SEKME-SARTNAME.md §B — sekme çubuğu. Tek sekme kalınca
-   `#kv-sekmeler.gizli` ile TAMAMEN kaldırılıyor, bugünkü görünüm
-   (çubuksuz, doğrudan içerik) korunuyor (§B③②). */
-#kv-sekmeler { display: flex; gap: 4px; }
-#kv-sekmeler.gizli { display: none; }
-.kv-sekme-btn {
-  background: var(--panel-koyu);
-  border: 1px solid var(--altin);
-  border-bottom: none;
-  border-radius: 5px 5px 0 0;
-  padding: 3px 10px;
-  font-size: 12px;
-  cursor: pointer;
-  color: #8a6d2f;
-}
-.kv-sekme-btn.aktif { background: #fffdf6; color: #1d1006; font-weight: bold; }
-.kv-panel.gizli { display: none; }
+/* ---------- Kartvizit — PADISAH-KARTVIZITI.md ----------
+   🆕 PAKET-UI4 (14 Eylül 2026, 0050/H-0007): sekmeli #ob-kartvizit bölümü ve
+   .kv-sekme-btn çubuğu KALDIRILDI. Künye · nasıl bilirdiniz · magazin artık
+   ek okuma akordeonunun satır gövdeleri (.ek-ak-govde içinde); aşağıdaki
+   içerik sınıfları orada kullanılıyor. */
 .kv-kunye {
   font-size: 11.5px;
   color: #6b5a33;
@@ -1629,6 +1607,9 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
   font-size: 12.5px; line-height: 1.45;
 }
 .ek-ak-govde .ek-kart { margin-bottom: 0; border: none; padding: 2px 0; background: none; }
+/* PAKET-UI4 — kartvizit satırları: gövdenin kendi kaydırması (46vh) yeter, iç kutu kaydırması yok */
+.ek-ak-govde .kv-nasil-bilirdiniz { max-height: none; overflow: visible; }
+.ek-ak-govde .kv-kunye > div { margin: 1px 0; }
 #ob-detay-baslik { margin-top: 7px; }
 #ob-detay-baslik + #ob-detay { margin-top: 4px; }
 #ob-detay.ek-ak-kucuk {

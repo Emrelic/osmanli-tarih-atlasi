@@ -7532,105 +7532,104 @@ var KARTVIZIT_ROZET = { padisah: "☾", sadrazam: "🕌", "vezir-pasa": "🕌",
   komutan: "⚔", denizci: "⚓", hanedan: "👑", alim: "📖", edebiyatci: "📖",
   mimar: "🏛", siyasi: "🕌" };
 
-// DUYGU-VE-SEKME-SARTNAME.md §B — sekme kaydırıcısı. Sabit emoji/etiket
-// eşleşmesi §B③'te çivilenmiş; her giriş kendi İÇERİĞİNİN olup olmadığını
-// döndüren bir işlev taşıyor, `kartvizitSekmeleriKur` yalnız DOLU olanları
-// sekme yapıyor. Yeni bir sekme (sebep-sonuç, ek okuma) eklemek bu diziye
-// bir satır eklemek kadar ucuz olsun diye tasarlandı.
+// DUYGU-VE-SEKME-SARTNAME.md §B — her giriş kendi İÇERİĞİNİN olup olmadığını
+// döndüren bir işlev taşıyor; yalnız DOLU olan bölüm çizilir (§B③①).
+// 🆕 14 Eylül 2026 — PAKET-UI4 · kutu 0050/H-0007, Emre: *"magazin kartlarını
+// magazin sekmesi değil de diğer ek okuma butonları gibi akordeon olacak şekilde
+// ayarlayalım ve kişi kartları, nasıl bilirdiniz kartları, övgü-yergi kartları
+// bunları düzenleyelim."* ⇒ Kartvizit artık AYRI bir sekmeli bölüm (#ob-kartvizit,
+// "👤 Kişi | 🎭 Magazin" sekme çubuğu) DEĞİL: her bölümü ek okuma akordeonunda
+// bir SATIR. Doluluk kuralları AYNEN (kişi dolu → künye + nasıl bilirdiniz;
+// magazin dolu → magazin). İÇERİK metinleri değişmedi, yalnız yer ve düzen.
+// Akordeonda ek okuma kartı OLMAYAN satır türleri. Etiket burada, SIRA
+// `ekOkumaButonlariGuncelle`de (tek sıra tablosu, `_akordeonTurSirasi`).
+var AKORDEON_EK_TUR = {
+  "kv-kunye":   { etiket: "👤 Künye" },
+  "kv-nasil":   { etiket: "🗣️ Nasıl bilirdiniz" },   // övgü · yergi · tartışma · tarihçiler
+  "kv-magazin": { etiket: "🎭 Magazin" },            // kartvizit: eşleri · çocukları · skandal
+  "kisi":       { etiket: "👤 Kişi" }                // madde kişileri (o.kisiler → KISILER)
+};
 var KV_SEKME_TANIM = [
   { id: "kisi", etiket: "👤 Kişi", doluMu: function (k) { return !!(k.dogum || k.olum || k.baba); } },
   { id: "magazin", etiket: "🎭 Magazin", doluMu: function (k) {
       return !!(k.skandal || (k.esler && k.esler.length) || (k.cocuk && (k.cocuk.oglan || k.cocuk.kiz)));
     } }
 ];
-var kvSeciliSekme = "kisi";
 
-function kartvizitSekmeleriKur(k) {
-  var sekmelerEl = obKartvizit.querySelector("#kv-sekmeler");
-  var dolular = KV_SEKME_TANIM.filter(function (t) { return t.doluMu(k); });
-  // §B③②: tek sekme kalıyorsa çubuk HİÇ çizilmez.
-  sekmelerEl.innerHTML = "";
-  sekmelerEl.classList.toggle("gizli", dolular.length <= 1);
-  if (!dolular.some(function (t) { return t.id === kvSeciliSekme; })) {
-    kvSeciliSekme = dolular.length ? dolular[0].id : "kisi";
-  }
-  dolular.forEach(function (t) {
-    var b = document.createElement("button");
-    b.className = "kv-sekme-btn" + (t.id === kvSeciliSekme ? " aktif" : "");
-    b.textContent = t.etiket;
-    b.addEventListener("click", function () {
-      kvSeciliSekme = t.id;
-      obKartvizit.querySelectorAll(".kv-sekme-btn").forEach(function (x) { x.classList.remove("aktif"); });
-      b.classList.add("aktif");
-      obKartvizit.querySelectorAll(".kv-panel").forEach(function (p) {
-        p.classList.toggle("gizli", p.dataset.sekme !== t.id);
-      });
-    });
-    sekmelerEl.appendChild(b);
-  });
-  var doluIdler = dolular.map(function (t) { return t.id; });
-  obKartvizit.querySelectorAll(".kv-panel").forEach(function (p) {
-    // İçeriği olmayan panel HİÇ görünmez (§B③①) — aktif sekmeden ayrı, bağımsız kural.
-    var doluMu = doluIdler.indexOf(p.dataset.sekme) >= 0;
-    p.classList.toggle("gizli", !doluMu || p.dataset.sekme !== kvSeciliSekme);
-  });
+// Kartvizit (vefat_id) + madde kişileri (o.kisiler) → akordeon satırları.
+// Her satır { tur, baslik:{etiket,ipucu,tam}, html } — gövde HTML'i hazır gelir
+// (ekKartHtml'e gitmez; kaynağı ek okuma kartı değil, KISILER/PADISAHLAR).
+function _kvSatir(tur, ad, html) {
+  var et = AKORDEON_EK_TUR[tur].etiket;
+  return { tur: tur, baslik: { etiket: et, ipucu: ad || "", tam: ad || "" }, html: html };
 }
-
-var obKartvizit = document.getElementById("ob-kartvizit");
-function kartvizitGuncelle(o) {
-  if (!obKartvizit) return;
-  if (!o.vefat_id) { obKartvizit.classList.add("gizli"); return; }
+function kartvizitSatirlari(o) {
+  var sat = [];
+  if (!o.vefat_id) return sat;
   var k = vefatKisiBul(o.vefat_id);
-  if (!k) { obKartvizit.classList.add("gizli"); return; }   // id bozuk/silinmiş — sessizce göstermiyoruz, veri hatası ayrı denetimin işi
-  obKartvizit.classList.remove("gizli");
-  kartvizitSekmeleriKur(k);
+  if (!k) return sat;   // id bozuk/silinmiş — sessizce göstermiyoruz, veri hatası ayrı denetimin işi
+  var ad = k.ad || "";
 
-  var kunye = obKartvizit.querySelector(".kv-kunye");
-  var satirlar = [];
-  if (k.dogum) satirlar.push("Doğum: " + k.dogum + (k.dogum_yer ? " · " + k.dogum_yer : ""));
-  if (k.olum) satirlar.push("Ölüm: " + k.olum + (k.olum_yer ? " · " + k.olum_yer : "") + (k.olum_sebep ? " (" + k.olum_sebep + ")" : ""));
-  if (k.baba) satirlar.push("Baba: " + k.baba);
-  if (k.anne) satirlar.push("Anne: " + k.anne);
-  if (k.tahta) satirlar.push("Tahta çıkış: " + k.tahta + (k.yas_tahta ? " (yaş " + k.yas_tahta + ")" : ""));
-  if (k.saltanat_yil) satirlar.push("Saltanat: " + k.saltanat_yil + " yıl");
-  if (k.lakap && k.lakap.length) satirlar.push("Lakap: " + k.lakap.join(", "));
-  if (k.unvan && k.unvan.length) satirlar.push("Unvan: " + k.unvan.join(", "));
-  kunye.textContent = satirlar.join("  ·  ");
+  if (KV_SEKME_TANIM[0].doluMu(k)) {
+    var satirlar = [];
+    if (k.dogum) satirlar.push("Doğum: " + k.dogum + (k.dogum_yer ? " · " + k.dogum_yer : ""));
+    if (k.olum) satirlar.push("Ölüm: " + k.olum + (k.olum_yer ? " · " + k.olum_yer : "") + (k.olum_sebep ? " (" + k.olum_sebep + ")" : ""));
+    if (k.baba) satirlar.push("Baba: " + k.baba);
+    if (k.anne) satirlar.push("Anne: " + k.anne);
+    if (k.tahta) satirlar.push("Tahta çıkış: " + k.tahta + (k.yas_tahta ? " (yaş " + k.yas_tahta + ")" : ""));
+    if (k.saltanat_yil) satirlar.push("Saltanat: " + k.saltanat_yil + " yıl");
+    if (k.lakap && k.lakap.length) satirlar.push("Lakap: " + k.lakap.join(", "));
+    if (k.unvan && k.unvan.length) satirlar.push("Unvan: " + k.unvan.join(", "));
+    sat.push(_kvSatir("kv-kunye", ad, '<div class="kv-kunye">' +
+      satirlar.map(function (s) { return "<div>" + ekEsc(s) + "</div>"; }).join("") + "</div>"));
 
-  var magazin = obKartvizit.querySelector(".kv-magazin");
-  var mSatir = [];
-  if (k.esler && k.esler.length) mSatir.push("Eşleri: " + k.esler.join(", "));
-  if (k.cocuk) mSatir.push("Çocukları: " + [k.cocuk.oglan ? k.cocuk.oglan + " oğlan" : "",
-    k.cocuk.kiz ? k.cocuk.kiz + " kız" : ""].filter(Boolean).join(", "));
-  magazin.textContent = mSatir.join("  ·  ");
-  if (k.skandal) {
-    var sk = document.createElement("div");
-    sk.className = "kv-skandal";
-    sk.textContent = k.skandal;
-    magazin.appendChild(sk);
+    // "Nasıl bilirdiniz" — kartın kalbi (övgü · yergi · tartışma · tarihçiler).
+    // `ovgu` alanının varlığı, kartvizit METNİNİN yazılıp yazılmadığının ölçütü
+    // (oturumlar/ARAYUZ-3-SARTNAME.md "çapasız kart" §B). Boşsa NİÇİN boş
+    // olduğu AÇIKÇA söylenir, satır sessizce kaybolmaz.
+    var nb;
+    if (k.ovgu || k.yergi || k.tartisma) {
+      nb = '<div class="kv-nasil-bilirdiniz">' +
+        [["kv-ovgu", "Övgü", k.ovgu], ["kv-yergi", "Yergi", k.yergi],
+         ["kv-tartisma", "Tartışma", k.tartisma], ["kv-tarihciler", "Tarihçiler", k.tarihciler]]
+          .filter(function (x) { return x[2]; })
+          .map(function (x) { return '<div class="kv-satir ' + x[0] + '">' + ekEsc(x[1] + ": " + x[2]) + "</div>"; })
+          .join("") + "</div>";
+    } else {
+      nb = '<div class="kv-nasil-bilirdiniz kv-eksik"><div class="kv-satir kv-ovgu">' +
+           "Bu kişinin kartviziti henüz yazılmadı.</div></div>";
+    }
+    sat.push(_kvSatir("kv-nasil", ad, nb));
   }
 
-  // "Nasıl bilirdiniz" — kartın kalbi. `ovgu` alanının varlığı, kartvizit
-  // METNİNİN yazılıp yazılmadığının ölçütü (künye önce, içerik sonra
-  // gelebilir — oturumlar/ARAYUZ-3-SARTNAME.md "çapasız kart" §B).
-  var nb = obKartvizit.querySelector(".kv-nasil-bilirdiniz");
-  if (k.ovgu || k.yergi || k.tartisma) {
-    nb.classList.remove("kv-eksik");
-    setKv(".kv-ovgu", "Övgü", k.ovgu);
-    setKv(".kv-yergi", "Yergi", k.yergi);
-    setKv(".kv-tartisma", "Tartışma", k.tartisma);
-    setKv(".kv-tarihciler", "Tarihçiler", k.tarihciler);
-  } else {
-    // Boş alan yok, NİÇİN boş var — künye hazır ama "nasıl bilirdiniz"
-    // henüz yazılmamışsa bu AÇIKÇA söylenir, bölüm sessizce boş kalmaz.
-    nb.classList.add("kv-eksik");
-    nb.querySelector(".kv-ovgu").textContent = "Bu kişinin kartviziti henüz yazılmadı.";
-    setKv(".kv-yergi", "", ""); setKv(".kv-tartisma", "", ""); setKv(".kv-tarihciler", "", "");
+  if (KV_SEKME_TANIM[1].doluMu(k)) {
+    var mSatir = [];
+    if (k.esler && k.esler.length) mSatir.push("Eşleri: " + k.esler.join(", "));
+    if (k.cocuk) mSatir.push("Çocukları: " + [k.cocuk.oglan ? k.cocuk.oglan + " oğlan" : "",
+      k.cocuk.kiz ? k.cocuk.kiz + " kız" : ""].filter(Boolean).join(", "));
+    var mh = '<div class="kv-magazin">' + ekEsc(mSatir.join("  ·  "));
+    if (k.skandal) mh += '<div class="kv-skandal">' + ekEsc(k.skandal) + "</div>";
+    sat.push(_kvSatir("kv-magazin", ad, mh + "</div>"));
   }
-  function setKv(sec, etiket, metin) {
-    var el = nb.querySelector(sec);
-    el.textContent = metin ? etiket + ": " + metin : "";
-  }
+  return sat;
+}
+// Madde kişileri — önceden `#ob-ozel` altında ayrı kutu (`kutu(k.ad, …)`).
+// Kural AYNEN: ilk 4 ad, padişah (portre olarak zaten görünüyor) atlanır,
+// aynı kişi iki kez yazılmaz.
+function kisiKartSatirlari(o) {
+  var sat = [];
+  if (!o.kisiler) return sat;
+  var yazilan = {};
+  o.kisiler.split(/[,;]/).slice(0, 4).forEach(function (ad) {
+    if (padisahEslesmesi(ad, o.gi)) return;
+    var k = kisiBul(ad);
+    if (k && !yazilan[k.ad]) {
+      yazilan[k.ad] = 1;
+      sat.push(_kvSatir("kisi", k.ad, '<div class="ek-kart"><h4>' + ekEsc(k.ad) + "</h4><p>" +
+        ekEsc((k.donem ? k.donem + " · " : "") + (k.not || "")) + "</p></div>"));
+    }
+  });
+  return sat;
 }
 
 // K3 (§ARAYUZ-AYNI-GUN.md) — şeridin metni SAYIYI ÖNCE söyler: kullanıcının
@@ -7761,17 +7760,9 @@ function obGoster(o) {
   try { maddeFarkiGoster(o, ozel); } catch (eMf) { console.error("[aynı gün farkı]", eMf); }
   // PAKET-ISYAN — isyan taramasına bağlı maddelerde kaynaklı pencere özeti.
   try { isyanMaddeKutusu(o, ozel); } catch (eIsy) { console.error("[isyan taraması]", eIsy); }
-  if (o.kisiler) {
-    var yazilan = {};
-    o.kisiler.split(/[,;]/).slice(0, 4).forEach(function (ad) {
-      if (padisahEslesmesi(ad, o.gi)) return;    // padişah zaten portre olarak görünüyor
-      var k = kisiBul(ad);
-      if (k && !yazilan[k.ad]) {
-        yazilan[k.ad] = 1;
-        kutu(k.ad, (k.donem ? k.donem + " · " : "") + (k.not || ""));
-      }
-    });
-  }
+  // Kişi kartları (o.kisiler) ve kartvizit (vefat_id) — PAKET-UI4: artık
+  // `#ob-ozel` kutusu / sekmeli bölüm değil, ek okuma AKORDEONUNUN satırları
+  // (ekOkumaButonlariGuncelle → kisiKartSatirlari · kartvizitSatirlari).
   if (o.kaynak) {
     var a = document.createElement("a");
     a.className = "ob-kaynak";
@@ -7780,8 +7771,7 @@ function obGoster(o) {
     a.textContent = "📖 TDV İslâm Ansiklopedisi";
     ozel.appendChild(a);
   }
-  kartvizitGuncelle(o);
-  ekOkumaButonlariGuncelle(o);
+  ekOkumaButonlariGuncelle(o);         // PAKET-UI4: kartvizit + kişi kartları da burada
   maddeGorseliniGuncelle(o);
   obPanel.classList.remove("gizli");
 }
@@ -8219,6 +8209,10 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_hanedan",    // window.EKOKUMA_HANEDAN — kardeş katli · hanedan içi kavgalar (0048/H-0004, H-0014)
   "ekokuma_statu",      // window.EKOKUMA_STATU — vassal/özerk/haraçgüzar/himaye kartları (0048/H-0002)
   "ekokuma_celali",     // window.EKOKUMA_CELALI — Celâlî ayaklanmaları · Kuyucu (0048/H-0007, H-0016)
+  // 🆕 14 Eylül 2026 — PAKET-UI4, koordinatör BAGLA komutuyla (dosya teslim edildikten sonra)
+  "ekokuma_ibrahim",    // window.EKOKUMA_IBRAHIM — Sultan İbrahim dönemi magazin (PAKET-EK-B, 0050/H-0008)
+  "ekokuma_kasrisirin", // window.EKOKUMA_KASRISIRIN — Kasr-ı Şirin Antlaşması (PAKET-EK-A)
+  "ekokuma_kirimrus",   // window.EKOKUMA_KIRIMRUS — Kırım-Rus / 1571 Moskova (PAKET-EK-A)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -8445,7 +8439,12 @@ function ekOkumaButonlariGuncelle(o) {
   // (`#ob-detay`) da akordeonun ilk satırı. Aşağıdaki tür döngüsü AYNEN duruyor
   // (hangi kart hangi türde — kural ① "yalnız kart VARSA" korunur); döngü
   // artık buton değil SATIR listesi topluyor, çizim `ekAkordeonKur`da.
-  var _akSatirlar = [];
+  // 🆕 PAKET-UI4 (0050/H-0007) — kartvizit (künye · nasıl bilirdiniz · magazin)
+  // ve madde kişileri de AYNI akordeonun satırları; tek sıra tablosuna girer.
+  var _turSatir = {};
+  function _ekle(tur, s) { (_turSatir[tur] = _turSatir[tur] || []).push(s); }
+  kartvizitSatirlari(o).forEach(function (s) { _ekle(s.tur, s); });
+  kisiKartSatirlari(o).forEach(function (s) { _ekle(s.tur, s); });
   Object.keys(EKOKUMA_TUR).forEach(function (tur) {
     var _tanim = EKOKUMA_TUR[tur];
     var eslesen = _tanim.kaynak().filter(function (k) {
@@ -8453,10 +8452,26 @@ function ekOkumaButonlariGuncelle(o) {
       // ötekilerde kayıt kendi türünü taşır.
       return (_tanim.turAlaniYok || k.tur === tur) && ekKartBagliMi(k, o);
     });
-    if (!eslesen.length) return;
-    eslesen.forEach(function (kart) { _akSatirlar.push({ tur: tur, kart: kart }); });
+    eslesen.forEach(function (kart) { _ekle(tur, { tur: tur, kart: kart }); });
+  });
+  var _akSatirlar = [];
+  _akordeonTurSirasi().forEach(function (tur) {
+    (_turSatir[tur] || []).forEach(function (s) { _akSatirlar.push(s); });
   });
   ekAkordeonKur(kutu, _akSatirlar);
+}
+// TEK SIRA KURALI: önce maddenin KİŞİSİ (künye → nasıl bilirdiniz → madde
+// kişileri), sonra ek okuma türleri EKOKUMA_TUR sırasıyla; kartvizit magazini
+// ek okuma magazin kartlarının HEMEN önünde (aynı konu yan yana). Bir tür
+// içinde kartlar kaynak sırasını korur.
+function _akordeonTurSirasi() {
+  var sira = ["kv-kunye", "kv-nasil", "kisi"];
+  Object.keys(EKOKUMA_TUR).forEach(function (tur) {
+    if (tur === "magazin") sira.push("kv-magazin");
+    sira.push(tur);
+  });
+  if (sira.indexOf("kv-magazin") < 0) sira.push("kv-magazin");
+  return sira;
 }
 var aktifOlay = null;   // ekOkumaButonlariGuncelle'nin gecikmeli geri çağrısı için
 
@@ -8526,9 +8541,10 @@ function ekAkordeonKur(kutu, satirlar) {
   kutu.classList.toggle("ek-akordeon", satirlar.length > 0);
   if (anaBaslik) anaBaslik.hidden = !satirlar.length;
   satirlar.forEach(function (s, i) {
-    var bas = _ekSatirBasligi(s.tur, s.kart);
+    var bas = s.baslik || _ekSatirBasligi(s.tur, s.kart);   // PAKET-UI4: kartvizit satırı başlığını hazır getirir
     var sat = document.createElement("div");
     sat.className = "ek-ak-satir";
+    sat.setAttribute("data-tur", s.tur);
     var btn = document.createElement("button");
     btn.type = "button";
     btn.className = "ek-ak-baslik";
@@ -8551,6 +8567,7 @@ function ekAkordeonKur(kutu, satirlar) {
     sat.appendChild(btn);
     sat.appendChild(gov);
     sat._kart = s.kart;
+    sat._html = s.html;                // kartvizit/kişi satırı: gövde hazır (ekKartHtml'e gitmez)
     kutu.appendChild(sat);
   });
   _ekAkordeonAc(-1);
@@ -8573,7 +8590,7 @@ function _ekAkordeonAc(i) {
     if (ac && !gov.getAttribute("data-dolu")) {
       // TEMBEL çizim: kart ilk açılışta basılır — 5 kartlık maddede 5 gövde
       // her madde değişiminde boşuna kurulmaz.
-      gov.innerHTML = ekKartHtml(sat._kart);
+      gov.innerHTML = sat._html != null ? sat._html : ekKartHtml(sat._kart);
       gov.setAttribute("data-dolu", "1");
       var linkler = gov.querySelectorAll(".ek-zincir-link");
       for (var L = 0; L < linkler.length; L++) {
@@ -11275,14 +11292,31 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
     // sonra gelen uçuş onu eziyordu (ölçüldü). Bayrak `guncelle()`nin
     // tamamını kapsar; `finally` şart, yoksa bir fırlatma oto-zoom'u kalıcı
     // olarak susturur.
-    KAMERA.olayBekliyor = true;
-    try { tarihAyarla(gi); } finally { KAMERA.olayBekliyor = false; }
+    // 🔴 14 Eylül 2026 — PAKET-UI4: eski `KAMERA.olayBekliyor = true/false`
+    // 22 Ağustos'tan (898f180, olayBekliyor → yalnız GETTER, sayaç `kilit`)
+    // beri TypeError atıyordu ("Cannot set property olayBekliyor … which has
+    // only a getter") — devlet kronolojisi panelinde madde tıklaması HİÇ
+    // açılmıyordu (ölçüldü: panel gizli, başlık boş). Sayaç deseni, olayaGit ile aynı.
+    kameraKilitle();
+    try { tarihAyarla(gi); } finally { kameraCoz(); }
     if (obPanel) {
       obPanel.classList.remove("gizli");
       var bas = document.getElementById("ob-baslik");
       if (bas) bas.textContent = d.ad + " — " + (m.tur || "madde");
       var det = document.getElementById("ob-detay");
       if (det) det.textContent = (m.t || "") + " · " + (m.b || "");
+      // 🆕 14 Eylül 2026 — PAKET-UI4 İŞ 3 (1.MURAT, M-3930 aksaklığı): ek okuma
+      // akordeonu yalnız Osmanlı panelinde (obGoster) çiziliyordu; kuyruk
+      // maddesine (KRONOLOJI_*) bağlanan kart — ör. "1571-01-01|Moskova"
+      // KRONOLOJI_KIRIM'de — HİÇ görünmüyordu. Yeni desen YOK: obGoster'ın
+      // çağırdığı AYNI ortak fonksiyon (`ekOkumaButonlariGuncelle`: kartvizit +
+      // kişi + ek okuma satırları, tek sıra) burada da çağrılıyor; bağ kuralı
+      // AYNI (`ekKartBagliMi`: t + başlıkta ayırt edici). Kuyruk maddesinde `gi`
+      // alanı yok → veriye yazmadan, prototipli sarmalayıcıyla veriliyor
+      // (kişi kartı `padisahEslesmesi(ad, o.gi)` ister).
+      var mo = Object.create(m);
+      mo.gi = gi;
+      try { ekOkumaButonlariGuncelle(mo); } catch (eEk) { console.error("[ek okuma · devlet paneli]", eEk); }
     }
     // 🔴 UÇUŞ HER ZAMAN — `ucus-ac` anahtarına BAĞLANMAZ, ve bu bir ölçümle
     // düzeltildi. İlk yazımda ona bağlamıştım; tarayıcıda sınandı, anahtar

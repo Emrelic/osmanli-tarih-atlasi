@@ -463,31 +463,13 @@
            obGoster() dolduruyor, PD/CC0 dışı lisans hiç basılmaz. -->
       <div id="ob-madde-gorsel"></div>
       <div id="ob-ozel"></div>
-      <!-- DUYGU-VE-SEKME-SARTNAME.md §B — PADISAH-KARTVIZITI.md yalnız
-           o.vefat_id çözülen maddede dolar (js/app.js kartvizitGuncelle).
-           §B③: sekme kaydırıcısı; İÇERİĞİ OLMAYAN sekme HİÇ açılmaz (gri
-           de durmaz), tek sekme kalırsa çubuk hiç çizilmez — bugün yalnız
-           "👤 Kişi" (künye + nasıl bilirdiniz) ve "🎭 Magazin" (skandal)
-           var; sebep-sonuç/ek-okuma verisi geldiğinde js/app.js'e yeni
-           panel eklemek yeter, bu iskelet zaten çoğaltılabilir. -->
-      <section id="ob-kartvizit" class="gizli">
-        <div id="kv-sekmeler"></div>
-        <div class="kv-panel" data-sekme="kisi">
-          <div class="kv-kunye"></div>
-          <div class="kv-nasil-bilirdiniz">
-            <div class="kv-satir kv-ovgu"></div>
-            <div class="kv-satir kv-yergi"></div>
-            <div class="kv-satir kv-tartisma"></div>
-            <div class="kv-satir kv-tarihciler"></div>
-          </div>
-        </div>
-        <div class="kv-panel" data-sekme="magazin">
-          <div class="kv-magazin"></div>
-        </div>
-      </section>
-      <!-- EK-OKUMA.md + MERAK.md — buton yalnız kart VARSA çıkar (js/app.js).
-           data/ekokuma.js + data/merak.js ana yüke KATILMAZ, ilk gerektiğinde
-           arka planda yükleniyor. -->
+      <!-- EK-OKUMA.md + MERAK.md — satır yalnız kart VARSA çıkar (js/app.js).
+           data/ekokuma*.js ana yüke KATILMAZ, ilk gerektiğinde arka planda yükleniyor.
+           🆕 PAKET-UI4 (14 Eylül 2026, kutu 0050/H-0007): eski sekmeli
+           #ob-kartvizit bölümü (👤 Kişi | 🎭 Magazin) ve #ob-ozel içindeki kişi
+           kutuları KALDIRILDI — künye · nasıl bilirdiniz · magazin · kişi kartları
+           artık bu akordeonun satırları (js/app.js kartvizitSatirlari). -->
+
       <div id="ob-ekokuma-butonlar"></div>
     </section>
   </aside>
@@ -1027,6 +1009,8 @@
 <script src="data/olaylar_p0048.js?v=r8232"></script>
 <script src="data/olaylar_p0049.js?v=r8232"></script>
 <script src="data/olaylar_p0050.js?v=r8232"></script>
+<script src="data/olaylar_p0051.js?v=r8232"></script>
+<script src="data/olaylar_p0052.js?v=r8232"></script>
 <!-- 🟢 C · BELGELİ SINIRLAR (13 Eylül 2026, KITA 30) — antlaşmanın/kaynağın TARİF
      ettiği sınırlar. Motor bunları henüz uygulamıyor (koşu 10 donuk); bu dosya
      yalnız GÖSTERİM içindir: kullanıcı hangi sınırın belgeli, hangisinin
