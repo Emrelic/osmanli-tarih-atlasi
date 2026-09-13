@@ -119948,5 +119948,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3945",
+  "zaman": "2026-09-14 01:24",
+  "kimden": "P13B-MOTOR-KOD",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P13B-MOTOR-KOD acildim, brifing + MOTOR-HIMAYE + KOSU10-SONRASI okundu. Dosyalarim: arac/uret_petek.py (YALNIZ) + denetim/P13B-MOTOR-KOD-0914.md + denetim/ARAC-P13B-*-0914.py. uret_petek.py git temiz (son 8ba093e), motor surecinde calisan yok (olculdu). Tam kosu YOK, commit YOK. 29 madde: once kod yerleri okunuyor, sonra risk siralamasi; genis etkili kalemler tasarim-oneri olarak sana donecek. P13A ile teshis cakismasi olursa yatay soracagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
