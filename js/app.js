@@ -3520,13 +3520,32 @@ function seferGuncelle(t) {
     if (m._fiKirpik === undefined) {
       m._fiKirpik = m.fi;
       try {
-        var capa = m.ti;                       // pencerenin dayandığı gün
+        var capa = m.ti;                       // pencerenin dayandığı gün — DEĞİŞMEDİ
         var oncekiOlay = -Infinity;
         for (var oi = 0; oi < olaylar.length; oi++) {
           if (olaylar[oi].gi < capa && olaylar[oi].gi > oncekiOlay)
             oncekiOlay = olaylar[oi].gi;
         }
         if (isFinite(oncekiOlay)) m._fiKirpik = Math.max(m.fi, oncekiOlay);
+        // 🔴 SEÇENEK B — 13 Eylül 2026, M-3620/OLCUM-SEFER-KIRPMA-0912.md.
+        // Emre bu oku dokuz kez istedi (Mohaç · Viyana 1529 · Irakeyn ·
+        // Çaldıran · Mısır …) ve ÖLÇÜM üç seçenek arasından B'yi seçtirdi:
+        //     A (çapa=fi)     kırpma sıfırlanır AMA Katalan (4163ebe, bu
+        //                     bloğun kendi vakası) REGRESE olur — elendi.
+        //     B (bu satırlar) AYNI anchor (yukarıdaki `capa=ti`) korunur,
+        //                     yani Katalan YİNE kırpılır — kırpma
+        //                     KALDIRILMADI (D012), yalnız seferin kendi
+        //                     süresinin YARISINI AŞAMAZ. Ölçüldü: 41/72
+        //                     sefer yine kırpılıyor (regresyon YOK), ama
+        //                     toplam kırpılan süre %40 azalıyor ve altı
+        //                     istenen seferin görünürlüğü %5-%288 artıyor
+        //                     (Mısır 43g→167g, Çaldıran 108g→190g, …).
+        // ⚠️ Yarıçap `ti-fi`nin YARISI — sabit bir gün sayısı DEĞİL, çünkü
+        // sabit bir tavan (D137 ailesi) kısa seferlerde anlamsız, uzun
+        // seferlerde gereksiz cömert olurdu. Oran seferin KENDİ süresinden
+        // türüyor, tıpkı yukarıdaki anchor'ın KRONOLOJİDEN türediği gibi.
+        var yaricap = Math.floor((m.ti - m.fi) / 2);
+        m._fiKirpik = Math.min(m._fiKirpik, m.fi + yaricap);
       } catch (e) { /* olaylar hazır değil — kırpma yok, eski davranış */ }
     }
     // 🔴 VE SONU DA ÇAPASINA KIRPILIR — yukarıdaki kuralın ÖTEKİ UCU.

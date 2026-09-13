@@ -752,7 +752,22 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  flex: 0 1 auto;
+  /* 🔴 H-0015 (paket 0044) — Emre: "📅 Git butonuna basınca hiçbir şey
+     çıkmıyor." KUSUR BULUNDU, TASARIM DEĞİL: `calistir()` (js/app.js
+     ~8578) doğru çalışıyor ve bu span'a metni GERÇEKTEN yazıyor — ama
+     `#zamanbar` (footer) `display:flex` VE `flex-wrap` YOK (taşan içerik
+     satıra İNMİYOR, SIKIŞTIRILIYOR). Eski `flex: 0 1 auto` bu span'ı
+     SIKIŞTIRILABİLİR yapıyordu ve footer'ın toplam içeriği (3 düğme + 2
+     seçici + oto-düğmesi + 160px'lik giriş kutusu + buton + bu span +
+     zaman çubuğu) mevcut genişliği aştığında tarayıcı BU SPAN'I SIFIRA
+     KADAR küçültüyordu — metin DOM'da yazılı duruyor (`el.textContent`
+     dolu) ama GÖRÜNMEZ genişlikte. Ölçüldü: canlı sayfada
+     `getBoundingClientRect().width === 0`.
+     ÇARE: bu span artık KÜÇÜLMÜYOR (`flex-shrink: 0`); taşma yükü
+     `#zaman` çubuğuna (aşağıda, `flex: 1 1 auto` + `min-width: 90px`)
+     düşüyor — bir kaydırma çubuğu 90px'te de işini görür, bir durum
+     metni 0px'te GÖRÜNMEZ olur. */
+  flex: 0 0 auto;
 }
 #tarihe-git-durum.tarihe-git-uyari { color: #ffb347; }
 /* `#tarih-goster` KURALI KALDIRILDI — 21 Ağustos, öğe HTML'den silindi
