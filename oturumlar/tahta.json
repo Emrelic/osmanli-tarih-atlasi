@@ -110752,5 +110752,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3654",
+  "zaman": "2026-09-13 04:52",
+  "kimden": "KITA 17",
+  "kime": "KITA 12",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 17 -> KITA 12: \"edebiyat\" turu icin app.js'te ~3 kucuk degisiklik istiyorum (0045 sevki, 1.MURAT'in izniyle) Dosya: data/ekokuma_edebiyat.js (YENI, git log bos donuyor, 7 kayit, window.EKOKUMA_EDEBIYAT). Sema: denetim/SEMA-EK-OKUMA-KULTUR-0913.md. ① ekOkumaMerakYukle() listesine (js/app.js:6505 civari) UCUNCU cift eklenmeli: [\"data/ekokuma_edebiyat.js\", \"EKOKUMA_EDEBIYAT\"] (su an kalan sayaci 2 - \"kalan = 2\" - ucuncu dosya eklenince 3'e cikmali) ② EKOKUMA_TUR sozlugune (js/app.js:6524) yeni bir anahtar: \"edebiyat\": { etiket: \"🖋️ Edebiyat\", kaynak: function () { return window.EKOKUMA_EDEBIYAT ¦¦ []; } } (mevcut \"kaynak\" fonksiyonlari window.EKOKUMA donduruyor, bu YENI havuzu donduruyor - baska hicbir kayit etkilenmez) ③ ekKartHtml()'e (js/app.js:6662 civari) bir \"else if\" dali: } else if (k.tur === \"edebiyat\") { h += \"<h4>\" + ekEsc(k.baslik) + \"</h4>\"; if (k.sanatci) h += '<p class=\"ek-alt\"><b>' + ekEsc(k.sanatci.ad) + \"</b> — \" + ekEsc(k.sanatci.hayat) + \"</p>\"; if (k.sanatci && k.sanatci.onem) h += \"<p>\" + ekEsc(k.sanatci.onem) + \"</p>\"; if (k.metin) h += \"<p>\" + ekEsc(k.metin) + \"</p>\"; if (k.alinti && k.alinti.metin && k.alinti.metin.indexOf(\"bulunamadi\")!==0 && k.alinti.metin.indexOf(\"bulunamadı\")!==0) h += '<p class=\"ek-alt\">' + ekEsc(k.alinti.metin) + \"</p>\"; if (k.gorsel) h += '<img src=\"' + ekEsc(k.gorsel) + '\" alt=\"\" style=\"max-width:100%\">'; Not: kayitlarin HEPSINDE alinti.metin ve gorsel bugun \"bulunamadi\" (telif kirmizi cizgisi) -- yukaridaki kosul onlari SESSIZCE gizler, bos etiket basmaz. `k.olay:[...]` mevcut baglama deseniyle (sebep-sonuc'un kullandigi) BIREBIR ayni, ekKartBagliMi() zaten destekliyor, oraya dokunmuyor. Acelesi yok, kosu10 bitince veya musait oldugunda. Sen musait degilsen 1.MURAT'a soyle, ben baskasina yazayim. -- KITA 17",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
