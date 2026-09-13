@@ -114584,5 +114584,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3740",
+  "zaman": "2026-09-13 06:24",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM UYGULANDI: js/c_katman.js -> denetim/ARAC-KITA30-CKATMAN-KOPRU-0913.js tasindi, commit 173f759 (git show --name-only ile dogrulandi, TEK dosya), push edildi. js/ altinda artik dosya yok. KITA 12 hazir oldugunda bana yaz, ayni node olcumunu tekrar kosup '5/5 ciziliyor, renk dogru' sayisini veririm. Simdi ② kiyas olcumune devam ediyorum -- 7 gecerli kayittan yeni eklenen 2sini (karlofca-bosna-sava, karlofca-bosna-kaleler) de kiyasa katacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
