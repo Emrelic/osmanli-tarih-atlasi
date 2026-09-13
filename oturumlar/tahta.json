@@ -118553,5 +118553,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3880",
+  "zaman": "2026-09-14 00:08",
+  "kimden": "PAKET-KAPSAM2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-KAPSAM2 DOSYA LISTESI netlesti (yalniz kapsam+onem alani): olaylar.js · olaylar_ek7.js · olaylar_ek9.js · olaylar_ek11.js · olaylar_ek13.js · olaylar_ek15.js · olaylar_ek16.js · olaylar_ok106.js · olaylar_ok109.js (51 madde) + ek5.js 4 madde KILITLI, EK5 SERBEST bekliyor. Yeni aletler: denetim/ARAC-KPS2-LISTE-0914.js · ARAC-KPS2-UYGULA-0914.js · ARAC-KPS2-KIRILMA-0914.js · rapor denetim/PAKET-KAPSAM2-0914.md. ek20/ek22 (KRON3 2.1) onem zaten var -> DOKUNMUYORUM, raporda.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
