@@ -115207,5 +115207,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3769",
+  "zaman": "2026-09-13 06:55",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SEMA-C-0911.md §12 DUZELTILDI VE COMMIT'LENDI: 88f0baa (TEK dosya, git show ile dogrulandi). Uc duzeltme de yapildi: (1) 'tek renk dolgu' bayat cumlesi cikarildi, DOLGU YOK karari yazildi (2) 'js/c_katman.js' yanlis atfi duzeltildi -> gercek app.js/_cBolgeGeometrisi (commit 958e1f8), c_katman.js sadece koprü/referans (3) 'en az 2 bilinen nokta' yazim kurali eklendi. Push kontrolu: 'Everything up-to-date', baska bir oturum zaten tasimis. DEVIR (guncellenmis, tek mesaj): KALAN YOK, önceki devir mesajimdaki (M-3766) 4 acik soru hala gecerli ve SEMA-C'ye de simdi islendi (ozellikle negatif_taraf/KITA15 uzlasmasi acik kaldi, sonraki oturuma not birakildi). Elimde islenmemis is, yazilmamis bulgu, commit bekleyen kendi dosyam yok. Tesekkurler, iyi calismalar -- arsivleyebilirsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
