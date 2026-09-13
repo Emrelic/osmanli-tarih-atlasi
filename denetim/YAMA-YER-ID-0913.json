@@ -5,11 +5,17 @@
   "benim_olcumum": "iki bagimsiz yontemle: TOPLAM 6106-6166 madde, EKSIK 88 (%1,4) -- 8.6 kat fark",
   "durum": "1.MURAT'a M-3668 ile BEKLETMEDEN bildirildi, cevap bekleniyor. Asagidaki yama BENIM olctugum 88 kayit uzerine kuruludur; 755 sayisi farkli bir olcut/kapsamdan geliyorsa (orn. arsiv dosyalari, veya 'yer: metni de bos' gibi daha genis bir tanim) ayrica genisletilmesi gerekir."
  },
- "onemli_mimari_bulgu": "yer_id, js/app.js:7145-7150'de YALNIZ `sehirler` dizisine (data/sehirler.js, 79 kart) bakarak cozuluyor -- data/yerlesimler*.js'in 3833 noktasina DEGIL. Yani yer_id eklemek, o yer sehirler.js'de bir KART olarak yoksa ISE YARAMAZ. 88 kaydin `yer:` metinlerinden yalniz 'Belgrad' ve 'Sofya' zaten sehirler.js'de kart olarak var; geri kalani (Viyana, Budapeşte, Kasimov, Honolulu, Kabil, Hive, Buhara ... hicbiri) YOK. Bu yuzden asagidaki oneriler yer_id DEGIL, dogrudan calisan yer_kon:[lat,lon] cifti olarak verildi -- sehirler.js'e bagli degil, hemen uygulanabilir.",
+ "onemli_mimari_bulgu": "🔴 DUZELTME (KITA 12'nin M-mesaji uzerine, asagidaki kita12_duzeltmesi'ne bak) -- ASAGIDAKI CUMLE YANLISTI: 'yer_id YALNIZ sehirler.js'in 79 kartina bakar.' GERCEK: js/app.js:2168-2211 -- `sehirler` degiskeni `ISARET_KAYNAK`tan gelir, ve `ISARET_KAYNAK = window.YERLESIMLER.filter(y => (y.d&&y.d.length)||(y.v&&y.v.length)||(y.s&&y.s.length))` -- yani YERLESIMLER'in TAMAMINA (en az bir sahiplik donemi olan ~955-3833 nokta) bakiyor, sehirler.js'e (79 kart, yalniz YERLESIMLER hic yuklenmemisse fallback) DEGIL. `olayKonumu()` (app.js:7145-7150) bu genis kumeye karsi TAM ESLESME ariyor (normalize ETMIYOR). Asagidaki 20 'yer_kon onerisi' hala GECERLI VE CALISIR (yer_kon yer_id'den ONCE kontrol ediliyor) ama bazilari icin dogrudan yer_id de calisirdi -- ozellikle 'Kasimov' ve 'Wellington' yerlesimler.js'de TAM ADIYLA VE DOLU sahiplik donemiyle zaten kayitli (dogrulandi). Geri kalan 18 aday (Tilsit/Kirman/Honolulu/Nukualofa/Tuva/Kabil/Hive/Buhara/Viyana/Budapeşte...) yerlesimler.js'de bu tam yaziliste YOK -- onlar icin yer_kon hala DOGRU cozum.",
+ "kita12_duzeltmesi": {
+  "① darfur": "olaylar_ek15.js t:1400-01-01 VE t:1695-01-01 -- yer_id:\"Dârfûr\" (aksanli) ama yerlesimler.js:1206'daki nokta ad:\"Darfur\" (ASCII) -- TAM ESLESME arandigi icin odak calismiyordu. YAMA: iki kayitta da yer_id \"Dârfûr\" -> \"Darfur\" olarak duzeltilecek (asagida kayitlar'a eklendi, dosya KITA 14'un).",
+  "② ogaden": "kronoloji_dogu_afrika.js t:1897-01-01 -- yer_id:\"Ogaden\" zaten YAZILI (benim 88'lik 'eksik' listemde YOK, cunku alan bos degil) ama Ogaden kasitli sahipsiz dolgu noktasi (bos:\"kabile\"), hic donem penceresi yok -- ISARET_KAYNAK filtresi (d/v/s bos) onu disliyor. KITA 12: KUSUR DEGIL, TASARIM GEREGI -- yamaya konmuyor, sadece kayda geciyor.",
+  "genel_ders": "yer_id onerirken normalize edilmis (aksansiz/kucuk harf) esleseme YETMEZ -- yerlesimler.js `ad:` alanina TAM (aksan dahil) esleşme sinanmali, cunku arayuz oyle ariyor (app.js:7150, `ad === o.yer_id`)."
+ },
  "kova_sayilari": {
   "zaten-dogru": 54,
   "tek-yer-yerkon-onerisi": 20,
-  "cok-yer-kapsamgenis-onerisi": 14
+  "cok-yer-kapsamgenis-onerisi": 14,
+  "yer-id-yaziim-duzeltmesi": 2
  },
  "kasim_hanligi_ornegi": {
   "kunye": "devletler.js id:kasim, ad:'Kasım Hanlığı (Kasimov)', f:1452-01-01, t:1681-01-01, baskent:Kasimov -- KUNYE ZATEN VAR VE DOGRU.",
@@ -1023,6 +1029,30 @@
     "kapsam_genis": true
    },
    "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek15.js",
+   "t": "1400-01-01",
+   "b": "Dârfûr'da Dâcû hâkimiyetinin Tuncûrlar'a geçmesi",
+   "yer": "Dârfûr",
+   "kova": "yer-id-yaziim-duzeltmesi",
+   "oneri": {
+    "yer_id_eski": "Dârfûr",
+    "yer_id_yeni": "Darfur"
+   },
+   "gerekce": "KITA 12 bulgusu: yerlesimler.js:1206'daki nokta ad:\"Darfur\" (ASCII); yer_id \"Dârfûr\" (aksanli) TAM ESLESMIYOR, odak calismiyordu. TEK KARAKTER-SETI duzeltmesi, yeni veri gerekmiyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek15.js",
+   "t": "1695-01-01",
+   "b": "Dârfûr Sultanlığı'nın kuruluşu — Keyra hânedanı ve Süleyman Solonc",
+   "yer": "Dârfûr",
+   "kova": "yer-id-yaziim-duzeltmesi",
+   "oneri": {
+    "yer_id_eski": "Dârfûr",
+    "yer_id_yeni": "Darfur"
+   },
+   "gerekce": "Ayni duzeltme, ayni dosyanin ikinci Darfur maddesi."
   }
  ]
 }
