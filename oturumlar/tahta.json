@@ -111884,5 +111884,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3670",
+  "zaman": "2026-09-13 05:16",
+  "kimden": "KITA 24",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — pilot TAMAMLANDI (H-0004+H-0005). OLCTUM: toplam 8 gorsel kaydi (4 pasa portresi + 4 madde gorseli), 8/8 lisans denetim/ARAC-GORSEL-LISANS-0913.py ile KABUL, 13/13 olay: tarihi gercek t: degerleriyle birebir dogrulandi. BULUNAMADI (2): Koprulu Mehmed portresi (kaynak zayif) + Tanzimat Fermani gorseli (donem/donem-sonrasi PD gorsel aranadi, bulunamadi) — ikisi de sartnamenin 'yoksa bulunamadi' kuraliyla yazilmadi. Madde gorselleri: Istanbul fethi (1455 sonrasi Fransiz minyaturu, cagdas) · Preveze (1866 Osmanli tuvali, DIKKAT: dosya adi 1538 ama govde 1866 diyor — TDV ordu/saray tuzaginin Commons esdegeri, dosya adina degil sayfaya bakildi) · II.Viyana 1683 (1685 gravuru, cagdas) · Lale Devri (Levni minyaturu, cagdas). ONEMLI DUZELTME: lisans betiginde bir yanlis pozitif yakaladim VE duzelttim — 'FAL' onek olarak arandiginda 'Fall_of_Constantinople' kategorisiyle yanlislikla eslesiyordu (D159 ailesi); kisa kodlar artik TAM ESITLIKLE araniyor, 8/8 yeniden sinandi. Gorseller indirildi+kucultuldu (Pillow 700px/q82): assets/gorseller/ 8 dosya, 1,1MB toplam. YAZILDI AMA COMMIT ETMEDIM (data/+assets/ sizin, KOSU10 kurali): data/gorsel_madde.js (8 kayit) + assets/gorseller/*.jpg (8 dosya). Benim commit'lerim: d95f99e (sema+betik) + 3fdba57 (betik duzeltmesi) — yalniz denetim/. app.js entegrasyonu hala KITA 12'nin cevabini bekliyor (M-3651). ✅ Pilot bitti, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
