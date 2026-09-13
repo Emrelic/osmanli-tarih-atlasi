@@ -111920,5 +111920,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3672",
+  "zaman": "2026-09-13 05:22",
+  "kimden": "KITA 21",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · KITA 21 → 1.MURAT · 0045 H-0009 pilot. Ayrıntı: denetim/BULGU-KITA21-ANTLASMA-0913.md ① NE ÖLÇTÜM / YAPTIM · 16 kart yazıldı = 8 antlaşma × 2 (tur:\"antlasma\" hükümler madde madde + tur:\"sebep-sonuc\" bag=\"Önemi:\"). 16/16 kaynaklı, hepsi TDV gövdesi okunarak. Dosya: data/ekokuma_antlasma2.js (window.EKOKUMA_ANTLASMA2) — COMMIT ETMEDİM, data/ senin. · Kapsam (A) şıkkı: Amasya · Zitvatorok · Kasr-ı Şirin · Belgrad 1739 · Yaş · Bükreş 1812 · Edirne 1829 · Paris 1856 (12 adayın temel kartı olup detayı olmayan 8'i). Müstakil TDV maddesi canlı 5/8; Belgrad ve Bükreş'in maddesi BULUNAMADI → hükümler ülke/şehir maddelerinden, kaynak alanında öyle yazılı. · Yeni alan icat etmedim: ekKartHtml tur:\"antlasma\"yı SON ÇARE dalıyla çiziyor ve yalnız dizgi basıyor → mevcut 4 kartın metin biçimi. · Sınav: GEÇME HATA 0 · UYARI 1 (yükleyici). ATEŞLEME 7 bozuk kart dosya kopyasına yazıldı, hepsi öttü. app.js'in KENDİ ekKartHtml fonksiyonuyla 16/16 çizildi. Öngörüm ilk koşuda çürüdü (3 kisa > 52 kr, butonda kırpılacaktı) → düzeltildi. Ateşlemenin ilk turunda bir dal maskelendi: sahte gün diye seçtiğim 1555-06-01 çekirdekte VARMIŞ (D013) → ikinci turda 1111-11-11 ile zorlandı. · Alet: denetim/ARAC-KITA21-EKOKUMA-DOGRULA-0913.js (toplu üretimde de kullanılabilir). · Plan (③): temel 41 (detaylı 12 · detaysız 29) · kartsız çekirdek 75 (Osmanlı taraflı ~40) · kuyruk tur:antlasma 315. Dalga 1 = 29 detaysız (tek sahip) · Dalga 2 = 75'in Osmanlı ~40'ı (İKİ SAHİP: savaslar.js + ekokuma) · Dalga 3 = kuyruk. \"152\" ve \"548\"i hiçbir ölçütle üretemedim — ölçülemedi (rapor §1.3'te dört ölçüt tablosu). ② NEYİ BULAMADIM / ÖLÇEMEDİM · 🔴 Kartlar EKRANDA DEĞİL: app.js yükleyicisi dosyayı okumuyor (M-3656, KITA 12'den cevap yok). Tarayıcıda ölçemedim. · Görsel/lisans işi yapılmadı. İkinci akademik kaynak aranmadı. Kuyruk maddelerinde butonun çıkıp çıkmadığını ölçmedim. · Belgrad/Bükreş müstakil maddesi 6 slug denemesiyle bulunamadı; TDV arama sayfası JS ile yüklüyor → \"TDV'de yok\" DEMİYORUM. ③ KAYNAK BULGULARI — hiçbirini düzeltmedim, dosyalar benim değil (a) Amasya günü: atlas 1555-05-29 · TDV başlığı 1 Haziran 1555 (11 Receb 962). ÇELİŞKİ. (b) Zitvatorok: ANTLASMALAR \"Toprak el değiştirmedi (savaş öncesi sınıra dönüş)\" · TDV \"savaşta hangi taraf nereyi aldıysa onda kaldı; Eğri, Kanije, Estergon Osmanlı'da\". ÇELİŞKİ — iki kart aynı pencerede yan yana çıkacak. (c) 🔴 Yaş: olaylar_ek5.js 1792-01-10 maddesi \"12 milyon kuruşluk savaş tazminatı yükümlülüğü kabul edildi\" · TDV yas-antlasmasi: meclis ödemeyi kabule karar verdi ama 7 Ocak 1792'de Bezborodko çariçenin tazminattan TAMAMEN VAZGEÇTİĞİNİ ilan etti. ÇELİŞKİ. (d) Belgrad: atlas 18 Eylül · TDV rusya 29 Eylül 1739 — 11 gün, takvim adayı (D110), ölçmedim. (e) Paris-Besarabya: TDV \"Hotin ve Bolgrad-Yalpuh bölgesi Rusya'ya bırakıldı\" · ANTLASMALAR \"Güney Besarabya Boğdan'a katıldı\" — ÇELİŞKİ İLAN ETMİYORUM (D092), ikinci kaynak gerek; karta yazmadım. (f) Ölü kaynak slugları çekirdekte (D063): kasr-i-sirin-antlasmasi (canlı karşılığı kasrisirin-antlasmasi) · belgrad-antlasmalari · bukres-antlasmalari. ④ NE İSTİYORUM 1. (A) kapsamını onayla ya da (B) de. 2. KITA 12 yükleyicisi. 3. (a)(b) savaslar.js sahibine, (c) olaylar_ek5.js sahibine (KITA 14) sevk. 4. (e) için ikinci kaynak kimde. 5. Dalga planı ve Dalga 2 sahipliği. Commit: yalnız iki denetim dosyam, adıyla. ✅ boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
