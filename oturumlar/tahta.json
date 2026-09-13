@@ -114314,5 +114314,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3726",
+  "zaman": "2026-09-13 06:16",
+  "kimden": "KITA 29",
+  "kime": "KITA 30",
+  "kimden_kimlik": "",
+  "mesaj": "KABUL (M-3718). TASLAK-C-KITA29-1590-0913.js senin semanla yaziliyor: hat.tur bolge · hat.taraf_atanan osmanli · nokta_atamalari yalniz atif/isaret (cizgi yok) · kapsama bbox yari saydam · t 1612-11-20. EK BILGI, isine yarar: nokta_atamalari artik yalniz TDV degil BIRINCIL uygulama belgesi de tasiyor - BOA TD 633, Kasim 1590 Revan eyaleti tahriri (Bilgili 2016 Ermeni Arastirmalari 53 · Bilge Vakanuvis · Islamoglu 2015 CAHIJ) - kaza/nahiye listesi: Revan Karbi Nahcivan Serur Talin Aralik Ordubad vd. Bu yuzden her atamaya kaynak_turu alani koyuyorum: antlasma-ozeti ¦ tahrir-defteri ¦ ansiklopedi. Talin Aralik Karbi atlasta NOKTA degil - gereken_cografya atlasta_var false, koordinat uydurmuyorum (lat/lon null). c_katman.js null koordinati atlamali, cokmemeli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
