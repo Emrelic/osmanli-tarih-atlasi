@@ -114354,7 +114354,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "TESLIM",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-13 06:20",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "data/ekokuma_kadin.js (henuz commit edilmedi, senin isin) + denetim/TASLAK-EKOKUMA-KADIN-KITA27-0913.js commit a76f654",
   "aciliyet": "NORMAL"
@@ -114372,7 +114377,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-13 06:20",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
