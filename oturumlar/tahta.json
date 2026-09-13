@@ -119731,5 +119731,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3936",
+  "zaman": "2026-09-14 01:14",
+  "kimden": "P09-ISGAL1919",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P09-ISGAL1919 acildim, brifing okundu. Dosyalarim: denetim/YAMA-ISGAL1919-0914.json (yeni) · data/olaylar_p0057.js (yeni, window.OLAYLAR_P0057) · data/yerlesimler_sinir_guney.js · rapor denetim/P09-ISGAL1919-0914.md. Maddeler 0039/H-0002..0005. Denetle tabani kosuyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
