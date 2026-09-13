@@ -1087,6 +1087,29 @@ def main():
                                   "%s tarar — %s" % (_uyg, _ac)))
             break      # bir kanıt yeter; ikisi de aynı aileyi tarıyor
 
+    # 🟢 13 EYLÜL 2026 — DİNAMİK YÜKLENEN EK OKUMA DOSYALARI (KANITA BAĞLI)
+    #   `js/app.js` ek okuma dosyalarını <script> ile değil, çalışma anında
+    #   `_EKOKUMA_DOSYA_ADLARI` dizisinden yükler: "data/" + ad + ".js".
+    #   Bu dosyalar index.html'de YOK ama kullanıcı onları GÖRÜR.
+    #   ⚠️ DESEN DEĞİL, DOSYA DOSYA KANIT: muafiyet yalnız (a) dizi app.js'te
+    #     okunabiliyor, (b) yol kurucusu `"data/" + ad + ".js"` app.js'te
+    #     geçiyor, (c) dosyanın adı dizide TIRNAK İÇİNDE geçiyorsa verilir.
+    #     Dizi silinirse ya da ad çıkarılırsa dosya yeniden YETİM öter.
+    #   ⚠️ `_dinamik_topluyor` BU İŞİ YAPMAZ — o yalnız §40 uyarısında.
+    #     (13 Eylül'de koordinatör öyle sandı, KITA 20 ölçüp çürüttü.)
+    _DINAMIK_ADLAR = set()
+    try:
+        _app = io.open(os.path.join(KOK, "js", "app.js"), encoding="utf-8",
+                       errors="replace").read()
+        _dz = re.search(r"_EKOKUMA_DOSYA_ADLARI\s*=\s*\[(.*?)\];", _app, re.S)
+        if _dz and re.search(r'"data/"\s*\+\s*ad\s*\+\s*"\.js"', _app):
+            _govde = re.sub(r"//[^\n]*", "", _dz.group(1))
+            _DINAMIK_ADLAR = {"data/%s.js" % a
+                              for a in re.findall(r'"([a-z0-9_]+)"', _govde)}
+    except Exception:
+        _DINAMIK_ADLAR = set()
+    dinamik_bulunan = []
+
     diskte, kayitsiz, bekleyen_bulunan, emekli_bulunan = [], [], [], []
     ara_bulunan = []
     veri_dizini = os.path.join(KOK, "data")
@@ -1106,6 +1129,8 @@ def main():
                 ara_bulunan.append(yol)
             elif any(rx.match(yol) for rx, _ in _ARA_DESENLER):
                 ara_bulunan.append(yol)
+            elif yol in _DINAMIK_ADLAR:
+                dinamik_bulunan.append(yol)
             else:
                 kayitsiz.append(yol)
 
@@ -1114,6 +1139,10 @@ def main():
           % (durum4, len(kayitsiz), len(diskte)))
     for y in kayitsiz:
         print("     %s   ← yayında yüklenmez; denetle.py sayar, kullanıcı görmez" % y)
+    if dinamik_bulunan:
+        print("  i %d dosya app.js _EKOKUMA_DOSYA_ADLARI ile ÇALIŞMA ANINDA yükleniyor"
+              " (adıyla, kanıtlı): %s" % (len(dinamik_bulunan),
+              " · ".join(y[5:-3] for y in dinamik_bulunan)))
     if kayitsiz:
         print("     → ya index.html'e <script> satırı, ya girdi.py izin listesine,")
         print("       ya BEKLEYEN sözlüğüne gerekçesiyle, ya arsiv/ altına")
