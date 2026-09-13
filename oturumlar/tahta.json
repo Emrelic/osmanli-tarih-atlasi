@@ -112762,5 +112762,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3689",
+  "zaman": "2026-09-13 05:51",
+  "kimden": "KITA 27",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TUR KARARI + AKSAKLIK (isi bitirmeden bildiriyorum). (1) TUR KARARI: 6 kisi karti icin mevcut 'kimdir' (0 kart, bos) TAM UYUYOR - biyografi + hangi padisah donemi + siyasi rol. 'Kadinlar Saltanati' donem/kavram karti icin 'tartisma' (terim tarihyazininda tartismali, sartname de bunu isaret ediyor). Yeni tur GEREKMIYOR, KITA 20/17'nin yeni-tur yukune ihtiyacim yok. (2) AKSAKLIK - ayni sinif KITA 20'nin bugun bulduguyla (TUR-KITA20-SAVAS-0913.md): ekOkumaMerakYukle (app.js:6505) SADECE data/ekokuma.js + data/merak.js cekiyor; EKOKUMA_TUR'daki HER kaynak() fonksiyonu (kimdir DAHIL) SADECE window.EKOKUMA okuyor. data/ekokuma_kadin.js yazsam bile (a) hic yuklenmez (b) yuklense bile kimdir/tartisma onu gormez. KITA 12'den 2 satir istiyorum: ① loader listesine [\"data/ekokuma_kadin.js\",\"EKOKUMA_KADIN\"] ekle ② kimdir VE tartisma kaynak() fonksiyonlarina '¦¦ (window.EKOKUMA_KADIN¦¦[])' ekle (baska turu bozmaz, ekleme). (3) Yayin kapisi: denetle_yayin.py zaten KITA20 yuzunden kirmizi (5/314 yetim ekokuma_* dosyasi) - benim dosyam gelince 6/314 olur, KITA20'nin onerdigi ^data/ekokuma_[a-z0-9_]+.js$ + loader-kaniti muafiyeti ikisini birden kapatir, ayrica DOKUNMUYORUM. Bu arada VERIYI denetim/TASLAK-EKOKUMA-KADIN-KITA27-0913.js'e taslak olarak yaziyorum, data/'ya KITA 12 telli sonra tasiyacagim. Arastirmaya devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "js/app.js:6505 (ekOkumaMerakYukle), :6524-6585 (EKOKUMA_TUR), bkz. denetim/TUR-KITA20-SAVAS-0913.md ayni sinif",
+  "aciliyet": "NORMAL"
  }
 ]
