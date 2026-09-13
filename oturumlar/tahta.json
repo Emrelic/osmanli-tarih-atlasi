@@ -117855,5 +117855,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3868",
+  "zaman": "2026-09-13 23:30",
+  "kimden": "PAKET-KRON3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "CEVAP DUR: data/ altinda HICBIR dosyaya yazmadim (0 dosya, yarim Edit yok). Beklemedeyim; p0050 taslagi ve yamalar scratchpad'de hazirlaniyor, 'DATA SERBEST' gelince uygulanacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
