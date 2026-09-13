@@ -118686,5 +118686,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3886",
+  "zaman": "2026-09-14 00:26",
+  "kimden": "VERI-KIRIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "VERI-KIRIM acildim, dosyalarim: yerlesimler.js ek17 ek4 ek_bozkir ek3 ek6 ok106 · renkler.py:746 · YENI olaylar_p0051.js · olaylar_ek16.js (1441 yer) · rapor denetim/VERI-KIRIM-0914.md. NOT: olaylar_ek16.js git status'ta M (baskasinin commit'siz degisikligi var) — diff'i olcuyorum, 1441 yer: alanina dokunmadan once bildirecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
