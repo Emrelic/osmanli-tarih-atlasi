@@ -351,6 +351,135 @@ window.HUKUKI_SINIRLAR = [
     guvenilirlik_notu: "Aynı barındırma-platformu uyarısı karlofca-bosna-una-1699'da da var — DAHA SAĞLAM bir akademik kaynakla teyit edilmeli." },
   kaynak_ikincil: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca",
     not: "TDV'nin kendi listesi (Bihke, Novi, Krupa vb.) burada KULLANILMADI — birincil metinle çelişiyordu, M-3329 kuralı birincili esas aldı." }
+},
+
+{
+  // 🆕 SEKİZİNCİ KAYIT — KITA 29'un ürettiği (denetim/TASLAK-C-KITA29-
+  // 1590-0913.js), KITA 30 tarafından SINANARAK taşındı (13 Eylül 2026).
+  // 1.MURAT kararı: t (fiilî) 1603-10-21, t_hukuki (ayrı alan) 1612-11-20
+  // — kayıt zaten bu değerlerle geliyordu, değişiklik gerekmedi. Taraf
+  // id'leri (osmanli özel durum, safevi f:1501-07-01/t:1736-03-08)
+  // KITA 30 tarafından BAĞIMSIZ doğrulandı.
+  id: "ferhad-pasa-istanbul-1590",
+  taraflar: ["osmanli", "safevi"],
+
+  hassasiyet: "bolge",
+  hassasiyet_notu: "ANTLAŞMA bir ÇİZGİ çizmiyor ve bir YER LİSTESİ vermiyor: ilke STATÜKO ('fethedilen ülkeler Osmanlı'da kalır') + BÖLGE adları. Aşağıdaki nokta_atamalari'nın bir kısmı antlaşmadan DEĞİL, antlaşmanın UYGULAMA belgesinden (Kasım 1590 Revan tahriri, BOA TD 633) gelir — o atamalar 'yer' düzeyindedir. İkisi karışmasın diye her atamada kaynak_turu alanı var.",
+
+  f: "1590-03-21",
+  f_kaynak: "Adlığ 2026 [298]: '21 Mart 1590 tarihinde Osmanlı ve Safevî Devletleri arasında İstanbul Antlaşması veya Ferhad Paşa Antlaşması olarak adlandırılan antlaşma imzalanmıştır.' · atlas maddesi olaylar_ek2.js t:1590-03-21",
+
+  t: "1603-10-21",
+  t_kaynak: "TDV tebriz [58]: 'Osmanlılar 21 Ekim 1603 tarihine kadar Tebriz'i kontrolleri altında tuttular.' — antlaşmanın tarif ettiği TASARRUFUN ilk fiilî kırılması.",
+  t_hukuki: "1612-11-20",
+  t_hukuki_kaynak: "TDV nasuh-pasa [73]: '26 Ramazan 1021'de (20 Kasım 1612) 962 (1555) sulhu esas alınmak suretiyle barış yapıldı.'",
+  t_secim_gerekcesi: "Kayıt t_hukuki'ye kadar açık kalırsa 1603-1607'de Şah Abbas'ın geri aldığı HER yerde (Tebriz 1603-10-21 · Revan 1604-06-08 · Gence 1606 · Şirvan 1607) belgeli Osmanlı işareti kalır — belgenin eliyle üretilmiş bir Batnoz hayaleti (CLAUDE.md §3.5). Atlas tasarruf boyar (D076). ⇒ Varsayılan t fiilî kırılma.",
+
+  ilke: {
+    tur: "statuko",
+    alinti_1: "TDV murad-iii [115]: 'Şah Abbas, Haydar Mirza'yı kalabalık bir elçilik heyetiyle İstanbul'a gönderdi (11 Rebîülevvel 998 / 18 Ocak 1590) ve fethedilen ülkelerin Osmanlılar'ın tasarrufunda kalması şartıyla anlaşma yapıldı.'",
+    alinti_2: "Adlığ 2026 [299]: 'Antlaşmaya göre, her iki devletin ele geçirdiği yerler kendilerinde kalacaktır.'",
+    sonuc: "İki bağımsız kaynak aynı ilkeyi veriyor. ⇒ Belgenin sınırı, 1590-03-21'deki FİİLÎ fetih hattıdır; o hattı belge değil fetih kayıtları tarif eder."
+  },
+
+  hat: {
+    tur: "bolge",
+    taraf_atanan: "osmanli",
+    bolgeler: [
+      "Azerbaycan", "Gürcistan", "Dağıstan", "Şirvan", "Karabağ", "Gence",
+      "Bağdat", "Luristan", "Kürdistan", "Tebriz", "Karacadağ", "Nihâvend", "Şehrizor"
+    ],
+    bolgeler_kaynak: "TDV safeviler [211]: '998'de (1590) İstanbul'da imzalanan Ferhad Paşa antlaşmasıyla Azerbaycan, Gürcistan, Dağıstan, Şirvan, Karabağ, Gence, Bağdat, Luristan, Kürdistan, Tebriz, Karacadağ, Nihâvend, Şehrizor bölgeleri Osmanlı hâkimiyetine girdi.'",
+    bolgeler_uyari: "🔴 Bölge adları sınır DEĞİLDİR — bir kutu/poligon ÜRETİLMEZ (D089). 'bolge' türü DOLGU ÜRETMEZ (bkz. denetim/ARAC-KITA30-CKATMAN-KOPRU-0913.js düzeltmesi, M-3742), yalnız nokta_atamalari çizilir.",
+    // 🔴 DÜZELTME (KITA 30, aynı gün) — KITA 29'un taslağı nokta_atamalari'nı
+    // `hat`in DIŞINA (kayıt kök seviyesine) koymuştu; render kodu
+    // (`_cNoktaKumesiOzellikleri`) `kayit.hat.nokta_atamalari`ya bakıyor —
+    // burada TAŞINARAK düzeltildi (KITA 15'in doğrulama aracı 0 nokta
+    // gösterip bunu YAKALADI, bkz. denetim/OLCUM-KITA30-FERHATPASA-TASI-0913.md).
+    nokta_atamalari: [
+    { ad: "Tebriz", lat: 38.0800, lon: 46.2920, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV tebriz [53-54]: 'Özdemiroğlu Osman Paşa 30 Ramazan 993'te (25 Eylül 1585) şehri ele geçirdi'" },
+    { ad: "Revan", lat: 40.1830, lon: 44.5150, taraf: "osmanli", guven: "kesin", kaynak_turu: "tahrir-defteri",
+      kaynak: "BOA TD 633 (Kasım 1590) — Bilgili 2016 [52] · Adlığ 2026 [306] · TDV revan [42]" },
+    { ad: "Nahçıvan", lat: 39.2090, lon: 45.4120, taraf: "osmanli", guven: "kesin", kaynak_turu: "tahrir-defteri",
+      kaynak: "BOA TD 633 — Bilge (Vakanüvis, Kafkasya özel sayısı) [55]" },
+    { ad: "Ordubad", lat: 38.9053, lon: 46.0242, taraf: "osmanli", guven: "kesin", kaynak_turu: "tahrir-defteri",
+      kaynak: "BOA TD 633 — Bilgili 2016 [52] · İslamoğlu 2015, CAHIJ 4, s.132-166" },
+    { ad: "Şerur (Sharur)", lat: 39.5500, lon: 44.9500, taraf: "osmanli", guven: "kesin", kaynak_turu: "tahrir-defteri",
+      kaynak: "BOA TD 633 — Bilgili 2016 [52] liste · [85] 'Şerur Kazası'", not: "atlas bugün safevi — YAMA-KITA29 A2" },
+    { ad: "Karbi (Karpi) nahiyesi", lat: null, lon: null, taraf: "osmanli", guven: "kesin", kaynak_turu: "tahrir-defteri",
+      kaynak: "BOA TD 633 — Bilgili 2016 [52]", not: "atlasta nokta YOK, koordinat null (uydurulmadı) — çizilmez" },
+    { ad: "Eçmiyadzin (Üçkilise)", lat: 40.1620, lon: 44.2930, taraf: "osmanli", guven: "cikarim-guclu", kaynak_turu: "tahrir-defteri+idari-uyelik",
+      kaynak: "Karbi nahiyesi 1590 Osmanlı tahririnde (TD 633) · köyün Karbi'ye bağlılığı 1724/1727 belgelerinden (Köse 2024)",
+      not: "atlas bugün safevi — YAMA-KITA29 B1 (karar)" },
+    { ad: "Talin", lat: null, lon: null, taraf: "osmanli", guven: "kesin", kaynak_turu: "tahrir-defteri",
+      kaynak: "BOA TD 633 — Bilgili 2016 [52][173]", not: "atlasta nokta YOK, koordinat null — çizilmez" },
+    { ad: "Aralık", lat: null, lon: null, taraf: "osmanli", guven: "kesin", kaynak_turu: "tahrir-defteri",
+      kaynak: "BOA TD 633 — Bilgili 2016 [52][164]", not: "atlasta nokta YOK, koordinat null — çizilmez" },
+    { ad: "Gence", lat: 40.6830, lon: 46.3600, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV murad-iii [114] · TDV safeviler [210]: '(1 Eylül 1588)'" },
+    { ad: "Hoy", lat: 38.5503, lon: 44.9521, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV hoy [24-25]" },
+    { ad: "Merâga", lat: 37.3894, lon: 46.2381, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV tebriz [184]" },
+    { ad: "Mîyandoab", lat: 36.9694, lon: 46.1028, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV tebriz [184] — Merâga livâsı altında 'Miyandûvab' nahiyesi (1593)" },
+    { ad: "Şamahı", lat: 40.6320, lon: 48.6410, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV sirvan [33-35]", not: "Şirvan bölgesinin merkezi olarak — bölge→nokta eşlemesi ÇIKARIMDIR" },
+    { ad: "Tiflis", lat: 41.7160, lon: 44.7830, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV gurcistan [417-418]: '1603'te Şah I. Abbas Tiflis şehrini Osmanlılar'dan geri alıp …'" },
+    { ad: "Luristan", lat: 33.4870, lon: 48.3560, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV luristan [35]" },
+    { ad: "Mâku", lat: 39.2942, lon: 44.5142, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
+      kaynak: "TDV maku [17]", not: "1590 KAZANCI DEĞİL, 1574'ten beri Osmanlı ocaklığı; statükoyla tescillendi — atlas bugün safevi, YAMA-KITA29 A1" }
+    ] // nokta_atamalari sonu
+  }, // hat sonu
+
+  acik_sorular: [
+    { ad: "Gümrü (Aleksandropol)", durum: "bulunamadi", not: "1590 Revan tahririnin listesinde Şüregel YOK (1727'de var) — iki yönlü işaret, hüküm yok." },
+    { ad: "Merend", durum: "bulunamadi", not: "Hiçbir okunan kaynak adıyla anmıyor." },
+    { ad: "Selmâs (Dilman)", durum: "cikarim-zayif", not: "Bir ÖNERİ belgesi var (kale inşası), sahiplik beyanı değil." },
+    { ad: "Erdebil · Kürdistan altılısı", durum: "olculmedi", not: "Bölge adlarının bu yerleri kapsayıp kapsamadığı hiçbir kaynakta yok." }
+  ],
+
+  gereken_cografya: [
+    { ad: "Karbi (Karpi)", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null },
+    { ad: "Talin", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null },
+    { ad: "Aralık (Ahuri)", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null },
+    { ad: "Revan", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js" },
+    { ad: "Nahçıvan", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js" },
+    { ad: "Ordubad", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js" },
+    { ad: "Şerur (Sharur)", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler_kalite4.js" },
+    { ad: "Eçmiyadzin", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler_ek26.js" },
+    { ad: "Mâku", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler.js" }
+  ],
+
+  kapsama: {
+    tur: "nokta-listesi",
+    sezgi_kapali: true,
+    not: "BBOX DOLGU YOK — KITA 29'un ölçümü (33-43K/41.5-50.5D kutusunda 123 noktanın 23'ü Osmanlı/tâbi DEĞİL) tek renk dolgunun yanlış boyayacağını gösterdi. Emsal: karlofca-lehistan-1699.",
+    odak_kutu: { lat_min: 33.0, lat_max: 43.0, lon_min: 41.5, lon_max: 50.5 },
+    odak_kutu_not: "YALNIZ kamera odağı için — boyama/dolgu için KULLANILMAZ."
+  },
+
+  kaynak: {
+    tur: "antlaşma özeti (ansiklopedi + hakemli makale)",
+    madde: "bulunamadı — antlaşmanın kendi metni/neşri OKUNMADI (TDV'de müstakil madde yok)",
+    alinti: "fethedilen ülkelerin Osmanlılar'ın tasarrufunda kalması şartıyla anlaşma yapıldı",
+    url: "https://islamansiklopedisi.org.tr/murad-iii"
+  },
+  kaynak_ikincil: {
+    tur: "hakemli makale + uygulama belgesi (tahrir) atıfları",
+    kaynaklar: [
+      "Davut Adlığ, 'Osmanlı-Safevî İlişkilerinde Revan Şehri...', Dicle Üniv. SBED 42 (2026), doi:10.15182/diclesosbed.1696513",
+      "Ali Sinan Bilgili, 'Osmanlı Tahrir Defterlerine Göre İran-Azerbaycan Şehirlerinde Ermeniler', Ermeni Araştırmaları 53 (2016)",
+      "Sadık Müfit Bilge, '16. ve 18. Yüzyıllarda Osmanlı Yönetiminde Nahçıvan Sancağı', Vakanüvis 2",
+      "Ensar Köse, 'Şah, Çar ve Sultan Arasında: Ermeni Kutsal Makamı Eçmiyadzin'in Çalkantılı Yılları (1700-1725)', Türkiyat Mecmuası 34/1 (2024), doi:10.26650/iuturkiyat.1351237",
+      "Mehmet Alauddin İslamoğlu, '1590 Tarihli Mufassal Tapu Tahrir Defterine Göre Revan Eyaletinde Alınan Vergiler', CAHIJ 4 (2015), doi:10.18299/cahij.50",
+      "Volkan Çeribaş, '1603-1618 Osmanlı-Safevi Savaşı Sırasında Serhadde Teyakkuz: Erzurum', Hazine-i Evrak 7/8 (2025)"
+    ],
+    not: "BOA TD 633'ün KENDİSİ okunmadı — atıflar makaleler üzerinden (D104)."
+  }
 }
 
 ];
