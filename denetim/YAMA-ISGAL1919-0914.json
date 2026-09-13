@@ -1,0 +1,374 @@
+{
+ "baslik": "YAMA-ISGAL1919-0914 — P09-ISGAL1919 'isg:' işgal taraması önerileri (14 Eylül 2026). HİÇBİRİ VERİYE YAZILMADI; data/yerlesimler.js KİLİTLİ (P02 inişlerinden sonra koordinatör uygular).",
+ "kural": "§4 ATLAS REFERANS DEĞİLDİR: her gün kaynağıyla yazıldı; komşu günü yalnız §4 şartlı serbestlikle ve kayıtta açıkça. eski = kaydın dosyadaki TAM metni (1 kez geçtiği ölçüldü); uygulayıcı düz metin değişimi yapar.",
+ "uretici": "denetim/ARAC-ISGAL1919-YAMA-0914.py",
+ "madde_dosyasi": "data/olaylar_p0057.js — her HAZIR kırılma gününün ±30 günde kaynaklı maddesi (Değişmez 2i)",
+ "gorsel_not": "arac/uret_devirler.py ISGALCI_AD yalnız ingiltere/avusturya içeriyor — yunanistan ve italya lejantta HAM KİMLİKLE ('yunanistan') basılır (1912 ada kayıtlarında da bugün böyle). Koordinatör dosyası; ölçülmedi, işaret.",
+ "sayim": {
+  "HAZIR_kayit": 13,
+  "HAZIR_isg_donemi": 15,
+  "KARAR": 14,
+  "BULUNAMADI_yerlesim": 28
+ },
+ "kalemler": [
+  {
+   "id": "ISG-01",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "İzmir",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"İzmir\", tur:\"liman\", lat:38.419, lon:27.129, g:2, k:2,\n    s:[{f:\"1281-01-01\",t:\"1329-01-01\",d:\"bizans\"},{f:\"1329-01-01\",t:\"1344-10-28\",d:\"aydin\"},{f:\"1344-10-28\",t:\"1402-07-28\",d:\"sovalye\"},{f:\"1402-07-28\",t:\"1415-06-01\",d:\"aydin\"},{f:\"1422-01-01\",t:\"1425-06-01\",d:\"aydin\"},{f:\"1919-05-15\",t:\"1922-09-09\",d:\"yunanistan\"},{f:\"1922-09-09\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}],\n    d:[{f:\"1415-06-01\",t:\"1422-01-01\"},{f:\"1425-06-01\",t:\"1919-05-15\",y:\"savas\"}] }",
+   "yeni": "{ ad:\"İzmir\", tur:\"liman\", lat:38.419, lon:27.129, g:2, k:2,\n    s:[{f:\"1281-01-01\",t:\"1329-01-01\",d:\"bizans\"},{f:\"1329-01-01\",t:\"1344-10-28\",d:\"aydin\"},{f:\"1344-10-28\",t:\"1402-07-28\",d:\"sovalye\"},{f:\"1402-07-28\",t:\"1415-06-01\",d:\"aydin\"},{f:\"1422-01-01\",t:\"1425-06-01\",d:\"aydin\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}],\n    d:[{f:\"1415-06-01\",t:\"1422-01-01\"},{f:\"1425-06-01\",t:\"1920-04-23\",y:\"savas\"}],\n    isg:[{f:\"1919-05-15\",t:\"1922-09-09\",d:\"yunanistan\",kaynak:\"TDV izmir — 15 Mayıs 1919'da başlayıp 9 Eylül 1922'ye kadar süren Yunan işgali\"}] }",
+   "kaynak": {
+    "izmir": "15 Mayıs 1919'da başlayıp 9 Eylül 1922'ye kadar süren Yunan işgali"
+   },
+   "not": "Veri Yunan işgalini s:yunanistan (DÜZ sahiplik) olarak yazıyordu — Emre'nin 'tarama ile gösterelim' isteği ve Sevr'in hiç yürürlüğe girmemesi gereği isg:'e çevrildi. Taban, bütün Batı Anadolu'daki atlas geleneğine hizalandı: d: 1920-04-23'e kadar, sonra s:tbmm-turkiye (1920-04-23 kırılmasının maddesi VAR: TBMM'nin açılışı). Kaldırılan kırılmalar: d 1919-05-15 kayıp · s 1922-09-09 tbmm başlangıcı."
+  },
+  {
+   "id": "ISG-02",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Aydın",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Aydın\", tur:\"sehir\", lat:37.845, lon:27.840, g:0, k:3, m:\"İzmir\",\n    s:[{f:\"1281-01-01\",t:\"1308-01-01\",d:\"bizans\"},{f:\"1308-01-01\",t:\"1344-10-28\",d:\"aydin\"},{f:\"1344-10-28\",t:\"1390-01-01\",d:\"sovalye\"},{f:\"1402-07-28\",t:\"1402-09-15\",d:\"timurlu\"},{f:\"1402-09-15\",t:\"1415-06-01\",d:\"aydin\"},{f:\"1422-01-01\",t:\"1425-06-01\",d:\"aydin\"},{f:\"1919-05-15\",t:\"1922-09-07\",d:\"yunanistan\"},{f:\"1922-09-07\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}],\n    d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1415-06-01\",t:\"1422-01-01\"},{f:\"1425-06-01\",t:\"1919-05-15\"}] }",
+   "yeni": "{ ad:\"Aydın\", tur:\"sehir\", lat:37.845, lon:27.840, g:0, k:3, m:\"İzmir\",\n    s:[{f:\"1281-01-01\",t:\"1308-01-01\",d:\"bizans\"},{f:\"1308-01-01\",t:\"1344-10-28\",d:\"aydin\"},{f:\"1344-10-28\",t:\"1390-01-01\",d:\"sovalye\"},{f:\"1402-07-28\",t:\"1402-09-15\",d:\"timurlu\"},{f:\"1402-09-15\",t:\"1415-06-01\",d:\"aydin\"},{f:\"1422-01-01\",t:\"1425-06-01\",d:\"aydin\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}],\n    d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1415-06-01\",t:\"1422-01-01\"},{f:\"1425-06-01\",t:\"1920-04-23\"}],\n    isg:[{f:\"1919-05-27\",t:\"1919-06-30\",d:\"yunanistan\",kaynak:\"TDV aydin — 27 Mayıs 1919'da Yunan işgaline uğradı; 30 Haziran'da kısa bir süre için kurtarıldı\"},{f:\"1919-07-04\",t:\"1922-09-07\",d:\"yunanistan\",kaynak:\"TDV aydin — 4 Temmuz'da yeniden işgal edildi; 7 Eylül 1922'de kurtarıldı\"}] }",
+   "kaynak": {
+    "aydin": "27 Mayıs 1919'da Yunan işgaline uğradı · 30 Haziran'da kısa bir süre için kurtarıldı · 4 Temmuz'da yeniden işgal edildi · 7 Eylül 1922'de kurtarıldı"
+   },
+   "not": "Veri Aydın'ı İzmir'le AYNI GÜN (1919-05-15) s:yunanistan gösteriyordu — TDV 27 Mayıs diyor (atlas günü kaynaksızdı, İzmir'den devralınmış). 30 Haziran–4 Temmuz 1919 arası taban d: Osmanlı (isg yok)."
+  },
+  {
+   "id": "ISG-03",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Manisa",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Manisa\", tur:\"sehir\", lat:38.614, lon:27.429, g:1, k:3, m:\"İzmir\", s:[{f:\"1281-01-01\",t:\"1313-01-01\",d:\"bizans\"},{f:\"1313-01-01\",t:\"1390-01-01\",d:\"saruhan\"},{f:\"1402-07-28\",t:\"1402-08-17\",d:\"timurlu\"},{f:\"1402-08-17\",t:\"1416-09-01\",d:\"saruhan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\",y:\"savas\"},{f:\"1416-09-01\",t:\"1920-04-23\"}] }",
+   "yeni": "{ ad:\"Manisa\", tur:\"sehir\", lat:38.614, lon:27.429, g:1, k:3, m:\"İzmir\", s:[{f:\"1281-01-01\",t:\"1313-01-01\",d:\"bizans\"},{f:\"1313-01-01\",t:\"1390-01-01\",d:\"saruhan\"},{f:\"1402-07-28\",t:\"1402-08-17\",d:\"timurlu\"},{f:\"1402-08-17\",t:\"1416-09-01\",d:\"saruhan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\",y:\"savas\"},{f:\"1416-09-01\",t:\"1920-04-23\"}],\n    isg:[{f:\"1919-05-26\",t:\"1922-09-09\",d:\"yunanistan\",kaynak:\"TDV manisa — Yunan kuvvetleri 26 Mayıs 1919'da şehre girdi · t KOMŞUDAN: İzmir 9 Eylül 1922 (TDV izmir)\"}] }",
+   "kaynak": {
+    "manisa": "Yunan kuvvetleri 26 Mayıs 1919'da şehre girdi · 1922 Eylülüne kadar Yunan işgalinde kaldı · çekilirken 5 Eylül'de şehri ateşe verdiler, yangın 8 Eylül'de söndü",
+    "izmir": "9 Eylül 1922'ye kadar süren Yunan işgali"
+   },
+   "not": "t: GÜN KOMŞUDAN (§4 şartlı): İzmir 1922-09-09 · TDV izmir. Şartlar: ① İzmir günü kendi kaynağında ② TDV manisa yalnız AY veriyor (Eylül 1922) ③ aynı takip harekâtı, 36 km ④ burada yazıldı. ⚠️ TDV manisa yangının 8 Eylül'de söndüğünü söylüyor — kurtuluş 8 Eylül de olabilir; koordinatör 1922-09-08'i seçerse fark 1 gün."
+  },
+  {
+   "id": "ISG-04",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Bursa",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Bursa\", tur:\"sehir\", lat:40.188, lon:29.061, g:3, k:1, s:[{f:\"1281-01-01\",t:\"1326-04-06\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1403-09-01\",d:\"isa-celebi\"},{f:\"1403-09-01\",t:\"1404-03-01\",d:\"mehmed-celebi\"},{f:\"1404-03-01\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"mehmed-celebi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1326-04-06\",t:\"1402-07-28\",y:\"kusatma\"},{f:\"1413-07-05\",t:\"1920-04-23\"}] }",
+   "yeni": "{ ad:\"Bursa\", tur:\"sehir\", lat:40.188, lon:29.061, g:3, k:1, s:[{f:\"1281-01-01\",t:\"1326-04-06\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1403-09-01\",d:\"isa-celebi\"},{f:\"1403-09-01\",t:\"1404-03-01\",d:\"mehmed-celebi\"},{f:\"1404-03-01\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"mehmed-celebi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1326-04-06\",t:\"1402-07-28\",y:\"kusatma\"},{f:\"1413-07-05\",t:\"1920-04-23\"}],\n    isg:[{f:\"1920-07-08\",t:\"1922-09-11\",d:\"yunanistan\",kaynak:\"TDV bursa — 8 Temmuz 1920'de Yunan işgaline uğradı, 10-11 Eylül 1922'de geri alındı\"}] }",
+   "kaynak": {
+    "bursa": "8 Temmuz 1920'de Yunan işgaline uğradı, 10-11 Eylül 1922'de geri alındı",
+    "milli-mucadele": "8 Temmuz'da Bursa'yı ele geçirdi"
+   },
+   "not": "t: TDV iki günlük aralık veriyor ('10-11 Eylül'); aralığın son günü yazıldı."
+  },
+  {
+   "id": "ISG-05",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Uşak",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Uşak\", tur:\"sehir\", lat:38.673, lon:29.406, g:0, k:4, m:\"Kütahya\",\n    s:[{f:\"1281-01-01\",t:\"1300-01-01\",d:\"selcuklu\"},{f:\"1300-01-01\",t:\"1390-01-01\",d:\"germiyan\"},{f:\"1402-07-28\",t:\"1429-02-01\",d:\"germiyan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1429-02-01\",t:\"1920-04-23\"}] }",
+   "yeni": "{ ad:\"Uşak\", tur:\"sehir\", lat:38.673, lon:29.406, g:0, k:4, m:\"Kütahya\",\n    s:[{f:\"1281-01-01\",t:\"1300-01-01\",d:\"selcuklu\"},{f:\"1300-01-01\",t:\"1390-01-01\",d:\"germiyan\"},{f:\"1402-07-28\",t:\"1429-02-01\",d:\"germiyan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1429-02-01\",t:\"1920-04-23\"}],\n    isg:[{f:\"1920-08-29\",t:\"1922-09-01\",d:\"yunanistan\",kaynak:\"TDV usak — 29 Ağustos 1920 Yunan işgali; 1 Eylül 1922'de işgalden kurtuldu\"}] }",
+   "kaynak": {
+    "usak": "Yunan kuvvetleri Uşak'ı işgal etti (29 Ağustos 1920) · Uşak 1 Eylül 1922'de işgalden kurtuldu",
+    "milli-mucadele": "29 Ağustos'ta Uşak'ı da işgal ettiler"
+   }
+  },
+  {
+   "id": "ISG-06",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Eskişehir",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Eskişehir\", tur:\"sehir\", lat:39.776, lon:30.520, g:1, k:3, m:\"Kütahya\", s:[{f:\"1281-01-01\",t:\"1288-01-01\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1403-09-01\",d:\"isa-celebi\"},{f:\"1403-09-01\",t:\"1404-03-01\",d:\"mehmed-celebi\"},{f:\"1404-03-01\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"mehmed-celebi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1288-01-01\",t:\"1402-07-28\",y:\"savas\"},{f:\"1413-07-05\",t:\"1920-04-23\"}] }",
+   "yeni": "{ ad:\"Eskişehir\", tur:\"sehir\", lat:39.776, lon:30.520, g:1, k:3, m:\"Kütahya\", s:[{f:\"1281-01-01\",t:\"1288-01-01\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1403-09-01\",d:\"isa-celebi\"},{f:\"1403-09-01\",t:\"1404-03-01\",d:\"mehmed-celebi\"},{f:\"1404-03-01\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"mehmed-celebi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1288-01-01\",t:\"1402-07-28\",y:\"savas\"},{f:\"1413-07-05\",t:\"1920-04-23\"}],\n    isg:[{f:\"1919-01-23\",t:\"1920-03-20\",d:\"ingiltere\",kaynak:\"TDV eskisehir — 23 Ocak 1919'da İngilizler tarafından işgal edildi; İngilizler 20 Mart 1920'de boşalttı\"},{f:\"1921-07-20\",t:\"1922-09-02\",d:\"yunanistan\",kaynak:\"TDV eskisehir — 20 Temmuz 1921'de Yunanlılar tarafından işgal edildi; kurtarıldı (2 Eylül 1922)\"}] }",
+   "kaynak": {
+    "eskisehir": "23 Ocak 1919'da Eskişehir İngilizler tarafından işgal edildi · İngilizler 20 Mart 1920'de Eskişehir'i boşalttılar · 20 Temmuz 1921'de Eskişehir Yunanlılar tarafından işgal edildi · kurtarıldı (2 Eylül 1922)"
+   },
+   "not": "İki ayrı işgalci: ingiltere (künye 1066→1923, renk VAR) ve yunanistan. 1920-04-23 öncesi taban d: Osmanlı, sonrası s:tbmm-turkiye — isg ikisinin de üstüne çizilir."
+  },
+  {
+   "id": "ISG-07",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Kütahya",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Kütahya\", tur:\"sehir\", lat:39.424, lon:29.983, g:1, k:2, s:[{f:\"1281-01-01\",t:\"1300-01-01\",d:\"selcuklu\"},{f:\"1300-01-01\",t:\"1381-01-01\",d:\"germiyan\"},{f:\"1402-07-28\",t:\"1402-09-15\",d:\"timurlu\"},{f:\"1402-09-15\",t:\"1429-02-01\",d:\"germiyan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1381-01-01\",t:\"1402-07-28\",y:\"antlasma\"},{f:\"1429-02-01\",t:\"1920-04-23\",y:\"antlasma\"}],\n    v:[{f:\"1833-02-02\",t:\"1833-06-30\",k:\"Mısır ordusu (işgal)\",statu:\"vassal\"}] }",
+   "yeni": "{ ad:\"Kütahya\", tur:\"sehir\", lat:39.424, lon:29.983, g:1, k:2, s:[{f:\"1281-01-01\",t:\"1300-01-01\",d:\"selcuklu\"},{f:\"1300-01-01\",t:\"1381-01-01\",d:\"germiyan\"},{f:\"1402-07-28\",t:\"1402-09-15\",d:\"timurlu\"},{f:\"1402-09-15\",t:\"1429-02-01\",d:\"germiyan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1381-01-01\",t:\"1402-07-28\",y:\"antlasma\"},{f:\"1429-02-01\",t:\"1920-04-23\",y:\"antlasma\"}],\n    v:[{f:\"1833-02-02\",t:\"1833-06-30\",k:\"Mısır ordusu (işgal)\",statu:\"vassal\"}],\n    isg:[{f:\"1921-07-21\",t:\"1922-08-30\",d:\"yunanistan\",kaynak:\"TDV kutahya — Yunan ordusu 21 Temmuz 1921'de girdi; 30 Ağustos günü bir süvari tümeni Kütahya'yı kurtardı\"}] }",
+   "kaynak": {
+    "kutahya": "Yunan ordusu 21 Temmuz 1921'de girdiği Kütahya'yı bir yıldan fazla işgal etti · 30 Ağustos günü bir süvari tümeni ... Kütahya'yı kurtardı"
+   }
+  },
+  {
+   "id": "ISG-08",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Bilecik",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Bilecik\", go:\"1400-01-01\", s:[{f:\"1281-01-01\",t:\"1299-01-01\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1403-09-01\",d:\"isa-celebi\"},{f:\"1403-09-01\",t:\"1404-03-01\",d:\"mehmed-celebi\"},{f:\"1404-03-01\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"mehmed-celebi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], tur:\"kale\", lat:40.142, lon:29.979, g:0, k:4, m:\"Bursa\", d:[{f:\"1299-01-01\",t:\"1402-07-28\",y:\"savas\"},{f:\"1413-07-05\",t:\"1920-04-23\"}] }",
+   "yeni": "{ ad:\"Bilecik\", go:\"1400-01-01\", s:[{f:\"1281-01-01\",t:\"1299-01-01\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1403-09-01\",d:\"isa-celebi\"},{f:\"1403-09-01\",t:\"1404-03-01\",d:\"mehmed-celebi\"},{f:\"1404-03-01\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"mehmed-celebi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], tur:\"kale\", lat:40.142, lon:29.979, g:0, k:4, m:\"Bursa\", d:[{f:\"1299-01-01\",t:\"1402-07-28\",y:\"savas\"},{f:\"1413-07-05\",t:\"1920-04-23\"}],\n    isg:[{f:\"1921-07-22\",t:\"1922-09-06\",d:\"yunanistan\",kaynak:\"TDV bilecik — 22 Temmuz'daki üçüncü işgal 6 Eylül 1922'ye kadar devam etti\"}] }",
+   "kaynak": {
+    "bilecik": "8 Ocak 1921'de şehir Yunan kuvvetleri tarafından işgal edildiyse de ... İkinci işgal 13 Temmuz'da oldu ve çok kısa sürdü; ancak hemen sonra 22 Temmuz'daki üçüncü işgal 6 Eylül 1922'ye kadar devam etti"
+   },
+   "not": "Yalnız ÜÇÜNCÜ işgal yazıldı. Birinci (8 Ocak 1921 → I. İnönü sonrası, çekilme günü YOK) ve ikinci (13 Temmuz, 'çok kısa', bitiş günü YOK) ölçülemedi. 🔴 TDV milli-mucadele ayrıca 23 Mart 1921'de Bilecik'in işgalini anıyor, TDV bilecik bu işgali SAYMIYOR — kaynaklar ayrışıyor (KARAR ISG-K05)."
+  },
+  {
+   "id": "ISG-09",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Karahisâr-ı Sâhib (Afyon)",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Karahisâr-ı Sâhib (Afyon)\",neden:\"pe0008/H-0001. Kayit `sahibata 1281-01-01 → 1341-01-01` TEK BLOKTU; notun sikayeti '1300 ile 1330 tablolari BIREBIR ayni, Germiyan'in kademeli yutmasi yazilmamis' idi. TDV kademeyi TAM veriyor: 1327'de Germiyan'a TABI oldu. Kirilma 1341'den 1327'ye cekildi (14 yil). 🔴 DELIK ACILMADI: 1327-1341 arasi bos kalmadi, germiyan doneminin basi one alindi (zaten 1341-1390 germiyan'di, simdi 1327-1390 kesintisiz).\",kaynak:\"TDV `sahib-ataogullari` — govde okundu: \\\"Nusretuddevle Ahmed kacarak Germiyanogullari'ndan I. Yakub'a sigindi ... Karahisaridevle kusatmasi kaldirildi (727/1327). I. Yakub'un kiziyla evlenen Nusretuddevle Ahmed bundan sonra GERMIYANOGULLARI'NA TABI OLDU.\\\" Kunye basligi: \\\"beylik (1275-1341)\\\". ⚠️ SLUG ARANDI: `sahibataogullari` OLU (302), `sahib-ataogullari` CANLI (200) — tek fark BIR TIRE (§4③).\", tur:\"kale\", lat:38.757, lon:30.538, g:0, k:3, m:\"Kütahya\", s:[{f:\"1281-01-01\",t:\"1327-01-01\",d:\"sahibata\"},{f:\"1327-01-01\",t:\"1390-01-01\",d:\"germiyan\"},{f:\"1402-07-28\",t:\"1429-02-01\",d:\"germiyan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1429-02-01\",t:\"1920-04-23\",y:\"antlasma\"}] }",
+   "yeni": "{ ad:\"Karahisâr-ı Sâhib (Afyon)\",neden:\"pe0008/H-0001. Kayit `sahibata 1281-01-01 → 1341-01-01` TEK BLOKTU; notun sikayeti '1300 ile 1330 tablolari BIREBIR ayni, Germiyan'in kademeli yutmasi yazilmamis' idi. TDV kademeyi TAM veriyor: 1327'de Germiyan'a TABI oldu. Kirilma 1341'den 1327'ye cekildi (14 yil). 🔴 DELIK ACILMADI: 1327-1341 arasi bos kalmadi, germiyan doneminin basi one alindi (zaten 1341-1390 germiyan'di, simdi 1327-1390 kesintisiz).\",kaynak:\"TDV `sahib-ataogullari` — govde okundu: \\\"Nusretuddevle Ahmed kacarak Germiyanogullari'ndan I. Yakub'a sigindi ... Karahisaridevle kusatmasi kaldirildi (727/1327). I. Yakub'un kiziyla evlenen Nusretuddevle Ahmed bundan sonra GERMIYANOGULLARI'NA TABI OLDU.\\\" Kunye basligi: \\\"beylik (1275-1341)\\\". ⚠️ SLUG ARANDI: `sahibataogullari` OLU (302), `sahib-ataogullari` CANLI (200) — tek fark BIR TIRE (§4③).\", tur:\"kale\", lat:38.757, lon:30.538, g:0, k:3, m:\"Kütahya\", s:[{f:\"1281-01-01\",t:\"1327-01-01\",d:\"sahibata\"},{f:\"1327-01-01\",t:\"1390-01-01\",d:\"germiyan\"},{f:\"1402-07-28\",t:\"1429-02-01\",d:\"germiyan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1429-02-01\",t:\"1920-04-23\",y:\"antlasma\"}],\n    isg:[{f:\"1921-03-23\",t:\"1921-04-07\",d:\"yunanistan\",kaynak:\"TDV milli-mucadele — 23 Mart'ta Bilecik ve Afyon'u işgal ettiler; 7 Nisan'da Afyon geri alındı\"}] }",
+   "kaynak": {
+    "milli-mucadele": "23 Mart'ta yeniden harekete geçerek Bilecik ve Afyon'u işgal ettiler · Aslıhanlar'da ağır yenilgiye uğratılarak 7 Nisan'da Afyon geri alındı",
+    "afyonkarahisar": "şehir, 27 Ağustos 1922'de kurtarıldı"
+   },
+   "not": "Yalnız 1921 Mart-Nisan işgali HAZIR. İkinci işgalin (1921 yazı → 1922-08-27) BAŞLANGIÇ günü okunan TDV maddelerinde yok → KARAR ISG-K04."
+  },
+  {
+   "id": "ISG-10",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Adapazarı",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Adapazarı\",s:[{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], tur:\"sehir\", lat:40.780, lon:30.403, g:0, k:4, m:\"İstanbul\", kur:\"1550-01-01\", d:[{f:\"1550-01-01\",t:\"1920-04-23\"}] }",
+   "yeni": "{ ad:\"Adapazarı\",s:[{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], tur:\"sehir\", lat:40.780, lon:30.403, g:0, k:4, m:\"İstanbul\", kur:\"1550-01-01\", d:[{f:\"1550-01-01\",t:\"1920-04-23\"}],\n    isg:[{f:\"1921-03-25\",t:\"1921-06-21\",d:\"yunanistan\",kaynak:\"TDV adapazari — 25 Mart 1921'de Yunan işgaline uğramış ve aynı yılın 21 Haziranında geri alınmıştır\"}] }",
+   "kaynak": {
+    "adapazari": "25 Mart 1921'de Yunan işgaline uğramış ve aynı yılın 21 Haziranında geri alınmıştır"
+   }
+  },
+  {
+   "id": "ISG-11",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Kırklareli",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Kırklareli\", tur:\"sehir\", lat:41.735, lon:27.225, g:0, k:4, m:\"Edirne\", s:[{f:\"1281-01-01\",t:\"1362-06-01\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1410-02-13\",d:\"suleyman-celebi\"},{f:\"1410-02-13\",t:\"1410-06-15\",d:\"musa-celebi\"},{f:\"1410-06-15\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"musa-celebi\"},{f:\"1912-10-24\",t:\"1913-07-21\",d:\"bulgaristan-kralligi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1362-06-01\",t:\"1402-07-28\"},{f:\"1413-07-05\",t:\"1912-10-24\"},{f:\"1913-07-21\",t:\"1920-04-23\"}] }",
+   "yeni": "{ ad:\"Kırklareli\", tur:\"sehir\", lat:41.735, lon:27.225, g:0, k:4, m:\"Edirne\", s:[{f:\"1281-01-01\",t:\"1362-06-01\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1410-02-13\",d:\"suleyman-celebi\"},{f:\"1410-02-13\",t:\"1410-06-15\",d:\"musa-celebi\"},{f:\"1410-06-15\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"musa-celebi\"},{f:\"1912-10-24\",t:\"1913-07-21\",d:\"bulgaristan-kralligi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1362-06-01\",t:\"1402-07-28\"},{f:\"1413-07-05\",t:\"1912-10-24\"},{f:\"1913-07-21\",t:\"1920-04-23\"}],\n    isg:[{f:\"1920-07-26\",t:\"1922-11-10\",d:\"yunanistan\",kaynak:\"TDV kirklareli — 26 Temmuz 1920'de Yunan işgaline uğrayan Kırkkilise 10 Kasım 1922'de geri alındı\"}] }",
+   "kaynak": {
+    "kirklareli": "26 Temmuz 1920'de Yunan işgaline uğrayan Kırkkilise 10 Kasım 1922'de geri alındı"
+   }
+  },
+  {
+   "id": "ISG-12",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Edirne",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Edirne\", tur:\"sehir\", lat:41.677, lon:26.556, g:3, k:1, s:[{f:\"1281-01-01\",t:\"1361-03-01\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1410-02-13\",d:\"suleyman-celebi\"},{f:\"1410-02-13\",t:\"1410-06-15\",d:\"musa-celebi\"},{f:\"1410-06-15\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"musa-celebi\"},{f:\"1913-03-26\",t:\"1913-07-21\",d:\"bulgaristan-kralligi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1361-03-01\",t:\"1402-07-28\",y:\"savas\"},{f:\"1413-07-05\",t:\"1913-03-26\"},{f:\"1913-07-21\",t:\"1920-04-23\",y:\"savas\"}] }",
+   "yeni": "{ ad:\"Edirne\", tur:\"sehir\", lat:41.677, lon:26.556, g:3, k:1, s:[{f:\"1281-01-01\",t:\"1361-03-01\",d:\"bizans\"},{f:\"1402-07-28\",t:\"1410-02-13\",d:\"suleyman-celebi\"},{f:\"1410-02-13\",t:\"1410-06-15\",d:\"musa-celebi\"},{f:\"1410-06-15\",t:\"1411-02-17\",d:\"suleyman-celebi\"},{f:\"1411-02-17\",t:\"1413-07-05\",d:\"musa-celebi\"},{f:\"1913-03-26\",t:\"1913-07-21\",d:\"bulgaristan-kralligi\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1361-03-01\",t:\"1402-07-28\",y:\"savas\"},{f:\"1413-07-05\",t:\"1913-03-26\"},{f:\"1913-07-21\",t:\"1920-04-23\",y:\"savas\"}],\n    isg:[{f:\"1920-07-26\",t:\"1922-11-10\",d:\"yunanistan\",kaynak:\"TDV edirne — Temmuz 1920'de Yunan işgaline uğradı, 1922'de kurtarıldı · İKİ GÜN DE KOMŞUDAN: Kırklareli (TDV kirklareli)\"}] }",
+   "kaynak": {
+    "edirne": "Temmuz 1920'de Yunan işgaline uğradı. 1922'de kurtarıldı",
+    "kirklareli": "26 Temmuz 1920 ... 10 Kasım 1922",
+    "milli-mucadele": "Yunan ordusunun 20 Temmuz'da bütün Trakya'yı ele geçirmesi"
+   },
+   "not": "f ve t GÜNLERİ KOMŞUDAN (§4 şartlı): Kırklareli · TDV kirklareli. ① komşunun iki günü kendi kaynağında ② TDV edirne yalnız AY (Temmuz 1920) ve YIL (1922) veriyor ③ aynı harekât (1920 Trakya işgali) ve aynı süreç (Mudanya sonrası Trakya teslimi), 55 km ④ burada yazıldı. ⚠️ f, milli-mucadele'nin 'bütün Trakya 20 Temmuz' cümlesiyle 6 gün ayrışıyor; t teslim sırası kaynakta yok — koordinatör isterse KARAR'a çekilir."
+  },
+  {
+   "id": "ISG-13",
+   "madde": "0039/H-0005",
+   "durum": "HAZIR",
+   "ad": "Muğla",
+   "dosya": "data/yerlesimler.js",
+   "eski": "{ ad:\"Muğla\", tur:\"sehir\", lat:37.215, lon:28.363, g:0, k:2, s:[{f:\"1281-01-01\",t:\"1390-01-01\",d:\"mentese\"},{f:\"1402-07-28\",t:\"1425-06-01\",d:\"mentese\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1425-06-01\",t:\"1920-04-23\"}] }",
+   "yeni": "{ ad:\"Muğla\", tur:\"sehir\", lat:37.215, lon:28.363, g:0, k:2, s:[{f:\"1281-01-01\",t:\"1390-01-01\",d:\"mentese\"},{f:\"1402-07-28\",t:\"1425-06-01\",d:\"mentese\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1425-06-01\",t:\"1920-04-23\"}],\n    isg:[{f:\"1919-07-23\",t:\"1921-07-05\",d:\"italya\",kaynak:\"TDV mugla — 23 Temmuz 1919'da İtalyan işgaline uğrayan ve 5 Temmuz 1921'de kurtarılan Muğla\"}] }",
+   "kaynak": {
+    "mugla": "23 Temmuz 1919'da İtalyan işgaline uğrayan ve 5 Temmuz 1921'de kurtarılan Muğla"
+   },
+   "not": "italya künyesi 1861-03-17 → 1923-10-29, renk VAR (harita: italya)."
+  },
+  {
+   "id": "ISG-K01",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Tekirdağ",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "yunanistan",
+   "f": "? (TDV tekirdag 1920-06-20 · milli-mucadele 20 Temmuz 'bütün Trakya')",
+   "t": "1922-11-13",
+   "not": "🔴 KAYNAK ÇELİŞKİSİ: TDV tekirdag 'Yunanlılar 20 Haziran 1920'de Tekirdağ'a girdiler' diyor; TDV milli-mucadele Yunan ordusunun Trakya'yı 20 Temmuz'da ele geçirdiğini anlatıyor ve Haziran 1920'de Trakya harekâtı anmıyor. Mantıken çelişmeyebilir (Tekirdağ önce düşmüş olabilir) ama tek kaynaklı bir ay farkı. t 1922-11-13 kaynaklı (TDV tekirdag). ÖNERİ: ikinci bağımsız kaynak (Bıyıklıoğlu, Trakya'da Millî Mücadele 1955 — TDV milli-mucadele bibliyografyası) okunmadan f yazılmasın."
+  },
+  {
+   "id": "ISG-K02",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Alaşehir",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "yunanistan",
+   "f": "1920-06-26",
+   "t": "? (TDV alasehir '4 Eylül 1921')",
+   "not": "🔴 KAYNAK İÇİ SORUN: f 26 Haziran 1920 iki TDV maddesinde örtüşüyor. t için TDV alasehir '4 Eylül 1921'de Türk ordusu tarafından ... geri alındı' diyor; ama TDV milli-mucadele'ye göre Eylül 1921'de Yunan ordusu Sakarya'daydı ve Batı Anadolu'dan çekiliş Büyük Taarruz'la (Ağustos-Eylül 1922) oldu. Yıl büyük olasılıkla 1922 — ama bu bir ÇIKARIMDIR, yazılmadı."
+  },
+  {
+   "id": "ISG-K03",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Balıkesir",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "yunanistan",
+   "f": "[1920-06-22, 1920-07-08] aralığı",
+   "t": "? (yok)",
+   "not": "TDV milli-mucadele: 22 Haziran'da başlayan taarruzda Balıkesir, 8 Temmuz'daki Bursa'dan ÖNCE düştü — gün yok. TDV balikesir işgal/kurtuluş günü vermiyor. Komşu günü şartı ③ tutar ama ② için kaynak ARALIK veriyor; aralığın hangi ucunun seçileceği koordinatör kararı. Kurtuluş günü hiçbir okunan maddede yok."
+  },
+  {
+   "id": "ISG-K04",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Karahisâr-ı Sâhib (Afyon)",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "yunanistan",
+   "f": "? (1921 yazı — gün yok)",
+   "t": "1922-08-27",
+   "not": "İkinci işgalin başlangıcı: TDV afyonkarahisar 'bir yıl kadar Yunan işgalinde kaldı' diyor, gün yok. Komşu adayları Eskişehir 1921-07-20 / Kütahya 1921-07-21 (aynı Kütahya-Eskişehir harekâtı) — ama Afyon'un bu harekâtta onlardan önce düştüğü genel bilgidir ve komşu günü işgali KISALTIR. Yazılmadı."
+  },
+  {
+   "id": "ISG-K05",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Bilecik",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "yunanistan",
+   "f": "1921-01-08 / 1921-03-23 / 1921-07-13",
+   "t": "? (çekilme günleri yok)",
+   "not": "İlk iki işgalin bitiş günleri yok; TDV bilecik ile TDV milli-mucadele Mart 1921 işgalinde ayrışıyor (bilecik saymıyor)."
+  },
+  {
+   "id": "ISG-K06",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "İzmit",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "ingiltere → yunanistan",
+   "f": "1920-07-06",
+   "t": "1921-06-28",
+   "not": "İki uç kaynaklı (TDV izmit) ama İngiliz → Yunan devir günü YOK ('önce İngilizler ve sonra Yunanlılar'). Tek dönem yazmak ya işgalciyi ya günü uydurur. Seçenek: (a) tek isg d:ingiltere 1920-07-06→1921-06-28 + not, (b) ikinci kaynak bulunana dek bekle. ÖNERİ (b)."
+  },
+  {
+   "id": "ISG-K07",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "İnegöl",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "yunanistan",
+   "f": "1920-10-25",
+   "t": "? (yok)",
+   "not": "f TDV milli-mucadele. t hiçbir okunan maddede yok; komşu adayları Bilecik 1922-09-06 (45 km) ve Bursa 1922-09-11 (40 km) — iki komşu 5 gün ayrışıyor, seçim koordinatörün."
+  },
+  {
+   "id": "ISG-K08",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Yenişehir (Bursa)",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "yunanistan",
+   "f": "1920-10-25",
+   "t": "? (yok)",
+   "not": "İnegöl ile aynı durum (TDV milli-mucadele 'İnegöl ve Yenişehir')."
+  },
+  {
+   "id": "ISG-K09",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Bodrum",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "italya",
+   "f": "1919-05-11",
+   "t": "? ('Millî Mücadele'nin başarıyla sonuçlanması üzerine')",
+   "not": "f TDV bodrum; t yıl bile yok."
+  },
+  {
+   "id": "ISG-K10",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Marmaris",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "italya",
+   "f": "1919-05-05",
+   "t": "? (yok)",
+   "not": "f TDV sevr-antlasmasi; marmaris slug 302 ÖLÜ."
+  },
+  {
+   "id": "ISG-K11",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Kuşadası",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "italya",
+   "f": "1919-05-13",
+   "t": "? (yok)",
+   "not": "f TDV sevr-antlasmasi; kusadasi slug 302. TDV milli-mucadele 'İtalyanların 18 Nisan'da boşaltmaya başladığı Menderes vadisi' diyor — YIL cümlede yok (paragraf 1922 olaylarının arasında) ve 'başladı' bir bitiş günü değil."
+  },
+  {
+   "id": "ISG-K12",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Fethiye (Makri)",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "yunanistan / italya ?",
+   "f": "1919-05-11 (Yunan çıkarması, TDV sevr-antlasmasi)",
+   "t": "? (yok)",
+   "not": "Yunan çıkarması kaynaklı; sonraki işgalci ve bitiş kaynaksız. fethiye slug 302."
+  },
+  {
+   "id": "ISG-K13",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Burdur",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "italya",
+   "f": "1919-06-28",
+   "t": "? (TDV burdur yalnız '1919-1921')",
+   "not": "f TDV isparta. t için komşu Antalya 1921-06-01 (TDV antalya 'boşaltmaya başlaması', aynı İtalyan tahliye süreci, ~100 km) — şartlar tutar ama Antalya'nın kendi günü bir BAŞLANGIÇ (boşaltmaya başladı), bitiş değil; ve Antalya isg'si YAMA-A3 kalem 5'te (P01) henüz inmedi. ÖNERİ: P01 ile birlikte."
+  },
+  {
+   "id": "ISG-K14",
+   "madde": "0039/H-0005",
+   "durum": "KARAR",
+   "ad": "Konya",
+   "dosya": "data/yerlesimler.js",
+   "isgalci": "italya",
+   "f": "Nisan 1919 (AY)",
+   "t": "1920-03-12 ('11-12 Mart 1920')",
+   "not": "TDV konya bir İtalyan BİRLİĞİNİN gelip gittiğini anlatıyor ('başka bir işgale uğramadı' diyerek işgal sayıyor). f yalnız ay; ayın 1'ine kodlamak §4 ③ yasak. Yazılmadı."
+  }
+ ],
+ "bulunamadi": {
+  "ad": [
+   "Bergama",
+   "Ayvalık",
+   "Edremit",
+   "Çeşme",
+   "Tire",
+   "Birgi",
+   "Ayasuluk (Selçuk)",
+   "Söke",
+   "Balat (Palatia)",
+   "Milas",
+   "Simav",
+   "Emet (Eğrigöz)",
+   "Tavşanlı",
+   "Domaniç",
+   "Bozüyük",
+   "Söğüt",
+   "Mudanya",
+   "Gemlik (Kios)",
+   "Mihaliç (Karacabey)",
+   "Kirmasti (M.Kemalpaşa)",
+   "Biga",
+   "Lüleburgaz",
+   "Uzunköprü",
+   "Çorlu",
+   "Keşan",
+   "Malkara",
+   "Havsa",
+   "Vize"
+  ],
+  "durum": "BULUNAMADI",
+  "not": "Bu yerleşimlerin 1919-1922 işgal/kurtuluş GÜNÜ okunan TDV maddelerinde yok (ayvalik · bandirma · edremit · soke · kusadasi · simav · tavsanli · bozuyuk · inegol · mudanya · gemlik slugları 302 ÖLÜ; bergama 'yıl' veriyor: 1919 → 1922). Komşu günü şartı ② tutsa bile ③ 'aynı olay' her biri için ayrıca gösterilmeli; toplu komşu ataması yapılmadı (zincirleme devralma yasağı). Kaynak adayı: TDV milli-mucadele bibliyografyası (Özalp 1971-72 · Bıyıklıoğlu 1955 · Özdemir 1997) ve ATASE Türk İstiklal Harbi ciltleri — OKUNMADI."
+ }
+}
