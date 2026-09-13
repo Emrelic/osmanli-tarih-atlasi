@@ -1,0 +1,1425 @@
+{
+ "baslik": "H-0006 -- kullaniciya sizan ic notlar -- KITA 25, 2026-09-13",
+ "kapsam": "data/olaylar*.js + data/kronoloji*.js (index.html canli listesi), alanlar: b/d/gun/yer",
+ "yontem": "kaba regex (koordinator ailesi: gun vermiyor/yok/bilinmiyor, yil veriyor/biliniyor, TDV maddesi, bulunamadi, olculemedi, kaynak susuyor, hassasiyet, temsili) ile 141 aday bulundu, HER BIRI OKUNDU ve uc kovaya ayrildi.",
+ "kova_sayilari": {
+  "mesru-anlati (dokunma)": 34,
+  "karisik (cumle ayrildi)": 89,
+  "ic-not (tasindi)": 18,
+  "TOPLAM": 141
+ },
+ "uygulama_notu": "yeni_metin alani kullanicinin gordugu b:/d:/gun: degerinin YERINE gecer. tasinan_not SILINMEDI -- kayidin hemen ustune/altina bir JS yorum satiri (//) olarak eklenmesi onerilir (data/*.js dosyalarinda zaten yerlesik bir konvansiyon; kaynak: alani slug-only oldugu icin serbest metne uygun degil, ve not:/benzeri bir alan olcumde bulunamadi).",
+ "ozel_bulgu": "data/olaylar_p0043kirim.js t=1774-07-21 gun alaninda deger 1526 -- t: ile gun: arasinda olasi hizalama sorunu, H-0006 disinda KITA 14ye ayrica bildirilmeli.",
+ "kayitlar": [
+  {
+   "dosya": "data\\kronoloji_akkoyunlu.js",
+   "t": "1444-10-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Receb 848 (Ekim 1444) ayında Hamza Bey öldü ve yerine Cihangir geçti. ⚠️ NOT: TDV `akkoyunlular` maddesi Hamza Bey'in ölümünü Ekim 1447'ye, `uzun-hasan` maddesi Ekim 1444'e koyuyor. İKİ TDV MADDESİ ÇELİŞİYOR; ikisi de kaydedildi, biri seçilip öteki gizlenmedi. Bu maddede `uzun-hasan`ın ayrıntılı biyografik anlatımı esas alındı.",
+   "gerekce": "Iki TDV maddesi celisiyor notu + hangi maddenin esas alindigi bilgisi -- editoryal, okura gerek yok.",
+   "yeni_metin": "Receb 848 (Ekim 1444) ayında Hamza Bey öldü ve yerine Cihangir geçti.",
+   "tasinan_not": "⚠️ NOT: TDV `akkoyunlular` maddesi Hamza Bey'in ölümünü Ekim 1447'ye, `uzun-hasan` maddesi Ekim 1444'e koyuyor. İKİ TDV MADDESİ ÇELİŞİYOR; ikisi de kaydedildi, biri seçilip öteki gizlenmedi. Bu maddede `uzun-hasan`ın ayrıntılı biyografik anlatımı esas alındı."
+  },
+  {
+   "dosya": "data\\kronoloji_akkoyunlu.js",
+   "t": "1514-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "920 (1514) yılında son Akkoyunlu hükümdarı Murad öldürüldü ve Akkoyunlu Devleti tarih sahnesinden silindi. Tur Ali Bey'in 1340'ta Trabzon'a düzenlediği akınlarla başlayan yüz yetmiş dört yıllık hanedan böylece sona erdi. ⚠️ Aynı yıl Çaldıran'da Osmanlı ile Safevî karşı karşıya geldi: Akkoyunlu'nun bıraktığı boşluk artık iki büyük imparatorluk arasında paylaşılacaktır. TDV gün vermiyor, `YYYY-01-01` yazıldı — uydurulmadı.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "920 (1514) yılında son Akkoyunlu hükümdarı Murad öldürüldü ve Akkoyunlu Devleti tarih sahnesinden silindi. Tur Ali Bey'in 1340'ta Trabzon'a düzenlediği akınlarla başlayan yüz yetmiş dört yıllık hanedan böylece sona erdi. ⚠️ Aynı yıl Çaldıran'da Osmanlı ile Safevî karşı karşıya geldi: Akkoyunlu'nun bıraktığı boşluk artık iki büyük imparatorluk arasında paylaşılacaktır.",
+   "tasinan_not": "TDV gün vermiyor, `YYYY-01-01` yazıldı — uydurulmadı."
+  },
+  {
+   "dosya": "data\\kronoloji_akkoyunlu.js",
+   "t": "1452-09-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Uzun Hasan, Ebû Bekr-i Tihrânî'ye Akkoyunlu hanedanının tarihini anlatan 'Kitâb-ı Diyârbekriyye'yi yazdırdı; ayrıca Âşık Paşa'nın Garibnâme'sini okuttu ve bir Kur'an tercümesi hazırlattı. Bir hanedanın kendi resmî tarihini yazdırması, kendisini geçici bir aşiret birliği değil kalıcı bir devlet sayması demektir. ⚠️ TARİH HAKKINDA: eserin telif yılı bu oturumda ölçülemedi — `kitab-i-diyarbekriyye` müstakil maddesi HTTP 200 döndürdü ama GÖVDESİ ÇEKİLEMEDİ. Madde iktidara geliş tarihine bağlandı; bu bir tercihtir ve eserin müstakil maddesi OKUNMADI.",
+   "gerekce": "Kaynak arama sureci (HTTP/govde) notu.",
+   "yeni_metin": "Uzun Hasan, Ebû Bekr-i Tihrânî'ye Akkoyunlu hanedanının tarihini anlatan 'Kitâb-ı Diyârbekriyye'yi yazdırdı; ayrıca Âşık Paşa'nın Garibnâme'sini okuttu ve bir Kur'an tercümesi hazırlattı. Bir hanedanın kendi resmî tarihini yazdırması, kendisini geçici bir aşiret birliği değil kalıcı bir devlet sayması demektir.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: eserin telif yılı bu oturumda ölçülemedi — `kitab-i-diyarbekriyye` müstakil maddesi HTTP 200 döndürdü ama GÖVDESİ ÇEKİLEMEDİ. Madde iktidara geliş tarihine bağlandı; bu bir tercihtir ve eserin müstakil maddesi OKUNMADI."
+  },
+  {
+   "dosya": "data\\kronoloji_almanya.js",
+   "t": "1900-01-01",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Yirmi iki yıllık hazırlığın ürünü olan Bürgerliches Gesetzbuch, imparatorluğun yirmi beş devletindeki farklı hukuk geleneklerini (Roma hukuku, Cermen örfi hukuku, Napolyon Kanunu) tek bir medeni kanunda birleştirdi. BGB, hukukî hassasiyet ve sistematik yapısıyla dünyadaki başka birçok medeni kanuna (Japonya, Türkiye Medeni Kanunu dahil dolaylı olarak) örnek oldu.",
+   "gerekce": "'hassasiyet' hukuki/teknik anlamda (BGB'nin sistematik kesinligi), tarih-belirsizligi yorumu DEGIL.",
+   "yeni_metin": "Yirmi iki yıllık hazırlığın ürünü olan Bürgerliches Gesetzbuch, imparatorluğun yirmi beş devletindeki farklı hukuk geleneklerini (Roma hukuku, Cermen örfi hukuku, Napolyon Kanunu) tek bir medeni kanunda birleştirdi. BGB, hukukî hassasiyet ve sistematik yapısıyla dünyadaki başka birçok medeni kanuna (Japonya, Türkiye Medeni Kanunu dahil dolaylı olarak) örnek oldu.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_altinorda.js",
+   "t": "1300-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "TDV ilk fetret devrinin XIV. yüzyılın başlarında kapandığını yazar ama GÜN VERMEZ; buradaki 1300-01-01 o yüzden yuvarlak bir yıl başıdır, ölçülmüş bir gün değildir (CLAUDE.md §4: gün bilinmiyorsa YYYY-01-01). Bu tarihten sonra han otoritesi Saray'da yeniden toplanmış, devlet Özbek Han dönemindeki zirvesine giden yola girmiştir.",
+   "gerekce": "Tarih-hassasiyeti sureç notu; ilk cumle ('TDV ilk fetret devrinin...') de sadelestirilip tutulacak -- bkz not.",
+   "yeni_metin": "TDV ilk fetret devrinin XIV. yüzyılın başlarında kapandığını yazar",
+   "tasinan_not": "ama GÜN VERMEZ; buradaki 1300-01-01 o yüzden yuvarlak bir yıl başıdır, ölçülmüş bir gün değildir (CLAUDE.md §4: gün bilinmiyorsa YYYY-01-01). Bu tarihten sonra han otoritesi Saray'da yeniden toplanmış, devlet Özbek Han dönemindeki zirvesine giden yola girmiştir."
+  },
+  {
+   "dosya": "data\\kronoloji_altinorda.js",
+   "t": "1380-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Kulikovo'dan yenik dönen Mamay Mirza'yı, Timur'un desteklediği Toktamış Han, Don'a dökülen Kalka ırmağı boyunda mağlûp etti. TDV bu zaferin sonucunu açıkça yazar: yirmi yıl süren iç mücadelenin ardından Altın Orda yeniden tek elde toplandı. 🔴 Devletin son gerçek toparlanışıdır; bundan sonraki her birleşme girişimi başarısız olacaktır. ⚠️ Kaynak yıl veriyor, GÜN vermiyor — Kulikovo'dan sonrasına düştüğü kesin, tam günü değil.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Kulikovo'dan yenik dönen Mamay Mirza'yı, Timur'un desteklediği Toktamış Han, Don'a dökülen Kalka ırmağı boyunda mağlûp etti. TDV bu zaferin sonucunu açıkça yazar: yirmi yıl süren iç mücadelenin ardından Altın Orda yeniden tek elde toplandı. 🔴 Devletin son gerçek toparlanışıdır; bundan sonraki her birleşme girişimi başarısız olacaktır.",
+   "tasinan_not": "⚠️ Kaynak yıl veriyor, GÜN vermiyor — Kulikovo'dan sonrasına düştüğü kesin, tam günü değil."
+  },
+  {
+   "dosya": "data\\kronoloji_altinorda.js",
+   "t": "1391-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Toktamış'ı tahta çıkaran Timur'la arası Azerbaycan meselesi yüzünden açılmıştı. İki ordu Receb 793'te (Haziran 1391) Kunduzca (Kondurça) ırmağı boyunda karşılaştı; Toktamış ağır bir yenilgi aldı. Bu, Altın Orda'nın belini kıran iki seferin birincisidir. ⚠️ Kaynak ay veriyor, gün vermiyor — 06-01 ayın başına yazıldı, ölçülmüş gün değildir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok.",
+   "gerekce": "Tarih-hassasiyeti + yer_id bos oldugu notu, ikisi de editoryal.",
+   "yeni_metin": "Toktamış'ı tahta çıkaran Timur'la arası Azerbaycan meselesi yüzünden açılmıştı. İki ordu Receb 793'te (Haziran 1391) Kunduzca (Kondurça) ırmağı boyunda karşılaştı; Toktamış ağır bir yenilgi aldı. Bu, Altın Orda'nın belini kıran iki seferin birincisidir.",
+   "tasinan_not": "⚠️ Kaynak ay veriyor, gün vermiyor — 06-01 ayın başına yazıldı, ölçülmüş gün değildir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok."
+  },
+  {
+   "dosya": "data\\kronoloji_altinorda.js",
+   "t": "1419-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "TDV: 'Uluğ Muhammed Han (1419-1422)' tahta seçildi, fakat 'saltanat mücadelesine girmiş olan prensler tarafından tahttan indirildi'. Bu kısa saltanatın önemi sonrasındadır: tahtını kaybeden Uluğ Muhammed doğuya çekilip Kazan'da kendi hanlığını kuracaktır. ⚠️ Kaynak yıl veriyor, gün vermiyor; 06-01 aynı yıl içinde Edigü'nün ölümünden sonraya düşürmek için seçilmiş bir sıralama tarihidir, ÖLÇÜLMÜŞ GÜN DEĞİLDİR.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "TDV: 'Uluğ Muhammed Han (1419-1422)' tahta seçildi, fakat 'saltanat mücadelesine girmiş olan prensler tarafından tahttan indirildi'. Bu kısa saltanatın önemi sonrasındadır: tahtını kaybeden Uluğ Muhammed doğuya çekilip Kazan'da kendi hanlığını kuracaktır.",
+   "tasinan_not": "⚠️ Kaynak yıl veriyor, gün vermiyor; 06-01 aynı yıl içinde Edigü'nün ölümünden sonraya düşürmek için seçilmiş bir sıralama tarihidir, ÖLÇÜLMÜŞ GÜN DEĞİLDİR."
+  },
+  {
+   "dosya": "data\\kronoloji_anadolu.js",
+   "t": "1400-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Karamanoğulları toprakları buğday, arpa, yulaf ve pamuk üretiyor, ünlü Karaman koyunu ve soylu atlar yetiştiriyordu; tahıl, yün, deri, halı ve at Kıbrıs, Venedik, Ceneviz ve Memlük Sultanlığı'na ihraç ediliyordu. (Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
+   "gerekce": "H-0006'nin tam ornegi: 'temsili tarih' aciklamasi okura gerek yok.",
+   "yeni_metin": "Karamanoğulları toprakları buğday, arpa, yulaf ve pamuk üretiyor, ünlü Karaman koyunu ve soylu atlar yetiştiriyordu; tahıl, yün, deri, halı ve at Kıbrıs, Venedik, Ceneviz ve Memlük Sultanlığı'na ihraç ediliyordu.",
+   "tasinan_not": "(Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)"
+  },
+  {
+   "dosya": "data\\kronoloji_anadolu.js",
+   "t": "1350-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Beylik, Türkmen oymak konfederasyonlarına dayanıyordu; hanedan toprakları aile üyeleri ve ileri gelen beyler arasında pay ediyordu. Zâviye ve tekkeler bölgede yaygındı, Konya'da Mevlevî geleneği güçlüydü. (Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
+   "gerekce": "Ayni kalip, H-0006 ornegi.",
+   "yeni_metin": "Beylik, Türkmen oymak konfederasyonlarına dayanıyordu; hanedan toprakları aile üyeleri ve ileri gelen beyler arasında pay ediyordu. Zâviye ve tekkeler bölgede yaygındı, Konya'da Mevlevî geleneği güçlüydü.",
+   "tasinan_not": "(Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)"
+  },
+  {
+   "dosya": "data\\kronoloji_anadolu.js",
+   "t": "1375-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Kahire'de Ekmeleddin el-Bâbertî'nin öğrencisi olarak yetişen Celâleddin Hızır (Hacı Paşa), Aydınoğlu İsa Bey'in daveti üzerine Anadolu'ya geldi. İsa Bey onu Ayasuluk kadılığına ve saray hekimliğine getirdi; 'Hacı Paşa' unvanının da beylik tarafından bir lütuf olarak verildiği düşünülür. Kesin tayin tarihi TDV maddesinde belirtilmemiştir, tahmini bir tarih verilmiştir.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Kahire'de Ekmeleddin el-Bâbertî'nin öğrencisi olarak yetişen Celâleddin Hızır (Hacı Paşa), Aydınoğlu İsa Bey'in daveti üzerine Anadolu'ya geldi. İsa Bey onu Ayasuluk kadılığına ve saray hekimliğine getirdi; 'Hacı Paşa' unvanının da beylik tarafından bir lütuf olarak verildiği düşünülür.",
+   "tasinan_not": "Kesin tayin tarihi TDV maddesinde belirtilmemiştir, tahmini bir tarih verilmiştir."
+  },
+  {
+   "dosya": "data\\kronoloji_anadolu.js",
+   "t": "1425-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Cüneyd Bey, Akhisar yakınında uğradığı askerî yenilgi, Ceneviz donanmasının deniz ablukası ve beklediği Karamanoğlu desteğinin gelmemesi üzerine İpsili'de teslim oldu. II. Murad onu yakalatıp bütün ailesiyle birlikte idam ettirdi (829/1425-26); Aydınoğulları toprakları kesin olarak Osmanlı Devleti'ne katıldı. TDV maddesi kesin ayı/günü vermediği için yıl aralığı (1425-26) not düşülmüştür.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Cüneyd Bey, Akhisar yakınında uğradığı askerî yenilgi, Ceneviz donanmasının deniz ablukası ve beklediği Karamanoğlu desteğinin gelmemesi üzerine İpsili'de teslim oldu. II. Murad onu yakalatıp bütün ailesiyle birlikte idam ettirdi (829/1425-26); Aydınoğulları toprakları kesin olarak Osmanlı Devleti'ne katıldı.",
+   "tasinan_not": "TDV maddesi kesin ayı/günü vermediği için yıl aralığı (1425-26) not düşülmüştür."
+  },
+  {
+   "dosya": "data\\kronoloji_balkan.js",
+   "t": "1494-01-04",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Crnojević Matbaası'nın ilk ürünü olan Oktoih Prvoglasnik, Kilise Slavcası'nın Sırp redaksiyonuyla basılan ilk kitaptı. Gün hassasiyetli tarih kitabın kendi kolofonundan gelir.",
+   "gerekce": "Gunun kolofondan geldigini soylemek OKURA DEGER katan bir bilgi, surec sikayeti degil.",
+   "yeni_metin": "Crnojević Matbaası'nın ilk ürünü olan Oktoih Prvoglasnik, Kilise Slavcası'nın Sırp redaksiyonuyla basılan ilk kitaptı. Gün hassasiyetli tarih kitabın kendi kolofonundan gelir.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_balkan.js",
+   "t": "1393-07-17",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor. Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor.",
+   "gerekce": "Ic-dosya capraz dogrulama notu, okura anlamsiz.",
+   "yeni_metin": "Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor.",
+   "tasinan_not": "Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor."
+  },
+  {
+   "dosya": "data\\kronoloji_balkan.js",
+   "t": "1444-11-10",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "II. Murad, Macar-Leh Kralı Ulászló/Władysław önderliğindeki Haçlı ordusunu Varna önlerinde imha etti; kral savaş meydanında öldürüldü. Bu tarihte Bulgaristan'ın kendi devleti YOKTUR — savaş, Osmanlı'nın Balkanlar'daki Bulgar topraklarını içeren hâkimiyetinin kalıcılığını garanti etti. TDV maddesi bunu doğrudan 'Osmanlıların Bulgaristan'daki geleceğini garanti altına aldı' diye özetliyor.",
+   "gerekce": "TDV atfi anlatiya dogal katilmis, surec sikayeti yok.",
+   "yeni_metin": "II. Murad, Macar-Leh Kralı Ulászló/Władysław önderliğindeki Haçlı ordusunu Varna önlerinde imha etti; kral savaş meydanında öldürüldü. Bu tarihte Bulgaristan'ın kendi devleti YOKTUR — savaş, Osmanlı'nın Balkanlar'daki Bulgar topraklarını içeren hâkimiyetinin kalıcılığını garanti etti. TDV maddesi bunu doğrudan 'Osmanlıların Bulgaristan'daki geleceğini garanti altına aldı' diye özetliyor.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1808-09-27",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Napolyon ile Çar I. Aleksandr, İspanya'daki savaşın gölgesinde ittifaklarını tazelemek için Erfurt'ta bir araya geldi; görüşmeler görkemli ama sonuçları sınırlı kaldı. TDV maddesi bu buluşmayı Osmanlı-Fransa-Rusya üçgeni bağlamında ayrıca kaydeder.",
+   "gerekce": "'TDV maddesi ... kaydeder' -- kaynak-gosterme uslubu, surec notu degil (koordinatore bildirilecek: 15 vaka, tek tip).",
+   "yeni_metin": "Napolyon ile Çar I. Aleksandr, İspanya'daki savaşın gölgesinde ittifaklarını tazelemek için Erfurt'ta bir araya geldi; görüşmeler görkemli ama sonuçları sınırlı kaldı. TDV maddesi bu buluşmayı Osmanlı-Fransa-Rusya üçgeni bağlamında ayrıca kaydeder.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1827-10-20",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransa, İngiltere ve Rusya'nın birleşik donanması, Yunan bağımsızlık ayaklanmasını bastırmaya çalışan Osmanlı-Mısır donanmasını Navarin Körfezi'nde imha etti. TDV maddesinde de anılan bu müdahale, Fransa'nın Osmanlı'ya karşı ilk kez doğrudan silahlı harekâta katıldığı andır.",
+   "gerekce": "",
+   "yeni_metin": "Fransa, İngiltere ve Rusya'nın birleşik donanması, Yunan bağımsızlık ayaklanmasını bastırmaya çalışan Osmanlı-Mısır donanmasını Navarin Körfezi'nde imha etti. TDV maddesinde de anılan bu müdahale, Fransa'nın Osmanlı'ya karşı ilk kez doğrudan silahlı harekâta katıldığı andır.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1829-04-24",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransa'nın da içinde bulunduğu büyük güçler baskısıyla Osmanlı, Yunan bağımsızlığını fiilen kabul etmek zorunda kaldı. TDV maddesi bu tarihi Fransa-Osmanlı ilişkilerinin gerginleştiği bir dönüm noktası olarak kaydeder.",
+   "gerekce": "",
+   "yeni_metin": "Fransa'nın da içinde bulunduğu büyük güçler baskısıyla Osmanlı, Yunan bağımsızlığını fiilen kabul etmek zorunda kaldı. TDV maddesi bu tarihi Fransa-Osmanlı ilişkilerinin gerginleştiği bir dönüm noktası olarak kaydeder.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1830-06-14",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "X. Charles hükümeti, iç siyasî desteğini pekiştirmek amacıyla düzenlediği seferle Cezayir'i işgal etti; işgal 132 yıl sürecek bir sömürge egemenliğinin başlangıcı oldu. TDV maddesi tarihi doğrudan verir; olay Osmanlı'nın Kuzey Afrika'daki nüfuzuna ilk büyük Avrupa darbesidir.",
+   "gerekce": "",
+   "yeni_metin": "X. Charles hükümeti, iç siyasî desteğini pekiştirmek amacıyla düzenlediği seferle Cezayir'i işgal etti; işgal 132 yıl sürecek bir sömürge egemenliğinin başlangıcı oldu. TDV maddesi tarihi doğrudan verir; olay Osmanlı'nın Kuzey Afrika'daki nüfuzuna ilk büyük Avrupa darbesidir.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1833-07-08",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Osmanlı'nın Rusya ile imzaladığı bu savunma ittifakı, Fransa ve İngiltere'de büyük kaygı yarattı; TDV maddesi olayı Fransa'nın Osmanlı Boğazlar siyasetine ilgisinin arttığı bir dönüm noktası olarak kaydeder. Antlaşma, Fransa'yı sonraki on yıllarda Osmanlı toprak bütünlüğünü destekleyen bir Boğazlar siyasetine yöneltti.",
+   "gerekce": "",
+   "yeni_metin": "Osmanlı'nın Rusya ile imzaladığı bu savunma ittifakı, Fransa ve İngiltere'de büyük kaygı yarattı; TDV maddesi olayı Fransa'nın Osmanlı Boğazlar siyasetine ilgisinin arttığı bir dönüm noktası olarak kaydeder. Antlaşma, Fransa'yı sonraki on yıllarda Osmanlı toprak bütünlüğünü destekleyen bir Boğazlar siyasetine yöneltti.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1853-10-04",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransa, Rusya'nın Osmanlı topraklarına yayılmasını Akdeniz çıkarlarına tehdit sayarak İngiltere'yle birlikte Osmanlı'nın yanında savaşa girdi; TDV maddesi bu ittifakı 1853-1856 arasında açıkça kaydeder. Savaş, III. Napolyon'a beklediği uluslararası prestiji kazandırdı ve Paris'te imzalanan barışla (1856) sona erecekti.",
+   "gerekce": "",
+   "yeni_metin": "Fransa, Rusya'nın Osmanlı topraklarına yayılmasını Akdeniz çıkarlarına tehdit sayarak İngiltere'yle birlikte Osmanlı'nın yanında savaşa girdi; TDV maddesi bu ittifakı 1853-1856 arasında açıkça kaydeder. Savaş, III. Napolyon'a beklediği uluslararası prestiji kazandırdı ve Paris'te imzalanan barışla (1856) sona erecekti.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1856-02-18",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Kırım Savaşı'nı bitiren Paris Kongresi öncesinde ilan edilen ferman, gayrimüslim Osmanlı tebaasına eşitlik güvencesi getirdi; Fransa, fermanın hazırlanmasında etkili büyük güçlerden biriydi. TDV maddesi bu tarihi Fransa-Osmanlı ilişkilerinin Tanzimat dönemindeki en somut sonucu olarak kaydeder.",
+   "gerekce": "",
+   "yeni_metin": "Kırım Savaşı'nı bitiren Paris Kongresi öncesinde ilan edilen ferman, gayrimüslim Osmanlı tebaasına eşitlik güvencesi getirdi; Fransa, fermanın hazırlanmasında etkili büyük güçlerden biriydi. TDV maddesi bu tarihi Fransa-Osmanlı ilişkilerinin Tanzimat dönemindeki en somut sonucu olarak kaydeder.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1869-11-17",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransız diplomat ve mühendis Ferdinand de Lesseps'in yönettiği proje, Akdeniz'i Kızıldeniz'e bağlayarak Avrupa-Asya deniz ticaretini kökten değiştirdi. TDV maddesi kanalı Fransa-Osmanlı ilişkilerinin Mısır'daki mali-siyasî boyutunun merkezine yerleştirir; kanal sonraki on yıllarda İngiliz-Fransız rekabetinin de odağı olacaktı.",
+   "gerekce": "",
+   "yeni_metin": "Fransız diplomat ve mühendis Ferdinand de Lesseps'in yönettiği proje, Akdeniz'i Kızıldeniz'e bağlayarak Avrupa-Asya deniz ticaretini kökten değiştirdi. TDV maddesi kanalı Fransa-Osmanlı ilişkilerinin Mısır'daki mali-siyasî boyutunun merkezine yerleştirir; kanal sonraki on yıllarda İngiliz-Fransız rekabetinin de odağı olacaktı.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1916-05-16",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransız diplomat François Georges-Picot ile İngiliz Mark Sykes arasında gizlice müzakere edilen antlaşma, Osmanlı'nın Arap topraklarını Fransız ve İngiliz nüfuz bölgelerine bölüştürdü. TDV maddesinde de kaydedilen bu gizli paylaşım, Ortadoğu'nun yüzyıl sonrasına kadar sürecek sınırlarının en tartışmalı temelini attı.",
+   "gerekce": "",
+   "yeni_metin": "Fransız diplomat François Georges-Picot ile İngiliz Mark Sykes arasında gizlice müzakere edilen antlaşma, Osmanlı'nın Arap topraklarını Fransız ve İngiliz nüfuz bölgelerine bölüştürdü. TDV maddesinde de kaydedilen bu gizli paylaşım, Ortadoğu'nun yüzyıl sonrasına kadar sürecek sınırlarının en tartışmalı temelini attı.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1917-04-17",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransa, İngiltere ve İtalya arasında imzalanan gizli antlaşma, Sykes-Picot düzenlemesine İtalya'nın Anadolu'daki pay taleplerini de eklemeyi öngördü; TDV maddesi bunu doğrudan Osmanlı topraklarının paylaşım zincirinin bir halkası olarak kaydeder. Antlaşma, savaş sonrası İtalya'nın Anadolu'ya asker çıkarmasının (1919) hukukî dayanaklarından biriydi.",
+   "gerekce": "",
+   "yeni_metin": "Fransa, İngiltere ve İtalya arasında imzalanan gizli antlaşma, Sykes-Picot düzenlemesine İtalya'nın Anadolu'daki pay taleplerini de eklemeyi öngördü; TDV maddesi bunu doğrudan Osmanlı topraklarının paylaşım zincirinin bir halkası olarak kaydeder. Antlaşma, savaş sonrası İtalya'nın Anadolu'ya asker çıkarmasının (1919) hukukî dayanaklarından biriydi.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1918-11-11",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Almanya, Compiègne ormanında bir tren vagonunda imzalanan ateşkesle silah bırakmayı kabul etti; dört yıllık, Fransız topraklarının büyük bölümünü harabeye çeviren savaş sona erdi. TDV maddesindeki 30 Ekim 1918 Mondros Mütarekesi ile aynı haftaya denk gelen bu tarih, Osmanlı ve Almanya cephelerinin aynı anda çöktüğü küresel dönüm noktasıdır.",
+   "gerekce": "",
+   "yeni_metin": "Almanya, Compiègne ormanında bir tren vagonunda imzalanan ateşkesle silah bırakmayı kabul etti; dört yıllık, Fransız topraklarının büyük bölümünü harabeye çeviren savaş sona erdi. TDV maddesindeki 30 Ekim 1918 Mondros Mütarekesi ile aynı haftaya denk gelen bu tarih, Osmanlı ve Almanya cephelerinin aynı anda çöktüğü küresel dönüm noktasıdır.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1920-04-25",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Konferans, Sykes-Picot'nun öngördüğü paylaşımı Milletler Cemiyeti manda sistemi çerçevesinde resmîleştirdi: Suriye ve Lübnan Fransız, Filistin ve Irak İngiliz mandası oldu. TDV maddesi bu tarihi doğrudan kaydeder; karar, bugünkü Suriye-Lübnan sınırlarının uluslararası hukuktaki temelidir.",
+   "gerekce": "",
+   "yeni_metin": "Konferans, Sykes-Picot'nun öngördüğü paylaşımı Milletler Cemiyeti manda sistemi çerçevesinde resmîleştirdi: Suriye ve Lübnan Fransız, Filistin ve Irak İngiliz mandası oldu. TDV maddesi bu tarihi doğrudan kaydeder; karar, bugünkü Suriye-Lübnan sınırlarının uluslararası hukuktaki temelidir.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1920-08-10",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransa'nın da imzacısı olduğu antlaşma, Osmanlı Devleti'ni parçalayıp Anadolu'nun büyük bölümünü yabancı nüfuz bölgelerine ayırdı; TDV maddesi bu tarihi doğrudan kaydeder. Antlaşma hiçbir zaman uygulanamadı — Millî Mücadele'nin zaferi onu üç yıl sonra Lozan'la geçersiz kılacaktı.",
+   "gerekce": "",
+   "yeni_metin": "Fransa'nın da imzacısı olduğu antlaşma, Osmanlı Devleti'ni parçalayıp Anadolu'nun büyük bölümünü yabancı nüfuz bölgelerine ayırdı; TDV maddesi bu tarihi doğrudan kaydeder. Antlaşma hiçbir zaman uygulanamadı — Millî Mücadele'nin zaferi onu üç yıl sonra Lozan'la geçersiz kılacaktı.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1921-10-20",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransa, Kilikya'daki (Adana-Maraş-Antep) işgal kuvvetlerini geri çekmeyi ve Türkiye Büyük Millet Meclisi hükümetini fiilen tanımayı kabul ederek Millî Mücadele karşısındaki ilk büyük itilaf devleti geri adımını attı. TDV maddesi bu antlaşmayı Hatay'ın (İskenderun Sancağı) özel statüsünün de başlangıcı olarak kaydeder.",
+   "gerekce": "",
+   "yeni_metin": "Fransa, Kilikya'daki (Adana-Maraş-Antep) işgal kuvvetlerini geri çekmeyi ve Türkiye Büyük Millet Meclisi hükümetini fiilen tanımayı kabul ederek Millî Mücadele karşısındaki ilk büyük itilaf devleti geri adımını attı. TDV maddesi bu antlaşmayı Hatay'ın (İskenderun Sancağı) özel statüsünün de başlangıcı olarak kaydeder.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_fransa.js",
+   "t": "1923-07-24",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Fransa'nın da imzacısı olduğu Lozan, Sevr'i tamamen geçersiz kılıp Türkiye Cumhuriyeti'nin bağımsızlığını ve bugünkü sınırlarının büyük bölümünü uluslararası hukukta tescil etti. TDV maddesi kaydını burada kapatır; bu dosyanın kapsamı da (1281-1923) bu antlaşmayla son buluyor.",
+   "gerekce": "",
+   "yeni_metin": "Fransa'nın da imzacısı olduğu Lozan, Sevr'i tamamen geçersiz kılıp Türkiye Cumhuriyeti'nin bağımsızlığını ve bugünkü sınırlarının büyük bölümünü uluslararası hukukta tescil etti. TDV maddesi kaydını burada kapatır; bu dosyanın kapsamı da (1281-1923) bu antlaşmayla son buluyor.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_guney_asya.js",
+   "t": "1724-01-01",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "[Racput — Amber] Amber racası, Bâbürlü padişahı Muhammed Şah'ın izniyle taş ve kireçten dev astronomi aletleri kurdurdu. Yantra Mantra adı verilen bu yapılar, teleskop çağının eşiğinde çıplak gözle ulaşılabilecek en yüksek hassasiyeti hedefliyordu.",
+   "gerekce": "'hassasiyet' teleskop cagi oncesi olcum kesinligi anlaminda -- tarih notu degil.",
+   "yeni_metin": "[Racput — Amber] Amber racası, Bâbürlü padişahı Muhammed Şah'ın izniyle taş ve kireçten dev astronomi aletleri kurdurdu. Yantra Mantra adı verilen bu yapılar, teleskop çağının eşiğinde çıplak gözle ulaşılabilecek en yüksek hassasiyeti hedefliyordu.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_guney_asya.js",
+   "t": "1888-01-01",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "[Travankur] Hint prenslikleri arasında ilk defa bir yasama meclisi burada toplandı. Danışma yetkisi sınırlıydı, fakat prenslik idaresinin temsilî kurumlara açılabileceğini gösteren örnek oldu ve 1904'te halk meclisiyle genişletildi.",
+   "gerekce": "'temsili kurumlar' = yasama organi anlaminda, tarih notu degil.",
+   "yeni_metin": "[Travankur] Hint prenslikleri arasında ilk defa bir yasama meclisi burada toplandı. Danışma yetkisi sınırlıydı, fakat prenslik idaresinin temsilî kurumlara açılabileceğini gösteren örnek oldu ve 1904'te halk meclisiyle genişletildi.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_habsburg.js",
+   "t": "1857-12-20",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "İmparator Franz Joseph, şehir surlarının kaldırılmasını ve iç şehrin çevresine temsilî yapılar ile parkların sıralanacağı bir bulvar yapılmasını emretti. Ringstrasse çağı (1857-1914) imparatorluk başkentinin kendini yeniden kurduğu dönemdir; Parlamento, Belediye, Üniversite, Opera ve müzeler bu hat üzerinde yükseldi.",
+   "gerekce": "'temsili yapilar' = anitsal binalar anlaminda, tarih notu degil.",
+   "yeni_metin": "İmparator Franz Joseph, şehir surlarının kaldırılmasını ve iç şehrin çevresine temsilî yapılar ile parkların sıralanacağı bir bulvar yapılmasını emretti. Ringstrasse çağı (1857-1914) imparatorluk başkentinin kendini yeniden kurduğu dönemdir; Parlamento, Belediye, Üniversite, Opera ve müzeler bu hat üzerinde yükseldi.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_ingiltere.js",
+   "t": "1829-04-13",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Yasa, Katoliklerin Parlamentoya girmesi ve çoğu kamu görevine gelmesi önündeki yüzyıllık yasal engelleri kaldırdı. Reform, özellikle İrlanda'daki Katolik nüfusun siyasî temsilinin önünü açtı.",
+   "gerekce": "'siyasi temsil' = parlamentoda temsil edilme anlaminda, tarih notu degil.",
+   "yeni_metin": "Yasa, Katoliklerin Parlamentoya girmesi ve çoğu kamu görevine gelmesi önündeki yüzyıllık yasal engelleri kaldırdı. Reform, özellikle İrlanda'daki Katolik nüfusun siyasî temsilinin önünü açtı.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_ingiltere.js",
+   "t": "1893-01-01",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Keir Hardie önderliğinde kurulan Bağımsız İşçi Partisi, işçi sınıfının doğrudan siyasî temsilini hedefleyen ilk örgütlü partilerden biriydi. Parti, on yıl sonra kurulacak İşçi Partisi'nin (Labour Party) temel yapı taşlarından biri oldu.",
+   "gerekce": "Ayni: 'siyasi temsil'.",
+   "yeni_metin": "Keir Hardie önderliğinde kurulan Bağımsız İşçi Partisi, işçi sınıfının doğrudan siyasî temsilini hedefleyen ilk örgütlü partilerden biriydi. Parti, on yıl sonra kurulacak İşçi Partisi'nin (Labour Party) temel yapı taşlarından biri oldu.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_ingiltere.js",
+   "t": "1918-02-06",
+   "alan": "b",
+   "kova": "mesru",
+   "eski_metin": "Halkın Temsili Yasası — kadınlara kısmi oy hakkı",
+   "gerekce": "'Halkin Temsili Yasasi' -- yasanin ozel adi, tarih notu degil.",
+   "yeni_metin": "Halkın Temsili Yasası — kadınlara kısmi oy hakkı",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1283-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Tebriz, ilk müslüman İlhanlı hükümdarı olan Ahmed Teküder zamanında (1282-1284) dönemin en önemli ticaret merkezlerinden biri hâline geldi. Abaka Han'ın İlhanlı başşehri yaptığı şehir, Arap coğrafyacılarının surları ve camileriyle övdüğü bir merkezdi. İlhanlı'nın İslâmlaşmasıyla ticaretin canlanması aynı yıllara denk gelir. ⚠️ TARİH HAKKINDA: kaynak saltanat aralığını veriyor, gün vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Tebriz, ilk müslüman İlhanlı hükümdarı olan Ahmed Teküder zamanında (1282-1284) dönemin en önemli ticaret merkezlerinden biri hâline geldi. Abaka Han'ın İlhanlı başşehri yaptığı şehir, Arap coğrafyacılarının surları ve camileriyle övdüğü bir merkezdi. İlhanlı'nın İslâmlaşmasıyla ticaretin canlanması aynı yıllara denk gelir.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: kaynak saltanat aralığını veriyor, gün vermiyor."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1313-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Olcaytu'nun Sultâniye'de yaptırdığı türbe İlhanlı sanatının bugüne ulaşan en görkemli eseridir; şehir hânedanın yıkılışından sonra hızla küçülmüş, geriye bu türbe kalmıştır. 🔴 KAYNAK HAKKINDA — AÇIKÇA: TDV'de Sultâniye ŞEHRİ maddesi BULUNAMADI. `sultaniyye` slug'ı HTTP 200 döndürüyor ve başlığı 'SULTÂNİYYE' yazıyor, ama açılan madde MEMLÜK ORDUSUNDAKİ KAPIKULU BİRLİKLERİDİR — şehirle ilgisi yoktur (`CLAUDE.md §4` ② tuzağı, gövde okunarak yakalandı). `sultaniye` · `sultaniye--sehir` · `sultaniyye--sehir` · `sultaniye-sehri` · `olcaytu-turbesi` sluglarının hepsi 302'dir. ⚠️ TARİH HAKKINDA: 1313 yılı bir BEYANDIR, TDV'den alınmamıştır.",
+   "gerekce": "Slug arama sureci (HTTP/govde/kaynak avi) -- tamamen editoryal.",
+   "yeni_metin": "Olcaytu'nun Sultâniye'de yaptırdığı türbe İlhanlı sanatının bugüne ulaşan en görkemli eseridir; şehir hânedanın yıkılışından sonra hızla küçülmüş, geriye bu türbe kalmıştır.",
+   "tasinan_not": "🔴 KAYNAK HAKKINDA — AÇIKÇA: TDV'de Sultâniye ŞEHRİ maddesi BULUNAMADI. `sultaniyye` slug'ı HTTP 200 döndürüyor ve başlığı 'SULTÂNİYYE' yazıyor, ama açılan madde MEMLÜK ORDUSUNDAKİ KAPIKULU BİRLİKLERİDİR — şehirle ilgisi yoktur (`CLAUDE.md §4` ② tuzağı, gövde okunarak yakalandı). `sultaniye` · `sultaniye--sehir` · `sultaniyye--sehir` · `sultaniye-sehri` · `olcaytu-turbesi` sluglarının hepsi 302'dir. ⚠️ TARİH HAKKINDA: 1313 yılı bir BEYANDIR, TDV'den alınmamıştır."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1310-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Gāzân Han zamanında bir dünya tarihi yazmakla görevlendirilmiş olan devlet adamı ve tarihçi Reşîdüddin Fazlullāh-ı Hemedânî eserini tamamlayarak Sultan Olcaytu'ya sundu. Câmiu't-tevârîh yalnız Moğolların değil Çin'in, Hindistan'ın, Frenkler'in ve İsrâiloğulları'nın tarihini de kapsar; dünya tarihi yazma fikrinin ilk gerçek örneğidir. Tebriz'in doğusundaki Rab'-i Reşîdî mahallesi bu eserin çoğaltıldığı bir kitap atölyesiydi. ⚠️ TARİH HAKKINDA: sunum yılı için kaynak gün vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Gāzân Han zamanında bir dünya tarihi yazmakla görevlendirilmiş olan devlet adamı ve tarihçi Reşîdüddin Fazlullāh-ı Hemedânî eserini tamamlayarak Sultan Olcaytu'ya sundu. Câmiu't-tevârîh yalnız Moğolların değil Çin'in, Hindistan'ın, Frenkler'in ve İsrâiloğulları'nın tarihini de kapsar; dünya tarihi yazma fikrinin ilk gerçek örneğidir. Tebriz'in doğusundaki Rab'-i Reşîdî mahallesi bu eserin çoğaltıldığı bir kitap atölyesiydi.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: sunum yılı için kaynak gün vermiyor."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1337-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Hasan-ı Büzürg, Merâga civarında Toğa Timur ile Şehzade Mûsâ'yı bozguna uğrattı; Mûsâ esir alınıp öldürüldü (1337). Toğa Timur doğuya çekildi ve Horasan'daki tahtını on altı yıl daha sürdürecektir. ⚠️ TARİH HAKKINDA: kaynak gün vermiyor, yıl kesindir.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Hasan-ı Büzürg, Merâga civarında Toğa Timur ile Şehzade Mûsâ'yı bozguna uğrattı; Mûsâ esir alınıp öldürüldü (1337). Toğa Timur doğuya çekildi ve Horasan'daki tahtını on altı yıl daha sürdürecektir.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: kaynak gün vermiyor, yıl kesindir."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1339-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Hasan-ı Kûçek, Ebû Said'in kız kardeşi ve Emîr Çoban'ın dul eşi Sâtî Beg Hatun'u 739 (1339) yılında ilhan ilân etti. İlhanlı tahtına oturan tek kadındır ve adına sikke kesilmiştir. Saltanatı bir yıl sürdü; ertesi yıl yerine yine Çobanlı adayı Süleyman geçirildi. ⚠️ TARİH HAKKINDA: kaynak hicrî 739 yılını veriyor, gün vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Hasan-ı Kûçek, Ebû Said'in kız kardeşi ve Emîr Çoban'ın dul eşi Sâtî Beg Hatun'u 739 (1339) yılında ilhan ilân etti. İlhanlı tahtına oturan tek kadındır ve adına sikke kesilmiştir. Saltanatı bir yıl sürdü; ertesi yıl yerine yine Çobanlı adayı Süleyman geçirildi.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: kaynak hicrî 739 yılını veriyor, gün vermiyor."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1343-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Hasan-ı Kûçek'in 1343'te ölümü Hasan-ı Büzürg'ü tehlikeli ve büyük bir düşmandan kurtardı; ancak yerine geçen kardeşi Melik Eşref döneminde de (1343-1355) taraflar arasındaki mücadele devam etti. Melik Eşref'in on iki yıllık idaresi Azerbaycan'da zulmüyle anılır ve sonunda halkın Altın Orda'yı davet etmesine yol açacaktır. ⚠️ TARİH HAKKINDA: kaynak yıl veriyor, gün vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Hasan-ı Kûçek'in 1343'te ölümü Hasan-ı Büzürg'ü tehlikeli ve büyük bir düşmandan kurtardı; ancak yerine geçen kardeşi Melik Eşref döneminde de (1343-1355) taraflar arasındaki mücadele devam etti. Melik Eşref'in on iki yıllık idaresi Azerbaycan'da zulmüyle anılır ve sonunda halkın Altın Orda'yı davet etmesine yol açacaktır.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: kaynak yıl veriyor, gün vermiyor."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1394-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Ahmed, Timur Semerkant'a dönünce Memlük Sultanı Berkuk'un yardımıyla Bağdat'ı geri aldı. 🔴 TARİH HAKKINDA — BULUNAMADI: TDV `celayirliler` maddesi 'Timur Semerkant'a dönünce' diyor ama YIL VERMİYOR. 1394 tarihi, Timur'un Bağdat'tan ayrılışı ile 1401'deki ikinci işgali arasındaki aralığın başına konmuş bir BEYANDIR; kesin değildir ve bu dosyada açıkça böyle işaretlenmiştir. Aynı belirsizlik `denetim/TDV-TARIH.md` KALEM 6'da da kayıtlıdır ve koordinatörün kararı beklenmektedir.",
+   "gerekce": "Ic-belge/koordinator karari bekleyen surec notu.",
+   "yeni_metin": "Ahmed, Timur Semerkant'a dönünce Memlük Sultanı Berkuk'un yardımıyla Bağdat'ı geri aldı.",
+   "tasinan_not": "🔴 TARİH HAKKINDA — BULUNAMADI: TDV `celayirliler` maddesi 'Timur Semerkant'a dönünce' diyor ama YIL VERMİYOR. 1394 tarihi, Timur'un Bağdat'tan ayrılışı ile 1401'deki ikinci işgali arasındaki aralığın başına konmuş bir BEYANDIR; kesin değildir ve bu dosyada açıkça böyle işaretlenmiştir. Aynı belirsizlik `denetim/TDV-TARIH.md` KALEM 6'da da kayıtlıdır ve koordinatörün kararı beklenmektedir."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1405-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Sultan Ahmed Celâyir, Timur-Yıldırım mücadelesini fırsat bilerek Bağdat'ı ele geçirdiyse de burayı Karakoyunlu Kara Yûsuf'a bırakmak zorunda kalmış, ancak Timur'un 1405'te ölümünden sonra tekrar Bağdat'a hâkim olabilmişti. Devletin son toparlanışıdır ve beş yıl sürecektir. ⚠️ TARİH HAKKINDA: kaynak 'Timur'un ölümünden sonra' diyor, gün vermiyor; madde Timur'un ölüm gününden birkaç ay sonrasına konuldu.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Sultan Ahmed Celâyir, Timur-Yıldırım mücadelesini fırsat bilerek Bağdat'ı ele geçirdiyse de burayı Karakoyunlu Kara Yûsuf'a bırakmak zorunda kalmış, ancak Timur'un 1405'te ölümünden sonra tekrar Bağdat'a hâkim olabilmişti. Devletin son toparlanışıdır ve beş yıl sürecektir.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: kaynak 'Timur'un ölümünden sonra' diyor, gün vermiyor; madde Timur'un ölüm gününden birkaç ay sonrasına konuldu."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1340-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Mes'ûd'un 741 (1340-41) yılında Nîşâbur'u ele geçirmesi, doğu komşusu Toğa Timur'u tedbir almaya sevketti. Horasan'ın en büyük şehirlerinden birinin bir köy isyanının eline geçmesi, İlhanlı sonrası boşluğun ne kadar derin olduğunu gösterir. ⚠️ TARİH HAKKINDA: kaynak hicrî 741 yılını veriyor (1340-41), gün vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Mes'ûd'un 741 (1340-41) yılında Nîşâbur'u ele geçirmesi, doğu komşusu Toğa Timur'u tedbir almaya sevketti. Horasan'ın en büyük şehirlerinden birinin bir köy isyanının eline geçmesi, İlhanlı sonrası boşluğun ne kadar derin olduğunu gösterir.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: kaynak hicrî 741 yılını veriyor (1340-41), gün vermiyor."
+  },
+  {
+   "dosya": "data\\kronoloji_iran_ardillari.js",
+   "t": "1424-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "TDV `luristan` maddesinin verdiği aralığa göre Lur-ı Büzürg (Hazaraspî) atabegliği 1424'te sona erdi; `devletler.js` künyesinin `t:1424-01-01` tarihi buna dayanır. İki yüz altmış dokuz yıllık hânedanın sonu, Timurlu Şahruh'un Fars ve Hûzistan'ı merkezî idareye bağladığı yıllara denk gelir. 🔴 KAYNAK SINIRI: TDV bu tarihin nasıl gerçekleştiğini ANLATMIYOR, yalnız aralığı veriyor — hânedanın sonunun ayrıntısı bu turda BULUNAMADI.",
+   "gerekce": "Kaynak-kapsami sureç notu.",
+   "yeni_metin": "TDV `luristan` maddesinin verdiği aralığa göre Lur-ı Büzürg (Hazaraspî) atabegliği 1424'te sona erdi; `devletler.js` künyesinin `t:1424-01-01` tarihi buna dayanır. İki yüz altmış dokuz yıllık hânedanın sonu, Timurlu Şahruh'un Fars ve Hûzistan'ı merkezî idareye bağladığı yıllara denk gelir.",
+   "tasinan_not": "🔴 KAYNAK SINIRI: TDV bu tarihin nasıl gerçekleştiğini ANLATMIYOR, yalnız aralığı veriyor — hânedanın sonunun ayrıntısı bu turda BULUNAMADI."
+  },
+  {
+   "dosya": "data\\kronoloji_ispanya.js",
+   "t": "1545-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Bugünkü Bolivya'da bulunan Potosí, kısa sürede dünyanın en büyük gümüş kaynağı hâline geldi; buradan çıkarılan gümüş, 16-17. yüzyıl Avrupa'sında \\\"Fiyat Devrimi\\\" olarak bilinen büyük enflasyonu tetikledi. Potosí için yerleşim veritabanında eşleşen bir kayıt bulunamadı.",
+   "gerekce": "Ic veritabani/eslestirme notu.",
+   "yeni_metin": "Bugünkü Bolivya'da bulunan Potosí, kısa sürede dünyanın en büyük gümüş kaynağı hâline geldi; buradan çıkarılan gümüş, 16-17. yüzyıl Avrupa'sında \\\"Fiyat Devrimi\\\" olarak bilinen büyük enflasyonu tetikledi.",
+   "tasinan_not": "Potosí için yerleşim veritabanında eşleşen bir kayıt bulunamadı."
+  },
+  {
+   "dosya": "data\\kronoloji_ispanya.js",
+   "t": "1596-06-30",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Essex Kontu komutasındaki İngiliz-Hollanda filosu Cádiz limanına baskın düzenledi, şehri yağmaladı ve limandaki İspanyol donanmasının büyük bölümünü yaktı. Baskın, Armada bozgunundan sonra İspanya'nın kendi kıyılarını bile koruyamadığının bir başka göstergesiydi. Cádiz için yerleşim kaydı bulunamadı.",
+   "gerekce": "Ic veritabani/eslestirme notu.",
+   "yeni_metin": "Essex Kontu komutasındaki İngiliz-Hollanda filosu Cádiz limanına baskın düzenledi, şehri yağmaladı ve limandaki İspanyol donanmasının büyük bölümünü yaktı. Baskın, Armada bozgunundan sonra İspanya'nın kendi kıyılarını bile koruyamadığının bir başka göstergesiydi.",
+   "tasinan_not": "Cádiz için yerleşim kaydı bulunamadı."
+  },
+  {
+   "dosya": "data\\kronoloji_ispanya.js",
+   "t": "1717-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Sevilla'daki nehir limanının Amerika ticareti için artan gemi boyutlarına elverişsiz hâle gelmesi üzerine, iki asırlık ticaret tekeli kurumu Cádiz'e nakledildi; bu, 18. yüzyıl İspanyol ticaret coğrafyasının yeniden şekillenmesinin ilk adımıydı. Cádiz için yerleşim kaydı bulunamadı.",
+   "gerekce": "Ic veritabani/eslestirme notu.",
+   "yeni_metin": "Sevilla'daki nehir limanının Amerika ticareti için artan gemi boyutlarına elverişsiz hâle gelmesi üzerine, iki asırlık ticaret tekeli kurumu Cádiz'e nakledildi; bu, 18. yüzyıl İspanyol ticaret coğrafyasının yeniden şekillenmesinin ilk adımıydı.",
+   "tasinan_not": "Cádiz için yerleşim kaydı bulunamadı."
+  },
+  {
+   "dosya": "data\\kronoloji_ispanya.js",
+   "t": "1810-09-24",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Fransız kuşatması altındaki Cádiz'de toplanan ulusal meclis, İspanya tarihinde ilk kez halk egemenliği ilkesine dayalı bir anayasa hazırlamaya başladı; hem yarımadalı hem Amerika kolonilerinden temsilcileri bir araya getiren meclis, liberal İspanyol siyasetinin doğum yeri sayılır. Cádiz için yerleşim kaydı bulunamadı.",
+   "gerekce": "Ic veritabani/eslestirme notu (kesik alinmis, tam metin dosyada okunacak).",
+   "yeni_metin": "Fransız kuşatması altındaki Cádiz'de toplanan ulusal meclis, İspanya tarihinde ilk kez halk egemenliği ilkesine dayalı bir anayasa hazırlamaya başladı; hem yarımadalı hem Amerika kolonilerinden temsilcileri bir araya getiren meclis, liberal İspanyol siyasetinin doğum yeri sayılır.",
+   "tasinan_not": "Cádiz için yerleşim kaydı bulunamadı."
+  },
+  {
+   "dosya": "data\\kronoloji_karakoyunlu.js",
+   "t": "1394-07-31",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Timur, Karakoyunlu'nun kilit müstahkem mevkii Avnik Kalesi'ni kuşattı; kale kumandanı Mısır Hoca kırk üç günlük direnişin ardından 2 Şevval 796 (31 Temmuz 1394) günü teslim oldu. Gün hassasiyetli bu kayıt, Timur'un Doğu Anadolu'yu sistematik olarak tasfiye ettiği seferin en somut halkasıdır. ⚠️ Avnik Kalesi'nin atlas verisinde yerleşim kaydı YOKTUR, bu yüzden `yer_id` boş bırakıldı.",
+   "gerekce": "yer_id ile ilgili ic not.",
+   "yeni_metin": "Timur, Karakoyunlu'nun kilit müstahkem mevkii Avnik Kalesi'ni kuşattı; kale kumandanı Mısır Hoca kırk üç günlük direnişin ardından 2 Şevval 796 (31 Temmuz 1394) günü teslim oldu. Gün hassasiyetli bu kayıt, Timur'un Doğu Anadolu'yu sistematik olarak tasfiye ettiği seferin en somut halkasıdır.",
+   "tasinan_not": "⚠️ Avnik Kalesi'nin atlas verisinde yerleşim kaydı YOKTUR, bu yüzden `yer_id` boş bırakıldı."
+  },
+  {
+   "dosya": "data\\kronoloji_kirim.js",
+   "t": "1521-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Kırım hanedanının Kazan Hanlığı üzerindeki nüfuzunun somut göstergesi: I. Mehmed Giray'ın kardeşi Sâhib Giray 1521 ilkbaharında Kazan'a gelip tahta oturdu — Giray hanedanının Volga havzasına uzanan siyasetinin bir parçası. ⚠️ TARİH HAKKINDA: TDV mevsim veriyor ('1521 ilkbaharı'), gün vermiyor; tarih alanına yıl yazıldı.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Kırım hanedanının Kazan Hanlığı üzerindeki nüfuzunun somut göstergesi: I. Mehmed Giray'ın kardeşi Sâhib Giray 1521 ilkbaharında Kazan'a gelip tahta oturdu — Giray hanedanının Volga havzasına uzanan siyasetinin bir parçası.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: TDV mevsim veriyor ('1521 ilkbaharı'), gün vermiyor; tarih alanına yıl yazıldı."
+  },
+  {
+   "dosya": "data\\kronoloji_kirim.js",
+   "t": "1666-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Seyahatnâme'sinin Kırım bölümünde Evliya Çelebi, mirzaların topraklarını çoğunlukla hıristiyan esirlere ektirdiğini ve bu esirlerin sayısının o dönemde yüz binlere ulaştığını aktarır; Kırım'dan Osmanlı ülkesine ve Mısır'a esir, kürk, deri, balık ürünleri, balmumu ve tuz sevkiyatı yapıldığını da belirtir. (Yıl yaklaşıktır — Evliya Çelebi'nin Kırım seyahati Seyahatnâme'nin 7. cildinde 1666-1667 olarak tarihlenir; TDV maddesi gözlemi aktarır ama kesin gün vermez.)",
+   "gerekce": "Kaynak/hassasiyet parantezi -- ic not.",
+   "yeni_metin": "Seyahatnâme'sinin Kırım bölümünde Evliya Çelebi, mirzaların topraklarını çoğunlukla hıristiyan esirlere ektirdiğini ve bu esirlerin sayısının o dönemde yüz binlere ulaştığını aktarır; Kırım'dan Osmanlı ülkesine ve Mısır'a esir, kürk, deri, balık ürünleri, balmumu ve tuz sevkiyatı yapıldığını da belirtir.",
+   "tasinan_not": "(Yıl yaklaşıktır — Evliya Çelebi'nin Kırım seyahati Seyahatnâme'nin 7. cildinde 1666-1667 olarak tarihlenir; TDV maddesi gözlemi aktarır ama kesin gün vermez.)"
+  },
+  {
+   "dosya": "data\\kronoloji_lehistan.js",
+   "t": "1444-11-10",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "II. Murad kumandasındaki Osmanlı ordusu haçlı ordusunu bozguna uğrattı; beş yüz atlıyla Osmanlı ordugâhına yüklenen genç kral atının düşmesi üzerine yeniçeriler tarafından öldürüldü. Polonya hafızasında \\\"Varnalı Władysław\\\" (Warneńczyk), Hristiyanlık uğruna ölen kral olarak anılır; cesedi hiç bulunamadığı için etrafında yüzyıllarca efsane dolaştı.",
+   "gerekce": "'bulunamadi' kralin CESEDININ bulunamamasi -- tarihi olay, veritabani notu degil.",
+   "yeni_metin": "II. Murad kumandasındaki Osmanlı ordusu haçlı ordusunu bozguna uğrattı; beş yüz atlıyla Osmanlı ordugâhına yüklenen genç kral atının düşmesi üzerine yeniçeriler tarafından öldürüldü. Polonya hafızasında \\\"Varnalı Władysław\\\" (Warneńczyk), Hristiyanlık uğruna ölen kral olarak anılır; cesedi hiç bulunamadığı için etrafında yüzyıllarca efsane dolaştı.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_misir.js",
+   "t": "1876-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "İsmâil Paşa'nın Süveyş Kanalı, ordu ve saray imarı için biriktirdiği aşırı dış borç ödenemez hâle gelince Mısır hazinesi resmen iflas etti; alacaklı devletlerin baskısıyla Düyûn-ı Umûmiyye (Kamu Borçları İdaresi) kuruldu ve Mısır'ın gelirleri doğrudan yabancı denetimine girdi. Bu, Mısır'ın mali egemenliğini fiilen kaybettiği andı — altı yıl sonraki İngiliz işgalinin zemini burada hazırlandı. Bulunamadı — TDV'nin bu konuyu ayrıntılı işleyen müstakil bir maddesine bu turda erişilemedi (ağ araçları arızalı); tarih ve olay standart tarih yazımıyla (Vatikiotis, The History of Modern Egypt) genel bilgi olarak yazıldı, yıl hassasiyetinde bırakıldı.",
+   "gerekce": "Ag arizasi + kaynak notu (Vatikiotis atfi comment'e tasinacak, silinmeyecek).",
+   "yeni_metin": "İsmâil Paşa'nın Süveyş Kanalı, ordu ve saray imarı için biriktirdiği aşırı dış borç ödenemez hâle gelince Mısır hazinesi resmen iflas etti; alacaklı devletlerin baskısıyla Düyûn-ı Umûmiyye (Kamu Borçları İdaresi) kuruldu ve Mısır'ın gelirleri doğrudan yabancı denetimine girdi. Bu, Mısır'ın mali egemenliğini fiilen kaybettiği andı — altı yıl sonraki İngiliz işgalinin zemini burada hazırlandı.",
+   "tasinan_not": "Bulunamadı — TDV'nin bu konuyu ayrıntılı işleyen müstakil bir maddesine bu turda erişilemedi (ağ araçları arızalı); tarih ve olay standart tarih yazımıyla (Vatikiotis, The History of Modern Egypt) genel bilgi olarak yazıldı, yıl hassasiyetinde bırakıldı."
+  },
+  {
+   "dosya": "data\\kronoloji_misir.js",
+   "t": "1879-06-26",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Mali iflasın sorumlusu sayılan İsmail Paşa, Osmanlı ve Avrupa devletlerinin ortak baskısıyla azledildi; yerine oğlu Tevfik Paşa hidiv oldu. Mısır'ı Süveyş Kanalı'na ve borç batağına sürükleyen hidiv, kurduğu krizin bedelini kendi tahtıyla ödedi. Bulunamadı — kesin gün TDV'de bu turda doğrulanamadı (ağ arızalı), standart tarih yazımıyla yıl hassasiyetinde yazıldı.",
+   "gerekce": "Ag arizasi + surec notu.",
+   "yeni_metin": "Mali iflasın sorumlusu sayılan İsmail Paşa, Osmanlı ve Avrupa devletlerinin ortak baskısıyla azledildi; yerine oğlu Tevfik Paşa hidiv oldu. Mısır'ı Süveyş Kanalı'na ve borç batağına sürükleyen hidiv, kurduğu krizin bedelini kendi tahtıyla ödedi.",
+   "tasinan_not": "Bulunamadı — kesin gün TDV'de bu turda doğrulanamadı (ağ arızalı), standart tarih yazımıyla yıl hassasiyetinde yazıldı."
+  },
+  {
+   "dosya": "data\\kronoloji_rusya.js",
+   "t": "1864-01-01",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Vilayet ve ilçe düzeyinde seçilmiş yerel meclisler (zemstvo) kuruldu; bunlar eğitim, sağlık ve altyapı hizmetlerinde önemli rol üstlendi ve Rusya'da temsilî özyönetimin ilk ciddi deneyimini oluşturdu.",
+   "gerekce": "'temsili ozyonetim' = yerel meclisler anlaminda, tarih notu degil.",
+   "yeni_metin": "Vilayet ve ilçe düzeyinde seçilmiş yerel meclisler (zemstvo) kuruldu; bunlar eğitim, sağlık ve altyapı hizmetlerinde önemli rol üstlendi ve Rusya'da temsilî özyönetimin ilk ciddi deneyimini oluşturdu.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_sirbistan.js",
+   "t": "1346-04-16",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Duşan kendini 'Sırpların ve Rumların çarı' ilan ederek Bizans'a rakip bir imparatorluk kurdu, başkentini Serez'e taşıdı. TDV maddesi olayı '1345'te' verip gün belirtmiyor; taç giyme töreninin gününü (Paskalya, 16 Nisan 1346, Üsküp) standart akademik literatür kesinleştiriyor.",
+   "gerekce": "Gunun nereden geldigini (Paskalya) aciklamak okura deger katiyor, surec sikayeti degil.",
+   "yeni_metin": "Duşan kendini 'Sırpların ve Rumların çarı' ilan ederek Bizans'a rakip bir imparatorluk kurdu, başkentini Serez'e taşıdı. TDV maddesi olayı '1345'te' verip gün belirtmiyor; taç giyme töreninin gününü (Paskalya, 16 Nisan 1346, Üsküp) standart akademik literatür kesinleştiriyor.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\kronoloji_sirbistan.js",
+   "t": "1806-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Kara Yorgi'nin kuvvetleri Belgrad kalesini ele geçirdi; TDV maddesi şehirdeki Müslüman halka yönelik büyük bir katliama girişildiğini belirtiyor. Belgrad'ın alınışı isyanın zirvesini oluşturdu, ama Osmanlı-Rus savaşının (1806-1812) gölgesinde kaldı. Gün kesin doğrulanamadı, YYYY-01-01.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Kara Yorgi'nin kuvvetleri Belgrad kalesini ele geçirdi; TDV maddesi şehirdeki Müslüman halka yönelik büyük bir katliama girişildiğini belirtiyor. Belgrad'ın alınışı isyanın zirvesini oluşturdu, ama Osmanlı-Rus savaşının (1806-1812) gölgesinde kaldı.",
+   "tasinan_not": "Gün kesin doğrulanamadı, YYYY-01-01."
+  },
+  {
+   "dosya": "data\\kronoloji_sirbistan.js",
+   "t": "1830-10-17",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Osmanlı Devleti'nin verdiği imtiyaz fermanıyla Sırbistan, Osmanlı'ya bağlı ama kendi prensi (Miloš Obrenović, kalıtsal unvanla) ve kendi idaresiyle yönetilen özerk bir prenslik hâline geldi. ⚠️ TARİH: devletler.js `sirbistan-prensligi` künyesi bu olayı `1830-08-30` olarak veriyor; TDV maddesinin kendi cümlesi '17 Ekim 1830' diyor. `CLAUDE.md §4` gereği TDV esas alındı, çelişki bildirildi (M-1021).",
+   "gerekce": "Ic-belge capraz referans + mesaj-id (M-1021) -- tamamen editoryal.",
+   "yeni_metin": "Osmanlı Devleti'nin verdiği imtiyaz fermanıyla Sırbistan, Osmanlı'ya bağlı ama kendi prensi (Miloš Obrenović, kalıtsal unvanla) ve kendi idaresiyle yönetilen özerk bir prenslik hâline geldi.",
+   "tasinan_not": "⚠️ TARİH: devletler.js `sirbistan-prensligi` künyesi bu olayı `1830-08-30` olarak veriyor; TDV maddesinin kendi cümlesi '17 Ekim 1830' diyor. `CLAUDE.md §4` gereği TDV esas alındı, çelişki bildirildi (M-1021)."
+  },
+  {
+   "dosya": "data\\kronoloji_sirbistan.js",
+   "t": "1867-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Özerk Sırp yönetimi, Osmanlı askerî idaresinde kalan son dört kaledeki (Belgrad, Fethülislâm, Semendire, Böğürdelen) garnizonların geri çekilmesini sağladı; Sırbistan'daki fiilî Osmanlı askerî varlığı burada sona erdi ve tam bağımsızlığa giden yolda kritik bir eşik aşıldı. TDV gün vermiyor, YYYY-01-01.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Özerk Sırp yönetimi, Osmanlı askerî idaresinde kalan son dört kaledeki (Belgrad, Fethülislâm, Semendire, Böğürdelen) garnizonların geri çekilmesini sağladı; Sırbistan'daki fiilî Osmanlı askerî varlığı burada sona erdi ve tam bağımsızlığa giden yolda kritik bir eşik aşıldı.",
+   "tasinan_not": "TDV gün vermiyor, YYYY-01-01."
+  },
+  {
+   "dosya": "data\\olaylar.js",
+   "t": "1473-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1473, Otlukbeli sonrası (TDV ay/gün vermiyor)",
+   "gerekce": "gun alani DOGRUDAN ekrana basiliyor (app.js olayTarihYazi) -- H-0006'nin tam yeri.",
+   "yeni_metin": "1473, Otlukbeli sonrası",
+   "tasinan_not": "(TDV ay/gün vermiyor)"
+  },
+  {
+   "dosya": "data\\olaylar.js",
+   "t": "1692-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1692 (TDV yalnız yılı veriyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1692",
+   "tasinan_not": "1692 (TDV yalnız yılı veriyor)"
+  },
+  {
+   "dosya": "data\\olaylar.js",
+   "t": "1715-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1715, Mora seferi sırasında (TDV yalnız yılı veriyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1715, Mora seferi sırasında",
+   "tasinan_not": "(TDV yalnız yılı veriyor)"
+  },
+  {
+   "dosya": "data\\olaylar.js",
+   "t": "1798-06-12",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "12 Haziran 1798 (TDV yalnız yılı veriyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "12 Haziran 1798",
+   "tasinan_not": "(TDV yalnız yılı veriyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek10.js",
+   "t": "1912-10-08",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti. ⚠️ Kronolojide bu olay bugüne kadar ay hassasiyetli `1912-10` olarak duruyordu; CLAUDE.md §8 gün yazılmasını şart koşuyor.",
+   "gerekce": "Onceki-durum + kural-atfi, editoryal.",
+   "yeni_metin": "Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti.",
+   "tasinan_not": "⚠️ Kronolojide bu olay bugüne kadar ay hassasiyetli `1912-10` olarak duruyordu; CLAUDE.md §8 gün yazılmasını şart koşuyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek10.js",
+   "t": "1469-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1468-1469 (TDV kesin gün vermiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1468-1469",
+   "tasinan_not": "(TDV kesin gün vermiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek11.js",
+   "t": "1422-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Çelebi Mehmed 1414-15'te İzmir'i alıp Cüneyd Bey'i Niğbolu sancak beyliğine göndererek Aydın-ili'ni Osmanlı idaresine bağlamıştı. Cüneyd, Çelebi Mehmed'in ölümünden sonra Bizans'ın taht iddiacısı olarak öne sürdüğü Mustafa Çelebi'nin yanında yeniden sahneye çıktı ve ona vezirlik dahi yaptı. II. Murad, eski beyliğini geri vereceği vaadiyle onu bu ittifaktan ayırdı; Cüneyd de İzmir'e dönüp Ayasuluk'u ele geçirdi ve Aydınoğlu Mustafa Bey'i öldürerek beyliğin başına geçti. Böylece Aydın-ili, Düzmece Mustafa buhranının içinden Osmanlı idaresinden çıkmış olarak doğdu. Yılın ayı ve günü kaynakta bulunmadığı için tarih yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Çelebi Mehmed 1414-15'te İzmir'i alıp Cüneyd Bey'i Niğbolu sancak beyliğine göndererek Aydın-ili'ni Osmanlı idaresine bağlamıştı. Cüneyd, Çelebi Mehmed'in ölümünden sonra Bizans'ın taht iddiacısı olarak öne sürdüğü Mustafa Çelebi'nin yanında yeniden sahneye çıktı ve ona vezirlik dahi yaptı. II. Murad, eski beyliğini geri vereceği vaadiyle onu bu ittifaktan ayırdı; Cüneyd de İzmir'e dönüp Ayasuluk'u ele geçirdi ve Aydınoğlu Mustafa Bey'i öldürerek beyliğin başına geçti. Böylece Aydın-ili, Düzmece Mustafa buhranının içinden Osmanlı idaresinden çıkmış olarak doğdu.",
+   "tasinan_not": "Yılın ayı ve günü kaynakta bulunmadığı için tarih yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek11.js",
+   "t": "1426-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1426 (829 h.; TDV iki maddede 1425-26 ve 1426 diyor, gün yok)",
+   "gerekce": "Hicri yil (829 h.) tutulur, TDV-celiskisi notu tasinir.",
+   "yeni_metin": "1426 (829 h.",
+   "tasinan_not": "; TDV iki maddede 1425-26 ve 1426 diyor, gün yok)"
+  },
+  {
+   "dosya": "data\\olaylar_ek11.js",
+   "t": "1510-12-02",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1510 sonu (916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
+   "gerekce": "Hicri yil (916 h.) tutulur, surec notu tasinir.",
+   "yeni_metin": "1510 sonu (916 h.",
+   "tasinan_not": "; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek13.js",
+   "t": "1569-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1569 (TDV `tunus`: \\\"1569'daki ikinci müdahale\\\" · TDV `kilic-ali-pasa`: sefere çıkış Şevval 977 / Mart 1570 · batı literatürü: Ekim 1569'da hareket — gün hiçbirinde YOK)",
+   "gerekce": "Kaynak-tartismasi ic not (slug adlari icerir).",
+   "yeni_metin": "1569",
+   "tasinan_not": "(TDV `tunus`: \\\"1569'daki ikinci müdahale\\\" · TDV `kilic-ali-pasa`: sefere çıkış Şevval 977 / Mart 1570 · batı literatürü: Ekim 1569'da hareket — gün hiçbirinde YOK)"
+  },
+  {
+   "dosya": "data\\olaylar_ek13.js",
+   "t": "1488-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1488 (kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal. Gün hiçbirinde yok)",
+   "gerekce": "Kaynak-ayrisimi (himaye/isgal) okura birakilir, sadece 'gun yok' ibaresi tasinir.",
+   "yeni_metin": "1488 (kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal",
+   "tasinan_not": ". Gün hiçbirinde yok)"
+  },
+  {
+   "dosya": "data\\olaylar_ek13.js",
+   "t": "1549-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1549 (TDV `fas` 1550 der ve Kasrüssagīr ile birlikte anar; gün hiçbirinde yok)",
+   "gerekce": "Slug-adli ic not.",
+   "yeni_metin": "1549",
+   "tasinan_not": "(TDV `fas` 1550 der ve Kasrüssagīr ile birlikte anar; gün hiçbirinde yok)"
+  },
+  {
+   "dosya": "data\\olaylar_ek13.js",
+   "t": "1521-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1521 (TDV: \\\"Portekizliler, 1521'de Bahreyn'i ele geçirdiler\\\"; ay ve gün yok)",
+   "gerekce": "Alinti+surec notu, tasinir.",
+   "yeni_metin": "1521",
+   "tasinan_not": "(TDV: \\\"Portekizliler, 1521'de Bahreyn'i ele geçirdiler\\\"; ay ve gün yok)"
+  },
+  {
+   "dosya": "data\\olaylar_ek13.js",
+   "t": "1783-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1783 (TDV: \\\"Bahreyn 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hâkimiyetine girdi\\\"; ay ve gün yok)",
+   "gerekce": "Alinti+surec notu, tasinir.",
+   "yeni_metin": "1783",
+   "tasinan_not": "(TDV: \\\"Bahreyn 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hâkimiyetine girdi\\\"; ay ve gün yok)"
+  },
+  {
+   "dosya": "data\\olaylar_ek13.js",
+   "t": "1516-05-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "Mayıs 1517 (TDV `mardin`: şehrin zaptı \\\"1516 sonlarında VEYA Mayıs 1517\\\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \\\"kalesi ancak dokuz ay sonra teslim alındı\\\". Gün hiçbirinde YOK)",
+   "gerekce": "Slug-adli surec notu.",
+   "yeni_metin": "Mayıs 1517",
+   "tasinan_not": "(TDV `mardin`: şehrin zaptı \\\"1516 sonlarında VEYA Mayıs 1517\\\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \\\"kalesi ancak dokuz ay sonra teslim alındı\\\". Gün hiçbirinde YOK)"
+  },
+  {
+   "dosya": "data\\olaylar_ek13.js",
+   "t": "1362-03-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "Mart 1362 (gün bilinmiyor; kaynakların bir kısmı Nisan 1362 der. `padisahlar.js` 1362-03 taşıyor)",
+   "gerekce": "Butun parantez (kaynak-ayrisimi + ic-dosya atfi) tasinir; temiz 'Mart 1362' kalir.",
+   "yeni_metin": "Mart 1362",
+   "tasinan_not": "(gün bilinmiyor; kaynakların bir kısmı Nisan 1362 der. `padisahlar.js` 1362-03 taşıyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1402-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Halk arasında Ulucami (Câmi-i Atîk) adıyla da bilinen Eskicami'nin yapımına Emîr Süleyman Çelebi tarafından 1402-1403'te başlandı. Çok kubbeli cami geleneğinin Edirne'deki en eski ve en gösterişli örneklerinden sayılır; TDV maddesi tamamlanma tarihini vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Halk arasında Ulucami (Câmi-i Atîk) adıyla da bilinen Eskicami'nin yapımına Emîr Süleyman Çelebi tarafından 1402-1403'te başlandı. Çok kubbeli cami geleneğinin Edirne'deki en eski ve en gösterişli örneklerinden sayılır;",
+   "tasinan_not": "TDV maddesi tamamlanma tarihini vermiyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1648-01-01",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Kâtib Çelebi, Batı'nın coğrafî keşifleri karşısında Osmanlı coğrafya bilgisindeki boşluğu doldurmak amacıyla Cihannümâ'nın ilk telifine 1648'de başladı. Bu ilk versiyon, bazı Avrupa ülkeleri hakkında yeterli kaynak bulunamadığı için yarım kaldı.",
+   "gerekce": "'kaynak bulunamadigi icin yarim kaldi' -- KATIB CELEBI'NIN kendi eserinin tarihi, veritabani notu degil.",
+   "yeni_metin": "Kâtib Çelebi, Batı'nın coğrafî keşifleri karşısında Osmanlı coğrafya bilgisindeki boşluğu doldurmak amacıyla Cihannümâ'nın ilk telifine 1648'de başladı. Bu ilk versiyon, bazı Avrupa ülkeleri hakkında yeterli kaynak bulunamadığı için yarım kaldı.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1863-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "1856'da Kırım Savaşı sonrası dış borç ödemelerini yönetmek üzere Londra merkezli, İngiliz sermayeli Bank-ı Osmanî kurulmuştu. 1863'te Fransız-İngiliz ortak grubuna Bank-ı Osmanî-i Şâhâne (Osmanlı Bankası) adıyla yeni bir banka kurulması izni verildi; kurum sonradan banknot çıkarma yetkisi de aldı. (TDV'de müstakil bir Osmanlı Bankası maddesi bulunamadı; bilgi Abdülaziz biyografi maddesinden alınmıştır.)",
+   "gerekce": "Kaynak-atfi parantezi tasinir (Abdulaziz maddesinden alindigi bilgisi korunur).",
+   "yeni_metin": "1856'da Kırım Savaşı sonrası dış borç ödemelerini yönetmek üzere Londra merkezli, İngiliz sermayeli Bank-ı Osmanî kurulmuştu. 1863'te Fransız-İngiliz ortak grubuna Bank-ı Osmanî-i Şâhâne (Osmanlı Bankası) adıyla yeni bir banka kurulması izni verildi; kurum sonradan banknot çıkarma yetkisi de aldı.",
+   "tasinan_not": "(TDV'de müstakil bir Osmanlı Bankası maddesi bulunamadı; bilgi Abdülaziz biyografi maddesinden alınmıştır.)"
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1850-06-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Tanzimat döneminin hukuk reformları çerçevesinde Batılı devletlerden tercüme ve iktibas yoluyla yeni kanunlar alındı: ceza kanunu 1840'ta, ticaret kanunu 1850'de, arazi kanunu 1857'de yürürlüğe girdi. Ticaret Kanunnâmesi, Osmanlı ticaret hukukunun modern ilk kodifikasyonuydu. (TDV'de müstakil bir Ticaret Kanunu maddesi bulunamadı; bilgi Abdülmecid biyografi maddesinden alınmıştır.)",
+   "gerekce": "Kaynak-atfi parantezi tasinir.",
+   "yeni_metin": "Tanzimat döneminin hukuk reformları çerçevesinde Batılı devletlerden tercüme ve iktibas yoluyla yeni kanunlar alındı: ceza kanunu 1840'ta, ticaret kanunu 1850'de, arazi kanunu 1857'de yürürlüğe girdi. Ticaret Kanunnâmesi, Osmanlı ticaret hukukunun modern ilk kodifikasyonuydu.",
+   "tasinan_not": "(TDV'de müstakil bir Ticaret Kanunu maddesi bulunamadı; bilgi Abdülmecid biyografi maddesinden alınmıştır.)"
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1864-07-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1861-1864 arası, en yoğunu 1864 (TDV kesin gün vermiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1861-1864 arası, en yoğunu 1864",
+   "tasinan_not": "(TDV kesin gün vermiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek15.js",
+   "t": "1610-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1610 (yıl biliniyor, gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1610",
+   "tasinan_not": "1610 (yıl biliniyor, gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek15.js",
+   "t": "1614-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1614 (yıl biliniyor, gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1614",
+   "tasinan_not": "1614 (yıl biliniyor, gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek15.js",
+   "t": "1673-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1673 (yıl biliniyor, gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1673",
+   "tasinan_not": "1673 (yıl biliniyor, gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek15.js",
+   "t": "1359-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Seyyid Kıvâmüddin Mar'aşî, Serbedârîlerin Horasan'da açtığı yoldan giderek 760 (1359) yılında Âmül'ü ele geçirdi ve Hazar'ın güney kıyısında bir seyyid devleti kurdu. Hânedan Sârî, Bârfurûş ve çevresine yayıldı; Timur'un seferlerinde sarsıldı, Safevî I. Şah Abbas döneminde dağıtıldı. ⚠️ Gün bilinmiyor: TDV hicrî 760 yılını verir, gün vermez — tarih yıl beyanıdır. Bitiş için de TDV yıl vermiyor; veride kullanılan 1596 ikincil bir kaynaktan gelir ve künyede açıkça öyle işaretlidir.",
+   "gerekce": "Tarih-hassasiyeti sureç notu (bitis tarihi kaynagi da dahil).",
+   "yeni_metin": "Seyyid Kıvâmüddin Mar'aşî, Serbedârîlerin Horasan'da açtığı yoldan giderek 760 (1359) yılında Âmül'ü ele geçirdi ve Hazar'ın güney kıyısında bir seyyid devleti kurdu. Hânedan Sârî, Bârfurûş ve çevresine yayıldı; Timur'un seferlerinde sarsıldı, Safevî I. Şah Abbas döneminde dağıtıldı.",
+   "tasinan_not": "⚠️ Gün bilinmiyor: TDV hicrî 760 yılını verir, gün vermez — tarih yıl beyanıdır. Bitiş için de TDV yıl vermiyor; veride kullanılan 1596 ikincil bir kaynaktan gelir ve künyede açıkça öyle işaretlidir."
+  },
+  {
+   "dosya": "data\\olaylar_ek15.js",
+   "t": "1371-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Ali Kiyâ ailesiyle birlikte Gîlân'a dönerek 773 (1371-72) yılında Lâhîcan merkezli Kârkiyâ hâkimiyetini kurdu; hânedan Hazar'ın güneybatı kıyısını iki yüzyıldan uzun süre elinde tuttu ve Safevî I. Şah Abbas'ın 1592'de bölgeyi ilhakına kadar sürdü. ⚠️ Tarih düzeltmesi: TDV'nin genel Gîlân maddesi 1307'de bir otorite boşluğundan söz eder ve Kârkiyâ'nın ne zaman hâkim olduğunu belirtmez; Encyclopaedia Iranica'nın hânedana ayrılmış maddesi kuruluşu 773/1371-72 verir. Aradaki 64 yıl için harita İlhanlı gösterir. Gün bilinmiyor, tarih yıl beyanıdır.",
+   "gerekce": "Sadece son cumle tasinir; onceki TDV/Iranica karsilastirmasi okura deger katan icerik, KALIR.",
+   "yeni_metin": "Ali Kiyâ ailesiyle birlikte Gîlân'a dönerek 773 (1371-72) yılında Lâhîcan merkezli Kârkiyâ hâkimiyetini kurdu; hânedan Hazar'ın güneybatı kıyısını iki yüzyıldan uzun süre elinde tuttu ve Safevî I. Şah Abbas'ın 1592'de bölgeyi ilhakına kadar sürdü. ⚠️ Tarih düzeltmesi: TDV'nin genel Gîlân maddesi 1307'de bir otorite boşluğundan söz eder ve Kârkiyâ'nın ne zaman hâkim olduğunu belirtmez; Encyclopaedia Iranica'nın hânedana ayrılmış maddesi kuruluşu 773/1371-72 verir. Aradaki 64 yıl için harita İlhanlı gösterir.",
+   "tasinan_not": "Gün bilinmiyor, tarih yıl beyanıdır."
+  },
+  {
+   "dosya": "data\\olaylar_ek16.js",
+   "t": "1335-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1335 (yıl biliniyor, gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1335",
+   "tasinan_not": "1335 (yıl biliniyor, gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek16.js",
+   "t": "1340-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "TDV'nin Celâyirliler maddesine göre İlhanlı emîri Noyan'ın torunu Hasan-ı Büzürg, İlhanlı hükümdarı Ebû Said Bahadır Han'ın ölümüyle patlak veren taht kavgalarından yararlanarak 1340'ta Tebriz merkezli bağımsız bir devlet kurdu. Celayirliler böylece Azerbaycan ve çevresinde İlhanlı sonrası boşluğu dolduran ilk büyük hânedan oldu; halefi Üveys döneminde (1356-1374) toprakları Musul ve Diyarbekir'e kadar genişleyecektir. ⚠️ Aynı gün, İlhanlı çöküşünün başka bir ucunda Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; bu tekil kayıt için ayrı bir kaynak bulunamadı.",
+   "gerekce": "Ic-veri capraz not + 'ayri kaynak bulunamadi', editoryal.",
+   "yeni_metin": "TDV'nin Celâyirliler maddesine göre İlhanlı emîri Noyan'ın torunu Hasan-ı Büzürg, İlhanlı hükümdarı Ebû Said Bahadır Han'ın ölümüyle patlak veren taht kavgalarından yararlanarak 1340'ta Tebriz merkezli bağımsız bir devlet kurdu. Celayirliler böylece Azerbaycan ve çevresinde İlhanlı sonrası boşluğu dolduran ilk büyük hânedan oldu; halefi Üveys döneminde (1356-1374) toprakları Musul ve Diyarbekir'e kadar genişleyecektir.",
+   "tasinan_not": "⚠️ Aynı gün, İlhanlı çöküşünün başka bir ucunda Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; bu tekil kayıt için ayrı bir kaynak bulunamadı."
+  },
+  {
+   "dosya": "data\\olaylar_ek16.js",
+   "t": "1527-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "TDV'nin Demak maddesine göre Cava'nın ilk bağımsız Müslüman devleti olan Demak Sultanlığı, XV. yüzyılın son çeyreğinde Raden Patah tarafından kuruldu; Cava kaynaklarına göre çökmekte olan Hindu-Budist Majapahit Krallığı, Demak'ın saldırılarıyla ortadan kalktı. 1527'de Demak, Çin kaynaklarının XI. yüzyıldan beri Majapahit hükümdarları için önemli bir liman olarak andığı Tuban'ı fethetti — bu, Majapahit'in son kalıntılarının da Demak'a bağlandığı yıldır ve Cava'nın büyük bölümünün İslâmlaşma sürecinin dönüm noktasıdır. ⚠️ TDV tam gün vermiyor; 1527-01-01 yıl beyanıdır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "TDV'nin Demak maddesine göre Cava'nın ilk bağımsız Müslüman devleti olan Demak Sultanlığı, XV. yüzyılın son çeyreğinde Raden Patah tarafından kuruldu; Cava kaynaklarına göre çökmekte olan Hindu-Budist Majapahit Krallığı, Demak'ın saldırılarıyla ortadan kalktı. 1527'de Demak, Çin kaynaklarının XI. yüzyıldan beri Majapahit hükümdarları için önemli bir liman olarak andığı Tuban'ı fethetti — bu, Majapahit'in son kalıntılarının da Demak'a bağlandığı yıldır ve Cava'nın büyük bölümünün İslâmlaşma sürecinin dönüm noktasıdır.",
+   "tasinan_not": "⚠️ TDV tam gün vermiyor; 1527-01-01 yıl beyanıdır."
+  },
+  {
+   "dosya": "data\\olaylar_ek16.js",
+   "t": "1884-07-18",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "TDV'nin Somali maddesine göre Zeyla, Berberâ ve Tâcûre 1884'te İngilizler tarafından Somaliland adıyla sömürgeleştirildi; standart akademik kaynağa göre bu süreç Berbera'da 21 Ramazan 1301'e (14 Temmuz 1884) rastlayan Habar Avel kabilesiyle imzalanan antlaşmayla başladı ve 1884-1886 arasında Gadabursi, Habar Tolcaala, Habar Gerhacis, İse ve Warsangeli kabileleriyle benzer antlaşmalar imzalanarak genişledi; İngiltere karşılığında askerî koruma vaat etti. Bu antlaşmalar zinciri 1887'de resmî Britanya Somaliland Himayesi'nin ilânına zemin hazırladı. ⚠️ TDV kesin gün vermiyor; tam tarih standart akademik kaynağa (antlaşma metinleri) dayanıyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "TDV'nin Somali maddesine göre Zeyla, Berberâ ve Tâcûre 1884'te İngilizler tarafından Somaliland adıyla sömürgeleştirildi; standart akademik kaynağa göre bu süreç Berbera'da 21 Ramazan 1301'e (14 Temmuz 1884) rastlayan Habar Avel kabilesiyle imzalanan antlaşmayla başladı ve 1884-1886 arasında Gadabursi, Habar Tolcaala, Habar Gerhacis, İse ve Warsangeli kabileleriyle benzer antlaşmalar imzalanarak genişledi; İngiltere karşılığında askerî koruma vaat etti. Bu antlaşmalar zinciri 1887'de resmî Britanya Somaliland Himayesi'nin ilânına zemin hazırladı.",
+   "tasinan_not": "⚠️ TDV kesin gün vermiyor; tam tarih standart akademik kaynağa (antlaşma metinleri) dayanıyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek17.js",
+   "t": "1606-10-11",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Arnavutluk'un İlbasan kasabasından devşirme olarak 1562-63 yıllarında saraya alınan Mehmed Ağa, Mimar Sinan'ın yanında yetişerek 11 Ekim 1606'da Osmanlı başmimarlığına getirildi. TDV İslâm Ansiklopedisi çağdaş bir kaynağın onu 'yumuşak huylu, alçak gönüllü, sözünün eri, dindar ve zeki' diye tarif ettiğini aktarır. Üç yıl sonra I. Ahmed'in emriyle Sultanahmet Camii'nin inşasına girişecek olan Mehmed Ağa, Kâbe'deki onarımlardan İstanbul ve Edirne'deki çok sayıda çeşme ve camiye kadar geniş bir esere imza attı. ⚠️ TDV bu maddede altı minarenin Mekke'deki Kâbe ile 'eşitlik' iddiasına yol açtığına dair yaygın popüler anlatıyı DOĞRULAMIYOR — yalnız 'o zamana kadar denenmemiş bir düzenleme' olduğunu kaydediyor; rivayet TDV'de bulunamadı.",
+   "gerekce": "Alti minarenin Kabe efsanesini TDV'nin dogrulamadigini soylemek okura deger katan tarihi bilgi -- surec sikayeti degil (⚠️ isareti kozmetik olarak kaldirilabilir, oneri notu).",
+   "yeni_metin": "Arnavutluk'un İlbasan kasabasından devşirme olarak 1562-63 yıllarında saraya alınan Mehmed Ağa, Mimar Sinan'ın yanında yetişerek 11 Ekim 1606'da Osmanlı başmimarlığına getirildi. TDV İslâm Ansiklopedisi çağdaş bir kaynağın onu 'yumuşak huylu, alçak gönüllü, sözünün eri, dindar ve zeki' diye tarif ettiğini aktarır. Üç yıl sonra I. Ahmed'in emriyle Sultanahmet Camii'nin inşasına girişecek olan Mehmed Ağa, Kâbe'deki onarımlardan İstanbul ve Edirne'deki çok sayıda çeşme ve camiye kadar geniş bir esere imza attı. ⚠️ TDV bu maddede altı minarenin Mekke'deki Kâbe ile 'eşitlik' iddiasına yol açtığına dair yaygın popüler anlatıyı DOĞRULAMIYOR — yalnız 'o zamana kadar denenmemiş bir düzenleme' olduğunu kaydediyor; rivayet TDV'de bulunamadı.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\olaylar_ek17.js",
+   "t": "1639-01-20",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer. ⚠️ RİVAYET DOĞRULANAMADI: kızlarağasının onu bir odaya kilitlediğine dair halk arasında anlatılan hikâye TDV maddesinde yer almıyor; madde yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtiyor.",
+   "gerekce": "Kizlar-agasi rivayetinin TDV'de olmadigini soylemek okura deger katan tarihi bilgi (⚠️ isareti kozmetik).",
+   "yeni_metin": "10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer. ⚠️ RİVAYET DOĞRULANAMADI: kızlarağasının onu bir odaya kilitlediğine dair halk arasında anlatılan hikâye TDV maddesinde yer almıyor; madde yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtiyor.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\olaylar_ek17.js",
+   "t": "1687-08-01",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "⚠️ TDV'de bu olayla ilgili mizahi/eğlenceli bir rivayet bulunamadı — olayın ciddi seyri şöyle: Mohaç bozgunundan (Ağustos 1687) sonra ulûfesi ödenmeyen ordu isyan edip İstanbul'a yürüdü. IV. Mehmed, sadâret mührünü kaçıran Süleyman Paşa'yı öldürtüp başını askere gösterdi ve av edevatıyla tazılarını dağıtarak tövbe ettiğini ilan etti — ama bu jest tahtını kurtarmaya yetmedi, birkaç ay sonra hal edildi.",
+   "gerekce": "Mizahi rivayetin TDV'de olmadigi + ciddi olay anlatimi -- meşru cerceveleme (⚠️ isareti kozmetik).",
+   "yeni_metin": "⚠️ TDV'de bu olayla ilgili mizahi/eğlenceli bir rivayet bulunamadı — olayın ciddi seyri şöyle: Mohaç bozgunundan (Ağustos 1687) sonra ulûfesi ödenmeyen ordu isyan edip İstanbul'a yürüdü. IV. Mehmed, sadâret mührünü kaçıran Süleyman Paşa'yı öldürtüp başını askere gösterdi ve av edevatıyla tazılarını dağıtarak tövbe ettiğini ilan etti — ama bu jest tahtını kurtarmaya yetmedi, birkaç ay sonra hal edildi.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\olaylar_ek17.js",
+   "t": "1552-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "TDV'nin Tilimsan maddesine göre 960'ta (1553) Cezayir'den sevkedilen büyük bir ordu, Salih Reis kumandasında şehri kesin biçimde ele geçirdi ve üç asırlık Zeyyânî hânedanına son verdi. Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri Tuggurt'u aldı, Vargla'ya ilerledi, iki sultanlık haraca bağlandı; yol üzerindeki Biskra'ya kalıcı bir Osmanlı garnizonu bırakıldı. Böylece Cezayir Ocaklığı'nın sınırı ilk kez Tell Atlası'nı aşıp Sahra kıyısına dayandı. ⚠️ Mustagānim'in kendi büyük olayı bu tarihte DEĞİL: Hasan Paşa'nın İspanyol Kontu Alcaudete'yi yenip Kuzey Afrika'daki İspanyol taarruzlarını bitirdiği asıl muharebe 1558'dedir. Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye ve el-Vâdî için ne TDV ne standart kaynaklar tek bir fetih günü verir — bulunamadı, aynı genişleme sürecinin parçası sayıldı.",
+   "gerekce": "Sadece bu son cumle (metodoloji) tasinir; Mustaganim tarih-karisikligi uyarisi okura deger katar, KALIR (⚠️ kozmetik kaldirilir).",
+   "yeni_metin": "TDV'nin Tilimsan maddesine göre 960'ta (1553) Cezayir'den sevkedilen büyük bir ordu, Salih Reis kumandasında şehri kesin biçimde ele geçirdi ve üç asırlık Zeyyânî hânedanına son verdi. Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri Tuggurt'u aldı, Vargla'ya ilerledi, iki sultanlık haraca bağlandı; yol üzerindeki Biskra'ya kalıcı bir Osmanlı garnizonu bırakıldı. Böylece Cezayir Ocaklığı'nın sınırı ilk kez Tell Atlası'nı aşıp Sahra kıyısına dayandı. ⚠️ Mustagānim'in kendi büyük olayı bu tarihte DEĞİL: Hasan Paşa'nın İspanyol Kontu Alcaudete'yi yenip Kuzey Afrika'daki İspanyol taarruzlarını bitirdiği asıl muharebe 1558'dedir.",
+   "tasinan_not": "Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye ve el-Vâdî için ne TDV ne standart kaynaklar tek bir fetih günü verir — bulunamadı, aynı genişleme sürecinin parçası sayıldı."
+  },
+  {
+   "dosya": "data\\olaylar_ek17.js",
+   "t": "1557-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Portekiz'in Habeşistan üzerinden Kızıldeniz'e sızmasını önlemek üzere kurulan eyalet, TDV'nin Habeş Eyaleti maddesine göre 15 Şâban 962'de (5 Temmuz 1555) resmen kuruldu, sancak merkezi Sevâkin oldu. Özdemir Paşa 1555 sonbaharında harekâta başladı; Masavva' Limanı'nı kontrol eden Dehlek adalarını ele geçirdi ve 2 Nisan 1557'de Masavva' şehrini, ardından Arkîko'yu aldı. Fethin devamı Tigre eyaletinin 1558'de, Debârvâ'nın 1559'da Osmanlı hâkimiyetine girmesiyle sürdü. ⚠️ TDV Ebû Ramâd, Halâib, Akīk, Tokar, Sinkat, Hayyâ, Trinkitât ve Muhammed Kol'u AYRICA ADLANDIRMAZ — bunlar Sevâkin sancağına bağlı Kızıldeniz/Sudan kıyısı karakolları olarak coğrafî bütünlüğün parçasıdır; münferit fetih tarihleri bulunamadı, Sevâkin'in idarî şemsiyesi altında aynı dönemde konsolide edildikleri kabul edildi.",
+   "gerekce": "Kucuk-karakol birlestirme metodolojisi, editoryal.",
+   "yeni_metin": "Portekiz'in Habeşistan üzerinden Kızıldeniz'e sızmasını önlemek üzere kurulan eyalet, TDV'nin Habeş Eyaleti maddesine göre 15 Şâban 962'de (5 Temmuz 1555) resmen kuruldu, sancak merkezi Sevâkin oldu. Özdemir Paşa 1555 sonbaharında harekâta başladı; Masavva' Limanı'nı kontrol eden Dehlek adalarını ele geçirdi ve 2 Nisan 1557'de Masavva' şehrini, ardından Arkîko'yu aldı. Fethin devamı Tigre eyaletinin 1558'de, Debârvâ'nın 1559'da Osmanlı hâkimiyetine girmesiyle sürdü.",
+   "tasinan_not": "⚠️ TDV Ebû Ramâd, Halâib, Akīk, Tokar, Sinkat, Hayyâ, Trinkitât ve Muhammed Kol'u AYRICA ADLANDIRMAZ — bunlar Sevâkin sancağına bağlı Kızıldeniz/Sudan kıyısı karakolları olarak coğrafî bütünlüğün parçasıdır; münferit fetih tarihleri bulunamadı, Sevâkin'in idarî şemsiyesi altında aynı dönemde konsolide edildikleri kabul edildi."
+  },
+  {
+   "dosya": "data\\olaylar_ek17.js",
+   "t": "1361-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "TDV'nin Kırklareli maddesine göre bölgenin Osmanlı idaresine hangi tarihte girdiği ilk Osmanlı kaynaklarında kesin değildir, ama genel kabul gören anlatı Edirne'nin 28 Cemâziyelâhir 762'de (5 Mayıs 1361) Lala Şâhin komutasında düşmesinin hemen ardınadır — İstanbul'un kuzeybatı bağlantısını kesmek için Trakya'nın hızla ele geçirilmesi gerekmiştir. Alternatif bir rivayet bölgeyi Timurtaş Paşa'nın 768'de (1366) yeniden aldığını, bir başkası 770'i (1368-69) öne sürer. ⚠️ TDV, Vize dışındaki on bir yerleşimin her biri için ayrı bir fetih günü vermiyor; özellikle Ahtopol/Rezovo/Malko Tırnova gibi Karadeniz kıyısındaki en uçtaki üç nokta için münferit doğrulama bulunamadı — gerçek fetih tarihleri 1361'den daha geç (1370'ler, Hacı İlbeyi akınları dönemi) olabilir, ayrı incelenmeli.",
+   "gerekce": "Kaynak-kapsami + 'ayri incelenmeli' ic gorev notu.",
+   "yeni_metin": "TDV'nin Kırklareli maddesine göre bölgenin Osmanlı idaresine hangi tarihte girdiği ilk Osmanlı kaynaklarında kesin değildir, ama genel kabul gören anlatı Edirne'nin 28 Cemâziyelâhir 762'de (5 Mayıs 1361) Lala Şâhin komutasında düşmesinin hemen ardınadır — İstanbul'un kuzeybatı bağlantısını kesmek için Trakya'nın hızla ele geçirilmesi gerekmiştir. Alternatif bir rivayet bölgeyi Timurtaş Paşa'nın 768'de (1366) yeniden aldığını, bir başkası 770'i (1368-69) öne sürer.",
+   "tasinan_not": "⚠️ TDV, Vize dışındaki on bir yerleşimin her biri için ayrı bir fetih günü vermiyor; özellikle Ahtopol/Rezovo/Malko Tırnova gibi Karadeniz kıyısındaki en uçtaki üç nokta için münferit doğrulama bulunamadı — gerçek fetih tarihleri 1361'den daha geç (1370'ler, Hacı İlbeyi akınları dönemi) olabilir, ayrı incelenmeli."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1366-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Memlük Sultanlığı'nın Ermeni Krallığı'na son vererek bütün Çukurova'yı kendi topraklarına katmasından ve Orta Anadolu'daki Eretna Devleti'nde çıkan karışıklıklardan faydalanmak isteyen Karamanoğlu Alâeddin Bey, başta Konya (1366-1367) olmak üzere Niğde Karahisarı (Yeşilhisar), Aksaray, Akşehir, Ilgın, İshaklı ve Kayseri'yi Karamanlı topraklarına kattı. Konya, Selçuklu başşehri olarak taşıdığı ağırlık sebebiyle Karamanoğulları için yalnız bir şehir değil bir meşruiyet iddiasıydı. TDV maddesi yılı 1366-1367 diye veriyor, günü vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Memlük Sultanlığı'nın Ermeni Krallığı'na son vererek bütün Çukurova'yı kendi topraklarına katmasından ve Orta Anadolu'daki Eretna Devleti'nde çıkan karışıklıklardan faydalanmak isteyen Karamanoğlu Alâeddin Bey, başta Konya (1366-1367) olmak üzere Niğde Karahisarı (Yeşilhisar), Aksaray, Akşehir, Ilgın, İshaklı ve Kayseri'yi Karamanlı topraklarına kattı. Konya, Selçuklu başşehri olarak taşıdığı ağırlık sebebiyle Karamanoğulları için yalnız bir şehir değil bir meşruiyet iddiasıydı.",
+   "tasinan_not": "TDV maddesi yılı 1366-1367 diye veriyor, günü vermiyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1467-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Akkoyunlu hükümdarı Uzun Hasan, 1467'de üzerine yürüyen amansız düşmanı Karakoyunlu hükümdarı Cihan Şah'ı gafil avlayarak Karakoyunlu Devleti'ne son verdi. 1438'den beri hüküm süren Cihan Şah'ın ortadan kalkmasıyla Van gölü havzası — Van, Bitlis, Bargiri (Muradiye), Hoşap ve Kotur — Karakoyunlu'dan Akkoyunlu idaresine geçti. Bu zafer Akkoyunlu Devleti'ni Doğu Anadolu ve İran'da tek büyük güç hâline getirdi ve Uzun Hasan'ı bir nesil sonra Osmanlı ile karşı karşıya getirecek yola soktu. TDV maddesi yılı veriyor, günü vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Akkoyunlu hükümdarı Uzun Hasan, 1467'de üzerine yürüyen amansız düşmanı Karakoyunlu hükümdarı Cihan Şah'ı gafil avlayarak Karakoyunlu Devleti'ne son verdi. 1438'den beri hüküm süren Cihan Şah'ın ortadan kalkmasıyla Van gölü havzası — Van, Bitlis, Bargiri (Muradiye), Hoşap ve Kotur — Karakoyunlu'dan Akkoyunlu idaresine geçti. Bu zafer Akkoyunlu Devleti'ni Doğu Anadolu ve İran'da tek büyük güç hâline getirdi ve Uzun Hasan'ı bir nesil sonra Osmanlı ile karşı karşıya getirecek yola soktu.",
+   "tasinan_not": "TDV maddesi yılı veriyor, günü vermiyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1338-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "1315'te Memlük idaresine giren Malatya, İlhanlı Devleti'nin çözülme yıllarında bir süre Eretnaoğulları'nın eline geçmişti. TDV'nin Malatya maddesi dönüşü tek cümleyle veriyor: şehre 1338'den itibaren yeniden Memlükler hâkim oldu. Bu, Anadolu'nun güneydoğusunda İlhanlı sonrası boşluğun Memlük ve Eretna arasında paylaşıldığı yılların bir kesitidir. TDV yılı veriyor, günü vermiyor; kayıt bu yüzden gün hassasiyeti olmadan yazıldı.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "1315'te Memlük idaresine giren Malatya, İlhanlı Devleti'nin çözülme yıllarında bir süre Eretnaoğulları'nın eline geçmişti. TDV'nin Malatya maddesi dönüşü tek cümleyle veriyor: şehre 1338'den itibaren yeniden Memlükler hâkim oldu. Bu, Anadolu'nun güneydoğusunda İlhanlı sonrası boşluğun Memlük ve Eretna arasında paylaşıldığı yılların bir kesitidir.",
+   "tasinan_not": "TDV yılı veriyor, günü vermiyor; kayıt bu yüzden gün hassasiyeti olmadan yazıldı."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1510-07-25",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510 yılına kadar sürdü. O yıl şehir, Oliveto Kontu Don Pedro Navarro kumandasındaki İspanyollar tarafından işgal edildi; katliamdan kurtulan müslümanlar şehri terketti. İşgal, İspanya'nın Kuzey Afrika kıyısında Melilla'dan Trablus'a uzanan kale zincirinin doğu ucuydu. Trablusgarp halkı 925'te (1519) İstanbul'a bir heyet yollayarak İspanyol istilâsına karşı Osmanlı'dan yardım isteyecek, şehir 1551'de Turgut Reis ve Sinan Paşa tarafından alınarak Osmanlı idaresine girecektir. TDV maddesi yılı veriyor, günü vermiyor; 25 Temmuz standart akademik anlatıdandır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510 yılına kadar sürdü. O yıl şehir, Oliveto Kontu Don Pedro Navarro kumandasındaki İspanyollar tarafından işgal edildi; katliamdan kurtulan müslümanlar şehri terketti. İşgal, İspanya'nın Kuzey Afrika kıyısında Melilla'dan Trablus'a uzanan kale zincirinin doğu ucuydu. Trablusgarp halkı 925'te (1519) İstanbul'a bir heyet yollayarak İspanyol istilâsına karşı Osmanlı'dan yardım isteyecek, şehir 1551'de Turgut Reis ve Sinan Paşa tarafından alınarak Osmanlı idaresine girecektir.",
+   "tasinan_not": "TDV maddesi yılı veriyor, günü vermiyor; 25 Temmuz standart akademik anlatıdandır."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1530-03-24",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Kanûnî Sultan Süleyman'ın 928'de (1522) Rodos'tan çıkardığı Saint Jean (Hospitalier) şövalyeleri sekiz yıl yurtsuz kaldıktan sonra, İspanya-Almanya Kralı V. Carlos tarafından Malta'ya yerleştirildi; aynı bağışla Trablusgarp'ın savunması da tarikata verildi. Malta, sahip olduğu ideal limanlarıyla denizlerde etkili olan şövalyeler için elverişli bir üs hâline geldi: önce Birgu'ya yerleştiler, Saint Angelo Kalesi'ni tahkim ettiler ve Senglea ucunda Saint Michel Kalesi'ni yaptılar. Bu yerleşme, Akdeniz'in ortasında Osmanlı deniz yollarını kesen kalıcı bir düşman üssü doğurdu; Turgut Reis'in 947'de (1540) Gozo'ya akınıyla başlayan çatışmalar 1565 Malta kuşatmasına kadar sürecekti. TDV maddesi yılı veriyor, günü vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Kanûnî Sultan Süleyman'ın 928'de (1522) Rodos'tan çıkardığı Saint Jean (Hospitalier) şövalyeleri sekiz yıl yurtsuz kaldıktan sonra, İspanya-Almanya Kralı V. Carlos tarafından Malta'ya yerleştirildi; aynı bağışla Trablusgarp'ın savunması da tarikata verildi. Malta, sahip olduğu ideal limanlarıyla denizlerde etkili olan şövalyeler için elverişli bir üs hâline geldi: önce Birgu'ya yerleştiler, Saint Angelo Kalesi'ni tahkim ettiler ve Senglea ucunda Saint Michel Kalesi'ni yaptılar. Bu yerleşme, Akdeniz'in ortasında Osmanlı deniz yollarını kesen kalıcı bir düşman üssü doğurdu; Turgut Reis'in 947'de (1540) Gozo'ya akınıyla başlayan çatışmalar 1565 Malta kuşatmasına kadar sürecekti.",
+   "tasinan_not": "TDV maddesi yılı veriyor, günü vermiyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1768-05-15",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Ceneviz Cumhuriyeti, yüzyıllardır elinde tuttuğu ama isyanlar yüzünden fiilen denetleyemediği Korsika'yı Fransa'ya devretti. TDV'nin Korsika maddesi olayı tek cümleyle veriyor: Ceneviz pek fazla sahiplenemediği bu adayı 1768'de Fransa'ya sattı. Devir, Cenova'nın Akdeniz'deki son büyük toprak varlığından çekilişini işaretler; ada 1796'da bir süre İngiliz eline geçecek, sonra yeniden Fransa'ya iade edilecektir. Adanın Fransız toprağı olması, bir yıl sonra Ajaccio'da doğacak Napolyon Bonapart'ı Fransız tebaası yapmıştır. TDV yılı veriyor, günü vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Ceneviz Cumhuriyeti, yüzyıllardır elinde tuttuğu ama isyanlar yüzünden fiilen denetleyemediği Korsika'yı Fransa'ya devretti. TDV'nin Korsika maddesi olayı tek cümleyle veriyor: Ceneviz pek fazla sahiplenemediği bu adayı 1768'de Fransa'ya sattı. Devir, Cenova'nın Akdeniz'deki son büyük toprak varlığından çekilişini işaretler; ada 1796'da bir süre İngiliz eline geçecek, sonra yeniden Fransa'ya iade edilecektir. Adanın Fransız toprağı olması, bir yıl sonra Ajaccio'da doğacak Napolyon Bonapart'ı Fransız tebaası yapmıştır.",
+   "tasinan_not": "TDV yılı veriyor, günü vermiyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1870-09-20",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Fransa-Prusya Savaşı'nda III. Napolyon'un devrilmesi, Roma'yı koruyan Fransız garnizonunu geri çekince İtalyan birlikleri şehre girdi ve papa Vatikan'a çekildi. Böylece bin yılı aşkın süredir varlığını sürdüren Papalık Devleti sona erdi ve Roma'yı da birliğe katan İtalya Krallığı siyasî bir güç olarak Avrupa ve dünya sahnesine çıktı. Bu, atlasın son yarım yüzyılı için doğrudan sonuç doğuran bir olaydır: birleşmiş İtalya, 1911'de Trablusgarp'ı ve Oniki Ada'yı Osmanlı'dan alacak devlettir. TDV maddesi yılı veriyor, günü vermiyor; 20 Eylül (Porta Pia gediği) standart akademik anlatıdandır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Fransa-Prusya Savaşı'nda III. Napolyon'un devrilmesi, Roma'yı koruyan Fransız garnizonunu geri çekince İtalyan birlikleri şehre girdi ve papa Vatikan'a çekildi. Böylece bin yılı aşkın süredir varlığını sürdüren Papalık Devleti sona erdi ve Roma'yı da birliğe katan İtalya Krallığı siyasî bir güç olarak Avrupa ve dünya sahnesine çıktı. Bu, atlasın son yarım yüzyılı için doğrudan sonuç doğuran bir olaydır: birleşmiş İtalya, 1911'de Trablusgarp'ı ve Oniki Ada'yı Osmanlı'dan alacak devlettir.",
+   "tasinan_not": "TDV maddesi yılı veriyor, günü vermiyor; 20 Eylül (Porta Pia gediği) standart akademik anlatıdandır."
+  },
+  {
+   "dosya": "data\\olaylar_ek21.js",
+   "t": "1811-04-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "1806-1812 Osmanlı-Rus savaşında Tuna'nın güney yakasına geçen Rus kuvvetleri Niğbolu'yu 1810 Ekiminde General Kutuzov kumandasında ele geçirmişti. Altı ay sonra, Tuna hattını tutamayacaklarını görünce şehri boşalttılar; ayrılmadan önce kalenin önemli kısmını havaya uçurdular. TDV'nin kaydı şöyledir: \\\"1810 yılı Ekim ayında (1808-1812 Türk-Rus savaşı dönemi) Niğbolu, meşhur Rus Generali Michail Kutuzov'un kuvvetleri tarafından ele geçirildi. Ruslar, şehri terketmeden önce 1811 Nisanında kalenin önemli kısmını havaya uçurup şehre büyük zarar verdiler.\\\" Rus kuvvetlerinin çekilmesinin ardından Osmanlılar kaleyi yeniden yaptırdı; 1813-1814 tarihli kitâbe bu onarımın kaydıdır. ⚠️ TDV yalnız ayı veriyor, günü vermiyor — kayıt ayın ilkine yazıldı (CLAUDE.md §8).",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "1806-1812 Osmanlı-Rus savaşında Tuna'nın güney yakasına geçen Rus kuvvetleri Niğbolu'yu 1810 Ekiminde General Kutuzov kumandasında ele geçirmişti. Altı ay sonra, Tuna hattını tutamayacaklarını görünce şehri boşalttılar; ayrılmadan önce kalenin önemli kısmını havaya uçurdular. TDV'nin kaydı şöyledir: \\\"1810 yılı Ekim ayında (1808-1812 Türk-Rus savaşı dönemi) Niğbolu, meşhur Rus Generali Michail Kutuzov'un kuvvetleri tarafından ele geçirildi. Ruslar, şehri terketmeden önce 1811 Nisanında kalenin önemli kısmını havaya uçurup şehre büyük zarar verdiler.\\\" Rus kuvvetlerinin çekilmesinin ardından Osmanlılar kaleyi yeniden yaptırdı; 1813-1814 tarihli kitâbe bu onarımın kaydıdır.",
+   "tasinan_not": "⚠️ TDV yalnız ayı veriyor, günü vermiyor — kayıt ayın ilkine yazıldı (CLAUDE.md §8)."
+  },
+  {
+   "dosya": "data\\olaylar_ek21.js",
+   "t": "1509-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Şirvanşah Ferruh Yesâr'ın 1500'de yenilip öldürülmesiyle Bakü ve Şemâhî Safevî eline geçmiş, Derbend ise bir süre daha ayrı kalmıştı. Şah İsmâil 1509'da şehri zaptedip Rumlu oymaklarından birini buraya yerleştirdi; böylece Safevî hâkimiyeti Kafkasya'nın kuzey kapısına, Hazar ile dağlar arasındaki bu dar geçide ulaştı. 1538'de Şirvan'ın doğrudan Safevî idaresine girmesiyle bağ kalıcılaştı. Derbend 1578 seferinde Osmanlı eline geçecek ve 1607'ye kadar yedi sancaklı bir beylerbeyiliğin merkezi olacaktır. TDV'nin kaydı şöyledir: \\\"Safevî Devleti'nin kurulup gelişmesi, Derbend'de yeni bir dönemin başlangıcını teşkil etti. Şah İsmâil 1509'da şehri zaptedip Rumlu oymaklarından birini buraya yerleştirdi. 1538'de Şirvan doğrudan Safevî hâkimiyetine girince...\\\" ⚠️ TDV yalnız yılı veriyor, günü vermiyor — kayıt yılın ilkine yazıldı (CLAUDE.md §8).",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Şirvanşah Ferruh Yesâr'ın 1500'de yenilip öldürülmesiyle Bakü ve Şemâhî Safevî eline geçmiş, Derbend ise bir süre daha ayrı kalmıştı. Şah İsmâil 1509'da şehri zaptedip Rumlu oymaklarından birini buraya yerleştirdi; böylece Safevî hâkimiyeti Kafkasya'nın kuzey kapısına, Hazar ile dağlar arasındaki bu dar geçide ulaştı. 1538'de Şirvan'ın doğrudan Safevî idaresine girmesiyle bağ kalıcılaştı. Derbend 1578 seferinde Osmanlı eline geçecek ve 1607'ye kadar yedi sancaklı bir beylerbeyiliğin merkezi olacaktır. TDV'nin kaydı şöyledir: \\\"Safevî Devleti'nin kurulup gelişmesi, Derbend'de yeni bir dönemin başlangıcını teşkil etti. Şah İsmâil 1509'da şehri zaptedip Rumlu oymaklarından birini buraya yerleştirdi. 1538'de Şirvan doğrudan Safevî hâkimiyetine girince...\\\"",
+   "tasinan_not": "⚠️ TDV yalnız yılı veriyor, günü vermiyor — kayıt yılın ilkine yazıldı (CLAUDE.md §8)."
+  },
+  {
+   "dosya": "data\\olaylar_ek21.js",
+   "t": "1509-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1509 (915 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
+   "gerekce": "Hicri yil (915 h.) tutulur, surec notu tasinir.",
+   "yeni_metin": "1509 (915 h.",
+   "tasinan_not": "; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)"
+  },
+  {
+   "dosya": "data\\olaylar_ek21.js",
+   "t": "1537-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Akkoyunlu Devleti'nin Safevîler tarafından yıkılmasından sonra Kars bir süre Avşar Türkmenlerinden Sevündük Han Kurçibaşı'nın elinde kalmıştı. Kanûnî'nin Irakeyn Seferi sırasında (940/1534) Pasin, Şüregel ve Oltu kaleleri alınırken Kars Kalesi'nin de Osmanlılara bağlanmış olması kuvvetle muhtemeldir; ancak şehrin kesin katılışı üç yıl sonradır. TDV'nin kaydı şöyledir: \\\"Kars, Osmanlı hizmetine girmiş olan Dulkadırlı Mehmed Han tarafından kesin olarak 944'te (1537) Osmanlı topraklarına dahil edilmiştir.\\\" Uzun mücadeleler yüzünden şehir ve kale büyük ölçüde harap olduğundan hızlı bir tamirata girişildi; 955'te (1548) kale onarılırken Safevîler şehre saldırdı ve kaleyi yeniden tahrip etti. Kars bundan sonra üç yüz kırk yıl boyunca Osmanlı'nın kuzeydoğu serhaddinin kilidi olarak kalacak, 1877-78 savaşının ardından Rusya'ya bırakılacaktır. ⚠️ TDV yalnız yılı veriyor, günü vermiyor — kayıt yılın ilkine yazıldı (CLAUDE.md §8).",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Akkoyunlu Devleti'nin Safevîler tarafından yıkılmasından sonra Kars bir süre Avşar Türkmenlerinden Sevündük Han Kurçibaşı'nın elinde kalmıştı. Kanûnî'nin Irakeyn Seferi sırasında (940/1534) Pasin, Şüregel ve Oltu kaleleri alınırken Kars Kalesi'nin de Osmanlılara bağlanmış olması kuvvetle muhtemeldir; ancak şehrin kesin katılışı üç yıl sonradır. TDV'nin kaydı şöyledir: \\\"Kars, Osmanlı hizmetine girmiş olan Dulkadırlı Mehmed Han tarafından kesin olarak 944'te (1537) Osmanlı topraklarına dahil edilmiştir.\\\" Uzun mücadeleler yüzünden şehir ve kale büyük ölçüde harap olduğundan hızlı bir tamirata girişildi; 955'te (1548) kale onarılırken Safevîler şehre saldırdı ve kaleyi yeniden tahrip etti. Kars bundan sonra üç yüz kırk yıl boyunca Osmanlı'nın kuzeydoğu serhaddinin kilidi olarak kalacak, 1877-78 savaşının ardından Rusya'ya bırakılacaktır.",
+   "tasinan_not": "⚠️ TDV yalnız yılı veriyor, günü vermiyor — kayıt yılın ilkine yazıldı (CLAUDE.md §8)."
+  },
+  {
+   "dosya": "data\\olaylar_ek21.js",
+   "t": "1537-01-01",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1537 (944 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
+   "gerekce": "Hicri yil (944 h.) tutulur, surec notu tasinir.",
+   "yeni_metin": "1537 (944 h.",
+   "tasinan_not": "; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)"
+  },
+  {
+   "dosya": "data\\olaylar_ek22.js",
+   "t": "1794-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1794 (TDV gün vermiyor — yıl hassasiyeti)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1794",
+   "tasinan_not": "1794 (TDV gün vermiyor — yıl hassasiyeti)"
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1537-03-12",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1537 (TDV yalnız yılı veriyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1537",
+   "tasinan_not": "1537 (TDV yalnız yılı veriyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1592-06-19",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "19 Haziran 1592 (TDV yalnız yılı veriyor; gün, 10-19 Haziran kuşatmasını ve kumandan Lamberg'in tesliminin tarihini veren TDV dışı kaynaktan)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor; kaynak notu tasinir.",
+   "yeni_metin": "19 Haziran 1592",
+   "tasinan_not": "(TDV yalnız yılı veriyor; gün, 10-19 Haziran kuşatmasını ve kumandan Lamberg'in tesliminin tarihini veren TDV dışı kaynaktan)"
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1877-03-19",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Kanûn-ı Esâsî uyarınca seçilen 115 mebus, 19 Mart 1877'de Dolmabahçe Sarayı'nın Muayede Salonu'nda yapılan törenle ilk kez toplandı; böylece Osmanlı tarihinde temsilî meclis dönemi başladı. Müslüman ve gayrimüslim mebuslar hükümeti sert biçimde sorguladı, savaşın yönetimini ve nâzırların sorumluluğunu tartıştı. Bu cesur muhalefet, meclisin ömrünü kısaltan başlıca sebep olacaktı.",
+   "gerekce": "'temsili meclis donemi' = parlamenter donem anlaminda, tarih notu degil.",
+   "yeni_metin": "Kanûn-ı Esâsî uyarınca seçilen 115 mebus, 19 Mart 1877'de Dolmabahçe Sarayı'nın Muayede Salonu'nda yapılan törenle ilk kez toplandı; böylece Osmanlı tarihinde temsilî meclis dönemi başladı. Müslüman ve gayrimüslim mebuslar hükümeti sert biçimde sorguladı, savaşın yönetimini ve nâzırların sorumluluğunu tartıştı. Bu cesur muhalefet, meclisin ömrünü kısaltan başlıca sebep olacaktı.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1522-05-29",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1522 (TDV yalnız yılı veriyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1522",
+   "tasinan_not": "1522 (TDV yalnız yılı veriyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1720-06-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1720 (gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1720",
+   "tasinan_not": "1720 (gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1722-06-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1722 (gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1722",
+   "tasinan_not": "1722 (gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1729-02-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1729 başı (gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1729 başı",
+   "tasinan_not": "1729 başı (gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1733-06-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1733 (gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1733",
+   "tasinan_not": "1733 (gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1734-06-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1734 (gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1734",
+   "tasinan_not": "1734 (gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1739-06-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1739 (gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1739",
+   "tasinan_not": "1739 (gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1834-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "Ocak 1834 (gün bilinmiyor)",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "Ocak 1834",
+   "tasinan_not": "Ocak 1834 (gün bilinmiyor)"
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1840-10-08",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Krallığın ilk tam yazılı anayasası ilan edildi; kral yetkisini kısıtlayan, temsilî bir meclis kuran bu belge Hawaii'yi anayasal monarşiye dönüştürdü.",
+   "gerekce": "'temsili bir meclis' = yasama organi anlaminda, tarih notu degil.",
+   "yeni_metin": "Krallığın ilk tam yazılı anayasası ilan edildi; kral yetkisini kısıtlayan, temsilî bir meclis kuran bu belge Hawaii'yi anayasal monarşiye dönüştürdü.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1468-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "873 (1468) — TDV gün vermiyor",
+   "gerekce": "gun alani dogrudan ekrana basiliyor; hicri karsilik tutulur.",
+   "yeni_metin": "873 (1468)",
+   "tasinan_not": "873 (1468) — TDV gün vermiyor"
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1573-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1573 — TDV gün vermiyor",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1573",
+   "tasinan_not": "1573 — TDV gün vermiyor"
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1609-01-01",
+   "alan": "gun",
+   "kova": "ic-not",
+   "eski_metin": "1609 — TDV gün vermiyor",
+   "gerekce": "gun alani dogrudan ekrana basiliyor.",
+   "yeni_metin": "1609",
+   "tasinan_not": "1609 — TDV gün vermiyor"
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1923-10-12",
+   "alan": "d",
+   "kova": "mesru",
+   "eski_metin": "Ülkenin ilk Büyük Kurultayı (Halk Meclisi) toplandı; bu, devletin kurumsallaşma sürecinde ilk büyük temsilî toplantısıdır.",
+   "gerekce": "'ilk buyuk temsili toplanti' = kurultay anlaminda, tarih notu degil.",
+   "yeni_metin": "Ülkenin ilk Büyük Kurultayı (Halk Meclisi) toplandı; bu, devletin kurumsallaşma sürecinde ilk büyük temsilî toplantısıdır.",
+   "tasinan_not": null
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1924-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Sovyet 'millî sınırlandırma' (natsionalno-territorialnoe razmezhevanie) kararıyla Hârizm Sovyet Sosyalist Cumhuriyeti ile Buhara Halk Sovyet Cumhuriyeti ilga edildi; toprakları yeni kurulan Özbekistan ve Türkmenistan Sovyet Sosyalist Cumhuriyetleri arasında paylaştırıldı (Hîve'nin doğusu Özbekistan'a, batısı Türkmenistan'a). TDV'nin `harizm` maddesi: '1924'te Hîve Hanlığı'nın doğu kesimleri Özbekistan SSC'ye, batı tarafı da Türkmenistan SSC'ye bırakıldı' — yalnız YIL veriyor. ⚠️ KAYNAK ÇELİŞKİSİ BİLDİRİLİYOR, ÇÖZÜLMEDİ: akademik kaynaklar sürecin BİRDEN FAZLA kararla ilerlediğini gösteriyor — Türkistan MİK'in 16 Eylül 1924 kararı, Buhara/Hârizm kurultaylarının Eylül-Ekim 1924 toplantıları, SSCB Merkezî Yürütme Kurulu'nun 14 Ekim 1924 kararı, ve cumhuriyetlerin fiilen SSCB'ye 27 Ekim 1924'te birer birlik cumhuriyeti olarak katılıp aynı anda ilga edilmesi — tek bir 'kesin gün' YOK, süreç ~6 haftaya yayılıyor. §4'ün kuralı gereği (künyenin f:/t: günü bir KAYNAK DEĞİLDİR ama BURADA TERSİ: benim kaynağım künyeden DAHA hassas görünüyor ama KENDİ İÇİNDE tutarsız) daha hassas ama çelişik bir gün UYDURMAK yerine künyenin kendi t: günü (1924-01-01, TDV'nin yalnız yıl vermesinin YYYY-01-01 karşılığı) DEVRALINDI — 5 Eylül 2026 `KRONOLOJİ BOŞ KÜNYE` emsaliyle aynı karar: 'kaba tarih yazılmaz, künyenin günü devralınır, künyenin gününün de kaynaksız olduğu bildirilir.'",
+   "gerekce": "Uzun ic-metodoloji paragrafi (oturum adlari, CLAUDE.md kurali, tarih); TDV alinti cumlesi KALIR.",
+   "yeni_metin": "Sovyet 'millî sınırlandırma' (natsionalno-territorialnoe razmezhevanie) kararıyla Hârizm Sovyet Sosyalist Cumhuriyeti ile Buhara Halk Sovyet Cumhuriyeti ilga edildi; toprakları yeni kurulan Özbekistan ve Türkmenistan Sovyet Sosyalist Cumhuriyetleri arasında paylaştırıldı (Hîve'nin doğusu Özbekistan'a, batısı Türkmenistan'a). TDV'nin `harizm` maddesi: '1924'te Hîve Hanlığı'nın doğu kesimleri Özbekistan SSC'ye, batı tarafı da Türkmenistan SSC'ye bırakıldı' — yalnız YIL veriyor.",
+   "tasinan_not": "⚠️ KAYNAK ÇELİŞKİSİ BİLDİRİLİYOR, ÇÖZÜLMEDİ: akademik kaynaklar sürecin BİRDEN FAZLA kararla ilerlediğini gösteriyor — Türkistan MİK'in 16 Eylül 1924 kararı, Buhara/Hârizm kurultaylarının Eylül-Ekim 1924 toplantıları, SSCB Merkezî Yürütme Kurulu'nun 14 Ekim 1924 kararı, ve cumhuriyetlerin fiilen SSCB'ye 27 Ekim 1924'te birer birlik cumhuriyeti olarak katılıp aynı anda ilga edilmesi — tek bir 'kesin gün' YOK, süreç ~6 haftaya yayılıyor. §4'ün kuralı gereği (künyenin f:/t: günü bir KAYNAK DEĞİLDİR ama BURADA TERSİ: benim kaynağım künyeden DAHA hassas görünüyor ama KENDİ İÇİNDE tutarsız) daha hassas ama çelişik bir gün UYDURMAK yerine künyenin kendi t: günü (1924-01-01, TDV'nin yalnız yıl vermesinin YYYY-01-01 karşılığı) DEVRALINDI — 5 Eylül 2026 `KRONOLOJİ BOŞ KÜNYE` emsaliyle aynı karar: 'kaba tarih yazılmaz, künyenin günü devralınır, künyenin gününün de kaynaksız olduğu bildirilir.'"
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1841-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Bugeaud'nun 1841'de valiliğe gelmesiyle Fransız stratejisi değişti: kıyıda tutunmak yerine iç şehirleri tek tek işgal etmek. Vehrân, Mostagānim ve Medea'dan çıkan hareketli kollar Abdülkādir'in düzenli devletinin merkezlerini aldı; darphanesi, barut imalâthanesi ve tahıl ambarlarıyla gerçek bir başkent olan Muaskar bunların en önemlisiydi. Emîr bundan sonra sabit bir merkez kurmaktan vazgeçip ordusunu 'smala' denen göçer kampa çevirdi. Günü kaynaklarda kesinleşmediği için burada yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Bugeaud'nun 1841'de valiliğe gelmesiyle Fransız stratejisi değişti: kıyıda tutunmak yerine iç şehirleri tek tek işgal etmek. Vehrân, Mostagānim ve Medea'dan çıkan hareketli kollar Abdülkādir'in düzenli devletinin merkezlerini aldı; darphanesi, barut imalâthanesi ve tahıl ambarlarıyla gerçek bir başkent olan Muaskar bunların en önemlisiydi. Emîr bundan sonra sabit bir merkez kurmaktan vazgeçip ordusunu 'smala' denen göçer kampa çevirdi.",
+   "tasinan_not": "Günü kaynaklarda kesinleşmediği için burada yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1843-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Abdülkādir'i takip edebilmek için Fransızlar 1843 Nisanında Şelif vadisinin ortasında Orléansville adlı yeni bir şehir kurdular; aynı yıl kıyıdaki Tenes limanı da işgal edildi. Böylece Cezayir ile Vehrân arasındaki iç koridor Fransız denetimine girdi ve Dahra dağlarındaki direniş kuşatıldı. Aynı yılın 16 Mayısında Abdülkādir'in göçer kampı 'smala' tesadüfen bulunup dağıtıldı. Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Abdülkādir'i takip edebilmek için Fransızlar 1843 Nisanında Şelif vadisinin ortasında Orléansville adlı yeni bir şehir kurdular; aynı yıl kıyıdaki Tenes limanı da işgal edildi. Böylece Cezayir ile Vehrân arasındaki iç koridor Fransız denetimine girdi ve Dahra dağlarındaki direniş kuşatıldı. Aynı yılın 16 Mayısında Abdülkādir'in göçer kampı 'smala' tesadüfen bulunup dağıtıldı.",
+   "tasinan_not": "Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1844-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Abdülkādir'in 1843'te Fas'a çekilmesinden sonra Tilimsan'ın kuzeybatısındaki Nedrûme ve Trâra kıyısı Fransız denetimine girdi. 14 Ağustos 1844'teki Isly Muharebesi Fas ordusunu bozguna uğrattı ve iki ülke arasındaki sınır 18 Mart 1845 Lâlla Mağniye Sözleşmesi'yle çizildi; Nedrûme bu çizginin Cezayir tarafında kaldı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Abdülkādir'in 1843'te Fas'a çekilmesinden sonra Tilimsan'ın kuzeybatısındaki Nedrûme ve Trâra kıyısı Fransız denetimine girdi. 14 Ağustos 1844'teki Isly Muharebesi Fas ordusunu bozguna uğrattı ve iki ülke arasındaki sınır 18 Mart 1845 Lâlla Mağniye Sözleşmesi'yle çizildi; Nedrûme bu çizginin Cezayir tarafında kaldı.",
+   "tasinan_not": "Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1882-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Mîzâb'ın İbâzî şehirleri 1852'de Fransa'ya vergi ödemeyi kabul etmiş ama iç idarelerini korumuştu; otuz yıl sonra, 1882'de bölge doğrudan Fransız topraklarına katıldı ve Gardâye askerî idareye bağlandı. Böylece kuzey Sahra'nın son özerk kuşağı da hukuken sona erdi. Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Mîzâb'ın İbâzî şehirleri 1852'de Fransa'ya vergi ödemeyi kabul etmiş ama iç idarelerini korumuştu; otuz yıl sonra, 1882'de bölge doğrudan Fransız topraklarına katıldı ve Gardâye askerî idareye bağlandı. Böylece kuzey Sahra'nın son özerk kuşağı da hukuken sona erdi.",
+   "tasinan_not": "Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1872-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Hidiv İsmâil'in Kızıldeniz'in batı kıyısında kurduğu 'Doğu Sudan ve Kızıldeniz Sahili' vilâyetinin valisi Werner Munzinger Paşa, 1872'de Bilen halkının yaşadığı Bogos bölgesini ve merkezi Kerene'yi Mısır'a bağladı. Bu, Mısır'ın Habeş yaylasının kenarına yaptığı en kalıcı ilerleyişti ve Habeşistan ile on iki yıl süren bir sınır anlaşmazlığı başlattı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Hidiv İsmâil'in Kızıldeniz'in batı kıyısında kurduğu 'Doğu Sudan ve Kızıldeniz Sahili' vilâyetinin valisi Werner Munzinger Paşa, 1872'de Bilen halkının yaşadığı Bogos bölgesini ve merkezi Kerene'yi Mısır'a bağladı. Bu, Mısır'ın Habeş yaylasının kenarına yaptığı en kalıcı ilerleyişti ve Habeşistan ile on iki yıl süren bir sınır anlaşmazlığı başlattı.",
+   "tasinan_not": "Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1884-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Mehdî'nin doğu Sudan'daki halifesi Osman Digna, 1883 sonbaharından itibaren Bece kabilelerini ayaklandırarak Sevâkin'in ardalanını ele geçirdi; Sinkat ve Tokar garnizonları kuşatıldı ve 1884 başında bölge tamamen Mehdî idaresine girdi. Sevâkin limanı İngiliz-Mısır elinde kaldığı için kıyı ile içerisi sekiz yıl boyunca ayrı iki idare altında durdu. Tokar 1891 Şubatında geri alındı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu (birinci 1884 kaydi -- Sevakin/Tokar).",
+   "yeni_metin": "Mehdî'nin doğu Sudan'daki halifesi Osman Digna, 1883 sonbaharından itibaren Bece kabilelerini ayaklandırarak Sevâkin'in ardalanını ele geçirdi; Sinkat ve Tokar garnizonları kuşatıldı ve 1884 başında bölge tamamen Mehdî idaresine girdi. Sevâkin limanı İngiliz-Mısır elinde kaldığı için kıyı ile içerisi sekiz yıl boyunca ayrı iki idare altında durdu. Tokar 1891 Şubatında geri alındı.",
+   "tasinan_not": "Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1840-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Sudan hükümdarı Ahmed Paşa Ebû Vidân, 1840'ta Atbara ile Gaş nehirleri arasındaki Taka bölgesini Mısır idaresine bağladı ve Kesela şehrini askerî karargâh olarak kurdu. Şehir, Sennâr ile Sevâkin arasındaki kervan yolunu ve Habeş sınır kuşağını denetleyen bir mudîriyet merkezi oldu. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Sudan hükümdarı Ahmed Paşa Ebû Vidân, 1840'ta Atbara ile Gaş nehirleri arasındaki Taka bölgesini Mısır idaresine bağladı ve Kesela şehrini askerî karargâh olarak kurdu. Şehir, Sennâr ile Sevâkin arasındaki kervan yolunu ve Habeş sınır kuşağını denetleyen bir mudîriyet merkezi oldu.",
+   "tasinan_not": "Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1884-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Mehdî ayaklanması Mısır'ın Sudan ve Kızıldeniz garnizonlarını çökertince Kahire, Habeş kıyısındaki uzak karakollarını boşaltmak zorunda kaldı. Aden'deki İngiliz idaresi 1884'te Zeyla ve Berbera'ya asker çıkardı; ertesi yıl Somali kabile reisleriyle himaye antlaşmaları imzalanarak İngiliz Somalilandı kuruldu. 1559'dan beri Habeş eyaletine bağlı olan Zeyla böylece elden çıktı. Denetim bu kırılmayı aynı güne düşen 'Reji İdaresi' maddesiyle eşleştiriyordu; bu madde o eşleşmeyi düzeltir. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Ic-denetim capraz-kontrol notu + hassasiyet notu (ikinci 1884 kaydi -- Somaliland).",
+   "yeni_metin": "Mehdî ayaklanması Mısır'ın Sudan ve Kızıldeniz garnizonlarını çökertince Kahire, Habeş kıyısındaki uzak karakollarını boşaltmak zorunda kaldı. Aden'deki İngiliz idaresi 1884'te Zeyla ve Berbera'ya asker çıkardı; ertesi yıl Somali kabile reisleriyle himaye antlaşmaları imzalanarak İngiliz Somalilandı kuruldu. 1559'dan beri Habeş eyaletine bağlı olan Zeyla böylece elden çıktı.",
+   "tasinan_not": "Denetim bu kırılmayı aynı güne düşen 'Reji İdaresi' maddesiyle eşleştiriyordu; bu madde o eşleşmeyi düzeltir. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_ek9.js",
+   "t": "1427-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "1293'te Karamanoğlu Mecdüddin Mahmud Bey'in ele geçirdiği Alâiye, Karamanoğulları'nın bir kolu tarafından yönetilen ayrı bir beylik hâline gelmişti; İbn Battûta 1333'te idarenin Karamanoğlu Yûsuf Bey'de olduğunu kaydeder. Karaman b. Savcı Bey 1427'de şehri beş bin altın karşılığında Memlük Sultanı Barsbay'a sattı ve Alâiye Memlük idaresine girdi. Akdeniz'in bu kilit limanı böylece Osmanlı'nın güneye açılan yolunda Memlük elinde bir engel oldu; 1471'de Gedik Ahmed Paşa kuşatınca son bey Kılıcarslan şehri teslim etti. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "1293'te Karamanoğlu Mecdüddin Mahmud Bey'in ele geçirdiği Alâiye, Karamanoğulları'nın bir kolu tarafından yönetilen ayrı bir beylik hâline gelmişti; İbn Battûta 1333'te idarenin Karamanoğlu Yûsuf Bey'de olduğunu kaydeder. Karaman b. Savcı Bey 1427'de şehri beş bin altın karşılığında Memlük Sultanı Barsbay'a sattı ve Alâiye Memlük idaresine girdi. Akdeniz'in bu kilit limanı böylece Osmanlı'nın güneye açılan yolunda Memlük elinde bir engel oldu; 1471'de Gedik Ahmed Paşa kuşatınca son bey Kılıcarslan şehri teslim etti.",
+   "tasinan_not": "Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır."
+  },
+  {
+   "dosya": "data\\olaylar_p0043a.js",
+   "t": "1456-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "1443'te Haçlı ordusunca zaptedilen ve 1444 Edirne-Segedin Antlaşması'nın ardından II. Murad tarafından Sırplar'a bırakılan Şehirköy, 1456'da Sırp Despotu Curac Brankoviç'in ölümüyle Osmanlı hâkimiyetine döndü. Aynı yıl ve aynı sebeple Niş de kesin olarak Osmanlı idaresine girdi; Nişava vadisinin Sofya yoluna açılan hattı böylece bütünlendi. Antlaşmanın süresi on yıl olarak imzalanmıştı ve Varna (1444) ile II. Kosova'nın (1448) ardından Despotluk'un ömrü ancak Brankoviç'in hayatı kadar sürdü. ⚠️ TARİH HAKKINDA: TDV her iki madde için de (`sehirkoy`, `nis`) YIL veriyor, GÜN VERMİYOR. `1456-01-01` bu yüzden bir gün iddiası değil, `§4`ün 'yıl biliniyor, gün bilinmiyor' yazımıdır.",
+   "gerekce": "Slug-adli tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "1443'te Haçlı ordusunca zaptedilen ve 1444 Edirne-Segedin Antlaşması'nın ardından II. Murad tarafından Sırplar'a bırakılan Şehirköy, 1456'da Sırp Despotu Curac Brankoviç'in ölümüyle Osmanlı hâkimiyetine döndü. Aynı yıl ve aynı sebeple Niş de kesin olarak Osmanlı idaresine girdi; Nişava vadisinin Sofya yoluna açılan hattı böylece bütünlendi. Antlaşmanın süresi on yıl olarak imzalanmıştı ve Varna (1444) ile II. Kosova'nın (1448) ardından Despotluk'un ömrü ancak Brankoviç'in hayatı kadar sürdü.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: TDV her iki madde için de (`sehirkoy`, `nis`) YIL veriyor, GÜN VERMİYOR. `1456-01-01` bu yüzden bir gün iddiası değil, `§4`ün 'yıl biliniyor, gün bilinmiyor' yazımıdır."
+  },
+  {
+   "dosya": "data\\olaylar_p0043kirim.js",
+   "t": "1774-07-21",
+   "alan": "gun",
+   "kova": "karisik",
+   "eski_metin": "1526 (IEU: yalnız yıl, gün yok)",
+   "gerekce": "DIKKAT: t: 1774-07-21 ama gun degeri '1526' -- alan eslesmesi supheli, KITA 14'e ayrica bildirilecek.",
+   "yeni_metin": "1526",
+   "tasinan_not": "(IEU: yalnız yıl, gün yok)"
+  },
+  {
+   "dosya": "data\\olaylar_p0044.js",
+   "t": "1556-07-16",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "1556 yazında Malkoç Bey'in kuşattığı Kostayniçe'yi 60'ı aşkın askerle kaptan Pankracije Lusthaller savunuyordu; kale kuşatmanın başlamasından yalnızca bir gün sonra, 16 Temmuz'da teslim edildi ve Lusthaller kaleyi sattığı gerekçesiyle suçlandı. Kısa süre sonra Novi de alınıp yakıldı; böylece Una üzerindeki en önemli iki kale bir hamlede Osmanlı eline geçti. Aynı yıl Viyana'da serhad savunmasını merkezden yönetecek Saray Savaş Konseyi (Hofkriegsrat) kuruldu. ⚠️ KAYNAK HAKKINDA: TDV'nin `hirvatistan`, `bosna-hersek`, `malkocogullari` ve `bihac` maddeleri bu iki kaleyi anmıyor; gün akademik kaynaktandır. Novi için kaynak gün vermiyor, yalnız 'kısa süre sonra' diyor.",
+   "gerekce": "Slug-adli kaynak-kapsami sureç notu.",
+   "yeni_metin": "1556 yazında Malkoç Bey'in kuşattığı Kostayniçe'yi 60'ı aşkın askerle kaptan Pankracije Lusthaller savunuyordu; kale kuşatmanın başlamasından yalnızca bir gün sonra, 16 Temmuz'da teslim edildi ve Lusthaller kaleyi sattığı gerekçesiyle suçlandı. Kısa süre sonra Novi de alınıp yakıldı; böylece Una üzerindeki en önemli iki kale bir hamlede Osmanlı eline geçti. Aynı yıl Viyana'da serhad savunmasını merkezden yönetecek Saray Savaş Konseyi (Hofkriegsrat) kuruldu.",
+   "tasinan_not": "⚠️ KAYNAK HAKKINDA: TDV'nin `hirvatistan`, `bosna-hersek`, `malkocogullari` ve `bihac` maddeleri bu iki kaleyi anmıyor; gün akademik kaynaktandır. Novi için kaynak gün vermiyor, yalnız 'kısa süre sonra' diyor."
+  },
+  {
+   "dosya": "data\\olaylar_serhat.js",
+   "t": "1428-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Sırp Despotu Stefan Lazareviç'in vârissiz ölümünün (1427) ardından II. Murad, Yıldırım Bayezid'in Sırp prensesiyle evliliğine dayanarak Sırbistan'ın meşrû vârisi olduğunu ileri sürüp harekete geçti ve Alacahisar'ı aldı (1428). Aynı yıl, Lazareviç'in ölümünden sonra Osmanlılar Şehirköy kalesini de geri aldılar — şehir 1412'de Stefan tarafından alınmış ve Mûsâ Çelebi'ye karşı savunulmuştu. Böylece Büyük Morava ile Nişava vadilerini birbirine bağlayan hat Osmanlı denetimine girdi. ⚠️ TARİH HAKKINDA: TDV her iki yer için de YIL veriyor, gün vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Sırp Despotu Stefan Lazareviç'in vârissiz ölümünün (1427) ardından II. Murad, Yıldırım Bayezid'in Sırp prensesiyle evliliğine dayanarak Sırbistan'ın meşrû vârisi olduğunu ileri sürüp harekete geçti ve Alacahisar'ı aldı (1428). Aynı yıl, Lazareviç'in ölümünden sonra Osmanlılar Şehirköy kalesini de geri aldılar — şehir 1412'de Stefan tarafından alınmış ve Mûsâ Çelebi'ye karşı savunulmuştu. Böylece Büyük Morava ile Nişava vadilerini birbirine bağlayan hat Osmanlı denetimine girdi.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: TDV her iki yer için de YIL veriyor, gün vermiyor."
+  },
+  {
+   "dosya": "data\\olaylar_serhat.js",
+   "t": "1443-01-01",
+   "alan": "d",
+   "kova": "karisik",
+   "eski_metin": "Kral Vladislav ve Sırp Despotu Curac Brankoviç liderliğindeki Haçlı ordusu 1443'te Şehirköy'ü zaptetti. Aynı seferin devamında Osmanlı kuvvetleri kasım ayında İzladi geçidinde bozguna uğrayacaktır. Şehirköy, Segedin Antlaşması'nın (1444) ardından II. Murad tarafından tekrar Sırplar'a verilmiş, ancak 1456'da Curac Brankoviç'in ölümünden sonra Osmanlılar'a geçmiştir. ⚠️ TARİH HAKKINDA: TDV yıl veriyor, gün vermiyor.",
+   "gerekce": "Tarih-hassasiyeti sureç notu.",
+   "yeni_metin": "Kral Vladislav ve Sırp Despotu Curac Brankoviç liderliğindeki Haçlı ordusu 1443'te Şehirköy'ü zaptetti. Aynı seferin devamında Osmanlı kuvvetleri kasım ayında İzladi geçidinde bozguna uğrayacaktır. Şehirköy, Segedin Antlaşması'nın (1444) ardından II. Murad tarafından tekrar Sırplar'a verilmiş, ancak 1456'da Curac Brankoviç'in ölümünden sonra Osmanlılar'a geçmiştir.",
+   "tasinan_not": "⚠️ TARİH HAKKINDA: TDV yıl veriyor, gün vermiyor."
+  }
+ ]
+}
