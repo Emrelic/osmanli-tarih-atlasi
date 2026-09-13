@@ -31,8 +31,12 @@ kamerayı Anadolu'ya uçururdu. 1.MURAT'ın Vestfalya uyarısı doğru yöndeydi
 | 30 | ok109 SHS + Romanya | 808 km | red |
 | 31 | ok109 Saint-Germain | Viyana ✓ · Saint-Germain ✗ | red |
 | 32 | ok109 Trianon | ikisi ✗ | red |
-| 33 | ok109 Versailles | Alsas 4 şehir, 175 km · Versailles ✗ | red — aday: Alsas orta noktası [48.38, 7.157] (koordinatör kararı) |
-| 34 | ok109 Neuilly | Batı Trakya 3 kasaba + Sofya, 295 km | red — aday: Batı Trakya üçlüsünün orta noktası (koordinatör kararı) |
+| 33 | ok109 Versailles | Alsas 4 şehir, 175 km · Versailles ✗ | red — **AÇIK: kaynaklı imza yeri koordinatı ya da C kaydı gerekiyor** |
+| 34 | ok109 Neuilly | Batı Trakya 3 kasaba + Sofya, 295 km | red — **AÇIK: kaynaklı imza yeri koordinatı ya da C kaydı gerekiyor** |
+
+🔴 **1.MURAT KARARI (M-3779 cevabı):** Versailles ve Neuilly'ye yer_kon YAZILMAZ. Alsas
+orta noktası ya da Batı Trakya orta noktası maddenin anlattığını değil bizim yorumumuzu
+haritaya koyar (D089). Varsayılan davranış kalır.
 
 ## Tek-yer 20 — 14 uygulandı · 6 reddedildi
 `yer_kon` değeri **öneriden değil, aynı adlı yerleşim noktasından** alındı.
