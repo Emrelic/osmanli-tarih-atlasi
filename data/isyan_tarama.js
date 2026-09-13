@@ -35,6 +35,16 @@
 //           Brave, and Giorgio Basta) · 119.html (Bocskai's Insurrection …)
 //         Ham metin indirilip okundu; bölüm yazarı sayfada gösterilmiyor.
 //         Tarihler Macar tarih yazımının (Gregoryen) tarihleridir.
+//   PAKET-ISYAN2 · 14 Eylül 2026 · rapor: denetim/PAKET-ISYAN2-0914.md — Erdel 1599 ve
+//   Boğdan 1600 kalemleri kaynak ağırlığına göre yeniden yazıldı (Emre: "ibre hangi
+//   tarafa dönükse"). Ek kaynaklar (PDF metin katmanı pypdf ile okundu):
+//   Tóth    Tóth Sándor László, "Báthori Zsigmond politikája és harmadik lemondása
+//           (1599-1600)", Aetas 26/2 (2011) 85-98
+//   Papp    Sándor Papp, Prace Historyczne 148/4 (2021) 687-701,
+//           doi:10.4467/20844069PH.21.045.14021 (hakemli)
+//   DȚM     Domnii Ţării Moldovei (Chişinău: Civitas, 2005) 150-153 — Moldova Bilimler
+//           Akademisi portalı moldova650.asm.md/node/40 (ham HTML okundu)
+//   TDV `bogdan` gövdesi yeniden okundu (Mihai'nin 1599 Erdel girişinin gerekçesi).
 // ═══════════════════════════════════════════════════════════════════════════
 window.ISYAN_TARAMA = {
   surum: "PAKET-ISYAN-0913",
@@ -105,22 +115,28 @@ window.ISYAN_TARAMA = {
          "Movilă: Leh himayesi + Osmanlı haracı (çifte bağlılık); HoT: Polonya Bâbıâli ile olağan ilişkisini koruyordu ⇒ 1595 sonrası tarama yok." },
 
   { id: "isy-bogdan-1600", kimlik: "bogdan", tur: "isyan",
-    f: "1600-05-01", t: "1601-01-12",
-    kesinlik_f: "ay", kesinlik_t: "gun", kesinlik: "ay",
+    f: "1600-05-01", t: "1600-09-01",
+    kesinlik_f: "ay", kesinlik_t: "ay", kesinlik: "ay",
     kaynak: [
       { ad: "TDV İslâm Ansiklopedisi", slug: "bogdan", gelenek: "Türk (TDV)",
         alinti: "Mihai 1599'da Erdel'i aldı, 1600'de Hotin'e dek ilerleyip Boğdan'ın da hâkimi oldu; ertesi yıl Basta onu öldürünce üç prenslik yeniden ayrıldı (özet)." },
       { ad: "History of Transylvania I, IV.3", sayfa: "mek.oszk.hu/03400/03407/html/118.html", gelenek: "Macar akademik",
         alinti: "\"Michael launched in May 1600 a surprise attack on Moldavia\"" },
-      { ad: "History of Transylvania I, IV.3", sayfa: "mek.oszk.hu/03400/03407/html/118.html", gelenek: "Macar akademik",
-        alinti: "\"he reached the imperial court at Prague on 12 January 1601\"" }
+      { ad: "Domnii Ţării Moldovei (Chişinău: Civitas, 2005), s. 150-153 — Moldova Bilimler Akademisi 'Moldova 650' portalında yeniden basım", sayfa: "moldova650.asm.md/node/40", gelenek: "Romen/Moldova akademik",
+        alinti: "Mihai Mayıs-Ağustos 1600 Yaş'ta kaldı; Zamoyski 4 Eylül 1600'de Dinyester'i geçti, 6 Eylül'de Suçava önündeydi; Mihai'nin bıraktığı birlik dayanamadı, Movilă yeniden tahta çıktı (özet). Movilă Osmanlılarca korunan, 1598 ahidnamesiyle ömür boyu tanınmış vasal (özet)." },
+      { ad: "Tóth Sándor László, \"Báthori Zsigmond politikája és harmadik lemondása (1599-1600)\", Aetas 26/2 (2011), s. 85-98", sayfa: "acta.bibl.u-szeged.hu/30900/1/aetas_2011_002_085-098.pdf", gelenek: "Macar akademik",
+        alinti: "Zamoyski ve Zsigmond Ağustos 1600'de büyük orduyla Boğdan'a girip Movilă'yı yeniden tahta oturttular (özet)." }
     ],
-    not: "f: HoT Mayıs 1600 ⇒ 1600-05-01, kesinlik ay. " +
-         "t: Boğdan'ın Mihai'den çıktığı gün/ay BULUNAMADI. TDV ayrılığı ölüm yılına (1601) bağlıyor; HoT Mihai'nin 18 Eylül 1600 Mirăslău ve 15 Kasım 1600 Argeş yenilgilerinden sonra 12 Ocak 1601'de Prag'a vardığını yazıyor ⇒ o gün hiçbir prenslikte idaresi yok. t = 1601-01-12 bir ÜST SINIRDIR (gün kesin, devir anı değil); tarama FAZLA gösterebilir. " +
-         "Ayrıştırma: TDV'nin 'ertesi yıl … öldürülünce ayrıldı' cümlesi bir özet sıralaması, Boğdan için ayrı devir tarihi vermiyor ⇒ çelişki ilan edilmedi, raporda." },
+    not: "PAKET-ISYAN2 (14 Eylül 2026): t 1601-01-12 (üst sınır) → 1600-09-01. " +
+         "f: HoT Mayıs 1600 ⇒ 1600-05-01, kesinlik ay (portal: Mihai'nin Boğdan hükmü 'mai 8 (18)' 1600 — Jülyen (Gregoryen)). " +
+         "t: Movilă'nın yeniden tahta çıkış GÜNÜ BULUNAMADI. Portal Mihai'nin Yaş'taki süresini 'Mayıs-Ağustos 1600' veriyor ve Leh ordusunun Dinyester geçişini 4 Eylül 1600'e koyuyor; Tóth seferin Ağustos'ta başladığını yazıyor ⇒ Mihai hâkimiyetinin sonu Ağustos sonu-Eylül başı. §4 'kaba güvenli': ay kesinliği, t = 1600-09-01 (hariç). Tarama Ağustos sonunda biter; gerçek devir birkaç gün geç olabilir (AZ gösterir). " +
+         "Tâbiiyet: Movilă Leh himayesinde AMA Osmanlı vasalı (portal: 1595 sonu sultan tanıdı, 1598 ahidname; HoT: Polonya Bâbıâli ile olağan ilişkide) ⇒ dönüşü Osmanlı tâbiiyetine dönüş sayıldı, pencere orada bitti. " +
+         "Eski t'nin dayanağı (HoT 12 Ocak 1601 Prag) Boğdan'la ilgili değildi: Mihai o sırada Boğdan'ı 4 aydır kaybetmişti. " +
+         "Ayrıştırma: TDV'nin 'ertesi yıl … öldürülünce ayrıldı' cümlesi özet sıralaması, Boğdan için devir tarihi vermiyor ⇒ çelişki ilan edilmedi. " +
+         "Okunmadı: Rezachevici, Cronologia critică (2001) — portal ile aynı 'Eylül 1600' ayını verdiği ikincil aramada görüldü, gövde okunmadı." },
 
   { id: "isy-erdel-1594", kimlik: "erdel", tur: "isyan",
-    f: "1594-08-28", t: "1601-08-03",
+    f: "1594-08-28", t: "1599-03-29",
     kesinlik_f: "gun", kesinlik_t: "gun", kesinlik: "gun",
     kaynak: [
       { ad: "TDV İslâm Ansiklopedisi", slug: "erdel", gelenek: "Türk (TDV)",
@@ -128,12 +144,58 @@ window.ISYAN_TARAMA = {
       { ad: "History of Transylvania I, IV.3", sayfa: "mek.oszk.hu/03400/03407/html/118.html", gelenek: "Macar akademik",
         alinti: "\"Zsigmond proceeded on 28 August to have the opposition leaders arrested\" (1594; savaşa katılmaya karşı çıkanlar)" },
       { ad: "History of Transylvania I, IV.3", sayfa: "mek.oszk.hu/03400/03407/html/118.html", gelenek: "Macar akademik",
-        alinti: "\"On 3 August, at Goroszló, Báthori suffered defeat\" (1601); Erdel yeniden Habsburg eline düştü (özet)" }
+        alinti: "Zsigmond'un Osmanlı ile görüşmesi sonuçsuz kalınca Lehistan'a yöneldi; 17 Mart 1599 anlaşmasıyla yetki András Báthori'ye geçti, Erdel Leh nüfuz alanına girdi (özet)" },
+      { ad: "Tóth Sándor László, \"Báthori Zsigmond politikája és harmadik lemondása (1599-1600)\", Aetas 26/2 (2011), s. 85-98", sayfa: "acta.bibl.u-szeged.hu/30900/1/aetas_2011_002_085-098.pdf", gelenek: "Macar akademik",
+        alinti: "Mart 1599 sonu Medgyes diyetinde yetki András'a devredildi; bir rapora göre devir 29 Mart'ta (özet)." },
+      { ad: "Sándor Papp, \"Transylvania's and Poland's Participation in the Struggles between … the Movilăs, and … Radu Şerban\", Prace Historyczne 148/4 (2021), s. 687-701", sayfa: "doi.org/10.4467/20844069PH.21.045.14021", gelenek: "Macar akademik (hakemli)",
+        alinti: "1597'den itibaren Erdel prensleri Bâbıâli hâkimiyetine dönmeye çalıştı; 1599 ve 1601'de Osmanlı otoritesini tanıyan antlaşmalar imzalandı (özet)." }
     ],
-    not: "f: HoT gün veriyor (28 Ağustos 1594, savaş karşıtı muhalefetin tutuklanması); 28 Ocak 1595 Prag ittifakı bunu resmîleştirdi. " +
-         "t: HoT 3 Ağustos 1601 Goroszló ⇒ sonrası `isy-erdel-1601-habsburg`. " +
-         "İÇ KIRILMALAR (ayrı çizilmedi, hepsi HoT 118): Nisan 1598 imparator komiserleri Erdel'i devraldı · 20 Ağustos 1598 Zsigmond döndü · 17 Mart 1599 András Báthori, Erdel Leh nüfuz alanına geçti, Krakov ve Movilă İstanbul nezdinde aracılık etti · 1 Kasım 1599 Mihai Gyulafehérvár'da · 18 Eylül 1600 Mirăslău'da Mihai yenildi · Şubat 1601 Zsigmond yeniden prens. " +
-         "Bunların hangisinde Erdel'in Osmanlı denetimine döndüğü kaynakta AÇIKÇA yazmıyor (1599 András dönemi en şüphelisi) ⇒ pencere bölünmedi; Emre'nin bakacağı yer." },
+    not: "PAKET-ISYAN2 (14 Eylül 2026): t 1601-08-03 → 1599-03-29; pencere Emre'nin 'ibre hangi yöne dönükse' hükmüyle BÖLÜNDÜ (devamı `isy-erdel-1599` · `isy-erdel-1600-habsburg`). " +
+         "f: HoT gün veriyor (28 Ağustos 1594, savaş karşıtı muhalefetin tutuklanması); 28 Ocak 1595 Prag ittifakı bunu resmîleştirdi. " +
+         "t: András Báthori'ye devir. HoT anlaşmayı 17 Mart 1599'a koyuyor (devir hükmü, yetki değişimi değil); Tóth diyetin 21 Mart'a çağrıldığını, devrin 'bir rapora göre' 29 Mart'ta olduğunu yazıyor ⇒ t = 1599-03-29 (gün; tek raporlu, not düşüldü). " +
+         "İBRE — 1599: dört kaynak aynı yönde. Papp 2021: András 1599'da Osmanlı otoritesini tanıyan, savaştan çekilen antlaşma imzaladı. Tóth: Zsigmond András'la Türk ile barışı umuyordu, Mustafa ve Hüseyin çavuşlar András'a geldi. TDV bogdan: Mihai 'Báthory'nin Osmanlılarla dostluğa başladığını görünce' Erdel'e girdi. HoT: Krakov ve Movilă András için İstanbul nezdinde aracılık etti; Lehistan Bâbıâli ile olağan ilişkideydi. ⇒ Mart-Ekim 1599 tarama YOK. " +
+         "İBRE — 1598: 'hâlâ Habsburg ittifakında' ⇒ BÖLÜNMEDİ. HoT/Tóth: Nisan 1598 diyetinde feragat, imparator komiserleri ve Maria Christierna yönetti; 20 Ağustos 1598 Zsigmond döndü, Tóth'a göre Habsburg müttefiki egemen prens olarak yöneteceğini ilan etti, Osmanlı ile görüşmesi sonuçsuz kaldı (HoT), Osmanlı Varad'ı kuşattı. Nisan-Ağustos 1598 fiilen Habsburg komiser idaresiydi; ayrı `habsburg` türüne çevrilmedi (raporda seçenek). " +
+         "Kármán G., 'Báthori András ahdnáméja', Fons 14 (2007) 339-348 ve İngilizce sürümü (Cluj 2013) OKUNMADI — ahidname günü bu yüzden pencereye konmadı." },
+
+  { id: "isy-erdel-1599", kimlik: "erdel", tur: "isyan",
+    f: "1599-10-28", t: "1600-09-18",
+    kesinlik_f: "gun", kesinlik_t: "gun", kesinlik: "gun",
+    kaynak: [
+      { ad: "History of Transylvania I, IV.3", sayfa: "mek.oszk.hu/03400/03407/html/118.html", gelenek: "Macar akademik",
+        alinti: "28 Ekim 1599 Sellenberk'te Mihai, András'ın kumandanı Kornis'i yendi; 1 Kasım Gyulafehérvár'a girdi; diyet onu imparator valisi tanıdı (özet)" },
+      { ad: "History of Transylvania I, IV.3", sayfa: "mek.oszk.hu/03400/03407/html/118.html", gelenek: "Macar akademik",
+        alinti: "\"defeated Michael's forces in a battle at Miriszló on 18 September 1600\"" },
+      { ad: "Tóth Sándor László, \"Báthori Zsigmond politikája és harmadik lemondása (1599-1600)\", Aetas 26/2 (2011), s. 85-98", sayfa: "acta.bibl.u-szeged.hu/30900/1/aetas_2011_002_085-098.pdf", gelenek: "Macar akademik",
+        alinti: "Sellenberk yenilgisinden sonra Mihai vali unvanıyla Erdel'i aldı, adı geçen Rudolf adına (özet)." },
+      { ad: "Sándor Papp, Prace Historyczne 148/4 (2021), s. 687-701", sayfa: "doi.org/10.4467/20844069PH.21.045.14021", gelenek: "Macar akademik (hakemli)",
+        alinti: "András'ın Osmanlı'ya dönüş girişimi Habsburg sarayı ve müttefiki Mihai'nin askerî müdahalesiyle boşa çıktı (özet)." },
+      { ad: "TDV İslâm Ansiklopedisi", slug: "bogdan", gelenek: "Türk (TDV)",
+        alinti: "Mihai, Báthory'nin Osmanlılarla dostluğa başladığını görünce Erdel'i işgal etti (1599) (özet)." }
+    ],
+    not: "PAKET-ISYAN2 (14 Eylül 2026): YENİ pencere. " +
+         "f: Sellenberk (HoT ve Tóth ikisi de 28 Ekim 1599) — András rejiminin çöküşü. Alternatifler: 5 Ekim 1599 Mihai'nin yürüyüşü (HoT; Tóth 'Ekim sonunda saldırdı' der) · 1 Kasım Gyulafehérvár girişi. Savaş günü seçildi. " +
+         "MİHAİ HABSBURG ADINA MI KENDİ ADINA MI (MTA/HoT): diyet onu 'imparator valisi' tanıdı ve saldırı Rudolf'un rızasıyla yapıldı ⇒ BİÇİMCE Habsburg adına; ama HoT Mihai'nin Erdel'i Prag'ın denetimine bırakmaya niyeti olmadığını, bu anlaşılınca imparator yardımının kesildiğini yazıyor ⇒ FİİLEN kendi hükmü. Tóth: 'névleg' (adı geçen) Rudolf adına. İki durumda da Osmanlı denetimi dışında ⇒ tür `isyan` (fiilî Habsburg idaresi değil). " +
+         "t: 18 Eylül 1600 Mirăslău/Miriszló — Mihai Erdel'den çıkarıldı. " +
+         "Not: HoT'ye göre Mihai 1598'de Osmanlı ile barış da imzalamıştı; bu, Erdel üzerindeki hükmünü Osmanlı adına yapmaz (Papp: Habsburg müttefiki)." },
+
+  { id: "isy-erdel-1600-habsburg", kimlik: "erdel", tur: "habsburg",
+    f: "1600-09-18", t: "1601-02-01",
+    kesinlik_f: "gun", kesinlik_t: "ay", kesinlik: "ay",
+    kaynak: [
+      { ad: "History of Transylvania I, IV.3", sayfa: "mek.oszk.hu/03400/03407/html/118.html", gelenek: "Macar akademik",
+        alinti: "Ekim 1600 sonunda Erdel'in üç 'millet'i İmparator Rudolf'a bağlılık yemini etti; Basta Sekel ayrıcalıklarını kaldırdı (özet)" },
+      { ad: "History of Transylvania I, IV.3", sayfa: "mek.oszk.hu/03400/03407/html/118.html", gelenek: "Macar akademik",
+        alinti: "\"in February 1601, Zsigmond reclaimed the princely throne\"" },
+      { ad: "Tóth Sándor László, \"Báthori Zsigmond politikája és harmadik lemondása (1599-1600)\", Aetas 26/2 (2011), s. 85-98", sayfa: "acta.bibl.u-szeged.hu/30900/1/aetas_2011_002_085-098.pdf", gelenek: "Macar akademik",
+        alinti: "Şubat 1601 başında Leh-Türk destekli Zsigmond prens seçildi, Mart sonunda tahta çıkarıldı; Türk vasallığını kabul etti, III. Mehmed Ağustos 1601'de ahidname gönderdi (özet)." },
+      { ad: "Sándor Papp, Prace Historyczne 148/4 (2021), s. 687-701", sayfa: "doi.org/10.4467/20844069PH.21.045.14021", gelenek: "Macar akademik (hakemli)",
+        alinti: "1601'de de Erdel prensi Osmanlı otoritesini tanıyan bir antlaşma imzaladı (özet)." }
+    ],
+    not: "PAKET-ISYAN2 (14 Eylül 2026): YENİ pencere. " +
+         "f: Miriszló 18 Eylül 1600 — Basta'nın Habsburg ordusu ve Erdelli asiler Mihai'yi çıkardı; yemin Ekim 1600 sonu (gün yok). Savaştan yemine kadarki ~6 hafta da fiilen Basta'nın elinde sayıldı. " +
+         "t: Zsigmond'un dönüşü. HoT 'Şubat 1601', Tóth 'Şubat 1601 başı' (seçim), tahta çıkış Mart sonu ⇒ ay kesinliği 1601-02-01. " +
+         "ŞUBAT → 3 AĞUSTOS 1601 TARAMA YOK: Zsigmond Osmanlı vasalı olarak döndü (Tóth: ahidname Ağustos 1601; Papp: 1601 antlaşması; HoT: Basta savaşmadan çekildi). Sevkte bu dilim isyan penceresinin içindeydi; üç kaynak ters yönü söylediği için çıkarıldı (tahta M-3882). " +
+         "Sonrası: 3 Ağustos 1601 Goroszló ⇒ `isy-erdel-1601-habsburg`." },
 
   { id: "isy-erdel-1601-habsburg", kimlik: "erdel", tur: "habsburg",
     f: "1601-08-03", t: "1605-09-14",
