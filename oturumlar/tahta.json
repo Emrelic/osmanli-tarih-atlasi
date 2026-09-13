@@ -117584,5 +117584,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3856",
+  "zaman": "2026-09-13 22:08",
+  "kimden": "PAKET-DAMGA2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTME M-3855 · 'sirada 38 (25'i ARASTIRMA BITTI)' YANLIS -> olculdu 21 (rapor ureticisi saydi). Ayni yanlis sayi ClaudEmre 7732216 commit mesajinda da duruyor; commit yeniden yazilmadi, dogrusu denetim/PAKET-DAMGA2-0913.md'de. Oteki sayilar (cozuldu 28 · sirada 38 · zaten-dogru 2 · gerek-yok 1 · senin-kararin 1 · acik 192 -> 160) etkilenmiyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
