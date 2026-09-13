@@ -1,0 +1,206 @@
+{
+  "olusturan": "ARAS-BAGDAT (koordinatör 1.MURAT) · 14 Eylül 2026",
+  "is": "Emre partisi parti-emrelic-0050 · H-0002 (Bağdat'ın geri fethinde Irak) + H-0006 (Kasr-ı Şirin maddeleri ↔ harita; Halepçe/Şehrizor)",
+  "durum": "YALNIZ ÖNERİ — data/ HİÇBİR DOSYAYA YAZILMADI. data/yerlesimler.js başka işçide kilitli.",
+  "rapor": "denetim/ARASTIRMA-BAGDAT-0914.md",
+
+  "kaynak_kunyeleri": {
+    "TDV-murad-iv": "TDV İslâm Ansiklopedisi, «MURAD IV» — islamansiklopedisi.org.tr/murad-iv (HTTP 200, gövde okundu)",
+    "TDV-bagdat": "TDV İslâm Ansiklopedisi, «BAĞDAT» — /bagdat (200, gövde okundu)",
+    "TDV-musul": "TDV İslâm Ansiklopedisi, «MUSUL» — /musul--irak (200, gövde okundu; /musul 302 ÖLÜ)",
+    "TDV-kerkuk": "TDV İslâm Ansiklopedisi, «KERKÜK» — /kerkuk (200, gövde okundu; 1623-26 dönemini ANMIYOR)",
+    "TDV-hafiz": "TDV İslâm Ansiklopedisi, «HÂFIZ AHMED PAŞA» — /hafiz-ahmed-pasa (200, gövde okundu)",
+    "TDV-abbas": "TDV İslâm Ansiklopedisi, «ABBAS I» — /abbas-i (200, gövde okundu)",
+    "TDV-sehrizor": "TDV İslâm Ansiklopedisi, «ŞEHRİZOR» — /sehrizor (200, gövde okundu)",
+    "TDV-kasrisirin": "Rhoads Murphey, «KASRIŞÎRİN ANTLAŞMASI», TDV İslâm Ansiklopedisi c.24 s.575 (2001) — /kasrisirin-antlasmasi (200, gövde okundu). 🔴 Veride kullanılan /kasr-i-sirin-antlasmasi 302 ÖLÜ.",
+    "Kilic-2001": "Remzi Kılıç, «Osmanlı-İran Arasında Kasr-ı Şirin Barış Antlaşması (1639)», Türk Kültürü XXXIX/460, Ankara 2001, ss. 479-493 (erişim yolu: yazarın sitesi remzikilic.com; sayfa içi numara ÖLÇÜLEMEDİ). Metin Osmanlıca antlaşma metninden sınır maddelerini aktarıyor (BA İbnülemin-Hariciye nr.18 · Nâme-i Hümâyun Defteri nr.7 künyeli).",
+    "BFSP-105": "British and Foreign State Papers 105, s. 763-766 — antlaşmanın İngilizce çevirisi. 🟡 BFSP taramasına DOĞRUDAN İNİLMEDİ; erişim kurdistanica.com/276 aktarımıyla (site akademik değil, yalnız erişim yolu). Kılıç 2001'in Osmanlıca metniyle madde madde örtüşüyor.",
+    "As-2010": "Efdal As, «XVI. yy.'dan Cumhuriyetin İlk Yıllarına Kadar Türk-İran Sınır Sorunları ve Çözümü», Atatürk Yolu Dergisi S.46 (Güz 2010), s.219-253 (DergiPark) — sınır maddelerinin özeti",
+    "Soofizadeh-2017": "Abdolvahid Soofizadeh, SUTAD 42 (Güz 2017), s.437-449 (DergiPark) — madde özeti, dipnot 5",
+    "Efe-Kizil-2017": "Haydar Efe · Murat Kızıl, ERZSOSDE X-I (2017), s.77-90 (DergiPark) — madde özeti",
+    "Koc": "Hasan Koç, «Osmanlı Döneminde Şehrizorun Yönetim Merkezleri: Zalim ve Gülanber Kaleleri» (DergiPark article-file 781157) — 🟡 dergi adı/yılı PDF'ten ÇIKARILAMADI",
+    "GeoNames": "geonames.org tam metin araması (denetim/ARAC-KSM-GEONAMES-0913.py yöntemi, ülke parametreli kopya)"
+  },
+
+  "yerlesim_yamalari": [
+    {
+      "grup": "A — Bağdat eyaleti noktalarını TEK kaynak güne hizala (1638-12-25 → 1638-12-24)",
+      "kayitlar": ["Tikrit", "Âne", "Hânekîn", "Sâmerrâ", "Hît", "Fellûce", "Kerbelâ", "Kût el-Amâre", "Hille", "Vâsıt", "Kûfe", "Necef", "Dîvâniye", "Tuz Hurmatu", "Kifri"],
+      "dosya": "data/yerlesimler.js",
+      "alan": "s[safevi 1623-11-28].t  VE  d[ikinci dönem].f",
+      "eski": "s:{f:\"1623-11-28\",t:\"1638-12-25\",d:\"safevi\"} · d:{f:\"1638-12-25\",t:<aynı>}",
+      "yeni": "s:{f:\"1623-11-28\",t:\"1638-12-24\",d:\"safevi\"} · d:{f:\"1638-12-24\",t:<aynı>}",
+      "kaynak": "TDV-murad-iv: «17 Şâban 1048 / 24 Aralık 1638 Cuma» kale kumandanı Bektaş Han teslime karar verdi · gün komşudan: Bağdat · TDV-murad-iv",
+      "gerekce": "Atlasın kendi Bağdat, Halepçe ve Şehrizor kayıtları 12-24'te, öteki 17 Irak noktası 12-25'te dönüyor — H-0002 görüntüsü (1638-12-24) tam bu bir günlük ayrışmanın ürünü: haritada yalnız Bağdat + Şehrizor/Halepçe adası Osmanlı. 12-25'in HİÇBİR kaynağı yok (kuyruk madde kronoloji_iran.js:196 ve halka kr-bagdat-osmanli-1638 ölü slug kasr-i-sirin-antlasmasi'ya dayanıyor). §4 komşu günü şartları: ① Bağdat günü kendi kaynağında (murad-iv) ② bu 15 yer için kaynakta gün yok ③ aynı olay — Bağdat'taki Safevî idaresinin teslimi; TDV-kasrisirin 'Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi' Osmanlı'da ④ bu satır. Zincirleme devralma YOK (hepsi doğrudan Bağdat'tan).",
+      "guven": "orta",
+      "degismez2": "1638-12-24 çekirdekte KAPALI (olaylar_ek5.js 'Bağdat'ın geri fethi', 0 gün). 1638-12-25 kırılması ORTADAN KALKIYOR. Yeni açık: 0.",
+      "sinir": "Tuz Hurmatu ve Kifri'nin 1623-1638 Safevî dönemi KAYNAKSIZ (ne başlangıç ne süre kaynakta) — yalnız gün hizalanıyor, dönemin kendisi ölçülemedi."
+    },
+    {
+      "grup": "B — Şehrizor: d/s 1 günlük örtüşme + 1630 Osmanlı dönüşü",
+      "ad": "Şehrizor",
+      "dosya": "data/yerlesimler.js",
+      "alan": "s[safevi 1623-11-28].t · d[üçüncü dönem].f",
+      "eski": "s:{f:\"1623-11-28\",t:\"1638-12-25\",d:\"safevi\"} · d:{f:\"1638-12-24\",t:\"1918-10-30\"}   ← 1638-12-24 günü d ve s İKİSİ BİRDEN geçerli (örtüşme)",
+      "yeni": "s:{f:\"1623-11-28\",t:\"1630-03-16\",d:\"safevi\"} · d:{f:\"1630-03-16\",t:\"1918-10-30\"}",
+      "yeni_yedek": "Emre 1630'u kabul etmezse YALNIZ örtüşme kapatılır: s.t \"1638-12-25\" → \"1638-12-24\"",
+      "kaynak": "Kilic-2001: «16 Mart 1630da Şehrizorda Gülanber Kalesi'nin inşaatına başlanmıştır», eyalet merkezi yapılıp beylerbeyi (Arnavud Mustafa Paşa) tayin edildi · TDV-sehrizor: Gülanber «Hüsrev Paşa zamanında yeniden inşa edildi (1630)» · TDV-murad-iv: Hüsrev Paşa «Şehrizol Kalesi'ni (Gülanber) tamir ettirdi», Mihriban'ı aldı, 5 Mayıs 1630 zaferi",
+      "gerekce": "Atlas Şehrizor'u 15 yıl Safevî gösteriyor; kaynak 1630 Mart'ından itibaren Şehrizor'da Osmanlı beylerbeyiliği ve kale inşası kaydediyor. Şehrizor eyaletinin merkezi Zalm/Gülanber'dir (TDV-sehrizor).",
+      "guven": "orta",
+      "acik_sart": "① BAŞLANGIÇ 1623-11-28 KAYNAKSIZ (atlas zinciri — Bağdat günü). TDV-sehrizor Gülanber'in Şah Abbas istilâsında yıktırıldığını söylüyor ama YIL vermiyor. ② 1630 SONRASI: Koç (Evliya Çelebi C.4 s.348 aktarımı) Zâlim Kalesi'nin 1630'da yeniden alınıp «tekraren İran'ın eline geçtiğini» yazıyor — TARİHSİZ. TDV-murad-iv 1636-37'de Osmanlı kuvvetlerinin Mihriban civarında çarpıştığını kaydediyor (Şehrizor'dan harekât — İŞARET, kanıt değil). Yani 1630-1638 arasında kısa bir yeniden kayıp ölçülemedi.",
+      "degismez2": "1630-03-16 çekirdekte AÇIK (en yakın +156 gün) ⇒ madde önerisi M3 ŞART."
+    },
+    {
+      "grup": "C — Halepçe: Şehrizor ile aynı",
+      "ad": "Halepçe",
+      "dosya": "data/yerlesimler.js",
+      "alan": "s[safevi 1623-11-28].t · d[üçüncü dönem].f",
+      "eski": "s:{f:\"1623-11-28\",t:\"1638-12-24\",d:\"safevi\"} · d:{f:\"1638-12-24\",t:\"1917-03-11\"}",
+      "yeni": "s:{f:\"1623-11-28\",t:\"1630-03-16\",d:\"safevi\"} · d:{f:\"1630-03-16\",t:\"1917-03-11\"}",
+      "kaynak": "gün komşudan: Şehrizor (Gülanber) · Kilic-2001 + TDV-sehrizor",
+      "gerekce": "§4 komşu günü: ① Şehrizor günü kendi kaynağında ② Halepçe için 1623-1638 kaynağı yok ③ aynı süreç — Şehrizor ovasında Hüsrev Paşa seferi, Halepçe Zalm kalesine 17,6 km (GeoNames 89563 ↔ 96205) ④ bu satır.",
+      "guven": "düşük",
+      "degismez2": "B ile aynı gün — M3 kapatır."
+    },
+    {
+      "grup": "D — Kerkük: 15 yıllık Safevî dönemi → 1624-1625",
+      "ad": "Kerkük",
+      "dosya": "data/yerlesimler.js",
+      "alan": "d · s[safevi 1623-11-28]",
+      "eski": "d:[{f:\"1534-12-04\",t:\"1623-11-28\"},{f:\"1638-12-25\",t:\"1918-10-30\"}] · s:{f:\"1623-11-28\",t:\"1638-12-25\",d:\"safevi\"}",
+      "yeni": "d:[{f:\"1534-12-04\",t:\"1624-01-01\"},{f:\"1625-01-01\",t:\"1918-10-30\"}] · s:{f:\"1624-01-01\",t:\"1625-01-01\",d:\"safevi\"}",
+      "kaynak": "TDV-musul: Şah Abbas Bağdat'ı aldıktan sonra Karçakay Han'ı «Musul ve Kerkük üzerine gönderdi» · «Kerkük gibi Musul da İran hâkimiyetine geçti» · 1035 (1625) Çerkez Hasan öncüleri «Kerkük de dahil bölgeyi kontrol altına aldı» · Kilic-2001: Hâfız Ahmed harekâtı sonucu «Kerkük ve Musul şehirleri ve havalisi» İran kuvvetlerinden «tamamen arındırılmıştır»; 1627'de «Kerkük Beylerbeyisi Bostan Paşa» · TDV-hafiz: 1625 eylülünde ordu «önce Musul'a, ardından Kerkük'e vardı»",
+      "karsi_kaynak": "TDV-abbas: «Şah Abbas Musul, Kerkük ve Van'ı da almak istedi, fakat muvaffak olamadı». Cümle 1623 Bağdat zaptı ile 1629 ölümü arasındaki saltanat ÖZETİNDE duruyor; kalıcı tutamamayı anlatıyor olarak okundu (koordinatör M-3906 yolu, M-3908 onay). İki cümle raporda yan yana.",
+      "gerekce": "Atlas Kerkük'ü 1638'e kadar Safevî gösteriyor; üç kaynak Safevî hâkimiyetinin 1625'te bittiğini ve 1627'de Osmanlı Kerkük beylerbeyi bulunduğunu söylüyor.",
+      "hassasiyet": "YIL. Başlangıç: TDV hicrî 1033 (25 Ekim 1623 – 13 Ekim 1624) — Bağdat 28 Kasım 1623'ten SONRA; ilk alış Aralık 1623 olabilir, YYYY-01-01 kuralıyla 1624. Bitiş: 1625 (Hâfız Ahmed ordusu Eylül 1625'te Kerkük'te). 1624 içindeki Küçük Ahmed geri alışı + Şah'ın yeniden alışı GÜN YOK, modellenmedi.",
+      "guven": "orta",
+      "degismez2": "1624-01-01 çekirdekte AÇIK (en yakın −34 gün, 1623-11-28) · 1625-01-01 AÇIK (−400 gün) ⇒ M1 + M2 ŞART."
+    },
+    {
+      "grup": "E — Musul: hiç yazılmamış kısa Safevî dilimi",
+      "ad": "Musul",
+      "dosya": "data/yerlesimler.js",
+      "alan": "d · s",
+      "eski": "d:[{f:\"1516-08-24\",t:\"1918-11-08\",y:\"antlasma\"}] · s: 1624'te Safevî dönemi YOK",
+      "yeni": "d:[{f:\"1516-08-24\",t:\"1624-01-01\",y:\"antlasma\"},{f:\"1625-01-01\",t:\"1918-11-08\",y:\"antlasma\"}] · s'ye ekle {f:\"1624-01-01\",t:\"1625-01-01\",d:\"safevi\"}",
+      "kaynak": "TDV-musul: Musul Valisi Çerkez Ahmed Paşa «birkaç gün şehri savunduysa da başarılı olamadı», valiliğe Kāsım Han; Küçük Ahmed yaklaşınca Kāsım Han çekildi; «şehir tekrar Safevîler'in eline geçti (1033/1624)»; 1625 Hâfız Ahmed seferi · Kilic-2001 aynı sıra · TDV-hafiz 1625",
+      "karsi_kaynak": "TDV-abbas (bkz. D)",
+      "gerekce": "Atlas Musul'u 1516-1918 kesintisiz Osmanlı gösteriyor; iki TDV maddesinden biri ve Kılıç 2001 1624'te Safevî valisi tayin edilmiş bir Musul kaydediyor.",
+      "hassasiyet": "YIL — D ile aynı gerekçe",
+      "guven": "orta",
+      "yan_etki": "Musul'a m: ile bağlı Zaho · Duhok · Akra · Rewândiz · Telafer · Sincar · İmâdiye DEĞİŞTİRİLMEDİ (kaynak şehri anlatıyor, sancağı değil) ⇒ 1624 boyunca bu yedi kayıt Değişmez 3 m: çelişkisi üretir. Değişmez 3 zorlanmıyor; bilinçli bırakıldı, Emre'ye soru.",
+      "degismez2": "D ile aynı günler — M1 + M2 kapatır."
+    },
+    {
+      "grup": "F — Erbil: Kerkük ile aynı (komşu günü)",
+      "ad": "Erbil",
+      "dosya": "data/yerlesimler.js",
+      "alan": "d · s[safevi 1623-11-28]",
+      "eski": "d:[{f:\"1534-12-04\",t:\"1623-11-28\"},{f:\"1638-12-25\",t:\"1917-03-11\"}] · s:{f:\"1623-11-28\",t:\"1638-12-25\",d:\"safevi\"}",
+      "yeni": "d:[{f:\"1534-12-04\",t:\"1624-01-01\"},{f:\"1625-01-01\",t:\"1917-03-11\"}] · s:{f:\"1624-01-01\",t:\"1625-01-01\",d:\"safevi\"}",
+      "kaynak": "gün komşudan: Kerkük / Musul · TDV-musul + Kilic-2001 («Kerkük ve Musul şehirleri ve havalisi»)",
+      "gerekce": "Erbil, Musul ile Kerkük arasındaki yolun üstünde (1587'de Musul eyaletinin sancağı — TDV-musul). Kendi 1623-1638 kaydı hiçbir kaynakta yok. «Havalisi» Erbil'i ADIYLA anmıyor ⇒ şart ③ zayıf.",
+      "guven": "düşük",
+      "degismez2": "D ile aynı günler."
+    }
+  ],
+
+  "degismeyenler_ve_neden": [
+    {"ad": "Bağdat", "hukum": "DOKUNULMAZ — d.f 1638-12-24 TDV-murad-iv günü; s.f 1623-11-28 TDV-bagdat günü (iç kale teslimi)."},
+    {"ad": "Kasr-ı Şîrîn", "hukum": "ÖLÇÜLEMEDİ — antlaşma metninde (Kılıç 2001 Osmanlıca aktarımı · BFSP 105) Kasr-ı Şirin ve Zohâb ADIYLA HİÇ YOK. Tarafı Zencir Kalesi'nin konumuna bağlı ('batısındaki köyler Osmanlı, doğusundakiler Şah'ın'); GeoNames 'Sarāb-e Bard Zanjīr' (34,754°K 46,291°D, id 25116) bir ADAY, eşleme DOĞRULANMADI. Aday doğruysa Kasr-ı Şirin (45,58°D) batıda kalır ⇒ Osmanlı — ÇIKARIM, kanıt değil. Atlas safevi kalıyor, yama önerilmiyor."},
+    {"ad": "Basra · Kürne · Ammâre · Semâve · Fâv · Abâdân", "hukum": "DOKUNULMAZ — TDV-basra: Efrâsiyâb hânedanı Osmanlı'ya bağlı ve 'hemen hemen bağımsız'; TDV-abbas: İmam Kulı Han Basra'nın fethiyle görevlendirildi — SONUÇ yok. Kılıç 2001 'Basra dahil bütün Irak Safevî nüfuzu altına' diyor — nüfuz ≠ tasarruf (§11 D080 ailesi), İŞARET."},
+    {"ad": "Hille · Kerbelâ · Necef (1630-31)", "hukum": "YAMA ÖNERİLMİYOR — TDV-murad-iv: Hüsrev Paşa (1629-30) Genç Osman eliyle «Kerbelâ, Necef ve Hille gibi yerleri zaptetti»; Kilic-2001: Aralık 1630'dan sonra Demirkazık Halil Paşa Hille'yi üç ay savundu ve terk etti. Başlangıç ve bitiş günü YOK; yalnız halka önerisi (H6)."},
+    {"ad": "Zaho · Duhok · Akra · Rewândiz · Telafer · Sincar · İmâdiye", "hukum": "DOKUNULMAZ — bkz. E yan_etki."},
+    {"ad": "Kotur (data/yerlesimler_ek_ferhadpasa.js)", "hukum": "YAMA ÖNERİLMİYOR, BİLDİRİLİYOR — atlas 1639-05-17'de OSM→safevi devrediyor. Antlaşma metni (Kılıç 2001 Osmanlıca aktarımı · BFSP 105) Kotur ile Mâkû'yu 'iki taraftan yıktırıla' diyor, DEVRETMİYOR. Kaydın kendi yorumu (satır 88-93) '1639 SONRASI için ayrı bir Osmanlı dayanağı BULUNAMADI' diye beyan ediyor ⇒ Safevî dolgusu kaynaksız ama beyanlı. Tarafı ölçülemedi."}
+  ],
+
+  "madde_onerileri": [
+    {
+      "no": "M1", "dosya": "çekirdek olaylar_*.js (koordinatör seçer)",
+      "t": "1624-01-01", "k": "kayip", "etiket": ["toprak-kayip","savas","konu-askeri"],
+      "b": "Musul ve Kerkük'ün Safevî eline geçmesi",
+      "gun": "1033 (1624) — kaynak gün vermiyor",
+      "yer": "Musul, Kerkük", "yer_id": "Musul", "kisiler": "Şah Abbas, Karçakay Han, Çerkez Ahmed Paşa, Kāsım Han",
+      "d": "Bağdat'ı ele geçiren Şah Abbas, kumandanı Karçakay Han'ı Musul ve Kerkük üzerine gönderdi. Musul Valisi Çerkez Ahmed Paşa şehri birkaç gün savunabildi; Kerkük ile birlikte Musul da Safevî idaresine geçti ve valiliğe Kāsım Han getirildi. Sipahi Küçük Ahmed'in öncüleri Musul'u kısa süre geri aldıysa da şah şehri aynı yıl yeniden ele geçirdi.",
+      "kaynak": "musul--irak", "ek_kaynak": "Remzi Kılıç, Türk Kültürü XXXIX/460 (2001), ss. 479-493",
+      "not_gelistirici": "TDV abbas-i ters yönde bir özet cümle taşıyor ('almak istedi, muvaffak olamadı') — rapor §2.3.",
+      "degismez2": "yerleşim yaması D/E/F'nin 1624-01-01 kırılmasını kapatır"
+    },
+    {
+      "no": "M2", "dosya": "çekirdek olaylar_*.js",
+      "t": "1625-01-01", "k": "fetih", "etiket": ["toprak-kazanc","savas","konu-askeri"],
+      "b": "Musul ve Kerkük'ün Safevîlerden geri alınması",
+      "gun": "1035 (1625) — kaynak gün vermiyor",
+      "yer": "Kerkük, Musul", "yer_id": "Kerkük", "kisiler": "Hâfız Ahmed Paşa, Çerkez Hasan Paşa",
+      "d": "Bağdat seraskerliğine getirilen Sadrazam Hâfız Ahmed Paşa'nın ordusu Diyarbekir civarındayken, Karaman Beylerbeyi Çerkez Hasan kumandasındaki öncü kuvvet Altınköprü'de toplanan Safevî taraftarlarını Kerkük'e kadar kovalayıp bölgeyi denetim altına aldı. Ordu Eylül 1625'te önce Musul'a, ardından Kerkük'e ulaştı. Bağdat kuşatması sonuçsuz kalsa da Musul ve Kerkük bu harekâtla Safevî kuvvetlerinden temizlendi.",
+      "kaynak": "musul--irak", "ek_kaynak": "hafiz-ahmed-pasa · Remzi Kılıç, Türk Kültürü XXXIX/460 (2001)",
+      "degismez2": "yerleşim yaması D/E/F'nin 1625-01-01 kırılmasını kapatır"
+    },
+    {
+      "no": "M3", "dosya": "çekirdek olaylar_*.js",
+      "t": "1630-03-16", "k": "fetih", "etiket": ["toprak-kazanc","savas","konu-askeri"],
+      "b": "Hüsrev Paşa'nın Şehrizor'da Gülanber Kalesi'ni yeniden kurması",
+      "gun": "16 Mart 1630",
+      "yer": "Gülanber, Şehrizor", "yer_id": "Şehrizor", "kisiler": "Boşnak Hüsrev Paşa, Arnavud Mustafa Paşa",
+      "d": "Bağdat seferine çıkan Sadrazam Hüsrev Paşa, Musul'da taşkınlar yüzünden bekledikten sonra Erdelân hâkiminin topraklarına yöneldi ve Şehrizor'da Şah Abbas döneminde yıktırılmış Gülanber Kalesi'nin inşasına başladı. Şehrizor yeniden beylerbeyilik merkezi yapıldı ve kaleye Arnavud Mustafa Paşa beylerbeyi olarak bırakıldı. Birkaç hafta sonra Mihriban Kalesi alındı ve 5 Mayıs 1630'da kale önünde Safevî ordusu ağır bir yenilgiye uğratıldı.",
+      "kaynak": "sehrizor", "ek_kaynak": "murad-iv · Remzi Kılıç, Türk Kültürü XXXIX/460 (2001)",
+      "degismez2": "yerleşim yaması B/C'nin 1630-03-16 kırılmasını kapatır"
+    }
+  ],
+
+  "madde_duzeltmeleri": [
+    {"no": "K1", "dosya": "data/kronoloji_iran.js:196 (kuyruk)", "alan": "t · d · kaynak",
+     "eski": "t:\"1638-12-25\" · d: '…1623'te kısa süreliğine geri alınmasının ardından kesin olarak Osmanlı'ya geçti' · kaynak:\"kasr-i-sirin-antlasmasi (TDV, doğrulanmış)\"",
+     "yeni": "t:\"1638-12-24\" · d: 'IV. Murad'ın bizzat yönettiği kırk günlük kuşatmanın ardından kale kumandanı Bektaş Han Bağdat'ı teslim etti; Safevîlerin 1623'ten beri elinde tuttuğu şehir kesin olarak Osmanlı'ya geçti ve bu kayıp Kasr-ı Şirin Antlaşması'nın zeminini oluşturdu.' · kaynak:\"murad-iv\"",
+     "gerekce": "Gün kaynaksız (12-25), metin yanlış ('1623'te kısa süreliğine geri alınması' — Safevî 1623'te ALDI, 15 yıl tuttu), slug 302 ÖLÜ ve 'doğrulanmış' diyor.", "guven": "yüksek"},
+    {"no": "K2", "dosya": "data/kronoloji_iran.js:426 (kuyruk)", "alan": "t · b · d",
+     "eski": "t:\"1623-01-14\" · b:\"Bağdat'ın geçici olarak geri alınması\" · d: '…bu kazanım on beş yıl sürdü…'",
+     "yeni": "t:\"1623-11-28\" · b:\"Bağdat'ın Safevîlerce ele geçirilmesi\" · d: 'Şah Abbas'ın üç aylık kuşatmasının ardından Bekir Subaşı'nın oğlu Derviş Mehmed iç kaleyi teslim etti; Bağdat on beş yıl Safevî idaresinde kaldı ve 1638'de IV. Murad'ın seferiyle kaybedildi.' · kaynak:\"bagdat\"",
+     "gerekce": "TDV-bagdat günü 28 Kasım 1623 (iç kale teslimi); 1623-01-14 hiçbir kaynakta yok ve Temmuz 1623'te BAŞLAYAN kuşatmadan önceye düşüyor. 'Geri alınması' ifadesi yanlış — 1508-1534 Safevî dönemi 89 yıl önce bitmişti.", "guven": "yüksek"},
+    {"no": "K3", "dosya": "data/olaylar.js:93 · data/kronoloji_iran.js:185,199,203 · data/kronoloji_safevi.js:46 · data/kaynakli_halka_kronoloji.js:55 · data/yer_yama.js:545,548,619", "alan": "kaynak slug",
+     "eski": "kasr-i-sirin-antlasmasi (HTTP 302 — ÖLÜ)", "yeni": "kasrisirin-antlasmasi (HTTP 200 — Rhoads Murphey, c.24 s.575; gövde okundu)",
+     "gerekce": "§4 ① ölü slug. Doğru madde VAR, yalnız adres yanlış (§4 '… kaynak vardı, adres yanlıştı' deseni). data/ekokuma_antlasma2.js ve yer_yama.js:311 zaten doğru slugu kullanıyor.", "guven": "yüksek"},
+    {"no": "K4", "dosya": "data/olaylar.js:92 (Kasr-ı Şirin maddesi)", "alan": "d — sınır cümlesi eklenmesi (İSTEĞE BAĞLI, H-0005 ek okuma oturumuyla çakışabilir)",
+     "eski": "'Bağdat ve Irak kesin olarak Osmanlı'da kaldı, Revan Safevîlere bırakıldı; …'",
+     "yeni_ek_cumle": "Antlaşma Bedre, Cessân, Mendelî, Derteng ve Derne'yi Osmanlı'ya bıraktı; sınırdaki Zencir Kalesi yıkılacak, batısındaki köyler Osmanlı'ya, doğusundakiler İran'a kalacaktı. Şehrizor yakınındaki Zalim Kalesi çevresi ve Kızılca Kale Osmanlı'da, Avroman ve Mihriban İran'da kaldı; Kotur, Mâkû ve Mağazberd kaleleri iki tarafça yıkılacaktı.",
+     "kaynak": "Kilic-2001 (Osmanlıca metin aktarımı) + BFSP-105", "guven": "yüksek (madde içeriği) · görsel/ek-okuma yerleşimi koordinatörün"},
+    {"no": "K5", "dosya": "data/kaynakli_halka_kronoloji.js:55", "alan": "tarih · kaynak",
+     "eski": "id kr-bagdat-osmanli-1638 · tarih 1638-12-25 · slug kasr-i-sirin-antlasmasi (ölü)",
+     "yeni": "tarih 1638-12-24 · slug murad-iv — YA DA kaydı sil: data/kaynakli_halka_fetih.js:44 hf-bagdat-1638 aynı tanıklığı 12-24/murad-iv ile zaten taşıyor (MÜKERRER)",
+     "guven": "yüksek"}
+  ],
+
+  "halka_onerileri": [
+    {"no": "H1", "yer": "Şehrizor", "devlet": "osmanli", "tur": "dogrudan", "tarih": "1630-03-16", "kesinlik": "gun",
+     "kaynak": {"ad": "Remzi Kılıç, Türk Kültürü XXXIX/460 (2001), ss. 479-493", "alinti": "16 Mart 1630da Şehrizorda Gülanber Kalesi'nin inşaatına başlanmıştır", "gelenek": "TR"},
+     "not": "Şehrizor beylerbeyilik merkezi yapıldı, beylerbeyi tayin edildi — kesin tasarruf tanıklığı. Bitiş kaynakta yok ⇒ nokta kaydı."},
+    {"no": "H2", "yer_kon": [33.748103, 45.555028], "yer_ad": "Mendelî (atlasta nokta YOK — GeoNames 93709)", "devlet": "osmanli", "tur": "dogrudan", "tarih": "1639-05-17", "kesinlik": "gun",
+     "kaynak": {"ad": "Remzi Kılıç, Türk Kültürü XXXIX/460 (2001) — antlaşmanın Osmanlıca metni", "alinti": "Cessân, Bedre, Mendelîcin ve Dertenek ve Derne saadetlü pâdişahımıza müteallik", "gelenek": "TR"},
+     "not": "BFSP 105 İngilizce çeviri aynı: 'Tzanan, Bedrie, Mendelgeen, Dertenk and Dernai'."},
+    {"no": "H3", "yer_kon": [33.115084, 45.933441], "yer_ad": "Bedre (GeoNames 98198)", "devlet": "osmanli", "tur": "dogrudan", "tarih": "1639-05-17", "kesinlik": "gun", "kaynak": "H2 ile aynı"},
+    {"no": "H4", "yer_kon": [32.969646, 45.872269], "yer_ad": "Cessân (GeoNames 95199)", "devlet": "osmanli", "tur": "dogrudan", "tarih": "1639-05-17", "kesinlik": "gun", "kaynak": "H2 ile aynı"},
+    {"no": "H5a", "yer": "Musul", "devlet": "safevi", "tur": "dogrudan", "tarih": "1624-01-01", "kesinlik": "yil",
+     "kaynak": {"ad": "TDV İslâm Ansiklopedisi, «Musul»", "slug": "musul--irak", "alinti": "Kerkük gibi Musul da İran hâkimiyetine geçti, valiliğine de Kāsım Han tayin edildi", "gelenek": "TR"}},
+    {"no": "H5b", "yer": "Kerkük", "devlet": "osmanli", "tur": "dogrudan", "tarih": "1625-01-01", "kesinlik": "yil",
+     "kaynak": {"ad": "TDV İslâm Ansiklopedisi, «Musul»", "slug": "musul--irak", "alinti": "Kerkük'e kadar kovalayarak Kerkük de dahil bölgeyi kontrol altına aldı", "gelenek": "TR"}},
+    {"no": "H6", "yer": "Hille", "devlet": "osmanli", "tur": "dogrudan", "tarih": "1630-01-01", "kesinlik": "yil",
+     "kaynak": {"ad": "TDV İslâm Ansiklopedisi, «Murad IV»", "slug": "murad-iv", "alinti": "Kerbelâ, Necef ve Hille gibi yerleri zaptetti", "gelenek": "TR"},
+     "not": "Atlas Hille'yi 1623-1638 Safevî gösteriyor ⇒ halka dolguyla ÇELİŞİR (bilinçli — düzeltilecek yer görünür olsun). Kılıç 2001: Aralık 1630 sonrası üç aylık savunma ve terk."}
+  ],
+  "halka_almayanlar": "Mihriban (Şah'a — konumu kaynakla bağlanamadı; GeoNames 'Mehrabān' Doğu Azerbaycan'da, alakasız) · Zencir (aday eşleme doğrulanmadı) · Kızılca Kale (GeoNames 'Qiziljah' 35,67°K 45,87°D Penjwin — eşleme DOĞRULANMADI) · Derne/Derteng (GeoNames 'Dartang' 33,95°K 46,56°D antlaşmanın Derteng'i mi DOĞRULANMADI) · Erbil 1624 (komşu çıkarımı — halka almaz).",
+
+  "degismez2_ozet": {
+    "olcum": "scratchpad d2.py — çekirdek evren data/olaylar*.js (denetle.py olaylari_yukle ile aynı glob), ±30 gün",
+    "satirlar": [
+      "1623-11-28  KAPALI  0 gün — olaylar_ek5 'Bağdat'ın Safevîlere kaybı' (mevcut, değişmiyor)",
+      "1624-01-01  AÇIK    −34 gün ⇒ M1",
+      "1625-01-01  AÇIK    −400 gün ⇒ M2",
+      "1630-03-16  AÇIK    +156 gün ⇒ M3",
+      "1638-12-24  KAPALI  0 gün — olaylar_ek5 'Bağdat'ın geri fethi'",
+      "1638-12-25  yama sonrası KIRILMA DEĞİL (A grubu 12-24'e taşınıyor)"
+    ],
+    "sonuc": "M1+M2+M3 birlikte uygulanırsa yeni açık 0. Maddeler UYGULANMADAN yerleşim yaması D/E/F/B/C inerse Değişmez 2 +3 açık."
+  },
+  "degismez1_ozet": "Her önerilen kayıtta s/d dönemleri uç uca (1624-01-01 ↔ 1625-01-01 · 1630-03-16) — yeni sahipsiz dilim yok (elle kontrol; denetle.py koşturulmadı, veri yazılmadı).",
+  "hukuki_sinirlar": "data/hukuki_sinirlar.js'te 1639 Kasr-ı Şirin kaydı YOK (9 kayıt; en yakını ferhad-pasa-* 1590-03-21 → 1603-10-21). ZINCIR-C-IRAN-0911.json 'c-iran-kasr-i-sirin-1639' taslağı veriye inmemiş. Köşe önerisi YAZILMADI: antlaşma bir yer/bölge metni (③), kaynaklı koordinatlı çizgi üretmiyor; Zalm (GeoNames 89563) ve Bedre/Mendelî/Cessân yalnız NOKTA."
+}
