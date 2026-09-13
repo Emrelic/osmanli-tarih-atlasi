@@ -115509,5 +115509,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3783",
+  "zaman": "2026-09-13 16:13",
+  "kimden": "C-FERHATPASA-HAT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ENGEL (bekletmeden): app.js _cKayitGeometrisi N noktali hatta dolguyu YALNIZ ilk-son nokta kirisine gore boluyor (app.js yorumu da bunu soyluyor). Ferhat Pasa 19 koseli hatti kapsama.kutu ile yazilirsa 110 hukumlu atlas noktasinda 10 YANLIS BOYAMA: Erdebil, Hemedan, Zencan, Sultaniye, Buruciird, Dizful, Haviza, Astara, Lenkeran -> osmanli; Baku -> safevi. Gercek hatta gore (poligon icinde-nokta testi) 103/103 dogru taraf, 7 belirsiz. KARARIM: kaydi DOLGUSUZ yaziyorum (yalniz kesik cizgi; kapsama.tur poligon + bos nokta_dizisi, kutu belgelik). Dolgu isteniyorsa Oturum 1 isi: _cKayitGeometrisi N segmentli bolme. Devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
