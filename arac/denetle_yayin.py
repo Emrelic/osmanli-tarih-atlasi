@@ -1101,11 +1101,17 @@ def main():
     try:
         _app = io.open(os.path.join(KOK, "js", "app.js"), encoding="utf-8",
                        errors="replace").read()
-        _dz = re.search(r"_EKOKUMA_DOSYA_ADLARI\s*=\s*\[(.*?)\];", _app, re.S)
-        if _dz and re.search(r'"data/"\s*\+\s*ad\s*\+\s*"\.js"', _app):
-            _govde = re.sub(r"//[^\n]*", "", _dz.group(1))
-            _DINAMIK_ADLAR = {"data/%s.js" % a
-                              for a in re.findall(r'"([a-z0-9_]+)"', _govde)}
+        # 🆕 13 Eylül 2026 (C-HALKA-ALTYAPI): İKİNCİ liste — kaynaklı sahiplik
+        #   halkası dosyaları (`_KAYNAKLI_HALKA_DOSYA_ADLARI`). Aynı kanıt
+        #   şartları; biri silinirse yalnız o listenin dosyaları yetim öter.
+        if re.search(r'"data/"\s*\+\s*ad\s*\+\s*"\.js"', _app):
+            for _liste in ("_EKOKUMA_DOSYA_ADLARI", "_KAYNAKLI_HALKA_DOSYA_ADLARI"):
+                _dz = re.search(_liste + r"\s*=\s*\[(.*?)\];", _app, re.S)
+                if not _dz:
+                    continue
+                _govde = re.sub(r"//[^\n]*", "", _dz.group(1))
+                _DINAMIK_ADLAR |= {"data/%s.js" % a
+                                   for a in re.findall(r'"([a-z0-9_]+)"', _govde)}
     except Exception:
         _DINAMIK_ADLAR = set()
     dinamik_bulunan = []
@@ -1140,7 +1146,7 @@ def main():
     for y in kayitsiz:
         print("     %s   ← yayında yüklenmez; denetle.py sayar, kullanıcı görmez" % y)
     if dinamik_bulunan:
-        print("  i %d dosya app.js _EKOKUMA_DOSYA_ADLARI ile ÇALIŞMA ANINDA yükleniyor"
+        print("  i %d dosya app.js _EKOKUMA_DOSYA_ADLARI / _KAYNAKLI_HALKA_DOSYA_ADLARI ile ÇALIŞMA ANINDA yükleniyor"
               " (adıyla, kanıtlı): %s" % (len(dinamik_bulunan),
               " · ".join(y[5:-3] for y in dinamik_bulunan)))
     if kayitsiz:

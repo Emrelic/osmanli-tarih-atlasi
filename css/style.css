@@ -2383,3 +2383,34 @@ body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
   pointer-events: none;
   white-space: nowrap;
 }
+
+/* ── KAYNAKLI SAHİPLİK HALKASI — açılır pencere (13 Eylül 2026, C-HALKA-ALTYAPI)
+   Halkanın kendisi GL katmanı (`halka-kaynakli`, app.js); burada yalnız
+   tıklama penceresi. Her tanıklık kendi devlet renginde sol kenar taşır. */
+.kh-popup .maplibregl-popup-content {
+  font: 12px/1.4 -apple-system, "Segoe UI", sans-serif;
+  color: #2b1d0e;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+.kh-popup .kh-baslik b { font-size: 13.5px; color: #3a2a14; }
+.kh-popup .kh-baslik span {
+  display: block; font-size: 10.5px; opacity: 0.7; margin-bottom: 4px;
+}
+.kh-popup .kh-celiski {
+  background: #fde8c8; border: 1px solid #c8861a; border-radius: 4px;
+  padding: 3px 6px; margin: 4px 0; font-weight: 600; color: #7a3d00;
+}
+.kh-popup .kh-kayit {
+  border-left: 4px solid #555; padding: 2px 0 4px 7px; margin-top: 6px;
+}
+.kh-popup .kh-tur, .kh-popup .kh-gelenek {
+  display: inline-block; font-size: 10px; padding: 0 5px; border-radius: 3px;
+  background: #efe6d2; color: #4a3a22; vertical-align: 1px;
+}
+.kh-popup .kh-gelenek { background: #dfe8f1; color: #1f3a55; }
+.kh-popup .kh-tarih { font-weight: 600; margin-top: 1px; }
+.kh-popup .kh-kaynak { font-size: 11px; opacity: 0.85; }
+.kh-popup .kh-alinti { font-style: italic; margin-top: 2px; }
+.kh-popup .kh-ozet { font-style: normal; font-size: 10px; color: #8a5a00; }
+.kh-popup .kh-not { font-size: 10.5px; opacity: 0.75; margin-top: 2px; }

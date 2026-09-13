@@ -2034,6 +2034,31 @@ harita.on("load", function () {
   });
   document.getElementById("harita").appendChild(lejantDugme);
 
+  // 🆕 KAYNAKLI SAHİPLİK HALKASI katmanları (13 Eylül 2026, C-HALKA-ALTYAPI).
+  // Yükleme bloğunun SONUNDA eklenir ki dolgu/sınır/kuşak katmanlarının ÜSTÜNDE
+  // dursun. Şehir noktaları ve adları DOM işaretçisi — her GL katmanı onların
+  // altında kalır; yarıçap (≥9 px) noktadan büyük olduğu için halka noktanın
+  // ÇEVRESİNDE görünür. `halka-` öneki → ④ Siyasî kovası.
+  // try/catch: kurulum atarsa geri kalan yükleme (haritaHazir) DURMASIN.
+  try {
+    harita.addSource("halka-kaynakli", { type: "geojson", data: bosVeri() });
+    var _khYaricap = ["+", 9, ["*", 5, ["get", "sira"]]];
+    var _khKalinlik = ["match", ["get", "tur"], "tabi", 1.6, "isgal", 2.2, 3];
+    harita.addLayer({ id: "halka-kaynakli-zemin", type: "circle", source: "halka-kaynakli",
+      paint: { "circle-radius": _khYaricap, "circle-opacity": 0,
+               "circle-stroke-color": "#fffbe8", "circle-stroke-opacity": 0.85,
+               "circle-stroke-width": ["+", _khKalinlik, 2.4] } });
+    harita.addLayer({ id: "halka-kaynakli", type: "circle", source: "halka-kaynakli",
+      paint: { "circle-radius": _khYaricap, "circle-opacity": 0,
+               "circle-stroke-color": ["get", "renk"], "circle-stroke-width": _khKalinlik } });
+    harita.on("click", "halka-kaynakli", function (e) {
+      _khPopupAc(e.features[0].properties.yer, e.lngLat);
+    });
+    harita.on("mouseenter", "halka-kaynakli", function () { harita.getCanvas().style.cursor = "pointer"; });
+    harita.on("mouseleave", "halka-kaynakli", function () { harita.getCanvas().style.cursor = ""; });
+  } catch (e) { console.error("KAYNAKLI HALKA katmanı kurulamadı:", e); }
+  try { kaynakliHalkaAyarKur(); } catch (e) { console.error("KAYNAKLI HALKA ayarı kurulamadı:", e); }
+
   haritaHazir = true;
   aktifDonem = -1;
 
@@ -5516,6 +5541,301 @@ function _hukukiSinirGuncelle(gun) {
   if (_nSrc) _nSrc.setData({ type: "FeatureCollection", features: noktaFeat });
 }
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 KAYNAKLI SAHİPLİK HALKASI — 13 Eylül 2026 (Emre kararı, C-HALKA-ALTYAPI;
+// oturumlar/KAYNAKLI-HALKA-0913.md). Şema: VERI-YAPISI.md "Kaynaklı sahiplik
+// halkası". Bir kayıt = bir kaynağın bir tanıklığı ("şu kaynak, şu tarihte,
+// şu yeri, şu devlete ait gösteriyor"). Atlasın dönem kaydından BAĞIMSIZDIR:
+// halka ile dolgu çelişirse düzelecek olan ATLASTIR (CLAUDE.md §4 "atlas
+// referans değildir"). Ayar varsayılan KAPALI; açılınca dosyalar TEK SEFER
+// indirilir (ek okuma yükleyicisiyle aynı desen — D045: ikinci bir mekanizma
+// değil, aynı mekanizmanın ikinci listesi).
+// 🔴 YAYIN KAPISI: arac/denetle_yayin.py bu dizinin adını ve `"data/" + ad +
+//   ".js"` yol kurucusunu ARAR — dizinin ADI ya da kurucu değişirse dosyalar
+//   "yetim" öter. Yeni üretici: yalnız bu diziye bir satır.
+var _KAYNAKLI_HALKA_DOSYA_ADLARI = [
+  "kaynakli_halka_ferhatpasa",  // window.KAYNAKLI_HALKA_FERHATPASA — Ferhat Paşa 1590 kolları
+  "kaynakli_halka_tekil"        // window.KAYNAKLI_HALKA_TEKIL — Malaka · Kotur · Bargiri
+];
+var KHALKA = { acik: false, yuklendi: false, deneniyor: false, bekleyen: [],
+               sonGun: null, sonAnahtar: null, cizilen: 0, yerSayisi: 0, atlanan: [] };
+window.KHALKA = KHALKA;   // tarayıcı sınavı için okunur (denetim/ARAC-HALKA-*)
+
+function kaynakliHalkaYukle(biterse) {
+  if (KHALKA.yuklendi) { if (biterse) biterse(); return; }
+  if (biterse) KHALKA.bekleyen.push(biterse);
+  if (KHALKA.deneniyor) return;         // D029: erken/sahte "bitti" YOK — kuyruğa
+  KHALKA.deneniyor = true;
+  var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
+  var v = (damga.match(/v=(r\d+)/) || [])[1];
+  var kalan = _KAYNAKLI_HALKA_DOSYA_ADLARI.length, bulunan = 0;
+  function biri(varMi) {
+    if (varMi) bulunan++;
+    if (--kalan > 0) return;
+    KHALKA.yuklendi = true;
+    console.log("[kaynakliHalka] " + bulunan + "/" + _KAYNAKLI_HALKA_DOSYA_ADLARI.length +
+                " dosya yüklendi · " + _kaynakliHalkaHavuz().length + " tanıklık.");
+    var b = KHALKA.bekleyen; KHALKA.bekleyen = [];
+    b.forEach(function (cb) { cb(); });
+  }
+  _KAYNAKLI_HALKA_DOSYA_ADLARI.forEach(function (ad) {
+    var s = document.createElement("script");
+    s.src = "data/" + ad + ".js" + (v ? "?v=" + v : "");
+    s.onload = function () { biri(true); };
+    s.onerror = function () { biri(false); };   // dosya henüz yok — sessiz atla
+    document.head.appendChild(s);
+  });
+}
+// GENEL HAVUZ — `window.KAYNAKLI_HALKA` + `window.KAYNAKLI_HALKA_<KISALTMA>`.
+function _kaynakliHalkaHavuz() {
+  return Object.keys(window)
+    .filter(function (k) { return /^KAYNAKLI_HALKA(_[A-Z0-9]+)?$/.test(k) && Array.isArray(window[k]); })
+    .reduce(function (acc, k) { return acc.concat(window[k]); }, []);
+}
+
+// ---- KESİN PENCERE -----------------------------------------------------------
+// Halka yalnız tanıklığın KESİN geçerli olduğu günlerde çizilir: [bas, son).
+//   aralık  f/t : f, kendi hassasiyet biriminin SONUNA yuvarlanır (yukarı),
+//                 t, kendi biriminin BAŞINA (aşağı). "1588 → 1606" (yil) ⇒
+//                 1589-01-01 → 1606-01-01. Gün hassasiyetinde t dışlayıcıdır.
+//   nokta tarih : yalnız KENDİ birimi boyunca (gun 1 gün · ay o ay · yil o yıl).
+//   belirsiz    : ÇİZİLMEZ.
+// `kesinlik` skaler ya da {f,t} nesnesi — ikisi de okunur (VERI-YAPISI ③ şartı).
+function _khKes(k, uc) {
+  var x = k.kesinlik;
+  if (x && typeof x === "object") x = x[uc];
+  return x || "gun";
+}
+function _khGunUTC(y, a, g) {            // yıl < 100 için de doğru (setUTCFullYear)
+  var d = new Date(Date.UTC(2000, a - 1, g));
+  d.setUTCFullYear(y);
+  return Math.round(d.getTime() / 864e5);
+}
+function _khParca(s) {
+  var m = /^(-?\d{1,6})-(\d{2})-(\d{2})$/.exec(String(s || ""));
+  return m ? { y: +m[1], a: +m[2], g: +m[3] } : null;
+}
+function _khBirimBasi(p, b) {
+  if (b === "ay") return _khGunUTC(p.y, p.a, 1);
+  if (b === "yil") return _khGunUTC(p.y, 1, 1);
+  if (b === "onyil") return _khGunUTC(Math.floor(p.y / 10) * 10, 1, 1);
+  if (b === "yuzyil") return _khGunUTC(Math.floor(p.y / 100) * 100, 1, 1);
+  return _khGunUTC(p.y, p.a, p.g);
+}
+function _khBirimSonu(p, b) {            // dışlayıcı
+  if (b === "ay") return p.a === 12 ? _khGunUTC(p.y + 1, 1, 1) : _khGunUTC(p.y, p.a + 1, 1);
+  if (b === "yil") return _khGunUTC(p.y + 1, 1, 1);
+  if (b === "onyil") return _khGunUTC(Math.floor(p.y / 10) * 10 + 10, 1, 1);
+  if (b === "yuzyil") return _khGunUTC(Math.floor(p.y / 100) * 100 + 100, 1, 1);
+  return _khGunUTC(p.y, p.a, p.g) + 1;
+}
+function kaynakliHalkaPencere(k) {
+  if (!k) return null;
+  if (k.tarih) {
+    var p = _khParca(k.tarih), b = _khKes(k, "f");
+    if (!p || b === "belirsiz") return null;
+    return [_khBirimBasi(p, b), _khBirimSonu(p, b)];
+  }
+  var pf = _khParca(k.f), pt = _khParca(k.t), bf = _khKes(k, "f"), bt = _khKes(k, "t");
+  if (!pf || !pt || bf === "belirsiz" || bt === "belirsiz") return null;
+  var bas = (bf === "gun") ? _khGunUTC(pf.y, pf.a, pf.g) : _khBirimSonu(pf, bf);
+  var son = _khBirimBasi(pt, bt);
+  return son > bas ? [bas, son] : null;
+}
+
+// ---- RENK — devletin harita rengi, KOYU ve DOYGUN ----------------------------
+// Tek dönüşüm (VERI-YAPISI.md'de yazılı): HSL'de  L' = sınırla(L×0,62 ; 0,16–0,40)
+// · S' = sınırla(S×1,25 + 0,10 ; 0–1) · ton aynı. Taban renk `_cTarafRengi`den
+// (osmanli özel · DEVLET_HARITA id · künyenin `harita:` anahtarı · yoksa gri).
+function _khKoyuParlak(hex) {
+  var m = /^#?([0-9a-f]{6})$/i.exec(hex || "");
+  if (!m) return "#333333";
+  var n = parseInt(m[1], 16);
+  var r = (n >> 16 & 255) / 255, g = (n >> 8 & 255) / 255, b = (n & 255) / 255;
+  var mx = Math.max(r, g, b), mn = Math.min(r, g, b), d = mx - mn;
+  var l = (mx + mn) / 2, h = 0, s = 0;
+  if (d) {
+    s = d / (1 - Math.abs(2 * l - 1));
+    if (mx === r) h = ((g - b) / d) % 6; else if (mx === g) h = (b - r) / d + 2; else h = (r - g) / d + 4;
+    h *= 60; if (h < 0) h += 360;
+  }
+  l = Math.min(0.40, Math.max(0.16, l * 0.62));
+  s = Math.min(1, s * 1.25 + 0.10);
+  var c = (1 - Math.abs(2 * l - 1)) * s, x = c * (1 - Math.abs((h / 60) % 2 - 1)), o = l - c / 2;
+  var rr = 0, gg = 0, bb = 0;
+  if (h < 60) { rr = c; gg = x; } else if (h < 120) { rr = x; gg = c; }
+  else if (h < 180) { gg = c; bb = x; } else if (h < 240) { gg = x; bb = c; }
+  else if (h < 300) { rr = x; bb = c; } else { rr = c; bb = x; }
+  function hx(v) { var t = Math.round((v + o) * 255).toString(16); return t.length < 2 ? "0" + t : t; }
+  return "#" + hx(rr) + hx(gg) + hx(bb);
+}
+function kaynakliHalkaRengi(devletId) { return _khKoyuParlak(_cTarafRengi(devletId)); }
+function _khDevletAdi(id) {
+  if (id === "osmanli") return "Osmanlı Devleti";
+  var d = _cDevletIx()[id];
+  return (d && d.ad) || id;
+}
+
+// ---- KONUM — `yer` TAM ad ve TEK eşleşme; yoksa `yer_kon` ------------------
+// Çift ad ya da bulunamayan ad ÇİZİLMEZ ve konsola sayılarak basılır (sessiz
+// tahmin yok). Konum atlas noktasınınkidir: halka o işaretçiyi SÜSLER, bir
+// koordinat iddiası taşımaz.
+var _khYerIxOnbellek = null;
+function _khYerIx() {
+  if (_khYerIxOnbellek) return _khYerIxOnbellek;
+  var ix = {};
+  (window.YERLESIMLER || []).forEach(function (y) {
+    if (y && y.ad) (ix[y.ad] = ix[y.ad] || []).push(y);
+  });
+  return (_khYerIxOnbellek = ix);
+}
+function _khKonum(k) {
+  if (k.yer_kon && k.yer_kon.length === 2) return [+k.yer_kon[1], +k.yer_kon[0]];
+  var a = _khYerIx()[k.yer];
+  if (!a || a.length !== 1) return null;
+  return [a[0].lon, a[0].lat];
+}
+function _khYerAnahtari(k, kon) { return k.yer || ("@" + kon[1] + "," + kon[0]); }
+function _khAktifler(gun) {
+  return _kaynakliHalkaHavuz().filter(function (k) {
+    var p = kaynakliHalkaPencere(k);
+    return p && p[0] <= gun && gun < p[1];
+  });
+}
+
+var _KH_TUR_ONCELIK = ["dogrudan", "belirtilmemis", "isgal", "tabi"];
+function kaynakliHalkaGuncelle(gun, zorla) {
+  if (gun != null) KHALKA.sonGun = gun;
+  if (typeof haritaHazir === "undefined" || !haritaHazir) return;
+  var src = harita.getSource("halka-kaynakli");
+  if (!src) return;
+  if (!KHALKA.acik || !KHALKA.yuklendi || KHALKA.sonGun == null) {
+    if (KHALKA.sonAnahtar !== "") { src.setData(bosVeri()); KHALKA.sonAnahtar = ""; }
+    KHALKA.cizilen = 0; KHALKA.yerSayisi = 0;
+    _khSayiYaz();
+    return;
+  }
+  var aktif = _khAktifler(KHALKA.sonGun);
+  var anahtar = "#" + aktif.map(function (k) { return k.id; }).join("+");
+  if (!zorla && anahtar === KHALKA.sonAnahtar) return;
+  KHALKA.sonAnahtar = anahtar;
+  var yerler = {}, sira = [], atlanan = [];
+  aktif.forEach(function (k) {
+    var kon = _khKonum(k);
+    if (!kon) { atlanan.push(k.id); return; }
+    var yk = _khYerAnahtari(k, kon);
+    if (!yerler[yk]) { yerler[yk] = { kon: kon, devlet: {}, dsira: [] }; sira.push(yk); }
+    var y = yerler[yk];
+    if (!y.devlet[k.devlet]) { y.devlet[k.devlet] = []; y.dsira.push(k.devlet); }
+    y.devlet[k.devlet].push(k);
+  });
+  var feats = [];
+  sira.forEach(function (yk) {
+    var y = yerler[yk], celiski = y.dsira.length > 1 ? 1 : 0;
+    y.dsira.slice().sort().forEach(function (d, i) {
+      // Aynı devlete birden çok tanıklık TEK halka; en güçlü tür çizilir.
+      var turler = y.devlet[d].map(function (k) { return k.tur || "belirtilmemis"; });
+      var tur = _KH_TUR_ONCELIK.filter(function (t) { return turler.indexOf(t) >= 0; })[0] || "belirtilmemis";
+      feats.push({ type: "Feature", geometry: { type: "Point", coordinates: y.kon },
+        properties: { yer: yk, devlet: d, renk: kaynakliHalkaRengi(d), tur: tur,
+                      sira: i, celiski: celiski, adet: y.devlet[d].length } });
+    });
+  });
+  src.setData({ type: "FeatureCollection", features: feats });
+  KHALKA.cizilen = feats.length; KHALKA.yerSayisi = sira.length; KHALKA.atlanan = atlanan;
+  if (atlanan.length) {
+    console.warn("[kaynakliHalka] konumu çözülemeyen " + atlanan.length +
+                 " tanıklık ÇİZİLMEDİ (ad yok ya da çift): " + atlanan.join(", "));
+  }
+  _khSayiYaz();
+}
+function _khSayiYaz() {
+  var e = document.getElementById("kat-sayi-halka");
+  if (!e) return;
+  if (!KHALKA.acik) { e.textContent = ""; e.title = ""; return; }
+  e.textContent = KHALKA.yuklendi ? String(KHALKA.cizilen) : "⏳";
+  e.title = KHALKA.yuklendi
+    ? KHALKA.cizilen + " halka · " + KHALKA.yerSayisi + " yer · havuz " + _kaynakliHalkaHavuz().length +
+      " tanıklık" + (KHALKA.atlanan.length ? " · konumsuz " + KHALKA.atlanan.length : "")
+    : "tanıklık dosyaları yükleniyor";
+}
+
+function _khTarihYazi(k) {
+  function bir(s, b) {
+    var p = _khParca(s);
+    if (!p) return String(s);
+    if (b === "yil") return String(p.y);
+    if (b === "ay") return AYLAR[p.a - 1] + " " + p.y;
+    if (b === "onyil") return p.y + "'ler";
+    if (b === "yuzyil") return (Math.floor(p.y / 100) + 1) + ". yüzyıl";
+    return p.g + " " + AYLAR[p.a - 1] + " " + p.y;
+  }
+  if (k.tarih) return "tek tarihli tanıklık · " + bir(k.tarih, _khKes(k, "f"));
+  return bir(k.f, _khKes(k, "f")) + " → " + bir(k.t, _khKes(k, "t"));
+}
+var _KH_TUR_ADI = { dogrudan: "doğrudan", tabi: "tâbi", isgal: "işgal" };
+function _khPopupAc(yerAnahtari, lngLat) {
+  var liste = _khAktifler(KHALKA.sonGun).filter(function (k) {
+    var kon = _khKonum(k);
+    return kon && _khYerAnahtari(k, kon) === yerAnahtari;
+  });
+  if (!liste.length) return;
+  var devletler = [];
+  liste.forEach(function (k) { if (devletler.indexOf(k.devlet) < 0) devletler.push(k.devlet); });
+  var ad = yerAnahtari.charAt(0) === "@" ? "(konum " + yerAnahtari.slice(1) + ")" : yerAnahtari;
+  var h = '<div class="kh-baslik"><b>' + ekEsc(ad) + '</b><span>kaynakla kesinleşmiş sahiplik</span></div>';
+  if (devletler.length > 1) {
+    h += '<div class="kh-celiski">⚠ ÇELİŞKİ — bu tarihte ' + devletler.length +
+         ' devlet: ' + devletler.map(function (d) { return ekEsc(_khDevletAdi(d)); }).join(" · ") + '</div>';
+  }
+  liste.forEach(function (k) {
+    var kn = k.kaynak || {};
+    var yerTut = [kn.sayfa ? "s. " + kn.sayfa : "", kn.paragraf ? "¶ " + kn.paragraf : "",
+                  kn.slug ? "slug: " + kn.slug : ""].filter(Boolean).join(" · ");
+    h += '<div class="kh-kayit" style="border-left-color:' + kaynakliHalkaRengi(k.devlet) + '">' +
+      '<b>' + ekEsc(_khDevletAdi(k.devlet)) + '</b>' +
+      (k.tur ? ' <span class="kh-tur">' + ekEsc(_KH_TUR_ADI[k.tur] || k.tur) + '</span>' : '') +
+      (kn.gelenek ? ' <span class="kh-gelenek">' + ekEsc(kn.gelenek) + '</span>' : '') +
+      '<div class="kh-tarih">' + ekEsc(_khTarihYazi(k)) + '</div>' +
+      '<div class="kh-kaynak">' + ekEsc(kn.ad || "kaynak adı YOK") + (yerTut ? " · " + ekEsc(yerTut) : "") + '</div>' +
+      (kn.alinti ? '<div class="kh-alinti">“' + ekEsc(kn.alinti) + '”' +
+         (kn.alinti_ozet ? ' <span class="kh-ozet">özet, kaynağın kendi cümlesi değil</span>' : '') + '</div>' : '') +
+      (k.not ? '<div class="kh-not">' + ekEsc(k.not) + '</div>' : '') +
+      '</div>';
+  });
+  new maplibregl.Popup({ closeButton: true, maxWidth: "340px", className: "kh-popup" })
+    .setLngLat(lngLat).setHTML(h).addTo(harita);
+}
+
+// ---- AYAR — katman seçicide, varsayılan KAPALI, tercih hatırlanır ------------
+// `data-katman` TAŞIMAZ: katman seçicinin `uygula()` döngüsü onu görmesin (o
+// döngü görünürlük değiştirir; bu ayar VERİYİ boşaltır). Böylece ④ Siyasî
+// kutusunun görünürlük kararıyla ÇAKIŞMAZ — Siyasî kapalıyken halka da
+// görünmez (katman `halka-` öneki ile o kovada), ama bu ayar KAPALIYKEN
+// Siyasî'nin açılması halkayı GERİ GETİRMEZ (kaynak boş).
+function kaynakliHalkaAc(acik) {
+  KHALKA.acik = !!acik;
+  if (KHALKA.acik) kaynakliHalkaYukle(function () { kaynakliHalkaGuncelle(null, true); });
+  kaynakliHalkaGuncelle(null, true);
+}
+function kaynakliHalkaAyarKur() {
+  var menu = document.getElementById("katman-grup");
+  if (!menu || document.getElementById("ayar-halka")) return;
+  var lab = document.createElement("label");
+  lab.title = "Bir kaynağın belli bir tarihte bir devlete ait gösterdiği yerler, o devletin koyu harita renginde halka ile işaretlenir. Tıklayınca kaynak ve alıntı.";
+  lab.innerHTML = '<input type="checkbox" id="ayar-halka"> <span>⑧ Kaynakla kesinleşmiş sahiplik halkaları</span><em id="kat-sayi-halka"></em>';
+  menu.insertBefore(lab, document.getElementById("katman-not"));
+  var kutu = lab.querySelector("input");
+  var kayitli = null;
+  try { kayitli = localStorage.getItem("halkaAc"); } catch (e) { kayitli = null; }
+  kutu.checked = (kayitli === "1");
+  kutu.addEventListener("change", function () {
+    try { localStorage.setItem("halkaAc", kutu.checked ? "1" : "0"); } catch (e) { /* depolama yok — yalnız bu oturum */ }
+    kaynakliHalkaAc(kutu.checked);
+  });
+  if (kutu.checked) kaynakliHalkaAc(true);
+}
+
 // Bir yerleşimin sahipliğini HARİTANIN KENDİ ÖNCELİK KURALIYLA çözer.
 //
 // 🔴 İLK SÜRÜM YANLIŞTI VE KENDİ ÇIKTISI ELE VERDİ: Tebriz'in dilimleri
@@ -6107,6 +6427,10 @@ function guncelle() {
   // Kendi `_cAktifId` önbelleği (yukarıda) gereksiz `setData` çağrısını
   // zaten engelliyor, o yüzden bu her tur çalışsa da ucuzdur.
   if (haritaHazir) _hukukiSinirGuncelle(suanki);
+  // 🆕 KAYNAKLI SAHİPLİK HALKASI — aynı gerekçe: tanıklık penceresi dönem
+  // kırılmasına bağlı değil. Kendi `sonAnahtar` önbelleği gereksiz setData'yı
+  // engelliyor; ayar KAPALIYKEN tek karşılaştırmayla döner.
+  if (haritaHazir) kaynakliHalkaGuncelle(suanki);
   // 🔴 SUÇLU ARAYIŞI — `agirOlc` sarmalayıcısı yalnız uçuş sürerken ölçer
   // (`_AGIR.acik`), öteki zaman doğrudan çağrıya düşer, maliyeti YOK.
   // Kare sayacı "866 ms boşluk" diyor ama KİMİN bloklattığını söylemiyor;
@@ -10268,7 +10592,10 @@ var KATMAN_KUMESI = [
     // osmanli'nin ÜSTÜNE binen bölgesel düzeltme; kapatma/açma bakımından
     // AYNI "siyasî" kovaya ait — ayrı bir kova açmak "C üçüncü bir katman
     // DEĞİL" kuralına ters düşerdi.
-    kalip: /^(devlet|imparatorluk|vassal|himaye|osmanli|serbest|bolge|devir|isgal|veri-siniri|hukuki-sinir-)/ }
+    // 🆕 `halka-` — KAYNAKLI SAHİPLİK HALKASI (13 Eylül 2026). Siyasî bir
+    // tanıklık katmanı; Siyasî kapalıyken o da kapanır. Kendi aç/kapa ayarı
+    // görünürlüğe değil VERİYE bakar (bkz. kaynakliHalkaAyarKur).
+    kalip: /^(devlet|imparatorluk|vassal|himaye|osmanli|serbest|bolge|devir|isgal|veri-siniri|hukuki-sinir-|halka-)/ }
 ];
 
 function katmanSinifla() {

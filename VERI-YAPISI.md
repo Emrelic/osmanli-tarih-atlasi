@@ -609,3 +609,104 @@ o kural **kategori içi** çakışmayı yasaklar (`d:` ile `d:`, `s:` ile `s:`).
 `s:` sırasıyla sorulur. Ters sıra makul bir sayı üretir ve **sessizce
 yanlıştır** — bu sınıfın en pahalı yanı budur.
 
+---
+
+## 🆕 `data/kaynakli_halka_*.js` — KAYNAKLI SAHİPLİK HALKASI *(13 Eylül 2026, Emre kararı · C-HALKA-ALTYAPI)*
+
+Görev tanımı: `oturumlar/KAYNAKLI-HALKA-0913.md`. Bir kaynak bir yerin belli bir
+tarihte bir devlete ait olduğunu **açıkça** söylüyorsa, o yer haritada o devletin
+koyu/parlak renginde bir **halka** alır. Halka yalnız tanıklığın geçerli olduğu
+tarihte görünür; tıklanınca kaynak, sayfa ve alıntı açılır.
+
+🔴 **Bu veri atlasın dönem kaydı DEĞİLDİR.** `d:`/`v:`/`s:` dönemlerinden bağımsızdır
+ve onlardan TÜRETİLMEZ (`CLAUDE.md §4` "atlas referans değildir"). Halka ile dolgu
+çelişirse düzelecek olan **atlastır**; halka bir düzeltme listesi gibi okunur.
+
+### Kayıt — bir kayıt = bir kaynağın bir tanıklığı
+```js
+{ id:"fp-tebriz-tdv",                 // benzersiz, dosya önekli (fp- · tk- …)
+  yer:"Tebriz",                       // yerleşimin TAM `ad`ı — havuzda TEK eşleşme şart
+  // yer_kon:[38.08, 46.29],          // yalnız atlas noktası YOKSA: [lat, lon]
+  devlet:"osmanli",                   // devletler.js `id` · tek istisna: "osmanli" (atlas çekirdeği)
+  tur:"dogrudan",                     // isteğe bağlı: dogrudan | tabi | isgal — kaynak ayırmıyorsa YAZILMAZ
+  f:"1585-09-25", t:"1603-10-21",     // ARALIK … ya da:
+  // tarih:"1590-01-01",              // NOKTA (tek tarihli tanıklık)
+  kesinlik:"gun",                     // gun|ay|yil|onyil|yuzyil|belirsiz · skaler ya da {f,t}
+  kaynak:{ ad:"TDV İslâm Ansiklopedisi, «Tebriz»",
+           slug:"tebriz",             // TDV için · ya da
+           sayfa:"582-583",           // basılı eser · ya da
+           paragraf:"[53-54] · [58]", // pasaj aletinin ¶ numarası
+           url:"…",                   // isteğe bağlı
+           alinti:"… kısa alıntı …",
+           alinti_ozet:true,          // alıntı kaynağın KENDİ cümlesi değil, rapordaki özetse ŞART
+           gelenek:"TR" },            // TR · IR · RU · GE · AM · AZ · HY · EN · FR · DE …
+  rapor:"denetim/OLCUM-…md §②",       // hükmün geldiği araştırma raporu (izlenebilirlik, D100)
+  not:"çelişki · hassasiyet · hicrî yıl …" }
+```
+
+### Kurallar
+```
+① YALNIZ KAYNAKLI HÜKÜM. "örtülü" (enklav olamaz), "çıkarım", "belirsiz" halka ALMAZ.
+   Bölge adı → şehir eşlemesi (ör. antlaşma listesinde "Karacadağ" → Ahar) çıkarımdır,
+   ancak kaynak şehri ya da şehrin açık idarî birimini ADIYLA anıyorsa yazılır.
+   "Osmanlı payından hariç" gibi bir İSTİSNA cümlesi, karşı devletin sahipliğini
+   AÇIKÇA söylemediği için yazılmaz.
+② NOKTA mı ARALIK mı:
+   ARALIK (f/t)  yalnız TEK kaynak iki ucu birden veriyorsa ya da sürekliliği açıkça
+                 yazıyorsa ("21 Ekim 1603 tarihine kadar … kontrolleri altında tuttular",
+                 "130 yıl … işgali altında kaldıktan sonra", "devamlılığı olan sancak").
+   NOKTA (tarih) kaynak yalnız bir anı tanıklıyorsa ("1590'da X valisi", "Kasım 1590
+                 tahririnde kaza"). A kaynağı 1590'da, B kaynağı 1603'te "X'in" diyorsa
+                 bu İKİ NOKTADIR — araları doldurulmaz.
+③ İKİ KAYNAĞIN UÇLARI BİRLEŞTİRİLMEZ (başlangıç A'dan, bitiş B'den = çıkarım).
+   Her kaynak kendi kaydını alır. İstisna yalnız DARALTMA: ikinci bir kaynak bir
+   aralığı KISALTABİLİR (ihtiyat), UZATAMAZ — ve `not`ta adıyla yazılır.
+④ İÇ ÇELİŞKİDE ihtiyatlı uç: aynı madde iki bitiş veriyorsa halka ERKEN olanda biter.
+⑤ HASSASİYET kaynağı aşamaz (`CLAUDE.md §4`). Gün yoksa YYYY-01-01 + `kesinlik:"yil"`.
+   Hicrî/Türk yılı iki Milâdî yıla taşıyorsa: Eskandar Beg (Nevruz→Nevruz) "H/Y1-Y2"
+   ⇒ Y1 (dokuz ayı Y1'de); hicrî yıl `not`a yazılır.
+⑥ KONUM: `yer` havuzda TEK kayda eşleşmeli. Çift ad ya da yok ⇒ ÇİZİLMEZ ve konsola
+   sayılır; tahmin yapılmaz. Koordinat atlas noktasınınkidir — halka işaretçiyi
+   süsler, bir koordinat iddiası taşımaz. Nokta yoksa `yer_kon` KAYNAKLI konumla.
+⑦ ÇELİŞKİ SİLİNMEZ: aynı yer, aynı gün, farklı devlet ⇒ iki kayıt da durur, harita
+   iç içe iki halka çizer, açılır pencere "ÇELİŞKİ" başlığıyla ikisini listeler.
+```
+
+### Kesin pencere — halka hangi günlerde çizilir `[baş, son)`
+```
+ARALIK  f → kendi biriminin SONUNA yuvarlanır   "1588" yil ⇒ 1589-01-01
+        t → kendi biriminin BAŞINA              "1606" yil ⇒ 1606-01-01 · gun ⇒ t dışlayıcı
+NOKTA   yalnız kendi birimi boyunca             gun 1 gün · ay o ay · yil o takvim yılı
+belirsiz  ÇİZİLMEZ
+```
+⇒ Halka *"kesin geçerli"* olmayan hiçbir günde görünmez. Bedeli: "1588 → 1606" gibi
+yıl hassasiyetli bir aralık, halkayı 1588 boyunca göstermez — bu kasıtlıdır.
+
+### Dosya ve ad alanı (`CLAUDE.md §7`)
+```
+data/kaynakli_halka_<kisaltma>.js  →  window.KAYNAKLI_HALKA_<KISALTMA>   (dizi)
+yükleme: js/app.js `_KAYNAKLI_HALKA_DOSYA_ADLARI` — index.html'de <script> YOK
+havuz:   Object.keys(window) /^KAYNAKLI_HALKA(_[A-Z0-9]+)?$/  (dosyaya dokunmadan toplanır)
+yeni üretici = yeni dosya + diziye bir satır. Diskte olmayan ad sessizce atlanır.
+yayın kapısı: arac/denetle_yayin.py iki listeyi de (`_EKOKUMA_…`, `_KAYNAKLI_HALKA_…`)
+              adıyla okur; listede olmayan dosya "yetim" öter.
+```
+
+### Çizim
+```
+katman   halka-kaynakli-zemin (açık kenar) + halka-kaynakli (renk) · GL `circle`, dolgusuz
+kova     ④ Siyasî (`KATMAN_KUMESI` kalıbında `halka-`) — Siyasî kapalıyken halka da görünmez
+sıra     GL yığınının üstü. Şehir noktaları ve adları DOM işaretçisi olduğu için HER GL
+         katmanı onların altında kalır; halka yarıçapı (≥9 px) nokta çapından (≤9 px)
+         büyük olduğu için noktanın ÇEVRESİNDE görünür.
+renk     `_cTarafRengi(devlet)` (osmanli · DEVLET_HARITA id · künye `harita:`) → HSL:
+         L' = sınırla(L×0,62 ; 0,16–0,40) · S' = sınırla(S×1,25+0,10 ; 0–1) · ton aynı
+kalınlık dogrudan / tür yazılmamış 3 px · isgal 2,2 px · tâbi 1,6 px (ince = tâbi)
+         (MapLibre `circle-stroke` kesik çizgi desteklemez; ayrım kalınlıkla)
+çelişki  aynı yerde her devlet ayrı halka: yarıçap 9 + 5×sıra (iç içe)
+aynı devlet, çok tanıklık  tek halka; en güçlü tür (doğrudan > belirtilmemiş > işgal > tâbi)
+ayar     katman seçicide "⑧ Kaynakla kesinleşmiş sahiplik halkaları" · varsayılan KAPALI ·
+         localStorage "halkaAc" ("1"/"0", try/catch) · KAPALI ⇒ kaynak BOŞ (görünürlük değil)
+```
+Sınav aleti: `denetim/ARAC-HALKA-SINA-0913.js` (şema · ad çözümü · künye · renk · pencere).
+
