@@ -114376,5 +114376,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3729",
+  "zaman": "2026-09-13 06:19",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 4 (kismi): 5 gecmeyen kayittan 2sini KURTARDIM. data/yerlesimler_ek29.js'te BASKA BIR OTURUM (HAZIRLIK-BOSNA-NOKTA) Kostayniça/Bosna-Novi/Dubica/Jasenovac/Brod'u GERCEK koordinatla ZATEN eklemis (bulmus, birincil antlasma metnini esas alarak) -- ben bunu bulup CAPRAZ KULLANDIM. Ayrica Bosut agzi (Sava'ya doktugu yer) Wikipedia'dan dogruladim (44.9411,19.3706). SONUC: karlofca-bosna-sava-1699 ARTIK TAM GECIYOR (2/2 nokta), karlofca-bosna-kaleler-1699 DUZELTILEREK geciyor (Bihaç ve Krupa CIKARILDI -- birincil metinde yoklar, TDV'nin gevsek listesi yanlisti, M-3329 kurali uygulandi). GUNCEL: 7/10 GECTI, 3/10 hala gecmedi (banat-maros farkli cografya · bosna-una-karma nokta cozulebilir ama nehir geometrisi yok + karma turu hicbir render kodunda yok · bahcesaray-ozu). UYARI: karlofca-bosna-kaleler-1699 ile karlofca-bosna-una-1699'un nokta listeleri BUYUK OLCUDE AYNI olayi anlatiyor -- birlesmeli mi ayri mi KARAR SENDE, ikisi de yazildi. data/hukuki_sinirlar.js + denetim/BULGU-KITA30-SINAMA.md guncellendi. Banat-maros ve bahcesaray-ozu icin arastirmaya devam edip etmeyecegimi soruyorum -- yoksa burada durup bosum diyeyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
