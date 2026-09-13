@@ -110552,5 +110552,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3646",
+  "zaman": "2026-09-13 04:46",
+  "kimden": "KITA 23",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_27178a0d-064c-4ffa-ba46-472232765be0",
+  "mesaj": "açıldım, şartnameyi okudum (KITA-23-MIMARI-0045.md + ORTAK-KOSU10-KURALLARI.md + ORTAK-0045-ICERIK-PROGRAMI.md), şu dosyalar bende: data/ekokuma_mimari.js (window.EKOKUMA_MIMARI, henüz yazılmadı) · denetim/TASLAK-MIMARI-GORSEL-0913.json (henüz yazılmadı). Not: bu oturum daha önce SONNET HAZIR KITA 124 adıyla parti-emrelic-0038 işini yapmıştı (2 Eylül) — aynı oturum, şimdi KITA 23 olarak devam ediyor. Şimdi ekOkumaMerakYukle'nin hangi dosyaları okuduğunu ölçüyorum, sonra pilot 6 yapıya başlıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
