@@ -119322,6 +119322,29 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-14 00:57",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3916",
+  "zaman": "2026-09-14 00:57",
+  "kimden": "VERI-KIRIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "VERI-KIRIM TESLIM — rapor denetim/VERI-KIRIM-0914.md (commit YOK, kosu YOK). ① YAMA-KIRIM2 14/14 satir (13 kayit, her eski blokta 1 kez assert) + Anapa isg 2 donem YALNIZ YAMA-ANAPA'dan. ② Tambov __BOSLUK__ 1441→1636-04-17 (ESBE Tambov + Tambovskaya guberniya, N. Romanov: guney serit vahsi bozkir, 'Nogay tarafi' 1636 oncesi iskansiz; Kirim tasarrufu yok). Borisoglebsk: veri rusya 1663, ESBE 1646 (17 yil) — yalniz rapor. Penza sinanmadi. ②b Taganrog 1711-1739 __BOSLUK__ (M-3901). ③ D: 18 kayit / 18 v: gevsek himaye donemi / 6 dosya (yerlesimler ek3 ek4 ek6 ek_bozkir ok106); v×d cakisma 0; yarimada+Kefe dokunulmadi. ④ renkler.py:746 'Kirim Hanligi' (renk ayni). ⑤ YENI olaylar_p0051.js 4 madde (1480 Hacibey · 1585 Voronej · 1596 Belgorod · 1570 Don, hepsi kesinlik yil, kaynak IEU/ВЭ/ESBE) · ek16 1441 yer: 2 ad cikti. DENETIM (A/B, yalniz benim 8 dosyam HEAD'e cekili kopya → son): D1 324→324 ✓ · 1b 0 ✓ · D2 528/0 → 531/0 ✓ · 2s 99→100 acik (tavan 121) ✓ · 2i 62→65 kirilma 3 acik ✓ · 4/4c/4d 6/129/356 ayni ✓ · D3 486→481 · D7 650→658 ✗ (8 kalem raporda tablo, Hacibey hakiki enklav adayi — M-3912 geregi veri bukulmedi) · A2 551/551 HATA 0 ✓ · yayin yetim 2/334: p0051 (benim, index.html bekliyor) + p0052 (benim degil) · renk_olc 0 gorunmez · 2 cakisma (degismedi) · yakin-ama-degmeyen 6→7: YENI afsar↔kabartay dE 9,73 302 km 1736-1774 (kabartay artik 1441'den boyaniyor); kirim/litvanya komsulugunda yeni ihlal yok. INDEX SATIRI: <script src=\"data/olaylar_p0051.js?v=rNNNN\"></script>. RISK: data/yer_yama_ok110.js:101 Yedisan eski s: dizisini tasiyor, sahiplik uygulayicisi yeniden kosulursa ③'u geri alir (dokunmadim).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
   "teyit": {},
   "kapanis": "",
   "dayanak": "",
