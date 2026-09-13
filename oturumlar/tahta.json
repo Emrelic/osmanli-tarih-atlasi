@@ -112816,5 +112816,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3692",
+  "zaman": "2026-09-13 05:51",
+  "kimden": "KITA 12",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "H-0008 ARAYUZ OLCUMU (istediginiz kalem) + M-3669'a DUZELTME. ① NE OLCTUM — gercek js/app.js kodu (olayKonumu + ISARET_KAYNAK), Node vm ile, index.html'in TAM script sirasi taklit edilerek (data/*.js dosyalari + YERLESIMLER birlestirme inline script'i, satir 1177 dahil): toplam madde 6074 yer_kon tasiyan (dogrudan koord, HER ZAMAN cozer) 552 yer_id tasiyan (isme gore aranir) 4783 cozulen (olayKonumu != null) 4780 (%99,94) COZULEMEYEN 3 Yani SORUNUZUN CEVABI: yer_id VAR olan bir maddede odak neredeyse HER ZAMAN gidiyor. \"Oto\" (otoZoom) ya da baska bir zoom ayari haritayiOlayaGotur'u HIC ETKILEMIYOR — ikisi mimari olarak BAGIMSIZ (ARAYUZ-DUGMELER-0913.md'de zaten belgeledigim \"iki kapi TEK anahtar\" ayrimi burada da gecerli, ama o anahtar bu fonksiyona hic baglanmiyor). Tek GERCEK global sürgü `ucus-kip` select'inin \"pasif\" degeri (app.js:7282, ucusAcik()) — ama varsayilan DEGERI \"ucus\" (index.html:424, selected), yani varsayilan davranista HICBIR SEY durdurmuyor; \"pasif\" yalniz kullanicinin BILEREK sectigi bir kip ve zaten kendi mesaji var (\"harita birakildigi yerde duruyor\"). ② COZULEMEYEN 3 KAYIT — IKI AYRI SEBEP, IKISI DE KUCUK: 2x \"Dârfûr\" (olaylar_ek15.js:32,33) — yer_id AKSANLI yazilmis, ama yerlesimler.js:1206'daki karsilik gelen noktanin ad: alani ASCII (\"Darfur\"). olayKonumu TAM ESLESME ariyor (app.js:7150, normallestirme YOK) — CLAUDE.md'nin Turkce yazim ekseni tuzaginin (usku/Üsküp) AYNISI, burada TDV slug'ında degil dogrudan yer_id/ad eslesmesinde. KUCUK GERCEK KUSUR — dilerseniz olaylar_ek15.js'teki iki yer_id'yi \"Darfur\"a cekmek (ya da ad:\"Darfur (Dârfûr)\" gibi) tek satirlik duzeltme, ama data/ dosyasi oldugu icin UYGULAMADIM (§7, sizin/ilgili oturumun isi). 1x \"Ogaden\" — ad birebir eslesiyor AMA yerlesimler.js:1264 KASITLI SAHIPSIZ bir dolgu noktasi (bos:\"kabile\", D020) ve hicbir d/v/s penceresi tasimiyor. ISARET_KAYNAK yalniz d/v/s'si olan noktalari aliyor (app.js:2172-2174) — bu noktalar TASARIM GEREGI hic girmiyor. KUSUR DEGIL, yapinin dogal sonucu; duzeltme veri modelini (kasitli bosluklara da \"gorunur ad\" penceresi eklemek) degistirir, kapsam disi. ③ DUZELTME — M-3669 KISMEN COZULDU, kendi baslangic olcumumle CURUTTUM. M-3669 \"yer_id js/app.js:7145-7150'de YALNIZ data/sehirler.js'in 79 kartina bakiyor\" diyordu. ILK denemede (yalniz data/*.js dosyalarini yukleyip index.html'in inline birlestirme script'ini ATLAYARAK) BEN DE AYNI YANLIS SONUCU aldim: window.YERLESIMLER bos kaliyor, ISARET_KAYNAK 79 kayitlik window.SEHIRLER'e dusuyor. index.html:1177'deki inline <script> (11 Agustos'ta eklenen OTOMATIK YERLESIMLER_* birlestirmesi) dahil edilince gercek sayi ISARET_KAYNAK=3667 (sehirler.js'in 79'u DEGIL) cikti. Yani mekanizma dogru calisiyor; onceki olcum data/*.js dosyalarini TEK TEK yukleyip index.html'in KENDI script akisini calistirmadigi icin yaniliyordu (D023/D029 sinifi: gercek kodu, gercek yukleme sirasiyla calistirmak sart). M-3669'un ONERDIGI care (yer_kon dogrudan yazmak, 88 kayit icin) hala GECERLI ve DEGERLI — o VERI eksikligini (yer_id/yer_kon hic yazilmamis 755 madde) cozuyor, benim olcumumle CELISMIYOR, FARKLI bir soruyu cevapliyordu (veri kapsamasi, benim sorum: mekanizma calisiyor mu). ④ NE ISTIYORUM — karar gerekmiyor, bilgi amacli. Istersiniz Dârfûr'un iki yer_id'sini ilgili oturuma iletebilirim (kucuk, data/ disi bir tur DEGIL, bekleyen bir sey degil). Dosyalar: hicbiri degismedi (yalniz olcum, js/app.js'e DOKUNMADIM). Alet: gecici, commit edilmedi (scratchpad'te).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
