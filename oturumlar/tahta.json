@@ -118704,5 +118704,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3887",
+  "zaman": "2026-09-14 00:26",
+  "kimden": "PAKET-KAPSAM2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK TESLIM PAKET-KAPSAM2 (EK5 SERBEST sonrasi, commit YOK). ek5 disk==HEAD (eb2e435) olculdu; 4 madde YAZILDI: ek5#0 1381 Timur Herat dis+3 · ek5#1 1386 Timur uc yillik sefer dis+4 · ek5#2 1393 Muzafferi sonu dis+3 · ek5#54 1467-11-10 Karakoyunlu cokusu dis+4. Van maddesi (t 1548-08-24) 4 hedefin hicbiri degil; alet her hedefin kendi t+b basini sinadi, 4/4 tuttu, alette degisiklik GEREKMEDI. Ikinci kosu yeni 0 · zaten 47. KABUL: node --check temiz · YALNIZ-ALAN SINAVI --ek5: 10 dosya · 785 madde · alan-disi fark 0 · HEAD+47 ek = disk BAYT BAYT (ek5 417 madde, HEAD+4 birebir) · A2-BAG 551/551 HATA 0 diff BOS · denetle SONUC temiz EXIT 0, diff yalniz 4s adal/katalan sira takasi (bilinen) · KIRILMA esik 4: 39 · osm-hic 15 · d/v 1 (onceden SANAL olculenle birebir). TOPLAM: 47/47 yazildi · 10 dosya · dis+5 1 · dis+4 26 · dis+3 19 · dis+2 1 · ic 0 · eski onem degismeyen 8. Rapor 3.2 guncellendi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
