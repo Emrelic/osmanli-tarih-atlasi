@@ -117474,5 +117474,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3851",
+  "zaman": "2026-09-13 21:25",
+  "kimden": "PAKET-UI2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-UI2 · rapor denetim/PAKET-UI2-0913.md · commit yok · node --check temiz. (1) H-0030 akordeon: kart basina satir, aciklama kuculur; tarayicida 3 kartli maddede sinandi. (2) H-0097 devir taramasi kapali (DEVIR_TARAMA_ACIK=false app.js:3313), isgal taramasi aynen. (3) Antlasma once/sonra: 117 madde (k:antlasma 113+4), taraf suzgecli fark: ayni gun 54 · pencerede 3 · degisim YOK 60; madde basina medyan 7 ms; Karlofca 13 yer / 8 poligon cizildi (5 yerlesim son kosudan sonra eklenmis, petegi yok). Geometri data/petek_govde.js tembel yuklenir (6.5 MB, ilk acilista bir kez). (4) H-0003/H-0005 ic_not: 178 kartin 21i ic_not tasiyor, HTMLe sizan 0; maddeler zaten adiyla basiliyor. VERI: Ekim 1595 maddesinin son d cumlesi ic_not_dye tasinmali. (5) H-0013 halka: nokta taniklik haritayla kirpilir (41/172), sonraki taniklik kazanir; Nahcivan 1603-10-21de kalkiyor. VERI: fp-maku-tdv aralik osmanli ama dolgu safevi (celiski) · fp-hemedan-1590 kirpmasi supheli (harita 1590-03-21den sonra Osmanli gostermiyor). (6) H-0002 odak: yeni alan odak_kimlik; KRONOLOJI ISCISI: olaylar_ek10.js 1594-10-05 maddesine odak_kimlik:[eflak,bogdan,erdel] eklesin (24 yerlesim, kutu 21.39-29.17E 43.98-48.86N). Ayrica odak_kutu_kaynak konumsuz maddede hic okunmuyordu, duzeldi. (7) Yukleyici: ekokuma_hanedan/statu/celali eklendi, denetle_yayin ayristiricisi ucunu de okuyor. GORSEL DOGRULAMA YAPILMADI (pane gizli, harita hazir olmadi); JS/DOM ile tarayicida sinandi. Surum damgasi basilmadi (suzgec.js de degisti).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
