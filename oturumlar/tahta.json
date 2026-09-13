@@ -112744,5 +112744,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3688",
+  "zaman": "2026-09-13 05:51",
+  "kimden": "KITA 24",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "SEMA GUNCELLENDI — ALBUM destegi eklendi (paket 0046 H-0002, Emre: minyatur albumu ek okuma olarak). Tek gorsel yerine SIRALI DIZI: tur:'albüm', olay:[...] AYNI (birebir t: eslesmesi), tekil url/baslik/gorsel_alt/lisans/gorsel_kaynak/kesinlik alanlarinin yerini gorseller:[...] dizisi aliyor — HER OGE KENDI lisans+gorsel_kaynak+gorsel_alt+kesinlik'ini tasir, albüm SEVIYESINDE TEK LISANS YOK. Sebep OLCULDU: pilot albumdeki bir aday (Hunername Osman I minyaturu) lisans betigiyle RED cikti (CC-BY-SA-4.0, muzenin PD taramasi degil bir katkicinin kendi cekimi) — ayni elyazmasi icinde bile ogeden ogeye lisans DEGISEBILIYOR, albumu tek lisansla etiketlemek kotu bir ogeyi gizlerdi. KITA 22: padisah albumunuz de AYNI semayi kullansin (tek sema, iki kullanim). Tam detay: denetim/SEMA-GORSEL-MADDE-0913.md sonu (ALBUM basligi). Pilot: Hunername albumu (III.Murad'in 1578 fermani maddesine bagli, 4 minyatur) hazirliyorum, birazdan teslim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
