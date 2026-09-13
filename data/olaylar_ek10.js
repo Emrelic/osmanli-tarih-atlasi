@@ -208,6 +208,10 @@ window.OLAYLAR_EK10 = [
 // TDV bu dört maddenin ÖZÜNÜ veriyor ama GÜNÜNÜ vermiyor. `CLAUDE.md §4`
 // uyarınca gün uydurulmadı; günü standart akademik literatürden gelen maddelerde
 // bu durum `gun:` alanında ve aşağıda açıkça yazılıdır.
+//   🔴 PAKET-KRON3 13 Eylül 2026: aşağıdaki 1594-10-05 ve 1594-11-13 "literatürden
+//      gün" iddiaları SINANDI ve akademik kaynakta BULUNAMADI → maddeler 1594-08-28
+//      (Erdel'in kopuşu, HoT günü) ve 1594-11-01 (kesinlik ay) oldu; gerekçe maddelerin
+//      ic_not_gun alanında, rapor denetim/PAKET-KRON3-0913.md. Aşağıdaki eski metin tarihçedir.
 //   1594-10-05 → GÜN, literatürden. TDV `bogdan` yalnız yılı ve olayı veriyor:
 //                "1594'te Türkler'e karşı Papa VIII. Clément'in himayesi altında
 //                Avusturya Kralı II. Rudolf ile Erdel Prensi Zsigmond Báthory
@@ -240,23 +244,25 @@ window.OLAYLAR_EK10 = [
 // Ölçüldü: yer ALMIYOR. Kronolojide 1593-07-01 (Uzun Savaş'ın başlaması) ile
 // 1596-06-20 arasında üç voyvodalığa dair tek madde yok.
 
-{ t:"1594-10-05", k:"siyaset", etiket:["isyan","diplomasi","konu-siyasi","konu-diplomasi","konu-isyan"],
-  b:"Üç voyvodalığın birden ayaklanması — Erdel, Eflak ve Boğdan Kutsal İttifak'a giriyor",
-  gun:"5 Ekim 1594", yer:"Erdel, Eflak ve Boğdan voyvodalıkları",
+{ t:"1594-08-28", k:"siyaset", etiket:["isyan","diplomasi","konu-siyasi","konu-diplomasi","konu-isyan"],
+  b:"Üç voyvodalığın ayaklanması başlıyor — Erdel Kutsal İttifak'a geçti, Osmanlı yanlısı beyler tutuklandı",
+  gun:"28 Ağustos 1594", yer:"Erdel, Eflak ve Boğdan voyvodalıkları",
+  ic_not_gun:"PAKET-KRON3 13 Eylül 2026 (1.MURAT M-3870 hükmü): eski t 1594-10-05 ve gun '5 Ekim 1594' KAYNAKSIZDI — PAKET-ISYAN'ın okuduğu TDV eflak/bogdan/erdel ve History of Transylvania I (HoT) s.118'de bu gün yok; bu paket de akademik kaynakta bulamadı (5 Ekim yalnız Vikipedi 'Holy League (1594)' maddesinde geçiyor — KAYNAKSIZ, SİLİNDİ). Madde artık kendi gününü taşıyan olayı, ERDEL'İN KOPUŞUNU anlatır: HoT s.118 — 28 Ağustos 1594'te savaşa karşı çıkan Osmanlı yanlısı muhalefet tutuklandı (gün). Boğdan'ın resmî geçişi A.-M. Crăciun, 'Tratatele lui Sigismund Báthory cu Țara Românească și Moldova (1595)', Crisia LIII (2023): 16 Ağustos 1594 belgesi; Eflak'ın Liga'ya katılışı aynı eserde 'sonbahar', HoT'de Kasım — Eflak/Boğdan'ın açık ayaklanması bir sonraki maddededir (1594-11-01, kesinlik ay). TDV bogdan yalnız '1594'. '28 Ocak 1595 Prag' cümlesi bu pakette SINANMADI.",
   kisiler:"III. Murad, Erdel Prensi Zsigmond Báthory, Eflak Voyvodası Cesur Mihail, Boğdan Voyvodası Aron Vodâ, Papa VIII. Clément, Avusturya Kralı II. Rudolf",
-  d:"Uzun Savaş'ın ikinci yılında Osmanlı'nın Orta Avrupa'daki vasal kuşağı bir anda çözüldü. Papa VIII. Clément'in himayesinde kurulan Kutsal İttifak'a önce Erdel Prensi Zsigmond Báthory girdi; Báthory 28 Ağustos 1594'te savaşa karşı çıkan Osmanlı yanlısı beyleri tasfiye ederek içerideki muhalefeti kırmıştı. Ardından Eflak Voyvodası Cesur Mihail ile Boğdan Voyvodası Aron Vodâ da aynı ittifaka katılma kararı aldılar. Böylece Osmanlı'nın Tuna'nın kuzeyindeki üç tâbi prensliği — yüz elli yıldır haraç ödeyen, voyvodası İstanbul'ca onaylanan üç voyvodalık — aynı sonbaharda birden karşı tarafa geçti. Karar 28 Ocak 1595'te Prag'da imzalanan antlaşmayla resmîleşti. Bu, Osmanlı'nın Balkanlar'ın kuzeyindeki dolaylı yönetim düzeninin uğradığı en ağır sarsıntıydı; ayaklanma bastırılacak ama üç prensliğin sadakati bir daha 1526-1593 arasındaki kadar sağlam olmayacaktı.",
-  kaynak:"bogdan", duygu:["🏛"], kapsam_genis:true, odak_kimlik:["eflak","bogdan","erdel"] },
+  d:"Uzun Savaş'ın ikinci yılında Osmanlı'nın Orta Avrupa'daki vasal kuşağı bir anda çözüldü. Papa VIII. Clément'in himayesinde kurulan Kutsal İttifak'a yaz sonunda Boğdan ve Erdel geçti: Boğdan Voyvodası Aron Vodâ 16 Ağustos 1594'te hıristiyan tarafına katılışını bir belgeyle resmîleştirdi, Erdel Prensi Zsigmond Báthory de 28 Ağustos 1594'te savaşa karşı çıkan Osmanlı yanlısı beyleri tasfiye ederek içerideki muhalefeti kırdı. Eflak Voyvodası Cesur Mihail aynı yılın sonbaharında ittifaka katıldı. Böylece Osmanlı'nın Tuna'nın kuzeyindeki üç tâbi prensliği — yüz elli yıldır haraç ödeyen, voyvodası İstanbul'ca onaylanan üç voyvodalık — aynı sonbaharda birden karşı tarafa geçti. Karar 28 Ocak 1595'te Prag'da imzalanan antlaşmayla resmîleşti. Bu, Osmanlı'nın Balkanlar'ın kuzeyindeki dolaylı yönetim düzeninin uğradığı en ağır sarsıntıydı; ayaklanma bastırılacak ama üç prensliğin sadakati bir daha 1526-1593 arasındaki kadar sağlam olmayacaktı.",
+  kaynak:"bogdan + History of Transylvania I (ed. B. Köpeczi, MTA Tarih Enstitüsü) s.118-119 + A.-M. Crăciun, Crisia LIII (2023)", duygu:["🏛"], kapsam_genis:true, odak_kimlik:["eflak","bogdan","erdel"] },
 
 // ---------------------------------------------------------------------------
 // C-2) 1594 KASIM — ayaklanmanın Tuna hattına vurması
 // ---------------------------------------------------------------------------
 
-{ t:"1594-11-13", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
+{ t:"1594-11-01", kesinlik:"ay", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   b:"Bükreş ayaklanması ve Tuna kalelerine saldırı — isyanın haritaya vurduğu an",
-  gun:"13 Kasım 1594", yer:"Bükreş, Yergöğü, İbrail, Hırsova, Silistre ve Bender", yer_id:"Bükreş",
+  gun:"Kasım 1594", yer:"Bükreş, Yergöğü, İbrail, Hırsova, Silistre ve Bender", yer_id:"Bükreş",
+  ic_not_gun:"PAKET-KRON3 13 Eylül 2026 (1.MURAT M-3870 hükmü): eski t 1594-11-13 ve gun '13 Kasım 1594' akademik kaynakta BULUNAMADI. History of Transylvania I (HoT) s.118 yalnız 'November' (PAKET-ISYAN okudu); TDV bogdan '1594 yılı sonlarında Yaş ve Bükreş'te … bütün Türk ve Rumlar öldürüldü'; Crăciun, Crisia LIII (2023) Eflak'ın Liga'ya sonbaharda katıldığını yazar, gün vermez. 13 Kasım yalnız Vikipedi ve popüler tarih sitelerinde (historia.ro vb.) geçiyor — KAYNAKSIZ, SİLİNDİ (§4). ⇒ t:1594-11-01 + kesinlik:'ay' (p0037 emsali). §4 pencere şartı: YYYY-01-01 maddeyi isyan taramasının Eflak/Boğdan penceresinden (isy-eflak-1594 · isy-bogdan-1594 f:1594-11-01, kesinlik ay) önceye atardı. data/savaslar.js'in iki ayaklanma kaydı da aynı güne çekildi.",
   kisiler:"Eflak Voyvodası Cesur Mihail, Boğdan Voyvodası Aron Vodâ",
   d:"Kutsal İttifak kararı bir ay sonra kanla uygulandı: Cesur Mihail Bükreş'te Osmanlı muhafız birliğini ve şehirdeki Levanten alacaklıları kılıçtan geçirdi. Ayaklanma aynı kış Tuna hattına yayıldı; Eflak kuvvetleri Yergöğü, İbrail, Hırsova ve Silistre'ye saldırdı, Boğdan tarafında ise Aron Vodâ Bender'deki Osmanlı muhafızlarına aynı baskını yaptı. Vurulan yerlerin seçimi tesadüf değildir: bunların hepsi voyvodalık toprağı değil, Tuna boyunda doğrudan Osmanlı idaresine bağlı kale ve kazalardı — Yergöğü kazası Niğbolu sancak beyliğine, İbrail 1538'den beri doğrudan devlete, Bender yine 1538'den beri Bucak sancağına bağlıydı. Yani isyan, vasal iç bölgeden değil, o bölgeyi çevreleyen doğrudan Osmanlı kabuğuna vurmuştu. Bu kabuk delinmeden Erdel-Eflak-Boğdan üçgeni Habsburg cephesine bağlanamazdı.",
-  kaynak:"eflak", duygu:["⚔️","😔"] },
+  kaynak:"eflak · bogdan + History of Transylvania I (ed. B. Köpeczi, MTA Tarih Enstitüsü) s.118-119 (Kasım)", duygu:["⚔️","😔"] },
 
 // ---------------------------------------------------------------------------
 // C-3) 1595 KALÛGERÂN — bastırma seferi
@@ -275,9 +281,9 @@ window.OLAYLAR_EK10 = [
 
 { t:"1595-10-01", k:"savas", etiket:["savas","konu-askeri"],
   b:"Eflak'tan çekiliş ve Yergöğü baskını — bastırma seferinin sonuçsuz kalışı",
-  gun:"Ekim 1595", yer:"Yergöğü (Giurgiu), Tuna'nın Eflak yakası", yer_id:"Yergöğü (Giurgiu)",
+  gun:"Ekim 1595", kesinlik:"ay", yer:"Yergöğü (Giurgiu), Tuna'nın Eflak yakası", yer_id:"Yergöğü (Giurgiu)",
   kisiler:"Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail, Erdel Prensi Zsigmond Báthory",
-  d:"Erdel prensinin kuvvetleriyle birleşen Cesur Mihail'in karşı taarruzu üzerine Sinan Paşa Târgovişte ve Bükreş'i boşaltıp Tuna'ya çekildi. Çekilişin en pahalı anı geçit başında yaşandı: 1595 ekiminde Eflak'tan dönen orduyu takip eden akıncılar Yergöğü'nde Mihail'in baskınına uğradılar. Sefer böylece Eflak'ı doğrudan idareye bağlama hedefine ulaşamadan bitti ve voyvodalık fiilen elden çıkmış olarak kaldı. Osmanlı otoritesi bu üçgende ancak yıllar içinde ve parça parça onarılabildi; Erdel'in itaate dönüşü 1604'te Bocskai ayaklanmasını, cephenin bütünüyle kapanması ise 1606 Zitvatorok Antlaşması'nı bekleyecekti.", ic_not_d:"Haritada bu dönemin üç voyvodalığı hâlâ tâbi renkte görünüyor — ayaklanma yıllarının toprak karşılığı henüz veriye işlenmedi.",
+  d:"Erdel prensinin kuvvetleriyle birleşen Cesur Mihail'in karşı taarruzu üzerine Sinan Paşa Târgovişte ve Bükreş'i boşaltıp Tuna'ya çekildi. Çekilişin en pahalı anı geçit başında yaşandı: 1595 ekiminde Eflak'tan dönen orduyu takip eden akıncılar Yergöğü'nde Mihail'in baskınına uğradılar. Sefer böylece Eflak'ı doğrudan idareye bağlama hedefine ulaşamadan bitti ve voyvodalık fiilen elden çıkmış olarak kaldı. Osmanlı otoritesi bu üçgende ancak yıllar içinde ve parça parça onarılabildi; Erdel'in itaate dönüşü 1604'te Bocskai ayaklanmasını, cephenin bütünüyle kapanması ise 1606 Zitvatorok Antlaşması'nı bekleyecekti.", ic_not_d:"(PAKET-KRON3 13 Eylül 2026 güncellemesi — eski not 'harita hâlâ tâbi renkte, veriye işlenmedi' BAYATTI.) Üç voyvodalık haritada bilerek tâbi renginde kalır (Emre C2 kararı); üstüne kaynaklı İSYAN TARAMASI biner: data/isyan_tarama.js (PAKET-ISYAN, ef94ad8) — Eflak 1594-11 → 1600-11-15 · Boğdan 1594-11 → 1595-11 ve 1600-05 → 1601-01-12 · Erdel 1594-08-28 → 1601-08-03, ardından Habsburg idaresi 1605-09-14'e dek. Bu madde o taramaya bağlıdır; açıldığı gün üç voyvodalık da taralı görünür.",
   kaynak:"yergogu", duygu:["⚔️"] },
 
 // ---------------------------------------------------------------------------

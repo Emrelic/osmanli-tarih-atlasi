@@ -33,7 +33,7 @@ window.OLAYLAR_P0044 = [
   kaynak:"derne + trablusgarp + turgut-reis — TDV derne birebir: 'Trablusgarp Turgut Reis'in teşvik ve gayretleriyle Osmanlı hâkimiyetine geçtikten sonra beylerbeyi unvanı ile buraya yerleşen Turgut Reis (Paşa) sınırlarını genişleterek doğuda Tobruk ve Derne'yi almıştı.' · TDV trablusgarp birebir: '1556'da Turgut Reis beylerbeyilikle buraya geldi. Turgut Reis'in dokuz yıllık valiliği…' · TDV berka: bölgenin 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandığı' · kaynak gösterimi: 1.MURAT M-3636 (TDV derne, KITA 15 YAMA-SIRENAYKA-0912); gövde KITA 14 tarafından 13 Eylül 2026'da ayrıca çekilip doğrulandı." },
 
 { t:"1556-07-16", b:"Kostayniçe ve Novi'nin fethi — Una hattının iki kalesi", tur:"fetih",
-  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak","serhat","konu-askeri"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["askeri","toprak","serhat","konu-askeri"],
   gun:"16 Temmuz 1556", yer:"Una nehri · Hırvat serhaddi",
   yer_id:"Kostayniçe (Kostajnica)",
   d:"1556 yazında Malkoç Bey'in kuşattığı Kostayniçe'yi 60'ı aşkın askerle kaptan Pankracije Lusthaller savunuyordu; kale kuşatmanın başlamasından yalnızca bir gün sonra, 16 Temmuz'da teslim edildi ve Lusthaller kaleyi sattığı gerekçesiyle suçlandı. Kısa süre sonra Novi de alınıp yakıldı; böylece Una üzerindeki en önemli iki kale bir hamlede Osmanlı eline geçti. Aynı yıl Viyana'da serhad savunmasını merkezden yönetecek Saray Savaş Konseyi (Hofkriegsrat) kuruldu.", ic_not_d:"⚠️ KAYNAK HAKKINDA: TDV'nin `hirvatistan`, `bosna-hersek`, `malkocogullari` ve `bihac` maddeleri bu iki kaleyi anmıyor; gün akademik kaynaktandır. Novi için kaynak gün vermiyor, yalnız 'kısa süre sonra' diyor.",
@@ -64,7 +64,7 @@ window.OLAYLAR_P0044 = [
 //  · Kâime 1840: KITA 28 ekonomi pilotunun tek eksik adayı (1.MURAT M-3722).
 // ─────────────────────────────────────────────────────────────────────
 { t:"1574-01-01", b:"Mâku Osmanlı'ya geçti — Mahmûdî İvaz Bey'e kale yapma görevi", tur:"fetih",
-  onem:2, dunya:1, kapsam:"dis", etiket:["toprak","askeri","konu-askeri"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["toprak","askeri","konu-askeri"],
   gun:"1574", yer:"Mâku · İran Azerbaycanı sınırı", yer_id:"Mâku",
   d:"1574 yılında Osmanlı Devleti, Mahmûdî Kürt kabilesinin reisi İvaz Bey'i Mâku'yu İranlılar'dan alıp orada bir kale yapmakla görevlendirdi. Van eyaletinin doğu ucundaki bu kale, Osmanlı döneminde bölgede cereyan eden olaylarda önemli bir yer tuttu.",
   ic_not_d:"Tarih: TDV yalnız yıl veriyor (1574) → YYYY-01-01. Harita: KITA 29 Ferhat Paşa yaması Mâku'nun d: başlangıcını aynı güne yazıyor; madde ile yama BİRLİKTE inmeli (1.MURAT M-3764). Pencere ölçümü: 1574-01-01'de bugün Ufa (rusya) ve Elicpûr (ahmednagar) yabancı kırılmaları var; bu madde onları ±30 gün ölçütünde 'kapatır' ama anlatmaz (D147).",

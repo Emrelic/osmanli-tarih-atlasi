@@ -229,7 +229,7 @@ window.OLAYLAR_EK16 = [
 { t:"1503-04-02", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
   gun:"25 Mart 1503 (Müjde/Annunciation mütarekesi)", ic_not_gun:"veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
-  yer:"Kiev, Kursk, Nikarya (İkarya), Baturin, Hluhiv, Novgorod-Seversk, Orel, Poltava, Putivl, Çernigov",
+  yer:"Kiev, Kursk, Baturin, Hluhiv, Novgorod-Seversk, Orel, Poltava, Putivl, Çernigov",
   yer_id:"Çernigov", kisiler:"III. İvan, II. Ulászló (Vladislav)",
   d:"1500-1503 Moskova-Litvanya Savaşı, Macaristan-Bohemya kralı II. Ulászló'nun arabuluculuğuyla altı yıllık bir mütarekeyle sona erdi; Litvanya Büyük Knezliği, Çernigov-Seversk bölgesi (Çernigov, Novgorod-Seversk, Starodub, Bryansk çevresi) ile Smolensk ve Polotsk civarındaki bazı topraklar dahil, Büyük Knezliğin yaklaşık üçte birini oluşturan geniş bir araziyi Moskova Büyük Knezliği'ne bırakmak zorunda kaldı. Bu, Moskova'nın Rus topraklarını 'toplama' sürecinde en büyük tek kazanımlarından biriydi.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Moskova-Litvanya savaşları tarihyazımı)", duygu:["😔"] },

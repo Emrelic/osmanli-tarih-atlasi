@@ -45,8 +45,8 @@ window.ISYAN_TARAMA = {
   // Açılınca kutu gösterecek maddeler (Osmanlı kronolojisi paneli). `t` + başlık
   // öneki birlikte eşleşir; yalnız tarih yetmez (aynı güne başka madde düşebilir).
   maddeler: [
-    { t: "1594-10-05", b: "Üç voyvodalığın birden ayaklanması" },
-    { t: "1594-11-13", b: "Bükreş ayaklanması" },
+    { t: "1594-08-28", b: "Üç voyvodalığın ayaklanması başlıyor" },   // PAKET-KRON3: madde 1594-10-05 → 1594-08-28, başlık Erdel kopuşuna daraldı
+    { t: "1594-11-01", b: "Bükreş ayaklanması" },   // PAKET-KRON3: madde 1594-11-13 → 1594-11-01 kesinlik ay
     { t: "1595-01-01", b: "Cesur Mihail'in Tuna kalelerine akınları" },
     { t: "1595-08-23", b: "Kalûgerân Muharebesi" },
     { t: "1595-10-01", b: "Eflak'tan çekiliş ve Yergöğü baskını" }

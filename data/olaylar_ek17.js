@@ -13,7 +13,7 @@ window.OLAYLAR_EK17 = [
 //   silindi, onun k:/yer:/kisiler:/duygu: alanları BURAYA taşındı. Tarih
 //   BURADAKİ doğru: TDV ay vermiyor (hicrî 919), `CLAUDE.md §4` ⇒ YYYY-01-01.
 { t:"1513-01-01", b:"Pîrî Reis, günümüze ulaşan en eski dünya haritasını çizdi", tur:"bilim",
-  k:"kesif", onem:4, dunya:3, kapsam:"dis", etiket:["bilim","kesif","konu-bilim","konu-kesif"],
+  k:"kesif", onem:4, dunya:3, kapsam:"ic", etiket:["bilim","kesif","konu-bilim","konu-kesif"],
   gun:"919 (1513)", ic_not_gun:"TDV yıl verir, ay vermez",
   yer:"Gelibolu", yer_id:"Gelibolu", kisiler:"Pîrî Reis", duygu:["🧭"],
   d:"Pîrî Reis, Gelibolu'da 919 (1513) tarihli dünya haritasını çizdi; TDV İslâm Ansiklopedisi'ne göre haritanın kaynakları arasında 'Doğu ve Batı dünyasından kendisine ulaşan eski haritalarla Kristof Kolomb'un haritası' da vardır — yani Kolomb'un o dönemde kaybolmuş kabul edilen orijinal seyir haritasının izlerini taşıdığı düşünülür. Haritayı 923'te (1517) Kahire'de Yavuz Sultan Selim'e takdim etti. Günümüze yalnız batı/Atlantik kıyılarını (İspanya, Portekiz, Batı Afrika, Güney Amerika'nın doğu kıyısı) gösteren bir PARÇASI ulaşmıştır; bu parça Topkapı Sarayı'nda 1929'da yeniden gün yüzüne çıkarıldı ve UNESCO Dünya Belleği listesindedir.",
@@ -113,13 +113,13 @@ window.OLAYLAR_EK17 = [
 
 // ---------- Prut Seferi ----------
 { t:"1711-07-21", b:"Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti — TDV'nin kendi uyarısı", tur:"magazin",
-  onem:2, dunya:2, kapsam:"dis", etiket:["diplomasi","rivayet","konu-diplomasi","konu-magazin"],
+  onem:2, dunya:2, kapsam:"ic", etiket:["diplomasi","rivayet","konu-diplomasi","konu-magazin"],
   yer_id:"Yaş",
   d:"Prut'ta kuşatılan Rus ordusunun kurtuluşunu, I. Katerina'nın Baltacı Mehmed Paşa'ya gönderdiği hediyelere/rüşvete bağlayan popüler anlatı yüzyıllar boyunca tekrarlandı.", ic_not_d:"⚠️ TDV bunu bir TARİHÎ KAYIT değil bir EFSANE olarak tanımlıyor — kendi ifadesiyle: 'Bu konu ve I. Katerina'nın bundaki rolü daha sonraları abartılarak pek çok defa dile getirilmiş ve her seferinde biraz daha gerçeklerden uzaklaşmış olarak tekrarlanmış, nihayet olayın ayrılmaz bir efsanesi haline gelmiştir.' Hediye alışverişi kaynaklarda var, ama 'rüşvetle satıldı' hükmü sonradan büyütülmüş bir rivayettir.",
   kaynak:"prut-antlasmasi" },
 
 { t:"1711-07-21", b:"Prut'ta 'kaçırılan fırsat' tartışması — iki görüş", tur:"tartisma",
-  onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","tartisma","konu-diplomasi","konu-kultur"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["diplomasi","tartisma","konu-diplomasi","konu-kultur"],
   yer_id:"Yaş",
   d:"Osmanlı ordusu Rus ordusunu tamamen kuşatmışken barışla yetinilmesi, antlaşmanın hemen ardından tarihçiler arasında tartışma konusu oldu — TDV'nin kendi ifadesiyle 'büyük bir fırsatın kaçırıldığı anlaşılmış ve bu tez karşı fikirde olanlar tarafından yoğun biçimde işlenmiştir.' Eleştirenlere göre çar esir alınabilir, Rus ordusunun silahları teslim alınabilirdi; savunanlara göre ise İsveç'in Kuzey Avrupa'da güçlenmesini önlemek için Rusya'yı sınırlı biçimde zayıflatmak daha 'akıllı bir politika'ydı. TDV iki görüşü de aktarıp taraf tutmuyor.",
   kaynak:"prut-antlasmasi" },

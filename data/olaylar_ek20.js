@@ -309,7 +309,7 @@ window.OLAYLAR_EK20 = [
 { t:"1489-03-04",
   b:"Cem Sultan Roma'ya getirildi — rehin diplomasisi ve yıllık 40.000 duka",
   tur:"siyasi",
-  onem:3, dunya:3, kapsam:"dis",
+  onem:3, dunya:3, kapsam:"ic",
   etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
   yer:"Roma",
   yer_id:"Roma",

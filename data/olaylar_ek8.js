@@ -40,7 +40,7 @@ window.OLAYLAR_EK8 = [
   "tur": "fetih",
   "onem": 2,
   "dunya": 1,
-  "kapsam": "dis",
+  "kapsam": "ic",
   "etiket": [
    "toprak-kazanc",
    "savas",
@@ -72,7 +72,7 @@ window.OLAYLAR_EK8 = [
   "tur": "fetih",
   "onem": 2,
   "dunya": 2,
-  "kapsam": "dis",
+  "kapsam": "ic",
   "etiket": [
    "askeri",
    "toprak-kazanc",
@@ -223,7 +223,7 @@ window.OLAYLAR_EK8 = [
   "tur": "kayip",
   "onem": 3,
   "dunya": 2,
-  "kapsam": "dis",
+  "kapsam": "ic",
   "etiket": [
    "askeri",
    "toprak-kayip",
