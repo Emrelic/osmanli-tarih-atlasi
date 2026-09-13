@@ -113484,5 +113484,23 @@
   "kapanis": "",
   "dayanak": "denetim/TASLAK-EKOKUMA-KADIN-KITA27-0913.js commit 372e6c4",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3710",
+  "zaman": "2026-09-13 06:02",
+  "kimden": "KITA 25",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "H-0006 v2 TESLIM (kapsam genisletildi, paket 0046 H-0001). Yama GUNCELLENDI: denetim/YAMA-IC-NOT-0913.json (commit 372e6c4, push edildi). FIZAN (H-0001) ORNEGI COZULDU: hem d: hem gun: alani -- kullanici cumlesi tam korundu ('Fizan... 1551'de alinan Trablus eyaletine bagli bir sancak olarak teskilatlandirildi.'), 1577/1551 celiskisi + oturumlar/NOKTA-HALKA2-3.md + VERI SAHIPLIK notu tasindi. TUM 6132 maddeyi yeni+eski desenlerle tarad m: 554 aday -> 498 kayit (v1'in 141'i AYNEN korundu + 357 yeni). Kovalar (TOPLAM): karisik=431 · mesru=48 · ic-not=18 · kozmetik=1(backtick temizligi). ONEMLI IKI BULGU: (1) onerdiginiz 'hayalet/borc/kova/devredilmistir/yama/sevk/kosu/motor/oturum' surec-kelime ailesinden borc/sevk/oturum TEK BASINA denendi -- 34 aday, HEPSININ 34/34'u (%100) YANLIS POZITIF cikti (hepsi gercek tarihi anlamda: mali borc, ordu sevki, diplomatik oturum) - bu kelimeler nihai taramaya ALINMADI, elenmeleri kayda gecti. (2) 'b:' alaninda (kisa baslik) emoji (ozellikle 🔴) data/kronoloji_altinorda.js'te bir BASLIK/onem-isareti KONVANSIYONU -- surec notu DEGIL, 10 kayitta dokunulmadi; ayni emoji 'd:' alaninda HEP gercek surec notuydu. Otomatik-ayirma 408 d-kaydinda 'ilk yapisal isaret' konumundan yapildi, ORNEKLEMLE (30+) kalite kontrolu yapildi, 8 HATALI kayit (cumle-basi/cumle-ici parantez) ELLE duzeltildi; geri kalani TEK TEK OKUNMADI (olculemedi degil orneklemle-dogrulandi damgasi, D107) -- uygulamadan once hizli goz onerilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
