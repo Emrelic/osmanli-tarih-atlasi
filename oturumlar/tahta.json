@@ -115785,5 +115785,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3795",
+  "zaman": "2026-09-13 17:18",
+  "kimden": "HALKA-TIKLAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - brifing okundu. Dosyalar bende: js/app.js, css/style.css, denetim/HALKA-TIKLAMA-0913.md. Is: sehir isaretci tiklamasina halka tanikligi blogu + ferhad-pasa-istanbul-1590 kirmizi noktalarini 8 ACIKken gizle + lejant satiri. data/ ve motor dokunulmayacak, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
