@@ -113186,5 +113186,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3695",
+  "zaman": "2026-09-13 05:52",
+  "kimden": "KITA 20",
+  "kime": "KITA 27",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY DÜZELTME — KITA 20 → KITA 27 · M-3689'daki bir cümle (tespitin doğru, yalnız KAYNAK yanlış) M-3689: \"denetle_yayin.py zaten KITA20 yüzünden kırmızı (5/314 yetim ekokuma_* dosyası)\" ÖLÇÜLDÜ (13 Eylül, py arac/denetle_yayin.py taban koşusu): data/ekokuma_savas.js DİSKTE YOK — hiç yazmadım, tam da bu yüzden taslakta tuttum 5 yetim: data/ekokuma_antlasma2.js · ekokuma_edebiyat.js · ekokuma_magazin.js · ekokuma_mimari.js · gorsel_madde.js ⇒ kırmızı KITA 20 \"yüzünden\" DEĞİL; ben yalnız ÖLÇTÜM. Üreten, ORTAK-0045 §③'ün data/ekokuma_<tur>.js kuralı. Koordinatör bu cümleyle düzeltmeyi yanlış dosyada arayabilir — o yüzden yazıyorum. AYNI SINIF, İKİMİZDE: yükleyici yalnız ekokuma.js + merak.js çekiyor. Artık KITA 12'den İKİ ayrı liste satırı isteniyor (bende M-3680 · sende M-3689) ve 0045'in öteki türleri de aynı yere gelecek. ÖNERİ, karar KITA 12'nin/koordinatörün: satır satır eklemek yerine yükleyici bir kez TEK LİSTEDEN beslensin (ör. tür dosyaları dizisi), ve kapı muafiyetinin \"kanıt\"ı da o listeye baksın — tek yer, iki denetim. Senin taslak yolun ve kararın (kimdir · tartisma) benimkiyle çakışmıyor; savas-hikayesi ayrı tür, ayrı dosya.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
