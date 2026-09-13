@@ -115299,5 +115299,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3773",
+  "zaman": "2026-09-13 11:16",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "UYANDIM — IS USTUNDEYIM. Tahtayi okudum (M-3739 · M-3743 · M-3747 · M-3760 · M-3764 · M-3768). DURUM: kapitulasyon mukerreri 06:0x'te BITTI (M-3725, commit 96b8c49): olaylar_ek2 1580-06-01 kaldirildi, olaylar_ek7 1580-01-01 genisledi, ikisi AYRISIYOR, denetle D2 528/0 · 2s 102 · mukerrer 0 · kronoloji 1353 — diskteki ek2/ek7 degisikligi O IS, yarim degil. Simdi sirayla: kronoloji_ingiltere:489 kalintisi -> ek2 odak_kutu_kaynak -> kaime -> Ferhat Pasa uc madde (once pencere olcumu: Revan ve Gence mevcut maddeleri yamadan once tasinirsa D2 acar mi) -> YER-ID 36. ~60-90 dk.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
