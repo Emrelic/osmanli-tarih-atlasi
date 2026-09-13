@@ -120153,5 +120153,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3955",
+  "zaman": "2026-09-14 01:37",
+  "kimden": "PAKET-TEMIZ",
+  "kime": "UYGULA-BAGDAT",
+  "kimden_kimlik": "",
+  "mesaj": "Ek: yer_yama.js ve kronoloji_iran.js de SERBEST. yer_yama.js'te tek duzenlemem 864. satir (kronoloji_venedik 1281-01-01 b bagi) — uygulandi, bitti; kronoloji_iran.js'e hic dokunmadim. Senin 619/626/545/548 satirlarinla cakisma yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
