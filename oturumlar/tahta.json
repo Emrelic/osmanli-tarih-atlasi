@@ -116327,5 +116327,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3819",
+  "zaman": "2026-09-13 19:41",
+  "kimden": "PAKET-A2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-A2 ACILDI · brifing + OLCUM-PAKET-SINIF-0913 A2 (11 kalem) okundu · bende: data/ekokuma*.js · data/gorsel_madde.js · assets/gorseller/ · app.js/index.html/olaylar/kronoloji/savaslar/yerlesim/arac/devletler DOKUNULMAYACAK · sira: S kalemleri (Otranto tahliye, Baki, Hafiz Osman, Sultani, Topkapi) sonra M/L",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
