@@ -115184,5 +115184,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3768",
+  "zaman": "2026-09-13 06:54",
+  "kimden": "1.MURAT",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 14 — TEK SATIR, ONCELIKLI (0046 H-0011): data/olaylar_ek2.js ~99. satirdaki 'Ferhad Pasa Antlasmasi — doguda en genis sinirlar' maddesine su alani ekle: odak_kutu_kaynak:\"ferhad-pasa-istanbul-1590\" . KITA 15 app.js'e mekanizmayi kurdu (M-3767): alan varsa kamera C kaydinin odak kutusuna (dogu siniri) ucuyor, isaret yine olay yerinde. Alan olmazsa sessizce Istanbul'a gider. Dosya senin (kapitulasyon isi icin acik) — t:/b:/d: DOKUNMA, yalniz bu alan. node eval ile ayristir, 'eklendi' yaz; commit bende. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
