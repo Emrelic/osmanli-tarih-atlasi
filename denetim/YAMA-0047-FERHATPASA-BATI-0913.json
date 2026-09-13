@@ -1,0 +1,203 @@
+{
+  "yazan": "0047 araştırma işçisi",
+  "tarih": "2026-09-13",
+  "paket": "parti-emrelic-0047 / H-0001",
+  "rapor": "denetim/OLCUM-0047-FERHATPASA-BATI-0913.md",
+  "durum": "ÖNERİ — UYGULANMADI. data/ DONUK (koşu aktif). Uygulayan koordinatör (D098). Sütunlar kardeş matrislerle aynı: hüküm · kaynaklı/örtülü · kaynak geleneği · önerilen dönem/gün/dayanak.",
+  "on_kosul": [
+    "KOŞU YAYINLANDIKTAN SONRA uygulanır (§7 girdi donuk).",
+    "Uygulama sonrası: py arac/denetle.py (taban kırmızıysa DELTA) · py arac/renk_olc.py (komşuluk değişiyor — §9).",
+    "Kürt kuşağı 5 kaydı BİRLİKTE iner; yalnız bir kısmı inerse cep doğar (benzetim tümüyle koştu)."
+  ],
+  "benzetim": {
+    "alet": "denetim/ARAC-0047-BENZETIM-0913.py",
+    "bosluk": "7/7 kayıtta 0",
+    "yeni_kirilma_gunu": "0 — bütün günler mevcut kırılma kümesinde",
+    "cep_16_nokta_ge6_8": "1580 1→0 · 1590 1→0 · 1595 1→0 · 1605 1→0 · 1630 0→0",
+    "not": "Bîcâr benzetime ölçüm için dahil edildi, ÖNERİLMİYOR"
+  },
+
+  "A_kaynakli": [
+    {
+      "kod": "A0047-1",
+      "ad": "Kasr-ı Şîrîn",
+      "dosya": "data/yerlesimler.js (satır ~1776)",
+      "lat_lon": [34.5150, 45.5772],
+      "hukum": "OSMANLI (doğrudan — Bağdat eyaleti sancağı)",
+      "kaynakli_ortulu": "kaynaklı",
+      "kaynak_gelenegi": ["TR"],
+      "guven": "yüksek (1590 durumu) · orta (dönem uçları)",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1503-01-01", "t": "1736-03-08"},
+         "yeni": [{"f": "1503-01-01", "t": "1534-12-04"}, {"f": "1623-11-28", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": [{"f": "1723-10-01", "t": "1730-08-12"}],
+         "yeni": [{"f": "1534-12-04", "t": "1623-11-28"}, {"f": "1723-10-01", "t": "1730-08-12"}]}
+      ],
+      "kaynak_onerisi": "TDV bagdat [758-760]: '1578-1588 listelerine göre Bağdat eyaleti yirmi iki sancaktan ibaretti … başlıca sancaklarını … Derteng, Cevâzir, Vâsıt, Kasrışîrin teşkil ediyor'. Günler Hânekîn kaydından (25 km, d 1534-12-04 → 1623-11-28) — D084.",
+      "gun_gerekcesi": "🔴 GÜNLER KAYNAKTAN DEĞİL. Kaynak yalnız 1578-1588 tanıklık aralığı veriyor. Karar C0047-5.",
+      "neden": "Atlas 1503-1736 kesintisiz safevi; 1590'da en yakın 8 komşunun 7'si Osmanlı (ön-yama cebi). Kaydın kendi yorumu 1723-30 penceresini Kirmanşah'tan kopyalamış, Hânekîn'den değil.",
+      "kapsam_disi": "1638-12-25 sonrası (Kasr-ı Şirin/Zühâb antlaşması tarafı) ölçülmedi; mevcut safevi bırakıldı."
+    }
+  ],
+
+  "B_kaynakli_gun_komsudan": [
+    {
+      "kod": "B0047-1",
+      "ad": "Merîvan",
+      "dosya": "data/yerlesimler.js (satır ~1770)",
+      "lat_lon": [35.5214, 46.1772],
+      "hukum": "OSMANLI (tâbi — Erdelan Emirliği)",
+      "kaynakli_ortulu": "kaynaklı",
+      "kaynak_gelenegi": ["TR (BOA)", "IR (Münşi-yi Kumi, Şerefnâme — makale üzerinden)", "EN (Iranica Banī Ardalān, genel)"],
+      "guven": "orta",
+      "degisiklik_secenek_d": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"},
+         "yeni": [{"f": "1501-07-01", "t": "1585-09-25"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}}
+      ],
+      "degisiklik_secenek_v": "aynı günler, alan v, k:'Erdelan Emirliği', statu:'vassal' — 🔴 devletler.js'te Erdelan künyesi ve renkler.py'de rengi YOK (karar C0047-3)",
+      "kaynak_onerisi": "Özcoşar & Açar 2024, Bingöl Üniv. SBE Dergisi 28:214-225, doi 10.29029/busbed.1518775 — [161] BOA hükmü 15 Safer 990 / 11 Mart 1582: Hasanabad ve yedi kalenin anahtarları teslim, ülke eyalet yoluyla Teymur Han ve oğullarına · [134] Merivan Teymur Han'ın oğlu Murad'a sancak · [139-146] Teymur Han yeniden III. Murad'a itaat, 1590'da Safevî ordusuyla savaşta öldü · [148-149] Helu Han ilk yıllarında III. Murad'a itaat.",
+      "gun_gerekcesi": "🔴 GÜNLER Tebriz kuşağından (Mîyandoab/Merâga 1585-09-25 → 1603-10-21, D084). Kaynak başlangıcı daha erken (1582) veriyor ve 1584-85'te Teymur Han isyanı var (19 Nisan 1585 hükmü) — tek dönemle MODELLENEMEZ. Bitiş günü kaynakta YOK. Karar C0047-4."
+    },
+    {
+      "kod": "B0047-2",
+      "ad": "Bâne",
+      "dosya": "data/yerlesimler_kalite4.js:43",
+      "lat_lon": [35.99, 45.88],
+      "hukum": "OSMANLI (tâbi/ekrâd beyi — tür belirsiz)",
+      "kaynakli_ortulu": "kaynaklı (1585 belgesi) + örtülü (1590)",
+      "kaynak_gelenegi": ["TR (BOA)", "EN (Iranica BĀNA — ÇELİŞİR, genel)"],
+      "guven": "orta-düşük",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"},
+         "yeni": [{"f": "1501-07-01", "t": "1585-09-25"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}, "not": "ya da v — C0047-3"}
+      ],
+      "kaynak_onerisi": "Özcoşar & Açar 2024 [138]: Şehrezor beylerbeyine 18 Rebîülâhir 993 / 19 Nisan 1585 hükmü — Soran, Kızılcakale, Erbil, Bane, Duvdan ve Seruçek beyleri Mihriban'da (Merivan) toplanıp Teymur Han'ı bertaraf etsin.",
+      "celiski": "Iranica BĀNA [15]: Bāne yöneticileri 1747'ye kadar İran şahlarının gözetiminde — TARİHSİZ genelleme; 1585-1603 istisnasını dışlamıyor. Bildirilir, taraf tutulmadı; hüküm tarihli belge yönünde.",
+      "gun_gerekcesi": "🔴 GÜNLER Tebriz kuşağından (D084). Kaydın mevcut kaynak yorumu 'standart akademik' (Wikipedia/Iranica) — §4 Vikipedi tek dayanak sorunu."
+    },
+    {
+      "kod": "B0047-3",
+      "ad": "Mahabad (Sâvücbulak)",
+      "dosya": "data/yerlesimler_kalite4.js:36",
+      "lat_lon": [36.77, 45.72],
+      "hukum": "OSMANLI (tâbi — Mukrî)",
+      "kaynakli_ortulu": "kaynaklı (Mukrî emirliği) · nokta bağı çıkarım · + örtülü",
+      "kaynak_gelenegi": ["EN (Iranica MOKRI)", "IR (Eskandar Beg — Iranica üzerinden ve Savory çev. s.1045-1046)", "TR (TDV tebriz [184-185])"],
+      "guven": "orta",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"},
+         "yeni": [{"f": "1501-07-01", "t": "1585-09-25"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}, "not": "ya da v, k:'Mukrî Beyliği' — C0047-3"}
+      ],
+      "kaynak_onerisi": "Iranica MOKRI TRIBE (Oberling) [22-26]: Osmanlılar 1580'lerde Azerbaycan'ı alınca Mukrî emîri Amira Bey III. Murad'a bağlılık bildirdi; Şah Abbas 1603'te Azerbaycan'ı geri alınca oğlu Şeyh Haydar şaha bağlandı (Eskandar Beg'e dayanarak). TDV tebriz [184] 1593 Osmanlı livâ listesinde Soğukbulak YOK, [185] 1728'de 'Sovukbulak' VAR — tâbi (livâ dışı) statüsüyle tutarlı.",
+      "gun_gerekcesi": "Başlangıç: 'Osmanlılar Azerbaycan'ı alınca' ⇒ Tebriz günü 1585-09-25 (D084, TDV tebriz [54]). Bitiş: Iranica '1603' ⇒ Tebriz kaybı 1603-10-21 (TDV tebriz [58]).",
+      "cikarim": "Mukrî ↔ Soğukbulak bağı: Iranica başkent bilgisi 1838 kaydı; 1590'daki merkez BULUNAMADI. Kaydın mevcut yorumu '17. yy'da Mükrî merkezi' (Wikipedia kaynaklı)."
+    }
+  ],
+
+  "C_ortulu_ve_karar": [
+    {
+      "kod": "C0047-1",
+      "ad": "Sakkız",
+      "dosya": "data/yerlesimler.js (satır ~1766)",
+      "lat_lon": [36.2461, 46.2631],
+      "hukum": "OSMANLI",
+      "kaynakli_ortulu": "ÖRTÜLÜ (enklav olamaz)",
+      "kaynak_gelenegi": [],
+      "guven": "örtülü",
+      "hat_tarafi_km": {"A": 114, "B": 163, "C": 39, "D": 39},
+      "degisiklik": "B0047 kalıbı: d 1585-09-25 → 1603-10-21, s safevi bölünür",
+      "kaynak_onerisi": "bulunamadı — Emre'nin örtülü kuralı (koordinatör iletisi, 13 Eylül 2026): kaynaklı Osmanlı hattının (Tebriz · Merâga · Mîyandoab · Nihâvend) +39 km batısında; komşuları Mahabad · Bâne · Merîvan B0047 ile Osmanlı sistemi.",
+      "sart": "Yalnız B0047-1/2/3 inerse anlamlı; onlar inmezse bu kayıt ENKLAV olur."
+    },
+    {
+      "kod": "C0047-2",
+      "ad": "Serdeşt (Sardasht)",
+      "dosya": "data/yerlesimler_kalite4.js:50",
+      "lat_lon": [36.16, 45.48],
+      "hukum": "OSMANLI",
+      "kaynakli_ortulu": "ÖRTÜLÜ (enklav olamaz)",
+      "kaynak_gelenegi": [],
+      "guven": "örtülü",
+      "hat_tarafi_km": {"A": 190, "B": 236, "C": 116, "D": 116},
+      "degisiklik": "B0047 kalıbı: d 1585-09-25 → 1603-10-21, s safevi bölünür",
+      "kaynak_onerisi": "bulunamadı — örtülü kural; Şehrizor (Osmanlı, 67 km) · Rewândiz (Osmanlı, 98 km) · Bâne (B0047-2, 41 km) arasında.",
+      "sart": "B0047-2 ile birlikte."
+    },
+    {
+      "kod": "C0047-3",
+      "ad": "Bîcâr",
+      "dosya": "data/yerlesimler.js (satır ~1771)",
+      "lat_lon": [35.8728, 47.6053],
+      "hukum": "BELİRSİZ — sınır hattının ÜSTÜNDE",
+      "kaynakli_ortulu": "ne kaynaklı ne örtülü kararlı",
+      "kaynak_gelenegi": ["EN (Iranica BĪJĀR — yalnız varlık)"],
+      "guven": "düşük",
+      "hat_tarafi_km": {"A_Tebriz-Hemedan-Nihavend": 16, "B_+Miyane": 53, "C_Tebriz-Meraga-Miyandoab-Nihavend": -55, "D_C+Miyane": -55},
+      "degisiklik": "ÖNERİLMİYOR — sahiplik: DOKUNMA (safevi). Yalnız kaynak beyanı eklensin.",
+      "kaynak_beyani_onerisi": "bulunamadı — 1578-1603 sahibi için kaynak yok. Örtülü hat testi çapaya bağlı: Hemedan çapa sayılırsa +16 km batı, Hemedan çıkarılırsa (Eskandar Beg: Hemedan barışta Safevî valiyle yönetildi) −55 km doğu (denetim/ARAC-0047-HAT-0913.py).",
+      "ek_bulgu_anakronizm": "Iranica BĪJĀR [8]: 15. yy'da köy, kasaba boyutuna ancak 19. yy'da ulaştı. Atlas tur:'sehir', kur: YOK (1281'den beri şehir). Ayrı kalem.",
+      "karar": "Emre: çapa Hemedan mı Nihâvend mi? (rapor §①)"
+    },
+    {
+      "kod": "C0047-4",
+      "konu": "Kürt kuşağının biçimi ve günleri",
+      "secenekler": [
+        "a) d: 1585-09-25 → 1603-10-21 (Tebriz kuşağı, D084) — ÖNERİM, bugün yazılabilir",
+        "b) v: aynı günler, k:'Erdelan Emirliği' / 'Mukrî Beyliği' — künye + renk gerekir, bugün YAZILAMAZ",
+        "c) Merîvan için belge günü 1582-03-11 başlangıç — 🔴 YENİ kırılma günü, Değişmez 2 maddesi gerekir; 1584-85 isyanı yine modellenemez"
+      ]
+    },
+    {
+      "kod": "C0047-5",
+      "konu": "Kasr-ı Şirin dönem uçları",
+      "secenekler": [
+        "a) Hânekîn günleri 1534-12-04 → 1623-11-28 (D084) — ÖNERİM",
+        "b) yalnız kaynak tanıklığı: 1578-1588 listesi — gün uydurmadan yazılamaz; 1590 kesitini düzeltmek için yine bir başlangıç günü gerekir"
+      ]
+    }
+  ],
+
+  "yama_yok_atlas_dogru": [
+    {
+      "ad": "Sultâniye",
+      "lat_lon": [36.4318, 48.797],
+      "hukum": "SAFEVÎ",
+      "kaynakli_ortulu": "kaynaklı",
+      "kaynak_gelenegi": ["IR (Eskandar Beg, Savory çev.)", "TR (TDV tebriz [184] — destekleyici)"],
+      "guven": "orta",
+      "dayanak": "Eskandar Beg, Savory çev., archive.org tarama s.644 (1000/1591-92 bölümü): Safevî emîri Dowlat Yār Khan Siāh-Mansur'un tımarı Soltaniya ve Sojās bölgelerinde; şah o yıl emîri cezalandırıyor · s.505 (1585) Hamza Mirza Sultaniye otlağında. TDV tebriz [184] 1593 Osmanlı Tebriz eyaleti livâlarında YOK (liste tam değil).",
+      "hat_tarafi_km": {"A": -124, "B": -70, "C": -202, "D": -202},
+      "not": "TDV 'sultaniye' 302 ÖLÜ; 'sultaniyye' 200 ama Memlük askerî terimi (§4②). Iranica maddesi 404."
+    },
+    {
+      "ad": "Zencan",
+      "lat_lon": [36.673, 48.478],
+      "hukum": "SAFEVÎ",
+      "kaynakli_ortulu": "kaynaklı-dolaylı + örtülü (hattın doğusu)",
+      "kaynak_gelenegi": ["IR (Eskandar Beg 1585 — dolaylı)", "TR (TDV zencan — sessiz)"],
+      "guven": "orta",
+      "dayanak": "TDV zencan [134-146] 1578-1603'ü anmıyor (yalnız 1724). Eskandar Beg s.497 (1585): Zenjān-rūd'dan kabile Safevî şehzadesine katılıyor. Sultâniye (kaynaklı Safevî) 39 km.",
+      "hat_tarafi_km": {"A": -110, "B": -48, "C": -190, "D": -190},
+      "tuzak": "TDV zencan [146] 'Safevîler'in sonlarına doğru Tebriz beylerbeyi tarafından idare' — GEÇ Safevî idarî bağı, 1590'daki Osmanlı Tebriz eyaletine TAŞINMAZ (D083)."
+    }
+  ],
+
+  "sevk_baska_kapsam": [
+    {
+      "ne": "Hemedan şehri 1590-1603",
+      "kime": "FERHATPASA-GUNEY",
+      "bulgu": "Atlas d 1590-03-21 → 1603-10-21. Eskandar Beg (Savory çev., IR): barış yıllarında Safevî Hemedan valileri (s.721 Hoseyn Ali Khan Cegani; s.856 1011/1602 Hasan Khan); Osmanlı yalnız Nihâvend kalesini tutuyor (s.618). TDV hemedan [63] yalnız '1588'de … Hemedan civarını zaptetti'. ⇒ KAYNAK ÇELİŞKİSİ, hüküm GUNEY'in."
+    }
+  ],
+
+  "yazilamayan_bulgular": [
+    {"ne": "Teymur Han'ın 1590'daki ölüm ayı", "damga": "bulunamadı"},
+    {"ne": "Erdelan ve Mukrî tâbiliğinin bitiş günü", "damga": "bulunamadı"},
+    {"ne": "Abedini 2009 (Journal of Iranian History, SBU)", "damga": "ölçülemedi — pypdf 41.105 karakter, Farsça terimlerin hiçbiri eşleşmedi (kodlama)"},
+    {"ne": "jhcin.srbiau.ac.ir Erdelan makalesi", "damga": "ölçülemedi — bağlantı reddedildi"},
+    {"ne": "Kütükoğlu 1962/1993 s.201-206 sınır müzakeresi · Röhrborn 1966 · Petruşevski · Bacqué-Grammont · CHI c.6", "damga": "okumadım"}
+  ]
+}
