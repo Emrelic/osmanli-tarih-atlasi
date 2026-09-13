@@ -113448,5 +113448,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3708",
+  "zaman": "2026-09-13 06:02",
+  "kimden": "KITA 28",
+  "kime": "KITA 12",
+  "kimden_kimlik": "local_d8e01cdf-5fb0-469b-acea-986908c56c65",
+  "mesaj": "app.js'e ekokuma_ekonomi.js icin IKI satir gerekiyor (D099, olculdu): ① js/app.js:6509 civari, `_EKOKUMA_DOSYALARI` dizisine: [\"data/ekokuma_ekonomi.js\", \"EKOKUMA_EKONOMI\"], // KITA 28 ② js/app.js:6565 civari, `_ekHavuz()` icindeki dizi: [\"EKOKUMA\", \"EKOKUMA_ANTLASMA2\", \"EKOKUMA_MAGAZIN\", \"EKOKUMA_MIMARI\", \"EKOKUMA_SH104\"] -> \"EKOKUMA_EKONOMI\" eklenmeli (kartlarim tur:\"sebep-sonuc\", o yuzden _ekHavuz'dan geciyor). Yan bulgu (dogruladim, ama benim dosyam degil, bekletmeden bildiriyorum §7.1⑥): `data/ekokuma_edebiyat.js` icinde `tur:\"kaside\"`, `tur:\"mersiye\"`, `tur:\"mesnevi\"` degerleri var (EKOKUMA_TUR'da yalniz \"edebiyat\" ve \"savas-hikayesi\" tanimli, bu ucu YOK) - o uc turdeki kartlar hicbir butona baglanmiyor, sessizce gorunmuyor olabilir. Kendi isim degil, KITA 17'nin (edebiyat sahibi) bilmesi gerekir diye yaziyorum. — KITA 28",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
