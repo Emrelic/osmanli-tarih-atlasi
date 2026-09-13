@@ -106,3 +106,32 @@ node denetim/ARAC-A2-KOPYA-0913.js (ic_not ayıklanmış taslak, TDV gövdeleriy
 ## ⑦ NE İSTİYORUM
 
 PAKET-UI3'e ③'teki iki `_EKOKUMA_DOSYA_ADLARI` satırının iletilmesi. Commit ATILMADI (şartname gereği).
+
+---
+
+## ⑧ EK İŞ, 14 Eylül: 1.MURAT'ın sevki, PAKET-UI4 tarayıcı ölçümü M-3930 üzerine
+
+Dosyalar `ac8a94d` ile commit'lenmişti. Yalnız iki veri dosyasına yazıldı. **Kuyruk bağlarının hiçbiri silinmedi**; tek istisna, yamayla kırılacak olan ③.
+
+| # | Sorun (M-3930) | Yapılan | Sonuç |
+|---|---|---|---|
+| ① | `tartisma-kirimrus-pominki-harac` hiçbir maddede çizilmiyordu (iki bağı da kuyruktaydı) | Çekirdek bağ eklendi: **`1700-07-14\|İstanbul Antlaşması`** → `olaylar_ek5` "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması". Karta tek bir kaynaklı cümle eklendi, `kaynak`a `TDV: karlofca` yazıldı. | ✓ tuttu, 1 madde |
+| ② | `1556-01-01\|Astrahan`: aynı günün Osmanlı maddesi "Astarhan" yazıyor, eşleşmiyordu | Kuyruk bağı korundu, yanına **`1556-01-01\|Moskova Çarlığı Astarhan`** eklendi → `olaylar_p0044` | ✓ ikisi de tek madde; aynı günün Turgut Reis maddesine düşmüyor |
+| ③ | `1638-12-25\|Bağdat` UYGULA-BAGDAT K1 ile kırılacak | **Seçim: 12-25 bağı KALDIRILDI, ikinci bağ konmadı.** Kartta zaten `1638-12-24\|Bağdat` var; bugün `olaylar_ek5` "Bağdat'ın geri fethi"ni tutuyor. K1 kuyruk maddesini 12-24'e taşıyor ve başlığını ("Bağdat Osmanlı'ya kesin olarak kaybedildi") değiştirmiyor (`YAMA-BAGDAT-0914.json` madde_duzeltmeleri K1 okundu). Yama inince aynı bağ ikisini birden tutacak. | ✓ bugün 1 madde, yamadan sonra 2 (aynı olay) |
+
+### ①'in dayanağı ve bir düzeltme
+- **İlk ek yazımım yanlıştı.** Önce `1502-03-01|Altın Orda` bağladım ve `ic_not`a "çekirdekte ödemeyi anlatan madde yok" yazdım. O taramada yalnız madde **başlıklarına** bakmıştım.
+- **`d` metni taranınca iddia çürüdü:** 1440-1800 arasındaki 733 çekirdek madde tarandı. Kırım ile ödeme kelimesinin birlikte geçtiği 4 madde çıktı. Ödemeyi gerçekten anlatan tek madde 1700-07-14'teki ("Kırım hanının Moskova'dan aldığı yıllık vergiden vazgeçti"). Kalan üçü konu dışı: 1454 Kefe haracı, 1787 boş hazine, 1792 Eflak-Boğdan muafiyeti. 1502 bağı pominki kartından kaldırıldı; `moskova-akinlari` kartındaki 1502 bağı yerinde duruyor.
+- **Maddenin dayanağı sınandı:** TDV `karlofca` HTTP 200 döndü, gövdesi okundu. İstanbul Antlaşması 27 Muharrem 1112 / 14 Temmuz 1700'de on dört madde olarak imzalanmış. "Kırımlılar'ın Rusya'ya akın yapmamaları ve vergi taleplerinde" Rus isteklerinin kabul edildiği yazıyor. Karta eklenen cümle bunun okur diline çevrilmiş hâli.
+- Önceki `ic_not`taki "ANTLASMA2'nin 1700 kartı vergi hükmü anmıyor" iddiası da kartın yalnız başı okunarak verilmişti. Dayanak olarak kullanılmadı, `ic_not`tan çıkarıldı.
+
+### Denetim (ek iş sonrası)
+```
+node --check (iki dosya)                  OK
+node denetim/ARAC-A2-BAG-0913.js --hepsi   öz-sınav 7/7 · BAĞ 603/603 · HATA 0 · UYARI 146 · exit 0
+   yeni dosyalardaki uyarı hâlâ yalnız 5 × "1639-05-17|Kasr-ı Şirin" (aynı olayın iki maddesi)
+bagsina_ekA.js                            öz-sınav 5/5 · BAĞ 35/35 · eşleşmesiz 0
+ARAC-A2-KOPYA (pominki kartı, karlofca dahil)  ortak dizi 0 · 🔴 kopya şüphesi 0 (10 kartın hepsinde)
+```
+⚠️ Ara adımda bir sözdizimi hatası oldu: `ic_not` dizgisinin ortasında başıboş bir `",` kalmıştı. `node --check` yakaladı ve düzeltildi; dosya bozuk hâliyle hiçbir alete teslim edilmedi.
+⚠️ Tarayıcıda yeniden ölçmedim. DOM'daki karşılığını PAKET-UI4 ölçebilir.
