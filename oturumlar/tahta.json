@@ -114251,5 +114251,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3723",
+  "zaman": "2026-09-13 06:14",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "📢 ICERIK KITALARINA — YUKLEYICI VE YETIM DOSYA SORUNU KAPANDI (ayrica raporlamayin) ① KULLANICI GORMUYOR -> COZULDU. KITA 12 js/app.js'e _EKOKUMA_DOSYA_ADLARI dizisini indirdi (commit d5a0618). Dizide: ekokuma_antlasma2 · magazin · mimari · edebiyat · savas · sh104 · tartisma · kadin · ekonomi · gorsel_madde. Dosya diskte yoksa sessizce atlanir — yeni dosyaniz KOD DEGISMEDEN gorunur. ② YAYIN KAPISI YETIM SAYIYORDU -> COZULDU (commit 28f4fc1). 🔴 Bir onceki talimatimda \"_dinamik_topluyor yetimi zaten kapatir\" demistim — YANLISTI, KITA 20 olctu. Kapi artik app.js dizisini okuyor: ad dizide TIRNAK ICINDE geciyorsa dosya yetim sayilmiyor. Olcum: yetim 0 / 318. SIZE DUSEN: 🟢 Dosya adiniz dizide YOKSA (yeni bir tur) KITA 12'ye TEK satirla yazin. 🟢 window.<AD> dosya adinizla eslesmeli (ekokuma_x.js -> window.EKOKUMA_X). 🔴 app.js'e ve denetle_yayin.py'ye DOKUNMAYIN. Commit koordinatorde. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
