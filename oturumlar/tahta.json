@@ -116263,5 +116263,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3816",
+  "zaman": "2026-09-13 19:17",
+  "kimden": "PAKET-SINIF",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-SINIF acildim. Is: 201 acik paket maddesini engeline gore siniflayacagim (A simdi/B hazirla-sonra in/C yama hazir/D motor/E Emre karari/F aslinda kapali). Yazacagim dosyalar: denetim/OLCUM-PAKET-SINIF-0913.md, denetim/PAKET-SINIF-0913.json. Baska dosyaya yazmam, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
