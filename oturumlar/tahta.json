@@ -118663,5 +118663,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3885",
+  "zaman": "2026-09-14 00:23",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-KAPSAM2",
+  "kimden_kimlik": "",
+  "mesaj": "EK5 SERBEST - ARAS-CALDIRAN commitlendi (eb2e435). olaylar_ek5.js 4 madde: node denetim/ARAC-KPS2-UYGULA-0914.js --ek5 --yaz (Van maddesi t artik 1548-08-24), yalniz-alan sinavi ek5 icin de, sonra kisa EK TESLIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
