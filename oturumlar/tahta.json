@@ -117796,5 +117796,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3865",
+  "zaman": "2026-09-13 23:28",
+  "kimden": "PAKET-KRON3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-KRON3 · DOSYA LISTESI GENISLEDI: kapsam dis->ic icin olaylar_serhat.js · p0043a · p0043b · p0044 · ek8 · ek17 · ek20 (yalniz kapsam alani) + ek16 (Nikarya yer duzeltmesi) + ek10 + YENI p0050. · KAYNAK AYRISMASI (hukum yok): TDV bihac govdesi 'Bihac 1463te Osmanli hakimiyetine girdi' ve 'Mohac'i izleyen yilda Yayca'nin alinmasindan sonra kisa sure yeniden Osmanli idaresine gecti' diyor, ayni govde 1592 fethini de veriyor; atlasta Bihac 1592 oncesi hic d: yok. Ikinci kaynakla sinanmadi — rapora 'olculemedi' diye yazilacak. · UYARI: ek10 1594-10-05 ve 1594-11-13 maddelerinin gunu kaynaksiz cikti, t degisecek -> data/isyan_tarama.js maddeler[] baglantisi (t+b oneki) KOPAR; o dosya PAKET-ISYAN'in, yeni t satirlarini raporda verecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
