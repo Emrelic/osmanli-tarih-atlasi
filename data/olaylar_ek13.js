@@ -60,7 +60,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-1 — Uluç Ali Paşa'nın Tunus'u alışı   🔴 1569-1573 penceresini AÇAN madde
 // ---------------------------------------------------------------------------
-{ t:"1569-01-01", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1569-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Uluç Ali Paşa'nın Tunus'u alışı — Hafsî-İspanyol düzeninin sonu",
   gun:"1569", ic_not_gun:"(TDV `tunus`: \\\"1569'daki ikinci müdahale\\\" · TDV `kilic-ali-pasa`: sefere çıkış Şevval 977 / Mart 1570 · batı literatürü: Ekim 1569'da hareket — gün hiçbirinde YOK)",
   yer:"Tunus, Beja — İfrîkıye", yer_id:"Tunus",
@@ -72,7 +72,7 @@ window.OLAYLAR_EK13 = [
 // A-2 — Don Juan de Austria'nın Tunus'u geri alışı
 // ---------------------------------------------------------------------------
 // TDV `tunus` GÜN VERİYOR: "10 Ekim 1573". Yer tutucu gerekmedi.
-{ t:"1573-10-10", k:"kayip", etiket:["toprak-kayip"],
+{ t:"1573-10-10", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki tek karşılığı",
   gun:"10 Ekim 1573",
   yer:"Tunus, Halkulvâdî", yer_id:"Tunus",
@@ -114,7 +114,7 @@ window.OLAYLAR_EK13 = [
 // A-3 — Arzila'nın alınışı
 // ---------------------------------------------------------------------------
 // Gün KESİN. Aynı seferin Tanca ayağı atlasta zaten var (1471-08-28).
-{ t:"1471-08-24", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1471-08-24", k:"fetih", etiket:["toprak-kazanc","konu-askeri","konu-imar","konu-ulastirma"],
   b:"Arzila'nın Portekiz tarafından alınışı — Fas kıyısında ikinci köprübaşı",
   gun:"24 Ağustos 1471", yer:"Arzila (Asîlâ) — Fas",
   kisiler:"V. Afonso (Portekiz kralı)",
@@ -125,7 +125,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // 1488 = Portekiz nüfuzunun/himayesinin kuruluşu · 1508 = fiilî işgal.
 // İkisi de yazıldı; koordinatör kırılmayı hangisine koyacağına karar verir.
-{ t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc"],
+{ t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Safi'nin Portekiz nüfuzuna girmesi",
   gun:"1488", ic_not_gun:"(kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal. Gün hiçbirinde yok)",
   yer:"Safi (Asfi) — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
@@ -135,7 +135,7 @@ window.OLAYLAR_EK13 = [
 // A-5 — Santa Cruz do Cabo de Gué (Agadir)
 // ---------------------------------------------------------------------------
 // 🔴 NOKTA ZATEN VARDI, dönem yoktu — D3'ün "en ucuz düzeltme"si.
-{ t:"1505-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1505-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi",
   gun:"1505 (gün ve ay kaynakta yok; taca devir 1513)",
   yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs kıyısı", yer_id:"Agadir",
@@ -145,7 +145,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-6 — Azemmûr'un alınışı
 // ---------------------------------------------------------------------------
-{ t:"1513-09-01", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1513-09-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi",
   gun:"1 Eylül 1513", yer:"Azemmûr — Ümmürrebî' nehri ağzı, Fas", yer_id:"Azemmûr",
   kisiler:"Jaime (Braganza Dükü)",
@@ -155,7 +155,7 @@ window.OLAYLAR_EK13 = [
 // A-7 — Mazagan kalesinin kurulması
 // ---------------------------------------------------------------------------
 // 📌 Bu, Portekiz'in Fas'ta EN UZUN tuttuğu yerdir — 255 yıl (A-10'a bakınız).
-{ t:"1514-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1514-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Portekiz mevzii",
   gun:"1514 yazı (gün kaynakta yok; kale 1541-42'de yeniden ve çok daha güçlü inşa edildi)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
@@ -164,7 +164,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-8 — Agadir'in düşüşü   🔴 1541 ÇÖKÜŞÜNÜN TETİĞİ, GÜN KESİN
 // ---------------------------------------------------------------------------
-{ t:"1541-03-12", k:"kayip", etiket:["toprak-kayip"],
+{ t:"1541-03-12", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Agadir'in düşüşü — Sa'dîler'in Portekiz'i Fas'tan söküşü başlıyor",
   gun:"12 Mart 1541 (kuşatma 16 Şubat 1541'de başladı)",
   yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs", yer_id:"Agadir",
@@ -180,7 +180,7 @@ window.OLAYLAR_EK13 = [
 // veriyor; TDV `fas` yalnız "aynı yıl" diyor. `t:` sourced AYIN 1'ine konuldu
 // — YYYY-01-01 yer tutucusu KULLANILMADI, çünkü o Agadir'in düşüşünden ÖNCEYE
 // düşer ve sebep-sonuç sırasını ters çevirirdi.
-{ t:"1541-10-01", k:"kayip", etiket:["toprak-kayip"],
+{ t:"1541-10-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Safi ve Azemmûr'un boşaltılması — Portekiz Atlas kıyısından çekiliyor",
   gun:"Ekim 1541 (tahliye Eylül-Ekim'de tamamlandı; gün kaynakta yok)",
   yer:"Safi (Asfi), Azemmûr — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
@@ -196,7 +196,7 @@ window.OLAYLAR_EK13 = [
 // ⇒ İKİSİ DE YAZILDI (koordinatörün kuralı). `t:` batı okumasına konuldu
 //   çünkü koordinatörün kuyruk listesi "1549 Arzila" diyor; TDV okuması
 //   metinde duruyor ve kırılma 1550'ye taşınırsa `t:` de taşınmalıdır.
-{ t:"1549-01-01", k:"kayip", etiket:["toprak-kayip"],
+{ t:"1549-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Arzila'nın boşaltılması — Portekiz kuzey kıyısını daraltıyor",
   gun:"1549", ic_not_gun:"(TDV `fas` 1550 der ve Kasrüssagīr ile birlikte anar; gün hiçbirinde yok)",
   yer:"Arzila (Asîlâ) — Fas kuzey kıyısı",
@@ -207,7 +207,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-11 — Mazagan'ın boşaltılması   🔴 GÜN KESİN — Portekiz Fası'nın sonu
 // ---------------------------------------------------------------------------
-{ t:"1769-03-11", k:"kayip", etiket:["toprak-kayip"],
+{ t:"1769-03-11", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Mazagan'ın boşaltılması — Portekiz'in Fas'taki son mevzii düştü",
   gun:"11 Mart 1769 (tahliye filosu Lizbon'dan 1 Şubat'ta hareket etti)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
@@ -236,7 +236,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-12 — Cebrîler'in Bahreyn'e hâkim olması
 // ---------------------------------------------------------------------------
-{ t:"1417-01-01", k:"siyaset", etiket:["siyaset"],
+{ t:"1417-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Bahreyn adalarının Cebrîler'in eline geçmesi",
   gun:"1417 (TDV hanedan sırasını verir, TARİH VERMEZ; yıl komşu Katîf ve Lahsa kayıtlarının deseninden alındı — literatür Cebrî hanedanının kuruluşunu XV. yüzyıl başına koyar)",
   yer:"Bahreyn (Evâl adaları), Katîf, Lahsa",
@@ -246,7 +246,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-13 — Portekiz'in Bahreyn'i alışı
 // ---------------------------------------------------------------------------
-{ t:"1521-01-01", k:"kayip", etiket:["toprak-kayip"],
+{ t:"1521-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Portekiz'in Bahreyn'i alışı — Cebrî hâkimiyetinin sonu",
   gun:"1521", ic_not_gun:"(TDV: \\\"Portekizliler, 1521'de Bahreyn'i ele geçirdiler\\\"; ay ve gün yok)",
   yer:"Bahreyn (Evâl adaları)",
@@ -272,7 +272,7 @@ window.OLAYLAR_EK13 = [
 //   açar ve o dönem HARD Değişmez 2 kırılması üretir (yabancı `2s` kuyruğu
 //   değil). Batı okumasında hiçbir kırılma doğmaz, yalnız bu madde yazılır.
 // 🔴 SEÇİM YAPILMADI — brifingim gereği ("hangisini seçtiğini SÖYLEME").
-{ t:"1559-01-01", k:"sefer", etiket:["savas"],
+{ t:"1559-01-01", k:"sefer", etiket:["savas","konu-askeri"],
   b:"Osmanlı'nın Bahreyn seferi — körfezde Portekiz'e karşı son büyük hamle",
   gun:"1559 (gün ve ay hiçbir kaynakta yok)",
   yer:"Bahreyn (Evâl adaları)",
@@ -283,7 +283,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-15 — Safevî fethi
 // ---------------------------------------------------------------------------
-{ t:"1602-01-01", k:"siyaset", etiket:["siyaset"],
+{ t:"1602-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Safevîler'in Bahreyn'i Portekiz'den alması",
   gun:"1602", ic_not_gun:"TDV ay/gün vermez",
   yer:"Bahreyn (Evâl adaları)",
@@ -294,7 +294,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-16 — Umman istilâsı
 // ---------------------------------------------------------------------------
-{ t:"1717-01-01", k:"siyaset", etiket:["siyaset"],
+{ t:"1717-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Ummanlılar'ın Bahreyn'i istilâsı — Safevî hâkimiyetinin sonu",
   gun:"1717 (gün ve ay kaynakta yok)",
   yer:"Bahreyn (Evâl adaları)",
@@ -304,7 +304,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-17 — Âl-i Mezkûr dönemi
 // ---------------------------------------------------------------------------
-{ t:"1753-01-01", k:"siyaset", etiket:["siyaset"],
+{ t:"1753-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Bahreyn'in Bûşehr'deki Âl-i Mezkûr idaresine geçmesi",
   gun:"1753 (gün ve ay kaynakta yok)",
   yer:"Bahreyn (Evâl adaları), Bûşehr",
@@ -315,7 +315,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-18 — Âl-i Halîfe'nin fethi   🔴 RENK KİMLİĞİ YOK (ilerleme dosyası §İŞ ③)
 // ---------------------------------------------------------------------------
-{ t:"1783-01-01", k:"siyaset", etiket:["siyaset"],
+{ t:"1783-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-hanedan"],
   b:"Âl-i Halîfe'nin Bahreyn'i fethi — bugüne kadar süren hanedanın kuruluşu",
   gun:"1783", ic_not_gun:"(TDV: \\\"Bahreyn 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hâkimiyetine girdi\\\"; ay ve gün yok)",
   yer:"Bahreyn (Evâl adaları), Zübâre — Katar yarımadası",
@@ -328,7 +328,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // Manama kaydındaki mevcut dönem: `ingiltere 1861-05-31 → 1923-10-29`.
 // TDV `bahreyn` ise 21 Mayıs 1861 diyor. On günlük fark; İKİSİ DE yazıldı.
-{ t:"1861-05-31", k:"antlasma", etiket:["antlasma","diplomasi"],
+{ t:"1861-05-31", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
   gun:"31 Mayıs 1861", ic_not_gun:"(atlas bu günü taşıyor; TDV `bahreyn` 21 Mayıs 1861 der — on günlük fark çözülmedi)",
   yer:"Bahreyn (Evâl adaları)",
@@ -394,7 +394,7 @@ window.OLAYLAR_EK13 = [
 //   dediği şeyin ta kendisi. Denetim temiz, gösterim yanlış.
 //   ⇒ A-20 bu boşluğu kapatır.
 
-{ t:"1517-05-01", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1517-05-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Mardin kalesinin teslimi — Diyarbekir'in güneyinde Safevî direncinin sonu",
   gun:"Mayıs 1517", ic_not_gun:"(TDV `mardin`: şehrin zaptı \\\"1516 sonlarında VEYA Mayıs 1517\\\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \\\"kalesi ancak dokuz ay sonra teslim alındı\\\". Gün hiçbirinde YOK)",
   yer:"Mardin, Diyarbekir", yer_id:"Mardin", kisiler:"Bıyıklı Mehmed Paşa, Kara Han (Safevî valisi)",
@@ -416,7 +416,7 @@ window.OLAYLAR_EK13 = [
 // ⚠️ GÜN YOK: literatür Mart 1362'de birleşiyor, bir kısmı Nisan 1362 diyor.
 //    `padisahlar.js` `to:"1362-03"` taşıyor ⇒ `t:` onunla hizalandı.
 
-{ t:"1362-03-01", k:"taht", etiket:["siyaset"],
+{ t:"1362-03-01", k:"taht", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
   b:"Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu",
   gun:"Mart 1362", ic_not_gun:"(gün bilinmiyor; kaynakların bir kısmı Nisan 1362 der. `padisahlar.js` 1362-03 taşıyor)",
   yer:"Bursa", yer_id:"Bursa", kisiler:"Orhan Gazi, I. Murad, Süleyman Paşa",

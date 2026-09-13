@@ -46,7 +46,7 @@ window.OLAYLAR_EK11 = [
 // Timurlu, Karakoyunlu ve Akkoyunlu devirlerinin dördünü birden siliyor.
 // Ölçüm ve önerilen zincir: OTURUM-13-ANADOLU.md §2.
 
-{ t:"1401-01-01", k:"savas", etiket:["yikim"],
+{ t:"1401-01-01", k:"savas", etiket:["yikim","konu-askeri"],
   b:"Timur Bağdat'ı ikinci defa işgal etti — şehrin Abbâsî mahalleleri yıkıldı",
   gun:"1401 (803 h.; ay ve gün kaynakta yok)", yer:"Bağdat, Irâk-ı Arab", yer_id:"Bağdat",
   kisiler:"Timur, Ahmed Celâyir",
@@ -63,14 +63,14 @@ window.OLAYLAR_EK11 = [
 // ayaklanması" ve içinde Aydınoğulları HİÇ geçmiyor. İki madde o boşluğu
 // kapatır.
 
-{ t:"1422-01-01", k:"kayip", etiket:["toprak-kayip","siyaset"],
+{ t:"1422-01-01", k:"kayip", etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
   b:"Cüneyd Bey Aydın-ili'nin başına döndü — Aydınoğulları yeniden müstakil",
   gun:"1422 (ay ve gün kaynakta yok)", yer:"İzmir, Ayasuluk, Tire, Birgi — Aydın-ili", yer_id:"İzmir",
   kisiler:"Aydınoğlu Cüneyd Bey, II. Murad, Mustafa Çelebi (Düzmece Mustafa)",
   d:"Çelebi Mehmed 1414-15'te İzmir'i alıp Cüneyd Bey'i Niğbolu sancak beyliğine göndererek Aydın-ili'ni Osmanlı idaresine bağlamıştı. Cüneyd, Çelebi Mehmed'in ölümünden sonra Bizans'ın taht iddiacısı olarak öne sürdüğü Mustafa Çelebi'nin yanında yeniden sahneye çıktı ve ona vezirlik dahi yaptı. II. Murad, eski beyliğini geri vereceği vaadiyle onu bu ittifaktan ayırdı; Cüneyd de İzmir'e dönüp Ayasuluk'u ele geçirdi ve Aydınoğlu Mustafa Bey'i öldürerek beyliğin başına geçti. Böylece Aydın-ili, Düzmece Mustafa buhranının içinden Osmanlı idaresinden çıkmış olarak doğdu.", ic_not_d:"Yılın ayı ve günü kaynakta bulunmadığı için tarih yıl hassasiyetinde yazılmıştır.",
   kaynak:"aydinogullari", duygu:["😔"] },
 
-{ t:"1426-01-01", k:"fetih", etiket:["toprak-kazanc","siyaset"],
+{ t:"1426-01-01", k:"fetih", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
   b:"Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu",
   gun:"1426", ic_not_gun:"(829 h.; TDV iki maddede 1425-26 ve 1426 diyor, gün yok)",
   yer:"İpsili (Sisam karşısı), Aydın-ili", yer_id:"Sisam", kisiler:"Aydınoğlu Cüneyd Bey, II. Murad, Anadolu Beylerbeyi Hamza Bey",
@@ -109,35 +109,35 @@ window.OLAYLAR_EK11 = [
 //   akkoyunlular  → mevcut `kaynak:` kümesinde                ✓
 // ⚠️ `ismail-i` slug'ı DOĞRULANAMADI (oturum limiti) ve kullanılmadı.
 
-{ t:"1502-01-01", k:"siyaset", etiket:["siyaset","savas"],
+{ t:"1502-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
   b:"Erzurum ve Van havzası Safevî'ye geçti — Akkoyunlu'nun kuzey kanadı çöktü",
   gun:"1502 (ay ve gün kaynakta yok)", yer:"Erzurum, Van, Erciş, Kemah", yer_id:"Erzurum",
   kisiler:"Şah İsmail, Akkoyunlu Elvend Bey",
   d:"Şerûr'da Elvend Bey'i yenip 1501 yazında Tebriz'e giren Şah İsmâil, ertesi yıl kuzeybatı istikametinde ilerleyerek Erzurum'dan Van gölü havzasına uzanan hattı hâkimiyeti altına aldı. Akkoyunlu Devleti Uzun Hasan'ın ölümünden sonra zaten taht kavgalarıyla ikiye bölünmüştü: Elvend Bey Azerbaycan ve Diyarbekir'i, amcazadesi Murad ise Irâk-ı Acem ve Fars'ı tutuyordu. Bu bölünme Safevî ilerleyişini kolaylaştırdı; bölge on kayıt hâlinde bir yıl içinde el değiştirdi. Erzurum bundan sonra on altı yıl Safevî elinde kaldı ve Osmanlı hâkimiyetine ancak Çaldıran'dan sonra, 1518-19'da girdi.",
   kaynak:"akkoyunlular", duygu:["🏛"] },
 
-{ t:"1503-01-01", k:"siyaset", etiket:["siyaset","savas"],
+{ t:"1503-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
   b:"Murad Bey'in Hemedan yenilgisi: Irâk-ı Acem ve Fars Safevî'ye geçti",
   gun:"1503 (908 h.; ay ve gün kaynakta yok)", yer:"Hemedan, Isfahan, Şîraz, Kâşân — Irâk-ı Acem ve Fars", yer_id:"Hemedan",
   kisiler:"Şah İsmail, Akkoyunlu Sultan Murad",
   d:"Akkoyunlu tahtının ikinci iddiacısı Sultan Murad, Şah İsmâil'e karşı Hemedan yakınlarında yapılan savaşta ağır bir yenilgiye uğradı ve Bağdat'a kaçtı. Bu tek savaşla Irâk-ı Acem, Fars ve Kirman bölgeleri Safevî idaresine girdi; haritada otuz yedi yerleşim aynı anda el değiştirir. Akkoyunlu Devleti'nin çözülüşünün en büyük tek adımı budur — Tebriz'in kaybı hânedanı başkentsiz bırakmıştı, Hemedan yenilgisi ise topraksız bıraktı.", ic_not_d:"⚠️ Bu kırılma bugüne kadar kronolojide karşılıksızdı: ona en yakın madde on sekiz gün ötedeki Osmanlı-Venedik Savaşı'nın sona ermesiydi, yani kullanıcı İran'ın el değiştirdiğini görürken ekranda Venedik barışını okuyordu.",
   kaynak:"safeviler", duygu:["🏛","😔"] },
 
-{ t:"1507-01-01", k:"siyaset", etiket:["siyaset","savas"],
+{ t:"1507-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
   b:"Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü",
   gun:"1507 (912-913 h.; ay ve gün kaynakta yok)", yer:"Diyarbekir, Âmid, Mardin, Urfa, Harput, Siverek", yer_id:"Diyarbakır",
   kisiler:"Şah İsmail, Akkoyunlu hânedanı",
   d:"Azerbaycan ve İran platosunu ele geçiren Şah İsmâil 1507'de batıya, Akkoyunlu hânedanının doğduğu Diyarbekir bölgesine yöneldi. Âmid'den Mardin'e, Urfa'dan Harput'a uzanan hat iki hamlede Safevî idaresine girdi ve Akkoyunlular fiilen ortadan kalktı. Bu sefer aynı zamanda Safevî sınırını ilk defa Osmanlı ve Memlûk sınırlarına dayadı; Çaldıran'a giden gerilimin coğrafî zemini böyle kuruldu.", ic_not_d:"⚠️ Hânedanın tarihî sonu bu tarih değildir: TDV'ye göre Elvend Bey 1505'te Âmid'de ölmüş, hânedan ise 1514'te Murad'ın ölümüyle sona ermiştir; 1507 toprağın son kaybıdır.",
   kaynak:"safeviler", duygu:["🏛"] },
 
-{ t:"1508-01-01", k:"siyaset", etiket:["siyaset","savas"],
+{ t:"1508-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
   b:"Bağdat'ın Safevî'ye geçişi — Irâk-ı Arab el değiştirdi",
   gun:"1508 (914 h.; ay ve gün kaynakta yok)", yer:"Bağdat, Kerbelâ, Necef, Musul — Irâk-ı Arab", yer_id:"Bağdat",
   kisiler:"Şah İsmail",
   d:"Hemedan yenilgisinden sonra Bağdat'a sığınan Akkoyunlu Sultan Murad'ın ardından Şah İsmâil 1508'de Irâk-ı Arab'a girdi ve Bağdat'ı aldı. Kerbelâ ve Necef'teki türbelerin Safevî idaresine geçmesi, hareketin mezhebî iddiası bakımından Tebriz'in alınması kadar önemliydi. Haritada kırk altı yerleşim aynı gün el değiştirir; bu, çözülüşün son ve en geniş coğrafî adımıdır. Bağdat 1534'te Kanûnî'nin Irakeyn Seferi'ne kadar Safevî elinde kaldı.",
   kaynak:"safeviler", duygu:["🏛"] },
 
-{ t:"1510-12-02", k:"savas", etiket:["savas","siyaset"],
+{ t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
   b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
   gun:"1510 sonu", ic_not_gun:"(916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
   yer:"Merv, Herat — Horasan", yer_id:"Merv (Mari)", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",
@@ -156,7 +156,7 @@ window.OLAYLAR_EK11 = [
 //    üretiyor, TDV'de karşılığı olmayan maddeye slug yazmak ÖLÜ LİNK olur.
 //    Kaynak metnin içinde adıyla anılıyor.
 
-{ t:"1581-04-16", k:"siyaset", etiket:["siyaset","diplomasi"],
+{ t:"1581-04-16", k:"siyaset", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
   b:"İberya Birliği: Portekiz tacı İspanya kralına geçti",
   gun:"16 Nisan 1581", yer:"Tomar — Portekiz",
   kisiler:"II. Felipe (Portekiz kralı I. Filipe), Kardinal Kral Henrique",
@@ -166,19 +166,19 @@ window.OLAYLAR_EK11 = [
 // yazıyor). Önemsiz görünür, değil: `denetle.py`nin `kirilmasiz_madde()` sayacı
 // tam bu etikete bakıyor — yanlış yazılan etiket, toprak iddiası taşıyan maddeyi
 // "kırılmasız" sayıp Değişmez 2t tavanını boş yere yer.
-{ t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kayip"],
+{ t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kayip","konu-askeri","konu-siyasi"],
   b:"Restauração: Portekiz bağımsızlığını geri aldı",
   gun:"1 Aralık 1640", yer:"Lizbon", yer_id:"Lizbon",
   kisiler:"IV. João (Braganza Dükü), Kont-Dük Olivares",
   d:"Katalonya isyanının İspanya'yı meşgul ettiği günlerde Lizbon'da bir grup soylu saraya baskın yaparak İspanyol idaresini devirdi ve Braganza Dükü'nü IV. João adıyla kral ilan etti. Altmış yıllık İberya Birliği böylece sona erdi; ancak Sebte İspanya'da kalmayı seçti ve bu 1668 Lizbon Antlaşması'yla tanındı. Portekiz'in Habsburg savaşlarına eklemlendiği bu pencere Asya'daki kayıplarının da çerçevesidir: Hürmüz 1622'de, Malaka 1641'de, Kolombo 1656'da elden çıktı; Tanca ile Bombay ise bağımsızlığın bedeli olarak İngiltere'ye verildi. Kaynak: Britannica, History of Portugal — Restoration.", duygu:["🏛"] },
 
-{ t:"1539-01-01", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1539-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Zebîd'in Osmanlı hâkimiyetine kesin girişi",
   gun:"1539 başı (kesin gün kaynakta yok; üst sınır 10 Mart 1539)",
   yer:"Zebîd — Yemen", yer_id:"Zebîd", kisiler:"Hadım Süleyman Paşa",
   d:"Diu kuşatmasını 5 Kasım 1538'de kaldıran donanma dönüş yolunda Yemen kıyısına uğradı ve Zebîd kesin olarak Osmanlı idaresine bağlandı; Hadım Süleyman Paşa şehirden 10 Mart 1539'da ayrılıp 1 Nisan'da Cidde'ye vardı. Şehir 1517'den beri eski Memlûk beylerinin elinde Osmanlı adına yönetiliyordu; bu tarihle doğrudan idareye geçti.", ic_not_d:"⚠️ Atlas bu geçişi uzun süre 3 Ağustos 1538'de gösteriyordu, oysa o gün alınan yer Aden'dir. Düzeltmenin kaynağı: Ertuğrul Önalp, \\\"Hadım Süleyman Paşa'nın 1538 yılındaki Hindistan Seferi\\\", OTAM (Ankara Üniversitesi Osmanlı Tarihi Araştırma ve Uygulama Merkezi Dergisi) — tam metin okundu.", duygu:["🎉"] },
 
-{ t:"1662-01-30", k:"antlasma", etiket:["antlasma","diplomasi"],
+{ t:"1662-01-30", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Tanca İngiltere'ye devredildi",
   gun:"30 Ocak 1662", yer:"Tanca — Fas", yer_id:"Tanca",
   kisiler:"II. Charles, Catherine de Braganza, Peterborough Kontu",
@@ -198,13 +198,13 @@ window.OLAYLAR_EK11 = [
 //    Zend, Tahran'da Kacar) ve genel etiketin en mesru oldugu yer orasi.
 //    Sehir sehir bolunmesi ayri bir TDV taramasi istiyor, uydurulmayacak.
 
-{ t:"1747-06-20", k:"siyaset", etiket:["siyaset","suikast"],
+{ t:"1747-06-20", k:"siyaset", etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
   b:"Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
   gun:"20 Haziran 1747", yer:"Fethâbâd, Horasan",
   kisiler:"Nâdir Şah Afşar",
   d:"Safevî tahtını sona erdirip 1736'da kendi adına saltanat ilân eden, Hindistan seferiyle Delhi'ye kadar giden ve Osmanlı ile üç savaş yapıp 1746 Kerden Antlaşması'yla barışan Nâdir Şah, kendi muhafızları tarafından çadırında öldürüldü. Ardından İran tek elden yönetilemedi: Horasan'da Afşar kalıntısı, güneyde Zend, kuzeyde yükselen Kaçar kırk dokuz yıl boyunca ülkeyi paylaştı. Osmanlı doğu sınırı bu dağınıklık sayesinde uzun süre sakin kaldı.", duygu:["🏛"], yer_kon:[37.1,58.5] },
 
-{ t:"1796-01-01", k:"siyaset", etiket:["siyaset"],
+{ t:"1796-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-hanedan"],
   b:"Kaçar hânedanının İran'a hâkim oluşu",
   gun:"1796 (gün kaynakta yok; devlet dizini bu tarihi Afşar'ın bitişi olarak taşıyor)",
   yer:"Tahran", yer_id:"Tahran", kisiler:"Ağa Muhammed Şah Kaçar",

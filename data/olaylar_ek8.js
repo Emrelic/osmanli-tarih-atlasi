@@ -43,7 +43,8 @@ window.OLAYLAR_EK8 = [
   "kapsam": "dis",
   "etiket": [
    "toprak-kazanc",
-   "savas"
+   "savas",
+   "konu-askeri"
   ],
   "yer_id": "İzvornik (Zvornik)",
   "d": "Drina kıyısındaki İzvornik kalesi 1460'ta Osmanlı tarafından fethedildi. TDV İslâm Ansiklopedisi'ne göre idarî ve askerî açıdan elverişli konumu sebebiyle önce bir kaza merkezi yapıldı, 1480'de aynı adı taşıyan sancağın merkezine dönüştürüldü ve 1491'de taş surlarla tahkim edilerek altı cami, sekiz tekke ve hamamlarıyla önemli bir idarî-ticarî merkeze dönüştü.", "ic_not_d": "TARİH HAKKINDA: TDV yalnız yıl veriyor, gün vermiyor.",
@@ -58,7 +59,8 @@ window.OLAYLAR_EK8 = [
   "kapsam": "dis",
   "etiket": [
    "savas",
-   "denizcilik"
+   "denizcilik",
+   "konu-askeri"
   ],
   "yer_id": "Diu",
   "d": "Gücerat Sultanlığı adına bölgeyi yöneten Melik Ayaz'ın Memlük destekli donanması, bu kıyılarda ikmal üssü kurmaya çalışan Portekiz genel valisi Francisco de Almeida'nın filosu karşısında Diu açıklarında ağır bir yenilgiye uğradı. Bu yenilgi Portekiz'e Hint Okyanusu'nda kalıcı deniz üstünlüğü kazandırdı ve Memlük-Gücerat deniz gücünü kırdı; Osmanlı'nın 1517 sonrası devraldığı Kızıldeniz-Hint Okyanusu mücadelesinin (Cidde savunması, 1538 Diu kuşatması) arka planını oluşturan güç dengesizliğinin başlangıcı sayılır.",
@@ -73,7 +75,8 @@ window.OLAYLAR_EK8 = [
   "kapsam": "dis",
   "etiket": [
    "askeri",
-   "toprak-kazanc"
+   "toprak-kazanc",
+   "konu-askeri"
   ],
   "yer_id": "Nusaybin",
   "d": "Çaldıran seferi (1514) sonrasında Doğu Anadolu'da yürütülen ilhak sürecinde İdrîs-i Bitlisî'nin bölgedeki Sünnî Kürt beyleriyle kurduğu ilişkiler sayesinde Nusaybin, 921 (1515) yılı sonlarında savaşsız biçimde Osmanlı topraklarına katıldı.", "ic_not_d": "TDV kesin ay/gün vermiyor, yalnız 'yılın sonlarında' diyor.  Komşu kasabalar Derik (Malikiye) ve Silopi aynı bölgesel teslim dalgasının parçası olabilir ama TDV'de müstakil maddeleri yok — bulunamadı, tarihleri buraya dayandırılmadı.",
@@ -88,7 +91,9 @@ window.OLAYLAR_EK8 = [
   "kapsam": "ic",
   "etiket": [
    "isyan",
-   "savas"
+   "savas",
+   "konu-askeri",
+   "konu-isyan"
   ],
   "yer_id": "Elbistan",
   "d": "Anadolu'daki malî sıkıntılar, yeni idarî düzenlemelerden duyulan hoşnutsuzluk ve Safevî propagandasının etkisiyle Çiçekli, Akça Koyunlu, Masadlı ve Bozoklu gibi büyük Türkmen aşiretleriyle daha önceki Baba Zünnûn isyanından kalan gruplar Kalender Şah'ın çevresinde toplanıp yaklaşık otuz bin kişilik bir güce ulaştı. İsyancılar önce Rum Beylerbeyi'ni yenilgiye uğrattı; Sadrazam Makbul İbrâhim Paşa'nın asker toplayıp haklarını vaad etmesiyle Kalender'in desteği eridi ve isyan Elbistan civarında bastırıldı, Kalender Şah ile Veli Dündar Haziran 1527'de öldürüldü.",
@@ -99,7 +104,8 @@ window.OLAYLAR_EK8 = [
   "k": "fetih",
   "etiket": [
    "toprak-kazanc",
-   "savas"
+   "savas",
+   "konu-askeri"
   ],
   "b": "Şehrizor'un fethi — Zalm Kalesi'nin alınışı",
   "gun": "22 Ağustos 1554",
@@ -117,7 +123,11 @@ window.OLAYLAR_EK8 = [
   "k": "vassal",
   "etiket": [
    "toprak-kazanc",
-   "diplomasi"
+   "diplomasi",
+   "konu-askeri",
+   "konu-siyasi",
+   "konu-idari",
+   "konu-diplomasi"
   ],
   "b": "Fizan sancağının Trablusgarp'a bağlanışı — Murzuk ve Sahra kervan kavşağı",
   "gun": "1577",
@@ -136,7 +146,8 @@ window.OLAYLAR_EK8 = [
   "t": "1585-01-01",
   "k": "fetih",
   "etiket": [
-   "toprak-kazanc"
+   "toprak-kazanc",
+   "konu-askeri"
   ],
   "b": "Nahçıvan ve Ordubad'ın Osmanlı idaresine girmesi",
   "gun": "1585",
@@ -159,7 +170,10 @@ window.OLAYLAR_EK8 = [
   "kapsam": "ic",
   "etiket": [
    "isyan",
-   "siyaset"
+   "siyaset",
+   "konu-siyasi",
+   "konu-idari",
+   "konu-isyan"
   ],
   "yer_id": "Kütahya",
   "d": "Celâlî lideri Karayazıcı Abdülhalim'in 1602'de ölümünün ardından hareketin başına geçen kardeşi Deli Hasan, süregelen Avusturya savaşlarının Celâlî gruplarına tanıdığı hareket serbestîsinden yararlanarak Kütahya'yı istilâ edip Afyonkarahisar üzerine yürüdü. Devletin aynı anda Avusturya ve İran cepheleriyle uğraştığı bu dönemde mesele 'tatlılıkla' çözüldü: Deli Hasan'a paşalık rütbesi ve Bosna beylerbeyiliği verilerek isyan hareketi 1603'te resmen sona erdirildi.", "ic_not_d": "TDV yalnız yıl veriyor, ay/gün belirtmiyor. · EK2 §4: yukarıdaki 'TDV yalnız yıl veriyor' notu YANLIŞTI — TDV mehmed-iii 'Şevval 1011 / Mart 1603' veriyor (ay düzeyi). t:1603-01-01 kaba güvenli düzeyde kaldı (§4: ay metne yazılır)",
@@ -170,7 +184,8 @@ window.OLAYLAR_EK8 = [
   "k": "kayip",
   "etiket": [
    "toprak-kayip",
-   "savas"
+   "savas",
+   "konu-askeri"
   ],
   "b": "Azak Kalesi'nin Don Kazaklarına kaybı",
   "gun": "18 Haziran 1637",
@@ -188,7 +203,8 @@ window.OLAYLAR_EK8 = [
   "k": "fetih",
   "etiket": [
    "toprak-kazanc",
-   "savas"
+   "savas",
+   "konu-askeri"
   ],
   "b": "Limni ve Semadirek'in geri alınışı",
   "gun": "Kasım 1657",
@@ -212,7 +228,8 @@ window.OLAYLAR_EK8 = [
    "askeri",
    "toprak-kayip",
    "serhat",
-   "venedik"
+   "venedik",
+   "konu-askeri"
   ],
   "yer_id": "Knin",
   "d": "1683 Viyana bozgunundan sonra çok cepheli açılan savaşta Venedik kuvvetleri Dalmaçya içlerine ilerledi. Dalmaçya generali Girolamo Cornaro'nun kuşattığı Knin, on iki günlük bir muhasaradan sonra beylerbeyi Mehmed Paşa tarafından teslim edildi. Knin, 1522'de Gazi Hüsrev Bey'in fethettiği ve 166 yıl Osmanlı elinde kalan Dalmaçya sınır hattının kilit kalesiydi; kaybı bölgeyi büyük ölçüde Venedik'e açtı.", "ic_not_d": "TDV dönemin genel kayıp listesinde 'Bosna'daki Knin ve civarındaki kaleler ise Venedikliler'in eline geçmişti' diye anar ama gün vermez.",
@@ -222,7 +239,8 @@ window.OLAYLAR_EK8 = [
   "t": "1779-04-01",
   "k": "fetih",
   "etiket": [
-   "toprak-kazanc"
+   "toprak-kazanc",
+   "konu-askeri"
   ],
   "b": "Basra'nın İran işgalinden geri alınışı",
   "gun": "1779",
@@ -240,7 +258,9 @@ window.OLAYLAR_EK8 = [
   "k": "antlasma",
   "etiket": [
    "diplomasi",
-   "toprak-kayip"
+   "toprak-kayip",
+   "konu-askeri",
+   "konu-diplomasi"
   ],
   "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
   "gun": "3 Şubat 1830",
@@ -262,7 +282,9 @@ window.OLAYLAR_EK8 = [
   "kapsam": "dis",
   "etiket": [
    "siyaset",
-   "kurulus"
+   "kurulus",
+   "konu-siyasi",
+   "konu-hanedan"
   ],
   "yer_id": "Hâil",
   "d": "1818'de Mehmed Ali Paşa kuvvetlerinin Dir'iyye'yi düşürmesiyle Cebelişemmer bölgesi Suûdî hâkimiyetinden çıktı ve emirlik İbn Ali ailesinin elinde kaldı. Osmanlı hâkimiyetinin yeniden tesisini destekleyen Abdullah b. Reşîd, kardeşi Ubeyd ile birlikte İbn Ali ailesine karşı giriştiği mücadeleyi 1835'te kazanarak Hâil emirliğini ele geçirdi ve Reşîdî hânedanının hâkimiyetini kurdu.", "ic_not_d": "TDV kaynağı yalnız yılı veriyor, gün belirtmiyor.  VERİ NOTU: data/yerlesimler.js'teki Hâil kaydı bu değişimi 1836-01-01 olarak taşıyor (1 yıl fark) — Değişmez 2 senkronu için yerleşim tarihinin 1835-01-01'e çekilmesi gerekir; bu düzeltme Yerleşim/Entegrasyon oturumuna aittir, benim yetkim dışında.",
@@ -273,7 +295,9 @@ window.OLAYLAR_EK8 = [
   "k": "antlasma",
   "etiket": [
    "toprak-kayip",
-   "diplomasi"
+   "diplomasi",
+   "konu-askeri",
+   "konu-diplomasi"
   ],
   "b": "Sevr Antlaşması — imparatorluğun paylaşım metni",
   "gun": "10 Ağustos 1920",
@@ -287,44 +311,44 @@ window.OLAYLAR_EK8 = [
   "yer_id": "Paris"
  },
 
-{ t:"1819-11-01", tur:"din", etiket:["din","toplum","hanedan-degisimi"], b:"ʻAi Noa — Hawaii'de geleneksel kapu sisteminin sona erdirilmesi", kapsam_genis:true, gun:"Kasım 1819 (gün kaynaklarda yok)", yer:"Kailua-Kona, Hawaii adası", kisiler:"II. Kamehameha (Liholiho), Kraliçe Kaʻahumanu", d:"Kamehameha I'in ölümünden altı ay sonra, yeni kral Liholiho annesi Kaʻahumanu'nun desteğiyle kadın-erkek ayrı yemek yeme yasağını (ʻaikapu) bilerek çiğnedi. 'ʻAi Noa' (serbest yemek) olarak anılan bu eylem geleneksel kapu din-hukuk sistemini resmen sona erdirdi; adalardaki eski tapınaklar (heiau) kısa sürede yıkıldı. Batı misyonerlerinin gelişinden (1820) önceki en büyük dinî-siyasî kırılmadır.", kaynak:"bulunamadı — TDV kapsamı dışı (Pasifik); Wikipedia + Punahou School/UH Hilo ders notu çapraz kontrol edildi, ay doğrulandı, gün hiçbir kaynakta yok" },
+{ t:"1819-11-01", tur:"din", etiket:["din","toplum","hanedan-degisimi","konu-hanedan","konu-din","konu-sosyal"], b:"ʻAi Noa — Hawaii'de geleneksel kapu sisteminin sona erdirilmesi", kapsam_genis:true, gun:"Kasım 1819 (gün kaynaklarda yok)", yer:"Kailua-Kona, Hawaii adası", kisiler:"II. Kamehameha (Liholiho), Kraliçe Kaʻahumanu", d:"Kamehameha I'in ölümünden altı ay sonra, yeni kral Liholiho annesi Kaʻahumanu'nun desteğiyle kadın-erkek ayrı yemek yeme yasağını (ʻaikapu) bilerek çiğnedi. 'ʻAi Noa' (serbest yemek) olarak anılan bu eylem geleneksel kapu din-hukuk sistemini resmen sona erdirdi; adalardaki eski tapınaklar (heiau) kısa sürede yıkıldı. Batı misyonerlerinin gelişinden (1820) önceki en büyük dinî-siyasî kırılmadır.", kaynak:"bulunamadı — TDV kapsamı dışı (Pasifik); Wikipedia + Punahou School/UH Hilo ders notu çapraz kontrol edildi, ay doğrulandı, gün hiçbir kaynakta yok" },
 
-{ t:"1840-10-08", tur:"kurulus", etiket:["idari","anayasa"], b:"Hawaii'nin ilk yazılı anayasası ilan edildi", yer_kon:[21.3069,-157.8583], gun:"8 Ekim 1840", yer:"Honolulu", kisiler:"III. Kamehameha", d:"Krallığın ilk tam yazılı anayasası ilan edildi; kral yetkisini kısıtlayan, temsilî bir meclis kuran bu belge Hawaii'yi anayasal monarşiye dönüştürdü.", kaynak:"bulunamadı — akademik/kurumsal kaynak: UH Law School Archival Collections (birincil kaynak neşri)" },
+{ t:"1840-10-08", tur:"kurulus", etiket:["idari","anayasa","konu-siyasi","konu-idari","konu-islahat","konu-hukuk"], b:"Hawaii'nin ilk yazılı anayasası ilan edildi", yer_kon:[21.3069,-157.8583], gun:"8 Ekim 1840", yer:"Honolulu", kisiler:"III. Kamehameha", d:"Krallığın ilk tam yazılı anayasası ilan edildi; kral yetkisini kısıtlayan, temsilî bir meclis kuran bu belge Hawaii'yi anayasal monarşiye dönüştürdü.", kaynak:"bulunamadı — akademik/kurumsal kaynak: UH Law School Archival Collections (birincil kaynak neşri)" },
 
-{ t:"1887-07-06", tur:"siyaset", etiket:["anayasa","darbe-askeri"], b:"Süngü Anayasası — Kral Kalākaua'nın yetkileri budandı", yer_kon:[21.3069,-157.8583], gun:"6 Temmuz 1887 (imza); 7 Temmuz ilan", yer:"Honolulu", kisiler:"Kral Kalākaua, 'Hawaiian League' silahlı milisleri", d:"Silahlı bir milis grubu Kral Kalākaua'yı tehdit ederek krallığın yetkilerini büyük ölçüde budayan yeni bir anayasayı imzalamaya zorladı; belge 'Süngü Anayasası' (Bayonet Constitution) olarak anılır ve tahtı fiilen beyaz yerleşimci elitin denetimine soktu.", kaynak:"1887 Constitution of the Kingdom of Hawaii (Wikisource, belgenin kendi dateline'ı: 'SIGNED BY HIS MAJESTY KALAKAUA, JULY 6, AND PROMULGATED JULY 7, 1887') + Punawaiola/UH Mānoa 'Iulai 6' sayfası — BİRİNCİL KAYNAK" },
+{ t:"1887-07-06", tur:"siyaset", etiket:["anayasa","darbe-askeri","konu-siyasi","konu-darbe","konu-islahat","konu-hukuk"], b:"Süngü Anayasası — Kral Kalākaua'nın yetkileri budandı", yer_kon:[21.3069,-157.8583], gun:"6 Temmuz 1887 (imza); 7 Temmuz ilan", yer:"Honolulu", kisiler:"Kral Kalākaua, 'Hawaiian League' silahlı milisleri", d:"Silahlı bir milis grubu Kral Kalākaua'yı tehdit ederek krallığın yetkilerini büyük ölçüde budayan yeni bir anayasayı imzalamaya zorladı; belge 'Süngü Anayasası' (Bayonet Constitution) olarak anılır ve tahtı fiilen beyaz yerleşimci elitin denetimine soktu.", kaynak:"1887 Constitution of the Kingdom of Hawaii (Wikisource, belgenin kendi dateline'ı: 'SIGNED BY HIS MAJESTY KALAKAUA, JULY 6, AND PROMULGATED JULY 7, 1887') + Punawaiola/UH Mānoa 'Iulai 6' sayfası — BİRİNCİL KAYNAK" },
 
-{ t:"1894-07-04", tur:"kurulus", etiket:["idari","hanedan-degisimi"], b:"Hawaii Cumhuriyeti ilan edildi", yer_kon:[21.3069,-157.8583], gun:"4 Temmuz 1894", yer:"Honolulu", kisiler:"Sanford B. Dole", d:"1893'te Kraliçe Liliuokalani'yi deviren komplocular geçici hükümeti resmî bir cumhuriyete dönüştürdü; Sanford Dole başkan ilan edildi. Bu ara-rejim 1898'deki ABD ilhakına kadar sürdü.", kaynak:"bulunamadı — akademik/kurumsal kaynak: US State Dept FRUS 1894 + Britannica" },
+{ t:"1894-07-04", tur:"kurulus", etiket:["idari","hanedan-degisimi","konu-siyasi","konu-idari","konu-hanedan"], b:"Hawaii Cumhuriyeti ilan edildi", yer_kon:[21.3069,-157.8583], gun:"4 Temmuz 1894", yer:"Honolulu", kisiler:"Sanford B. Dole", d:"1893'te Kraliçe Liliuokalani'yi deviren komplocular geçici hükümeti resmî bir cumhuriyete dönüştürdü; Sanford Dole başkan ilan edildi. Bu ara-rejim 1898'deki ABD ilhakına kadar sürdü.", kaynak:"bulunamadı — akademik/kurumsal kaynak: US State Dept FRUS 1894 + Britannica" },
 
-{ t:"1893-02-18", tur:"hukumdar", etiket:["hanedan-degisimi"], b:"I. George Tupou'nun ölümü, II. George Tupou'nun tahta çıkışı (Tonga)", yer_kon:[-21.1394, -175.2018], gun:"18 Şubat 1893 (ölüm); taç giyme 17 Mart 1893", yer:"Nukuʻalofa", kisiler:"I. George Tupou (öldü), II. George Tupou (tahta çıktı)", d:"Kurucu kral I. George Tupou'nun ölümüyle torununun torunu II. George Tupou tahta geçti; taç giyme töreni 17 Mart 1893'te Nukuʻalofa'da yapıldı.", kaynak:"bulunamadı — akademik/kurumsal kaynak: Britannica + Find a Grave çapraz kontrol edildi" },
+{ t:"1893-02-18", tur:"hukumdar", etiket:["hanedan-degisimi","konu-kisiler","konu-hanedan"], b:"I. George Tupou'nun ölümü, II. George Tupou'nun tahta çıkışı (Tonga)", yer_kon:[-21.1394, -175.2018], gun:"18 Şubat 1893 (ölüm); taç giyme 17 Mart 1893", yer:"Nukuʻalofa", kisiler:"I. George Tupou (öldü), II. George Tupou (tahta çıktı)", d:"Kurucu kral I. George Tupou'nun ölümüyle torununun torunu II. George Tupou tahta geçti; taç giyme töreni 17 Mart 1893'te Nukuʻalofa'da yapıldı.", kaynak:"bulunamadı — akademik/kurumsal kaynak: Britannica + Find a Grave çapraz kontrol edildi" },
 
-{ t:"1918-04-05", tur:"hukumdar", etiket:["hanedan-degisimi"], b:"II. George Tupou'nun ölümü, Sālote Tupou III'ün tahta çıkışı (Tonga)", yer_kon:[-21.1394, -175.2018], gun:"5 Nisan 1918 (ölüm); 6 Nisan ilan; taç giyme 11 Ekim 1918", yer:"Nukuʻalofa", kisiler:"II. George Tupou (öldü, verem), Sālote Tupou III (tahta çıktı)", d:"II. George Tupou veremden öldü; 18 yaşındaki kızı Sālote ertesi gün kraliçe ilan edildi, taç giyme töreni 11 Ekim 1918'de yapıldı.", ic_not_d:"⚠️ KAYNAK ÇELİŞKİSİ ÖLÇÜLDÜ VE ÇÖZÜLDÜ: encyclopedia.com bir noktada '12 Nisan 1908' yazıyordu — bu tarih MANTIKEN İMKÂNSIZ (8 yaşında kraliçe olmak, üstelik o tarihte zaten evli/başbakan eşi olmak çelişir) ve dizgi hatası (1908→1918) sayılıp elendi; gün ikinci akademik kaynakla (Wood-Ellem) teyit edildi.", kaynak:"Wood-Ellem, 'Queen Sālote of Tonga' (Auckland University Press, 1999) — ikinci bağımsız akademik kaynakla teyit edildi" },
+{ t:"1918-04-05", tur:"hukumdar", etiket:["hanedan-degisimi","konu-kisiler","konu-hanedan"], b:"II. George Tupou'nun ölümü, Sālote Tupou III'ün tahta çıkışı (Tonga)", yer_kon:[-21.1394, -175.2018], gun:"5 Nisan 1918 (ölüm); 6 Nisan ilan; taç giyme 11 Ekim 1918", yer:"Nukuʻalofa", kisiler:"II. George Tupou (öldü, verem), Sālote Tupou III (tahta çıktı)", d:"II. George Tupou veremden öldü; 18 yaşındaki kızı Sālote ertesi gün kraliçe ilan edildi, taç giyme töreni 11 Ekim 1918'de yapıldı.", ic_not_d:"⚠️ KAYNAK ÇELİŞKİSİ ÖLÇÜLDÜ VE ÇÖZÜLDÜ: encyclopedia.com bir noktada '12 Nisan 1908' yazıyordu — bu tarih MANTIKEN İMKÂNSIZ (8 yaşında kraliçe olmak, üstelik o tarihte zaten evli/başbakan eşi olmak çelişir) ve dizgi hatası (1908→1918) sayılıp elendi; gün ikinci akademik kaynakla (Wood-Ellem) teyit edildi.", kaynak:"Wood-Ellem, 'Queen Sālote of Tonga' (Auckland University Press, 1999) — ikinci bağımsız akademik kaynakla teyit edildi" },
 
-{ t:"1893-09-19", tur:"siyaset", etiket:["reform","toplum"], b:"Yeni Zelanda kadınlara oy hakkı tanıyan ilk kendi kendini yöneten ülke oldu", yer_kon:[-41.2865,174.7762], gun:"19 Eylül 1893", yer:"Wellington", kisiler:"Vali Lord Glasgow", d:"Vali Lord Glasgow'un imzaladığı yeni Seçim Yasası ile Yeni Zelanda, kadınlara parlamento seçimlerinde oy hakkı tanıyan dünyanın ilk kendi kendini yöneten ülkesi oldu.", kaynak:"nzhistory.govt.nz — Yeni Zelanda hükûmetinin resmî tarih kurumu, birincil/kurumsal kaynak" },
+{ t:"1893-09-19", tur:"siyaset", etiket:["reform","toplum","konu-siyasi","konu-islahat","konu-sosyal"], b:"Yeni Zelanda kadınlara oy hakkı tanıyan ilk kendi kendini yöneten ülke oldu", yer_kon:[-41.2865,174.7762], gun:"19 Eylül 1893", yer:"Wellington", kisiler:"Vali Lord Glasgow", d:"Vali Lord Glasgow'un imzaladığı yeni Seçim Yasası ile Yeni Zelanda, kadınlara parlamento seçimlerinde oy hakkı tanıyan dünyanın ilk kendi kendini yöneten ülkesi oldu.", kaynak:"nzhistory.govt.nz — Yeni Zelanda hükûmetinin resmî tarih kurumu, birincil/kurumsal kaynak" },
 
-{ t:"1901-06-11", tur:"toprak-kazanc", etiket:["idari"], b:"Yeni Zelanda sınırları Cook Adaları ve Niue'yi kapsayacak şekilde genişledi", kapsam_genis:true, gun:"11 Haziran 1901", yer:"Rarotonga / Cook Adaları, Niue", kisiler:"-", d:"Yeni Zelanda'nın sınırları Cook Adaları (Rarotonga, Aitutaki ve güney adaları ile kuzey Cook Adaları) ve Niue'yi kapsayacak şekilde genişletildi; bu adalar Yeni Zelanda'ya bağlı bölge oldu.", kaynak:"teara.govt.nz — Te Ara, Yeni Zelanda Ansiklopedisi, resmî/akademik kaynak" },
+{ t:"1901-06-11", tur:"toprak-kazanc", etiket:["idari","konu-askeri","konu-idari"], b:"Yeni Zelanda sınırları Cook Adaları ve Niue'yi kapsayacak şekilde genişledi", kapsam_genis:true, gun:"11 Haziran 1901", yer:"Rarotonga / Cook Adaları, Niue", kisiler:"-", d:"Yeni Zelanda'nın sınırları Cook Adaları (Rarotonga, Aitutaki ve güney adaları ile kuzey Cook Adaları) ve Niue'yi kapsayacak şekilde genişletildi; bu adalar Yeni Zelanda'ya bağlı bölge oldu.", kaynak:"teara.govt.nz — Te Ara, Yeni Zelanda Ansiklopedisi, resmî/akademik kaynak" },
 
-{ t:"1468-01-01", tur:"hukumdar", etiket:["hanedan-degisimi"], b:"Kâsım Han'ın ölümü, Danyal Han'ın tahta çıkışı (Kasım Hanlığı)", yer_kon:[54.945,41.393], gun:"873 (1468)", ic_not_gun:"873 (1468) — TDV gün vermiyor", yer:"Kasimov", kisiler:"Kâsım Han (öldü), Danyal Han (tahta çıktı)", d:"Hanlığın kurucusu Kâsım Han'ın 873/1468'de ölümüyle yerine oğlu Danyal geçti; Danyal 1486'ya kadar hüküm sürdü.", kaynak:"kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih)" },
+{ t:"1468-01-01", tur:"hukumdar", etiket:["hanedan-degisimi","konu-kisiler","konu-hanedan"], b:"Kâsım Han'ın ölümü, Danyal Han'ın tahta çıkışı (Kasım Hanlığı)", yer_kon:[54.945,41.393], gun:"873 (1468)", ic_not_gun:"873 (1468) — TDV gün vermiyor", yer:"Kasimov", kisiler:"Kâsım Han (öldü), Danyal Han (tahta çıktı)", d:"Hanlığın kurucusu Kâsım Han'ın 873/1468'de ölümüyle yerine oğlu Danyal geçti; Danyal 1486'ya kadar hüküm sürdü.", kaynak:"kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih)" },
 
-{ t:"1573-01-01", tur:"siyaset", etiket:["din","hanedan-degisimi"], b:"Kasım Hanlığı hükümdarının Hıristiyanlığa geçişi ve hanlıktan alınması", yer_id:"Kasimov", gun:"1573", ic_not_gun:"1573 — TDV gün vermiyor", yer:"Kasimov / Moskova", kisiler:"Sain Bulat Han (Simeon Bekbulatoviç)", d:"Hanlığın başındaki hükümdar 'Semen (Simeon)' adını alıp Hıristiyan oldu; Ruslar müslüman tebaanın tepkisini hesaba katarak onu hanlıktan aldılar. Bu kişi kısa süre sonra Korkunç İvan tarafından 'çarın ve Rusya'nın büyük beyi' unvanıyla Moskova'da nominal hükümdar ilan edildi (1575) — Kasım Hanlığı ile Moskova tahtı arasındaki en çarpıcı kesişme.", kaynak:"kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih ve bağlam)" },
+{ t:"1573-01-01", tur:"siyaset", etiket:["din","hanedan-degisimi","konu-siyasi","konu-hanedan","konu-din"], b:"Kasım Hanlığı hükümdarının Hıristiyanlığa geçişi ve hanlıktan alınması", yer_id:"Kasimov", gun:"1573", ic_not_gun:"1573 — TDV gün vermiyor", yer:"Kasimov / Moskova", kisiler:"Sain Bulat Han (Simeon Bekbulatoviç)", d:"Hanlığın başındaki hükümdar 'Semen (Simeon)' adını alıp Hıristiyan oldu; Ruslar müslüman tebaanın tepkisini hesaba katarak onu hanlıktan aldılar. Bu kişi kısa süre sonra Korkunç İvan tarafından 'çarın ve Rusya'nın büyük beyi' unvanıyla Moskova'da nominal hükümdar ilan edildi (1575) — Kasım Hanlığı ile Moskova tahtı arasındaki en çarpıcı kesişme.", kaynak:"kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih ve bağlam)" },
 
-{ t:"1609-01-01", tur:"kayip", etiket:["askeri","isyan"], b:"Rus kuvvetlerinin Kasım şehrini zaptı, Uraz Muhammed Han", yer_kon:[54.945,41.393], gun:"1609", ic_not_gun:"1609 — TDV gün vermiyor", yer:"Kasimov", kisiler:"Uraz Muhammed Han, II. Sahte Dimitri", d:"Rusya'daki İç Karışıklıklar Devri'nin (Smuta) yansıması olarak Rus kuvvetleri Kâsım şehrini kuşatıp zaptetti, halkının çoğunu kılıçtan geçirdi. Hanlığın başındaki Uraz Muhammed, II. Sahte Dimitri'yi desteklediği için hedef alınmıştı; ertesi yıl (1610) kendisi de bir komployla öldürüldü.", kaynak:"kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih ve bağlam)" },
+{ t:"1609-01-01", tur:"kayip", etiket:["askeri","isyan","konu-askeri","konu-isyan"], b:"Rus kuvvetlerinin Kasım şehrini zaptı, Uraz Muhammed Han", yer_kon:[54.945,41.393], gun:"1609", ic_not_gun:"1609 — TDV gün vermiyor", yer:"Kasimov", kisiler:"Uraz Muhammed Han, II. Sahte Dimitri", d:"Rusya'daki İç Karışıklıklar Devri'nin (Smuta) yansıması olarak Rus kuvvetleri Kâsım şehrini kuşatıp zaptetti, halkının çoğunu kılıçtan geçirdi. Hanlığın başındaki Uraz Muhammed, II. Sahte Dimitri'yi desteklediği için hedef alınmıştı; ertesi yıl (1610) kendisi de bir komployla öldürüldü.", kaynak:"kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih ve bağlam)" },
 
-{ t:"1921-08-14", tur:"kurulus", etiket:["idari"], b:"Tannu Tuva Halk Cumhuriyeti bağımsızlığını ilan etti", yer_kon:[51.7191, 94.4378], gun:"14 Ağustos 1921", yer:"Tuva", kisiler:"-", d:"Tuvan Halk Devrimci Partisi önderliğinde bağımsızlık ilan edildi; ilk anayasanın ilk maddesi devletin 'uluslararası ilişkilerde Sovyet Rusya'nın himayesi altında' hareket ettiğini belirtiyordu.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482" },
+{ t:"1921-08-14", tur:"kurulus", etiket:["idari","konu-siyasi","konu-idari"], b:"Tannu Tuva Halk Cumhuriyeti bağımsızlığını ilan etti", yer_kon:[51.7191, 94.4378], gun:"14 Ağustos 1921", yer:"Tuva", kisiler:"-", d:"Tuvan Halk Devrimci Partisi önderliğinde bağımsızlık ilan edildi; ilk anayasanın ilk maddesi devletin 'uluslararası ilişkilerde Sovyet Rusya'nın himayesi altında' hareket ettiğini belirtiyordu.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482" },
 
-{ t:"1922-03-03", tur:"idari", etiket:["idari"], b:"Tannu Tuva hükûmeti fiilen göreve başladı", yer_kon:[51.7191, 94.4378], gun:"3 Mart 1922", yer:"Tuva", kisiler:"-", d:"Şubat 1922'deki ilk parti toplantısının ardından kurulan hükûmet fiilen göreve başladı.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482" },
+{ t:"1922-03-03", tur:"idari", etiket:["idari","konu-idari"], b:"Tannu Tuva hükûmeti fiilen göreve başladı", yer_kon:[51.7191, 94.4378], gun:"3 Mart 1922", yer:"Tuva", kisiler:"-", d:"Şubat 1922'deki ilk parti toplantısının ardından kurulan hükûmet fiilen göreve başladı.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482" },
 
-{ t:"1923-10-12", tur:"idari", etiket:["idari"], b:"Tannu Tuva'nın ilk Büyük Kurultayı toplandı", yer_kon:[51.7191, 94.4378], gun:"12 Ekim 1923", yer:"Tuva", kisiler:"-", d:"Ülkenin ilk Büyük Kurultayı (Halk Meclisi) toplandı; bu, devletin kurumsallaşma sürecinde ilk büyük temsilî toplantısıdır.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482" },
+{ t:"1923-10-12", tur:"idari", etiket:["idari","konu-idari"], b:"Tannu Tuva'nın ilk Büyük Kurultayı toplandı", yer_kon:[51.7191, 94.4378], gun:"12 Ekim 1923", yer:"Tuva", kisiler:"-", d:"Ülkenin ilk Büyük Kurultayı (Halk Meclisi) toplandı; bu, devletin kurumsallaşma sürecinde ilk büyük temsilî toplantısıdır.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482" },
 
-{ t:"1793-05-20", tur:"hukumdar", etiket:["hanedan-degisimi"], b:"Timur Şah'ın ölümü, Zaman Şah'ın cülûsu (Dürrânî Devleti)", yer_kon:[34.528,69.172], gun:"20 Mayıs 1793", yer:"Kabil", kisiler:"Timur Şah (öldü), Zaman Şah (tahta çıktı)", d:"Yirmi yılı aşkın süre ülkeyi içeriden konsolide eden Timur Şah'ın ölümüyle, Kandehar-Herat-Kabil valisi üç kardeş taht için çekişti; başkenti elinde tutan Kabil valisi Zaman Şah 20 Mayıs 1793'te şah oldu. Bu veraset krizi, hânedanın parçalanma sürecinin fiilen başlangıcıdır.", ic_not_d:"(Not: tarih önceki bir taslakta 18 Mayıs 1793 — Timur Şah'ın ölüm günü — olarak yanlış girilmişti; madde metni zaten Zaman Şah'ın CÜLÛSUNU anlatıyordu, tarih metinle 20 Mayıs'a hizalandı — bkz. denetim/PAKET-DALGA2-0911.json ②.)", kaynak:"bulunamadı — TDV'nin 'ahmed-sah-durrani' maddesi Ahmed Şah'ın kuruluşunu (1747-1773) kapsıyor ama bu olayı KAPSAMIYOR (doğrulandı, gövde okundu — TANECİKLİK boşluğu, §4); Wikipedia 'Zaman Shah Durrani' (reign start 20 May 1793) + New World Encyclopedia çapraz" },
+{ t:"1793-05-20", tur:"hukumdar", etiket:["hanedan-degisimi","konu-kisiler","konu-hanedan"], b:"Timur Şah'ın ölümü, Zaman Şah'ın cülûsu (Dürrânî Devleti)", yer_kon:[34.528,69.172], gun:"20 Mayıs 1793", yer:"Kabil", kisiler:"Timur Şah (öldü), Zaman Şah (tahta çıktı)", d:"Yirmi yılı aşkın süre ülkeyi içeriden konsolide eden Timur Şah'ın ölümüyle, Kandehar-Herat-Kabil valisi üç kardeş taht için çekişti; başkenti elinde tutan Kabil valisi Zaman Şah 20 Mayıs 1793'te şah oldu. Bu veraset krizi, hânedanın parçalanma sürecinin fiilen başlangıcıdır.", ic_not_d:"(Not: tarih önceki bir taslakta 18 Mayıs 1793 — Timur Şah'ın ölüm günü — olarak yanlış girilmişti; madde metni zaten Zaman Şah'ın CÜLÛSUNU anlatıyordu, tarih metinle 20 Mayıs'a hizalandı — bkz. denetim/PAKET-DALGA2-0911.json ②.)", kaynak:"bulunamadı — TDV'nin 'ahmed-sah-durrani' maddesi Ahmed Şah'ın kuruluşunu (1747-1773) kapsıyor ama bu olayı KAPSAMIYOR (doğrulandı, gövde okundu — TANECİKLİK boşluğu, §4); Wikipedia 'Zaman Shah Durrani' (reign start 20 May 1793) + New World Encyclopedia çapraz" },
 
-{ t:"1920-04-26", tur:"kurulus", etiket:["idari","hanedan-degisimi"], b:"Hârizm Halk Cumhuriyeti ilan edildi", yer_kon:[41.3783,60.3639], gun:"26 Nisan 1920", yer:"Hive", kisiler:"-", d:"1917 Ekim İhtilâli sonrası Hive Hanı'nın devrilmesinin ardından Hârizm Halk Cumhuriyeti ilân edildi.", kaynak:"harizm (TDV — CANLI, madde gövdesinde birebir tarih)" },
+{ t:"1920-04-26", tur:"kurulus", etiket:["idari","hanedan-degisimi","konu-siyasi","konu-idari","konu-hanedan"], b:"Hârizm Halk Cumhuriyeti ilan edildi", yer_kon:[41.3783,60.3639], gun:"26 Nisan 1920", yer:"Hive", kisiler:"-", d:"1917 Ekim İhtilâli sonrası Hive Hanı'nın devrilmesinin ardından Hârizm Halk Cumhuriyeti ilân edildi.", kaynak:"harizm (TDV — CANLI, madde gövdesinde birebir tarih)" },
 
-{ t:"1921-09-05", tur:"siyaset", etiket:["idari"], b:"Hârizm Sovyet Sosyalist Cumhuriyeti'ne dönüşüm", yer_kon:[41.3783,60.3639], gun:"5 Eylül 1921", yer:"Hive", kisiler:"-", d:"Ülke, adını ve statüsünü değiştirerek Hârizm Sovyet Sosyalist Cumhuriyeti oldu; idari-yasal yapı Sovyet sistemine göre yeniden düzenlendi.", kaynak:"harizm (TDV — CANLI, madde gövdesinde birebir tarih)" },
+{ t:"1921-09-05", tur:"siyaset", etiket:["idari","konu-siyasi","konu-idari"], b:"Hârizm Sovyet Sosyalist Cumhuriyeti'ne dönüşüm", yer_kon:[41.3783,60.3639], gun:"5 Eylül 1921", yer:"Hive", kisiler:"-", d:"Ülke, adını ve statüsünü değiştirerek Hârizm Sovyet Sosyalist Cumhuriyeti oldu; idari-yasal yapı Sovyet sistemine göre yeniden düzenlendi.", kaynak:"harizm (TDV — CANLI, madde gövdesinde birebir tarih)" },
 
-{ t:"1920-10-08", tur:"kurulus", etiket:["idari","hanedan-degisimi"], b:"Buhara Halk Sovyet Cumhuriyeti ilan edildi", yer_kon:[39.7681,64.421], gun:"8 Ekim 1920", yer:"Buhara", kisiler:"Feyzullah Hocayev", d:"Kızıl Ordu'nun 28-31 Ağustos 1920'de Buhara Emirliği'ni yıkıp Emir Alim Han'ı Doğu Buhara'ya kaçırmasının ardından, Feyzullah Hocayev başkanlığında Buhara Halk Sovyet Cumhuriyeti ilân edildi.", kaynak:"bulunamadı — akademik kaynak: soviethistory.msu.edu (Michigan State Üniversitesi) + Wikipedia çapraz" },
+{ t:"1920-10-08", tur:"kurulus", etiket:["idari","hanedan-degisimi","konu-siyasi","konu-idari","konu-hanedan"], b:"Buhara Halk Sovyet Cumhuriyeti ilan edildi", yer_kon:[39.7681,64.421], gun:"8 Ekim 1920", yer:"Buhara", kisiler:"Feyzullah Hocayev", d:"Kızıl Ordu'nun 28-31 Ağustos 1920'de Buhara Emirliği'ni yıkıp Emir Alim Han'ı Doğu Buhara'ya kaçırmasının ardından, Feyzullah Hocayev başkanlığında Buhara Halk Sovyet Cumhuriyeti ilân edildi.", kaynak:"bulunamadı — akademik kaynak: soviethistory.msu.edu (Michigan State Üniversitesi) + Wikipedia çapraz" },
 
-{ t:"1921-09-01", tur:"siyaset", etiket:["anayasa","reform"], b:"Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi", yer_kon:[39.7681,64.421], gun:"Eylül 1921 (gün kaynaklarda yok)", yer:"Buhara", kisiler:"-", d:"Rus 1918 anayasasının aksine özel toprak/üretim mülkiyetine izin veren ve proleter-olmayanlara da oy hakkı tanıyan yeni bir anayasa kabul edildi (devrik emirin akrabaları ve büyük toprak sahipleri hariç).", kaynak:"bulunamadı — akademik kaynak: soviethistory.msu.edu (Buhara Halk Sovyet Cumhuriyeti Anayasası metni, MSU arşivi) + Wikipedia çapraz" },
+{ t:"1921-09-01", tur:"siyaset", etiket:["anayasa","reform","konu-siyasi","konu-islahat","konu-hukuk"], b:"Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi", yer_kon:[39.7681,64.421], gun:"Eylül 1921 (gün kaynaklarda yok)", yer:"Buhara", kisiler:"-", d:"Rus 1918 anayasasının aksine özel toprak/üretim mülkiyetine izin veren ve proleter-olmayanlara da oy hakkı tanıyan yeni bir anayasa kabul edildi (devrik emirin akrabaları ve büyük toprak sahipleri hariç).", kaynak:"bulunamadı — akademik kaynak: soviethistory.msu.edu (Buhara Halk Sovyet Cumhuriyeti Anayasası metni, MSU arşivi) + Wikipedia çapraz" },
 
-{ t:"1924-01-01", tur:"kayip", etiket:["idari","toprak-kayip","hanedan-degisimi"], b:"Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayla sona ermesi — Özbekistan/Türkmenistan SSC'lerinin kuruluşu", kapsam_genis:true, gun:"1924 (kaynaklar farklı günler verir)", ic_not_gun:"gün KAYNAKLAR ARASINDA ÇELİŞİYOR — künyenin kendi f:/t: günü DEVRALINDI, bkz. not", yer:"Hive, Buhara, Taşkent", kisiler:"Feyzullah Hocayev", d:"Sovyet 'millî sınırlandırma' (natsionalno-territorialnoe razmezhevanie) kararıyla Hârizm Sovyet Sosyalist Cumhuriyeti ile Buhara Halk Sovyet Cumhuriyeti ilga edildi; toprakları yeni kurulan Özbekistan ve Türkmenistan Sovyet Sosyalist Cumhuriyetleri arasında paylaştırıldı (Hîve'nin doğusu Özbekistan'a, batısı Türkmenistan'a). TDV'nin `harizm` maddesi: '1924'te Hîve Hanlığı'nın doğu kesimleri Özbekistan SSC'ye, batı tarafı da Türkmenistan SSC'ye bırakıldı' — yalnız YIL veriyor.", ic_not_d:"⚠️ KAYNAK ÇELİŞKİSİ BİLDİRİLİYOR, ÇÖZÜLMEDİ: akademik kaynaklar sürecin BİRDEN FAZLA kararla ilerlediğini gösteriyor — Türkistan MİK'in 16 Eylül 1924 kararı, Buhara/Hârizm kurultaylarının Eylül-Ekim 1924 toplantıları, SSCB Merkezî Yürütme Kurulu'nun 14 Ekim 1924 kararı, ve cumhuriyetlerin fiilen SSCB'ye 27 Ekim 1924'te birer birlik cumhuriyeti olarak katılıp aynı anda ilga edilmesi — tek bir 'kesin gün' YOK, süreç ~6 haftaya yayılıyor. §4'ün kuralı gereği (künyenin f:/t: günü bir KAYNAK DEĞİLDİR ama BURADA TERSİ: benim kaynağım künyeden DAHA hassas görünüyor ama KENDİ İÇİNDE tutarsız) daha hassas ama çelişik bir gün UYDURMAK yerine künyenin kendi t: günü (1924-01-01, TDV'nin yalnız yıl vermesinin YYYY-01-01 karşılığı) DEVRALINDI — 5 Eylül 2026 `KRONOLOJİ BOŞ KÜNYE` emsaliyle aynı karar: 'kaba tarih yazılmaz, künyenin günü devralınır, künyenin gününün de kaynaksız olduğu bildirilir.'", kaynak:"harizm (TDV — CANLI, yalnız yıl) + soviethistory.msu.edu (Michigan State, süreç kararları ama TEK gün vermiyor) — KITA 3'ün DALGA2 görevi TAMAMLANDIKTAN SONRA, KITA 1'in PAKET-T künye penceresini 1924-01-01'e çekmesi (M-3544) üzerine EK olarak yazıldı" }
+{ t:"1924-01-01", tur:"kayip", etiket:["idari","toprak-kayip","hanedan-degisimi","konu-askeri","konu-idari","konu-hanedan"], b:"Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayla sona ermesi — Özbekistan/Türkmenistan SSC'lerinin kuruluşu", kapsam_genis:true, gun:"1924 (kaynaklar farklı günler verir)", ic_not_gun:"gün KAYNAKLAR ARASINDA ÇELİŞİYOR — künyenin kendi f:/t: günü DEVRALINDI, bkz. not", yer:"Hive, Buhara, Taşkent", kisiler:"Feyzullah Hocayev", d:"Sovyet 'millî sınırlandırma' (natsionalno-territorialnoe razmezhevanie) kararıyla Hârizm Sovyet Sosyalist Cumhuriyeti ile Buhara Halk Sovyet Cumhuriyeti ilga edildi; toprakları yeni kurulan Özbekistan ve Türkmenistan Sovyet Sosyalist Cumhuriyetleri arasında paylaştırıldı (Hîve'nin doğusu Özbekistan'a, batısı Türkmenistan'a). TDV'nin `harizm` maddesi: '1924'te Hîve Hanlığı'nın doğu kesimleri Özbekistan SSC'ye, batı tarafı da Türkmenistan SSC'ye bırakıldı' — yalnız YIL veriyor.", ic_not_d:"⚠️ KAYNAK ÇELİŞKİSİ BİLDİRİLİYOR, ÇÖZÜLMEDİ: akademik kaynaklar sürecin BİRDEN FAZLA kararla ilerlediğini gösteriyor — Türkistan MİK'in 16 Eylül 1924 kararı, Buhara/Hârizm kurultaylarının Eylül-Ekim 1924 toplantıları, SSCB Merkezî Yürütme Kurulu'nun 14 Ekim 1924 kararı, ve cumhuriyetlerin fiilen SSCB'ye 27 Ekim 1924'te birer birlik cumhuriyeti olarak katılıp aynı anda ilga edilmesi — tek bir 'kesin gün' YOK, süreç ~6 haftaya yayılıyor. §4'ün kuralı gereği (künyenin f:/t: günü bir KAYNAK DEĞİLDİR ama BURADA TERSİ: benim kaynağım künyeden DAHA hassas görünüyor ama KENDİ İÇİNDE tutarsız) daha hassas ama çelişik bir gün UYDURMAK yerine künyenin kendi t: günü (1924-01-01, TDV'nin yalnız yıl vermesinin YYYY-01-01 karşılığı) DEVRALINDI — 5 Eylül 2026 `KRONOLOJİ BOŞ KÜNYE` emsaliyle aynı karar: 'kaba tarih yazılmaz, künyenin günü devralınır, künyenin gününün de kaynaksız olduğu bildirilir.'", kaynak:"harizm (TDV — CANLI, yalnız yıl) + soviethistory.msu.edu (Michigan State, süreç kararları ama TEK gün vermiyor) — KITA 3'ün DALGA2 görevi TAMAMLANDIKTAN SONRA, KITA 1'in PAKET-T künye penceresini 1924-01-01'e çekmesi (M-3544) üzerine EK olarak yazıldı" }
 
 ];

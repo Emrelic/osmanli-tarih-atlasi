@@ -59,7 +59,7 @@ window.OLAYLAR_EK12 = [
 //   kırılma üretmez). 1560-01-01 ve 1560-03-12'nin ±30 gün penceresinde
 //   kırılma YOK (ARAC-KITA14-PENCERE-0913.py ile ölçüldü) — taşıma hiçbir
 //   kırılmayı açmıyor, yanlışlıkla da kapatmıyor.
-{ t:"1560-03-12", k:"savas", etiket:["savas"],
+{ t:"1560-03-12", k:"savas", etiket:["savas","konu-askeri"],
   b:"Haçlı donanması Cerbe'yi işgal etti — Turgut Paşa'nın üssü elden çıktı",
   gun:"12 Mart 1560 (14 Cemâziyelâhir 967)", yer:"Cerbe (Djerba), Trablusgarp", yer_id:"Cerbe (Djerba)",
   kisiler:"Turgut Paşa, Piyâle Paşa",
@@ -74,7 +74,7 @@ window.OLAYLAR_EK12 = [
 // iki ayrı gün — atlas ikisini tek güne (14 Mayıs) bindirmişti.
 // ⇒ Bu madde bağlandıktan sonra Cerbe kaydının `d:` başlangıcı
 //   1560-05-14'ten 1560-07-30'a çekilebilir; kırılma bu maddeye basar.
-{ t:"1560-07-30", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1560-07-30", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Cerbe kalesinin düşüşü — adanın Osmanlı idaresine geçişi",
   gun:"30 Temmuz 1560", yer:"Cerbe (Djerba)", yer_id:"Cerbe (Djerba)",
   kisiler:"Piyâle Paşa, Turgut Paşa",

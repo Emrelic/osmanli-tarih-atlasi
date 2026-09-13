@@ -30,7 +30,7 @@
 window.OLAYLAR_P0043B = [
 
 { t:"1514-03-20", b:"Yavuz Sultan Selim, Çaldıran Seferi için Edirne'den yola çıktı",
-  tur:"savas", k:"askeri", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas"],
+  tur:"savas", k:"askeri", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","konu-askeri"],
   gun:"23 Muharrem 920 (20 Mart 1514)", yer:"Edirne", yer_id:"Edirne",
   kisiler:"Yavuz Sultan Selim",
   d:"Manisa'daki oğlu Şehzade Süleyman'ı İstanbul'a vekil bırakan Yavuz Sultan Selim, Safevî Devleti üzerine düzenlediği seferi için Edirne'den yola çıktı. Ordu Anadolu'yu Sivas-Erzincan-Erzurum hattından geçip Ağustos ayı sonunda Çaldıran'da Şah İsmail'in kuvvetleriyle karşılaşacaktı.",

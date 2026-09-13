@@ -1955,6 +1955,21 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 /* 13 Eylül 2026 — 0042/H-0003: konu kutucuklarından AYRI bir eksen (VE bağlı),
    o yüzden çizgiyle ayrılıyor. */
 .suzgec-govde label.suzgec-toprak { margin-top: 4px; padding-top: 5px; border-top: 1px solid #d8c9a3; font-weight: 600; }
+/* 13 Eylül 2026 — PAKET-ETIKET-UYGULA: Emre'nin 26 konu başlığı + afet alt türleri.
+   Gövde 7+1'den ~40 satıra çıktı → yükseklik sınırı ve kendi kaydırması. */
+#konu-suzgec .suzgec-govde { max-height: 70vh; overflow-y: auto; min-width: 250px; }
+.suzgec-alt-baslik {
+  display: flex; align-items: center; gap: 6px;
+  margin-top: 6px; padding-top: 5px; border-top: 1px solid #d8c9a3;
+  font: 600 11px/1.2 system-ui, sans-serif; color: #4d3a20; text-transform: uppercase; letter-spacing: .03em;
+}
+.suzgec-temizle {
+  margin-left: auto; cursor: pointer; font: 11px system-ui, sans-serif; text-transform: none;
+  background: none; border: 1px solid #d8c9a3; border-radius: 3px; padding: 0 5px; color: #4d3a20;
+}
+.suzgec-govde label.suzgec-afet { font-weight: 600; }
+.suzgec-govde label.suzgec-afet-alt { padding-left: 16px; font-size: 11px; }
+.suzgec-govde label.suzgec-sifir { opacity: .45; }
 
 /* Süzülen kronoloji satırı GİZLENİR, silinmez — indeksler korunuyor. */
 .olay.suzuldu { display: none; }

@@ -32,7 +32,7 @@
 //
 window.OLAYLAR_P0043KIRIM = [
 
-{ t:"1526-01-01", k:"kazanc", etiket:["toprak-kazanc"],
+{ t:"1526-01-01", k:"kazanc", etiket:["toprak-kazanc","konu-askeri"],
   b:"Kızıkermen (Gazi Kerman) ve Dinyeper'in sağ kıyısının doğrudan Osmanlı denetimine girmesi",
   gun:"1526", ic_not_gun:"(IEU: yalnız yıl, gün yok)",
   yer:"Kızıkermen, Dinyeper ağzı", yer_id:"Kızıkermen (Gazi Kerman)",
@@ -41,7 +41,7 @@ window.OLAYLAR_P0043KIRIM = [
   kaynak:"bulunamadı — TDV'de müstakil madde YOK (kizikermen/gazikerman/gazi-kerman 302, kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\": \"in 1526 assumed direct control of the right bank with Kazi-Kermen as its northern outpost.\" (alıntı yerleşim kaydından AYNEN taşındı, data/yerlesimler_ok106.js:167)",
   duygu:["🎉"] },
 
-{ t:"1791-07-26", k:"kayip", etiket:["toprak-kayip","savas"],
+{ t:"1791-07-26", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Anapa'nın Ruslar tarafından işgali (üçüncü kuşatma)",
   gun:"26 Temmuz 1791",
   yer:"Anapa, Kuban kıyısı", yer_id:"Anapa",
@@ -50,7 +50,7 @@ window.OLAYLAR_P0043KIRIM = [
   kaynak:"TDV `anapa` (200, gövdesi okundu): \"Savaş süresince Ruslar tarafından üç defa kuşatılan Anapa üçüncü kuşatma sonunda 26 Temmuz 1791'de işgal edildi\" · \"[Yaş Antlaşması ile] Kafkasya'da eski sınırlar kabul edildiğinden Osmanlı Devleti'ne geri verildi.\" (alıntı denetim/ARASTIRMA-KIRIM-0912.md'den AYNEN taşındı, D104)",
   duygu:["😔"] },
 
-{ t:"1828-06-24", k:"kayip", etiket:["toprak-kayip","savas"],
+{ t:"1828-06-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Anapa'nın Osman Paşa tarafından Ruslara teslimi",
   gun:"24 Haziran 1828",
   yer:"Anapa, Kuban kıyısı", yer_id:"Anapa",

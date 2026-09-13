@@ -10,7 +10,7 @@
 // ============================================================================
 window.OLAYLAR_EK16 = [
 
-{ t:"1297-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1297-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Karesi ve Hamîdoğulları beyliklerinin kuruluşu",
   gun:"696 (1296-97) / 1297", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Balıkesir, Bergama, Edremit, Erdek, Biga, Çanakkale, Ayvalık, Karabiga, Isparta, Burdur, Eğirdir, Uluborlu, Yalvaç, Akşehir",
@@ -18,7 +18,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Karesioğulları maddesine göre Karesi Bey, babası Kalem Bey'in ölümüyle çözülen Selçuklu uç teşkilatında bağımsızlığını ilân ederek 696'dan (1296-97) itibaren Balıkesir'i merkez edindi ve kısa sürede Erdek, Biga, Edremit, Bergama dahil Mysia'nın tamamını Bizans'tan aldı. Aynı yıl (1297) Hamîd Bey, Uluborlu'yu hükûmet merkezi yaparak Hamîdoğulları Beyliği'ni kurdu; Isparta, Burdur, Eğirdir ve Yalvaç, çözülen Selçuklu uç bölgesinden beyliğin ilk sınırlarına katıldı. İki beylik de Batı Anadolu'da aynı çöküşün — Selçuklu merkezî otoritesinin dağılmasının — ürünüdür.",
   kaynak:"karesiogullari", duygu:["👑","⚔️"] },
 
-{ t:"1308-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1308-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Aydınoğulları Beyliği'nin kuruluşu — İzmir, Ayasuluk, Tire'nin alınışı",
   gun:"1308", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Aydın, Ayasuluk (Selçuk), Tire, Birgi, Kuşadası, Söke",
@@ -26,7 +26,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Aydınoğulları maddesine göre Mübârizüddin Gazi Mehmed Bey, Germiyanoğulları uç beyi Sâsâ Bey'den bu bölgeyi alarak 1308'de Aydın-ili'nde hâkim oldu; İzmir'in Müslüman kesimini Ayasuluk (Selçuk), Tire ve Bodemya ile birlikte fethetti. Ayasuluk'u donanma üssü yaptı ve ele geçirdiği toprakları beş oğlu arasında paylaştırdı — beylik sonraki on yıllarda özellikle oğlu Umur Bey döneminde Ege denizciliğinde belirleyici güç hâline gelecektir.",
   kaynak:"aydinogullari", duygu:["👑","⚓"] },
 
-{ t:"1308-01-01", k:"siyaset", etiket:["siyaset"],
+{ t:"1308-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Anadolu Selçuklu Devleti'nin fiilen sona ermesi — İlhanlı'nın doğrudan idaresi",
   gun:"708 (1308)", ic_not_gun:"TDV gün vermez, yalnız yıl ve şehir (Kayseri) verir",
   yer:"Konya, Niğde, Aksaray, Bartın, Eflani, Safranbolu",
@@ -34,7 +34,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Mesud II maddesine göre uzun bir hastalığın ardından 708'de (1308) Kayseri'de ölen II. Gıyâseddin Mesud, genel kabul gören görüşe göre Anadolu Selçuklu Devleti'nin son hükümdarıdır — ölümünden sonra tahta çıkarılan adaylar ne iç makamların ne de İlhanlı'nın tanımasını görebildi. Bölge zaten Mesud'un saltanatı boyunca fiilen İlhanlı memurlarınca yönetiliyordu; onun ölümüyle bu doğrudan idare Konya, Niğde ve Aksaray gibi merkezlerde biçimsel örtüsünü de kaybetti.", ic_not_d:"⚠️ TDV, İlhanlı'nın doğrudan idaresinin tam olarak hangi güne başladığını yazmaz; harita bu belirsizliği devletin fiilen sona erdiği 1308 yılına bağlıyor.",
   kaynak:"mesud-ii", duygu:["😔","👑"] },
 
-{ t:"1309-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1309-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Candaroğulları Beyliği'nin Kastamonu-Çankırı-Bartın-Safranbolu'ya yayılması",
   gun:"XIV. yüzyıl başı — TDV tam tarih vermez",
   yer:"Kastamonu, Çankırı, Bartın, Safranbolu, Eflani, Bolu, Akçakoca, Devrek, Konurapa (Düzce), Mudurnu, Karadeniz Ereğli",
@@ -42,7 +42,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Candaroğulları maddesine göre beylik, İlhanlı Hükümdarı Geyhatu'nun Eflani ve çevresini kendisine iktâ olarak verdiği Şemseddin Yaman Candar tarafından XIV. yüzyıl başında Kastamonu-Sinop çevresinde kuruldu; kaynakların yetersizliği yüzünden kuruluşun tam tarihi bilinmemektedir. Candar'ın halefi Süleyman Bey, Çobanoğulları Beyliği'nin yerini alan bir hükümdar olarak anılır — yani Kastamonu ve Çankırı çevresi Çobanoğulları'ndan, Bartın-Safranbolu-Eflani hattı ise İlhanlı doğrudan idaresinden Candaroğulları'na geçmiştir.", ic_not_d:"⚠️ Gün/ay bilinmiyor; 1309-01-01 yıl beyanıdır.",
   kaynak:"candarogullari", duygu:["👑"] },
 
-{ t:"1310-08-15", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1310-08-15", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyelerince fethi",
   gun:"15 Ağustos 1310",
   yer:"Rodos, İstanköy, Sömbeki (Simi), Lindos, Herke (Halki), Kelemez (Kalimnos), İleryoz (Leros), İlyaki (Tilos), İncirli (Nisiros)",
@@ -50,7 +50,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Rodos maddesi adanın 1309'da St. Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçtiğini kaydeder; standart Hospitalier tarihi (bk. J. Riley-Smith, The Knights Hospitaller) kuşatmanın 1306 yazında başladığını, Bizans takviyeleriyle uzun süre direnen Rodos şehrinin ise Grand Master Foulques de Villaret'nin kuvvetlerince ancak 15 Ağustos 1310'da düştüğünü ayrıntılandırır. Ada bu tarihten 1522'de Osmanlı fethine kadar şövalyelerin merkezi olacak, çevresindeki Oniki Ada da aynı süreçte Bizans'tan Hospitalier hâkimiyetine geçmiştir.", ic_not_d:"⚠️ TDV yıl (1309) verir; günü akademik kaynağa dayanır.",
   kaynak:"rodos", duygu:["⚔️","🏰"] },
 
-{ t:"1335-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1335-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Eretna Beyliği'nin kuruluşu — İlhanlı sonrası Orta Anadolu",
   gun:"1335", ic_not_gun:"1335 (yıl biliniyor, gün bilinmiyor)",
   yer:"Sivas, Kayseri, Amasya, Tokat, Niksar, Çorum, Samsun, Kırşehir, Terme, Ladik (Amasya), Merzifon, Osmancık, Çarşamba",
@@ -58,7 +58,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Eretnaoğulları maddesine göre Uygur asıllı bir İlhanlı memuru olan Alâeddin Eretna, İlhanlı hükümdarı Ebû Said Bahadır Han'ın 1335'teki ölümünün ardından Anadolu'daki İlhanlı naibliğini fiilen bağımsız bir yönetime dönüştürdü; önce Memlük sultanının nâibi sıfatıyla görünüp 1340'ta hutbeden Memlük adını çıkardı ve 1341 civarında tam bağımsızlığını ilân etti. Merkezi önce Sivas, sonra Kayseri olan beylik, ölümüne (1352) kadar Amasya, Tokat, Çorum, Niğde, Aksaray ve Erzincan'ı kapsayan geniş bir Orta Anadolu hâkimiyeti kurdu ve 1381'de Kadı Burhâneddin tarafından sona erdirildi.", ic_not_d:"⚠️ TDV, Eretna'nın bağımsızlaşmasını kademeli anlatır (1335 fiilî hâkimiyet, 1341 resmî bağımsızlık); harita 1335'i esas alıyor çünkü o yıl İlhanlı merkezî otoritesi zaten çökmüştü.",
   kaynak:"eretnaogullari", duygu:["👑"] },
 
-{ t:"1340-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1340-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Celayirli Devleti'nin kuruluşu — İlhanlı sonrası Azerbaycan",
   gun:"1340", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Tebriz, Merağa, Erdebil, Nahçıvan, Hoy, Urmiye, Selmâs (Dilman), Sultâniye, Şuşa, Culfa, Merend",
@@ -66,7 +66,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Celâyirliler maddesine göre İlhanlı emîri Noyan'ın torunu Hasan-ı Büzürg, İlhanlı hükümdarı Ebû Said Bahadır Han'ın ölümüyle patlak veren taht kavgalarından yararlanarak 1340'ta Tebriz merkezli bağımsız bir devlet kurdu. Celayirliler böylece Azerbaycan ve çevresinde İlhanlı sonrası boşluğu dolduran ilk büyük hânedan oldu; halefi Üveys döneminde (1356-1374) toprakları Musul ve Diyarbekir'e kadar genişleyecektir.", ic_not_d:"⚠️ Aynı gün, İlhanlı çöküşünün başka bir ucunda Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; bu tekil kayıt için ayrı bir kaynak bulunamadı.",
   kaynak:"celayirliler", duygu:["👑"] },
 
-{ t:"1411-01-01", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1411-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Bağdat'ın Karakoyunlu eline geçişi — Celayirli Sultan Ahmed'in yenilgisi",
   gun:"814 (1411)", ic_not_gun:"TDV ay/gün vermez",
   yer:"Bağdat, Basra, Musul, Kerkük, Hille, Kerbelâ, Necef, Erbil, Süleymaniye çevresi",
@@ -74,7 +74,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Karakoyunlular maddesine göre Kara Yûsuf, 28 Rebîülâhir 813'te (30 Ağustos 1410) Tebriz yakınında Celayirli Sultan Ahmed'i ağır bir yenilgiye uğrattı; Sultan Ahmed'in ölümünün ardından 814'te (1411) oğlu Pîr Budak'ı Tebriz'de sultan ilân etti ve aynı yıl büyük oğlu Şah Mehmed Bağdat'ı fethetti. Böylece bir asra yakın Celayirli başkenti olan Bağdat, çevresindeki Basra-Musul-Kerkük hattıyla birlikte Karakoyunlu hâkimiyetine girdi.", ic_not_d:"⚠️ TDV ayın/günün tam tarihini vermiyor; şehir sonradan (1446'da Cihan Şah'ın altı aylık kuşatmasıyla) bir kez daha el değiştirecektir — o ikinci olay bu kırılmanın konusu değildir.",
   kaynak:"karakoyunlular", duygu:["⚔️","👑"] },
 
-{ t:"1438-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1438-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Kazan Hanlığı'nın kuruluşu — Uluğ Muhammed Han'ın Altınorda'dan ayrılışı",
   gun:"1437-1438 (TDV iki yıl arası bir süreç olarak verir)",
   yer:"Kazan, Sviyajsk, Çeboksarı, Çistopol, Yelabuga, Malmıj, Sarapul, Tetyuşi, Buğulma, Alatır, Birsk, Buinsk",
@@ -82,7 +82,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Kazan Hanlığı maddesine göre Altınorda başşehri Saray'da tahtını kaybeden Uluğ Muhammed Han, ailesi ve yaklaşık 3000 askeriyle önce Belev'e çekildi, 1437-1438'de Rus Knezi II. Vasili ile mücadele etti ve ardından Kazan şehrine yerleşti; yerel halkın desteğiyle burada yeni bir hanlığın temellerini attı. TDV, kuruluş sürecinin 1437-1445 arasında tamamlandığını ve hanlığın 1445'ten itibaren tam bağımsız statü kazandığını belirtir — harita bu sürecin başlangıcını, Uluğ Muhammed'in Kazan'a yerleştiği 1438 yılını esas alıyor.",
   kaynak:"kazan-hanligi", duygu:["👑"] },
 
-{ t:"1441-01-01", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1441-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Kırım Hanlığı'nın kuruluşu — Hacı Giray'ın Altınorda'dan bağımsızlaşması",
   gun:"845 (1441-42) — TDV'ye göre en eski Hacı Giray parası bu tarihi taşır",
   yer:"Akmescid, Bahçesaray, Eski Kırım (Solhat), Gözleve (Kezlev), Karasubazar, Or Kapı (Ferahkirman), Kefe çevresi, Kabartay (Nalçik), Kuban (Yekaterinodar), Taganrog",
@@ -90,7 +90,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Kırım maddesine göre Kırım Hanlığı, XIV. yüzyılın ikinci yarısında Altın Orda'nın taht kavgalarıyla parçalanmasının ürünü olarak ortaya çıktı; hanlığın gerçek kurucusu Hacı Giray'ın bastırdığı en eski para 845 (1441-42) tarihini taşır ve bu, hanlığın resmî kuruluş tarihi sayılır. Aynı yıl Hacı Giray, Kırım'daki konumunu Moskova ile dostluk kurarak pekiştirdi ve Şirin kabilesi başta olmak üzere yerel bey aileleri onun safına katıldı.", ic_not_d:"⚠️ TDV, bozkırın doğusundaki Nogaylar'ı ayrı bir hanlık olarak değil Altınorda'nın çöküşünden sonra dağılan göçebe bir unsur olarak tanımlıyor; bu maddenin konusu yalnız Kırım'ın bağımsızlaşmasıdır, Nogay bozkırındaki eşzamanlı kırılma için ayrı kaynak gerekiyor (bk. aşağıdaki not).",
   kaynak:"kirim", duygu:["👑"] },
 
-{ t:"1452-01-01", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1452-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Karakoyunlu Cihan Şah'ın Timurlu İran'ını (Rey, İsfahan, Fars, Kirman) ele geçirmesi",
   gun:"856-857 (1452-1453)", ic_not_gun:"TDV yıl aralığı verir, gün vermez",
   yer:"Kirman, Yezd, Şiraz, Kâşân, Kâzerûn, Firûzâbâd, Lâr, Buşehr, Bender Abbas (Gamrûn), Sircân, Bem, Dârâb, Sâve, Nâin, Erâk (Sultânâbâd)",
@@ -98,7 +98,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Karakoyunlular maddesine göre Karakoyunlu hükümdarı Cihan Şah, Timurlu şehzadeleri arasındaki taht mücadelelerinden yararlanarak 856-857 (1452-1453) yıllarında Rey, İsfahan, Fars ve Kirman vilâyetlerini idaresi altına aldı; bu, Şâhruh Mirza'nın 1447'deki ölümünden sonra başlayan ve Sultâniye-Kazvin'in ilhakıyla açılan genişleme sürecinin doruk noktasıdır. Timurlu'nun güney-orta İran'daki toprakları böylece Karakoyunlu'ya geçti; Cihan Şah'ın hâkimiyeti 1466'da Azerbaycan, Arrân, Irâk-ı Acem, Irâk-ı Arab, Fars, Kirman ve Doğu Anadolu'yu kapsayacak genişliğe ulaşacaktır.",
   kaynak:"karakoyunlular", duygu:["⚔️","👑"] },
 
-{ t:"1537-01-01", k:"siyaset", etiket:["siyaset"],
+{ t:"1537-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-idari"],
   b:"Norveç'in Danimarka tacına bağlı bir eyalete indirgenmesi",
   gun:"1536 tüzüğü, 1537'de yürürlüğe girdi",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Akureyri, Reykjavík",
@@ -106,7 +106,7 @@ window.OLAYLAR_EK16 = [
   d:"Danimarka Kralı III. Christian, 1536'daki taç giyme tüzüğünde (håndfæstning) Norveç'in artık ayrı bir krallık sayılmayacağını, Danimarka'nın bir eyaleti olarak yönetileceğini ve Norveç Devlet Konseyi'nin (riksråd) lağvedildiğini ilân etti; bu karar 1537'de Danimarka Kilise Nizamnâmesi'nin Norveç'e de uygulanmasıyla fiilî hâle geldi ve İskoç-Norveç piskoposu Olav Engelbriktsson'un direnişi kırıldı. Norveç pratikte kendi yasalarını ve kurumlarını bir süre daha korusa da, siyasî statüsü artık bağımsız bir krallık değil Danimarka tacına bağlı bir eyaletti — bu durum 1814'e kadar sürecektir.", ic_not_d:"⚠️ Bu olayın TDV'de karşılığı yoktur (İskandinavya, TDV'nin coğrafî kapsamı dışındadır); dayanak standart akademik kaynaktır (Britannica, 'Kalmar Union'; Danimarka Ulusal Tarih Merkezi, 'Reformation and Power, 1523-1660').",
   kaynak:"bulunamadı", duygu:["😔","👑"] },
 
-{ t:"1797-10-17", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
+{ t:"1797-10-17", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
   gun:"17 Ekim 1797",
   yer:"Split (Spalato), Zadar (Zara), Şibenik (Sebenico), Dubrovnik çevresi, Kotor (Cattaro), Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), Preveze, Parga",
@@ -114,7 +114,7 @@ window.OLAYLAR_EK16 = [
   d:"Napolyon Bonapart ile Avusturya temsilcisi Kont Cobenzl arasında 17 Ekim 1797'de imzalanan Campo Formio Antlaşması, bin yıllık Venedik Cumhuriyeti'ni resmen ortadan kaldırdı ve topraklarını paylaştırdı: Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya bırakıldı, Oniki Ada ve İyon Adaları (Korfu, Kefalonya, Zakynthos, Lefkada, Preveze ve Parga dahil Venedik'in Arnavutluk-Mora kıyısındaki üsleri) ise Fransa'ya geçti. Avusturya ayrıca Alçak Ülkeler'deki (bugünkü Belçika) topraklarını Fransa'ya bıraktı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Campo Formio').",
   kaynak:"bulunamadı", duygu:["⚔️","😔"] },
 
-{ t:"1809-09-17", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1809-09-17", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
   gun:"17 Eylül 1809",
   yer:"Helsinki, Turku (Åbo), Tampere, Oulu, Kuopio, Vaasa, Mikkeli, Hämeenlinna, Pori, Jyväskylä",
@@ -122,7 +122,7 @@ window.OLAYLAR_EK16 = [
   d:"1808-1809 Rus-İsveç Savaşı'nı sona erdiren Fredrikshamn (bugünkü Hamina) Antlaşması 17 Eylül 1809'da imzalandı; İsveç, Åland Adaları dahil bütün Finlandiya'yı Rusya'ya bıraktı. Finlandiya, Rus İmparatorluğu'na bağlı geniş özerkliğe sahip bir Büyük Dükalık statüsüne kavuştu ve Luteran inancıyla İsveç hukukunu korudu. Bu, İsveç'in Baltık'taki büyük güç statüsünün fiilen sona ermesi anlamına geliyordu.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Hamina').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
-{ t:"1814-01-14", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
+{ t:"1814-01-14", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
   gun:"14 Ocak 1814",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Kristiansand, Haugesund, Lillehammer, Skien, Sogndal, Tønsberg, Mosjøen, Røros",
@@ -130,7 +130,7 @@ window.OLAYLAR_EK16 = [
   d:"Napolyon'un Leipzig'de yenilgisinin ardından Danimarka'ya güneyden saldıran İsveç, 14 Ocak 1814'te imzalanan Kiel Antlaşması ile Norveç'i (İzlanda, Faroe Adaları ve Grönland hariç) devraldı — 1380'den beri süren Danimarka-Norveç birliği böylece resmen sona erdi. Karşılığında İsveç, Pomeranya'daki topraklarını Danimarka'ya bıraktı; Danimarka ayrıca Helgoland'ı İngiltere'ye devretti. Norveç antlaşmaya silahla direnip kendi anayasasını ilân etti ve İsveç bunu tanımak zorunda kaldı — sonuç, 1905'e kadar sürecek bir kişisel birlik (real union) oldu.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Kiel').",
   kaynak:"bulunamadı", duygu:["😔","👑"] },
 
-{ t:"1861-02-13", k:"kayip", etiket:["toprak-kayip"],
+{ t:"1861-02-13", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü",
   gun:"13 Şubat 1861",
   yer:"Napoli, Bari, Brindisi, Lecce, Foggia, Taranto, Reggio Calabria, Katanya (Catania), Palermo, Messina, Cosenza, L'Aquila, Sirakuza",
@@ -138,7 +138,7 @@ window.OLAYLAR_EK16 = [
   d:"Garibaldi'nin Mayıs 1860'ta Sicilya'ya çıkışıyla başlayan çöküşün ardından Napoli'den kaçan Bourbon kralı II. Francesco, son kalesi Gaeta'da 3 Kasım 1860'tan itibaren kuşatıldı; Fransız donanmasının Ocak 1861'de bölgeden çekilmesiyle İtalyan deniz ablukası sıkılaştı ve 13 Şubat 1861'de Gaeta teslim oldu. II. Francesco tahtını terk edip sürgüne gitti; İki Sicilya Krallığı'nın son direniş noktası Civitella del Tronto ancak 20 Mart 1861'de düşecektir.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, İtalyan Birliği/Risorgimento kronolojisi).",
   kaynak:"bulunamadı", duygu:["😔","⚔️"] },
 
-{ t:"1861-03-17", k:"kurulus", etiket:["siyaset"],
+{ t:"1861-03-17", k:"kurulus", etiket:["siyaset","konu-siyasi"],
   b:"İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtalya'nın birleşmesi",
   gun:"17 Mart 1861",
   yer:"Torino, Milano, Cenova, Floransa, Pisa, Siena, Elba, Bolonya, Ferrara, Ancona, Bergamo, Brescia, Kalyari (Cagliari), Sasari (Sassari)",
@@ -146,7 +146,7 @@ window.OLAYLAR_EK16 = [
   d:"İtalyan parlamentosunun Torino'da yaptığı ilk oturumda 17 Mart 1861'de İtalya Krallığı resmen ilân edildi ve Sardinya-Piyemonte kralı II. Vittorio Emanuele, birleşik İtalya'nın ilk kralı oldu. Yeni krallık, önceki yıl halk oylamalarıyla katılan Toskana, Emilia-Romagna, Napoli ve Sicilya (İki Sicilya) topraklarını Sardinya Krallığı ile birleştiriyordu; Roma (Papalık Devleti) ve Venedik (Avusturya) henüz dışarıda kalıyordu — onlar sırasıyla 1870 ve 1866'da katılacaktır.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Proclamation of the Kingdom of Italy').",
   kaynak:"bulunamadı", duygu:["🎉","👑"] },
 
-{ t:"1905-06-07", k:"siyaset", etiket:["siyaset"],
+{ t:"1905-06-07", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Norveç-İsveç Birliği'nin feshi — Storting'in tek taraflı bağımsızlık ilânı",
   gun:"7 Haziran 1905",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Kristiansand, Haugesund, Lillehammer, Skien, Sogndal, Tønsberg, Mosjøen, Røros",
@@ -154,7 +154,7 @@ window.OLAYLAR_EK16 = [
   d:"Norveç hükûmetinin ayrı konsolosluk kurma talebini Kral II. Oscar'ın veto etmesi ve yeni bir hükûmet kuramayacağını açıklaması üzerine, Norveç Storting'i (parlamentosu) 7 Haziran 1905'te oybirliğiyle Kral'ın artık fiilen Norveç kralı olarak görev yapmadığına ve 1814 Kiel Antlaşması'ndan beri süren birliğin feshedildiğine karar verdi. 13 Ağustos 1905'teki halk oylamasında seçmenlerin neredeyse tamamı (371.000'e karşı 184 oy) feshi onayladı; İsveç, Karlstad görüşmelerinin ardından 26 Ekim 1905'te bağımsızlığı resmen tanıdı.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Norway: The union conflict, 1859-1905').",
   kaynak:"bulunamadı", duygu:["🎉","👑"] },
 
-{ t:"1516-01-23", k:"siyaset", etiket:["siyaset"],
+{ t:"1516-01-23", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
   b:"Alçak Ülkeler'in İspanya tacına bağlanması — Ferdinand'ın ölümü, Şarlken'in tahta çıkışı",
   gun:"23 Ocak 1516",
   yer:"Brüksel, Gent, Anvers (Antwerpen), Brüj (Brugge), Amsterdam, Rotterdam, Utrecht, Groningen, Leeuwarden, Maastricht, Nijmegen, Mons, Namur, Arras, Lille, Ypres, Lüksemburg, Besançon, Middelburg",
@@ -162,7 +162,7 @@ window.OLAYLAR_EK16 = [
   d:"Aragon Kralı II. Ferdinand'ın 23 Ocak 1516'da ölümüyle, 1506'dan beri Burgonya Dükü sıfatıyla Alçak Ülkeler'i (bugünkü Belçika-Hollanda-Lüksemburg ve kuzey Fransa'nın bir kısmı) zaten yöneten torunu Şarlken, Kastilya ve Aragon tahtlarının da mirasçısı oldu ve 14 Mart 1516'da Brüksel'de İspanya kralı ilân edildi. Böylece bu topraklar, kişisel birlik yoluyla Habsburg hânedanının Almanya/Avusturya koluna değil doğrudan İspanya tacına bağlı sayılmaya başladı — 1519'da Şarlken'in Kutsal Roma İmparatoru seçilmesiyle bu iki kimlik (İspanya kralı ve Alman-Roma imparatoru) aynı kişide birleşecek, bölgenin İspanya'ya bağlılığı ise 1556'da Şarlken'in tahttan çekilip mirasını oğlu II. Filip'e bırakmasına kadar sürecektir.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Charles V, Holy Roman Emperor').",
   kaynak:"bulunamadı", duygu:["👑"] },
 
-{ t:"1772-08-05", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
+{ t:"1772-08-05", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
   gun:"5 Ağustos 1772",
   yer:"Daugavpils (Dünaburg), Polotsk, Vitebsk, Lvov, Yazlofça (Yazlovets)",
@@ -170,7 +170,7 @@ window.OLAYLAR_EK16 = [
   d:"Rusya, Prusya ve Avusturya arasında 5 Ağustos 1772'de imzalanan antlaşmayla Polonya-Litvanya Devletler Birliği topraklarının yaklaşık üçte biri paylaşıldı: Rusya bugünkü Belarus ve Letonya'nın bir kısmını (Dünaburg, Polotsk, Vitebsk dahil) aldı, Avusturya ise Galiçya'yı (Lvov ve batı Podolya, Yazlovets dahil) ilhak etti; Prusya kıyı bölgesi Kraliyet Prusyası'nı devraldı. Polonya Seymi antlaşmayı ancak 30 Eylül 1773'te, baskı altında onayladı. Bu, 1795'e kadar sürecek üç paylaşımın ilkiydi.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
-{ t:"1793-01-23", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
+{ t:"1793-01-23", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
   gun:"23 Ocak 1793",
   yer:"Bar (Podolya), Kamaniçe, Meciboj (Mejibuji), Minsk, Çehrin (Çigirin), Gdansk, Poznan",
@@ -178,7 +178,7 @@ window.OLAYLAR_EK16 = [
   d:"1791 anayasa reformlarının Rusya ve Prusya'yı tedirgin etmesi üzerine, iki devlet 23 Ocak 1793'te St. Petersburg'da imzaladıkları antlaşmayla Polonya'yı yeniden paylaştı: Rusya Litvanya-Belarus'un büyük bölümünü ve batı Ukrayna'yı (Kamaniçe, Bar, Minsk dahil) aldı, Prusya ise Gdansk ve Poznan'ı içeren Büyük Polonya'yı ilhak etti — toplam 307.000 km². Baskı altındaki Polonya Seymi antlaşmayı aynı yıl onaylamak zorunda kaldı; bu, Polonya'nın tam ilhakını iki yıl erteleyen kısa ömürlü bir paylaşımdı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
-{ t:"1795-10-24", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
+{ t:"1795-10-24", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması",
   gun:"24 Ekim 1795",
   yer:"Kaunas, Krakov, Varşova, Vilnius, Šiauliai",
@@ -186,7 +186,7 @@ window.OLAYLAR_EK16 = [
   d:"Rusya, Prusya ve Avusturya, 24 Ekim 1795'te St. Petersburg'da imzaladıkları üçlü sözleşmeyle Polonya-Litvanya Devletler Birliği'nin kalan topraklarını tamamen paylaştılar: Rusya Litvanya (Vilnius, Kaunas dahil) ve Belarus'un kalanını aldı, Prusya Varşova dahil orta Polonya'yı, Avusturya ise Krakov dahil güney bölgeyi ilhak etti. Üç devlet ayrıca birbirlerinin yeni topraklarını askerî olarak garanti altına aldı ve Polonya'nın yeniden kurulması ihtimaline karşı önlem aldı. Bu, Polonya-Litvanya devletinin bağımsız bir ülke olarak tamamen ortadan kalkışıdır; XX. yüzyıla kadar yeniden kurulmayacaktır.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
-{ t:"1507-05-24", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1507-05-24", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Şeybânî Han'ın Herat'ı ve Horasan'ı Timurlulardan alışı",
   gun:"8 Muharrem 913 / 20 Mayıs 1507 (Herat'ın düşüşü) — 15 Muharrem/27 Mayıs (hutbenin Şeybânî adına okunuşu)",
   yer:"Meşhed, Nîşâbur, Sebzevâr, Serahs, Tûs, Merv (Mari), Nesâ, Ebîverd, Kelât-ı Nâdirî, Kûçân, Esferâyin, Bocnûrd, Kâin, Bîrcend, Turbet-i Haydariye, Turbet-i Câm, Turşiz (Kâşmer)",
@@ -194,7 +194,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Şeybânî Han maddesine göre Özbek hükümdarı Şeybânî Han, 1503-1505 arasında Endîcan, Fergana, Hisâr, Kunduz ve Belh'i aldıktan sonra 913'te (1507) Timurlu başkenti Herat'ı da zaptetti; Encyclopaedia Iranica'nın Horasan maddesi bu fethin tam tarihini verir — şehir 8 Muharrem 913'te (20 Mayıs 1507) düştü, bir hafta sonra 15 Muharrem'de (27 Mayıs) hutbe Şeybânî Han adına okunarak fetih resmîleşti. Meşhed dahil bütün Horasan aynı yıl içinde Timurlulardan Şeybânîler'e geçti; bu, Timurlu hânedanının Mâverâünnehir'den sonra İran'daki son büyük kalesini de kaybetmesi anlamına geliyordu.",
   kaynak:"seybani-han", duygu:["⚔️","👑"] },
 
-{ t:"1527-01-01", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1527-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Demak Sultanlığı'nın Majapahit'i yıkıp Cava kıyısına hâkim olması",
   gun:"1527", ic_not_gun:"TDV yıl verir, gün vermez (0035/H-0062, PAKET-A3: parantezli süreç notu okur alanından taşındı).",
   yer:"Surabaya, Blitar, Bojonegoro, Jepara, Kudus, Madiun, Malang, Pasuruan, Pekalongan, Ponorogo, Rembang, Sumenep (Madura), Tegal, Trowulan (Majapahit)",
@@ -202,7 +202,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Demak maddesine göre Cava'nın ilk bağımsız Müslüman devleti olan Demak Sultanlığı, XV. yüzyılın son çeyreğinde Raden Patah tarafından kuruldu; Cava kaynaklarına göre çökmekte olan Hindu-Budist Majapahit Krallığı, Demak'ın saldırılarıyla ortadan kalktı. 1527'de Demak, Çin kaynaklarının XI. yüzyıldan beri Majapahit hükümdarları için önemli bir liman olarak andığı Tuban'ı fethetti — bu, Majapahit'in son kalıntılarının da Demak'a bağlandığı yıldır ve Cava'nın büyük bölümünün İslâmlaşma sürecinin dönüm noktasıdır.", ic_not_d:"⚠️ TDV tam gün vermiyor; 1527-01-01 yıl beyanıdır.",
   kaynak:"demak", duygu:["⚔️","🕌"] },
 
-{ t:"1884-07-18", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1884-07-18", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı",
   gun:"14-21 Temmuz 1884 (Habar Avel kabilesiyle ilk antlaşma 14 Temmuz)",
   yer:"Berbera, Bulhar, Hargeysa, Burao, Erigavo, Borama, Lasanod, Odveyne, Buhodle, Ceel Afveyn, Hîs, Lâs Hore, Mayd, Taleh, Şeyh (Somaliland)",
@@ -210,7 +210,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Somali maddesine göre Zeyla, Berberâ ve Tâcûre 1884'te İngilizler tarafından Somaliland adıyla sömürgeleştirildi; standart akademik kaynağa göre bu süreç Berbera'da 21 Ramazan 1301'e (14 Temmuz 1884) rastlayan Habar Avel kabilesiyle imzalanan antlaşmayla başladı ve 1884-1886 arasında Gadabursi, Habar Tolcaala, Habar Gerhacis, İse ve Warsangeli kabileleriyle benzer antlaşmalar imzalanarak genişledi; İngiltere karşılığında askerî koruma vaat etti. Bu antlaşmalar zinciri 1887'de resmî Britanya Somaliland Himayesi'nin ilânına zemin hazırladı.", ic_not_d:"⚠️ TDV kesin gün vermiyor; tam tarih standart akademik kaynağa (antlaşma metinleri) dayanıyor.",
   kaynak:"somali", duygu:["😔"] },
 
-{ t:"1905-01-01", k:"siyaset", etiket:["toprak-kazanc"],
+{ t:"1905-01-01", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi",
   gun:"24 Ocak 1905",
   yer:"Mogadişu, Afgoye, Bardere, Baydoa, Beledveyne, Berâve, Bulo Burte, Cadale, Ceel Barde, Cilib, Diinsoor, Garbahârey, Hudur, Luuk, Merka, Vanlaveyn",
@@ -218,7 +218,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Somali maddesine göre İtalya, güney Somali kıyısındaki (Benâdir) hâkimiyetini 1889-1891'de Zengibar Sultanlığı ve İngiltere ile yaptığı anlaşmalarla kurmuş, yönetimini ise başlangıçta imtiyazlı bir ticaret şirketine (Benadir Company) bırakmıştı; standart akademik kaynağa göre bu şirketin imtiyazı 24 Ocak 1905'te sona erdi ve İtalyan devleti Benâdir kıyısının (Mogadişu, Merka, Baraave dahil) doğrudan egemenliğini satın alarak resmî sömürge yönetimini kurdu. Kolonin iç kesimlere (Bardera, Baydoa) doğru fiilî genişlemesi ise 1908 kuruluş kararnamesi ve sonraki yıllarda tamamlanacaktır.",
   kaynak:"somali", duygu:["😔"] },
 
-{ t:"1489-02-26", k:"antlasma", etiket:["toprak-kazanc"],
+{ t:"1489-02-26", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
   b:"Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — Haçlı devletinin sonu",
   gun:"26 Şubat 1489",
   yer:"Lefkoşa, Magosa, Girne, Baf, Limasol, Tuzla (Larnaka)",
@@ -226,7 +226,7 @@ window.OLAYLAR_EK16 = [
   d:"Kocası Kral II. Jacques'in 1473'te ölümünden sonra kraliçe naibi olarak Kıbrıs'ı yöneten Venedikli Katerina Cornaro, mirasçısı olmadığı için Venedik hükûmetinin baskısıyla 26 Şubat 1489'da tahttan çekilerek adadaki hükümdarlık haklarını doge'ye ve Venedik Cumhuriyeti'ne devretti; karşılığında kraliçe unvanını korudu ve Terraferma'da Asolo kontluğunu aldı. Bu devirle 1192'den beri süren Lüzinyan (Lusignan) hânedanı hâkimiyeti ve son Haçlı devleti sona erdi, ada 1570-71 Osmanlı fethine kadar Venedik idaresinde kaldı.",
   kaynak:"bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)", duygu:["😔"] },
 
-{ t:"1503-04-02", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1503-04-02", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
   gun:"25 Mart 1503 (Müjde/Annunciation mütarekesi)", ic_not_gun:"veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
   yer:"Kiev, Kursk, Nikarya (İkarya), Baturin, Hluhiv, Novgorod-Seversk, Orel, Poltava, Putivl, Çernigov",
@@ -234,7 +234,7 @@ window.OLAYLAR_EK16 = [
   d:"1500-1503 Moskova-Litvanya Savaşı, Macaristan-Bohemya kralı II. Ulászló'nun arabuluculuğuyla altı yıllık bir mütarekeyle sona erdi; Litvanya Büyük Knezliği, Çernigov-Seversk bölgesi (Çernigov, Novgorod-Seversk, Starodub, Bryansk çevresi) ile Smolensk ve Polotsk civarındaki bazı topraklar dahil, Büyük Knezliğin yaklaşık üçte birini oluşturan geniş bir araziyi Moskova Büyük Knezliği'ne bırakmak zorunda kaldı. Bu, Moskova'nın Rus topraklarını 'toplama' sürecinde en büyük tek kazanımlarından biriydi.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Moskova-Litvanya savaşları tarihyazımı)", duygu:["😔"] },
 
-{ t:"1797-05-12", k:"siyaset", etiket:["toprak-kayip"],
+{ t:"1797-05-12", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
   b:"Venedik Cumhuriyeti'nin sonu — Büyük Meclis kendini feshetti",
   gun:"12 Mayıs 1797",
   yer:"Venedik, Verona, Padova, Brescia, Bergamo, Udine",
@@ -242,7 +242,7 @@ window.OLAYLAR_EK16 = [
   d:"Napolyon'un İtalya seferi ordusu Venedik karasını işgal edip cumhuriyete ültimatom verince, Büyük Meclis (Maggior Consiglio) 12 Mayıs 1797'de 512'ye 20 oyla kendini feshetmeyi kabul etti; son doge Ludovico Manin görevi bıraktı ve 1.100 yılı aşkın süredir kesintisiz varlığını sürdüren Venedik Cumhuriyeti'nin aristokratik yönetimi sona erdi. Toprakları önce geçici bir demokratik yönetime, ardından Ekim 1797'deki Campo Formio Antlaşması'yla resmen Avusturya'ya bırakıldı.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Fall of the Republic of Venice tarihyazımı)", duygu:["😔"] },
 
-{ t:"1561-11-28", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1561-11-28", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
   gun:"28 Kasım 1561",
   yer:"Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Daugavpils (Dünaburg), Narva",
@@ -250,7 +250,7 @@ window.OLAYLAR_EK16 = [
   d:"Livonya Savaşı sırasında Rus baskısı altında dağılan Livonya Konfederasyonu'nun son büyük üstadı Gotthard Kettler, 28 Kasım 1561'de Vilnius'ta imzalanan antlaşmayla (Pacta Subiectionis) Litvanya Büyük Knezi ve Lehistan Kralı II. Zygmunt August'un himayesine girdi; Riga şehri hariç Livonya'nın büyük kısmı Lehistan-Litvanya'ya bağlandı, Kettler ise Kurland Dukalığı'nın ilk dükü oldu. Bu, Livonya Şövalye Tarikatı'nın Orta Çağ'dan Yeniçağ'a geçişteki son perdesiydi.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Livonian War / Treaty of Vilnius tarihyazımı)", duygu:["😔"] },
 
-{ t:"1581-07-26", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1581-07-26", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İspanya'dan bağımsızlığını ilan etti",
   gun:"26 Temmuz 1581",
   yer:"Amsterdam, Rotterdam, Utrecht, Groningen, Leeuwarden, Nijmegen, Middelburg",
@@ -258,7 +258,7 @@ window.OLAYLAR_EK16 = [
   d:"Seksen Yıl Savaşları sürerken Utrecht Birliği'ne bağlı Hollanda eyaletlerinin Genel Meclisi (Staten-Generaal), 26 Temmuz 1581'de kabul ettiği Feragat Bildirgesi'yle İspanya Kralı II. Felipe'yi 'zalim' ilan ederek ona bağlılığı reddetti; bu belge fiilen bağımsız Birleşik Eyaletler'in (Hollanda Cumhuriyeti) kuruluş beyannamesi sayılır. İspanya'nın nihai tanıması 1648 Vestfalya'yı bekleyecekti, ama fiilî kopuş bu gündür.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Act of Abjuration tarihyazımı)", duygu:["🎉"] },
 
-{ t:"1714-03-07", k:"antlasma", etiket:["toprak-kazanc"],
+{ t:"1714-03-07", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
   b:"Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
   gun:"7 Mart 1714",
   yer:"Milano, Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Ypres, Lüksemburg",
@@ -266,7 +266,7 @@ window.OLAYLAR_EK16 = [
   d:"İspanyol Veraset Savaşı'nı Fransa ile Avusturya arasında sona erdiren Rastatt Antlaşması 7 Mart 1714'te imzalandı (Utrecht 1713'te İngiltere-Fransa arasını düzenlemişti); antlaşmayla Avusturya Habsburgları, İspanyol Hollandası'nı (bugünkü Belçika) ve İtalya'daki Napoli, Milano ve Sardunya'yı devraldı. Bu, Avusturya'nın tarihindeki en geniş toprak genişlemesiydi ve Habsburg hanedanının Orta Avrupa'daki ağırlığına Batı ve Güney Avrupa'da yeni bir cephe ekledi.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Rastatt tarihyazımı)", duygu:["⚔️"] },
 
-{ t:"1721-08-30", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1721-08-30", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
   gun:"30 Ağustos 1721",
   yer:"Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Narva, Lappeenranta",
@@ -274,7 +274,7 @@ window.OLAYLAR_EK16 = [
   d:"21 yıl süren Büyük Kuzey Savaşı'nı sona erdiren Nystad Antlaşması 30 Ağustos 1721'de Finlandiya'da imzalandı; İsveç, Rusya'ya Estonya, Livonya (Riga dahil), İngermanland ve güneydoğu Finlandiya'nın (Karelya) bir bölümünü bıraktı, buna karşılık Finlandiya'nın geri kalanını geri aldı ve tazminat ödendi. Antlaşma, İsveç'in büyük devlet statüsünün sonu ve Rusya'nın bir Avrupa imparatorluğu olarak yükselişinin resmî tescili sayılır — I. Petro bu zaferden sonra 'İmparator' unvanını aldı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Nystad tarihyazımı)", duygu:["😔"] },
 
-{ t:"1815-06-09", k:"antlasma", etiket:["toprak-kayip","toprak-kazanc"],
+{ t:"1815-06-09", k:"antlasma", etiket:["toprak-kayip","toprak-kazanc","konu-askeri","konu-diplomasi"],
   b:"Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi",
   gun:"9 Haziran 1815",
   yer:"Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Liège, Lüksemburg, Cenova, Varşova, Stralsund, Ypres",
@@ -282,7 +282,7 @@ window.OLAYLAR_EK16 = [
   d:"Napolyon Savaşları'nı sona erdiren büyük devletler (Avusturya, Rusya, Prusya, İngiltere, Fransa) arasında imzalanan Viyana Kongresi Nihai Senedi 9 Haziran 1815'te (Waterloo'dan 9 gün önce) kabul edildi ve kıtanın haritasını topluca yeniden çizdi: eski İspanyol/Avusturya Hollandası ile Birleşik Eyaletler 'Birleşik Hollanda Krallığı' altında birleşti, Ceneviz Cumhuriyeti Sardinya-Piyemonte Krallığı'na katıldı, Varşova Dükalığı'nın büyük kısmı 'Kongre Polonyası' adıyla Rusya'ya bağlandı ve İsveç Pomeranyası (Stralsund) Prusya'ya geçti. Bu tek gün, savaş sonrası Avrupa dengesinin (Concert of Europe) resmî başlangıcı sayılır.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Congress of Vienna / Final Act tarihyazımı)", duygu:["😔"] },
 
-{ t:"1509-05-17", k:"fetih", etiket:["toprak-kayip"],
+{ t:"1509-05-17", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   b:"Oran'ın İspanya'ya düşüşü — Kardinal Cisneros'un Kuzey Afrika seferi",
   gun:"17-18 Mayıs 1509 (filo 16'sında Cartagena'dan kalktı, şehir 18'inde alındı, Cisneros 20'sinde girdi)",
   yer:"Oran",
@@ -290,7 +290,7 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Cezayir/Mağrib maddeleri bu olayı doğrulamıyor; standart akademik kaynağa göre Kastilya Kralı Fernando adına hareket eden Kardinal Cisneros'un finanse ettiği donanma (80 gemi, ~10-12 bin piyade) 16 Mayıs 1509'da Cartagena'dan (zaten 1505'ten beri İspanyol elinde olan) Mersa'l-Kebîr'e doğru yola çıktı, Pedro Navarro komutasındaki kuvvetler 18 Mayıs'ta Zeyyânî hâkimiyetindeki Oran'ı fırtına gibi ele geçirdi (savunmacı ~12.000 kayıp verdi, saldıranlar 30'dan az), Cisneros şehre 20 Mayıs'ta girdi. Oran, 1708'e kadar İspanyol enklavı olarak kaldı.",
   kaynak:"bulunamadı — TDV bu olayı yeterli ayrıntıda doğrulamıyor, dayanak: standart akademik kaynak (Spanish conquest of Oran, 1509 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1611-06-13", k:"fetih", etiket:["toprak-kayip"],
+{ t:"1611-06-13", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   b:"Smolensk'in Lehistan-Litvanya'ya düşüşü — 20 aylık kuşatmanın sonu",
   gun:"13 Haziran 1611",
   yer:"Smolensk",
@@ -298,7 +298,7 @@ window.OLAYLAR_EK16 = [
   d:"Kargaşalar Dönemi'nde (Smuta) Lehistan Kralı III. Zygmunt'un ordusu, Eylül 1609'dan beri kuşattığı Smolensk'in surlarına 13 Haziran 1611'de bir lağım patlatarak gedik açtı ve şehri ele geçirdi; 20 aylık direniş sona erdi. Smolensk 1654'e kadar Lehistan-Litvanya'da kaldı ve bu düşüş, aynı yıl imzalanacak Deulino Mütarekesi'nin (1618) zeminini hazırladı.",
   kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1609-1611 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1617-02-27", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1617-02-27", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
   gun:"27 Şubat 1617",
   yer:"St. Petersburg (bölgesi), Oreşek (Nöteborg)",
@@ -306,7 +306,7 @@ window.OLAYLAR_EK16 = [
   d:"İngriya Savaşı'nı sona erdiren Stolbova Antlaşması, 27 Şubat 1617'de Ladoga Gölü güneyindeki Stolbova köyünde imzalandı; Rusya, Novgorod ve kuzeydeki diğer topraklarını geri alırken, İsveç Karelya ve İngriya'yı (Estonya-Finlandiya arası, İvangorod-Yam-Koporye-Oreşek kaleleri dahil) elinde tuttu ve Rusya'nın Baltık'a doğrudan kıyısı kesildi. Bu kesinti, 1703'te Büyük Petro'nun aynı bölgede St. Petersburg'u kurmasına kadar sürecekti.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Stolbovo tarihyazımı)", duygu:["😔"] },
 
-{ t:"1618-12-11", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1618-12-11", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
   gun:"11 Aralık 1618",
   yer:"Smolensk, Çernigov, Novgorod-Seversk",
@@ -314,7 +314,7 @@ window.OLAYLAR_EK16 = [
   d:"1609-1618 Lehistan-Rus Savaşı'nı sona erdiren Deulino Mütarekesi, 11 Aralık 1618'de imzalandı ve 14,5 yıllık bir ateşkes sağladı; Rusya, Smolensk (Vyazma hariç) ile Çernigov ve Novgorod-Seversk bölgelerindeki 29 şehri Lehistan-Litvanya Birliği'ne bırakmak zorunda kaldı — bu, Kargaşalar Dönemi'nin (Smuta) en ağır toprak kaybıydı. Bölge 1667 Andrusovo Mütarekesi'ne kadar Lehistan'da kalacaktı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Deulino tarihyazımı)", duygu:["😔"] },
 
-{ t:"1654-01-08", k:"antlasma", etiket:["toprak-kazanc"],
+{ t:"1654-01-08", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
   b:"Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
   gun:"8 Ocak 1654",
   yer:"Çernigov, Novgorod-Seversk, Baturin",
@@ -322,7 +322,7 @@ window.OLAYLAR_EK16 = [
   d:"1648'den beri Lehistan-Litvanya'ya karşı ayaklanan Zaporojye Kazakları Hetmanı Bohdan Hmelnitski, Moskova'dan Vasili Buturlin başkanlığında gelen heyetin katıldığı 8 Ocak 1654 tarihli Pereyaslav Radası'nda Çar I. Aleksey Mihayloviç'e bağlılık yemini etti; bu, Ukrayna Kazak Hetmanlığı'nın Rusya himayesine girişinin başlangıcı sayılır ve Çernigov-Seversk bölgesinin fiilî denetimini Lehistan'dan Rusya'ya kaydırdı — resmî sınır ise 1667 Andrusovo Mütarekesi'yle çizilecekti.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Pereyaslav Council 1654 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1654-10-03", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1654-10-03", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Smolensk'in Rusya tarafından geri alınışı",
   gun:"3 Ekim 1654",
   yer:"Smolensk",
@@ -330,7 +330,7 @@ window.OLAYLAR_EK16 = [
   d:"1654'te başlayan Lehistan-Rus Savaşı sırasında Rus ordusu Temmuz'dan beri kuşattığı Smolensk'i 3 Ekim 1654'te Lehistan garnizonunun teslim olmasıyla geri aldı; 1611'de Lehistan'a kaybedilen şehir 43 yıl sonra Rusya'ya döndü. Bu, Rusya'nın Kargaşalar Dönemi kayıplarını tersine çevirme sürecinin en önemli adımlarından biriydi ve 1667 Andrusovo Mütarekesi'yle kalıcı hâle geldi.",
   kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1654 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1667-02-09", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1667-02-09", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
   gun:"30 Ocak 1667 (Jülyen) / 9 Şubat 1667 (Gregoryen)",
   yer:"Kiev",
@@ -338,7 +338,7 @@ window.OLAYLAR_EK16 = [
   d:"1654-1667 Lehistan-Rus Savaşı'nı sona erdiren Andrusovo Mütarekesi 13,5 yıllık bir ateşkes sağladı; Rusya, Smolensk, Çernigov-Seversk bölgesi ile Dinyeper'in sol yakasındaki Ukrayna'yı ve — başlangıçta iki yıllığına, fiilen kalıcı olarak — Kiev şehrini kazandı. Bu antlaşma, Ukrayna topraklarının Dinyeper boyunca Lehistan ve Rusya arasında bölünmesinin (ve Kiev'in Rusya'da kalmasının) hukuki temelini attı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Andrusovo tarihyazımı)", duygu:["😔"] },
 
-{ t:"1703-05-27", k:"kurulus", etiket:["toprak-kazanc"],
+{ t:"1703-05-27", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"St. Petersburg'un kuruluşu — Rusya'nın Batı'ya açılan penceresi",
   gun:"16/27 Mayıs 1703 (Jülyen/Gregoryen)",
   yer:"St. Petersburg",
@@ -346,7 +346,7 @@ window.OLAYLAR_EK16 = [
   d:"Büyük Kuzey Savaşı sırasında İsveç'ten yeni geri alınan Neva deltasındaki Tavşan Adası'nda, Büyük Petro 16/27 Mayıs 1703'te Petropavlovsk Kalesi'nin (Peter-Pavel Kalesi) temelini attı; bu gün St. Petersburg şehrinin kuruluş tarihi kabul edilir. Petro, bataklık deltayı Batı'ya açılan 'pencere' olarak tasarladı ve şehir 1712'de Rusya'nın yeni başkenti oldu — bölge resmen 1721 Nystad Antlaşması'yla Rusya'ya bağlanacaktı.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (founding of Saint Petersburg tarihyazımı)", duygu:["🎉"] },
 
-{ t:"1802-03-25", k:"antlasma", etiket:["toprak-kazanc"],
+{ t:"1802-03-25", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
   b:"Amiens Antlaşması — Menorka İspanya'ya geri verildi",
   gun:"25 Mart 1802",
   yer:"Menorka (Mahon)",
@@ -354,7 +354,7 @@ window.OLAYLAR_EK16 = [
   d:"Fransa, İspanya, Hollanda ve İngiltere arasında imzalanan Amiens Antlaşması (25 Mart 1802), İkinci Koalisyon Savaşı'nı geçici olarak sona erdirdi; İngiltere, savaş sırasında ele geçirdiği hemen bütün toprakları (Seylan ve Trinidad hariç) iade etti — bunlardan biri de 1798'de İspanya'dan alınan Menorka'ydı. Barış yalnız bir yıl sürdü, Mayıs 1803'te savaş yeniden patlak verdi, ama Menorka bu antlaşmadan sonra bir daha İngiliz eline geçmedi.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Amiens tarihyazımı)", duygu:["😔"] },
 
-{ t:"1820-01-08", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1820-01-08", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye başladı",
   gun:"8 Ocak 1820 (imzalar 8 Ocak-15 Mart arası şeyhlik şeyhlik tamamlandı)",
   yer:"Ras el-Hayme (Cülfâr), Şârika, Abu Dabi",
@@ -362,7 +362,7 @@ window.OLAYLAR_EK16 = [
   d:"İngiltere, 1819'da Ras el-Hayme'yi bombalayıp 'korsan' Kasımî donanmasını dağıttıktan sonra, 8 Ocak 1820'de başlayıp bölgedeki şeyhliklerle tek tek imzalanarak Mart'a kadar tamamlanan Genel Deniz Antlaşması'nı dayattı; antlaşma korsanlığı ve köleliği yasakladı, gemilerin İngiliz bayrağı benzeri kırmızı-beyaz bayrak taşımasını zorunlu kıldı. Bu antlaşmayla 'Korsan Kıyısı' 'Mütareke Kıyısı'na (Trucial Coast) dönüştü ve bölge Umman Sultanlığı'ndan koparak fiilen İngiliz himayesine girdi — 1971'e kadar sürecek ilişkinin başlangıcıydı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (General Maritime Treaty of 1820 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1891-01-01", k:"savas", etiket:["toprak-kayip"],
+{ t:"1891-01-01", k:"savas", etiket:["toprak-kayip","konu-askeri"],
   b:"Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
   gun:"21 Ocak 1891",
   yer:"Riyad, Dir'iye (Necid), Buraydâ (Kasîm), Uneyze, Şakrâ, Necid içi, Necid güneyi, Necid güneybatısı",
@@ -370,7 +370,7 @@ window.OLAYLAR_EK16 = [
   d:"Zekât anlaşmazlığı ve bir Reşîdî elçisinin tutuklanması üzerine bozulan ilişkiler sonunda, Cebel Şammar emîri Muhammed bin Reşîd'in ordusu, 21 Ocak 1891'de Kasîm bölgesindeki Müleydâ'da Abdurrahman bin Faysal liderliğindeki Suud kuvvetlerini ve müttefiklerini ağır bir yenilgiye uğrattı; bu, İkinci Suud Devleti'nin fiilî sonu oldu, Al Suud ailesi Küveyt'e sürgüne gitti ve Necid'in tamamı Râşidî hâkimiyetine girdi. Hâkimiyet 1902'de genç Abdülaziz bin Suud'un Riyad'ı geri almasına kadar (Riyad Baskını, 16 Ocak 1902) sürecekti.",
   kaynak:"bulunamadı — TDV bu savaşı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Mulayda tarihyazımı)", duygu:["⚔️"] },
 
-{ t:"1492-01-02", k:"fetih", etiket:["toprak-kayip"],
+{ t:"1492-01-02", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   b:"Granada'nın düşüşü — İber Yarımadası'nda son Müslüman devletin sonu",
   gun:"2 Ocak 1492",
   yer:"Granada",
@@ -378,7 +378,7 @@ window.OLAYLAR_EK16 = [
   d:"On yıl süren aşamalı bir kuşatma ve iç bölünmelerle zayıflayan Granada Nasrî Emirliği'nin son hükümdarı Ebû Abdullah (Boabdil), Kasım 1491'de imzalanan cömert teslim şartları (Granada Kapitülasyonları) uyarınca 2 Ocak 1492'de şehrin anahtarlarını Katolik Kralları Fernando ve Isabel'e teslim etti; Elhamra'dan ayrılan Boabdil'in ardından İber Yarımadası'ndaki son Müslüman devlet sona erdi ve Reconquista tamamlandı. Aynı yıl içinde Yahudilerin sürülmesi (Mart) ve Kristof Kolomb'un yolculuğu (Ağustos) izleyecekti.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Fall of Granada / Reconquista tarihyazımı)", duygu:["😔"] },
 
-{ t:"1466-10-19", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1466-10-19", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
   gun:"19 Ekim 1466",
   yer:"Gdansk",
@@ -386,7 +386,7 @@ window.OLAYLAR_EK16 = [
   d:"Prusya Konfederasyonu'nun 1454'te Alman Şövalyeleri (Teutonic Order) yönetimine karşı ayaklanmasıyla başlayan On Üç Yıl Savaşları'nı sona erdiren İkinci Thorn (Toruń) Antlaşması, 19 Ekim 1466'da imzalandı; Şövalyeler, Danzig'i (Gdansk) içeren Doğu Pomeranya'yı, Elbing'i (Elbląg) içeren Vistül ağzını ve Kulm bölgesini Lehistan Krallığı'na bıraktı — bu topraklar 'Kraliyet Prusyası' adını aldı. Doğu Prusya ise 1525'e kadar Şövalyeler'de kalacaktı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Second Peace of Thorn 1466 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1797-06-14", k:"siyaset", etiket:["toprak-kayip"],
+{ t:"1797-06-14", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
   b:"Cenova Cumhuriyeti'nin sonu — Napolyon Ligurya Cumhuriyeti'ni kurdu",
   gun:"14 Haziran 1797",
   yer:"Cenova",
@@ -394,7 +394,7 @@ window.OLAYLAR_EK16 = [
   d:"İtalya seferindeki Napolyon'un baskısıyla Haziran 1797 başında geçici bir yönetime devredilen Cenova Cumhuriyeti'nin yerine, 14 Haziran 1797'de Fransız modelinde bir anayasayla 'Ligurya Cumhuriyeti' ilan edildi; asırlık Cenova Dukalığı fiilen Fransa'nın uydu devletlerinden birine dönüştü. Cumhuriyet 1805'te doğrudan Fransa'ya ilhak edilecek, 1815 Viyana Kongresi'yle de Sardinya-Piyemonte Krallığı'na bırakılacaktı.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Ligurian Republic 1797 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1800-09-05", k:"fetih", etiket:["toprak-kayip"],
+{ t:"1800-09-05", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   b:"Malta'nın İngiltere'ye teslimi — iki yıllık Fransız kuşatmasının sonu",
   gun:"5 Eylül 1800",
   yer:"Malta",
@@ -402,7 +402,7 @@ window.OLAYLAR_EK16 = [
   d:"1798'de Mısır seferi yolunda Napolyon'un ele geçirdiği Malta, kısa süre sonra ada halkının ayaklanmasıyla İngiliz donanmasının deniz ablukasına girdi; iki yıl süren kuşatma ve açlık sonunda Fransız komutan General Vaubois, 5 Eylül 1800'de İngiliz General Pigot'a teslim oldu. Malta böylece Fransız Cumhuriyeti'nden İngiliz himayesine geçti ve 1814 Paris Antlaşması'yla resmen İngiliz tacına bağlanacaktı — Akdeniz'deki en önemli İngiliz deniz üssü hâline geldi.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Malta 1798-1800 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1810-02-20", k:"siyaset", etiket:["toprak-kayip"],
+{ t:"1810-02-20", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi","konu-darbe"],
   b:"İmereti Krallığı'nın ilhakı — Kral II. Solomon tahttan indirildi",
   gun:"20 Şubat 1810",
   yer:"Kutaisi",
@@ -410,7 +410,7 @@ window.OLAYLAR_EK16 = [
   d:"1804'te Elaznauri Sözleşmesi'yle Rus vasallığını kabul etmek zorunda kalan Batı Gürcü İmereti Krallığı'nın son kralı II. Solomon, artan Rus baskısına direnmeye devam edince, Rus birlikleri 20 Şubat 1810'da başkent Kutaisi'yi ele geçirdi, Solomon'u tahttan indirdi ve yerel soyluları Çar I. Aleksandr'a bağlılık yemini etmeye zorladı; İmereti Krallığı böylece fiilen sona erdi ve doğrudan Rus idaresine bağlandı. Solomon, Osmanlı topraklarına kaçarak sürgünde öldü (1815).",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Kingdom of Imereti / Russian annexation 1810 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1452-10-23", k:"fetih", etiket:["toprak-kazanc"],
+{ t:"1452-10-23", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Bordeaux'nun İngiltere tarafından geri alınışı — John Talbot'ın son Gaskonya seferi",
   gun:"22-23 Ekim 1452",
   yer:"Bordo",
@@ -418,7 +418,7 @@ window.OLAYLAR_EK16 = [
   d:"1451'de Fransızlara kaybedilen Bordeaux, halkının Fransız garnizonuna karşı ayaklanıp kapıları açmasıyla, yaşlı komutan John Talbot liderliğindeki İngiliz ordusuna 22-23 Ekim 1452 gecesi teslim oldu; bu, Yüz Yıl Savaşları'nda İngiltere'nin Gaskonya'daki son ve kısa ömürlü zaferiydi. Bordeaux bir yıl sonra Castillon Savaşı'nın ardından kalıcı olarak Fransa'ya dönecekti.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Hundred Years' War / recapture of Bordeaux 1452 tarihyazımı)", duygu:["⚔️"] },
 
-{ t:"1453-10-19", k:"fetih", etiket:["toprak-kayip"],
+{ t:"1453-10-19", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   b:"Bordeaux'nun Fransa'ya kalıcı dönüşü — Yüz Yıl Savaşları'nın fiilî sonu",
   gun:"19 Ekim 1453",
   yer:"Bordo",
@@ -426,7 +426,7 @@ window.OLAYLAR_EK16 = [
   d:"17 Temmuz 1453'te Castillon Savaşı'nda John Talbot'ın ölümü ve ordusunun yok olmasıyla Gaskonya'daki İngiliz direnci çöktü; kuşatma altındaki Bordeaux, 19 Ekim 1453'te Fransız kuvvetlerine teslim oldu. Bu teslim, 116 yıldır süren Yüz Yıl Savaşları'nın fiilen sona erdiği an kabul edilir (resmî bir barış antlaşması hiç imzalanmadı) ve İngiltere'nin Kıta Avrupası'ndaki hâkimiyetini Calais'e kadar daralttı.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Castillon / Hundred Years' War tarihyazımı)", duygu:["😔"] },
 
-{ t:"1708-09-29", k:"fetih", etiket:["toprak-kayip"],
+{ t:"1708-09-29", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   b:"Menorka'nın İngiltere-Hollanda kuvvetlerince ele geçirilişi",
   gun:"28-29 Eylül 1708",
   yer:"Menorka (Mahon)",
@@ -434,7 +434,7 @@ window.OLAYLAR_EK16 = [
   d:"İspanyol Veraset Savaşı sırasında Avusturya arşidükü VI. Karl'ın müttefiki olarak hareket eden İngiliz-Hollanda kuvvetleri, General James Stanhope komutasında 14 Eylül 1708'de adaya çıktı ve 28-29 Eylül'de İspanyol savunmasını çökertip Menorka'nın kontrolünü ele geçirdi (ana kale Fort St. Philip'in resmî teslimi 24 Kasım'ı buldu). Menorka'nın stratejik limanı Mahon, sonraki bir asır boyunca İngiliz-Fransız-İspanyol mücadelesinin odağı olacaktı.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Capture of Minorca 1708 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1866-10-18", k:"fetih", etiket:["toprak-kayip"],
+{ t:"1866-10-18", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   b:"Cizzah'ın (Jizzakh) Rusya'ya düşüşü — Buhara Emirliği'nin Sirderya hattındaki son kalesi",
   gun:"Ekim 1866 (7 günlük kuşatma ve baskının ardından)",
   yer:"Cizzah",
@@ -442,7 +442,7 @@ window.OLAYLAR_EK16 = [
   d:"Rusya'nın Orta Asya'daki ilerleyişi sırasında General Çernyayev'in Şubat 1866'daki başarısız girişiminin ardından, yerine atanan General Dmitri Romanovski komutasındaki Rus kuvvetleri Ekim 1866'da yedi günlük bir kuşatma ve şiddetli bir saldırıyla Buhara Emirliği'nin Sirderya vadisindeki son büyük kalesi Cizzah'ı ele geçirdi; bu düşüş, bölgede Buhara direncini fiilen sona erdirdi ve Rus ordusunun Semerkant'a giden yolunu açtı.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Russian conquest of Central Asia / Battle of Jizzakh 1866 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1882-03-10", k:"siyaset", etiket:["toprak-kayip"],
+{ t:"1882-03-10", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
   b:"Assab'ın İtalyan devlet mülkiyetine geçişi — İtalya'nın ilk sömürgesinin temeli",
   gun:"10 Mart 1882",
   yer:"Aseb",
@@ -450,7 +450,7 @@ window.OLAYLAR_EK16 = [
   d:"Kızıldeniz kıyısındaki Assab limanı 1869'da özel bir İtalyan gemicilik şirketi (Rubattino) tarafından yerel Afar liderlerinden satın alınmıştı; İngiltere'nin onayıyla İtalyan hükûmeti 10 Mart 1882'de limanın doğrudan devlet mülkiyetini üstlendi ve Temmuz'da çıkardığı yasayla Assab'ı resmen İtalya'nın ilk sömürgesi ilan etti. Bu, İtalya'nın sonradan Eritre Kolonisi'ne (1890) dönüşecek Kızıldeniz kıyısı yayılmasının başlangıç noktasıydı.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Italian Eritrea / Assab 1882 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1916-11-03", k:"antlasma", etiket:["toprak-kayip"],
+{ t:"1916-11-03", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
   gun:"3 Kasım 1916",
   yer:"Doha (Katar)",
@@ -458,7 +458,7 @@ window.OLAYLAR_EK16 = [
   d:"I. Dünya Savaşı sürerken, Basra Körfezi'ndeki İngiliz siyasi temsilcisi Binbaşı Percy Cox ile Katar şeyhi Abdullah bin Cassim Âl Sânî arasında 3 Kasım 1916'da imzalanan antlaşmayla Katar, dış ilişkilerini İngiltere'nin onayına bağlamayı kabul etti, karşılığında deniz saldırılarına karşı İngiliz koruması güvencesi aldı; bu antlaşma Katar'ın 1971'e kadar sürecek İngiliz himaye ilişkisinin hukuki temelini oluşturdu ve resmen 1918'de onaylandı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Anglo-Qatari Treaty of 1916 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1335-05-02", k:"siyaset", etiket:["toprak-kazanc"],
+{ t:"1335-05-02", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması",
   gun:"2 Nisan 1335 (Dük VI. Heinrich'in ölümü) — Habsburg beratı birkaç hafta içinde",
   yer:"Ljubljana",
@@ -466,7 +466,7 @@ window.OLAYLAR_EK16 = [
   d:"Karintiya Dükü ve Tirol Kontu VI. Heinrich'in 2 Nisan 1335'te Tirol Kalesi'nde vârissiz ölmesiyle, 23 Kasım 1330'da Bavyeralı Ludwig ile gizlice yapılan bir anlaşma uyarınca Habsburg kardeşler II. Albrecht ve IV. Otto, Karintiya Dukalığı'nı ve ona bağlı Karniyola (bugünkü Ljubljana'nın da içinde olduğu bölge) imparatorluk beratıyla aldılar; Tirol ise Heinrich'in kızı vasıtasıyla ayrı kaldı. Bu, Habsburgların Alp bölgesindeki genişlemesinin ilk büyük adımlarından biriydi ve Karniyola 1918'e kadar (kesintili) Habsburg/Avusturya elinde kalacaktı.",
   kaynak:"bulunamadı — TDV bu olayı kapsamıyor, dayanak: standart akademik kaynak (Duchy of Carniola / Habsburg succession 1335 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1891-02-06", k:"savas", etiket:["toprak-kayip"],
+{ t:"1891-02-06", k:"savas", etiket:["toprak-kayip","konu-askeri"],
   b:"Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",
   gun:"Şubat 1891 (basında 28 Şubat'ta haber verildi, alınış ayın ilk haftasında)",
   yer:"Tokar",

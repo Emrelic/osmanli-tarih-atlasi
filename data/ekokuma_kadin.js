@@ -82,7 +82,7 @@ window.EKOKUMA_KADIN = [
 { id:"kimdir-kosem-sultan", tur:"kimdir",
   ad:"Kösem Sultan",
   kisa:"İki oğlu ve bir torununun saltanatında devleti fiilen yöneten, sonunda haremde boğdurularak öldürülen tek vâlide sultan.",
-  metin:"I. Ahmed'in hasekisi; IV. Murad ve Sultan İbrahim'in annesi, IV. Mehmed'in büyükannesiydi. IV. Murad on bir-on iki yaşında tahta çıktığında (1623) devlet işlerini fiilen yürüttü. İbrahim'in akıl sağlığı sorunları nedeniyle onun döneminde de (1640-48) etkisini sürdürdü. IV. Mehmed'in 1648'de yedi yaşında cülûsundan sonra \"Büyük Vâlide\" sıfatıyla nâiplik yaptı, ama bu kez genç padişahın öz annesi Turhan Hatice Sultan ile bir güç mücadelesine girdi. Bu çekişme 2 Eylül 1651'de, Turhan tarafını tutan bir grup ağanın Kösem'i harem içinde boğdurarak öldürmesiyle sonuçlandı — Osmanlı tarihinde bir vâlide sultanın bu şekilde öldürülmesinin tek örneğidir.",
+  metin:"I. Ahmed'in hasekisi; IV. Murad ve Sultan İbrahim'in annesi, IV. Mehmed'in büyükannesiydi. IV. Murad on bir-on iki yaşında tahta çıktığında (1623) devlet işlerini fiilen yürüttü. İbrahim'in akıl sağlığı sorunları nedeniyle onun döneminde de (1640-48) etkisini sürdürdü. IV. Mehmed'in 1648'de yedi yaşında cülûsundan sonra \"Büyük Vâlide\" sıfatıyla nâiplik yaptı, ama bu kez genç padişahın öz annesi Turhan Hatice Sultan ile bir güç mücadelesine girdi. Bu çekişme 2 Eylül 1651'de, Turhan tarafını tutan bir grup ağanın Kösem'i harem içinde öldürmesiyle sonuçlandı — Osmanlı tarihinde bir vâlide sultanın bu şekilde öldürülmesinin tek örneğidir.",
   kesinlik:"kesin",
   olay:["1623-09-10","1640-02-09","1648-08-08","1651-09-02"],
   kaynak:"TDV: kosem-sultan" },

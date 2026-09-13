@@ -35,7 +35,7 @@ window.OLAYLAR_OK104 = [
 //    `§4`in kuralı "gün bilinmiyorsa YYYY-01-01" — ama burada AY biliniyor,
 //    ve Ocak yazmak bilineni de silerdi. Ayın ilk günü seçildi ve seçim
 //    burada AÇIKÇA yazıldı; yıl ve ay TDV'den, gün bizim.
-{ t:"1393-05-01", k:"siyaset", etiket:["toprak-kayip","diplomasi"],
+{ t:"1393-05-01", k:"siyaset", etiket:["toprak-kayip","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   b:"Leş'in (Alessio) Dukagjinler tarafından Venedik'e bırakılması",
   gun:"1393", yer:"Leş (Alessio)", yer_id:"Leş (Alessio)",
   kisiler:"Paul Dukagjin, Lek Dukagjin",

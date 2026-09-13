@@ -76,7 +76,7 @@
 window.OLAYLAR_OK109 = [
 
   {
-    t: "1918-10-28", k: "kurulus", etiket: ["siyaset"],
+    t: "1918-10-28", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
     b: "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet", kapsam_genis:true,
     gun: "28 Ekim 1918",
     yer: "Prag, Bratislava, Kassa (Košice)",
@@ -86,7 +86,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1918-10-30", k: "kurulus", etiket: ["siyaset"],
+    t: "1918-10-30", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
     b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği", kapsam_genis:true,
     gun: "30 Ekim 1918",
     yer: "Viyana, Graz",
@@ -96,7 +96,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1918-10-31", k: "siyaset", etiket: ["siyaset", "ayaklanma"],
+    t: "1918-10-31", k: "siyaset", etiket: ["siyaset", "ayaklanma", "konu-siyasi", "konu-isyan"],
     b: "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi", yer_kon:[47.498,19.04],
     gun: "31 Ekim 1918",
     yer: "Budapeşte",
@@ -106,7 +106,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1918-11-03", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
+    t: "1918-11-03", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
     b: "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti", kapsam_genis:true,
     gun: "3 Kasım 1918",
     yer: "Padova (Villa Giusti), Trento, Trieste",
@@ -116,7 +116,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1918-11-11", k: "siyaset", etiket: ["siyaset", "toprak-kaybi"],
+    t: "1918-11-11", k: "siyaset", etiket: ["siyaset", "toprak-kaybi", "konu-askeri", "konu-siyasi"],
     b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor", kapsam_genis:true,
     gun: "11 Kasım 1918",
     yer: "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
@@ -126,7 +126,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1918-11-18", k: "taht", etiket: ["siyaset"],
+    t: "1918-11-18", k: "taht", etiket: ["siyaset","konu-siyasi","konu-hanedan"],
     b: "İmparator Karl'ın çekilişi — Habsburg hânedanının sonu", yer_kon:[48.208,16.373],
     gun: "18 Kasım 1918",
     yer: "Viyana",
@@ -136,7 +136,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1918-12-01", k: "kurulus", etiket: ["siyaset", "toprak-kazanc"],
+    t: "1918-12-01", k: "kurulus", etiket: ["siyaset", "toprak-kazanc", "konu-askeri", "konu-siyasi"],
     b: "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet", kapsam_genis:true,
     gun: "1 Aralık 1918",
     yer: "Belgrad, Zagreb, Saraybosna, Erdel, Suçava, Çernovitz",
@@ -146,7 +146,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1919-09-10", k: "antlasma", etiket: ["antlasma"],
+    t: "1919-09-10", k: "antlasma", etiket: ["antlasma","konu-diplomasi","konu-hukuk"],
     b: "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti", kapsam_genis:true,
     gun: "10 Eylül 1919",
     yer: "Saint-Germain-en-Laye, Viyana",
@@ -156,7 +156,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
+    t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
     b: "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti", kapsam_genis:true,
     gun: "4 Haziran 1920",
     yer: "Trianon (Versailles), Budapeşte",
@@ -206,7 +206,7 @@ window.OLAYLAR_OK109 = [
   //   yanlıştı. Yazdıktan SONRA ölçüp bildireceğim.
 
   {
-    t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
+    t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
     b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü", kapsam_genis:true,
     gun: "28 Haziran 1919",
     yer: "Versailles, Strazburg, Metz, Colmar, Mulhouse",
@@ -216,7 +216,7 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
+    t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
     b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti", kapsam_genis:true,
     gun: "27 Kasım 1919",
     yer: "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",

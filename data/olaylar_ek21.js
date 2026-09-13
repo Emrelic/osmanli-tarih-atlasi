@@ -22,7 +22,7 @@ window.OLAYLAR_EK21 = [
     onem: 2,
     dunya: 0,
     kapsam: "ic",
-    etiket: ["savas", "toprak-kazanc"],
+    etiket: ["savas", "toprak-kazanc", "konu-askeri"],
     yer: "Niğbolu",
     yer_id: "Niğbolu",
     kisiler: "Mihail Kutuzov",
@@ -36,7 +36,7 @@ window.OLAYLAR_EK21 = [
     onem: 2,
     dunya: 0,
     kapsam: "ic",
-    etiket: ["savas", "toprak-kazanc"],
+    etiket: ["savas", "toprak-kazanc", "konu-askeri"],
     yer: "Silistre",
     yer_id: "Silistre",
     kisiler: "Mihail Kutuzov",
@@ -50,7 +50,7 @@ window.OLAYLAR_EK21 = [
     onem: 3,
     dunya: 0,
     kapsam: "ic",
-    etiket: ["savas", "toprak-kazanc"],
+    etiket: ["savas", "toprak-kazanc", "konu-askeri"],
     yer: "Rusçuk",
     yer_id: "Rusçuk",
     kisiler: "Mihail Kutuzov, Kaminski",
@@ -68,7 +68,7 @@ window.OLAYLAR_EK21 = [
   //   o günü KAPATIYOR: 1509-01-01 bugün külliyatta 33 gün açıkta (en yakın
   //   madde 1509-02-03 Diu Deniz Savaşı) ve veride 4 kırılma taşıyor ⇒ madde
   //   inince Değişmez 2s'de AÇIK bir gün KAPANIR, yenisi doğmaz.
-  { t:"1509-01-01", k:"siyaset", etiket:["siyaset","savas"],
+  { t:"1509-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
     b:"Şah İsmâil'in Derbend'i alışı — Safevî hâkimiyeti Kafkas kapısına ulaştı",
     gun:"1509", ic_not_gun:"(915 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
     yer:"Derbend (Demirkapı) — Dağıstan, Hazar kıyısı", yer_id:"Derbend",
@@ -84,7 +84,7 @@ window.OLAYLAR_EK21 = [
   // ⇒ Kutaisi'nin (madde ①'in vakası) aksine bu build KIRMIYOR; §10'un
   //   "eğer doğru ise ayrı madde ile gösterilmeli, ismi ile zikredilmeli"
   //   kuralına giriyor. Gün DEĞİŞMEDİ — yalnız kendi maddesi yazıldı.
-  { t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset"],
+  { t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset","konu-askeri","konu-siyasi"],
     b:"Kars'ın Osmanlı topraklarına kesin katılışı — doğu serhaddinin çivisi",
     gun:"1537", ic_not_gun:"(944 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
     yer:"Kars", yer_id:"Kars",

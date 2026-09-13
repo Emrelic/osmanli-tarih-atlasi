@@ -18,7 +18,7 @@ window.OLAYLAR_EK18 = [
   b:"Prizren'in fethi — Kosova'da Osmanlı sancak merkezi",
   tur:"fetih",
   onem:3, dunya:2, kapsam:"ic",
-  etiket:["toprak-kazanc","savas"],
+  etiket:["toprak-kazanc","savas","konu-askeri"],
   yer:"Prizren",
   yer_id:"Prizren",
   kisiler:"Fâtih Sultan Mehmed, Curac Brankoviç (Vılkoğlu)",

@@ -59,7 +59,7 @@
 
 window.OLAYLAR_OK106 = [
 
-  { t:"1847-05-31", k:"antlasma", etiket:["antlasma","diplomasi","toprak-kayip"],
+  { t:"1847-05-31", k:"antlasma", etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
     b:"II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
     gun:"Mayıs 1847", yer:"Erzurum", yer_id:"Erzurum",
     d:"Yüzyılı aşkın süredir çözülemeyen Osmanlı-İran sınır anlaşmazlığı, İngiliz ve Rus arabuluculuğunda yürütülen uzun görüşmelerin ardından Erzurum'da imzalanan ikinci antlaşmayla düzenlendi. Şattülarap suyolunun tamamı Osmanlı'da kaldı; buna karşılık nehrin doğu yakasındaki yerleşimler -Muhammere limanı ve karşısındaki Abadan adası dâhil- Kaçarlar'a bırakıldı. Böylece Basra'nın 1546'daki ilhakından beri Osmanlı idaresinde sayılan Hûzistan kıyı şeridi üç yüz yıl sonra elden çıktı. Antlaşmanın çizdiği hattı yerinde tesbit etmek üzere kurulan sınır komisyonunun üyesi Mehmed Hurşid Paşa, 1848-1852 arasında bölgeyi dolaşarak Seyâhatnâme-i Hudûd'u kaleme aldı.",
@@ -77,7 +77,7 @@ window.OLAYLAR_OK106 = [
   //    bağlanmamış bir ada `yer_id` vermek kırık bağ üretir. Kerç 10,4 km ötede
   //    ve TDV maddesi konumu ona göre tarif ediyor. Nokta bağlanınca
   //    `yer_id:"Yenikale"`ye çevrilebilir — koordinatörün kararı.
-  { t:"1703-01-01", k:"mimari", etiket:["mimari","denizcilik"],
+  { t:"1703-01-01", k:"mimari", etiket:["mimari","denizcilik","konu-askeri","konu-imar"],
     b:"Yenikale'nin inşası — Kerç Boğazı'nın kilitlenmesi",
     gun:"1115 (1703)", yer:"Yenikale, Kerç Boğazı", yer_id:"Kerç",
     d:"Azak'ın 1700'de Rusya'ya bırakılmasının ardından Karadeniz'in Azak Denizi'ne açılan tek kapısı stratejik bir sınır hattına dönüştü. Osmanlı Devleti, Kerç şehrinin on kilometre kuzeydoğusunda Akıntı Burnu mevkiinde yeni bir istihkâm yaptırarak boğaz geçişini top menziline aldı; kaleye kelimenin kendisi olan Yenikale adı verildi. Kale yetmiş yıl boyunca Kırım'ın doğu kilidi olarak kaldı ve 1774 Küçük Kaynarca Antlaşması'nın on dokuzuncu maddesiyle Kerç ile birlikte Rusya'ya terkedildi.",
@@ -107,35 +107,35 @@ window.OLAYLAR_OK106 = [
   //    bozucudur, :1097), bağlandığında kendiliğinden doğru noktaya oturur.
   // ═══════════════════════════════════════════════════════════════════
 
-  { t:"1571-01-01", k:"idari", etiket:["siyaset"],
+  { t:"1571-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     b:"Lehistan'ın Dinyeper hattını ileri sürmesi — Kremençuk'un kurulması",
     gun:"1571", yer:"Kremençuk, Dinyeper", yer_id:"Kremençuk",
     d:"Lehistan-Litvanya, Kırım akınlarının geçit yeri olan orta Dinyeper kavşağında yeni bir uç kasabası kurdu; yirmi beş yıl sonra buraya bir de kale eklendi. Böylece Lehistan'ın denetim çizgisi Zaporojye bozkırının kuzey kıyısına kadar indi ve nehrin bu geçidi ilk kez bir devletin sürekli garnizonuna bağlandı. Kasaba, sonraki yüzyılda Kazak alay merkezi olarak Hetmanlık düzenine geçecekti.",
     kaynak:"bulunamadı — TDV kapsamı dışı; dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kremenchuk\": \"Kremenchuk was founded in 1571\", \"A Polish castle was built there in 1596\"",
     duygu:["🏛"] },
 
-  { t:"1616-01-01", k:"idari", etiket:["siyaset"],
+  { t:"1616-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     b:"Lehistan'ın Yedisan uç hattında Uman'ın belirmesi",
     gun:"1616", yer:"Uman, Bratslav", yer_id:"Uman",
     d:"Uman, Lehistan idaresindeki Bratslav bölgesinin güneydoğu ucunda bir yerleşim olarak ilk kez belgelere geçti. Bulunduğu yer, Kırım Hanlığı'nın kuzeye uzanan akın yollarının üstündeydi; buraya sürekli bir kasabanın oturması, iki devletin arasındaki boş bozkır kuşağının kuzeyden daralmaya başladığını gösterir. Şehir sonraki iki yüzyıl boyunca bu hattın en güneydeki büyük Leh yerleşimi olarak kalacaktı.",
     kaynak:"bulunamadı — TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor, ölçüldü); dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Uman\": \"It was first mentioned in historical documents in 1616, when it was under Polish rule\"",
     duygu:["🏛"] },
 
-  { t:"1638-01-01", k:"idari", etiket:["siyaset"],
+  { t:"1638-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     b:"Moskova'nın bozkır savunma hattının ileri sürülmesi — Çuguyev",
     gun:"1638", yer:"Çuguyev, Slobodskaya Ukrayna", yer_id:"Çuguyev",
     d:"Lehistan'daki ayaklanmasının ardından Moskova'ya sığınan Kazak lideri Yakiv Ostrianyn ve adamları, Donets boyunda bir uç yerleşimi kurdular. Bu, Moskova'nın Kırım akınlarına karşı kurduğu savunma hattının bozkıra doğru ilk büyük sıçramalarından biriydi; sonraki yarım yüzyılda aynı hat üzerinde Sumı, İzyum ve Bahmut gibi kasabalar peş peşe doğacaktı. Yerleşim, Harkov alayına bağlı bir bölük merkezi olarak 1765'e kadar sürdü.",
     kaynak:"bulunamadı — TDV kapsamı dışı; dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Chuhuiv\": \"Chuhuiv was founded in 1638 as a frontier settlement by Yakiv Ostrianyn and his Cossacks\"",
     duygu:["🏛"] },
 
-  { t:"1652-01-01", k:"idari", etiket:["siyaset"],
+  { t:"1652-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     b:"Slobodskaya Ukrayna'nın kuruluşu — Sumı ve bozkır yerleşim kuşağı",
     gun:"1652", yer:"Sumı, Slobodskaya Ukrayna", yer_id:"Sumı",
     d:"Sağ yaka Ukrayna'daki Bila Tserkva alayından gelen köylü ve Kazaklar, Albay Herasym Kondratiev önderliğinde Psel boyunda yeni bir kasaba kurdular; dört yıl sonra Moskova voyvodası kaleyi tahkim etti. Bu göç dalgası, Moskova'nın güney sınırındaki boş bozkırı yerleşime açan Slobodskaya Ukrayna düzeninin başlangıcıdır: gelenlere vergi muafiyeti verilip karşılığında sınır nöbeti beklendi. Sumı, 1658'den 1765'e kadar kendi adını taşıyan alayın merkezi oldu.",
     kaynak:"bulunamadı — TDV kapsamı dışı; dayanak Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Sumy\": \"It was founded in 1652 by peasants and Cossacks from Bila Tserkva regiment… led by Colonel Herasym Kondratiev\", \"fortified by the Muscovite voivode K. Arsenev (1656-8)\"",
     duygu:["🏛"] },
 
-  { t:"1754-01-01", k:"idari", etiket:["siyaset"],
+  { t:"1754-01-01", k:"idari", etiket:["siyaset","konu-siyasi","konu-idari"],
     b:"Aziz Yelizaveta Kalesi — Rusya'nın güney sınırının Osmanlı-Kırım akın hattına dayanması",
     gun:"1754", yer:"Yelisavetgrad, Yeni Sırbistan", yer_id:"Yelisavetgrad (Aziz Yelizaveta Kalesi)",
     d:"Rusya, Zaporojye Kazaklarının toprağı üzerinde Aziz Yelizaveta adını taşıyan yeni bir kale inşa etti. Kalenin açık gerekçesi, Yeni Sırbistan'a yerleştirilen Balkan göçmenlerini Osmanlı ve Kırım akınlarından korumaktı; yani Rus sınır hattı ilk kez bozkırın ortasına, akın yollarının üstüne kadar indi. Bu ileri karakol, yirmi yıl sonra Küçük Kaynarca ile başlayacak olan kuzey Karadeniz genişlemesinin çıkış noktası oldu.",

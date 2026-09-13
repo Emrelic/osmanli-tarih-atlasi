@@ -37,7 +37,7 @@
 
 window.OLAYLAR_P0048 = [
 
-{ t:"1592-01-01", k:"isyan", etiket:["isyan","siyaset"],
+{ t:"1592-01-01", k:"isyan", etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
   b:"Luristan hâkimi Şâhverdi'nin Şah Abbas'a bağlılık bildirmesi",
   gun:"1000 (1591-92) — kaynak yalnız yılı veriyor",
   yer:"Luristan (Hürremâbâd)", yer_id:"Luristan",
@@ -47,7 +47,7 @@ window.OLAYLAR_P0048 = [
   kaynak:"Eskandar Beg Monshi, History of Shah ʿAbbas the Great, çev. R. M. Savory (Boulder 1978), II s.642-643: 'Sahverdi then became the vassal of the Ottoman governor of Baghdad … In the year 1000/1591-92 … Šāhverdī was forced to declare his allegiance to the Safavid crown' · s.643: 'Šāhverdī began to molest the governors of Hamadan and to make raids on Borüjerd' · s.644: 'the Shah … occupied Korramābād and made Mahdīgolī Khan Šāmlū governor of the city (1002/1593-94)' · Kütükoğlu, Osmanlı-İran Siyâsî Münâsebetleri I (1962) s.183 (Eyvân itaati 997/1589) · luristan (TDV): 'Bir ara 998'de (1590) İstanbul'da yapılan antlaşmaya göre Osmanlı idaresine bağlanan Luristan'ı Şah I. Abbas Safevîler'e tam olarak bağladı (1603).'",
   duygu:["✊"] },
 
-{ t:"1603-01-01", k:"kayip", etiket:["toprak-kayip"],
+{ t:"1603-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Luristan'ın Safevîlere kesin olarak geçmesi",
   gun:"1603 — kaynak yalnız yılı veriyor",
   yer:"Luristan (Hürremâbâd), Nihâvend", yer_id:"Luristan",

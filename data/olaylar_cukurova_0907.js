@@ -29,7 +29,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
   {
     t: "1919-02-22",
     k: "kayip",
-    etiket: ["isgal"],
+    etiket: ["isgal","konu-askeri"],
     b: "Maraş'ın İngilizler tarafından işgali",
     gun: "22 Şubat 1919",
     yer: "Maraş",
@@ -41,7 +41,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
   {
     t: "1921-12-23",
     k: "kazanc",
-    etiket: ["kurtulus"],
+    etiket: ["kurtulus","konu-askeri"],
     b: "Kilis'in kurtuluşu — Fransızların tahliyesi",
     gun: "23 Aralık 1921",
     yer: "Kilis",
@@ -53,7 +53,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
   {
     t: "1921-12-25",
     k: "kazanc",
-    etiket: ["kurtulus"],
+    etiket: ["kurtulus","konu-askeri"],
     b: "Antep'in kurtuluşu — Fransızların şehri boşaltması",
     gun: "25 Aralık 1921",
     yer: "Antep",
@@ -65,7 +65,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
   {
     t: "1921-12-27",
     k: "kazanc",
-    etiket: ["kurtulus"],
+    etiket: ["kurtulus","konu-askeri"],
     b: "Tarsus'un kurtuluşu — Fransızların şehri boşaltması",
     gun: "27 Aralık 1921",
     yer: "Tarsus",
@@ -77,7 +77,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
   {
     t: "1922-01-03",
     k: "kazanc",
-    etiket: ["kurtulus"],
+    etiket: ["kurtulus","konu-askeri"],
     b: "Mersin'in kurtuluşu — millî kuvvetlerin şehre girişi",
     gun: "3 Ocak 1922",
     yer: "Mersin",
@@ -89,7 +89,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
   {
     t: "1922-01-05",
     k: "kazanc",
-    etiket: ["kurtulus"],
+    etiket: ["kurtulus","konu-askeri"],
     b: "Adana'nın kurtuluşu — Fransızların şehri terketmesi",
     gun: "5 Ocak 1922",
     yer: "Adana",

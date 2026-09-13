@@ -5857,6 +5857,7 @@ window.ETIKET_YAMA = {
   "artik_hata": "Son 17 kaydin 2'si (Fort Manoel'in adanin imari · Fonte Gaia anitsal cesmesi) HALA gercek imar gorunuyor ⇒ artik yanlis-negatif ~%12. Daha fazla gecis KAZANC AZALTIYOR; sayiyi gizlemek yerine BILDIRIYORUM."
  },
  "konu26": {
+  "uygulandi": "13 Eylül 2026 · PAKET-ETIKET-UYGULA · denetim/ARAC-ETK-UYGULA-0913.py — veriye 'konu-<id>' etiketi olarak yazıldı (afet başlığı = 'afet' üst etiketi); 6200/6210 madde, başlık sayıları bu tablonun 'madde' değerleriyle birebir. Süzgeç: js/suzgec.js KONU_BASLIKLARI. Rapor: denetim/PAKET-ETIKET-UYGULA-0913.md",
   "kaynak": "0035/H-0066 · Emre'nin listesi (26 başlık — sayfada '25' deniyor, liste 26 satır) · PAKET-A5 13 Eylül 2026",
   "kural": "Bir madde bir başlığa girer ⇔ k ∪ tur ∪ etiket değerlerinden biri başlığın deger_kumesi'nde VEYA başlık (b) baslik_deseni'ne uyuyor. Gövde (d) kullanılmaz. Çok başlık serbest (Emre: 'bir madde hem bilim teknoloji hem askeri olabilir'). vefat_id taşıyan madde Kişiler'e girer. Afet başlığı 'afet' bölümündeki kurala bağlı.",
   "uretici": "denetim/ARAC-A5-ETIKET-0913.py",
@@ -6370,6 +6371,7 @@ window.ETIKET_YAMA = {
   ]
  },
  "afet": {
+  "uygulandi": "13 Eylül 2026 · PAKET-ETIKET-UYGULA · denetim/ARAC-ETK-UYGULA-0913.py — 94 maddeye 'afet' + alt etiketler yazıldı (salgın 56 · yangın 16 · kıtlık 15 · deprem 13 · volkan/fırtına 4 · sel 3), 'maddeler' listesiyle madde madde birebir. Süzgeç: js/suzgec.js AFET_ALT_TURLER",
   "kaynak": "0035/H-0034 · Emre: 'deprem yangın sel gibi afetleri etiketleyelim' · PAKET-A5 13 Eylül 2026",
   "alt_etiketler": {
    "afet-deprem": "(?<![a-zçğıöşüâîûA-ZÇĞİÖŞÜÂÎÛ])(deprem|zelzele)",

@@ -5010,6 +5010,11 @@ var suzgecSecim = null;                       // null = süzme yok (hepsi açık
 // Ölçüm (13 Eylül): 520 kırılma · 520'si maddeli · 525/1350 madde işaretli.
 // Konu süzgeciyle VE bağlanır (ikisi birden açıksa ikisini de sağlamalı).
 var toprakSecim = false;
+// 🆕 KONU BAŞLIKLARI (26) + AFET — 13 Eylül 2026, PAKET-ETIKET-UYGULA (0035/H-0066 ·
+// H-0034). Mantık `suzgec.js` `baslikGecer`de. Seçim ETİKET değerleridir
+// ("konu-askeri", "afet", "afet-deprem"); null = süzme yok. Başlıklar arası VEYA,
+// grup kutuları ve toprak kutusuyla VE.
+var baslikSecim = null;
 var _toprakIsaret = null;
 function toprakIsaret() {
   if (_toprakIsaret) return _toprakIsaret;
@@ -5028,10 +5033,12 @@ function suzulduMu(i) {
 function suzgecUygula() {
   var gizli = 0;
   var toprakVar = toprakSecim && window.SUZGEC.toprakIndeksleri;
+  var baslikVar = baslikSecim && baslikSecim.length && window.SUZGEC.baslikGecer;
   for (var i = 0; i < olaylar.length; i++) {
     var gorunur = (!suzgecSecim ||
                    suzgecSecim.indexOf(window.SUZGEC.maddeGrubu(olaylar[i])) >= 0) &&
-                  (!toprakVar || !!toprakIsaret().isaretli[i]);
+                  (!toprakVar || !!toprakIsaret().isaretli[i]) &&
+                  (!baslikVar || window.SUZGEC.baslikGecer(olaylar[i], baslikSecim));
     olayDom[i].classList.toggle("suzuldu", !gorunur);
     if (!gorunur) gizli++;
   }
@@ -5058,7 +5065,18 @@ function suzgecUrlYaz() {
   else u.searchParams.delete("konu");
   if (toprakSecim) u.searchParams.set("toprak", "1");
   else u.searchParams.delete("toprak");
+  if (baslikSecim && baslikSecim.length) u.searchParams.set("baslik", baslikSecim.join(","));
+  else u.searchParams.delete("baslik");
   window.history.replaceState(null, "", u);
+}
+// ?baslik=konu-askeri,afet-deprem — tanınmayan değer atılır (eski/yanlış bağlantı sessiz
+// bir boş liste üretmesin).
+function baslikUrlOku() {
+  var s = new URL(window.location.href).searchParams.get("baslik");
+  if (!s || !window.SUZGEC.baslikEtiketleri) return null;
+  var gecerli = window.SUZGEC.baslikEtiketleri();
+  var secili = s.split(",").filter(function (g) { return gecerli.indexOf(g) >= 0; });
+  return secili.length ? secili : null;
 }
 function suzgecUrlOku() {
   var s = new URL(window.location.href).searchParams.get("konu");
@@ -5083,15 +5101,20 @@ function suzgecUrlOku() {
   suzgecSecim = suzgecUrlOku();
   toprakSecim = !!window.SUZGEC.toprakIndeksleri &&
                 new URL(window.location.href).searchParams.get("toprak") === "1";
+  baslikSecim = baslikUrlOku();
   window.SUZGEC.KONU_GRUPLARI.forEach(function (g) {
     var et = document.createElement("label");
     var kt = document.createElement("input");
     kt.type = "checkbox";
+    kt.className = "suzgec-grup";
     kt.value = g.id;
     kt.checked = !suzgecSecim || suzgecSecim.indexOf(g.id) >= 0;
     kt.addEventListener("change", function () {
       var secili = [];
-      govde.querySelectorAll("input:checked").forEach(function (e) { secili.push(e.value); });
+      // ⚠️ YALNIZ grup kutuları: eskiden "input:checked" toprak kutusunu da ("on")
+      // topluyordu — toprak açıkken "hepsi seçili" hiç tutmuyor, URL'ye ",on" düşüyordu.
+      // Başlık kutuları da aynı gövdede; sınıfla ayrıldı.
+      govde.querySelectorAll("input.suzgec-grup:checked").forEach(function (e) { secili.push(e.value); });
       // Hepsi işaretliyse "süzme yok" — böylece sayaçta ve URL'de kalıntı olmaz.
       suzgecSecim = (secili.length === window.SUZGEC.KONU_GRUPLARI.length) ? null : secili;
       suzgecUygula();
@@ -5133,6 +5156,64 @@ function suzgecUrlOku() {
     govde.appendChild(tet);
   }
 
+  // 🆕 KONU BAŞLIKLARI (Emre'nin 26 başlığı) + AFET alt türleri — PAKET-ETIKET-UYGULA.
+  // Etiket ekseni (çok değerli): hiçbiri işaretli değilse süzmez; işaretlilerden
+  // BİRİNİ taşıyan madde görünür. Sayılar süzülmemiş Osmanlı zaman çizgisinden;
+  // bir madde birden çok başlıkta sayılır (toplanmaz). 0 olan başlık soluk ama
+  // seçilebilir — veride o başlığın çekirdek maddesi yok demektir, kusur değil.
+  if (window.SUZGEC.KONU_BASLIKLARI && window.SUZGEC.baslikSayilari) {
+    var bSay = window.SUZGEC.baslikSayilari(olaylar);
+    var bBas = document.createElement("div");
+    bBas.className = "suzgec-alt-baslik";
+    bBas.title = "Emre'nin 26 konu başlığı (etiket ekseni). İşaretlenenlerden birini " +
+      "taşıyan maddeler görünür; yukarıdaki gruplar ve toprak kutusuyla birlikte (VE) çalışır.";
+    var bBasYazi = document.createElement("span");
+    bBasYazi.textContent = "Konu başlıkları";
+    bBas.appendChild(bBasYazi);
+    var bTemiz = document.createElement("button");
+    bTemiz.type = "button";
+    bTemiz.className = "suzgec-temizle";
+    bTemiz.textContent = "temizle";
+    bBas.appendChild(bTemiz);
+    govde.appendChild(bBas);
+    var baslikTopla = function () {
+      var s = [];
+      govde.querySelectorAll("input.suzgec-bsl:checked").forEach(function (e) { s.push(e.value); });
+      baslikSecim = s.length ? s : null;
+      suzgecUygula();
+    };
+    var baslikKutu = function (deger, ad, n, sinif) {
+      var lb = document.createElement("label");
+      if (sinif) lb.className = sinif;
+      if (!n) lb.classList.add("suzgec-sifir");
+      var ki = document.createElement("input");
+      ki.type = "checkbox";
+      ki.className = "suzgec-bsl";
+      ki.value = deger;
+      ki.checked = !!(baslikSecim && baslikSecim.indexOf(deger) >= 0);
+      ki.addEventListener("change", baslikTopla);
+      lb.appendChild(ki);
+      var sp = document.createElement("span");
+      sp.textContent = ad;
+      lb.appendChild(sp);
+      var ni = document.createElement("i");
+      ni.textContent = n || 0;
+      lb.appendChild(ni);
+      govde.appendChild(lb);
+    };
+    window.SUZGEC.KONU_BASLIKLARI.forEach(function (h) {
+      baslikKutu(h.etiket, h.ad, bSay[h.etiket], h.id === "afet" ? "suzgec-afet" : "");
+      if (h.id === "afet") window.SUZGEC.AFET_ALT_TURLER.forEach(function (a) {
+        baslikKutu(a.id, a.ad, bSay[a.id], "suzgec-afet-alt");
+      });
+    });
+    bTemiz.addEventListener("click", function (ev) {
+      ev.stopPropagation();
+      govde.querySelectorAll("input.suzgec-bsl:checked").forEach(function (e) { e.checked = false; });
+      baslikTopla();
+    });
+  }
+
   baslik.addEventListener("click", function () {
     kutu.classList.toggle("acik");
   });
@@ -5152,7 +5233,7 @@ function suzgecUrlOku() {
   var _ucus = document.getElementById("ucus-grup");
   if (_h2 && _ucus) _h2.insertBefore(kutu, _ucus);
   else olayListe.parentNode.insertBefore(kutu, olayListe);   // yedek: eski yer
-  if (suzgecSecim || toprakSecim) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
+  if (suzgecSecim || toprakSecim || baslikSecim) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
   suzgecUygula();
 })();
 

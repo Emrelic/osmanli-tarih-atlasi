@@ -32,7 +32,7 @@ window.OLAYLAR_EK22 = [
     onem: 2,
     dunya: 1,
     kapsam: "dis",
-    etiket: ["devlet-kurulus", "hanedan"],
+    etiket: ["devlet-kurulus", "hanedan", "konu-siyasi", "konu-hanedan"],
     yer: "Kirman",
     kisiler: "Ağa Muhammed Han · Lutf Ali Han",
     d: "Zend hânedanının son hükümdarı Lutf Ali Han'ın yenilgisiyle 1751'de kurulan hânedan sona erdi ve İran'ın tamamı Ağa Muhammed Han'ın eline geçti. Kaçar Devleti'nin resmen kuruluşu iki yıl sonraya, Ağa Muhammed Han'ın Tahran'da şehinşahlık tacını giymesine (1796) tarihlenir; ancak tasarruf 1794'te devrolmuştur.", ic_not_d:"Atlas tasarrufu esas aldığı için Derbend'den Ahvaz'a kadar İran ve Kafkasya kayıtlarında Zend dönemi bu günde biter.",

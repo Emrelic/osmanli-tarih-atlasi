@@ -326,6 +326,88 @@ function toprakIndeksleri(maddeGunleri, kirilmaGunleri, pencere) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
+// 6. KONU BAŞLIKLARI (26) + AFET — 13 Eylül 2026, PAKET-ETIKET-UYGULA
+//
+// Emre (0035/H-0066): 26 başlıklık konu listesi · (0035/H-0034): "deprem yangın
+// sel gibi afetleri etiketleyelim". Öneri `data/etiket_yama.js` konu26 + afet
+// bölümleri (PAKET-A5); VERİYE `denetim/ARAC-ETK-UYGULA-0913.py` ile yazıldı:
+//   konu-<id> (25 başlık) · afet (26. başlık = üst etiket) · afet-<alt> (6 alt tür)
+// 🔴 `k:` BÖLÜNTÜSÜNDEN AYRI BİR EKSEN. Yukarıdaki KONU_GRUPLARI tek değerli
+//   (her madde tam bir gruba düşer); başlıklar ÇOK değerli (bir madde hem
+//   Askerî hem Bilim olabilir — Emre'nin açık isteği). Bu yüzden:
+//     · başlık seçimi BOŞSA süzmez (varsayılan: hiçbir şey gizlenmez)
+//     · başlıklar arasında VEYA (seçilenlerden BİRİNİ taşıyan görünür)
+//     · grup kutuları ve toprak kutusuyla VE
+//   Sayılar toplanamaz (bir madde birden çok başlıkta) — bilerek.
+// ⚠️ Etiket veride yoksa (eski önbellekli veri) sayı 0 görünür, madde SİLİNMEZ
+//   yalnız o başlık seçilince gizlenir — sessiz kayıp değil, görünür sıfır.
+// ═══════════════════════════════════════════════════════════════════════════
+var KONU_BASLIKLARI = [
+  { id: "askeri",     ad: "Askerî",                                etiket: "konu-askeri" },
+  { id: "siyasi",     ad: "Siyasî",                                etiket: "konu-siyasi" },
+  { id: "idari",      ad: "İdarî",                                 etiket: "konu-idari" },
+  { id: "diplomasi",  ad: "Diplomasi ve uluslararası ilişkiler",   etiket: "konu-diplomasi" },
+  { id: "kisiler",    ad: "Kişiler",                               etiket: "konu-kisiler" },
+  { id: "isyan",      ad: "İç ayaklanma ve isyanlar",              etiket: "konu-isyan" },
+  { id: "darbe",      ad: "Darbeler",                              etiket: "konu-darbe" },
+  { id: "burokrasi",  ad: "Bürokrasi",                             etiket: "konu-burokrasi" },
+  { id: "hanedan",    ad: "Hânedan",                               etiket: "konu-hanedan" },
+  { id: "bilim",      ad: "Bilim teknoloji",                       etiket: "konu-bilim" },
+  { id: "ekonomi",    ad: "Ekonomi",                               etiket: "konu-ekonomi" },
+  { id: "din",        ad: "Din ve felsefe",                        etiket: "konu-din" },
+  { id: "sanat",      ad: "Sanat",                                 etiket: "konu-sanat" },
+  { id: "kultur",     ad: "Kültür",                                etiket: "konu-kultur" },
+  { id: "spor",       ad: "Spor",                                  etiket: "konu-spor" },
+  { id: "imar",       ad: "İmar ve mimari",                        etiket: "konu-imar" },
+  { id: "egitim",     ad: "Eğitim",                                etiket: "konu-egitim" },
+  { id: "islahat",    ad: "Yenileşme ve ıslahat",                  etiket: "konu-islahat" },
+  { id: "sosyal",     ad: "Sosyal yaşam",                          etiket: "konu-sosyal" },
+  { id: "afet",       ad: "Doğal afetler ve hastalıklar",          etiket: "afet" },
+  { id: "demografi",  ad: "Demografi ve göç",                      etiket: "konu-demografi" },
+  { id: "hukuk",      ad: "Hukuk düzeni",                          etiket: "konu-hukuk" },
+  { id: "ulastirma",  ad: "Ulaştırma haberleşme altyapı",          etiket: "konu-ulastirma" },
+  { id: "sanayi",     ad: "Sanayi tarım hayvancılık madencilik",   etiket: "konu-sanayi" },
+  { id: "kesif",      ad: "Keşif ve icatlar",                      etiket: "konu-kesif" },
+  { id: "magazin",    ad: "Magazin",                               etiket: "konu-magazin" }
+];
+// "Afet" başlığının altı alt türü — üst etiket `afet`, her biri ayrıca seçilebilir.
+var AFET_ALT_TURLER = [
+  { id: "afet-deprem",         ad: "Deprem" },
+  { id: "afet-yangin",         ad: "Yangın" },
+  { id: "afet-sel",            ad: "Sel ve taşkın" },
+  { id: "afet-salgin",         ad: "Salgın hastalık" },
+  { id: "afet-kitlik",         ad: "Kıtlık ve kuraklık" },
+  { id: "afet-volkan-firtina", ad: "Volkan, tsunami, kasırga" }
+];
+
+// Seçilebilir bütün etiket değerleri (URL doğrulaması için).
+function baslikEtiketleri() {
+  return KONU_BASLIKLARI.map(function (h) { return h.etiket; })
+    .concat(AFET_ALT_TURLER.map(function (a) { return a.id; }));
+}
+
+// secim: etiket dizisi ("konu-askeri", "afet-deprem" …). Boş/null → süzmez.
+function baslikGecer(o, secim) {
+  if (!secim || !secim.length) return true;
+  var et = (o && o.etiket) || [];
+  if (typeof et === "string") et = [et];
+  for (var i = 0; i < secim.length; i++) if (et.indexOf(secim[i]) >= 0) return true;
+  return false;
+}
+
+// Etiket başına madde sayısı — SÜZÜLMEMİŞ küme (grupSayilari ile aynı gerekçe).
+function baslikSayilari(olaylar) {
+  var s = {}, tum = baslikEtiketleri();
+  for (var i = 0; i < tum.length; i++) s[tum[i]] = 0;
+  for (var j = 0; j < (olaylar || []).length; j++) {
+    var et = (olaylar[j] && olaylar[j].etiket) || [];
+    if (typeof et === "string") et = [et];
+    for (var k = 0; k < et.length; k++) if (s.hasOwnProperty(et[k])) s[et[k]]++;
+  }
+  return s;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
 // 🆕 PAKET-UI2 (13 Eylül 2026) — SAHİPLİK ANAHTARI · ANTLAŞMA FARKI · ODAK
 // Emre'nin kararı (0035/H-0097 sonrası): *"antlaşma maddesi açılınca antlaşma
 // öncesi ve sonrası harita, aradaki farklar yanıp sönsün — her antlaşma için."*
@@ -476,6 +558,10 @@ var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  onemSuz: onemSuz, onemGecer: onemGecer, onemSay: onemSay,
                  ONEM_VARSAYILAN: ONEM_VARSAYILAN, TUR_GRUP: TUR_GRUP,
                  toprakIndeksleri: toprakIndeksleri,
+                 // PAKET-ETIKET-UYGULA
+                 KONU_BASLIKLARI: KONU_BASLIKLARI, AFET_ALT_TURLER: AFET_ALT_TURLER,
+                 baslikEtiketleri: baslikEtiketleri, baslikGecer: baslikGecer,
+                 baslikSayilari: baslikSayilari,
                  // PAKET-UI2
                  sahipAnahtari: sahipAnahtari, gunKaydir: gunKaydir, sinirIndeksi: sinirIndeksi,
                  sgNorm: sgNorm, kunyeCekirdek: kunyeCekirdek, antlasmaTaraflari: antlasmaTaraflari,

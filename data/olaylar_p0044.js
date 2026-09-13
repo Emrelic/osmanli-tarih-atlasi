@@ -26,14 +26,14 @@
 window.OLAYLAR_P0044 = [
 
 { t:"1556-01-01", b:"Turgut Reis Trablusgarp beylerbeyi oldu — eyalet doğuda Tobruk ve Derne'ye genişledi", tur:"idari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["idari","toprak"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["idari","toprak","konu-askeri","konu-idari"],
   gun:"Mart 1556 (Cemâziyelevvel 963) — beylerbeyiliğin başlangıcı; Tobruk'un alınış yılı kaynakta yok", yer:"Trablusgarp · Berka kıyısı (Tobruk, Derne)",
   yer_id:"Tobruk",
   d:"Trablusgarp'ın 1551'deki fethinden sonra Turgut Reis, Cemâziyelevvel 963'te (Mart 1556) beylerbeyi unvanıyla Trablusgarp'a geldi. Dokuz yıl süren valiliği boyunca eyaletin imar ve tahkimine çalıştı, Osmanlı idaresini güneyde Fizan'a kadar götürdü ve sınırları doğuya doğru genişleterek Berka kıyısındaki Tobruk ile Derne'yi aldı. Böylece Trablusgarp eyaleti Mısır sınırına kadar uzanan kıyı şeridini kapsar hâle geldi.", ic_not_d:"⚠️ TARİH HAKKINDA: TDV beylerbeyiliğin yılını (1556) ve ayını veriyor; Tobruk ile Derne'nin alınışına ayrı yıl vermiyor, yalnız Turgut Reis'in beylerbeyiliği sırasında (1556-1565) olduğunu söylüyor. Atlasın Tobruk için kullandığı 1556 bu dönemin başlangıç yılıdır. ⚠️ KAYNAK HAKKINDA: TDV `berka` Berka bölgesinin Mısır'ın fethinden sonra Osmanlı idaresine bağlandığını yazıyor; iki madde farklı şeyleri anlatıyor olabilir (bölgenin idarî bağı · kıyı kalelerinin fiilen alınışı), çelişki ilan edilmedi.",
   kaynak:"derne + trablusgarp + turgut-reis — TDV derne birebir: 'Trablusgarp Turgut Reis'in teşvik ve gayretleriyle Osmanlı hâkimiyetine geçtikten sonra beylerbeyi unvanı ile buraya yerleşen Turgut Reis (Paşa) sınırlarını genişleterek doğuda Tobruk ve Derne'yi almıştı.' · TDV trablusgarp birebir: '1556'da Turgut Reis beylerbeyilikle buraya geldi. Turgut Reis'in dokuz yıllık valiliği…' · TDV berka: bölgenin 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandığı' · kaynak gösterimi: 1.MURAT M-3636 (TDV derne, KITA 15 YAMA-SIRENAYKA-0912); gövde KITA 14 tarafından 13 Eylül 2026'da ayrıca çekilip doğrulandı." },
 
 { t:"1556-07-16", b:"Kostayniçe ve Novi'nin fethi — Una hattının iki kalesi", tur:"fetih",
-  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak","serhat"],
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak","serhat","konu-askeri"],
   gun:"16 Temmuz 1556", yer:"Una nehri · Hırvat serhaddi",
   yer_id:"Kostayniçe (Kostajnica)",
   d:"1556 yazında Malkoç Bey'in kuşattığı Kostayniçe'yi 60'ı aşkın askerle kaptan Pankracije Lusthaller savunuyordu; kale kuşatmanın başlamasından yalnızca bir gün sonra, 16 Temmuz'da teslim edildi ve Lusthaller kaleyi sattığı gerekçesiyle suçlandı. Kısa süre sonra Novi de alınıp yakıldı; böylece Una üzerindeki en önemli iki kale bir hamlede Osmanlı eline geçti. Aynı yıl Viyana'da serhad savunmasını merkezden yönetecek Saray Savaş Konseyi (Hofkriegsrat) kuruldu.", ic_not_d:"⚠️ KAYNAK HAKKINDA: TDV'nin `hirvatistan`, `bosna-hersek`, `malkocogullari` ve `bihac` maddeleri bu iki kaleyi anmıyor; gün akademik kaynaktandır. Novi için kaynak gün vermiyor, yalnız 'kısa süre sonra' diyor.",
@@ -49,7 +49,7 @@ window.OLAYLAR_P0044 = [
 //    Aşağıdaki madde o değişimi çekirdekte adıyla anlatır ve Osmanlı bağını kurar.
 // ─────────────────────────────────────────────────────────────────────
 { t:"1556-01-01", b:"Moskova Çarlığı Astarhan'ı aldı — Aşağı Volga Rus denetimine girdi", tur:"diger",
-  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak","konu-askeri"],
   gun:"1556", ic_not_gun:"TDV yıl verir, gün vermez", yer:"Astarhan · Aşağı Volga",
   yer_id:"Astrahan",
   d:"Moskova Çarlığı 1556'da Astarhan'ı da alarak, TDV'nin ifadesiyle 'ilerisi için çok önemli sonuçlar doğuracak bir hamle' yaptı; Astarhan Hanlığı'nın işgaliyle Aşağı Volga Rus denetimine girdi. Kırım Hanı Devlet Giray bu işgalleri önlemek istediyse de başarılı olamadı. Osmanlılar bu gelişmeye 1569'da Astarhan seferiyle karşılık verdi; ancak Aşağı Volga bölgesinin kontrolünde başarılı olamayınca Moskova Çarlığı ile mücadeleyi Kırım hanına bıraktılar.", ic_not_d:"TARİH HAKKINDA: TDV yıl veriyor (1556), gün vermiyor; `astarhan-hanligi` maddesi işgale tarih vermiyor.  HARİTA HAKKINDA: atlas aynı gün Aşağı Volga'daki Astarhan ve Nogay kayıtlarını Rusya'ya geçiriyor.",
@@ -64,14 +64,14 @@ window.OLAYLAR_P0044 = [
 //  · Kâime 1840: KITA 28 ekonomi pilotunun tek eksik adayı (1.MURAT M-3722).
 // ─────────────────────────────────────────────────────────────────────
 { t:"1574-01-01", b:"Mâku Osmanlı'ya geçti — Mahmûdî İvaz Bey'e kale yapma görevi", tur:"fetih",
-  onem:2, dunya:1, kapsam:"dis", etiket:["toprak","askeri"],
+  onem:2, dunya:1, kapsam:"dis", etiket:["toprak","askeri","konu-askeri"],
   gun:"1574", yer:"Mâku · İran Azerbaycanı sınırı", yer_id:"Mâku",
   d:"1574 yılında Osmanlı Devleti, Mahmûdî Kürt kabilesinin reisi İvaz Bey'i Mâku'yu İranlılar'dan alıp orada bir kale yapmakla görevlendirdi. Van eyaletinin doğu ucundaki bu kale, Osmanlı döneminde bölgede cereyan eden olaylarda önemli bir yer tuttu.",
   ic_not_d:"Tarih: TDV yalnız yıl veriyor (1574) → YYYY-01-01. Harita: KITA 29 Ferhat Paşa yaması Mâku'nun d: başlangıcını aynı güne yazıyor; madde ile yama BİRLİKTE inmeli (1.MURAT M-3764). Pencere ölçümü: 1574-01-01'de bugün Ufa (rusya) ve Elicpûr (ahmednagar) yabancı kırılmaları var; bu madde onları ±30 gün ölçütünde 'kapatır' ama anlatmaz (D147).",
   kaynak:"maku — TDV maku birebir: '1574 yılında Osmanlı Devleti, Mahmûdî Kürt kabilesi reisi İvaz Bey’i Mâkû’yu İranlılar’dan alıp burada bir kale yapmakla görevlendirdi. Osmanlı döneminde özellikle bu kalenin bölgede cereyan eden olaylarda önemli bir yeri olmuştur.'" },
 
 { t:"1840-01-01", b:"İlk Osmanlı kâğıt parası (kâime) çıkarıldı", tur:"ekonomi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","konu-ekonomi"],
   gun:"muhtemelen Haziran 1840", yer:"İstanbul", yer_id:"İstanbul",
   d:"Tanzimat'ın ilk yıllarında maliyeye gelir bulma arayışı sırasında, sonradan şeyhülislâm olacak Ârif Hikmet Bey'in teklifiyle esham sisteminin geliştirilmiş bir biçimi olan kâime uygulaması kabul edildi. Toplam 160.000 lira (32.000 kese) tutarındaki ilk kâimeler, acil para ihtiyacı yüzünden basılmayı beklemeden el yazısıyla, Maliye Nâzırı Sâib Paşa zamanında muhtemelen Haziran 1840'ta çıkarıldı. Nakit para hükmündeki bu kâğıtların tedavül süresi sekiz yıl, faizi yıllık %12,5'ti; karşılıkları yoktu, yalnız faizlerine İstanbul gümrüğü gelirinden karşılık gösterildi. Halk alışık olmadığı bu parayı olumlu karşılamadı ve el yazısı kâimeler kısa sürede kalpazanların hedefi oldu.",
   ic_not_d:"Tarih: TDV 'muhtemelen Haziran 1840' diyor — ay bile kesin değil; §4 gereği yıl yazıldı (1.MURAT M-3722 kararı), ay metinde. Pencere: 1840-01-01'deki kırılmaların hepsi başka maddelerle zaten kapalı, bu madde hiçbirini tek başına kapatmıyor.",

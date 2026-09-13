@@ -16,7 +16,10 @@ window.OLAYLAR_KAMERIKA = [
     "k": "idari",
     "etiket": [
       "siyaset",
-      "toprak-kazanc"
+      "toprak-kazanc",
+      "konu-askeri",
+      "konu-siyasi",
+      "konu-idari"
     ],
     "b": "Britanya, Arktik Takımadalar'ı Kanada'ya devretti",
     "gun": "1 Eylül 1880",
@@ -37,7 +40,9 @@ window.OLAYLAR_KAMERIKA = [
     "k": "antlasma",
     "etiket": [
       "antlasma",
-      "toprak-kayip"
+      "toprak-kayip",
+      "konu-askeri",
+      "konu-diplomasi"
     ],
     "b": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
     "gun": "3 Temmuz 1868",
@@ -58,7 +63,9 @@ window.OLAYLAR_KAMERIKA = [
     "k": "siyaset",
     "etiket": [
       "siyaset",
-      "idari"
+      "idari",
+      "konu-siyasi",
+      "konu-idari"
     ],
     "b": "Yeni İspanya Genel Valiliği kuruldu",
     "gun": "17 Nisan 1535",
@@ -79,7 +86,9 @@ window.OLAYLAR_KAMERIKA = [
     "k": "antlasma",
     "etiket": [
       "antlasma",
-      "toprak-kayip"
+      "toprak-kayip",
+      "konu-askeri",
+      "konu-diplomasi"
     ],
     "b": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
     "gun": "3 Kasım 1762",
@@ -100,7 +109,8 @@ window.OLAYLAR_KAMERIKA = [
     "k": "antlasma",
     "etiket": [
       "antlasma",
-      "diplomasi"
+      "diplomasi",
+      "konu-diplomasi"
     ],
     "b": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
     "gun": "17 Eylül 1851",
@@ -121,7 +131,10 @@ window.OLAYLAR_KAMERIKA = [
     "k": "kurulus",
     "etiket": [
       "ekonomi",
-      "idari"
+      "idari",
+      "konu-siyasi",
+      "konu-idari",
+      "konu-ekonomi"
     ],
     "b": "Fort Halkett kuruldu — Liard boyunca kürk hattı",
     "gun": "1829", "ic_not_gun": "kaynak yıl verir, gün vermez",
@@ -142,7 +155,10 @@ window.OLAYLAR_KAMERIKA = [
     "k": "kurulus",
     "etiket": [
       "ekonomi",
-      "idari"
+      "idari",
+      "konu-siyasi",
+      "konu-idari",
+      "konu-ekonomi"
     ],
     "b": "Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi",
     "gun": "1829", "ic_not_gun": "kaynak yıl verir, gün vermez",
@@ -162,7 +178,9 @@ window.OLAYLAR_KAMERIKA = [
     "t": "1829-01-01",
     "k": "kurulus",
     "etiket": [
-      "idari"
+      "idari",
+      "konu-siyasi",
+      "konu-idari"
     ],
     "b": "Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim",
     "gun": "1829", "ic_not_gun": "kaynak yıl verir, gün vermez",
@@ -182,7 +200,9 @@ window.OLAYLAR_KAMERIKA = [
     "t": "1803-01-01",
     "k": "kurulus",
     "etiket": [
-      "ekonomi"
+      "ekonomi",
+      "konu-siyasi",
+      "konu-ekonomi"
     ],
     "b": "Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi",
     "gun": "1803", "ic_not_gun": "kaynak yıl verir, gün vermez",
@@ -203,7 +223,10 @@ window.OLAYLAR_KAMERIKA = [
     "k": "kurulus",
     "etiket": [
       "askeri",
-      "idari"
+      "idari",
+      "konu-askeri",
+      "konu-siyasi",
+      "konu-idari"
     ],
     "b": "Fort Dearborn kuruldu — Chicago geçidinde ABD karakolu",
     "gun": "1803", "ic_not_gun": "kaynak yıl verir, gün vermez",
@@ -223,7 +246,9 @@ window.OLAYLAR_KAMERIKA = [
     "t": "1803-01-01",
     "k": "kurulus",
     "etiket": [
-      "ekonomi"
+      "ekonomi",
+      "konu-siyasi",
+      "konu-ekonomi"
     ],
     "b": "Fort George (Chisasibi) kuruldu — James Körfezi'nin doğu kıyısı",
     "gun": "1803", "ic_not_gun": "kaynak yıl verir, gün vermez",
