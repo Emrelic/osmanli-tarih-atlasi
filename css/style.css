@@ -1908,6 +1908,9 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 }
 /* Sayı sağa yaslı ve soluk: bilgi ama karar değil. */
 .suzgec-govde label i { margin-left: auto; font-style: normal; opacity: .55; font-size: 11px; }
+/* 13 Eylül 2026 — 0042/H-0003: konu kutucuklarından AYRI bir eksen (VE bağlı),
+   o yüzden çizgiyle ayrılıyor. */
+.suzgec-govde label.suzgec-toprak { margin-top: 4px; padding-top: 5px; border-top: 1px solid #d8c9a3; font-weight: 600; }
 
 /* Süzülen kronoloji satırı GİZLENİR, silinmez — indeksler korunuyor. */
 .olay.suzuldu { display: none; }
@@ -2254,6 +2257,10 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 }
 #harita.cok-uzak .savas-isaret .sv-ad { display: none; }
 #harita.cok-uzak .savas-isaret .sv-ikon { transform: scale(0.72); }
+/* 13 Eylül 2026 — 0042/H-0023·24·26: şehir etiketiyle çarpışan işaret artık
+   SİLİNMİYOR, küçük simgeye iniyor (app.js savasGuncelle `sv-sade`). */
+.savas-isaret.sv-sade .sv-ad { display: none; }
+.savas-isaret.sv-sade .sv-ikon { transform: scale(0.72); opacity: 0.9; }
 
 /* 🆕 13 Eylül 2026 — paket 0046 H-0006. Ayrı bir keyframe İCAT EDİLMEDİ:
    `odakParla` (yukarıda, .odak-parlama ile paylaşılan) aynı büyüyüp-sönme

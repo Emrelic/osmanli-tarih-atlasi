@@ -285,16 +285,58 @@ var TUR_GRUP = {
   diger: "diger"
 };
 
+// ---------------------------------------------------------------------------
+// 5. TOPRAK SÜZGECİ — 13 Eylül 2026, 0042/H-0003 (PAKET-A1)
+//
+// Emre: *"sadece toprak eklenmesi ve toprak kaybedilmesi kronolojik
+// maddelerini oynatsın sistem."*
+// 🔴 ETİKETTEN DEĞİL KIRILMADAN TÜRETİLİR. `k:"fetih"/"kayip"` bir KONU
+//   beyanıdır; toprağın haritada GERÇEKTEN değiştiğini söylemez (bir kuşatma
+//   `fetih` taşıyıp sınırı değiştirmeyebilir, bir antlaşma `antlasma`
+//   taşıyıp değiştirebilir). Haritanın kendisi ise değişim günlerini zaten
+//   biliyor: Osmanlı dönemlerinin (`DONEMLER`) sınırları.
+// KURAL `Değişmez 2`nin aynısı: her kırılma gününe EN YAKIN madde, fark
+//   ≤ `pencere` (30) gün ise "toprak maddesi"dir. Aynı güne düşen öteki
+//   maddeler de işaretlenir (beraberlik — hangisinin "asıl" olduğunu bu
+//   katman bilemez). En yakın madde 30 günden uzaksa HİÇBİR madde
+//   işaretlenmez: o kırılma maddesizdir ve bu süzgeç onu uyduramaz.
+// ⚠️ KAPSAM: yalnız Osmanlı gövdesi (`DONEMLER` o/v). Yabancı devletlerin
+//   kendi aralarındaki el değiştirmeleri bu süzgeçte YOK.
+// maddeGunleri: ARTAN sırada gün indeksleri · kirilmaGunleri: gün indeksleri
+// Döner: { isaretli: {index:true}, kirilma, maddeli, maddesiz }
+function toprakIndeksleri(maddeGunleri, kirilmaGunleri, pencere) {
+  var P = pencere == null ? 30 : pencere;
+  var M = maddeGunleri || [], isaretli = {}, maddeli = 0, maddesiz = 0;
+  for (var i = 0; i < (kirilmaGunleri || []).length; i++) {
+    var k = kirilmaGunleri[i];
+    if (!M.length) { maddesiz++; continue; }
+    var lo = 0, hi = M.length - 1;               // ilk M[x] >= k
+    while (lo < hi) { var md = (lo + hi) >> 1; if (M[md] < k) lo = md + 1; else hi = md; }
+    var aday = lo;
+    if (lo > 0 && Math.abs(M[lo - 1] - k) <= Math.abs(M[lo] - k)) aday = lo - 1;
+    if (Math.abs(M[aday] - k) > P) { maddesiz++; continue; }
+    maddeli++;
+    var g = M[aday], j = aday;
+    while (j >= 0 && M[j] === g) isaretli[j--] = true;
+    j = aday + 1;
+    while (j < M.length && M[j] === g) isaretli[j++] = true;
+  }
+  return { isaretli: isaretli, kirilma: (kirilmaGunleri || []).length,
+           maddeli: maddeli, maddesiz: maddesiz };
+}
+
 // Tarayıcıda global, node'da modül — dosya iki ortamda da sınanabilsin diye.
 if (typeof window !== "undefined") {
   window.SUZGEC = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                     grupSayilari: grupSayilari, bilinmeyenler: bilinmeyenler,
                     onemSuz: onemSuz, onemGecer: onemGecer, onemSay: onemSay,
-                    ONEM_VARSAYILAN: ONEM_VARSAYILAN, TUR_GRUP: TUR_GRUP };
+                    ONEM_VARSAYILAN: ONEM_VARSAYILAN, TUR_GRUP: TUR_GRUP,
+                    toprakIndeksleri: toprakIndeksleri };
 }
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                      grupSayilari: grupSayilari, bilinmeyenler: bilinmeyenler,
                      onemSuz: onemSuz, onemGecer: onemGecer, onemSay: onemSay,
-                     ONEM_VARSAYILAN: ONEM_VARSAYILAN, TUR_GRUP: TUR_GRUP };
+                     ONEM_VARSAYILAN: ONEM_VARSAYILAN, TUR_GRUP: TUR_GRUP,
+                     toprakIndeksleri: toprakIndeksleri };
 }

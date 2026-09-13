@@ -1323,7 +1323,15 @@ harita.on("load", function () {
   // ⇒ Kuyruğun kendi önerisi uygulandı: "alttaki gövdeyi üsttekinin ALTINA
   // TAM OPAK boyamak". Üçü de artık `fill-opacity: 1` — z-sırası (devlet <
   // vassal < osmanli, ekleniş sırasıyla) hangi rengin KAZANDIĞINI kesin
-  // belirliyor, blend YOK. `himaye-dolgu` (aşağıda) zaten bu ilkeyle
+  // belirliyor, blend YOK.
+  // 🔴 KAYIT — 13 Eylül 2026, PAKET-A1 (0031/H-0005 · 0030/H-0001), M-2104
+  //   hükmünün istediği cümle: *"(c) DOĞRUSUYDU, (b) ile 0031/H-0019
+  //   ÖRTÜLDÜ."* Bu opaklık (b)'dir: koyu kırmızıyı SİLER ama iki sahiplik
+  //   iddiasının kendisini (Değişmez 3 "nokta-içinde" çakışması — (c)) ÇÖZMEZ,
+  //   yalnız hangisinin görüneceğini katman sırasına bırakır. Çakışma veride
+  //   durdukça üstteki (Osmanlı) sessizce kazanır — yarın "Osmanlı fazla
+  //   görünüyor" diye yeniden bulunursa sebep budur. YUMUŞAK kipte
+  //   (`SIYASI_KIP.yumusak`) harman bilerek geri gelir. `himaye-dolgu` (aşağıda) zaten bu ilkeyle
   // eklenmişti; bu satır geri kalan üçünü AYNI ilkeye getiriyor.
   // ⚠️ BEDEL, AÇIKÇA YAZILIYOR: Esri altlığının dokusu artık sahip toprağın
   // İÇİNDE görünmüyor (önceden yarı saydamdı) — sahipsiz alan ve deniz
@@ -3212,11 +3220,21 @@ function savasGuncelle(t) {
     var sr = sehirler[si].ic.getBoundingClientRect();
     if (sr && sr.width) tutulan.push(sr);
   }
+  // 🔴 13 Eylül 2026 — 0042/H-0023·24·26 (PAKET-A1). Emre: *"en azından ufak
+  // bir çift kılıç simgesi ile … zoom hangi aşamada olursa olsun
+  // işaretlenebilir."* Savra · Frenkyazısı · Bileca uzak zoomda yok
+  // oluyordu: çarpışan işaret aşağıda `mk.remove()` ile SİLİNİYORDU, ve
+  // uzak zoomda şehir etiketleri her yeri kapladığı için hemen hepsi
+  // çarpışıyordu. Artık silinmiyor: çarpışan işaret `sv-sade` sınıfıyla
+  // yalnız KÜÇÜK SİMGEYE iner (ad etiketi gizli, css/style.css).
+  // Sınıf her geçişte önce kaldırılır ki ölçüm tam boyla yapılsın.
   for (var mi2 = 0; mi2 < savasIsaretleri.length; mi2++) {
     var mm = savasIsaretleri[mi2];
     if (!mm.ekli) continue;
-    if (odakGi !== null && mm.gi === odakGi) continue;   // odaktaki: dokunma
     var el = mm.mk.getElement();
+    var svIc = el ? el.firstChild : null;
+    if (svIc) svIc.classList.remove("sv-sade");
+    if (odakGi !== null && mm.gi === odakGi) continue;   // odaktaki: dokunma
     var r = el ? el.getBoundingClientRect() : null;
     if (!r || !r.width) continue;
     var carpti = false;
@@ -3225,7 +3243,7 @@ function savasGuncelle(t) {
       if (r.left < o.right && r.right > o.left &&
           r.top < o.bottom && r.bottom > o.top) { carpti = true; break; }
     }
-    if (carpti) { mm.mk.remove(); mm.ekli = false; }
+    if (carpti) { if (svIc) svIc.classList.add("sv-sade"); }
     else { tutulan.push(r); }
   }
 }
@@ -4951,11 +4969,36 @@ function kopyaMenusuAc(e, o, kaynakEl) {
 // tarihe giderdi — kullanıcının göremeyeceği, denetimin ötmeyeceği bir hata.
 var suzgecSecim = null;                       // null = süzme yok (hepsi açık)
 
+// 🆕 TOPRAK SÜZGECİ — 13 Eylül 2026, 0042/H-0003 (PAKET-A1). Emre: *"sadece
+// toprak eklenmesi ve toprak kaybedilmesi kronolojik maddelerini oynatsın."*
+// Mantık `suzgec.js` `toprakIndeksleri`nde (DOM'suz, node'da sınandı:
+// `denetim/ARAC-A1-TOPRAK-0913.js`). Kırılma günleri ETİKETTEN değil
+// haritanın çizdiği dönem sınırlarından (`donemler[i].fi`, i ≥ 1) gelir.
+// Ölçüm (13 Eylül): 520 kırılma · 520'si maddeli · 525/1350 madde işaretli.
+// Konu süzgeciyle VE bağlanır (ikisi birden açıksa ikisini de sağlamalı).
+var toprakSecim = false;
+var _toprakIsaret = null;
+function toprakIsaret() {
+  if (_toprakIsaret) return _toprakIsaret;
+  var kir = [];
+  for (var d = 1; d < donemler.length; d++) kir.push(donemler[d].fi);
+  _toprakIsaret = window.SUZGEC.toprakIndeksleri(
+    olaylar.map(function (o) { return o.gi; }), kir, 30);
+  return _toprakIsaret;
+}
+// Oynatma ve ⏮/⏭ süzülmüş maddeyi ATLAR — yoksa süzgeç yalnız listeyi
+// gizler, akış yine her maddeye uğrardı (13 Eylül'e kadar böyleydi).
+function suzulduMu(i) {
+  return !!(olayDom[i] && olayDom[i].classList.contains("suzuldu"));
+}
+
 function suzgecUygula() {
   var gizli = 0;
+  var toprakVar = toprakSecim && window.SUZGEC.toprakIndeksleri;
   for (var i = 0; i < olaylar.length; i++) {
-    var gorunur = !suzgecSecim ||
-                  suzgecSecim.indexOf(window.SUZGEC.maddeGrubu(olaylar[i])) >= 0;
+    var gorunur = (!suzgecSecim ||
+                   suzgecSecim.indexOf(window.SUZGEC.maddeGrubu(olaylar[i])) >= 0) &&
+                  (!toprakVar || !!toprakIsaret().isaretli[i]);
     olayDom[i].classList.toggle("suzuldu", !gorunur);
     if (!gorunur) gizli++;
   }
@@ -4980,6 +5023,8 @@ function suzgecUrlYaz() {
   var u = new URL(window.location.href);
   if (suzgecSecim) u.searchParams.set("konu", suzgecSecim.join(","));
   else u.searchParams.delete("konu");
+  if (toprakSecim) u.searchParams.set("toprak", "1");
+  else u.searchParams.delete("toprak");
   window.history.replaceState(null, "", u);
 }
 function suzgecUrlOku() {
@@ -5003,6 +5048,8 @@ function suzgecUrlOku() {
   govde.className = "suzgec-govde";
 
   suzgecSecim = suzgecUrlOku();
+  toprakSecim = !!window.SUZGEC.toprakIndeksleri &&
+                new URL(window.location.href).searchParams.get("toprak") === "1";
   window.SUZGEC.KONU_GRUPLARI.forEach(function (g) {
     var et = document.createElement("label");
     var kt = document.createElement("input");
@@ -5028,6 +5075,31 @@ function suzgecUrlOku() {
     govde.appendChild(et);
   });
 
+  // 🆕 H-0003 — ayrı satır, konu kutucuklarının ALTINDA. Sayı süzülmemiş
+  // kümeden (yukarıdaki sayılarla aynı gerekçe). `toprakIndeksleri` yoksa
+  // (eski önbellekli suzgec.js) kutucuk HİÇ çıkmaz — çalışmayan bir düğme
+  // göstermektense yokluk dürüsttür.
+  if (window.SUZGEC.toprakIndeksleri) {
+    var tr = toprakIsaret();
+    var tet = document.createElement("label");
+    tet.className = "suzgec-toprak";
+    tet.title = "Yalnız haritada Osmanlı toprağının değiştiği günlerin maddeleri " +
+      "(dönem sınırına en yakın madde, ±30 gün). Oynatma ve ⏮/⏭ ötekileri atlar. " +
+      tr.kirilma + " kırılma · " + tr.maddesiz + " maddesiz.";
+    var tkt = document.createElement("input");
+    tkt.type = "checkbox";
+    tkt.checked = toprakSecim;
+    tkt.addEventListener("change", function () { toprakSecim = tkt.checked; suzgecUygula(); });
+    tet.appendChild(tkt);
+    var tad = document.createElement("span");
+    tad.textContent = "Yalnız toprak değişimi";
+    tet.appendChild(tad);
+    var tn = document.createElement("i");
+    tn.textContent = Object.keys(tr.isaretli).length;
+    tet.appendChild(tn);
+    govde.appendChild(tet);
+  }
+
   baslik.addEventListener("click", function () {
     kutu.classList.toggle("acik");
   });
@@ -5047,7 +5119,7 @@ function suzgecUrlOku() {
   var _ucus = document.getElementById("ucus-grup");
   if (_h2 && _ucus) _h2.insertBefore(kutu, _ucus);
   else olayListe.parentNode.insertBefore(kutu, olayListe);   // yedek: eski yer
-  if (suzgecSecim) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
+  if (suzgecSecim || toprakSecim) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
   suzgecUygula();
 })();
 
@@ -6955,9 +7027,24 @@ function kisiBul(ad) {
 //   Bey" diye anılır — eklemek DOĞRU eşleşmeleri kırardı.
 // ⚠️ `sultan · han · gazi · çelebi` de YOK, çünkü BAĞDAŞIRLAR
 //   (I. Mehmed "Çelebi", Osman "Gazi").
-var PADISAH_OLAMAZ = /(^|\s)(paşa|pasa|reis|ağa|aga|efendi|hazretleri)(\s|$)/i;
+// 13 Eylül 2026 (0042/H-0040): `şah · emîr · şeyh · mirza` eklendi — Osmanlı
+// padişahı bu unvanları taşımaz; "Şah Mehmed" (Karakoyunlu, 1411 Bağdat)
+// zaman korumasından geçip I. Mehmed'e tutuyordu, "Emîr Süleyman" Kanunî'ye.
+var PADISAH_OLAMAZ = /(^|\s)(paşa|pasa|reis|ağa|aga|efendi|hazretleri|şah|emîr|emir|şeyh|mirza|mîrzâ)(\s|$)/i;
 
-function padisahEslesmesi(ad) {
+// 🔴 ZAMAN KORUMASI — 13 Eylül 2026 (0042/H-0040 · H-0041, PAKET-A1).
+// Tek öz adlı kişi ("Emîr Süleyman Çelebi" → ["süleyman"], "Sultan Ahmed"
+// Celâyirî → ["ahmed"]) ilk adaşı padişaha tutuyordu: 1411'de KANUNÎ, 1411
+// Bağdat'ta I. AHMED portresi. Ad tek başına ayırt edemiyor; TARİH ediyor.
+// `gi` (madde günü) verilirse saltanatın [başı − 30 yıl, sonu + 3 yıl]
+// dışındaki aday ATLANIR ve sıradaki adaşa bakılır — böylece "III. Osman"
+// (1755) Osman Gazi'ye değil III. Osman'a düşer.
+// Ölçüm (denetim/ARAC-A1-PORTRE-0913.js, 6195 madde): anakronik eşleşme 38 → bkz. PAKET-A1-ARAYUZ-0913.md
+// ⚠️ 45 yıl denendi ve DAR DEĞİL GENİŞ çıktı: 1537 Klis'teki "Murad Bey"
+//   III. Murad'a (d. 1546) tuttu. 30 yıl şehzadelik maddelerini tutuyor
+//   (Şehzade Mehmed 1582 → III. Mehmed 1595).
+var PADISAH_ONCE_GUN = 30 * 365, PADISAH_SONRA_GUN = 3 * 365;
+function padisahEslesmesi(ad, gi) {
   // 🔴 ÖLÇÜLMÜŞ KUSUR — süzgeç AYIRT EDİCİ kelimeyi yutuyordu.
   // Aşağıdaki koruma kuralı ("iki tarafta da birden çok öz ad varsa tek
   // ortak kelime yetmez") sağlamdır; ama `ozAdlar` "paşa"yı ATTIĞI için
@@ -6984,6 +7071,7 @@ function padisahEslesmesi(ad) {
     var ortak = aw.filter(function (w) { return pw.indexOf(w) >= 0; }).length;
     if (ortak < (aw.length >= 2 ? 2 : 1)) continue;
     if (sira && psira && sira[1] !== psira[1]) continue;
+    if (gi != null && (gi < gunIdx(p.from) - PADISAH_ONCE_GUN || gi > gunIdx(p.to) + PADISAH_SONRA_GUN)) continue;
     return p;
   }
   return null;
@@ -7179,8 +7267,9 @@ function obGoster(o) {
   if (vefatKisi) {
     pad = vefatKisi; padBelirli = true;
   } else if (o.kisiler) {
-    var adlar = o.kisiler.split(",");
-    for (var i = 0; i < adlar.length && !pad; i++) pad = padisahEslesmesi(adlar[i]);
+    // `;` de ayraç: "Köprülü Mehmed Paşa; … ; IV. Mehmed" tek ad sanılıyordu.
+    var adlar = o.kisiler.split(/[,;]/);
+    for (var i = 0; i < adlar.length && !pad; i++) pad = padisahEslesmesi(adlar[i], o.gi);
     if (pad) padBelirli = true;
   }
   // p5/H-0015 — kullanıcı: "padişahın resmini zaten yukarıda gösteriyoruz",
@@ -7239,8 +7328,8 @@ function obGoster(o) {
   if (an) kutu("Antlaşma hükmü", karsiTaraf(an) + " ile · " + an.ozet);
   if (o.kisiler) {
     var yazilan = {};
-    o.kisiler.split(",").slice(0, 4).forEach(function (ad) {
-      if (padisahEslesmesi(ad)) return;          // padişah zaten portre olarak görünüyor
+    o.kisiler.split(/[,;]/).slice(0, 4).forEach(function (ad) {
+      if (padisahEslesmesi(ad, o.gi)) return;    // padişah zaten portre olarak görünüyor
       var k = kisiBul(ad);
       if (k && !yazilan[k.ad]) {
         yazilan[k.ad] = 1;
@@ -7837,6 +7926,7 @@ function oynatDurdur() {
     var adimla = function () {
       olayIndexTazele();
       var i = suankiOlayI + 1;
+      while (i < olaylar.length && suzulduMu(i)) i++;   // süzülmüş: atla (H-0003)
       if (i >= olaylar.length) { oynatDurdur(); return; }
       suankiOlayI = i;
       olayaGit(olaylar[i]);                      // otomatik akış, KAMERA hakemli
@@ -9570,16 +9660,20 @@ function odakOfseti(hedef, kap) {
 // bkz. suankiOlayI/olayIndexTazele yorumu.
 document.getElementById("btn-geri").addEventListener("click", function () {
   olayIndexTazele();
-  if (suankiOlayI <= 0) { suankiOlayI = -1; tarihAyarla(BASLANGIC); return; }
-  suankiOlayI--;
+  var gi2 = suankiOlayI - 1;
+  while (gi2 >= 0 && suzulduMu(gi2)) gi2--;       // süzülmüş: atla (H-0003)
+  if (gi2 < 0) { suankiOlayI = -1; tarihAyarla(BASLANGIC); return; }
+  suankiOlayI = gi2;
   // ⏮ ELLE yapılan bir eylem ⇒ KAMERA hakemli + 🛩 anahtarını zorlar.
   // (Panel gösterimi eskisi gibi KAPALI — bu düğme paneli hiç açmıyordu.)
   olayaGit(olaylar[suankiOlayI], false, true);
 });
 document.getElementById("btn-ileri").addEventListener("click", function () {
   olayIndexTazele();
-  if (suankiOlayI >= olaylar.length - 1) { tarihAyarla(BITIS); return; }
-  suankiOlayI++;
+  var ii2 = suankiOlayI + 1;
+  while (ii2 < olaylar.length && suzulduMu(ii2)) ii2++;   // süzülmüş: atla (H-0003)
+  if (ii2 >= olaylar.length) { tarihAyarla(BITIS); return; }
+  suankiOlayI = ii2;
   olayaGit(olaylar[suankiOlayI], false, true);   // ⏭ — aynı gerekçe
 });
 
