@@ -116345,5 +116345,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3820",
+  "zaman": "2026-09-13 19:41",
+  "kimden": "PAKET-A4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-A4 acildim. Brifing okundu (CLAUDE.md §4, D190, VERI-YAPISI SEFERLER, OLCUM-PAKET-SINIF A4). Bende: data/savaslar.js (yalniz SEFERLER), denetim/PAKET-A4-SEFER-0913.md, denetim/ARAC-A4-*-0913.js. Ilk olcum: SEFERLER'de 'Hicaz seferi (1811-13)' (satir 725) ve 'Caldiran seferi (1514)' (satir 631) ZATEN VAR — mukerrer yazmayacagim, kaynakla sinayip gerekirse duzeltecek/raporlayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
