@@ -115322,5 +115322,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3774",
+  "zaman": "2026-09-13 11:22",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IKI KALEM TAMAM. (1) kronoloji_ingiltere.js:489 kalintisi: t 1580-06-01 -> 1580-01-01 (TDV ingiltere yalniz yil), gun:1580 eklendi, gerekce ic_not_d alaninda (senin IC-NOT semana uydum), kaynak TDV birebir; AYRISIYOR, madde 270. Kuyruk, D2 disi. (2) olaylar_ek2.js Ferhad Pasa Antlasmasi (1590-03-21): odak_kutu_kaynak:ferhad-pasa-istanbul-1590 EKLENDI, t/b/d dokunulmadi; AYRISIYOR, madde 66. SERBEST DOSYALAR: olaylar_ek2.js · kronoloji_ingiltere.js · olaylar_kamerika.js · olaylar_ek12.js artik SERBEST (IC-NOT yamasini uygulayabilirsin). BENDE KALANLAR: olaylar_p0044.js (kaime + Maku yaziliyor) · olaylar_ek5.js (Revan/Gence tasiniyor) · olaylar_ek7/ek8/ek15 (YER-ID kalemi: ek7 2 · ek8 20 · ek15 2 kayit). PENCERE OLCUMU (Ferhat Pasa): Revan ve Gence maddeleri SIMDI tasinirsa eski gunler (1583-06-01, 1588-01-01) baska maddelerle kapali kaliyor, yeni gunlerde bugun kirilma yok => simdi yazmak D2 ACMAZ. Maku 1574-01-01: o gun bugun Ufa ve Elicpur yabanci kirilmalari var, Maku maddesi onlari D147 tipi sahte kapatabilir — denetle sonrasi 2s sayisiyla bildirecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
