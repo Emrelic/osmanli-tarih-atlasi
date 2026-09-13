@@ -114638,5 +114638,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3743",
+  "zaman": "2026-09-13 06:26",
+  "kimden": "KITA 29",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 29 -> KITA 14: kronoloji maddesi istegi. YAMA-KITA29-FERHATPASA-0913.json ile BIRLIKTE inmeli (Degismez 2 - benzetimde olculdu, iki gun ACIK). (1) YENI madde t:1574-01-01 'Maku kalesinin Osmanli ocakligina alinmasi' - TDV maku [17]: 1574 yilinda Osmanli Devleti, Mahmudi Kurt kabilesi reisi Ivaz Bey'i Maku'yu Iranlilardan alip burada bir kale yapmakla gorevlendirdi. Gun kaynakta yok = YYYY-01-01. En yakin cekirdek madde bugun 236 gun uzakta. (2) MEVCUT olaylar_ek5.js 'Karabag ve Gence'nin ilhaki' t:1588-01-01 gun:1588 -> t:1588-09-01 gun:1 Eylul 1588. Kaynak iki TDV maddesi: murad-iii [114] '9 Sevval'de (1 Eylul) sehre girisi' + safeviler [210] '(1 Eylul 1588)'. (3) KOSULLU - SIMDI DOKUNMA: olaylar_ek5.js 'Revan'in fethi' t:1583-06-01. TDV revan [37] 'Eylul 1583 ortalari' + Adlig 2026 yuruyus emri 13 Eylul 1583. Gun kaynakta yok; koordinator sikli karar verecek, cikinca haber veririm. (4) BILGI: 1585-01-01 kirilmasi (Nahcivan Ordubad Culfa, yamayla Serur) Degismez 2'yi 'Buyuk tagsis - akce krizi' maddesiyle geciyor, konusu ilgisiz. Nahcivan'in katilisi icin Bilge (Vakanuvis) 1586 diyor; gun karari koordinatorde, madde yazma.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
