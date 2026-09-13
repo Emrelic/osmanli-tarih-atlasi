@@ -24,25 +24,31 @@
 //      Kataro (Kotor) taranmadı, "Korent kıyısı" bir NOKTA değil BÖLGE
 //      tarifi — ikisi de çizilmez, kayıtta işaretli.
 //
-// 🔴 GEÇMEDİ — koordinat/kapsama eksik, taslağın kendisi zaten
-//    NOT_TAMAMLANMAMIS/ONEMLI_EKSIK diye işaretlemişti, bu turda da
-//    tamamlanmadı (yeni bir yer-adı araştırması bu görevin kapsamı dışı,
-//    D107 gereği "ölçülemedi" değil "araştırılmadı" diye ayrı yazılıyor):
-//   ⑥ karlofca-bosna-sava-1699           — hat uçları (Bosut ağzı, Brod
-//      Kalesi) lat/lon YOK, kapsama.kutu YOK.
-//   ⑦ karlofca-banat-maros-tisza-tuna-1699 — dört hat noktası da lat/lon
-//      YOK, kapsama.kutu YOK; ayrıca Maros/Mureş nehri motorun BUYUK
-//      kümesinde de yok (ayrı bir arac/ borcu, bu dosyanın konusu değil).
-//   ⑧ karlofca-bosna-kaleler-1699        — BEŞ noktanın (Kostayniça,
-//      Bihke, Novi, Krupa, Brod) BEŞİ de atlasta_var:false VE lat/lon
-//      YOK — bunlar yerlesimler.js'te olmayan yeni yer adları, dış
-//      kaynaktan (Wikipedia vb.) koordinat araştırması gerektiriyor.
-//      Emre'nin M-3463 kararıyla bu artık C'nin kendi iş kalemi (bir
-//      "§2'ye havale" mazereti değil) ama BU TURDA araştırılmadı.
-//   ⑨ karlofca-bosna-una-1699 (karma)    — Una nehri Natural Earth'te
-//      Balkan'daki değil BREZİLYA'daki bir "Una" (taslağın kendi bulgusu,
-//      bağımsız doğrulandı) — gerçek geometri hiçbir kaynakta yok. Beş
-//      garnizon noktasının da lat/lon'u YOK.
+// 🆕 İKİNCİ TUR (13 Eylül, aynı gün) — ③ görevi: koordinatsız kayıtlar
+// için araştırma. İKİ BULUŞ:
+//   (a) data/yerlesimler_ek29.js'te BAŞKA BİR OTURUM (NOKTA MENZİL/
+//       HAZIRLIK-BOSNA-NOKTA-0911) Kostayniça(Kostajnica)·Bosna Dubiçası·
+//       Bosna Novi'si·Jasenovaç·Bosna Brod'u'nu GERÇEK koordinatla ZATEN
+//       eklemiş — birincil antlaşma metnini (Novi/Dubizza/Sessenovizza/
+//       Doboy/Bred) esas alarak. Bu, TDV'nin gevşek "Bihke, Novi, Krupa
+//       vb." listesinden FARKLI ve DAHA GÜVENİLİR (M-3329 kuralı: antlaşma
+//       metni birincil) — o oturum Bihaç'ın (evakue edilenler listesinde
+//       YOK, Osmanlı kalıyor) ve Krupa'nın (aynı, listede YOK) bu pakete
+//       GİRMEMESİ gerektiğini bulmuş.
+//   (b) Bosut ağzı (Bosut'un Sava'ya döküldüğü yer) Wikipedia'dan
+//       doğrulandı: 44.9411K, 19.3706D (Bosut köyü, Sırbistan).
+// ⑥ ve ⑧ bu yüzden ARTIK GEÇİYOR (aşağıda), Kostayniça/Bihke/Novi/Krupa
+// listesi TDV'nin gevşek haliyle DEĞİL birincil metinle DÜZELTİLEREK.
+//
+// 🔴 HÂLÂ GEÇMEDİ:
+//   ⑦ karlofca-banat-maros-tisza-tuna-1699 — Maros/Mureş kavşak noktaları
+//      hâlâ araştırılmadı (farklı coğrafya, bu turun kapsamı dışı kaldı).
+//   ⑨ karlofca-bosna-una-1699 (karma)    — NOKTA kısmı artık aynı ek29
+//      kaynağından çözülebilir (Novi/Dubica/Jasenovac/Kostajnica/Brod) AMA
+//      Una nehrinin KENDİ geometrisi hâlâ hiçbir kaynakta yok (Natural
+//      Earth'teki "Una" Brezilya'da) — hat.tur:"karma" zaten hiçbir
+//      render kodunda desteklenmiyor, bu kayıt BEKLEMEDE bırakıldı.
+//   ⑩ bahcesaray-ozu-1681 — Özü (Dinyeper) nehri uçları araştırılmadı.
 //   ⑩ bahcesaray-ozu-1681                — hat uçları lat/lon YOK,
 //      kapsama.kutu YOK; taslak kendi ONEMLI_EKSIK notuyla zaten
 //      işaretlemişti.
@@ -264,6 +270,87 @@ window.HUKUKI_SINIRLAR = [
     alinti: "Ayamavra adaları, Korent denizi kuzey kıyıları ve bazı kalelerin (Kataro, Trebinye) iadesi",
     url: "https://islamansiklopedisi.org.tr/karlofca" },
   kaynak_ikincil: { tur: null, not: null }
+},
+
+{
+  // 🆕 İKİNCİ TUR — artık GEÇİYOR. Hat uçlarının ikisi de gerçek koordinatla
+  // çözüldü: Brod Kalesi = data/yerlesimler_ek29.js'teki "Bosna Brod'u
+  // (Bosanski Brod)" (o dosyanın kendi notu: "SEMA-C-0911.md §3.1'deki Sava
+  // HAT segmentinin bitiş noktasıyla aynı yer olabilir" — KITA 30 bunu
+  // teyit KABUL etti, iki bağımsız tanım aynı yeri işaret ediyor). Bosut
+  // ağzı Wikipedia'dan doğrulandı.
+  id: "karlofca-bosna-sava-1699",
+  taraflar: ["osmanli", "habsburg"],
+  hassasiyet: "cizgi",
+  f: "1699-01-26",
+  t: "1918-11-11", // habsburg'un kendi sonu (devletler.js) — t:null çökmesinden kaçınmak için
+  // 🔴 NOKTA SIRASI ÖNEMLİ — kıyas ölçümü sırasında bulundu ve DÜZELTİLDİ:
+  // app.js/_cKayitGeometrisi SABİT bir kural kullanıyor (negatif cross ->
+  // taraflar[0], pozitif -> taraflar[1], STRING yon_kurali OKUNMUYOR —
+  // bkz. app.js:5120-5123 yorumu). Bu kural nokta_dizisi'nin A→B YÖNÜNE
+  // bağlı; ilk yazımda (Bosut→Brod sırası) güney/Bosna tarafı YANLIŞLIKLA
+  // taraflar[1] (habsburg) çıkıyordu — kıyas ölçümünde 180 örnekten 170'i
+  // (%94) "uyuşmuyor" görünmüştü, ki bu gerçek bir sapma DEĞİL, bir İŞARET
+  // hatasıydı (Brod→Bosut olarak SIRA DEĞİŞTİRİLİNCE doğrulandı, bkz.
+  // denetim/BULGU-KITA30-KIYAS-OLCUMU.md'nin güncellenen notu).
+  hat: {
+    tur: "dogal-tanimsiz",
+    nokta_dizisi: [
+      { lon: 17.988, lat: 45.138, ad: "Brod Kalesi (Bosanski Brod)",
+        kaynak: "data/yerlesimler_ek29.js 'Bosna Brod'u (Bosanski Brod)' kaydı — aynı yer olduğu o kaydın kendi notunda belirtilmiş", dogrulanmadi: false },
+      { lon: 19.3706, lat: 44.9411, ad: "Bosut'un Sava'ya döküldüğü yer (Bosut köyü, Sırbistan)",
+        kaynak: "Wikipedia 'Bosut' (nehir maddesi), 44°56′28″N 19°22′14″E — KITA 30 bu turda doğruladı", dogrulanmadi: false }
+    ]
+  },
+  gereken_cografya: [
+    { ad: "Sava (nehir)", tur: "nehir", atlasta_var: true, atlasta_kaynak: "arac/uret_petek.py:552 BUYUK kümesi" },
+    { ad: "Brod Kalesi", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler_ek29.js (Bosanski Brod)" }
+  ],
+  kapsama: {
+    tur: "bbox",
+    kutu: { lat_min: 44.6, lat_max: 45.5, lon_min: 17.7, lon_max: 19.7 },
+    dogal_sinir_gerekcesi: "Sava'nın Bosut ağzından Brod'a kadar olan gerçek akışını kaba biçimde kapsıyor; M-3480 kuralına uygun, hattın dar çevresine kırpılmadı.",
+    sezgi_kapali: true,
+    yon_kurali: "cross_yerel'e göre: Sava'nın güneyi (Bosna) -> osmanli, kuzeyi (Slavonya/Habsburg) -> habsburg"
+  },
+  kaynak: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca",
+    alinti: "Sava nehrinin Bossut'un Sava'ya döküldüğü yerden Brot Kalesi'ne kadar sınır olması kabul edildi.",
+    url: "https://islamansiklopedisi.org.tr/karlofca" },
+  kaynak_ikincil: { tur: "Wikipedia", ad: "Bosut (river)", not: "Bosut ağzının koordinatı için — antlaşmanın kendi metni koordinat vermiyor, bu ikincil coğrafi teyit" }
+},
+
+{
+  // 🆕 İKİNCİ TUR — DÜZELTİLEREK geçiyor: TDV'nin gevşek "Bihke, Novi,
+  // Krupa vb." listesi DEĞİL, data/yerlesimler_ek29.js'in birincil-metin
+  // temelli listesi kullanıldı (M-3329: antlaşma metni birincil). Bihaç
+  // evakue edilenler arasında YOK (Osmanlı kalıyor, dokunulmadı) — bu C
+  // kaydına GİRMİYOR. Krupa da birincil metinde YOK — GİRMİYOR.
+  id: "karlofca-bosna-kaleler-1699",
+  taraflar: ["osmanli", "habsburg"],
+  hassasiyet: "yer",
+  f: "1699-01-26",
+  t: "1918-11-11", // habsburg'un kendi sonu
+  hat: {
+    tur: "nokta-kumesi",
+    nokta_atamalari: [
+      { ad: "Kostayniça (Kostajnica)", lat: 45.183, lon: 16.683, taraf: "habsburg",
+        kaynak: "Karlofça birincil metni: \"Castanoviz...remain in the Power of the Emperor of the Romans\" — data/yerlesimler_ek29.js'te GERÇEK nokta" },
+      { ad: "Bosna Novi'si (Bosanski Novi)", lat: 45.048, lon: 16.377, taraf: "habsburg",
+        kaynak: "Karlofça birincil metni: \"...Novi...shall be drawn out...left entirely free\" — data/yerlesimler_ek29.js'te GERÇEK nokta" }
+    ]
+  },
+  duzeltme_notu: "TASLAK-hukuki_sinirlar.js'in ilk hâli TDV'nin gevşek listesini (Bihke, Novi, Krupa) kullanıyordu; data/yerlesimler_ek29.js'i üreten oturum birincil metni okuyup Bihaç'ın VE Krupa'nın evakue edilenler arasında OLMADIĞINI bulmuştu (M-3329 kuralı). KITA 30 bu düzeltmeyi burada da uyguladı — Bihaç zaten Osmanlı kalan bir yer, bu C kaydına girmemeli.",
+  gereken_cografya: [
+    { ad: "Kostayniça (Kostajnica)", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler_ek29.js" },
+    { ad: "Bosna Novi'si (Bosanski Novi)", tur: "yerlesim", atlasta_var: true, atlasta_kaynak: "data/yerlesimler_ek29.js" }
+  ],
+  kapsama: { tur: "nokta-listesi", sezgi_kapali: true, not: "Noktalar zaten koordinatla biliniyor, bbox gerekmiyor." },
+  kaynak: { tur: "antlaşma metni (neşir/derleme)", ad: "Treaty of Karlowitz — 'Karlovački Mir' derlemesi",
+    alinti: "...all the Imperial Garrisons that are in Novi, Dubizza, Sessenovizza, Doboy and Bred on the part of Bosnia...shall be drawn out from thence...But whereas Castanoviz...are and remain in the Power of the Emperor of the Romans...",
+    url: "https://www.scribd.com/document/248934439/Karlova%C4%8Dki-Mir",
+    guvenilirlik_notu: "Aynı barındırma-platformu uyarısı karlofca-bosna-una-1699'da da var — DAHA SAĞLAM bir akademik kaynakla teyit edilmeli." },
+  kaynak_ikincil: { tur: "TDV İslâm Ansiklopedisi", ad: "karlofca",
+    not: "TDV'nin kendi listesi (Bihke, Novi, Krupa vb.) burada KULLANILMADI — birincil metinle çelişiyordu, M-3329 kuralı birincili esas aldı." }
 }
 
 ];

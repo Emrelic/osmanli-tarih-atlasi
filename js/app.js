@@ -1432,6 +1432,46 @@ harita.on("load", function () {
     harita.addSource("hukuki-sinir-hat", { type: "geojson", data: bosVeri() });
     harita.addLayer({ id: "hukuki-sinir-hat", type: "line", source: "hukuki-sinir-hat",
       paint: { "line-color": "#1a1a1a", "line-width": 2.2, "line-dasharray": [2, 1.3] } });
+    // 🆕 13 Eylül 2026 — nokta-kümesi/bölge referans noktaları (KITA 30
+    // §①②, denetim/BULGU-KITA30-MEVCUT-KATMAN-OLCUMU.md). Poligon/çizgi
+    // değil TEK NOKTA — Karlofça kayıtlarının Suçava/Bar gibi koordinatı
+    // bilinen atamaları.
+    harita.addSource("hukuki-sinir-nokta", { type: "geojson", data: bosVeri() });
+    harita.addLayer({ id: "hukuki-sinir-nokta", type: "circle", source: "hukuki-sinir-nokta",
+      paint: { "circle-radius": 6, "circle-color": ["get", "renk"],
+               "circle-stroke-width": 1.5, "circle-stroke-color": "#1a1a1a" } });
+    // 🆕 TIKLAMA/ÜZERİNE GELME — KITA 30 §③: bu üç katmanda hiç yoktu,
+    // kullanıcı çizgiye/dolguya/noktaya tıklayınca antlaşma adı/kaynak
+    // GÖRMÜYORDU. `kayit_id` (dolgu/hat) ile `window.HUKUKI_SINIRLAR`dan
+    // kaydı bulup kaynak alıntısını basıyoruz; nokta kendi `ad`/`kaynak`
+    // özniteliğini taşıyor (bkz. _cNoktaKumesiOzellikleri).
+    function _cPopupAcKayit(id, lngLat) {
+      var k = (window.HUKUKI_SINIRLAR || []).find(function (x) { return x.id === id; });
+      if (!k) return;
+      var kaynakMetin = (k.kaynak && (k.kaynak.alinti || k.kaynak.ad)) || "";
+      new maplibregl.Popup({ closeButton: true, maxWidth: "260px" })
+        .setLngLat(lngLat)
+        .setHTML("<b>" + ekEsc(k.id) + "</b>" +
+                 (kaynakMetin ? "<br><small>" + ekEsc(kaynakMetin) + "</small>" : ""))
+        .addTo(harita);
+    }
+    ["hukuki-sinir-dolgu", "hukuki-sinir-hat"].forEach(function (lyr) {
+      harita.on("click", lyr, function (e) {
+        _cPopupAcKayit(e.features[0].properties.kayit_id, e.lngLat);
+      });
+      harita.on("mouseenter", lyr, function () { harita.getCanvas().style.cursor = "pointer"; });
+      harita.on("mouseleave", lyr, function () { harita.getCanvas().style.cursor = ""; });
+    });
+    harita.on("click", "hukuki-sinir-nokta", function (e) {
+      var p = e.features[0].properties;
+      new maplibregl.Popup({ closeButton: true, maxWidth: "260px" })
+        .setLngLat(e.lngLat)
+        .setHTML("<b>" + ekEsc(p.ad || "") + "</b>" +
+                 (p.kaynak ? "<br><small>" + ekEsc(p.kaynak) + "</small>" : ""))
+        .addTo(harita);
+    });
+    harita.on("mouseenter", "hukuki-sinir-nokta", function () { harita.getCanvas().style.cursor = "pointer"; });
+    harita.on("mouseleave", "hukuki-sinir-nokta", function () { harita.getCanvas().style.cursor = ""; });
   } catch (e) { console.error("C ÇİZİM KATMANI kurulamadı:", e); }
 
   // SERBEST KENAR — sahipsiz alanla komşu sınır: keskin çizgi yerine SÖNEN kenar.
@@ -1890,6 +1930,12 @@ harita.on("load", function () {
     '<span><i style="background:#1b5e20"></i> Zafer (ad zemini)</span>' +
     '<span><i style="background:#8c0f26"></i> Yenilgi (ad zemini)</span>' +
     '<span><i style="background:#455a64"></i> Belirsiz sonuç (ad zemini)</span>' +
+    // 🆕 13 Eylül 2026 — KITA 30 ölçtü (§③): C katmanının lejantta HİÇ
+    // satırı yoktu; kullanıcı ekranda taralı/kesikli bir sınır görüp
+    // ne olduğunu anlayamıyordu. Tıklayınca kaynak açılıyor (bkz. C
+    // ÇİZİM KATMANI kurulumu), bu satır yalnız "bu ÇİZGİ nedir"i söylüyor.
+    '<div class="lejant-baslik">Belgeli sınır (C — antlaşma metninden)</div>' +
+    '<span><b class="lj-sim" style="border-bottom:2px dashed #1a1a1a;padding-bottom:1px">▬▬</b> tıklayınca kaynağı gösterir</span>' +
     '';
   document.getElementById("harita").appendChild(lejant);
 
@@ -5052,9 +5098,28 @@ var _DEVLET_RENK = (function () {
 // kutu`sunu taraf_a/taraf_b renkleriyle YENİDEN boyayıp (devlet/vassal/
 // osmanli dolgularının ÜSTÜNE) hattı üstüne çizmek. Kutu DIŞINDA ve
 // pencere DIŞINDA hiçbir kaynak dokunulmuyor (D010 SINAV 2/3).
+// 🔴 13 Eylül 2026 — KITA 30 ölçtü (denetim/BULGU-KITA30-MEVCUT-KATMAN-
+// OLCUMU.md §②): `taraflar[]` devletler.js'in `id:`sini taşıyor ama
+// `_DEVLET_RENK` (DEVLET_HARITA) devletin `harita:` alanıyla anahtarlı —
+// ikisi HER ZAMAN aynı DEĞİL (`bulgaristan-kralligi` → `harita:"bulgaristan"`).
+// D048 ailesinin ("renk `harita:` anahtarına bakar, `id`ye DEĞİL") C
+// katmanına bulaşmış hâli: midye-enez-1913 çiziliyordu ama Bulgaristan
+// tarafı gri (#9a9a9a) boyanıyordu. Referans/çözüm KITA 30'un
+// denetim/ARAC-KITA30-CKATMAN-KOPRU-0913.js'inden alındı (D023).
+var _cDevletIxOnbellek = null;
+function _cDevletIx() {
+  if (!_cDevletIxOnbellek) {
+    _cDevletIxOnbellek = {};
+    (window.DEVLETLER || []).forEach(function (d) { if (d && d.id) _cDevletIxOnbellek[d.id] = d; });
+  }
+  return _cDevletIxOnbellek;
+}
 function _cTarafRengi(id) {
   if (id === "osmanli") return "#8e0b22";
-  return _DEVLET_RENK[id] || "#9a9a9a";
+  if (_DEVLET_RENK[id]) return _DEVLET_RENK[id];
+  var d = _cDevletIx()[id];
+  if (d && d.harita && _DEVLET_RENK[d.harita]) return _DEVLET_RENK[d.harita];
+  return "#9a9a9a";
 }
 function _cCross(A, B, P) {
   // A,B,P: [lon,lat]. §4b/§8.2'nin formülüyle BİREBİR aynı.
@@ -5128,11 +5193,89 @@ function _cKayitGeometrisi(kayit) {
       if (poly.length < 3) return null;
       poly = poly.slice(); poly.push(poly[0]);
       return { type: "Feature",
-        properties: { renk: _cTarafRengi(taraflar[i]) },
+        properties: { renk: _cTarafRengi(taraflar[i]), kayit_id: kayit.id },
         geometry: { type: "Polygon", coordinates: [poly] } };
     }).filter(Boolean),
-    hat: { type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: hatCizgisi } }
+    hat: { type: "Feature", properties: { kayit_id: kayit.id },
+           geometry: { type: "LineString", coordinates: hatCizgisi } }
   };
+}
+// 🆕 13 Eylül 2026 — C KATMANI ÜÇ EKSİK TÜR (KITA 30 ölçtü, denetim/
+// BULGU-KITA30-MEVCUT-KATMAN-OLCUMU.md §① + referans kodu ARAC-KITA30-
+// CKATMAN-KOPRU-0913.js — mantık AYNEN buradan taşındı, D023). Eskiden
+// `_cKayitGeometrisi` yalnız `hat.tur:"cetvel"/"dogal-tanimsiz"` (iki
+// nokta + kesme) türünü çiziyordu; misir-sudan-22-paralel-1899 ve iki
+// karlofça kaydı (nokta-kumesi) SESSİZCE 0 geometri üretiyordu.
+//
+// ① PARALEL / MERİDYEN — tek enlem/boylam eşiği, kutuyu ikiye böler.
+function _cParalelGeometrisi(kayit) {
+  var h = kayit.hat, k = kayit.kapsama;
+  if (!k || !k.kutu) return null;
+  var kutu = k.kutu, taraflar = kayit.taraflar || [];
+  if (h.tur === "paralel") {
+    var e = h.enlem;
+    if (e == null || e < kutu.lat_min || e > kutu.lat_max) return null;
+    var ust = [[kutu.lon_min, e], [kutu.lon_max, e], [kutu.lon_max, kutu.lat_max], [kutu.lon_min, kutu.lat_max], [kutu.lon_min, e]];
+    var alt = [[kutu.lon_min, kutu.lat_min], [kutu.lon_max, kutu.lat_min], [kutu.lon_max, e], [kutu.lon_min, e], [kutu.lon_min, kutu.lat_min]];
+    // yon_kurali (veride serbest metin) BURADA AYNI davranışla sabit
+    // kodlanıyor — string parse edilmiyor (isim değil ÖLÇÜM esas, §4b'nin
+    // aynı disiplini): "lat >= e -> taraflar[0]" ÜST parça, taraflar[0].
+    return {
+      dolgu: [
+        { type: "Feature", properties: { renk: _cTarafRengi(taraflar[0]), kayit_id: kayit.id }, geometry: { type: "Polygon", coordinates: [ust] } },
+        { type: "Feature", properties: { renk: _cTarafRengi(taraflar[1]), kayit_id: kayit.id }, geometry: { type: "Polygon", coordinates: [alt] } }
+      ],
+      hat: { type: "Feature", properties: { kayit_id: kayit.id }, geometry: { type: "LineString", coordinates: [[kutu.lon_min, e], [kutu.lon_max, e]] } }
+    };
+  }
+  if (h.tur === "meridyen") {
+    var b = h.boylam;
+    if (b == null || b < kutu.lon_min || b > kutu.lon_max) return null;
+    var sol = [[kutu.lon_min, kutu.lat_min], [b, kutu.lat_min], [b, kutu.lat_max], [kutu.lon_min, kutu.lat_max], [kutu.lon_min, kutu.lat_min]];
+    var sag = [[b, kutu.lat_min], [kutu.lon_max, kutu.lat_min], [kutu.lon_max, kutu.lat_max], [b, kutu.lat_max], [b, kutu.lat_min]];
+    return {
+      dolgu: [
+        { type: "Feature", properties: { renk: _cTarafRengi(taraflar[0]), kayit_id: kayit.id }, geometry: { type: "Polygon", coordinates: [sol] } },
+        { type: "Feature", properties: { renk: _cTarafRengi(taraflar[1]), kayit_id: kayit.id }, geometry: { type: "Polygon", coordinates: [sag] } }
+      ],
+      hat: { type: "Feature", properties: { kayit_id: kayit.id }, geometry: { type: "LineString", coordinates: [[b, kutu.lat_min], [b, kutu.lat_max]] } }
+    };
+  }
+  return null;
+}
+// ② BÖLGE — tek taraf, bölünme YOK (KITA 29 ile M-3718'de uzlaşıldı;
+// belge bir ÇİZGİ değil "bu bölgenin TAMAMI şu tarafta kalır" tarifi
+// veriyor — Ferhat Paşa 1590 gibi statüko kayıtları için). Şema:
+// `hat.tur:"bolge"`, `hat.taraf_atanan` (taraflar[]'a İNDEKSLE değil
+// AÇIKÇA id ile — index belirsizliğinden kaçınmak için).
+function _cBolgeGeometrisi(kayit) {
+  var h = kayit.hat, k = kayit.kapsama;
+  if (!h || h.tur !== "bolge" || !k || !k.kutu || !h.taraf_atanan) return null;
+  var kutu = k.kutu;
+  var poly = [[kutu.lon_min, kutu.lat_min], [kutu.lon_max, kutu.lat_min],
+              [kutu.lon_max, kutu.lat_max], [kutu.lon_min, kutu.lat_max],
+              [kutu.lon_min, kutu.lat_min]];
+  return {
+    dolgu: [{ type: "Feature", properties: { renk: _cTarafRengi(h.taraf_atanan), kayit_id: kayit.id },
+              geometry: { type: "Polygon", coordinates: [poly] } }],
+    hat: null   // çizgi YOK — belge çizgi tarif etmiyor
+  };
+}
+// ③ NOKTA-KÜMESİ — koordinatı BİLİNEN atamalar (Kamaniçe/Roman gibi
+// koordinatsız olanlar `lat`/`lon` null taşıyor, ÇİZİLMEZ — veri
+// kendi içinde bunu zaten söylüyor, uydurma yapılmıyor). `hat.tur:
+// "bolge"` kayıtlarında da referans noktaları olabilir (çizgi çizmez,
+// yalnız kaynakta adıyla geçen yerleri işaretler).
+function _cNoktaKumesiOzellikleri(kayit) {
+  var h = kayit.hat;
+  if (!h || (h.tur !== "nokta-kumesi" && h.tur !== "bolge") || !h.nokta_atamalari) return [];
+  return h.nokta_atamalari
+    .filter(function (n) { return n.lat != null && n.lon != null; })
+    .map(function (n) {
+      return { type: "Feature",
+        properties: { renk: _cTarafRengi(n.taraf), ad: n.ad, kaynak: n.kaynak || "", kayit_id: kayit.id },
+        geometry: { type: "Point", coordinates: [n.lon, n.lat] } };
+    });
 }
 var _cAktifId = null;
 function _hukukiSinirGuncelle(gun) {
@@ -5157,15 +5300,35 @@ function _hukukiSinirGuncelle(gun) {
     harita.getSource("hukuki-sinir-hat").setData(bosVeri());
     return;
   }
-  var dolguFeat = [], hatFeat = [];
+  var dolguFeat = [], hatFeat = [], noktaFeat = [];
   aktif.forEach(function (kayit) {
-    var g = _cKayitGeometrisi(kayit);
+    var tur = (kayit.hat || {}).tur;
+    var g = null;
+    // 🔴 13 Eylül 2026 — TÜR BAŞINA DAĞITIM (KITA 30 ölçtü, §① fix).
+    // Eskiden HER kayıt `_cKayitGeometrisi`ye (yalnız cetvel/doğal-tanımsız
+    // bilir) gidiyordu; paralel/meridyen/nokta-kümesi/bölge SESSİZCE 0
+    // geometri üretiyordu. Artık `hat.tur`a göre doğru fonksiyona gidiyor.
+    if (tur === "paralel" || tur === "meridyen") {
+      g = _cParalelGeometrisi(kayit);
+    } else if (tur === "bolge") {
+      g = _cBolgeGeometrisi(kayit);
+      noktaFeat = noktaFeat.concat(_cNoktaKumesiOzellikleri(kayit)); // referans noktaları
+    } else if (tur === "nokta-kumesi") {
+      noktaFeat = noktaFeat.concat(_cNoktaKumesiOzellikleri(kayit));
+    } else {
+      g = _cKayitGeometrisi(kayit);   // cetvel / doğal-tanımsız (eski davranış)
+    }
     if (!g) return;
     dolguFeat = dolguFeat.concat(g.dolgu);
-    hatFeat.push(g.hat);
+    if (g.hat) hatFeat.push(g.hat);
   });
   harita.getSource("hukuki-sinir-dolgu").setData({ type: "FeatureCollection", features: dolguFeat });
   harita.getSource("hukuki-sinir-hat").setData({ type: "FeatureCollection", features: hatFeat });
+  // 🆕 nokta-kümesi/bölge referans noktaları — bkz. addSource/addLayer
+  // "hukuki-sinir-nokta" (harita.on("load", ...) içinde, dolgu/hat'ın
+  // yanı sıra).
+  var _nSrc = harita.getSource("hukuki-sinir-nokta");
+  if (_nSrc) _nSrc.setData({ type: "FeatureCollection", features: noktaFeat });
 }
 
 // Bir yerleşimin sahipliğini HARİTANIN KENDİ ÖNCELİK KURALIYLA çözer.
@@ -7600,6 +7763,11 @@ function haritayiOlayaGotur(o, zorla) {
   // 📌 `KAMERA` hakemi kamerayı tek kapıya toplamıştı; bu da VARIŞI topluyor.
   function _varista() {
     isaretYanipSon(hedef);              // NEREDE olduğunu söyler
+    // 🆕 13 Eylül 2026 — H-0006: savaş maddelerinde savaşın KENDİ simgesi de
+    // (kılıç/çapa/ateş — SAVAS_TUR_SIMGE) ayrıca 3 kez parlar; genel altın
+    // halkanın (`hedef`, yer_id/yer_kon'a bağlı) yanı sıra, savaşın kendi
+    // `savaslar.js` koordinatındaki işareti işaret eder.
+    if (o.k === "savas") savasIsaretiParlat(o.gi);
     oncesiSonrasiKirp(o.gi);            // NE OLDUĞUNU söyler
     panelCarp();                        // ADIM ATILDIĞINI söyler
   }
@@ -8136,6 +8304,36 @@ function isaretYanipSon(hedef) {
       _yanipSonZaman = null;
     }, 1800);
   } catch (e) { /* harita hazır değil — sessiz geç */ }
+}
+
+// 🆕 13 Eylül 2026 — paket 0046 H-0006. Emre: *"her savaş için [yeri] çift
+// kılıç simgesi ile 3 kez yanıp sönmeli."* `isaretYanipSon` genel altın
+// halkayı ZATEN her maddede (savaş dahil) `o`nun `yer_id`/`yer_kon`
+// üzerinden ÇÖZÜLEN bir noktaya koyuyor — ama savaş maddelerinin çoğu
+// `yer_id` ile EN YAKIN ŞEHRE bağlanıyor (Meşaleler Savaşı → "Şamahı"),
+// `savaslar.js`teki kendi `lat`/`lon`'una DEĞİL. İkisi genelde yakın ama
+// AYNI NOKTA DEĞİL. Bu fonksiyon o farkı kapatır: `savasIsaretleri`'nde
+// AYNI GÜNE (`gi`) ait, hâlâ HARİTADA (`ekli`) bir kayıt varsa, savaşın
+// KENDİ simgesini (⚔ vb., `SAVAS_TUR_SIMGE`) — yeni bir işaret İCAT
+// ETMEDEN — üç çevrim parlatır. Ayrı bir marker kurmuyoruz (D045: zaten
+// ekranda duran öğeyi kullanmak, ikinci bir tane eklemekten iyidir).
+function savasIsaretiParlat(gi) {
+  try {
+    var kayit = null;
+    for (var i = 0; i < savasIsaretleri.length; i++) {
+      if (savasIsaretleri[i].gi === gi && savasIsaretleri[i].ekli) { kayit = savasIsaretleri[i]; break; }
+    }
+    if (!kayit) return false;
+    var ikon = kayit.mk.getElement().querySelector(".sv-ikon");
+    if (!ikon) return false;
+    // Sınıfı düşürüp geri takmak animasyonu YENİDEN BAŞLATIR — art arda iki
+    // savaş maddesi aynı işarete düşerse (aynı gün) ikinci tıklama da parlar.
+    ikon.classList.remove("savas-parla");
+    void ikon.offsetWidth;   // reflow — CSS animasyonun "restart"ı için şart
+    ikon.classList.add("savas-parla");
+    setTimeout(function () { ikon.classList.remove("savas-parla"); }, 1800);
+    return true;
+  } catch (e) { return false; /* harita hazır değil — sessiz geç */ }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════

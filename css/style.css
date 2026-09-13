@@ -2028,8 +2028,8 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   35%  { box-shadow: inset 3px 0 0 0 var(--altin), 0 0 10px 2px rgba(255, 215, 0, 0.38); }
   100% { box-shadow: inset 0 0 0 0 rgba(255, 215, 0, 0), 0 0 0 0 rgba(255, 215, 0, 0); }
 }
-/* ⚠️ Tek çevrim: bu bir VURGU, bir alarm değil. İki çevrim yapılsaydı
-   göz kırpmayla karışırdı — o zaten iki çevrim (`odakParla ... 2`). */
+/* ⚠️ Tek çevrim: bu bir VURGU, bir alarm değil. Daha fazla çevrim
+   göz kırpmayla karışırdı — o başka bir amaçla üç çevrim (`odakParla ... 3`). */
 #olay-bilgi.carpti { animation: panelCarp 0.75s ease-out 1; }
 
 @keyframes odakParla {
@@ -2044,7 +2044,16 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   pointer-events: none;
   border: 3px solid var(--altin);
   box-shadow: 0 0 12px 3px rgba(255, 215, 0, 0.55);
-  animation: odakParla 0.55s ease-in-out 2;
+  /* 🔴 13 Eylül 2026 — 2 → 3 ÇEVRİM. Önceki değer ("2 bilerek — daha fazla
+     göz kırpmayla karışır") H-0018 ölçümünde KITA 12 tarafından bilinçli
+     korunmuştu (D012: süzgeç neyi koruyor önce anlaşılsın). Emre paket
+     0046 H-0006'da savaş yeri işareti için AÇIKÇA "3 kez yanıp sönmeli"
+     dedi (koordinatör M-3xxx ile iletti); bu, göz-kırpma gerekçesini
+     AŞAN daha güncel ve daha somut bir talep — hem savaş işaretine hem
+     genel odak halkasına (aynı `.odak-parlama` sınıfı, D045: iki ayrı
+     animasyon yazmak bir bilgiyi iki yerde tutar, §11) uygulandı.
+     JS tarafı (app.js:8129 `isaretYanipSon`) süreyi AYNI ORANLA güncelledi. */
+  animation: odakParla 0.55s ease-in-out 3;
 }
 
 /* 🔴 21 Ağustos — Emre: "devletsiz şehirlerin isimlerini de … yazalım."
@@ -2211,6 +2220,15 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 }
 #harita.cok-uzak .savas-isaret .sv-ad { display: none; }
 #harita.cok-uzak .savas-isaret .sv-ikon { transform: scale(0.72); }
+
+/* 🆕 13 Eylül 2026 — paket 0046 H-0006. Ayrı bir keyframe İCAT EDİLMEDİ:
+   `odakParla` (yukarıda, .odak-parlama ile paylaşılan) aynı büyüyüp-sönme
+   deseni, aynı 3 çevrim — burada yalnız hangi ELEMANA uygulandığı değişiyor
+   (savaşın kendi ⚔/◎/🔥/⚓ simgesi, genel altın halka değil). JS tarafı:
+   app.js `savasIsaretiParlat()`. */
+.savas-isaret .sv-ikon.savas-parla {
+  animation: odakParla 0.55s ease-in-out 3;
+}
 
 /* 🪦 SOL ALT #surum-etiketi KURALI KALDIRILDI — 12 Eylül 2026 (M-3550,
    KITA 12). Bu kural `js/app.js`teki `surumEtiketiKur()`ün bottom-left

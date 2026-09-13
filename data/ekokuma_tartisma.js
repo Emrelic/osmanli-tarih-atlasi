@@ -22,13 +22,21 @@
 // örneği. KITA 12'ye (app.js'in tek sahibi, `§7`) ve koordinatöre (1.MURAT)
 // tahtadan bildirildi; kart içeriği burada HAZIR, bağlama KITA 12'nin işi.
 //
-// 🔴 CEKİRDEK ÇAKIŞMASI — ayrıca bildirildi (M-3698, KITA 14'e). İngiltere'nin
-// ilk ahidnamesi çekirdekte (Değişmez 2 evreni) İKİ FARKLI günle kayıtlı:
-// `olaylar_ek7.js` t:"1580-02-01" vs `olaylar_ek2.js` t:"1580-06-01" (kuyruk
-// `kronoloji_ingiltere.js` ikinciyi destekliyor). Ben SİLMEDİM, KARAR VERMEDİM
-// — aşağıdaki kartın `olay:[...]` alanı bu yüzden İKİ tarihi de taşıyor, hangi
-// kayıt görünürken açılırsa açılsın kart bağlansın diye. Tarih KİTA 14'te
-// netleşince bu alan daraltılabilir.
+// 🟢 CEKİRDEK ÇAKIŞMASI — ÇÖZÜLDÜ (M-3698 → M-3725, KITA 14, 13 Eylül 2026).
+// Bildirdiğim çakışma (`olaylar_ek7.js` t:"1580-02-01" vs `olaylar_ek2.js`
+// t:"1580-06-01") KITA 14 tarafından ölçüldü: HÜKÜM MÜKERRER, iki ayrı
+// aşama DEĞİL — TDV `ingiltere` maddesi tek olay anlatıyor ve YALNIZ YILI
+// (1580) doğruluyor, iki maddenin de ay/gün alanı uydurmaydı (`§4`: tarih
+// uydurma yasağı). Yapılan: `olaylar_ek2.js` kaydı KALDIRILDI (gerekçeli
+// yorumla), `olaylar_ek7.js` kaydı `t:"1580-01-01"`e çekildi ve ek2'ye özgü
+// bilgiler (Elizabeth-Murad mektuplaşması, 1581 Levant Company) TDV'den
+// birebir alıntıyla oraya taşındı. Aşağıdaki kartın `olay:[...]` alanı bu
+// yeni tek tarihi kullanacak şekilde GÜNCELLENDİ (13 Eylül 2026, aynı gün).
+// Ayrıntı: `denetim/KITA14-0046-KAPITULASYON-SONUC-0913.md`.
+// ⚠️ YAN NOT (KITA 14'in kendi bulgusu, dokunmadığı bir dosya): kuyruktaki
+// `kronoloji_ingiltere.js:489` hâlâ eski `t:"1580-06-01"` (uydurma gün)
+// taşıyor — çekirdek dışı olduğu için Değişmez 2'yi bozmuyor, ama dosyanın
+// gerçek sahibi düzeltirse tutarlılık artar. Benim dosyam değil, dokunmadım.
 //
 // 🔴 KAPSAM SINIRI — KITA 28 ile tahtadan (M-3694/M-3697) anlaşıldı: KITA 28
 // `data/ekokuma_ekonomi.js`de (tur:"sebep-sonuc") kapitülasyonların 1352→1914
@@ -86,11 +94,11 @@ window.EKOKUMA_TARTISMA = [
   kisa:"İngiltere'ye verilen bu imtiyaz bir hoşgörü jesti miydi, yoksa hesaplı bir dış politika hamlesi mi?",
   sebep:{ b:"Elizabeth'in İstanbul'a gönderdiği William Harborne'un, Sokullu Mehmed Paşa ve Hoca Sâdeddin Efendi'nin desteğiyle, İngiliz tüccarlara Fransız ve Venedikliler'e tanınanla eşit ticarî imtiyaz için yürüttüğü müzakereler", t:"1578-01-01" },
   sonuc:{ b:"İngiliz tüccarlara ahidnâmeyle kapitülasyon tanınması ve ertesi yıl bu imtiyazı işletecek tekelci Levant Company'nin kurulması", t:"1581-09-11" },
-  bag:"⚠️ Tarihte KENDİ İÇİNDE bir belirsizlik var: çekirdek kayıtlar ahidnamenin gününü farklı veriyor (bazı kayıtlarda Şubat, bazılarında Haziran 1580); TDV yalnız yılı doğruluyor, gün vermiyor. Bu satır o belirsizliği gizlemiyor, kaydediyor. ¶ Asıl tartışma iki okuma arasında: ERKEN DÖNEM yorumu bu tür imtiyazları İslâm hukukunun eman/ahid geleneğinin bir uzantısı, karşılıklı ticarî çıkara dayanan bir \"hoşgörü politikası\" olarak okur — nitekim İngiltere'nin payına düşen de Fransa'ya zaten 1569'da verilmiş olanın bir tekrarıydı, yeni bir ilke değil. GEÇ DÖNEM eleştirisi ise TDV'nin kendi ifadesiyle bu imtiyazların (yargı muafiyeti dahil) zamanla \"Osmanlı Devleti'ni siyasî ve iktisadî bakımdan Batı Avrupa'ya bağımlı hale getirdiğini\" vurgular. İngiltere'nin 1580 payı tek başına bu sonucu doğurmadı — bunun geniş mekanizması (Ceneviz'den 1914'e) ayrı bir kartta (`data/ekokuma_ekonomi.js`) işleniyor; burada yalnız bu TEK imtiyazın kendi bağlamı ve iki okuması var.",
+  bag:"Asıl tartışma iki okuma arasında: ERKEN DÖNEM yorumu bu tür imtiyazları İslâm hukukunun eman/ahid geleneğinin bir uzantısı, karşılıklı ticarî çıkara dayanan bir \"hoşgörü politikası\" olarak okur — nitekim İngiltere'nin payına düşen de Fransa'ya zaten 1569'da verilmiş olanın bir tekrarıydı, yeni bir ilke değil. GEÇ DÖNEM eleştirisi ise TDV'nin kendi ifadesiyle bu imtiyazların (yargı muafiyeti dahil) zamanla \"Osmanlı Devleti'ni siyasî ve iktisadî bakımdan Batı Avrupa'ya bağımlı hale getirdiğini\" vurgular. İngiltere'nin 1580 payı tek başına bu sonucu doğurmadı — bunun geniş mekanizması (Ceneviz'den 1914'e) ayrı bir kartta (`data/ekokuma_ekonomi.js`) işleniyor; burada yalnız bu TEK imtiyazın kendi bağlamı ve iki okuması var.",
   metin:"Kapitülasyon, Osmanlı'nın kendi ülkesinde güvenle ticaret yapabilmeleri için hıristiyan devletlere tanıdığı bir imtiyazdı; hukukî temeli ahidnâme adı verilen padişah belgesiydi. İngiltere'nin payına düşen imtiyaz salt bir ticaret meselesi değildi: 1578'de İstanbul'a gönderilen Harborne'un arkasında, Katolik İspanya'ya karşı Protestan İngiltere ile ortak çıkar arayan bir Osmanlı hesabı da vardı. Kısa vadeli sonucu somuttu — Levant Company Osmanlı topraklarındaki İngiliz ticaretini 1825'e kadar tek elde topladı ve iki ülke arasında kalıcı bir diplomatik ağ kurdu. Ahidnâmelerin kendisi de zamanla değişti: TDV'nin 'ahidname' maddesine göre başlangıçta tek taraflı ve dinî yeminle pekiştirilen bu belgeler, 19. yüzyılda 'muahede' (karşılıklı antlaşma) diline dönüştü — bu da Avrupa hükümdarlarının artık dilekçi değil eşit muhatap sayıldığının bir işaretidir.",
   kesinlik:"tartismali",
   zincir:[],
-  olay:["1578-01-01","1580-02-01","1580-06-01","1581-09-11"],
+  olay:["1578-01-01","1580-01-01","1581-09-11"],
   kaynak:"TDV: ingiltere · imtiyazat · ahidname" }
 
 ];
