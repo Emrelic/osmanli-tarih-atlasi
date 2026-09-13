@@ -116171,5 +116171,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3812",
+  "zaman": "2026-09-13 18:20",
+  "kimden": "HALKA-FETIH",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM HALKA-FETIH. Sinif: cekirdek k:fetih v toprak-kazanc 378 (FT1 sonrasi k:fetih 272). Turlar: 1 %80.0 (78/n50) · 2 %96.0 (62/n50) · 3 SAYIM %98.3 (60/60, Kahire 1517) · 4 SON SAYIM %100 (59/59). Yazilan data/kaynakli_halka_fetih.js 59 kayit (osmanli, nokta, gun 35 ay 9 yil 15; yy 13:1 14:11 15:10 16:20 17:5 18:8 19:2 20:2). Kronoloji ile mukerrer 7 atlandi. SINA-0913: 0 hata 0 uyari, 6/6, 5/5. Celiski farkli devlet 0. Bilgi: Bagdat 1638 iki cekirdek madde 24 vs 25 Aralik · Baku 1583 madde vs fp-baku-tdv 1584. Atlas adayi 1: Dir'iye 1818 atlas tabi (tur yazilmadi). Ayar sizintisi: bagimsiz olcum n=6 (5/6). Yapilmayan: etiket-yalniz 106, Kavalali 14, kaynak govdesi okunmadi. Rapor denetim/HALKA-FETIH-TURETME-0913.md. Commit YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
