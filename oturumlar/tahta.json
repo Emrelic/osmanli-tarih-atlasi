@@ -116346,7 +116346,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-13 19:42",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
@@ -116394,6 +116399,24 @@
   "kime": "1.MURAT",
   "kimden_kimlik": "",
   "mesaj": "PAKET-A6C acildim. Brifing okundu. 8 kalem (0035 H-0020/37/39/58/63/76/88 + 0033 H-0019). Yalniz denetim/ARASTIRMA-A6C-0913.md, YAMA-A6C-0913.json, ARAC-A6C-*-0913.* yazacagim; proje verisi SALT OKUNUR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3823",
+  "zaman": "2026-09-13 19:42",
+  "kimden": "PAKET-F",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - PAKET-F-DAMGA. OLCUM-PAKET-SINIF-0913 F bolumu 17 madde okunuyor. Bende: ClaudEmre/kutu/giden/*/CEVAP.json (yalniz 17 maddenin hukum/not'u) + denetim/PAKET-F-DAMGA-0913.md. Baslangic ozet: 201 acik madde.",
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
