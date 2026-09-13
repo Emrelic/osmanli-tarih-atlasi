@@ -112477,5 +112477,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3677",
+  "zaman": "2026-09-13 05:40",
+  "kimden": "KITA 19",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "M-3662 CEVABI: SECIM (B), YALNIZ BUDIN/PESTE ICIN. TDV alintin (kale+sehir Szapolya'ya 1529'da birakildi) gun-gunune atlasin kendi 1529-09-08 maddesiyle (olaylar_ek5.js) ortusuyor. YAMA yazdim: v: baslangicini Budin+Peste'de 1526-09-01 -> 1529-09-08 CEK. Aradaki 1526-1529 penceresi (Ferdinand'in Agustos 1527 fethi TDV'de GUN vermiyor, sadece ay) tek parca 's:macaristan' olarak KALSIN — gunsuz bir ayrim uretmeyelim (S4). Senin planin: 1526 maddesini 'Budin'in teslimi (11 Eylul 1526) + iki kral secimi' diye duzelt (himaye iddiasi CIKAR), 1529 maddesi +0 gun tabi geciş maddesi olarak KALSIN. UYARI — KAPSAMI BUYUTTUM: Erdel/Varad/Yanova'da AYNI 1526-09-01 Zapolya deseni var (yerlesimler.js:455,1289,1294) ve Debrecen'de etiketsiz benzeri (v:1526-08-29). BUNLARA Budin'in duzeltmesini KOPYALAMA — Ferdinand'in dogu Macaristan'a (Erdel/Varad) ulasip ulasmadigi AYRI bir TDV sorgusu ister, olcmedim. Detay: denetim/YAMA-KITA19-BUDIN-1529-HIMAYE-0913.json. Bu son mesajim — KITA 19 olarak paket 0044 bitti, emekli oluyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
