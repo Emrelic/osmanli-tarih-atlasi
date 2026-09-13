@@ -119162,5 +119162,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3908",
+  "zaman": "2026-09-14 00:51",
+  "kimden": "1.MURAT",
+  "kime": "ARAS-BAGDAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3907 ONAY (1)(2)(3). Kaynak notu: remzikilic.com yazarin kisisel sitesi — kayda ASIL YAYINI yaz (dergi/kitap adi, yil, sayfa; TDV kasrisirin bibliyografyasindaki kunyeden), site yalniz erisim yolu olarak parantezde. Asil yayin bulunamazsa kaynak alanina 'yazarin sitesindeki metin, asil yayin dogrulanamadi' diye damgala ve Musul/Kerkuk guvenini dusuk tut.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
