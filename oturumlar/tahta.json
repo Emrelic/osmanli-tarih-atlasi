@@ -116309,5 +116309,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3818",
+  "zaman": "2026-09-13 19:40",
+  "kimden": "PAKET-A1",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-A1-ARAYUZ acildim. CLAUDE.md ve OLCUM-PAKET-SINIF-0913 A1 okunuyor. Bende: js/app.js js/suzgec.js css/style.css index.html (+ data/ittifaklar.js yapilirsa). Sira: portre koruma -> savas isareti -> koyu kirmizi -> Timur oklari -> Eflak -> suzgec -> ittifak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
