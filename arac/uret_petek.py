@@ -4886,6 +4886,122 @@ else:
     print(f"     ÖNGÖRÜ (🔴 YANLIŞ BİRİMDE — kıyaslama yapma): kesilen 2-15 M km² · "
           f"boşalan 50-400 (denetim/PUANLAMA-ONGORU.md)")
 
+# ════ 🆕 HİMAYE GÖVDELERİ (`d.h`) — MOTOR-HIMAYE, 14 Eylül 2026 ════════════
+# Emre'nin kararları: 2 Eylül (himaye: iç dolgu devletin KENDİ rengi, çevresi
+# Osmanlı kırmızısı şerit) · 13 Eylül 0043/H-0003 seçenek D (Kırım bozkırı:
+# `statu:"gevsek"` ⇒ iç dolgu vassal kırmızısından BİR TON AÇIK kırmızı).
+# ŞEMA SÖZLEŞMESİ `js/app.js:183-193`:
+#     d.h : [ { g: <d.v ile AYNI parça-kodlu geometri>, renk: "#rrggbb"|null } … ]
+# 🔴 `d.v` DEĞİŞMEZ: himaye toprağı tâbi kümesinin ALT kümesi; `d.h` onun
+#    ÜSTÜNE ayrıca biner. `d.h` boşsa ANAHTAR YAZILMAZ (app.js `|| []`).
+# 🔴 AÇIK TON — `js/app.js` lejantındaki örnekle AYNI değer olmalı. Ölçüm
+#    (renk_olc.py `dE` CIE76 / `dE94`, eşik 12): dıştan içe
+#    #b2384a | #8e0b22 | #d4707d | #e8a2aa → komşu çiftler 14,9/13,3 ·
+#    34,3/30,1 · 20,2/15,3 · altlık #e8dfc8'e 32,4 (denetim/MOTOR-HIMAYE-0914.md).
+HIMAYE_GEVSEK_RENK = "#e8a2aa"
+_HIMAYE_SAYAC = {"donem": 0, "govde": 0, "adsiz": 0, "renksiz": 0, "bos": 0}
+# Veride hiç `himaye:true` yoksa grup taraması HİÇ KOŞMAZ — maliyet sıfır ve
+# anahtarın üçüncü öğesi her tarihte `frozenset()` kalır (d.h yokken çıktı
+# öncekiyle BİREBİR: delta kararları değişemez).
+_HIMAYE_VAR = any(p.get("himaye") is True
+                  for _y in YERLER for p in (_y.get("v") or []))
+
+
+def himaye_gruplari(a, tabi, yerler, boyalar, harita_alt, gevsek_renk, sayac=None):
+    """`a` gününde `tabi` kümesinden `himaye:true` dönemi AÇIK olan yerleşimleri
+    gruplar. → {(grup_kimliği, renk): (j, …)}  (j sıralı demet)
+
+    grup  = dönemin `kid`i, yoksa `k`si, ikisi de yoksa "__adsiz__" (SAYILIR,
+            yutulmaz — şerit yine çizilir, renk null ⇒ app.js #b2384a'ya düşer)
+    renk  = `statu:"gevsek"` → gevsek_renk
+            aksi hâlde BOYALAR[kid] (yoksa künyenin `harita:` anahtarı —
+            `s:` boya düşüşüyle AYNI kural, :711 YOL A') → yoksa None
+    ⚠️ `tabi` EKLEYİCİ KAPI ile genişlemiş olabilir; `v:` dönemi olmayan
+       indeks grup üretmez (tasarruf boyanır, sefer değil — `vl` ile aynı)."""
+    grup = {}
+    for j in tabi:
+        dn = next((p for p in (yerler[j].get("v") or [])
+                   if p.get("f") and p.get("t") and p["f"] <= a < p["t"]), None)
+        if dn is None or dn.get("himaye") is not True:
+            continue
+        kid = dn.get("kid")
+        gid = kid or dn.get("k")
+        if not gid:
+            gid = "__adsiz__"
+            if sayac is not None:
+                sayac["adsiz"] += 1
+        if dn.get("statu") == "gevsek":
+            renk = gevsek_renk
+        else:
+            renk = None
+            if kid:
+                b = boyalar.get(kid)
+                if b is None and harita_alt.get(kid) in boyalar:
+                    b = boyalar[harita_alt[kid]]
+                if b is not None:
+                    renk = b[1] if isinstance(b, (tuple, list)) else b
+            if renk is None and sayac is not None:
+                sayac["renksiz"] += 1
+        grup.setdefault((gid, renk), []).append(j)
+    return {k: tuple(sorted(v)) for k, v in grup.items()}
+
+
+def himaye_imza(gruplar):
+    """Delta anahtarının üçüncü öğesi. Grup yapısı ya da rengi değişince
+    YENİ DÖNEM açılır; yoksa himaye değişimi eski geometride sessizce kalırdı."""
+    return frozenset(gruplar.items())
+
+
+def himaye_govdeleri(gruplar, pe, tabi, gt, kodla, sayac=None):
+    """Her grup için tâbi gövdenin (`gt`) o gruba düşen parçası.
+
+    hg = ( delikleri_kapali(∪ grup petekleri) ∩ gt ) − ∪ (gruptaki OLMAYAN tâbi petekler)
+    · ∩ gt   ⇒ `d.v`nin DIŞINA taşamaz (doğrudan enklav `gt`de zaten yok)
+    · delik kapatma + fark ⇒ `gt`nin kapat/delik doldurma ile doldurduğu
+      boşluklar himayeye katılır, ama İÇERİDEKİ himayesiz tâbi peteği geri
+      kesilir (Kırım yarımadası gibi bir tâbi, bozkır gövdesine yutulmaz)
+    · önceki grupların gövdesi de çıkarılır ⇒ iki himaye gövdesi ÜST ÜSTE BİNMEZ
+    ⚠️ B2 köprüsü (`_kt`) grup peteğine değmiyorsa gövdeye katılmaz — o kısa
+       kenarda şerit köprünün iç tarafından geçer (bilinen, küçük).
+    → [ {"g": kodla(hg), "renk": renk} … ]  (boş gövde yazılmaz, SAYILIR)"""
+    out = []
+    if not gruplar or gt is None or gt.is_empty:
+        return out
+    alinan = []
+    for gk in sorted(gruplar, key=lambda x: (x[0], x[1] or "")):
+        uyeler = gruplar[gk]
+        uset = set(uyeler)
+        parca = [pe[j] for j in uyeler if pe[j] is not None and not pe[j].is_empty]
+        if not parca:
+            if sayac is not None:
+                sayac["bos"] += 1
+            continue
+        u = unary_union(parca)
+        polys = list(u.geoms) if u.geom_type == "MultiPolygon" else (
+            [u] if u.geom_type == "Polygon" else
+            [p for p in getattr(u, "geoms", []) if p.geom_type == "Polygon"])
+        dolu = unary_union([Polygon(p.exterior) for p in polys])
+        hg = poligonal(dolu.intersection(gt))
+        zarf = dolu.envelope
+        diger = [pe[j] for j in tabi
+                 if j not in uset and pe[j] is not None and not pe[j].is_empty
+                 and pe[j].intersects(zarf)]
+        if diger:
+            hg = poligonal(hg.difference(unary_union(diger)))
+        if alinan:
+            hg = poligonal(hg.difference(unary_union(alinan)))
+        kod = kodla(hg) if not hg.is_empty else []
+        if not kod:
+            if sayac is not None:
+                sayac["bos"] += 1
+            continue
+        alinan.append(hg)
+        out.append({"g": kod, "renk": gk[1]})
+        if sayac is not None:
+            sayac["govde"] += 1
+    return out
+
+
 asama("Dönemler kuruluyor (delta yapısı)")
 # İki katman:
 #   DOĞRUDAN (o)  : merkezden yönetilen toprak — koyu kırmızı
@@ -4962,7 +5078,11 @@ for i in range(len(tarihler) - 1):
     aktif = dogrudan | tabi
     if not aktif:
         continue
-    anahtar = (dogrudan, tabi)
+    # 🆕 HİMAYE (MOTOR-HIMAYE 0914): anahtarın ÜÇÜNCÜ öğesi. Himaye yoksa her
+    # tarihte `frozenset()` ⇒ uzatma/yeni dönem kararları eskisiyle BİREBİR.
+    _him_grup = (himaye_gruplari(a, tabi, YERLER, BOYALAR, _HARITA_ALT,
+                                 HIMAYE_GEVSEK_RENK) if _HIMAYE_VAR else {})
+    anahtar = (dogrudan, tabi, himaye_imza(_him_grup))
     if anahtar == onceki_anahtar and donemler:  # hiçbir şey değişmediyse dönemi uzat
         donemler[-1]["t"] = b
         continue
@@ -5113,6 +5233,20 @@ for i in range(len(tarihler) - 1):
                             "p": [round(_rp.x, 4), round(_rp.y, 4)]})
             if _vl:
                 kayit["vl"] = _vl
+        # ── 🆕 HİMAYE GÖVDELERİ (`h`) — şema app.js:183-193. Boşsa YAZILMAZ.
+        if _him_grup:
+            # Sayaç yalnız YENİ dönemde artar (uzatılan dönemde grup yeniden
+            # sayılmaz — `adsiz`/`renksiz` dönem başına bir kez).
+            himaye_gruplari(a, tabi, YERLER, BOYALAR, _HARITA_ALT,
+                            HIMAYE_GEVSEK_RENK, _HIMAYE_SAYAC)
+            _h = himaye_govdeleri(
+                _him_grup, _pe, tabi, gt,
+                lambda _hg: havuza(mp_koord(_hg), OSM_HALKA, OSM_HALKA_IX,
+                                   OSM_PARCA, OSM_PARCA_IX),
+                _HIMAYE_SAYAC)
+            if _h:
+                kayit["h"] = _h
+                _HIMAYE_SAYAC["donem"] += 1
     # Serbest kenar: gövdenin sahipsiz alana bakan yüzü. Boşsa alan hiç yazılmaz
     # (çoğu dönemde çölle sınırdaş olunmuyor — kuruluş devri gibi).
     sayac("Osmanlı gövde geometrisi", time.time() - _t_ov)
@@ -5583,6 +5717,13 @@ print("Doğrulama:", "tüm yerleşimlerin peteği geçerli ✓" if not hata else
 for d in donemler[:3] + donemler[-3:]:
     print(f"  {d['f']} → {d['t']}  {d['ao']/1e6:5.2f} mn km²  {d['ad'][:44]}")
 print("Tâbi katmanlı dönem:", sum(1 for d in donemler if d.get("v")))
+# 🆕 HİMAYE BİLANÇOSU — SIFIR OLSA BİLE BASILIR (sessiz sıfır, hiç çalışmamış
+# kod ile hiç gerekmemiş kodu ayırt edilemez kılar).
+print(f"Himaye gövdeli dönem (`h`): {_HIMAYE_SAYAC['donem']} · gövde "
+      f"{_HIMAYE_SAYAC['govde']} · boş gövde (yazılmadı) {_HIMAYE_SAYAC['bos']} · "
+      f"adsız yerleşim-dönem {_HIMAYE_SAYAC['adsiz']} · renksiz (null → #b2384a) "
+      f"{_HIMAYE_SAYAC['renksiz']} · veride himaye:true "
+      f"{'VAR' if _HIMAYE_VAR else 'YOK'}")
 for d in donemler:
     if "1830-01-01" <= d["f"] <= "1842-12-31":
         print(f"  {d['f']} → {d['t']}  doğrudan {d['ao']/1e6:4.2f} + tâbi "

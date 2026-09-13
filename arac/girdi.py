@@ -975,7 +975,19 @@ BILINEN_DONEM_ALANLARI = {
     # yasaklıyor ("bu proje onu ÜÇ KEZ denedi").
     "statu": "tâbiiyet cinsi — v: içinde. Varsayılan 'vassal' (katmanın "
              "tanımı zaten tâbiiyet). İnceltme: özerk · himaye · haraçgüzâr · "
-             "ocaklık · voyvodalık — KAYNAKLI olarak, ayrı iş.",
+             "ocaklık · voyvodalık · gevsek — KAYNAKLI olarak, ayrı iş. "
+             "'gevsek' (Emre 13 Eyl 2026, 0043/H-0003 D): gevşek kontrollü "
+             "bozkır (Kırım Hanlığı'nın Nogay bozkırı); himaye:true ile "
+             "birlikte yazılır, motor d.h[].renk'i AÇIK TONA (#e8a2aa) çeker "
+             "— iç dolgu devletin kendi rengi DEĞİL.",
+    # 🆕 `himaye` — VERI-YAPISI.md "v:[{… himaye:true}] — ÜÇÜNCÜ GÖRSEL
+    # KADEME" (Emre, 2 Eylül 2026) şemayı tanımlıyordu ama bu sözlükte
+    # YOKTU (ölçüldü 14 Eylül: grep 'himaye' → yalnız statu açıklaması).
+    # Motor alanı artık OKUYOR (uret_petek.py himaye_gruplari) ⇒ veri
+    # yaması inince her kayıt "BILINEN_ALANLAR'da yok" UYARISI basacaktı.
+    "himaye": "True ise tâbilik HİMAYE kademesinde — v: içinde. Okuyan: "
+              "uret_petek.py → donemler.js d.h (şerit + iç dolgu). Yoksa "
+              "düz tâbi tonu (bugünkü davranış).",
     # ⚠️ `enklav:` — GEOMETRİNİN SORAMADIĞI SORUYU TAŞIYAN İKİNCİ ALAN.
     # `kasitli_bosluk` ile aynı sınıftır ve gerekçesi tek cümle:
     # ENKLAVLIK HUKUKÎ BİR DURUMDUR, GEOMETRİK DEĞİL. Motor "bu peteğin

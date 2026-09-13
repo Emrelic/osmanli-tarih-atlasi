@@ -191,6 +191,10 @@ function hatCoz(dizi) {
 // yalnız ÜSTÜNE TAM OPAK biner (§11 alfa-harman ailesine yeni vaka EKLEMEMEK
 // için — bkz. app.js:885 civarı). `d.h` YOKSA (bugün 462/462 böyle) dizi
 // boş kalır, katman hiç dolmaz — 155 kayıtlık bugünkü görünüm DEĞİŞMEZ.
+// 🆕 14 Eylül 2026 (MOTOR-HIMAYE): motor `d.h`yi ARTIK ÜRETİYOR
+// (`arac/uret_petek.py` himaye_gruplari / himaye_govdeleri) — ama yalnız
+// veride `v:[{…himaye:true}]` varsa. `renk`: statu:"gevsek" → #e8a2aa
+// (açık ton), aksi hâlde BOYALAR[kid] (yoksa null → #b2384a).
 
 // ---------- GEOMETRİ KAPISI (YUK-FETCH-0907, 7 Eylül 2026) ----------
 // 🔴 NİÇİN VAR: bu satırın altındaki `window.DONEMLER.map(...)` geometri
@@ -696,7 +700,12 @@ var STATU_YAZI = {
   "himaye":     "himaye",
   "haraçgüzâr": "haraçgüzâr",
   "ocaklık":    "ocaklık",
-  "voyvodalık": "voyvodalık"
+  "voyvodalık": "voyvodalık",
+  // 🆕 14 Eylül 2026 (MOTOR-HIMAYE · Emre 0043/H-0003 seçenek D): Kırım
+  // Hanlığı'nın Nogay bozkırı — `v:[{…statu:"gevsek", himaye:true}]`. Tanım:
+  // arac/girdi.py BILINEN_DONEM_ALANLARI["statu"]. Motor `d.h[].renk`i açık
+  // tona (#e8a2aa) çeker; bu anahtar yalnız ETİKET yazısı içindir.
+  "gevsek":     "gevşek tâbi"
 };
 // Bilinmeyen statü uyarısı DEĞER BAŞINA BİR KEZ: `etiketleriYerlestir` her
 // zoom/move olayında koşuyor, uyarı kapısız olsa konsolu saniyede onlarca
@@ -1944,6 +1953,15 @@ harita.on("load", function () {
     // katmanda yapılıyor.
     '<span><i style="background:#8e0b22"></i> Doğrudan idare</span>' +
     '<span><i style="background:#b2384a"></i> Bağlı / tâbi topraklar</span>' +
+    // 🆕 14 Eylül 2026 — ÜÇÜNCÜ TON (Emre 0043/H-0003 seçenek D): "Osmanlı
+    // kırmızısı · vassal kırmızısı · daha açık tonda kırmızı ile himaye edilen
+    // gevşek kontrollü bozkır." Örnek haritadaki gibi dıştan içe:
+    // #8e0b22 dış şerit | #d4707d iç şerit | #e8a2aa açık dolgu. Açık ton
+    // `arac/uret_petek.py` HIMAYE_GEVSEK_RENK ile AYNI — biri değişirse ikisi.
+    // ΔE (renk_olc.py dE / dE94): #d4707d↔#e8a2aa 20,2/15,3 · #b2384a↔#e8a2aa
+    // 40,5/32,0. TARAMA YOK (tarama = işgal ve isyan).
+    '<span><i style="background:#e8a2aa;border:2px solid #d4707d;outline:2px solid #8e0b22;' +
+    'outline-offset:0;box-sizing:border-box;margin-left:2px"></i> Gevşek himaye (Nogay bozkırı gibi)</span>' +
     // Üçüncü gösterim. Tarama SOLA yatık — antlaşma devirlerinin SAĞA yatık
     // taramasıyla karışmasın diye ayna simetrisi seçildi.
     '<span><i style="background:linear-gradient(-45deg,#8e0b22 0 62%,#555 62% 100%);background-size:8px 8px"></i> İşgal altında (nominal sahibi değişmemiş)</span>' +
