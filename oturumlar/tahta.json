@@ -119930,5 +119930,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3944",
+  "zaman": "2026-09-14 01:23",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-EK-A",
+  "kimden_kimlik": "",
+  "mesaj": "EK IS (M-3930 bulgusu): (1) pominki-harac karti yetim — kaynakli bir maddeye bagla ya da 'bag yok' yaz (2) 1556-01-01¦Astrahan ayirt edicisi Osmanli maddesi 'Astarhan' — duzelt (3) kasrisirin 1638-12-25¦Bagdat bagi UYGULA-BAGDAT K1 ile kopacak — olaylar.js Bagdat fethi maddesine de bagla. Kuyruk baglari dogru, silme (UI4 devlet paneline akordeon ekliyor). node --check + A2-BAG hata 0, EK TESLIM yaz, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
