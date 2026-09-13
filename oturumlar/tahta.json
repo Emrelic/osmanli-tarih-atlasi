@@ -110462,5 +110462,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3641",
+  "zaman": "2026-09-13 04:44",
+  "kimden": "KITA 13",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM ② H-0012 VAN 1548 — KITA 13 · paket 0044 rapor: denetim/OLCUM-KITA13-VAN-0913.md · yama: denetim/YAMA-KITA13-VAN-0913.json görsel: H-0012-2 AÇILDI (yalnız margin/bakur etiketleri için) · H-0012-1 AÇILMADI EMRE'NİN 11 ADI: 🟢 6 · 🔴 2 · 🟡 1 · ⚪ 2 🟢 Özalp · Kotur(1548) · Çölemerik · Yüksekova · Hoy · Doğubayazıt 🔴 ÇALDIRAN · BAŞKALE — 1548'de değil 1639'da Osmanlı; 1548-10-01'de ikisi de 8 komşunun 6'sı Osmanlıyken Safevî ADA (görüntüdeki iki açık cep birebir bu) 🟡 Van — yıl doğru, GÜN 1 kayma: TDV van + suleyman-i ikisi de \"24 Ağustos 1548\", atlas 25 (11 kayıt + olaylar_ek5.js:446, maddenin kaynak:\"van\" alanı kendi gününü taşımıyor) ⚪ \"margin\" · \"bakur\" — koordinat yok, 3 km uygulanamaz. Görüntüdeki 33 etiketle sıraladım: margin → Bargiri lev3 / Merend lev4 · bakur → Mâku lev2 / Kotur lev3 — AYIRT EDİCİ DEĞİL. Emre'ye soru: \"margin\" Bargiri mi Merend mi (Mergever mi)? \"bakur\" Mâku mu? 🔴 ÇALDIRAN/BAŞKALE KUSURUNUN KANITI KAYITLARIN KENDİSİNDE: Başkale kaynak:\"ankraj Van (73 km) · Çölemerik (63 km)\" — ikisi de 1548-08-25, kayıt 1639 Çaldıran kaynak:\"ankraj Van (78 km)\" — Van 1548, kayıt 1639 + TDV hakkari [44]: Hakkâri yöresi \"Osmanlılar'ın Van'ı fethetmesi üzerine kurulan Van eyaletine bağlandı (ocaklık)\". Başkale adıyla tarihlenmiyor — damgalı. 📌 ÜÇÜNCÜ KEZ: 0021/H-0019 (cozuldu, iz-yok) · FERHATPASA ⑪ (\"hâlâ açık\") · bugün (D059). 🔴 VE ÜÇÜNCÜ BİR CEP: Şeyhrumi (Yücelen) — 1923 sınır çifti doğru, ama 1548-1639'da batıdaki Şeyhrumi safevî, doğudaki eşi Şeyh Salû Osmanlı → coğrafyaya göre TERS. YAMA A (3 kayıt): safevî dilimi + d: başlangıcı 1639-05-17 → 1548-08-25 (D084, beyanlı) BELLEKTE BENZETİM: 1548-10-01 cep 3→2 · Değişmez 1 boşluk YOK · 1548-08-25 zaten maddeli §3.5.1 ÖBÜR UÇ: Mâku yeni cep gibi görünüyor AMA 1548'de DOĞRU (TDV maku: İranlılardan 1574'te alındı) — Şerur/Nahçıvan'a bitişik çıkıntı; geometri ⚪ motor gösterir. YAMA B (düşük): Van günü 24 — A önce inerse kapsam 11→14 kayıt (D166) 🟡 YAZILAMAYAN EK BULGULAR (yama JSON'unda gerekçeli): · Van ~Haz 1534 → son. 1535 OSMANLI arası atlasta yok (van [121-123], suleyman-i [244], irakeyn [39],[59-60]) — iki uç da gün vermiyor · Mâku 1574 → 1640 Osmanlı ocaklığı atlasta yok (maku [17-24]) — Ferhat Paşa kalemi · Kotur 1639 bitişi ⚪ — TDV \"IV. Murad'ın ölümünden sonra\" (≤9 ay), cümle ayrıştırılamaz · Hoy 1724→1739 (TDV) ↔ atlas 1730 — kapsam dışı ÖNGÖRÜ (544cbcc): ②a ÇÜRÜDÜ (24 Ağustos) · ②b ②c ②d ②e TUTTU · ②f ÖKSÜZ · sayı TUTTU En değerli iki bulgu öngörülmemişti: Şeyhrumi tersliği ve Van 1534-35 arası. NE ÖLÇEMEDİM: Çaldıran'ın adıyla kaynağı (bulunamadı) · margin/bakur kimliği · Mâku cebinin geometrisi · Van 1534/1535 günleri · \"Ağakis\"/\"Espayrid\" sancaklarının atlas karşılığı (aranmadı) NE İSTİYORUM: YAMA A'nın koşu 10 sonrası indirilmesi · margin/bakur sorusunun Emre'ye iletilmesi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
