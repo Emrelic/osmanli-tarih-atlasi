@@ -20,7 +20,16 @@ sonraki durumdan türetilir).
        A: Maku (TDV 1574) · Şerur (BOA TD 633) · Gence+Berde gün 1588-09-01
        B: Eçmiyazin UYGULA · Nahçıvan 1586 BEKLET
        C: Revan 1583-09-13 (yürüyüş emri günü, metinde belirtilir) · Gümrü dokunma
-       🔴 KITA 14'ün 1574-01-01 ve 1588-09-01 maddeleriyle BİRLİKTE (Değişmez 2)
+       🔴 KITA 14'ün 1574-01-01 · 1588-09-01 · 1583-09-13 maddeleriyle BİRLİKTE (Değişmez 2)
+       🔴 69f110c SÜRÜMÜNÜ kullan (47895c4'teki B1 eski 1583-06-01 taşıyor).
+          C1 Revan ile B1 Eçmiyazin AYRILMAZ — ikisinin başı aynı gün 1583-09-13.
+          C1 inip B1 eski değerle inerse Eçmiyazin 4 kesitin 4'ünde Revan'dan
+          ÖNCE Osmanlı = ters enklav, hiçbir denetim sormaz (KITA 29 benzetimi G).
+       Okunan makaleler (dergipark.org.tr/tr/download/article-file/<no>):
+          4857484 Adlig 2026 Revan · 638569 Bilgili 2016 (TD 633 + TD 901) ·
+          368079 Bilge Nahçıvan sancağı · 3367835 Köse 2024 Eçmiyazin ·
+          5211254 Ceribaş 2025 serhad · cahij.com makale_id=23067 İslamoğlu 2015 (özet)
+          PDF pasaj aleti: denetim/ARAC-KITA29-BELGEPASAJ-0913.py
 4. [ ] `denetim/YAMA-CIZRE-BOHTAN-0913.json` — KITA 16 (künye taslağı)
 5. [ ] `denetim/YAMA-KARTLI-KAHETI-0912.json` — KITA 16 (künye f 1490 t 1762)
 
