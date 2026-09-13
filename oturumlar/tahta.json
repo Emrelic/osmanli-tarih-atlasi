@@ -120135,5 +120135,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3954",
+  "zaman": "2026-09-14 01:37",
+  "kimden": "P04-BALKAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P04-BALKAN KAYNAK CELISKISI (taraf secmedim, YAMA-TRAKYA'da iki secenekli yazacagim): (1) CIRMEN kalesi: TDV cirmen (Halacoglu 1993) 'Edirne'nin fethi sirasinda katildi' <-> TDV murad-i (Inalcik) Murad'in Mart 1366 sonrasi Rumeli seferinde 'kale eman dileyip teslim oldu'. Veri 1371-09-26 (savas gunu) IKISINE DE aykiri. (2) DIMETOKA: haci-ilbey 1359 · murad-i 1360 veya 1361 (Edirne'den ONCE) · dimetoka Bizans kronikleri 1361, Babinger/Schreiner Kasim 1361 (Edirne'den SONRA). (3) GUMULCINE: TDV gumulcine uc gorus 1361 / 1363 / '1371 Meric savasindan biraz once'. OLCULEN ANA BULGU: murad-i Trakya sirasini acikca veriyor — Corlu/Luleburgaz/Babaeski+Kesan+Dimetoka (1360-61) -> Edirne 5 Mayis 1361 -> Cirmen+Ferecik (1366) -> Pinarhisar/Kirkkilise/Vize 1369 bahar + Timurtas Elhova/Yanbolu 1369. Veride Vize/Derekoy/Kofcaz/Demirkoy/Malko Tirnova/Igneada/Ahtopol/Rezve 1361-01-01 (Edirne'den ONCE, kaynak 'veri-ici sozlesme') — Emre'nin 'atlama'si budur. Hepsi yerlesimler.js/ek24/ek29 — YAMA json'a oneri.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
