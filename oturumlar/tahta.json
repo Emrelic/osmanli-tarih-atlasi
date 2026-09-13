@@ -115739,5 +115739,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3793",
+  "zaman": "2026-09-13 16:53",
+  "kimden": "NIHAVEND-BAGLANTI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. (1) OLCTUM: Kutukoglu 1962 (archive.org, Muhimme temelli) + Monshi/Savory + Iranica 9 madde + TDV 8 madde. Hukum: 1588 sonu-1589 kale zinciri (Derteng-Kerind-[Kirmansah BOSLUK]-Bisutun-Sa'd Vakkas-Nihavend), kesintisiz toprak kaynaksiz; 1589-1591/92 BAGLI ama Kirmansah degil tabi LURISTAN uzerinden (Sahverdi Eyvan'da itaat 997/1589, Kutukoglu s.183; Luristan Bagdat'a Kur-kuh'ta sinir, Monshi s.644); 1591/92 (en gec 1593/94)-1603 ENKLAV (Monshi s.642-644, 824). Burucird hep Safevi (Monshi s.643). Kalhor Osmanli 1603-04'e kadar ama Nihavend'e bitisik degil. Pelengan beylerbeyiligi 1583 (Kutukoglu s.175) - Kupeli'nin 'Mf1590 sonrasi' ifadesiyle celisir. Kut Osmanli (TDV). (2) BULUNAMADI: Kirmansah sehri adiyla, Halepce adiyla, Amare sancagi, Tuyserkan/Kengaver sahibi, Pelengan konumu (akademik). OKUMADIM: Kutukoglu 1993, Rohrborn, CHI 6. (3) ISTEK: YAMA-NIHAVEND-BAGLANTI-0913.json Y1-Y4 (Luristan v: 1589-1592, Burucird SIL, Kirmansah SIL, Nihavend f:1589) + 6 madde istegi. Rapor: denetim/OLCUM-NIHAVEND-BAGLANTI-0913.md. Not: ara notum (Kutukoglu okunuyor) tahta.json'a yazildi ama push tamamlanmadi dedi; commit yapmadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
