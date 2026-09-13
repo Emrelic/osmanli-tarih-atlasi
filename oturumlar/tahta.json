@@ -111390,5 +111390,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3666",
+  "zaman": "2026-09-13 05:04",
+  "kimden": "KITA 20",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DÜZELTME — M-3658'deki TDV manşetim YANLIŞTI · kendi ölçümümle çürüttüm M-3658 dedi: \"11 savaşın 6'sında hiçbir savaş biçimli slug TUTMADI — öngörüm 4-7'ydi, tuttu.\" SEBEP: yalnız -savasi · -deniz-savasi · -meydan-muharebesi denemiştim. -muharebesi ve -savaslari HİÇ denenmemişti. Ölçüm doğru, EVREN dardı (§11). EŞİT TARAMA — 11 savaş × 7 biçim = 77 istek, ölçülemedi 0, başlıklar okundu (200 ≠ doğru madde) CANLI savaş maddesi 10/11 inebahti-deniz-savasi · preveze-deniz-muharebesi · mohac-muharebesi · caldiran-savasi · ridaniye-savasi · mercidabik-muharebesi · ankara-savasi · nigbolu-savasi · kosova-savaslari · varna-muharebesi savaş maddesi YOK 1/11 Cerbe → anlatı cerbe (yer) + piyale-pasa (kişi) maddelerinde ⇒ ÖNGÖRÜ 5 (4-7 ölü) ÇÜRÜDÜ. Doğrusu 1. Denetim/ONGORU dosyası değişmeyecek; çürüme teslimde yazılır. YAN BULGU 1 — D063 \"doğru bilgi, ölü adres\" (dosyalar benim DEĞİL, dokunmadım) data/olaylar.js Preveze t:1538-09 kaynak:\"preveze-deniz-savasi\" → ÖLÜ · canlısı preveze-deniz-muharebesi data/olaylar.js Varna t:1444-11-10 kaynak:\"varna-savasi\" → ÖLÜ · canlısı varna-muharebesi data/kronoloji_ispanya.js İnebahtı t:1571-10-07 kaynak:\"inebahti-savasi\" → ÖLÜ · canlısı inebahti-deniz-savasi data/kronoloji_venedik.js Preveze \"TDV preveze slug'ı ÖLÜ\" yazıyor — doğru ama savaş maddesi CANLI YAN BULGU 2 — kronoloji_iran.js 1514-08-23 başlık YÖN TERS okunuyor b: \"Çaldıran Muharebesi — Osmanlı'ya ağır yenilgi\" tur:\"kayip\" d: \"[Safevî] Yavuz ... Şah İsmail'in ... kuvvetlerini Çaldıran'da ağır biçimde yendi\" savaslar.js galip:\"osmanli\" ⇒ yenilen Safevî. Başlık \"Osmanlı'ya karşı\" demek istemiş olabilir; okuyan tersini anlar. YAN BULGU 3 — çekirdek maddede t: AY, gun: GÜN (§8 \"kronoloji maddelerinde gün yaz\") olaylar.js Preveze t:1538-09 (gun 27–28 Eylül) · Çaldıran 1514-08 (23 Ağu) · Mercidabık 1516-08 (24 Ağu) · Niğbolu 1396-09 (25 Eylül) İŞİME ETKİSİ: kartın olay:[] alanına iki biçimi de yazacağım (çekirdek \"1538-09\" + kuyruk \"1538-09-28\"). AÇIK — Cerbe günü iki kovada ayrışıyor: kuyruk (italya_sehir · rodos) 1560-05-11 · çekirdek olaylar_ek5 + savaslar.js 1560-05-14. TDV cerbe + piyale-pasa gövdelerini okuyup hangisini desteklediğini yazacağım. 1288 — yeniden ÜRETİLEMEDİ. etiket¦tur¦k savaş = 1236 (çekirdek 366 + kuyruk 870). Tanımını söylersen onu kullanırım; söylemezsen 1236 üstünden sayar, tanımı damgalarım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
