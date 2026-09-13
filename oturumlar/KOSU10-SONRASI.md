@@ -87,7 +87,13 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       noktasıyla kurulan sınır düğümleri YENİDEN kaynaklanacak; kaynak gün vermiyorsa YYYY-01-01.
 - [ ] **KITA 14 Tebriz kararı** ("11 yerleşim kırılmasıyla aynı gün, yama gerekmez"): hüküm TDV
       hicrî güne dayandığı için DOĞRU kalır; gerekçedeki "yerleşimle aynı gün" cümlesi dayanak değil.
-- [ ] `dersler/D084` "komşusunun kullandığı günü kullanmak" dersi bu hükümle GEÇERSİZ — damgalanacak.
+- [x] ~~`dersler/D084` geçersiz~~ → Emre aynı gün düzeltti: komşunun günü ŞARTLI serbest
+      (komşunun günü kendi kaynağına dayanıyor · hedefin kaynağı yok · aynı süreç, yakın konum ·
+      kayda yazılır). Ferhat Paşa yamalarında devralınan günler bu şartlara göre TEK TEK sınanır:
+      şartı sağlayan kalır (kayda "gün komşudan" yazılarak), sağlamayan yeniden kaynaklanır.
+- [ ] Emre'nin 13 Eylül ikinci tur kararları (FERHATPASA-SINIR-0913.md): Hemedan + Burucird Safevî ·
+      Bicar kur = şehir olarak ortaya çıkış (öncesi boş) · Luristan harita 1603, 1591-92 isyan maddesi ·
+      Nihavend bağlı (enklav değil) · Kürt beylikleri Osmanlı tâbi, ayrı künye yok.
 
 ## 5a · Malaka 1511 günü (13 Eylül, Emre kararı: madde ana kronolojiye girdi)
 - [ ] `data/olaylar_p0047.js` maddesi TDV `malaka`ya göre **1511-08-10**. Veride üç yer

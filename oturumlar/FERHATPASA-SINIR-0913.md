@@ -33,6 +33,28 @@
   bağlıysa sınır Nihavend–Hemedan arasından, değilse Nihavend enklav.
 - Ahar · Sarab · Miyane dokuz gelenekten ayrıca araştırılıyor (`denetim/*AHAR-SARAB-MIYANE*`).
 
+## Emre'nin kararları (13 Eylül, ikinci tur — araştırma sonuçlarından sonra)
+1. **Hemedan ve Burucird SAFEVÎ.** (Monshi s.587/690/825 · s.643)
+2. **Bicar:** "o dönemde yokmuş gibi" — kaydın başlangıcı şehir olarak ortaya çıktığı tarihe
+   atılır (Iranica BĪJĀR: 19. yy'da kasaba), öncesi BOŞ; kalan toprak petek/bölgeleme
+   kurallarıyla bölünür — oradaki nehir sınır olabilir (batısı Osmanlı, doğusu Safevî).
+   🔜 Bicar'ın şehir olarak ortaya çıkış tarihi kaynaktan ölçülecek.
+3. **Luristan:** 1590'da Osmanlı ise Osmanlı gösterilir. Haritada renk değişimi **1603** (TDV
+   `luristan`). 1591-92 Şahverdi'nin Safevî'ye bağlılık bildirmesi (Monshi) kronolojiye
+   **isyan** maddesi olarak (haritada isyan ateşi); kesin kayıp 1603 maddesi. "Dayanak belge ne
+   diyorsa odur" — iki gelenek maddelerde açıkça yazılır.
+4. **Nihavend:** kendi batısındaki ve güneyindeki topraklarla Osmanlı ana karasına BAĞLI;
+   arada kalmış bir Safevî kenti yok ⇒ enklav DEĞİL (Luristan 1603'e kadar Osmanlı olduğu için
+   bağlantı sürer). ⚠️ Monshi s.824'ün "Safevî aşiret topraklarından geçerek" cümlesi ve
+   1591/92 sınır görüşmesi (Kütükoğlu s.198) raporda not olarak kalır.
+5. **Kürt beylikleri AYRI BEYLİK GÖSTERİLMEZ** — Osmanlı'ya bağlı (tâbi) gösterilir; yeni künye yok.
+6. **Sınır Emre'nin adını verdiği şehirlere göre değil, kaynağa göre çizilir.** ("Bicar,
+   Hemedan, Sultaniye Osmanlı'da kalmışsa batısı Osmanlı" bir araştırma sorusuydu, çapa değil.)
+7. **Komşunun günü şartlı serbest** (CLAUDE.md §4 "ATLAS REFERANS DEĞİLDİR" altı): komşunun
+   günü kendi kaynağına dayanıyorsa, hedefin kaynağı yoksa, aynı süreç ve yakın konumsa; kayda
+   yazılarak. Örnek: Bane'nin günü Serdeşt ve Sakız için.
+⏳ Açık kalanlar: Ahar (A: 1588-92 tâbi → Safevî · B: 1588-1603 tâbi) · Kirmanşah (kaynaksız).
+
 ## Kurallar
 - **Kaynak:** akademik (CLAUDE.md §4), dokuz tarih yazımı. Her yer için mümkünse
   iki farklı gelenekten kaynak; çelişki AÇIKÇA yazılır, taraf seçilmez.
