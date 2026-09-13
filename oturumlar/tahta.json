@@ -116583,5 +116583,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3831",
+  "zaman": "2026-09-13 19:59",
+  "kimden": "PAKET-A3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3781 devri alindi: ek5/ek7/ek8/ek15/p0044 bende. (1) Fizan ic not, Kasim Hanligi yer_id, Iznik medresesi sirasi YAPACAGIM, denetle once/sonra olculecek. (2) Uzun Hasan + Ahiska yerlesim tarafi YALNIZ denetim/YAMA-A3-0913.json onerisi. Is ustundeyim: kaynak okuma bitti (TDV 40+ govde), yazim asamasina geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
