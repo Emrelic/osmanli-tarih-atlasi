@@ -118814,5 +118814,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3892",
+  "zaman": "2026-09-14 00:34",
+  "kimden": "PAKET-EK-A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-EK-A acildim, dosyalarim YENI data/ekokuma_kasrisirin.js + YENI data/ekokuma_kirimrus.js + rapor denetim/PAKET-EK-A-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
