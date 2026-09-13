@@ -1,0 +1,180 @@
+{
+  "paket": "PAKET-A6B",
+  "tarih": "2026-09-13",
+  "rapor": "denetim/ARASTIRMA-A6B-0913.md",
+  "durum": "HAZIR DEĞİL İNİŞ İÇİN — koşu 10 yayını sonrası (girdi dosyaları ve devletler.js donuk). Hiçbir satır uygulanmadı.",
+  "yerlesim_yamalari": [
+    {
+      "id": "P-LEH-1", "madde": "0042/H-0007", "sinif": "veri yanlış",
+      "dosya": "data/yerlesimler.js", "kayit": "Varşova", "alan": "s[lehistan 1281-01-01→1795-10-24]",
+      "eski": {"f": "1281-01-01", "t": "1795-10-24", "d": "lehistan"},
+      "yeni": [{"f": "1281-01-01", "t": "1569-07-01", "d": "polonya-erken"}, {"f": "1569-07-01", "t": "1795-10-24", "d": "lehistan"}],
+      "kaynak": "Britannica «Union of Lublin» · EoU «Lublin, Union of» — ortak devlet 1 Temmuz 1569'da doğdu; künye lehistan f:1569-07-01",
+      "on_kosul": "K-LEH-1 (polonya-erken rengi) — yoksa nokta renksiz kalır",
+      "not": "1281-1320 dilimi polonya-erken künyesinden (1320-01-20) 39 yıl önce: sardinya/napoli sınıfı (fetret dönemi Polonya), öteki 9 kayıtla aynı biçim; ayrı hüküm gerekmez"
+    },
+    {
+      "id": "P-LEH-2", "madde": "0042/H-0007", "sinif": "veri yanlış",
+      "dosya": "(ARAC-A6B-LEHLIT-0913.js ile dosya bulunacak)", "kayit": ["Gdansk", "Torun (Toruń)", "Elbing (Elbląg)"],
+      "alan": "s[lehistan 1466-10-19→…]",
+      "yeni": "dönemi 1569-07-01'de böl: 1466-10-19→1569-07-01 polonya-erken · 1569-07-01→(eski t) lehistan",
+      "kaynak": "TDV `polonya`: 1466 antlaşmasıyla Tarikat topraklarının önemli kısmı Polonya'ya · künye lehistan f:1569-07-01"
+    },
+    {
+      "id": "P-LEH-3", "madde": "0042/H-0007", "sinif": "veri yanlış — ÖLÇÜLDÜ, KAYNAK TARAMASI YAPILMADI",
+      "kayit": ["Riga", "Cēsis (Wenden)", "Tartu (Dorpat)", "Pärnu", "Daugavpils (Dünaburg)"],
+      "alan": "s[lehistan 1561-11-28→…]",
+      "yeni": "YAZILMADI — 1561-1569 Livonya Litvanya'ya mı Polonya'ya mı bağlandı ayrıca araştırılmalı (8 yıllık dilim)",
+      "kaynak": "bulunamadı"
+    },
+    {
+      "id": "P-CEH-1", "madde": "0042/H-0006", "sinif": "veri yanlış (ŞARTLI gün)",
+      "dosya": "data/yerlesimler.js", "kayit": "Çehrin (Çigirin)", "alan": "s[0]",
+      "eski": {"f": "1281-01-01", "t": "1569-07-01", "d": "litvanya-buyuk-dukalik"},
+      "yeni": [{"f": "1281-01-01", "t": "1362-01-01", "d": "altinorda"}, {"f": "1362-01-01", "t": "1569-07-01", "d": "litvanya-buyuk-dukalik"}],
+      "kaynak": "EoU «Chyhyryn»: 16. yy yarısında Kazak kışlağı (14. yy'da yerleşim yok) · gün komşudan: Kiev s[altinorda→1362-01-01] — Kiev'in günü kendi kaynağına dayandığı DOĞRULANAMADI (EoU «Blue Waters» not found) ⇒ §4 şart ① açık",
+      "on_kosul": "Kiev 1362 kaynağı doğrulanmalı; doğrulanamazsa gün `bulunamadı` damgasıyla yazılır, kimlik kısmı yine iner"
+    },
+    {
+      "id": "P-CEH-2", "madde": "0040/H-0009", "sinif": "veri yanlış (gün)",
+      "dosya": "data/yerlesimler.js", "kayit": "Çehrin (Çigirin)",
+      "degisiklik": [
+        {"alan": "s[lehistan 1569-07-01→1678-07-19].t", "eski": "1678-07-19", "yeni": "1678-08-21"},
+        {"alan": "d[0].f", "eski": "1678-07-19", "yeni": "1678-08-21"}
+      ],
+      "kaynak": "TDV `cehrin-seferi`: \"Kuşatma 21 Temmuz 1678 günü başladı\" · \"kale kuşatmanın 33. günü alındı (21 Ağustos 1678)\"",
+      "birlikte_iner": "P-CEH-3 (yoksa Değişmez 2 açılır: 33 gün)",
+      "not": "1648-1678 lehistan dönemi de yanlış (hatmanlık başkenti 1648 · Osmanlı himayesi 1668/1672 · Rus ~1676) — K-CEH-1 künyesi olmadan yazılamaz"
+    },
+    {
+      "id": "P-HOT-1", "madde": "0035/H-0035", "sinif": "veri yanlış (cins: egemenlik → işgal)",
+      "dosya": "data/yerlesimler.js", "kayit": "Hotin",
+      "eski": {
+        "d": [{"f": "1713-06-24", "t": "1769-09-19", "y": "antlasma"}, {"f": "1774-07-21", "t": "1812-05-28", "y": "antlasma"}],
+        "s_silinecek": {"f": "1769-09-19", "t": "1774-07-21", "d": "rusya"},
+        "isg": [{"f": "1806-01-01", "t": "1812-05-28", "d": "rusya", "kaynak": "hotin"}]
+      },
+      "yeni": {
+        "d": [{"f": "1713-06-24", "t": "1812-05-28", "y": "antlasma"}],
+        "isg": [{"f": "1769-09-19", "t": "1774-07-21", "d": "rusya", "kaynak": "hotin · Kashirin 2024 (Slavyanovedenie 2024/1 s.5-30)"}, {"f": "1806-01-01", "t": "1812-05-28", "d": "rusya", "kaynak": "hotin"}]
+      },
+      "kaynak": "TDV `hotin`: 1769 Golitsın zaptı · \"1774'teki Küçük Kaynarca Antlaşması ile Hotin yeniden Osmanlılar'a bırakıldı\" · Kashirin: \"В ночь с 8 на 9 сентября 1769 г. турки оставили Хотин без боя\" (Jülyen 8/9 = Gregoryen 19/20)",
+      "emsal": "aynı kaydın 1806-1812 Rus işgali zaten isg:",
+      "etki_ongorusu": "Değişmez 2: 2 kırılma düşer · 2i: 1769-09-19 ve 1774-07-21 yeni işgal kırılması — ikisi de maddeli (olaylar_ek5.js:289 · olaylar.js:120). ÖLÇÜLMEDİ."
+    },
+    {
+      "id": "P-BOG-1", "madde": "0035/H-0035", "sinif": "veri eksik (işgal)",
+      "dosya": "data/yerlesimler.js", "kayit": "Yaş", "alan": "isg (başa ekle)",
+      "yeni": {"f": "1769-10-07", "t": "1774-07-21", "d": "rusya", "kaynak": "Kashirin 2024 s.5-30: \"26 сентября (7 октября) 1769 г. … Эльмпт … вступил в Яссы\" · bitiş: TDV `hotin`/`kucuk-kaynarca-antlasmasi` 1774"},
+      "not": "altta v:bogdan tâbiliği sürer (Hotin 1806 emsali gibi); madde: en yakın Hotin 1769-09-19 (18 gün)"
+    },
+    {
+      "id": "P-BOG-2", "madde": "0035/H-0035", "sinif": "veri eksik (işgal) — gün komşudan",
+      "dosya": "data/yerlesimler.js", "kayit": ["Suçava (Suceava)", "Çernovitz (Çernivtsi)", "Roman", "Soroka (Soroca)", "Orhei"],
+      "alan": "isg (başa ekle)",
+      "yeni": {"f": "1769-10-07", "t": "1774-07-21", "d": "rusya", "kaynak": "gün komşudan: Yaş · Kashirin 2024 (\"occupation of most of Moldavia by Russian troops in the autumn of 1769\")"},
+      "sart_denetimi": "§4 şartlı komşu: ① Yaş günü kendi kaynağında ✓ ② hedefte gün yok ✓ ③ aynı sonbahar 1769 işgal süreci, 60-200 km ✓ ④ kayda yazıldı ✓",
+      "haric": {"kayit": ["Kahul (Cahul)", "Kalas (Galatz)", "Birlad (Bârlad)"], "sebep": "güney Boğdan 1770 yazına kadar çekişmeli (Larga/Kartal muharebeleri) — kaynak kapsamaya yetmiyor ⇒ bulunamadı"}
+    },
+    {
+      "id": "P-BEN-1", "madde": "0035/H-0035 (ek bulgu)", "sinif": "veri yanlış (cins) — KAYNAK ZAYIF",
+      "dosya": "data/yerlesimler.js", "kayit": "Bender",
+      "yeni": "s:rusya 1770-09-27→1774-07-21 → isg:rusya aynı pencere + d: OSMANLI boşluğu kapatılır",
+      "kaynak": "bulunamadı — TDV `bender` 302 · gün yalnız atlas maddesinde (olaylar_ek5.js:87), §4 gereği dayanak olamaz; yalnız CİNS değişikliği öneriliyor, gün değişmiyor",
+      "on_kosul": "koordinatör kararı"
+    }
+  ],
+  "kronoloji_yamalari": [
+    {
+      "id": "P-CEH-3", "madde": "0040/H-0009", "sinif": "madde yanlış (gün)",
+      "dosya": "data/olaylar_ek5.js", "satir": 249, "kayit_b": "Çehrin Kalesi'nin fethi",
+      "degisiklik": [
+        {"alan": "t", "eski": "1678-07-19", "yeni": "1678-08-21"},
+        {"alan": "gun", "eski": "19 Temmuz 1678", "yeni": "21 Ağustos 1678"},
+        {"alan": "kaynak", "yeni": "cehrin-seferi"}
+      ],
+      "kaynak": "TDV `cehrin-seferi` (gövde okundu)",
+      "sahiplik": "olaylar_ek5.js KITA 14'te — o dosya serbest kalınca, P-CEH-2 ile aynı yayında"
+    }
+  ],
+  "kunye_onerileri": [
+    {
+      "id": "K-LEH-1", "madde": "0042/H-0007", "dosya": "data/devletler.js + arac/renkler.py",
+      "kimlik": "polonya-erken",
+      "sorun": "renkler.py BOYALAR'da yok · künyede harita: yok · veride 9 nokta (1281→1569) · donemler.js'te 0 geçiş (yayın a8feb8d, atama 58e9a41'den önce)",
+      "oneri": "renk ata (lehistan #fc87c9 ailesinden AYIRT EDİLEBİLİR ton; renk_olc.py ile) — harita:\"lehistan\" YAPILMAMALI: 1569 öncesini yeniden \"Lehistan-Litvanya\" etiketiyle çizer (kullanıcının şikâyeti tam bu)"
+    },
+    {
+      "id": "K-CEH-1", "madde": "0040/H-0009", "dosya": "data/devletler.js + arac/renkler.py",
+      "kimlik_onerisi": "kazak-hatmanligi",
+      "ad": "Kazak Hatmanlığı (Hmelnitski — Doroşenko)",
+      "f": "1648-01-01", "t": "1676-01-01", "kesinlik": "yil",
+      "tabi": [{"f": "1668-01-01", "t": "1676-01-01", "ust": "osmanli"}],
+      "kaynak": "EoU «Chyhyryn»: 1648 hatmanlık devletinin başkenti · TDV `ukrayna` (Hmelnitski 1648 · Doroşenko 1669/1672) · TDV `cehrin-seferi` (1668 tampon beylik, merkezi Çehrin · ~1676 Ruslara teslim, gün yok)",
+      "not": "gün bulunamadı ⇒ YYYY-01-01. `zaporojye` (Seç) bu kimliğin yerine geçmez. Künye inmeden Çehrin 1648-1678 dönemleri yazılmaz."
+    }
+  ],
+  "seferler_onerileri": [
+    {
+      "id": "SEF-HOT-1769", "madde": "0035/H-0080", "hedef": "data/savaslar.js window.SEFERLER (A4 sahibi)",
+      "kayit": {"ad": "Golitsın'ın Hotin seferi (1769)", "tur": "sefer", "sonuc": "yenilgi", "taraf": "dusman", "renk": "#4f7d4f",
+        "f": "1769-04-25", "t": "1769-09-19",
+        "yol": [[27.108, 48.854], [26.498, 48.522]]},
+      "kaynak": "Kashirin 2024: kamp Minkovtsı/Antonovka, Kamaniçe'nin 40 km KD'su · 14 Nisan (Jülyen) harekât başı · 15 Nisan Kalus köprüsünden Dinyester · 8/9 Eylül Hotin terk edildi",
+      "not": "yol [lon,lat]. Minkovtsı koordinatı Vikipedi (Mynkivtsi, Kamianets-Podilskyi raion); Kalus koordinatı bulunamadı, yola konmadı. Renk renkler.py rusya. İstenirse üç ayrı kayıt (Nisan · Temmuz-Ağustos · Eylül) — kaynak üç geçişi de veriyor."
+    },
+    {
+      "id": "SEF-OZI-1788", "madde": "0035/H-0077", "hedef": "data/savaslar.js window.SEFERLER",
+      "kayit": {"ad": "Potemkin'in Özi seferi ve kuşatması (1788)", "tur": "kusatma", "sonuc": "yenilgi", "taraf": "dusman", "renk": "#4f7d4f",
+        "f": "1788-05-01", "t": "1788-12-17",
+        "yol": [[30.850, 48.044], [31.542, 46.625]]},
+      "kaynak": "prlib.ru: \"В мае 1788 г. 50 тыс. … переправились через реку Буг\" · \"6 (17) декабря 1788 г. … штурм Очакова\" · Olviopol toplanma yeri: YALNIZ mil.ru arama özeti (sayfa ECONNREFUSED) ⇒ ölçülemedi",
+      "not": "f: kaynak ay veriyor ⇒ ayın 1'i DEĞİL, §4'e göre gerçek çare 1788-01-01 + metin; ancak künye penceresi yok, sefer oku için ay başı kabul edilirse metinde 'Mayıs 1788' yazılmalı — koordinatör seçer. Olviopol kaynağı doğrulanmadan yol başlangıcı TASLAK."
+    },
+    {
+      "id": "SEF-OZI-1737", "madde": "0035/H-0077", "hedef": "data/savaslar.js window.SEFERLER",
+      "durum": "TASLAK — başlangıç koordinatı kaynaksız",
+      "kayit": {"ad": "Münnich'in Özi seferi (1737)", "tur": "sefer", "sonuc": "yenilgi", "taraf": "dusman", "renk": "#4f7d4f",
+        "f": "1737-06-15", "t": "1737-07-13",
+        "yol": "[[<Bug geçişi — bulunamadı>], [31.542, 46.625]]"},
+      "kaynak": "ESBE «Брянская флотилия» (1891, IVa s.813-814): \"перешедшая Буг в середине июня 1737 г. и пришедшая к Очакову 29-го\" · \"2-го июля крепость сдалась\"",
+      "not": "Dinyeper geçiş yeri (Perevoloçna?) yalnız Vikipedi ⇒ ölçülemedi. Özi günü çelişkisi: TDV `ozu` 11 Temmuz 1737 · ESBE Jülyen 2 Temmuz = 13 Temmuz — koordinatör kararı."
+    }
+  ],
+  "halka_onerileri": {
+    "dosya_onerisi": "data/kaynakli_halka_a6b.js → window.KAYNAKLI_HALKA_A6B (VERI-YAPISI.md son bölüm şeması)",
+    "kayitlar": [
+      {"id": "a6b-hotin-tdv", "yer": "Hotin", "devlet": "rusya", "tur": "isgal", "f": "1769-01-01", "t": "1774-01-01", "kesinlik": "yil",
+       "kaynak": {"ad": "TDV İslâm Ansiklopedisi, «Hotin»", "slug": "hotin", "alinti": "1769'da … Golitsın tarafından zaptedildi … 1774'teki Küçük Kaynarca Antlaşması ile Hotin yeniden Osmanlılar'a bırakıldı", "gelenek": "TR"},
+       "rapor": "denetim/ARASTIRMA-A6B-0913.md §4", "not": "tek kaynak iki uç ⇒ ARALIK; yıl hassasiyeti"},
+      {"id": "a6b-hotin-kashirin", "yer": "Hotin", "devlet": "rusya", "tur": "isgal", "tarih": "1769-09-19", "kesinlik": "gun",
+       "kaynak": {"ad": "Kashirin V.B., Slavyanovedenie 2024/1", "sayfa": "5-30", "url": "https://doi.org/10.31857/S0869544X24010012", "alinti": "В ночь с 8 на 9 сентября 1769 г. турки оставили Хотин без боя", "gelenek": "RU"},
+       "rapor": "denetim/ARASTIRMA-A6B-0913.md §4", "not": "Jülyen 8/9 Eylül → Gregoryen 19/20"},
+      {"id": "a6b-yas-kashirin", "yer": "Yaş", "devlet": "rusya", "tur": "isgal", "tarih": "1769-10-07", "kesinlik": "gun",
+       "kaynak": {"ad": "Kashirin V.B., Slavyanovedenie 2024/1", "sayfa": "5-30", "url": "https://doi.org/10.31857/S0869544X24010012", "alinti": "26 сентября (7 октября) 1769 г. … Эльмпт … торжественно вступил в Яссы", "gelenek": "RU"},
+       "rapor": "denetim/ARASTIRMA-A6B-0913.md §4"},
+      {"id": "a6b-cehrin-1668-tdv", "yer": "Çehrin (Çigirin)", "devlet": "osmanli", "tur": "tabi", "tarih": "1668-01-01", "kesinlik": "yil",
+       "kaynak": {"ad": "TDV İslâm Ansiklopedisi, «Çehrin Seferi»", "slug": "cehrin-seferi", "alinti": "Beyliğin merkezi Çehrin'di … tampon bir beylik kurulmuş oldu (1668)", "gelenek": "TR"},
+       "rapor": "denetim/ARASTIRMA-A6B-0913.md §3"},
+      {"id": "a6b-cehrin-1678-tdv", "yer": "Çehrin (Çigirin)", "devlet": "osmanli", "tur": "dogrudan", "tarih": "1678-08-21", "kesinlik": "gun",
+       "kaynak": {"ad": "TDV İslâm Ansiklopedisi, «Çehrin Seferi»", "slug": "cehrin-seferi", "alinti": "kale kuşatmanın 33. günü alındı (21 Ağustos 1678)", "gelenek": "TR"},
+       "rapor": "denetim/ARASTIRMA-A6B-0913.md §3"},
+      {"id": "a6b-ozi-1737-tdv", "yer": "Özi", "devlet": "rusya", "tur": "isgal", "tarih": "1737-07-11", "kesinlik": "gun",
+       "kaynak": {"ad": "TDV İslâm Ansiklopedisi, «Özü»", "slug": "ozu", "alinti": "Bu savaşta Özü Ruslar'ın eline geçti (11 Temmuz 1737)", "gelenek": "TR"},
+       "rapor": "denetim/ARASTIRMA-A6B-0913.md §5", "not": "ÇELİŞKİ: ESBE Jülyen 2 Temmuz = 13 Temmuz — iki kayıt da durur (halka kuralı ⑦)"},
+      {"id": "a6b-ozi-1737-esbe", "yer": "Özi", "devlet": "rusya", "tur": "isgal", "tarih": "1737-07-13", "kesinlik": "gun",
+       "kaynak": {"ad": "Энциклопедический словарь Брокгауза и Ефрона, «Брянская флотилия»", "sayfa": "IVa, 813-814", "alinti": "2-го июля крепость сдалась", "gelenek": "RU"},
+       "rapor": "denetim/ARASTIRMA-A6B-0913.md §5", "not": "Jülyen 2 Temmuz → Gregoryen 13 Temmuz (dönüştürme bizim)"},
+      {"id": "a6b-ozi-1788-prlib", "yer": "Özi", "devlet": "rusya", "tur": "dogrudan", "tarih": "1788-12-17", "kesinlik": "gun",
+       "kaynak": {"ad": "Президентская библиотека им. Б.Н. Ельцина, «Русскими войсками взят Очаков»", "url": "https://www.prlib.ru/history/619816", "alinti": "6 (17) декабря 1788 г. в 7 ч. утра при 23°мороза начался штурм Очакова", "gelenek": "RU"},
+       "rapor": "denetim/ARASTIRMA-A6B-0913.md §5", "not": "cümle hücumun BAŞLADIĞINI söylüyor, zaptı değil — tur dogrudan kabul koordinatöre; kesinlik gerekirse kayıt düşürülür"}
+    ]
+  },
+  "sevk_adaylari": [
+    {"id": "S-HOT-1739", "ne": "Hotin 1739 Münnich zaptı ve Belgrad sonrası iadesi veride yok", "kaynak": "TDV `hotin` · EoU «Russo-Turkish wars» — gün aranmadı"},
+    {"id": "S-HOT-1788", "ne": "Hotin Eylül 1788 Avusturya-Rus zaptı → 1792 Yaş iadesi veride yok", "kaynak": "TDV `hotin` — gün aranmadı"},
+    {"id": "S-LIT-1308", "ne": "1308 kesitinde litvanya/polonya-erken anakronizmleri: Smolensk · Lutsk · Volodimir · Rivne · Lvov · Chełm · Kamaniçe · Bar · Meciboj", "kaynak": "yalnız sayıldı, kaynak taraması yok"},
+    {"id": "S-BOG-GUNEY", "ne": "Kahul · Kalas · Birlad 1769-1770 Rus işgal günleri", "kaynak": "bulunamadı"},
+    {"id": "S-LIV-1561", "ne": "Livonya 1561-1569 (Riga · Cēsis · Tartu · Pärnu · Daugavpils) lehistan künye öncesi", "kaynak": "bulunamadı"}
+  ]
+}

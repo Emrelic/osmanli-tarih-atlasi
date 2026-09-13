@@ -95,6 +95,14 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       Bicar kur = şehir olarak ortaya çıkış (öncesi boş) · Luristan harita 1603, 1591-92 isyan maddesi ·
       Nihavend bağlı (enklav değil) · Kürt beylikleri Osmanlı tâbi, ayrı künye yok.
 
+## 5-3 · Paket dalgası 13 Eylül — araştırma yamaları (PAKET-SINIF B/C kalemleri)
+- [ ] **A6b Lehistan · Litvanya · Çehrin · Hotin · Özi** — `denetim/YAMA-A6B-0913.json` (9 yerleşim + 1 madde ·
+      2 künye · 3 SEFER · 8 halka). Koordinatör hükmü: Özi 1737 günü TDV 11 Temmuz (ESBE 13 Temmuz ayrışma
+      notu) · `polonya-erken` rengi eklenir (9 nokta renksiz) · Çehrin zaptı 1678-08-21 madde + yerleşim BİRLİKTE
+      (bugün ikisi de 07-19, 33 gün) · Hotin 1769-74 `s:` → `isg:` (1806 emsali) + 1739 ve 1788-92 işgalleri.
+      🟡 EMRE: `kazak-hatmanligi` künyesi (Çehrin 1648-1678) açılsın mı. Güney Boğdan araştırması sonraki dalga.
+- [ ] **A3 Uzun Hasan 1468 · Ahıska 1578** — madde + yerleşim birlikte (`denetim/YAMA-A3-0913.json`, A3 teslim edince).
+
 ## 5-2 · Kirmanşah 1588-1604 (KIRMANSAH-DOGRULA, M-3813) — 🟢 EMRE KARARI: DOĞRUDAN OSMANLI
 - [ ] `d:` KORUNUR (Emre dördüncü tur; Y1 `v:` önerisi UYGULANMAZ). Yalnız `kaynak` alanı yeniden yazılır:
       şehir adıyla kaynaksız · Kalhor kuşağı Osmanlı (Monshi s.840/851/1168 · Şerefnâme · Kütükoğlu s.164/181) +
