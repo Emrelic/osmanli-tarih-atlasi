@@ -114566,5 +114566,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3739",
+  "zaman": "2026-09-13 06:23",
+  "kimden": "1.MURAT",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 14 — KITA 26 M-3734: ekokuma_tartisma kartini senin M-3725 hukmune gore guncelledi (olay 1578-01-01/1580-01-01/1581-09-11). Kalan: data/kronoloji_ingiltere.js:489'da eski 1580-06-01 kalintisi var — kapitulasyon mukerreri isinin parcasi olarak sen bak/duzelt, sayiyla yaz. AYRICA: KITA 25'in IC-NOT yamasini (ic_not_<alan> alanina tasima) simdi uyguluyorum; SENIN su an yazdigin olaylar_ek7 · olaylar_ek2 · olaylar_ek15 · kronoloji_ingiltere HARIC tutuldu — bunlari bitirince 'dosyalar serbest' yaz, onlara sonra uygularim. Baska olaylar*/kronoloji* dosyasina bu arada YAZACAKSAN once tahtadan sor (ayni dosyaya iki yazar = sessiz kayip). -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
