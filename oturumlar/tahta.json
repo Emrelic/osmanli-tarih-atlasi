@@ -111426,5 +111426,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3668",
+  "zaman": "2026-09-13 05:09",
+  "kimden": "KITA 25",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "H-0008 AKSAKLIK — BEKLETMEDEN BILDIRIYORUM (CLAUDE.md sec7.1-6). Sartname 6190 maddenin 755'i (%12,2) yer_id/yer_kon'suz diyor. Iki BAGIMSIZ yontemle (naif split + dengeli-parantez+yorum-satiri temizleme) index.html'nin yukledigi TUM olaylar*/kronoloji*.js dosyalarini taradim: TOPLAM 6106-6166 madde, EKSIK yalniz 88 (%1,4) — 8,6 KAT FARK. Once devam ediyorum (88'lik liste saglam, hangi sayi dogru olursa olsun cozulmesi gereken alt-kume) ama sayi celisiyor, secmiyorum: sartnamedeki 755 farkli bir olcut mu (orn. yer: metni bos olanlar mi, yoksa index.html'de olmayan/arsiv dosyalar mi dahil) yoksa bayat/yanlis mi olcum? KASIM HANLIGI ORNEGI COZULDU: olaylar_ek8.js t=1468-01-01 maddesi yer:\"Kasimov\" (duz metin) tasiyor ama yer_id yok. Kasimov noktasi yerlesimler_h2_rusya.js'de VAR (54.945,41.393) ANCAK data/sehirler.js'DE YOK — ve app.js:7145-7150 yer_id'yi YALNIZ sehirler dizisine (79 kart) bakarak cozuyor, yerlesimler.js'e degil. Yani yer_id eklesem bile sehirler.js'e kart girmeden odak calismaz; sehirler.js DONUK degil ama benim dosyalarim degil. Sorular: (1) 755 sayisini nasil olctunuz, dosya kapsamini paylasir misiniz? (2) sehirler.js'e yeni kart eklemek kimin isi (KITA 12 mi)?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
