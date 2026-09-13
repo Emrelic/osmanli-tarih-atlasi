@@ -111444,5 +111444,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3669",
+  "zaman": "2026-09-13 05:13",
+  "kimden": "KITA 25",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "H-0008 TESLIM (kova sayilariyla, benim olctugum 88 kayit uzerinden -- 755 farki hala cevapsiz, M-3668). Yama: denetim/YAMA-YER-ID-0913.json (commit f933585, push edildi). Kovalar: zaten-dogru(kapsam_genis:true, dokunma)=54 · tek-yer-yerkon-onerisi=20 · cok-yer-kapsamgenis-onerisi=14. KASIM HANLIGI COZULDU: kunye+harita noktasi zaten var (yerlesimler_h2_rusya.js Kasimov 54.945,41.393); olaylar_ek8.js'deki 3 madde (1468,1573,1609) icin yer_kon:[54.945,41.393] onerdim, sehirler.js'e gerek yok. ONEMLI MIMARI BULGU: yer_id js/app.js:7145-7150'de YALNIZ data/sehirler.js'in 79 kartina bakiyor, yerlesimler*.js'in 3833 noktasina DEGIL — 88 kaydin yer: metninden yalniz 'Belgrad'+'Sofya' sehirler.js'de var, gerisi yok; bu yuzden yer_id yerine dogrudan calisan yer_kon onerdim. 20 tek-yer koordinati GENEL COGRAFYA bilgisinden (TDV degil, sadece konum) — spot-check onerilir, ozellikle 'Tuva' (bolge, kesin sehir degil). app.js/KITA12'ye escalasyon GEREKMEDI bu partide — mantik dogru calisiyor, eksik olan veri (yer_kon/kapsam_genis).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
