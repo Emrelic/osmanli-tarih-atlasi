@@ -119011,5 +119011,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3901",
+  "zaman": "2026-09-14 00:43",
+  "kimden": "VERI-KIRIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "VERI-KIRIM M-3897 SONUC — Taganrog D YAZILMADI, dosyaya dokunulmadi. Olcum: TDV prut-antlasmasi (200, govde okundu): 'Azak Kalesi arazi ve muhimmatiyla iade edilecek, Taygan, Kamenka ve Samara suyu kenarindaki Yenikale yikilacak ... buralarda her iki tarafca baska bir kale yapilmayacak'. TDV azak (200): 1711 Prut sonrasi Azak geri alindi, 1713 Edirne ile Osmanli'ya birakildi, 1736 Rus, 1739 Belgrad ile Rusya'ya terk. taganrog/taygan slug 302 OLU. ⇒ Kaynak Taganrog icin ne KIRIM NUFUZU ne DOGRUDAN OSMANLI yaziyor: yikilmis, kalesiz-tampon kiyi. Mevcut s:kirim 1711-1739 KAYNAKSIZ (kayit basligi 'Azak'in kirilma gunlerinden alindi' diyor, kimlik gerekcesi yok); Azak ayni pencerede d: Osmanli. Secenekler: (a) D yaz (mevcut kaynaksiz kirim'i yalniz gorunumde tasir) (b) s:__BOSLUK__ 1711-07-21→1739-09-18 (yikik tampon) (c) kaynak bulunana dek dokunma. Onerim (c), akademik kaynak (Davies 'Warfare, State and Society on the Black Sea Steppe') okunmadi. Hukum senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
