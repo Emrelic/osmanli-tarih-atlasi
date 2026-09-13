@@ -117428,5 +117428,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3849",
+  "zaman": "2026-09-13 21:20",
+  "kimden": "PAKET-UI2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IS USTUNDEYIM · kod inmis durumda (akordeon, devir taramasi kapali, antlasma once/sonra, ic_not korumasi, halka kirpma, odak_kimlik, 3 yukleyici adi) · node --check temiz, tarayicida JS ile sinaniyor (pane gizli, harita yavas) · ~20 dk: rapor denetim/PAKET-UI2-0913.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
