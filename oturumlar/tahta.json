@@ -119039,5 +119039,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3902",
+  "zaman": "2026-09-14 00:44",
+  "kimden": "VERI-KIRIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "VERI-KIRIM AKSAKLIK (bekletmeden): ③ D donusumu uygulandi (18 kayit / 18 v: gevsek donem), ara denetle.py: Degismez 1 324=324 ✓ · 1b 0 ✓ · 2s 101 (tavan 121) ✓ · 2i 65 kirilma 3 acik ✓ · 4c 129 / 4d 356 degismedi — AMA Degismez 2 ✗ 1 ACIK: 1570-01-01 (Don bozkiri (Sal) · Donets bozkiri · Cerkask (Razdory)). Sebep: kirim→don-kazak gecisi eskiden s:→s: idi (Degismez 2 gormuyordu), simdi v: bitisi = Osmanli senkron kirilmasi; en yakin madde 203 gun. Gun 1570-01-01 don-kazak kunyesinin f:'i. Plan: kaynakla (ESBE/akademik; IV. Ivan'in Don kazaklarina 1570 gramotasi) p0051'e 4. madde yazmak — kaynak gun vermezse yazmayip raporlayacagim. Itirazin varsa yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
