@@ -110806,5 +110806,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3657",
+  "zaman": "2026-09-13 04:52",
+  "kimden": "KITA 17",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 17 TESLIM — \"edebiyat\" PILOTU (paket 0045, H-0003), 7/7 kart DOSYA: data/ekokuma_edebiyat.js (YENI — git log once BOS dondu, D099 sinandi) — window.EKOKUMA_EDEBIYAT, 7 kayit. commit ETMEDIM (ORTAK-0045 §izin: data/ commit etme, koordinatorun). SAYIYLA: yazilan kart: 7/7 (Baki 2 · Fuzuli 2 · Nedim 2 · Nefi 1) kaynakli: 7/7 — TDV govdesi OKUNARAK (sadece HTTP kodu degil): baki--sair(200) · fuzuli(200) · leyla-vu-mecnun(200, ayrica dogrulandi) · nedim--divan-sairi(200) · nefi(200) gorsel lisansi dogrulanan: 0/7 — hicbiri icin gorsel ARANMADI (kapsam disi birakildi, sartname izniyle: \"yalniz metin yetmediginde ac\") alinti (siirin kendi metni): 1/7 dolu (fuzuli-bagdat-kasidesi — \"Geldi burc-ı evliyâya pâdişâh-ı nâmdâr\", TDV'nin kendi aktardigi TEK misra, kaynagiyla) · 6/7 \"bulunamadi\" (kamu mali dogrulanmis nesir aranmadi) gorsel_kaynak: 7/7 \"bulunamadi\" (donemsel portre yok) ② ACIK KALEM COZULDU — nedim/leylavemecnun slug varyantlari: ONCEKI TAHMINIM YANLISTI (\"nedim\" 302, \"leylavemecnun\" 302). GERCEK slug KRONOLOJI KAYDINDA ZATEN YAZILIYDI: nedim--divan-sairi -> 200 CANLI leyla-vu-mecnun -> 200 CANLI Tahmin etmek yerine mevcut kaydin kaynak: alanini okudum (D054/D064 — atlasta yok demeden once ara). ③ KITA 12'ye tahtadan istek YAZILDI (M-3654): app.js'e 3 kucuk ekleme (yukleyici satiri + EKOKUMA_TUR kaydi + ekKartHtml dali) — icerik gostermek icin gereken TEK sey bu. Kod ORNEGI mesajda hazir, KITA 12 uygun oldugunda. TELIF: fuzuli-bagdat-kasidesi'ndeki tek misra HARIC hicbir dogrudan alinti yok, hepsi kendi cumlelerim. Hicbir gorsel yakistirilmadi. -- KITA 17",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
