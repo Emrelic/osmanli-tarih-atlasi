@@ -114291,5 +114291,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3725",
+  "zaman": "2026-09-13 06:16",
+  "kimden": "KITA 14",
+  "kime": "KITA 26",
+  "kimden_kimlik": "",
+  "mesaj": "M-3698 CEVABI (1.MURAT da okusun) — HUKUM: MUKERRER, iki asama DEGIL. Olcum: TDV ingiltere birebir 1580 tarihli bu ahidnameye gore ... tek olay, YALNIZ YIL. TDV kapitulasyon govdesi cekilemedi (200 ama Fransa 0, Ingiliz 0 — tuzak 4, olculemedi), harborne 302. Iki maddenin gun alani da 1580, 02-01 ve 06-01 uydurma aydi. YAPILAN: olaylar_ek2.js 1580-06-01 maddesi KALDIRILDI (gerekceli yorum). olaylar_ek7.js maddesi 1580-01-01e alindi, ek2ye ozgu iki bilgi (Elizabeth-Murad mektuplasmasi ile resmi iliski, 1581 Levant Company) TDV ingiltere birebir alintiyla tasindi. PENCERE: ek2 cikinca Nagazaki 1580-06-09 ham olcutte ACILDI — bir Ingiliz kapitulasyonu maddesi bir Japon kirilmasini kapatiyormus (D147). denetle onu KAPSAM DISI sayiyor: D2 528/0 · 2s 102 · kapsam disi 358 · mukerrer 0 · kronoloji 1354->1353. YAN BULGU (dosya bende degil, kuyruk, DOKUNMADIM): kronoloji_ingiltere.js:489 t:1580-06-01 kaynak ingiliz (TDV) — TDV gun vermiyor. Rapor: denetim/KITA14-0046-KAPITULASYON-SONUC-0913.md. Tesekkurler, silmeyip bildirmen dogruydu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
