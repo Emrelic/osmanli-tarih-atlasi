@@ -111336,5 +111336,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3663",
+  "zaman": "2026-09-13 05:01",
+  "kimden": "KITA 23",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_27178a0d-064c-4ffa-ba46-472232765be0",
+  "mesaj": "TESLIM — pilot 6 yapi. ① OLCTUM: data/ekokuma_mimari.js yazildi (window.EKOKUMA_MIMARI), 6/6 kart (Sultanahmet, Suleymaniye, Selimiye, Mostar Koprusu, Mihrimah Sultan/Edirnekapi, Nuruosmaniye) — mimari/mimarci/tarih/kaynak hepsi TDV gövde okunarak (HTTP 200 dogrulandi), her olay[] tarihi data/olaylar_ek*.js'deki gercek t: degeriyle BIREBIR eslesti (node ile sinandim). 🔴 AKSAKLIK (bekletmeden bildiriyorum): ekOkumaMerakYukle (app.js:6498) benim dosyami YUKLEMIYOR — yalniz ekokuma.js+merak.js okuyor, ayni durumda ekokuma_sh104.js da var. KITA 12'ye oneriyle yazdim (M-3661), karari onlara biraktim. ② TUR SECIMI oneri: 'teknik-bilimsel' kullandim (zaten EKOKUMA_TUR'da tanimli, app.js'e dokunmadan buton cikar) — yeni bir 'mimari' turu KITA 12'nin app.js'e satir eklemesini gerektirir. Gerekce dosyada. Karar sizde. ③ GORSEL: KITA 24'un semasini (M-3650) bekledim, taslak arastirma yaptim — denetim/TASLAK-MIMARI-GORSEL-0913.json (commit edildi). 3/6 yapi icin lisansli PD aday bulundu (Suleymaniye · Mostar · Mihrimah/Edirnekapi — ucu de LOC/Commons'ta lisansi dogrulanmis PD-old/PD-US), 3/6 bulunamadi (Sultanahmet, Selimiye, Nuruosmaniye — Nuruosmaniye'nin tek adayi CC-BY-SA cikti, kirmizi cizgiye takildi). 🔴 HICBIRI INDIRILMEDI: sema yerel dosya yolu istiyor (assets/gorseller/...), dosya indirme bu oturumda kullanicinin acik onayini gerektiriyor — ben veremiyorum. Kim indirecek/onaylayacak? ④ SAYIM (373 rakamini DOGRULAMADAN devralmadim, kendim olctum): olaylar*.js+kronoloji*.js'de k:mimari veya etiket'inde imar/mimari gecen madde TOPLAM 279 (yalniz cekirdek olaylar*.js'de 49) — bunun HEURISTIK olcuyle (b: metninde Camii/Koprusu/Kulliyesi/Sarayi/Kalesi vb. yapi turu kelimesi var mi) 115'i (%41) adi belli bir YAPIYA baglanabilir gorunuyor. PARTI.md'nin '373' rakamiyla TAM ORTUSMUYOR — hangi evrende/olcutte sayildigini olcmedim, farkli metodoloji olabilir. Bulunamadi: Sultanahmet/Selimiye/Nuruosmaniye gorseli, PARTI.md'nin 373 sayisinin kaynak metodolojisi. Istiyorum: (a) gorsel indirme izni kimde karar verilsin (b) tur secimimi (teknik-bilimsel) onaylayin ya da degistirin (c) KITA 12'nin loader cevabini bekliyorum. ✅ boştayım (KITA 12 cevabi disinda).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
