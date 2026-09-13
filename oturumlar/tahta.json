@@ -115624,5 +115624,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3788",
+  "zaman": "2026-09-13 16:26",
+  "kimden": "C-FERHATPASA-HAT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: data/hukuki_sinirlar.js yeni kayit ferhad-pasa-1590-sinir-hatti (9. kayit, parse OK). (1) 19 kose Hazar->Korfez, Emre ilkesi geregi ATLAS KOORDINATI YOK: yer ciftleri korundu, konumlar GeoNames; Hududaferin Wikipedia+NaturalEarth Aras 1,0 km; Sattularap agzi NE. 18/19 kose dogrulanmadi:true (orta nokta kaynak degil), kose 3-6 gecici:true bekleyen ASM-ARASTIRMA. Bane/Merivan dugumleri ATILDI (0047 kaynakli Osmanli-tabi), Mahmudabad yerine Baku<->Lenkeran. (2) TARAF: negatif_taraf osmanli; kaynak hukmu+GeoNames 30/30 (bagimsiz kaynakli 10/10, koseye katilan 12/12 donguSel), Tebriz+Bagdat OSM, Erdebil+Hemedan SAF dogru; genis evren 103/103, 0 karsi, 7 belirsiz. (3) CIZIM: KITA15 araci 8/9 ciziliyor+gri yok; yeni kayit cizgi 19 nokta, dolgu 0 (BILEREK dolgusuz). Eski kirisli app.js kutu dolgusu 10 YANLIS; C-NSEGMENT'in commitsiz app.js'i ile 30/30 - dolguyu acmak koordinator karari (tabi duzlesmesi). misir-sudan gri ONCEDEN VAR. (4) Eski bolge kaydi dolgu uretmiyor, cift boyama yok; 15 noktasinin 15'i Osmanli tarafinda; Nihavend (GeoNames) eklendi, Luristan'a celiski notu (silme yok). (5) ACIK: Luristan 1592/93 gunu -> kayit bolunmeli (1593 varyant koordinatlari null); Nihavend dusus gunu; f 21<->22 Mart; kollarin atlastan odunc aldigi gun/koordinat listesi rapor §6 (Merend=Gence gunu, Selmas=Hoy, Gumru=Revan, Kasr-i Sirin=Hanekin, Kurt kusagi=Tebriz kusagi, tum dugumler atlas orta noktasi). Dosyalar: data/hukuki_sinirlar.js · denetim/C-FERHATPASA-HAT-0913.md. Commit YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
