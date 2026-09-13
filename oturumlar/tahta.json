@@ -120387,5 +120387,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3968",
+  "zaman": "2026-09-14 01:54",
+  "kimden": "P07-KUZEY",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM P07-KUZEY (TOPARLA uyarisina uyuldu, yeni kalem acilmadi). data/ ve arac/'a HIC yazilmadi, commit yok. DOSYALAR: denetim/YAMA-KUZEY-0914.json · denetim/TASLAK-KUNYE-0914.json · denetim/P07-KUZEY-0914.md. MADDELER: (1) 0035/H-0068 Satu Mare = COZULDU 1682: atlas avusturya adasi DOGRU, Varga J. Janos 2005 Tortenelmi Szemle s.364-365: 19 Kas 1682 anlasmasi Szatmar+Ecsed kalelerinde kraliyet garnizonu; 1683-85 sirada; bayrak kaydi onerisi Y4. (2) 0025/H-0005 = goruntu BAYAT (devletler_harita.js'te 1566-09-07 macaristan penceresi YOK); gercek kusur Habsburg Macar tacinin iki kimlikle (macaristan 15 donem / avusturya 20+) yazilmasi, sirada T5'e bagli. (3) 0044/H-0002 = sirada: 1526 tabilik DAYANAKSIZ (TDV macaristan/erdel/varad tabiligi 1529/1538'e bagliyor; Debrecen dayanagi 1660 sonrasi Varad eyaleti cumlesi = D093); 13 kayit listesi Y5, gun kaynagi yok. (4) 0025/H-0004 = sirada: 9 Baltik kaydi almanya = Toton/Livonya yanlis atfi; T1 teuton-sovalyeleri · T2 livonya · T3 prusya-dukaligi taslak; Gdansk 1281-1308 ve Tallinn/Narva 1281-1346 Danimarka ayri. (5) 0014/H-0005 = ucgen §2 emilmesi (Kurzeme/Zemgale 0 nokta, Siauliai petegi 32 hucre); Jelgava taslagi UYGULANAMAZ (gunler yok); Polesya sirada; renk P03; LBD artik 28 kayit (OK124 '8' bayat). (6) 0024/H-0008 = sirada: Nyen/Koporye/Yam taslak, 1703 gunleri bulunamadi (yalniz Vikipedi); YAN BULGU Nystad 7 kayit 1721-08-30 / Viipuri 1721-09-10, TDV isvec 10 Eylul -> KOORDINATORE TAKVIM SORUSU. (7) 0039/H-0007 + 0011/H-0001 = EMRE'YE SORU: iki secenek sayiyla taslak. (a) 4 kunye (kutsal-roma →1806-08-06 · alman-konfederasyonu →1871-01-18 · alman-imparatorlugu →1918-11-09 [TDV gun] · weimar-cumhuriyeti), ≈80 yerlesim/≈105 donem ucu, ≤2 yeni renk anahtari, 0 nokta, 4c/4d +0 (gunler tutarsa), 2s ≈+2. (b) 5 secici + kutsal-roma: ≈6 yeniden etiket + ≈11 KAYNAKSIZ yeni nokta (Palatina bugun 0 nokta), 5-6 renk, 2s ≈+10. P07 onerisi (a). ONEMLI: yeni kunye harita:'almanya' tasirsa etiket DEGISMEZ (app.js:75 / uret_petek.py:366) - en az 1 yeni BOYALAR anahtari sart. kutsal-roma id devletler.js'te yok ama kimlik VAR (almanya 'Kutsal Roma / Almanya'); kronoloji_almanya.js 14 kunyesiz devlet: id kullaniyor. DENETIM once/sonra: D1 324/324 · 1b 0 · 2 531/0→534/0 · 2s 100→98 · 2i 3 · 4c 129 · 4d 356 · 7 658→660 ✗ · A2-BAG 630/630 HATA 0. 7 ve 2 farki BENDEN DEGIL: taban sonrasi degisen dosyalar (01:40-01:52) olaylar_p0055/p0056/p0058 · yerlesimler_ek/serhat/anadolu_0914/ek_korfez · yerlesimler.js · yer_yama*.js · olaylar.js · savaslar.js · ittifaklar.js · ekokuma_* · arac/uret_petek.py. YAPILMADI: Dogu Polesya bosluk yeniden olcumu · Szatmar 1683-85 · Narva/Tartu 1558-81 Rus donemi · Kolnluk 1806-14 Fransiz ilhaki · 7'deki +2'nin kalem kalem sebebi. KENDI KUSURUM: olcum aletimde uc haneli yil tuzagi (962<1806), pad ile duzeltildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
