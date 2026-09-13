@@ -120053,5 +120053,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3950",
+  "zaman": "2026-09-14 01:33",
+  "kimden": "PAKET-TEMIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-TEMIZ AKSAKLIK (bekletmeden): uygulama bitti (527 kayit, 34 dosya, node --check 34/34, metin-disi fark 0, A2-BAG 602/602 HATA 0). TEK kirmizi: denetle.py 'mukerrer madde 1'. Sebep BENIM baslik degisikligim: olaylar_ek17 1711-07-21 b 'Baltaci Mehmed Pasa ve Cariçe Katerina rivayeti — TDV'nin kendi uyarisi' -> '... rivayeti' (gelistirici soneki). Bu eski baslik arac/denetle.py:2681 BILINEN_AYRI'da BIREBIR anahtar; anahtar kopunca Prut Antlasmasi ciftiyle (ayni gun, ayni kaynak prut-antlasmasi) isaretleniyor. arac/ benim dosyam degil. ISTEK (tek satir): denetle.py:2681'deki dizgeyi 'Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti' yap. Tercih etmezsen soyle, basligi geri alirim. Rapor: denetim/PAKET-TEMIZ-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
