@@ -1,0 +1,37 @@
+{
+ "meta": {
+  "olusturan": "KITA 16",
+  "tarih": "2026-09-13",
+  "gorev": "paket 0044, madde ③ (vakit kalirsa) — Cizre'nin 1508-1515 beyanli bosluguna kunye taslagi",
+  "kaynak_kayit": "data/yerlesimler_ok107.js:40-60 — Cizre kaydinin kendi neden/kaynak alani, TDV `cizre` alintilariyla",
+  "🔒_YAZILMADI": "data/devletler.js VE data/yerlesimler*.js DONUK (kosu 10) — bu dosya SADECE yamadir.",
+  "ongoru_D022": "Bosluk zaten TAM olarak 1508-01-01 -> 1515-09-19 olarak KAYITTA beyanli; kunyenin f:/t: pencerisinin bu iki ucla BIREBIR eslesmesi beklenir (ne fazla ne eksik), cunku her iki uc da yerlesimler_ok107.js'in kendi s:/d: kirilma noktalari."
+ },
+
+ "①_kunye_taslagi": {
+  "id": "cizre-beyligi",
+  "ad": "Cizre (Bohtan) Beyliği",
+  "tur": "beylik",
+  "bolge": "anadolu",
+  "f": "1508-01-01",
+  "t": "1515-09-19",
+  "baskent": "Cizre",
+  "harita_onerisi": "cizre-beyligi (yeni anahtar, mevcut hiçbir id ile çakışmıyor — devletler.js'te `bohtan`/`cizre` id'si taranmadı, YOK)",
+  "ozet": "Akkoyunlu hâkimiyetinin çözülmesiyle Emîr II. Şeref'in 1508'de Cizre'de yeniden tesis ettiği mahallî beylik (standart akademik literatürde 'Bohtan' adıyla da anılır — ⚠️ TDV `cizre` maddesi bu adı KULLANMIYOR, açıkça belirtiliyor); Şeref'ten sonra beyliğin başına geçen Emîr Ali Bey döneminde şehir kısa süreliğine Şah İsmâil'in idaresine girdi ve yine Ali Bey tarafından geri alındı (TDV bu iki olaya tarih VERMİYOR — bulunamadı); Çaldıran sonrası İdrîs-i Bitlisî'nin aracılığıyla Yavuz Sultan Selim'e bağlılık arz edilerek Osmanlı hâkimiyetine girdi.",
+  "kaynak": "cizre (TDV İslâm Ansiklopedisi, madde: cizre — gövde 21.402 karakter, okundu). Şah İsmâil dönemi ve Ali Bey'in geri alış tarihi TDV'de yıl/gün VERMİYOR — bulunamadı, ozet'e düz metin olarak konuldu, tarih alanına yazılmadı (§4).",
+  "kronoloji": [
+   { "t": "1508-01-01", "tur": "kurulus", "b": "Emîr II. Şeref, Cizre'yi Akkoyunlulardan alıp mahallî yönetimi yeniden tesis etti" },
+   { "t": "1515-09-19", "tur": "son", "b": "İdrîs-i Bitlisî'nin aracılığıyla Yavuz Sultan Selim'e bağlılık arz edilip Osmanlı hâkimiyetine girdi" }
+  ]
+ },
+
+ "②_pencere_sinavi": {
+  "yontem": "yerlesimler_ok107.js Cizre kaydinin kendi s:/d: kirilmalari okundu: s: akkoyunlu ...->1508-01-01, d: 1515-09-19->1920-04-23 (Osmanli). Aradaki 1508-01-01 -> 1515-09-19 (7,7 yil) BEYANLI bosluk (bos:'veri-yok').",
+  "sonuc": "TAM ORTUSME — kunyenin f:/t: ucu, kaydin beyanli boslugunun iki ucuyla BIREBIR ayni gun. Bosluk kapanir, ne fazla ne eksik gun boyanmaz."
+ },
+
+ "③_renk": {
+  "durum": "ONERILMEDI — bu turda ΔE hesabi yapilacak zaman kalmadi (vakit kalirsa maddesiydi). Komsu/donem-esdegeri kimlikler: artuklu, akkoyunlu, safevi — renk atanacaksa bunlardan uzak secilmeli, py arac/renk_olc.py ile (kosu sonrasi) dogrulanmali.",
+  "harita_etkisi": "Cizre TEK nokta — kunye yazilip s: kirilmasi uygulanirsa yalniz Cizre'nin kendi peteği bu 7,7 yillik dilimde 'cizre-beyligi' rengiyle boyanir, komsu peteklere sicramaz (D002/D030 kontrolu: tasarruf, sefer degil)."
+ }
+}
