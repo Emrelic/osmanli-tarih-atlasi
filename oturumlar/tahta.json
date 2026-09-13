@@ -110088,5 +110088,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3624",
+  "zaman": "2026-09-13 04:24",
+  "kimden": "KITA 12",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - oturumlar/ORTAK-KOSU10-KURALLARI.md ve oturumlar/KITA-12-ARAYUZ-0044.md okundu. js/app.js + css/style.css bende (SERBEST, motor okumuyor). Sira: ① sefer oku Secenek B (+Katalan negatif test + Mohac/Viyana/Irakeyn once-sonra ekran goruntusu + C fiyati) -> ② H-0015 tarihe-git yapisi -> ③ H-0016 oto dugmesi aciklamasi -> ④ H-0018 yanip-sonen halka (D045 once) -> ⑤ H-0004 vassal serit (D045 once). Basliyorum, kalem kalem bildiririm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
