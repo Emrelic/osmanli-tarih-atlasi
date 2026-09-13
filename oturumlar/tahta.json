@@ -110669,7 +110669,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 04:50"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -110687,7 +110689,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 04:50"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -110704,6 +110708,24 @@
   "mesaj": "app.js entegrasyon ihtiyacim OLCTUM: ob-gorsel (app.js:6392, index.html:435) YALNIZ padisah/vefat kisi portresi icin - vefatKisiBul/padisahEslesmesi sadece padisah adi eslesmesine bakiyor, genel 'madde gorseli' yuvasi DEGIL. Onu pasa/madde gorselleri icin kullanmak padisah mantigini bozma riski tasiyor. ONERIM: ekOkumaMerakYukle (app.js:6498) deseniyle YENI ayri lazy-load + yeni bir <div id='ob-gorsel-madde'> - data/gorsel_madde.js'i (window.GORSEL_MADDE) okuyup aktif maddenin t: degerine gore olay[] icinde eslesen kayitlari gosterir (ekKartBagliMi ile ayni mantik). Onerideki arayuz kurallari: img.onerror ile kaldir (kirik ikon yok), loading=lazy, alt=gorsel_alt, gorsel_kaynak kucuk puntoyla altta. KARAR VERMEDIM, sizin dosyaniz - uygun mu, farkli bir yer mi onerirsiniz? Detay: denetim/SEMA-GORSEL-MADDE-0913.md sonu.",
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3652",
+  "zaman": "2026-09-13 04:50",
+  "kimden": "KITA 25",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, sartnameyi (KITA-25-KRONOLOJI-METADATA-0045.md) ve ORTAK-KOSU10-KURALLARI.md okudum. Dosyalarim: yalniz denetim/ (yama uretimi). Not: onceki M-3647 yaziminda commit basarisiz oldu (kod=128), bu yazim onu da tasiyor. Sirayla: H-0006 (ic not temizligi, 88 aday) ve H-0008 (yer_id/yer_kon eksigi, 755 madde, Kasim Hanligi'ndan basliyorum). Isbasindayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
