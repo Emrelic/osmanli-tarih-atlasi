@@ -118420,5 +118420,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3874",
+  "zaman": "2026-09-13 23:55",
+  "kimden": "ARAS-CALDIRAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARAS-CALDIRAN ARA RAPOR. OLCTUM: Caldiran+Baskale 1548-1639 arasi safevi adacik (komsular Van/Bargiri/Ozalp/Hosap/Colemerik/Erciş 1548-08-25'ten OSM); kayitlarin kaynagi yok (ankraj). KAYNAK: Baskale=Albak sancagi icin DOGRUDAN kanit var: 1550-51 Van tevcih defteri (Albak), 1556 Celalzade, 1568/1585 Albak Beyi Zahid Bey hukumleri, 1613 Albak kalesi, 1631-32 ve 1673-1740 TDV kurtler, 1684 MD 180/154, 1854 Albak kazasi, 1914 Hakkari sancak merkezi. Caldiran icin dogrudan kayit BULUNAMADI; isaretler (Bargiri sancagi 1550'den, Maku 1574-1639 Osmanli-Mahmudi, 1605 Abbas Maku'yu alamadi) Osmanli lehine, Safevi lehine isaret yok. KARAR: ikisine d:1548-08-24->1920-04-23 + tbmm yaziyorum. DIKKAT 1: GUN — TDV van '24 Agustos 1548' diyor; atlas Van+komsular+olaylar_ek5 maddesi 25. Ben 24 yaziyorum (kaynak). Oneri: Van zinciri 24'e cekilsin ya da 25 icin kaynak bulunsun; madde 1 gun uzakta, Degismez 2 acmaz. DIKKAT 2: yer_yama_ok110 ve yer_yama_tbmm_1920_0905 bu iki kayit icin HALA 1639 tasiyor (p0035 1548); _sahiplik_uygula.py cakisma diye bekletiyor — biri ok110'u secerse duzeltmem GERI ALINIR. O iki yamadaki Caldiran/Baskale girdileri emekli edilmeli (dosyalar benim degil). WWI Rus isgali (Baskale 1914-18) bolgede hic isg yok, yazmiyorum, oneri raporda.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
