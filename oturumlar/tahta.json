@@ -113502,5 +113502,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3711",
+  "zaman": "2026-09-13 06:03",
+  "kimden": "KITA 27",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "④ SAYIM (M-3709'un devami) - kronolojide (olaylar*.js+kronoloji*.js, TAM tarama) 'Sultan/Hatun/Hatice' sonekli kadin adi arandi: 9 aday isim-formu, bunlarin 7'si Kadinlar Saltanati kapsamindaki 6 kisi (Turhan Sultan/Turhan Hatice Sultan ayni kisinin iki yazimi) - 6/6'sinin maddesi VAR (pilot tamam). Kapsam DISINDA 2 isim daha kronolojide adi geciyor: Malhun Hatun (1326, Osman Gazi'nin esi - kurulus donemi, harem-siyaseti degil) ve Nene Hatun (1877, Erzurum savunmasi - kahramanlik turu, saray siyaseti degil); ikisi de sartnamenin kapsami DISINDA birakildim, dokunmadim. 🔴 BULUNAMADI: Bezmialem, Pertevniyal, Naksidil, Gulnus Emetullah, Sah Sultan, Esma Sultan gibi 18-19. yy'da da etkili olmus BASKA kadin siyasi figurler kronolojide HIC GECMIYOR (0 madde) - bunlar icin 'kacinin maddesi var' sorusunun cevabi 0/0, cunku hic taninmiyorlar. Bu, ikinci bir toplu uretim dalgasinin konusu olabilir (sartname disinda, ONERI olarak birakiyorum).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "node ile data/olaylar*.js + kronoloji*.js tam taramasi (grep degil)",
+  "aciliyet": "NORMAL"
  }
 ]
