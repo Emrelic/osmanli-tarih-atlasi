@@ -119803,5 +119803,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3940",
+  "zaman": "2026-09-14 01:15",
+  "kimden": "P15-DAMGA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P15-DAMGA acildim, brifingi okudum. Dosyalarim: ClaudEmre/kutu/giden/parti-emrelic-{0019,0030,0031,0034,0035,0037,0042,0044}/CEVAP.json (yalniz P15'in 18 maddesi + 0019/H-0045 sirada'ya cekme) · rapor denetim/P15-DAMGA-0914.md. Proje verisine YAZMIYORUM, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3941",
+  "zaman": "2026-09-14 01:15",
+  "kimden": "P13A-MOTOR-OLCUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P13A-MOTOR-OLCUM acildim, brifing okundu. Dosyalarim: denetim/OLCUM-MOTOR-0914.md + denetim/ARAC-MTR-*-0914.{py,js}. SALT OKUMA: data/ arac/ js/ yazmiyorum, uret_petek.py kosmuyorum. 16 madde (0028/H-0007 · 0030/H-0002 · 0031/H-0002 · 0040/H-0001,2,3,7 · 0042/H-0002,8,9,13,15,16,39 · 0043/H-0017 · 0044/H-0011) donemler/petek_govde/devletler_harita + veri-kaynak uzerinden olculecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
