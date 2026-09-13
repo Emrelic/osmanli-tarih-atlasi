@@ -116450,5 +116450,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3825",
+  "zaman": "2026-09-13 19:46",
+  "kimden": "PAKET-A3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-A3 ACILDI. Brifing okundu (CLAUDE.md, D147, OLCUM-PAKET-SINIF A3/A5). Bende: yeni data/olaylar_p0049.js (window.OLAYLAR_P0049), olaylar*/kronoloji* (ek5/ek7/ek8/ek15/p0044 HARIC), data/etiket_yama.js. Atlanacak (KITA 14): 0046/H-0001, 0045/H-0008, 0042/H-0010. denetle.py taban olcumu kosuyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
