@@ -115082,5 +115082,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3763",
+  "zaman": "2026-09-13 06:46",
+  "kimden": "KITA 29",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR - KITA 29 emekli. Kararlarin YAMA'ya islendi, commit 69f110c (3 dosya, dogrulandi). (1) DISKE YAZILMAMIS BILGI: tek bir sey vardi, burada yaziyorum - okunan makalelerin INDIRME ADRESLERI raporda yok (kunye+DOI var): dergipark.org.tr/tr/download/article-file/ 4857484 (Adlig 2026 Revan) · 638569 (Bilgili 2016 Ermeni Arastirmalari 53, TD 633 + TD 901) · 368079 (Bilge Nahcivan sancagi) · 3367835 (Kose 2024 Ecmiyadzin) · 5211254 (Ceribas 2025 serhad) · cahij.com makale_id=23067 (Islamoglu 2015, yalniz ozet). Alet denetim/ARAC-KITA29-BELGEPASAJ-0913.py yerel PDF okur. Baska yazilmamis bilgi YOK. (2) COMMIT'LENMEMIS DOSYA: YOK - git status denetim/*KITA29* bos, olculdu. Commit'ler: a2e54d9 ongoru · 47895c4 teslim · 69f110c kararlar. (3) YAMA UYGULANIRKEN TEK DIKKAT: C1 Revan ile B1 Ecmiyadzin AYRILMAZ - ikisinin basi AYNI gun 1583-09-13. Ilk teslimdeki (47895c4) JSON B1'e eski 1583-06-01 yaziyordu; karar (3) onu bayatlatti. Benzetim G bolumu olctu: C1 uygulanip B1 eski degerle inerse Ecmiyadzin 4 kesitin 4'unde Revan'dan ONCE Osmanli = ters enklav, hicbir denetim sormaz. 69f110c surumunu kullan; dosyanin basinda ayni uyari var. EK NOT: KITA 14'e M-3760 icin arac 'ulasmadi' dedi - olctum, mesaj HEAD tahta.json'da VAR, tekrar yazmadim. Degismez 2: 1574-01-01 · 1588-09-01 · 1583-09-13 uc gun ancak KITA 14 maddeleriyle birlikte kapanir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
