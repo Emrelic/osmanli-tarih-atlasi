@@ -82,7 +82,7 @@ window.KRONOLOJI_ITALYA = [
 // I. PAPALIK DEVLETİ (Roma) — 756-1870
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1281-01-01", b:"Papalık — atlas açılışında Orta İtalya'daki durum", tur:"kurulus", onem:3, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1281-01-01", b:"Papalık — XIII. yüzyıl sonunda Orta İtalya'daki durum", ic_not_b:"eski b: Papalık — atlas açılışında Orta İtalya'daki durum", tur:"kurulus", onem:3, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["papalik","kurulus","konu-siyasi"],
   d:"Atlas penceresi açıldığında Papalık Devleti, Ravenna'dan Roma çevresine uzanan bir toprak şeridine sahip dünyevi bir hükümdarlıktır (756'da Frank kralı Pepin'in bağışıyla doğmuştu). Ama papaların çoğu bu dönemde Roma soylularının çekişmeleriyle boğuşur ve sık sık Orvieto, Viterbo ya da Perugia'da ikamet eder — kurumun kendi başkentinde güvende olmadığı bir çağdır.",
   kaynak:"bulunamadı — standart akademik konsensüs (13. yy sonu papalığının Roma-dışı ikametleri); bu oturumda birincil metin OKUNMADI" },

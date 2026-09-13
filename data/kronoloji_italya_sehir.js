@@ -34,7 +34,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 /* ═══════════════════ I. DENİZ İMPARATORLUĞUNUN ZİRVESİ (1281-1350) ══════════ */
 
 { t:"1281-01-01",
-  b:"Atlasın açılışında Cenova — Batı Akdeniz'in ve Karadeniz'in efendisi",
+  b:"XIII. yüzyıl sonunda Cenova — Batı Akdeniz'in ve Karadeniz'in efendisi", ic_not_b:"eski b: Atlasın açılışında Cenova — Batı Akdeniz'in ve Karadeniz'in efendisi",
   tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
   etiket:["denizcilik","ticaret","kurulus","konu-askeri","konu-siyasi","konu-ekonomi"],
   yer_id:"Cenova",
@@ -1055,7 +1055,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
  * ═════════════════════════════════════════════════════════════════════════ */
 
 { t:"1281-01-02",
-  b:"Atlasın açılışında Este Devleti — Po ovasının efendisi",
+  b:"XIII. yüzyıl sonunda Este Devleti — Po ovasının efendisi", ic_not_b:"eski b: Atlasın açılışında Este Devleti — Po ovasının efendisi",
   tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
   etiket:["kurulus","idari","konu-siyasi","konu-idari"],
   yer_id:"Ferrara",
@@ -1360,7 +1360,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
  * ═════════════════════════════════════════════════════════════════════════ */
 
 { t:"1281-01-03",
-  b:"Atlasın açılışında Siena — Dokuzlar rejiminin arifesinde bir banker cumhuriyeti",
+  b:"XIII. yüzyıl sonunda Siena — Dokuzlar rejiminin arifesinde bir banker cumhuriyeti", ic_not_b:"eski b: Atlasın açılışında Siena — Dokuzlar rejiminin arifesinde bir banker cumhuriyeti",
   tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
   etiket:["kurulus","finans","idari","konu-siyasi","konu-idari","konu-ekonomi"],
   yer_id:"Siena",

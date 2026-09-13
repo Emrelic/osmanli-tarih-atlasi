@@ -74,7 +74,7 @@ window.KRONOLOJI_VENEDIK = [
 // I. DENİZ İMPARATORLUĞU VE ANAYASAL DÜZEN (1281-1400)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1281-01-01", b:"Levant imparatorluğu — atlasın açılışında Venedik'in elindekiler", tur:"kurulus", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ t:"1281-01-01", b:"Levant imparatorluğu — XIII. yüzyıl sonunda Venedik'in elindekiler", ic_not_b:"eski b: Levant imparatorluğu — atlasın açılışında Venedik'in elindekiler", tur:"kurulus", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["toprak-kazanc","ekonomi","konu-askeri","konu-siyasi","konu-ekonomi"],
   d:"Atlas penceresi açıldığında Venedik, Dördüncü Haçlı Seferi'nin paylaşımından doğan bir deniz imparatorluğunun sahibidir: Girit 1204'te 100.000 gümüş karşılığında devralınmıştır; Eğriboz, Modon ve Koron limanları ile Ege'deki dukalıklar ağın öteki halkalarıdır. Bu bir toprak devleti değil, bir liman ve rota zinciridir ve cumhuriyetin bütün siyaseti onu açık tutmaya dayanır.",
   kaynak:"TDV `girit` (gövdesi okundu): \"12 Ağustos 1204'te yapılan bir anlaşma ile Girit'i 100.000 gümüş karşılığında Venedikliler'e bıraktı\" · TDV `venedik`: \"Dalmaçya sahilinde ve Ege denizindeki pek çok yer Venedik'e bağlı idi\"" },

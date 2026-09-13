@@ -6502,7 +6502,7 @@ window.ETIKET_YAMA = {
    {
     "dosya": "kronoloji_altinorda.js",
     "t": "1346-01-01",
-    "b": "🔴 Kara Ölüm Kefe kuşatmasından Akdeniz'e yayıldı — Avrupa nüfusunun üçte biri öldü",
+    "b": "Kara Ölüm Kefe kuşatmasından Akdeniz'e yayıldı — Avrupa nüfusunun üçte biri öldü",
     "etiket_oneri": [
      "afet-salgin"
     ]

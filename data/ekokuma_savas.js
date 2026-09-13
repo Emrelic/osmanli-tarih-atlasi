@@ -90,7 +90,7 @@ window.EKOKUMA_SAVAS = [
   yer:"Cerbe (Djerba) adası, Tunus'un doğusunda Gabes körfezi",
   taraflar:[
     { ad:"Osmanlı donanması ve Trablusgarp kuvvetleri", komutan:"Kaptanıderyâ Piyâle Paşa · Trablusgarp beylerbeyi Turgut Paşa (Reis) · donanmada Uluç Ali Reis", kuvvet:"120 kadırga" },
-    { ad:"İspanya yönetiminde müttefik Hıristiyan donanması", komutan:"bulunamadı — okunan iki TDV maddesi komutanın adını vermiyor", kuvvet:"sayıca Osmanlı donanmasından kalabalık" }
+    { ad:"İspanya yönetiminde müttefik Hıristiyan donanması", komutan:"", ic_not_komutan:"eski komutan: bulunamadı — okunan iki TDV maddesi komutanın adını vermiyor", kuvvet:"sayıca Osmanlı donanmasından kalabalık" }
   ],
   oncesi:"Cerbe, Turgut Reis'in Batı Akdeniz akınlarında kullandığı bir üstü. Asıl hedefi Trablusgarp olan müttefik Haçlı donanması fırtınalar ve salgınlar yüzünden ancak 1560 başlarında adaya ulaşabildi; 12 Mart 1560'ta adayı ele geçirip burada sağlam bir kale yaptırdı. Turgut Reis hazırlıkları önceden İstanbul'a bildirmişti. Piyâle Paşa 120 kadırgalık donanmayla 28 Mart'ta İstanbul'dan çıktı, Modon'da ikmal yaptı, Malta yakınlarındaki Gozo adasını yağmaladıktan sonra Cerbe'ye yöneldi.",
   akis:"İki donanma arasındaki çatışma 11 Mayıs'ta başladı ve üç gün sürdü. Osmanlı donanmasının ikiye ayrılarak yaptığı manevra, kalabalık müttefik filosunu 14 Mayıs'ta dağıttı. Arşiv kaydına dayanan anlatıya göre müttefiklerin on dokuz kadırgası ele geçirildi, yirmi altı barçası tahrip edildi ve bir kısım gemi adadaki kaleye sığındı. Denizdeki yenilginin ardından müttefik askerleri kendi yaptıkları Cerbe Kalesi'ne kapandı. Kale karadan Turgut Paşa'nın kuvvetleri, denizden donanma tarafından kuşatıldı. İspanyol, İtalyan, Alman ve Maltalı askerlerin savunduğu kale yaklaşık iki ay dayandı ve 30 Temmuz 1560'ta düştü.",
@@ -273,7 +273,7 @@ window.EKOKUMA_SAVAS = [
   tarih_metin:"Apulia'ya çıkarma 28 Temmuz 1480 · Otranto'nun alınışı 11 Ağustos 1480 · şehrin boşaltılması 10 Eylül 1481",
   yer:"Otranto ve Apulia (Osmanlı kaynaklarında Pulya), Güney İtalya",
   taraflar:[
-    { ad:"Osmanlı kuvvetleri", komutan:"Gedik Ahmed Paşa (1480 çıkarması) · Hayreddin Bey (1481'de şehirde bırakılan garnizon)", kuvvet:"Şehirde bırakılan garnizon 8000 kişi; çıkarma ordusunun toplam büyüklüğü okunan kaynaklarda bulunamadı" },
+    { ad:"Osmanlı kuvvetleri", komutan:"Gedik Ahmed Paşa (1480 çıkarması) · Hayreddin Bey (1481'de şehirde bırakılan garnizon)", kuvvet:"Şehirde bırakılan garnizon 8000 kişi; çıkarma ordusunun toplam büyüklüğü bilinmiyor", ic_not_kuvvet:"eski: okunan kaynaklarda bulunamadı" },
     { ad:"Napoli Krallığı", komutan:"Kral I. Ferdinand (Ferrante) · oğlu Calabria Dükü Alfonso", kuvvet:"Alfonso'ya 1480'de verilen ordu 20.000 kişi; 1481 kuşatmasında karadan yerli birlikler, denizden Aragon kralının 40 gemisi" }
   ],
   oncesi:"Venedik'le 1479'da barış yapıldıktan sonra Fâtih Sultan Mehmed'in gözü, siyasî birliği olmayan İtalya'ya çevrildi. Aynı yıl Gedik Ahmed Paşa Kefalonya, Zanta ve Ayamavra'yı almış, Adriyatik'in karşı kıyısı Osmanlı'nın en yakın hedefi hâline gelmişti. Sefer öncesinde Papa IV. Sixtus ile Napoli kralı Floransa'ya karşı birleşmiş, Toskana'da savaşa tutuşmuşlardı; bu iç çatışma Osmanlı için uygun bir an sayıldı. Seferin asıl amacı konusunda kaynaklar aynı şeyi söylemez: Osmanlı kronikleri Arnavutluk'taki direnişi kırmayı öne çıkarır, bazı görüşler Venedik'in teşvikinden, bazıları da Fâtih'in İtalya'yı içine alan büyük bir fetih tasavvurundan söz eder.",
@@ -282,7 +282,7 @@ window.EKOKUMA_SAVAS = [
   tartisma:"Kaybın sebebi tartışmalıdır. TDV'nin Gedik Ahmed Paşa ve II. Bayezid maddeleri Otranto'nun düşüşünü doğrudan, yardım isteğinin reddine ve Cem Sultan'la başlayan taht mücadelesine bağlar. Aynı ansiklopedinin Otranto Seferi maddesi ise 'Bayezid Otranto'yla hiç ilgilenmedi' yorumunu tam isabetli bulmaz: yeni padişah, Gedik Ahmed Paşa'nın yerine İtalya ve Arnavutluk işleri için Rumeli Beylerbeyi Hadım Süleyman Paşa'yı görevlendirmişti; sonuç alınamamasının sebebi Napoli destekli Arnavut isyanıydı. Seferin niçin sürdürülmediği sorusu ayrıca 'Merak' kartında işleniyor.",
   kesinlik:"kesin",
   olay:["1480-08-11|Otranto","1481-09-10|Otranto"],
-  kaynak:"TDV: otranto-seferi (Metin Ziya Köse; gövde okundu, HTTP 200) · TDV: gedik-ahmed-pasa (gövde okundu, HTTP 200) · TDV: bayezid-ii (gövde okundu, HTTP 200 — tahliye sonrası anlaşma) · ⚠️ 'otranto' ve 'otranto-kusatmasi' 302 ÖLÜ",
+  kaynak:"TDV: otranto-seferi (Metin Ziya Köse) · TDV: gedik-ahmed-pasa · TDV: bayezid-ii (tahliye sonrası anlaşma)", ic_not_kaynak:"eski kaynak: TDV: otranto-seferi (Metin Ziya Köse; gövde okundu, HTTP 200) · TDV: gedik-ahmed-pasa (gövde okundu, HTTP 200) · TDV: bayezid-ii (gövde okundu, HTTP 200 — tahliye sonrası anlaşma) · ⚠️ 'otranto' ve 'otranto-kusatmasi' 302 ÖLÜ",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
 // ══ PAKET-A2 (13 Eylül 2026) · paket 0045 H-0007 — SAVAŞ HİKÂYELERİ, DALGA 3 ══════════
@@ -303,30 +303,30 @@ window.EKOKUMA_SAVAS = [
     {
       "ad": "Osmanlı ordusu",
       "komutan": "Kanûnî Sultan Süleyman",
-      "kuvvet": "bulunamadı — okunan TDV gövdeleri sayı vermiyor"
+      "kuvvet": "", "ic_not_kuvvet": "eski kuvvet: bulunamadı — okunan TDV gövdeleri sayı vermiyor"
     },
     {
       "ad": "Habsburg kuvvetleri (Budin'i kuşatan taraf)",
-      "komutan": "Ferdinand (Habsburg); sahadaki komutanın adı okunan gövdelerde geçmiyor",
-      "kuvvet": "bulunamadı"
+      "komutan": "Ferdinand (Habsburg)", "ic_not_komutan": "çıkarılan: sahadaki komutanın adı okunan gövdelerde geçmiyor",
+      "kuvvet": "", "ic_not_kuvvet": "eski kuvvet: bulunamadı"
     },
     {
       "ad": "Budin'deki Szapolyai çevresi",
       "komutan": "Szapolyai'nin bebek oğlu küçük kral Sigismund · annesi dul kraliçe · piskopos Martinuzzi",
-      "kuvvet": "bulunamadı"
+      "kuvvet": "", "ic_not_kuvvet": "eski kuvvet: bulunamadı"
     }
   ],
   "oncesi": "Mohaç yenilgisinin ardından Budin 11 Eylül 1526'da anahtarlarını Kanûnî'ye teslim etmiş, Macar soyluları ise tahta iki ayrı aday çıkarmıştı: bir kısmı János Szapolyai'yi (10 Kasım 1526), bir kısmı V. Karl'ın kardeşi Habsburg Ferdinand'ı (17 Aralık 1526) seçti. Ferdinand Ağustos 1527'de Buda'yı alınca Szapolyai padişahtan yardım istedi; Kanûnî Viyana üzerine yürürken şehri kısa bir mücadeleyle geri alıp Szapolyai'ye bıraktı. Denge 1540'ta bozuldu. Szapolyai 20 Temmuz 1540'ta öldüğünde geride birkaç günlük bir oğul vardı; ama iki yıl önce Ferdinand'la gizlice anlaşmış, vârissiz ölürse tahtın ona geçeceğini kabul etmişti. Ferdinand bu anlaşmaya dayanıp bütün Macaristan'ı istedi ve Mayıs 1541'de Budin'i kuşattı. Osmanlı yönetimi sınırın Tuna'da değil Budin'in batısında ve kuzeyinde olması gerektiği görüşündeydi; padişah yeniden Macaristan'a yürümeye karar verdi.",
-  "akis": "Kanûnî 26 Ağustos 1541'de Budin önlerine ulaştı; padişahı şehrin dışında Szapolyai'nin bebek yaştaki oğlu Sigismund, onun dul annesi ve piskopos Martinuzzi karşıladı. Ferdinand'ın kuşatma kuvvetleriyle nasıl bir çarpışma yaşandığı okunan TDV gövdelerinde anlatılmıyor. Belirleyici an bir meydan savaşı değil, bir el koyuştu: padişah veliahdı ve önde gelen Macar soylularını sur dışındaki otağına davet ettiği sırada yeniçeriler şehrin kilit noktalarını tuttu. Budin'in yalnız veliahd erginlik çağına gelinceye dek Osmanlı elinde kalacağı açıklandı; buna karşın şehre hemen bir beylerbeyi atandı ve merkeze bağlı yeni bir eyalet kuruldu. Küçük krala Erdel tarafının idaresi bırakıldı. Padişah 2 Eylül'de şehre girdi, Budin'in artık bir Osmanlı şehri olduğunu simgeleyen törenler yaptırdı ve yönetim atamalarını yaptı.",
+  "akis": "Kanûnî 26 Ağustos 1541'de Budin önlerine ulaştı; padişahı şehrin dışında Szapolyai'nin bebek yaştaki oğlu Sigismund, onun dul annesi ve piskopos Martinuzzi karşıladı. Ferdinand'ın kuşatma kuvvetleriyle nasıl bir çarpışma yaşandığı kaynaklarda anlatılmaz. Belirleyici an bir meydan savaşı değil, bir el koyuştu: padişah veliahdı ve önde gelen Macar soylularını sur dışındaki otağına davet ettiği sırada yeniçeriler şehrin kilit noktalarını tuttu. Budin'in yalnız veliahd erginlik çağına gelinceye dek Osmanlı elinde kalacağı açıklandı; buna karşın şehre hemen bir beylerbeyi atandı ve merkeze bağlı yeni bir eyalet kuruldu. Küçük krala Erdel tarafının idaresi bırakıldı. Padişah 2 Eylül'de şehre girdi, Budin'in artık bir Osmanlı şehri olduğunu simgeleyen törenler yaptırdı ve yönetim atamalarını yaptı.", "ic_not_akis": "eski: okunan TDV gövdelerinde anlatılmıyor.",
   "sonuc": "Budin, tâbi bir Macar krallığının başkenti olmaktan çıkıp doğrudan yönetilen bir beylerbeyilik merkezine dönüştü; Kanûnî'nin Macaristan'da himaye siyasetinden kalıcı ilhaka geçişinin işaretidir. Habsburgların 1542'deki kalabalık ordulu geri alma denemesi başarısız kaldı. Mevâcib defterlerine göre kalede 1543'te 2965 Osmanlı muhafızı bulunuyordu. Şehir 1686'daki kuşatmayla elden çıkana kadar Osmanlı idaresinde kaldı.",
-  "tartisma": "① Gün: TDV `suleyman-i` Budin önüne varışı 26 Ağustos, şehre girişi 2 Eylül 1541 olarak veriyor; atlasın bağlı maddelerindeki 29 Ağustos 1541 günü okunan TDV gövdelerinde (`budin`, `suleyman-i`) geçmiyor — o günün kaynağı ayrıca sınanmalı. ② `budin` maddesi eyaletin kuruluşunu yalnız yıl düzeyinde (948/1541) veriyor. ③ Kuşatmanın Osmanlı ordusu gelince nasıl kaldırıldığı ve iki tarafın kuvvetleri okunan gövdelerde yok.",
+  "tartisma": "① Gün: TDV'nin I. Süleyman maddesi Budin önüne varışı 26 Ağustos, şehre girişi 2 Eylül 1541 olarak veriyor; yaygın olarak anılan 29 Ağustos 1541 günü bu maddelerde geçmez. ② TDV'nin Budin maddesi eyaletin kuruluşunu yalnız yıl düzeyinde (948/1541) veriyor. ③ Kuşatmanın Osmanlı ordusu gelince nasıl kaldırıldığı ve iki tarafın kuvvetleri kaynaklarda verilmez.", "ic_not_tartisma": "eski ifadeler: «atlasın bağlı maddelerindeki 29 Ağustos 1541 günü okunan TDV gövdelerinde (`budin`, `suleyman-i`) geçmiyor — o günün kaynağı ayrıca sınanmalı» · «okunan gövdelerde yok»",
   "kesinlik": "kesin",
   "olay": [
     "1541-08-29|Budin'in ilhakı",
     "1541-08-29|Budin'in fethi — Macaristan",
     "1541-08-29|Budin'in Osmanlı tarafından fethi"
   ],
-  "kaynak": "TDV: budin (gövde okundu, HTTP 200) · TDV: suleyman-i (gövde okundu, HTTP 200) · ölü: budin-eyaleti (302) · kuvvet sayıları ve kuşatmanın kaldırılış biçimi: bulunamadı",
+  "kaynak": "TDV: budin · TDV: suleyman-i", "ic_not_kaynak": "eski kaynak: TDV: budin (gövde okundu, HTTP 200) · TDV: suleyman-i (gövde okundu, HTTP 200) · ölü: budin-eyaleti (302) · kuvvet sayıları ve kuşatmanın kaldırılış biçimi: bulunamadı",
   "gorsel": null,
   "gorsel_kaynak": "aranmadı"
 },
@@ -362,7 +362,7 @@ window.EKOKUMA_SAVAS = [
     "1596-10-12",
     "1596-06-20"
   ],
-  "kaynak": "TDV: hacova-meydan-savasi (gövde okundu, HTTP 200) · TDV: mehmed-iii (gövde okundu, HTTP 200) · TDV: egri (gövde okundu, HTTP 200) · TDV: cigalazade-sinan-pasa (gövde okundu, HTTP 200) · ölü: hacova-meydan-muharebesi, hacova, hacova-savasi, hacova-muharebesi, mezokeresztes (302)",
+  "kaynak": "TDV: hacova-meydan-savasi · TDV: mehmed-iii · TDV: egri · TDV: cigalazade-sinan-pasa", "ic_not_kaynak": "eski kaynak: TDV: hacova-meydan-savasi (gövde okundu, HTTP 200) · TDV: mehmed-iii (gövde okundu, HTTP 200) · TDV: egri (gövde okundu, HTTP 200) · TDV: cigalazade-sinan-pasa (gövde okundu, HTTP 200) · ölü: hacova-meydan-muharebesi, hacova, hacova-savasi, hacova-muharebesi, mezokeresztes (302)",
   "gorsel": null,
   "gorsel_kaynak": "aranmadı"
 },
@@ -378,12 +378,12 @@ window.EKOKUMA_SAVAS = [
     {
       "ad": "Osmanlı ordusu ve Kırım kuvvetleri",
       "komutan": "Serdâr-ı ekrem Sadrazam Baltacı Mehmed Paşa · Kırım Hanı II. Devlet Giray · sadrazamın kâhyası Osman Ağa",
-      "kuvvet": "toplam: bulunamadı · Rus karargâhına ulaşan habere göre İsakça'dan Tuna'yı geçen öncü kuvvet 40.000 (TDV, Râşid'e dayanarak)"
+      "kuvvet": "toplam bilinmiyor; Rus karargâhına ulaşan habere göre İsakça'dan Tuna'yı geçen öncü kuvvet 40.000 (TDV, Râşid'e dayanarak)", "ic_not_kuvvet": "eski: toplam: bulunamadı"
     },
     {
       "ad": "Rus ordusu",
       "komutan": "Çar I. Petro · başkumandan Mareşal Şeremetyev · generaller Janus ve Rhenne · müttefiki Boğdan Voyvodası Dimitrie Cantemir",
-      "kuvvet": "bulunamadı — TDV sayı vermiyor; Osmanlı karargâhına Rus ordusu hakkında abartılı haberler geldiğini belirtiyor"
+      "kuvvet": "bilinmiyor; Osmanlı karargâhına Rus ordusu hakkında abartılı haberler ulaşıyordu", "ic_not_kuvvet": "eski kuvvet: bulunamadı — TDV sayı vermiyor; Osmanlı karargâhına Rus ordusu hakkında abartılı haberler geldiğini belirtiyor"
     }
   ],
   "oncesi": "1700 İstanbul barışıyla Azak'ı elinde tutan Rusya Karadeniz'e çıkmanın yolunu arıyordu. Petro önce İsveç'e yöneldi; Büyük Kuzey Savaşı'nın bir evresinde İsveç Kralı XII. Karl (Demirbaş Şarl) Poltava'da yenildi ve Ağustos 1709'da yaralı hâlde Osmanlı topraklarına sığındı. Konuk kralın İstanbul'daki çabaları, sadrazam değişiklikleri ve Rusya'nın barış şartlarına uymaması ilişkileri gerdi. 18 Ağustos 1710'da ikinci kez sadrazam olan Baltacı Mehmed Paşa, Kırım Hanı Devlet Giray başta olmak üzere devlet ileri gelenlerini savaşa karar vermiş buldu; sarayda 20 Kasım 1710'da toplanan büyük meclis savaş kararı aldı. Amaç Azak'ı geri almak ve Kırım'ı tehdit eden Özü boyundaki Rus kalelerini yıktırmaktı. Baltacı 19 Şubat 1711'de serdâr-ı ekrem oldu ve 9 Nisan'da İstanbul'dan çıktı. Rus ordusu Boğdan voyvodası Cantemir'le anlaşıp Yaş'a kadar geldi, ama yeterli erzak bulamadı, halktan da destek görmedi; Şeremetyev kuvvetlerini bölerek Janus ve Rhenne'yi iaşe aramaya gönderdi. Sadrazam haziranın son günlerinde İsakça'da Tuna'yı geçti.",
@@ -396,7 +396,7 @@ window.EKOKUMA_SAVAS = [
     "1711-07-21|Prut Antlaşması — Azak",
     "1713-06-24|Rusya ile Edirne"
   ],
-  "kaynak": "TDV: prut-antlasmasi (gövde okundu, HTTP 200) · TDV: baltaci-mehmed-pasa (gövde okundu, HTTP 200) · ölü: prut-seferi, prut, prut-savasi (302) · iki ordunun toplam kuvveti: bulunamadı",
+  "kaynak": "TDV: prut-antlasmasi · TDV: baltaci-mehmed-pasa", "ic_not_kaynak": "eski kaynak: TDV: prut-antlasmasi (gövde okundu, HTTP 200) · TDV: baltaci-mehmed-pasa (gövde okundu, HTTP 200) · ölü: prut-seferi, prut, prut-savasi (302) · iki ordunun toplam kuvveti: bulunamadı",
   "gorsel": null,
   "gorsel_kaynak": "aranmadı"
 },
@@ -412,23 +412,23 @@ window.EKOKUMA_SAVAS = [
     {
       "ad": "Osmanlı donanması",
       "komutan": "Kaptanıderyâ Hüsâmeddin Paşa · sağ kanat kumandanı Cezayirli Hasan Bey · Rodos Beyi Câfer Bey",
-      "kuvvet": "toplam: bulunamadı · limanda yakılan gemi 'otuz kadar'"
+      "kuvvet": "toplam bilinmiyor; limanda yakılan gemi 'otuz kadar'", "ic_not_kuvvet": "eski: toplam: bulunamadı"
     },
     {
       "ad": "Rus donanması",
       "komutan": "Amiral Spiridov · İngiliz Amiral Elphinston · Aleksey Orlov ve kardeşi Theodore Orlov",
-      "kuvvet": "bulunamadı — TDV sayı vermiyor; filonun İngiliz desteğiyle Akdeniz'e çıktığını belirtiyor"
+      "kuvvet": "bilinmiyor; filo İngiliz desteğiyle Akdeniz'e çıkmıştı", "ic_not_kuvvet": "eski kuvvet: bulunamadı — TDV sayı vermiyor; filonun İngiliz desteğiyle Akdeniz'e çıktığını belirtiyor"
     }
   ],
   "oncesi": "1768'de başlayan Osmanlı-Rus savaşında Rusya, Mora Rumlarını ayaklandırmak amacıyla donanmasını İngiliz desteğiyle Akdeniz'e çıkardı; filo 1770 başlarında Mora açıklarında faaliyete geçti. İlkbaharda Avrupa üzerinden kara yoluyla gelen Orlov kardeşlerin katılmasıyla güçlenen Rus donanması, Mora Seraskeri Muhsinzâde Mehmed Paşa'ya yardıma gönderilen Hüsâmeddin Paşa'nın filosunu Anabolu (Nauplia) önlerinde ve Suluca (Hydra) açıklarında başarısızlığa uğrattı. Osmanlı donanması Ege adaları arasından çekilip Sisam Boğazı'nı geçti ve Çeşme'nin kuzeyindeki Koyun adalarına vardığında Spiridov'un filosuyla yeniden karşılaştı. 5 Temmuz'da Çeşme limanının kuzeyinde, Toprak adasının güneydoğusunda hilal biçiminde savaş düzenine girildi. Çarpışmada Cezayirli Hasan Bey'in gemisi ile Spiridov'un gemisi alev alınca, ateşin kendilerine sıçramasından çekinen öteki gemiler iki taraftan da savaş alanından uzaklaştı.",
   "akis": "Cezayirli Hasan Bey karşı çıktığı hâlde Hüsâmeddin Paşa ile Câfer Bey donanmayı manevra alanı bulunmayan Çeşme limanının içine soktu; gemiler kıyıya yerleştirilen topların koruması altında birbirine çok yakın demirleyip savunma savaşına hazırlandı. Rus filosu bu fırsatı kaçırmadı: 6 Temmuz'da limanın ağzını kapattı ve içeriye ateş kayıkları saldı. Sıkışık demirlemiş Osmanlı gemilerinden otuz kadarı alevler içinde kaldı. 7 Temmuz sabahı donanmadan geriye yalnız Kaptanıderyâ Hüsâmeddin Paşa'nın baştardası kalmıştı; o da Sakız adasına kaçarak kurtuldu.",
   "sonuc": "Osmanlı tarafı donanmasının hemen tamamını ve 5000 dolayında askerini yitirdi. Yaralanan Câfer Bey ile Cezayirli Hasan Bey kara yoluyla İstanbul'a döndü, Hüsâmeddin Paşa kaptanıderyâlıktan alındı. II. Katerina, Aleksey Orlov'a 'Çeşmeski' unvanını verdi ve zaferin anısına Rusya'da bir anıt diktirdi. Önünde engel kalmayan Rus filosu Ege'de serbestçe dolaştı ve Çanakkale Boğazı'nı ablukaya aldı; ancak iyi tahkim edilmiş Boğaz'ı geçmeyi göze alamadı, Limni'ye asker çıkarıp kaleyi kuşatmakla yetindi ve Cezayirli Hasan Bey'in yetişmesiyle ada kurtarıldı. Abluka Osmanlı ticaretine ancak kısmen zarar verdi; fakat Rus filosunun 1774'e kadar Ege ve Akdeniz'deki varlığı Küçük Kaynarca Antlaşması'nın imzalanmasında önemli bir etken oldu.",
-  "tartisma": "① Kuvvet: TDV iki filonun gemi ve asker mevcudunu vermiyor; bu kart sayı yazmadı. ② Tarih: TDV `cesme-vakasi` ilk çarpışmayı 5 Temmuz, liman baskınını 6 Temmuz, sonucu 7 Temmuz sabahı olarak anlatıyor; TDV `mustafa-iii` baskını '6-7 Temmuz 1770' diye tarihliyor — iki madde uyumlu. ③ Sorumluluk: TDV donanmanın limana sokulması kararını Hüsâmeddin Paşa ile Câfer Bey'e bağlıyor ve Hasan Bey'in buna karşı çıktığını yazıyor; Hasan Paşa'nın kendi TDV maddesinin gövdesi çekilemediği için bu, ikinci bir kaynakla karşılaştırılamadı.",
+  "tartisma": "① Kuvvet: Kaynaklar iki filonun gemi ve asker mevcudunu vermez. ② Tarih: TDV'nin Çeşme Vak'ası maddesi ilk çarpışmayı 5 Temmuz, liman baskınını 6 Temmuz, sonucu 7 Temmuz sabahı olarak anlatıyor; III. Mustafa maddesi baskını '6-7 Temmuz 1770' diye tarihliyor — iki madde uyumlu. ③ Sorumluluk: TDV donanmanın limana sokulması kararını Hüsâmeddin Paşa ile Câfer Bey'e bağlıyor ve Hasan Bey'in buna karşı çıktığını yazıyor.", "ic_not_tartisma": "eski ifadeler: «bu kart sayı yazmadı» · «Hasan Paşa'nın kendi TDV maddesinin gövdesi çekilemediği için bu, ikinci bir kaynakla karşılaştırılamadı»",
   "kesinlik": "kesin",
   "olay": [
     "1770-07-06"
   ],
-  "kaynak": "TDV: cesme-vakasi (gövde okundu, HTTP 200) · TDV: mustafa-iii (gövde okundu, HTTP 200) · tuzak: cesme (HTTP 200 ama madde su yapısı 'çeşme'dir, olay değil) · hasan-pasa-cezayirli (HTTP 200, madde gövdesi gelmedi) · ölü: cesme-baskini, cesme-savasi, gazi-hasan-pasa-cezayirli, hasan-pasa--cezayirli, gazi-hasan-pasa (302) · kuvvet sayıları: bulunamadı",
+  "kaynak": "TDV: cesme-vakasi · TDV: mustafa-iii", "ic_not_kaynak": "eski kaynak: TDV: cesme-vakasi (gövde okundu, HTTP 200) · TDV: mustafa-iii (gövde okundu, HTTP 200) · tuzak: cesme (HTTP 200 ama madde su yapısı 'çeşme'dir, olay değil) · hasan-pasa-cezayirli (HTTP 200, madde gövdesi gelmedi) · ölü: cesme-baskini, cesme-savasi, gazi-hasan-pasa-cezayirli, hasan-pasa--cezayirli, gazi-hasan-pasa (302) · kuvvet sayıları: bulunamadı",
   "gorsel": null,
   "gorsel_kaynak": "aranmadı"
 },
@@ -455,14 +455,14 @@ window.EKOKUMA_SAVAS = [
   "oncesi": "Rusya 24 Nisan 1877'de savaş ilan ettiğinde Osman Paşa, Sırp ve Rumenlerin olası hareketlerine karşı Vidin'de, Tuna cephesi serdârıekremi Abdülkerim Nâdir Paşa'nın emrinde bulunuyordu. Bir yıl önce Sırp savaşında kazandığı başarılarla ün yapmış ve müşir olmuştu. Ruslar Tuna'yı ciddi bir direnişle karşılaşmadan geçince Osman Paşa 1 Temmuz sabahı 25.000 kişiyle Niğbolu'yu kurtarmak ve Balkanlar'a doğru sarkan Rusların önünü kesmek için yola çıktı; yolda aldığı acil emirle Plevne'ye yöneldi ve 7 Temmuz'da kasabaya ulaştı. Sofya, Orhaniye, Lofça ve Bulgarani yollarının kavşağındaki bu küçük kasabada hemen sahra istihkâmları kurdurdu, avcı hendekleri kazdırdı ve toplarının çoğunu toprak siperlerin gerisine yerleştirdi.",
   "akis": "Grandük Nikola, ordusunun sağ yanında böyle bir kuvvet bırakmamak için saldırı emri verdi. İlk hamleyi 8 Temmuz'da General Schilder yaptı: istihkâmları bitmemiş, takviyesi gelmemiş ve uzun yürüyüşten yorgun çıkan Osmanlı birliklerini mevzilerinden atmak istedi, ama başaramadı; Ruslar savaşa soktukları kuvvetin yarısını, yetmiş dördü subay 3000 kadar ölü verdi (I. Plevne). Takviye alan Krüdener 18 Temmuz sabahı yeniden saldırdı; güneş batana dek süren çarpışmanın ardından Osman Paşa'nın ertesi akşamki karşı hücumu Rusları bozguna uğrattı, kaçanların bir kısmı Osma deresinde boğuldu (II. Plevne). Başarının arkasında topları istihkâmlara yerleştirip adeta seyyar tabyalar gibi kullanmak, piyadeyi toprak siperlerin ardına gizlemek ve Osmanlı askerinin elindeki Martini-Henry tüfekleriyle bol cephane vardı. Romen ordusunu da yanına alan Ruslar, 7 Eylül sabahından 11 Eylül sabahına kadar gece gündüz süren ağır bir topçu ateşinin ardından 11 Eylül'de genel taarruza kalktı; sabahtan akşama kadar süren bu hücum da sonuçsuz kaldı (III. Plevne). Şehri savaşla alamayacaklarını anlayan Ruslar kuşatmaya geçti ve komutayı General Totleben'e verdi; Gurko'nun Gurno-Dubnik ve Teliş mevzilerini almasıyla Plevne'nin bağlantısı tamamen kesildi. Erzakın tükenmek üzere olduğunu gören Osman Paşa teslim yerine yarma harekâtını seçti: 10 Aralık sabahı ordusunu ikiye ayırıp ilk Rus istihkâmlarına saldırdı. Birinci fırka üç büyük istihkâm ve on bir kadar top ele geçirdiyse de ihtiyatta bekleyen 20.000 kişilik kuvvet zamanında yetişemeyince hücum çözüldü. Vid suyuna doğru çekilme emri verdiği sırada atı şarapnelle vuruldu, kendisi sol bacağından yaralandı; önden ve arkadan sarılan ordunun direnemeyeceğini gören Osman Paşa, maiyetindeki komutanların ısrarıyla teslim oldu.",
   "sonuc": "Kayıp dengesi çok eşitsizdi: Osman Paşa'nın raporuna göre II. muharebe Ruslara 8000'den fazla ölüye ve bunun iki üç katı yaralıya, Osmanlılara ise 100 şehit ve 300 kadar yaralıya mal oldu; III. muharebede Rus kaybı üç general ve 350 subay dahil 15.550, Osmanlı şehit ve yaralısı 3-4000'di. Eylül ortasına gelindiğinde Rusların yalnız Plevne önündeki ölü ve yaralısı 50.000'e yaklaşmıştı. III. muharebeden sonra II. Abdülhamid Osman Paşa'ya 'gazi' unvanını verdi. Esir düşen paşa Rusya'da tutuldu, çar tarafından nişanla onurlandırıldı ve 12-13 Mart 1878'de törenle İstanbul'a döndü. Plevne'nin düşüşü Ruslara İstanbul yolunu açtı; savunmanın askerî kazancı ilerleyişi bir süre durdurmakla sınırlı kaldı, ama bütün Osmanlı ülkesinde yeni bir direniş ve millî heyecan dalgası yarattı, Avrupa kamuoyunda da geniş yankı buldu. Kuşatma sırasında harap olan şehrin Müslüman nüfusu savaştan sonra göç etti ve üçte ikisi evine dönemedi.",
-  "tartisma": "① Takvim — DOĞRULANMALI: TDV I. ve II. muharebeleri 8 ve 18 Temmuz, III. muharebeyi 7-11 Eylül, teslimi 10 Aralık 1877 olarak veriyor. Temmuz çarpışmaları başka yayınlarda 12 gün sonrasıyla anılabiliyor; bu fark Jülyen (Rus/Rumî) ile Gregoryen takvim farkına denk düşer. TDV'nin bütün günleri aynı takvimle verip vermediği bu kartta akademik bir kaynakla sınanmadı. Bağlı '1877-07-19' maddesinin günü okunan TDV gövdelerinde geçmiyor. ② Kayıplar: II. muharebe sayıları Osman Paşa'nın kendi raporuna dayanıyor, yani tek taraflı. ③ Kuşatmanın başlangıcı: TDV `gazi-osman-pasa` 13 Eylül diyor; `plevne-muharebeleri` gün vermiyor. ④ Komuta: TDV `plevne` Rus-Romen ordusunun başında Çar II. Aleksandr'ın bizzat bulunduğunu söylüyor; `plevne-muharebeleri` harekâtı Grandük Nikola'nın emirleriyle anlatıyor.",
+  "tartisma": "① Takvim: TDV I. ve II. muharebeleri 8 ve 18 Temmuz, III. muharebeyi 7-11 Eylül, teslimi 10 Aralık 1877 olarak veriyor. Temmuz çarpışmaları başka yayınlarda 12 gün sonrasıyla anılabiliyor; bu fark Jülyen (Rus/Rumî) ile Gregoryen takvim farkına denk düşer. ② Kayıplar: II. muharebe sayıları Osman Paşa'nın kendi raporuna dayanıyor, yani tek taraflı. ③ Kuşatmanın başlangıcı: TDV'nin Gazi Osman Paşa maddesi 13 Eylül der; Plevne Muharebeleri maddesi gün vermez. ④ Komuta: TDV'nin Plevne maddesi Rus-Romen ordusunun başında Çar II. Aleksandr'ın bizzat bulunduğunu söylüyor; Plevne Muharebeleri maddesi harekâtı Grandük Nikola'nın emirleriyle anlatıyor.", "ic_not_tartisma": "eski ifadeler: «DOĞRULANMALI» · «TDV'nin bütün günleri aynı takvimle verip vermediği bu kartta akademik bir kaynakla sınanmadı. Bağlı '1877-07-19' maddesinin günü okunan TDV gövdelerinde geçmiyor.»",
   "kesinlik": "kesin",
   "olay": [
     "1877-07-19|Plevne savunmasının",
     "1877-12-10|Plevne'nin düşüşü: Tuna",
     "1877-12-10|Plevne'nin düşüşü — Gazi"
   ],
-  "kaynak": "TDV: plevne-muharebeleri (gövde okundu, HTTP 200) · TDV: gazi-osman-pasa (gövde okundu, HTTP 200) · TDV: plevne (gövde okundu, HTTP 200) · ölü: plevne-muharebesi, plevne--sehir, 93-harbi, osmanli-rus-savasi-1877-1878, osman-pasa--topal (302) · osman-pasa-gazi (HTTP 200, madde gövdesi gelmedi)",
+  "kaynak": "TDV: plevne-muharebeleri · TDV: gazi-osman-pasa · TDV: plevne", "ic_not_kaynak": "eski kaynak: TDV: plevne-muharebeleri (gövde okundu, HTTP 200) · TDV: gazi-osman-pasa (gövde okundu, HTTP 200) · TDV: plevne (gövde okundu, HTTP 200) · ölü: plevne-muharebesi, plevne--sehir, 93-harbi, osmanli-rus-savasi-1877-1878, osman-pasa--topal (302) · osman-pasa-gazi (HTTP 200, madde gövdesi gelmedi)",
   "gorsel": null,
   "gorsel_kaynak": "aranmadı"
 },
@@ -490,7 +490,7 @@ window.EKOKUMA_SAVAS = [
     {
       "ad": "Habsburg ordusu ve müttefikleri",
       "komutan": "Prens (Arşidük) Ferdinand",
-      "kuvvet": "bulunamadı — okunan kaynaklar yalnız 'kalabalık' diyor"
+      "kuvvet": "bilinmiyor; kaynaklar yalnız 'kalabalık' der", "ic_not_kuvvet": "eski kuvvet: bulunamadı — okunan kaynaklar yalnız 'kalabalık' diyor"
     }
   ],
   "oncesi": "Kanije, Macar Kanizsai ailesinin iki yüzyıl elinde tuttuğu, XIII. yüzyıl sonunda yapılmış bir kaleydi. 1566'da hemen yakınındaki Sigetvar Osmanlılara geçince önemi birden arttı: kale doğrudan Habsburg kralına devredildi, bölgenin ünlü Macar komutanı György Thury buraya atandı ve kaleye iki yeni 'İtalyan tipi' burç eklendi. Uzun Harp sırasında Sadrazam Damad İbrâhim Paşa 1600 yazında Macaristan'a geldi. O sırada görevsiz olup Peçuy'da oturan Tiryâkî Hasan Paşa orduya katıldı; Ösek'teki savaş meclisinde (22 Ağustos 1600) önce Bobofça'nın, Bobofça vire ile teslim olunca (5 Eylül) Kanije'nin alınmasını savundu. Kale kırk günden fazla direndi ve anlaşmayla teslim oldu (20 ya da 22 Ekim 1600). Serbestçe çıkan Avusturyalı komutan Georg Paradeiser, kaleyi teslim ettiği için kendi tarafınca ölüme mahkûm edildi. Kanije hemen Sigetvar ve Peçuy'un bağlandığı yeni bir eyaletin merkezi yapıldı. Tiryâkî Hasan Paşa kış sonunda Belgrad'a gidip kendini buraya beylerbeyi atattı; yeni görevine geldiğinde Damad İbrâhim Paşa'nın öldüğü haberini aldı (10 Temmuz 1601). Kethüdâsını Belgrad'a yollayıp yeni serdarın Kanije'yi ihmal etmemesini ve askerle güçlendirmesini rica etti.",

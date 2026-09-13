@@ -60,7 +60,7 @@ window.KISILER = [
     olum_sebep:"göreve hasta bir halde yola çıkmıştı",
     baba:"Sadrazam Hacı İvaz Paşa — 1739'da Belgrad'ı Avusturyalılar'dan geri aldığı için 'Belgrad fâtihi' diye ün yapmıştı",
     gorev:"Mîrâhûr-ı evvel (üç defa) → vezâretle Rumeli beylerbeyiliği pâyesi (5 Ekim 1769) → sadrazam ve serdâr-ı ekrem (12 Aralık 1769 – 20 Aralık 1770) → Selânik ve Sivas beylerbeyiliği",
-    tartisma:"TDV maddesi bu bozgunu 'Kartal (Larga) Muharebesi' adıyla ve 2 Ağustos 1770 tarihiyle verir; atlasın kronolojisi aynı olayı 1 Ağustos 1770'te 'Kartal (Kagul) Ovası Bozgunu' adıyla tutuyor. Ad ve gün farkı koordinatöre bildirildi — kronoloji dosyası bu kaydı yazan oturumun yetkisinde değil.",
+    tartisma:"TDV maddesi bu bozgunu 'Kartal (Larga) Muharebesi' adıyla ve 2 Ağustos 1770 tarihiyle verir.", ic_not_tartisma:"çıkarılan: atlasın kronolojisi aynı olayı 1 Ağustos 1770'te 'Kartal (Kagul) Ovası Bozgunu' adıyla tutuyor. Ad ve gün farkı koordinatöre bildirildi — kronoloji dosyası bu kaydı yazan oturumun yetkisinde değil.",
     tarihciler:"Çağdaşı bazı tarihçiler bozgunu doğrudan onun adıyla, 'Halil Paşa inhizamı' diye anmıştır. Kendisi padişaha yazdığı arîzada açıkça 'Bu askerle iş görülmez' diyerek barış görüşmelerini savunmuştu; hezimet İstanbul'a 13 Ağustos 1770 tarihli bir mahzarla duyuruldu.",
     kaynak:"TDV: ivazzade-halil-pasa" },
 { id:"alemdar-mustafa-pasa", tur:"sadrazam", ad:"Alemdar Mustafa Paşa",           donem:"1808", not:"II. Mahmud'u tahta çıkaran Rusçuk âyanı; Sened-i İttifak'ın mimarı" },
@@ -445,8 +445,8 @@ window.KISILER = [
 { id:"ali-suavi", tur:"siyasi", ad:"Ali Suâvi", f:"1839", t:"1878", dogum_yer:"İstanbul", donem:"1839–1878", not:"Yeni Osmanlılar kadrosundan gazeteci; 1878 Çırağan Baskını'nı örgütleyip baskın sırasında öldürüldü" },
 
 // --- 1876 hanedan krizi (Abdülaziz'in hal'i / V. Murad / Çırağan Vak'ası) ---
-{ id:"cerkes-hasan-bey", tur:"siyasi", ad:"Çerkes Hasan Bey", t:"1876", donem:"ö. 1876", not:"Kolağası; 16 Haziran 1876'da Midhat Paşa'nın konağını basıp Hüseyin Avni Paşa'yı öldürdü, olay yerinde yakalanıp idam edildi (TDV'de müstakil maddesi yok, huseyin-avni-pasa maddesindeki geçişten; doğum yılı ve idam günü doğrulanamadı — bkz. OTURUM-5-ILERLEME.md)" },
-{ id:"yedisekiz-hasan-pasa", tur:"komutan", ad:"Hasan Paşa (Yedi Sekiz)", donem:"19. yy", not:"Beşiktaş muhafızı; 20 Mayıs 1878 Çırağan Vak'ası sırasında sarayı basan Ali Suâvi'yi vurarak öldürdü (TDV'nin ciragan-vakasi maddesinde olay anındaki rütbesiyle \"Hasan Ağa\" olarak geçiyor, müstakil maddesi yok; doğum-ölüm yılları TDV'de doğrulanamadı — bkz. OTURUM-5-ILERLEME.md)" },
+{ id:"cerkes-hasan-bey", tur:"siyasi", ad:"Çerkes Hasan Bey", t:"1876", donem:"ö. 1876", not:"Kolağası; 16 Haziran 1876'da Midhat Paşa'nın konağını basıp Hüseyin Avni Paşa'yı öldürdü, olay yerinde yakalanıp idam edildi", ic_not_not:"çıkarılan: (TDV'de müstakil maddesi yok, huseyin-avni-pasa maddesindeki geçişten; doğum yılı ve idam günü doğrulanamadı — bkz. OTURUM-5-ILERLEME.md)" },
+{ id:"yedisekiz-hasan-pasa", tur:"komutan", ad:"Hasan Paşa (Yedi Sekiz)", donem:"19. yy", not:"Beşiktaş muhafızı; 20 Mayıs 1878 Çırağan Vak'ası sırasında sarayı basan Ali Suâvi'yi vurarak öldürdü (olay anındaki rütbesiyle \"Hasan Ağa\" olarak da anılır)", ic_not_not:"eski: (TDV'nin ciragan-vakasi maddesinde … müstakil maddesi yok; doğum-ölüm yılları TDV'de doğrulanamadı — bkz. OTURUM-5-ILERLEME.md)" },
 
 // --- Askerî teknoloji reformcuları ---
 { id:"humbaraci-ahmed-pasa", tur:"komutan", ad:"Humbaracı Ahmed Paşa (Comte de Bonneval)", f:"1675", t:"1747", dogum_yer:"Coussac-Bonneval (Fransa)", olum_yer:"İstanbul", donem:"1675–1747", not:"Fransız asıllı; İslâm'a girip Osmanlı ordusunda Humbaracı Ocağı'nı Avrupa usulünde ıslah etti" },

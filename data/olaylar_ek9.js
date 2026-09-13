@@ -282,7 +282,7 @@ window.OLAYLAR_EK9 = [
 { t:"1911-11-05", k:"kayip", etiket:["diplomasi","konu-askeri","konu-diplomasi"],
   b:"İtalya'nın tek taraflı ilhak kararnâmesi",
   gun:"5 Kasım 1911", yer:"Roma · Trablusgarp ve Berka", kisiler:"—",
-  d:"İtalya, savaş sürerken 5 Kasım 1911'de bir kararnâme çıkararak Trablusgarp ve Berka'yı ilhak ettiğini ilân etti. Osmanlı Devleti bunu tanımadı ve savaş bir yıl daha sürdü; ilhak ancak 18 Ekim 1912 Uşi Antlaşması'yla hukukî geçerlilik kazandı. Kararnâme bu yüzden haritada TABAN RENGİNİ değiştirmez — de jure sahiplik 1912'ye kadar Osmanlı'dadır, İtalyan denetimi işgal örtüsüdür.",
+  d:"İtalya, savaş sürerken 5 Kasım 1911'de bir kararnâme çıkararak Trablusgarp ve Berka'yı ilhak ettiğini ilân etti. Osmanlı Devleti bunu tanımadı ve savaş bir yıl daha sürdü; ilhak ancak 18 Ekim 1912 Uşi Antlaşması'yla hukukî geçerlilik kazandı. Kararnâme bu yüzden haritada Osmanlı rengini değiştirmez — hukukî sahiplik 1912'ye kadar Osmanlı'dadır, İtalyan denetimi taralı işgal olarak gösterilir.", ic_not_d:"eski: Kararnâme bu yüzden haritada TABAN RENGİNİ değiştirmez — de jure sahiplik 1912'ye kadar Osmanlı'dadır, İtalyan denetimi işgal örtüsüdür.",
   kaynak:"trablusgarp-savasi", duygu:["😔"], yer_id:"Roma" },
 
 // ---------------------------------------------------------------------------

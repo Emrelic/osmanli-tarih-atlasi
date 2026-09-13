@@ -238,7 +238,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 { t:"1417-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   kapsam:"dis", onem:2, b:"Bahreyn adalarının Cebrîler'in eline geçmesi",
-  gun:"1417 (TDV hanedan sırasını verir, TARİH VERMEZ; yıl komşu Katîf ve Lahsa kayıtlarının deseninden alındı — literatür Cebrî hanedanının kuruluşunu XV. yüzyıl başına koyar)",
+  gun:"1417 dolayı (Cebrî hânedanının kuruluşu XV. yüzyıl başına tarihlenir)", ic_not_gun:"eski gun: 1417 (TDV hanedan sırasını verir, TARİH VERMEZ; yıl komşu Katîf ve Lahsa kayıtlarının deseninden alındı — literatür Cebrî hanedanının kuruluşunu XV. yüzyıl başına koyar)",
   yer:"Bahreyn (Evâl adaları), Katîf, Lahsa",
   d:"TDV Bahreyn maddesi adanın \"sırasıyla Uyûnîler, Salgurlular, Tabîler, Cebrîler idaresinde kaldığı ve Cebrîler devrinde çoğunluğun Şiîler'den Sünnîler'e geçtiği\" kaydını düşer; hiçbirine tarih vermez. Genel literatürde Cebrî hanedanı XV. yüzyılın başında, Katîf'teki son Cervânî hükümdarını devirerek kuruldu ve en parlak devrinde (Acvâd b. Zâmil, ö. 1496) Basra körfezinin bütün Arap kıyısını, Lahsa'yı, Katîf'i ve Bahreyn adalarını denetledi. Acvâd'ın ardından Evâl adaları Mukrin b. Zâmil'e geçti — 1521'de Portekizliler'e yenilecek olan hükümdar odur.",
   kaynak:"bahreyn", duygu:["🏛"], yer_id:"Manama (Bahreyn)" },

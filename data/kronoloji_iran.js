@@ -30,7 +30,7 @@
 //     amasya-antlasmasi · azerbaycan · caldiran-savasi · ferhad-pasa-antlasmasi
 //     (⚠️ TDV'de MÜSTAKİL maddesi yok, hükümleri "luristan" maddesinden
 //     toplanıyor — CLAUDE.md §4'te zaten belgeli) · kacarlar ·
-//     kasr-i-sirin-antlasmasi · luristan · nadir-sah--iran · safeviler ·
+//     kasrisirin-antlasmasi (14 Eyl 2026 düzeltildi; kasr-i-sirin-antlasmasi 302 ÖLÜ) · luristan · nadir-sah--iran · safeviler ·
 //     sirvan · tebriz · akkoyunlular · celayirliler · ilhanlilar ·
 //     karakoyunlular · mesrutiyet · timur · turkmenler.
 //   Bu turda AYRICA sınandı (HTTP + içerik OKUNDU, 2026-08-20) ve BULGU:
@@ -182,7 +182,7 @@ window.KRONOLOJI_IRAN = [
 { t:"1603-09-26", b:"Osmanlı-Safevî Savaşı başladı (1639'a dek) — intikam seferi", tur:"savas", onem:4, dunya:3, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   d:"[Safevî] Şah Abbas, yeni ordusuyla 1590'da kaybedilen toprakları geri almak için sefere çıktı; Tebriz, Erivan ve Şirvan'ı geri aldı. Osmanlı ile aralıklarla 36 yıl süren bu uzun savaş dizisi, İran tarihyazımında Şah Abbas'ın \"intikam ve restorasyon\" döneminin omurgasıdır ve nihayetinde Kasr-ı Şirin ile bugünkü Türkiye-İran sınırının temelini kurdu.",
-  kaynak:"kasr-i-sirin-antlasmasi (TDV, doğrulanmış — data/olaylar*.js kullanıyor)", yer_id:"Tebriz" },
+  kaynak:"kasrisirin-antlasmasi (TDV, HTTP 200 + başlık «KASRIŞÎRİN ANTLAŞMASI», 14 Eylül 2026 sınandı; eski kasr-i-sirin-antlasmasi 302 ÖLÜ)", yer_id:"Tebriz" },
 { t:"1622-05-01", b:"Hürmüz'ün Portekiz'den geri alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak","konu-askeri"],
   d:"[Safevî] Şah Abbas, İngiliz Doğu Hindistan Şirketi donanmasının desteğiyle Hürmüz Boğazı'ndaki Portekiz kalesini ele geçirdi; Basra Körfezi ticaret yolları üzerindeki Avrupalı tekel bu şekilde kırıldı ve İran'ın deniz ticaretindeki konumu güçlendi.",
@@ -193,14 +193,14 @@ window.KRONOLOJI_IRAN = [
   kaynak:"Encyclopaedia Iranica, madde: ʿABBĀS I", yer_kon:[36.69,52.7767] },
 
 // === F) SAFEVÎ GERİLEYİŞİ VE ÇÖKÜŞÜ (1629-1722) ===============================
-{ t:"1638-12-25", b:"Bağdat Osmanlı'ya kesin olarak kaybedildi", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis",
+{ t:"1638-12-24", b:"Bağdat Osmanlı'ya kesin olarak kaybedildi", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis",
   etiket:["askeri","kayip","konu-askeri"],
-  d:"[Safevî] IV. Murad'ın bizzat komuta ettiği kuşatmayla Bağdat, 1623'te kısa süreliğine geri alınmasının ardından kesin olarak Osmanlı'ya geçti; bu kayıp Kasr-ı Şirin Antlaşması'nın zeminini oluşturdu.",
-  kaynak:"kasr-i-sirin-antlasmasi (TDV, doğrulanmış)", yer_id:"Bağdat" },
+  d:"[Safevî] IV. Murad'ın bizzat yönettiği kırk günlük kuşatmanın ardından kale kumandanı Bektaş Han Bağdat'ı teslim etti; Safevîlerin 1623'ten beri elinde tuttuğu şehir kesin olarak Osmanlı'ya geçti ve bu kayıp Kasr-ı Şirin Antlaşması'nın zeminini oluşturdu.",
+  kaynak:"murad-iv (TDV, gövde okundu: «Ertesi gün (17 Şâban 1048 / 24 Aralık 1638 Cuma) kale kumandanı Bektaş Han, Bağdat'ı teslime karar verip»; kırk gün: TDV bagdat)", yer_id:"Bağdat" },
 { t:"1639-05-17", b:"Kasr-ı Şirin Antlaşması — kalıcı sınır", tur:"antlasma", onem:5, dunya:4, kapsam:"dis",
   etiket:["antlasma","toprak","konu-askeri","konu-diplomasi"],
   d:"[Safevî] Osmanlı ile Safevî arasında imzalanan bu antlaşma, Bağdat'ı Osmanlı'da, Revan (Erivan)'ı Safevî'de bırakarak neredeyse üç yüz yıl (küçük değişikliklerle bugüne kadar) süren Osmanlı-İran sınırını kesinleştirdi. İran tarihyazımında bu, bir buçuk asırlık aralıksız Osmanlı savaşlarının sona erdiği ve devletin artık doğuya (Özbek/Afgan sınırına) yönelebildiği dönüm noktasıdır — dünya ölçeğinde de iki büyük İslâm imparatorluğu arasındaki kalıcı sınırı çizdiği için bölgesel sistemi kalıcı biçimde değiştiren bir antlaşmadır.",
-  kaynak:"kasr-i-sirin-antlasmasi (TDV, doğrulanmış)", yer_id:"Kasr-ı Şîrîn" },
+  kaynak:"kasrisirin-antlasmasi (TDV, HTTP 200 + başlık «KASRIŞÎRİN ANTLAŞMASI», 14 Eylül 2026 sınandı; eski kasr-i-sirin-antlasmasi 302 ÖLÜ)", yer_id:"Kasr-ı Şîrîn" },
 { t:"1666-01-01", b:"II. Abbas öldü, Şah Süleyman tahta çıktı — duraklama başladı", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"[Safevî] II. Abbas'ın ölümüyle tahta çıkan Şah Süleyman'ın (Safi II) 28 yıllık pasif ve içe kapanık saltanatı, Safevî devletinin idari ve askerî çürümesinin hızlandığı dönem olarak anılır; harem entrikaları ve saray bürokrasisinin taşra üzerindeki denetimi zayıflattı.",
@@ -423,10 +423,10 @@ window.KRONOLOJI_IRAN = [
   etiket:["askeri","savas","konu-askeri"],
   d:"[Safevî] 1612 Nasuh Paşa Antlaşması'nın kısa ömürlü barışının ardından savaş yeniden başladı; Şah Abbas'ın orduları Van ve Kars bölgesinde yeni kazanımlar elde etti, 1618 Serav Antlaşması'yla sınır büyük ölçüde korunarak barış yeniden tesis edildi.",
   kaynak:"Encyclopaedia Iranica, madde: OTTOMAN-PERSIAN RELATIONS", kapsam_genis:true },
-{ t:"1623-01-14", b:"Bağdat'ın geçici olarak geri alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
+{ t:"1623-11-28", b:"Bağdat'ın Safevîlerce ele geçirilmesi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak","konu-askeri"],
-  d:"[Safevî] Şah Abbas'ın kuvvetleri, yerel bir Osmanlı valisinin isyanından yararlanarak Bağdat'ı geri aldı; bu kazanım on beş yıl sürdü, ancak 1638'de IV. Murad'ın seferiyle kesin olarak kaybedildi (bkz. yukarı).",
-  kaynak:"Encyclopaedia Iranica, madde: BAGHDAD", yer_id:"Bağdat" },
+  d:"[Safevî] Şah Abbas'ın üç aylık kuşatmasının ardından Bekir Subaşı'nın oğlu Derviş Mehmed iç kaleyi teslim etti; Bağdat on beş yıl Safevî idaresinde kaldı ve 1638'de IV. Murad'ın seferiyle kaybedildi (bkz. yukarı).",
+  kaynak:"bagdat (TDV, gövde okundu: «Üç ay müddetle muhasara edilen Bağdat'ta … Derviş Mehmed … iç kaleyi Safevîler'e teslim etti (28 Kasım 1623)»)", yer_id:"Bağdat" },
 { t:"1600-01-01", b:"İpek ticareti devlet tekeline alındı", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic",
   etiket:["ekonomi","konu-ekonomi"],
   d:"[Safevî] Şah Abbas, Gîlân ve Mâzenderân'ın ham ipek üretimini devlet tekeline alıp Avrupa (özellikle İngiliz ve Hollanda Doğu Hindistan şirketleri) ile doğrudan ticaret anlaşmaları yaptı; bu, Safevî hazinesinin en büyük gelir kaynaklarından birini oluşturdu.",

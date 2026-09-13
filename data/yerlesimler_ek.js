@@ -233,6 +233,10 @@ window.YERLESIMLER_EK = [
 //    TÜRÜ değil ÖRTÜ katmanıdır, taban rengini değiştirmez. Osmanlı hükümranlığı
 //    hukuken sürdü. Yan faydası: `isg:` Değişmez 2 borcu doğurmaz (motor okumaz).
 //    ⚠️ Tarihler YIL hassasiyetli — TDV gün vermiyor, §76 gereği uydurulmadı.
+//    🟢 P04-BALKAN 14 Eylül 2026 (0035/H-0063, YAMA-A6C P-0063): BİTİŞ GÜNÜ BULUNDU —
+//       TDV barbaros-hayreddin-pasa "Nova da (Castelnuova) kolaylıkla geri alındı
+//       (10 Ağustos 1539)" ⇒ isg t 1539-01-01 → 1539-08-10. Başlangıç 1538-01-01
+//       YIL kalır (ay/gün bulunamadı). İki maddesi: data/olaylar_p0055.js.
 //    Karşılaştırma turunda Ekim 1538 / Temmuz-Ağustos 1539 da geçiyor; TDV esas.
 { ad:"Herseknovi (Herceg Novi)",neden:"`m:` NULL idi; `oneri.m`=\"Mostar\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1482-01-01..1687-09-30 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",m:"Mostar", tur:"kale", lat:42.453, lon:18.538, g:0, k:4,
     kur:"1382-01-01",
@@ -241,7 +245,7 @@ window.YERLESIMLER_EK = [
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1482-01-01",t:"1687-09-30"}],
-    isg:[{f:"1538-01-01",t:"1539-01-01",d:"ispanya",kaynak:"dalmacya"}] },
+    isg:[{f:"1538-01-01",t:"1539-08-10",d:"ispanya",kaynak:"dalmacya · barbaros-hayreddin-pasa"}] },
 
 // ═══ ④ KLİS SANCAĞI — brifingin 1.4'ü ═════════════════════════════════════
 // ÇAPRAZ AKDENİZ'in ölçtüğü boşluk (`3fd8fc0`): Dalmaçya iç kesiminde

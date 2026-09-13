@@ -81,7 +81,7 @@ window.OLAYLAR_OK109 = [
     gun: "28 Ekim 1918",
     yer: "Prag, Bratislava, Kassa (Košice)",
     kisiler: "Tomáš Masaryk",
-    d: "Avusturya-Macaristan'ın savaşta gücünü yitirmesi ve ülke içindeki grev, gösteri ve ayaklanmalar üzerine Millî Konsey 28 Ekim 1918'de Çekoslovakya'nın bağımsızlığını ilân etti. 1911 seçim durumu esas alınarak geçici bir millet meclisi kuruldu, 14 Kasım 1918'de başkanlığına Masaryk'in getirildiği hükümet göreve başladı. Yeni devlet milletlerarası hukuktaki yerini Saint-Germain-en-Laye Antlaşması'yla (10 Eylül 1919) kazandı. Atlasta Çekoslovakya'nın on iki yerleşimi 1918-11-11'de haritaya girer; ilan bu tarihten iki hafta öncedir.",
+    d: "Avusturya-Macaristan'ın savaşta gücünü yitirmesi ve ülke içindeki grev, gösteri ve ayaklanmalar üzerine Millî Konsey 28 Ekim 1918'de Çekoslovakya'nın bağımsızlığını ilân etti. 1911 seçim durumu esas alınarak geçici bir millet meclisi kuruldu, 14 Kasım 1918'de başkanlığına Masaryk'in getirildiği hükümet göreve başladı. Yeni devlet milletlerarası hukuktaki yerini Saint-Germain-en-Laye Antlaşması'yla (10 Eylül 1919) kazandı. Haritada Çekoslovakya 11 Kasım 1918'de belirir; bağımsızlık ilanı bundan iki hafta öncedir.", ic_not_d:"eski ifade: Atlasta Çekoslovakya'nın on iki yerleşimi 1918-11-11'de haritaya girer; ilan bu tarihten iki hafta öncedir.",
     kaynak: "cekoslovakya"
   },
 
@@ -111,7 +111,7 @@ window.OLAYLAR_OK109 = [
     gun: "3 Kasım 1918",
     yer: "Padova (Villa Giusti), Trento, Trieste",
     kisiler: "İmparator Karl",
-    d: "İmparator Karl'ın 3 Kasım 1918'de İtalyanlarla Villa Giusti'de mütareke imzalaması imparatorluğun parçalanmasını hızlandırdı. TDV bu günü açıkça Avusturya'nın silâh bırakışı olarak kaydeder: \"Yenilgiyi kabul eden Avusturya 3 Kasım'da, Almanya da 11 Kasım'da silâhları bıraktılar.\" Atlasta Trento ve Trieste bu gün Avusturya'dan İtalya'ya geçer — dağılışın haritada görünen ilk toprak devri budur.",
+    d: "İmparator Karl'ın 3 Kasım 1918'de İtalyanlarla Villa Giusti'de mütareke imzalaması imparatorluğun parçalanmasını hızlandırdı. TDV bu günü açıkça Avusturya'nın silâh bırakışı olarak kaydeder: \"Yenilgiyi kabul eden Avusturya 3 Kasım'da, Almanya da 11 Kasım'da silâhları bıraktılar.\" Haritada Trento ve Trieste bu gün Avusturya'dan İtalya'ya geçer — dağılışın haritada görünen ilk toprak devri budur.", ic_not_d:"eski ifade: Atlasta Trento ve Trieste",
     kaynak: "birinci-dunya-savasi"
   },
 
@@ -121,7 +121,7 @@ window.OLAYLAR_OK109 = [
     gun: "11 Kasım 1918",
     yer: "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
     kisiler: "İmparator Karl",
-    d: "Bu gün atlasta imparatorluk mirasının toplu devrini gösterir: seksen dokuz yerleşim Avusturya kimliğinden çıkar; Yugoslavya, Macaristan Naipliği, Sırbistan Krallığı, Çekoslovakya, Romanya Krallığı ve Polonya aynı anda haritaya girer. Devrin kendisi tek bir günde olmadı — Çekoslovakya 28 Ekim'de, Avusturya Cumhuriyeti 30 Ekim'de, Macaristan halk cumhuriyeti 31 Ekim'de ilân edilmişti; atlas bu ilanların toprak üzerindeki karşılığını tek güne toplar. TDV 11 Kasım'ı Almanya'nın silâh bırakışı olarak kaydeder; Avusturya'nınki 3 Kasım'dır.",
+    d: "Harita bu gün imparatorluk mirasının toplu devrini gösterir: Avusturya-Macaristan toprakları dağılır; Yugoslavya, Macaristan Naipliği, Sırbistan Krallığı, Çekoslovakya, Romanya Krallığı ve Polonya aynı anda haritaya girer. Devrin kendisi tek bir günde olmadı — Çekoslovakya 28 Ekim'de, Avusturya Cumhuriyeti 30 Ekim'de, Macaristan halk cumhuriyeti 31 Ekim'de ilân edilmişti; harita bu ilanların toprak üzerindeki karşılığını tek güne toplar. TDV 11 Kasım'ı Almanya'nın silâh bırakışı olarak kaydeder; Avusturya'nınki 3 Kasım'dır.", ic_not_d:"eski ifade: Bu gün atlasta imparatorluk mirasının toplu devrini gösterir: seksen dokuz yerleşim Avusturya kimliğinden çıkar; · atlas bu ilanların toprak üzerindeki karşılığını tek güne toplar",
     kaynak: "birinci-dunya-savasi"
   },
 
@@ -131,7 +131,7 @@ window.OLAYLAR_OK109 = [
     gun: "18 Kasım 1918",
     yer: "Viyana",
     kisiler: "İmparator Karl",
-    d: "Kasım ayında Macaristan Cumhuriyeti'nin kurulduğu ilân edilince İmparator Karl tahtsız kaldı. TDV'nin kaydına göre imparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla imparatorlukla birlikte hânedan da tarihe karıştı. Bu, hânedanın hukukî sonudur; toprak üzerindeki egemenlik devri ondan haftalar önce, ardıl devletlerin ilanlarıyla gerçekleşmişti — atlas ikincisini boyar, birincisini anlatır.",
+    d: "Kasım ayında Macaristan Cumhuriyeti'nin kurulduğu ilân edilince İmparator Karl tahtsız kaldı. TDV'nin kaydına göre imparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla imparatorlukla birlikte hânedan da tarihe karıştı. Bu, hânedanın hukukî sonudur; toprak üzerindeki egemenlik devri ondan haftalar önce, ardıl devletlerin ilanlarıyla gerçekleşmişti — haritada görünen, bu egemenlik devridir.", ic_not_d:"eski ifade: — atlas ikincisini boyar, birincisini anlatır.",
     kaynak: "avusturya"
   },
 
@@ -141,7 +141,7 @@ window.OLAYLAR_OK109 = [
     gun: "1 Aralık 1918",
     yer: "Belgrad, Zagreb, Saraybosna, Erdel, Suçava, Çernovitz",
     kisiler: "Karadordević hânedanı, I. Ferdinand",
-    d: "Avusturya-Macaristan'ın dağılmasıyla imparatorluktan ayrılan Slavların Sırbistan'la birleşmesi sonucu 1 Aralık 1918'de Sırp-Hırvat-Sloven Krallığı kuruldu; yaklaşık 250.000 km² toprak ve 12.000.000 nüfus. Temeli 20 Temmuz 1917 Korfu Bildirgesi'nde atılmış, 26 Ekim'de Podgorica, 28 Ekim'de Bosna-Hersek, 25 Kasım'da Novi Sad meclisleri katılma kararı almıştı. Aynı gün Transilvanya, Bukovina ve Besarabya'nın kendi halklarının kararıyla katılmasıyla Büyük Romanya oluştu. Atlasta otuz yerleşim Sırbistan Krallığı'ndan Yugoslavya'ya geçer.",
+    d: "Avusturya-Macaristan'ın dağılmasıyla imparatorluktan ayrılan Slavların Sırbistan'la birleşmesi sonucu 1 Aralık 1918'de Sırp-Hırvat-Sloven Krallığı kuruldu; yaklaşık 250.000 km² toprak ve 12.000.000 nüfus. Temeli 20 Temmuz 1917 Korfu Bildirgesi'nde atılmış, 26 Ekim'de Podgorica, 28 Ekim'de Bosna-Hersek, 25 Kasım'da Novi Sad meclisleri katılma kararı almıştı. Aynı gün Transilvanya, Bukovina ve Besarabya'nın kendi halklarının kararıyla katılmasıyla Büyük Romanya oluştu. Haritada Sırbistan Krallığı toprakları Yugoslavya'ya geçer.", ic_not_d:"eski ifade: Atlasta otuz yerleşim Sırbistan Krallığı'ndan Yugoslavya'ya geçer.",
     kaynak: "yugoslavya"
   },
 
@@ -161,7 +161,7 @@ window.OLAYLAR_OK109 = [
     gun: "4 Haziran 1920",
     yer: "Trianon (Versailles), Budapeşte",
     kisiler: "Miklós Horthy",
-    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir; Erdel ve Yukarı Macaristan çoktan Romanya ve Çekoslovakya rengindedir.",
+    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan çoktan Romanya ve Çekoslovakya rengindedir.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
     kaynak: "macaristan"
   },
 
@@ -211,7 +211,7 @@ window.OLAYLAR_OK109 = [
     gun: "28 Haziran 1919",
     yer: "Versailles, Strazburg, Metz, Colmar, Mulhouse",
     kisiler: "—",
-    d: "Paris Barış Konferansı 18 Ocak 1919'da toplandı ve 28 Haziran'da Almanya ile Versailles Antlaşması imzalandı. Atlasta bu gün Strazburg, Metz, Colmar ve Mulhouse Almanya'dan Fransa'ya geçer — 1871'den beri Alman olan Alsas-Loren'in dönüşü. Aynı konferans dizisi Avusturya ile Saint-Germain'i (10 Eylül 1919), Bulgaristan ile Neuilly'yi (27 Kasım 1919), Macaristan ile Trianon'u (4 Haziran 1920) ve Osmanlı Devleti ile Sevr'i (10 Ağustos 1920) doğurdu.",
+    d: "Paris Barış Konferansı 18 Ocak 1919'da toplandı ve 28 Haziran'da Almanya ile Versailles Antlaşması imzalandı. Haritada bu gün Strazburg, Metz, Colmar ve Mulhouse Almanya'dan Fransa'ya geçer — 1871'den beri Alman olan Alsas-Loren'in dönüşü. Aynı konferans dizisi Avusturya ile Saint-Germain'i (10 Eylül 1919), Bulgaristan ile Neuilly'yi (27 Kasım 1919), Macaristan ile Trianon'u (4 Haziran 1920) ve Osmanlı Devleti ile Sevr'i (10 Ağustos 1920) doğurdu.", ic_not_d:"eski ifade: Atlasta bu gün",
     kaynak: "birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". ⚠️ TANECİKLİK BOŞLUĞU (CLAUDE.md §4): TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir."
   },
 
@@ -221,7 +221,7 @@ window.OLAYLAR_OK109 = [
     gun: "27 Kasım 1919",
     yer: "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
     kisiler: "Çar Ferdinand, Boris",
-    d: "Savaşın yenilgiyle bitmesi üzerine Çar Ferdinand mütareke istemek ve oğlu Boris lehine tahttan çekilmek zorunda kalmıştı (29 Eylül 1918). Savaşı sona erdiren Neuilly Antlaşması'yla Bulgaristan Sırplar lehine stratejik toprak kaybına uğradı, Batı Trakya'nın tamamını kaybetti, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kaldı ve Güney Dobruca'yı Romanya'ya veren Bükreş Antlaşması hükümlerini onayladı. Atlasta bu devrin karşılığı antlaşma gününde değil, idarenin fiilen el değiştirdiği 1920 Mayıs'ındadır: Dedeağaç, Sofulu, Orestiada ve Çirmen 14 Mayıs'ta, Gümülcine, İskeçe, Dimetoka ve Ferecik 27 Mayıs'ta Yunanistan'a geçer.",
+    d: "Savaşın yenilgiyle bitmesi üzerine Çar Ferdinand mütareke istemek ve oğlu Boris lehine tahttan çekilmek zorunda kalmıştı (29 Eylül 1918). Savaşı sona erdiren Neuilly Antlaşması'yla Bulgaristan Sırplar lehine stratejik toprak kaybına uğradı, Batı Trakya'nın tamamını kaybetti, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kaldı ve Güney Dobruca'yı Romanya'ya veren Bükreş Antlaşması hükümlerini onayladı. Haritada bu devrin karşılığı antlaşma gününde değil, idarenin fiilen el değiştirdiği 1920 Mayıs'ındadır: Dedeağaç, Sofulu, Orestiada ve Çirmen 14 Mayıs'ta, Gümülcine, İskeçe, Dimetoka ve Ferecik 27 Mayıs'ta Yunanistan'a geçer.", ic_not_d:"eski ifade: Atlasta bu devrin karşılığı",
     kaynak: "bulgaristan — gövde okundu: \"Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.\" ⚠️ TDV antlaşmanın adını \"Neully\" diye yazıyor; \"Neuilly\" aramasi bu maddede 0 sonuç verir. `neuilly` slugu 302 (ÖLÜ)."
   }
 

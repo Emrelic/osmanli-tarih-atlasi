@@ -110,7 +110,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Altın Orda süvarileri Tuna'yı aşıp Bizans'ın Trakya topraklarına girdi ve TDV'nin ifadesiyle 'yağma kırk gün devam etti'. Özbek Han'ın kızkardeşi Bizans imparatoruyla evliydi; akın, hanlığın Balkanlar'daki nüfuzunun askerî yüzüdür.", ic_not_d:"yer_id boş: kaynak tek bir şehir adı vermiyor, bölge adı veriyor.",
   kaynak:"TDV, madde: ozbek-han — 1319-1320 Trakya akını, 'yağma kırk gün devam etti'" },
 
-{ t:"1320-01-01", b:"🔴 Özbek Han İslâm'ı kabul etti ve Muhammed adını aldı — Altın Orda'nın İslâmlaşması", tur:"din", onem:5, dunya:4, kapsam:"ic",
+{ t:"1320-01-01", b:"Özbek Han İslâm'ı kabul etti ve Muhammed adını aldı — Altın Orda'nın İslâmlaşması", ic_not_b:"eski b öneki: 🔴", tur:"din", onem:5, dunya:4, kapsam:"ic",
   etiket:["din","sosyal","idari","konu-idari","konu-din","konu-sosyal"],
   yer_id:"Saray (Selitrennoye)",
   d:"Özbek Han 720 (1320) yılında İslâm'ı kabul ederek Muhammed adını aldı; bu tarihten sonraki sikkelerinde 'es-Sultânü'l-a'zam Gıyâseddin Muhammed Özbek Han el-Âdil' ibaresi yer aldı. Bu, bir hükümdarın şahsî tercihinden ibaret değildir: Berke Han'ın kişisel Müslümanlığından farklı olarak bu kez din DEVLETİN dini oldu ve Deşt-i Kıpçak'ın Türkleşmesiyle İslâmlaşması aynı süreç hâline geldi. Saray başta olmak üzere şehirler camiler, medreseler ve tekkelerle donandı. Bugünkü Tatar, Başkurt, Kazak, Nogay ve Kırım Türklerinin Müslüman kimliği bu karara dayanır.",
@@ -152,7 +152,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Cenevizliler 1341-1348 arasında Kefe'yi güçlü surlarla çevirdi. Kefe, Altın Orda toprağında duran ama Ceneviz'in yönettiği bir liman olarak hanlığın dünya ticaretine açılan kapısıydı: Kıpçak bozkırının kölesi, kürkü ve tahılı buradan Akdeniz'e; İtalyan kumaşı ve gümüşü buradan bozkıra geçiyordu. Surların yükselmesi, kolonilerin han otoritesinden görece bağımsızlaştığının da işaretidir.",
   kaynak:"TDV, madde: kefe — '1341-1348' surlarla çevrilme" },
 
-{ t:"1346-01-01", b:"🔴 Kara Ölüm Kefe kuşatmasından Akdeniz'e yayıldı — Avrupa nüfusunun üçte biri öldü", tur:"salgin", onem:4, dunya:5, kapsam:"dis",
+{ t:"1346-01-01", b:"Kara Ölüm Kefe kuşatmasından Akdeniz'e yayıldı — Avrupa nüfusunun üçte biri öldü", ic_not_b:"eski b öneki: 🔴", tur:"salgin", onem:4, dunya:5, kapsam:"dis",
   etiket:["sosyal","salgin","ekonomi","konu-kisiler","konu-ekonomi","konu-sosyal","afet","afet-salgin"],
   yer_id:"Kefe",
   d:"Altın Orda kuvvetlerinin Ceneviz kolonisi Kefe'yi kuşatması sırasında ordugâhta veba çıktı; kaçan Ceneviz gemileri hastalığı Konstantinopolis'e, oradan Messina ve Marsilya üzerinden bütün Avrupa'ya taşıdı. Kara Ölüm 1347-1351 arasında Avrupa nüfusunun yaklaşık üçte birini götürdü, feodal düzeni ve emek piyasasını kalıcı biçimde değiştirdi.", ic_not_d:"🔴 `dunya:5` — bu, Altın Orda tarihinin dünya tarihine en geniş dokunduğu andır; hanlığın bir kuşatması, bir kıtanın demografisini değiştirdi. ⚠️ Salgının Kefe'den yayılışını çağdaş tanık Gabriele de' Mussi anlatır; kuşatma-bulaşma zincirinin ayrıntısı tarihçiler arasında tartışmalıdır, yayılışın Kefe üzerinden olduğu ise kabul görür.",
@@ -164,7 +164,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"TDV: 'Berdibeg Han'ın (1357-1359) saltanatı yıllarında Altın Orda yeniden bir karışıklık devrine girdi.' Canıbek'in ölümüyle kurulan denge çöktü; iki yıl sonra başlayacak taht kavgası devleti yirmi yıl boyunca felç edecektir.",
   kaynak:"TDV, madde: altin-orda-hanligi — 'Berdibeg Han'ın (1357-1359) saltanatı yıllarında ... karışıklık devrine girdi'" },
 
-{ t:"1360-01-01", b:"🔴 Büyük Kargaşa — yirmi yılda on dört han tahta çıktı, hiçbiri devleti toparlayamadı", tur:"ic-karisiklik", onem:5, dunya:3, kapsam:"ic",
+{ t:"1360-01-01", b:"Büyük Kargaşa — yirmi yılda on dört han tahta çıktı, hiçbiri devleti toparlayamadı", ic_not_b:"eski b öneki: 🔴", tur:"ic-karisiklik", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","taht-kavgasi","ic-savas","konu-askeri","konu-siyasi","konu-isyan","konu-hanedan"],
   yer_id:"Saray (Selitrennoye)",
   d:"TDV'nin verdiği sayı tek başına dönemi anlatıyor: '1360-1380 yılları arasındaki bu dönemde hükümdarlık makamına on dört han geçtiği halde hiçbiri devleti eski kudretine kavuşturamadı.' Rus kroniklerinin 'Büyük Kargaşa' (velikaya zamyatnya) dediği bu devirde gerçek güç hanlarda değil, onları tahta çıkarıp indiren beylerdeydi — batıda Mamay Mirza, doğuda Ak Orda hanları. Moskova'nın vergi ödemeyi aksatmaya, Litvanya'nın batı topraklarını almaya başlaması bu boşluktandır.",
@@ -194,7 +194,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Şehir 1383-1386 arasında mevcut surların dışına taşınca ikinci bir sur hattı örüldü. Altın Orda merkezî otoritesinin çözüldüğü yıllarda Kefe'nin BÜYÜMESİ dikkate değerdir: bozkırdaki siyasî kargaşa Karadeniz ticaretini kesmemiş, aksine kolonilerin özerkliğini artırmıştır.",
   kaynak:"TDV, madde: kefe — '1383-1386' dış surlar" },
 
-{ t:"1391-06-01", b:"🔴 Kunduzca (Kondurça) Savaşı — Timur, Toktamış'ı ilk kez ağır yenilgiye uğrattı", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{ t:"1391-06-01", b:"Kunduzca (Kondurça) Savaşı — Timur, Toktamış'ı ilk kez ağır yenilgiye uğrattı", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"",
   d:"Toktamış'ı tahta çıkaran Timur'la arası Azerbaycan meselesi yüzünden açılmıştı. İki ordu Receb 793'te (Haziran 1391) Kunduzca (Kondurça) ırmağı boyunda karşılaştı; Toktamış ağır bir yenilgi aldı. Bu, Altın Orda'nın belini kıran iki seferin birincisidir.", ic_not_d:"⚠️ Kaynak ay veriyor, gün vermiyor — 06-01 ayın başına yazıldı, ölçülmüş gün değildir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok.",
@@ -218,13 +218,13 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Seyf-i Sarâyî, bir aşk hikâyesi anlatırken kendi çağının olaylarını da işleyen Süheyl ü Güldürsün mesnevisini 1394'te tamamladı. TDV şairin '796/1394'ten sonra' yaşadığını bu eserden çıkarır. Altın Orda'nın kendi hânedan tarihini yazacak bir vekāyi'nâme geleneği bırakmaması, bu tür edebî eserleri dönemin dolaylı tanıkları hâline getirir.",
   kaynak:"TDV, madde: seyf-i-sarayi — 'Süheyl ü Güldürsün ... 1394'te bitirilen mesnevi'" },
 
-{ t:"1395-04-15", b:"🔴 Terek Savaşı — Timur ikinci kez yendi, Altın Orda bir daha toparlanamadı", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{ t:"1395-04-15", b:"Terek Savaşı — Timur ikinci kez yendi, Altın Orda bir daha toparlanamadı", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"Terek deltası (Kızlar)",
   d:"23 Cemâziyelâhir 797'de (15 Nisan 1395) Terek ırmağı boyunda Timur, Toktamış'ı ikinci ve kesin kez bozguna uğrattı. Ardından Altın Orda şehirlerini yağmaladı.", ic_not_d:"🔴 Bu iki sefer, hanlığı yıkan asıl darbedir: Rus knezlikleri ya da iç kargaşa değil, DOĞUDAN gelen bu iki yenilgi devletin şehirlerini, ticaret ağını ve hazinesini birlikte çökertti. Bundan sonraki yüz yedi yıl bir çözülme hikâyesidir.",
   kaynak:"TDV, madde: toktamis-han — '23 Cemâziyelâhir 797'de (15 Nisan 1395)'; TDV, madde: altin-orda-hanligi — 'Nisan 1395'te de Terek'te büyük bir yenilgiye uğrattı'" },
 
-{ t:"1395-01-01", b:"🔴 Timur'un seferleri Saray'ı ve Altın Orda şehirlerini harap etti — Yeni Saray bir daha kurulamadı", tur:"isgal", onem:5, dunya:4, kapsam:"ic",
+{ t:"1395-01-01", b:"Timur'un seferleri Saray'ı ve Altın Orda şehirlerini harap etti — Yeni Saray bir daha kurulamadı", ic_not_b:"eski b öneki: 🔴", tur:"isgal", onem:5, dunya:4, kapsam:"ic",
   etiket:["askeri","sehircilik","ekonomi","yagma","konu-askeri","konu-ekonomi","konu-imar"],
   yer_id:"Yeni Saray (Tsarev)",
   d:"Timur'un 1395-1396 seferleri Saray'ı ve hanlığın öteki şehirlerini tahrip etti; TDV'nin ifadesiyle Sarây-ı Cedîd (Yeni Saray) harabeye döndü, Sarây-ı Batu ise küçülerek 1578'e kadar sürdü.", ic_not_d:"🔴 Bu maddenin ağırlığı sadece askerî değil İKTİSADÎDİR: Altın Orda'nın gücü bozkır süvarisinden değil, o süvarinin koruduğu KERVAN YOLUNDAN ve o yolun beslediği şehirlerden geliyordu. Şehirler yıkılınca vergi tabanı, sikke darbı ve zanaat da yıkıldı — hanlık göçebe bir konfederasyona geriledi ve bir daha imparatorluk olamadı.",
@@ -272,13 +272,13 @@ window.KRONOLOJI_ALTINORDA = [
   d:"TDV Kefe maddesi 1434'te Hacı Giray'ın Cenevizliler'i yenerek şehrin meşrû hâkimi sayıldığını yazar. Bu, Kırım'daki ayrılığın 1441'deki resmî ilândan YEDİ YIL ÖNCE fiilen başladığını gösterir: Hacı Giray daha han ilân edilmeden Karadeniz ticaretinin en zengin limanı üzerinde söz sahibi olmuştu. Ayrılıkların önce siyasî değil İKTİSADÎ olarak gerçekleştiğinin örneğidir.",
   kaynak:"TDV, madde: kefe — '1434: Hacı Giray Cenevizliler'i yener, meşrû hâkim olur'" },
 
-{ t:"1437-01-01", b:"🔴 Kazan Hanlığı ayrıldı — Uluğ Muhammed Saray'dan kopup İdil boyunda kendi hanlığını kurdu", tur:"bolunme", onem:5, dunya:3, kapsam:"ic",
+{ t:"1437-01-01", b:"Kazan Hanlığı ayrıldı — Uluğ Muhammed Saray'dan kopup İdil boyunda kendi hanlığını kurdu", ic_not_b:"eski b öneki: 🔴", tur:"bolunme", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","bolunme","toprak-kayip","konu-askeri","konu-siyasi","konu-imar"],
   yer_id:"Kazan",
   d:"Tahtını kaybeden Uluğ Muhammed, TDV'nin ifadesiyle 'Saray'dan ayrılıp Kazan'a geldi' ve orada kendi hanlığını kurdu. İdil'in orta mecrası, kürk ve tahıl ticaretinin düğüm noktası, artık Saray'a bağlı değildi.", ic_not_d:"⚠️ TDV iki görüş aktarır: kuruluş ya 1437'de Uluğ Muhammed ile, ya 1445'te oğlu Mahmud'un idareyi almasıyladır — bu dosya `data/devletler.js`teki `kazan` künyesiyle uyum için 1437'yi esas aldı, ikinci görüş burada kayda geçirildi. 🔴 Koordinatörün şartnamesinde '1438' yazıyordu; TDV'de VE künyede böyle bir yıl YOK — düzeltildi (bkz. [[kazan]]).",
   kaynak:"TDV, madde: kazan-hanligi — '1437'de Uluğ Muhammed Han ... Saray'dan ayrılıp Kazan'a geldi'; ikinci görüş: 1445, oğlu Mahmud" },
 
-{ t:"1441-01-01", b:"🔴 Kırım Hanlığı ayrıldı — Hacı Giray bağımsızlığını ilân etti", tur:"bolunme", onem:5, dunya:3, kapsam:"ic",
+{ t:"1441-01-01", b:"Kırım Hanlığı ayrıldı — Hacı Giray bağımsızlığını ilân etti", ic_not_b:"eski b öneki: 🔴", tur:"bolunme", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","bolunme","toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"Eski Kırım (Solhat)",
   d:"Hacı Giray, Altın Orda'dan bağımsızlığını ilân ederek Kırım Hanlığı'nı kurdu. Ayrılan parçaların en uzun ömürlüsü budur: Kırım 1783'e kadar yaşayacak, 1475'ten sonra Osmanlı himayesine girerek Altın Orda mirasının Akdeniz dünyasına bağlanan kolu olacaktır.", ic_not_d:"📌 Bu dosya Kırım'ı buradan sonra yalnız Altın Orda'ya/Büyük Orda'ya DOKUNDUĞU yerde anar; hanlığın kendi kronolojisi `data/kronoloji_kirim.js`tedir (bkz. [[kirim]]).",
@@ -308,7 +308,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Büyük Orda, ayrılan Kırım'ı silah zoruyla geri almayı denedi ve yarımadayı istilâ etti. Girişim kalıcı olmadı: Kırım artık Osmanlı himayesindeydi ve bozkırdaki bir hanın karşısında yalnız değildi. Bu, Altın Orda mirasının parçalarının artık birbiriyle DIŞ GÜÇLER üzerinden hesaplaştığının işaretidir.",
   kaynak:"data/kronoloji_kirim.js:103 (TDV kirim maddesine dayalı); dunya:2 aynı kayıttan OKUNDU" },
 
-{ t:"1480-11-11", b:"🔴 Ugra Nehri karşılaşması — Rus knezliklerinin haraç ödemesi sona erdi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ t:"1480-11-11", b:"Ugra Nehri karşılaşması — Rus knezliklerinin haraç ödemesi sona erdi", ic_not_b:"eski b öneki: 🔴", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Ahmed Han'ın kuvvetleriyle III. İvan'ın orduları Ugra ırmağı kıyısında aylarca karşı karşıya durdu; çatışma olmadan Ahmed Han geri çekildi.", ic_not_d:"🔴 Bir muharebe yaşanmadan bir imparatorluk ilişkisi sona erdi: 1237'den beri süren Rus knezliklerinin haraç yükümlülüğü fiilen bitti. Rus tarihyazımı bu günü 'Tatar boyunduruğunun sonu' ve Moskova'nın bağımsız bir güç olarak doğuşu sayar. Altın Orda mirası açısından ise gelir kaynaklarının sonuncusunun da kaybedilmesidir. yer_id boş: ırmak boyunun atlasta yerleşim karşılığı yok (aynı olay `kronoloji_rusya.js`te de yer_id'siz).",
@@ -320,7 +320,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"TDV hükmü serttir: 'Şeyh Ahmed Han (1481-1502), dirayetsiz bir hükümdar olduğu için memleketi içine düştüğü buhrandan kurtaramadı.' Elinde Kazan yok, Kırım yok, Astarhan yok, Rus haracı yok, Kefe yok. Yirmi bir yıllık saltanatı Büyük Orda'nın son nefesidir.",
   kaynak:"TDV, madde: altin-orda-hanligi — 'Şeyh Ahmed Han (1481-1502), dirayetsiz bir hükümdar olduğu için ...'" },
 
-{ t:"1502-01-01", b:"🔴 Büyük Orda sona erdi — Mengli Giray Saray'ı yıkarak Altın Orda mirasını kapattı", tur:"son", onem:5, dunya:4, kapsam:"dis",
+{ t:"1502-01-01", b:"Büyük Orda sona erdi — Mengli Giray Saray'ı yıkarak Altın Orda mirasını kapattı", ic_not_b:"eski b öneki: 🔴", tur:"son", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","siyaset","toprak-kayip","konu-askeri","konu-siyasi","konu-imar"],
   yer_id:"Saray (Selitrennoye)",
   d:"Kırım Hanı I. Mengli Giray, Osmanlı desteğiyle Büyük Orda'yı dağıttı ve Saray şehrini tahrip etti.", ic_not_d:"🔴 Bir devleti, ondan ayrılan parçanın bitirmesi bu tarihin en anlamlı yanıdır: 1441'de bağımsızlığını ilân eden Kırım, altmış bir yıl sonra anasını ortadan kaldırdı. Deşt-i Kıpçak'ta 1241'den beri süren tek merkezli düzen böylece kapandı; miras beş ayrı hanlığa — Kırım, Kazan, Astarhan, Sibir ve Nogay — kesin olarak bölündü ve her biri kendi yolunu tuttu (bkz. [[kirim]], [[kazan]], [[astarhan]], [[nogay]], [[sibir]]).",

@@ -68,7 +68,7 @@ window.KRONOLOJI_PORTEKIZ = [
 // I. RECONQUISTA SONRASI VE AVİZ HANEDANI (1281-1415)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1281-01-01", b:"Atlasın açılışında Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1281-01-01", b:"XIII. yüzyıl sonunda Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", ic_not_b:"eski b: Atlasın açılışında Portekiz — Burgonya hanedanı ve Reconquista'nın mirası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["hanedan","konu-siyasi","konu-hanedan"],
   d:"Atlas penceresi açıldığında Portekiz Krallığı 1139'dan beri bağımsız, sınırları 1249'da Algarve'nin fethiyle bugünkü hâline kavuşmuş bir Burgonya hanedanı krallığıdır — Avrupa'nın Reconquista'yı en erken tamamlayan devletidir. Bu erken bitiş, Kastilya ve Aragon henüz Endülüs'le uğraşırken Portekiz'i Atlantik'e yönelmeye hazırlayan yapısal bir avantaj olarak okunur.",
   kaynak:"TDV `portekiz`: \"1095'te bağımsız devlet kurulması başladı\" · standart akademik kronoloji (Algarve fethi 1249)" },
@@ -517,7 +517,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Portekiz, müttefiklere olan bağlılığını somutlaştırmak için elli bin kişilik bir seferi kolorduyu Fransa'daki Batı Cephesi'ne gönderdi; birlik ertesi yıl Lys Muharebesi'nde ağır kayıplar verecekti. Bu, Portekiz ordusunun kıta Avrupası'nda büyük ölçekli bir savaşa doğrudan katıldığı ilk ve tek modern deneyimdi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Portuguese Expeditionary Corps, Şubat 1917 sevkiyatı)" },
 
-{ t:"1923-10-29", b:"Atlas penceresinin kapanışında Portekiz — istikrarsız Birinci Cumhuriyet", tur:"diger", onem:2, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1923-10-29", b:"1923'te Portekiz — istikrarsız Birinci Cumhuriyet", ic_not_b:"eski b: Atlas penceresinin kapanışında Portekiz — istikrarsız Birinci Cumhuriyet", tur:"diger", onem:2, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","konu-islahat","konu-hukuk"],
   d:"Atlas penceresi kapandığında Portekiz, on üç yılda kırktan fazla hükümet değişikliği yaşamış istikrarsız bir cumhuriyettir; ekonomik kriz ve siyasî kutuplaşma üç yıl sonra (1926) bir askerî darbeyle sonuçlanacak, bu da nihayetinde Salazar'ın otuz altı yıllık Estado Novo rejimine yol açacaktır.",
   kaynak:"TDV `portekiz`: \"1926 (Mayıs): Askerî darbe, General Gomes da Costa iktidarı ele geçirdi\" — bu madde atlas penceresinin kapanışında durumu özetler, olayın kendisi pencere dışındadır" }

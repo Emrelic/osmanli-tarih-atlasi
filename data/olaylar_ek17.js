@@ -23,7 +23,7 @@ window.OLAYLAR_EK17 = [
 { t:"1606-10-11", b:"Sedefkâr Mehmed Ağa başmimarlığa atandı — Sultanahmet Camii'nin mimarı", tur:"kisi",
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","kisi","imar","konu-kisiler","konu-din","konu-kultur","konu-imar"],
   yer_id:"İstanbul",
-  d:"Arnavutluk'un İlbasan kasabasından devşirme olarak 1562-63 yıllarında saraya alınan Mehmed Ağa, Mimar Sinan'ın yanında yetişerek 11 Ekim 1606'da Osmanlı başmimarlığına getirildi. TDV İslâm Ansiklopedisi çağdaş bir kaynağın onu 'yumuşak huylu, alçak gönüllü, sözünün eri, dindar ve zeki' diye tarif ettiğini aktarır. Üç yıl sonra I. Ahmed'in emriyle Sultanahmet Camii'nin inşasına girişecek olan Mehmed Ağa, Kâbe'deki onarımlardan İstanbul ve Edirne'deki çok sayıda çeşme ve camiye kadar geniş bir esere imza attı. ⚠️ TDV bu maddede altı minarenin Mekke'deki Kâbe ile 'eşitlik' iddiasına yol açtığına dair yaygın popüler anlatıyı DOĞRULAMIYOR — yalnız 'o zamana kadar denenmemiş bir düzenleme' olduğunu kaydediyor; rivayet TDV'de bulunamadı.",
+  d:"Arnavutluk'un İlbasan kasabasından devşirme olarak 1562-63 yıllarında saraya alınan Mehmed Ağa, Mimar Sinan'ın yanında yetişerek 11 Ekim 1606'da Osmanlı başmimarlığına getirildi. TDV İslâm Ansiklopedisi çağdaş bir kaynağın onu 'yumuşak huylu, alçak gönüllü, sözünün eri, dindar ve zeki' diye tarif ettiğini aktarır. Üç yıl sonra I. Ahmed'in emriyle Sultanahmet Camii'nin inşasına girişecek olan Mehmed Ağa, Kâbe'deki onarımlardan İstanbul ve Edirne'deki çok sayıda çeşme ve camiye kadar geniş bir esere imza attı. Altı minarenin Mekke'deki Kâbe ile 'eşitlik' tartışmasına yol açtığı yaygın bir halk anlatısıdır; ansiklopedik kaynaklar bunu doğrulamaz, düzenlemeyi yalnız 'o zamana kadar denenmemiş' diye niteler.", ic_not_d:"eski: ⚠️ TDV bu maddede altı minarenin … yaygın popüler anlatıyı DOĞRULAMIYOR — yalnız 'o zamana kadar denenmemiş bir düzenleme' olduğunu kaydediyor; rivayet TDV'de bulunamadı.",
   kaynak:"mehmed-aga-sedefkar" },
 
 { t:"1617-11-22", b:"Yeni padişah I. Mustafa: solgun çehreli, dalgın bakışlı bir 'kafes' mahpusu tahtta", tur:"magazin",
@@ -43,10 +43,10 @@ window.OLAYLAR_EK17 = [
 // konağı · TDV'nin 'başı açık, üstü perişan' tasviri · Orta Cami · kulak-burun)
 // kalan kaydın `d:` metnine TAŞINDI. Silinen tek şey mükerrer başlıktır.
 
-{ t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü — kızlarağası rivayeti doğrulanamadı", tur:"kisi",
+{ t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü", ic_not_b:"eski b soneki: — kızlarağası rivayeti doğrulanamadı (H-0003)", tur:"kisi",
   onem:2, dunya:1, kapsam:"ic", etiket:["saray","kisi","konu-kisiler","konu-hanedan"],
   yer_id:"İstanbul",
-  d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer. ⚠️ RİVAYET DOĞRULANAMADI: kızlarağasının onu bir odaya kilitlediğine dair halk arasında anlatılan hikâye TDV maddesinde yer almıyor; madde yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtiyor.",
+  d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; bu yıllara dair kaynaklarda hiçbir bilgi yoktur. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer. Halk arasında kızlarağasının onu bir odaya kilitlediği anlatılır; ancak bu rivayet kaynaklarca desteklenmez. Kaynaklar yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtir.", ic_not_d:"eski ifadeler (H-0003): «TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder.» · «⚠️ RİVAYET DOĞRULANAMADI: kızlarağasının … hikâye TDV maddesinde yer almıyor; madde yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtiyor.»",
   kaynak:"mustafa-i" },
 
 // ---------- IV. Murad dönemi ----------
@@ -69,7 +69,7 @@ window.OLAYLAR_EK17 = [
   kaynak:"evliya-celebi" },
 
 // ---------- Sultan İbrahim dönemi ----------
-{ t:"1644-01-01", b:"'Deli İbrahim' mi, dalgalı bir hastalık mı? TDV etiketi reddediyor", tur:"tartisma",
+{ t:"1644-01-01", b:"'Deli İbrahim' mi, dalgalı bir hastalık mı?", ic_not_b:"eski b soneki: TDV etiketi reddediyor", tur:"tartisma",
   onem:3, dunya:1, kapsam:"ic", etiket:["kisi","tartisma","saray","konu-kisiler","konu-hanedan","konu-kultur"],
   yer_id:"İstanbul",
   d:"TDV İslâm Ansiklopedisi, XX. yüzyılda yaygınlaşan 'Deli İbrahim' yakıştırmasını açıkça reddeder; padişahın kendi mektuplarında ağrılardan, iştahsızlıktan, bacaklarında güçsüzlükten, başında sis hissinden, göğüs sıkışmasından ve bayılma nöbetlerinden şikâyet ettiğini aktarır. Buna karşılık hal' sürecindeki tutarlı ve akla uygun cevapları, sürekli bir dengesizlik iddiasıyla çelişir; madde durumunun 'sabit olmayıp şiddeti değişen' bir seyir izlediği sonucuna varır. Bu dönemde Kösem Sultan'ın sorumlulukları giderek arttı ve saraya çağrılan Cinci Hoca'nın 'tesirli dualarla' padişaha manevi teselli sunması, onun siyasete müdahale gücünü büyüttü.",
@@ -112,7 +112,7 @@ window.OLAYLAR_EK17 = [
   kaynak:"mehmed-iv" },
 
 // ---------- Prut Seferi ----------
-{ t:"1711-07-21", b:"Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti — TDV'nin kendi uyarısı", tur:"magazin",
+{ t:"1711-07-21", b:"Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti", ic_not_b:"eski b soneki: — TDV'nin kendi uyarısı", tur:"magazin",
   onem:2, dunya:2, kapsam:"ic", etiket:["diplomasi","rivayet","konu-diplomasi","konu-magazin"],
   yer_id:"Yaş",
   d:"Prut'ta kuşatılan Rus ordusunun kurtuluşunu, I. Katerina'nın Baltacı Mehmed Paşa'ya gönderdiği hediyelere/rüşvete bağlayan popüler anlatı yüzyıllar boyunca tekrarlandı.", ic_not_d:"⚠️ TDV bunu bir TARİHÎ KAYIT değil bir EFSANE olarak tanımlıyor — kendi ifadesiyle: 'Bu konu ve I. Katerina'nın bundaki rolü daha sonraları abartılarak pek çok defa dile getirilmiş ve her seferinde biraz daha gerçeklerden uzaklaşmış olarak tekrarlanmış, nihayet olayın ayrılmaz bir efsanesi haline gelmiştir.' Hediye alışverişi kaynaklarda var, ama 'rüşvetle satıldı' hükmü sonradan büyütülmüş bir rivayettir.",
@@ -175,7 +175,7 @@ window.OLAYLAR_EK17 = [
   gun:"1552-53", ic_not_gun:"TDV ve akademik kaynak yıl verir, gün vermez",
   yer:"Tilimsan, Biskra, Tuggurt, Mustagānim, Muaskar, Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye, Tâhert (Tiaret), Vargla (Ouargla), el-Vâdî (Sûf)",
   yer_id:"Tilimsan", kisiler:"Salih Reis (Cezayir beylerbeyi)",
-  d:"TDV'nin Tilimsan maddesine göre 960'ta (1553) Cezayir'den sevkedilen büyük bir ordu, Salih Reis kumandasında şehri kesin biçimde ele geçirdi ve üç asırlık Zeyyânî hânedanına son verdi. Aynı dönemde (1552) Salih Reis bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine bir sefer düzenledi; Osmanlı kuvvetleri Tuggurt'u aldı, Vargla'ya ilerledi, iki sultanlık haraca bağlandı; yol üzerindeki Biskra'ya kalıcı bir Osmanlı garnizonu bırakıldı. Böylece Cezayir Ocaklığı'nın sınırı ilk kez Tell Atlası'nı aşıp Sahra kıyısına dayandı. ⚠️ Mustagānim'in kendi büyük olayı bu tarihte DEĞİL: Hasan Paşa'nın İspanyol Kontu Alcaudete'yi yenip Kuzey Afrika'daki İspanyol taarruzlarını bitirdiği asıl muharebe 1558'dedir.", ic_not_d:"Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye ve el-Vâdî için ne TDV ne standart kaynaklar tek bir fetih günü verir — bulunamadı, aynı genişleme sürecinin parçası sayıldı. · TDV Tuggurt ve Vargla'yı kapsamıyor; bu kısmın dayanağı standart akademik anlatım · eski cümle: Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri…",
+  d:"TDV'nin Tilimsan maddesine göre 960'ta (1553) Cezayir'den sevkedilen büyük bir ordu, Salih Reis kumandasında şehri kesin biçimde ele geçirdi ve üç asırlık Zeyyânî hânedanına son verdi. Aynı dönemde (1552) Salih Reis bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine bir sefer düzenledi; Osmanlı kuvvetleri Tuggurt'u aldı, Vargla'ya ilerledi, iki sultanlık haraca bağlandı; yol üzerindeki Biskra'ya kalıcı bir Osmanlı garnizonu bırakıldı. Böylece Cezayir Ocaklığı'nın sınırı ilk kez Tell Atlası'nı aşıp Sahra kıyısına dayandı. Mustagānim önündeki büyük muharebe ise bu yıl değil, 1558'de oldu: Hasan Paşa orada İspanyol Kontu Alcaudete'yi yenerek Kuzey Afrika'daki İspanyol taarruzlarını bitirdi.", ic_not_d:"Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye ve el-Vâdî için ne TDV ne standart kaynaklar tek bir fetih günü verir — bulunamadı, aynı genişleme sürecinin parçası sayıldı. · TDV Tuggurt ve Vargla'yı kapsamıyor; bu kısmın dayanağı standart akademik anlatım · eski cümle: Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri… · eski: ⚠️ Mustagānim'in kendi büyük olayı bu tarihte DEĞİL: … asıl muharebe 1558'dedir.",
   kaynak:"tilimsan — Tuggurt/Ouargla/Biskra için TDV kapsamıyor, dayanak: standart akademik Kuzey Afrika tarihçiliği", duygu:["🎌","⚔️"] },
 
 { t:"1557-01-01", k:"kurulus", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-idari","konu-diplomasi"],
@@ -188,7 +188,7 @@ window.OLAYLAR_EK17 = [
 
 { t:"1361-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"I. Murad döneminde kuzeydoğu Trakya'nın fethi — Vize ve çevresi",
-  gun:"763 (1361-62) — TDV Edirne için gün verir (5 Mayıs 1361), çevre için vermez",
+  gun:"763 (1361-62)", ic_not_gun:"eski gun: 763 (1361-62) — TDV Edirne için gün verir (5 Mayıs 1361), çevre için vermez",
   yer:"Havsa, Orestiada (Kumçiftliği), Lalapaşa, Kofçaz, Dereköy (Kırklareli), Demirköy, İğneada, Mustafapaşa (Svilengrad), Malko Tırnova, Ahtapolu (Ahtopol), Rezve (Rezovo), Vize",
   yer_id:"Vize", kisiler:"I. Murad, Lala Şâhin Paşa",
   d:"TDV'nin Kırklareli maddesine göre bölgenin Osmanlı idaresine hangi tarihte girdiği ilk Osmanlı kaynaklarında kesin değildir, ama genel kabul gören anlatı Edirne'nin 28 Cemâziyelâhir 762'de (5 Mayıs 1361) Lala Şâhin komutasında düşmesinin hemen ardınadır — İstanbul'un kuzeybatı bağlantısını kesmek için Trakya'nın hızla ele geçirilmesi gerekmiştir. Alternatif bir rivayet bölgeyi Timurtaş Paşa'nın 768'de (1366) yeniden aldığını, bir başkası 770'i (1368-69) öne sürer.", ic_not_d:"⚠️ TDV, Vize dışındaki on bir yerleşimin her biri için ayrı bir fetih günü vermiyor; özellikle Ahtopol/Rezovo/Malko Tırnova gibi Karadeniz kıyısındaki en uçtaki üç nokta için münferit doğrulama bulunamadı — gerçek fetih tarihleri 1361'den daha geç (1370'ler, Hacı İlbeyi akınları dönemi) olabilir, ayrı incelenmeli.",

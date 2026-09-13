@@ -2678,7 +2678,9 @@ BILINEN_AYRI = {
     # TEK ortak kelime bile yok, yani ölçütü tetikleyen şey benzerlik değil
     # yalnız "aynı gün + ortak kişi + aynı kaynak" kademesi.
     ("Prut Antlaşması — Azak ve Taygan'ın geri alınması",
-     "Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti — TDV'nin kendi uyarısı"),
+     "Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti"),
+    # 14 Eylül 2026 (PAKET-TEMIZ): başlıktaki geliştirici soneki "— TDV'nin kendi
+    # uyarısı" okur metninden çıkarıldı; anahtar yeni başlığa çekildi (Emre 0050/H-0004).
     # ⭐ "AYNI GÜN, AYNI FİİL, AYRI CEPHE" — 28 Ağustos 2026.
     # 1737-39 savaşında Semendire (Tuna) ile Özi (Karadeniz) aynı güne
     # yazıldı. Ortak olan yalnız "geri alınış"; ayırt edici bilgi ÖZEL ADDA

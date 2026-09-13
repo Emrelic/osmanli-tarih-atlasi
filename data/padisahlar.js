@@ -16,9 +16,7 @@ window.PADISAHLAR = [
     + "zafer Osmanlı hanedanının 'kuruluş tarihi' sayılır; küçük bir "
     + "uc beyliğini, oğlu Orhan'ın devralacağı kalıcı bir devlete "
     + "dönüştürdü.",
-    yergi:"Bulunamadı — kaynak azlığı yüzünden kişisel eleştiri/yergi bu "
-    + "döneme dair neredeyse hiç aktarılmamış; TDV maddesi de bir "
-    + "değerlendirme sunmuyor.",
+    yergi:"Kaynak azlığı yüzünden kişisel eleştiri/yergi bu döneme dair neredeyse hiç aktarılmamış.", ic_not_yergi:"eski: «Bulunamadı — …» · «TDV maddesi de bir değerlendirme sunmuyor»",
     tartisma:"Kuruluş dönemi TDV'nin kendi ifadesiyle kaynak "
     + "sıkıntılıdır: kronikler arasında soy kütükleri bile "
     + "tutarsızdır, kesin tarihler tartışmalıdır. 'Osman'ın rüyası' "
@@ -31,11 +29,11 @@ window.PADISAHLAR = [
     + "güvenilirliklerini sorgular.",
     kaynak:"TDV: osman-i" },
   { id: "orhan",       ad: "Orhan Gazi",                   from: "1326-04", to: "1362-03",
-    dogum:"1281 dolayı (TDV'de müstakil madde yok, tarih akademik icmâ)",
+    dogum:"1281 dolayı", ic_not_dogum:"çıkarılan: (TDV'de müstakil madde yok, tarih akademik icmâ)",
     dogum_yer:"Söğüt",
     olum:"1362-03-01",
     olum_yer:"Bursa",
-    olum_sebep:"bulunamadı — kaynaklarda yaşlılıkla vefat dışında ayrıntı yok",
+    olum_sebep:"kaynaklarda yaşlılıkla vefat dışında ayrıntı yok", ic_not_olum_sebep:"eski: bulunamadı — kaynaklarda yaşlılıkla vefat dışında ayrıntı yok",
     baba:"Osman Gazi",
     anne:"Mal Hatun",
     tahta:"1326-04 (Bursa'nın fethiyle örtüşür)",
@@ -43,18 +41,13 @@ window.PADISAHLAR = [
     lakap:["Gazi"],
     esler:["Nilüfer Hatun (Bizanslı, Murad I'in annesi)","Theodora (Bizans prensesi, siyasi evlilik)"],
     cocuk:{oglan:5},
-    skandal:"bulunamadı — kaynaklar bu denli erken dönem için kişisel "
-    + "skandal değil kurumsal genişleme kaydediyor.",
+    skandal:"", ic_not_skandal:"eski skandal: bulunamadı — kaynaklar bu denli erken dönem için kişisel skandal değil kurumsal genişleme kaydediyor.",
     ovgu:"Bursa'yı (1326) ve İznik'i (1331) fethederek beyliği devlete "
     + "dönüştürdü; ilk divan teşkilatını, ilk gümüş akçeyi ve ilk Osmanlı "
     + "külliyesini (Bursa) kurdu; Rumeli'ye ilk Osmanlı ayak basışı "
     + "(Çimpe Kalesi, 1352) onun döneminde oldu.",
-    yergi:"bulunamadı — TDV'nin türbe/câmi maddelerinde eleştirel bir "
-    + "değerlendirme yok, dönem kaynaklarının azlığı bunu zaten sınırlıyor.",
-    tartisma:"Doğum tarihi kesin değil (TDV'de müstakil madde bulunmadığı "
-    + "için akademik icmâya dayanıyor); saltanatının başlangıcı da "
-    + "Bursa'nın fethiyle (1326) mi yoksa babasının 1324'teki vefatıyla mı "
-    + "başladığı kaynaklarda net ayrışmıyor.",
+    yergi:"Dönem kaynaklarının azlığı yüzünden eleştirel bir değerlendirme aktarılmaz.", ic_not_yergi:"eski yergi: bulunamadı — TDV'nin türbe/câmi maddelerinde eleştirel bir değerlendirme yok, dönem kaynaklarının azlığı bunu zaten sınırlıyor.",
+    tartisma:"Doğum tarihi kesin değil; saltanatının başlangıcı da Bursa'nın fethiyle (1326) mi yoksa babasının 1324'teki vefatıyla mı başladığı kaynaklarda net ayrışmıyor.", ic_not_tartisma:"çıkarılan (ve bayat — `orhan` maddesi canlı): (TDV'de müstakil madde bulunmadığı için akademik icmâya dayanıyor)",
     tarihciler:"Erken dönem kaynak kıtlığı yüzünden Orhan Gazi genelde "
     + "'kurumsallaşmanın mimarı' olarak özetlenir; modern araştırmalar "
     + "onu babasının fetih hamlesini DEVLETE çeviren isim sayar.",
@@ -78,8 +71,7 @@ window.PADISAHLAR = [
     ovgu:"Osmanlı kaynakları onu âdil, hayır sever ve ömrünü gazâya adamış "
     + "bir hükümdar olarak anar; Rumeli'nin büyük bölümünü fethedip "
     + "devleti bir uc beyliğinden imparatorluğa taşıdı.",
-    yergi:"Bulunamadı — TDV maddesinde olumsuz bir değerlendirmeye "
-    + "rastlanmadı; çağdaş Bizans kaynakları bile onu övgüyle anar.",
+    yergi:"Kaynaklarda olumsuz bir değerlendirme aktarılmaz; çağdaş Bizans kaynakları bile onu övgüyle anar.", ic_not_yergi:"eski: Bulunamadı — TDV maddesinde olumsuz bir değerlendirmeye rastlanmadı;",
     tartisma:"Kosova'da suikastin tam nasıl gerçekleştiği belirsiz: "
     + "Gazânâme'ye göre Murad cesetler arasında dolaşırken saklanan "
     + "Miloš Kobilović tarafından hançerlendi, ama olayın savaş "
@@ -107,11 +99,7 @@ window.PADISAHLAR = [
     + "için idam ettirdi. Aşırı hızlı ve saldırgan genişlemesi "
     + "çevresindeki beyleri Timur'a sığınmaya itti — bu da devletin "
     + "neredeyse sonunu getiren Ankara bozgununu hazırladı.",
-    tartisma:"TDV maddesi Ankara yenilgisinin sebebini derinlemesine "
-    + "açıklamıyor, yalnız bazı Anadolu beylerinin Timur'a sığındığını "
-    + "belirtiyor. Ölümü de tartışmalı: TDV 'esarette doğal sebeple' "
-    + "der, ama halk arasında yaygın zehirlenme/intihar rivayeti "
-    + "maddede YOK — ikisi karıştırılmamalı.",
+    tartisma:"TDV maddesi Ankara yenilgisinin sebebini derinlemesine açıklamıyor, yalnız bazı Anadolu beylerinin Timur'a sığındığını belirtiyor. Ölümü de tartışmalı: TDV 'esarette doğal sebeple' der; halk arasında yaygın zehirlenme ya da intihar rivayeti ise kaynaklarca desteklenmez.", ic_not_tartisma:"eski: ama halk arasında yaygın zehirlenme/intihar rivayeti maddede YOK — ikisi karıştırılmamalı.",
     tarihciler:"Klasik anlatı Ankara'yı Bayezid'in kendi aşırı "
     + "genişlemesine bağlar; bazı değerlendirmeler Timur'un "
     + "askerî-siyasi üstünlüğünü (beyleri kendi safına çekmesini) öne "
@@ -119,8 +107,8 @@ window.PADISAHLAR = [
     kaynak:"TDV: bayezid-i" },
   { id: "fetret",      ad: "Fetret Devri (taht mücadelesi)", from: "1402-07", to: "1413-07", ozel: true },
   { id: "mehmed1",     ad: "I. Mehmed (Çelebi)",           from: "1413-07", to: "1421-05",
-    dogum:"788 (1386) veya 789 (1387) — TDV iki rivayeti de veriyor",
-    dogum_yer:"bulunamadı — TDV maddesi doğum yeri belirtmiyor",
+    dogum:"788 (1386) veya 789 (1387) (iki rivayet)", ic_not_dogum:"eski: — TDV iki rivayeti de veriyor",
+    dogum_yer:"", ic_not_dogum_yer:"eski dogum_yer: bulunamadı — TDV maddesi doğum yeri belirtmiyor",
     olum:"1421-06-25",
     olum_yer:"Edirne",
     olum_sebep:"hastalık (son yılında hastalanmıştı, doğal ölüm)",
@@ -130,7 +118,7 @@ window.PADISAHLAR = [
     + "1402'den beri Anadolu'da Tokat-Amasya-Bursa'ya hâkimdi)",
     saltanat_yil:8,
     lakap:["Çelebi","Kirişçi (Yunanca 'genç efendi'den)"],
-    esler:["bulunamadı — TDV maddesinde eş adı geçmiyor, yalnız çocukları sayılıyor"],
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı geçmiyor, yalnız çocukları sayılıyor",
     cocuk:{oglan:6,kiz:7},
     skandal:"Kardeşi Mûsâ Çelebi'yi Fetret'in son safhasında bertaraf etti; "
     + "yeğeni Orhan'ı (rakip taht iddiacısı) kör ettirip zindana attırdı; "
@@ -139,10 +127,7 @@ window.PADISAHLAR = [
     + "yeniden birleştirdi (1413); Bizans ve Balkan vasallarıyla barışı "
     + "sağladı, tımar-tahrir sistemini yeniden kurumsallaştırdı; Bursa'da "
     + "Yeşil Cami külliyesini, Edirne'de Eski Cami'yi tamamlattı.",
-    yergi:"Tahtı ele geçirme sürecinde kardeşi Îsâ Çelebi'yi yakalatıp "
-    + "öldürttü; yeğeni Orhan'ı kör ettirdi; eski kazasker ve önemli bir "
-    + "tasavvuf hareketinin öncüsü olan Şeyh Bedreddin'i idam ettirdi — "
-    + "TDV bunu doğrudan kaydeder.",
+    yergi:"Tahtı ele geçirme sürecinde kardeşi Îsâ Çelebi'yi yakalatıp öldürttü; yeğeni Orhan'ı kör ettirdi; eski kazasker ve önemli bir tasavvuf hareketinin öncüsü olan Şeyh Bedreddin'i idam ettirdi.", ic_not_yergi:"çıkarılan: — TDV bunu doğrudan kaydeder.",
     tartisma:"Şeyh Bedreddin isyanının niteliği tartışmalıdır: dinî-"
     + "toplumsal bir ihtilâl hareketi mi, yoksa taht rakipliği mi olduğu "
     + "tarihçiler arasında tartışılır. Ayrıca kardeşi Mustafa'nın gerçek "
@@ -164,8 +149,7 @@ window.PADISAHLAR = [
     anne:"cariye (bazı kaynaklarda Şehzade Hatun)",
     tahta:"1421-06-25 (ilk saltanat); 1446-05 (ikinci saltanat)",
     saltanat_yil:28,
-    lakap:["bulunamadı — TDV maddesinde 'Hüdavendigâr' (dedesi I. Murad'ın "
-    + "lakabı) dışında kendine özgü bir lakap zikredilmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde 'Hüdavendigâr' (dedesi I. Murad'ın lakabı) dışında kendine özgü bir lakap zikredilmiyor",
     esler:["Hatice Halime Hatun (İsfendiyaroğlu)","Mara Branković (Sırp "
     + "prensesi, 1435 — siyasi evlilik, kaynaklara göre gerdek yapılmadı)",
     "Hüma Hatun (II. Mehmed'in annesi)"],
@@ -192,15 +176,14 @@ window.PADISAHLAR = [
     dogum_yer:"Edirne",
     olum:"1481-05-03",
     olum_yer:"Hünkârçayırı, Gebze yakını",
-    olum_sebep:"sefer yolunda ani ölüm (nikris/gut; zehirlenme iddiası TDV'de doğrulanmadı)",
+    olum_sebep:"sefer yolunda ani ölüm (nikris/gut; zehirlenme iddiası belgeyle desteklenmez)", ic_not_olum_sebep:"eski: zehirlenme iddiası TDV'de doğrulanmadı",
     baba:"II. Murad",
     anne:"Hüma Hatun",
     tahta:"1444-08 (babası II. Murad tahttan çekilip onu 'kaymakam ederek' "
     + "12 yaşında tahta oturttu; henüz 'Fâtih' değil, resmî unvanı "
     + "'Mehmed Çelebi Sultan'dı)",
     saltanat_yil:2,
-    lakap:["bulunamadı — 'Fâtih' lakabını 1453 fetihten SONRA kazandı, bu "
-    + "dönemde henüz kullanılmıyordu"],
+    lakap:["henüz yok ('Fâtih' lakabını 1453 fethinden sonra kazandı)"], ic_not_lakap:"eski lakap: bulunamadı — 'Fâtih' lakabını 1453 fetihten SONRA kazandı, bu dönemde henüz kullanılmıyordu",
     esler:["yok — bu dönemde henüz evli değildi (Sitti Hatun ile evliliği "
     + "Kasım-Aralık 1450'de, ikinci saltanatından hemen önce)"],
     cocuk:{oglan:"yok — bu dönemde çocuğu yoktu"},
@@ -241,8 +224,7 @@ window.PADISAHLAR = [
     + "Mehmed'in devleti idare edemediği anlaşılınca, yeniçerilerin "
     + "desteğiyle ikinci kez tahta çıktı)",
     saltanat_yil:5,
-    lakap:["bulunamadı — TDV maddesinde 'Hüdavendigâr' (dedesi I. Murad'ın "
-    + "lakabı) dışında kendine özgü bir lakap zikredilmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde 'Hüdavendigâr' (dedesi I. Murad'ın lakabı) dışında kendine özgü bir lakap zikredilmiyor",
     esler:["Hatice Halime Hatun (İsfendiyaroğlu)","Mara Branković (Sırp "
     + "prensesi, 1435 — siyasi evlilik, kaynaklara göre gerdek yapılmadı)",
     "Hüma Hatun (II. Mehmed'in annesi)"],
@@ -271,7 +253,7 @@ window.PADISAHLAR = [
     dogum_yer:"Edirne",
     olum:"1481-05-03",
     olum_yer:"Hünkârçayırı, Gebze yakını",
-    olum_sebep:"sefer yolunda ani ölüm (nikris/gut; zehirlenme iddiası TDV'de doğrulanmadı)",
+    olum_sebep:"sefer yolunda ani ölüm (nikris/gut; zehirlenme iddiası belgeyle desteklenmez)", ic_not_olum_sebep:"eski: zehirlenme iddiası TDV'de doğrulanmadı",
     baba:"II. Murad",
     anne:"Hüma Hatun",
     tahta:"1451-02-18",
@@ -335,7 +317,7 @@ window.PADISAHLAR = [
     + "seferlerini finanse ettiğini savunur.",
     kaynak:"TDV: bayezid-ii" },
   { id: "selim1",      ad: "I. Selim (Yavuz)",             from: "1512-04", to: "1520-09",
-    dogum:"1470 (dolayı — TDV iki rivayet verir: 1467-68 ya da 1470)",
+    dogum:"1470 dolayı (rivayetler 1467-68 ya da 1470 der)", ic_not_dogum:"eski dogum: 1470 (dolayı — TDV iki rivayet verir: 1467-68 ya da 1470)",
     dogum_yer:"Amasya",
     olum:"1520-09-21",
     olum_yer:"Çorlu",
@@ -357,11 +339,7 @@ window.PADISAHLAR = [
     yergi:"Tahta çıkışı babasına ve kardeşlerine karşı bir güç "
     + "mücadelesiyle oldu; sert mizacı yüzünden 'Yavuz' lakabını aldı, "
     + "devlet güvenliği için şiddeti tereddütsüz kullandığı anlatılır.",
-    tartisma:"Kızılbaş kırımının '40.000' rakamı TDV'ye göre ABARTILI — "
-    + "kovuşturulanlar çoğunlukla propagandacı ve tekke mensubuydu, "
-    + "çoğu idam değil sürgün edildi. Halifeliği Memlük'ten devraldığı "
-    + "iddiası da TDV'de güvenilir belgeye dayanmıyor, sonraki dönemin "
-    + "bir anlatısı olabilir.",
+    tartisma:"Kızılbaş kırımının '40.000' rakamı TDV'ye göre ABARTILI — kovuşturulanlar çoğunlukla propagandacı ve tekke mensubuydu, çoğu idam değil sürgün edildi. Halifeliği Memlük'ten devraldığı iddiası da güvenilir bir belgeye dayanmaz, sonraki dönemin bir anlatısı olabilir.", ic_not_tartisma:"eski: TDV'de güvenilir belgeye dayanmıyor",
     tarihciler:"Klasik anlatı onu kısa sürede en büyük toprak kazanan "
     + "padişah sayar; modern araştırmalar Kızılbaş politikasının "
     + "rakamlarını ve halifelik efsanesinin ne zaman/nasıl oluştuğunu "
@@ -410,9 +388,7 @@ window.PADISAHLAR = [
     anne:"Hürrem Sultan",
     tahta:"1566-09-24",
     saltanat_yil:8,
-    lakap:["bulunamadı — popüler 'Sarı Selim' (saç rengi) ve 'Sarhoş Selim' "
-    + "adlandırmaları TDV maddesinde resmî bir lakap olarak geçmiyor (bkz. "
-    + "tartışma)"],
+    lakap:["resmî lakabı yok (popüler 'Sarı Selim' ve 'Sarhoş Selim' adlandırmaları resmî lakap değildir)"], ic_not_lakap:"eski lakap: bulunamadı — popüler 'Sarı Selim' (saç rengi) ve 'Sarhoş Selim' adlandırmaları TDV maddesinde resmî bir lakap olarak geçmiyor (bkz. tartışma)",
     esler:["Nurbanu Sultan"],
     cocuk:{oglan:"en az 8 (yalnız III. Murad hayatta kaldı, kardeşleri "
     + "onun cülûsunda boğduruldu)",kiz:4},
@@ -444,7 +420,7 @@ window.PADISAHLAR = [
     anne:"Nurbânû Sultan (Venedikli, asıl adı Cecilia Baffo)",
     tahta:"1574-12-22",
     saltanat_yil:20,
-    lakap:["bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
     esler:["Safiye Sultan (hasekisi, III. Mehmed'in annesi)"],
     cocuk:{oglan:"en az 20 (kaynaklarda 49 çocuk rivayeti de var)"},
     skandal:"49 çocuğu ve yedi hamile cariyesi olduğu rivayet edilir — "
@@ -473,7 +449,7 @@ window.PADISAHLAR = [
     anne:"Safiye Sultan (Arnavut asıllı)",
     tahta:"1595-01-16",
     saltanat_yil:9,
-    lakap:["bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
     esler:["Handan Sultan (I. Ahmed'in annesi)","Halime Sultan (Şehzade "
     + "Mahmud'un annesi)"],
     cocuk:{oglan:"en az 2 (I. Ahmed hayatta kalıp tahta çıktı; Şehzade "
@@ -530,18 +506,13 @@ window.PADISAHLAR = [
     dogum_yer:"Manisa",
     olum:"1639-01-20",
     olum_yer:"Topkapı Sarayı (kafeste, kapalı tutulduğu oda)",
-    olum_sebep:"TDV'nin aktardığı çağdaş kayıt 'ecel-i tabîî' (doğal ölüm) "
-    + "der; IV. Murad'ın (yeğeni) rolü olduğuna dair bir rivayet de vardır "
-    + "ama TDV bunu doğrulamaz, yalnız aktarır.",
+    olum_sebep:"TDV'nin aktardığı çağdaş kayıt 'ecel-i tabîî' (doğal ölüm) der; IV. Murad'ın (yeğeni) rolü olduğuna dair bir rivayet de vardır ancak bu rivayet belgeyle desteklenmez.", ic_not_olum_sebep:"eski: ama TDV bunu doğrulamaz, yalnız aktarır.",
     baba:"III. Mehmed",
     anne:"Abaza asıllı bir câriye; adı TDV'de bilinmiyor",
     tahta:"1617-11-22",
     saltanat_yil:0.3,
-    lakap:["bulunamadı — halk ve tekke çevreleri döneminde onu 'pâdişâh-ı "
-    + "velî' diye anıyordu, ama bu resmî bir lakap değil, aklî durumuna "
-    + "yüklenen dinî-mânevî bir yakıştırmaydı."],
-    esler:["bulunamadı — TDV'de eş adı geçmiyor; bazı Batı kaynaklarına "
-    + "göre kadınları yatağına hiç yaklaştırmadı."],
+    lakap:["resmî lakabı yok (halk ve tekke çevreleri onu 'pâdişâh-ı velî' diye anıyordu; bu, aklî durumuna yüklenen dinî-mânevî bir yakıştırmaydı)"], ic_not_lakap:"eski lakap: bulunamadı — …",
+    esler:["adları bilinmiyor; bazı Batı kaynaklarına göre kadınlara hiç yaklaşmadı"], ic_not_esler:"eski esler: bulunamadı — TDV'de eş adı geçmiyor; bazı Batı kaynaklarına göre kadınları yatağına hiç yaklaştırmadı.",
     cocuk:{oglan:"yok — TDV: 'çocuğu olmamıştır'."},
     skandal:"Şeyhülislâm Hocazâde Esad Efendi ve kaymakam Sofu Mehmed "
     + "Paşa, geçerli veraset usulünün (baba-oğul) dışına çıkarak I. "
@@ -580,7 +551,7 @@ window.PADISAHLAR = [
     tahta:"1618-02-26",
     saltanat_yil:4,
     lakap:["Genç"],
-    esler:["bulunamadı — TDV maddesinde eş adı geçmiyor"],
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı geçmiyor",
     cocuk:{oglan:"yok — 17-18 yaşında öldürüldüğü için çocuğu olmadı"},
     skandal:"Osmanlı tarihinde bir padişahın kendi yeniçerileri tarafından "
     + "resmen tahttan indirilip öldürüldüğü İLK örnektir — bu olay "
@@ -608,16 +579,14 @@ window.PADISAHLAR = [
     dogum_yer:"Manisa",
     olum:"1639-01-20",
     olum_yer:"Topkapı Sarayı (kafeste, kapalı tutulduğu oda)",
-    olum_sebep:"TDV'nin aktardığı çağdaş kayıt 'ecel-i tabîî' (doğal ölüm) "
-    + "der; IV. Murad'ın (yeğeni) rolü olduğuna dair bir rivayet de vardır "
-    + "ama TDV bunu doğrulamaz, yalnız aktarır.",
+    olum_sebep:"TDV'nin aktardığı çağdaş kayıt 'ecel-i tabîî' (doğal ölüm) der; IV. Murad'ın (yeğeni) rolü olduğuna dair bir rivayet de vardır ancak bu rivayet belgeyle desteklenmez.", ic_not_olum_sebep:"eski: ama TDV bunu doğrulamaz, yalnız aktarır.",
     baba:"III. Mehmed",
     anne:"Abaza asıllı bir câriye; adı TDV'de bilinmiyor",
     tahta:"1622-05-20 (yeniçeri ve sipahilerin, yeğeni II. Osman'ı "
     + "katlettiği isyanın ardından onu tekrar tahta çıkarmasıyla)",
     saltanat_yil:1.3,
-    lakap:["bulunamadı — bkz. 1. saltanatı satırındaki not"],
-    esler:["bulunamadı — TDV'de eş adı geçmiyor"],
+    lakap:["resmî lakabı yok (halk ve tekke çevreleri onu 'pâdişâh-ı velî' diye anıyordu; bu, aklî durumuna yüklenen dinî-mânevî bir yakıştırmaydı)"], ic_not_lakap:"eski lakap: bulunamadı — …",
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV'de eş adı geçmiyor",
     cocuk:{oglan:"yok — TDV: 'çocuğu olmamıştır'."},
     skandal:"Yeğeni II. Osman'ın yeniçeriler tarafından katledilmesinin "
     + "('Genç Osman'ın Şehadeti') hemen ardından tahta çıkarıldı. Annesi "
@@ -656,16 +625,15 @@ window.PADISAHLAR = [
     anne:"Kösem Sultan",
     tahta:"1623-09-10",
     saltanat_yil:17,
-    lakap:["bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor"],
-    esler:["bulunamadı — TDV maddesinde eş adı verilmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı verilmiyor",
     cocuk:{oglan:"5 bilinen (Süleyman, Mehmed, Alâeddin, Ahmed, Mahmud — "
     + "hepsi kendisinden ÖNCE öldü, bu yüzden taht son sağ kalan erkek "
     + "olan kardeşi İbrahim'e kaldı; Evliya Çelebi toplam çocuk sayısını "
     + "32 verir ama TDV bunu abartılı bulup 'tesbit edilebilenler' "
     + "toplamını ~16 olarak sayar)",kiz:"en az 3 (Kaya İsmihan, Rukiye, "
     + "Hafize Sultan)"},
-    skandal:"Tütün, kahve ve içkiyi halka yasaklarken kendisi 'aşırı "
-    + "içki düşkünü' olarak anılır — TDV bu çelişkiyi doğrudan kaydeder.",
+    skandal:"Tütün, kahve ve içkiyi halka yasaklarken kendisi 'aşırı içki düşkünü' olarak anılır.", ic_not_skandal:"çıkarılan: — TDV bu çelişkiyi doğrudan kaydeder.",
     ovgu:"11 yaşında tahta çıktığı yılların otorite boşluğunu 20'li "
     + "yaşlarında sert bir disiplinle kapattı; Revan (1635) ve "
     + "Bağdat'ı (1638) fethetti, yeniçeri ocağını ıslah etti, devlette "
@@ -674,10 +642,7 @@ window.PADISAHLAR = [
     + "idam ettirdi; bir şeyhülislamı idam ettiren ilk padişahtı. "
     + "Tütün-kahve-içki yasağını, kendisi içki düşkünüyken, ölümle "
     + "cezalandıracak sertlikte uyguladı.",
-    tartisma:"Sertliği tarihçiler arasında ikiye ayrılan bir konu: "
-    + "kimileri keyfî şiddet sayar, kimileri o dönemin kaosunu bitiren "
-    + "TEK etkili yöntem olduğunu, düzeni ve güvenliği getirdiğini "
-    + "savunur — TDV ikisini de kaydeder, taraf tutmaz.",
+    tartisma:"Sertliği tarihçiler arasında ikiye ayrılan bir konu: kimileri keyfî şiddet sayar, kimileri o dönemin kaosunu bitiren TEK etkili yöntem olduğunu, düzeni ve güvenliği getirdiğini savunur.", ic_not_tartisma:"çıkarılan: — TDV ikisini de kaydeder, taraf tutmaz.",
     tarihciler:"Klasik anlatı onu güçlü iradeli, zeki ama aşırı sert bir "
     + "hükümdar sayar; modern değerlendirmeler yasaklarının kendi "
     + "alışkanlıklarıyla çelişkisini ve idamların ölçeğini eleştirel "
@@ -692,9 +657,7 @@ window.PADISAHLAR = [
     anne:"Kösem Sultan",
     tahta:"1640-02-09",
     saltanat_yil:8,
-    lakap:["bulunamadı — popüler 'Deli İbrahim' adlandırması TDV maddesinde "
-    + "resmî bir lakap olarak geçmiyor, tam tersine TDV bu nitelemeyi "
-    + "kişisel yazışmalarıyla örtüşmediği için sorguluyor (bkz. tartışma)"],
+    lakap:["resmî lakabı yok (popüler 'Deli İbrahim' adlandırması kişisel yazışmalarıyla örtüşmediği için sorgulanır)"], ic_not_lakap:"eski lakap: bulunamadı — popüler 'Deli İbrahim' adlandırması TDV maddesinde resmî bir lakap olarak geçmiyor, tam tersine TDV bu nitelemeyi kişisel yazışmalarıyla örtüşmediği için sorguluyor (bkz. tartışma)",
     esler:["Turhan Hatice Sultan (IV. Mehmed'in annesi)","Sâliha Dilâşûb "
     + "Sultan (II. Süleyman'ın annesi)","Muazzez Sultan (II. Ahmed'in "
     + "annesi)"],
@@ -773,8 +736,8 @@ window.PADISAHLAR = [
     + "yaklaşık 40 yıl kapalı tutulduğu Şimşirlik'ten çıkarılarak — "
     + "önce öldürüleceğini sanıp direnmişti)",
     saltanat_yil:3.7,
-    lakap:["bulunamadı"],
-    esler:["altı kadını olduğu belirtilir, TDV isim vermiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı",
+    esler:["altı kadını olduğu belirtilir; adları bilinmiyor"], ic_not_esler:"eski: TDV isim vermiyor",
     cocuk:{oglan:"yok — TDV: 'çocuğu olmayan veya yaşamayan'"},
     skandal:"Tahta çıkarılacağı bildirildiğinde öldürüleceğini sanıp "
     + "'kırk yıldır her gün ölmektense bir gün evvel ölmek yeğdir' diyerek "
@@ -805,7 +768,7 @@ window.PADISAHLAR = [
     kaynak:"TDV: suleyman-ii" },
   { id: "ahmed2",      ad: "II. Ahmed",                    from: "1691-06", to: "1695-02",
     dogum:"1643-02-25",
-    dogum_yer:"bulunamadı — TDV maddesi doğum yeri belirtmiyor",
+    dogum_yer:"", ic_not_dogum_yer:"eski dogum_yer: bulunamadı — TDV maddesi doğum yeri belirtmiyor",
     olum:"1695-02-06",
     olum_yer:"Edirne",
     olum_sebep:"istiskā (ödem), 52 yaşında",
@@ -814,8 +777,8 @@ window.PADISAHLAR = [
     tahta:"1691-06-23 (49 yaşında, Edirne'de, kardeşi II. Süleyman'ın "
     + "ölümü üzerine)",
     saltanat_yil:3.7,
-    lakap:["bulunamadı"],
-    esler:["bulunamadı — TDV maddesinde eş adı geçmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı",
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı geçmiyor",
     cocuk:{oglan:"bulunamadı — TDV maddesinde çocuk bilgisi geçmiyor"},
     skandal:"Reâyâyı sık değişen mültezimlerin keyfî davranışlarından "
     + "korumak için 1695'te ihdas ettiği 'mâlikâne' (ömür boyu iltizam) "
@@ -844,7 +807,7 @@ window.PADISAHLAR = [
   { id: "mustafa2",    ad: "II. Mustafa",                  from: "1695-02", to: "1703-08",
     dogum:"1664-06-02",
     dogum_yer:"Edirne",
-    olum:"1703-12-29 (muhtemelen — TDV kesin tarihte 'muhtemelen' der)",
+    olum:"1703-12-29 (muhtemelen)", ic_not_olum:"eski: (muhtemelen — TDV kesin tarihte 'muhtemelen' der)",
     olum_yer:"Edirne",
     olum_sebep:"istiskā ve mesane hastalıkları, tahttan indirilmenin "
     + "verdiği üzüntüyle ağırlaşarak",
@@ -855,7 +818,7 @@ window.PADISAHLAR = [
     saltanat_yil:8.5,
     lakap:["Gazi (1695'teki Lippa fethi ve Buldur zaferinin ardından "
     + "verildi)"],
-    esler:["bulunamadı — TDV maddesinde eş adı geçmiyor"],
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı geçmiyor",
     cocuk:{oglan:"bulunamadı — TDV maddesinde çocuk bilgisi geçmiyor"},
     skandal:"Hocası Şeyhülislâm Feyzullah Efendi'nin devlet işlerine "
     + "aşırı karışması ve sadrazam atamalarını yönlendirmesi, 1703 "
@@ -900,8 +863,7 @@ window.PADISAHLAR = [
     tahta:"1703-08-22 (Edirne Vak'ası'nda ağabeyi II. Mustafa'nın tahttan "
     + "indirilmesi üzerine)",
     saltanat_yil:27,
-    lakap:["bulunamadı — dönemi 'Lâle Devri' diye anılır ama bu KİŞİSEL bir "
-    + "lakap değil, bir DÖNEM adıdır"],
+    lakap:["resmî lakabı yok (dönemi 'Lâle Devri' diye anılır; bu kişisel bir lakap değil, dönem adıdır)"], ic_not_lakap:"eski lakap: bulunamadı — …",
     esler:["Mihrişah Emine Sultan (III. Mustafa'nın annesi)","Rabia Şermi "
     + "Kadın (I. Abdülhamid'in annesi)"],
     cocuk:{oglan:"en az 10 (çoğu çocuk yaşta öldü; yalnız III. Mustafa ve "
@@ -940,7 +902,7 @@ window.PADISAHLAR = [
     tahta:"1730-10-02 (Patrona Halil İsyanı sonrası)",
     saltanat_yil:24,
     lakap:["Gazi (Tebriz'in geri alınmasının ardından verildi)"],
-    esler:["bulunamadı — TDV maddesinde eş adı geçmiyor"],
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı geçmiyor",
     cocuk:{oglan:"yok — TDV'de çocuk bilgisi yok; hayatta kalan çocuğu olmadığı, "
     + "tahtın kardeşi III. Osman'a geçtiği bilinir"},
     skandal:"27 yıl kafeste (şehzade hapsinde) geçirdikten sonra tahta "
@@ -971,8 +933,7 @@ window.PADISAHLAR = [
     anne:"Şehsuvar Vâlide Sultan",
     tahta:"1754-12-13",
     saltanat_yil:3,
-    lakap:["bulunamadı — hutbelerde yalnız 'sultânü'l-berreyn ve'l-bahreyn' "
-    + "formal unvanı okundu, bu bir lakap değil"],
+    lakap:["resmî lakabı yok (hutbelerde yalnız 'sultânü'l-berreyn ve'l-bahreyn' unvanı okundu)"], ic_not_lakap:"eski lakap: bulunamadı — …",
     esler:["Leylâ (başkadınefendi)","Zevki (üçüncü kadınefendi)","Ferhunde "
     + "Emine (dördüncü kadınefendi)"],
     cocuk:{oglan:"yok — TDV: 'çocuğu olmamış, böylece yaklaşık otuz yıl sarayda "
@@ -1035,7 +996,7 @@ window.PADISAHLAR = [
     anne:"Rabia Şermi Sultan",
     tahta:"1774-01-21 (ağabeyi III. Mustafa'nın ölümü üzerine)",
     saltanat_yil:15,
-    lakap:["bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
     esler:["Nakşidil Sultan (II. Mahmud'un annesi)","Ayşe Sineperver "
     + "Sultan (IV. Mustafa'nın annesi)"],
     cocuk:{oglan:7,kiz:12},
@@ -1070,7 +1031,7 @@ window.PADISAHLAR = [
     tahta:"1789-04-07",
     saltanat_yil:18,
     lakap:["İlhâmî (şiirlerinde kullandığı mahlası)"],
-    esler:["bulunamadı — TDV maddesinde eş adı geçmiyor"],
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı geçmiyor",
     cocuk:{oglan:"fiilen yok — Ahmed adını verdiği bir oğlu doğdu ama kısa "
     + "sürede öldü; TDV 'çocuğu olmamasından kaynaklanan bir sevgiyle "
     + "yeğenlerine yumuşak davrandığını' yazar"},
@@ -1082,10 +1043,7 @@ window.PADISAHLAR = [
     + "olmadığı, 'su gibi' bir mizaç sergilediği aktarılır; "
     + "yeniçerilerin direnişini kıramadı, 1806 Edirne Vakası'nda "
     + "askere alım girişimi başarısız oldu.",
-    tartisma:"⚠️ SIK KARIŞTIRILAN İKİ TARİH: tahttan indirilmesi (Mayıs "
-    + "1807, Kabakçı Mustafa isyanı) ile ÖLDÜRÜLMESİ (Temmuz 1808, "
-    + "Alemdar Mustafa Paşa'nın onu yeniden tahta çıkarma girişimi "
-    + "sırasında) İKİ AYRI OLAYDIR, aralarında bir yıldan fazla var.",
+    tartisma:"Sık karıştırılan iki tarih: tahttan indirilmesi (Mayıs 1807, Kabakçı Mustafa isyanı) ile öldürülmesi (Temmuz 1808, Alemdar Mustafa Paşa'nın onu yeniden tahta çıkarma girişimi sırasında) iki ayrı olaydır, aralarında bir yıldan fazla var.", ic_not_tartisma:"eski: ⚠️ ve büyük harfli vurgular",
     tarihciler:"Klasik anlatı onu reformların 'öncü şehidi' sayar; "
     + "modern değerlendirmeler reform vizyonunun gücünü kabul edip "
     + "uygulama zaafını (yeniçeri direnişini yönetememe) ayrı bir "
@@ -1103,8 +1061,8 @@ window.PADISAHLAR = [
     tahta:"1807-05-29 (Kabakçı Mustafa isyanıyla III. Selim'in tahttan "
     + "indirilmesi üzerine)",
     saltanat_yil:1,
-    lakap:["bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor"],
-    esler:["bulunamadı — TDV maddesinde eş adı geçmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı geçmiyor",
     cocuk:{oglan:"bulunamadı — TDV maddesinde çocuk bilgisi yok"},
     skandal:"1808'de Alemdar Mustafa Paşa III. Selim'i yeniden tahta "
     + "çıkarmak için İstanbul'a yürüyünce, Mustafa hem III. Selim'i hem "
@@ -1132,15 +1090,12 @@ window.PADISAHLAR = [
     dogum:"1785-07-20",
     olum:"1839-07-01",
     olum_yer:"İstanbul",
-    olum_sebep:"bulunamadı — TDV özeti sebep belirtmiyor (yaygın "
-    + "anlatı verem der, doğrulanmamış)",
+    olum_sebep:"kaynaklarda belirtilmez (yaygın anlatıya göre verem)", ic_not_olum_sebep:"eski: bulunamadı — TDV özeti sebep belirtmiyor (yaygın anlatı verem der, doğrulanmamış)",
     baba:"I. Abdülhamid",
     anne:"Nakşidil Sultan",
     tahta:"1808-07-28",
     saltanat_yil:31,
-    lakap:["bulunamadı — muhalif çevrelerce reformları yüzünden 'Gâvur "
-    + "Padişah' diye anıldığı rivayet edilir ama TDV maddesinde resmî bir "
-    + "lakap olarak geçmiyor"],
+    lakap:["resmî lakabı yok (muhalif çevrelerce reformları yüzünden 'Gâvur Padişah' diye anıldığı rivayet edilir)"], ic_not_lakap:"eski lakap: bulunamadı — …",
     esler:["Bezmiâlem Vâlide Sultan (Abdülmecid'in annesi)","Pertevniyal "
     + "Vâlide Sultan (Abdülaziz'in annesi)","Hoşyar Kadın"],
     cocuk:{oglan:"en az 8 (36 çocuğunun çoğu küçük yaşta öldü; yalnız "
@@ -1175,7 +1130,7 @@ window.PADISAHLAR = [
     anne:"Bezmiâlem Vâlide Sultan",
     tahta:"1839-07-01",
     saltanat_yil:22,
-    lakap:["bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
     esler:["Tîrimüjgân Kadınefendi (II. Abdülhamid'in annesi)","Şevkiefser "
     + "Kadınefendi (V. Murad'ın annesi — TDV: 'Şevkiefser')","Gülcemal "
     + "Kadınefendi (V. Mehmed'in annesi)","Gülüstü Kadınefendi (VI. "
@@ -1213,8 +1168,8 @@ window.PADISAHLAR = [
     anne:"Pertevniyal Vâlide Sultan",
     tahta:"1861-06-25 (ağabeyi Abdülmecid'in ölümü üzerine)",
     saltanat_yil:15,
-    lakap:["bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor"],
-    esler:["bulunamadı — TDV maddesinde ayrıntılı eş listesi verilmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde ayrıntılı eş listesi verilmiyor",
     cocuk:{oglan:"en az 2 bilinen (Yûsuf İzzeddin Efendi -veliaht- ve "
     + "Abdülmecid Efendi -imparatorluğun son halifesi olacaktı-)",
     kiz:"bulunamadı"},
@@ -1255,8 +1210,8 @@ window.PADISAHLAR = [
     tahta:"1876-05-30 (amcası Abdülaziz'in bir darbeyle tahttan "
     + "indirilmesi üzerine)",
     saltanat_yil:0.25,
-    lakap:["bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor"],
-    esler:["bulunamadı — TDV maddesinde eş adı geçmiyor"],
+    lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde eş adı geçmiyor",
     cocuk:{oglan:"bulunamadı — TDV maddesinde çocuk bilgisi yer almıyor"},
     skandal:"1878'de Ali Suavi'nin önderliğinde bir grup, onu Çırağan "
     + "Sarayı'ndan çıkarıp yeniden tahta çıkarmak için baskın düzenledi "
@@ -1289,13 +1244,13 @@ window.PADISAHLAR = [
     dogum_yer:"İstanbul",
     olum:"1918-02-10",
     olum_yer:"Beylerbeyi Sarayı, İstanbul",
-    olum_sebep:"bulunamadı — TDV maddesi sebep belirtmiyor",
+    olum_sebep:"", ic_not_olum_sebep:"eski: bulunamadı — TDV maddesi sebep belirtmiyor",
     baba:"Sultan Abdülmecid",
     anne:"Tîrimüjgân Kadınefendi",
     tahta:"1876-08-31",
     saltanat_yil:33,
     lakap:["Ulu Hakan (taraftarlarınca)"],
-    esler:["bulunamadı — TDV maddesinde ayrıntılı eş listesi verilmiyor"],
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesinde ayrıntılı eş listesi verilmiyor",
     cocuk:{oglan:"8 (TDV bu ayrıntıyı vermiyor; standart Osmanlı hanedan "
     + "kaynağı esas alındı — A. D. Alderson, The Structure of the Ottoman "
     + "Dynasty)",kiz:"7 (biri, anılarıyla tanınan Ayşe Osmanoğlu'dur)"},
@@ -1326,15 +1281,10 @@ window.PADISAHLAR = [
     anne:"Gülcemal Kadınefendi",
     tahta:"1909-04-27 (31 Mart Vak'ası'nda II. Abdülhamid'in hal'i sonrası)",
     saltanat_yil:9,
-    lakap:["bulunamadı — 'Reşad', sonradan kazanılmış bir lakap değil "
-    + "doğum adının bir parçasıdır; TDV maddesinde 'Sultan Reşad' diye "
-    + "anılır"],
-    esler:["bulunamadı — TDV maddesi kişisel/aile ayrıntılarına girmiyor, "
-    + "yalnız siyasi rolüne odaklanıyor"],
+    lakap:["resmî lakabı yok ('Reşad' doğum adının parçasıdır; 'Sultan Reşad' diye anılır)"], ic_not_lakap:"eski lakap: bulunamadı — …",
+    esler:[], ic_not_esler:"eski esler: bulunamadı — TDV maddesi kişisel/aile ayrıntılarına girmiyor, yalnız siyasi rolüne odaklanıyor",
     cocuk:{oglan:"bulunamadı — TDV maddesinde çocuk bilgisi yer almıyor"},
-    skandal:"bulunamadı — meşrutiyet sisteminde yürütme yetkisi büyük "
-    + "ölçüde İttihat ve Terakki'deydi, kendisi kişisel iktidar "
-    + "iddiasında bulunmadı.",
+    skandal:"", ic_not_skandal:"eski skandal: bulunamadı — meşrutiyet sisteminde yürütme yetkisi büyük ölçüde İttihat ve Terakki'deydi, kendisi kişisel iktidar iddiasında bulunmadı.",
     ovgu:"'Meşrutiyetle idare edeceksem her işe karışırsam kardeşimin "
     + "suçu neydi' diyerek anayasal sınırlara bilerek uydu; sembolik "
     + "rolüyle geçiş dönemini istikrarsızlığa sürüklemeden atlattı.",
@@ -1360,9 +1310,7 @@ window.PADISAHLAR = [
     anne:"Gülüstü Kadınefendi",
     tahta:"1918-07-03",
     saltanat_yil:4,
-    lakap:["bulunamadı — 'Vahideddin', sonradan kazanılmış bir lakap değil "
-    + "doğum adının bir parçasıdır; TDV maddesinde 'Sultan Vahdeddin' diye "
-    + "anılır"],
+    lakap:["resmî lakabı yok ('Vahideddin' doğum adının parçasıdır; 'Sultan Vahdeddin' diye anılır)"], ic_not_lakap:"eski lakap: bulunamadı — …",
     esler:["Nevzad Hanım (Çerkez asıllı, 19 yaşında evlendiği câriyesi — "
     + "TDV'nin isim verdiği tek eşi)"],
     cocuk:{oglan:"bulunamadı — TDV maddesi tam bir çocuk listesi vermiyor, "

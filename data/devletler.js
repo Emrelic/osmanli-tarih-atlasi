@@ -160,7 +160,7 @@ window.DEVLETLER = [
     { t:"1821-01-01", tur:"savas", b:"Osmanlı-İran son savaşı (1823'e dek)" },
     { t:"1823-07-28", tur:"antlasma", b:"Erzurum Antlaşması — sınır düzenlemesi" },
     { t:"1847-05-31", tur:"antlasma", b:"II. Erzurum Antlaşması — Şattülarap sınır anlaşmazlığı çözüldü" },
-    { t:"1925-01-01", tur:"son", b:"Kaçar hânedanı sona erdi (gün belirsiz — bkz. ozet'teki çelişki: kacarlar 1925 diyor, riza-sah-pehlevi 31 Ocak 1924 diyor)", kaynak:"kacarlar — \"Kaçar hânedanı sona ermiş oldu (1925)\"" }
+    { t:"1925-01-01", tur:"son", b:"Kaçar hânedanı sona erdi (günü kaynaklarda tartışmalı)", ic_not_b:"eski b: Kaçar hânedanı sona erdi (gün belirsiz — bkz. ozet'teki çelişki: kacarlar 1925 diyor, riza-sah-pehlevi 31 Ocak 1924 diyor)", kaynak:"kacarlar — \"Kaçar hânedanı sona ermiş oldu (1925)\"" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — Emre'nin 7 Ağustos kararı: "iran bir devlet
@@ -218,7 +218,7 @@ window.DEVLETLER = [
     { t:"1711-07-08", tur:"ittifak", b:"Devlet II Giray, Prut Seferi'nde Osmanlı ordusuna katıldı" },
     { t:"1736-01-01", tur:"isgal", b:"Rus orduları Bahçesaray'ı yaktı" },
     { t:"1774-07-21", tur:"antlasma", b:"Küçük Kaynarca — Kırım siyaseten bağımsız ilan edildi, dinî bağ Osmanlı'da kaldı" },
-    { t:"1783-04-19", tur:"son", b:"Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda 8 Nisan 1783 olarak da geçer — o ESKİ TAKVİM/Julian karşılığıdır, XVIII. yy'da fark 11 gün. Bu dizin YENİ TAKVİM/Gregoryen kullanır; aynı konvansiyon Küçük Kaynarca'da da geçerli: 1774-07-21 Yeni, Eski'de 10 Temmuz)" }
+    { t:"1783-04-19", tur:"son", b:"Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda eski takvimle 8 Nisan 1783 olarak da geçer)", ic_not_b:"eski b: Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda 8 Nisan 1783 olarak da geçer — o ESKİ TAKVİM/Julian karşılığıdır, XVIII. yy'da fark 11 gün. Bu dizin YENİ TAKVİM/Gregoryen kullanır; aynı konvansiyon Küçük Kaynarca'da da geçerli: 1774-07-21 Yeni, Eski'de 10 Temmuz)" }
   ]
 },
 
@@ -266,9 +266,9 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1136-01-01", tur:"kurulus", b:"Novgorodlular Prens Vsevolod Mstislaviç'i kovup veçe (halk meclisi) yönetimini kurumsallaştırdı" },
-    { t:"1240-07-15", tur:"savas", b:"Prens Aleksandr Yaroslaviç, Neva Nehri kıyısında İsveç kuvvetlerini bozguna uğrattı; bu zaferle 'Nevski' unvanını aldı ve Novgorod'un Baltık'a çıkışı korundu (standart akademik kaynak)" },
-    { t:"1242-04-05", tur:"savas", b:"Aleksandr Nevski komutasındaki Novgorod kuvvetleri Çudskoye (Peipus) Gölü'nün buzları üzerinde Teuton Şövalyeleri'ni yendi; Katolik haçlı seferinin kuzey Rusya'ya ilerleyişi durduruldu (standart akademik kaynak)" },
-    { t:"1471-07-14", tur:"savas", b:"Moskova Büyük Knezliği kuvvetleri Şelon Nehri kıyısında sayıca üstün Novgorod ordusunu ağır yenilgiye uğrattı; Novgorod fiilen Moskova'ya boyun eğdi, 1478'deki kesin ilhakın yolu açıldı (standart akademik kaynak)" },
+    { t:"1240-07-15", tur:"savas", b:"Prens Aleksandr Yaroslaviç, Neva Nehri kıyısında İsveç kuvvetlerini bozguna uğrattı; bu zaferle 'Nevski' unvanını aldı ve Novgorod'un Baltık'a çıkışı korundu", ic_not_b:"eski b: Prens Aleksandr Yaroslaviç, Neva Nehri kıyısında İsveç kuvvetlerini bozguna uğrattı; bu zaferle 'Nevski' unvanını aldı ve Novgorod'un Baltık'a çıkışı korundu (standart akademik kaynak)" },
+    { t:"1242-04-05", tur:"savas", b:"Aleksandr Nevski komutasındaki Novgorod kuvvetleri Çudskoye (Peipus) Gölü'nün buzları üzerinde Teuton Şövalyeleri'ni yendi; Katolik haçlı seferinin kuzey Rusya'ya ilerleyişi durduruldu", ic_not_b:"eski b: Aleksandr Nevski komutasındaki Novgorod kuvvetleri Çudskoye (Peipus) Gölü'nün buzları üzerinde Teuton Şövalyeleri'ni yendi; Katolik haçlı seferinin kuzey Rusya'ya ilerleyişi durduruldu (standart akademik kaynak)" },
+    { t:"1471-07-14", tur:"savas", b:"Moskova Büyük Knezliği kuvvetleri Şelon Nehri kıyısında sayıca üstün Novgorod ordusunu ağır yenilgiye uğrattı; Novgorod fiilen Moskova'ya boyun eğdi, 1478'deki kesin ilhakın yolu açıldı", ic_not_b:"eski b: Moskova Büyük Knezliği kuvvetleri Şelon Nehri kıyısında sayıca üstün Novgorod ordusunu ağır yenilgiye uğrattı; Novgorod fiilen Moskova'ya boyun eğdi, 1478'deki kesin ilhakın yolu açıldı (standart akademik kaynak)" },
     { t:"1478-01-15", tur:"son", b:"III. İvan'ın Moskova kuvvetleri şehri ele geçirdi, veçe çanı indirilip cumhuriyet ilga edildi" }
   ]
 },
@@ -278,7 +278,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1348-01-01", tur:"kurulus", b:"Bolotovo Antlaşması ile Novgorod'dan ayrı, bağımsız bir cumhuriyet oldu" },
-    { t:"1501-08-27", tur:"savas", b:"Livonya Tarikatı, Büyük Üstat Wolter von Plettenberg komutasında Siritsa Nehri'nde Moskova-Pskov ordusunu bozguna uğrattı; Pskov kuşatmaya rağmen düşmedi (orta güven — akademik bağlam sağlam, tekil muharebe ayrıntısı ansiklopedik kaynaktan)" },
+    { t:"1501-08-27", tur:"savas", b:"Livonya Tarikatı, Büyük Üstat Wolter von Plettenberg komutasında Siritsa Nehri'nde Moskova-Pskov ordusunu bozguna uğrattı; Pskov kuşatmaya rağmen düşmedi", ic_not_b:"eski b: Livonya Tarikatı, Büyük Üstat Wolter von Plettenberg komutasında Siritsa Nehri'nde Moskova-Pskov ordusunu bozguna uğrattı; Pskov kuşatmaya rağmen düşmedi (orta güven — akademik bağlam sağlam, tekil muharebe ayrıntısı ansiklopedik kaynaktan)" },
     { t:"1510-01-13", tur:"son", b:"III. Vasili'nin kuvvetleri veçe çanını indirdi, cumhuriyet Moskova'ya ilhak edildi" }
   ]
 },
@@ -340,7 +340,7 @@ window.DEVLETLER = [
     { t:"1917-03-15", tur:"kurulus", b:"II. Nikolay'ın tahttan çekilmesiyle Prens Lvov önderliğinde kuruldu" },
     { t:"1917-07-21", tur:"hukumdar", b:"Aleksandr Kerenski başbakan oldu" },
     { t:"1917-09-01", tur:"kurulus", b:"Rus Cumhuriyeti resmen ilan edildi" },
-    { t:"1917-11-07", tur:"son", b:"Ekim İhtilâli ile Bolşevikler tarafından devrildi (bkz. [[sovyet-rusya]])" }
+    { t:"1917-11-07", tur:"son", b:"Ekim İhtilâli ile Bolşevikler tarafından devrildi", ic_not_b:"eski b: Ekim İhtilâli ile Bolşevikler tarafından devrildi (bkz. [[sovyet-rusya]])" }
   ]
 },
 { id:"sovyet-rusya", ad:"Sovyet Rusya / SSCB", tur:"cumhuriyet", bolge:"dogu-avrupa",
@@ -446,7 +446,7 @@ window.DEVLETLER = [
   kaynak:"hamidogullari",
   kronoloji:[
     { t:"1297-01-01", tur:"kurulus", b:"Feleküddin Dündar Bey tarafından Uluborlu merkezli kuruldu" },
-    { t:"1321-01-01", tur:"bolunme", b:"Antalya kolu ayrılıp Tekeoğulları beyliğini kurdu (bkz. [[teke]])" },
+    { t:"1321-01-01", tur:"bolunme", b:"Antalya kolu ayrılıp Tekeoğulları beyliğini kurdu", ic_not_b:"eski b: Antalya kolu ayrılıp Tekeoğulları beyliğini kurdu (bkz. [[teke]])" },
     { t:"1381-01-01", tur:"toprak-kayip", b:"Akşehir-Beyşehir kesimi I. Murad'a satıldı" },
     { t:"1391-01-01", tur:"son", b:"Yıldırım Bayezid geri kalanını ilhak etti" }
   ]
@@ -564,12 +564,12 @@ window.DEVLETLER = [
   ozet:"Güneydoğu Lüristan'da, Hûzistan sınırında hüküm süren Hazarasp hanedanı atabegliği; TDV `luristan` maddesi yalnız tek parantez cümlesiyle geçiyor (hükümdar adı yok) — bu TANECİKLİK boşluğu için Encyclopaedia Iranica (Bertold Spuler, 'ATĀBAKĀN-E LORESTĀN') kullanıldı. ⚠️ Hûzistan'ın 1335-1393 arası bu atabegliğe mi yoksa Lür-i Küçek'e mi bağlı olduğu TDV `huzistan` maddesinde KESİN değil — bkz. VERI-DEVLET-GOREV.md ilerleme notu. TDV'nin 'Safevîler dönemine kadar sürdüler' cümlesi Lür-i Büzürg VE Lür-i Küçek'i BİRLİKTE kastediyor (yalnız Lür-i Küçek 1597'ye kadar sürdü); Iranica bu ayrımı doğruluyor, çelişki YOK.",
   kaynak:"luristan (TDV) + Encyclopaedia Iranica, madde: ATĀBAKĀN-E LORESTĀN (Spuler)",
   kronoloji:[
-    { t:"1155-01-01", tur:"kurulus", b:"Hazarasp hanedanı atabegliği kurdu (TDV tarihi; kurucunun adı ve kuruluş koşulları maddede ayrıntılı değil)" },
+    { t:"1155-01-01", tur:"kurulus", b:"Hazarasp hanedanı atabegliği kurdu", ic_not_b:"eski b: Hazarasp hanedanı atabegliği kurdu (TDV tarihi; kurucunun adı ve kuruluş koşulları maddede ayrıntılı değil)" },
     { t:"1203-01-01", tur:"hukumdar", b:"Ebû Tâhir'in oğlu Melik Hazarasp tahta geçti (600 AH); hanedan bundan böyle onun adıyla 'Hazaraspîler' diye anıldı (Encyclopaedia Iranica)" },
     { t:"1296-10-26", tur:"hukumdar", b:"Afrasiyab I, İlhanlı zayıflığından yararlanıp genişlemeye çalıştı; İlhanlı kuvvetleri onu Kâşân yakınında yendi, önce affedildi ama sonra Gazan Han'ın emriyle idam edildi (28 Zilhicce 695, Encyclopaedia Iranica)" },
     { t:"1393-01-01", tur:"vassal", b:"Muzafferîlerce tahttan indirilen Melik Pîr Ahmed, Timur'un yardımıyla tahtına geri döndü (795 AH, Encyclopaedia Iranica)" },
     { t:"1395-01-01", tur:"bolunme", b:"Pîr Ahmed ve iki kardeşi Timur tarafından zorla Semerkand'a götürüldü, Timur toprağı Pîr Ahmed ile kardeşi Afrasiyab III arasında böldü (798 AH, Encyclopaedia Iranica)" },
-    { t:"1424-01-01", tur:"son", b:"Atabeglik sona erdi (TDV tarihi; sonun koşulları maddede ayrıntılı değil)" }
+    { t:"1424-01-01", tur:"son", b:"Atabeglik sona erdi", ic_not_b:"eski b: Atabeglik sona erdi (TDV tarihi; sonun koşulları maddede ayrıntılı değil)" }
   ]
 },
 { id:"lur-i-kucek", ad:"Lür-i Küçek Atabegliği", tur:"devlet", bolge:"iran",
@@ -577,8 +577,8 @@ window.DEVLETLER = [
   ozet:"Lüristan'ın kuzey ve batısında, Lür-i Büzürg'den ayrı bir hanedanca yönetilen atabeglik; TDV `luristan` maddesinde yalnız kuruluş/bitiş tarihleriyle geçer, hanedan adı ve iç kronoloji maddede ayrıntılı değil. Safevî döneminin ortasına (1597) kadar sürmesi, iki atabegliğin ömürlerinin BİRBİRİNDEN 173 YIL FARKLI olduğunu gösterir — karıştırılmamalı. (kaynak: TDV, madde: luristan)",
   kaynak:"luristan",
   kronoloji:[
-    { t:"1184-01-01", tur:"kurulus", b:"Atabeglik kuruldu (TDV tarihi; kurucunun adı maddede ayrıntılı değil)" },
-    { t:"1597-01-01", tur:"son", b:"Atabeglik sona erdi (TDV tarihi; sonun koşulları maddede ayrıntılı değil — I. Abbas'ın merkezîleştirme dönemine denk gelir)" }
+    { t:"1184-01-01", tur:"kurulus", b:"Atabeglik kuruldu", ic_not_b:"eski b: Atabeglik kuruldu (TDV tarihi; kurucunun adı maddede ayrıntılı değil)" },
+    { t:"1597-01-01", tur:"son", b:"Atabeglik sona erdi", ic_not_b:"eski b: Atabeglik sona erdi (TDV tarihi; sonun koşulları maddede ayrıntılı değil — I. Abbas'ın merkezîleştirme dönemine denk gelir)" }
   ]
 },
 { id:"serbedariler", ad:"Serbedârîler", tur:"hanedanlik", bolge:"iran",
@@ -619,7 +619,7 @@ window.DEVLETLER = [
   kaynak:"incu",
   kronoloji:[
     { t:"1325-01-01", tur:"kurulus", b:"Şerefeddin Mahmud Şah İncû, Fars'ta fiilî hâkimiyetini kurdu" },
-    { t:"1357-01-01", tur:"son", b:"Muzafferî Mübârizüddin Muhammed Şiraz'ı alıp son İncû hükümdarı Ebû İshak'ı ortadan kaldırdı (bkz. [[muzafferi]])" }
+    { t:"1357-01-01", tur:"son", b:"Muzafferî Mübârizüddin Muhammed Şiraz'ı alıp son İncû hükümdarı Ebû İshak'ı ortadan kaldırdı", ic_not_b:"eski b: Muzafferî Mübârizüddin Muhammed Şiraz'ı alıp son İncû hükümdarı Ebû İshak'ı ortadan kaldırdı (bkz. [[muzafferi]])" }
   ]
 },
 { id:"kutlughanli", ad:"Kutluğhanlılar", tur:"devlet", bolge:"iran",
@@ -647,7 +647,7 @@ window.DEVLETLER = [
   ozet:"Doğu Gilân'da (Biyepîş) Zeydî bir seyyid ailesinin kurduğu yerel hanedan; TDV `gilan` maddesi kuruluşu 'İlhanlı Hükümdarı Olcaytu'nun 1306-07'deki başarısız ilhak girişiminden sonra' diye tarihsiz anlatıyor, kesin yıl (773/1371-72, Emîr Kiyâ'nın oğlu Ali Kiyâ'nın bölgeye dönüp hâkimiyeti tesis etmesi) Encyclopaedia Iranica'nın `KĀR KIĀ` maddesinden alındı. Safevî Şahı I. Abbas'ın 1592'de bölgeyi doğrudan hâkimiyetine almasıyla sona erdi (TDV `gilan` maddesiyle BİREBİR tarihli). ⚠️ f:1371, İlhanlı'nın çöküşünden (1335) 36 yıl SONRAdır — bu aralıkta veride `ilhanli` köprüsü kullanılacak (künye tarafında ek işlem gerekmiyor).",
   kaynak:"gilan (TDV, bitiş tarihi) + Encyclopaedia Iranica, madde: KĀR KIĀ (kuruluş tarihi, 773/1371-72)",
   kronoloji:[
-    { t:"1371-01-01", tur:"kurulus", b:"Ali Kiyâ, babası Emîr Kiyâ'nın ailesiyle Doğu Gilân'a dönüp hâkimiyeti tesis etti (773 AH, tam gün yok)" },
+    { t:"1371-01-01", tur:"kurulus", b:"Ali Kiyâ, babası Emîr Kiyâ'nın ailesiyle Doğu Gilân'a dönüp hâkimiyeti tesis etti (773 AH)", ic_not_b:"eski b: Ali Kiyâ, babası Emîr Kiyâ'nın ailesiyle Doğu Gilân'a dönüp hâkimiyeti tesis etti (773 AH, tam gün yok)" },
     { t:"1501-01-01", tur:"vassal", b:"Safevî hâkimiyeti kuruldu, Kârkiyâ'lar yerel/nominal beylik olarak sürdü" },
     { t:"1592-01-01", tur:"son", b:"Şah I. Abbas bölgeyi doğrudan hâkimiyeti altına aldı, hanedan sona erdi" }
   ]
@@ -657,9 +657,9 @@ window.DEVLETLER = [
   ozet:"Aslen Maraşlı bir seyyid ailesinin Mâzenderan'da kurduğu Şiî hanedan; kurucusu Seyyid Kıvâmüddin ('Mîr-i Büzürg'), yerel hâkim Kiyâ Efrâsiyâb'ı yenip 760'ta (1359) Âmül'ü ele geçirerek hâkimiyetini tesis etti (TDV `marasiler` maddesi, NET tarih). Timur'a 1392'de teslim oldu, sonra Şâhruh izniyle geri döndüyse de eski gücüne ulaşamadı; XVI. yüzyıl başında Safevî'ye bağlı yerel hâkimler olarak sürdü. ⚠️ TDV bitişi YIL VERMEDEN 'Şah I. Abbas zamanında (1587-1629) çeşitli yerlere dağıtıldılar' diyor — kesin son yıl TDV'de BULUNAMADI. Veride kullanılan 1596, TDV dışı ikincil kaynaklarca (Encyclopaedia Iranica'ya atıfla) doğrulanıyor ama doğrudan Iranica madde metnine erişilemedi (403); bu satır o ölçüde emin.",
   kaynak:"marasiler (TDV, kuruluş NET) + bitiş tarihi (1596) TDV'de yok, dolaylı doğrulama: Encyclopaedia Iranica'ya atıf yapan ikincil kaynaklar (Iranica madde metnine erişilemedi)",
   kronoloji:[
-    { t:"1359-01-01", tur:"kurulus", b:"Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH, tam gün yok)" },
+    { t:"1359-01-01", tur:"kurulus", b:"Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH)", ic_not_b:"eski b: Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH, tam gün yok)" },
     { t:"1392-10-26", tur:"vassal", b:"Timur'a Mâhâneser Kalesi'nde teslim oldu (8 Zilhicce 794)" },
-    { t:"1596-01-01", tur:"son", b:"Şah I. Abbas döneminde hanedan mensupları dağıtıldı, siyasî varlığı sona erdi (TDV yıl vermiyor, tarih ikincil kaynaktan)" }
+    { t:"1596-01-01", tur:"son", b:"Şah I. Abbas döneminde hanedan mensupları dağıtıldı, siyasî varlığı sona erdi", ic_not_b:"eski b: Şah I. Abbas döneminde hanedan mensupları dağıtıldı, siyasî varlığı sona erdi (TDV yıl vermiyor, tarih ikincil kaynaktan)" }
   ]
 },
 
@@ -696,7 +696,7 @@ window.DEVLETLER = [
     { t:"1699-01-26", tur:"antlasma", b:"Karlofça Antlaşması ile Osmanlı, Macaristan'dan (Temeşvar hariç) kesin olarak çekildi" },
     { t:"1848-03-15", tur:"isyan", b:"1848 Macar Devrimi başladı (1849'da Rus yardımıyla bastırıldı)" },
     { t:"1867-02-08", tur:"antlasma", b:"Ausgleich (Uzlaşma) ile Avusturya-Macaristan ikili monarşisi kuruldu, Macaristan eşit ortak oldu" },
-    { t:"1918-11-16", tur:"son", b:"I. Dünya Savaşı sonrası cumhuriyet ilan edildi (bkz. [[macaristan-naiplik]])" }
+    { t:"1918-11-16", tur:"son", b:"I. Dünya Savaşı sonrası cumhuriyet ilan edildi", ic_not_b:"eski b: I. Dünya Savaşı sonrası cumhuriyet ilan edildi (bkz. [[macaristan-naiplik]])" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — DALGA 1: `lehistan` harita kimliği künyenin
@@ -779,11 +779,11 @@ window.DEVLETLER = [
   ozet:"Katolik kilisesinin dünyevi devleti (kurumsal süreklilik, tek hanedan yok — art arda seçilen papalar); 756'da Pepin'in bağışıyla doğdu, Haçlı seferleri ve Kutsal İttifak'ların dinî-siyasi örgütleyicisiydi, 1870'te İtalyan birliğiyle Roma'nın ilhakıyla sona erdi.",
   kaynak:"papalik",
   kronoloji:[
-    { t:"1396-09-25", tur:"savas", b:"Niğbolu Savaşı — TDV'ye göre dönemin papalarınca teşvik edilen Haçlı seferlerinden biri, I. Bayezid'e karşı düzenlendi (TDV papalik maddesi)" },
-    { t:"1463-10-25", tur:"ittifak", b:"Papa II. Pius, İstanbul'un fethi sonrası alevlenen Haçlı çağrısına katılmayan Fransa'yı tehdit eden bir bildiri yayımladı (TDV fransa maddesi, gün birebir verilmiş)" },
+    { t:"1396-09-25", tur:"savas", b:"Niğbolu Savaşı — dönemin papalarınca teşvik edilen Haçlı seferlerinden biri, I. Bayezid'e karşı düzenlendi", ic_not_b:"eski b: Niğbolu Savaşı — TDV'ye göre dönemin papalarınca teşvik edilen Haçlı seferlerinden biri, I. Bayezid'e karşı düzenlendi (TDV papalik maddesi)" },
+    { t:"1463-10-25", tur:"ittifak", b:"Papa II. Pius, İstanbul'un fethi sonrası alevlenen Haçlı çağrısına katılmayan Fransa'yı tehdit eden bir bildiri yayımladı", ic_not_b:"eski b: Papa II. Pius, İstanbul'un fethi sonrası alevlenen Haçlı çağrısına katılmayan Fransa'yı tehdit eden bir bildiri yayımladı (TDV fransa maddesi, gün birebir verilmiş)" },
     { t:"1571-05-25", tur:"ittifak", b:"Kutsal İttifak'ı kurup İnebahtı zaferini örgütledi" },
-    { t:"1571-10-07", tur:"savas", b:"İnebahtı Deniz Savaşı — TDV'ye göre papalarca teşvik edilen savaşlardan biri; Kutsal İttifak donanması Osmanlı donanmasını yendi (TDV papalik maddesi)" },
-    { t:"1809-05-17", tur:"isgal", b:"Napolyon, Papalık topraklarını Fransız İmparatorluğu'na ilhak etti; Papa VII. Pius'u aforoz etmesi üzerine Fransız kuvvetleri Papa'yı tutuklayıp 1814'e kadar hapsetti (TDV kapsamıyor — akademik kaynak: Ambrogio Caiani, 'To Kidnap a Pope', Yale UP 2021)" },
+    { t:"1571-10-07", tur:"savas", b:"İnebahtı Deniz Savaşı — papalarca teşvik edilen savaşlardan biri; Kutsal İttifak donanması Osmanlı donanmasını yendi", ic_not_b:"eski b: İnebahtı Deniz Savaşı — TDV'ye göre papalarca teşvik edilen savaşlardan biri; Kutsal İttifak donanması Osmanlı donanmasını yendi (TDV papalik maddesi)" },
+    { t:"1809-05-17", tur:"isgal", b:"Napolyon, Papalık topraklarını Fransız İmparatorluğu'na ilhak etti; Papa VII. Pius'u aforoz etmesi üzerine Fransız kuvvetleri Papa'yı tutuklayıp 1814'e kadar hapsetti", ic_not_b:"eski b: Napolyon, Papalık topraklarını Fransız İmparatorluğu'na ilhak etti; Papa VII. Pius'u aforoz etmesi üzerine Fransız kuvvetleri Papa'yı tutuklayıp 1814'e kadar hapsetti (TDV kapsamıyor — akademik kaynak: Ambrogio Caiani, 'To Kidnap a Pope', Yale UP 2021)" },
     { t:"1870-09-20", tur:"son", b:"İtalya Krallığı Roma'yı ilhak etti, dünyevi iktidarı sona erdi" }
   ]
 },
@@ -815,7 +815,7 @@ window.DEVLETLER = [
     { t:"1848-02-24", tur:"kurulus", b:"II. Cumhuriyet ilan edildi" },
     { t:"1852-12-02", tur:"hukumdar", b:"III. Napolyon kendini imparator ilan etti (II. İmparatorluk)" },
     { t:"1870-09-04", tur:"kurulus", b:"III. Cumhuriyet ilan edildi" },
-    { t:"1881-05-12", tur:"toprak-kazanc", b:"Bardo Antlaşması ile Tunus fiilen Fransız protektorası oldu (bkz. [[tunus-ocagi]])" }
+    { t:"1881-05-12", tur:"toprak-kazanc", b:"Bardo Antlaşması ile Tunus fiilen Fransız protektorası oldu", ic_not_b:"eski b: Bardo Antlaşması ile Tunus fiilen Fransız protektorası oldu (bkz. [[tunus-ocagi]])" }
   ]
 },
 { id:"ingiltere", ad:"İngiltere / Büyük Britanya", tur:"krallik", bolge:"bati-avrupa",
@@ -907,7 +907,7 @@ window.DEVLETLER = [
     { t:"1377-01-01", tur:"kurulus", b:"Tvrtko I tarafından krallık ilan edildi" },
     { t:"1391-01-01", tur:"bolunme", b:"Tvrtko I'in ölümüyle taht kavgaları ve derebeylik parçalanması başladı" },
     { t:"1414-01-01", tur:"antlasma", b:"Osmanlı'ya ilk kez haraç ödemeyi kabul etti" },
-    { t:"1448-01-01", tur:"bolunme", b:"Stjepan Vukčić Kosača güney topraklarında ayrı Hersek Dukalığı'nı kurdu (bkz. [[hersek]])" },
+    { t:"1448-01-01", tur:"bolunme", b:"Stjepan Vukčić Kosača güney topraklarında ayrı Hersek Dukalığı'nı kurdu", ic_not_b:"eski b: Stjepan Vukčić Kosača güney topraklarında ayrı Hersek Dukalığı'nı kurdu (bkz. [[hersek]])" },
     { t:"1461-11-01", tur:"hukumdar", b:"Son kral Stjepan Tomašević, Osmanlı'ya bağlılığı reddederek Papalık'tan yardım istedi" },
     { t:"1463-05-01", tur:"son", b:"Fatih'in seferiyle ilhak edildi" }
   ]
@@ -979,7 +979,7 @@ window.DEVLETLER = [
   kaynak:"atina",
   kronoloji:[
     { t:"1205-01-01", tur:"kurulus", b:"IV. Haçlı Seferi sonrası Burgonya kökenli şövalyelerce kuruldu" },
-    { t:"1311-03-15", tur:"toprak-kayip", b:"Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi (bkz. [[katalan]])" },
+    { t:"1311-03-15", tur:"toprak-kayip", b:"Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi", ic_not_b:"eski b: Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi (bkz. [[katalan]])" },
     { t:"1388-01-01", tur:"toprak-kazanc", b:"Floransalı Nerio Acciaiuoli, Katalanlardan Atina'yı aldı" },
     { t:"1458-06-04", tur:"son", b:"Fatih tarafından ilhak edildi" }
   ]
@@ -1065,7 +1065,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1490-01-01", tur:"kurulus", b:"Gürcistan Krallığı'nın bölünmesiyle ayrı krallık olarak ortaya çıktı" },
-    { t:"1804-01-01", tur:"antlasma", b:"Rusya ile bir birlik/himaye anlaşması imzalandı (TDV: \"birleşti\", ayrıntı yok)" },
+    { t:"1804-01-01", tur:"antlasma", b:"Rusya ile bir birlik/himaye anlaşması imzalandı", ic_not_b:"eski b: Rusya ile bir birlik/himaye anlaşması imzalandı (TDV: \"birleşti\", ayrıntı yok)" },
     { t:"1810-02-20", tur:"son", b:"Kral II. Solomon tahttan indirildi, Rusya krallığı kesin olarak ilhak etti" }
   ]
 },
@@ -1225,7 +1225,7 @@ window.DEVLETLER = [
   kaynak:"kavalali-mehmed-ali-pasa",
   kronoloji:[
     { t:"1805-07-03", tur:"kurulus", b:"Kavalalı Mehmed Ali, Bâbıâli tarafından Mısır valiliğine getirildi (oldubittinin tanınması)" },
-    { t:"1811-01-01", tur:"savas", b:"Vehhâbî seferleri başladı (bkz. [[suud-birinci]])" },
+    { t:"1811-01-01", tur:"savas", b:"Vehhâbî seferleri başladı", ic_not_b:"eski b: Vehhâbî seferleri başladı (bkz. [[suud-birinci]])" },
     { t:"1831-10-31", tur:"savas", b:"Birinci Mısır Krizi — Suriye'nin işgali (bkz. seri: misir)" },
     { t:"1841-06-01", tur:"antlasma", b:"Londra çözümü — Mısır'da irsî valilik tanındı, Suriye/Hicaz iade edildi" },
     { t:"1914-11-05", tur:"savas", b:"İngiltere Osmanlı'ya savaş ilan etti, Kıbrıs'ı ilhak etti (Mısır'daki nominal Osmanlı bağı henüz bitmedi)" },
@@ -1420,7 +1420,7 @@ window.DEVLETLER = [
     { t:"1881-03-26", tur:"kurulus", b:"I. Carol kral ilan edildi" },
     { t:"1913-07-10", tur:"savas", b:"II. Balkan Savaşı'na girip Bulgaristan'dan Güney Dobruca'yı aldı" },
     { t:"1916-08-27", tur:"savas", b:"İtilaf yanında I. Dünya Savaşı'na girdi" },
-    { t:"1918-12-01", tur:"birlesme", b:"Erdel'in (bkz. [[erdel]]) katılımıyla Büyük Romanya oluştu" }
+    { t:"1918-12-01", tur:"birlesme", b:"Erdel'in katılımıyla Büyük Romanya oluştu", ic_not_b:"eski b: Erdel'in (bkz. [[erdel]]) katılımıyla Büyük Romanya oluştu" }
   ]
 },
 { id:"arnavutluk-bagimsiz", ad:"Arnavutluk Prensliği (Bağımsız)", tur:"devlet", bolge:"balkanlar",
@@ -1454,10 +1454,10 @@ window.DEVLETLER = [
   ozet:"İber yarımadasındaki son Müslüman devlet (hanedan ömrü, Nasrîler); 1238'de Gırnata'yı merkez yaparak kuruldu, yardım çağrıları Osmanlı'ya ulaştıysa da 2 Ocak 1492'de düştü. ⚠️ 10 Ağustos 2026: f: 1238-01-01 → 1238-05-12 (TDV `girnata`/`nasriler`: 26 Ramazan 635 / 12 Mayıs 1238, tam gün).",
   kaynak:"girnata + nasriler (TDV, hükümdar kronolojisi daha ayrıntılı)",
   kronoloji:[
-    { t:"1238-05-12", tur:"kurulus", b:"İbnü'l-Ahmer (Muhammed b. Yûsuf b. Nasr), İbn Hûd'un öldürülmesi üzerine bağımsızlığını ilan edip Gırnata'yı ele geçirdi, Nasrî Devleti'ni kurdu (26 Ramazan 635, TDV nasriler maddesi)" },
-    { t:"1340-10-30", tur:"savas", b:"Nasrî-Merînî müttefik kuvvetleri Río Salado'da Kastilya-Aragon-Portekiz ittifakına ağır yenildi; Cezîretülhadrâ ve Tarîf kaybedildi, 1344'te barış yapıldı (TDV nasriler, olayı isimsiz anlatıyor; tam gün Britannica 'Battle of Río Salado' — taneciklik boşluğu)" },
-    { t:"1482-01-01", tur:"isyan", b:"Ebû Abdullah (Boabdil), babası Ebü'l-Hasan Ali'ye karşı isyan başlattı; ülke fiilen üçe bölündü (Gırnata-Ebü'l-Hasan, Mâleka-Zagal, Vâdîâş-Boabdil) (887 AH, TDV nasriler maddesi)" },
-    { t:"1483-01-01", tur:"savas", b:"Boabdil, Kastilya'ya ait Lûsinâ'ya (Lucena) saldırdı ama Kurtuba yakınında yenilip esir düştü (TDV nasriler maddesi)" },
+    { t:"1238-05-12", tur:"kurulus", b:"İbnü'l-Ahmer (Muhammed b. Yûsuf b. Nasr), İbn Hûd'un öldürülmesi üzerine bağımsızlığını ilan edip Gırnata'yı ele geçirdi, Nasrî Devleti'ni kurdu (26 Ramazan 635)", ic_not_b:"eski b: İbnü'l-Ahmer (Muhammed b. Yûsuf b. Nasr), İbn Hûd'un öldürülmesi üzerine bağımsızlığını ilan edip Gırnata'yı ele geçirdi, Nasrî Devleti'ni kurdu (26 Ramazan 635, TDV nasriler maddesi)" },
+    { t:"1340-10-30", tur:"savas", b:"Nasrî-Merînî müttefik kuvvetleri Río Salado'da Kastilya-Aragon-Portekiz ittifakına ağır yenildi; Cezîretülhadrâ ve Tarîf kaybedildi, 1344'te barış yapıldı", ic_not_b:"eski b: Nasrî-Merînî müttefik kuvvetleri Río Salado'da Kastilya-Aragon-Portekiz ittifakına ağır yenildi; Cezîretülhadrâ ve Tarîf kaybedildi, 1344'te barış yapıldı (TDV nasriler, olayı isimsiz anlatıyor; tam gün Britannica 'Battle of Río Salado' — taneciklik boşluğu)" },
+    { t:"1482-01-01", tur:"isyan", b:"Ebû Abdullah (Boabdil), babası Ebü'l-Hasan Ali'ye karşı isyan başlattı; ülke fiilen üçe bölündü (Gırnata-Ebü'l-Hasan, Mâleka-Zagal, Vâdîâş-Boabdil) (887 AH)", ic_not_b:"eski b: Ebû Abdullah (Boabdil), babası Ebü'l-Hasan Ali'ye karşı isyan başlattı; ülke fiilen üçe bölündü (Gırnata-Ebü'l-Hasan, Mâleka-Zagal, Vâdîâş-Boabdil) (887 AH, TDV nasriler maddesi)" },
+    { t:"1483-01-01", tur:"savas", b:"Boabdil, Kastilya'ya ait Lûsinâ'ya (Lucena) saldırdı ama Kurtuba yakınında yenilip esir düştü", ic_not_b:"eski b: Boabdil, Kastilya'ya ait Lûsinâ'ya (Lucena) saldırdı ama Kurtuba yakınında yenilip esir düştü (TDV nasriler maddesi)" },
     { t:"1492-01-02", tur:"son", b:"Ebû Abdullah (Boabdil) şehri Katolik krallara teslim etti" }
   ]
 },
@@ -1489,12 +1489,12 @@ window.DEVLETLER = [
   ozet:"İspanya'dan bağımsızlığını ilan eden ticaret cumhuriyeti; 1612'de Osmanlı'dan kapitülasyon aldı (1923 sonrasında da sürdü).",
   kaynak:"hollanda",
   kronoloji:[
-    { t:"1579-01-23", tur:"antlasma", b:"Kuzey eyaletleri Utrecht Birliği'ni imzalayıp İspanya'ya karşı askerî-siyasî birlik kurdu; 1581'deki bağımsızlık ilanının hukukî temeli oldu (TDV hollanda maddesi)" },
+    { t:"1579-01-23", tur:"antlasma", b:"Kuzey eyaletleri Utrecht Birliği'ni imzalayıp İspanya'ya karşı askerî-siyasî birlik kurdu; 1581'deki bağımsızlık ilanının hukukî temeli oldu", ic_not_b:"eski b: Kuzey eyaletleri Utrecht Birliği'ni imzalayıp İspanya'ya karşı askerî-siyasî birlik kurdu; 1581'deki bağımsızlık ilanının hukukî temeli oldu (TDV hollanda maddesi)" },
     { t:"1581-07-26", tur:"kurulus", b:"Bağımsızlık ilanı (İspanya'dan ayrılış)" },
-    { t:"1602-03-20", tur:"kurulus", b:"Dağınık ticaret şirketleri birleştirilip Hollanda Doğu Hindistan Şirketi (VOC) kuruldu, Asya'daki ticarî-siyasî gücün temelini attı (TDV hollanda maddesi)" },
+    { t:"1602-03-20", tur:"kurulus", b:"Dağınık ticaret şirketleri birleştirilip Hollanda Doğu Hindistan Şirketi (VOC) kuruldu, Asya'daki ticarî-siyasî gücün temelini attı", ic_not_b:"eski b: Dağınık ticaret şirketleri birleştirilip Hollanda Doğu Hindistan Şirketi (VOC) kuruldu, Asya'daki ticarî-siyasî gücün temelini attı (TDV hollanda maddesi)" },
     { t:"1612-07-06", tur:"antlasma", b:"Osmanlı kapitülasyonları verildi, elçilik açıldı" },
-    { t:"1648-01-30", tur:"antlasma", b:"Vestfalya barışının parçası olan Münster Antlaşması ile İspanya, Felemenk Cumhuriyeti'nin bağımsızlığını resmen tanıdı (TDV hollanda maddesi, doğrudan)" },
-    { t:"1780-12-20", tur:"savas", b:"İngiltere, Amerikan Bağımsızlık Savaşı sırasındaki düşman devletlerle ticaretini gerekçe göstererek Hollanda'ya savaş ilan etti; dört yıllık savaş Hollanda'nın deniz gücünü ağır sarstı (TDV hollanda maddesi)" }
+    { t:"1648-01-30", tur:"antlasma", b:"Vestfalya barışının parçası olan Münster Antlaşması ile İspanya, Felemenk Cumhuriyeti'nin bağımsızlığını resmen tanıdı", ic_not_b:"eski b: Vestfalya barışının parçası olan Münster Antlaşması ile İspanya, Felemenk Cumhuriyeti'nin bağımsızlığını resmen tanıdı (TDV hollanda maddesi, doğrudan)" },
+    { t:"1780-12-20", tur:"savas", b:"İngiltere, Amerikan Bağımsızlık Savaşı sırasındaki düşman devletlerle ticaretini gerekçe göstererek Hollanda'ya savaş ilan etti; dört yıllık savaş Hollanda'nın deniz gücünü ağır sarstı", ic_not_b:"eski b: İngiltere, Amerikan Bağımsızlık Savaşı sırasındaki düşman devletlerle ticaretini gerekçe göstererek Hollanda'ya savaş ilan etti; dört yıllık savaş Hollanda'nın deniz gücünü ağır sarstı (TDV hollanda maddesi)" }
   ]
 },
 { id:"danimarka", ad:"Danimarka Krallığı (1814'e kadar Danimarka-Norveç)", tur:"krallik", bolge:"kuzey-avrupa",
@@ -1502,7 +1502,7 @@ window.DEVLETLER = [
   ozet:"Krallık VI. yüzyıla uzanır (TDV); 1380 Norveç ile kişisel birliğin başlangıcıdır, devletin kendi kuruluşu değil (bkz. [[norvec-kralligi]]). Kiel Antlaşması'yla Norveç'i kaybettikten sonra da Danimarka tek başına sürdü. Osmanlı ile 1756'da dostluk ve ticaret antlaşması imzaladı (1923 sonrasında da sürdü). Bkz. [[norvec]] (1814-1905 arası İsveç'le birlik, sonra bağımsız). ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `f:` 1380'den 1281'e çekildi — TDV `danimarka` maddesi sürekliliği VI. yüzyıla dayandırıyor, 1281-1380 arasında bir kopuş yok; 1380 yalnız Norveç birliğinin başlangıcıydı, devletin kendi kuruluşu değildi.",
   kaynak:"danimarka",
   kronoloji:[
-    { t:"1380-01-01", tur:"ittifak", b:"IV. Olav'ın tahta çıkışıyla Norveç ile kişisel birlik başladı (bkz. [[norvec-kralligi]])" },
+    { t:"1380-01-01", tur:"ittifak", b:"IV. Olav'ın tahta çıkışıyla Norveç ile kişisel birlik başladı", ic_not_b:"eski b: IV. Olav'ın tahta çıkışıyla Norveç ile kişisel birlik başladı (bkz. [[norvec-kralligi]])" },
     { t:"1756-10-14", tur:"antlasma", b:"Osmanlı-Danimarka dostluk ve ticaret antlaşması" },
     { t:"1814-01-14", tur:"bolunme", b:"Kiel Antlaşması ile Norveç, İsveç'e bırakıldı; Danimarka-Norveç birliği sona erdi" }
   ]
@@ -1512,12 +1512,12 @@ window.DEVLETLER = [
   ozet:"Doğu Afrika kıyısına uzanan denizci sultanlık (hanedan ömrü, önce Ya'rubîler sonra Bû Saîdler); Portekizlileri Maskat'tan attı (1923 sonrasında da sürdü, harita kapsamı burada kesiliyor).",
   kaynak:"uman",
   kronoloji:[
-    { t:"1624-01-01", tur:"kurulus", b:"Nâsır b. Mürşid, iç karışıklıklar sürecinde bölge ileri gelenlerinin biatıyla imam seçilip Ya'rubî hânedanını kurdu (TDV yarubiler maddesi; kuruluş için 1615/1624 iki tarih veriyor, atlasın f: alanıyla uyumlu 1624 kullanıldı)" },
+    { t:"1624-01-01", tur:"kurulus", b:"Nâsır b. Mürşid, iç karışıklıklar sürecinde bölge ileri gelenlerinin biatıyla imam seçilip Ya'rubî hânedanını kurdu (kaynaklarda 1615 ya da 1624)", ic_not_b:"eski b: Nâsır b. Mürşid, iç karışıklıklar sürecinde bölge ileri gelenlerinin biatıyla imam seçilip Ya'rubî hânedanını kurdu (TDV yarubiler maddesi; kuruluş için 1615/1624 iki tarih veriyor, atlasın f: alanıyla uyumlu 1624 kullanıldı)" },
     { t:"1650-01-26", tur:"toprak-kazanc", b:"Maskat, Portekiz'den alındı" },
     { t:"1749-06-10", tur:"hukumdar", b:"Bû Saîd hanedanı kuruldu" },
-    { t:"1798-01-18", tur:"ittifak", b:"İngiltere ile 'kavilnâme' adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı; Uman-İngiliz ilişkileri başladı (TDV uman maddesi)" },
-    { t:"1856-01-01", tur:"bolunme", b:"Seyyid Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı (TDV uman maddesi)" },
-    { t:"1862-01-01", tur:"antlasma", b:"İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Umman birbirinden bağımsız iki ayrı devlet olarak tanındı (TDV uman maddesi)" }
+    { t:"1798-01-18", tur:"ittifak", b:"İngiltere ile 'kavilnâme' adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı; Uman-İngiliz ilişkileri başladı", ic_not_b:"eski b: İngiltere ile 'kavilnâme' adlı anlaşma imzalandı, İngilizler Maskat'ta temsilcilik açtı; Uman-İngiliz ilişkileri başladı (TDV uman maddesi)" },
+    { t:"1856-01-01", tur:"bolunme", b:"Seyyid Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı", ic_not_b:"eski b: Seyyid Saîd b. Sultân'ın ölümüyle ülke, Zengibar'da kalan oğlu Mâcid ile Maskat'ta kalan oğlu Süveynî arasında paylaştırıldı (TDV uman maddesi)" },
+    { t:"1862-01-01", tur:"antlasma", b:"İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Umman birbirinden bağımsız iki ayrı devlet olarak tanındı", ic_not_b:"eski b: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Umman birbirinden bağımsız iki ayrı devlet olarak tanındı (TDV uman maddesi)" }
   ]
 },
 { id:"suud-ikinci", ad:"II. Suûdî Devleti (Necid Emirliği)", tur:"devlet", bolge:"arabistan",
@@ -1536,7 +1536,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1902-01-15", tur:"kurulus", b:"Abdülazîz bin Suûd Riyad'ı geri alarak üçüncü Suûdî devletini kurdu" },
     { t:"1921-11-02", tur:"toprak-kazanc", b:"Şammar (Hâil) emirliğinin teslimiyle Kuzey Necid'e hâkim oldu" },
-    { t:"1926-01-08", tur:"antlasma", b:"Hicaz Krallığı ilan edildi (künyenin kendi adı buradan geliyor: 'Necid ve Hicaz Sultanlığı')" },
+    { t:"1926-01-08", tur:"antlasma", b:"Hicaz Krallığı ilan edildi", ic_not_b:"eski b: Hicaz Krallığı ilan edildi (künyenin kendi adı buradan geliyor: 'Necid ve Hicaz Sultanlığı')" },
     { t:"1932-09-18", tur:"son", b:"Suûdî Arabistan Krallığı ilan edilerek tam birleşme sağlandı" }
   ]
 },
@@ -1545,10 +1545,10 @@ window.DEVLETLER = [
   ozet:"Hâil merkezli Arap emirliği (hanedan ömrü, Reşîdîler); 1835'te Cebel Şammar'da kuruldu, Osmanlı'ya yakın durup Suûdîlerin tarihî rakibi oldu, 1921'de yıkıldı. ⚠️ 10 Ağustos 2026: f: 1836 → 1835 düzeltildi — TDV `residiler` maddesi kuruluşu net biçimde 1835 veriyor.",
   kaynak:"residiler",
   kronoloji:[
-    { t:"1835-01-01", tur:"kurulus", b:"Abdullah b. Reşîd, kardeşi Ubeyd ile İbn Ali ailesine karşı mücadeleyi kazanıp Hâil emirliğini ele geçirdi, Reşîdî hânedanının hâkimiyetini kurdu (TDV residiler maddesi)" },
+    { t:"1835-01-01", tur:"kurulus", b:"Abdullah b. Reşîd, kardeşi Ubeyd ile İbn Ali ailesine karşı mücadeleyi kazanıp Hâil emirliğini ele geçirdi, Reşîdî hânedanının hâkimiyetini kurdu", ic_not_b:"eski b: Abdullah b. Reşîd, kardeşi Ubeyd ile İbn Ali ailesine karşı mücadeleyi kazanıp Hâil emirliğini ele geçirdi, Reşîdî hânedanının hâkimiyetini kurdu (TDV residiler maddesi)" },
     { t:"1891-01-24", tur:"toprak-kazanc", b:"Müleyde zaferiyle Necid'i ele geçirdi" },
-    { t:"1902-01-15", tur:"toprak-kayip", b:"İbn Suûd, Reşîdîler'in elindeki Riyad'ı geri aldı; Suûdî-Reşîdî mücadelesinde dönüm noktası oldu (TDV residiler maddesi)" },
-    { t:"1906-01-01", tur:"savas", b:"Reşîdî Emîri Abdülazîz b. Mut'ab, İbn Suûd'la savaşta öldü; Kasîm bölgesi de Suûdîler'e geçip emirlik zayıflamaya başladı (TDV residiler maddesi)" },
+    { t:"1902-01-15", tur:"toprak-kayip", b:"İbn Suûd, Reşîdîler'in elindeki Riyad'ı geri aldı; Suûdî-Reşîdî mücadelesinde dönüm noktası oldu", ic_not_b:"eski b: İbn Suûd, Reşîdîler'in elindeki Riyad'ı geri aldı; Suûdî-Reşîdî mücadelesinde dönüm noktası oldu (TDV residiler maddesi)" },
+    { t:"1906-01-01", tur:"savas", b:"Reşîdî Emîri Abdülazîz b. Mut'ab, İbn Suûd'la savaşta öldü; Kasîm bölgesi de Suûdîler'e geçip emirlik zayıflamaya başladı", ic_not_b:"eski b: Reşîdî Emîri Abdülazîz b. Mut'ab, İbn Suûd'la savaşta öldü; Kasîm bölgesi de Suûdîler'e geçip emirlik zayıflamaya başladı (TDV residiler maddesi)" },
     { t:"1921-11-02", tur:"son", b:"Hâil, İbn Suûd'a teslim oldu" }
   ]
 },
@@ -1567,10 +1567,10 @@ window.DEVLETLER = [
   kaynak:"func",
   kronoloji:[
     { t:"1504-01-01", tur:"kurulus", b:"Amara Dunkas tarafından kuruldu" },
-    { t:"1523-01-01", tur:"hukumdar", b:"Animist/hıristiyan olan kurucu sultan Amâre, Müslüman lider Abdullah Cemmâ'nın baskısıyla İslâmiyet'i kabul etti (TDV func maddesi: 'tahminen 1523'ten sonra', gün/ay TDV'de yok)" },
-    { t:"1649-01-01", tur:"hukumdar", b:"II. Bâdî tahta çıktı; sultanlık Üçüncü Şelâle'den Mavi Nil'e, Kızıldeniz'den Kordofan'a uzanan en geniş sınırlarına bu dönemde ulaştı (TDV func maddesi)" },
-    { t:"1770-01-01", tur:"isyan", b:"Şâyikıyye kabilesi bağımsızlığını ilan edip Benî Abdellâb'a vergi ödemeyi reddetti; merkezî otorite bu tarihten itibaren zayıflamaya başladı (TDV func maddesi)" },
-    { t:"1820-01-01", tur:"isgal", b:"Kavalalı Mehmed Ali Paşa'nın Mısır ordusu Sudan'ı fethetmeye başladı; Func nüfuzu fiilen sona erdi (TDV func maddesi)" },
+    { t:"1523-01-01", tur:"hukumdar", b:"Animist/hıristiyan olan kurucu sultan Amâre, Müslüman lider Abdullah Cemmâ'nın baskısıyla İslâmiyet'i kabul etti (tahminen 1523'ten sonra)", ic_not_b:"eski b: Animist/hıristiyan olan kurucu sultan Amâre, Müslüman lider Abdullah Cemmâ'nın baskısıyla İslâmiyet'i kabul etti (TDV func maddesi: 'tahminen 1523'ten sonra', gün/ay TDV'de yok)" },
+    { t:"1649-01-01", tur:"hukumdar", b:"II. Bâdî tahta çıktı; sultanlık Üçüncü Şelâle'den Mavi Nil'e, Kızıldeniz'den Kordofan'a uzanan en geniş sınırlarına bu dönemde ulaştı", ic_not_b:"eski b: II. Bâdî tahta çıktı; sultanlık Üçüncü Şelâle'den Mavi Nil'e, Kızıldeniz'den Kordofan'a uzanan en geniş sınırlarına bu dönemde ulaştı (TDV func maddesi)" },
+    { t:"1770-01-01", tur:"isyan", b:"Şâyikıyye kabilesi bağımsızlığını ilan edip Benî Abdellâb'a vergi ödemeyi reddetti; merkezî otorite bu tarihten itibaren zayıflamaya başladı", ic_not_b:"eski b: Şâyikıyye kabilesi bağımsızlığını ilan edip Benî Abdellâb'a vergi ödemeyi reddetti; merkezî otorite bu tarihten itibaren zayıflamaya başladı (TDV func maddesi)" },
+    { t:"1820-01-01", tur:"isgal", b:"Kavalalı Mehmed Ali Paşa'nın Mısır ordusu Sudan'ı fethetmeye başladı; Func nüfuzu fiilen sona erdi", ic_not_b:"eski b: Kavalalı Mehmed Ali Paşa'nın Mısır ordusu Sudan'ı fethetmeye başladı; Func nüfuzu fiilen sona erdi (TDV func maddesi)" },
     { t:"1821-06-14", tur:"son", b:"İsmâil Kâmil Paşa'nın ordusuna direnmeden teslim oldu" }
   ]
 },
@@ -1584,7 +1584,7 @@ window.DEVLETLER = [
   ozet:"Darfur'a ilk yerleşip ilk devleti kuran kabile olarak kabul edilen Dâcû'ların XIII-XIV. yüzyıllar boyunca sürdürdüğü hâkimiyet; yerini Tunciler'e bıraktı (bkz. [[tunciler]]). ⚠️ TDV yalnız yüzyıl veriyor, kesin yıl yok — f/t yüzyıl ortası/başı konvansiyonuyla yazıldı, kesinlik düşük. 🔴 10 Ağustos 2026: TDV `darfur` maddesinin TAM METNİ (ham HTML) satır satır tarandı — Dâcû hanedanı için isimsiz TEK bir cümle dışında hükümdar adı, olay ya da komşu ilişkisi YOK. Zenginleştirme aranmadı değil, ARANDI VE BULUNAMADI; bu hanedan gerçekten bu kadar kısa geçiyor, uydurulmadı. (kaynak: TDV, madde: darfur)",
   kaynak:"darfur",
   kronoloji:[
-    { t:"1200-01-01", tur:"kurulus", b:"Dâcû kabilesi Darfur'a yerleşip bölgenin ilk devletini kurdu (TDV: XIII-XIV. yüzyıl)" },
+    { t:"1200-01-01", tur:"kurulus", b:"Dâcû kabilesi Darfur'a yerleşip bölgenin ilk devletini kurdu (XIII-XIV. yüzyıl)", ic_not_b:"eski b: Dâcû kabilesi Darfur'a yerleşip bölgenin ilk devletini kurdu (TDV: XIII-XIV. yüzyıl)" },
     { t:"1400-01-01", tur:"son", b:"Hâkimiyet Tunciler'e (Tunjur) geçti" }
   ]
 },
@@ -1594,8 +1594,8 @@ window.DEVLETLER = [
   kaynak:"darfur",
   kronoloji:[
     { t:"1400-01-01", tur:"kurulus", b:"Tunciler, orta Darfur'da ticarî ve siyasî hâkimiyeti Dâcû'lardan devraldı" },
-    { t:"1690-01-01", tur:"isyan", b:"Bûmû el-Kasîr'in istilâsıyla gelen karışıklığın ardından Tunciler'in hâkimiyeti Süleyman Solonc önderliğindeki Kîrâ (Fûr) sülâlesince ele geçirildi (TDV darfur maddesi: 'XVII. yüzyılın sonları', gün/yıl yok, mevcut t:1695 ile tutarlı olsun diye yaklaşık yerleştirildi)" },
-    { t:"1695-01-01", tur:"son", b:"Süleyman Solonc'un saltanatıyla Keira/Fur hanedanı hâkimiyeti konsolide etti (bkz. [[darfur]])" }
+    { t:"1690-01-01", tur:"isyan", b:"Bûmû el-Kasîr'in istilâsıyla gelen karışıklığın ardından Tunciler'in hâkimiyeti Süleyman Solonc önderliğindeki Kîrâ (Fûr) sülâlesince ele geçirildi (XVII. yüzyılın sonları)", ic_not_b:"eski b: Bûmû el-Kasîr'in istilâsıyla gelen karışıklığın ardından Tunciler'in hâkimiyeti Süleyman Solonc önderliğindeki Kîrâ (Fûr) sülâlesince ele geçirildi (TDV darfur maddesi: 'XVII. yüzyılın sonları', gün/yıl yok, mevcut t:1695 ile tutarlı olsun diye yaklaşık yerleştirildi)" },
+    { t:"1695-01-01", tur:"son", b:"Süleyman Solonc'un saltanatıyla Keira/Fur hanedanı hâkimiyeti konsolide etti", ic_not_b:"eski b: Süleyman Solonc'un saltanatıyla Keira/Fur hanedanı hâkimiyeti konsolide etti (bkz. [[darfur]])" }
   ]
 },
 { id:"darfur", ad:"Dârfûr Sultanlığı (Keira Hanedanı)", tur:"sultanlik", bolge:"misir-sudan",
@@ -1603,9 +1603,9 @@ window.DEVLETLER = [
   ozet:"Sudan'ın batısında Fur halkının Keira hanedanınca kurduğu Müslüman sultanlık; Mısır'a bağlanıp Mehdî döneminde arada kesintiye uğradı, Ali Dinar'ın restorasyonuyla 1916'da İngiliz-Mısır ordusuna yenilene dek sürdü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `f:` 1603'ten 1695'e çekildi — önceki 1603 tarihi kaynaksızdı (\"standart akademik kaynak\" deniyordu ama hangisi belirtilmemişti); TDV `darfur` maddesi Süleyman Solonc'un hükümdarlığını ve sultanlığın asıl konsolidasyonunu birebir \"1695-1715\" diye tarihliyor, TDV birincil kaynak kuralı (§4) gereği o esas alındı. Selefi için bkz. [[tunciler]] (1400-1695, zincir kesintisiz). (kaynak: TDV, madde: darfur)",
   kaynak:"darfur",
   kronoloji:[
-    { t:"1695-01-01", tur:"kurulus", b:"Süleyman Solon (Solong) tarafından Keira hanedanı hâkimiyeti konsolide edildi (TDV: saltanatı 1695-1715)" },
+    { t:"1695-01-01", tur:"kurulus", b:"Süleyman Solon (Solong) tarafından Keira hanedanı hâkimiyeti konsolide edildi (saltanatı 1695-1715)", ic_not_b:"eski b: Süleyman Solon (Solong) tarafından Keira hanedanı hâkimiyeti konsolide edildi (TDV: saltanatı 1695-1715)" },
     { t:"1874-11-02", tur:"toprak-kayip", b:"Mısır valisi İsmâil Paşa'nın seferiyle sultanlık ilhak edildi" },
-    { t:"1898-09-02", tur:"kurulus", b:"Mehdî Devleti'nin yıkılmasıyla Ali Dinar sultanlığı yeniden kurdu (bkz. [[mehdi]])" },
+    { t:"1898-09-02", tur:"kurulus", b:"Mehdî Devleti'nin yıkılmasıyla Ali Dinar sultanlığı yeniden kurdu", ic_not_b:"eski b: Mehdî Devleti'nin yıkılmasıyla Ali Dinar sultanlığı yeniden kurdu (bkz. [[mehdi]])" },
     { t:"1916-11-06", tur:"son", b:"Ali Dinar, İngiliz-Mısır seferi karşısında öldürüldü; sultanlık kesin olarak sona erdi" }
   ]
 },
@@ -1621,7 +1621,7 @@ window.DEVLETLER = [
     { t:"1769-01-01", tur:"bolunme", b:"Zemene Mesafint (Prensler Çağı) başladı, merkezi otorite fiilen çöktü" },
     { t:"1855-02-11", tur:"birlesme", b:"II. Tewodros taç giyerek ülkeyi yeniden birleştirdi" },
     { t:"1887-01-06", tur:"toprak-kazanc", b:"Harar ilhak edildi" },
-    { t:"1889-05-02", tur:"antlasma", b:"Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı (kaynak: Britannica, madde: \"Treaty of Wichale\"; TDV'de müstakil madde bulunamadı). ⚠️ ÖLÇÜLMEDİ: yerleşim noktalarındaki 'Habeşistan→İtalya' kırılması ('1889-01-01') bu antlaşma gününe mi, yoksa İtalyan Eritre sömürgesinin resmî ilanına (1890-01-01) mı karşılık geliyor — üç aday tarih (antlaşma/işgal/sömürge ilanı) birbirinden ayırt edilmedi. Önceki kayıt bu tarihi 'II. Menelik tahta çıktı' olayıyla da karıştırıyordu; o, IV. Yohannes'in 9 Mart 1889'daki ölümüyle başlayan ayrı ve kendi başına ölçülmemiş bir süreçtir, buradan çıkarıldı." },
+    { t:"1889-05-02", tur:"antlasma", b:"Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı", ic_not_b:"eski b: Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı (kaynak: Britannica, madde: \"Treaty of Wichale\"; TDV'de müstakil madde bulunamadı). ⚠️ ÖLÇÜLMEDİ: yerleşim noktalarındaki 'Habeşistan→İtalya' kırılması ('1889-01-01') bu antlaşma gününe mi, yoksa İtalyan Eritre sömürgesinin resmî ilanına (1890-01-01) mı karşılık geliyor — üç aday tarih (antlaşma/işgal/sömürge ilanı) birbirinden ayırt edilmedi. Önceki kayıt bu tarihi 'II. Menelik tahta çıktı' olayıyla da karıştırıyordu; o, IV. Yohannes'in 9 Mart 1889'daki ölümüyle başlayan ayrı ve kendi başına ölçülmemiş bir süreçtir, buradan çıkarıldı." },
     { t:"1896-03-01", tur:"savas", b:"Adva'da İtalya'yı yenerek bağımsızlığını korudu" }
   ]
 },
@@ -1775,7 +1775,7 @@ window.DEVLETLER = [
     { t:"1370-04-09", tur:"kurulus", b:"Timur, Semerkant'ta hükümdarlığını ilan etti" },
     { t:"1387-01-01", tur:"savas", b:"İsfahan isyanı bastırılırken şehir yağmalandı" },
     { t:"1398-12-17", tur:"savas", b:"Delhi Sultanlığı'nı yenip şehri yağmaladı" },
-    { t:"1400-01-01", tur:"toprak-kazanc", b:"Halep ve Şam'ı ele geçirdi (bkz. [[memluk]])" },
+    { t:"1400-01-01", tur:"toprak-kazanc", b:"Halep ve Şam'ı ele geçirdi", ic_not_b:"eski b: Halep ve Şam'ı ele geçirdi (bkz. [[memluk]])" },
     { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı" },
     { t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı" },
     { t:"1409-01-01", tur:"hukumdar", b:"Şâhruh, Herat merkezli olarak devletin başına geçti" },
@@ -1822,8 +1822,8 @@ window.DEVLETLER = [
   kaynak:"yetersiz — ahilik maddesi okundu, Ahi teşkilatının varlığını doğruluyor ama Ankara'yı 14. yüzyılda fiilen yönettiği iddiasını karşılamıyor (yalnız İbn Battûta'nın genel gözlemi var); dayanak: standart akademik kaynak + Celal Metin (Hacettepe Üniversitesi akademik makalesi)",
   kronoloji:[
     { t:"1290-01-01", tur:"kurulus", b:"Selçuklu otoritesinin çökmesiyle Ahi teşkilatı Ankara'yı fiilen yönetmeye başladı" },
-    { t:"1330-01-01", tur:"hukumdar", b:"İbn Battûta Anadolu'ya gelip Ankara dahil pek çok şehirde Ahilerin hükümeti fiilen yönettiğine bizzat tanık oldu ('bu ülkede bir şehirde hükümdar yoksa Ahiler hükümeti yönetir') (Celal Metin, Hacettepe Üniversitesi)" },
-    { t:"1341-01-01", tur:"vassal", b:"Alâeddin Eretna sultan unvanı alıp bağımsızlığını ilan etti; Ankara nominal olarak Eretna Beyliği'ne bağlandı ama fiilî yönetim Ahilerde kaldı (TDV ankara maddesi + Celal Metin)" },
+    { t:"1330-01-01", tur:"hukumdar", b:"İbn Battûta Anadolu'ya gelip Ankara dahil pek çok şehirde Ahilerin hükümeti fiilen yönettiğine bizzat tanık oldu ('bu ülkede bir şehirde hükümdar yoksa Ahiler hükümeti yönetir')", ic_not_b:"eski b: İbn Battûta Anadolu'ya gelip Ankara dahil pek çok şehirde Ahilerin hükümeti fiilen yönettiğine bizzat tanık oldu ('bu ülkede bir şehirde hükümdar yoksa Ahiler hükümeti yönetir') (Celal Metin, Hacettepe Üniversitesi)" },
+    { t:"1341-01-01", tur:"vassal", b:"Alâeddin Eretna sultan unvanı alıp bağımsızlığını ilan etti; Ankara nominal olarak Eretna Beyliği'ne bağlandı ama fiilî yönetim Ahilerde kaldı", ic_not_b:"eski b: Alâeddin Eretna sultan unvanı alıp bağımsızlığını ilan etti; Ankara nominal olarak Eretna Beyliği'ne bağlandı ama fiilî yönetim Ahilerde kaldı (TDV ankara maddesi + Celal Metin)" },
     { t:"1354-01-01", tur:"son", b:"Süleyman Paşa, Ankara'yı Osmanlı topraklarına kattı" }
   ]
 },
@@ -1853,10 +1853,10 @@ window.DEVLETLER = [
   kaynak:"esrefogullari",
   kronoloji:[
     { t:"1277-01-01", tur:"kurulus", b:"Seyfeddin Süleyman Bey tarafından kuruldu" },
-    { t:"1288-01-01", tur:"vassal", b:"Seyfeddin Süleyman Bey, İlhanlı-Selçuklu kuvvetleriyle iş birliği yaptığı casusluk faaliyetinin ardından affedilip beylik merkezini Gorgorum'dan Beyşehir'e taşıdı, kaleyi yeniden inşa ettirdi (687 AH kitabesi, TDV esrefogullari maddesi)" },
-    { t:"1299-01-01", tur:"isyan", b:"Seyfeddin Süleyman Bey, İlhanlı hâkimiyetine karşı fiilen bağımsızlığını ilan etti (TDV esrefogullari maddesi)" },
-    { t:"1302-08-01", tur:"hukumdar", b:"Beyliğin kurucusu Seyfeddin Süleyman Bey vefat etti (TDV esrefogullari maddesi)" },
-    { t:"1326-10-09", tur:"son", b:"İlhanlı valisi Emîr Çoban'ın oğlu Demirtaş (Timurtaş), Beyşehir'e girip son bey Süleyman Şah'ı öldürttü; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı (TDV esrefogullari maddesi, tam gün)" }
+    { t:"1288-01-01", tur:"vassal", b:"Seyfeddin Süleyman Bey, İlhanlı-Selçuklu kuvvetleriyle iş birliği yaptığı casusluk faaliyetinin ardından affedilip beylik merkezini Gorgorum'dan Beyşehir'e taşıdı, kaleyi yeniden inşa ettirdi", ic_not_b:"eski b: Seyfeddin Süleyman Bey, İlhanlı-Selçuklu kuvvetleriyle iş birliği yaptığı casusluk faaliyetinin ardından affedilip beylik merkezini Gorgorum'dan Beyşehir'e taşıdı, kaleyi yeniden inşa ettirdi (687 AH kitabesi, TDV esrefogullari maddesi)" },
+    { t:"1299-01-01", tur:"isyan", b:"Seyfeddin Süleyman Bey, İlhanlı hâkimiyetine karşı fiilen bağımsızlığını ilan etti", ic_not_b:"eski b: Seyfeddin Süleyman Bey, İlhanlı hâkimiyetine karşı fiilen bağımsızlığını ilan etti (TDV esrefogullari maddesi)" },
+    { t:"1302-08-01", tur:"hukumdar", b:"Beyliğin kurucusu Seyfeddin Süleyman Bey vefat etti", ic_not_b:"eski b: Beyliğin kurucusu Seyfeddin Süleyman Bey vefat etti (TDV esrefogullari maddesi)" },
+    { t:"1326-10-09", tur:"son", b:"İlhanlı valisi Emîr Çoban'ın oğlu Demirtaş (Timurtaş), Beyşehir'e girip son bey Süleyman Şah'ı öldürttü; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı", ic_not_b:"eski b: İlhanlı valisi Emîr Çoban'ın oğlu Demirtaş (Timurtaş), Beyşehir'e girip son bey Süleyman Şah'ı öldürttü; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı (TDV esrefogullari maddesi, tam gün)" }
   ]
 },
 { id:"inancogullari", ad:"İnançoğulları (Denizli/Lâdik Beyliği)", tur:"beylik", bolge:"anadolu",
@@ -2016,7 +2016,7 @@ window.DEVLETLER = [
     { t:"1385-01-01", tur:"savas", b:"Osmanlı ile ilk çatışma yaşandı" },
     { t:"1421-01-01", tur:"bolunme", b:"Son Balšić hükümdarı Zeta'yı Sırp despotuna miras bıraktı" },
     { t:"1451-01-01", tur:"hukumdar", b:"Crnojević ailesi Zeta'nın başına geçti" },
-    { t:"1482-01-01", tur:"hukumdar", b:"Merkez Cetine'ye (Cetinje) taşındı — bu tarih TDV'nin karadag maddesinde doğrulanamadı, yerlesimler.js'teki Cetinje kuruluş tarihiyle (kur:1482) hizalandı" },
+    { t:"1482-01-01", tur:"hukumdar", b:"Merkez Cetine'ye (Cetinje) taşındı", ic_not_b:"eski b: Merkez Cetine'ye (Cetinje) taşındı — bu tarih TDV'nin karadag maddesinde doğrulanamadı, yerlesimler.js'teki Cetinje kuruluş tarihiyle (kur:1482) hizalandı" },
     { t:"1514-01-01", tur:"son", b:"İskender Bey (Crnojevićlerden) döneminde Zeta doğrudan Osmanlı sancağına dönüştürüldü" }
   ]
 },
@@ -2117,7 +2117,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1861-03-17", tur:"kurulus", b:"II. Vittorio Emanuele, birleşik krallığı ilan etti" },
     { t:"1866-01-01", tur:"toprak-kazanc", b:"III. Bağımsızlık Savaşı ile Venedik'i kazandı" },
-    { t:"1870-09-20", tur:"toprak-kazanc", b:"Roma'yı alarak birleşmeyi tamamladı (bkz. [[papalik]])" },
+    { t:"1870-09-20", tur:"toprak-kazanc", b:"Roma'yı alarak birleşmeyi tamamladı", ic_not_b:"eski b: Roma'yı alarak birleşmeyi tamamladı (bkz. [[papalik]])" },
     { t:"1911-09-29", tur:"savas", b:"Trablusgarp Savaşı'nı başlattı, Libya'yı ve Oniki Ada'yı aldı (bkz. [[trablusgarp-ocagi]], [[oniki-ada-italyan]])" },
     { t:"1915-05-23", tur:"savas", b:"İtilaf Devletleri safında I. Dünya Savaşı'na girdi" },
     { t:"1919-04-28", tur:"isgal", b:"Antalya ve çevresini işgal etti (Millî Mücadele cephelerinden biri)" }
@@ -2140,7 +2140,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1204-01-01", tur:"kurulus", b:"Aleksios Komnenos, Gürcü Kraliçesi Tamar'ın desteğiyle Trabzon'da bağımsız Rum devletini kurdu" },
     { t:"1461-01-01", tur:"antlasma", b:"Akkoyunlu Uzun Hasan ile evlilik ittifakı (Despina Hatun) üzerinden Osmanlı'ya karşı destek arandı" },
-    { t:"1461-08-15", tur:"son", b:"Fatih'in kuşatmasıyla teslim oldu; İmparator David Komnenos ailesiyle İstanbul'a sürüldü — Bizans mirasının son parçası (bkz. [[bizans]])" }
+    { t:"1461-08-15", tur:"son", b:"Fatih'in kuşatmasıyla teslim oldu; İmparator David Komnenos ailesiyle İstanbul'a sürüldü — Bizans mirasının son parçası", ic_not_b:"eski b: Fatih'in kuşatmasıyla teslim oldu; İmparator David Komnenos ailesiyle İstanbul'a sürüldü — Bizans mirasının son parçası (bkz. [[bizans]])" }
   ]
 },
 { id:"zend", ad:"Zend Hanedanı (İran)", tur:"devlet", bolge:"iran", harita:"zend",
@@ -2186,7 +2186,7 @@ window.DEVLETLER = [
   ozet:"Moskova Büyük Knezliği'nin Altın Orda'dan kaçan Tatar prensi Kâsım'a (Uluğ Muhammed'in oğlu) verdiği, biçimsel olarak hanlık ama fiilen Moskova'ya bağımlı tampon devlet; son hükümdar Fâtıma Sultan Bike'nin ölümüyle sona erdi (bkz. [[moskova]], [[rusya]]). HANEDAN/VASAL DEVLET kimliğidir. ⚠️ Kuruluş yılı TDV'nin kendi maddesinde tartışmalı (\"1445\" ya da \"1452-1456\" — kaynaklar farklı), 1452 orta bir tarih olarak seçildi. (kaynak: TDV, madde: kasim-hanligi — bitiş \"1681 yılında... Kāsım Hanlığı tarihe karıştı\" birebir)",
   kaynak:"kasim-hanligi",
   kronoloji:[
-    { t:"1452-01-01", tur:"kurulus", b:"Moskova, Tatar prensi Kâsım'a Oka nehri kıyısında bir toprak/hanlık verdi (TDV: kesin yıl tartışmalı, 1445-1456 arası)" },
+    { t:"1452-01-01", tur:"kurulus", b:"Moskova, Tatar prensi Kâsım'a Oka nehri kıyısında bir toprak/hanlık verdi (kesin yıl tartışmalı, 1445-1456 arası)", ic_not_b:"eski b: Moskova, Tatar prensi Kâsım'a Oka nehri kıyısında bir toprak/hanlık verdi (TDV: kesin yıl tartışmalı, 1445-1456 arası)" },
     { t:"1681-01-01", tur:"son", b:"Son hükümdar Fâtıma Sultan Bike'nin ölümüyle hanlık tarihe karıştı" }
   ]
 },
@@ -2197,7 +2197,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1437-01-01", tur:"kurulus", b:"Altın Orda hanı Uluğ Muhammed, Kazan'da hanlığını kurdu (bazı kaynaklara göre 1445)" },
     { t:"1487-01-01", tur:"antlasma", b:"III. İvan'ın seferi sonucu Moskova yanlısı bir han tahta çıkarıldı, hanlık fiilen vasal oldu" },
-    { t:"1552-10-02", tur:"son", b:"IV. İvan'ın kuşatması sonucu Kazan düştü, hanlık Rusya'ya ilhak edildi (bkz. [[rusya]])" }
+    { t:"1552-10-02", tur:"son", b:"IV. İvan'ın kuşatması sonucu Kazan düştü, hanlık Rusya'ya ilhak edildi", ic_not_b:"eski b: IV. İvan'ın kuşatması sonucu Kazan düştü, hanlık Rusya'ya ilhak edildi (bkz. [[rusya]])" }
   ]
 },
 { id:"astarhan", ad:"Astarhan (Ejderhan) Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
@@ -2209,7 +2209,7 @@ window.DEVLETLER = [
     { t:"1502-01-01", tur:"savas", b:"Kırım Hanı Mengli Giray, Osmanlı desteğiyle Saray şehrini yıktı; hanlık ~20 yıl Kırım nüfuzuna girdi" },
     { t:"1552-01-01", tur:"hukumdar", b:"IV. İvan, Kazan'ı aldıktan sonra Derviş Han'ı Ejderhan tahtına çıkarıp fiilen vasal yaptı" },
     { t:"1556-01-01", tur:"son", b:"Rusya hanlığı doğrudan işgal etti, hanedan Buhara'ya sığındı" },
-    { t:"1569-01-01", tur:"savas", b:"Osmanlı, Don-Volga kanal projesiyle bölgeyi geri almaya çalıştı; Kefe Beyi Kasım Bey'in seferi başarısız oldu (bkz. [[rusya]])" }
+    { t:"1569-01-01", tur:"savas", b:"Osmanlı, Don-Volga kanal projesiyle bölgeyi geri almaya çalıştı; Kefe Beyi Kasım Bey'in seferi başarısız oldu", ic_not_b:"eski b: Osmanlı, Don-Volga kanal projesiyle bölgeyi geri almaya çalıştı; Kefe Beyi Kasım Bey'in seferi başarısız oldu (bkz. [[rusya]])" }
   ]
 },
 { id:"nogay", ad:"Nogay Ordası", tur:"devlet", bolge:"sibirya-bozkir",
@@ -2266,9 +2266,9 @@ window.DEVLETLER = [
   kaynak:"cebriler",
   kronoloji:[
     { t:"1417-01-01", tur:"kurulus", b:"Seyf b. Zâmil, Cervânî hâkimiyetine son vererek hânedanı kurdu (820)" },
-    { t:"1507-01-01", tur:"hukumdar", b:"Seyf'in kardeşi ve halefi Ecved b. Zâmil döneminde hanedan Basra körfezi kıyılarına genişledi; Bahreyn/Hürmüz'e saldıran Portekizliler'e şiddetle karşı koydu, aynı yıl ölünce yerine oğlu Mukrin geçti (TDV cebriler maddesi)" },
-    { t:"1521-01-01", tur:"toprak-kayip", b:"Emîr Mukrin'in ölümünün ardından Portekizliler, Cebrîler'in hâkimiyetindeki Basra körfezi sahillerini işgal etti (TDV cebriler maddesi)" },
-    { t:"1521-07-27", tur:"savas", b:"Emîr Mukrin, Bahreyn'i ele geçirmiş Portekizliler'e karşı Mekke emîrinin desteğiyle kurduğu donanmayla savaştı; aldığı yaradan üç gün sonra öldü (TDV cebriler maddesi, tam gün)" },
+    { t:"1507-01-01", tur:"hukumdar", b:"Seyf'in kardeşi ve halefi Ecved b. Zâmil döneminde hanedan Basra körfezi kıyılarına genişledi; Bahreyn/Hürmüz'e saldıran Portekizliler'e şiddetle karşı koydu, aynı yıl ölünce yerine oğlu Mukrin geçti", ic_not_b:"eski b: Seyf'in kardeşi ve halefi Ecved b. Zâmil döneminde hanedan Basra körfezi kıyılarına genişledi; Bahreyn/Hürmüz'e saldıran Portekizliler'e şiddetle karşı koydu, aynı yıl ölünce yerine oğlu Mukrin geçti (TDV cebriler maddesi)" },
+    { t:"1521-01-01", tur:"toprak-kayip", b:"Emîr Mukrin'in ölümünün ardından Portekizliler, Cebrîler'in hâkimiyetindeki Basra körfezi sahillerini işgal etti", ic_not_b:"eski b: Emîr Mukrin'in ölümünün ardından Portekizliler, Cebrîler'in hâkimiyetindeki Basra körfezi sahillerini işgal etti (TDV cebriler maddesi)" },
+    { t:"1521-07-27", tur:"savas", b:"Emîr Mukrin, Bahreyn'i ele geçirmiş Portekizliler'e karşı Mekke emîrinin desteğiyle kurduğu donanmayla savaştı; aldığı yaradan üç gün sonra öldü", ic_not_b:"eski b: Emîr Mukrin, Bahreyn'i ele geçirmiş Portekizliler'e karşı Mekke emîrinin desteğiyle kurduğu donanmayla savaştı; aldığı yaradan üç gün sonra öldü (TDV cebriler maddesi, tam gün)" },
     { t:"1524-01-01", tur:"son", b:"Müntefik reisi Râşid b. Megāmis Cebrî hâkimiyetine son verdi (931)" }
   ]
 },
@@ -2278,7 +2278,7 @@ window.DEVLETLER = [
   ozet:"Portekiz işgalinden önce Uman'da ve körfezin güney kıyısında (Cülfâr, Şârika) hüküm süren hânedan. ⚠️ Atlastaki 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır; Cülfâr limanının Hürmüz Krallığı'na tâbiiyeti literatürde geçer ama TDV'de ayrı madde bulunmadığı için henüz ayrılmamıştır. (kaynak: TDV, madde: uman) 🔴 10 Ağustos 2026 — KARAR: (a) TARİHE DOKUNMA (koordinatörle mutabık). Çelişki KARAR VERİLEBİLİR hâle getirildi, üç unsur: ① bizim aralık 1281-1515 (veride 21 nokta) ② TDV `uman` maddesi 1230'dan (627 AH, Benî Kayser'in yıkılışı) Portekiz işgaline kadar 'SALGURLULAR' yönetti diyor ③ Brill/standart akademik kaynak Nebhânî hâkimiyetini ~1154-1624 olarak veriyor — bu bizim aralığımızla UYUMLU, TDV'nin 'Salgurlu' iddiasıyla değil. ⇒ AÇIK SORU (künye ancak bu ayrılınca değiştirilir): TDV'deki 'Salgurlular' standart Fars hânedanı mı (1148-1282, Şîraz — aynı adı taşıyan AYRI ve İYİ BİLİNEN bir hânedan) yoksa Uman'a özgü yerel bir kol/nominal metbûluk mu? Ayrılmadan 21 nokta taşınmaz — bir hayaleti kapatıp daha büyüğünü açma riski var (bkz. celayirli/toga-timur emsali).",
   kaynak:"uman",
   kronoloji:[
-    { t:"1507-01-01", tur:"isgal", b:"Portekizliler Uman sahil şehirlerini ele geçirmeye başladı; Memlük Sultanı Kansu Gavri'nin gönderdiği donanma bu ilerleyişi durduramadı (TDV uman maddesi)" },
+    { t:"1507-01-01", tur:"isgal", b:"Portekizliler Uman sahil şehirlerini ele geçirmeye başladı; Memlük Sultanı Kansu Gavri'nin gönderdiği donanma bu ilerleyişi durduramadı", ic_not_b:"eski b: Portekizliler Uman sahil şehirlerini ele geçirmeye başladı; Memlük Sultanı Kansu Gavri'nin gönderdiği donanma bu ilerleyişi durduramadı (TDV uman maddesi)" },
     { t:"1515-04-01", tur:"son", b:"Portekiz, 1507'den itibaren aldığı Uman sahilinde hâkimiyeti tamamladı" }
   ]
 },
@@ -2290,7 +2290,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1670-01-01", tur:"kurulus", b:"Berrâk b. Guraybir, Lahsa'nın merkezi Hufuf'u ele geçirip Osmanlı idaresine son verdi" },
     { t:"1691-01-01", tur:"toprak-kazanc", b:"Berrâk'ın oğlu Muhammed, Necid'e akınlarını sürdürdü" },
-    { t:"1744-01-01", tur:"savas", b:"Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınmasıyla Suûdîlerle husumet başladı (bkz. [[suud-birinci]])" },
+    { t:"1744-01-01", tur:"savas", b:"Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınmasıyla Suûdîlerle husumet başladı", ic_not_b:"eski b: Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınmasıyla Suûdîlerle husumet başladı (bkz. [[suud-birinci]])" },
     { t:"1752-01-01", tur:"bolunme", b:"Süleyman el-Hamîdî tahttan indirildi, iç çekişmeler başladı" },
     { t:"1795-01-01", tur:"toprak-kayip", b:"Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti" },
     { t:"1818-01-01", tur:"toprak-kazanc", b:"İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu" },
@@ -2361,7 +2361,7 @@ window.DEVLETLER = [
     { t:"651-01-01", tur:"antlasma", b:"Araplarla Bakt Antlaşması imzalandı, uzun bir barış dönemi başladı" },
     { t:"1276-01-01", tur:"isgal", b:"Memlük Sultanı Baybars'ın seferleriyle Dongola art arda yağmalandı" },
     { t:"1365-01-01", tur:"bolunme", b:"Dongola tahliye edildi, Makurya güneye çekilip küçük bir krallığa (Dotawo) dönüştü" },
-    { t:"1504-01-01", tur:"son", b:"Func Sultanlığı, Soba'yı alarak Alve Krallığı'na son verdi (bkz. [[funj]])" }
+    { t:"1504-01-01", tur:"son", b:"Func Sultanlığı, Soba'yı alarak Alve Krallığı'na son verdi", ic_not_b:"eski b: Func Sultanlığı, Soba'yı alarak Alve Krallığı'na son verdi (bkz. [[funj]])" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — ARAŞTIRMA KÜNYE 3: `somali` harita kimliği
@@ -2373,9 +2373,9 @@ window.DEVLETLER = [
   ozet:"Ebû Bekir b. Fahreddin'in VII. (XIII.) yüzyılda Makdişu'da kurduğu küçük sultanlık; İbn Battûta 1331'de (Sultan Ebû Bekir b. Ömer döneminde) şehri ziyaret etti. XVI. yüzyılda yönetim Muzaffer sülâlesinin eline geçti (bkz. [[somali]] — Ecuran/Ajuran'ın yükselişiyle örtüşür). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır — TDV yalnız \"XIII. yüzyıl\" diyor, kesin yıl yok. (kaynak: TDV, madde: makdisu)",
   kaynak:"makdisu",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (TDV: VII./XIII. yüzyıl, kesin yıl yok)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (VII./XIII. yüzyıl, kesin yıl yok)", ic_not_b:"eski b: Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (TDV: VII./XIII. yüzyıl, kesin yıl yok)" },
     { t:"1331-01-01", tur:"hukumdar", b:"İbn Battûta, Sultan Ebû Bekir b. Ömer döneminde Makdişu'yu ziyaret etti" },
-    { t:"1500-01-01", tur:"son", b:"Yönetim Muzaffer sülâlesinin eline geçti (geçiş sürecinin ayrıntısı TDV'de yok)" }
+    { t:"1500-01-01", tur:"son", b:"Yönetim Muzaffer sülâlesinin eline geçti", ic_not_b:"eski b: Yönetim Muzaffer sülâlesinin eline geçti (geçiş sürecinin ayrıntısı TDV'de yok)" }
   ]
 },
 { id:"somali", ad:"Somali Sultanlıkları", tur:"sultanlik", bolge:"dogu-afrika",
@@ -3474,7 +3474,7 @@ window.DEVLETLER = [
   ozet:"Hoggar (Ahaggar) yaylasında Amenokal unvanlı reislerce yönetilen Tuareg konfederasyonu; Tin Hinan geleneğine dayanır, kervan yollarını ve tuz ticaretini denetlerdi. Tit muharebesinde Fransız kuvvetlerine yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 f: ATLAS UFKUDUR, kuruluş yılı DEĞİL. Atlasın kendi `Tamanrasset` kaydı 'Amenokal liderliğinde YAKLAŞIK 1750'den itibaren teşkilatlı; öncesinde de gevşek Tuareg…' diyor — yani 1750 TEŞKİLATLANMA, 1281 ise varlığın atlas ufkundaki başlangıcı. Bu ayrım gizlenmiyor. ⚠️ Tit muharebesi 1902-05-07 kesin gündür; Amenokal Musa ag Amastan'ın resmî tâbiiyeti 1905'tedir — künye ERKEN ucu, yani fiilî yenilgiyi alıyor.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Kel Ahaggar Tuareg'i Hoggar yaylasında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Kel Ahaggar Tuareg'i Hoggar yaylasında", ic_not_b:"eski b: Kel Ahaggar Tuareg'i Hoggar yaylasında (atlas ufku)" },
     { t:"1902-05-07", tur:"savas", b:"Tit muharebesinde Fransız kuvvetlerine yenildi" }
   ]
 },
@@ -3483,7 +3483,7 @@ window.DEVLETLER = [
   ozet:"Tâsîlî n'Accer platosunda Kel Accer Tuareg konfederasyonu; Gât ve Cânet vahalarını, Fizan ile Aïr arasındaki kervan yolunu denetlerdi. Fransız işgaliyle sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 t: DÜZELTİLDİ — M-2420'de '1911-11-27' yazmıştım, o GÜN kaynaklı DEĞİLDİ. `§4`: gün bilinmiyorsa YYYY-01-01. Yıl (1911) sağlam, gün değil ⇒ 1911-01-01. Kendi önerimdeki uydurma günü kendim çıkardım. ⚠️ Gât Libya tarafındadır ve LİBYA emsalini (hafsi/d/v/italya) kullanır; bu künye yalnız CEZAYİR tarafını kapsar.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Kel Accer Tuareg'i Tâsîlî platosunda (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Kel Accer Tuareg'i Tâsîlî platosunda", ic_not_b:"eski b: Kel Accer Tuareg'i Tâsîlî platosunda (atlas ufku)" },
     { t:"1911-01-01", tur:"son", b:"Fransız işgaliyle bağımsızlık sona erdi" }
   ]
 },
@@ -3492,7 +3492,7 @@ window.DEVLETLER = [
   ozet:"Tibesti dağlarında Derde unvanlı reisin başında bulunduğu Teda (Tubu) konfederasyonu; Fizan ile Kanem arasındaki kervan yolunu denetler, hiçbir devlete uzun süreli tâbi olmadı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 Bu künye, atlasın kendi `Tibesti` beyanıyla ÇELİŞİR: o kayıt 'hiçbir devletin fiilen ulaştığı…' diyor ve `bos:\"kabile\"` taşıyor. Künye yazılırsa o beyan ya kaldırılmalı ya cinsi güncellenmelidir — karar ve o nokta KOORDİNATÖRDE. ⚠️ 1914 yılı sağlam, GÜN kaynaklı değil (`§4`: YYYY-01-01). İtalya Tibesti'yi hiç fiilen tutmadı; Fransız Borku-Ennedi-Tibesti idaresi esas alındı.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Teda (Tubu) konfederasyonu Tibesti'de (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Teda (Tubu) konfederasyonu Tibesti'de", ic_not_b:"eski b: Teda (Tubu) konfederasyonu Tibesti'de (atlas ufku)" },
     { t:"1914-01-01", tur:"son", b:"Fransız Borku-Ennedi-Tibesti idaresi kuruldu" }
   ]
 },
@@ -3522,7 +3522,7 @@ window.DEVLETLER = [
   ozet:"Thule geleneğinden gelen, Bering Boğazı'ndan Grönland'a uzanan kutup halkı. Merkezî bir devlet kurmadı; bölgesel gruplar (İnyupiak · İnuvialuit · Bakır · Netsilik · Iglulingmiut · Nunavik · Labrador İnuiti) kendi avlaklarını denetledi. Hiçbir sömürge gücü tarafından silâhla fethedilmedi; tâbiiyet idarî devirlerle geldi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.5 Arctic (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 t: 1880-09-01 bu künyenin DIŞ ZARFIDIR, tek bir fetih günü değil. İnuit yurdu parça parça devredildi ve her parça KENDİ noktasının zincirinde daha erken kesilir: Grönland 1721 (danimarka) · Labrador 1763-02-10 (ingiliz-kuzey-amerika) · Alaska 1867-10-18 (abd) · Kanada Arktik'i 1880-09-01. Zarf, EN GEÇ devredilen parçanın günüdür. ⚠️ Bu bir sadeleştirmedir ve gizlemiyorum: alternatifi beş ayrı bölgesel künye açmaktır (inuit-gronland · inuit-labrador · inyupiak · inuvialuit · …) ve o, şartnamenin HALK taneciğinden daha ince olurdu. Karar koordinatörde. 🟡 f: 1281-01-01 ATLAS UFKUDUR, kuruluş yılı değil — Thule yayılımı 13. yüzyılda tamamlanmıştı.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Thule geleneğinden gelen İnuit toplulukları Arktik boyunca yerleşik (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Thule geleneğinden gelen İnuit toplulukları Arktik boyunca yerleşik", ic_not_b:"eski b: Thule geleneğinden gelen İnuit toplulukları Arktik boyunca yerleşik (atlas ufku)" },
     { t:"1721-01-01", tur:"isgal", b:"Hans Egede Grönland'a çıktı; Danimarka idaresi başladı" },
     { t:"1867-10-18", tur:"toprak-kayip", b:"Alaska ABD'ye devredildi; İnyupiak ve Yupik toprakları ABD idaresine geçti" },
     { t:"1880-09-01", tur:"son", b:"Britanya, Arktik Takımadalar'ı Kanada'ya devretti; İnuit yurdunun son bağımsız kesimi idarî olarak kapandı" }
@@ -3533,7 +3533,7 @@ window.DEVLETLER = [
   ozet:"Mackenzie havzası, Yukon ve kuzey Britanya Kolumbiyası'nda yaşayan Atabask dilli halklar (Gwich'in · Sahtu · Denesuline · Tłı̨chǫ · Kaska · Tahltan · Sekani · Dena'ina · Ahtna). Kürk ticaretinde kilit rol oynadılar; toprakları 8 Numaralı Antlaşma ile Kanada idaresine bağlandı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.6 Subarctic (Smithsonian Institution) · Historical Atlas of Canada — çevrimiçi doğrulanmadı. 🟢 t: 1899-06-21 — 8 Numaralı Antlaşma'nın Lesser Slave Lake'te imzalandığı gün. M-2498'in ekseni: yerli bir yapının `t:` günü GENELLİKLE sömürgecinin tarihidir, ve burada da öyle. ⚠️ Antlaşma bütün Dene'yi kapsamaz — 11 Numaralı Antlaşma 1921'de Mackenzie aşağısını ekledi, Yukon Gwich'in'i hiç antlaşma imzalamadı. 1899 EN ERKEN toplu devirdir, kapsayıcı değil. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Atabask dilli halklar Mackenzie havzası ve Yukon'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Atabask dilli halklar Mackenzie havzası ve Yukon'da", ic_not_b:"eski b: Atabask dilli halklar Mackenzie havzası ve Yukon'da (atlas ufku)" },
     { t:"1789-07-14", tur:"isgal", b:"Alexander Mackenzie ırmağı takip ederek Kuzey Buz Denizi'ne ulaştı" },
     { t:"1899-06-21", tur:"antlasma", b:"8 Numaralı Antlaşma Lesser Slave Lake'te imzalandı" }
   ]
@@ -3543,7 +3543,7 @@ window.DEVLETLER = [
   ozet:"James Körfezi'nden Kayalıklar eteklerine uzanan geniş Algonkin dilli halk. Kürk ticaretinin ana aracısı oldu; Ova Krileri at ve tüfekle bizon ekonomisine geçti. Toprakları 1871-1877 arası Numaralı Antlaşmalarla Kanada'ya bağlandı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.6 Subarctic (Smithsonian Institution) · Historical Atlas of Canada — çevrimiçi doğrulanmadı. 🟢 t: 1876-08-23 — 6 Numaralı Antlaşma'nın Fort Carlton'da imzalandığı gün; Ova ve Orman Krilerinin ana devir belgesi. ⚠️ Kri toprağı tek antlaşmayla kapanmadı: 1 ve 2 Numaralı 1871, 3 Numaralı 1873, 4 Numaralı 1874, 5 Numaralı 1875, 6 Numaralı 1876, 8 Numaralı 1899, 9 Numaralı 1905. 1876 ORTA ve en temsilî olanıdır; seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Kri toplulukları boreal ormanda (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Kri toplulukları boreal ormanda", ic_not_b:"eski b: Kri toplulukları boreal ormanda (atlas ufku)" },
     { t:"1670-05-02", tur:"antlasma", b:"Hudson's Bay Company imtiyazı verildi; Kri kürk ticaretinin aracısı oldu" },
     { t:"1876-08-23", tur:"antlasma", b:"6 Numaralı Antlaşma Fort Carlton'da imzalandı" }
   ]
@@ -3553,7 +3553,7 @@ window.DEVLETLER = [
   ozet:"Yukarı Göller çevresinde yayılmış Algonkin dilli halk. Sault Ste. Marie ve Chequamegon merkezliydi; Fransız ve İngiliz kürk ticaretinde belirleyici oldu, Sioux ile uzun bir batıya doğru mücadele yürüttü.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1850-09-07 — Robinson-Superior Antlaşması; Yukarı Göller kuzey kıyısının Britanya idaresine devri. İki gün sonra Robinson-Huron imzalandı. ⚠️ ABD tarafındaki Ojibwe toprakları daha önce (1837 · 1842 · 1854) devredildi; bu künye kuzey kıyıyı esas alır ve seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Ojibwe toplulukları Yukarı Göller çevresinde (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Ojibwe toplulukları Yukarı Göller çevresinde", ic_not_b:"eski b: Ojibwe toplulukları Yukarı Göller çevresinde (atlas ufku)" },
     { t:"1850-09-07", tur:"antlasma", b:"Robinson-Superior Antlaşması imzalandı" }
   ,
     { t:"1854-09-30", tur:"toprak-kayip", b:"La Pointe Antlaşması imzalandı: Ojibwe, Superior Gölü'nün kuzey ve batı kıyılarındaki topraklarının çoğunu ABD'ye devretti; karşılığında bugünkü Wisconsin rezervasyonlarının (Bad River, Red Cliff, Lac du Flambeau, Lac Courte Oreilles) temeli atıldı", kaynak:"bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (MNopedia), çevrimiçi doğrulandı. 🔴 NOT: künyenin kendi t: alanı 1850-09-07 — bu olay 1854, 4 yıl SONRA. Künye sahibine bildiriliyor; t: bu antlaşmaya işaret ediyor olabilir (yıl/gün karışıklığı) ya da künye başka bir 1850 olayını temsil ediyor." }
@@ -3575,7 +3575,7 @@ window.DEVLETLER = [
   ozet:"Kuzey Ovalar'da at ve bizon ekonomisine dayanan, Oceti Sakowin'in batı kolu. 1868 Fort Laramie Antlaşması'yla Büyük Sioux Rezervasyonu tanındı; Kara Tepeler'de altın bulunmasıyla açılan savaş Little Bighorn'da zafer, Wounded Knee'de son buldu.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1890-12-29 — Wounded Knee; M-2498'in verdiği tarih ve M-2498'in ekseninin en saf örneği: künyenin sonu Lakota'nın değil, ABD ordusunun takvimidir. 🟡 f: 1281-01-01 ATLAS UFKU — Lakota'nın Ovalar'a batıya göçü 18. yüzyıldadır, ama halk daha önce de vardı; erken uç `§2` gereği tercih edildi.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Sioux toplulukları Yukarı Mississippi havzasında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Sioux toplulukları Yukarı Mississippi havzasında", ic_not_b:"eski b: Sioux toplulukları Yukarı Mississippi havzasında (atlas ufku)" },
     { t:"1868-11-06", tur:"antlasma", b:"Fort Laramie Antlaşması; Büyük Sioux Rezervasyonu tanındı" },
     { t:"1876-06-25", tur:"savas", b:"Little Bighorn muharebesi" },
     { t:"1890-12-29", tur:"son", b:"Wounded Knee" }
@@ -3586,7 +3586,7 @@ window.DEVLETLER = [
   ozet:"Güneybatı'da Atabask dilli, koyunculuk ve dokumacılıkla tanınan halk. İspanyol, Meksika ve ABD dönemleri boyunca akınlarla direndi; 1864'te Uzun Yürüyüş'le Bosque Redondo'ya sürüldü, 1868 antlaşmasıyla yurduna dönmesine izin verildi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1868-06-01 — Bosque Redondo Antlaşması; M-2498'in verdiği tarih. ⚠️ Bu antlaşma Navaho'nun yurduna DÖNÜŞÜNÜ sağladı, yani `t:` bir yok oluş değil, bağımsız siyasî varlığın ABD idaresi altına girişidir — `t:` alanının anlamı budur ve karıştırılmamalıdır. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Atabask dilli Diné toplulukları Güneybatı'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Atabask dilli Diné toplulukları Güneybatı'da", ic_not_b:"eski b: Atabask dilli Diné toplulukları Güneybatı'da (atlas ufku)" },
     { t:"1864-01-01", tur:"toprak-kayip", b:"Uzun Yürüyüş; Bosque Redondo'ya sürgün" },
     { t:"1868-06-01", tur:"antlasma", b:"Bosque Redondo Antlaşması imzalandı" }
   ,
@@ -3598,7 +3598,7 @@ window.DEVLETLER = [
   ozet:"Snake ve Clearwater havzalarında yaşayan Yayla halkı; at yetiştiriciliğiyle tanındı. 1855 antlaşmasıyla tanınan toprakları 1863'te daraltılınca direniş doğdu; 1877'de 1.800 km'lik geri çekilme Bear Paw'da sona erdi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1877-10-05 — Bear Paw Dağları'nda Şef Joseph'in teslim olduğu gün; M-2498 '1877' diyor, gün bu. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Nimíipuu toplulukları Clearwater ve Snake havzalarında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Nimíipuu toplulukları Clearwater ve Snake havzalarında", ic_not_b:"eski b: Nimíipuu toplulukları Clearwater ve Snake havzalarında (atlas ufku)" },
     { t:"1855-06-11", tur:"antlasma", b:"Walla Walla Antlaşması" },
     { t:"1877-10-05", tur:"son", b:"Bear Paw'da teslim; Nez Perce Savaşı sona erdi" }
   ]
@@ -3608,7 +3608,7 @@ window.DEVLETLER = [
   ozet:"Haida Gwaii takımadalarında yaşayan, sedir kanolarıyla uzun mesafe deniz ticareti ve akını yürüten Kuzeybatı Kıyısı halkı. Anıtsal totem direkleri ve potlaç düzeniyle tanınır.",
   kaynak:"bulunamadı — Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1858-08-02 — Britanya Kolumbiyası Kolonisi'nin kurulduğu gün; Haida Gwaii resmen koloni sınırları içine alındı. ⚠️ Fiilî tâbiiyet bu günde gerçekleşmedi; 1862 çiçek salgını nüfusu yıktı ve asıl kırılma odur. İdarî günü seçtim çünkü atlas TASARRUFU boyar, demografiyi değil. Seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Hayda toplulukları Haida Gwaii'de (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Hayda toplulukları Haida Gwaii'de", ic_not_b:"eski b: Hayda toplulukları Haida Gwaii'de (atlas ufku)" },
     { t:"1858-08-02", tur:"isgal", b:"Britanya Kolumbiyası Kolonisi kuruldu" }
   ,
     { t:"1862-01-01", tur:"felaket", b:"1862 çiçek salgını Haida nüfusunun yaklaşık %90'ını yok etti (6607'den 1881'de 829'a düştü); birçok tarihi köy (Ninstints dahil) tamamen terk edildi", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('1862 Pacific Northwest smallpox epidemic') doğrulandı. 🔴 NOT: künyenin kendi t: alanı 1858-08-02 — bu olay 1862, 4 yıl SONRA. Künye sahibine bildiriliyor; 1858 muhtemelen Britanya Kolumbiyası kolonisinin kuruluşu (2 Ağustos 1858) gibi ayrı bir olayı temsil ediyor." }
@@ -3619,7 +3619,7 @@ window.DEVLETLER = [
   ozet:"Güneydoğu Alaska kıyısında klan düzeniyle örgütlenmiş Kuzeybatı Kıyısı halkı. Rus-Amerika Şirketi'ne karşı silâhlı direniş gösterdi; 1802'de Novoarkhangelsk'i yıktı, 1804'te Sitka'da yenildi ama iç bölgeleri hiç teslim etmedi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) · Black, Russians in Alaska (U. Alaska Press) — çevrimiçi doğrulanmadı. 🟢 t: 1867-10-18 — Alaska'nın ABD'ye devredildiği gün. ⚠️ Bu bir FETİH günü DEĞİL: Rusya, hiçbir zaman fiilen denetlemediği Tlingit topraklarını da kapsayan bir devir yaptı ve Tlingit bunu tanımadı. Atlas idarî tasarrufu boyadığı için gün budur, ama tarihsel çekince kayıtlıdır. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Tlingit klanları Güneydoğu Alaska kıyısında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Tlingit klanları Güneydoğu Alaska kıyısında", ic_not_b:"eski b: Tlingit klanları Güneydoğu Alaska kıyısında (atlas ufku)" },
     { t:"1802-06-01", tur:"savas", b:"Tlingit kuvvetleri Novoarkhangelsk'i (Sitka) yıktı" },
     { t:"1804-10-01", tur:"savas", b:"Sitka muharebesi; Ruslar mevkii geri aldı" },
     { t:"1867-10-18", tur:"toprak-kayip", b:"Alaska ABD'ye devredildi" }
@@ -3630,7 +3630,7 @@ window.DEVLETLER = [
   ozet:"Georgian Körfezi güneyinde beş uluslu, mısır tarımına ve kürk aracılığına dayanan İrokuadilli konfederasyon. Fransızların ana müttefikiydi; 1649'da Haudenosaunee saldırılarıyla dağıldı, kalanlar Quebec'e ve batıya sığındı.",
   kaynak:"bulunamadı — Trigger, The Children of Aataentsic (McGill-Queen's UP) · HNAI c.15 Northeast — çevrimiçi doğrulanmadı. 🟢 t: 1649-03-16 — Saint-Ignace ve Saint-Louis köylerinin düştüğü gün; Huronia'nın dağılışının kesin tarihi. Konfederasyon o yıl içinde tamamen çözüldü. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Vendat toplulukları Georgian Körfezi güneyinde (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Vendat toplulukları Georgian Körfezi güneyinde", ic_not_b:"eski b: Vendat toplulukları Georgian Körfezi güneyinde (atlas ufku)" },
     { t:"1615-08-01", tur:"ittifak", b:"Champlain Huronia'ya ulaştı; Fransız ittifakı kuruldu" },
     { t:"1649-03-16", tur:"son", b:"Saint-Ignace ve Saint-Louis düştü; Huronia dağıldı" }
   ,
@@ -3642,7 +3642,7 @@ window.DEVLETLER = [
   ozet:"Newfoundland'ın yerli halkı; kıyıda yazlık, iç göllerde kışlık yerleşim düzeniyle yaşadı. Avrupalı balıkçılığın kıyıyı kapatmasıyla iç bölgeye sıkıştı ve 19. yüzyıl başında varlığı sona erdi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1829-06-06 — bilinen son Beothuk olan Shanawdithit'in öldüğü gün. ⚠️ `t:` burada ötekilerden FARKLI bir şey söylüyor: bir idarî devir değil, halkın kendisinin sona erişi. Bu ayrım künyenin okunmasında önemlidir ve gizlenmemelidir. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Beothuk toplulukları Newfoundland'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Beothuk toplulukları Newfoundland'da", ic_not_b:"eski b: Beothuk toplulukları Newfoundland'da (atlas ufku)" },
     { t:"1829-06-06", tur:"son", b:"Shanawdithit öldü" }
   ,
     { t:"1823-01-01", tur:"felaket", b:"Üç aç ve hasta Beothuk kadını yerleşimcilere teslim oldu; ikisi kısa sürede öldü, yalnızca Shanawdithit hayatta kaldı", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Shanawdithit') doğrulandı." }
@@ -3653,7 +3653,7 @@ window.DEVLETLER = [
   ozet:"Ohio havzasında yaşayan Algonkin dilli halk. Kuzeybatı Kızılderili Savaşı'nda birleşik yerli direnişin çekirdeğini oluşturdu; Fallen Timbers yenilgisinden sonra Greenville Antlaşması'yla Ohio'nun büyük kısmını bıraktı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1795-08-03 — Greenville Antlaşması. ⚠️ Şavni direnişi bitmedi: Tecumseh 1811-13'te yeniden birleştirdi. Ama toprak tasarrufu 1795'te devredildi ve atlas TASARRUFU boyar. Seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Şavni toplulukları Ohio havzasında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Şavni toplulukları Ohio havzasında", ic_not_b:"eski b: Şavni toplulukları Ohio havzasında (atlas ufku)" },
     { t:"1794-08-20", tur:"savas", b:"Fallen Timbers muharebesi" },
     { t:"1795-08-03", tur:"antlasma", b:"Greenville Antlaşması imzalandı" }
   ]
@@ -3663,7 +3663,7 @@ window.DEVLETLER = [
   ozet:"Wabash ve Maumee havzalarında yaşayan Algonkin dilli halk; Kekionga başkentiydi. Küçük Kaplumbağa önderliğinde ABD ordularına iki büyük yenilgi tattırdı, Greenville Antlaşması'yla toprak bıraktı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1795-08-03 — Greenville Antlaşması, Şavni ile aynı gün ve aynı belge. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Miami toplulukları Wabash havzasında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Miami toplulukları Wabash havzasında", ic_not_b:"eski b: Miami toplulukları Wabash havzasında (atlas ufku)" },
     { t:"1791-11-04", tur:"savas", b:"St. Clair yenilgisi; ABD ordusuna en ağır kayıp" },
     { t:"1795-08-03", tur:"antlasma", b:"Greenville Antlaşması imzalandı" }
   ,
@@ -3675,7 +3675,7 @@ window.DEVLETLER = [
   ozet:"Yukarı Mississippi'de Meskwaki ile birlikte yaşayan Algonkin dilli halk; Saukenuk büyük tarım kasabasıydı. 1832'de Kara Şahin önderliğinde Illinois'e dönüş girişimi savaşla sonuçlandı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1832-09-21 — Kara Şahin Savaşı'nı kapatan antlaşma. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Sauk toplulukları Yukarı Mississippi'de (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Sauk toplulukları Yukarı Mississippi'de", ic_not_b:"eski b: Sauk toplulukları Yukarı Mississippi'de (atlas ufku)" },
     { t:"1832-08-02", tur:"savas", b:"Bad Axe muharebesi" },
     { t:"1832-09-21", tur:"antlasma", b:"Kara Şahin Savaşı'nı kapatan antlaşma imzalandı" }
   ]
@@ -3685,7 +3685,7 @@ window.DEVLETLER = [
   ozet:"Kuzey New England ve güney Quebec'te yaşayan Algonkin dilli halk; Wabanaki Konfederasyonu'nun batı kolu. Fransızlarla ittifak hâlinde İngiliz yayılmasına direndi, Dummer Savaşı'ndan sonra çoğu Odanak ve Bécancour'a çekildi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1725-12-15 — Dummer Antlaşması'nın Boston'da imzalandığı gün. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Abenaki toplulukları kuzey New England'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Abenaki toplulukları kuzey New England'da", ic_not_b:"eski b: Abenaki toplulukları kuzey New England'da (atlas ufku)" },
     { t:"1724-08-23", tur:"savas", b:"Norridgewock baskını" },
     { t:"1725-12-15", tur:"antlasma", b:"Dummer Antlaşması imzalandı" }
   ]
@@ -3695,7 +3695,7 @@ window.DEVLETLER = [
   ozet:"Nova Scotia, New Brunswick ve Gaspé'de yaşayan Algonkin dilli halk; yedi bölgeli geleneksel bir düzenle örgütlüydü. Fransızlarla uzun süreli ittifak kurdu, Akadya'nın düşüşünden sonra Britanya ile Barış ve Dostluk Antlaşmaları imzaladı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1761-01-01 — YIL SAĞLAM, GÜN DEĞİL. Barış ve Dostluk Antlaşmaları 1760-1761 boyunca ayrı ayrı bölgelerle imzalandı; tek bir gün yoktur. `§4`: gün bilinmiyorsa YYYY-01-01. Uydurma gün yazmadım. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Mikmak toplulukları Atlantik kıyısında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Mikmak toplulukları Atlantik kıyısında", ic_not_b:"eski b: Mikmak toplulukları Atlantik kıyısında (atlas ufku)" },
     { t:"1761-01-01", tur:"antlasma", b:"Britanya ile Barış ve Dostluk Antlaşmaları" }
   ,
     { t:"1760-03-10", tur:"antlasma", b:"İlk Mi'kmaq Barış ve Dostluk Antlaşması, Shubenacadie, La Have ve Richibuctou topluluklarıyla imzalandı — toprak devri İÇERMİYORDU, yalnız Mi'kmaq'ın kendi toprak hakkını tanıyordu", kaynak:"bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Nova Scotia Archives, Cape Breton University), GÜN hassasiyeti doğrulandı." }
@@ -3706,7 +3706,7 @@ window.DEVLETLER = [
   ozet:"Saint John (Wolastoq) ırmağı havzasında yaşayan Algonkin dilli halk; Wabanaki Konfederasyonu üyesi. Mikmak ile aynı antlaşma kuşağında Britanya idaresine bağlandı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1761-01-01 — Mikmak ile aynı gerekçe: yıl sağlam, gün yok. 🟡 f: 1281-01-01 ATLAS UFKU. ⚠️ Mikmak ile aynı `t:` taşıması tesadüf değil, aynı antlaşma kuşağıdır.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Maliseet toplulukları Wolastoq havzasında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Maliseet toplulukları Wolastoq havzasında", ic_not_b:"eski b: Maliseet toplulukları Wolastoq havzasında (atlas ufku)" },
     { t:"1761-01-01", tur:"antlasma", b:"Britanya ile Barış ve Dostluk Antlaşmaları" }
   ,
     { t:"1760-02-01", tur:"antlasma", b:"Maliseet-Passamaquoddy Barış ve Dostluk Antlaşması imzalandı; sonraki Mi'kmaq antlaşmalarının temelini oluşturdu", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak; ay Şubat 1760 kaynaklı, gün belirsiz (1'e sabitlendi). Çevrimiçi kurumsal kaynaklarla doğrulandı." }
@@ -3717,7 +3717,7 @@ window.DEVLETLER = [
   ozet:"Kuzey Mississippi ve batı Tennessee'de yaşayan Muskogi dilli halk; Fransızlara karşı İngiliz müttefikiydi ve 1736-40 seferlerini püskürttü. Pontotoc Creek Antlaşması'yla toprağını bırakıp batıya sürüldü.",
   kaynak:"bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1832-10-20 — Pontotoc Creek Antlaşması. Emsal: `choctaw` t:1830-09-27 (Dancing Rabbit Creek) — aynı kuşak, aynı mantık. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Çikasav toplulukları kuzey Mississippi'de (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Çikasav toplulukları kuzey Mississippi'de", ic_not_b:"eski b: Çikasav toplulukları kuzey Mississippi'de (atlas ufku)" },
     { t:"1736-05-26", tur:"savas", b:"Ackia muharebesi; Fransız seferi püskürtüldü" },
     { t:"1832-10-20", tur:"antlasma", b:"Pontotoc Creek Antlaşması imzalandı" }
   ,
@@ -3729,7 +3729,7 @@ window.DEVLETLER = [
   ozet:"Büyük Havza'dan Wyoming ovalarına uzanan Numik dilli halk; doğu kolu at ve bizona, batı kolu toplayıcılığa dayanıyordu. Doğu Şoşonileri Washakie önderliğinde ABD ile ittifak kurup Wind River'ı elde tuttu.",
   kaynak:"bulunamadı — Handbook of North American Indians c.11 Great Basin (Smithsonian Institution) · Steward, BAE Bulletin 120 — çevrimiçi doğrulanmadı. 🟢 t: 1868-07-03 — ikinci Fort Bridger Antlaşması; Wind River Rezervasyonu'nu kuran belge. ⚠️ Batı Şoşonileri ayrı bir antlaşma imzaladı (Ruby Vadisi 1863) ve toprakları hiç devredilmedi sayılır; bu künye DOĞU kolunu esas alır ve seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Numik dilli topluluklar Büyük Havza'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Numik dilli topluluklar Büyük Havza'da", ic_not_b:"eski b: Numik dilli topluluklar Büyük Havza'da (atlas ufku)" },
     { t:"1863-07-02", tur:"antlasma", b:"İlk Fort Bridger Antlaşması" },
     { t:"1868-07-03", tur:"antlasma", b:"İkinci Fort Bridger Antlaşması; Wind River Rezervasyonu kuruldu" }
   ]
@@ -3739,7 +3739,7 @@ window.DEVLETLER = [
   ozet:"Kolorado ve Utah dağlık bölgesinde yaşayan Numik dilli halk; erken atlanma sayesinde İspanyol Yeni Meksika'sıyla yoğun ticaret ve akın ilişkisi kurdu. Altın ve gümüş aramalarıyla toprakları daraldı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.11 Great Basin (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1880-01-01 — YIL SAĞLAM, GÜN DEĞİL. 1880 Ute Removal Act, Beyaz Irmak ve Uncompahgre bantlarını Utah'a sürdü. Kanun tarihi kaynaktan gün olarak doğrulanmadı ⇒ `§4` gereği YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Ute toplulukları Kolorado ve Utah dağlarında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Ute toplulukları Kolorado ve Utah dağlarında", ic_not_b:"eski b: Ute toplulukları Kolorado ve Utah dağlarında (atlas ufku)" },
     { t:"1880-01-01", tur:"toprak-kayip", b:"Ute Removal Act; Uncompahgre ve Beyaz Irmak bantları sürüldü" }
   ,
     { t:"1863-10-01", tur:"toprak-kayip", b:"Conejos Antlaşması imzalandı: Tabeguache Ute'leri, 1858-59 Kolorado Altın Hücumu sonrası San Luis Vadisi'ni ve Kolorado dağlarının büyük bölümünü (Kıta Su Ayrımı'nın doğusu) ABD'ye devretti", kaynak:"bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Colorado Encyclopedia), doğrulandı. Ay Ekim 1863 kaynaklı, gün belirsiz." }
@@ -3750,7 +3750,7 @@ window.DEVLETLER = [
   ozet:"Missouri kıyısında toprak-ev köylerinde yaşayan, mısır tarımı yapan Siyu dilli halk. Kuzey Ovalar ticaret ağının düğüm noktasıydı; 1837 çiçek salgını nüfusun büyük kısmını yok etti.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1851-09-17 — Fort Laramie Antlaşması; Kuzey Ovalar halklarının toprak sınırlarının ABD'ce tanımlandığı belge. ⚠️ Mandan'ın asıl kırılması 1837 salgınıdır (nüfus ~1600'den ~125'e); ama atlas TASARRUF boyar ve tasarruf 1851'de tanımlandı. Ayrım gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Mandan köyleri Missouri kıyısında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Mandan köyleri Missouri kıyısında", ic_not_b:"eski b: Mandan köyleri Missouri kıyısında (atlas ufku)" },
     { t:"1837-06-01", tur:"kayip", b:"Çiçek salgını; nüfusun büyük kısmı öldü" },
     { t:"1851-09-17", tur:"antlasma", b:"Fort Laramie Antlaşması imzalandı" }
   ,
@@ -3762,7 +3762,7 @@ window.DEVLETLER = [
   ozet:"Knife River ağzında toprak-ev köylerinde yaşayan Siyu dilli halk; Mandan ile komşu ve ortak ticaret düzeninde. Karga halkı Hidatsa'dan ayrılmıştır.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1851-09-17 — Fort Laramie Antlaşması, Mandan ile aynı belge. 🟡 f: 1281-01-01 ATLAS UFKU. ⚠️ Mandan · Hidatsa · Arikara sonradan tek bir idarî birime (Üç Bağlı Kabile) dönüştü; bu künyeler 1851 öncesini ayrı tutar.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Hidatsa köyleri Knife River'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Hidatsa köyleri Knife River'da", ic_not_b:"eski b: Hidatsa köyleri Knife River'da (atlas ufku)" },
     { t:"1851-09-17", tur:"antlasma", b:"Fort Laramie Antlaşması imzalandı" }
   ,
     { t:"1837-01-01", tur:"felaket", b:"1837 çiçek salgını, komşu Mandan'la birlikte Hidatsa nüfusunu da ağır biçimde vurdu", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı." }
@@ -3773,7 +3773,7 @@ window.DEVLETLER = [
   ozet:"Yellowstone ve Bighorn havzalarında at ve bizon ekonomisiyle yaşayan Siyu dilli halk; Hidatsa'dan ayrılmıştır. Lakota yayılmasına karşı ABD ile ittifak kurdu ve yurdunun bir bölümünü korudu.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1851-09-17 — Fort Laramie Antlaşması; Karga toprakları ilk kez tanımlandı. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Apsáalooke toplulukları Yellowstone havzasında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Apsáalooke toplulukları Yellowstone havzasında", ic_not_b:"eski b: Apsáalooke toplulukları Yellowstone havzasında (atlas ufku)" },
     { t:"1851-09-17", tur:"antlasma", b:"Fort Laramie Antlaşması imzalandı" }
   ,
     { t:"1743-01-01", tur:"antlasma", b:"İki Fransız kâşif, bugünkü Hardin, Montana yakınlarında Karga (Apsáalooke) halkıyla ilk Avrupa temasını kurdu", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Crow Nation') doğrulandı." }
@@ -3784,7 +3784,7 @@ window.DEVLETLER = [
   ozet:"Platte ve Loup havzalarında toprak-ev köylerinde yaşayan Kaddo dilli halk; mısır tarımı ile yaz bizon avını birleştiren bir düzeni vardı. Yıldız gözlemine dayalı takvimiyle tanınır.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1857-09-24 — Table Creek Antlaşması; Pavni toprağının büyük kısmının devri. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Pavni köyleri Platte havzasında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Pavni köyleri Platte havzasında", ic_not_b:"eski b: Pavni köyleri Platte havzasında (atlas ufku)" },
     { t:"1857-09-24", tur:"antlasma", b:"Table Creek Antlaşması imzalandı" }
   ,
     { t:"1833-01-01", tur:"toprak-kayip", b:"1833 Antlaşması, Pavni'nin Platte Nehri güneyindeki topraklarını ABD'ye devretti; ardından gelen 1837 çiçek salgını ve Şayen-Sioux baskınları nüfuslarını 1857'ye kadar yaklaşık 5000'e düşürdü", kaynak:"bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Nebraska Studies, Access Genealogy), doğrulandı." }
@@ -3795,7 +3795,7 @@ window.DEVLETLER = [
   ozet:"Güney Ovalar'da otdan konik evlerde yaşayan Kaddo dilli halk; Coronado'nun aradığı Quivira budur. Kızıl Irmak üzerindeki Taovaya kasabaları Fransız silâh ticaretinin güney ucuydu.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1859-01-01 — YIL SAĞLAM, GÜN DEĞİL. 1859'da Wiçita'lar Teksas'tan Kızıl Irmak'ın kuzeyindeki ayrılmış bölgeye sürüldü. Gün kaynaktan doğrulanmadı ⇒ `§4` YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Wiçita köyleri Güney Ovalar'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Wiçita köyleri Güney Ovalar'da", ic_not_b:"eski b: Wiçita köyleri Güney Ovalar'da (atlas ufku)" },
     { t:"1541-01-01", tur:"isgal", b:"Coronado Quivira'ya ulaştı" },
     { t:"1859-01-01", tur:"toprak-kayip", b:"Wiçita'lar Kızıl Irmak'ın kuzeyine sürüldü" }
   ,
@@ -3807,7 +3807,7 @@ window.DEVLETLER = [
   ozet:"Aleut Adaları'nda deniz memelisi avcılığıyla yaşayan halk; baydarka kayıklarıyla açık deniz avcılığında ustaydı. Rus kürk avcılarının gelişiyle nüfusu ve bağımsızlığı hızla çözüldü.",
   kaynak:"bulunamadı — Black, Russians in Alaska (University of Alaska Press) · HNAI c.5 Arctic — çevrimiçi doğrulanmadı. 🟢 t: 1784-08-14 — Şelihov'un Kodiak'ta Üç Aziz Körfezi yerleşimini kurduğu ve Awa'uq direnişini kırdığı gün; Rus-Amerika düzeninin fiilen başladığı tarih. ⚠️ Bu gün Kodiak Alutiiq'ine aittir; Aleut adalarının tâbiiyeti 1760'lardan itibaren kademelidir. Tek gün seçimi bir sadeleştirmedir ve gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Unangax̂ toplulukları Aleut Adaları'nda (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Unangax̂ toplulukları Aleut Adaları'nda", ic_not_b:"eski b: Unangax̂ toplulukları Aleut Adaları'nda (atlas ufku)" },
     { t:"1741-07-15", tur:"isgal", b:"Bering seferi adalara ulaştı" },
     { t:"1784-08-14", tur:"son", b:"Şelihov Kodiak'a yerleşti; Rus denetimi kuruldu" }
   ]
@@ -3817,7 +3817,7 @@ window.DEVLETLER = [
   ozet:"Kodiak Adası, Alaska Yarımadası ve Prince William Boğazı'nda yaşayan halk; deniz samuru avcılığıyla Rus kürk ekonomisinin merkezine düştü.",
   kaynak:"bulunamadı — Black, Russians in Alaska (University of Alaska Press) · HNAI c.5 Arctic — çevrimiçi doğrulanmadı. 🟢 t: 1784-08-14 — Awa'uq (Refuge Rock) direnişinin kırıldığı ve Üç Aziz Körfezi yerleşiminin kurulduğu gün. Aleut ile aynı gün, aynı olay. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Sugpiaq toplulukları Kodiak ve çevresinde (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Sugpiaq toplulukları Kodiak ve çevresinde", ic_not_b:"eski b: Sugpiaq toplulukları Kodiak ve çevresinde (atlas ufku)" },
     { t:"1784-08-14", tur:"son", b:"Awa'uq direnişi kırıldı; Şelihov Kodiak'a yerleşti" }
   ]
 },
@@ -3826,7 +3826,7 @@ window.DEVLETLER = [
   ozet:"Yukon-Kuskokwim deltası ve Bristol Körfezi çevresinde yaşayan halk; balık ve deniz memelisine dayalı yerleşik kış köyleri düzeni vardı. Rus dönemi boyunca iç bölgeleri büyük ölçüde kendi düzenini korudu.",
   kaynak:"bulunamadı — Handbook of North American Indians c.5 Arctic (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1867-10-18 — Alaska'nın ABD'ye devri. ⚠️ Bu bir fetih DEĞİL, idarî devirdir; Yupik iç bölgeleri fiilen o gün de bağımsızdı. `İnuit` ve `Tlingit` künyelerindeki aynı çekince burada da geçerlidir. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Yupik kış köyleri Yukon-Kuskokwim deltasında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Yupik kış köyleri Yukon-Kuskokwim deltasında", ic_not_b:"eski b: Yupik kış köyleri Yukon-Kuskokwim deltasında (atlas ufku)" },
     { t:"1818-01-01", tur:"isgal", b:"Aleksandrovski Redut kuruldu; Rus ticareti Bristol Körfezi'ne ulaştı" },
     { t:"1867-10-18", tur:"toprak-kayip", b:"Alaska ABD'ye devredildi" }
   ,
@@ -3838,7 +3838,7 @@ window.DEVLETLER = [
   ozet:"Batı Yeni Meksika'da çok katlı taş pueblo'larda yaşayan halk; Cíbola'nın Yedi Şehri diye aranan yer burasıdır. Kendi dil ailesinde yalnız kalan bir dil konuşur. 1540 Coronado seferine, 1680 Pueblo Ayaklanması'na taraf oldu ve İspanyol idaresi boyunca kendi düzenini büyük ölçüde korudu.",
   kaynak:"bulunamadı — Handbook of North American Indians c.9 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 TERİTORYAL SINAVI GEÇTİ: kaynak Zuni'nin belirli pueblo'ları ve tarım arazisini SÜREKLİ denetlediğini söylüyor — 'şu bölgede yaşarlardı' değil. 🟢 t: 1848-02-02 Guadalupe Hidalgo Antlaşması; Yeni Meksika ABD'ye geçti. 🔴 pueblo-bagimsizligi künyesinin KAPSAMINA SOKULMADI ve sebebi ölçüldü: o künye f:1680-08-10 t:1692-08-01, yani ON İKİ YILLIK BİR AYAKLANMA — genel bir Pueblo kimliği DEĞİL. Zuni'yi oraya koymak onu 1680 öncesi ve 1692 sonrası YOK saymak olurdu.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Zuni pueblo'ları Zuni Irmağı boyunca (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Zuni pueblo'ları Zuni Irmağı boyunca", ic_not_b:"eski b: Zuni pueblo'ları Zuni Irmağı boyunca (atlas ufku)" },
     { t:"1540-07-07", tur:"savas", b:"Coronado Hawikuh'u aldı; Cíbola arayışı sona erdi" },
     { t:"1848-02-02", tur:"antlasma", b:"Guadalupe Hidalgo Antlaşması; Yeni Meksika ABD'ye geçti" }
   ]
@@ -3848,7 +3848,7 @@ window.DEVLETLER = [
   ozet:"Bella Coola vadisinde, Salish dilli ama Kuzeybatı Kıyısı kültürüne bağlı halk. Kalıcı sedir kış köyleri, potlaç düzeni ve iç bölgeye uzanan 'yağ yolu' ticaretiyle tanınır. Mackenzie 1793'te kıtayı geçip buraya ulaştı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kalıcı kış köyleri ve vadi boyunca tanımlı köy toprakları var — teritoryal denetim açık. 🟢 t: 1858-08-02 Britanya Kolumbiyası Kolonisi. ⚠️ hayda ve secwepemc ile AYNI GÜN ve aynı gerekçe: üçü birlikte karara bağlandı, tek tek değil.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Nuxalk kış köyleri Bella Coola vadisinde (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Nuxalk kış köyleri Bella Coola vadisinde", ic_not_b:"eski b: Nuxalk kış köyleri Bella Coola vadisinde (atlas ufku)" },
     { t:"1793-07-22", tur:"kesif", b:"Mackenzie karadan Pasifik'e ulaştı" },
     { t:"1858-08-02", tur:"isgal", b:"Britanya Kolumbiyası Kolonisi kuruldu" }
   ]
@@ -3858,7 +3858,7 @@ window.DEVLETLER = [
   ozet:"Britanya Kolumbiyası iç platosunda, Fraser ve Thompson havzalarında yaşayan Salish dilli halk. Kışın çukur-ev köylerinde toplanır, yazın somon ve kök toplama alanlarına dağılırdı; on yedi bandı ortak bir dil ve toprak düzeni paylaşırdı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: çukur-ev kış köyleri sabit ve band toprakları tanımlı — kaynak 'şu bölgede yaşarlardı' demiyor, belirli havzaların denetimini anlatıyor. 🟢 t: 1858-08-02 BK Kolonisi; aynı yıl Fraser altına hücumu toprağı fiilen açtı. ⚠️ hayda · nuxalk ile aynı gün, aynı gerekçe.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Secwépemc kış köyleri iç platoda (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Secwépemc kış köyleri iç platoda", ic_not_b:"eski b: Secwépemc kış köyleri iç platoda (atlas ufku)" },
     { t:"1858-08-02", tur:"isgal", b:"Britanya Kolumbiyası Kolonisi kuruldu; Fraser altına hücumu başladı" }
   ]
 },
@@ -3867,7 +3867,7 @@ window.DEVLETLER = [
   ozet:"Vancouver Adası'nın batı kıyısında balina avcılığıyla tanınan Kuzeybatı Kıyısı halkı. Yuquot'taki reis Maquinna, 1789-1795 arasında İspanya ve Britanya ile doğrudan müzakere yürüttü; Nootka Buhranı iki devleti savaşın eşiğine getirdi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 SINAVI EN GÜÇLÜ BURADA: Maquinna'nın Yuquot ve çevresindeki denetimi iki Avrupa devleti tarafından MÜZAKERE MUHATABI olarak tanındı — teritoryal denetimin bundan açık kaydı az. 🟢 t: 1858-08-02 BK Kolonisi. ⚠️ Alternatif bir okuma vardı: 1790-10-28 Nootka Sözleşmesi. Onu SEÇMEDİM çünkü o sözleşme İspanya ile Britanya arasındadır ve Nuu-chah-nulth tasarrufunu sona erdirmez; atlas TASARRUFU boyar. Seçim gizlenmiyor.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Nuu-chah-nulth köyleri Vancouver Adası batı kıyısında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Nuu-chah-nulth köyleri Vancouver Adası batı kıyısında", ic_not_b:"eski b: Nuu-chah-nulth köyleri Vancouver Adası batı kıyısında (atlas ufku)" },
     { t:"1789-05-05", tur:"isgal", b:"İspanyollar Yuquot'a yerleşti; Nootka Buhranı başladı" },
     { t:"1790-10-28", tur:"antlasma", b:"Nootka Sözleşmesi imzalandı" },
     { t:"1858-08-02", tur:"isgal", b:"Britanya Kolumbiyası Kolonisi kuruldu" }
@@ -3878,7 +3878,7 @@ window.DEVLETLER = [
   ozet:"Güneybatı Florida'da tarım yapmadan, balıkçılık ve deniz kaynaklarıyla ayakta duran güçlü bir yüce reislik. Mound Key'deki başkentten onlarca kasabayı haraca bağlamıştı; İspanyol yerleşim ve misyon girişimlerini iki yüzyıl boyunca püskürttü.",
   kaynak:"bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kaynak Kalusa'nın çevre kasabaları HARACA BAĞLADIĞINI ve İspanyol girişimlerini püskürttüğünü söylüyor — tarım yapmayan tek büyük Kuzey Amerika reisliği olması da bu yüzden dikkat çeker. Teritoryal denetim açık. 🟡 t: 1763-01-01 — YIL SAĞLAM, GÜN DEĞİL. Florida'nın İspanya'dan Britanya'ya geçtiği 1763'te kalan Kalusa nüfusu Küba'ya taşındı. §4 gereği YYYY-01-01.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Kalusa reisliği güneybatı Florida'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Kalusa reisliği güneybatı Florida'da", ic_not_b:"eski b: Kalusa reisliği güneybatı Florida'da (atlas ufku)" },
     { t:"1521-01-01", tur:"savas", b:"Ponce de León'un ikinci seferi püskürtüldü" },
     { t:"1763-01-01", tur:"son", b:"Florida Britanya'ya geçti; kalan Kalusa nüfusu Küba'ya taşındı" }
   ]
@@ -3888,7 +3888,7 @@ window.DEVLETLER = [
   ozet:"Kolorado Irmağı'nın alt vadisinde taşkın sularıyla sulanan tarlalarda mısır, fasulye ve kabak yetiştiren Yuman dilli halk. Irmak geçidini denetler, Pasifik kıyısına uzanan uzun mesafe ticaret yollarını yürütürdü.",
   kaynak:"bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: taşkın sulamalı SABİT tarım arazileri ve ırmak geçidinin denetimi kaynakta açıkça anlatılıyor. 🟡 t: 1865-01-01 — Kolorado Irmağı Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Mohave köyleri Kolorado alt vadisinde (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Mohave köyleri Kolorado alt vadisinde", ic_not_b:"eski b: Mohave köyleri Kolorado alt vadisinde (atlas ufku)" },
     { t:"1865-01-01", tur:"toprak-kayip", b:"Kolorado Irmağı Rezervasyonu kuruldu" }
   ]
 },
@@ -3897,7 +3897,7 @@ window.DEVLETLER = [
   ozet:"Oregon'un güneyinde Klamath Gölü ve bataklıkları çevresinde yaşayan halk; wokas (nilüfer tohumu), somon ve su kuşuna dayanan bir düzeni ve kalıcı kış çukur-ev köyleri vardı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kalıcı kış köyleri ve tanımlı göl-bataklık kaynak alanları var. 🟡 t: 1864-01-01 — Klamath Antlaşması'nın yılı sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Klamath kış köyleri göl çevresinde (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Klamath kış köyleri göl çevresinde", ic_not_b:"eski b: Klamath kış köyleri göl çevresinde (atlas ufku)" },
     { t:"1864-01-01", tur:"antlasma", b:"Klamath Antlaşması imzalandı" }
   ,
     { t:"1872-11-29", tur:"savas", b:"Modoc Savaşı başladı: Klamath Rezervasyonu'na yerleşmeyi reddedip Kayıp Irmak bölgesine dönen Modoclar, ABD ordusunun zorla geri getirme girişimine direndi", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Modoc War') doğrulandı." }
@@ -3908,7 +3908,7 @@ window.DEVLETLER = [
   ozet:"Columbia'nın orta havzasında yaşayan Sahaptin dilli halklar. Celilo Şelâleleri'ndeki Wayám köyü, kıtanın en eski sürekli iskân edilen yerlerinden ve Kuzeybatı'nın en büyük balıkçılık ile ticaret merkeziydi; binlerce kişi somon mevsiminde orada toplanırdı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: Wayám'da balıkçılık mevkileri AİLE VE KÖY DÜZEYİNDE MÜLK sayılırdı ve kaynak bu denetimi ayrıntısıyla anlatır — 'şu bölgede yaşarlardı'nın tam tersi. 🟡 t: 1855-01-01 — 1855 Walla Walla antlaşmaları birkaç gün içinde AYRI AYRI imzalandı ve Celilo'yu kapsayan belgenin günü doğrulanmadı; §4 gereği YYYY-01-01. Uydurma gün yazmadım.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Wayám ve Sahaptin köyleri orta Columbia'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Wayám ve Sahaptin köyleri orta Columbia'da", ic_not_b:"eski b: Wayám ve Sahaptin köyleri orta Columbia'da (atlas ufku)" },
     { t:"1855-01-01", tur:"antlasma", b:"Walla Walla antlaşma kuşağı" }
   ]
 },
@@ -3917,7 +3917,7 @@ window.DEVLETLER = [
   ozet:"Niobrara ile Missouri'nin birleştiği yerde toprak-ev köylerinde yaşayan Siyu dilli halk; mısır tarımı ile yaz bizon avını birleştirirdi. Omaha'dan ayrılmış küçük ama ayrı bir siyasî birimdi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: sabit toprak-ev köyleri ve tanımlı tarım arazisi var. 🟡 t: 1858-01-01 — 1858 Ponka antlaşmasının yılı sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Ponka köyleri Niobrara ağzında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Ponka köyleri Niobrara ağzında", ic_not_b:"eski b: Ponka köyleri Niobrara ağzında (atlas ufku)" },
     { t:"1858-01-01", tur:"antlasma", b:"Ponka Antlaşması imzalandı" }
   ,
     { t:"1877-01-01", tur:"isgal", b:"ABD askerleri, Ponka'yı Nebraska'daki Niobrara vadisi topraklarından zorla çıkarıp Oklahoma'ya sürdü; 700'den fazla kişi 500 milden uzun bir yürüyüşte üçte bir oranında kayıp verdi", kaynak:"bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Nebraska State Historical Society), doğrulandı." },
@@ -3929,7 +3929,7 @@ window.DEVLETLER = [
   ozet:"Roanoke Irmağı'ndaki adalarda yerleşik Siyu dilli halk. Virginia'dan güneye ve batıya giden Büyük Ticaret Yolu'nun düğüm noktasını tutar, iç bölge kürk ticaretinde aracılık ederdi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kaynak Occaneechi'nin ticaret yolunun geçtiği ADALARI tuttuğunu ve aracılığı TEKELİNDE bulundurduğunu söylüyor — teritoryal denetim açık ve ekonomiktir. 🟡 t: 1676-01-01 — Bacon Ayaklanması sırasında dağıtıldıkları yıl sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Occaneechi Roanoke adalarında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Occaneechi Roanoke adalarında", ic_not_b:"eski b: Occaneechi Roanoke adalarında (atlas ufku)" },
     { t:"1676-01-01", tur:"son", b:"Bacon Ayaklanması sırasında dağıtıldılar" }
   ,
     { t:"1670-01-01", tur:"antlasma", b:"Occaneechi, Virginia kolonisiyle art bölge arasında kürk, deri ve köle ticaretinde önemli bir aracı konumu kazandı", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak; kesin yıl belirsiz ('Bacon Ayaklanması öncesi uzun süre'), YYYY-01-01 belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Occaneechee') doğrulandı." }
@@ -3940,7 +3940,7 @@ window.DEVLETLER = [
   ozet:"Kuzeybatı Georgia'da Etowah Irmağı kıyısında, altı höyüklü ve hendekle çevrili bir Mississippi kültürü yüce reisliği. Bakır levhalar ve mermer heykelleriyle tanınır; çevresindeki vadi kasabalarını bağlı tutardı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 TEK BİR mississippi-kulturu KÜNYESİ YAZILMADI ve sebebi ölçüldü: Etowah · Moundville · Spiro · Ocmulgee'nin DÖRT AYRI sonu var; tek künye üçünün t:'sini yalanlardı. Emsal atlasın kendisinde: cahokia (f:1050 t:1350) TEK bir höyük merkezi için AYRI künyedir. 🟡 t: 1550-01-01 — De Soto 1540'ta buradan geçtiğinde merkez hâlâ iskânlıydı; yüzyılın ortasında terk edildi. YIL yaklaşıktır, GÜN yoktur; §4 gereği YYYY-01-01 ve yaklaşıklık burada AÇIKÇA yazılıdır.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Etowah yüce reisliği Etowah vadisinde (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Etowah yüce reisliği Etowah vadisinde", ic_not_b:"eski b: Etowah yüce reisliği Etowah vadisinde (atlas ufku)" },
     { t:"1540-01-01", tur:"isgal", b:"De Soto seferi bölgeden geçti" },
     { t:"1550-01-01", tur:"son", b:"Merkez terk edildi" }
   ]
@@ -3950,7 +3950,7 @@ window.DEVLETLER = [
   ozet:"Alabama'da Black Warrior Irmağı kıyısında yirmi dokuz höyüklü, palisatla çevrili bir Mississippi kültürü merkezi. 13. yüzyılda binlerce kişiyi barındırdı, sonra tören merkezine dönüşüp nüfusu dağıldı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1450-01-01 — merkez 15. yüzyıl ortasında büyük ölçüde boşaldı. YIL YAKLAŞIKTIR ve gün yoktur; §4 gereği YYYY-01-01. ⚠️ Bu bir fetih ya da devir değil, bir merkezin sönümlenmesidir — okuyan karıştırmasın.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Moundville merkezi Black Warrior kıyısında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Moundville merkezi Black Warrior kıyısında", ic_not_b:"eski b: Moundville merkezi Black Warrior kıyısında (atlas ufku)" },
     { t:"1450-01-01", tur:"son", b:"Merkez boşaldı" }
   ]
 },
@@ -3959,7 +3959,7 @@ window.DEVLETLER = [
   ozet:"Doğu Oklahoma'da Arkansas Irmağı kıyısında, Kaddo dilli halkların tören ve ticaret merkezi. Craig Höyüğü'nden çıkan deniz kabuğu, bakır ve tekstil buluntuları kıta ölçeğinde bir değişim ağını gösterir.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1450-01-01 — tören kullanımı 15. yüzyıl ortasında sona erdi. YIL YAKLAŞIKTIR; §4 gereği YYYY-01-01. ⚠️ Moundville ile aynı gün taşıması tesadüf değil, aynı yüzyıl ortası çözülmesidir — ama iki AYRI künyedir ve tek künyede birleştirilmedi.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Spiro merkezi Arkansas kıyısında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Spiro merkezi Arkansas kıyısında", ic_not_b:"eski b: Spiro merkezi Arkansas kıyısında (atlas ufku)" },
     { t:"1450-01-01", tur:"son", b:"Tören merkezi kullanımdan düştü" }
   ]
 },
@@ -3968,7 +3968,7 @@ window.DEVLETLER = [
   ozet:"Büyük Havza'nın batısında ve güneyinde yaşayan Numik dilli halklar. Kuzey Payutları Nevada ve doğu Oregon'da hareketli bantlar hâlinde; Owens Vadisi Payutları ise sulama kanallarıyla beslenen yerleşik köylerde yaşardı. Altına hücum ve göçmen yolları toprakları hızla daralttı.",
   kaynak:"bulunamadı — Steward, Basin-Plateau Aboriginal Sociopolitical Groups (BAE Bulletin 120) · HNAI c.11 Great Basin (Smithsonian) — çevrimiçi doğrulanmadı. 🔴 M-2425 SINAVI AYNI HALKIN İKİ KOLUNDA İKİ FARKLI CEVAP VERDİ ve bunu gizlemiyorum: Owens Vadisi Payutları SULAMA KANALLARI kazıyor ve köy bölgeleri tanımlıydı (Steward, BAE Bulletin 120) ⇒ teritoryal şart AÇIKÇA karşılanıyor, Büyük Havza'da istisnaî bir vaka. Kara Kaya Çölü'ndeki Kuzey Payutları ise hareketli bantlardı ⇒ o kol tek başına künye hak etmezdi. HALK taneciği kuralı (§⑥) gereği TEK künye yazıldı ve ölçüt GÜÇLÜ OLAN kolun lehine çözüldü; alternatif, halkı ikiye bölüp §⑥'nın 'klan FAZLA İNCE' sınırına düşmekti. 🟡 t: 1872-01-01 — künyenin DIŞ ZARFI: Malheur Rezervasyonu'nun kurulduğu yıl. Owens Vadisi kolu DAHA ERKEN kapanır (1863) ve o noktanın kendi zinciri orada kesilir. Yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Numik dilli Payut toplulukları Büyük Havza'da (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Numik dilli Payut toplulukları Büyük Havza'da", ic_not_b:"eski b: Numik dilli Payut toplulukları Büyük Havza'da (atlas ufku)" },
     { t:"1863-01-01", tur:"toprak-kayip", b:"Owens Vadisi savaşı sona erdi; Payutlar Fort Tejon'a sürüldü" },
     { t:"1872-01-01", tur:"toprak-kayip", b:"Malheur Rezervasyonu kuruldu" }
   ]
@@ -3978,7 +3978,7 @@ window.DEVLETLER = [
   ozet:"Orta Arizona yaylalarında yaşayan Yuman dilli halk; dört bölgesel bandı (Kwevkepaya · Wipukepa · Yavapé · Tolkepaya) kendi avlak ve toplama alanlarını tutardı. 1863 altın keşfi ve Prescott'un kurulmasıyla toprakları hızla işgal edildi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 M-2425 SINIRDA GEÇTİ ve sınırda olduğunu YAZIYORUM: Yavapai bantları hareketliydi, ama dört bandın her birinin tanımlı bölgesel alanı vardı ve kaynak bunları ADIYLA ayırıyor — 'şu bölgede yaşarlardı' genellemesinden ileri. Emsal de destekliyor: atlas apaci-ovalar künyesiyle benzer hareketlilikteki bir gruba ZATEN künye vermiş. 🟡 t: 1873-01-01 — Rio Verde Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01. ⚠️ 1875'te San Carlos'a zorla yürütülmeleri daha ağır bir kırılmadır ama toprak tasarrufu 1873'te sona erdi; atlas TASARRUFU boyar.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Yavapai bantları orta Arizona yaylalarında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Yavapai bantları orta Arizona yaylalarında", ic_not_b:"eski b: Yavapai bantları orta Arizona yaylalarında (atlas ufku)" },
     { t:"1864-01-01", tur:"isgal", b:"Prescott kuruldu; Arizona Toprağı'nın başkenti oldu" },
     { t:"1873-01-01", tur:"toprak-kayip", b:"Rio Verde Rezervasyonu kuruldu" }
   ]
@@ -3988,7 +3988,7 @@ window.DEVLETLER = [
   ozet:"Güneydoğu Yeni Meksika'da Sacramento ve Guadalupe dağları ile Pecos vadisi arasında yaşayan Atabask dilli halk; adı mescal (agav) hasadından gelir. İspanyol, Meksika ve ABD dönemleri boyunca dağ üslerinden direndi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 apaci-ovalar İLE ÇAKIŞMA SORUSUNU ÖLÇTÜM VE ÇAKIŞMA YOK. O künyenin özeti şöyle diyor: 'Güney Büyük Ovalar'da yarı-yerleşik Apaçi grupları… Bitiş, at ve tüfek ticaretinin birleştiği ~1750'de KOMANÇİ BASKISIYLA OVALARDAN ÇEKİLMELERİDİR.' ⇒ O künye OVALAR Apaçisini kapsıyor ve 1750'de ovalardan çekilmeyle bitiyor; Meskalero DAĞ Apaçisidir ve ovalarda değildi. İki künye AYRI COĞRAFYA, ayrı halk. ⚠️ M-2528'de bu soruyu 'ölçmedim' diye açık bırakmıştım; künyenin ozet: alanını okuyunca kapandı. 📌 Ve bu, §4'ün 'kaynağın kendi uyarısını da oku' kuralının künye tarafı: cevap künyenin İÇİNDE yazılıydı, ben yalnız f/t/tur/bolge alanlarına bakmıştım. 🟡 t: 1873-01-01 — Meskalero Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Meskalero bantları Sacramento dağlarında (atlas ufku)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Meskalero bantları Sacramento dağlarında", ic_not_b:"eski b: Meskalero bantları Sacramento dağlarında (atlas ufku)" },
     { t:"1863-01-01", tur:"toprak-kayip", b:"Bosque Redondo'ya sürgün" },
     { t:"1873-01-01", tur:"kurulus", b:"Meskalero Rezervasyonu kuruldu" }
   ,
@@ -4026,9 +4026,9 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1918-12-01", tur:"kurulus", b:"Prens Naib Aleksandar, Belgrad'da SHS Krallığı'nı ilan etti" },
     { t:"1919-09-10", tur:"antlasma", b:"Saint-Germain Antlaşması ile eski Habsburg toprakları (Hırvatistan, Slovenya) resmileşti" },
-    { t:"1921-06-28", tur:"hukumdar", b:"Kralın yetkilerini belirleyen merkeziyetçi Vidovdan Anayasası kabul edildi; Hırvat temsilcilerin şiddetli muhalefeti krallığın iç gerginliğinin köklerinden biri oldu (TDV yugoslavya maddesi)" },
-    { t:"1921-08-16", tur:"hukumdar", b:"Kral I. Petar'ın ölümü üzerine 1914'ten beri naip olan oğlu Aleksandar tahta geçti (standart akademik kaynak, TDV'de yok)" },
-    { t:"1929-10-03", tur:"kurulus", b:"Kral Aleksandar'ın kişisel yönetimi ilanının ardından devletin resmî adı 'Yugoslavya Krallığı' oldu (TDV yugoslavya maddesi; ⚠️ atlasın 1923-10-29 ufkunun DIŞINDA, dizin amaçlı bırakıldı)" }
+    { t:"1921-06-28", tur:"hukumdar", b:"Kralın yetkilerini belirleyen merkeziyetçi Vidovdan Anayasası kabul edildi; Hırvat temsilcilerin şiddetli muhalefeti krallığın iç gerginliğinin köklerinden biri oldu", ic_not_b:"eski b: Kralın yetkilerini belirleyen merkeziyetçi Vidovdan Anayasası kabul edildi; Hırvat temsilcilerin şiddetli muhalefeti krallığın iç gerginliğinin köklerinden biri oldu (TDV yugoslavya maddesi)" },
+    { t:"1921-08-16", tur:"hukumdar", b:"Kral I. Petar'ın ölümü üzerine 1914'ten beri naip olan oğlu Aleksandar tahta geçti", ic_not_b:"eski b: Kral I. Petar'ın ölümü üzerine 1914'ten beri naip olan oğlu Aleksandar tahta geçti (standart akademik kaynak, TDV'de yok)" },
+    { t:"1929-10-03", tur:"kurulus", b:"Kral Aleksandar'ın kişisel yönetimi ilanının ardından devletin resmî adı 'Yugoslavya Krallığı' oldu", ic_not_b:"eski b: Kral Aleksandar'ın kişisel yönetimi ilanının ardından devletin resmî adı 'Yugoslavya Krallığı' oldu (TDV yugoslavya maddesi; ⚠️ atlasın 1923-10-29 ufkunun DIŞINDA, dizin amaçlı bırakıldı)" }
   ]
 },
 { id:"letonya", ad:"Letonya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
@@ -4125,7 +4125,7 @@ window.DEVLETLER = [
     { t:"1340-01-01", tur:"savas", b:"Rio Salado'da Kastilya-Portekiz ittifakına yenilip Endülüs'e müdahalesi zayıfladı" },
     { t:"1415-01-01", tur:"toprak-kayip", b:"Portekiz Septe'yi (Ceuta) aldı, kıyı şehirleri kaybı başladı" },
     { t:"1471-01-01", tur:"bolunme", b:"Vattâsî ailesi (eski Merînî vezirleri) fiilî iktidarı ele geçirdi" },
-    { t:"1549-01-01", tur:"son", b:"Sâdîler Fas'ı alarak hanedana son verdi (bkz. [[fas]])" }
+    { t:"1549-01-01", tur:"son", b:"Sâdîler Fas'ı alarak hanedana son verdi", ic_not_b:"eski b: Sâdîler Fas'ı alarak hanedana son verdi (bkz. [[fas]])" }
   ]
 },
 { id:"kuveyt", ad:"Kuveyt (Sabah Şeyhliği)", tur:"devlet", bolge:"arabistan",
@@ -4222,7 +4222,7 @@ window.DEVLETLER = [
     { t:"1260-01-01", tur:"kurulus", b:"Algu Han, hanlığı fiilen bağımsız hâle getiren gerçek kurucu oldu" },
     { t:"1326-01-01", tur:"hukumdar", b:"Tarmaşirin Han İslâmiyet'i kabul edip Alâeddin adını aldı" },
     { t:"1334-01-01", tur:"bolunme", b:"Tarmaşirin'in öldürülmesiyle hanlık Mâverâünnehir ve Moğolistan olarak ikiye bölündü" },
-    { t:"1370-01-01", tur:"son", b:"Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi (bkz. [[timurlu]])" }
+    { t:"1370-01-01", tur:"son", b:"Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi", ic_not_b:"eski b: Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi (bkz. [[timurlu]])" }
   ]
 },
 { id:"buhara", ad:"Buhara Hanlığı / Emirliği", tur:"hanlik", bolge:"orta-asya",
@@ -4267,7 +4267,7 @@ window.DEVLETLER = [
   kaynak:"turkmenler",
   kronoloji:[
     { t:"1855-01-01", tur:"savas", b:"Teke başbuğu Kuşid Han, 1855 ve 1860'ta önemli zaferler kazanarak Tekeler'in gücünü pekiştirdi" },
-    { t:"1873-05-29", tur:"toprak-kayip", b:"Hîve'nin Rus himayesine girmesiyle Hazar kıyısı Türkmenleri de Rus nüfuzuna girdi (bkz. [[hive]])" },
+    { t:"1873-05-29", tur:"toprak-kayip", b:"Hîve'nin Rus himayesine girmesiyle Hazar kıyısı Türkmenleri de Rus nüfuzuna girdi", ic_not_b:"eski b: Hîve'nin Rus himayesine girmesiyle Hazar kıyısı Türkmenleri de Rus nüfuzuna girdi (bkz. [[hive]])" },
     { t:"1879-09-01", tur:"savas", b:"Ruslar Göktepe'de ilk seferde ağır bir yenilgiye uğradı" },
     { t:"1881-01-24", tur:"toprak-kayip", b:"General Skobelev'in ikinci Göktepe seferiyle Ahal-Tekin Türkmenleri Rus İmparatorluğu'na katıldı" },
     { t:"1884-01-01", tur:"son", b:"Merv Türkmenleri Rusya'ya bağlılığını ilan etti; bölgedeki bağımsız Türkmen varlığı sona erdi" }
@@ -4566,7 +4566,7 @@ window.DEVLETLER = [
     { t:"1889-02-11", tur:"antlasma", b:"Meiji Anayasası kabul edildi" },
     { t:"1895-04-17", tur:"savas", b:"Birinci Çin-Japon Savaşı'nı kazanıp Tayvan'ı aldı" },
     { t:"1905-09-05", tur:"savas", b:"Rus-Japon Savaşı'nı kazanarak büyük güç statüsü kazandı" },
-    { t:"1910-08-29", tur:"toprak-kazanc", b:"Kore'yi ilhak etti (bkz. [[joseon]])" }
+    { t:"1910-08-29", tur:"toprak-kazanc", b:"Kore'yi ilhak etti", ic_not_b:"eski b: Kore'yi ilhak etti (bkz. [[joseon]])" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `ryukyu` harita kimliği künyenin
@@ -4689,8 +4689,8 @@ window.DEVLETLER = [
   kaynak:"kamboc",
   kronoloji:[
     { t:"1431-01-01", tur:"toprak-kayip", b:"Ayutthaya kuşatması sonrası Angkor terk edildi, saray güneye taşındı" },
-    { t:"1813-01-01", tur:"vassal", b:"Vietnam generali Lê Văn Duyệt, Oudong'u ele geçirip Kral Ang Chan II'yi tahtına iade etti; Kamboçya bundan sonra hem Bangkok'a hem Huế'ye haraç ödeyerek Siyam-Vietnam çifte tâbiiyetine girdi (standart akademik kaynak: Britannica 'Chan II')" },
-    { t:"1848-03-07", tur:"hukumdar", b:"Siyam ve Vietnam'ın ortak egemenlik uzlaşması ardından Ang Duong, yeni başkent Udong'da taç giyip hukuk kodunu yenileyerek modern Kamboçya kimliğinin temelini attı (standart akademik kaynak: Britannica 'Duong')" },
+    { t:"1813-01-01", tur:"vassal", b:"Vietnam generali Lê Văn Duyệt, Oudong'u ele geçirip Kral Ang Chan II'yi tahtına iade etti; Kamboçya bundan sonra hem Bangkok'a hem Huế'ye haraç ödeyerek Siyam-Vietnam çifte tâbiiyetine girdi", ic_not_b:"eski b: Vietnam generali Lê Văn Duyệt, Oudong'u ele geçirip Kral Ang Chan II'yi tahtına iade etti; Kamboçya bundan sonra hem Bangkok'a hem Huế'ye haraç ödeyerek Siyam-Vietnam çifte tâbiiyetine girdi (standart akademik kaynak: Britannica 'Chan II')" },
+    { t:"1848-03-07", tur:"hukumdar", b:"Siyam ve Vietnam'ın ortak egemenlik uzlaşması ardından Ang Duong, yeni başkent Udong'da taç giyip hukuk kodunu yenileyerek modern Kamboçya kimliğinin temelini attı", ic_not_b:"eski b: Siyam ve Vietnam'ın ortak egemenlik uzlaşması ardından Ang Duong, yeni başkent Udong'da taç giyip hukuk kodunu yenileyerek modern Kamboçya kimliğinin temelini attı (standart akademik kaynak: Britannica 'Duong')" },
     { t:"1863-08-11", tur:"antlasma", b:"Kral Norodom, Fransız protektorasını kabul etti" }
   ]
 },
@@ -4754,7 +4754,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"977-01-01", tur:"kurulus", b:"Çin Song hanedanına ilk haraç/elçilik heyeti gönderildi, \"Po-ni\" adıyla kayda geçti" },
-    { t:"1405-01-01", tur:"son", b:"İslâmlaşma ve Brunei Sultanlığı'nın kuruluşuyla (TDV: 1405-1415) örtüşür" }
+    { t:"1405-01-01", tur:"son", b:"İslâmlaşma ve Brunei Sultanlığı'nın kuruluşuyla (1405-1415) örtüşür", ic_not_b:"eski b: İslâmlaşma ve Brunei Sultanlığı'nın kuruluşuyla (TDV: 1405-1415) örtüşür" }
   ]
 },
 { id:"brunei-sultanligi", ad:"Brunei Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
@@ -4763,9 +4763,9 @@ window.DEVLETLER = [
   kaynak:"bruney",
   kronoloji:[
     { t:"1368-01-01", tur:"kurulus", b:"Muhammed Şah, ilk Müslüman sultan olarak tahta çıktı" },
-    { t:"1473-01-01", tur:"hukumdar", b:"Sultan Bolkiah tahta çıktı; döneminde (1473-1521) Bruney küçük bir sultanlıktan Borneo'nun büyük kısmını, Luzon'u ve Sulu takımadalarını içine alan devlete dönüşüp altın çağını yaşadı (TDV bruney maddesi)" },
-    { t:"1580-01-01", tur:"savas", b:"1565'te Maynila'yı ele geçiren İspanyollar Bruney şehrini kuşattı ama sonuç alamadan çekildi (TDV bruney maddesi)" },
-    { t:"1841-01-01", tur:"toprak-kayip", b:"İngilizler Labuan adasını aldı; aynı yıl James Brooke 'Saravak racası' unvanıyla başa getirildi — yüzyıl sürecek toprak erimesinin başlangıcı (TDV bruney maddesi)" },
+    { t:"1473-01-01", tur:"hukumdar", b:"Sultan Bolkiah tahta çıktı; döneminde (1473-1521) Bruney küçük bir sultanlıktan Borneo'nun büyük kısmını, Luzon'u ve Sulu takımadalarını içine alan devlete dönüşüp altın çağını yaşadı", ic_not_b:"eski b: Sultan Bolkiah tahta çıktı; döneminde (1473-1521) Bruney küçük bir sultanlıktan Borneo'nun büyük kısmını, Luzon'u ve Sulu takımadalarını içine alan devlete dönüşüp altın çağını yaşadı (TDV bruney maddesi)" },
+    { t:"1580-01-01", tur:"savas", b:"1565'te Maynila'yı ele geçiren İspanyollar Bruney şehrini kuşattı ama sonuç alamadan çekildi", ic_not_b:"eski b: 1565'te Maynila'yı ele geçiren İspanyollar Bruney şehrini kuşattı ama sonuç alamadan çekildi (TDV bruney maddesi)" },
+    { t:"1841-01-01", tur:"toprak-kayip", b:"İngilizler Labuan adasını aldı; aynı yıl James Brooke 'Saravak racası' unvanıyla başa getirildi — yüzyıl sürecek toprak erimesinin başlangıcı", ic_not_b:"eski b: İngilizler Labuan adasını aldı; aynı yıl James Brooke 'Saravak racası' unvanıyla başa getirildi — yüzyıl sürecek toprak erimesinin başlangıcı (TDV bruney maddesi)" },
     { t:"1888-09-17", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" }
   ]
 },
@@ -4834,7 +4834,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1464-01-01", tur:"kurulus", b:"Sünnî Ali, Songhay'ı büyük bir imparatorluğa dönüştürmeye başladı" },
     { t:"1493-01-01", tur:"hukumdar", b:"Askiya Muhammed tahta çıkıp Timbuktu'yu ilim merkezi yaptı" },
-    { t:"1591-04-13", tur:"son", b:"Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı (bkz. [[fas]])" }
+    { t:"1591-04-13", tur:"son", b:"Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı", ic_not_b:"eski b: Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı (bkz. [[fas]])" }
   ,
     { t:"1468-01-01", tur:"toprak-kazanc", b:"Sünnî Ali, Tuareglerin elindeki Timbuktu'yu alarak imparatorluğa kattı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Britannica 'Sonni Ali') doğrulandı." },
     { t:"1473-01-01", tur:"toprak-kazanc", b:"Sünnî Ali, yedi yıl süren kuşatmanın ardından Cenne'yi (Jenne) açlığa mahkûm ederek teslim aldı", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı." }
@@ -4860,7 +4860,7 @@ window.DEVLETLER = [
     { t:"1350-01-01", tur:"hukumdar", b:"İslâmiyet ticaret yollarıyla şehirlere yayılmaya başladı" },
     { t:"1804-06-21", tur:"savas", b:"Gobir ordusu Tabkin Kwatto'da Osman b. Fûdî'nin kuvvetlerine yenildi ve cihad karşısındaki ilk büyük kaybını verdi", kaynak:"TDV `osman-b-fudi` — «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer» (kazanan taraf anlatımıyla). GÜN KAYNAKTAN." },
     { t:"1806-01-01", tur:"toprak-kayip", b:"Zaria, Sokoto cihad kuvvetlerinin eline geçti", kaynak:"TDV `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi»." },
-    { t:"1808-01-01", tur:"son", b:"Osman dan Fodio'nun cihad hareketi şehirleri fethedip Sokoto Halifeliği'ne kattı (bkz. [[sokoto]])" },
+    { t:"1808-01-01", tur:"son", b:"Osman dan Fodio'nun cihad hareketi şehirleri fethedip Sokoto Halifeliği'ne kattı", ic_not_b:"eski b: Osman dan Fodio'nun cihad hareketi şehirleri fethedip Sokoto Halifeliği'ne kattı (bkz. [[sokoto]])" },
     { t:"1808-01-01", tur:"savas", b:"Gobir'in başşehri Alkalava düştü ve Hausa şehir devletlerinin örgütlü direnci sona erdi", kaynak:"TDV `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` aynı yılı bağımsız olarak veriyor." }
   ]
 },
@@ -4984,7 +4984,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1625-01-01", tur:"kurulus", b:"Shyaam a-Mbul a Ngoong Kuba Krallığı'nı kurdu" },
-    { t:"1835-01-01", tur:"hukumdar", b:"Mbop Mabiinc maMbul, ~1885-86'ya kadar sürecek elli yıllık istikrarlı hükümdarlığına başladı; bu dönem krallığın idari ve sanatsal (ndop heykel geleneği) zirvesi sayılır (Oxford Research Encyclopedia of African History; Met Museum koleksiyon kaydı)" },
+    { t:"1835-01-01", tur:"hukumdar", b:"Mbop Mabiinc maMbul, ~1885-86'ya kadar sürecek elli yıllık istikrarlı hükümdarlığına başladı; bu dönem krallığın idari ve sanatsal (ndop heykel geleneği) zirvesi sayılır", ic_not_b:"eski b: Mbop Mabiinc maMbul, ~1885-86'ya kadar sürecek elli yıllık istikrarlı hükümdarlığına başladı; bu dönem krallığın idari ve sanatsal (ndop heykel geleneği) zirvesi sayılır (Oxford Research Encyclopedia of African History; Met Museum koleksiyon kaydı)" },
     { t:"1899-09-01", tur:"isyan", b:"Kongo Serbest Devleti adına hareket eden Zappo Zap savaşçıları Kuba topraklarında kauçuk vergisi tahsili sırasında en az on dört köyü yıkıp şefleri katletti; misyoner Sheppard'ın soruşturması kırktan fazla ceset belgeledi — 1900'deki resmi sondan önceki çöküş sürecinin dönüm noktası (Jan Vansina, 'Being Colonized', Wisconsin Univ. Press 2010)" },
     { t:"1900-01-01", tur:"son", b:"Kongo Hür Devleti'ne resmen bağlandı" }
   ]
@@ -5054,7 +5054,7 @@ window.DEVLETLER = [
   ozet:"Umman'ın Doğu Afrika kıyısını Portekiz'den alıp kurduğu deniz-ticaret imparatorluğu; Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü, Zengibar İngiliz himayesine girdi (1923 sonrasında da sürdü). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1698-01-01", tur:"kurulus", b:"Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı (bkz. [[svahili-sehirleri]])" },
+    { t:"1698-01-01", tur:"kurulus", b:"Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı", ic_not_b:"eski b: Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı (bkz. [[svahili-sehirleri]])" },
     { t:"1832-01-01", tur:"hukumdar", b:"Said bin Sultan başkentini Zengibar'a taşıdı" },
     { t:"1856-10-19", tur:"bolunme", b:"Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü" },
     { t:"1890-11-04", tur:"antlasma", b:"Zengibar, İngiliz himaye antlaşmasını imzaladı" }
@@ -5110,7 +5110,7 @@ window.DEVLETLER = [
     { t:"1535-04-17", tur:"kurulus", b:"İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu" },
     { t:"1539-01-01", tur:"toprak-kazanc", b:"İspanyol kuvvetleri Florida'yı alarak Yeni İspanya'nın kuzeydoğu sınırını genişletti", kaynak:"TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter) — gövdede AYNEN: «İspanya'nın Küba valisi ise 1539'da Florida'yı aldı ve iç bölgelere doğru ilerleyerek kuvvetleriyle birlikte üç dört yıl içinde Kuzey Amerika'nın güneydoğu kesimlerini ve Mississippi nehrini keşfetti.» 🔴 GÜN BİLİNMİYOR — YYYY-01-01." },
     { t:"1810-09-16", tur:"isyan", b:"Rahip Hidalgo'nun \"Grito de Dolores\" çağrısıyla bağımsızlık savaşı başladı" },
-    { t:"1821-09-27", tur:"son", b:"Trigarante Ordusu Mexico City'ye girdi, bağımsızlık kesinleşti (bkz. [[meksika]])" }
+    { t:"1821-09-27", tur:"son", b:"Trigarante Ordusu Mexico City'ye girdi, bağımsızlık kesinleşti", ic_not_b:"eski b: Trigarante Ordusu Mexico City'ye girdi, bağımsızlık kesinleşti (bkz. [[meksika]])" }
   ]
 },
 { id:"ispanyol-peru", ad:"Peru Genel Valiliği", tur:"gecici-isgal", bolge:"guney-amerika",
@@ -5131,7 +5131,7 @@ window.DEVLETLER = [
     { t:"1549-01-01", tur:"kurulus", b:"İlk genel vali Tomé de Sousa ile merkezi sömürge idaresi kuruldu" },
     { t:"1808-01-01", tur:"hukumdar", b:"Napolyon'un Portekiz'i işgali üzerine kraliyet ailesi Rio de Janeiro'ya sürgüne geldi" },
     { t:"1808-01-01", tur:"isgal", b:"Portekiz sarayi Lizbon'dan Rio de Janeiro'ya tasindi", kaynak:"EB-LA — AYNEN: «The key step in the relatively bloodless end of colonial rule in Brazil was the transfer of the Portuguese court from Lisbon to Rio de Janeiro in 1808»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
-    { t:"1822-09-07", tur:"son", b:"Dom Pedro \"Ipiranga Çığlığı\" ile bağımsızlığı ilan etti (bkz. [[brezilya-imparatorlugu]])" }
+    { t:"1822-09-07", tur:"son", b:"Dom Pedro \"Ipiranga Çığlığı\" ile bağımsızlığı ilan etti", ic_not_b:"eski b: Dom Pedro \"Ipiranga Çığlığı\" ile bağımsızlığı ilan etti (bkz. [[brezilya-imparatorlugu]])" }
   ]
 },
 { id:"brezilya-imparatorlugu", ad:"Brezilya İmparatorluğu", tur:"imparatorluk", bolge:"guney-amerika",
@@ -5453,7 +5453,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1890-11-23", tur:"kurulus", b:"III. Willem'in ölümüyle Hollanda tacından ayrılıp Nassau-Weilburg koluna geçti" },
     { t:"1914-08-02", tur:"isgal", b:"Almanya, tarafsızlığını çiğneyip ülkeyi işgal etti" },
-    { t:"1919-01-15", tur:"hukumdar", b:"Büyük Düşes Marie-Adélaïde, Alman işgal güçleriyle iş birliği suçlamaları ve halk baskısıyla tahttan çekildi; yerine kız kardeşi Charlotte geçti (Tucker vd., 'The European Powers in the First World War: An Encyclopedia', 1999)" },
+    { t:"1919-01-15", tur:"hukumdar", b:"Büyük Düşes Marie-Adélaïde, Alman işgal güçleriyle iş birliği suçlamaları ve halk baskısıyla tahttan çekildi; yerine kız kardeşi Charlotte geçti", ic_not_b:"eski b: Büyük Düşes Marie-Adélaïde, Alman işgal güçleriyle iş birliği suçlamaları ve halk baskısıyla tahttan çekildi; yerine kız kardeşi Charlotte geçti (Tucker vd., 'The European Powers in the First World War: An Encyclopedia', 1999)" },
     { t:"1919-09-28", tur:"ittifak", b:"Çifte referandumda halk Charlotte'un tahtta kalmasını (%77,8) ve ekonomik birlik için Fransa'yı tercih ettiğini bildirdi; Fransa'nın çekimser kalmasıyla nihai karar Belçika lehine verildi, 1921'de Belçika-Lüksemburg Ekonomik Birliği kuruldu (Nohlen & Stöver, 'Elections in Europe: A Data Handbook', 2010)" }
   ]
 },
@@ -5634,7 +5634,7 @@ window.DEVLETLER = [
     { t:"1755-02-13", tur:"kurulus", b:"Giyanti Antlaşması ile Mataram bölündü, I. Hamengkubuwono Yogyakarta sultanı ilan edildi" },
     { t:"1814-11-09", tur:"hukumdar", b:"Hamengkubuwono III'ün ölümü üzerine on yaşındaki oğlu IV. Hamengkubuwono Hollanda desteğiyle tahta çıktı; Diponegoro büyük oğul olmasına rağmen annesinin kraliçe olmaması yüzünden veraset hakkından mahrum bırakıldı — Java Savaşı'nın köklerindeki gerginliklerden biri (Carey 2007)" },
     { t:"1825-07-20", tur:"isyan", b:"Prens Diponegoro, babasının mezar arazisinden Hollanda'nın izinsiz yol geçirmesine ve saraydaki artan Hollanda nüfuzuna tepkiyle Java Savaşı'nı (Diponegoro Savaşı) başlattı (Carey 2007; Ricklefs)" },
-    { t:"1830-03-28", tur:"toprak-kayip", b:"Java Savaşı, Diponegoro'nun General De Kock ile görüşme sırasında tuzağa düşürülüp yakalanmasıyla sona erdi; Hollanda, Yogyakarta ve Surakarta topraklarının önemli kısmını ilhak etti, Yogyakarta bugünkü sınırlarına küçüldü (Carey 2007, alanın en kapsamlı akademik incelemesi)" }
+    { t:"1830-03-28", tur:"toprak-kayip", b:"Java Savaşı, Diponegoro'nun General De Kock ile görüşme sırasında tuzağa düşürülüp yakalanmasıyla sona erdi; Hollanda, Yogyakarta ve Surakarta topraklarının önemli kısmını ilhak etti, Yogyakarta bugünkü sınırlarına küçüldü", ic_not_b:"eski b: Java Savaşı, Diponegoro'nun General De Kock ile görüşme sırasında tuzağa düşürülüp yakalanmasıyla sona erdi; Hollanda, Yogyakarta ve Surakarta topraklarının önemli kısmını ilhak etti, Yogyakarta bugünkü sınırlarına küçüldü (Carey 2007, alanın en kapsamlı akademik incelemesi)" }
   ]
 },
 
@@ -5659,7 +5659,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1347-01-01", tur:"bolunme", b:"Tuğluk Timur, Çağatay ulusunun doğu kanadında han ilân edildi" },
-    { t:"1514-01-01", tur:"bolunme", b:"Sultan Said Han batı ucunda Yarkent Hanlığı'nı kurdu (bkz. [[yarkent-hanligi]])" },
+    { t:"1514-01-01", tur:"bolunme", b:"Sultan Said Han batı ucunda Yarkent Hanlığı'nı kurdu", ic_not_b:"eski b: Sultan Said Han batı ucunda Yarkent Hanlığı'nı kurdu (bkz. [[yarkent-hanligi]])" },
     { t:"1680-01-01", tur:"son", b:"Cungar Hanlığı Turfan kolunu da yutunca Moğul hânedanı sona erdi" }
   ]
 },
@@ -5717,10 +5717,10 @@ window.DEVLETLER = [
   ozet:"Behmenî'nin dağılmasıyla Berâr'da kurulan, Dekken beşlisinin en kısa ömürlü sultanlığı; Ahmednagar Nizamşâhîlerince ortadan kaldırıldı. ⚠️ 10 Ağustos 2026 DÜZELTME: kurucu adı 'Fethullah' → 'Deryâ Han' ve f: 1490-01-01 → 1484-01-01 — TDV `imadsahiler` maddesi (A.S. Bazmee Ansari) kurucunun adının Deryâ Han olduğunu, 'İmâdülmülk' unvanını Behmenî Sultanı II. Mahmud Şah'ın ona verdiğini ve bağımsızlığın 1484'te ilan edildiğini net yazıyor; 'Fethullah' adı TDV metninde hiç geçmiyor, önceki kaydın kaynağı bulunamadı.",
   kaynak:"imadsahiler",
   kronoloji:[
-    { t:"1484-01-01", tur:"kurulus", b:"Behmenî Sultanı II. Mahmud Şah, vezirleri İmâdülmülk (Deryâ Han) ve Nizâmülmülk'ten kurtulmak isteyince ikisi kaçtı; İmâdülmülk Berâr'a dönüp bağımsızlığını ilan edip adına sikke bastırdı, aynı yıl öldü, yerine oğlu Alâeddin geçti (TDV imadsahiler)" },
-    { t:"1528-01-01", tur:"vassal", b:"Alâeddin İmâdşah, Nizamşâhîler'e karşı kale kaybedince Gucerât Sultanı Bahadır Şah'tan yardım isteyip onun hâkimiyetini tanıdı (TDV imadsahiler)" },
-    { t:"1542-01-01", tur:"savas", b:"Nizamşâhîler'in Bîcâpûr'a saldırması üzerine Deryâ İmâdşah, Âdilşâhîlerle ortak hareket edip Nizamşâhîler'i geri püskürttü; İmâdşâhîler'in nüfuzu arttı (TDV imadsahiler)" },
-    { t:"1572-01-01", tur:"son", b:"Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen Berâr'a girip toprakları ilhak etti; hânedan fiilen sona erdi, son sultan 1574'te öldürüldü (TDV imadsahiler)" }
+    { t:"1484-01-01", tur:"kurulus", b:"Behmenî Sultanı II. Mahmud Şah, vezirleri İmâdülmülk (Deryâ Han) ve Nizâmülmülk'ten kurtulmak isteyince ikisi kaçtı; İmâdülmülk Berâr'a dönüp bağımsızlığını ilan edip adına sikke bastırdı, aynı yıl öldü, yerine oğlu Alâeddin geçti", ic_not_b:"eski b: Behmenî Sultanı II. Mahmud Şah, vezirleri İmâdülmülk (Deryâ Han) ve Nizâmülmülk'ten kurtulmak isteyince ikisi kaçtı; İmâdülmülk Berâr'a dönüp bağımsızlığını ilan edip adına sikke bastırdı, aynı yıl öldü, yerine oğlu Alâeddin geçti (TDV imadsahiler)" },
+    { t:"1528-01-01", tur:"vassal", b:"Alâeddin İmâdşah, Nizamşâhîler'e karşı kale kaybedince Gucerât Sultanı Bahadır Şah'tan yardım isteyip onun hâkimiyetini tanıdı", ic_not_b:"eski b: Alâeddin İmâdşah, Nizamşâhîler'e karşı kale kaybedince Gucerât Sultanı Bahadır Şah'tan yardım isteyip onun hâkimiyetini tanıdı (TDV imadsahiler)" },
+    { t:"1542-01-01", tur:"savas", b:"Nizamşâhîler'in Bîcâpûr'a saldırması üzerine Deryâ İmâdşah, Âdilşâhîlerle ortak hareket edip Nizamşâhîler'i geri püskürttü; İmâdşâhîler'in nüfuzu arttı", ic_not_b:"eski b: Nizamşâhîler'in Bîcâpûr'a saldırması üzerine Deryâ İmâdşah, Âdilşâhîlerle ortak hareket edip Nizamşâhîler'i geri püskürttü; İmâdşâhîler'in nüfuzu arttı (TDV imadsahiler)" },
+    { t:"1572-01-01", tur:"son", b:"Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen Berâr'a girip toprakları ilhak etti; hânedan fiilen sona erdi, son sultan 1574'te öldürüldü", ic_not_b:"eski b: Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen Berâr'a girip toprakları ilhak etti; hânedan fiilen sona erdi, son sultan 1574'te öldürüldü (TDV imadsahiler)" }
   ]
 },
 { id:"gond-kralliklari", ad:"Gond Krallıkları (Garha-Mandla, Deogarh)", tur:"krallik", bolge:"guney-asya",
@@ -5728,9 +5728,9 @@ window.DEVLETLER = [
   ozet:"Orta Hindistan ormanlarında Gond kabile hânedanlarının kurduğu krallıklar; Râni Durgâvatî'nin direnişiyle anılır, Maratha yayılmasıyla son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1550-01-01", tur:"hukumdar", b:"Kocası Dalpat Şah'ın ölümü üzerine Rani Durgâvatî, küçük oğlu Vir Narayan adına naibe oldu, krallığı siyasi olarak birleştirip güçlendirdi (Encyclopedia.com, 'Durgawati', Gale)" },
+    { t:"1550-01-01", tur:"hukumdar", b:"Kocası Dalpat Şah'ın ölümü üzerine Rani Durgâvatî, küçük oğlu Vir Narayan adına naibe oldu, krallığı siyasi olarak birleştirip güçlendirdi", ic_not_b:"eski b: Kocası Dalpat Şah'ın ölümü üzerine Rani Durgâvatî, küçük oğlu Vir Narayan adına naibe oldu, krallığı siyasi olarak birleştirip güçlendirdi (Encyclopedia.com, 'Durgawati', Gale)" },
     { t:"1564-01-01", tur:"savas", b:"Râni Durgâvatî, Ekber'in kuvvetlerine karşı savaşırken hayatını kaybetti" },
-    { t:"1567-01-01", tur:"vassal", b:"Ekber, Durgâvatî'nin kayınbiraderi Chandra Shah'ı on kaleyi Babür idaresine bırakması karşılığında Garha-Mandla'nın başına tanıdı; krallık 17. yy'a kadar Babür'e tâbi bir vasal hanedan olarak sürdü (Akbarnâme'ye dayanan akademik derleme)" },
+    { t:"1567-01-01", tur:"vassal", b:"Ekber, Durgâvatî'nin kayınbiraderi Chandra Shah'ı on kaleyi Babür idaresine bırakması karşılığında Garha-Mandla'nın başına tanıdı; krallık 17. yy'a kadar Babür'e tâbi bir vasal hanedan olarak sürdü", ic_not_b:"eski b: Ekber, Durgâvatî'nin kayınbiraderi Chandra Shah'ı on kaleyi Babür idaresine bırakması karşılığında Garha-Mandla'nın başına tanıdı; krallık 17. yy'a kadar Babür'e tâbi bir vasal hanedan olarak sürdü (Akbarnâme'ye dayanan akademik derleme)" },
     { t:"1781-01-01", tur:"son", b:"Garha-Mandla Maratha idaresine geçti, bağımsız Gond krallığı bitti" }
   ]
 },
@@ -5753,7 +5753,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1717-10-01", tur:"hukumdar", b:"Kral Pamheiba (Garibaniwaz), Vaişnavist Hinduizm'e resmen geçip bunu krallığın resmî dini ilan etti; yerli Meitei inanç geleneklerine (Sanamahizm) karşı saray içi dirençle karşılaştı (MDPI Religions 12(12):1041, 2021, Cheitharol Kumbaba'ya dayanarak)" },
     { t:"1819-01-01", tur:"isgal", b:"Birmanya işgali 'Yedi Yıllık Yıkım' diye anılan dönemi başlattı" },
-    { t:"1826-02-24", tur:"antlasma", b:"Yandabo Antlaşması'nın 2. maddesiyle Ava Kralı Manipûr üzerindeki iddialarından vazgeçip Gambhir Singh'i bağımsız hükümdar tanıdı; Birmanya işgali resmen sona erdi (Britannica, 'Treaty of Yandabo')" },
+    { t:"1826-02-24", tur:"antlasma", b:"Yandabo Antlaşması'nın 2. maddesiyle Ava Kralı Manipûr üzerindeki iddialarından vazgeçip Gambhir Singh'i bağımsız hükümdar tanıdı; Birmanya işgali resmen sona erdi", ic_not_b:"eski b: Yandabo Antlaşması'nın 2. maddesiyle Ava Kralı Manipûr üzerindeki iddialarından vazgeçip Gambhir Singh'i bağımsız hükümdar tanıdı; Birmanya işgali resmen sona erdi (Britannica, 'Treaty of Yandabo')" },
     { t:"1891-01-01", tur:"son", b:"Anglo-Manipûr Savaşı'ndan sonra krallık İngiliz himâyesine alındı" },
     { t:"1891-08-13", tur:"isyan", b:"Anglo-Manipûr Savaşı'nın ardından Senapati Tikendrajit Singh ve Thangal General İmphal'da halka açık şekilde asıldı; bugün Manipûr'da Vatanseverler Günü olarak anılır" }
   ]
@@ -5776,9 +5776,9 @@ window.DEVLETLER = [
   ozet:"Batı Himalaya'da Tibet Budizmi'ne bağlı, İpek yolu kollarını denetleyen krallık; Dogra istilâsıyla Cammû-Keşmir'e katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1460-01-01", tur:"kurulus", b:"Bhagan, Leh halkıyla ittifak kurup Maryul kralı Lodrö Chokden'i tahttan indirerek 'Namgyal' (muzaffer) soyadını aldı ve hanedanı kurdu (Luciano Petech, 'The Kingdom of Ladakh, c. 950-1842 A.D.', 1977; gün yok)" },
+    { t:"1460-01-01", tur:"kurulus", b:"Bhagan, Leh halkıyla ittifak kurup Maryul kralı Lodrö Chokden'i tahttan indirerek 'Namgyal' (muzaffer) soyadını aldı ve hanedanı kurdu (Luciano Petech, 'The Kingdom of Ladakh, c. 950-1842 A.D.', 1977)", ic_not_b:"eski b: Bhagan, Leh halkıyla ittifak kurup Maryul kralı Lodrö Chokden'i tahttan indirerek 'Namgyal' (muzaffer) soyadını aldı ve hanedanı kurdu (Luciano Petech, 'The Kingdom of Ladakh, c. 950-1842 A.D.', 1977; gün yok)" },
     { t:"1681-01-01", tur:"savas", b:"Tibet-Ladakh-Moğol savaşı başladı, krallık Bâbürlü yardımıyla ayakta kaldı" },
-    { t:"1684-01-01", tur:"antlasma", b:"Savaş, Tingmosgang (Temisgam) Antlaşması ile sona erdi: sınır Demchok'a çekildi, Ladakh'a pashmina tekeli verildi, karşılığında Lhasa'ya üç yılda bir haraç ve Tibet Budizmi'ni koruma yükümlülüğü getirildi (Petech 1977; Ahmad 1968, 'New Light on the Tibet-Ladakh-Mughal War of 1679-84'; gün yok)" },
+    { t:"1684-01-01", tur:"antlasma", b:"Savaş, Tingmosgang (Temisgam) Antlaşması ile sona erdi: sınır Demchok'a çekildi, Ladakh'a pashmina tekeli verildi, karşılığında Lhasa'ya üç yılda bir haraç ve Tibet Budizmi'ni koruma yükümlülüğü getirildi", ic_not_b:"eski b: Savaş, Tingmosgang (Temisgam) Antlaşması ile sona erdi: sınır Demchok'a çekildi, Ladakh'a pashmina tekeli verildi, karşılığında Lhasa'ya üç yılda bir haraç ve Tibet Budizmi'ni koruma yükümlülüğü getirildi (Petech 1977; Ahmad 1968, 'New Light on the Tibet-Ladakh-Mughal War of 1679-84'; gün yok)" },
     { t:"1834-01-01", tur:"son", b:"Zorâver Singh'in Dogra seferi krallığı sona erdirdi" }
   ]
 },
@@ -5825,9 +5825,9 @@ window.DEVLETLER = [
   ozet:"Seylan'ın kuzeyinde Tamil hânedanının kurduğu, inci ve fil ticaretiyle yaşayan krallık; Portekiz seferiyle ortadan kaldırıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1215-01-01", tur:"kurulus", b:"Kalinga'dan geldiğini iddia eden Kalinga Magha'nın istilasıyla Aryacakravarti Hânedanı'nın yönettiği Yafna Krallığı kuruldu; Magha, Polonnaruwa'yı yöneten Parakrama Pandyan II'yi tahttan indirdi (K.M. de Silva, 'A History of Sri Lanka'; K. Indrapala, 'Early Tamil Settlements in Ceylon'; gün yok)" },
+    { t:"1215-01-01", tur:"kurulus", b:"Kalinga'dan geldiğini iddia eden Kalinga Magha'nın istilasıyla Aryacakravarti Hânedanı'nın yönettiği Yafna Krallığı kuruldu; Magha, Polonnaruwa'yı yöneten Parakrama Pandyan II'yi tahttan indirdi (K.M. de Silva, 'A History of Sri Lanka', K. Indrapala, 'Early Tamil Settlements in Ceylon')", ic_not_b:"eski b: Kalinga'dan geldiğini iddia eden Kalinga Magha'nın istilasıyla Aryacakravarti Hânedanı'nın yönettiği Yafna Krallığı kuruldu; Magha, Polonnaruwa'yı yöneten Parakrama Pandyan II'yi tahttan indirdi (K.M. de Silva, 'A History of Sri Lanka'; K. Indrapala, 'Early Tamil Settlements in Ceylon'; gün yok)" },
     { t:"1450-01-01", tur:"isgal", b:"Kotte kuvvetleri krallığı geçici olarak işgal etti" },
-    { t:"1560-01-01", tur:"savas", b:"Portekiz Genel Valisi Dom Constantino de Bragança'nın seferi Nallur'u ele geçirdi; Kral Çankili I antlaşmayla başkentini geri aldı ama Mannar Adası'nı kaybetti — 1619'daki kesin çöküşten önceki ilk ciddi Avrupa saldırısı (de Silva; gün yok)" },
+    { t:"1560-01-01", tur:"savas", b:"Portekiz Genel Valisi Dom Constantino de Bragança'nın seferi Nallur'u ele geçirdi; Kral Çankili I antlaşmayla başkentini geri aldı ama Mannar Adası'nı kaybetti — 1619'daki kesin çöküşten önceki ilk ciddi Avrupa saldırısı", ic_not_b:"eski b: Portekiz Genel Valisi Dom Constantino de Bragança'nın seferi Nallur'u ele geçirdi; Kral Çankili I antlaşmayla başkentini geri aldı ama Mannar Adası'nı kaybetti — 1619'daki kesin çöküşten önceki ilk ciddi Avrupa saldırısı (de Silva; gün yok)" },
     { t:"1619-02-01", tur:"son", b:"Portekiz kuvvetleri son kral Cankili II'yi devirdi, krallık sona erdi" }
   ]
 },
@@ -5880,7 +5880,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1297-12-17", tur:"kurulus", b:"Pagan'ın 1287 çöküşünün ardından Kyaukse'yi ele geçiren üç kardeş (geleneksel olarak Şan kökenli sayılır, akademik çevrede tartışmalı), Moğol tâbii Kral Kyawswa'yı devirip Myinsaing Krallığı'nı kurdu; Yukarı Birmanya'da Şan-Birman ortak hâkimiyetinin ilk örneği (Aung-Thwin & Aung-Thwin, 'A History of Myanmar Since Ancient Times')" },
     { t:"1557-01-01", tur:"isgal", b:"Bayinnaung Şan beyliklerini Toungoo hâkimiyetine bağladı" },
-    { t:"1753-01-01", tur:"vassal", b:"Alaungpaya, Ava'yı Mon işgalinden kurtardıktan sonra Hsenwi ve Mongmit Şan beylerini yenip Konbaung üstünlüğünü yeniden sıkılaştırdı (Aung-Thwin & Aung-Thwin; Britannica 'Alaungpaya Dynasty')" },
+    { t:"1753-01-01", tur:"vassal", b:"Alaungpaya, Ava'yı Mon işgalinden kurtardıktan sonra Hsenwi ve Mongmit Şan beylerini yenip Konbaung üstünlüğünü yeniden sıkılaştırdı", ic_not_b:"eski b: Alaungpaya, Ava'yı Mon işgalinden kurtardıktan sonra Hsenwi ve Mongmit Şan beylerini yenip Konbaung üstünlüğünü yeniden sıkılaştırdı (Aung-Thwin & Aung-Thwin; Britannica 'Alaungpaya Dynasty')" },
     { t:"1883-01-01", tur:"ittifak", b:"Kral Thibaw'ın ağır vergisine karşı bir grup sawbwa Limbin Konfederasyonu'nu kurdu; 1885 Üçüncü Anglo-Birman Savaşı'yla anlamını yitirse de 1887'ye kadar İngilizlere direnişi sürdürdü (Aung-Thwin & Aung-Thwin)" },
     { t:"1887-01-01", tur:"son", b:"Üçüncü Anglo-Birman Savaşı'ndan sonra beylikler İngiliz himâyesine girdi" }
   ]
@@ -5902,7 +5902,7 @@ window.DEVLETLER = [
   ozet:"Anıtsal tapınakları ve su mühendisliğiyle Güneydoğu Asya'nın en büyük klasik devleti; Ayutthaya baskısıyla Angkor terk edilince ardılı Kamboçya Krallığı'na dönüştü (bkz. [[kamboc-kralligi]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1283-01-01", tur:"vassal", b:"Kral Jayavarman VIII, Kubilay Han'ın baskısı karşısında savaşmak yerine haraç ödemeyi kabul etti; Angkor bir Moğol istilasından bu şekilde kurtuldu (standart akademik kaynak: Cœdès, 'The Indianized States of Southeast Asia')" },
+    { t:"1283-01-01", tur:"vassal", b:"Kral Jayavarman VIII, Kubilay Han'ın baskısı karşısında savaşmak yerine haraç ödemeyi kabul etti; Angkor bir Moğol istilasından bu şekilde kurtuldu", ic_not_b:"eski b: Kral Jayavarman VIII, Kubilay Han'ın baskısı karşısında savaşmak yerine haraç ödemeyi kabul etti; Angkor bir Moğol istilasından bu şekilde kurtuldu (standart akademik kaynak: Cœdès, 'The Indianized States of Southeast Asia')" },
     { t:"1296-01-01", tur:"hukumdar", b:"Çinli elçi Zhou Daguan'ın Angkor'u anlattığı ziyaret gerçekleşti" },
     { t:"1431-01-01", tur:"son", b:"Ayutthaya kuşatmasının ardından Angkor terk edildi, merkez güneye taşındı" }
   ,
@@ -5964,7 +5964,7 @@ window.DEVLETLER = [
   ozet:"Srivicaya mirası üzerinde kurulan, Musi ırmağının biber ve kalay ticaretini denetleyen Sumatra sultanlığı; Hollanda idaresine katılarak son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ 10 Ağustos 2026 BULGU (değiştirilmedi, bilgi amaçlı): akademik araştırma, 'sultanlık' unvanının ve ilk Sultan Abdurrahman'ın tahta çıkışının da 1659'da (Hollanda'nın eski sarayı Kuto Gawang'ı yakmasının HEMEN ardından) ilan edildiğini gösteriyor — yani 1659 hem işgal hem sultanlığın ilanı olabilir, atlastaki f:1281 (pencere başlangıcı) ile gerçek kuruluş arasındaki fark sanıldığından küçük olabilir. 16. yy'daki öncül beylik (Ki Gede ing Suro) için akademik kalite kaynak bulunamadı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1642-01-01", tur:"antlasma", b:"Palembang ile VOC arasındaki biber ticareti sözleşmesi yenilenip VOC'a tekel tanındı — 17. yy ticarî zirvesinin başlangıç noktalarından biri (hakemli Endonezce dergi makalesi, orta güven)" },
+    { t:"1642-01-01", tur:"antlasma", b:"Palembang ile VOC arasındaki biber ticareti sözleşmesi yenilenip VOC'a tekel tanındı — 17. yy ticarî zirvesinin başlangıç noktalarından biri", ic_not_b:"eski b: Palembang ile VOC arasındaki biber ticareti sözleşmesi yenilenip VOC'a tekel tanındı — 17. yy ticarî zirvesinin başlangıç noktalarından biri (hakemli Endonezce dergi makalesi, orta güven)" },
     { t:"1659-01-01", tur:"isgal", b:"Hollanda Doğu Hindistan Şirketi eski sarayı (Kuto Gawang) yakıp ticaret tekelini dayattı; aynı yıl Susuhunan Abdurrahman sarayını taşıyıp ilk Sultan olarak sultanlığı ilan etti" },
     { t:"1825-01-01", tur:"son", b:"Hollanda sultanlığı kaldırıp bölgeyi doğrudan idareye bağladı" }
   ,
@@ -5987,8 +5987,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1526-01-01", tur:"kurulus", b:"Pangeran Samudera, Demak yardımıyla sultanlığı kurup İslâm'ı kabul etti" },
-    { t:"1635-01-01", tur:"antlasma", b:"Banjarmasin Sultanlığı ile VOC arasında ilk resmî antlaşma imzalandı (ANRI arşiv koleksiyonu; TAWARIKH dergisi, Ahyat 2012; gün bilinmiyor)" },
-    { t:"1859-04-01", tur:"isyan", b:"Pangeran Antasari önderliğinde Banjar halkı Hollanda'nın Pengaron kömür madenine ve Martapura mevzilerine saldırdı — Bancar Savaşı'nın fiilî başlangıcı (Ahyat, TAWARIKH: International Journal for Historical Studies 3(2), 2012)" },
+    { t:"1635-01-01", tur:"antlasma", b:"Banjarmasin Sultanlığı ile VOC arasında ilk resmî antlaşma imzalandı (günü bilinmiyor)", ic_not_b:"eski b: Banjarmasin Sultanlığı ile VOC arasında ilk resmî antlaşma imzalandı (ANRI arşiv koleksiyonu; TAWARIKH dergisi, Ahyat 2012; gün bilinmiyor)" },
+    { t:"1859-04-01", tur:"isyan", b:"Pangeran Antasari önderliğinde Banjar halkı Hollanda'nın Pengaron kömür madenine ve Martapura mevzilerine saldırdı — Bancar Savaşı'nın fiilî başlangıcı", ic_not_b:"eski b: Pangeran Antasari önderliğinde Banjar halkı Hollanda'nın Pengaron kömür madenine ve Martapura mevzilerine saldırdı — Bancar Savaşı'nın fiilî başlangıcı (Ahyat, TAWARIKH: International Journal for Historical Studies 3(2), 2012)" },
     { t:"1860-06-11", tur:"son", b:"Hollanda sultanlığı ilga etti; direniş Bancar Savaşı'na dönüştü" }
   ]
 },
@@ -6009,9 +6009,9 @@ window.DEVLETLER = [
   ozet:"Karanfil ticaretini elinde tutan, Portekiz'i adadan kovmasıyla anılan Moluk sultanlığı; Hollanda tekeli altında tâbi hâle geldi. ⚠️ TDV'de `moluk-adalari` maddesi YOK (ölçüldü, ternate/molukka/maluku sluglarının hepsi de ölü); standart akademik kaynağa (Leonard Andaya, 'The World of Maluku', Univ. of Hawai'i Press 1993 + Britannica 'Ternate Island') göre yazıldı. ⚠️ KÜÇÜK TARİH FARKI (çözülmedi, bilgi amaçlı): Britannica Portekiz'in kovulmasını 1574 verirken künye 1575 kullanıyor; kaynaklar arasında gün/yıl değişkenliği var, mevcut tarih DEĞİŞTİRİLMEDİ.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Andaya 1993, Britannica)",
   kronoloji:[
-    { t:"1486-01-01", tur:"hukumdar", b:"Zeynelâbidîn, babası Marhum'un İslâm'ı kabulünden sonra tahta çıkıp İslâm hukukunu uyguladı ve ilk kez 'Kolano' yerine 'Sultan' unvanını kullandı — resmen İslâm sultanlığına dönüşüm (standart akademik kaynak)" },
-    { t:"1522-01-01", tur:"ittifak", b:"Portekizliler, Tidore'ye karşı destek karşılığında sultanın onayıyla São João Baptista Kalesi'ni inşa etti — kalıcı Portekiz varlığının başlangıcı (Britannica 'Ternate Island')" },
-    { t:"1570-01-01", tur:"hukumdar", b:"Sultan Hayrun, bir barış görüşmesi sırasında Portekiz kale kumandanınca hançerlenerek öldürüldü; suikast, oğlu Babullah'ın önderliğinde Portekizlilere karşı savaşı başlattı (standart akademik kaynak, gün kaynaklar arası değişken)" },
+    { t:"1486-01-01", tur:"hukumdar", b:"Zeynelâbidîn, babası Marhum'un İslâm'ı kabulünden sonra tahta çıkıp İslâm hukukunu uyguladı ve ilk kez 'Kolano' yerine 'Sultan' unvanını kullandı — resmen İslâm sultanlığına dönüşüm", ic_not_b:"eski b: Zeynelâbidîn, babası Marhum'un İslâm'ı kabulünden sonra tahta çıkıp İslâm hukukunu uyguladı ve ilk kez 'Kolano' yerine 'Sultan' unvanını kullandı — resmen İslâm sultanlığına dönüşüm (standart akademik kaynak)" },
+    { t:"1522-01-01", tur:"ittifak", b:"Portekizliler, Tidore'ye karşı destek karşılığında sultanın onayıyla São João Baptista Kalesi'ni inşa etti — kalıcı Portekiz varlığının başlangıcı", ic_not_b:"eski b: Portekizliler, Tidore'ye karşı destek karşılığında sultanın onayıyla São João Baptista Kalesi'ni inşa etti — kalıcı Portekiz varlığının başlangıcı (Britannica 'Ternate Island')" },
+    { t:"1570-01-01", tur:"hukumdar", b:"Sultan Hayrun, bir barış görüşmesi sırasında Portekiz kale kumandanınca hançerlenerek öldürüldü; suikast, oğlu Babullah'ın önderliğinde Portekizlilere karşı savaşı başlattı (gün kaynaklar arası değişken)", ic_not_b:"eski b: Sultan Hayrun, bir barış görüşmesi sırasında Portekiz kale kumandanınca hançerlenerek öldürüldü; suikast, oğlu Babullah'ın önderliğinde Portekizlilere karşı savaşı başlattı (standart akademik kaynak, gün kaynaklar arası değişken)" },
     { t:"1575-01-01", tur:"toprak-kazanc", b:"Sultan Babullah Portekiz kalesini alıp adayı kurtardı" },
     { t:"1663-01-01", tur:"son", b:"Hollanda Doğu Hindistan Şirketi sultanlığı tâbi statüye indirdi" }
   ]
@@ -6078,9 +6078,9 @@ window.DEVLETLER = [
   ozet:"İspanyol fethinden önce takımadada ticaret yapan barangay ve racalıklar; Maynila'nın alınmasıyla İspanyol idaresine geçtiler (kaynak: TDV, madde: filipinler).",
   kaynak:"yetersiz — filipinler maddesi okundu, datu/barangay siyasi topluluklarından bahsediyor ama racalıkları ayrı bir konu olarak işlemiyor; dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1521-04-01", tur:"ittifak", b:"Maynila-Tondo bölgesinin genç Müslüman hükümdarı Ache (sonradan Rajah Matanda), Brunei Sultanı'nın bir prensesiyle evlenip Brunei hanedanıyla akrabalık kurdu; bu bağ Maynila'nın İslâmlaşmasının ve siyasi meşruiyetinin parçasıydı (Pigafetta'nın 1521 tanıklığı + Majul/Scott akademik kaynağı; gün bilinmiyor)" },
+    { t:"1521-04-01", tur:"ittifak", b:"Maynila-Tondo bölgesinin genç Müslüman hükümdarı Ache (sonradan Rajah Matanda), Brunei Sultanı'nın bir prensesiyle evlenip Brunei hanedanıyla akrabalık kurdu; bu bağ Maynila'nın İslâmlaşmasının ve siyasi meşruiyetinin parçasıydı (gün bilinmiyor)", ic_not_b:"eski b: Maynila-Tondo bölgesinin genç Müslüman hükümdarı Ache (sonradan Rajah Matanda), Brunei Sultanı'nın bir prensesiyle evlenip Brunei hanedanıyla akrabalık kurdu; bu bağ Maynila'nın İslâmlaşmasının ve siyasi meşruiyetinin parçasıydı (Pigafetta'nın 1521 tanıklığı + Majul/Scott akademik kaynağı; gün bilinmiyor)" },
     { t:"1521-04-27", tur:"savas", b:"Mactan'da Lapulapu, Magellan'ın kuvvetlerini yendi" },
-    { t:"1565-04-27", tur:"toprak-kazanc", b:"Miguel López de Legazpi, Cebu'ya çıkarıp Filipinler'deki ilk kalıcı İspanyol yerleşimini kurdu — Maynila'dan 6 yıl önceki ilk adım (standart akademik kaynak: Britannica)" },
+    { t:"1565-04-27", tur:"toprak-kazanc", b:"Miguel López de Legazpi, Cebu'ya çıkarıp Filipinler'deki ilk kalıcı İspanyol yerleşimini kurdu — Maynila'dan 6 yıl önceki ilk adım", ic_not_b:"eski b: Miguel López de Legazpi, Cebu'ya çıkarıp Filipinler'deki ilk kalıcı İspanyol yerleşimini kurdu — Maynila'dan 6 yıl önceki ilk adım (standart akademik kaynak: Britannica)" },
     { t:"1571-06-24", tur:"son", b:"Legazpi Maynila'yı alıp İspanyol başkentini kurdu, racalıklar son buldu" }
   ]
 },
@@ -6089,10 +6089,10 @@ window.DEVLETLER = [
   ozet:"Mindanao'da İspanyol yayılmasına üç yüzyıl direnen müslüman sultanlık; Moro savaşlarının ardından İspanyol hâkimiyetini kabul etti. ⚠️ 10 Ağustos 2026 DÜZELTME: eski `kaynak:` alanı 'bulunamadı' diyordu — YANLIŞ YÖNLENDİRMEYMİŞ. `morolar` slug'ı canlı ama içi tek cümle/yönlendirme (klasik 'canlı slug, boş gövde' tuzağı); gerçek zengin kaynak `filipinler` maddesinin 'III. Ülkede İslâmiyet' bölümü (müellif İsmail Hakkı Göksoy) imiş — orada Magindanao'nun kuruluşu, Kudarat dönemi ve İspanyol savaşları ayrıntılı anlatılıyor.",
   kaynak:"filipinler (TDV, 'III. Ülkede İslâmiyet' bölümü, müellif İ.H. Göksoy)",
   kronoloji:[
-    { t:"1515-01-01", tur:"kurulus", b:"Malay yarımadasından gelen Şerîf Muhammed Kabungsuvan, yerli datularla fetih/diplomasi/evlilik yoluyla iş birliği yapıp halkı müslümanlaştırdı ve Magindanao Sultanlığı'nı kurdu (tahminî tarih, TDV filipinler)" },
-    { t:"1619-01-01", tur:"hukumdar", b:"Sultan Kudarat (1619-1671) tahta çıktı; Sibuguey'den Davao körfezine uzanan bölgeye hâkim olup sultanlığı, modern Filipinler hariç Filipinliler'ce kurulmuş en geniş devlet hâline getirdi (TDV filipinler)" },
-    { t:"1637-01-01", tur:"isgal", b:"İspanyol Genel Valisi Corcuera'nın kuvvetleri sultanlığın merkezini zaptetti; Kudarat iç kesimlere çekilip direnişi sürdürdü (TDV filipinler)" },
-    { t:"1645-01-01", tur:"antlasma", b:"İspanyollar barış yapmak zorunda kaldı; sahil bölgesi ile Maranao/Pulangi halkının yaşadığı iç kesimler Magindanao'nun etki alanı olarak resmen tanındı (TDV filipinler)" },
+    { t:"1515-01-01", tur:"kurulus", b:"Malay yarımadasından gelen Şerîf Muhammed Kabungsuvan, yerli datularla fetih/diplomasi/evlilik yoluyla iş birliği yapıp halkı müslümanlaştırdı ve Magindanao Sultanlığı'nı kurdu (tahminî tarih)", ic_not_b:"eski b: Malay yarımadasından gelen Şerîf Muhammed Kabungsuvan, yerli datularla fetih/diplomasi/evlilik yoluyla iş birliği yapıp halkı müslümanlaştırdı ve Magindanao Sultanlığı'nı kurdu (tahminî tarih, TDV filipinler)" },
+    { t:"1619-01-01", tur:"hukumdar", b:"Sultan Kudarat (1619-1671) tahta çıktı; Sibuguey'den Davao körfezine uzanan bölgeye hâkim olup sultanlığı, modern Filipinler hariç Filipinliler'ce kurulmuş en geniş devlet hâline getirdi", ic_not_b:"eski b: Sultan Kudarat (1619-1671) tahta çıktı; Sibuguey'den Davao körfezine uzanan bölgeye hâkim olup sultanlığı, modern Filipinler hariç Filipinliler'ce kurulmuş en geniş devlet hâline getirdi (TDV filipinler)" },
+    { t:"1637-01-01", tur:"isgal", b:"İspanyol Genel Valisi Corcuera'nın kuvvetleri sultanlığın merkezini zaptetti; Kudarat iç kesimlere çekilip direnişi sürdürdü", ic_not_b:"eski b: İspanyol Genel Valisi Corcuera'nın kuvvetleri sultanlığın merkezini zaptetti; Kudarat iç kesimlere çekilip direnişi sürdürdü (TDV filipinler)" },
+    { t:"1645-01-01", tur:"antlasma", b:"İspanyollar barış yapmak zorunda kaldı; sahil bölgesi ile Maranao/Pulangi halkının yaşadığı iç kesimler Magindanao'nun etki alanı olarak resmen tanındı", ic_not_b:"eski b: İspanyollar barış yapmak zorunda kaldı; sahil bölgesi ile Maranao/Pulangi halkının yaşadığı iç kesimler Magindanao'nun etki alanı olarak resmen tanındı (TDV filipinler)" },
     { t:"1888-01-01", tur:"son", b:"Uzun Moro savaşlarının sonunda İspanyol hâkimiyeti kabul edildi" }
   ]
 },
@@ -6154,7 +6154,7 @@ window.DEVLETLER = [
   kaynak:"kalmuklar",
   kronoloji:[
     { t:"1636-01-01", tur:"kurulus", b:"Gûşi Han, Hoşut kanadını Kokonor'a taşıyıp hanlığı kurdu" },
-    { t:"1642-01-01", tur:"toprak-kazanc", b:"Tsangpa devrilip Tibet'in yönetimi V. Dalai Lama'ya verildi (bkz. [[tibet]])" },
+    { t:"1642-01-01", tur:"toprak-kazanc", b:"Tsangpa devrilip Tibet'in yönetimi V. Dalai Lama'ya verildi", ic_not_b:"eski b: Tsangpa devrilip Tibet'in yönetimi V. Dalai Lama'ya verildi (bkz. [[tibet]])" },
     { t:"1717-01-01", tur:"toprak-kayip", b:"Cungarlar Lhasa'yı basıp hanlığın Tibet'teki nüfuzunu kırdı" },
     { t:"1724-01-01", tur:"son", b:"Lobzang Danjin isyanı bastırıldı, Qing Kokonor'u doğrudan idareye bağladı" }
   ]
@@ -6194,7 +6194,7 @@ window.DEVLETLER = [
     { t:"1349-01-01", tur:"kurulus", b:"Altın Orda'nın gerilemesiyle Doros/Mankup çevresinde ayrı bir prenslik belirdi (tarih yaklaşık)" },
     { t:"1425-01-01", tur:"hukumdar", b:"Aleksios döneminde Kalamita limanı yenilenip Ceneviz'in kıyı tekeline rakip oldu" },
     { t:"1475-06-06", tur:"toprak-kayip", b:"Gedik Ahmed Paşa Ceneviz sahilini aldı, prenslik denizden koptu (bkz. [[ceneviz]], [[kirim]])" },
-    { t:"1475-12-01", tur:"son", b:"Mankup uzun kuşatmanın ardından düştü; Kırım'daki son Rum devleti sona erdi (GÜN kaynakla saptanamadı)" }
+    { t:"1475-12-01", tur:"son", b:"Mankup uzun kuşatmanın ardından düştü; Kırım'daki son Rum devleti sona erdi", ic_not_b:"eski b: Mankup uzun kuşatmanın ardından düştü; Kırım'daki son Rum devleti sona erdi (GÜN kaynakla saptanamadı)" }
   ]
 },
 
@@ -6292,9 +6292,9 @@ window.DEVLETLER = [
   ozet:"1262'den beri Norveç, 1537'den itibaren Danimarka idaresinde kalan ada, 1 Aralık 1918'de Danimarka kralıyla şahsî birlik altında egemen bir krallık oldu. Atlasın ufkunda (1923) bu statüdedir; tam bağımsızlık 1944'tedir. ⚠️ TDV'de müstakil madde YOK (`izlanda` slug'ı 302 döndürüyor); CLAUDE.md §4 gereği Avrupa iç tarihi için standart akademik referansa dayanıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1262-01-01", tur:"vassal", b:"İzlanda'nın önde gelen şefleri Eski Antlaşma (Gamli sáttmáli) ile Norveç Kralı IV. Haakon'a bağlılık yemini etti; katılım süreci hukuken 1281'de Jónsbók'la tamamlandı (Sverrir Jakobsson, Scandinavian Journal of History 46:5, 2021 — hakemli)" },
+    { t:"1262-01-01", tur:"vassal", b:"İzlanda'nın önde gelen şefleri Eski Antlaşma (Gamli sáttmáli) ile Norveç Kralı IV. Haakon'a bağlılık yemini etti; katılım süreci hukuken 1281'de Jónsbók'la tamamlandı (Sverrir Jakobsson, Scandinavian Journal of History 46:5, 2021)", ic_not_b:"eski b: İzlanda'nın önde gelen şefleri Eski Antlaşma (Gamli sáttmáli) ile Norveç Kralı IV. Haakon'a bağlılık yemini etti; katılım süreci hukuken 1281'de Jónsbók'la tamamlandı (Sverrir Jakobsson, Scandinavian Journal of History 46:5, 2021 — hakemli)" },
     { t:"1537-01-01", tur:"toprak", b:"Reformla birlikte ada Danimarka'nın doğrudan idaresine girdi" },
-    { t:"1602-04-20", tur:"antlasma", b:"Danimarka Kralı IV. Christian, İzlanda'nın dış ticaretini Danimarkalı tüccarlara tahsis eden fermanla tekel kurdu; ada 1787'ye kadar izole bir tekel rejiminde kaldı (Gísli Gunnarsson, 'Monopoly Trade and Economic Stagnation', Lund 1983; gün düşük güvenle)" },
+    { t:"1602-04-20", tur:"antlasma", b:"Danimarka Kralı IV. Christian, İzlanda'nın dış ticaretini Danimarkalı tüccarlara tahsis eden fermanla tekel kurdu; ada 1787'ye kadar izole bir tekel rejiminde kaldı (Gísli Gunnarsson, 'Monopoly Trade and Economic Stagnation', Lund 1983)", ic_not_b:"eski b: Danimarka Kralı IV. Christian, İzlanda'nın dış ticaretini Danimarkalı tüccarlara tahsis eden fermanla tekel kurdu; ada 1787'ye kadar izole bir tekel rejiminde kaldı (Gísli Gunnarsson, 'Monopoly Trade and Economic Stagnation', Lund 1983; gün düşük güvenle)" },
     { t:"1918-12-01", tur:"kurulus", b:"İzlanda Krallığı: Danimarka ile şahsî birlik, egemen devlet statüsü" }
   ]
 },
@@ -6319,8 +6319,8 @@ window.DEVLETLER = [
   kaynak:"bengal",
   kronoloji:[
     { t:"1340-01-01", tur:"kurulus", b:"Delhi Sultanlığı'ndan ayrılarak bağımsız Bengal Sultanlığı kuruldu" },
-    { t:"1494-01-01", tur:"hukumdar", b:"Alâeddin Hüseyin Şah, soylularca sultan seçilip Hüseyin Şahi hânedanını kurdu; onun ve oğlu Nusret Şah'ın dönemi Bengal'in 'altın çağı' sayılır, Kâmrup-Kâmta ilhak edildi (TDV'de yok — Banglapedia 'Husain Shah')" },
-    { t:"1538-04-06", tur:"toprak-kayip", b:"Afgan komutan Şir Şah Sûrî, Gaur'u ele geçirdi; son Hüseyin Şahi hükümdarı Gıyâseddin Mahmud Şah yenilip kısa süre sonra öldü, hânedan sona erdi (TDV'de yok — Banglapedia 'Ghiyasuddin Mahmud Shah')" },
+    { t:"1494-01-01", tur:"hukumdar", b:"Alâeddin Hüseyin Şah, soylularca sultan seçilip Hüseyin Şahi hânedanını kurdu; onun ve oğlu Nusret Şah'ın dönemi Bengal'in 'altın çağı' sayılır, Kâmrup-Kâmta ilhak edildi", ic_not_b:"eski b: Alâeddin Hüseyin Şah, soylularca sultan seçilip Hüseyin Şahi hânedanını kurdu; onun ve oğlu Nusret Şah'ın dönemi Bengal'in 'altın çağı' sayılır, Kâmrup-Kâmta ilhak edildi (TDV'de yok — Banglapedia 'Husain Shah')" },
+    { t:"1538-04-06", tur:"toprak-kayip", b:"Afgan komutan Şir Şah Sûrî, Gaur'u ele geçirdi; son Hüseyin Şahi hükümdarı Gıyâseddin Mahmud Şah yenilip kısa süre sonra öldü, hânedan sona erdi", ic_not_b:"eski b: Afgan komutan Şir Şah Sûrî, Gaur'u ele geçirdi; son Hüseyin Şahi hükümdarı Gıyâseddin Mahmud Şah yenilip kısa süre sonra öldü, hânedan sona erdi (TDV'de yok — Banglapedia 'Ghiyasuddin Mahmud Shah')" },
     { t:"1576-01-01", tur:"son", b:"Ekber Şah'ın fethiyle Bengal, Babür İmparatorluğu'na katıldı" }
   ]
 },
@@ -6330,9 +6330,9 @@ window.DEVLETLER = [
   kaynak:"japonya",
   kronoloji:[
     { t:"1333-07-04", tur:"kurulus", b:"Kamakura Şogunluğu devrildi, İmparator Go-Daigo doğrudan yönetimi geri aldı" },
-    { t:"1334-01-01", tur:"hukumdar", b:"Go-Daigo, toprak yeniden dağıtımı ve idari merkezîleşme reformları uyguladı; reformlar tahtı geri kazandıran samuray sınıfı yerine saray soylularını kayırıp derin hoşnutsuzluk yarattı (Cambridge History of Japan c.3; gün yok)" },
-    { t:"1335-11-01", tur:"isyan", b:"Ashikaga Takauji, Nakasendai isyanını bastırdıktan sonra Kyoto'ya dönmeyip kendi adına ödül dağıtmaya başladı; Go-Daigo bunu isyan sayıp Kasım 1335'te ona karşı ordu gönderdi (Britannica 'Ashikaga Takauji'/'Nitta Yoshisada'; gün yok)" },
-    { t:"1336-07-04", tur:"savas", b:"Minatogawa Muharebesi'nde Takauji, Nitta Yoshisada'yı yenip Kusunoki Masashige'yi öldürdü ve Kyoto'yu ele geçirdi (Cambridge History of Japan temelli literatür; takvim dönüşümü nedeniyle bazı kaynaklar 25 Mayıs 1336 da verir)" },
+    { t:"1334-01-01", tur:"hukumdar", b:"Go-Daigo, toprak yeniden dağıtımı ve idari merkezîleşme reformları uyguladı; reformlar tahtı geri kazandıran samuray sınıfı yerine saray soylularını kayırıp derin hoşnutsuzluk yarattı (Cambridge History of Japan c.3)", ic_not_b:"eski b: Go-Daigo, toprak yeniden dağıtımı ve idari merkezîleşme reformları uyguladı; reformlar tahtı geri kazandıran samuray sınıfı yerine saray soylularını kayırıp derin hoşnutsuzluk yarattı (Cambridge History of Japan c.3; gün yok)" },
+    { t:"1335-11-01", tur:"isyan", b:"Ashikaga Takauji, Nakasendai isyanını bastırdıktan sonra Kyoto'ya dönmeyip kendi adına ödül dağıtmaya başladı; Go-Daigo bunu isyan sayıp Kasım 1335'te ona karşı ordu gönderdi", ic_not_b:"eski b: Ashikaga Takauji, Nakasendai isyanını bastırdıktan sonra Kyoto'ya dönmeyip kendi adına ödül dağıtmaya başladı; Go-Daigo bunu isyan sayıp Kasım 1335'te ona karşı ordu gönderdi (Britannica 'Ashikaga Takauji'/'Nitta Yoshisada'; gün yok)" },
+    { t:"1336-07-04", tur:"savas", b:"Minatogawa Muharebesi'nde Takauji, Nitta Yoshisada'yı yenip Kusunoki Masashige'yi öldürdü ve Kyoto'yu ele geçirdi (takvim dönüşümü nedeniyle bazı kaynaklar 25 Mayıs 1336 da verir)", ic_not_b:"eski b: Minatogawa Muharebesi'nde Takauji, Nitta Yoshisada'yı yenip Kusunoki Masashige'yi öldürdü ve Kyoto'yu ele geçirdi (Cambridge History of Japan temelli literatür; takvim dönüşümü nedeniyle bazı kaynaklar 25 Mayıs 1336 da verir)" },
     { t:"1336-11-07", tur:"son", b:"Ashikaga Takauji Kenmu Kanunnâmesi'ni ilan etti, Muromachi Şogunluğu'nu kurdu" }
   ]
 },
@@ -6342,10 +6342,10 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1859-02-17", tur:"isgal", b:"Fransız donanması Saygon'u ele geçirdi" },
-    { t:"1863-08-11", tur:"vassal", b:"Kral Norodom, Fransa ile antlaşma imzalayıp Kamboçya'yı Fransız himayesine soktu; rakip Siyam'a karşı Fransız korumasını tercih etti (bkz. [[kamboc-kralligi]]) (standart akademik kaynak)" },
-    { t:"1884-06-06", tur:"antlasma", b:"Fransa-Annam (Patenôtre) Hué Antlaşması, 1883 Harmand Antlaşması'nı yumuşatarak Annam ve Tonkin üzerinde Fransız himayesini kalıcı biçimde tesis etti (standart akademik kaynak)" },
+    { t:"1863-08-11", tur:"vassal", b:"Kral Norodom, Fransa ile antlaşma imzalayıp Kamboçya'yı Fransız himayesine soktu; rakip Siyam'a karşı Fransız korumasını tercih etti", ic_not_b:"eski b: Kral Norodom, Fransa ile antlaşma imzalayıp Kamboçya'yı Fransız himayesine soktu; rakip Siyam'a karşı Fransız korumasını tercih etti (bkz. [[kamboc-kralligi]]) (standart akademik kaynak)" },
+    { t:"1884-06-06", tur:"antlasma", b:"Fransa-Annam (Patenôtre) Hué Antlaşması, 1883 Harmand Antlaşması'nı yumuşatarak Annam ve Tonkin üzerinde Fransız himayesini kalıcı biçimde tesis etti", ic_not_b:"eski b: Fransa-Annam (Patenôtre) Hué Antlaşması, 1883 Harmand Antlaşması'nı yumuşatarak Annam ve Tonkin üzerinde Fransız himayesini kalıcı biçimde tesis etti (standart akademik kaynak)" },
     { t:"1887-10-17", tur:"kurulus", b:"Fransız Çinhindi Birliği resmen kuruldu (Vietnam + Kamboçya, sonra Laos)" },
-    { t:"1893-10-03", tur:"toprak-kazanc", b:"Fransız donanma baskısıyla Siyam, Mekong'un doğusundaki toprakları bıraktı; Laos, Fransız Çinhindi'ne katılan beşinci bölge oldu (standart akademik kaynak)" }
+    { t:"1893-10-03", tur:"toprak-kazanc", b:"Fransız donanma baskısıyla Siyam, Mekong'un doğusundaki toprakları bıraktı; Laos, Fransız Çinhindi'ne katılan beşinci bölge oldu", ic_not_b:"eski b: Fransız donanma baskısıyla Siyam, Mekong'un doğusundaki toprakları bıraktı; Laos, Fransız Çinhindi'ne katılan beşinci bölge oldu (standart akademik kaynak)" }
   ]
 },
 { id:"haydarabad-nizam", ad:"Haydarabad Nizamlığı (Âsafcâh Hanedanı)", tur:"devlet", bolge:"guney-asya",
@@ -6354,10 +6354,10 @@ window.DEVLETLER = [
   kaynak:"haydarabad-nizamligi",
   kronoloji:[
     { t:"1724-10-11", tur:"kurulus", b:"Nizâmülmülk Âsafcâh bağımsızlığını ilan etti" },
-    { t:"1731-01-01", tur:"vassal", b:"Nizamülmülk, Marathalar'la antlaşma imzalayıp bölgedeki varlıklarını ve Haydarâbâd dışında vergi toplama haklarını tanımak zorunda kaldı (TDV haydarabad-nizamligi maddesi)" },
-    { t:"1766-01-01", tur:"antlasma", b:"İngiliz Doğu Hindistan Şirketi ile himaye antlaşması imzalandı; 1768'de bu antlaşma Karnataka nevvâbını da kapsayacak biçimde yenilendi (TDV haydarabad-nizamligi maddesi)" },
-    { t:"1799-01-01", tur:"savas", b:"İngiltere'nin 1798'de verdiği askerî destekle Nizam Ali, Tîpû Sultan'a karşı yeniden savaşa girdi; Tîpû öldürülüp ordusu dağıtıldı (TDV haydarabad-nizamligi maddesi)" },
-    { t:"1802-01-01", tur:"antlasma", b:"İngilizlerle yeni bir antlaşma imzalanıp ticarî imtiyazlar tanındı, askerî bağımlılık pekişti (TDV haydarabad-nizamligi maddesi)" },
+    { t:"1731-01-01", tur:"vassal", b:"Nizamülmülk, Marathalar'la antlaşma imzalayıp bölgedeki varlıklarını ve Haydarâbâd dışında vergi toplama haklarını tanımak zorunda kaldı", ic_not_b:"eski b: Nizamülmülk, Marathalar'la antlaşma imzalayıp bölgedeki varlıklarını ve Haydarâbâd dışında vergi toplama haklarını tanımak zorunda kaldı (TDV haydarabad-nizamligi maddesi)" },
+    { t:"1766-01-01", tur:"antlasma", b:"İngiliz Doğu Hindistan Şirketi ile himaye antlaşması imzalandı; 1768'de bu antlaşma Karnataka nevvâbını da kapsayacak biçimde yenilendi", ic_not_b:"eski b: İngiliz Doğu Hindistan Şirketi ile himaye antlaşması imzalandı; 1768'de bu antlaşma Karnataka nevvâbını da kapsayacak biçimde yenilendi (TDV haydarabad-nizamligi maddesi)" },
+    { t:"1799-01-01", tur:"savas", b:"İngiltere'nin 1798'de verdiği askerî destekle Nizam Ali, Tîpû Sultan'a karşı yeniden savaşa girdi; Tîpû öldürülüp ordusu dağıtıldı", ic_not_b:"eski b: İngiltere'nin 1798'de verdiği askerî destekle Nizam Ali, Tîpû Sultan'a karşı yeniden savaşa girdi; Tîpû öldürülüp ordusu dağıtıldı (TDV haydarabad-nizamligi maddesi)" },
+    { t:"1802-01-01", tur:"antlasma", b:"İngilizlerle yeni bir antlaşma imzalanıp ticarî imtiyazlar tanındı, askerî bağımlılık pekişti", ic_not_b:"eski b: İngilizlerle yeni bir antlaşma imzalanıp ticarî imtiyazlar tanındı, askerî bağımlılık pekişti (TDV haydarabad-nizamligi maddesi)" },
     { t:"1948-09-13", tur:"isgal", b:"Hindistan, 'Operation Polo' harekâtıyla Haydarabad'ı işgale başladı", kaynak:"standart akademik kaynak (WebSearch) — künyenin t: alanı BU günü DEĞİL, teslim gününü esas alıyor" },
     { t:"1948-09-17", tur:"son", b:"Nizam'ın orduları teslim oldu, Haydarabad fiilen Hindistan'a katıldı", kaynak:"standart akademik kaynak (WebSearch) — künyenin t: alanıyla birebir" }
   ]
@@ -6368,9 +6368,9 @@ window.DEVLETLER = [
   kaynak:"bengal",
   kronoloji:[
     { t:"1717-01-01", tur:"kurulus", b:"Murşid Kulı Han, Babür'den fiilen özerk valiliğini kurdu" },
-    { t:"1756-04-01", tur:"hukumdar", b:"Sirâceddevle, dedesi Alîverdi Han'ın yerine 23 yaşında nevab oldu; deneyimsiz yönetimi İngiliz Doğu Hindistan Şirketi ile gerilime yol açtı (TDV'de yok — World History Encyclopedia 'Battle of Plassey')" },
+    { t:"1756-04-01", tur:"hukumdar", b:"Sirâceddevle, dedesi Alîverdi Han'ın yerine 23 yaşında nevab oldu; deneyimsiz yönetimi İngiliz Doğu Hindistan Şirketi ile gerilime yol açtı", ic_not_b:"eski b: Sirâceddevle, dedesi Alîverdi Han'ın yerine 23 yaşında nevab oldu; deneyimsiz yönetimi İngiliz Doğu Hindistan Şirketi ile gerilime yol açtı (TDV'de yok — World History Encyclopedia 'Battle of Plassey')" },
     { t:"1757-06-23", tur:"son", b:"Plassey Savaşı'nda İngilizlere yenilip fiilî egemenlik sona erdi" },
-    { t:"1757-06-29", tur:"vassal", b:"Yenilginin ardından Robert Clive, Murşidâbâd'a girip İngilizlerin desteklediği Mir Cafer'i nevab ilan etti; Bengal fiilen Şirket vesayetine girdi (TDV'de yok, standart akademik kaynak)" }
+    { t:"1757-06-29", tur:"vassal", b:"Yenilginin ardından Robert Clive, Murşidâbâd'a girip İngilizlerin desteklediği Mir Cafer'i nevab ilan etti; Bengal fiilen Şirket vesayetine girdi", ic_not_b:"eski b: Yenilginin ardından Robert Clive, Murşidâbâd'a girip İngilizlerin desteklediği Mir Cafer'i nevab ilan etti; Bengal fiilen Şirket vesayetine girdi (TDV'de yok, standart akademik kaynak)" }
   ]
 },
 { id:"san-fan", ad:"Üç Vasal İsyanı (San Fan)", tur:"isyan", bolge:"dogu-asya",
@@ -6379,8 +6379,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — arandı, yok (canonik \"uc-feodal-beylik-isyani\" boş, \"cin--ulke\" genel maddesi Qing kuruluş döneminden bahsediyor ama San Fan/Wu Sangui isimlerini içermiyor); dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1673-12-28", tur:"isyan", b:"Wu Sangui, Qing'e karşı ayaklanmasını ilan etti" },
-    { t:"1678-03-01", tur:"isyan", b:"Wu Sangui, Hengzhou'da kendini 'Büyük Zhou' (Wu Zhou) hanedanının imparatoru ilan edip kendi sarayını kurdu (Britannica 'Wu Sangui' + Berkshire Encyclopedia of China; gün yok)" },
-    { t:"1678-10-02", tur:"hukumdar", b:"Wu Sangui Hengzhou'da hastalıktan öldü; imparatorluk unvanı torunu Wu Shifan'a geçti, isyanın liderliği zayıfladı (Britannica 'Wu Sangui')" },
+    { t:"1678-03-01", tur:"isyan", b:"Wu Sangui, Hengzhou'da kendini 'Büyük Zhou' (Wu Zhou) hanedanının imparatoru ilan edip kendi sarayını kurdu", ic_not_b:"eski b: Wu Sangui, Hengzhou'da kendini 'Büyük Zhou' (Wu Zhou) hanedanının imparatoru ilan edip kendi sarayını kurdu (Britannica 'Wu Sangui' + Berkshire Encyclopedia of China; gün yok)" },
+    { t:"1678-10-02", tur:"hukumdar", b:"Wu Sangui Hengzhou'da hastalıktan öldü; imparatorluk unvanı torunu Wu Shifan'a geçti, isyanın liderliği zayıfladı", ic_not_b:"eski b: Wu Sangui Hengzhou'da hastalıktan öldü; imparatorluk unvanı torunu Wu Shifan'a geçti, isyanın liderliği zayıfladı (Britannica 'Wu Sangui')" },
     { t:"1681-12-07", tur:"son", b:"Qing orduları son direnişi kırdı, isyan tamamen bastırıldı" }
   ]
 },
@@ -6400,7 +6400,7 @@ window.DEVLETLER = [
   ozet:"Deccan'da hüküm süren Hindu hanedanı; Alâeddin Halacî'nin 1296 seferiyle Delhi'ye haraca bağlandı, 1318'de son direniş de bastırılarak doğrudan ilhak edildi. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1210-01-01", tur:"hukumdar", b:"Singhana II, Hoysala fethini kutlayıp ikinci kez taç giydi; krallığı Narmada'dan Tungabhadra'ya genişletip Hoysala/Kakatiya/Paramara/Chalukya hükümdarlarına üstünlüğünü kabul ettirdi, hanedanın zirvesiydi (Kandagal yazıtları, Altekar 'The Early History of the Deccan'; gün yok)" },
+    { t:"1210-01-01", tur:"hukumdar", b:"Singhana II, Hoysala fethini kutlayıp ikinci kez taç giydi; krallığı Narmada'dan Tungabhadra'ya genişletip Hoysala/Kakatiya/Paramara/Chalukya hükümdarlarına üstünlüğünü kabul ettirdi, hanedanın zirvesiydi (Kandagal yazıtları, Altekar 'The Early History of the Deccan')", ic_not_b:"eski b: Singhana II, Hoysala fethini kutlayıp ikinci kez taç giydi; krallığı Narmada'dan Tungabhadra'ya genişletip Hoysala/Kakatiya/Paramara/Chalukya hükümdarlarına üstünlüğünü kabul ettirdi, hanedanın zirvesiydi (Kandagal yazıtları, Altekar 'The Early History of the Deccan'; gün yok)" },
     { t:"1296-01-01", tur:"toprak-kayip", b:"Alâeddin Halacî'nin seferiyle Delhi Sultanlığı'na haraca bağlandı" },
     { t:"1308-01-01", tur:"vassal", b:"Alâeddin Halacî'nin Malik Kâfûr komutasında gönderdiği ordu Devagiri'yi kuşattı; Ramachandra teslim olup Delhi'ye götürüldü, sonra Delhi'nin vasalı olarak geri gönderildi (Peter Jackson 1999, K.S. Lal 1950)" },
     { t:"1313-01-01", tur:"toprak-kayip", b:"Ramachandra'nın halefi Simhana III (Şankaradeva) Delhi'ye karşı ayaklanınca Malik Kâfûr ikinci kez gönderildi; Simhana III yenilip öldürüldü, Devagiri fiilen Delhi'nin doğrudan kontrolüne girdi (Peter Jackson 1999, K.S. Lal 1950)" },
@@ -6413,8 +6413,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1722-01-01", tur:"kurulus", b:"Sâdet Han, Babür'den fiilen özerk nevablığını kurdu" },
-    { t:"1764-10-23", tur:"savas", b:"Nevab Şücâüddevle, eski Bengal Nevabı Mir Kâsım ve Babür İmparatoru II. Şah Âlem ile kurduğu ittifakla Buxar'da İngilizlere karşı savaştı ve ağır yenildi; Avad'ın Şirket üstünlüğünü kabulünün başlangıcı oldu (TDV'de yok, World History Encyclopedia 'Battle of Buxar')" },
-    { t:"1765-08-16", tur:"antlasma", b:"Allahabad Antlaşması ile Şücâüddevle tahtına iade edildi ama Şirket'e bağımlı müttefik konumuna düştü, tazminat ödeyip Allahabad-Kara topraklarını bıraktı (TDV'de yok, standart akademik kaynak — tekil hakemli makaleyle doğrulanamadı, birden fazla ikincil kaynakta tutarlı)" },
+    { t:"1764-10-23", tur:"savas", b:"Nevab Şücâüddevle, eski Bengal Nevabı Mir Kâsım ve Babür İmparatoru II. Şah Âlem ile kurduğu ittifakla Buxar'da İngilizlere karşı savaştı ve ağır yenildi; Avad'ın Şirket üstünlüğünü kabulünün başlangıcı oldu", ic_not_b:"eski b: Nevab Şücâüddevle, eski Bengal Nevabı Mir Kâsım ve Babür İmparatoru II. Şah Âlem ile kurduğu ittifakla Buxar'da İngilizlere karşı savaştı ve ağır yenildi; Avad'ın Şirket üstünlüğünü kabulünün başlangıcı oldu (TDV'de yok, World History Encyclopedia 'Battle of Buxar')" },
+    { t:"1765-08-16", tur:"antlasma", b:"Allahabad Antlaşması ile Şücâüddevle tahtına iade edildi ama Şirket'e bağımlı müttefik konumuna düştü, tazminat ödeyip Allahabad-Kara topraklarını bıraktı", ic_not_b:"eski b: Allahabad Antlaşması ile Şücâüddevle tahtına iade edildi ama Şirket'e bağımlı müttefik konumuna düştü, tazminat ödeyip Allahabad-Kara topraklarını bıraktı (TDV'de yok, standart akademik kaynak — tekil hakemli makaleyle doğrulanamadı, birden fazla ikincil kaynakta tutarlı)" },
     { t:"1856-02-07", tur:"son", b:"İngiliz Doğu Hindistan Şirketi Avad'ı doğrudan ilhak etti" }
   ]
 },
@@ -6424,10 +6424,10 @@ window.DEVLETLER = [
   kaynak:"jaunpur + sarki-sultanligi (TDV, ikincisi asıl siyasî kaynak)",
   kronoloji:[
     { t:"1394-01-01", tur:"kurulus", b:"Şarkî hanedanı Delhi'den bağımsızlaşıp Jaunpur Sultanlığı'nı kurdu" },
-    { t:"1399-11-01", tur:"hukumdar", b:"Kurucu Melik Server (Hâce-i Cihân) öldü, yerine azatlı kölesi Mübârek Şah Karanfil geçti (Rebîülevvel 802, TDV sarki-sultanligi maddesi)" },
-    { t:"1452-01-01", tur:"savas", b:"Sultan Mahmûd Şah, Narela Savaşı'nda Delhi hâkimi kayınbiraderi Behlûl-i Lûdî'ye yenildi (856 AH, TDV sarki-sultanligi maddesi)" },
-    { t:"1478-01-01", tur:"savas", b:"Hüseyin Şah Şarkî, Delhi'yi almak için Yamuna'ya kadar ilerledi ama Behlûl-i Lûdî onu yenilgiye uğrattı (TDV sarki-sultanligi maddesi)" },
-    { t:"1481-01-01", tur:"toprak-kayip", b:"Hüseyin Şah, Sirsa Savaşı'nı kaybedip topraklarının önemli kısmını Lûdîler'e bıraktı; ertesi yıl Behlûl başkent Jaunpûr'u da ele geçirdi (886 AH, TDV sarki-sultanligi maddesi)" },
+    { t:"1399-11-01", tur:"hukumdar", b:"Kurucu Melik Server (Hâce-i Cihân) öldü, yerine azatlı kölesi Mübârek Şah Karanfil geçti (Rebîülevvel 802)", ic_not_b:"eski b: Kurucu Melik Server (Hâce-i Cihân) öldü, yerine azatlı kölesi Mübârek Şah Karanfil geçti (Rebîülevvel 802, TDV sarki-sultanligi maddesi)" },
+    { t:"1452-01-01", tur:"savas", b:"Sultan Mahmûd Şah, Narela Savaşı'nda Delhi hâkimi kayınbiraderi Behlûl-i Lûdî'ye yenildi (856 AH)", ic_not_b:"eski b: Sultan Mahmûd Şah, Narela Savaşı'nda Delhi hâkimi kayınbiraderi Behlûl-i Lûdî'ye yenildi (856 AH, TDV sarki-sultanligi maddesi)" },
+    { t:"1478-01-01", tur:"savas", b:"Hüseyin Şah Şarkî, Delhi'yi almak için Yamuna'ya kadar ilerledi ama Behlûl-i Lûdî onu yenilgiye uğrattı", ic_not_b:"eski b: Hüseyin Şah Şarkî, Delhi'yi almak için Yamuna'ya kadar ilerledi ama Behlûl-i Lûdî onu yenilgiye uğrattı (TDV sarki-sultanligi maddesi)" },
+    { t:"1481-01-01", tur:"toprak-kayip", b:"Hüseyin Şah, Sirsa Savaşı'nı kaybedip topraklarının önemli kısmını Lûdîler'e bıraktı; ertesi yıl Behlûl başkent Jaunpûr'u da ele geçirdi (886 AH)", ic_not_b:"eski b: Hüseyin Şah, Sirsa Savaşı'nı kaybedip topraklarının önemli kısmını Lûdîler'e bıraktı; ertesi yıl Behlûl başkent Jaunpûr'u da ele geçirdi (886 AH, TDV sarki-sultanligi maddesi)" },
     { t:"1483-01-01", tur:"son", b:"Lodi hanedanı Jaunpur'u ilhak etti" }
   ]
 },
@@ -6437,9 +6437,9 @@ window.DEVLETLER = [
   kaynak:"myanmar + standart akademik kaynak (Britannica 'The unification of Myanmar' — Maung Htin Aung; 'Pegu')",
   kronoloji:[
     { t:"1287-01-01", tur:"kurulus", b:"Pagan'ın çöküşü üzerine Mon halkı Martaban merkezli krallığını kurdu" },
-    { t:"1472-01-01", tur:"hukumdar", b:"Dhammazedi tahta çıktı (1472-92); Peygu bu dönemde Güneydoğu Asya'nın önemli bir Theravada Budist ilim/ticaret merkezi olup krallığın altın çağını yaşadı (Britannica, Maung Htin Aung)" },
-    { t:"1539-01-01", tur:"isgal", b:"Toungoo Hanedanı (Tabinshwehti) Mon Krallığı'nı ilhak etti; Peygu 1599'a (ve 1613-1634 arası tekrar) birleşik Toungoo krallığının başkenti oldu — bkz. yukarıdaki YAPISAL ÇELİŞKİ notu (Britannica 'Pegu')" },
-    { t:"1740-01-01", tur:"isyan", b:"Ava/Toungoo yönetimine karşı Mon isyanı Peygu'yu yeniden bağımsız, kısa ömürlü bir krallığın başkenti yaptı; bu 'restore edilmiş' Hanthawaddy 1757'de Alaungpaya'ca ortadan kaldırıldı (Britannica 'Pegu'/'The unification of Myanmar')" },
+    { t:"1472-01-01", tur:"hukumdar", b:"Dhammazedi tahta çıktı (1472-92); Peygu bu dönemde Güneydoğu Asya'nın önemli bir Theravada Budist ilim/ticaret merkezi olup krallığın altın çağını yaşadı", ic_not_b:"eski b: Dhammazedi tahta çıktı (1472-92); Peygu bu dönemde Güneydoğu Asya'nın önemli bir Theravada Budist ilim/ticaret merkezi olup krallığın altın çağını yaşadı (Britannica, Maung Htin Aung)" },
+    { t:"1539-01-01", tur:"isgal", b:"Toungoo Hanedanı (Tabinshwehti) Mon Krallığı'nı ilhak etti; Peygu 1599'a (ve 1613-1634 arası tekrar) birleşik Toungoo krallığının başkenti oldu", ic_not_b:"eski b: Toungoo Hanedanı (Tabinshwehti) Mon Krallığı'nı ilhak etti; Peygu 1599'a (ve 1613-1634 arası tekrar) birleşik Toungoo krallığının başkenti oldu — bkz. yukarıdaki YAPISAL ÇELİŞKİ notu (Britannica 'Pegu')" },
+    { t:"1740-01-01", tur:"isyan", b:"Ava/Toungoo yönetimine karşı Mon isyanı Peygu'yu yeniden bağımsız, kısa ömürlü bir krallığın başkenti yaptı; bu 'restore edilmiş' Hanthawaddy 1757'de Alaungpaya'ca ortadan kaldırıldı", ic_not_b:"eski b: Ava/Toungoo yönetimine karşı Mon isyanı Peygu'yu yeniden bağımsız, kısa ömürlü bir krallığın başkenti yaptı; bu 'restore edilmiş' Hanthawaddy 1757'de Alaungpaya'ca ortadan kaldırıldı (Britannica 'Pegu'/'The unification of Myanmar')" },
     { t:"1757-05-06", tur:"son", b:"Alaungpaya'nın Konbaung ordusu Peygu'yu alıp krallığa son verdi" }
   ]
 },
@@ -6459,8 +6459,8 @@ window.DEVLETLER = [
   ozet:"Burma'yı ilk kez birleştiren, anıtsal tapınaklarıyla tanınan krallık; Moğol istilasıyla (1287) fiilen çöktü, Myinsaing kardeşlerin iktidarı devralmasıyla hanedan sona erdi. HANEDAN ÖMRÜ kimliğidir — çöküş süreci 1287-1297 arasında kademeli oldu. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"myanmar",
   kronoloji:[
-    { t:"1057-01-01", tur:"toprak-kazanc", b:"Kral Anavrahta, Mon başkenti Thaton'u fethetti; ele geçirdiği Pali Tripitaka metinleri sayesinde Theravada Budizmi devlet dini oldu, İrravadi deltası ilk kez Birmanya egemenliğine girdi (standart akademik kaynak: Britannica 'Anawrahta')" },
-    { t:"1277-04-01", tur:"savas", b:"Narathihapate'nin Yunnan'a saldırmasıyla başlayan Ngasaunggyan Savaşı'nda büyük Pagan ordusu Kubilay Han'a bağlı Moğol atlı okçularına yenildi; bu, 1287'deki çöküşe giden ilk büyük savaştı (standart akademik kaynak: Britannica 'Battle of Ngasaunggyan')" },
+    { t:"1057-01-01", tur:"toprak-kazanc", b:"Kral Anavrahta, Mon başkenti Thaton'u fethetti; ele geçirdiği Pali Tripitaka metinleri sayesinde Theravada Budizmi devlet dini oldu, İrravadi deltası ilk kez Birmanya egemenliğine girdi", ic_not_b:"eski b: Kral Anavrahta, Mon başkenti Thaton'u fethetti; ele geçirdiği Pali Tripitaka metinleri sayesinde Theravada Budizmi devlet dini oldu, İrravadi deltası ilk kez Birmanya egemenliğine girdi (standart akademik kaynak: Britannica 'Anawrahta')" },
+    { t:"1277-04-01", tur:"savas", b:"Narathihapate'nin Yunnan'a saldırmasıyla başlayan Ngasaunggyan Savaşı'nda büyük Pagan ordusu Kubilay Han'a bağlı Moğol atlı okçularına yenildi; bu, 1287'deki çöküşe giden ilk büyük savaştı", ic_not_b:"eski b: Narathihapate'nin Yunnan'a saldırmasıyla başlayan Ngasaunggyan Savaşı'nda büyük Pagan ordusu Kubilay Han'a bağlı Moğol atlı okçularına yenildi; bu, 1287'deki çöküşe giden ilk büyük savaştı (standart akademik kaynak: Britannica 'Battle of Ngasaunggyan')" },
     { t:"1287-01-01", tur:"isgal", b:"Moğol istilası krallığı fiilen çökertti" },
     { t:"1297-01-01", tur:"son", b:"Myinsaing kardeşler iktidarı ele geçirdi, Pagan hanedanı sona erdi" }
   ]
@@ -6518,8 +6518,8 @@ window.DEVLETLER = [
   kaynak:"endonezya",
   kronoloji:[
     { t:"1222-01-01", tur:"kurulus", b:"Ken Arok, Singhasari Krallığı'nı kurdu" },
-    { t:"1275-01-01", tur:"toprak-kazanc", b:"Kral Kertanagara, takımadaları tek egemenlik altında birleştirme vizyonuyla Sumatra'daki Melayu Krallığı'na Pamalayu Seferi'ni başlattı (standart akademik kaynak: Britannica 'Indonesia — Kertanagara, Empire, Java')" },
-    { t:"1289-01-01", tur:"savas", b:"Kertanagara, Kubilay Han'ın haraç/rehine talebiyle gelen elçisi Meng Qi'nin yüzünü dağlatıp Moğol egemenliğini reddetti; bu hakaret 1293'teki büyük Moğol donanma seferinin gerekçesi oldu (standart akademik kaynak: Britannica 'Indonesia — The Majapahit era')" },
+    { t:"1275-01-01", tur:"toprak-kazanc", b:"Kral Kertanagara, takımadaları tek egemenlik altında birleştirme vizyonuyla Sumatra'daki Melayu Krallığı'na Pamalayu Seferi'ni başlattı", ic_not_b:"eski b: Kral Kertanagara, takımadaları tek egemenlik altında birleştirme vizyonuyla Sumatra'daki Melayu Krallığı'na Pamalayu Seferi'ni başlattı (standart akademik kaynak: Britannica 'Indonesia — Kertanagara, Empire, Java')" },
+    { t:"1289-01-01", tur:"savas", b:"Kertanagara, Kubilay Han'ın haraç/rehine talebiyle gelen elçisi Meng Qi'nin yüzünü dağlatıp Moğol egemenliğini reddetti; bu hakaret 1293'teki büyük Moğol donanma seferinin gerekçesi oldu", ic_not_b:"eski b: Kertanagara, Kubilay Han'ın haraç/rehine talebiyle gelen elçisi Meng Qi'nin yüzünü dağlatıp Moğol egemenliğini reddetti; bu hakaret 1293'teki büyük Moğol donanma seferinin gerekçesi oldu (standart akademik kaynak: Britannica 'Indonesia — The Majapahit era')" },
     { t:"1292-01-01", tur:"son", b:"Jayakatwang'ın (Kediri) isyanıyla son kral Kertanagara öldürüldü" }
   ]
 },
@@ -6529,9 +6529,9 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1400-03-01", tur:"kurulus", b:"Hồ Quý Ly, Trần hanedanını devirip tahta çıktı" },
-    { t:"1401-01-01", tur:"hukumdar", b:"Hồ Quý Ly, tahtı kısa süre sonra oğlu Hồ Hán Thương'a devredip Vietnam geleneğine uyarak 'Thái Thượng Hoàng' (üst imparator) unvanıyla perde arkasında fiilî iktidarı elinde tuttu (Whitmore 1985, Taylor 2013; gün yok)" },
-    { t:"1406-01-01", tur:"isgal", b:"Ming sarayı, devrilen Trần hanedanının restorasyonunu bahane ederek müdahale kararı aldı ve bir Trần vârisi iddiasındaki kişiyi askerî refakatle geri gönderdi (Whitmore 1985, Taylor 2013; gün yok, 'ilkbahar 1406')" },
-    { t:"1406-01-01", tur:"savas", b:"Hồ kuvvetleri, Ming'in gönderdiği sözde Trần vârisini ve refakatindeki birliği pusuya düşürüp yok etti; bu olay Ming'in tam ölçekli istila kararını tetikledi (Whitmore 1985; gün yok)" },
+    { t:"1401-01-01", tur:"hukumdar", b:"Hồ Quý Ly, tahtı kısa süre sonra oğlu Hồ Hán Thương'a devredip Vietnam geleneğine uyarak 'Thái Thượng Hoàng' (üst imparator) unvanıyla perde arkasında fiilî iktidarı elinde tuttu", ic_not_b:"eski b: Hồ Quý Ly, tahtı kısa süre sonra oğlu Hồ Hán Thương'a devredip Vietnam geleneğine uyarak 'Thái Thượng Hoàng' (üst imparator) unvanıyla perde arkasında fiilî iktidarı elinde tuttu (Whitmore 1985, Taylor 2013; gün yok)" },
+    { t:"1406-01-01", tur:"isgal", b:"Ming sarayı, devrilen Trần hanedanının restorasyonunu bahane ederek müdahale kararı aldı ve bir Trần vârisi iddiasındaki kişiyi askerî refakatle geri gönderdi", ic_not_b:"eski b: Ming sarayı, devrilen Trần hanedanının restorasyonunu bahane ederek müdahale kararı aldı ve bir Trần vârisi iddiasındaki kişiyi askerî refakatle geri gönderdi (Whitmore 1985, Taylor 2013; gün yok, 'ilkbahar 1406')" },
+    { t:"1406-01-01", tur:"savas", b:"Hồ kuvvetleri, Ming'in gönderdiği sözde Trần vârisini ve refakatindeki birliği pusuya düşürüp yok etti; bu olay Ming'in tam ölçekli istila kararını tetikledi", ic_not_b:"eski b: Hồ kuvvetleri, Ming'in gönderdiği sözde Trần vârisini ve refakatindeki birliği pusuya düşürüp yok etti; bu olay Ming'in tam ölçekli istila kararını tetikledi (Whitmore 1985; gün yok)" },
     { t:"1407-06-17", tur:"son", b:"Ming ordusu Hồ Quý Ly'yi esir aldı, hanedan sona erdi" }
   ]
 },
@@ -6541,8 +6541,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1690-01-01", tur:"kurulus", b:"Zülfikar Han, Haydarabad'dan ayrı Karnatik valiliğini fiilen özerkleştirdi" },
-    { t:"1751-08-31", tur:"savas", b:"Fransız destekli Chanda Sahib, İngiliz destekli Muhammed Ali'yi Trichinopoly'de kuşatınca Robert Clive Arcot'u ele geçirip 53 günlük kuşatmaya karşı savundu — Karnatik Savaşları'nın dönüm noktası (Britannica, 'Robert Clive')" },
-    { t:"1761-01-01", tur:"vassal", b:"Fransızlar Wandiwash'ta (1760) yenilip Pondicherry İngilizlerce alınınca (1761), İngilizler Karnatik'i nevabı (Muhammed Ali Han Vallajah) aracılığıyla yönetti; nevab giderek Şirket'e borçlanıp 1801'deki doğrudan ilhaka giden süreç başladı (Britannica, 'Carnatic Wars')" },
+    { t:"1751-08-31", tur:"savas", b:"Fransız destekli Chanda Sahib, İngiliz destekli Muhammed Ali'yi Trichinopoly'de kuşatınca Robert Clive Arcot'u ele geçirip 53 günlük kuşatmaya karşı savundu — Karnatik Savaşları'nın dönüm noktası", ic_not_b:"eski b: Fransız destekli Chanda Sahib, İngiliz destekli Muhammed Ali'yi Trichinopoly'de kuşatınca Robert Clive Arcot'u ele geçirip 53 günlük kuşatmaya karşı savundu — Karnatik Savaşları'nın dönüm noktası (Britannica, 'Robert Clive')" },
+    { t:"1761-01-01", tur:"vassal", b:"Fransızlar Wandiwash'ta (1760) yenilip Pondicherry İngilizlerce alınınca (1761), İngilizler Karnatik'i nevabı (Muhammed Ali Han Vallajah) aracılığıyla yönetti; nevab giderek Şirket'e borçlanıp 1801'deki doğrudan ilhaka giden süreç başladı", ic_not_b:"eski b: Fransızlar Wandiwash'ta (1760) yenilip Pondicherry İngilizlerce alınınca (1761), İngilizler Karnatik'i nevabı (Muhammed Ali Han Vallajah) aracılığıyla yönetti; nevab giderek Şirket'e borçlanıp 1801'deki doğrudan ilhaka giden süreç başladı (Britannica, 'Carnatic Wars')" },
     { t:"1801-07-31", tur:"son", b:"İngiliz Doğu Hindistan Şirketi nevablığı doğrudan ilhak etti" }
   ]
 },
@@ -6552,8 +6552,8 @@ window.DEVLETLER = [
   kaynak:"tayland",
   kronoloji:[
     { t:"1767-12-28", tur:"kurulus", b:"General Taksin kendini kral ilan etti, Thonburi'yi başkent yaptı" },
-    { t:"1770-08-19", tur:"toprak-kazanc", b:"Taksin, Phitsanulok'u ele geçirip Sawangburi'yi düşürerek Ayutthaya'nın çöküşünden sonra beşe bölünmüş Siyam topraklarını yeniden birleştirme kampanyasını tamamladı (standart akademik kaynak: Britannica 'Taksin')" },
-    { t:"1781-01-01", tur:"isyan", b:"Taksin'in kendini bir 'sotapanna' (nirvanaya ermiş kişi) ilan edip keşişlerden ibadet istemesi dinî bir buhran doğurdu; 1782'deki ayaklanma ve tahttan indirilişinin zeminini hazırladı (standart akademik kaynak: Britannica 'Taksin')" },
+    { t:"1770-08-19", tur:"toprak-kazanc", b:"Taksin, Phitsanulok'u ele geçirip Sawangburi'yi düşürerek Ayutthaya'nın çöküşünden sonra beşe bölünmüş Siyam topraklarını yeniden birleştirme kampanyasını tamamladı", ic_not_b:"eski b: Taksin, Phitsanulok'u ele geçirip Sawangburi'yi düşürerek Ayutthaya'nın çöküşünden sonra beşe bölünmüş Siyam topraklarını yeniden birleştirme kampanyasını tamamladı (standart akademik kaynak: Britannica 'Taksin')" },
+    { t:"1781-01-01", tur:"isyan", b:"Taksin'in kendini bir 'sotapanna' (nirvanaya ermiş kişi) ilan edip keşişlerden ibadet istemesi dinî bir buhran doğurdu; 1782'deki ayaklanma ve tahttan indirilişinin zeminini hazırladı", ic_not_b:"eski b: Taksin'in kendini bir 'sotapanna' (nirvanaya ermiş kişi) ilan edip keşişlerden ibadet istemesi dinî bir buhran doğurdu; 1782'deki ayaklanma ve tahttan indirilişinin zeminini hazırladı (standart akademik kaynak: Britannica 'Taksin')" },
     { t:"1782-04-06", tur:"son", b:"Chao Phraya Chakri'nin darbesiyle Taksin devrilip idam edildi" }
   ]
 },
@@ -6586,9 +6586,9 @@ window.DEVLETLER = [
   ozet:"Güney Deccan'da (bugünkü Karnataka) hüküm süren, tapınak mimarisiyle tanınan Hindu hanedanı; son hükümdar III. Ballala'nın Madurai Sultanlığı'nca öldürülmesiyle sona erdi, toprakları kısa süre sonra doğan Vijayanagara'ya (bkz. [[vijayanagara]]) katıldı. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1117-01-01", tur:"hukumdar", b:"Kral Vishnuvardhana, Cholalar'a karşı Talakad zaferini anmak için Belur'da Chennakeshava Tapınağı'nın inşasını başlattı; hanedanın mimari-siyasi zirvesinin başlangıcı (Britannica 'Visnuvardhana'; Nilakanta Sastri, 'A History of South India')" },
+    { t:"1117-01-01", tur:"hukumdar", b:"Kral Vishnuvardhana, Cholalar'a karşı Talakad zaferini anmak için Belur'da Chennakeshava Tapınağı'nın inşasını başlattı; hanedanın mimari-siyasi zirvesinin başlangıcı", ic_not_b:"eski b: Kral Vishnuvardhana, Cholalar'a karşı Talakad zaferini anmak için Belur'da Chennakeshava Tapınağı'nın inşasını başlattı; hanedanın mimari-siyasi zirvesinin başlangıcı (Britannica 'Visnuvardhana'; Nilakanta Sastri, 'A History of South India')" },
     { t:"1311-01-01", tur:"toprak-kayip", b:"Malik Kâfûr'un seferiyle Delhi'ye haraca bağlandı" },
-    { t:"1327-01-01", tur:"savas", b:"Muhammed bin Tuğluk'un ikinci seferinde Halebidu yeniden yağmalandı; III. Ballala tâbiliği reddedip Tiruvannamalai'ye çekilerek direnişini sürdürdü (Britannica 'Ballala III'; Nilakanta Sastri)" },
+    { t:"1327-01-01", tur:"savas", b:"Muhammed bin Tuğluk'un ikinci seferinde Halebidu yeniden yağmalandı; III. Ballala tâbiliği reddedip Tiruvannamalai'ye çekilerek direnişini sürdürdü", ic_not_b:"eski b: Muhammed bin Tuğluk'un ikinci seferinde Halebidu yeniden yağmalandı; III. Ballala tâbiliği reddedip Tiruvannamalai'ye çekilerek direnişini sürdürdü (Britannica 'Ballala III'; Nilakanta Sastri)" },
     { t:"1343-01-01", tur:"son", b:"III. Ballala, Madurai Sultanlığı güçlerince öldürüldü, hanedan sona erdi" }
   ]
 },
@@ -6609,9 +6609,9 @@ window.DEVLETLER = [
   ozet:"Polonnaruwa'nın çöküşünden Portekiz'in gelişine kadar birbirini izleyen Sinhala krallıkları (Dambadeniya, Gampola, Kotte); Portekizlilerin Kolombo'ya yerleşmesiyle dış nüfuza açıldı. HANEDAN/ÜLKE karışık, BİRDEN FAZLA ardışık krallığı TEK kayıtta temsil eden bir kolektif kimliktir — `irlanda`/`somali` emsali gibi. ⚠️ 1281 tarihi bir hanedanın kuruluşu değil atlasın pencere başlangıcıdır. ⚠️ BULUNAMADI (TDV'de): `seylan` maddesi yalnız `sri-lanka`ya yönlendiriyor, dönem ayrıntısı yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"sri-lanka + standart akademik kaynak (Britannica, EBSCO Research Starters)",
   kronoloji:[
-    { t:"1341-01-01", tur:"hukumdar", b:"Kral IV. Bhuvanekabahu, savunma amacıyla başkenti Dambadeniya/Kurunegala hattından merkezi yaylalardaki Gampola'ya taşıdı; siyasi merkezin iç bölgelere kayışının başlangıcı (Britannica, 'History of Sri Lanka — Drift to the southwest')" },
-    { t:"1415-01-01", tur:"kurulus", b:"1412'de Gampola kralı olan VI. Parakramabahu başkentini Kotte'ye taşıyıp Kotte Krallığı'nı kurdu; bu krallık yarım yüzyıl içinde adanın en güçlü Sinhala devleti oldu (Britannica 'Kotte'/'Parakramabahu VI')" },
-    { t:"1450-01-01", tur:"toprak-kazanc", b:"VI. Parakramabahu, Jaffna Krallığı'nı ve Vanni beyliklerini fethedip Seylan'ı son kez tek bir Sinhala hükümdarlık altında birleştirdi (Britannica 'Parakramabahu VI'; EBSCO Research Starters)" },
+    { t:"1341-01-01", tur:"hukumdar", b:"Kral IV. Bhuvanekabahu, savunma amacıyla başkenti Dambadeniya/Kurunegala hattından merkezi yaylalardaki Gampola'ya taşıdı; siyasi merkezin iç bölgelere kayışının başlangıcı", ic_not_b:"eski b: Kral IV. Bhuvanekabahu, savunma amacıyla başkenti Dambadeniya/Kurunegala hattından merkezi yaylalardaki Gampola'ya taşıdı; siyasi merkezin iç bölgelere kayışının başlangıcı (Britannica, 'History of Sri Lanka — Drift to the southwest')" },
+    { t:"1415-01-01", tur:"kurulus", b:"1412'de Gampola kralı olan VI. Parakramabahu başkentini Kotte'ye taşıyıp Kotte Krallığı'nı kurdu; bu krallık yarım yüzyıl içinde adanın en güçlü Sinhala devleti oldu", ic_not_b:"eski b: 1412'de Gampola kralı olan VI. Parakramabahu başkentini Kotte'ye taşıyıp Kotte Krallığı'nı kurdu; bu krallık yarım yüzyıl içinde adanın en güçlü Sinhala devleti oldu (Britannica 'Kotte'/'Parakramabahu VI')" },
+    { t:"1450-01-01", tur:"toprak-kazanc", b:"VI. Parakramabahu, Jaffna Krallığı'nı ve Vanni beyliklerini fethedip Seylan'ı son kez tek bir Sinhala hükümdarlık altında birleştirdi", ic_not_b:"eski b: VI. Parakramabahu, Jaffna Krallığı'nı ve Vanni beyliklerini fethedip Seylan'ı son kez tek bir Sinhala hükümdarlık altında birleştirdi (Britannica 'Parakramabahu VI'; EBSCO Research Starters)" },
     { t:"1518-01-01", tur:"toprak-kayip", b:"Portekizliler Kolombo'da kale kurup Kotte Krallığı'nı nüfuzu altına aldı" }
   ]
 },
@@ -6621,8 +6621,8 @@ window.DEVLETLER = [
   kaynak:"tayland",
   kronoloji:[
     { t:"1238-01-01", tur:"kurulus", b:"Sri Indraditya, Khmer'den bağımsızlığını ilan etti" },
-    { t:"1283-01-01", tur:"hukumdar", b:"Kral Ramkhamhaeng döneminde Tay alfabesi icat edildi; olay ünlü Ram Khamhaeng Taş Yazıtı'na kaydedildi (yazıtın özgünlüğü akademik çevrede tartışılmıştır, elektron mikroskobu incelemeleri kısmen özgün olduğunu güçlendirmiştir; kaynak: Vickery'nin özgünlük tartışmasını ele alan akademik makalesi)" },
-    { t:"1378-01-01", tur:"vassal", b:"Ayutthaya kralı Borommarachathirat I'in Sukhothai isyanını bastırıp kuzey merkezlerini boyunduruğa alması sonunda Sukhothai, Ayutthaya'nın vassalı hâline geldi (standart akademik kaynak: David K. Wyatt, 'Thailand: A Short History')" },
+    { t:"1283-01-01", tur:"hukumdar", b:"Kral Ramkhamhaeng döneminde Tay alfabesi icat edildi; olay ünlü Ram Khamhaeng Taş Yazıtı'na kaydedildi (yazıtın özgünlüğü tartışmalıdır)", ic_not_b:"eski b: Kral Ramkhamhaeng döneminde Tay alfabesi icat edildi; olay ünlü Ram Khamhaeng Taş Yazıtı'na kaydedildi (yazıtın özgünlüğü akademik çevrede tartışılmıştır, elektron mikroskobu incelemeleri kısmen özgün olduğunu güçlendirmiştir; kaynak: Vickery'nin özgünlük tartışmasını ele alan akademik makalesi)" },
+    { t:"1378-01-01", tur:"vassal", b:"Ayutthaya kralı Borommarachathirat I'in Sukhothai isyanını bastırıp kuzey merkezlerini boyunduruğa alması sonunda Sukhothai, Ayutthaya'nın vassalı hâline geldi", ic_not_b:"eski b: Ayutthaya kralı Borommarachathirat I'in Sukhothai isyanını bastırıp kuzey merkezlerini boyunduruğa alması sonunda Sukhothai, Ayutthaya'nın vassalı hâline geldi (standart akademik kaynak: David K. Wyatt, 'Thailand: A Short History')" },
     { t:"1438-01-01", tur:"son", b:"Ayutthaya Krallığı Sukhothai'yi doğrudan ilhak etti" }
   ]
 },
@@ -6633,9 +6633,9 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1748-01-01", tur:"kurulus", b:"Bahâvel Han, Sutlej kıyısında emirliğini kurdu" },
     { t:"1802-01-01", tur:"hukumdar", b:"Afgan Şahı Mahmud'dan sikke basma izni alarak egemen statü kazandı" },
-    { t:"1826-01-01", tur:"hukumdar", b:"Nevvâb II. Sâdık Muhammed Han'ın suikastla öldürülmesi üzerine yerine III. Bahâvel Han geçti; hânedanın İngiliz taleplerine ılımlı geleneksel politikası sürdürüldü (TDV bahavelpur)" },
-    { t:"1833-01-01", tur:"antlasma", b:"Bahâvelpûr ile İngilizler arasında İndus nehrini geçiş anlaşması imzalandı (TDV bahavelpur)" },
-    { t:"1838-01-01", tur:"vassal", b:"Nevvâb ile İngiliz hükümeti arasında himaye antlaşması imzalandı: nevvâb iş birliği karşılığında süresiz yönetim hakkı ve İngiliz koruması güvence altına aldı (TDV bahavelpur)" }
+    { t:"1826-01-01", tur:"hukumdar", b:"Nevvâb II. Sâdık Muhammed Han'ın suikastla öldürülmesi üzerine yerine III. Bahâvel Han geçti; hânedanın İngiliz taleplerine ılımlı geleneksel politikası sürdürüldü", ic_not_b:"eski b: Nevvâb II. Sâdık Muhammed Han'ın suikastla öldürülmesi üzerine yerine III. Bahâvel Han geçti; hânedanın İngiliz taleplerine ılımlı geleneksel politikası sürdürüldü (TDV bahavelpur)" },
+    { t:"1833-01-01", tur:"antlasma", b:"Bahâvelpûr ile İngilizler arasında İndus nehrini geçiş anlaşması imzalandı", ic_not_b:"eski b: Bahâvelpûr ile İngilizler arasında İndus nehrini geçiş anlaşması imzalandı (TDV bahavelpur)" },
+    { t:"1838-01-01", tur:"vassal", b:"Nevvâb ile İngiliz hükümeti arasında himaye antlaşması imzalandı: nevvâb iş birliği karşılığında süresiz yönetim hakkı ve İngiliz koruması güvence altına aldı", ic_not_b:"eski b: Nevvâb ile İngiliz hükümeti arasında himaye antlaşması imzalandı: nevvâb iş birliği karşılığında süresiz yönetim hakkı ve İngiliz koruması güvence altına aldı (TDV bahavelpur)" }
   ]
 },
 { id:"bharatpur-cat", ad:"Bharatpur Krallığı (Jat)", tur:"krallik", bolge:"guney-asya",
@@ -6644,7 +6644,7 @@ window.DEVLETLER = [
   kaynak:"🟢 DÜZELTİLDİ (eski 'bulunamadı' + doğrulanamayan 1948-03-30) — Wikipedia \"Matsya States Union\": \"formed on 18 March 1948 by the merger of four erstwhile princely states, Alwar, Bharatpur, Dholpur, and Karauli\". ⚠️ TDV'de müstakil maddesi yok, Wikipedia burada TEK dayanak — ikinci akademik kaynakla TEYİT EDİLMEDİ, açıkça damgalanıyor.",
   kronoloji:[
     { t:"1733-01-01", tur:"kurulus", b:"Bedan Singh, Bharatpur Krallığı'nı kurdu" },
-    { t:"1761-06-12", tur:"toprak-kazanc", b:"Racah Suraj Mal, saltanatının zirvesinde Babür başkenti Agra'yı ele geçirdi; hükümdarlığı (1755-1763) boyunca krallık bugünkü Rajastan-Haryana-batı Uttar Pradeş-Delhi çevresini kapsayacak şekilde genişledi (Britannica 'Suraj Mal')" },
+    { t:"1761-06-12", tur:"toprak-kazanc", b:"Racah Suraj Mal, saltanatının zirvesinde Babür başkenti Agra'yı ele geçirdi; hükümdarlığı (1755-1763) boyunca krallık bugünkü Rajastan-Haryana-batı Uttar Pradeş-Delhi çevresini kapsayacak şekilde genişledi", ic_not_b:"eski b: Racah Suraj Mal, saltanatının zirvesinde Babür başkenti Agra'yı ele geçirdi; hükümdarlığı (1755-1763) boyunca krallık bugünkü Rajastan-Haryana-batı Uttar Pradeş-Delhi çevresini kapsayacak şekilde genişledi (Britannica 'Suraj Mal')" },
     { t:"1805-01-02", tur:"savas", b:"General Gerard Lake komutasındaki İngiliz kuvvetleri, İkinci Anglo-Maratha Savaşı sırasında Bharatpur Kalesi'ni kuşattı; dört hücum geri püskürtüldü, İngilizler 3.000'den fazla zayiat verip 22 Şubat 1805'te kuşatmayı utanç verici biçimde kaldırdı — İngilizlerin Hindistan'daki nadir yenilgilerinden biri" },
     { t:"1826-01-18", tur:"savas", b:"İngilizlerin kuşatmasıyla fiilî bağımsızlığını kaybedip prens devletine dönüştü" },
     { t:"1947-08-15", tur:"vassal", b:"Hindistan'ın bağımsızlığıyla Bharatpur Hindistan'a katıldı (Instrument of Accession)", kaynak:"Wikipedia \"Bharatpur State\" — TEK kaynaklı" },
@@ -6657,9 +6657,9 @@ window.DEVLETLER = [
   kaynak:"bopal--devlet",
   kronoloji:[
     { t:"1708-01-01", tur:"kurulus", b:"Dost Muhammed Han, Berâsiye bölgesinin idaresini alıp nevablığını ilan etti" },
-    { t:"1807-01-01", tur:"savas", b:"Vezir Muhammed Han, ülkeye giren Pindârîleri Maratalar'ın yardımıyla geri püskürttü, ardından yardıma gelen Maratalar'ı da dışarı attı (TDV bopal--devlet)" },
-    { t:"1820-01-01", tur:"hukumdar", b:"Nezir Muhammed Han'ın ölümü üzerine karısı Kudsiyye Begüm 'nevvâbe' sıfatıyla tahta oturdu — Bopal'de devlet başkanlığı ilk kez kadın idaresine geçti, dört kadın hükümdar dönemi başladı (TDV bopal--devlet)" },
-    { t:"1901-01-01", tur:"hukumdar", b:"Şah Cihan Begüm'ün ölümü üzerine kızı Sultan Cihan Begüm tahta geçti; 25 yıl hüküm sürüp sosyal reformlar yaptı, İstanbul'da II. Abdülhamid ve V. Mehmed Reşad ile görüştü (TDV bopal--devlet)" }
+    { t:"1807-01-01", tur:"savas", b:"Vezir Muhammed Han, ülkeye giren Pindârîleri Maratalar'ın yardımıyla geri püskürttü, ardından yardıma gelen Maratalar'ı da dışarı attı", ic_not_b:"eski b: Vezir Muhammed Han, ülkeye giren Pindârîleri Maratalar'ın yardımıyla geri püskürttü, ardından yardıma gelen Maratalar'ı da dışarı attı (TDV bopal--devlet)" },
+    { t:"1820-01-01", tur:"hukumdar", b:"Nezir Muhammed Han'ın ölümü üzerine karısı Kudsiyye Begüm 'nevvâbe' sıfatıyla tahta oturdu — Bopal'de devlet başkanlığı ilk kez kadın idaresine geçti, dört kadın hükümdar dönemi başladı", ic_not_b:"eski b: Nezir Muhammed Han'ın ölümü üzerine karısı Kudsiyye Begüm 'nevvâbe' sıfatıyla tahta oturdu — Bopal'de devlet başkanlığı ilk kez kadın idaresine geçti, dört kadın hükümdar dönemi başladı (TDV bopal--devlet)" },
+    { t:"1901-01-01", tur:"hukumdar", b:"Şah Cihan Begüm'ün ölümü üzerine kızı Sultan Cihan Begüm tahta geçti; 25 yıl hüküm sürüp sosyal reformlar yaptı, İstanbul'da II. Abdülhamid ve V. Mehmed Reşad ile görüştü", ic_not_b:"eski b: Şah Cihan Begüm'ün ölümü üzerine kızı Sultan Cihan Begüm tahta geçti; 25 yıl hüküm sürüp sosyal reformlar yaptı, İstanbul'da II. Abdülhamid ve V. Mehmed Reşad ile görüştü (TDV bopal--devlet)" }
   ]
 },
 { id:"cunagadh", ad:"Cunagadh (Junagadh) Nevablığı", tur:"devlet", bolge:"guney-asya",
@@ -6668,7 +6668,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1748-01-01", tur:"kurulus", b:"Babi hanedanı Babür valiliğinden fiilen bağımsızlaştı" },
-    { t:"1807-01-01", tur:"vassal", b:"Baroda İngiliz mukimi Albay Alexander Walker öncülüğündeki kuvvetler Kathiawar'a girdi; 'Walker Settlement' düzenlemesiyle Cunagadh dahil bölge şeflikleri haraç ödemeyi ve İngiliz üstünlüğünü kabul edip iç işlerinde özerkliğini korudu (⚠️ dayanak Alexander Walker'ın 1807 sefer güncesi, National Library of Scotland arşivi — birincil kaynak, ama hakemli akademik makayla TAM doğrulanamadı, orta güven)" }
+    { t:"1807-01-01", tur:"vassal", b:"Baroda İngiliz mukimi Albay Alexander Walker öncülüğündeki kuvvetler Kathiawar'a girdi; 'Walker Settlement' düzenlemesiyle Cunagadh dahil bölge şeflikleri haraç ödemeyi ve İngiliz üstünlüğünü kabul edip iç işlerinde özerkliğini korudu", ic_not_b:"eski b: Baroda İngiliz mukimi Albay Alexander Walker öncülüğündeki kuvvetler Kathiawar'a girdi; 'Walker Settlement' düzenlemesiyle Cunagadh dahil bölge şeflikleri haraç ödemeyi ve İngiliz üstünlüğünü kabul edip iç işlerinde özerkliğini korudu (⚠️ dayanak Alexander Walker'ın 1807 sefer güncesi, National Library of Scotland arşivi — birincil kaynak, ama hakemli akademik makayla TAM doğrulanamadı, orta güven)" }
   ,
     { t:"1654-01-01", tur:"kurulus", b:"Şêr Hânî Bâbî, Cunagadh'ta (Junagadh) Bâbî hânedanını kurdu", kaynak:"🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI (CLAUDE.md §4 uyarısı) — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sher Khanji Babi', 'Babi dynasty') BAĞIMSIZ doğrulandı. 🔴 BÜYÜK ÇELİŞKİ: künyenin f: alanı 1748, akademik kaynak kuruluşu 1654'e tarihliyor — 94 YIL fark. Künye sahibine AÇIKÇA bildiriliyor; künyenin f:'si muhtemelen Bâbî ailesinin Cunagadh'ta TAM BAĞIMSIZLIĞINI (Marathalardan/Babürlülerden) kazandığı daha geç bir tarihi yansıtıyor olabilir, hânedanın kendi kuruluşunu değil." },
     { t:"1690-01-01", tur:"hukumdar", b:"Kurucu Şêr Hânî Bâbî öldü", kaynak:"🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla BAĞIMSIZ doğrulandı." }
@@ -6690,7 +6690,7 @@ window.DEVLETLER = [
   ozet:"Belûcî Lengâh kabilesinden Rai Sahra'nın kurduğu, seksen yıl süren bağımsız sultanlık; Sind hâkimi Hüseyin Şah Argun tarafından ortadan kaldırıldı, sonra Babür eyaleti oldu. HANEDAN ÖMRÜ kimliğidir. (kaynak: TDV, madde: multan — \"muhtemelen 855'te (1451)... Rai Sahra... hâkim oldu\", son \"Rebîülâhir 933 / Ocak 1527\")",
   kaynak:"multan",
   kronoloji:[
-    { t:"1451-01-01", tur:"kurulus", b:"Rai Sahra, Belûcî Lengâh kabilesinden Multan'a hâkim oldu (muhtemelen tarih, TDV)" },
+    { t:"1451-01-01", tur:"kurulus", b:"Rai Sahra, Belûcî Lengâh kabilesinden Multan'a hâkim oldu (tarih kesin değil)", ic_not_b:"eski b: Rai Sahra, Belûcî Lengâh kabilesinden Multan'a hâkim oldu (muhtemelen tarih, TDV)" },
     { t:"1527-01-01", tur:"son", b:"Sind hâkimi Hüseyin Şah Argun sultanlığa son verdi" }
   ]
 },
@@ -6708,7 +6708,7 @@ window.DEVLETLER = [
   ozet:"Güneydoğu Asya'nın ilk İslâm sultanlığı; kuzey Sumatra'da İslâmiyet'i kabul eden yerel hanedanca kuruldu, Marco Polo ve İbn Battûta'nın uğrak yeri oldu, sonunda Portekiz ve Açe arasında sıkışıp bağımsızlığını yitirdi. HANEDAN ÖMRÜ kimliğidir. ⚠️ 1281 tarihi TDV'nin verdiği \"1280'lerde İslâm'ı kabul\" ile atlasın pencere başlangıcının ÇAKIŞTIĞI ender bir durum. (kaynak: TDV, madde: endonezya — \"1280'lerde... İslâm'ı kabul\", \"ilk Pasai sultanı Melikü's-Sâlih 696'da (1296-97) öldü\"; bitiş tarihi standart akademik kaynağa göredir)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Yerel hanedan İslâm'ı kabul edip Samudra Pasai Sultanlığı'nı kurdu (TDV: 1280'ler)" },
+    { t:"1281-01-01", tur:"kurulus", b:"Yerel hanedan İslâm'ı kabul edip Samudra Pasai Sultanlığı'nı kurdu (1280'ler)", ic_not_b:"eski b: Yerel hanedan İslâm'ı kabul edip Samudra Pasai Sultanlığı'nı kurdu (TDV: 1280'ler)" },
     { t:"1521-01-01", tur:"son", b:"Portekiz-Açe çekişmesinde bağımsızlığını yitirdi" }
   ,
     { t:"1297-01-01", tur:"hukumdar", b:"İlk sultan el-Melikü's-Sâlih öldü (696/1296-97)", kaynak:"TDV endonezya (bu turda okundu, birebir alıntı: '696 (1296-97) yılında')." }
@@ -6730,8 +6730,8 @@ window.DEVLETLER = [
   ozet:"Batı Cava'da hüküm süren, İslâmlaşmayı reddeden son büyük Hindu-Budist krallıklardan biri; Demak-Cirebon ittifakının Sunda Kelapa limanını almasıyla (bugün \"Jakarta Günü\" olarak kutlanan olay) fiilen çöktü. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"yetersiz — endonezya maddesi okundu, Batı Cava'nın İslamlaşma bağlamını anlatıyor ama Sunda-Pajajaran Krallığı'nı (kuruluş, hükümdarlar, yıkılış) doğrudan işlemiyor; dayanak: Torre do Tombo arşivi (birincil kaynak) + Herwig Zahorka, 'The Sunda Kingdoms of West Java' (akademik makale)",
   kronoloji:[
-    { t:"1482-01-01", tur:"kurulus", b:"Kawali kralı Jayadewata, Sunda ve Galuh krallıklarını birleştirip Sri Baduga Maharaja unvanıyla tahta çıktı, başkenti Pakuan'a (Pajajaran) taşıdı — 'Pajajaran' adıyla anılan dönem burada başlar (Batutulis Kitabesi; Zahorka, akademik makale)" },
-    { t:"1522-08-21", tur:"antlasma", b:"Sri Baduga Maharaja'nın oğlu Surawisesa, Portekizli kaptan Henrique Leme ile Sunda Kelapa'da antlaşma imzaladı: kale kurma izni karşılığında Demak'a karşı ittifak ve yıllık biber haracı, bir Padrão taşıyla anıldı (Torre do Tombo, Portekiz Ulusal Arşivi, 1892 belge derlemesi s.460-461, birincil kaynak)" },
+    { t:"1482-01-01", tur:"kurulus", b:"Kawali kralı Jayadewata, Sunda ve Galuh krallıklarını birleştirip Sri Baduga Maharaja unvanıyla tahta çıktı, başkenti Pakuan'a (Pajajaran) taşıdı — 'Pajajaran' adıyla anılan dönem burada başlar", ic_not_b:"eski b: Kawali kralı Jayadewata, Sunda ve Galuh krallıklarını birleştirip Sri Baduga Maharaja unvanıyla tahta çıktı, başkenti Pakuan'a (Pajajaran) taşıdı — 'Pajajaran' adıyla anılan dönem burada başlar (Batutulis Kitabesi; Zahorka, akademik makale)" },
+    { t:"1522-08-21", tur:"antlasma", b:"Sri Baduga Maharaja'nın oğlu Surawisesa, Portekizli kaptan Henrique Leme ile Sunda Kelapa'da antlaşma imzaladı: kale kurma izni karşılığında Demak'a karşı ittifak ve yıllık biber haracı, bir Padrão taşıyla anıldı", ic_not_b:"eski b: Sri Baduga Maharaja'nın oğlu Surawisesa, Portekizli kaptan Henrique Leme ile Sunda Kelapa'da antlaşma imzaladı: kale kurma izni karşılığında Demak'a karşı ittifak ve yıllık biber haracı, bir Padrão taşıyla anıldı (Torre do Tombo, Portekiz Ulusal Arşivi, 1892 belge derlemesi s.460-461, birincil kaynak)" },
     { t:"1527-06-22", tur:"son", b:"Fetahillah'ın Demak-Cirebon kuvvetleri Sunda Kelapa'yı aldı, liman \"Jayakarta\" adını aldı" }
   ,
     { t:"1482-01-01", tur:"hukumdar", b:"Sri Baduga Maharaja tahta çıkıp (1482-1521) başkenti Pakuan Pajajaran'a taşıdı; dönemi krallığın zirvesi sayılır", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sri Baduga Maharaja') doğrulandı." }
@@ -6742,9 +6742,9 @@ window.DEVLETLER = [
   ozet:"Sumatra'nın doğu kıyısındaki dört küçük Malay-Müslüman sultanlığın toplu künyesi (HANEDAN ÖMRÜ değil, TOPLU/BATTANİYE kimlik — malay-sultanliklari'nin emsalini izler): Jambi (İslam sultanlığı ~1615), Siyak (1723, Cohor'dan ayrıldı), Deli (~1632, Açe vasalı olarak), Indragiri (Malaka/Cohor çevresine bağlı, erken İslamlaşma). Dördünün de TDV'de müstakil maddesi yok; f/t YIL BEYANIdır — tam kuruluş/bağlanma günleri belirsiz. t=1858, Hollanda'nın 'Korte Verklaring' (Kısa Beyanname) antlaşmalarıyla bölgeyi sistematik olarak doğrudan denetime almaya başladığı döneme işaret eder; sultanlıklar sonrasında Hollanda'ya BAĞLI ADLI VARLIKLAR olarak (bazıları 1946'ya kadar) sürdü — bu künye yalnız 'fiilî bağımsız/yerel egemenlik' döneminin sonunu (1858) esas alır, tam ilhakı değil.",
   kaynak:"bulunamadı — arandı, yok. Dört slug tek tek denendi (cambi, siyak, deli, indragiri) — hepsi ölü/alakasız. Genel 'sumatra' ve 'endonezya' maddeleri de okundu: yalnız TOPLU bir cümleyle geçiyorlar (\"1900'lere kadar... irili ufaklı İslâm devletlerinin tamamını egemenlikleri altına aldılar\"), dört sultanlığı ayrı ayrı işlemiyor. Dayanak: standart akademik kaynak.",
   kronoloji:[
-    { t:"1615-01-01", tur:"kurulus", b:"Jambi'de İslam sultanlığının kuruluşu (yıl beyanı)" },
+    { t:"1615-01-01", tur:"kurulus", b:"Jambi'de İslam sultanlığının kuruluşu", ic_not_b:"eski b: Jambi'de İslam sultanlığının kuruluşu (yıl beyanı)" },
     { t:"1723-01-01", tur:"kurulus", b:"Siyak, Cohor (Johor) tahtı ihtilafından ayrılarak kuruldu (Raja Kecil)" },
-    { t:"1858-01-01", tur:"vassal", b:"Hollanda'nın 'Korte Verklaring' antlaşmalarıyla Doğu Sumatra sultanlıklarını sistematik denetime alması (yıl beyanı, kademeli süreç)" }
+    { t:"1858-01-01", tur:"vassal", b:"Hollanda'nın 'Korte Verklaring' antlaşmalarıyla Doğu Sumatra sultanlıklarını sistematik denetime alması (kademeli süreç)", ic_not_b:"eski b: Hollanda'nın 'Korte Verklaring' antlaşmalarıyla Doğu Sumatra sultanlıklarını sistematik denetime alması (yıl beyanı, kademeli süreç)" }
   ]
 },
 { id:"pontianak", ad:"Pontianak Sultanlığı (Borneo)", tur:"devlet", bolge:"guneydogu-asya",
@@ -6752,7 +6752,7 @@ window.DEVLETLER = [
   ozet:"Batı Borneo'da Hadramutlu bir Arap seyyahın kurduğu sultanlık (HANEDAN ÖMRÜ). TDV'nin genel 'borneo' maddesi somut olarak veriyor: '1772'de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı'nı kurdu.' t=1855 (Hollanda 'Lange Contract'larla doğrudan denetimi sistematikleştirmesi) YIL BEYANIdır; sultanlık sonrasında Hollanda'ya bağlı adlı bir varlık olarak sürdü.",
   kaynak:"borneo",
   kronoloji:[
-    { t:"1772-01-01", tur:"kurulus", b:"Şerif Abdurrahman, Pontianak Sultanlığı'nı kurdu (TDV borneo maddesi)" }
+    { t:"1772-01-01", tur:"kurulus", b:"Şerif Abdurrahman, Pontianak Sultanlığı'nı kurdu", ic_not_b:"eski b: Şerif Abdurrahman, Pontianak Sultanlığı'nı kurdu (TDV borneo maddesi)" }
   ,
     { t:"1771-10-23", tur:"kurulus", b:"Şerif Abdurrahman Alkadrie, Kapuas ve Landak nehirlerinin birleştiği noktada Pontianak yerleşimini kurdu", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Syarif Abdurrahman Alkadrie') doğrulandı. Künyenin f: alanı (1772) ile 1 yıl fark var — küçük, bildiriliyor." },
     { t:"1778-08-31", tur:"hukumdar", b:"Şerif Abdurrahman, resmî olarak Pontianak Sultanı unvanıyla taç giydi", kaynak:"bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı." }
@@ -6763,7 +6763,7 @@ window.DEVLETLER = [
   ozet:"Doğu Borneo'da eski bir Hindu krallığından İslâmlaşarak dönüşmüş sultanlık (HANEDAN ÖMRÜ). TDV'nin 'borneo' maddesi yalnız isim düzeyinde geçiyor: 'Borneo'da Bancermasin, Kutei, Sukadana ve Sambas gibi bazı küçük İslâm sultanlıkları ortaya çıktı' — somut tarih/olay vermiyor. f/t YIL BEYANIdır, standart akademik kaynağa göre.",
   kaynak:"yetersiz — borneo maddesi okundu, Kutai'yi Bancermasin/Sukadana/Sambas'la birlikte İSİM düzeyinde anıyor ama somut tarih/olay vermiyor; dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1908-01-01", tur:"son", b:"Hollanda'nın Kutai üzerinde tam doğrudan denetimi (yıl beyanı)" }
+    { t:"1908-01-01", tur:"son", b:"Hollanda'nın Kutai üzerinde tam doğrudan denetimi", ic_not_b:"eski b: Hollanda'nın Kutai üzerinde tam doğrudan denetimi (yıl beyanı)" }
   ]
 },
 { id:"bugis-kralliklari", ad:"Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)", tur:"devlet", bolge:"guneydogu-asya",
@@ -6771,10 +6771,10 @@ window.DEVLETLER = [
   ozet:"Güney Sulawesi'nin Bugis krallıkları için TOPLU/BATTANİYE künye (HANEDAN ÖMRÜ değil) — Gova-Makassar'ın TARİHÎ RAKİBİ, ayrı kimlik (bkz. gova-makassar; 1666-69 Makassar Savaşı'nda Hollanda'yla ittifak kurup Gova'ya karşı savaştılar, aynı kimlik kullanılamaz). TDV'de dördünün de (Bone, Wajo, Soppeng) müstakil maddesi yok; 'sulawesi'/'bugi' aramaları yalnız Bugis halkının varlığından bahsediyor, krallıklardan somut tarihle değil. f YIL BEYANIdır (Bone'un geleneksel kuruluşu ~1330), t=1905-08-06 Bone Savaşı'nın sonu (Hollanda'nın son bağımsız Bugis direnişini kırdığı tarih, standart akademik kaynak).",
   kaynak:"bulunamadı — arandı, yok. 'bone' slug'ı Cezayir'deki Bûne limanına yönleniyor (alakasız); 'sulawesi' ve 'bugi' genel maddeleri okundu, Bugis halkından bahsediyorlar ama Bone/Wajo/Soppeng krallıklarını ayrı ayrı işlemiyorlar. Dayanak: hakemli dergi (Fadli Hasan, el Harakah: Jurnal Budaya Islam, UIN Malang) + Leonard Andaya akademik monografisi.",
   kronoloji:[
-    { t:"1582-01-01", tur:"ittifak", b:"Bone, Wajo ve Soppeng, Gova-Tallo'nun genişlemesine karşı Timurung Antlaşması'yla Tellumpoccoe ('üç güç') ittifakını kurdu (Fadli Hasan, hakemli dergi makalesi)" },
+    { t:"1582-01-01", tur:"ittifak", b:"Bone, Wajo ve Soppeng, Gova-Tallo'nun genişlemesine karşı Timurung Antlaşması'yla Tellumpoccoe ('üç güç') ittifakını kurdu", ic_not_b:"eski b: Bone, Wajo ve Soppeng, Gova-Tallo'nun genişlemesine karşı Timurung Antlaşması'yla Tellumpoccoe ('üç güç') ittifakını kurdu (Fadli Hasan, hakemli dergi makalesi)" },
     { t:"1660-01-01", tur:"isyan", b:"Bone prensi Arung Palakka, Gova'ya karşı ayaklanma başlattı; bastırılınca 1663'te Hollanda kontrolündeki Batavia'ya sığındı (Andaya, 'The Heritage of Arung Palakka', KITLV/Amsterdam University Press)" },
-    { t:"1666-01-01", tur:"ittifak", b:"Arung Palakka, VOC amirali Cornelis Speelman ile ittifak kurup 1666-1669 Makassar Savaşı'nda Gova Sultanı Hasanuddin'e karşı kara harekâtını yönetti; savaş sonunda Bone kralı oldu (bkz. [[gova-makassar]]) (Andaya, akademik monografi)" },
-    { t:"1905-08-06", tur:"son", b:"Bone Savaşı'nın sonu — Hollanda'nın Güney Sulawesi'deki son büyük Bugis direnişini kırması (standart akademik kaynak, yıl+ay beyanı)" }
+    { t:"1666-01-01", tur:"ittifak", b:"Arung Palakka, VOC amirali Cornelis Speelman ile ittifak kurup 1666-1669 Makassar Savaşı'nda Gova Sultanı Hasanuddin'e karşı kara harekâtını yönetti; savaş sonunda Bone kralı oldu", ic_not_b:"eski b: Arung Palakka, VOC amirali Cornelis Speelman ile ittifak kurup 1666-1669 Makassar Savaşı'nda Gova Sultanı Hasanuddin'e karşı kara harekâtını yönetti; savaş sonunda Bone kralı oldu (bkz. [[gova-makassar]]) (Andaya, akademik monografi)" },
+    { t:"1905-08-06", tur:"son", b:"Bone Savaşı'nın sonu — Hollanda'nın Güney Sulawesi'deki son büyük Bugis direnişini kırması", ic_not_b:"eski b: Bone Savaşı'nın sonu — Hollanda'nın Güney Sulawesi'deki son büyük Bugis direnişini kırması (standart akademik kaynak, yıl+ay beyanı)" }
   ]
 }
 ,
@@ -7522,7 +7522,7 @@ window.DEVLETLER = [
     { t:"1842-01-01", tur:"son", b:"Şihaboğulları'nın yönetimi sona erdi, bölge doğrudan Osmanlı yönetimine döndü", kaynak:"TDV lubnan — \"Böylece Lübnan'daki Şihâbî ailesinin yönetimi sona erdi\"" }
   ] },
 { id:"cebel-i-lubnan-mutasarrifligi", ad:"Cebel-i Lübnan Mutasarrıflığı", tur:"mutasarriflik", bolge:"arabistan",
-  f:"1861-06-09", t:"1915-07-11", baskent:"Beyteddin (1888'de Ba'abda'ya taşındığı iddiası bulunamadı, standart kaynaktan)", harita:"cebel-i-lubnan-mutasarrifligi",
+  f:"1861-06-09", t:"1915-07-11", baskent:"Beyteddin", ic_not_baskent:"eski baskent soneki: (1888'de Ba'abda'ya taşındığı iddiası bulunamadı, standart kaynaktan)", harita:"cebel-i-lubnan-mutasarrifligi",
   tabi:[{f:"1861-06-09", t:"1915-07-11", ust:"osmanli"}],
   ozet:"1860 Dürzî-Maruni çatışmaları sonrası Avrupa devletlerinin baskısıyla kurulan, Osmanlı tebaası olmayan Hıristiyan bir valinin (mutasarrıf) yönettiği, uluslararası garantili özerk Osmanlı sancağı; I. Dünya Savaşı'nda Osmanlı tarafından tek taraflı feshedildi. Aynı sebeple (nokta yok) lubnan-emirligi ile AYNI görsel boşluğu taşıyor.",
   kaynak:"TDV `lubnan` (aynı madde, ayrı bölüm). 🟢 tur:\"mutasarriflik\" UYGULANDI (M-3555, Emre onayı) — geçici tur:\"devlet\" yerine. Gerekçe (Emre): 1861 Reglement Organique ile kurulan, Hıristiyan vali + uluslararası garantili özerk sancak; sıradan bir vilayet değil. Sözlük VERI-YAPISI.md'de de güncellendi (bkz. tur alan tablosu).",
