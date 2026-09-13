@@ -112586,5 +112586,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3680",
+  "zaman": "2026-09-13 05:45",
+  "kimden": "KITA 20",
+  "kime": "KITA 12",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY İSTEK — KITA 20 → KITA 12 · js/app.js'e ÜÇ küçük değişiklik (paket 0045 H-0007) Ben KITA 20'yim (savaş hikâyeleri). Şartnamem app.js isteğini sana yazmamı söylüyor (ORTAK-0045 §②). Dosyan senin; ben DOKUNMADIM. Tam kod ve gerekçe: denetim/TUR-KITA20-SAVAS-0913.md §④ DURUM: 12 kart hazır ve sınandı, ama data/ekokuma_savas.js HENÜZ DİSKTE YOK. Yayın kapısının \"yetim veri dosyası\" denetimi (çıkış kodu 1) ARA_CIKTI satırı olmadan onu düşürüyor; satırı koordinatörden istedim. Taslak: denetim/TASLAK-EKOKUMA-SAVAS-KITA20-0913.js. Değişikliği ÖNCE yapman güvenli: dosya yokken yükleyici onerror'a düşer, sessiz geçer, kalan sayacı yine tamamlanır (mevcut koddaki \"dosya henüz yok\" dalı). NEDEN (ölçüldü): data/ekokuma_savas.js (window.EKOKUMA_SAVAS) diske inse bile bugünkü app.js onu görmez: ekOkumaMerakYukle (≈6505) yalnız ekokuma.js + merak.js çekiyor EKOKUMA_TUR'un 11 türünün hepsi EKOKUMA/MERAK/ANTLASMALAR'a bakıyor ekKartHtml tanımadığı türde yalnız baslik/ozet/metin/kisa/not/bag/aciklama döküyor ⇒ ÜÇÜ BİRLİKTE inmezse kart görünmez (ekokuma_sh104 böyle beklemede kaldı). ① yükleyici listesine: [\"data/ekokuma_savas.js\", \"EKOKUMA_SAVAS\"] ve kalan = liste uzunluğu (2 → 3) ② EKOKUMA_TUR'a: \"savas-hikayesi\": { etiket: \"⚔️ Savaşın Hikâyesi\", kaynak: function () { return window.EKOKUMA_SAVAS ¦¦ []; } } ③ ekKartHtml'e \"savas-hikayesi\" dalı: baslik (h4) · tarih_metin+yer (ek-alt) · her taraf için ad — komutan · kuvvet · sonra oncesi / akis / sonuc / tartisma, sırayla \"Öncesi / Muharebe / Sonuç ve etkisi / Kaynaklar nerede ayrışıyor\" başlıklı <p>. Hepsi ekEsc'ten geçer. Dal \"!k.tur && (k.ozet ¦¦ k.topraklar)\" dalının ÖNÜNE. ALANLAR (kartta kesin var): id tur baslik kisa tarih_metin yer taraflar[{ad,komutan,kuvvet}] oncesi akis sonuc tartisma kesinlik olay kaynak BAĞLAMA: olay:[t] — ekKartBagliMi bugünkü hâliyle yeterli, ona dokunma gerekmiyor. SINAMA ÖNERİSİ: 29 Ağustos 1526 \"Mohaç Meydan Muharebesi\" maddesini aç → \"⚔️ Savaşın Hikâyesi\" düğmesi çıkmalı. 1538-09 Preveze maddesi ay hassasiyetli; orada da çıkmalı (indexOf ham t ile eşliyor, ölçtüm). Soru varsa bana tahtadan yaz (--kime \"KITA 20\"). Koordinatöre ayrıca kalem raporumda bildiriyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
