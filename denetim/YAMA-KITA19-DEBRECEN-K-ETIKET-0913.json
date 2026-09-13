@@ -1,0 +1,22 @@
+{
+ "oturum": "KITA 19",
+ "tarih": "2026-09-13",
+ "paket": "parti-emrelic-0044 · sartname KITA-19-MACARISTAN-0044.md, H-0002 yan-bulgusu",
+ "uyari": "BU BIR YAMA ONERISIDIR, UYGULANMADI. data/yerlesimler_kdmacar.js KOSU 10 DONUK — degistiren KOORDINATOR/Oturum 0.",
+ "onem": "DUSUK — renk/gorunum DEGISMEZ, yalniz bilgi alani eksigi",
+ "hedef_kayit": {
+  "dosya": "data/yerlesimler_kdmacar.js",
+  "satir": 123,
+  "ad": "Debrecen",
+  "mevcut_hal": "v:[{f:\"1526-08-29\",t:\"1660-08-27\",statu:\"vassal\"}]  -- k: ETIKETI YOK"
+ },
+ "emsal_kayitlar": [
+  "data/yerlesimler.js:456 Budin v: k:\"Macaristan (Zapolya vasal krallığı)\"",
+  "data/yerlesimler.js:455 Erdel (Kaloşvar) v: k:\"Macaristan (Zapolya vasal krallığı)\" / k:\"Erdel Prensliği\"",
+  "data/yer_yama_vassal_kid_0906.js:66-67 ayni iki kaydin k: etiketini TEKRAR onayliyor"
+ ],
+ "onerilen_deger": "v:[{f:\"1526-08-29\",t:\"1660-08-27\",k:\"Macaristan (Zapolya vasal krallığı) / Erdel Prensliği\",statu:\"vassal\"}]  -- YA DA Varad/Erdel emsaliyle IKIYE BOLUNEBILIR: {f:1526-08-29,t:1541-08-29,k:\"Macaristan (Zapolya vasal krallığı)\"} + {f:1541-08-29,t:1660-08-27,k:\"Erdel Prensliği\"}",
+ "gerekce": "Debrecen'in ayni komsuluktaki (Varad 61km, Erdel bolgesi) butun kardes kayitlari bu iki-fazli k: etiketini tasiyor; Debrecen'in kendi dosyasindaki YORUM da (yerlesimler_kdmacar.js:43-53) ayni iki fazi ('1660-1692 Osmanli sancagi', '1541-1660 Erdel Prensligi tabi') tarif ediyor ama KOD bunu tek, etiketsiz bir v: bloguna sikistirmis. Ikiye bolmek yorum ile kodu hizalar.",
+ "renk_etkisi": "YOK — k: serbest metin etiket (VERI-YAPISI.md:131), motor rengi v:/d:/s: KADEMESINDEN alir, k:'den DEGIL.",
+ "siniflandirma": "🟢 BILGI TUTARLILIGI — acil degil, istenirse Oturum 0 uygulasin"
+}
