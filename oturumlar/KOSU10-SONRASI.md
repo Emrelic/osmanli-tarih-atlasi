@@ -95,6 +95,15 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       Bicar kur = şehir olarak ortaya çıkış (öncesi boş) · Luristan harita 1603, 1591-92 isyan maddesi ·
       Nihavend bağlı (enklav değil) · Kürt beylikleri Osmanlı tâbi, ayrı künye yok.
 
+## 5-1 · Halka/harita çelişkileri — kaynaktan doğrulandı (HALKA-ADAY, M-3811)
+- [ ] `denetim/YAMA-HALKA-ADAY-0913.json` — 17 öneri + 32 halka kaydı + 6 işaret:
+      HARİTA YANLIŞ: Kayseri 1419-1474 (Memlük/Dulkadır/Karaman) · Erzincan Karakoyunlu 1410-22, 1450-57 ·
+      Maraş Memlük 1381-84 (+1515-22 tâbi) · Batum Osmanlı 1479 · Tilimsan Merînî 1337 · Kandehar Bâbürlü 1543-58.
+      MADDE YANLIŞ: Derbend 1583 → 5 Ekim 1578 · Tilimsan 1358 → 1351/52.
+      İKİSİ DE DOĞRU: Trablus/Derne/Bingazi işgal 1911 + egemenlik 18 Ekim 1912.
+      Kandiye teslimi: kaynak 6 Eylül (Gregoryen) = 27 Ağustos (Jülyen); atlasın 27 Eylül'ü kaynaksız.
+      🔴 Çekirdek `olaylar_ek5` "Kayseri 1419 Osmanlı" maddesinin kaynağı Kayseri'yi hiç anmıyor.
+
 ## 5a · Malaka 1511 günü (13 Eylül, Emre kararı: madde ana kronolojiye girdi)
 - [ ] `data/olaylar_p0047.js` maddesi TDV `malaka`ya göre **1511-08-10**. Veride üç yer
       hâlâ 1511-08-24: `yerlesimler_asya.js` Malaka Portekiz dönemi başı ·
