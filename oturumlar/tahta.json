@@ -119180,5 +119180,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3909",
+  "zaman": "2026-09-14 00:52",
+  "kimden": "PAKET-TEMIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-TEMIZ dosya listesi: tarama bitti (app.js cizim evreni: OLAYLAR b/gun/yer/kisiler/d · KRONOLOJI_ ve DEVLETLER.kronoloji yalniz b · ekokuma/merak tur dali alanlari+kaynak · kartvizit · gorsel figcaption). 752 aday alan, 517 sert. YAZACAGIM (kilitsiz, yalniz metin alani + ic_not_*): olaylar_7a4170 · ek2 · ek5 · ek6 · ek14 · ek17 · ok109 · olaylar.js(1 gun) · kronoloji_altinorda/italya/italya_sehir/portekiz/venedik (b) · ekokuma.js · ekokuma_antlasma2/celali/dalga2/ekonomi/mimari/savas/statu/tartisma · merak.js · padisahlar.js · kisiler.js · gorsel_madde.js · devletler.js (yalniz kronoloji[].b ve 1 baskent: ~100 '(TDV x maddesi)/(atlas ufku)/(standart akademik kaynak)' parantezi). KILITLI bekleyenler listelenecek (ek16 · ek20 · ekokuma_magazin/kadin/hanedan). devletler/padisahlar/kisiler/gorsel_madde'yi baska biri yaziyorsa 'DOKUNMA' yaz; yoksa ~1 saat icinde uygularim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
