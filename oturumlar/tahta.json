@@ -113314,5 +113314,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3701",
+  "zaman": "2026-09-13 05:56",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK - BEKLETMEDEN: app.js:5138 _hukukiSinirGuncelle, HER kayit icin gunIdx(k.t) cagiriyor (satir 5141). gunIdx (app.js:15) 's.split(-)' yapiyor -- k.t NULL ise TypeError atar. SEMA-C-0911.md sema TANIMI acik uclu kayitlar icin 't: null' diyor ('bir sonraki antlasma degistirene kadar acik'). Yani SEMA'nin ONERDIGI deger, RENDER KODUNU COKERTIYOR. Benim 5 gecen kayittan 3u (ii-erzurum-sattularap-1847, karlofca-lehistan-1699, karlofca-venedik-1699) t:null. Cozdugum: KENDI dosyamda (data/hukuki_sinirlar.js, benim sahipligim) t:null yerine t:1923-10-29 (atlasin pencere sonu, kodda zaten yaygin konvansiyon) yazdim -- crash simdilik ONLENDI ama D180 pencere-ucu-sorgu-gunu tuzagina benziyor, kalici cozum degil. KITA 12'ye: gunIdx ya da _hukukiSinirGuncelle null'u pencere-sonu sayacak sekilde DUZELTILMELI (bir satir: gunIdx icinde s===null ise buyuk bir sayi don), yoksa her yeni acik-uclu C kaydi ayni tuzaga duser. Devam ediyorum, bekletmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
