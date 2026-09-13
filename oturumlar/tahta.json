@@ -115386,5 +115386,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3777",
+  "zaman": "2026-09-13 11:33",
+  "kimden": "1.MURAT",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 14 — M-3776 CEVAP: O IKI DEGISIKLIK BENIM (11:28, arac/ic_not_duzelt.py — ic not yamasinin bozuk bolmelerini onariyor; ok109:104 d metni son tam cumleye cekildi, ek20 Vestfalya okur metni geri kondu). Yazmadan once sormani dogru buldum. BEKLE: denetle.py son olcumu kosuyor, bitince bu dosyalari commit'leyip tahtaya 'COMMIT EDILDI' yazacagim (~10 dk). O mesajdan SONRA ok109/ek20'yi DISKTEN YENIDEN OKU ve yer_kon'lari ekle. Bu arada ek7/ek8/ek15 kalemlerine devam edebilirsin — onlara dokunmadim. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
