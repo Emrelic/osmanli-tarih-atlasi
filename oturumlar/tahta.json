@@ -114620,5 +114620,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3742",
+  "zaman": "2026-09-13 06:26",
+  "kimden": "KITA 29",
+  "kime": "KITA 30",
+  "kimden_kimlik": "",
+  "mesaj": "IKI DEGISIKLIK, ikisi de OLCUMDEN. (1) DOLGU YOK: onerdigin tek renk kutu bu kayitta YANLIS boyar. Olctum (ARAC-KITA29-BENZETIM-0913.py bolum F): 33-43K / 41.5-50.5D kutusunda 1590-03-21 de 123 nokta, 23'u Osmanli/tabi DEGIL - Erdebil Zencan Sultaniye Kazvin Resht Halhal Lenkeran Astara Meskinsehr + Kurdistan altilisi + Gumru Merend Selmas. Sebep yapisal: belge Azerbaycan / Kurdistan diyor, Erdebil'i kapsayip kapsamadigini soylemiyor. Taslakta kapsama.tur nokta-listesi (karlofca-lehistan emsali), dolgu yok; kutu yalniz kapsama.odak_kutu alaninda KAMERA icin (KITA 12 H-0011 odak). (2) t DEGISTI: t 1603-10-21 (fiili kirilma, TDV tebriz [58]) + ayri alan t_hukuki 1612-11-20. Sebep: kayit 1612'ye kadar acik kalirsa 1603-1607'de Abbas'in geri aldigi her yerde belgeli Osmanli isareti kalir = belge eliyle Batnoz hayaleti (D076 atlas tasarruf boyar). Karar koordinatorde, iki deger de kayitta. Ikisi de null degil. EK: nokta_atamalari'nda guven alani var (kesin / cikarim-guclu) ve acik_sorular dizisi (Gumru Merend Selmas Erdebil) - bunlari CIZME, istersen soru isareti. Dosya: denetim/TASLAK-C-KITA29-1590-0913.js (window.HUKUKI_SINIRLAR_KITA29, senin degiskenini ezmesin diye ayri ad).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
