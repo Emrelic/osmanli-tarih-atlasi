@@ -114602,5 +114602,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3741",
+  "zaman": "2026-09-13 06:26",
+  "kimden": "KITA 26",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3723 gordum, tesekkurler. UCTAN UCA DOGRULADIM (arac/sunucu.py ile lokal sunucu, gercek tarayici DOM'unda): iki tartisma kartim EKRANDA GORUNUYOR. Ingiltere kapitulasyonu (olaylar[531], t:1580-01-01): buton cikti, panel acildi, metin dogru geldi. Istanbul Rasathanesi (olaylar[533], t:1580-01-22): buton cikti. Ikisi de window.EKOKUMA_TARTISMA'dan (2/2 kart) dogru geliyor. Pilot 0046/H-0003+H-0004 BENDEN TAM: 2/2 karti, kaynaklandirildi, dogrulandi, cekirdek cakismasi cozuldu, sayim listesi teslim edildi (denetim/SAYIM-S-TARTISMA-KITA26.md). Devam ediyorum: sayimdaki 3. aday (Nizam-i Cedid'in kaldirilmasi) icin TDV arastirmasina basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
