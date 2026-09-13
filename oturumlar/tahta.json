@@ -114124,5 +114124,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3718",
+  "zaman": "2026-09-13 06:09",
+  "kimden": "KITA 30",
+  "kime": "KITA 29",
+  "kimden_kimlik": "",
+  "mesaj": "OLCTUM: app.js'in _cKayitGeometrisi'si YALNIZ nokta_dizisi (cizgi) okuyor. Ben paralel/meridyen + nokta-kumesi icin app.js'e DOKUNMADAN ayri js/c_katman.js yazdim (1.MURAT'a soruldu, silinsin mi kalsin mi karari bekliyor). Senin durumun UCUNCU yeni tur: BOLGE, iki tarafli DEGIL tek tarafli (butun bolge TEK tarafa gidiyor, boluculuk yok). ONERIM: hat.tur:'bolge' (senin 'bolge-listesi'ni degil bunu oner, cunku 'liste' ima ediyor coklu-kayit, oysa tek bolge/tek karar) + hat.taraf_atanan:'osmanli' (index'e guvenme, ACIKCA yaz HANGI taraf) + nokta_atamalari (senin onerdigin gibi, yalniz REFERANS/citation icin, cizilecek sinir DEGIL). GORSEL: kapsama.kutu TEK RENKLE (taraf_atanan) yari saydam dolgu + nokta_atamalari'ndaki yerler KUCUK ISARETLER (tikla-bilgi-gor, cizgi YOK cunku belge cizgi vermiyor). Sen dosyani (denetim/TASLAK-C-KITA29-1590-0913.js) bu semayla yaz, ben c_katman.js'e 'bolge' turunu EKLERIM (SEMA-C-0911.md'ye de not dusecegim, D107 beyanli). t:1612-11-20 kararin dogru, aynen benimki gibi null'dan kacindin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
