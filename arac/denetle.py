@@ -177,7 +177,22 @@ BEKLENEN_YERLESIM = 968
 #    ⚠️ Bu sabit bir HEDEF degil bir FOTOGRAF: dunya yerlesim programi
 #    surerken her beyan partisi onu buyutur. Buyume KUSUR DEGIL —
 #    `1c`nin BELGESIZ sayisi buyurse O kusurdur.
-BEKLENEN_SAHIPSIZ = 314   # 10 EYLUL 2026: 315 -> 314, aletin KENDI uyarisi
+BEKLENEN_SAHIPSIZ = 324   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla)
+# 🔴 314 -> 324, 13 EYLUL 2026 (1.MURAT, kosu 10 SURERKEN — denetle.py motor_izi'nde DEGIL)
+#    OLCUM, TAHMIN DEGIL: ayni alet c104b61'de (sabitin 314'e cekildigi commit)
+#    ayri worktree'de kosturuldu -> TAM 314 (saglama tuttu), sonra iki ad
+#    listesi karsilastirildi. Yeni on sahipsiz, ve ARTIK SAHIPSIZ OLMAYAN: 0.
+#      Sirenayka (4d98ba9, paket 0043 H-0016-5 — Memluk anakronizmi silindi,
+#        TDV `berka` 1281-1551 hicbir egemen adi vermiyor, bos:"devletsiz"):
+#        Bingazi · Ecdabiye · Merc · Beyza (Kirene) · Tobruk
+#      Bosna sinir kaleleri (paket noktalari, 12 Eylul, 1285-1520/1540 sahipsiz):
+#        Bosna Brod'u · Bosna Dubicasi · Bosna Novi'si · Jasenovac · Kostajnica
+#    `1c` belgeli 310 -> 320 (TAM +10) · BELGESIZ 4 -> 4 (tavan 4) ⇒ onu da BELGELI.
+#    🔴 Ve kural cignendi, kayda gecsin: "kapsam buyuten parti, tavan
+#      degisimini ONCEDEN yazsin". Iki parti de (Sirenayka dahil, koordinatorun
+#      kendi commit'i) yazmadi ve kosu 10'un zinciri bu yuzden KIRMIZI tabanla
+#      basladi. Bu satir zinciri yayina acmak icin, sayiyi olcume uydurmak icin
+#      DEGIL — on kaydin onu da adiyla ve belgesiyle sayildi.
 # 🔴 TAVAN GEVSEK KALIRSA BIR SONRAKI GERILEME SESSIZCE YENEN BIR PAY BULUR.
 #    Olcum 314'e indi (kosu 8 sonrasi + bugunku mukerrer anahtar duzeltmeleri);
 #    tavan 315'te kalsaydi yeni bir DELIK acilinca alet yine "✓" basardi.
