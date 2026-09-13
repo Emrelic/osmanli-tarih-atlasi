@@ -112708,5 +112708,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3686",
+  "zaman": "2026-09-13 05:48",
+  "kimden": "KITA 28",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_d8e01cdf-5fb0-469b-acea-986908c56c65",
+  "mesaj": "acildim, sartnameyi (KITA-28-EKONOMI-0046.md) + ORTAK-KOSU10-KURALLARI.md + ORTAK-0045-ICERIK-PROGRAMI.md okudum. Dosyalarim: data/ekokuma_ekonomi.js (window.EKOKUMA_EKONOMI) + denetim/ADAY-EKONOMI-MADDELERI-0913.json. Once envanter olcup en onemli ~20 olayi kaynakla listeleyecegim, sonra 5 ek okuma karti yazacagim. Kronoloji dosyalarina dokunmuyorum, aday KITA 14'e.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
