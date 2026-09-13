@@ -66,9 +66,9 @@ sonraki durumdan türetilir).
 - 1727 TD 901 (Karpi · Maku · Şerur · Süregel · Uç Kilise 1724-35) — KITA 29 kapsam dışı ek
 
 ## 7 · C katmanı açık soruları (KITA 30 devri, M-3766)
-- `kapsama.negatif_taraf` önerisi: app.js işaret kuralı (negatif → taraflar[0])
-  NOKTA SIRASINA bağlı; ters sıra tarafı sessizce ters boyar (bosna-sava vakası).
-  KITA 15'in maliyet ölçümü bekleniyor, karar yayından sonra.
+- ✅ `kapsama.negatif_taraf` — İNDİ (a067631): taraf boyaması artık nokta
+  sırasından bağımsız; 3 kayıtta açık, 8 kayıt · 7 çiziliyor değişmedi, ters
+  sıra sınaması renk değiştirmedi (KITA 15).
 - `karlofca-bosna-kaleler-1699` ile `karlofca-bosna-una-1699` nokta listeleri
   ÖRTÜŞÜYOR — birleştirme kararı verilmedi.
 - banat-maros (cephe hattı + Belgrad yönü noktası) · bahçesaray-özü (yukarı mecra
