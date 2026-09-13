@@ -1,0 +1,45 @@
+{
+ "oturum": "KITA 18",
+ "tarih": "2026-09-13",
+ "paket": "parti-emrelic-0044 · sartname KITA-18-KIRIM-ANAPA-0044.md is (1)",
+ "uyari": "BU BIR YAMA ONERISIDIR, UYGULANMADI. data/yerlesimler.js KOSU 10 DONUK — degistiren KOORDINATOR/Oturum 0.",
+ "hedef_kayit": {
+  "dosya": "data/yerlesimler.js",
+  "satir": 532,
+  "ad": "Anapa",
+  "mevcut_hal": "d:[{f:\"1781-01-01\",t:\"1829-09-14\"}] KESINTISIZ — 1791-92 ve 1828-29 bosluklari YOK"
+ },
+ "onerilen_isg_dizisi": [
+  {
+   "f": "1791-07-26",
+   "t": "1792-01-09",
+   "d": "rusya",
+   "kaynak": "anapa",
+   "gerekce": "TDV anapa: 'Savas suresince Ruslar tarafindan uc defa kusatilan Anapa ucuncu kusatma sonunda 26 Temmuz 1791'de isgal edildi' ... 'Yas Antlasmasi ile ... Kafkasya'da eski sinirlar kabul edildiginden Osmanli Devleti'ne geri verildi'. Bitis gunu ATLASIN KENDI Yas Antlasmasi gunuyle (1792-01-09, kronoloji_rusya.js:470) hizalandi — Kefe emsaliyle AYNI konvansiyon (isg: bitisi, ayni antlasmanin atlastaki gunu).",
+   "siniflandirma": "🟢 TARTISMASIZ — gecici isgal, SONRA GERI VERILDI. d:'ye dokunulmaz."
+  },
+  {
+   "f": "1828-06-24",
+   "t": "1829-09-14",
+   "d": "rusya",
+   "kaynak": "anapa",
+   "gerekce": "TDV anapa: 'Osman Pasa 24 Haziran 1828'de Ruslar'a teslim oldu' ... '1829 Edirne Antlasmasi ile de Anapa ve Kafkasya Osmanli hakimiyetinden cikti'. Bitis gunu d:'nin KENDI mevcut bitis gunuyle (1829-09-14) AYNI — yani bu isg: d:'yi KISALTMIYOR, ustune BINIYOR.",
+   "siniflandirma": "🟡 TARTISMALI (sartnamenin sordugu soru) — asagida karsilastirma"
+  }
+ ],
+ "tartismali_madde_karsilastirma": {
+  "soru": "1828-06-24 -> 1829-09-14 bir ISGAL OVERLAY mi (d: 1829-09-14'te kaliyor), yoksa d:'nin GERCEK BITISI 1828-06-24'e mi CEKILMELI (d: kisaltilir, 1828-06-24->1829-09-14 SAHIPSIZ ya da farkli sekilde isaretlenir)?",
+  "kefe_emsali": {
+   "veri": "data/yerlesimler.js:508 — Kefe s: dizisi ceneviz'den sonra DOGRUDAN 1783-04-19'da rusya'ya geciyor (araya baska devlet GIRMIYOR); d: 1475-06-06'dan 1783-04-19'a KESINTISIZ; isg:[{f:1771-07-01,t:1783-04-19,d:rusya,kaynak:kefe}] BINDIRILMIS.",
+   "yorum": "Kefe'de fiili Rus kontrolu (1771) ile hukuki/kesin ilhak (1783 II. Katerina manifestosu) arasindaki 12 YILLIK ARA, d:'yi KISALTMADAN isg: ile ORTULMUS. d:'nin 'gercek bitisi' KESIN/NIHAI SIYASI DEVIR gunu (1783) olarak alinmis, ARADAKI ilk fiili kayip (1771) degil."
+  },
+  "anapa_icin_uygulama": "AYNI KONVANSIYON izlenirse: d: 1829-09-14'te (Edirne, NIHAI/KESIN devir) KALIR, 1828-06-24 (Osman Pasa'nin fiili teslimi) ise Kefe'nin 1771'i gibi bir isg: BASLANGICI olur. Yapisal olarak IKI VAKA BIREBIR PARALEL: fiili kayip -> nihai antlasma arasi fark (Kefe 12 yil, Anapa 15 ay), ikisinde de ARADA baska devlet GIRMIYOR (Kefe: dogrudan rusya'ya; Anapa: dogrudan rusya'ya, 1791-92'nin aksine BU SEFER GERI DONUS YOK).",
+  "TEK FARK": "Anapa'nin 1791-92 isgali GERI DONUSLU (d: devam ediyor), 1828-29 isgali KALICI (d: o isgalle SON BULUYOR). Ama bu fark isg:/d: YAPISINI DEGISTIRMEZ — yalniz isg:'in ARDINDAN d:'nin DEVAM edip ETMEMESI degisir, ve mevcut veride zaten ETMIYOR (d: 1829-09-14'te bitiyor).",
+  "KITA_18_ONERISI": "isg: OVERLAY (d:'ye DOKUNMA). Gerekce: Kefe emsaliyle BIREBIR ayni yapi, ve d:'nin bugunku bitis gunu (1829-09-14, Edirne) zaten DOGRU/NIHAI gundur — kisaltmak Degismez 1'i ihlal eder (1828-06-24->1829-09-14 arasi 'sahipsiz' gorunur, oysa Rusya fiilen ORADAYDI, bos degildi)."
+ },
+ "degismez_2i_notu": {
+  "sartnamenin_varsayimi": "'1792-01-09'un maddesi kronoloji_rusya.js'te = KUYRUK, Degismez 2i onu GORMEZ.'",
+  "OLCULDU_VE_KISMEN_CURUDU": "data/olaylar_ek5.js:302 (CEKIRDEK, Degismez 2i'nin evreninde) da AYRICA bir Yas Antlasmasi maddesi tasiyor: t:'1792-01-10', b:'Yas Antlasmasi — Kirim'in kesin kaybi ve Turla siniri'. Bu, kronoloji_rusya.js'teki 1792-01-09'dan yalniz 1 GUN farkli. isg:'in bitis gunu (1792-01-09) bu CEKIRDEK maddeye ±1 gun icinde (±30 gun tavaninin COK altinda) ⇒ Degismez 2i muhtemelen ACIK KALMAYACAK, sartnamenin varsaydigi gibi.",
+  "ikinci_kucuk_bulgu": "IKI AYRI CEKIRDEK/KUYRUK Yas Antlasmasi maddesi VAR ve GUNLERI 1 GUN FARKLI (1792-01-09 vs 1792-01-10) — bu ayri bir kucuk tutarsizlik, bu YAMA'nin konusu degil ama kaydediliyor."
+ }
+}
