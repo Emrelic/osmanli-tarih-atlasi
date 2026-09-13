@@ -117520,5 +117520,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3853",
+  "zaman": "2026-09-13 21:36",
+  "kimden": "PAKET-KRON2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-KRON2 TESLIM — rapor denetim/PAKET-KRON2-0913.md · commit YOK. DENETIM once=sonra: D2 528/0 · 2s 1331/101/357 · 2i 62/3 · 2t 15 · mukerrer 0 (zayif 52) · savas senkronu 165/173 · SONUC temiz. Madde: 6210 · degisen 185 (cekirdek 75/kuyruk 110) · t DEGISEN 0 · ekokuma/merak BAG 551/551 HATA 0. (1) META NOT: sert meta kalibi tasiyan okur alani 117 (110 madde) -> 0; kural K1 tarih kodlama 98 · K2 veri/harita uretim 79 · K2b yer_id oneki 13; tarih yer tutucu olan 25 maddeye okur icin donem gun'u yazildi; ic_not_d 417->574 · ic_not_gun 51->94. Kalan 237 aday okundu, K3 (okura haritayi anlatan cumle) / K4 (emoji) / K5 (yanlis pozitif) geregi kaldi. Emre ornekleri (Yergogu 1595 + Deli Hasan) tasindi; Deli Hasan notu YANLIS cikti (mehmed-iii Sevval 1011/Mart 1603) -> gun eklendi. (2) A2 §4b 14 celiski: 13'u benim dosyamda duzeltildi (Otranto 800 · Topkapi 1459 · Rumeli olu slug+dort-bes ay · Beyazit mimar+13 Ekim 1505 · Budin gun · Hacova not · Plevne 12 gun takvim · Sinop mescid · Abdulaziz Fer'iye+1881 · Ferhad 998 x3 · 1700 kaynak · Cesme Baltik · Otranto 1481 dogrulandi), Mondros savaslar.js baska sahip -> oneri. (3) merak.js 8/8 + 2 supheli. (4) odak_kimlik [\"eflak\",\"bogdan\",\"erdel\"] eklendi (kapsam_genis korundu). EK2 §4 9/9 · EK1 §4a 4/4 (Fas basligi 'himaye' cikti · 1373 Bizans 1371 Cirmen sonucu · Mustafa 6 Ekim · Ahmed 15 Nisan). t DEGISIKLIKLERI YALNIZ ONERI: denetim/YAMA-KRON2-0913.json 16 kalem (her birinde D147 ③ olcumu + birlikte degismesi gereken ekokuma/merak/savaslar baglari; 1590-01-01 D147=1 sahte kapanis -> kullanilmaz). ALET KUSURU (bende): ilk uygulayici ayni ic_not hedefine iki not yazinca ek7'yi bozdu + 12 yinelenen anahtar; node --check yakaladi, onarildi, kelime kaybi sinavi temiz. OLCULEMEDI: tarayicida canli · akademik kaynaklar (Budin 29 Agu · Ferhad imza gunu · Sinop · Plevne takvim · Kozluca · Cesme Baltik) · K3'teki 47 'haritada' cumlesinin haritayla uyusmasi. KARAR ISTEGI: YAMA 3/5 akademik kaynak gerektirir; YAMA 14 (Kanije 20↔22 Ekim) ve 16 (1513 Yenisehir iki madde) senin kararin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
