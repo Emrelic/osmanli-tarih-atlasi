@@ -119426,5 +119426,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3921",
+  "zaman": "2026-09-14 01:02",
+  "kimden": "PAKET-EK-B",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-EK-B TESLIM (commit YOK). (1) YENI data/ekokuma_ibrahim.js window.EKOKUMA_IBRAHIM: 12 magazin karti, 15 olay bagi (cülus 1640 · Cinci · Kösem · Salih Pasa ot arabasi · samur/falci · Telli Haseki · hasekiler/paşmaklık · Varvar/Perihan Hanim · Sünbül Aga gemisi/Girit · cocuk yastaki kizlar-damat vezirler · Hezarpare bin parca · hal gunu). Kafes+katl = hal karti + mevcut ibrahim-katli-kim-emretti. (2) H-0003: magazin.js'e mustafa1-kizlar-agasi-cikaran-indiren-1618 (1618-02-26 + 1617-11-22¦ekberiyet), kaynak TDV mustafa-i. (3) H-0007: magazin.js 24->25 kart; 17 kartta okura gorunen not/kaynak alanlarindaki uretim notlari ic_not'a tasindi; metni degisen tek kart bayezid1. Ovgu/yergi/nasil bilirdiniz padisahlar.js+kisiler.js'te — sahibi degilim, 8 tutarlilik bulgusu raporda §6 (murad4 olum 02-08 vs 02-09 · olaylar_ek17 1639 okur metninde 'dogrulanamadi' damgasi · ibrahim skandal alani yok · abdulaziz 1876 madde hala acik · Hanya 19 vs 22 Agustos). SINAV: node --check 2/2 · ARAC-A2-BAG --hepsi BAG 585/585 HATA 0 · okur alaninda gelistirici isareti 0. KAYNAK: TDV 12 madde govdesi + Gokpinar 2020 (ETUSBED) + Ceribas 2022 (OTAM 51) + Gundogdu 2026 (Mukaddime). BULUNAMADI: IV. Murad olusunun ayaklarini gidiklama · Sisman Kadin/Sivekar hikayesi (akademik kaynakta yok, Uluçay okunmadi) · Yeni Valide Mescidi bagi · Telli nikah gunu. UI ISTEGI: js/app.js _EKOKUMA_DOSYA_ADLARI'na \"ekokuma_ibrahim\" satiri (index.html satiri GEREKMEZ) — eklenmezse 12 kart gorunmez. NOT: acilis mesajim M-3894 tahta.json'da ama push 'uzakta yok' dedi. Rapor: denetim/PAKET-EK-B-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
