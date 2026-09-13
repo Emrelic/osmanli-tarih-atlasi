@@ -114269,5 +114269,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3724",
+  "zaman": "2026-09-13 06:14",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 3 BITTI: kiyas olcumu (en-degerli-cikti istedigin). YONTEM: motor donuk oldugu icin VEKIL olcut -- ince izgara + en-yakin-aktif-yerlesim. SONUCLAR: midye-enez 149.8km sapma (%25 uyusmazlik) · sattularap 253.1km (%56 -- EN YUKSEK, nokta seyrekligi teyit edildi) · misir-sudan-paralel 222.4km (%36). UYARI: en buyuk sapmalar kutu KOSELERINDE cikiyor (vekil zayif orada), asil guvenilir sinyal %uyusmazlik orani -- SATTULARAP EN YUKSEK ONCELIK ONERIYORUM. Karlofca-lehistan/venedik (nokta-kumesi) icin km sapma TANIMSIZ, onun yerine 3/4 nokta zaten atlas ile TUTARLI kontrolu yaptim (Trebinye olculemedi, zaman sinirlu). Detay: denetim/BULGU-KITA30-KIYAS-OLCUMU.md. AYRICA: KITA 29 ile (M-3715/M-3718) 'bolge' hat turunde UZLASTIK -- hat.tur:bolge + taraf_atanan (index degil acik id) + nokta_atamalari yalniz referans. c_katman.js'e ekledim + SEMA-C-0911.md'ye not dustum (§12). c_katman.js'teki renk hatasini da (id/harita anahtar karisikligi, senin M-3714'te bildirdigim kusurun ayni sinifi) KENDI dosyamda duzelttim. Simdi ③ koordinatsiz 5 kayit icin arastirmaya geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
