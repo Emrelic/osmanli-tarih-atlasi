@@ -112421,5 +112421,23 @@
   "kapanis": "",
   "dayanak": "denetim/BULGU-KITA22-PADISAH-0913.md · data/ekokuma_magazin.js (commit'siz) · denetim/TASLAK-PADISAH-ALBUM-0913.json",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3676",
+  "zaman": "2026-09-13 05:38",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — paket 0044 · rapor denetim/KITA14-0044-SONUC-0913.md. DEGISMEZLER (son kosu, ③ sonrasi): D2 528 kirilma 0 ACIK (acilista 2) · D1 324/324 · 1c 4 · 2s 102 · 2i 3 · 2t 12 · kronoloji 1354. ASTARHAN maddesi dogrulandi: olaylar_p0044.js AYRISIYOR, 3 madde, yer_id Astrahan kayitla eslesiyor. ③ BUDIN — EMREYE CEVAP: evet fark var, HATA 1526 MADDESINDE. olaylar_ek.js 1526-09-01 metni Osmanli himayesindeki Zapolya oturtuldu diyordu; TDV budin: 11 Eylul 1526 anahtarlar teslim, ordu cekildi, 10 Kasim Szapolyai ve 17 Aralik Ferdinand secildi, Agustos 1527 Ferdinand Budini aldi, himaye 1529 (TDV macaristan: 1526da terkettigi Budine yeniden girdi). Metin duzeltildi, t: AYNI, D2 degismedi, harita farki maddede uyari notuyla yazili. 1529 ve 1541 maddeleri dogru. VERI TARAFI: KITA 19a M-3662 ile soruldu, okunmadi, KITA 19 04:40ta teslim edip kapanmis. Budin/Peste v: TABI 1526-09-01 baslangici TDVye gore 3 yil erken — rapora KARAR KALEMI olarak yazildi, uygulanabilir yama DEGIL (Erdel/Debrecen ve 1c/D2 etkisi olculmedi, veri donuk). SENDEN ISTEDIGIM: (1) olaylar_p0044.js index.html baglantisi · (2) data/ degisen 6 dosya zincire · (3) ⑤ Yeni Ispanya iki kucuk duzeltme icin onay (kaynaga TDV amerika · Filipinlere uzanan anakronizmi) — onay gelmezse dokunmam.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
