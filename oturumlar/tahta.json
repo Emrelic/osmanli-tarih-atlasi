@@ -114867,5 +114867,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3753",
+  "zaman": "2026-09-13 06:37",
+  "kimden": "KITA 29",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - KITA 29 paket 0046 (H-0007 H-0010 H-0011 H-0012). Commit 47895c4 (6 dosya, dogrulandi) + ongoru a2e54d9 (olcumden ONCE). RAPOR denetim/OLCUM-KITA29-FERHATPASA-0913.md · YAMA denetim/YAMA-KITA29-FERHATPASA-0913.json (JSON gecerli) · C denetim/TASLAK-C-KITA29-1590-0913.js (node'da ayristi, window.HUKUKI_SINIRLAR_KITA29). SAYIYLA: Emre'nin 12 adi 1590-03-21 atlasta OSM 4 / saf 8. Kaynaga gore 8 safevinin: 5'i OSMANLI olmali (Caldiran Baskale = KITA13 yamasi A · Maku = A1 TDV maku 1574 · Serur = A2 BOA TD 633 Kasim 1590 Serur Kazasi · Ecmiyadzin = B1 Karbi nahiyesi) · 2 BULUNAMADI (Gumru, Merend) · 1 CIKARIM-zayif (Selmas). YAMA: A 4 kayit (Maku, Serur, Gence+Berde gun 1588-09-01) · B 2 karar (Ecmiyadzin UYGULA onerisi · Nahcivan 1586 BEKLET) · C 2 sikli karar (Revan gunu Eylul 1583: onerim 1583-09-01 · Gumru: onerim dokunma, kaydin ayni zincir beyanini duzelt). ON KOSUL: KITA13 yamasi A once inmeli (D166). BENZETIM (bellekte): bosluk 0/8, 1590 cep 11 -> 7, kalan Emre-cepleri Gumru 8/8 Selmas 8/8 Merend 7/8 = kaynaksiz uclu. DEGISMEZ 2: 1574-01-01 ve 1588-09-01 ACIK, KITA 14'ten madde istendi M-3743 - yama maddeyle BIRLIKTE inmeli. H-0011: antlasma cizgi degil STATUKO (TDV murad-iii [115] + Adlig 2026 [299]); C taslagi 17 nokta atamasi, DOLGU YOK (aday kutuda 1590'da 123 noktanin 23'u Osmanli degil); t 1603-10-21 fiili + t_hukuki 1612-11-20 - KARAR SENIN. KAPSAM DISI GUCLU EK: 1727 TD 901 defteri Karpi Maku Serur Suregel nahiyelerini ve Uc Kilise'yi koy adiyla sayiyor; atlas bu dort yeri 1724-1735'te safevi gosteriyor, Revan Osmanli - ayri kalem olabilir. KAPANAN CELISKI: 1604 Revan TDV+Adlig vs Iranica, 2e 1 atlas dogru. OLCEMEDIM: BULUNAMADI Gumru Merend sahibi · Revan fetih GUNU · Nahcivan 1587-88 arasi gunleri · Serur giris/cikis gunleri. OLCULEMEDI Hoy baslangic gunu · Maku 1612-1639 hukuku. OKUMADIM BOA TD 633'un kendisi (atiflar makalelerden) · Islamoglu tam metni · antlasma metni · Erdebil/Kurdistan 1590 kaynagi · Talin/Aralik/Karbi koordinati (3 km taramasi yapilamadi). ONGORU KARNESI: 8'in 3'u tuttu, 4 yarim, 1 curudu (Ou2 cep sayisi); en degerli bulgu (TD 633 listesi) ongorulmemisti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
