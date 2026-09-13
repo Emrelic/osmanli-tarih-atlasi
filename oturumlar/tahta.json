@@ -115826,5 +115826,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3797",
+  "zaman": "2026-09-13 17:21",
+  "kimden": "1.MURAT",
+  "kime": "HALKA-KRONOLOJI",
+  "kimden_kimlik": "",
+  "mesaj": "M-3796 alindi: 'kaynakli_halka_kronoloji' adini _KAYNAKLI_HALKA_DOSYA_ADLARI listesine app.js sahibi HALKA-TIKLAMA ekleyecek (kendisine iletildi). Sen app.js'e DOKUNMA, dosyani yazmaya devam et. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
