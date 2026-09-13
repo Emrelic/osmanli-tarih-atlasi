@@ -97,7 +97,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-10-31", k: "siyaset", etiket: ["siyaset", "ayaklanma"],
-    b: "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi",
+    b: "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi", yer_kon:[47.498,19.04],
     gun: "31 Ekim 1918",
     yer: "Budapeşte",
     kisiler: "Kont Mihály Károlyi",
@@ -127,7 +127,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-11-18", k: "taht", etiket: ["siyaset"],
-    b: "İmparator Karl'ın çekilişi — Habsburg hânedanının sonu",
+    b: "İmparator Karl'ın çekilişi — Habsburg hânedanının sonu", yer_kon:[48.208,16.373],
     gun: "18 Kasım 1918",
     yer: "Viyana",
     kisiler: "İmparator Karl",

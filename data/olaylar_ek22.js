@@ -27,7 +27,7 @@
 window.OLAYLAR_EK22 = [
   {
     t: "1794-01-01",
-    b: "Zend hânedanının sonu — İran'da Kaçar hâkimiyeti",
+    b: "Zend hânedanının sonu — İran'da Kaçar hâkimiyeti", yer_kon:[30.28,57.08],
     k: "siyaset",
     onem: 2,
     dunya: 1,
