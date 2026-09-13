@@ -120189,5 +120189,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3957",
+  "zaman": "2026-09-14 01:40",
+  "kimden": "P10-UZAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM P10-UZAK (commit YOK, veri yazilmadi, YENI NOKTA 0 -> data/yerlesimler_uzak_0914.js ACILMADI, girdi.py satiri GEREKMEZ). Rapor denetim/P10-UZAK-0914.md · yama denetim/YAMA-UZAK-0914.json (6 kalem). MADDELER: 0033/H-0006 Mogolistan: cozuldu(aciklama) - motor 200km tavani, 23 nokta, sinirin %21 yay; kaynak yeni yer vermiyor. H-0007 Kazak: cozuldu(buyuk olcude) - 14 nokta %14 yay; TDV kazaklar yer adi yok. H-0008 Sibir: sirada - %12 yay; TDV sibir-hanligi dogal hat=Tura/Tobol/Isim nehirleri (motor P13B, nehir kumesi olculmedi); Karacin/Tasatkan/Tarhankale koordinat bulunamadi. H-0009 Nogay-Buhara: sirada - 4 kasitli dolgu+kurulmamis petek; UZAK-Y1 Harizm 1593-98 buhara (TDV hive-hanligi yeniden okundu) 2 kronoloji maddesi ister, 2s kapsam ICI. H-0010 Kandehar: bulunamadi - 1 nokta, sinirin %68'i pergel yayi; TDV zunnun-argun 8 yer adi (Ferah Zemindaver Sal Mestun Sivi...) ama tam zincir yok, sluglar 302; yan bulgu Y4 timurlu kunye 1507 / veri 1522 = ARDIL (Argun), BLOKE. H-0013 Songhay GB: E-cozulmus r7487 - nokta artik mossi-vagadugu, songhay tek parca. H-0014 Kanem-Bornu: bulunamadi - hala 4 parca (gol+Nguigmi kanem-tubu+Kukava kur1814); TDV 1513 'Kanim'in bir bolumu' diyor, kopukluk kaynaga aykiri degil; yan bulgu Y5 Mao 1281-1902 kesintisiz ama TDV Bulala isgali, kunye yok BLOKE. 0048/H-0001 Ustyurt: sirada - Y1 dogrulandi, Y2 bulunamadi (Emba/Ustyurt kuzeyi kaynaksiz, sartli komsu ① yok). DENETIM: veri degismedi; taban 1:324 · 1b 0 · 2:0 · 2s 100 · 2i 3 · 4c 129 · 7 658 · exit1 onceden var (mukerrer madde 1).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
