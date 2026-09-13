@@ -127,6 +127,13 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       madde (ör. 1514-11-24 Yavuz'un Amasya'ya dönüşü). Günü KAYNAKSIZ mevcut maddeler: `1595-08-23` Kalûgerân
       (TDV eflak gün vermiyor; Önal, Koca Sinan Paşa s.390-395 okunacak) · `1594-10-05` üç voyvodalık · `1811-09-03`
       Tosun (ay → gün şişmiş). Kılıç (remzikilic.com, yayın künyesi yok) §4 ara bölge — basılı sürümü aranacak.
+- [ ] **RUS — Eflak-Boğdan Rus işgalleri + Kazak Hetmanlığı** — `denetim/YAMA-RUS-0913.json` (25 `isg:` grubu · 52 dönem ×
+      yerleşim · 17 HAZIR / 8 KARAR · künye `kazak-hetmanligi` 1648→1782 + 8 madde + renk önerisi #6a3d9a, renk_olc ile
+      ölçülecek). Koordinatör hükmü: Yaş 1711 `isg:rusya` · Yaş 1739 6 günlük pencere yazılır · ay kodlu uçlar
+      `kesinlik:ay` beyanıyla · 1853 Oltenya bitişi Bükreş günü (şartlı komşu) · Hotin 1788 / Bükreş 1789 `isg:avusturya`.
+      Veride kusur: Bükreş 1806 30 Kasım → 25 Aralık (ESBE) · Kili/Hotin 1806 yıl kodu · Bender 1806-12 işgali yok ·
+      Yergöğü 1812-1829 fazladan Rus. Değişmez: 2i 5 · 2 2 (Çehrin himaye başı/sonu) · 2s 1 uç maddesiz + 6 sahte
+      kapanış (D147) — madde istekleri raporda. 🟡 EMRE: Sol Yaka şehirleri Hetmanlık rengiyle mi rusya ile mi (öneri Hetmanlık).
 - [ ] **ARAS0048 (paket 0048 görsel soruları)** — `denetim/YAMA-0048-0913.json` (7 yama): Y4 Katar/Doha dolgu → tâbi
       1559-1670 (TDV katar "tartışmasız Osmanlı hâkimiyeti"; haritada Safevî görünüyordu) · Y2 Aşağı Yayık–Emba Nogay
       dolgu noktası · Hârizm 1593-1598 Özbek (Buhara) işgali veride YOK · MOTOR (koşu 11): Y5 `_dolgu_kumesi` kasıtlı

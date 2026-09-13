@@ -1,0 +1,342 @@
+{
+  "paket": "PAKET-RUS",
+  "tarih": "2026-09-13",
+  "rapor": "denetim/PAKET-RUS-0913.md",
+  "durum": "ÖNERİ — koşu 10 yayını sonrası uygulanır. Yerleşim dosyaları, data/devletler.js ve arac/renkler.py DONUK; hiçbir satır uygulanmadı. Yalnız data/savaslar.js SEFERLER'e 11 rus- kaydı yazıldı.",
+  "emre_kararlari": [
+    "13 Eylül 2026: Rusların Eflak-Boğdan üzerinden yaptığı harekâtlarda işgal edilen topraklar TARALI (isg:), ilerleyen ordular KESİKLİ ÇİZGİ + OK. Taralı desen yalnız işgal, antlaşma değil.",
+    "13 Eylül 2026: Kazak Hetmanlığı kaydı açılsın — o devlet olmalı."
+  ],
+  "takvim": "Bütün f/t GREGORYEN. Rus kaynaklarının (ESBE, Kashirin, Babilunga, BSE) Jülyen günleri PAKET-RUS tarafından çevrildi: 18. yy +11, 19. yy +12 gün. ESBE'nin Jülyen yazdığı dosya geleneğinden varsayıldı; Babilunga eski stili kendisi beyan ediyor (\"16 мая 1812 г. (по новому стилю - 28 мая)\"). TDV günleri olduğu gibi alındı.",
+  "kaynak_kisaltmalari": {
+    "ESBE-TV": "Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России», т. XXXIV (1901), с. 122—159 (ru.wikisource ЭСБЕ/Турецкие войны России)",
+    "ESBE-VV": "ЭСБЕ, «Восточная война» (т. VII, с. 290 и след. — cilt/sayfa ESBE-TV'nin çapraz atfından)",
+    "ESBE-PRUT": "ЭСБЕ, «Прутский поход Петра Великого в 1711 г.» (cilt/sayfa ölçülmedi)",
+    "ESBE-BELGRAD": "ЭСБЕ, «Белградский мир» (т. V, с. 177 — ESBE-TV çapraz atfı)",
+    "ESBE-STAVCANI": "ЭСБЕ, «Ставчаны» (т. XXXI, с. 396 — ESBE-TV çapraz atfı)",
+    "ESBE-BENDER": "ЭСБЕ, «Бендеры» (cilt/sayfa ölçülmedi)",
+    "ESBE-KILIYA": "ЭСБЕ, «Килия» (cilt/sayfa ölçülmedi)",
+    "ESBE-IZMAIL": "ЭСБЕ, «Измаил, город» (cilt/sayfa ölçülmedi)",
+    "ESBE-HOTIN": "ЭСБЕ, «Хотин» (cilt/sayfa ölçülmedi)",
+    "BABILUNGA": "Н. В. Бабилунга, «Русско-турецкая война 1806-1812 гг.: освобождение Бессарабии от османского ига», Русин (Tomsk), 2012 — sayı/sayfa ölçülemedi; alıntılar WebFetch özetinden",
+    "BSE-PRUT": "Большая советская энциклопедия, «Прутский поход 1711» (slovar.cc/enc/bse/2033592 — alıntı WebFetch özetinden; cilt ölçülmedi)",
+    "GOLDFRANK": "David M. Goldfrank, «Crimean War», Encyclopedia of Russian History (Macmillan) — encyclopedia.com üzerinden, WebFetch özeti",
+    "KASHIRIN": "Кашинин [Kashirin] В. Б., «Днестровский поход генерала князя А. М. Голицына в 1769 г.», Славяноведение 2024/1, с. 5-30, DOI 10.31857/S0869544X24010012 (PAKET-A6B'den devralındı)",
+    "EOU-HETMAN": "Encyclopedia of Ukraine, «Hetman state» (L. Okinshevych, A. Zhukovsky)",
+    "EOU-DOROSHENKO": "Encyclopedia of Ukraine, «Doroshenko, Petro» (B. Krupnytsky, O. Ohloblyn, O. Subtelny; EoU c. 1, 1984)",
+    "EOU-CHYHYRYN": "Encyclopedia of Ukraine, «Chyhyryn» (PAKET-A6B'den)",
+    "TDV": "TDV İslâm Ansiklopedisi — slug adıyla; bu turda 200 dönüp gövdesi okunanlar: eflak · bogdan · bukres · hotin · kili · akkirman · ibrail · yergogu · ozu · kucuk-kaynarca-antlasmasi · yas-antlasmasi · edirne-antlasmasi · paris-antlasmasi · ahmed-iii · baltaci-mehmed-pasa · mustafa-iii · selim-iii · abdulmecid · abdulhamid-ii · omer-lutfi-pasa · romanya · belgrad · memleketeyn · zistovi-antlasmasi · berlin-antlasmasi · ayastefanos-antlasmasi · silistre · ruscuk · nigbolu · vidin · kostence · babadagi · doksanuc-harbi | 302 ÖLÜ: yas · prut-savasi · osmanli-rus-savaslari · bukres-antlasmasi · kirim-savasi · kirim-harbi · 93-harbi · osmanli-rus-harbi · belgrad-antlasmasi · ismail · bender · akkerman · isakci · mahmud-ii · mahmud-i · besarabya · omer-pasa · munih · osmanli-rus-harbi-1877-1878 · mahmud-i--osmanli-padisahi | 503: plevne"
+  },
+
+  "isg_onerileri": [
+    {
+      "id": "RUS-1711-YAS", "savas": "1711 Prut", "islem": "ekle", "durum": "KARAR",
+      "kayitlar": ["Yaş"],
+      "donemler": [{"f": "1711-07-06", "t": "1711-07-23", "d": "rusya"}],
+      "kesinlik": "f: gün = Petro'nun ana ordusunun Yaş'a varışı (25 Haziran J); Şeremetev'in 4000'lik öncü müfrezesi daha önce girdi, günü yok · t: gün = antlaşma teatisi",
+      "kaynak": "BSE-PRUT: \"… куда 25 июня подошли главные силы русской армии под командованием Петра I\" · ESBE-PRUT: \"Шереметев, подошедший к Днестру, выслал в Яссы 4-тысячный вспомогательный русский отряд\" · \"12 июля русские выступили со своей позиции\" · TDV kucuk-kaynarca-antlasmasi: \"Prut Antlaşması 21 Temmuz'da değil 22 Temmuz'da imzalanmış ve 23 Temmuz'da teâti edilerek kesinleşmiştir\"",
+      "not": "🔴 KARAR: Boğdan voyvodası Kantemir Rusya'yla antlaşma yapmıştı (ESBE-PRUT: \"Договор с Кантемиром (по которому Молдавия отдавалась под покровительство России) подписан был 13 апреля\"). Rus varlığı DAVETLİ müttefik varlığı mı, işgal mi? Emre'nin kuralı yalnız işgali taralı ister. Pencere 17 gün."
+    },
+    {
+      "id": "RUS-1739-HOT", "savas": "1736-39", "islem": "ekle", "durum": "HAZIR (bitiş antlaşma günü)",
+      "kayitlar": ["Hotin"],
+      "donemler": [{"f": "1739-08-30", "t": "1739-09-18", "d": "rusya"}],
+      "kesinlik": "f: TÜRETİLMİŞ gün — muharebe 17 Ağustos J (ESBE-TV) + \"iki gün sonra\" (ESBE-STAVCANI) = 19 Ağustos J = 30 Ağustos G. ESBE-STAVCANI muharebeyi \"28 августа\" veriyor; o Gregoryen okunursa +2 gün yine 30 Ağustos G ⇒ iki okuma aynı güne varıyor · t: antlaşma günü; kalenin fiilî iadesi daha sonra, günü bulunamadı",
+      "kaynak": "ESBE-STAVCANI: \"Следствием победы при С. было овладение крепостью Хотином, сдавшейся через два дня после сражения\" · ESBE-TV: \"у мст. Ставучан, возле Хотина, 17 августа русское войско встретилось с Т. 90-тысячным отрядом\" · ESBE-BELGRAD: \"Белградский мир — заключен 18-го сентября 1739 г.\" · ESBE-HOTIN: \"В 1739 г. … Миних взял Хотинскую крепость. По Белградскому договору 1739 г. крепость была возвращена туркам\" · TDV hotin: \"kale 1739'da Mareşal Münnich idaresindeki Rus ordusunun eline geçti. Belgrad Antlaşması'ndan (1739) sonra Hotin Osmanlılar'a geri verildi\"",
+      "not": "ÇELİŞKİ ESBE-TV içinde: bir cümle 17, öteki 27 Ağustos (\"15 авг. был уже за Днестром, а 27 одержал блестящую победу\"). A6B sevk adayı S-HOT-1739 bununla kapanır."
+    },
+    {
+      "id": "RUS-1739-YAS", "savas": "1736-39", "islem": "ekle", "durum": "KARAR (6 günlük pencere)",
+      "kayitlar": ["Yaş"],
+      "donemler": [{"f": "1739-09-12", "t": "1739-09-18", "d": "rusya"}],
+      "kesinlik": "f: gün (1 Eylül J) · t: antlaşma günü; Rus çekilişinin günü bulunamadı (pencere gerçekte daha uzun)",
+      "kaynak": "ESBE-TV: \"Вслед за ставучанской битвой пал и Хотин, а 1 сентября русские войска вступили в Яссы, жители которых обязались содержать первый год 20 тыс. русского войска\" · ESBE-BELGRAD: \"заключен 18-го сентября 1739 г.\"",
+      "not": "Antlaşma günü bitiş olarak kullanılınca pencere 6 gün — haritada neredeyse görünmez. Koordinatör: yazılsın mı, tahliye günü aransın mı."
+    },
+    {
+      "id": "RUS-1769-BUK", "savas": "1768-74", "islem": "ekle", "durum": "KARAR (başlangıç AY)",
+      "kayitlar": ["Bükreş"],
+      "donemler": [{"f": "1769-12-01", "t": "1774-07-21", "d": "rusya"}],
+      "kesinlik": "f: AY — ESBE \"конец ноября\" (Jülyen) ≈ 1-11 Aralık G; ayın 1'ine kodlandı (PAKET-A4 Vehhâbî emsali) · t: gün (TDV)",
+      "kaynak": "ESBE-TV: \"в конце же ноября русские войска заняли Бухарест и выдвинули передовые отряды до левого берега Дуная\" · \"В течение зимы турки неоднократно пытались вытеснить нас из Валахии, но безуспешно\" · \"Результатом кампании 1770 г. было: 1) прочное занятие нами дунайских княжеств\" · TDV kucuk-kaynarca-antlasmasi: \"(12 Cemâziyelevvel 1188 / 21 Temmuz 1774)\" · \"Savaş sürecinde ele geçirmiş olduğu Memleketeyn, Besarabya, Akkirman, Kili, İsmâil ve Bender kaleleri dahil olmak üzere bütün yerler iade edilecekti\"",
+      "not": "Öteki Eflak yerleşimleri 1769-70 için YAZILMADI: komşu kuralı şart ① günü ister, Bükreş'in günü AY. PAKET-A6B P-HOT-1 · P-BOG-1 · P-BOG-2 (Hotin · Yaş · beş Boğdan yerleşimi) aynı savaşın geçerli önerileri — tekrarlanmadı; ESBE-TV Yaş'ın 26 Eylül J gününü teyit ediyor."
+    },
+    {
+      "id": "RUS-1770-BEN", "savas": "1768-74", "islem": "cins", "durum": "HAZIR — A6B P-BEN-1'in kaynağı artık VAR",
+      "kayitlar": ["Bender"],
+      "eski": {"d": [{"f": "1538-09-01", "t": "1770-09-27"}, {"f": "1774-07-21", "t": "1812-05-28"}], "s": [{"f": "1770-09-27", "t": "1774-07-21", "d": "rusya"}, {"f": "1812-05-28", "t": "1917-03-15", "d": "rusya"}]},
+      "yeni": {"d": [{"f": "1538-09-01", "t": "1812-05-28"}], "s": [{"f": "1812-05-28", "t": "1917-03-15", "d": "rusya"}], "isg": "aşağıdaki donemler + RUS-1789-BEN + RUS-1806-BEN"},
+      "donemler": [{"f": "1770-09-27", "t": "1774-07-21", "d": "rusya"}],
+      "kesinlik": "f: gün (16 Eylül J = veri günü ✓) · t: gün",
+      "kaynak": "ESBE-TV: \"16 сентября он [Панин] овладел Бендерами, а 28 был взят Аккерман\" · ESBE-BENDER: \"В 1770 г. … Б. были взяты штурмом русск. войсками под начальством графа Панина; но по Кучук-Кайнарджийскому миру возвращены туркам\" · TDV kucuk-kaynarca-antlasmasi: \"… İsmâil ve Bender kaleleri dahil … iade edilecekti\"",
+      "not": "Değişmez 2: iki d: kırılması (1770-09-27, 1774-07-21) düşer, 2i'ye taşınır."
+    },
+    {
+      "id": "RUS-1770-AKK", "savas": "1768-74", "islem": "ekle", "durum": "HAZIR",
+      "kayitlar": ["Akkirman"],
+      "donemler": [{"f": "1770-10-09", "t": "1774-07-21", "d": "rusya"}],
+      "kesinlik": "f: gün (28 Eylül J) · t: gün",
+      "kaynak": "ESBE-TV: \"а 28 был взят Аккерман\" · TDV akkirman: \"Akkirman 1770 ve 1789 yıllarında iki defa Ruslar tarafından kuşatılarak ele geçirildi ise de önce Küçük Kaynarca (1774), sonra da Yaş Antlaşması (1791) ile tekrar Osmanlı idaresine girdi\" · TDV kucuk-kaynarca-antlasmasi (iade maddesi, 21 Temmuz 1774)"
+    },
+    {
+      "id": "RUS-1789-BEN", "savas": "1787-92", "islem": "ekle", "durum": "HAZIR",
+      "kayitlar": ["Bender"],
+      "donemler": [{"f": "1789-11-14", "t": "1792-01-09", "d": "rusya"}],
+      "kesinlik": "f: gün (3 Kasım J) · t: gün",
+      "kaynak": "ESBE-TV: \"3 ноября наконец сдались и Бендеры, чем кампания была закончена\" · ESBE-BENDER: \"В 1789 году во 2-ую турецкую войну Б. сдались на капитуляцию князю Потемкину, но по условиям Ясского мира опять отданы Турции\" · TDV yas-antlasmasi: \"9 Ocak'ta ahidnâme temessüklerinin imzalanıp mühürlenerek mübadele edilmesine karar verildi\""
+    },
+    {
+      "id": "RUS-1790-KIL", "savas": "1787-92", "islem": "ekle", "durum": "HAZIR",
+      "kayitlar": ["Kili"],
+      "donemler": [{"f": "1790-10-24", "t": "1792-01-09", "d": "rusya"}],
+      "kesinlik": "f: gün (13 Ekim J) · t: gün",
+      "kaynak": "ESBE-KILIYA: \"в кампанию 1790 г. К. была 4 октября обложена корпусом генерал-аншефа Меллера-Закомельского, а 13 октября сдалась его преемнику, графу Гудовичу\" · TDV kili: \"1790'da Potemkin tarafından kuşatıldı ve teslim alındı. 1792'deki Yaş Antlaşması ile Osmanlılar'a geri verildi\" · TDV yas-antlasmasi (9 Ocak)"
+    },
+    {
+      "id": "RUS-1790-ISM", "savas": "1787-92", "islem": "cins", "durum": "HAZIR",
+      "kayitlar": ["İsmail"],
+      "eski": {"d": [{"f": "1538-09-01", "t": "1790-12-22"}, {"f": "1792-01-10", "t": "1812-05-28"}], "s": [{"f": "1790-12-22", "t": "1792-01-10", "d": "rusya"}]},
+      "yeni": {"d": [{"f": "1538-09-01", "t": "1812-05-28"}], "isg": "aşağıdaki donemler + RUS-1809-ISM"},
+      "donemler": [{"f": "1790-12-22", "t": "1792-01-09", "d": "rusya"}],
+      "kesinlik": "f: gün (11 Aralık J = veri günü ✓) · t: gün — veri 1792-01-10 diyor, TDV mübadele günü 9 Ocak",
+      "kaynak": "ESBE-TV: \"но Измаил … только 11 дек. был взят Суворовым после кровопролитного штурма\" · ESBE-IZMAIL: \"29 декабря 1791 г. был заключен мир в Яссах, по которому … И. был возвращен туркам\" · TDV yas-antlasmasi (9 Ocak)",
+      "not": "İlhak değil işgal: Yaş Antlaşması İsmail'i iade etti. Değişmez 2: iki d: kırılması (1790-12-22, 1792-01-10) düşer."
+    },
+    {
+      "id": "RUS-1806-YAS", "savas": "1806-12", "islem": "degistir", "durum": "HAZIR",
+      "kayitlar": ["Yaş"],
+      "eski": {"isg": {"f": "1806-11-30", "t": "1812-05-28"}},
+      "donemler": [{"f": "1806-11-24", "t": "1812-05-28", "d": "rusya"}],
+      "kesinlik": "f: gün (12 Kasım J) · t: gün (16 Mayıs J / 28 Mayıs G, kaynak kendisi çeviriyor)",
+      "kaynak": "BABILUNGA: \"Михельсон 12 ноября вступил в столицу Молдавии - Яссы\" · \"мирном договоре, заключенном в Бухаресте 16 мая 1812 г. (по новому стилю - 28 мая)\" · ESBE-TV: \"11 ноября русские войска начали переходить Днестр\"",
+      "not": "Verideki 30 Kasım, Akkirman'ın TDV günüyle aynı — Yaş için dayanağı görülmedi."
+    },
+    {
+      "id": "RUS-1806-BUK", "savas": "1806-12", "islem": "degistir", "durum": "HAZIR",
+      "kayitlar": ["Bükreş"],
+      "eski": {"isg": {"f": "1806-11-30", "t": "1812-05-28"}},
+      "donemler": [{"f": "1806-12-25", "t": "1812-05-28", "d": "rusya"}],
+      "kesinlik": "f: gün (13 Aralık J) · t: gün",
+      "kaynak": "ESBE-TV: \"рущукский комендант Мустафа-паша выслал отряд войск к Букаресту, заняв который, турки стали предаваться всяческим насилиям над жителями, но 13 декабря были вытеснены отрядом генерала Милорадовича и ушли в Журжу\" · BABILUNGA: \"генерал Милорадович вступил в столицу Валахии - Бухарест\" (gün yok) · BABILUNGA (Bükreş Antlaşması 28 Mayıs G)",
+      "not": "Veri 30 Kasım'da Rus diyor; kaynağa göre o tarihte şehri Rusçuk ayanının kuvveti tutuyordu."
+    },
+    {
+      "id": "RUS-1806-KIL", "savas": "1806-12", "islem": "degistir", "durum": "HAZIR (gün komşudan)",
+      "kayitlar": ["Kili"],
+      "eski": {"isg": {"f": "1806-01-01", "t": "1812-05-28"}},
+      "donemler": [{"f": "1806-11-30", "t": "1812-05-28", "d": "rusya"}],
+      "gun_komsudan": {"komsu": "Akkirman", "komsunun_kaynagi": "TDV akkirman: \"30 Kasım 1806 tarihinde Rus Prensi Kantakuzino tarafından ele geçirilmesi üzerine\"",
+        "sart": "① komşunun günü kendi kaynağında (TDV) ✓ · ② hedefte gün yok: ESBE-KILIYA \"В 1806 г. К. была занята без сопротивления дивизией герцога Ришелье\", TDV kili \"1806'da yeniden işgale uğradı\" ✓ · ③ aynı süreç: ESBE-TV tek cümle \"коменданты крепостей Хотин, Бендеры, Акерман и Килия уступили их без боя\", Akkirman ve Kili aynı tümen (Richelieu — BABILUNGA \"герцог Ришелье захватил Аккерман\"), ~110 km ✓ · ④ yazıldı ✓"},
+      "kaynak": "ESBE-KILIYA · ESBE-TV · TDV kili · TDV akkirman · BABILUNGA"
+    },
+    {
+      "id": "RUS-1806-HOT", "savas": "1806-12", "islem": "degistir", "durum": "HAZIR (gün komşudan)",
+      "kayitlar": ["Hotin"],
+      "eski": {"isg": {"f": "1806-01-01", "t": "1812-05-28"}},
+      "donemler": [{"f": "1806-11-24", "t": "1812-05-28", "d": "rusya"}],
+      "gun_komsudan": {"komsu": "Yaş", "komsunun_kaynagi": "BABILUNGA \"Михельсон 12 ноября вступил в столицу Молдавии - Яссы\"",
+        "sart": "① ✓ · ② hedefte gün yok: ESBE-HOTIN \"Во время войны 1806—12 г. Мехмед-паша сдал Х. русским\", BABILUNGA \"Генералу Эссену сдалась Хотинская крепость\", TDV hotin \"1806'da Ruslar'ın işgaline uğradı\" ✓ · ③ aynı süreç (ESBE-TV aynı cümle; Babilunga aynı paragraf), ~150 km ✓ · ④ ✓"},
+      "kaynak": "ESBE-HOTIN · ESBE-TV · BABILUNGA · TDV hotin",
+      "not": "⚠️ PAKET-A6B P-HOT-1 bu dönemi 1806-01-01 olarak koruyordu — bu öneri onun o satırının yerine geçer. Dinyester geçişi 11 Kasım J = 23 Kasım G (ESBE-TV) alt sınırdır."
+    },
+    {
+      "id": "RUS-1806-BEN", "savas": "1806-12", "islem": "ekle", "durum": "HAZIR (gün komşudan)",
+      "kayitlar": ["Bender"],
+      "donemler": [{"f": "1806-11-30", "t": "1812-05-28", "d": "rusya"}],
+      "gun_komsudan": {"komsu": "Akkirman", "komsunun_kaynagi": "TDV akkirman (30 Kasım 1806)",
+        "sart": "① ✓ · ② hedefte gün yok: ESBE-BENDER \"в 1806 г. Б. в 3-й и послений раз взяты без сопротивления отрядом Мейендорфа\", BABILUNGA \"Мейендорф захватил Бендеры\" ✓ · ③ aynı süreç (ESBE-TV aynı cümle), ~110 km; komutan farklı (Meyendorf) ✓ · ④ ✓"},
+      "kaynak": "ESBE-BENDER · ESBE-TV · BABILUNGA · TDV akkirman",
+      "not": "Veride Bender 1806-1812 düz d: — işgal hiç çizilmiyordu."
+    },
+    {
+      "id": "RUS-1806-BOG", "savas": "1806-12", "islem": "ekle", "durum": "HAZIR (gün komşudan)",
+      "kayitlar": ["Roman", "Birlad (Bârlad)", "Soroka (Soroca)", "Orhei"],
+      "donemler": [{"f": "1806-11-24", "t": "1812-05-28", "d": "rusya"}],
+      "gun_komsudan": {"komsu": "Yaş", "komsunun_kaynagi": "BABILUNGA (12 Kasım J)",
+        "sart": "① ✓ · ② dördünde de gün yok ✓ · ③ aynı süreç: ESBE-TV \"повелено ген. Михельсону занять княжества Молдавию и Валахию\" · \"расположив свои войска на зимних квартирах в княжествах\"; BABILUNGA \"перешел Днестр и занял оба Дунайских княжества\"; 60-150 km ✓ · ④ ✓"},
+      "kaynak": "ESBE-TV · BABILUNGA",
+      "not": "Soroka ve Orhei 1812-05-28'den sonra s:rusya — sıra doğru. 1807 Slobozia mütarekesi çekilmeyi öngördü ama ESBE-TV: \"Очищение княжеств повелено было остановить\" ⇒ kesintisiz."
+    },
+    {
+      "id": "RUS-1806-EFL", "savas": "1806-12", "islem": "ekle", "durum": "HAZIR (gün komşudan)",
+      "kayitlar": ["Tırgovişte", "Piteşti", "Kımpulung (Câmpulung)", "Buzău", "Rimnik-i Sârat (Râmnicu Sărat)"],
+      "donemler": [{"f": "1806-12-25", "t": "1812-05-28", "d": "rusya"}],
+      "gun_komsudan": {"komsu": "Bükreş", "komsunun_kaynagi": "ESBE-TV (13 Aralık J, Miloradoviç)",
+        "sart": "① ✓ · ② gün yok ✓ · ③ aynı süreç (Büyük Eflak kış karargâhı; 1809'da \"у Бузео — корпус Эссена\"), 60-120 km ✓ · ④ ✓"},
+      "kaynak": "ESBE-TV · BABILUNGA",
+      "not": "Oltenya (Krayova · Tırgu Jiu · Rimnik · Turnu Severin · Slatina) BİLEREK dışarıda — 1806 kışında Rus karargâhının Oltenya'yı kapsadığı ölçülemedi; ESBE-TV 1810-11'de Zass'ı Küçük Eflak'ta gösteriyor, gün yok."
+    },
+    {
+      "id": "RUS-1809-ISM", "savas": "1806-12", "islem": "ekle", "durum": "HAZIR",
+      "kayitlar": ["İsmail"],
+      "donemler": [{"f": "1809-09-26", "t": "1812-05-28", "d": "rusya"}],
+      "kesinlik": "f: gün (14 Eylül J — iki bağımsız ESBE cümlesi aynı güne varıyor) · t: gün; 1812'den sonra veri s:rusya ✓",
+      "kaynak": "ESBE-IZMAIL: \"Зассом, который принудил коменданта крепости Челиби-пашу к капитуляции, и 14 сентября 1809 г. русские вновь заняли И.\" · ESBE-TV: \"а 18-го остановился перед Силистрией. За 4 дня перед тем крепость Измаил сдалась отряду ген. Засса\" · BABILUNGA (28 Mayıs 1812)"
+    },
+    {
+      "id": "RUS-1810-YER", "savas": "1806-12", "islem": "cins+bitis", "durum": "HAZIR — ÇIKARIMLI (aşağıya bak)",
+      "kayitlar": ["Yergöğü (Giurgiu)"],
+      "eski": {"s": [{"f": "1810-09-27", "t": "1829-09-14", "d": "rusya"}]},
+      "yeni": {"isg": [{"f": "1810-09-27", "t": "1812-05-28", "d": "rusya"}], "d": [{"f": "1812-05-28", "t": "1829-09-14"}]},
+      "donemler": [{"f": "1810-09-27", "t": "1812-05-28", "d": "rusya"}],
+      "kesinlik": "f: gün (TDV = ESBE 15 Eylül J ✓) · t: gün",
+      "kaynak": "TDV yergogu: \"Yergöğü 27 Eylül 1810'da Ruslar'ın eline geçti\" · \"1828-1829 savaşı öncesi sadece topçu sayısı 213'ü buluyordu (BA, KK)\" · \"Edirne Antlaşması'na göre (2-14 Eylül 1829) İbrâil ve Kule/Turnu ile Eflak Prensliği'ne bırakıldı\" · ESBE-TV: \"15 сент. сдались Рущук и Журжа\" · 1811: \"усилив укрепления Журжи\" (Rus elinde) · BABILUNGA (28 Mayıs 1812)",
+      "not": "🔴 Veri Yergöğü'yü 1810-1829 arası 19 yıl EGEMEN Rus toprağı gösteriyor. 1812 Bükreş Antlaşması'nın Yergöğü'yü adıyla iade ettiği cümle OKUNMADI; iade TDV'nin 1828 öncesi Osmanlı topçu kaydından ve 1829'da Osmanlı'nın kaleyi Eflak'a bırakmasından ÇIKARILDI. 1828-29'da Rusların Yergöğü'nü alıp almadığı bulunamadı. Değişmez 2: yeni d: kırılması 1812-05-28 (kirilma_ekleri)."
+    },
+    {
+      "id": "RUS-1828-YASBUK", "savas": "1828-29", "islem": "degistir", "durum": "HAZIR",
+      "kayitlar": ["Yaş", "Bükreş"],
+      "eski": {"isg": {"f": "1828-05-01", "t": "1834-01-01"}},
+      "donemler": [{"f": "1828-05-07", "t": "1834-01-01", "d": "rusya"}],
+      "kesinlik": "f: gün = 6. kolordunun prensliklere girişi (25 Nisan J), şehre giriş günü DEĞİL · t: YIL (TDV)",
+      "kaynak": "ESBE-TV: \"— 25 апр. 6-й пех. корпус вступил в княжества\" · TDV edirne-antlasmasi: \"Ruslar'ın Eflak-Boğdan'dan çekilmeleri tazminatın ödenmesine bağlandığından çekilme işi 1834'te gerçekleşebildi\" · TDV eflak: \"Eflak harp tazminatı ödeninceye kadar (1834) Rus işgali altında kaldı\" · TDV bogdan: \"Ruslar Memleketeyn'i tekrar işgal ettiler ve kendilerine savaş tazminatı ödeninceye kadar burada kalmaya karar verdiler\""
+    },
+    {
+      "id": "RUS-1828-PRENS", "savas": "1828-29", "islem": "ekle", "durum": "HAZIR",
+      "kayitlar": ["Roman", "Birlad (Bârlad)", "Kalas (Galatz)", "Tırgovişte", "Piteşti", "Kımpulung (Câmpulung)", "Buzău", "Rimnik-i Sârat (Râmnicu Sărat)"],
+      "donemler": [{"f": "1828-05-07", "t": "1834-01-01", "d": "rusya"}],
+      "kesinlik": "Kaynak prenslikleri BÜTÜN OLARAK tarihliyor (komşu kuralı gerekmez) — ama gün kolordunun girişi, şehrin değil · t: YIL",
+      "kaynak": "ESBE-TV (25 Nisan J) · TDV edirne-antlasmasi · TDV eflak · TDV bogdan (yukarıda)",
+      "not": "Oltenya BİLEREK dışarıda: ESBE-TV \"авангард его под начальством ген. Гейсмара направился в Мал. Валахию\" (varış günü yok) ve 1828 boyunca \"не мог препятствовать Т. партиям вторгаться в сев.-зап. часть Малой Валахии\" — çekişmeli. İbrail (TDV 23 Haziran 1828) verisi doğru, dokunulmadı; ESBE 7 Haziran J = 19 Haziran G diyor (ÇELİŞKİ, TDV esas)."
+    },
+    {
+      "id": "RUS-1853-BUK", "savas": "1853-56", "islem": "ekle", "durum": "KARAR (başlangıç AY)",
+      "kayitlar": ["Bükreş"],
+      "donemler": [{"f": "1853-07-01", "t": "1854-08-22", "d": "rusya"}],
+      "kesinlik": "f: AY (Temmuz 1853) · t: gün = Ömer Paşa'nın Bükreş'e girişi (10 Ağustos J); Rus çıkışı bu günden önce, günü bulunamadı",
+      "kaynak": "GOLDFRANK: \"Russia broke relations with Turkey in May and occupied Moldavia and Wallachia in July\" · ESBE-VV: \"император Николай I приказал русским войскам (80 тыс.) занять подчиненные султану дунайские княжества Молдавию и Валахию\" · \"По мере отступления русских, турки медленно продвигались вперед, и 10 августа Омер-паша вступил в Бухарест\" · TDV omer-lutfi-pasa: \"Rus kuvvetleri bu toprakları tahliye etti\" · TDV abdulmecid: \"Eflak-Boğdan'ı işgal etti\"",
+      "not": "Prut geçiş GÜNÜ akademik kaynakta BULUNAMADI (ESBE-VV günsüz; TDV günsüz; Britannica 403). \"3 Temmuz\" yalnız popüler sitelerde ⇒ kullanılmadı. Ardından Avusturya işgali (ESBE-VV: \"сменили турок и заняли княжества\") — rusya kapsamı dışı, yazılmadı."
+    },
+    {
+      "id": "RUS-1853-EFL", "savas": "1853-56", "islem": "ekle", "durum": "KARAR (başlangıç AY · bitiş komşudan)",
+      "kayitlar": ["Tırgovişte", "Piteşti", "Kımpulung (Câmpulung)", "Buzău", "Rimnik-i Sârat (Râmnicu Sărat)", "İbrail", "Krayova (Craiova)", "Tırgu Jiu", "Rimnik (Râmnicu Vâlcea)", "Turnu Severin", "Slatina"],
+      "donemler": [{"f": "1853-07-01", "t": "1854-08-22", "d": "rusya"}],
+      "kesinlik": "f: AY — kaynak iki prensliği bütün olarak tarihliyor · t: gün komşudan (Bükreş, ESBE-VV)",
+      "gun_komsudan": {"komsu": "Bükreş", "komsunun_kaynagi": "ESBE-VV (10 Ağustos J)",
+        "sart": "① ✓ · ② gün yok ✓ · ③ aynı çekilme süreci (ESBE-VV \"стал постепенно очищать княжества\") ✓ — ama Oltenya için bu gün ÜST SINIR: Ruslar Küçük Eflak'tan daha önce çekilmiş olabilir · ④ ✓"},
+      "kaynak": "GOLDFRANK · ESBE-VV · TDV omer-lutfi-pasa: \"Kalafat yakınlarında bulunan Çatana'da (5 Ocak 1854)\" (Oltenya'da Rus varlığı)",
+      "not": "İbrail bu dönemde s:eflak (1829-1859) — isg üstüne biner. Oltenya bitişi koordinatör kararı."
+    },
+    {
+      "id": "RUS-1853-YER", "savas": "1853-56", "islem": "ekle", "durum": "KARAR (başlangıç AY)",
+      "kayitlar": ["Yergöğü (Giurgiu)"],
+      "donemler": [{"f": "1853-07-01", "t": "1854-07-07", "d": "rusya"}],
+      "kesinlik": "f: AY · t: gün (25 Haziran J)",
+      "kaynak": "GOLDFRANK · ESBE-VV: \"Сосредоточив у Рущука более 30 тыс. человек, он 25 июня стал переправляться через Дунай и, после боя с малочисленным русским отрядом, упорно оборонявшим остров Радоман, овладел Журжей\""
+    },
+    {
+      "id": "RUS-1853-BOG", "savas": "1853-56", "islem": "ekle", "durum": "KARAR (iki uç da AY)",
+      "kayitlar": ["Yaş", "Roman", "Birlad (Bârlad)", "Kalas (Galatz)"],
+      "donemler": [{"f": "1853-07-01", "t": "1854-09-01", "d": "rusya"}],
+      "kesinlik": "f: AY · t: AY-TÜRETİLMİŞ — ESBE \"на исходе августа\" (Jülyen Ağustos sonu ≈ 9-12 Eylül G); 1 Eylül'e kodlandı",
+      "kaynak": "GOLDFRANK · ESBE-VV: \"стал постепенно очищать княжества и на исходе августа переправился на левый берег Прута, у Скулян\"",
+      "not": "Kahul · İsmail · Kili · Bolgrad · Soroka · Orhei 1812-1856 arası Rus toprağı — işgal yok, yazılmadı."
+    }
+  ],
+
+  "yazilmayanlar": [
+    {"savas": "1768-74", "kayitlar": ["Kili"], "sebep": "bulunamadı (gün) — ESBE-KILIYA \"после 10-дневной обороны сдалась отряду князя Репнина\" günsüz; TDV kili \"1184 (1770)\""},
+    {"savas": "1768-74", "kayitlar": ["İsmail"], "sebep": "bulunamadı (gün) — ESBE-TV \"Крепости Измаил и Килия сдались отряду Репнина\" günsüz"},
+    {"savas": "1768-74", "kayitlar": ["İbrail"], "sebep": "bulunamadı (gün) — ESBE-TV \"в ноябре пал Браилов\" (AY); TDV ibrail \"1 Ağustos 1770 tarihindeki Kartal bozgunundan sonra … elden çıktı\""},
+    {"savas": "1768-74", "kayitlar": ["Kahul (Cahul)", "Kalas (Galatz)", "Birlad (Bârlad)"], "sebep": "bulunamadı — A6B ile aynı hüküm"},
+    {"savas": "1768-74", "kayitlar": ["Tırgovişte", "Piteşti", "Buzău", "Rimnik-i Sârat (Râmnicu Sărat)", "Kımpulung (Câmpulung)", "Oltenya"], "sebep": "Bükreş'in günü AY — komşu kuralı şart ① sağlanmıyor"},
+    {"savas": "1787-92", "kayitlar": ["Akkirman"], "sebep": "bulunamadı (gün) — TDV akkirman yıl; ESBE-TV Gudoviç'in Hacıbey ve Akkirman'ı aldığını günsüz yazıyor"},
+    {"savas": "1787-92", "kayitlar": ["Hotin"], "sebep": "KARAR — işgalci AVUSTURYA: ESBE-TV \"после сдачи Хотина (где оставлен австрийский гарнизон)\"; ÇELİŞKİ yıl: ESBE-HOTIN \"В 1787 г. союзные войска России и Австрии взяли Х.\" · TDV hotin \"1788 Eylülünde\"; iade: ESBE-HOTIN \"по Ясскому миру 1791 г.\" · TDV \"Yaş Antlaşması ile (1792)\". rusya isg YAZILMAZ; isg avusturya istenirse gün aranmalı. A6B S-HOT-1788 böyle kapanır."},
+    {"savas": "1787-92", "kayitlar": ["Yaş"], "sebep": "bulunamadı (gün) — TDV yas-antlasmasi \"Rus işgali altındaki … Yaş\"; ESBE-TV 1788 sonu kış karargâhı \"частью в Бессарабии, частью в Молдавии\""},
+    {"savas": "1787-92", "kayitlar": ["Bükreş"], "sebep": "kapsam dışı — işgalci AVUSTURYA: ESBE-TV \"в начале ноября пр. Кобургский занял Бухарест\" (1789)"},
+    {"savas": "1806-12", "kayitlar": ["Kahul (Cahul)", "Kalas (Galatz)"], "sebep": "bulunamadı — güney Boğdan; İsmail 1809'a kadar Osmanlı'daydı, 1806 işgalinin buraya uzandığı günle ölçülemedi"},
+    {"savas": "1806-12", "kayitlar": ["Krayova (Craiova)", "Tırgu Jiu", "Rimnik (Râmnicu Vâlcea)", "Turnu Severin", "Slatina"], "sebep": "bulunamadı — Oltenya"},
+    {"savas": "1806-12", "kayitlar": ["İbrail"], "sebep": "dokunulmadı — veri 1809-12-02 TDV'ye uyuyor; ESBE-TV \"сдался 21 ноября\" (J = 3 Aralık G) 1 gün ÇELİŞKİ, TDV esas"},
+    {"savas": "1828-29", "kayitlar": ["Oltenya (5 yerleşim)"], "sebep": "bulunamadı — çekişmeli, varış günü yok"},
+    {"savas": "1877-78", "kayitlar": ["Romanya'nın bütün yerleşimleri", "güney Besarabya (İsmail · Kahul · Bolgrad · Kili)"], "sebep": "İŞGAL DEĞİL — Romanya müttefik (ESBE-TV \"С присоединением румынских войск\"; TDV romanya \"Osmanlı-Rus Savaşı'na katılan\"). Rus-Romen geçiş sözleşmesinin metni OKUNMADI. Emre kuralı gereği taralı yazılmadı; yalnız SEFER oku."}
+  ],
+
+  "kirilma_ekleri": [
+    {"id": "RUS-1810-YER", "kategori": "d", "gun": "1812-05-28", "tip": "d: başlangıcı (Yergöğü Osmanlı'ya döner)", "kayitlar": ["Yergöğü (Giurgiu)"]},
+    {"id": "K-RUS-KAZ-CEH", "kategori": "s", "gun": "1648-01-01", "tip": "lehistan → kazak-hetmanligi", "kayitlar": ["Çehrin (Çigirin)"]},
+    {"id": "K-RUS-KAZ-CEH", "kategori": "v", "gun": "1669-05-01", "tip": "v: başı (Osmanlı himayesi)", "kayitlar": ["Çehrin (Çigirin)"]},
+    {"id": "K-RUS-KAZ-CEH", "kategori": "v", "gun": "1676-09-19", "tip": "v: sonu (Doroşenko teslim)", "kayitlar": ["Çehrin (Çigirin)"]},
+    {"id": "K-RUS-KAZ-SOL", "kategori": "s", "gun": "1648-01-01", "tip": "lehistan → kazak-hetmanligi", "kayitlar": ["Poltava", "Lubnı", "Kremençuk", "Baturin", "Çernigov", "Novgorod-Seversk"]},
+    {"id": "K-RUS-KAZ-SOL", "kategori": "s", "gun": "1782-01-01", "tip": "kazak-hetmanligi → rusya", "kayitlar": ["Poltava", "Lubnı", "Kremençuk", "Baturin", "Çernigov", "Novgorod-Seversk", "Hluhiv"]}
+  ],
+
+  "kunye_onerileri": [
+    {
+      "id": "K-RUS-KAZ-1", "karar": "Emre 13 Eylül 2026: \"Kazak Hetmanlığı kaydı açılsın — o devlet olmalı.\"",
+      "dosya": "data/devletler.js (DONUK — koşu 10 sonrası)",
+      "yerine_gecer": "PAKET-A6B K-CEH-1 (dar pencere 1648-1676 önerisi)",
+      "kunye": {
+        "id": "kazak-hetmanligi",
+        "ad": "Kazak Hetmanlığı (Ukrayna Hetmanlığı)",
+        "tur": "devlet",
+        "bolge": "dogu-avrupa",
+        "f": "1648-01-01",
+        "t": "1782-01-01",
+        "baskent": "Çehrin (1648-63) → Gadyaç (1663-68) → Baturin (1669-1708, 1750-64) → Hluhiv (1708-34)",
+        "harita": "kazak-hetmanligi",
+        "ozet": "Hmelnitski ayaklanmasıyla (1648) doğan Ukrayna Kazak devleti; 1654'ten Moskova'nın nominal vasalı, 1663'te Sağ Yaka (Leh nüfuzu; 1669-1676 Doroşenko ile Osmanlı himayesi) ve Sol Yaka (Moskova denetimi) diye bölündü; hetmanlık 1764'te kaldırıldı, kurumları 1782'de tasfiye edildi. Zaporojye Seçi (zaporojye) ayrı kimliktir.",
+        "kaynak": "bulunamadı — TDV'de müstakil maddesi yok (ukrayna ve cehrin-seferi maddeleri kısmen anlatıyor); dayanak: Encyclopedia of Ukraine «Hetman state» (L. Okinshevych, A. Zhukovsky) · «Doroshenko, Petro» (B. Krupnytsky, O. Ohloblyn, O. Subtelny; EoU c. 1, 1984) · «Chyhyryn»",
+        "kronoloji": [
+          {"t": "1648-01-01", "tur": "kurulus", "b": "Hmelnitski ayaklanmasıyla Kazak devleti kuruldu; başkent Çehrin", "kaynak": "EoU «Hetman state»: \"The name of the Ukrainian Cossack state, which existed from 1648 to 1782\" · \"Chyhyryn (1648–63)\""},
+          {"t": "1654-01-01", "tur": "antlasma", "b": "Perejaslav: Moskova'nın nominal vasalı oldu", "kaynak": "EoU «Hetman state»: \"From 1654 the Hetman state was nominally a vassal of Muscovy\""},
+          {"t": "1663-01-01", "tur": "bolunme", "b": "Sağ Yaka Leh, Sol Yaka Moskova denetimine girdi", "kaynak": "EoU «Hetman state»: \"In 1663 the Hetman state in Right-Bank Ukraine came under Polish domination, while Left-Bank Ukraine came under Muscovite control\""},
+          {"t": "1669-05-01", "tur": "ittifak", "b": "Sağ Yaka hetmanı Doroşenko'nun Osmanlı himayesi padişahça ilan edildi", "kaynak": "EoU «Doroshenko, Petro»: \"The general military council in Korsun, which met on 10–12 March 1669, approved the alliance, which was proclaimed by the sultan on 1 May 1669\""},
+          {"t": "1672-01-01", "tur": "antlasma", "b": "Bucaş: Lehistan Kazak Ukraynası'nı Osmanlı himayesine bıraktı", "kaynak": "EoU «Doroshenko, Petro»: \"In the Buchach Peace Treaty of 1672 Poland surrendered Podilia and Cossack Ukraine to Turkey as an independent protectorate\""},
+          {"t": "1676-09-19", "tur": "toprak-kayip", "b": "Doroşenko Çehrin'de Sol Yaka hetmanı Samoylovyç'e teslim oldu; Sağ Yaka'daki Osmanlı himayesi sona erdi", "kaynak": "EoU «Doroshenko, Petro»: \"Chyhyryn was again besieged in September 1676, and after brief fighting Doroshenko surrendered to Samoilovych on 19 September 1676\""},
+          {"t": "1764-01-01", "tur": "hukumdar", "b": "Hetmanlık makamı Rus hükümetince kaldırıldı", "kaynak": "EoU «Hetman state»: \"the office of hetman was finally abolished by the Russian government in 1764\""},
+          {"t": "1782-01-01", "tur": "son", "b": "Alaylar valiliklere çevrildi, Hetmanlık kurumları tasfiye edildi", "kaynak": "EoU «Hetman state»: \"In 1782 the regiments were replaced by vicegerencies\""}
+        ]
+      },
+      "tabi_notu": "KÜNYEYE tabi:[{ust:\"osmanli\"}] YAZILMAMALI: künye düzeyindeki tâbilik bütün gövdeyi Osmanlı tâbi gösterir, oysa 1669-1676 himayesi yalnız Sağ Yaka'yı (Doroşenko) kapsıyor ve Sol Yaka Moskova'ya bağlıydı. Himaye yerleşim düzeyinde v:{himaye:true} ile Çehrin'e verilir (VERI-YAPISI v: himaye kademesi).",
+      "kesinlik": "f/t YIL (EoU yıl veriyor) — ⚠️ 1648-01-01 ayaklanmanın başından birkaç ay önceye düşer; gün bulunamadı. 1669-05-01 ve 1676-09-19 GÜN.",
+      "cakisma_notu": "TDV cehrin-seferi tampon beyliği \"1668\" diye tarihliyor (A6B H-CEH-1); EoU Korsun onayını Mart 1669, ilanı 1 Mayıs 1669 veriyor ⇒ iki kaynak farklı adımı tarihliyor olabilir (D092). Günü olan kaynak (EoU) seçildi — koordinatör."
+    }
+  ],
+
+  "renk_onerisi": {
+    "kimlik": "kazak-hetmanligi",
+    "birincil": "#6a3d9a",
+    "yedek": "#d9b21a",
+    "komsular": {"lehistan": "#fc87c9", "rusya": "#4f7d4f", "kirim": "#b45a1e", "zaporojye": "#2048c8", "bogdan": "#24905a", "nogay": "#f9a825", "avusturya": "#bdab3f", "altinorda (1502'de biter)": "#873057"},
+    "not": "Birincil mor, 1648-1782 komşularının hiçbirinin ton ailesinde değil. Yedek sarı nogay (#f9a825) ve avusturya (#bdab3f) ile yakın — ancak birincil çakışırsa. renk_olc.py koşu sonrası sınar; bu öneri ΔE ÖLÇÜLMEDİ."
+  },
+
+  "kunye_yerlesim_onerileri": [
+    {
+      "id": "K-RUS-KAZ-CEH", "kayit": "Çehrin (Çigirin)", "dosya": "data/yerlesimler.js",
+      "eski": {"s": [{"f": "1569-07-01", "t": "1678-07-19", "d": "lehistan"}], "d": [{"f": "1678-07-19", "t": "1699-01-26"}]},
+      "yeni": {
+        "s": [{"f": "1569-07-01", "t": "1648-01-01", "d": "lehistan"}, {"f": "1648-01-01", "t": "1669-05-01", "d": "kazak-hetmanligi"}, {"f": "1676-09-19", "t": "1678-08-21", "d": "kazak-hetmanligi"}],
+        "v": [{"f": "1669-05-01", "t": "1676-09-19", "k": "Sağ Yaka Hetmanlığı (Doroşenko) — Osmanlı himayesi", "himaye": true}],
+        "d": [{"f": "1678-08-21", "t": "1699-01-26"}]
+      },
+      "kaynak": "EoU «Chyhyryn» (1648 hetman başkenti) · EoU «Hetman state» · EoU «Doroshenko, Petro» (1 Mayıs 1669 · 19 Eylül 1676) · TDV cehrin-seferi (\"kale kuşatmanın 33. günü alındı (21 Ağustos 1678)\" — A6B P-CEH-2)",
+      "not": "1676-09-19 → 1678-08-21: Samoylovyç (Moskova'ya tâbi Sol Yaka hetmanı) ve Rus garnizonu (TDV cehrin-seferi \"6000 kadar Rus, Kazak ve Alman askeri\"). kazak-hetmanligi mi rusya mı — KARAR. A6B P-CEH-1 (1281-1362 altinorda) ve P-CEH-2 (1678-08-21) ile birlikte iner; P-CEH-3 (madde) şart."
+    },
+    {
+      "id": "K-RUS-KAZ-SOL", "kayit": ["Poltava", "Lubnı", "Kremençuk", "Baturin", "Çernigov", "Novgorod-Seversk"], "dosya": "yerlesimler.js · yerlesimler_ok106.js · yerlesimler_h2_rusya.js · yerlesimler_ek17.js",
+      "eski": "s: lehistan → 1654-01-08/18 · s: rusya 1654-01-08/18 → 1917-03-15",
+      "yeni": "s: lehistan → 1648-01-01 · s: kazak-hetmanligi 1648-01-01 → 1782-01-01 · s: rusya 1782-01-01 → 1917-03-15",
+      "kaynak": "EoU «Hetman state» (1648-1782 · 1654 nominal vasallık · 1663 Sol Yaka Moskova denetimi · başkentler Baturin, Gadyaç, Hluhiv)",
+      "durum": "KARAR — şehir bazında Hetmanlığa katılış günü BULUNAMADI; devletin 1648 penceresi kullanıldı. Verideki 1654 günleri (Perejaslav) atlasın kendisi, kaynak değil. Model sorusu: Moskova vasalı Hetmanlık kendi rengiyle mi (bu öneri), rusya ile mi çizilir."
+    },
+    {
+      "id": "K-RUS-KAZ-HLU", "kayit": "Hluhiv", "dosya": "yerlesimler_h2_rusya.js",
+      "eski": "s: rusya 1547-01-16 → 1917-03-15",
+      "yeni": "… s: kazak-hetmanligi 1648-01-01 → 1782-01-01 · s: rusya 1782-01-01 → 1917-03-15",
+      "kaynak": "EoU «Hetman state» (\"Hlukhiv (1708–34)\" başkent)",
+      "durum": "KARAR — 1547-1648 dilimi (Deulino 1618 sonrası Lehistan?) bu turda araştırılmadı; yalnız 1648-1782 penceresi öneriliyor"
+    },
+    {
+      "id": "K-RUS-KAZ-DIS", "kayit": ["Kiev", "Uman", "Sumı", "Putivl", "Zaporojye Seçi"],
+      "durum": "YAZILMADI — Kiev: Moskova voyvodası/Andrusovo, ayrı araştırma · Uman: Sağ Yaka alayı, pencereleri kaynaksız · Sumı: Sloboda Ukraynası, Hetmanlık değil · Putivl: Moskova · Zaporojye Seçi: ayrı künye (zaporojye)"
+    }
+  ],
+
+  "seferler_yazilan": {
+    "dosya": "data/savaslar.js window.SEFERLER",
+    "kayitlar": ["rus-prut-1711", "rus-munih-hotin-yas-1739", "rus-golitsin-hotin-1769", "rus-elmpt-yas-1769", "rus-rumyantsev-kagul-1770", "rus-panin-bender-akkerman-1770", "rus-ozi-1788", "rus-potemkin-bender-1789", "rus-suvorov-foksani-rimnik-1789", "rus-mihelson-yas-bukres-1806", "rus-kisinev-zimnitsa-1877"],
+    "a6b_karsiligi": {"SEF-HOT-1769": "rus-golitsin-hotin-1769 (yazıldı)", "SEF-OZI-1788": "rus-ozi-1788 (yazıldı; Olviopol artık ESBE-TV ile kaynaklı; f 1788-05-01 → 1788-06-04 GÜN; tur kusatma → sefer)", "SEF-OZI-1737": "YAZILMADI — ESBE-TV \"в исходе апреля переправился через Днепр и двинулся к Очакову\": geçiş yeri yine ADSIZ ⇒ TASLAK kalır"},
+    "yazilmayan": ["1828 Prut geçişi (kolordunun geçiş yeri adsız)", "1853 Prut geçişi (yer ve gün adsız — Skulyani yalnız 1854 çekilişinde anılıyor)", "1790 İsmail yürüyüşü (başlangıç adsız)", "1809-10 Dobruca harekâtları (Eflak-Boğdan dışı)"]
+  }
+}

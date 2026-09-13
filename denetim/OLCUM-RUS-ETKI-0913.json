@@ -1,0 +1,975 @@
+[
+ {
+  "degismez": "2s",
+  "gun": "1648-01-01",
+  "tip": [
+   "lehistan → kazak-hetmanligi"
+  ],
+  "yerler": [
+   "Çehrin (Çigirin)",
+   "Poltava",
+   "Lubnı",
+   "Kremençuk",
+   "Baturin",
+   "Çernigov",
+   "Novgorod-Seversk"
+  ],
+  "oneriler": [
+   "K-RUS-KAZ-CEH",
+   "K-RUS-KAZ-SOL"
+  ],
+  "cekirdek": [
+   {
+    "t": "1648-01-01",
+    "f": "olaylar_ek14.js",
+    "b": "Kâtib Çelebi'nin Cihannümâ'yı ilk kez yazmaya başlaması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1648-01-01",
+    "f": "kronoloji_dogu_afrika.js",
+    "b": "Yemen Zeydî İmamı Mütevekkil-Alellah'ın Fasilidas'a elçilik heyeti"
+   },
+   {
+    "t": "1648-01-01",
+    "f": "kronoloji_kirim.js",
+    "b": "İslâm Giray, 1653'e dek birkaç kez Lehistan'a sefer düzenledi"
+   }
+  ]
+ },
+ {
+  "degismez": "2",
+  "gun": "1669-05-01",
+  "tip": [
+   "v: başı (Osmanlı himayesi)"
+  ],
+  "yerler": [
+   "Çehrin (Çigirin)"
+  ],
+  "oneriler": [
+   "K-RUS-KAZ-CEH"
+  ],
+  "cekirdek": [],
+  "kuyruk": [
+   {
+    "t": "1669-05-01",
+    "f": "kronoloji_almanya.js",
+    "b": "Son genel Hanse toplantısının (Hansetag) Lübeck'te yapılması"
+   }
+  ]
+ },
+ {
+  "degismez": "2",
+  "gun": "1676-09-19",
+  "tip": [
+   "v: sonu (Doroşenko teslim)"
+  ],
+  "yerler": [
+   "Çehrin (Çigirin)"
+  ],
+  "oneriler": [
+   "K-RUS-KAZ-CEH"
+  ],
+  "cekirdek": [],
+  "kuyruk": []
+ },
+ {
+  "degismez": "2i",
+  "gun": "1711-07-06",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Yaş"
+  ],
+  "oneriler": [
+   "RUS-1711-YAS"
+  ],
+  "cekirdek": [
+   {
+    "t": "1711-07-19",
+    "f": "olaylar.js",
+    "b": "Prut Zaferi"
+   },
+   {
+    "t": "1711-07-21",
+    "f": "olaylar_ek17.js",
+    "b": "Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti — TDV'nin kendi uyarısı"
+   },
+   {
+    "t": "1711-07-21",
+    "f": "olaylar_ek17.js",
+    "b": "Prut'ta 'kaçırılan fırsat' tartışması — iki görüş"
+   },
+   {
+    "t": "1711-07-21",
+    "f": "olaylar_ek5.js",
+    "b": "Prut Antlaşması — Azak ve Taygan'ın geri alınması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1711-07-08",
+    "f": "kronoloji_kirim.js",
+    "b": "II. Devlet Giray, Prut Seferi'nde Osmanlı ordusuna katıldı"
+   },
+   {
+    "t": "1711-07-21",
+    "f": "kronoloji_isvec.js",
+    "b": "Prut Antlaşması — İsveç kralının güvenle dönüşü şart koşuldu"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1711-07-23",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Yaş"
+  ],
+  "oneriler": [
+   "RUS-1711-YAS"
+  ],
+  "cekirdek": [
+   {
+    "t": "1711-07-21",
+    "f": "olaylar_ek17.js",
+    "b": "Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti — TDV'nin kendi uyarısı"
+   },
+   {
+    "t": "1711-07-21",
+    "f": "olaylar_ek17.js",
+    "b": "Prut'ta 'kaçırılan fırsat' tartışması — iki görüş"
+   },
+   {
+    "t": "1711-07-21",
+    "f": "olaylar_ek5.js",
+    "b": "Prut Antlaşması — Azak ve Taygan'ın geri alınması"
+   },
+   {
+    "t": "1711-07-19",
+    "f": "olaylar.js",
+    "b": "Prut Zaferi"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1711-07-21",
+    "f": "kronoloji_isvec.js",
+    "b": "Prut Antlaşması — İsveç kralının güvenle dönüşü şart koşuldu"
+   },
+   {
+    "t": "1711-07-21",
+    "f": "kronoloji_rusya.js",
+    "b": "Prut'ta Osmanlı'ya yenildi, Azak geri verildi ⭐"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1739-08-30",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Hotin"
+  ],
+  "oneriler": [
+   "RUS-1739-HOT"
+  ],
+  "cekirdek": [
+   {
+    "t": "1739-09-18",
+    "f": "olaylar.js",
+    "b": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1739-09-18",
+    "f": "kronoloji_habsburg.js",
+    "b": "Belgrad Antlaşması — Pasarofça kazançlarının kaybı"
+   },
+   {
+    "t": "1739-09-18",
+    "f": "kronoloji_kirim.js",
+    "b": "Belgrad Antlaşması ile Azak Kalesi geri alındı"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1739-09-12",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Yaş"
+  ],
+  "oneriler": [
+   "RUS-1739-YAS"
+  ],
+  "cekirdek": [
+   {
+    "t": "1739-09-18",
+    "f": "olaylar.js",
+    "b": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı"
+   },
+   {
+    "t": "1739-10-03",
+    "f": "olaylar_ek5.js",
+    "b": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1739-09-18",
+    "f": "kronoloji_habsburg.js",
+    "b": "Belgrad Antlaşması — Pasarofça kazançlarının kaybı"
+   },
+   {
+    "t": "1739-09-18",
+    "f": "kronoloji_kirim.js",
+    "b": "Belgrad Antlaşması ile Azak Kalesi geri alındı"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1739-09-18",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Hotin",
+   "Yaş"
+  ],
+  "oneriler": [
+   "RUS-1739-HOT",
+   "RUS-1739-YAS"
+  ],
+  "cekirdek": [
+   {
+    "t": "1739-09-18",
+    "f": "olaylar.js",
+    "b": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı"
+   },
+   {
+    "t": "1739-10-03",
+    "f": "olaylar_ek5.js",
+    "b": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1739-09-18",
+    "f": "kronoloji_habsburg.js",
+    "b": "Belgrad Antlaşması — Pasarofça kazançlarının kaybı"
+   },
+   {
+    "t": "1739-09-18",
+    "f": "kronoloji_kirim.js",
+    "b": "Belgrad Antlaşması ile Azak Kalesi geri alındı"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1769-12-01",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Bükreş"
+  ],
+  "oneriler": [
+   "RUS-1769-BUK"
+  ],
+  "cekirdek": [],
+  "kuyruk": [
+   {
+    "t": "1769-11-22",
+    "f": "kronoloji_rodos_sovalyeleri.js",
+    "b": "Malta Üniversitesi'nin kurulması"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1770-09-27",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Bender"
+  ],
+  "oneriler": [
+   "RUS-1770-BEN"
+  ],
+  "cekirdek": [
+   {
+    "t": "1770-09-27",
+    "f": "olaylar_ek6.js",
+    "b": "Bender'in Ruslara kaybı"
+   }
+  ],
+  "kuyruk": []
+ },
+ {
+  "degismez": "2i",
+  "gun": "1770-10-09",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Akkirman"
+  ],
+  "oneriler": [
+   "RUS-1770-AKK"
+  ],
+  "cekirdek": [
+   {
+    "t": "1770-09-27",
+    "f": "olaylar_ek6.js",
+    "b": "Bender'in Ruslara kaybı"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1770-11-01",
+    "f": "kronoloji_misir.js",
+    "b": "Ali Bey'in Zâhir el-Ömer ile ittifak kurup Suriye seferini başlatması"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1774-07-21",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Bükreş",
+   "Bender",
+   "Akkirman"
+  ],
+  "oneriler": [
+   "RUS-1769-BUK",
+   "RUS-1770-BEN",
+   "RUS-1770-AKK"
+  ],
+  "cekirdek": [
+   {
+    "t": "1774-07-21",
+    "f": "olaylar.js",
+    "b": "Küçük Kaynarca Antlaşması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1774-07-21",
+    "f": "kronoloji_kirim.js",
+    "b": "Küçük Kaynarca Antlaşması imzalandı — Kırım Hanlığı Osmanlı'dan siyaseten bağımsız ilan edildi"
+   },
+   {
+    "t": "1774-07-21",
+    "f": "kronoloji_rusya.js",
+    "b": "Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı ⭐"
+   }
+  ]
+ },
+ {
+  "degismez": "2s",
+  "gun": "1782-01-01",
+  "tip": [
+   "kazak-hetmanligi → rusya"
+  ],
+  "yerler": [
+   "Poltava",
+   "Lubnı",
+   "Kremençuk",
+   "Baturin",
+   "Çernigov",
+   "Novgorod-Seversk",
+   "Hluhiv"
+  ],
+  "oneriler": [
+   "K-RUS-KAZ-SOL"
+  ],
+  "cekirdek": [],
+  "kuyruk": [
+   {
+    "t": "1782-01-01",
+    "f": "kronoloji_cin.js",
+    "b": "Siku Quanshu (Dört Hazine Külliyatı) tamamlandı"
+   },
+   {
+    "t": "1782-01-01",
+    "f": "kronoloji_japonya.js",
+    "b": "Tenmei Kıtlığı başladı"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1789-11-14",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Bender"
+  ],
+  "oneriler": [
+   "RUS-1789-BEN"
+  ],
+  "cekirdek": [],
+  "kuyruk": []
+ },
+ {
+  "degismez": "2i",
+  "gun": "1790-10-24",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Kili"
+  ],
+  "oneriler": [
+   "RUS-1790-KIL"
+  ],
+  "cekirdek": [],
+  "kuyruk": []
+ },
+ {
+  "degismez": "2i",
+  "gun": "1790-12-22",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "İsmail"
+  ],
+  "oneriler": [
+   "RUS-1790-ISM"
+  ],
+  "cekirdek": [
+   {
+    "t": "1790-12-22",
+    "f": "olaylar_ek5.js",
+    "b": "İsmail Kalesi'nin düşüşü ve katliamı"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1791-01-01",
+    "f": "kronoloji_cin.js",
+    "b": "Kızıl Konak Rüyası (Hongloumeng) ilk kez basıldı"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1792-01-09",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Bender",
+   "Kili",
+   "İsmail"
+  ],
+  "oneriler": [
+   "RUS-1789-BEN",
+   "RUS-1790-KIL",
+   "RUS-1790-ISM"
+  ],
+  "cekirdek": [
+   {
+    "t": "1792-01-10",
+    "f": "olaylar_ek5.js",
+    "b": "Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1792-01-09",
+    "f": "kronoloji_rusya.js",
+    "b": "Yaş Antlaşması — Kırım'ın ilhakı tanındı, sınır Dinyester'e taştı"
+   },
+   {
+    "t": "1792-01-01",
+    "f": "kronoloji_cin.js",
+    "b": "Gorkha-Tibet Savaşı'na Qing müdahalesi"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1806-11-24",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Yaş",
+   "Hotin",
+   "Roman",
+   "Birlad (Bârlad)",
+   "Soroka (Soroca)",
+   "Orhei"
+  ],
+  "oneriler": [
+   "RUS-1806-YAS",
+   "RUS-1806-HOT",
+   "RUS-1806-BOG"
+  ],
+  "cekirdek": [
+   {
+    "t": "1806-12-22",
+    "f": "olaylar_ek5.js",
+    "b": "Rusya ile savaşın başlaması (1806-1812 Osmanlı-Rus Savaşı) ve Boğazların kapatılması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1806-11-21",
+    "f": "kronoloji_fransa.js",
+    "b": "Kıta Ablukası'nın (Berlin Kararnamesi) ilanı"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1806-11-30",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Kili",
+   "Bender"
+  ],
+  "oneriler": [
+   "RUS-1806-KIL",
+   "RUS-1806-BEN"
+  ],
+  "cekirdek": [
+   {
+    "t": "1806-12-22",
+    "f": "olaylar_ek5.js",
+    "b": "Rusya ile savaşın başlaması (1806-1812 Osmanlı-Rus Savaşı) ve Boğazların kapatılması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1806-11-21",
+    "f": "kronoloji_fransa.js",
+    "b": "Kıta Ablukası'nın (Berlin Kararnamesi) ilanı"
+   },
+   {
+    "t": "1806-12-30",
+    "f": "kronoloji_rusya.js",
+    "b": "Üçüncü Osmanlı-Rus Savaşı başladı (1812'ye dek)"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1806-12-25",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Bükreş",
+   "Tırgovişte",
+   "Piteşti",
+   "Kımpulung (Câmpulung)",
+   "Buzău",
+   "Rimnik-i Sârat (Râmnicu Sărat)"
+  ],
+  "oneriler": [
+   "RUS-1806-BUK",
+   "RUS-1806-EFL"
+  ],
+  "cekirdek": [
+   {
+    "t": "1806-12-22",
+    "f": "olaylar_ek5.js",
+    "b": "Rusya ile savaşın başlaması (1806-1812 Osmanlı-Rus Savaşı) ve Boğazların kapatılması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1806-12-30",
+    "f": "kronoloji_rusya.js",
+    "b": "Üçüncü Osmanlı-Rus Savaşı başladı (1812'ye dek)"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1809-09-26",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "İsmail"
+  ],
+  "oneriler": [
+   "RUS-1809-ISM"
+  ],
+  "cekirdek": [
+   {
+    "t": "1809-09-17",
+    "f": "olaylar_ek16.js",
+    "b": "Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1809-09-17",
+    "f": "kronoloji_isvec.js",
+    "b": "Hamina (Fredrikshamn) Antlaşması — Finlandiya kaybedildi ⭐"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1810-09-27",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Yergöğü (Giurgiu)"
+  ],
+  "oneriler": [
+   "RUS-1810-YER"
+  ],
+  "cekirdek": [
+   {
+    "t": "1810-09-26",
+    "f": "olaylar_ek7.js",
+    "b": "Rusçuk'un teslimi — Tuna'nın güney kıyısı da elden çıkıyor"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1810-09-24",
+    "f": "kronoloji_ispanya.js",
+    "b": "Cádiz Kortesleri'nin toplanması"
+   },
+   {
+    "t": "1810-10-15",
+    "f": "kronoloji_almanya.js",
+    "b": "Berlin (Humboldt) Üniversitesi'nin açılması"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1812-05-28",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Yaş",
+   "Bükreş",
+   "Kili",
+   "Hotin",
+   "Bender",
+   "Roman",
+   "Birlad (Bârlad)",
+   "Soroka (Soroca)",
+   "Orhei",
+   "Tırgovişte",
+   "Piteşti",
+   "Kımpulung (Câmpulung)",
+   "Buzău",
+   "Rimnik-i Sârat (Râmnicu Sărat)",
+   "İsmail",
+   "Yergöğü (Giurgiu)"
+  ],
+  "oneriler": [
+   "RUS-1806-YAS",
+   "RUS-1806-BUK",
+   "RUS-1806-KIL",
+   "RUS-1806-HOT",
+   "RUS-1806-BEN",
+   "RUS-1806-BOG",
+   "RUS-1806-EFL",
+   "RUS-1809-ISM",
+   "RUS-1810-YER"
+  ],
+  "cekirdek": [
+   {
+    "t": "1812-05-28",
+    "f": "olaylar_ek.js",
+    "b": "Bükreş Antlaşması — Besarabya'nın kaybı"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1812-05-28",
+    "f": "kronoloji_rusya.js",
+    "b": "Bükreş Antlaşması ile Besarabya alındı ⭐"
+   },
+   {
+    "t": "1812-06-24",
+    "f": "kronoloji_fransa.js",
+    "b": "Napolyon'un Rusya Seferi'nin başlaması"
+   }
+  ]
+ },
+ {
+  "degismez": "2",
+  "gun": "1812-05-28",
+  "tip": [
+   "d: başlangıcı (Yergöğü Osmanlı'ya döner)"
+  ],
+  "yerler": [
+   "Yergöğü (Giurgiu)"
+  ],
+  "oneriler": [
+   "RUS-1810-YER"
+  ],
+  "cekirdek": [
+   {
+    "t": "1812-05-28",
+    "f": "olaylar_ek.js",
+    "b": "Bükreş Antlaşması — Besarabya'nın kaybı"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1812-05-28",
+    "f": "kronoloji_rusya.js",
+    "b": "Bükreş Antlaşması ile Besarabya alındı ⭐"
+   },
+   {
+    "t": "1812-06-24",
+    "f": "kronoloji_fransa.js",
+    "b": "Napolyon'un Rusya Seferi'nin başlaması"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1828-05-07",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Yaş",
+   "Bükreş",
+   "Roman",
+   "Birlad (Bârlad)",
+   "Kalas (Galatz)",
+   "Tırgovişte",
+   "Piteşti",
+   "Kımpulung (Câmpulung)",
+   "Buzău",
+   "Rimnik-i Sârat (Râmnicu Sărat)"
+  ],
+  "oneriler": [
+   "RUS-1828-YASBUK",
+   "RUS-1828-PRENS"
+  ],
+  "cekirdek": [
+   {
+    "t": "1828-04-26",
+    "f": "olaylar_ek5.js",
+    "b": "1828-1829 Osmanlı-Rus Savaşı'nın başlaması"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1828-04-26",
+    "f": "kronoloji_rusya.js",
+    "b": "Dördüncü Osmanlı-Rus Savaşı başladı (1829'a dek)"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1834-01-01",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Yaş",
+   "Bükreş",
+   "Roman",
+   "Birlad (Bârlad)",
+   "Kalas (Galatz)",
+   "Tırgovişte",
+   "Piteşti",
+   "Kımpulung (Câmpulung)",
+   "Buzău",
+   "Rimnik-i Sârat (Râmnicu Sărat)"
+  ],
+  "oneriler": [
+   "RUS-1828-YASBUK",
+   "RUS-1828-PRENS"
+  ],
+  "cekirdek": [
+   {
+    "t": "1834-01-01",
+    "f": "olaylar_ek7.js",
+    "b": "Rus ordusunun Eflak ve Boğdan'dan çekilmesi — altı yıllık işgalin sonu"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1834-01-01",
+    "f": "kronoloji_almanya.js",
+    "b": "Alman Gümrük Birliği'nin (Zollverein) yürürlüğe girmesi"
+   },
+   {
+    "t": "1834-01-01",
+    "f": "kronoloji_cin.js",
+    "b": "İngiliz Doğu Hindistan Şirketi'nin Çin tekeli sona erdi"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1853-07-01",
+  "tip": [
+   "başlangıç"
+  ],
+  "yerler": [
+   "Bükreş",
+   "Tırgovişte",
+   "Piteşti",
+   "Kımpulung (Câmpulung)",
+   "Buzău",
+   "Rimnik-i Sârat (Râmnicu Sărat)",
+   "İbrail",
+   "Krayova (Craiova)",
+   "Tırgu Jiu",
+   "Rimnik (Râmnicu Vâlcea)",
+   "Turnu Severin",
+   "Slatina",
+   "Yergöğü (Giurgiu)",
+   "Yaş",
+   "Roman",
+   "Birlad (Bârlad)",
+   "Kalas (Galatz)"
+  ],
+  "oneriler": [
+   "RUS-1853-BUK",
+   "RUS-1853-EFL",
+   "RUS-1853-YER",
+   "RUS-1853-BOG"
+  ],
+  "cekirdek": [],
+  "kuyruk": [
+   {
+    "t": "1853-07-08",
+    "f": "kronoloji_japonya.js",
+    "b": "Komodor Perry'nin \"Kara Gemileri\" Uraga'ya demirledi"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1854-07-07",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Yergöğü (Giurgiu)"
+  ],
+  "oneriler": [
+   "RUS-1853-YER"
+  ],
+  "cekirdek": [],
+  "kuyruk": [
+   {
+    "t": "1854-07-17",
+    "f": "kronoloji_habsburg.js",
+    "b": "Semmering demiryolu — Avrupa'nın ilk dağ demiryolu"
+   },
+   {
+    "t": "1854-06-22",
+    "f": "kronoloji_orta_asya.js",
+    "b": "I. NİKOLA FERMANI — bütün Kazak toprakları Rusya'ya bağlandı"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1854-08-22",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Bükreş",
+   "Tırgovişte",
+   "Piteşti",
+   "Kımpulung (Câmpulung)",
+   "Buzău",
+   "Rimnik-i Sârat (Râmnicu Sărat)",
+   "İbrail",
+   "Krayova (Craiova)",
+   "Tırgu Jiu",
+   "Rimnik (Râmnicu Vâlcea)",
+   "Turnu Severin",
+   "Slatina"
+  ],
+  "oneriler": [
+   "RUS-1853-BUK",
+   "RUS-1853-EFL"
+  ],
+  "cekirdek": [
+   {
+    "t": "1854-08-24",
+    "f": "olaylar_ek2.js",
+    "b": "İlk dış borç sözleşmesi"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1854-09-20",
+    "f": "kronoloji_ingiltere.js",
+    "b": "Alma Savaşı"
+   }
+  ]
+ },
+ {
+  "degismez": "2i",
+  "gun": "1854-09-01",
+  "tip": [
+   "bitiş"
+  ],
+  "yerler": [
+   "Yaş",
+   "Roman",
+   "Birlad (Bârlad)",
+   "Kalas (Galatz)"
+  ],
+  "oneriler": [
+   "RUS-1853-BOG"
+  ],
+  "cekirdek": [
+   {
+    "t": "1854-08-24",
+    "f": "olaylar_ek2.js",
+    "b": "İlk dış borç sözleşmesi"
+   }
+  ],
+  "kuyruk": [
+   {
+    "t": "1854-09-20",
+    "f": "kronoloji_ingiltere.js",
+    "b": "Alma Savaşı"
+   },
+   {
+    "t": "1854-10-01",
+    "f": "kronoloji_dogu_afrika.js",
+    "b": "Richard Burton'un Zeyla'a gelişi"
+   }
+  ]
+ }
+]
