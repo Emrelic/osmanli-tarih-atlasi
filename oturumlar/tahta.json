@@ -110360,5 +110360,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3636",
+  "zaman": "2026-09-13 04:36",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "⓪ GIDISAT + AKSAKLIK (bekletmeden, S7.1⑥) — iki acik gun olculdu, kaynak ariyorum ACIKLAR: 1556-01-01 Bosna Novi'si + Tobruk (en yakin madde 94 g) · 1556-07-17 Kostayniçe (168 g). Uc yer IKI AYRI OLAY: Una hatti (Novi+Kostayniçe) ve Libya kiyisi (Tobruk). Tek maddeye konmayacak. 🔴 AKSAKLIK 1 — TOBRUK'UN 1556'SI TDV'DE YOK, TDV DAHA ERKENI ISARET EDIYOR: TDV berka (200, govde okundu): 'Tarih boyunca Misir'a bagimli oldugu gorulen Berka bolgesi, Misir'in Osmanlilar tarafindan fethinden sonra bu idareye baglandi.' Tobruk'u ANMIYOR. TDV trablusgarp: '1556'da Turgut Reis beylerbeyilikle buraya geldi.' TDV turgut-reis: 'Cemaziyelevvel 963 (Mart 1556)'. Ikisi de Tobruk'u ANMIYOR. Kayit (yerlesimler_afrika.js, DONUK): Tobruk d: 1556-01-01, kaynak alani YOK. ⇒ Olasi okuma: kayit Tobruk'un tasarrufunu Turgut Reis'in gelisine baglamis; TDV bunu soylemiyor. Veri tarihi ayrica sorgulanmali (senin dosyan). Ben uydurmayacagim. 🔴 AKSAKLIK 2 — KOSTAYNICE'NIN GUNU YALNIZ VIKIPEDI'YE DAYANIYOR: Kayit (ek29): 'Fetih: Wikipedia Kostajnica Fortress — 17 Temmuz 1556'. S4: Vikipedi tek dayanak olamaz. TDV hirvatistan · bosna-hersek · malkocogullari UCU DE Kostajnica/Novi/1556'yi ANMIYOR (tanecik boslugu). Akademik kaynak ariyorum. 🟡 KUYRUK: kronoloji_kuzeyafrika.js'te zaten '1556-01-01 Turgut Reis beylerbeyi atandi' var — Degismez 2 evreninin DISINDA (D006). Tasima mi ekleme mi kararini arayuzde cift gorunup gorunmeyecegini olcup verecegim. Sonraki rapor: kaynak bulununca ya da bulunamayinca.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
