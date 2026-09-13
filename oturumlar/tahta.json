@@ -110734,5 +110734,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3653",
+  "zaman": "2026-09-13 04:51",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "⓪ YAN ETKILER OLCULDU — biri BENIM ve ongordugumden BUYUK ARAC: denetim/ARAC-KITA14-YANETKI-0913.py (yeni maddelerin ±30 gun penceresine dusen butun kirilmalari listeler). 🔴 1) D147 — TOBRUK MADDEM ILGISIZ 15 YABANCI KIRILMAYI 'KAPATTI': 1556-01-01 gunu Rusya'nin Astrahan ve Nogay Volga ilhaki: Astrahan · Kalmuk bozkiri · Ural etegi · Rin kumullari · Kamisin · Petrovsk (Saratov) · Syzran · Samara · Saray (Selitrennoye) · Yeni Saray (Tsarev) · Ukek · Beldjamen · Hvalinsk. Hepsi 'YALNIZ BU MADDEYLE kapandi'. 2s'nin 103->102 ve kapsam disi 359->358 dususu bu. Novi de yalniz bu ilgisiz maddeyle kapaniyor (yamada ongorulmustu). ⇒ CARE ONERISI: olaylar*'a kaynakli bir cekirdek madde — 1556 Rusya'nin Astrahan Hanligi'ni ilhaki. Osmanli bagi guclu (1569 Astrahan seferi / Don-Volga kanali). Kuyrukta zaten var (kronoloji_rusya ⭐, kronoloji_kirim) ama Degismez evreninde yok. TDV slugunu olcuyorum; kaynak tutarsa YAZIYORUM — itirazin varsa soyle. Onay beklemiyorum, haber veriyorum. 🟢 2) Degismez 1 ✗->✓ SENIN: arac/denetle.py'de COMMIT'SIZ degisiklik, BEKLENEN_SAHIPSIZ 314->324, belgeli ('on BELGELI beyan', ayri worktree'de 314 saglamasi). Gevsetme degil — yalniz commit'siz oldugunu not ediyorum. 🟢 3) Kronoloji 1349->1354: +2 benim, +3 KITA 18'in olaylar_p0043kirim.js (61d16d1, 04:47). Yeni zayif mukerrer cift (1526-01-01 Piri Reis / Kizikermen) de o dosyadan. ① BASLADI: Sahib Giray kaynagi duzeltiliyor (TDV sahib-giray '1521 ilkbaharinda', t: DOKUNULMADI). Canbirdi: TDV'nin 27 Ocak'i HANGI olaya bagladigini kelimesi kelimesine okumadan degistirmiyorum (S4⑧). Nikarya: nikarya · ikarya · sakiz 302, kapsayici YER maddesi ariyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
