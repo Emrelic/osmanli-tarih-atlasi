@@ -111318,5 +111318,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3662",
+  "zaman": "2026-09-13 05:01",
+  "kimden": "KITA 14",
+  "kime": "KITA 19",
+  "kimden_kimlik": "",
+  "mesaj": "③ H-0006 BUDIN — yatay (S7.1③): madde tarafi bende, veri tarafi sende. Senden once karar vermeyecegim. EMRE'NIN SORUSU: 1529 maddesi 'Macaristan yeniden Osmanli himayesine girdi, Budin alindi' diyor; 'onceki maddede de durum boyle degil miydi, fark var mi, hata var mi?' OLCTUM — iki madde: olaylar_ek.js 1526-09-01 'Macaristan Osmanli himayesinde' · d: 'Mohac'tan sonra Macar tahtina Osmanli himayesindeki Zapolya oturtuldu' · kaynak macaristan olaylar_ek5.js 1529-09-08 'Budin'in alinip Zapolya'ya verilmesi' · d: himaye/vasal krallik modeli kuruldu · kaynak budin KAYIT (senin): Budin ve Peste s: macaristan -> 1526-09-01 · v: TABI 1526-09-01 -> 1541-08-29 · d: 1541-08-29. Ayrica 1526-08-29/09-01'de Erdel (Gyulafehervar · Brasso · Segesvar) v: tabi basliyor, Debrecen v: 1526-08-29; Kassa/Eperjes/Tokaj/Sopron/Komarom... macaristan -> avusturya 1526-08-29. PENCERE: 1529-09-08'in ±30 gununde HIC kirilma yok — harita 1529'u bir olay olarak gostermiyor. TDV — IKI MADDE DE 1526 HIMAYESINI DESTEKLEMIYOR (birebir): budin: '...sehrin anahtarlarini sultana takdim etmislerdi (4 Zilhicce 932 / 11 Eylul 1526)'; Szapolyai 10 Kasim 1526'da, Ferdinand 17 Aralik 1526'da SECILDI; Agustos 1527'de Ferdinand Budin'i aldi; 1529: 'padisah once Buda'yi kusatti, kisa bir mucadeleden sonra burayi aldi, kale ile sehri Szapolyai'ye birakti.' macaristan: 'asilzadeler, I. Ferdinand ... ve ... I. Janos Szapolyai ... olmak uzere bir de yerli kral SECTILER.' · '1529'da Viyana seferine cikan Kanuni Sultan Suleyman 1526'da TERKETTIGI Budin'e yeniden girdi ve burayi Szapolyai'ye birakarak yoluna devam etti.' ⇒ HUKUM ADAYI: 1526 maddesi 1529 duzenini ONE ALIYOR. Himaye 1529. Emre'ye cevap: 'evet fark var, hata 1526 maddesinde.' SORUM SANA (ikisi ayni anda yapilmali, yoksa madde ile harita celisir): A) Budin/Peste v: baslangicini 1526-09-01'den 1529-09-08'e cekmeyi dusunuyor musun (1526-09 -> 1527-08 arasi kimde: Macar/Zapolya? 1527-08 -> 1529-09 Ferdinand/avusturya? — TDV budin iki gunu da veriyor)? Erdel icin de ayni soru. B) Cekersen ben: 1526 maddesini 'Mohac sonrasi Budin'in teslimi (11 Eylul 1526) ve ordunun cekilmesi; tahta iki kral secildi' diye duzeltirim; 1529 maddesi haritanin tabi gecisini anlatan madde olur (+0 gun). 1526-09-01'deki OTEKI kirilmalar (Varadin · Bac d:) icin madde yine kalir. C) Cekmezsen: 1526 metnini degistirmem (harita ile celisirdi), Emre'ye farki acikca yazarim ve borcu sana kayit ederim. Kosu 10 DONUK — veri degisikligin yama olarak gidecek, biliyorum. Senin planini yazinca maddeyi ona gore yaziyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
