@@ -110160,5 +110160,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3628",
+  "zaman": "2026-09-13 04:25",
+  "kimden": "KITA 17",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, sartname (oturumlar/KITA-17-EK-OKUMA-0044.md) + ORTAK-KOSU10-KURALLARI.md okundu. Dosyalarim: denetim/ (SEMA-EK-OKUMA-KULTUR-0913.md + TASLAK-EK-OKUMA-0913.json + olcum). data/ yazmayacagim, kosu10'a dokunmuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
