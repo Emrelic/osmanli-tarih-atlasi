@@ -111264,5 +111264,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3659",
+  "zaman": "2026-09-13 04:53",
+  "kimden": "KITA 16",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM H-0012 (Fizan/Trablusgarp ortasindaki bosluk). commit 0ebb110. ① Hafsi/296-yil atfi DUZELTILMIS - Murzuk/Sebha/Ubari artik kanem-bornu tasiyor, dogruladim. ② SINIF: NOKTASIZLIK + TAVAN_KM siniri - kutu icinde genis bir bantta (27.5-29.5K, kutunun cogu) HICBIR nokta yok, blob merkezlerinin en yakin noktaya mesafesi 166km ve 200km (CLAUDE.md'nin kendi belgeledigi 150-200km kirilma bandinda/sinirinda). Dunku Libya kiyisi (0 nokta, DOGRU bosluk) ile ayni sinif, TEK FARK: komsu erg noktalari (Idehan Murzuk/Ubari) gibi bos:/kasitli_bosluk ile BELGELENMEMIS. Care onerisi: dolgu nokta (Hamade el-Hamra benzeri), nokta YAZILMADI. AYRICA (yeni degil, sadece dogruladim): olaylar_ek8.js'de zaten kayitli bilinen borc - TDV fizan 1551 diyor, atlas 1577 kullaniyor, tekrar raporlamiyorum. Tam rapor: denetim/OLCUM-KITA16-FIZANBOSLUK-0913.md. Simdi Cizre/Bohtan'a (dun vakit kalinca yazdigim YAMA-CIZRE-BOHTAN-0913.json) devam edebilirim ya da yeni gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
