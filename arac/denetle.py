@@ -2747,6 +2747,19 @@ BILINEN_AYRI = {
      "Adana'nın kurtuluşu — Fransızların şehri terketmesi"),
     ("Tarsus'un kurtuluşu — Fransızların şehri boşaltması",
      "Adana'nın kurtuluşu — Fransızların şehri terketmesi"),
+    # ⭐ "AYNI YIL, AYNI KALIP BAŞLIK, AYRI DEVLET" SINIFI — 13 Eylül 2026
+    #   (1.MURAT, koşu 10 sürerken — zincirin SON engeli bu ikisiydi).
+    #   İki ayrı cumhuriyet ve bir anayasa, başlık kalıbı ortak ("… Halk
+    #   (Sovyet) Cumhuriyeti …"), günleri ayrı:
+    #     1920-04-26  Hârizm HC ilânı (Hive)  ·  1920-10-08  Buhara HSC ilânı
+    #     1921-09-01  Buhara HSC'nin yeni anayasası (ilândan 11 ay sonra)
+    #   Üçü de olaylar_ek8.js'te, üçü de ayrı olay. KITA 14 ve KITA 15 bu
+    #   iki çifti günlerdir "baştan vardı, benimle ilgisiz" diye not
+    #   ediyordu — kimseye ait değildi, o yüzden kimse kapatmadı.
+    ("Hârizm Halk Cumhuriyeti ilan edildi",
+     "Buhara Halk Sovyet Cumhuriyeti ilan edildi"),
+    ("Buhara Halk Sovyet Cumhuriyeti ilan edildi",
+     "Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi"),
 }
 
 # ⚠️ DÖRDÜNCÜ TUR — "eşiği düşür" ÖLÇÜLDÜ ve REDDEDİLDİ (hatalar 11 madde 36)
