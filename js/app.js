@@ -7780,6 +7780,46 @@ function haritayiOlayaGotur(o, zorla) {
     return;
   }
   if (obYerYokEl) obYerYokEl.textContent = "";
+  // 🆕 13 Eylül 2026 — 0046/H-0011. Bazı maddelerin ANLAMI, olayın GEÇTİĞİ
+  // noktadan (yer_id/yer_kon — burada "Ferhad Paşa Antlaşması" için
+  // İstanbul, imzanın atıldığı şehir) FARKLI bir bölgeyi göstermeyi
+  // gerektirir ("doğuda en geniş sınırlar" — Tebriz/Karabağ/Şirvan/
+  // Gürcistan/Luristan). `o.odak_kutu_kaynak`, data/hukuki_sinirlar.js'teki
+  // bir C-kaydının id'sini taşır; o kaydın `kapsama.odak_kutu`su (KITA
+  // 29/30 kaynaklı, kaydın kendi notuyla "YALNIZ kamera odağı için —
+  // boyama/dolgu için KULLANILMAZ") KAMERAYA gider, İŞARET yine `hedef`e
+  // (gerçek olay yeri) konur. İkisi AYRI SORU — "nerede oldu" ile "harita
+  // ne göstermeli" karışmaz (D089: veri modelinin ifade ettiği bir ilişkiyi
+  // başka bir ilişkiye çevirmek YENİ bir iddiadır; burada `hedef`
+  // DEĞİŞTİRİLMEDİ, YENİ bir alan eklendi). Koordinat KOPYALANMADI —
+  // yalnız kayıt id'si referans alınıyor, sınır verisi tek yerde durur.
+  if (o.odak_kutu_kaynak) {
+    var _hkKayit = (window.HUKUKI_SINIRLAR || []).find(function (k) { return k.id === o.odak_kutu_kaynak; });
+    var _ok = _hkKayit && _hkKayit.kapsama && _hkKayit.kapsama.odak_kutu;
+    if (_ok) {
+      var _obKutu = [_ok.lon_min, _ok.lat_min, _ok.lon_max, _ok.lat_max];
+      var _obAnahtar = "odak:" + o.odak_kutu_kaynak;
+      if (_obAnahtar !== sonUcusKonumAnahtari) {
+        sonUcusKonumAnahtari = _obAnahtar;
+        // Aynı kamera yolunu (cameraForBounds → flyTo, essential kapısı)
+        // kullanıyoruz — `kapsam_genis` dalıyla AYNI desen (yukarıda), iki
+        // ayrı bbox-kamera yolu olsaydı biri düzelirken öteki bayatlardı.
+        var _obKam = null;
+        try {
+          _obKam = harita.cameraForBounds([[_obKutu[0], _obKutu[1]], [_obKutu[2], _obKutu[3]]], { padding: 40 });
+        } catch (eOb) { _obKam = null; }
+        if (_obKam && _obKam.center) {
+          harita.flyTo({ center: _obKam.center, zoom: _obKam.zoom, duration: 1200,
+                         curve: 1.42, essential: ucusAcik() });
+        } else {
+          harita.fitBounds([[_obKutu[0], _obKutu[1]], [_obKutu[2], _obKutu[3]]],
+                           { padding: 40, duration: 1200, essential: ucusAcik() });
+        }
+      }
+      _varista();
+      return;
+    }
+  }
   var konumAnahtari = hedef.lat.toFixed(3) + "," + hedef.lon.toFixed(3);
   // 🔴🔴 ÜÇÜNCÜ SESSİZ DAL — 24 Ağustos 2026'da bulundu (0032/H-0004).
   // Emre: *"ARZİLA … maddesinde YUVARLAK SİMGE YANIP SÖNEN YANMIYOR.
