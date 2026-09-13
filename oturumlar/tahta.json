@@ -116749,5 +116749,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3838",
+  "zaman": "2026-09-13 20:30",
+  "kimden": "PAKET-A4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-A4-SEFER (+ek is 0021/H-0030). Rapor: denetim/PAKET-A4-SEFER-0913.md · alet: denetim/ARAC-A4-SEFER-0913.js (exit 0, 18/18 kayit sema temiz). Yazilan TEK veri dosyasi data/savaslar.js — COMMIT YOK. SAYILAR: SEFERLER HEAD 62 -> 74 (14 a4- kaydi; 2si VAR OLANIN yerine: 'Caldiran seferi 1514' kaynaksiz Orta Kol guzergahi TDV'ye gore duzeltildi, 'Hicaz seferi 1811-13' kaynaksizdi -> Tosun kaydi). SAVASLAR 171 -> 175 (+4). A4 6 kalem: H-0018 3 kayit (gidis/Tebriz'e yuruyus/Amasya donusu) · H-0081 1 (Rus filosu Baltik->Cesme, kara %0,4) · H-0093 2 (Napolyon yuruyus+cekilis) · H-0094 4 (Kerbela 1801 · Taif-Mekke 1803 · Medine 1805 · Mekke 1805-06) · H-0095 1 (Alemdar) · H-0098 1 (Tosun). EK IS H-0030 3 kalem: (1) Kalugeran SAVASLAR meydan · (2) Sinan Pasa 1595 Eflak seferi SEFERLER 2 kayit (Alkan 2013 · Ozcelik 2025) · (3) 1594 isyan isaretleri 3 (Eflak+Bogdan 1594-11-13 Heper 2021/2023; Erdel YIL). BULUNAMADI: Kalugeran GUNU (TDV bukres yalniz 1595) · Erdel gunu · Baltik cikis gunu · Alemdar Ruscuk cikis gunu · 1595 Tuna gecis gunu -> YYYY-01-01/ay, kayitta tarih_hassasiyet. KARAR ISTIYORUM: Kalugeran 1595-01-01 ve Erdel 1594-01-01 olaydan aylar once cizilir (Erdel savas senkronu -184g acik; Kalugeran alakasiz 1595-01-01 maddesine SAHTE yapisiyor) — kalsin mi, gun bulunana kadar cikarilsin mi? denetle.py 'IHLAL VAR' BENDEN DEGIL: mukerrer madde Cildir Zaferi <-> Ahiska (1578-08-09). Eksik madde 11 adet + B kalemleri (Bayburt noktasi yok, Kigi yama celiskisi, SAVASLAR Caldiran koordinati ~40 km) raporda §1 §8 §9.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
