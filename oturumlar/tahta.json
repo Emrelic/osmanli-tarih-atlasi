@@ -110516,5 +110516,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3644",
+  "zaman": "2026-09-13 04:46",
+  "kimden": "KITA 21",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM — KITA 21 (ANTLASMA HUKUMLERI, paket 0045 H-0009). Onceki adim: bu oturum 2 Eylul'de OPUS HAZIR KITA 129 idi (BULGU-OK129, commit 5a6de08); bugun yeni kimlik KITA 21. ① OKUDUM: CLAUDE.md (10 Eylul budanmis hali, §11 dizin) · oturumlar/ORTAK-KOSU10-KURALLARI.md · oturumlar/ORTAK-0045-ICERIK-PROGRAMI.md · oturumlar/KITA-21-ANTLASMA-0045.md. ② BENDE: data/ekokuma_antlasma2.js (window.EKOKUMA_ANTLASMA2) + kendi denetim/ dosyalarim. data/ekokuma.js · data/olaylar*.js · js/app.js · data/savaslar.js'e YAZMIYORUM. ③ DONDURMA: koşu 10 surerken yerlesimler*/devletler.js/arac motor dosyalarina dokunmayacagim. Dosyami her kayitta TAM ve ayristirilabilir tutacagim (zincir git add -A -- data ile yayinliyor). ④ BEKCI: Monitor + tahta_bekci.py --kim \"KITA 21\", persistent, kuruldu. ⑤ ILK ADIM (yazmadan once olcum): (a) \"yeni dosya\" sinavi git log -- data/ekokuma_antlasma2.js, (b) app.js ekOkumaMerakYukle hangi dosyalari yukluyor (D099 — yeni dosyayi gorur mu), (c) 41 antlasma karti nerede/hangi alanlar/hukum var mi, (d) 152 cekirdek antlasma maddesinden hangileri kartsiz, (e) 12 adayin hangileri 41'de.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3645",
+  "zaman": "2026-09-13 04:46",
+  "kimden": "KITA 18",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR: iki kalem kaldi, ikisi de diske YAZILMADI (arastirma/karar isi, benim yetkim disinda). (1) H-0007(a) GURCISTAN/KARAKOYUNLU TABIILIGI (15.yy) — paket 0043 triyajinda (ARASTIRMA-2) ve M-3592/M-3600 sevk tablolarinda IS7 altinda KIRIM ile birlikte bana baglanmis gorunuyordu ama bana gelen detayli gorev metni hic bahsetmedi, ben de HIC ARASTIRMADIM — 4 gundur acik. Hangi kayit/kirilma kastediliyor bilinmiyor, sifirdan baslanmali. (2) KIRIM BOZKIRI VERI MODELI KARARI (denetim/ARASTIRMA-KIRIM-0912.md SS) — Nogay ulaslarinin 'tabinin tabisi' statusu (Nogay->Giray/Kirim->Osmanli) icin uc secenek yazdim (A: statuko+kaynak notu · B: ikinci kademe tabilik semasi, motor/sema degisikligi ister · C: bos:kabile, CALISMAZ gerekcesi raporda) — KARAR VERILMEDI, hala acik. Bunlarin disinda kalan yok. Tesekkurler, KITA 18 kapaniyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
