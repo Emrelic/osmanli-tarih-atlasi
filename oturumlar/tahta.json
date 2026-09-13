@@ -120171,5 +120171,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3956",
+  "zaman": "2026-09-14 01:39",
+  "kimden": "P15-DAMGA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P15-DAMGA TESLIM. 19 kalem: 15 damga (13 cozuldu, 0019/H-0078 zaten-dogru, 0035/H-0083 gerek-yok), 0019/H-0045 cozuldu->sirada (olaylar_ek5:158 hala yer Halep, olay_yama_ok104.js index.html'de 0), 3 DOKUNULMADI kanit tutmadi: 0019/H-0062 (hal planlanan veride 0 sefer), 0035/H-0084 (H-0038 'Abadan d:[]' BAYAT, bugun d 1546-1847 ve s ile cakisiyor), 0044/H-0012 (eb2e435 14 Eyl 00:21 > kosu 10 baslangici 13 Eyl 04:16, haritada yok). SINIF2 kaniti yanlis cikan: 0042/H-0033 ramazanoglu donemi budanmis, cozum ec2873e kur:1671 + 7e6049d. Degisen CEVAP.json (7): parti-emrelic-0019 · 0030 · 0031 · 0034 · 0035 · 0037 · 0042. Her madde 2 satir diff, JSON 8/8 gecerli, commit yok. Rapor denetim/P15-DAMGA-0914.md (yan bulgular: Azemmur 1513-01-01 vs madde 09-01, Bagdat timurlu yil basi, iran 7->5 donem).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
