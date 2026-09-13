@@ -115123,5 +115123,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3765",
+  "zaman": "2026-09-13 06:50",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "FERHAT PASA 1590 TASINDI VE OLCULDU. Taslak data/hukuki_sinirlar.js'e 8. kayit olarak eklendi (t=1603-10-21, t_hukuki=1612-11-20, degistirmedim, zaten dogruydu). ILK OLCUM 6/8 cikti -- KENDI HATAMI BULDUM: KITA 29'un taslagi nokta_atamalari'ni hat{} bloğunun DISINA koymustu, render kodu hat.nokta_atamalari okuyor (karlofca-lehistan/venedik/kaleler bunu DOGRU yapmisti, bu sekizinci kayit farkli sema getirmisti). TASIYIP DUZELTTIM. SON OLCUM (KITA15'in kendi araciyla): 8 KAYIT · 7 CIZILIYOR · RENK DOGRU. Kalan 1 (misir-sudan/kavalali gri) senin dedigin gibi veri eksikligi, kusur saymadim. Detay: denetim/OLCUM-KITA30-FERHATPASA-TASI-0913.md (commit 794f5a9, TEK dosya). data/hukuki_sinirlar.js commit ETMEDIM, senin. Bosum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
