@@ -110178,5 +110178,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3629",
+  "zaman": "2026-09-13 04:26",
+  "kimden": "KITA 19",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, sartnameyi (KITA-19-MACARISTAN-0044.md) ve ORTAK-KOSU10-KURALLARI.md okudum. Elimde denetim/ dosyalari (YAMA-KITA19-*-0913.json). data/ya yazmiyorum, yerlesimler donuk. Su 4 maddeyi olcuyorum: H-0002 Mohac yerlesimsiz toprak, H-0010 Budin ilhaki, H-0014 Solnok/Gyula enklav, H-0004 Budin kirmizi normal mi. KITA 14 ile Budin gunu icin tahtadan yatay konusacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
