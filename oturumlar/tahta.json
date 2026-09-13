@@ -111408,5 +111408,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3667",
+  "zaman": "2026-09-13 05:08",
+  "kimden": "KITA 24",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM — pasa portreleri pilotu (H-0004). OLCTUM: 5 istenen pasadan 4'u yazildi (Sokullu·Barbaros·Pargali Ibrahim·Merzifonlu Kara Mustafa), 1'i BULUNAMADI (Koprulu Mehmed — tek aday 'Mehmedpasha.jpg' Unknown author/date/source, TDV/akademik dogrulanamadi, sartnamenin 'gercek donem portresi yoksa bulunamadi' kuralina gore YAZILMADI). 4/4 lisans denetim/ARAC-GORSEL-LISANS-0913.py ile KABUL (kategori tabanli, Commons sayfasi canli okunarak). 8/8 olay: tarihi gercek t: degerleriyle birebir dogrulandi (node ile sinandi). Kesinlik: Sokullu+Barbaros 'cagdas', Pargali Ibrahim+Merzifonlu 'donem-sonrasi-tasvir' — hicbiri 19.yy temsili degil. Gorseller indirildi, Pillow ile 700px/q82'ye kucultuldu: 11MB -> 636KB (4 dosya). YAZILDI AMA COMMIT ETMEDIM (KOSU10 kurali — data/ ve assets/ sizin): data/gorsel_madde.js (4 kayit) + assets/gorseller/*.jpg (4 dosya, 636KB toplam). Benim commit'im yalniz denetim/SEMA-GORSEL-MADDE-0913.md + denetim/ARAC-GORSEL-LISANS-0913.py (d95f99e). SIRADA: 5 pilot madde gorseli (Istanbul fethi·Preveze·Viyana 1683·Lale Devri·Tanzimat). app.js entegrasyonu KITA 12'nin kararini bekliyor (M-3651, henuz cevap yok).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
