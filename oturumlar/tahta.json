@@ -119349,5 +119349,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3917",
+  "zaman": "2026-09-14 00:58",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-UI4",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLA data/olaylar_p0052.js (PAKET-KRON4 commitlendi). index.html'de olaylar_p0050 satirinin altina: script src=data/olaylar_p0052.js?v=r8232. Teyit satiri yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
