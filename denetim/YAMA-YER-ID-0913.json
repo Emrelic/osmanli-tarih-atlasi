@@ -1,0 +1,1028 @@
+{
+ "baslik": "H-0008 -- Kasim Hanligi + yer_id/yer_kon eksigi -- KITA 25, 2026-09-13",
+ "olcum_uyusmazligi": {
+  "sartname_iddiasi": "6190 maddenin 755'i (%12,2) ne yer_id ne yer_kon tasiyor",
+  "benim_olcumum": "iki bagimsiz yontemle: TOPLAM 6106-6166 madde, EKSIK 88 (%1,4) -- 8.6 kat fark",
+  "durum": "1.MURAT'a M-3668 ile BEKLETMEDEN bildirildi, cevap bekleniyor. Asagidaki yama BENIM olctugum 88 kayit uzerine kuruludur; 755 sayisi farkli bir olcut/kapsamdan geliyorsa (orn. arsiv dosyalari, veya 'yer: metni de bos' gibi daha genis bir tanim) ayrica genisletilmesi gerekir."
+ },
+ "onemli_mimari_bulgu": "yer_id, js/app.js:7145-7150'de YALNIZ `sehirler` dizisine (data/sehirler.js, 79 kart) bakarak cozuluyor -- data/yerlesimler*.js'in 3833 noktasina DEGIL. Yani yer_id eklemek, o yer sehirler.js'de bir KART olarak yoksa ISE YARAMAZ. 88 kaydin `yer:` metinlerinden yalniz 'Belgrad' ve 'Sofya' zaten sehirler.js'de kart olarak var; geri kalani (Viyana, Budapeşte, Kasimov, Honolulu, Kabil, Hive, Buhara ... hicbiri) YOK. Bu yuzden asagidaki oneriler yer_id DEGIL, dogrudan calisan yer_kon:[lat,lon] cifti olarak verildi -- sehirler.js'e bagli degil, hemen uygulanabilir.",
+ "kova_sayilari": {
+  "zaten-dogru": 54,
+  "tek-yer-yerkon-onerisi": 20,
+  "cok-yer-kapsamgenis-onerisi": 14
+ },
+ "kasim_hanligi_ornegi": {
+  "kunye": "devletler.js id:kasim, ad:'Kasım Hanlığı (Kasimov)', f:1452-01-01, t:1681-01-01, baskent:Kasimov -- KUNYE ZATEN VAR VE DOGRU.",
+  "harita_noktasi": "yerlesimler_h2_rusya.js:283 -- Kasimov, lat:54.945, lon:41.393 -- NOKTA ZATEN VAR.",
+  "sorun_1": "Bu noktanin s: (sahiplik) dizisi 1281-1917 arasini hep 'altinorda'->'moskova'->'rusya' olarak boyuyor; 1452-1681 penceresi HIC 'kasim' olarak boyanmiyor (yerlesimler DONUK, KITA 25 dokunamaz -- bu dosyanin kendi ic yorumu 'renk gelirse... penceresi buraya girer, koordinatore bildirildi' diyor, YANI BU BILINEN BIR BORC).",
+  "sorun_2_h0008": "olaylar_ek8.js'deki 3 kronoloji maddesi (1468,1573,1609) yer:'Kasimov' DUZ METIN tasiyor ama yer_id/yer_kon YOK -- odak calismiyor. yer_kon:[54.945,41.393] eklenirse (Kasimov noktasiyla BIREBIR dogrulanmis) ODAK HEMEN CALISIR, sehirler.js'e ihtiyac YOK."
+ },
+ "kayitlar": [
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1381-01-01",
+   "b": "Timur'un İran seferleri başladı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1578-01-01",
+   "b": "Osmanlı-Safevî Savaşı başladı (1590'a dek)",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1598-01-01",
+   "b": "Gulâm ordu reformu — Kızılbaş gücünün dengelenmesi",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1723-06-24",
+   "b": "Osmanlı, İran'ın batı topraklarını işgale başladı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1750-01-01",
+   "b": "Kerim Han Zend'in yükselişi başladı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1826-07-19",
+   "b": "İkinci Rus-İran Savaşı başladı (1828'e dek)",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1891-12-01",
+   "b": "Tütün İsyanı — büyük fetva ve kitlesel boykot",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1907-08-31",
+   "b": "1907 İngiliz-Rus Antlaşması — İran nüfuz bölgelerine bölündü",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1555-01-01",
+   "b": "İran halı ve ipek dokuma sanayii zirveye ulaştı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1618-09-26",
+   "b": "Osmanlı-Safevî Savaşı (Nasuh Paşa sonrası) yeniden alevlendi",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1600-01-01",
+   "b": "İpek ticareti devlet tekeline alındı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1699-01-01",
+   "b": "Belûc ve Afgan sınır boylarında merkezî otoritenin zayıflaması",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1730-01-01",
+   "b": "Osmanlı ile savaş yeniden başladı (1736'ya dek, aralıklı)",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1873-01-01",
+   "b": "Nâsırüddin Şah'ın ilk Avrupa seyahati",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1909-04-14",
+   "b": "Anglo-Persian Oil Company kuruldu",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1917-01-01",
+   "b": "1917-1919 büyük kıtlığı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_iran.js",
+   "t": "1922-01-01",
+   "b": "Şeyh Hazal ve Simko Kürt isyanlarının bastırılması",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_isvec.js",
+   "t": "1434-01-01",
+   "b": "Engelbrekt İsyanı başladı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_isvec.js",
+   "t": "1521-01-01",
+   "b": "Gustav Vasa'nın ayaklanması Dalarna'da başladı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_isvec.js",
+   "t": "1587-01-01",
+   "b": "Osmanlı ile ilk resmî temas — Kral Sigismund'un mektubu",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_isvec.js",
+   "t": "1632-11-06",
+   "b": "Axel Oxenstierna naipliği fiilen başladı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_isvec.js",
+   "t": "1655-01-01",
+   "b": "Kristina, Katolikliğe geçip Roma'ya yerleşti",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_isvec.js",
+   "t": "1700-01-01",
+   "b": "Büyük Kuzey Savaşı başladı",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_isvec.js",
+   "t": "1714-10-11",
+   "b": "XII. Karl, Osmanlı topraklarından ayrılıp Avrupa'ya döndü",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\kronoloji_isvec.js",
+   "t": "1901-01-01",
+   "b": "İlk Nobel Ödülleri verildi",
+   "yer": "",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar.js",
+   "t": "1877-04",
+   "b": "93 Harbi (1877–78 Osmanlı-Rus Savaşı)",
+   "yer": "Tuna ve Kafkas cepheleri",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar.js",
+   "t": "1912-10",
+   "b": "Balkan Savaşları başladı",
+   "yer": "Rumeli",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar.js",
+   "t": "1914-11",
+   "b": "I. Dünya Savaşı'na giriş",
+   "yer": "Karadeniz / İstanbul",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek.js",
+   "t": "1330-01-01",
+   "b": "Osmanlı-Aydın-Saruhan ittifakı",
+   "yer": "Batı Anadolu",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek.js",
+   "t": "1305-06-01",
+   "b": "Katalan birliklerinin Anadolu seferi",
+   "yer": "Batı Anadolu",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek.js",
+   "t": "1421-08-15",
+   "b": "Düzmece Mustafa ayaklanması",
+   "yer": "Rumeli",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek10.js",
+   "t": "1594-10-05",
+   "b": "Üç voyvodalığın birden ayaklanması — Erdel, Eflak ve Boğdan Kutsal İttifak'a giriyor",
+   "yer": "Erdel, Eflak ve Boğdan voyvodalıkları",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek10.js",
+   "t": "1912-10-23",
+   "b": "Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı",
+   "yer": "Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1432-06-01",
+   "b": "Tımar sisteminin kurumsallaşması",
+   "yer": "(genel, merkezi Osmanlı toprakları)",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1421-06-01",
+   "b": "Devşirme sisteminin fiilen uygulanmaya başlaması",
+   "yer": "(genel)",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1830-12-01",
+   "b": "Osmanlı'da ilk düzenli nüfus sayımının yapılması",
+   "yer": "Anadolu ve Rumeli",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1859-06-01",
+   "b": "Kırım Tatarları ve Kafkas halklarının Osmanlı topraklarına büyük göç dalgasının başlaması",
+   "yer": "Kırım, Kafkasya → Osmanlı toprakları",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek14.js",
+   "t": "1864-07-01",
+   "b": "Büyük Çerkes Sürgünü'nün doruk noktası",
+   "yer": "Kafkasya → Osmanlı toprakları (Anadolu, Balkanlar, Suriye)",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1807-07-09",
+   "b": "Tilsit Antlaşması — Prusya topraklarının yarısını kaybetti, Varşova Dukalığı kuruldu",
+   "yer": "Tilsit",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     55.0864,
+     21.8892
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek20.js",
+   "t": "1648-10-24",
+   "b": "Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü",
+   "yer": "Münster ve Osnabrück",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {"kapsam_genis": true},
+   "gerekce": "Vestfalya Barisi IKI ayri sehirde (Munster + Osnabruck) ayni anda muzakere edildi -- 've' baglaciyla yazilmis coklu-yer, tek nokta yerine kapsam_genis:true onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek22.js",
+   "t": "1794-01-01",
+   "b": "Zend hânedanının sonu — İran'da Kaçar hâkimiyeti",
+   "yer": "Kirman",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     30.2832,
+     57.0788
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek3.js",
+   "t": "1402-08-01",
+   "b": "Şehzadeler arasında ülkenin bölünmesi",
+   "yer": "Anadolu ve Rumeli",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek4.js",
+   "t": "1816-09-01",
+   "b": "İbrâhim Paşa Necid seferine çıktı",
+   "yer": "Necid",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek4.js",
+   "t": "1841-02-25",
+   "b": "Mısır ordusu Suriye ve Çukurova'yı boşalttı",
+   "yer": "Suriye, Adana, Girit",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1821-02-22",
+   "b": "Eflak İsyanı — Ypsilanti'nin Prut'u geçmesi ve Vladimirescu ayaklanması",
+   "yer": "Eflak (Bükreş ve Yaş)",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1827-02-01",
+   "b": "Tımar sisteminin tasfiyesi",
+   "yer": "Rumeli ve Anadolu (53 sancak)",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1828-04-26",
+   "b": "1828-1829 Osmanlı-Rus Savaşı'nın başlaması",
+   "yer": "Tuna ve Kafkas cepheleri",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1860-05-30",
+   "b": "Cebel-i Lübnan'da Dürzî-Mârûnî iç savaşı ve Şam olayları",
+   "yer": "Cebel-i Lübnan, Şam",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1861-06-09",
+   "b": "Cebel-i Lübnan Nizamnâmesi: Lübnan'a imtiyazlı mutasarrıflık statüsü",
+   "yer": "Cebel-i Lübnan",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1868-01-04",
+   "b": "Girit Nizamnâmesi: adaya geniş idarî imtiyazlar",
+   "yer": "Girit (Hanya, Kandiye)",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1903-10-02",
+   "b": "Mürzsteg Programı: Makedonya'da uluslararası reform denetimi",
+   "yer": "Makedonya (Selanik, Manastır, Kosova vilâyetleri)",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1910-04-01",
+   "b": "Arnavutluk İsyanı: Kosova ve İşkodra'da silahlı direniş",
+   "yer": "Kosova, İşkodra, Priştine, Üsküp",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1913-06-29",
+   "b": "II. Balkan Savaşı'nın başlaması: müttefiklerin paylaşım kavgası",
+   "yer": "Makedonya, Trakya",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1914-10-29",
+   "b": "Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması",
+   "yer": "Odessa, Sivastopol, Novorossiysk (Karadeniz)",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek5.js",
+   "t": "1915-05-27",
+   "b": "Sevk ve İskân (Tehcir) Kanunu'nun çıkarılması",
+   "yer": "Doğu Anadolu, Suriye, Musul",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1834-07-08",
+   "b": "Redif-i Asâkir-i Mansûre teşkilatı kuruldu",
+   "yer": "İstanbul ve taşra",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek7.js",
+   "t": "1387-11-01",
+   "b": "Timur'un İran'ın büyük bölümünü hakimiyeti altına alması",
+   "yer": "Horasan, Mâzenderan, İran'ın iç bölgeleri",
+   "kapsam_genis": true,
+   "kova": "zaten-dogru",
+   "oneri": null,
+   "gerekce": "kapsam_genis:true zaten isaretli -- app.js bunu KASITLI genis-olcek olarak okuyor (imparatorluk govdesine odaklanir), yer_id EKSIKLIGI DEGIL, kusur yok."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1819-11-01",
+   "b": "ʻAi Noa — Hawaii'de geleneksel kapu sisteminin sona erdirilmesi",
+   "yer": "Kailua-Kona, Hawaii adası",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1840-10-08",
+   "b": "Hawaii'nin ilk yazılı anayasası ilan edildi",
+   "yer": "Honolulu",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     21.3069,
+     -157.8583
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1887-07-06",
+   "b": "Süngü Anayasası — Kral Kalākaua'nın yetkileri budandı",
+   "yer": "Honolulu",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     21.3069,
+     -157.8583
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1894-07-04",
+   "b": "Hawaii Cumhuriyeti ilan edildi",
+   "yer": "Honolulu",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     21.3069,
+     -157.8583
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1893-02-18",
+   "b": "I. George Tupou'nun ölümü, II. George Tupou'nun tahta çıkışı (Tonga)",
+   "yer": "Nukuʻalofa",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     -21.1394,
+     -175.2018
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1918-04-05",
+   "b": "II. George Tupou'nun ölümü, Sālote Tupou III'ün tahta çıkışı (Tonga)",
+   "yer": "Nukuʻalofa",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     -21.1394,
+     -175.2018
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1893-09-19",
+   "b": "Yeni Zelanda kadınlara oy hakkı tanıyan ilk kendi kendini yöneten ülke oldu",
+   "yer": "Wellington",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     -41.2865,
+     174.7762
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1901-06-11",
+   "b": "Yeni Zelanda sınırları Cook Adaları ve Niue'yi kapsayacak şekilde genişledi",
+   "yer": "Rarotonga / Cook Adaları, Niue",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1468-01-01",
+   "b": "Kâsım Han'ın ölümü, Danyal Han'ın tahta çıkışı (Kasım Hanlığı)",
+   "yer": "Kasimov",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     54.945,
+     41.393
+    ]
+   },
+   "gerekce": "DOGRULANDI: yerlesimler_h2_rusya.js'deki Kasimov noktasiyla birebir ayni (54.945,41.393)."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1573-01-01",
+   "b": "Kasım Hanlığı hükümdarının Hıristiyanlığa geçişi ve hanlıktan alınması",
+   "yer": "Kasimov / Moskova",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1609-01-01",
+   "b": "Rus kuvvetlerinin Kasım şehrini zaptı, Uraz Muhammed Han",
+   "yer": "Kasimov",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     54.945,
+     41.393
+    ]
+   },
+   "gerekce": "DOGRULANDI: yerlesimler_h2_rusya.js'deki Kasimov noktasiyla birebir ayni (54.945,41.393)."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1921-08-14",
+   "b": "Tannu Tuva Halk Cumhuriyeti bağımsızlığını ilan etti",
+   "yer": "Tuva",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     51.7191,
+     94.4378
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1922-03-03",
+   "b": "Tannu Tuva hükûmeti fiilen göreve başladı",
+   "yer": "Tuva",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     51.7191,
+     94.4378
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1923-10-12",
+   "b": "Tannu Tuva'nın ilk Büyük Kurultayı toplandı",
+   "yer": "Tuva",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     51.7191,
+     94.4378
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1793-05-20",
+   "b": "Timur Şah'ın ölümü, Zaman Şah'ın cülûsu (Dürrânî Devleti)",
+   "yer": "Kabil",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     34.5553,
+     69.2075
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1920-04-26",
+   "b": "Hârizm Halk Cumhuriyeti ilan edildi",
+   "yer": "Hive",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     41.3775,
+     60.3617
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1921-09-05",
+   "b": "Hârizm Sovyet Sosyalist Cumhuriyeti'ne dönüşüm",
+   "yer": "Hive",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     41.3775,
+     60.3617
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1920-10-08",
+   "b": "Buhara Halk Sovyet Cumhuriyeti ilan edildi",
+   "yer": "Buhara",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     39.7747,
+     64.4286
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1921-09-01",
+   "b": "Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi",
+   "yer": "Buhara",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     39.7747,
+     64.4286
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ek8.js",
+   "t": "1924-01-01",
+   "b": "Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayla sona ermesi — Özbekistan/Tür",
+   "yer": "Hive, Buhara, Taşkent",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1918-10-28",
+   "b": "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet",
+   "yer": "Prag, Bratislava, Kassa (Košice)",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1918-10-30",
+   "b": "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği",
+   "yer": "Viyana, Graz",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1918-10-31",
+   "b": "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi",
+   "yer": "Budapeşte",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     47.4979,
+     19.0402
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1918-11-03",
+   "b": "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti",
+   "yer": "Padova (Villa Giusti), Trento, Trieste",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1918-11-11",
+   "b": "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor",
+   "yer": "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1918-11-18",
+   "b": "İmparator Karl'ın çekilişi — Habsburg hânedanının sonu",
+   "yer": "Viyana",
+   "kapsam_genis": false,
+   "kova": "tek-yer-yerkon-onerisi",
+   "oneri": {
+    "yer_kon": [
+     48.2082,
+     16.3738
+    ]
+   },
+   "gerekce": "Genel cografya bilgisinden yaklasik sehir-merkezi koordinati -- TDV kaynagi DEGIL, sadece konum; KITA 14/koordinator spot-check onerilir."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1918-12-01",
+   "b": "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet",
+   "yer": "Belgrad, Zagreb, Saraybosna, Erdel, Suçava, Çernovitz",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1919-09-10",
+   "b": "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti",
+   "yer": "Saint-Germain-en-Laye, Viyana",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1920-06-04",
+   "b": "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti",
+   "yer": "Trianon (Versailles), Budapeşte",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1919-06-28",
+   "b": "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü",
+   "yer": "Versailles, Strazburg, Metz, Colmar, Mulhouse",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  },
+  {
+   "dosya": "data\\olaylar_ok109.js",
+   "t": "1919-11-27",
+   "b": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+   "yer": "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
+   "kapsam_genis": false,
+   "kova": "cok-yer-kapsamgenis-onerisi",
+   "oneri": {
+    "kapsam_genis": true
+   },
+   "gerekce": "Olay birden fazla ayri yerde/bolgede geciyor (virgul/egik-cizgi ile listelenmis) -- tek nokta yerine kapsam_genis:true onerilir, App.js zaten bu bayragi taniyor."
+  }
+ ]
+}
