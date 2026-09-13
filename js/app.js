@@ -1997,6 +1997,13 @@ harita.on("load", function () {
     // ÇİZİM KATMANI kurulumu), bu satır yalnız "bu ÇİZGİ nedir"i söylüyor.
     '<div class="lejant-baslik">Belgeli sınır (C — antlaşma metninden)</div>' +
     '<span><b class="lj-sim" style="border-bottom:2px dashed #1a1a1a;padding-bottom:1px">▬▬</b> tıklayınca kaynağı gösterir</span>' +
+    // 🆕 13 Eylül 2026 — HALKA-TIKLAMA: ⑧ açıkken görünen halkanın lejant
+    // satırı. Görünürlüğü `kaynakliHalkaAc` yönetir (`el.hidden`); ⑧ KAPALIYKEN
+    // haritada halka yok, satır da yok.
+    '<div id="lejant-halka" hidden>' +
+      '<div class="lejant-baslik">Kaynaklı sahiplik (⑧)</div>' +
+      '<span><b class="lj-sim lj-halka">◯</b> Kaynakla kesinleşmiş sahiplik (devlet renginde halka) — şehre tıklayınca kaynak ve alıntı</span>' +
+    '</div>' +
     '';
   document.getElementById("harita").appendChild(lejant);
 
@@ -2052,7 +2059,12 @@ harita.on("load", function () {
       paint: { "circle-radius": _khYaricap, "circle-opacity": 0,
                "circle-stroke-color": ["get", "renk"], "circle-stroke-width": _khKalinlik } });
     harita.on("click", "halka-kaynakli", function (e) {
-      _khPopupAc(e.features[0].properties.yer, e.lngLat);
+      var yer = e.features[0].properties.yer;
+      // HALKA-TIKLAMA: genel harita tıklaması bu yerin şehir görünümünü zaten
+      // açtıysa (blok orada) popup AÇILMAZ. İşaretçisi olmayan / başka bir
+      // şehrin açıldığı tıklamada popup eskisi gibi açılır.
+      if (e.originalEvent && e.originalEvent._khYerlesim === yer) return;
+      _khPopupAc(yer, e.lngLat);
     });
     harita.on("mouseenter", "halka-kaynakli", function () { harita.getCanvas().style.cursor = "pointer"; });
     harita.on("mouseleave", "halka-kaynakli", function () { harita.getCanvas().style.cursor = ""; });
@@ -4038,6 +4050,9 @@ function koridorKur() {
     // 🔴 EŞİK: 150 km'den uzaksa AÇMA. Boş okyanusa tıklayınca 900 km
     //    öteki bir şehri açmak, cevap değil GÜRÜLTÜdür.
     if (b.km > 150) return;
+    // HALKA-TIKLAMA: halka katmanının tıklayıcısı aynı yerin popup'ını
+    // AÇMASIN — kaynak bloğu şehir görünümüne basılıyor (kaynakliHalkaSehirBlogu).
+    if (ev.originalEvent) ev.originalEvent._khYerlesim = b.y.ad;
     dizinPencere.classList.remove("gizli");
     dizinDoldur("yerlesimler");        // `_yerlesimAc`ı atar
     if (_yerlesimAc) _yerlesimAc(b.y);
@@ -5508,6 +5523,10 @@ function _hukukiSinirGuncelle(gun) {
   if (!aktif.length) {
     harita.getSource("hukuki-sinir-dolgu").setData(bosVeri());
     harita.getSource("hukuki-sinir-hat").setData(bosVeri());
+    // 🔴 13 Eylül 2026 (HALKA-TIKLAMA) — nokta kaynağı burada BOŞALTILMIYORDU:
+    // son kayıt penceresinden çıkınca kırmızı noktalar ekranda KALIYORDU.
+    var _nBos = harita.getSource("hukuki-sinir-nokta");
+    if (_nBos) _nBos.setData(bosVeri());
     return;
   }
   var dolguFeat = [], hatFeat = [], noktaFeat = [];
@@ -5555,7 +5574,9 @@ function _hukukiSinirGuncelle(gun) {
 //   "yetim" öter. Yeni üretici: yalnız bu diziye bir satır.
 var _KAYNAKLI_HALKA_DOSYA_ADLARI = [
   "kaynakli_halka_ferhatpasa",  // window.KAYNAKLI_HALKA_FERHATPASA — Ferhat Paşa 1590 kolları
-  "kaynakli_halka_tekil"        // window.KAYNAKLI_HALKA_TEKIL — Malaka · Kotur · Bargiri
+  "kaynakli_halka_tekil",       // window.KAYNAKLI_HALKA_TEKIL — Malaka · Kotur · Bargiri
+  "kaynakli_halka_kronoloji"    // window.KAYNAKLI_HALKA_KRONOLOJI — HALKA-KRONOLOJI (M-3796) yazıyor;
+                                // dosya henüz yoksa yükleyici onerror'da SESSİZ atlar
 ];
 var KHALKA = { acik: false, yuklendi: false, deneniyor: false, bekleyen: [],
                sonGun: null, sonAnahtar: null, cizilen: 0, yerSayisi: 0, atlanan: [] };
@@ -5774,16 +5795,25 @@ function _khTarihYazi(k) {
   return bir(k.f, _khKes(k, "f")) + " → " + bir(k.t, _khKes(k, "t"));
 }
 var _KH_TUR_ADI = { dogrudan: "doğrudan", tabi: "tâbi", isgal: "işgal" };
-function _khPopupAc(yerAnahtari, lngLat) {
-  var liste = _khAktifler(KHALKA.sonGun).filter(function (k) {
+// Bir yerin (yer anahtarı = atlas `ad`ı ya da "@lat,lon") BUGÜNKÜ tanıklıkları.
+// ⑧ KAPALIYSA ya da dosyalar yüklenmediyse BOŞ döner — halka görünmüyorken
+// kaynak bloğu da görünmez.
+function _khYerTaniklari(yerAnahtari) {
+  if (!KHALKA.acik || !KHALKA.yuklendi || KHALKA.sonGun == null) return [];
+  return _khAktifler(KHALKA.sonGun).filter(function (k) {
     var kon = _khKonum(k);
     return kon && _khYerAnahtari(k, kon) === yerAnahtari;
   });
-  if (!liste.length) return;
+}
+// Tanıklık listesinin HTML'i — popup ve şehir görünümü AYNI metni basar
+// (D045: ikinci bir biçimlendirici değil, aynı biçimlendiricinin ikinci
+// kullanıcısı). `baslikAd` verilmezse yer adı yazılmaz (şehir görünümünde
+// ad zaten başlıkta).
+function _khBlokHtml(liste, baslikAd) {
   var devletler = [];
   liste.forEach(function (k) { if (devletler.indexOf(k.devlet) < 0) devletler.push(k.devlet); });
-  var ad = yerAnahtari.charAt(0) === "@" ? "(konum " + yerAnahtari.slice(1) + ")" : yerAnahtari;
-  var h = '<div class="kh-baslik"><b>' + ekEsc(ad) + '</b><span>kaynakla kesinleşmiş sahiplik</span></div>';
+  var h = '<div class="kh-baslik">' + (baslikAd ? '<b>' + ekEsc(baslikAd) + '</b>' : '') +
+          '<span>Kaynakla kesinleşmiş sahiplik — bu tarihte ' + liste.length + ' tanıklık</span></div>';
   if (devletler.length > 1) {
     h += '<div class="kh-celiski">⚠ ÇELİŞKİ — bu tarihte ' + devletler.length +
          ' devlet: ' + devletler.map(function (d) { return ekEsc(_khDevletAdi(d)); }).join(" · ") + '</div>';
@@ -5803,8 +5833,43 @@ function _khPopupAc(yerAnahtari, lngLat) {
       (k.not ? '<div class="kh-not">' + ekEsc(k.not) + '</div>' : '') +
       '</div>';
   });
-  new maplibregl.Popup({ closeButton: true, maxWidth: "340px", className: "kh-popup" })
-    .setLngLat(lngLat).setHTML(h).addTo(harita);
+  return h;
+}
+var _khSonPopup = null;   // { yer, popup } — şehir görünümü aynı yeri açarsa kapatılır
+function _khPopupAc(yerAnahtari, lngLat) {
+  var liste = _khYerTaniklari(yerAnahtari);
+  if (!liste.length) return null;
+  var ad = yerAnahtari.charAt(0) === "@" ? "(konum " + yerAnahtari.slice(1) + ")" : yerAnahtari;
+  var p = new maplibregl.Popup({ closeButton: true, maxWidth: "340px", className: "kh-popup" })
+    .setLngLat(lngLat).setHTML(_khBlokHtml(liste, ad)).addTo(harita);
+  _khSonPopup = { yer: yerAnahtari, popup: p };
+  return p;
+}
+// 🆕 HALKA-TIKLAMA (13 Eylül 2026) — ŞEHİR GÖRÜNÜMÜ BLOĞU.
+// Koordinatörün gerçek tarayıcı sınavı: 1595-06-15, ⑧ AÇIK, Tebriz'e
+// tıklandı → halka penceresi DEĞİL "Yerleşim Kronolojileri" açıldı. Şehir
+// işaretçisi DOM elemanı; tıklama haritanın genel `click`ine (T-0126 ters
+// sorgu) gidiyor ve o kronoloji penceresini açıyor. Kaynak alıntısı
+// kullanıcıya ULAŞMIYORDU. ⇒ Aynı blok o pencerenin BAŞINA basılır.
+// Tanıklık yoksa (⑧ kapalı / bu tarihte kayıt yok) null döner, hiçbir şey
+// eklenmez — mevcut şehir görünümü aynen kalır.
+function kaynakliHalkaSehirBlogu(yerAdi) {
+  var liste = _khYerTaniklari(yerAdi);
+  if (!liste.length) return null;
+  var d = document.createElement("div");
+  d.className = "kh-blok";
+  d.setAttribute("data-kh-yer", yerAdi);
+  d.innerHTML = _khBlokHtml(liste, null) +
+    '<div class="kh-not">Tarih: ' + ekEsc(_khGunYazi(KHALKA.sonGun)) +
+    ' · halkalar ⑧ ayarıyla açılıp kapanır</div>';
+  // Aynı yer için canvas popup'ı da açıldıysa (tıklama halka katmanına da
+  // düştüyse) kapat — bilgi iki kez görünmesin.
+  if (_khSonPopup && _khSonPopup.yer === yerAdi) { _khSonPopup.popup.remove(); _khSonPopup = null; }
+  return d;
+}
+function _khGunYazi(gun) {                // gün indeksi → "15 Haziran 1595"
+  var t = idxTarih(gun);
+  return t.g + " " + AYLAR[t.a - 1] + " " + t.y;
 }
 
 // ---- AYAR — katman seçicide, varsayılan KAPALI, tercih hatırlanır ------------
@@ -5813,8 +5878,25 @@ function _khPopupAc(yerAnahtari, lngLat) {
 // kutusunun görünürlük kararıyla ÇAKIŞMAZ — Siyasî kapalıyken halka da
 // görünmez (katman `halka-` öneki ile o kovada), ama bu ayar KAPALIYKEN
 // Siyasî'nin açılması halkayı GERİ GETİRMEZ (kaynak boş).
+// 🆕 HALKA-TIKLAMA (13 Eylül 2026) — ⑧ AÇIKKEN eski C nokta işaretlerinden
+// halka sistemine GÖÇMÜŞ olanları gizle. `ferhad-pasa-istanbul-1590` kaydının
+// `hat.nokta_atamalari` kırmızı daireleri (`hukuki-sinir-nokta`) aynı şehirlere
+// halkalarla ÇİFT işaret düşürüyordu (KAYNAKLI-HALKA-ALTYAPI-0913 §⑤-1).
+// Veri SİLİNMEZ, yalnız katman süzgeci: ⑧ KAPALIYKEN süzgeç kalkar, noktalar
+// eskisi gibi döner. Karlofça ve öteki nokta-kümesi kayıtları ETKİLENMEZ.
+// Yeni bir kayıt göçerse: yalnız bu diziye id.
+var _KH_GOCMUS_C_KAYITLARI = ["ferhad-pasa-istanbul-1590"];
+function _khCNoktaSuzgeci() {
+  if (typeof harita === "undefined" || !harita.getLayer || !harita.getLayer("hukuki-sinir-nokta")) return;
+  harita.setFilter("hukuki-sinir-nokta", KHALKA.acik
+    ? ["!", ["in", ["get", "kayit_id"], ["literal", _KH_GOCMUS_C_KAYITLARI]]]
+    : null);
+}
 function kaynakliHalkaAc(acik) {
   KHALKA.acik = !!acik;
+  _khCNoktaSuzgeci();
+  var lj = document.getElementById("lejant-halka");
+  if (lj) lj.hidden = !KHALKA.acik;
   if (KHALKA.acik) kaynakliHalkaYukle(function () { kaynakliHalkaGuncelle(null, true); });
   kaynakliHalkaGuncelle(null, true);
 }
@@ -6105,6 +6187,14 @@ function dizinDoldur(sekme) {
                       (y.tur ? " · " + y.tur : "") + (y.kur ? " · kuruluş " + y.kur.slice(0, 4) : "");
       liste.appendChild(h);
 
+      // 🆕 HALKA-TIKLAMA (13 Eylül 2026) — ⑧ açık ve bu tarihte bu yere
+      // tanıklık varsa kaynak bloğu EN ÜSTE (bkz. kaynakliHalkaSehirBlogu).
+      // Yoksa null — görünüm eskisi gibi.
+      try {
+        var _kh = (typeof kaynakliHalkaSehirBlogu === "function") ? kaynakliHalkaSehirBlogu(y.ad) : null;
+        if (_kh) liste.appendChild(_kh);
+      } catch (e) { console.error("[kaynakliHalka] şehir bloğu basılamadı:", e); }
+
       // 🆕 T-0126 — ZAMAN ÇUBUĞU. Listenin YERİNE değil ÜSTÜNE: çubuk
       // "ne zaman kimde" sorusunu bir bakışta, liste ise TAM tarihlerle
       // cevaplıyor. İkisi iki ayrı soru.
@@ -6179,6 +6269,13 @@ function dizinDoldur(sekme) {
       }
     }
     arama.addEventListener("input", function () { ciz(arama.value); });
+    // 🔴 HALKA-TIKLAMA (13 Eylül 2026) — `_yerlesimAc` yalnız `detay`ın
+    // İÇİNDE atanıyordu, yani detay hiç açılmadan önce null kalıyordu.
+    // Haritadaki şehir tıklaması (T-0126, `if (_yerlesimAc) _yerlesimAc(b.y)`)
+    // bu yüzden şehri DEĞİL "Bütün yerleşimler" listesini açıyordu — ölçüldü:
+    // 1595-06-15 Tebriz tıklaması, `typeof _yerlesimAc` → null. Sekme
+    // doldurulur doldurulmaz atanır; `detay` içindeki atama da yerinde kalır.
+    _yerlesimAc = detay;
     ciz("");
   } else if (sekme === "devletler") {
     // 🔴 TESPİH KUŞAK 0/1 sessiz kayıp taraması (4 Ağustos, arac/denetle_gorunur.py

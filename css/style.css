@@ -2414,3 +2414,42 @@ body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
 .kh-popup .kh-alinti { font-style: italic; margin-top: 2px; }
 .kh-popup .kh-ozet { font-style: normal; font-size: 10px; color: #8a5a00; }
 .kh-popup .kh-not { font-size: 10.5px; opacity: 0.75; margin-top: 2px; }
+
+/* ── HALKA-TIKLAMA (13 Eylül 2026) — aynı tanıklık bloğu ŞEHİR GÖRÜNÜMÜNDE.
+   Şehir işaretçisi DOM elemanı ve tıklamayı GL halkasından önce alıyor;
+   kaynak bilgisi o yüzden şehrin açılan kronoloji penceresinin başına da
+   basılıyor. Sınıflar popup'la ortak (`.kh-*`), kapsayıcı `.kh-blok`. */
+.kh-blok {
+  font: 12px/1.4 -apple-system, "Segoe UI", sans-serif;
+  color: #2b1d0e;
+  background: #fbf6ea;
+  border: 1px solid #d9c9a3;
+  border-radius: 5px;
+  padding: 6px 8px;
+  margin: 4px 0 8px;
+}
+.kh-blok .kh-baslik b { font-size: 13px; color: #3a2a14; }
+.kh-blok .kh-baslik span {
+  display: block; font-size: 10.5px; opacity: 0.7; margin-bottom: 2px;
+}
+.kh-blok .kh-celiski {
+  background: #fde8c8; border: 1px solid #c8861a; border-radius: 4px;
+  padding: 3px 6px; margin: 4px 0; font-weight: 600; color: #7a3d00;
+}
+.kh-blok .kh-kayit {
+  border-left: 4px solid #555; padding: 2px 0 4px 7px; margin-top: 6px;
+}
+.kh-blok .kh-tur, .kh-blok .kh-gelenek {
+  display: inline-block; font-size: 10px; padding: 0 5px; border-radius: 3px;
+  background: #efe6d2; color: #4a3a22; vertical-align: 1px;
+}
+.kh-blok .kh-gelenek { background: #dfe8f1; color: #1f3a55; }
+.kh-blok .kh-tarih { font-weight: 600; margin-top: 1px; }
+.kh-blok .kh-kaynak { font-size: 11px; opacity: 0.85; }
+.kh-blok .kh-alinti { font-style: italic; margin-top: 2px; }
+.kh-blok .kh-ozet { font-style: normal; font-size: 10px; color: #8a5a00; }
+.kh-blok .kh-not { font-size: 10.5px; opacity: 0.75; margin-top: 2px; }
+/* lejant: ⑧ halka satırı — `hidden` özniteliği .lejant'ın flex düzenine yenilmesin */
+.lejant #lejant-halka { display: flex; flex-direction: column; gap: 4px; }
+.lejant #lejant-halka[hidden] { display: none; }
+.lejant b.lj-halka { color: #5f0011; font-weight: bold; }
