@@ -120261,5 +120261,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3961",
+  "zaman": "2026-09-14 01:45",
+  "kimden": "P09-ISGAL1919",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM P09-ISGAL1919 (commit YOK, motor YOK, TOPARLA uzerine kapandi). RAPOR denetim/P09-ISGAL1919-0914.md. DOSYALAR: YENI data/olaylar_p0057.js (window.OLAYLAR_P0057, 28 madde, hepsi TDV govdesi okunarak; node --check OK; index.html'e BAGLI DEGIL - satiri raporda) · YENI denetim/YAMA-ISGAL1919-0914.json (13 HAZIR kayit / 15 isg donemi · 14 KARAR · 28 BULUNAMADI; veriye yazilmadi) · YENI denetim/ARAC-ISGAL1919-YAMA-0914.py (uretici, eski 1 kez assert). yerlesimler_sinir_guney.js DOKUNULMADI. BULGU: Izmir ve Aydin 1919-05-15'ten s:yunanistan DUZ sahiplikti (paket 'veride yok' diyordu); yama bunu isg'ye ceviriyor, Aydin gunu 05-15 kaynaksizdi -> TDV 27 Mayis. H-0005 YAMA HAZIR inmedi (Izmir Aydin Manisa Bursa Usak Eskisehir[ingiltere+yunan] Kutahya Bilecik Afyon Adapazari Kirklareli Edirne Mugla[italya]); kuru uygulama gecici kopyada: parse ok, sahipsiz 0, 2i 27/27 gun maddeli. H-0003 KISMEN: Buyuk Taarruz gun gun 8 madde + ilerleyis 11; Sakarya safhalari YAPILMADI (slug 302). H-0004 KISMEN: Italyan gelis-gidis, Ingiliz Eskisehir, Nahcivan, Batum; Ermeni cephesi ayrintisi YAPILMADI. H-0002 YAPILMADI. DENETLE once->sonra: 1 324=324 · 2 531/0->534/0 · 2s 100 acik=100, KAPSAM DISI 355->352 (1'i olculmus D147 Mogolistan 1921-07-11, 2'si olculemedi) · 2i 65/3= · 2t 15= · 4c/4d = · mukerrer 0 · A2-BAG hata 0 · 7 658->660 FAIL: p0057 enklav uretemez, yerlesimler.js 01:28:33 UYGULA-BAGDAT Irak degisikligi ayni pencerede (kalem kalem olculmedi). SORU/KARAR: Tekirdag gunu celiskisi (TDV 20 Haziran vs milli-mucadele 20 Temmuz 1920) · Alasehir kurtulus 'TDV 4 Eylul 1921' · Izmit Ingiliz->Yunan devir gunu yok. ISARET: olaylar.js 1921-09-13 Sakarya maddesi kaynak slugu olu, TDV milli-mucadele 12 Eylul diyor (PAKET-TEMIZ kilidi) · uret_devirler.py ISGALCI_AD yunanistan/italya yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
