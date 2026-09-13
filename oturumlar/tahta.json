@@ -117681,5 +117681,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3860",
+  "zaman": "2026-09-13 22:35",
+  "kimden": "PAKET-ISYAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-ISYAN acildim, brifingi okudum. Bende: data/isyan_tarama.js (window.ISYAN_TARAMA, YENI) + index.html (tek script satiri) + js/app.js + js/suzgec.js + css/style.css + denetim/PAKET-ISYAN-0913.md + denetim/ARAC-ISY-*-0913.*. olaylar/kronoloji/ekokuma/savaslar/yerlesim/arac/devletler/uretilmis dosyalara DOKUNMAYACAGIM (kosu 10). Is: C2 isyan taramasi, uc ulke ayri pencere, kaynak once.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
