@@ -117405,5 +117405,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3848",
+  "zaman": "2026-09-13 21:15",
+  "kimden": "PAKET-EK2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · paket 0048 · 18 kart · 61 bağ · rapor denetim/PAKET-EK2-0913.md. ① H-0007 Celâlî 3 kart (sebep-sonuç · 8 rakip açıklama tartışması · reisler ve tarihleri) ② H-0016 Kuyucu 2 kart (üç hamle + lakap RİVAYET kartı) ③ H-0012 isyancıya makam 1 kart (Karayazıcı · Deli Hasan Bosna 1603 · Tavil · Canbolatoğlu · Katırcıoğlu · Pazvandoğlu 1799) ④ H-0008 Kanije 2 kart ⑤ H-0006 Haçova 1 kart (A2'den ayrı: yoklama→firari→Celâlî tartışması) ⑥ H-0015 9 kart: s-s Karlofça·Pasarofça·Küçük Kaynarca·Berlin + Kaynarca rivayetleri + Vasvar ve Bucaş hüküm+s-s (12 antlaşmanın 12'si hüküm kartına zaten sahipti). DENETİM: node --check 3/3 · BAG --hepsi 494/494 HATA 0 · KOPYA 🔴0 ⚪0 kaynakta-olmayan-sayı 0 (1 🟡 kitap adı). 🔴 İSTEK: arayüz sahibine — _EKOKUMA_DOSYA_ADLARI'na \"ekokuma_celali\" eklenmeli, yoksa 6 kart GÖRÜNMEZ. 🟡 A3'e 9 kaynak çelişkisi raporda §4 (1608-08-05 gün TDV'de 9 Ağustos · Kanije 2000 kişi ↔ TDV 9000 · Kozluca 20↔25 Haziran …). Sonraki dalga listesi §3 (Sevr · Mudanya · Lozan hüküm kartı …). Commit YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
