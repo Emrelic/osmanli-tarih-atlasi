@@ -726,6 +726,26 @@ noktalarının orta noktasıyla kuruldu, Kilitbahir ve Niğbolu maddelerinin tar
 sayım yapıldı. ⇒ **Atlası belgeye ölçü yapmak döngüseldir:** proje atlası belgeyle
 düzeltmek için var. Düzeltme listesi: `oturumlar/KOSU10-SONRASI.md` §5-0.
 
+### 🟢🔴 OKUDUĞUN KESİN SAHİPLİK TANIKLIĞINI KAYDA YAZ — "BAYRAK" KURALI (kullanıcı beyanı, 13 Eylül 2026)
+
+> *"Araştırmalarda, tarih okumalarında bir tarihte bir devletin emrinde olan şehirleri okuyunca
+> bu şehirlerin kayıtlarına bayrak koyarız — şehir etrafındaki o devletin harita rengindeki koyu
+> halka. … Tüm ülkelerin kronolojilerine göre yayalım ve tüm dünyaya yayalım."*
+
+```
+HER ARAŞTIRMA   bir kaynakta "şu yer, şu tarihte, şu devletin" KESİN okunduysa
+                → tanıklık kaydı: data/kaynakli_halka_<senin kısaltman>.js
+                  (window.KAYNAKLI_HALKA_<KISALTMA>; şema VERI-YAPISI.md son bölüm)
+ALAN            yer (tam yerleşim adı) ya da yer_kon · devlet · tur · f/t ya da tarih ·
+                kesinlik · kaynak {ad, sayfa|slug, alinti, gelenek} · not
+HALKA ALMAZ     örtülü · çıkarım · belirsiz · "…hariç" istisna cümlesi · bölge adından şehre
+                taşınan hüküm · atlasın kendi dönem kaydı (atlas referans değildir)
+ARALIK          yalnız TEK kaynak iki ucu da veriyor ya da süreklilik diyorsa; iki ayrı
+                kaynağın uçları BİRLEŞTİRİLMEZ (iki nokta kaydı yazılır)
+```
+📌 Halka harita dolgusundan bağımsızdır: halka ile dolgu çelişirse **atlasın düzeltilecek yeri**
+görünür olur. Ayar: katman menüsü ⑧ (varsayılan kapalı). Altyapı: 741ffb2.
+
 ### 🔴🔴 KIRMIZI ÇİZGİ — DIŞARI ÇIKINCA NEREYE (kullanıcı beyanı, 9 Ağustos 2026)
 
 > *"TDV dışına çıkabilirsin ama gideceğin kaynaklar **AKADEMİK, GÜVENİLİR ve

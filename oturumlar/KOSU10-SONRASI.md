@@ -30,6 +30,15 @@ sonraki durumdan türetilir).
           368079 Bilge Nahçıvan sancağı · 3367835 Köse 2024 Eçmiyazin ·
           5211254 Ceribaş 2025 serhad · cahij.com makale_id=23067 İslamoğlu 2015 (özet)
           PDF pasaj aleti: denetim/ARAC-KITA29-BELGEPASAJ-0913.py
+3b. [ ] **Ferhat Paşa bütün cephe** (kaynak raporları commit'li; Emre kararları BEKLİYOR):
+       `YAMA-FERHATPASA-SEHIR-MATRISI-0913.json` (kuzey: Merend kaynaklı OSM · Selmas/Gümrü örtülü) ·
+       `YAMA-FERHATPASA-GUNEY-0913.json` (Hemedan OSM dönemi SİL · Burucird SİL · Luristan bitiş ·
+       Nihavend f 1588/89) · `YAMA-0047-FERHATPASA-BATI-0913.json` (Kasr-ı Şirin · Merivan · Bane ·
+       Mahabad kaynaklı; Sakız · Serdeşt örtülü) · `YAMA-AHAR-SARAB-MIYANE-0913.json` (Ahar A/B kararı ·
+       Sarab BEKLET · Miyane OSM SİL) · `YAMA-NIHAVEND-BAGLANTI-0913.json` (Y1-Y4 + 6 madde isteği)
+       🔴 §5-0 kuralı: bu yamalardaki komşudan devralınmış günler UYGULANMADAN önce yeniden kaynaklanır.
+       🔴 Sınır çizgisi (`ferhad-pasa-1590-sinir-hatti`) 1592/93'te ikiye bölünecek (Ahar · Luristan);
+       Nihavend 1589-92 Luristan üzerinden bağlı, 1592/94-1603 enklav.
 4. [ ] `denetim/YAMA-CIZRE-BOHTAN-0913.json` — KITA 16 (künye taslağı)
 5. [ ] `denetim/YAMA-KARTLI-KAHETI-0912.json` — KITA 16 (künye f 1490 t 1762)
 
