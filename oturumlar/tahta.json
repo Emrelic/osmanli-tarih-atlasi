@@ -118640,5 +118640,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3884",
+  "zaman": "2026-09-14 00:22",
+  "kimden": "MOTOR-HIMAYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM MOTOR-HIMAYE (commit YOK). ① MOTOR uret_petek.py +143: 4889-5004 himaye_gruplari/imza/govdeleri + HIMAYE_GEVSEK_RENK #e8a2aa · 5081 anahtar=(dogrudan,tabi,himaye_imza) · 5236 kayit[h] yalniz bossa YAZILMAZ · 5720 bilanco satiri. Grup kid¦¦k, renk gevsek->#e8a2aa yoksa BOYALAR[kid] yoksa harita: yoksa null. Geom (dolu grup ∩ gt) − gruba ait olmayan tabi petekler, d.v ile ayni OSM havuzu. ② ARAYUZ app.js +19: STATU_YAZI gevsek:'gevşek tâbi' · lejant 'Gevşek himaye (Nogay bozkırı gibi)' tarama yok. girdi.py: statu aciklamasina gevsek + BILINEN_DONEM_ALANLARI'na 'himaye' EKLEDIM (VERI-YAPISI tanimliyordu, sozlukte yoktu — yama inince UYARI basacakti). ③ SINAMA: motorda kucuk kosu yolu YOK -> AST ile fonksiyonlar dosyadan cekildi, sentetik 30/30 (d.h yokken grup {} imza bos, 2000 adimda delta karari fark 0, gercek veride himaye:true 0; sema {g,renk} gecerli indeks; d.h⊂d.v, ust uste 0, himayesiz tabi yutulmadi). TAM KOSUYLA BIREBIR OLCULMEDI. ④ RENK: renk_olc.py'de CIEDE2000 YOK, dE(CIE76)/dE94 kullanildi: vassal#b2384a↔dis#8e0b22 14,9/13,3 · dis↔ic#d4707d 34,3/30,1 · ic↔acik#e8a2aa 20,2/15,3 · vassal↔acik 40,5/32,0 · altlik↔acik 32,4. Ekran (1600 z6 SERT readPixels, sentetik d.h): b2384a×15¦8e0b22×3¦d4707d×2¦e8a2aa×19; d.h yokken b2384a×41. ⑤ denetle: once/sonra 529->528 kirilma farki cikti ama arada baska isci olaylar*.js yazdi; A/B ayni veri 248/248 FARK 0. py_compile 0 · node --check 0. Rapor denetim/MOTOR-HIMAYE-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
