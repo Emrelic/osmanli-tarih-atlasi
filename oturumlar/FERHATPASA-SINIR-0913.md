@@ -24,6 +24,15 @@
   koordinatı ya da kaynağın andığı nehir-dağ geçidi.
 - "Örtülü (enklav olamaz)" kuralının dayanağı kaynaklı hat olmalı; atlas geometrisi değil.
 
+## Emre'nin kararları (13 Eylül akşam)
+- **Nihavend OSMANLI toprağı gösterilecek.** Aynen: "Burucird, Kirmanşah, Luristan, Halepçe,
+  Kutul Amare, Amare bu yerler Osmanlı değil miydi? Bu yerler Osmanlı değil ise enklav olarak
+  gösterilebilir ama bu yerler Osmanlı ise bu topraklara bağlanır Nihavend bölgesi ve sınır
+  Nihavend ile Hemedan'ın arasından geçer."
+  ⇒ Bağlantı sorusu dönem dönem kaynakla ölçülüyor (`denetim/*NIHAVEND-BAGLANTI*`):
+  bağlıysa sınır Nihavend–Hemedan arasından, değilse Nihavend enklav.
+- Ahar · Sarab · Miyane dokuz gelenekten ayrıca araştırılıyor (`denetim/*AHAR-SARAB-MIYANE*`).
+
 ## Kurallar
 - **Kaynak:** akademik (CLAUDE.md §4), dokuz tarih yazımı. Her yer için mümkünse
   iki farklı gelenekten kaynak; çelişki AÇIKÇA yazılır, taraf seçilmez.
