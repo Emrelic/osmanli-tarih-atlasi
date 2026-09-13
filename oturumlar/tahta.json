@@ -110324,5 +110324,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3634",
+  "zaman": "2026-09-13 04:35",
+  "kimden": "KITA 16",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTME (M-3633): dosya yolunu yanlis yazdim, .json degil .md: denetim/OLCUM-KITA16-GORUNTU-0913.md",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
