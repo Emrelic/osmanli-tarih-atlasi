@@ -120405,5 +120405,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3969",
+  "zaman": "2026-09-14 01:56",
+  "kimden": "P11-SEFER",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM P11 (TOPARLA ile kapandi). 0021/H-0030 Kalugeran: COZULDU — SAVASLAR t:1595-08-23 meydan, sonuc belirsiz galip yok; gun kaynagi History of Transylvania I (Kopeczi, MTA; MEK 118 s.1-749) 'On 23 August, at Calugareni'; Onal okunmadi (403). Erdel katilisi: ittifaklar.js'te Subat 1594 AY (HoT). 0023/H-0003 + 0027/H-0006: YENI data/ittifaklar.js window.ITTIFAKLAR — 2 ittifak (1594, 1684), 10 uye; 1684 papalik/habsburg/venedik/lehistan Mart 1684 (TDV polonya, AY) -> 26.01.1699 (TDV karlofca), rusya 1686 YIL; celiski: TDV karlofca 1695 · TDV rusya 1684. Cizim P14. 0035/H-0077 1737 Ozi oku: BULUNAMADI (ESBE Dinyeper gecis yeri adsiz), yazilmadi. Denetim: 1/1b/2/2s/2i/4c/4d temiz; savas senkronu 165/173->166/174 (benim). 7 658->660 ve mukerrer 1->6 BENDEN DEGIL (damgalar: p0057 01:39 P09 · anadolu_0914 01:42 · 01:48:22 toplu yerlesimler.js). A2-BAG 630/630 hata 0. node --check ok. Dosyalar: data/savaslar.js (+11) · data/ittifaklar.js · denetim/P11-SEFER-0914.md. Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3970",
+  "zaman": "2026-09-14 01:56",
+  "kimden": "P13A-MOTOR-OLCUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM P13A (TOPARLA ile erken kapanis). Rapor: denetim/OLCUM-MOTOR-0914.md. Aletler: denetim/ARAC-MTR-{ORTAK,GENEL,KUTU,DENIZASIRI,ADA,SERBEST,ARAL,KOPRU}-0914.py. data/arac/js yazilmadi, motor kosulmadi, commit yok. OLCULEN: (1) Taban r8232, sahiplik kosu 10 girdisinden (80 girdinin 11'i sonradan degismis, 11'inin izi git'te bulundu). (2) 16 maddenin goruntuleri hepsi r8232'den ESKI yayindan: 0028=b729a90 · 0030/0031=536e90c · 0040=197f0ae · 0042=00652fc · 0043/0044=a8feb8d (D044). (3) Alet iki yonde sinandi: 1299'da 0042/H-0002-7 kutusu koşu 8'de bosna-macaristan 303 km2 binme (goruntudeki), r8232'de 0; r8232 dunyada 121 binme / 70.720 km2 (1281: 114 / 45.320 · 1408: 145 / 200.577). OSMANLI-tabi binme 0. (4) Kok (kod): yabanci govdeler devlet basina bagimsiz kuruluyor (kapat 0,15 mitre + B2/B3 + puan kapisi), komsudan cikarim YOK => binme motor sinifi, cozum P13B. (5) Gecersiz ham poligon r8232'de 84-86/~3200; bizans self-intersection @38,955K 20,769D 114.167 km2 = 0031/H-0002 kutusunun icinde. (6) Aral 'modern maske' supheli CURUDU (kod): motor data/goller.js tarihi Aral'i cikariyor. (7) koşu 8 1299: OSMANLI-bizans 2.156 km2 @40,0K 29,95D (0030/H-0002-3 sinifi). OLCULMEDI: Bogaz/Saroz/Tallinn deniz asiri · Basra/Misir kirpi (ongoru: SERBEST kenar cizimi => arayuz P14) · Ege/Iyon ada kalitesi · Aral serit kovasi · 1721 Kuzey Afrika kopru kovasi · kutu kutu bosluk kovalari. Son parti 9 dk cikti vermedi, durduruldu (aday: NE geojson her cagrida yeniden parse). ISTEK: P13B'ye 'yabanci govdelerde komsu cikarimi + seyrelt sonrasi is_valid' kalemi; olculmeyenler komutlariyla raporun §4'unde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
