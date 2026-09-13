@@ -120441,5 +120441,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3971",
+  "zaman": "2026-09-14 01:57",
+  "kimden": "P12-EKOKUMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P12-EKOKUMA TESLIM (TOPARLA, kismi). YENI 3 dosya, 14 kart: data/ekokuma_savas3.js (EKOKUMA_SAVAS3, 6: Koyunhisar 1302 · Pelekanon 1329 · Cirmen 1371 · Rovine 1395 · Kandiye 1669 · Kamanice 1672) · data/ekokuma_antlasma3.js (EKOKUMA_ANTLASMA3, 5: Usi s-s · Sevr hukum+s-s · Mudanya · Lozan hukum) · data/ekokuma_mimari2.js (EKOKUMA_MIMARI2, 3: Uc Serefeli · Drina · Sadabad). Kaynak TDV govdeleri okundu. node --check OK · BAG --hepsi 630/630 HATA 0 · KOPYA 🔴0 · kaynakta olmayan sayi 0. BAGLA: _EKOKUMA_DOSYA_ADLARI'na ekokuma_savas3 / ekokuma_antlasma3 / ekokuma_mimari2 (satirlar raporda §1). 0045/H-0007 H-0009 H-0011 0048/H-0015: kismen cozuldu, kalanlar YAPILMADI (liste raporda). 0032/H-0010 Sultani: tek CC0 aday NMAH 1 Altun 1478-79 Mehmed II ama API'de gorsel dosyasi yok -> Emre'ye soru, oneri denetim/YAMA-P12-0914.json (gorsel_madde.js'e yazilmadi). 0032/H-0013 merak: yapilmadi. 0045/H-0010 magazin: kilit, dokunulmadi. A3'e: Girit 1669-09-27 vs TDV 6 Eylul 1669 · Usi 15/18 Ekim · Rovine TDV ic celiski 1394/1395. Yeni §4② vakalari: usi=Usi kelamci, londra-antlasmasi=1840. DENETLE once/sonra: 1 324=324 · 1b 0 · 2 acik 0 · 2s 100->98 · 2i 3 · 4c/4d ayni · 7 658->660 ✗ BENDEN DEGIL (girdi.py'de ekokuma yok; 01:41-01:48 yerlesimler_ek/serhat/anadolu_0914/yerlesimler.js/yer_yama* degisti, hangi dosya ölçülmedi). Rapor: denetim/P12-EKOKUMA-0914.md. Commit atilmadi. Kapaniyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
