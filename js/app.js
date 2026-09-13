@@ -5193,6 +5193,44 @@ var toprakSecim = false;
 // ("konu-askeri", "afet", "afet-deprem"); null = süzme yok. Başlıklar arası VEYA,
 // grup kutuları ve toprak kutusuyla VE.
 var baslikSecim = null;
+// 🆕 PAKET-UI3 · İŞ 2 (14 Eylül 2026) — DIŞ OLAY ÖNEM SÜZGECİ, Osmanlı zaman çizgisi.
+// Emre: *"'dış olayların 4 ya da 5 puan olanlarını göster' seçeneği işaretliyse —
+// 4 üstü seçilirse 4 ve 5 puan olanlar kronolojide zikredilecek."*
+// Eskiden bu süzgeç YALNIZ seçilen devletin panelinde vardı (`odak-bolge-esik`);
+// Osmanlı listesi (`osmanliListesineDon`) onu hiç çağırmıyordu (PAKET-KAPSAM2 §1.3).
+// Mantık `SUZGEC.disOnemGizli` (DOM'suz). Burada yalnız: eşik (⚙ Ayarlar `#dis-esik`,
+// localStorage `disEsik`, adres `?dis=`) ve `.suzuldu` sınıfı — konu süzgeciyle VE.
+//   "0" gösterme · "5" yalnız 5 · "4" 4 ve üstü (VARSAYILAN) · "hepsi"
+// ⚠️ İç madde (kapsam yok/"ic") ASLA gizlenmez — iç puansızlar bugünkü gibi görünür.
+//   Dış PUANSIZ madde yalnız "hepsi"de görünür (puansiz bayrağı iki dala ayrıldı).
+// 🔴 İSTİSNA (DIS_ISTISNA_ACIK): gizli dış madde bir Osmanlı kırılmasını (donemler fi,
+//   ±30 gün — Değişmez 2 penceresi) görünür maddesiz bırakıyorsa görünür kalır ve
+//   `.dis-istisna` ile işaretlenir. Ölçüm (eşik 4): 1 madde — 1891-01-01 Müleydâ ↔ Şırnak.
+var DIS_ESIK_DEGERLER = ["0", "5", "4", "hepsi"];
+var DIS_ESIK_VARSAYILAN = "4";
+var DIS_ISTISNA_ACIK = true;
+var disEsik = DIS_ESIK_VARSAYILAN;
+var _disOnbellek = null;
+function disEsikOku() {
+  var u = new URL(window.location.href).searchParams.get("dis");
+  if (u !== null && DIS_ESIK_DEGERLER.indexOf(u) >= 0) return u;
+  try {
+    var s = localStorage.getItem("disEsik");
+    if (s !== null && DIS_ESIK_DEGERLER.indexOf(s) >= 0) return s;
+  } catch (e) { /* depolama kapalı — varsayılan */ }
+  return DIS_ESIK_VARSAYILAN;
+}
+function disSonuc() {
+  if (!window.SUZGEC || !window.SUZGEC.disOnemGizli) return null;   // eski önbellek: süzmez
+  if (_disOnbellek && _disOnbellek.esik === disEsik) return _disOnbellek.r;
+  var kir = [];
+  if (DIS_ISTISNA_ACIK) for (var d = 1; d < donemler.length; d++) kir.push(donemler[d].fi);
+  var r = window.SUZGEC.disOnemGizli(olaylar, disEsik, olaylar.map(function (o) { return o.gi; }), kir, 30);
+  r.istisnaIx = {};
+  r.istisna.forEach(function (x) { r.istisnaIx[x.i] = x.kirilma; });
+  _disOnbellek = { esik: disEsik, r: r };
+  return r;
+}
 var _toprakIsaret = null;
 function toprakIsaret() {
   if (_toprakIsaret) return _toprakIsaret;
@@ -5212,16 +5250,33 @@ function suzgecUygula() {
   var gizli = 0;
   var toprakVar = toprakSecim && window.SUZGEC.toprakIndeksleri;
   var baslikVar = baslikSecim && baslikSecim.length && window.SUZGEC.baslikGecer;
+  var ds = disSonuc(), disGizliSay = 0;           // PAKET-UI3 İŞ 2
   for (var i = 0; i < olaylar.length; i++) {
+    var disGizli = !!(ds && ds.gizli[i]);
+    if (disGizli) disGizliSay++;
     var gorunur = (!suzgecSecim ||
                    suzgecSecim.indexOf(window.SUZGEC.maddeGrubu(olaylar[i])) >= 0) &&
                   (!toprakVar || !!toprakIsaret().isaretli[i]) &&
-                  (!baslikVar || window.SUZGEC.baslikGecer(olaylar[i], baslikSecim));
+                  (!baslikVar || window.SUZGEC.baslikGecer(olaylar[i], baslikSecim)) &&
+                  !disGizli;
     olayDom[i].classList.toggle("suzuldu", !gorunur);
+    var ist = !!(ds && ds.istisnaIx[i] !== undefined);
+    if (ist !== olayDom[i].classList.contains("dis-istisna")) {
+      olayDom[i].classList.toggle("dis-istisna", ist);
+      if (ist) olayDom[i].title = "Dış olay, önem eşiğinin altında — ama " + _khGunYazi(ds.istisnaIx[i]) +
+        " günü haritada Osmanlı toprağı değişiyor ve ±30 günde başka görünür madde yok; " +
+        "o değişim maddesiz kalmasın diye görünür bırakıldı.";
+      else olayDom[i].removeAttribute("title");
+    }
     if (!gorunur) gizli++;
   }
   var sayacEl = document.getElementById("olay-sayac");
-  if (sayacEl) sayacEl.dataset.gizli = gizli;   // olaylarGuncelle metni yazarken okur
+  if (sayacEl) {
+    sayacEl.dataset.gizli = gizli;   // olaylarGuncelle metni yazarken okur
+    sayacEl.title = ds ? "Dış olaylar (⚙ Ayarlar): " + disEsikAdi(disEsik) + " · " + disGizliSay +
+      " dış madde gizli" + (ds.istisna.length ? " · " + ds.istisna.length + " istisna görünür" : "") : "";
+  }
+  disEsikBilgiYaz(ds, disGizliSay);
   olaylarGuncelleZorla();
   suzgecUrlYaz();
 }
@@ -5245,6 +5300,9 @@ function suzgecUrlYaz() {
   else u.searchParams.delete("toprak");
   if (baslikSecim && baslikSecim.length) u.searchParams.set("baslik", baslikSecim.join(","));
   else u.searchParams.delete("baslik");
+  // PAKET-UI3 — varsayılandan farklıysa adreste taşınır (paylaşılan bağlantı aynı listeyi versin)
+  if (disEsik !== DIS_ESIK_VARSAYILAN) u.searchParams.set("dis", disEsik);
+  else u.searchParams.delete("dis");
   window.history.replaceState(null, "", u);
 }
 // ?baslik=konu-askeri,afet-deprem — tanınmayan değer atılır (eski/yanlış bağlantı sessiz
@@ -5277,6 +5335,7 @@ function suzgecUrlOku() {
   govde.className = "suzgec-govde";
 
   suzgecSecim = suzgecUrlOku();
+  disEsik = disEsikOku();                        // PAKET-UI3 İŞ 2
   toprakSecim = !!window.SUZGEC.toprakIndeksleri &&
                 new URL(window.location.href).searchParams.get("toprak") === "1";
   baslikSecim = baslikUrlOku();
@@ -7698,6 +7757,8 @@ function obGoster(o) {
   // PAKET-UI2 — antlaşma öncesi/sonrası (Emre'nin 13 Eylül kararı). Hesap MADDE
   // AÇILIŞINDA bir kez yapılır, kare başına değil.
   try { antlasmaFarkiGoster(o, ozel); } catch (eAnt) { console.error("[antlaşma farkı]", eAnt); }
+  // PAKET-UI3 İŞ 1 — antlaşma DEĞİLSE: yalnız bu maddenin değiştirdiği yerleşimler.
+  try { maddeFarkiGoster(o, ozel); } catch (eMf) { console.error("[aynı gün farkı]", eMf); }
   // PAKET-ISYAN — isyan taramasına bağlı maddelerde kaynaklı pencere özeti.
   try { isyanMaddeKutusu(o, ozel); } catch (eIsy) { console.error("[isyan taraması]", eIsy); }
   if (o.kisiler) {
@@ -7777,17 +7838,14 @@ function _sahipAdi(key) {
   if (!key) return "sahipsiz";
   if (key === "osmanli") return "Osmanlı";
   if (key.indexOf("tabi:") === 0) { var kid = key.slice(5); return kid ? devletAdi(kid) + " (tâbi)" : "Osmanlı tâbii"; }
+  if (key === "s:__BOSLUK__") return "kimsenin değil (boşluk beyanı)";   // PAKET-UI3: ham kimlik basılmasın
   return devletAdi(key.slice(2));
 }
 function antlasmaFarkiHesapla(o) {
   var SG = window.SUZGEC;
   if (!SG || !SG.antlasmaFarki) return { hata: "js/suzgec.js eski sürüm (önbellek)" };
   var Y = window.YERLESIMLER || [];
-  if (!ANT_FARK.ix) {
-    ANT_FARK.ix = SG.sinirIndeksi(Y);
-    ANT_FARK.petAd = {};
-    PETEKLER.forEach(function (p, i) { if (p && p.a) ANT_FARK.petAd[p.a] = i; });
-  }
+  _farkIndeksiKur();
   var oi = olaylar.indexOf(o), sonraki = null;
   for (var j = (oi >= 0 ? oi : 0); j < olaylar.length; j++) {
     if (olaylar[j].gi > o.gi) { sonraki = olaylar[j]; break; }
@@ -7800,9 +7858,17 @@ function antlasmaFarkiHesapla(o) {
                                window.DEVLETLER || []);
   return { f: SG.antlasmaFarki(Y, ANT_FARK.ix, _khGunStr(o.gi), _khGunStr(sonIx), T), sonIx: sonIx };
 }
+// Sınır indeksi + petek adı sözlüğü: ilk kullanımda bir kez (antlaşma ve aynı gün kutusu ortak).
+function _farkIndeksiKur() {
+  if (ANT_FARK.ix) return;
+  ANT_FARK.ix = window.SUZGEC.sinirIndeksi(window.YERLESIMLER || []);
+  ANT_FARK.petAd = {};
+  PETEKLER.forEach(function (p, i) { if (p && p.a) ANT_FARK.petAd[p.a] = i; });
+}
 function antlasmaFarkiTemizle() {
   ANT_FARK.zaman.forEach(clearTimeout);
   ANT_FARK.zaman = [];
+  ANT_FARK.fs = null;                               // PAKET-UI3: önceki maddenin özellikleri bayat kalmasın
   if (!ANT_FARK.madde) return;
   ANT_FARK.madde = null;
   if (haritaHazir && harita.getSource("antlasma-fark")) harita.getSource("antlasma-fark").setData(bosVeri());
@@ -7884,20 +7950,30 @@ function antlasmaFarkiGoster(o, ozelEl) {
       "olabilir ya da toprak değişimi bu güne işlenmemiş olabilir.";
     return;
   }
-  var Y = window.YERLESIMLER || [], say = {}, liste = [];
+  var kirilma = gunIdx(r.f.gun);
+  var anaMetin = (kirilma === o.gi ? "Aynı gün" : "Haritadaki kırılma " + (kirilma - o.gi) + " gün sonra (" + _khGunYazi(kirilma) + ")") +
+    " · " + r.f.degisim.length + " yerleşim bölgesi el değiştirdi: " + _farkOzeti(r.f.degisim);
+  _farkKutusuCiz(o, kutuEl, yazi, r.f.degisim, anaMetin, r.f.once, kirilma, Math.max(kirilma, r.sonIx));
+}
+// "Osmanlı → Habsburg 6 · Osmanlı → Lehistan 5" — çoktan aza
+function _farkOzeti(degisim) {
+  var say = {};
+  degisim.forEach(function (d) { var an = _sahipAdi(d.once) + " → " + _sahipAdi(d.sonra); say[an] = (say[an] || 0) + 1; });
+  return Object.keys(say).sort(function (a, b) { return say[b] - say[a]; })
+    .map(function (k) { return k + " " + say[k]; }).join(" · ");
+}
+// PAKET-UI3 — UI2'nin çizim + düğme + yanıp sönme gövdesi, iki kutunun ORTAK
+// parçası olarak buraya çıkarıldı (antlaşma kutusu ve aynı gün madde kutusu).
+// Davranış antlaşma için BİREBİR aynı: aynı katman, aynı 7 hâl, aynı düğmeler.
+// degisim: [{i, once, sonra}] · onceStr: "YYYY-MM-DD" · kirilma/sonIdx: gün indeksi
+function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, sonIdx) {
+  var Y = window.YERLESIMLER || [], liste = [];
   var x0 = 180, y0 = 90, x1 = -180, y1 = -90;
-  r.f.degisim.forEach(function (d) {
+  degisim.forEach(function (d) {
     var y = Y[d.i];
-    var an = _sahipAdi(d.once) + " → " + _sahipAdi(d.sonra);
-    say[an] = (say[an] || 0) + 1;
     if (typeof y.lon === "number") { x0 = Math.min(x0, y.lon); x1 = Math.max(x1, y.lon); y0 = Math.min(y0, y.lat); y1 = Math.max(y1, y.lat); }
     liste.push({ pi: ANT_FARK.petAd[y.ad], once: _sahipRengi(d.once), sonra: _sahipRengi(d.sonra), ad: y.ad });
   });
-  var kirilma = gunIdx(r.f.gun);
-  var ozet = Object.keys(say).sort(function (a, b) { return say[b] - say[a]; })
-    .map(function (k) { return k + " " + say[k]; }).join(" · ");
-  var anaMetin = (kirilma === o.gi ? "Aynı gün" : "Haritadaki kırılma " + (kirilma - o.gi) + " gün sonra (" + _khGunYazi(kirilma) + ")") +
-    " · " + r.f.degisim.length + " yerleşim bölgesi el değiştirdi: " + ozet;
   var fsYerel = [];
   // Bölge geometrisi: PETEK_GOVDE[pi] → PETEK_GOVDE_PARCA poligonları (MultiPolygon).
   function ozellikleriKur() {
@@ -7912,7 +7988,7 @@ function antlasmaFarkiGoster(o, ozelEl) {
     });
     yazi.textContent = anaMetin + (eksik ? " · " + eksik + " bölgenin peteği yok, çizilmedi" : "");
   }
-  kutuEl.title = r.f.degisim.map(function (d) { return Y[d.i].ad; }).join(", ");
+  kutuEl.title = degisim.map(function (d) { return Y[d.i].ad; }).join(", ");
   if (window.PETEK_GOVDE) {
     ozellikleriKur();
   } else {
@@ -7924,7 +8000,7 @@ function antlasmaFarkiGoster(o, ozelEl) {
     });
   }
   ANT_FARK.fs = fsYerel;
-  ANT_FARK.son = Math.max(kirilma, r.sonIx);
+  ANT_FARK.son = sonIdx;
   ANT_FARK.kutu = (x1 >= x0) ? [x0 - 0.6, y0 - 0.6, x1 + 0.6, y1 + 0.6] : null;
   var dugmeler = document.createElement("div");
   dugmeler.className = "ant-dugmeler";
@@ -7939,7 +8015,7 @@ function antlasmaFarkiGoster(o, ozelEl) {
     dugmeler.appendChild(b);
     return b;
   }
-  var bOnce = dugme("◀ Öncesi · " + _khGunYazi(gunIdx(r.f.once)), "El değiştiren bölgeler ÖNCEKİ sahiplerinin renginde", function () { _antlasmaHal("once"); });
+  var bOnce = dugme("◀ Öncesi · " + _khGunYazi(gunIdx(onceStr)), "El değiştiren bölgeler ÖNCEKİ sahiplerinin renginde", function () { _antlasmaHal("once"); });
   var bSonra = dugme("Sonrası · " + _khGunYazi(kirilma) + " ▶", "El değiştiren bölgeler SONRAKİ sahiplerinin renginde", function () { _antlasmaHal("sonra"); });
   dugme("↻ Yakıp söndür", "Farkları yeniden yakıp söndür", function () { antlasmaFarkiKirp(0); });
   dugme("⌖ Farka odaklan", "Haritayı el değiştiren bölgelere çerçevele", function () {
@@ -7954,6 +8030,62 @@ function antlasmaFarkiGoster(o, ozelEl) {
   // Gecikme: panel açılışı + uçuş başlangıcı; mevcut öncesi/sonrası KIRPMASI
   // (bütün harita, ~900 ms) ile üst üste binmesin. Ölçülmedi — gözle ayarlanır.
   antlasmaFarkiKirp(1600);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 PAKET-UI3 · İŞ 1 (14 Eylül 2026) — AYNI GÜN MADDESİNİN KENDİ DEĞİŞİMİ
+// EMRE'NİN KARARI "B" (kutu 0043/H-0019): *"maddeye tıklayınca haritada YALNIZ
+// O MADDENİN değiştirdiği yerleşimlerin petekleri yanıp sönsün."*
+// Sorun atfedilebilirlik: 1521-01-01'de harita 10 yerleşimi değiştiriyor, 3 madde
+// var (Nikarya · Bahreyn · Pîrî Reis); kullanıcı hangisinin hangisi olduğunu
+// ayırt edemiyordu. Mekanizma UI2'ninki (_farkKutusuCiz): aynı katman, aynı
+// yanıp sönme, TARAMA YOK. Kural SUZGEC.maddeDegisimleri'nde (DOM'suz):
+//   madde GÜNÜNDE (±0) sahibi değişen yerleşimler ∩ [yer_id · yer · başlıkta ad
+//   · aynı el değiştirmeyle ≤150 km komşu] · kültür/iktisat maddesi aynı yerleşimi
+//   asıl konulu kardeşine bırakır.
+// ÖLÇÜM (denetim/ARAC-UI3-OLCUM-0914.js): rapor denetim/PAKET-UI3-0914.md §1.
+// ⚠️ Antlaşma maddesi burada ATLANIR — UI2 kutusu (taraf süzgeçli pencere) onu çiziyor.
+// ⚠️ BASLANGIC günü atlanır: 1281-01-01'in bir gün öncesi atlasın dışında, her
+//   yer "sahipsiz→sahipli" görünür (D180 — pencere ucu sorgu günü değildir).
+var MADDE_FARK_ACIK = true;
+function maddeFarkiGoster(o, ozelEl) {
+  if (!MADDE_FARK_ACIK || !o || !ozelEl || antlasmaMaddesiMi(o)) return;
+  var SG = window.SUZGEC;
+  if (!SG || !SG.maddeDegisimleri) { console.warn("[aynı gün farkı] js/suzgec.js eski sürüm (önbellek) — kutu çizilmedi"); return; }
+  if (!(o.gi > BASLANGIC && o.gi <= BITIS)) return;
+  _farkIndeksiKur();
+  var Y = window.YERLESIMLER || [], gs = _khGunStr(o.gi), kardes = o._agGrup || [o];
+  var r = SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, kardes);
+  if (!r.degisim.length) return;                      // o gün haritada değişim yok — gösterilecek fark yok
+  var kutuEl = document.createElement("div");
+  kutuEl.className = "ob-kutu ob-antlasma ob-madde-fark";
+  var bas = document.createElement("b");
+  bas.textContent = "🗺 Bu maddenin haritadaki karşılığı";
+  kutuEl.appendChild(bas);
+  var yazi = document.createElement("span");
+  kutuEl.appendChild(yazi);
+  ozelEl.appendChild(kutuEl);
+  var gunYazi = _khGunYazi(o.gi);
+  if (!r.secilen.length) {
+    // SESSİZ KALMA — o gün harita değişiyor ama hiçbiri bu maddeye bağlanamadı.
+    kutuEl.classList.add("ob-madde-fark-yok");
+    var sahipli = [];
+    if (kardes.length > 1) kardes.forEach(function (k, ix) {
+      if (k === o) return;
+      var rk = SG.maddeDegisimleri(k, gs, Y, ANT_FARK.ix, kardes);
+      if (rk.secilen.length || antlasmaMaddesiMi(k)) sahipli.push(agDaireSayi(ix + 1));
+    });
+    yazi.textContent = gunYazi + " günü haritada " + r.degisim.length + " yerleşim el değiştiriyor; " +
+      "hiçbiri bu maddeye bağlanamadı (yer_id · yer · başlıktaki yer adı eşleşmedi). " +
+      "Bu maddenin haritadaki yeri belirlenemedi." +
+      (sahipli.length ? " Değişimlerin bir kısmı aynı günün " + sahipli.join(" ") + " maddesine bağlı." : "");
+    return;
+  }
+  var kalan = r.degisim.length - r.secilen.length;
+  var anaMetin = "Aynı gün · bu maddeye bağlı " + r.secilen.length + " yerleşim bölgesi el değiştirdi: " +
+    _farkOzeti(r.secilen) +
+    (kalan ? " · o günün öteki " + kalan + " değişimi bu maddeye ait değil, yanıp sönmez" : "");
+  _farkKutusuCiz(o, kutuEl, yazi, r.secilen, anaMetin, SG.gunKaydir(gs, -1), o.gi, o.gi);
 }
 
 // 🆕 13 Eylül 2026 — paket 0046, ③ (koordinatörün kararı). Madde görseli
@@ -9030,6 +9162,33 @@ var dunyaAcEl = document.getElementById("dunya-ac");
     localStorage.setItem("dunyaAc", dunyaAcEl.checked ? "1" : "0");
     location.reload();
   });
+})();
+
+// 🆕 PAKET-UI3 · İŞ 2 — "Dış olaylar" eşiği (⚙ Ayarlar, `dunya-ac`ın altında).
+// `dunya-ac`ın TERSİNE sayfa YENİLENMEZ: süzme `.suzuldu` sınıfıyla yapılıyor,
+// `olaylar` dizisi ve indeksler değişmiyor (konu süzgeciyle aynı yol).
+function disEsikAdi(e) {
+  return e === "0" ? "gösterme" : e === "5" ? "yalnız 5" : e === "4" ? "4 ve üstü" : "hepsi";
+}
+function disEsikBilgiYaz(ds, gizliSay) {
+  var el = document.getElementById("dis-esik-bilgi");
+  if (!el) return;
+  if (!ds) { el.textContent = " — js/suzgec.js eski sürüm (önbellek), süzgeç çalışmıyor"; return; }
+  el.textContent = " — şu an " + gizliSay + " dış madde gizli" +
+    (ds.gizliPuansiz ? " (" + ds.gizliPuansiz + "'i puansız)" : "") +
+    (ds.istisna.length ? " · " + ds.istisna.length + " istisna görünür" : "");
+}
+var disEsikEl = document.getElementById("dis-esik");
+(function () {
+  if (!disEsikEl) return;
+  disEsikEl.value = disEsik;
+  disEsikEl.addEventListener("change", function () {
+    if (DIS_ESIK_DEGERLER.indexOf(disEsikEl.value) < 0) return;
+    disEsik = disEsikEl.value;
+    try { localStorage.setItem("disEsik", disEsik); } catch (e) { /* depolama kapalı */ }
+    if (window.SUZGEC) suzgecUygula();
+  });
+  if (window.SUZGEC) { var d0 = disSonuc(); disEsikBilgiYaz(d0, d0 ? Object.keys(d0.gizli).length : 0); }
 })();
 
 // 🔴 `ucus-ac` onay kutusu 24 Ağustos 2026'da KALDIRILDI; yerini kip
@@ -10923,8 +11082,9 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
       var so = window.SUZGEC.onemSay(olaylar);
       odakOzetEl.textContent = "⚠️ Bu panel SEÇİLEN DEVLETİN kronolojisini "
         + "süzer. Osmanlı zaman çizgisine UYGULANMIYOR — " + olaylar.length
-        + " maddenin " + so.puansiz + "'i puansız (ölçüldü) ve orada ayrı "
-        + "bir konu süzgeci çalışıyor. Bir devlet seç.";
+        + " maddenin " + so.puansiz + "'i puansız (ölçüldü); orada ayrı "
+        + "bir konu süzgeci ve ⚙ Ayarlar'daki \"Dış olaylar\" eşiği "
+        + "(" + so.dis + " dış madde) çalışıyor. Bir devlet seç.";
       return;
     }
     var kaynak = ODAK.kronoloji;

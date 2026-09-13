@@ -596,6 +596,157 @@ function isyanSecim(Y, pencereler, gs, kunyeIx, kimliksizUye) {
   return out;
 }
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 PAKET-UI3 (14 Eylül 2026) — İKİ İŞ, İKİSİ DE DOM'SUZ
+// Aletler: denetim/ARAC-UI3-OLCUM-0914.js AYNI fonksiyonları gerçek veride koşar.
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ── İŞ 1 · AYNI GÜN MADDESİ → O MADDENİN DEĞİŞTİRDİĞİ YERLEŞİMLER ─────────────
+// Emre (kutu 0043/H-0019, karar "B", 14 Eylül): *"maddeye tıklayınca yalnız O
+// MADDENİN değiştirdiği yerleşimler yanıp sönsün."* Sorun ATFEDİLEBİLİRLİK:
+// harita bir günün değişimini bir kez çizer, hangisinin hangi maddeye ait
+// olduğunu bilmez (1521-01-01: 10 yerleşim değişiyor, 3 madde var).
+// KURAL (ölçülerek sabitlendi — rapor denetim/PAKET-UI3-0914.md §1):
+//   aday = madde GÜNÜNDE (±0) sahibi değişen yerleşimler (gün−1 → gün, d > v > s)
+//   ① yer_id  — yerleşim adı birebir ya da parantez öncesi çekirdeği
+//   ② yer     — `yer:` metninin parçalarından biri adın çekirdeği/parantez içi adı
+//   ③ başlık  — yerleşim çekirdek adı (≥4 harf) başlıkta TAM KELİME
+//   ④ komşu   — ①-③ ile bağlanan bir yerleşimle AYNI el değiştirme (önce→sonra)
+//               ve ondan ≤ komsuKm; aynı günün BAŞKA maddesine ①-③ ile bağlı
+//               yerleşim ④ ile alınmaz. Zincir YOK (komşunun komşusu alınmaz).
+// ⚠️ Metin (`d`) TARANMAZ: anlatı çevredeki yerleri anar, başlık ve yer alanları
+//   maddenin kendi beyanıdır. Uydurma atıf, atıfsızlıktan kötüdür.
+var MADDE_DEGISIM_AYAR = { komsuKm: 150, minHarf: 4 };
+
+function gunDegisimleri(Y, ix, gs) {
+  var once = gunKaydir(gs, -1), out = [], aday = (ix && ix.by[gs]) || [];
+  for (var n = 0; n < aday.length; n++) {
+    var y = Y[aday[n]], a = sahipAnahtari(y, once), b = sahipAnahtari(y, gs);
+    if (a !== b) out.push({ i: aday[n], once: a, sonra: b });
+  }
+  return out;
+}
+// "Nikarya (İkarya)" → ["nikarya", "ikarya"] (çekirdek önce)
+function _ydAdlar(ad) {
+  var s = String(ad || ""), r = [sgNorm(s.split(" (")[0])];
+  var m = s.match(/\(([^)]*)\)/);
+  if (m) m[1].split(/[\/,;]/).forEach(function (p) { p = sgNorm(p); if (p) r.push(p); });
+  return r;
+}
+function _ydKm(a, b) {
+  if (typeof a.lat !== "number" || typeof b.lat !== "number") return Infinity;
+  var R = 6371, r = Math.PI / 180, dLa = (b.lat - a.lat) * r, dLo = (b.lon - a.lon) * r;
+  var h = Math.sin(dLa / 2) * Math.sin(dLa / 2) +
+          Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLo / 2) * Math.sin(dLo / 2);
+  return 2 * R * Math.asin(Math.min(1, Math.sqrt(h)));
+}
+// ①-③: bu değişim bu maddeye DOĞRUDAN bağlı mı? → yol adı ya da ""
+function _ydDogrudan(o, y) {
+  var adlar = _ydAdlar(y.ad), cek = adlar[0];
+  if (o.yer_id) {
+    var yi = String(o.yer_id);
+    if (yi === y.ad || yi === String(y.ad).split(" (")[0] || sgNorm(yi.split(" (")[0]) === cek) return "yer_id";
+  }
+  if (o.yer) {
+    var parca = String(o.yer).split(/[,;\/·()]| ve /);
+    for (var p = 0; p < parca.length; p++) {
+      var pn = sgNorm(parca[p]);
+      if (pn && adlar.indexOf(pn) >= 0) return "yer";
+    }
+  }
+  if (o.b && cek && cek.length >= MADDE_DEGISIM_AYAR.minHarf &&
+      _sgGeciyor(sgNorm(String(o.b).replace(/['‘’ʼ`]/g, " ")), cek)) return "baslik";
+  return "";
+}
+// o: madde · gs: "YYYY-MM-DD" (madde günü) · kardesler: aynı günün öteki maddeleri
+// Döner { gun, degisim:[…gün değişimleri], secilen:[{i,once,sonra,yol}], kardesin:n }
+// ⑤ KONU ÖNCELİĞİ — aynı yerleşimi aynı günün iki maddesi ①-③ ile bağlıyorsa ve
+//   biri kültür/iktisat konulu (maddeGrubu), öteki değilse, kültür/iktisat maddesi
+//   o yerleşimi BIRAKIR. Ölçüldü: 1534-12-04 "Fuzûlî'nin … kasidesi" (k:kultur,
+//   yer_id Bağdat) Bağdat fethinin 10 yerleşimini ikinci kez alıyordu.
+function _ydIkincil(m) { var g = maddeGrubu(m); return g === "kultur" || g === "iktisat"; }
+function maddeDegisimleri(o, gs, Y, ix, kardesler) {
+  var deg = gunDegisimleri(Y, ix, gs), secilen = [], alindi = {}, kardesAl = {}, kardesAsil = {}, n, k;
+  for (k = 0; k < (kardesler || []).length; k++) {
+    if (kardesler[k] === o) continue;
+    for (n = 0; n < deg.length; n++) if (_ydDogrudan(kardesler[k], Y[deg[n].i])) {
+      kardesAl[deg[n].i] = true;
+      if (!_ydIkincil(kardesler[k])) kardesAsil[deg[n].i] = true;
+    }
+  }
+  var buIkincil = _ydIkincil(o), birakilan = 0;
+  for (n = 0; n < deg.length; n++) {
+    var yol = _ydDogrudan(o, Y[deg[n].i]);
+    if (yol && buIkincil && kardesAsil[deg[n].i]) { birakilan++; continue; }
+    if (yol) { secilen.push({ i: deg[n].i, once: deg[n].once, sonra: deg[n].sonra, yol: yol }); alindi[deg[n].i] = true; }
+  }
+  var dogrudan = secilen.slice();
+  for (n = 0; n < deg.length; n++) {
+    var d = deg[n];
+    if (alindi[d.i] || kardesAl[d.i]) continue;
+    for (k = 0; k < dogrudan.length; k++) {
+      var s = dogrudan[k];
+      if (s.once === d.once && s.sonra === d.sonra &&
+          _ydKm(Y[s.i], Y[d.i]) <= MADDE_DEGISIM_AYAR.komsuKm) {
+        secilen.push({ i: d.i, once: d.once, sonra: d.sonra, yol: "komsu" }); alindi[d.i] = true; break;
+      }
+    }
+  }
+  return { gun: gs, degisim: deg, secilen: secilen, kardesin: Object.keys(kardesAl).length, birakilan: birakilan };
+}
+
+// ── İŞ 2 · DIŞ OLAY ÖNEM SÜZGECİ (Osmanlı zaman çizgisi) ─────────────────────
+// Emre (14 Eylül): *"'dış olayların 4 ya da 5 puan olanlarını göster' seçeneği
+// işaretliyse — 4 üstü seçilirse 4 ve 5 puan olanlar kronolojide zikredilecek."*
+// Eşik: "hepsi" | "4" | "5" | "0" (gösterme). Kural `onemGecer`in BÖLGE dalı
+// (bolge yoksa onem) — ikinci bir kural yazılmadı.
+//   · `kapsam` yok / "ic" / "konu" → HİÇ GİZLENMEZ (iç puansızlar bugünkü gibi)
+//   · `kapsam:"dis"` + puanlı   → puan ≥ eşik ise görünür
+//   · `kapsam:"dis"` + PUANSIZ  → yalnız "hepsi"de görünür (sayısı ayrıca döner)
+// 🔴 İSTİSNA — Değişmez 2'nin ekrandaki karşılığı: gizlenen madde yüzünden bir
+//   OSMANLI kırılması (kirilmaGunleri) ±pencere içinde GÖRÜNÜR maddesiz kalıyorsa,
+//   tam listede o kırılmaya en yakın günün maddeleri görünür bırakılır
+//   (`toprakIndeksleri`nin eşleşme kuralıyla aynı: en yakın gün, beraberlikte hepsi).
+function disOnemGizliMi(m, esik) {
+  if (kapsamOf(m) !== "dis" || esik === "hepsi") return false;
+  if (esik === "0" || esik === 0) return true;
+  return !onemGecer(m, { ic: 0, bolge: +esik, dunya: 0, puansiz: false });
+}
+// maddeler: gün sıralı · gunler: aynı sırada gün indeksleri · kirilmaGunleri: gün indeksleri
+function disOnemGizli(maddeler, esik, gunler, kirilmaGunleri, pencere) {
+  var P = pencere == null ? 30 : pencere, M = maddeler || [], G = gunler || [];
+  var gizli = {}, istisna = [], puansiz = 0, puanli = 0, i;
+  for (i = 0; i < M.length; i++) if (disOnemGizliMi(M[i], esik)) {
+    gizli[i] = true;
+    if (sayi(M[i].bolge) === null && sayi(M[i].onem) === null) puansiz++; else puanli++;
+  }
+  var gor = [];                                   // görünenlerin gün indeksleri (sıralı)
+  for (i = 0; i < M.length; i++) if (!gizli[i]) gor.push(G[i]);
+  function enYakin(dizi, k) {                     // |dizi[x]-k| en küçük x, yoksa -1
+    if (!dizi.length) return -1;
+    var lo = 0, hi = dizi.length - 1;
+    while (lo < hi) { var md = (lo + hi) >> 1; if (dizi[md] < k) lo = md + 1; else hi = md; }
+    return (lo > 0 && Math.abs(dizi[lo - 1] - k) <= Math.abs(dizi[lo] - k)) ? lo - 1 : lo;
+  }
+  var kurtar = {};
+  for (var j = 0; j < (kirilmaGunleri || []).length; j++) {
+    var kg = kirilmaGunleri[j], v = enYakin(gor, kg);
+    if (v >= 0 && Math.abs(gor[v] - kg) <= P) continue;          // görünen madde var
+    var t = enYakin(G, kg);
+    if (t < 0 || Math.abs(G[t] - kg) > P) continue;               // zaten maddesiz — süzgeçten değil
+    var g = G[t];
+    for (i = t; i >= 0 && G[i] === g; i--) if (gizli[i]) kurtar[i] = kg;
+    for (i = t + 1; i < G.length && G[i] === g; i++) if (gizli[i]) kurtar[i] = kg;
+  }
+  Object.keys(kurtar).forEach(function (x) {
+    delete gizli[x];
+    istisna.push({ i: +x, kirilma: kurtar[x] });
+    if (sayi(M[x].bolge) === null && sayi(M[x].onem) === null) puansiz--; else puanli--;
+  });
+  istisna.sort(function (a, b) { return a.i - b.i; });
+  return { gizli: gizli, istisna: istisna, gizliPuansiz: puansiz, gizliPuanli: puanli };
+}
+
 // Tarayıcıda global, node'da modül — dosya iki ortamda da sınanabilsin diye.
 var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  grupSayilari: grupSayilari, bilinmeyenler: bilinmeyenler,
@@ -612,7 +763,11 @@ var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  sahipIlgiliMi: sahipIlgiliMi, antlasmaFarki: antlasmaFarki,
                  sahipKimlikte: sahipKimlikte, aktifVAdi: aktifVAdi,
                  // PAKET-ISYAN
-                 isyanAktif: isyanAktif, isyanSecim: isyanSecim };
+                 isyanAktif: isyanAktif, isyanSecim: isyanSecim,
+                 // PAKET-UI3
+                 MADDE_DEGISIM_AYAR: MADDE_DEGISIM_AYAR, gunDegisimleri: gunDegisimleri,
+                 maddeDegisimleri: maddeDegisimleri, disOnemGizliMi: disOnemGizliMi,
+                 disOnemGizli: disOnemGizli };
 if (typeof window !== "undefined") {
   window.SUZGEC = _SG_DISA;
 }

@@ -532,6 +532,19 @@
       <label for="dunya-ac">🌍 Dünya olayları <span class="ayar-ipucu">(8. boyut — Osmanlı'yla doğrudan ilgisi olmayan dünya tarihi olayları, ör. Fransız Devrimi; deneysel)</span></label>
       <input type="checkbox" id="dunya-ac">
     </div>
+    <!-- 🆕 PAKET-UI3 · İŞ 2 (14 Eylül 2026) — Emre: "dış olayların 4 ya da 5 puan
+         olanlarını göster seçeneği işaretliyse … 4 üstü seçilirse 4 ve 5 puan olanlar
+         kronolojide zikredilecek." Yalnız kapsam:"dis" maddeleri etkiler; iç maddeler
+         hiç gizlenmez. Değişince sayfa YENİLENMEZ (js/app.js disEsikEl). Adres: ?dis=. -->
+    <div class="ayar-satir ayar-satir-anahtar">
+      <label for="dis-esik">🧭 Dış olaylar <span class="ayar-ipucu">(Osmanlı dışı devletlerin olayları — önem puanına göre; puansız dış maddeler yalnız "hepsi"de görünür<span id="dis-esik-bilgi"></span>)</span></label>
+      <select id="dis-esik">
+        <option value="0">gösterme</option>
+        <option value="5">yalnız 5</option>
+        <option value="4" selected>4 ve üstü</option>
+        <option value="hepsi">hepsi</option>
+      </select>
+    </div>
     <!-- 🔴 ODAKLAMA MOTORU — Emre'nin 20 Ağustos tarifi, İNSAN BİRİMİNDE.
          Eskisi MapLibre'nin soyut sayılarını (curve 1.42 · speed 1.2 ·
          zoom 5.5) doğrudan gösteriyordu; Emre `p0019/H-0059`da *"uçuş

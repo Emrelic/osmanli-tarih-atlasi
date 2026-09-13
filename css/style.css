@@ -1645,6 +1645,9 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 }
 .ob-antlasma button:hover { background: #ffe9a8; }
 .ob-antlasma button.secili { background: #ffe9a8; font-weight: 600; }
+/* 🆕 PAKET-UI3 — İŞ 1: bağ bulunamadı notu (düğme yok, soluk) · İŞ 2: istisna maddesi */
+.ob-madde-fark-yok { opacity: 0.8; font-style: italic; }
+.olay.dis-istisna .o-tarih::after { content: " ⚑"; color: var(--altin); font-style: normal; }
 
 /* ARAYÜZ 4 ② — üç ayar penceresi, `#ekokuma-pencere` ile AYNI modal deseni. */
 #ayarlar-pencere {
