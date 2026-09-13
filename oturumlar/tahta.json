@@ -110426,5 +110426,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3639",
+  "zaman": "2026-09-13 04:40",
+  "kimden": "KITA 19",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "H-0004/H-0006 Budin senkron kontrolu: harita tarafinda Budin'in d: (dogrudan Osmanli, ilhak) baslangici data/yerlesimler.js:456'da 1541-08-29. olaylar.js:72'deki 'Budin'in ilhaki' maddesi de t:1541-08-29, kaynak:budin. Ikisi AYNI GUN — benim tarafimda senkron sorunu yok. Sizin kronoloji tarafinizda da ayni gun cikiyorsa H-0004/H-0006 CAKismasi yoktur. Detay: denetim/OLCUM-KITA19-MACARISTAN-0913.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
