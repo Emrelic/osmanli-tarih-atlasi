@@ -53,7 +53,15 @@
 7. **Komşunun günü şartlı serbest** (CLAUDE.md §4 "ATLAS REFERANS DEĞİLDİR" altı): komşunun
    günü kendi kaynağına dayanıyorsa, hedefin kaynağı yoksa, aynı süreç ve yakın konumsa; kayda
    yazılarak. Örnek: Bane'nin günü Serdeşt ve Sakız için.
-⏳ Açık kalanlar: Ahar (A: 1588-92 tâbi → Safevî · B: 1588-1603 tâbi) · Kirmanşah (kaynaksız).
+8. **Ahar: B** — 1588 → 1603 Osmanlı'ya tâbi (TR Kütükoğlu s.195 "Karacadağ" · RU Petruşevski);
+   İran geleneğinin 1592 "Karadağ İran'a bırakıldı" kaydı (Eskandar Beg s.615/619-620) çelişki notu olarak kalır.
+9. **Kirmanşah OSMANLI KALIR** (Emre: "Osmanlı'da olduğuna dair daha güçlü emareler var anladığım
+   kadarıyla, beni doğrular mısın"). Kaynak doğrulaması sürüyor (`denetim/*KIRMANSAH*`, TR · IR · RU ·
+   GE · AM · AZ). Şu ana kadar yalnız DOLAYLI emare var: Bîsütûn kalesi 1588 Osmanlı (Kütükoğlu s.183) ·
+   Kerind ve Kasr-ı Şirin Osmanlı · Kalhor beyleri 1603-04'e kadar Bağdat'a bağlı (Monshi s.840/851).
+   Şehri adıyla anan kaynak henüz YOK.
+10. **"X'in fethi" maddeleri halkaya açılır** — yalnız çekirdek Osmanlı kronolojisinde (olaylar*),
+   fetheden devlet adıyla anılmıyorsa Osmanlı sayılır; ayrı örneklem, %95 kapısı (`denetim/*HALKA-FETIH*`).
 
 ## Kurallar
 - **Kaynak:** akademik (CLAUDE.md §4), dokuz tarih yazımı. Her yer için mümkünse

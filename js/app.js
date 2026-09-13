@@ -5575,7 +5575,9 @@ function _hukukiSinirGuncelle(gun) {
 var _KAYNAKLI_HALKA_DOSYA_ADLARI = [
   "kaynakli_halka_ferhatpasa",  // window.KAYNAKLI_HALKA_FERHATPASA — Ferhat Paşa 1590 kolları
   "kaynakli_halka_tekil",       // window.KAYNAKLI_HALKA_TEKIL — Malaka · Kotur · Bargiri
-  "kaynakli_halka_kronoloji"    // window.KAYNAKLI_HALKA_KRONOLOJI — HALKA-KRONOLOJI (M-3796) yazıyor;
+  "kaynakli_halka_kronoloji",   // window.KAYNAKLI_HALKA_KRONOLOJI — HALKA-KRONOLOJI (ff43e0c)
+  "kaynakli_halka_fetih"        // window.KAYNAKLI_HALKA_FETIH — HALKA-FETIH: çekirdek kronolojide
+                                // devleti adıyla anmayan "X'in fethi" maddeleri (Emre kararı, 13 Eylül);
                                 // dosya henüz yoksa yükleyici onerror'da SESSİZ atlar
 ];
 var KHALKA = { acik: false, yuklendi: false, deneniyor: false, bekleyen: [],
