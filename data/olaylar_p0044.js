@@ -25,12 +25,12 @@
 
 window.OLAYLAR_P0044 = [
 
-{ t:"1556-01-01", b:"Turgut Reis Trablusgarp beylerbeyi oldu", tur:"idari",
+{ t:"1556-01-01", b:"Turgut Reis Trablusgarp beylerbeyi oldu — eyalet doğuda Tobruk ve Derne'ye genişledi", tur:"idari",
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","toprak"],
-  gun:"Mart 1556 (Cemâziyelevvel 963)", yer:"Trablusgarp · Berka kıyısı (Tobruk)",
+  gun:"Mart 1556 (Cemâziyelevvel 963) — beylerbeyiliğin başlangıcı; Tobruk'un alınış yılı kaynakta yok", yer:"Trablusgarp · Berka kıyısı (Tobruk, Derne)",
   yer_id:"Tobruk",
-  d:"Trablusgarp'ın 1551'deki fethinden sonra Turgut Reis, Cemâziyelevvel 963'te (Mart 1556) Trablusgarp beylerbeyiliğine tayin edildi. Dokuz yıl süren valiliği boyunca eyaletin imar ve tahkimine çalıştı, deniz seferlerinden elde ettiği ganimetlerle eyaletin refahını artırdı ve Osmanlı idaresini Fizan'a kadar genişletti. ⚠️ HARİTA HAKKINDA: atlas Berka kıyısındaki Tobruk'un Osmanlı tasarrufunu bu yıldan başlatıyor. TDV `turgut-reis` ve `trablusgarp` maddeleri Tobruk'u anmıyor; TDV `berka` ise Berka bölgesinin 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandığını' yazıyor. Yani Tobruk için 1556 kaynakta değil, kayıttaki bir tercihtir ve ayrıca sorgulanmaktadır. ⚠️ TARİH HAKKINDA: TDV ay veriyor (Mart 1556); tarih alanına yıl yazıldı, ay metinde.",
-  kaynak:"turgut-reis + trablusgarp (Tobruk'u anmıyorlar) · berka (Tobruk'u anmıyor)" },
+  d:"Trablusgarp'ın 1551'deki fethinden sonra Turgut Reis, Cemâziyelevvel 963'te (Mart 1556) beylerbeyi unvanıyla Trablusgarp'a geldi. Dokuz yıl süren valiliği boyunca eyaletin imar ve tahkimine çalıştı, Osmanlı idaresini güneyde Fizan'a kadar götürdü ve sınırları doğuya doğru genişleterek Berka kıyısındaki Tobruk ile Derne'yi aldı. Böylece Trablusgarp eyaleti Mısır sınırına kadar uzanan kıyı şeridini kapsar hâle geldi. ⚠️ TARİH HAKKINDA: TDV beylerbeyiliğin yılını (1556) ve ayını veriyor; Tobruk ile Derne'nin alınışına ayrı yıl vermiyor, yalnız Turgut Reis'in beylerbeyiliği sırasında (1556-1565) olduğunu söylüyor. Atlasın Tobruk için kullandığı 1556 bu dönemin başlangıç yılıdır. ⚠️ KAYNAK HAKKINDA: TDV `berka` Berka bölgesinin Mısır'ın fethinden sonra Osmanlı idaresine bağlandığını yazıyor; iki madde farklı şeyleri anlatıyor olabilir (bölgenin idarî bağı · kıyı kalelerinin fiilen alınışı), çelişki ilan edilmedi.",
+  kaynak:"derne + trablusgarp + turgut-reis — TDV derne birebir: 'Trablusgarp Turgut Reis'in teşvik ve gayretleriyle Osmanlı hâkimiyetine geçtikten sonra beylerbeyi unvanı ile buraya yerleşen Turgut Reis (Paşa) sınırlarını genişleterek doğuda Tobruk ve Derne'yi almıştı.' · TDV trablusgarp birebir: '1556'da Turgut Reis beylerbeyilikle buraya geldi. Turgut Reis'in dokuz yıllık valiliği…' · TDV berka: bölgenin 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandığı' · kaynak gösterimi: 1.MURAT M-3636 (TDV derne, KITA 15 YAMA-SIRENAYKA-0912); gövde KITA 14 tarafından 13 Eylül 2026'da ayrıca çekilip doğrulandı." },
 
 { t:"1556-07-16", b:"Kostayniçe ve Novi'nin fethi — Una hattının iki kalesi", tur:"fetih",
   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak","serhat"],

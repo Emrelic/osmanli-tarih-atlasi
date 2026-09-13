@@ -1434,11 +1434,11 @@ window.KRONOLOJI_ANADOLU = [
   d:"Osmanlı'ya tâbi olan Şehsuvaroğlu Ali Bey, Bozok bölgesinde patlak veren Şeyh Celâl isyanının bastırılmasına yardımcı oldu. Bu, beyliğin Osmanlı'ya bağlılığının ve tâbi statüsünün bir göstergesiydi.",
   kaynak:"dulkadirogullari" },
 
-{ t:"1521-01-01", b:"Canberdi Gazâlî isyanının bastırılmasına katkı", tur:"isyan",
-  onem:3, dunya:2, kapsam:"dis", etiket:["isyan", "Şam", "Canberdi Gazâlî"],
+{ t:"1521-01-27", b:"Canbirdi Gazâlî isyanının bastırılmasına katkı", tur:"isyan",
+  onem:3, dunya:2, kapsam:"dis", etiket:["isyan", "Şam", "Canbirdi Gazâlî"],
   yer_id:"", kapsam_genis:true,
-  d:"Şehsuvaroğlu Ali Bey, Şam Valisi Canberdi Gazâlî'nin Osmanlı'ya karşı başlattığı ayaklanmanın bastırılmasında Osmanlı kuvvetlerine destek verdi. Bu, beyliğin son yıllarında Osmanlı'ya sadakatinin bir başka göstergesiydi.",
-  kaynak:"dulkadirogullari" },
+  d:"Şehsuvaroğlu Ali Bey, Şam beylerbeyi Canbirdi Gazâlî'nin Osmanlı'ya karşı başlattığı ayaklanmanın bastırılmasında Osmanlı kuvvetlerine destek verdi: sefere katılması için kendisine emir gönderilmişti ve isyancı ordu 27 Ocak 1521'de Mastaba'da bozguna uğradı. Bu, beyliğin son yıllarında Osmanlı'ya sadakatinin bir başka göstergesiydi.",
+  kaynak:"TDV `canbirdi-gazali`: '27 Ocak 1521'de yapılan savaşta Canbirdi'nin ordusu bozguna uğradı.' · 'Dulkadırlı Şehsuvaroğlu Ali Bey ve Ramazanoğlu Pîrî Bey'e sefere katılmaları için emirler gönderildi.' · önceki dayanak: dulkadirogullari · (yazım TDV'ye uyduruldu: Canberdi → Canbirdi; `canberdi-gazali` slugu 302 ÖLÜ)" },
 
 { t:"1522-01-01", b:"Maraş merkezli Osmanlı eyaleti kuruldu", tur:"idari",
   onem:5, dunya:2, kapsam:"dis", etiket:["ilhak", "eyalet", "Maraş"],

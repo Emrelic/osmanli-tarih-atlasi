@@ -106,8 +106,8 @@ window.OLAYLAR_EK8 = [
   "yer": "Şehrizor (Zalm Kalesi), Kürdistan",
   "yer_id": "Şehrizor",
   "kisiler": "Baltacı Mehmed Paşa, Kanûnî Sultan Süleyman",
-  "d": "TDV İslâm Ansiklopedisi'nin Şehrizor maddesine göre bölgenin merkezî kalesi Zalm, Baltacı Mehmed Paşa kumandasındaki kuvvetlerce kuşatılarak 22 Ağustos 1554'te alındı. Böylece Zağros'un batı yamacındaki Şehrizor havzası Osmanlı idaresine girdi ve Bağdat ile Kürdistan arasındaki bağlantı güvenceye alındı. 1563'te Beylerbeyi Muzaffer Paşa yeni eyalet merkezi olarak Gülanber Kalesi'ni inşa etti; kale 1623'te Şah Abbas'ın emriyle yıktırılacak, 1638'de Hüsrev Paşa döneminde yeniden kurulacaktı.",
-  "kaynak": "sehrizor",
+  "d": "Kanûnî'nin Nahçıvan seferi sırasında Bağdat Beylerbeyi Osman Paşa, Şehrizor yöresini ele geçirmekle görevlendirilmişti; onun ölümü üzerine Bağdat beylerbeyi olan Baltacı Mehmed Paşa, bölgenin merkezî kalesi Zalm'ı kuşatarak 22 Ağustos 1554'te (23 Ramazan 961) aldı. Böylece Zağros'un batı yamacındaki Şehrizor havzası Osmanlı idaresine girdi ve Bağdat ile Kürdistan arasındaki bağlantı güvenceye alındı; bölge önce sancak hâline getirilerek Murad Bey'e verildi. 1563'te Beylerbeyi Muzaffer Paşa yeni eyalet merkezi olarak Gülanber Kalesi'ni inşa etti; kale 1623'te Şah Abbas'ın emriyle yıktırılacak, 1638'de Hüsrev Paşa döneminde yeniden kurulacaktı.",
+  "kaynak": "sehrizor — TDV birebir: 'Kanûnî'nin Nahcıvan seferi esnasında Bağdat Beylerbeyi Osman Paşa, Şehrizor yöresini ele geçirmekle görevlendirildi.' · '…Osman Paşa'nın vefatı üzerine Bağdat beylerbeyi olan Baltacı Mehmed Paşa tarafından zaptedildi (23 Ramazan 961 / 22 Ağustos 1554).' · 'Bölge sancak haline getirilerek Murad Bey'e verildi.' · (H-0017, 13 Eylül 2026: aynı fethin 1554-01-01 tarihli ikinci maddesi olaylar_ek5.js'ten kaldırıldı; kaynaklı bağlamı buraya taşındı)",
   "duygu": [
    "🎉"
   ]
