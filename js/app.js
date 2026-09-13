@@ -1396,12 +1396,69 @@ harita.on("load", function () {
   // ⚠️ fill-opacity TAM (1) — ①'in (alfa-harman) sebebi üç katmanın SAYDAM
   // olup üst üste binmesiydi; himaye-dolgu saydam olsaydı altındaki
   // vassal-dolgu ile harmanlanır, "kendi rengi" iddiası bozulurdu.
+  //
+  // 🆕🆕 İKİ PARÇALI ŞERİT — Emre'nin kararı, 13 Eylül 2026:
+  //   *"kırmızı şeridin dıştaki tarafı tam osmanlı kırmızısı olsun iç tarafı
+  //    da daha açık renk olan vassal pembesi ya da vassal kırmızısı olarak
+  //    daha hafif renkte olsun. himaye durumlarında himaye edilen devletin
+  //    rengi etrafına sınırları boyunca bu kırmızı şeridi çizelim. iki
+  //    parçalı kırmızı ince şerit."*
+  // Eski tek çizgi (`himaye-cizgi`, #8e0b22 · 2 px, sınıra ORTALI) KALDIRILDI:
+  // yarısı içe yarısı dışa taşan TEK renkti, "dış/iç" ayrımını taşıyamazdı.
+  //
+  // NASIL — `imparatorluk-hale`nin HALE tekniği iki kat (union/offset YOK):
+  //   ① `himaye-serit-dis`  #8e0b22 · genişlik 6p · dolgunun ALTINDA
+  //        ⇒ iç yarısını dolgu örter, yalnız DIŞ 3p görünür
+  //   ② `himaye-dolgu`      kendi rengi (değişmedi)
+  //   ③ `himaye-serit-ic`   #d4707d · genişlik 2p · dolgunun ÜSTÜNDE
+  //        (ve `osmanli-cizgi`nin de ÜSTÜNDE — aşağıya bak)
+  //        ⇒ içte p pembe; dışta p pembe, ①'in İÇ p'sini örter
+  //   Dıştan içe:  komşu | kırmızı 2p | pembe 2p (sınır ortasında) | kendi rengi
+  //   ⇒ iki parça EŞİT (2p + 2p), çünkü 3p − p = 2p. Oran bu yüzden 3:1.
+  //
+  // 🔴 NİÇİN `line-offset` DEĞİL: offset yönü halka DOLANIM YÖNÜNE bağlı ve
+  //    bunu ÖLÇMEDİM (motorun `mp_koord` çıktısı + geojson-vt rewind'i). Hale
+  //    tekniği yönden BAĞIMSIZ: "dolgunun altı = dış" tanım gereği doğru,
+  //    delikli gövdede de (delik içine doğru dış) doğru.
+  // 🔴 NİÇİN İÇ RENK #d4707d ve vassal-dolgu'nun kendisi (#b2384a) DEĞİL —
+  //    ÖLÇÜLDÜ (13 Eylül, gerçek app.js + sentetik himaye gövdesi, SERT kip,
+  //    readPixels kesitleri): #b2384a ile TÂBİ komşulu kenarda dıştan içe
+  //    `#b2384a | #8e0b22 | #b2384a | kendi rengi` çıktı — iç parça DIŞTAKİ
+  //    vassal dolgusuyla AYNI renk, şerit "pembe arasında tek kırmızı çizgi"
+  //    okunuyor, iki parça görünmüyor. Himayenin tipik yeri tam da tâbi
+  //    kuşağın içi (Budin 1529). #d4707d aynı aile (vassal-dolgu'nun 2 Eylül
+  //    öncesi tonu, yukarıdaki "Eski: #d4707d" notu) ve `#b2384a | #8e0b22 |
+  //    #d4707d | kendi rengi` veriyor — üç ton da ayrışıyor.
+  // ⚠️ SIRA ŞARTI ①: `himaye-serit-dis` `vassal-dolgu`nun ÜSTÜNDE olmalı.
+  //    Himaye toprağı tâbi kümesinin alt kümesi (şema notu, yukarıda `d.h`);
+  //    altında kalsaydı DIŞ yarıyı vassal dolgusu örterdi ve kırmızı parça
+  //    tâbi komşulukta HİÇ görünmezdi.
+  // ⚠️ SIRA ŞARTI ③: `himaye-serit-ic` `osmanli-cizgi`nin ÜSTÜNDE. Ölçüldü:
+  //    dolgunun hemen üstündeyken DOĞRUDAN Osmanlı komşulu kenarda
+  //    `osmanli-cizgi` (#4d0713 · 1.8 px) iç pembeyi TAMAMEN örtüyordu
+  //    (kesit: `kendi rengi | #4d0713 | #8e0b22`). O kenarda dış kırmızıyı
+  //    zaten `osmanli-dolgu`nun kendisi (#8e0b22) veriyor; üste alınan pembe
+  //    iki parçayı geri getiriyor.
+  // ⚠️ YUMUŞAK kipte (`SIYASI_KIP.yumusak`, himaye-dolgu 0.60) ①'in iç yarısı
+  //    saydam dolgunun ALTINDAN soluk görünür — alfa harmanının o kipte
+  //    zaten yazılı bedeli.
+  // 📌 İNCE KALSIN: p zoomla 0.5 → 1 px; şerit toplamı 2 px (zoom 3) →
+  //    4 px (zoom 8). Eski tek çizginin 2 px'i ile aynı mertebe.
+  //    ⚠️ Zoom 3'te iki parça 1'er piksele iner ve kenar yumuşatmasıyla
+  //    kaynaşır (ölçüldü) — orada şerit tek koyu kırmızı hat gibi okunur.
+  var HIMAYE_P = [3, 0.5, 5, 0.75, 8, 1];      // [zoom, p, zoom, p …]
+  function himayeGenislik(kat) {
+    var ifade = ["interpolate", ["linear"], ["zoom"]];
+    for (var hi = 0; hi < HIMAYE_P.length; hi += 2)
+      ifade.push(HIMAYE_P[hi], HIMAYE_P[hi + 1] * kat);
+    return ifade;
+  }
   harita.addSource("himaye", agirKaynak());
+  harita.addLayer({ id: "himaye-serit-dis", type: "line", source: "himaye",
+    layout: { "line-join": "round" },
+    paint: { "line-color": "#8e0b22", "line-width": himayeGenislik(6), "line-opacity": 1 } });
   harita.addLayer({ id: "himaye-dolgu", type: "fill", source: "himaye",
     paint: { "fill-color": ["coalesce", ["get", "renk"], "#b2384a"], "fill-opacity": 1 } });
-  harita.addLayer({ id: "himaye-cizgi", type: "line", source: "himaye",
-    layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": "#8e0b22", "line-width": 2, "line-opacity": 1 } });
 
   harita.addSource("osmanli", agirKaynak());
   harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
@@ -1410,6 +1467,10 @@ harita.on("load", function () {
   // dış hattını fill-outline ile verir (aynı renk komşu petekte kaybolur).
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
     paint: { "line-color": "#4d0713", "line-width": 1.8 } });
+  // Himaye iç şeridi — ③, SIRA ŞARTI ③ yukarıda: `osmanli-cizgi`nin ÜSTÜNDE.
+  harita.addLayer({ id: "himaye-serit-ic", type: "line", source: "himaye",
+    layout: { "line-join": "round" },
+    paint: { "line-color": "#d4707d", "line-width": himayeGenislik(2), "line-opacity": 1 } });
 
   // 🆕 C ÇİZİM KATMANI (11 Eylül 2026, SEMA-C-0911.md §8) — window.HUKUKI_
   // SINIRLAR'ın antlaşma sınırları. "C üçüncü bir katman DEĞİL" (Emre) —
