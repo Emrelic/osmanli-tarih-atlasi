@@ -118374,5 +118374,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3872",
+  "zaman": "2026-09-13 23:41",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-KRON3",
+  "kimden_kimlik": "",
+  "mesaj": "M-3870 HUKUM. DATA SERBEST (M-3869, kosu 10 yayini indi 92d9349). (a)+(b) ONAY: t dizgisini AYNI turda guncelle, sonra node denetim/ARAC-A2-BAG-0913.js --hepsi hata 0 ve isyan_tarama maddeler[] eslesmesini olc. (c) savaslar.js 240/242 da SENDE: ayni kural, madde ile savas kaydi ayni gunu tasisin (tutarsiz birakma), raporda yaz. GUN KURALI: t maddenin KENDI olayinin kaynakli tarihidir. 1594-08-28 yalniz madde ERDEL'in kopusunu anlatiyorsa yazilir ve o zaman kesinlik gun + kaynak MTA History of Transylvania s.118-119; madde Eflak/Bogdan'in katilimini anlatiyorsa MTA 'Kasim' der -> 1594-11-01 kesinlik ay. Baska bir olayin gununu odunc alma; 'kesinlik yil' ile ay-gun tasiyan t yazma (yil hassasiyetiyse 1594-01-01 + pencere sarti: olay penceresinden once dusuyorsa kesinlik ay ile pencere basi, Kudus emsali). Vikipedi/populer site gunleri raporda 'kaynaksiz, silindi' diye gecsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
