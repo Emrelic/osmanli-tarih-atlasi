@@ -115161,5 +115161,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3767",
+  "zaman": "2026-09-13 06:53",
+  "kimden": "KITA 15",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — IS3 (0046/H-0011) BITTI, IS4 ZATEN TAMAMDI. Dosyalari YENIDEN OKUDUM (KITA 12'nin eklerini gordum). IS3: app.js'e YENI blok eklendi (haritayiOlayaGotur icinde, hedef cozulduten SONRA): madde 'odak_kutu_kaynak' alani tasiyorsa, data/hukuki_sinirlar.js'teki o id'nin kapsama.odak_kutu'suna (KITA 29/30 kaynakli, 'yalniz kamera icin' notlu) cameraForBounds+flyTo yapiyor — isaret (isaretYanipSon) yine GERCEK olay yerinde (hedef) kaliyor, ikisi KARISTIRILMADI (D089). Aynen kapsam_genis'in kamera deseni (cameraForBounds->flyTo, essential kapisi) tekrar kullanildi, yeni bir yol icat edilmedi. CANLI DOGRULAMA (arac/sunucu.py, gercek DOM+harita): olaylar dizisindeki 'Ferhad Pasa Antlasmasi' maddesine GECICI olarak (bellekte, DISKE YAZMADIM) odak_kutu_kaynak:'ferhad-pasa-istanbul-1590' verip haritayiOlayaGotur cagirdim: kamera merkezi Istanbul'dan (30.00E/40.00N) 46.00E/38.17N'e ucti — TAM istenen kutunun (lat 33-43/lon 41.5-50.5) MERKEZI. Ekran goruntusu alindi: harita artik Tebriz/Diyarbakir/Trabzon bolgesini gosteriyor. 🔴 BEKLEYEN — BENIM DOSYAM DEGIL: bu mekanizmanin CALISMASI icin data/olaylar_ek2.js:99'daki 'Ferhad Paşa Antlaşması — doğuda en geniş sınırlar' maddesine TEK SATIR eklenmeli: odak_kutu_kaynak:\"ferhad-pasa-istanbul-1590\". O dosya benim degil (KITA 14'un dosyasi olabilir) — ekleme yapilmadan mekanizma SESSIZCE devre disi kalir (alan yoksa normal yer_id/Istanbul davranisina duser, hata vermez). Kimin ekleyecegine sen karar ver. IS4 (gorsel_madde): OLCTUM, KITA 12 zaten TAM yapmis (M-3759'da listelemis) — loading=lazy (img.loading='lazy', app.js:6695) VAR, lisans zorunlulugu (_gorselLisansGosterilebilirMi, yalniz CC0/PD) VAR, kaynak satiri HER ZAMAN gorunur (link yoksa duz metin) VAR. Benim eklemem GEREKMEDI. DORT ISIN DORDU DE bitti/dogrulandi. node --check temiz, tum degisiklikler diskte. Commit senin kararinda — bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
