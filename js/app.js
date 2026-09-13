@@ -5138,7 +5138,16 @@ var _cAktifId = null;
 function _hukukiSinirGuncelle(gun) {
   if (!haritaHazir || !harita.getSource("hukuki-sinir-dolgu")) return;
   var aktif = (window.HUKUKI_SINIRLAR || []).filter(function (k) {
-    return gunIdx(k.f) <= gun && gun < gunIdx(k.t);
+    // 🔴 13 Eylül 2026 — C ŞEMASI (SEMA-C-0911.md §8.1) "t: null = açık"
+    // diyor ama gunIdx(k.t) null'da TypeError atıyordu (KITA 30, M-3701;
+    // geçici çare olarak veride t:"1923-10-29" yazıp önlemişti). Kalıcı
+    // çare BURADA, gunIdx'e DEĞİL — global fonksiyonun sözleşmesini
+    // (her zaman geçerli bir tarih dizgisi alır) zayıflatmak, ondan
+    // beslenen düzinelerce başka çağrıyı sessizce null'a açık bırakırdı
+    // (D012). Açık uç, atlasın kendi pencere sonuna kadar (BITIS)
+    // geçerli sayılır — bu satırdan sonra veride t:null yazılabilir,
+    // 1923-10-29 devralınmasına gerek kalmaz.
+    return gunIdx(k.f) <= gun && (k.t == null || gun < gunIdx(k.t));
   });
   var id = aktif.map(function (k) { return k.id; }).join("+") || null;
   if (id === _cAktifId) return;               // hiçbir şey değişmedi — dokunma
@@ -6495,20 +6504,83 @@ function obGoster(o) {
 // çıkarsa (başka bir oturum yazınca) kod DOKUNULMADAN bir sonraki sayfa
 // yüklemesinde kendiliğinden çıkar.
 var EKOKUMA_DURUM = { yuklendi: false, deneniyor: false };
+// 🔴🔴 13 Eylül 2026 — YÜKLEYİCİ SABİT İKİLİDEN LİSTEYE GENİŞLETİLDİ.
+// Paket 0045 kuyruğu (KITA 17/20/21/22/23) her tür için kendi
+// data/ekokuma_<tur>.js dosyasını yazıyor (ORTAK-0045 §③); yükleyici
+// yalnız ekokuma.js+merak.js çekiyordu, yeni dosyalar SESSİZCE hiç
+// görünmüyordu (D099 — hiçbir hata, hiçbir uyarı; `denetle_yayin.py`nin
+// "yetim veri dosyası" denetimi bu yüzden kırmızıydı: antlasma2 ·
+// edebiyat · magazin · mimari · sh104, 5 dosya). Tek tek satır eklemek
+// (KITA 24'ün önceki H-0004 çözümü) her yeni tür için AYNI değişikliği
+// tekrarlatırdı (KITA 21'in M-3656 önerisi buydu) — liste + kalan =
+// liste.length bunu kalıcı hâle getiriyor: yeni bir tür geldiğinde
+// yalnız bu diziye bir satır eklenir, gövde ve sayaç DOKUNULMAZ kalır.
+// 🔴 13 Eylül 2026 — koordinatör isteği (dosya adı BİLİNMEDEN de çalışsın
+// diye): ["yol", "AD"] çiftleri yerine dosya adı listesi — bekleyen üç tür
+// (tartışma/kadın/ekonomi) diskte YOKKEN de buraya eklendi; `onerror`
+// zaten sessizce atlıyor, dosya bir gün gelince KOD DOKUNULMADAN çıkar.
+var _EKOKUMA_DOSYA_ADLARI = [
+  "ekokuma", "merak",
+  "ekokuma_antlasma2",  // KITA 21, M-3656/M-3672
+  "ekokuma_magazin",    // KITA 22, M-3665/M-3675
+  "ekokuma_mimari",     // KITA 23, M-3661/M-3663
+  "ekokuma_edebiyat",   // KITA 17, M-3654/M-3657
+  "ekokuma_savas",      // KITA 20, TUR-KITA20-SAVAS-0913.md
+  "ekokuma_sh104",      // 1 Eylül'den beri bekleyen yetim (M-3661)
+  "ekokuma_tartisma",   // KITA 26, M-3690 — henüz diskte YOK, sessizce atlanır
+  "ekokuma_kadin",      // KITA 27, M-3693 — henüz diskte YOK, sessizce atlanır
+  "ekokuma_ekonomi",    // KITA 28, M-3686 — henüz diskte YOK, sessizce atlanır
+  // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
+  // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
+  // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
+  // gerekir). O karar gelmeden dosya hazırda dursun diye eklendi.
+  "gorsel_madde"        // KITA 24, M-3650
+];
 function ekOkumaMerakYukle(biterse) {
   if (EKOKUMA_DURUM.yuklendi || EKOKUMA_DURUM.deneniyor) { if (biterse) biterse(); return; }
   EKOKUMA_DURUM.deneniyor = true;
   var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
   var v = (damga.match(/v=(r\d+)/) || [])[1];
-  var kalan = 2;
-  function biri() { kalan--; if (kalan <= 0) { EKOKUMA_DURUM.yuklendi = true; if (biterse) biterse(); } }
-  [["data/ekokuma.js", "EKOKUMA"], ["data/merak.js", "MERAK"]].forEach(function (pair) {
+  var kalan = _EKOKUMA_DOSYA_ADLARI.length;
+  var _bulunan = 0, _bulunmayan = 0;
+  function biri(varMi) {
+    if (varMi) _bulunan++; else _bulunmayan++;
+    kalan--;
+    if (kalan <= 0) {
+      EKOKUMA_DURUM.yuklendi = true;
+      console.log("[ekOkuma] " + _bulunan + "/" + _EKOKUMA_DOSYA_ADLARI.length +
+                   " dosya yüklendi (" + _bulunmayan + " henüz yok, normal).");
+      if (biterse) biterse();
+    }
+  }
+  _EKOKUMA_DOSYA_ADLARI.forEach(function (ad) {
     var s = document.createElement("script");
-    s.src = pair[0] + (v ? "?v=" + v : "");
-    s.onload = biri;
-    s.onerror = biri;   // dosya henüz yok — sessiz, buton çıkmaz
+    s.src = "data/" + ad + ".js" + (v ? "?v=" + v : "");
+    s.onload = function () { biri(true); };
+    s.onerror = function () { biri(false); };   // dosya henüz yok — sessiz, buton çıkmaz
     document.head.appendChild(s);
   });
+}
+// GENEL HAVUZ — koordinatörün isteği (yayın kapısının dinamik dalıyla AYNI
+// biçim: `/^EKOKUMA.../` çıpalı regex): dosya EKLENDİĞİNDE bu fonksiyona
+// DOKUNULMASI GEREKMEZ, yeni `window.EKOKUMA_<AD>` kendiliğinden toplanır.
+// Aşağıdaki dokuz türün kaynağı budur; her biri kendi `tur` alanına göre
+// zaten SÜZÜLÜYOR (bkz. ekOkumaButonlariGuncelle → k.tur === tur), yani
+// havuzu birleştirmek yanlış türde kart GÖSTERMEZ — "edebiyat"/"savas-
+// hikayesi" kendi ayrı havuzunu istese de (M-3654/TUR-KITA20-SAVAS) aynı
+// bu havuzdan okuyabilir, çünkü tur süzgeci zaten ayırıyor.
+function _ekHavuz() {
+  return Object.keys(window)
+    .filter(function (k) { return /^EKOKUMA(_[A-Z0-9]+)?$/.test(k) && Array.isArray(window[k]); })
+    .reduce(function (acc, k) { return acc.concat(window[k]); }, []);
+}
+// AYNI DESEN — görsel havuzu. Bugün TEK kullanıcısı yok (madde görseli
+// gösterimi ayrı bir karar, M-3651); dosya yalnız BELLEĞE alınıyor. Karar
+// gelince kaynak burası olur, yeni bir toplayıcı yazmaya gerek kalmaz.
+function _gorselHavuz() {
+  return Object.keys(window)
+    .filter(function (k) { return /^GORSEL_MADDE(_[A-Z0-9]+)?$/.test(k) && Array.isArray(window[k]); })
+    .reduce(function (acc, k) { return acc.concat(window[k]); }, []);
 }
 
 // Bir kartın verilen kronoloji maddesine bağlı olup olmadığı — üç örnek
@@ -6522,8 +6594,8 @@ function ekKartBagliMi(kart, o) {
   return liste.indexOf(o.t) >= 0;
 }
 var EKOKUMA_TUR = {
-  "sebep-sonuc": { etiket: "🔗 Sebep-Sonuç", kaynak: function () { return window.EKOKUMA || []; } },
-  "magazin":     { etiket: "🎭 Magazin",     kaynak: function () { return window.EKOKUMA || []; } },
+  "sebep-sonuc": { etiket: "🔗 Sebep-Sonuç", kaynak: function () { return _ekHavuz(); } },
+  "magazin":     { etiket: "🎭 Magazin",     kaynak: function () { return _ekHavuz(); } },
   "merak":       { etiket: "❓ Merak",        kaynak: function () { return window.MERAK || []; } },
   // 🔴🔴 24 Ağustos 2026 — 0034/H-0010: *"TÜM ANLAŞMA içeren maddelerin
   // içine ANLAŞMA METNİ butonu"* (Emre).
@@ -6561,7 +6633,7 @@ var EKOKUMA_TUR = {
   "antlasma":    { etiket: "📜 Antlaşma hükümleri", turAlaniYok: true,
                    kaynak: function () {
                      return (window.ANTLASMALAR || []).concat(
-                       (window.EKOKUMA || []).filter(function (k) {
+                       _ekHavuz().filter(function (k) {
                          return k.tur === "antlasma";
                        }));
                    } },
@@ -6575,13 +6647,23 @@ var EKOKUMA_TUR = {
   // değerden biriyle yazsın, kod DOKUNULMADAN buton çıkar (kuyruğun kendi
   // ayrımı: "(a) tür tanımı arayüz-küçük, (b) 1277 maddenin içeriği
   // veri-büyük" — burada yalnız (a) yapıldı, içerik AYRI iş).
-  "tartisma":        { etiket: "💬 Tartışma",        kaynak: function () { return window.EKOKUMA || []; } },
-  "teknik-bilimsel": { etiket: "🔬 Teknik / Bilimsel", kaynak: function () { return window.EKOKUMA || []; } },
-  "kimdir":          { etiket: "🪪 Kimdir?",           kaynak: function () { return window.EKOKUMA || []; } },
-  "dis-yankilar":    { etiket: "🌐 Dış Yankılar",      kaynak: function () { return window.EKOKUMA || []; } },
-  "kahramanlik":     { etiket: "🛡️ Kahramanlık",      kaynak: function () { return window.EKOKUMA || []; } },
-  "menkibeler":      { etiket: "📖 Menkıbe",           kaynak: function () { return window.EKOKUMA || []; } },
-  "sok-haberler":    { etiket: "📰 Şok Haber",         kaynak: function () { return window.EKOKUMA || []; } }
+  "tartisma":        { etiket: "💬 Tartışma",        kaynak: function () { return _ekHavuz(); } },
+  "teknik-bilimsel": { etiket: "🔬 Teknik / Bilimsel", kaynak: function () { return _ekHavuz(); } },
+  "kimdir":          { etiket: "🪪 Kimdir?",           kaynak: function () { return _ekHavuz(); } },
+  "dis-yankilar":    { etiket: "🌐 Dış Yankılar",      kaynak: function () { return _ekHavuz(); } },
+  "kahramanlik":     { etiket: "🛡️ Kahramanlık",      kaynak: function () { return _ekHavuz(); } },
+  "menkibeler":      { etiket: "📖 Menkıbe",           kaynak: function () { return _ekHavuz(); } },
+  "sok-haberler":    { etiket: "📰 Şok Haber",         kaynak: function () { return _ekHavuz(); } },
+  // 🆕 13 Eylül 2026 — KITA 17 (M-3654) ve KITA 20 (TUR-KITA20-SAVAS-0913.md).
+  // İkisi de mevcut 9 türe UYMADIĞI için YENİ tür oldu (edebiyat: sanatçı+
+  // eser+alıntı şeması hiçbirine sığmıyor; savaş hikâyesi: dört bölümlü
+  // öncesi/akış/sonuç/tartışma şeması sebep-sonuc'un tek çiftine sığmıyor)
+  // — ama KENDİ HAVUZLARINDAN OKUMALARI GEREKMİYOR: `_ekHavuz()` regex'i
+  // (`/^EKOKUMA_[A-Z0-9]+$/`) EKOKUMA_EDEBIYAT/EKOKUMA_SAVAS'ı da toplar
+  // ve `k.tur === tur` süzgeci (ekOkumaButonlariGuncelle) zaten yalnız
+  // kendi türünü seçer — YİNELENME riski yok, tek havuz yeter.
+  "edebiyat":        { etiket: "🖋️ Edebiyat",         kaynak: function () { return _ekHavuz(); } },
+  "savas-hikayesi":  { etiket: "⚔️ Savaşın Hikâyesi", kaynak: function () { return _ekHavuz(); } }
 };
 
 function ekOkumaButonlariGuncelle(o) {
@@ -6682,6 +6764,38 @@ function ekKartHtml(k) {
     (k.goruşler || k.gorusler || []).forEach(function (g, i) {
       h += '<div class="ek-goruş"><b>Görüş ' + (i + 1) + "</b>" + ekEsc(g.tez) +
            (g.dayanak ? " — " + ekEsc(g.dayanak) : "") + "</div>";
+    });
+  } else if (k.tur === "edebiyat") {
+    // KITA 17 (M-3654) — şema: id·tur·olay·baslik·sanatci{ad,hayat,onem}·
+    // metin·alinti{metin,kaynak}·gorsel·kesinlik·kaynak. `alinti`/`gorsel`
+    // bugün tüm kayıtlarda "bulunamadı" (telif kırmızı çizgisi) — o değer
+    // SESSİZCE gizlenir, boş etiket basılmaz.
+    h += "<h4>" + ekEsc(k.baslik) + "</h4>";
+    if (k.sanatci) h += '<p class="ek-alt"><b>' + ekEsc(k.sanatci.ad) + "</b> — " +
+                         ekEsc(k.sanatci.hayat) + "</p>";
+    if (k.sanatci && k.sanatci.onem) h += "<p>" + ekEsc(k.sanatci.onem) + "</p>";
+    if (k.metin) h += "<p>" + ekEsc(k.metin) + "</p>";
+    if (k.alinti && k.alinti.metin &&
+        k.alinti.metin.indexOf("bulunamadi") !== 0 &&
+        k.alinti.metin.indexOf("bulunamadı") !== 0) {
+      h += '<p class="ek-alt">' + ekEsc(k.alinti.metin) + "</p>";
+    }
+    if (k.gorsel) h += '<img src="' + ekEsc(k.gorsel) + '" alt="" style="max-width:100%">';
+  } else if (k.tur === "savas-hikayesi") {
+    // KITA 20 (denetim/TUR-KITA20-SAVAS-0913.md §④) — dört bölümlü anlatı:
+    // öncesi · taraflar · akış · sonuç (+ kaynakların ayrıştığı tartışma).
+    h += "<h4>" + ekEsc(k.baslik) + "</h4>";
+    if (k.tarih_metin || k.yer) {
+      h += '<p class="ek-alt">' + ekEsc([k.tarih_metin, k.yer].filter(Boolean).join(" · ")) + "</p>";
+    }
+    (k.taraflar || []).forEach(function (t) {
+      h += '<p class="ek-alt"><b>' + ekEsc(t.ad) + "</b>" +
+           (t.komutan ? " — " + ekEsc(t.komutan) : "") +
+           (t.kuvvet ? " · " + ekEsc(t.kuvvet) : "") + "</p>";
+    });
+    [["oncesi", "Öncesi"], ["akis", "Muharebe"], ["sonuc", "Sonuç ve etkisi"],
+     ["tartisma", "Kaynaklar nerede ayrışıyor"]].forEach(function (b) {
+      if (k[b[0]]) h += "<p><b>" + b[1] + ":</b> " + ekEsc(k[b[0]]) + "</p>";
     });
   } else if (!k.tur && (k.ozet || k.topraklar)) {
     // 📜 ANTLAŞMA — `ANTLASMALAR` kaydı, `tur` alanı taşımaz.
@@ -8012,12 +8126,15 @@ function isaretYanipSon(hedef) {
     el.className = "odak-parlama";
     _yanipSonEl = new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat([hedef.lon, hedef.lat]).addTo(harita);
-    // CSS animasyonu 2 çevrim (0,55 sn × 2) — süre oradan geliyor, burada
-    // TEKRARLANMIYOR ki ikisi ayrışmasın (iki yerde duran sayı bayatlar).
+    // CSS animasyonu 3 çevrim (0,55 sn × 3 = 1,65 sn) — süre oradan geliyor,
+    // burada TEKRARLANMIYOR ki ikisi ayrışmasın (iki yerde duran sayı
+    // bayatlar). 🔴 13 Eylül 2026: 2→3 çevrime çıkarken (css/style.css
+    // .odak-parlama, Emre'nin paket 0046 H-0006 talebi) bu süre AYNI
+    // oranla büyütüldü (1250 = 2×550+150 idi → 1800 = 3×550+150).
     _yanipSonZaman = setTimeout(function () {
       if (_yanipSonEl) { _yanipSonEl.remove(); _yanipSonEl = null; }
       _yanipSonZaman = null;
-    }, 1250);
+    }, 1800);
   } catch (e) { /* harita hazır değil — sessiz geç */ }
 }
 
