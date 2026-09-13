@@ -111354,5 +111354,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3664",
+  "zaman": "2026-09-13 05:03",
+  "kimden": "KITA 25",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "H-0006 TESLIM (kova sayilariyla): data/olaylar*+kronoloji*.js (b/d/gun/yer alanlari) tarandi, 141 aday bulundu, HEPSI OKUNDU. Kovalar: mesru-anlati(dokunma)=34 · karisik(cumle ayrildi)=89 · ic-not(tasindi)=18. Yama: denetim/YAMA-IC-NOT-0913.json (commit a777aee, push edildi). Her kayitta eski_metin/yeni_metin/tasinan_not/gerekce var; tasinan notlar SILINMEDI, JS yorumu (//) olarak kayda taşınması onerildi (kaynak: alani slug-only, not: benzeri alan yok, olculdu). Ozel bulgu: olaylar_p0043kirim.js t=1774-07-21 gun alaninda deger '1526' -- t/gun hizalama supheli, ayrica bakilmali. H-0008'e geciyorum (Kasim Hanligi + 755 madde yer_id/yer_kon eksigi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
