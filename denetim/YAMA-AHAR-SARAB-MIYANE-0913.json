@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "oturum": "ASM-ARASTIRMA",
+    "tarih": "2026-09-13",
+    "durum": "ONERI - UYGULANMADI (kosu aktif, data/ donuk)",
+    "rapor": "denetim/OLCUM-AHAR-SARAB-MIYANE-0913.md",
+    "kural": "CLAUDE.md §4 ATLAS REFERANS DEGILDIR - atlas degerleri yalniz 'mevcut' alaninda, dayanak degil",
+    "uyari": "Degismez 2 penceresi ve bosluk/enklav benzetimi OLCULMEDI; uygulamadan once denetle.py + renk_olc.py sart"
+  },
+  "oneriler": [
+    {
+      "kimlik": "ASM-AHAR",
+      "ad": "Ahar (Karadağ)",
+      "dosya": "data/yerlesimler.js",
+      "mevcut": {"d": [{"f": "1585-09-25", "t": "1603-10-21"}, {"f": "1725-08-04", "t": "1730-08-12"}], "s_ilgili": {"f": "1501-07-01", "t": "1736-03-08", "d": "safevi"}},
+      "hukum": "1585-09-25→1588 SAFEVI (kaynakli TR) · 1588→1592 TABI (kaynakli IR+TR+RU) · 1592→1603-10-21 SAFEVI (kaynakli IR; TR ve RU ile CELISIK)",
+      "secenek_A_onerilen": {
+        "aciklama": "IR Eskandar s.619-620, 630'a gore",
+        "d_kaldir": {"f": "1585-09-25", "t": "1603-10-21"},
+        "v_ekle": {"f": "1588-01-01", "t": "1592-01-01"},
+        "s": "safevi blogu 1501-07-01→1736-03-08 zaten kapsiyor; v: bu araligin ustune biner",
+        "hassasiyet": "iki uc da YIL. Baslangic yili acikca RU Petrushevsky '(1588)'; IR 997/1588-89. Bitis IR 'Nevruz 17 Mart 1592 sonrasi' -> 1592-01-01 (yil duzeyi, Nevruzdan once duser - bildirildi)"
+      },
+      "secenek_B": {
+        "aciklama": "TR Kutukoglu s.195 ahidname sarti + RU Petrushevsky s.93-94, 168-169'a gore",
+        "d_kaldir": {"f": "1585-09-25", "t": "1603-10-21"},
+        "v_ekle": {"f": "1588-01-01", "t": "1603-10-21"}
+      },
+      "neden_A": "Eskandar cagdas ve olay duzeyinde: tahdit, Sahverdi'nin kacisi, yerine vali atanmasi, 1592-93'te idam (s.630). Petrushevsky 'idam 1603 sonrasi' diyor ve ayni esere dayaniyor (dn. tam metni okunmadi). Kutukoglu sarti 998 Nevruzu'ndaki tasarrufu sayiyor; Muhimme LXVII 272 tahdidin 'kimin tasarrufunda ise' esasli oldugunu gosteriyor -> iki kaynak farkli anlari anlatiyor olabilir (olculmedi).",
+      "karar_gerekli": true,
+      "kaynaklar": [
+        {"gelenek": "IR", "kaynak": "Eskandar Beg Monshi, tr. Savory 1978, II s.582 (997/1588-89)", "icerik": "Sahverdi Khan, governor of Qaraja-dag, tendered his submission to Ja'far Pasha, son sent to Tabriz as hostage"},
+        {"gelenek": "IR", "kaynak": "ayni eser II s.615 (1000/1591-92)", "icerik": "Hasan Khan Cavuslu + Bestam Aqa with Kezr Pasha of Nakhchivan to demarcate the Azerbaijan border"},
+        {"gelenek": "IR", "kaynak": "ayni eser II s.619-620 (1001/1592-93, Nevruz 17 Mart 1592)", "icerik": "Qaraja-dag was allotted to Iran; Sahverdi fled to Ottoman territory; Shah appointed another governor of Qaraja-dag"},
+        {"gelenek": "IR", "kaynak": "ayni eser II s.630", "icerik": "Sahverdi pardoned at Bestam, later conspired and was put to death"},
+        {"gelenek": "TR", "kaynak": "Kutukoglu 1962 s.168", "icerik": "Ca'fer Pasa Serab'dan ileri gitmeyip Tebriz'e dondu; Karacadag hakimi Sahverdi Han oglunu Tebriz'e gondererek itaat etti"},
+        {"gelenek": "TR", "kaynak": "Kutukoglu 1962 s.195-196", "icerik": "ahidname sarti 2: 998 Nevruzu'na kadar tasarruf edilen Tebriz, Karacadag, Gence ... korunur"},
+        {"gelenek": "TR", "kaynak": "Kutukoglu 1962 s.196-197 dn.186, 190 (-> Muhimme LXVII 272, 15 Cemaziyelevvel 999; BL Add. 1688 143a-145a OKUMADIM)", "icerik": "tahdit: yerler kimin tasarrufunda ise birakilir, arada bir iki koyluk hali yer"},
+        {"gelenek": "TR", "kaynak": "TDV tebriz [184]", "icerik": "1593 liva listesinde Karadag YOK"},
+        {"gelenek": "RU", "kaynak": "Petrushevsky 1949 s.93-94, 168-169 (PDF s.50, 86)", "icerik": "1588'de Turklere gecti; turk hakimiyeti 1588-1603; 1603 Safevi fethinden sonra idam"},
+        {"gelenek": "DE", "kaynak": "Hammer-Purgstall GOR IV s.182", "icerik": "baris listesi: Tebriz+Azerbaycan, Gence-Karabag, Sirvan, Gurcistan, Loristan, Sehrizol - Karadagh YOK"},
+        {"gelenek": "AZ", "kaynak": "Azerbaycan tarixi-8, Tehsil Nazirliyi 2014 (resmi ders kitabi, isaret duzeyi)", "icerik": "Ardabil, Xalxal, Qaradag, Zencan, Qazvin, Lenkeran disinda Azerbaycan Osmanliya"}
+      ]
+    },
+    {
+      "kimlik": "ASM-SARAB",
+      "ad": "Sarâb",
+      "dosya": "data/yerlesimler.js",
+      "mevcut": {"d": [{"f": "1585-09-25", "t": "1603-10-21"}, {"f": "1725-08-04", "t": "1730-08-12"}]},
+      "hukum": "BELIRSIZ - erisim var (IR+TR), tasarruf kaynagi yok; 1593 Osmanli liva listesinde yok",
+      "secenek_A_onerilen": {"aciklama": "BEKLET - Kutukoglu cilt II / BL Add. 1688 sinirname okunana kadar dokunma", "degisiklik": null},
+      "secenek_B": {"aciklama": "kaynaksiz Osmanli d: kaldirilir, safevi blogu surer (CIKARIM-zayif: 'Serab'dan ileri gitmeyip Tebriz'e dondu')", "d_kaldir": {"f": "1585-09-25", "t": "1603-10-21"}},
+      "karar_gerekli": true,
+      "kaynaklar": [
+        {"gelenek": "IR", "kaynak": "Eskandar/Savory II s.582", "icerik": "advanced as far as Sarab, making for Ardabil, but was unable to proceed further and returned to his base"},
+        {"gelenek": "TR", "kaynak": "Kutukoglu 1962 s.168 (dizin: Serab (Serav), 168)", "icerik": "Ca'fer Pasa Serab'dan daha ileri gitmeyip Tebriz'e dondu"},
+        {"gelenek": "TR", "kaynak": "TDV tebriz [184]", "icerik": "1593 liva listesinde Sarab YOK"}
+      ]
+    },
+    {
+      "kimlik": "ASM-MIYANE",
+      "ad": "Miyâne",
+      "dosya": "data/yerlesimler.js",
+      "mevcut": {"d": [{"f": "1585-09-25", "t": "1603-10-21"}, {"f": "1725-08-04", "t": "1730-08-12"}]},
+      "hukum": "SAFEVI (cikarim, orta) - Eylul 1603'te Safevi toplanma yeri; 1585-1603 Osmanli tasarruf kaynagi yok",
+      "secenek_A_onerilen": {"aciklama": "kaynaksiz Osmanli d: kaldirilir, safevi blogu surer", "d_kaldir": {"f": "1585-09-25", "t": "1603-10-21"}},
+      "secenek_B": {"aciklama": "BEKLET - Germrud sancaginin 1591 tahditte kimde kaldigi (Kutukoglu cilt II) okunana kadar"},
+      "acik_kalem": "Germrud sancagi 20 Zilhicce 996'da Osmanli Serdari tarafindan Mehmed Cavus'a verilmis (Kutukoglu s.196); Germrud Eskandar'da Erdebil'e komsu nahiyeler arasinda (III s.~1242). Sonucu okunmadi - Miyane hukmunu zayiflatabilecek tek kalem.",
+      "karar_gerekli": true,
+      "kaynaklar": [
+        {"gelenek": "IR", "kaynak": "Eskandar/Savory II s.828", "icerik": "Shah left Isfahan 14 Sept 1603; orders to governor of Ardabil Zu'l-Faqar Khan to join the Shah at Miana; entered Tabriz on 12th day"},
+        {"gelenek": "DE", "kaynak": "Hammer-Purgstall GOR IV s.540", "icerik": "Sah, Erdebil hani Zulfikar ile Sufiyan koyu yakininda birlesti (celiski degil - farkli an olabilir)"},
+        {"gelenek": "TR", "kaynak": "Kutukoglu 1962 s.196 dn.186", "icerik": "Germrud sancagi Osmanli atamasi 996; Kizilbas talebi"},
+        {"gelenek": "TR", "kaynak": "TDV tebriz [184]", "icerik": "1593 liva listesinde Miyane YOK"}
+      ]
+    }
+  ],
+  "sinir_hatti_etkisi": {
+    "matris_kose_3_Ahar_Meskin": "Ahar 1592 sonrasi Safevi ise gecersiz; hat Tebriz-Ahar arasina cekilir",
+    "matris_kose_4_Sarab_Erdebil": "Sarab BELIRSIZ -> kose zayif, bant olarak okunmali",
+    "matris_kose_5_6_Miyane": "Miyane Safevi ise hat Miyane'nin kuzeybatisina kayar"
+  },
+  "olculemeyenler": [
+    "Iranica AHAR / ARASBARAN / BOUNDARIES i (403, WebFetch 403, Wayback erisilemez)",
+    "Petrushevsky 1949 dn.9-10 tam metni",
+    "Kutukoglu s.196 dn.186 ikinci sancak adi (OCR)",
+    "Kutukoglu cilt II 1590-1612 (OKUMADIM)",
+    "BL Add. 1688 sinirname protokolu (OKUMADIM)",
+    "CHI VI · Rohrborn 1966 · Bacque-Grammont · Istoriya Irana 1958 · Azerbaycan tarixi III (OKUMADIM)"
+  ]
+}
