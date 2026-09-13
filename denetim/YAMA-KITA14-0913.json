@@ -47,6 +47,20 @@
    "bulgu": "TDV turgut-reis 'Cemaziyelevvel 963 (Mart 1556)' ve trablusgarp '1556'da Turgut Reis beylerbeyilikle buraya geldi' — ikisi de Tobruk'u ANMIYOR. TDV berka: 'Tarih boyunca Misir'a bagimli oldugu gorulen Berka bolgesi, Misir'in Osmanlilar tarafindan fethinden sonra bu idareye baglandi' — Tobruk'u ANMIYOR ve 1556'dan ONCEYI isaret ediyor ama TARIH VERMIYOR.",
    "hukum": "bulunamadi — Tobruk'un 1556'si kaynakta degil, kayittaki bir tercih (muhtemelen Turgut Reis'in gelisine baglanmis). TDV'nin isaret ettigi daha erken tarih icin gun/yil da yok; o yuzden deger ONERILMIYOR. Ayri bir arastirma kalemi: Berka'nin Osmanli idaresine gercek giris tarihi (TDV disi akademik kaynak gerekir).",
    "kronoloji_etkisi": "data/olaylar_p0044.js Tobruk maddesi bu belirsizligi metninde ACIKCA yaziyor ('1556 kaynakta degil, kayittaki bir tercihtir')."
+  },
+  {
+   "no": 4,
+   "onem": "ORTA — iki kusur: kimlik (Sovalye donemi YOK) ve gecis yili (1521 vs kaynak 1522)",
+   "hedef_kayit": {
+    "dosya": "girdi.py'nin okudugu yerlesim dosyalarindan biri (ad ile aranmali)",
+    "ad": "Nikarya (İkarya)",
+    "mevcut_hal": "s: bizans 1281-01-01 -> 1362-01-01 · s: ceneviz 1362-01-01 -> 1521-01-01 · d: OSMANLI 1521-01-01 -> 1923-07-24"
+   },
+   "onerilen_deger": "s: ceneviz 1362-01-01 -> 1481-01-01 · s: sovalye 1481-01-01 -> <gecis> · d: OSMANLI <gecis> -> 1923-07-24 · <gecis> icin iki secenek: (A, ONERI) 1523-01-05 — D084: komsu Sovalye adasi Ileryoz (Leros) kaydinin sovalye -> OSMANLI gunu; (B) 1522-01-01 — kaynagin yil hassasiyeti",
+   "kaynak": "History of the Northern Aegean (Kuzey Ege Bolge Yonetimi projesi), 'Ikaria before the Greek Revolution of 1821': 'From 1481 to 1521, it came under the rule of the Knights Hospitaller of Rhodes.' · 'The first period of Ottoman rule lasted from 1522 to 1822.' TDV sisam · cezayir-i-bahr-i-sefid · rodos adayi ANMIYOR. Tek kaynak.",
+   "bulunamadi": "1362 Ceneviz baslangici ve Arangio ailesi — dayanak sayfa hic anmiyor, kaynakli bir deger ONERILMIYOR (mevcut 1362 korunur, borc olarak kalir).",
+   "iki_uc": "ceneviz donemi 1481'de kisalir, bosluk sovalye ile doldurulur ⇒ yeni sahipsizlik ACILMAZ. 'sovalye' kimligi veride KULLANILIYOR (Ileryoz) ⇒ renk/kunye var.",
+   "kronoloji_etkisi": "🔴 BAGIMLILIK: olaylar_ek5.js Nikarya maddesi t: 1521-01-01'de ve bugunku kirilmayi kapatiyor. Yama uygulanirsa kirilma <gecis> gunune kayar ve madde ±30 gun DISINDA kalir (Degismez 2 acigi). Yama uygulanirken madde t:'si de ayni gune tasinmali — o dosya KITA 14'te, haber verilirse ayni turda yapilir."
   }
  ]
 }
