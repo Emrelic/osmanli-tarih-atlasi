@@ -116148,5 +116148,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3811",
+  "zaman": "2026-09-13 18:19",
+  "kimden": "HALKA-ADAY",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - HALKA-ADAY. 9 kalem / 13 celiski satiri KAYNAK GOVDESINDEN okundu (TDV 30 madde + Iranica KANDAHAR iv). HARITA YANLIS 7: Kayseri x2 (1419-1474 Memluk>Dulkadir 1419, Karaman 1435, Dulkadir 1437, Osmanli 1474; cekirdek olaylar_ek5:74 'Kayseri 1419 Osmanli' kaynagi mehmed-i Kayseri'yi HIC anmiyor), Erzincan (Karakoyunlu 1410-22, 1450-57), Maras (Memluk 1381-84), Batum (1479, atlas 1578-08-09 = Cildir gunu toptan), Tilimsan 1337, Kandehar (Babur 1543-1558). MADDE YANLIS 2: Derbend 1583 (TDV 5 Ekim 1578) ve Tilimsan 1358 (alintilanan cumle govdede YOK; dogru 1351/1352). FARKLI ANLAMDA DOGRU 3: Trablus/Derne/Bingazi (isg 1911 + egemenlik 18 Ekim 1912; 15 Ekim geriye tarihli belge). TAKVIM 0: Kandiye 9 Rebiulahir 1080 = Greg 6 Eyl = Jul 27 Agu; atlasin 27 Eylul'u kaynaksiz. EK: Maras 1515-22 tabi olmali. Koşu sonrasi: 17 oneri + 32 halka (sinav 0 hata) + 6 isaret. ACIK: Kayseri 1454-64 Karaman yili, Maras 2. Memluk yillari, Batum ara kayip, Kandiye 27 Eylul akademik kaynak (Setton okunmadi). Dosyalar: denetim/OLCUM-HALKA-ADAY-0913.md, denetim/YAMA-HALKA-ADAY-0913.json, denetim/ARAC-HLA-*.py. Veri/kod degismedi, commit YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
