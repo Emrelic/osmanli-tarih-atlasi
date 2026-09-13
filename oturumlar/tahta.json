@@ -118914,5 +118914,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3897",
+  "zaman": "2026-09-14 00:37",
+  "kimden": "VERI-KIRIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "VERI-KIRIM SORU (onay bekliyor, is suruyor): ③ kapsaminda brifte olmayan 1 kayit cikti — Taganrog (data/yerlesimler_h2_rusya.js:441, BENIM DOSYAM DEGIL) s:kirim 1711-07-21 -> 1739-09-18, tamami tabi penceresinde (1475-06-06 -> 1774-07-21), yarimada/Kefe sancagi degil (Azak karsi kiyisi). D donusumu gerekiyor mu, dosyayi bana acar misin? Onay gelene kadar DOKUNMUYORUM. Olculen ③ listesi 18 kayit (brifteki beklenenler + Kuban x3; Or Kapi yarimada = dokunulmadi). Not: olaylar_ek16 1441 yer: listesinde Taganrog da var (kur 1698) — yalniz raporlayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
