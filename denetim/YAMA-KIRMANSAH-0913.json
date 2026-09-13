@@ -1,0 +1,78 @@
+{
+  "oturum": "KIRMANSAH-DOGRULA",
+  "tarih": "2026-09-13",
+  "durum": "ÖNERİ — UYGULANMADI (koşu aktif, data/ donuk). Uygulayıcı Oturum 0.",
+  "rapor": "denetim/OLCUM-KIRMANSAH-0913.md",
+  "kural": "CLAUDE.md §4 ATLAS REFERANS DEĞİLDİR — aşağıdaki 'atlas_bugun' alanları yalnız düzeltme hedefidir",
+  "hukum_ozeti": {
+    "kirmansah_sehri": "ÖLÇÜLEMEDİ — 1588-1604 için adıyla ne Osmanlı ne Safevî kaydı yok; emareler Osmanlı yönünde ve DOLAYLI",
+    "kalhor_derteng_zencir": "OSMANLI (Bağdat'a bağlı aşiret beyleri/sancak) — YÜKSEK güven — bitiş 1011-12/1603-04 (Monshi s.840, 850-851; s.1168)",
+    "mahidest": "KARIŞIK — bir kol Bağdat'a haraçgüzar, öteki 'bağımsız' (Şerefnâme ~1597, Charmoy II/1 s.181-182) — ORTA güven",
+    "emre_beklentisi": "Kısmen tutuyor: güçlü emare Kalhor ülkesi için var; Kirmanşah şehri için yok. 'Osmanlı kalsın' kaynakla çürütülmüyor ama doğrulanmıyor."
+  },
+  "yamalar": [
+    {
+      "id": "Y1",
+      "yer": "Kirmanşah",
+      "dosya": "data/yerlesimler.js",
+      "satir_olculdugu_an": 673,
+      "atlas_bugun": { "d": [{"f": "1590-03-21", "t": "1603-10-21"}, {"f": "1723-10-01", "t": "1730-08-12"}], "m": "Hemedan", "kaynak": "bulunamadı — … Dayanak: komşu Hemedan …" },
+      "secenekler": {
+        "a_ONERI": {
+          "islem": "1590-03-21→1603-10-21 dönemini d:'den v:'ye (tâbi) taşı; 1723-1730 d: dokunma",
+          "gerekce": "Kaynaklar Kirmanşah'ın batısındaki Kalhor beylerini 'provincial governors on behalf of the Ottomans / under the governor of Baghdad' diye gösteriyor (Monshi s.840, 851); şehrin doğrudan Osmanlı idaresi için kaynak yok",
+          "f_secenekleri": ["1590-03-21 (DOKUNMA — gün kaynaksız, antlaşma Kirmanşah'ı saymıyor)", "1588-01-01 (şartlı komşu: Bîsütûn kalesi 996/1588, Kütükoğlu s.183 — şart ③ ZAYIF: tanıklık kale için)"],
+          "t_secenekleri": ["1603-10-21 (DOKUNMA — gün kaynaksız, yıl uyumlu)", "1604-01-01 (Monshi Tavşan yılı 1011-12 = 21 Mart 1603–20 Mart 1604; olay Erivan'ın düşüşünden önce)"],
+          "yasak": "t:1603-01-01 — Nevruz 1603'ten önceye düşer, kaynağa ters"
+        },
+        "b": { "islem": "d: olduğu gibi kalır", "gerekce_zayifligi": "'doğrudan' tür iddiası kaynaksız" },
+        "c": { "islem": "1590-1603 Osmanlı dönemini SİL (OLCUM-NIHAVEND-BAGLANTI Y3)", "gerekce_zayifligi": "hiçbir kaynak 1590-1602'de Kirmanşah'ta Safevî idaresi göstermiyor; Emre kararına ters" }
+      },
+      "kaynak_alani_onerisi": "bulunamadı — Kirmanşah ŞEHRİ 1588-1604 için adıyla hiçbir kaynakta yok (Kütükoğlu 1962 · Monshi/Savory · TDV kirmansah · Iranica KERMANSHAH iv). Dolaylı dayanak: batısındaki Kalhor beyleri Bağdat'a bağlı (Monshi s.840, 850-851, 1168; Şerefnâme Charmoy II/1 s.180-182). Eski 'komşu Hemedan' dayanağı düştü: Hemedan 1590-1603 Safevî (OLCUM-FERHATPASA-GUNEY A1).",
+      "madde_istegi_degismez2": "tür değişirse (d→v) kırılma günleri aynı kalır; gün değişirse yeni gün için Kalhor/Allahverdi Han maddesi gerekir (Monshi s.840)"
+    },
+    {
+      "id": "Y2",
+      "yer": "Kirmanşah",
+      "alan": "m",
+      "atlas_bugun": "Hemedan",
+      "not": "Hemedan 1590-1603 Safevî (FERHATPASA-GUNEY A1) iken Kirmanşah Osmanlı/tâbi ⇒ Değişmez 3 çelişkisi. Öneri YOK (m: zaman boyutu taşımıyor, MIMARI borcu); yalnız kayıt."
+    },
+    {
+      "id": "Y3",
+      "yer": "Kasr-ı Şîrîn",
+      "satir_olculdugu_an": 1776,
+      "atlas_bugun": "1590-1603 safevi",
+      "not": "TDV bagdat [760] Kasrışîrin'i Bağdat sancakları arasında sayıyor (1578-88 listesi); Monshi s.1168 Dar-e Tang ve Zanjīr'i 'formerly Ottoman territory' diyor. Kasr-ı Şîrîn'in ADIYLA 1590-1603 kaydı bu oturumda BULUNAMADI ⇒ karar 0047 paketine (FERHATPASA-GUNEY §⑦) bırakıldı."
+    },
+    {
+      "id": "Y4",
+      "tur": "noktasizlik_kaydi",
+      "not": "Zohâb/Derteng · Zencir · Mâhîdeşt · Kerend · Bîsütûn için atlas noktası yok (§2 emilme). Kaynaklı koordinat bu oturumda BULUNAMADI; nokta ÖNERİLMEDİ."
+    }
+  ],
+  "halka_kayitlari": [],
+  "halka_gerekce": "Kirmanşah için kaynak şehri ADIYLA bir devlete vermiyor (VERI-YAPISI kural ①: bölge adından şehre taşınan hüküm halka almaz). Aşağıdaki kesin tanıklıkların yerleri atlasta nokta olarak yok ve kaynaklı koordinat yok ⇒ yazılamaz.",
+  "halka_adaylari_konumsuz": [
+    { "id": "krm-zencir-monshi840", "yer": "Zencir (Zanjīr) kalesi", "yer_kon": null, "devlet": "osmanli", "tarih": "1603-01-01", "kesinlik": "yil",
+      "kaynak": { "ad": "Eskandar Beg Monshi, History of Shah ʿAbbas, tr. R. M. Savory (1978)", "sayfa": "840", "alinti": "the sons of Qobād, the son of Mir ʿOmar Kalhor, who were provincial governors on behalf of the Ottomans. From their base at the fort of Zanjīr…", "gelenek": "IR" },
+      "not": "Tavşan yılı 1011-12 (Nevruz 1603→Nevruz 1604) ⇒ Y1=1603 (kural ⑤). Yer koordinatı BULUNAMADI." },
+    { "id": "krm-derteng-monshi1168", "yer": "Derteng (Dar-e Tang)", "yer_kon": null, "devlet": "osmanli", "tarih": "belirsiz", "kesinlik": "belirsiz",
+      "kaynak": { "ad": "Eskandar Beg Monshi, tr. Savory", "sayfa": "1168", "alinti": "the district of Dar-e Tang and Zanjir … formerly Ottoman territory and now in Iranian hands", "gelenek": "IR" },
+      "not": "Geriye dönük, tarihsiz ⇒ kural gereği ÇİZİLMEZ (belirsiz)." },
+    { "id": "krm-derteng-kutukoglu164", "yer": "Derteng", "yer_kon": null, "devlet": "osmanli", "tarih": "1586-01-01", "kesinlik": "yil",
+      "kaynak": { "ad": "Bekir Kütükoğlu, Osmanlı-İran Siyâsî Münâsebetleri (1578-1590), İstanbul 1962", "sayfa": "164 (Mühimme LX 650, 653)", "alinti": "Bağdâd'a tâbi Derteng ve Derne sancaklarına iltica ve inkiyâd etmişlerdir", "gelenek": "TR" },
+      "not": "5 cemâziyelâhir 994 hükmü; Milâdî gün hesabı YAPILMADI." },
+    { "id": "krm-pelengan-serefname", "yer": "Pelengân", "yer_kon": null, "devlet": "osmanli", "tarih": "1597-01-01", "kesinlik": "yil",
+      "kaynak": { "ad": "Şeref Han Bitlisî, Şerefnâme (1005/1597), Fr. çev. F. B. Charmoy, t. II/1 (1870)", "sayfa": "180", "alinti": "Pelenkân est actuellement conféré par le divan de la dynastie othomane, à titre de sandjaq", "gelenek": "KR" },
+      "not": "'actuellement' = yazım anı; 1005 hicrî 1596-97 ⇒ yıl eşlemesi benim." },
+    { "id": "krm-bisutun-kutukoglu183", "yer": "Bîsütûn kalesi (Şehr-i nev)", "yer_kon": null, "devlet": "osmanli", "tarih": "1588-01-01", "kesinlik": "yil",
+      "kaynak": { "ad": "Bekir Kütükoğlu, Osmanlı-İran Siyâsî Münâsebetleri (1578-1590), İstanbul 1962", "sayfa": "183 (Künhü'l-ahbâr 387b-390a)", "alinti": "tamirini müteâkıb «Şehr-i nev» tesmiye edilen Bisütûn ile Sa'd Vakkas Kend'de de kal'e binâ edildi", "gelenek": "TR" },
+      "not": "996 sonları; bitiş BULUNAMADI." }
+  ],
+  "okunmadi": [
+    "M. Sadık Bilge, Osmanlı Devleti ve Kafkasya (Eren 2005) s.66 — dayanağı",
+    "Kütükoğlu 1993", "Istoriya Irana 1958", "Petrushevsky 1949 (tam metin)", "Gürcistan Akademisi tarihi c.IV",
+    "Azərbaycan tarixi c.III (tam metin)", "Şerefnâme Farsça asıl / İzady EN (erişim kısıtlı)", "BOA mühimme/tahrir"
+  ]
+}
