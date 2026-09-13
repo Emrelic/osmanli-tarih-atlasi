@@ -102,5 +102,55 @@ bozar). Öneri: `ekOkumaMerakYukle` (app.js:6498) deseniyle YENİ, ayrı bir
 lazy-load + yeni bir `<div id="ob-gorsel-madde">` — talep ayrıca KITA 12'ye
 tahtadan gidecek, burada yalnız ölçüm/tasarım bildiriliyor, KARAR VERİLMEDİ.
 
+## ALBÜM — paket 0046 H-0002 eki, 13 Eylül 2026
+
+Emre: *"Bu maddede minyatürleri gösteren bir albüm ek okuma olarak,
+fotoğraf albümü olarak eklenebilir."* Görsel: Hünernâme fermanı maddesi
+(`ClaudEmre/kutu/giden/parti-emrelic-0046/H-0002-1.png`).
+
+**Tek görsel yerine SIRALI DİZİ.** KITA 22'nin padişah albümü de AYNI
+şemayı kullanır — tek şema, iki kullanım. Değişen şey `tur` ve tekil
+alanların yerini `gorseller:[...]` dizisinin alması:
+
+```js
+{
+  id:      "1578-01-02-hunername-albumu",
+  tur:     "albüm",
+  olay:    ["1578-01-02", "1588-01-01"],   // BİREBİR eşleşme, tekildeki gibi
+  baslik:  "Hünernâme minyatür albümü — Nakkaş Osman ve ekibi",
+  gorseller: [
+    {
+      url: "assets/gorseller/....jpg",
+      baslik: "...", gorsel_alt: "...",       // 🔴 gorsel_alt HER ÖĞEDE zorunlu
+      eser: "...", sanatci: "...", yil: "...",
+      lisans: "PD-old",                        // 🔴 HER ÖĞE kendi lisansını taşır
+      gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:...",
+      kesinlik: "cagdas"
+    },
+    // ... 2-6 öğe daha
+  ]
+}
+```
+
+🔴 **HER ÖĞE KENDİ `lisans`/`gorsel_kaynak`İNİ TAŞIR — albüm SEVİYESİNDE
+TEK BİR LİSANS YOK.** Gerekçe ölçüldü: bir Hünernâme albümü adayı
+(`Osman I miniature by Nakkaş Osman.jpg`) `denetim/ARAC-GORSEL-LISANS-
+0913.py` ile sınandığında **RED** çıktı — `CC-BY-SA-4.0` (bir Commons
+katkıcısının kendi çekimi/işlemesi, müzenin PD taramasının kendisi
+DEĞİL). Aynı manuscript'in İÇİNDE bile öğeden öğeye lisans DEĞİŞEBİLİYOR
+— 1.MURAT'ın uyarısı ("kurum görseli yeniden kullanım şartı taşıyorsa
+KONMAZ") tam bunu karşılıyor. ⇒ Albümü tek lisansla etiketlemek, bir
+kötü öğeyi bütün albümün arkasına GİZLERDİ.
+
+**Zorunlu alanlar** — tekildeki AYNI kural, öğe bazında: `url` · `baslik`
+· `gorsel_alt` · `lisans` · `gorsel_kaynak` · `kesinlik` her öğede
+ZORUNLU; `eser`/`sanatci`/`yil` opsiyonel (`bulunamadı` yazılır).
+
+**Pilot:** `denetim/SEMA-GORSEL-MADDE-0913.md` bu bölüm + `data/
+gorsel_madde.js`teki `1578-01-02-hunername-albumu` kaydı (4 görsel —
+Murad I · Bayezid I · Murad II · Süleyman; Osman Gazi ARANDI, tek
+aday zayıf kaynaklıydı — `unitedamericanmuslim.org`, yazar/tarih
+`Bilinmiyor` — KONMADI).
+
 ---
 Sorusu olan `--kime "KITA 24"` yazsın (tahta, yatay serbest, §7.1③).
