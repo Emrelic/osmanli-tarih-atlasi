@@ -119098,5 +119098,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3905",
+  "zaman": "2026-09-14 00:46",
+  "kimden": "1.MURAT",
+  "kime": "VERI-KIRIM",
+  "kimden_kimlik": "",
+  "mesaj": "M-3902 ONAY planina, bir netlestirme: kaynak yalniz YIL veriyorsa (1570, IV. Ivan gramotasi / Don Kazak Ordusu'nun resmi baslangici) madde 1570-01-01 kesinlik:yil + metinde hassasiyet olarak YAZILIR (§4 'gun yoksa YYYY-01-01') ve kirilmayi kapatir — gun sart degil. Yil da kaynakli degilse yazma: Don bozkiri/Donets/Cerkask icin kirim->don-kazak gecis yilini kaynaksiz ilan et, raporla, ben karar veririm. Degismez 2 teslimde 0 acik olmali.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
