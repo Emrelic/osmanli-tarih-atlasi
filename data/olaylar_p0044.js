@@ -55,4 +55,26 @@ window.OLAYLAR_P0044 = [
   d:"Moskova Çarlığı 1556'da Astarhan'ı da alarak, TDV'nin ifadesiyle 'ilerisi için çok önemli sonuçlar doğuracak bir hamle' yaptı; Astarhan Hanlığı'nın işgaliyle Aşağı Volga Rus denetimine girdi. Kırım Hanı Devlet Giray bu işgalleri önlemek istediyse de başarılı olamadı. Osmanlılar bu gelişmeye 1569'da Astarhan seferiyle karşılık verdi; ancak Aşağı Volga bölgesinin kontrolünde başarılı olamayınca Moskova Çarlığı ile mücadeleyi Kırım hanına bıraktılar. ⚠️ TARİH HAKKINDA: TDV yıl veriyor (1556), gün vermiyor; `astarhan-hanligi` maddesi işgale tarih vermiyor. ⚠️ HARİTA HAKKINDA: atlas aynı gün Aşağı Volga'daki Astarhan ve Nogay kayıtlarını Rusya'ya geçiriyor.",
   kaynak:"devlet-giray + astarhan-hanligi — TDV devlet-giray birebir: '…ardından da Astarhan'ı (1556) alarak ilerisi için çok önemli sonuçlar doğuracak bir hamle yaptılar.' · 'Devlet Giray bu işgalleri önlemek istediyse de başarılı olamadı.' · 'Osmanlılar'ın 1569'daki Astarhan seferine … gizlice muhalefet etti.' · 'Aşağı Volga bölgesinin kontrolünde başarılı olamayan Osmanlılar Moskova Çarlığı ile olan mücadeleyi ona bıraktılar.' · TDV astarhan-hanligi: '…sonra da hanlığı işgal etmiştir' (tarih vermiyor)." },
 
+// ─────────────────────────────────────────────────────────────────────
+// PAKET 0046 — KITA 14 · 13 Eylül 2026
+//  · Mâku 1574: KITA 29 Ferhat Paşa yaması (denetim/YAMA-KITA29-FERHATPASA-0913.json
+//    A1) Mâku'ya 1574-01-01 d: başlangıcı yazıyor ve Değişmez 2 için bu maddeyi
+//    istiyor (1.MURAT M-3764). Yama inene kadar bu gün haritada Mâku kırılması
+//    DEĞİLDİR; t: yamayla birebir aynı.
+//  · Kâime 1840: KITA 28 ekonomi pilotunun tek eksik adayı (1.MURAT M-3722).
+// ─────────────────────────────────────────────────────────────────────
+{ t:"1574-01-01", b:"Mâku Osmanlı'ya geçti — Mahmûdî İvaz Bey'e kale yapma görevi", tur:"fetih",
+  onem:2, dunya:1, kapsam:"dis", etiket:["toprak","askeri"],
+  gun:"1574", yer:"Mâku · İran Azerbaycanı sınırı", yer_id:"Mâku",
+  d:"1574 yılında Osmanlı Devleti, Mahmûdî Kürt kabilesinin reisi İvaz Bey'i Mâku'yu İranlılar'dan alıp orada bir kale yapmakla görevlendirdi. Van eyaletinin doğu ucundaki bu kale, Osmanlı döneminde bölgede cereyan eden olaylarda önemli bir yer tuttu.",
+  ic_not_d:"Tarih: TDV yalnız yıl veriyor (1574) → YYYY-01-01. Harita: KITA 29 Ferhat Paşa yaması Mâku'nun d: başlangıcını aynı güne yazıyor; madde ile yama BİRLİKTE inmeli (1.MURAT M-3764). Pencere ölçümü: 1574-01-01'de bugün Ufa (rusya) ve Elicpûr (ahmednagar) yabancı kırılmaları var; bu madde onları ±30 gün ölçütünde 'kapatır' ama anlatmaz (D147).",
+  kaynak:"maku — TDV maku birebir: '1574 yılında Osmanlı Devleti, Mahmûdî Kürt kabilesi reisi İvaz Bey’i Mâkû’yu İranlılar’dan alıp burada bir kale yapmakla görevlendirdi. Osmanlı döneminde özellikle bu kalenin bölgede cereyan eden olaylarda önemli bir yeri olmuştur.'" },
+
+{ t:"1840-01-01", b:"İlk Osmanlı kâğıt parası (kâime) çıkarıldı", tur:"ekonomi",
+  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi"],
+  gun:"muhtemelen Haziran 1840", yer:"İstanbul", yer_id:"İstanbul",
+  d:"Tanzimat'ın ilk yıllarında maliyeye gelir bulma arayışı sırasında, sonradan şeyhülislâm olacak Ârif Hikmet Bey'in teklifiyle esham sisteminin geliştirilmiş bir biçimi olan kâime uygulaması kabul edildi. Toplam 160.000 lira (32.000 kese) tutarındaki ilk kâimeler, acil para ihtiyacı yüzünden basılmayı beklemeden el yazısıyla, Maliye Nâzırı Sâib Paşa zamanında muhtemelen Haziran 1840'ta çıkarıldı. Nakit para hükmündeki bu kâğıtların tedavül süresi sekiz yıl, faizi yıllık %12,5'ti; karşılıkları yoktu, yalnız faizlerine İstanbul gümrüğü gelirinden karşılık gösterildi. Halk alışık olmadığı bu parayı olumlu karşılamadı ve el yazısı kâimeler kısa sürede kalpazanların hedefi oldu.",
+  ic_not_d:"Tarih: TDV 'muhtemelen Haziran 1840' diyor — ay bile kesin değil; §4 gereği yıl yazıldı (1.MURAT M-3722 kararı), ay metinde. Pencere: 1840-01-01'deki kırılmaların hepsi başka maddelerle zaten kapalı, bu madde hiçbirini tek başına kapatmıyor.",
+  kaynak:"kaime — TDV kaime birebir: '…böyle bir yöntemin uygulanması teklifi daha sonra şeyhülislâm olan Ârif Hikmet Bey’den gelmiş ve kabul edilmiştir.' · 'Kāimeler, paraya olan âcil ihtiyaç yüzünden kalıplarının çıkarılması ve basılması beklenmeksizin el yazısı olarak piyasaya sürüldü. Toplam 160.000 lira (32.000 kese) tutarındaki ilk kāimeler Maliye Nâzırı Sâib Paşa zamanında muhtemelen Haziran 1840’ta çıkarıldı. Büyük ebatlı ve nakit para hükmünde olan kāimelerin tedavül süresi sekiz yıldı. Ayrıca senede % 12,5 faiz getirisi vardı.' · 'Kāimelerin karşılığı yoktu, ancak ödenecek faizlerine İstanbul gümrüğü malından karşılık gösterildi. Halk böyle bir uygulamaya alışık olmadığı için kāimeler piyasada olumlu karşılanmadı. Öte yandan el yazısı kāimeler hemen kalpazanların dikkatini çekti.' · aday: KITA 28, denetim/ADAY-EKONOMI-MADDELERI-0913.json" },
+
 ];
