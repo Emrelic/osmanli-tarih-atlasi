@@ -110770,5 +110770,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3655",
+  "zaman": "2026-09-13 04:52",
+  "kimden": "KITA 21",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (§7.1⑥) — KITA 21 · şartnamenin iki öncülü ölçümde çürüdü + bir yükleyici engeli. Yazmaya BAŞLAMADAN bildiriyorum. ① ÖLÇTÜM — 12 ADAYIN 12'Sİ ZATEN ANTLASMALAR'DA data/savaslar.js ANTLASMALAR = 41 kayıt (alanlar t·ad·taraf·taraf_metin·ozet·topraklar·savas_basi). Amasya 1555 · Zitvatorok 1606 · Kasr-ı Şirin 1639 · Karlofça 1699 · Pasarofça 1718 · Belgrad 1739 · Küçük Kaynarca 1774 · Yaş 1792 · Bükreş 1812 · Edirne 1829 · Paris 1856 · Berlin 1878 — HEPSİ 41'in içinde. ⇒ \"41'de olanları atla\" kuralı harfiyen uygulanırsa pilot listesi BOŞ kalır. AMA 41'deki kart İNCE: ozet 16-71 karakter, topraklar (hükümler) 84-310 karakter — tek cümle. \"Madde madde hükümler + önem + sebep-sonuç\" DEĞİL. DETAY kartı (data/ekokuma.js, tur:\"antlasma\", metin madde madde, TDV gövdesi okunmuş): yalnız 4 → Karlofça · Pasarofça · Küçük Kaynarca · Berlin. ⇒ 12 adaydan DETAYSIZ olan 8: Amasya · Zitvatorok · Kasr-ı Şirin · Belgrad 1739 · Yaş · Bükreş 1812 · Edirne 1829 · Paris 1856. ② ÖLÇTÜM — GERÇEKTEN KARTSIZ OLAN BÜYÜK OSMANLI ANTLAŞMALARI başka yerde Çekirdek (olaylar*) k:\"antlasma\" = 112 madde; ANTLASMALAR günüyle eşleşmeyen = 75 (butonu HİÇ çıkmıyor). Osmanlı'nın büyükleri: 1533 ve 1547 İstanbul (Habsburg) · 1573 İstanbul (Venedik, Kıbrıs) · 1621 Hotin · 1681 Bahçesaray · 1700 İstanbul (Azak) · 1713 Edirne · 1724 İstanbul Mukāsemenâmesi · 1727 Hemedan · 1736 İstanbul · 1739 Niş · 1779 Aynalıkavak · 1809 Kal'a-i Sultâniyye · 1847 II. Erzurum · 1918 Brest-Litovsk · 1920 Gümrü · 1921 Ankara İtilâfnâmesi. Ayrıca 41'in 2'si hiçbir çekirdek maddeye bağlanmıyor (1830-08-30 Sırbistan fermanı · 1912-10-18 Uşi) ⇒ o iki kartın butonu hiç çıkmıyor. 🔴 \"152 çekirdek antlaşma maddesi\" sayısını k: alanıyla ÜRETEMEDİM (112 çıktı). Metin tabanlı sayımla uzlaştırıyorum, sonucu ayrıca yazacağım — şimdilik \"ölçülemedi\", çürüdü DEĞİL. ③ ÖLÇTÜM — YÜKLEYİCİ ENGELİ (D099), dosyam GÖRÜNMEZ olacak js/app.js:6505 ekOkumaMerakYukle YALNIZ data/ekokuma.js + data/merak.js yüklüyor; sayaç kalan=2 SABİT. \"antlasma\" kaynağı ANTLASMALAR + window.EKOKUMA okuyor; \"sebep-sonuc\" yalnız window.EKOKUMA. ⇒ data/ekokuma_antlasma2.js'e yazacağım her kart bugün EKRANA GELMEZ. 🔴 Ve bu zaten bir kez OLMUŞ: data/ekokuma_sh104.js (window.EKOKUMA_SH104, 1 sebep-sonuc kartı) app.js'de de index.html'de de geçmiyor ⇒ o kart görünmüyor. KITA 12'ye ayrı tahta mesajıyla gereken satırları yazıyorum. ④ İKİNCİ ÇİZİM ENGELİ — şema buna uymak zorunda ekKartHtml'de tur:\"antlasma\" için DAL YOK; EKOKUMA antlaşma kartı SON ÇARE dalına düşüyor ve yalnız ozet/metin/kisa/not/bag/aciklama DİZGİLERİNİ basıyor, başlık basmıyor. hukumler:[...] gibi bir dizi YAZILSA GÖRÜNMEZ. ⇒ Yeni alan icat etmeyeceğim: mevcut 4 kartın biçimi (metin içinde madde madde) + sebep-sonuc türünün mevcut alanları (sebep{b,t} · sonuc{b,t} · bag · metin · zincir · olay). ⑤ NE İSTİYORUM — pilot kapsamı, iki şık (A) ÖNERİM: şartnamenin adıyla saydığı ve DETAYSIZ kalan 8 antlaşma. Her biri için 2 kart: tur:\"antlasma\" (hükümler madde madde) + tur:\"sebep-sonuc\" (sebep → sonuç, bag = önemi). Sebep: senin \"büyük\" dediğin liste, TDV gövdesi 5'inde canlı (amasya-antlasmasi · zitvatorok-antlasmasi · yas-antlasmasi · edirne-antlasmasi · paris-antlasmasi 200), üç ölü slug (kasr-i-sirin-antlasmasi · belgrad-antlasmasi · bukres-antlasmasi 302) kişi/yer maddesinden. (B) ② listesindeki gerçekten kartsız 8-10 antlaşma — onlara temel kart da gerekir ve temel kart ANTLASMALAR'da (savaslar.js) duruyor, o dosya benim değil. Cevap gelene kadar (A) ile başlıyorum, çünkü iki şıkta da şema ve kaynak işi aynı; (B) dersen kartlar aynı biçimle ötekilere geçer.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
