@@ -101,6 +101,13 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       notu) · `polonya-erken` rengi eklenir (9 nokta renksiz) · Çehrin zaptı 1678-08-21 madde + yerleşim BİRLİKTE
       (bugün ikisi de 07-19, 33 gün) · Hotin 1769-74 `s:` → `isg:` (1806 emsali) + 1739 ve 1788-92 işgalleri.
       🟡 EMRE: `kazak-hatmanligi` künyesi (Çehrin 1648-1678) açılsın mı. Güney Boğdan araştırması sonraki dalga.
+- [ ] **A6a Balkan · Anadolu** — `denetim/YAMA-A6A-0913.json` (17 yama · 11 halka). Koordinatör hükmü:
+      Y2 Vodina `1387-01-01` + yeni madde «Vodina'nın fethi (1386-1387 kışı)» BİRLİKTE (enklav kalkar; Üsküp
+      maddesindeki "Katılım: Vodina" düşer) · Y3 Üsküp 1392-01-06 (takvim D110 sınanacak) · Y8 Kudüs
+      `1516-10-01` kesinlik:ay (TDV "muhtemelen Ekim 1516") · Nablus/Sayda/Yafa/Akkâ 1516-09-27 gün komşudan Şam
+      (şartlı kural, kayda yazılır) · Y7 Yergöğü 853 H → `1450-01-01` + iki madde (1427 kayıp · 1449-50 geri alış) ·
+      Y1/Y1b Kemah + Erzincan 1348-79 Eretna/Mutahharten · Y9 Zencan 1383 Timurlu · Y6 Manisa 1415 öncesi ·
+      Y4 Köstendil `d:`→`v:`.
 - [ ] **A3 Uzun Hasan 1468 · Ahıska 1578** — madde + yerleşim birlikte (`denetim/YAMA-A3-0913.json`, A3 teslim edince).
 
 ## 5-2 · Kirmanşah 1588-1604 (KIRMANSAH-DOGRULA, M-3813) — 🟢 EMRE KARARI: DOĞRUDAN OSMANLI

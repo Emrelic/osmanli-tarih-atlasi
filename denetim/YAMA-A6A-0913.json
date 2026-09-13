@@ -1,0 +1,187 @@
+{
+  "paket": "PAKET-A6A-ARASTIRMA",
+  "tarih": "2026-09-13",
+  "rapor": "denetim/ARASTIRMA-A6A-0913.md",
+  "uyari": "ÖNERİDİR — hiçbir proje dosyasına yazılmadı. Koşu 10 sürerken data/ DONMUŞ (CLAUDE.md §7). Uygulayan Oturum 0. Her yama sonrası denetle.py (Değişmez 2/2s kırılma kayması) ve renk_olc.py koşulmalı.",
+  "evren": "arac/girdi.py GIRDI_DOSYALARI · 79 dosya · 3818 nokta (ölçüldü 2026-09-13)",
+  "yamalar": [
+    {
+      "id": "A6A-Y1", "madde": "0042/H-0011", "hukum": "veri yanlış",
+      "dosya": "data/yerlesimler.js", "kayit": "Kemah", "alan": "s",
+      "eski": [{"f":"1340-01-01","t":"1401-02-01","d":"akkoyunlu"},{"f":"1402-07-28","t":"1502-01-01","d":"akkoyunlu"}],
+      "yeni": [{"f":"1340-01-01","t":"1379-01-01","d":"eretna"},{"f":"1379-01-01","t":"1401-02-01","d":"mutahharten"},{"f":"1402-07-28","t":"1410-01-01","d":"mutahharten"},{"f":"1410-01-01","t":"1469-01-01","d":"karakoyunlu"},{"f":"1469-01-01","t":"1502-01-01","d":"akkoyunlu"}],
+      "kaynak": "TDV `kemah` — gövde okundu: «İlhanlı hâkimiyetinin zayıflamasıyla Eretnaoğulları’nın idaresine girdi. Bir ara Erzincan emîri olan Mutahharten’in eline geçti … (796/1394) … Erzincan’la birlikte Kemah’ı da Osmanlı ülkesine kattı (803/1401) … Timur … Kemah’ı alıp tekrar Mutahharten’e verdi. Ardından Karakoyunlular’ın eline geçen Kemah, Karakoyunlular’la Akkoyunlular arasındaki mücadelelere sahne oldu … Akkoyunlu idaresi 1473 Otlukbeli Savaşı’ndan sonra da sürdü.» · TDV `erzincan`: «Mutahharten Erzincan’ı kuşatan Eretnaoğulları’nı geri çekilmeye mecbur etti (1379)».",
+      "gunler": "1340 mevcut sınır (dokunulmadı) · 1379 = TDV erzincan (Mutahharten'in Erzincan'da tutunması, YIL) + künye mutahharten f · 1410 = künye mutahharten t 🟡 KAYNAKSIZ · 1469 = künye karakoyunlu t 🟡 ÇIKARIM (KK devleti bittikten sonra KK tutamaz). Kemah'ın KK↔AK 'zaman zaman el değiştirme' dönemleri ve 1394-95 Kadı Burhâneddin bağlılığı MODELLENEMEDİ — gün/yıl kaynakta YOK.",
+      "ek": "data/olaylar_ek16.js:62 «Celayirli Devleti'nin kuruluşu» maddesindeki 'Kemah’ın erken Akkoyunlu varlığına geçtiği veride görülüyor; bu tekil kayıt için ayrı bir kaynak bulunamadı' cümlesi yama inince SİLİNMELİ (cevap: temeli yok, TDV aksini söylüyor).",
+      "degismez2": "yeni s→s kırılmaları 1379-01-01 · 1410-01-01 · 1469-01-01 (2s evreni) — Erzincan'da 1379 ve 1410 kırılmaları zaten var; 1469 ÖLÇÜLMEDİ."
+    },
+    {
+      "id": "A6A-Y1b", "madde": "0042/H-0011 (ek bulgu)", "hukum": "veri yanlış (sahibi başka kalem: p0004/H-0006 yaması)",
+      "dosya": "data/yerlesimler.js", "kayit": "Erzincan", "alan": "s",
+      "eski": {"f":"1348-01-01","t":"1379-01-01","d":"akkoyunlu"},
+      "yeni": {"f":"1348-01-01","t":"1379-01-01","d":"eretna"},
+      "kaynak": "TDV `erzincan`: «önce Timurtaş’ın, ardından … Eretna Bey’in hükmüne girdi … Emîr Ahî İne Bey’den sonra yerine geçen Pîr Hüseyin Bey’in vefatıyla (1378) Eretna emîrlerinden Mutahharten’in Erzincan emîri olması» · TDV `akkoyunlular`: «Tur Ali Bey Erzincan ve Bayburt hâkimleri İLE BİRLİKTE 1348’de Trabzon’u kuşattı» ⇒ 1348'de Erzincan hâkimi Akkoyunlu DEĞİL, müttefik.",
+      "not": "Ahî İne / Pîr Hüseyin'in Eretna'ya bağlılık derecesi okunmadı — kimlik 'eretna' ihtiyatlı öneri; 1348 günü kaynaksız (mevcut sınır)."
+    },
+    {
+      "id": "A6A-Y2", "madde": "0042/H-0025 · 0042/H-0027", "hukum": "veri yanlış (TDV yazarının tercih ettiği tarihe göre) — 🟡 kesin değil",
+      "dosya": "data/yerlesimler_ok107.js", "kayit": "Vodina (Edessa)",
+      "alan": "s[1].t ve d[0].f",
+      "eski": {"s[1]":{"f":"1345-01-01","t":"1392-01-15","d":"sirbistan"},"d[0]":{"f":"1392-01-15","t":"1402-07-28"}},
+      "yeni": {"s[1]":{"f":"1345-01-01","t":"1387-01-01","d":"sirbistan"},"d[0]":{"f":"1387-01-01","t":"1402-07-28"}},
+      "kaynak": "TDV `vodina` — gövde okundu: «Neşrî … 1389 yılından hemen sonra … Kemalpaşazâde … Üsküp’ün fethinin ardından 1391’de … Oruç Bey … Vidin’in zaptından sonraki bir tarihe … Âşıkpaşazâde … Üsküp’ten sonra … Hoca Sâdeddin Efendi … 1386’da … Kuvvetli bir ihtimale göre doğru olan bu son tarihin 1386-1387 kışı olarak kabul edilmesi daha uygundur.»",
+      "gunler": "1387-01-01 = '1386-1387 kışı'nın içinde, YIL hassasiyeti. Kaynak GÜN vermiyor. Mevcut 1392-01-15 günü Üsküp'ten DEVRALINMIŞ ve Üsküp'ün kendi günü de TDV ile uyuşmuyor (A6A-Y3).",
+      "etki": "1387-06-08'deki 'Sırp enklavı' (H-0025) KALKAR. §3.5.1 iki uç: Karaferye 1387-05-08'e kadar sirbistan kalır — Ocak-Mayıs 1387 arası Karaferye'nin kendisi küçük bir cep olabilir; ÖLÇÜLMEDİ.",
+      "degismez2": "1387-01-01 kırılması için madde gerekir (en yakın bilinen madde Selanik'in ilk teslimi 1387-04-09, 98 gün) ⇒ YENİ MADDE önerisi: «Vodina'nın fethi (1386-1387 kışı, Evrenos Bey)» · kaynak: vodina. Üsküp maddesindeki 'Katılım: … Vodina' otomatik düşer.",
+      "karar_istenen": "TDV'nin kendisi 'kuvvetli bir ihtimal' diyor; alternatif 1391/1392 (KPZ/APZ) ile eşdeğer değil ama kesin de değil. Önerim 1387-01-01 + metinde tartışmanın yazılması."
+    },
+    {
+      "id": "A6A-Y3", "madde": "0042/H-0027 (ek)", "hukum": "veri yanlış (gün)",
+      "dosya": "data/yerlesimler.js · data/olaylar_ek.js:37", "kayit": "Üsküp · madde «Üsküp'ün fethi»",
+      "eski": {"Üsküp.s[0].t":"1392-01-15","Üsküp.d[0].f":"1392-01-15","madde.t":"1392-01-15","madde.gun":"Ocak 1392"},
+      "yeni": {"Üsküp.s[0].t":"1392-01-06","Üsküp.d[0].f":"1392-01-06","madde.t":"1392-01-06","madde.gun":"6 Ocak 1392 (Batılı müelliflere göre; ilk Osmanlı kronikleri tarih vermez)"},
+      "kaynak": "TDV `uskup`: «İlk Osmanlı kronikleri fetih tarihini vermemektedir. Buna karşılık Batılı müellifler şehrin 6 Ocak 1392’de Osmanlı idaresine girdiğini kaydederler.»",
+      "not": "🟡 Takvim (D110): TDV hangi takvim olduğunu söylemiyor; atlas geleneği Jülyen. 15 Ocak'ın kaynağı bulunamadı. 1392-01-15 yalnız 2 kayıtta var (Üsküp, Vodina) — başka nokta etkilenmez."
+    },
+    {
+      "id": "A6A-Y4", "madde": "0042/H-0028", "hukum": "veri yanlış (prensliğin BAŞKENTİ doğrudan Osmanlı boyanıyor)",
+      "dosya": "data/yerlesimler.js", "kayit": "Köstendil",
+      "eski": {"s[0]":{"f":"1281-01-01","t":"1374-01-01","d":"bulgaristan"},"d":[{"f":"1374-01-01","t":"1383-09-19","y":"vassal"},{"f":"1383-09-19","t":"1402-07-28"},{"f":"1413-07-05","t":"1913-05-30"}]},
+      "yeni": {"s[0]":{"f":"1281-01-01","t":"1371-09-26","d":"bulgaristan"},"v":[{"f":"1371-09-26","t":"1395-05-17","k":"Dejanović Prensliği (Kostadin-ili)","statu":"vassal"}],"d":[{"f":"1395-05-17","t":"1402-07-28"},{"f":"1413-07-05","t":"1913-05-30"}]},
+      "kaynak": "TDV `kostendil`: «Köstendil’in idarecisi olan Sırp Prensi Konstantin Dejanović 1371’de I. Murad’ın hükümdarlığını tanıyarak Osmanlı hizmetine girdi ve … Rovine Muharebesi’nde … hayatını kaybetti. 1395’ten sonra … bu eski prensliği Köstendil sancağı haline getirip doğrudan kendilerine bağladılar.» · TDV `ustrumca`: «1395’te … Kostadin-ili adıyla bir sancak şeklinde Osmanlılar’a intikal etti.»",
+      "gunler": "TDV YIL veriyor (1371 · 1395). Günler künye `dejanovic-prensligi` penceresinden DEVRALINDI (§4 künye penceresi kuralı: 1371-01-01 Çirmen'den ÖNCE düşer) — künyenin günleri de kaynaksız (Çirmen/Rovine olay günleri), BİLDİRİLİYOR. Kardeş kayıtlar (İştip · Köprülü · Ustrumca · Doyran) aynı günleri taşıyor.",
+      "not": "1281-1371 'bulgaristan' kimliği ÖLÇÜLMEDİ (Velbužd 1330 sonrası Sırp olabilir; okumadım). 1383-09-19 sınırının neyi temsil ettiği bulunamadı.",
+      "degismez2": "SİLİNEN kırılmalar 1374-01-01 · 1383-09-19 (varsa yetim madde kalır — ÖLÇÜLMEDİ); yeni kırılmalar 1371-09-26 · 1395-05-17 kardeş kayıtlarla aynı gün (maddeli)."
+    },
+    {
+      "id": "A6A-Y5", "madde": "0042/H-0028", "hukum": "künye doğrulandı — kaynak alanı güncellenmeli",
+      "dosya": "data/devletler.js", "kayit": "dejanovic-prensligi", "alan": "kaynak",
+      "eski": "bulunamadı — `dejanovic` · `velbuzd` · `kostadin` üçü de 302 … ARANMAYA DEVAM …",
+      "yeni": "TDV `kostendil` · `koprulu` · `ustrumca` (üçü 200, gövde okundu): tâbiyet 1371 (I. Murad'ı tanıma) · son 1395 (Rovine'de Konstantin'in ölümü, sancak). Kaynak YIL verir; f:/t: günleri (1371-09-26 Çirmen · 1395-05-17 Rovine) olay günlerinden devralındı, kaynakta gün YOK.",
+      "not": "Köprülü TDV: «Oliver’in ölümünün ardından Dejanović tarafından yönetildi … 1371’den beri Osmanlı vasalı olan … Dejanović hânedanının» ⇒ Veles'in prensliğe dahil edilmesi DOĞRU."
+    },
+    {
+      "id": "A6A-Y6", "madde": "0042/H-0043", "hukum": "veri yanlış (Manisa 1415'te artık Osmanlı)",
+      "dosya": "data/yerlesimler.js", "kayit": "Manisa",
+      "eski": {"s[3]":{"f":"1402-08-17","t":"1416-09-01","d":"saruhan"},"d[1]":{"f":"1416-09-01","t":"1920-04-23"}},
+      "yeni": {"s[3]":{"f":"1402-08-17","t":"1415-01-01","d":"saruhan"},"d[1]":{"f":"1415-01-01","t":"1920-04-23"}},
+      "kaynak": "TDV `saruhanogullari`: «1411’den sonra ve 1415’ten önce Saruhan ülkesinin Çelebi Mehmed’in idaresi altına girdiği, böylece Saruhanoğulları’nın Manisa kolunun tarihe karıştığı anlaşılmaktadır» · TDV `manisa`: «Osmanlı idaresi ancak 818’den (1415) biraz önce tam olarak kurulabildi.»",
+      "gunler": "1415-01-01 = 'en geç' uç ('1415'ten önce'). 1416-09-01'in dayanağı Torlak Kemal idamıdır (819/1416 — hicrî yıl 1416-03-01'de başlar; '09-01' günü kaynaksız); TDV bu olayı 'Saruhan BÖLGESİNDEKİ kesin Osmanlı idaresi' için anıyor, Manisa şehri için değil.",
+      "not": "Modellenmeyen ara: Çelebi Mehmed'in 808 (1405-06) Manisa'ya girişi ve Hızır Şah'ı ortadan kaldırması; Saruhan b. İshak'ın 814 (1411) sikkesi. Künye `saruhan` t:1416-09-01 DOKUNMA önerisi (Demirci kolu 1426'ya kadar sürdü — §3.5.0 ③ 'ikisi de doğru'), AMA künye kronolojisindeki «1410-01-01 son: kesin ilhak» maddesi TDV ile çelişiyor (1411 sikkesi) ⇒ '1411-1415 arası, Manisa kolunun sonu' diye düzeltilmeli.",
+      "degismez2": "kırılma 1416-09-01 → 1415-01-01; ±30 günde madde ÖLÇÜLMEDİ (İzmir maddesi 1415-06-01, 151 gün) ⇒ YENİ MADDE önerisi: «Manisa'nın Çelebi Mehmed idaresine girişi — Saruhanoğulları Manisa kolunun sonu (1411-1415)»."
+    },
+    {
+      "id": "A6A-Y7", "madde": "0035/H-0052", "hukum": "veri doğru — kırılmanın KENDİ maddesi yok",
+      "dosya": "data/olaylar*.js (kronoloji işçisine)", "kayit": "Yergöğü (Giurgiu)",
+      "olcum": "s eflak 1427-01-01→1449-01-01 · d 1420-01-01→1427-01-01 ve 1449-01-01→1810 — TDV ile YIL YIL aynı. 1449-01-01 kırılması «Epir kıyısının katılışı» (aynı gün, ALAKASIZ) maddesinin altında beliriyor; 1427-01-01 kırılması için Yergöğü maddesi bulunamadı (1420 maddesi var: 'Aşağı Tuna'nın kapanması').",
+      "kaynak": "TDV `yergogu`: «Bu kale son araştırmalara göre 1417’de değil 1420’de Osmanlılar’ca ele geçirildi … 1427’de Eflaklılar Giurgiu Kalesi’ni geri aldı. Ancak 853’te (1449) burası tekrar Osmanlı kontrolü altına girdi.»",
+      "oneri": "YENİ MADDE ×2: «Yergöğü'nün Eflak'a geçişi (1427)» · «Yergöğü'nün yeniden Osmanlı'ya geçişi (853/1449)» — ikisi de kaynak: yergogu.",
+      "not": "🟡 853 H = 24.02.1449 – 13.02.1450; 1449-01-01 hicrî yılın 54 gün ÖNCESİNDE. §4 'yıl → YYYY-01-01' kuralına uygun, ama kaynağın izin verdiği aralığın dışında; karar koordinatörün."
+    },
+    {
+      "id": "A6A-Y8", "madde": "0019/H-0050", "hukum": "veri yanlış (Filistin şehirleri 1516 sonbaharında zaten Osmanlı; harita Memlük'ü FAZLA gösteriyor)",
+      "dosya": "data/yerlesimler.js",
+      "kayitlar": {
+        "Nablus": {"eski":"s memluk t:1516-12-28 · d f:1516-12-28","yeni":"1516-09-27","kaynak":"TDV `nablus`: «Şehir 922 (1516) sonbaharında Osmanlı yönetimine girdi.»"},
+        "Sayda":  {"eski":"s memluk t:1517-01-01 · d f:1517-01-01","yeni":"1516-09-27","kaynak":"TDV `sayda`: «Sayda, Yavuz Sultan Selim’in 922 (1516) Mercidâbık zaferinden sonra Osmanlı ülkesine katıldı» ⇒ 1517-01-01 kaynağın YILININ DIŞINDA."},
+        "Yafa":   {"eski":"s memluk t:1516-12-28 · d f:1516-12-28","yeni":"1516-09-27","kaynak":"TDV `yafa`: «Mercidâbık Savaşı’nın ardından (922/1516) bütün Suriye Osmanlı hâkimiyetine girdi» (bölge cümlesi — 🟡)"},
+        "Akkâ":   {"eski":"s memluk t:1517-01-01 · d f:1517-01-01","yeni":"1516-09-27 🟡","kaynak":"TDV `akka` gövdesinde 922/1516/1517 YOK — bulunamadı; aynı süreç gerekçesiyle öneriliyor"},
+        "Kudüs":  {"eski":"s memluk t:1516-12-29 · d f:1516-12-29","yeni":"🟡 KARAR — 1516-10-01 (ay) ya da 1516-09-27","kaynak":"TDV `kudus`: «Yavuz Sultan Selim … 4 Zilhicce 922’de (29 Aralık 1516) … Kudüs’e geldi. Ancak Kudüs, padişahın gelişinden önce MUHTEMELEN Ekim 1516’da Osmanlı yönetimine girmişti (Ercan, s. 10).» ⇒ veri padişahın GELİŞ gününü devir günü yapmış."}
+      },
+      "gunler": "gün komşudan: Şam · TDV `selim-i` «27 Eylül’de Şam’a ulaştı» (Şam kaydı d f:1516-09-27 ile aynı). Şartlar (§4 komşu günü): ① Şam'ın günü kendi kaynağına dayanıyor ✓ ② hedeflerde gün yok ✓ ③ aynı süreç (Mercidâbık sonrası Suriye-Filistin'in teslimi) ✓ ④ bu satır.",
+      "etki": "1516-12-21 görüntüsündeki 'ileri harekât' şeridi (Nablus-Kudüs-Yafa-Akkâ-Sayda Memlük, Gazze-Han Yûnus Osmanlı) KALKAR. Sayda şu an Beyrut ve Sûr Osmanlı iken Memlük — ayrıca bir cep. 1516-12-28/29 ve 1517-01-01 kırılmaları düşer; 1516-09-27 kırılması Şam maddesiyle maddeli.",
+      "not": "Kerak · Maan · Amman · El-Arîş memluk kalıyor — ölçülmedi, bu kalemin dışında."
+    },
+    {
+      "id": "A6A-Y9", "madde": "0042/H-0029", "hukum": "Zencan: veri yanlış · Bağdat: veri kaynak hassasiyetinde, enklav YIL artefaktı · Zagros içi: kaynaksız",
+      "dosya": "data/yerlesimler.js",
+      "kayitlar": {
+        "Zencan": {"eski":[{"f":"1340-01-01","t":"1410-01-01","d":"celayirli"}],"yeni":[{"f":"1340-01-01","t":"1383-01-01","d":"celayirli"},{"f":"1383-01-01","t":"1410-01-01","d":"timurlu"}],"kaynak":"TDV `zencan`: «1382-1383 yıllarında Timur, Zencan ve civarındaki şehirleri ele geçirdi.» · gün: iki yıla yayılan ifadenin GEÇ ucu (Celâyirli'yi en fazla bir yıl fazla boyar, Timurlu'yu hiç erken boyamaz).","ek_celiski":"TDV `zencan`: «832’de (1428-29) Sultâniye, Ebher, Kazvin ve Zencan, Timurlular’dan … Hoca Yûsuf’un idaresindeydi. Karakoyunlu İskender, Hoca Yûsuf’u esir alıp …» ⇒ veri 1410-1469 karakoyunlu diyor; 1428-29'da TİMURLU. Karakoyunlu başlangıcı ve Sultâniye'nin 1406-10-21'i ÖLÇÜLMEDİ — halka ile görünür kılınıyor (H11)."},
+        "Bağdat": {"olcum":"s timurlu 1393-01-01→1394-01-01; çevresindeki 15 Irak noktası 1393'te celayirli ⇒ tek hücrelik Timurlu cebi (görsel 1).","kaynak":"TDV `bagdat`: «Bağdat Timur tarafından 795’te (1393) … işgal edildi» · TDV `celayirliler`: «1393’ten itibaren de Bağdat, Diyarbekir ve el-Cezîre bölgelerini ele geçirmesi» (bölge cümlesi, şehir adı yok ⇒ Hille/Vâsıt/Tikrit'e TAŞINMAZ).","oneri":"🟡 okumadım: akademik kaynak (Encyclopaedia Iranica 'Jalayerids' · Cambridge History of Iran VI) Bağdat'ın GÜNÜNÜ ve Irak şehirlerinin 1393 durumunu verebilir. O okunmadan veri değiştirilmez."},
+        "Zagros içi": {"olcum":"dolgu noktası (tur:bolge) — s zinciri Zencan'ınkiyle BİREBİR aynı (ilhanli·ilhanli·celayirli 1340-1410·karakoyunlu·akkoyunlu·safevi·afsar·zend·kacar) ⇒ kopya zincir. Râmhürmüz yöresindeki 1393 Celâyirli cebi (görsel 2) bu noktanın peteği.","kaynak":"bulunamadı — TDV `celayirliler` ve `muzafferiler` gövdelerinde Huzistan/Luristan/Tüster/Râmhürmüz geçmiyor.","oneri":"koordinatöre: dolgu noktasının kimliği kaynaksız; ya kaynakla yazılmalı ya `kasitli_bosluk`/sahipsiz bırakılmalı (§3.5.1 iki uç)."}
+      }
+    },
+    {
+      "id": "A6A-Y10", "madde": "0042/H-0028 (ek bulgu)", "hukum": "noktasızlık",
+      "oneri": "Pirlepe (Prilep) noktası YOK — Kral Marko'nun 1395'e kadarki tâbi yöresi Manastır'ın doğrudan Osmanlı peteğine emiliyor (1392 görselleri).",
+      "kaynak": "TDV `pirlepe`: «Aslında Pirlepe bölgesi Kral Marko’nun ölümünden sonra 1395’te Osmanlı topraklarına kesin şekilde katıldı»",
+      "engel": "Marko prensliği için künye YOK (devletler.js'te 'marko'/'mrnjav' taraması boş) ⇒ nokta + künye + renk birlikte (B paketi). Konum önerisi 41.346 N · 21.554 E = modern Prilep merkezi (standart gazetteer; KAYNAKLI koordinat değil, doğrulanmalı). Tâbiyet başlangıcı kaynakta okunmadı."
+    },
+    {
+      "id": "A6A-Y11", "madde": "0042/H-0031", "hukum": "veri doğru (kaynak düzeyinde) — iki gün kaynaksız, görünüm meselesi",
+      "kayit": "Ordu (Bayramlı) · Ünye",
+      "olcum": "v haciemir 1398-06-01→1402-07-28 (TABI) · s haciemir 1402-07-28→1427-06-01 · d 1427-06-01→1920",
+      "kaynak": "TDV `ordu--sehir`: «I. Bayezid 800 (1398) baharında büyük bir orduyla Canik bölgesine girince diğer bazı emîrlerle birlikte Ordu yöresi emîri Süleyman da ona TÂBİ oldu … 1404’te … Clavijo, bu sahillerin … Türk Beyi Arzamir’in (Hacı Emîr [?]) yönetimi altında olduğunu yazar. Hacıemîroğulları Beyliği 1427’de Osmanlılar tarafından ilhak edildi.»",
+      "not": "🟡 v f:1398-06-01 — kaynak 'bahar' diyor, haziran bahar değil; gün kaynaksız. 🟡 d f:1427-06-01 — kaynak yalnız YIL. Ünye'nin Hacıemîroğulları'na aitliği: TDV `unye` 302, `ordu--sehir` gövdesi Ünye'yi ANMIYOR ⇒ bulunamadı. Görsel: tâbi tonu (açık kırmızı) doğrudan tonuna yakın okunuyor — veri değil arayüz (Oturum 1)."
+    },
+    {
+      "id": "A6A-Y12", "madde": "0035/H-0070", "hukum": "motor (taralı devir gövdesi) — kök düzeltme yayında, canlı teyit ölçülemedi",
+      "olcum": "Solnok veri: d 1552-09-04→1685-10-19 · s avusturya 1685-10-19→ (tek, temiz kırılma). Ekran görüntüsü partisi 25.08.2026 (H-0052 görev çubuğu). e53c86a (27.08.2026 02:49) 'TARALI ALAN KÖKÜ': uret_devirler.py coz() PARCA_HALKA katmanını atlıyordu ⇒ 'hiçbir tarihe ait olmayan gövde'. e53c86a, yayın a00592d'nin ATASI (git merge-base ile ölçüldü).",
+      "not": "Canlı haritada 1685-10-19 görünümü ölçülemedi — app.js'te tarih URL parametresi yok (yalnız ?guven=), tarayıcıyla zaman çubuğu sürülmedi. Solnok'un kaynaklı günü bu kalemde sınanmadı (kaynak: macaristan, okumadım)."
+    },
+    {
+      "id": "A6A-Y13", "madde": "0034/H-0036", "hukum": "veri doğru (Azak 1637) · bölge kasten seyrek + gerçek noktasızlık",
+      "olcum": "1637-06-18 kutusu 44.5-51.2N/33-45E: 44 nokta; bunların 9'u 'bozkır' dolgu noktası (Sloboda · Donets · Deşt-i Kıpçak · Camboyluk · Don/Sal · Yediçkul · Kuban Nogay · Stavropol-Kuma) · 8'i kurulmamış. Azak don-kazak 1637-06-18'den.",
+      "kaynak": "TDV `azak`: «Nihayet 1637’de Kazaklar kaleyi ele geçirdiler.» · TDV `anapa`: «Taman, Temrük, Açe ve Açu kalelerinin Kuban nehrinin kuzeyinde Rusya’da kalması sebebiyle …» · TDV `cerkezler`: «Evliya Çelebi Azak, Taman, Temrük ve diğer Osmanlı kaleleri hakkında …» · TDV `sahib-giray`: «Temrük Hisarı’na vardığında içeri alınmadı» (1532-51).",
+      "oneri": "Temrük · Açu · Açe noktaları YOK. Kaynak kalelerin VARLIĞINI ve Osmanlı kalesi olduğunu (17.-18. yy) söylüyor ama DÖNEM BAŞLANGICINI vermiyor ⇒ nokta önerisi YAZILMADI (dönemsiz nokta §3.5/§2 kusuru üretir). `taman` · `kuban` · `temruk` · `temruk--kale` slugları 302. Akademik kaynak aranmadı."
+    },
+    {
+      "id": "A6A-Y14", "madde": "0021/H-0005", "hukum": "motor (kurulmamış noktanın peteği boş) · ikinci boşluk ölçülemedi",
+      "olcum": "Görselin iki boşluğu ≈48.58N/30.04E ve ≈46.68N/28.60E. En yakın noktalar: üst boşluk Uman 23 km (kur:1616-01-01 ⇒ 1594'te sahnede değil) · alt boşluk Bender 69 km. Izgara (0,04°, en yakın nokta yaklaşığı, bütün noktalar dahil): 3720 hücrenin 603'ü Uman'ın ⇒ ÜST BOŞLUK = Uman peteği. Hiçbir hücre >200 km değil ⇒ TAVAN sebep DEĞİL (kullanıcının sezgisi doğru). Alt boşluk ızgarada GÖRÜNMÜYOR ⇒ Voronoi değil; muhtemel kıyı/nehir yaslanması ya da Chaikin şeridi — ÖLÇÜLEMEDİ (petek geometrisi okunmadı).",
+      "motor": "uret_petek.py _kusatilmis(): kurulmamış ve sahipsiz noktanın peteği yalnız kara komşuluğunun ≥%90'ı sahipliyse devredilir. Uman'ın komşuları Bar(lehistan) · Soroka(tabi) · Yedisan(kirim) · Yelisavetgrad (KURULMAMIŞ) ⇒ eşik tutmuyor ⇒ boş kalıyor. Öneri (Oturum 0): sahnede olmayan noktanın peteği komşulara Voronoi yeniden bölüşümüyle dağıtılsın ya da eşik hesabından sahnede olmayan komşu çıkarılsın."
+    },
+    {
+      "id": "A6A-Y15", "madde": "0042/H-0025", "hukum": "veri — Sırp enklavının dayanağı yok (A6A-Y2 ile kalkar); kimlik ayrıca sorunlu",
+      "olcum": "1387-06-08: Vodina sirbistan, çevresi Karaferye (1387-05-08'den Osmanlı) · Manastır/Ohri (1385'ten Osmanlı) · Dejanović tâbi yöresi ⇒ tek noktalı cep. 1387-04-09'da cep yok çünkü Karaferye henüz sirbistan.",
+      "kaynak": "TDV `karaferye`: «Diğer Yunan kaynakları ise şehrin Türkler tarafından alınmasının 8 Mayıs 1387’de olduğunu yazar» (veri ile aynı gün ✓) · «1371’deki Çirmen Savaşı’na kadar Karaferye sembolik de olsa Sırp Krallığı’nın bir parçası olarak kaldı».",
+      "not": "1371 sonrası bu yörede tek bir 'Sırbistan' devleti yok (TDV Karaferye 'Çirmen'e kadar'); 1345-1392 'sirbistan' kimliğinin 1371-1387 dilimi kaynaksız — yerel hükümdar kimliği bulunamadı (akademik kaynak aranmadı). 'Osmanlı-Ceneviz ahidnamesi' maddesi yalnız tesadüfen o güne düşüyor; haritadaki değişimle ilgisi yok (değişim 1387-05-08 Karaferye)."
+    },
+    {
+      "id": "A6A-Y16", "madde": "0035/H-0052 (ek)", "hukum": "ölçülemedi",
+      "not": "1448-10-20 görselinde Silistre'nin güneybatısındaki küçük koyu üçgen — veri kutusunda (42.4-44.8N/23.3-28.1E) sahipsiz nokta yok (15 nokta, hepsi sahipli); geometri okunmadı."
+    }
+  ],
+  "halkalar": [
+    {"id":"a6a-kemah-akkoyunlu-1473","yer":"Kemah","devlet":"akkoyunlu","tarih":"1473-01-01","kesinlik":"yil",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Kemah»","slug":"kemah","alinti":"Akkoyunlu idaresi 1473 Otlukbeli Savaşı’ndan sonra da sürdü.","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0011","not":"durum cümlesi (1473 boyunca Akkoyunlu). Veri bugün de akkoyunlu — çelişki yok; 1340-1401 çelişkisi yamada."},
+    {"id":"a6a-kemah-osmanli-1515","yer":"Kemah","devlet":"osmanli","tur":"dogrudan","tarih":"1515-05-19","kesinlik":"gun",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Kemah»","slug":"kemah","alinti":"kuşatma neticesinde Kemah Osmanlı idaresine girdi (5 Rebîülâhir 921 / 19 Mayıs 1515)","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0011"},
+    {"id":"a6a-kostendil-tabi-1371-1395","yer":"Köstendil","devlet":"osmanli","tur":"tabi","f":"1371-01-01","t":"1395-01-01","kesinlik":"yil",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Köstendil»","slug":"kostendil","alinti":"Köstendil’in idarecisi olan Sırp Prensi Konstantin Dejanović 1371’de I. Murad’ın hükümdarlığını tanıyarak Osmanlı hizmetine girdi ve … Rovine Muharebesi’nde … hayatını kaybetti. 1395’ten sonra … doğrudan kendilerine bağladılar.","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0028","not":"ARALIK: tek kaynak iki ucu veriyor ve süreklilik anlatıyor. Tâbi yerel hükümdar: Dejanović Prensliği (künye dejanovic-prensligi). Veri bugün d: (DOĞRUDAN) — ÇELİŞKİ görünür olacak (yama A6A-Y4)."},
+    {"id":"a6a-koprulu-tabi-1371-1395","yer":"Köprülü (Veles)","devlet":"osmanli","tur":"tabi","f":"1371-01-01","t":"1395-01-01","kesinlik":"yil",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Köprülü»","slug":"koprulu","alinti":"1371’den beri Osmanlı vasalı olan Makedonya’nın bu bölgesinin yöneticileri Dejanović hânedanının, 1395’te Konstantin Dejanović’in Rovine Savaşı’nda … ölmesi üzerine","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0028"},
+    {"id":"a6a-uskup-osmanli-13920106","yer":"Üsküp","devlet":"osmanli","tur":"dogrudan","tarih":"1392-01-06","kesinlik":"gun",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Üsküp»","slug":"uskup","alinti":"Batılı müellifler şehrin 6 Ocak 1392’de Osmanlı idaresine girdiğini kaydederler.","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0027","not":"Batılı müelliflere ATIF; takvim belirtilmemiş (D110). Veri 1392-01-15 — 9 günlük çelişki görünür olur."},
+    {"id":"a6a-karaferye-osmanli-13870508","yer":"Karaferye (Veria)","devlet":"osmanli","tarih":"1387-05-08","kesinlik":"gun",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Karaferye»","slug":"karaferye","alinti":"Diğer Yunan kaynakları ise şehrin Türkler tarafından alınmasının 8 Mayıs 1387’de olduğunu yazar.","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0025","not":"Aynı paragraf 775 (1373-74, 'ancak bir akın') ve 1385-86 (Meteora yazması) de anıyor; 1403 Bizans'a iade (Yunan tarihçiliği) ile 1455 defteri ('794/1392'den itibaren kesintisiz') çelişiyor — bu halka yalnız 8 Mayıs 1387 tanıklığıdır."},
+    {"id":"a6a-manisa-saruhan-14020817","yer":"Manisa","devlet":"saruhan","tarih":"1402-08-17","kesinlik":"gun",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Manisa»","slug":"manisa","alinti":"Saruhanoğlu Orhan Bey 17 Ağustos 1402’de şehre gelip idareyi ele geçirdi.","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0043"},
+    {"id":"a6a-manisa-osmanli-1415","yer":"Manisa","devlet":"osmanli","tur":"dogrudan","tarih":"1415-01-01","kesinlik":"yil",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Saruhanoğulları»","slug":"saruhanogullari","alinti":"1411’den sonra ve 1415’ten önce Saruhan ülkesinin Çelebi Mehmed’in idaresi altına girdiği, böylece Saruhanoğulları’nın Manisa kolunun tarihe karıştığı anlaşılmaktadır","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0043","not":"'1415'ten önce' ⇒ 1415 boyunca Osmanlı. Yer adı cümlede 'Saruhan ülkesi / Manisa kolu' — Manisa ADIYLA anılıyor (kol adı). Veri 1416-09-01'e kadar saruhan — ÇELİŞKİ görünür olur (yama A6A-Y6). Destek: TDV manisa «Osmanlı idaresi ancak 818’den (1415) biraz önce tam olarak kurulabildi»."},
+    {"id":"a6a-yergogu-osmanli-1420-1427","yer":"Yergöğü (Giurgiu)","devlet":"osmanli","f":"1420-01-01","t":"1427-01-01","kesinlik":"yil",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Yergöğü»","slug":"yergogu","alinti":"Bu kale son araştırmalara göre 1417’de değil 1420’de Osmanlılar’ca ele geçirildi. … 1427’de Eflaklılar Giurgiu Kalesi’ni geri aldı.","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0052"},
+    {"id":"a6a-yergogu-eflak-1427-1449","yer":"Yergöğü (Giurgiu)","devlet":"eflak","f":"1427-01-01","t":"1449-01-01","kesinlik":"yil",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Yergöğü»","slug":"yergogu","alinti":"1427’de Eflaklılar Giurgiu Kalesi’ni geri aldı. Ancak 853’te (1449) burası tekrar Osmanlı kontrolü altına girdi","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0052","not":"hicrî 853 = 24.02.1449–13.02.1450; t yıl yuvarlaması (1449-01-01) ihtiyatlı uç."},
+    {"id":"a6a-zencan-timurlu-832","yer":"Zencan","devlet":"timurlu","tarih":"1429-01-01","kesinlik":"yil",
+     "kaynak":{"ad":"TDV İslâm Ansiklopedisi, «Zencan»","slug":"zencan","alinti":"832’de (1428-29) Sultâniye, Ebher, Kazvin ve Zencan, Timurlular’dan İlyas Hocaoğlu Hoca Yûsuf’un idaresindeydi.","gelenek":"TR"},
+     "rapor":"denetim/ARASTIRMA-A6A-0913.md §H-0029","not":"hicrî 832 = 11.10.1428–30.09.1429; dokuz ayı 1429'da ⇒ kural ⑤ mantığıyla 1429. Veri bugün karakoyunlu (1410-1469) — ÇELİŞKİ görünür olur. ⚠️ kesin pencere 1429'un tamamını boyar, Ekim-Aralık 1429 hicrî 833'e düşer — koordinatör isterse yazma."}
+  ],
+  "yazilmayan_halkalar": {
+    "gerekce": "halka ① — fetih/katılış OLAYI yılı, o yılın tamamında sahiplik demek değildir (NOKTA yıl penceresi olaydan önceki ayları da boyar); muhtemel/belirsiz ifadeler halka almaz.",
+    "liste": ["Kemah osmanli 803/1401 (olay yılı)", "Kemah burhaneddin 796/1394 (bağlılık olayı)", "Ustrumca osmanli 1395 (olay)", "Köprülü osmanli 1395 ('geçmiş olmalıdır' — muhtemel)", "Vodina osmanli 1386-87 ('kuvvetli bir ihtimale göre')", "Nablus osmanli '922 (1516) sonbaharında' (mevsim; yıl penceresi Ocak-Ağustos'u da boyar)", "Sayda osmanli 1516 (olay)", "Kudüs osmanli 'muhtemelen Ekim 1516'", "Ordu tabi 800/1398 bahar (olay) · Ordu osmanli 1427 (olay) · Ordu 1404 'Arzamir (Hacı Emîr [?])' (kimlik soru işaretli)", "Zencan timurlu '1382-1383 yıllarında' (iki yıllık olay)", "Bağdat timurlu 795/1393 (olay)", "Azak don-kazak 1637 (olay; 1642 ucu gövdede kesik okundu)"]
+  },
+  "tdv_slug_olcumu": {
+    "canli_200_govde_okundu": ["kemah","erzincan","akkoyunlular","celayirliler","vodina","karaferye","selanik","uskup","koprulu","istip","kostendil","ustrumca","pirlepe","yergogu","ordu--sehir","saruhanogullari","manisa","izmir","cuneyd-bey","gazze","kudus","canbirdi-gazali","selim-i","azak","bagdat","zencan","muzafferiler","kosova-savaslari","kosova","tuna","eflak","sayda","akka","nablus","yafa","filistin","beyrut","anapa","sahib-giray","cerkezler"],
+    "olu_302": ["mutahharten","unye","canik","haciemirogullari","haci-emirogullari","canberdi-gazzali","mercidabik-savasi","temruk","solnok","bugdan","kisinev","taman","kuban","temruk--kale","sam","ercan-yavuz"]
+  }
+}
