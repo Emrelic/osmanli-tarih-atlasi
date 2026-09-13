@@ -100,7 +100,10 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       2 künye · 3 SEFER · 8 halka). Koordinatör hükmü: Özi 1737 günü TDV 11 Temmuz (ESBE 13 Temmuz ayrışma
       notu) · `polonya-erken` rengi eklenir (9 nokta renksiz) · Çehrin zaptı 1678-08-21 madde + yerleşim BİRLİKTE
       (bugün ikisi de 07-19, 33 gün) · Hotin 1769-74 `s:` → `isg:` (1806 emsali) + 1739 ve 1788-92 işgalleri.
-      🟡 EMRE: `kazak-hatmanligi` künyesi (Çehrin 1648-1678) açılsın mı. Güney Boğdan araştırması sonraki dalga.
+      🟢 EMRE KARARI (13 Eylül): Kazak Hetmanlığı künyesi AÇILACAK ("o devlet olması lazım") — künye + renk + Çehrin
+      1648-1678 penceresi önerisi PAKET-RUS'ta (`denetim/YAMA-RUS-0913.json`). Güney Boğdan araştırması sonraki dalga.
+      🟢 EMRE KARARI: taralı desen YALNIZ İŞGAL; Rus'un Eflak-Boğdan harekâtlarında işgal edilen topraklar `isg:` (taralı),
+      ilerleyen ordular kesikli çizgi + ok (PAKET-RUS). Antlaşma devirlerinde tarama yok, yerine önce/sonra görünümü (PAKET-UI2).
 - [ ] **A6a Balkan · Anadolu** — `denetim/YAMA-A6A-0913.json` (17 yama · 11 halka). Koordinatör hükmü:
       Y2 Vodina `1387-01-01` + yeni madde «Vodina'nın fethi (1386-1387 kışı)» BİRLİKTE (enklav kalkar; Üsküp
       maddesindeki "Katılım: Vodina" düşer) · Y3 Üsküp 1392-01-06 (takvim D110 sınanacak) · Y8 Kudüs
@@ -124,6 +127,12 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       madde (ör. 1514-11-24 Yavuz'un Amasya'ya dönüşü). Günü KAYNAKSIZ mevcut maddeler: `1595-08-23` Kalûgerân
       (TDV eflak gün vermiyor; Önal, Koca Sinan Paşa s.390-395 okunacak) · `1594-10-05` üç voyvodalık · `1811-09-03`
       Tosun (ay → gün şişmiş). Kılıç (remzikilic.com, yayın künyesi yok) §4 ara bölge — basılı sürümü aranacak.
+- [ ] **ARAS0048 (paket 0048 görsel soruları)** — `denetim/YAMA-0048-0913.json` (7 yama): Y4 Katar/Doha dolgu → tâbi
+      1559-1670 (TDV katar "tartışmasız Osmanlı hâkimiyeti"; haritada Safevî görünüyordu) · Y2 Aşağı Yayık–Emba Nogay
+      dolgu noktası · Hârizm 1593-1598 Özbek (Buhara) işgali veride YOK · MOTOR (koşu 11): Y5 `_dolgu_kumesi` kasıtlı
+      boşluğu (kurulmamış Doha peteği) yabancı gövdeye katmasın · Y6 kendini kesen halka onarımı · Y7 serbest hat
+      sadeleştirme (ÜÇGEN kusuru, 257 km segment) · Y1 arayüz: `bos:"kabile"` beneklerine boy adları.
+      🟡 EMRE: H-0002 üç voyvodalık 1594-1606 gösterimi — öneri seçenek C (tâbi zemin + ayrı isyan katmanı).
 - [ ] **DENETİM BORCU — `denetle.py savas_senkronu()`** en yakın maddeyi AD BAKMADAN eşliyor: 1595-01-01 Kalûgerân
       işareti alakasız Ahmednagar maddesiyle SAHTE kapanıyordu (A4 ölçtü; D147'nin savaş işareti yüzü). Koşu 10
       zinciri denetle.py'yi kullandığı için koşu SONRASI düzeltilecek.

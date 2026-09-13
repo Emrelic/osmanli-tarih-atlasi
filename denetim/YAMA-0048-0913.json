@@ -1,0 +1,100 @@
+{
+  "paket": "PAKET-ARAS0048",
+  "tarih": "2026-09-13",
+  "rapor": "denetim/ARASTIRMA-0048-0913.md",
+  "not": "Hiçbiri UYGULANMADI. Veri kalemleri Oturum 0'a, motor kalemleri uret_petek.py sahibine, arayüz kalemleri Oturum 1'e. Koşu 10 sürerken girdi donmuştur (§7).",
+  "yamalar": [
+    {
+      "id": "0048-Y1", "kalem": "H-0001", "tur": "arayuz", "sahip": "Oturum 1 (js/app.js) + Oturum 0 (neden: metinleri)",
+      "ne": "bos:'kabile' dolgu beneklerine boy adları kısa etiket olarak yazılsın; Üstyurt/Uzboy/Karakum neden: metinleri TDV cümleleriyle zenginleştirilsin",
+      "hedef": ["Üstyurt platosu (batı)", "Üstyurt platosu (doğu)", "Uzboy", "Karakum"],
+      "oneri_etiket": {"Üstyurt platosu (batı)": "Salur · Esen İli (Çavuldur · İgdir · Soynacı) Türkmenleri", "Üstyurt platosu (doğu)": "Taşkı Salur — Hârizm kervan yolu", "Uzboy": "Türkmen göçer alanı", "Karakum": "Teke · Yomut (Küren dağı yöresi)"},
+      "kaynak": [
+        {"ad": "TDV turkmenler", "alinti": "Taşkı Salurlar doğuda Hârizm'den gelen ana yol üzerindeydi"},
+        {"ad": "TDV turkmenler", "alinti": "Teke ve Yomutlar, Küçük Balhan ile Kızılarvat ortasındaki Küren dağı çevresine göç etti"},
+        {"ad": "TDV mangislak", "alinti": "Hîve Hanlığı Mangışlak'ı da kendine bağlamayı başardı"}
+      ],
+      "kesinlik": "etiket içeriği kaynaklı; hangi boyun tam olarak hangi dolguya düştüğü coğrafî yaklaşık"
+    },
+    {
+      "id": "0048-Y2", "kalem": "H-0001", "tur": "veri-taslak", "sahip": "Oturum 0",
+      "ne": "Aşağı Yayık–Emba dolgu noktası (Guryev kur 1640 öncesi boş kalan petek)",
+      "kayit_taslak": {"ad": "Aşağı Yayık–Emba (Nogay yurdu)", "tur": "bolge", "lat": 47.4, "lon": 51.8, "g": 0, "k": 0, "s": [{"f": "?", "t": "?", "d": "nogay"}]},
+      "kaynak": [{"ad": "TDV nogaylar", "alinti": "Doğu sınırının Emba nehri üzerinden Aral denizine kadar uzanmakta olduğu anlaşılmaktadır"}],
+      "bulunamadi": "başlangıç/bitiş günü; TDV saraycik 302; komşu Emba (Cem) 1500/1644 günlerinin kendi kaynağı yok ⇒ §4 şartlı komşu kuralı karşılanmıyor",
+      "durum": "YAZILAMAZ — akademik kaynak (Trepavlov, okumadım) aranmalı"
+    },
+    {
+      "id": "0048-Y3", "kalem": "H-0001 ek bulgu", "tur": "veri", "sahip": "Oturum 0",
+      "ne": "Hârizm 1593-1598 Özbek (Buhara) işgali — hive dönemini böl",
+      "hedef": ["Hîve", "Köhne Ürgenç (Gürgenç)", "Hazârasp", "Küngrat"],
+      "degisiklik": "s: hive 1512-01-01→1740-01-01  ⇒  hive 1512-01-01→1593-01-01 · buhara 1593-01-01→1598-01-01 · hive 1598-01-01→1740-01-01",
+      "kunye_kontrol": "buhara f:1500-01-01 t:1920-09-02 — pencere tutuyor",
+      "kaynak": [
+        {"ad": "TDV hive-hanligi", "alinti": "Abdullah Han 1593'te Hârizm ülkesine girdi"},
+        {"ad": "TDV hive-hanligi", "alinti": "1598'de II. Abdullah Han'ın ölümüyle Özbek işgali sona erdi"},
+        {"ad": "TDV harizm", "alinti": "1593-1598 yıllarında II. Abdullah Han'ın istilâsına"}
+      ],
+      "kesinlik": "yıl — YYYY-01-01 (§4); 1595-96 isyan arası gün yok, ayrı dönem yapılmadı",
+      "on_kosul": "Değişmez 2 — 1593 ve 1598 kırılmaları için kronoloji maddesi YOK (tarandı, bulunamadı); iki madde yazılmadan uygulanmaz",
+      "etkilenmeyen": "Yeni Ürgenç 1590'larda sahnede değil — dokunulmadı"
+    },
+    {
+      "id": "0048-Y4", "kalem": "H-0011", "tur": "veri", "sahip": "Oturum 0",
+      "hedef": "Katar Yarımadası (iç, dolgu) · data/yerlesimler_ek_korfez.js",
+      "degisiklik": {
+        "kaldir": ["kasitli_bosluk"],
+        "ekle_v": [{"f": "1559-01-01", "t": "1670-01-01", "k": "Katar (Benî Müsellem) — Lahsâ beylerbeyiliğine bağlı", "statu": "vassal"}],
+        "neden_duzelt": "1670 sonrası bağlılık: bulunamadı (TDV katar 1559'dan 1776'ya atlıyor) — kasıtlı hüküm DEĞİL, bilinmiyor",
+        "kaynak": "TDV, madde: katar — \"Osmanlı Devleti önce Lahsâ beylerbeyiliğini, arkasından da Katar sancağını kurarak buraya idareciler tayin etti (1559)\" · \"burası da tartışmasız biçimde Osmanlı hâkimiyetindeki topraklar içinde yer almıştır\""
+      },
+      "gerekce": "1602'de Safevî Katar'a sahip değildi (TDV bahreyn: yalnız adalar 1602); mevcut neden: alanı ('ilk somut bağ 1868/1871') TDV katar ile çelişiyor",
+      "tavir_secimi": "tâbi, doğrudan değil — TDV: doğrudan idare tesisi 'yarım kalmış', hâkimiyet mahallî Benî Müsellem idarecileri üzerinden",
+      "bitis_gunu": "1670-01-01 Lahsa/Ukayr/Katîf kayıtlarının benihalid geçişiyle aynı gün — ⚠️ o günün kendi kaynağı bu kalemde sınanmadı (okumadım); §4 şartlı komşu kuralı ① doğrulanmadan kesin yazılmamalı",
+      "on_kosul": "Değişmez 2 — 1559 ve 1670 kırılmaları için madde (1670 Lahsa kırılması zaten var mı: okumadım)",
+      "iki_uc": "Osmanlı tarafında fazlalık: tâbi rengi Katar yarımadasının tamamına yayılır (dolgu peteği 2616 + Doha peteği 389 dolgu kapısıyla) — beklenen ve kaynaklı; Safevî tarafı kalkar"
+    },
+    {
+      "id": "0048-Y5", "kalem": "H-0009/H-0011", "tur": "motor", "sahip": "Oturum 0 (arac/uret_petek.py)",
+      "ne": "_dolgu_kumesi (uret_petek.py ~4360) kasitli_bosluk bayrağını tanımıyor; _kusatilmis (3317) tanıyor — ikisi ters",
+      "oneri": "bos_ix'e eklemeden önce: if y.get('kasitli_bosluk'): continue",
+      "alternatif": "kasitli_bosluk'u zamanlı yapmak (ör. bos_pencere:[{f,t}]) — Doha'nın bayrağı 1825-1871 için konmuş; ŞEMA KARARI",
+      "olcum": "petek 389 «Doha (Katar)» 1602-01-01'de sahnede değil + kasitli; yayında safevi parça 2762 olarak boyalı (bbox 51,35-52,67°D · 23,44-25,94°K)",
+      "bedel": "ölçülmedi — kasitli_bosluk taşıyan ve bugün dolgu kapısıyla doldurulan bütün petekler boşalır; Değişmez 1b ve BULGULAR-DORDUNCU Nâsıriye vakası yeniden sınanmalı"
+    },
+    {
+      "id": "0048-Y6", "kalem": "H-0009", "tur": "motor", "sahip": "Oturum 0 (arac/uret_petek.py)",
+      "ne": "DEVLET_PARCALAR'da geçersiz (kendini kesen) halka",
+      "olcum": "safevi parça 2762 · Self-intersection [51.443, 24.609] · dnm 1602-01-01→1603-10-21",
+      "oneri": "havuza yazmadan make_valid/buffer(0); koşu raporuna geçersiz yabancı parça sayısı basılsın",
+      "olculmedi": "toplam geçersiz yabancı parça sayısı (BULGULAR-UCGEN Aday 1 yalnız Osmanlı o/v ölçmüştü)"
+    },
+    {
+      "id": "0048-Y7", "kalem": "H-0010", "tur": "motor+arayuz", "sahip": "Oturum 0 (uret_petek.py serbest kenar) · Oturum 1 (app.js serbest-hale)",
+      "ne": "bilinen ÜÇGEN kusurunun çözülmemiş kısmı — ince segmentli serbest hatta 80 px bulanık şerit",
+      "olcum": "dönem 1600-10-20→1603-10-21 · serbest hat 60 · u=39,5 km · 153 köşe · segment min 0,31 / medyan 2,34 / max 257,53 km · z8'de genişlik/segment ≈ 72×",
+      "oneri": "(a) kıyı parçalarını serbest havuzdan çıkar ya da (b) simplify(≈u/20)+linemerge (BULGULAR-UCGEN-19AGU §İKİNCİL); kısa vade: z≥7'de TAVAN_PX düşür",
+      "kaynak_kod": "js/app.js:1618-1624 — 'segment/köşe düzeyindeki asıl oransızlığı … TAM ÇÖZMÜYOR'",
+      "olculmedi": "kıyı kenarının neden serbest sayıldığı"
+    }
+  ],
+  "karar_H0002": {
+    "soru": "1594-1606 Eflak-Boğdan-Erdel ayaklanması haritada nasıl gösterilmeli",
+    "veri_bugun": "kutu 43,6-48,3°K · 20,5-30,2°D @1597-06-15: 47 nokta · TABI 27 · OSMANLI 17 · avusturya 2 · kurulmamış 1 — üç voyvodalıkta 1594-1606 arası HİÇ kırılma yok",
+    "celiski": "olaylar_ek10.js 1594-10-05 / 1595-08-23 / 1595-10 maddeleri 'elden çıktı' diyor, harita tâbi",
+    "secenekler": {
+      "A": {"ad": "tâbi kalır", "arti": ["Osmanlı hukukî iddiası (Zitvatorok 1606; III. Mehmed)", "TDV dili 'isyan'", "maliyet sıfır"], "eksi": ["kronoloji-harita çelişkisi sürer", "Erdel 1601-1602 Habsburg idaresi bile görünmez"]},
+      "B": {"ad": "müstakil/Habsburg rengi", "arti": ["fiilî durum"], "eksi": ["Boğdan 1595'ten Osmanlı'nın tanıdığı voyvoda + haraç (kondominyum) — abartır", "çok sayıda kısa kırılma", "hiçbir kaynak 'bağımsız' demiyor"]},
+      "C1": {"ad": "ayrı isyan künyeleri (san-fan emsali, tur:'isyan')", "arti": ["motor/arayüz değişmez", "emsal veride var: san-fan 13 nokta"], "eksi": ["tâbi iddiası görünmez olur", "3 künye + renk + kırılma maddeleri"]},
+      "C2": {"ad": "tâbi zemin + isyan taraması (isg: mekanizması, ayrı desen)", "arti": ["iki bakış birlikte", "Kołodziejczyk: 'degree of their sovereignty in a given sphere and in a given period'", "yeni d/v kırılması yok"], "eksi": ["tarama bugün 'işgal' demek — ayrı desen+lejant (Oturum 1)", "motorun isg kimliği/renk bağlantısı ölçülmedi"]}
+    },
+    "oneri": "C2; arayüz maliyeti kabul edilmezse C1. Üç ülke AYRI aralıkla. Erdel 1601-1602 Habsburg idaresi ayrıca (TDV 'Habsburg idaresine girmesi').",
+    "tarih_iskeleti_yil": {
+      "eflak": [{"f": "1594", "t": "1601", "kaynak": "TDV eflak"}],
+      "bogdan": [{"f": "1594", "t": "1595", "kaynak": "TDV bogdan"}, {"f": "1600", "t": "1601", "kaynak": "TDV bogdan"}],
+      "erdel": [{"f": "1594", "t": "1604/1605", "kaynak": "TDV erdel + zitvatorok-antlasmasi"}, {"f": "1601", "t": "1602", "tur": "Habsburg idaresi", "kaynak": "TDV erdel"}]
+    },
+    "gun_durumu": "TDV yalnız yıl veriyor; ay/gün için Kármán & Kunčević 2013 ve Panaite OKUMADIM; Vikipedi (Cecora 10/1595, Mănăstirea Dealu 9 Haz 1598) dayanak değil",
+    "karar_sahibi": "Emre"
+  }
+}
