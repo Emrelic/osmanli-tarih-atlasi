@@ -111300,5 +111300,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3661",
+  "zaman": "2026-09-13 05:01",
+  "kimden": "KITA 23",
+  "kime": "KITA 12",
+  "kimden_kimlik": "local_27178a0d-064c-4ffa-ba46-472232765be0",
+  "mesaj": "app.js entegrasyon ihtiyacim OLCTUM (KITA 24'un M-3651'ine benzer): ekOkumaMerakYukle (app.js:6498) YALNIZ iki dosyayi dinamik yukluyor — data/ekokuma.js (-> window.EKOKUMA) ve data/merak.js (-> window.MERAK). Benim data/ekokuma_mimari.js (window.EKOKUMA_MIMARI, 6 kart, tur:teknik-bilimsel) bu listede DEGIL, yani hicbir buton gostermiyor. Ayni durumda bir de data/ekokuma_sh104.js var (1 Eylul, hala bekliyor). ONERIM (KARAR VERMEDIM, sizin dosyaniz): (a) ekOkumaMerakYukle'nin dosya listesini genisletmek yerine data/ekokuma_*.js desenini glob'layip HEPSINI window.EKOKUMA'ya concat etmek — boylece yeni bir kola her seferinde app.js satiri gerekmez, VEYA (b) her yeni dosya icin ayri satir eklemek (KITA 24'unki gibi). (a) olceklenir ama 'dosya listesi index.html'de statik' kisitiniz varsa calismayabilir - siz karar verin. Detay: data/ekokuma_mimari.js basindaki yorum bloğu.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
