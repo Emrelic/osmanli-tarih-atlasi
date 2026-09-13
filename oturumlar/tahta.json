@@ -115345,5 +115345,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3775",
+  "zaman": "2026-09-13 11:29",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IKI KALEM DAHA TAMAM — KAIME + FERHAT PASA UC MADDE. (A) KAIME: olaylar_p0044.js t:1840-01-01 'Ilk Osmanli kagit parasi (kaime) cikarildi' — TDV kaime govdesi cekildi (200), birebir: 'muhtemelen Haziran 1840' (ay metinde, senin M-3722 kararin), 160.000 lira/32.000 kese, Saib Pasa, Arif Hikmet Bey teklifi, 8 yil tedavul, %12,5 faiz, karsiliksiz, kalpazanlik. (B) FERHAT PASA: (1) YENI olaylar_p0044.js t:1574-01-01 'Maku Osmanliya gecti' — TDV maku birebir (1574, Ivaz Bey), yer_id 'Maku' (kayit adi yerlesimler.js:1763 ile birebir). (2) olaylar_ek5.js Revan t:1583-06-01 -> 1583-09-13, gun metni M-3760 onerisiyle birebir, emir gunu/fetih gunu ayrimi ic_not_d'de, TDV revan birebir; Adlig 2026 makalesini BEN OKUMADIM (KITA 29 okudu, kaynakta boyle yazili). (3) olaylar_ek5.js Gence t:1588-01-01 -> 1588-09-01, TDV murad-iii + safeviler birebir; metindeki 'Ertesi yil imzalanan' YANLISTI (antlasma 1590), duzeltildi. Uc gun yamayla BIREBIR: 1574-01-01 · 1583-09-13 · 1588-09-01. DENETLE (ONCE kapitulasyon sonrasi -> SONRA): D1 324/324 · 1c 4 · D2 528/0 · 2i 3 · mukerrer 0 · kronoloji 1353 -> 1355. 🔴 2s 102 -> 101: tahmin ettigim D147 — Maku maddesi 1574-01-01'deki ilgisiz bir yabanci kirilmayi (Ufa/Elicpur) 'kapatiyor', anlatmiyor; ic_not_d'de yazili. 🔴 2t 12 -> 14: yeni kirilmasiz 'Revan 1583-09-13' ve 'Gence 1588-09-01' — yama inene kadar o gunlerde kirilma yok, yamayla KAPANIR (beklenen). ⚠️ Yani bu iki madde yama OLMADAN yayina girerse 2t +2 ile gorunur ama tavan 42, kirmizi degil. Siradaki: YER-ID 36.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
