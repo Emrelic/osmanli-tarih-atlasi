@@ -70,8 +70,8 @@ window.OLAYLAR_KAMERIKA = [
     "duygu": [
       "🏛"
     ],
-    "kaynak": "bulunamadı",
-    "d": "İspanya kralı V. Karl, fethedilen Meksika topraklarını doğrudan kraliyet idaresine bağlayarak Yeni İspanya Genel Valiliği'ni kurdu ve ilk genel valiliğe Antonio de Mendoza'yı atadı. Bu düzenleme, fâtihlerin şahsî tasarrufuna dayanan düzeni sona erdirdi ve Kuzey Amerika'nın güneyinden Filipinler'e uzanan bir idarî çerçeve kurdu. Atlasta bu gün, Meksika'dan Karayipler'e uzanan kayıtların kimlik zincirinin başladığı gündür. ⚠️ Gün, atlasın kendi `yeni-ispanya` künyesinin `f:` alanından devralınmıştır; bu madde o kırılmayı karşılamak için yazılmıştır. TDV bu coğrafyayı kapsamamaktadır."
+    "kaynak": "amerika (varlık ve sınır) — TDV amerika birebir: '…Kuzey Amerika’daki sömürgelerini, merkezi Meksika’da olan bir genel valilikle yönetimi altına almıştı. Bu genel valiliğin sınırları Meksika, Yucatan yarımadası ve Guatemala bölgelerini kapsıyordu.' · Kuruluş yılı, 17 Nisan günü ve Mendoza için bulunamadı — TDV amerika vermiyor; gün atlasın yeni-ispanya künyesinin f: alanından devralındı (§4 künye günü devralma kuralı), günün kendisi de kaynaksızdır. · Düzeltme (KITA 14, 13 Eylül 2026, 1.MURAT onayıyla): önceki metin 'Kuzey Amerika’nın güneyinden Filipinler’e uzanan bir idarî çerçeve' diyordu — TDV amerika Filipinler’i anmıyor ve 1535 için anakronik; çıkarıldı. Önceki metnin 'TDV bu coğrafyayı kapsamamaktadır' cümlesi de yanlıştı (TDV amerika genel valiliği anlatıyor); iç notlar kullanıcı metninden bu alana taşındı.",
+    "d": "İspanya kralı V. Karl, fethedilen Meksika topraklarını doğrudan kraliyet idaresine bağlayarak Yeni İspanya Genel Valiliği'ni kurdu ve ilk genel valiliğe Antonio de Mendoza'yı atadı. Bu düzenleme, fâtihlerin şahsî tasarrufuna dayanan düzeni sona erdirdi. Merkezi Meksika'da olan genel valiliğin sınırları Meksika, Yucatan yarımadası ve Guatemala bölgelerini kapsıyordu."
   },
 
   {
