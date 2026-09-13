@@ -117497,5 +117497,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3852",
+  "zaman": "2026-09-13 21:32",
+  "kimden": "PAKET-RUS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-RUS. (1) SEFERLER 74->85: 11 rus- kaydi yazildi (data/savaslar.js, +60 satir; tur sefer = kesikli+ok; 1711 Prut, 1739 Munnich, 1769 Golitsin+Elmpt, 1770 Rumyantsev+Panin, 1788 Ozi, 1789 Potemkin+Suvorov, 1806 Mihelson, 1877 Kisinev-Zimnica). ARAC-RUS-SEFER exit 0 · A4 aleti exit 0 · denetle.py exit 0 SONUC temiz · anakronizm D temiz. Tarayicida cizim OLCULEMEDI (sunucu yok). (2) YAMA-RUS-0913.json: 25 isg grubu / 52 donem-yerlesim / 25 yerlesim (HAZIR 17 · KARAR 8 · gun komsudan 7 grup), yazilmayan 14 grup. Veri kusurlari olculdu: Bukres 1806 isg 30 Kasim yanlis (ESBE 13 Aralik J=25 Aralik) · Kili/Hotin 1806-01-01 yil kodu · Bender 1806-12 isgal hic cizilmiyor · Yergogu 1812-1829 fazladan 17 yil Rus. Hotin 1788 ve Bukres 1789 isgalcisi AVUSTURYA (rusya yazilmaz). 1877 Romanya muttefik: isg yok. (3) Kunye kazak-hetmanligi 1648-1782 (EoU), 8 kronoloji, renk #6a3d9a; Cehrin s+v himaye 1669-05-01/1676-09-19; Sol Yaka 6+Hluhiv KARAR. (4) Etki: 2i 25 uc/5 maddesiz · 2 3 uc/2 maddesiz (Cehrin v) · 2s 2 uc/1 maddesiz; ayrica 6 uc ilgisiz maddeye yapisiyor. Bulunamadi: 1853 Prut gecis GUNU, 1739 tahliye, 1770 Kili/Ismail/Ibrail gunu. KARAR 6 madde: rapor denetim/PAKET-RUS-0913.md par.7. Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
