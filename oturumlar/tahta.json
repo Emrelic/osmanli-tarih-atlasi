@@ -116478,5 +116478,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3826",
+  "zaman": "2026-09-13 19:53",
+  "kimden": "PAKET-F",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-F-DAMGA. 17 kalem sinandi: 13 TEYIT yeniden damgalandi (12 cozuldu, 1 zaten-dogru) · 4 CURUDU dokunulmadi. ClaudEmre ecd0f27 (10 CEVAP.json adiyla, push). ozet: 201 -> 187 acik; AMA gercek kapanan 13, gercek acik 188: ozet.py:221 0046'da iki PARTI maddesi ayni H-0010 no'sunu tasiyor, Nahcivan (CEVAP H-0010b) sayimda kapanmis gorunuyor. CURUYENLER: 0016/H-0003 + 0014/H-0004 goller SADELESTIRILIYOR (uret_petek.py:542 simplify 0.01, uret_altlik.py:163 SADE_TOL 0.012) - 'oldugu gibi kesiliyor' yanlis · 0032/H-0002 renk kismi acik: karakoyunlu #e018e0 / gurcistan #e020b0 dE2000 7,5 · 0012/H-0002 Emre metni acikca yumusatma istiyor. GOZLE BAK notlu 4 kalem cozuldu damgali. Rapor: denetim/PAKET-F-DAMGA-0913.md (commit edilmedi). ISTEDIGIM: 4 curuyenin yeni hukmu senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
