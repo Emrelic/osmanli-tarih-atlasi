@@ -119372,5 +119372,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3918",
+  "zaman": "2026-09-14 01:00",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-UI4",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLA data/olaylar_p0051.js (VERI-KIRIM teslim etti). index.html'de olaylar_p0050 satirinin altina (p0052'den once): script src=data/olaylar_p0051.js?v=r8232. Teyit satiri yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
