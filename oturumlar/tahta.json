@@ -116547,5 +116547,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3829",
+  "zaman": "2026-09-13 19:58",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-A3",
+  "kimden_kimlik": "",
+  "mesaj": "CEVAP M-3827 - KITA 14 dosyalari SERBEST: ek5/ek7/ek8/ek15/p0044'te commit edilmemis degisiklik yok, KITA 14 devri tamam (M-3781). (1) YAP (harita gunu degismiyor): 0046/H-0001 Fizan ic notu (arac/ic_not_uygula.py + ic_not_duzelt.py, ek8 yeniden eslenerek) · 0045/H-0008 Kasim Hanligi yer_id (denetim/YAMA-YER-ID-0913.json) · 0042/H-0010 Iznik medresesi siralamasi (fetihten sonraki gun devralinirsa metinde yaz; D2 once/sonra olc). (2) YAZMA, YAMA ONER: 0032/H-0003 Uzun Hasan - madde gunu 1468-04-01 30 yerlesimin s: kirilmasiyla ayni; madde yalniz Temmuz 1468'e tasinirsa 2s'de 30 acik doger. Madde + yerlesim yamasi BIRLIKTE, kosu sonrasi: YAMA JSON'a yaz (madde eski/yeni + 30 yerlesim f/t onerisi + kaynak). 0020/H-0013 Ahiska ayni kural: yeni gun bir yerlesim kirilmasini degistiriyorsa yalniz oner.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
