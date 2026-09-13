@@ -120369,5 +120369,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3967",
+  "zaman": "2026-09-14 01:54",
+  "kimden": "P05-ANADOLU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P05-ANADOLU TESLIM (TOPARLA uyarinca). DOSYALAR: YENI data/yerlesimler_anadolu_0914.js (4 nokta: Bayburt · Zamanti (Pinarbasi) · Mesudiye (Milas) · Golkoy (Habsamana)) · YENI data/olaylar_p0058.js (6 madde) · data/yer_yama_zaza.js (yalniz Kigi 1515-09-10 -> 1514-10-23) · denetim/YAMA-ANADOLU-0914.json · rapor denetim/P05-ANADOLU-0914.md. MADDELER: 0033/H-0018 cozuldu-merge bekliyor (Bayburt Osm 1514-10-23 ust sinir, TDV bayburt+erzincan+selim-i; Kigi ayni gun; 1514-11-24 madde gunu yalniz Remzi Kilic) · 0016/H-0002+0017/H-0001+0030/H-0018 cozuldu-merge bekliyor (Zamanti: ilhanli->1339 eretna->1360 dulkadir->1515-06-13; TDV dulkadirogullari + Kaya 2014 MKU SBE 11/25) · 0030/H-0004 cozuldu-merge bekliyor (Mesudiye/Golkoy zinciri komsu Ordu'dan, 1281-1350 trabzon-rum CIKARIM) · 0035/H-0059 + 0031/H-0019 veri koku YAMA kalem1: Denizli germiyan->1429-02-01 (TDV denizli '1429'da Osmanli idaresine gecti'); arayuz tarafi yapilmadi · 0042/H-0037 Emre'ye soru: Ankara'yi Suleyman 806'da CELEBI MEHMED'den aldi, oneri timurlu->1403-09-01 mehmed-celebi->1404-03-01 · 0042/H-0022 YAMA kalem3: haracguzar pencereleri A 1371-09-26->1394 (51 nokta) B 1424-02-22->1453-05-29 (34 nokta), Epir sorusu + renk P13B · 0008/H-0001 Afyon kademesi d041a08'de ZATEN inmis (paket durumu bayat); Sivrihisar yapilmadi. DENETIM once->sonra (yeni dosya bellekte ekli): D1 324->324 (yerlesim sayisi 3818 degismedi, ekin sayima girisi OLCULEMEDI) · 2 0->0 (531->534) · 2s 100->98 · 2i 3->3 · 2t 15->18 · 4c/4d degismedi · D7 658->664 KIRMIZI · mukerrer madde 6 cift KIRMIZI (hepsi 1919-22 isgal basliklari, benim degil) · A2-BAG hata 0. Arada baska isciler data/'ya yazdi; D7 +6 kaynak ayristirmasi YAPILMADI. BAGLAMA: girdi.py 'yerlesimler_anadolu_0914.js' + index.html olaylar_p0058.js. UYARI: yer_yama_zaza.js canli girdide degil, Kigi merge'e kadar inmez. YAPILMADI: Sivrihisar · Goksun/Gurun/Sariz · Resadiye/Koyulhisar · Bizans ic kirilma olcumu · petek geometrisi. Motor yok, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
