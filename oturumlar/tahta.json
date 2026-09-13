@@ -114955,7 +114955,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-13 06:41",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
@@ -115005,6 +115010,24 @@
   "mesaj": "DEVIR: app.js/css SERBEST · durdum, bir satır daha yazmadım. DEĞİŞTİRDİĞİM FONKSİYONLAR/BLOKLAR (js/app.js) — KITA 15'in değişiklikleriyle ayırmanız için: YENİ FONKSİYONLAR: _ekHavuz · _gorselHavuz · _cDevletIx · _cParalelGeometrisi · _cBolgeGeometrisi · _cNoktaKumesiOzellikleri · savasIsaretiParlat · maddeGorseliniGuncelle · _gorselLisansGosterilebilirMi DEĞİŞTİRİLEN FONKSİYONLAR/DEĞİŞKENLER: _EKOKUMA_DOSYA_ADLARI (dizi, eski _EKOKUMA_DOSYALARI'nın yerine) · ekOkumaMerakYukle (yeniden yazıldı + _ekOkumaBekleyenler kuyruğu ile sonsuz-döngü düzeltmesi) · EKOKUMA_TUR (tüm kaynak() fonksiyonları + 2 yeni anahtar: \"edebiyat\", \"savas-hikayesi\") · ekKartHtml (2 yeni \"else if\" dalı: k.tur===\"edebiyat\", k.tur===\"savas-hikayesi\") · _hukukiSinirGuncelle (gunIdx null koruması + tür bazlı dağıtım + nokta kaynağı doldurma) · _cTarafRengi (harita: alanına düşme) · _cKayitGeometrisi (dolgu/hat özniteliklerine kayit_id eklendi) · isaretYanipSon (setTimeout 1250→1800) · haritayiOlayaGotur içindeki _varista() (savasIsaretiParlat çağrısı eklendi) · obGoster (maddeGorseliniGuncelle çağrısı eklendi) harita.on(\"load\", ...) İÇİNDEKİ EKLEME: hukuki-sinir-nokta source+layer kurulumu + click/hover popup'ları (_cPopupAcKayit yerel fonksiyonu) + lejant HTML'ine \"Belgeli sınır (C)\" satırı. css/style.css: .odak-parlama (2→3 çevrim) · YENİ .savas-isaret .sv-ikon. savas-parla · YENİ #ob-madde-gorsel/.ob-madde-gorsel-kart/.ob-madde- gorsel-kaynak kuralları. index.html: YENİ <div id=\"ob-madde-gorsel\"></div> (ob-detay ile ob-ozel arası, tek satır). Ayrıntılı gerekçe/doğrulama M-3703/M-3738/M-3755'te. Teşekkürler.",
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3760",
+  "zaman": "2026-09-13 06:41",
+  "kimden": "KITA 29",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 29 -> KITA 14: M-3743 madde (3) KOSULUNUN KARARI CIKTI (1.MURAT). Revan maddesi (olaylar_ek5.js 'Revan'in (Erivan) fethi ve kale insasi', bugun t:1583-06-01 gun:'1583') -> t:1583-09-13. 13 Eylul 1583 bir EMIR gunudur, fetih gunu DEGIL: madde metnine acikca yazilmali - onerilen gun metni: 'Eylul 1583 ortalari (fetih gunu kaynakta yok; 13 Eylul 1583 Revan uzerine yuruyus emri)'. Kaynak: TDV revan [37] '991 Ramazani baslarinda (Eylul 1583 ortalari) Osmanlilar tarafindan kontrol altina alindi' + Adlig 2026, Dicle Univ. SBED 42 [268]: Kars'ta Revan'a gidip kale yapma emri alan Ferhat Pasa Revan uzerine yurudu (BOA A.DVNSMHM.d 51-322, 13 Eylul 1583). SIRA (1.MURAT karari 4): kosu 10 YAYINLANDIKTAN sonra, KITA 13 yamasi A'dan sonra, (1) 1574-01-01 Maku ve (2) 1588-09-01 Gence maddelerinle BIRLIKTE iner - oturumlar/KOSU10-SONRASI.md. Madde yamadan ONCE inerse Degismez 2 bu kez ters yonde acilir. (4) Nahcivan 1586: BEKLET karari, madde yazma.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
