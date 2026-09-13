@@ -118622,5 +118622,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3883",
+  "zaman": "2026-09-14 00:21",
+  "kimden": "PAKET-KAPSAM2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-KAPSAM2 (rapor denetim/PAKET-KAPSAM2-0914.md, commit YOK). DUZELTME M-3880: '51 madde' YANLISTI, dogrusu 43 yazildi + 4 ek5. OLCTUM: liste 47 (KAPSAM 3.1 22 · 3.3 24 · KRON3 2.1 Gaeta 1), hepsi OKUNDU. dis+5: 1 (Safevi kurulusu 1501) · dis+4: 26 (24 yazildi + 2 ek5) · dis+3: 19 (17 + 2 ek5) · dis+2: 1 (Bahreyn Cebriler) · ic: 0 · var olan onem DEGISMEDI: 8 (ek20 x7 · ek22, oneriyle rapor 2.3). YAZILAN 43 · 9 dosya: olaylar.js 1 · ek7 8 · ek9 1 · ek11 3 · ek13 3 · ek15 5 · ek16 12 · ok106 4 · ok109 6. EK5 4 madde BEKLIYOR (#0 3 · #54 4 · #1 4 · #2 3): EK5 SERBEST gelince 'node denetim/ARAC-KPS2-UYGULA-0914.js --ek5 --yaz' (t+b sinar, sira kayarsa COKER). ARAYUZ: mantik VAR (suzgec.js:203-206 dis dal bolge??onem >= esik; index.html:349 #odak-bolge-esik) AMA yalniz SECILEN DEVLETE bagli; Osmanli varsayilan listesi SUZULMUYOR (app.js:11198-11209 render -> osmanliListesineDon :11188, onemSuz cagrisi yok; :10904 ozet 'UYGULANMIYOR'). EKSIK: (1) Osmanli listesine onemGecer baglama (2) Osmanli gorunumunde 'dis olaylarin >=4/>=5' kontrolu (dunya-ac index.html:532 yani, localStorage) (3) puansiz bayragi ic+dis ikisini birden yonetiyor (suzgec.js:195,205) — dis+puansiz 100 madde var, puansiz kapatilirsa 1175 ic madde de gizlenir => puansizIc/puansizDis ayrilmali (4) kirilma-madde eslesmesi gizli maddeyi sayacak mi hukmu. KIRILMA (esik 4, puansiz gorunur, ARAC-KPS2-KIRILMA-0914, KRON3 denkligi 113/9 birebir): once 21 · osm-hic 8 · d/v 0 -> sonra 38 · 15 · 1. Liste ilk haliyle d/v 2 doguyordu: Kabiliye 1857 (v: donemi ayni gun bitiyor) -> ek15#7 onem 3->4 CEKILDI; Sirnak 1891 (d: basi = kur 1891, Muleyda ile ILGISIZ, D147 tesaduf) -> Muleyda 4'e CEKILMEDI, BORC: Sirnak kendi maddesi. +7 osm-hic yabanci kirilma (1340 · 1406 · 1411 · 1861 Otranto · 1891 x2 · Tokar) onem 3 birakildi, Emre'ye soru. KABUL: node --check 9/9 · --sinav 368 madde alan-disi fark 0, HEAD+43 ek = disk BAYT BAYT · A2-BAG 551/551 HATA 0 diff BOS · denetle SONUC temiz; tek fark 529->528 / 1332->1331 ARAS-CALDIRAN'in Van 1548-08-25->24 cekisinden (denetle kapsam/onem okumuyor, grep 0; yerlesim dosyalari 25->24 olculdu). BULAMADIM/YAPMADIM: ek5 · dunya/bolge alani · VERI-YAPISI'nda onem/kapsam tanimi YOK (belge borcu). YAN: Karakoyunlu sonu uc madde (ek20#3 1467-01-01 · ek5#54 1467-11-10 · ek7#121 1468-04-01). ISTEK: EK5 SERBEST + Emre'ye 2.3 (8 eski onem) ve 4 (+7 kirilma) sorulari.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
