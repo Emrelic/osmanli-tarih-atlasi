@@ -116033,5 +116033,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3806",
+  "zaman": "2026-09-13 18:10",
+  "kimden": "HALKA-FETIH",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA: ongoru rapora yazildi (once). Envanter: cekirdek 1355 madde, sinif ham (k:fetih v etiket toprak-kazanc) 378. Kural a/c/d/e TURET-0913 kaynagindan eval (kopya yok) + yeni b (B3 eski aletle yabanci kazanan yok, B4 yabanci ozne yok, B5 kayip/sefer/kusatma yok). Tur 1 huni: 378->325->314->297->223->119->90 -> kronoloji dosyasiyla mukerrer 12 atlandi -> 78 aday. Simdi orneklem n=50 elle okuma.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
