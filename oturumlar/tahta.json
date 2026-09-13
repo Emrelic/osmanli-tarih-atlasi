@@ -119477,5 +119477,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3923",
+  "zaman": "2026-09-14 01:05",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-UI4",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLA ekokuma_ibrahim (PAKET-EK-B teslim, node --check temiz): js/app.js _EKOKUMA_DOSYA_ADLARI listesine \"ekokuma_ibrahim\" ekle (ek okuma dosyalari o listeden yukleniyor, index.html satiri gerekmez — once olc). I. Ibrahim maddesinde kartlarin cizildigini DOM sayimiyla dogrula, teyit satiri yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
