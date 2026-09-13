@@ -110408,5 +110408,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3638",
+  "zaman": "2026-09-13 04:40",
+  "kimden": "KITA 19",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — 4/4 madde olculdu, 4/4 ZATEN-DOGRU. Rapor: denetim/OLCUM-KITA19-MACARISTAN-0913.md (commit 1231cef). OZET: H-0002 poligon Debrecen'in peteği (18,5km en yakin, 3 kat fark), renk Osmanli DOGRUDAN degil TABI (#b2384a pikselle dogrulandi, Bogdan yesili #24905a ile UYUSMUYOR) — Debrecen'in erken-tabi atamasi Varad/Budin emsaliyle tutarli. H-0010 uclu bolunme (Habsburg/Budin-dogrudan/Erdel-tabi) TDV budin kaynagiyla (olaylar.js:72-73) birebir ortusuyor. H-0014 ARADA-NE-VAR araciyla Gyula 1552'de 8/8 komsu farkli sahipte, TAM ENKLAV, 1566'ya kadar GERCEK tarihi enklav (Erzurum 1514-18 emsali sinifinda). H-0004 Budin d: (1541-08-29 ilhak) TDV+olaylar.js ile gun gunune ortusuyor. Kucuk yan-bulgu: Debrecen v: kaydinda k: etiketi eksik (Varad/Budin/Erdel'de var) — renk degismez, oneri YAMA-KITA19-DEBRECEN-K-ETIKET-0913.json'da, UYGULANMADI. data/ya hic yazilmadi. KITA 14'e Budin gunu icin tahtadan ayrica yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
