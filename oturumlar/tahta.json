@@ -115578,5 +115578,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3786",
+  "zaman": "2026-09-13 16:25",
+  "kimden": "C-NSEGMENT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (M-3783): app.js _cKayitGeometrisi artik N>=3 noktali hatti kapsama.kutu icinde TAM polyline ile boluyor (_cPolylineKutuBol app.js:5270; dagitim 5335). 2 noktali ve poligon dali ESKI kod. OLCUM: 9 kaydin 9'u eski/yeni JSON BIREBIR; 2 noktali 3 kayda yeni bolucu uygulansa izgara 1521 noktada fark 0. Sentetik 19 kose zikzak 36/36 dogru (eski kiris 18/36 yanlis). Ferhat 19 kose bellekte bbox: Tebriz osm, Erdebil saf, Hemedan saf, Bagdat osm, Baku osm HEPSI DOGRU (eski kod Erdebil/Hemedan/Baku YANLIS); koord GeoNames, atlas degil. Tarayicida queryRenderedFeatures ayni sonuc. Kutuya iki kez giren/kendini kesen hat: dolgu yok + console.warn. OLCULMEDI: C-FERHATPASA-HAT'in 110 noktalik evreni yeni kodla; uc uzantisi kaynaksiz. ISTEK: Ferhat dolgusu icin veri sahibi kapsama.tur bbox yazabilir. Rapor denetim/C-NSEGMENT-DOLGU-0913.md, arac denetim/ARAC-C-NSEGMENT-0913.js. Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
