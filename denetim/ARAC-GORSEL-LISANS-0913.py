@@ -66,8 +66,15 @@ KABUL_ONEKLI = ("PD-old-100", "PD-old-70", "PD-old-80", "PD-old-90",
 # En sık görülen RET kategorileri — bulunursa sebep AÇIKÇA yazılır.
 # ⚠️ Bu liste TAM DEĞİL: KABUL'da olmayan HER kategori zaten RED sayılır,
 # buradakiler yalnız "sebep" mesajını insan-okunur yapmak için.
-RET_BILINEN = ("CC-BY-SA", "CC-BY", "GFDL", "Copyrighted free use",
-               "Attribution", "Non-free", "FAL", "OTRS")
+# 🔴 SINANDI VE ÇÜRÜDÜ (13 Eylül 2026): `FAL` (Free Art License) ÖNEK
+#   olarak arandığında "Fall_of_Constantinople_(1453)" kategorisi de
+#   eşleşti — üç harflik kısaltmalar rastgele kelimelerin İÇİNDE geçer.
+#   ⇒ KISA kodlar (≤5 harf) TAM EŞİTLİKLE, uzun/kendine özgü adlar
+#   ÖNEKLE aranır — aynı D159 (büyük/küçük harf duyarsız alt-dizgi
+#   araması bir adı başka kelimenin içinde bulur) dersinin tekrarı.
+RET_TAM = ("FAL", "OTRS", "GFDL")
+RET_ONEKLI = ("CC-BY-SA", "CC-BY", "Copyrighted free use",
+              "Attribution", "Non-free")
 
 # Commons dosya sayfasında bir lisans kategorisi HER ZAMAN şu biçimde
 # bağlanır: /wiki/Category:<ad> — ad alt çizgiyle ayrılmış, parantez içerebilir.
@@ -112,8 +119,9 @@ def sina(url):
                             if c in KABUL_TAM or
                             any(c.startswith(j) for j in KABUL_ONEKLI))
     red_bulunan = sorted(c for c in kategoriler
-                          if any(c.upper().startswith(b.upper())
-                                 for b in RET_BILINEN))
+                          if c.upper() in RET_TAM or
+                          any(c.upper().startswith(b.upper())
+                              for b in RET_ONEKLI))
 
     if red_bulunan:
         # 🔴 KABUL kategorisi de bulunmuş olsa bile RED — karışık/tartışmalı
