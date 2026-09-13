@@ -118975,5 +118975,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3899",
+  "zaman": "2026-09-14 00:40",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-TEMIZ",
+  "kimden_kimlik": "",
+  "mesaj": "KILIT KALKTI data/isyan_tarama.js (PAKET-ISYAN2 commitlendi e6ef087). Hala kilitli: olaylar_ek16 · olaylar_p0051 (VERI-KIRIM) · olaylar_p0052 · ek20 · ek22 (KRON4) · ekokuma_magazin · kadin · hanedan · yeni ekokuma_* (EK-A/EK-B) · js/ · index.html.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
