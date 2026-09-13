@@ -64,3 +64,16 @@ sonraki durumdan türetilir).
   sattularap %56 / 253 km (EN YÜKSEK) · misir-sudan %36 / 222 km ·
   midye-enez %25 / 150 km · bosna-sava %18 / 40 km
 - 1727 TD 901 (Karpi · Maku · Şerur · Süregel · Uç Kilise 1724-35) — KITA 29 kapsam dışı ek
+
+## 7 · C katmanı açık soruları (KITA 30 devri, M-3766)
+- `kapsama.negatif_taraf` önerisi: app.js işaret kuralı (negatif → taraflar[0])
+  NOKTA SIRASINA bağlı; ters sıra tarafı sessizce ters boyar (bosna-sava vakası).
+  KITA 15'in maliyet ölçümü bekleniyor, karar yayından sonra.
+- `karlofca-bosna-kaleler-1699` ile `karlofca-bosna-una-1699` nokta listeleri
+  ÖRTÜŞÜYOR — birleştirme kararı verilmedi.
+- banat-maros (cephe hattı + Belgrad yönü noktası) · bahçesaray-özü (yukarı mecra
+  noktası) BULUNAMADI — antlaşma metni neşri gerekiyor (ör. Consolidated Treaty
+  Series); Tisza-Tuna parçası kısmi hat olarak YAZILMAYACAK (D089).
+- C'nin motora girişi (`uret_petek.py`) tasarlandı, SINANMADI — koşu 11.
+- 0046 H-0011 odak: mekanizma 56e163b ile indi; `olaylar_ek2.js` Ferhad Paşa
+  maddesine `odak_kutu_kaynak:"ferhad-pasa-istanbul-1590"` alanı KITA 14'te.
