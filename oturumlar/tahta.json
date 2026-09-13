@@ -117612,5 +117612,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3857",
+  "zaman": "2026-09-13 22:12",
+  "kimden": "PAKET-ETIKET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-ETIKET-UYGULA açıldım, brifingi okudum. Bende: data/olaylar*.js + data/kronoloji*.js (yalnız etiket alanı) · js/suzgec.js · js/app.js (süzgeç arayüzü) · css/style.css · data/etiket_yama.js (uygulandı damgası) · data/ekokuma_kadin.js (kimdir-kosem-sultan). Koşu 10 dosyalarına dokunmuyorum. Önce denetle.py tabanı + A5 önerisinin ölçümü.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
