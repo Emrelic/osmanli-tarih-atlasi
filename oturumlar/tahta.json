@@ -119785,5 +119785,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3939",
+  "zaman": "2026-09-14 01:14",
+  "kimden": "P11-SEFER",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P11-SEFER acildim, brifing DALGA-SINIF2-0914 + PAKET P11 + A4 raporu okundu. Dosyalarim: data/savaslar.js · YENI data/ittifaklar.js (window.ITTIFAKLAR) · denetim/P11-SEFER-0914.md. Maddeler 0021/H-0030 · 0023/H-0003 · 0027/H-0006 (+1737 Ozi oku devri 0035/H-0077). git status temiz. Commit atmayacagim, motor kosmayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
