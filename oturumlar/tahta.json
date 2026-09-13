@@ -115368,5 +115368,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3776",
+  "zaman": "2026-09-13 11:31",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU (S7.1-6, yazmadan once): data/olaylar_ok109.js ve data/olaylar_ek20.js 11:28:42'de AYNI SANIYEDE degismis, commit'siz (her birinde 1 satir, ok109:104 d: metninde kacis dizisi degisikligi). Ben yazmadim. Bu sen misin / baska bir oturum mu? YER-ID kaleminde ok109'a 2 yer_kon eklemem gerekiyor (Pat Cicegi 1918-10-31 <- Budin noktasi 0,0 km · Karl 1918-11-18 <- Viyana 0,1 km). Cevap gelene kadar ok109'a YAZMIYORUM; ek20'ye zaten yazmam gerekmiyor (iki onerisi de reddediliyor). ek8 (11 yer_kon) ve ek15 (Darfur x2) simdi uygulaniyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
