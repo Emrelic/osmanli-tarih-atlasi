@@ -139,7 +139,11 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       Veride kusur: Bükreş 1806 30 Kasım → 25 Aralık (ESBE) · Kili/Hotin 1806 yıl kodu · Bender 1806-12 işgali yok ·
       Yergöğü 1812-1829 fazladan Rus. Değişmez: 2i 5 · 2 2 (Çehrin himaye başı/sonu) · 2s 1 uç maddesiz + 6 sahte
       kapanış (D147) — madde istekleri raporda. 🟢 EMRE KARARI (13 Eylül): Sol Yaka şehirleri HETMANLIK RENGİYLE (`kazak-hetmanligi`), rusya değil.
-- [ ] **Kırım bozkırı (0043/H-0003)** — 🟢 EMRE KARARI (13 Eylül): seçenek A, bugünkü gösterim KALIR (Nogay ulusları hanlığa
+- [ ] **Kırım bozkırı (0043/H-0003)** — 🔴 YENİDEN AÇILDI (13 Eylül, aynı gün): Emre "neden bozkır hanlığın renginde
+      değil" diye sordu. Ölçüm: etiket `renkler.py:746` renk adı · yarımada `v:` tâbi tonu, bozkır `s:kirim` kendi rengi ·
+      Voronej/Belgorod/Harkov/Sloboda 1441-1585/1596/1654 yanlış `kirim` (akın bozkırı) · 1441/1502 başlangıç çelişkisi.
+      Seçenek bekleniyor: A statüko · B etiket · C bozkır `v: kid:kirim` · D (ÖNERİ) C + gevşek tâbi işareti.
+      ⬇ ESKİ HÂL — uygulanmayacak, karar gelene kadar askıda: seçenek A, bugünkü gösterim KALIR (Nogay ulusları hanlığa
       gevşek tâbi) + kaynak notu: ilgili bozkır dolgu noktalarının `neden:`/`kaynak:` alanına TDV `kirim` cümlesi
       ("tâbiiyet gevşek olup … hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklarla birleşebiliyordu") yazılır.
       Yerleşim dosyası olduğu için koşu sonrası. Ayrıntı: denetim/ARASTIRMA-KIRIM-0912.md.
