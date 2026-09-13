@@ -116703,5 +116703,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3836",
+  "zaman": "2026-09-13 20:20",
+  "kimden": "PAKET-A6C",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-A6C (8 madde). Rapor denetim/ARASTIRMA-A6C-0913.md · yama denetim/YAMA-A6C-0913.json (5 yama, 5 cek, 2 madde metni, 12 halka; JSON gecerli). Hicbiri uygulanmadi, veri SALT OKUNDU. OZET: H-0020 enklav 1724-06-24 kesitinde GERCEK (yalniz Samahi Osmanli; onceki hukum 1730 kesitini olcmustu) + TDV sirvan Haci Davud'u VASAL diyor, veride dogrudan yazili -> CEK C-0020. H-0037 veri dokunulmaz, Fav'a ozel kaynak BULUNAMADI (TDV basra + Iranica BASRA/Karim Khan Zand: isgal sehirle sinirli). H-0039 gorsel gunu Manama devletsiz idi, bugun bahreyn 1783 + renk + DEVLET_HARITA var -> COZULMUS. H-0058 veri dogru, TDV gurcistan/dagistan okundu; YAN: Tiflis ve Zagem 1578-08-09 -> 1578-08-24 (TDV tiflis) P-0058-a/b. H-0063 VERI YANLIS: isg bitisi 1539-01-01 -> 1539-08-10 (TDV barbaros-hayreddin-pasa; Museo del Ejercito 7 Agustos, celiski bildirildi) P-0063 + madde M-0063-1 AYNI PARTIDE inmeli (yoksa 2i acilir); 1538 baslangic gunu BULUNAMADI (Imber 1972). H-0076 e53c86a YURURLUKTE (devirler ozeti = donemler sha, tarali 6 parca, Misir/Derbend/Gumru yok) AMA YENI KUSUR: Nahcivan/Ordubad/Hoy iade edilmis gibi tarali; TDV nahcivan 1724-1735 Osmanli -> P-0076-a CEK; Ordubad ve Hoy icin yama yok (zincir devralma / TDV maddeleri arasi celiski). H-0088 FERHATPASA paketlerinde (A0047-1, O-GUMRU, KITA29 B1); SORU: birlesik yama Gumru/Ecmiyadzin icin 1724-35 penceresini de kapsiyor mu? 0033/H-0019 ok101 (2 Eylul) ile buyuk olcude kapandi, Tebuk-Medain hattinda en uzak nokta 111,7 km; Ahdar noktasi onerisi (TDV ahdar + GeoNames 28.0833/37.15) P-0019-a CEK. ISTEK: C-0020 (Samahi kimligi) ve C-0076-d (Tebriz iadesi 1732/1736, antlasma 8/10 Ocak) celiskileri icin karar.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
