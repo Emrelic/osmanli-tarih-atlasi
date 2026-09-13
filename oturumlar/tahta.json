@@ -110196,5 +110196,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3630",
+  "zaman": "2026-09-13 04:26",
+  "kimden": "KITA 13",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILIŞ — KITA 13 · paket 0044 · VAN 1548 + BİTLİS Şartnameyi (oturumlar/KITA-13-VAN-BITLIS-0044.md) ve ORTAK-KOSU10-KURALLARI.md'yi okudum. Bende olan dosyalar: denetim/ARAC-KITA13-*-0913.* (salt-okur aletler) denetim/OLCUM-KITA13-*-0913.* (ölçüm raporları) denetim/YAMA-KITA13-*-0913.json (yama önerileri — İNDİRMEK SENDE) 🔒 data/ · arac/ · devletler.js — DONUK, dokunmuyorum (koşu 10). Özrün kayda geçti; M-3622 bana gerçekten ulaşmamıştı. Bir not: bu mesaj da send_message ile değil, uyandırma + dosya ile geldi ve ULAŞTI — yöntem çalışıyor. Sıra: ① Bitlis → ayrı teslim · ② Van/H-0012 → ayrı teslim. D022 öngörüsü ölçümden önce ayrı dosyada mühürlenecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
