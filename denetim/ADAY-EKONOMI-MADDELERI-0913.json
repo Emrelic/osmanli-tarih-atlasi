@@ -1,0 +1,43 @@
+{
+  "_yazan": "KITA 28 · 13 Eylül 2026 · Koşu 10, paket 0046 H-0010",
+  "_gorev": "oturumlar/KITA-28-EKONOMI-0046.md — Osmanlı ekonomisinin en önemli ~20 olayı, kronolojide VAR mı ölçüldü",
+  "_yontem": "arac/denetle.py olaylari_yukle() ile data/olaylar*.js (cekirdek, 1354 madde) yuklendi; etiket='ekonomi' 108 madde filtrelendi, ayrica b/d metninde anahtar kelime taramasi yapildi (timar, celali, kaime, gumruk, ...). Her aday icin t: alaninin BIREBIR karsiligi arandi, tahmin edilmedi.",
+  "_ozet": "20 olaydan 19'u kronolojide ZATEN VAR (dogru tarihle). Yalniz 1'i (kaime, ilk kagit para) EKSIK ve KITA 14'e aday olarak oneriliyor.",
+  "maddeler": [
+    { "sira":1,  "olay":"İlk Osmanlı akçesinin basılması", "durum":"VAR", "t":"1327-01-01", "kaynak_slug":"osman-i", "karar":"—" },
+    { "sira":2,  "olay":"Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu", "durum":"VAR", "t":"1352-01-01", "kaynak_slug":"—", "karar":"—" },
+    { "sira":3,  "olay":"Tımar sisteminin kurumsallaşması", "durum":"VAR", "t":"1432-06-01", "kaynak_slug":"—", "karar":"—" },
+    { "sira":4,  "olay":"İlk Osmanlı altını (sultanî)", "durum":"VAR", "t":"1478-06-01", "kaynak_slug":"—", "karar":"—" },
+    { "sira":5,  "olay":"Fransa'ya ilk kapsamlı kapitülasyonlar", "durum":"VAR", "t":"1536-02-18", "kaynak_slug":"fransa", "karar":"ek okuma yazıldı (kapitülasyon zinciri, aşağı bak)" },
+    { "sira":6,  "olay":"Ebüssuûd'un gedik/esnaf tekeli hükmü", "durum":"VAR", "t":"1555-06-01", "kaynak_slug":"gedik", "karar":"—" },
+    { "sira":7,  "olay":"İngiltere'ye kapitülasyon", "durum":"VAR", "t":"1580-06-01", "kaynak_slug":"kapitulasyon", "karar":"—" },
+    { "sira":8,  "olay":"Büyük tağşiş — akçe krizi", "durum":"VAR", "t":"1585-01-01", "kaynak_slug":"akce", "karar":"ek okuma yazıldı" },
+    { "sira":9,  "olay":"Tağşiş yüzünden Beylerbeyi Vak'ası", "durum":"VAR", "t":"1589-06-01", "kaynak_slug":"abdulkadir-seyhi-efendi", "karar":"ek okuma yazıldı (yukarıdakiyle zincir)" },
+    { "sira":10, "olay":"Hollanda'ya ilk ahidnâme", "durum":"VAR", "t":"1612-07-06", "kaynak_slug":"hollanda", "karar":"—" },
+    { "sira":11, "olay":"İltizamın askerî zümre tekeline girip olgunlaşması", "durum":"VAR", "t":"1650-01-01", "kaynak_slug":"—", "karar":"ek okuma yazıldı (malikâne-esham zinciri)" },
+    { "sira":12, "olay":"Tarhuncu Ahmed Paşa'nın denk bütçe reformu", "durum":"VAR", "t":"1652-06-20", "kaynak_slug":"—", "karar":"—" },
+    { "sira":13, "olay":"Malikâne sisteminin yürürlüğe girmesi", "durum":"VAR", "t":"1695-01-01", "kaynak_slug":"malikane", "karar":"ek okuma yazıldı" },
+    { "sira":14, "olay":"Gedik sisteminin resmî esnaf tekeli olarak yerleşmesi", "durum":"VAR", "t":"1727-06-01", "kaynak_slug":"—", "karar":"—" },
+    { "sira":15, "olay":"Kapitülasyonların sürekli hâle getirilmesi", "durum":"VAR", "t":"1740-05-30", "kaynak_slug":"kapitulasyon", "karar":"ek okuma yazıldı (kapitülasyon zinciri)" },
+    { "sira":16, "olay":"Esham sisteminin ihdası", "durum":"VAR", "t":"1775-06-01", "kaynak_slug":"—", "karar":"ek okuma yazıldı (malikâne-esham zinciri)" },
+    { "sira":17, "olay":"Tımar sisteminin tasfiyesi", "durum":"VAR", "t":"1827-02-01", "kaynak_slug":"—", "karar":"—" },
+    { "sira":18, "olay":"Balta Limanı Ticaret Antlaşması", "durum":"VAR", "t":"1838-08-16", "kaynak_slug":"baltalimani-muahedesi", "karar":"ek okuma yazıldı" },
+    { "sira":19, "olay":"İlk dış borç sözleşmesi", "durum":"VAR", "t":"1854-08-24", "kaynak_slug":"—", "karar":"—" },
+    { "sira":20, "olay":"Osmanlı maliyesinin iflası (1875 moratoryum)", "durum":"VAR", "t":"1875-10-06", "kaynak_slug":"—", "karar":"ek okuma yazıldı (Düyûn-ı Umûmiye zinciri)" },
+    { "sira":21, "olay":"Muharrem Kararnâmesi — Düyûn-ı Umûmiyye İdaresi'nin kuruluşu", "durum":"VAR", "t":"1881-12-20", "kaynak_slug":"duyun-i-umumiyye", "karar":"ek okuma yazıldı" },
+    { "sira":22, "olay":"Kapitülasyonların tek taraflı kaldırılması", "durum":"VAR", "t":"1914-09-09", "kaynak_slug":"kapitulasyon", "karar":"ek okuma yazıldı (kapitülasyon zinciri)" },
+    { "sira":23, "olay":"🔴 İlk Osmanlı kâğıt parası (kâime-i mu'tebere)", "durum":"YOK — EKSIK", "t_onerilen":"1840-06-01", "gun_notu":"TDV: 'muhtemelen Haziran 1840' — gün bilinmiyor, YYYY-MM-01 önerilir (§4)", "kaynak_slug":"kaime", "karar":"🔴 KITA 14'e ADAY — aşağıda gerekçeli" }
+  ],
+  "aday_detay": {
+    "id_onerisi": "kaime-ilk-kagit-para",
+    "b_onerisi": "İlk Osmanlı kâğıt parasının (kâime-i mu'tebere) çıkarılması",
+    "t_onerisi": "1840-06-01",
+    "gerekce": "TDV 'kaime' maddesi: Maliye Nâzırı Sâib Paşa döneminde, Tanzimat'ın ilk yıllarındaki acil nakit ihtiyacı üzerine, Şeyhülislam olacak Ârif Hikmet Bey'in önerisiyle çıkarıldı. İlk emisyon 160.000 lira (32.000 kese), el yazısıyla piyasaya sürüldü. Ekonomik sonucu olumsuz: enflasyon, kalpazanlık, ödemeler dengesi açığı ve halk güveninin sarsılması.",
+    "neden_madde_olmayi_hak_ediyor": "Osmanlı parasal tarihinde ilk kez metal para dışına çıkılan, doğrudan devleti ve halkı etkileyen tarihli bir kırılma noktası — akçe/altın (1327/1478) ve tağşiş (1585) maddelerinin doğal devamı, kronolojide bu üçlünün arasında bir boşluk bırakıyor.",
+    "olculemedi": "Kesin GÜN TDV'de yok ('muhtemelen Haziran 1840'); §4 gereği YYYY-MM-01 önerilir, gün uydurulmadı.",
+    "kaynak": "TDV: kaime"
+  },
+  "bulunamadi": [
+    "Osmanlı Bankası'nın 1856'daki İLK kuruluşu (1863 yeniden yapılanmasından AYRI, İngiliz sermayeli ilk kuruluş) — TDV taraması bunu bağımsız doğrulamadı, fetch edilen sayfa yalnız 1863 olayını (Abdülaziz dönemi, Bank-ı Osmanî-i Şâhâne) anlatıyordu. Aday listesine EKLENMEDİ — ölçülemedi, uydurulmadı."
+  ]
+}
