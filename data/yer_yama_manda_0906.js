@@ -914,9 +914,10 @@ window.YER_YAMA_MANDA_0906 = [
         "t": "1554-08-22",
         "d": "safevi"
       },
+      // 14 Eylül UYGULA-BAGDAT: YAMA-BAGDAT B, kaynak Kılıç 2001 + TDV sehrizor — Safevî t 1638-12-25 → 1630-03-16 (1.MURAT M-3949 hükmü a; manda bölünmesi olduğu gibi)
       {
         "f": "1623-11-28",
-        "t": "1638-12-25",
+        "t": "1630-03-16",
         "d": "safevi"
       },
       {
@@ -932,52 +933,53 @@ window.YER_YAMA_MANDA_0906 = [
     ],
     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
   },
-  {
-    "ad": "Kerkük",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1918-10-30",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kerkük",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1918-10-30",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
   {
     "ad": "Halepçe",
     "s": [
@@ -1024,328 +1026,335 @@ window.YER_YAMA_MANDA_0906 = [
     ],
     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
   },
-  {
-    "ad": "Tuz Hurmatu",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Kifri",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Tikrit",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Âne",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Hânekîn",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Sâmerrâ",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Hît",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Tuz Hurmatu",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kifri",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Tikrit",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Âne",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Hânekîn",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Sâmerrâ",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Hît",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
   {
     "ad": "Ramâdi",
     "s": [
@@ -1362,52 +1371,53 @@ window.YER_YAMA_MANDA_0906 = [
     ],
     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
   },
-  {
-    "ad": "Fellûce",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Fellûce",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
   {
     "ad": "Bağdat",
     "s": [
@@ -1474,328 +1484,335 @@ window.YER_YAMA_MANDA_0906 = [
     ],
     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
   },
-  {
-    "ad": "Kerbelâ",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Kût el-Amâre",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Hille",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Vâsıt",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Kûfe",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Necef",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
-  {
-    "ad": "Dîvâniye",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kerbelâ",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kût el-Amâre",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Hille",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Vâsıt",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kûfe",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Necef",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Dîvâniye",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik."
+//   },
   {
     "ad": "Ammâre",
     "s": [

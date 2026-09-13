@@ -1,0 +1,15 @@
+{
+ "uretim": "elle — ARAC-TEMIZ-HAZIRLA-0914.py URETIM kuralının kusur onarımı (kuyruk kırpıntısı)",
+ "kayitlar": [
+  {
+   "dosya": "olaylar_ek3.js",
+   "kayit": {"t": "1413-07-05", "b^": "Çamurlu Savaşı"},
+   "yol": "d",
+   "sinif": "a",
+   "desen": "yerlesim-kimlik",
+   "eski": "Kemalpaşa), Mihaliç (Karacabey), Köstence, Anadolu Hisarı, Gölyazı (Apollonia).",
+   "yeni": "",
+   "not": "ARAÇ KUSURU onarımı (PAKET-TEMIZ): üretim cümlesi 'Kirmasti (M.Kemalpaşa)' kısaltmasındaki noktada erken kesilmişti; okur metninde kalan kuyruk da çıkarıldı: Kemalpaşa), Mihaliç (Karacabey), Köstence, Anadolu Hisarı, Gölyazı (Apollonia)."
+  }
+ ]
+}

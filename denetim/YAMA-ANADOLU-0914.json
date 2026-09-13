@@ -1,0 +1,73 @@
+{
+  "paket": "P05-ANADOLU",
+  "tarih": "2026-09-14",
+  "yazan": "P05-ANADOLU (DALGA SINIF2, 1.MURAT sevki)",
+  "durum": "ONERI — kilitli dosyalara (data/yerlesimler.js · arac/girdi.py) YAZILMADI. Uygulayici: Oturum 0. Koordinator TOPARLA dedi; olculmeyen yerler 'olculmedi' damgali.",
+  "kalemler": [
+    {
+      "no": 1,
+      "madde": "0035/H-0059 · 0031/H-0019",
+      "dosya": "data/yerlesimler.js:176 (Denizli)",
+      "eski": "{f:\"1402-09-15\",t:\"1425-06-01\",d:\"germiyan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1425-06-01\",t:\"1920-04-23\"}] },",
+      "yeni": "{f:\"1402-09-15\",t:\"1429-02-01\",d:\"germiyan\"},{f:\"1920-04-23\",t:\"1923-10-29\",d:\"tbmm-turkiye\"}], d:[{f:\"1390-01-01\",t:\"1402-07-28\"},{f:\"1429-02-01\",t:\"1920-04-23\",y:\"antlasma\"}] },",
+      "gerekce": "Emre'nin 'Germiyan'in Osmanli'ya katilmasi IKI ASAMADA gorunuyor' sikayetinin veri koku: Denizli 1425-06-01'de Osmanli'ya geciyor, Germiyan'in geri kalani (Kutahya · Afyon · Usak · Simav · Tavsanli · Emet) 1429-02-01'de (olculdu). TDV Denizli'yi 1425 ilhakina DAHIL ETMIYOR.",
+      "kaynak": "TDV `denizli` (200, govde okundu): 'Denizli yoresine 1411'lerde kisa bir sure icin Karamanogullari da hakim oldular. Ancak yeniden Germiyan idaresine giren bu topraklar 1429'da Osmanli idaresine gecti.' · TDV `murad-ii`: 1425'te 'Izmir ve Aydin-ili'ni … Mentese … ve Hamidogullari'nin Teke'deki kolunun topraklarini' ilhak — Germiyan/Denizli YOK. · TDV `kutahya`: '832'de (1429) vefat edince de Kutahya bir Osmanli sancagi haline getirilip'. Gun 1429-02-01 komsudan (Kutahya · Afyon, madde 'Germiyan'in vasiyetle ilhaki' gun:'1429'): GUNUN KENDISI KAYNAKSIZ (ay kodu), yeni kirilma uretmemek icin devralindi — bildirilir.",
+      "etki_olculen": "Degismez 2: 1425-06-01 kirilmasi baska kayitlarla suruyor; 1429-02-01 kirilmasi ZATEN var (madde 0 gun). ⚠️ Degismez 4c: `germiyan` kunye t:1429-01-01 — Denizli donemi kunyeyi 31 gun asar (+1 olasi; Kutahya/Afyon ayni asimi zaten tasiyor). Uygulandiktan sonra denetle.py ile OLCULMELI (bu oturum uygulamadi).",
+      "ek_not": "TDV `denizli` Osmanli'ya ilk gecisi '1391' diyor, kayit 1390-01-01 — dokunulmadi, bilgi. 1411 kisa Karaman donemi yil/sure yok, kodlanmadi.",
+      "durum": "oneri"
+    },
+    {
+      "no": 2,
+      "madde": "0042/H-0037",
+      "dosya": "data/yerlesimler.js:160 (Ankara)",
+      "eski": "{f:\"1402-07-28\",t:\"1404-03-01\",d:\"timurlu\"},",
+      "yeni": "{f:\"1402-07-28\",t:\"1403-09-01\",d:\"timurlu\"},{f:\"1403-09-01\",t:\"1404-03-01\",d:\"mehmed-celebi\"},",
+      "cevap_emreye": "Ankara Emir Suleyman'a TDV'ye gore 806 (1403-1404) yilinda gecti — Suleyman Isa'nin yenilgisinden sonra Anadolu'ya gecip Bursa'yi aldi, Mehmed Amasya'ya cekildi, Suleyman Ankara'ya ilerleyip onu da aldi. Ama Ankara Suleyman'a TIMURLU valisinden degil CELEBI MEHMED'den gecti: kayittaki 'timurlu 1402→1404' Mehmed'in 1403'teki Ankara hakimiyetini yutuyor.",
+      "kaynak": "TDV `fetret-devri`: 'Celebi Mehmed karsi koyamayarak Amasya'ya cekildi. Suleyman Celebi Ankara'ya ilerledi ve burasini da ele gecirdi.' · TDV `mehmed-i`: '806'da (1403-1404) Mehmed, Suleyman Celebi ile yaptigi mucadele sonrasinda Bursa ve Ankara'yi kaybetti' · TDV `isa-celebi`: Isa (Ulubat yenilgisinden sonra) 'Ankara'ya gelerek kaleyi kusattiysa da Celebi Mehmed'in gelisi uzerine cekildi' · 'Timur'un Anadolu'yu terketmesinden (1403 yili bahari)'.",
+      "gun_tartismasi": "Mehmed'in Ankara'yi ne zaman aldigi GUN/AY olarak BULUNAMADI. Alt sinir: Timur'un Anadolu'dan cikisi (1403 bahari). Ust sinir: Isa'nin Ankara kusatmasi (Ulubat'tan sonra; kale Mehmed'in elinde). Onerilen 1403-09-01 = Bursa · Iznik · Izmit kayitlarinin Isa→Mehmed kirilmasi (madde 'Ulubat carpismasi', gun '1403 sonbahari' — AY KODU, kaynaksiz gun). Yeni kirilma uretmez. SECENEK: 1403-01-01 + kesinlik yil (Timur'un cikisindan ONCEYE duser — celiski) · ya da 1403-09-01 (oneri).",
+      "etki_olculen": "olculmedi (uygulanmadi). 1403-09-01 ve 1404-03-01 kirilmalari zaten var.",
+      "durum": "oneri · Emre/koordinator gun secimi"
+    },
+    {
+      "no": 3,
+      "madde": "0042/H-0022",
+      "dosya": "data/yerlesimler.js + yerlesimler_epir.js + yerlesimler_ek29.js + yerlesimler_ek2.js + yerlesimler_ek23.js + yerlesimler_seyrek.js + yerlesimler_serhat.js + yerlesimler_ek_adalar.js (s:bizans tasiyan kayitlar)",
+      "oneri": "Her s:bizans doneminin asagidaki pencerelerle KESITINE v:[{f,t,k:\"Bizans Imparatorlugu (Osmanli haracguzari)\",statu:\"haraçgüzâr\",kid:\"bizans\"}] eklenir (Ordu kaydinin s+v ortusme emsali). Renk: statu≠vassal acik tonu MOTOR/app.js isi (P13B) — veri yalniz statu'yu tasir.",
+      "pencereler": [
+        {"ad": "A", "f": "1371-09-26", "t": "1394-01-01", "olculen_nokta": 51,
+         "dosya_dagilimi": {"yerlesimler.js": 34, "yerlesimler_epir.js": 9, "yerlesimler_ek29.js": 3, "yerlesimler_seyrek.js": 1, "yerlesimler_ek2.js": 1, "yerlesimler_ek23.js": 1, "yerlesimler_serhat.js": 1, "yerlesimler_ek_adalar.js": 1},
+         "kesiti_kisalan": "Enez→1376-01-01 · Gelibolu/Cimpe/Bolayir/Maydos→1376-09-01 · Selanik/Kavala/Praviste/Lanzaka→1387-04-09 · Iskece→1373-01-01 · Butrint→1386-01-01 · Yenisehir(Larissa)/Tirhala 1390-01-01→",
+         "kaynak_f": "TDV `bizans`: 'Turkler'in Sirplar'a karsi kazandigi … zafer (26 Eylul 1371) … Bu zaferden sonra … Bizans Imparatorlugu … haraç odemeyi ve Osmanli ordusunda hizmeti kabul ediyorlardi. Bizans artik vasal devlet durumuna dusmustu.' Gun = savas gunu (kabulun kendi gunu kaynakta yok; devralindi).",
+         "kaynak_t": "TDV `bayezid-i`: 'yedi yildir abluka altinda tuttugu Istanbul'u 1394 ilkbaharinda yeniden siki bir kusatma altina aldi' — yil basina yuvarlandi (2-5 ay ERKEN; bildirildi). Madde: data/olaylar_p0058.js 1394-01-01."},
+        {"ad": "B", "f": "1424-02-22", "t": "1453-05-29", "olculen_nokta": 34,
+         "dosya_dagilimi": {"yerlesimler.js": 23, "yerlesimler_epir.js": 7, "yerlesimler_ek29.js": 1, "yerlesimler_ek2.js": 1, "yerlesimler_serhat.js": 1, "yerlesimler_ek_adalar.js": 1},
+         "kesiti_kisalan": "Yanya→1430-10-09 · Arta/Vonitsa/Preveze→1449-01-01 · Kesendire→1430-03-29 · Aydonat/Margiliç/Delvine/Ayasaranda/Souli/Igumenitsa/Filat→1430-10-01",
+         "kaynak_f": "TDV `murad-ii`: 'Bizans imparatoru ile baris antlasmasi imzaladi (21 Rebiulevvel 827 / 22 Subat 1424)' · TDV `bizans`: 'Bizans yeniden haraç odemeyi kabul ederek Sultan II. Murad ile bir anlasma yapabildi'. Madde: data/olaylar_p0058.js 1424-02-22.",
+         "kaynak_t": "1453-05-29 Istanbul'un fethi (mevcut madde)."}
+      ],
+      "arada_kalan": "1394-1403 kusatma (tabiiyet kopuk) · 1403 Suleyman antlasmasi: TDV `bizans` 'yillik haractan da kurtuldu' ⇒ 1403-1424 pencere YOK.",
+      "uyari": "⚠️ Epir kayitlari (yerlesimler_epir.js 9/7) s:bizans ile yazilmis; Epir despotlugu Konstantinopolis'in haracguzarligina OTOMATIK DAHIL DEGILDIR — uygulayici bu kayitlari ayri sormali (olculmedi). Pencere ic kirilmalari (kesiti kisalan gunler) icin Degismez 2 ±30 gun maddesi OLCULMEDI.",
+      "durum": "oneri · pencereler kaynakli, uygulama ve renk P13B"
+    },
+    {
+      "no": 4,
+      "madde": "0008/H-0001 (bilgi)",
+      "bulgu": "Afyon'un `sahibata` kademesi ZATEN INMIS: d041a08 (5 Eylul) sahibata 1281-1327 · germiyan 1327-1390 (TDV sahib-ataogullari '727/1327 … Germiyanogullari'na tabi oldu'). Paket durum satiri ('sahibata 1281-1341 tek donem') BAYAT. Emre'nin 'Germiyan iki parca miydi' sorusunun kalan kismi Sivrihisar: kayit germiyan 1300-1354 tasiyor, TDV `sivrihisar` 'Ilhanli idaresi sonrasinda Karamanogullari'nin eline gecen Sivrihisar, … 757 (1356) yilinda Osmanli idaresi' diyor — kaydin kendi `not:` alani bu celiskiyi zaten yaziyor ve 1356/1362 icin madde bekliyor.",
+      "durum": "yapilmadi (TOPARLA) — Sivrihisar zinciri icin 1356 ve 1362 maddeleri yazilmadi"
+    },
+    {
+      "no": 5,
+      "madde": "ek bulgu (paket disi, yalniz kayit)",
+      "bulgu": "Elbistan (yerlesimler.js:1373) 1281-1337 `memluk`; TDV `elbistan`: 'Ilhanli idaresinin sarsilmasi sonucu 1337 yilinda Tarakli oymaginin reisi Halil Bey yoreyi ele gecirdi' ⇒ 1337 oncesi ILHANLI. Kayseri `eretna` 1335-01-01; Kaya 2014 s.9 'Eretna … 1339 yilinda … Kayseri … yorelerini kendisine bagladi'. Ikisi de olculmedi/uygulanmadi — 0008/H-0002 ('Ilhanli topraklari iki parca, araya Memlukler') ile ilgili olabilir.",
+      "durum": "bilgi"
+    },
+    {
+      "no": 6,
+      "madde": "baglama (Oturum 0)",
+      "girdi_py_satiri": "    \"yerlesimler_anadolu_0914.js\",  # 4 nokta · Bayburt · Zamantı (Pınarbaşı) · Mesudiye (Milas) · Gölköy (Habsamana) — P05-ANADOLU",
+      "index_html_satiri": "<script src=\"data/olaylar_p0058.js?v=rNN\"></script>",
+      "not": "data/yer_yama_zaza.js GIRDI_DOSYALARI'nda YOK (olculdu: Kiğı hicbir canli dosyada yok) — Kiğı duzeltmesi yama merge edilene kadar HARITAYA INMEZ.",
+      "durum": "koordinator"
+    }
+  ]
+}

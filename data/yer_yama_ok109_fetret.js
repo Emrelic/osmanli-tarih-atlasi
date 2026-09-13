@@ -256,53 +256,54 @@ window.YER_YAMA_OK109_FETRET = [
     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
-  {
-    "ad": "Dîvâniye",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Dîvâniye",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
   {
     "ad": "Erbil",
     "s": [
@@ -350,53 +351,54 @@ window.YER_YAMA_OK109_FETRET = [
     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
-  {
-    "ad": "Fellûce",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Fellûce",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
   {
     "ad": "Fâv",
     "s": [
@@ -500,382 +502,390 @@ window.YER_YAMA_OK109_FETRET = [
     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
-  {
-    "ad": "Hille",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Hânekîn",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Hît",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Kerbelâ",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Kerkük",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1918-10-30",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Kifri",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Kûfe",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Kût el-Amâre",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Hille",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Hânekîn",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Hît",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kerbelâ",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kerkük",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1918-10-30",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kifri",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kûfe",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Kût el-Amâre",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
   {
     "ad": "Kürne",
     "s": [
@@ -960,53 +970,54 @@ window.YER_YAMA_OK109_FETRET = [
     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
-  {
-    "ad": "Necef",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Necef",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
   {
     "ad": "Rewândiz",
     "s": [
@@ -1133,194 +1144,198 @@ window.YER_YAMA_OK109_FETRET = [
     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
-  {
-    "ad": "Sâmerrâ",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Tikrit",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Tuz Hurmatu",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-  {
-    "ad": "Vâsıt",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Sâmerrâ",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Tikrit",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Tuz Hurmatu",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Vâsıt",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
   {
     "ad": "Zaho",
     "s": [
@@ -1363,53 +1378,54 @@ window.YER_YAMA_OK109_FETRET = [
     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
-  {
-    "ad": "Âne",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1340-01-01",
-        "d": "ilhanli"
-      },
-      {
-        "f": "1340-01-01",
-        "t": "1411-01-01",
-        "d": "celayirli"
-      },
-      {
-        "f": "1411-01-01",
-        "t": "1469-01-01",
-        "d": "karakoyunlu"
-      },
-      {
-        "f": "1469-01-01",
-        "t": "1508-01-01",
-        "d": "akkoyunlu"
-      },
-      {
-        "f": "1508-01-01",
-        "t": "1534-12-04",
-        "d": "safevi"
-      },
-      {
-        "f": "1623-11-28",
-        "t": "1638-12-25",
-        "d": "safevi"
-      },
-      {
-        "f": "1917-03-11",
-        "t": "1921-08-23",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1921-08-23",
-        "t": "1923-10-29",
-        "d": "irak-kralligi"
-      }
-    ],
-    "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
+// EMEKLİ 14 Eylül 2026, UYGULA-BAGDAT, yerine yerlesimler.js (YAMA-BAGDAT-0914) — 1.MURAT M-3946 hükmü. Girdi 1623-11-28→1638-12-25 safevi taşıyordu; uygulansaydı 1638-12-24 hizasını/1630 Şehrizor/1624-1625 Kerkük düzeltmesini geri alırdı (D017).
+//   {
+//     "ad": "Âne",
+//     "s": [
+//       {
+//         "f": "1281-01-01",
+//         "t": "1340-01-01",
+//         "d": "ilhanli"
+//       },
+//       {
+//         "f": "1340-01-01",
+//         "t": "1411-01-01",
+//         "d": "celayirli"
+//       },
+//       {
+//         "f": "1411-01-01",
+//         "t": "1469-01-01",
+//         "d": "karakoyunlu"
+//       },
+//       {
+//         "f": "1469-01-01",
+//         "t": "1508-01-01",
+//         "d": "akkoyunlu"
+//       },
+//       {
+//         "f": "1508-01-01",
+//         "t": "1534-12-04",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1623-11-28",
+//         "t": "1638-12-25",
+//         "d": "safevi"
+//       },
+//       {
+//         "f": "1917-03-11",
+//         "t": "1921-08-23",
+//         "d": "ingiltere"
+//       },
+//       {
+//         "f": "1921-08-23",
+//         "t": "1923-10-29",
+//         "d": "irak-kralligi"
+//       }
+//     ],
+//     "kaynak": "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
+//     "neden": "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
+//   },
   {
     "ad": "Şehrizor",
     "s": [
@@ -1438,9 +1454,10 @@ window.YER_YAMA_OK109_FETRET = [
         "t": "1554-08-22",
         "d": "safevi"
       },
+      // 14 Eylül UYGULA-BAGDAT: YAMA-BAGDAT B, kaynak Kılıç 2001 + TDV sehrizor — Safevî t 1638-12-25 → 1630-03-16 (1.MURAT M-3949 hükmü a; manda bölünmesi olduğu gibi)
       {
         "f": "1623-11-28",
-        "t": "1638-12-25",
+        "t": "1630-03-16",
         "d": "safevi"
       },
       {

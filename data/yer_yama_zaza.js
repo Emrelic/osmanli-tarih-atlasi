@@ -169,10 +169,11 @@ window.YER_YAMA_ZAZA = [
       { f: "1353-01-01", t: "1394-01-01", d: "celayirli" },
       { f: "1394-01-01", t: "1401-01-01", d: "timurlu" },
       { f: "1401-01-01", t: "1507-01-01", d: "akkoyunlu" },
-      { f: "1507-01-01", t: "1515-09-10", d: "safevi" }
+      { f: "1507-01-01", t: "1514-10-23", d: "safevi" }
     ],
-    d: [{ f: "1515-09-10", t: "1923-10-29" }],
-    kaynak: "Karabulut 2019 (Cöhce 1997:125 üzerinden) — akademik, TEK anılma. Zincirin orta halkaları `diyarbakir` konvansiyonundan."
+    d: [{ f: "1514-10-23", t: "1923-10-29" }],
+    neden: "P05-ANADOLU · 0033/H-0018 (14 Eylül 2026): Osmanlı'ya geçiş 1515-09-10'dan (Diyarbakır/Âmid zinciri) 1514-10-23'e ÇEKİLDİ. TDV `selim-i` Kiğı'yı Bayburt ile AYNI cümlede, 1514 Tebriz DÖNÜŞÜNDE teslim alınan kaleler arasında sayıyor; Kiğı'nın 1515 Âmid süreciyle bağı yok.",
+    kaynak: "Karabulut 2019 (Cöhce 1997:125 üzerinden) — akademik, TEK anılma. Zincirin orta halkaları `diyarbakir` konvansiyonundan. · OSMANLI'YA GEÇİŞ: TDV `selim-i` (200, gövde okundu): 'Dönüş sırasında Bayburt ve Kiğı kalelerinin teslim alındığı haberleri gelmişti.' Ay ve gün Kiğı için kaynakta YOK ⇒ gün komşudan: Bayburt · TDV `erzincan` ('Erzincan, Bayburt ile birlikte 23 Ekim 1514'te Bıyıklı Mehmed Bey'e beylerbeyilik olarak verilmişti') — aynı cümle, aynı dönüş (§4 şartlı komşu günü). 23 Ekim bir tevcih günüdür; teslim bundan önce olabilir (üst sınır)."
   }
 
 ];

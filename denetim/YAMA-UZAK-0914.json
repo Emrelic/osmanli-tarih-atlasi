@@ -1,0 +1,63 @@
+{
+  "paket": "P10-UZAK",
+  "tarih": "2026-09-14",
+  "rapor": "denetim/P10-UZAK-0914.md",
+  "not": "Hicbiri UYGULANMADI. Veri kalemleri Oturum 0'a (yerlesimler.js kilitli), kronoloji maddeleri kronoloji dosyasi sahibine, motor kalemleri P13B'ye. data/yerlesimler_uzak_0914.js ACILMADI: kaynak tam zincir vermedi, 0 nokta.",
+  "damga": {"bulunamadi": "arandi, yok", "okumadim": "kaynak biliniyor, acilmadi", "olculemedi": "alet/erisim olcemedi"},
+  "yamalar": [
+    {
+      "id": "UZAK-Y1", "kalem": "0048/H-0001 (Y3 devri) + 0033/H-0009", "tur": "veri", "sahip": "Oturum 0 (data/yerlesimler.js)",
+      "ne": "Harizm 1593-1598 Ozbek (Buhara) isgali — hive donemini bol",
+      "hedef": ["Hîve", "Köhne Ürgenç (Gürgenç)", "Hazârasp", "Küngrat"],
+      "degisiklik": "s: hive 1512-01-01→1740-01-01  ⇒  hive 1512-01-01→1593-01-01 · buhara 1593-01-01→1598-01-01 · hive 1598-01-01→1740-01-01",
+      "kaynak": [
+        {"ad": "TDV hive-hanligi (govde P10-UZAK tarafindan 14 Eylul'de YENIDEN okundu)", "alinti": "Abdullah Han 1593'te Hârizm ülkesine girdi"},
+        {"ad": "TDV hive-hanligi", "alinti": "Hacı Muhammed (Hacim) Han (1598-1603) ülkesine dönerek duruma hâkim oldu"}
+      ],
+      "kesinlik": "yil — YYYY-01-01 (§4)",
+      "kunye_kontrol": "buhara f:1500 t:1920 — pencere tutuyor (ARAS0048 olctu)",
+      "on_kosul": "Iki kronoloji maddesi (1593 Abdullah Han'in Harizm'e girisi · 1598 Hacim Han'in donusu). Hive Osmanli kuresine 2014 km'den YAKIN (1593'te Baku/Sirvan Osmanli) ⇒ Degismez 2s KAPSAM ICI; maddesiz uygulanirsa 2s acik +2 (100→102, tavan 121). Madde dosyasi P10'un degil.",
+      "kronoloji_taslak": [
+        {"t": "1593-01-01", "b": "Buhara Hanı II. Abdullah Han Hârizm'e girdi; Hîve Hanlığı Özbek işgaline uğradı", "kaynak": "hive-hanligi", "kesinlik": "yil"},
+        {"t": "1598-01-01", "b": "II. Abdullah Han'ın ölümüyle Hârizm'deki Özbek işgali sona erdi; Hacı Muhammed (Hacim) Han ülkesine döndü", "kaynak": "hive-hanligi", "kesinlik": "yil"}
+      ]
+    },
+    {
+      "id": "UZAK-Y2", "kalem": "0048/H-0001 (Y2 devri) + 0033/H-0009", "tur": "veri-taslak", "sahip": "Oturum 0",
+      "ne": "Asagi Yayik–Emba Nogay dolgu noktasi (≈47,4K · 51,8D)",
+      "durum": "YAZILAMAZ — bulunamadi",
+      "sebep": "TDV nogaylar sinirini veriyor (Emba) ama baslangic/bitis gunu yok; komsu 'Emba (Cem)' ve 'Üstyurt kuzeyi' kayitlarinin 1500/1644 gunleri KAYNAK alani tasimiyor (olculdu: iki kayitta kaynak alani yok) ⇒ §4 sartli komsu kurali ① karsilanmiyor. Trepavlov 'Nogay Ordasi Tarihi': okumadim."
+    },
+    {
+      "id": "UZAK-Y3", "kalem": "0033/H-0010", "tur": "veri-aday", "sahip": "Oturum 0",
+      "ne": "Kandehar cevresi — kaynakta ADIYLA gecen ama atlasta noktasi olmayan Argun yonetim yerleri",
+      "kaynak": [{"ad": "TDV zunnun-argun (govde okundu)", "alinti": "Hüseyin Baykara Kandehar, Ferah, Gūr, Sahar ve Tulek'i de onun idaresine verdi"},
+                 {"ad": "TDV zunnun-argun", "alinti": "Şal, Mestun ve Sivi bölgesini ele geçirerek pekiştirdi"}],
+      "adaylar": ["Zemindâver", "Ferah (Farah)", "Şal (Kuetta)", "Mestun (Mastung)", "Sivi (Sibi)", "Gūr", "Sahar", "Tulek"],
+      "atlas_taramasi": "girdi.py 79 dosya · 3818 nokta · ARAC-NORMAL norm() ile: hicbiri YOK (Ferah → yalniz Ferahâbâd; Kelat → yalniz Kelât-ı Nâdirî)",
+      "durum": "YAZILAMAZ — tam zincir bulunamadi",
+      "sebep": "TDV yalniz 1479-1507 dilimini veriyor. Sluglar 302 OLU: ferah · ferah--afganistan · zemindaver · sibi · kuetta · ketta · mestung · kelat · kalat · girisk. belucistan (200) yalniz kaba zincir: 'Gazneliler, Gūrîler, İlhanlılar, Safevîler ve Afganlılar' · Kelat Hani Nasir Han 1750-1795 · 'İngiliz idaresine 1843'. Kandehar zinciri komsu gunu olarak DEVRALINAMAZ (§4 ③: Ferah ve Sal/Mestun/Sivi sonraki tarihte AYRI surecler — Safevi/Kelat). Kismi zincirli nokta 1b bosluk ya da kasitli_bosluk ile dilim disinda BEYAZ alan uretir (§3.5.1 iki uc).",
+      "sonraki_adim": "Encyclopaedia Iranica FARĀH / KANDAHAR maddeleri (okumadim) — Emre sarti 'kayit yoksa ellemeyelim' geregi o okunmadan yazilmaz"
+    },
+    {
+      "id": "UZAK-Y4", "kalem": "0033/H-0010 yan bulgu", "tur": "kunye-sinif", "sahip": "P03 (devletler.js/renkler.py) — kilitli",
+      "ne": "Kandehar s:timurlu 1370→1522-09-06, kunye timurlu t:1507-05-01 ⇒ 15,4 yil kuyruk (4c evreninde)",
+      "sinif": "§3.5.0 ③ ARDIL — TDV kandehar: 'Kandehar valisi Zünnûn Argun bölgede bağımsızlığını ilân etmek için harekete geçti' · 'Bâbür … 928'de (1522) şehri zaptetti'. Toprak DOLU (Argunlular), argun kunyesi YOK (devletler.js taranadi: 'argun' iceren id 0). Kisaltmak delik acar.",
+      "durum": "BLOKE — ardil kunye + renk gerekir; ayrica 1522-09-06 gununun kaynagi olculmedi (TDV yalniz yil veriyor)"
+    },
+    {
+      "id": "UZAK-Y5", "kalem": "0033/H-0014 yan bulgu", "tur": "veri-sinif", "sahip": "Oturum 0 + P03",
+      "ne": "Mao (Kanem) s:kanem-bornu 1281→1902 kesintisiz",
+      "kaynak": [{"ad": "TDV bornu (govde okundu)", "alinti": "ülke kuzeydeki Bulalar'ın işgaline uğradı"},
+                 {"ad": "TDV kanim", "alinti": "İdrîs Katakarmabi (1497-1519) Bûleleler'i yenerek Şîmi'yi geri aldı"}],
+      "sinif": "§3.5.-1 YANLIS ATIF adayi: Kanem ~1380'ler-~1500 Bulala elinde; bulala kunyesi YOK (devletler.js 'bulala' 0). Gunler bulunamadi (TDV yalniz hukumdar yillari).",
+      "durum": "BLOKE — kunye yok; ayrica Zinder s:kanem-bornu 1281 kur: alani yok (Damagaram kurulusu olculmedi)"
+    },
+    {
+      "id": "UZAK-Y6", "kalem": "0033/H-0006 · H-0007 · H-0008 · H-0010 · H-0014", "tur": "motor", "sahip": "P13B (uret_petek.py)",
+      "ne": "Yuvarlak/pergel sinirlarin kaynagi 200 km TAVAN_KM yayi — veri degil",
+      "olcum": "yayindaki govde sinirinin 185-205 km bandinda en yakin sahip noktaya dusen payi: timurlu 1510-12-02 %68 (1 nokta) · kanem-bornu 1513-09-01 %25 · mogulistan 1509-09-14 %21 · kazak-hanligi %14 · sibir-hanligi %12 · songhay %8",
+      "not": "Sibir icin kaynak dogal hat soyluyor (TDV sibir-hanligi: 'Tura, Tobul ve İşim nehirleri arasındaki topraklar'); motorun nehir kumesinde Tura/Tobol/Isim/Irtis'in olup olmadigi olculmedi."
+    }
+  ]
+}
