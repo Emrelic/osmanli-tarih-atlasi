@@ -1,0 +1,63 @@
+{
+  "yazan": "KITA 13",
+  "tarih": "2026-09-13",
+  "paket": "parti-emrelic-0043 (Çaldıran koridoru) + 0044 · Bitlis (a)",
+  "rapor": "denetim/OLCUM-KITA13-BITLIS-A-0913.md",
+  "durum": "ÖNERİ — koşu 10 sırasında data/ DONUK; UYGULAYAN koordinatör (D098)",
+  "koşu sonrası şart": ["py arac/denetle.py (taban kırmızıysa DELTA)", "py arac/renk_olc.py (§9)"],
+
+  "kayit": {
+    "ad": "Bitlis",
+    "dosya": "data/yerlesimler.js:238",
+    "eski": {
+      "d": [{"f": "1515-09-15", "t": "1920-04-23"}]
+    },
+    "yeni": {
+      "s_ekle": [{"f": "1532-01-01", "t": "1534-01-01", "d": "safevi"}],
+      "d": [{"f": "1515-09-15", "t": "1532-01-01"}, {"f": "1534-01-01", "t": "1920-04-23"}]
+    },
+    "dokunulmayan": "s: zinciri (ilhanli · karakoyunlu · akkoyunlu · safevi 1502→1515-09-15 · tbmm) ve 1515-09-15 günü — gün BEYANSIZ (bkz. OLCUM-KITA13-BITLIS-0913.md), ayrı kalem",
+    "kaynak_onerisi": "Safevî arası 1532→1534. BAŞLANGIÇ: Mehmet Dağlar, 'Ulama Sultan-ı Tekelü ve Osmanlı Devleti'ne İlticası', VAKANÜVİS 1/1 (2016) s.185 [dayanağı Parsadust, Şah Tahmasb-ı Evvel, s.152]: Ulama ve Fil Paşa 'H. 938'de Bitlisi kuşattı … muhasaradan el çektiler. Bitlis'e hâkim olan Şah Tahmasb …'; Colin P. Mitchell, 'ṬAHMĀSP I', Encyclopaedia Iranica (2009/2012): Olāma ile Fil Pasha 'returned to Persia in 1532 … drive the Ottomans temporarily out'. 938 h. ∩ 1532 ⇒ 1532. BİTİŞ: TDV `bitlis` 'Bitlis'i 1534'te kesin olarak Osmanlı topraklarına katmıştır'; TDV `seref-han` Şeref Han 940 h. (1533) Ulama tarafından öldürüldü. GÜNLER kaynakta yok — iki uç YIL başına yazıldı (§4).",
+    "neden_onerisi": "Kesintisiz d:1515→1920 bloğu, Şeref Han'ın Kanûnî döneminde İran himayesine geçişini ve Ulama'nın 1534'teki kesin geri alışını yutuyordu (TDV bitlis [62-66], irakeyn-seferi [14]). D080: askerî geri alma gerekti (ilk teşebbüs başarısız) ⇒ tasarruf değişimi, yalnız isyan değil.",
+    "hassasiyet_uyarisi": "1532-01-01 gerçek geçişten (1532 içinde, ≤3 Ağu) ÖNCE; 1534-01-01 gerçek dönüşten (1534 içinde) ÖNCE olabilir. 1531-01-01 REDDEDİLDİ: Şeref Han'ın sığınma yılı 937/938 ayrıştırılamıyor, hiçbir kaynak Bitlis için 1531 vermiyor."
+  },
+
+  "sinavlar": {
+    "degismez_1": "s: ve d: 1532-01-01 ve 1534-01-01'de bitişik ⇒ boşluk yok; 1c tavanı etkilenmez",
+    "degismez_2": "İKİ yeni kırılma. 1532-01-01: çekirdekte madde YOK. 1534-01-01: çekirdekte İKİ ALAKASIZ madde (olaylar_ek14.js:59 Matrakçı · olaylar_ek2.js:63 Kanûnî-Hürrem nikâhı) ⇒ denetim 'kapalı' sayar ama değişim alakasız maddenin altında belirir (D147). ⇒ aşağıdaki iki madde ŞART.",
+    "iki_uc_3_5_1": "1533-06-15 Bitlis komşuları: Siirt · Hasankeyf · Cizre · Midyat · Silopi OSMANLI; Van · Erciş safevî ⇒ Safevî Bitlis Van-Erciş gövdesine bitişik çıkıntı, ada değil. Yeni sahipsiz yok.",
+    "capraz_dogrulama": "TDV van [122]: 14 Haziran 1534 Ahlat · Adilcevaz · Erciş · Amuk Osmanlılara teslim oldu ⇒ Bitlis'in batı-kuzey çevresi 1534'e kadar Osmanlı dışındaydı; Dağlar'ın 'Bitlis, Ahlat, Muş ve Hınıs dolaylarını ona bağladı' cümlesiyle tutarlı."
+  },
+
+  "madde_onerileri": [
+    {
+      "t": "1532-01-01",
+      "k": "kayip",
+      "etiket": ["toprak-kayip"],
+      "b": "Bitlis'in Safevî hâkimiyetine geçmesi — Ulama ve Fil Paşa kuşatmasının kaldırılması",
+      "gun": "938 h. / 1532 (ay ve gün kaynakta yok)",
+      "yer": "Bitlis",
+      "yer_id": "Bitlis",
+      "kisiler": "Şeref Han, Tekelü Ulama, Fil Paşa, Şah Tahmasb",
+      "d": "Tekelü Ulama'nın Osmanlı'ya iltica edip Bitlis'e beylerbeyi tayin edilmesi üzerine Bitlis hâkimi Şeref Han Safevîlere sığındı. Ulama ile Diyarbekir Beylerbeyi Fil Paşa kaleyi üç ay kuşattı; Şah Tahmasb'ın yaklaşması üzerine kuşatma kaldırıldı ve Bitlis ile çevresi Safevî himayesindeki Şeref Han'a bırakıldı.",
+      "kaynak": "Dağlar, VAKANÜVİS 1/1 (2016) s.185; Mitchell, 'ṬAHMĀSP I', Encyclopaedia Iranica; TDV bitlis"
+    },
+    {
+      "t": "1534-01-01",
+      "k": "fetih",
+      "etiket": ["toprak-kazanc"],
+      "b": "Bitlis'in Ulama Paşa eliyle kesin olarak Osmanlı'ya katılması",
+      "gun": "1534 (ay ve gün kaynakta yok)",
+      "yer": "Bitlis",
+      "yer_id": "Bitlis",
+      "kisiler": "Tekelü Ulama, Şeref Han",
+      "d": "İlk kuşatması sonuçsuz kalan Ulama, Şeref Han'ı 940 (1533) yılında öldürdükten sonra Bitlis'i 1534'te kesin olarak Osmanlı topraklarına kattı. Bitlis 1555 Amasya Antlaşması'yla Safevîlerce de Osmanlı toprağı olarak tanındı.",
+      "kaynak": "bitlis"
+    }
+  ],
+
+  "yazilamayan": [
+    {"ne": "1550'lerde Bitlis'in Safevîlere geçmesi", "neden": "tek kaynak (Mitchell, Iranica 'early 1550s … conquest of Arjiš, Aḵlāt, Van, and Bitlis') ve aynı cümlesi Van için TDV ile çelişiyor (TDV van [132] 'bir daha el değiştirmemek üzere'); TDV van [137] 1552 listesinde Bitlis yok ⇒ §4: çelişki bildirildi, yama yok"},
+    {"ne": "Erciş 959/1552 Safevî ele geçirişi atlasta yok", "neden": "geri alınış tarihi bulunamadı", "dayanak": "TDV van [137]"}
+  ]
+}
