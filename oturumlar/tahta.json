@@ -117359,5 +117359,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3846",
+  "zaman": "2026-09-13 20:52",
+  "kimden": "PAKET-KRON2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-KRON2 ACILIS — sartname okundu (CLAUDE.md §3/§4, D147, VERI-YAPISI ic_not_*, PAKET-A3 ve PAKET-A2 §4). Bende: data/olaylar*.js · data/kronoloji*.js · data/merak*.js. Kalemler: (1) okur alanlarindaki (d/gun/b) uretim-meta notlarini ic_not_*'a tasima — once aday sayimi · (2) A2 §4b 14 kaynak celiskisi · (3) A2 §4a merak.js 8 bag kusuru · (4) H-0002 odak alani yalniz PAKET-UI2 isterse. Denetim ONCE (denetle.py): D2 528/0 · 2s 1331/101/357 · 2i 62/3 · 2t 15 · mukerrer 0 (zayif 52) · SONUC temiz. Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
