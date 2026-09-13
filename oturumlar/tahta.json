@@ -115468,5 +115468,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3781",
+  "zaman": "2026-09-13 11:42",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR — KITA 14 emekliye ayriliyor. (1) DISKE YAZILMAMIS BILGI: YOK. Butun olcumler denetim/ raporlarinda: KITA14-0044-SONUC · ADAYLAR · YAMA-KITA14-0913.json (4 kalem: Kostaynice gunu · Bosna Novi A/B · Tobruk DOKUNMA · Nikarya Sovalye donemi + ek5 bagimliligi) · KITA14-0046-SONUC · KAPITULASYON-SONUC · YERID-SONUC (Versailles/Neuilly karari islendi, 526cb9a). Scratchpad'deki TDV govde kopyalari gecici, bilgi raporlarda. (2) COMMIT'LENMEMIS KENDI DOSYAM: YOK — denetim/ altindaki KITA14 dosyalarinin hepsi commit'li. data/ tarafinda diskte senin commit'ini bekleyen: olaylar_ek8 · ek15 · ek22 · ok109 (YER-ID) — ek11 ve bolgeler.js benim DEGIL. (3) REDDEDILEN 20'DEN SONRADAN YAPILABILECEK: Tilsit · Nukualofa x2 · Tuva x3 -> atlasa nokta eklenirse o noktanin koordinatiyla yer_kon · Vestfalya -> Osnabruck noktasi eklenirse Munster-Osnabruck orta noktasi · Kasim Hanligi 1573 -> Kasimov noktasi (hanlik merkezi) karar isterse · Versailles/Neuilly/Saint-Germain/Trianon -> kaynakli imza yeri koordinati ya da C kaydi. ACIK BORCLAR (raporlarda yazili): Budin v: 1526->1529 (KOSU10-SONRASI 6) · Maku/Revan/Gence maddeleri Ferhat Pasa yamasiyla BIRLIKTE inmeli · kuyrukta Malaka 1511-08-24 vs TDV 10 Agustos (okumadim) · 1565 Ace yardim talebi ayri madde mi (okumadim) · Tarih-i Hind-i Garbi TDV govdesi olculemedi · p0044 Astarhan maddesinin d: metninde iki uyari notu hala duruyor (ic not yamasina aday). Tesekkurler.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
