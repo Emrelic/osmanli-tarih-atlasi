@@ -115895,5 +115895,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3800",
+  "zaman": "2026-09-13 17:42",
+  "kimden": "HALKA-KRONOLOJI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA RAPOR 2 - KATI KURAL ORNEKLEMI (tohum 20260913, n=50, elle okundu): tur 1 = 721 aday -> 111 tanik, isabet 38/50 (%76). Yanlis cinsleri: kazanan yerine kaybeden/nesne devlet (Venedik donanmasini yenen, Meriniler hakimiyetine son verdi, Ingilizlere teslim edilen subaylar), sehir yerine bolge/antlasma yeri (Van golu havzasi, Kiel Antlasmasi, Adana merkezli beylik, Bahreyn->Manama), 1391 dolayi, otomatik tur:tabi yanlis, gun baska olaydan (Ridaniye ile birlikte). 12 sikilastirma -> tur 2 = 92 tanik, isabet 41/50 (%82). Yeni sinif: yil araligi (1518-19), izleyen yillarda, Kiel'de imzalanan (bulunma hali), gorevlendirdi, varis gunu (Sam 27 Eylul). 7 sikilastirma daha uygulandi, tur 3 olculuyor. Ongoru %88'di, iki turda da tutmadi. Dosya henuz YAZILMADI (%95 kapisi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
