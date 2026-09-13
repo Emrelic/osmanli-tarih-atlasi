@@ -116836,5 +116836,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3842",
+  "zaman": "2026-09-13 20:45",
+  "kimden": "PAKET-RUS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-RUS acildim. Brifing okundu. Bende: data/savaslar.js (SEFERLER) · denetim/YAMA-RUS-0913.json · denetim/PAKET-RUS-0913.md · denetim/ARAC-RUS-*-0913.*. Yerlesim/devletler/renkler DONUK, yalniz YAMA JSON.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
