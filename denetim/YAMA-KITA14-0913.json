@@ -44,9 +44,9 @@
     "mevcut_hal": "d:[{f:\"1556-01-01\",t:\"1711-03-01\"}] · kaynak alani YOK · m: Bingazi"
    },
    "onerilen_deger": "YOK",
-   "bulgu": "TDV turgut-reis 'Cemaziyelevvel 963 (Mart 1556)' ve trablusgarp '1556'da Turgut Reis beylerbeyilikle buraya geldi' — ikisi de Tobruk'u ANMIYOR. TDV berka: 'Tarih boyunca Misir'a bagimli oldugu gorulen Berka bolgesi, Misir'in Osmanlilar tarafindan fethinden sonra bu idareye baglandi' — Tobruk'u ANMIYOR ve 1556'dan ONCEYI isaret ediyor ama TARIH VERMIYOR.",
-   "hukum": "bulunamadi — Tobruk'un 1556'si kaynakta degil, kayittaki bir tercih (muhtemelen Turgut Reis'in gelisine baglanmis). TDV'nin isaret ettigi daha erken tarih icin gun/yil da yok; o yuzden deger ONERILMIYOR. Ayri bir arastirma kalemi: Berka'nin Osmanli idaresine gercek giris tarihi (TDV disi akademik kaynak gerekir).",
-   "kronoloji_etkisi": "data/olaylar_p0044.js Tobruk maddesi bu belirsizligi metninde ACIKCA yaziyor ('1556 kaynakta degil, kayittaki bir tercihtir')."
+   "bulgu": "GUNCELLENDI (M-3636 uzerine, 13 Eylul). TDV derne — govde KITA 14 tarafindan AYRICA cekildi (HTTP 200, 96.993 bayt), birebir: 'Trablusgarp Turgut Reis'in tesvik ve gayretleriyle Osmanli hakimiyetine gectikten sonra beylerbeyi unvani ile buraya yerlesen Turgut Reis (Pasa) sinirlarini genisleterek doguda Tobruk ve Derne'yi almisti.' + TDV trablusgarp: '1556'da Turgut Reis beylerbeyilikle buraya geldi. Turgut Reis'in dokuz yillik valiligi...' ⇒ Tobruk'un alinisi Turgut Reis'in beylerbeyiligi SIRASINDA: alt sinir 1556, ust sinir 1565. Onceki 'bulunamadi' hukmu CURUDU — okumadigim bir maddedeydi (derne). TDV berka ise bolgenin Misir'in fethinden sonra idareye baglandigini yaziyor, tarih vermiyor; idari bag ile kiyi kalelerinin fiilen alinisi ayri seyler olabilir, celiski ilan edilmedi.",
+   "hukum": "DOKUNMA — kayittaki 1556-01-01 kaynakli bir ARALIGIN (1556-1565) baslangic yili. §4⑧ uyarisi: derne cumlesi Tobruk'a AYRI YIL vermiyor; '1556 yili dogrulandi' degil, '1556-1565 araliginda, 1556 alt sinir' dogrulandi. Daha kesin yil icin kaynak yok, deger onerilmiyor. Kayda kaynak alani eklenebilir: 'derne + trablusgarp'.",
+   "kronoloji_etkisi": "data/olaylar_p0044.js Tobruk maddesi yeniden yazildi: Turgut Reis'in beylerbeyiligi + doguya genisleme (Tobruk, Derne), kaynak derne + trablusgarp + turgut-reis birebir, yil araligi metinde. t: ayni, D2 degismedi (528 / 0 acik)."
   },
   {
    "no": 4,
