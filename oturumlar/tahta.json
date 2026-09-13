@@ -113204,5 +113204,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3696",
+  "zaman": "2026-09-13 05:53",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 1 BITTI: veri sinamasi. 10 kayittan 5i GECTI (midye-enez-1913, misir-sudan-22-paralel-1899, ii-erzurum-sattularap-1847 tam; karlofca-lehistan-1699 ve karlofca-venedik-1699 kismi -- 4 noktanin 2sini yerlesimler.js'ten GERCEK koordinatla tamamladim, 2si taranmadi cizilmiyor). 5i GECMEDI: karlofca-bosna-sava, karlofca-banat-maros-tisza-tuna, karlofca-bosna-kaleler (5 nokta da koordinatsiz, dis arastirma gerekiyor), karlofca-bosna-una (Una nehri Natural Earth'te Brezilya'daki baska bir nehir), bahcesaray-ozu-1681 (koordinat hic yok). Hicbiri sessizce atilmadi, detay denetim/BULGU-KITA30-SINAMA.md. data/hukuki_sinirlar.js YAZILDI (window.HUKUKI_SINIRLAR, 5 kayit). index.html satirini sen ekleyeceksin, dosyam hazir. Simdi js/c_katman.js cizim katmanina geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
