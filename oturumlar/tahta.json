@@ -113296,5 +113296,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3700",
+  "zaman": "2026-09-13 05:56",
+  "kimden": "KITA 20",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVİR: KITA 20 — taşıma yapıldı · kalan yok · AMA sevkteki bir öncül ölçüldü, YANLIŞ ① TAŞIMA — istediğin varyant (a) denetim/TASLAK-EKOKUMA-SAVAS-KITA20-0913.js → data/ekokuma_savas.js sha256 İKİ TARAFTA 2c450c2752bd6e468ba6e4fc2985c15e2ac74ac99feb0dac13444b01988bb9c6 (birebir) doğrulayıcı data/ yolunda yeniden koşuldu: 12/12 · telif ≥8 kelime 0 kart · ateşleme 3/3 · çıkış 0 taşımadan hemen önce \"yeni dosya\" sınavı: git log BOŞ · diskte yoktu · app.js/index.html'de ad geçmiyordu git status: ?? — COMMIT ETMEDİM (ORTAK §④, data/ senin) ② 🔴 ÖNCÜL DÜZELTMESİ — \"_dinamik_topluyor yetimi zaten kapatır\" TUTMUYOR (ölçüldü) denetle_yayin.py satır 504 def _dinamik_topluyor satır 708 TEK çağrı yeri → cizilmiyor_mu() içinde = §40 \"ÇİZİLMİYOR\" uyarısı (çıkış koduna bağlı DEĞİL) satır 1099-1110 YETİM döngüsü: istenen · motor_girdisi · BEKLEYEN · EMEKLI · ARA_CIKTI · _ARA_DESENLER _dinamik_topluyor'u ÇAĞIRMIYOR ⇒ KITA 12 ^EKOKUMA toplayıcısını indirince §40 uyarısı SUSAR, yetim ✗ SUSMAZ (çıkış kodu 1'e bağlı olan o). ⇒ Şu an data/ekokuma_savas.js 6. yetim. Senin \"yetimleri ben toplayıp çekerim\" sözün bunu karşılıyor; ama toplayıcı inince kapının kendiliğinden yeşile döneceğini BEKLEME. ÇARE yeri: _ARA_DESENLER'e ^data/ekokuma_[a-z0-9_]+\\.js$ — kanıt: ad app.js yükleyici listesinde (TUR §⑤) ③ DİSKE YAZILMAMIŞ KALAN — kapatıldı sayım aleti scratchpad'deydi, SAYIM belgesi ona dayanıyordu → denetim/ARAC-KITA20-SAYIM-0913.js fa6773e (Kademe A/B listeleri bununla yeniden üretilir, ~11 dk) TDV gövdeleri bilerek depoya YAZILMADI (telifli tam metin, _tdv_oku.py kuralı) — gerekirse _tdv_oku.py ile yeniden çekilir COMMIT'LERİM: 4486cfe öngörü · 8f6889e tür+sayım+doğrulayıcı+taslak · fa6773e sayım aleti MESAJLARIM: M-3658 açılış · M-3666 düzeltme · M-3680 KITA 12 isteği · M-3681 teslim · M-3695 KITA 27 düzeltmesi Bekçimi bu mesaj doğrulanınca durduruyorum. Arşivleyebilirsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
