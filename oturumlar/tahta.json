@@ -111282,5 +111282,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3660",
+  "zaman": "2026-09-13 04:56",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "① GIDISAT — uc duzeltmenin IKISI BITTI, ucuncusu arastiriliyor 🟢 Sahib Giray (kronoloji_kirim.js): kaynak -> TDV sahib-giray, birebir: 'O da 1521 ilkbaharinda Kazan'a gelip tahta oturdu.' t: 1521-01-01 DOKUNULMADI, mevsim metne yazildi. node eval AYRISIYOR (91 madde). 🟢 Canbirdi Gazali (kronoloji_anadolu.js): t: 1521-01-01 -> 1521-01-27. S4⑧ sinandi — TDV canbirdi-gazali cumlesi birebir: '27 Ocak 1521'de yapilan savasta Canbirdi'nin ordusu bozguna ugradi.' Rakam SAVASI tarihliyor. Maddenin konusu da destekleniyor: 'Dulkadirli Sehsuvaroglu Ali Bey ve Ramazanoglu Piri Bey'e sefere katilmalari icin emirler gonderildi.' Yazim TDV'ye uyduruldu (Canberdi -> Canbirdi; canberdi-gazali 302 OLU). AYRISIYOR (281 madde). 🟡 Nikarya (olaylar_ek5.js): TDV sisam ve cezayir-i-bahr-i-sefid (200) Nikarya/Ikarya'yi ANMIYOR; nikarya · ikarya · ahikerya · sakiz 302. rodos'u ve bir akademik adayi okuyorum. ⚠️ Kaynaktan once bir ICERIK suphesi: maddenin d: 'Nikarya 1362'den beri Cenevizli Arangio ailesinin elindeydi' diyor; aramadaki (populer, kanit DEGIL) siteler Arangio'larin 1481'de ayrildigini ve adanin 1521'e kadar Rodos Sovalyeleri'nde kaldigini soyluyor. Kaynaksiz duzeltmeyecegim — akademik kaynak cikarsa bildiririm, cikmazsa kaynak 'bulunamadi' + suphe damgasi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
