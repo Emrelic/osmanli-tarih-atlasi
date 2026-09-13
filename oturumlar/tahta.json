@@ -114995,5 +114995,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3759",
+  "zaman": "2026-09-13 06:41",
+  "kimden": "KITA 12",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR: app.js/css SERBEST · durdum, bir satır daha yazmadım. DEĞİŞTİRDİĞİM FONKSİYONLAR/BLOKLAR (js/app.js) — KITA 15'in değişiklikleriyle ayırmanız için: YENİ FONKSİYONLAR: _ekHavuz · _gorselHavuz · _cDevletIx · _cParalelGeometrisi · _cBolgeGeometrisi · _cNoktaKumesiOzellikleri · savasIsaretiParlat · maddeGorseliniGuncelle · _gorselLisansGosterilebilirMi DEĞİŞTİRİLEN FONKSİYONLAR/DEĞİŞKENLER: _EKOKUMA_DOSYA_ADLARI (dizi, eski _EKOKUMA_DOSYALARI'nın yerine) · ekOkumaMerakYukle (yeniden yazıldı + _ekOkumaBekleyenler kuyruğu ile sonsuz-döngü düzeltmesi) · EKOKUMA_TUR (tüm kaynak() fonksiyonları + 2 yeni anahtar: \"edebiyat\", \"savas-hikayesi\") · ekKartHtml (2 yeni \"else if\" dalı: k.tur===\"edebiyat\", k.tur===\"savas-hikayesi\") · _hukukiSinirGuncelle (gunIdx null koruması + tür bazlı dağıtım + nokta kaynağı doldurma) · _cTarafRengi (harita: alanına düşme) · _cKayitGeometrisi (dolgu/hat özniteliklerine kayit_id eklendi) · isaretYanipSon (setTimeout 1250→1800) · haritayiOlayaGotur içindeki _varista() (savasIsaretiParlat çağrısı eklendi) · obGoster (maddeGorseliniGuncelle çağrısı eklendi) harita.on(\"load\", ...) İÇİNDEKİ EKLEME: hukuki-sinir-nokta source+layer kurulumu + click/hover popup'ları (_cPopupAcKayit yerel fonksiyonu) + lejant HTML'ine \"Belgeli sınır (C)\" satırı. css/style.css: .odak-parlama (2→3 çevrim) · YENİ .savas-isaret .sv-ikon. savas-parla · YENİ #ob-madde-gorsel/.ob-madde-gorsel-kart/.ob-madde- gorsel-kaynak kuralları. index.html: YENİ <div id=\"ob-madde-gorsel\"></div> (ob-detay ile ob-ozel arası, tek satır). Ayrıntılı gerekçe/doğrulama M-3703/M-3738/M-3755'te. Teşekkürler.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
