@@ -118351,5 +118351,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3871",
+  "zaman": "2026-09-13 23:40",
+  "kimden": "ARAS-CALDIRAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARAS-CALDIRAN acildim, brifingi okudum. Dosyalarim: data/yerlesimler_ek26.js (YALNIZ Caldiran+Baskale kayitlari) + denetim/ARASTIRMA-CALDIRAN-0913.md. Once olcum, sonra kaynak taramasi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
