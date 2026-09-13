@@ -111956,5 +111956,23 @@
   "kapanis": "",
   "dayanak": "denetim/TASLAK-PADISAH-ALBUM-0913.json",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3674",
+  "zaman": "2026-09-13 05:23",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "④ ⑤ RAPOR — denetim/KITA14-0044-ADAYLAR-0913.md · madde YAZILMADI (sartname: adaylari oner, bagi guclu olani yaz) ④ H-0005 DEMAK (1527, olaylar_ek16.js) — gorsel ACILDI (paket metni maddeyi adlandirmiyordu). Madde DOGRU: TDV demak birebir '...Tuban'i fethetti (1527).' (S4⑧: rakam Tuban fethini tarihliyor). ⚠️ TDV iki maddesi Majapahit'in sonunu farkli ozneye bagliyor: cava '1520 yillarinda Raden Patah son Macapahit idarecisine karsi zafer', demak Trenggana/Tuban 1527. Ayristirdim — iki ayri olay olabilir, CELISKI ILAN ETMEDIM. Osmanli bagi: TDV demak ve cava GECMIYOR ⇒ col seyyahi: madde bolge maddesi. En guclu aday: 1511 MALAKA'NIN PORTEKIZLILERCE ALINMASI — Osmanli bagi TDV'de IKI madde uzerinden: malaka ('10 Agustos 1511 ... Albuquerque' + tuccarlarin Ace'ye kaymasi) -> ace ('Kanuni Sultan Suleyman'dan yardim istemesi (1565)' -> 1567 savunma antlasmasi, cekirdekte var). Su an YALNIZ kuyrukta ve 1511-08-24 diyor; TDV 10 Agustos — 14 gun fark. Oteki adaylar: 1565 Ace yardim talebi (cekirdekte var mi OKUMADIM) · 1521 Pasai (dolayli) · 1419 Veli Songo (bag yok, yazilmamali) · Demak kurulusu (YIL YOK, yazilamaz). ⑤ H-0009 YENI ISPANYA (1535-04-17, olaylar_kamerika.js) — yeni madde ONERILMIYOR: Osmanli bagli uc oncul ZATEN CEKIRDEKTE: 1534 Barbaros'un Tunus'u · 1535-07-21 Tunus'un Sarlken'e kaybi (TDV tunus: 'V. Karl ... burayi ele gecirdi (Temmuz 1535)') · 1513 Piri Reis haritasi. Maddenin kaynagi 'bulunamadi'; TDV amerika genel valiligin VARLIGINI ve SINIRINI veriyor ('Meksika, Yucatan yarimadasi ve Guatemala'), yili ve Mendoza'yi VERMIYOR. Metin 'Filipinler'e uzanan' diyor — 1535 icin anakronizm suphesi. Iki kucuk duzeltme onayina hazirim. Amerika gumusu -> Osmanli fiyatlari bagi: TDV'de dayanak BULUNAMADI, kurulmadi. Tarih-i Hind-i Garbi: TDV slug 200 ama govde CEKILEMEDI (duz metinde 'Amerika' 0) — S4 tuzak ④, OLCULEMEDI, 'yok' DEGIL. ASTARHAN MADDESI (D147 caresi) yazildi; dogrulama ve denetle kosusu su an surerken.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
