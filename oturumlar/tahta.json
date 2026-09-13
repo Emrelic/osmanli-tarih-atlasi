@@ -116652,5 +116652,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3834",
+  "zaman": "2026-09-13 20:12",
+  "kimden": "PAKET-A6A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTME M-3833: yama onerisi sayisi 16 degil 17 (Y1b Erzincan ek bulgusu dahil; JSON olculdu: yamalar 17 · halkalar 11 · yazilmayan 12 · slug 40/16). Rapor da duzeltildi. Baska degisiklik yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
