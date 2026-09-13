@@ -36,6 +36,38 @@ GEÇMEDİ (güncel) 3 / 10   karlofca-banat-maros-tisza-tuna-1699 (farklı
                           · bahcesaray-ozu-1681 (Özü nehri araştırılmadı)
 ```
 
+## 🆕 ÜÇÜNCÜ TUR — banat-maros ve bahçesaray-özü araştırması (1.MURAT onayıyla)
+
+Kural: her kayıt YAZILMADAN önce en az 2 bilinen (kaynaklı) nokta şart.
+İkisi de bu eşiği GEÇEMEDİ, `data/hukuki_sinirlar.js`e YAZILMADI —
+ama araştırma boşa gitmesin diye bulunanlar burada kayıtlı:
+
+```
+karlofca-banat-maros-tisza-tuna-1699
+  ✓ Maros-Tisza kavşağı (Szeged)     46.25167K, 20.19417D  — Wikipedia
+    'Mureș (river)', doğrudan WebFetch ile doğrulandı
+  ✓ Tisza-Tuna kavşağı (Stari Slankamen) 45.13806K, 20.27750D — Wikipedia
+    'Tisza', doğrudan WebFetch ile doğrulandı
+  ✗ "Osmanlı-Avusturya cephe hattının Maros'a değdiği nokta" — BULUNAMADI
+    (özel bir tarihî-coğrafya kaynağı gerekiyor, bu turda erişilmedi)
+  ✗ "Belgrad yönünde antlaşmanın bıraktığı nokta" — BULUNAMADI
+  ⇒ 4 noktanın 2'si çözüldü ama HAT'in iki UCU (ilk/son nokta, app.js'in
+    cross-product için kullandığı) hâlâ eksik — kayıt YAZILAMAZ.
+  ÖNERİ: bu tek kayıt yerine SADECE Tisza-Tuna segmentini (2 nokta,
+    TAM çözülmüş) ayrı bir kayıt olarak yazmak — KARAR 1.MURAT'ın.
+
+bahcesaray-ozu-1681
+  ✓ Özü (Dinyeper) ağzı — Dinyeper-Bug halici 46.617K, 31.950D — Wikipedia
+    'Dnieper–Bug estuary', WebSearch ile doğrulandı (WebFetch'le ikinci
+    kez teyit edilmedi — tek kaynak, dogrulanmadi:true önerilir)
+  ✗ "Özü'nün yukarı mecrasında antlaşmanın bıraktığı nokta" — BULUNAMADI
+  ⇒ 2 noktanın 1'i çözüldü, yine HAT'in iki ucu tamamlanamadı — YAZILAMAZ.
+```
+
+Bu iki kayıt için "bulunamadı" NİHAİ değil — özel kaynak taraması
+(Consolidated Treaty Series, akademik Osmanlı-Rus/Osmanlı-Avusturya
+sınır tarihi çalışmaları) gerektiriyor, bu turun kapsamı dışına çıkıyor.
+
 ⚠️ **NOT — olası kayıt çakışması:** `karlofca-bosna-kaleler-1699`
 (düzeltilmiş, 2 nokta) ile `karlofca-bosna-una-1699`nun nokta_atamalari
 (5 nokta) BÜYÜK ÖLÇÜDE AYNI olayı (Una/Bosna garnizonlarının 1699
