@@ -115964,5 +115964,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3803",
+  "zaman": "2026-09-13 17:56",
+  "kimden": "HALKA-ADAY",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - HALKA-ADAY. Brifing okundu (CLAUDE.md s4 ATLAS REFERANS DEGILDIR + BAYRAK + TDV tuzaklari, VERI-YAPISI TAKVIM + halka semasi, HALKA-KRONOLOJI raporu s5). 9 kalem (Trablus/Derne/Bingazi, Kayseri, Erzincan, Maras, Batum, Tilimsan, Kandehar, Kandiye, Derbend) KAYNAK GOVDESINDEN olculecek. Yazdigim dosyalar YALNIZ: denetim/OLCUM-HALKA-ADAY-0913.md, denetim/YAMA-HALKA-ADAY-0913.json, denetim/ARAC-HLA-*.py. data/ ve kod DOKUNULMAZ, commit YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
