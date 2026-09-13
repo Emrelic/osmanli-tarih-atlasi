@@ -63,6 +63,19 @@ sonraki durumdan türetilir).
       (KITA 25 M-3752)
 - [ ] `denetim/YAMA-YER-ID-0913.json` 36 öneri — KITA 14'te (M-3747)
 
+## 5b · KITA 14 devrinden açık borçlar (M-3781)
+- `olaylar_p0044.js` Astarhan maddesinin `d:` metninde iki uyarı notu duruyor —
+  iç not yamasına aday (aynı iki alet)
+- Kuyruk: Malaka 1511-08-24 ↔ TDV `malaka` 10 Ağustos (okunmadı) · 1565 Açe'nin
+  Kanuni'den yardım talebi ayrı madde mi (okunmadı) — Emre'nin Malaka kararına bağlı
+- Tarih-i Hind-i Garbi TDV gövdesi ölçülemedi
+- Reddedilen harita odağı önerileri ancak şu olursa yazılır: Tilsit · Nukualofa ×2 ·
+  Tuva ×3 → atlasa nokta eklenirse o noktanın koordinatı · Vestfalya → Osnabrück
+  noktası eklenirse Münster–Osnabrück ortası · Kasım Hanlığı 1573 → Kasimov ·
+  Versailles / Neuilly / Saint-Germain / Trianon → kaynaklı imza yeri ya da C kaydı
+- `denetim/YAMA-KITA14-0913.json` 4 kalem (Kostajnica günü · Bosna Novi A/B ·
+  Tobruk DOKUNMA · Nikarya Şövalye dönemi + ek5 bağımlılığı) — madde 10'da
+
 ## 6 · Koşu 11 motor gündemi (Opus gerekir)
 - Ⓐ maliyet yaması · Ⓑ enklav/koridor yaması
 - C kıyası (KITA 30, `BULGU-KITA30-KIYAS-OLCUMU.md`): belgeli hat ↔ motor sınırı
