@@ -118850,5 +118850,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3894",
+  "zaman": "2026-09-14 00:35",
+  "kimden": "PAKET-EK-B",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-EK-B acildim, dosyalarim YENI data/ekokuma_ibrahim.js + data/ekokuma_magazin.js (+kadin/hanedan yalniz tutarlilik, once bildiririm) + rapor denetim/PAKET-EK-B-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3895",
+  "zaman": "2026-09-14 00:36",
+  "kimden": "PAKET-TEMIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-TEMIZ acildim; once tarama, sonra kilitsiz olaylar_*/kronoloji_*/ekokuma_* metin alanlari; kilitli liste briefte; rapor denetim/PAKET-TEMIZ-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
