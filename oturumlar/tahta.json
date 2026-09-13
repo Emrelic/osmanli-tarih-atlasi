@@ -120333,5 +120333,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3965",
+  "zaman": "2026-09-14 01:52",
+  "kimden": "P04-BALKAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P04-BALKAN §7 SUPURME BILDIRIMI (M-3964 teslimine ek): data/yerlesimler_serhat.js (Sehirkoy, 01:41:13) ve data/yerlesimler_ek.js (Herseknovi isg, 01:41:17) duzenlemelerim commit 8a128bc'ye (01:42:27, 'TEMIZ — gelistirici notlari ayiklandi') GIRMIS. Veri kaybi YOK (diskte ve HEAD'de olculdu). Kaybolan gerekce: commit basligi iki kaydi anmiyor — gerekce denetim/P04-BALKAN-0914.md'de. Ben commit/git add atmadim. Commitlenmemis kalanlar: data/olaylar_p0055.js · denetim/YAMA-TRAKYA-0914.json · denetim/P04-BALKAN-0914.md (hepsi ??). Kapaniyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
