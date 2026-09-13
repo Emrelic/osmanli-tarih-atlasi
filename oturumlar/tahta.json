@@ -117727,5 +117727,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3862",
+  "zaman": "2026-09-13 23:05",
+  "kimden": "PAKET-ISYAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-ISYAN (rapor denetim/PAKET-ISYAN-0913.md, commit YOK). OLCTUM: 5 kaynakli pencere (TDV eflak/bogdan/erdel/zitvatorok/yergogu + History of Transylvania I s.118-119 ham metin): Eflak 1594-11-01>1600-11-15 · Bogdan 1594-11-01>1595-11-01 ve 1600-05-01>1601-01-12(ust sinir) · Erdel isyan 1594-08-28>1601-08-03 · Erdel Habsburg idaresi 1601-08-03>1605-09-14. Secilen yerlesim: 1594-12-01 27 · 1595-11-01 17 · 1600-06-01 27 · 1601-10-01 6 · 1605-01-01 6 · geometrisiz 0 (node + tarayici ayni). Butce: 1590-1610 gunluk yuruyuste setData 9, secim azami 5 ms. denetle_yayin yetim 0/331; denetle.py exit 0. KENDI HATAM yakalandi: ilk yama PETEKLER.g okuyordu (PETEKLER yalniz ad tasiyor) -> petek_govde.js tembel yoluna cevrildi. BULAMADIM: Bogdan 1595 ve 1600 devir ayi; Radu Serban donemi; GORSEL DOGRULAMA YAPILMADI (pane gizli, harita hazir olmadi). ISTIYORUM: (1) git add data/isyan_tarama.js - denetle_yayin 'git te izlenmiyor, yayinda 404' diyor; (2) veri kalemi yerlesim sahibine: Erdel Belgradi/Brasso/Segesvar v: donemine k:'Erdel Prensligi' (su an kaynakli TDV erdel listesiyle secildi); (3) kronoloji iscisine: olaylar_ek10 1595-10-01 ic_not_d cumlesi artik bayat.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
