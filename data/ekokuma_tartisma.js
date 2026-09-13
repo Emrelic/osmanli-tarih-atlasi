@@ -101,6 +101,32 @@ window.EKOKUMA_TARTISMA = [
   kesinlik:"tartismali",
   zincir:[],
   olay:["1580-01-01|İngiltere"],
-  kaynak:"TDV: ingiltere · imtiyazat · ahidname" }
+  kaynak:"TDV: ingiltere · imtiyazat · ahidname" },
+
+// ══ PAKET-A2 (13 Eylül 2026) · paket 0032 H-0014 — OTRANTO ════════════════
+// Emre: "Otranto tahliyesi maddesine ek okuma, merak gibi butonları
+// serpiştirelim; ayrıca Otranto'nun tahliyesindeki kanlı katliamları anlatan
+// buton olabilir." 🔴 ÖLÇÜLDÜ: okunan kaynaklarda öldürmeler 1481 TAHLİYESİNDE
+// değil 1480 ALINIŞINDA — kart bunu açıkça söylüyor ve iki maddeye de bağlı.
+// Bu dosyanın `tartisma` şeması (sebep/sonuc) yerine son çare dalının okuduğu
+// baslik + kisa/metin/bag/not alanları kullanıldı (ekokuma_dalga2.js başlığı).
+{ id:"tartisma-otranto-1480-idamlar", tur:"tartisma",
+  baslik:"Otranto'da 1480'de ne oldu? — \"Otranto şehitleri\" anlatısı ile Osmanlı kaynakları",
+  kisa:"Katolik Kilisesi yaklaşık 800 kişinin inancından dönmediği için başının kesildiğini anlatır ve onları 2013'te aziz ilan etti; TDV ise direnen ileri gelenlerin idam edildiğini kabul edip sayının kilise propagandasıyla büyütüldüğünü söyler.",
+  metin:"Osmanlı kuvvetleri Otranto'yu 11 Ağustos 1480'de, surları toplarla aşarak aldı. Şehrin alınmasının ardından yaşananlar iki ayrı gelenekte çok farklı anlatılır.\n\nKatolik Kilisesi'nin anlatısında kuşatma ve istiladan sağ kurtulan yaklaşık 800 kişi, inançlarını inkâr etmeyi reddettikleri için şehrin çevresinde başları kesilerek öldürülmüştür. \"Otranto şehitleri\" (Antonio Primaldo ve arkadaşları) diye anılan bu kişiler, Papa Francis tarafından 12 Mayıs 2013'te Roma'da Aziz Petrus Meydanı'nda yapılan törenle aziz ilan edildi.\n\nTDV'nin Otranto Seferi maddesi ise Tursun Bey başta olmak üzere Osmanlı kaynaklarına dayanır: şehir direnişle alındığı için karşı koyan ileri gelenlerin bir kısmı idam edilmiş, bir kısmı esir alınmıştır. Madde, ölenlerin sayısının abartılmasını açıkça kilise propagandasına bağlar. Atlasın kendi çıkarma maddesi de 800 rakamını anıyor; yani aynı olayın iki okuması bu kronolojinin içinde de yan yana duruyor.",
+  bag:"İki anlatı olayın VARLIĞINDA değil, ÖLÇEĞİNDE ve SEBEBİNDE ayrışır: kaç kişi öldürüldü, ve öldürülme sebebi silahlı direniş miydi yoksa din değiştirmeyi reddetmek mi? TDV idamların olduğunu kabul eder ama dinî zorlama çerçevesini benimsemez; kilise geleneği ise bu çerçeveyi olayın özü sayar. Bu kart taraf seçmiyor; iki kaynağın ne söylediğini yan yana koyuyor.",
+  not:"🔴 Tahliye (10 Eylül 1481) sırasında bir katliam anlatısı, okunan TDV maddelerinde (otranto-seferi · gedik-ahmed-pasa · bayezid-ii) YOK: garnizon altı aylık kuşatmada yiyecek ve su bitince teslim oldu; İbn Kemal ve Angiolello'ya göre esirler sonradan Napoli ordusuna alındı. Kan dökülen an 1480'deki alınıştır — kart bu yüzden iki maddeye de bağlandı. İdamların GÜNÜ okunan iki kaynakta verilmiyor (Vatikan metni yalnız '1480' diyor); günü uydurmamak için yazılmadı. Kilise anlatısının tarihî doğruluğunu inceleyen akademik bir çalışma bu kart için OKUNMADI.",
+  kesinlik:"tartismali",
+  olay:["1480-08-11|Otranto","1481-09-10|Otranto"],
+  kaynak:"TDV: otranto-seferi (gövde okundu, HTTP 200) · Resmî metin: Papa Francis'in 12 Mayıs 2013 aziz ilan töreni vaazı, vatican.va — https://www.vatican.va/content/francesco/en/homilies/2013/documents/papa-francesco_20130512_omelia-canonizzazioni.html (okundu: '1480', 'about 800 people … beheaded') · ⚠️ 'otranto' 302 ÖLÜ" },
+
+{ id:"dis-yankilar-otranto-1480", tur:"dis-yankilar",
+  baslik:"Otranto İtalya'da nasıl yankılandı?",
+  kisa:"Roma'nın İstanbul'dan sonra düşeceği korkusu yarımadayı sardı — ama işgalin ardından Napoli, Osmanlı'yla dostluk görüşmelerine oturdu.",
+  metin:"TDV'nin Otranto Seferi maddesine göre çıkarma, neredeyse bütün Hıristiyan dünyasını endişeye düşüren ağır bir olay sayıldı. Roma'nın ele geçirilmesi, İstanbul'un fethinden sonra Hıristiyanlık için tam bir çöküş anlamına gelecekti; İtalya'da büyük bir panik başladı ve olay sonraki yüzyıllarda destanlara, kahramanlık hikâyelerine konu oldu.\n\nKorku bir birlik doğurmadı. TDV'nin Napoli maddesine göre İtalyan devletleri bir ittifak kurmaya çalıştı ve Napoli de katılmak istedi, fakat ittifak gerçekleşmedi. İtalya'daki devletleri yanına çekmek isteyen Fâtih bir barış girişiminde bulundu ve Napoli Kralı Ferrante'yi kazandı.\n\nOtranto geri alındıktan sonra da ilişki kopmadı: II. Bayezid'den çekinen Napoli kralı barış istedi, 1482-1485 arasında bir dizi yazışma yapılıp antlaşmalar imzalandı ve 1494'te bir Osmanlı elçilik heyeti Napoli'yi ziyaret etti; ancak sürekli bir münasebet kurulamadı. Olayın modern bir yankısı da var: şehrin alınışında öldürülenler 12 Mayıs 2013'te Katolik Kilisesi tarafından aziz ilan edildi (ayrı tartışma kartı).",
+  not:"Dostluk görüşmelerinin belgeleri için TDV bibliyografyası iki çalışma gösteriyor: İ. Hakkı Uzunçarşılı, 'Otranto'nun Zaptından Sonra Napoli Kralı ile Dostluk Görüşmeleri', Belleten XXV/100 (1961) · Tayyib Gökbilgin, Napoli kralının II. Bayezid'e ve Gedik Ahmed Paşa'ya mektupları, POF XXII-XXIII (1976). Bu kart onları OKUMADI, yalnız TDV'nin aktardığına dayanıyor.",
+  kesinlik:"kesin",
+  olay:["1480-08-11|Otranto","1481-09-10|Otranto"],
+  kaynak:"TDV: otranto-seferi (gövde okundu, HTTP 200) · TDV: napoli (gövde okundu, HTTP 200) · TDV: bayezid-ii (HTTP 200) · Vatikan vaazı 12 Mayıs 2013 (vatican.va, okundu)" }
 
 ];

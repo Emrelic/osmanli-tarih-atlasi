@@ -54,7 +54,10 @@ window.GORSEL_MADDE = [
   {
     id:            "1566-09-07-sokullu-mehmed-pasa-portresi",
     tur:           "portre",
-    olay:          ["1566-09-07", "1573-03-07"],
+    // PAKET-A2 13 Eyl (0027/H-0005 "görsel maddeyle ilgili olsun"): "1566-09-07" ÇIKARILDI.
+    //   O gün tek madde "Zigetvar — Kanunî'nin vefatı"; app.js find() ilk eşleşeni aldığı
+    //   için bu Sokullu portresi Kanuni albümünü (1520-09-30-suleyman1-albumu) GİZLİYORDU.
+    olay:          ["1573-03-07"],
     url:           "assets/gorseller/1566-09-07-sokullu-mehmed-pasa-portresi.jpg",
     baslik:        "Sokullu Mehmed Paşa — taht minyatürü (1568-69)",
     gorsel_alt:    "Sokullu Mehmed Paşa'nın tahtta oturur biçimde betimlendiği, 1568-69 tarihli Nüzhetü'l-ahbâr minyatürü",
@@ -68,7 +71,10 @@ window.GORSEL_MADDE = [
   {
     id:            "1538-09-27-barbaros-hayreddin-pasa-portresi",
     tur:           "portre",
-    olay:          ["1538-09", "1538-08-01"],
+    // PAKET-A2 13 Eyl (0027/H-0005): "1538-09" ÇIKARILDI — o gün tek madde "Preveze Deniz
+    //   Zaferi"; bu portre olayın kendi tablosunu (1538-09-28-preveze-deniz-zaferi) GİZLİYORDU.
+    //   "1538-08-01" (Barbaros'un Kuzey Ege seferi, o günün tek maddesi) kaldı.
+    olay:          ["1538-08-01"],
     url:           "assets/gorseller/1538-09-27-barbaros-hayreddin-pasa-portresi.jpg",
     baslik:        "Barbaros Hayreddin Paşa portresi (16. yy)",
     gorsel_alt:    "Barbaros Hayreddin Paşa'yı elinde asa ile yarı boy gösteren, 16. yüzyıl ortasına tarihlenen tuval üzerine yağlıboya portre",
@@ -184,7 +190,7 @@ window.GORSEL_MADDE = [
   {
     id:      "1578-01-02-hunername-albumu",
     tur:     "albüm",
-    olay:    ["1578-01-02", "1588-01-01"],
+    olay:    ["1578-01-02|Hünernâme", "1588-01-01|Hünernâme"],  // PAKET-A2 13 Eyl: ayırıcısız hâli 1578-01-02'de 'Urus Mirza', 1588-01-01'de Galce İncil · Taşkent · Zimba maddelerine de düşüyordu
     baslik:  "Hünernâme minyatür albümü — Nakkaş Osman ve ekibi",
     gorseller: [
       {
@@ -653,5 +659,191 @@ window.GORSEL_MADDE = [
     gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_Nouri-Osmani%C3%A9_-_S%C3%A9bah_%26_Joaillier._LCCN2004666781.jpg",
     kesinlik:      "donem-sonrasi-tasvir",
     lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-old-100-expired"
-  }
+  },
+
+  // ══ PAKET-A2 (13 Eylül 2026) · 0044/H-0020 Bâkî · 0034/H-0044 Hâfız Osman · 0027/H-0005 ══
+  // Rapor: denetim/PAKET-A2-EKOKUMA-0913.md. 9 kayıt · 9 yeni dosya (hepsi ≤ 400 KB, ~2,9 MB).
+  // LİSANS: 9/9 KABUL — denetim/ARAC-GORSEL-LISANS-0913b.py İKİ KEZ, birbirinden bağımsız
+  // koşuldu (araştıran oturum + birleştiren oturum). BULUNAMADI: Sultânî altını (0032/H-0010 —
+  // Commons'taki II. Mehmed sikkeleri CC-BY-SA; tek KABUL aday 178 px ve padişahı belirsiz) ·
+  // Otranto 1480 (tek CC0 aday 2024 tarihli bir plaket fotoğrafı, olay görseli değil).
+  // 🔴 DOSYA ADI TUZAĞI: "View of the siege of Vienna, 1529.jpg" açılınca alt metni 1532 dedi;
+  //    indirilen dosya SİLİNDİ, yerine Beham'ın çağdaş tasviri kondu.
+  // Ayırıcısız bağlanan üç kayıt (İnebahtı 5 · Mohaç 3 · Rodos 2 madde) o günün bütün
+  // maddelerinde görünür — hepsi aynı olayın kopyası olduğu için BİLEREK.
+{
+  "id": "1566-09-30-baki-divani-yazmasi-met",
+  "tur": "madde",
+  "olay": [
+    "1566-09-30",
+    "1566-09-01"
+  ],
+  "url": "assets/gorseller/1566-09-30-baki-divani-yazmasi-met.jpg",
+  "baslik": "Bâkî Dîvânı'nın resimli bir nüshasından yaprak (16. yy son çeyreği)",
+  "gorsel_alt": "Minyatür: surlarla çevrili bir şehrin kapısından giren Osmanlı alayı; önde beyaz sarıklı atlı komutanlar ve tüfekli askerler, kulede boru ve davul çalan müzisyenler, surların ardında renkli evler, bir kubbe ve iki minare; resmin üstünde ve altında ikişer satır Türkçe beyit",
+  "eser": "\"Ottoman Army Entering a City\" — Bâkî (Mahmud Abdülbâkî) Dîvânı'nın resimli nüshasından bir yaprak, Metropolitan Museum of Art, 45.174.5 (Bequest of George D. Pratt, 1935)",
+  "sanatci": "bulunamadı — MET yalnız eserin şairini (Bâkî) anıyor, nakkaş adı yok",
+  "yil": "16. yüzyılın son çeyreği (MET beyanı; Bâkî hayattayken)",
+  "lisans": "CC0",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:%22Ottoman_Army_Entering_a_City%22,_Folio_from_a_Divan_of_Mahmud_%60Abd_al-Baqi_MET_DP246521.jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b) · kategori CC-Zero · Commons API LicenseShortName 'CC0' · MET Open Access API isPublicDomain: True (object 450587)",
+  "not": "Görsel Bâkî'yi, cülûsiyeyi ya da Kanûnî mersiyesini GÖSTERMEZ: şairin dîvânının resimli bir nüshasındaki başka bir sahnedir. Commons'taki aynı yaprağın bir başka kopyası sahneyi '1590'da Safevî şehzadesi Haydar Mirza'nın İstanbul'a girişi' diye tanımlıyor — MET başlığı bunu söylemiyor, DOĞRULANMADI. Bâkî'nin kendisini gösteren iki aday elendi: 'Bâkî Diwan.jpeg' (BnF Supplément turc 356, 293x600 px; lisans aleti RED — kabul kategorisi yok; yazmanın Bâkî Dîvânı olduğu da BnF kaydından doğrulanamadı) ve 'The poet Bâkî among his fellow poets.jpg' (PD-Art + CC-BY-SA-4.0 çift beyan → RED; kaynağı 1986 tarihli bir kitaptan tarama, yazma adı yok). İki maddeye birlikte bağlandı çünkü ikisi de aynı şairin 1566 şiirleridir."
+},
+
+{
+  "id": "1695-01-01-hafiz-osman-hilye-1691",
+  "tur": "madde",
+  "olay": [
+    "1679-01-01|Hâfız Osman",
+    "1695-01-01|Hâfız Osman"
+  ],
+  "url": "assets/gorseller/1695-01-01-hafiz-osman-hilye-1691.jpg",
+  "baslik": "Hâfız Osman'ın hilye-i şerîfi (1103 / 1691-92)",
+  "gorsel_alt": "Yeşil zemin üzerine altın çiçek bezemeli pervaz içinde hilye levhası: üstte büyük harflerle besmele, ortada altın halka içinde Hz. Peygamber'in vasıflarını anlatan satırlar, dört köşede halifelerin adlarını taşıyan bulut biçimli kartuşlar, altta büyük yazıyla bir âyet ve en altta hattatın ketebe satırları; kâğıdın altında müze envanter notları",
+  "eser": "Hilye-i şerîf — Chester Beatty Library, Dublin, T 559.4 (440×320 mm; kâğıt üzerine mürekkep, altın ve boya)",
+  "sanatci": "Hâfız Osman (1642-1698)",
+  "yil": "1103 / 1691-1692 (Commons ve CBL beyanı)",
+  "lisans": "PD-Art",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Hilye_by_Hafiz_Osman,_1691-1692._Chester_Beatty_Library_T_559.4.jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b) · kategori PD-Art, PD-Art_(PD-old-auto-expired), PD-old-100-expired",
+  "not": "Hâfız Osman'ın kendi eseri (Commons 'Artwork' kaydı, CBL envanteri). 1679 maddesine de bağlandı ama o yılın ürünü DEĞİLDİR: 12 yıl sonra yazılmış, maddede anlatılan üslûbun olgun bir örneğidir. Her iki günde de başka maddeler olduğu için '|Hâfız Osman' ayırıcısı kullanıldı. Yedek aday: 'Hilye by Hafiz Osman from Sadberk Hanim Museum.jpg' (KABUL, ama Commons tarih alanı 1680, açıklaması 'c. 1670' — çelişkili, seçilmedi)."
+},
+
+{
+  "id": "1513-01-01-piri-reis-dunya-haritasi",
+  "tur": "madde",
+  "olay": [
+    "1513-01-01|Pîrî Reis"
+  ],
+  "url": "assets/gorseller/1513-01-01-piri-reis-dunya-haritasi.jpg",
+  "baslik": "Pîrî Reis'in 1513 dünya haritası (günümüze ulaşan parça)",
+  "gorsel_alt": "Kenarları yırtık, renkli harita parçası: sağda İber yarımadası ve Batı Afrika kıyısı, solda Güney Amerika'nın doğu kıyısı ve Karayip adaları; üzerinde pusula gülleri, kırmızı rüzgâr çizgileri, yelkenli gemiler, hayvan ve tahtta oturan hükümdar figürleri, sol kenar boyunca Osmanlıca açıklama metinleri",
+  "eser": "Pîrî Reis dünya haritası — Topkapı Sarayı Müzesi Kütüphanesi, H. 1824 (Commons beyanı)",
+  "sanatci": "Pîrî Reis",
+  "yil": "919 / 1513",
+  "lisans": "PD-Art",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Piri_reis_world_map_01.jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b) · kategori PD-Art, PD-Art_(PD-old-auto-expired), PD-old-100-expired",
+  "not": "Commons kaynağı müze taraması değil: Bilkent Üniversitesi (düşük çözünürlük) ve erisi.com (yüksek çözünürlük) — renkler basılı bir reprodüksiyondan geliyor olabilir, ÖLÇÜLMEDİ. O günde başka maddeler (Kilve · Machiavelli · Rodos · Sin) olduğu için '|Pîrî Reis' ayırıcısı kullanıldı."
+},
+
+{
+  "id": "1526-01-01-kitab-i-bahriye-kibris",
+  "tur": "madde",
+  "olay": [
+    "1521-01-01|Kitâb-ı Bahriye",
+    "1526-01-01|Kitâb-ı Bahriye"
+  ],
+  "url": "assets/gorseller/1526-01-01-kitab-i-bahriye-kibris.jpg",
+  "baslik": "Kitâb-ı Bahriye'den Kıbrıs haritası (17.-18. yy nüshası, Walters)",
+  "gorsel_alt": "Altın cetvelli çerçeve içinde Kıbrıs adası haritası: kıyılarda küçük kale resimleri, adanın ortasında tepeler üzerinde surlu bir şehir, renkli dağ sıraları ve akarsular; köşelerde ve solda pusula gülleri, sayfayı kesen rüzgâr çizgileri, zeminde arka sayfanın silik yazısı",
+  "eser": "Pîrî Reis, Kitâb-ı Bahriye nüshası — Walters Art Museum, Baltimore, W.658, vr. 334b",
+  "sanatci": "Pîrî Reis (eserin yazarı) — nüshanın müstensih ve ressamı bulunamadı",
+  "yil": "17. yüzyıl sonu - 18. yüzyıl başı (Walters beyanı); eserin kendisi 927/1521 ve 932/1526",
+  "lisans": "PD-Art",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Piri_Reis_-_Map_of_the_Island_of_Cyprus_-_Walters_W658334B_-_Full_Page.jpg",
+  "kesinlik": "donem-sonrasi-tasvir",
+  "lisans_olcum": "KABUL (0913b) · kategori PD-Art, PD-Art_(PD-old-100), PD-author · Commons şablonu 'Walters Art Museum license'",
+  "not": "Pîrî Reis'in el yazması değil, ~150-200 yıl sonraki bir KOPYA. Nüshanın 1521 ilk mi yoksa 1526 genişletilmiş versiyonun mu kopyası olduğu ÖLÇÜLMEDİ (Walters sayfasında yazmıyor), bu yüzden iki maddeye de bağlandı. Haritadaki merkez şehrin etiketi 'Lefkoşa' olarak okunur gibi — okuma KESİN DEĞİL, gorsel_alt'a yazılmadı."
+},
+
+{
+  "id": "1571-10-07-inebahti-nmm-tablosu",
+  "tur": "madde",
+  "olay": [
+    "1571-10-07"
+  ],
+  "url": "assets/gorseller/1571-10-07-inebahti-nmm-tablosu.jpg",
+  "baslik": "İnebahtı Deniz Savaşı — 16. yy sonu tablosu (National Maritime Museum)",
+  "gorsel_alt": "Tuval üzerine yağlıboya: bayraklı ve flamalı kadırgaların iç içe geçtiği, top dumanları arasında çarpışan iki donanma; sol önde kayalık bir burun, sağ arka planda kıyıda bir kale ve tepeler, ön planda denizde yüzen enkaz ve bir sandal",
+  "eser": "The Battle of Lepanto, 7 October 1571 — tuval üzerine yağlıboya, National Maritime Museum, Greenwich, BHC0261",
+  "sanatci": "H. Letter — tabloda 'HLETTER' imzası; ressam hakkında başka bilgi yok (NMM)",
+  "yil": "16. yüzyıl sonu",
+  "lisans": "PD-Art",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Battle_of_Lepanto_1571.jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b) · kategori PD-Art, PD-Art_(PD-old-100-expired), PD-old-100-expired",
+  "not": "NMM açıklaması (Commons'a aktarılmış): çağdaşa yakın ama 'hayalî bir yorum'; 1572 tarihli bir Venedik gravürüne (Martino Rota) dayandığı düşünülüyor. Tanıklık DEĞİLDİR. O gün kronolojide BEŞ madde var (olaylar.js · kronoloji_ispanya · kronoloji_venedik · kronoloji_rodos_sovalyeleri · kronoloji_italya_sehir) ve beşi de İnebahtı Savaşı — ayırıcısız bağlandı. Yedek aday: Camocio'nun 1574 tarihli gravürü ('The Ottoman and the Venetian fleet during the Battle of Lepanto in 1571 - Camocio Giovanni Francesco - 1574.jpg', KABUL)."
+},
+
+{
+  "id": "1478-01-01-topkapi-babihumayun-photochrom",
+  "tur": "mimari",
+  "olay": [
+    "1478-01-01|Topkapı"
+  ],
+  "url": "assets/gorseller/1478-01-01-topkapi-babihumayun-photochrom.jpg",
+  "baslik": "Topkapı Sarayı, Bâbıhümâyun — photochrom, 1890-1900",
+  "gorsel_alt": "Renkli photochrom baskı: yüksek, mazgallı sur duvarında mermer çerçeveli büyük sivri kemerli kapı; kemerin içinde ve iki yandaki nişlerin üstünde yazı kitabeleri, açık kanatlı ahşap kapıdan çıkan tek bir kişi; önde yapraksız ağaçlar, fenerler ve zincirli babalar",
+  "eser": "'Imperial gate, Topkapi Palace, Constantinople, Turkey' — Library of Congress, Photochrom Print Collection, baskı no. 18461 (LCCN 2003653108)",
+  "sanatci": "bulunamadı — photochrom baskısı, fotoğrafçı adı yok (LOC)",
+  "yil": "yaklaşık 1890-1900 (LOC beyanı)",
+  "lisans": "PD-old-70-1923",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Imperial_gate,_Topkapi_Palace,_Constantinople,_Turkey_LCCN2003653108.tif",
+  "kesinlik": "donem-sonrasi-tasvir",
+  "lisans_olcum": "KABUL (0913b) · kategori PD-old-70-expired · aynı fotoğrafın .jpg kopyası (LOC 4211234276, Flickr 'no known copyright restrictions') RED — kabul kategorisi yok; .tif sürümü kullanıldı",
+  "not": "Kapının Bâbıhümâyun olduğu LOC başlığına ('Imperial gate') dayanır, ayrıca ÖLÇÜLMEDİ. 1478'deki özgün yapıyı değil kapının 19. yüzyıl sonundaki hâlini gösterir. O gün kronolojide Mengli Giray maddesi de olduğu için '|Topkapı' ayırıcısı kullanıldı."
+},
+
+{
+  "id": "1522-12-21-rodos-kusatmasi-suleymanname",
+  "tur": "madde",
+  "olay": [
+    "1522-12-21"
+  ],
+  "url": "assets/gorseller/1522-12-21-rodos-kusatmasi-suleymanname.jpg",
+  "baslik": "Rodos kuşatması — Süleymannâme minyatürü",
+  "gorsel_alt": "Minyatür: renkli geometrik desenli taş surlarla çevrili kale, mazgallarda miğferli savunucular ve bayraklar; önde tüfekli yeniçeriler kale kapısına yürüyor, sol altta siperlerde yatan askerler, sağda mavi bir tepenin üstünde beyaz büyük kavuklu atlı bir hükümdar figürü ve maiyeti",
+  "eser": "Ârifî, Süleymannâme — Topkapı Sarayı Müzesi Kütüphanesi, H. 1517, vr. 149a (Commons beyanı)",
+  "sanatci": "bulunamadı — Commons kopyaları çelişiyor: biri 'Nakkaş Osman', ötekisi 'Ârifî ve/veya Matrakçı Nasuh ve saray nakkaşları' diyor",
+  "yil": "1558 (Süleymannâme'nin tarihi, Commons'taki eş kopyanın beyanı)",
+  "lisans": "PD-US-expired / PD-old-70",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Istanbul,_Topkapi_Palace_Museum_MS_Hazine_1517_fol._149r_Suleiman_Siege_of_Rhodes_(1522)_uncropped.png",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b) · kategori PD, PD_US_expired · eş kopya 'OttomanJanissariesAndDefendingKnightsOfStJohnSiegeOfRhodes1522.jpg' de KABUL (PD-Art_(PD-old-100))",
+  "not": "Olaydan 36 yıl sonra ama AYNI padişahın devrinde yapılmış saray tasviri (mevcut Süleymannâme Mohaç kaydıyla aynı kesinlik kararı). Atlı figürün Kanûnî olduğu Commons açıklamasına dayanır. Görüntü basılı bir reprodüksiyondan taranmış görünüyor (eş kopyanın sayfası Toynbee'nin bir kitabından tarandığını yazıyor; iki kopya açılıp karşılaştırıldı, aynı sahne ve aynı renkler) — renkler aslından farklı olabilir. O gün iki madde var (olaylar.js 'Rodos'un fethi' · kronoloji_rodos_sovalyeleri teslim), ikisi de aynı olay — ayırıcısız."
+},
+
+{
+  "id": "1526-08-29-mohac-bamberg-1526",
+  "tur": "madde",
+  "olay": [
+    "1526-08-29"
+  ],
+  "url": "assets/gorseller/1526-08-29-mohac-bamberg-1526.jpg",
+  "baslik": "Mohaç Meydan Muharebesi — 1526 tarihli Alman haber baskısı",
+  "gorsel_alt": "Renkli ağaç baskı: iki kuşak hâlinde çarpışan zırhlı, mızraklı Hıristiyan süvari ve piyadeleri ile kılıçlı, kalkanlı Osmanlı askerleri; sağda çam ağaçları, sağ altta bir top ve kovası, üstte gotik harflerle Almanca başlık, altta dört sütun Almanca manzum metin",
+  "eser": "Des Türckischen Keysers Solymon schlacht / so mit dem König von Hungern gethan, Anno XXVI — Staatsbibliothek Bamberg, VI Ba 129 (Commons beyanı)",
+  "sanatci": "bulunamadı (anonim)",
+  "yil": "1526",
+  "lisans": "PD-Art (PD-old-100)",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:A_moh%C3%A1csi_csata_(Des_T%C3%BCrckischen_Keysers_Solymon_schlacht_-_So_mit_dem_K%C3%BCnig_von_Hungern_gethan,_Bamberg,_1526).jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b) · kategori PD-Art, PD-Art_(PD-old-100), PD-old",
+  "not": "Savaşla aynı yıl Almanya'da basılmış bir haber baskısı; sahne ayrıntıları bir TANIKLIK değil, kalıplaşmış bir savaş tasviridir. Commons'un kaynağı Macar Bilimler Akademisi haberi (mta.hu); Bamberg kütüphanesi kaydıyla ayrıca DOĞRULANMADI. O gün üç madde var (olaylar.js · kronoloji_habsburg · kronoloji_macaristan), üçü de Mohaç — ayırıcısız. Süleymannâme Mohaç minyatürü zaten Kanûnî albümünde (1520-09-30'a bağlı) olduğu için tekrar edilmedi."
+},
+
+{
+  "id": "1529-09-27-viyana-kusatmasi-beham",
+  "tur": "madde",
+  "olay": [
+    "1529-09",
+    "1529-09-27"
+  ],
+  "url": "assets/gorseller/1529-09-27-viyana-kusatmasi-beham.jpg",
+  "baslik": "I. Viyana Kuşatması — Barthel Beham'ın çağdaş tasviri",
+  "gorsel_alt": "Siyah-beyaz tasvir: arka planda nehir kıyısında surlu Viyana ve yüksek katedral kulesi, orta planda ordugâh çadırları ve atlılar; ön planda Osmanlı ordugâhı — sivri çadırlar, toplar, yüklü develer, çarpışan askerler ve merdivenle saldırılan bir kilise; üst kenarda silik bir başlık, sağ altta ressam imzası",
+  "eser": "Erste Wiener Türkenbelagerung — Wien Museum, MMW 097022 (Commons beyanı)",
+  "sanatci": "Barthel (Bartholomäus) Beham (1502-1540)",
+  "yil": "1529 civarı — Commons 'zeitgenössisch' (çağdaş) diyor, kesin yıl yok",
+  "lisans": "PD-Art (PD-old-auto-expired)",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Siegeofvienna1529.jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b) · kategori PD-Art, PD-Art_(PD-old-auto-expired), PD-old, PD-old-100-expired",
+  "not": "Tarama basılı bir reprodüksiyondan alınmış (raster/noktalı doku, düşük kalite). 🔴 DOSYA ADI TUZAĞI: ilk seçilen 'View of the siege of Vienna, 1529.jpg' (Newberry Library, Agostino de Musis) indirilip AÇILINCA altındaki metnin 'nel anno MDXXXII del mese di settembre' dediği görüldü — 1529 kuşatmasını değil 1532 seferini gösteriyor; o dosya assets'ten SİLİNDİ, kullanılmadı. Meldeman'ın 1530 tarihli çevre planı ve Beham'ın öteki küçük kopyası lisans aletinde RED (kabul kategorisi yok). İki madde de (olaylar.js '1529-09' · kronoloji_habsburg '1529-09-27') aynı kuşatma."
+}
+
 ];

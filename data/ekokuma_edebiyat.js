@@ -77,7 +77,7 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"Leylâ vü Mecnûn, Fuzûlî tarafından 1535'te, Kanûnî'nin Bağdat seferine katılan İstanbullu şairlerin isteği üzerine yazılıp tamamlandı. Arap yarımadasının eski bir aşk efsanesini işleyen eser, klasik Türk edebiyatının en güzel mesnevilerinden sayılır.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
-    kesinlik:"kesin", olay:["1535-01-01"],
+    kesinlik:"kesin", olay:["1535-01-01|Leylâ"],  // PAKET-A2 13 Eyl: 1535-01-01'de Tigre ve Çitor maddeleri de vardı
     kaynak:"TDV İslâm Ansiklopedisi, \"Fuzûlî\" (Abdülkadir Karahan, 1996) — https://islamansiklopedisi.org.tr/fuzuli" },
 
   { id:"nedim-lale-devri", tur:"edebiyat",

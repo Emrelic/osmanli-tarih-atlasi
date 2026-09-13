@@ -124,7 +124,7 @@ window.EKOKUMA = [
 // KAYNAK: her kart TDV gövdesi OKUNARAK yazıldı; madde numaraları TDV'nin
 // kendi verdiği numaralardır. Uydurulmuş tek bir hüküm yoktur.
 
-{ id:"antlasma-karlofca-1699", tur:"antlasma", olay:["1699-01-26","1703-01-01"],
+{ id:"antlasma-karlofca-1699", tur:"antlasma", olay:["1699-01-26","1703-01-01|Yenikale"],  // PAKET-A2 13 Eyl: 1703-01-01'de ilgisiz 'Rákóczi ayaklanması' maddesi de vardı
   metin:"Macaristan cephesi: Tımışvar (Banat) eyaleti dışında Erdel dâhil bütün Macaristan Avusturya'ya bırakıldı. Sınır, Tisa nehrinin Tuna'ya döküldüğü yerden Bossut suyunun Sava'ya karıştığı yere kadar düz bir çizgi olarak kabul edildi; Baçka tarafları Avusturya'da kaldı, Titel bölgesi eski hâline bırakıldı. Avusturya, Osmanlı safında savaşan İmre Tököli ve mensuplarının Macar sınırlarından çekilmesini istedi; Râmi Mehmed Efendi bunu, Macaristan'da kalan taraftar ve akrabalarının serbestçe Osmanlı ülkesine geçebilmesi şartıyla kabul etti. Rusya cephesi: Azak ve çevresi Rusya'ya bırakıldı; buna karşılık Osmanlı hükümeti Karadeniz'in emniyeti için Kerç Boğazı'nda Yenikale'yi inşa ettirdi. 🔴 Ve bir talep REDDEDİLDİ: Rus elçisinin Karadeniz'de ticaret gemilerine serbest dolaşım isteği kabul edilmedi — aynı hak yetmiş beş yıl sonra Küçük Kaynarca'da verilecekti.",
   kesinlik:"kesin",
   kaynak:"TDV: karlofca (gövde okundu)" },

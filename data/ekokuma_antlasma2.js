@@ -173,7 +173,10 @@ window.EKOKUMA_ANTLASMA2 = [
   metin: "Maçin bozgunundan (9 Temmuz 1791) sonra ordugâhta toplanan sivil ve asker ileri gelenler ordunun savaşacak gücü kalmadığını kabul etti ve barıştan yana bir mazbata mühürledi. TDV bunu Osmanlı tarihinde emsali olmayan, ordunun savaşmayı reddetmesi anlamında bir 'boykot' diye niteler; savaşın sürmesini isteyen III. Selim'e barıştan başka seçenek bırakılmadı. Avrupa'daki gelişmeler de etkiliydi: İngiltere Özi'nin Rusya'da kalmasına savaş tehdidine varan bir sertlikle karşı çıkmış, Fransız İhtilâli'nin monarşiler için yarattığı tehlike II. Katerina'yı Türk savaşını bitirmeye itmişti. Barıştan sonra karşılıklı gönderilen büyük elçilik heyetleri, bu geleneğin son örneği oldu.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1783-04-19", "1787-08-17", "1792-01-10", "1792-06-01"],
+  // PAKET-A2 13 Eyl (D181): "1787-08-17" → "1787-08-16". PAKET-A3 aynı gün olaylar_ek5.js'teki savaş
+  // ilanı maddesini TDV yas-antlasmasi'na göre 16 Ağustos'a çekti (0035/H-0090); bu bağ SESSİZCE koptu
+  // ve yalnız ARAC-A2-BAG-0913.js --hepsi yakaladı ("o gün evrende madde YOK"). sebep.t zaten 16'ydı.
+  olay: ["1783-04-19", "1787-08-16", "1792-01-10", "1792-06-01"],
   kaynak: "TDV: yas-antlasmasi"
 },
 
@@ -231,7 +234,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin: "Rus ordusu 22 Ağustos 1829'da direnişle karşılaşmadan Edirne'ye girdi, Kırklareli ve Lüleburgaz'ı da işgal etti; Rus gemileri İstanbul Boğazı'na saldırırken bir filo da Çanakkale Boğazı'nı ablukaya aldı. Prusya'nın arabuluculuğuyla Edirne'ye giden Osmanlı delegeleri, ticaret tazminatındaki küçük bir değişiklik dışında Rus şartlarını hafifletemedi. Yük sonradan azaltıldı: 1830'da tazminat 8 milyon Felemenk altınına indirildi ve Yunanistan'ın tam bağımsızlığının kabulü şartıyla 1 milyon daha silindi; 1834 Ocağında 5 milyona düşürüldü. Tazminata bağlanan Rus çekilmesi Eflak-Boğdan'dan ancak 1834'te, Silistre'den 8 Nisan 1836 sözleşmesiyle gerçekleşti.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1821-03-25", "1827-07-06", "1827-10-20", "1828-04-26", "1829-09-14", "1830-02-03", "1834-01-01"],
+  olay: ["1821-03-25", "1827-07-06", "1827-10-20", "1828-04-26", "1829-09-14", "1830-02-03", "1834-01-01|Eflak"],  // PAKET-A2 13 Eyl: 1834-01-01'de 6 madde (Zollverein, Ladakh…), yalnız Eflak-Boğdan çekilmesi ilgili
   kaynak: "TDV: edirne-antlasmasi"
 },
 
@@ -262,6 +265,123 @@ window.EKOKUMA_ANTLASMA2 = [
   zincir: [],
   olay: ["1853-10-04", "1856-02-18", "1856-03-30", "1877-04-24", "1878-07-13"],
   kaynak: "TDV: paris-antlasmasi"
+},
+
+// ══ PAKET-A2 (13 Eylül 2026) · paket 0045 H-0009 — ANTLAŞMA KARTLARI, DALGA 3 ═════════
+// Rapor: denetim/PAKET-A2-EKOKUMA-0913.md. Telif: denetim/ARAC-A2-KOPYA-0913.js.
+{
+  "id": "antlasma-istanbul-1700",
+  "tur": "antlasma",
+  "olay": [
+    "1700-07-14"
+  ],
+  "metin": "Karlofça'da Rusya ile kalıcı barış yapılamamış, yalnız iki yıllık, beş maddelik bir mütareke imzalanabilmişti (24 Ocak 1699): Râmi Mehmed Efendi Azak'ı bırakmaya razıydı ama Dinyeper ağzındaki kalelerin boşaltılmasını istiyordu, Rus elçisi ise tam yetkili olmadığını söylüyordu. Görüşmeler birkaç ay sonra İstanbul'da aynı Osmanlı heyeti ile Rus elçisi Ukrayntsev arasında sürdü; TDV karlofca maddesine göre on dört maddelik antlaşma 27 Muharrem 1112 / 14 Temmuz 1700'de imzalandı. TDV maddeleri tek tek saymaz; bildirdiği esaslar: ① Azak Kalesi Rusya'ya bırakıldı. ② Toprak meselelerinde genellikle Osmanlı istekleri kabul edildi. ③ Kırımlıların Rusya'ya akın yapmaması ve vergi talepleri konusunda Rus istekleri kabul edildi. ④ Rusya İstanbul'da elçi seviyesinde bir sefir bulundurma hakkı elde etti. ⑤ Rus elçisinin, ticaret gemilerinin Karadeniz'de serbestçe dolaşması talebi reddedildi. Osmanlı hükümeti antlaşmadan sonra, Rusya'ya bırakılan Azak'a karşı Karadeniz'in güvenliği için Kerç Boğazı'nda Yenikale'yi inşa ettirdi; bu bir antlaşma hükmü değil, sonrasında alınmış bir tedbirdir. TDV rusya maddesi imza gününü 13 Temmuz 1700 olarak verir; karlofca maddesinin hicrî tarihli kaydı 14 Temmuz'dur.",
+  "kesinlik": "kesin",
+  "kaynak": "TDV: karlofca (gövde okundu, HTTP 200) · azak (gövde okundu, HTTP 200) · mustafa-ii (gövde okundu, HTTP 200) · rusya (gövde okundu, HTTP 200 — gün 13 Temmuz) · ölü: istanbul-antlasmasi (302), istanbul-antlasmasi-1700 (302), karlofca-antlasmasi (302) · 14 maddenin tam listesi: bulunamadı (TDV Râşid, II, 494-502'yi gösteriyor)"
+},
+
+{
+  "id": "antlasma-ferhad-pasa-istanbul-1590",
+  "tur": "antlasma",
+  "olay": [
+    "1590-03-21",
+    "1590-01-01|Luristan"
+  ],
+  "metin": "TDV'de Ferhad Paşa Antlaşması'nın müstakil maddesi yoktur; hükümleri Safevîler, III. Murad, Luristan ve Ferhad Paşa maddelerinden toplanır. Luristan maddesi onu '998'de (1590) İstanbul'da yapılan antlaşma' diye anar. Gence'nin 1 Eylül 1588'de Osmanlı eline geçmesi ve yeni şah I. Abbas'ın iç karışıklıklarla uğraşması barışı gündeme getirdi; şah, Haydar Mirza başkanlığında kalabalık bir elçilik heyetini İstanbul'a yolladı (TDV murad-iii tarih olarak 11 Rebîülevvel 998 / 18 Ocak 1590'ı verir), serdar Ferhad Paşa da heyetle birlikte dönerek anlaşmada rol oynadı. Esaslar: ① Savaş boyunca alınan topraklar Osmanlı'da kaldı. TDV'nin Safevîler maddesindeki listeyi bölge bölge toplarsak: Kafkasya'da Gürcistan, Dağıstan, Şirvan ve Karabağ ile Gence; Azerbaycan'da Tebriz ve Karacadağ; batı İran ve Irak tarafında Luristan, Nihâvend, Kürdistan, Şehrizor ve Bağdat. ② Osmanlı tarafı, İran'daki hutbelerde ilk üç halifenin lânetle anılmasına son verilmesini şart olarak kabul ettirdi. ③ 1578'de başlayan uzun ve yıpratıcı savaş böylece sona erdi. Batı cephesi güvenceye kavuşan Şah Abbas doğuda Özbeklere yöneldi. Kazanımlar kalıcı olmadı: Luristan'ı Abbas 1603'te yeniden bağladı, Tebriz 21 Ekim 1603'te, Gence 1606'da, Şirvan ve Gürcistan 1608'de Safevîlere geçti. Bağlı maddelerin taşıdığı 21 Mart 1590 günü okunan TDV maddelerinde bulunamadı; TDV yalnız yılı (998/1590) verir.",
+  "kesinlik": "kesin",
+  "kaynak": "TDV: safeviler (gövde okundu, HTTP 200) · murad-iii (gövde okundu, HTTP 200) · luristan (gövde okundu, HTTP 200) · ferhad-pasa (gövde okundu, HTTP 200) · tebriz (gövde okundu, HTTP 200) · gence (HTTP 200, 1590 hükmü gövdede yok) · ölü: ferhad-pasa-antlasmasi (302) · 21 Mart 1590 günü: bulunamadı"
+},
+
+{
+  "id": "antlasma-prut-1711",
+  "tur": "antlasma",
+  "olay": [
+    "1711-07-21|Azak ve Taygan"
+  ],
+  "metin": "Prut Antlaşması'nın özgün Türkçe metni mevcut değildir; TDV, Nâme-i Hümâyûn Defteri'ndeki kaydın yedi hususa vurgu yaptığını, Rusça metnin de özgün olmayan, yedi madde hâlinde bir kopya olduğunu belirtir. Belge, asıl barışın İstanbul'da yapılacağını söyleyen, mütareke niteliğinde bir temessüktür ('Prut Amannâmesi'); 21 Temmuz 1711'de imzalandı, 22 Temmuz'da çarca onaylandı, 23 Temmuz'da teati edildi. Hükümler: ① Rusya Azak Kalesi'ni çevresi ve cephanesiyle birlikte geri verecekti. Taygan ile Kamenka kaleleri ve Samara ırmağı kıyısına kurulan Yenikale yerle bir edilecek, Kamenka'daki toplar ve cephane Osmanlı'ya bırakılacak; iki taraf da bu yerlerde bir daha kale kurmayacaktı. ② Lehistan'a, bu devlete ve Kırım'a tâbi Kazaklara müdahale edilmeyecekti. ③ Tüccarlar karadan ve denizden İstanbul'a gelip gidebilecek, ancak elçi sıfatıyla kimse ikamet etmeyecekti. ④ Müslüman esirler serbest bırakılacaktı. ⑤ İsveç kralının güvenle ülkesine dönmesine engel olunmayacaktı. ⑥ İki taraf birbirinin ahalisine zarar vermeyecekti. Ayrıca Rus ordusunun serbestçe çekilip yolda Tatar ve İsveç saldırılarından korunması, Şafirov ile Mihail Şeremetyev'in şartlar yerine gelene kadar rehin kalması öngörüldü. İki metin arasında fark vardı: Türkçe metin Lehistan'a müdahaleyi Rusya'ya yasaklarken Rusça metin bunu iki devlete teşmil ediyordu. Rus toplarının ve Azak donanmasının teslimi, Kantemir'in iadesi, savaş tazminatı gibi istenmesi düşünülen şartlar temessüke girmedi.",
+  "kesinlik": "kesin",
+  "kaynak": "TDV: prut-antlasmasi (gövde okundu, HTTP 200) · ölü: prut-savasi (302), prut (302)"
+},
+
+{
+  "id": "antlasma-hunkar-iskelesi-1833",
+  "tur": "antlasma",
+  "olay": [
+    "1833-07-08"
+  ],
+  "metin": "Mehmed Ali Paşa'nın kuvvetleri Konya'da Osmanlı ordusunu yenip (21 Aralık 1832) Kütahya'ya kadar gelince, İngiltere'yi yanına çekemeyen Bâbıâli Rus yardımını kabul etti; Rus filosu 20 Şubat 1833'te Büyükdere önlerine demirledi, 5 Nisan'da 5000 kişilik bir kuvvet Beykoz'da karaya çıkıp Hünkâr İskelesi'nde karargâh kurdu. Çarın olağanüstü elçisi Orlov'un teklif ettiği savunma ittifakı, Serasker Hüsrev Paşa'nın Emirgân'daki yalısında 8 Temmuz 1833'te imzalandı. Sekiz yıl geçerli, biri gizli yedi maddeydi: ① İki devlet arasında 'ebedî sulh ve ittifak' kuruldu; ittifak yalnız saldırıya karşı korunma amacı taşıyordu. ② 14 Eylül 1829 Edirne Antlaşması ve ona dahil önceki antlaşmalar, 26 Nisan 1830 Petersburg senedi ve 1832 Yunanistan tanzimnâmesi aynen onaylandı. ③ Rusya, yeniden ihtiyaç duyulursa gereken kara ve deniz kuvvetini göndermeyi taahhüt etti; bu kuvvetlerin sevk ve idaresi Bâbıâli'de olacaktı. ④ Yardım gören taraf gelen kuvvetlerin iaşe masrafını da üstlenecekti. ⑤ Antlaşma sekiz yıl geçerli olacak, süre sonunda yenilenmesi yeniden görüşülecekti. ⑥ Onay iki ay içinde yapılacak, tasdiknameler İstanbul'da değiştirilecekti. ⑦ Gizli madde: Rusya, askerî yardımın ağır yükü yerine Osmanlı'nın Çanakkale Boğazı'nı kendi lehine kapatmasını ve hiçbir yabancı geminin geçişine izin vermemesini kabul ettirdi. Gizli madde duyulunca İngiltere ve Fransa protesto edip donanmalarını Çanakkale önlerine gönderdi. TDV, Bâbıâli'nin bir ölçüde Rus korumacılığına girdiğini kabul eder, ama bunu vasallığa indirgemeyi abartı sayar. Süresi dolan antlaşma yenilenmedi; yerine 13 Temmuz 1841 Londra Boğazlar Mukavelenâmesi geldi.",
+  "kesinlik": "kesin",
+  "kaynak": "TDV: hunkar-iskelesi-antlasmasi (gövde okundu, HTTP 200) · ölü: hunkar-iskelesi (302)"
+},
+
+{
+  "id": "antlasma-ayastefanos-1878",
+  "tur": "antlasma",
+  "olay": [
+    "1878-03-03",
+    "1878-01-31"
+  ],
+  "metin": "93 Harbi'nde Rus orduları doğuda Erzurum'a, batıda İstanbul önlerine gelince Bâbıâli 31 Ocak 1878'de Edirne Mütarekesi'ni imzaladı. Osmanlı adına Hariciye Nâzırı Safvet Paşa ile Berlin sefiri Sâdullah Bey'in, Rusya adına İgnatyev ile Nelidof'un yürüttüğü görüşmeler sonunda 3 Mart 1878'de Ayastefanos'ta yirmi dokuz maddelik antlaşma imzalandı. Başlıca hükümler: ① Romanya, Karadağ ve Sırbistan bağımsız devlet olarak tanındı; Karadağ'ın toprakları Adriyatik kıyısına ulaşacak, Niş Sırbistan'a geçecekti. ② Besarabya Romanya'dan Rusya'ya geçecek, bunun karşılığı olarak Dobruca Romanya'ya bırakılacaktı. ③ Bulgaristan, Tuna'dan Ege'ye, Arnavutluk'tan Karadeniz'e uzanan, Osmanlı'ya bağlı özerk bir prenslik olacaktı; prensini halk serbestçe seçecek, Avrupa devletleri onaylayacak, Osmanlı tasdik edecek, prens Avrupa hânedanlarından olmayacaktı. ④ Bosna-Hersek'te, Rumeli'nin Hristiyan bölgelerinde ve Doğu Anadolu'da Ermenilerin yaşadığı yerlerde Rusya ve Avusturya denetiminde ıslahat yapılacak; Girit'te 1868 nizamnâmesi uygulanacaktı. ⑤ Osmanlı'ya 1.410.000.000 rublelik savaş tazminatı yüklendi. Borcun büyük bölümü toprakla kapatılacaktı: Rumeli'den bazı yerler ile Kars, Ardahan, Batum ve Doğubayazıt Rusya'ya geçecekti. Tazminattan geriye 300.000.000 ruble kalıyordu; o da nakden kapatılacaktı. ⑥ Rus ordusu, Bulgaristan bu hükmün dışında tutularak, Rumeli'den üç ay, Doğu Anadolu'dan altı ay içinde çekilecekti. ⑦ Rus tebaası savaş öncesindeki gibi ticaret yapabilecek, Rus konsoloslukları onları resmen himaye edebilecekti. TDV antlaşmayı panslavizm siyasetinin zaferi sayar; dengeyi tek taraflı bozduğu için başta İngiltere itiraz etti ve hükümler 13 Haziran 1878'de toplanan Berlin Kongresi'nde yeniden ele alınıp değiştirildi.",
+  "kesinlik": "kesin",
+  "kaynak": "TDV: ayastefanos-antlasmasi (gövde okundu, HTTP 200) · ölü: ayastefanos (302)"
+},
+
+{
+  "id": "antlasma-mondros-1918",
+  "tur": "antlasma",
+  "olay": [
+    "1918-10-30|Mondros Mütarekesi"
+  ],
+  "metin": "Bulgaristan'ın 29 Eylül 1918'de ateşkes imzalayıp savaştan çekilmesiyle Osmanlı'nın müttefikleriyle kara bağlantısı koptu. Ahmed İzzet Paşa hükümetinin barış teklifi Amiral Calthorpe'a iletildi; Bahriye Nâzırı Rauf Bey başkanlığındaki heyet, Limni'nin Mondros Limanı'ndaki Agamemnon zırhlısında dört günlük görüşmeden sonra 30 Ekim 1918'de Calthorpe'un dikte ettirdiği metni imzaladı. Başlıca hükümler: ① Sınırların korunması ve iç güvenlik için gerekenden fazla asker derhal terhis edilecekti. ② Osmanlı donanması elinde yalnız kıyı güvenliğine yetecek küçük gemileri tutacak, geri kalan savaş gemilerini İtilâf devletlerine bırakacaktı. ③ Arap vilayetlerindeki birlikler (Hicaz, Asîr, Yemen, Suriye, Irak) silah bırakacak; Trablus ile Bingazi'de bulunan Osmanlı subayları da teslim olacaktı. ④ Boğazlar serbest geçişe açılacak; Türk sularındaki torpil tarlalarının yerleri gösterilip temizlenmesine yardım edilecekti. ⑤ Resmî kullanım dışındaki telsiz, telgraf ve telefon haberleşmesi İtilâf memurlarınca denetlenecekti. ⑥ Demiryolları ve limanlar İtilâf kuvvetlerine açılacak, Toros tünelleri işgal edilecekti. ⑦ Osmanlı, İttifak devletleriyle bütün ilişkisini kesecek; Alman ve Avusturya subay, memur ve vatandaşları ülkeyi en kısa zamanda terk edecekti. ⑧ İran'ın kuzeybatısı ve Güney Kafkasya'daki Osmanlı kuvvetleri savaş öncesi sınırlara çekilecekti. ⑨ 7. madde, müttefiklerin güvenliğini tehdit eden bir durumda herhangi bir stratejik noktanın işgaline imkân veriyordu. ⑩ 24. madde, İngilizce metinde 'Ermeni vilâyetleri' diye geçen altı vilâyette (Erzurum, Van, Harput, Diyarbakır, Sivas, Bitlis) karışıklık çıkması hâlinde İtilâf kuvvetlerine işgal hakkı tanıyordu. Birkaç gün sonra İngilizlerin 7. maddeye dayanarak Musul'u işgal etmesi kuşkuları doğruladı; Kasım 1918'den itibaren işgaller ülkenin her yanına yayıldı.",
+  "kesinlik": "kesin",
+  "kaynak": "TDV: mondros-mutarekesi (gövde okundu, HTTP 200) · ölü: mondros (302)"
+},
+
+{
+  "id": "sebep-sonuc-hunkar-iskelesi-1833",
+  "tur": "sebep-sonuc",
+  "kisa": "Mısır ordusu Kütahya'dayken Rus filosu niçin Boğaz'a girdi?",
+  "sebep": {
+    "b": "Mehmed Ali Paşa kuvvetlerinin Konya'da Osmanlı ordusunu yenip İstanbul'u tehdit etmesi; Fransa ve İngiltere'den destek bulamayan Bâbıâli'nin Rus yardımını kabulü",
+    "t": "1832-12-21"
+  },
+  "sonuc": {
+    "b": "Hünkâr İskelesi savunma ittifakı ve Çanakkale Boğazı'nın Rusya lehine kapatılmasını öngören gizli madde",
+    "t": "1833-07-08"
+  },
+  "bag": "Önemi: TDV'ye göre gizli madde Mısır meselesini devletler arası bir Boğazlar meselesine dönüştürdü; Avrupa'da krize yol açtı, Metternich'in aracılığıyla Münchengrätz Antlaşması'nı (18 Eylül 1833) doğurdu ve sekiz yıllık süre dolunca yerini 1841 Londra Boğazlar Mukavelenâmesi aldı.",
+  "metin": "İbrâhim Paşa'nın ordusu 21 Aralık 1832'de Konya'da Sadrazam Mehmed Reşid Paşa'yı yenip 2 Şubat 1833'te Kütahya'ya ulaşınca hem başşehir hem hânedan tehdit altına girdi. Bâbıâli Rusya'yı yardıma çağırırken bu daveti Fransa ve İngiltere'yi harekete geçirmek için bir koz olarak da kullanmak istedi; Rusya ise fırsat vermeden filosunu Büyükdere'ye demirletti (20 Şubat), ardından kara kuvvetlerini Beykoz'a çıkardı (5 Nisan). Kütahya görüşmeleriyle Mısır ve bütün Suriye vilayetleri ile Adana Mehmed Ali tarafına bırakıldı (ferman 6 Mayıs). Rus kuvvetleri yine de çekilmedi; Orlov'un getirdiği ittifak teklifi, yardımın ağır faturası olarak 8 Temmuz'da imzalandı ve iki gün sonra Rus filosu ile kara kuvvetleri Boğaz'dan ayrıldı. TDV, İstanbul'da Rus ittifakına duyulan infialin arkasında Mehmed Ali Paşa'nın Avrupa'da yürüttüğü propagandayı da görür.",
+  "kesinlik": "kesin",
+  "zincir": [],
+  "olay": [
+    "1832-12-21",
+    "1833-07-08",
+    "1841-07-13"
+  ],
+  "kaynak": "TDV: hunkar-iskelesi-antlasmasi (gövde okundu, HTTP 200)"
+},
+
+{
+  "id": "sebep-sonuc-mondros-1918",
+  "tur": "sebep-sonuc",
+  "kisa": "Bir mütareke niçin işgalin kapısını açtı?",
+  "sebep": {
+    "b": "Filistin-Suriye cephesinin çöküşü ve Bulgaristan'ın ateşkes imzalayıp savaştan çekilmesiyle Trakya ile İstanbul'un saldırıya açık kalması",
+    "t": "1918-09-29"
+  },
+  "sonuc": {
+    "b": "Mondros Mütarekesi: ordunun ve donanmanın dağıtılması, 7. ve 24. maddelerle İtilâf devletlerine işgal hakkı",
+    "t": "1918-10-30"
+  },
+  "bag": "Önemi: TDV Mondros'u Osmanlı Devleti'nin altı asırlık tarihinin sonunun habercisi sayar; 7. ve 24. maddelerin istismarıyla başlayan işgaller Mustafa Kemal Paşa önderliğindeki İstiklâl Savaşı'nı ve Türkiye Cumhuriyeti'nin kuruluşunu doğurdu.",
+  "metin": "19 Eylül 1918'de Filistin-Suriye cephesinde başlayan İngiliz taarruzu Osmanlı kuvvetlerini bozguna uğrattı; 29 Eylül'de Bulgaristan'ın çekilmesiyle müttefiklerle kara bağlantısı kesildi. Osmanlı'nın İspanya aracılığıyla yaptığı iki barış teklifi (5 ve 12 Ekim) cevapsız kaldı; güvensizlik oyu alan Talat Paşa hükümetinin yerine Ahmed İzzet Paşa hükümeti kuruldu (14 Ekim) ve esir İngiliz General Townshend aracılığıyla Amiral Calthorpe'a ulaşıldı. Wilson prensiplerine güvenen hükümet heyeti, yönetime karışılmaması ve ülkeye yabancı asker çıkarılmaması beklentisiyle gönderdi; imzalanan metin ise Osmanlı savunma sistemini neredeyse bütünüyle çözüyordu. İngilizlerin birkaç gün içinde 7. maddeye dayanarak Musul'u işgal etmesi kuşkuları doğruladı; İttihat ve Terakkî 1 Kasım'da kendini feshetti, Enver, Cemal ve Talat paşalar ülkeyi gizlice terk etti.",
+  "kesinlik": "kesin",
+  "zincir": [],
+  "olay": [
+    "1918-09-29",
+    "1918-10-30|Mondros Mütarekesi"
+  ],
+  "kaynak": "TDV: mondros-mutarekesi (gövde okundu, HTTP 200)"
 }
 
 ];
