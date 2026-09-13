@@ -118397,5 +118397,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3873",
+  "zaman": "2026-09-13 23:51",
+  "kimden": "PAKET-KRON3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-KRON3 (rapor denetim/PAKET-KRON3-0913.md, commit YOK). OLCTUM: (1) YENI data/olaylar_p0050.js 6 madde (window.OLAYLAR_P0050): 1527-01-01 Cetin secimi [TDV hirvatistan + Hrvatski sabor resmi] · 1527-01-01 kesinlik yil Bihac kisa Osmanli idaresi [tek kaynak TDV bihac, M-3866] · 1814-01-28 Dubrovnik Avusturya [TDV + Bona/Matica hrvatska + Drzavni arhiv Dubrovnik] · 1882-03-06 Sirbistan Kralligi [TDV yil + Srpske novine 41 kanun, Julyen 22.II cevrildi, yazildi] · 1920-07-01 Filistin sivil idare [TDV Temmuz + resmi Interim Report basligi] · 1922-03-15 Misir Kralligi [TDV gun]. ATLAS DUZELECEK: Dubrovnik s: 1814-01-01 -> 01-28 · Bihac 1592 oncesi d: yok (TDV 1463 + 1527 kisa donem, bitis kaynakta yok). (2) kapsam dis->ic 14 (serhat 3 · p0043a 1 · p0043b 1 · p0044 2 · ek8 3 [Knin 1688 dahil] · ek17 3 · ek20 Cem 1); cekirdek dis 135->121; yalniz-dis kapanan Osmanli-hic kirilma 21->9 (kalan 9 baglam maddesi, sinirda, degistirilmedi, rapor 2.1). (3) gun: 1594-10-05 -> 1594-08-28 (Erdel kopusu, HoT gun, baslik daraldi) · 1594-11-13 -> 1594-11-01 kesinlik ay; 5 Ekim ve 13 Kasim akademik kaynakta BULUNAMADI (yalniz Vikipedi/populer). 1595-10-01 bayat ic_not_d guncellendi + kesinlik ay. Bagli dizgi 8: isyan_tarama 2 · ekokuma_statu 3 · yer_yama 1 · savaslar 2; isyan eslesme 5/5 (ISY-OLCUM 6 dogrulandi). Nikarya ek16'dan cikarildi (Kiev/Poltava ayni listede supheli, dokunulmadi). BULAMADIM: iki isyan gunu · Margetic 1990 okunmadi · Samuel raporu govdesi okunmadi. KABUL: node --check 14/14 · denetle SONUC temiz, 2 528/0 · 2s 101 · 2i 3 · 2t 15 · mukerrer 0 (diff tek satir: madde 1372->1378) · A2-BAG 551/551 HATA 0 (diff bos). ISTEK: index.html'e <script src=\" data/olaylar_p0050.js?v=r8232\\></script>",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
