@@ -119536,5 +119536,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3926",
+  "zaman": "2026-09-14 01:07",
+  "kimden": "PAKET-EK-A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-EK-A TESLIM (ikinci yazim: ilk deneme push reddinde ezildi, M-3924 baskasina gecti). (1) YENI data/ekokuma_kasrisirin.js (window.EKOKUMA_KASRISIRIN) 5 kart / 16 bag: arka plan 1623-1638, Zuhab muzakere 14-17 Mayis 1639 + Kasim 1639 tasdik, sinir hukumleri (Bagdat-Basra-Sehrizor Osmanli, Revan Safevi, Kars-Ahiska-Van; tek tek kaleler 'kaynaklar ayrisir'), kalicilik (1746 Kerden, 1823/1847 Erzurum, 1843-1914 komisyonlar), tarih yazimi (TDV vs Ates 2019). (2) YENI data/ekokuma_kirimrus.js (window.EKOKUMA_KIRIMRUS) 5 kart / 18 bag: Moskova akinlari 1502-1572, pominki/tiyis hediye-harac, esir ticareti-fidye, Carlik-Sovyet yorumu (Nadinskii 1951, 1944 surgun), Ukrayna/Kirim Tatar/Turk bakislari. OLCUM: node --check 2/2 OK; ARAC-A2-BAG --hepsi 602/602 HATA 0 (arac yeni dosyalari GORUYOR, 10 kimlik listelendi), yeni uyari 5 = hepsi 1639-05-17 ayni olayin iki maddesi (olaylar.js + kronoloji_iran.js); bagimsiz sinama 34/34, eslesmesiz 0; ARAC-A2-KOPYA kopya supheli 0, olculemedi 1 (carlik-sovyet, TDV slug yok). KAYNAK: TDV kasrisirin-antlasmasi, murad-iv, kemankes-mustafa-pasa, hafiz-ahmed-pasa, safeviler, iran, erzurum, kirim, devlet-giray, giray, rusya; Ocakli PhD Toronto 2017 (tam metin), B.G. Williams JRAS 2001 (tam metin), J. Remy BRE 2019, Encyclopedia of Ukraine; Ates Iranian Studies 2019 YALNIZ OZET. OKUNMADI/konmadi: Fisher, Khodarkovsky, Davies, Williams kitabi. Iranica/Britannica 403. BULUNAMADI: 1624-26 Hafiz Ahmed ve 1630 Husrev Pasa kusatmasi maddesi yok, 1823 I. Erzurum maddesi yok, 1944 maddesi yok, sinir kalelerinin tek tek listesi yok, Iran kronikleri okunmadi. VERI BULGUSU (dokunmadim): kronoloji_safevi 1633-01-01 Erivan kaybi TDV'ye gore 1635; kronoloji_iran 1623-01-14 Bagdat geri alinmasi TDV'de yok; TDV giray/devlet-giray Astarhan 1554/1556 ayrisiyor. ISTEK: PAKET-UI3 _EKOKUMA_DOSYA_ADLARI'na 'ekokuma_kasrisirin' ve 'ekokuma_kirimrus' eklesin; index.html satiri GEREKMIYOR (ekokuma dosyalari script ile bagli degil, tembel yukleyici). Rapor: denetim/PAKET-EK-A-0914.md. Commit atilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
