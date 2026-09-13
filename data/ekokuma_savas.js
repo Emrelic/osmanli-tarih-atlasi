@@ -465,6 +465,65 @@ window.EKOKUMA_SAVAS = [
   "kaynak": "TDV: plevne-muharebeleri (gövde okundu, HTTP 200) · TDV: gazi-osman-pasa (gövde okundu, HTTP 200) · TDV: plevne (gövde okundu, HTTP 200) · ölü: plevne-muharebesi, plevne--sehir, 93-harbi, osmanli-rus-savasi-1877-1878, osman-pasa--topal (302) · osman-pasa-gazi (HTTP 200, madde gövdesi gelmedi)",
   "gorsel": null,
   "gorsel_kaynak": "aranmadı"
-}
+},
+
+// ══ PAKET-EK2 (13 Eylül 2026) · paket 0048 H-0008 KANİJE + H-0006 HAÇOVA ═══════════════
+// Kaynak: TDV `kanije` (Géza Dávid bibliyografyalı şehir maddesi) · `tiryaki-hasan-pasa` ·
+// `mehmed-iii` · `hacova-meydan-savasi` · `cigalazade-sinan-pasa` · `celali-isyanlari`
+// (hepsi 13 Eylül'de çekildi, HTTP 200, gövde okundu). Ölü: `kanije-muhasarasi` denenmedi —
+// şehir ve kişi maddesi yetti. Haçova: A2'nin `savas-hacova-1596` kartı muharebeyi anlatıyor;
+// buradaki kart YALNIZ yoklama → firari → Celâlî tartışmasını işler, akışı tekrarlamaz.
+// `kaynak` alanı son kullanıcıya görünür; çalışma notları bu yorumda durur.
+{
+  "id": "savas-kanije-1601",
+  "tur": "savas-hikayesi",
+  "baslik": "Kanije Savunması (10 Eylül – 18 Kasım 1601)",
+  "kisa": "Bir yıl önce alınmış, surları henüz onarılmamış bir sınır kalesi; yardım gelmeyen bir garnizon ve yetmiş gün sonra kuşatmayı kaldırıp çekilen kalabalık bir Habsburg ordusu.",
+  "tarih_metin": "9-10 Eylül 1601 Habsburg ordusunun kale önüne gelişi · 17-18 Kasım 1601 kuşatmanın kaldırılışı (22 Cemâziyelevvel 1010)",
+  "yer": "Kanije (Nagykanizsa), Batı Macaristan, Transdanubya",
+  "taraflar": [
+    {
+      "ad": "Kanije'deki Osmanlı kuvvetleri",
+      "komutan": "Kanije Beylerbeyi Tiryâkî Hasan Paşa · kethüdâsı İskender Bey",
+      "kuvvet": "9000 kişi (TDV `tiryaki-hasan-pasa`)"
+    },
+    {
+      "ad": "Habsburg ordusu ve müttefikleri",
+      "komutan": "Prens (Arşidük) Ferdinand",
+      "kuvvet": "bulunamadı — okunan kaynaklar yalnız 'kalabalık' diyor"
+    }
+  ],
+  "oncesi": "Kanije, Macar Kanizsai ailesinin iki yüzyıl elinde tuttuğu, XIII. yüzyıl sonunda yapılmış bir kaleydi. 1566'da hemen yakınındaki Sigetvar Osmanlılara geçince önemi birden arttı: kale doğrudan Habsburg kralına devredildi, bölgenin ünlü Macar komutanı György Thury buraya atandı ve kaleye iki yeni 'İtalyan tipi' burç eklendi. Uzun Harp sırasında Sadrazam Damad İbrâhim Paşa 1600 yazında Macaristan'a geldi. O sırada görevsiz olup Peçuy'da oturan Tiryâkî Hasan Paşa orduya katıldı; Ösek'teki savaş meclisinde (22 Ağustos 1600) önce Bobofça'nın, Bobofça vire ile teslim olunca (5 Eylül) Kanije'nin alınmasını savundu. Kale kırk günden fazla direndi ve anlaşmayla teslim oldu (20 ya da 22 Ekim 1600). Serbestçe çıkan Avusturyalı komutan Georg Paradeiser, kaleyi teslim ettiği için kendi tarafınca ölüme mahkûm edildi. Kanije hemen Sigetvar ve Peçuy'un bağlandığı yeni bir eyaletin merkezi yapıldı. Tiryâkî Hasan Paşa kış sonunda Belgrad'a gidip kendini buraya beylerbeyi atattı; yeni görevine geldiğinde Damad İbrâhim Paşa'nın öldüğü haberini aldı (10 Temmuz 1601). Kethüdâsını Belgrad'a yollayıp yeni serdarın Kanije'yi ihmal etmemesini ve askerle güçlendirmesini rica etti.",
+  "akis": "Habsburg birlikleri 9 Eylül 1601'de kale önüne geldi. Hasan Paşa elindeki kuvvetle kalabalık orduya karşı direndi ve düşmanın genel hücumlarını geri püskürttü. Beklenen yardım gelmedi; kuşatma uzadıkça savunma giderek zorlaştı. Güz ilerleyip hava şartları kötüleşince bu kez kuşatan taraf sıkıştı. Hasan Paşa bu anı değerlendirerek kaleden bir çıkış harekâtı (huruç) yaptırdı ve Habsburg birliklerini ağır biçimde sarstı. Kayıpların büyüklüğü karargâhta bozgun havası yarattı ve Ferdinand'ın ordusu kuşatmayı kaldırıp çekildi. Yetmiş gün süren kuşatma böylece bir Osmanlı zaferiyle kapandı.",
+  "sonuc": "Haber İstanbul'da büyük yankı uyandırdı. III. Mehmed Hasan Paşa'ya vezirlik hasları bağladı; üç değerli hil'at, kılıç ve üç at gönderdi. Paşayı ve bütün gazileri kutlayan hatt-ı hümâyununda onu 'ihtiyar kulum' ve 'müdebbir vezirim' diye andı. Hasan Paşa hemen kaleyi onarttı: top gülleleriyle yıkılan duvarlar eskisinden kalın yapıldı, yeni bir minare ve mescid, beylerbeyi sarayı ve cephane binası eklendi. Kuşatmacılardan ele geçen topların kalede bırakılmayıp Belgrad'a, mümkünse İstanbul'a götürülmesini, çünkü Boğaz'daki törenlerde kullanılacak kalitede olduklarını önerdi. Savunma serhad askeri için uzun süre bir moral kaynağı olarak anıldı. Kanije doksan yıl Osmanlı elinde kaldı: 1690'da 60.000 kişilik bir Habsburg ordusunun sıkı ablukası altında, hiçbir yerden yardım alamayan muhafızlar vire ile teslim oldu.",
+  "tartisma": "① Günler iki TDV maddesinde farklı: `kanije` teslimi 20 Ekim 1600, kuşatmayı 10 Eylül – 17 Kasım 1601 olarak veriyor; `tiryaki-hasan-pasa` ve `mehmed-iii` teslimi 22 Ekim 1600 (13 Rebîülâhir 1009), kuşatmanın kaldırılışını 18 Kasım 1601 (22 Cemâziyelevvel 1010) olarak veriyor; ordunun kale önüne gelişi de 9 Eylül. ② Kanije'nin ilk beylerbeyi: `kanije` maddesi ilk atanan Hasan Paşa'nın Tiryâkî ile aynı kişi olup olmadığının rivayet çelişkileri yüzünden anlaşılamadığını söylüyor; `tiryaki-hasan-pasa` ilk atamayı Alacaetli Arnavut Hasan Paşa'ya veriyor ve Tiryâkî'nin sonradan atandığını anlatıyor. ③ Garnizonun büyüklüğü: `tiryaki-hasan-pasa` 9000 kişi diyor; Kanije Kalesi'nin olağan muhafız kadrosu ise `kanije` maddesine göre 1400 kadardı. ④ Savunma Osmanlı tarihlerinde türlü rivayetlerle ve destansı bir üslupla anlatılır (Peçuylu); gazavatnâmelerdeki kahramanlık sahneleri bu kartta kullanılmadı. ⑤ Çağdaşı Edirneli Mehmed paşayı olumsuz sıfatlarla anar; dönemin öteki müellifleri cesaretini, sabrını ve titizliğini över.",
+  "kesinlik": "kesin",
+  "olay": [
+    "1600-10-20|Kanije",
+    "1601-09-10|Kanije"
+  ],
+  "kaynak": "TDV: kanije · TDV: tiryaki-hasan-pasa · TDV: mehmed-iii",
+  "gorsel": null,
+  "gorsel_kaynak": "aranmadı"
+},
+
+{ id:"kahramanlik-kanije-destani", tur:"kahramanlik",
+  baslik:"Kanije müdafaası nasıl bir destana dönüştü?",
+  kisa:"Bir sınır kalesinin yetmiş günlük direnişi önce gazavatnâmelere, sonra Nâmık Kemal'in kaleminden bir kitaba, oradan XX. yüzyılın gazete tefrikalarına geçti.",
+  metin:"Eski Türk edebiyatında Kanije üzerine yazılan ilk eserler, Tiryâkî Hasan Paşa'nın savunmasını anlatan gazavatnâmelerdir. Bunların çoğu müellifi bilinmeyen mensur metinlerdir ve genellikle 'Gazavât-ı Tiryâkî Hasan Paşa' adını taşır. Yazarı bilinenler arasında Ahmed b. Osman b. Sânî'nin 'Menâkıb-ı Tiryâkî Hasan Paşa'sı, Câfer İyânî'nin 'Cihâdnâme-i Hasan Paşa'sı ve 1600 seferine baştezkireci olarak katılmış olan tarihçi Hasanbeyzâde Ahmed Paşa'nın 'Kanije Fetihnâmesi' vardır.\n\nMuhtemelen Kafzâde Fâizî'ye ait 'Hasenât-ı Hasan', Nâmık Kemal'in 'Kanije' adlı kitabının aslını oluşturdu. Eser önce Ahmed Nâfiz takma adıyla (h. 1290), sonra Nâmık Kemal adıyla (h. 1303) basıldı; Hakkı Tarık Us 1941'de sadeleştirip Vakit gazetesinde tefrika etti ve 'Nâmık Kemal'in Kanije Muhasarası' adıyla kitaplaştırdı. Vahit Çabuk da gazavatnâmelerden birini sadeleştirerek 'Tiryaki Hasan Paşa'nın Gazaları ve Kanije Savunması' adıyla yayımladı (1978).\n\nİstanbul'un tepkisi de destanın parçasıdır: padişah kutlama hatt-ı hümâyununda paşayı 'ihtiyar kulum' ve 'müdebbir vezirim' diye andı, gazilerin hepsini kutladı. Bugün Nagykanizsa'da doksan yıllık Osmanlı dönemini hatırlatan tek eser, kaleyi 1690'da teslim eden son vali Mustafa Paşa'nın bir kiliseye yerleştirilmiş mezar taşıdır.",
+  not:"Gazavatnâme ve roman anlatıları, çağdaş kroniklerle karşılaştırılmadan olgu sayılmamalıdır; TDV bu anlatıların destansı bir üslupla ve türlü rivayetlerle aktarıldığını belirtir.",
+  kesinlik:"kesin",
+  olay:["1601-09-10|Kanije","1690-04-13|Kanije"],
+  kaynak:"TDV: kanije · TDV: tiryaki-hasan-pasa" },
+
+{ id:"tartisma-hacova-firarileri-celali", tur:"tartisma",
+  baslik:"Haçova'dan kaçanlar Celâlî mi oldu? — bir yoklamanın bedeli",
+  kisa:"Zaferin ertesi günü yeni sadrazam orduyu saydırdı ve yerinde olmayan 30.000 kişinin dirliğini kesti. Bu kararın Anadolu'yu ateşe verip vermediği hâlâ tartışılır.",
+  metin:"Haçova zaferinin ertesi günü (27 Ekim 1596) vezîriâzamlığa getirilen Cigalazâde Sinan Paşa, tımar sahipleri ve maaşlı askerler arasında bir yoklama yaptırdı. Savaştan kaçtığı ya da savaşa hiç katılmadığı belirlenen 30.000 kişinin dirlikleri ve ulûfeleri kesildi, bunlar ağır cezalara çarptırıldı. Karar çok eleştirildi; Cigalazâde bir buçuk ay kadar sonra sadaretten alındı. Geçim kaynağını yitiren askerlerin ne yaptığı konusunda TDV'nin maddeleri iki farklı vurgu yapar.\n\nGörüş 1 — Kıvılcım: TDV'nin Haçova Meydan Savaşı ve Cigalazâde Sinan Paşa maddeleri, dirliği kesilen askerlerin Anadolu'da Celâlî gruplarına katılarak karışıklıkları büyüttüğünü yazar. Bu okumaya göre yoklama, zaten gergin olan Anadolu'ya binlerce silahlı ve öfkeli adam gönderdi.\n\nGörüş 2 — Hızlandırıcı, kök sebep değil: TDV'nin Celâlî İsyanları maddesi (Müctebâ İlgürel) de kaçanların Karayazıcı Abdülhalim'in yanındaki âsilerin sayısını artırdığını kabul eder; ama bazı kaynakların Celâlî isyanlarını doğrudan bu cezalandırmaya bağlamasını doğru bulmaz. Ona göre on binlerce insanın âsi olmasının sebebi başıboş leventlerde, mağdur sipahilerde, işsiz suhtelerde ve sahipsiz köylüde aranmalıdır; Celâlî adı zaten 1519'dan beri kullanılıyordu.",
+  bag:"İki görüş çelişmez, ölçek konusunda ayrışır: biri yoklamayı yangını tutuşturan kıvılcım, öteki zaten yanan bir ateşe dökülen yakıt gibi görür. Kesin olan, Haçova'nın askerî zaferinin Anadolu'da bir iç güvenlik bedeli doğurduğudur; zafer 1606'ya kadar süren savaşın gidişini de değiştirmedi.",
+  not:"Zaferden sonra Cigalazâde'nin, Eğri'ye gelmeyip savaşa az kuvvet gönderen Kırım Hanı Gazi Giray'ı azlettirmesi de rakiplerince aleyhine kullanıldı.",
+  kesinlik:"tartismali",
+  olay:["1596-10|Haçova","1596-10-26|Haçova bozgunu","1599-06-01|Karayazıcı"],
+  kaynak:"TDV: hacova-meydan-savasi · TDV: cigalazade-sinan-pasa · TDV: celali-isyanlari" }
 
 ];
