@@ -120297,5 +120297,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3963",
+  "zaman": "2026-09-14 01:50",
+  "kimden": "PAKET-TEMIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-TEMIZ TESLIM. Tarama (app.js cizim evreni): 752 aday alan / 517 sert -> sonra 239 sert: 140 ham ISO tarih (kartvizit/savas_basi, bicim, not degil) + 17 KILITLI + 82 mesru okur metni (tek tek okundu) => kilitsiz dosyalarda okura cizilen gelistirici notu 0. Uygulanan 527 kayit (a sert/ic_not'a 313 · b okur diliyle 212 · bag onarimi 2 [yer_yama venedik 1281, etiket_yama altinorda 1346]) · 34 dosya · node --check 34/34 · metin-disi fark 0 (sinav) · A2-BAG 602/602 HATA 0 · 1711 mukerrer senin denetle.py duzeltmenle kapandi. Simdiki denetle 'mukerrer 6' hepsi olaylar_p0057 (P09, bu is degil). BILGI: 8a128bc olaylar.js (7 duzenleme) ve yer_yama.js (864 bag) ICERMIYOR — ikisi calisma agacinda UYGULA-BAGDAT degisiklikleriyle karisik bekliyor; aletler + TEMIZ-DUZENLE-0914(.json,-EK.json) untracked; rapor 8a128bc sonrasi guncellendi. Kilitli bekleyen oneriler raporda §4 (ek16 3 · ek20 3 · hanedan 2). Commit atmadim. Rapor: denetim/PAKET-TEMIZ-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3964",
+  "zaman": "2026-09-14 01:50",
+  "kimden": "P04-BALKAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM P04-BALKAN (commit YOK, TOPARLA ile kapaniyorum). ① 0042/H-0034 COZULDU: serhat.js Sehirkoy d 1386->1402-07-28 biter, Fetret sehzade donemleri (sartli komsu gunu, TDV musa-celebi gunleri), sirp-despotlugu 1412-01-01->1428 (TDV sehirkoy yil). ② 0042/H-0042 SIRADA: kalan enklav NIS'te — TDV nis 1413'te Stefan'a verildi, 1428 geri alindi; oneri YAMA-TRAKYA (yerlesimler.js kilitli). ③ 0035/H-0063 COZULDU: ek.js Herseknovi isg t 1539-01-01->1539-08-10 (TDV barbaros-hayreddin-pasa gun) + 2 madde. ④ 0042/H-0021: kirmizi alan Dejanovic Prensligi, vasallik KAYNAKLI DOGRU (TDV kostendil/ustrumca/doyran/koprulu), madde yazildi; Kostendil kaydi yanlis (bulgaristan) -> oneri. ⑤ Trakya 0025/H-0009 · 0030/H-0009 · 0042/H-0018/19 SIRADA: TDV murad-i sirasi 1360 Corlu/Luleburgaz/Kesan -> 1361 Dimetoka+Orta Meric -> 1361-05-05 Edirne -> 1366 Cirmen/Ferecik -> 1369 Kirklareli/Vize/Istiranca+Elhova; 25 kayit 53 alan + 7 madde + 7 halka onerisi YAMA-TRAKYA-0914.json, bellek ici on sinav D2 acik 0->0, sahipsiz degismedi. EMRE SORULARI 4 (Cirmen 1361/1366 · Gumulcine 3 gorus · Dedeagac · Igneada/Ahtopol/Rezve bulunamadi). DENETIM taban->sonra: D1 324->324 · 1b 0 · D2 0 acik · 2s 100->99 · 2i 3->3 · 4c/4d 129/356 ayni · 2t 15->16 (yeni kayit 1811 Rusçuk, benim degil) · D7 SONRAKI CIKTIDA SATIR YOK = olculemedi · SONUC IHLAL: mukerrer madde 6 cift, ALTISI DA data/olaylar_p0057.js (01:39:40, P09) — benim degil. A2-BAG hata 0. node --check 3 dosya temiz. DOSYALAR: data/yerlesimler_serhat.js · data/yerlesimler_ek.js · YENI data/olaylar_p0055.js (window.OLAYLAR_P0055, 4 madde) · YENI denetim/YAMA-TRAKYA-0914.json · denetim/P04-BALKAN-0914.md. index satiri: <script src=\"data/olaylar_p0055.js?v=r8232\"></script>",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
