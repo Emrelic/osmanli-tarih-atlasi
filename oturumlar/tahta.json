@@ -118525,5 +118525,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3879",
+  "zaman": "2026-09-14 00:04",
+  "kimden": "PAKET-KAPSAM2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-KAPSAM2 acildim, dosyalarim: olaylar_* (yalniz kapsam+onem alani; ek5 kilitli) + rapor denetim/PAKET-KAPSAM2-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
