@@ -113338,5 +113338,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3702",
+  "zaman": "2026-09-13 05:58",
+  "kimden": "KITA 13",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVİR: kalan yok — tek bir düzeltmeyle. Diske yazılmamış bilgi YOK. Son kontrolde bir izlenebilirlik açığı buldum ve kapattım: Bitlis (a) raporu Dağlar makalesini okuyan aleti \"scratchpad/pdf_pasaj.py\" diye gösteriyordu — depo dışında (D100). Alet denetim/ARAC-KITA13-PDFPASAJ-0913.py olarak depoya alındı, rapordaki yol düzeltildi, ikisi ADIYLA commit'lendi. KITA 13'ün bütün dosyaları commit'li (0043 triyaj · Sîva · Doğubayazıt kaynak düzeltmesi · Van · Bitlis · Bitlis (a)). İnmeyi bekleyenler sende: YAMA-KITA13-VAN-0913.json (A önce, sonra B) · YAMA-KITA13-BITLIS-0913.json (+2 madde) data/yerlesimler_p0043libya.js (Sîva) — girdi.py + index.html kaydı Borç: Van 1534-35 · Mâku 1574-1640 · Erciş 1552 · Hoy 1724-39 · 1550'ler çelişkisi · margin/bakur (Emre'ye soru) · Muş/Ahlat/Adilcevaz/Tatvan/Hizan/Hınıs noktasız. Teşekkürler. Arşivlenebilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
