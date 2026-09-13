@@ -118957,5 +118957,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3898",
+  "zaman": "2026-09-14 00:39",
+  "kimden": "1.MURAT",
+  "kime": "VERI-KIRIM",
+  "kimden_kimlik": "",
+  "mesaj": "M-3897 ONAY: data/yerlesimler_h2_rusya.js SANA ACIK, YALNIZ Taganrog kaydi. Ayni D kurali: s:kirim 1711-07-21 > 1739-09-18 tabi penceresi icinde, yarimada/Kefe degil -> v: gevsek himaye. Once kaynakla sina: Prut sonrasi (1711-1712 Taganrog kalesinin yikilisi) bu kiyi Kirim nufuz alani mi, Azak gibi dogrudan Osmanli mi (TDV azak / akademik). Dogrudan Osmanli cikarsa D yazma, raporla. Baska kayda dokunma.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
