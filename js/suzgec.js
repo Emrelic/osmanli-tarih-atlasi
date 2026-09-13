@@ -552,6 +552,50 @@ function aktifVAdi(y, gs) {
   return "";
 }
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 PAKET-ISYAN (13 Eylül 2026) — İSYAN TARAMASI SEÇİCİSİ (Emre: C2 kararı)
+// Veri: data/isyan_tarama.js (window.ISYAN_TARAMA). DOM'suz: app.js çizer,
+// denetim/ARAC-ISY-OLCUM-0913.js AYNI fonksiyonu gerçek veride koşar.
+// Atlas burada yalnız GEOMETRİ SEÇİCİDİR: o gün `kimlik`e tâbi (v:, kid ya da
+// kid'siz v:'nin `k` adı) görünen yerleşimler. d: (doğrudan Osmanlı) ve s:
+// kayıtları SEÇİLMEZ — tarama tâbi zeminin üstüne biner.
+// ═══════════════════════════════════════════════════════════════════════════
+// gs günü aktif pencereler (f dahil, t hariç — atlasın dönem kuralı)
+function isyanAktif(IT, gs) {
+  var P = (IT && IT.pencereler) || [], r = [];
+  for (var i = 0; i < P.length; i++) if (P[i].f <= gs && gs < P[i].t) r.push(P[i]);
+  return r;
+}
+// → [{ i: yerleşim indeksi, p: pencere, yol: "atlas" | "kaynakli-uye" }] · kunyeIx: { id: künye }
+// kimliksizUye (isteğe bağlı, ISYAN_TARAMA.kimliksiz_uye): { kimlik: { adlar:[…] } }
+//   YALNIZ o gün aktif v: döneminde ne `kid` ne `k` olan kayda uygulanır; atlas
+//   kimliği taşıyan kaydı ASLA ezmez (bkz. data/isyan_tarama.js açıklaması).
+function _isyanKimliksizMi(y, gs) {
+  for (var i = 0; i < (y.v || []).length; i++) {
+    var p = y.v[i];
+    if (p.f <= gs && gs < p.t) return !p.kid && !p.k;
+  }
+  return false;
+}
+function isyanSecim(Y, pencereler, gs, kunyeIx, kimliksizUye) {
+  var out = [];
+  if (!pencereler || !pencereler.length) return out;
+  for (var n = 0; n < (Y || []).length; n++) {
+    var y = Y[n], key = sahipAnahtari(y, gs);
+    if (key.indexOf("tabi:") !== 0) continue;
+    var vK = aktifVAdi(y, gs), bulundu = false;
+    for (var j = 0; j < pencereler.length; j++) {
+      if (sahipKimlikte(key, vK, [pencereler[j].kimlik], kunyeIx)) { out.push({ i: n, p: pencereler[j], yol: "atlas" }); bulundu = true; break; }
+    }
+    if (bulundu || !kimliksizUye || key !== "tabi:" || !_isyanKimliksizMi(y, gs)) continue;
+    for (var m = 0; m < pencereler.length; m++) {
+      var u = kimliksizUye[pencereler[m].kimlik];
+      if (u && u.adlar && u.adlar.indexOf(y.ad) >= 0) { out.push({ i: n, p: pencereler[m], yol: "kaynakli-uye" }); break; }
+    }
+  }
+  return out;
+}
+
 // Tarayıcıda global, node'da modül — dosya iki ortamda da sınanabilsin diye.
 var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  grupSayilari: grupSayilari, bilinmeyenler: bilinmeyenler,
@@ -566,7 +610,9 @@ var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  sahipAnahtari: sahipAnahtari, gunKaydir: gunKaydir, sinirIndeksi: sinirIndeksi,
                  sgNorm: sgNorm, kunyeCekirdek: kunyeCekirdek, antlasmaTaraflari: antlasmaTaraflari,
                  sahipIlgiliMi: sahipIlgiliMi, antlasmaFarki: antlasmaFarki,
-                 sahipKimlikte: sahipKimlikte, aktifVAdi: aktifVAdi };
+                 sahipKimlikte: sahipKimlikte, aktifVAdi: aktifVAdi,
+                 // PAKET-ISYAN
+                 isyanAktif: isyanAktif, isyanSecim: isyanSecim };
 if (typeof window !== "undefined") {
   window.SUZGEC = _SG_DISA;
 }

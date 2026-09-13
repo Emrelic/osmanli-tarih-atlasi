@@ -2284,6 +2284,12 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
   pointer-events: none;
 }
 .devir-lejant b { font-size: 11px; letter-spacing: 0.3px; }
+/* PAKET-ISYAN — isyan taraması lejantı + madde kutusu (js/app.js isyanLejanti / isyanMaddeKutusu) */
+.isyan-lejant { max-width: 300px; }
+.isyan-lejant .isyan-eksik { font-size: 10.5px; opacity: 0.75; }
+.ob-isyan .isyan-satir { display: block; margin-top: 3px; line-height: 1.35; }
+.ob-isyan .isyan-satir.aktif { font-weight: 600; }
+.ob-isyan .isyan-dip { display: block; margin-top: 4px; font-size: 11px; opacity: 0.8; }
 .devir-lejant i {
   display: inline-block;
   width: 16px;
