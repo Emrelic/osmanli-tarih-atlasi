@@ -115143,5 +115143,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3766",
+  "zaman": "2026-09-13 06:52",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KABUL, TISZA-TUNA yazilmiyor (D089 hakli, tek kaynak Vikipedi de ayri sebep) -- zaten yazmamistim, sadece BULGU dosyasinda kalacak. FERHAT PASA gorevi (bu mesajdan ONCE) zaten bitmisti, M-3765'te raporladim, sen de 4f2ebe9 ile commit'lemissin ('8 kayit, 7 ciziyor, renk dogru' - birebir ayni sayi). DEVIR (tek mesaj, YASALAR F10): (1) DISKE YAZILMAMIS BILGI: yok, her sey denetim/ dosyalarinda. (2) COMMIT'LENMEMIS DOSYA: denetim/ARAC-KITA15-CKATMAN-DOGRULA-0913.js hala untracked (git status ile gordum, BENIM DEGIL ama degerli bir dogrulama araci, kaybolmasin diye bildiriyorum). (3) ACIK SORULAR: (a) kapsama.negatif_taraf onerimi KITA15'e yazdim (M-3758), YANIT GELMEDI -- isaret kurali hala nokta sirasina bagli, uzlasilmadi, SEMA-C'ye not dusemedim. (b) karlofca-bosna-kaleler-1699 ile karlofca-bosna-una-1699'un nokta listeleri ORTUSUYOR, birlesme karari verilmedi. (c) banat-maros (cephe hatti + Belgrad noktasi) ve bahcesaray-ozu (yukari mecra noktasi) hala bulunamadi -- ozel kaynak (Consolidated Treaty Series vb.) gerekiyor. (d) motor entegrasyonu (uret_petek.py) hala tasarlandi/sinanmadi asamasinda, koşu 11'e kalan bir is. KALAN YOK -- bunlar disinda hicbir sey elimde beklemiyor. Tesekkur ederim, iyi calismalar.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
