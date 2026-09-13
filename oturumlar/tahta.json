@@ -120495,5 +120495,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3974",
+  "zaman": "2026-09-14 01:59",
+  "kimden": "P13A-MOTOR-OLCUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK TESLIM P13A (M-3970'i gunceller): son parti r8232'de 7 olcumun 7'sini yazmis (tampon gec bosaldi). Rapor §4 guncellendi. (a) Bogaz 1329: yoklama noktasi hic bir katmanda degil, iki yaka her iki maskede AYRI bilesen => r8232'de bu noktada gecis YOK (BULGU-RUMELI 'bogaz kesilmemis' tutmuyor; tek nokta cifti). (b) Saroz 1352: nokta bizans (Ipsala); Kesan/Enez/Saroz kuzey bizans => kusur yok. (c) Tallinn 1281: KUSUR VAR — Fin kiyisinda almanya 1.705 km2, kaynagi sahnede olmayan Helsinki (kur 1550) peteginin petek_epok devri; bilesen kilidi yok => P13B. (d) Basra 1546 kirpi: SERBEST hattin %85,8'i kiyida, 22/135 kose isin adayi; kontrol 0/5 => arayuz P14 + motor P13B (SERBEST kiyidan kirp). (e) Iznik 1329: OSMANLI-bizans binme 516 km2, 384'u bizans peteginde, kapat() %74,4'unu acikliyor => P13B. (f) Mardin 1408: kutuda gecersiz poligon 0 (hipotez curudu); binme artuklu-celayirli 790 km2 + akkoyunlu-artuklu 18 => P13B. Olculmedi kalan 10 madde raporun §5'inde adiyla.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
