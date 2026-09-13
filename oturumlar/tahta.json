@@ -114817,7 +114817,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KITA 30": "2026-09-13 06:36"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
