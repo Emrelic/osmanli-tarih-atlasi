@@ -1,0 +1,64 @@
+{
+  "_baslik": "KITA 23 — mimari yapılar görsel araştırması, TASLAK (henüz indirilmedi, henüz data/gorsel_mimari.js DEĞİL)",
+  "_yazan": "KITA 23, 13 Eylül 2026",
+  "_sema_kaynagi": "KITA 24 (tahta M-3650, 13 Eylül 04:50) — denetim/SEMA-GORSEL-MADDE-0913.md",
+  "_neden_taslak_kaldi": "Şema `url` alanına YEREL yol istiyor (assets/gorseller/<YYYY-MM-DD>-<slug>.jpg) — yani görsel dosyasının gerçekten İNDİRİLMESİ gerekiyor. Bu oturumun çalıştığı ortamda dosya indirme işlemleri kullanıcının açık onayını gerektiriyor (bu sohbette henüz alınmadı). Bu yüzden aşağıdaki 6 aday yalnız ARAŞTIRILDI ve LİSANSI Commons dosya sayfası okunarak DOĞRULANDI; hiçbiri indirilmedi, `data/gorsel_mimari.js` yazılmadı. Kimin indireceği / onayı kimin vereceği koordinatöre soruldu (tahta).",
+  "adaylar": [
+    {
+      "yapi_id": "mimari-sultanahmet",
+      "durum": "bulunamadı — ek arama gerekli",
+      "not": "Library of Congress Photochrom koleksiyonunda 'Mosque of Sultan Ahmet I, Istanbul, Turkey' (ca.1890, loc.gov/item/2003653106) VAR ve PD-US, ama bunun Wikimedia Commons'ta bir dosya sayfası (aynası) olduğunu DOĞRULAYAMADIM — arama sonuçlarında bulunamadı. KITA 24'ün şeması `gorsel_kaynak`ı 'Commons dosya sayfası' istiyor; loc.gov'un doğrudan kabul edilip edilmeyeceği KITA 24'e sorulmalı."
+    },
+    {
+      "yapi_id": "mimari-suleymaniye",
+      "durum": "aday bulundu, lisans doğrulandı",
+      "baslik": "Süleymaniye Mosque, Istanbul",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque,_Istanbul.jpg",
+      "lisans": "PD-US-Government (Library of Congress, Title 17 §105) + Public Domain Mark 1.0",
+      "eser_sanatci_yil": "Fotoğrafçı belirtilmemiş — Library of Congress Prints & Photographs Division, ca. 1890-1900",
+      "kesinlik": "donem-sonrasi-tasvir",
+      "gorsel_alt": "Süleymaniye Camii'nin 1890-1900 civarı çekilmiş dış görünüşü, Library of Congress fotoğrafı",
+      "olay": ["1550-06-01", "1557-10-16"],
+      "uyari": "ABD dışında PD olmayabileceği Commons sayfasında AÇIKÇA yazıyor — Türkiye telif hukuku ayrıca ölçülmedi (ölçmedim)."
+    },
+    {
+      "yapi_id": "mimari-selimiye",
+      "durum": "bulunamadı — ek arama gerekli",
+      "not": "LOC Photochrom koleksiyonunda Edirne/Selimiye'ye özgü bir kayıt bulunamadı (yalnız Üsküdar'daki 'Selimiye Kışlası' ile karışan sonuçlar çıktı — AYNI ADLI FARKLI YAPI, kullanılmadı). Ayrı bir arama turu gerekiyor."
+    },
+    {
+      "yapi_id": "mimari-mostar-koprusu",
+      "durum": "aday bulundu, lisans doğrulandı",
+      "baslik": "Mostar Alte Narentabrücke 1900",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Mostar_Alte_Narentabruecke_1900.jpg",
+      "lisans": "PD-old (yazar bilinmiyor, 70+ yıl) + PD-US (1931 öncesi basım) — Detroit Publishing Co./Photoglob AG photochrom baskısı",
+      "eser_sanatci_yil": "Fotoğrafçı bilinmiyor — Photochrom baskı, 1890-1905 civarı, LOC LC-DIG-ppmsc-09463",
+      "kesinlik": "donem-sonrasi-tasvir",
+      "gorsel_alt": "Mostar Köprüsü'nün 1900 civarı, 1993'te yıkılmadan önceki ÖZGÜN hâlini gösteren photochrom baskı",
+      "olay": ["1566-01-01"],
+      "not_ozel": "🟢 BU GÖRSEL, kartın kendi 'rekonstrüksiyon' uyarısını doğrudan çözüyor: 1900 tarihli olduğu için KESİNLİKLE özgün (1566-1993) köprüyü gösteriyor, 2004 rekonstrüksiyonunu DEĞİL."
+    },
+    {
+      "yapi_id": "mimari-mihrimah-edirnekapi",
+      "durum": "aday bulundu, lisans doğrulandı",
+      "baslik": "Mihrimah Sultan Mosque Edirnekapi Gurlitt 1912",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Mihrimah_Sultan_Mosque_Edirnekapi_Gurlitt_1912.jpg",
+      "lisans": "PD-old (yazar Cornelius Gurlitt, öl. 1938 — 80 yıl kuralı) + PD-US (1931 öncesi basım) + CC-PD-Mark",
+      "eser_sanatci_yil": "Cornelius Gurlitt (1850-1938), 1912",
+      "kesinlik": "donem-sonrasi-tasvir",
+      "gorsel_alt": "Mihrimah Sultan Camii'nin (Edirnekapı) 1912'de Cornelius Gurlitt tarafından çekilmiş fotoğrafı",
+      "olay": ["1566-01-01"]
+    },
+    {
+      "yapi_id": "mimari-nuruosmaniye",
+      "durum": "bulunamadı — ek arama gerekli",
+      "not": "Aday olarak bulunan tek dosya (File:Exterior_of_Nuruosmaniye_Mosque.jpg) CC-BY-SA 4.0 — proje kırmızı çizgisine (§1.6, CC-BY-SA YASAK) takılıyor, KULLANILMADI. LOC koleksiyonunda 'Nuruosmaniye'ye özgü bir kayıt bulunamadı; 18. yy Osmanlı barok yapıları LOC'un 1890-1900 photochrom kapsamında daha az temsil ediliyor olabilir (ÖLÇMEDİM, izlenim)."
+    }
+  ],
+  "ozet": {
+    "toplam_yapi": 6,
+    "lisansli_aday_bulunan": 3,
+    "bulunamadi": 3,
+    "indirilen": 0
+  }
+}
