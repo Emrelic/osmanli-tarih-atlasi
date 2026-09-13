@@ -11,6 +11,19 @@
 > batısında kalmış ise enklav olamayacağından dolayı orayı da örtülü bir
 > şekilde Osmanlı kabul edeceğiz.
 
+## 🔴🔴 BAĞLAYICI İLKE — ATLAS REFERANS DEĞİLDİR (Emre, 13 Eylül 2026)
+> Atlası referans alamazsın. Atlasımız sadece Osmanlı, İran, Rus ve diğer ülkelerin
+> bilimsel akademik tarihî resmî kaynaklarına bakılarak düzeltilmesi gereken, yazılması
+> gereken bir mamul ürün. Referans noktası değil.
+
+- Hüküm, gün, sınır düğümü koordinatı YALNIZ kaynaktan. Atlasın gösterdiği sahiplik yalnız
+  "düzeltilecek şey"dir; "atlas doğru" = kaynakla örtüşüyor, başka bir şey değil.
+- Kaynak gün vermiyorsa `YYYY-01-01` + metinde hassasiyet. **Komşu kaydın günü devralınmaz**
+  (Hoy'dan, Gence'den, Hânekîn'den alınan günler YENİDEN kaynaklanacak).
+- Sınır düğümleri atlas noktalarının orta noktası OLAMAZ — gazetteer / akademik coğrafya
+  koordinatı ya da kaynağın andığı nehir-dağ geçidi.
+- "Örtülü (enklav olamaz)" kuralının dayanağı kaynaklı hat olmalı; atlas geometrisi değil.
+
 ## Kurallar
 - **Kaynak:** akademik (CLAUDE.md §4), dokuz tarih yazımı. Her yer için mümkünse
   iki farklı gelenekten kaynak; çelişki AÇIKÇA yazılır, taraf seçilmez.

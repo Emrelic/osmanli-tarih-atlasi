@@ -63,6 +63,23 @@ sonraki durumdan türetilir).
       (KITA 25 M-3752)
 - [ ] `denetim/YAMA-YER-ID-0913.json` 36 öneri — KITA 14'te (M-3747)
 
+## 🔴 5-0 · ATLAS REFERANS DEĞİLDİR — bugün atlasa uydurulmuş kararlar yeniden kaynaklanacak
+Emre (13 Eylül): "atlası referans alamazsın … atlas … kaynaklara bakılarak düzeltilmesi
+gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çelişirse ATLAS düzelir.
+- [ ] **Kilitbahir** (`olaylar_p0036` 1452-01-01): madde tarihi "yerleşim kur/d 1452'den
+      başlıyor, kırılma maddesiz kalır" diye KORUNDU. TDV: "İstanbul'un fethinden sonra yapılmış
+      kale"; Kritovulos 867-869 (1463-65); Evliya 1452. ⇒ madde kaynağa göre (TDV ağırlığı fetih
+      sonrası), yerleşim `kur`/`d` 1463/1465'e; Gelibolu 1366/1376 maddelerindeki Kilitbahir anışı da.
+- [ ] **Niğbolu** (`olaylar_ek` 1395-01-01): "yerleşim kırılması 153 gün uzakta kalır" diye
+      KORUNDU. TDV nigbolu + bayezid-i: 3 Haziran 1395 (Bulgar kronikleri), nigbolu-savasi 1394.
+      ⇒ madde ve yerleşim kaynağa göre birlikte (Ohri aynı gün — ayrıca kaynağına bak).
+- [ ] **Ferhat Paşa yamaları** (KITA 29 · 0047 · KUZEY · GÜNEY): komşu kayıttan devralınan
+      günler (Hoy · Gence · Hânekîn "D084" · örtülü kural 1585-09-25) ve atlas noktalarının orta
+      noktasıyla kurulan sınır düğümleri YENİDEN kaynaklanacak; kaynak gün vermiyorsa YYYY-01-01.
+- [ ] **KITA 14 Tebriz kararı** ("11 yerleşim kırılmasıyla aynı gün, yama gerekmez"): hüküm TDV
+      hicrî güne dayandığı için DOĞRU kalır; gerekçedeki "yerleşimle aynı gün" cümlesi dayanak değil.
+- [ ] `dersler/D084` "komşusunun kullandığı günü kullanmak" dersi bu hükümle GEÇERSİZ — damgalanacak.
+
 ## 5a · Malaka 1511 günü (13 Eylül, Emre kararı: madde ana kronolojiye girdi)
 - [ ] `data/olaylar_p0047.js` maddesi TDV `malaka`ya göre **1511-08-10**. Veride üç yer
       hâlâ 1511-08-24: `yerlesimler_asya.js` Malaka Portekiz dönemi başı ·

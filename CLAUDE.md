@@ -702,6 +702,30 @@ node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js',
 - **TDV'nin kapsamadığı coğrafyalar** (Doğu Asya, Amerika, Sahra altı Afrika,
   Okyanusya, Avrupa'nın iç tarihi) için standart akademik referans yeterlidir.
 
+### 🔴🔴🔴 ATLAS REFERANS DEĞİLDİR — MAMUL ÜRÜNDÜR (kullanıcı beyanı, 13 Eylül 2026)
+
+> *"Atlası biz belgelere, akademik yayınlara, bilimsel kaynaklara dayanarak yazmaya,
+> doğrulamaya, düzeltmeye çalışıyoruz. Atlası referans alamazsın. Atlasımız sadece
+> Osmanlı, İran, Rus ve diğer ülkelerin bilimsel akademik tarihî resmî kaynaklarına
+> bakılarak düzeltilmesi gereken, yazılması gereken bir mamul ürün. Referans noktası değil."*
+
+```
+🔴 DAYANAK OLAMAZ   yerleşim dönemi · künye günü · komşu kaydın günü · atlas noktası
+                    koordinatı · "atlasta o gün kırılma var" · "atlas zaten öyle gösteriyor"
+🟢 DAYANAK          yalnız kaynak (TDV · akademik · resmî tarih yazımı), adıyla
+ÇELİŞKİDE           ATLAS düzelir (yerleşim/künye yaması); madde KAYNAĞA göre yazılır.
+                    Değişmez 2 açılırsa çare yerleşimi kaynağa çekmek — maddeyi atlasa
+                    uydurmak DEĞİL.
+GÜN YOKSA           YYYY-01-01 + metinde hassasiyet; komşu kaydın günü DEVRALINMAZ
+                    (⇒ `dersler/D084` "komşunun günü" dersi bu hükümle GEÇERSİZ)
+```
+⚠️ **Doğuran vaka (13 Eylül):** bir günde atlas beş ayrı yerde kaynak yerine kullanıldı —
+Ferhat Paşa yamasında günler komşu kayıtlardan devralındı, sınır düğümleri atlas
+noktalarının orta noktasıyla kuruldu, Kilitbahir ve Niğbolu maddelerinin tarihi
+"atlastaki kırılma maddesiz kalır" diye kaynağa rağmen korundu, "atlas doğru" diye
+sayım yapıldı. ⇒ **Atlası belgeye ölçü yapmak döngüseldir:** proje atlası belgeyle
+düzeltmek için var. Düzeltme listesi: `oturumlar/KOSU10-SONRASI.md` §5-0.
+
 ### 🔴🔴 KIRMIZI ÇİZGİ — DIŞARI ÇIKINCA NEREYE (kullanıcı beyanı, 9 Ağustos 2026)
 
 > *"TDV dışına çıkabilirsin ama gideceğin kaynaklar **AKADEMİK, GÜVENİLİR ve
