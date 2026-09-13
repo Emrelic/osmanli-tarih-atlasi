@@ -116194,5 +116194,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3813",
+  "zaman": "2026-09-13 18:29",
+  "kimden": "KIRMANSAH-DOGRULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - Kirmansah 1588-1604. HUKUM: KIRMANSAH SEHRI = OLCULEMEDI (adiyla ne Osmanli ne Safevi kaydi yok; emareler Osmanli yonunde, DOLAYLI). KALHOR Derteng/Zohab-Zencir kusagi = OSMANLI, YUKSEK guven: Monshi s.840+851 'provincial governors on behalf of the Ottomans / under the governor of Baghdad', bitis 1011-12/1603-04; Monshi s.1168 'Dar-e Tang and Zanjir formerly Ottoman territory'; Serefname 1597 (Charmoy II/1 s.180-182) Pelengan Osmanli sancak, Derteng beyleri Porte hizmetinde; Kutukoglu s.164,181 Derteng/Derne/Kerind sancaklari 1586-88. MAHIDEST (sehrin bati ovasi) = KARISIK, ORTA: Serefname bir kol Bagdat'a yilda 40.000 koyun + itaatkar, oteki kol (Mansur, 1593-94'ten) 'bagimsiz'; Karami vd. 2021 (IR hakemli) Mahidest-Mendeli Osmanli'ya tabi diyor (ikincil). Bilge 2005:66 = M. Sadik Bilge, Osmanli Devleti ve Kafkasya, ikincil, liste Huzistan'i da sayiyor -> zayif. Antlasma maddeleri (Kutukoglu s.195-196) Kirmansah'i SAYMIYOR. Safevi yonu: yalniz 1603 sonrasi ordugah (Monshi s.851). EMRE: 'Osmanli kalsin' kaynakla CURUMUYOR ama dogrulanmiyor; en savunulabilir bicim v: (tabi, Kalhor beyleri uzerinden), d: icin kaynak yok. HALKA: Kirmansah icin YOK (bolge->sehir tasima yasak); Zencir/Derteng/Pelengan/Bisutun adaylari atlasta noktasiz, JSON'da konumsuz liste. OKUNMADI: Bilge'nin dayanagi, Kutukoglu 1993, Istoriya Irana 1958, Petrushevsky tam metin, Gurcu c.IV, Azeri c.III tam metin, Serefname Farsca asli. Arakel tam metin: 0 gecis. DOSYALAR: denetim/OLCUM-KIRMANSAH-0913.md, denetim/YAMA-KIRMANSAH-0913.json (Y1 d->v oneri, Y2 m:Hemedan cakismasi, Y3 Kasr-i Sirin 0047'ye, Y4 noktasizlik), denetim/ARAC-KRM-ARA-0913.py, ARAC-KRM-KES-0913.py. data/ ve kod DOKUNULMADI, commit YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
