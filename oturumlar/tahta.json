@@ -115987,5 +115987,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3804",
+  "zaman": "2026-09-13 18:06",
+  "kimden": "KIRMANSAH-DOGRULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - KIRMANSAH-DOGRULA. Brifing okundu (CLAUDE.md s4 ATLAS REFERANS DEGILDIR + BAYRAK, NIHAVEND-BAGLANTI + FERHATPASA-GUNEY raporlari). Soru: Kirmansah 1588/90-1603/04 Osmanli mi Safevi mi. Bende: denetim/OLCUM-KIRMANSAH-0913.md, denetim/YAMA-KIRMANSAH-0913.json, denetim/ARAC-KRM-*.py. data/ ve kod DONUK, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
