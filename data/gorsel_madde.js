@@ -232,5 +232,428 @@ window.GORSEL_MADDE = [
         kesinlik:      "cagdas"
       }
     ]
+  },
+
+  // ══ GORSEL-DALGA2 (13 Eylül 2026) · paket 0045 H-0001 — PADİŞAH ALBÜMLERİ ══
+  // Taslak: denetim/TASLAK-PADISAH-ALBUM-0913.json (KITA 22). Rapor:
+  // denetim/GORSEL-DALGA2-0913.md. Her öğenin lisansı İNDİRMEDEN HEMEN ÖNCE
+  // Commons dosya sayfasından yeniden ölçüldü (API extmetadata + kategori;
+  // denetim/ARAC-GORSEL-LISANS-0913.py VE düzeltilmiş kopyası 0913b).
+  // Her görsel indirildikten sonra AÇILIP GÖZLE GÖRÜLDÜ; gorsel_alt ona
+  // göre yazıldı (taslaktaki üç yanlış tarif düzeltildi — rapor §3).
+  // `olay:` = padişahın CÜLUS ve VEFAT maddelerinin `t:` değerleri,
+  // data/olaylar*.js + kronoloji*.js üzerinde node eval ile BİREBİR ölçüldü.
+  // 🔴 ÇAKIŞMA: "1566-09-07" (Kanûnî'nin vefatı) Sokullu portre kaydında da
+  //    var; app.js `find()` İLK eşleşeni aldığı için o maddede Sokullu
+  //    portresi görünür, bu albüm GÖRÜNMEZ (rapor §4). Sıra değiştirilmedi.
+  {
+    id:      "1451-02-18-mehmed2-albumu",
+    tur:     "albüm",
+    kisi_id: "mehmed2",
+    olay:    ["1451-02-18", "1481-05"],
+    baslik:  "II. Mehmed (Fâtih) albümü — portre, minyatür, tuğra, cami",
+    gorseller: [
+      {
+        url:           "assets/portreler/mehmed2.jpg",
+        baslik:        "Gentile Bellini'nin II. Mehmed portresi",
+        gorsel_alt:    "Taşlı bir kemerin altında profilden gösterilen, beyaz kavuklu, sakallı, kürk yakalı kırmızı kaftanlı II. Mehmed; kemerin iki yanında üçer taç",
+        eser:          "Sultan II. Mehmed portresi",
+        sanatci:       "Gentile Bellini",
+        yil:           "1480",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Sultan_Mehmet_II.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(Yorck_Project), PD-old-100-expired"
+      },
+      {
+        url:           "assets/gorseller/1451-02-18-mehmed2-gul-koklayan.jpg",
+        baslik:        "Gül koklayan II. Mehmed",
+        gorsel_alt:    "Bağdaş kurmuş oturan, beyaz kavuklu, kızıl sakallı II. Mehmed'in sağ elindeki gülü kokladığı, sol elinde mendil tuttuğu minyatür portre",
+        eser:          "Topkapı Sarayı Albümleri, Hazine 2153, vr. 10a",
+        sanatci:       "Nakkaş Sinan Bey (Commons beyanı)",
+        yil:           "15. yüzyıl sonu",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Sarayi_Album_10a.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100-expired)"
+      },
+      {
+        url:           "assets/gorseller/1451-02-18-mehmed2-tugra-1468.jpg",
+        baslik:        "II. Mehmed'in 1468 tarihli tuğrası",
+        gorsel_alt:    "Kâğıt üzerine koyu mürekkeple çekilmiş II. Mehmed tuğrası: üç dikey çizgi ve solda iç içe iki kavis",
+        eser:          "Mülkname (1468)",
+        sanatci:       "bulunamadı — Commons 'bilinmeyen nişancı' diyor",
+        yil:           "1468",
+        lisans:        "PD-old",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Mehmed_II_Tughra_1468.png",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD, PD-old, PD-Ottoman"
+      },
+      {
+        url:           "assets/gorseller/1451-02-18-mehmed2-fatih-camii-1880ler.jpg",
+        baslik:        "Fâtih Camii, 1880-1893 (1766 depreminden sonraki yapı)",
+        gorsel_alt:    "Abdullah Frères'in albüm sayfasındaki Fâtih Camii fotoğrafı: ağaçlı bahçenin ardında merkezî kubbe ve iki minare, sayfanın üstünde Osmanlıca, altında Fransızca başlık",
+        eser:          "II. Abdülhamid fotoğraf albümleri (Commons şablonu PD-Abdul Hamid)",
+        sanatci:       "Abdullah Frères",
+        yil:           "1880-1893",
+        lisans:        "PD",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Fatih_Camii_1880-1893_y%C4%B1llar%C4%B1_r1.jpg",
+        kesinlik:      "donem-sonrasi-tasvir",
+        lisans_olcum:  "KABUL (0913b) · kategori PD-Abdul_Hamid · asıl alet 0913 RED verdi — önek kusuru, YANLIŞ NEGATİF",
+        not:           "Fotoğraf Fâtih'in yaptırdığı ilk yapıyı GÖSTERMEZ: kronolojide 1766-05-01 'Büyük İstanbul depremi ve Fâtih Camii'nin yıkılması' maddesi var; bugünkü yapı depremden sonra yeniden yapılandır (KITA 22 taslağının TDV aktarımı — bu oturum TDV'yi ayrıca OKUMADI)."
+      }
+    ]
+  },
+  {
+    id:      "1512-04-24-selim1-albumu",
+    tur:     "albüm",
+    kisi_id: "selim1",
+    olay:    ["1512-04-24", "1520-09-21"],
+    baslik:  "I. Selim (Yavuz) albümü — portre, Selîmnâme, tuğra, Hünernâme",
+    gorseller: [
+      {
+        url:           "assets/portreler/selim1.jpg",
+        baslik:        "I. Selim portresi",
+        gorsel_alt:    "Siyah püsküllü büyük beyaz kavuklu, uzun bıyıklı I. Selim'in yeşil kaftan ve kırmızı üstlükle göğüs hizasından portresi",
+        eser:          "bulunamadı",
+        sanatci:       "Konstantin Kapıdağlı (Commons beyanı)",
+        yil:           "bulunamadı — Commons tarih alanı '16. yüzyıl' diyor, sanatçı alanıyla ÇELİŞİYOR",
+        lisans:        "PD-old-70",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Yavuz_Sultan_Selim_Han_(cropped).jpg",
+        kesinlik:      "donem-sonrasi-tasvir",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-70)"
+      },
+      {
+        url:           "assets/gorseller/1512-04-24-selim1-selimname-mengli-giray.jpg",
+        baslik:        "I. Selim ve Kırım Hanı Mengli Giray (Selîmnâme)",
+        gorsel_alt:    "Mavi-beyaz desenli bir otağın altında karşılıklı oturan iki hükümdar, önlerinde sürahiler; iki yanda ayakta duran maiyet",
+        eser:          "Şükrî-i Bitlisî, Selîmnâme (National Library of Israel, Ms. Yah. Ar. 1116)",
+        sanatci:       "bulunamadı",
+        yil:           "1524",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Selim_I_with_his_father-in-law_Mengli_Giray_I_(miniature)._Sel%C4%ABm-n%C4%81ma,_by_%C5%9E%C5%ABkr%C4%AB-i_Bitlis%C4%AB,_1524_(National_Library_of_Israel,_Ms._Yah._Ar._1116).jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100-expired)"
+      },
+      {
+        url:           "assets/gorseller/1512-04-24-selim1-tugra-1519.jpg",
+        baslik:        "I. Selim'in Bosna halkına yazılmış Slavca bir belgedeki tuğrası",
+        gorsel_alt:    "Kiril harfli Slavca bir belgenin başında yer alan, altın yaldızlı ve çiçek bezemeli I. Selim tuğrası",
+        eser:          "British Library, Add. 8160",
+        sanatci:       "bulunamadı",
+        yil:           "Nisan 1519",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Tughra,_or_cipher,_of_the_Ottoman_Sultan_Selim_I,_above_Slavonic_text_addressed_to_the_inhabitants_of_Bosnia._Created_in_Constantinople_(modern-day_Istanbul),_dated_April_1519.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100)"
+      },
+      {
+        url:           "assets/gorseller/1512-04-24-selim1-hunername-kaplan-avi.jpg",
+        baslik:        "Hünernâme'de I. Selim'in av sahnesi",
+        gorsel_alt:    "Tepelik bir arazide kara bir atın üstünde ok ve yayla ilerleyen beyaz kaftanlı hükümdar; solda benekli beyaz bir yırtıcı hayvan, önde ceylanlar, bir av köpeği ve kıvrılan bir dere; üstte Osmanlıca metin",
+        eser:          "Hünernâme I, vr. 207b",
+        sanatci:       "Nakkaş Osman (Commons: Ustad Osman)",
+        yil:           "1584",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Hunername-I-207b.png",
+        kesinlik:      "donem-sonrasi-tasvir",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100)",
+        not:           "Olaydan ~70 yıl sonra yapılmış saray tasviri."
+      },
+      {
+        url:           "assets/gorseller/1512-04-24-selim1-hunername-timsah.jpg",
+        baslik:        "Hünernâme'de I. Selim ve Nil kıyısında öldürülen timsahlar",
+        gorsel_alt:    "Nehir kıyısında kırmızı kaftanlı I. Selim ayakta duruyor; önünde öldürülmüş iki timsah, nehirde kırmızı bir sandalda üç kişi, solda maiyet",
+        eser:          "Hünernâme",
+        sanatci:       "Nakkaş Osman (Commons beyanı)",
+        yil:           "bulunamadı — Commons '1500'ler' diyor",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Sultan_Selim_Hunts_a_Crocodile_in_Egypt.jpg",
+        kesinlik:      "donem-sonrasi-tasvir",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100)",
+        not:           "Sahne bir saray tasviridir; olayın kendisi TDV'den DOĞRULANMADI (KITA 22 taslağı)."
+      }
+    ]
+  },
+  {
+    id:      "1520-09-30-suleyman1-albumu",
+    tur:     "albüm",
+    kisi_id: "suleyman1",
+    olay:    ["1520-09-30", "1566-09-07"],
+    baslik:  "I. Süleyman (Kanûnî) albümü — portre, tuğra, minyatürler, Süleymaniye, Atmeydanı alayı",
+    gorseller: [
+      {
+        url:           "assets/portreler/suleyman1.jpg",
+        baslik:        "Titian çevresinden I. Süleyman portresi",
+        gorsel_alt:    "Profilden gösterilen, çok büyük beyaz kavuklu, bıyıklı I. Süleyman; kırmızı kaftan, siyah üstlük ve elinde bir asa",
+        eser:          "bulunamadı",
+        sanatci:       "Titian çevresi (Commons beyanı)",
+        yil:           "1530'lar",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:EmperorSuleiman.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100-expired)",
+        not:           "Avrupalı bir ressamın çağdaş tasviri; padişahı görerek yapıldığı ÖLÇÜLMEDİ."
+      },
+      {
+        url:           "assets/gorseller/1520-09-30-suleyman1-tugra.jpg",
+        baslik:        "I. Süleyman'ın tezhipli tuğrası",
+        gorsel_alt:    "Mavi ve altın yaldızlı çiçek motifleriyle bezenmiş büyük I. Süleyman tuğrası; altında altın mürekkeple bir satır yazı",
+        eser:          "Tuğra (Metropolitan Museum of Art koleksiyonu)",
+        sanatci:       "bulunamadı",
+        yil:           "yaklaşık 1555-1560",
+        lisans:        "PD",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Tughra_Suleiman.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD, PD_Old, CC-Zero"
+      },
+      {
+        url:           "assets/gorseller/1520-09-30-suleyman1-suleymanname-mohac.jpg",
+        baslik:        "Süleymannâme'den I. Süleyman (Mohaç sahnesinden ayrıntı)",
+        gorsel_alt:    "Siyah sorguçlu büyük beyaz kavuklu, bıyıklı I. Süleyman'ın yakın ayrıntısı; yanında yay ve ok demeti",
+        eser:          "Süleymannâme — Mohaç Savaşı çift sayfası (Commons dosyası yalnız padişahı gösteren kesit)",
+        sanatci:       "bulunamadı",
+        yil:           "1558",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:1526-Sultan_Suleiman_(portrait)_during_the_Battle_of_Mohacs_(double_page)-Suleymanname.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100-expired)"
+      },
+      {
+        url:           "assets/gorseller/1520-09-30-suleyman1-hunername-sunnet.jpg",
+        baslik:        "Hünernâme'de şehzadelerin sünnet töreni için Atmeydanı'na geliş",
+        gorsel_alt:    "Çift sayfalık minyatür: solda atlı I. Süleyman ve maiyeti saray avlusuna giriyor, sağda atlılar, çalgıcılar ve kalabalık bir alay",
+        eser:          "Hünernâme",
+        sanatci:       "bulunamadı",
+        yil:           "1584-1588",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Suleiman_the_Magnificent%27s_arrival_at_the_palace_in_Atmeydan%C4%B1_for_the_circumcision_ceremony_of_his_princes_Mustafa,_Mehmed,_and_Selim_(H%C3%BCnern%C3%A2me).jpg",
+        kesinlik:      "donem-sonrasi-tasvir",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100-expired)",
+        not:           "KITA 22 taslağı (TDV mustafa-celebi): sünnet 1530; tasvir ~55 yıl sonra."
+      },
+      {
+        url:           "assets/gorseller/1520-09-30-suleyman1-suleymaniye-1853.jpg",
+        baslik:        "Süleymaniye Camii'nin revaklı girişi, yaklaşık 1853",
+        gorsel_alt:    "Kemerli, sütunlu bir revak ve geniş basamaklar; basamaklarda oturan ve ayakta duran birkaç kişi — sepya tonlu erken dönem fotoğraf",
+        eser:          "Süleymaniye Mosque, Constantinople (tuz baskı)",
+        sanatci:       "James Robertson",
+        yil:           "yaklaşık 1853",
+        lisans:        "PD-old",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:James_Robertson_S%C3%BCleymaniye_Mosque_c1853.jpg",
+        kesinlik:      "donem-sonrasi-tasvir",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-old",
+        not:           "Gerçek yapının fotoğrafı; caminin HANGİ girişini gösterdiği ÖLÇÜLMEDİ (Commons yalnız 'Süleymaniye Mosque' diyor). KITA 22 taslağındaki 'kubbeler ve minareler' tarifi görüntüyle TUTMUYORDU, düzeltildi."
+      },
+      {
+        url:           "assets/gorseller/1520-09-30-suleyman1-atmeydani-alayi-1553.jpg",
+        baslik:        "Atmeydanı'ndan geçen I. Süleyman alayı (1553 tahta baskı)",
+        gorsel_alt:    "Tahta baskı friz: atlı I. Süleyman, yaya yeniçeriler ve atlılarla Atmeydanı'ndan geçiyor; arkada dikilitaş, sütunlar, kubbeli yapılar ve şehir silueti",
+        eser:          "Ces Moeurs et fachons de faire de Turcz frizi — Metropolitan Museum of Art (DP146524)",
+        sanatci:       "Pieter Coecke van Aelst'ten sonra",
+        yil:           "1553",
+        lisans:        "CC0",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Procession_of_Sultan_S%C3%BCleyman_through_the_Atmeidan,_from_the_frieze_Ces_Moeurs_et_fachons_de_faire_de_Turcz_(Customs_and_Fashions_of_the_Turks)_MET_DP146524.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913b) · kategori CC-Zero · Commons API LicenseShortName 'CC0' · asıl alet 0913 RED verdi — CC-Zero adını tanımıyor, YANLIŞ NEGATİF"
+      }
+    ]
+  },
+  {
+    id:      "1623-09-10-murad4-albumu",
+    tur:     "albüm",
+    kisi_id: "murad4",
+    olay:    ["1623-09-10", "1640-02-09"],
+    baslik:  "IV. Murad albümü — iki dönem minyatürü",
+    gorseller: [
+      {
+        url:           "assets/gorseller/1623-09-10-murad4-bagdat-seferi.jpg",
+        baslik:        "IV. Murad — dönem minyatürü",
+        gorsel_alt:    "Sorguçlu, tüylü kırmızı kavuklu, siyah sakallı IV. Murad; sarı kaftan, kürklü kırmızı üstlük ve belinde hançerle yarım boy minyatür portre",
+        eser:          "Topkapı Sarayı Müzesi, H 2134, vr. 1r (Commons beyanı)",
+        sanatci:       "bulunamadı",
+        yil:           "1623-1640 arası",
+        lisans:        "PD-old-100",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:IV_Murat.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-100)",
+        not:           "KITA 22 taslağı 'Bağdat seferine giden, zırhlı, ATLI IV. Murad' diyordu; Commons dosyası yarım boy bir kesit — at da zırh da görünmüyor. Tarif düzeltildi, dosya adı taslaktaki gibi kaldı."
+      },
+      {
+        url:           "assets/gorseller/1623-09-10-murad4-sofra.jpg",
+        baslik:        "Maiyetiyle tahtta IV. Murad",
+        gorsel_alt:    "Tahtta oturan, elinde kadeh tutan IV. Murad; önünde yemek dolu yuvarlak bir sofra ve iki şamdan, çevresinde ayakta duran maiyet ve saz çalan bir çalgıcı",
+        eser:          "bulunamadı",
+        sanatci:       "bulunamadı — Commons 'Osmanlı minyatür ressamı'",
+        yil:           "17. yüzyılın ilk yarısı",
+        lisans:        "PD-old-70",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Murat_IV_with_dishes.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-70)"
+      }
+    ]
+  },
+  {
+    id:      "1876-08-31-abdulhamid2-albumu",
+    tur:     "albüm",
+    kisi_id: "abdulhamid2",
+    olay:    ["1876-08-31", "1918-02-10"],
+    baslik:  "II. Abdülhamid albümü — portre, tuğra, fotoğraflar",
+    gorseller: [
+      {
+        url:           "assets/portreler/abdulhamid2.jpg",
+        baslik:        "II. Abdülhamid portresi",
+        gorsel_alt:    "Fesli, gür sakallı II. Abdülhamid'in apoletli gri-mavi askerî ceket ve nişanlarla göğüs hizasından boyalı portresi",
+        eser:          "bulunamadı",
+        sanatci:       "bulunamadı — Commons 'bilinmeyen yazar'",
+        yil:           "1899",
+        lisans:        "PD-old-70",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Sultan_Gazi_Abd%C3%BCl_Hamid_II_-_%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D8%A7%D9%84%D8%BA%D8%A7%D8%B2%D9%8A_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.png",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Art_(PD-old-70), PD-Ottoman"
+      },
+      {
+        url:           "assets/gorseller/1876-08-31-abdulhamid2-tugra-sami-efendi.jpg",
+        baslik:        "Hattat Sami Efendi'nin çektiği II. Abdülhamid tuğrası",
+        gorsel_alt:    "Siyah zemin üzerine altınla yazılmış, çerçeveli II. Abdülhamid tuğrası; sağda bir çiçek demeti ve 1298 tarihi, solda hattatın imzası",
+        eser:          "bulunamadı",
+        sanatci:       "Mehmed Sami Efendi",
+        yil:           "1298 / 1881",
+        lisans:        "PD",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Sami_Efendi_-_Tughra_of_Abdulhamid_II.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD, PD_Old"
+      },
+      {
+        url:           "assets/gorseller/1876-08-31-abdulhamid2-balmoral-1867.jpg",
+        baslik:        "Şehzade Abdülhamid, Balmoral Şatosu, 1867",
+        gorsel_alt:    "Siyah-beyaz fotoğraf: fesli, bıyıklı genç Abdülhamid'in işlemeli, apoletli ve kuşaklı uniformayla, elinde eldiven ve yanında kılıçla koltukta oturduğu portre",
+        eser:          "Abdul Hamid II in Balmoral Castle in 1867 (Commons şablonu PD-Bain — Library of Congress, Bain koleksiyonu)",
+        sanatci:       "bulunamadı — Commons 'bilinmeyen yazar'",
+        yil:           "1867 (Commons beyanı)",
+        lisans:        "PD",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Abdul_Hamid_II_in_Balmoral_Castle_in_1867.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913b) · kategori PD-Bain · Commons API 'Public domain' · asıl alet 0913 RED verdi — önek kusuru, YANLIŞ NEGATİF",
+        not:           "Cülusundan 9 yıl önce, şehzadeyken (Sultan Abdülaziz'in 1867 Avrupa seyahati). Fotoğrafın Balmoral'da çekildiği Commons başlığının beyanı — ÖLÇÜLMEDİ. Wikimedia hız sınırı yüzünden 500 px standart küçük resim alındı."
+      },
+      {
+        url:           "assets/gorseller/1876-08-31-abdulhamid2-cuma-selamligi.jpg",
+        baslik:        "Yıldız (Hamidiye) Camii'nde cuma selamlığı, 1880-1893",
+        gorsel_alt:    "Kubbeli, tek minareli Hamidiye Camii'nin önünde sıra sıra askerler, atlılar ve arabalarla cuma selamlığı töreni; ön planda demir parmaklıklı bahçe kapısı",
+        eser:          "II. Abdülhamid fotoğraf albümleri (Commons şablonu PD-Abdul Hamid) — 'Cérémonie du Sélamlik', no. 694",
+        sanatci:       "Abdullah Frères",
+        yil:           "1880-1893",
+        lisans:        "PD",
+        gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Cuma_selaml%C4%B1%C4%9F%C4%B1_Abd%C3%BCl_Hamid_II_Hamidiye_Mosque_1.jpg",
+        kesinlik:      "cagdas",
+        lisans_olcum:  "KABUL (0913b) · kategori PD-Abdul_Hamid · asıl alet 0913 RED verdi — önek kusuru, YANLIŞ NEGATİF"
+      }
+    ]
+  },
+
+  // ══ GORSEL-DALGA2 · paket 0045 H-0002 — İMAR MADDELERİNE MİMARİ GÖRSEL ══
+  // Taslak: denetim/TASLAK-MIMARI-GORSEL-0913.json (KITA 23; 3 aday) + bu
+  // oturumun Commons araması (Sultanahmet · Selimiye · Nuruosmaniye).
+  // 🔴 `olay: []` olan iki kayıt BİLEREK BAĞLANMADI: maddelerinin `t:`si
+  //    "1566-01-01" ve o gün kronolojide ÜÇ madde var (Mostar Köprüsü ·
+  //    Mihrimah Camii · Naksa Dukalığı). app.js `find()` ilk kaydı üç
+  //    maddenin ÜÇÜNDE de gösterirdi — Naksa maddesinde Mostar köprüsü.
+  //    Hedef gün `bekleyen_olay`da; madde güne çekilince oraya taşınır.
+  {
+    id:            "1550-06-01-suleymaniye-camii",
+    tur:           "mimari",
+    olay:          ["1550-06-01", "1557-10-16"],
+    url:           "assets/gorseller/1550-06-01-suleymaniye-camii.jpg",
+    baslik:        "Süleymaniye Camii — photochrom, yaklaşık 1890-1900",
+    gorsel_alt:    "Renklendirilmiş photochrom baskıda Süleymaniye Camii'nin yan cephesi: kademeli kubbeler, revaklı galeriler ve şerefeli uzun minareler",
+    eser:          "Photochrom baskı — Library of Congress Prints & Photographs Division",
+    sanatci:       "bulunamadı — Commons fotoğrafçı belirtmiyor",
+    yil:           "yaklaşık 1890-1900",
+    lisans:        "PD-US",
+    gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque,_Istanbul.jpg",
+    kesinlik:      "donem-sonrasi-tasvir",
+    lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD, PD_US, PD_US_Government",
+    not:           "Commons sayfası ABD dışında kamu malı olmayabileceğini yazıyor; Türkiye telif hukuku ÖLÇÜLMEDİ (KITA 23 taslağı)."
+  },
+  {
+    id:            "1566-01-01-mostar-koprusu-1900",
+    tur:           "mimari",
+    olay:          [],
+    bekleyen_olay: ["1566-01-01"],
+    url:           "assets/gorseller/1566-01-01-mostar-koprusu-1900.jpg",
+    baslik:        "Mostar Köprüsü (özgün yapı), 1890-1905",
+    gorsel_alt:    "Renkli photochrom baskı: taş döşeli bir sokaktan görülen, Neretva üzerindeki tek kemerli Mostar Köprüsü, kıyıdaki taş evler ve arkada bir dağ",
+    eser:          "Photochrom baskı no. 16793 P.Z. — 'Mostar mit der alten Narentabrücke'",
+    sanatci:       "bulunamadı — Photoglob / Detroit Publishing baskısı, fotoğrafçı bilinmiyor",
+    yil:           "1890-1905 arası",
+    lisans:        "PD",
+    gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Mostar_Alte_Narentabruecke_1900.jpg",
+    kesinlik:      "donem-sonrasi-tasvir",
+    lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-Detroit, PD-US, PD_Switzerland_(old-unknown)",
+    not:           "1993'te yıkılmadan önceki ÖZGÜN köprüyü gösterir, 2004 yeniden yapımını değil."
+  },
+  {
+    id:            "1566-01-01-mihrimah-sultan-camii-edirnekapi",
+    tur:           "mimari",
+    olay:          [],
+    bekleyen_olay: ["1566-01-01"],
+    url:           "assets/gorseller/1566-01-01-mihrimah-sultan-camii-edirnekapi.jpg",
+    baslik:        "Edirnekapı Mihrimah Sultan Camii — kesit ve plan (Gurlitt, 1912)",
+    gorsel_alt:    "Mimari rölöve levhası: solda caminin kubbeli kesiti (Querschnitt), sağda avlulu zemin planı (Grundriss); üstte '20,c Moschee der Mihrimah, Edirne Kapu' başlığı",
+    eser:          "Cornelius Gurlitt'in Konstantinopolis mimarisi yayınından levha 20c",
+    sanatci:       "Cornelius Gurlitt (1850-1938) — levhada ayrıca bir çizer imzası var, OKUNAMADI",
+    yil:           "1912",
+    lisans:        "PD-old-80",
+    gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Mihrimah_Sultan_Mosque_Edirnekapi_Gurlitt_1912.jpg",
+    kesinlik:      "donem-sonrasi-tasvir",
+    lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-old-80-expired",
+    not:           "KITA 23 taslağı bunu 'fotoğraf' diye tarif ediyordu — görüntü açılınca bir ÇİZİM (kesit + plan) çıktı. Lisans Gurlitt'in ölümüne göre; levhadaki ikinci imzanın sahibi ve ölüm yılı ÖLÇÜLMEDİ."
+  },
+  {
+    id:            "1575-03-01-selimiye-camii-edirne",
+    tur:           "mimari",
+    olay:          ["1575-03-01"],
+    url:           "assets/gorseller/1575-03-01-selimiye-camii-edirne.jpg",
+    baslik:        "Edirne Selimiye Camii, 1920",
+    gorsel_alt:    "Cam negatiften siyah-beyaz fotoğraf: dört uzun minaresi ve merkezî kubbesiyle Selimiye Camii, önünde alçak ahşap evler ve sağda kubbeli küçük bir kâgir yapı",
+    eser:          "'Andrinople — la célèbre mosquée du sultan Sélim' (Bibliothèque nationale de France, Gallica btv1b9033769g)",
+    sanatci:       "Agence de presse Meurisse (Commons beyanı)",
+    yil:           "1920",
+    lisans:        "PD",
+    gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Andrinople_-_la_c%C3%A9l%C3%A8bre_mosqu%C3%A9e_du_sultan_S%C3%A9lim_-_btv1b9033769g.jpg",
+    kesinlik:      "donem-sonrasi-tasvir",
+    lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD, PD-1996, PD_France",
+    not:           "Yalnız 1575-03-01'e ('Selimiye Camii tamamlandı') bağlandı; 1568-01-01 ('inşaatın başlaması') kronolojide BEŞ maddeyle paylaşılıyor, oraya bağlamak görseli Hollanda/İsveç/Lehistan maddelerine de taşırdı."
+  },
+  {
+    id:            "1609-08-09-sultanahmet-camii",
+    tur:           "mimari",
+    olay:          ["1609-08-09", "1616-06-09"],
+    url:           "assets/gorseller/1609-08-09-sultanahmet-camii.jpg",
+    baslik:        "Sultan Ahmed Camii ve Atmeydanı, yaklaşık 1880",
+    gorsel_alt:    "Sepya tonlu fotoğraf: geniş Atmeydanı'nın ardında altı minaresi ve kademeli kubbeleriyle Sultan Ahmed Camii; solda Dikilitaş, sağda kemer kapılı kâgir bir yapı, meydanda birkaç yaya",
+    eser:          "'Mosquée du Sultan Ahmed' — Library of Congress (LCCN 2003677072)",
+    sanatci:       "Abdullah Frères",
+    yil:           "1880 (Commons beyanı)",
+    lisans:        "PD-old-100",
+    gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Mosque%C3%A9_du_Sultan_Ahmed_-_Abdullah_Fr%C3%A8res._LCCN2003677072.jpg",
+    kesinlik:      "donem-sonrasi-tasvir",
+    lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-old-100-expired"
+  },
+  {
+    id:            "1749-01-19-nuruosmaniye-camii",
+    tur:           "mimari",
+    olay:          ["1749-01-19", "1755-12-05"],
+    url:           "assets/gorseller/1749-01-19-nuruosmaniye-camii.jpg",
+    baslik:        "Nuruosmaniye Camii, 1888",
+    gorsel_alt:    "Sepya tonlu fotoğraf: Nuruosmaniye Camii'nin büyük kubbesi, kemerli pencereli kasnağı ve iki minaresi; önde kemerli bir revak ve altında duran kalabalık bir grup",
+    eser:          "'Mosquée Nouri-Osmanié' — Library of Congress (LCCN 2004666781)",
+    sanatci:       "Sébah & Joaillier",
+    yil:           "1888 (Commons beyanı)",
+    lisans:        "PD-old-100",
+    gorsel_kaynak: "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_Nouri-Osmani%C3%A9_-_S%C3%A9bah_%26_Joaillier._LCCN2004666781.jpg",
+    kesinlik:      "donem-sonrasi-tasvir",
+    lisans_olcum:  "KABUL (0913 + 0913b) · kategori PD-old-100-expired"
   }
 ];
