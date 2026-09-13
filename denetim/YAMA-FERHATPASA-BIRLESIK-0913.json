@@ -1,0 +1,364 @@
+{
+  "yazan": "FERHATPASA-KARAR",
+  "tarih": "2026-09-13",
+  "durum": "ÖNERİ — UYGULANMADI. Koşu aktif, data/yerlesimler*.js DONUK. Uygulayan Oturum 0 (D098), KOŞU SONRASI, oturumlar/KOSU10-SONRASI.md zincirinde.",
+  "rapor": "denetim/FERHATPASA-KARAR-UYGULA-0913.md",
+  "birlestirilen_yamalar": [
+    "denetim/YAMA-FERHATPASA-SEHIR-MATRISI-0913.json (kuzey: O-MEREND · O-SELMAS · O-GUMRU · O-TIFLIS-BAS)",
+    "denetim/YAMA-FERHATPASA-GUNEY-0913.json (A1 Hemedan · A2 Burûcird · A3 Luristan · A4 Nihâvend · C2 Kirmanşah)",
+    "denetim/YAMA-0047-FERHATPASA-BATI-0913.json (A0047-1 Kasr-ı Şîrîn · B0047-1..3 · C0047-1..3)",
+    "denetim/YAMA-AHAR-SARAB-MIYANE-0913.json (Ahar · Sarâb · Miyâne — KARAR BEKLİYOR)",
+    "denetim/YAMA-NIHAVEND-BAGLANTI-0913.json (Y1 Luristan · Y2 Burûcird · Y3 Kirmanşah · Y4 Nihâvend)",
+    "denetim/YAMA-KITA29-FERHATPASA-0913.json @69f110c (A1 Mâku · A2 Şerur · A3 Gence/Berde · C1 Revan · B1 Eçmiyadzin · C2 Gümrü) — 47895c4 sürümü KULLANILMADI"
+  ],
+  "uygulanan_emre_kararlari": {
+    "karar_1": "Hemedan ve Burûcird SAFEVÎ — ikisinin 1590-03-21→1603-10-21 Osmanlı d: dönemi SİLİNİR.",
+    "karar_2": "Bîcâr 'o dönemde yokmuş gibi' — kur: kasabalaşma tarihi (kaynakta YIL YOK → yüzyıl başı 1801-01-01), öncesi BOŞ.",
+    "karar_3": "Luristan 1589/1590'dan Osmanlı-TÂBİ (v:), renk değişimi TDV '1603' → t:1603-01-01. Monshi 1591-92 beyanı yerleşime DEĞİL kronolojiye (data/olaylar_p0048.js isyan maddesi).",
+    "karar_4": "Nihâvend Luristan üzerinden BAĞLI (enklav değil) — Nihâvend bitişi Luristan'la AYNI gün olmalı (şık A). Başlangıç TDV 996 sonları/1588 → Kütükoğlu hil'at 997 ≈ Ocak 1589 → 1589-01-01.",
+    "karar_5": "Kürt beylikleri (Merîvan/Erdelan · Bâne · Mahabad/Mukrî) ayrı künye DEĞİL — v: tâbi, `k:` YAZILMAZ (künye/renk araması doğmasın). Örtülü Sakkız · Serdeşt aynı biçim (komşularıyla tutarlı tâbi tonu; seçim koordinatörün).",
+    "karar_ahar_3tur": "Emre (13 Eylül 2026, üçüncü tur, koordinatör iletisi): AHAR şık B — Osmanlı tâbisi 1588 → 1603 (TR Kütükoğlu s.195 'Karacadağ' · RU Petrushevsky '1588-1603'). IR Eskandar Beg s.615 / 619-620 'Qaraja-dag was allotted to Iran' (1592) AYRIŞMA NOTU olarak kalır.",
+    "karar_kirmansah_3tur": "Emre (13 Eylül 2026, üçüncü tur): KİRMANŞAH OSMANLI KALIR — dönemi SİLİNMEZ. Kaynak doğrulaması bekliyor: KIRMANSAH-DOGRULA (TR · IR · RU · GE · HY · AZ gelenekleri).",
+    "sarab_miyane": "Emre (üçüncü tur): araştırıldığı gibi kalır — Sarâb KARARSIZ (değişiklik yok, karar_bekleyen), Miyâne SAFEVÎ (ASM şık A uygulandı: G-MIYANE, Osmanlı d: kaldırılır — uygulayan teyit etsin). Hat köşeleri 4-6 `gecici` KALIR."
+  },
+  "komsu_gunu_kurali": "CLAUDE.md §4 'ATLAS REFERANS DEĞİLDİR' şartlı komşu günü: ① komşunun günü KENDİ kaynağına dayanıyor (atlas dönemi/devralma değil) · ② hedef için kaynakta gün/yıl YOK · ③ aynı olay/süreç VE yakın konum · ④ kayda 'gün komşudan: <komşu> · <kaynak>' yazılır. YASAK: zincirleme (komşunun komşusu). Her komşu gününe dört şart ayrı ayrı uygulandı; biri tutmazsa `yeniden_kaynaklanacak:true`.",
+
+  "sayim": {
+    "degisiklik_kalemi": 23,
+    "kalemdeki_yerlesim": 24,
+    "sahipligi_degisen_yerlesim": "22 (G-GUMRU-KAYNAK yalnız kaynak alanı · G-KIRMANSAH değişiklik YOK)",
+    "karar_bekleyen_kalem": 2,
+    "komsudan_gun_ucu": 25,
+    "komsudan_gun_KORU": 9,
+    "komsudan_gun_YENIDEN_KAYNAKLANACAK": 16,
+    "komsudan_gun_net": "Nihâvend şık B (yalnız seçilirse) ve Kirmanşah (mevcut değer, KIRMANSAH-DOGRULA'ya devredildi) HARİÇ: 23 uç · KORU 9 · YENİDEN 14",
+    "kaynagin_kendi_gunu_ya_da_yil_kodu": 10,
+    "yeniden_kaynaklanacak_kalem": 8,
+    "yeni_kirilma_gunu": "1589-01-01 (AÇIK — madde isteği M1) · 1603-01-01 (KAPALI: data/olaylar_p0048.js) · 1578-08-24 (teknik kapalı, D147 — M3)",
+    "not": "Sayım bu dosyanın `gunler` dizilerinden BETİKLE çıkarıldı (py json; dayanak_turu=='komsu' ⇒ komşu ucu). İlk elle yazılan sayım (21/20/8/12/12) YANLIŞTI, betik düzeltti. Aynı uç iki kayıtta ayrı sayılır (Gence/Berde tek kalemde iki kayıt)."
+  },
+
+  "degisiklikler": [
+    {
+      "kod": "G-HEMEDAN", "ad": "Hemedan", "dosya": "data/yerlesimler.js (Hemedan kaydı)", "kaynak_yama": "GUNEY A1", "karar": "1",
+      "degisiklik": [{"alan": "d", "eski": [{"f": "1590-03-21", "t": "1603-10-21"}, {"f": "1724-08-31", "t": "1730-08-12"}], "yeni": [{"f": "1724-08-31", "t": "1730-08-12"}]}],
+      "s": "safevi 1508-01-01→1736-03-08 kesintisiz sürer (Değişmez 1: boşluk doğmaz)",
+      "kaynak_onerisi": "Eskandar Beg Monshi, çev. Savory, II s.587 (998/1590 'governor of Hamadan'), s.690 (1004/1595-96), s.824-825 (1011-12/1602-03 'Nehāvand is a dependency of Hamadan … governor of Hamadan, Hasan Khan') · Kütükoğlu 1962 s.195-196 antlaşma listesinde Hemedan YOK",
+      "gunler": [],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "silme yeni kırılma üretmez (1590-03-21 · 1603-10-21 başka kayıtlarda sürüyor); ⚠️ kaydın üstündeki yorum bloğu ('Hemedan Safevî duruyordu… Osmanlı yapıldı') bayatlar — yorum da düzeltilmeli"
+    },
+    {
+      "kod": "G-BURUCIRD", "ad": "Burûcird", "dosya": "data/yerlesimler.js (Burûcird kaydı)", "kaynak_yama": "GUNEY A2 şık a · NIHAVEND Y2", "karar": "1",
+      "degisiklik": [{"alan": "d", "eski": [{"f": "1590-03-21", "t": "1603-10-21", "y": "antlasma"}], "yeni": []}],
+      "s": "safevi 1503-01-01→1736-03-08 kesintisiz sürer",
+      "kaynak_onerisi": "Monshi/Savory s.643 ('make raids on Borüjerd' · Safevî Bayat askeri 1002/1593-94 Burûcird'de) · Osmanlı olduğuna dair kaynak BULUNAMADI (iki kol) · kaydın `neden` alanındaki 'Geçerli pencereler 1590-1603' ifadesi silinmeli",
+      "gunler": [],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "yeni kırılma yok"
+    },
+    {
+      "kod": "G-LURISTAN", "ad": "Luristan", "dosya": "data/yerlesimler.js (Luristan kaydı, tur:bolge, Hürremâbâd konumu)", "kaynak_yama": "GUNEY A3 · NIHAVEND Y1 — ikisinin 1592 şıkkı KARAR 3 İLE GEÇERSİZ", "karar": "3",
+      "degisiklik": [
+        {"alan": "d", "eski": [{"f": "1590-03-21", "t": "1603-10-21", "y": "antlasma"}], "yeni": []},
+        {"alan": "v", "eski": null, "yeni": [{"f": "1589-01-01", "t": "1603-01-01"}], "not": "`k:` YAZILMADI (karar 5 ruhu: künye araması doğmasın). s: safevi 1508→1736 kesintisiz altında sürer (Hemedan/Tebriz kalıbı)."}
+      ],
+      "kaynak_onerisi": "Kütükoğlu 1962 s.183: Şâhverdi 997/1589'da Eyvân menzilinde itaat etti (rapor özeti) · Monshi/Savory s.642-643: 'Sahverdi then became the vassal of the Ottoman governor of Baghdad' · TDV luristan (R. Kurtuluş, c.27 s.227 — bu oturumda okundu): 'Bir ara 998'de (1590) İstanbul'da yapılan antlaşmaya göre Osmanlı idaresine bağlanan Luristan'ı Şah I. Abbas Safevîler'e tam olarak bağladı (1603).'",
+      "gunler": [
+        {"uc": "v.f", "gun": "1589-01-01", "dayanak_turu": "yil-kodu", "dayanak": "Kütükoğlu s.183 — 997 (20 Kasım 1588–9 Kasım 1589); itaat ayı kaynakta yok ⇒ 1589 yıl kodu. ⚠️ 1589-01-01 997 içindedir ama itaatten ÖNCE düşebilir (ay bilinmiyor). Alternatif: f 1590-03-21 (Kütükoğlu s.195-196 antlaşma listesinde Luristan — belge günü, yeni kırılma yok) — AMA o zaman Nihâvend 1589-01→1590-03 arası ENKLAV çizilir (karar 4'e ters).", "sonuc": "KORU"},
+        {"uc": "v.t", "gun": "1603-01-01", "dayanak_turu": "yil-kodu", "dayanak": "TDV luristan '(1603)' — gün yok", "sonuc": "KORU"}
+      ],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "1589-01-01 🔴 AÇIK (en yakın madde 1588-09-01 Gence, 122 g) — madde isteği M1 · 1603-01-01 ✓ data/olaylar_p0048.js 'Luristan'ın Safevîlere kesin olarak geçmesi' (D147 sınandı: ±30 günde başka kırılma yok) · ⚠️ olaylar_ek2.js t:1603-10-21 Tebriz maddesi 'diğer yerleşimler: Nahçıvan, Luristan' diyor — Luristan o metinden çıkmalı"
+    },
+    {
+      "kod": "G-NIHAVEND", "ad": "Nihâvend", "dosya": "data/yerlesimler.js (Nihâvend kaydı)", "kaynak_yama": "GUNEY A4 şık a · NIHAVEND Y4 şık a", "karar": "4 + brif madde 7 ('Nihâvend başlangıcı TDV 1588/89')",
+      "degisiklik": [
+        {"alan": "d", "eski": {"f": "1590-03-21", "t": "1603-10-21"}, "yeni_sik_A_ONERIM": {"f": "1589-01-01", "t": "1603-01-01"}, "yeni_sik_B": {"f": "1589-01-01", "t": "1603-10-21"}},
+        {"alan": "neden", "not": "'Geçerli pencereler: 1590-03-21..1603-10-21' ifadesi yeni değerlerle güncellenmeli"}
+      ],
+      "kaynak_onerisi": "TDV nihavend--iran (İ. Sarıçam, c.33 s.98-99 — bu oturumda okundu): 'Bağdat Valisi Cigalazâde Sinan Paşa 996 (1588) yılı sonlarında Nihâvend üzerine yürüyüp şehri ele geçirdi ve burada bir kale inşa ettirdi.' · 'Şah I. Abbas 1603'te şehri ele geçirdi' · Kütükoğlu 1962 s.182 dn.124 (fetih hil'at hükmü 10 Rebîülevvel 997 ≈ Ocak 1589 sonu — çevirim NIHAVEND-BAGLANTI oturumunun) · Iranica NEHĀVAND 998/1589 kale · 1011/1602-03 Hasan Han kaleyi yıktı",
+      "gunler": [
+        {"uc": "d.f", "gun": "1589-01-01", "dayanak_turu": "yil-kodu", "dayanak": "TDV '996 (1588) yılı sonları' ⇒ 1588-01-01 fetihten ~10 ay ÖNCE düşer (§4 pencere şartı) · hil'at Ocak 1589 ⇒ 1589-01-01 fethin SONRASI, kaynak aralığında güvenli ilk yıl başı", "sonuc": "KORU"},
+        {"uc": "d.t (şık A)", "gun": "1603-01-01", "dayanak_turu": "yil-kodu", "dayanak": "TDV nihavend--iran '1603'te' · Iranica 1011 (Haziran 1602–Haziran 1603) aralığında. ⚠️ Monshi olayı Tavşan yılına (Nevruz 20 Mart 1603 sonrası) koyuyor — yıl kodu Nevruz'dan önce düşer; bildirildi. Luristan'la aynı gün ⇒ karar 4 bağlantısı korunur.", "sonuc": "KORU"},
+        {"uc": "d.t (şık B)", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [58]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "3_neden": "Monshi: Nihâvend kalesinin yıkımı Hemedan valisi Hasan Han'ın AYRI harekâtı, Azerbaycan seferinden (Eylül 1603) ÖNCE; Tebriz ~500 km", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"}
+      ],
+      "yeniden_kaynaklanacak": "yalnız şık B seçilirse true",
+      "degismez2": "1589-01-01 🔴 AÇIK — M1 (Luristan ile aynı madde) · şık A 1603-01-01 ✓ data/olaylar_p0048.js (madde metni Nihâvend'i ADIYLA anıyor — D147'ye karşı) · şık B 1603-10-21 teknik ✓ (Tebriz maddesi Nihâvend'i anmıyor — D147)"
+    },
+    {
+      "kod": "G-BICAR", "ad": "Bîcâr", "dosya": "data/yerlesimler.js (Bîcâr kaydı, 35.8728/47.6053)", "kaynak_yama": "0047 C0047-3 ek_bulgu_anakronizm", "karar": "2",
+      "degisiklik": [
+        {"alan": "kur", "eski": null, "yeni": "1801-01-01"},
+        {"alan": "s", "eski": [{"f": "1281-01-01", "t": "1340-01-01", "d": "ilhanli"}, {"f": "1340-01-01", "t": "1386-01-01", "d": "celayirli"}, {"f": "1386-01-01", "t": "1406-10-21", "d": "timurlu"}, {"f": "1406-10-21", "t": "1468-04-01", "d": "karakoyunlu"}, {"f": "1468-04-01", "t": "1501-07-01", "d": "akkoyunlu"}, {"f": "1501-07-01", "t": "1736-03-08", "d": "safevi"}, {"f": "1736-03-08", "t": "1747-06-20", "d": "afsar"}, {"f": "1747-06-20", "t": "1794-01-01", "d": "zend"}, {"f": "1794-01-01", "t": "1923-10-29", "d": "kacar"}], "yeni": [{"f": "1801-01-01", "t": "1923-10-29", "d": "kacar"}]},
+        {"alan": "kaynak", "eski": null, "yeni": "Encyclopaedia Iranica, «Bījār» (E. Ehlers, Vol. IV Fasc. 3 s.254, 1989): 'Mentioned in the 9th/15th century as a village belonging to the property of Shah Esmāʿīl, the first Safavid ruler, Bījār developed to the size of a town only in the 13th/19th century.' — kasabalaşma YILI bulunamadı; kur: yüzyıl hassasiyeti (13./19. yüzyılın iki takvimde ORTAK başlangıcı 1801). Emre kararı 13 Eylül 2026: 'o dönemde yokmuş gibi'."},
+        {"alan": "kesinlik", "yeni": "yuzyil", "not": "VERI-YAPISI emsali: Şırnak kur + kesinlik:'belirsiz'"}
+      ],
+      "arastirma": {
+        "bulunan": "Iranica BĪJĀR: 15. yy köy (Şah İsmâil mülkü) · kasaba boyutuna 'ancak 13./19. yüzyılda' — YIL YOK. Iranica ČAHĀRBĀḠ-E GARRŪS (M. Dabirsiyaqi, Vol. IV Fasc. 6 s.625, 1990): 1104/1692'de Garrūs valisi Lotf-ʿAlī Khan bugünkü Bîcâr'ın güneyindeki bahçede büyük bir köşk yaptırdı — metin Bîcâr'ın O TARİHTE kasaba olduğunu SÖYLEMİYOR (bugünkü konumu tarif ediyor).",
+        "bulunamadi": "Bîcâr'ın kasaba/şehir olarak ortaya çıktığı yıl · Garrūs valilik merkezinin Bîcâr'a taşınma tarihi · Iranica AMĪR NEẒĀM GARRŪSĪ (slug denendi, 404)",
+        "okumadim": "Farsça Garrūs/Bîcâr yerel tarihleri",
+        "oneri": "kur:1801-01-01 — brif kuralı: yıl bulunamazsa yüzyılın ilk yılı + not"
+      },
+      "sinir_notu": "Bîcâr kalkınca o topraklar petek kurallarıyla komşulara (Sakkız · Zencan · Hemedan · Kirmanşah) bölünür. Aday doğal sınır: Iranica BĪJĀR 'traversed by the rivers Safīdrūd and Talvār' — Talvār'ın gazetteer konumu ÖLÇÜLEMEDİ (GeoNames'te bu adla İran akarsu kaydı yok). veri-kaynak/ne_10m_rivers.geojson: Bîcâr'a 150 km içinde TEK adlı akarsu 'Qezel Owzan' (scalerank 9), en yakın noktası 36.01/47.558, 15,8 km — Iranica'nın 'Safīdrūd'uyla eşlemesi kaynakla YAPILMADI. Sınır rolü kaynaksız; motorun nehir yaslanması bu geometriyi zaten kullanıyorsa sınır oraya kendiliğinden yaslanabilir (ÖLÇÜLMEDİ).",
+      "gunler": [{"uc": "kur", "gun": "1801-01-01", "dayanak_turu": "yuzyil-kodu", "dayanak": "Iranica BĪJĀR '13th/19th century'", "sonuc": "KORU"}],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "kur: ve s: Osmanlı kırılması değil (Değişmez 2 dışı). ⚠️ Değişmez 2s (yabancı senkron) 1801-01-01 kacar başlangıcını kırılma sayabilir — koşu sonrası denetle.py DELTA ile ölçülecek · Değişmez 5 (dönem kur'dan önce) — yeni s: tam kur'da başlıyor"
+    },
+    {
+      "kod": "G-MERIVAN", "ad": "Merîvan", "dosya": "data/yerlesimler.js (~1770)", "kaynak_yama": "0047 B0047-1", "karar": "5",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1585-09-25"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "v", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}, "not": "d: DEĞİL v: (karar 5), `k:` yok"}
+      ],
+      "kaynak_onerisi": "Özcoşar & Açar 2024, Bingöl Üniv. SBE Dergisi 28:214-225 — BOA hükmü 15 Safer 990 / 11 Mart 1582 (Hasanabad ve yedi kale teslim) · Merivan Teymur Han'ın oğlu Murad'a sancak · Teymur Han 1590'da Safevî ordusuyla savaşta öldü",
+      "gunler": [
+        {"uc": "v.f", "gun": "1585-09-25", "dayanak_turu": "komsu", "komsu": "0047'de 'Mîyandoab/Merâga' — onların günü Tebriz'den DEVRALMA ⇒ ZİNCİRLEME; doğrudan Tebriz · TDV tebriz [54] ile sınandı", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": false, "2_neden": "hedefin KENDİ belgesi var: 11 Mart 1582 BOA hükmü (Osmanlı tasarrufu 1585'ten önce)", "3_ayni_surec_yakin": false, "3_neden": "Erdelan/Şehrizor cephesi, Tebriz seferi değil; ~380 km", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "v.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [58]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "3_neden": "Erdelan tâbiliğinin bitişi kaynakta YOK (0047 yazilamayan_bulgular); Tebriz'in geri alınışına bağlayan cümle okunmadı", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "degismez2": "iki gün de mevcut Tebriz maddeleriyle teknik KAPALI — D147: maddeler Merîvan'ı anmıyor. Yeniden kaynaklanınca yeni gün (ör. 1582-03-11) madde ister."
+    },
+    {
+      "kod": "G-BANE", "ad": "Bâne", "dosya": "data/yerlesimler_kalite4.js:43", "kaynak_yama": "0047 B0047-2", "karar": "5",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1585-09-25"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "v", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}}
+      ],
+      "kaynak_onerisi": "Özcoşar & Açar 2024 [138]: Şehrezor beylerbeyine 18 Rebîülâhir 993 / 19 Nisan 1585 hükmü (Bane beyi Osmanlı emrinde) · ⚠️ Iranica BĀNA [15] tarihsiz genelleme (İran şahları gözetimi) — çelişki bildirildi",
+      "gunler": [
+        {"uc": "v.f", "gun": "1585-09-25", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [54] (0047'de Merâga üzerinden — zincir)", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": false, "2_neden": "hedefin belgesi 19 Nisan 1585 Osmanlı emrini TEBRİZ'DEN ÖNCE gösteriyor — komşu günü kaynakla çelişir", "3_ayni_surec_yakin": false, "3_neden": "Şehrizor beylerbeyiliği süreci", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "v.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [58]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "degismez2": "teknik KAPALI (Tebriz maddeleri) — D147"
+    },
+    {
+      "kod": "G-MAHABAD", "ad": "Mahabad (Sâvücbulak)", "dosya": "data/yerlesimler_kalite4.js:36", "kaynak_yama": "0047 B0047-3", "karar": "5",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1585-09-25"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "v", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}},
+        {"alan": "kaynak", "yeni_ek": "gün komşudan: Tebriz · TDV tebriz [54] (25 Eylül 1585) ve [58] (21 Ekim 1603) — Iranica MOKRI TRIBE (Oberling) [22-26] Mukrî bağlılığını Osmanlıların Azerbaycan'ı alışına ve Şah Abbas'ın 1603'te geri alışına bağlıyor"}
+      ],
+      "gunler": [
+        {"uc": "v.f", "gun": "1585-09-25", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [54]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "3_neden": "Iranica MOKRI: 'Osmanlılar 1580'lerde Azerbaycan'ı alınca' Amira Bey bağlılık bildirdi — aynı süreç; Tebriz ~155 km (yakınlık SINIRDA, bildirildi)", "4_kayda_yazili": true}, "sonuc": "KORU"},
+        {"uc": "v.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [58]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "3_neden": "Iranica MOKRI: 'Şah Abbas 1603'te Azerbaycan'ı geri alınca' Şeyh Haydar şaha bağlandı", "4_kayda_yazili": true}, "sonuc": "KORU"}
+      ],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "teknik KAPALI (Tebriz maddeleri 1585-09-25 · 1603-10-21) — D147: Tebriz maddeleri Mukrî'yi anmıyor, metin genişletme isteği M4"
+    },
+    {
+      "kod": "G-SAKKIZ", "ad": "Sakkız", "dosya": "data/yerlesimler.js (~1766)", "kaynak_yama": "0047 C0047-1 (ÖRTÜLÜ)", "karar": "5 + örtülü kural",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1585-09-25"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "v", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}, "not": "ÖRTÜLÜ (enklav olamaz) — kaynak adıyla anmıyor"}
+      ],
+      "gunler": [
+        {"uc": "v.f", "gun": "1585-09-25", "dayanak_turu": "komsu", "komsu": "Tebriz (0047'de Merâga zinciri)", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "3_neden": "örtülü kayıt — hangi sürece bağlı olduğu kaynaksız; Emre örneği 'Bâne'nin günü Sakkız için' ama Bâne'nin kendi günü de yeniden kaynaklanacak (zincir yasağı)", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "v.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "sart": "Merîvan · Bâne · Mahabad ile BİRLİKTE iner (yalnız inerse enklav doğar — 0047 benzetimi)",
+      "degismez2": "teknik KAPALI — D147"
+    },
+    {
+      "kod": "G-SERDEST", "ad": "Serdeşt (Sardasht)", "dosya": "data/yerlesimler_kalite4.js:50", "kaynak_yama": "0047 C0047-2 (ÖRTÜLÜ)", "karar": "5 + örtülü kural",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1585-09-25"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "v", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}}
+      ],
+      "gunler": [
+        {"uc": "v.f", "gun": "1585-09-25", "dayanak_turu": "komsu", "komsu": "Tebriz (zincir)", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "v.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "sart": "Bâne ile BİRLİKTE",
+      "degismez2": "teknik KAPALI — D147"
+    },
+    {
+      "kod": "G-KASRISIRIN", "ad": "Kasr-ı Şîrîn", "dosya": "data/yerlesimler.js (~1776)", "kaynak_yama": "0047 A0047-1", "karar": "— (kaynaklı Osmanlı sancağı; kararla değişmedi)",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1503-01-01", "t": "1736-03-08"}, "yeni": [{"f": "1503-01-01", "t": "1534-12-04"}, {"f": "1623-11-28", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": [{"f": "1723-10-01", "t": "1730-08-12"}], "yeni": [{"f": "1534-12-04", "t": "1623-11-28"}, {"f": "1723-10-01", "t": "1730-08-12"}]}
+      ],
+      "kaynak_onerisi": "TDV bagdat [758-760]: 1578-1588 listelerinde Bağdat eyaletinin sancakları arasında Kasrışîrin",
+      "gunler": [
+        {"uc": "d.f", "gun": "1534-12-04", "dayanak_turu": "komsu", "komsu": "Hânekîn (0047) — Hânekîn'in günü Bağdat'tan devralma ⇒ ZİNCİR", "sart": {"1_komsu_kaynakli": false, "1_neden": "Hânekîn'in kendi kaynağı ölçülmedi; gün Bağdat fethinin günü. Doğrudan Bağdat'a bağlanırsa ①③ sağlanabilir (Kasr-ı Şirin Bağdat eyaleti sancağı) — Bağdat gününün kaynağı bu oturumda ÖLÇÜLMEDİ", "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": "ölçülmedi", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "d.t", "gun": "1623-11-28", "dayanak_turu": "komsu", "komsu": "Hânekîn (zincir)", "sart": {"1_komsu_kaynakli": false, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "3_neden": "Kalhor/Zohab kuşağı 1603-04'te Safevî'ye geçti (Monshi s.840, 851) — Kasr-ı Şirin'in Bağdat'la birlikte 1623'e kadar Osmanlı kaldığı kaynaksız", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "degismez2": "iki gün mevcut Bağdat maddeleriyle KAPALI (olaylar.js 1534-12-04 · olaylar_ek5.js 1623-11-28)"
+    },
+    {
+      "kod": "G-MEREND", "ad": "Merend", "dosya": "data/yerlesimler.js", "kaynak_yama": "SEHIR-MATRISI O-MEREND", "karar": "—",
+      "degisiklik": [{"alan": "d", "eski": null, "yeni": {"f": "1588-09-01", "t": "1603-10-21"}}],
+      "kaynak_onerisi": "Eskandar Beg Monshi, çev. Savory II s.582-583 (997/1588-89: Ja'far Pasha 'extended his jurisdiction over … Marand') · s.831-832 (Tebriz geri alındıktan sonra 'Jamšīd Sultan Donbolī … was made governor of Marand')",
+      "gunler": [
+        {"uc": "d.f", "gun": "1588-09-01", "dayanak_turu": "komsu", "komsu": "Gence · TDV murad-iii [114] / safeviler [210]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "3_neden": "Tebriz komutanı Ca'fer Paşa'nın Aras yakası harekâtı ≠ Ferhad Paşa'nın Gence seferi; Gence ~330 km. 'Meanwhile' eşzamanlılık bağı, süreç bağı değil. Kaynaklı yıl kodu adayı: 1588-01-01 (Sıçan yılı Mart 1588 başlar — Nevruz'dan önce düşer, bildirilmeli)", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "d.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [58]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "3_neden": "Eskandar s.831-832: Merend valisi Tebriz'in geri alınışının hemen ardından atanıyor; ~60 km", "4_kayda_yazili": "uygulayan yazacak: 'gün komşudan: Tebriz · TDV tebriz [58]'"}, "sonuc": "KORU"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "degismez2": "1588-09-01 teknik KAPALI (olaylar_ek5.js Gence) — D147 · 1603-10-21 KAPALI"
+    },
+    {
+      "kod": "G-SELMAS", "ad": "Selmâs (Dilman)", "dosya": "data/yerlesimler.js", "kaynak_yama": "SEHIR-MATRISI O-SELMAS (örtülü + dolaylı kaynak)", "karar": "—",
+      "degisiklik": [{"alan": "d", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}}],
+      "kaynak_onerisi": "Eskandar Beg II s.832 ('Ğāzī Beg was given Khoy and Salmās' — Tebriz'in geri alınışından sonra) · örtülü: Hoy · Kotur · Urmiye · Tebriz 1590'da Osmanlı",
+      "gunler": [
+        {"uc": "d.f", "gun": "1585-09-25", "dayanak_turu": "komsu", "komsu": "Hoy (matris) — Hoy'un başlangıcı KITA 29'da 'ölçülemedi' (TDV hoy gün vermiyor) ⇒ komşunun günü kendi kaynağına dayanmıyor", "sart": {"1_komsu_kaynakli": false, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "d.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [58] (Hoy üzerinden DEĞİL — zincir kırıldı)", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "3_neden": "Eskandar s.832: Selmâs Tebriz'in geri alınışından sonra dağıtılan yerler arasında; ~130 km (yakınlık sınırda)", "4_kayda_yazili": "uygulayan yazacak"}, "sonuc": "KORU"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "degismez2": "iki gün mevcut Tebriz maddeleriyle KAPALI — D147"
+    },
+    {
+      "kod": "G-TIFLIS", "ad": "Tiflis", "dosya": "data/yerlesimler.js", "kaynak_yama": "SEHIR-MATRISI O-TIFLIS-BAS", "karar": "—",
+      "degisiklik": [{"alan": "d", "eski": {"f": "1578-08-09", "t": "1606-01-01"}, "yeni": {"f": "1578-08-24", "t": "1606-01-01"}}],
+      "kaynak_onerisi": "TDV tiflis [112] · TDV gurcistan [391] — '24 Ağustos' 1578",
+      "gunler": [{"uc": "d.f", "gun": "1578-08-24", "dayanak_turu": "kaynak", "dayanak": "iki TDV maddesi gün veriyor", "sonuc": "KORU"}],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "1578-08-24 teknik KAPALI (Çıldır Zaferi 1578-08-09, 15 g) — D147: madde Tiflis'i anmıyor ⇒ madde isteği M3"
+    },
+    {
+      "kod": "G-MAKU", "ad": "Mâku", "dosya": "data/yerlesimler.js:1763", "kaynak_yama": "KITA29 A1", "karar": "—",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1574-01-01"}, {"f": "1639-05-17", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1574-01-01", "t": "1639-05-17"}}
+      ],
+      "kaynak_onerisi": "TDV maku [17] 1574 · [22-24] 1639 Kasrışîrin çerçevesinde Kotur ile birlikte yıkım",
+      "gunler": [
+        {"uc": "d.f", "gun": "1574-01-01", "dayanak_turu": "yil-kodu", "dayanak": "TDV maku '1574 yılında'", "sonuc": "KORU"},
+        {"uc": "d.t", "gun": "1639-05-17", "dayanak_turu": "komsu", "komsu": "KITA 29'da 'Kotur kaydının günü (D084)' — Kotur'un günü de antlaşma günü ⇒ zincir yerine doğrudan OLAYIN günü: Kasr-ı Şirin Antlaşması 17 Mayıs 1639 (olaylar.js)", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "3_neden": "TDV maku yıkımı 1639 Kasrışîrin çerçevesine bağlıyor — aynı antlaşma", "4_kayda_yazili": "uygulayan dayanağı 'Kotur' yerine 'Kasr-ı Şirin Antlaşması günü' yazmalı"}, "sonuc": "KORU", "uyari": "'IV. Murad'ın ölümünden sonra İranlılar tarafından tekrar işgal edildi' (1640-02-09 sonrası) — fiilî kayıp ≤9 ay sonra olabilir, KITA 13 'ölçülemedi'"}
+      ],
+      "yeniden_kaynaklanacak": false,
+      "on_kosul": "YAMA-KITA13-VAN-0913.json A grubu ÖNCE (D166)",
+      "degismez2": "1574-01-01 ✓ data/olaylar_p0044.js · 1639-05-17 ✓ olaylar.js"
+    },
+    {
+      "kod": "G-SERUR", "ad": "Şerur (Sharur)", "dosya": "data/yerlesimler_kalite4.js:56", "kaynak_yama": "KITA29 A2", "karar": "—",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1585-01-01"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1585-01-01", "t": "1603-10-21"}}
+      ],
+      "kaynak_onerisi": "BOA TD 633 (Kasım 1590) 'Şerür' kazası — Bilgili 2016 [52][85]",
+      "gunler": [
+        {"uc": "d.f", "gun": "1585-01-01", "dayanak_turu": "komsu", "komsu": "Nahçıvan — kendi günü 1585-01-01 yıl kodu, Bilge '1586' diyor, KITA 29 B2 BEKLET", "sart": {"1_komsu_kaynakli": false, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "d.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Nahçıvan → Tebriz (ZİNCİR)", "sart": {"1_komsu_kaynakli": false, "1_neden": "Nahçıvan'ın bitişi Tebriz gününden devralma", "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "3_neden": "Şerur Revan (1604-06-08) ile Nahçıvan (1603) arasında — hangisiyle düştüğü kaynaksız", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "degismez2": "1585-01-01 teknik KAPALI (olaylar_ek8.js 'Nahçıvan ve Ordubad' — Şerur'u anmıyor, D147) · 1603-10-21 KAPALI"
+    },
+    {
+      "kod": "G-GENCE-BERDE", "ad": ["Gence", "Berde (Karabağ)"], "dosya": ["data/yerlesimler.js:623", "data/yerlesimler.js:1973"], "kaynak_yama": "KITA29 A3", "karar": "—",
+      "degisiklik": [{"alan": "d", "eski": {"f": "1588-01-01", "t": "1606-01-01"}, "yeni": {"f": "1588-09-01", "t": "1606-01-01"}}],
+      "gunler": [
+        {"kayit": "Gence", "uc": "d.f", "gun": "1588-09-01", "dayanak_turu": "kaynak", "dayanak": "TDV murad-iii [114] · safeviler [210] '1 Eylül 1588'", "sonuc": "KORU"},
+        {"kayit": "Berde", "uc": "d.f", "gun": "1588-09-01", "dayanak_turu": "komsu", "komsu": "Gence · TDV murad-iii [114]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "3_neden": "TDV karabag [23]: bölge 'Gence'nin fethinin ardından kurulan eyaletin sınırları içindeydi'; ~75 km", "4_kayda_yazili": "uygulayan yazacak"}, "sonuc": "KORU"}
+      ],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "1588-09-01 ✓ olaylar_ek5.js 'Karabağ ve Gence'nin ilhakı' (gün taşınmış — ölçüldü)"
+    },
+    {
+      "kod": "G-REVAN", "ad": "Revan", "dosya": "data/yerlesimler.js:622", "kaynak_yama": "KITA29 C1", "karar": "1.MURAT ③",
+      "degisiklik": [{"alan": "d", "eski": {"f": "1583-06-01", "t": "1604-06-08"}, "yeni": {"f": "1583-09-13", "t": "1604-06-08"}}],
+      "gunler": [{"uc": "d.f", "gun": "1583-09-13", "dayanak_turu": "kaynak", "dayanak": "BOA A.DVNSMHM.d 51-322 (13 Eylül 1583) emir günü — Adlığ 2026 [268][491]", "sonuc": "KORU"}],
+      "yeniden_kaynaklanacak": false,
+      "bagli": "G-ECMIYADZIN ile AYRILMAZ",
+      "degismez2": "1583-09-13 ✓ olaylar_ek5.js 'Revan'ın fethi' (gün taşınmış — ölçüldü) · 1604-06-08 ✓"
+    },
+    {
+      "kod": "G-ECMIYADZIN", "ad": "Eçmiyadzin", "dosya": "data/yerlesimler_ek26.js:91", "kaynak_yama": "KITA29 B1 (69f110c değeri 1583-09-13)", "karar": "1.MURAT ②",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1583-09-13"}, {"f": "1604-06-08", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1583-09-13", "t": "1604-06-08"}}
+      ],
+      "gunler": [
+        {"uc": "d.f", "gun": "1583-09-13", "dayanak_turu": "komsu", "komsu": "Revan · BOA 51-322 (Adlığ 2026)", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "3_neden": "Karbi nahiyesi Revan eyaletinde (TD 633); 19 km", "4_kayda_yazili": "YAMA-KITA29 B1 kaynak alanında yazılı"}, "sonuc": "KORU"},
+        {"uc": "d.t", "gun": "1604-06-08", "dayanak_turu": "komsu", "komsu": "Revan · TDV revan + Adlığ 2026 [318-320]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": true, "4_kayda_yazili": "yazılı"}, "sonuc": "KORU"}
+      ],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "iki gün de KAPALI"
+    },
+    {
+      "kod": "G-GUMRU-KAYNAK", "ad": "Gümrü (Aleksandropol)", "dosya": "data/yerlesimler_ek26.js:87", "kaynak_yama": "KITA29 C2", "karar": "1.MURAT ③ — sahipliğe DOKUNMA",
+      "degisiklik": [{"alan": "kaynak", "eski": "ankraj Revan (86 km) — aynı zincir", "yeni": "ankraj Revan (86 km) — zincir Revan'ın Osmanlı dönemlerini ALMIYOR: bölgesi Şüregel 1590 Revan tahririnin kaza/nahiye listesinde YOK (BOA TD 633, Bilgili 2016 [52]; 1727 TD 901'de var [214]) · 1583-1604 sahibi için kaynak bulunamadı"}],
+      "gunler": [],
+      "yeniden_kaynaklanacak": false,
+      "degismez2": "sahiplik değişmiyor"
+    },
+    {
+      "kod": "G-AHAR", "ad": "Ahar (Karadağ)", "dosya": "data/yerlesimler.js", "kaynak_yama": "AHAR-SARAB-MIYANE ASM-AHAR şık B", "karar": "Emre üçüncü tur (koordinatör iletisi): şık B",
+      "degisiklik": [
+        {"alan": "d", "eski": [{"f": "1585-09-25", "t": "1603-10-21"}, {"f": "1725-08-04", "t": "1730-08-12"}], "yeni": [{"f": "1725-08-04", "t": "1730-08-12"}]},
+        {"alan": "v", "eski": null, "yeni": [{"f": "1588-01-01", "t": "1603-10-21"}], "not": "`k:` yazılmadı. s: safevi 1501-07-01→1736-03-08 kesintisiz altında sürer (1585-09-25→1588 arası Safevî: TR kaynaklı, ASM hükmü)."},
+        {"alan": "kaynak", "yeni_ek": "TR Kütükoğlu 1962 s.168 (Şahverdi Han'ın oğlunu Tebriz'e göndererek itaati) · s.195-196 ahidname: 998 Nevruzu'na kadar tasarruf edilen 'Karacadağ' korunur · RU Petrushevsky 1949 s.93-94, 168-169: 'при завоевании Азербайджана турками (1588), перешел на их сторону' — türk hâkimiyeti 1588-1603 · gün komşudan (t): Tebriz · TDV tebriz [58] · ⚠️ AYRIŞMA: IR Eskandar Beg, tr. Savory II s.615 (1000/1591-92 Azerbaycan sınır tahdidi) ve s.619-620 (1001/1592-93, Nevruz 17 Mart 1592 sonrası): 'Qaraja-dag was allotted to Iran', Şâhverdi Osmanlı topraklarına kaçtı, şah yeni vali atadı — Emre kararı TR+RU geleneğini izledi, taraf notu korunur"}
+      ],
+      "gunler": [
+        {"uc": "v.f", "gun": "1588-01-01", "dayanak_turu": "yil-kodu", "dayanak": "RU Petrushevsky '(1588)' · TR Kütükoğlu s.168 (1588 seferi) · IR Eskandar s.582 Sıçan yılı 997/1588-89 — üç gelenek aynı yıl. ⚠️ yıl kodu Cafer Paşa seferinden önce düşer (ay kaynakta yok)", "sonuc": "KORU"},
+        {"uc": "v.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [58]", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "2_neden": "Petrushevsky yalnız '1603' yılı veriyor", "3_ayni_surec_yakin": true, "3_neden": "Karacadağ'ın bağlılığı Tebriz'deki Cafer Paşa'ya (Kütükoğlu s.168 · Eskandar s.582); Petrushevsky bitişi 'Kızılbaşların 1603'te Azerbaycan'ı yeniden fethine' bağlıyor — Tebriz'in düştüğü sefer; ~95 km", "4_kayda_yazili": "yukarıdaki kaynak ekinde 'gün komşudan: Tebriz · TDV tebriz [58]'"}, "sonuc": "KORU"}
+      ],
+      "yeniden_kaynaklanacak": false,
+      "sinir_hatti": "hukuki_sinirlar ferhad-pasa-1590-sinir-hatti köşe 3 `gecici` KALDIRILDI (bu oturum); Ahar hattın Osmanlı tarafında 1590-1603 boyunca",
+      "degismez2": "1588-01-01 teknik KAPALI (olaylar_ek14.js 'Hünernâme'nin II. cildi' — İLGİSİZ, D147) ⇒ madde isteği M7 · 1603-10-21 KAPALI (Tebriz maddesi Ahar'ı anmıyor — M4'e eklendi). ⚠️ Kaldırılan 1585-09-25 başlangıcı başka kayıtlarda sürüyor (Tebriz) — açık doğmaz."
+    },
+    {
+      "kod": "G-MIYANE", "ad": "Miyâne", "dosya": "data/yerlesimler.js", "kaynak_yama": "AHAR-SARAB-MIYANE ASM-MIYANE şık A", "karar": "Emre üçüncü tur: 'araştırıldığı gibi — Miyâne SAFEVÎ'",
+      "degisiklik": [{"alan": "d", "eski": [{"f": "1585-09-25", "t": "1603-10-21"}, {"f": "1725-08-04", "t": "1730-08-12"}], "yeni": [{"f": "1725-08-04", "t": "1730-08-12"}]}],
+      "kaynak_onerisi": "IR Eskandar/Savory II s.828: Eylül 1603'te Erdebil valisi Zü'l-fikar Han'a şahla Miyâne'de buluşma emri (Safevî toplanma yeri) · 1585-1603 Osmanlı tasarruf kaynağı YOK · TDV tebriz [184] 1593 livâ listesinde Miyâne YOK (liste tam değil) · ⚠️ açık kalem: Germrud sancağı 996'da Osmanlı ataması (Kütükoğlu s.196) — Miyâne hükmünü zayıflatabilecek tek kalem, OKUNMADI",
+      "gunler": [],
+      "yeniden_kaynaklanacak": false,
+      "sinir_hatti": "köşe 5-6 `gecici` KALIR (koordinatör iletisi)",
+      "degismez2": "silme yeni kırılma üretmez (1585-09-25 · 1603-10-21 başka kayıtlarda sürüyor)",
+      "uygulayan_teyidi": "koordinatör iletisi 'stay as researched' diyor; araştırmanın önerisi (şık A) burada uygulandı — uygulayan teyit etsin"
+    },
+    {
+      "kod": "G-KIRMANSAH", "ad": "Kirmanşah", "dosya": "data/yerlesimler.js (Kirmanşah kaydı)", "kaynak_yama": "GUNEY C2 · NIHAVEND Y3 — ikisinin 'SİL' şıkkı UYGULANMAZ", "karar": "Emre üçüncü tur: OSMANLI KALIR",
+      "durum": "Osmanlı kalır (Emre kararı) · kaynak doğrulaması bekliyor: KIRMANSAH-DOGRULA",
+      "degisiklik": [],
+      "mevcut": {"d": [{"f": "1590-03-21", "t": "1603-10-21"}, {"f": "1723-10-01", "t": "1730-08-12"}]},
+      "not": "Dönem SİLİNMEZ. KIRMANSAH-DOGRULA sonucu gün değişikliği getirirse (ör. 1590-03-21 antlaşma günü yerine kaynaklı bir yıl) Değişmez 2 maddesi o zaman istenir. Dayanak bugün: Monshi/Savory s.840, 851 (Kalhor beyleri Bağdat'a bağlı 1603-04'e kadar — şehrin kendisi adıyla YOK) · kaydın mevcut `kaynak` alanı 'bulunamadı'.",
+      "gunler": [
+        {"uc": "d.t", "gun": "1603-10-21", "dayanak_turu": "komsu", "komsu": "Tebriz · TDV tebriz [58] (mevcut değer)", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "3_neden": "Kalhor/Zohab kuşağı Allāhverdī Han'ın 1012/1603-04 seferiyle düştü (Monshi s.840, 851) — Tebriz seferi değil; ~420 km", "4_kayda_yazili": false}, "sonuc": "yeniden_kaynaklanacak (KIRMANSAH-DOGRULA'ya devredildi)"}
+      ],
+      "yeniden_kaynaklanacak": "KIRMANSAH-DOGRULA sonucuna bağlı",
+      "sinir_hatti": "köşe 8 (Kirmanşah↔Bîcâr) ve 9 (Kirmanşah↔Hemedan) KORUNUR",
+      "degismez2": "değişiklik yok ⇒ yeni kırılma yok"
+    }
+  ],
+
+  "karar_bekleyen": [
+    {"ad": "Sarâb", "kaynak_yama": "ASM-SARAB", "karar": "Emre üçüncü tur: araştırıldığı gibi KARARSIZ", "secenek_A": "BEKLET (değişiklik yok)", "secenek_B": "d 1585-09-25→1603-10-21 kaldır (çıkarım-zayıf)", "sinir_hatti": "köşe 4 `gecici` KALIR"},
+    {"ad": "Gümrü — O-GUMRU sahiplik", "kaynak_yama": "SEHIR-MATRISI O-GUMRU", "catisma": "1.MURAT C2 'dokunma' kararıyla ÇELİŞİR", "gunler": "1583-09-13 / 1604-06-08 Revan'dan — ③ TUTMUYOR (Şüregel 1590 tahririnde yok) ⇒ uygulanırsa yeniden_kaynaklanacak:true"}
+  ],
+
+  "uygulanmayan_ve_neden": [
+    "GUNEY A3 şık a/b ve NIHAVEND Y1 şık a/b (Luristan t 1592/1593/1594) — KARAR 3: renk değişimi 1603",
+    "GUNEY sinir_hatti_guney_1593 + hukuki_sinirlar guney_1593_varyant (Nihâvend adası) — KARAR 4: enklav değil; C kaydından KALDIRILDI",
+    "0047 B0047 v: k:'Erdelan Emirliği' / 'Mukrî Beyliği' (künye+renk) — KARAR 5: yeni künye yok",
+    "0047 C0047-3 'Bîcâr: dokunma' — KARAR 2 geçersiz kıldı",
+    "GUNEY A4 şık a f:1588-01-01 — fetihten ~10 ay önce (§4 pencere); yerine 1589-01-01",
+    "GUNEY madde isteği 1592-01-01 (Şâhverdi) — karar 3 ile 1592-01-01 ISYAN maddesi olarak YAZILDI (data/olaylar_p0048.js), kırılmaya bağlı değil (ilk yazım 1591-01-01 iki yabancı kırılmayı sahte kapattı — D147, taşındı)",
+    "AHAR-SARAB-MIYANE ASM-AHAR şık A (v 1588→1592, Eskandar) — Emre üçüncü tur şık B'yi seçti; Eskandar s.615/619-620 ayrışma notu olarak G-AHAR'da",
+    "GUNEY C2 / NIHAVEND Y3 şık a (Kirmanşah d: SİL) — Emre üçüncü tur: Osmanlı kalır, KIRMANSAH-DOGRULA bekleniyor"
+  ],
+
+  "degismez2_madde_istekleri": [
+    {"id": "M1", "gun": "1589-01-01", "kirilma": "Luristan v.f · Nihâvend d.f", "konu": "Cığalazâde Sinan Paşa'nın Nihâvend'i alıp kale kurması ve Luristan hâkimi Şâhverdi'nin Eyvân'da Osmanlı'ya itaati (Bağdat beylerbeyine tâbi)", "kaynak": "TDV nihavend--iran ('996 (1588) yılı sonlarında … kale inşa ettirdi') · Kütükoğlu 1962 s.182-183", "durum": "AÇIK — yama ile BİRLİKTE inmeli; bugün yazılsa kırılmasız madde olur (2t)"},
+    {"id": "M2", "gun": "1603-01-01", "kirilma": "Luristan v.t · Nihâvend d.t (şık A)", "durum": "YAZILDI — data/olaylar_p0048.js 'Luristan'ın Safevîlere kesin olarak geçmesi' (metin Nihâvend'i de adıyla anıyor)"},
+    {"id": "M3", "gun": "1578-08-24", "kirilma": "Tiflis d.f", "konu": "Osmanlı ordusunun Tiflis'i savaşsız alması", "kaynak": "TDV tiflis [112] · TDV gurcistan [391]", "durum": "teknik kapalı (Çıldır 15 g), D147 — madde istenir"},
+    {"id": "M7", "gun": "1588-01-01", "kirilma": "Ahar v.f (G-AHAR)", "konu": "Karacadağ hâkimi Şâhverdi Han'ın Tebriz'deki Cafer Paşa'ya itaati ve oğlunu rehin göndermesi", "kaynak": "TR Kütükoğlu 1962 s.168 · IR Eskandar Beg, tr. Savory II s.582 (997/1588-89) · RU Petrushevsky 1949 s.168-169 '(1588)'", "durum": "teknik kapalı (olaylar_ek14.js 'Hünernâme'nin II. cildi' aynı gün — İLGİSİZ), D147 — yama ile BİRLİKTE madde istenir. Madde metni Eskandar s.615/619-620 '1592'de Karadağ İran'a bırakıldı' ayrışmasını da AÇIKÇA yazmalı (Emre üçüncü tur)."},
+    {"id": "M4", "gun": "1585-09-25 · 1603-10-21", "kirilma": "Mahabad · Ahar (t) (+ yeniden kaynaklanmazsa Merîvan · Bâne · Sakkız · Serdeşt · Selmâs)", "konu": "mevcut Tebriz maddelerinin (olaylar_ek2.js) metnine Kürt kuşağı/Mukrî bağlılığı eklenmesi — dosya sahibi koordinatör", "durum": "D147 önlemi"},
+    {"id": "M5", "gun": "1603-10-21", "konu": "olaylar_ek2.js Tebriz maddesinin 'diğer yerleşimler: Nahçıvan, Luristan' listesinden Luristan'ın çıkarılması (yama inince)", "durum": "metin düzeltmesi"},
+    {"id": "M6", "gun": "yeniden kaynaklanan her yeni gün", "durum": "14 uç (net; şık B ve Kirmanşah hariç) yeniden kaynaklanınca yeni günler kendi maddelerini ister — bugün sayılamaz"}
+  ],
+
+  "kosu_sonrasi_sart": [
+    "Sıra: KOSU10-SONRASI §1 — KITA 13 Van A → Bitlis → KITA 29 (G-MAKU · G-SERUR · G-GENCE-BERDE · G-REVAN+G-ECMIYADZIN birlikte) → bu dosyanın güney/batı kalemleri",
+    "BİRLİKTE inecek gruplar: {G-LURISTAN, G-NIHAVEND, M1} · {G-MERIVAN, G-BANE, G-MAHABAD, G-SAKKIZ, G-SERDEST} · {G-REVAN, G-ECMIYADZIN} · {G-AHAR, M7}",
+    "G-KIRMANSAH değişiklik İÇERMEZ — KIRMANSAH-DOGRULA sonucu gelmeden Kirmanşah kaydına dokunulmaz",
+    "yeniden_kaynaklanacak:true olan kalemler kaynak bulunmadan inerse günleri KAYDA 'gün komşudan — şart ③ tutmadı' diye yazılmalı; tercih: kaynak aranana kadar BEKLET",
+    "py arac/denetle.py (DELTA) — özellikle Değişmez 2 · 2s (Bîcâr kur) · 2t (p0048 maddeleri kırılmaya oturmalı: 2t −1) · Değişmez 5 (Bîcâr kur)",
+    "py arac/renk_olc.py (§9 — Luristan d→v tâbi tonu, Kürt kuşağı komşuluğu değişiyor)",
+    "benzetim: Nihâvend'in 1589-01-01→1590-03-21 ve 1603-01-01 çevresinde Luristan peteğine BİTİŞİK olduğu petek düzeyinde ÖLÇÜLMEDİ (§2 emilme)"
+  ]
+}

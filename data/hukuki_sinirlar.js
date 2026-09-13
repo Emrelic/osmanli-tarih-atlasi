@@ -443,7 +443,7 @@ window.HUKUKI_SINIRLAR = [
       kaynak: "TDV gurcistan [417-418]: '1603'te Şah I. Abbas Tiflis şehrini Osmanlılar'dan geri alıp …'" },
     { ad: "Luristan", lat: 33.4870, lon: 48.3560, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
       kaynak: "TDV luristan [35]",
-      not: "🔴 C-FERHATPASA-HAT (13 Eylül): kaydın t:1603-10-21'i Luristan için KAYNAKLA ÇELİŞİYOR — Monshi/Savory s.643-644 Luristan'ı 1000/1591-92'de Safevî'ye bağlanmış, 1002/1593-94'te Hürremâbâd'ı Safevî işgalinde veriyor; TDV luristan '1603'. GUNEY §⑦① — taraf SEÇİLMEDİ, işaret DEĞİŞTİRİLMEDİ." },
+      not: "🟢 EMRE KARARI (13 Eylül 2026, ikinci tur, madde 3 — oturumlar/FERHATPASA-SINIR-0913.md): Luristan 1590'da OSMANLI-TÂBİ (Bağdat beylerbeyine bağlı — Kütükoğlu 1962 s.183 · Monshi/Savory s.642-643) gösterilir; haritada renk değişimi TDV luristan '(1603)'. ⇒ Bu işaret kaydın 1603 kapanışına kadar KALIR. İki gelenek kronolojide açıkça yazıldı: data/olaylar_p0048.js — 1592-01-01 isyan (Şâhverdi'nin Safevî'ye bağlılık beyanı, Monshi 1000/1591-92) · 1603-01-01 kayıp (TDV). ⚠️ Kayıt t:1603-10-21 Tebriz günüdür; Luristan'ın yerleşim yaması t:1603-01-01 önerir (denetim/YAMA-FERHATPASA-BIRLESIK-0913.json). Ayrışma (Monshi 1593-94 Hürremâbâd işgali) not olarak durur, taraf seçimi Emre'nin." },
     { ad: "Mâku", lat: 39.2942, lon: 44.5142, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
       kaynak: "TDV maku [17]", not: "1590 KAZANCI DEĞİL, 1574'ten beri Osmanlı ocaklığı; statükoyla tescillendi — atlas bugün safevi, YAMA-KITA29 A1" },
     // 🆕 C-FERHATPASA-HAT (13 Eylül 2026) — GUNEY kolunun Osmanlı ADASI.
@@ -451,7 +451,7 @@ window.HUKUKI_SINIRLAR = [
     { ad: "Nihâvend (kale)", lat: 34.1908, lon: 48.3744, taraf: "osmanli", guven: "kesin", kaynak_turu: "kronik+ansiklopedi",
       kaynak: "TDV nihavend--iran [94-100]: 996 (1588) sonları kale + beylerbeyilik · Monshi/Savory s.583, 618 (barıştan sonra şah kaleye dokunmadı), s.824 (1593-1603 Safevî toprağıyla çevrili: 'come and go freely to the fort') · Iranica NEHĀVAND 998/1589 → 1011/1602-03",
       konum_kaynagi: "GeoNames Nahavand 34°11′27″N 48°22′28″E (şehir merkezi; kalenin kendi konumu ARANMADI)",
-      not: "Kaydın t:1603-10-21'i Nihâvend için KAYNAKLI DEĞİL: düşüş Iranica 1011/1602-03, GUNEY '1603 ortası' — gün yok. 1593'ten sonra Luristan Safevî ⇒ bu nokta bir ENKLAV (bkz. ferhad-pasa-1590-sinir-hatti guney_1593_varyant)." }
+      not: "🟢 EMRE KARARI (13 Eylül 2026, ikinci tur, madde 4): Nihâvend batısı ve güneyindeki topraklarla Osmanlı ana karasına BAĞLI — Luristan 1603'e kadar Osmanlı(-tâbi) gösterildiği için bağlantı sürer ⇒ ENKLAV DEĞİL; sınır Nihâvend ile Hemedan arasından geçer (ferhad-pasa-1590-sinir-hatti köşe 10-11). Kaydın t:1603-10-21'i Nihâvend için KAYNAKLI DEĞİL: TDV nihavend--iran 'Şah I. Abbas 1603'te şehri ele geçirdi' (yıl) · Iranica 1011/1602-03 — gün yok. ⚠️ AYRIŞMA NOTU (taraf seçilmedi): Monshi/Savory s.824 kaleye 'Safevî aşiret topraklarından geçerek' gidildiğini yazar (1593-1603 enklav tarifi) · Kütükoğlu 1962 s.198 1591/92 sınır görüşmesinde nahiyelerin Osmanlı'da kaldığını yazar — ikisi rapor notu olarak durur (denetim/OLCUM-NIHAVEND-BAGLANTI-0913.md)." }
     ] // nokta_atamalari sonu
   }, // hat sonu
 
@@ -539,7 +539,7 @@ window.HUKUKI_SINIRLAR = [
   t_kaynak: "TDV tebriz [58]: 'Osmanlılar 21 Ekim 1603 tarihine kadar Tebriz'i kontrolleri altında tuttular.' — statükonun ilk fiilî kırılması",
   t_hukuki: "1612-11-20",
   t_hukuki_kaynak: "TDV nasuh-pasa [73]: '26 Ramazan 1021'de (20 Kasım 1612) ... barış yapıldı.'",
-  t_uyari: "🔴 GÜNEY KESİMİ 1603'e kadar GEÇERLİ DEĞİL: Luristan 1592/93'te Safevî'ye döndü (Monshi/Savory s.643-644: 1000/1591-92 bağlılık, 1002/1593-94 Hürremâbâd) ↔ TDV luristan '1603' — ÇELİŞKİ, GUNEY §⑦①, gün kaynakta YOK. O tarihten sonra köşe 10-13 yerine `guney_1593_varyant` geçerli. Tek kayıt kaldı çünkü değişim günü kaynaksız (uydurulmadı); gün kararı verilince kayıt ikiye bölünmeli. Nihâvend kalesinin düşüşü de 1603-10-21'den ÖNCE olabilir (Iranica NEHĀVAND 1011/1602-03; GUNEY '1603 ortası').",
+  t_uyari: "🟢 EMRE KARARI (13 Eylül 2026, ikinci tur — oturumlar/FERHATPASA-SINIR-0913.md madde 3-4): harita TDV luristan'ın 1603'ünü izler ⇒ güney kesimi (köşe 10-13) kaydın sonuna kadar TEK hat; 1592/93 bölme planı ve `guney_1593_varyant` KALDIRILDI. Luristan 1603'e kadar Osmanlı-tâbi, Nihâvend onun üzerinden bağlı (enklav değil). Monshi/Savory s.642-644 geleneği (1000/1591-92 bağlılık beyanı · 1002/1593-94 Hürremâbâd işgali) kronolojide AÇIKÇA yazıldı: data/olaylar_p0048.js (1592-01-01 isyan · 1603-01-01 kayıp). ⚠️ Kaydın t:1603-10-21'i Tebriz günüdür; Luristan ve Nihâvend için kaynak YIL veriyor (TDV luristan '(1603)' · TDV nihavend--iran '1603'te' · Iranica NEHĀVAND 1011/1602-03) — güney kesiminin fiilen 1603-10-21'den ÖNCE kapandığı bilinir, gün kaynaksız, kayıt bölünmedi.",
 
   hat: {
     tur: "dogal-tanimsiz",
@@ -554,8 +554,9 @@ window.HUKUKI_SINIRLAR = [
       { ad: "2 · Aras üzerinde Hudâferin köprüleri", lat: 39.15, lon: 46.9416, dogrulanmadi: false,
         hukum_dayanagi: "HY Arakʻel of Tabriz, tr. Bournoutian 2010, s.31: Osmanlı paşaları 'controlled all the land up to Khudafrin' — kaynakta ADIYLA geçen sınır ögesi",
         konum_kaynagi: "Wikipedia 'Khudafarin Bridges' 39°09′00″N 46°56′30″E; bağımsız teyit: veri-kaynak/ne_10m_rivers.geojson 'Aras' geometrisi bu noktadan 1,0 km geçiyor (bu oturum ölçtü)" },
-      { ad: "3 · Karadağ/Ahar ↔ Meşkin", lat: 38.4381, lon: 47.3758, dogrulanmadi: true, gecici: true, bekleyen: "ASM-ARASTIRMA (Ahar · Sarâb · Miyâne dokuz gelenek çalışması — 13 Eylül koordinatör notu; sonuca göre güncellenecek)",
-        hukum_dayanagi: "Ahar OSMANLI-tâbi — Eskandar Beg, tr. Savory II s.582-583 · Kütükoğlu 1962 'Karacadağ' ║ Meşkinşehr BELİRSİZ (kaynak yok)",
+      { ad: "3 · Karadağ/Ahar ↔ Meşkin", lat: 38.4381, lon: 47.3758, dogrulanmadi: true,
+        not: "🟢 EMRE KARARI (13 Eylül 2026, üçüncü tur — koordinatör iletisi): AHAR şık B — Osmanlı TÂBİSİ 1588 → 1603 (TR Kütükoğlu 1962 s.195 ahidname listesinde 'Karacadağ' · RU Petrushevsky 1949 s.93-94, 168-169 'türk hâkimiyeti 1588-1603'). Ahar 1590-1603 penceresinin TAMAMINDA Osmanlı tarafında ⇒ `gecici` KALDIRILDI. ⚠️ AYRIŞMA NOTU (taraf seçilmedi): IR Eskandar Beg, tr. Savory II s.615 (1000/1591-92 Azerbaycan sınır tahdidi) ve s.619-620 (1001/1592-93): 'Qaraja-dag was allotted to Iran', Şâhverdi Osmanlı topraklarına kaçtı, şah yeni vali atadı (denetim/OLCUM-AHAR-SARAB-MIYANE-0913.md, D104).",
+        hukum_dayanagi: "Ahar OSMANLI-tâbi 1588-1603 (Emre kararı, şık B) — Eskandar Beg, tr. Savory II s.582-583 (997/1588-89 itaat) · Kütükoğlu 1962 s.195 'Karacadağ' · Petrushevsky 1949 '1588-1603' ║ Meşkinşehr BELİRSİZ (kaynak yok)",
         konum_kaynagi: "GeoNames: Ahar 38°28′38″N 47°04′11″E · Meshgin Shahr 38°23′56″N 47°40′55″E — orta nokta",
         bant: "Meşkin belirsiz ⇒ hat Meşkin ile Erdebil arasına kayabilir" },
       { ad: "4 · Sarâb ↔ Erdebil", lat: 38.0952, lon: 47.9149, dogrulanmadi: true, gecici: true, bekleyen: "ASM-ARASTIRMA (Ahar · Sarâb · Miyâne dokuz gelenek çalışması — 13 Eylül koordinatör notu; sonuca göre güncellenecek)",
@@ -568,25 +569,31 @@ window.HUKUKI_SINIRLAR = [
         hukum_dayanagi: "Miyâne BELİRSİZ ║ Zencan SAFEVÎ — Eskandar Beg (1585) · TDV zencan (0047)",
         konum_kaynagi: "GeoNames: Mīāneh · Zanjan 36°40′35″N 48°29′46″E — orta nokta" },
       { ad: "7 · 36°K devir: Sakkız ↔ Bîcâr", lat: 36.0582, lon: 46.9392, dogrulanmadi: true,
-        hukum_dayanagi: "Sakkız OSMANLI ÖRTÜLÜ (Emre'nin enklav kuralı, kaynak yok — 0047 C0047-1) ║ Bîcâr BELİRSİZ (0047) — KAYNAKLI UÇ YOK",
-        konum_kaynagi: "GeoNames: Saqqez 36°14′59″N 46°16′24″E · Bījār 35°52′00″N 47°36′18″E — orta nokta" },
+        hukum_dayanagi: "Sakkız OSMANLI ÖRTÜLÜ (Emre'nin enklav kuralı, kaynak yok — 0047 C0047-1) ║ Bîcâr 1590'da ŞEHİR DEĞİL — KAYNAKLI UÇ YOK",
+        konum_kaynagi: "GeoNames: Saqqez 36°14′59″N 46°16′24″E · Bījār 35°52′00″N 47°36′18″E — orta nokta",
+        not: "🟢 EMRE KARARI (13 Eylül 2026, ikinci tur madde 2): Bîcâr 'o dönemde yokmuş gibi' — Iranica BĪJĀR (E. Ehlers, Vol. IV Fasc. 3 s.254, 1989): 'Mentioned in the 9th/15th century as a village … Bījār developed to the size of a town only in the 13th/19th century.' Kasabalaşma YILI kaynakta YOK ⇒ yerleşim yaması kur:1801-01-01 (yüzyıl hassasiyeti) ÖNERİR (denetim/YAMA-FERHATPASA-BIRLESIK-0913.json). Bu köşe artık bir yerleşim ÇİFTİNİN değil, KAYNAKSIZ bir kuşak ortasının işaretidir; o topraklar petek/bölgeleme kurallarıyla bölünür. Aday doğal sınır: Iranica BĪJĀR 'traversed by the rivers Safīdrūd and Talvār' (Garrūs ilçesi) — Talvār'ın gazetteer konumu ÖLÇÜLEMEDİ (GeoNames 'talvar' aramasında İran'da bu adla akarsu kaydı yok; en yakın benzer ad 'Rūdkhāneh-ye Tālūrā' 35.9986/48.0571 — eşdeğerliği DOĞRULANMADI). veri-kaynak/ne_10m_rivers.geojson'da Bîcâr'a 150 km içinde TEK adlı akarsu: 'Qezel Owzan' (scalerank 9), en yakın noktası 36.01/47.558, Bîcâr'a 15,8 km (bu oturum ölçtü) — Qezel Owzan'ın Iranica'nın 'Safīdrūd'u olduğu (yukarı çığır) kaynakla EŞLENMEDİ ⇒ köşe TAŞINMADI." },
       { ad: "8 · Kirmanşah ↔ Bîcâr", lat: 35.0904, lon: 47.335, dogrulanmadi: true,
-        hukum_dayanagi: "Kirmanşah OSMANLI ÖRTÜLÜ (Kalhor beyleri Bağdat'a bağlı, Monshi s.840 — dolaylı) ║ Bîcâr BELİRSİZ — KAYNAKLI UÇ YOK. ⚠️ Ardalan/Pelengân (Küpeli 2010: Osmanlı beylerbeyiliği) bu kesimde, gazetteer konumu ARANMADI.",
-        konum_kaynagi: "GeoNames: Kermanshah 34.31416N 47.06500E · Bījār — orta nokta" },
+        hukum_dayanagi: "Kirmanşah OSMANLI ÖRTÜLÜ (Kalhor beyleri Bağdat'a bağlı, Monshi s.840 — dolaylı) · 🟢 EMRE KARARI (13 Eylül 2026, üçüncü tur): OSMANLI KALIR — kaynak doğrulaması bekliyor: KIRMANSAH-DOGRULA ║ Bîcâr 1590'da ŞEHİR DEĞİL (Emre kararı 2, köşe 7 notu) — KAYNAKLI UÇ YOK. ⚠️ Ardalan/Pelengân (Küpeli 2010: Osmanlı beylerbeyiliği) bu kesimde, gazetteer konumu ARANMADI.",
+        konum_kaynagi: "GeoNames: Kermanshah 34.31416N 47.06500E · Bījār — orta nokta",
+        not: "Emre kararı 5 (13 Eylül 2026): Kürt beylikleri ayrı beylik gösterilmez, Osmanlı tâbisi. Ölçüldü (bu oturum, en yakın segment çapraz çarpımı): Bâne · Merîvan · Mahabad · Sakkız · Serdeşt · Senendec hattın OSMANLI tarafında; Bîcâr SAFEVÎ tarafında (~55 km). Köşe değişmedi." },
       { ad: "9 · Kirmanşah ↔ Hemedan", lat: 34.5567, lon: 47.7897, dogrulanmadi: true,
         hukum_dayanagi: "Kirmanşah ÖRTÜLÜ ║ Hemedan SAFEVÎ — Monshi/Savory s.587·690·825 (Safevî valileri) · Iranica NEHĀVAND · Kütükoğlu madde listesinde Hemedan YOK",
-        konum_kaynagi: "GeoNames: Kermanshah · Hamadan 34°47′57″N 48°30′52″E — orta nokta" },
+        konum_kaynagi: "GeoNames: Kermanshah · Hamadan 34°47′57″N 48°30′52″E — orta nokta",
+        not: "🟢 EMRE KARARI (13 Eylül 2026, ikinci tur madde 1): Hemedan SAFEVÎ." },
       { ad: "10 · Nihâvend ↔ Hemedan", lat: 34.495, lon: 48.4444, dogrulanmadi: true,
         hukum_dayanagi: "Nihâvend kalesi OSMANLI — TDV nihavend--iran [94-100] · Monshi s.583 · Iranica NEHĀVAND ║ Hemedan SAFEVÎ (köşe 9)",
-        konum_kaynagi: "GeoNames: Nahavand 34°11′27″N 48°22′28″E · Hamadan — orta nokta" },
+        konum_kaynagi: "GeoNames: Nahavand 34°11′27″N 48°22′28″E · Hamadan — orta nokta",
+        not: "🟢 EMRE KARARI (13 Eylül 2026, ikinci tur madde 4): Nihâvend batısı ve güneyindeki topraklarla Osmanlı ana karasına BAĞLI (Luristan 1603'e kadar Osmanlı) ⇒ ENKLAV DEĞİL; sınır Nihâvend ile Hemedan arasından geçer — bu köşe O çizgidir, kaydın sonuna kadar geçerli. ⚠️ AYRIŞMA NOTU: Monshi/Savory s.824 (1602-03: kaleye 'Safevî aşiret topraklarından geçerek' gidiliyor — enklav tarifi) · Kütükoğlu 1962 s.198 (1591/92 sınır görüşmesi: Safevî'nin 'yalnız kaleye yol' talebi reddedildi, nahiyeler Osmanlı'da kaldı) — ikisi denetim/OLCUM-NIHAVEND-BAGLANTI-0913.md'de, taraf seçilmedi. `gecici` alanı bu köşede YOKTU (ölçüldü) — temizlenecek bir şey çıkmadı." },
       { ad: "11 · Nihâvend ↔ Burûcird", lat: 34.044, lon: 48.5629, dogrulanmadi: true,
-        hukum_dayanagi: "Nihâvend OSMANLI ║ Burûcird Safevî — Monshi s.643-644 (1593 bağlamı; 1590 için 'SAFEVÎ?')",
-        konum_kaynagi: "GeoNames: Nahavand · Borūjerd 33°53′50″N 48°45′05″E — orta nokta" },
+        hukum_dayanagi: "Nihâvend OSMANLI ║ Burûcird SAFEVÎ — Monshi s.643-644 (1002/1593-94 Safevî seferberliği Burûcird'de); Osmanlı olduğuna dair kaynak BULUNAMADI (GUNEY A2 · NIHAVEND-BAGLANTI Y2)",
+        konum_kaynagi: "GeoNames: Nahavand · Borūjerd 33°53′50″N 48°45′05″E — orta nokta",
+        not: "🟢 EMRE KARARI (13 Eylül 2026, ikinci tur madde 1): Burûcird SAFEVÎ. Madde 4: sınır Nihâvend ile Burûcird arasından geçer. `gecici` YOKTU (ölçüldü)." },
       { ad: "12 · Luristan (Hürremâbâd) ↔ Burûcird", lat: 33.6925, lon: 48.5536, dogrulanmadi: true,
-        hukum_dayanagi: "Luristan OSMANLI-tâbi 1590 — Monshi s.643 · TDV luristan [35] · Iranica CHRONOLOGY ║ Burûcird (köşe 11)",
-        konum_kaynagi: "GeoNames: Khorramabad 33.48777N 48.35583E (bölge merkezi olarak — bölge→nokta eşlemesi ÇIKARIM) · Borūjerd — orta nokta" },
+        hukum_dayanagi: "Luristan OSMANLI-tâbi 1590 — Kütükoğlu 1962 s.183 · Monshi s.642-643 · TDV luristan · Iranica CHRONOLOGY ║ Burûcird SAFEVÎ (köşe 11)",
+        konum_kaynagi: "GeoNames: Khorramabad 33.48777N 48.35583E (bölge merkezi olarak — bölge→nokta eşlemesi ÇIKARIM) · Borūjerd — orta nokta",
+        not: "🟢 EMRE KARARI (13 Eylül 2026, ikinci tur madde 3): Luristan 1590'da Osmanlı ⇒ Osmanlı(-tâbi) gösterilir, haritada renk değişimi TDV luristan '(1603)'. Luristan ile Burûcird arasındaki çizgi kaydın sonuna kadar geçerli (1592/93 bölme planı KALDIRILDI). Monshi geleneği (1000/1591-92 bağlılık · 1002/1593-94 Hürremâbâd) data/olaylar_p0048.js'te." },
       { ad: "13 · Luristan ↔ Dizfûl", lat: 32.9344, lon: 48.3807, dogrulanmadi: true,
-        hukum_dayanagi: "Luristan OSMANLI-tâbi ║ Dizfûl SAFEVÎ — Monshi s.593, 675 · TDV huzistan [74-75]",
+        hukum_dayanagi: "Luristan OSMANLI-tâbi (Emre kararı 3, 1603'e kadar) ║ Dizfûl SAFEVÎ — Monshi s.593, 675 · TDV huzistan [74-75]",
         konum_kaynagi: "GeoNames: Khorramabad · Dezful 32°22′52″N 48°24′20″E — orta nokta" },
       { ad: "14 · Kût ↔ Dizfûl", lat: 32.4469, lon: 47.1119, dogrulanmadi: true,
         hukum_dayanagi: "Kût OSMANLI ÖRTÜLÜ ║ Dizfûl SAFEVÎ (köşe 13)",
@@ -613,20 +620,17 @@ window.HUKUKI_SINIRLAR = [
       { ad: "Halepçe | Merîvan (GUNEY düğüm 2)", lat: 35.350, lon: 46.082, neden: "Merîvan 0047'de KAYNAKLI Osmanlı-tâbi — aynı sebep. Koordinat atlas orta noktasıydı." },
       { ad: "Mahmudâbâd | Lenkeran (KUZEY köşe 1)", lat: 39.067, lon: 49.046, neden: "Mahmudâbâd hükmü BELİRSİZ ve GeoNames'te kaydı YOK; kaynaklı Bakü↔Lenkeran çiftiyle değiştirildi. Koordinat atlas orta noktasıydı." }
     ],
-    guney_1593_varyant: {
-      gecerlilik: "Luristan'ın Safevî'ye dönüşünden (1592/93, GÜN KAYNAKSIZ) 1603'e kadar — ÇİZİLMEZ, gün kararı bekliyor",
-      degisim: "köşe 9'dan sonra köşe 10-13 YERİNE aşağıdaki iki köşe, sonra köşe 14'ten devam",
-      nokta_dizisi: [
-        { ad: "Kirmanşah | Luristan", lat: null, lon: null, dogrulanmadi: true,
-          hukum_dayanagi: "Monshi/Savory s.644-645: Şâhverdî 'Ottoman territory'ye kaçtı; Kür-kûh 'on the border between Lorestan and Baghdad province'",
-          not: "GUNEY kolunun koordinatı (33.901,47.710) ATLAS orta noktasıydı — Emre ilkesi gereği ALINMADI. Kür-kûh'un gazetteer konumu ARANMADI." },
-        { ad: "Kût | Luristan", lat: null, lon: null, dogrulanmadi: true,
-          not: "GUNEY kolunun koordinatı (33.000,47.087) ATLAS orta noktasıydı — ALINMADI" }
-      ],
-      osmanli_adasi: { ad: "Nihâvend kalesi", lat: 34.1908, lon: 48.3744,
-        hukum_dayanagi: "Monshi/Savory s.824: 'about every ten days the Ottomans would march through their tribal territory and come and go freely to the fort' — kaynak ENKLAVI tarif ediyor",
-        konum_kaynagi: "GeoNames: Nahavand 34°11′27″N 48°22′28″E (şehir; kalenin kendi konumu ARANMADI)",
-        not: "İşaret noktası ferhad-pasa-istanbul-1590 kaydının nokta_atamalari'na eklendi (bu hat türü nokta çizmez)." }
+    // 🟢 `guney_1593_varyant` KALDIRILDI (FERHATPASA-KARAR, 13 Eylül 2026) —
+    // Emre kararı ikinci tur madde 3-4: harita Luristan'da TDV'nin 1603'ünü
+    // izler, Nihâvend enklav DEĞİL. Varyantın kaynak dayanakları not olarak:
+    emre_kararlari_notu: {
+      kaynak: "oturumlar/FERHATPASA-SINIR-0913.md — 'Emre'nin kararları (13 Eylül, ikinci tur)' madde 1-5",
+      kaldirilan: "guney_1593_varyant (Luristan'ın 1592/93 Safevî'ye dönüşünden sonra köşe 10-13 yerine 'Kirmanşah|Luristan' · 'Kût|Luristan' köşeleri ve 'Nihâvend kalesi' Osmanlı adası). İki köşenin koordinatı zaten null'dı (atlas orta noktası alınmamıştı); bölme günü kaynaksızdı.",
+      ayrisma_notu: "Taraf seçilmedi, not olarak durur: (1) Monshi/Savory s.824 (1602-03): 'about every ten days the Ottomans would march through their tribal territory and come and go freely to the fort' — kaynak Nihâvend'i Safevî toprağıyla çevrili tarif ediyor. (2) Kütükoğlu 1962 s.198 dn.190-192 (1591/92 sınır görüşmesi): Safevî'nin 'yalnız kaleye yol' talebi reddedildi, Nihâvend nahiyeleri Osmanlı'da kaldı. (3) Monshi/Savory s.642-645: 1000/1591-92 Şâhverdi'nin Safevî'ye bağlılığı, 1002/1593-94 Hürremâbâd işgali, Kür-kûh 'on the border between Lorestan and Baghdad province'. Kronolojide: data/olaylar_p0048.js.",
+      kurt_beylikleri: "Karar 5: Kürt beylikleri ayrı beylik GÖSTERİLMEZ, Osmanlı tâbisi. Hat tarafı ölçüldü (bu oturum): Bâne · Merîvan · Mahabad · Sakkız · Serdeşt hattın OSMANLI tarafında — değişiklik gerekmedi.",
+      ahar: "Üçüncü tur kararı (koordinatör iletisi, 13 Eylül 2026): Ahar şık B — Osmanlı tâbisi 1588→1603 (TR Kütükoğlu s.195 'Karacadağ' · RU Petrushevsky '1588-1603'); köşe 3 `gecici` KALDIRILDI. IR Eskandar Beg s.615 / 619-620 'Qaraja-dag was allotted to Iran' (1592) ayrışma notu olarak köşe 3'te.",
+      kirmansah: "Üçüncü tur kararı: Kirmanşah OSMANLI KALIR (köşe 8-9 korunur) — kaynak doğrulaması bekliyor: KIRMANSAH-DOGRULA.",
+      acik: "Sarâb (köşe 4, araştırıldığı gibi KARARSIZ) · Miyâne (köşe 5-6, araştırmaya göre SAFEVÎ) `gecici` KALIR."
     }
   },
 
