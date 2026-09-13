@@ -119,6 +119,14 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       P-0058-b Zagem aynı gün · P-0019-a Ahdar noktası (çek).
       ⚠️ Birleşik Ferhat Paşa yaması Gümrü/Eçmiyazin'in YALNIZ 1583-1604 penceresini kapsıyor — 1724-35 penceresi
       (A6C H-0088 sorusu) AYRI açık kalem, ölçülmedi.
+- [ ] **A4 sefer kayıtlarının B kalemleri** (`denetim/PAKET-A4-SEFER-0913.md`): Bayburt yerleşim noktası YOK (fethi Ekim
+      1514, anahtarlar ~24 Ekim) · `yer_yama_zaza.js` Kiğı 1515'e kadar Safevî — TDV 1514 dönüşünde teslim · 11 eksik
+      madde (ör. 1514-11-24 Yavuz'un Amasya'ya dönüşü). Günü KAYNAKSIZ mevcut maddeler: `1595-08-23` Kalûgerân
+      (TDV eflak gün vermiyor; Önal, Koca Sinan Paşa s.390-395 okunacak) · `1594-10-05` üç voyvodalık · `1811-09-03`
+      Tosun (ay → gün şişmiş). Kılıç (remzikilic.com, yayın künyesi yok) §4 ara bölge — basılı sürümü aranacak.
+- [ ] **DENETİM BORCU — `denetle.py savas_senkronu()`** en yakın maddeyi AD BAKMADAN eşliyor: 1595-01-01 Kalûgerân
+      işareti alakasız Ahmednagar maddesiyle SAHTE kapanıyordu (A4 ölçtü; D147'nin savaş işareti yüzü). Koşu 10
+      zinciri denetle.py'yi kullandığı için koşu SONRASI düzeltilecek.
 - [ ] **A3 Uzun Hasan 1468 · Ahıska 1578** — madde + yerleşim birlikte (`denetim/YAMA-A3-0913.json`, A3 teslim edince).
 
 ## 5-2 · Kirmanşah 1588-1604 (KIRMANSAH-DOGRULA, M-3813) — 🟢 EMRE KARARI: DOĞRUDAN OSMANLI

@@ -184,7 +184,8 @@ window.SAVASLAR = [
 { t:"1453-05-29", tur:"kusatma", ad:"İstanbul kuşatması",        taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:41.01, lon:28.95, taraf:["osmanli","bizans"], galip:"osmanli" },
 { t:"1473-08-11", tur:"meydan", ad:"Otlukbeli",                 taraf_metin:"Akkoyunlu",         sonuc:"zafer",   seri:"",        lat:39.97, lon:40.00, taraf:["osmanli","akkoyunlu"], galip:"osmanli" },
 { t:"1480-08-11", tur:"meydan", ad:"Otranto çıkarması",         taraf_metin:"Napoli",            sonuc:"belirsiz",seri:"venedik", lat:40.15, lon:18.49, taraf:["osmanli","napoli"] },
-{ t:"1514-08-23", tur:"meydan", ad:"Çaldıran",                  taraf_metin:"Safevî",            sonuc:"zafer",   seri:"safevi",  lat:39.09, lon:43.91, taraf:["osmanli","safevi"], galip:"osmanli" },
+{ t:"1514-08-23", tur:"meydan", ad:"Çaldıran",                  taraf_metin:"Safevî",            sonuc:"zafer",   seri:"safevi",  lat:39.065, lon:44.384, taraf:["osmanli","safevi"], galip:"osmanli",
+  konum_kaynagi:"PAKET-A4 13 Eylül 2026 — gazetteer: OpenStreetMap Nominatim node/879415755 (Siah Çeşme / Çaldıran, Batı Azerbaycan, İran). ESKİ: lat:39.09, lon:43.91 (Türkiye tarafı, bugünkü Çaldıran ilçesi; ~40 km batı, kaynaksız). NEDEN: TDV `caldiran-savasi` \"Osmanlı ordusu 23 Ağustos günü İran Azerbaycanı'nda Çaldıran ovasına geldi\" · Remzi Kılıç \"Makû ile Hoy arasında Tebriz'e yirmi fersah mesafedeki Çaldıran\" — ikisi de İran tarafını gösteriyor; SEFERLER a4-caldiran-gidis-1514 okunun ucu da bu noktada." },
 // ---- MEMLÜK'Ü BİTİREN İKİ MUHAREBE — 21 Ağustos 2026 -----------------------
 // 🔴 İKİSİ DE HARİTADA İŞARETSİZDİ ve bunu MEMLÜK KRONOLOJİ oturumu bildirdi:
 // *"Mercidâbık ve Ridâniye — Memlük'ün iki en önemli savaşı — haritada nokta
@@ -224,6 +225,22 @@ window.SAVASLAR = [
 { t:"1578-08-04", tur:"meydan", ad:"Vâdisseyl (Kasrülkebir)",   taraf_metin:"Portekiz — Üç Krallar Savaşı", sonuc:"zafer", lat:35.08, lon:-5.83, taraf:["fas","portekiz"], galip:"fas" },
 { t:"1578-08-09", tur:"meydan", ad:"Çıldır",                    taraf_metin:"Safevî",            sonuc:"zafer",   seri:"safevi",  lat:41.13, lon:43.13, taraf:["osmanli","safevi"], galip:"osmanli" },
 { t:"1583-05-09", tur:"meydan", ad:"Meşaleler Savaşı",          taraf_metin:"Safevî",            sonuc:"zafer",   seri:"safevi",  lat:41.05, lon:49.20, taraf:["osmanli","safevi"], galip:"osmanli" },
+// PAKET-A4 ek iş (A1'den devir) — parti-emrelic-0021/H-0030 · 1594 voyvodalık ayaklanmaları
+// ve 1595 Kalûgerân. Koordinat: OpenStreetMap Nominatim. Adlar KASTEN ortak kök taşımıyor:
+// `isyanYayilmaUret()` (app.js) " (" öncesi kökü aynı olan isyan kayıtlarını YAYILMA oku ile
+// bağlıyor — kaynak "Erdel'den Eflak'a yayıldı" demiyor, o ok UYDURMA olurdu.
+// 🔴 ERDEL VE KALÛGERÂN İŞARETLERİ YAZILMADI (koordinatör hükmü, 13 Eylül 2026 · §4 pencere
+// şartı): ikisinin de GÜNÜ akademik kaynakta bulunamadı ve YIL kodu (1594-01-01 / 1595-01-01)
+// işareti olaydan aylar önce çizdiriyordu — Kalûgerân seferin kaynaklı başından (1595-07-18)
+// bile önce. Kaba tarih olay aralığının DIŞINA düşürüyorsa yazılmaz.
+//   Erdel     TDV `bogdan` "1594'te" · Heper 2021 "1594 yılı ortalarında" — gün yok
+//   Kalûgerân TDV `bukres` yalnız "(1595)"; Alkan 2013 · Özçelik 2025 · Kaçan Erdoğan 2022 gün
+//             vermiyor. Sefer okunda (a4-sinan-eflak-ilerleyis-1595) İSTASYON olarak duruyor.
+//             ⇒ Önal, *Koca Sinan Paşa*, s. 390-395 okununca GÜNLE geri gelir.
+{ t:"1594-11-13", tur:"isyan", ad:"Eflak ayaklanması — Mihail'in Bükreş'te isyanı (1594)", taraf_metin:"Eflak Voyvodalığı (Mihail)", sonuc:"belirsiz", seri:"habsburg", lat:44.436, lon:26.103, taraf:["osmanli","eflak"],
+  kaynak:"Yusuf Heper, \"Osmanlı-Rumen Kaynakları Perspektifinden Ferhad Paşa'nın Eflâk Seferine Tayini ve Yapılan Askerî Hazırlıklar (1595)\", GTTAD 5/10 (Temmuz 2023): \"13 Kasım 1594 tarihinde Bükreş'te Osmanlı Devleti'ne karşı fiilen isyan eden Mihail\" · Heper 2021: \"13 Kasım 1594 tarihinde Eflak ve Boğdan'da eş zamanlı olarak başlayan isyanlar\" · Mevlüde Gökçen Daş Darıcı, \"Eflak-Boğdan-Erdel Voyvodaları ve Osmanlı İstihbaratına Dair Rolleri\" (2019): \"Eflak voyvodası Mihal … ve Boğdan voyvodası Aron Tranul Osmanlı Devleti'ne isyan ederek\" (yıl 1594)" },
+{ t:"1594-11-13", tur:"isyan", ad:"Boğdan ayaklanması — Aron Voyvoda'nın Yaş'ta isyanı (1594)", taraf_metin:"Boğdan Voyvodalığı (Aron)", sonuc:"belirsiz", seri:"habsburg", lat:47.162, lon:27.584, taraf:["osmanli","bogdan"],
+  kaynak:"Heper 2021: \"13 Kasım 1594 tarihinde Eflak ve Boğdan'da eş zamanlı olarak başlayan isyanlar\" · bogdan (TDV): \"1594 yılı sonlarında Yaş ve Bükreş'te prensten alacağı olan bütün Türk ve Rumlar öldürüldü. Boğdan askerleri Dobruca'ya girdi.\" — Yaş noktası TDV'nin Boğdan için adını verdiği yer" },
 { t:"1596-10-26", tur:"meydan", ad:"Haçova",                    taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:47.82, lon:20.72, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1600-10-22", tur:"kusatma", ad:"Kanije kuşatması",          taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:46.45, lon:16.99, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1620-09-17", tur:"meydan", ad:"Cecora (Ţuţora)",           taraf_metin:"Lehistan",          sonuc:"zafer",   seri:"lehistan",lat:47.10, lon:27.75, taraf:["osmanli","lehistan"], galip:"osmanli" },
@@ -628,10 +645,30 @@ window.SEFERLER = [
 // gün sapıyordu). TDV `selim-i` (gövde okundu): "Edirne'den İran seferi
 // için yola çıktı (23 Muharrem 920 / 20 Mart 1514)." Aynı gün zaten
 // data/olaylar_p0043b.js'te bir kronoloji maddesi olarak da var.
-{ ad:"Çaldıran seferi (1514)", tur:"sefer", sonuc:"zafer",      f:"1514-03-20", t:"1514-10-01",
-  kaynak:"selim-i (TDV): \"Edirne'den İran seferi için yola çıktı (23 Muharrem 920 / 20 Mart 1514).\"",
-  yol:[[26.56,41.68],[29.02,41.02],[31.61,40.74],[34.04,41.02],[35.83,40.65],[36.55,40.31],
-       [37.02,39.75],[39.49,39.75],[41.27,39.90],[42.67,39.62],[43.91,39.09]] },
+// PAKET-A4 (13 Eylül 2026) — parti-emrelic-0033/H-0018 (Emre: "tebrize giderken
+// hangi yoldan gidildi … tebriz ele geçirildikten sonra neler oldu"). Bu kayıt
+// ÜÇE BÖLÜNDÜ: gidiş (Edirne→Çaldıran) · Tebriz'e yürüyüş · dönüş (Tebriz→Amasya).
+// 🔴 GÜZERGÂH DÜZELTİLDİ: eski yol genel "Anadolu Orta Kol"du (Bolu-Tosya-Amasya-
+// Tokat) ve KAYNAKSIZDI. TDV `caldiran-savasi`: "Osmanlı ordusu Yenişehir, Seyitgazi
+// ve Konya üzerinden Sivas'a geldi" · TDV `selim-i`: "İzmit'ten hareket edip
+// Konya'ya, oradan Kayseri üzerinden Sivas'a ulaştı … (2 Temmuz)" · "Erzincan"
+// ve "Eleşkirt ovası" (caldiran-savasi). Üsküdar ve Erzurum (Kara-konak, 5 Ağustos)
+// yalnız Remzi Kılıç'ta (aşağıda). `t` 1514-10-01 kaynaksızdı → 23 Ağustos (Çaldıran).
+// Koordinatlar: OpenStreetMap Nominatim (gazetteer) — denetim/PAKET-A4-SEFER-0913.md.
+// Çaldıran ovası 44.384,39.065 (Siah Çeşme/Çaldıran, İran; TDV "İran Azerbaycanı'nda",
+// Kılıç "Makû ile Hoy arasında"). ⚠️ SAVASLAR'daki ⚔ işareti 43.91,39.09'da
+// (Türkiye tarafı, ~40 km batı) — DOKUNULMADI, raporda B kalemi.
+{ id:"a4-caldiran-gidis-1514", ad:"Çaldıran seferi (1514)", tur:"sefer", sonuc:"zafer",      f:"1514-03-20", t:"1514-08-23",
+  kaynak:"selim-i (TDV): \"Edirne'den İran seferi için yola çıktı (23 Muharrem 920 / 20 Mart 1514).\" · \"İzmit'ten hareket edip Konya'ya, oradan Kayseri üzerinden Sivas'a ulaştı ve burada asker sayımı yaptırdı (9 Cemâziyelevvel / 2 Temmuz)\" · caldiran-savasi (TDV): \"Osmanlı ordusu Yenişehir, Seyitgazi ve Konya üzerinden Sivas'a geldi.\" · \"Erzincan'da şaha ikinci bir mektup gönderen Selim\" · \"yeniçeriler Eleşkirt ovasında padişahın otağına kurşun atacak kadar ileri gittiler\" · \"Osmanlı ordusu 23 Ağustos günü İran Azerbaycanı'nda Çaldıran ovasına geldi\" · Remzi Kılıç (Prof., Erciyes Ü.), \"Yavuz Sultan Selim'in Çaldıran Seferi ve Sonrası Gelişmeler (1514-1517)\", remzikilic.com (yayın künyesi sayfada yok): \"20 Nisan 1514'de … Üsküdar'a geçmiştir\" · \"5 Ağustos 1514 Cumartesi günü Erzurum, Kara-konak mevkiinde\"",
+  yol:[[26.559,41.676],[29.015,41.027],[29.941,40.765],[29.652,40.263],[30.696,39.444],[32.492,37.873],
+       [35.487,38.722],[37.101,39.419],[39.201,39.607],[41.273,39.906],[42.675,39.798],[44.384,39.065]] },
+{ id:"a4-tebriz-yuruyus-1514", ad:"Yavuz'un Tebriz'e yürüyüşü (1514)", tur:"sefer", sonuc:"zafer", f:"1514-08-25", t:"1514-09-06",
+  kaynak:"Remzi Kılıç (yukarıdaki makale): \"Çaldıran'da zaferden sonra iki gün kalan Sultan Selim, ordusuyla 25 Ağustos 1514'de Cuma günü, Tebriz'e doğru hareket etmiştir. Bundan sonra Hoy sahrasına gelen Sultan Selim …\" · \"şehre 6 Eylül 1514 Cuma günü girmiştir\" · selim-i (TDV): \"harekâtını sürdürerek Tebriz'e girdi (16 Receb / 6 Eylül)\" · tebriz (TDV): \"16 Receb 920'de (6 Eylül 1514) Yavuz Sultan Selim tarafından Osmanlı hâkimiyetine alındı\". ⚠️ caldiran-savasi (TDV) \"5 Eylül'de şehre girdi\" diyor — iki TDV maddesi + Kılıç 6 Eylül, o yazıldı.",
+  yol:[[44.384,39.065],[44.951,38.548],[46.298,38.074]] },
+{ id:"a4-tebriz-donus-1514", ad:"Yavuz'un Tebriz'den Amasya'ya dönüşü (1514)", tur:"cekilme", sonuc:"belirsiz", f:"1514-09-15", t:"1514-11-24",
+  kaynak:"caldiran-savasi (TDV): \"Kışı Karabağ'da geçirmek istediyse de yeniçerilerin muhalefeti üzerine Kars ve Bayburt üzerinden geriye hareket etti.\" · selim-i (TDV): \"Tebriz'de dokuz gün kaldıysa da … Amasya'ya döndü. Dönüş sırasında Bayburt ve Kiğı kalelerinin teslim alındığı haberleri gelmişti.\" · Remzi Kılıç: \"Tebriz'den 15 Eylül 1514'de ayrılarak Nahçıvan yoluyla Karabağ'a\" · \"21 Eylül'de Nahçıvan şehri yakınında\" · \"25 Eylül'de Revan (Çukur-sa'ad) civarına\" · \"5 Ekim'de Kars\" · \"Orduy-ı Humâyûn Erzurum'da iken Bayburt'un fetih haberi gelmiştir\" · \"Sultan Selim, Niksar'da Ramazan Bayramı'nı idrak edip, 24 Kasım 1514'de Amasya şehrine\". ⚠️ 15 Eylül ve 24 Kasım YALNIZ Kılıç'ta; TDV'nin \"dokuz gün\"ü 6→15 Eylül ile uyumlu.",
+  yol:[[46.298,38.074],[45.409,39.218],[44.513,40.178],[42.998,40.456],[41.273,39.906],[40.212,40.202],
+       [36.943,40.591],[35.773,40.657]] },
 // Sefer önce Safevî cephesine hazırlandığı için Sivas-Kayseri-Elbistan hattından
 // indi, Mercidabık'tan sonra Şam-Gazze menziliyle Ridaniye'ye ulaştı.
 // KITA 15 — f: DÜZELTİLDİ (57 gün sapıyordu, kaynaksızdı). TDV `selim-i`
@@ -722,7 +759,112 @@ window.SEFERLER = [
 { ad:"Büyük Taarruz (1922)", tur:"sefer", sonuc:"zafer",        f:"1922-08-26", t:"1922-09-18",
   yol:[[32.86,39.93],[30.54,38.76],[29.98,38.86],[29.40,38.68],[28.14,38.48],[27.14,38.42]] },
 // --- Kavalalı Mehmed Ali Paşa dönemi harekâtları (kara ve deniz) ---
-{ ad:"Hicaz seferi (1811-13)", tur:"sefer", sonuc:"zafer",      f:"1811-09-03", t:"1813-01-24", yol:[[31.24,30.05],[32.55,29.97],[38.06,24.09],[39.61,24.47],[39.83,21.42]] },
+// PAKET-A4 (13 Eylül 2026) — parti-emrelic-0035/H-0098 (Emre: "tosun paşanın hicaz
+// seferi harekat okları ile gösterilmeli"). Kayıt VARDI ama kaynaksızdı; yeniden yazıldı.
+// f 1811-09-03 → 1811-09-01: akademik kaynak YALNIZ AY veriyor ("Eylül 1811") — gün
+// UYDURULMADI; `f` ayın 1'i = AY hassasiyeti (tarih_hassasiyet alanı). Yıla (1811-01-01)
+// indirilmedi, çünkü o gün Tosun'un sefere TAYİNİNDEN (1 Mart 1811, TDV) önce düşer (§4
+// pencere şartı). t 1813-01-24 → 1813-01-23 (TDV mekke gününü veriyor).
+// 🔴 Süveyş ara noktası ÇIKARILDI: okunan kaynakların hiçbiri 1811 seferi için Süveyş
+// adını vermiyor (Değirmenci 2016 yalnız 1813'te Mehmed Ali için "Süveyş yoluyla" der).
+// Koordinatlar: OpenStreetMap Nominatim (gazetteer).
+{ id:"a4-tosun-hicaz-1811", ad:"Tosun Paşa'nın Hicaz seferi (1811-13)", tur:"sefer", sonuc:"zafer", f:"1811-09-01", t:"1813-01-23",
+  tarih_hassasiyet:"f: AY (Eylül 1811) · t: GÜN",
+  kaynak:"Kevser Değirmenci, \"Vehhabi İsyanının Bastırılmasında ve Sonrasında Mekke Muhafızı Hasan Paşa'nın Faaliyetleri\", Sosyal Bilimler Dergisi 49 (Temmuz 2016): \"oğlu Tosun Paşa'nın kumandasında … 3.500 kişilik bir kuvveti, Eylül 1811'de Hicaz'a hareket ettirdi (Jorga, 2009: 201)\" · yenbu (TDV): \"Tosun ve İbrâhim paşaların öncülüğünde Yenbu' tekrar Osmanlı egemenliğine sokuldu (1811)\" · medine (TDV): \"iki hafta kadar süren bir kuşatmanın ardından 3 Aralık 1812'de Medine geri alındı\" · mekke (TDV): \"Mekke'ye yönelerek … şehre girdi (23 Ocak 1813)\"",
+  yol:[[31.236,30.044],[38.069,24.089],[39.611,24.471],[39.827,21.421]] },
+// PAKET-A4 — parti-emrelic-0035/H-0093 (Emre: "napolyonun akka harekatı ile ilgili
+// harekat okları konulabilir"). İki ok: yürüyüş (Osmanlı açısından yenilgi — Arîş,
+// Gazze, Yafa, Hayfa düştü) ve Akkâ'dan çekiliş (Osmanlı açısından zafer).
+// Kahire'den çıkış (10 Şubat) ve Kahire'ye dönüş (14 Haziran) TDV'de YOK; Fondation
+// Napoléon'un kronolojisinden (napoleon.org, Correspondance générale t.2 kronolojisi).
+// ⚠️ ÇELİŞKİLER (raporda): Arîş TDV 18 Şubat / napoleon.org 20 Şubat · Akkâ TDV `akka`
+// 18 Mart / TDV `cezzar-ahmed-pasa` "19 ve 20 Mart" / napoleon.org 19 Mart · Yafa TDV
+// `yafa` "6 Mayıs 1799" / napoleon.org 7 Mart (TDV'deki tarih Akkâ'dan SONRAYA düşüyor,
+// muhtemel yanlış) — ara istasyon günleri kayda YAZILMADI, yalnız uçlar.
+{ id:"a4-napolyon-akka-yuruyus-1799", ad:"Napolyon'un Suriye seferi — Akkâ'ya yürüyüş (1799)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#1f5fa8",
+  f:"1799-02-10", t:"1799-03-19",
+  kaynak:"napoleon.org (Fondation Napoléon), Chronologie de la Correspondance générale t.2: \"10 février … Napoléon quitte Le Caire pour combattre les Turcs en Syrie\" · \"20 février … prennent le fort d'El-Arich\" · \"25 février … Napoléon entre à Gaza\" · \"7 mars … Prise et pillage de Jaffa\" · \"19 mars … commence le siège de Saint-Jean-d'Acre\" · aris (TDV): \"18 Şubat 1799'da Napolyon tarafından işgal edilen Arîş\" · hayfa (TDV): \"Hayfa 1799'da Fransızlar tarafından alındıysa da Akkâ kuşatmasının başarısızlıkla sonuçlanması üzerine terkedildi\" · cezzar-ahmed-pasa (TDV): \"19 ve 20 Mart 1799'daki hücumlarla başlayan Akkâ muhasarası\"",
+  yol:[[31.236,30.044],[33.798,31.124],[34.458,31.513],[34.751,32.044],[34.998,32.819],[35.076,32.928]] },
+{ id:"a4-napolyon-akka-cekilis-1799", ad:"Napolyon'un Akkâ'dan Kahire'ye çekilişi (1799)", tur:"cekilme", sonuc:"zafer", taraf:"dusman", renk:"#1f5fa8",
+  f:"1799-05-20", t:"1799-06-14",
+  kaynak:"cezzar-ahmed-pasa (TDV): \"Bonapart, yardım kuvvetlerinin yetişmesinden bir süre sonra 20 Mayıs'ta kuşatmayı kaldırıp geri çekilmeye mecbur oldu\" · gazze (TDV): \"Akkâ'da Cezzâr Ahmed Paşa karşısında bozguna uğradıktan sonra Kahire'ye dönüşte Gazze'ye uğrayan Napolyon\" · napoleon.org: \"24 mai … En route pour Le Caire, Napoléon arrive à Jaffa\" · \"14 juin … Napoléon et son armée arrivent au Caire\" (napoleon.org kuşatmayı kaldırma KARARINI 17 Mayıs veriyor; TDV günü yazıldı)",
+  yol:[[35.076,32.928],[34.751,32.044],[34.458,31.513],[31.236,30.044]] },
+// PAKET-A4 — parti-emrelic-0035/H-0094 (Emre: "vehhabilerin askeri hareketlarını oklar
+// ile gösterelim"). Yalnız KAYNAKLI dört harekât; hepsi Dir'iye'den (Suûdî merkezi).
+// Dir'iye koordinatı: Nominatim "At-Turaif, Diriyah" (tarihî Turayf mahallesi).
+// 🔴 HASSASİYET: TDV dördünde de AY veriyor (Nisan başları 1801 · Şubat 1803 · Haziran
+// 1805 · Ocak 1806). `f`/`t` ayın 1'i = AY; kronolojide aynı günler madde olarak
+// duruyor (olaylar_ek5/ek6). Yıla indirilmesi maddeden AYLAR önceye düşürürdü.
+// ⚠️ KERBELÂ YILI ÇELİŞKİLİ: TDV `kerbela` "1801 Nisan başları" · `suud-b-abdulaziz`
+// "1215/1801" · `vehhabilik` "1801" — AMA `abdulaziz-b-muhammed-b-suud` "1802'de …
+// Irak-Kerbelâ bölgesine" diyor. Üç TDV maddesi 1801 → 1801 yazıldı, çelişki raporda.
+{ id:"a4-vehhabi-kerbela-1801", ad:"Vehhâbîlerin Kerbelâ baskını (1801)", tur:"akin", sonuc:"yenilgi", taraf:"dusman",
+  f:"1801-04-01", t:"1801-04-01", tarih_hassasiyet:"AY (Nisan başları 1801)",
+  kaynak:"kerbela (TDV): \"1801 yılı Nisan ayı başlarında Vehhâbîler Kerbelâ'yı yağmalayıp 3000'in üzerinde Şiî'yi öldürdüler\" · suud-b-abdulaziz (TDV): \"Suûd emrindeki kuvvetlerle Kerbelâ'ya girdi (1215/1801)\" · ⚠️ abdulaziz-b-muhammed-b-suud (TDV) 1802 diyor",
+  yol:[[46.573,24.733],[44.016,32.598]] },
+{ id:"a4-vehhabi-taif-mekke-1803", ad:"Suûd'un Tâif ve Mekke harekâtı (1803)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman",
+  f:"1803-02-01", t:"1803-04-30", tarih_hassasiyet:"f: AY (Şubat 1803) · t: GÜN",
+  kaynak:"taif (TDV): \"Suûd emrindeki ordu Şubat 1803'te Tâif'i ele geçirerek yağmaladı (Cevdet, VII, 206)\" · mekke (TDV): \"1803 Şubatında ele geçirdiği Tâif'in ardından Mekke'ye yönelen Abdülazîz'in oğlu veliaht Suûd … Mekke'yi işgal etti (30 Nisan 1803)\"",
+  yol:[[46.573,24.733],[40.416,21.27],[39.827,21.421]] },
+{ id:"a4-vehhabi-medine-1805", ad:"Vehhâbîlerin Medine'yi kuşatıp işgali (1805)", tur:"kusatma", sonuc:"yenilgi", taraf:"dusman",
+  f:"1805-06-01", t:"1805-06-01", tarih_hassasiyet:"AY (Haziran 1805)",
+  kaynak:"medine (TDV): \"Vehhâbîler şehri kuşattılar; bazı küçük çatışmaların ardından işgal edip (Haziran 1805) halkına kendi akîdelerini benimsemeleri şartıyla eman verdiler\"",
+  yol:[[46.573,24.733],[39.611,24.471]] },
+{ id:"a4-vehhabi-mekke-1806", ad:"Vehhâbîlerin Mekke kuşatması ve şehrin teslimi (1805-06)", tur:"kusatma", sonuc:"yenilgi", taraf:"dusman",
+  f:"1805-10-01", t:"1806-01-01", tarih_hassasiyet:"f: TÜRETİLDİ (Ocak 1806 − 'üç ay kadar') · t: AY (Ocak 1806)",
+  kaynak:"mekke (TDV): \"1805 yılının sonlarında Mekke'yi yeniden kuşattı. Üç ay kadar süren kuşatmanın ardından … Şerîf Gālib emirlikte kalmak şartıyla şehri Vehhâbîler'e teslim etti (Ocak 1806)\" — f bu iki cümleden türetildi, kaynakta 'Ekim' yazmıyor",
+  yol:[[46.573,24.733],[39.827,21.421]] },
+// PAKET-A4 — parti-emrelic-0035/H-0095 (Emre: "alemdar mustafa paşanın istanbula
+// gelmesi harekatı gibi iç harekatları da oklar ile gösterelim"). İç harekât:
+// isyan kayıtlarının mor rengi (#6b2d8a) kullanıldı — ne "osmanli" ne "dusman".
+// 🔴 Rusçuk'tan ÇIKIŞ GÜNÜ BULUNAMADI (TDV alemdar-mustafa-pasa · mustafa-iv ·
+// Öztürk 2015 · Malhasyan & Yıldız 2017 okundu) ⇒ f = 1808-01-01 (YIL, §4).
+// ⚠️ ÇELİŞKİ: TDV iki madde "19 Temmuz 1808" · Malhasyan & Yıldız 2017 (Cihannüma
+// III/1) "ordu 26 Temmuz 1808'de İstanbul'a vardı" — TDV esas (§4).
+{ id:"a4-alemdar-istanbul-1808", ad:"Alemdar Mustafa Paşa'nın Rusçuk'tan İstanbul'a yürüyüşü (1808)", tur:"sefer", sonuc:"belirsiz", renk:"#6b2d8a",
+  f:"1808-01-01", t:"1808-07-19", tarih_hassasiyet:"f: YIL (Rusçuk'tan çıkış günü bulunamadı) · t: GÜN",
+  kaynak:"alemdar-mustafa-pasa (TDV): \"mütareke sebebiyle ordu ile birlikte Edirne'de bulunan Sadrazam Çelebi Mustafa Paşa'yı … elde etmeyi başaran Alemdar\" · \"sadrazamın maiyetinde Edirne'den yola çıkıldı. İstanbul'da Dâvud Paşa sahrasına varıldığında ordu ve sancak-ı şerif bizzat IV. Mustafa tarafından karşılandı (19 Temmuz 1808)\" · mustafa-iv (TDV): \"Alemdar'ın orduyla birlikte İstanbul'a gelmesi üzerine (25 Cemâziyelevvel 1223 / 19 Temmuz 1808)\" · Rusçuk başlangıcı: TDV \"Rusçuk âyanı\"; Silvart Malhasyan & Aysel Yıldız, Cihannüma III/1 (2017): \"Mustafa Paşa Rusçuk'tan ayrıldıktan sonra\"",
+  yol:[[25.954,43.848],[26.559,41.676],[28.891,41.026]] },
+// PAKET-A4 — parti-emrelic-0035/H-0081 (Emre: "çeşme baskını konusunda … ne rus
+// filosunun geçip geldiği kesik kesik çizgiler var"). tur:"deniz" = kesikli çizgi.
+// İSTASYONLAR (adı kaynakta geçenler): Baltık (TDV küçük-kaynarca) · Akdeniz ·
+// Mora açıkları · Anabolu · Suluca (Hydra) · Koyun adaları · Çeşme (TDV cesme-vakasi).
+// ⚠️ Kronştad noktası "Baltık"ın TEMSİLÎ noktasıdır — Kronştad adı okunan kabul
+// edilebilir kaynakta YOK (yalnız Vikipedi/forum, kullanılmadı). Cebelitarık Boğazı
+// adı da kaynakta yok, ama Baltık'tan Akdeniz'e deniz yolunun TEK girişi (coğrafî
+// zorunluluk). Öteki bütün ara noktalar KAYNAK İSTASYONU DEĞİL, yalnız okun karadan
+// geçmemesi için konmuş DENİZ GEOMETRİSİ (Finlandiya Körfezi · Öresund · Kuzey Denizi ·
+// Manş · Biskay · Portekiz açığı · Sicilya Boğazı · Kithira · Kea · Kafireas · Sakız).
+// 🔴 f: Baltık'tan ÇIKIŞ GÜNÜ akademik kaynakta BULUNAMADI (Vikipedi "18/29 Temmuz
+// 1769" — tek dayanak olamaz). f = TDV'nin ilk tarihi "1770 yılı başlarında … Akdeniz'e
+// açılmış" ⇒ 1770-01-01 (YIL hassasiyeti; ok 1769 yolculuğunu tarihlemiyor).
+{ id:"a4-rus-filosu-cesme-1770", ad:"Rus filosunun Baltık'tan Çeşme'ye yolu (1769-70)", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+  f:"1770-01-01", t:"1770-07-07", tarih_hassasiyet:"f: YIL (TDV '1770 yılı başlarında') · t: GÜN",
+  kaynak:"kucuk-kaynarca-antlasmasi (TDV): \"Baltık'tan hareket eden gemilerini İngilizler'in yardımıyla Akdeniz'e sokmuş ve Çeşme'de Osmanlı donanmasına ağır bir darbe indirmiş\" · cesme-vakasi (TDV): \"1770 yılı başlarında Mora Rumları'nı ayaklandırmak için Rus Amirali Spiridov ve İngiliz Amirali Elphinston kumandasındaki Rus donanması İngilizler'in de desteğiyle Akdeniz'e açılmış ve Mora yarımadası açıklarında faaliyet göstermeye başlamıştı\" · \"Anabolu'ya (Nauplia) gönderilen … Osmanlı donanmasını, Anabolu Limanı ağzında ve Suluca (Hydra) adası önlerinde başarısızlığa uğrattı\" · \"Çeşme'nin kuzeyinde bulunan Koyun adaları önüne geldiğinde burada tekrar Amiral Spiridov idaresindeki Rus donanması ile karşılaştı\" · \"11 Rebîülevvel 1184 (5 Temmuz 1770)\" · \"7 Temmuz sabahı Osmanlı donanmasından yalnızca Kaptanıderyâ Hüsâmeddin Paşa'nın baştardası … kurtulabildi\" · mustafa-iii (TDV): \"Çeşme'deki Osmanlı filosunu yakması (6-7 Temmuz 1770)\"",
+  yol:[[29.775,59.991],[27.0,59.95],[23.0,59.6],[21.0,58.2],[20.0,57.2],[18.0,55.8],[14.3,55.25],[13.3,55.1],
+       [12.75,55.55],[12.65,56.05],[11.8,56.8],[11.0,57.6],[10.0,58.0],[7.0,57.8],[3.0,56.0],[2.0,52.5],
+       [1.45,51.0],[-1.0,50.2],[-4.0,49.8],[-6.0,48.3],[-8.0,45.5],[-10.0,43.3],[-10.0,40.0],[-9.8,37.5],
+       [-9.2,36.6],[-6.5,36.0],[-5.6,35.95],[-4.0,36.1],[0.0,37.0],[5.5,37.8],[9.0,38.2],[11.6,37.45],
+       [13.5,36.6],[17.0,36.5],[21.0,36.3],[22.5,36.1],[23.2,35.9],[23.5,36.5],[23.05,37.1],[22.83,37.5],
+       [23.05,37.15],[23.45,37.26],[24.15,37.62],[24.65,38.02],[25.6,38.35],[25.65,38.45],[25.70,38.85],
+       [26.20,38.80],[26.32,38.62],[26.27,38.48],[26.26,38.37],[26.30,38.32]] },
+// PAKET-A4 ek iş (A1'den devir) — parti-emrelic-0021/H-0030 · Koca Sinan Paşa'nın 1595
+// Eflak seferi. İki ok: ilerleyiş (Rusçuk→Tergovişte) ve çekiliş (Tergovişte→Rusçuk).
+// Koordinatlar: OpenStreetMap Nominatim (Ruse · Giurgiu · Călugăreni · București ·
+// Târgoviște). İstasyonların hepsi kaynakta adıyla geçiyor (TDV bukres · yergogu ·
+// Özçelik 2025 · Alkan 2013).
+// 🔴 f 1595-07-18 = Sinan Paşa'nın Mihal ÜZERİNE YÜRÜDÜĞÜ gün (Alkan); ok Tuna geçiş
+// noktası Rusçuk'tan başlar — TUNA GEÇİŞ GÜNÜ akademik kaynakta BULUNAMADI.
+// ⚠️ ÇELİŞKİ: TDV `bukres` Bükreş'in "ertesi yıl" tahliye edildiğini söylüyor; TDV
+// `yergogu` ("1595 Ekiminde Eflak'tan dönen ordu") · Alkan · Özçelik 1595 Ekim diyor.
+{ id:"a4-sinan-eflak-ilerleyis-1595", ad:"Koca Sinan Paşa'nın Eflak seferi (1595)", tur:"sefer", sonuc:"belirsiz",
+  f:"1595-07-18", t:"1595-10-19", tarih_hassasiyet:"f: GÜN (sefere çıkış; Tuna geçiş günü bulunamadı) · t: GÜN (Tergovişte'nin Mihal'e geçişi)",
+  kaynak:"Mustafa Alkan, \"Osmanlı Devleti'nde Akıncı Ocağının Sonu\", Akademik Bakış 7/13 (Kış 2013): \"11 Zilkaade 1003 (18 Temmuz 1595) tarihinde Sadrazam Koca Sinan Paşa, 100.000 kişilik bir orduyla Eflak voyvodası Mihal'in üzerine yürüdü\" · \"19 Ekim 1595 tarihinde Targovişte'yi ele geçirerek\" · Emirhan Özçelik, \"Serdar-ı Ekrem Koca Sinan Paşa'nın Seferlerdeki Ordu İdaresi, Strateji ve Taktikleri\", OTAM 58 (Güz 2025): \"Rusçuk'ta birlikleri bir araya getirmişti\" · \"köprüler tamamlandıktan sonra orduyla Yergöğü'ne geçmiş ve ardından Bükreş'e doğru ilerlemeye başlamıştı\" · \"Bükreş ile Tirgovişte'de de kaleler inşa etmişti\" · bukres (TDV): \"Kalûgerân (Çalugareni) mevkiinde Prens Mihal … ile Serdar Sinan Paşa kumandasındaki Osmanlı ordusu karşı karşıya geldi (1595)\" · \"Osmanlılar düşmanın boş bıraktığı şehre girdiler\" · \"Mihal tarafından tahkim edilen Târgoviște alındı\" · koca-sinan-pasa (TDV): \"Eflak üzerine yürüdüyse de başarılı olamadı\"",
+  yol:[[25.954,43.848],[25.966,43.896],[26.001,44.186],[26.103,44.436],[25.463,44.927]] },
+{ id:"a4-sinan-eflak-cekilis-1595", ad:"Sinan Paşa'nın Eflak'tan çekilişi — Yergöğü köprüsü (1595)", tur:"cekilme", sonuc:"yenilgi",
+  f:"1595-10-19", t:"1595-10-24", tarih_hassasiyet:"f: GÜN (Tergovişte'nin düşüşü) · t: GÜN (köprünün çöküşü)",
+  kaynak:"Alkan 2013 (yukarıda): \"19 Ekim 1595 tarihinde Targovişte'yi ele geçirerek, şehri savunan 3500 Osmanlı askerini … katlettirdi. Bu sırada Osmanlı Ordusu, Tuna'nın kuzey kıyısına ulaşmış Yergöğü (Giurgiu) kalesine gelmişti. Yergöğü'nün karşısında, Tuna'nın öbür kıyısındaki Ruscuk'a geçecekti\" · \"Bir kaç isabet alan tahta köprü çöktü, binlerce akıncı Tuna nehrinde boğuldu (24 Ekim 1595)\" · Özçelik 2025: \"Yergöğü'nde bulunan askerleri de çağırarak Bükreş'te orduyu hazırlamaya karar vermişti\" · \"orduyu hızlı bir şekilde Yergöğü'ne çekmeye karar vermişti … köprülerden Rusçuk'a\" · yergogu (TDV): \"1595 Ekiminde Eflak'tan dönen orduyu takip eden akıncılar burada Eflak Voyvodası Mihal'in baskınına uğradılar\"",
+  yol:[[25.463,44.927],[26.103,44.436],[25.966,43.896],[25.954,43.848]] },
 { ad:"Necid seferi (1816-18)", tur:"sefer", sonuc:"zafer",      f:"1816-09-01", t:"1818-09-09", yol:[[39.61,24.47],[41.7,25.4],[43.5,25.9],[46.57,24.73]] },
 { ad:"Sudan seferi (1820-21)", tur:"sefer", sonuc:"zafer",      f:"1820-07-20", t:"1821-08-19", yol:[[32.9,24.09],[31.99,22.66],[30.47,19.17],[32.56,15.50],[33.62,13.55]] },
 // Güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %16,3 kara):
