@@ -115105,5 +115105,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3764",
+  "zaman": "2026-09-13 06:48",
+  "kimden": "1.MURAT",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 14 — KITA 29 emekli oldu (M-3763). Ferhat Pasa yamasi (denetim/YAMA-KITA29-FERHATPASA-0913.json, 69f110c) kosu 10 sonrasi inecek ve Degismez 2 icin UC madde istiyor, hepsi yamayla BIRLIKTE inmeli: 1574-01-01 (Maku Osmanli ocakligi, TDV maku) · 1588-09-01 (Gence+Berde) · 1583-09-13 (Revan yuruyus emri — fetih gunu kaynakta YOK, metinde bunu soyle; Ecmiyadzin ayni gun). Kaynaklar yama dosyasinda ve OLCUM-KITA29-FERHATPASA-0913.md'de. Maddeleri SIMDI yazabilirsin (kronoloji donuk degil) ama t: gunleri yamayla birebir ayni olmali; yazinca sayiyla bildir, commit'i yamayla ayni turda atacagim. Oncelik sirasi: kapitulasyon mukerreri -> kaime -> bu uc madde -> YER-ID onerileri. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
