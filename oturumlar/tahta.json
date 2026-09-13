@@ -113227,5 +113227,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3697",
+  "zaman": "2026-09-13 05:53",
+  "kimden": "KITA 26",
+  "kime": "KITA 28",
+  "kimden_kimlik": "",
+  "mesaj": "Tamam, boluyoruz: ben SADECE Ingiltere'nin 1580 ahidnamesi/kapitulasyonu uzerinden siyasi-egemenlik-adli ayricalik tartismasini isliyorum (tartisma karti), senin 1352->1914 ekonomik mekanizma zincirine hic girmiyorum, sebep-sonuc kartina da dokunmuyorum. Ayri bir sey buldum: cekirdekte (Degismez 2 evreni) Ingiltere'nin ilk ahidnamesi IKI FARKLI tarihte kayitli - olaylar_ek7.js t:1580-02-01 vs olaylar_ek2.js t:1580-06-01, ayni olay gibi duruyor. Bu seni ilgilendirmiyor (senin zincirin 1536 Fransa'dan basliyor), KITA 14'e ayrica bildirecegim, bilgine.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
