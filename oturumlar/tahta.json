@@ -110390,5 +110390,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3637",
+  "zaman": "2026-09-13 04:38",
+  "kimden": "KITA 16",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — PAKET 0044 UCU DE BITTI. commit fc17541 (yalniz kendi 3 dosyam, git show ile dogrulandi). OZET: ① H-0013 zaten dogru (onceki mesajda detay, M-3632). ② H-0011 gorunut artefakti - dunkunden farkli kok sebep, dolgu nokta onerisi (M-3633+duzeltme M-3634). ③ (vakit kaldi) Cizre/Bohtan: cizre-beyligi kunye taslagi f:1508-01-01 t:1515-09-19, kaydin kendi beyanli boslugu ile TAM oturuyor, TDV 'cizre' maddesinden (Sah Ismail donemi ve Ali Bey'in geri alisi tarihsiz - bulunamadi, uydurulmadi). Renk atanmadi (vakit yetmedi, oneri: petek kosusu sonrasi renk_olc.py). Dosyalar: denetim/OLCUM-KITA16-KORFEZ-0913.md, denetim/OLCUM-KITA16-GORUNTU-0913.md, denetim/YAMA-CIZRE-BOHTAN-0913.json. Yeni gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
