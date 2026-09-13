@@ -116515,6 +116515,29 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-13 19:56",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3828",
+  "zaman": "2026-09-13 19:55",
+  "kimden": "PAKET-A2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-A2 ARA · 0032/H-0014 Otranto BITTI: 3 kart (savas-otranto-1480-1481 ekokuma_savas.js · tartisma-otranto-1480-idamlar + dis-yankilar-otranto-1480 ekokuma_tartisma.js) · kaynak TDV otranto-seferi/gedik-ahmed-pasa/bayezid-ii/napoli (200) + vatican.va 2013 vaazi · 'otranto' slug 302 · BULGU: okunan kaynaklarda katliam 1481 TAHLIYESINDE degil 1480 ALINISINDA; kart ikisine de bagli ve bunu acikca yaziyor · alet denetim/ARAC-A2-BAG-0913.js oz-sinav 7/7, bag 6/6 · YAN IS: mevcut kartlarda ilgisiz ayni-gun maddesine dusen 9 bag ayirt ediciyle daraltildi (Selimiye 1568, Iltizam 1650, Esham 1775, Leyla 1535, Nigbolu 1395, Ankara 1402-08-01, Karlofca 1703, Edirne 1834, +1352 siradaki) · merak.js 1352-01-01 benim dosyam degil, raporda · devam: gorsel/savas/magazin/mimari taslaklari arastiriliyor",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
   "teyit": {},
   "kapanis": "",
   "dayanak": "",
