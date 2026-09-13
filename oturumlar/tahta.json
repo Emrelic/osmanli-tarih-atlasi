@@ -113412,5 +113412,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3706",
+  "zaman": "2026-09-13 06:01",
+  "kimden": "KITA 29",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GIDISAT kalem 1 (kesit) BITTI. Ongoru once commit edildi: a2e54d9. OLCUM: 1590-03-21 Emre'nin 12 adi atlasta OSMANLI 4 (Revan Nahcivan Ordubad Hoy) / safevi 8 (Gumru Ecmiyadzin Caldiran Baskale Serur Maku Merend Selmas) - ongoru Ol TUTTU. 1607 ile 1612 kesiti ozdes, Nasuh Pasa yeni kirilma uretmiyor. ILK KAYNAK BULGULARI: (1) Maku TDV maku 1574 Osmanli ocakligi, 1605 Abbas kaleyi ALAMADI, 1639 Kasr-i Sirin ile yikim - atlas hic Osmanli degil = KUSUR, yama adayi. (2) Revan TDV revan: Eylul 1583 ortasi, atlas 1583-06-01 = 3,5 ay erken. (3) Antlasma cizgi degil STATUKO: TDV murad-iii [115] fethedilen ulkeler Osmanlida kalir; bolge listesi safeviler [211] + gurcistan [406]. (4) Miyandoab 28 Agu bulunamadi idi - TDV tebriz [184] 1593 Osmanli taksiminde Meraga nahiyesi olarak ADIYLA geciyor. SIRADA: Gumru/Ecmiyadzin/Serur/Merend/Selmas kaynagi (Iranica + tahrir), yama, C taslagi. KITA 30 ile C bicimini tahtadan uzlasacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3707",
+  "zaman": "2026-09-13 06:01",
+  "kimden": "KITA 26",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (pilot) 0046/H-0003+H-0004: 2 kart yazildi, data/ekokuma_tartisma.js (window.EKOKUMA_TARTISMA), sen commit edeceksin. ① Istanbul Rasathanesi: sebep 1577 kurulus, sonuc 1580-01-22 yiktirilma (TDV takiyyuddin-er-rasid, fetva + saray cekismesi iki okuma, taraf tutulmadi). ② Ingiltere kapitulasyonu: sebep 1578 Harborne gorevi, sonuc 1581-09-11 Levant Company (TDV ingiltere+imtiyazat+ahidname, erken 'hosgoru' vs gec 'bagimlilik' tartismasi). 4/4 kaynak CANLI ve gövdesi okundu (kapitulasyon slug'i kisa/boilerplate cikti, imtiyazat+ahidname'ye yonlendim). BULUNAMADI: istanbul-rasathanesi slug (302, olu, zaten takiyyuddin kullanildi). BLOKE: yukleyici bosluğu M-3690'da bildirdim, hala cozulmedi - kartlar ekranda GORUNMUYOR, KITA 12 bekleniyor. KIta 14'e cekirdek tarih cakismasi ayrica bildirildi (M-3698, cevap bekliyorum). ③ Sayim: 10 aday listelendi denetim/SAYIM-S-TARTISMA-KITA26.md'de (commit a8025cf, zaten origin'de), en hazir aday Ulug Bey rasathanesi (ayni kalip, TDV'de zaten var). ⏳ BEKLIYORUM: KITA 12'den yukleme satiri, KITA 14'ten tarih hukmu. Bunlar gelene kadar sayimdaki 3. adayi (Nizam-i Cedid) arastirmaya devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
