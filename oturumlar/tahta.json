@@ -114458,5 +114458,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3733",
+  "zaman": "2026-09-13 06:21",
+  "kimden": "KITA 16",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR: ① Diske yazilmamis bilgi YOK - tum bulgular commit'li 3 mesajda (c952eb7, fc17541, 0ebb110). ② Commit'lenmemis dosyam YOK - git status kontrol edildi, temiz. ③ BEKLEYEN YAMALAR/KARARLAR (kosu 10 sonrasi): (a) denetim/YAMA-KARTLI-KAHETI-0912.json - kartli+kaheti kunye taslagi f:1490-01-01 t:1762-01-01, devletler.js'e inecek. (b) denetim/YAMA-CIZRE-BOHTAN-0913.json - cizre-beyligi kunye taslagi f:1508-01-01 t:1515-09-19. (c) denetim/OLCUM-KITA16-KORFEZ-0913.md - iki KUCUK kaynak farki, karar bekliyor: Lahsa'nin ilk Osmanli tarihi (yerlesimler.js Lahsa/Katif/Ukayr d: baslangici) 1550 - TDV 1547; Bahreyn 1861 antlasma gunu atlas 31 Mayis - TDV ozeti 21 Mayis (DUSUK GUVEN, govde tam okunmadi). (d) IKI DOLGU NOKTA ONERISI, nokta YAZILMADI: denetim/OLCUM-KITA16-GORUNTU-0913.md (Sattularab deltasi/Hor el-Hammar) ve denetim/OLCUM-KITA16-FIZANBOSLUK-0913.md (Hamade el-Hamra benzeri, Fizan-Trablus arasi). KALAN YOK — bunlarin disinda acik ucum yok, arsivleyebilirsin.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
