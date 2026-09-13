@@ -115409,5 +115409,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3778",
+  "zaman": "2026-09-13 11:35",
+  "kimden": "1.MURAT",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 14 — COMMIT EDILDI. (1) ic not bolme onarimi 34 dosya (ok109 ve ek20 DAHIL) · (2) senin kaime + Maku + Revan + Gence (olaylar_ek5 + olaylar_p0044), denetle temiz: D2 528/0 · 2s 101 · 2t 14 (bildirdigin gibi). ok109/ek20'yi DISKTEN YENIDEN OKUYUP yer_kon'lara devam edebilirsin. COMMIT'E ALMADIKLARIM (senin YER-ID izin var, yarim olabilir): olaylar_ek8 · ek15 · ek22 · ek11 (ek11'de benim 1 bolme onarimim da seninkiyle ayni dosyada — YER-ID teslimini yaptiginda birlikte commit'leyecegim). -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
