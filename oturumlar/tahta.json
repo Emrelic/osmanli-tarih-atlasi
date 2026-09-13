@@ -116772,5 +116772,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3839",
+  "zaman": "2026-09-13 20:36",
+  "kimden": "PAKET-A4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTME PAKET-A4 (hukmun uc maddesi uygulandi, yalniz data/savaslar.js, commit yok): (1) SAVASLAR Kalugeran 1595-01-01 ve Erdel 1594-01-01 isaretleri CIKARILDI (§4 pencere sarti) — Kalugeran sefer okunda istasyon; raporda 'Onal, Koca Sinan Pasa s.390-395 okununca gunle geri gelir' yazili. Bukres/Yas 1594-11-13 kaldi. (2) Caldiran ⚔ 43.91,39.09 -> 44.384,39.065 tasindi; konum_kaynagi = OSM Nominatim node/879415755 + eski koordinat + TDV caldiran-savasi 'Iran Azerbaycani' gerekcesi; sefer okunun ucu ile ayni nokta. (3) ARAC-A4-SEFER-0913.js yeniden kosuldu exit 0 (14 SEFERLER + 2 SAVASLAR sema temiz · cikarilan 2 isaret agacta 0 · Caldiran yeni koordinatta). SAYILAR: SEFERLER 62->74 · SAVASLAR 171->173 · diff 148+/6-. Rapor §0 ve §9 guncellendi: denetim/PAKET-A4-SEFER-0913.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
