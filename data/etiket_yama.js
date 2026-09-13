@@ -5251,7 +5251,7 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1730-06-01",
+    "t": "1730-10-28",
     "b": "Nedîm'in Patrona Halil isyanı sırasında ölümü",
     "kume": "ANA",
     "etiket_ekle": [

@@ -303,8 +303,8 @@ window.PADISAHLAR = [
   { id: "bayezid2",    ad: "II. Bayezid (Velî)",           from: "1481-05", to: "1512-04",
     dogum:"1448",
     dogum_yer:"Dimetoka",
-    olum:"1512-05-26",
-    olum_yer:"Dimetoka yolu",
+    olum:"1512-06-10",
+    olum_yer:"Çorlu yakınında Abalar köyü (Dimetoka yolu)",
     olum_sebep:"yolculuk sırasında öldü; zehirlenme ihtimali bazı "
     + "kaynaklarda tartışılır",
     baba:"II. Mehmed (Fatih)",
