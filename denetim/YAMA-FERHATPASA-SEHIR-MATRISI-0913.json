@@ -1,0 +1,167 @@
+{
+  "yazan": "FERHATPASA-MATRIS (kuzey yarı araştırma işçisi)",
+  "tarih": "2026-09-13",
+  "rapor": "denetim/OLCUM-FERHATPASA-SEHIR-MATRISI-0913.md",
+  "durum": "ÖNERİ — UYGULANMADI. data/ DONUK (koşu aktif). Uygulayan koordinatör (D098). Sayılar ARAC-FERHATPASA-MATRIS-SAYIM-0913.py ile bu dosyadan ÜRETİLİR.",
+  "kapsam": "Emre poligonu (doğu: Erdebil–Kazvin–Tahran hattının batısı · batı: Batum–Kars–Van–Bağdat hattının doğusu · Kafkas sırtının güneyi) ∩ lat >= 36.0 · ARAC-FERHATPASA-MATRIS-BOLGE-0913.py · 80 nokta − 2 Hazar doğusu (Garabogaz, Krasnovodsk) = 78",
+  "on_kosul": [
+    "KITA 13 yaması A (Başkale · Çaldıran · Şeyhrumi 1548) ve KITA 29 yaması (A1 Mâku · A2 Şerur · A3 Gence/Berde · B1 Eçmiyadzin · C1 Revan) BU ÖNERİLERDEN ÖNCE (D166)",
+    "0047 yaması (Mahabad · Sakkız · Serdeşt) Selmâs önerisi ile BİRLİKTE değerlendirilmeli — ikisi de Tebriz kuşağı günlerini kullanıyor"
+  ],
+
+  "antlasma_maddeleri": {
+    "ilke": "STATÜKO — tarafların 1590'a kadar ele geçirdiği yerler kendilerinde kalır",
+    "kaynaklar": [
+      {"gelenek": "TR", "kaynak": "Kütükoğlu 1962, s.195-196 (aktaran: Haydar Efe – Murat Kızıl, 'Sınır Kavramı ve Tarihsel Süreç İçinde Türkiye-İran Sınırının Oluşumu', Erzincan Üniv. SBE Dergisi X-I (2017) 77-90, PDF s.6)", "icerik": "① sahabe/halifelere sövülmeyecek ② 22 Mart 1590'a kadar tarafların hâkimiyetine giren yerler elde tutulacak; Tebriz, Karacadağ, Gence, Karabağ, Şirvan, Gürcistan, Nihâvend, Luristan, Şehrizor (Kerkük) ve havalisi korunacak ③ Osmanlı'nın tuttuğu yerler korundukça Kızılbaş tasarrufundaki yerlere saldırı olmayacak ④ antlaşmadan sonra iltica eden asiler kabul edilmeyecek"},
+      {"gelenek": "TR", "kaynak": "Özer Küpeli, Van YYÜ SBE Dergisi, İslam Kongresi özel sayısı (2018), PDF s.6 dn.10", "icerik": "aynı liste — Kütükoğlu 1993 s.197; antlaşma metni: Feridun Bey, Münşeât (1275), 249-252"},
+      {"gelenek": "TR", "kaynak": "TDV murad-iii [115] · TDV safeviler [211]-[212]", "icerik": "'fethedilen ülkelerin Osmanlılar'ın tasarrufunda kalması şartıyla' · 13 bölge listesi · 'hutbelerde ilk üç halifeye lânet edilmemesi şartı'"},
+      {"gelenek": "IR", "kaynak": "Eskandar Beg Monshi, History of Shah 'Abbas the Great, tr. R. M. Savory (1978), II, s.585", "icerik": "'the sending of a royal prince as a hostage to Turkey and acceptance of annexation by the Ottomans of areas already occupied by their troops'"},
+      {"gelenek": "AZ", "kaynak": "AMEA Tarix İnstitutu sənəd toplusu (elibrary.bsu.edu.az N_389), PDF s.24", "icerik": "'Müqavilə status kvo əsasında bağlandı' + sünnilere töhmet yasağı · dayanak: Azərbaycan tarixi, 7 cilddə, c.3, Bakı 1999, s.261-263 (OKUMADIM)"},
+      {"gelenek": "GE", "kaynak": "Sakartvelos istoriis narkvevebi IV (Tbilisi 1974), PDF s.82, dn.52 → Pigulevskaya–Yakubovsky–Petrushevsky, История Ирана (1958) s.272 (RU, OKUMADIM)", "icerik": "Osmanlı mülkü sayılan: Gürcistan, Doğu Ermenistan, Kuzey ve Güney Azerbaycan (ERDEBİL VE TALIŞ HARİÇ), Kürdistan, Luristan'ın bir kısmı"},
+      {"gelenek": "GE", "kaynak": "M. Vachnadze – V. Guruli, Amasiidan Karsamde (Tbilisi 2007), PDF s.7-8 (← Svanidze 1971 s.181; Gabashvili ed. 1957 s.339)", "icerik": "İran bütün Kafkasötesi'nden vazgeçti; 1555'te Osmanlı'ya düşen Batı Gürcistan'a Kartli, Kaheti ve Doğu Meshetya eklendi"},
+      {"gelenek": "HY", "kaynak": "Arak'el of Tabriz, Book of History, tr. G. Bournoutian (2010), bölüm 1, s.31", "icerik": "'Ottoman pashas sat in Tabriz, Erevan, Ganje, Shamakhi and Damurghapi, and controlled all the land up to Khudafrin. They [also] took Georgia and subjected it to taxation.'"}
+    ],
+    "erdebil_maddesi": "Erdebil'in Safevî'de kalması AÇIK BİR MADDE olarak hiçbir okunan kaynakta YOK; iki kaynak onu Osmanlı payından İSTİSNA eder (GE Narkvevebi IV ← RU Pigulevskaya), biri sınırın 'Erdebil yakınından' geçtiğini söyler (TDV erdebil), biri Osmanlı'nın oraya ulaşamadığını (Eskandar Beg II s.582-583)."
+  },
+
+  "matris": [
+    {"ad": "Sohum", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV sohum (BULGU-FERHATPASA)"], "not": "1578 eyalet; antlaşma öncesi kazanım"},
+    {"ad": "Kutaisi", "hukum": "TABI", "tur": "kaynakli", "kaynak": ["GE: Vachnadze–Guruli 2007 s.8 (İmereti 1555'ten Osmanlı payında)", "GE: Narkvevebi IV s.83 (1590 Gurieli Osmanlı yardımıyla Kutaisi'yi aldı)"], "not": "İmereti krallığı — tâbi; atlas v: tâbi ✓"},
+    {"ad": "Derbend", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV derbend--dagistan [58][61] (5 Ekim 1578 bağlılık · '1607'ye kadar' beylerbeyilik merkezi)", "HY: Arakel s.31 ('Damurghapi' paşası)"], "ic_celiski": "TDV derbend [66] aynı maddede '(1603) Derbend'i alıp' — kampanya başı ile düşüş karışmış; atlas 1607 ✓"},
+    {"ad": "Tiflis", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV tiflis [112] · gurcistan [391] ('24 Ağustos' 1578)", "HY: Arakel s.31 (Gürcistan vergiye bağlandı)"], "kusur_disi_not": "BAŞLANGIÇ: atlas 1578-08-09 (Çıldır günü) ↔ TDV iki madde 24 Ağustos 1578 → ÖNERİ-T1. BİTİŞ: TDV tiflis/gurcistan 1603 ↔ TDV safeviler 1608 ↔ atlas 1606-01-01 — ÇELİŞKİ, öneri yok"},
+    {"ad": "Zagem (Kaheti)", "hukum": "TABI", "tur": "kaynakli", "kaynak": ["GE: Vachnadze–Guruli 2007 s.8 (Kaheti Osmanlı payına)", "HY: Arakel s.31", "TR: TDV (arama) 'Kartli ve Kaheti, 1578-1603' Osmanlı"], "ulusal_celiski": "GE Narkvevebi IV s.86: Kaheti 1587-89 Rus çarının himayesine girdi, 1605'e kadar elçi trafiği — Gürcü tarih yazımı Kaheti'nin çift/üçlü bağlılığını vurgular; Osmanlı tâbiliği reddedilmiyor"},
+    {"ad": "Hulo (Acara)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["GE: Vachnadze–Guruli 2007 s.7-8 (Batı Meshetya/Acara 1555-1579 Osmanlı, Çıldır paşalığı 1579)"], "not": "çekirdek"},
+    {"ad": "Batum", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["GE: Vachnadze–Guruli 2007 s.8"], "not": "çekirdek"},
+    {"ad": "Ahıska", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV cildir-eyaleti (arama özeti: 'Ahıska ve civarı')", "GE: Vachnadze–Guruli 2007 s.7 (1579 Çıldır/Ahıska paşalığı)"], "not": "çekirdek"},
+    {"ad": "Posof", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "Çıldır eyaleti içinde, kaynak adıyla anmıyor — enklav olamaz"},
+    {"ad": "Ahılkelek (Akhalkalaki)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["GE: Vachnadze–Guruli 2007 s.7 ('ahalcihe' paşalığı 1579)"], "not": "çekirdek"},
+    {"ad": "Kuba", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV derbend--dagistan [62] (Âlî: Derbend eyaleti sancakları Şaburan, Ahtı, KUBA …)"]},
+    {"ad": "Şavşat", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV cildir-eyaleti (arama özeti)"], "not": "çekirdek"},
+    {"ad": "Hanak", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "Çıldır–Ardahan arası"},
+    {"ad": "Şâbüran", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV derbend--dagistan [62]"]},
+    {"ad": "Şeki (Nuha)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV seki [46][48] ('1590 barışının ardından Şamahı'ya bağlı sancak') · [51] Safer 1016 / Haziran 1607 Şirvan Safevî"]},
+    {"ad": "Ardahan", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "çekirdek (1551) — bu işte kaynak okunmadı; enklav olamaz"},
+    {"ad": "Kabala", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "Şeki ile Şamahı arası; TDV kabala canlı ama 1578-1607 yok"},
+    {"ad": "Arpaçay (Akyaka)", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "Kars eyaleti çekirdeği"},
+    {"ad": "Gümrü (Aleksandropol)", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "kusur": true, "oneri": "O-GUMRU", "not": "KITA 29 C2 'bulunamadı, dokunma' idi. Emre'nin YENİ kuralı: Kars·Arpaçay·Digor (batı), Ahılkelek (kuzey), Revan·Eçmiyadzin (doğu, B1/C1 sonrası) OSMANLI ⇒ enklav olamaz ⇒ örtülü OSMANLI. C2 kararıyla ÇATIŞIYOR — koordinatör/Emre seçer"},
+    {"ad": "Ereş", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV derbend--dagistan [58] (Lala Mustafa Paşa Ekim 1578'de Ereş'te)"], "not": "karargâh kaydı — sahiplik için orta"},
+    {"ad": "Gence", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV murad-iii [114] · safeviler [210] (1 Eylül 1588)", "EN: Iranica GANJA [85] (996/1588 → 1015/1606, altı aylık kuşatma)", "AZ: AMEA sənəd toplusu s.25 ('1606-cı ilin yayında qala təslim edildi')", "HY: Arakel s.31 ('Ganje' paşası)", "IR: Eskandar Beg II s.592-593 (Karabağ 1014/1605-06 geri alındı)"], "not": "başlangıç KITA 29 A3 (1588-09-01). Bitiş 1606-01-01 = yıl kodu; AZ kaynak 'yaz 1606' diyor — öneri yok (§4 yıl kodu), not"},
+    {"ad": "Şamahı", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV sirvan [26][33][35][39]", "TR: TDV seki [51] (Haziran 1607)", "AZ: AMEA sənəd toplusu s.25 ('1607-ci ilin iyununda Şamaxının mühasirəsi … başa çatdı')", "HY: Arakel s.31"]},
+    {"ad": "Kars", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["EN: Iranica JULFA i (BULGU-FERHATPASA: Abbas 1604 Kars'a ilerledi, çekildi)"], "not": "çekirdek"},
+    {"ad": "Digor", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "çekirdek"},
+    {"ad": "Berde (Karabağ)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV karabag [21-22]", "HY: Arakel s.31 ('Khudafrin'e kadar bütün toprak')", "IR: Eskandar Beg II s.592-593 ('some twenty years of Ottoman occupation')"]},
+    {"ad": "Bakü", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV baku [22] (1583 fetih, 1606 Safevî)", "EN: Iranica BAKU i [48] (Ottoman 1578-1607)", "AZ: AMEA sənəd toplusu s.25 (Bakı ve Derbend isyanları Şamahı'dan önce)"], "ulusal_celiski": "bitiş TDV 1606 ↔ Iranica 1607 ↔ AZ 'Şamahı'dan (Haziran 1607) önce'; atlas 1607-01-01 — öneri yok"},
+    {"ad": "Revan", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 29 (C1)", "HY: Arakel s.31 ('Erevan' paşası)"]},
+    {"ad": "Eçmiyadzin", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 29 (B1)"], "kusur": true, "oneri": "KITA29-B1"},
+    {"ad": "Iğdır", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "çekirdek"},
+    {"ad": "Şuşa", "hukum": "KAPSAM_DISI", "tur": "kurulmamis", "kaynak": [], "not": "1752 kuruluş — 1590'da yok"},
+    {"ad": "Salyan", "hukum": "BELIRSIZ", "tur": "belirsiz", "kaynak": [], "not": "adıyla anan kaynak yok; 'Şirvan' bölge adı kapsıyor olabilir (çıkarım). Talış'a (Safevî) komşu ⇒ enklav DEĞİL, örtülü kural uygulanmaz. Atlas OSMANLI — dokunma"},
+    {"ad": "Şerur (Sharur)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 29 (A2)"], "kusur": true, "oneri": "KITA29-A2"},
+    {"ad": "Doğubayazıt", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"], "not": "çekirdek"},
+    {"ad": "Mahmudâbâd", "hukum": "BELIRSIZ", "tur": "belirsiz", "kaynak": [], "not": "Kür ağzı güneyi, Talış komşusu; kaynak yok; atlas OSMANLI — dokunma"},
+    {"ad": "Mâku", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 29 (A1)", "HY: Arakel s.3 (Maku 1604 tehcir listesinde)"], "kusur": true, "oneri": "KITA29-A1"},
+    {"ad": "Nahçıvan", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 29", "IR: Eskandar Beg II s.831-832 (1603'te Nahçıvan'da Osmanlı beylerbeyi Şerif Paşa)"]},
+    {"ad": "Çaldıran", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 A"], "kusur": true, "oneri": "KITA13-A"},
+    {"ad": "Erciş", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"], "not": "çekirdek"},
+    {"ad": "Bargiri (Muradiye)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN / KOTUR-BARGIRI-0913"], "not": "çekirdek"},
+    {"ad": "Şeyh Salû-yi Ulyâ", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"]},
+    {"ad": "Şeyhrumi (Yücelen)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 A"], "kusur": true, "oneri": "KITA13-A"},
+    {"ad": "Culfa", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["EN: Iranica JULFA i (BULGU-FERHATPASA)", "IR: Eskandar Beg II s.832 (1603 geri alışta Culfa'ya muhafız)"]},
+    {"ad": "Ordubad", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 29 (TD 633)", "IR: Eskandar Beg II s.582-583 ('extended his jurisdiction over … Ordūbād')"], "ulusal_celiski": "Eskandar Ordubad'a Osmanlı yetkisini 997/1588-89'da 'genişletilmiş' diye verir ↔ atlas 1585-01-01 (Nahçıvan kalıbı) ↔ Bilge: Nahçıvan 1586, 1587-88 Safevî arası. KITA 29 B2 BEKLET kararı kapsamında — yeni öneri YOK"},
+    {"ad": "Lenkeran", "hukum": "SAFEVI", "tur": "kaynakli", "kaynak": ["GE: Narkvevebi IV s.82 ('Erdebil ve Talış hariç') ← RU Pigulevskaya 1958 s.272", "RU: Petrushevsky 1949 s.131-132 (Talış hâkimleri Safevî 'büyük emîrleri'; 1590'da Amire Hamza Han'ın şaha isyanı)"], "not": "TR listelerinde Talış YOK (yokluk kanıt değil)"},
+    {"ad": "Özalp (Saray)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"], "not": "çekirdek"},
+    {"ad": "Hoy", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV hoy (KITA 29)", "IR: Eskandar Beg II s.832 (geri alıştan sonra 'Ğāzī Beg was given Khoy and Salmās')"]},
+    {"ad": "Van", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"], "not": "çekirdek"},
+    {"ad": "Ahar (Karadağ)", "hukum": "OSMANLI", "tur": "kaynakli", "tur_notu": "tâbi mi doğrudan mı kaynak ayırmıyor → atlas d: kusur SAYILMAZ (mazeret önceden yazıldı)", "kaynak": ["IR: Eskandar Beg II s.582-583 ('Šāhverdī Khan … governor of Qaraja-dāḡ, tendered his submission to Jaʿfar Pasha, and sent his son to Tabriz as a hostage')", "TR: Kütükoğlu 1962 s.195-196 / 1993 s.197 · TDV safeviler [211] · gurcistan [406] ('Karacadağ')"], "ulusal_celiski": "az.wikipedia 'Qaradağ Səfəvi dövlətinin tərkibində qaldı' der — akademik dayanağı OKUNAMADI (Azərbaycan tarixi III, 1999/2007 erişilemedi) ⇒ sayılmadı, AÇIK çelişki adayı"},
+    {"ad": "Kotur", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN / KOTUR-BARGIRI-0913"]},
+    {"ad": "Merend", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["IR: Eskandar Beg II s.582-583 ('Jaʿfar Pasha extended his jurisdiction over various districts near the Aras — Ordūbād, Marand, Dezmār, Konūz, and Gargar')", "IR: Eskandar Beg II s.831-832 (Tebriz geri alındıktan sonra 'Jamšīd Sultan Donbolī … was made governor of Marand')"], "kusur": true, "oneri": "O-MEREND", "not": "KITA 29'da 'bulunamadı' idi — İran kaynağı ÇÖZDÜ"},
+    {"ad": "Astara", "hukum": "SAFEVI", "tur": "kaynakli", "kaynak": ["GE: Narkvevebi IV s.82 ← RU Pigulevskaya 1958 s.272", "RU: Petrushevsky 1949 s.131-132"]},
+    {"ad": "Meşkinşehr (Hiyav)", "hukum": "BELIRSIZ", "tur": "belirsiz", "kaynak": [], "not": "hiçbir okunan kaynak 1590 için adıyla anmıyor. Ahar/Karadağ (Osmanlı-tâbi) ile Erdebil (Safevî) arasında; Erdebil'e komşu ⇒ enklav DEĞİL, örtülü kural uygulanmaz. Atlas safevi — dokunma"},
+    {"ad": "Erdebil", "hukum": "SAFEVI", "tur": "kaynakli", "kaynak": ["IR: Eskandar Beg II s.582-583 ('advanced as far as Sarāb, making for Ardabīl, but was unable to proceed further')", "IR: Eskandar Beg II s.831 (1603'te 'Zu'l-Faqār Khan, the governor of Ardabīl' Safevî)", "TR: TDV erdebil [54] ('sınır Erdebil yakınlarından geçiyordu')", "GE: Narkvevebi IV s.82 ('Erdebil ve Talış hariç') ← RU Pigulevskaya 1958 s.272"], "not": "⚠ Emre'nin 'Bîcâr–Hemedan–Sultaniye batısı Osmanlı' çapasına KAYNAKLI KARŞI ÖRNEK: 48,29°D < Sultaniye 48,80°D"},
+    {"ad": "Hoşap (Mahmudi)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"]},
+    {"ad": "Selmâs (Dilman)", "hukum": "OSMANLI", "tur": "ortulu", "tur_notu": "örtülü (enklav olamaz: Hoy·Kotur·Urmiye·Tebriz OSMANLI) + dolaylı kaynak", "kaynak": ["IR: Eskandar Beg II s.832 ('Ğāzī Beg was given Khoy and Salmās' — Tebriz'in geri alınışından SONRA dağıtılan yerler arasında)", "TR: Çeribaş 2025 [139] (kale önerisi — zayıf)"], "kusur": true, "oneri": "O-SELMAS"},
+    {"ad": "Tebriz", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV tebriz [54][58]", "HY: Arakel s.31", "EN: Iranica Chronology ('1590 … abandons Šarvān, Georgia, Tabriz, and Lorestān')", "GE: Narkvevebi IV s.82"]},
+    {"ad": "Başkale", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 A"], "kusur": true, "oneri": "KITA13-A"},
+    {"ad": "Sarâb", "hukum": "OSMANLI", "tur": "cikarim", "kaynak": ["IR: Eskandar Beg II s.582-583 (Caʿfer Paşa 'advanced as far as Sarāb' — ÖTESİNE geçemedi)"], "not": "Sarab'ın TUTULDUĞU açıkça yazılmıyor; TR listelerinde Sarab yok. Atlas OSMANLI — dokunma"},
+    {"ad": "Sero", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "Urmiye–Hakkâri arası"},
+    {"ad": "Bacirge (Esendere)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"]},
+    {"ad": "Halhâl", "hukum": "BELIRSIZ", "tur": "belirsiz", "kaynak": [], "not": "1590 için kaynak yok (az.wikipedia 'Xalxal Səfəvi' — akademik dayanak okunamadı). Erdebil/Zencan komşusu ⇒ örtülü kural uygulanmaz. Atlas safevi — dokunma. ⚠ Sultaniye'nin batısında"},
+    {"ad": "Çölemerik (Hakkâri)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"]},
+    {"ad": "Yüksekova (Gever)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"]},
+    {"ad": "Urmiye", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV urmiye (BULGU-FERHATPASA)"]},
+    {"ad": "Miyâne", "hukum": "BELIRSIZ", "tur": "belirsiz", "kaynak": [], "not": "adıyla anan kaynak yok; TDV tebriz 1593 livâ listesinde yok (liste tam değil). Zencan/Halhâl'e komşu ⇒ enklav değil. Atlas OSMANLI — dokunma"},
+    {"ad": "Merâga", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV tebriz [184] (1593 taksimi Merâga livâsı) · TDV meraga [35]", "IR: Eskandar Beg II s.832 (geri alıştan sonra Merâga Şeyh Haydar Mukrî'ye verildi)"]},
+    {"ad": "Rāzhān", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": []},
+    {"ad": "Şemdinli (Şemdinni)", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["bkz. KITA 13 VAN"]},
+    {"ad": "Mîyandoab", "hukum": "OSMANLI", "tur": "kaynakli", "kaynak": ["TR: TDV tebriz [184] ('Miyandûvab' nahiyesi)"]},
+    {"ad": "Mahabad (Sâvücbulak)", "hukum": "TABI", "tur": "kaynakli", "kaynak": ["bkz. 0047 raporu (Iranica MOKRI ← Eskandar Beg)"], "kusur": true, "oneri": "0047-B0047-3"},
+    {"ad": "Akra", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "Musul çekirdeği (1516) — bu işte kaynak okunmadı"},
+    {"ad": "Zencan", "hukum": "SAFEVI", "tur": "kaynakli", "kaynak": ["bkz. 0047 raporu"]},
+    {"ad": "Rewândiz", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "Musul çekirdeği — bu işte kaynak okunmadı"},
+    {"ad": "Sultâniye", "hukum": "SAFEVI", "tur": "kaynakli", "kaynak": ["bkz. 0047 raporu"]},
+    {"ad": "Kazvin", "hukum": "SAFEVI", "tur": "kaynakli", "kaynak": ["IR: Eskandar Beg II s.585 ('Shah Abbas returned to Qazvin in the spring of 1590' — başkent)"]},
+    {"ad": "Sakkız", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": ["bkz. 0047 raporu"], "kusur": true, "oneri": "0047-C0047-1"},
+    {"ad": "Erbil", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": [], "not": "Şehrizor çekirdeği — bu işte kaynak okunmadı"},
+    {"ad": "Serdeşt (Sardasht)", "hukum": "OSMANLI", "tur": "ortulu", "kaynak": ["bkz. 0047 raporu"], "kusur": true, "oneri": "0047-C0047-2"}
+  ],
+
+  "ek_kafkas_kuzeyi_kapsam_disi": [
+    {"ad": "Tarki (Tarku)", "atlas_1590": "tâbi Kumuk şamhallığı", "not": "Emre poligonunun (Kafkas sırtı güneyi) DIŞINDA. 'Dağıstan' TDV safeviler [211] listesinde; Tarki'ye özel kaynak okunmadı (TDV kumuklar 1590'ı anmıyor) — ölçülmedi"},
+    {"ad": "Ağraham burnu", "atlas_1590": "safevi", "not": "dışarıda; Kumuk kıyısında 'safevi' tuhaf — kaynak aranmadı, ölçülmedi"},
+    {"ad": "Terek deltası (Kızlar)", "atlas_1590": "rusya", "not": "dışarıda — antlaşmanın konusu değil"},
+    {"ad": "Kabartay (Nalçik)", "atlas_1590": "kirim", "not": "dışarıda"},
+    {"ad": "Vladikavkaz", "atlas_1590": "SAHIPSIZ", "not": "dışarıda"}
+  ],
+
+  "ONERILER": [
+    {
+      "kod": "O-MEREND", "ad": "Merend", "dosya": "data/yerlesimler.js (girdi.py _kaynak: yerlesimler.js)", "guven": "kaynakli",
+      "degisiklik": [{"alan": "d", "eski": null, "yeni": {"f": "1588-09-01", "t": "1603-10-21"}}],
+      "s_dokunulmaz": "s: safevi 1501-07-01→1736-03-08 kesintisiz kalır (çoğunluk kalıbı: Tebriz · Merâga · Nahçıvan — d: s: üstüne biner)",
+      "kaynak_onerisi": "Eskandar Beg Monshi, tr. Savory, II, s.582-583: 'Meanwhile, Jaʿfar Pasha, the commandant at Tabriz … extended his jurisdiction over various districts near the Aras — Ordūbād, Marand, Dezmār, Konūz, and Gargar.' · s.831-832: Tebriz'in 1603 geri alınışından sonra 'Jamšīd Sultan Donbolī … was made governor of Marand'",
+      "gun_gerekcesi": "🔴 GÜN KAYNAKTAN DEĞİL. Eskandar olayı 997/1588-89 (Sıçan yılı, Mart 1588–Mart 1589) içinde ve 'Meanwhile' ile Ferhad Paşa'nın Gence'de kale yaptığı ana bağlıyor ⇒ Gence'nin günü 1588-09-01 (D084 — komşu olayın günü). Bitiş: Tebriz kuşağı 1603-10-21 (Eskandar'da Merend valisi Tebriz'in düşüşünden hemen sonra atanıyor).",
+      "alternatif_C": "Örtülü kural (Tebriz 1585-09-25'ten Osmanlı, Culfa/Hoy da) Merend'i 1585-1588 arası da Osmanlı sayar — AMA kaynak yetkinin 1588-89'da 'genişletildiğini' söylüyor ⇒ kaynaklı hüküm örtülü kuralı geçer. Seçim koordinatörün.",
+      "degismez2": "1588-09-01 ✓ (olaylar_ek5.js 'Karabağ ve Gence'nin ilhakı' — ama madde Merend'i ANMIYOR) · 1603-10-21 ✓ — SAYIM aletinin çıktısına bak"
+    },
+    {
+      "kod": "O-SELMAS", "ad": "Selmâs (Dilman)", "dosya": "data/yerlesimler.js", "guven": "ortulu + dolaylı kaynak",
+      "degisiklik": [{"alan": "d", "eski": null, "yeni": {"f": "1585-09-25", "t": "1603-10-21"}}],
+      "kaynak_onerisi": "Eskandar Beg II s.832 (geri alıştan sonra 'Ğāzī Beg was given Khoy and Salmās') · Emre kuralı: Hoy (42 km) · Kotur (45 km) · Urmiye · Tebriz 1590'da OSMANLI ⇒ enklav olamaz",
+      "gun_gerekcesi": "🔴 GÜNLER KAYNAKTAN DEĞİL — Hoy'un günleri (42 km, D084); 0047'nin Mahabad/Sakkız/Serdeşt önerisiyle aynı çift",
+      "degismez2": "1585-09-25 ✓ · 1603-10-21 ✓"
+    },
+    {
+      "kod": "O-GUMRU", "ad": "Gümrü (Aleksandropol)", "dosya": "data/yerlesimler_ek26.js", "guven": "ortulu",
+      "degisiklik": [{"alan": "d", "eski": null, "yeni": {"f": "1583-09-13", "t": "1604-06-08"}}],
+      "kaynak_onerisi": "KAYNAK BULUNAMADI (KITA 29 C2). Yalnız Emre kuralı: batısı Kars·Arpaçay·Digor (1534'ten), kuzeyi Ahılkelek, doğusu Revan·Eçmiyadzin (C1/B1 1583-09-13→1604-06-08) OSMANLI ⇒ enklav olamaz",
+      "gun_gerekcesi": "🔴 KAYNAKTAN DEĞİL — Revan/Eçmiyadzin C1/B1 günleri (bağlı; C1 değişirse bu da)",
+      "catisma": "🔴 1.MURAT C2 kararı 'sahipliğe DOKUNMA' idi (Emre'nin örtülü kuralından ÖNCE). Bu öneri o kararla çelişir — karar koordinatör/Emre'nin",
+      "degismez2": "1583-09-13 KITA 14 maddesiyle kapanıyor (olaylar_ek5.js) · 1604-06-08 ✓"
+    },
+    {
+      "kod": "O-TIFLIS-BAS", "ad": "Tiflis", "dosya": "data/yerlesimler.js", "guven": "kaynakli",
+      "degisiklik": [{"alan": "d", "eski": {"f": "1578-08-09", "t": "1606-01-01"}, "yeni": {"f": "1578-08-24", "t": "1606-01-01"}}],
+      "kaynak_onerisi": "TDV tiflis [112]: 'Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos'ta Tiflis'e ulaştı ve boşaltılmış kaleyi ele geçirdi' · TDV gurcistan [391]: '24 Ağustos'ta Tiflis şehrini savaşsız ele geçirdiler' — İKİ madde",
+      "not": "1590 hükmünü ETKİLEMEZ; 15 günlük başlangıç düzeltmesi. Batum/Sohum/Hulo/Zagem 1578-08-09'da KALIR (Çıldır zaferi günü — onların kaynağı ayrı). Bitişe (1606) dokunulmadı: TDV kendi içinde 1603 ↔ 1608",
+      "degismez2": "1578-08-24 — SAYIM aletinin çıktısına bak"
+    }
+  ],
+  "ONCEKI_ONERILER_TEKRARLANMADI": ["KITA29 A1 Mâku · A2 Şerur · A3 Gence/Berde · B1 Eçmiyadzin · C1 Revan (YAMA-KITA29-FERHATPASA-0913.json)", "KITA13 A Başkale · Çaldıran · Şeyhrumi (YAMA-KITA13-VAN-0913.json)", "0047 Mahabad · Sakkız · Serdeşt (YAMA-0047-FERHATPASA-BATI-0913.json)"],
+
+  "sinir_hatti_kuzey": {
+    "tur": "dogal-tanimsiz",
+    "yon": "kuzey → güney",
+    "osmanli_tarafi": "hattın BATISI (Hazar kıyısı kesiminde KUZEYİ: Şirvan)",
+    "negatif_taraf": "doğu/güneydoğu = SAFEVÎ",
+    "yontem": "köşeler, zıt hükümlü iki ATLAS noktasının orta noktası (koordinat üretilmedi, türetildi); kaynağın adıyla verdiği doğal öge koordinatsızsa lat/lon null. Iranica BOUNDARIES: 'sınır bir çizgi değil kuşak' — BELİRSİZ noktalar bant olarak işaretli.",
+    "kose": [
+      {"ad": "Hazar kıyısı — Şirvan/Talış arası", "lat": 39.067, "lon": 49.046, "dayanak": "orta nokta Mahmudâbâd (39.380,49.240 — BELİRSİZ) ↔ Lenkeran (38.754,48.851 — SAFEVÎ: GE Narkvevebi IV s.82 'Talış hariç' ← RU Pigulevskaya 1958 s.272; RU Petrushevsky 1949 s.131-132)", "bant": "Salyan · Mahmudâbâd belirsiz ⇒ gerçek hat Bakü (Osmanlı kaynaklı) ile Lenkeran arasında herhangi bir yerde"},
+      {"ad": "Aras üzerinde Hudâferin köprüsü", "lat": null, "lon": null, "dayanak": "HY Arakel s.31: Osmanlı paşaları 'controlled all the land up to Khudafrin' — koordinat kaynağı OKUNMADI, atlas noktası YOK (uydurulmadı)"},
+      {"ad": "Karadağ/Ahar ↔ Meşkin arası", "lat": 38.439, "lon": 47.375, "dayanak": "orta nokta Ahar (38.477,47.070 — OSMANLI-tâbi: IR Eskandar II s.582-583 + TR Kütükoğlu listesi) ↔ Meşkinşehr (38.400,47.680 — BELİRSİZ)", "bant": "Meşkin belirsiz ⇒ hat Meşkin ile Erdebil arasına da kayabilir"},
+      {"ad": "Sarâb ↔ Erdebil arası", "lat": 38.095, "lon": 47.915, "dayanak": "orta nokta Sarâb (37.941,47.536 — OSMANLI çıkarım: Eskandar 'as far as Sarāb') ↔ Erdebil (38.249,48.294 — SAFEVÎ kaynaklı: IR Eskandar, TR TDV erdebil, GE/RU)"},
+      {"ad": "Miyâne ↔ Halhâl arası", "lat": 37.521, "lon": 48.125, "dayanak": "orta nokta Miyâne (37.425,47.717 — BELİRSİZ, atlas Osmanlı) ↔ Halhâl (37.617,48.533 — BELİRSİZ, atlas Safevî)", "bant": "iki uç da kaynaksız — en zayıf köşe"},
+      {"ad": "Miyâne ↔ Zencan arası", "lat": 37.049, "lon": 48.098, "dayanak": "orta nokta Miyâne (BELİRSİZ) ↔ Zencan (36.673,48.478 — SAFEVÎ, 0047: IR Eskandar + TR TDV zencan)"},
+      {"ad": "36,0°K devir noktası (Sakkız ↔ Bîcâr)", "lat": 36.060, "lon": 46.934, "dayanak": "orta nokta Sakkız (36.246,46.263 — OSMANLI örtülü, 0047) ↔ Bîcâr (35.873,47.605 — BELİRSİZ, 0047). 0047'nin hat C'si (Tebriz–Merâga–Mîyandoab–Nihâvend) 36,0°K'de 46,90°D'den geçer — 3 km. GÜNEY yarı buradan devralır."}
+    ]
+  }
+}
