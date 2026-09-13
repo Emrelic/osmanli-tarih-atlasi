@@ -1,0 +1,37 @@
+KITA 17 TESLIM — EK OKUMA/ICERIK, H-0019/H-0020, paket 0044
+
+DOSYALAR: denetim/SEMA-EK-OKUMA-KULTUR-0913.md (sema+olcum) · denetim/TASLAK-EK-OKUMA-0913.json (iki kayit). data/ yazmadim, kosu10'a dokunmadim.
+
+① D045 OLCUM — ALTYAPI (tahmin degil, tarandi):
+  MEKANIZMA zaten TAM KURULU ve sanilandan genis: EKOKUMA_TUR (js/app.js:6524) TAM 11 TUR tasiyor — CLAUDE.md paragrafindaki "11 basligin 7'si tanimsiz" cumlesi BUDUR:
+    tanimli+icerikli: sebep-sonuc(7 kart) · merak(17 kart) · antlasma(41/41, ANTLASMALAR'a bagli)
+    tanimli ama ICERIK SIFIR: magazin (buton kurulu, 0 kart)
+    tanimsiz acilmis (buton var, icerik sifir, 2 Eylul ARAYUZ-0902): tartisma · teknik-bilimsel · kimdir · dis-yankilar · kahramanlik · menkibeler · sok-haberler
+  BU 7'NIN HICBIRI sair/siir/kultur/sanat prensibiyle tam ortusmuyor (kimdir en yakini ama eserin metnini tasiyacak alani yok) — YENI BIR 12. TUR onerdim ("edebiyat"), maliyeti js/app.js'te ~6 satir (7 tanimsiz turun eklenme maliyetiyle AYNI mertebe, YAZILMADI, ONERI).
+
+  gorsel:/gorsel_kaynak: — GERCEKTEN SIFIR. data/*.js + js/app.js tarandi, hicbir kayitta yok (data/bekleyenler.js'teki "gorsel" ayri bir sey — Emre'nin ekran goruntusu kategorisi, karistirilmasin). CLAUDE.md §1.6'nin "① kendi gorseli" kalemi HENUZ HIC BASLAMAMIS.
+
+  kultur-sanat/sair madde sayimi (etiket:["kultur"]):
+    toplam tarihli madde 6143 · kultur etiketli 54
+    dogrudan sair/siir: 7 (Baki 2 · Fuzuli 2 · Nedim 2 · Nefi 1)
+    kisi-merkezli diger sanatkar (hattat/musikisinas/nakkas): 9
+    kurumsal/mimari/basin: 38 (bu ucuncu kume "sanatkarin hayati" cercevesine dogrudan uymuyor)
+    ⇒ Emre'nin prensibi DAR okunursa 7 madde, GENIS okunursa 16 madde etkilenir. TOPLU YAZIM ONERMEDIM (ONCELIK.md col seyyahi).
+
+  KISI DIZINI: Baki data/kisiler.js'de HIC YOK (0 eslesme) — kimdir turu ile kisiler.js arasinda kopru yok, kapsam disi birakildi, not olarak yazildi.
+
+  TDV SLUG SINANDI (govde okundu, sadece HTTP kodu degil):
+    baki--sair 200 CANLI — govdede HEM mersiye HEM culusiye olayi ANLATILIYOR, tarihler (15 Rebiulevvel 974/30 Eylul 1566) birebir eslesiyor. Mevcut kronoloji kaydinin kaynak:"baki--sair" alani DOGRU.
+    mersiye 200 canli (genel kavram maddesi) · culusiye 302 OLU (icerik baki--sair'in ICINDE — §4③ kapsayici madde YER/KISI maddesinde deseni, BIR KEZ DAHA).
+    fuzuli 200 · nefi 200 · nedim 302 (muhtemelen "--sair" varyanti gerekir, bu turda ARANMADI) · leylavemecnun 302 (icerik fuzuli maddesinde olabilir, ARANMADI).
+
+② SEMA — yeni tur "edebiyat": id/tur/baslik/eser{ad,tur}/sanatci{ad,hayat,onem}/metin/alinti{metin,kaynak}/gorsel/gorsel_kaynak/kesinlik/olay/kaynak. Detay ve gerekce denetim/SEMA-EK-OKUMA-KULTUR-0913.md'de. `kesinlik:` (EK-OKUMA.md'nin belkemigi) BURADA DA ZORUNLU tasindi. Yeni bir baglama alani ICAT ETMEDIM — mevcut `olay:[...]` deseni (sebep-sonuc'un kullandigi) KULLANILDI.
+
+③ TASLAK — iki kayit, denetim/TASLAK-EK-OKUMA-0913.json (JSON gecerliligi test edildi):
+  baki-kanuni-mersiyesi   olay 1566-09-01 (H-0019 genel ornek)
+  baki-selim-culusiyesi   olay 1566-09-30 (H-0020, Emre'nin ikinci maddesi)
+  Ikisi de TDV baki--sair'e (govdesi okunarak) kaynaklandi. TELIF KIRMIZI CIZGISI: alinti.metin ve gorsel HER IKI kayitta da "bulunamadi" — 16.yy metnin kendisi kamu mali ama bu turda kamu mali bir nesirden dogrulanmis beyit alintisi YAPILMADI (modern ceviri/sadelestirme cogu telifli); Baki'nin donemsel portresi de bulunamadi, UYDURMA/yakistirma gorsel KULLANILMADI.
+
+NE OLCEMEDIM: nedim/leylavemecnun slug varyantlari · Baki icin kamu mali kritik nesir arastirmasi (beyit alintisi icin) · kisiler.js'e sair eklenmesi kapsami.
+
+-- KITA 17

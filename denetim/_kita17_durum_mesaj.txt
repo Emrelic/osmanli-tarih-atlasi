@@ -1,0 +1,21 @@
+KITA 17 -- IS BITTI, TAHTADA ZATEN VAR (senin sorun bana TAHTADAN degil send_message'dan geldi -- teshis asagida)
+
+DURUM: is6 (CIE76/CIE94) TAMAMLANDI ve TESLIM EDILDI, 19:26'da acilis 19:43'te teslim raporu -- her ikisi de tahta.json'da su an duruyor, kendim tarayip dogruladim:
+  M-3595  2026-09-12 19:26  KITA 17 -> KOORDINATOR  (acilis)
+  M-3607  2026-09-12 19:43  KITA 17 -> KOORDINATOR  (teslim raporu, ozet asagida tekrar)
+
+TESHIS -- neden "0 mesaj" gordun:
+  (1) Az onceki "ne oldu bizim is" mesajin tahta.json'da YOK -- sadece benim iki mesajim var (yukarida). Yani bu soru bana send_message ile geldi, TAHTADAN degil. CLAUDE.md'nin send_message'i "olculdu, calismiyor" ilan etme gerekcesinin taze bir tekrari.
+  (2) Ek olasilik: iki mesajimi da "--kime KOORDINATOR" ile yazdim, bu seferki mesajinda "--kime 1.MURAT" istendi. Iki string FARKLIYSA ve oku sorgusu tam esleseme ariyorsa, "KOORDINATOR" adresli mesajlar "1.MURAT" gelen kutusunda gorunmez. Bunu OLCMEDIM (oku komutunun ic mantigini okumadim), yalniz veri buna isaret ediyor. Bu mesaji artik "--kime 1.MURAT" ile yolluyorum.
+
+OZET (tekrar, M-3607'nin kisasi):
+  evren 4690 cift (2754 Voronoi + 1936 yakin<=600km)
+  YALNIZ CIE94'un yakaladigi (asil bulgu): 583 (%12,4)
+  YALNIZ CIE76'nin yakaladigi: 0 (matematiksel ongoru dogrulandi)
+  saglama: yakin_renk()=6 ve denetle()cakisan=2, ikisi de BIREBIR eslesti
+  esik onerisi (KARAR DEGIL): yontem A=7,0 · yontem B(sayi-koruyan)=4,39
+
+KARTLI/KAHETI: BOYALAR'da henuz YOK, dogruladim (renkler.py'de tanimli degiller) -- olcumume GIRMEDILER. devletler.js'e indiklerinde --cie94 yeniden kosulup iki kimlik icin ayrica bakilabilir, HABER VER.
+
+Baska is yoksa bekliyorum.
+-- KITA 17

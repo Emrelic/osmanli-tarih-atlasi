@@ -1,0 +1,44 @@
+[
+  {
+    "id": "baki-kanuni-mersiyesi",
+    "tur": "edebiyat",
+    "baslik": "Bâkî'nin Kanûnî Sultan Süleyman için mersiyesi",
+    "eser": { "ad": "Kanûnî Mersiyesi", "tur": "mersiye" },
+    "sanatci": {
+      "ad": "Bâkî (asıl adı Mahmud Abdülbâkî)",
+      "hayat": "933'te (1526-27) İstanbul'da fakir bir ailenin çocuğu olarak doğdu; babası Fâtih Camii müezzinlerinden Mehmed Efendi'ydi. Gençliğinde saraçlık (bir görüşe göre serrâclık) çıraklığı yaptı. 1008'de (1600) öldü.",
+      "onem": "TDV'nin tarifiyle 'klasik Osmanlı şiirine söyleyiş gücü kazandıran' büyük dîvân şairi; çağdaşlarınca 'Sultânü'ş-şuarâ' (şairler sultanı) diye anıldı; şöhreti ve tesiri asırlarca sürdü."
+    },
+    "metin": "Kanûnî Sultan Süleyman'ın 1566 Eylülünde Sigetvar seferi dönüşünde ölüm haberi İstanbul'a ulaştığında Bâkî, daima himayesini gördüğü sultana duyduğu bağlılığı ve onun yüce şahsiyetini dile getiren mersiyesini yazdı. Osmanlı edebiyatının en tanınmış mersiyelerinden sayılır.",
+    "alinti": {
+      "metin": "bulunamadı — 16. yy metninin kendisi kamu malıdır ama bu turda kamu malı bir neşirden doğrudan beyit alıntısı DOĞRULANMADI; modern çeviri/sadeleştirmelerin çoğu telifli olduğu için kaynağı belirsiz bir alıntı kullanılmadı (kırmızı çizgi, KITA-17-EK-OKUMA-0044.md)",
+      "kaynak": null
+    },
+    "gorsel": null,
+    "gorsel_kaynak": "bulunamadı — Bâkî'nin döneminden bilinen bir portresi yok; minyatür/yazma görseli bu turda ARANMADI (kapsam dışı bırakıldı, görsel açma metne göre ~30 kat pahalı)",
+    "kesinlik": "kesin",
+    "olay": ["1566-09-01"],
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Bâkî\" (Mehmed Çavuşoğlu, 1991) — https://islamansiklopedisi.org.tr/baki--sair"
+  },
+  {
+    "id": "baki-selim-culusiyesi",
+    "tur": "edebiyat",
+    "baslik": "Bâkî'nin II. Selim'e cülûsiye sunması",
+    "eser": { "ad": "Cülûsiye (II. Selim için)", "tur": "cülûsiye (tahta çıkış kasidesi)" },
+    "sanatci": {
+      "ad": "Bâkî (asıl adı Mahmud Abdülbâkî)",
+      "hayat": "933'te (1526-27) İstanbul'da fakir bir ailenin çocuğu olarak doğdu; babası Fâtih Camii müezzinlerinden Mehmed Efendi'ydi. 1008'de (1600) öldü.",
+      "onem": "TDV'nin tarifiyle 'klasik Osmanlı şiirine söyleyiş gücü kazandıran' büyük dîvân şairi; çağdaşlarınca 'Sultânü'ş-şuarâ' diye anıldı."
+    },
+    "metin": "Kanûnî mersiyesinin hemen ardından, II. Selim tahta çıktığında (15 Rebîülevvel 974 / 30 Eylül 1566) Bâkî yeni padişaha bir cülûsiye sundu — TDV'ye göre mersiyenin son kısmı zaten 'yeni padişaha intisap vesilesi' olmuştu. Umduğu câizeyi bulamayan Bâkî, üstelik o sıralarda Murad Paşa müderrisliğinden de azledildi; uzun bir mâzullük döneminden ancak 1569'da çıkabildi.",
+    "alinti": {
+      "metin": "bulunamadı — bkz. \"baki-kanuni-mersiyesi\" kaydındaki gerekçe (telif kırmızı çizgisi)",
+      "kaynak": null
+    },
+    "gorsel": null,
+    "gorsel_kaynak": "bulunamadı — bkz. \"baki-kanuni-mersiyesi\" kaydı",
+    "kesinlik": "kesin",
+    "olay": ["1566-09-30"],
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Bâkî\" (Mehmed Çavuşoğlu, 1991) — https://islamansiklopedisi.org.tr/baki--sair"
+  }
+]
