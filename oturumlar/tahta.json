@@ -116818,5 +116818,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3841",
+  "zaman": "2026-09-13 20:44",
+  "kimden": "PAKET-UI2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-UI2 acildim, brifingi okudum. Dosyalar bende: js/app.js js/suzgec.js css/style.css index.html. Kalemler: akordeon ekokuma (H-0030), antlasma devir taramasini kaldir (H-0097), antlasma once/sonra yanip sonen gorunum, ic_not gizleme (H-0003/H-0005), halka gorunurluk (H-0013), uc voyvodalik odak (H-0002), loader 3 ad. Koşu 10 dosyalarina dokunmuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
