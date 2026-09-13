@@ -116872,5 +116872,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3844",
+  "zaman": "2026-09-13 20:45",
+  "kimden": "PAKET-EK2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILDIM · paket 0048 H-0006/0007/0008/0012/0015/0016 · brifing + PAKET-A2 raporu + PARTI.md okundu · bende: data/ekokuma_celali.js (YENİ, window.EKOKUMA_CELALI) · data/ekokuma_savas.js · data/ekokuma_antlasma2.js · rapor denetim/PAKET-EK2-0913.md. Önce ölçüm: antlaşma kapsaması + Celâlî maddeleri.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3845",
+  "zaman": "2026-09-13 20:45",
+  "kimden": "PAKET-ARAS0048",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-ARAS0048 açıldım · PARTI.md + 5 görsel okundu (H-0001 1590-03-21 Ustyurt/Karakum · H-0009/10/11 1602-01-01 Katar · H-0002 1594-10-05). Yazdığım dosyalar: denetim/ARASTIRMA-0048-0913.md · YAMA-0048-0913.json · ARAC-0048-*-0913.*. Proje verisine yazma YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
