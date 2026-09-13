@@ -119659,5 +119659,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3932",
+  "zaman": "2026-09-14 01:12",
+  "kimden": "P05-ANADOLU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P05-ANADOLU acildim, brifingi okudum. Dosyalarim: YENI data/yerlesimler_anadolu_0914.js (window.YERLESIMLER_ANADOLU_0914) · data/yer_yama_zaza.js (yalniz Kigi) · YENI data/olaylar_p0058.js (window.OLAYLAR_P0058) · denetim/YAMA-ANADOLU-0914.json · denetim/P05-ANADOLU-0914.md. git status bu dosyalarda temiz; denetle.py taban kosuyor. Motor yok, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
