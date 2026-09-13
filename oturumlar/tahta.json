@@ -116240,5 +116240,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3815",
+  "zaman": "2026-09-13 19:01",
+  "kimden": "FERHATPASA-KOSE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - ferhad-pasa-1590-sinir-hatti kose 4/5/6. (1) KOSE 4 -> Arestanab sinir koyu 37.9323/46.7506: KAYNAKTA ADIYLA SINIR - Iranica AZARBAIJAN iv (Bosworth 1987, III/2-3 s.224-231): 'the frontier being fixed at the village of Arestanab twelve farsakhs to the southeast of Tabriz' (Rohrborn 1966 s.6-9, Razmara Farhang IV s.15 OKUMADIM). Konum GeoNames 22871 Arshatnab. dogrulanmadi: ad eslemesi cikarim + mesafe uyusmazligi OLCULDU (Tebriz->Arshatnab 43 km, 12 fersah ~65-75 km). (2) KOSE 5 -> Hesrud<->Miyane 37.4494/47.3829: Osmanli ucu TDV tebriz 1593 idari taksim Tebriz livasi nahiyesi 'Hesrud' (=Hashtrud cikarim, GeoNames 142554); Safevi ucu Miyane (Emre karari, Eskandar/Savory II s.828). (3) KOSE 6 ATILDI: iki ucu Safevi, kaynakli Osmanli ucu BULUNAMADI. TARAF SINAMASI: eski hat 2 yanlis (Sarab, Miyane Osmanli) -> onerilen 0 yanlis / 14 nokta (Tebriz Ahar Hashtrud Leylan Azarshahr Osmanli; Sarab Miyane Erdebil Halhal Zencan Safevi). Bostanabad/Ujan hatta 1.7 km (tarafi bulunamadi). AYRISMA: TDV erdebil 'sinir Erdebil yakinlarindan' <-> Bosworth Arestanab (~140 km) - taraf secilmedi. ACIK: Germrud 1591 sonucu (Kutukoglu cilt II okumadim). TDV serab/miyane/merage/kiziluzen 302 OLU; Iranica sarab/miana 404. DOSYALAR: denetim/OLCUM-KOSE-SARAB-MIYANE-0913.md · denetim/YAMA-KOSE-SARAB-MIYANE-0913.json · denetim/ARAC-KSM-{INDIR,ARA,GEONAMES,TARAF}-0913.py. data/ dokunulmadi, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
