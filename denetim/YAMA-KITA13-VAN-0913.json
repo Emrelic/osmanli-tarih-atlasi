@@ -1,0 +1,59 @@
+{
+  "yazan": "KITA 13",
+  "tarih": "2026-09-13",
+  "paket": "parti-emrelic-0044 / H-0012",
+  "rapor": "denetim/OLCUM-KITA13-VAN-0913.md",
+  "durum": "ONERI — koşu 10 sırasında data/ DONUK; UYGULAYAN koordinatör (D098)",
+  "benzetim": "denetim/ARAC-KITA13-GUNKUME-0913.py — A grubu bellekte uygulandı: 1548-10-01 cep 3->2, Değişmez 1 boşluk yok, 1548-08-25 zaten maddeli (olaylar_ek5.js:446)",
+  "koşu sonrası şart": ["py arac/denetle.py (taban kırmızıysa DELTA)", "py arac/renk_olc.py (§9: komşuluk değişiyor)"],
+
+  "A_grubu_1639_den_1548_e": [
+    {
+      "ad": "Başkale",
+      "dosya": "data/yerlesimler_ek26.js:125",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1502-01-01", "t": "1639-05-17"}, "yeni": {"f": "1502-01-01", "t": "1548-08-25"}},
+        {"alan": "d", "eski": {"f": "1639-05-17", "t": "1923-10-29"}, "yeni": {"f": "1548-08-25", "t": "1923-10-29"}}
+      ],
+      "kaynak_onerisi": "TDV `hakkari` [43-44]: 'yöre ... Osmanlılar'ın Van'ı fethetmesi üzerine kurulan Van eyaletine bağlandı ... (ocaklık)'. Başkale adıyla tarihlenmiyor; bölge tanımı ('Van gölünün güney kıyıları yakınından ... dağlık kesimler') onu kapsıyor. GÜN devralındı (D084): Van · Çölemerik 1548-08-25 — kaydın KENDİ ankraj beyanı bu iki yeri gösteriyor.",
+      "neden_onerisi": "1639-05-17 kaydın kendi ankrajıyla (Van 73 km · Çölemerik 63 km — ikisi de 1548-08-25) çelişiyordu; 1548-10-01'de 8 komşunun 6'sı Osmanlıyken Safevî ada. 0021/H-0019 ve FERHATPASA ⑪'de de işaretlenmişti.",
+      "dokunulmayan": "d: bitişi 1923-10-29 (komşular 1920-04-23 tbmm) — ayrı tutarsızlık, H-0012 kapsamı değil"
+    },
+    {
+      "ad": "Çaldıran",
+      "dosya": "data/yerlesimler_ek26.js:117",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1502-01-01", "t": "1639-05-17"}, "yeni": {"f": "1502-01-01", "t": "1548-08-25"}},
+        {"alan": "d", "eski": {"f": "1639-05-17", "t": "1923-10-29"}, "yeni": {"f": "1548-08-25", "t": "1923-10-29"}}
+      ],
+      "kaynak_onerisi": "bulunamadı — TDV Çaldıran'ın 1548 sonrası statüsünü adıyla vermiyor (dar slug yok). GÜN devralındı (D084): kaydın KENDİ ankraj beyanı 'Van (78 km)' ve Van 1548-08-25; komşular Bargiri (TDV van: Van eyaleti sancağı) · Erciş · Özalp aynı gün.",
+      "neden_onerisi": "Beyan edilen ankraj (Van) 1548'i gösterirken kayıt 1639 taşıyordu. 1548-10-01'de 8 komşunun 6'sı Osmanlı — Safevî ada (H-0012-2 görüntüsünde görünen cep).",
+      "dokunulmayan": "d: bitişi 1923-10-29 — Başkale ile aynı not"
+    },
+    {
+      "ad": "Şeyhrumi (Yücelen)",
+      "dosya": "data/yerlesimler_sinir_dogu.js:~128",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1502-01-01", "t": "1639-05-17"}, "yeni": {"f": "1502-01-01", "t": "1548-08-25"}},
+        {"alan": "d", "eski": {"f": "1639-05-17", "t": "1920-04-23"}, "yeni": {"f": "1548-08-25", "t": "1920-04-23"}}
+      ],
+      "kaynak_onerisi": "TDV bu taneciği kapsamıyor (kaydın kendi beyanı). GÜN devralındı (D084): sınır eşi Şeyh Salû-yi Ulyâ (8,2 km) ve Çaldıran yaması ile aynı gün.",
+      "neden_onerisi": "1923 sınır çifti doğru; ama 1548-1639 arasında batıdaki Şeyhrumi safevî, doğudaki eşi Şeyh Salû Osmanlı — coğrafyaya göre TERS. Yama 1923 davranışına DOKUNMUYOR (yalnız 1548-1639)."
+    }
+  ],
+
+  "B_grubu_van_gunu_24": {
+    "oncelik": "DÜŞÜK — 1 gün",
+    "gerekce": "TDV `van` 'onuncu gün kale fethedildi (24 Ağustos 1548)' · TDV `suleyman-i` [383] 'Burası 24 Ağustos'ta ele geçirilip'. Atlas ve olaylar_ek5.js:446 25 Ağustos; maddenin kaynak:'van' alanı kendi gününü taşımıyor (D144).",
+    "kapsam_bugun": ["Bacirge (Esendere)", "Bargiri (Muradiye)", "Erciş", "Hoşap (Mahmudi)", "Kotur", "Van", "Yüksekova (Gever)", "Çölemerik (Hakkâri)", "Özalp (Saray)", "Şemdinli (Şemdinni)", "Şeyh Salû-yi Ulyâ"],
+    "kapsam_A_sonrasi": "yukarıdaki 11 + Başkale · Çaldıran · Şeyhrumi = 14 (D166 — A önce inerse B bu 14'ü kapsamalı)",
+    "degisiklik": "bu kayıtlarda 1548-08-25 olan HER f/t → 1548-08-24; olaylar_ek5.js:446 t ve gun → 1548-08-24 / '24 Ağustos 1548' (madde SERBEST ama kayıtlarla BİRLİKTE inmeli)"
+  },
+
+  "yazilamayan_bulgular": [
+    {"ne": "Van 1534-06 → 1535 sonbahar Osmanlı arası atlasta yok", "neden_yazilmadi": "iki ucun da GÜNÜ bulunamadı; Değişmez 2 için iki madde gerekir", "dayanak": "TDV van [121-123] · suleyman-i [244] · irakeyn-seferi [39],[59-60]"},
+    {"ne": "Mâku 1574 → 1640 Osmanlı ocaklığı atlasta yok", "neden_yazilmadi": "H-0012 kapsamı değil (Ferhat Paşa kalemi); bitiş günü 'IV. Murad'ın ölümünden sonra'", "dayanak": "TDV maku [17],[19],[22-24]"},
+    {"ne": "Kotur 1639-05-17 bitişi", "neden_yazilmadi": "TDV 'IV. Murad'ın ölümünden sonra İranlılar tarafından tekrar işgal' (≤9 ay fark) ama [22] 1639'da kimin elinde olduğunu ayrıştırılamaz bırakıyor", "dayanak": "TDV maku [22-24]"},
+    {"ne": "Hoy ikinci Osmanlı dönemi bitişi", "neden_yazilmadi": "kapsam dışı; TDV 1739 ↔ atlas 1730-08-12", "dayanak": "TDV hoy '... on beş yıl kadar ... 1739'da tekrar İranlılar'ın eline geçti'"}
+  ]
+}
