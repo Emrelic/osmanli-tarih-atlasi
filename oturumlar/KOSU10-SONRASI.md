@@ -108,6 +108,17 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       (şartlı kural, kayda yazılır) · Y7 Yergöğü 853 H → `1450-01-01` + iki madde (1427 kayıp · 1449-50 geri alış) ·
       Y1/Y1b Kemah + Erzincan 1348-79 Eretna/Mutahharten · Y9 Zencan 1383 Timurlu · Y6 Manisa 1415 öncesi ·
       Y4 Köstendil `d:`→`v:`.
+- [ ] **A6c Doğu · Arap** — `denetim/YAMA-A6C-0913.json` (5 yama · 5 çek · 2 madde metni · 12 halka). Koordinatör hükmü:
+      C-0020 Şamahı `d:` → `v:` (TDV sirvan: Hacı Davud "Kırım hanı gibi vasal") · başlangıç `1722-11-01` kesinlik:ay
+      (TDV "Kasım 1722"; yıl kodu tanınmadan önceye düşer) + madde «Hacı Davud'un Osmanlı'ca tanınması» BİRLİKTE ·
+      doğrudan idareye geçiş günü kaynakla bulunursa pencere bölünür · C-0076-d antlaşma günü `1732-01-08`
+      (TDV hemedan "10 Receb 1144"; veri/madde/devirler 01-10 düşer) · Tebriz iadesi 1732 antlaşmasıyla (Iranica
+      NĀDER SHAH + TDV hemedan; TDV tebriz "1736" ayrışma notu) · Tebriz 1731-11-15 geri alınışı eklenir · Tebriz
+      1725 fethi 07-28 (TDV) · P-0063 işgal bitişi 1539-08-10 + madde M-0063-1 AYNI PARTİDE (yoksa 2i açılır) ·
+      P-0076-a Nahçıvan 1724-1735 Osmanlı · P-0058-a Tiflis = birleşik yamadaki G-TIFLIS (BİR KEZ uygula) ·
+      P-0058-b Zagem aynı gün · P-0019-a Ahdar noktası (çek).
+      ⚠️ Birleşik Ferhat Paşa yaması Gümrü/Eçmiyazin'in YALNIZ 1583-1604 penceresini kapsıyor — 1724-35 penceresi
+      (A6C H-0088 sorusu) AYRI açık kalem, ölçülmedi.
 - [ ] **A3 Uzun Hasan 1468 · Ahıska 1578** — madde + yerleşim birlikte (`denetim/YAMA-A3-0913.json`, A3 teslim edince).
 
 ## 5-2 · Kirmanşah 1588-1604 (KIRMANSAH-DOGRULA, M-3813) — 🟢 EMRE KARARI: DOĞRUDAN OSMANLI

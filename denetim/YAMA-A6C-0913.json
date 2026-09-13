@@ -1,0 +1,192 @@
+{
+  "paket": "A6c",
+  "oturum": "PAKET-A6C",
+  "koordinator": "1.MURAT",
+  "damga": "2026-09-13",
+  "rapor": "denetim/ARASTIRMA-A6C-0913.md",
+  "durum": "ONERI — hicbiri uygulanmadi (kosu 10 aktif, yerlesim/kronoloji donuk). Inis KOSU10-SONRASI sirasina.",
+  "taban": {
+    "yerlesim": "arac/girdi.py GIRDI_DOSYALARI 79 dosya · 3818 nokta",
+    "devirler_ozet": "9190d194fe695a98b6df39e74ae450395d54184647100943fd4713fffd35d095 = sha256(data/donemler.js)",
+    "e53c86a": "HEAD atasi · yayin r7487"
+  },
+  "yamalar": [
+    {
+      "kod": "P-0063",
+      "madde": "0035/H-0063",
+      "dosya": "data/yerlesimler_ek.js",
+      "kayit": "Herseknovi (Herceg Novi)",
+      "alan": "isg[0].t",
+      "eski": "1539-01-01",
+      "yeni": "1539-08-10",
+      "guven": "kaynakli",
+      "kaynak": "TDV barbaros-hayreddin-pasa: \"Bu arada Doria tarafından daha önce ele geçirilen Adriyatik kıyısındaki Nova da (Castelnuova) kolaylıkla geri alındı (10 Ağustos 1539).\"",
+      "celiski": "Museo del Ejército (Sitio de Castelnuovo): son saldırı \"DAY 7 OF AUGUST OF 1539\". §4: TDV esastır; fark bildirildi.",
+      "on_kosul": "M-0063-1 maddesi AYNI PARTIDE inmeli — yoksa Degismez 2i bir acik kazanir (tavan 3, bugun 3).",
+      "dokunulmayan": "isg[0].f 1538-01-01 — ay/gun akademik kaynakta BULUNAMADI (aranacak: C. H. Imber, Archivum Ottomanicum IV, 1972, s. 203-216). Deger Preveze'den (1538-09-28) ~9 ay once ama §4 yil kodudur; degistirilmedi."
+    },
+    {
+      "kod": "P-0058-a",
+      "madde": "0035/H-0058 (yan kusur)",
+      "dosya": "data/yerlesimler.js",
+      "kayit": "Tiflis",
+      "alan": "d[0].f",
+      "eski": "1578-08-09",
+      "yeni": "1578-08-24",
+      "guven": "kaynakli",
+      "kaynak": "TDV tiflis: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos'ta Tiflis'e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" · TDV gurcistan: \"24 Ağustos'ta Tiflis şehrini savaşsız ele geçirdiler\"",
+      "degismez2": "1578-08-09 maddesi (Cildir Savasi) 15 gun uzakta — teknik KAPALI ve AYNI sefer; D147 icin madde metninin Tiflis'i anip anmadigi OLCULMEDI."
+    },
+    {
+      "kod": "P-0058-b",
+      "madde": "0035/H-0058 (yan kusur)",
+      "dosya": "data/yerlesimler.js",
+      "kayit": "Zagem (Kaheti)",
+      "alan": "v[0].f",
+      "eski": "1578-08-09",
+      "yeni": "1578-08-24",
+      "guven": "komsu",
+      "kaynak": "TDV gurcistan: \"Tiflis'in fethinden sonra İmeret ve Kahet yöneticileri Osmanlılar'a itaatlerini bildirdiler … Kahet ülkesi ocaklık olarak buranın eski hâkimi Alexandre'a bırakıldı.\"",
+      "gun_komsudan": "Tiflis · TDV tiflis (24 Ağustos 1578). Sart ① komsunun gunu kendi kaynagina dayaniyor ✓ · ② Kahet itaatinin gunu yok ✓ · ③ ayni sefer, 90 km ✓ · ④ bu satir. Deger EN ERKEN sinirdir (itaat 'fetihten sonra').",
+      "not": "devletler.js kaheti-kralligi f:1578-08-09 ayni gunu tasiyor — kunye dosyasi sahibine bilgi."
+    },
+    {
+      "kod": "P-0076-a",
+      "madde": "0035/H-0076",
+      "dosya": "data/yerlesimler.js",
+      "kayit": "Nahçıvan",
+      "alan": "d[?].t (1725-01-01 ile baslayan pencere)",
+      "eski": "1730-08-12",
+      "yeni": "1735-06-19",
+      "guven": "CEK",
+      "kaynak": "TDV nahcivan: \"Nahcıvan da Nahcıvan sancağının merkezi olarak 1724-1735 yıllarında Osmanlı idaresinde kaldı.\" · TDV revan: \"1732'de imzalanan … anlaşma ile Revan'ın Osmanlı toprağı içinde kaldığı tescil edildi\" · Iranica NĀDER SHAH: \"a peace agreement that allowed the Ottomans to retain these lands, while returning Tabriz\"",
+      "gun_komsudan": "Revan · olaylar_ek6.js:85 Baghavard 19 Haziran 1735 · TDV revan 'Haziran 1735' (AY kaynakli, GUN degil) ⇒ sart ① KISMEN.",
+      "bulunamadi": "1730-08 → 1731 arasi Nahcivan'da kisa bir Safevi donemi olup olmadigi.",
+      "etki": "Ahmed Pasa Antlasmasi tarali alanindan Nahcivan cikar (bugun iade edilmis gorunuyor).",
+      "sira_notu": "KITA29 B2 (Nahcivan 1586 BEKLET) ayni kaydin baska penceresi — D166 sirasina konmali."
+    },
+    {
+      "kod": "P-0019-a",
+      "madde": "0033/H-0019",
+      "dosya": "yeni nokta — hangi yerlesim dosyasina: koordinator",
+      "kayit_onerisi": { "ad": "Ahdar (Kal'atü'l-Ahdar)", "tur": "kale", "lat": 28.0833, "lon": 37.15, "g": 0, "k": 4, "m": "Medine",
+        "s": [ { "f": "1281-01-01", "t": "1517-07-06", "d": "memluk" }, { "f": "1918-01-01", "t": "1923-10-29", "d": "hicaz" } ],
+        "d": [ { "f": "1517-07-06", "t": "1918-01-01" } ], "v": [],
+        "kaynak": "TDV ahdar — Tebük'ün 70 km güneyinde, Şam hac yolu konaklama yeri, kale; Kanûnî zamanında ilâveler (1531). Koordinat: GeoNames Qal'at al Akhdar (fort) 28°05'N 37°09'E. Zincir Tebük kaydıyla birebir (gün komşudan: Tebük)." },
+      "guven": "CEK",
+      "sinav": "3 km: en yakin Tebük 66,3 km · Teymâ 146,0 · Medâin-i Sâlih 164,1 ⇒ GECER",
+      "olcmedigim": "Tebük'ün 1517-07-06 / 1918-01-01 gunlerinin kendi kaynagi (komsu sarti ①).",
+      "onerilmeyen": "Dârülhamrâ (GeoNames yalniz 'abandoned railroad station', 1517 menzil kaydi BULUNAMADI) · Muazzam (GeoNames yok, TDV 302)"
+    }
+  ],
+  "cekler": [
+    {
+      "kod": "C-0020",
+      "madde": "0035/H-0020",
+      "kayit": "Şamahı (data/yerlesimler.js)",
+      "sorun": "d:1723-08-01→1735-06-19 DOGRUDAN; TDV sirvan Haci Davud'u 'Kırım hanı gibi vasal bir hükümdar' diyor ve taninmayi 'Kasım 1722'ye koyuyor. Gun 1723-08-01'in dayandigi madde (olaylar_ek5.js:517) gun:\"1723\" — yil.",
+      "karar_istenen": "① d → v (tabi, Sirvan/Semahi hanligi) mi? ② baslangic Kasim 1722 mi (ay → §4 yil kodu 1722-01-01 bir Rus/Safevi celiskisi dogurur mu)? ③ tabiiyetten dogrudan idareye gecis (Surhay Han / 1725-09-12 Sirvan fethi) nerede?",
+      "bulunamadi": "Kuba'nin 1722-1728 durumu (TDV 1719'da Haci Davud aldi diyor; 1722 taninmasi 'Sirvan' diyor, Kuba'yi adiyla anmiyor)."
+    },
+    {
+      "kod": "C-0076-b",
+      "madde": "0035/H-0076",
+      "kayit": "Ordubad",
+      "sorun": "Nahcivan kalibinin kopyasi; kendi kaynagi yok (TDV ordubad 302). Nahcivan'dan gun almak zincirleme devralma (§4 YASAK).",
+      "karar_istenen": "Kaynak bulunana kadar tarali kalir mi, yoksa Nahcivan yamasi indikten sonra Ordubad icin ayri kaynak aramasi mi?"
+    },
+    {
+      "kod": "C-0076-c",
+      "madde": "0035/H-0076",
+      "kayit": "Hoy",
+      "sorun": "d:1724-09-28→1730-08-12; TDV hoy '1724 … on beş yıl kadar … 1739'da tekrar İranlılar'ın eline geçti'. TDV revan Nâdir'in 1735'te Revan-Gence-Tiflis'i aldigini soyluyor. Iki TDV maddesi uyumsuz (§4⑥).",
+      "karar_istenen": "Hoy'un 1730 sonrasi bitisi icin ucuncu kaynak."
+    },
+    {
+      "kod": "C-0076-d",
+      "madde": "0035/H-0076",
+      "sorun": "Kaynak celiskileri: Tebriz iadesi 1732 (Iranica NĀDER SHAH) ↔ 1736 (TDV tebriz) · Tebriz 15 Kasım 1731 geri alinisi veride yok · Tebriz 1725 fethi 28 Temmuz (TDV) ↔ 1725-08-04 (veri) · antlasma gunu 8 Ocak 1732 (TDV hemedan) ↔ 1732-01-10 (veri/devirler/madde).",
+      "karar_istenen": "Taraf secmedim; siralama icin koordinator."
+    },
+    {
+      "kod": "C-0088",
+      "madde": "0035/H-0088",
+      "sorun": "Devredildi: Kasr-ı Şîrîn (YAMA-0047 A0047-1) · Gümrü (SEHIR-MATRISI O-GUMRU, Emre 13 Eyl) · Eçmiyadzin (KITA29 B1) · YAMA-FERHATPASA-BIRLESIK-0913.",
+      "soru": "Birlesik yama Gümrü ve Eçmiyadzin icin 1724-09-28→1735-06-19 (Revan) penceresini de kapsiyor mu? Kapsamiyorsa ayni kama 1724-35'te de var."
+    }
+  ],
+  "madde_onerileri": [
+    {
+      "kod": "M-0063-1",
+      "sahip": "A3 / kronoloji dosyasi sahibi",
+      "t": "1539-08-10",
+      "tur": "toprak-kazanc",
+      "yer_id": "Herseknovi (Herceg Novi)",
+      "b": "Herseknovi'nin (Nova / Castelnuovo) Barbaros Hayreddin Paşa tarafından geri alınması",
+      "gun": "10 Ağustos 1539",
+      "d": "Preveze zaferinden sonra Barbaros Hayreddin Paşa, bir yıl önce Kutsal İttifak kuvvetlerinin ele geçirip İspanyol garnizonu yerleştirdiği Adriyatik kıyısındaki Nova (Castelnuovo, bugünkü Herceg Novi) kalesini kuşatarak geri aldı. İspanyol kaynakları son saldırıyı 7 Ağustos 1539'a koyar; TDV 10 Ağustos der.",
+      "kaynak": "barbaros-hayreddin-pasa"
+    },
+    {
+      "kod": "M-0063-2",
+      "sahip": "A3 / kronoloji dosyasi sahibi",
+      "t": "1538-01-01",
+      "tur": "isgal",
+      "yer_id": "Herseknovi (Herceg Novi)",
+      "b": "Herseknovi'nin Kutsal İttifak (İspanyol) kuvvetlerince işgali",
+      "gun": "1538 (gün ve ay kaynakta bulunamadı)",
+      "d": "Kutsal İttifak donanması 1538 seferinde Adriyatik kıyısındaki Osmanlı kalesi Nova'yı (Castelnuovo) ele geçirdi ve buraya İspanyol tercio'larından bir garnizon yerleştirdi. İşgalin ayı ve günü bu maddenin dayandığı kaynaklarda verilmiyor; kalenin Preveze Savaşı'ndan (28 Eylül 1538) sonra düştüğü anlatılır.",
+      "kaynak": "barbaros-hayreddin-pasa",
+      "not": "'Preveze'den sonra' ifadesi TDV'de ACIK degil ('daha önce ele geçirilen') — metin yazilirken bu yan cumle kaynaga gore daraltilmali ya da cikarilmali."
+    }
+  ],
+  "halka_onerileri": {
+    "dosya_onerisi": "data/kaynakli_halka_a6c.js → window.KAYNAKLI_HALKA_A6C (js/app.js _KAYNAKLI_HALKA_DOSYA_ADLARI'na satir gerekir)",
+    "kayitlar": [
+      { "id": "a6c-herseknovi-tdv", "yer": "Herseknovi (Herceg Novi)", "devlet": "osmanli", "tarih": "1539-08-10", "kesinlik": "gun",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa»", "slug": "barbaros-hayreddin-pasa", "alinti": "Nova da (Castelnuova) kolaylıkla geri alındı (10 Ağustos 1539)", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §5", "not": "Museo del Ejército 7 Ağustos 1539 der — ayri kayit" },
+      { "id": "a6c-herseknovi-museo", "yer": "Herseknovi (Herceg Novi)", "devlet": "osmanli", "tarih": "1539-08-07", "kesinlik": "gun",
+        "kaynak": { "ad": "Museo del Ejército (España), «Sitio de Castelnuovo por el Imperio Otomano»", "url": "https://ejercito.defensa.gob.es/museo/HECHOS_HISTORICOS/HECHOS_HISTORICOS/08.07_SITIO_DE_CASTELNUOVO_POR_EL_IMPERIO_OTOMANO.html", "alinti": "The last and definitive attack of the besiegers broke out the following morning, DAY 7 OF AUGUST OF 1539.", "gelenek": "ES" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §5", "not": "kurumsal kaynak (kirmizi listede degil, §4 ara bolge) · TDV ile 3 gun fark" },
+      { "id": "a6c-tiflis-tdv", "yer": "Tiflis", "devlet": "osmanli", "tarih": "1578-08-24", "kesinlik": "gun",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Tiflis»", "slug": "tiflis", "alinti": "Osmanlı ordusu 24 Ağustos'ta Tiflis'e ulaştı ve boşaltılmış kaleyi ele geçirdi", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §4" },
+      { "id": "a6c-revan-1583-tdv", "yer": "Revan", "devlet": "osmanli", "tarih": "1583-09-01", "kesinlik": "ay",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Revan»", "slug": "revan", "alinti": "Revan 991 Ramazanı başlarında (Eylül 1583 ortaları) Osmanlılar tarafından kontrol altına alındı", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §7", "not": "KITA29 C1 (1583-09-13) ile uyumlu" },
+      { "id": "a6c-revan-1732-tdv", "yer": "Revan", "devlet": "osmanli", "tarih": "1732-01-01", "kesinlik": "yil",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Revan»", "slug": "revan", "alinti": "1732'de imzalanan, ancak kısa süren anlaşma ile Revan'ın Osmanlı toprağı içinde kaldığı tescil edildi", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §6" },
+      { "id": "a6c-nahcivan-tdv", "yer": "Nahçıvan", "devlet": "osmanli", "f": "1724-01-01", "t": "1735-01-01", "kesinlik": "yil",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Nahcıvan»", "slug": "nahcivan", "alinti": "Nahcıvan da Nahcıvan sancağının merkezi olarak 1724-1735 yıllarında Osmanlı idaresinde kaldı.", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §6", "not": "tek kaynak iki uc (kural ②) · kesin pencere 1725-01-01→1735-01-01" },
+      { "id": "a6c-hoy-tdv", "yer": "Hoy", "devlet": "osmanli", "tarih": "1724-01-01", "kesinlik": "yil",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Hoy»", "slug": "hoy", "alinti": "III. Ahmed döneminde Hoy tekrar Osmanlı hâkimiyeti altına girdi (1724)", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §6", "not": "'on beş yıl kadar … 1739' yaklasik — aralik YAZILMADI" },
+      { "id": "a6c-tebriz-1725-tdv", "yer": "Tebriz", "devlet": "osmanli", "tarih": "1725-07-28", "kesinlik": "gun",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Tebriz»", "slug": "tebriz", "alinti": "Köprülüzâde Abdullah Paşa tarafından tekrar zaptedildi (17 Zilkade 1137/28 Temmuz 1725)", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §6", "not": "veri d.f 1725-08-04" },
+      { "id": "a6c-tebriz-1731-tdv", "yer": "Tebriz", "devlet": "osmanli", "tarih": "1731-11-15", "kesinlik": "gun",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Tebriz»", "slug": "tebriz", "alinti": "Hekimoğlu Ali Paşa'nın 15 Cemâziyelevvel 1144'te (15 Kasım 1731) yeniden ele geçirdiği şehir", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §6", "not": "veride 1731-11 penceresi yok · iade yili celiskili (Iranica 1732 ↔ TDV 1736)" },
+      { "id": "a6c-hemedan-1724-tdv", "yer": "Hemedan", "devlet": "osmanli", "tarih": "1724-08-31", "kesinlik": "gun",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Hemedan»", "slug": "hemedan", "alinti": "elli dokuz günlük bir kuşatmanın ardından Hemedan'ı aldıysa da (11 Zilhicce 1136 / 31 Ağustos 1724)", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §6" },
+      { "id": "a6c-hemedan-1732-tdv", "yer": "Hemedan", "devlet": "safevi", "tarih": "1732-01-08", "kesinlik": "gun",
+        "kaynak": { "ad": "TDV İslâm Ansiklopedisi, «Hemedan»", "slug": "hemedan", "alinti": "10 Receb 1144'te (8 Ocak 1732) yapılan barış antlaşması ile Hemedan tekrar İran'a bırakıldı", "gelenek": "TR" },
+        "rapor": "denetim/ARASTIRMA-A6C-0913.md §6", "not": "antlasma gunu veride 1732-01-10" },
+      { "id": "a6c-basra-iranica", "yer": "Basra", "devlet": "zend", "tarih": "1776-04-01", "kesinlik": "ay",
+        "kaynak": { "ad": "Encyclopaedia Iranica, «IRAQ v. Afsharids to the End of the Qajars»", "url": "https://www.iranicaonline.org/articles/iraq-v-afsharids-to-the-end-of-the-qajars/", "alinti": "His forces, led by Ṣādeq Khan Zand, occupied Basra in Rabiʿ I 1190/April 1776 after a long siege", "gelenek": "EN" },
+        "tur": "isgal", "rapor": "denetim/ARASTIRMA-A6C-0913.md §2" }
+    ],
+    "reddedilen": [
+      "Manama — TDV 'Bahreyn' (adalar) diyor, sehri adiyla anmiyor (kural ①)",
+      "Zagem — 'Kahet ülkesi' bolge adi",
+      "Tarki — TDV dagistan bolge cumlesi; kumuklar tabiiyet demiyor",
+      "Şamahı — TDV 'Şirvan üzerindeki hâkimiyet' bolge; 1721 cumlesi Haci Davud'un yagmasini anlatiyor, Osmanli sahipligini degil",
+      "Ahdar / Tebük — Kanûnî'nin kale insa/ilave kaydi; sahiplik cikarimdir"
+    ]
+  },
+  "motor_notu": "Ahmed Pasa devrinde 4 noktasiz serit (parca 1,2,4,5) — petek yeniden bolusum artefakti; MOTOR sinifi, kucuk. Kaynak: denetim/ARAC-A6C-DEVIR-0913.js ciktisi."
+}
