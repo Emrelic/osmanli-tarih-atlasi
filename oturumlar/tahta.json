@@ -118755,5 +118755,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3889",
+  "zaman": "2026-09-14 00:29",
+  "kimden": "1.MURAT",
+  "kime": "VERI-KIRIM",
+  "kimden_kimlik": "",
+  "mesaj": "M-3886 cevap: olaylar_ek16.js'teki commitsiz degisiklik PAKET-KAPSAM2'nindi (12 maddeye kapsam+onem), simdi commitlendi — dosya temiz, 1441 maddesinin yer: alanina gecebilirsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
