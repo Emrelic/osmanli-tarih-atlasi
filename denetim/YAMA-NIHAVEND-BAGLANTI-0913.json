@@ -1,0 +1,68 @@
+{
+  "oturum": "NIHAVEND-BAGLANTI",
+  "tarih": "2026-09-13",
+  "durum": "ONERI — data/ DONUK (uretim kosusu aktif). Uygulayan: Oturum 0.",
+  "rapor": "denetim/OLCUM-NIHAVEND-BAGLANTI-0913.md",
+  "kural": "CLAUDE.md §4 ATLAS REFERANS DEGILDIR — gunler kaynaktan; gun yoksa YYYY-01-01, kaynak tarihinden ONCEYE dusuyorsa yazilmaz, bildirilir",
+  "baglanti_hukmu": [
+    {"donem": "1588 sonu - 1589", "hukum": "kale zinciri; kesintisiz toprak KAYNAKSIZ", "halkalar": ["Derteng", "Kasr-i Sirin", "Kerind", "(Mahidest/Kirmansah BOSLUK)", "Bisutun kalesi", "Sa'd Vakkas kalesi"], "dayanak": "Kutukoglu 1962 s.180-183; Monshi/Savory s.583"},
+    {"donem": "1589 - 1591/92", "hukum": "BAGLI (tabi Luristan uzerinden)", "halkalar": ["Bagdat eyaleti", "Luristan (tabi, Sahverdi)", "Nihavend"], "dayanak": "Kutukoglu 1962 s.183-184, 197; Monshi/Savory s.583, 641-644"},
+    {"donem": "1591/92 - 1593/94", "hukum": "gecis / belirsiz", "dayanak": "Monshi s.642-643 (1000/1591-92 Safevi'ye biat) <-> TDV luristan"},
+    {"donem": "1593/94 - 1603", "hukum": "ENKLAV", "dayanak": "Monshi s.644, 690, 715-720, 824; Iranica KHORRAMABAD"}
+  ],
+  "oneriler": [
+    {
+      "id": "Y1",
+      "yer": "Luristan (Hurremabad)",
+      "kusur": "atlas d: 1590-03-21 -> 1603-10-21 dogrudan Osmanli; kaynak: TABI ve daha kisa",
+      "sikler": {
+        "a": {"islem": "d: donemini v: (tabi) yap; f: 1589-01-01, t: 1592-01-01", "gerekce": "Eyvan menzilinde itaat 997/1589 (Kutukoglu s.183); Safevi'ye biat 1000/1591-92 (Monshi s.642-643)"},
+        "b": {"islem": "v: f: 1589-01-01, t: 1594-01-01", "gerekce": "Hurremabad'in fiilen alinisi 1002/1593-94 (Monshi s.644); 1593-01-01 hicri 1002 basindan once duser, YAZILAMAZ"}
+      },
+      "oneri": "a",
+      "celiski": "TDV luristan '1603' — Iranica KHORRAMABAD (1597-98 Safevi valileri) ve Monshi s.838-839 (1603'te Luristan valisi Safevi ordusunda) ile celisiyor",
+      "kaynak": "Kutukoglu, Osmanli-Iran Siyasi Munasebetleri (1578-1590), 1962, s.182-184, 197; Eskandar Beg Monshi, tr. Savory, s.642-644, 715-720; Iranica KHORRAMABAD"
+    },
+    {
+      "id": "Y2",
+      "yer": "Burucird",
+      "kusur": "atlas d: 1590-03-21 -> 1603-10-21; Osmanli oldugunu soyleyen kaynak BULUNAMADI, Safevi oldugunu soyleyen kaynak VAR",
+      "islem": "Osmanli donemini SIL (Safevi devam)",
+      "kaynak": "Monshi/Savory s.643 (Sahverdi'nin Burucird'e akinlari; 1002/1593-94 Bayat Safevi askeri Burucird'de), s.674; Kutukoglu 1962 s.197 antlasma listesinde YOK"
+    },
+    {
+      "id": "Y3",
+      "yer": "Kirmansah",
+      "kusur": "atlas d: 1590-03-21 -> 1603-10-21; adiyla kaynak YOK",
+      "sikler": {
+        "a": {"islem": "Osmanli donemini SIL (Safevi)", "gerekce": "antlasma listesinde yok (Kutukoglu s.197); 1602-03'te Nihavend'e giden yol Kizilbas asiret topragi (Monshi s.824); 1603-05 Mahidest'te Safevi toplanmasi (Monshi s.851)"},
+        "b": {"islem": "DOKUNMA, kayda 'kaynaksiz' damgasi", "gerekce": "1588'de Bisutun kalesi Osmanli (Kutukoglu s.183) — ama bu KALE, sehir degil"}
+      },
+      "oneri": "a",
+      "not": "Kalhor beyleri (Zencir) 1603-04'e kadar Osmanli (Monshi s.840, 851) — Kirmansah'in BATISI; bkz. 0047"
+    },
+    {
+      "id": "Y4",
+      "yer": "Nihavend",
+      "kusur": "atlas baslangici antlasma gunu 1590-03-21; kaynak 1588 sonu / 1589",
+      "sikler": {
+        "a": {"islem": "f: 1589-01-01", "gerekce": "fetih hil'at hukmu 10 Rebiulevvel 997 (≈ Ocak 1589 sonu, miladi cevirim benim) — Kutukoglu s.182 dn.124; Iranica 998/1589"},
+        "b": {"islem": "f: 1588-01-01", "gerekce": "TDV '996 (1588) yili sonlari' — ama 1588-01-01 fetihten ~10 ay once, §4 kaba-tarih/pencere sarti ile sorunlu"},
+        "c": {"islem": "DOKUNMA", "gerekce": "antlasma gunu hukuki tasarruf"}
+      },
+      "oneri": "a",
+      "bitis": "1603 yili kaynakli (Monshi s.824-825 'Year of the Hare' 1603 Nevruzundan sonra; TDV 1603) — GUN kaynaksiz; mevcut t: DOKUNMA",
+      "enklav_notu": "1593/94-1603 arasi Nihavend Safevi noktalarla cevrili ada olarak gorunmeli; cevredeki Safevi nokta yogunlugu (§2 emilme) OLCULMEDI"
+    }
+  ],
+  "madde_istekleri_degismez2": [
+    {"olay": "Luristan hakimi Sahverdi Han'in Eyvan menzilinde Osmanli'ya itaati", "tarih": "1589 (997)", "kaynak": "Kutukoglu 1962 s.183 (Kunhu'l-ahbar 390a-391a)"},
+    {"olay": "Safevi kuvvetlerinin Nihavend kalesini kusatip cekilmesi", "tarih": "Receb 997 = Mayis-Haziran 1589", "kaynak": "Kutukoglu 1962 s.183; Monshi s.587"},
+    {"olay": "Sahverdi Han'in Safevi'ye biati (Luristan tabiliginin sonu)", "tarih": "1000/1591-92", "kaynak": "Monshi/Savory s.642-643"},
+    {"olay": "Nihavend sinir tespiti: Safevi'nin 'yalniz kaleye yol' talebi reddedildi, nahiyeler Osmanli'da kaldi", "tarih": "1000/1591-92", "kaynak": "Kutukoglu 1962 s.197-198 dn.190-192"},
+    {"olay": "Sah Abbas'in Hurremabad'i almasi, Sahverdi'nin Bagdat'a kacisi", "tarih": "1002/1593-94", "kaynak": "Monshi/Savory s.644"},
+    {"olay": "Sa'd Vakkas halkinin Osmanli kalesini yikmasi ve Nihavend kalesine saldiri", "tarih": "1004/1595-96", "kaynak": "Monshi/Savory s.690"}
+  ],
+  "bulunamadi": ["Burucird'in Osmanli oldugu", "Kirmansah sehrinin 1588-1603 sahibi (adiyla)", "Bisutun kalesinin dusus yili", "Tuyserkan, Kengaver, Sahne, Esedabad 1590-1603 sahibi", "Halepce'nin adiyla sancak kaydi", "Amare'nin 1590 sancagi", "Pelengan'in akademik kaynakla konumu", "Sa'd Vakkas, Zencir, Kur-kuh, Eyvan menzili koordinatlari", "Nihavend nahiyelerinin sinirlari"],
+  "okumadim": ["Kutukoglu 1993 (1578-1612)", "Rohrborn, Provinzen und Zentralgewalt Persiens", "Bacque-Grammont", "Petrushevsky", "Istoriya Irana 1958", "Cambridge History of Iran c.6", "Monshi Farsca asli", "BM Add. 7688 sinirname protokolu"]
+}
