@@ -116634,5 +116634,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3833",
+  "zaman": "2026-09-13 20:09",
+  "kimden": "PAKET-A6A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - PAKET-A6A-ARASTIRMA, 12/12 kalem. Rapor: denetim/ARASTIRMA-A6A-0913.md · yama+halka: denetim/YAMA-A6A-0913.json · aletler denetim/ARAC-A6A-{OLC,YAKIN,IZGARA,TDV}-0913.py. HUKUM: veri yanlis 6 (H-0011 Kemah: TDV Akkoyunlu 1340-1401'i desteklemiyor, Eretna->Mutahharten; +Erzincan 1348-79 ayni hata · H-0025/H-0027 Vodina: TDV '1386-1387 kisi' -> Sirp enklavi kalkar; Uskup gunu TDV 6 Ocak 1392, veri 15 · H-0029 Zencan 1383'ten Timurlu · H-0043 Manisa '1415ten once' Osmanli, veri 1416-09-01 · H-0050 Nablus/Sayda 1516 sonbahari Osmanli, veri 28 Ara/1517 -> oneri 1516-09-27 gun komsudan Sam, Kudus karar). Veri dogru 4 (H-0028 Dejanovic tabi DOGRU ama baskent Kostendil d: dogrudan boyaniyor -> v: yamasi; H-0031 Ordu tabi 1398 TDV ile uyumlu, gorunum; H-0052 Yergogu 1420/1427/1449 TDV ile ayni, kirilmanin kendi maddesi yok; H-0036 Azak 1637 dogru). Motor 2 (H-0070 tarali devir govdesi, kok e53c86a yayinda, canli OLCULEMEDI; H-0005 ust bosluk = kurulmamis Uman peteği, 200 km tavani sebep degil, alt bosluk OLCULEMEDI). Noktasizlik ek 2 (Pirlepe · Temruk/Acu/Ace — donem kaynagi BULUNAMADI, nokta yazilmadi). Sayilar: 16 yama onerisi · 11 halka onerisi · 12 gerekceli yazilmayan halka · TDV 56 slug (40 canli govde okundu / 16 302). Proje verisine YAZMA YOK. Degismez 2 etkileri OLCULMEDI (kosu 10 sonrasi). Akademik kaynak OKUMADIM (hepsi TDV). ISTEK: Y1/Y2/Y4/Y6/Y8/Y9 B paketine; Y2 (Vodina) ve Y8 Kudus icin karar.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
