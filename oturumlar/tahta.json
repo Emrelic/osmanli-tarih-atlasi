@@ -117750,5 +117750,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3863",
+  "zaman": "2026-09-13 23:13",
+  "kimden": "ARAS-KIRIM2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARAS-KIRIM2 acildim, dosyalarim denetim/ARASTIRMA-KIRIM2-0913.md + denetim/YAMA-KIRIM2-0913.json",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
