@@ -1,0 +1,52 @@
+{
+ "oturum": "KITA 14",
+ "tarih": "2026-09-13",
+ "paket": "parti-emrelic-0044 · sartname KITA-14-KRONOLOJI-0044.md, ⓪ Degismez 2 yan-bulgusu",
+ "uyari": "BU BIR YAMA ONERISIDIR, UYGULANMADI. data/yerlesimler_ek29.js ve data/yerlesimler_afrika.js KOSU 10 DONUK — degistiren KOORDINATOR/Oturum 0.",
+ "baglam": "Degismez 2'nin iki acigi data/olaylar_p0044.js ile KAPATILDI (veriye dokunulmadan). Bu yama, acik kapanirken OLCULEN uc VERI kusurunu bildiriyor. Yama UYGULANMASA da kronoloji dogru kalir; uygulanirsa da kronoloji dogru kalir (her iki halde kirilma gunleri p0044 maddelerinin +-30 gunu icinde — asagida kalem kalem olculdu).",
+ "kalemler": [
+  {
+   "no": 1,
+   "onem": "ORTA — tek gunluk kayma, ama kaynagi VIKIPEDI (§4 kirmizi cizgi)",
+   "hedef_kayit": {
+    "dosya": "data/yerlesimler_ek29.js",
+    "ad": "Kostayniçe (Kostajnica)",
+    "mevcut_hal": "d:[{f:\"1556-07-17\",t:\"1699-01-26\"}] · kaynak alani: \"Fetih: Wikipedia 'Kostajnica Fortress' — 17 Temmuz 1556.\""
+   },
+   "onerilen_deger": "d:[{f:\"1556-07-16\",t:\"1699-01-26\"}] · kaynak alanindaki 'Fetih: Wikipedia ...' ifadesi asagidaki akademik kaynakla degistirilir",
+   "kaynak": "N. Ostojcic, 'Kostajnica', Bulwark of Europe – Digitizing the Habsburg-Ottoman Frontier, Zagreb Universitesi Felsefe Fakultesi, 2019: 'utvrda je predana 16. srpnja, samo dan nakon pocetka opsade' (kaynakcasi: M. Kruhek, Povijesni prilozi 21, 2001, 71-97). TDV hirvatistan · bosna-hersek · malkocogullari · bihac: dordu de ANMIYOR (tanecik boslugu).",
+   "gerekce": "Mevcut gun yalniz Vikipedi'ye dayaniyor (§4: Vikipedi tek dayanak olamaz). Akademik kaynak 16 Temmuz veriyor — bir gun erken.",
+   "iki_uc": "Baslangic bir gun ONE aliniyor: kaydin 1556 oncesi sahipsiz penceresi 1 gun KISALIR, yeni delik ACILMAZ.",
+   "kronoloji_etkisi": "Kirilma 1556-07-17 -> 1556-07-16. data/olaylar_p0044.js maddesi 1556-07-16'da: +0 gun. Uygulanmasa da 1 gun farkla ±30 icinde."
+  },
+  {
+   "no": 2,
+   "onem": "ORTA — harita Novi'yi kaynaktaki siranin TERSINE, Kostayniçe'den 197 gun ONCE Osmanli gosteriyor",
+   "hedef_kayit": {
+    "dosya": "data/yerlesimler_ek29.js",
+    "ad": "Bosna Novi'si (Bosanski Novi)",
+    "mevcut_hal": "d:[{f:\"1556-01-01\",t:\"1699-01-26\"}] · kaynak alani fetih icin: 'aynı kaynak (Kostajnica ile birlikte), 1556'"
+   },
+   "secenekler": {
+    "A (ONERI)": "d:[{f:\"1556-07-16\",t:\"1699-01-26\"}] — D084: komsusunun (Kostayniçe) kaynakli gunu. Kaynak Novi'nin 'kisa sure sonra' dustugunu soyluyor; ayni gunu vermek bir gun iddiasi DEGIL, siranin korunmasidir, ve kaynak alanina 'gun komsu kaleden devralindi, kaynak yalniz kisa sure sonra diyor' yazilmalidir.",
+    "B": "DOKUNMA — 1556-01-01 §4'un yil hassasiyeti yazimi olarak bicimce gecerli. Bedeli: harita Novi'yi Kostayniçe'den 197 gun ONCE Osmanli gosterir, kaynaktaki sira TERS (D192)."
+   },
+   "kaynak": "N. Ostojcic 2019 (yukarida): 'Uskoro je zauzet i zapaljen Novi te su tako u jednom mahu pale dvije najvaznije unske utvrde' · O. Buyuktapu (Ege Universitesi), 'The Formation of the Ottoman Military Frontier in Bosnia and Herzegovina (16th-17th Centuries)', s. 8: 'They captured Kostajnica and Novi in 1556.' · F. Simunjak, 'Razvoj krajine', ayni proje, 2019.",
+   "iki_uc": "A uygulanirsa kaydin 1556 oncesi sahipsiz penceresi 197 gun UZAR. OLCULDU (denetle.py --ayrinti, 13 Eylul): kayit ZATEN Degismez 1 sahipsiz listesinde — 1285 · 1290 · 1295 ve 1300-1540 arasi her 20 yillik kesitte sahipsiz (kayitta 1556 oncesine ait s:/v: donemi ve kur: alani YOK). Ayni durum Kostayniçe ve Tobruk icin de gecerli. A'nin Degismez 1 SAYISINA etkisi yok: kesitler 1540 ve 1560, degisiklik ikisinin arasinda. Ama pencerenin kendisi gercek bir borc: bu kaleler 1556 oncesinde Hirvat/Macar tasarrufundaydi ve kayitta o donem YOK — ayri kalem.",
+   "kronoloji_etkisi": "A: kirilma 1556-01-01 -> 1556-07-16, p0044 maddesi +0 gun. 1556-01-01 gunu yine Tobruk kirilmasi olarak kalir ve p0044 Tobruk maddesi +0 gun. B: degisiklik yok, 1556-01-01 p0044 Tobruk maddesiyle +0 gun (denetle 'madde bu yerden bahsetmiyor' uyarisini Novi icin verebilir — D147)."
+  },
+  {
+   "no": 3,
+   "onem": "SORGU — kaynakli bir alternatif deger BULUNAMADI, deger ONERILMIYOR",
+   "hedef_kayit": {
+    "dosya": "data/yerlesimler_afrika.js",
+    "ad": "Tobruk",
+    "mevcut_hal": "d:[{f:\"1556-01-01\",t:\"1711-03-01\"}] · kaynak alani YOK · m: Bingazi"
+   },
+   "onerilen_deger": "YOK",
+   "bulgu": "TDV turgut-reis 'Cemaziyelevvel 963 (Mart 1556)' ve trablusgarp '1556'da Turgut Reis beylerbeyilikle buraya geldi' — ikisi de Tobruk'u ANMIYOR. TDV berka: 'Tarih boyunca Misir'a bagimli oldugu gorulen Berka bolgesi, Misir'in Osmanlilar tarafindan fethinden sonra bu idareye baglandi' — Tobruk'u ANMIYOR ve 1556'dan ONCEYI isaret ediyor ama TARIH VERMIYOR.",
+   "hukum": "bulunamadi — Tobruk'un 1556'si kaynakta degil, kayittaki bir tercih (muhtemelen Turgut Reis'in gelisine baglanmis). TDV'nin isaret ettigi daha erken tarih icin gun/yil da yok; o yuzden deger ONERILMIYOR. Ayri bir arastirma kalemi: Berka'nin Osmanli idaresine gercek giris tarihi (TDV disi akademik kaynak gerekir).",
+   "kronoloji_etkisi": "data/olaylar_p0044.js Tobruk maddesi bu belirsizligi metninde ACIKCA yaziyor ('1556 kaynakta degil, kayittaki bir tercihtir')."
+  }
+ ]
+}
