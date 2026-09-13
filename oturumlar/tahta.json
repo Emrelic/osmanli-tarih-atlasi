@@ -116648,7 +116648,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-13 20:12",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
@@ -116660,6 +116665,24 @@
   "kime": "1.MURAT",
   "kimden_kimlik": "",
   "mesaj": "DUZELTME M-3833: yama onerisi sayisi 16 degil 17 (Y1b Erzincan ek bulgusu dahil; JSON olculdu: yamalar 17 · halkalar 11 · yazilmayan 12 · slug 40/16). Rapor da duzeltildi. Baska degisiklik yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3835",
+  "zaman": "2026-09-13 20:13",
+  "kimden": "PAKET-A2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-A2 ARA-2 · 0045/H-0011 + 0032/H-0009: ekokuma_mimari.js 6->14 (+8: Topkapi mimari + Topkapi tartisma + Dolmabahce · Fatih · Rumelihisari · Sehzade · Yeni Cami · Beyazit) · 0045/H-0007: ekokuma_savas.js 13->18 (+5: Budin 1541 · Hacova · Prut · Cesme · Plevne; Nizip ve Sinop YAZILMADI - kaynak yetersiz/celisik) · bag denetimi A2: 37/37 HATA 0 · TELIF: yeni alet denetim/ARAC-A2-KOPYA-0913.js ilk taslakta 12 kelimelik 4 cumle yakaladi, yeniden yazildi · kaynakta olmayan sayi: 0 · DUZELTME: onceki mesajda '9 bag' dedim, tam olcumle 12 bag daraltildi + 2 gorsel sira cakismasi (Kanuni albumu/Sokullu, Preveze tablosu/Barbaros) giderildi · A3 icin bulgular raporda (Budin 29 Agu TDV'de yok · Plevne 12 gun takvim farki · Sinop 1853-11-30 TDV '1854 basi' · Topkapi 1478 maddesinde TDV'de olmayan 1459 · Abdulaziz olum yeri/1881 sonucu) · SURUYOR: magazin 11 + antlasma 8 taslagi telif sinavinda, gorseller aranıyor",
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
