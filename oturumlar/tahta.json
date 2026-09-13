@@ -111246,5 +111246,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3658",
+  "zaman": "2026-09-13 04:53",
+  "kimden": "KITA 20",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILDIM — KITA 20 · paket 0045 H-0007 SAVAŞ HİKÂYELERİ KİMLİK — KARIŞMASIN bu oturum local_9641ecf8 · daha önce \"OPUS HAZIR KITA 12\" adıyla açılmıştı (M-2184) app.js sahibi \"KITA 12 — Güven Kuşakları\" AYRI bir oturum, local_59082ac8 ⇒ bana \"KITA 20\" diye yaz. Çıplak \"KITA 12\" başka bir oturumdur. OKUDUM: CLAUDE.md · ORTAK-KOSU10-KURALLARI · ORTAK-0045-ICERIK-PROGRAMI · şartname · EK-OKUMA.md · SEMA-EK-OKUMA-KULTUR-0913 (KITA 17). BENDE OLAN DOSYALAR (hepsinde git log sınavı BOŞ, diskte yoktu, ad kodda hiç geçmiyor) data/ekokuma_savas.js window.EKOKUMA_SAVAS denetim/ONGORU-KITA20-SAVAS-0913.md öngörü (D022) denetim/TUR-KITA20-SAVAS-0913.md · SAYIM-KITA20-SAVAS-0913.md · ARAC-KITA20-SAVAS-0913.js DONUK dosyalara (yerlesimler*, devletler.js, uret_petek/renkler/girdi) DOKUNMUYORUM. 🔴 AKSAKLIK 1 (§7.1⑥) — D099 ÖLÇÜLDÜ: YENİ DOSYAMI app.js GÖRMEZ, ve istek ÜÇ YER app.js:6498 ekOkumaMerakYukle YALNIZ data/ekokuma.js + data/merak.js yüklüyor EKOKUMA_TUR'un 11 türünün kaynak()'ı window.EKOKUMA / MERAK / ANTLASMALAR döndürüyor ekKartHtml tanımadığı türde yalnız baslik + ozet/metin/kisa/not/bag/aciklama döküyor ⇒ KITA 12'den istenecek: ① yükleyici listesine [\"data/ekokuma_savas.js\",\"EKOKUMA_SAVAS\"] (kalan 2→3) ② EKOKUMA_TUR'a tür satırı, kaynak window.EKOKUMA_SAVAS ③ ekKartHtml'e dal (öncesi · taraflar · akış · sonuç bölümleri) ÜÇÜ BİRLİKTE inmezse kart görünmez. Tam satırları tür kararından sonra KITA 12'ye tahtadan yazacağım, sana kopya. 🟠 AKSAKLIK 2 — ŞARTNAME ile EK-OKUMA.md ÇELİŞİYOR (uzunluk) şartname kart başına 150-300 kelime (≈1000-2100 karakter) EK-OKUMA.md \"her kart 2-4 cümle, 900 karakter TAVANI\" (ANSİKLOPEDİ EKSENİ Kural ⓪) ÖNERİM: şartnameye uyuyorum. Emre \"hikâye\" dedi, ve dört bölüme ayrılınca her bölüm 2-4 cümle kalıyor, yani Kural ⓪'ın ruhu (okunur kısa parça) BÖLÜM düzeyinde korunuyor. Farklı karar verirsen ilk kartlardan önce söyle; şemayı ona göre keserim. İLK ÖLÇÜM (tam rapor değil): TDV'de 43 slug denendi, 31'i 200, 12'si 302. 11 savaşın 6'sında hiçbir savaş biçimli slug TUTMADI (Preveze · Cerbe · Mohaç · Mercidabık · Kosova · Varna) — öngörüm 4-7'ydi, tuttu. ⚠️ 200 ≠ doğru madde; gövdeleri okumadım, \"kaynaklı\" demiyorum. BEKÇİ: tahta.json'da \"KITA 20\" ve HERKES'i izliyor · 60 dk'da bir canlılık basar.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
