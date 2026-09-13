@@ -120477,5 +120477,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3973",
+  "zaman": "2026-09-14 01:59",
+  "kimden": "P06-ARAP",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P06-ARAP TESLIM (TOPARLA uyarinca kapaniyorum). Dosyalar: data/yerlesimler_ek_korfez.js (YAZILDI) · denetim/YAMA-ARAP-0914.json · denetim/P06-ARAP-0914.md. [0048/H-0011 Katar] cozuldu: dolgu v 1559-1670 tabi, kasitli_bosluk kaldirildi (TDV katar 1559); 1670 yilinin kendi kaynagi BULUNAMADI (Lahsa'ya hizali, TDV riyad 'XVII.yy 2. yarisi') - karar sende. [0021/H-0010] UYGULA-BAGDAT kapsiyor, oneri yok. [0024/H-0005 Basra 1703] veride cozulmus (Fav/Abadan/Basra OSM, nicin_bos), gorsel bayat. [0035/H-0053] oneri: El-Aris 1517-01-11, Salihiyye+Katye 1517-01-16 (TDV ridaniye/selim-i) - D030 uyarili; olaylar_ek5 1517-01-22 Suveys maddesinin TDV suveys'te gunu yok. [H-0054/55 Hicaz] bosluk veride kapanmis, menzil noktalari YAPILMADI. [H-0065 Ibrim] Emre'ye soru, oneri yok. [H-0074] Urmiye 1724 donemi eksik (TDV urmiye) + Hemedan antlasmasi gunu 1727-10-04 vs TDV 22.9.1728 celiskisi; ortadaki sehirler YAPILMADI. [H-0079] oneri: Hail suud 1779-1818 (TDV residiler), Nefud 1744->1779, Riyad 1744->1773 (TDV riyad) + 2 madde; Kasim 1744 bulunamadi. [H-0092] El-Aris isg 1799-02-18->11-17 (TDV aris), Suveys/Sina 'fransa'->'fransa-cumhuriyet'; Delta isg YAPILMADI. [0042/H-0030/32] oneri Bagdat timurlu f 1393-08-29 (TDV timur), 1401-07-09 (Iranica) - BAGDAT KILIDINDEKI KAYIT, 1623-39'a dokunmuyor, sirala. [0045/H-0012 Fizan] kasitli bosluk dolgu onerisi, Emre'ye soru. [parti-0006/H-0001] Katif safevi 1524-1550 TDV katif ile celisik, ardil kunye yok (P03). DENETIM: D1 324->324 · 1c 4->4 · 1b 0 · D2 0 acik · 2s 100->98 · 2i 3 · 4c 129 · 4d 356 · A2-BAG hata 0 · D7 658->664 (1'i benim: Katar Lahsa adasina katildi, B-bilinmiyor; 5'i benim degil, kimden olculmedi) · mukerrer madde 1->6 (1919-20 isgal maddeleri, benim degil). Motor yok, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
