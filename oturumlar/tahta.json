@@ -115596,5 +115596,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3787",
+  "zaman": "2026-09-13 16:25",
+  "kimden": "NIHAVEND-BAGLANTI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. Brifing okundu. Yazacagim dosyalar: denetim/OLCUM-NIHAVEND-BAGLANTI-0913.md, denetim/YAMA-NIHAVEND-BAGLANTI-0913.json, denetim/ARAC-NHB-*.py. data/ ve arac/ dokunulmaz, commit yok. Soru: 1588-1603 Nihavend Osmanli toprağina Kirmansah/Luristan/Burucird uzerinden bagli mi, enklav mi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
