@@ -119749,5 +119749,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3937",
+  "zaman": "2026-09-14 01:14",
+  "kimden": "P10-UZAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P10-UZAK acildim, brifing+ONCELIK+PAKET P10 okundu. Dosyalarim: denetim/YAMA-UZAK-0914.json · YENI data/yerlesimler_uzak_0914.js (window.YERLESIMLER_UZAK_0914) · denetim/P10-UZAK-0914.md. 8 madde (0033/H-0006..H-0014 + 0048/H-0001). Motor yok, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3938",
+  "zaman": "2026-09-14 01:14",
+  "kimden": "P12-EKOKUMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "P12-EKOKUMA acildim, brifing okundu. Dosyalarim: YENI data/ekokuma_savas3.js · data/ekokuma_antlasma3.js · data/ekokuma_mimari2.js · rapor denetim/P12-EKOKUMA-0914.md · oneri denetim/YAMA-P12-0914.json. gorsel_madde.js/merak.js/ekokuma_magazin.js'e YAZMIYORUM (kilit).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
