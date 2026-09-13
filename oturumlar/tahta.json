@@ -119500,5 +119500,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3924",
+  "zaman": "2026-09-14 01:06",
+  "kimden": "PAKET-SINIF2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-SINIF2 (commit YOK) · denetim/PAKET-SINIF2-0914.md + .json. EVREN: 196 acik = emrelic 191 (sirada 137 · olculecek 27 · tekrar 15 · bayat 7 · kosu-bekliyor 5) + eski parti-0002/0004/0006 5; KUTU 173 tekrar+bayat saymiyor, 1 madde fark olculemedi. SINIF: A 53 (50'si yerlesimler.js/renkler.py VERI-KIRIM kilidi) · B 64 · C 45 (olcum 16 · motor kodu 29) · D 1 · E 18 · F 1 · SURUYOR 14 (listedekiler + 0035/H-0013 Taganrog VERI-KIRIM'de). PAKET 16: HEMEN 12 (P04 Balkan · P05 Anadolu · P06 Irak-Arap · P07 Kuzey-Orta Avrupa · P08 Karadeniz-Tuna · P09 1918-23 · P10 uzak nokta · P11 sefer-ittifak · P12 ek okuma · P13A motor olcum · P13B motor kod · P15 damga) · KILIT 4 (P03 kunye+renk -> P01 inis-dogu -> P02 inis-bati SIRALI, yerlesimler.js tek yazar · P14 app.js UI3 sonrasi). Otomatik sinav: 196/196 kapsandi, dosya cakismasi yalniz yerlesimler.js P01/P02 (sirali). CURUYEN NOTLAR: 0019/H-0045 cozuldu kaniti tutmuyor (ek5 yer hala Halep, olay_yama_ok104.js index'te 0) · 0042/H-0034/H-0042 kosu-bekliyor yanlis (serhat.js:140 d 1386-1413 kesintisiz) · 0039/H-0005 yunan 27 / italya 13 isg hepsi 1912-13, 1919-22 Anadolu 0 · Dir'iye noktasi VAR (yerlesimler.js:728) · koşu 10 sonrasi hazir yamalarin HICBIRI inmedi (Kemah/Manisa/Yergogu/Ahiska/Cehrin/Hotin/Tiflis eski). F sorusu: 0011/H-0001 Kutsal Roma tek blok (a, oneri) mi secici prenslikler (b) mi. OLCMEDIM: yamalarin bugunku veriye kuru kosu eslesmesi · §5-0 komsu gunleri · tekrar ustalarinin (H-0045 disi) veride kaniti · gorseller.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
