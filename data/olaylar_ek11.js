@@ -72,7 +72,7 @@ window.OLAYLAR_EK11 = [
 
 { t:"1426-01-01", k:"fetih", etiket:["toprak-kazanc","siyaset"],
   b:"Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu",
-  gun:"1426 (829 h.", ic_not_gun:"; TDV iki maddede 1425-26 ve 1426 diyor, gün yok)",
+  gun:"1426", ic_not_gun:"(829 h.; TDV iki maddede 1425-26 ve 1426 diyor, gün yok)",
   yer:"İpsili (Sisam karşısı), Aydın-ili", yer_id:"Sisam", kisiler:"Aydınoğlu Cüneyd Bey, II. Murad, Anadolu Beylerbeyi Hamza Bey",
   d:"Aydın-ili'ne yeniden hâkim olan Cüneyd Bey'in Anadolu beylerini kışkırtması ve Venedik ile temas araması üzerine II. Murad, Anadolu Beylerbeyi Hamza Bey'i onun üzerine gönderdi. Oğlu Kurd Hasan Akhisar yakınlarında yenilip esir düşünce Sisam adası karşısındaki İpsili'ye çekilen Cüneyd, Karamanoğlu'ndan beklediği yardım gelmeyince ve Osmanlı ile birlikte hareket eden Cenevizliler onu denizden ablukaya alınca teslim olmak zorunda kaldı; bütün soyuyla birlikte ortadan kaldırıldı. Aydınoğulları toprakları böylece tamamıyla Osmanlı idaresine girdi.", ic_not_d:"⚠️ Tarihte TDV kendi içinde ayrışıyor: `aydinogullari` maddesi 829 (1425-26), `cuneyd-bey` maddesi 1426 veriyor; haritadaki 1425-06-01 kırılması ikisinden de erkendir (bkz. OTURUM-13-ANADOLU.md §4).",
   kaynak:"cuneyd-bey", duygu:["🎉","😔"] },
@@ -139,7 +139,7 @@ window.OLAYLAR_EK11 = [
 
 { t:"1510-12-02", k:"savas", etiket:["savas","siyaset"],
   b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
-  gun:"1510 sonu (916 h.", ic_not_gun:"; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
+  gun:"1510 sonu", ic_not_gun:"(916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
   yer:"Merv, Herat — Horasan", yer_id:"Merv (Mari)", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",
   d:"Batıda Akkoyunlu mirasını tamamlayan Şah İsmâil doğuya, Horasan'a yürüdü ve Merv önlerinde Özbekler'i ağır bir yenilgiye uğrattı; Şeybânî Han savaş meydanında öldü. Merv ve Herat Safevî hâkimiyetine girdi ve Safevî Devleti Fırat'tan Ceyhun'a uzanan sınırlarına kavuştu. Böylece 1501 yazında Tebriz'e girişle başlayan süreç dokuz yılda tamamlanmış oldu: Akkoyunlu mirası bütünüyle Safevî idaresine geçti ve Osmanlı Devleti doğusunda kendi büyüklüğünde ikinci bir devletle komşu hâle geldi.",
   kaynak:"safeviler", duygu:["⚔️","😔"] },
@@ -160,7 +160,7 @@ window.OLAYLAR_EK11 = [
   b:"İberya Birliği: Portekiz tacı İspanya kralına geçti",
   gun:"16 Nisan 1581", yer:"Tomar — Portekiz",
   kisiler:"II. Felipe (Portekiz kralı I. Filipe), Kardinal Kral Henrique",
-  d:"Kardinal Kral Henrique'nin vârissiz ölümüyle açılan veraset kavgası Alcântara Muharebesi'nde (25 Ağustos 1580) İspanya lehine kapandı ve Tomar'da toplanan Portekiz Cortes'i 16 Nisan 1581'de II. Felipe'yi Portekiz kralı olarak tanıdı. Tomar şartlarına göre Portekiz kendi kurumlarını, parasını ve dilini koruyacak, yönetime yalnız Portekizliler atanacak, Madrid'de ayrı bir Portekiz konseyi bulunacaktı — yani birleşme kişisel birlikti, ilhak değil. Atlas aynı hukukî durumu Felemenk ve Milano için", ic_not_d:"`ispanya` diye boyadığından anakara Portekiz de altmış yıl boyunca aynı şekilde işlendi; buna karşılık Estado da Índia (Goa, Diu, Malaka, Makao) Portekiz tacı altında kaldığı için `portekiz` bırakıldı. Kaynak: Britannica, History of Portugal — Union of Spain and Portugal, 1580-1640.", duygu:["🏛"], yer_kon:[39.6,-8.42] },
+  d:"Kardinal Kral Henrique'nin vârissiz ölümüyle açılan veraset kavgası Alcântara Muharebesi'nde (25 Ağustos 1580) İspanya lehine kapandı ve Tomar'da toplanan Portekiz Cortes'i 16 Nisan 1581'de II. Felipe'yi Portekiz kralı olarak tanıdı. Tomar şartlarına göre Portekiz kendi kurumlarını, parasını ve dilini koruyacak, yönetime yalnız Portekizliler atanacak, Madrid'de ayrı bir Portekiz konseyi bulunacaktı — yani birleşme kişisel birlikti, ilhak değil.", ic_not_d:"Atlas aynı hukukî durumu Felemenk ve Milano için `ispanya` diye boyadığından anakara Portekiz de altmış yıl boyunca aynı şekilde işlendi; buna karşılık Estado da Índia (Goa, Diu, Malaka, Makao) Portekiz tacı altında kaldığı için `portekiz` bırakıldı. Kaynak: Britannica, History of Portugal — Union of Spain and Portugal, 1580-1640.", duygu:["🏛"], yer_kon:[39.6,-8.42] },
 
 // ⚠️ `toprak-kayip` YAZIM HATASIYDI, doğrusu `toprak-kaybi` (öteki 183 kayıt öyle
 // yazıyor). Önemsiz görünür, değil: `denetle.py`nin `kirilmasiz_madde()` sayacı
