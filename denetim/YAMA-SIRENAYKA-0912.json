@@ -1,0 +1,42 @@
+{
+  "baslik": "Sirenayka 1517-05-19 zinciri — Derne ve Bingazi (data/yerlesimler.js, KITA 15'in dosyası DEĞİL)",
+  "sartname": "tahta M-3600-sonrası, İŞ⑨ (H-0016-5) — 1.MURAT'ın Derne/Bingazi'yi kendi dosyasında tuttuğu iki nokta",
+  "ortak_kusur": "İkisi de s:memluk 1281→1517-05-19, d:OSMANLI 1517-05-19'dan başlıyor. Sirenayka hiç Memlük olmadı; 1517-05-19 Mısır Deltası'nın Osmanlı'ya geçiş günüdür, buraya yanlış taşınmış (~34 yıl erken).",
+  "kayitlar": [
+    {
+      "ad": "Bingazi",
+      "dosya": "data/yerlesimler.js",
+      "satir_yaklasik": 820,
+      "eski": { "s": [{"f":"1281-01-01","t":"1517-05-19","d":"memluk"},{"f":"1912-10-15","t":"1923-10-29","d":"italya"}],
+                "d": [{"f":"1517-05-19","t":"1711-03-01","y":"ilhak"},{"f":"1835-05-26","t":"1912-10-15"}] },
+      "onerilen": {
+        "bos": "devletsiz",
+        "neden": "1281-1551 arası TDV `berka` hiçbir egemen adı vermiyor; kaynak susuyor (D020).",
+        "s": [{"f":"1912-10-15","t":"1923-10-29","d":"italya"}],
+        "d": [{"f":"1551-08-15","t":"1711-03-01","y":"ilhak"},{"f":"1835-05-26","t":"1912-10-15"}]
+      },
+      "iki_secenek": "TDV `bingazi` (gövde okundu) İKİ tarih veriyor: '1551 Trablusgarp seferi sırasında Berka bölgesinin Osmanlı hâkimiyetine girmesinden SONRA Bingazi de KESİN olarak Osmanlı yönetimine katıldı (1578)'. Yani 1551 BÖLGESEL/nominal, 1578 BİNGAZİ'NİN KENDİSİ için kesin. Ben data/yerlesimler_afrika.js'teki üç iç Berka noktasında (Ecdâbiye/Merc/Beyzâ) tutarlılık için 1551-08-15'i önerdim — ama Bingazi'nin ÖZEL DURUMU (TDV'nin 'kesin' dediği 1578) ayrıca değerlendirilmeli. Koordinatör karar versin: 1551-08-15 (tutarlılık) ya da 1578-01-01 (TDV'nin 'kesin' dediği, gün yok).",
+      "kaynak": "berka + bingazi (TDV, gövde okundu): \"Berka Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı\" · \"1551 Trablusgarp seferi sırasında Berka bölgesinin Osmanlı hâkimiyetine girmesinden sonra Bingazi de kesin olarak Osmanlı yönetimine katıldı (1578)\". trablusgarp: \"Kaptanıderyâ Sinan Paşa kumandasındaki Osmanlı donanması şehri ele geçirdi (12 Şâban 958/15 Ağustos 1551).\""
+    },
+    {
+      "ad": "Derne",
+      "dosya": "data/yerlesimler.js",
+      "satir_yaklasik": 821,
+      "eski": { "s": [{"f":"1281-01-01","t":"1517-05-19","d":"memluk"},{"f":"1912-10-18","t":"1923-10-29","d":"italya"}],
+                "d": [{"f":"1517-05-19","t":"1711-03-01"},{"f":"1835-05-26","t":"1912-10-18"}] },
+      "onerilen_A_basit": {
+        "s": [{"f":"1281-01-01","t":"1510-01-01","d":"hafsi"},{"f":"1912-10-18","t":"1923-10-29","d":"italya"}],
+        "d": [{"f":"1556-01-01","t":"1711-03-01"},{"f":"1835-05-26","t":"1912-10-18"}],
+        "not": "1510-1556 arası (İspanya, sonra Saint Jean/Malta şövalyeleri) AÇIKTA BIRAKILDI — s: dizisinde bir boşluk oluşur, Değişmez 1'i BOZAR. Bu yüzden B seçeneği daha doğru olabilir."
+      },
+      "onerilen_B_tam_zincir_ONAY_GEREKIR": {
+        "s": [{"f":"1281-01-01","t":"1510-01-01","d":"hafsi"},{"f":"1510-01-01","t":"1530-01-01","d":"ispanya"},{"f":"1912-10-18","t":"1923-10-29","d":"italya"}],
+        "d": [{"f":"1556-01-01","t":"1711-03-01"},{"f":"1835-05-26","t":"1912-10-18"}],
+        "1530_1556_bosluk": "TDV: '1530'dan itibaren Malta adasıyla beraber Rodos'tan çıkarılan Saint Jean şövalyelerine verildi.' `devletler.js`'te bu kimliğin (Malta Şövalyeleri / Saint Jean) künyesi ARANMADI (ben aramadım, dosyam değil) — künye varsa 1530-1556 arası ona yazılmalı, yoksa devletsiz/bos:'hata' (kaynak susuyor değil, üçüncü bir gücün varlığı bilinip künyesi eksik) olarak işaretlenmeli."
+      },
+      "kaynak": "derne (TDV, gövde okundu): \"Bir süre Normanlar'ın istilâsına uğradıysa da Muvahhidler zamanında tekrar İslâm hâkimiyetine girdi. Tunus'taki Hafsî hânedanının idaresi sırasında Trablusgarp ile birlikte 1510'da İspanyollar tarafından zaptedildi. 1530'dan itibaren Malta adasıyla beraber Rodos'tan çıkarılan Saint Jean şövalyelerine verildi.\" · \"1551'de Osmanlı idaresine geçti\" · \"Trablusgarp Turgut Reis'in teşvik ve gayretleriyle Osmanlı hâkimiyetine geçtikten sonra beylerbeyi unvanı ile buraya yerleşen Turgut Reis (Paşa) sınırlarını genişleterek doğuda Tobruk ve Derne'yi almıştı.\" trablusgarp: \"1556'da Turgut Reis beylerbeyilikle buraya geldi.\" ⇒ Osmanlı günü 1556-01-01 (Tobruk ile AYNI mantık, TDV ikisini aynı cümlede anıyor)."
+    }
+  ],
+  "kendi_dosyamda_uyguladigim_emsal": "data/yerlesimler_afrika.js — Ecdâbiye/Merc/Beyzâ: bos:devletsiz 1281-1551, d:1551-08-15. Tobruk: bos:devletsiz 1281-1556, d:1556-01-01 (TDV `derne`'nin Turgut Reis cümlesi Tobruk'u Derne ile birlikte anıyor).",
+  "iki_uc_kontrolu": "1281-1551/1556 arası bu 6 nokta (Bingazi·Derne·Ecdâbiye·Merc·Beyzâ·Tobruk) 'bos:devletsiz' ile BELGELİ sahipsiz kalıyor — Değişmez 1c'ye düşer, Değişmez 1'in BEKLENEN tavanını BOZMAZ (mevcut kayıtlarla aynı üslup, bkz. Buraydâ/Uneyze/Şakrâ emsali data/yerlesimler.js'te)."
+}
