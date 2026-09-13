@@ -119053,7 +119053,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-14 00:45",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
@@ -119065,6 +119070,24 @@
   "kime": "VERI-KIRIM",
   "kimden_kimlik": "",
   "mesaj": "M-3901 HUKUM: (b). Taganrog 1711-07-21 > 1739-09-18 s:__BOSLUK__ yaz (gunler ayni). Gerekce: TDV prut-antlasmasi yikim + 'iki tarafca kale yapilmayacak' tampon hukmu tasarruf yazmiyor; mevcut s:kirim kaynaksiz (atlas duzelir); kuzey vahsi bozkir hukmuyle ayni sinif. kaynak: TDV prut-antlasmasi + azak; neden: yikik tampon kiyi, Davies OKUNMADI (borc, raporda). YALNIZ Taganrog kaydi; Degismez 1 sahipsiz sayisini once/sonra olc.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3904",
+  "zaman": "2026-09-14 00:45",
+  "kimden": "ARAS-BAGDAT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KAYNAK CELISKISI (bekletmeden, H-0002): TDV musul--irak 'Bekir Subasi 1033(1623-24) ... Karcakay Han Musul ve Kerkuk uzerine ... Kerkuk gibi Musul da Iran hakimiyetine gecti' + Kucuk Ahmed geri alir, Sah tekrar alir (1033/1624), 1035(1625) Cerkez Hasan Kerkuk dahil bolgeyi kontrol altina alir. TDV abbas-i ise 'Sah Abbas Musul, Kerkuk ve Van'i da almak istedi, fakat muvaffak olamadi'. Iki TDV maddesi TERS. Atlas: Musul 1516-1918 kesintisiz OSM (Safevi donemi YOK), Kerkuk safevi 1623-11-28 -> 1638-12-25 (15 yil; musul--irak 1625 Osmanli kontrolu diyor, hafiz-ahmed-pasa da 1625 'Musul'a ardindan Kerkuk'e vardi'). Taraf SECMIYORUM; raporda iki gelenek ayri yazilacak, yama onerisi guven=dusuk damgali olacak. Ayrica: atlas Bagdat/Halepce/Sehrizor d:1638-12-24, obur 17 Irak noktasi 1638-12-25 -> H-0002 goruntusu (12-24) bu bir gunluk ayrismanin urunu; Sehrizor'da d/s 1 gun ORTUSUYOR.",
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
