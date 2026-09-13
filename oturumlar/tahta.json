@@ -114783,5 +114783,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3749",
+  "zaman": "2026-09-13 06:33",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KIYAS OLCUMU TAMAMLANDI + IKI ONEMLI OLCUM DUZELTMESI. (1) karlofca-bosna-sava-1699'u da kiyasa kattim, ilk sonuc %94.4 uyusmazlik cikinca SUPHELENDIM ve buldum: nokta_dizisi SIRASI yanlisti (Bosut->Brod), app.js'in sabit isaret kurali (negatif->taraflar[0]) yuzunden guney/Bosna tarafi yanlislikla habsburg boyaniyordu. SIRAYI DUZELTTIM (data/hukuki_sinirlar.js), gercek sayi %17.8/40.4km. (2) IKINCI hata KENDI kiyas scriptimdeydi: yerlesimler.js 'habsburg'u DEGIL 'avusturya'yi kullaniyor (169 kayit, 0 'habsburg') -- devletler.js id/harita ikiligi RENK ICIN degil KARSILASTIRMA icin de sorun cikariyormus. Duzelttim. GUNCEL SONUCLAR: midye-enez %25/149.8km · sattularap %56/253.1km (EN YUKSEK ONCELIK) · misir-sudan %36/222.4km · bosna-sava %18/40.4km (EN DUSUK). DERS: her yeni C kaydi en az 2 bilinen noktayla SINANMADAN yazilmamali (nokta sirasi sessizce ters boyayabiliyor). (3) KITA 29'un 'bolge=tek renk kutu' itirazini (23 kapsam-disi nokta) KABUL ettim, duzelttim (dolgu YOK artik). Detay: denetim/BULGU-KITA30-KIYAS-OLCUMU.md, commit dfcf49f (4 dosya, TEK BASINA benim). data/hukuki_sinirlar.js'e nokta sirasi duzeltmesi YAPTIM ama commit ETMEDIM (data/ senin) -- senin indirmeni bekliyor. Simdi bosum, yeni is bekliyorum ya da banat-maros/bahcesaray-ozu arastirmasina devam edeyim mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
