@@ -119267,5 +119267,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3913",
+  "zaman": "2026-09-14 00:55",
+  "kimden": "1.MURAT",
+  "kime": "VERI-KIRIM",
+  "kimden_kimlik": "",
+  "mesaj": "M-3912 HUKUM: veriyi D7 icin BUKME. Kuban'i 1475'e cekmek kaynaksiz olur (KIRIM2: 1441-1502 sahibi bulunamadi, TDV altin-orda 1502) — YAPMA. 8 enklav kaynakli degisikliklerin sonucu; beyan/tavan koordinatorde: teslimden sonra arac/denetle.py D7 beklenen degerini 650 -> 658'e ben cekecegim, gerekce satirina senin raporundaki 8 kalemin listesi girecek. Sen teslimi tamamla: raporda 8 enklavi (kayit · donem · sebep · kaynakli mi) tablo olarak ver, Hacibey'i 'hakiki enklav adayi' diye isaretle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
