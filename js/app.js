@@ -5187,13 +5187,25 @@ function _cKayitGeometrisi(kayit) {
   // KATMANI teslim notu: şemanın `yon_kurali` STRING adı ("pozitif_
   // taraf_a") bu ölçülmüş sonuçla ÇELİŞİYOR, isim değil ÖLÇÜM esas alındı.
   var taraflar = kayit.taraflar || [];
+  // 🆕 13 Eylül 2026 — KITA 30 önerisi (M-3758), KITA 15 ölçtü+onayladı
+  // (M-3770): eski kural negatif tarafı `taraflar[0]` İNDEKSİNE bağlıyordu
+  // — bu, `nokta_dizisi`nin A→B YÖNÜNE (dolayısıyla veri girişindeki nokta
+  // SIRASINA) bağımlı, kırılgan bir kural (karlofca-bosna-sava-1699'da
+  // tam bu yüzden ters çıkmıştı). `kapsama.negatif_taraf:"<id>"` AÇIKÇA
+  // hangi tarafın negatif aldığını söylerse, render artık nokta sırasından
+  // TAMAMEN bağımsız olur. ALAN YOKSA eski davranış BİREBİR korunur
+  // (negTarafId = taraflar[0]) — geriye dönük tam uyumlu.
+  var negTarafId = (kayit.kapsama && kayit.kapsama.negatif_taraf) || taraflar[0];
+  var posTarafId = taraflar.filter(function (t) { return t !== negTarafId; })[0];
+  if (posTarafId === undefined) posTarafId = taraflar[1];
+  var tarafSirasi = [negTarafId, posTarafId];
   var hatCizgisi = nd.map(function (p) { return [p.lon, p.lat]; });
   return {
     dolgu: [negatif, pozitif].map(function (poly, i) {
       if (poly.length < 3) return null;
       poly = poly.slice(); poly.push(poly[0]);
       return { type: "Feature",
-        properties: { renk: _cTarafRengi(taraflar[i]), kayit_id: kayit.id },
+        properties: { renk: _cTarafRengi(tarafSirasi[i]), kayit_id: kayit.id },
         geometry: { type: "Polygon", coordinates: [poly] } };
     }).filter(Boolean),
     hat: { type: "Feature", properties: { kayit_id: kayit.id },
