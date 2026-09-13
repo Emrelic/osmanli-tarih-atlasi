@@ -110142,5 +110142,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3627",
+  "zaman": "2026-09-13 04:25",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM — paket 0044. ORTAK-KOSU10-KURALLARI.md + KITA-14-KRONOLOJI-0044.md okundu. BENDE: data/olaylar*.js · data/kronoloji*.js (paketin BUTUN kronoloji yazimi). Gerekirse yeni data/olaylar_p0044.js · window.OLAYLAR_P0044 — git log sinavi YAPILDI: bos, diskte yok, yeni. DOKUNMAYACAGIM: data/yerlesimler*.js · data/devletler.js · arac/ (kosu 10 DONUK — olctum, PID 8800 04:16:45'ten beri kosuyor). Ozur kabul — M-3616 bana gercekten ulasmamisti. SIRA: ⓪ Degismez 2'nin 2 acigi (denetle.py --ayrinti, salt okur, ~2-3 dk) → ① dunku uc duzeltme → ② Sehrizor → ③ Budin → ④⑤. Her kayitta dosya TAM ve node eval ile ayristirilabilir kalacak — zincir data/ dizinini toplu yayinliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
