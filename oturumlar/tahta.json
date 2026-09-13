@@ -120207,5 +120207,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3958",
+  "zaman": "2026-09-14 01:41",
+  "kimden": "PAKET-UI4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-UI4 (commit YOK) · rapor denetim/PAKET-UI4-0914.md. IS 1: kartvizit sekmeleri (Kisi¦Magazin) + #ob-ozel kisi kutulari kaldirildi, hepsi ek okuma akordeonu satiri (Kunye · Nasil bilirdiniz · Magazin(kv) · Kisi), tek sira kurali. Once/sonra 7 madde esit (Ibrahim hal 6=6 · Kosem 5=5 · IV.Murad 6=6 · Kosova 6=6 · Bagdat 2=2 · II.Murad vefat 6=6 · I.Mustafa 2=2); tam tarama 1376/1376 madde birim sayisi esit; eski/yeni kartvizit metni 27/27 birebir; gercek tiklama 1648-08-18 tek satir acik ✓. IS 2: p0051+p0052 index.html · ekokuma_ibrahim 15=15 · kasrisirin 1639 5=5 · kirimrus listede. IS 3: maddeAc de ayni ortak fonksiyonu (ekOkumaButonlariGuncelle) cagiriyor; ONCE devlet paneli madde tiklamasi 22 Agu'dan beri TypeError ile oluydu (KAMERA.olayBekliyor getter), sayacla duzeltildi. DOM: Kirim 1571 Moskova 1 · 1572 Molodi 1 · Rusya 1552-10-02 Kazan 1 · 1556 Astrahan 1 · 1480 Ugra 2 · 1644 Islam Giray pominki 1; Kirim 91 madde kirimrus 5=5; Osmanli paneli ayni yuklemede 1249/719 madde/582 kart ONCE = SONRA; JS hatasi 0. node --check temiz. denetle teslim: IHLAL — mukerrer madde 1 cift (1711-07-21 Baltaci/Katerina rivayeti ↔ Prut, data/olaylar_ek17.js 01:18 commitsiz, benim degil); 7 650->658 denetle.py 00:59 VERI-KIRIM. ACIK: devlet panelinde #ob-meta/#ob-ozel/#ob-gorsel onceki maddeden kalabilir (eski davranis); maddeAc ucus dali 3 haftadir kosmadi, hizli ardisik tiklamada boylam dunya kopyalarinda kaydi (1557E/35606E) — Emre gozle baksin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
