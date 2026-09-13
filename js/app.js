@@ -5215,13 +5215,110 @@ function _cBboxPoligonu(k) {
   return [[k.lon_min, k.lat_min], [k.lon_max, k.lat_min],
           [k.lon_max, k.lat_max], [k.lon_min, k.lat_max]];
 }
-// ⚠️ SINIR: `nokta_dizisi`nin İKİDEN FAZLA noktası varsa (SEMA §8.2 ①b,
-// eğri/doğal-tanınmayan hat) dolgu-bölme yalnız İLK ve SON nokta arasındaki
-// DÜZ ÇİZGİYE göre yapılır — bu bir YAKLAŞIKLIKTIR, şemanın kendisi de
-// N-noktalı bölmeyi "tasarlandı, sınanmadı" diye işaretliyor (§8.2). Hattın
-// KENDİSİ (çizilen çizgi) yine TAM polyline'ı kullanır, yalnız dolgu-bölme
-// yaklaşık. Bugün test edilen tek örnek (Midye-Enez) zaten 2 noktalı,
-// yaklaşıklık devreye GİRMİYOR.
+// 🆕 13 Eylül 2026 — C-NSEGMENT (tahta M-3783): ESKİ SINIR KALKTI.
+// Önceden `nokta_dizisi` İKİDEN FAZLA noktalıysa dolgu yalnız İLK↔SON
+// nokta KİRİŞİNE göre bölünüyordu; 19 köşeli Ferhat Paşa hattında Erdebil
+// · Hemedan · Bakü gibi yerler ters tarafa düşüyordu. Artık `kapsama.kutu`
+// (dikdörtgen) dalında N≥3 noktalı hat TAM polyline ile bölünür
+// (`_cPolylineKutuBol`, aşağıda). 2 noktalı hatlar ESKİ kirişle-kesme
+// kodundan geçmeye DEVAM eder (orada kiriş = hattın kendisi, sonuç kesin;
+// eşdeğerlik denetim/ARAC-C-NSEGMENT-0913.js'te sınandı).
+// ⚠️ `kapsama.tur:"poligon"` dalı DEĞİŞMEDİ — orada N noktalı hat hâlâ
+// kiriş yaklaşıklığıyla bölünür (bugün o dalda N>2 dolgulu kayıt yok).
+
+// ---- N NOKTALI HAT × DİKDÖRTGEN KUTU ---------------------------------------
+// Liang–Barsky: P→Q parçasının kutu içinde kalan [t0,t1] aralığı, yoksa null.
+function _cParcaKutuKes(k, P, Q) {
+  var dx = Q[0] - P[0], dy = Q[1] - P[1], t0 = 0, t1 = 1;
+  var p = [-dx, dx, -dy, dy];
+  var q = [P[0] - k.lon_min, k.lon_max - P[0], P[1] - k.lat_min, k.lat_max - P[1]];
+  for (var i = 0; i < 4; i++) {
+    if (p[i] === 0) { if (q[i] < 0) return null; continue; }
+    var r = q[i] / p[i];
+    if (p[i] < 0) { if (r > t1) return null; if (r > t0) t0 = r; }
+    else          { if (r < t0) return null; if (r < t1) t1 = r; }
+  }
+  return [t0, t1];
+}
+// Kutu çevresinde, (lon_min,lat_min) köşesinden SAAT YÖNÜNÜN TERSİNE ölçülen
+// konum parametresi (alt → sağ → üst → sol kenar).
+function _cCevreParam(k, P) {
+  var W = k.lon_max - k.lon_min, H = k.lat_max - k.lat_min, e = 1e-9 * Math.max(W, H);
+  if (Math.abs(P[1] - k.lat_min) <= e) return P[0] - k.lon_min;
+  if (Math.abs(P[0] - k.lon_max) <= e) return W + (P[1] - k.lat_min);
+  if (Math.abs(P[1] - k.lat_max) <= e) return W + H + (k.lon_max - P[0]);
+  return 2 * W + H + (k.lat_max - P[1]);
+}
+function _cParcalarKesisir(a, b, c, d) {
+  var o = function (p, q, r) { var v = _cCross(p, q, r); return v > 0 ? 1 : (v < 0 ? -1 : 0); };
+  var o1 = o(a, b, c), o2 = o(a, b, d), o3 = o(c, d, a), o4 = o(c, d, b);
+  if (o1 !== o2 && o3 !== o4) return true;
+  var ust = function (p, q, r) {   // r, p–q parçasının üstünde mi (eşdoğrusal durumda)
+    return Math.min(p[0], q[0]) <= r[0] && r[0] <= Math.max(p[0], q[0]) &&
+           Math.min(p[1], q[1]) <= r[1] && r[1] <= Math.max(p[1], q[1]);
+  };
+  return (o1 === 0 && ust(a, b, c)) || (o2 === 0 && ust(a, b, d)) ||
+         (o3 === 0 && ust(c, d, a)) || (o4 === 0 && ust(c, d, b));
+}
+// Kutuyu N noktalı hatla İKİ halkaya böler. Dönen { negatif, pozitif }
+// `_cDogruylaKes` çıktısıyla aynı biçimde (kapanmamış halka). ANLAM, 2 noktalı
+// çapraz çarpım kuralının genellemesi: NEGATİF = hattın A→…→B YÖNÜNDE
+// SAĞINDA kalan taraf (2 noktada cross<=0 tarafı tam budur).
+// Uçlar kutu kenarına ulaşmıyorsa ilk/son parça DOĞRUSAL UZATILIR.
+// Hat kutuya birden fazla kez girip çıkıyorsa ya da kendini kesiyorsa null
+// döner — çağıran dolgu ÇİZMEZ ve uyarır (yanlış boyamaktansa boş, D015).
+function _cPolylineKutuBol(k, noktalar) {
+  var P = [];
+  noktalar.forEach(function (p) {
+    var s = P[P.length - 1];
+    if (!s || s[0] !== p[0] || s[1] !== p[1]) P.push(p);
+  });
+  if (P.length < 2) return null;
+  var W = k.lon_max - k.lon_min, H = k.lat_max - k.lat_min, L = 2 * (W + H);
+  var uzat = function (uc, komsu) {
+    var dx = uc[0] - komsu[0], dy = uc[1] - komsu[1], n = Math.sqrt(dx * dx + dy * dy);
+    return [uc[0] + dx / n * L, uc[1] + dy / n * L];
+  };
+  var zincir = [uzat(P[0], P[1])].concat(P, [uzat(P[P.length - 1], P[P.length - 2])]);
+  // Kutu içindeki kısım(lar)
+  var kosular = [], son = null;
+  for (var i = 0; i < zincir.length - 1; i++) {
+    var A = zincir[i], B = zincir[i + 1], t = _cParcaKutuKes(k, A, B);
+    if (!t || !(t[0] < t[1])) { son = null; continue; }
+    var a = t[0] === 0 ? A : [A[0] + t[0] * (B[0] - A[0]), A[1] + t[0] * (B[1] - A[1])];
+    var b = t[1] === 1 ? B : [A[0] + t[1] * (B[0] - A[0]), A[1] + t[1] * (B[1] - A[1])];
+    if (son && son[son.length - 1] === a) son.push(b);
+    else { son = [a, b]; kosular.push(son); }
+    if (t[1] !== 1) son = null;   // parça kutudan ÇIKTI — sonraki yeni koşu başlatır
+  }
+  if (kosular.length !== 1) return null;
+  var run = kosular[0];
+  // Basitlik: bitişik olmayan hiçbir parça kesişmemeli
+  for (var x = 0; x < run.length - 1; x++)
+    for (var y = x + 2; y < run.length - 1; y++)
+      if (_cParcalarKesisir(run[x], run[x + 1], run[y], run[y + 1])) return null;
+  var sG = _cCevreParam(k, run[0]), sC = _cCevreParam(k, run[run.length - 1]);
+  var C = 2 * (W + H), eps = 1e-9 * C;
+  var mod = function (v) { return ((v % C) + C) % C; };
+  var koseler = [[[k.lon_min, k.lat_min], 0], [[k.lon_max, k.lat_min], W],
+                 [[k.lon_max, k.lat_max], W + H], [[k.lon_min, k.lat_max], 2 * W + H]];
+  var yuru = function (yon) {   // yon +1: saat tersi (sol taraf), -1: saat yönü (sağ taraf)
+    var toplam = mod(yon * (sG - sC));
+    return koseler.map(function (c) { return [c[0], mod(yon * (c[1] - sC))]; })
+      .filter(function (c) { return c[1] > eps && c[1] < toplam - eps; })
+      .sort(function (u, v) { return u[1] - v[1]; })
+      .map(function (c) { return c[0]; });
+  };
+  var ccw = function (halka) {  // çıktı halkalarını saat tersine çevir (GeoJSON dış halka)
+    var s = 0;
+    for (var j = 0; j < halka.length; j++) {
+      var u = halka[j], v = halka[(j + 1) % halka.length];
+      s += u[0] * v[1] - v[0] * u[1];
+    }
+    return s < 0 ? halka.slice().reverse() : halka;
+  };
+  return { negatif: ccw(run.concat(yuru(-1))), pozitif: ccw(run.concat(yuru(1))) };
+}
 function _cKapsamaPoligonu(kapsama) {
   // 🆕 C KAPSAMA POLİGONU (11 Eylül 2026) — `kapsama.tur:"poligon"` ise
   // `kapsama.nokta_dizisi`nin KENDİSİ kullanılır (kıyı hattı gibi dışbükey
@@ -5241,8 +5338,23 @@ function _cKayitGeometrisi(kayit) {
   var A = [nd[0].lon, nd[0].lat], B = [nd[nd.length - 1].lon, nd[nd.length - 1].lat];
   var kutuPoly = _cKapsamaPoligonu(kayit.kapsama);
   if (!kutuPoly) return null;
-  var negatif = _cDogruylaKes(kutuPoly, A, B, true);   // cross <= 0 taraf
-  var pozitif = _cDogruylaKes(kutuPoly, A, B, false);  // cross >= 0 taraf
+  var negatif, pozitif;
+  var kap = kayit.kapsama || {};
+  var poligonDali = kap.tur === "poligon" && kap.nokta_dizisi;   // _cKapsamaPoligonu ile AYNI koşul
+  if (nd.length > 2 && !poligonDali && kap.kutu) {
+    // 🆕 C-NSEGMENT — N≥3 noktalı hat: TAM polyline ile böl (kiriş DEĞİL).
+    var bol = _cPolylineKutuBol(kap.kutu, nd.map(function (p) { return [p.lon, p.lat]; }));
+    if (bol) { negatif = bol.negatif; pozitif = bol.pozitif; }
+    else {
+      // Hat kutuya birden çok kez giriyor ya da kendini kesiyor: yanlış
+      // boyamaktansa DOLGU YOK, yalnız çizgi — ve bunu SESSİZ geçme.
+      console.warn("C dolgu bölünemedi (hat kutuda basit tek parça değil): " + kayit.id);
+      negatif = []; pozitif = [];
+    }
+  } else {
+    negatif = _cDogruylaKes(kutuPoly, A, B, true);   // cross <= 0 taraf
+    pozitif = _cDogruylaKes(kutuPoly, A, B, false);  // cross >= 0 taraf
+  }
   // §4b'nin ÖLÇÜLMÜŞ örneğiyle doğrulandı: negatif taraf taraflar[0]
   // (taraf_a), pozitif taraf taraflar[1] (taraf_b) — bkz. C ÇİZİM
   // KATMANI teslim notu: şemanın `yon_kurali` STRING adı ("pozitif_
