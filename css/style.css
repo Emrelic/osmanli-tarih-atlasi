@@ -1602,6 +1602,50 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 }
 .ob-ek-btn:hover { background: #ffe9a8; }
 
+/* 🆕 PAKET-UI2 (13 Eylül 2026) — 0035/H-0030, Emre'nin kararı: ek okumalar madde
+   kutusunda AKORDEON. Ana açıklama (#ob-detay) ilk satır; bir ek okuma açılınca
+   açıklama iki satıra KÜÇÜLÜR, öteki ek okumalar kapanır. (js/app.js ekAkordeonKur) */
+#ob-ekokuma-butonlar.ek-akordeon { display: block; }
+.ek-ak-baslik {
+  display: flex; gap: 6px; align-items: baseline;
+  width: 100%; text-align: left;
+  background: var(--panel-koyu);
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 4px 9px; margin-top: 5px;
+  font-size: 12px; cursor: pointer; color: var(--metin);
+}
+.ek-ak-baslik:hover { background: #ffe9a8; }
+.ek-ak-baslik::before { content: "▸"; color: #8a6d2f; flex: none; }
+.ek-ak-baslik[aria-expanded="true"]::before { content: "▾"; }
+.ek-ak-etiket { flex: none; font-weight: 600; }
+.ek-ak-ipucu { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #6b5a33; }
+.ek-ak-satir.acik > .ek-ak-baslik,
+#ob-detay-baslik.acik { background: #ffe9a8; }
+.ek-ak-satir.acik > .ek-ak-baslik { border-radius: 6px 6px 0 0; }
+.ek-ak-govde {
+  border: 1px solid var(--altin); border-top: none; border-radius: 0 0 6px 6px;
+  padding: 6px 9px; max-height: 46vh; overflow-y: auto;
+  font-size: 12.5px; line-height: 1.45;
+}
+.ek-ak-govde .ek-kart { margin-bottom: 0; border: none; padding: 2px 0; background: none; }
+#ob-detay-baslik { margin-top: 7px; }
+#ob-detay-baslik + #ob-detay { margin-top: 4px; }
+#ob-detay.ek-ak-kucuk {
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; opacity: 0.72; cursor: pointer;
+}
+
+/* 🆕 PAKET-UI2 — antlaşma öncesi/sonrası kutusu (js/app.js antlasmaFarkiGoster) */
+.ob-antlasma .ant-dugmeler { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
+.ob-antlasma button {
+  font-size: 11.5px; padding: 2px 8px; cursor: pointer;
+  border: 1px solid var(--altin); border-radius: 5px;
+  background: var(--panel-koyu); color: var(--metin);
+}
+.ob-antlasma button:hover { background: #ffe9a8; }
+.ob-antlasma button.secili { background: #ffe9a8; font-weight: 600; }
+
 /* ARAYÜZ 4 ② — üç ayar penceresi, `#ekokuma-pencere` ile AYNI modal deseni. */
 #ayarlar-pencere {
   position: fixed; inset: 0; background: rgba(0,0,0,0.55);

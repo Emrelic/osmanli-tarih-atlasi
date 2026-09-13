@@ -325,18 +325,165 @@ function toprakIndeksleri(maddeGunleri, kirilmaGunleri, pencere) {
            maddeli: maddeli, maddesiz: maddesiz };
 }
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 PAKET-UI2 (13 Eylül 2026) — SAHİPLİK ANAHTARI · ANTLAŞMA FARKI · ODAK
+// Emre'nin kararı (0035/H-0097 sonrası): *"antlaşma maddesi açılınca antlaşma
+// öncesi ve sonrası harita, aradaki farklar yanıp sönsün — her antlaşma için."*
+// DOM'suz: `js/app.js` çizer, `denetim/ARAC-UI2-FARK-0913.js` AYNI fonksiyonları
+// gerçek veride koşar (D045 — ölçüm aleti ile uygulama iki ayrı mantık taşımaz).
+// Yeni geometri YOK: fark, yerleşimin d/v/s dönemlerinden çözülür; çizimde
+// motorun kendi peteği (PETEKLER, yerleşim adıyla) kullanılır.
+
+// Haritanın öncelik kuralı (app.js `_yerlesimSerit` ile AYNI):
+//   d varsa "osmanli" · yoksa v varsa "tabi:<kid>" · yoksa s varsa "s:<d>" · yoksa ""
+// `gs` "YYYY-MM-DD" dizgisi; karşılaştırma dizgi — veri de dizgi tutuyor.
+function sahipAnahtari(y, gs) {
+  var i, p;
+  for (i = 0; i < (y.d || []).length; i++) if ((p = y.d[i]).f <= gs && gs < p.t) return "osmanli";
+  for (i = 0; i < (y.v || []).length; i++) if ((p = y.v[i]).f <= gs && gs < p.t) return "tabi:" + (p.kid || "");
+  for (i = 0; i < (y.s || []).length; i++) if ((p = y.s[i]).f <= gs && gs < p.t) return "s:" + p.d;
+  return "";
+}
+function _sgPad(n, w) { var s = String(n); while (s.length < w) s = "0" + s; return s; }
+// "YYYY-MM-DD" ± gün (yıl < 1000 için de doğru: setUTCFullYear)
+function gunKaydir(s, fark) {
+  var p = String(s).split("-");
+  var d = new Date(Date.UTC(2000, (+p[1] || 1) - 1, +p[2] || 1));
+  d.setUTCFullYear(+p[0]);
+  d.setUTCDate(d.getUTCDate() + fark);
+  return _sgPad(d.getUTCFullYear(), 4) + "-" + _sgPad(d.getUTCMonth() + 1, 2) + "-" + _sgPad(d.getUTCDate(), 2);
+}
+// Sınır günü → o gün dönemi başlayan/biten yerleşimlerin indeksleri. Bir kez kurulur.
+function sinirIndeksi(Y) {
+  var by = {};
+  (Y || []).forEach(function (y, i) {
+    ["d", "v", "s"].forEach(function (a) {
+      (y[a] || []).forEach(function (p) {
+        [p.f, p.t].forEach(function (g) {
+          if (!g) return;
+          var l = by[g] || (by[g] = []);
+          if (l[l.length - 1] !== i) l.push(i);
+        });
+      });
+    });
+  });
+  return { gunler: Object.keys(by).sort(), by: by };
+}
+// Türkçe normalleştirici — `lower()`dan ÖNCE eşleme (CLAUDE.md §4: "İ".lower() iki kod noktası)
+function sgNorm(s) {
+  s = String(s == null ? "" : s)
+    .replace(/[İIı]/g, "i").replace(/[Şş]/g, "s").replace(/[Ğğ]/g, "g")
+    .replace(/[Üü]/g, "u").replace(/[Öö]/g, "o").replace(/[Çç]/g, "c")
+    .replace(/[Ââ]/g, "a").replace(/[Îî]/g, "i").replace(/[Ûû]/g, "u");
+  if (s.normalize) s = s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return s.toLowerCase().replace(/['\u2018\u2019`\u02bc]/g, "").replace(/\s+/g, " ").trim();
+}
+var _SG_GENEL = /(^| )(buyuk dukaligi|kralligi|krallik|imparatorlugu|hanligi|hanedani|hanedanligi|cumhuriyeti|prensligi|dukaligi|beyligi|sultanligi|devleti|voyvodaligi|emirligi|carligi|kontlugu|despotlugu|seyhligi|konfederasyonu|monarsisi|serifligi|sehir devleti)(?= |$)/g;
+// Künyenin "çekirdek adı": parantez içi atılır, kurum eki atılır. "Erdel Prensliği (Transilvanya)" → "erdel"
+function kunyeCekirdek(ad) {
+  return sgNorm(String(ad || "").split(" (")[0]).replace(_SG_GENEL, " ").replace(/\s+/g, " ").trim();
+}
+// Metinde çekirdek ad TAM KELİME olarak geçiyor mu? Özel ad Türkçede eki kesme
+// işaretiyle alır ("Rusya'ya"); metin normalleştirilmeden ÖNCE kesme işareti
+// BOŞLUĞA çevrilir (bkz. antlasmaTaraflari), yani ekli hâl de tam kelimedir.
+// Kesmesiz yalnız yapım eki kabul: -li/-lı/-lu (+ler/lar) · -ler/-lar ("Venedikliler",
+// "Habsburglarla"). ⚠️ İlk sürüm "5+ harfte önek yeter" diyordu; ölçüldü:
+// `kazan` künyesi "kazandı"da, `dene` "denemesi"nde tutuyordu — yanlış taraf.
+function _sgGeciyor(metinN, cekirdek) {
+  if (!cekirdek || cekirdek.length < 3) return false;
+  var i = -1;
+  while ((i = metinN.indexOf(cekirdek, i + 1)) >= 0) {
+    if (i > 0 && /[a-z0-9]/.test(metinN.charAt(i - 1))) continue;
+    var j = i + cekirdek.length;
+    while (j < metinN.length && /[a-z]/.test(metinN.charAt(j))) j++;
+    var ek = metinN.slice(i + cekirdek.length, j);
+    if (!ek || /^(l[iu](l[ae]r)?|l[ae]r)[a-z]{0,4}$/.test(ek)) return true;
+  }
+  return false;
+}
+// ANTLAŞMANIN TARAFLARI — { id: true } kümesi (künye id VE harita anahtarı).
+//   ① osmanli HER ZAMAN (OLAYLAR* Osmanlı kronolojisi; dünya maddesinde yanlış
+//      pozitifi ölçüm aleti sayar)  ② ANTLASMALAR kaydının `taraf` dizisi
+//   ③ madde başlığı + metninde çekirdek adı geçen künyeler.
+// ⚠️ Taraf süzgeci OLMADAN fark "o gün dünyada ne değişti"yi ölçer — ölçüldü:
+//   1533 İstanbul Antlaşması'nda İnka→İspanya yanıp sönüyordu (D092 ailesi).
+function antlasmaTaraflari(metin, ekTaraflar, kunyeler) {
+  var T = { osmanli: true }, ix = {};
+  (kunyeler || []).forEach(function (k) { if (k && k.id) ix[k.id] = k; });
+  function ekle(id) {
+    if (!id) return;
+    T[id] = true;
+    var k = ix[id];
+    if (k && k.harita) T[k.harita] = true;
+  }
+  (ekTaraflar || []).forEach(ekle);
+  var m = sgNorm(String(metin == null ? "" : metin).replace(/['‘’ʼ`]/g, " "));
+  (kunyeler || []).forEach(function (k) {
+    if (!k || !k.id || k.id === "osmanli") return;
+    if (_sgGeciyor(m, kunyeCekirdek(k.ad))) ekle(k.id);
+  });
+  return T;
+}
+function sahipIlgiliMi(key, T) {
+  if (!key) return false;
+  if (key === "osmanli") return !!T.osmanli;
+  if (key.indexOf("tabi:") === 0) { var kid = key.slice(5); return !!(T.osmanli || (kid && T[kid])); }
+  if (key.indexOf("s:") === 0) { var d = key.slice(2); return d !== "__BOSLUK__" && !!T[d]; }
+  return false;
+}
+// [basGun, sonGun] (ikisi de dahil) aralığındaki İLK sınır gününde, taraflardan
+// birine dokunan el değiştirmeler. Yoksa null. Gün başına yalnız o gün sınırı olan
+// yerleşimler bakılır — bütün dünya taranmaz (maliyet: sınır sayısı × birkaç kayıt).
+function antlasmaFarki(Y, ix, basGun, sonGun, T) {
+  var G = ix.gunler, lo = 0, hi = G.length;
+  while (lo < hi) { var md = (lo + hi) >> 1; if (G[md] < basGun) lo = md + 1; else hi = md; }
+  for (var k = lo; k < G.length && G[k] <= sonGun; k++) {
+    var g = G[k], once = gunKaydir(g, -1), liste = [];
+    var aday = ix.by[g];
+    for (var n = 0; n < aday.length; n++) {
+      var y = Y[aday[n]], a = sahipAnahtari(y, once), b = sahipAnahtari(y, g);
+      if (a !== b && (sahipIlgiliMi(a, T) || sahipIlgiliMi(b, T))) liste.push({ i: aday[n], once: a, sonra: b });
+    }
+    if (liste.length) return { gun: g, once: once, degisim: liste, taranan: k - lo + 1 };
+  }
+  return null;
+}
+// Bir sahiplik anahtarı verilen kimliklerden birine mi ait? (odak kutusu + halka için)
+//   "osmanli" → d · tâbi dahil  ·  "eflak" → tabi:eflak, s:eflak, künye harita anahtarı,
+//   ya da kid'siz v: döneminin `k` adı künyenin çekirdek adıyla başlıyorsa.
+function sahipKimlikte(key, vK, ids, kunyeIx) {
+  if (!key) return false;
+  for (var i = 0; i < ids.length; i++) {
+    var id = ids[i], kn = kunyeIx && kunyeIx[id], h = kn && kn.harita;
+    if (id === "osmanli" && (key === "osmanli" || key.indexOf("tabi:") === 0)) return true;
+    if (key === "tabi:" + id || key === "s:" + id || (h && (key === "s:" + h || key === "tabi:" + h))) return true;
+    if (key === "tabi:" && vK && kn) {
+      var c = kunyeCekirdek(kn.ad);
+      if (c && sgNorm(vK).indexOf(c) === 0) return true;
+    }
+  }
+  return false;
+}
+// O gün aktif v: döneminin `k` adı (kid'siz tâbi kayıtlar için)
+function aktifVAdi(y, gs) {
+  for (var i = 0; i < (y.v || []).length; i++) { var p = y.v[i]; if (p.f <= gs && gs < p.t) return p.k || ""; }
+  return "";
+}
+
 // Tarayıcıda global, node'da modül — dosya iki ortamda da sınanabilsin diye.
+var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
+                 grupSayilari: grupSayilari, bilinmeyenler: bilinmeyenler,
+                 onemSuz: onemSuz, onemGecer: onemGecer, onemSay: onemSay,
+                 ONEM_VARSAYILAN: ONEM_VARSAYILAN, TUR_GRUP: TUR_GRUP,
+                 toprakIndeksleri: toprakIndeksleri,
+                 // PAKET-UI2
+                 sahipAnahtari: sahipAnahtari, gunKaydir: gunKaydir, sinirIndeksi: sinirIndeksi,
+                 sgNorm: sgNorm, kunyeCekirdek: kunyeCekirdek, antlasmaTaraflari: antlasmaTaraflari,
+                 sahipIlgiliMi: sahipIlgiliMi, antlasmaFarki: antlasmaFarki,
+                 sahipKimlikte: sahipKimlikte, aktifVAdi: aktifVAdi };
 if (typeof window !== "undefined") {
-  window.SUZGEC = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
-                    grupSayilari: grupSayilari, bilinmeyenler: bilinmeyenler,
-                    onemSuz: onemSuz, onemGecer: onemGecer, onemSay: onemSay,
-                    ONEM_VARSAYILAN: ONEM_VARSAYILAN, TUR_GRUP: TUR_GRUP,
-                    toprakIndeksleri: toprakIndeksleri };
+  window.SUZGEC = _SG_DISA;
 }
 if (typeof module !== "undefined" && module.exports) {
-  module.exports = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
-                     grupSayilari: grupSayilari, bilinmeyenler: bilinmeyenler,
-                     onemSuz: onemSuz, onemGecer: onemGecer, onemSay: onemSay,
-                     ONEM_VARSAYILAN: ONEM_VARSAYILAN, TUR_GRUP: TUR_GRUP,
-                     toprakIndeksleri: toprakIndeksleri };
+  module.exports = _SG_DISA;
 }
