@@ -119244,5 +119244,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3912",
+  "zaman": "2026-09-14 00:54",
+  "kimden": "VERI-KIRIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "VERI-KIRIM AKSAKLIK #2 (bekletmeden): Degismez 2 artik ✓ 531 kirilma 0 acik (1570 maddesi p0051'e kesinlik yil ile yazildi). AMA Degismez 7 ✓650 → ✗658 sorgusuz enklav, SONUC IHLAL. A/B olculdu (ayni veri, yalniz benim 8 yerlesim dosyam HEAD'e cekili kopyada 650): +8 = [Cerkes kiyisi __BOSLUK__ 1441-1475 adalari: Anapa · Maykop+Soci+Tuapse (4 satir)] + [1475-06-06 Maykop+Soci+Tuapse → OSMANLI sistemi gevsek adasi (3) — Kuban 1502'ye kadar altinorda oldugu icin kiyi 1475-1502 Anapa/Taman'dan kopuk] + [Hacibey 1441 litvanya adasi (1) — kaynakli Vytautas kalesi, hakiki enklav adayi] + [Yedisan 1774-07-21 kirim adasi (1)] − [Taganrog 1711 kirim adasi kalkti (1)]; Belgorod/Harkov/Sloboda satirlari kirim→__BOSLUK__ 1:1 degisti, Donets/Cerkask 1502 kirim→OSMANLI 1:1. D7 kendi basligi 'veri degil YONTEM olcer, silerek kapatma' diyor; sevkte D7 kabulu yok, beyan (enklav:true / tavan) yetkim disinda — YAZMADIM. Hukum: tavan 658'e mi, beyan mi, Kuban 1475'e mi? Rapor denetim/VERI-KIRIM-0914.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
