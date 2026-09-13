@@ -63,6 +63,24 @@
 10. **"X'in fethi" maddeleri halkaya açılır** — yalnız çekirdek Osmanlı kronolojisinde (olaylar*),
    fetheden devlet adıyla anılmıyorsa Osmanlı sayılır; ayrı örneklem, %95 kapısı (`denetim/*HALKA-FETIH*`).
 
+## Emre'nin kararları (13 Eylül, dördüncü tur — KIRMANSAH-DOGRULA · HALKA-ADAY sonrası)
+11. **Gümrü ve Eçmiyazin ÖRTÜLÜ OSMANLI** (Emre: "örtülü bir şekilde Osmanlı kabul etmek zorundayız").
+    Önceki koordinatör "Gümrü: sahipliğe dokunma" kararı DÜŞTÜ. Damga **örtülü (enklav olamaz)**;
+    gün komşudan Revan (BOA 51-322 · TDV revan) — Gümrü için şart ③ tutmadığı kayda yazılır
+    (Şüregel 1590 Revan tahririnde yok), `yeniden_kaynaklanacak`.
+12. **Miyâne ve Sarâb: terazi koordinatöre bırakıldı** ("denge Safevî yönünde ise Safevî'ye geçir").
+    Koordinatör hükmü: **İKİSİ DE SAFEVÎ.** Gerekçe: iki yer için de 1585-1603 Osmanlı tasarruf
+    kaydı (kale · muhafız · sancak · tahrir) **0**; Miyâne 1603'te Safevî toplanma yeri (Eskandar
+    s.828); Osmanlı ilerleyişi "Sarâb'a kadar gitti, ileri geçmedi, Tebriz'e döndü" (Eskandar s.582);
+    Erdebil ve Halhâl Safevî. Karşı kalem açıkça: Germrud 1588 Osmanlı sancak beyi ataması
+    (Kütükoğlu s.196, OKUNMADI). Sınır köşeleri 4-6 kaynaktan yeniden kurulacak (FERHATPASA-KOSE).
+13. **Nihâvend bitişi şık A — 1603-01-01** (Luristan'la aynı gün, bağlantı korunur).
+14. **Kirmanşah DOĞRUDAN OSMANLI TOPRAĞI (`d:`)** — Emre kararı, KIRMANSAH-DOGRULA'nın `v:`
+    önerisine rağmen. ⚠️ Kayıtta dürüst yazım: şehri adıyla anan kaynak YOK; dayanak Kalhor kuşağı
+    (Derteng · Zencir · Derne · Kerind) Osmanlı, yüksek güven (Monshi s.840, 851, 1168 · Şerefnâme
+    1597 · Kütükoğlu s.164, 181) + Emre kararı. Kaydın "komşu Hemedan" dayanağı DÜŞER (Hemedan Safevî).
+    Bitiş günü 1603-10-21 kaynaksız (Kalhor kuşağı 1011-12/1603-04) — yeniden kaynaklanacak.
+
 ## Kurallar
 - **Kaynak:** akademik (CLAUDE.md §4), dokuz tarih yazımı. Her yer için mümkünse
   iki farklı gelenekten kaynak; çelişki AÇIKÇA yazılır, taraf seçilmez.

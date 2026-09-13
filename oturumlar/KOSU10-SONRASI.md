@@ -95,10 +95,12 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       Bicar kur = şehir olarak ortaya çıkış (öncesi boş) · Luristan harita 1603, 1591-92 isyan maddesi ·
       Nihavend bağlı (enklav değil) · Kürt beylikleri Osmanlı tâbi, ayrı künye yok.
 
-## 5-2 · Kirmanşah 1588-1604 (KIRMANSAH-DOGRULA, M-3813) — 🟡 EMRE KARARI BEKLİYOR
-- [ ] Şehir adıyla hiçbir kaynakta yok; Kalhor kuşağı (Derteng · Zencir · Derne · Kerind) Osmanlı, yüksek güven.
-      Bugünkü kayıt `d:1590-03-21→1603-10-21` + `m:"Hemedan"`: `d:` için kaynak YOK, "komşu Hemedan" dayanağı düştü
-      (Hemedan Safevî). Öneri Y1 `d:` → `v:` (Kalhor beyleri üzerinden tâbi) — `denetim/YAMA-KIRMANSAH-0913.json`.
+## 5-2 · Kirmanşah 1588-1604 (KIRMANSAH-DOGRULA, M-3813) — 🟢 EMRE KARARI: DOĞRUDAN OSMANLI
+- [ ] `d:` KORUNUR (Emre dördüncü tur; Y1 `v:` önerisi UYGULANMAZ). Yalnız `kaynak` alanı yeniden yazılır:
+      şehir adıyla kaynaksız · Kalhor kuşağı Osmanlı (Monshi s.840/851/1168 · Şerefnâme · Kütükoğlu s.164/181) +
+      Emre kararı · "komşu Hemedan" dayanağı SİLİNİR. `d.t 1603-10-21` yeniden kaynaklanacak — G-KIRMANSAH.
+- [ ] Dördüncü tur kalemleri de aynı birleşik yamada: G-GUMRU (örtülü Osmanlı) · G-ECMIYADZIN (örtülü) ·
+      G-SARAB + G-MIYANE (SAFEVÎ) · Nihâvend şık A 1603-01-01 · köşe 4-6 FERHATPASA-KOSE önerisiyle.
 - [ ] Y2 `m:Hemedan` çelişkisi · Y3 Kasr-ı Şirin (0047 kararına) · Y4 Zohâb/Zencir/Mâhîdeşt noktasız.
 
 ## 5-1 · Halka/harita çelişkileri — kaynaktan doğrulandı (HALKA-ADAY, M-3811)

@@ -19,7 +19,11 @@
     "karar_5": "Kürt beylikleri (Merîvan/Erdelan · Bâne · Mahabad/Mukrî) ayrı künye DEĞİL — v: tâbi, `k:` YAZILMAZ (künye/renk araması doğmasın). Örtülü Sakkız · Serdeşt aynı biçim (komşularıyla tutarlı tâbi tonu; seçim koordinatörün).",
     "karar_ahar_3tur": "Emre (13 Eylül 2026, üçüncü tur, koordinatör iletisi): AHAR şık B — Osmanlı tâbisi 1588 → 1603 (TR Kütükoğlu s.195 'Karacadağ' · RU Petrushevsky '1588-1603'). IR Eskandar Beg s.615 / 619-620 'Qaraja-dag was allotted to Iran' (1592) AYRIŞMA NOTU olarak kalır.",
     "karar_kirmansah_3tur": "Emre (13 Eylül 2026, üçüncü tur): KİRMANŞAH OSMANLI KALIR — dönemi SİLİNMEZ. Kaynak doğrulaması bekliyor: KIRMANSAH-DOGRULA (TR · IR · RU · GE · HY · AZ gelenekleri).",
-    "sarab_miyane": "Emre (üçüncü tur): araştırıldığı gibi kalır — Sarâb KARARSIZ (değişiklik yok, karar_bekleyen), Miyâne SAFEVÎ (ASM şık A uygulandı: G-MIYANE, Osmanlı d: kaldırılır — uygulayan teyit etsin). Hat köşeleri 4-6 `gecici` KALIR."
+    "sarab_miyane": "~~Emre (üçüncü tur): Sarâb KARARSIZ~~ → DÖRDÜNCÜ TUR (aşağıda): Emre teraziyi koordinatöre bıraktı, Sarâb ve Miyâne İKİSİ DE SAFEVÎ. Hat köşeleri 4-6 kaynaktan yeniden kurulacak (FERHATPASA-KOSE).",
+    "karar_4tur_gumru_ecmiyazin": "Emre (13 Eylül 2026, dördüncü tur): Gümrü ve Eçmiyazin ÖRTÜLÜ OSMANLI — 'örtülü bir şekilde Osmanlı kabul etmek zorundayız'. 1.MURAT ③ 'Gümrü dokunma' kararı DÜŞTÜ.",
+    "karar_4tur_sarab_miyane": "Emre (dördüncü tur): 'denge Safevî yönünde ise Safevî'ye geçir, Osmanlı yönünde ise Osmanlı kalsın — sen karar ver'. Koordinatör hükmü: İKİSİ DE SAFEVÎ — iki yer için 1585-1603 Osmanlı tasarruf kaydı 0; Eskandar s.582 ilerleyiş Sarâb'da durdu; s.828 Miyâne 1603 Safevî toplanma yeri; Erdebil/Halhâl Safevî. Karşı kalem: Germrud 1588 sancak beyi (Kütükoğlu s.196, okunmadı).",
+    "karar_4tur_nihavend": "Emre (dördüncü tur): Nihâvend bitişi şık A — 1603-01-01.",
+    "karar_4tur_kirmansah": "Emre (dördüncü tur): Kirmanşah DOĞRUDAN OSMANLI (d:) — KIRMANSAH-DOGRULA'nın v: önerisine rağmen. Şehri adıyla anan kaynak YOK; dayanak Kalhor kuşağı Osmanlı (yüksek güven) + Emre kararı. Bkz. denetim/OLCUM-KIRMANSAH-0913.md."
   },
   "komsu_gunu_kurali": "CLAUDE.md §4 'ATLAS REFERANS DEĞİLDİR' şartlı komşu günü: ① komşunun günü KENDİ kaynağına dayanıyor (atlas dönemi/devralma değil) · ② hedef için kaynakta gün/yıl YOK · ③ aynı olay/süreç VE yakın konum · ④ kayda 'gün komşudan: <komşu> · <kaynak>' yazılır. YASAK: zincirleme (komşunun komşusu). Her komşu gününe dört şart ayrı ayrı uygulandı; biri tutmazsa `yeniden_kaynaklanacak:true`.",
 
@@ -72,7 +76,7 @@
       "degismez2": "1589-01-01 🔴 AÇIK (en yakın madde 1588-09-01 Gence, 122 g) — madde isteği M1 · 1603-01-01 ✓ data/olaylar_p0048.js 'Luristan'ın Safevîlere kesin olarak geçmesi' (D147 sınandı: ±30 günde başka kırılma yok) · ⚠️ olaylar_ek2.js t:1603-10-21 Tebriz maddesi 'diğer yerleşimler: Nahçıvan, Luristan' diyor — Luristan o metinden çıkmalı"
     },
     {
-      "kod": "G-NIHAVEND", "ad": "Nihâvend", "dosya": "data/yerlesimler.js (Nihâvend kaydı)", "kaynak_yama": "GUNEY A4 şık a · NIHAVEND Y4 şık a", "karar": "4 + brif madde 7 ('Nihâvend başlangıcı TDV 1588/89')",
+      "kod": "G-NIHAVEND", "ad": "Nihâvend", "dosya": "data/yerlesimler.js (Nihâvend kaydı)", "kaynak_yama": "GUNEY A4 şık a · NIHAVEND Y4 şık a", "karar": "4 + brif madde 7 ('Nihâvend başlangıcı TDV 1588/89') · 🟢 Emre dördüncü tur: bitiş ŞIK A (1603-01-01) SEÇİLDİ — şık B UYGULANMAZ",
       "degisiklik": [
         {"alan": "d", "eski": {"f": "1590-03-21", "t": "1603-10-21"}, "yeni_sik_A_ONERIM": {"f": "1589-01-01", "t": "1603-01-01"}, "yeni_sik_B": {"f": "1589-01-01", "t": "1603-10-21"}},
         {"alan": "neden", "not": "'Geçerli pencereler: 1590-03-21..1603-10-21' ifadesi yeni değerlerle güncellenmeli"}
@@ -267,7 +271,7 @@
       "degismez2": "1583-09-13 ✓ olaylar_ek5.js 'Revan'ın fethi' (gün taşınmış — ölçüldü) · 1604-06-08 ✓"
     },
     {
-      "kod": "G-ECMIYADZIN", "ad": "Eçmiyadzin", "dosya": "data/yerlesimler_ek26.js:91", "kaynak_yama": "KITA29 B1 (69f110c değeri 1583-09-13)", "karar": "1.MURAT ②",
+      "kod": "G-ECMIYADZIN", "ad": "Eçmiyadzin", "dosya": "data/yerlesimler_ek26.js:91", "kaynak_yama": "KITA29 B1 (69f110c değeri 1583-09-13)", "karar": "1.MURAT ② · 🟢 Emre dördüncü tur: Eçmiyazin ÖRTÜLÜ OSMANLI (Karbi nahiyesi bağı 1590 için belgesiz — damga 'örtülü (enklav olamaz)' kayda yazılır)",
       "degisiklik": [
         {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"}, "yeni": [{"f": "1501-07-01", "t": "1583-09-13"}, {"f": "1604-06-08", "t": "1736-03-08"}]},
         {"alan": "d", "eski": null, "yeni": {"f": "1583-09-13", "t": "1604-06-08"}}
@@ -280,11 +284,18 @@
       "degismez2": "iki gün de KAPALI"
     },
     {
-      "kod": "G-GUMRU-KAYNAK", "ad": "Gümrü (Aleksandropol)", "dosya": "data/yerlesimler_ek26.js:87", "kaynak_yama": "KITA29 C2", "karar": "1.MURAT ③ — sahipliğe DOKUNMA",
-      "degisiklik": [{"alan": "kaynak", "eski": "ankraj Revan (86 km) — aynı zincir", "yeni": "ankraj Revan (86 km) — zincir Revan'ın Osmanlı dönemlerini ALMIYOR: bölgesi Şüregel 1590 Revan tahririnin kaza/nahiye listesinde YOK (BOA TD 633, Bilgili 2016 [52]; 1727 TD 901'de var [214]) · 1583-1604 sahibi için kaynak bulunamadı"}],
-      "gunler": [],
-      "yeniden_kaynaklanacak": false,
-      "degismez2": "sahiplik değişmiyor"
+      "kod": "G-GUMRU", "ad": "Gümrü (Aleksandropol)", "dosya": "data/yerlesimler_ek26.js:87", "kaynak_yama": "KITA29 C2 · SEHIR-MATRISI O-GUMRU", "karar": "🟢 Emre dördüncü tur: ÖRTÜLÜ OSMANLI (~~1.MURAT ③ sahipliğe dokunma~~ DÜŞTÜ)",
+      "degisiklik": [
+        {"alan": "d", "eski": null, "yeni": {"f": "1583-09-13", "t": "1604-06-08"}, "not": "ÖRTÜLÜ (enklav olamaz) — kaynak adıyla anmıyor; mevcut s: kaydı bu pencerede bölünür (uygulayan ölçsün, Değişmez 1)"},
+        {"alan": "kaynak", "eski": "ankraj Revan (86 km) — aynı zincir", "yeni": "ÖRTÜLÜ OSMANLI 1583-1604 — Emre kararı 13 Eylül 2026 (Revan · Kars · Çıldır Osmanlı hattının Osmanlı tarafında, enklav olamaz). ⚠️ Bölgesi Şüregel 1590 Revan tahririnin kaza/nahiye listesinde YOK (BOA TD 633, Bilgili 2016 [52]; 1727 TD 901'de var [214]) · 1583-1604 sahibi için kaynak bulunamadı · gün komşudan: Revan · BOA A.DVNSMHM.d 51-322 (Adlığ 2026) ve TDV revan — şart ③ TUTMADI (idarî bağ 1590 için belgesiz)"}
+      ],
+      "gunler": [
+        {"uc": "d.f", "gun": "1583-09-13", "dayanak_turu": "komsu", "komsu": "Revan · BOA 51-322", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "3_neden": "Şüregel 1590 Revan tahririnde yok; 86 km", "4_kayda_yazili": true}, "sonuc": "yeniden_kaynaklanacak"},
+        {"uc": "d.t", "gun": "1604-06-08", "dayanak_turu": "komsu", "komsu": "Revan · TDV revan + Adlığ 2026", "sart": {"1_komsu_kaynakli": true, "2_hedefte_gun_yok": true, "3_ayni_surec_yakin": false, "4_kayda_yazili": true}, "sonuc": "yeniden_kaynaklanacak"}
+      ],
+      "yeniden_kaynaklanacak": true,
+      "bagli": "G-REVAN ile birlikte iner (Revan'dan önce inerse Gümrü Revan'ın eski 1583-06-01 gününden SONRA başlar — tutarlı; ama birlikte tercih)",
+      "degismez2": "1583-09-13 ✓ ve 1604-06-08 ✓ Revan maddeleri — D147: maddeler Gümrü'yü anmıyor ⇒ Revan maddesi metnine 'Gümrü (Şüregel) örtülü' eki istenir"
     },
     {
       "kod": "G-AHAR", "ad": "Ahar (Karadağ)", "dosya": "data/yerlesimler.js", "kaynak_yama": "AHAR-SARAB-MIYANE ASM-AHAR şık B", "karar": "Emre üçüncü tur (koordinatör iletisi): şık B",
@@ -307,14 +318,25 @@
       "kaynak_onerisi": "IR Eskandar/Savory II s.828: Eylül 1603'te Erdebil valisi Zü'l-fikar Han'a şahla Miyâne'de buluşma emri (Safevî toplanma yeri) · 1585-1603 Osmanlı tasarruf kaynağı YOK · TDV tebriz [184] 1593 livâ listesinde Miyâne YOK (liste tam değil) · ⚠️ açık kalem: Germrud sancağı 996'da Osmanlı ataması (Kütükoğlu s.196) — Miyâne hükmünü zayıflatabilecek tek kalem, OKUNMADI",
       "gunler": [],
       "yeniden_kaynaklanacak": false,
-      "sinir_hatti": "köşe 5-6 `gecici` KALIR (koordinatör iletisi)",
+      "sinir_hatti": "köşe 5-6 kaynaktan yeniden kurulacak — FERHATPASA-KOSE (denetim/YAMA-KOSE-SARAB-MIYANE-0913.json)",
       "degismez2": "silme yeni kırılma üretmez (1585-09-25 · 1603-10-21 başka kayıtlarda sürüyor)",
-      "uygulayan_teyidi": "koordinatör iletisi 'stay as researched' diyor; araştırmanın önerisi (şık A) burada uygulandı — uygulayan teyit etsin"
+      "uygulayan_teyidi": "🟢 TEYİT EDİLDİ — Emre dördüncü tur teraziyi koordinatöre bıraktı, koordinatör hükmü SAFEVÎ (uygulanan_emre_kararlari.karar_4tur_sarab_miyane)"
+    },
+    {
+      "kod": "G-SARAB", "ad": "Sarâb", "dosya": "data/yerlesimler.js (Sarâb kaydı)", "kaynak_yama": "AHAR-SARAB-MIYANE ASM-SARAB şık B", "karar": "Emre dördüncü tur → koordinatör hükmü: SAFEVÎ",
+      "degisiklik": [{"alan": "d", "eski": {"f": "1585-09-25", "t": "1603-10-21"}, "yeni": null, "not": "yalnız bu pencere kaldırılır; kayıttaki başka d: dönemleri (ör. 1725-1730) varsa KORUNUR — uygulayan kaydı okuyup ölçsün. s: safevi altında kesintisiz sürmeli (Değişmez 1)."}],
+      "kaynak_onerisi": "IR Eskandar/Savory II s.582: Ca'fer Paşa 'advanced as far as Sarāb', ileri geçmedi, Tebriz'e döndü · 1585-1603 Osmanlı tasarruf kaydı (kale · muhafız · sancak · tahrir) BULUNAMADI (dokuz gelenek, OLCUM-AHAR-SARAB-MIYANE-0913) · TDV tebriz [184] 1593 livâ listesinde Sarâb YOK · Erdebil SAFEVÎ",
+      "gunler": [],
+      "yeniden_kaynaklanacak": false,
+      "sinir_hatti": "köşe 4 kaynaktan yeniden kurulacak — FERHATPASA-KOSE",
+      "degismez2": "silme yeni kırılma üretmez (1585-09-25 · 1603-10-21 başka kayıtlarda sürüyor)"
     },
     {
       "kod": "G-KIRMANSAH", "ad": "Kirmanşah", "dosya": "data/yerlesimler.js (Kirmanşah kaydı)", "kaynak_yama": "GUNEY C2 · NIHAVEND Y3 — ikisinin 'SİL' şıkkı UYGULANMAZ", "karar": "Emre üçüncü tur: OSMANLI KALIR",
-      "durum": "Osmanlı kalır (Emre kararı) · kaynak doğrulaması bekliyor: KIRMANSAH-DOGRULA",
-      "degisiklik": [],
+      "durum": "🟢 Emre dördüncü tur: DOĞRUDAN OSMANLI (d:) kalır — KIRMANSAH-DOGRULA (M-3813) teslim etti: şehir adıyla ÖLÇÜLEMEDİ, Kalhor kuşağı OSMANLI yüksek güven; araştırmanın v: önerisi Emre kararıyla UYGULANMAZ",
+      "degisiklik": [
+        {"alan": "kaynak", "eski": "'bulunamadı' + 'komşu Hemedan' dayanağı", "yeni": "DOĞRUDAN OSMANLI 1590-1603 — Emre kararı 13 Eylül 2026. Şehri 1588-1604 için adıyla anan kaynak YOK (KIRMANSAH-DOGRULA, denetim/OLCUM-KIRMANSAH-0913.md). Dayanak: şehrin batısındaki Kalhor kuşağı (Derteng/Zohâb · Zencir · Derne · Kerind) Osmanlı — Eskandar Beg Monshi, tr. Savory s.840, 851 ('on behalf of the Ottomans / under the governor of Baghdad'), s.1168 ('Dar-e Tang and Zanjir … formerly Ottoman territory') · Şerefnâme 1597 (Charmoy II/1 s.180-182) · Kütükoğlu 1962 s.164, 181 · Bîsütûn kalesi 1588 (Kütükoğlu s.183). Antlaşma maddeleri (Kütükoğlu s.195-196) Kirmanşah'ı SAYMIYOR. 'Komşu Hemedan' dayanağı DÜŞTÜ (Hemedan Safevî)."}
+      ],
       "mevcut": {"d": [{"f": "1590-03-21", "t": "1603-10-21"}, {"f": "1723-10-01", "t": "1730-08-12"}]},
       "not": "Dönem SİLİNMEZ. KIRMANSAH-DOGRULA sonucu gün değişikliği getirirse (ör. 1590-03-21 antlaşma günü yerine kaynaklı bir yıl) Değişmez 2 maddesi o zaman istenir. Dayanak bugün: Monshi/Savory s.840, 851 (Kalhor beyleri Bağdat'a bağlı 1603-04'e kadar — şehrin kendisi adıyla YOK) · kaydın mevcut `kaynak` alanı 'bulunamadı'.",
       "gunler": [
@@ -326,9 +348,10 @@
     }
   ],
 
-  "karar_bekleyen": [
-    {"ad": "Sarâb", "kaynak_yama": "ASM-SARAB", "karar": "Emre üçüncü tur: araştırıldığı gibi KARARSIZ", "secenek_A": "BEKLET (değişiklik yok)", "secenek_B": "d 1585-09-25→1603-10-21 kaldır (çıkarım-zayıf)", "sinir_hatti": "köşe 4 `gecici` KALIR"},
-    {"ad": "Gümrü — O-GUMRU sahiplik", "kaynak_yama": "SEHIR-MATRISI O-GUMRU", "catisma": "1.MURAT C2 'dokunma' kararıyla ÇELİŞİR", "gunler": "1583-09-13 / 1604-06-08 Revan'dan — ③ TUTMUYOR (Şüregel 1590 tahririnde yok) ⇒ uygulanırsa yeniden_kaynaklanacak:true"}
+  "karar_bekleyen": [],
+  "karara_baglanan_4tur": [
+    {"ad": "Sarâb", "hukum": "SAFEVÎ — G-SARAB kalemi eklendi (şık B)"},
+    {"ad": "Gümrü — O-GUMRU sahiplik", "hukum": "ÖRTÜLÜ OSMANLI — G-GUMRU kalemi (yeniden_kaynaklanacak:true)"}
   ],
 
   "uygulanmayan_ve_neden": [
@@ -355,7 +378,8 @@
   "kosu_sonrasi_sart": [
     "Sıra: KOSU10-SONRASI §1 — KITA 13 Van A → Bitlis → KITA 29 (G-MAKU · G-SERUR · G-GENCE-BERDE · G-REVAN+G-ECMIYADZIN birlikte) → bu dosyanın güney/batı kalemleri",
     "BİRLİKTE inecek gruplar: {G-LURISTAN, G-NIHAVEND, M1} · {G-MERIVAN, G-BANE, G-MAHABAD, G-SAKKIZ, G-SERDEST} · {G-REVAN, G-ECMIYADZIN} · {G-AHAR, M7}",
-    "G-KIRMANSAH değişiklik İÇERMEZ — KIRMANSAH-DOGRULA sonucu gelmeden Kirmanşah kaydına dokunulmaz",
+    "G-KIRMANSAH yalnız `kaynak` alanını değiştirir (d: korunur, Emre dördüncü tur); d.t 1603-10-21 yeniden kaynaklanacak",
+    "BİRLİKTE (dördüncü tur): {G-REVAN, G-ECMIYADZIN, G-GUMRU} · {G-SARAB, G-MIYANE, hukuki_sinirlar köşe 4-6 FERHATPASA-KOSE önerisi}",
     "yeniden_kaynaklanacak:true olan kalemler kaynak bulunmadan inerse günleri KAYDA 'gün komşudan — şart ③ tutmadı' diye yazılmalı; tercih: kaynak aranana kadar BEKLET",
     "py arac/denetle.py (DELTA) — özellikle Değişmez 2 · 2s (Bîcâr kur) · 2t (p0048 maddeleri kırılmaya oturmalı: 2t −1) · Değişmez 5 (Bîcâr kur)",
     "py arac/renk_olc.py (§9 — Luristan d→v tâbi tonu, Kürt kuşağı komşuluğu değişiyor)",
