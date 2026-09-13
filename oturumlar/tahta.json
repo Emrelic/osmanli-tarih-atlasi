@@ -113527,7 +113527,12 @@
   },
   "yanit_no": "",
   "cins": "TESLIM",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-13 06:06",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "denetim/TASLAK-EKOKUMA-KADIN-KITA27-0913.js commit 372e6c4",
   "aciliyet": "NORMAL"
