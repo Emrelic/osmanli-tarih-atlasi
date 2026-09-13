@@ -120351,5 +120351,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3966",
+  "zaman": "2026-09-14 01:53",
+  "kimden": "P13B-MOTOR-KOD",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM P13B-MOTOR-KOD (TOPARLA uzerine erken kapanis · commit YOK · tam kosu YOK). Rapor: denetim/P13B-MOTOR-KOD-0914.md. uret_petek.py py_compile 0. UYGULANDI 2: (1) 0048/H-0010 Y7 serbest kenar linemerge+simplify(0.02) -> ARAC-P13B-SERBEST 16/16, kosu10 havuzu hat 362->225 kose 6997->1442 sapma<=0.02; yalniz SERBEST/sb degisir. (2) 0048/H-0009 Y6 seyrelt gecerlilik korumasi: OLCUM kosu10 devletler_harita 48302 parcanin 3334'u GECERSIZ (3328 kendini kesen halka). Sinama HIZLI 9/10: birebirlik 1500/1500, donmus kose kaybi 0, delik kesisme dali calisti; AMA halka duzeyi dal sentetikte tetiklenmedi (1 x = sinav eksigi) ve gercek veri tam kipi teslimde BITMEDI -> kosu 11 oncesi tam kipi gor ya da geri al (raporda nasil). OLCULDU-ONERI: Y5 kasitli_bosluk fark 148 petek-gun/23 bosluk, Doha 1602->safevi dogrulandi AMA Kuveyt/Katar ic OSMANLI dolgusunu da bosaltir ve Y4 ile celisir -> zamanli bayrak semasi karari. TASARIM (aleti yazildi KOSULMADI): Y14 bilesen kurali (ARAC-P13B-KUSATMA) · bogaz 7 madde: kok 0.05 izgara + KV_MIN_KM2 200 (ARAC-P13B-BOGAZ) · secici ince 4 madde: gol kiyisi GOLLER simplify 0.01, yabanci govdede seyrelt 0.03; SADE_TOL kiyiya uygulanmaz -> Z-0015 teshisi koddan tutmuyor (ARAC-P13B-INCE) · Gat (ARAC-P13B-GAT). KOD ZATEN VAR: 0038/H-0004 kopru rengi, kosu10 logu 19771 dogrudan/6450 tabi. YAPILMADI: 0012/H-0001 (a) tarifi BULUNAMADI (SORU: B1/B2/B3/kapidan hangisi?) · 0012/H-0002 · col 5 (A bekler) · surtunme 2 (A isi) · T-kavsak 2 olculemedi · B gorunumu · yol agi. 29/29 madde raporda durumlu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
