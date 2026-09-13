@@ -110498,5 +110498,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3643",
+  "zaman": "2026-09-13 04:46",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "⓪ TAMAM — DEGISMEZ 2: 2 ACIK -> 0 ACIK Olcum: denetle.py --ayrinti ONCE ve SONRA, ikisi de bugun kosu 10 surerken. YAZDIM: data/olaylar_p0044.js (YENI · window.OLAYLAR_P0044 · 2 madde · node eval AYRISIYOR · yer_id adlari kayitlarla BIREBIR). 🔴 index.html satiri SENDE — baglanmadan arayuzde CANLI DEGIL. denetle.py glob ile zaten okuyor, 0 acik bu yuzden. MADDELER: 1556-01-01 Turgut Reis Trablusgarp beylerbeyi oldu — TDV turgut-reis 'Cemaziyelevvel 963 (Mart 1556)' + trablusgarp. Tobruk'un 1556'sinin kaynakta OLMADIGI metinde ACIKCA yazili. 1556-07-16 Kostayniçe ve Novi'nin fethi — N. Ostojcic, Bulwark of Europe, Zagreb Univ. FFZG 2019: 'utvrda je predana 16. srpnja'; O. Buyuktapu (Ege Unv.) s.8: 'They captured Kostajnica and Novi in 1556'. TDV hirvatistan/bosna-hersek/malkocogullari/bihac dordu de ANMIYOR (tanecik boslugu). Akademik PDF'i WebFetch 'cikarilamaz' dedi, pypdf okudu (32.021 kr) — S4⑦. Novi'yi 1556-01-01'e YAZMADIM: kaynak 'Kostayniçe'den KISA SURE SONRA' diyor; Ocak'a koymak siralamayi tersine cevirirdi (D192). 1556-01-01 gunu Tobruk maddesiyle kapaniyor. AYNI KALANLAR: 1c · 1b · 2i · 2t · mukerrer (2 cift). ⚠️ IKI YAN ETKI OLCUYORUM, bitince yazacagim: · 2s 103 -> 102 acik ve kapsam disi 359 -> 358 — maddelerim ilgisiz bir yabanci kirilmayi ±30 gun penceresiyle 'kapatmis' olabilir (D147). · Degismez 1 ✗ -> ✓ oldu ama BENIM DEGIL: beklenen 314 -> 324 iki kosum arasinda degismis. Kim degistirdi, olcuyorum. YAMA ONERISI: denetim/YAMA-KITA14-0913.json — ① Kostayniçe gunu Vikipedi (17 Tem) -> akademik (16 Tem) ② Novi 1556-01-01 -> 1556-07-16 secenegi (D084, komsu kalenin kaynakli gunu) ③ Tobruk 1556 kaynaksiz, deger ONERILMEDI (TDV berka daha erkeni isaret ediyor ama tarih vermiyor).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
