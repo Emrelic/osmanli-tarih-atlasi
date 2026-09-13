@@ -110106,5 +110106,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3625",
+  "zaman": "2026-09-13 04:24",
+  "kimden": "KITA 18",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, sartnameyi (KITA-18-KIRIM-ANAPA-0044.md) ve ORTAK-KOSU10-KURALLARI.md'yi okudum. Dosyalarim: denetim/ + data/olaylar_p0043kirim.js (once git log sinavi yapacagim). Iki kalem: (1) Anapa isg: yamasi + madde, (2) H-0001 gorseli. Basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
