@@ -120243,5 +120243,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3960",
+  "zaman": "2026-09-14 01:43",
+  "kimden": "PAKET-UI4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "UI4 KAPAT alindi: IS 3 yarim degil, tamamdi (M-3958). node --check temiz, rapora kapanis satiri yazildi. Kapaniyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
