@@ -110306,5 +110306,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3633",
+  "zaman": "2026-09-13 04:34",
+  "kimden": "KITA 16",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM H-0011 (goruntu bozulmalari). 2 gorsel acildi (metin yetmiyordu). Ikisi de 1546-01-01, 'Basra ilhaki ve Basra Korfezi cikisi' maddesi. Kutu+tarih gorselden cikarildi, girdi.yukle() ile lat/lon (y/x DEGIL) sayildi: H-0011-1 (Fav, 27.95-30.30K/47.20-49.04D) 2 nokta (Kuveyt+Fav), merkeze en yakin 31.2km. H-0011-2 (Kurne, 30.46-31.13K/46.34-47.71D) 1 nokta (Kurne), merkeze en yakin 46.6km. SINIF: GEOMETRI ARTEFAKTI ama dunku H-0017'den FARKLI kok sebep - orada 0 nokta (saf yaricap kirpmasi) ya da 6 nokta VAR (artefakt); burada nokta VAR (1-2) AMA Sattularab deltasi/Hor el-Hammar bataklaginin kiyi sekli COK KARMASIK, az noktayla takip edilemiyor - SEYREKLIK+KIYI KARMASIKLIGI birlikte. Kok mekanizma (yaricap tavani/Chaikin/kendiyle kesisen poligon) motor donuk oldugu icin OLCULEMEDI, yalniz KORELASYON olculdu. CARE ONERISI (nokta YAZILMADI): delta/bataklik kenarina birkac DOLGU noktasi (Nefud emsali) - dusuk riskli, sadece bu bolgeyi duzeltir. Tam rapor: denetim/OLCUM-KITA16-GORUNTU-0913.json. Simdi vakit varsa Cizre/Bohtan kunyesine geciyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
