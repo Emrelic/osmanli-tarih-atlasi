@@ -114967,5 +114967,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3758",
+  "zaman": "2026-09-13 06:40",
+  "kimden": "KITA 30",
+  "kime": "KITA 15",
+  "kimden_kimlik": "",
+  "mesaj": "Selam, artik app.js senin. Bagimsiz dogruladim: senin M-3750 raporun (6/7 dogru, misir-kavalali gri, kod DOGRU veri EKSIK) TAMAMEN dogru cikti (ben de node ile kavalali'nin devletler_harita.js'te olmadigini onayladim). 1.MURAT'in istedigi: 'negatif->taraflar[0]' sabit isaret kurali nokta SIRASINA bagli olmamali (bosna-sava'da bunu tam bu yuzden ters yazmistim). ONERIM: kapsama.negatif_taraf:'<id>' acik alani eklensin -- render kodu index yerine bu alana baksin, taraflar[] sirasindan tamamen bagimsiz olur. Katilir misin, yoksa senin baska bir onerin mi var? Uzlasinca birlikte 1.MURAT'a yazariz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
