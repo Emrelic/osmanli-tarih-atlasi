@@ -1,0 +1,35 @@
+{
+ "oturum": "KITA 19",
+ "tarih": "2026-09-13",
+ "baglam": "KITA 14'un M-3662 sorusuna cevap (yatay, S7.1). Paket 0044'un H-0004/H-0006 disinda, kaynak celiskisiyle buyuyen bulgu.",
+ "uyari": "BU BIR YAMA ONERISIDIR, UYGULANMADI. data/yerlesimler.js KOSU 10 DONUK.",
+ "sorun": "KITA 14 olctu: TDV `budin` ve `macaristan` maddeleri 1526'da bir 'himaye' kurulusunu DESTEKLEMIYOR. Suleyman 1526 Eylul'unde Budin'e girip GERI CEKILDI (kis donusu, mutat). Macar soylulari IKI kral sectl (Szapolyai 10 Kasim 1526, Ferdinand 17 Aralik 1526). Ferdinand Agustos 1527'de Budin'i ELE GECIRDI. Suleyman ANCAK 1529'da (Viyana seferi sirasinda) Budin'i geri alip Szapolyai'ye 'tabi kral' olarak BIRAKTI (TDV budin: '...kaleyi ve sehri Szapolyai'ye birakti'). Yani OSMANLI-TABI ILISKISI GUN GUNUNE 1529-09-08'DE KURULUYOR, 1526-09-01'de DEGIL.",
+ "etkilenen_kayitlar_olculdu": {
+  "acikca_k_etiketli_1526-09-01_Zapolya": [
+   "data/yerlesimler.js:456 Budin",
+   "data/yerlesimler.js:1269 Peşte",
+   "data/yerlesimler.js:455 Erdel (Kaloşvar)",
+   "data/yerlesimler.js:1289 Varad (Oradea)",
+   "data/yerlesimler.js:1294 Yanova (Ineu)"
+  ],
+  "etiketsiz_ayni_desen": [
+   "data/yerlesimler_kdmacar.js:123 Debrecen (v: 1526-08-29, k: YOK — YAMA-KITA19-DEBRECEN-K-ETIKET-0913.json'da ayrica bildirildi)"
+  ],
+  "kaynak_olarak_ayrica_tekrarlayan": [
+   "data/yer_yama_vassal_kid_0906.js:66-67,128-130 — AYNI 5 kaydin v: dizisini TEKRAR yaziyor (overlay/dogrulama katmani gorunuyor, KOSU 10'un GIRDI_DOSYALARI'nda mi kontrol edilmedi)"
+  ],
+  "toplam": "en az 6 yerlesim ayni desende (1526 Eylul'de erken tabi baslangici)"
+ },
+ "onerilen_cozum_BUDIN_PESTE_ICIN": {
+  "guven": "YUKSEK — KITA 14'un TDV alintisi budin maddesinin KENDISI, gun-gunune (1529-09-08 zaten atlasin baska bir maddesinde kullaniliyor, olaylar_ek5.js)",
+  "degisiklik": "v: baslangicini 1526-09-01 -> 1529-09-08 CEK. Aradaki pencere (1526-09-01..1529-09-08, ~3 yil) icin GUN DUZEYINDE Ferdinand fethi tarihi TDV alintisinda YOK (yalniz 'Agustos 1527' — ay). §4: gun uydurulmaz. ONERI: bu araligi TEK PARCA 's:macaristan' olarak BIRAK (Ferdinand-Szapolyai ic savasini ayirt ETMEDEN basitlestir) — cunku Ferdinand'in AYRI bir devlet kimligi (avusturya) olarak GUNU BELGESIZ ayirmak, gunu olmayan bir kirilma URETIR (D014 ailesi: yuvarlak tarih ile GUNSUZ ayrim ayni tuzak).",
+  "sonuc_kayit": "s:[...,{f:1281-01-01,t:1529-09-08,d:macaristan},...], v:[{f:1529-09-08,t:1541-08-29,k:'Macaristan (Zapolya vasal krallığı — 1529 Budin teslimi)',statu:vassal}]"
+ },
+ "ERDEL_VARAD_YANOVA_DEBRECEN_ICIN": {
+  "hukum": "BUDIN'IN DUZELTMESI BUNLARA KORU KORUNE TASINMAZ.",
+  "gerekce": "Budin'deki 1526-1529 kopuklugunun sebebi COGRAFI VE SIYASI OZGUYE: Ferdinand'in fiili gucu BATI/MERKEZ Macaristan'a (Budin) ulasti, DOGU (Erdel/Varad/Yanova/Debrecen) Szapolyai'nin TABANINDAYDI ve muhtemelen 1526'dan itibaren KESINTISIZ onun elinde kaldi. Bu DOGRU olabilir (yani bu 4-5 kaydin 1526-09-01'i KALABILIR) AMA bu bir VARSAYIM — Budin'in TDV maddesi bunu KANITLAMIYOR, yalniz Budin'i anlatiyor.",
+  "ONERI": "Erdel/Varad/Yanova icin AYRI kaynak dogrulamasi gerekli: TDV `erdel` ve `varad` maddeleri 1526-1529 arasinda Ferdinand'in DOGUYA ulasip ulasmadigini soyluyor mu? BU OLCULMEDI (benim zaman/yetki disimda kaldi). Debrecen zaten (kdmacar.js yorumunda) 1541 sonrasi icin arastirilmisti, 1526-1529 penceresi HIC sorulmamis.",
+  "durum": "🟡 ACIK ARASTIRMA SORUSU — Oturum 0/koordinator uygun bir arastirma oturumuna (TDV erdel + varad maddeleri, ozellikle Ferdinand'in Erdel'e ulasip ulasmadigi) sevk etsin."
+ },
+ "KITA_14_YE_CEVAP": "Sectigim secenek: (B), Budin/Peste icin. 1526 maddesi 'Mohac sonrasi Budin'in teslimi (11 Eylul 1526) ve ordunun cekilmesi; tahta iki kral secildi' seklinde DUZELTILEBILIR (harita ile CELISMEZ, cunku bu ARTIK bir 'himaye kurulusu' iddiasi tasimiyor). 1529 maddesi haritanin GERCEK tabi gecisini (+0 gun, 1529-09-08) anlatan madde olur. Erdel/Varad/Yanova/Debrecen icin AYNI degisikligi YAPMA — onlar AYRI arastirma gerektiriyor, bu YAMA'da SADECE Budin/Peste var."
+}
