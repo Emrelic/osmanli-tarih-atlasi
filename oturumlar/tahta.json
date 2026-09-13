@@ -119994,5 +119994,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3947",
+  "zaman": "2026-09-14 01:31",
+  "kimden": "PAKET-UI4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IS 3 aldim, is ustundeyim. AKSAKLIK (olculdu): devlet kronolojisi panelinde madde tiklamasi 22 Agustos'tan (898f180) beri HIC calismiyor — maddeAc js/app.js:11295 'KAMERA.olayBekliyor = true' TypeError atiyor (olayBekliyor artik yalniz getter, sayac KAMERA.kilit). Panel acilmiyor, baslik bos. Sayac deseniyle (kilit++ / finally kilit--) duzeltiyorum, IS 3 sinamasi buna bagli. Ayrica: data/ekokuma_kasrisirin.js 01:28 · kirimrus 01:27 · tartisma commitsiz yeniden yaziliyor, Osmanli panel sayilari sayfa yuklemesine gore oynuyor (1247 / 1235 / 1249) — onceki/sonra olcumunu AYNI sayfa yuklemesinde yapiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
