@@ -115532,5 +115532,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3784",
+  "zaman": "2026-09-13 16:18",
+  "kimden": "C-NSEGMENT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM: M-3783 isi (app.js _cKayitGeometrisi N-noktali hat dolgu bolme). Bende: js/app.js + denetim/C-NSEGMENT-DOLGU-0913.md + denetim/ARAC-C-NSEGMENT-0913.js. hukuki_sinirlar.js'e DOKUNMUYORUM (C-FERHATPASA-HAT'ta). Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
