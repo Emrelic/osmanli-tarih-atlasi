@@ -95,22 +95,23 @@
 
   // ---- ③ BÖLGE (tek taraf, bölünme YOK — KITA 29 ile M-3718'de uzlaşıldı) --
   // Belge bir ÇİZGİ değil, "bu bölgenin TAMAMI şu tarafta kalır" tarifi
-  // veriyor (ör. Ferhat Paşa 1590, statüko). Şema: hat.tur:"bolge",
-  // hat.taraf_atanan (taraflar[]'a İNDEKSLE değil AÇIKÇA id ile — index
-  // belirsizliğinden kaçınmak için). nokta_atamalari yalnız REFERANS
-  // (kaynakta adıyla geçen yerler), sınır ÇİZMEZ.
+  // veriyor (ör. Ferhat Paşa 1590, statüko).
+  //
+  // 🔴🔴 DÜZELTİLDİ (KITA 29, M-3742, 13 Eylül 2026) — İLK TASARIM
+  // (kapsama.kutu'yu TEK RENKLE doldurmak) ÇÜRÜDÜ: KITA 29 kendi kaydı
+  // için ölçtü — kutunun (33-43K/41.5-50.5D) içinde 123 nokta var, 23'ü
+  // belgenin ("Azerbaycan/Kürdistan") KAPSAYIP KAPSAMADIĞI BELİRSİZ olan
+  // yerler (Erdebil, Zencan, Sultaniye, Kazvin...). Kutuyu tek renk
+  // boyamak bu 23 yeri de "ceza edilmiş" gösterirdi — belgenin SÖYLEMEDİĞİ
+  // bir iddia (D089: "veri modelinin ifade edemediği bir ilişkiyi ifade
+  // edebildiği bir ilişkiye çevirmek YENİ BİR İDDİADIR").
+  // ⇒ DOLGU YOK. `kapsama.kutu` yalnız KAMERA/ODAK kutusu (KITA 12'nin
+  // H-0011 odaklama mekanizması için) — boyanmaz. Sınır, YALNIZ
+  // `nokta_atamalari`daki (kaynakta AÇIKÇA adı geçen) yerlerde nokta
+  // işaretiyle gösterilir; adı geçmeyen ama kutu içindeki yerler
+  // DOKUNULMAZ (mevcut A/B sezgisi aynen sürer).
   function _bolgeGeometrisi(kayit) {
-    var h = kayit.hat, k = kayit.kapsama;
-    if (!h || h.tur !== "bolge" || !k || !k.kutu || !h.taraf_atanan) return null;
-    var kutu = k.kutu;
-    var poly = [[kutu.lon_min, kutu.lat_min], [kutu.lon_max, kutu.lat_min],
-                [kutu.lon_max, kutu.lat_max], [kutu.lon_min, kutu.lat_max],
-                [kutu.lon_min, kutu.lat_min]];
-    return {
-      dolgu: [{ type: "Feature", properties: { renk: _renk(h.taraf_atanan) },
-                geometry: { type: "Polygon", coordinates: [poly] } }],
-      hat: null // çizgi YOK — belge çizgi tarif etmiyor
-    };
+    return null; // kasıtlı: bölge türü dolgu ÜRETMEZ, yalnız nokta üretir
   }
 
   // ---- NOKTA-KÜMESİ (nokta-ataması — sadece koordinatlı olanlar) --------
