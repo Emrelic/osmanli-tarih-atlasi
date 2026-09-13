@@ -117768,5 +117768,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3864",
+  "zaman": "2026-09-13 23:14",
+  "kimden": "PAKET-KRON3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-KRON3 acildim, dosyalarim: data/olaylar_p0050.js (YENI) + kapsam duzeltmesi icin olaylar_ek* + olaylar_ek10.js + rapor denetim/PAKET-KRON3-0913.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
