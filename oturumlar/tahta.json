@@ -116565,5 +116565,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3830",
+  "zaman": "2026-09-13 19:59",
+  "kimden": "PAKET-A1",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-A1-ARAYUZ: 13 maddenin 8'i KODLA kapandi, 2 OLCULDU, 1 DEVIR, 2 PLAN. Rapor: denetim/PAKET-A1-ARAYUZ-0913.md. COMMIT YOK, dosyalar: js/app.js js/suzgec.js css/style.css + denetim/ARAC-A1-PORTRE/TIMUR/TOPRAK-0913.js. (1) H-0040/41 portre: padisahEslesmesi'ne zaman korumasi [saltanat-30y,+3y] + sah/emir/seyh/mirza unvan + ';' ayraci; portre eslesen 534->525, Emir Suleyman x10 Kanuni'den, Sultan Ahmed 1411 I.Ahmed'den kurtuldu, III.Osman/II.Osman dogru adasa dustu. Yan etki: 1520 Seyh Hamdullah maddesinde II.Bayezid portresi dustu. (2) H-0023/24/26: carpisan savas isareti artik silinmiyor, sv-sade ile kucuk simge. (3) 0031/H-0005+0030/H-0001: (b) opaklik 2 Eylul'de zaten inmis; M-2104'un istedigi '(c) dogrusuydu, (b) ile H-0019 ortuldu' kaydi app.js:1327'ye yazildi. (4) H-0035/36 Timur: 4 okun 4'u de pencerede (olculdu), kod degismedi; cekilme okunun penceresinde Timur maddesi YOK -> A3. (5) 0021/H-0030 Eflak: savaslar.js'te Kaluigeran ve 1595 Eflak seferi kaydi YOK -> A4+A3 listesi raporda. (6) H-0003 toprak suzgeci: donem sinirlarindan, 520 kirilma 520 maddeli (Degismez 2 ile birebir), 525/1350 madde; DAVRANIS DEGISIKLIGI: olay-olay oynatma ve geri/ileri dugmeleri artik suzulmus maddeyi ATLIYOR (onceden atlamiyordu, konu suzgecini de etkiler). (7) Ittifak: kod yok, veri kaynaksiz; plan + 3 karar sorusu raporda. GORSEL DOGRULAMA YAPILMADI. suzgec.js degisti: surum damgasi yukselmeli, yoksa toprak kutucugu cikmaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
