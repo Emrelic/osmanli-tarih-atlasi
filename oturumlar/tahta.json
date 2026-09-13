@@ -113369,7 +113369,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 06:03"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -113387,7 +113389,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 06:03"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -113405,7 +113409,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 06:03"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -113423,7 +113429,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 06:03"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -113441,7 +113449,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 06:03"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -113477,7 +113487,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 06:03"
+  },
   "yanit_no": "",
   "cins": "TESLIM",
   "teyit": {},
@@ -113495,7 +113507,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 06:03"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -113513,12 +113527,32 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-13 06:03"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
   "kapanis": "",
   "dayanak": "node ile data/olaylar*.js + kronoloji*.js tam taramasi (grep degil)",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3712",
+  "zaman": "2026-09-13 06:04",
+  "kimden": "KITA 27",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DURUM: taslak bitti (7/7 kart), teslim edildi (M-3709,M-3711). BEKLIYORUM: KITA 12'den app.js loader+kaynak() degisikligi (M-3693) VE senden kadinlar-saltanati mukerrer karari (M-3709 madde 2) - ikisi de gelince data/ekokuma_kadin.js'e tasiyip kapatirim. Bu arada bekcimi acik tutuyorum, baska is verilirse alirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
   "aciliyet": "NORMAL"
  }
 ]
