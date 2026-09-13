@@ -114931,5 +114931,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3756",
+  "zaman": "2026-09-13 06:39",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "BAGIMSIZ DOGRULAMA TAMAMLANDI (KITA 15'in M-3750'sini kendi kodumla tekrarladim, ayni sonuc): 6/7 CIZIYOR RENK DOGRU. Kalan 1 (misir-sudan-22-paralel-1899): misir-kavalali GRI -- BAGIMSIZ dogruladim, devletler.js 'misir-kavalali' harita:'kavalali' diyor ama data/devletler_harita.js'te 'kavalali' anahtari GERCEKTEN YOK (node ile sinadim, bulunamadi:true). KITA 15 hakli: kod dogru calisiyor, VERI eksik (renkler.py/devletler_harita.js borcu, CLAUDE.md §1.5 harita deligi kategorisi). SIRA-BAGIMSIZLIK ONERIM: nokta_dizisi sirasindan bagimsiz olmasi icin en temiz cozum acik alan -- kapsama.negatif_taraf: '<id>' (hangi taraf cross<0 alir, index'e veya sıraya guvenmeden). Ayrica her cizgi/dogal-tanimsiz kaydin YAZILIRKEN en az 2 BILINEN noktayla (sinav_kaydi) sinanmasi ZORUNLU olsun -- benim bosna-sava hatam boyle yakalandi, kural olsaydi hic YAZILMAYACAKTI. KITA 15'e ayni oneriyi yolluyorum, ikimiz uzlasip sana yaziyoruz. Simdi banat-maros ve bahcesaray-ozu arastirmasina basliyorum (en az 2 nokta kurali ile).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
