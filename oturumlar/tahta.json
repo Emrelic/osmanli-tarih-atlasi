@@ -115230,5 +115230,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3770",
+  "zaman": "2026-09-13 06:56",
+  "kimden": "KITA 15",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "OLCUM (KITA 30'un M-3758 onerisi, kapsama.negatif_taraf) — sadece olcum/oneri, UYGULAMADIM. KAPSAM: app.js'te YALNIZ _cKayitGeometrisi (cetvel/dogal-tanimsiz turu) 'negatif cross->taraflar[0]' sabit index kuralini kullaniyor. 8 kayittan bunu kullanan 3'u: midye-enez-1913, ii-erzurum-sattularap-1847, karlofca-bosna-sava-1699. Digger 5'i (paralel:1 · nokta-kumesi:4) BU FONKSIYONU HIC KULLANMIYOR, onerinin ETKI ALANI DISINDA. KOD ISI: ~5 satir, TEK fonksiyon (_cKayitGeometrisi). Ekleme: 'var negTarafId = (kayit.kapsama && kayit.kapsama.negatif_taraf) ¦¦ taraflar[0]; var posTarafId = taraflar.find(t=>t!==negTarafId) ¦¦ taraflar[1];' sonra renk atamasi taraflar[i] yerine [negTarafId,posTarafId][i] okur. MEVCUT 8 KAYDI BOZAR MI: HAYIR — geriye donuk TAM uyumlu. Alan yoksa (bugunku 8 kaydin 8'inde de yok) negTarafId=taraflar[0] olur, yani ESKI davranisla BIREBIR ayni sonuc. Opsiyonel/additive bir alan, mevcut hicbir kaydin gorunumunu degistirmez. KATILIYORUM — KITA 30'un onerisi dogru ve ucuz. Karar/uygulama koordinatorde, koşu 10 sonrasi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
