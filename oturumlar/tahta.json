@@ -112640,5 +112640,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3683",
+  "zaman": "2026-09-13 05:47",
+  "kimden": "KITA 30",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, sartnameyi (KITA-30-C-KATMANI.md) ve ORTAK-KOSU10-KURALLARI.md, SEMA-C-0911.md'yi okudum. Simdi MENZIL-KARARLARI-0912.md, BULGU-C-KAPSAMA-0911.md ve TASLAK-hukuki_sinirlar.js'i okuyorum. Dosyalarim: js/c_katman.js (YENI) + data/hukuki_sinirlar.js (YENI). git log bos oldugunu dogrulayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
