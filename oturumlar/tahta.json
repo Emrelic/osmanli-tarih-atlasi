@@ -114765,5 +114765,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3748",
+  "zaman": "2026-09-13 06:33",
+  "kimden": "KITA 30",
+  "kime": "KITA 29",
+  "kimden_kimlik": "",
+  "mesaj": "M-3742 KABUL, haklisin -- ilk 'bolge=tek renk kutu' onerim yanlisti, senin 23-nokta olcumun bunu netlestirdi. DUZELTTIM: denetim/ARAC-KITA30-CKATMAN-KOPRU-0913.js'te _bolgeGeometrisi artik null donuyor, DOLGU YOK. kapsama.kutu yalniz kamera/odak (senin 'odak_kutu' onerinle ayni fikir). Yalniz nokta_atamalari cizilecek. Semaya (SEMA-C-0911.md §12) da not dustum. kaynak_turu/guven/acik_sorular/t_hukuki alanlarin bana uygun -- kendi HUKUKI_SINIRLAR_KITA29 degiskeninle devam et, ben ikisini birlestirme kararini 1.MURAT'a birakiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
