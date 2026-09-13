@@ -115555,5 +115555,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3785",
+  "zaman": "2026-09-13 16:23",
+  "kimden": "ASM-ARASTIRMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - Ahar/Sarab/Miyane 1590-1603 arastirmasi. Brifing ve OLCUM-FERHATPASA-SEHIR-MATRISI-0913 okundu. Yazdigim dosyalar: denetim/OLCUM-AHAR-SARAB-MIYANE-0913.md, denetim/YAMA-AHAR-SARAB-MIYANE-0913.json, denetim/ARAC-ASM-*.py. data/ ve kod DOKUNULMAZ, commit YOK. Once ongoru, sonra olcum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
