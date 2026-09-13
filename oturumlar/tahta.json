@@ -115849,5 +115849,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3798",
+  "zaman": "2026-09-13 17:27",
+  "kimden": "HALKA-TIKLAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - HALKA TIKLAMA. KOK SEBEP farkli: isaretcinin kendi click dinleyicisi YOK; genel harita click (T-0126) _yerlesimAc(b.y) cagiriyor ama _yerlesimAc yalniz detay() ICINDE ataniyordu -> null -> sehir degil 'Butun yerlesimler' LISTESI aciliyordu (olculdu: typeof null). Duzeltme app.js:6278. (1) Sehir detayinin basina .kh-blok (kaynakliHalkaSehirBlogu 5856, detay 6190): devlet, tur, tarih, kaynak ad+sayfa/paragraf+slug, alinti, gelenek, 2 devlette CELISKI basligi; canvas popup cift gosterimi engellendi (4055 bayrak / 2061). (2) _khCNoktaSuzgeci 5889: 8 ACIKken hukuki-sinir-nokta setFilter ile ferhad-pasa-istanbul-1590 gizli, KAPALIyken null; veri silinmedi. (3) Lejant #lejant-halka 2003. Ek: kaynakli_halka_kronoloji listeye eklendi (5578, 404 sessiz). Yan hata: aktif C kaydi yokken nokta kaynagi bosaltilmiyordu (5526). SINAV gercek tarayici + gercek tiklama: (a) Tebriz blok 'TDV Islam Ansiklopedisi, Tebriz' VAR, popup 0; (b) 1595 ACIK Ferhat ekranda 0, 1700 ACIK Karlofca Bar+Sucava ekranda; (c) KAPALI Ferhat 8 ekranda, blok 0. CELISKI sahte kayitla tarayicida sinandi, kayit silindi. node --check OK. OLCULEMEDI: yer_kon halkasina gercek tiklama (veride yer_kon yok), katman/genel click sirasi. Commit YOK. Rapor denetim/HALKA-TIKLAMA-0913.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
