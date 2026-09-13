@@ -77,7 +77,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-10-28", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
-    b: "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet", kapsam_genis:true,
+    kapsam:"dis", onem:3, b: "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet", kapsam_genis:true,
     gun: "28 Ekim 1918",
     yer: "Prag, Bratislava, Kassa (Košice)",
     kisiler: "Tomáš Masaryk",
@@ -87,7 +87,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-10-30", k: "kurulus", etiket: ["siyaset","konu-siyasi"],
-    b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği", kapsam_genis:true,
     gun: "30 Ekim 1918",
     yer: "Viyana, Graz",
     kisiler: "İmparator Karl",
@@ -117,7 +117,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-11-11", k: "siyaset", etiket: ["siyaset", "toprak-kaybi", "konu-askeri", "konu-siyasi"],
-    b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor", kapsam_genis:true,
     gun: "11 Kasım 1918",
     yer: "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
     kisiler: "İmparator Karl",
@@ -137,7 +137,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-12-01", k: "kurulus", etiket: ["siyaset", "toprak-kazanc", "konu-askeri", "konu-siyasi"],
-    b: "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet", kapsam_genis:true,
     gun: "1 Aralık 1918",
     yer: "Belgrad, Zagreb, Saraybosna, Erdel, Suçava, Çernovitz",
     kisiler: "Karadordević hânedanı, I. Ferdinand",
@@ -207,7 +207,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
-    b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü", kapsam_genis:true,
     gun: "28 Haziran 1919",
     yer: "Versailles, Strazburg, Metz, Colmar, Mulhouse",
     kisiler: "—",
@@ -217,7 +217,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
-    b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti", kapsam_genis:true,
+    kapsam:"dis", onem:4, b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti", kapsam_genis:true,
     gun: "27 Kasım 1919",
     yer: "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
     kisiler: "Çar Ferdinand, Boris",

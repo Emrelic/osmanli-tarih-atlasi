@@ -237,7 +237,7 @@ window.OLAYLAR_EK13 = [
 // A-12 — Cebrîler'in Bahreyn'e hâkim olması
 // ---------------------------------------------------------------------------
 { t:"1417-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
-  b:"Bahreyn adalarının Cebrîler'in eline geçmesi",
+  kapsam:"dis", onem:2, b:"Bahreyn adalarının Cebrîler'in eline geçmesi",
   gun:"1417 (TDV hanedan sırasını verir, TARİH VERMEZ; yıl komşu Katîf ve Lahsa kayıtlarının deseninden alındı — literatür Cebrî hanedanının kuruluşunu XV. yüzyıl başına koyar)",
   yer:"Bahreyn (Evâl adaları), Katîf, Lahsa",
   d:"TDV Bahreyn maddesi adanın \"sırasıyla Uyûnîler, Salgurlular, Tabîler, Cebrîler idaresinde kaldığı ve Cebrîler devrinde çoğunluğun Şiîler'den Sünnîler'e geçtiği\" kaydını düşer; hiçbirine tarih vermez. Genel literatürde Cebrî hanedanı XV. yüzyılın başında, Katîf'teki son Cervânî hükümdarını devirerek kuruldu ve en parlak devrinde (Acvâd b. Zâmil, ö. 1496) Basra körfezinin bütün Arap kıyısını, Lahsa'yı, Katîf'i ve Bahreyn adalarını denetledi. Acvâd'ın ardından Evâl adaları Mukrin b. Zâmil'e geçti — 1521'de Portekizliler'e yenilecek olan hükümdar odur.",
@@ -247,7 +247,7 @@ window.OLAYLAR_EK13 = [
 // A-13 — Portekiz'in Bahreyn'i alışı
 // ---------------------------------------------------------------------------
 { t:"1521-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  b:"Portekiz'in Bahreyn'i alışı — Cebrî hâkimiyetinin sonu",
+  kapsam:"dis", onem:4, b:"Portekiz'in Bahreyn'i alışı — Cebrî hâkimiyetinin sonu",
   gun:"1521", ic_not_gun:"(TDV: \\\"Portekizliler, 1521'de Bahreyn'i ele geçirdiler\\\"; ay ve gün yok)",
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"António Correia, Mukrin b. Zâmil (Cebrî hükümdarı)",
@@ -329,7 +329,7 @@ window.OLAYLAR_EK13 = [
 // Manama kaydındaki mevcut dönem: `ingiltere 1861-05-31 → 1923-10-29`.
 // TDV `bahreyn` ise 21 Mayıs 1861 diyor. On günlük fark; İKİSİ DE yazıldı.
 { t:"1861-05-31", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  b:"Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
+  kapsam:"dis", onem:3, b:"Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
   gun:"31 Mayıs 1861", ic_not_gun:"(atlas bu günü taşıyor; TDV `bahreyn` 21 Mayıs 1861 der — on günlük fark çözülmedi)",
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"Şeyh Muhammed b. Halîfe, kardeşi Ali",

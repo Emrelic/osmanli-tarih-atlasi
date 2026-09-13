@@ -59,7 +59,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"eretnaogullari", duygu:["👑"] },
 
 { t:"1340-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"Celayirli Devleti'nin kuruluşu — İlhanlı sonrası Azerbaycan",
+  kapsam:"dis", onem:3, b:"Celayirli Devleti'nin kuruluşu — İlhanlı sonrası Azerbaycan",
   gun:"1340", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Tebriz, Merağa, Erdebil, Nahçıvan, Hoy, Urmiye, Selmâs (Dilman), Sultâniye, Şuşa, Culfa, Merend",
   yer_id:"Tebriz", kisiler:"Hasan-ı Büzürg",
@@ -67,7 +67,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"celayirliler", duygu:["👑"] },
 
 { t:"1411-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Bağdat'ın Karakoyunlu eline geçişi — Celayirli Sultan Ahmed'in yenilgisi",
+  kapsam:"dis", onem:3, b:"Bağdat'ın Karakoyunlu eline geçişi — Celayirli Sultan Ahmed'in yenilgisi",
   gun:"814 (1411)", ic_not_gun:"TDV ay/gün vermez",
   yer:"Bağdat, Basra, Musul, Kerkük, Hille, Kerbelâ, Necef, Erbil, Süleymaniye çevresi",
   yer_id:"Bağdat", kisiler:"Kara Yûsuf, Sultan Ahmed, Şah Mehmed",
@@ -83,7 +83,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"kazan-hanligi", duygu:["👑"] },
 
 { t:"1441-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"Kırım Hanlığı'nın kuruluşu — Hacı Giray'ın Altınorda'dan bağımsızlaşması",
+  kapsam:"dis", onem:4, b:"Kırım Hanlığı'nın kuruluşu — Hacı Giray'ın Altınorda'dan bağımsızlaşması",
   gun:"845 (1441-42) — TDV'ye göre en eski Hacı Giray parası bu tarihi taşır",
   yer:"Akmescid, Bahçesaray, Eski Kırım (Solhat), Gözleve (Kezlev), Karasubazar, Or Kapı (Ferahkirman), Kefe çevresi, Kabartay (Nalçik), Kuban (Yekaterinodar), Taganrog",
   yer_id:"Bahçesaray", kisiler:"Hacı Giray",
@@ -91,7 +91,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"kirim", duygu:["👑"] },
 
 { t:"1452-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Karakoyunlu Cihan Şah'ın Timurlu İran'ını (Rey, İsfahan, Fars, Kirman) ele geçirmesi",
+  kapsam:"dis", onem:3, b:"Karakoyunlu Cihan Şah'ın Timurlu İran'ını (Rey, İsfahan, Fars, Kirman) ele geçirmesi",
   gun:"856-857 (1452-1453)", ic_not_gun:"TDV yıl aralığı verir, gün vermez",
   yer:"Kirman, Yezd, Şiraz, Kâşân, Kâzerûn, Firûzâbâd, Lâr, Buşehr, Bender Abbas (Gamrûn), Sircân, Bem, Dârâb, Sâve, Nâin, Erâk (Sultânâbâd)",
   yer_id:"Kirman", kisiler:"Cihan Şah",
@@ -107,7 +107,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["😔","👑"] },
 
 { t:"1797-10-17", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
+  kapsam:"dis", onem:4, b:"Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
   gun:"17 Ekim 1797",
   yer:"Split (Spalato), Zadar (Zara), Şibenik (Sebenico), Dubrovnik çevresi, Kotor (Cattaro), Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), Preveze, Parga",
   yer_id:"Split (Spalato)", kisiler:"Napolyon Bonapart, Ludwig von Cobenzl",
@@ -131,7 +131,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["😔","👑"] },
 
 { t:"1861-02-13", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  kapsam:"dis", b:"Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü",
+  kapsam:"dis", onem:3, b:"Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü",
   gun:"13 Şubat 1861",
   yer:"Napoli, Bari, Brindisi, Lecce, Foggia, Taranto, Reggio Calabria, Katanya (Catania), Palermo, Messina, Cosenza, L'Aquila, Sirakuza",
   yer_id:"Napoli", kisiler:"II. Francesco (Francis II)",
@@ -163,7 +163,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["👑"] },
 
 { t:"1772-08-05", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
+  kapsam:"dis", onem:4, b:"Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
   gun:"5 Ağustos 1772",
   yer:"Daugavpils (Dünaburg), Polotsk, Vitebsk, Lvov, Yazlofça (Yazlovets)",
   yer_id:"Lvov", kisiler:"II. Katerina, II. Friedrich, Maria Theresia",
@@ -171,7 +171,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["😔"] },
 
 { t:"1793-01-23", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
+  kapsam:"dis", onem:4, b:"Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
   gun:"23 Ocak 1793",
   yer:"Bar (Podolya), Kamaniçe, Meciboj (Mejibuji), Minsk, Çehrin (Çigirin), Gdansk, Poznan",
   yer_id:"Minsk", kisiler:"II. Katerina, II. Friedrich Wilhelm",
@@ -283,7 +283,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Congress of Vienna / Final Act tarihyazımı)", duygu:["😔"] },
 
 { t:"1509-05-17", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
-  b:"Oran'ın İspanya'ya düşüşü — Kardinal Cisneros'un Kuzey Afrika seferi",
+  kapsam:"dis", onem:4, b:"Oran'ın İspanya'ya düşüşü — Kardinal Cisneros'un Kuzey Afrika seferi",
   gun:"17-18 Mayıs 1509 (filo 16'sında Cartagena'dan kalktı, şehir 18'inde alındı, Cisneros 20'sinde girdi)",
   yer:"Oran",
   yer_id:"Oran", kisiler:"Kardinal Francisco Jiménez de Cisneros, Pedro Navarro",
@@ -363,7 +363,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (General Maritime Treaty of 1820 tarihyazımı)", duygu:["😔"] },
 
 { t:"1891-01-01", k:"savas", etiket:["toprak-kayip","konu-askeri"],
-  b:"Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
+  kapsam:"dis", onem:3, b:"Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
   gun:"21 Ocak 1891",
   yer:"Riyad, Dir'iye (Necid), Buraydâ (Kasîm), Uneyze, Şakrâ, Necid içi, Necid güneyi, Necid güneybatısı",
   yer_id:"Riyad", kisiler:"Muhammed bin Reşîd, Abdurrahman bin Faysal (Suud)",
@@ -451,7 +451,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Italian Eritrea / Assab 1882 tarihyazımı)", duygu:["😔"] },
 
 { t:"1916-11-03", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
+  kapsam:"dis", onem:4, b:"İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
   gun:"3 Kasım 1916",
   yer:"Doha (Katar)",
   yer_id:"Doha (Katar)", kisiler:"Şeyh Abdullah bin Cassim Âl Sânî, Binbaşı Percy Cox",
@@ -467,7 +467,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı kapsamıyor, dayanak: standart akademik kaynak (Duchy of Carniola / Habsburg succession 1335 tarihyazımı)", duygu:["😔"] },
 
 { t:"1891-02-06", k:"savas", etiket:["toprak-kayip","konu-askeri"],
-  b:"Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",
+  kapsam:"dis", onem:3, b:"Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",
   gun:"Şubat 1891 (basında 28 Şubat'ta haber verildi, alınış ayın ilk haftasında)",
   yer:"Tokar",
   yer_id:"Tokar", kisiler:"Osman Digna",

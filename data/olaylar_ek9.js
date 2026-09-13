@@ -131,7 +131,7 @@ window.OLAYLAR_EK9 = [
   kaynak:"hidiv", duygu:["🎉"], yer_id:"Kerene" },
 
 { t:"1884-06-03", k:"antlasma", etiket:["antlasma","toprak-kayip","diplomasi","konu-askeri","konu-diplomasi"],
-  b:"Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
+  kapsam:"dis", onem:3, b:"Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
   gun:"3 Haziran 1884", yer:"Adua, Habeşistan", kisiler:"Amiral William Hewett, Yohannes IV, Hidiv Tevfik",
   d:"Mehdî ayaklanması Sudan'daki Mısır garnizonlarını kuşatınca İngiltere, Habeşistan'ın yardımını almak için 3 Haziran 1884'te Adua'da Yohannes IV ile antlaşma imzaladı. Antlaşmanın ikinci maddesi Bogos'u Habeşistan'a geri veriyor, karşılığında Habeşistan kuşatılmış garnizonların Masavva üzerinden tahliyesine yol açıyordu. Kerene böylece on iki yıllık Mısır idaresinden çıktı; beş yıl sonra bölge İtalyan Eritresi'ne katılacaktı.",
   kaynak:"habesistan", duygu:["🤝"], yer_id:"Adua" },

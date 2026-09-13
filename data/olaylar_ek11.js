@@ -138,7 +138,7 @@ window.OLAYLAR_EK11 = [
   kaynak:"safeviler", duygu:["🏛"] },
 
 { t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
-  b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
+  kapsam:"dis", onem:4, b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
   gun:"1510 sonu", ic_not_gun:"(916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
   yer:"Merv, Herat — Horasan", yer_id:"Merv (Mari)", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",
   d:"Batıda Akkoyunlu mirasını tamamlayan Şah İsmâil doğuya, Horasan'a yürüdü ve Merv önlerinde Özbekler'i ağır bir yenilgiye uğrattı; Şeybânî Han savaş meydanında öldü. Merv ve Herat Safevî hâkimiyetine girdi ve Safevî Devleti Fırat'tan Ceyhun'a uzanan sınırlarına kavuştu. Böylece 1501 yazında Tebriz'e girişle başlayan süreç dokuz yılda tamamlanmış oldu: Akkoyunlu mirası bütünüyle Safevî idaresine geçti ve Osmanlı Devleti doğusunda kendi büyüklüğünde ikinci bir devletle komşu hâle geldi.",
@@ -199,13 +199,13 @@ window.OLAYLAR_EK11 = [
 //    Sehir sehir bolunmesi ayri bir TDV taramasi istiyor, uydurulmayacak.
 
 { t:"1747-06-20", k:"siyaset", etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
-  b:"Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
+  kapsam:"dis", onem:4, b:"Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
   gun:"20 Haziran 1747", yer:"Fethâbâd, Horasan",
   kisiler:"Nâdir Şah Afşar",
   d:"Safevî tahtını sona erdirip 1736'da kendi adına saltanat ilân eden, Hindistan seferiyle Delhi'ye kadar giden ve Osmanlı ile üç savaş yapıp 1746 Kerden Antlaşması'yla barışan Nâdir Şah, kendi muhafızları tarafından çadırında öldürüldü. Ardından İran tek elden yönetilemedi: Horasan'da Afşar kalıntısı, güneyde Zend, kuzeyde yükselen Kaçar kırk dokuz yıl boyunca ülkeyi paylaştı. Osmanlı doğu sınırı bu dağınıklık sayesinde uzun süre sakin kaldı.", duygu:["🏛"], yer_kon:[37.1,58.5] },
 
 { t:"1796-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  b:"Kaçar hânedanının İran'a hâkim oluşu",
+  kapsam:"dis", onem:4, b:"Kaçar hânedanının İran'a hâkim oluşu",
   gun:"1796 (gün kaynakta yok; devlet dizini bu tarihi Afşar'ın bitişi olarak taşıyor)",
   yer:"Tahran", yer_id:"Tahran", kisiler:"Ağa Muhammed Şah Kaçar",
   d:"Kaçar aşiretinin reisi Ağa Muhammed Han, Zend hâkimiyetini yıkıp Horasan'daki son Afşar direncini de kırarak İran'ı yeniden tek elde topladı ve Tahran'ı başkent yaptı. Kırk dokuz yıllık parçalanma dönemi böylece kapandı; bundan sonra Osmanlı'nın doğu komşusu 1923'e kadar Kaçar İran'ı olacaktı.", ic_not_d:"⚠️ Atlas 1747-1796 arasını bilerek genel `İran` etiketiyle gösteriyor: o pencerede ülke gerçekten bölünmüştü ve şehir şehir hangi hânedanın elinde olduğu ayrı bir kaynak taraması gerektiriyor.", duygu:["🏛"] },
