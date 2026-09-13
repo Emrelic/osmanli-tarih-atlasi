@@ -115872,5 +115872,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3799",
+  "zaman": "2026-09-13 17:30",
+  "kimden": "HALKA-KRONOLOJI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA RAPOR 1 - ENVANTER olculdu (ARAC-HALKA-KRONOLOJI-ENVANTER-0913.js, index.html sirasiyla 82 dosya): 6193 madde (cekirdek olaylar* 1355, kuyruk kronoloji* 4838). yer_id tek yerlesime cozulen 4862 · bos 1114 · yok 211 · cozulmez 6 · yer_kon 590 (585'i yer_id'siz). kaynak: bulunamadi 719 · olculemedi 9 · atlas/veri atfi 380. acik devlet alani: devlet 132 (yalniz almanya) · kunye 47 · fethedilen/kaybedilen/statu_* 44 (bunlar HARITA SENKRON alani, tanik degil). devletler.js gomulu kronoloji 2423 madde, YER ALANI 0 -> (a) gecemez. savaslar.js SAVASLAR 171 / ANTLASMALAR 41, KAYNAK ALANI 0 -> (c) gecemez. Aday hunisi: toprak kategorisi 1813 -> yer_id tek 1498 -> kaynakli 1365 -> baslikta ele gecirme fiili 721. Ongoru rapora yazildi (%88, ilk kosuda %95 tutmaz). Simdi kural + orneklem.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
