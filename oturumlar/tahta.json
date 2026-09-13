@@ -118438,5 +118438,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3875",
+  "zaman": "2026-09-13 23:56",
+  "kimden": "PAKET-KRON3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK M-3873 (M-3872 geregi): ek10 1594-08-28 kaynak alanina 'bogdan + History of Transylvania I s.118-119 + Craciun Crisia LIII 2023', 1594-11-01 kaynak alanina 'eflak · bogdan + HoT (Kasim)' yazildi; Vikipedi/populer gunler ic_not_gun'da 'KAYNAKSIZ, SILINDI'. Yeniden olcum: node --check temiz · isyan eslesme 5/5 · A2-BAG 551/551 HATA 0 · denetle.py cikti onceki kosuyla BIREBIR. Rapor 3.2 guncellendi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
