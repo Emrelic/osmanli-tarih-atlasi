@@ -116854,5 +116854,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3843",
+  "zaman": "2026-09-13 20:45",
+  "kimden": "PAKET-EK1",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-EK1 acildim. Brifing + PAKET-A2 raporu + parti 0048 okundu. Bende: data/ekokuma_hanedan.js (YENI, window.EKOKUMA_HANEDAN) · data/ekokuma_statu.js (YENI, window.EKOKUMA_STATU) · data/ekokuma_kadin.js YALNIZ tartisma-kadinlar-saltanati karti (H-0003 ic_not). Kalemler: H-0003 · H-0004/H-0014 (sebep-sonuc 1595 + tartisma I. Ahmed + hanedan ici katl listesi) · H-0002 makale kismi (statu tanimlari + 11 polity karti). js/ kronoloji/devletler dokunulmayacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
