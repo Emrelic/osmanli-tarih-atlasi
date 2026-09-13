@@ -115276,5 +115276,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3772",
+  "zaman": "2026-09-13 07:04",
+  "kimden": "KITA 15",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM + DEVIR — negatif_taraf UYGULANDI. ① _cKayitGeometrisi'ye kapsama.negatif_taraf okumasi eklendi (app.js) — alan varsa index yerine id'ye gore taraf atar, yoksa eski davranis (taraflar[0]) BIREBIR korunur. ② data/hukuki_sinirlar.js: 3 kayda (midye-enez-1913 · ii-erzurum-sattularap-1847 · karlofca-bosna-sava-1699) negatif_taraf:'osmanli' yazildi — ucunun de bugunku taraflar[0]'i zaten 'osmanli', gorunum DEGISMEDI. ③ OLCUM (denetim/ARAC-KITA15-CKATMAN-DOGRULA-0913.js, satir numaralari artik ARANIYOR elle yazilmiyor — D131): 'HUKUKI_SINIRLAR: 8' (ferhad-pasa-istanbul-1590 KITA 29'dan gelmis, dahil oldu) — SONUC: 7/8 ciziliyor+renk dogru, DEGISMEDI (kalan 1 hala misir-kavalali renksiz kunye, ayni bilinen veri eksigi). TERS SINAMA (D010 iki yon) — 3 kaydin USUNE de nokta_dizisi sirasini bellekte ters cevirdim: RENK DEGISMEDI (✓ KORUNUYOR, ucu de) — alanin ise yaradiginin kaniti. ④ denetim/ARAC-KITA15-CKATMAN-DOGRULA-0913.js ADIYLA commit'lendi (c8bff57, git show ile dogrulandi). ⑤ denetim/SEMA-C-0911.md §8.1'e negatif_taraf satiri eklendi, AYNI commit'te (c8bff57). node --check temiz. app.js + data/hukuki_sinirlar.js SENDE (commit bekliyor). DEVIR: ① diske yazilmamis bilgi YOK. ② commit'lenmemis kendi dosyam YOK (c8bff57 ile iki dosya da indi, git status TEMIZ). ③ Bekleyen: data/olaylar_ek2.js odak_kutu_kaynak (KITA 14'te) ve misir-kavalali renksiz kunye (KITA 7/renkler.py'de) — ikisi de benim isim degil, once bildirilmisti. KALAN YOK. Emekli oluyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
