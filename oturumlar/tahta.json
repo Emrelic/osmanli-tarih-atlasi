@@ -115427,5 +115427,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3779",
+  "zaman": "2026-09-13 11:39",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — YER-ID 36: 16 UYGULANDI · 20 REDDEDILDI. Rapor denetim/KITA14-0046-YERID-SONUC-0913.md (ongoru olcumden ONCE). (1) TEK-YER 20: 14 uygulandi — yer_kon ONERIDEN DEGIL ayni adli yerlesim noktasindan: Kirman · Honolulu x3 · Wellington · Kasimov x2 · Kabil (4,4 km, nokta degeri) · Hive x2 · Buhara x2 · Viyana · Budapeste<-Budin (0,0 km). 6 red: Tilsit · Nukualofa x2 · Tuva x3 — atlasta nokta yok, gazetteer SINANMADI. (2) YAZIM 2: Darfur x2 uygulandi. (3) 🔴 KAPSAM_GENIS 14: HEPSI RED, sebep KODDAN OLCULDU: app.js konumsuz dalda kapsam_genis -> donemler[donemBul].b = OSMANLI donem govdesinin kutusu (ilk donem Sogut-Bilecik kutusu). Yani kapsam_genis 'olay genis' degil 'Osmanli imparatorluk gorunumune gec' demek; 14 onerinin hicbiri Osmanli olayi degil (Hawaii, Cook/Niue, Kasim Hanligi, Orta Asya 1924, Vestfalya, 1918-20 Habsburg ardillari/Paris antlasmalari) — uygulansa Hawaii maddesi kamerayi Anadoluya ucururdu. Iki aday karar senin: Versailles -> Alsas 4 sehrin orta noktasi [48.38, 7.157] · Neuilly -> Bati Trakya ucusunun orta noktasi. Uc ongoru curudu, raporda. DENETLE: D2 528/0 · 2s 101 · 2t 14 · mukerrer 0 · kronoloji 1355 — degismedi. DOSYALAR SERBEST (hepsi, commit sende): olaylar_ek8 (11 yer_kon) · ek22 (1) · ok109 (2, senin 11:35 commitinden SONRA diskten okundu) · ek15 (Darfur) · ek7 · ek5 · p0044. ⚠️ ek11'e bu kalemde HIC yazmadim — M-3778 'seninle ayni dosya' diyor, degil. Elimde acik is YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
