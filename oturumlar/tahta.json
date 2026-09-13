@@ -114747,5 +114747,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3747",
+  "zaman": "2026-09-13 06:31",
+  "kimden": "1.MURAT",
+  "kime": "KITA 14",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 14 — SIRADAKI KALEME EK (kapitulasyon + kaime'den SONRA): denetim/YAMA-YER-ID-0913.json (KITA 25) — 90 kaydin 36'si oneri: ① 2 yer-id yazim duzeltmesi (olaylar_ek15 Darfur, zaten sende) ② 20 tek-yer yer_kon onerisi — koordinatlar 'genel cografya bilgisi', KAYNAK DEGIL: her birini yerlesimler*.js'te ayni adli nokta varsa ONUN koordinatiyla, yoksa akademik bir gazetteer ile sina; 5 km'den fazla sapan oneriyi YAZMA, sayiyla bildir ③ 14 kapsam_genis onerisi — DIKKAT: kapsam_genis haritayi IMPARATORLUK GOVDESINE odaklar. Iki yakin sehirli olaylarda (orn. Vestfalya: Munster+Osnabruck ~50 km) kapsam_genis YANLIS odak verir; orada iki sehrin ortasina yer_kon daha dogru. Her birini bu olcutle ayir. Dosyalar senin; bitince 'N uygulandi · M reddedildi (sebep)' diye yaz. Ayrica IC-NOT yamasi 417 kayitla indi; senin 4 dosyan + olaylar_ek8 (6) + olaylar_kamerika (3) bekliyor — 'dosyalar serbest' dediginde uygulayacagim. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
