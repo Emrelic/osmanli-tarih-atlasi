@@ -160,11 +160,11 @@ window.YERLESIMLER_EK17 = [
 // Üçü de Voronej'in desenini taşıyor (`altinorda → kirim → rusya`) ama
 // KENDİ kale kuruluş günleriyle. Voronej'in kaydı DEĞİŞMİYOR; değişen,
 // onun peteğinin nereye kadar uzandığı.
-{ ad:"Belgorod", tur:"kale", lat:50.5950, lon:36.5870, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1596-01-01",d:"kirim"},{f:"1596-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Belgorod", neden:"VERI-KIRIM 14 Eyl 2026 (YAMA-KIRIM2-0913, Emre kararı D öncesi adım ①): kirim 1441→1596 kaldırıldı, __BOSLUK__ (kuzey vahşi bozkır).", tur:"kale", lat:50.5950, lon:36.5870, g:0, k:4, d:[],
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1596-01-01",d:"__BOSLUK__",kaynak:"IEU (CIUS) 'Slobidska Ukraine' · 'Kharkiv oblast': 16. yy başına dek ıssız vahşi bozkır, Tatar akın yolları; Moskova'ya yalnız 'nominally' bağlı. Hiçbir kaynak Kırım TASARRUFU yazmıyor (akın tasarruf değil D030; nominal iddia D076) ⇒ __BOSLUK__. Kırılma günü DEĞİŞMEDİ. denetim/ARASTIRMA-KIRIM2-0913.md ① Belgorod: IEU 'Belgorod' 1596'dan kale kasabası, Belgorod Hattı merkezi (yalnız yıl)."},{f:"1596-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Tambov", tur:"kale", lat:52.7210, lon:41.4520, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1636-04-17",d:"kirim"},{f:"1636-04-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Tambov", neden:"VERI-KIRIM 14 Eyl 2026 (adım ②): kirim 1441→1636 kaldırıldı, __BOSLUK__ — Voronej/Belgorod üzerine tek başına Kırım adası kalmasın; kaynak ESBE.", tur:"kale", lat:52.7210, lon:41.4520, g:0, k:4, d:[],
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1636-04-17",d:"__BOSLUK__",kaynak:"ESBE (Brockhaus-Efron) 'Tambov' (imza N. Romanov): Tambov 1636'da Kırım, Nogay ve Azak Tatarlarının sık akınlarına karşı tahkimat olarak kuruldu · ESBE 'Tambovskaya guberniya' (N. Romanov), tarih bölümü: bugünkü guberniyanın güney şeridi uzun süre sürekli nüfuzsuz bir vahşi bozkırdı, orada Kumanlar, sonra Kalmuklar, Azak ve Kırım Tatarları göçebe dolaştı; 'Nogay tarafı' denen güney kesim Tambov ve Kozlov'un kuruluşundan (1636) önce kalıcı iskân görmedi. Göçebe dolaşma/akın hanlık TASARRUFU değildir (D030). Kırım TASARRUFU yazan kaynak yok ⇒ kuzey dört kayıtla aynı hüküm, __BOSLUK__. Kırılma günü (1636-04-17) değişmedi; gün kaynağı bu turda ölçülmedi. ⚠️ ESBE batıdaki Meşçera kesiminde Rus iskânı/idaresinin ÖNCE (Ryazan uzantısı) yerleştiğini yazıyor, tarih vermiyor — Tambov noktasına taşınamadı."},{f:"1636-04-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ⚠️ PENZA'NIN ORTASI `kirim` DEĞİL `nogay` — ve bu kasıtlı.
 //    Sura-Volga arası Nogay Ordası'nın otlağıydı, Kırım'ın değil.

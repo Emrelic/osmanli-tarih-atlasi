@@ -85,7 +85,7 @@ window.OLAYLAR_EK16 = [
 { t:"1441-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", onem:4, b:"Kırım Hanlığı'nın kuruluşu — Hacı Giray'ın Altınorda'dan bağımsızlaşması",
   gun:"845 (1441-42) — TDV'ye göre en eski Hacı Giray parası bu tarihi taşır",
-  yer:"Akmescid, Bahçesaray, Eski Kırım (Solhat), Gözleve (Kezlev), Karasubazar, Or Kapı (Ferahkirman), Kefe çevresi, Kabartay (Nalçik), Kuban (Yekaterinodar), Taganrog",
+  yer:"Akmescid, Bahçesaray, Eski Kırım (Solhat), Gözleve (Kezlev), Karasubazar, Or Kapı (Ferahkirman), Kefe çevresi, Taganrog",
   yer_id:"Bahçesaray", kisiler:"Hacı Giray",
   d:"TDV'nin Kırım maddesine göre Kırım Hanlığı, XIV. yüzyılın ikinci yarısında Altın Orda'nın taht kavgalarıyla parçalanmasının ürünü olarak ortaya çıktı; hanlığın gerçek kurucusu Hacı Giray'ın bastırdığı en eski para 845 (1441-42) tarihini taşır ve bu, hanlığın resmî kuruluş tarihi sayılır. Aynı yıl Hacı Giray, Kırım'daki konumunu Moskova ile dostluk kurarak pekiştirdi ve Şirin kabilesi başta olmak üzere yerel bey aileleri onun safına katıldı.", ic_not_d:"⚠️ TDV, bozkırın doğusundaki Nogaylar'ı ayrı bir hanlık olarak değil Altınorda'nın çöküşünden sonra dağılan göçebe bir unsur olarak tanımlıyor; bu maddenin konusu yalnız Kırım'ın bağımsızlaşmasıdır, Nogay bozkırındaki eşzamanlı kırılma için ayrı kaynak gerekiyor (bk. aşağıdaki not).",
   kaynak:"kirim", duygu:["👑"] },

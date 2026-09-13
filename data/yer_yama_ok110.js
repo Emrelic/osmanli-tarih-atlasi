@@ -98,7 +98,10 @@ window.YER_YAMA_OK110 = [
 //    ERDİ (külliyatta madde var); Yedisan'ın Osmanlı idaresi 1792 Yaş
 //    Antlaşması'na kadar sürdü. Yani 1783 sonrası "kirim" olamaz.
 // ─────────────────────────────────────────────────────────────────────
- {ad:"Yedisan bozkırı",
+ // 🔴 EMEKLİ — 14 Eylül 2026, 1.MURAT: VERI-KIRIM (Emre kararı D) Yedisan'ın canlı kaydını
+ //    yerlesimler_ek_bozkir.js'te 1502-1774 `v:` gevşek himaye + 1774-1783 `s:kirim` olarak
+ //    yeniden yazdı. Bu girdi uygulanırsa o dönüşümü GERİ ALIR. Silinmedi, yoruma alındı.
+ /* {ad:"Yedisan bozkırı",
   s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},
      {f:"1502-03-01",t:"1783-04-19",d:"kirim"},
      {f:"1792-01-09",t:"1917-03-15",d:"rusya"},
@@ -106,7 +109,7 @@ window.YER_YAMA_OK110 = [
      {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[{f:"1783-04-19",t:"1792-01-09"}],
   kaynak:"külliyatın kendi maddeleri: \"1783-04-19 II. Katerina'nın manifestosuyla Rusya Kırım'ı, Taman'ı ve Kuban'ı ilhak etti — Kırım Hanlığı sona erdi\" ve \"1792-01-09 Yaş Antlaşması — Kırım'ın ilhakı tanındı, sınır Dinyester'e taştı\". Yeni tarih ARAŞTIRILMADI, yeni gün EKLENMEDİ — yalnız var olan iki gün tutarlı hâle getirildi.",
-  neden:"`s:` kirim dönemini 1792-01-09'a kadar sürdürüyordu ama `d:` 1783-04-19'da Osmanlı'yı başlatıyordu ⇒ 8 yıl 9 ay ÇİFT SAHİPLİK. kirim, hanlığın sona erdiği güne (1783-04-19) çekildi. Kırılma günü DEĞİŞMEDİ, yalnız örtüşme kapandı."},
+  neden:"`s:` kirim dönemini 1792-01-09'a kadar sürdürüyordu ama `d:` 1783-04-19'da Osmanlı'yı başlatıyordu ⇒ 8 yıl 9 ay ÇİFT SAHİPLİK. kirim, hanlığın sona erdiği güne (1783-04-19) çekildi. Kırılma günü DEĞİŞMEDİ, yalnız örtüşme kapandı."}, */
 
 // ═══════════════════════════════════════════════════════════════════════
 // BÖLÜM 2 — 0031/H-0014 · AKKOYUNLU HAYALET DÖNEMİ · 18 NOKTA

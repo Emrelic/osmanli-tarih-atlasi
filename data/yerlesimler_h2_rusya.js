@@ -437,7 +437,7 @@ window.YERLESIMLER_H2_RUSYA = [
 // Taganrog — Azak'ın karşı kıyısı. Dönemleri BİREBİR Azak'ın kırılma
 // günlerinden alındı (1696-07-19 fetih · 1711-07-21 Prut · 1739-09-18 Belgrad),
 // çünkü şehrin dört el değiştirmesi Azak'ınkiyle aynı olayların sonucudur.
-{ ad:"Taganrog", tur:"liman", lat:47.237, lon:38.897, g:1, k:3, kur:"1698-09-12",
-  s:[{f:"1698-09-12", t:"1711-07-21", d:"rusya"},{f:"1711-07-21", t:"1739-09-18", d:"kirim"},{f:"1739-09-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Taganrog", neden:"VERI-KIRIM 14 Eyl 2026 (1.MURAT M-3901 hükmü b): 1711-07-21 → 1739-09-18 dilimi s:kirim idi ve KAYNAKSIZDI (kayıt başlığı yalnız günleri Azak'tan aldığını söylüyor, kimlik gerekçesi yok). Kaynak yıkımı ve iki tarafça kale yapılmayacak tampon hükmünü yazıyor, tasarruf yazmıyor ⇒ yıkık tampon kıyı, __BOSLUK__ (kuzey vahşi bozkır hükmüyle aynı sınıf). Günler DEĞİŞMEDİ. ⚠️ BORÇ: akademik kaynak (B. Davies, Warfare, State and Society on the Black Sea Steppe 1500-1700) OKUNMADI.", tur:"liman", lat:47.237, lon:38.897, g:1, k:3, kur:"1698-09-12",
+  s:[{f:"1698-09-12", t:"1711-07-21", d:"rusya"},{f:"1711-07-21", t:"1739-09-18", d:"__BOSLUK__", kaynak:"TDV prut-antlasmasi (200, gövde okundu): 'Azak Kalesi arazi ve mühimmatıyla iade edilecek, Taygan, Kamenka ve Samara suyu kenarındaki Yenikale yıkılacak … buralarda her iki tarafça başka bir kale yapılmayacak' · TDV azak (200): Prut sonrası Azak geri alındı, 1713 Edirne ile Osmanlı'ya bırakıldı, Belgrad (1739) ile Rusya'ya terk. taganrog/taygan slugları 302 ÖLÜ."},{f:"1739-09-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

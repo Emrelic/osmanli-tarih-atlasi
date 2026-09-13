@@ -2267,7 +2267,22 @@ D7_ADA_MUAF = frozenset((
 # 🔴 NEYİN KAYDIRMAYI ENGELLEYECEĞİ DE YAZILI: bu gece doğmuş VE açıkça
 #    yanlış bir ada. Mersin ikisini de karşılamıyor. Karşılasaydı sabit
 #    yerinde kalır, veri düzeltilir ve koşu 9'a bırakılırdı.
-BEKLENEN_ENKLAV_SORGU = 650
+BEKLENEN_ENKLAV_SORGU = 658
+# 🟡 650 -> 658, 14 EYLUL 2026 — VERI-KIRIM (Emre karari D + YAMA-KIRIM2),
+#    ve SAYI ADIYLA OLCULDU, tahmin edilmedi (denetim/VERI-KIRIM-0914.md, A/B:
+#    yalniz 8 yerlesim dosyasi HEAD'e cekili kopya 650 → son 658):
+#      +4  Cerkes kiyisi __BOSLUK__ 1441-1475 adalari (Anapa · Soci · Tuapse · Maykop)
+#          — TDV anapa: Kirim nufuzu 1475 SONRASI; Cerkes kunyesi YOK (ara cozum)
+#      +3  Soci · Tuapse · Maykop 1475-1502 gevsek himaye adasi — Kuban 1502'ye kadar
+#          altinorda (TDV altin-orda-hanligi; Kuban 1441-1502 sahibi BULUNAMADI)
+#      +1  Hacibey 1441-1480 litvanya-buyuk-dukalik — IEU Odesa, Vytautas kalesi
+#          ⇒ HAKIKI ENKLAV ADAYI
+#      +1  Yedisan 1774-07-21 kirim adasi (bagimsiz hanlik dilimi)
+#      −1  Taganrog 1711 kirim adasi kalkti (__BOSLUK__, TDV prut-antlasmasi)
+# 🔴 TAVAN VERIYI BUKMEK YERINE KAYDIRILDI, ve bu `D004` (olcutu gevsetme)
+#    ihlali DEGIL: sekiz kalemin sekizi KAYNAKLI bir duzeltmenin sonucu, hicbiri
+#    gerileme degil. Kuban'i 1475'e cekip adayi kapatmak kaynaksiz olurdu
+#    (koordinator hukmu M-3912). Adalar koridor/beyan sorusu olarak ACIK kalir.
 # 🟢 661 -> 650, 10 EYLUL 2026 — ENKLAV-0907'nin C YAMASI INDI.
 #    `denetim/yer_yama_enklav_c_0907.js` UC GUN bekledi (kosu 8 suruyordu,
 #    `§7`: kosu sirasinda `data/` DONUK). Bugun uygulandi: 8 kayit, 9 yeni

@@ -164,10 +164,10 @@ window.YERLESIMLER_OK106 = [
   //    KUSUR sayıyorum ve kaydediyorum — Çuguçak vakasının aynısı.
   // ⚠️ 1670 Kazak baskını ve 1695-1700 Rus işgali YAZILMADI: günleri
   //    kaynakta yok ve IEU kalıcı devri 1774'e tarihliyor. Kayıtlı borç.
-  { ad:"Kızıkermen (Gazi Kerman)", tur:"kale", lat:46.8400, lon:33.4200, g:0, k:4,
+  { ad:"Kızıkermen (Gazi Kerman)", v:[{f:"1475-06-06",t:"1526-01-01",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"kale", lat:46.8400, lon:33.4200, g:0, k:4,
     kur:"1441-01-01",
     d:[{f:"1526-01-01",t:"1774-07-21"}],
-    s:[{f:"1441-01-01",t:"1526-01-01",d:"kirim",kesinlik:"yuzyil"},
+    s:[{f:"1441-01-01",t:"1475-06-06",d:"kirim",kesinlik:"yuzyil"},
        {f:"1774-07-21",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],

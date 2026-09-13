@@ -743,7 +743,7 @@ BOYALAR = {
     "astarhan": ("Astarhan Hanligi", "#421212"),
     "altinorda":  ("Altın Orda ve ardılları","#873057"),
     "kazan":      ("Kazan Hanlığı",          "#ff6f4b"),
-    "kirim":      ("Kırım Hanlığı bozkırı",  "#b45a1e"),
+    "kirim":      ("Kırım Hanlığı",          "#b45a1e"),
     # ═══ SİBİR HANLIĞI — RENK 2, 6 Ağustos 2026 ═══
     # `data/yerlesimler_ek10.js` (4 nokta: Tümen · Tobolsk · Tara · Baraba)
     # BU RENK OLMADAN BAĞLANAMIYORDU. Dosyanın kendi başlığı: ödünç

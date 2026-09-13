@@ -68,13 +68,13 @@ window.YERLESIMLER_EK6 = [
 // (Starocherkasskaya). Rostov'a 25,6 km ama Rostov `kur:1749-12-15`
 // taşıyor — yani Çerkask'ın devri (1570-1721) ile Rostov'unki (1749→)
 // ÇAKIŞMIYOR; ikisi aynı havzanın iki ayrı çağıdır.
-{ ad:"Çerkask (Razdory)", tur:"kale", lat:47.240, lon:40.050, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Çerkask (Razdory)", v:[{f:"1502-03-01",t:"1570-01-01",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"kale", lat:47.240, lon:40.050, g:0, k:1, d:[],
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Hücre 10 (46-48K / 42-44D) — Sal vadisi.
 // ⚠️ 43,00 yerine 42,30: doğusu Kalmuk sahasına giriyor (yukarıdaki not).
-{ ad:"Don bozkırı (Sal)", tur:"bolge", lat:47.000, lon:42.300, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Don bozkırı (Sal)", v:[{f:"1502-03-01",t:"1570-01-01",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"bolge", lat:47.000, lon:42.300, g:0, k:0, d:[],
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Hücre 8 (48-50K / 38-40D) — Donets bozkırı.
 // ⚠️ Bu hücre Sloboda (Rus) ile Don Ordası arasındaki geçiş kuşağıdır ve
@@ -82,7 +82,7 @@ window.YERLESIMLER_EK6 = [
 //    aşağı yarısı Ordu'nun otlağıydı; kuzeydeki Sloboda tarafını zaten
 //    `Sloboda bozkırı` (49,20/37,20, kirim→1654→rusya) temsil ediyor.
 //    İki nokta arasındaki orta dikme o geçişi kabaca çiziyor.
-{ ad:"Donets bozkırı", tur:"bolge", lat:48.800, lon:39.000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Donets bozkırı", v:[{f:"1502-03-01",t:"1570-01-01",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"bolge", lat:48.800, lon:39.000, g:0, k:0, d:[],
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];
