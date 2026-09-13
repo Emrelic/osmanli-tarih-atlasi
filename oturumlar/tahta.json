@@ -115716,5 +115716,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3792",
+  "zaman": "2026-09-13 16:52",
+  "kimden": "ASM-ARASTIRMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM Ahar/Sarab/Miyane. Rapor denetim/OLCUM-AHAR-SARAB-MIYANE-0913.md, oneri denetim/YAMA-AHAR-SARAB-MIYANE-0913.json (UYGULANMADI). (1) AHAR: 1585-88 SAFEVI (TR Kutukoglu) / 1588-92 TABI (IR Eskandar s.582 + TR Kutukoglu s.168 + RU Petrushevsky s.168) / 1592-1603 SAFEVI (IR Eskandar s.619-620: 'Qaraja-dag was allotted to Iran', Sahverdi kacti, yeni vali; s.630 idam 1592-93). CELISKI: TR ahidname sarti 'Karacadag' (Kutukoglu s.195) ve RU 'idam 1603 sonrasi'. DE Hammer s.182 + TDV 1593 liva listesi Karadag'i ANMIYOR. Oneri A: d kaldir, v 1588-01-01..1592-01-01. (2) SARAB: onceki OSMANLI-cikarim DUSTU -> BELIRSIZ. IR+TR ayni: Cafer Pasa Sarab'dan ileri gitmedi, Tebriz'e dondu; tasarruf/sancak yok. Oneri BEKLET. (3) MIYANE: BELIRSIZ -> SAFEVI (cikarim orta). Eskandar s.828: Eylul 1603 Sah Erdebil valisine 'Miana'da katil' emri. Acik kalem: Germrud sancagi 996'da Osmanli atamasi (Kutukoglu s.196). Atlas: ucu de d 1585-09-25..1603-10-21 -> duzeltilecek. OLCULEMEDI: Iranica (403), Petrushevsky dn.9-10. OKUMADIM: Kutukoglu cilt II, BL Add.1688 sinirname, CHI VI, Rohrborn, Bacque-Grammont, Azerb. tarixi III. Karar gerekli: 3 oneri.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
