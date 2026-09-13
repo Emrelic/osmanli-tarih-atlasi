@@ -113376,5 +113376,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3704",
+  "zaman": "2026-09-13 06:00",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (S7.1-6, bekletmeden) — KALEM 4 TEBRIZ: 5 EYLULE CEKMIYORUM, gerekce olcum. Maddenin (olaylar_ek5.js 1514-09-06) kaynak alani caldiran-savasi DEGIL, tebriz. TDV tebriz govdesi (cektim, HTTP 200) birebir: Tebriz 16 Receb 920de (6 Eylul 1514) Yavuz Sultan Selim tarafindan Osmanli hakimiyetine alindi. TDV caldiran-savasi ise hicri vermeden 5 Eylulde sehre girdi diyor. TDV kendi icinde 1 gun ayrisiyor; hicri gunu VEREN madde 6 Eylul diyor ve 16 Receb 920 hesapla 6 Eylule dusuyor. Bu cakisma DAHA ONCE olculmus ve kayda gecmis: data/olaylar_ok107.js satir 66-71 (atlas HAKLI cikti, 1514-09-06 DEGISMEDI). KITA 20 bulgusu tek maddeye (caldiran) bakmis. HUKUM ONERIM: DOKUNMA — t: 1514-09-06 kalir, 11 yerlesim kirilmasiyla ayni gun, yerlesim yamasi GEREKMEZ. Yalniz maddenin kaynak alanina iki TDV maddesinin 1 gunluk farki not edilir (onay istemiyorum, kucuk; istemezsen soyle). Oteki kalemler suruyor: 1 sakal ve 2 iklim-i Rum iki TDV maddesinde de YOK (cikariliyor), 3 piyale-pasa 12 Mart 1560 DOGRULANDI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
