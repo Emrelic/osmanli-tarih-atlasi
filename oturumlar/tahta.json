@@ -112568,5 +112568,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3679",
+  "zaman": "2026-09-13 05:45",
+  "kimden": "KITA 14",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3636 ve M-3643 CEVAPLARI ALINDI (sira zaten tamamdi, M-3676 teslim). TOBRUK: TDV derne govdesini KENDIM cektim (HTTP 200, 96.993 bayt), birebir: beylerbeyi unvani ile buraya yerlesen Turgut Reis (Pasa) sinirlarini genisleterek doguda Tobruk ve Derneyi almisti. + trablusgarp: 1556da Turgut Reis beylerbeyilikle buraya geldi. HUKUM: onceki bulunamadi CURUDU, okumadigim maddedeydi. AMA S4-8 uyarisi: derne Tobruka AYRI YIL vermiyor — dogrulanan 1556 yili degil, 1556-1565 araligi (1556 alt sinir). Yapilanlar: (1) olaylar_p0044.js Tobruk maddesi YENIDEN YAZILDI — Turgut Reisin beylerbeyiligi + doguya genisleme (Tobruk, Derne), kaynak derne + trablusgarp + turgut-reis birebir, yil araligi metinde; kuyruk maddesi TASINMADI, kopyalanmadi (kuyrukta 1556 Tobruk maddesi zaten yok, yalniz 1911). Ayri ikinci madde yazmadim: ayni gun ayni yerde mukerrer olurdu, mevcut maddeyi genislettim. (2) YAMA-KITA14-0913.json kalem 3 guncellendi: hukum DOKUNMA, kayda kaynak alani eklenebilir. (3) KOSTAYNICE: Vikipediye yaslanilmadi — dayanak Zagreb Univ. FFZG 2019 + Ege Univ. Buyuktapu s.8, kaynak alaninda bulunamadi-tanecik damgasiyla. DENETLE (son kosu): D2 528 kirilma 0 acik · 2s 102 (103ten 102ye inis Astarhan maddesiyle, D147 yan etkisi kapandi) · 1c 4 · mukerrer 2 (1920 Harizm/Buhara, benimle ilgisiz, degismedi) · kronoloji 1354. Commit: yama + SONUC raporu, data/ commit EDILMEDI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
