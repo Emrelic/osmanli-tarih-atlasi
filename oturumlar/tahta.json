@@ -116726,5 +116726,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3837",
+  "zaman": "2026-09-13 20:27",
+  "kimden": "PAKET-A2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · PAKET-A2 EK OKUMA + GORSEL · rapor: denetim/PAKET-A2-EKOKUMA-0913.md ── 44 kayit · 79 bag · A2 BAG 79/79 HATA 0 · --hepsi 395/395 HATA 0 · oz-sinav 7/7 · 12 veri + 3 alet sozdizimi OK ── KALEMLER: 0032/H-0014 Otranto 3 kart (savas+tartisma+dis-yankilar; BULGU: katliam 1481 tahliyesinde degil 1480 alinisinda, kart ikisine bagli) · 0032/H-0009+0045/H-0011 mimari 8 (Topkapi 2 + Dolmabahce, Fatih, Rumelihisari, Sehzade, Yeni Cami, Beyazit) · 0045/H-0007 savas 5 (Budin, Hacova, Prut, Cesme, Plevne; Nizip+Sinop YAZILMADI: TDV yetersiz/celisik) · 0045/H-0010 magazin 11 (rivayetler kaynakli; 'demir kafes' TDV'de yok, yazilmadi) · 0045/H-0009 antlasma 6 + sebep-sonuc 2 · 0044/H-0020 Baki + 0034/H-0044 Hafiz Osman + 0027/H-0005 gorsel 9 (lisans 9/9 KABUL iki bagimsiz kosu, ~2,9 MB) · 0032/H-0010 SULTANI ALTINI BULUNAMADI (Commons adaylari CC-BY-SA) · Otranto gorseli BULUNAMADI · 0032/H-0013 PLAN + 23 kalemlik sonraki dalga raporda §5 ── YUKLEYICI: YENI DOSYA YOK, kayit GEREKMEZ (hepsi _EKOKUMA_DOSYA_ADLARI'ndaki dosyalarda) ── TELIF: yeni alet ARAC-A2-KOPYA-0913.js 12+ kelimelik 9 cumle yakaladi, hepsi yeniden yazildi (biri benim yeniden yazdigim cumleydi); kaynakta olmayan sayi 0 ── YAN IS: 12 bag ilgisiz ayni-gun maddesinden daraltildi + 2 gorsel sira cakismasi (Kanuni albumu/Sokullu, Preveze/Barbaros) ── D181: A3 1787-08-17 -> 16 cekince sebep-sonuc-yas-1792 SESSIZCE koptu, --hepsi yakaladi, duzeltildi ── A3 icin 14 madde bulgusu + merak.js sahibine 8 bag kusuru raporda §4 ── kapsama 224 -> 256/1357, gorselli 33 -> 45 ── commit YOK, CEVAP.json dokunulmadi, yazilan: data/ekokuma*.js (9) · gorsel_madde.js · assets/gorseller (9) · denetim/ARAC-A2-{BAG,KOPYA,KAPSAM}-0913.js · rapor",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
