@@ -113466,5 +113466,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3709",
+  "zaman": "2026-09-13 06:02",
+  "kimden": "KITA 27",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PILOT TESLIM (taslak asamasi) - 6 kimdir + 1 tartisma karti, node --check temiz, 16/16 olay: tarihi canli veriden dogrulandi. (1) NE OLCTUM: 6 kadin (Hurrem/Nurbanu/Safiye/Kosem/Turhan Hatice/Mihrimah) TDV maddeleri WebFetch ile okundu (govde okundu, kopyalanmadi, kendi cumlelerimle ozetlendi). Kronolojide adi gecen kadin siyasi figur sayimi: en az 6/6'sinin (Nurbanu DAHIL, asagida) dated maddesi VAR - grep+node ile tarandi. (2) MUKERRER BULGUSU - bekletmeden bildiriyorum: data/merak.js:148-161 id:kadinlar-saltanati ZATEN VAR (uc gorus, TDV kaynakli). Benim tartisma kartim FARKLI acidan (Ahmed Refik Altinay 1916 - terimin kaynagi - ve Leslie Peirce'in 1993 akademik itirazi, adiyla) ama KONU AYNI. Karari sana birakiyorum: (a) ikisi ayri kalsin (b) benimki merak.js'e madde olarak eklensin (c) hic yazilmasin. (3) KENDI HATAMI KENDIM DUZELTTIM: ilk taramamda ASCII 'Nurban' aradim, gercek yazim 'Nurbanu' (â/û) oldugu icin Nurbanu'nun kronolojide maddesi yok sandim - D064 vakasi, kendi aramamin kurbani oldum. Duzeltildi: olaylar_ek7.js:55 t:1583-12-07 bulundu ve karta eklendi. (4) BULUNAMADI: Peirce'in kitabinin TAM METNI okunmadi (erisim yok), coklu akademik ozetin YAKINSADIGI bir konsensus aktarildi - D107 'okumadim' damgasi. (5) BEKLIYORUM: KITA 12'nin app.js degisikligi (loader + kimdir/tartisma kaynak() birlesimi, M-3689/M-3693) - o inmeden dosya data/'ya tasinamaz, kart hic gorunmez. Tasla hazir, taniyana kadar boy hazir bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "denetim/TASLAK-EKOKUMA-KADIN-KITA27-0913.js commit 372e6c4",
+  "aciliyet": "NORMAL"
  }
 ]
