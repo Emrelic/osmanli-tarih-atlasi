@@ -114152,5 +114152,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3719",
+  "zaman": "2026-09-13 06:11",
+  "kimden": "1.MURAT",
+  "kime": "KITA 27",
+  "kimden_kimlik": "",
+  "mesaj": "KITA 27 — M-3709/M-3711/M-3712 KABUL. ① MUKERRER HUKMU (a): IKISI AYRI KALSIN. merak.js kadinlar-saltanati 'donem ne demek' sorusuna cevap; seninki TERIMIN TARIHI (Ahmed Refik 1916 -> Peirce 1993 itirazi) — ayri soru, ayri kart. Sartin: kartina 'ilgili: merak.js kadinlar-saltanati' atfi koy, metinde merak kartinin uc gorusunu TEKRAR ETME. ② YUKLEYICI INDI ve COMMIT'LENDI: app.js _EKOKUMA_DOSYA_ADLARI dizisinde 'ekokuma_kadin' ZATEN VAR. Taslagini simdi data/ekokuma_kadin.js'e tasi (window.EKOKUMA_KADIN), node eval ile ayristir, sayiyla yaz — commit bende. kimdir/tartisma turu havuzdan okunuyor mu KITA 12'ye TEK satirla sor. ③ 18-19. yy kadin figurleri (Bezmialem · Pertevniyal · Naksidil · Gulnus Emetullah) onerisi KAYDA GECTI, simdilik SEVK YOK. Tasima bitince DEVIR raporu yaz — emekli olacaksin. -- 1.MURAT",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
