@@ -325,6 +325,7 @@ window.OLAYLAR_EK10 = [
 // 🟡 MERKEZE: iki umbrella madde emekli edilmeli (benim dosyam değil):
 //    `olaylar.js`  1877-04  "93 Harbi (1877–78 Osmanlı-Rus Savaşı)"  → D-1 karşılıyor
 //    `olaylar.js`  1912-10  "Balkan Savaşları başladı"                → D-5 karşılıyor
+//                  ✓ 13 Eylül 2026 (KART-MADDE-CELISKI-0913): emekli edildi, 1912-10-08 ile birleştirildi
 //    İkisi de ay hassasiyetli; CLAUDE.md §8 gün yazılmasını şart koşuyor ve ayın
 //    1'ine genişleyip gün hassasiyetli yerleşim değişimlerinden ÖNCE sıralanıyorlar.
 //
@@ -365,11 +366,11 @@ window.OLAYLAR_EK10 = [
 
 // --- md.57·58 — Balkan savaşları -----------------------------------------
 
-{ t:"1912-10-08", k:"savas", etiket:["savas","ittifak"],
+{ t:"1912-10-08", k:"savas", etiket:["savas","ittifak","toprak-kayip"],
   b:"I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı",
   gun:"8 Ekim 1912", yer:"Arnavutluk ve Yenipazar sancağı",
   kisiler:"Karadağ Kralı Nikola, Sadrazam Gazi Ahmed Muhtar Paşa, Hariciye Nâzırı Noradungiyan Efendi",
-  d:"Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti.", ic_not_d:"⚠️ Kronolojide bu olay bugüne kadar ay hassasiyetli `1912-10` olarak duruyordu; CLAUDE.md §8 gün yazılmasını şart koşuyor.",
+  d:"Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti. Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı.", ic_not_d:"13 Eylül 2026 · KART-MADDE-CELISKI-0913 — BİRLEŞTİRME: olaylar.js'teki ay hassasiyetli `1912-10` 'Balkan Savaşları başladı' maddesi AYNI olayın mükerreriydi (kendi gun'u '8 Ekim 1912 (Karadağ'ın savaş ilanı)' diyordu; denetle.py önek ölçütü de bu çifti gerçek mükerrer diye listelemişti). O madde SİLİNDİ, bu madde tek kayıt. TAŞINAN: etiket `toprak-kayip`; son cümle — TDV `balkan-savasi`: 'Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı.' Çatalca çekilişi 1912-10-23 maddesinde, Edirne'nin geri alınışı olaylar_ek.js 1913-07-21 maddesinde zaten var. TAŞINMAYAN — bulunamadı: eski maddenin kaynağı `balkan` ÖLÜ slug (302); 'seferberliğini tamamlayamayan ordu', 'yüz binlerce muhacir İstanbul'a aktı', kisiler 'Nâzım Paşa' `balkan-savasi` gövdesinde geçmiyor. Kaybolmasın diye eski metin aynen: «Karadağ'ın savaş ilanını Bulgaristan, Sırbistan ve Yunanistan izledi; seferberliğini tamamlayamayan ve siyasî çekişmelerle bölünmüş Osmanlı ordusu birkaç hafta içinde Rumeli'yi kaybetti, ordu Çatalca hattına çekildi ve yüz binlerce muhacir İstanbul'a aktı. Müttefiklerin ganimet kavgasına dönüşen II. Balkan Savaşı'nda (Temmuz 1913) Edirne ve Doğu Trakya geri alındı; ama beş asırlık Rumeli, birkaç ayda elden çıkmıştı.» Eski maddede `kapsam_genis:true` vardı; bu madde yer_yama ile Yenipazar'a bağlı, bayrak taşınmadı. İZ: yer_yama.js'teki {dosya:olaylar.js, t:1912-10} kaydı artık karşılıksız.",
   kaynak:"balkan-savasi", duygu:["⚔️"], yer_id:"Yenipazar (Novi Pazar)" },
 
 { t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip"],
