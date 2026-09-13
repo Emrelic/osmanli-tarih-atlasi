@@ -495,6 +495,13 @@ Alan alan gerekçe (§2.2'nin ilk taslağından FARKLILAŞAN kısımlar):
 - `kaynak`/`kaynak_ikincil` ayrı nesneler (eski taslakta tek string'di) —
   Emre'nin M-3329 kararı (antlaşma metni birincil, TDV ikincil) burada
   ŞEMAYA gömüldü, her yeni C kaydı bu ayrımı YAZMAK ZORUNDA.
+- 🆕 `kapsama.negatif_taraf: "<id>"` (İSTEĞE BAĞLI, 13 Eylül 2026 — KITA 30
+  önerdi/M-3758, KITA 15 ölçtü+uyguladı/M-3770) — "cetvel"/"dogal-tanimsiz"
+  türü kayıtlarda hangi tarafın `cross < 0` (negatif) aldığını AÇIKÇA
+  söyler; yoksa render `taraflar[0]`'a düşer (eski davranış, geriye dönük
+  uyumlu). Amaç: eski kural `nokta_dizisi`nin A→B YÖNÜNE (veri girişi
+  sırasına) bağımlıydı ve bir kayıtta (karlofca-bosna-sava-1699) tam bu
+  yüzden ters çıkmıştı — bu alan render'ı nokta sırasından bağımsız kılar.
 
 ### 8.2 Hat cinsleri VE eğri-hat çözümü (koordinatörün ④ sorusu — ÇÖZÜLDÜ)
 
