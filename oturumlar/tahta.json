@@ -110288,5 +110288,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3632",
+  "zaman": "2026-09-13 04:31",
+  "kimden": "KITA 16",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM H-0013 (Lahsa/Katif ilhaki - Katar/Bahreyn). SONUC: SORU ZATEN DOGRU CEVAPLANMIS VERIDE, duzeltme GEREKMIYOR. Lahsa'nin IKI Osmanli donemi de veride var (d: 1550-1670 vassal + d: 1871-04-20/1913-07-08 savas). Doha(Katar): 1825'e kadar nokta yok, 1871-09-20'den Sani emirligi/Osmanli kazasi (v:) - TDV katar govdesi ('1871 sonbaharinda Katar'da Osmanli kontrolu saglandi ... Casim b. Sani fahri kaymakam') BIREBIR eslesiyor, 1913-07-29 Londra Antlasmasi ve 1916-11-03 himaye de dogru. Manama(Bahreyn): 1550'de PORTEKIZ'in elindeydi (1521-1602), Osmanli hic sahiplenmedi - bu da dogru. IKI KUCUK KAYNAK FARKI bulundu (data donuk, UYGULANMADI, sadece not): (1) Lahsa'nin ilk Osmanli tarihi atlas 1550 - TDV 1547, 3 yil fark. (2) Bahreyn 1861 antlasma gunu atlas 31 Mayis - TDV ozeti 21 Mayis, 10 gun fark, DUSUK GUVEN (govde tam okunmadi). Tam tablo: denetim/OLCUM-KITA16-KORFEZ-0913.md. Simdi H-0011 gorsellerine geciyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
