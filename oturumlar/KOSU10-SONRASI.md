@@ -63,6 +63,18 @@ sonraki durumdan türetilir).
       (KITA 25 M-3752)
 - [ ] `denetim/YAMA-YER-ID-0913.json` 36 öneri — KITA 14'te (M-3747)
 
+## 5a · Malaka 1511 günü (13 Eylül, Emre kararı: madde ana kronolojiye girdi)
+- [ ] `data/olaylar_p0047.js` maddesi TDV `malaka`ya göre **1511-08-10**. Veride üç yer
+      hâlâ 1511-08-24: `yerlesimler_asya.js` Malaka Portekiz dönemi başı ·
+      `devletler.js` `malaka-sultanligi` t: (kendi kaynağı "malaka" 10 Ağustos diyor, D144) ·
+      `kronoloji_portekiz.js` kuyruk maddesi. 24 Ağustos için kaynak BULUNAMADI.
+      ⇒ yayından sonra üçü de 1511-08-10'a (yerleşim + künye donuk, kuyruk serbest).
+      Bkz. `denetim/MALAKA-1511-0913.md`.
+- Kotur ve Bargiri (Muradiye) — Emre'nin düzeltmesi ("margin/bakur" değil): iki nokta
+  var (`yerlesimler_ek_ferhadpasa.js`), 1548-08-25'te Van ile birlikte Osmanlı; ek iş YOK.
+  Eski ad `denetim/OLCUM-KITA13-VAN-0913.md` §④ ve iki KITA 13 dosyasında duruyor
+  (bkz. `denetim/KOTUR-BARGIRI-0913.md`).
+
 ## 5b · KITA 14 devrinden açık borçlar (M-3781)
 - `olaylar_p0044.js` Astarhan maddesinin `d:` metninde iki uyarı notu duruyor —
   iç not yamasına aday (aynı iki alet)
