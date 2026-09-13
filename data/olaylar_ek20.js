@@ -100,7 +100,7 @@ window.OLAYLAR_EK20 = [
   yer:"Kutaisi",
   yer_id:"Kutaisi",
   kisiler:"",
-  d:"Bagratlı hânedanının yönettiği birleşik Gürcistan Krallığı, uzun bir iç mücadelenin ardından resmen üç krallığa ayrıldı: doğuda Tiflis merkezli Kartli, kuzeydoğuda Kaheti ve batıda merkezi Kutaisi olan İmereti. TDV'nin Gürcistan maddesi bölünmeyi teyit ediyor — 'Gürcistan üç krallığa (Kartliya, Kahetya, İmeretiya) ve beş beyliğe ayrıldı' — ancak yılını vermiyor. Bölünme, bir sonraki yüzyılın Osmanlı-Safevî çekişmesinde belirleyici oldu: 1555 Amasya Antlaşması'na göre İmeret, Dadyan, Güryel ve Daveli Osmanlı'ya; Kartli, Kahet ve Mosuk Safevî'ye bırakıldı. Yani atlasın batı ve doğu Gürcistan'ı ayrı efendilere bağlaması bu bölünmeden doğar. Yavuz Sultan Selim daha Trabzon valisi iken 1508'de İmeret (Açıkbaş) Krallığı'nı itaate ve haraca bağlamıştı.",
+  d:"Bagratlı hânedanının yönettiği birleşik Gürcistan Krallığı, uzun bir iç mücadelenin ardından resmen üç krallığa ayrıldı: doğuda Tiflis merkezli Kartli, kuzeydoğuda Kaheti ve batıda merkezi Kutaisi olan İmereti. TDV'nin Gürcistan maddesi bölünmeyi teyit ediyor — 'Gürcistan üç krallığa (Kartliya, Kahetya, İmeretiya) ve beş beyliğe ayrıldı'. Bölünme, bir sonraki yüzyılın Osmanlı-Safevî çekişmesinde belirleyici oldu: 1555 Amasya Antlaşması'na göre İmeret, Dadyan, Güryel ve Daveli Osmanlı'ya; Kartli, Kahet ve Mosuk Safevî'ye bırakıldı. Yani atlasın batı ve doğu Gürcistan'ı ayrı efendilere bağlaması bu bölünmeden doğar. Yavuz Sultan Selim daha Trabzon valisi iken 1508'de İmeret (Açıkbaş) Krallığı'nı itaate ve haraca bağlamıştı.", ic_not_d:"TDV Gürcistan maddesi bölünmenin yılını vermiyor (1490 başka dayanaktan)",
   kaynak:"gurcistan" },
 
 // ⑥ 1315-04-28 — veri: Malatya  ilhanli → memluk  (UYGULAMA-ERKEN yaması, 3cf33e9)

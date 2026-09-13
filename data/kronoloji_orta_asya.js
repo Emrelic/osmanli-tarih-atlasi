@@ -578,7 +578,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 { t:"1601-01-01", b:"Küçüm Han Nogayların yanında öldürüldü", tur:"olum", onem:3, dunya:1, kapsam:"ic",
   etiket:["hanedan","olum"],
   yer_id:"",
-  d:"1598 çarpışmasından sonra kaynaklarda Küçüm Han'la ilgili bilgi yer almaz; sınırlı bilgiler onun Nogayların yanına gittiğini ve kısa zaman sonra Nogaylar tarafından öldürüldüğünü söyler. Ebülgazi Bahadır Han, kırk yıl padişahlık yapıp Rus istilâsının ardından Mangıt halkının yanına kaçtığını ve orada öldüğünü yazar. Tarih kesin değildir; kaynak yıl vermez.",
+  d:"1598 çarpışmasından sonra kaynaklarda Küçüm Han'la ilgili bilgi yer almaz; sınırlı bilgiler onun Nogayların yanına gittiğini ve kısa zaman sonra Nogaylar tarafından öldürüldüğünü söyler. Ebülgazi Bahadır Han, kırk yıl padişahlık yapıp Rus istilâsının ardından Mangıt halkının yanına kaçtığını ve orada öldüğünü yazar. Ölüm tarihi kesin değildir.", ic_not_d:"kaynak yıl vermez",
   kaynak:"kucum-han (TDV) — tarih YAKLAŞIK ve kaynak kesin gün vermiyor, 'kısa bir zaman sonra' diyor" },
 
 { t:"1590-01-02", b:"Seyfi Çelebi Küçüm Han'ı Osmanlı sarayına tanıttı", tur:"kultur", onem:2, dunya:1, kapsam:"dis",

@@ -174,11 +174,11 @@ window.KRONOLOJI_GURCISTAN = [
   d:"6 Cemâziyelevvel 987 (1 Temmuz 1579) tarihinde Atabegli Mustafa (Menûçihr) Paşa ilk beylerbeyi tayin edilerek Çıldır, Ardanuç, Şavşat, Oltu ve Ahıska'yı kapsayan yeni bir eyalet kuruldu. 17. yüzyıl başında on beş sancağa ve 656 tımarlı sipahiden oluşan yaklaşık 1800 kişilik bir güce ulaştı; Osmanlı'nın Gürcistan'daki idari varlığının kurumsal iskeletini oluşturdu.",
   kaynak:"cildir-eyaleti (TDV, madde: cildir-eyaleti — içerik okundu, 2026-08-22)" },
 
-{ t:"1590-03-21", b:"Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
+{ t:"1590-03-21", b:"Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı", gun:"998 (1590)", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","toprak-kayip"],
   yer_id:"", kapsam_genis:true,
-  d:"On iki yıllık savaşı bitiren antlaşmayla Azerbaycan, Şirvan, Karabağ, Gürcistan'ın büyük kısmı ve Luristan'ın bir bölümü Osmanlı'ya bırakıldı; imparatorluk doğuda tarihinin en geniş sınırlarına ulaştı. Gürcü toprakları için bu, 1723'e kadar sürecek en yaygın Osmanlı hâkimiyeti dönemidir.",
-  kaynak:"ferhad-pasa-antlasmasi (TDV — müstakil maddesi yok, hükümleri luristan maddesinden derlenmiştir; zaten doğrulanmış, bkz. data/kronoloji_iran.js)" },
+  d:"On iki yıllık savaşı bitiren antlaşmayla Azerbaycan, Şirvan, Karabağ, Gürcistan'ın büyük kısmı ve Luristan'ın bir bölümü Osmanlı'ya bırakıldı; imparatorluk doğuda tarihinin en geniş sınırlarına ulaştı. Gürcü toprakları için bu, 1723'e kadar sürecek en yaygın Osmanlı hâkimiyeti dönemidir.", ic_not_d:"eski kaynak: ferhad-pasa-antlasmasi (TDV — müstakil maddesi yok, hükümleri luristan maddesinden derlenmiştir; zaten doğrulanmış, bkz. data/kronoloji_iran.js)",
+  kaynak:"TDV luristan · safeviler · murad-iii — hükümler bu maddelerden; ferhad-pasa-antlasmasi slugu ÖLÜ (302). 21 Mart günü bu maddelerde YOK (yalnız 998/1590)" },
 
 { t:"1603-10-21", b:"Tiflis'in Şah Abbas tarafından geri alınması", tur:"kayip", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","kayip"],

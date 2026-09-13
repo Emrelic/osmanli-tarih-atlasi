@@ -98,7 +98,7 @@ window.MERAK = [
     { tez:"İlhak biçimi de farklıydı",
       dayanak:"Batıda ilhaklar çoğu zaman savaşsız oldu: Germiyan toprakları 1381'de çeyiz olarak geldi, Hamîd ili satın alındı, bazıları antlaşmayla katıldı. Karaman'da ise her seferinde savaş gerekti ve ilhak 1397'den 1473'e kadar üç kuşak sürdü." }
   ],
-  baglanti:["1381-01-01","1381-06-01","1386-06-01","1397-07-01","1415-03-01","1468-01-01|Karaman","1473-01-01"],
+  baglanti:["1381-01-01|Germiyan","1381-06-01|Hamîd","1386-06-01","1397-07-01","1415-03-01","1468-01-01|Karaman","1473-01-01|Silifke"],
   kesinlik:"tartismali",
   kaynak:"TDV: KARAMANOĞULLARI · GERMİYANOĞULLARI" },
 
@@ -113,7 +113,7 @@ window.MERAK = [
     { tez:"Dağ coğrafyası ilhakı pahalılaştırıyordu",
       dayanak:"Kafkas vadileri kale kale tutulmayı gerektiriyor, gelirse tımara bölünecek kadar toplu değildi. Haraç ve asker sağlayan bir tâbi krallık, masrafı kendi üstlenen bir eyaletten kârlıydı." }
   ],
-  baglanti:["1490-01-01","1555-05-29","1606-01-01","1639-05-17","1723-06-15","1723-08-01"],
+  baglanti:["1490-01-01|Kaheti","1555-05-29","1606-01-01|Tiflis","1639-05-17","1723-06-15","1723-08-01"],
   kesinlik:"tartismali",
   kaynak:"TDV: GÜRCİSTAN · TİFLİS · AMASYA ANTLAŞMASI" },
 
@@ -128,7 +128,7 @@ window.MERAK = [
     { tez:"Bitişi de kurumsaldı",
       dayanak:"1603'ten sonra yerini ekberiyet ve kafes usulü aldı. Şehzadelerin sancağa çıkarılmaması taht kavgasını fiilen bitirdi; yani uygulamayı sona erdiren ahlâkî bir dönüşüm değil, veraset düzeninin değişmesiydi." }
   ],
-  baglanti:["1477-01-01","1513-04-24","1553-10-05|Mustafa","1562-07-23","1595-01-27","1603-12-23"],
+  baglanti:["1477-01-01|Kanunnâme","1513-04-24","1553-10-05|Mustafa","1562-07-23","1595-01-27","1603-12-23"],
   kesinlik:"tartismali",
   kaynak:"TDV: KANUNNÂME · SANCAĞA ÇIKMA · AHMED I" },
 
@@ -143,7 +143,7 @@ window.MERAK = [
     { tez:"Çok eşlilik kural değil imkândı",
       dayanak:"Kanûnî'nin Hürrem Sultan'la nikâh kıyması (1534), câriyeyle nikâh kıyılmaması teamülünü açıkça bozan bir istisna olarak kaydedilmiştir." }
   ],
-  baglanti:["1381-01-01","1390-01-15","1534-01-01|Hürrem"],
+  baglanti:["1381-01-01|Germiyan","1390-01-15","1534-01-01|Hürrem"],
   kesinlik:"tartismali",
   kaynak:"TDV: ÂL-İ OSMÂN · HÜRREM SULTAN" },
 
@@ -173,7 +173,7 @@ window.MERAK = [
     { tez:"Kaldırılışı tek taraflı oldu",
       dayanak:"Osmanlı kapitülasyonları müzakereyle değil, 1914'te tek taraflı ilanla kaldırdı; kesin tasfiye Lozan'da mümkün oldu. Bir imtiyazın kaldırılması için savaş gerekmesi, onun artık araç olmaktan çıktığının ölçüsüdür." }
   ],
-  baglanti:["1352-01-01","1536-02-18","1580-01-01|İngiltere","1740-05-30","1914-09-09","1923-07-24"],
+  baglanti:["1352-01-01|kapitülasyon","1536-02-18","1580-01-01|İngiltere","1740-05-30","1914-09-09","1923-07-24"],
   kesinlik:"tartismali",
   kaynak:"TDV: İMTİYAZÂT-ı EONOMİYYE · AHİDNÂME" },
 
@@ -220,7 +220,7 @@ window.MERAK = [
     { tez:"\"Hep başarısız\" ölçütü de tartışmalı",
       dayanak:"1444 baskısı savaş meydanında değil MASADA sonuç vermişti: Edirne-Segedin Antlaşması (12 Haziran 1444) ve ardından Semendire'nin fiilen Sırbistan'a iadesi (Ağustos 1444) Haçlı tarafının kazancıydı. TDV bu metnin \"gerçek anlamda bir barış mı yoksa geçici bir ateşkes mi olduğu\"nun tartışmalı olduğunu, Kardinal Cesarini ve Bizans imparatorunun devreye girmesiyle hükümsüz kaldığını yazar. ⇒ Sorun her zaman kazanamamak değil, kazanılanı korumamaktı." }
   ],
-  baglanti:["1396-09-25","1444-06-12","1444-08-01","1444-11-10"],
+  baglanti:["1396-09-25","1444-06-12","1444-08-01|Semendire","1444-11-10"],
   kesinlik:"tartismali",
   kaynak:"TDV: HAÇLILAR · NİĞBOLU SAVAŞI · VARNA MUHAREBESİ" },
 
@@ -280,7 +280,7 @@ window.MERAK = [
     { tez:"Ölçüt sorunu: bunu Ankara Savaşı maddesi HİÇ anlatmıyor",
       dayanak:"TDV'nin Ankara Savaşı maddesi sonucu iki cümleyle özetler — \"bütün Anadolu Timur'a mensub emîrler tarafından istilâ edildi\" ve \"Anadolu'da uzun mücadeleler sonunda kurulmuş olan Türk birliği bozulmuş\" — şehzâdelerin tâbiiyetinden, yarlıgdan ya da Mûsâ'nın durumundan söz etmez. Bu bilgi ancak şehzâdelerin kendi biyografilerinde bulunuyor. ⇒ Soru tek bir kaynağa sorulduğunda cevapsız kalıyor; dört biyografi yan yana konduğunda ise ortaya bir zorlamadan çok bir MEŞRUİYET PAZARI çıkıyor." }
   ],
-  baglanti:["1402-03-13","1402-07-28","1402-08-01","1402-08-20","1402-12-14","1402-12-20","1403-03-09"],
+  baglanti:["1402-03-13","1402-07-28","1402-08-01|Şehzade","1402-08-20","1402-12-14","1402-12-20","1403-03-09"],
   kesinlik:"tartismali",
   kaynak:"TDV: SÜLEYMAN ÇELEBİ, Emîr · MEHMED I · MÛSÂ ÇELEBİ · ANKARA SAVAŞI" },
 

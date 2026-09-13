@@ -127,6 +127,11 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       madde (ör. 1514-11-24 Yavuz'un Amasya'ya dönüşü). Günü KAYNAKSIZ mevcut maddeler: `1595-08-23` Kalûgerân
       (TDV eflak gün vermiyor; Önal, Koca Sinan Paşa s.390-395 okunacak) · `1594-10-05` üç voyvodalık · `1811-09-03`
       Tosun (ay → gün şişmiş). Kılıç (remzikilic.com, yayın künyesi yok) §4 ara bölge — basılı sürümü aranacak.
+- [ ] **KRON2 gün yamaları** — `denetim/YAMA-KRON2-0913.json` (16 kalem · `t` değişince ek okuma/savaş bağları SESSİZCE
+      KOPAR — her kalemde birlikte güncellenecek bağ listesi ve D147 ölçümü var). Koordinatör hükmü: YAMA 16 Yenişehir 1513
+      iki çekirdek madde BİRLEŞİR (kaynaklı günü taşıyan kalır; Değişmez 2 önce/sonra ölçülür) · YAMA 14 Kanije fethi
+      20/22 Ekim — iki TDV maddesi ayrışıyor, hicrî gün okunmadan taraf SEÇİLMEZ · YAMA 3 Budin ve YAMA 5 Ferhad Paşa
+      imza günü akademik kaynak ister (Ferhad Paşa için 1590-01-01 D147 sahte kapanış doğuruyor) · Mondros kaydı savaslar.js.
 - [ ] **RUS — Eflak-Boğdan Rus işgalleri + Kazak Hetmanlığı** — `denetim/YAMA-RUS-0913.json` (25 `isg:` grubu · 52 dönem ×
       yerleşim · 17 HAZIR / 8 KARAR · künye `kazak-hetmanligi` 1648→1782 + 8 madde + renk önerisi #6a3d9a, renk_olc ile
       ölçülecek). Koordinatör hükmü: Yaş 1711 `isg:rusya` · Yaş 1739 6 günlük pencere yazılır · ay kodlu uçlar

@@ -91,7 +91,7 @@ window.OLAYLAR_OK109 = [
     gun: "30 Ekim 1918",
     yer: "Viyana, Graz",
     kisiler: "İmparator Karl",
-    d: "29 Ekim'de Prag'da Çekoslovakya'nın, Zagreb'de Sırp-Hırvat-Sloven Devleti'nin kurulduğunun ilân edilmesi üzerine Avusturya Almanları da 30 Ekim'de Avusturya Cumhuriyeti'ni kurdular. Aynı gün Osmanlı Devleti Mondros Mütarekesi'ni imzalıyordu; iki imparatorluğun sonu takvimde yan yana düştü. Bu gün, atlasın Habsburg egemenliğinin sona erdiği gün olarak esas alması önerilen tarihtir — TDV'nin toprak üzerindeki egemenlik değişimini anlatan tek cümlesi budur.",
+    d: "29 Ekim'de Prag'da Çekoslovakya'nın, Zagreb'de Sırp-Hırvat-Sloven Devleti'nin kurulduğunun ilân edilmesi üzerine Avusturya Almanları da 30 Ekim'de Avusturya Cumhuriyeti'ni kurdular. Aynı gün Osmanlı Devleti Mondros Mütarekesi'ni imzalıyordu; iki imparatorluğun sonu takvimde yan yana düştü.", ic_not_d:"Bu gün, atlasın Habsburg egemenliğinin sona erdiği gün olarak esas alması önerilen tarihtir — TDV'nin toprak üzerindeki egemenlik değişimini anlatan tek cümlesi budur.",
     kaynak: "avusturya"
   },
 

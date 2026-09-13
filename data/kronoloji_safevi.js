@@ -284,7 +284,7 @@ window.KRONOLOJI_SAFEVI = [
   kaynak:"Encyclopaedia Iranica, madde: BAHĀʾ-AL-DIN ʿĀMELI", yer_id:"Isfahan" },
 { t:"1605-01-01", b:"Molla Sadrâ'nın İsfahan'dan Kum yakınlarına çekilmesi", tur:"bilim", onem:3, dunya:2, kapsam:"ic",
   etiket:["bilim","din"],
-  d:"Filozof Sadreddin Şirâzî (Molla Sadrâ), zâhir ulemasının felsefeye yönelttiği eleştiriler üzerine İsfahan'dan ayrılıp Kum yakınındaki Kehek köyünde uzun bir inziva dönemine girdi; bu yıllarda kaleme aldığı \"el-Hikmetü'l-müteâliye fi'l-esfâri'l-akliyyeti'l-erbaa\" adlı eseri, İşrâkî ve Meşşâî felsefeyi Şiî kelâmıyla birleştiren \"Hikmet-i Müteâliye\" ekolünün temel metni oldu — sürgün tarihi kaynaklarda 1605 ile 1610'lu yıllar arasında değişir, burada Iranica'nın verdiği erken tarih esas alındı.",
+  d:"Filozof Sadreddin Şirâzî (Molla Sadrâ), zâhir ulemasının felsefeye yönelttiği eleştiriler üzerine İsfahan'dan ayrılıp Kum yakınındaki Kehek köyünde uzun bir inziva dönemine girdi; bu yıllarda kaleme aldığı \"el-Hikmetü'l-müteâliye fi'l-esfâri'l-akliyyeti'l-erbaa\" adlı eseri, İşrâkî ve Meşşâî felsefeyi Şiî kelâmıyla birleştiren \"Hikmet-i Müteâliye\" ekolünün temel metni oldu — sürgün tarihi kaynaklarda 1605 ile 1610'lu yıllar arasında değişir.", ic_not_d:"burada Iranica'nın verdiği erken tarih esas alındı.",
   kaynak:"Encyclopaedia Iranica, madde: MOLLĀ ṢADRĀ ŠIRĀZI", yer_id:"Kum" },
 { t:"1620-01-01", b:"Molla Sadrâ'nın Şîraz'daki Han Medresesi hocalığı", tur:"bilim", onem:2, dunya:1, kapsam:"ic",
   etiket:["bilim"],

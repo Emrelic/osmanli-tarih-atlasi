@@ -427,10 +427,10 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Gāzân Han zamanında bir dünya tarihi yazmakla görevlendirilmiş olan devlet adamı ve tarihçi Reşîdüddin Fazlullāh-ı Hemedânî eserini tamamlayarak Sultan Olcaytu'ya sundu. Câmiu't-tevârîh yalnız Moğolların değil Çin'in, Hindistan'ın, Frenkler'in ve İsrâiloğulları'nın tarihini de kapsar; dünya tarihi yazma fikrinin ilk gerçek örneğidir. Tebriz'in doğusundaki Rab'-i Reşîdî mahallesi bu eserin çoğaltıldığı bir kitap atölyesiydi.", ic_not_d:"⚠️ TARİH HAKKINDA: sunum yılı için kaynak gün vermiyor.",
   kaynak:"ilhanlilar" },
 
-{ t:"1305-01-01", b:"Bizans ile evlilik ittifakı — Andronikos'un kızıyla nikâh", tur:"diplomasi",
+{ t:"1305-01-01", b:"Bizans ile evlilik ittifakı — Andronikos'un kızıyla nikâh", gun:"Olcaytu devri", tur:"diplomasi",
   onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi","ittifak"],
   yer_id:"",
-  d:"Olcaytu, Memlük düşmanlığını sürdürürken Avrupa'ya yaklaştı ve Anadolu'da Selçuklu Devleti'nin yerini alan Türkmen beyliklerine karşı Bizans'ın yardımına gitti; II. Andronikos Palaiologos'un kızı ile evlendi. Bir Moğol ilhanının Bizans'la akrabalık kurması, Anadolu'daki Türkmen yükselişinin iki eski rakibi aynı safta buluşturduğunu gösterir. ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; madde Olcaytu'nun Bizans'a yöneldiği saltanat başına bağlandı, bir tercihtir.",
+  d:"Olcaytu, Memlük düşmanlığını sürdürürken Avrupa'ya yaklaştı ve Anadolu'da Selçuklu Devleti'nin yerini alan Türkmen beyliklerine karşı Bizans'ın yardımına gitti; II. Andronikos Palaiologos'un kızı ile evlendi. Bir Moğol ilhanının Bizans'la akrabalık kurması, Anadolu'daki Türkmen yükselişinin iki eski rakibi aynı safta buluşturduğunu gösterir.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde Olcaytu'nun Bizans'a yöneldiği saltanat başına bağlandı, bir tercihtir.",
   kaynak:"ilhanlilar" },
 
 { t:"1316-12-16", b:"Olcaytu öldü — Ebû Said Bahadır Han çocuk yaşta tahta çıktı", tur:"hukumdar",
@@ -895,10 +895,10 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Ebû İshak, muhaliflerini Şîraz'dan uzaklaştırdıktan sonra Muzafferîler'le karşı karşıya geldi ve başlangıçta bir plan gereği Mübârizüddin Muhammed ile dostluk antlaşması yaptı; 5000 kişilik bir orduyla onu desteklemek ve Muzafferîler'e karşı çıkan Uganlılar'ı uyarmak üzere harekete geçti. Asıl amacı düşmanıyla iş birliği yaparak Mübârizüddin'i ortadan kaldırmak ve Kirman'ı ele geçirmekti; ancak bunu gerçekleştiremedi.", ic_not_d:"⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; madde 1350 Yezd kuşatmasından önceye konuldu.",
   kaynak:"inculular" },
 
-{ t:"1355-01-01", b:"Ebû İshak şair ve âlimleri himaye etti — Hâfız'a maaş bağladı", tur:"kultur",
+{ t:"1355-01-01", b:"Ebû İshak şair ve âlimleri himaye etti — Hâfız'a maaş bağladı", gun:"Ebû İshak devri", tur:"kultur",
   onem:3, dunya:3, kapsam:"ic", etiket:["kultur","edebiyat","himaye","siir"],
   yer_id:"Şiraz",
-  d:"Şiir ve edebiyata yakınlığıyla tanınan Ebû İshak şair ve âlimleri himaye etmiş, Hâfız'ı himayesine alarak kendisine maaş bağlamıştır. Şemseddin Muhammed b. Mahmûd-ı Âmülî Nefâisü'l-fünûn adlı eserini ona sunmuş; Şeyh Emînüddin Muhammed Kâzerûnî, Kadı Adudüddin el-Îcî ve Pîr Yahyâ Cemâlî-i Sûfî gibi isimler kendisini takdir etmiştir. 📌 Hâfız'ın divanındaki 'Ebû İshak devri' hasreti bir edebî mazmun değil, gerçek bir siyasî dönemin adıdır. ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; madde saltanatın son yıllarına konuldu.",
+  d:"Şiir ve edebiyata yakınlığıyla tanınan Ebû İshak şair ve âlimleri himaye etmiş, Hâfız'ı himayesine alarak kendisine maaş bağlamıştır. Şemseddin Muhammed b. Mahmûd-ı Âmülî Nefâisü'l-fünûn adlı eserini ona sunmuş; Şeyh Emînüddin Muhammed Kâzerûnî, Kadı Adudüddin el-Îcî ve Pîr Yahyâ Cemâlî-i Sûfî gibi isimler kendisini takdir etmiştir. 📌 Hâfız'ın divanındaki 'Ebû İshak devri' hasreti bir edebî mazmun değil, gerçek bir siyasî dönemin adıdır.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde saltanatın son yıllarına konuldu.",
   kaynak:"inculular" },
 
 // ═════════════════════════════════════════════════════════════════════
@@ -927,10 +927,10 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Kurucu Abdürrezzâk bir tartışma esnasında kardeşi Vecîhüddin Mes'ûd tarafından öldürüldü (12 Zilhicce 738 / 1 Temmuz 1338). Serbedârî tarihinin değişmez kalıbı ilk yılında kurulmuştur: elli yıllık hânedanın on iki emîrinden çoğu kendi adamları ya da akrabaları tarafından öldürülecektir.",
   kaynak:"serbedariler" },
 
-{ t:"1339-01-01", b:"Mes'ûd, Şiî şeyhi Hasan-ı Cûrî ile ittifak yaptı", tur:"din",
+{ t:"1339-01-01", b:"Mes'ûd, Şiî şeyhi Hasan-ı Cûrî ile ittifak yaptı", gun:"Mes'ûd devri", tur:"din",
   onem:5, dunya:2, kapsam:"ic", etiket:["din","ittifak","sosyal"],
   yer_id:"Sebzevâr",
-  d:"Kendisine katılan askerler, gençler ve ayyârlarla taraftarları gittikçe artan Mes'ûd, Mâzenderanlı Şiî şeyhi Halîfe'nin müridi Şeyh Hasan-ı Cûrî ile ittifak yaparak daha da güçlendi. 📌 Bu ittifak hareketin karakterini belirler: Serbedârîler bir hânedan değil, bir tarikat ile bir ayyâr birliğinin ortak yönetimidir — İran'da devlet kuran ilk halk-tarikat hareketi budur. ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; madde Mes'ûd'un iktidarının ilk yılına konuldu.",
+  d:"Kendisine katılan askerler, gençler ve ayyârlarla taraftarları gittikçe artan Mes'ûd, Mâzenderanlı Şiî şeyhi Halîfe'nin müridi Şeyh Hasan-ı Cûrî ile ittifak yaparak daha da güçlendi. 📌 Bu ittifak hareketin karakterini belirler: Serbedârîler bir hânedan değil, bir tarikat ile bir ayyâr birliğinin ortak yönetimidir — İran'da devlet kuran ilk halk-tarikat hareketi budur.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; madde Mes'ûd'un iktidarının ilk yılına konuldu.",
   kaynak:"serbedariler" },
 
 { t:"1340-06-01", b:"Nîşâbur ele geçirildi", tur:"toprak-kazanc",
@@ -1011,10 +1011,10 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Hâce Ali, aralarındaki anlaşmazlık yüzünden kendisini iktidara taşıyan müttefiki Derviş Azîz'i öldürttü (764/1363). Derviş Azîz'in halefi Rükneddin, Muzafferîler'den Şah Şücâ'ın sarayına kaçtı — Serbedârî iç kavgası artık komşu devletlerin müdahale kapısıdır.",
   kaynak:"serbedariler" },
 
-{ t:"1370-01-01", b:"Hâce Ali, Şehîd-i Evvel'i Sebzevâr'a davet etti — İmâmiyye fıkhının yayılması", tur:"din",
+{ t:"1370-01-01", b:"Hâce Ali, Şehîd-i Evvel'i Sebzevâr'a davet etti — İmâmiyye fıkhının yayılması", gun:"Hâce Ali'nin saltanatının sonları", tur:"din",
   onem:4, dunya:3, kapsam:"ic", etiket:["din","ilim","kitap","fikih"],
   yer_id:"Sebzevâr",
-  d:"Dindar bir Şiî olan Hâce Ali, saltanatının sonuna doğru İmâmiyye Şîası'na mensup, Şehîd-i Evvel diye tanınan Muhammed b. Mekkî el-Âmilî'yi bölgede İmâmiyye Şîası'nı yaygınlaştırma faaliyetlerine önderlik etmesi için Sebzevâr'a davet etti. Muhammed b. Mekkî daveti kabul etmedi, fakat Hâce Ali'ye yol göstermek amacıyla İmâmiyye fıkhına dair el-Lüm'atü'd-Dımaşkıyye adlı bir eser yazıp gönderdi. 📌 Bu eser bugün hâlâ İmâmiyye medreselerinin temel fıkıh kitaplarındandır — bir Horasan emîrinin davetiyle Şam'da yazılmıştır. ⚠️ TARİH HAKKINDA: kaynak 'saltanatının sonuna doğru' diyor, yıl vermiyor.",
+  d:"Dindar bir Şiî olan Hâce Ali, saltanatının sonuna doğru İmâmiyye Şîası'na mensup, Şehîd-i Evvel diye tanınan Muhammed b. Mekkî el-Âmilî'yi bölgede İmâmiyye Şîası'nı yaygınlaştırma faaliyetlerine önderlik etmesi için Sebzevâr'a davet etti. Muhammed b. Mekkî daveti kabul etmedi, fakat Hâce Ali'ye yol göstermek amacıyla İmâmiyye fıkhına dair el-Lüm'atü'd-Dımaşkıyye adlı bir eser yazıp gönderdi. 📌 Bu eser bugün hâlâ İmâmiyye medreselerinin temel fıkıh kitaplarındandır — bir Horasan emîrinin davetiyle Şam'da yazılmıştır.", ic_not_d:"TARİH HAKKINDA: kaynak 'saltanatının sonuna doğru' diyor, yıl vermiyor.",
   kaynak:"serbedariler" },
 
 { t:"1376-01-01", b:"Rükneddin Muzafferî desteğiyle Sebzevâr'ı ele geçirdi", tur:"savas",
@@ -1047,10 +1047,10 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Hâce Ali'nin bir akrabası olan Sultan Ali, Timur'un ölümü (807/1405) üzerine ayaklanarak hânedanı ihya etme teşebbüsünde bulunduysa da yakalanıp Herat'ta öldürüldü. Serbedârî adının son siyasî görünüşüdür.", ic_not_d:"📌 Timur'un ölüm yılı için `dunya:2` değeri `data/kronoloji_iran.js`te kayıtlıdır; bu madde ayrı bir olaydır ve kendi puanını taşır.",
   kaynak:"serbedariler" },
 
-{ t:"1355-01-01", b:"Serbedârî bayındırlık işleri: Tûs su kanalları ve Sebzevâr Mescid-i Câmi'i", tur:"mimari",
+{ t:"1355-01-01", b:"Serbedârî bayındırlık işleri: Tûs su kanalları ve Sebzevâr Mescid-i Câmi'i", gun:"Yahyâ Kerrâbî ve Hâce Ali devirleri", tur:"mimari",
   onem:2, dunya:1, kapsam:"ic", etiket:["mimari","tarim","sehircilik","imar"],
   yer_id:"Tûs",
-  d:"Serbedârî emîrlerinden Yahyâ Kerrâbî, Tûs şehrinde su kanallarını yeniden inşa ettirmiş; Hâce Ali ise Sebzevâr'da Mescid-i Câmi'i onartmış ve büyük bir depo yaptırmıştır. Aynı aileye mensup Emîr Şâhî iyi bir şair olarak temayüz etmiş, devrin şairlerinden İbn Yemîn-i Tuğrâî Serbedârîler'in himayesine mazhar olmuştur. ⚠️ TARİH HAKKINDA: kaynak bu işlerin yıllarını vermiyor; madde iki emîrin dönemlerinin ortasına konuldu, bir tercihtir.",
+  d:"Serbedârî emîrlerinden Yahyâ Kerrâbî, Tûs şehrinde su kanallarını yeniden inşa ettirmiş; Hâce Ali ise Sebzevâr'da Mescid-i Câmi'i onartmış ve büyük bir depo yaptırmıştır. Aynı aileye mensup Emîr Şâhî iyi bir şair olarak temayüz etmiş, devrin şairlerinden İbn Yemîn-i Tuğrâî Serbedârîler'in himayesine mazhar olmuştur.", ic_not_d:"TARİH HAKKINDA: kaynak bu işlerin yıllarını vermiyor; madde iki emîrin dönemlerinin ortasına konuldu, bir tercihtir.",
   kaynak:"serbedariler" },
 
 // ═════════════════════════════════════════════════════════════════════
@@ -1129,10 +1129,10 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Timur, Hindistan seferinden sonra 791 (1389) yılında Kert hânedanını ortadan kaldırdı. Yüz kırk dört yıl süren hânedan, Moğol istilâsının başında vasal olarak doğmuş ve bir başka fâtihin vasalı olarak sona ermiştir. Herat ise bu tarihten sonra Timurlular'ın başşehri olarak asıl parlak çağını yaşayacaktır.",
   kaynak:"kert" },
 
-{ t:"1305-01-01", b:"Kal'a-i İhtiyârüddin ve Herat'ın Kert dönemi mimarisi", tur:"mimari",
+{ t:"1305-01-01", b:"Kal'a-i İhtiyârüddin ve Herat'ın Kert dönemi mimarisi", gun:"Kertler devri", tur:"mimari",
   onem:3, dunya:2, kapsam:"ic", etiket:["mimari","kultur","ilim","himaye"],
   yer_id:"Herat",
-  d:"Kertler döneminde Herat'ta birçok cami ve medrese yapılmış, âlim ve sanatkârlar, şair ve edipler himaye edilmiştir. Günümüze ulaşan Kal'a-i İhtiyârüddin dönemin başlıca eserlerinden biridir. ⚠️ TARİH HAKKINDA: kaynak kalenin yapım yılını vermiyor; madde hânedanın en müreffeh dönemine konuldu ve bu bir tercihtir.",
+  d:"Kertler döneminde Herat'ta birçok cami ve medrese yapılmış, âlim ve sanatkârlar, şair ve edipler himaye edilmiştir. Günümüze ulaşan Kal'a-i İhtiyârüddin dönemin başlıca eserlerinden biridir.", ic_not_d:"TARİH HAKKINDA: kaynak kalenin yapım yılını vermiyor; madde hânedanın en müreffeh dönemine konuldu ve bu bir tercihtir.",
   kaynak:"kert" },
 
 // ═════════════════════════════════════════════════════════════════════
@@ -1159,10 +1159,10 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Selçuklular zamanında Bersekiyân adlı bir Türk aşireti Luristan'da yönetimi ele geçirmiş ve hâkimiyetini Lur-ı Kûçek hânedanı zamanına (1184-1597) kadar sürdürmüştü. Luristan'ın kuzey ve batısında kurulan bu atabeglik dört yüz on üç yıl yaşamış, İlhanlı'yı, Timurlu'yu ve Akkoyunlu'yu görmüş, ancak Safevîler'in merkezîleşmesine dayanamamıştır.", ic_not_d:"🔴 YER HAKKINDA: Lur-ı Kûçek'in merkezi Hürremâbâd'dır ve BU AD VERİDE KAYITLI DEĞİLDİR (2610 yerleşim adı tarandı, eşleşme yok). Uydurma yapılmadı, `yer_id` boş bırakıldı ve eksik koordinatöre sayıyla bildirildi.",
   kaynak:"luristan" },
 
-{ t:"1300-01-01", b:"Lur atabeglikleri zaman zaman İlhanlı vilâyeti statüsüne girdi", tur:"idari",
+{ t:"1300-01-01", b:"Lur atabeglikleri zaman zaman İlhanlı vilâyeti statüsüne girdi", gun:"İlhanlı devri", tur:"idari",
   onem:3, dunya:1, kapsam:"dis", etiket:["idari","itaat","siyaset"],
   yer_id:"Luristan",
-  d:"Lur-ı Büzürg ve Lur-ı Kûçek atabeglikleri zaman zaman birer İlhanlı vilâyeti statüsüne girdilerse de Safevîler dönemine kadar varlıklarını korudular. 📌 Bu, İran'ın dağlık bölgelerinin siyasî tarihinin değişmez kalıbıdır: merkez güçlüyken vilâyet, merkez zayıfken atabeglik. ⚠️ TARİH HAKKINDA: kaynak bu statü değişimlerine yıl vermiyor; madde İlhanlı'nın en güçlü olduğu döneme konuldu ve bu bir tercihtir.",
+  d:"Lur-ı Büzürg ve Lur-ı Kûçek atabeglikleri zaman zaman birer İlhanlı vilâyeti statüsüne girdilerse de Safevîler dönemine kadar varlıklarını korudular. 📌 Bu, İran'ın dağlık bölgelerinin siyasî tarihinin değişmez kalıbıdır: merkez güçlüyken vilâyet, merkez zayıfken atabeglik.", ic_not_d:"TARİH HAKKINDA: kaynak bu statü değişimlerine yıl vermiyor; madde İlhanlı'nın en güçlü olduğu döneme konuldu ve bu bir tercihtir.",
   kaynak:"luristan" },
 
 { t:"1393-06-01", b:"Timur Luristan'a hâkim oldu ve Şûs'ta ikamet etti", tur:"isgal",
@@ -1174,7 +1174,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
 { t:"1424-01-01", b:"Lur-ı Büzürg Atabegliği sona erdi", tur:"son",
   onem:5, dunya:1, kapsam:"ic", etiket:["son","hanedan"],
   yer_id:"Şüşter",
-  d:"TDV `luristan` maddesinin verdiği aralığa göre Lur-ı Büzürg (Hazaraspî) atabegliği 1424'te sona erdi; `devletler.js` künyesinin `t:1424-01-01` tarihi buna dayanır. İki yüz altmış dokuz yıllık hânedanın sonu, Timurlu Şahruh'un Fars ve Hûzistan'ı merkezî idareye bağladığı yıllara denk gelir.", ic_not_d:"🔴 KAYNAK SINIRI: TDV bu tarihin nasıl gerçekleştiğini ANLATMIYOR, yalnız aralığı veriyor — hânedanın sonunun ayrıntısı bu turda BULUNAMADI.",
+  d:"TDV'nin Luristan maddesinin verdiği aralığa göre Lur-ı Büzürg (Hazaraspî) atabegliği 1424'te sona erdi. İki yüz altmış dokuz yıllık hânedanın sonu, Timurlu Şahruh'un Fars ve Hûzistan'ı merkezî idareye bağladığı yıllara denk gelir.", ic_not_d:"🔴 KAYNAK SINIRI: TDV bu tarihin nasıl gerçekleştiğini ANLATMIYOR, yalnız aralığı veriyor — hânedanın sonunun ayrıntısı bu turda BULUNAMADI. · `devletler.js` künyesinin `t:1424-01-01` tarihi buna dayanır.",
   kaynak:"luristan" },
 
 { t:"1590-01-01", b:"İstanbul Antlaşması'yla Luristan Osmanlı idaresine bağlandı", tur:"antlasma",

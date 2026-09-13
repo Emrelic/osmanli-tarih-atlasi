@@ -649,7 +649,7 @@ window.KRONOLOJI_BIZANS = [
 { t:"1410-01-01", b:"Georgios Gemistos Plethon Mistra'da ders vermeye başladı", tur:"kultur",
   onem:3, dunya:3, kapsam:"ic", etiket:["kultur"],
   yer_id:"",
-  d:"Platon'u Aristo'ya üstün tutan ve Bizans'a köklü bir siyasî yenilenme öneren Plethon, Mora'daki Mistra'yı bir felsefe merkezine çevirdi. Mistra'nın yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
+  d:"Platon'u Aristo'ya üstün tutan ve Bizans'a köklü bir siyasî yenilenme öneren Plethon, Mora'daki Mistra'yı bir felsefe merkezine çevirdi.", ic_not_d:"Mistra'nın yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
   kaynak:"Donald M. Nicol, The Last Centuries of Byzantium 1261-1453 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1439-12-18", b:"Bessarion kardinal oldu — Bizans bilgisi Batı'ya taşındı", tur:"kultur",

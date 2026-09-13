@@ -99,7 +99,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1542-10-14", b:"Ekber Şah, Sind'deki Ömerkût Kalesi'nde doğdu", tur:"dogum", onem:4, dunya:4, kapsam:"dis",
   etiket:["dogum","hukumdar"], yer_id:"",
-  d:"[Sind / Bâbürlü] Bâbürlü hânedanının en büyük hükümdarı, babası Hümâyun sürgündeyken bir Racput kalesinde dünyaya geldi. Doğum yeri Ömerkût, Sind çölünün doğu ucunda Sodha Racputlarının elindeydi — imparatorluğun kaderini belirleyecek hükümdar, kaçak bir kafilenin konakladığı sınır kalesinde doğdu. (yer_id boş: Ömerkût atlasın yerleşim kayıtlarında yok.)",
+  d:"[Sind / Bâbürlü] Bâbürlü hânedanının en büyük hükümdarı, babası Hümâyun sürgündeyken bir Racput kalesinde dünyaya geldi. Doğum yeri Ömerkût, Sind çölünün doğu ucunda Sodha Racputlarının elindeydi — imparatorluğun kaderini belirleyecek hükümdar, kaçak bir kafilenin konakladığı sınır kalesinde doğdu.", ic_not_d:"yer_id boş: Ömerkût atlasın yerleşim kayıtlarında yok.",
   kaynak:"ekber-sah (TDV): \"4 Receb 949'da (14 Ekim 1542) Sind'deki Ömerkût Kalesi'nde doğdu\"" },
 
 { t:"1554-01-01", b:"Mirza Îsâ Han Tarhan Sind'de idareyi ele aldı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
@@ -119,7 +119,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1573-01-01", b:"Ekber Şah, merkezi Bakkar olan Yukarı Sind'i Bâbürlü topraklarına kattı", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis",
   etiket:["fetih","tabiiyet"], yer_id:"Şikârpûr",
-  d:"[Sind / Bâbürlü] Ergun-Tarhan hânedanının ikiye bölünmesinden yararlanan Ekber, önce kuzeyi aldı. Bakkar sancağı böylece Bâbürlü sûbe düzenine bağlandı ve İndus'un yukarı akışı Agra'nın denetimine girdi. (yer_id: Bakkar atlasın kayıtlarında yok; en yakın kayıtlı yerleşim Şikârpûr'dur.)",
+  d:"[Sind / Bâbürlü] Ergun-Tarhan hânedanının ikiye bölünmesinden yararlanan Ekber, önce kuzeyi aldı. Bakkar sancağı böylece Bâbürlü sûbe düzenine bağlandı ve İndus'un yukarı akışı Agra'nın denetimine girdi.", ic_not_d:"yer_id: Bakkar atlasın kayıtlarında yok; en yakın kayıtlı yerleşim Şikârpûr'dur.",
   kaynak:"sind (TDV): \"Ekber Şah tarafından önce 981'de (1573) merkezi Bakkar olan Yukarı Sind\"" },
 
 { t:"1591-01-01", b:"Aşağı Sind (Tatta) Bâbürlü topraklarına katıldı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis",
@@ -144,7 +144,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1752-01-01", b:"Sindî şairi Şah Abdüllatîf Bhitâî öldü", tur:"kultur", onem:5, dunya:2, kapsam:"ic",
   etiket:["edebiyat","tasavvuf"], yer_id:"",
-  d:"[Sind] Şah Cû Risâlo adlı divanıyla Sindî'yi bir edebiyat dili hâline getiren mutasavvıf şair, halk destanlarını tasavvufî bir dille yeniden yazdı. Sind kimliğinin bugün de en güçlü ortak zemini onun şiiridir — bir dilin klasiği, çoğu zaman bir devletten uzun yaşar. (yer_id boş: Bhit Şah atlasın yerleşim kayıtlarında yok.)",
+  d:"[Sind] Şah Cû Risâlo adlı divanıyla Sindî'yi bir edebiyat dili hâline getiren mutasavvıf şair, halk destanlarını tasavvufî bir dille yeniden yazdı. Sind kimliğinin bugün de en güçlü ortak zemini onun şiiridir — bir dilin klasiği, çoğu zaman bir devletten uzun yaşar.", ic_not_d:"yer_id boş: Bhit Şah atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı; dayanak: Annemarie Schimmel, Pearls from the Indus: Studies in Sindhi Culture" },
 
 { t:"1754-01-01", b:"Ahmed Şah Dürrânî Sind'i ele geçirdi", tur:"isgal", onem:4, dunya:3, kapsam:"dis",
@@ -164,7 +164,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1827-01-01", b:"Sindî şairi Sachal Sarmast öldü", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
   etiket:["edebiyat","tasavvuf"], yer_id:"",
-  d:"[Sind — Talpur] Yedi dilde şiir söylediği rivayet edilen mutasavvıf şair, vahdet-i vücûd düşüncesini halk diline taşıdı. Şah Abdüllatîf'ten sonra Sindî edebiyatının ikinci büyük adıdır. (yer_id boş: Daraza atlasın yerleşim kayıtlarında yok.)",
+  d:"[Sind — Talpur] Yedi dilde şiir söylediği rivayet edilen mutasavvıf şair, vahdet-i vücûd düşüncesini halk diline taşıdı. Şah Abdüllatîf'ten sonra Sindî edebiyatının ikinci büyük adıdır.", ic_not_d:"yer_id boş: Daraza atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı; dayanak: Annemarie Schimmel, Pearls from the Indus" },
 
 { t:"1839-02-01", b:"İngiliz kuvvetleri Karaçi'yi işgal etti", tur:"isgal", onem:4, dunya:3, kapsam:"dis",
@@ -187,9 +187,9 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // künye: nepal  ·  1281-01-01 → 1923-10-29  ·  642 yıl
 // ═══════════════════════════════════════════════════════════════════════════
 
-{ t:"1300-01-01", b:"Nepal, Alâeddin Halacî döneminde Delhi Sultanlığı'nın himayesine girdi", tur:"tabiiyet", onem:4, dunya:2, kapsam:"dis",
+{ t:"1300-01-01", b:"Nepal, Alâeddin Halacî döneminde Delhi Sultanlığı'nın himayesine girdi", gun:"Alâeddin Halacî devri (1296-1316)", tur:"tabiiyet", onem:4, dunya:2, kapsam:"dis",
   etiket:["tabiiyet","siyaset"], yer_id:"Katmandu",
-  d:"[Nepal — Malla] Kuzey Hindistan'ı birleştiren Halacî baskısı Himalaya eteklerine kadar ulaştı ve Katmandu vadisinin krallıkları Delhi'nin üstünlüğünü tanıdı. (TDV himayeyi Alâeddin'in saltanatına — 1296-1316 — bağlar, gün vermez; madde saltanatın ortasına yerleştirildi.)",
+  d:"[Nepal — Malla] Kuzey Hindistan'ı birleştiren Halacî baskısı Himalaya eteklerine kadar ulaştı ve Katmandu vadisinin krallıkları Delhi'nin üstünlüğünü tanıdı. Himaye Alâeddin'in saltanatı (1296-1316) içindedir; yılı kesin değildir.", ic_not_d:"TDV himayeyi Alâeddin'in saltanatına — 1296-1316 — bağlar, gün vermez; madde saltanatın ortasına yerleştirildi.",
   kaynak:"nepal (TDV): \"Nepal, Alâeddin Halacî zamanında (1296-1316) Delhi Sultanlığı'nın himayesine girdi\"" },
 
 { t:"1351-01-01", b:"Bengal Sultanı Şemseddin İlyas Şah Katmandu'yu ele geçirdi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
@@ -197,9 +197,9 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Nepal — Malla] Bengal ordusu Himalaya vadisine girip başşehri aldı ve zengin ganimetle döndü; Paşupatinâth başta olmak üzere vadinin tapınakları büyük zarar gördü. Nepal tarihinde 'İlyas Şah istilâsı' bir dönüm noktası sayılır — vadi ilk defa dışarıdan gelen bir orduyla yüzleşti. (TDV bu tarihi 752/1351 verir; Batı literatüründe 1349 da geçer.)",
   kaynak:"nepal (TDV): \"752 (1351) yılında Bengal Sultanı Şemseddin İlyas Şah, Nepal'e bir sefer düzenleyip Katmandu'yu ele geçirdi\"" },
 
-{ t:"1360-01-01", b:"Nepal, III. Fîrûz Şah Tuğluk'un hâkimiyetini kabul etti", tur:"tabiiyet", onem:3, dunya:2, kapsam:"dis",
+{ t:"1360-01-01", b:"Nepal, III. Fîrûz Şah Tuğluk'un hâkimiyetini kabul etti", gun:"III. Fîrûz Şah Tuğluk devri", tur:"tabiiyet", onem:3, dunya:2, kapsam:"dis",
   etiket:["tabiiyet"], yer_id:"Katmandu",
-  d:"[Nepal — Malla] Bengal istilâsının açtığı boşlukta vadi krallıkları Delhi'nin üstünlüğünü yeniden tanımak zorunda kaldı. Bağlılık uzaktan ve biçimseldi; Himalaya coğrafyası, hiçbir Hint imparatorluğunun burada kalıcı garnizon tutmasına izin vermedi. (TDV yıl vermiyor; madde Fîrûz Şah'ın saltanatının erken yıllarına yerleştirildi.)",
+  d:"[Nepal — Malla] Bengal istilâsının açtığı boşlukta vadi krallıkları Delhi'nin üstünlüğünü yeniden tanımak zorunda kaldı. Bağlılık uzaktan ve biçimseldi; Himalaya coğrafyası, hiçbir Hint imparatorluğunun burada kalıcı garnizon tutmasına izin vermedi.", ic_not_d:"TDV yıl vermiyor; madde Fîrûz Şah'ın saltanatının erken yıllarına yerleştirildi.",
   kaynak:"nepal (TDV): \"ancak bir süre sonra Delhi Sultanı III. Fîrûz Şah Tuğluk'un hâkimiyetini kabul etmek zorunda kaldı\"" },
 
 { t:"1382-01-01", b:"Cayasthiti Malla vadinin tek hükümdarı oldu", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
@@ -222,14 +222,14 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Nepal — Malla] Miras, oğullar arasında Katmandu, Patan ve Bhaktapur olarak paylaşıldı. Üç krallık üç asır boyunca birbiriyle çekişti; bu bölünme hem sanatta olağanüstü bir rekabet doğurdu hem de XVIII. yüzyılda Gorkha fethini mümkün kıldı.",
   kaynak:"nepal (TDV): \"Nepal XV. yüzyılda Katmandu, Bhaktapur ve Patan adlı üç bağımsız krallığa bölündü\"" },
 
-{ t:"1500-01-01", b:"Müslüman tüccarlar Katmandu'ya yerleşmeye başladı", tur:"sosyal", onem:3, dunya:1, kapsam:"ic",
+{ t:"1500-01-01", b:"Müslüman tüccarlar Katmandu'ya yerleşmeye başladı", gun:"XV. yüzyıl sonları", tur:"sosyal", onem:3, dunya:1, kapsam:"ic",
   etiket:["ticaret","din","goc"], yer_id:"Katmandu",
-  d:"[Nepal — Malla] Keşmir ve Kuzey Hindistan'dan gelen tüccarların ardından sûfîler de vadiye yerleşti; Nepal'in bugünkü küçük müslüman cemaatinin kökeni bu döneme iner. (TDV 'XV. yüzyıl sonları' der, yıl vermez; madde yüzyıl dönümüne yerleştirildi.)",
+  d:"[Nepal — Malla] Keşmir ve Kuzey Hindistan'dan gelen tüccarların ardından sûfîler de vadiye yerleşti; Nepal'in bugünkü küçük müslüman cemaatinin kökeni bu döneme iner.", ic_not_d:"TDV 'XV. yüzyıl sonları' der, yıl vermez; madde yüzyıl dönümüne yerleştirildi.",
   kaynak:"nepal (TDV): \"XV. yüzyıl sonlarında ilk olarak müslüman tüccarlar Katmandu'ya geldi, onların ardından sûfîler gelip bölgeye yerleşti\"" },
 
-{ t:"1600-01-01", b:"Bâbürlü etkisi Nepal sarayının kılık kıyafet ve âdetlerine girdi", tur:"kultur", onem:3, dunya:1, kapsam:"dis",
+{ t:"1600-01-01", b:"Bâbürlü etkisi Nepal sarayının kılık kıyafet ve âdetlerine girdi", gun:"XVI. yüzyıldan itibaren", tur:"kultur", onem:3, dunya:1, kapsam:"dis",
   etiket:["kultur","etkilesim"], yer_id:"Katmandu",
-  d:"[Nepal — Malla] Güneydeki büyük imparatorlukla artan temas, Malla saraylarında Bâbürlü giyim tarzını, saray protokolünü ve minyatür zevkini yaygınlaştırdı. Nepal, hiç fethedilmeden bir imparatorluğun kültür yörüngesine girdi. (TDV 'XVI. yüzyıldan itibaren' der, yıl vermez.)",
+  d:"[Nepal — Malla] Güneydeki büyük imparatorlukla artan temas, Malla saraylarında Bâbürlü giyim tarzını, saray protokolünü ve minyatür zevkini yaygınlaştırdı. Nepal, hiç fethedilmeden bir imparatorluğun kültür yörüngesine girdi.", ic_not_d:"TDV 'XVI. yüzyıldan itibaren' der, yıl vermez.",
   kaynak:"nepal (TDV): \"Nepal idarecileri günlük hayat tarzı ve kılık kıyafetlerinde Bâbürlüler'in etkisine girdi\"" },
 
 { t:"1641-01-01", b:"Pratap Malla Katmandu tahtına çıktı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
@@ -312,9 +312,9 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Nepal — Rana] Okul açmak, gazete çıkarmak ve kölelik reformuna girişmek isteyen başvezir, birkaç ay içinde aile içi bir darbeyle uzaklaştırıldı. Rana düzeninin kendi içinden gelen değişimi bile kaldıramadığı bu vaka, XX. yüzyıl başındaki durgunluğun sebebini açıklar.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, VI; John Whelpton, A History of Nepal" },
 
-{ t:"1923-10-29", b:"Nepal, İngiltere ile tam bağımsızlığını tanıyan antlaşmayı müzakere ediyordu", tur:"diplomasi", onem:5, dunya:3, kapsam:"dis",
+{ t:"1923-10-29", b:"Nepal, İngiltere ile tam bağımsızlığını tanıyan antlaşmayı müzakere ediyordu", gun:"1923", tur:"diplomasi", onem:5, dunya:3, kapsam:"dis",
   etiket:["diplomasi","bagimsizlik"], yer_id:"Katmandu",
-  d:"[Nepal — Rana] I. Dünya Savaşı'nda İngiltere'ye verilen asker desteğinin karşılığı olarak Nepal'in bağımsızlığını açıkça tanıyan antlaşma bu yıl içinde imzalandı (21 Aralık 1923). Krallık, Hint alt kıtasında hiç sömürgeleşmeden kalan tek büyük devlet olarak kaldı. (Atlasın ufku 29 Ekim 1923'te bittiği için madde bu güne yerleştirildi; antlaşmanın gerçek tarihi metinde açıkça yazılıdır.)",
+  d:"[Nepal — Rana] I. Dünya Savaşı'nda İngiltere'ye verilen asker desteğinin karşılığı olarak Nepal'in bağımsızlığını açıkça tanıyan antlaşma bu yıl içinde imzalandı (21 Aralık 1923). Krallık, Hint alt kıtasında hiç sömürgeleşmeden kalan tek büyük devlet olarak kaldı.", ic_not_d:"Atlasın ufku 29 Ekim 1923'te bittiği için madde bu güne yerleştirildi; antlaşmanın gerçek tarihi metinde açıkça yazılıdır.",
   kaynak:"nepal (TDV): \"Nepal I. Dünya Savaşı'nın ardından tam bağımsızlığını ilân etti (1923)\"" },
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -325,7 +325,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1301-07-11", b:"Alâeddin Halacî Ranthambor'u aldı; Hammîradeva öldürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","kusatma","toprak-kayip"], yer_id:"",
-  d:"[Racput — Çevhân] Bir yıl süren kuşatmanın ardından düşen Ranthambor, Delhi Sultanlığı'nın Racputana'ya ilk büyük darbesidir. Kale düşerken kadınların toplu olarak ateşe atlaması (cevher), Racput destan geleneğinin kurucu sahnelerinden biri oldu. (yer_id boş: Ranthambor atlasın yerleşim kayıtlarında yok.)",
+  d:"[Racput — Çevhân] Bir yıl süren kuşatmanın ardından düşen Ranthambor, Delhi Sultanlığı'nın Racputana'ya ilk büyük darbesidir. Kale düşerken kadınların toplu olarak ateşe atlaması (cevher), Racput destan geleneğinin kurucu sahnelerinden biri oldu.", ic_not_d:"yer_id boş: Ranthambor atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de Ranthambor maddesi yok. Dayanak: Peter Jackson, The Delhi Sultanate (Cambridge 1999); Cambridge History of India, III" },
 
 { t:"1303-08-26", b:"Çitor Kalesi Alâeddin Halacî'nin eline geçti", tur:"savas", onem:5, dunya:2, kapsam:"dis",
@@ -335,7 +335,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1311-01-01", b:"Calor'un düşmesiyle Racputana'nın batı direnişi kırıldı", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip"], yer_id:"",
-  d:"[Racput — Songara Çevhân] Kânhadadeva'nın Calor'daki direnişinin kırılmasıyla Delhi, Gucerât yolunu tamamen açtı. Racput beylikleri bundan sonra yaklaşık bir nesil boyunca doğrudan sultanlık idaresi altında kaldı. (yer_id boş: Calor atlasın kayıtlarında yok.)",
+  d:"[Racput — Songara Çevhân] Kânhadadeva'nın Calor'daki direnişinin kırılmasıyla Delhi, Gucerât yolunu tamamen açtı. Racput beylikleri bundan sonra yaklaşık bir nesil boyunca doğrudan sultanlık idaresi altında kaldı.", ic_not_d:"yer_id boş: Calor atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: Peter Jackson, a.g.e.; Cambridge History of India, III" },
 
 { t:"1326-01-01", b:"Hammîr Singh Çitor'u geri alarak Sisodiya hânedanını kurdu", tur:"kurulus", onem:5, dunya:2, kapsam:"ic",
@@ -345,7 +345,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1437-01-01", b:"Rânâ Kumbha, Mâlvâ sultanını Sârangpûr'da yendi", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","zafer"], yer_id:"Mandu (Mândû)",
-  d:"[Racput — Mevâr] Mevâr'ın en güçlü hükümdarı, Mâlvâ Sultanı Mahmûd Halacî'yi yenerek Racputana'nın önde gelen devleti hâline geldi. Zaferin anısına Çitor'da yükseltilen Vijaya Stambha (Zafer Kulesi), Racput mimarîsinin sembolü olacaktı. (yer_id: Sârangpûr kayıtlarda yok; Mâlvâ'nın merkezi Mandu alındı.)",
+  d:"[Racput — Mevâr] Mevâr'ın en güçlü hükümdarı, Mâlvâ Sultanı Mahmûd Halacî'yi yenerek Racputana'nın önde gelen devleti hâline geldi. Zaferin anısına Çitor'da yükseltilen Vijaya Stambha (Zafer Kulesi), Racput mimarîsinin sembolü olacaktı.", ic_not_d:"yer_id: Sârangpûr kayıtlarda yok; Mâlvâ'nın merkezi Mandu alındı.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, III; R. C. Majumdar (ed.), The Delhi Sultanate" },
 
 { t:"1448-01-01", b:"Çitor'da Vijaya Stambha (Zafer Kulesi) tamamlandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
@@ -360,7 +360,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1527-03-16", b:"Hânüvâ Meydan Savaşı: Bâbür, Rânâ Sangâ'yı bozguna uğrattı", tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","yenilgi","donum"], yer_id:"Bharatpûr",
-  d:"[Racput — Mevâr / Bâbürlü] Biyâne yakınlarındaki Hânüvâ'da toplanan Racput konfederasyonu, Bâbür'ün ateşli silah ve araba istihkâmına dayalı düzeni karşısında dağıldı. Pânîpet Delhi'yi verdi, Hânüvâ Hindistan'ı verdi: bu yenilgiden sonra Racput devletleri bir daha ortak bir imparatorluk iddiası taşıyamadı. (yer_id: Hânüvâ kayıtlarda yok; savaş alanı bugünkü Bharatpûr çevresindedir.)",
+  d:"[Racput — Mevâr / Bâbürlü] Biyâne yakınlarındaki Hânüvâ'da toplanan Racput konfederasyonu, Bâbür'ün ateşli silah ve araba istihkâmına dayalı düzeni karşısında dağıldı. Pânîpet Delhi'yi verdi, Hânüvâ Hindistan'ı verdi: bu yenilgiden sonra Racput devletleri bir daha ortak bir imparatorluk iddiası taşıyamadı. Savaş alanı bugünkü Bharatpûr çevresindedir.", ic_not_d:"yer_id: Hânüvâ kayıtlarda yok",
   kaynak:"babur (TDV): \"taraflar Biyâne yakınlarındaki Hânüvâ'da karşılaştılar\" ve \"Çitor Racası Rânâ Sangâ'ya karşı kazanılan zafer\"" },
 
 { t:"1535-01-01", b:"Gucerât Sultanı Bahadır Şah Çitor'u aldı; kalede ikinci cevher yaşandı", tur:"savas", onem:4, dunya:2, kapsam:"dis",
@@ -370,7 +370,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1562-01-01", b:"Amber Racası Bhâra Mel kızını Ekber Şah'a vererek Bâbürlü ittifakını kurdu", tur:"evlilik", onem:5, dunya:3, kapsam:"dis",
   etiket:["ittifak","evlilik","siyaset"], yer_id:"Caypûr (Jaipur)",
-  d:"[Racput — Amber / Bâbürlü] Kachvâhâ hânedanının itaat arzı ve akrabalık bağı, Bâbürlü idaresinde Hindulara üst düzey görev yolunu açtı. Bu tek evlilik, imparatorluğun sonraki yüz elli yılını taşıyacak Racput subay sınıfını doğurdu — Ekber'in en kalıcı siyasî buluşu bir savaş değil bir akrabalıktı. (yer_id: Amber, Caypûr'un hemen kuzeyindedir; şehir 1727'de buraya taşındı.)",
+  d:"[Racput — Amber / Bâbürlü] Kachvâhâ hânedanının itaat arzı ve akrabalık bağı, Bâbürlü idaresinde Hindulara üst düzey görev yolunu açtı. Bu tek evlilik, imparatorluğun sonraki yüz elli yılını taşıyacak Racput subay sınıfını doğurdu — Ekber'in en kalıcı siyasî buluşu bir savaş değil bir akrabalıktı. (Amber, Caypûr'un hemen kuzeyindedir; şehir 1727'de buraya taşındı.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"ekber-sah (TDV): \"Câypûr Racası Bhar Mel 1562'de Ekber Şah'a itaat arzederek kızını ona verdi. Böylece Racpût tesiri Bâbürlü sarayında nüfuz kazandı\"" },
 
 { t:"1568-02-23", b:"Ekber Şah Çitor'u fethetti", tur:"savas", onem:5, dunya:2, kapsam:"dis",
@@ -385,7 +385,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1576-06-18", b:"Haldigâtî Muharebesi: Mahârânâ Pratap ile Bâbürlü ordusu çarpıştı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","direnis"], yer_id:"Udeypûr (Udaipur)",
-  d:"[Racput — Mevâr / Bâbürlü] Ekber'in Racput kumandanı Man Singh'in yönettiği ordu ile Mahârânâ Pratap'ın kuvvetleri dar bir dağ geçidinde karşılaştı. Muharebe Bâbürlü lehine bitse de Pratap ele geçirilemedi ve dağlarda yirmi yıl süren bir gerilla direnişi başlattı — Racputların Racputlarla savaştığı bu meydan, imparatorluğun hem gücünün hem çelişkisinin resmidir. (yer_id: Haldigâtî geçidi Udeypûr'un kuzeyindedir.)",
+  d:"[Racput — Mevâr / Bâbürlü] Ekber'in Racput kumandanı Man Singh'in yönettiği ordu ile Mahârânâ Pratap'ın kuvvetleri dar bir dağ geçidinde karşılaştı. Muharebe Bâbürlü lehine bitse de Pratap ele geçirilemedi ve dağlarda yirmi yıl süren bir gerilla direnişi başlattı — Racputların Racputlarla savaştığı bu meydan, imparatorluğun hem gücünün hem çelişkisinin resmidir. (Haldigâtî geçidi Udeypûr'un kuzeyindedir.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — TDV `ekber-sah` maddesi muharebeyi anmıyor. Dayanak: Cambridge History of India, IV; Satish Chandra, Medieval India" },
 
 { t:"1597-01-19", b:"Mahârânâ Pratap öldü", tur:"olum", onem:5, dunya:2, kapsam:"ic",
@@ -395,7 +395,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1605-01-01", b:"Çâvend'de Râgamâlâ dizisi resmedildi; Mevâr minyatür ekolü doğdu", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["kultur","minyatur"], yer_id:"Udeypûr (Udaipur)",
-  d:"[Racput — Mevâr] Ressam Nisârüddin'in Çâvend'de tamamladığı Râgamâlâ albümü, tarihi kesin olarak bilinen ilk Racput minyatür dizisidir. Bâbürlü sarayının İran etkisindeki üslûbundan ayrı, parlak renkli ve halk anlatısına yakın bir resim dili burada kuruldu. (yer_id: Çâvend, Udeypûr yakınlarındaki geçici başşehirdir.)",
+  d:"[Racput — Mevâr] Ressam Nisârüddin'in Çâvend'de tamamladığı Râgamâlâ albümü, tarihi kesin olarak bilinen ilk Racput minyatür dizisidir. Bâbürlü sarayının İran etkisindeki üslûbundan ayrı, parlak renkli ve halk anlatısına yakın bir resim dili burada kuruldu. (Çâvend, Udeypûr yakınlarındaki geçici başşehirdir.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, IV; B. N. Goswamy, Indian painting üzerine standart çalışmaları" },
 
 { t:"1615-02-05", b:"Mevâr, Cihangir'le antlaşma yaparak Bâbürlü üstünlüğünü kabul etti", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
@@ -450,7 +450,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1734-07-17", b:"Hurda Konferansı: Racput devletleri Maratha baskısına karşı birleşme kararı aldı", tur:"diplomasi", onem:4, dunya:2, kapsam:"ic",
   etiket:["ittifak","diplomasi"], yer_id:"Ecmîr (Ajmer)",
-  d:"[Racput] Maratha akınlarının Racputana'ya yayılması üzerine bütün racalar bir araya geldi ve ortak savunma sözü verdi. Karar kâğıt üstünde kaldı; birkaç yıl içinde devletler ayrı ayrı Marathalarla anlaşmayı tercih etti. (yer_id: Hurda, Ecmîr'in güneyindedir.)",
+  d:"[Racput] Maratha akınlarının Racputana'ya yayılması üzerine bütün racalar bir araya geldi ve ortak savunma sözü verdi. Karar kâğıt üstünde kaldı; birkaç yıl içinde devletler ayrı ayrı Marathalarla anlaşmayı tercih etti. (Hurda, Ecmîr'in güneyindedir.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: Satish Chandra, Parties and Politics at the Mughal Court; Cambridge History of India, IV" },
 
 { t:"1818-01-06", b:"Mevâr İngilizler'le tâbilik antlaşması imzaladı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
@@ -485,7 +485,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1600-01-01", b:"Skardu emîri Ali Mîr Şîr Han Ladakh'ı yendi; Camyang Namgyal esir düştü", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","yenilgi","evlilik"], yer_id:"",
-  d:"[Ladakh — Namgyal] Baltistan'ın müslüman emîri Ladakh'ı istilâ etti; barış, kralın emîrin kızı Gyal Hatun ile evlenmesiyle kuruldu. Bu evlilikten doğan Senge Namgyal, hem Budist bir kralın oğlu hem müslüman bir emîrin torunuydu — ve Ladakh'ın en büyük hükümdarı olacaktı. (yer_id boş: Skardu atlasın kayıtlarında yok.)",
+  d:"[Ladakh — Namgyal] Baltistan'ın müslüman emîri Ladakh'ı istilâ etti; barış, kralın emîrin kızı Gyal Hatun ile evlenmesiyle kuruldu. Bu evlilikten doğan Senge Namgyal, hem Budist bir kralın oğlu hem müslüman bir emîrin torunuydu — ve Ladakh'ın en büyük hükümdarı olacaktı.", ic_not_d:"yer_id boş: Skardu atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: L. Petech, The Kingdom of Ladakh; A. H. Francke, Antiquities of Indian Tibet" },
 
 { t:"1616-01-01", b:"Senge Namgyal tahta çıktı", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
@@ -510,7 +510,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1683-01-01", b:"Bâbürlü yardımı Basgo kuşatmasını kaldırdı", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","ittifak"], yer_id:"Leh (Ladakh)",
-  d:"[Ladakh — Namgyal / Bâbürlü] Üç yıl kuşatılan Basgo Kalesi, Keşmir'den gelen Bâbürlü kuvvetleriyle kurtarıldı. Yardımın bedeli ağırdı: Ladakh, Leh'te cuma camii yaptırmayı, Bâbürlü sikkesi kullanmayı ve Keşmir'e yıllık vergi ödemeyi kabul etti. (yer_id: Basgo, Leh'in batısındadır.)",
+  d:"[Ladakh — Namgyal / Bâbürlü] Üç yıl kuşatılan Basgo Kalesi, Keşmir'den gelen Bâbürlü kuvvetleriyle kurtarıldı. Yardımın bedeli ağırdı: Ladakh, Leh'te cuma camii yaptırmayı, Bâbürlü sikkesi kullanmayı ve Keşmir'e yıllık vergi ödemeyi kabul etti. (Basgo, Leh'in batısındadır.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: L. Petech, a.g.e.; Cambridge History of India, IV" },
 
 { t:"1684-01-01", b:"Tingmosgang Antlaşması Ladakh-Tibet sınırını çizdi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
@@ -535,7 +535,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1312-01-01", b:"Ravi Varma Kulaşekhara Kançi'de imparatorluk tacını giydi", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis",
   etiket:["fetih","toren"], yer_id:"",
-  d:"[Travankur — Venâd] Pândya taht kavgasından yararlanan Venâd kralı Madurai'yi ve ardından Kançipuram'ı aldı; kendini bütün Güney Hindistan'ın hükümdarı ilân etti. Zafer kalıcı olmadı — birkaç yıl içinde Delhi Sultanlığı'nın Dekken seferleri bölgenin bütün dengelerini alt üst etti. (yer_id boş: Kançipuram atlasın yerleşim kayıtlarında yok.)",
+  d:"[Travankur — Venâd] Pândya taht kavgasından yararlanan Venâd kralı Madurai'yi ve ardından Kançipuram'ı aldı; kendini bütün Güney Hindistan'ın hükümdarı ilân etti. Zafer kalıcı olmadı — birkaç yıl içinde Delhi Sultanlığı'nın Dekken seferleri bölgenin bütün dengelerini alt üst etti.", ic_not_d:"yer_id boş: Kançipuram atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: K. A. Nilakanta Sastri, A History of South India; A. Sreedhara Menon, a.g.e." },
 
 { t:"1503-01-01", b:"Portekizliler Kolam'da ticaret merkezi kurdu", tur:"ekonomi", onem:4, dunya:3, kapsam:"dis",
@@ -555,7 +555,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1741-08-10", b:"Kolaçel Muharebesi: Travankur, Hollanda Doğu Hindistan Şirketi'ni yendi", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","zafer","somurge"], yer_id:"",
-  d:"[Travankur] Marthanda Varma'nın ordusu, Hollanda çıkarma kuvvetini sahilde bozguna uğrattı ve kumandan De Lannoy dahil çok sayıda esir aldı. Bir Asya devletinin bir Avrupa sömürge şirketini açık muharebede yenmesi nâdirdi; Hollanda'nın Malabar'daki yayılması bu günden sonra durdu. (yer_id boş: Kolaçel atlasın kayıtlarında yok.)",
+  d:"[Travankur] Marthanda Varma'nın ordusu, Hollanda çıkarma kuvvetini sahilde bozguna uğrattı ve kumandan De Lannoy dahil çok sayıda esir aldı. Bir Asya devletinin bir Avrupa sömürge şirketini açık muharebede yenmesi nâdirdi; Hollanda'nın Malabar'daki yayılması bu günden sonra durdu.", ic_not_d:"yer_id boş: Kolaçel atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, a.g.e.; Cambridge History of India, V" },
 
 { t:"1745-01-01", b:"De Lannoy Travankur ordusunu Avrupa usulünde yeniden düzenledi", tur:"askeri", onem:4, dunya:2, kapsam:"ic",
@@ -570,7 +570,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1789-12-29", b:"Tipu Sultan'ın ordusu Nedumkotta hattına saldırdı", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","savunma"], yer_id:"Koçin (Kochi)",
-  d:"[Travankur / Meysûr] Travankur'un kuzey sınırındaki uzun toprak-sur hattına yapılan gece saldırısı püskürtüldü ve Tipu'nun kendisi yaralanarak geri çekildi. Saldırı, İngilizler'in müttefiki sayılan Travankur'a yapıldığı için Üçüncü Meysûr Savaşı'nın doğrudan sebebi oldu. (yer_id: Nedumkotta hattı Koçin sınırı boyunca uzanıyordu.)",
+  d:"[Travankur / Meysûr] Travankur'un kuzey sınırındaki uzun toprak-sur hattına yapılan gece saldırısı püskürtüldü ve Tipu'nun kendisi yaralanarak geri çekildi. Saldırı, İngilizler'in müttefiki sayılan Travankur'a yapıldığı için Üçüncü Meysûr Savaşı'nın doğrudan sebebi oldu. (Nedumkotta hattı Koçin sınırı boyunca uzanıyordu.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"meysur ilgili TDV maddesi bulunamadı; dayanak: A. Sreedhara Menon, a.g.e.; Cambridge History of India, V" },
 
 { t:"1805-01-01", b:"Travankur İngilizler'le tâbilik antlaşması imzaladı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
@@ -580,7 +580,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1809-01-11", b:"Velu Thampi Dalavâ Kundara Bildirisi'ni okuyarak İngilizler'e karşı ayaklandı", tur:"isyan", onem:5, dunya:2, kapsam:"dis",
   etiket:["isyan","direnis"], yer_id:"Kolam (Quilon)",
-  d:"[Travankur] Başbakan Velu Thampi, halkı İngiliz mukiminin idaresine karşı silâhlanmaya çağıran bildiriyi ilân etti. Ayaklanma birkaç ay içinde bastırıldı ve Velu Thampi hayatına son verdi; Travankur'un iç muhtariyeti daha da daraldı. (yer_id: Kundara, Kolam yakınlarındadır.)",
+  d:"[Travankur] Başbakan Velu Thampi, halkı İngiliz mukiminin idaresine karşı silâhlanmaya çağıran bildiriyi ilân etti. Ayaklanma birkaç ay içinde bastırıldı ve Velu Thampi hayatına son verdi; Travankur'un iç muhtariyeti daha da daraldı. (Kundara, Kolam yakınlarındadır.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Cambridge History of India, V" },
 
 { t:"1817-06-01", b:"Rani Gouri Parvati Bai eğitim fermanını ilân etti", tur:"idari", onem:5, dunya:3, kapsam:"ic",
@@ -620,7 +620,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1470-01-01", b:"Manipûr ile Pong (Şan) krallığı Kyang Khampat'ı birlikte aldı", tur:"ittifak", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","ittifak"], yer_id:"",
-  d:"[Manipûr — Ningthouca] Meitei ordusu Şan müttefikiyle Kabav vadisine yürüdü; ganimet olarak getirilen Vişnu heykeli, Manipûr'da Hindu tapınmasının ilk resmî izi sayılır. Askerî bir sefer, bölgenin din tarihini de değiştirdi. (yer_id boş: Kyang Khampat atlasın kayıtlarında yok.)",
+  d:"[Manipûr — Ningthouca] Meitei ordusu Şan müttefikiyle Kabav vadisine yürüdü; ganimet olarak getirilen Vişnu heykeli, Manipûr'da Hindu tapınmasının ilk resmî izi sayılır. Askerî bir sefer, bölgenin din tarihini de değiştirdi.", ic_not_d:"yer_id boş: Kyang Khampat atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: Gangmumei Kamei, A History of Manipur; Çeitharol Kumbaba" },
 
 { t:"1606-01-01", b:"Khagemba doğudan gelen istilâyı püskürttü; müslüman esirler vadiye yerleştirildi", tur:"savas", onem:5, dunya:2, kapsam:"dis",
@@ -665,7 +665,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1834-01-01", b:"Kabav vadisi İngiliz hakemliğiyle Burma'ya bırakıldı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["sinir","toprak-kayip"], yer_id:"",
-  d:"[Manipûr — Ningthouca] Manipûr'un doğusundaki verimli vadi, İngiliz hakemliğiyle Burma'ya devredildi ve karşılığında krallığa yıllık ödeme bağlandı. Sınır çizen tarafın kendisi olmadığı bir kararla toprak kaybetmek, tâbi devlet olmanın bedeliydi. (yer_id boş: Kabav vadisi atlasın kayıtlarında yok.)",
+  d:"[Manipûr — Ningthouca] Manipûr'un doğusundaki verimli vadi, İngiliz hakemliğiyle Burma'ya devredildi ve karşılığında krallığa yıllık ödeme bağlandı. Sınır çizen tarafın kendisi olmadığı bir kararla toprak kaybetmek, tâbi devlet olmanın bedeliydi.", ic_not_d:"yer_id boş: Kabav vadisi atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: C. U. Aitchison, a.g.e.; Gangmumei Kamei, A History of Manipur" },
 
 { t:"1891-03-24", b:"Saray darbesi İngiliz müdahalesini tetikledi", tur:"kriz", onem:4, dunya:2, kapsam:"ic",
@@ -675,7 +675,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1891-04-23", b:"Khongcom Muharebesi: Manipûr direnişi kırıldı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","yenilgi","son"], yer_id:"İmphâl (Manipûr)",
-  d:"[Manipûr — Ningthouca] Paona Bricabâşî kumandasındaki Meitei kuvvetleri, üç koldan gelen İngiliz ordusuna Khongcom tepesinde karşı koydu ve son askere kadar direndi. Yenilgiyle krallığın bağımsızlığı sona erdi; Manipûr, İngiliz himayesinde bir prensliğe dönüştürüldü. (yer_id: Khongcom, İmphâl'in güneydoğusundadır.)",
+  d:"[Manipûr — Ningthouca] Paona Bricabâşî kumandasındaki Meitei kuvvetleri, üç koldan gelen İngiliz ordusuna Khongcom tepesinde karşı koydu ve son askere kadar direndi. Yenilgiyle krallığın bağımsızlığı sona erdi; Manipûr, İngiliz himayesinde bir prensliğe dönüştürüldü. (Khongcom, İmphâl'in güneydoğusundadır.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: Gangmumei Kamei, a.g.e.; Cambridge History of India, VI" },
 
 { t:"1891-08-13", b:"Tikendracît Singh ve Thangal General idam edildi", tur:"olum", onem:4, dunya:2, kapsam:"dis",
@@ -742,7 +742,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1760-01-01", b:"Kişangarh ekolünde Bani Thani üslûbu doğdu", tur:"kultur", onem:3, dunya:2, kapsam:"ic",
   etiket:["kultur","minyatur"], yer_id:"Ecmîr (Ajmer)",
-  d:"[Racput — Kişangarh] Uzun boyun, keskin burun ve badem gözle tanınan üslûp, Racput minyatürünün en özgün dalını oluşturdu. Bâbürlü sarayının çöküşüyle başkentten dağılan ressamların taşra saraylarında bulduğu himaye, Hint resminde bir merkezsizleşme ve çeşitlenme dönemi başlattı. (yer_id: Kişangarh, Ecmîr'in kuzeyindedir.)",
+  d:"[Racput — Kişangarh] Uzun boyun, keskin burun ve badem gözle tanınan üslûp, Racput minyatürünün en özgün dalını oluşturdu. Bâbürlü sarayının çöküşüyle başkentten dağılan ressamların taşra saraylarında bulduğu himaye, Hint resminde bir merkezsizleşme ve çeşitlenme dönemi başlattı. (Kişangarh, Ecmîr'in kuzeyindedir.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: B. N. Goswamy, Indian painting üzerine çalışmaları; Cambridge History of India, IV" },
 
 { t:"1868-01-01", b:"Racputana'da büyük kıtlık yaşandı", tur:"sosyal", onem:4, dunya:2, kapsam:"ic",
@@ -766,7 +766,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1702-01-01", b:"Bhaktapur'da Nyatapola Tapınağı tamamlandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["mimari","tapinak","kultur","imar"], yer_id:"Katmandu",
-  d:"[Nepal — Malla] Bhupatindra Malla'nın yaptırdığı beş katlı pagoda, vadinin en yüksek yapısıdır ve yüzyıllar boyunca depremlerde ayakta kaldı. Malla krallıklarının birbiriyle yarıştığı alan savaş kadar mimarîydi; her başşehir ötekinden daha görkemli bir meydan kurmaya çalıştı. (yer_id: Bhaktapur, Katmandu vadisindedir.)",
+  d:"[Nepal — Malla] Bhupatindra Malla'nın yaptırdığı beş katlı pagoda, vadinin en yüksek yapısıdır ve yüzyıllar boyunca depremlerde ayakta kaldı. Malla krallıklarının birbiriyle yarıştığı alan savaş kadar mimarîydi; her başşehir ötekinden daha görkemli bir meydan kurmaya çalıştı. (Bhaktapur, Katmandu vadisindedir.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: M. Slusser, Nepal Mandala: A Cultural Study of the Kathmandu Valley; D. R. Regmi, Medieval Nepal" },
 
 { t:"1854-06-01", b:"Durbar Okulu açıldı: Nepal'de modern eğitimin başlangıcı", tur:"idari", onem:4, dunya:2, kapsam:"ic",
@@ -798,12 +798,12 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1601-01-01", b:"Padmanâbhapuram Sarayı'nın ahşap yapıları yükseldi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["mimari","saray","kultur","imar"], yer_id:"Trivandrum (Thiruvananthapuram)",
-  d:"[Travankur — Venâd] Muson yağmurlarına göre tasarlanmış, taş temel üzerine tamamen ahşaptan kurulan saray, Kerala mimarîsinin en büyük örneğidir. Eğimli çatılar, oyma tavanlar ve doğal havalandırma, iklimin mimarîyi nasıl belirlediğinin ders kitabı örneğidir. (yer_id: Padmanâbhapuram, Trivandrum'un güneyindedir.)",
+  d:"[Travankur — Venâd] Muson yağmurlarına göre tasarlanmış, taş temel üzerine tamamen ahşaptan kurulan saray, Kerala mimarîsinin en büyük örneğidir. Eğimli çatılar, oyma tavanlar ve doğal havalandırma, iklimin mimarîyi nasıl belirlediğinin ders kitabı örneğidir. (Padmanâbhapuram, Trivandrum'un güneyindedir.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Percy Brown, Indian Architecture (Hindu dönemi)" },
 
 { t:"1650-01-01", b:"Kottârakkara'da Râmanâttam doğdu: Kathakali'nin başlangıcı", tur:"kultur", onem:5, dunya:3, kapsam:"ic",
   etiket:["kultur","tiyatro","dans"], yer_id:"Kolam (Quilon)",
-  d:"[Travankur — Venâd] Kottârakkara racasının Râmâyana'yı sahnelemek için geliştirdiği oyun biçimi, yüz boyama, el işaretleri (mudra) ve davul eşliğiyle Kathakali'ye dönüştü. Hindistan'ın en tanınan klasik tiyatro geleneklerinden biri, bir taşra sarayının kültürel rekabetinden doğdu. (yer_id: Kottârakkara, Kolam'ın doğusundadır.)",
+  d:"[Travankur — Venâd] Kottârakkara racasının Râmâyana'yı sahnelemek için geliştirdiği oyun biçimi, yüz boyama, el işaretleri (mudra) ve davul eşliğiyle Kathakali'ye dönüştü. Hindistan'ın en tanınan klasik tiyatro geleneklerinden biri, bir taşra sarayının kültürel rekabetinden doğdu. (Kottârakkara, Kolam'ın doğusundadır.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Farley Richmond v.dğr., Indian Theatre: Traditions of Performance" },
 
 { t:"1813-01-01", b:"Travankur'da çiçek aşısı uygulaması başladı", tur:"bilim", onem:4, dunya:3, kapsam:"ic",
@@ -813,7 +813,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { t:"1821-10-01", b:"Kottayam'da matbaa kuruldu; Malayalam basılı kitapla tanıştı", tur:"kultur", onem:5, dunya:3, kapsam:"ic",
   etiket:["matbaa","dil","egitim","imar","islahat"], yer_id:"Koçin (Kochi)",
-  d:"[Travankur] Misyoner Benjamin Bailey'nin döktüğü Malayalam harfleriyle çalışan matbaa, dilin ilk sözlüğünü ve okul kitaplarını bastı. Basılı Malayalam, Kerala'nın yüksek okuryazarlık geleneğinin teknik temeli oldu. (yer_id: Kottayam, Koçin'in güneydoğusundadır.)",
+  d:"[Travankur] Misyoner Benjamin Bailey'nin döktüğü Malayalam harfleriyle çalışan matbaa, dilin ilk sözlüğünü ve okul kitaplarını bastı. Basılı Malayalam, Kerala'nın yüksek okuryazarlık geleneğinin teknik temeli oldu. (Kottayam, Koçin'in güneydoğusundadır.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — dayanak: Robin Jeffrey, a.g.e.; A. Sreedhara Menon, A Survey of Kerala History" },
 
 { t:"1837-01-01", b:"Trivandrum Rasathanesi kuruldu", tur:"bilim", onem:4, dunya:3, kapsam:"ic",

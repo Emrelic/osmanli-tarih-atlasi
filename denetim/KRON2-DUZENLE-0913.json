@@ -1,0 +1,2371 @@
+{
+ "aciklama": "PAKET-KRON2 · 13 Eylül 2026 · uygulayıcı: denetim/ARAC-KRON2-UYGULA-0913.py",
+ "kayitlar": [
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "HASAN PADİŞAH KANUNLARI",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak kanunnâmenin çıkarılış yılını vermiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı. Bu bir TERCİHTİR, ölçüm değildir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak kanunnâmenin çıkarılış yılını vermiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı. Bu bir TERCİHTİR, ölçüm değildir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "HASAN PADİŞAH KANUNLARI",
+   "islem": "gun_ekle",
+   "deger": "Uzun Hasan devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "'Hasanbegî' sikkesi bastırıldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak basım yılını vermiyor; madde iktidara geliş tarihine bağlandı, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak basım yılını vermiyor; madde iktidara geliş tarihine bağlandı, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "'Hasanbegî' sikkesi bastırıldı",
+   "islem": "gun_ekle",
+   "deger": "Uzun Hasan devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Bayındır damgası devlet arması yapıldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; iktidara geliş tarihine bağlandı, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak yıl vermiyor; iktidara geliş tarihine bağlandı, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Bayındır damgası devlet arması yapıldı",
+   "islem": "gun_ekle",
+   "deger": "Uzun Hasan devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Uzun Hasan'ın haftalık ilim meclisleri",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: himayenin yılı kaynakta verilmiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: himayenin yılı kaynakta verilmiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Uzun Hasan'ın haftalık ilim meclisleri",
+   "islem": "gun_ekle",
+   "deger": "Uzun Hasan devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Cami, medrese, zâviye ve kervansaray imar programı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak tek tek yapıların tarihini vermiyor; imar programı iktidara geliş tarihine bağlandı, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak tek tek yapıların tarihini vermiyor; imar programı iktidara geliş tarihine bağlandı, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Cami, medrese, zâviye ve kervansaray imar programı",
+   "islem": "gun_ekle",
+   "deger": "Uzun Hasan devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "TÜRKMEN MİNYATÜR MEKTEBİ",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak tek bir yıl vermiyor; madde Yâkub Bey'in cülûsuna bağlandı, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak tek bir yıl vermiyor; madde Yâkub Bey'in cülûsuna bağlandı, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "TÜRKMEN MİNYATÜR MEKTEBİ",
+   "islem": "gun_ekle",
+   "deger": "Yâkub Bey devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Yâkub Bey'in Türkçe ve Farsça şiirleri",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; cülûs tarihine bağlandı, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak yıl vermiyor; cülûs tarihine bağlandı, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Yâkub Bey'in Türkçe ve Farsça şiirleri",
+   "islem": "gun_ekle",
+   "deger": "Yâkub Bey devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Gökmescid'in tamamlanması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: tamamlanma yılı kaynakta verilmiyor, yalnız 'Yâkub Bey devrinde' deniyor; madde cülûs tarihine bağlandı, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: tamamlanma yılı kaynakta verilmiyor, yalnız 'Yâkub Bey devrinde' deniyor; madde cülûs tarihine bağlandı, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Gökmescid'in tamamlanması",
+   "islem": "gun_ekle",
+   "deger": "Yâkub Bey devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Nasriyye bahçesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ Nasriyye bahçesinin atlas verisinde ayrı bir kaydı yoktur; `yer_id` şehre verildi.",
+   "yeni": "",
+   "not": "Nasriyye bahçesinin atlas verisinde ayrı bir kaydı yoktur; `yer_id` şehre verildi.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_akkoyunlu.js",
+   "b": "Çekim, Âmid önünde mağlûp edildi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "; künye de başkenti 'Diyarbekir → Tebriz' diye kaydeder.",
+   "yeni": ".",
+   "not": "künye de başkenti 'Diyarbekir → Tebriz' diye kaydeder.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_altinorda.js",
+   "b": "İlk fetret devri sürüyor",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Atlasın zaman çizgisi bu dosyada 1281'de başladığı için devlet sahneye tam bu buhranın içinde girer.",
+   "yeni": "",
+   "not": "Atlasın zaman çizgisi bu dosyada 1281'de başladığı için devlet sahneye tam bu buhranın içinde girer.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_altinorda.js",
+   "b": "Özbek Han İlhanlı hükümdarı Olcaytu'ya elçi gönderdi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " yer_id boş: elçiliğin ulaştığı İlhanlı ordugâhı kayıtlarda tek bir yerleşime bağlanmıyor.",
+   "yeni": "",
+   "not": "yer_id boş: elçiliğin ulaştığı İlhanlı ordugâhı kayıtlarda tek bir yerleşime bağlanmıyor.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_altinorda.js",
+   "b": "Altın Orda kuvvetleri Trakya'yı yağmaladı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " yer_id boş: kaynak tek bir şehir adı vermiyor, bölge adı veriyor.",
+   "yeni": "",
+   "not": "yer_id boş: kaynak tek bir şehir adı vermiyor, bölge adı veriyor.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "b": "Nikšić, Podgorica ve Bar alındı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Yerel atlas kaydı Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.",
+   "yeni": "",
+   "not": "Yerel atlas kaydı Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "b": "Bulgar (Tırnova) Patrikliği kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Gün TDV'de ve standart akademik kaynakta verilmiyor, YYYY-01-01.",
+   "yeni": "",
+   "not": "Gün TDV'de ve standart akademik kaynakta verilmiyor, YYYY-01-01.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "b": "Evtimiy Tırnova Patrikliği'ne getirildi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Gün akademik kaynakta net değil, YYYY-01-01.",
+   "yeni": "",
+   "not": "Gün akademik kaynakta net değil, YYYY-01-01.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "b": "Chiprovtsi (Kiprovça) İsyanı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Gün kesin değil, ay YYYY-09-01 olarak işaretlendi.",
+   "yeni": "",
+   "not": "Gün kesin değil, ay YYYY-09-01 olarak işaretlendi.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "b": "Chiprovtsi (Kiprovça) İsyanı",
+   "islem": "gun_ekle",
+   "deger": "Eylül 1688",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_balkan.js",
+   "b": "Paisiy Hilendarski 'Slav-Bulgar Tarihi'ni yazdı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Gün belirtilmiyor, YYYY-01-01.",
+   "yeni": "",
+   "not": "Gün belirtilmiyor, YYYY-01-01.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_bizans.js",
+   "b": "Georgios Gemistos Plethon Mistra'da ders vermeye başladı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Mistra'nın yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
+   "yeni": "",
+   "not": "Mistra'nın yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Dehlek adasının Habeşistan'a bağlanması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Dehlek atlasta yerleşim noktası olarak KAYITLI DEĞİL — yer_id boş bırakıldı.)",
+   "yeni": "",
+   "not": "Dehlek atlasta yerleşim noktası olarak KAYITLI DEĞİL — yer_id boş bırakıldı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Şimbra Kure Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Wayna Daga Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Vebi nehri bozgunu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Merkezin Aussa'ya nakli",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Aussa atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Aussa atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Şeleneko Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Şeleneko atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Şeleneko atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Debârvâ'nın alınması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Debârvâ atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Debârvâ atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Enderta Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Enderta atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Enderta atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Addi Karro Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Addi Karro atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Addi Karro atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Dehlek adalarının İtalya tarafından işgali",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Adva Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Adva atlasta yerleşim olarak KAYITLI DEĞİL — en önemli yer_id eksiği.)",
+   "yeni": "",
+   "not": "Adva atlasta yerleşim olarak KAYITLI DEĞİL — en önemli yer_id eksiği.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Portekizlilerin Dehlek'e çıkışı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Fransa'nın Ubûk'u (Obock) sömürge ilân etmesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Obock atlasta yerleşim olarak KAYITLI DEĞİL; en yakın kayıtlı nokta Tacûra kullanıldı.)",
+   "yeni": "",
+   "not": "Obock atlasta yerleşim olarak KAYITLI DEĞİL; en yakın kayıtlı nokta Tacûra kullanıldı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_dogu_afrika.js",
+   "b": "Toro Krallığı'nın Bunyoro'dan ayrılması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Toro atlasta yerleşim olarak KAYITLI DEĞİL.)",
+   "yeni": "",
+   "not": "Toro atlasta yerleşim olarak KAYITLI DEĞİL.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Ekber Şah, Sind'deki Ömerkût Kalesi'nde doğdu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Ömerkût atlasın yerleşim kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Ömerkût atlasın yerleşim kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Ekber Şah, merkezi Bakkar olan Yukarı Sind'i",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id: Bakkar atlasın kayıtlarında yok; en yakın kayıtlı yerleşim Şikârpûr'dur.)",
+   "yeni": "",
+   "not": "yer_id: Bakkar atlasın kayıtlarında yok; en yakın kayıtlı yerleşim Şikârpûr'dur.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Sindî şairi Şah Abdüllatîf Bhitâî öldü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Bhit Şah atlasın yerleşim kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Bhit Şah atlasın yerleşim kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Sindî şairi Sachal Sarmast öldü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Daraza atlasın yerleşim kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Daraza atlasın yerleşim kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Alâeddin Halacî Ranthambor'u aldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Ranthambor atlasın yerleşim kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Ranthambor atlasın yerleşim kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Calor'un düşmesiyle Racputana'nın batı direnişi kırıldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Calor atlasın kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Calor atlasın kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Skardu emîri Ali Mîr Şîr Han Ladakh'ı yendi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Skardu atlasın kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Skardu atlasın kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Ravi Varma Kulaşekhara Kançi'de imparatorluk tacını giydi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Kançipuram atlasın yerleşim kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Kançipuram atlasın yerleşim kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Kolaçel Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Kolaçel atlasın kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Kolaçel atlasın kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Manipûr ile Pong (Şan) krallığı Kyang Khampat'ı birlikte aldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Kyang Khampat atlasın kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Kyang Khampat atlasın kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Kabav vadisi İngiliz hakemliğiyle Burma'ya bırakıldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id boş: Kabav vadisi atlasın kayıtlarında yok.)",
+   "yeni": "",
+   "not": "yer_id boş: Kabav vadisi atlasın kayıtlarında yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Rânâ Kumbha, Mâlvâ sultanını Sârangpûr'da yendi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id: Sârangpûr kayıtlarda yok; Mâlvâ'nın merkezi Mandu alındı.)",
+   "yeni": "",
+   "not": "yer_id: Sârangpûr kayıtlarda yok; Mâlvâ'nın merkezi Mandu alındı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Hânüvâ Meydan Savaşı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (yer_id: Hânüvâ kayıtlarda yok; savaş alanı bugünkü Bharatpûr çevresindedir.)",
+   "yeni": " Savaş alanı bugünkü Bharatpûr çevresindedir.",
+   "not": "yer_id: Hânüvâ kayıtlarda yok",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Amber Racası Bhâra Mel",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Haldigâtî Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Çâvend'de Râgamâlâ dizisi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Hurda Konferansı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Bâbürlü yardımı Basgo kuşatmasını kaldırdı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Tipu Sultan'ın ordusu Nedumkotta hattına saldırdı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Velu Thampi Dalavâ Kundara Bildirisi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Khongcom Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Kişangarh ekolünde Bani Thani",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Bhaktapur'da Nyatapola Tapınağı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Padmanâbhapuram Sarayı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Kottârakkara'da Râmanâttam",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Kottayam'da matbaa kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "(yer_id: ",
+   "yeni": "(",
+   "not": "yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
+   "kural": "K2b"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Nepal, Alâeddin Halacî döneminde",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (TDV himayeyi Alâeddin'in saltanatına — 1296-1316 — bağlar, gün vermez; madde saltanatın ortasına yerleştirildi.)",
+   "yeni": " Himaye Alâeddin'in saltanatı (1296-1316) içindedir; yılı kesin değildir.",
+   "not": "TDV himayeyi Alâeddin'in saltanatına — 1296-1316 — bağlar, gün vermez; madde saltanatın ortasına yerleştirildi.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Nepal, Alâeddin Halacî döneminde",
+   "islem": "gun_ekle",
+   "deger": "Alâeddin Halacî devri (1296-1316)",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Nepal, III. Fîrûz Şah Tuğluk'un hâkimiyetini kabul etti",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (TDV yıl vermiyor; madde Fîrûz Şah'ın saltanatının erken yıllarına yerleştirildi.)",
+   "yeni": "",
+   "not": "TDV yıl vermiyor; madde Fîrûz Şah'ın saltanatının erken yıllarına yerleştirildi.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Nepal, III. Fîrûz Şah Tuğluk'un hâkimiyetini kabul etti",
+   "islem": "gun_ekle",
+   "deger": "III. Fîrûz Şah Tuğluk devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Müslüman tüccarlar Katmandu'ya yerleşmeye başladı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (TDV 'XV. yüzyıl sonları' der, yıl vermez; madde yüzyıl dönümüne yerleştirildi.)",
+   "yeni": "",
+   "not": "TDV 'XV. yüzyıl sonları' der, yıl vermez; madde yüzyıl dönümüne yerleştirildi.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Müslüman tüccarlar Katmandu'ya yerleşmeye başladı",
+   "islem": "gun_ekle",
+   "deger": "XV. yüzyıl sonları",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Bâbürlü etkisi Nepal sarayının",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (TDV 'XVI. yüzyıldan itibaren' der, yıl vermez.)",
+   "yeni": "",
+   "not": "TDV 'XVI. yüzyıldan itibaren' der, yıl vermez.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Bâbürlü etkisi Nepal sarayının",
+   "islem": "gun_ekle",
+   "deger": "XVI. yüzyıldan itibaren",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Nepal, İngiltere ile tam bağımsızlığını tanıyan antlaşmayı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Atlasın ufku 29 Ekim 1923'te bittiği için madde bu güne yerleştirildi; antlaşmanın gerçek tarihi metinde açıkça yazılıdır.)",
+   "yeni": "",
+   "not": "Atlasın ufku 29 Ekim 1923'te bittiği için madde bu güne yerleştirildi; antlaşmanın gerçek tarihi metinde açıkça yazılıdır.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_guney_asya.js",
+   "b": "Nepal, İngiltere ile tam bağımsızlığını tanıyan antlaşmayı",
+   "islem": "gun_ekle",
+   "deger": "1923",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "b": "Mümtaz Mahal doğumda öldü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Burhanpûr, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Burhanpûr, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_hindistan.js",
+   "b": "Şîr Şah Sûrî'nin türbesi Sâsârâm'da tamamlandı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Sâsârâm, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Sâsârâm, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Bizans ile evlilik ittifakı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; madde Olcaytu'nun Bizans'a yöneldiği saltanat başına bağlandı, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak yıl vermiyor; madde Olcaytu'nun Bizans'a yöneldiği saltanat başına bağlandı, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Bizans ile evlilik ittifakı",
+   "islem": "gun_ekle",
+   "deger": "Olcaytu devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Ebû İshak şair ve âlimleri himaye etti",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; madde saltanatın son yıllarına konuldu.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak yıl vermiyor; madde saltanatın son yıllarına konuldu.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Ebû İshak şair ve âlimleri himaye etti",
+   "islem": "gun_ekle",
+   "deger": "Ebû İshak devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Mes'ûd, Şiî şeyhi Hasan-ı Cûrî ile ittifak yaptı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; madde Mes'ûd'un iktidarının ilk yılına konuldu.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak yıl vermiyor; madde Mes'ûd'un iktidarının ilk yılına konuldu.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Mes'ûd, Şiî şeyhi Hasan-ı Cûrî ile ittifak yaptı",
+   "islem": "gun_ekle",
+   "deger": "Mes'ûd devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Hâce Ali, Şehîd-i Evvel'i Sebzevâr'a davet etti",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak 'saltanatının sonuna doğru' diyor, yıl vermiyor.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak 'saltanatının sonuna doğru' diyor, yıl vermiyor.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Hâce Ali, Şehîd-i Evvel'i Sebzevâr'a davet etti",
+   "islem": "gun_ekle",
+   "deger": "Hâce Ali'nin saltanatının sonları",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Serbedârî bayındırlık işleri",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak bu işlerin yıllarını vermiyor; madde iki emîrin dönemlerinin ortasına konuldu, bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak bu işlerin yıllarını vermiyor; madde iki emîrin dönemlerinin ortasına konuldu, bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Serbedârî bayındırlık işleri",
+   "islem": "gun_ekle",
+   "deger": "Yahyâ Kerrâbî ve Hâce Ali devirleri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Kal'a-i İhtiyârüddin ve Herat'ın Kert dönemi mimarisi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak kalenin yapım yılını vermiyor; madde hânedanın en müreffeh dönemine konuldu ve bu bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak kalenin yapım yılını vermiyor; madde hânedanın en müreffeh dönemine konuldu ve bu bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Kal'a-i İhtiyârüddin ve Herat'ın Kert dönemi mimarisi",
+   "islem": "gun_ekle",
+   "deger": "Kertler devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Lur atabeglikleri zaman zaman İlhanlı vilâyeti statüsüne girdi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak bu statü değişimlerine yıl vermiyor; madde İlhanlı'nın en güçlü olduğu döneme konuldu ve bu bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak bu statü değişimlerine yıl vermiyor; madde İlhanlı'nın en güçlü olduğu döneme konuldu ve bu bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Lur atabeglikleri zaman zaman İlhanlı vilâyeti statüsüne girdi",
+   "islem": "gun_ekle",
+   "deger": "İlhanlı devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Lur-ı Büzürg Atabegliği sona erdi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "; `devletler.js` künyesinin `t:1424-01-01` tarihi buna dayanır.",
+   "yeni": ".",
+   "not": "`devletler.js` künyesinin `t:1424-01-01` tarihi buna dayanır.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_iran_ardillari.js",
+   "b": "Lur-ı Büzürg Atabegliği sona erdi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "TDV `luristan` maddesinin",
+   "yeni": "TDV'nin Luristan maddesinin",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_ispanya.js",
+   "b": "Fernando de Rojas'ın La Celestina'sının yayımlanması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Yayım yılı kesin biliniyor, ay/gün kaynaklarda geçmiyor.",
+   "yeni": "",
+   "not": "Yayım yılı kesin biliniyor, ay/gün kaynaklarda geçmiyor.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_ispanya.js",
+   "b": "El Greco Toledo'ya yerleşti",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Yıl kesin, ay/gün kaynaklarda net değil.",
+   "yeni": "",
+   "not": "Yıl kesin, ay/gün kaynaklarda net değil.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_italya.js",
+   "b": "Garibaldi'nin Bin'i Marsala'ya çıkar",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Marsala yerleşim veri tabanında kayıtlı değil.)",
+   "yeni": "",
+   "not": "Marsala yerleşim veri tabanında kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "b": "Eski ve Yeni Foça'nın kaybedilmesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "; iki tarih arasındaki fark bu maddede açıkça bırakılmıştır.",
+   "yeni": ".",
+   "not": "iki tarih arasındaki fark bu maddede açıkça bırakılmıştır.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_italya_sehir.js",
+   "b": "Piacenza panayırlarının kurulması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Olayın mahalli PIACENZA'dır; yerleşim havuzunda karşılığı YOKTUR, bu yüzden yer_id boş bırakıldı — uydurulmadı.)",
+   "yeni": " Olayın mahalli Piacenza'dır.",
+   "not": "Piacenza yerleşim havuzunda yok, yer_id boş bırakıldı — uydurulmadı",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "b": "Portekizliler Tanegaşima'ya ulaşıp",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Tanegaşima, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Tanegaşima, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "b": "Hideyoshi öldü, Kore'den çekilme başladı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Fuşimi, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Fuşimi, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "b": "Komodor Perry'nin",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Uraga, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Uraga, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "b": "Tomioka İpek Fabrikası açıldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Tomioka, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Tomioka, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "b": "Iwakura Heyeti, Batı'yı incelemek üzere yola çıktı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Yokohama, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Yokohama, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "b": "Ertuğrul Fırkateyni Kuşimoto açıklarında battı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Kuşimoto/Oşima, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Kuşimoto/Oşima, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_japonya.js",
+   "b": "Şimonoseki Antlaşması imzalandı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " (Şimonoseki, proje yerleşim kümesinde kayıtlı değil.)",
+   "yeni": "",
+   "not": "Şimonoseki, proje yerleşim kümesinde kayıtlı değil.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_karakoyunlu.js",
+   "b": "Kara Mehmed başa geçti",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "; künye onu 'Tebriz'i alarak devleti güçlendiren' hükümdar diye anar.",
+   "yeni": ".",
+   "not": "künye onu 'Tebriz'i alarak devleti güçlendiren' hükümdar diye anar.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_karakoyunlu.js",
+   "b": "Gökmescid banisinin ölümüyle yarım kaldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "⚠️ Bu madde bilerek Bingöl baskınıyla aynı güne yazıldı: Karakoyunlu",
+   "yeni": "Karakoyunlu",
+   "not": "Bu madde bilerek Bingöl baskınıyla aynı güne yazıldı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_karakoyunlu.js",
+   "b": "Hanedan içinde bir şairler halkası",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak bu şairliklerin dönemini yıl olarak vermiyor; madde Cihan Şah'ın cülûsuna bağlandı ve bu bir tercihtir.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak bu şairliklerin dönemini yıl olarak vermiyor; madde Cihan Şah'ın cülûsuna bağlandı ve bu bir tercihtir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_karakoyunlu.js",
+   "b": "Hanedan içinde bir şairler halkası",
+   "islem": "gun_ekle",
+   "deger": "Cihan Şah devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_karakoyunlu.js",
+   "b": "Dört halife adına para basımı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak sikkelerin basım yılını vermiyor; madde Cihan Şah'ın cülûsuna bağlandı, bir tercihtir. `kapsam_genis` sayılabilecek imparatorluk çapında bir uygulamadır, bu yüzden `yer_id` boştur.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak sikkelerin basım yılını vermiyor; madde Cihan Şah'ın cülûsuna bağlandı, bir tercihtir. `kapsam_genis` sayılabilecek imparatorluk çapında bir uygulamadır, bu yüzden `yer_id` boştur.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_karakoyunlu.js",
+   "b": "Dört halife adına para basımı",
+   "islem": "gun_ekle",
+   "deger": "Karakoyunlu devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_karakoyunlu.js",
+   "b": "Malî teşkilât: muhassıl ve tahvildarlar",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: kaynak bu teşkilâtın kuruluş yılını vermiyor; madde devletin sınırlarının en geniş olduğu ve teşkilâtın en çok yüklendiği Bağdat fethi yılına bağlandı. Bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: kaynak bu teşkilâtın kuruluş yılını vermiyor; madde devletin sınırlarının en geniş olduğu ve teşkilâtın en çok yüklendiği Bağdat fethi yılına bağlandı. Bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_karakoyunlu.js",
+   "b": "Malî teşkilât: muhassıl ve tahvildarlar",
+   "islem": "gun_ekle",
+   "deger": "Karakoyunlu devri",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_kirim.js",
+   "b": "Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": ", haritada ayrı bir yerleşim noktası olmadığı için yer_id boş bırakıldı.",
+   "yeni": ".",
+   "not": "haritada ayrı bir yerleşim noktası olmadığı için yer_id boş bırakıldı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_lehistan.js",
+   "b": "Mikołaj Kopernik Toruń'da doğdu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Toruń'un yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
+   "yeni": "",
+   "not": "Toruń'un yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_lehistan.js",
+   "b": "Kopernik öldü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Frombork'un yerleşim kaydı atlasta yok.",
+   "yeni": "",
+   "not": "Frombork'un yerleşim kaydı atlasta yok.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_lehistan.js",
+   "b": "Zamość kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Şehrin yerleşim kaydı atlasta bulunmuyor.",
+   "yeni": "",
+   "not": "Şehrin yerleşim kaydı atlasta bulunmuyor.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_memluk.js",
+   "b": "İbn Haldun Mukaddime'nin müsveddelerini tamamladı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "; bu yüzden Kahire'ye bağlı bir yer_id verilemiyor.",
+   "yeni": ".",
+   "not": "bu yüzden Kahire'ye bağlı bir yer_id verilemiyor.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "b": "Ehramlar (İmbâbe) Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Muharebe sahası haritadaki yerleşim kayıtlarıyla birebir eşleşmediği için yer_id boş bırakıldı.",
+   "yeni": "",
+   "not": "Muharebe sahası haritadaki yerleşim kayıtlarıyla birebir eşleşmediği için yer_id boş bırakıldı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_misir.js",
+   "b": "Nizip Muharebesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Muharebe sahası haritadaki yerleşim kayıtlarıyla birebir eşleşmediği için yer_id boş bırakıldı.",
+   "yeni": "",
+   "not": "Muharebe sahası haritadaki yerleşim kayıtlarıyla birebir eşleşmediği için yer_id boş bırakıldı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_orta_asya.js",
+   "b": "Küçüm Han Nogayların yanında öldürüldü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Tarih kesin değildir; kaynak yıl vermez.",
+   "yeni": " Ölüm tarihi kesin değildir.",
+   "not": "kaynak yıl vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "b": "Ebulgazi Bahadır Han'ın ölümü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Ölçmedim ama genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eseri, Cengizli soy kütüğünü anlatan Şecere-i Türk, TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor — standart akademik kaynaklara göre eser",
+   "yeni": " Genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eser, Cengizli soy kütüğünü anlatan Şecere-i Türk'tür; standart akademik kaynaklara göre eser",
+   "not": "Ölçmedim: Şecere-i Türk TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_ozbek.js",
+   "b": "Çin (Qing) ile antlaşma",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Ölçmedim ama bu olayın Çin kronolojisinde ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.",
+   "yeni": "",
+   "not": "Ölçmedim ama bu olayın Çin kronolojisinde ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "kronoloji_safevi.js",
+   "b": "Molla Sadrâ'nın İsfahan'dan Kum yakınlarına çekilmesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": ", burada Iranica'nın verdiği erken tarih esas alındı.",
+   "yeni": ".",
+   "not": "burada Iranica'nın verdiği erken tarih esas alındı.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "kronoloji_sirbistan.js",
+   "b": "Duşan imparatorluk tacı giydi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " TDV maddesi olayı '1345'te' verip gün belirtmiyor; taç giyme töreninin gününü (Paskalya, 16 Nisan 1346, Üsküp) standart akademik literatür kesinleştiriyor.",
+   "yeni": " Taç giyme töreni 16 Nisan 1346 Paskalya günü Üsküp'te yapıldı.",
+   "not": "TDV maddesi olayı '1345'te' verip gün belirtmiyor; taç giyme töreninin gününü (Paskalya, 16 Nisan 1346, Üsküp) standart akademik literatür kesinleştiriyor.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek10.js",
+   "b": "Eflak'tan çekiliş ve Yergöğü baskını",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Haritada bu dönemin üç voyvodalığı hâlâ tâbi renkte görünüyor — ayaklanma yıllarının toprak karşılığı henüz veriye işlenmedi.",
+   "yeni": "",
+   "not": "Haritada bu dönemin üç voyvodalığı hâlâ tâbi renkte görünüyor — ayaklanma yıllarının toprak karşılığı henüz veriye işlenmedi.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek11.js",
+   "b": "Tanca İngiltere'ye devredildi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Atlas bu kaydı önce 23 Ocak 1661 olarak taşıyordu — antlaşma günüyle fiilî devir günü arasında bir karışma; Bombay için zaten fiilî devir tarihi (18 Şubat 1665) yazıldığından aynı ölçüt Tanca'ya da uygulandı.",
+   "yeni": "",
+   "not": "Atlas bu kaydı önce 23 Ocak 1661 olarak taşıyordu — antlaşma günüyle fiilî devir günü arasında bir karışma; Bombay için zaten fiilî devir tarihi (18 Şubat 1665) yazıldığından aynı ölçüt Tanca'ya da uygulandı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek12.js",
+   "b": "Cerbe kalesinin düşüşü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "; haritada toprak değişimi ikincisine bağlanmalıdır, çünkü ada",
+   "yeni": "; ada",
+   "not": "haritada toprak değişimi ikincisine (30 Temmuz) bağlanmalıdır",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek13.js",
+   "b": "Safevîler'in Bahreyn'i Portekiz'den alması",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV ay/gün vermez)",
+   "yeni": "",
+   "not": "TDV ay/gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "b": "Ahî Evran",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — atlas penceresi 1281'de başladığı için madde açılış gününe yerleştirildi",
+   "yeni": "",
+   "not": "atlas penceresi 1281'de başladığı için madde açılış gününe yerleştirildi",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "b": "Orhan Gazi'nin Bursa fethi sonrası cirit oyunları",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": ", TDV kesin yıl vermiyor)",
+   "yeni": ")",
+   "not": "TDV kesin yıl vermiyor",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek15.js",
+   "b": "Dârfûr'da Dâcû hâkimiyetinin Tuncûrlar'a geçmesi",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yüzyıl verir, gün vermez — 1400-01-01 yüzyıl sınırıdır)",
+   "yeni": "",
+   "not": "TDV yüzyıl verir, gün vermez — 1400-01-01 yüzyıl sınırıdır",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek15.js",
+   "b": "İspanya'nın Bâdis (Peñón de Vélez) kayalığını geri alışı",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yıl verir, gün vermez)",
+   "yeni": "",
+   "not": "TDV yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek15.js",
+   "b": "Sa’dî hânedanının sonu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yıl verir, gün vermez)",
+   "yeni": "",
+   "not": "TDV yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek15.js",
+   "b": "Kârkiyâ hânedanı Gîlân'da kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ Tarih düzeltmesi: TDV'nin genel Gîlân maddesi 1307'de bir otorite boşluğundan söz eder ve Kârkiyâ'nın ne zaman hâkim olduğunu belirtmez; Encyclopaedia Iranica'nın hânedana ayrılmış maddesi kuruluşu 773/1371-72 verir. Aradaki 64 yıl için harita İlhanlı gösterir.",
+   "yeni": "",
+   "not": "Tarih düzeltmesi: TDV'nin genel Gîlân maddesi 1307'de bir otorite boşluğundan söz eder ve Kârkiyâ'nın ne zaman hâkim olduğunu belirtmez; Encyclopaedia Iranica'nın hânedana ayrılmış maddesi kuruluşu 773/1371-72 verir. Aradaki 64 yıl için harita İlhanlı gösterir.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek16.js",
+   "b": "Karesi ve Hamîdoğulları beyliklerinin kuruluşu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — TDV yıl verir, gün vermez",
+   "yeni": "",
+   "not": "TDV yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek16.js",
+   "b": "Aydınoğulları Beyliği'nin kuruluşu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yıl verir, gün vermez)",
+   "yeni": "",
+   "not": "TDV yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek16.js",
+   "b": "Anadolu Selçuklu Devleti'nin fiilen sona ermesi",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — TDV gün vermez, yalnız yıl ve şehir (Kayseri) verir",
+   "yeni": "",
+   "not": "TDV gün vermez, yalnız yıl ve şehir (Kayseri) verir",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek16.js",
+   "b": "Celayirli Devleti'nin kuruluşu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yıl verir, gün vermez)",
+   "yeni": "",
+   "not": "TDV yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek16.js",
+   "b": "Bağdat'ın Karakoyunlu eline geçişi",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — TDV ay/gün vermez",
+   "yeni": "",
+   "not": "TDV ay/gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek16.js",
+   "b": "Karakoyunlu Cihan Şah'ın Timurlu İran'ını",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — TDV yıl aralığı verir, gün vermez",
+   "yeni": "",
+   "not": "TDV yıl aralığı verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek16.js",
+   "b": "Moskova-Litvanya Mütarekesi",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
+   "yeni": "",
+   "not": "veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek17.js",
+   "b": "IV. Mehmed avdan vazgeçti",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "⚠️ TDV'de bu olayla ilgili mizahi/eğlenceli bir rivayet bulunamadı — olayın ciddi seyri şöyle: Mohaç",
+   "yeni": "Mohaç",
+   "not": "TDV'de bu olayla ilgili mizahi/eğlenceli bir rivayet bulunamadı",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek17.js",
+   "b": "Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — TDV ve akademik kaynak yıl verir, gün vermez",
+   "yeni": "",
+   "not": "TDV ve akademik kaynak yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek17.js",
+   "b": "Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı",
+   "yeni": "Salih Reis bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine bir sefer düzenledi; Osmanlı",
+   "not": "TDV Tuggurt ve Vargla'yı kapsamıyor; bu kısmın dayanağı standart akademik anlatım",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek17.js",
+   "b": "Anabolu'nun (Nauplion) Venedik'e kaybı",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yalnız yıl verir; akademik kaynağa göre yardım ordusu",
+   "yeni": " (yardım ordusu",
+   "not": "TDV yalnız yıl verir; gün ve ayrıntı akademik kaynağa göre",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek17.js",
+   "b": "Semendire'nin Avusturya'dan geri alınışı",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV ay verir, gün vermez)",
+   "yeni": "",
+   "not": "TDV ay verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek17.js",
+   "b": "Pîrî Reis, günümüze ulaşan en eski dünya haritasını çizdi",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — TDV yıl verir, ay vermez",
+   "yeni": "",
+   "not": "TDV yıl verir, ay vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek17.js",
+   "b": "Kars çevresinin bütünleşmesi",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV doğrudan tarih vermiyor — Kars'ın alınışıyla aynı güne bağlandı)",
+   "yeni": "",
+   "not": "TDV doğrudan tarih vermiyor — Kars'ın alınışıyla aynı güne bağlandı",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek20.js",
+   "b": "Gürcistan Krallığı üçe bölündü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " — ancak yılını vermiyor.",
+   "yeni": ".",
+   "not": "TDV Gürcistan maddesi bölünmenin yılını vermiyor (1490 başka dayanaktan)",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek21.js",
+   "b": "Niğbolu'nun geri alınışı — altı aylık Rus işgali",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yalnız ayı veriyor, gün kaynakta yok)",
+   "yeni": "",
+   "not": "TDV yalnız ayı veriyor, gün kaynakta yok",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek21.js",
+   "b": "Silistre'nin tahliyesi",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yalnız ayı veriyor, gün kaynakta yok)",
+   "yeni": "",
+   "not": "TDV yalnız ayı veriyor, gün kaynakta yok",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek21.js",
+   "b": "Kutuzov Rusçuk'u boşalttı",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yalnız ayı veriyor, gün kaynakta yok)",
+   "yeni": "",
+   "not": "TDV yalnız ayı veriyor, gün kaynakta yok",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek22.js",
+   "b": "Zend hânedanının sonu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Atlas tasarrufu esas aldığı için Derbend'den Ahvaz'a kadar İran ve Kafkasya kayıtlarında Zend dönemi bu günde biter.",
+   "yeni": "",
+   "not": "Atlas tasarrufu esas aldığı için Derbend'den Ahvaz'a kadar İran ve Kafkasya kayıtlarında Zend dönemi bu günde biter.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek6.js",
+   "b": "Annaba'nın (Bône) işgali",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "; alınması, adaya en yakın peteğin sahibini değiştirdiği için haritada Akdeniz'in batısındaki dengeyi de görünür şekilde çevirir.",
+   "yeni": ".",
+   "not": "alınması, adaya en yakın peteğin sahibini değiştirdiği için haritada Akdeniz'in batısındaki dengeyi de görünür şekilde çevirir.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "İzvornik (Zvornik) kalesinin fethi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: TDV yalnız yıl veriyor, gün vermiyor.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: TDV yalnız yıl veriyor, gün vermiyor.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "Nusaybin ve Cizre-Mardin çevresinin",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " TDV kesin ay/gün vermiyor, yalnız 'yılın sonlarında' diyor. ⚠️ Komşu kasabalar Derik (Malikiye) ve Silopi aynı bölgesel teslim dalgasının parçası olabilir ama TDV'de müstakil maddeleri yok — bulunamadı, tarihleri buraya dayandırılmadı.",
+   "yeni": "",
+   "not": "TDV kesin ay/gün vermiyor, yalnız 'yılın sonlarında' diyor.  Komşu kasabalar Derik (Malikiye) ve Silopi aynı bölgesel teslim dalgasının parçası olabilir ama TDV'de müstakil maddeleri yok — bulunamadı, tarihleri buraya dayandırılmadı.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "Nusaybin ve Cizre-Mardin çevresinin",
+   "islem": "gun_ekle",
+   "deger": "921 (1515) yılı sonları",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "Deli Hasan Paşa isyanı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " TDV yalnız yıl veriyor, ay/gün belirtmiyor.",
+   "yeni": "",
+   "not": "TDV yalnız yıl veriyor, ay/gün belirtmiyor.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "Knin'in Venedik'e kaybı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " TDV dönemin genel kayıp listesinde 'Bosna'daki Knin ve civarındaki kaleler ise Venedikliler'in eline geçmişti' diye anar ama gün vermez.",
+   "yeni": "",
+   "not": "TDV dönemin genel kayıp listesinde 'Bosna'daki Knin ve civarındaki kaleler ise Venedikliler'in eline geçmişti' diye anar ama gün vermez.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "Abdullah b. Reşîd Hâil emirliğini ele geçirdi",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " TDV kaynağı yalnız yılı veriyor, gün belirtmiyor. ⚠️ VERİ NOTU: data/yerlesimler.js'teki Hâil kaydı bu değişimi 1836-01-01 olarak taşıyor (1 yıl fark) — Değişmez 2 senkronu için yerleşim tarihinin 1835-01-01'e çekilmesi gerekir; bu düzeltme Yerleşim/Entegrasyon oturumuna aittir, benim yetkim dışında.",
+   "yeni": "",
+   "not": "TDV kaynağı yalnız yılı veriyor, gün belirtmiyor.  VERİ NOTU: data/yerlesimler.js'teki Hâil kaydı bu değişimi 1836-01-01 olarak taşıyor (1 yıl fark) — Değişmez 2 senkronu için yerleşim tarihinin 1835-01-01'e çekilmesi gerekir; bu düzeltme Yerleşim/Entegrasyon oturumuna aittir, benim yetkim dışında.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (gün KAYNAKLAR ARASINDA ÇELİŞİYOR — künyenin kendi f:/t: günü DEVRALINDI, bkz. not)",
+   "yeni": " (kaynaklar farklı günler verir)",
+   "not": "gün KAYNAKLAR ARASINDA ÇELİŞİYOR — künyenin kendi f:/t: günü DEVRALINDI, bkz. not",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ek9.js",
+   "b": "Sîdî Bel Abbès müstahkem kampının kurulması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Oturum 14 bu noktayı 1844-03-04'e yuvarlamıştı; gerçek tarih budur.",
+   "yeni": "",
+   "not": "Oturum 14 bu noktayı 1844-03-04'e yuvarlamıştı; gerçek tarih budur.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek9.js",
+   "b": "Ağvât'ın (Laghouat) düşüşü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Oturum 14 bu tarihi 1854-12-02'ye (Tuggurt) yuvarlamak zorunda kalmıştı.",
+   "yeni": "",
+   "not": "Oturum 14 bu tarihi 1854-12-02'ye (Tuggurt) yuvarlamak zorunda kalmıştı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek9.js",
+   "b": "Konstantin'in düşüşü",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Denetim bu kırılmayı iki gün sonraki Cebel-i Dürûz ayaklanması maddesiyle eşleştiriyordu — bu madde o eşleşmeyi düzeltir.",
+   "yeni": "",
+   "not": "Denetim bu kırılmayı iki gün sonraki Cebel-i Dürûz ayaklanması maddesiyle eşleştiriyordu — bu madde o eşleşmeyi düzeltir.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek9.js",
+   "b": "Trablus şehrinin İtalyanlara teslim olması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " — atlasta bu, taban rengi Osmanlı, üstü İtalyan taraması olarak gösterilmelidir.",
+   "yeni": ".",
+   "not": "atlasta bu, taban rengi Osmanlı, üstü İtalyan taraması olarak gösterilmelidir.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek9.js",
+   "b": "Dongola'nın geri alınışı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Atlasta Dongola'nın Mehdî döneminin bu tarihte bitmesi gerekir — bugün Hartum'la aynı güne (1899) bağlı görünüyor.",
+   "yeni": "",
+   "not": "Atlasta Dongola'nın Mehdî döneminin bu tarihte bitmesi gerekir — bugün Hartum'la aynı güne (1899) bağlı görünüyor.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek9.js",
+   "b": "Napolyon'un Akkâ kuşatması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Bu tarih atlasta toprak değiştirmez — işgalin sınırını gösterdiği için yazılmıştır.",
+   "yeni": "",
+   "not": "Bu tarih atlasta toprak değiştirmez — işgalin sınırını gösterdiği için yazılmıştır.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Britanya, Arktik Takımadalar'ı Kanada'ya devretti",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Bu gün, atlasta otuz üç İnuit yerleşiminin bağlı olduğu kimliğin değiştiği gündür. TDV bu coğrafyayı kapsamamaktadır; Historical Atlas of Canada (University of Toronto Press) esas alındı.",
+   "yeni": "",
+   "not": "Bu gün, atlasta otuz üç İnuit yerleşiminin bağlı olduğu kimliğin değiştiği gündür. TDV bu coğrafyayı kapsamamaktadır; Historical Atlas of Canada (University of Toronto Press) esas alındı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fontainebleau Antlaşması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Atlasta bu ayrım önemlidir — Luizyana İspanya'ya, İllinois ülkesi Britanya'ya gitti ve iki bölge o günden sonra farklı kimlikler taşır. TDV bu coğrafyayı kapsamamaktadır.",
+   "yeni": "",
+   "not": "Atlasta bu ayrım önemlidir — Luizyana İspanya'ya, İllinois ülkesi Britanya'ya gitti ve iki bölge o günden sonra farklı kimlikler taşır. TDV bu coğrafyayı kapsamamaktadır.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort Laramie Antlaşması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": ", ama atlasta bu gün Missouri kıyısındaki köy halklarının kimliğinin tanımlandığı gündür. TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.13 (Smithsonian) esas alındı.",
+   "yeni": ".",
+   "not": "ama atlasta bu gün Missouri kıyısındaki köy halklarının kimliğinin tanımlandığı gündür. TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.13 (Smithsonian) esas alındı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort Bridger Antlaşması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.11 (Smithsonian) esas alındı.",
+   "yeni": "",
+   "not": "TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.11 (Smithsonian) esas alındı.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort Halkett kuruldu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — kaynak yıl verir, gün vermez",
+   "yeni": "",
+   "not": "kaynak yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort Halkett kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Historical Atlas of Canada esas alındı.",
+   "yeni": "",
+   "not": "Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Historical Atlas of Canada esas alındı.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort Pitt kuruldu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — kaynak yıl verir, gün vermez",
+   "yeni": "",
+   "not": "kaynak yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort Pitt kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01.",
+   "yeni": "",
+   "not": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Springfield kuruldu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — kaynak yıl verir, gün vermez",
+   "yeni": "",
+   "not": "kaynak yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Springfield kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Handbook of North American Indians c.13 (Smithsonian) esas alındı.",
+   "yeni": "",
+   "not": "Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Handbook of North American Indians c.13 (Smithsonian) esas alındı.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort William kuruldu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — kaynak yıl verir, gün vermez",
+   "yeni": "",
+   "not": "kaynak yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort William kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01.",
+   "yeni": "",
+   "not": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort Dearborn kuruldu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — kaynak yıl verir, gün vermez",
+   "yeni": "",
+   "not": "kaynak yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort Dearborn kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01.",
+   "yeni": "",
+   "not": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort George (Chisasibi) kuruldu",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " — kaynak yıl verir, gün vermez",
+   "yeni": "",
+   "not": "kaynak yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_kamerika.js",
+   "b": "Fort George (Chisasibi) kuruldu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01.",
+   "yeni": "",
+   "not": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01.",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "b": "Avusturya Cumhuriyeti'nin kuruluşu",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " Bu gün, atlasın Habsburg egemenliğinin sona erdiği gün olarak esas alması önerilen tarihtir — TDV'nin toprak üzerindeki egemenlik değişimini anlatan tek cümlesi budur.",
+   "yeni": "",
+   "not": "Bu gün, atlasın Habsburg egemenliğinin sona erdiği gün olarak esas alması önerilen tarihtir — TDV'nin toprak üzerindeki egemenlik değişimini anlatan tek cümlesi budur.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_p0044.js",
+   "b": "Moskova Çarlığı Astarhan'ı aldı",
+   "islem": "degistir",
+   "alan": "gun",
+   "eski": " (TDV yıl verir, gün vermez)",
+   "yeni": "",
+   "not": "TDV yıl verir, gün vermez",
+   "kural": "K1"
+  },
+  {
+   "dosya": "olaylar_p0044.js",
+   "b": "Moskova Çarlığı Astarhan'ı aldı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": " ⚠️ TARİH HAKKINDA: TDV yıl veriyor (1556), gün vermiyor; `astarhan-hanligi` maddesi işgale tarih vermiyor. ⚠️ HARİTA HAKKINDA: atlas aynı gün Aşağı Volga'daki Astarhan ve Nogay kayıtlarını Rusya'ya geçiriyor.",
+   "yeni": "",
+   "not": "TARİH HAKKINDA: TDV yıl veriyor (1556), gün vermiyor; `astarhan-hanligi` maddesi işgale tarih vermiyor.  HARİTA HAKKINDA: atlas aynı gün Aşağı Volga'daki Astarhan ve Nogay kayıtlarını Rusya'ya geçiriyor.",
+   "kural": "K2"
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "b": "Otranto çıkarması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "; teslim olmayı reddeden yaklaşık 800 kişi (din değiştirmeyi kabul etmeyen halk) kılıçtan geçirildi (Otranto şehitleri).",
+   "yeni": "; şehre savaşarak girildiği için direnen ileri gelenlerin bir kısmı idam edildi, bir kısmı esir alındı. Kilise geleneği ölenleri yaklaşık 800 kişilik 'Otranto şehitleri' olarak anar; TDV bu sayının abartılmasını kilise propagandasına bağlar.",
+   "not": "A2 §4b: eski metin ~800 kişinin kılıçtan geçirildiğini kesin olgu gibi veriyordu; kaynak:gedik-ahmed-pasa'da 800 yok; TDV otranto-seferi: direnen ileri gelenlerin bir kısmı idam, bir kısmı esir; sayının abartıldığı kaydedilir",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "b": "Otranto çıkarması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "otranto-seferi · gedik-ahmed-pasa",
+   "kural": "A2",
+   "not_eski": false,
+   "yoksa_ekle": false
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "b": "Rumeli Hisarı tamamlandı",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "Dört ay gibi olağanüstü bir sürede tamamlanan hisarla",
+   "yeni": "Kaynaklara göre dört beş ay süren olağanüstü hızlı bir inşaatla tamamlanan hisarla",
+   "not": "A2 §4b: 'dört ay' — TDV rumelihisari 'dört beş ay'; Dukas başlangıcı Mart 1452 sonu",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "b": "Rumeli Hisarı tamamlandı",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "Receb 856 (Temmuz-Ağustos 1452)",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "TDV rumelihisari: kitâbe Receb 856 (Temmuz-Ağustos 1452); 31 Ağustos günü TDV'de YOK. t:1452-08-31 KORUNDU — ekokuma_mimari '1452-08-31|Boğazkesen' ve merak canakkale-hisar-ve-zincir bağı (D181) · öneri YAMA-KRON2"
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "b": "Rumeli Hisarı tamamlandı",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "rumelihisari",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "kronoloji_italya.js",
+   "b": "Otranto'nun Osmanlı çıkarmasıyla işgali",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "şehri kısa süreli bir katliamın ardından ele geçirdi",
+   "yeni": "şehri top ateşiyle, savaşarak ele geçirdi",
+   "kural": "A2"
+  },
+  {
+   "dosya": "kronoloji_italya.js",
+   "b": "Otranto'nun Osmanlı çıkarmasıyla işgali",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "otranto-seferi (TDV): hisar toplarla zaptedildi, direnen ileri gelenlerin bir kısmı idam edildi; ölü sayısının abartıldığı kaydedilir",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "A2 §4b: 'kısa süreli bir katliamın ardından' TDV otranto-seferi ile uyuşmuyordu",
+   "not_alan": "d"
+  },
+  {
+   "dosya": "kronoloji_italya.js",
+   "b": "Otranto'nun geri alınması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "bayezid-ii (TDV): Türk garnizonu Napoli kuvvetlerine teslim oldu (10 Eylül 1481) — gün DOĞRULANDI · otranto-seferi",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek7.js",
+   "b": "Topkapı Sarayı'nın (Saray-ı Cedîd) tamamlanması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "göre Fâtih'in emriyle 1459'da başlayan inşaat 1478'de büyük ölçüde tamamlandı ve saray",
+   "yeni": "göre devrin kaynakları inşaatın başlangıç ve bitiş tarihlerinde ayrışır; Bâb-ı Hümâyun kitâbesindeki 883 (1478) tarihine göre Fâtih'in emriyle muhtemelen 1465'te başlanan inşaat bu yıla kadar büyük ölçüde tamamlanmıştı ve saray",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek7.js",
+   "b": "Topkapı Sarayı'nın (Saray-ı Cedîd) tamamlanması",
+   "islem": "not_ekle",
+   "alan": "d",
+   "not": "A2 §4b: eski metin '1459'da başlayan' diyordu; TDV topkapi-sarayi'de 1459 YOK — kitâbe 883 (1478), başlangıç 'muhtemelen 1465'",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "b": "Beyazıt Camii ve Külliyesi'nin tamamlanması",
+   "islem": "ata",
+   "alan": "d",
+   "deger": "II. Bayezid için yaptırılan Beyazıt Camii ve Külliyesi'nin inşasına bir arşiv belgesine göre 906'da (1500) başlandı ve 14 Cemâziyelevvel 911'de (13 Ekim 1505) tamamlandı. Mimarı tartışmalıdır: Ayvansarâyî'nin kaydına dayanılarak uzun süre Mimar Hayreddin'in eseri sayıldı, sonra Mimar Kemâleddin'e bağlandı, bazılarına göre ikisi birlikte çalıştı; aynı belge ise ustanın Yâkub Şah b. Sultan Şah olduğunu gösterir. Cami, klasik öncesi Osmanlı mimarîsinden klasik döneme geçişin önemli anıtlarından sayılır.",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "A2 §4b: mimar 'Hayreddin' tek ad olarak veriliyordu; TDV beyazit-ii-camii-ve-kulliyesi--istanbul ve hayreddin-mimar--beyazit-camii üç adı tartışır"
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "b": "Beyazıt Camii ve Külliyesi'nin tamamlanması",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "906 – 14 Cemâziyelevvel 911 (1500 – 13 Ekim 1505)",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "t:1505-01-01 KORUNDU — TDV günü 13 Ekim 1505; t değişirse ekokuma_mimari '1505-01-01|Beyazıt' bağı kopar (D181) · öneri YAMA-KRON2 (D147 ③ = 0 ölçüldü)"
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "b": "Beyazıt Camii ve Külliyesi'nin tamamlanması",
+   "islem": "ata",
+   "alan": "kisiler",
+   "deger": "II. Bayezid, Yâkub Şah b. Sultan Şah, Mimar Hayreddin, Mimar Kemâleddin",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "b": "Beyazıt Camii ve Külliyesi'nin tamamlanması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "beyazit-ii-camii-ve-kulliyesi--istanbul · hayreddin-mimar--beyazit-camii",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar.js",
+   "b": "Budin'in ilhakı — Macaristan Osmanlı eyaleti",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "Ağustos-Eylül 1541 (26 Ağustos'ta ordu Budin önüne vardı, 2 Eylül'de padişah şehre girdi)",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "A2 §4b: 29 Ağustos günü TDV suleyman-i ve budin maddelerinde YOK (suleyman-i: varış 26 Ağustos, giriş 2 Eylül; budin: yeniçeriler veliaht otağdayken stratejik noktaları tuttu — günsüz). t:1541-08-29 KORUNDU — 18 uçlu kırılma günü + ekokuma_savas 3 bağ · öneri YAMA-KRON2"
+  },
+  {
+   "dosya": "olaylar.js",
+   "b": "Budin'in ilhakı — Macaristan Osmanlı eyaleti",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "budin · suleyman-i",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "kronoloji_habsburg.js",
+   "b": "Budin'in fethi — Macaristan üçe bölündü",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "TDV suleyman-i: ordu 26 Ağustos 1541'de Budin önüne vardı, padişah 2 Eylül'de şehre girdi · budin: eyalet 948/1541 — 29 Ağustos günü bu iki maddede YOK",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar.js",
+   "b": "Haçova Meydan Muharebesi",
+   "islem": "not_ekle",
+   "alan": "gun",
+   "not": "A2 §4b: t:'1596-10' ay hassasiyetli (§8 ihlali) — öneri t→1596-10-26 (D147 ③ = 0 ölçüldü) ama ekokuma_savas.js '1596-10' bağı AYNI ANDA değişmeli (D181) · YAMA-KRON2. TDV hacova-meydan-savasi: ilk çarpışma 25 Ekim, asıl savaş 26 Ekim; cigalazade-sinan-pasa: '23-25 Ekim' (§4⑥ iç ayrışma)",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar.js",
+   "b": "Çeşme baskını",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "Baltık'tan yola çıkıp Cebelitarık üzerinden Akdeniz'e giren Rus filosu",
+   "yeni": "İngilizlerin desteğiyle Akdeniz'e açılan Rus donanması",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar.js",
+   "b": "Çeşme baskını",
+   "islem": "not_ekle",
+   "alan": "d",
+   "not": "A2 §4b: eski metin 'Baltık'tan yola çıkıp Cebelitarık üzerinden Akdeniz'e giren' diyordu — TDV cesme-vakasi'nda yok (TDV: Spiridov ve Elphinston kumandasında, İngiliz desteğiyle Akdeniz'e açıldı); Baltık çıkışı akademik kaynakla (Anderson, Naval Wars in the Levant — TDV bibliyografyasında) bu oturumda OKUNMADI",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Plevne savunmasının başlaması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "gazi-osman-pasa · plevne-muharebeleri",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Plevne savunmasının başlaması",
+   "islem": "not_ekle",
+   "alan": "gun",
+   "not": "A2 §4b: TDV gazi-osman-pasa: Plevne'ye 7 Temmuz 1877'de ulaştı, I. Plevne 8 Temmuz, II. Plevne 18 Temmuz. Üç günde de madde/kronoloji_balkan ile tam 12 gün fark (19 · 20-21 · 30 Temmuz) = XIX. yy Jülyen/Rumî-Gregoryen farkı; TDV tarihlerinin Rumî/Jülyen olduğu akademik kaynakla ÖLÇÜLMEDİ. t korundu (ekokuma_savas '1877-07-19|Plevne savunmasının' bağı)",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "karlofca · rusya · mustafa-ii",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+   "islem": "not_ekle",
+   "alan": "gun",
+   "not": "A2 §4b: TDV karlofca '27 Muharrem 1112 (14 Temmuz 1700)' · TDV rusya '13 Temmuz 1700' — §4⑥ iç ayrışma; hicrî karşılığı yazılı olan karlofca günü korundu. Kırım vergisi hükmü karlofca'da var",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek7.js",
+   "b": "Sinop Baskını",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "yedi cami",
+   "yeni": "yedi mescid",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek7.js",
+   "b": "Sinop Baskını",
+   "islem": "not_ekle",
+   "alan": "d",
+   "not": "A2 §4b: 'yedi cami' → TDV sinop 'yedi mescid'. TDV sinop baskını '1854 yılı başları' diye tarihliyor (§4⑥ — 30 Kasım 1853 ile çelişir); TDV'de gün veren madde bulunamadı (kirim-savasi · sinop-baskini · osman-pasa-topal 302); 30 Kasım 1853 akademik kaynakla bu oturumda ÖLÇÜLMEDİ",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek7.js",
+   "b": "Abdülaziz şüpheli şekilde öldü",
+   "islem": "ata",
+   "alan": "yer",
+   "deger": "İstanbul, Fer‘iye Sarayı",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek7.js",
+   "b": "Abdülaziz şüpheli şekilde öldü",
+   "islem": "ata",
+   "alan": "d",
+   "deger": "Tahttan indirildikten sonra kendi isteğiyle Fer‘iye Sarayı'na nakledilen (1 Haziran 1876) Abdülaziz, 4 Haziran'da odasında bilek damarları kesilmiş hâlde bulundu. Elçilik hekimlerinin de yer aldığı on dokuz kişilik doktor heyeti müphem ifadeli bir rapor hazırladı; ölüm 6 Haziran'da gazetelerde intihar olarak ilân edildi. II. Abdülhamid'in açtırdığı tahkikat ise ölümün intihar değil cinayet olduğu kanaatine vardı ve sanıklar 1881'de Yıldız Mahkemesi'nde yargılandı; mesele tarih yazımında bugün de tartışmalıdır.",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "A2 §4b: yer 'Çırağan Sarayı' ve 'resmî soruşturma intihar sonucuna vardı' — TDV abdulaziz: Fer‘iye Sarayı; 1881 tahkikatı cinayet kanaatine vardı"
+  },
+  {
+   "dosya": "olaylar_ek2.js",
+   "b": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "998 (1590)",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "A2 §4b: 21 Mart 1590 günü okunan 6 TDV maddesinde YOK (safeviler · murad-iii · luristan · ferhad-pasa: yalnız 998/1590). t:1590-03-21 KORUNDU — kırılma günü + ekokuma_antlasma2 bağı + savaslar.js; 1590-01-01'e çekmek D147 ③ ile 1 sahte kapanış doğurur (Rengat · São Cristóvão) · YAMA-KRON2"
+  },
+  {
+   "dosya": "olaylar_ek2.js",
+   "b": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "12 yıllık savaşı bitiren antlaşmayla",
+   "yeni": "Şah Abbas'ın elçisi Haydar Mirza'nın İstanbul'a gelişinin (18 Ocak 1590) ardından, fethedilen yerlerin Osmanlı'da kalması şartıyla yapılan ve 12 yıllık savaşı bitiren antlaşmayla",
+   "kural": "A2"
+  },
+  {
+   "dosya": "olaylar_ek2.js",
+   "b": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "luristan · murad-iii · safeviler",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "kronoloji_gurcistan.js",
+   "b": "Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı",
+   "islem": "gun_ekle",
+   "deger": "998 (1590)",
+   "kural": "A2"
+  },
+  {
+   "dosya": "kronoloji_gurcistan.js",
+   "b": "Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "TDV luristan · safeviler · murad-iii — hükümler bu maddelerden; ferhad-pasa-antlasmasi slugu ÖLÜ (302). 21 Mart günü bu maddelerde YOK (yalnız 998/1590)",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "kronoloji_iran.js",
+   "b": "Ferhad Paşa (İstanbul) Antlaşması",
+   "islem": "gun_ekle",
+   "deger": "998 (1590)",
+   "kural": "A2"
+  },
+  {
+   "dosya": "kronoloji_iran.js",
+   "b": "Ferhad Paşa (İstanbul) Antlaşması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "TDV luristan · safeviler · murad-iii — hükümler bu maddelerden; ferhad-pasa-antlasmasi slugu ÖLÜ (302). 21 Mart günü bu maddelerde YOK (yalnız 998/1590)",
+   "kural": "A2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "26 Rebîülâhir 1017 (9 Ağustos 1608)",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "EK2 §4: 5 Ağustos günü kaynakta YOK — TDV kalenderoglu-mehmed '26 Rebîülâhir 1017 / 9 Ağustos 1608' (Göksun Boğazı), kuyucu-murad-pasa 'Rebîülâhir 1017 (Ağustos 1608)'. t:1608-08-05 KORUNDU — ekokuma_celali '1608-08-05|Kalenderoğlu' bağları + savaslar.js; D147 ③ 1608-08-09 = 0 · öneri YAMA-KRON2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "Kuyucu Murad Paşa'nın kuyulara doldurduğu isyancılarla anılan tasfiyesi",
+   "yeni": "Kuyucu Murad Paşa'nın, öldürttüğü âsileri kazdırdığı kuyulara doldurduğu rivayet edilen sert tasfiyesi",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması",
+   "islem": "not_ekle",
+   "alan": "d",
+   "not": "EK2 §4: 'kuyulara doldurma' olgu gibi yazılmıştı; TDV kuyucu-murad-pasa bunu (ve 60-70.000 sayısını) 'rivayet edilir' diye veriyor; lakabın öteki rivayeti 1585 Tebriz seferinde atıyla kuyuya düşmesi",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "kuyucu-murad-pasa · kalenderoglu-mehmed",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Oruç Ovası zaferi ve Canbolatoğlu isyanının bastırılması",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "23-24 Ekim 1607 (asıl savaş 24 Ekim)",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "EK2 §4: TDV kuyucu-murad-pasa: çatışmalar 2 Receb 1016 (23 Ekim) başladı, esas savaş ertesi gün; canbolatogullari '3 Receb 1016 / 24 Ekim 1607'; ahmed-i '24 Ekim 1607'. t:1607-10-23 KORUNDU — ekokuma_celali '1607-10-23|Canbolatoğlu' bağları + savaslar.js; D147 ③ 1607-10-24 = 0 · öneri YAMA-KRON2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Oruç Ovası zaferi ve Canbolatoğlu isyanının bastırılması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "kuyucu-murad-pasa · canbolatogullari · ahmed-i",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Tiryaki Hasan Paşa'nın Kanije savunması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "yaklaşık iki bin kişilik garnizonla direndi. Yaptığı ani huruç harekâtları ve hileleriyle düşmanı",
+   "yeni": "9000 kişilik kuvvetiyle direndi. Dışarıdan yardım alamamasına rağmen genel hücumları püskürttü ve huruç harekâtlarıyla düşmanı",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Tiryaki Hasan Paşa'nın Kanije savunması",
+   "islem": "not_ekle",
+   "alan": "d",
+   "not": "EK2 §4: 'yaklaşık iki bin kişilik garnizon' — TDV tiryaki-hasan-pasa '9000 kişilik kuvvet' (kanije: olağan kadro ~1400); 'hileleriyle' TDV'de yok",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Tiryaki Hasan Paşa'nın Kanije savunması",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "9-10 Eylül – 17-18 Kasım 1601",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "EK2 §4: TDV kanije 10 Eylül–17 Kasım · tiryaki-hasan-pasa 9 Eylül varış, çekiliş '22 Cemâziyelevvel 1010 / 18 Kasım 1601' · mehmed-iii 18 Kasım (§4⑥ iç ayrışma, iki uç birlikte gösterildi). t korundu (ekokuma_savas '1601-09-10|Kanije')"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Tiryaki Hasan Paşa'nın Kanije savunması",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "kanije · tiryaki-hasan-pasa · mehmed-iii",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Karayazıcı Abdülhalim ayaklanması",
+   "islem": "degistir",
+   "alan": "d",
+   "eski": "Orta Anadolu'da geniş bir bölgeyi denetimine alarak Urfa'da kendi adına hutbe okuttu",
+   "yeni": "Orta Anadolu'da geniş bir bölgeyi denetimine aldı, Urfa Kalesi'ni ele geçirdi (Kasım 1599) ve 'Halim Şah' unvanıyla padişahlığını ilân ederek kendi tuğrasını taşıyan fermanlar gönderdi",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Karayazıcı Abdülhalim ayaklanması",
+   "islem": "not_ekle",
+   "alan": "d",
+   "not": "EK2 §4: 'Urfa'da kendi adına hutbe okuttu' TDV karayazici-abdulhalim'de YOK; TDV: 'Halim Şah muzaffer bâdâ' tuğralı fermanlar (hutbe-sikke Canbolatoğlu için anlatılıyor). t:1599-06-01 günü kaynaksız (TDV: serdar Ağustos 1599'da yola çıktı, Urfa Kasım 1599) — t korundu: ekokuma_celali/ekonomi/savas '1599-06-01|Karayazıcı' bağları + savaslar.js · öneri YAMA-KRON2",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "b": "Kozluca Bozgunu",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "25 Haziran 1774",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "EK2 §4: TDV kucuk-kaynarca-antlasmasi Kozluca'yı 25 Haziran 1774 veriyor; t:1774-06-20 günü dayanaksızdı. t KORUNDU — ekokuma_antlasma2 '1774-06-20|Kozluca' bağı + savaslar.js; D147 ③ 1774-06-25 = 0 · öneri YAMA-KRON2. Akademik kaynakla (Jülyen/Gregoryen ayrımı dahil) bu oturumda ÖLÇÜLMEDİ"
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "b": "Kanije'nin fethi",
+   "islem": "ata",
+   "alan": "gun",
+   "deger": "11-13 Rebîülâhir 1009 (20-22 Ekim 1600)",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "EK2 §4: TDV kanije '11 Rebîülâhir 1009 (20 Ekim 1600)' ↔ tiryaki-hasan-pasa ve mehmed-iii '13 Rebîülâhir 1009 (22 Ekim 1600)' (§4⑥ iç ayrışma); kronoloji_habsburg ve savaslar.js 22 Ekim taşıyor. t korundu — ekokuma_savas '1600-10-20|Kanije' bağı"
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "b": "Kanije'nin fethi",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "kanije · tiryaki-hasan-pasa · mehmed-iii",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "kronoloji_habsburg.js",
+   "b": "Kanije'nin kaybı",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "TDV tiryaki-hasan-pasa · mehmed-iii: kale 13 Rebîülâhir 1009 (22 Ekim 1600) teslim oldu; TDV kanije 20 Ekim diyor (iç ayrışma)",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not_alan": "d"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "Deli Hasan Paşa isyanı",
+   "islem": "gun_ekle",
+   "deger": "Şevval 1011 (Mart 1603)",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "b": "Deli Hasan Paşa isyanı",
+   "islem": "not_ekle",
+   "alan": "d",
+   "not": "EK2 §4: yukarıdaki 'TDV yalnız yıl veriyor' notu YANLIŞTI — TDV mehmed-iii 'Şevval 1011 / Mart 1603' veriyor (ay düzeyi). t:1603-01-01 kaba güvenli düzeyde kaldı (§4: ay metne yazılır)",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "kronoloji_habsburg.js",
+   "b": "Vasvár Antlaşması — zafere rağmen ödün",
+   "islem": "gun_ekle",
+   "deger": "16 Muharrem 1075 (9 Ağustos 1664)",
+   "kural": "EK2"
+  },
+  {
+   "dosya": "kronoloji_habsburg.js",
+   "b": "Vasvár Antlaşması — zafere rağmen ödün",
+   "islem": "ata",
+   "alan": "kaynak",
+   "deger": "TDV vasvar-antlasmasi: 16 Muharrem 1075 (9 Ağustos 1664); 10 Ağustos Türkçe metindeki tarihin yanlış çevrilmesinden doğan Batı tarihidir",
+   "kural": "EK2",
+   "not_eski": true,
+   "yoksa_ekle": false,
+   "not": "EK2 §4: t:1664-08-10 yanlış gün. t KORUNDU — ekokuma_antlasma2 '1664-08-10|Vasvár' bağı (D181) · öneri YAMA-KRON2: t→1664-08-09 + bağ güncellemesi (kuyruk dosyası Değişmez 2 evreninde değil)",
+   "not_alan": "d"
+  }
+ ]
+}

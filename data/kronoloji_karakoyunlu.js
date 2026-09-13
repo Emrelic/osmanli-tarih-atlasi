@@ -132,7 +132,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
 { t:"1380-01-01", b:"Kara Mehmed başa geçti", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["taht-degisikligi","hukumdar"],
   yer_id:"Erciş",
-  d:"Bayram Hoca'nın ardından Kara Mehmed Karakoyunlu'nun başına geçti. Onun devri, hanedanın Erciş çevresindeki bir beylikten Tebriz'e uzanan bölgesel bir güce dönüştüğü dönemdir; künye onu 'Tebriz'i alarak devleti güçlendiren' hükümdar diye anar.",
+  d:"Bayram Hoca'nın ardından Kara Mehmed Karakoyunlu'nun başına geçti. Onun devri, hanedanın Erciş çevresindeki bir beylikten Tebriz'e uzanan bölgesel bir güce dönüştüğü dönemdir.", ic_not_d:"künye onu 'Tebriz'i alarak devleti güçlendiren' hükümdar diye anar.",
   kaynak:"karakoyunlular" },
 
 // ───────────────────────── KARA MEHMED (1380-1389)
@@ -494,7 +494,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
 { t:"1467-11-10", b:"Gökmescid banisinin ölümüyle yarım kaldı", tur:"mimari",
   onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur"],
   yer_id:"Tebriz",
-  d:"Cihan Şah'ın Uzun Hasan tarafından öldürüldüğü gün Gökmescid henüz tamamlanmamıştı ve inşaat yarım kaldı. Yapı ancak sonraki yıllarda, Akkoyunlu hükümdarı Ebû Muzaffer Yâkub Bahadır Han devrinde, hanımı ve kızı Sâliha Hatun'un katkılarıyla bitirilebildi. ⚠️ Bu madde bilerek Bingöl baskınıyla aynı güne yazıldı: Karakoyunlu'nun en büyük eserinin kaderi, hükümdarın ölümüyle aynı andadır. 📌 Ve eseri bitiren, onu öldürenin oğludur.",
+  d:"Cihan Şah'ın Uzun Hasan tarafından öldürüldüğü gün Gökmescid henüz tamamlanmamıştı ve inşaat yarım kaldı. Yapı ancak sonraki yıllarda, Akkoyunlu hükümdarı Ebû Muzaffer Yâkub Bahadır Han devrinde, hanımı ve kızı Sâliha Hatun'un katkılarıyla bitirilebildi. Karakoyunlu'nun en büyük eserinin kaderi, hükümdarın ölümüyle aynı andadır. 📌 Ve eseri bitiren, onu öldürenin oğludur.", ic_not_d:"Bu madde bilerek Bingöl baskınıyla aynı güne yazıldı.",
   kaynak:"gokmescid" },
 
 { t:"1467-11-10", b:"Cihan Şah, Tebriz'de kendi yaptırdığı Muzafferiye Medresesi'ne gömüldü", tur:"kultur",
@@ -509,10 +509,10 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"Cihan Şah, 'Hakîkî' mahlasıyla Türkçe şiirler yazdı ve Azerî edebiyatında müstakil bir yer edindi. Bir hükümdarın devlet dili olarak Farsça'nın hâkim olduğu bir çevrede Türkçe divan sahibi olması, Karakoyunlu'nun Türkmen kimliğini kültür alanında da sürdürdüğünün göstergesidir.", ic_not_d:"⚠️ TARİH HAKKINDA: kaynak divanın telif yılını VERMİYOR; madde, şairliğin hükümdarlık kimliğinin bir parçası olması sebebiyle cülûs gününe bağlandı. Bu bir TERCİHTİR, ölçüm değildir ve gizlenmiyor.",
   kaynak:"cihan-sah · karakoyunlular" },
 
-{ t:"1438-04-19", b:"Hanedan içinde bir şairler halkası: Pîr Budak, Hüseyin Ali, Şah Saray ve Ârâyiş", tur:"kultur",
+{ t:"1438-04-19", b:"Hanedan içinde bir şairler halkası: Pîr Budak, Hüseyin Ali, Şah Saray ve Ârâyiş", gun:"Cihan Şah devri", tur:"kultur",
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","edebiyat","sosyal"],
   yer_id:"Tebriz",
-  d:"Cihan Şah'ın oğulları Pîr Budak ile Hüseyin Ali ve kızları Şah Saray ile Ârâyiş şair olarak tanınmıştır. Hanedanın hem erkek hem kadın üyelerinin edebî üretimde bulunması, Karakoyunlu sarayının yalnız askerî değil edebî bir muhit de olduğunu gösterir. ⚠️ TARİH HAKKINDA: kaynak bu şairliklerin dönemini yıl olarak vermiyor; madde Cihan Şah'ın cülûsuna bağlandı ve bu bir tercihtir.",
+  d:"Cihan Şah'ın oğulları Pîr Budak ile Hüseyin Ali ve kızları Şah Saray ile Ârâyiş şair olarak tanınmıştır. Hanedanın hem erkek hem kadın üyelerinin edebî üretimde bulunması, Karakoyunlu sarayının yalnız askerî değil edebî bir muhit de olduğunu gösterir.", ic_not_d:"TARİH HAKKINDA: kaynak bu şairliklerin dönemini yıl olarak vermiyor; madde Cihan Şah'ın cülûsuna bağlandı ve bu bir tercihtir.",
   kaynak:"karakoyunlular" },
 
 { t:"1446-01-01", b:"Cihan Şah'ın âlim himayesi ve Molla Câmî ile mektuplaşması", tur:"bilim",
@@ -521,16 +521,16 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"Cihan Şah, aralarında Celâleddin ed-Devvânî'nin de bulunduğu âlimleri himaye etti ve Molla Câmî ile edebî mektuplaşmalar yürüttü, sarayında ilim meclisleri kurdu.", ic_not_d:"⚠️ TARİH HAKKINDA: `celaleddin-ed-devvani` maddesi HTTP 200 döndürdüğü hâlde GÖVDESİ ÇEKİLEMEDİ, bu yüzden Devvânî'nin Karakoyunlu sarayındaki dönemi tarihlendirilemedi; madde devletin en güçlü olduğu Bağdat fethi yılına bağlandı. Bu bir tercihtir. 'TDV'de yok' DEMİYORUM — 'çekilemedi' diyorum.",
   kaynak:"karakoyunlular (himaye) · celaleddin-ed-devvani ÇEKİLEMEDİ" },
 
-{ t:"1438-04-19", b:"Dört halife adına para basımı — Sünnî çizginin sürdüğünün delili", tur:"din",
+{ t:"1438-04-19", b:"Dört halife adına para basımı — Sünnî çizginin sürdüğünün delili", gun:"Karakoyunlu devri", tur:"din",
   onem:4, dunya:1, kapsam:"ic", etiket:["din","ekonomi","sosyal"],
   yer_id:"", kapsam_genis:true,
-  d:"Karakoyunlu hükümdarları dört halifenin adını taşıyan sikkeler bastırdılar. Bu, aynı dönemde Şeyh Cüneyd-i Safevî gibi isimlerin öncülüğünde Şiî hareketlerin bölgede yayılmasına rağmen hanedanın resmî çizgisinde Sünnî unsurların sürdüğünü gösterir. Karakoyunlu'nun mezhep kimliği bu yüzden tek renkli değildir: sikke Sünnî, çevredeki tarikat hareketi Şiîdir ve ikisi aynı devlette yan yana durmaktadır. ⚠️ TARİH HAKKINDA: kaynak sikkelerin basım yılını vermiyor; madde Cihan Şah'ın cülûsuna bağlandı, bir tercihtir. `kapsam_genis` sayılabilecek imparatorluk çapında bir uygulamadır, bu yüzden `yer_id` boştur.",
+  d:"Karakoyunlu hükümdarları dört halifenin adını taşıyan sikkeler bastırdılar. Bu, aynı dönemde Şeyh Cüneyd-i Safevî gibi isimlerin öncülüğünde Şiî hareketlerin bölgede yayılmasına rağmen hanedanın resmî çizgisinde Sünnî unsurların sürdüğünü gösterir. Karakoyunlu'nun mezhep kimliği bu yüzden tek renkli değildir: sikke Sünnî, çevredeki tarikat hareketi Şiîdir ve ikisi aynı devlette yan yana durmaktadır.", ic_not_d:"TARİH HAKKINDA: kaynak sikkelerin basım yılını vermiyor; madde Cihan Şah'ın cülûsuna bağlandı, bir tercihtir. `kapsam_genis` sayılabilecek imparatorluk çapında bir uygulamadır, bu yüzden `yer_id` boştur.",
   kaynak:"karakoyunlular" },
 
-{ t:"1446-01-01", b:"Malî teşkilât: muhassıl ve tahvildarlar eliyle şer'î ve örfî vergi düzeni", tur:"idari",
+{ t:"1446-01-01", b:"Malî teşkilât: muhassıl ve tahvildarlar eliyle şer'î ve örfî vergi düzeni", gun:"Karakoyunlu devri", tur:"idari",
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","ekonomi","hukuk"],
   yer_id:"", kapsam_genis:true,
-  d:"Karakoyunlu Devleti, muhassıl ve tahvildar gibi malî görevliler eliyle hem şer'î hem örfî vergileri toplayan bir maliye teşkilâtı işletiyordu; bu gelirler geniş saray bürokrasisini ve orduyu finanse ediyordu. ⚠️ TARİH HAKKINDA: kaynak bu teşkilâtın kuruluş yılını vermiyor; madde devletin sınırlarının en geniş olduğu ve teşkilâtın en çok yüklendiği Bağdat fethi yılına bağlandı. Bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
+  d:"Karakoyunlu Devleti, muhassıl ve tahvildar gibi malî görevliler eliyle hem şer'î hem örfî vergileri toplayan bir maliye teşkilâtı işletiyordu; bu gelirler geniş saray bürokrasisini ve orduyu finanse ediyordu.", ic_not_d:"TARİH HAKKINDA: kaynak bu teşkilâtın kuruluş yılını vermiyor; madde devletin sınırlarının en geniş olduğu ve teşkilâtın en çok yüklendiği Bağdat fethi yılına bağlandı. Bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"karakoyunlular" },
 
 ];

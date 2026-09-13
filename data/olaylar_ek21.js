@@ -27,7 +27,7 @@ window.OLAYLAR_EK21 = [
     yer_id: "Niğbolu",
     kisiler: "Mihail Kutuzov",
     d:"1806-1812 Osmanlı-Rus savaşında Tuna'nın güney yakasına geçen Rus kuvvetleri Niğbolu'yu 1810 Ekiminde General Kutuzov kumandasında ele geçirmişti. Altı ay sonra, Tuna hattını tutamayacaklarını görünce şehri boşalttılar; ayrılmadan önce kalenin önemli kısmını havaya uçurdular. TDV'nin kaydı şöyledir: \\\"1810 yılı Ekim ayında (1808-1812 Türk-Rus savaşı dönemi) Niğbolu, meşhur Rus Generali Michail Kutuzov'un kuvvetleri tarafından ele geçirildi. Ruslar, şehri terketmeden önce 1811 Nisanında kalenin önemli kısmını havaya uçurup şehre büyük zarar verdiler.\\\" Rus kuvvetlerinin çekilmesinin ardından Osmanlılar kaleyi yeniden yaptırdı; 1813-1814 tarihli kitâbe bu onarımın kaydıdır.", ic_not_d:"⚠️ TDV yalnız ayı veriyor, günü vermiyor — kayıt ayın ilkine yazıldı (CLAUDE.md §8).",
-    gun: "Nisan 1811 (TDV yalnız ayı veriyor, gün kaynakta yok)",
+    gun: "Nisan 1811", ic_not_gun:"TDV yalnız ayı veriyor, gün kaynakta yok",
     kaynak: "nigbolu", duygu: ["⚔️"] },
 
   { t: "1811-05-01",
@@ -41,7 +41,7 @@ window.OLAYLAR_EK21 = [
     yer_id: "Silistre",
     kisiler: "Mihail Kutuzov",
     d:"Tuna'nın en güçlü Osmanlı kalelerinden Silistre 1810'da Rus topçusunun bombardımanına uğramış, bir silâh deposunun patlamasıyla kale ve varoş ağır hasar görmüştü. Ruslar şehri ele geçirdikten sonra burayı tutmak yerine tahkimatını yok etmeyi seçtiler: General Kutuzov surların yıkılmasını emretti ve 1811 Mayısında çara Silistre surlarının havaya uçurulduğunu bildirdi. TDV'nin kaydı: \\\"1810'da şehir Ruslar tarafından bombalandı… Ruslar'ın şehri ele geçirmesinden sonra ve geri çekilmelerinden önce General Kutuzov Silistre'nin yıkılmasını emretti. 1811 Mayısında çara Silistre surlarının havaya uçurulduğunu bildirdi.\\\" Aynı kale 1827-1828 savaşında Ruslar tarafından yeniden alınacak ve o kuşatmayı Helmuth von Moltke ayrıntılı biçimde anlatacaktır.", ic_not_d:"⚠️ TDV yalnız ayı veriyor — kayıt ayın ilkine yazıldı (CLAUDE.md §8).",
-    gun: "Mayıs 1811 (TDV yalnız ayı veriyor, gün kaynakta yok)",
+    gun: "Mayıs 1811", ic_not_gun:"TDV yalnız ayı veriyor, gün kaynakta yok",
     kaynak: "silistre", duygu: ["⚔️"] },
 
   { t: "1811-06-01",
@@ -55,7 +55,7 @@ window.OLAYLAR_EK21 = [
     yer_id: "Rusçuk",
     kisiler: "Mihail Kutuzov, Kaminski",
     d:"Rusçuk, 1806-1812 savaşının Tuna cephesindeki en uzun direnişlerinden birini gösterdi: Count Kaminski kumandasındaki Rus orduları kanlı bir kuşatmanın ardından ancak 26 Eylül 1810'da, garnizonun ve sivillerin şehri güven içinde terketmesi karşılığında teslim alabildiler. Ama Rus tutuşu dokuz ay sürdü. 1811 Haziranında alınan ağır yenilgilerin ardından geri çekilmeye zorlandılar; ayrılmadan önce Başkumandan Kutuzov şehir etrafındaki istihkâmın ve ortaçağ kalesinin havaya uçurulmasını emretti. Çıkan yangında 1810'da şehirde bulunan otuz sekiz caminin on ikisi ve sekiz mescidden ikisi bütünüyle yıkıldı. TDV'nin kaydı: \\\"1811 Haziranında alınan ağır yenilgiler ve tersliklerden sonra Ruslar geri çekilmeye zorlandı. Ayrılmadan önce Başkumandan Kutuzov, şehir etrafındaki istihkâmın ve Ortaçağ dönemi kalesinin havaya uçurulmasını emretti.\\\" İstihkâm barış antlaşmasının ardından yeniden yapıldı. Aynı yılın Ekiminde Slobozia'da kuşatılan Tuna ordusunun âkıbeti, bu geri çekilişin ardından gelen kısa Osmanlı üstünlüğünün nasıl tersine döndüğünü gösterir.", ic_not_d:"⚠️ TDV yalnız ayı veriyor — kayıt ayın ilkine yazıldı (CLAUDE.md §8).",
-    gun: "Haziran 1811 (TDV yalnız ayı veriyor, gün kaynakta yok)",
+    gun: "Haziran 1811", ic_not_gun:"TDV yalnız ayı veriyor, gün kaynakta yok",
     kaynak: "ruscuk", duygu: ["⚔️"] },
 
   // ── ④ DERBEND 1509 — bu madde de bir yamadan DOĞDU (Kafkas paketi) ──

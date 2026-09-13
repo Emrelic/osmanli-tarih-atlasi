@@ -245,7 +245,7 @@ window.OLAYLAR_EK10 = [
   gun:"5 Ekim 1594", yer:"Erdel, Eflak ve Boğdan voyvodalıkları",
   kisiler:"III. Murad, Erdel Prensi Zsigmond Báthory, Eflak Voyvodası Cesur Mihail, Boğdan Voyvodası Aron Vodâ, Papa VIII. Clément, Avusturya Kralı II. Rudolf",
   d:"Uzun Savaş'ın ikinci yılında Osmanlı'nın Orta Avrupa'daki vasal kuşağı bir anda çözüldü. Papa VIII. Clément'in himayesinde kurulan Kutsal İttifak'a önce Erdel Prensi Zsigmond Báthory girdi; Báthory 28 Ağustos 1594'te savaşa karşı çıkan Osmanlı yanlısı beyleri tasfiye ederek içerideki muhalefeti kırmıştı. Ardından Eflak Voyvodası Cesur Mihail ile Boğdan Voyvodası Aron Vodâ da aynı ittifaka katılma kararı aldılar. Böylece Osmanlı'nın Tuna'nın kuzeyindeki üç tâbi prensliği — yüz elli yıldır haraç ödeyen, voyvodası İstanbul'ca onaylanan üç voyvodalık — aynı sonbaharda birden karşı tarafa geçti. Karar 28 Ocak 1595'te Prag'da imzalanan antlaşmayla resmîleşti. Bu, Osmanlı'nın Balkanlar'ın kuzeyindeki dolaylı yönetim düzeninin uğradığı en ağır sarsıntıydı; ayaklanma bastırılacak ama üç prensliğin sadakati bir daha 1526-1593 arasındaki kadar sağlam olmayacaktı.",
-  kaynak:"bogdan", duygu:["🏛"], kapsam_genis:true },
+  kaynak:"bogdan", duygu:["🏛"], kapsam_genis:true, odak_kimlik:["eflak","bogdan","erdel"] },
 
 // ---------------------------------------------------------------------------
 // C-2) 1594 KASIM — ayaklanmanın Tuna hattına vurması
@@ -277,7 +277,7 @@ window.OLAYLAR_EK10 = [
   b:"Eflak'tan çekiliş ve Yergöğü baskını — bastırma seferinin sonuçsuz kalışı",
   gun:"Ekim 1595", yer:"Yergöğü (Giurgiu), Tuna'nın Eflak yakası", yer_id:"Yergöğü (Giurgiu)",
   kisiler:"Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail, Erdel Prensi Zsigmond Báthory",
-  d:"Erdel prensinin kuvvetleriyle birleşen Cesur Mihail'in karşı taarruzu üzerine Sinan Paşa Târgovişte ve Bükreş'i boşaltıp Tuna'ya çekildi. Çekilişin en pahalı anı geçit başında yaşandı: 1595 ekiminde Eflak'tan dönen orduyu takip eden akıncılar Yergöğü'nde Mihail'in baskınına uğradılar. Sefer böylece Eflak'ı doğrudan idareye bağlama hedefine ulaşamadan bitti ve voyvodalık fiilen elden çıkmış olarak kaldı. Osmanlı otoritesi bu üçgende ancak yıllar içinde ve parça parça onarılabildi; Erdel'in itaate dönüşü 1604'te Bocskai ayaklanmasını, cephenin bütünüyle kapanması ise 1606 Zitvatorok Antlaşması'nı bekleyecekti. Haritada bu dönemin üç voyvodalığı hâlâ tâbi renkte görünüyor — ayaklanma yıllarının toprak karşılığı henüz veriye işlenmedi.",
+  d:"Erdel prensinin kuvvetleriyle birleşen Cesur Mihail'in karşı taarruzu üzerine Sinan Paşa Târgovişte ve Bükreş'i boşaltıp Tuna'ya çekildi. Çekilişin en pahalı anı geçit başında yaşandı: 1595 ekiminde Eflak'tan dönen orduyu takip eden akıncılar Yergöğü'nde Mihail'in baskınına uğradılar. Sefer böylece Eflak'ı doğrudan idareye bağlama hedefine ulaşamadan bitti ve voyvodalık fiilen elden çıkmış olarak kaldı. Osmanlı otoritesi bu üçgende ancak yıllar içinde ve parça parça onarılabildi; Erdel'in itaate dönüşü 1604'te Bocskai ayaklanmasını, cephenin bütünüyle kapanması ise 1606 Zitvatorok Antlaşması'nı bekleyecekti.", ic_not_d:"Haritada bu dönemin üç voyvodalığı hâlâ tâbi renkte görünüyor — ayaklanma yıllarının toprak karşılığı henüz veriye işlenmedi.",
   kaynak:"yergogu", duygu:["⚔️"] },
 
 // ---------------------------------------------------------------------------

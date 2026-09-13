@@ -122,8 +122,8 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1541-08-29", b:"Budin'in fethi — Macaristan üçe bölündü", tur:"bolunme", onem:4, dunya:3, kapsam:"dis", yer_id:"Budin",
   etiket:["askeri","toprak-kayip"],
-  d:"Budin'in Osmanlı idaresine geçmesiyle Macaristan üç parçaya ayrıldı: Osmanlı Macaristanı, kuzey-batıda Habsburg Kraliyet Macaristanı ve tâbi Erdel. Bu bölünme 1699'a kadar sürdü ve Habsburg siyasetinin merkezine Macaristan'ı geri alma hedefini yerleştirdi.",
-  kaynak:"devletler.js `habsburg` künyesinden devralındı · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihidir, bu oturumda bağımsız kaynakla sınanmadı)" },
+  d:"Budin'in Osmanlı idaresine geçmesiyle Macaristan üç parçaya ayrıldı: Osmanlı Macaristanı, kuzey-batıda Habsburg Kraliyet Macaristanı ve tâbi Erdel. Bu bölünme 1699'a kadar sürdü ve Habsburg siyasetinin merkezine Macaristan'ı geri alma hedefini yerleştirdi.", ic_not_d:"eski kaynak: devletler.js `habsburg` künyesinden devralındı · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihidir, bu oturumda bağımsız kaynakla sınanmadı)",
+  kaynak:"TDV suleyman-i: ordu 26 Ağustos 1541'de Budin önüne vardı, padişah 2 Eylül'de şehre girdi · budin: eyalet 948/1541 — 29 Ağustos günü bu iki maddede YOK" },
 
 { t:"1547-01-01", b:"İstanbul Mütarekesi — Habsburg'un vergi karşılığı barışı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["diplomasi"],
@@ -185,8 +185,8 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1600-10-22", b:"Kanije'nin kaybı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Kanije",
   etiket:["askeri","toprak-kayip"],
-  d:"Kanije kalesi Osmanlı eline geçti ve Habsburg savunma hattında güneybatıya açılan bir gedik oluştu. Ertesi yıl kaleyi geri alma girişimi de başarısız oldu.",
-  kaynak:"depo savaslar.js (1600-10-22)" },
+  d:"Kanije kalesi Osmanlı eline geçti ve Habsburg savunma hattında güneybatıya açılan bir gedik oluştu. Ertesi yıl kaleyi geri alma girişimi de başarısız oldu.", ic_not_d:"eski kaynak: depo savaslar.js (1600-10-22)",
+  kaynak:"TDV tiryaki-hasan-pasa · mehmed-iii: kale 13 Rebîülâhir 1009 (22 Ekim 1600) teslim oldu; TDV kanije 20 Ekim diyor (iç ayrışma)" },
 
 { t:"1604-01-01", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","din","milliyetcilik"],
@@ -261,10 +261,10 @@ window.KRONOLOJI_HABSBURG = [
   d:"Montecuccoli komutasındaki imparatorluk ordusu Raab nehri kıyısında Osmanlı ordusunu yendi. Bu, Habsburg'un Osmanlı'ya karşı kazandığı ilk büyük meydan muharebesidir ve Avusturya askerî anlatısında bir dönüşün işareti sayılır.",
   kaynak:"depo savaslar.js (1664-08-01)", yer_kon:[46.94,16.27] },
 
-{ t:"1664-08-10", b:"Vasvár Antlaşması — zafere rağmen ödün", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1664-08-10", b:"Vasvár Antlaşması — zafere rağmen ödün", gun:"16 Muharrem 1075 (9 Ağustos 1664)", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma"],
-  d:"Sen Gotar zaferinin hemen ardından imzalanan antlaşma, Uyvar'ın Osmanlı'da kalmasını kabul etti. Macar soyluları bunu ihanet saydı; antlaşma, birkaç yıl sonraki Wesselényi tertibinin başlıca sebebi oldu.",
-  kaynak:"depo savaslar.js (1664-08-10) · TDV `vasvar-antlasmasi` slug CANLI · TDV `avusturya`", yer_kon:[47.048,16.804] },
+  d:"Sen Gotar zaferinin hemen ardından imzalanan antlaşma, Uyvar'ın Osmanlı'da kalmasını kabul etti. Macar soyluları bunu ihanet saydı; antlaşma, birkaç yıl sonraki Wesselényi tertibinin başlıca sebebi oldu.", ic_not_d:"EK2 §4: t:1664-08-10 yanlış gün. t KORUNDU — ekokuma_antlasma2 '1664-08-10|Vasvár' bağı (D181) · öneri YAMA-KRON2: t→1664-08-09 + bağ güncellemesi (kuyruk dosyası Değişmez 2 evreninde değil) · eski kaynak: depo savaslar.js (1664-08-10) · TDV `vasvar-antlasmasi` slug CANLI · TDV `avusturya`",
+  kaynak:"TDV vasvar-antlasmasi: 16 Muharrem 1075 (9 Ağustos 1664); 10 Ağustos Türkçe metindeki tarihin yanlış çevrilmesinden doğan Batı tarihidir", yer_kon:[47.048,16.804] },
 
 { t:"1671-04-30", b:"Wesselényi tertibinin bastırılması ve Macar anayasasının askıya alınması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"Viyana",
   etiket:["isyan","anayasa"],

@@ -112,7 +112,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1346-04-16", b:"Duşan imparatorluk tacı giydi (Üsküp meclisi)", tur:"hukumdar",
   onem:5, dunya:3, kapsam:"dis", etiket:["hukumdar","siyaset"],
   yer_id:"Üsküp",
-  d:"Duşan kendini 'Sırpların ve Rumların çarı' ilan ederek Bizans'a rakip bir imparatorluk kurdu, başkentini Serez'e taşıdı. TDV maddesi olayı '1345'te' verip gün belirtmiyor; taç giyme töreninin gününü (Paskalya, 16 Nisan 1346, Üsküp) standart akademik literatür kesinleştiriyor.",
+  d:"Duşan kendini 'Sırpların ve Rumların çarı' ilan ederek Bizans'a rakip bir imparatorluk kurdu, başkentini Serez'e taşıdı. Taç giyme töreni 16 Nisan 1346 Paskalya günü Üsküp'te yapıldı.", ic_not_d:"TDV maddesi olayı '1345'te' verip gün belirtmiyor; taç giyme töreninin gününü (Paskalya, 16 Nisan 1346, Üsküp) standart akademik literatür kesinleştiriyor.",
   kaynak:"TDV `sirbistan`: '1345'te kendisini Sırplar'ın ve Yunanlılar'ın çarı ve hükümdarı ilân etti.' Gün: akademik (J.V.A. Fine, The Late Medieval Balkans, 1994) — devletler.js künyesiyle de örtüşüyor." },
 
 { t:"1355-12-20", b:"Duşan'ın ani ölümü, imparatorluğun parçalanması başladı", tur:"bolunme",

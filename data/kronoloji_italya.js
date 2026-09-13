@@ -263,13 +263,13 @@ window.KRONOLOJI_ITALYA = [
 
 { t:"1480-08-11", b:"Otranto'nun Osmanlı çıkarmasıyla işgali", tur:"isgal", onem:5, dunya:4, kapsam:"dis", yer_id:"Otranto",
   etiket:["napoli","isgal","askeri"],
-  d:"Gedik Ahmed Paşa komutasındaki Osmanlı donanması Otranto'ya çıkarma yaptı, şehri kısa süreli bir katliamın ardından ele geçirdi — Osmanlı kuvvetlerinin İtalyan anakarasına ayak bastığı tek örnektir. İşgal, Napoli Krallığı'nı ve Papalık'ı derin bir paniğe sürükledi; II. Mehmed'in ölümü (1481) üzerine Osmanlı garnizonu geri çekildi.",
-  kaynak:"data/devletler.js `napoli` embedded kronoloji (TDV `napoli` maddesinden alınmış): \"Otranto, Osmanlı çıkarmasıyla kısa süreliğine işgal edildi (1481'de geri alındı)\"" },
+  d:"Gedik Ahmed Paşa komutasındaki Osmanlı donanması Otranto'ya çıkarma yaptı, şehri top ateşiyle, savaşarak ele geçirdi — Osmanlı kuvvetlerinin İtalyan anakarasına ayak bastığı tek örnektir. İşgal, Napoli Krallığı'nı ve Papalık'ı derin bir paniğe sürükledi; II. Mehmed'in ölümü (1481) üzerine Osmanlı garnizonu geri çekildi.", ic_not_d:"A2 §4b: 'kısa süreli bir katliamın ardından' TDV otranto-seferi ile uyuşmuyordu · eski kaynak: data/devletler.js `napoli` embedded kronoloji (TDV `napoli` maddesinden alınmış): \"Otranto, Osmanlı çıkarmasıyla kısa süreliğine işgal edildi (1481'de geri alındı)\" · eski ifade: şehri kısa süreli bir katliamın ardından ele geçirdi",
+  kaynak:"otranto-seferi (TDV): hisar toplarla zaptedildi, direnen ileri gelenlerin bir kısmı idam edildi; ölü sayısının abartıldığı kaydedilir" },
 
 { t:"1481-09-10", b:"Otranto'nun geri alınması", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Otranto",
   etiket:["napoli","askeri","toprak-kazanc"],
-  d:"II. Mehmed'in ölümünün ardından Osmanlı garnizonu tahliye olunca, Napoli Kralı I. Ferrante'nin oğlu Calabria Dükü Alfonso komutasındaki kuvvetler şehri geri aldı; bir yıllık işgal İtalya'nın hafızasında derin iz bıraktı.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; data/devletler.js embedded notundaki \"1481'de geri alındı\" ile uyumlu, gün ayrıca doğrulanmadı" },
+  d:"II. Mehmed'in ölümünün ardından Osmanlı garnizonu tahliye olunca, Napoli Kralı I. Ferrante'nin oğlu Calabria Dükü Alfonso komutasındaki kuvvetler şehri geri aldı; bir yıllık işgal İtalya'nın hafızasında derin iz bıraktı.", ic_not_d:"eski kaynak: bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; data/devletler.js embedded notundaki \"1481'de geri alındı\" ile uyumlu, gün ayrıca doğrulanmadı",
+  kaynak:"bayezid-ii (TDV): Türk garnizonu Napoli kuvvetlerine teslim oldu (10 Eylül 1481) — gün DOĞRULANDI · otranto-seferi" },
 
 { t:"1495-02-22", b:"Charles VIII'in Napoli'ye girmesi — İtalyan Savaşları'nın açılışı", tur:"isgal", onem:5, dunya:5, kapsam:"dis", yer_id:"Napoli",
   etiket:["napoli","isgal","askeri"],
@@ -353,7 +353,7 @@ window.KRONOLOJI_ITALYA = [
 
 { t:"1860-05-11", b:"Garibaldi'nin Bin'i Marsala'ya çıkar", tur:"isgal", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["napoli","milliyetcilik","askeri"],
-  d:"Giuseppe Garibaldi, Cenova'dan yola çıkan yaklaşık bin gönüllü kızıl gömlekliyle Sicilya'nın batı kıyısındaki Marsala'ya çıkarma yaptı; bu küçük sefer, İki Sicilya Krallığı'nı birkaç ay içinde çökertip İtalyan birleşmesini geri döndürülemez hâle getirecekti — Risorgimento'nun en simgesel askeri harekâtıdır. (Marsala yerleşim veri tabanında kayıtlı değil.)",
+  d:"Giuseppe Garibaldi, Cenova'dan yola çıkan yaklaşık bin gönüllü kızıl gömlekliyle Sicilya'nın batı kıyısındaki Marsala'ya çıkarma yaptı; bu küçük sefer, İki Sicilya Krallığı'nı birkaç ay içinde çökertip İtalyan birleşmesini geri döndürülemez hâle getirecekti — Risorgimento'nun en simgesel askeri harekâtıdır.", ic_not_d:"Marsala yerleşim veri tabanında kayıtlı değil.",
   kaynak:"Treccani, Dizionario di Storia, 'Spedizione dei Mille' (gövdesi WebFetch ile okundu): \"sbarcarono a Marsala l'11 maggio 1860\"", yer_kon:[37.799,12.436] },
 
 { t:"1860-05-15", b:"Calatafimi Savaşı — Bin'in ilk zaferi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",

@@ -29,7 +29,7 @@ window.OLAYLAR_KAMERIKA = [
       "📌"
     ],
     "kaynak": "bulunamadı",
-    "d": "Britanya Kraliyet Meclisi'nin kararıyla, Kuzey Amerika'nın kuzeyindeki bütün adalar ve hakları Kanada Dominyonu'na devredildi. Karar, 1870'te Rupert's Land'in devrini tamamlayan son adımdı ve Kanada'nın bugünkü kuzey sınırlarını kâğıt üzerinde kurdu. Devir, o topraklarda yaşayan İnuit topluluklarına danışılmadan yapıldı ve fiilî idare on yıllarca kurulmadı. Bu gün, atlasta otuz üç İnuit yerleşiminin bağlı olduğu kimliğin değiştiği gündür. TDV bu coğrafyayı kapsamamaktadır; Historical Atlas of Canada (University of Toronto Press) esas alındı."
+    "d": "Britanya Kraliyet Meclisi'nin kararıyla, Kuzey Amerika'nın kuzeyindeki bütün adalar ve hakları Kanada Dominyonu'na devredildi. Karar, 1870'te Rupert's Land'in devrini tamamlayan son adımdı ve Kanada'nın bugünkü kuzey sınırlarını kâğıt üzerinde kurdu. Devir, o topraklarda yaşayan İnuit topluluklarına danışılmadan yapıldı ve fiilî idare on yıllarca kurulmadı.", "ic_not_d": "Bu gün, atlasta otuz üç İnuit yerleşiminin bağlı olduğu kimliğin değiştiği gündür. TDV bu coğrafyayı kapsamamaktadır; Historical Atlas of Canada (University of Toronto Press) esas alındı."
   },
 
   {
@@ -50,7 +50,7 @@ window.OLAYLAR_KAMERIKA = [
       "🤝"
     ],
     "kaynak": "bulunamadı",
-    "d": "Doğu Şoşonileri ile Bannockların ABD ile imzaladığı antlaşma, Washakie önderliğindeki Şoşonilere Wind River havzasında bir rezervasyon tanıdı. Şoşoniler, ovalarda ABD'ye karşı savaşan öteki halkların aksine ittifak yolunu seçmiş ve yurtlarının bir bölümünü bu sayede elde tutmuştu. Antlaşma, Büyük Havza'nın kuzey kesimindeki Şoşoni topraklarının hukukî statüsünü belirledi. TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.11 (Smithsonian) esas alındı."
+    "d": "Doğu Şoşonileri ile Bannockların ABD ile imzaladığı antlaşma, Washakie önderliğindeki Şoşonilere Wind River havzasında bir rezervasyon tanıdı. Şoşoniler, ovalarda ABD'ye karşı savaşan öteki halkların aksine ittifak yolunu seçmiş ve yurtlarının bir bölümünü bu sayede elde tutmuştu. Antlaşma, Büyük Havza'nın kuzey kesimindeki Şoşoni topraklarının hukukî statüsünü belirledi.", "ic_not_d": "TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.11 (Smithsonian) esas alındı."
   },
 
   {
@@ -92,7 +92,7 @@ window.OLAYLAR_KAMERIKA = [
       "📌"
     ],
     "kaynak": "bulunamadı",
-    "d": "Yedi Yıl Savaşı'nın sonuna doğru Fransa, Mississippi'nin batısındaki Luizyana'yı ve New Orleans'ı gizli bir antlaşmayla İspanya'ya bıraktı. Böylece Fransa'nın Kuzey Amerika'daki varlığı fiilen sona erdi: ertesi yıl Paris Antlaşması ırmağın doğusunu Britanya'ya verecekti. Atlasta bu ayrım önemlidir — Luizyana İspanya'ya, İllinois ülkesi Britanya'ya gitti ve iki bölge o günden sonra farklı kimlikler taşır. TDV bu coğrafyayı kapsamamaktadır."
+    "d": "Yedi Yıl Savaşı'nın sonuna doğru Fransa, Mississippi'nin batısındaki Luizyana'yı ve New Orleans'ı gizli bir antlaşmayla İspanya'ya bıraktı. Böylece Fransa'nın Kuzey Amerika'daki varlığı fiilen sona erdi: ertesi yıl Paris Antlaşması ırmağın doğusunu Britanya'ya verecekti.", "ic_not_d": "Atlasta bu ayrım önemlidir — Luizyana İspanya'ya, İllinois ülkesi Britanya'ya gitti ve iki bölge o günden sonra farklı kimlikler taşır. TDV bu coğrafyayı kapsamamaktadır."
   },
 
   {
@@ -113,7 +113,7 @@ window.OLAYLAR_KAMERIKA = [
       "🤝"
     ],
     "kaynak": "bulunamadı",
-    "d": "ABD ile Kuzey Ovalar halkları arasında imzalanan antlaşma, Lakota, Karga, Mandan, Hidatsa, Arikara, Şayen, Arapaho ve Assiniboine topraklarının sınırlarını ilk kez yazılı olarak tanımladı ve göçmen yollarının güvenliğini karşılığında bağladı. Sınırlar kısa sürede aşıldı, ama atlasta bu gün Missouri kıyısındaki köy halklarının kimliğinin tanımlandığı gündür. TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.13 (Smithsonian) esas alındı."
+    "d": "ABD ile Kuzey Ovalar halkları arasında imzalanan antlaşma, Lakota, Karga, Mandan, Hidatsa, Arikara, Şayen, Arapaho ve Assiniboine topraklarının sınırlarını ilk kez yazılı olarak tanımladı ve göçmen yollarının güvenliğini karşılığında bağladı. Sınırlar kısa sürede aşıldı.", "ic_not_d": "ama atlasta bu gün Missouri kıyısındaki köy halklarının kimliğinin tanımlandığı gündür. TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.13 (Smithsonian) esas alındı."
   },
 
   {
@@ -124,7 +124,7 @@ window.OLAYLAR_KAMERIKA = [
       "idari"
     ],
     "b": "Fort Halkett kuruldu — Liard boyunca kürk hattı",
-    "gun": "1829 — kaynak yıl verir, gün vermez",
+    "gun": "1829", "ic_not_gun": "kaynak yıl verir, gün vermez",
     "yer": "Liard Irmağı",
     "yer_id": "Fort Halkett (Liard)",
     "kisiler": "Hudson's Bay Company",
@@ -134,7 +134,7 @@ window.OLAYLAR_KAMERIKA = [
       "📌"
     ],
     "kaynak": "bulunamadı",
-    "d": "Hudson's Bay Company, Liard Irmağı üzerinde Fort Halkett'i kurarak Mackenzie havzasından Kayalıklar'ın batısına uzanan kürk hattını uzattı. Karakol, Kaska Dene topraklarında şirketin en batıdaki ileri mevkilerinden biriydi. ⚠️ Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Historical Atlas of Canada esas alındı."
+    "d": "Hudson's Bay Company, Liard Irmağı üzerinde Fort Halkett'i kurarak Mackenzie havzasından Kayalıklar'ın batısına uzanan kürk hattını uzattı. Karakol, Kaska Dene topraklarında şirketin en batıdaki ileri mevkilerinden biriydi.", "ic_not_d": "Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Historical Atlas of Canada esas alındı."
   },
 
   {
@@ -145,7 +145,7 @@ window.OLAYLAR_KAMERIKA = [
       "idari"
     ],
     "b": "Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi",
-    "gun": "1829 — kaynak yıl verir, gün vermez",
+    "gun": "1829", "ic_not_gun": "kaynak yıl verir, gün vermez",
     "yer": "Kuzey Saskatchewan Irmağı",
     "yer_id": "Fort Pitt",
     "kisiler": "Hudson's Bay Company",
@@ -155,7 +155,7 @@ window.OLAYLAR_KAMERIKA = [
       "📌"
     ],
     "kaynak": "bulunamadı",
-    "d": "Hudson's Bay Company, Fort Carlton ile Fort Edmonton arasındaki boşluğu kapatmak için Kuzey Saskatchewan kıyısında Fort Pitt'i kurdu. Karakol pemmican tedarikinin ana merkezlerinden biri oldu ve Ova Krileri ile şirket arasındaki ticaretin düğüm noktası hâline geldi. ⚠️ Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
+    "d": "Hudson's Bay Company, Fort Carlton ile Fort Edmonton arasındaki boşluğu kapatmak için Kuzey Saskatchewan kıyısında Fort Pitt'i kurdu. Karakol pemmican tedarikinin ana merkezlerinden biri oldu ve Ova Krileri ile şirket arasındaki ticaretin düğüm noktası hâline geldi.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
   {
@@ -165,7 +165,7 @@ window.OLAYLAR_KAMERIKA = [
       "idari"
     ],
     "b": "Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim",
-    "gun": "1829 — kaynak yıl verir, gün vermez",
+    "gun": "1829", "ic_not_gun": "kaynak yıl verir, gün vermez",
     "yer": "Ozark yaylası, Missouri",
     "yer_id": "Springfield (Missouri, Ozark)",
     "kisiler": "John Polk Campbell",
@@ -175,7 +175,7 @@ window.OLAYLAR_KAMERIKA = [
       "📌"
     ],
     "kaynak": "bulunamadı",
-    "d": "Missouri'nin güneybatısında, Osage topraklarının doğu ucundaki Ozark yaylasında Springfield kuruldu. Yerleşim, Osage'ın 1825'te bölgeyi bırakmasından sonra açılan araziye yönelen göçün merkezi oldu ve güneybatı Missouri'nin ana kasabası hâline geldi. ⚠️ Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Handbook of North American Indians c.13 (Smithsonian) esas alındı."
+    "d": "Missouri'nin güneybatısında, Osage topraklarının doğu ucundaki Ozark yaylasında Springfield kuruldu. Yerleşim, Osage'ın 1825'te bölgeyi bırakmasından sonra açılan araziye yönelen göçün merkezi oldu ve güneybatı Missouri'nin ana kasabası hâline geldi.", "ic_not_d": "Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Handbook of North American Indians c.13 (Smithsonian) esas alındı."
   },
 
   {
@@ -185,7 +185,7 @@ window.OLAYLAR_KAMERIKA = [
       "ekonomi"
     ],
     "b": "Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi",
-    "gun": "1803 — kaynak yıl verir, gün vermez",
+    "gun": "1803", "ic_not_gun": "kaynak yıl verir, gün vermez",
     "yer": "Thunder Bay, Superior Gölü",
     "yer_id": "Fort William (Thunder Bay)",
     "kisiler": "Kuzeybatı Şirketi (North West Company)",
@@ -195,7 +195,7 @@ window.OLAYLAR_KAMERIKA = [
       "📌"
     ],
     "kaynak": "bulunamadı",
-    "d": "Kuzeybatı Şirketi, Grand Portage'ın ABD toprağında kalması üzerine iç merkezini Superior Gölü'nün kuzeyine taşıdı ve Fort William'ı kurdu. Karakol, Montreal'den gelen kanolarla iç bölgeden gelen kürklerin buluştuğu yıllık toplantı yeriydi ve şirketin kıta ölçeğindeki ağının kalbi oldu. ⚠️ Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
+    "d": "Kuzeybatı Şirketi, Grand Portage'ın ABD toprağında kalması üzerine iç merkezini Superior Gölü'nün kuzeyine taşıdı ve Fort William'ı kurdu. Karakol, Montreal'den gelen kanolarla iç bölgeden gelen kürklerin buluştuğu yıllık toplantı yeriydi ve şirketin kıta ölçeğindeki ağının kalbi oldu.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
   {
@@ -206,7 +206,7 @@ window.OLAYLAR_KAMERIKA = [
       "idari"
     ],
     "b": "Fort Dearborn kuruldu — Chicago geçidinde ABD karakolu",
-    "gun": "1803 — kaynak yıl verir, gün vermez",
+    "gun": "1803", "ic_not_gun": "kaynak yıl verir, gün vermez",
     "yer": "Chicago",
     "yer_id": "Chicago (Fort Dearborn)",
     "kisiler": "ABD Ordusu",
@@ -216,7 +216,7 @@ window.OLAYLAR_KAMERIKA = [
       "📌"
     ],
     "kaynak": "bulunamadı",
-    "d": "ABD ordusu, Michigan Gölü ile Mississippi havzasını birleştiren Chicago geçidinde Fort Dearborn'u kurdu. Geçit 1670'lerden beri biliniyor ve kullanılıyordu; kale, Kuzeybatı Toprakları'nda ABD denetiminin batıya uzanışını işaretledi. ⚠️ Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
+    "d": "ABD ordusu, Michigan Gölü ile Mississippi havzasını birleştiren Chicago geçidinde Fort Dearborn'u kurdu. Geçit 1670'lerden beri biliniyor ve kullanılıyordu; kale, Kuzeybatı Toprakları'nda ABD denetiminin batıya uzanışını işaretledi.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
   {
@@ -226,7 +226,7 @@ window.OLAYLAR_KAMERIKA = [
       "ekonomi"
     ],
     "b": "Fort George (Chisasibi) kuruldu — James Körfezi'nin doğu kıyısı",
-    "gun": "1803 — kaynak yıl verir, gün vermez",
+    "gun": "1803", "ic_not_gun": "kaynak yıl verir, gün vermez",
     "yer": "La Grande Irmağı, James Körfezi",
     "yer_id": "Chisasibi (Fort George)",
     "kisiler": "Hudson's Bay Company",
@@ -236,7 +236,7 @@ window.OLAYLAR_KAMERIKA = [
       "📌"
     ],
     "kaynak": "bulunamadı",
-    "d": "Hudson's Bay Company, James Körfezi'nin doğu kıyısında La Grande Irmağı ağzında Fort George'u kurdu. Karakol, iç bölgedeki Kri gruplarının kıyıya inmeden ticaret yapabilmesini sağladı ve şirketin doğu kıyı hattını tamamladı. ⚠️ Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
+    "d": "Hudson's Bay Company, James Körfezi'nin doğu kıyısında La Grande Irmağı ağzında Fort George'u kurdu. Karakol, iç bölgedeki Kri gruplarının kıyıya inmeden ticaret yapabilmesini sağladı ve şirketin doğu kıyı hattını tamamladı.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
 ];

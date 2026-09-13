@@ -150,7 +150,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1397-01-01", b:"Dehlek adasının Habeşistan'a bağlanması", tur:"toprak", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip","ticaret"],
-  d:"İbn Mismâr yönetimindeki Dehlek adası 1397'den sonra Habeşistan'a bağlandı. Kızıldeniz'in Afrika yakasındaki en eski müslüman yerleşimlerinden biri olan takımada böylece hıristiyan krallığın denetimine girdi. (Dehlek atlasta yerleşim noktası olarak KAYITLI DEĞİL — yer_id boş bırakıldı.)",
+  d:"İbn Mismâr yönetimindeki Dehlek adası 1397'den sonra Habeşistan'a bağlandı. Kızıldeniz'in Afrika yakasındaki en eski müslüman yerleşimlerinden biri olan takımada böylece hıristiyan krallığın denetimine girdi.", ic_not_d:"Dehlek atlasta yerleşim noktası olarak KAYITLI DEĞİL — yer_id boş bırakıldı.",
   kaynak:"TDV `etiyopya`: \"1397'den sonra İbn Mismâr yönetimindeki Dehlek adası da Habeşistan'a bağlanmış\"", yer_id:"Dahlak" },
 
 { t:"1403-01-01", b:"Sultan II. Sa'deddin Zeyla'a sığındı", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Zeyla",
@@ -200,7 +200,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1529-03-09", b:"Şimbra Kure Muharebesi — Habeş ordusunun bozguna uğratılması", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak"],
-  d:"Ahmed el-Mücâhid, Lebna Dengel'in seferber ettiği kalabalık Habeş ordusunu Şimbra Kure'de yenilgiye uğrattı. Bu zafer yaylayı Adal kuvvetlerine açtı ve ertesi yıl başlayacak eyalet eyalet fethin kapısını araladı. (Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Ahmed el-Mücâhid, Lebna Dengel'in seferber ettiği kalabalık Habeş ordusunu Şimbra Kure'de yenilgiye uğrattı. Bu zafer yaylayı Adal kuvvetlerine açtı ve ertesi yıl başlayacak eyalet eyalet fethin kapısını araladı.", ic_not_d:"Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"bulunamadı — TDV `ahmed-el-mucahid` ve `etiyopya` maddeleri bu savaşın adını ve gününü VERMİYOR; gün `data/devletler.js` `habesistan`/`adal` künyelerinden devralındı, TDV yalnız 1527'den itibaren cihadın sürdüğünü söylüyor", yer_kon:[8.75,38.98] },
 
 { t:"1530-01-01", b:"Fatagar ve Evfât bölgelerinin fethi", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"",
@@ -250,7 +250,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1543-02-21", b:"Wayna Daga Muharebesi — Ahmed el-Mücâhid öldürüldü, istilâ çöktü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","hanedan"],
-  d:"Habeşistan'ın geri kalanını da almak isteyen Ahmed el-Mücâhid, ordusunu yeterince takviye etmeden giriştiği ikinci savaşta Tana gölü civarındaki Woina Daga'da yenildi ve hayatını kaybetti. Ölümü, on altı yıllık fethi bir yıl içinde geri aldırdı ve Habeşistan'da İslâmiyet'in siyasî yayılışını kalıcı olarak durdurdu. (Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Habeşistan'ın geri kalanını da almak isteyen Ahmed el-Mücâhid, ordusunu yeterince takviye etmeden giriştiği ikinci savaşta Tana gölü civarındaki Woina Daga'da yenildi ve hayatını kaybetti. Ölümü, on altı yıllık fethi bir yıl içinde geri aldırdı ve Habeşistan'da İslâmiyet'in siyasî yayılışını kalıcı olarak durdurdu.", ic_not_d:"Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `etiyopya`: \"Tana gölü civarında yaptığı Woina Daga savaşında yenildi ve hayatını kaybetti (21 Şubat 1543)\" · dunya puanı kronoloji_portekiz.js 1543-02-21 kaydından devralındı", yer_kon:[12.283,37.45] },
 
 { t:"1543-02-22", b:"Adal Sultanlığı'nın dağılması, müslüman varlığının sahile çekilmesi", tur:"yikilis", onem:5, dunya:2, kapsam:"ic", yer_id:"Harar",
@@ -290,12 +290,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1577-01-01", b:"Vebi nehri bozgunu — Harar Emirliği'nin ileri gelenleri öldürüldü", tur:"savas", onem:5, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","hanedan"],
-  d:"Habeş Meliki Sartsa Dengel'in kuzeyde Osmanlılarla, güneyde muhalifleriyle uğraşmasını fırsat bilen Emîr Muhammed cihad ilân etti; fakat 1577'de Vebi (Webi) nehri kıyılarında yaptığı savaşta yenildi ve kendisiyle birlikte Harar Emirliği'nin bütün ileri gelenleri öldürüldü. (Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Habeş Meliki Sartsa Dengel'in kuzeyde Osmanlılarla, güneyde muhalifleriyle uğraşmasını fırsat bilen Emîr Muhammed cihad ilân etti; fakat 1577'de Vebi (Webi) nehri kıyılarında yaptığı savaşta yenildi ve kendisiyle birlikte Harar Emirliği'nin bütün ileri gelenleri öldürüldü.", ic_not_d:"Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `harar`: \"1577'de Webi nehri kıyılarında yaptığı savaşta yenildi ve kendisiyle birlikte Harar Emirliği'nin bütün ileri gelenleri öldürüldü\"" },
 
 { t:"1577-01-02", b:"Merkezin Aussa'ya nakli ve Harar Sultanlığı'nın Galla göçebelerince yıkılışı", tur:"yikilis", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["goc","idari"],
-  d:"Merkezi Denkalî çölündeki Aussa'ya nakledilen Harar Sultanlığı, Galla (Oromo) göçebeleri tarafından yıkıldı. Doğu Afrika'nın en güçlü İslâm devleti böylece bir çöl vahasına sığınmış bir imamlığa dönüştü. (Aussa atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Merkezi Denkalî çölündeki Aussa'ya nakledilen Harar Sultanlığı, Galla (Oromo) göçebeleri tarafından yıkıldı. Doğu Afrika'nın en güçlü İslâm devleti böylece bir çöl vahasına sığınmış bir imamlığa dönüştü.", ic_not_d:"Aussa atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `etiyopya`: \"merkezi Denkalî çölündeki Aussa'ya nakledilen Harar Sultanlığı da Galla göçebeleri tarafından yıkıldı (1577)\"", yer_id:"Asâyita (Avsa)" },
 
 { t:"1647-01-01", b:"Harar'ın yeniden bağımsız emirlik oluşu", tur:"kurulus", onem:5, dunya:1, kapsam:"ic", yer_id:"Harar",
@@ -325,7 +325,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1887-01-07", b:"Şeleneko Muharebesi — Harar Emirliği'nin sonu", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Harar",
   etiket:["askeri","toprak-kayip"],
-  d:"Cihad ilân eden Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşleri Şeleneko'da karşıladı; yenileceğini anlayınca güney Harar'daki Ogaden bölgesine kaçtı. II. Menelik şehri ilhak etti ve Adal-Harar zincirinin 472 yıllık siyasî varlığı sona erdi. (Şeleneko atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Cihad ilân eden Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşleri Şeleneko'da karşıladı; yenileceğini anlayınca güney Harar'daki Ogaden bölgesine kaçtı. II. Menelik şehri ilhak etti ve Adal-Harar zincirinin 472 yıllık siyasî varlığı sona erdi.", ic_not_d:"Şeleneko atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `harar`: \"Cihad ilân eden Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşler'i Şeleneko'da karşıladı\"" },
 
 { t:"1911-01-01", b:"Harar'da Osmanlı maslahatgüzarlığının açılması", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis", yer_id:"Harar",
@@ -426,7 +426,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1559-01-01", b:"Debârvâ'nın alınması ve müstahkem üsse dönüştürülmesi", tur:"toprak", onem:4, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","mimari"],
-  d:"Debârvâ (Debaroa) ve çevresi 1559'da Osmanlı hâkimiyetine alındı; buraya cami ve garnizon konularak müstahkem bir üs kuruldu. Debârvâ, Sevâkin ve Masavva ile birlikte eyaletin üç büyük garnizon merkezinden biridir. (Debârvâ atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Debârvâ (Debaroa) ve çevresi 1559'da Osmanlı hâkimiyetine alındı; buraya cami ve garnizon konularak müstahkem bir üs kuruldu. Debârvâ, Sevâkin ve Masavva ile birlikte eyaletin üç büyük garnizon merkezinden biridir.", ic_not_d:"Debârvâ atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `habes-eyaleti`: \"Debârvâ (Debaroa, Davâro) ve çevresi 1559'da Osmanlı hâkimiyetine alındı\"", yer_kon:[15.097,38.833] },
 
 { t:"1559-01-02", b:"Zeyla' iskelesinin Habeş Eyaleti'ne bağlanması ve sancak merkezi yapılması", tur:"idari", onem:4, dunya:2, kapsam:"dis", yer_id:"Zeyla",
@@ -451,7 +451,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1562-04-20", b:"Enderta Muharebesi — Habeş Kralı Minas'ın bozguna uğratılması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
-  d:"Özdemiroğlu Osman Paşa, kendisine katılan yerli Habeş kuvvetlerinin de yardımıyla Tigre topraklarındaki Enderta mevkiinde Habeşistan Kralı Minas'ı büyük bir yenilgiye uğrattı. Osmanlı'nın Habeş yaylasındaki en büyük meydan zaferidir. (Enderta atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Özdemiroğlu Osman Paşa, kendisine katılan yerli Habeş kuvvetlerinin de yardımıyla Tigre topraklarındaki Enderta mevkiinde Habeşistan Kralı Minas'ı büyük bir yenilgiye uğrattı. Osmanlı'nın Habeş yaylasındaki en büyük meydan zaferidir.", ic_not_d:"Enderta atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `habes-eyaleti`: \"Tigre topraklarında bulunan Enderta mevkiinde Habeşistan Kralı Minas'ı büyük bir yenilgiye uğrattı (20 Nisan 1562)\"", yer_kon:[13.248,39.531] },
 
 { t:"1563-01-01", b:"Sevâkin'e beylerbeyinden ayrı bir sancak beyi tayini", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"Sevâkin",
@@ -486,7 +486,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1579-01-01", b:"Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
-  d:"Tigre toprakları üzerinde Addi Karro denilen yerde yapılan meydan savaşında Osmanlı kuvvetleri yenildi ve Beylerbeyi Ahmed Paşa öldürüldü; eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti. Osmanlı'nın Habeş yaylasındaki ilerlemesi burada kalıcı olarak durdu. (Addi Karro atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Tigre toprakları üzerinde Addi Karro denilen yerde yapılan meydan savaşında Osmanlı kuvvetleri yenildi ve Beylerbeyi Ahmed Paşa öldürüldü; eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti. Osmanlı'nın Habeş yaylasındaki ilerlemesi burada kalıcı olarak durdu.", ic_not_d:"Addi Karro atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `habes-eyaleti`: \"meydan savaşı, Tigre toprakları üzerinde Addi Karro denilen yerde yapıldı (1579)\" · \"1579'da Osmanlılar'ın yenilgisiyle sonuçlanan Addi Karro Savaşı'nın ardından eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti\"" },
 
 { t:"1579-12-13", b:"Hızır Paşa'nın Arkiko'yu kurtarması ve Habeş baskısını kırması", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Masavva",
@@ -671,7 +671,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1886-01-01", b:"Dehlek adalarının İtalya tarafından işgali", tur:"toprak", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip"],
-  d:"1865'te Mısır emlâkine dâhil edilinceye kadar Habeş eyaletine bağlı kalan Dehlek takımadası 1886'da İtalya tarafından işgal edildi. Masavva'ın karşısındaki bu stratejik adalar Eritre sömürgesinin deniz ayağını tamamladı. (Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"1865'te Mısır emlâkine dâhil edilinceye kadar Habeş eyaletine bağlı kalan Dehlek takımadası 1886'da İtalya tarafından işgal edildi. Masavva'ın karşısındaki bu stratejik adalar Eritre sömürgesinin deniz ayağını tamamladı.", ic_not_d:"Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `dehlek`: \"Habeş eyaletine bağlı kalan Dehlek 1886 yılında İtalya tarafından işgal edildi\"", yer_id:"Dahlak" },
 
 { t:"1887-01-01", b:"İtalya-Etiyopya çatışması ve İtalyan birliklerinin yenilgisi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
@@ -711,7 +711,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1896-03-01", b:"Adva Muharebesi — İtalya'nın yenilgisi ve Etiyopya bağımsızlığının korunması", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak"],
-  d:"1895'te saldırıya geçen İtalyanlar, Rusların silâhlandırdığı Etiyopyalılar karşısında önce Adve'de, ardından Makalle'de ağır bir yenilgiye uğradılar. Adva, bir Afrika devletinin bir Avrupa ordusunu meydan savaşında yendiği tek büyük örnek olarak Afrika'nın paylaşılması çağının istisnasıdır. (Adva atlasta yerleşim olarak KAYITLI DEĞİL — en önemli yer_id eksiği.)",
+  d:"1895'te saldırıya geçen İtalyanlar, Rusların silâhlandırdığı Etiyopyalılar karşısında önce Adve'de, ardından Makalle'de ağır bir yenilgiye uğradılar. Adva, bir Afrika devletinin bir Avrupa ordusunu meydan savaşında yendiği tek büyük örnek olarak Afrika'nın paylaşılması çağının istisnasıdır.", ic_not_d:"Adva atlasta yerleşim olarak KAYITLI DEĞİL — en önemli yer_id eksiği.",
   kaynak:"TDV `etiyopya`: \"1895'te saldırıya geçen İtalyanlar ... önce Adve'de, daha sonra Makalle'de ağır bir yenilgiye uğradılar\" · dunya puanı kronoloji_italya.js 1896-03-01 kaydından devralındı (onem 4, dunya 3)", yer_kon:[14.163,38.899] },
 
 { t:"1896-10-26", b:"Adisababa Antlaşması — Wichale'nin feshi ve hükümranlığın tanınması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Addis",
@@ -824,7 +824,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1513-01-02", b:"Portekizlilerin Dehlek'e çıkışı", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","ticaret"],
-  d:"Dünya deniz ticaretini ele geçirmek ve bunun için Kızıldeniz'de hâkimiyet kurmak isteyen Portekizliler 1513'te Dehlek'e çıktılar ve Melik Ahmed b. İsmâil'i tâbi kılmaya çalıştılar; 1520'de Diego Lopes de Sequeira kumandasındaki kuvvetler adayı işgal edip yaktılar. (Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Dünya deniz ticaretini ele geçirmek ve bunun için Kızıldeniz'de hâkimiyet kurmak isteyen Portekizliler 1513'te Dehlek'e çıktılar ve Melik Ahmed b. İsmâil'i tâbi kılmaya çalıştılar; 1520'de Diego Lopes de Sequeira kumandasındaki kuvvetler adayı işgal edip yaktılar.", ic_not_d:"Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `dehlek`: \"Portekizliler 1513 yılında Dehlek'e çıktılar\" · \"geri dönen Diego Lopes de Sequeira kumandasındaki Portekiz kuvvetleri Dehlek'i işgal edip yaktılar (1520)\"", yer_id:"Dahlak" },
 
 { t:"1516-01-01", b:"Duarte Barbosa'nın Mombasa tasviri — taş evler, bal, bal mumu ve fildişi ihracı", tur:"ekonomi", onem:3, dunya:1, kapsam:"ic", yer_id:"Mombasa",
@@ -990,7 +990,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1859-01-01", b:"Fransa'nın Ubûk'u (Obock) sömürge ilân etmesi", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"Tacûra",
   etiket:["toprak-kayip"],
-  d:"Fransa 1859'da mahallî idarecisinden kiraladığı Somali'nin kuzey ucundaki Ubûk'u (Obock) sömürgesi ilân etti ve Osmanlıların bütün engelleme çabalarına rağmen burada Fransız Somalisi adıyla bir sömürge yönetimi kurdu. Bugünkü Cibuti'nin temeli budur. (Obock atlasta yerleşim olarak KAYITLI DEĞİL; en yakın kayıtlı nokta Tacûra kullanıldı.)",
+  d:"Fransa 1859'da mahallî idarecisinden kiraladığı Somali'nin kuzey ucundaki Ubûk'u (Obock) sömürgesi ilân etti ve Osmanlıların bütün engelleme çabalarına rağmen burada Fransız Somalisi adıyla bir sömürge yönetimi kurdu. Bugünkü Cibuti'nin temeli budur.", ic_not_d:"Obock atlasta yerleşim olarak KAYITLI DEĞİL; en yakın kayıtlı nokta Tacûra kullanıldı.",
   kaynak:"TDV `somali`: \"Fransa 1859'da mahallî idarecisinden kiraladığı Somali'nin kuzey ucundaki Ubûk'u (Obock) sömürgesi ilân edip Osmanlılar'ın bütün engelleme çabalarına rağmen burada Fransız Somalisi adıyla bir sömürge yönetimi kurdu\"" },
 
 { t:"1864-01-01", b:"Zeyla'da Osmanlı idaresinin yeniden kurulması ve Ebû Bekir Şüheymî'nin tayini", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"Zeyla",
@@ -1132,7 +1132,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1822-01-01", b:"Toro Krallığı'nın Bunyoro'dan ayrılması", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan","idari"],
-  d:"Omukama Kyebambe'nin oğlu Prens Kaboyo, 1822 yılında kendi sorumluluğundaki bölgede Toro Krallığı'nı kurarak Bunyoro'dan ayrıldı. Büyük Göller bölgesinin en büyük krallığı olan Bunyoro'nun parçalanması, Buganda'nın yükselişinin önünü açtı. (Toro atlasta yerleşim olarak KAYITLI DEĞİL.)",
+  d:"Omukama Kyebambe'nin oğlu Prens Kaboyo, 1822 yılında kendi sorumluluğundaki bölgede Toro Krallığı'nı kurarak Bunyoro'dan ayrıldı. Büyük Göller bölgesinin en büyük krallığı olan Bunyoro'nun parçalanması, Buganda'nın yükselişinin önünü açtı.", ic_not_d:"Toro atlasta yerleşim olarak KAYITLI DEĞİL.",
   kaynak:"TDV `uganda`: \"Omukama Kyebambe'nın oğlu Prens Kaboyo'nun 1822 yılında kendi sorumluluğundaki bölgede tesis ettiği Toro Krallığı\"", yer_kon:[0.662,30.275] },
 
 { t:"1836-01-01", b:"Suna Kalema Kansinge dönemi — Zengibarlı Arap tüccarların Buganda'ya gelişi", tur:"ekonomi", onem:5, dunya:2, kapsam:"dis", yer_id:"Mengo (Buganda)",

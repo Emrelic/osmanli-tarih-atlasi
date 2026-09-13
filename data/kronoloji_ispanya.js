@@ -166,7 +166,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1499-01-01", b:"Fernando de Rojas'ın La Celestina'sının yayımlanması", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["kultur","edebiyat"],
-  d:"Diyalog biçiminde yazılan *La Celestina*, İspanyol edebiyatının Rönesans'a geçişinin ilk büyük eseri sayılır ve sonraki pikaresk romanın öncüsüdür. Yayım yılı kesin biliniyor, ay/gün kaynaklarda geçmiyor.",
+  d:"Diyalog biçiminde yazılan *La Celestina*, İspanyol edebiyatının Rönesans'a geçişinin ilk büyük eseri sayılır ve sonraki pikaresk romanın öncüsüdür.", ic_not_d:"Yayım yılı kesin biliniyor, ay/gün kaynaklarda geçmiyor.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)", kapsam_genis:true },
 
 { t:"1502-01-01", b:"Kastilya'daki müslümanlara zorla vaftiz ya da sürgün dayatıldı", tur:"din", onem:4, dunya:3, kapsam:"ic", yer_id:"Granada",
@@ -357,7 +357,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1577-01-01", b:"El Greco Toledo'ya yerleşti", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"Toledo",
   etiket:["kultur","kultur"],
-  d:"Girit doğumlu ressam Domínikos Theotokópoulos (El Greco), Roma'dan Toledo'ya taşınarak İspanyol Altın Çağı resim sanatının en özgün isimlerinden biri hâline geldi; kalan otuz yedi yılını burada geçirdi. Yıl kesin, ay/gün kaynaklarda net değil.",
+  d:"Girit doğumlu ressam Domínikos Theotokópoulos (El Greco), Roma'dan Toledo'ya taşınarak İspanyol Altın Çağı resim sanatının en özgün isimlerinden biri hâline geldi; kalan otuz yedi yılını burada geçirdi.", ic_not_d:"Yıl kesin, ay/gün kaynaklarda net değil.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
 { t:"1580-08-25", b:"Alcántara Savaşı — İspanya Portekiz'i fethetti", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Lizbon",

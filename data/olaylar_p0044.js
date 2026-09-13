@@ -50,9 +50,9 @@ window.OLAYLAR_P0044 = [
 // ─────────────────────────────────────────────────────────────────────
 { t:"1556-01-01", b:"Moskova Çarlığı Astarhan'ı aldı — Aşağı Volga Rus denetimine girdi", tur:"diger",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak"],
-  gun:"1556 (TDV yıl verir, gün vermez)", yer:"Astarhan · Aşağı Volga",
+  gun:"1556", ic_not_gun:"TDV yıl verir, gün vermez", yer:"Astarhan · Aşağı Volga",
   yer_id:"Astrahan",
-  d:"Moskova Çarlığı 1556'da Astarhan'ı da alarak, TDV'nin ifadesiyle 'ilerisi için çok önemli sonuçlar doğuracak bir hamle' yaptı; Astarhan Hanlığı'nın işgaliyle Aşağı Volga Rus denetimine girdi. Kırım Hanı Devlet Giray bu işgalleri önlemek istediyse de başarılı olamadı. Osmanlılar bu gelişmeye 1569'da Astarhan seferiyle karşılık verdi; ancak Aşağı Volga bölgesinin kontrolünde başarılı olamayınca Moskova Çarlığı ile mücadeleyi Kırım hanına bıraktılar. ⚠️ TARİH HAKKINDA: TDV yıl veriyor (1556), gün vermiyor; `astarhan-hanligi` maddesi işgale tarih vermiyor. ⚠️ HARİTA HAKKINDA: atlas aynı gün Aşağı Volga'daki Astarhan ve Nogay kayıtlarını Rusya'ya geçiriyor.",
+  d:"Moskova Çarlığı 1556'da Astarhan'ı da alarak, TDV'nin ifadesiyle 'ilerisi için çok önemli sonuçlar doğuracak bir hamle' yaptı; Astarhan Hanlığı'nın işgaliyle Aşağı Volga Rus denetimine girdi. Kırım Hanı Devlet Giray bu işgalleri önlemek istediyse de başarılı olamadı. Osmanlılar bu gelişmeye 1569'da Astarhan seferiyle karşılık verdi; ancak Aşağı Volga bölgesinin kontrolünde başarılı olamayınca Moskova Çarlığı ile mücadeleyi Kırım hanına bıraktılar.", ic_not_d:"TARİH HAKKINDA: TDV yıl veriyor (1556), gün vermiyor; `astarhan-hanligi` maddesi işgale tarih vermiyor.  HARİTA HAKKINDA: atlas aynı gün Aşağı Volga'daki Astarhan ve Nogay kayıtlarını Rusya'ya geçiriyor.",
   kaynak:"devlet-giray + astarhan-hanligi — TDV devlet-giray birebir: '…ardından da Astarhan'ı (1556) alarak ilerisi için çok önemli sonuçlar doğuracak bir hamle yaptılar.' · 'Devlet Giray bu işgalleri önlemek istediyse de başarılı olamadı.' · 'Osmanlılar'ın 1569'daki Astarhan seferine … gizlice muhalefet etti.' · 'Aşağı Volga bölgesinin kontrolünde başarılı olamayan Osmanlılar Moskova Çarlığı ile olan mücadeleyi ona bıraktılar.' · TDV astarhan-hanligi: '…sonra da hanlığı işgal etmiştir' (tarih vermiyor)." },
 
 // ─────────────────────────────────────────────────────────────────────

@@ -63,7 +63,7 @@ window.KRONOLOJI_KIRIM = [
 { t:"1441-01-01", b:"Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti — Kırım Hanlığı'nın kuruluşu", tur:"kurulus", onem:5, dunya:3, kapsam:"dis",
   etiket:["kurulus","siyaset"],
   yer_id:"",
-  d:"Cengiz soyundan Hacı Giray, Kırkyer'de (bugünkü Çufut Kale) kendini bağımsız han ilan ederek Altın Orda'nın parçalanan otoritesinden koptu; en eski parası bu tarihi taşır. Kırkyer o dönem hanlığın merkeziydi, haritada ayrı bir yerleşim noktası olmadığı için yer_id boş bırakıldı.",
+  d:"Cengiz soyundan Hacı Giray, Kırkyer'de (bugünkü Çufut Kale) kendini bağımsız han ilan ederek Altın Orda'nın parçalanan otoritesinden koptu; en eski parası bu tarihi taşır. Kırkyer o dönem hanlığın merkeziydi.", ic_not_d:"haritada ayrı bir yerleşim noktası olmadığı için yer_id boş bırakıldı.",
   kaynak:"giray, kirim (TDV, İnalcık — içerik okundu, 2026-08-21)", yer_id:"Eski Kırım (Solhat)" },
 { t:"1443-01-01", b:"Hacı Giray Kırkyer'de yeniden sikke bastırdı", tur:"idari", onem:2, dunya:1, kapsam:"ic",
   etiket:["idari","para"],

@@ -796,7 +796,7 @@ window.KRONOLOJI_LEHISTAN = [
 { t:"1473-02-19", b:"Mikołaj Kopernik Toruń'da doğdu", tur:"bilim",
   onem:5, dunya:5, kapsam:"ic", etiket:["bilim"],
   yer_id:"",
-  d:"Toruń'lu bir tüccar ailesinin oğlu olarak doğdu; Krakov Akademisi'nde okudu, sonra Bologna ve Padova'da hukuk ve tıp öğrendi. Polonya tarihyazımının, ülkenin dünya bilimine yaptığı en büyük katkı saydığı isimdir. Toruń'un yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
+  d:"Toruń'lu bir tüccar ailesinin oğlu olarak doğdu; Krakov Akademisi'nde okudu, sonra Bologna ve Padova'da hukuk ve tıp öğrendi. Polonya tarihyazımının, ülkenin dünya bilimine yaptığı en büyük katkı saydığı isimdir.", ic_not_d:"Toruń'un yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", yer_kon:[53.0138,18.5981] },
 
 { t:"1491-01-01", b:"Krakov'da ilk Kiril harfli kitaplar basıldı", tur:"bilim",
@@ -826,7 +826,7 @@ window.KRONOLOJI_LEHISTAN = [
 { t:"1543-05-24", b:"Kopernik öldü — Güneş merkezli evren modeli yayımlandı", tur:"bilim",
   onem:5, dunya:5, kapsam:"ic", etiket:["bilim"],
   yer_id:"",
-  d:"Kopernik, De revolutionibus orbium coelestium'un basılmış ilk nüshasını ölüm döşeğinde gördü. Eser yer merkezli evren anlayışını yıkarak bilim tarihinde bir çağ kapattı; Polonya tarihyazımı onu ulusun evrensel ölçekteki en büyük katkısı sayar. Frombork'un yerleşim kaydı atlasta yok.",
+  d:"Kopernik, De revolutionibus orbium coelestium'un basılmış ilk nüshasını ölüm döşeğinde gördü. Eser yer merkezli evren anlayışını yıkarak bilim tarihinde bir çağ kapattı; Polonya tarihyazımı onu ulusun evrensel ölçekteki en büyük katkısı sayar.", ic_not_d:"Frombork'un yerleşim kaydı atlasta yok.",
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", yer_kon:[54.3556,19.6708] },
 
 { t:"1564-01-01", b:"Cizvitler Polonya'ya çağrıldı — Karşı Reform başladı", tur:"din",
@@ -862,7 +862,7 @@ window.KRONOLOJI_LEHISTAN = [
 { t:"1580-04-10", b:"Zamość kuruldu — ideal Rönesans şehri", tur:"kultur",
   onem:3, dunya:3, kapsam:"ic", etiket:["kultur","ekonomi"],
   yer_id:"",
-  d:"Şansölye Jan Zamoyski, Padovalı mimar Bernardo Morando'ya baştan sona planlanmış bir şehir çizdirdi. Zamość, İtalyan ideal şehir kuramının Avrupa'da bütünüyle uygulanabilmiş sayılı örneğinden biridir. Şehrin yerleşim kaydı atlasta bulunmuyor.",
+  d:"Şansölye Jan Zamoyski, Padovalı mimar Bernardo Morando'ya baştan sona planlanmış bir şehir çizdirdi. Zamość, İtalyan ideal şehir kuramının Avrupa'da bütünüyle uygulanabilmiş sayılı örneğinden biridir.", ic_not_d:"Şehrin yerleşim kaydı atlasta bulunmuyor.",
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", yer_kon:[50.7178,23.2478] },
 
 { t:"1594-01-01", b:"Zamość Akademisi kuruldu", tur:"kultur",

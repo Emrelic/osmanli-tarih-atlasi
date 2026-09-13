@@ -297,7 +297,7 @@ window.KRONOLOJI_BALKAN = [
 
 { t:"1877-09-01", b:"Nikšić, Podgorica ve Bar alındı, Ülgün ele geçirildi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas"], yer_id:"Podgorica",
-  d:"Savaşın son evresinde Karadağ kuvvetleri Nikšić'i, ardından Podgorica ve Bar'ı ele geçirdi; Ülgün de düştü. Bu fetihler bir yıl sonra Berlin'de tanınacak kazanımların fiilî zemini oldu. Yerel atlas kaydı Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.", ic_not_d:"(data/yerlesimler.js)",
+  d:"Savaşın son evresinde Karadağ kuvvetleri Nikšić'i, ardından Podgorica ve Bar'ı ele geçirdi; Ülgün de düştü. Bu fetihler bir yıl sonra Berlin'de tanınacak kazanımların fiilî zemini oldu.", ic_not_d:"(data/yerlesimler.js) · Yerel atlas kaydı Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.",
   kaynak:"TDV `karadag`: 'Savaşın sonlarına doğru Nikšić, Podgorica, Bar'ı aldı, Ülgün'ü (Dulcigno) ele geçirdi.' Ay: standart akademik kaynak." },
 
 { t:"1878-03-03", b:"Ayastefanos Antlaşması — bağımsızlık ilk kez tanındı", tur:"antlasma",
@@ -371,7 +371,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1235-01-01", b:"Bulgar (Tırnova) Patrikliği kuruldu", tur:"din",
   onem:3, dunya:2, kapsam:"ic", etiket:["din","idari"],
   yer_id:"Tırnova",
-  d:"II. İvan Asen döneminde Bizans ve Niké İmparatorluğu'nun onayıyla Bulgar Ortodoks Kilisesi bağımsız bir patriklik statüsü kazandı ve merkezi Tırnova oldu; bu, dinî bağımsızlığın siyasi bağımsızlıkla paralel yürüdüğü bir dönemin başlangıcıdır. Gün TDV'de ve standart akademik kaynakta verilmiyor, YYYY-01-01.",
+  d:"II. İvan Asen döneminde Bizans ve Niké İmparatorluğu'nun onayıyla Bulgar Ortodoks Kilisesi bağımsız bir patriklik statüsü kazandı ve merkezi Tırnova oldu; bu, dinî bağımsızlığın siyasi bağımsızlıkla paralel yürüdüğü bir dönemin başlangıcıdır.", ic_not_d:"Gün TDV'de ve standart akademik kaynakta verilmiyor, YYYY-01-01.",
   kaynak:"bulunamadı — TDV bu ayrıntıyı kapsamıyor (`bulgaristan` maddesi genel anlatıda kalıyor); dayanak: akademik (Fine, The Late Medieval Balkans, 1994 — Lampsakos Sinodu 1235)." },
 
 { t:"1277-01-01", b:"İvaylo Ayaklanması — köylü çar", tur:"isyan",
@@ -395,7 +395,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1375-01-01", b:"Evtimiy Tırnova Patrikliği'ne getirildi — Tırnova Edebiyat Okulu zirvede", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","din"],
   yer_id:"Tırnova",
-  d:"Patrik Evtimiy döneminde Tırnova, Ortodoks Slav dünyasının önde gelen bir edebiyat ve hattatlık merkezi hâline geldi; Evtimiy'in geliştirdiği yazım reformu ('Tırnova imlâ okulu') sonraki yüzyıllarda Sırbistan ve Rusya'daki Slav kilise edebiyatını da etkiledi. Bu kültürel zirve, çarlığın siyasi çöküşünün arifesinde yaşandı. Gün akademik kaynakta net değil, YYYY-01-01.",
+  d:"Patrik Evtimiy döneminde Tırnova, Ortodoks Slav dünyasının önde gelen bir edebiyat ve hattatlık merkezi hâline geldi; Evtimiy'in geliştirdiği yazım reformu ('Tırnova imlâ okulu') sonraki yüzyıllarda Sırbistan ve Rusya'daki Slav kilise edebiyatını da etkiledi. Bu kültürel zirve, çarlığın siyasi çöküşünün arifesinde yaşandı.", ic_not_d:"Gün akademik kaynakta net değil, YYYY-01-01.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi Evtimiy'den bahsetmiyor; dayanak: akademik (Fine, The Late Medieval Balkans, 1994 — Tırnova edebiyat okulu ve Evtimiy'in patrikliği)." },
 
 { t:"1388-01-01", b:"Şumnu Osmanlı'ya teslim oldu", tur:"toprak-kayip",
@@ -440,16 +440,16 @@ window.KRONOLOJI_BALKAN = [
   d:"II. Murad, Macar-Leh Kralı Ulászló/Władysław önderliğindeki Haçlı ordusunu Varna önlerinde imha etti; kral savaş meydanında öldürüldü. Bu tarihte Bulgaristan'ın kendi devleti YOKTUR — savaş, Osmanlı'nın Balkanlar'daki Bulgar topraklarını içeren hâkimiyetinin kalıcılığını garanti etti. TDV maddesi bunu doğrudan 'Osmanlıların Bulgaristan'daki geleceğini garanti altına aldı' diye özetliyor.",
   kaynak:"TDV `varna`: Osmanlı zaferinin 'Osmanlıların Bulgaristan'daki geleceğini garanti altına aldığı' belirtiliyor." },
 
-{ t:"1688-09-01", b:"Chiprovtsi (Kiprovça) İsyanı — Katolik Bulgarların ayaklanması", tur:"isyan",
+{ t:"1688-09-01", b:"Chiprovtsi (Kiprovça) İsyanı — Katolik Bulgarların ayaklanması", gun:"Eylül 1688", tur:"isyan",
   onem:3, dunya:2, kapsam:"ic", etiket:["sosyal","isyan","din"],
   yer_id:"", kapsam_genis:true,
-  d:"Kuzeybatı Bulgaristan'daki Katolik maden işçisi topluluğu Chiprovtsi merkezli olarak, Habsburg'un Belgrad'ı ele geçirmesinin (1688) yarattığı umutla Osmanlı'ya karşı ayaklandı; isyan hızla bastırıldı, kasaba yakıldı ve halkının önemli bölümü Eflak ve Habsburg topraklarına göç etti. Bu dönemde ayrı bir Bulgar devleti yoktur; isyan Bulgar halkının Osmanlı idaresine karşı direncinin nadir örneklerinden biridir. Gün kesin değil, ay YYYY-09-01 olarak işaretlendi.",
+  d:"Kuzeybatı Bulgaristan'daki Katolik maden işçisi topluluğu Chiprovtsi merkezli olarak, Habsburg'un Belgrad'ı ele geçirmesinin (1688) yarattığı umutla Osmanlı'ya karşı ayaklandı; isyan hızla bastırıldı, kasaba yakıldı ve halkının önemli bölümü Eflak ve Habsburg topraklarına göç etti. Bu dönemde ayrı bir Bulgar devleti yoktur; isyan Bulgar halkının Osmanlı idaresine karşı direncinin nadir örneklerinden biridir.", ic_not_d:"Gün kesin değil, ay YYYY-09-01 olarak işaretlendi.",
   kaynak:"bulunamadı — TDV müstakil madde vermiyor (`bulgar-eksarhligi`, `bulgar-kilisesi` gibi ilgili sluglar ölü); dayanak: akademik (R.J. Crampton, A Concise History of Bulgaria, 2. bs., Cambridge University Press, 2005)." },
 
 { t:"1762-01-01", b:"Paisiy Hilendarski 'Slav-Bulgar Tarihi'ni yazdı — millî uyanışın başlangıcı", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["kultur","sosyal"],
   yer_id:"", kapsam_genis:true,
-  d:"Athos'taki Hilandar Manastırı keşişi Paisiy, 'İstoriya Slavyanobolgarskaya' adlı eserinde Bulgar halkına kendi tarihini ve dilini hatırlatarak Yunan kültürel asimilasyonuna karşı millî bilinci uyandırdı; bu eser modern Bulgar Millî Uyanışı'nın (Bılgarsko vızrazhdane) sembolik başlangıcı sayılır. Gün belirtilmiyor, YYYY-01-01.",
+  d:"Athos'taki Hilandar Manastırı keşişi Paisiy, 'İstoriya Slavyanobolgarskaya' adlı eserinde Bulgar halkına kendi tarihini ve dilini hatırlatarak Yunan kültürel asimilasyonuna karşı millî bilinci uyandırdı; bu eser modern Bulgar Millî Uyanışı'nın (Bılgarsko vızrazhdane) sembolik başlangıcı sayılır.", ic_not_d:"Gün belirtilmiyor, YYYY-01-01.",
   kaynak:"bulunamadı — TDV bu ayrıntıyı kapsamıyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005 — 'Millî Uyanış'ın başlangıcı bölümü)." },
 
 { t:"1835-01-02", b:"Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu", tur:"siyaset",

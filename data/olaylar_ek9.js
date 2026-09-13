@@ -67,7 +67,7 @@ window.OLAYLAR_EK9 = [
 { t:"1843-06-12", k:"kayip", etiket:["toprak-kayip"],
   b:"Sîdî Bel Abbès müstahkem kampının kurulması",
   gun:"12 Haziran 1843", yer:"Sîdî Bel Abbès, Vehrân eyaleti", kisiler:"Mareşal Bugeaud, General Bedeau",
-  d:"Bugeaud 12 Haziran 1843'te General Bedeau'ya Sîdî Bel Abbès'te hendekli ve surlu bir müstahkem kamp kurma emrini verdi; inşaata 18 Haziranda başlandı ve aynı yılın kasımında Yabancı Lejyon'un bir taburu buraya yerleşti. Kamp, Vehrân ile Tilimsan arasındaki iç ovayı denetleyen kalıcı bir üs oldu. Oturum 14 bu noktayı 1844-03-04'e yuvarlamıştı; gerçek tarih budur.",
+  d:"Bugeaud 12 Haziran 1843'te General Bedeau'ya Sîdî Bel Abbès'te hendekli ve surlu bir müstahkem kamp kurma emrini verdi; inşaata 18 Haziranda başlandı ve aynı yılın kasımında Yabancı Lejyon'un bir taburu buraya yerleşti. Kamp, Vehrân ile Tilimsan arasındaki iç ovayı denetleyen kalıcı bir üs oldu.", ic_not_d:"Oturum 14 bu noktayı 1844-03-04'e yuvarlamıştı; gerçek tarih budur.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Sîdî Bel Abbès" },
 
 { t:"1844-01-01", k:"kayip", etiket:["toprak-kayip"],
@@ -79,7 +79,7 @@ window.OLAYLAR_EK9 = [
 { t:"1852-12-04", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Ağvât'ın (Laghouat) düşüşü — Sahra kapısının açılması",
   gun:"4 Aralık 1852", yer:"Ağvât (Laghouat)", kisiler:"General Pélissier",
-  d:"General Pélissier altı bin kişilik bir kuvvetle 21 Kasım 1852'de Ağvât'ı kuşattı ve 4 Aralıkta şehir kanlı bir hücumla düştü. Ağvât, Tell ile Sahra arasındaki geçişi tutan vaha şehriydi; düşmesi Fransız ilerleyişini çöl kervan yollarına açtı ve Mîzâb konfederasyonunun bir yıl içinde vergiye bağlanmasının önünü hazırladı. Oturum 14 bu tarihi 1854-12-02'ye (Tuggurt) yuvarlamak zorunda kalmıştı.",
+  d:"General Pélissier altı bin kişilik bir kuvvetle 21 Kasım 1852'de Ağvât'ı kuşattı ve 4 Aralıkta şehir kanlı bir hücumla düştü. Ağvât, Tell ile Sahra arasındaki geçişi tutan vaha şehriydi; düşmesi Fransız ilerleyişini çöl kervan yollarına açtı ve Mîzâb konfederasyonunun bir yıl içinde vergiye bağlanmasının önünü hazırladı.", ic_not_d:"Oturum 14 bu tarihi 1854-12-02'ye (Tuggurt) yuvarlamak zorunda kalmıştı.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Ağvât" },
 
 { t:"1882-01-01", k:"kayip", etiket:["toprak-kayip"],
@@ -193,7 +193,7 @@ window.OLAYLAR_EK9 = [
 { t:"1837-10-13", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Konstantin'in düşüşü — doğu Cezayir beyliğinin sonu",
   gun:"13 Ekim 1837", yer:"Konstantin (Kostantîne), doğu Cezayir", kisiler:"Ahmed Bey, Mareşal Valée, General Damrémont",
-  d:"Cezayir'in 1830'da düşmesinden sonra doğu beylerbeyliği dağılmadı: son bey Ahmed, Konstantin'de kendi idaresini sürdürdü ve Osmanlı adına hareket ettiğini ilân etti. Fransızların 1836'daki ilk seferi bozgunla bitti; ikinci sefer 6 Ekim 1837'de şehri kuşattı, kumandan Damrémont 12 Ekimde top ateşiyle öldü ve 13 Ekimde surlar aşılarak şehir sokak sokak alındı. Ahmed Bey dağlara çekildi ve ancak 1848'de teslim oldu. Bu tarih, Cezayir'in doğusunda üç yüz yıllık Osmanlı-Türk idaresinin fiilî bitişidir. Denetim bu kırılmayı iki gün sonraki Cebel-i Dürûz ayaklanması maddesiyle eşleştiriyordu — bu madde o eşleşmeyi düzeltir.",
+  d:"Cezayir'in 1830'da düşmesinden sonra doğu beylerbeyliği dağılmadı: son bey Ahmed, Konstantin'de kendi idaresini sürdürdü ve Osmanlı adına hareket ettiğini ilân etti. Fransızların 1836'daki ilk seferi bozgunla bitti; ikinci sefer 6 Ekim 1837'de şehri kuşattı, kumandan Damrémont 12 Ekimde top ateşiyle öldü ve 13 Ekimde surlar aşılarak şehir sokak sokak alındı. Ahmed Bey dağlara çekildi ve ancak 1848'de teslim oldu. Bu tarih, Cezayir'in doğusunda üç yüz yıllık Osmanlı-Türk idaresinin fiilî bitişidir.", ic_not_d:"Denetim bu kırılmayı iki gün sonraki Cebel-i Dürûz ayaklanması maddesiyle eşleştiriyordu — bu madde o eşleşmeyi düzeltir.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Konstantin" },
 
 // ---------------------------------------------------------------------------
@@ -264,7 +264,7 @@ window.OLAYLAR_EK9 = [
 { t:"1911-10-09", k:"kayip", etiket:["savas"],
   b:"Trablus şehrinin İtalyanlara teslim olması",
   gun:"9 Ekim 1911", yer:"Trablus (Tripoli)", kisiler:"Neşet Bey, Amiral Faravelli",
-  d:"Trablus üç gün bombardımandan sonra 9 Ekim 1911'de teslim oldu. Osmanlı kuvvetleri şehri savunmak yerine Aziziye ve Garyan'a çekilerek iç bölgede direnişi örgütlemeyi seçtiler; Enver ve Mustafa Kemal beylerin katıldığı bu direniş, İtalyanları savaşın sonuna kadar kıyı şeridine hapsetti. Yani şehir düştüğü hâlde vilâyetin içi Osmanlı denetiminde kaldı — atlasta bu, taban rengi Osmanlı, üstü İtalyan taraması olarak gösterilmelidir.",
+  d:"Trablus üç gün bombardımandan sonra 9 Ekim 1911'de teslim oldu. Osmanlı kuvvetleri şehri savunmak yerine Aziziye ve Garyan'a çekilerek iç bölgede direnişi örgütlemeyi seçtiler; Enver ve Mustafa Kemal beylerin katıldığı bu direniş, İtalyanları savaşın sonuna kadar kıyı şeridine hapsetti. Yani şehir düştüğü hâlde vilâyetin içi Osmanlı denetiminde kaldı.", ic_not_d:"atlasta bu, taban rengi Osmanlı, üstü İtalyan taraması olarak gösterilmelidir.",
   kaynak:"trablusgarp-savasi", duygu:["😔"], yer_id:"Trablus" },
 
 { t:"1911-10-16", k:"kayip", etiket:["savas"],
@@ -301,7 +301,7 @@ window.OLAYLAR_EK9 = [
 { t:"1896-09-23", k:"fetih", etiket:["toprak-kazanc","savas"],
   b:"Dongola'nın geri alınışı — Nil boyu seferinin başlaması",
   gun:"23 Eylül 1896", yer:"Dongola, Kerma, Nil'in üçüncü çağlayanı", kisiler:"Herbert Kitchener, Abdullah b. Muhammed et-Teâyişî",
-  d:"İtalyanların Adua'da yenilmesinden sonra İngiltere, Mısır ordusunu Kitchener kumandasında Nil boyunca güneye yürüttü. Demiryolu çölde ilerledikçe ikmal sorunu çözüldü ve Dongola vilâyeti 23 Eylül 1896'da geri alındı. On bir yıllık Mehdî idaresi burada sona erdi; sefer iki yıl daha sürerek Ümmüdurman'a ulaşacaktı. Atlasta Dongola'nın Mehdî döneminin bu tarihte bitmesi gerekir — bugün Hartum'la aynı güne (1899) bağlı görünüyor.",
+  d:"İtalyanların Adua'da yenilmesinden sonra İngiltere, Mısır ordusunu Kitchener kumandasında Nil boyunca güneye yürüttü. Demiryolu çölde ilerledikçe ikmal sorunu çözüldü ve Dongola vilâyeti 23 Eylül 1896'da geri alındı. On bir yıllık Mehdî idaresi burada sona erdi; sefer iki yıl daha sürerek Ümmüdurman'a ulaşacaktı.", ic_not_d:"Atlasta Dongola'nın Mehdî döneminin bu tarihte bitmesi gerekir — bugün Hartum'la aynı güne (1899) bağlı görünüyor.",
   kaynak:"sudan", duygu:["🎉"], yer_id:"Dongola" },
 
 { t:"1898-09-02", k:"fetih", etiket:["toprak-kazanc","savas"],
@@ -386,7 +386,7 @@ window.OLAYLAR_EK9 = [
 { t:"1799-03-18", k:"kayip", etiket:["savas"],
   b:"Napolyon'un Akkâ kuşatması — Suriye seferinin durdurulması",
   gun:"18 Mart 1799", yer:"Akkâ (Acre), Filistin sahili", kisiler:"Napolyon Bonapart, Cezzâr Ahmed Paşa, Sidney Smith",
-  d:"Osmanlı'nın Mısır'ı geri almak için hazırladığı kuvvetleri dağıtmak isteyen Napolyon 1799 başında Suriye'ye yürüdü; Arîş'i 18 Şubatta, Yafa'yı martta aldı ve 18 Mart 1799'da Akkâ'yı kuşattı. Cezzâr Ahmed Paşa'nın savunması ve İngiliz amirali Sidney Smith'in denizden desteği kuşatmayı iki ay boyunca kırdı; kuşatma topları denizde ele geçirildiği için surlar aşılamadı. Napolyon mayısta çekildi ve bu yenilgi Fransız işgalinin en uç noktası oldu. Bu tarih atlasta toprak değiştirmez — işgalin sınırını gösterdiği için yazılmıştır.",
+  d:"Osmanlı'nın Mısır'ı geri almak için hazırladığı kuvvetleri dağıtmak isteyen Napolyon 1799 başında Suriye'ye yürüdü; Arîş'i 18 Şubatta, Yafa'yı martta aldı ve 18 Mart 1799'da Akkâ'yı kuşattı. Cezzâr Ahmed Paşa'nın savunması ve İngiliz amirali Sidney Smith'in denizden desteği kuşatmayı iki ay boyunca kırdı; kuşatma topları denizde ele geçirildiği için surlar aşılamadı. Napolyon mayısta çekildi ve bu yenilgi Fransız işgalinin en uç noktası oldu.", ic_not_d:"Bu tarih atlasta toprak değiştirmez — işgalin sınırını gösterdiği için yazılmıştır.",
   kaynak:"akka", duygu:["😔"], yer_id:"Akkâ" },
 
 // ---------------------------------------------------------------------------

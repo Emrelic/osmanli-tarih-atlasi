@@ -285,7 +285,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 { t:"1602-01-01", k:"siyaset", etiket:["siyaset"],
   b:"Safevîler'in Bahreyn'i Portekiz'den alması",
-  gun:"1602 (TDV ay/gün vermez)",
+  gun:"1602", ic_not_gun:"TDV ay/gün vermez",
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"Şah I. Abbas, Allahverdi Han",
   d:"Şah I. Abbas'ın gönderdiği kuvvetler adadaki isyancılarla birleşerek Portekiz garnizonunu kaleden çıkardı; TDV'nin ifadesiyle adalar \"1602'de İran'a bağlı kuvvetler tarafından\" Portekizliler'in elinden alındı. Bahreyn böylece seksen bir yıllık Portekiz idaresinden çıkıp Safevî hâkimiyetine girdi ve yüz on beş yıl İran'a bağlı kaldı. Bu, Portekiz'in körfezdeki çözülmesinin ilk halkasıdır; yirmi yıl sonra Hürmüz'ün kendisi de İngiliz-İran ortak harekâtıyla düşecekti.",

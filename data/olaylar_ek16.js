@@ -12,7 +12,7 @@ window.OLAYLAR_EK16 = [
 
 { t:"1297-01-01", k:"kurulus", etiket:["toprak-kazanc"],
   b:"Karesi ve Hamîdoğulları beyliklerinin kuruluşu",
-  gun:"696 (1296-97) / 1297 — TDV yıl verir, gün vermez",
+  gun:"696 (1296-97) / 1297", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Balıkesir, Bergama, Edremit, Erdek, Biga, Çanakkale, Ayvalık, Karabiga, Isparta, Burdur, Eğirdir, Uluborlu, Yalvaç, Akşehir",
   yer_id:"Balıkesir", kisiler:"Karesi Bey, Hamîd Bey",
   d:"TDV'nin Karesioğulları maddesine göre Karesi Bey, babası Kalem Bey'in ölümüyle çözülen Selçuklu uç teşkilatında bağımsızlığını ilân ederek 696'dan (1296-97) itibaren Balıkesir'i merkez edindi ve kısa sürede Erdek, Biga, Edremit, Bergama dahil Mysia'nın tamamını Bizans'tan aldı. Aynı yıl (1297) Hamîd Bey, Uluborlu'yu hükûmet merkezi yaparak Hamîdoğulları Beyliği'ni kurdu; Isparta, Burdur, Eğirdir ve Yalvaç, çözülen Selçuklu uç bölgesinden beyliğin ilk sınırlarına katıldı. İki beylik de Batı Anadolu'da aynı çöküşün — Selçuklu merkezî otoritesinin dağılmasının — ürünüdür.",
@@ -20,7 +20,7 @@ window.OLAYLAR_EK16 = [
 
 { t:"1308-01-01", k:"kurulus", etiket:["toprak-kazanc"],
   b:"Aydınoğulları Beyliği'nin kuruluşu — İzmir, Ayasuluk, Tire'nin alınışı",
-  gun:"1308 (TDV yıl verir, gün vermez)",
+  gun:"1308", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Aydın, Ayasuluk (Selçuk), Tire, Birgi, Kuşadası, Söke",
   yer_id:"Aydın", kisiler:"Mübârizüddin Gazi Mehmed Bey",
   d:"TDV'nin Aydınoğulları maddesine göre Mübârizüddin Gazi Mehmed Bey, Germiyanoğulları uç beyi Sâsâ Bey'den bu bölgeyi alarak 1308'de Aydın-ili'nde hâkim oldu; İzmir'in Müslüman kesimini Ayasuluk (Selçuk), Tire ve Bodemya ile birlikte fethetti. Ayasuluk'u donanma üssü yaptı ve ele geçirdiği toprakları beş oğlu arasında paylaştırdı — beylik sonraki on yıllarda özellikle oğlu Umur Bey döneminde Ege denizciliğinde belirleyici güç hâline gelecektir.",
@@ -28,7 +28,7 @@ window.OLAYLAR_EK16 = [
 
 { t:"1308-01-01", k:"siyaset", etiket:["siyaset"],
   b:"Anadolu Selçuklu Devleti'nin fiilen sona ermesi — İlhanlı'nın doğrudan idaresi",
-  gun:"708 (1308) — TDV gün vermez, yalnız yıl ve şehir (Kayseri) verir",
+  gun:"708 (1308)", ic_not_gun:"TDV gün vermez, yalnız yıl ve şehir (Kayseri) verir",
   yer:"Konya, Niğde, Aksaray, Bartın, Eflani, Safranbolu",
   yer_id:"Konya", kisiler:"II. Gıyâseddin Mesud",
   d:"TDV'nin Mesud II maddesine göre uzun bir hastalığın ardından 708'de (1308) Kayseri'de ölen II. Gıyâseddin Mesud, genel kabul gören görüşe göre Anadolu Selçuklu Devleti'nin son hükümdarıdır — ölümünden sonra tahta çıkarılan adaylar ne iç makamların ne de İlhanlı'nın tanımasını görebildi. Bölge zaten Mesud'un saltanatı boyunca fiilen İlhanlı memurlarınca yönetiliyordu; onun ölümüyle bu doğrudan idare Konya, Niğde ve Aksaray gibi merkezlerde biçimsel örtüsünü de kaybetti.", ic_not_d:"⚠️ TDV, İlhanlı'nın doğrudan idaresinin tam olarak hangi güne başladığını yazmaz; harita bu belirsizliği devletin fiilen sona erdiği 1308 yılına bağlıyor.",
@@ -60,7 +60,7 @@ window.OLAYLAR_EK16 = [
 
 { t:"1340-01-01", k:"kurulus", etiket:["toprak-kazanc"],
   b:"Celayirli Devleti'nin kuruluşu — İlhanlı sonrası Azerbaycan",
-  gun:"1340 (TDV yıl verir, gün vermez)",
+  gun:"1340", ic_not_gun:"TDV yıl verir, gün vermez",
   yer:"Tebriz, Merağa, Erdebil, Nahçıvan, Hoy, Urmiye, Selmâs (Dilman), Sultâniye, Şuşa, Culfa, Merend",
   yer_id:"Tebriz", kisiler:"Hasan-ı Büzürg",
   d:"TDV'nin Celâyirliler maddesine göre İlhanlı emîri Noyan'ın torunu Hasan-ı Büzürg, İlhanlı hükümdarı Ebû Said Bahadır Han'ın ölümüyle patlak veren taht kavgalarından yararlanarak 1340'ta Tebriz merkezli bağımsız bir devlet kurdu. Celayirliler böylece Azerbaycan ve çevresinde İlhanlı sonrası boşluğu dolduran ilk büyük hânedan oldu; halefi Üveys döneminde (1356-1374) toprakları Musul ve Diyarbekir'e kadar genişleyecektir.", ic_not_d:"⚠️ Aynı gün, İlhanlı çöküşünün başka bir ucunda Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; bu tekil kayıt için ayrı bir kaynak bulunamadı.",
@@ -68,7 +68,7 @@ window.OLAYLAR_EK16 = [
 
 { t:"1411-01-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Bağdat'ın Karakoyunlu eline geçişi — Celayirli Sultan Ahmed'in yenilgisi",
-  gun:"814 (1411) — TDV ay/gün vermez",
+  gun:"814 (1411)", ic_not_gun:"TDV ay/gün vermez",
   yer:"Bağdat, Basra, Musul, Kerkük, Hille, Kerbelâ, Necef, Erbil, Süleymaniye çevresi",
   yer_id:"Bağdat", kisiler:"Kara Yûsuf, Sultan Ahmed, Şah Mehmed",
   d:"TDV'nin Karakoyunlular maddesine göre Kara Yûsuf, 28 Rebîülâhir 813'te (30 Ağustos 1410) Tebriz yakınında Celayirli Sultan Ahmed'i ağır bir yenilgiye uğrattı; Sultan Ahmed'in ölümünün ardından 814'te (1411) oğlu Pîr Budak'ı Tebriz'de sultan ilân etti ve aynı yıl büyük oğlu Şah Mehmed Bağdat'ı fethetti. Böylece bir asra yakın Celayirli başkenti olan Bağdat, çevresindeki Basra-Musul-Kerkük hattıyla birlikte Karakoyunlu hâkimiyetine girdi.", ic_not_d:"⚠️ TDV ayın/günün tam tarihini vermiyor; şehir sonradan (1446'da Cihan Şah'ın altı aylık kuşatmasıyla) bir kez daha el değiştirecektir — o ikinci olay bu kırılmanın konusu değildir.",
@@ -92,7 +92,7 @@ window.OLAYLAR_EK16 = [
 
 { t:"1452-01-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Karakoyunlu Cihan Şah'ın Timurlu İran'ını (Rey, İsfahan, Fars, Kirman) ele geçirmesi",
-  gun:"856-857 (1452-1453) — TDV yıl aralığı verir, gün vermez",
+  gun:"856-857 (1452-1453)", ic_not_gun:"TDV yıl aralığı verir, gün vermez",
   yer:"Kirman, Yezd, Şiraz, Kâşân, Kâzerûn, Firûzâbâd, Lâr, Buşehr, Bender Abbas (Gamrûn), Sircân, Bem, Dârâb, Sâve, Nâin, Erâk (Sultânâbâd)",
   yer_id:"Kirman", kisiler:"Cihan Şah",
   d:"TDV'nin Karakoyunlular maddesine göre Karakoyunlu hükümdarı Cihan Şah, Timurlu şehzadeleri arasındaki taht mücadelelerinden yararlanarak 856-857 (1452-1453) yıllarında Rey, İsfahan, Fars ve Kirman vilâyetlerini idaresi altına aldı; bu, Şâhruh Mirza'nın 1447'deki ölümünden sonra başlayan ve Sultâniye-Kazvin'in ilhakıyla açılan genişleme sürecinin doruk noktasıdır. Timurlu'nun güney-orta İran'daki toprakları böylece Karakoyunlu'ya geçti; Cihan Şah'ın hâkimiyeti 1466'da Azerbaycan, Arrân, Irâk-ı Acem, Irâk-ı Arab, Fars, Kirman ve Doğu Anadolu'yu kapsayacak genişliğe ulaşacaktır.",
@@ -228,7 +228,7 @@ window.OLAYLAR_EK16 = [
 
 { t:"1503-04-02", k:"antlasma", etiket:["toprak-kayip"],
   b:"Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
-  gun:"25 Mart 1503 (Müjde/Annunciation mütarekesi) — veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
+  gun:"25 Mart 1503 (Müjde/Annunciation mütarekesi)", ic_not_gun:"veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
   yer:"Kiev, Kursk, Nikarya (İkarya), Baturin, Hluhiv, Novgorod-Seversk, Orel, Poltava, Putivl, Çernigov",
   yer_id:"Çernigov", kisiler:"III. İvan, II. Ulászló (Vladislav)",
   d:"1500-1503 Moskova-Litvanya Savaşı, Macaristan-Bohemya kralı II. Ulászló'nun arabuluculuğuyla altı yıllık bir mütarekeyle sona erdi; Litvanya Büyük Knezliği, Çernigov-Seversk bölgesi (Çernigov, Novgorod-Seversk, Starodub, Bryansk çevresi) ile Smolensk ve Polotsk civarındaki bazı topraklar dahil, Büyük Knezliğin yaklaşık üçte birini oluşturan geniş bir araziyi Moskova Büyük Knezliği'ne bırakmak zorunda kaldı. Bu, Moskova'nın Rus topraklarını 'toplama' sürecinde en büyük tek kazanımlarından biriydi.",

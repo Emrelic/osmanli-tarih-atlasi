@@ -386,7 +386,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
   etiket:["osmanli","ticaret","toprak-kayip"],
   yer_id:"Sakız",
-  d:"Fâtih Sultan Mehmed, Ceneviz Maonası'nın elindeki Foça'yı aldı; buradaki şap madenleri Avrupa dokuma sanayiinin boya sabitleyicisini karşılıyor ve Cenova'ya tekel kârı sağlıyordu. Tekelin kırılması, on yıl sonra Papalık'ın Tolfa şap yataklarını işletmesiyle kalıcı hâle geldi. TDV'nin 'ceneviz' maddesi kaybı 1455'e, 'foça' maddesi ise Osmanlı idaresine geçişi 1465'e koyar; iki tarih arasındaki fark bu maddede açıkça bırakılmıştır.",
+  d:"Fâtih Sultan Mehmed, Ceneviz Maonası'nın elindeki Foça'yı aldı; buradaki şap madenleri Avrupa dokuma sanayiinin boya sabitleyicisini karşılıyor ve Cenova'ya tekel kârı sağlıyordu. Tekelin kırılması, on yıl sonra Papalık'ın Tolfa şap yataklarını işletmesiyle kalıcı hâle geldi. TDV'nin 'ceneviz' maddesi kaybı 1455'e, 'foça' maddesi ise Osmanlı idaresine geçişi 1465'e koyar.", ic_not_d:"iki tarih arasındaki fark bu maddede açıkça bırakılmıştır.",
   kaynak:"TDV 'ceneviz' (1455) ile TDV 'foca' (1465) ÇELİŞİYOR — çelişki gizlenmedi; ayrıca Balard, La Romanie génoise" },
 
 { t:"1456-01-01",
@@ -646,7 +646,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   tur:"ekonomi", onem:5, dunya:4, kapsam:"dis",
   etiket:["finans","ticaret","kurulus"],
   yer_id:"",
-  d:"Cenevizli bankerler, Besançon'dan taşıdıkları poliçe panayırlarını Piacenza'da yılda dört kez toplanacak biçimde yeniden kurdu. Burada nakit değil senet mahsuplaşıyor, Avrupa'nın bütün büyük ödemeleri birkaç günde kapanıyordu. 1579-1621 arası bütün kıtanın faiz oranı fiilen bu masalarda belirlendi; Braudel bu döneme 'Cenevizlilerin Yüzyılı' adını verir. (Olayın mahalli PIACENZA'dır; yerleşim havuzunda karşılığı YOKTUR, bu yüzden yer_id boş bırakıldı — uydurulmadı.)",
+  d:"Cenevizli bankerler, Besançon'dan taşıdıkları poliçe panayırlarını Piacenza'da yılda dört kez toplanacak biçimde yeniden kurdu. Burada nakit değil senet mahsuplaşıyor, Avrupa'nın bütün büyük ödemeleri birkaç günde kapanıyordu. 1579-1621 arası bütün kıtanın faiz oranı fiilen bu masalarda belirlendi; Braudel bu döneme 'Cenevizlilerin Yüzyılı' adını verir. Olayın mahalli Piacenza'dır.", ic_not_d:"Piacenza yerleşim havuzunda yok, yer_id boş bırakıldı — uydurulmadı · harfiyen: (Olayın mahalli PIACENZA'dır; yerleşim havuzunda karşılığı YOKTUR, bu yüzden yer_id boş bırakıldı — uydurulmadı.)",
   kaynak:"Braudel, La Méditerranée; Cambridge Economic History of Europe, c. IV" },
 
 { t:"1590-01-01",

@@ -14,7 +14,7 @@ window.OLAYLAR_EK17 = [
 //   BURADAKİ doğru: TDV ay vermiyor (hicrî 919), `CLAUDE.md §4` ⇒ YYYY-01-01.
 { t:"1513-01-01", b:"Pîrî Reis, günümüze ulaşan en eski dünya haritasını çizdi", tur:"bilim",
   k:"kesif", onem:4, dunya:3, kapsam:"dis", etiket:["bilim","kesif"],
-  gun:"919 (1513) — TDV yıl verir, ay vermez",
+  gun:"919 (1513)", ic_not_gun:"TDV yıl verir, ay vermez",
   yer:"Gelibolu", yer_id:"Gelibolu", kisiler:"Pîrî Reis", duygu:["🧭"],
   d:"Pîrî Reis, Gelibolu'da 919 (1513) tarihli dünya haritasını çizdi; TDV İslâm Ansiklopedisi'ne göre haritanın kaynakları arasında 'Doğu ve Batı dünyasından kendisine ulaşan eski haritalarla Kristof Kolomb'un haritası' da vardır — yani Kolomb'un o dönemde kaybolmuş kabul edilen orijinal seyir haritasının izlerini taşıdığı düşünülür. Haritayı 923'te (1517) Kahire'de Yavuz Sultan Selim'e takdim etti. Günümüze yalnız batı/Atlantik kıyılarını (İspanya, Portekiz, Batı Afrika, Güney Amerika'nın doğu kıyısı) gösteren bir PARÇASI ulaşmıştır; bu parça Topkapı Sarayı'nda 1929'da yeniden gün yüzüne çıkarıldı ve UNESCO Dünya Belleği listesindedir.",
   kaynak:"piri-reis + UNESCO Memory of the World (1929 keşif tarihi, TDV bu ayrıntıya değinmiyor)" },
@@ -108,7 +108,7 @@ window.OLAYLAR_EK17 = [
 { t:"1687-08-01", b:"IV. Mehmed avdan vazgeçti — hal'inin arifesindeki son çırpınış", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","isyan"],
   yer_id:"İstanbul",
-  d:"⚠️ TDV'de bu olayla ilgili mizahi/eğlenceli bir rivayet bulunamadı — olayın ciddi seyri şöyle: Mohaç bozgunundan (Ağustos 1687) sonra ulûfesi ödenmeyen ordu isyan edip İstanbul'a yürüdü. IV. Mehmed, sadâret mührünü kaçıran Süleyman Paşa'yı öldürtüp başını askere gösterdi ve av edevatıyla tazılarını dağıtarak tövbe ettiğini ilan etti — ama bu jest tahtını kurtarmaya yetmedi, birkaç ay sonra hal edildi.",
+  d:"Mohaç bozgunundan (Ağustos 1687) sonra ulûfesi ödenmeyen ordu isyan edip İstanbul'a yürüdü. IV. Mehmed, sadâret mührünü kaçıran Süleyman Paşa'yı öldürtüp başını askere gösterdi ve av edevatıyla tazılarını dağıtarak tövbe ettiğini ilan etti — ama bu jest tahtını kurtarmaya yetmedi, birkaç ay sonra hal edildi.", ic_not_d:"TDV'de bu olayla ilgili mizahi/eğlenceli bir rivayet bulunamadı",
   kaynak:"mehmed-iv" },
 
 // ---------- Prut Seferi ----------
@@ -172,10 +172,10 @@ window.OLAYLAR_EK17 = [
 
 { t:"1552-01-01", k:"vassal", etiket:["toprak-kazanc","diplomasi"],
   b:"Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi — Tuggurt-Ouargla'nın haraca bağlanması, Tilimsan'ın kesin fethi",
-  gun:"1552-53 — TDV ve akademik kaynak yıl verir, gün vermez",
+  gun:"1552-53", ic_not_gun:"TDV ve akademik kaynak yıl verir, gün vermez",
   yer:"Tilimsan, Biskra, Tuggurt, Mustagānim, Muaskar, Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye, Tâhert (Tiaret), Vargla (Ouargla), el-Vâdî (Sûf)",
   yer_id:"Tilimsan", kisiler:"Salih Reis (Cezayir beylerbeyi)",
-  d:"TDV'nin Tilimsan maddesine göre 960'ta (1553) Cezayir'den sevkedilen büyük bir ordu, Salih Reis kumandasında şehri kesin biçimde ele geçirdi ve üç asırlık Zeyyânî hânedanına son verdi. Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri Tuggurt'u aldı, Vargla'ya ilerledi, iki sultanlık haraca bağlandı; yol üzerindeki Biskra'ya kalıcı bir Osmanlı garnizonu bırakıldı. Böylece Cezayir Ocaklığı'nın sınırı ilk kez Tell Atlası'nı aşıp Sahra kıyısına dayandı. ⚠️ Mustagānim'in kendi büyük olayı bu tarihte DEĞİL: Hasan Paşa'nın İspanyol Kontu Alcaudete'yi yenip Kuzey Afrika'daki İspanyol taarruzlarını bitirdiği asıl muharebe 1558'dedir.", ic_not_d:"Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye ve el-Vâdî için ne TDV ne standart kaynaklar tek bir fetih günü verir — bulunamadı, aynı genişleme sürecinin parçası sayıldı.",
+  d:"TDV'nin Tilimsan maddesine göre 960'ta (1553) Cezayir'den sevkedilen büyük bir ordu, Salih Reis kumandasında şehri kesin biçimde ele geçirdi ve üç asırlık Zeyyânî hânedanına son verdi. Aynı dönemde (1552) Salih Reis bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine bir sefer düzenledi; Osmanlı kuvvetleri Tuggurt'u aldı, Vargla'ya ilerledi, iki sultanlık haraca bağlandı; yol üzerindeki Biskra'ya kalıcı bir Osmanlı garnizonu bırakıldı. Böylece Cezayir Ocaklığı'nın sınırı ilk kez Tell Atlası'nı aşıp Sahra kıyısına dayandı. ⚠️ Mustagānim'in kendi büyük olayı bu tarihte DEĞİL: Hasan Paşa'nın İspanyol Kontu Alcaudete'yi yenip Kuzey Afrika'daki İspanyol taarruzlarını bitirdiği asıl muharebe 1558'dedir.", ic_not_d:"Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye ve el-Vâdî için ne TDV ne standart kaynaklar tek bir fetih günü verir — bulunamadı, aynı genişleme sürecinin parçası sayıldı. · TDV Tuggurt ve Vargla'yı kapsamıyor; bu kısmın dayanağı standart akademik anlatım · eski cümle: Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri…",
   kaynak:"tilimsan — Tuggurt/Ouargla/Biskra için TDV kapsamıyor, dayanak: standart akademik Kuzey Afrika tarihçiliği", duygu:["🎌","⚔️"] },
 
 { t:"1557-01-01", k:"kurulus", etiket:["toprak-kazanc","diplomasi"],
@@ -196,7 +196,7 @@ window.OLAYLAR_EK17 = [
 
 { t:"1534-06-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Kars çevresinin bütünleşmesi: Arpaçay, Digor ve Iğdır'ın Osmanlı idaresine girmesi",
-  gun:"1534 (TDV doğrudan tarih vermiyor — Kars'ın alınışıyla aynı güne bağlandı)",
+  gun:"1534", ic_not_gun:"TDV doğrudan tarih vermiyor — Kars'ın alınışıyla aynı güne bağlandı",
   yer:"Arpaçay (Akyaka), Digor, Iğdır", yer_id:"Kars",
   kisiler:"Makbul İbrahim Paşa",
   d:"Irakeyn Seferi'nin öncü kolu Kars'ı aldığında, kalenin hemen kuzey ve doğusundaki Arpaçay, Digor ve Iğdır ovaları da aynı harekâtla Osmanlı denetimine girdi.", ic_not_d:"⚠️ TDV'nin `irakeyn-seferi` ve `kars` maddeleri bu üç yerleşimi ayrı ayrı ANMIYOR; tarih Kars'ın kendi fetih gününe dayanarak ÇIKARIMLA verilmiştir, TDV alıntısı değildir. 🔴 GÖREV TARİFİNDEKİ Gümrü ve Eçmiyadzin BU MADDEYE DAHİL EDİLMEDİ — yerlesimler.js kaydında ikisinin de bu tarihte (hatta hiçbir zaman 1828'e/Rusya'ya kadar) Osmanlı dönemi yok, akkoyunlu→safevi→afşar→zend→kacar zinciri kesintisiz. Bu bir veri çelişkisidir, koordinatöre bekletilmeden bildirildi (M-1368), çözülene kadar yazılmadı.",
@@ -204,7 +204,7 @@ window.OLAYLAR_EK17 = [
 
 { t:"1686-08-30", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
-  gun:"Ağustos 1686 (TDV yalnız yıl verir; akademik kaynağa göre yardım ordusu 29 Ağustos'ta bozuldu, şehir birkaç gün içinde teslim oldu)",
+  gun:"Ağustos 1686 (yardım ordusu 29 Ağustos'ta bozuldu, şehir birkaç gün içinde teslim oldu)", ic_not_gun:"TDV yalnız yıl verir; gün ve ayrıntı akademik kaynağa göre",
   yer:"Anabolu (Nauplion), Mora", yer_id:"Anabolu (Nauplion)",
   kisiler:"Francesco Morosini, Philipp Christian Königsmarck, İsmail Paşa",
   d:"TDV'nin Anabolu maddesine göre kuşatma sırasında şehirdeki müslüman halktan sağ kalabilenler civar adalara ve Anadolu'ya kaçtı (1686). Standart akademik kaynağa göre (Setton, Venice, Austria, and the Turks in the Seventeenth Century) Königsmarck'ın kuvvetleri iki hafta boyunca Osmanlı yardım ordusunun saldırılarını püskürttü; 29 Ağustos'ta İsmail Paşa'nın taarruzu ağır yenilgiyle sonuçlanınca kale birkaç gün içinde teslim oldu. Anabolu, 1540'ta antlaşmayla devralınmış Osmanlı toprağıydı; kaybıyla Mora yarımadasının Venedik'e geçişi hızlandı.", ic_not_d:"⚠️ Budin'in kaybıyla (1686-09-02) KARIŞTIRILMASIN — ayrı cephe, ayrı olay, yalnızca birkaç gün arayla üst üste düşüyor.",
@@ -212,7 +212,7 @@ window.OLAYLAR_EK17 = [
 
 { t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas"],
   b:"Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı",
-  gun:"Ağustos 1738 (TDV ay verir, gün vermez)",
+  gun:"Ağustos 1738", ic_not_gun:"TDV ay verir, gün vermez",
   yer:"Semendire", yer_id:"Semendire",
   kisiler:"I. Mahmud",
   d:"TDV'nin Semendire maddesine göre 1717'de Pasarofça'yla Avusturya'ya bırakılan kale, 1737'de başlayan Osmanlı-Avusturya Savaşı'nın Tuna-Sava cephesindeki Osmanlı ilerleyişiyle geri alındı; Avusturya kuvvetleri bölgede Ağustos 1738'e kadar tutunabildi, bu tarihten sonra Semendire yeniden Osmanlı idaresine girdi. Bir yıl sonra imzalanan Belgrad Antlaşması (1739-09-18) bu kazancı — Belgrad ve kuzey Sırbistan ile birlikte — tescil edecekti.", ic_not_d:"⚠️ Aynı gün Kırım'da gerçekleşen 'Özi'nin geri alınışı' maddesiyle KARIŞTIRILMASIN — 1000 km uzakta, ayrı cephe, ayrı olay; yalnızca tarih rastlantısal olarak örtüşüyor.",

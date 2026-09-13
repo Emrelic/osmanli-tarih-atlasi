@@ -1,0 +1,33 @@
+{
+ "aciklama": "PAKET-KRON2 · 13 Eylül 2026 · 1.MURAT eki: PAKET-EK1 §4a dört kaynak çelişkisi. t DEĞİŞMEZ (ek okuma/merak bağları — D181); gün önerileri YAMA-KRON2 15-16. Uygulayıcı: denetim/ARAC-KRON2-UYGULA-0913.py",
+ "kayitlar": [
+  {"dosya": "olaylar_ek5.js", "b": "Vâdisseyl (Kasrılkebir) Savaşı", "islem": "degistir", "alan": "d", "kural": "EK1",
+   "eski": "Fas ise Osmanlı nüfuzuna girerek Kuzey Afrika'da Osmanlı-İspanyol dengesini belirledi.",
+   "yeni": "Abdülmelik de savaşta öldü; yerine geçen kardeşi Ahmed el-Mansûr zaferi İstanbul'a bir heyetle bildirdi. İki devlet arasındaki ilişki haraç ya da tâbiiyet değil elçi ve hediye teatisi düzeyinde kaldı ve kısa süre sonra hediye meselesi yüzünden gerginleşti.",
+   "not": "EK1 §4a: eski son cümle 'Fas ise Osmanlı nüfuzuna girerek Kuzey Afrika'da Osmanlı-İspanyol dengesini belirledi.' — TDV fas: 'Osmanlı desteğindeki Sultan Abdülmelik'; ilişki elçi/hediye teatisi, Ahmed el-Mansûr'un hediye krizi; 'himaye' ve haraç/tâbiiyet kaydı YOK"},
+  {"dosya": "olaylar_ek5.js", "b": "Vâdisseyl (Kasrılkebir) Savaşı", "islem": "ata", "alan": "kaynak", "deger": "fas · murad-iii", "not_eski": true, "not_alan": "d", "kural": "EK1"},
+  {"dosya": "olaylar_ek5.js", "b": "Vâdisseyl (Kasrılkebir) Savaşı", "islem": "ata", "alan": "b",
+   "deger": "Vâdisseyl (Kasrılkebir) Savaşı — Osmanlı desteğindeki Abdülmelik Portekiz ordusunu imha etti",
+   "not_eski": true, "kural": "EK1",
+   "not": "EK1 §4a: başlık kaynağın diliyle düzeltildi ('himaye' TDV fas'ta yok). Bağlar: ekokuma_statu '1578-08-04' ayırıcısız, savaslar.js t ile — başlık değişikliği kopartmaz"},
+
+  {"dosya": "olaylar_ek.js", "b": "Bizans'ın Osmanlı vasallığına girişi", "islem": "ata", "alan": "d", "kural": "EK1", "not_eski": true,
+   "deger": "TDV'ye göre 26 Eylül 1371 Çirmen (Meriç) zaferinden sonra Bizans İmparatorluğu Osmanlı hâkimiyetini tanımış, haraç ödemeyi ve Osmanlı ordusunda hizmeti kabul ederek vasal devlet durumuna düşmüştü. İmparator V. Yoannis bu yükümlülükle 1373'te I. Murad'ın ordusuna katıldı; o sırada İstanbul'da bıraktığı oğlu IV. Andronikos, Bursa'daki Şehzade Savcı Bey ile birlikte babalarına karşı isyan etti.",
+   "not": "EK1 §4a: eski metin vasallığın 1373'te başladığını söylüyordu — TDV bizans + murad-i: vasallık/haraçgüzârlık 1371 Çirmen zaferinin sonucu; 1373 V. Yoannis'in vasal sıfatıyla sultanın ordusunda bulunduğu ve Andronikos–Savcı isyanının yılı. Seferin yeri iki TDV maddesinde ayrışıyor (bizans: Anadolu · murad-i: 1372-73'te Murad Rumeli'de) — yer yazılmadı"},
+  {"dosya": "olaylar_ek.js", "b": "Bizans'ın Osmanlı vasallığına girişi", "islem": "ata", "alan": "kaynak", "deger": "bizans · murad-i", "not_eski": true, "not_alan": "d", "kural": "EK1"},
+  {"dosya": "olaylar_ek.js", "b": "Bizans'ın Osmanlı vasallığına girişi", "islem": "ata", "alan": "b",
+   "deger": "Vasal Bizans: V. Yoannis I. Murad'ın ordusunda (1371 Çirmen zaferinin sonucu)", "not_eski": true, "kural": "EK1",
+   "not": "EK1 §4a: 'vasallığa giriş' 1373'e ait değil. t:1373-05-01 KORUNDU — ekokuma_statu '1373-05-01' bağı; madde 1371-09-26'ya çekilirse Çirmen maddesiyle aynı güne düşer (mükerrer riski) — önerilmedi"},
+
+  {"dosya": "olaylar_ek5.js", "b": "Şehzade Mustafa'nın Konya Ereğlisi'nde idamı", "islem": "ata", "alan": "gun", "deger": "27 Şevval 960 (6 Ekim 1553)", "not_eski": true, "kural": "EK1",
+   "not": "EK1 §4a: TDV mustafa-celebi: padişah 26 Şevval (5 Ekim) Aktepe'de ordugâh kurdu, şehzade aynı gün geldi; idam '27 Şevval 960 / 6 Ekim 1553 Cuma'. t:1553-10-05 KORUNDU — ekokuma_hanedan/kadin/magazin ve merak kardes-katli '1553-10-05|Mustafa' bağları; aynı gün Kara Ahmed Paşa maddesi (ek7) de duruyor; D147 ③ 1553-10-06 = 0 · öneri YAMA-KRON2 15"},
+  {"dosya": "olaylar_ek5.js", "b": "Şehzade Mustafa'nın Konya Ereğlisi'nde idamı", "islem": "ata", "alan": "kaynak", "deger": "mustafa-celebi · suleyman-i", "not_eski": true, "not_alan": "d", "kural": "EK1"},
+
+  {"dosya": "olaylar_ek7.js", "b": "Şehzade Ahmed'in Yavuz Selim'in emriyle idamı", "islem": "degistir", "alan": "d", "kural": "EK1",
+   "eski": "kardeşi Selim'in tahta çıkışından sonra giriştiği mücadeleyi kaybederek yakalandı ve idam edildi.",
+   "yeni": "kardeşi Selim'in tahta çıkışından sonra giriştiği mücadelede Yenişehir ovasında bozguna uğradı ve savaş meydanından kaçarken yakalanıp öldürüldü.",
+   "not": "EK1 §4a: eski ifade 'giriştiği mücadeleyi kaybederek yakalandı ve idam edildi.' — TDV selim-i: Yenişehir savaşı 8 Safer 919 / 15 Nisan 1513, Ahmed kaçarken yakalanıp öldürüldü"},
+  {"dosya": "olaylar_ek7.js", "b": "Şehzade Ahmed'in Yavuz Selim'in emriyle idamı", "islem": "ata", "alan": "gun", "deger": "8 Safer 919 (15 Nisan 1513), Yenişehir savaşının hemen ardından", "not_eski": true, "kural": "EK1",
+   "not": "EK1 §4a: 24 Nisan günü TDV selim-i'de YOK. t:1513-04-24 KORUNDU — merak kardes-katli-karsilastirmali '1513-04-24' bağı; D147 ③ 1513-04-15 = 0. 🔴 AYNI OLAY ikinci maddede: olaylar_ek5.js 1513-04-01 'Yenişehir Muharebesi ve Şehzade Ahmed'in bertarafı' (ay-kodlu t) — birleştirme/ayırma kararı YAMA-KRON2 16"}
+ ]
+}

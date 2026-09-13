@@ -416,7 +416,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"son", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","hive"],
   yer_id:"",
-  d:"Tahtı oğluna bırakıp çekildikten kısa süre sonra Ebulgazi Bahadır Han öldü. Ölçmedim ama genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eseri, Cengizli soy kütüğünü anlatan Şecere-i Türk, TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor — standart akademik kaynaklara göre eser Ebulgazi'nin ölümü sırasında yarım kalmış, oğlu ve halefi tarafından tamamlanmıştır (yaklaşık 1665).",
+  d:"Tahtı oğluna bırakıp çekildikten kısa süre sonra Ebulgazi Bahadır Han öldü. Genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eser, Cengizli soy kütüğünü anlatan Şecere-i Türk'tür; standart akademik kaynaklara göre eser Ebulgazi'nin ölümü sırasında yarım kalmış, oğlu ve halefi tarafından tamamlanmıştır (yaklaşık 1665).", ic_not_d:"Ölçmedim: Şecere-i Türk TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor",
   kaynak:"TDV, madde: ebulgazi-bahadir-han (ölüm); Şecere-i Türk'ün tamamlanması İÇİN TDV bu oturumda doğrulanamadı, standart akademik kaynağa (Orta Asya tarihyazımı literatürü) dayanılarak yazıldı" },
 
 { t:"1825-01-01",
@@ -538,7 +538,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"antlasma", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","antlasma","hokand"],
   yer_id:"Kaşgar",
-  d:"Muhammed Ali Han, Buhara'nın artan baskısı karşısında Doğu Türkistan'daki ileri karakollarından çekilmeyi kabul edip Qing hanedanıyla bir antlaşma imzaladı; Hokand'ın Kaşgar üzerindeki iddiaları böylece resmen sona erdi. Ölçmedim ama bu olayın Çin kronolojisinde ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.", ic_not_d:"(kronoloji_cin.js)",
+  d:"Muhammed Ali Han, Buhara'nın artan baskısı karşısında Doğu Türkistan'daki ileri karakollarından çekilmeyi kabul edip Qing hanedanıyla bir antlaşma imzaladı; Hokand'ın Kaşgar üzerindeki iddiaları böylece resmen sona erdi.", ic_not_d:"(kronoloji_cin.js) · Ölçmedim ama bu olayın Çin kronolojisinde ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { t:"1840-01-01",

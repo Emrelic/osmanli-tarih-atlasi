@@ -65,7 +65,7 @@ window.KRONOLOJI_ALTINORDA = [
 { t:"1281-01-01", b:"İlk fetret devri sürüyor — Tuda Mengü döneminde devletin bütünlüğü tehlikede", tur:"ic-karisiklik", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","taht-kavgasi"],
   yer_id:"Saray (Selitrennoye)",
-  d:"Mengü Timur'un 1280'de ölümünün ardından tahta geçen Tuda Mengü (1280-1287) döneminde Altın Orda ilk büyük iç buhranına girdi. TDV bu evreyi ayrı bir dönem olarak adlandırır: hanların otoritesi zayıflamış, Cuci ulusunun batı kanadında beylerin nüfuzu hanınkini gölgelemişti. Atlasın zaman çizgisi bu dosyada 1281'de başladığı için devlet sahneye tam bu buhranın içinde girer.",
+  d:"Mengü Timur'un 1280'de ölümünün ardından tahta geçen Tuda Mengü (1280-1287) döneminde Altın Orda ilk büyük iç buhranına girdi. TDV bu evreyi ayrı bir dönem olarak adlandırır: hanların otoritesi zayıflamış, Cuci ulusunun batı kanadında beylerin nüfuzu hanınkini gölgelemişti.", ic_not_d:"Atlasın zaman çizgisi bu dosyada 1281'de başladığı için devlet sahneye tam bu buhranın içinde girer.",
   kaynak:"TDV, madde: altin-orda-hanligi — 'Tuda Mengü Han zamanında (1280-1287) devlet bütünlüğü tehlikeye girdi'" },
 
 { t:"1300-01-01", b:"İlk fetret devri sona erdi, hanlık merkezî otoritesini yeniden kurdu", tur:"idari", onem:3, dunya:1, kapsam:"ic",
@@ -89,7 +89,7 @@ window.KRONOLOJI_ALTINORDA = [
 { t:"1314-05-11", b:"Özbek Han İlhanlı hükümdarı Olcaytu'ya elçi gönderdi", tur:"diplomasi", onem:2, dunya:2, kapsam:"dis",
   etiket:["diplomasi","siyaset"],
   yer_id:"",
-  d:"Cülûsunun hemen ardından Özbek Han, Altın Orda'nın güneydeki büyük rakibi İlhanlılar'a elçi yolladı. İki Moğol devleti arasındaki Azerbaycan-Kafkasya çekişmesi Berke Han'dan beri sürüyordu; elçilik bu çekişmeyi bir süreliğine diplomasi zeminine çekme girişimidir. yer_id boş: elçiliğin ulaştığı İlhanlı ordugâhı kayıtlarda tek bir yerleşime bağlanmıyor.",
+  d:"Cülûsunun hemen ardından Özbek Han, Altın Orda'nın güneydeki büyük rakibi İlhanlılar'a elçi yolladı. İki Moğol devleti arasındaki Azerbaycan-Kafkasya çekişmesi Berke Han'dan beri sürüyordu; elçilik bu çekişmeyi bir süreliğine diplomasi zeminine çekme girişimidir.", ic_not_d:"yer_id boş: elçiliğin ulaştığı İlhanlı ordugâhı kayıtlarda tek bir yerleşime bağlanmıyor.",
   kaynak:"TDV, madde: ozbek-han (11 Mayıs 1314 tarihli elçilik)" },
 
 { t:"1314-01-01", b:"Kahire'ye 174 kişilik büyük elçilik heyeti gönderildi — Memlük ittifakının tazelenmesi", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis",
@@ -107,7 +107,7 @@ window.KRONOLOJI_ALTINORDA = [
 { t:"1319-01-01", b:"Altın Orda kuvvetleri Trakya'yı yağmaladı — yağma kırk gün sürdü", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","yagma"],
   yer_id:"",
-  d:"Altın Orda süvarileri Tuna'yı aşıp Bizans'ın Trakya topraklarına girdi ve TDV'nin ifadesiyle 'yağma kırk gün devam etti'. Özbek Han'ın kızkardeşi Bizans imparatoruyla evliydi; akın, hanlığın Balkanlar'daki nüfuzunun askerî yüzüdür. yer_id boş: kaynak tek bir şehir adı vermiyor, bölge adı veriyor.",
+  d:"Altın Orda süvarileri Tuna'yı aşıp Bizans'ın Trakya topraklarına girdi ve TDV'nin ifadesiyle 'yağma kırk gün devam etti'. Özbek Han'ın kızkardeşi Bizans imparatoruyla evliydi; akın, hanlığın Balkanlar'daki nüfuzunun askerî yüzüdür.", ic_not_d:"yer_id boş: kaynak tek bir şehir adı vermiyor, bölge adı veriyor.",
   kaynak:"TDV, madde: ozbek-han — 1319-1320 Trakya akını, 'yağma kırk gün devam etti'" },
 
 { t:"1320-01-01", b:"🔴 Özbek Han İslâm'ı kabul etti ve Muhammed adını aldı — Altın Orda'nın İslâmlaşması", tur:"din", onem:5, dunya:4, kapsam:"ic",

@@ -1,0 +1,25 @@
+{
+ "aciklama": "PAKET-KRON2 · 13 Eylül 2026 · ikinci geçiş: kelime kaybı sınavının (ARAC-KRON2-ANLIK kiyas) gösterdiği yeniden yazımlarda ESKİ cümle iç nota HARFİYEN eklenir (izlenebilirlik). Uygulayıcı: denetim/ARAC-KRON2-UYGULA-0913.py",
+ "kayitlar": [
+  {"dosya": "olaylar_ek.js", "b": "Otranto çıkarması", "islem": "not_ekle", "alan": "d", "kural": "A2",
+   "not": "eski cümle: teslim olmayı reddeden yaklaşık 800 kişi (din değiştirmeyi kabul etmeyen halk) kılıçtan geçirildi (Otranto şehitleri)."},
+  {"dosya": "olaylar_ek.js", "b": "Rumeli Hisarı tamamlandı", "islem": "not_ekle", "alan": "d", "kural": "A2",
+   "not": "eski cümle başı: Dört ay gibi olağanüstü bir sürede tamamlanan hisarla"},
+  {"dosya": "olaylar.js", "b": "Çeşme baskını", "islem": "not_ekle", "alan": "d", "kural": "A2",
+   "not": "eski cümle başı: Baltık'tan yola çıkıp Cebelitarık üzerinden Akdeniz'e giren Rus filosu"},
+  {"dosya": "olaylar_ek7.js", "b": "Topkapı Sarayı'nın (Saray-ı Cedîd) tamamlanması", "islem": "not_ekle", "alan": "d", "kural": "A2",
+   "not": "eski cümle: …göre Fâtih'in emriyle 1459'da başlayan inşaat 1478'de büyük ölçüde tamamlandı ve saray…"},
+  {"dosya": "olaylar_ek5.js", "b": "Karayazıcı Abdülhalim ayaklanması", "islem": "not_ekle", "alan": "d", "kural": "EK2",
+   "not": "eski cümle: …Orta Anadolu'da geniş bir bölgeyi denetimine alarak Urfa'da kendi adına hutbe okuttu."},
+  {"dosya": "olaylar_ek5.js", "b": "Tiryaki Hasan Paşa'nın Kanije savunması", "islem": "not_ekle", "alan": "d", "kural": "EK2",
+   "not": "eski cümle: …yaklaşık iki bin kişilik garnizonla direndi. Yaptığı ani huruç harekâtları ve hileleriyle düşmanı…"},
+  {"dosya": "olaylar_ek5.js", "b": "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması", "islem": "not_ekle", "alan": "d", "kural": "EK2",
+   "not": "eski cümle: Kuyucu Murad Paşa'nın kuyulara doldurduğu isyancılarla anılan tasfiyesi…"},
+  {"dosya": "kronoloji_italya_sehir.js", "b": "Piacenza panayırlarının kurulması", "islem": "not_ekle", "alan": "d", "kural": "K2",
+   "not": "harfiyen: (Olayın mahalli PIACENZA'dır; yerleşim havuzunda karşılığı YOKTUR, bu yüzden yer_id boş bırakıldı — uydurulmadı.)"},
+  {"dosya": "olaylar_ek17.js", "b": "Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi", "islem": "not_ekle", "alan": "d", "kural": "K2",
+   "not": "eski cümle: Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri…"},
+  {"dosya": "kronoloji_italya.js", "b": "Otranto'nun Osmanlı çıkarmasıyla işgali", "islem": "not_ekle", "alan": "d", "kural": "A2",
+   "not": "eski ifade: şehri kısa süreli bir katliamın ardından ele geçirdi"}
+ ]
+}

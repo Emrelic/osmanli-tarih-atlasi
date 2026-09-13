@@ -160,7 +160,7 @@ window.KRONOLOJI_AKKOYUNLU = [
 { t:"1407-01-01", b:"Çekim, Âmid önünde mağlûp edildi", tur:"savas",
   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","savas"],
   yer_id:"Diyarbakır",
-  d:"Karayülük Osman Bey, Çekim'i Âmid (Diyarbakır) önünde mağlûp etti. Âmid, Akkoyunlu'nun bu tarihten sonra bir asır boyunca merkezi olacak şehirdir; künye de başkenti 'Diyarbekir → Tebriz' diye kaydeder.",
+  d:"Karayülük Osman Bey, Çekim'i Âmid (Diyarbakır) önünde mağlûp etti. Âmid, Akkoyunlu'nun bu tarihten sonra bir asır boyunca merkezi olacak şehirdir.", ic_not_d:"künye de başkenti 'Diyarbekir → Tebriz' diye kaydeder.",
   kaynak:"akkoyunlular" },
 
 { t:"1409-01-01", b:"Mardin kuşatıldı, Artuklu hânedanı sona erdi", tur:"kayip",
@@ -513,28 +513,28 @@ window.KRONOLOJI_AKKOYUNLU = [
 
 // ───────────────────────── KÜLTÜR · İLİM · MİMARÎ · HUKUK · İKTİSAT
 
-{ t:"1452-09-01", b:"HASAN PADİŞAH KANUNLARI — Akkoyunlu vergi kanunnâmesi", tur:"hukuk",
+{ t:"1452-09-01", b:"HASAN PADİŞAH KANUNLARI — Akkoyunlu vergi kanunnâmesi", gun:"Uzun Hasan devri", tur:"hukuk",
   onem:5, dunya:3, kapsam:"ic", etiket:["hukuk","idari","ekonomi","reform"],
   yer_id:"", kapsam_genis:true,
-  d:"Uzun Hasan, 'Hasan Padişah Kanunları' adıyla bilinen bir vergi kanunnâmesi düzenletti; çiftçiden, esnaftan, sanatkârdan ve tüccardan alınan vergilerin âdil biçimde tarh ve tahsili esasına dayanıyordu. 🔴 Bu kanunnâmenin önemi Akkoyunlu'yu aşar: Osmanlılar doğu eyaletlerinde fetihten sonra uzun süre bu kanunları uygulamayı sürdürdü, Safevîler de İran'da uzun süre kullandı. Yani hanedan yıkıldıktan sonra da hukuku yaşadı — Akkoyunlu'nun en kalıcı eseri bir kale ya da cami değil, bir vergi düzenidir. ⚠️ TARİH HAKKINDA: kaynak kanunnâmenin çıkarılış yılını vermiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı. Bu bir TERCİHTİR, ölçüm değildir.",
+  d:"Uzun Hasan, 'Hasan Padişah Kanunları' adıyla bilinen bir vergi kanunnâmesi düzenletti; çiftçiden, esnaftan, sanatkârdan ve tüccardan alınan vergilerin âdil biçimde tarh ve tahsili esasına dayanıyordu. 🔴 Bu kanunnâmenin önemi Akkoyunlu'yu aşar: Osmanlılar doğu eyaletlerinde fetihten sonra uzun süre bu kanunları uygulamayı sürdürdü, Safevîler de İran'da uzun süre kullandı. Yani hanedan yıkıldıktan sonra da hukuku yaşadı — Akkoyunlu'nun en kalıcı eseri bir kale ya da cami değil, bir vergi düzenidir.", ic_not_d:"TARİH HAKKINDA: kaynak kanunnâmenin çıkarılış yılını vermiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı. Bu bir TERCİHTİR, ölçüm değildir.",
   kaynak:"uzun-hasan · akkoyunlular" },
 
-{ t:"1452-09-01", b:"'Hasanbegî' sikkesi bastırıldı", tur:"ekonomi",
+{ t:"1452-09-01", b:"'Hasanbegî' sikkesi bastırıldı", gun:"Uzun Hasan devri", tur:"ekonomi",
   onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","idari","para"],
   yer_id:"", kapsam_genis:true,
-  d:"Uzun Hasan, iki akçe değerinde 'hasanbegî' adlı sikkeler bastırdı. Kendi adını taşıyan bir para birimi çıkarmak, Memlük tâbiiyetinden çıkan hanedanın egemenlik iddiasının iktisadî ilânıdır. ⚠️ TARİH HAKKINDA: kaynak basım yılını vermiyor; madde iktidara geliş tarihine bağlandı, bir tercihtir.",
+  d:"Uzun Hasan, iki akçe değerinde 'hasanbegî' adlı sikkeler bastırdı. Kendi adını taşıyan bir para birimi çıkarmak, Memlük tâbiiyetinden çıkan hanedanın egemenlik iddiasının iktisadî ilânıdır.", ic_not_d:"TARİH HAKKINDA: kaynak basım yılını vermiyor; madde iktidara geliş tarihine bağlandı, bir tercihtir.",
   kaynak:"uzun-hasan" },
 
-{ t:"1452-09-01", b:"Bayındır damgası devlet arması yapıldı — Oğuz soy iddiası", tur:"kultur",
+{ t:"1452-09-01", b:"Bayındır damgası devlet arması yapıldı — Oğuz soy iddiası", gun:"Uzun Hasan devri", tur:"kultur",
   onem:4, dunya:1, kapsam:"ic", etiket:["kultur","siyaset","sosyal","kimlik"],
   yer_id:"", kapsam_genis:true,
-  d:"Uzun Hasan, Oğuz Han ve Bayındır Han soyundan gelişini vurguladı ve Bayındır damgasını sikkelerde, belgelerde ve sancaklarda kullanılan devlet arması hâline getirdi. Bir Türkmen konfederasyonunun kendini boy şeceresiyle meşrulaştırması, İslâm dünyasında hanedan meşruiyetinin İslâmî olduğu kadar SOY temelli de kurulabildiğini gösterir. ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; iktidara geliş tarihine bağlandı, bir tercihtir.",
+  d:"Uzun Hasan, Oğuz Han ve Bayındır Han soyundan gelişini vurguladı ve Bayındır damgasını sikkelerde, belgelerde ve sancaklarda kullanılan devlet arması hâline getirdi. Bir Türkmen konfederasyonunun kendini boy şeceresiyle meşrulaştırması, İslâm dünyasında hanedan meşruiyetinin İslâmî olduğu kadar SOY temelli de kurulabildiğini gösterir.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; iktidara geliş tarihine bağlandı, bir tercihtir.",
   kaynak:"uzun-hasan" },
 
-{ t:"1452-09-01", b:"Uzun Hasan'ın haftalık ilim meclisleri ve Ali Kuşçu'yu himayesi", tur:"bilim",
+{ t:"1452-09-01", b:"Uzun Hasan'ın haftalık ilim meclisleri ve Ali Kuşçu'yu himayesi", gun:"Uzun Hasan devri", tur:"bilim",
   onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur","himaye"],
   yer_id:"Diyarbakır",
-  d:"Uzun Hasan haftalık ilim meclisleri düzenledi ve dönemin en büyük matematikçi-astronomlarından Ali Kuşçu'yu himaye ederek ona iltifatta bulundu. 📌 Ali Kuşçu daha sonra Fâtih'in daveti üzerine İstanbul'a gidip Osmanlı ilim hayatının kurucu isimlerinden biri olacaktır — yani Otlukbeli'nde karşı karşıya gelen iki hükümdar, aynı âlimi ardarda himaye etmiştir. ⚠️ TARİH HAKKINDA: himayenin yılı kaynakta verilmiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı, bir tercihtir.",
+  d:"Uzun Hasan haftalık ilim meclisleri düzenledi ve dönemin en büyük matematikçi-astronomlarından Ali Kuşçu'yu himaye ederek ona iltifatta bulundu. 📌 Ali Kuşçu daha sonra Fâtih'in daveti üzerine İstanbul'a gidip Osmanlı ilim hayatının kurucu isimlerinden biri olacaktır — yani Otlukbeli'nde karşı karşıya gelen iki hükümdar, aynı âlimi ardarda himaye etmiştir.", ic_not_d:"TARİH HAKKINDA: himayenin yılı kaynakta verilmiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı, bir tercihtir.",
   kaynak:"uzun-hasan" },
 
 { t:"1452-09-01", b:"Kitâb-ı Diyârbekriyye yazdırıldı — hanedanın kendi tarihi", tur:"kultur",
@@ -546,13 +546,13 @@ window.KRONOLOJI_AKKOYUNLU = [
 { t:"1478-01-06", b:"Nasriyye bahçesi — Uzun Hasan'ın kendi yaptırdığı türbe", tur:"mimari",
   onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","imar"],
   yer_id:"Tebriz",
-  d:"Uzun Hasan, kendi yaptırdığı Nasriyye bahçesine defnedildi. Hükümdarın kendi ölümünden önce defnedileceği yeri inşa ettirmesi, Akkoyunlu'nun Tebriz'i yalnız fethedilmiş bir şehir değil hanedanın kalıcı yurdu saydığını gösterir. ⚠️ Nasriyye bahçesinin atlas verisinde ayrı bir kaydı yoktur; `yer_id` şehre verildi.",
+  d:"Uzun Hasan, kendi yaptırdığı Nasriyye bahçesine defnedildi. Hükümdarın kendi ölümünden önce defnedileceği yeri inşa ettirmesi, Akkoyunlu'nun Tebriz'i yalnız fethedilmiş bir şehir değil hanedanın kalıcı yurdu saydığını gösterir.", ic_not_d:"Nasriyye bahçesinin atlas verisinde ayrı bir kaydı yoktur; `yer_id` şehre verildi.",
   kaynak:"uzun-hasan" },
 
-{ t:"1452-09-01", b:"Cami, medrese, zâviye ve kervansaray imar programı", tur:"mimari",
+{ t:"1452-09-01", b:"Cami, medrese, zâviye ve kervansaray imar programı", gun:"Uzun Hasan devri", tur:"mimari",
   onem:4, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","ekonomi","imar"],
   yer_id:"", kapsam_genis:true,
-  d:"Uzun Hasan cami, medrese, zâviye ve kervansaray olmak üzere birçok eser yaptırdı. 🔴 Bu eserlerin BÜYÜK KISMI GÜNÜMÜZE ULAŞMADI: Safevîler Tebriz'deki Akkoyunlu yapılarının çoğunu KASITLI olarak yıktı. Bir hanedanın mimarî mirasının ardılı tarafından bilerek silinmesi, Akkoyunlu'nun bugün Karakoyunlu'dan (Gökmescid ayakta) daha az görünür olmasının sebebidir — yani kaynak azlığı bir tesadüf değil, bir siyasetin sonucudur. ⚠️ TARİH HAKKINDA: kaynak tek tek yapıların tarihini vermiyor; imar programı iktidara geliş tarihine bağlandı, bir tercihtir.",
+  d:"Uzun Hasan cami, medrese, zâviye ve kervansaray olmak üzere birçok eser yaptırdı. 🔴 Bu eserlerin BÜYÜK KISMI GÜNÜMÜZE ULAŞMADI: Safevîler Tebriz'deki Akkoyunlu yapılarının çoğunu KASITLI olarak yıktı. Bir hanedanın mimarî mirasının ardılı tarafından bilerek silinmesi, Akkoyunlu'nun bugün Karakoyunlu'dan (Gökmescid ayakta) daha az görünür olmasının sebebidir — yani kaynak azlığı bir tesadüf değil, bir siyasetin sonucudur.", ic_not_d:"TARİH HAKKINDA: kaynak tek tek yapıların tarihini vermiyor; imar programı iktidara geliş tarihine bağlandı, bir tercihtir.",
   kaynak:"akkoyunlular · uzun-hasan" },
 
 { t:"1478-06-01", b:"Heşt Bihişt Sarayı — Venedikli tacirlerin hayranlıkla anlattığı yapı", tur:"mimari",
@@ -561,22 +561,22 @@ window.KRONOLOJI_AKKOYUNLU = [
   d:"Yâkub Bey'in yaptırdığı 'Heşt Bihişt' (Sekiz Cennet) sarayı, Tebriz'i ziyaret eden Venedikli tacirler tarafından hayranlıkla tasvir edilmiştir.", ic_not_d:"📌 Bu yapının bilinmesini bir Müslüman kroniğe değil, AVRUPALI TÜCCARLARIN seyahat notlarına borçluyuz — Uzun Hasan'ın Venedik ittifakı, hanedanın mimarî mirasının kaydedilmesini de sağlamış oldu. ⚠️ TARİH HAKKINDA: sarayın inşa yılı kaynakta verilmiyor; madde Yâkub Bey'in cülûsuna bağlandı, bir tercihtir. `hest-bihist` slugu ölü (302) ölçüldü.",
   kaynak:"akkoyunlular" },
 
-{ t:"1478-06-01", b:"TÜRKMEN MİNYATÜR MEKTEBİ — Safevî sanatının kaynağı", tur:"kultur",
+{ t:"1478-06-01", b:"TÜRKMEN MİNYATÜR MEKTEBİ — Safevî sanatının kaynağı", gun:"Yâkub Bey devri", tur:"kultur",
   onem:5, dunya:3, kapsam:"ic", etiket:["kultur","kultur","himaye"],
   yer_id:"Tebriz",
-  d:"Yâkub Bey döneminde minyatür sanatı büyük gelişme gösterdi; sanat tarihçileri bu dönemin üretimini 'Türkmen minyatür mektebi' diye adlandırır ve bu okulun Safevî minyatürleri üzerinde derin tesirler bıraktığını tespit ederler. 🔴 Akkoyunlu'nun en kalıcı kültürel mirası budur: devlet 1514'te yıkıldı, ama Tebriz atölyesinin üslûbu Safevî sarayında yaşamaya devam etti ve İran minyatürünün klasik çağını hazırladı. ⚠️ TARİH HAKKINDA: kaynak tek bir yıl vermiyor; madde Yâkub Bey'in cülûsuna bağlandı, bir tercihtir.",
+  d:"Yâkub Bey döneminde minyatür sanatı büyük gelişme gösterdi; sanat tarihçileri bu dönemin üretimini 'Türkmen minyatür mektebi' diye adlandırır ve bu okulun Safevî minyatürleri üzerinde derin tesirler bıraktığını tespit ederler. 🔴 Akkoyunlu'nun en kalıcı kültürel mirası budur: devlet 1514'te yıkıldı, ama Tebriz atölyesinin üslûbu Safevî sarayında yaşamaya devam etti ve İran minyatürünün klasik çağını hazırladı.", ic_not_d:"TARİH HAKKINDA: kaynak tek bir yıl vermiyor; madde Yâkub Bey'in cülûsuna bağlandı, bir tercihtir.",
   kaynak:"akkoyunlular" },
 
-{ t:"1478-06-01", b:"Yâkub Bey'in Türkçe ve Farsça şiirleri, Molla Câmî himayesi", tur:"kultur",
+{ t:"1478-06-01", b:"Yâkub Bey'in Türkçe ve Farsça şiirleri, Molla Câmî himayesi", gun:"Yâkub Bey devri", tur:"kultur",
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","edebiyat","himaye"],
   yer_id:"Tebriz",
-  d:"Yâkub Bey hem Türkçe hem Farsça şiir söylüyordu, Molla Câmî'yi himaye etti ve çevresinde birçok şair topladı. Karakoyunlu'da Cihan Şah'ın 'Hakîkî' mahlasıyla yaptığının Akkoyunlu'daki karşılığıdır: iki rakip Türkmen hanedanının hükümdarları da Türkçe şiir yazan ve aynı âlimi (Câmî) himaye eden kişilerdi. ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; cülûs tarihine bağlandı, bir tercihtir.",
+  d:"Yâkub Bey hem Türkçe hem Farsça şiir söylüyordu, Molla Câmî'yi himaye etti ve çevresinde birçok şair topladı. Karakoyunlu'da Cihan Şah'ın 'Hakîkî' mahlasıyla yaptığının Akkoyunlu'daki karşılığıdır: iki rakip Türkmen hanedanının hükümdarları da Türkçe şiir yazan ve aynı âlimi (Câmî) himaye eden kişilerdi.", ic_not_d:"TARİH HAKKINDA: kaynak yıl vermiyor; cülûs tarihine bağlandı, bir tercihtir.",
   kaynak:"akkoyunlular" },
 
-{ t:"1478-06-01", b:"Gökmescid'in tamamlanması — rakibin eserini bitirmek", tur:"mimari",
+{ t:"1478-06-01", b:"Gökmescid'in tamamlanması — rakibin eserini bitirmek", gun:"Yâkub Bey devri", tur:"mimari",
   onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","imar"],
   yer_id:"Tebriz",
-  d:"Karakoyunlu hükümdarı Cihan Şah'ın 1465'te başlattığı ve 1467'de öldürülmesiyle yarım kalan Gökmescid (Mescid-i Kebûd), Uzun Hasan'ın oğlu Ebû Muzaffer Yâkub Bahadır Han devrinde, hanımı ve kızı Sâliha Hatun'un katkılarıyla tamamlandı. 📌 Cihan Şah'ı öldürten hanedanın onun eserini bitirmesi, Tebriz'in mimarî mirasının hanedanlar üstü sayıldığını gösterir — siyasî düşmanlık, imar mirasına taşınmamıştır. ⚠️ TARİH HAKKINDA: tamamlanma yılı kaynakta verilmiyor, yalnız 'Yâkub Bey devrinde' deniyor; madde cülûs tarihine bağlandı, bir tercihtir.",
+  d:"Karakoyunlu hükümdarı Cihan Şah'ın 1465'te başlattığı ve 1467'de öldürülmesiyle yarım kalan Gökmescid (Mescid-i Kebûd), Uzun Hasan'ın oğlu Ebû Muzaffer Yâkub Bahadır Han devrinde, hanımı ve kızı Sâliha Hatun'un katkılarıyla tamamlandı. 📌 Cihan Şah'ı öldürten hanedanın onun eserini bitirmesi, Tebriz'in mimarî mirasının hanedanlar üstü sayıldığını gösterir — siyasî düşmanlık, imar mirasına taşınmamıştır.", ic_not_d:"TARİH HAKKINDA: tamamlanma yılı kaynakta verilmiyor, yalnız 'Yâkub Bey devrinde' deniyor; madde cülûs tarihine bağlandı, bir tercihtir.",
   kaynak:"gokmescid" },
 
 ];
