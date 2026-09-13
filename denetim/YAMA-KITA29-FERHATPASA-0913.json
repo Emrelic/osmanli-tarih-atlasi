@@ -1,0 +1,155 @@
+{
+  "yazan": "KITA 29",
+  "tarih": "2026-09-13",
+  "paket": "parti-emrelic-0046 / H-0007 · H-0010 · H-0011 · H-0012",
+  "rapor": "denetim/OLCUM-KITA29-FERHATPASA-0913.md",
+  "ongoru": "denetim/ONGORU-KITA29-FERHATPASA-0913.md · commit a2e54d9 (ölçümden ÖNCE)",
+  "c_taslagi": "denetim/TASLAK-C-KITA29-1590-0913.js · window.HUKUKI_SINIRLAR_KITA29",
+  "durum": "ÖNERİ — koşu 10 sırasında data/ DONUK; UYGULAYAN koordinatör (D098)",
+
+  "on_kosul": "🔴 YAMA-KITA13-VAN-0913.json A grubu (Başkale · Çaldıran · Şeyhrumi 1639 → 1548-08-25) BU YAMADAN ÖNCE inmeli (D166). Benzetim o sırayla koştu; A1 Mâku'nun 'ada değil' sonucu O YAMAYA dayanıyor.",
+
+  "benzetim": {
+    "alet": "denetim/ARAC-KITA29-BENZETIM-0913.py (bellekte, data/ dokunulmadı)",
+    "degismez1_bosluk": "değişen 8 kaydın 8'inde boşluk YOK",
+    "cep_1590_03_21": "ÖNCE 11 → K13-A+A 8 → +B1 7 · kalan Emre-cepleri: Gümrü 8/8 · Selmâs 8/8 · Merend 7/8 (kaynağı bulunamayan üçü)",
+    "cep_diger_kesitler": "1575: 13→9 · 1605: 7→3 · 1620: 8→4",
+    "degismez2": "yeni kırılma günü 2 AÇIK: 1574-01-01 (A1) · 1588-09-01 (A3) — KITA 14'ten madde istendi (tahta M-3743)"
+  },
+
+  "kosu_sonrasi_sart": [
+    "py arac/denetle.py (taban kırmızıysa DELTA)",
+    "py arac/renk_olc.py (§9: komşuluk değişiyor — Mâku ve Şerur Osmanlı gövdesine katılıyor)"
+  ],
+
+  "A_grubu_kaynakli": [
+    {
+      "kod": "A1",
+      "ad": "Mâku",
+      "dosya": "data/yerlesimler.js:1763",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"},
+         "yeni": [{"f": "1501-07-01", "t": "1574-01-01"}, {"f": "1639-05-17", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1574-01-01", "t": "1639-05-17"}}
+      ],
+      "kaynak_onerisi": "TDV maku [17]: '1574 yılında Osmanlı Devleti, Mahmûdî Kürt kabilesi reisi İvaz Bey'i Mâkû'yu İranlılar'dan alıp burada bir kale yapmakla görevlendirdi.' · [19-20]: 'İvaz Bey'in ocaklığına verilen Mâkû'ya 1605'te Safevî Şahı I. Abbas saldırdıysa da … kaleyi alamadı.' · [22-24]: 1639 Kasrışîrin çerçevesinde Kotur ile birlikte yıkım; 'IV. Murad'ın ölümünden sonra İranlılar tarafından tekrar işgal edildi.'",
+      "gun_gerekcesi": "Başlangıç: kaynak YIL veriyor → 1574-01-01 (§4). Bitiş: 1639-05-17 — Kotur kaydının günü (D084); TDV iki kaleyi aynı cümlede bağlıyor. ⚠️ 'IV. Murad'ın ölümünden sonra' (1640-02-09) ≤9 ay sonrası — KITA 13'ün Kotur için verdiği 'ölçülemedi' notunun aynısı.",
+      "neden_onerisi": "Atlas Mâku'yu 1281→1923 HİÇ Osmanlı göstermiyor; kaydın kendi m:'Van' alanı ise Osmanlı Van eyaletini gösteriyor. Mahmûdî ocaklığı Van eyaletine bağlıydı (TDV van: 'Mahmudi ve Kotur' eyalet birimleri).",
+      "mazeret_onceden": "Nasuh Paşa 1612 '962 (1555) sulhu esas alınmak suretiyle' (TDV nasuh-pasa [73]) — 1555'te Mâku İran'daydı ⇒ HUKUKEN 1612'de İran'a dönmüş olmalı. TDV maku ise FİİLÎ ocaklığı 1639'a kadar sürdürüyor. §4⑥ ön koşulu: bu bir çelişki değil, hukuk ↔ tasarruf ayrımı; atlas tasarruf boyar (D076) ⇒ adıyla anan kaynak izlendi.",
+      "iki_uc": "Benzetim: Mâku 1590'da 0/8 · 1605'te 2/8 farklı — ADA DEĞİL, Çaldıran-Doğubayazıt-Kotur kuşağının parçası (K13-A ön koşuluyla).",
+      "degismez2": "1574-01-01 🔴 AÇIK (en yakın çekirdek madde 236 gün) — KITA 14 M-3743 ① ile BİRLİKTE inmeli · 1639-05-17 ✓ (olaylar.js Kasr-ı Şirin)"
+    },
+    {
+      "kod": "A2",
+      "ad": "Şerur (Sharur)",
+      "dosya": "data/yerlesimler_kalite4.js:56",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"},
+         "yeni": [{"f": "1501-07-01", "t": "1585-01-01"}, {"f": "1603-10-21", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1585-01-01", "t": "1603-10-21"}}
+      ],
+      "kaynak_onerisi": "BOA TD 633 (19-29 Muharrem 999 / 17-27 Kasım 1590), Revan Eyaleti Mufassal Tahrir Defteri — Ali Sinan Bilgili, Ermeni Araştırmaları 53 (2016) [52]: 'Defterde Revan şehri, ardından Revan merkez, Karbi (Karpi), Nahçivan, … Bazarçayı, Şerür, Akçakal'a, … Ordubâd … kaza ve nahiyelerine bağlı köy, mezra ve kışlaklara ait kayıtlar bulunmaktadır.' · [85]: 'Şerur Kazası'",
+      "gun_gerekcesi": "🔴 GÜNLER KAYNAKTAN DEĞİL. Kaynak yalnız Kasım 1590 durumunu veriyor. Günler en yakın Aras komşusu Nahçıvan'dan (55 km, D084) — o da Culfa · Ordubad ile aynı kalıp. ⚠️ D166: B2 (Nahçıvan günü) değişirse Şerur da izlemeli.",
+      "neden_onerisi": "1590 Osmanlı tahririnde KAZA olan yer atlasta 1501-1736 kesintisiz safevi. Kaydın kendi yorumu (kalite4:57-60): '16-18. yy Osmanlı-Safevî savaşlarında sık sık el değiştirdi' — zincir ise HİÇ değiştirmiyor (iç çelişki). Yama öncesi 1590'da 6/8 cep; yama sonrası 0/8.",
+      "degismez2": "1585-01-01 ✓ · 1603-10-21 ✓ — ⚠️ AMA 1585-01-01'in en yakın maddesi 'Büyük tağşiş — akçe krizi' (olaylar_ek2.js): KONUSU İLGİSİZ. Nahçıvan · Ordubad · Culfa bugün de aynı maddeye yaslanıyor. Bilgi olarak KITA 14'e iletildi (M-3743 ④)."
+    },
+    {
+      "kod": "A3",
+      "ad": ["Gence", "Berde (Karabağ)"],
+      "dosya": ["data/yerlesimler.js:623", "data/yerlesimler.js:1973"],
+      "degisiklik": [
+        {"alan": "d", "eski": {"f": "1588-01-01", "t": "1606-01-01"}, "yeni": {"f": "1588-09-01", "t": "1606-01-01"}}
+      ],
+      "kaynak_onerisi": "Gence: TDV murad-iii [114] 'Ferhad Paşa'nın 996'da (1588) Gence'ye yönelik harekâtı ve 9 Şevval'de (1 Eylül) şehre girişi' · TDV safeviler [210] 'Çok geçmeden Gence, Osmanlılar'ın eline geçti (1 Eylül 1588).' — İKİ bağımsız TDV maddesi, aynı gün. Berde: TDV karabag [23] 'Osmanlı idaresi altında iken bu bölge Gence'nin fethinin ardından kurulan eyaletin sınırları içindeydi' ⇒ Gence günü (D084).",
+      "neden_onerisi": "Atlas 1588-01-01 (yıl kodu) — kaynak GÜN veriyor; 8 ay erken Osmanlı. İki kayıtta da s: safevi bloğu kesintisiz (d: üstüne biniyor) ⇒ yalnız d: başı taşınıyor, boşluk açılmıyor (benzetim B ✓).",
+      "degismez2": "1588-09-01 🔴 AÇIK — mevcut madde 'Karabağ ve Gence'nin ilhakı' olaylar_ek5.js t:1588-01-01; KITA 14 M-3743 ② ile gün taşınmalı, BİRLİKTE inmeli"
+    }
+  ],
+
+  "B_grubu_karar": [
+    {
+      "kod": "B1",
+      "ad": "Eçmiyadzin",
+      "dosya": "data/yerlesimler_ek26.js:91",
+      "degisiklik": [
+        {"alan": "s", "kimlik": "safevi", "eski": {"f": "1501-07-01", "t": "1736-03-08"},
+         "yeni": [{"f": "1501-07-01", "t": "1583-06-01"}, {"f": "1604-06-08", "t": "1736-03-08"}]},
+        {"alan": "d", "eski": null, "yeni": {"f": "1583-06-01", "t": "1604-06-08"}}
+      ],
+      "zincir": [
+        "① Karbi (Karpi) nahiyesi Kasım 1590 Osmanlı tahririnde — BOA TD 633, Bilgili 2016 [52]  🟢 KESİN",
+        "② Eçmiyadzin (Vagharshapat/Üç Kilise) Karbi nahiyesine bağlı — Köse 2024 Türkiyat Mecmuası 34/1 [141] 'İdarî yönden ise Vagharshapat köyü, Karbi nâhiyesine bağlıydı' · [163] 1724 arzuhâli 'bilâd-ı Acem'de Revan kazâsına tâbi Karbi nâhiyesinde' · Bilgili 2016 [236] (1727 TD 901)  🟡 1724/1727 BELGELERİ, 1590 DEĞİL",
+        "③ kaydın KENDİ kaynak alanı: 'ankraj Revan (19 km — en yakın ankraj) — aynı zincir' — oysa Revan'ın d: 1583-06-01→1604-06-08 dönemi bu zincirde YOK  🔴 İÇ ÇELİŞKİ"
+      ],
+      "neden_karar": "Halka ② 1590 belgesinden değil; köy-nahiye üyeliğinin 1590 ile 1724 arasında sabit kaldığı ÖLÇÜLMEDİ. 🔴 TUZAK ÖLÇÜLDÜ: Bilgili'deki 'Üç Kilise' vakıf alıntısı [235-237] 1727 TD 901 bölümündedir (bölüm başlığı [212]) — 1590'a TAŞINMADI.",
+      "gun": "Revan'ın günleri (D084, kaydın kendi ankrajı). Başlangıç C1 kararına BAĞLI (D166).",
+      "benzetim": "YALNIZ A grubu inerse Eçmiyadzin 1590'da 7/8 CEP olur (Mâku + Şerur Osmanlı'ya geçince); B1 ile 1/8.",
+      "oneri": "UYGULA — üç öncülün ikisi kaynaklı, üçüncüsü kaydın kendi beyanı; kaynaksız olan bugünkü 'kesintisiz safevi' değeri."
+    },
+    {
+      "kod": "B2",
+      "ad": "Nahçıvan (ve bağlı kalıp: Ordubad · Culfa · A2 Şerur)",
+      "dosya": "data/yerlesimler.js:609 (Ordubad :1977)",
+      "degisiklik_adayi": {"alan": "d", "eski": {"f": "1585-01-01", "t": "1603-10-21"}, "yeni": {"f": "1586-01-01", "t": "1603-10-21"}},
+      "kaynak": "Sadık Müfit Bilge, Vakanüvis 2 (Kafkasya özel sayısı) [51]: 'yerli halkın isteği ile 1586'da Osmanlı Devleti'ne katılan Nahçıvan bölgesi bir sancak olarak, yeni kurulan Revân ve Nahçıvan Eyâleti'ne bağlandı.' · [52]: '1587-1588 kışında Safevîlerin geri aldığı Nahçıvan, Deli Hızır Paşa tarafından 1588'de bir kere daha fethedilerek …'",
+      "neden_karar": "① 1587-88 kışı Safevî arası GÜNSÜZ — yazmak gün uydurmayı gerektirir, YAZILMADI. ② Ordubad ve Culfa aynı 1585-01-01 kalıbını paylaşıyor; Bilge 'Nahçıvan bölgesi' diyor, Ordubad/Culfa'yı kapsayıp kapsamadığı ölçülmedi — tek kaydı kaydırmak kalıbı böler (D171). ③ TDV nahcivan [73] kalıcı Osmanlı idaresinin GÜNÜNÜ vermiyor ('986'da (1578) yeniden başlayan … mücadelede … eline geçti' — 1578 savaşın başı, fethin günü değil, §4⑧).",
+      "oneri": "BEKLET — ya kalıbın dördü (Nahçıvan · Ordubad · Culfa · Şerur) birlikte 1586'ya, ya hiçbiri. Değişmez 2: 1586 için madde yok."
+    }
+  ],
+
+  "C_grubu_sikli_karar": [
+    {
+      "kod": "C1",
+      "ad": "Revan — Osmanlı başlangıç günü",
+      "dosya": "data/yerlesimler.js:622 · madde olaylar_ek5.js 'Revan'ın (Erivan) fethi ve kale inşası' t:1583-06-01 gun:'1583'",
+      "kaynak": "TDV revan [37]: 'Revan 991 Ramazanı başlarında (Eylül 1583 ortaları) Osmanlılar tarafından kontrol altına alındı.' · Davut Adlığ, Dicle Üniv. SBED 42 (2026) [268]: 'Kars'ta, Revan'a gidip orada bir kale yapma emri alan Ferhat Paşa, Revan üzerine yürüdü (BOA, A.DVNSMHM.d, 51-322)' — o hükmün tarihi 13 Eylül 1583 [491].",
+      "olculen": "Atlas 1583-06-01, yürüyüş emrinden 3,5 AY ÖNCE. Kesit: 1583-07-01'de Revan atlasta Osmanlı — iki kaynağa göre değil.",
+      "siklar": {
+        "a": "1583-01-01 — §4 harfiyen (gün yok → yıl). ⚠️ Fetihten ~8,5 ay önce Osmanlı sahiplik — yanlış YÖNDE erken.",
+        "b": "1583-09-01 + madde gun:'Eylül 1583 ortaları' — ÖNERİM. Gerekçe: §4'ün künye-penceresi şartının kardeşi — en kaba düzey olayı olaydan ÖNCEYE düşürüyorsa bir ince düzeyde kalınır. ⚠️ 13 Eylül EMİR günüdür, fetih günü DEĞİL — gün olarak kullanılmadı (§4⑧/D096).",
+        "c": "dokunma — 1583-06-01 kaynaksız ve iki kaynakla çelişiyor."
+      },
+      "etki": "Revan + B1 Eçmiyadzin başlangıcı + kronoloji maddesi (KITA 14 M-3743 ③ KOŞULLU bekliyor)"
+    },
+    {
+      "kod": "C2",
+      "ad": "Gümrü (Aleksandropol)",
+      "dosya": "data/yerlesimler_ek26.js:87",
+      "iç_celiski": "kaydın kaynak alanı 'ankraj Revan (86 km) — aynı zincir', m:'Erzurum' — zincirde Revan'ın hiçbir Osmanlı dönemi yok",
+      "tarihsel_isaret_osmanli_YONUNDE": "TDV kars [52]: Irakeyn seferinde (1534) 'Pasin, Şüregel, Oltu gibi kalelerin Osmanlılar tarafından ele geçirildiği esnada' — Şüregel kalesi 1534, 'kuvvetle muhtemeldir' diliyle",
+      "tarihsel_isaret_safevi_YONUNDE": "Şüregel 1590 Revan tahririnin kaza/nahiye listesinde YOK (Bilgili [52]); 1727 TD 901 listesinde VAR ([214]). 1583 harekâtında 'Şüregel Nahiyesi'nden 20.000 kişi Osmanlı idaresindeki topraklara göç ettirilmiştir' ([87]) — o an güvenli Osmanlı toprağı sayılmıyor.",
+      "siklar": {
+        "a": "dokunma; kaydın 'aynı zincir' beyanını DÜZELT (beyan yanlış) — ÖNERİM: tarihsel işaret beyana karşı",
+        "b": "Revan zincirine hizala (KITA 13 Çaldıran emsali: beyan edilen ankraj izlenir)"
+      },
+      "benzetim": "Dokunulmazsa 1590'da 8/8 TAM ENKLAV kalır — Emre'nin H-0005 'arada ne var' kuralının tam hedefi."
+    }
+  ],
+
+  "yazilamayan_bulgular": [
+    {"ne": "Merend 1590 sahibi", "damga": "bulunamadı", "not": "okunan hiçbir kaynak adıyla anmıyor; TDV tebriz [184] 1593 listesinde yok ama o listede Hoy da yok (liste TAM DEĞİL). Benzetim: 7/8 cep."},
+    {"ne": "Selmâs (Dilman) 1590 sahibi", "damga": "çıkarım-zayıf", "not": "Çeribaş 2025 [139] / Kaya 2023: Van beylerbeyi 'Urmiye, Selmas ve Hoy'da yeni kaleler inşa edilmesi gerektiğini' bildirmiş — öneri, sahiplik değil. Arama motoru özeti bunu 'Tebriz eyaletinin sancağı' diye ŞİŞİRMİŞTİ; belge söylemiyor. Benzetim: 8/8 enklav."},
+    {"ne": "Hoy Osmanlı başlangıcı", "damga": "ölçülemedi", "not": "TDV hoy [24] '1578-1590 savaşlarının başlarında' — atlas 1585-09-25 muhtemelen geç, ama gün yok. 1590 durumu 🟢 zaten doğru."},
+    {"ne": "Mâku 1612-1639 hukukî durumu", "damga": "ölçülemedi", "not": "A1 mazereti — Nasuh Paşa 1555 esası ↔ TDV maku fiilî ocaklık."},
+    {"ne": "Erdebil · Kürdistan altılısı (1590)", "damga": "okumadım", "not": "'Azerbaycan'/'Kürdistan' bölge adlarının bu yerleri kapsayıp kapsamadığına dair kaynak okunmadı."}
+  ],
+
+  "kapsam_disi_ek_bulgular": [
+    {
+      "ne": "1724-1735 Osmanlı dönemi: Eçmiyadzin · Mâku · Şerur · Gümrü(Şüregel) atlasta safevi, Revan Osmanlı",
+      "dayanak": "BOA TD 901 (gurre-i Muharrem 1140 / 19-20 Ağustos 1727) — Bilgili 2016 [213-214]: 'Defterde Revan şehri, Kırkbulak, Karpi (Karbi), Dereçiçek, Abarân, Sürmeli, Iğdır, Aralık, Sederek, Makû, Şerür, Vadi, Karni (Gerni) ve Şüregel nahiyelerine ait kayıtlar bulunmaktadır.' · [236] 'Revan Eyaleti'nin Karpi Nahiyesi'ne bağlı Üç Kilise Köyü' (köy ADIYLA)",
+      "neden_yazilmadi": "Ferhat Paşa (1590) kapsamı dışı. Revan atlasta 1724-09-28 → 1735-06-19 Osmanlı; Bilgili [212] Köprülüzâde Abdullah Paşa'nın Revan'ı '3 Ekim 1724'te' aldığını yazıyor — 5 günlük fark ayrıca ölçülmedi.",
+      "oneri": "ayrı kalem olarak sevk edilebilir — dayanak bu dosyadakilerden GÜÇLÜ (köy adıyla birincil defter)"
+    },
+    {
+      "ne": "1604 Revan kaynak çelişkisi — KAPANDI",
+      "dayanak": "TDV revan [48-49] + Adlığ 2026 [318-320] ('Revan Kalesi 8 Haziran 1604 … Tebriz ile Revan tekrar alınamamıştır') ↔ Iranica erevan-1 [396] ('retaken by the Ottomans soon thereafter')",
+      "hukum": "2'ye 1; atlas (1604-06-08, sonra safevi) doğru tarafta. Yama yok."
+    },
+    {
+      "ne": "Iranica abbas-i taarruzu '1014/1605-06'ya koyuyor",
+      "dayanak": "Iranica abbas-i [75] ↔ TDV tebriz [58] '21 Ekim 1603' · TDV nahcivan [74] '1012'de (1603)'",
+      "hukum": "atlas TDV'nin iki maddesini izliyor. Yama yok."
+    }
+  ]
+}
