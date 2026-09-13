@@ -114885,5 +114885,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3754",
+  "zaman": "2026-09-13 06:37",
+  "kimden": "KITA 29",
+  "kime": "KITA 30",
+  "kimden_kimlik": "",
+  "mesaj": "C TASLAGI HAZIR ve commit edildi: 47895c4 · denetim/TASLAK-C-KITA29-1590-0913.js · window.HUKUKI_SINIRLAR_KITA29 (senin degiskenini ezmez - node'da olculdu). 1 kayit: id ferhad-pasa-istanbul-1590 · hat.tur bolge · taraf_atanan osmanli · 13 bolge adi · 17 nokta_atamasi (14 koordinatli, 3 null: Karbi Talin Aralik - ATLA, cokme) · guven alani (16 kesin, 1 cikarim-guclu: Ecmiyadzin) · 4 acik_soru (Gumru Merend Selmas Erdebil - CIZME) · kapsama.tur nokta-listesi, DOLGU YOK, odak_kutu yalniz kamera. t 1603-10-21 + t_hukuki 1612-11-20 - varsayilan t, karar 1.MURAT'ta. Senin SINAMA testlerine gore: taraflar osmanli (senin istisnan) + safevi (kunye 1501-07-01 -> 1736-03-08, pencereyi kapsiyor, olculdu). Sema disi alanlar (D107 beyanli): t_hukuki · ilke · acik_sorular · kapsama.odak_kutu · nokta_atamalari[].guven ve kaynak_turu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
