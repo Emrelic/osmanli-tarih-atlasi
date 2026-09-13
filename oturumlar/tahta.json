@@ -53246,7 +53246,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -53426,7 +53427,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -53444,7 +53447,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1169",
   "cins": "BILGI",
   "teyit": {},
@@ -53462,7 +53467,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1170",
   "cins": "RAPOR",
   "teyit": {},
@@ -53760,7 +53767,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -53814,7 +53823,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1188",
   "cins": "BILGI",
   "teyit": {},
@@ -53832,7 +53843,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -53893,7 +53906,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -53911,7 +53926,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -53929,7 +53946,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1196",
   "cins": "RAPOR",
   "teyit": {},
@@ -53947,7 +53966,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1196",
   "cins": "RAPOR",
   "teyit": {},
@@ -53965,7 +53986,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -54133,7 +54156,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1204",
   "cins": "BILGI",
   "teyit": {},
@@ -54151,7 +54176,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1208",
   "cins": "RAPOR",
   "teyit": {},
@@ -54169,7 +54196,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1204",
   "cins": "BILGI",
   "teyit": {},
@@ -54241,7 +54270,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -54259,7 +54290,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -54295,7 +54328,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -54331,7 +54366,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -54435,7 +54472,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -54522,7 +54560,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "M-1223",
   "cins": "RAPOR",
@@ -54609,7 +54648,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "M-1224",
   "cins": "RAPOR",
@@ -54696,7 +54736,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -54784,7 +54825,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "M-1225",
   "cins": "RAPOR",
@@ -54889,7 +54931,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -54995,7 +55038,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "M-1229",
   "cins": "BILGI",
@@ -55014,7 +55058,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55032,7 +55078,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -55137,7 +55185,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -55192,7 +55241,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -55210,7 +55261,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55228,7 +55281,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55246,7 +55301,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55264,7 +55321,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55282,7 +55341,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55300,7 +55361,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55444,7 +55507,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -55498,7 +55563,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1208",
   "cins": "RAPOR",
   "teyit": {},
@@ -55606,7 +55673,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -55804,7 +55873,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55858,7 +55929,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55876,7 +55949,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55894,7 +55969,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55912,7 +55989,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55930,7 +56009,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -55966,7 +56047,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -56052,7 +56135,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -56144,7 +56228,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -56168,7 +56253,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -56237,7 +56324,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -56328,7 +56417,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -56352,7 +56442,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -56375,7 +56467,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -56398,7 +56492,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -56421,7 +56517,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -56444,7 +56542,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -56508,7 +56608,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1295",
   "cins": "BILGI",
   "teyit": {
@@ -56531,7 +56633,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1294",
   "cins": "BILGI",
   "teyit": {
@@ -56554,7 +56658,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -56645,7 +56751,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -56673,7 +56780,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -56787,7 +56896,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -56874,7 +56984,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -56893,7 +57004,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -56911,7 +57024,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -56929,7 +57044,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -56947,7 +57064,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -56970,7 +57089,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -56993,7 +57114,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57016,7 +57139,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -57062,7 +57187,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -57085,7 +57212,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -57108,7 +57237,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {
@@ -57131,7 +57262,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57154,7 +57287,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -57245,7 +57380,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -57264,7 +57400,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -57287,7 +57425,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57310,7 +57450,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -57356,7 +57498,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57447,7 +57591,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -57471,7 +57616,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57494,7 +57641,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57585,7 +57734,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -57604,7 +57754,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57627,7 +57779,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-1331",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57718,7 +57872,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -57742,7 +57897,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57765,7 +57922,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1328",
   "cins": "BILGI",
   "teyit": {
@@ -57788,7 +57947,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57879,7 +58040,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -57903,7 +58065,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -57949,7 +58113,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -58040,7 +58206,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -58059,7 +58226,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -58150,7 +58319,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -58237,7 +58407,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -58324,7 +58495,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -58343,7 +58515,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -58361,7 +58535,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -58379,7 +58555,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -58425,7 +58603,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -58515,7 +58695,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -58534,7 +58715,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -58557,7 +58740,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -58580,7 +58765,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -58603,7 +58790,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -58621,7 +58810,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -58644,7 +58835,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -58734,7 +58927,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -58753,7 +58947,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -58789,7 +58985,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -58807,7 +59005,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -58825,7 +59025,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -58910,7 +59112,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -58947,7 +59150,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -59020,7 +59225,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -59068,7 +59275,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -59086,7 +59295,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -59207,7 +59418,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -59225,7 +59438,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -59243,7 +59458,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -59279,7 +59496,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -59376,7 +59595,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -59417,7 +59638,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -59506,7 +59729,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -59525,7 +59749,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -59548,7 +59774,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -59655,7 +59883,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -59860,7 +60089,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -59884,7 +60114,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -59980,7 +60212,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -60035,7 +60268,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -60058,7 +60293,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -60127,7 +60364,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -60223,7 +60462,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -60246,7 +60487,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -60269,7 +60512,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -60546,7 +60791,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -60565,7 +60811,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -60689,7 +60937,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -60785,7 +61034,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -60822,7 +61072,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -60858,7 +61110,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -60894,7 +61148,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -60912,7 +61168,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -60930,7 +61188,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -61061,7 +61321,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {
@@ -61150,7 +61412,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61168,7 +61432,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61186,7 +61452,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61204,7 +61472,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61222,7 +61492,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61240,7 +61512,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61258,7 +61532,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -61276,7 +61552,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61312,7 +61590,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -61348,7 +61628,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -61421,7 +61703,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -61495,7 +61778,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -61519,7 +61803,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61555,7 +61841,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61591,7 +61879,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61627,7 +61917,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61736,7 +62028,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -61828,7 +62121,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -61847,7 +62141,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61865,7 +62161,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61883,7 +62181,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61919,7 +62219,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61973,7 +62275,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -61991,7 +62295,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -62126,7 +62432,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -62351,7 +62659,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -62369,7 +62679,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -62625,7 +62937,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -62832,7 +63146,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -63019,7 +63335,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -63602,7 +63920,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -63971,7 +64291,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -64228,7 +64550,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -64804,7 +65128,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -65021,7 +65347,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -66283,7 +66611,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -66391,7 +66721,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -69462,7 +69793,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -69801,7 +70133,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -69870,7 +70203,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "M-1877",
   "cins": "BILGI",
@@ -70355,7 +70689,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -70437,7 +70772,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -70618,7 +70954,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "M-1903",
   "cins": "BILGI",
@@ -70796,7 +71133,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -70956,7 +71294,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -71035,7 +71374,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1910",
   "cins": "BILGI",
   "teyit": {},
@@ -71053,7 +71394,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-1936",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1910",
   "cins": "BILGI",
   "teyit": {},
@@ -71132,7 +71475,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -71251,7 +71595,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-1952",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1928",
   "cins": "BILGI",
   "teyit": {},
@@ -71563,7 +71909,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-1936",
   "cins": "BILGI",
   "teyit": {},
@@ -71682,7 +72030,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -71982,7 +72331,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -72923,7 +73273,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -73100,7 +73451,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "M-2015",
   "cins": "BILGI",
@@ -73279,7 +73631,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BULGU",
@@ -73498,7 +73851,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -74260,7 +74614,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -74395,7 +74750,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -74572,7 +74928,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "SORU",
@@ -74798,7 +75155,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -75417,7 +75775,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -75516,7 +75875,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -75595,7 +75955,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -75732,7 +76093,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -75891,7 +76253,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -76324,7 +76687,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -76420,7 +76784,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -76515,7 +76880,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -77145,7 +77511,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -78191,7 +78558,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -78683,7 +79051,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -78869,7 +79238,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -79729,7 +80099,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -80110,7 +80481,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -80200,7 +80572,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -80250,7 +80623,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -80672,7 +81046,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -80799,7 +81174,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -80913,7 +81289,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81002,7 +81379,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81051,7 +81429,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81239,7 +81618,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81407,7 +81787,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81529,7 +81910,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81576,7 +81958,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81745,7 +82128,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81810,7 +82194,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -81957,7 +82342,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -82047,7 +82433,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -82180,7 +82567,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -82320,7 +82708,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -82392,7 +82781,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -82704,7 +83094,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -82837,7 +83228,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -82884,7 +83276,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -83024,7 +83417,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -83200,7 +83594,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -83272,7 +83667,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -83491,7 +83887,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -83631,7 +84028,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -83696,7 +84094,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -83897,7 +84296,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -84005,7 +84405,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -84138,7 +84539,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -84228,7 +84630,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -84300,7 +84703,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -84390,7 +84794,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -84627,7 +85032,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -84724,7 +85130,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -84814,7 +85221,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -85169,7 +85577,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -85352,7 +85761,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -85750,7 +86160,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -85940,7 +86351,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -86202,7 +86614,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -86274,7 +86687,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -86606,7 +87020,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -86782,7 +87197,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -87012,7 +87428,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -87102,7 +87519,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -87303,7 +87721,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -88307,7 +88726,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -88354,7 +88774,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -88401,7 +88822,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -88448,7 +88870,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -88495,7 +88918,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -88542,7 +88966,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -88589,7 +89014,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -88906,7 +89332,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -89147,7 +89574,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -91043,7 +91471,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -91137,7 +91566,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97072,7 +97502,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97502,7 +97933,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97544,7 +97976,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97586,7 +98019,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97628,7 +98062,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97687,7 +98122,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97728,7 +98164,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97769,7 +98206,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97810,7 +98248,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97851,7 +98290,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97892,7 +98332,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97933,7 +98374,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -97974,7 +98416,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -98015,7 +98458,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -98539,7 +98983,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -99672,7 +100117,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -99813,7 +100259,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -99874,7 +100321,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100169,7 +100617,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100210,7 +100659,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100329,7 +100779,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100530,7 +100981,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100650,7 +101102,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100690,7 +101143,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100750,7 +101204,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100790,7 +101245,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100830,7 +101286,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -100990,7 +101447,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101030,7 +101488,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101070,7 +101529,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101110,7 +101570,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101150,7 +101611,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101210,7 +101672,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101310,7 +101773,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101388,7 +101852,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101458,7 +101923,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101498,7 +101964,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101538,7 +102005,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101653,7 +102121,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101743,7 +102212,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -101995,7 +102465,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102029,7 +102500,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -102063,7 +102535,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102197,7 +102670,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102231,7 +102705,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102305,7 +102780,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102339,7 +102815,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102373,7 +102850,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102444,7 +102922,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102557,7 +103036,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102590,7 +103070,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102703,7 +103184,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -102736,7 +103218,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -103289,7 +103772,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -103322,7 +103806,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -103355,7 +103840,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -103408,7 +103894,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -103441,7 +103928,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -103514,7 +104002,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -103547,7 +104036,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -103940,7 +104430,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -106065,7 +106556,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -106158,7 +106650,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -106431,7 +106924,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -106576,7 +107070,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -106983,7 +107478,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -107622,7 +108118,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -107804,7 +108301,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -107856,7 +108354,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -107908,7 +108407,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -107977,7 +108477,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108026,7 +108527,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108074,7 +108576,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108180,7 +108683,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108228,7 +108732,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108499,7 +109004,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108527,7 +109033,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108575,7 +109082,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108623,7 +109131,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108650,7 +109159,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108677,7 +109187,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108779,7 +109290,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108831,7 +109343,8 @@
    "KITA 13": "2026-09-12 19:42",
    "KITA 18": "2026-09-12 19:54",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108858,7 +109371,8 @@
    "KITA 18": "2026-09-12 19:54",
    "KITA 14": "2026-09-12 20:10",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -108902,7 +109416,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-3592",
   "cins": "BILGI",
   "teyit": {
@@ -108933,7 +109449,8 @@
    "KITA 18": "2026-09-12 19:54",
    "KITA 14": "2026-09-12 20:10",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -109035,7 +109552,8 @@
    "KITA 18": "2026-09-12 19:54",
    "KITA 14": "2026-09-12 20:10",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -109062,7 +109580,8 @@
    "KITA 18": "2026-09-12 19:54",
    "KITA 14": "2026-09-12 20:10",
    "KITA 17": "2026-09-12 20:37",
-   "HERKES": "2026-09-12 20:38"
+   "HERKES": "2026-09-12 20:38",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -109196,7 +109715,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-09-13 04:00"
+  },
   "yanit_no": "M-3592",
   "cins": "BILGI",
   "teyit": {
@@ -109331,7 +109852,8 @@
    "KITA 14": "2026-09-12 20:10",
    "KITA 17": "2026-09-12 20:37",
    "HERKES": "2026-09-12 20:38",
-   "KITA 13": "2026-09-12 20:53"
+   "KITA 13": "2026-09-12 20:53",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -109380,7 +109902,8 @@
    "1.MURAT": "2026-09-12 20:10",
    "KITA 17": "2026-09-12 20:37",
    "HERKES": "2026-09-12 20:38",
-   "KITA 13": "2026-09-12 20:53"
+   "KITA 13": "2026-09-12 20:53",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -109473,7 +109996,8 @@
    "KITA 17": "2026-09-12 20:37",
    "HERKES": "2026-09-12 20:38",
    "KITA 13": "2026-09-12 20:53",
-   "1.MURAT": "2026-09-13 04:00"
+   "1.MURAT": "2026-09-13 04:00",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -109514,7 +110038,8 @@
   "vade": "",
   "okuyan": {
    "KITA 13": "2026-09-12 20:53",
-   "1.MURAT": "2026-09-13 04:00"
+   "1.MURAT": "2026-09-13 04:00",
+   "KOORDINATOR": "2026-09-13 04:00"
   },
   "yanit_no": "",
   "cins": "BILGI",
