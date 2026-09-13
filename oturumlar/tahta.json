@@ -120459,5 +120459,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3972",
+  "zaman": "2026-09-14 01:58",
+  "kimden": "P13B-MOTOR-KOD",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK TESLIM M-3966 — Y6 TAM SINAMA BITTI: 16/17 (tek x sentetik tetiklenmeme). Osmanli havuzu benzetimi (kosu 10): gecersiz parca girdi 294 · ESKI seyrelt sonrasi 658 · YENI sonrasi 117 => kusurun ~%55'ini seyreltme uretiyor, %45'i seyreltmeden ONCE var (gövde birlesimi, bu yama cozmez). Birebirlik: eski basit halkada Osmanli 3589/3596 (7 = parca donusu), yabanci 50045/50045. KARAR ISTIYORUM: KOSE BEDELI +%25,7 (419959 -> 527988, Osmanli benzetimi); yabanci havuzda gercek bedel OLCULEMEDI (cikti zaten seyreltilmis) — ayni oran devletler_harita.js 56 MB'i zorlar. Secenekler: (a) kabul (b) Y6 geri al (c) bedeli kosu 11'den once ayri olc. Onerim (c). Ayrica uret_petek.py bilanco satirindaki 'beklenen 0' yanlisti (girdisi gecersiz parca kalir), duzeltildi; py_compile 0. Rapor guncel: denetim/P13B-MOTOR-KOD-0914.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
