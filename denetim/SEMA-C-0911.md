@@ -821,3 +821,56 @@ Karlofça-Sava, Karlofça-Banat, Erzurum-II/Şattülarap, Bahçesaray-Özü),
 (`ONEMLI_EKSIK` alanıyla işaretli); Erzurum-Şattülarap'ın nehir uçları
 `dogrulanmadi:true` ama Muhammere/Basra/kapsama kutusu GERÇEK koordinat
 taşıyor — ikisi FARKLI eksiklik derecesinde, ayrı ayrı damgalandı.
+
+---
+
+## 12. 🆕 §8.2'YE DÖRDÜNCÜ/BEŞİNCİ HAT TÜRÜ — KITA 30 (13 Eylül 2026)
+
+`§11`in `hassasiyet:"bolge"` ölçütü zaten tanımlıydı ama `§8.2`nin
+render şeması (`hat.tur`) hiçbir zaman ona karşılık gelen bir değer
+almadı — yalnız "cetvel"/"dogal-tanimsiz" (çizgi) ve "nokta-kumesi"
+(yer) vardı. KITA 29'un Ferhat Paşa 1590 kaydı (belge ne çizgi ne yer
+listesi, tek bir GENİŞ bölgenin TEK bir tarafa ait olduğunu söylüyor —
+"statüko" ilkesi) bu boşluğu somutlaştırdı. KITA 30/KITA 29 tahtadan
+uzlaştı (M-3715/M-3718):
+
+```
+hat.tur:"bolge"
+  hat.taraf_atanan: "<devletler.js id>"   — taraflar[]'a İNDEKSLE değil
+                                            AÇIKÇA id ile (belirsizlik yok)
+  hat.nokta_atamalari: [...]              — hat{} bloğunun İÇİNDE durur
+                                            (render kodu burayı okur);
+                                            YALNIZ referans/kaynak-alıntısı,
+                                            sınır ÇİZMEZ
+```
+🔴 **DÜZELTME (M-3742, KITA 29'un ölçümü) — İLK TASARIM ÇÜRÜDÜ:**
+`kapsama.kutu`yu TEK RENKLE doldurmak YANLIŞ boyar — KITA 29 kendi
+kaydı için ölçtü: 33-43K/41,5-50,5D kutusunda 1590-03-21'de 123
+noktanın 23'ü belgenin ("Azerbaycan/Kürdistan") kapsayıp kapsamadığı
+BELİRSİZ olan yerlerdi (Erdebil, Zencan…). ⇒ **DOLGU YOK.**
+`kapsama.kutu` (`odak_kutu` da denebilir) yalnız KAMERA/ODAK kutusudur,
+BOYANMAZ. Sınır yalnız `hat.nokta_atamalari`daki (kaynakta AÇIKÇA adı
+geçen) yerlerde nokta işaretiyle gösterilir.
+
+🔴 **AYRI BİR YAPISAL TUZAK (Ferhad Paşa kaydının taşınmasında ölçüldü,
+`denetim/OLCUM-KITA30-FERHATPASA-TASI-0913.md`):** `nokta_atamalari`
+`hat:{...}`in DIŞINA (kayıt kök seviyesine) yazılırsa render kodu
+(`_cNoktaKumesiOzellikleri`, `kayit.hat.nokta_atamalari`ya bakar) SESSİZCE
+0 nokta üretir — 6/8 çizildi sanılmıştı, gerçek 7/8'di. **Alan HER ZAMAN
+`hat{}` bloğunun İÇİNDE olmalı.**
+
+Uygulandı: `js/app.js` (`_cBolgeGeometrisi`, commit 958e1f8 — KITA 15
+entegre etti). `denetim/ARAC-KITA30-CKATMAN-KOPRU-0913.js` YAYINA
+BAĞLI DEĞİL (D143, aynı işi yapan ikinci kod) — yalnız referans/köprü
+olarak `denetim/`de duruyor, hiçbir sayfadan yüklenmiyor.
+
+🔴 **YAZIM KURALI (bosna-sava dersi, D-aday):** her `cizgi`/`dogal-
+tanimsiz` C kaydı, YAZILMADAN önce en az 2 BİLİNEN noktayla (§8.5
+sınav deseni) taraf sınamasından geçmeden yazılmaz — nokta_dizisi'nin
+SIRASI, app.js'in sabit işaret kuralı ("negatif → taraflar[0]") yüzünden
+taraf atamasını SESSİZCE tersine çevirebilir (karlofca-bosna-sava-1699
+ilk yazımda %94,4 yanlış çıkmıştı, sıra düzeltilince %17,8'e indi).
+⚠️ **AÇIK SORU — sıradan bağımsız kural henüz YOK:** KITA 30'un önerisi
+(`kapsama.negatif_taraf:"<id>"` açık alanı, index/sıradan bağımsız)
+KITA 15'e iletildi (M-3758) ama YANIT/UZLAŞMA gelmedi — bir sonraki
+oturum bunu ya kapatmalı ya da açık soru olarak taşımalı.
