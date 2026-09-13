@@ -31,7 +31,7 @@ window.OLAYLAR_EK16 = [
   gun:"708 (1308) — TDV gün vermez, yalnız yıl ve şehir (Kayseri) verir",
   yer:"Konya, Niğde, Aksaray, Bartın, Eflani, Safranbolu",
   yer_id:"Konya", kisiler:"II. Gıyâseddin Mesud",
-  d:"TDV'nin Mesud II maddesine göre uzun bir hastalığın ardından 708'de (1308) Kayseri'de ölen II. Gıyâseddin Mesud, genel kabul gören görüşe göre Anadolu Selçuklu Devleti'nin son hükümdarıdır — ölümünden sonra tahta çıkarılan adaylar ne iç makamların ne de İlhanlı'nın tanımasını görebildi. Bölge zaten Mesud'un saltanatı boyunca fiilen İlhanlı memurlarınca yönetiliyordu; onun ölümüyle bu doğrudan idare Konya, Niğde ve Aksaray gibi merkezlerde biçimsel örtüsünü de kaybetti. ⚠️ TDV, İlhanlı'nın doğrudan idaresinin tam olarak hangi güne başladığını yazmaz; harita bu belirsizliği devletin fiilen sona erdiği 1308 yılına bağlıyor.",
+  d:"TDV'nin Mesud II maddesine göre uzun bir hastalığın ardından 708'de (1308) Kayseri'de ölen II. Gıyâseddin Mesud, genel kabul gören görüşe göre Anadolu Selçuklu Devleti'nin son hükümdarıdır — ölümünden sonra tahta çıkarılan adaylar ne iç makamların ne de İlhanlı'nın tanımasını görebildi. Bölge zaten Mesud'un saltanatı boyunca fiilen İlhanlı memurlarınca yönetiliyordu; onun ölümüyle bu doğrudan idare Konya, Niğde ve Aksaray gibi merkezlerde biçimsel örtüsünü de kaybetti.", ic_not_d:"⚠️ TDV, İlhanlı'nın doğrudan idaresinin tam olarak hangi güne başladığını yazmaz; harita bu belirsizliği devletin fiilen sona erdiği 1308 yılına bağlıyor.",
   kaynak:"mesud-ii", duygu:["😔","👑"] },
 
 { t:"1309-01-01", k:"kurulus", etiket:["toprak-kazanc"],
@@ -39,7 +39,7 @@ window.OLAYLAR_EK16 = [
   gun:"XIV. yüzyıl başı — TDV tam tarih vermez",
   yer:"Kastamonu, Çankırı, Bartın, Safranbolu, Eflani, Bolu, Akçakoca, Devrek, Konurapa (Düzce), Mudurnu, Karadeniz Ereğli",
   yer_id:"Kastamonu", kisiler:"Şemseddin Yaman Candar",
-  d:"TDV'nin Candaroğulları maddesine göre beylik, İlhanlı Hükümdarı Geyhatu'nun Eflani ve çevresini kendisine iktâ olarak verdiği Şemseddin Yaman Candar tarafından XIV. yüzyıl başında Kastamonu-Sinop çevresinde kuruldu; kaynakların yetersizliği yüzünden kuruluşun tam tarihi bilinmemektedir. Candar'ın halefi Süleyman Bey, Çobanoğulları Beyliği'nin yerini alan bir hükümdar olarak anılır — yani Kastamonu ve Çankırı çevresi Çobanoğulları'ndan, Bartın-Safranbolu-Eflani hattı ise İlhanlı doğrudan idaresinden Candaroğulları'na geçmiştir. ⚠️ Gün/ay bilinmiyor; 1309-01-01 yıl beyanıdır.",
+  d:"TDV'nin Candaroğulları maddesine göre beylik, İlhanlı Hükümdarı Geyhatu'nun Eflani ve çevresini kendisine iktâ olarak verdiği Şemseddin Yaman Candar tarafından XIV. yüzyıl başında Kastamonu-Sinop çevresinde kuruldu; kaynakların yetersizliği yüzünden kuruluşun tam tarihi bilinmemektedir. Candar'ın halefi Süleyman Bey, Çobanoğulları Beyliği'nin yerini alan bir hükümdar olarak anılır — yani Kastamonu ve Çankırı çevresi Çobanoğulları'ndan, Bartın-Safranbolu-Eflani hattı ise İlhanlı doğrudan idaresinden Candaroğulları'na geçmiştir.", ic_not_d:"⚠️ Gün/ay bilinmiyor; 1309-01-01 yıl beyanıdır.",
   kaynak:"candarogullari", duygu:["👑"] },
 
 { t:"1310-08-15", k:"fetih", etiket:["toprak-kazanc"],
@@ -47,15 +47,15 @@ window.OLAYLAR_EK16 = [
   gun:"15 Ağustos 1310",
   yer:"Rodos, İstanköy, Sömbeki (Simi), Lindos, Herke (Halki), Kelemez (Kalimnos), İleryoz (Leros), İlyaki (Tilos), İncirli (Nisiros)",
   yer_id:"Rodos", kisiler:"Foulques de Villaret",
-  d:"TDV'nin Rodos maddesi adanın 1309'da St. Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçtiğini kaydeder; standart Hospitalier tarihi (bk. J. Riley-Smith, The Knights Hospitaller) kuşatmanın 1306 yazında başladığını, Bizans takviyeleriyle uzun süre direnen Rodos şehrinin ise Grand Master Foulques de Villaret'nin kuvvetlerince ancak 15 Ağustos 1310'da düştüğünü ayrıntılandırır. Ada bu tarihten 1522'de Osmanlı fethine kadar şövalyelerin merkezi olacak, çevresindeki Oniki Ada da aynı süreçte Bizans'tan Hospitalier hâkimiyetine geçmiştir. ⚠️ TDV yıl (1309) verir; günü akademik kaynağa dayanır.",
+  d:"TDV'nin Rodos maddesi adanın 1309'da St. Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçtiğini kaydeder; standart Hospitalier tarihi (bk. J. Riley-Smith, The Knights Hospitaller) kuşatmanın 1306 yazında başladığını, Bizans takviyeleriyle uzun süre direnen Rodos şehrinin ise Grand Master Foulques de Villaret'nin kuvvetlerince ancak 15 Ağustos 1310'da düştüğünü ayrıntılandırır. Ada bu tarihten 1522'de Osmanlı fethine kadar şövalyelerin merkezi olacak, çevresindeki Oniki Ada da aynı süreçte Bizans'tan Hospitalier hâkimiyetine geçmiştir.", ic_not_d:"⚠️ TDV yıl (1309) verir; günü akademik kaynağa dayanır.",
   kaynak:"rodos", duygu:["⚔️","🏰"] },
 
 { t:"1335-01-01", k:"kurulus", etiket:["toprak-kazanc"],
   b:"Eretna Beyliği'nin kuruluşu — İlhanlı sonrası Orta Anadolu",
-  gun:"1335 (yıl biliniyor, gün bilinmiyor)",
+  gun:"1335", ic_not_gun:"1335 (yıl biliniyor, gün bilinmiyor)",
   yer:"Sivas, Kayseri, Amasya, Tokat, Niksar, Çorum, Samsun, Kırşehir, Terme, Ladik (Amasya), Merzifon, Osmancık, Çarşamba",
   yer_id:"Sivas", kisiler:"Alâeddin Eretna",
-  d:"TDV'nin Eretnaoğulları maddesine göre Uygur asıllı bir İlhanlı memuru olan Alâeddin Eretna, İlhanlı hükümdarı Ebû Said Bahadır Han'ın 1335'teki ölümünün ardından Anadolu'daki İlhanlı naibliğini fiilen bağımsız bir yönetime dönüştürdü; önce Memlük sultanının nâibi sıfatıyla görünüp 1340'ta hutbeden Memlük adını çıkardı ve 1341 civarında tam bağımsızlığını ilân etti. Merkezi önce Sivas, sonra Kayseri olan beylik, ölümüne (1352) kadar Amasya, Tokat, Çorum, Niğde, Aksaray ve Erzincan'ı kapsayan geniş bir Orta Anadolu hâkimiyeti kurdu ve 1381'de Kadı Burhâneddin tarafından sona erdirildi. ⚠️ TDV, Eretna'nın bağımsızlaşmasını kademeli anlatır (1335 fiilî hâkimiyet, 1341 resmî bağımsızlık); harita 1335'i esas alıyor çünkü o yıl İlhanlı merkezî otoritesi zaten çökmüştü.",
+  d:"TDV'nin Eretnaoğulları maddesine göre Uygur asıllı bir İlhanlı memuru olan Alâeddin Eretna, İlhanlı hükümdarı Ebû Said Bahadır Han'ın 1335'teki ölümünün ardından Anadolu'daki İlhanlı naibliğini fiilen bağımsız bir yönetime dönüştürdü; önce Memlük sultanının nâibi sıfatıyla görünüp 1340'ta hutbeden Memlük adını çıkardı ve 1341 civarında tam bağımsızlığını ilân etti. Merkezi önce Sivas, sonra Kayseri olan beylik, ölümüne (1352) kadar Amasya, Tokat, Çorum, Niğde, Aksaray ve Erzincan'ı kapsayan geniş bir Orta Anadolu hâkimiyeti kurdu ve 1381'de Kadı Burhâneddin tarafından sona erdirildi.", ic_not_d:"⚠️ TDV, Eretna'nın bağımsızlaşmasını kademeli anlatır (1335 fiilî hâkimiyet, 1341 resmî bağımsızlık); harita 1335'i esas alıyor çünkü o yıl İlhanlı merkezî otoritesi zaten çökmüştü.",
   kaynak:"eretnaogullari", duygu:["👑"] },
 
 { t:"1340-01-01", k:"kurulus", etiket:["toprak-kazanc"],
@@ -63,7 +63,7 @@ window.OLAYLAR_EK16 = [
   gun:"1340 (TDV yıl verir, gün vermez)",
   yer:"Tebriz, Merağa, Erdebil, Nahçıvan, Hoy, Urmiye, Selmâs (Dilman), Sultâniye, Şuşa, Culfa, Merend",
   yer_id:"Tebriz", kisiler:"Hasan-ı Büzürg",
-  d:"TDV'nin Celâyirliler maddesine göre İlhanlı emîri Noyan'ın torunu Hasan-ı Büzürg, İlhanlı hükümdarı Ebû Said Bahadır Han'ın ölümüyle patlak veren taht kavgalarından yararlanarak 1340'ta Tebriz merkezli bağımsız bir devlet kurdu. Celayirliler böylece Azerbaycan ve çevresinde İlhanlı sonrası boşluğu dolduran ilk büyük hânedan oldu; halefi Üveys döneminde (1356-1374) toprakları Musul ve Diyarbekir'e kadar genişleyecektir. ⚠️ Aynı gün, İlhanlı çöküşünün başka bir ucunda Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; bu tekil kayıt için ayrı bir kaynak bulunamadı.",
+  d:"TDV'nin Celâyirliler maddesine göre İlhanlı emîri Noyan'ın torunu Hasan-ı Büzürg, İlhanlı hükümdarı Ebû Said Bahadır Han'ın ölümüyle patlak veren taht kavgalarından yararlanarak 1340'ta Tebriz merkezli bağımsız bir devlet kurdu. Celayirliler böylece Azerbaycan ve çevresinde İlhanlı sonrası boşluğu dolduran ilk büyük hânedan oldu; halefi Üveys döneminde (1356-1374) toprakları Musul ve Diyarbekir'e kadar genişleyecektir.", ic_not_d:"⚠️ Aynı gün, İlhanlı çöküşünün başka bir ucunda Kemah'ın erken Akkoyunlu varlığına geçtiği veride görülüyor; bu tekil kayıt için ayrı bir kaynak bulunamadı.",
   kaynak:"celayirliler", duygu:["👑"] },
 
 { t:"1411-01-01", k:"fetih", etiket:["toprak-kazanc"],
@@ -71,7 +71,7 @@ window.OLAYLAR_EK16 = [
   gun:"814 (1411) — TDV ay/gün vermez",
   yer:"Bağdat, Basra, Musul, Kerkük, Hille, Kerbelâ, Necef, Erbil, Süleymaniye çevresi",
   yer_id:"Bağdat", kisiler:"Kara Yûsuf, Sultan Ahmed, Şah Mehmed",
-  d:"TDV'nin Karakoyunlular maddesine göre Kara Yûsuf, 28 Rebîülâhir 813'te (30 Ağustos 1410) Tebriz yakınında Celayirli Sultan Ahmed'i ağır bir yenilgiye uğrattı; Sultan Ahmed'in ölümünün ardından 814'te (1411) oğlu Pîr Budak'ı Tebriz'de sultan ilân etti ve aynı yıl büyük oğlu Şah Mehmed Bağdat'ı fethetti. Böylece bir asra yakın Celayirli başkenti olan Bağdat, çevresindeki Basra-Musul-Kerkük hattıyla birlikte Karakoyunlu hâkimiyetine girdi. ⚠️ TDV ayın/günün tam tarihini vermiyor; şehir sonradan (1446'da Cihan Şah'ın altı aylık kuşatmasıyla) bir kez daha el değiştirecektir — o ikinci olay bu kırılmanın konusu değildir.",
+  d:"TDV'nin Karakoyunlular maddesine göre Kara Yûsuf, 28 Rebîülâhir 813'te (30 Ağustos 1410) Tebriz yakınında Celayirli Sultan Ahmed'i ağır bir yenilgiye uğrattı; Sultan Ahmed'in ölümünün ardından 814'te (1411) oğlu Pîr Budak'ı Tebriz'de sultan ilân etti ve aynı yıl büyük oğlu Şah Mehmed Bağdat'ı fethetti. Böylece bir asra yakın Celayirli başkenti olan Bağdat, çevresindeki Basra-Musul-Kerkük hattıyla birlikte Karakoyunlu hâkimiyetine girdi.", ic_not_d:"⚠️ TDV ayın/günün tam tarihini vermiyor; şehir sonradan (1446'da Cihan Şah'ın altı aylık kuşatmasıyla) bir kez daha el değiştirecektir — o ikinci olay bu kırılmanın konusu değildir.",
   kaynak:"karakoyunlular", duygu:["⚔️","👑"] },
 
 { t:"1438-01-01", k:"kurulus", etiket:["toprak-kazanc"],
@@ -87,7 +87,7 @@ window.OLAYLAR_EK16 = [
   gun:"845 (1441-42) — TDV'ye göre en eski Hacı Giray parası bu tarihi taşır",
   yer:"Akmescid, Bahçesaray, Eski Kırım (Solhat), Gözleve (Kezlev), Karasubazar, Or Kapı (Ferahkirman), Kefe çevresi, Kabartay (Nalçik), Kuban (Yekaterinodar), Taganrog",
   yer_id:"Bahçesaray", kisiler:"Hacı Giray",
-  d:"TDV'nin Kırım maddesine göre Kırım Hanlığı, XIV. yüzyılın ikinci yarısında Altın Orda'nın taht kavgalarıyla parçalanmasının ürünü olarak ortaya çıktı; hanlığın gerçek kurucusu Hacı Giray'ın bastırdığı en eski para 845 (1441-42) tarihini taşır ve bu, hanlığın resmî kuruluş tarihi sayılır. Aynı yıl Hacı Giray, Kırım'daki konumunu Moskova ile dostluk kurarak pekiştirdi ve Şirin kabilesi başta olmak üzere yerel bey aileleri onun safına katıldı. ⚠️ TDV, bozkırın doğusundaki Nogaylar'ı ayrı bir hanlık olarak değil Altınorda'nın çöküşünden sonra dağılan göçebe bir unsur olarak tanımlıyor; bu maddenin konusu yalnız Kırım'ın bağımsızlaşmasıdır, Nogay bozkırındaki eşzamanlı kırılma için ayrı kaynak gerekiyor (bk. aşağıdaki not).",
+  d:"TDV'nin Kırım maddesine göre Kırım Hanlığı, XIV. yüzyılın ikinci yarısında Altın Orda'nın taht kavgalarıyla parçalanmasının ürünü olarak ortaya çıktı; hanlığın gerçek kurucusu Hacı Giray'ın bastırdığı en eski para 845 (1441-42) tarihini taşır ve bu, hanlığın resmî kuruluş tarihi sayılır. Aynı yıl Hacı Giray, Kırım'daki konumunu Moskova ile dostluk kurarak pekiştirdi ve Şirin kabilesi başta olmak üzere yerel bey aileleri onun safına katıldı.", ic_not_d:"⚠️ TDV, bozkırın doğusundaki Nogaylar'ı ayrı bir hanlık olarak değil Altınorda'nın çöküşünden sonra dağılan göçebe bir unsur olarak tanımlıyor; bu maddenin konusu yalnız Kırım'ın bağımsızlaşmasıdır, Nogay bozkırındaki eşzamanlı kırılma için ayrı kaynak gerekiyor (bk. aşağıdaki not).",
   kaynak:"kirim", duygu:["👑"] },
 
 { t:"1452-01-01", k:"fetih", etiket:["toprak-kazanc"],
@@ -103,7 +103,7 @@ window.OLAYLAR_EK16 = [
   gun:"1536 tüzüğü, 1537'de yürürlüğe girdi",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Akureyri, Reykjavík",
   yer_id:"Oslo", kisiler:"III. Christian",
-  d:"Danimarka Kralı III. Christian, 1536'daki taç giyme tüzüğünde (håndfæstning) Norveç'in artık ayrı bir krallık sayılmayacağını, Danimarka'nın bir eyaleti olarak yönetileceğini ve Norveç Devlet Konseyi'nin (riksråd) lağvedildiğini ilân etti; bu karar 1537'de Danimarka Kilise Nizamnâmesi'nin Norveç'e de uygulanmasıyla fiilî hâle geldi ve İskoç-Norveç piskoposu Olav Engelbriktsson'un direnişi kırıldı. Norveç pratikte kendi yasalarını ve kurumlarını bir süre daha korusa da, siyasî statüsü artık bağımsız bir krallık değil Danimarka tacına bağlı bir eyaletti — bu durum 1814'e kadar sürecektir. ⚠️ Bu olayın TDV'de karşılığı yoktur (İskandinavya, TDV'nin coğrafî kapsamı dışındadır); dayanak standart akademik kaynaktır (Britannica, 'Kalmar Union'; Danimarka Ulusal Tarih Merkezi, 'Reformation and Power, 1523-1660').",
+  d:"Danimarka Kralı III. Christian, 1536'daki taç giyme tüzüğünde (håndfæstning) Norveç'in artık ayrı bir krallık sayılmayacağını, Danimarka'nın bir eyaleti olarak yönetileceğini ve Norveç Devlet Konseyi'nin (riksråd) lağvedildiğini ilân etti; bu karar 1537'de Danimarka Kilise Nizamnâmesi'nin Norveç'e de uygulanmasıyla fiilî hâle geldi ve İskoç-Norveç piskoposu Olav Engelbriktsson'un direnişi kırıldı. Norveç pratikte kendi yasalarını ve kurumlarını bir süre daha korusa da, siyasî statüsü artık bağımsız bir krallık değil Danimarka tacına bağlı bir eyaletti — bu durum 1814'e kadar sürecektir.", ic_not_d:"⚠️ Bu olayın TDV'de karşılığı yoktur (İskandinavya, TDV'nin coğrafî kapsamı dışındadır); dayanak standart akademik kaynaktır (Britannica, 'Kalmar Union'; Danimarka Ulusal Tarih Merkezi, 'Reformation and Power, 1523-1660').",
   kaynak:"bulunamadı", duygu:["😔","👑"] },
 
 { t:"1797-10-17", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
@@ -111,7 +111,7 @@ window.OLAYLAR_EK16 = [
   gun:"17 Ekim 1797",
   yer:"Split (Spalato), Zadar (Zara), Şibenik (Sebenico), Dubrovnik çevresi, Kotor (Cattaro), Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), Preveze, Parga",
   yer_id:"Split (Spalato)", kisiler:"Napolyon Bonapart, Ludwig von Cobenzl",
-  d:"Napolyon Bonapart ile Avusturya temsilcisi Kont Cobenzl arasında 17 Ekim 1797'de imzalanan Campo Formio Antlaşması, bin yıllık Venedik Cumhuriyeti'ni resmen ortadan kaldırdı ve topraklarını paylaştırdı: Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya bırakıldı, Oniki Ada ve İyon Adaları (Korfu, Kefalonya, Zakynthos, Lefkada, Preveze ve Parga dahil Venedik'in Arnavutluk-Mora kıyısındaki üsleri) ise Fransa'ya geçti. Avusturya ayrıca Alçak Ülkeler'deki (bugünkü Belçika) topraklarını Fransa'ya bıraktı. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Campo Formio').",
+  d:"Napolyon Bonapart ile Avusturya temsilcisi Kont Cobenzl arasında 17 Ekim 1797'de imzalanan Campo Formio Antlaşması, bin yıllık Venedik Cumhuriyeti'ni resmen ortadan kaldırdı ve topraklarını paylaştırdı: Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya bırakıldı, Oniki Ada ve İyon Adaları (Korfu, Kefalonya, Zakynthos, Lefkada, Preveze ve Parga dahil Venedik'in Arnavutluk-Mora kıyısındaki üsleri) ise Fransa'ya geçti. Avusturya ayrıca Alçak Ülkeler'deki (bugünkü Belçika) topraklarını Fransa'ya bıraktı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Campo Formio').",
   kaynak:"bulunamadı", duygu:["⚔️","😔"] },
 
 { t:"1809-09-17", k:"antlasma", etiket:["toprak-kayip"],
@@ -119,7 +119,7 @@ window.OLAYLAR_EK16 = [
   gun:"17 Eylül 1809",
   yer:"Helsinki, Turku (Åbo), Tampere, Oulu, Kuopio, Vaasa, Mikkeli, Hämeenlinna, Pori, Jyväskylä",
   yer_id:"Helsinki", kisiler:"Kurt Ludwig von Stedingk, Nikolay Rumyantsev",
-  d:"1808-1809 Rus-İsveç Savaşı'nı sona erdiren Fredrikshamn (bugünkü Hamina) Antlaşması 17 Eylül 1809'da imzalandı; İsveç, Åland Adaları dahil bütün Finlandiya'yı Rusya'ya bıraktı. Finlandiya, Rus İmparatorluğu'na bağlı geniş özerkliğe sahip bir Büyük Dükalık statüsüne kavuştu ve Luteran inancıyla İsveç hukukunu korudu. Bu, İsveç'in Baltık'taki büyük güç statüsünün fiilen sona ermesi anlamına geliyordu. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Hamina').",
+  d:"1808-1809 Rus-İsveç Savaşı'nı sona erdiren Fredrikshamn (bugünkü Hamina) Antlaşması 17 Eylül 1809'da imzalandı; İsveç, Åland Adaları dahil bütün Finlandiya'yı Rusya'ya bıraktı. Finlandiya, Rus İmparatorluğu'na bağlı geniş özerkliğe sahip bir Büyük Dükalık statüsüne kavuştu ve Luteran inancıyla İsveç hukukunu korudu. Bu, İsveç'in Baltık'taki büyük güç statüsünün fiilen sona ermesi anlamına geliyordu.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Hamina').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
 { t:"1814-01-14", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
@@ -127,7 +127,7 @@ window.OLAYLAR_EK16 = [
   gun:"14 Ocak 1814",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Kristiansand, Haugesund, Lillehammer, Skien, Sogndal, Tønsberg, Mosjøen, Røros",
   yer_id:"Oslo", kisiler:"VI. Frederik, XIII. Karl",
-  d:"Napolyon'un Leipzig'de yenilgisinin ardından Danimarka'ya güneyden saldıran İsveç, 14 Ocak 1814'te imzalanan Kiel Antlaşması ile Norveç'i (İzlanda, Faroe Adaları ve Grönland hariç) devraldı — 1380'den beri süren Danimarka-Norveç birliği böylece resmen sona erdi. Karşılığında İsveç, Pomeranya'daki topraklarını Danimarka'ya bıraktı; Danimarka ayrıca Helgoland'ı İngiltere'ye devretti. Norveç antlaşmaya silahla direnip kendi anayasasını ilân etti ve İsveç bunu tanımak zorunda kaldı — sonuç, 1905'e kadar sürecek bir kişisel birlik (real union) oldu. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Kiel').",
+  d:"Napolyon'un Leipzig'de yenilgisinin ardından Danimarka'ya güneyden saldıran İsveç, 14 Ocak 1814'te imzalanan Kiel Antlaşması ile Norveç'i (İzlanda, Faroe Adaları ve Grönland hariç) devraldı — 1380'den beri süren Danimarka-Norveç birliği böylece resmen sona erdi. Karşılığında İsveç, Pomeranya'daki topraklarını Danimarka'ya bıraktı; Danimarka ayrıca Helgoland'ı İngiltere'ye devretti. Norveç antlaşmaya silahla direnip kendi anayasasını ilân etti ve İsveç bunu tanımak zorunda kaldı — sonuç, 1905'e kadar sürecek bir kişisel birlik (real union) oldu.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Kiel').",
   kaynak:"bulunamadı", duygu:["😔","👑"] },
 
 { t:"1861-02-13", k:"kayip", etiket:["toprak-kayip"],
@@ -135,7 +135,7 @@ window.OLAYLAR_EK16 = [
   gun:"13 Şubat 1861",
   yer:"Napoli, Bari, Brindisi, Lecce, Foggia, Taranto, Reggio Calabria, Katanya (Catania), Palermo, Messina, Cosenza, L'Aquila, Sirakuza",
   yer_id:"Napoli", kisiler:"II. Francesco (Francis II)",
-  d:"Garibaldi'nin Mayıs 1860'ta Sicilya'ya çıkışıyla başlayan çöküşün ardından Napoli'den kaçan Bourbon kralı II. Francesco, son kalesi Gaeta'da 3 Kasım 1860'tan itibaren kuşatıldı; Fransız donanmasının Ocak 1861'de bölgeden çekilmesiyle İtalyan deniz ablukası sıkılaştı ve 13 Şubat 1861'de Gaeta teslim oldu. II. Francesco tahtını terk edip sürgüne gitti; İki Sicilya Krallığı'nın son direniş noktası Civitella del Tronto ancak 20 Mart 1861'de düşecektir. ⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, İtalyan Birliği/Risorgimento kronolojisi).",
+  d:"Garibaldi'nin Mayıs 1860'ta Sicilya'ya çıkışıyla başlayan çöküşün ardından Napoli'den kaçan Bourbon kralı II. Francesco, son kalesi Gaeta'da 3 Kasım 1860'tan itibaren kuşatıldı; Fransız donanmasının Ocak 1861'de bölgeden çekilmesiyle İtalyan deniz ablukası sıkılaştı ve 13 Şubat 1861'de Gaeta teslim oldu. II. Francesco tahtını terk edip sürgüne gitti; İki Sicilya Krallığı'nın son direniş noktası Civitella del Tronto ancak 20 Mart 1861'de düşecektir.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, İtalyan Birliği/Risorgimento kronolojisi).",
   kaynak:"bulunamadı", duygu:["😔","⚔️"] },
 
 { t:"1861-03-17", k:"kurulus", etiket:["siyaset"],
@@ -143,7 +143,7 @@ window.OLAYLAR_EK16 = [
   gun:"17 Mart 1861",
   yer:"Torino, Milano, Cenova, Floransa, Pisa, Siena, Elba, Bolonya, Ferrara, Ancona, Bergamo, Brescia, Kalyari (Cagliari), Sasari (Sassari)",
   yer_id:"Torino", kisiler:"II. Vittorio Emanuele",
-  d:"İtalyan parlamentosunun Torino'da yaptığı ilk oturumda 17 Mart 1861'de İtalya Krallığı resmen ilân edildi ve Sardinya-Piyemonte kralı II. Vittorio Emanuele, birleşik İtalya'nın ilk kralı oldu. Yeni krallık, önceki yıl halk oylamalarıyla katılan Toskana, Emilia-Romagna, Napoli ve Sicilya (İki Sicilya) topraklarını Sardinya Krallığı ile birleştiriyordu; Roma (Papalık Devleti) ve Venedik (Avusturya) henüz dışarıda kalıyordu — onlar sırasıyla 1870 ve 1866'da katılacaktır. ⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Proclamation of the Kingdom of Italy').",
+  d:"İtalyan parlamentosunun Torino'da yaptığı ilk oturumda 17 Mart 1861'de İtalya Krallığı resmen ilân edildi ve Sardinya-Piyemonte kralı II. Vittorio Emanuele, birleşik İtalya'nın ilk kralı oldu. Yeni krallık, önceki yıl halk oylamalarıyla katılan Toskana, Emilia-Romagna, Napoli ve Sicilya (İki Sicilya) topraklarını Sardinya Krallığı ile birleştiriyordu; Roma (Papalık Devleti) ve Venedik (Avusturya) henüz dışarıda kalıyordu — onlar sırasıyla 1870 ve 1866'da katılacaktır.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Proclamation of the Kingdom of Italy').",
   kaynak:"bulunamadı", duygu:["🎉","👑"] },
 
 { t:"1905-06-07", k:"siyaset", etiket:["siyaset"],
@@ -151,7 +151,7 @@ window.OLAYLAR_EK16 = [
   gun:"7 Haziran 1905",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Kristiansand, Haugesund, Lillehammer, Skien, Sogndal, Tønsberg, Mosjøen, Røros",
   yer_id:"Oslo", kisiler:"II. Oscar, Christian Michelsen",
-  d:"Norveç hükûmetinin ayrı konsolosluk kurma talebini Kral II. Oscar'ın veto etmesi ve yeni bir hükûmet kuramayacağını açıklaması üzerine, Norveç Storting'i (parlamentosu) 7 Haziran 1905'te oybirliğiyle Kral'ın artık fiilen Norveç kralı olarak görev yapmadığına ve 1814 Kiel Antlaşması'ndan beri süren birliğin feshedildiğine karar verdi. 13 Ağustos 1905'teki halk oylamasında seçmenlerin neredeyse tamamı (371.000'e karşı 184 oy) feshi onayladı; İsveç, Karlstad görüşmelerinin ardından 26 Ekim 1905'te bağımsızlığı resmen tanıdı. ⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Norway: The union conflict, 1859-1905').",
+  d:"Norveç hükûmetinin ayrı konsolosluk kurma talebini Kral II. Oscar'ın veto etmesi ve yeni bir hükûmet kuramayacağını açıklaması üzerine, Norveç Storting'i (parlamentosu) 7 Haziran 1905'te oybirliğiyle Kral'ın artık fiilen Norveç kralı olarak görev yapmadığına ve 1814 Kiel Antlaşması'ndan beri süren birliğin feshedildiğine karar verdi. 13 Ağustos 1905'teki halk oylamasında seçmenlerin neredeyse tamamı (371.000'e karşı 184 oy) feshi onayladı; İsveç, Karlstad görüşmelerinin ardından 26 Ekim 1905'te bağımsızlığı resmen tanıdı.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Norway: The union conflict, 1859-1905').",
   kaynak:"bulunamadı", duygu:["🎉","👑"] },
 
 { t:"1516-01-23", k:"siyaset", etiket:["siyaset"],
@@ -159,7 +159,7 @@ window.OLAYLAR_EK16 = [
   gun:"23 Ocak 1516",
   yer:"Brüksel, Gent, Anvers (Antwerpen), Brüj (Brugge), Amsterdam, Rotterdam, Utrecht, Groningen, Leeuwarden, Maastricht, Nijmegen, Mons, Namur, Arras, Lille, Ypres, Lüksemburg, Besançon, Middelburg",
   yer_id:"Brüksel", kisiler:"II. Ferdinand (Aragon), Şarlken (V. Karl)",
-  d:"Aragon Kralı II. Ferdinand'ın 23 Ocak 1516'da ölümüyle, 1506'dan beri Burgonya Dükü sıfatıyla Alçak Ülkeler'i (bugünkü Belçika-Hollanda-Lüksemburg ve kuzey Fransa'nın bir kısmı) zaten yöneten torunu Şarlken, Kastilya ve Aragon tahtlarının da mirasçısı oldu ve 14 Mart 1516'da Brüksel'de İspanya kralı ilân edildi. Böylece bu topraklar, kişisel birlik yoluyla Habsburg hânedanının Almanya/Avusturya koluna değil doğrudan İspanya tacına bağlı sayılmaya başladı — 1519'da Şarlken'in Kutsal Roma İmparatoru seçilmesiyle bu iki kimlik (İspanya kralı ve Alman-Roma imparatoru) aynı kişide birleşecek, bölgenin İspanya'ya bağlılığı ise 1556'da Şarlken'in tahttan çekilip mirasını oğlu II. Filip'e bırakmasına kadar sürecektir. ⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Charles V, Holy Roman Emperor').",
+  d:"Aragon Kralı II. Ferdinand'ın 23 Ocak 1516'da ölümüyle, 1506'dan beri Burgonya Dükü sıfatıyla Alçak Ülkeler'i (bugünkü Belçika-Hollanda-Lüksemburg ve kuzey Fransa'nın bir kısmı) zaten yöneten torunu Şarlken, Kastilya ve Aragon tahtlarının da mirasçısı oldu ve 14 Mart 1516'da Brüksel'de İspanya kralı ilân edildi. Böylece bu topraklar, kişisel birlik yoluyla Habsburg hânedanının Almanya/Avusturya koluna değil doğrudan İspanya tacına bağlı sayılmaya başladı — 1519'da Şarlken'in Kutsal Roma İmparatoru seçilmesiyle bu iki kimlik (İspanya kralı ve Alman-Roma imparatoru) aynı kişide birleşecek, bölgenin İspanya'ya bağlılığı ise 1556'da Şarlken'in tahttan çekilip mirasını oğlu II. Filip'e bırakmasına kadar sürecektir.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Charles V, Holy Roman Emperor').",
   kaynak:"bulunamadı", duygu:["👑"] },
 
 { t:"1772-08-05", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
@@ -167,7 +167,7 @@ window.OLAYLAR_EK16 = [
   gun:"5 Ağustos 1772",
   yer:"Daugavpils (Dünaburg), Polotsk, Vitebsk, Lvov, Yazlofça (Yazlovets)",
   yer_id:"Lvov", kisiler:"II. Katerina, II. Friedrich, Maria Theresia",
-  d:"Rusya, Prusya ve Avusturya arasında 5 Ağustos 1772'de imzalanan antlaşmayla Polonya-Litvanya Devletler Birliği topraklarının yaklaşık üçte biri paylaşıldı: Rusya bugünkü Belarus ve Letonya'nın bir kısmını (Dünaburg, Polotsk, Vitebsk dahil) aldı, Avusturya ise Galiçya'yı (Lvov ve batı Podolya, Yazlovets dahil) ilhak etti; Prusya kıyı bölgesi Kraliyet Prusyası'nı devraldı. Polonya Seymi antlaşmayı ancak 30 Eylül 1773'te, baskı altında onayladı. Bu, 1795'e kadar sürecek üç paylaşımın ilkiydi. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
+  d:"Rusya, Prusya ve Avusturya arasında 5 Ağustos 1772'de imzalanan antlaşmayla Polonya-Litvanya Devletler Birliği topraklarının yaklaşık üçte biri paylaşıldı: Rusya bugünkü Belarus ve Letonya'nın bir kısmını (Dünaburg, Polotsk, Vitebsk dahil) aldı, Avusturya ise Galiçya'yı (Lvov ve batı Podolya, Yazlovets dahil) ilhak etti; Prusya kıyı bölgesi Kraliyet Prusyası'nı devraldı. Polonya Seymi antlaşmayı ancak 30 Eylül 1773'te, baskı altında onayladı. Bu, 1795'e kadar sürecek üç paylaşımın ilkiydi.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
 { t:"1793-01-23", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
@@ -175,7 +175,7 @@ window.OLAYLAR_EK16 = [
   gun:"23 Ocak 1793",
   yer:"Bar (Podolya), Kamaniçe, Meciboj (Mejibuji), Minsk, Çehrin (Çigirin), Gdansk, Poznan",
   yer_id:"Minsk", kisiler:"II. Katerina, II. Friedrich Wilhelm",
-  d:"1791 anayasa reformlarının Rusya ve Prusya'yı tedirgin etmesi üzerine, iki devlet 23 Ocak 1793'te St. Petersburg'da imzaladıkları antlaşmayla Polonya'yı yeniden paylaştı: Rusya Litvanya-Belarus'un büyük bölümünü ve batı Ukrayna'yı (Kamaniçe, Bar, Minsk dahil) aldı, Prusya ise Gdansk ve Poznan'ı içeren Büyük Polonya'yı ilhak etti — toplam 307.000 km². Baskı altındaki Polonya Seymi antlaşmayı aynı yıl onaylamak zorunda kaldı; bu, Polonya'nın tam ilhakını iki yıl erteleyen kısa ömürlü bir paylaşımdı. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
+  d:"1791 anayasa reformlarının Rusya ve Prusya'yı tedirgin etmesi üzerine, iki devlet 23 Ocak 1793'te St. Petersburg'da imzaladıkları antlaşmayla Polonya'yı yeniden paylaştı: Rusya Litvanya-Belarus'un büyük bölümünü ve batı Ukrayna'yı (Kamaniçe, Bar, Minsk dahil) aldı, Prusya ise Gdansk ve Poznan'ı içeren Büyük Polonya'yı ilhak etti — toplam 307.000 km². Baskı altındaki Polonya Seymi antlaşmayı aynı yıl onaylamak zorunda kaldı; bu, Polonya'nın tam ilhakını iki yıl erteleyen kısa ömürlü bir paylaşımdı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
 { t:"1795-10-24", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip"],
@@ -183,7 +183,7 @@ window.OLAYLAR_EK16 = [
   gun:"24 Ekim 1795",
   yer:"Kaunas, Krakov, Varşova, Vilnius, Šiauliai",
   yer_id:"Varşova", kisiler:"II. Katerina, II. Friedrich Wilhelm, II. Franz",
-  d:"Rusya, Prusya ve Avusturya, 24 Ekim 1795'te St. Petersburg'da imzaladıkları üçlü sözleşmeyle Polonya-Litvanya Devletler Birliği'nin kalan topraklarını tamamen paylaştılar: Rusya Litvanya (Vilnius, Kaunas dahil) ve Belarus'un kalanını aldı, Prusya Varşova dahil orta Polonya'yı, Avusturya ise Krakov dahil güney bölgeyi ilhak etti. Üç devlet ayrıca birbirlerinin yeni topraklarını askerî olarak garanti altına aldı ve Polonya'nın yeniden kurulması ihtimaline karşı önlem aldı. Bu, Polonya-Litvanya devletinin bağımsız bir ülke olarak tamamen ortadan kalkışıdır; XX. yüzyıla kadar yeniden kurulmayacaktır. ⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
+  d:"Rusya, Prusya ve Avusturya, 24 Ekim 1795'te St. Petersburg'da imzaladıkları üçlü sözleşmeyle Polonya-Litvanya Devletler Birliği'nin kalan topraklarını tamamen paylaştılar: Rusya Litvanya (Vilnius, Kaunas dahil) ve Belarus'un kalanını aldı, Prusya Varşova dahil orta Polonya'yı, Avusturya ise Krakov dahil güney bölgeyi ilhak etti. Üç devlet ayrıca birbirlerinin yeni topraklarını askerî olarak garanti altına aldı ve Polonya'nın yeniden kurulması ihtimaline karşı önlem aldı. Bu, Polonya-Litvanya devletinin bağımsız bir ülke olarak tamamen ortadan kalkışıdır; XX. yüzyıla kadar yeniden kurulmayacaktır.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
 { t:"1507-05-24", k:"fetih", etiket:["toprak-kazanc"],
@@ -199,7 +199,7 @@ window.OLAYLAR_EK16 = [
   gun:"1527 (TDV yıl verir, gün vermez)",
   yer:"Surabaya, Blitar, Bojonegoro, Jepara, Kudus, Madiun, Malang, Pasuruan, Pekalongan, Ponorogo, Rembang, Sumenep (Madura), Tegal, Trowulan (Majapahit)",
   yer_id:"Surabaya", kisiler:"Raden Patah, Sultan Trenggana",
-  d:"TDV'nin Demak maddesine göre Cava'nın ilk bağımsız Müslüman devleti olan Demak Sultanlığı, XV. yüzyılın son çeyreğinde Raden Patah tarafından kuruldu; Cava kaynaklarına göre çökmekte olan Hindu-Budist Majapahit Krallığı, Demak'ın saldırılarıyla ortadan kalktı. 1527'de Demak, Çin kaynaklarının XI. yüzyıldan beri Majapahit hükümdarları için önemli bir liman olarak andığı Tuban'ı fethetti — bu, Majapahit'in son kalıntılarının da Demak'a bağlandığı yıldır ve Cava'nın büyük bölümünün İslâmlaşma sürecinin dönüm noktasıdır. ⚠️ TDV tam gün vermiyor; 1527-01-01 yıl beyanıdır.",
+  d:"TDV'nin Demak maddesine göre Cava'nın ilk bağımsız Müslüman devleti olan Demak Sultanlığı, XV. yüzyılın son çeyreğinde Raden Patah tarafından kuruldu; Cava kaynaklarına göre çökmekte olan Hindu-Budist Majapahit Krallığı, Demak'ın saldırılarıyla ortadan kalktı. 1527'de Demak, Çin kaynaklarının XI. yüzyıldan beri Majapahit hükümdarları için önemli bir liman olarak andığı Tuban'ı fethetti — bu, Majapahit'in son kalıntılarının da Demak'a bağlandığı yıldır ve Cava'nın büyük bölümünün İslâmlaşma sürecinin dönüm noktasıdır.", ic_not_d:"⚠️ TDV tam gün vermiyor; 1527-01-01 yıl beyanıdır.",
   kaynak:"demak", duygu:["⚔️","🕌"] },
 
 { t:"1884-07-18", k:"antlasma", etiket:["toprak-kayip"],
@@ -207,7 +207,7 @@ window.OLAYLAR_EK16 = [
   gun:"14-21 Temmuz 1884 (Habar Avel kabilesiyle ilk antlaşma 14 Temmuz)",
   yer:"Berbera, Bulhar, Hargeysa, Burao, Erigavo, Borama, Lasanod, Odveyne, Buhodle, Ceel Afveyn, Hîs, Lâs Hore, Mayd, Taleh, Şeyh (Somaliland)",
   yer_id:"Berbera", kisiler:"Habar Avel kabile reisleri",
-  d:"TDV'nin Somali maddesine göre Zeyla, Berberâ ve Tâcûre 1884'te İngilizler tarafından Somaliland adıyla sömürgeleştirildi; standart akademik kaynağa göre bu süreç Berbera'da 21 Ramazan 1301'e (14 Temmuz 1884) rastlayan Habar Avel kabilesiyle imzalanan antlaşmayla başladı ve 1884-1886 arasında Gadabursi, Habar Tolcaala, Habar Gerhacis, İse ve Warsangeli kabileleriyle benzer antlaşmalar imzalanarak genişledi; İngiltere karşılığında askerî koruma vaat etti. Bu antlaşmalar zinciri 1887'de resmî Britanya Somaliland Himayesi'nin ilânına zemin hazırladı. ⚠️ TDV kesin gün vermiyor; tam tarih standart akademik kaynağa (antlaşma metinleri) dayanıyor.",
+  d:"TDV'nin Somali maddesine göre Zeyla, Berberâ ve Tâcûre 1884'te İngilizler tarafından Somaliland adıyla sömürgeleştirildi; standart akademik kaynağa göre bu süreç Berbera'da 21 Ramazan 1301'e (14 Temmuz 1884) rastlayan Habar Avel kabilesiyle imzalanan antlaşmayla başladı ve 1884-1886 arasında Gadabursi, Habar Tolcaala, Habar Gerhacis, İse ve Warsangeli kabileleriyle benzer antlaşmalar imzalanarak genişledi; İngiltere karşılığında askerî koruma vaat etti. Bu antlaşmalar zinciri 1887'de resmî Britanya Somaliland Himayesi'nin ilânına zemin hazırladı.", ic_not_d:"⚠️ TDV kesin gün vermiyor; tam tarih standart akademik kaynağa (antlaşma metinleri) dayanıyor.",
   kaynak:"somali", duygu:["😔"] },
 
 { t:"1905-01-01", k:"siyaset", etiket:["toprak-kazanc"],

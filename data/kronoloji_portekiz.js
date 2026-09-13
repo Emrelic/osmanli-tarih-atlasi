@@ -99,7 +99,7 @@ window.KRONOLOJI_PORTEKIZ = [
 
 { t:"1419-01-01", b:"Denizci Henrique, Sagres'te bir keşif kadrosu kurdu", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["bilim","teknoloji"],
-  d:"Ceuta seferinden dönen Şehzade Henrique, Sagres burnunda kartograflar, denizciler, gökbilimciler ve gemi ustalarından oluşan bir ekip topladı; ekip hem Hıristiyan hem yahudi uzmanları ve Arap kaynaklarını kullandı. ⚠️ Modern araştırma, burada efsanevi anlamda bir 'denizcilik okulu' bulunduğu iddiasına şüpheyle yaklaşır — kesin olan, kraliyet destekli sistemli bir keşif teşebbüsünün burada örgütlendiğidir.",
+  d:"Ceuta seferinden dönen Şehzade Henrique, Sagres burnunda kartograflar, denizciler, gökbilimciler ve gemi ustalarından oluşan bir ekip topladı; ekip hem Hıristiyan hem yahudi uzmanları ve Arap kaynaklarını kullandı.", ic_not_d:"⚠️ Modern araştırma, burada efsanevi anlamda bir 'denizcilik okulu' bulunduğu iddiasına şüpheyle yaklaşır — kesin olan, kraliyet destekli sistemli bir keşif teşebbüsünün burada örgütlendiğidir.",
   kaynak:"World History Encyclopedia, 'Prince Henry the Navigator' — akademik tarih ansiklopedisi; makale açıkça 'efsanenin aksine burada resmî bir denizcilik okulu yoktu' notunu düşer" },
 
 { t:"1434-01-01", b:"Gil Eannes, Bojador Burnu'nu aştı", tur:"bilim", onem:4, dunya:2, kapsam:"dis", yer_id:"",

@@ -177,7 +177,7 @@ window.KRONOLOJI_RUSYA = [
 { t:"1569-01-01", b:"Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (düzeltildi, bkz. dosya başı)", tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","savas"],
   yer_id:"Astrahan",
-  d:"IV. Selim döneminde Sadrazam Sokullu Mehmed Paşa'nın planladığı Don-Volga kanal seferi, Astrahan'ı kuşattı; kuşatma Eylül 1569'da terk edildi ve ordu büyük kayıplarla geri çekildi. Rus tarihyazımında bu, doğrudan bir tehdit olarak değil Osmanlı'nın bölgedeki ilk ve son ciddi askerî girişimi olarak anılır — devletler.js'teki mevcut kayıt \"1568\" yazıyor, standart kaynaklar 1569 diyor (bkz. dosya başı notu).",
+  d:"IV. Selim döneminde Sadrazam Sokullu Mehmed Paşa'nın planladığı Don-Volga kanal seferi, Astrahan'ı kuşattı; kuşatma Eylül 1569'da terk edildi ve ordu büyük kayıplarla geri çekildi. Rus tarihyazımında bu, doğrudan bir tehdit olarak değil Osmanlı'nın bölgedeki ilk ve son ciddi askerî girişimi olarak anılır", ic_not_d:"devletler.js'teki mevcut kayıt \\\"1568\\\" yazıyor, standart kaynaklar 1569 diyor (bkz. dosya başı notu).",
   kaynak:"Riasanovsky & Steinberg, A History of Russia; İnalcık, Osmanlı-Rus İlişkileri" },
 { t:"1581-09-01", b:"Yermak'ın Sibirya seferi başladı", tur:"sefer", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak"],
@@ -814,7 +814,7 @@ window.KRONOLOJI_RUSYA = [
 { t:"1917-11-07", b:"Ekim Devrimi — Bolşevikler iktidarı ele geçirdi", tur:"son", onem:5, dunya:5, kapsam:"ic",
   etiket:["devrim","siyaset"],
   yer_id:"St. Petersburg",
-  d:"Lenin önderliğindeki Bolşevikler, Petrograd'da Geçici Hükûmet'i devirerek iktidarı ele geçirdi (Jülyen takvimiyle 25 Ekim, bu yüzden \"Ekim Devrimi\"). Bu dosyanın kapsamı imparatorluk dönemiyle (1281-1917) sınırlı olduğundan yalnız KAPANIŞ İŞARETİ olarak eklenmiştir — devamı için bkz. data/devletler.js `sovyet-rusya` kronolojisi ve [[rusya-gecici-hukumet]].",
+  d:"Lenin önderliğindeki Bolşevikler, Petrograd'da Geçici Hükûmet'i devirerek iktidarı ele geçirdi (Jülyen takvimiyle 25 Ekim, bu yüzden \\\"Ekim Devrimi\\\"). Bu dosyanın kapsamı imparatorluk dönemiyle (1281-1917) sınırlı olduğundan yalnız KAPANIŞ İŞARETİ olarak eklenmiştir — devamı için bkz. data/", ic_not_d:"devletler.js `sovyet-rusya` kronolojisi ve [[rusya-gecici-hukumet]].",
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 
 // === M) İKİNCİ TUR — KÜLTÜR · BİLİM · SOSYAL AĞIRLIKLI EK MADDELER ===========

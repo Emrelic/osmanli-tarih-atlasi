@@ -297,7 +297,7 @@ window.KRONOLOJI_BIZANS = [
 { t:"1369-01-01", b:"Edirne Osmanlı başşehri oldu — Bizans kuşatıldı", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Edirne",
-  d:"Osmanlı Devleti'nin merkezinin Rumeli'ye taşınması, Bizans'ın Trakya'daki varlığını fiilen bitirdi. Başkent artık Osmanlı toprağıyla çevrili bir ada gibiydi. ⚠️ Edirne'nin fetih yılı kaynaklarda 1361 ile 1369 arasında tartışmalıdır; burada başşehir oluşu esas alınmıştır.",
+  d:"Osmanlı Devleti'nin merkezinin Rumeli'ye taşınması, Bizans'ın Trakya'daki varlığını fiilen bitirdi. Başkent artık Osmanlı toprağıyla çevrili bir ada gibiydi.", ic_not_d:"⚠️ Edirne'nin fetih yılı kaynaklarda 1361 ile 1369 arasında tartışmalıdır; burada başşehir oluşu esas alınmıştır.",
   kaynak:"el-kitabi" },
 
 { t:"1369-10-21", b:"V. İoannis Roma'da Katoliklige geçti — yardım gelmedi", tur:"diplomasi",
@@ -580,7 +580,7 @@ window.KRONOLOJI_BIZANS = [
 { t:"1460-05-31", b:"Mora Despotluğu ilhak edildi — son Bizans toprağı", tur:"son",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"",
-  d:"Başkentin düşüşünden yedi yıl sonra Palaiologos hanedanının elindeki son toprak da Osmanlı'ya katıldı. ⚠️ Bu madde dosyanın 1281-1453 kapsamının DIŞINDADIR; anlatı kapanmadan bitmesin diye epilog olarak kondu. Trabzon Rum İmparatorluğu (1461) AYRI bir künyedir ve bu dosyaya alınmadı.",
+  d:"Başkentin düşüşünden yedi yıl sonra Palaiologos hanedanının elindeki son toprak da Osmanlı'ya katıldı.", ic_not_d:"⚠️ Bu madde dosyanın 1281-1453 kapsamının DIŞINDADIR; anlatı kapanmadan bitmesin diye epilog olarak kondu. Trabzon Rum İmparatorluğu (1461) AYRI bir künyedir ve bu dosyaya alınmadı.",
   kaynak:"el-kitabi" },
 
 // ⚠️ KAPSAM DIŞI EPİLOG — 1281-1453'ün dışında, ama Bizans'ın devlet

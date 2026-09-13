@@ -50,7 +50,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","hukumdar","buhara"],
   yer_id:"Merv (Mari)",
-  d:"[Şeybânî/Buhara] Safevî Şahı İsmail, Şeybânî Han'ı Merv yakınında ağır bir yenilgiye uğratıp öldürdü; Horasan bir gecede Safevî'ye geçti. Bu, henüz on yıllık Şeybânî devleti için beklenmedik bir darbeydi ve ardından on yılı bulan bir hükümdar istikrarsızlığı dönemi getirdi. `dunya` değeri kronoloji_iran.js'teki aynı olayla BİREBİR aynıdır.",
+  d:"[Şeybânî/Buhara] Safevî Şahı İsmail, Şeybânî Han'ı Merv yakınında ağır bir yenilgiye uğratıp öldürdü; Horasan bir gecede Safevî'ye geçti. Bu, henüz on yıllık Şeybânî devleti için beklenmedik bir darbeydi ve ardından on yılı bulan bir hükümdar istikrarsızlığı dönemi getirdi.", ic_not_d:"`dunya` değeri kronoloji_iran.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: seybaniler + kronoloji_iran.js ile çapraz doğrulandı" },
 
 { t:"1525-01-01",
@@ -286,7 +286,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","buhara"],
   yer_id:"Buhara",
-  d:"Semerkant'ın Rus kuvvetlerince ele geçirilmesinin ardından Emir Muzafferüddin, Rusya'nın himayesini kabul eden bir antlaşma imzaladı; Buhara dış politikada Rusya'ya bağlı ama iç yönetiminde özerk bir vasal devlet olarak 1920'ye kadar varlığını sürdürdü. `dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
+  d:"Semerkant'ın Rus kuvvetlerince ele geçirilmesinin ardından Emir Muzafferüddin, Rusya'nın himayesini kabul eden bir antlaşma imzaladı; Buhara dış politikada Rusya'ya bağlı ama iç yönetiminde özerk bir vasal devlet olarak 1920'ye kadar varlığını sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: buhara-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
 
 { t:"1885-01-01",
@@ -448,7 +448,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive"],
   yer_id:"",
-  d:"General Kaufmann'ın seferi Hîve'yi 29 Mayıs 1873'te teslim olmaya zorladı; üç ay sonra imzalanan Gendemiyan Antlaşması'yla hanlık resmen Rusya'nın himayesine girdi, dış işlerini kaybetti ama iç yönetimini 1920'ye kadar sürdürdü. `dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
+  d:"General Kaufmann'ın seferi Hîve'yi 29 Mayıs 1873'te teslim olmaya zorladı; üç ay sonra imzalanan Gendemiyan Antlaşması'yla hanlık resmen Rusya'nın himayesine girdi, dış işlerini kaybetti ama iç yönetimini 1920'ye kadar sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: hive-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
 
 { t:"1873-01-01",
@@ -538,7 +538,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"antlasma", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","antlasma","hokand"],
   yer_id:"Kaşgar",
-  d:"Muhammed Ali Han, Buhara'nın artan baskısı karşısında Doğu Türkistan'daki ileri karakollarından çekilmeyi kabul edip Qing hanedanıyla bir antlaşma imzaladı; Hokand'ın Kaşgar üzerindeki iddiaları böylece resmen sona erdi. Ölçmedim ama bu olayın Çin kronolojisinde (kronoloji_cin.js) ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.",
+  d:"Muhammed Ali Han, Buhara'nın artan baskısı karşısında Doğu Türkistan'daki ileri karakollarından çekilmeyi kabul edip Qing hanedanıyla bir antlaşma imzaladı; Hokand'ın Kaşgar üzerindeki iddiaları böylece resmen sona erdi. Ölçmedim ama bu olayın Çin kronolojisinde (", ic_not_d:"kronoloji_cin.js) ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { t:"1840-01-01",
@@ -570,7 +570,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","hokand"],
   yer_id:"Taşkent",
-  d:"[Hokand açısından] General Çernyayev'in kuvvetleri, hanlığın en zengin ve stratejik şehri Taşkent'i ele geçirdi; Hokand bu kayıpla en önemli ticaret merkezini ve ekonomik gücünün büyük bölümünü yitirdi. `dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
+  d:"[Hokand açısından] General Çernyayev'in kuvvetleri, hanlığın en zengin ve stratejik şehri Taşkent'i ele geçirdi; Hokand bu kayıpla en önemli ticaret merkezini ve ekonomik gücünün büyük bölümünü yitirdi.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"kronoloji_rusya.js ile çapraz doğrulandı (aynı olay, Rusya perspektifiyle orada da kayıtlı)" },
 
 { t:"1868-01-01",
@@ -594,7 +594,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","son","toprak-kayip","hokand"],
   yer_id:"Hokand",
-  d:"Rusya, isyanların ardından Hokand'ı doğrudan ilhak edip Fergana vilayeti olarak Türkistan genel valiliğine bağladı; Buhara ve Hîve'den farklı olarak Hokand'ın nominal bağımsızlığı bile ortadan kalktı — üç Özbek hanlığından ilk sona eren oldu. `dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
+  d:"Rusya, isyanların ardından Hokand'ı doğrudan ilhak edip Fergana vilayeti olarak Türkistan genel valiliğine bağladı; Buhara ve Hîve'den farklı olarak Hokand'ın nominal bağımsızlığı bile ortadan kalktı — üç Özbek hanlığından ilk sona eren oldu.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: hokand-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
 
 // ══════════════ OSMANLI İLE TEMAS — ERKEN DÖNEM ══════════════
@@ -604,7 +604,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","diplomasi","osmanli-temasi","buhara"],
   yer_id:"",
-  d:"Sadrazam Sokullu Mehmed Paşa'nın planladığı Don-Volga kanal seferi, Astrahan'ı kuşattı; kuşatma Eylül 1569'da terk edildi. Seferin gerekçelerinden biri, Orta Asyalı Müslümanların hac yolunu ve Osmanlı-Mâverâünnehir ticaret/diplomasi hattını Rus ilerleyişine karşı güvence altına almaktı — Şeybânî/Canoğulları Buhara'sıyla 16. yüzyıl boyunca süren mektuplaşmaların jeopolitik arka planı budur. `dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
+  d:"Sadrazam Sokullu Mehmed Paşa'nın planladığı Don-Volga kanal seferi, Astrahan'ı kuşattı; kuşatma Eylül 1569'da terk edildi. Seferin gerekçelerinden biri, Orta Asyalı Müslümanların hac yolunu ve Osmanlı-Mâverâünnehir ticaret/diplomasi hattını Rus ilerleyişine karşı güvence altına almaktı — Şeybânî/Canoğulları Buhara'sıyla 16. yüzyıl boyunca süren mektuplaşmaların jeopolitik arka planı budur.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"kronoloji_rusya.js ile çapraz doğrulandı (aynı olay, Osmanlı-Rusya perspektifiyle orada da kayıtlı)", kunye:[] },
 
 { t:"1779-01-01",

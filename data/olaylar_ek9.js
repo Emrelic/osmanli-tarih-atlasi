@@ -55,13 +55,13 @@ window.OLAYLAR_EK9 = [
 { t:"1841-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Muaskar'ın (Mascara) Fransız işgali — Abdülkādir'in başkentinin kaybı",
   gun:"1841", yer:"Muaskar (Mascara), Vehrân eyaleti", kisiler:"Abdülkādir el-Cezâirî, Mareşal Bugeaud",
-  d:"Bugeaud'nun 1841'de valiliğe gelmesiyle Fransız stratejisi değişti: kıyıda tutunmak yerine iç şehirleri tek tek işgal etmek. Vehrân, Mostagānim ve Medea'dan çıkan hareketli kollar Abdülkādir'in düzenli devletinin merkezlerini aldı; darphanesi, barut imalâthanesi ve tahıl ambarlarıyla gerçek bir başkent olan Muaskar bunların en önemlisiydi. Emîr bundan sonra sabit bir merkez kurmaktan vazgeçip ordusunu 'smala' denen göçer kampa çevirdi. Günü kaynaklarda kesinleşmediği için burada yıl hassasiyetinde yazılmıştır.",
+  d:"Bugeaud'nun 1841'de valiliğe gelmesiyle Fransız stratejisi değişti: kıyıda tutunmak yerine iç şehirleri tek tek işgal etmek. Vehrân, Mostagānim ve Medea'dan çıkan hareketli kollar Abdülkādir'in düzenli devletinin merkezlerini aldı; darphanesi, barut imalâthanesi ve tahıl ambarlarıyla gerçek bir başkent olan Muaskar bunların en önemlisiydi. Emîr bundan sonra sabit bir merkez kurmaktan vazgeçip ordusunu 'smala' denen göçer kampa çevirdi.", ic_not_d:"Günü kaynaklarda kesinleşmediği için burada yıl hassasiyetinde yazılmıştır.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Muaskar" },
 
 { t:"1843-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Şelif vadisi ve Tenes'in işgali — Orléansville'in kurulması",
   gun:"1843 (Nisan)", yer:"Şelif vadisi, Tenes, Dahra", kisiler:"Mareşal Bugeaud",
-  d:"Abdülkādir'i takip edebilmek için Fransızlar 1843 Nisanında Şelif vadisinin ortasında Orléansville adlı yeni bir şehir kurdular; aynı yıl kıyıdaki Tenes limanı da işgal edildi. Böylece Cezayir ile Vehrân arasındaki iç koridor Fransız denetimine girdi ve Dahra dağlarındaki direniş kuşatıldı. Aynı yılın 16 Mayısında Abdülkādir'in göçer kampı 'smala' tesadüfen bulunup dağıtıldı. Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  d:"Abdülkādir'i takip edebilmek için Fransızlar 1843 Nisanında Şelif vadisinin ortasında Orléansville adlı yeni bir şehir kurdular; aynı yıl kıyıdaki Tenes limanı da işgal edildi. Böylece Cezayir ile Vehrân arasındaki iç koridor Fransız denetimine girdi ve Dahra dağlarındaki direniş kuşatıldı. Aynı yılın 16 Mayısında Abdülkādir'in göçer kampı 'smala' tesadüfen bulunup dağıtıldı.", ic_not_d:"Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Şelif" },
 
 { t:"1843-06-12", k:"kayip", etiket:["toprak-kayip"],
@@ -73,7 +73,7 @@ window.OLAYLAR_EK9 = [
 { t:"1844-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Nedrûme ve Fas sınır kuşağının Fransız denetimine geçişi",
   gun:"1844", yer:"Nedrûme, Tilimsan çevresi, Fas sınırı", kisiler:"Mareşal Bugeaud, Abdülkādir el-Cezâirî",
-  d:"Abdülkādir'in 1843'te Fas'a çekilmesinden sonra Tilimsan'ın kuzeybatısındaki Nedrûme ve Trâra kıyısı Fransız denetimine girdi. 14 Ağustos 1844'teki Isly Muharebesi Fas ordusunu bozguna uğrattı ve iki ülke arasındaki sınır 18 Mart 1845 Lâlla Mağniye Sözleşmesi'yle çizildi; Nedrûme bu çizginin Cezayir tarafında kaldı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  d:"Abdülkādir'in 1843'te Fas'a çekilmesinden sonra Tilimsan'ın kuzeybatısındaki Nedrûme ve Trâra kıyısı Fransız denetimine girdi. 14 Ağustos 1844'teki Isly Muharebesi Fas ordusunu bozguna uğrattı ve iki ülke arasındaki sınır 18 Mart 1845 Lâlla Mağniye Sözleşmesi'yle çizildi; Nedrûme bu çizginin Cezayir tarafında kaldı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"tilimsan", duygu:["😔"], yer_id:"Nedrûme" },
 
 { t:"1852-12-04", k:"kayip", etiket:["toprak-kayip","savas"],
@@ -85,7 +85,7 @@ window.OLAYLAR_EK9 = [
 { t:"1882-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Mîzâb vahalarının (Gardâye) ilhakı",
   gun:"1882 (Kasım)", yer:"Gardâye, Mîzâb vahaları", kisiler:"—",
-  d:"Mîzâb'ın İbâzî şehirleri 1852'de Fransa'ya vergi ödemeyi kabul etmiş ama iç idarelerini korumuştu; otuz yıl sonra, 1882'de bölge doğrudan Fransız topraklarına katıldı ve Gardâye askerî idareye bağlandı. Böylece kuzey Sahra'nın son özerk kuşağı da hukuken sona erdi. Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  d:"Mîzâb'ın İbâzî şehirleri 1852'de Fransa'ya vergi ödemeyi kabul etmiş ama iç idarelerini korumuştu; otuz yıl sonra, 1882'de bölge doğrudan Fransız topraklarına katıldı ve Gardâye askerî idareye bağlandı. Böylece kuzey Sahra'nın son özerk kuşağı da hukuken sona erdi.", ic_not_d:"Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Gardâye" },
 
 // ---------------------------------------------------------------------------
@@ -127,7 +127,7 @@ window.OLAYLAR_EK9 = [
 { t:"1872-01-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Bogos (Kerene) bölgesinin Mısır'a ilhakı",
   gun:"1872", yer:"Kerene, Bogos, Bilen ülkesi", kisiler:"Werner Munzinger Paşa, Hidiv İsmâil",
-  d:"Hidiv İsmâil'in Kızıldeniz'in batı kıyısında kurduğu 'Doğu Sudan ve Kızıldeniz Sahili' vilâyetinin valisi Werner Munzinger Paşa, 1872'de Bilen halkının yaşadığı Bogos bölgesini ve merkezi Kerene'yi Mısır'a bağladı. Bu, Mısır'ın Habeş yaylasının kenarına yaptığı en kalıcı ilerleyişti ve Habeşistan ile on iki yıl süren bir sınır anlaşmazlığı başlattı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  d:"Hidiv İsmâil'in Kızıldeniz'in batı kıyısında kurduğu 'Doğu Sudan ve Kızıldeniz Sahili' vilâyetinin valisi Werner Munzinger Paşa, 1872'de Bilen halkının yaşadığı Bogos bölgesini ve merkezi Kerene'yi Mısır'a bağladı. Bu, Mısır'ın Habeş yaylasının kenarına yaptığı en kalıcı ilerleyişti ve Habeşistan ile on iki yıl süren bir sınır anlaşmazlığı başlattı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"hidiv", duygu:["🎉"], yer_id:"Kerene" },
 
 { t:"1884-06-03", k:"antlasma", etiket:["antlasma","toprak-kayip","diplomasi"],
@@ -143,7 +143,7 @@ window.OLAYLAR_EK9 = [
 { t:"1884-01-01", k:"kayip", etiket:["toprak-kayip","isyan"],
   b:"Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı",
   gun:"1884", yer:"Tokar, Sinkat, Sevâkin ardalanı", kisiler:"Osman Digna, Muhammed Ahmed el-Mehdî",
-  d:"Mehdî'nin doğu Sudan'daki halifesi Osman Digna, 1883 sonbaharından itibaren Bece kabilelerini ayaklandırarak Sevâkin'in ardalanını ele geçirdi; Sinkat ve Tokar garnizonları kuşatıldı ve 1884 başında bölge tamamen Mehdî idaresine girdi. Sevâkin limanı İngiliz-Mısır elinde kaldığı için kıyı ile içerisi sekiz yıl boyunca ayrı iki idare altında durdu. Tokar 1891 Şubatında geri alındı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  d:"Mehdî'nin doğu Sudan'daki halifesi Osman Digna, 1883 sonbaharından itibaren Bece kabilelerini ayaklandırarak Sevâkin'in ardalanını ele geçirdi; Sinkat ve Tokar garnizonları kuşatıldı ve 1884 başında bölge tamamen Mehdî idaresine girdi. Sevâkin limanı İngiliz-Mısır elinde kaldığı için kıyı ile içerisi sekiz yıl boyunca ayrı iki idare altında durdu. Tokar 1891 Şubatında geri alındı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"sudan", duygu:["😔"], yer_id:"Tokar" },
 
 // ---------------------------------------------------------------------------
@@ -156,7 +156,7 @@ window.OLAYLAR_EK9 = [
 { t:"1840-01-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Taka bölgesinin fethi ve Kesela'nın kurulması",
   gun:"1840", yer:"Kesela, Taka, Atbara-Gaş havzası", kisiler:"Ahmed Paşa Ebû Vidân, Kavalalı Mehmed Ali Paşa",
-  d:"Sudan hükümdarı Ahmed Paşa Ebû Vidân, 1840'ta Atbara ile Gaş nehirleri arasındaki Taka bölgesini Mısır idaresine bağladı ve Kesela şehrini askerî karargâh olarak kurdu. Şehir, Sennâr ile Sevâkin arasındaki kervan yolunu ve Habeş sınır kuşağını denetleyen bir mudîriyet merkezi oldu. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  d:"Sudan hükümdarı Ahmed Paşa Ebû Vidân, 1840'ta Atbara ile Gaş nehirleri arasındaki Taka bölgesini Mısır idaresine bağladı ve Kesela şehrini askerî karargâh olarak kurdu. Şehir, Sennâr ile Sevâkin arasındaki kervan yolunu ve Habeş sınır kuşağını denetleyen bir mudîriyet merkezi oldu.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"kavalali-mehmed-ali-pasa", duygu:["🎉"], yer_id:"Kesela" },
 
 // ===========================================================================
@@ -245,7 +245,7 @@ window.OLAYLAR_EK9 = [
 { t:"1882-09-13", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması",
   gun:"13 Eylül 1882", yer:"Tellülkebîr, Şarkıyye", kisiler:"Ahmed Urâbî Paşa, General Garnet Wolseley",
-  d:"Wolseley kuvvetlerini Süveyş Kanalı üzerinden İsmâiliye'ye çıkarıp çölden yürüterek 13 Eylül 1882 şafağında Tel el-Kebîr'deki Mısır siperlerine baskın yaptı; muharebe bir saatte bitti. Urâbî ertesi gün teslim oldu ve İngiliz süvarisi aynı gün Kahire'ye girdi. Bu tarihten sonra Mısır'ın malî, askerî ve dış işleri fiilen İngiliz denetimine geçti; Osmanlı hükümranlığı ise hukuken 1914'e kadar sürdü. Atlasta bu ikilik `isg:` işgal örtüsüyle gösterilir: taban rengi tâbi Mısır, üstündeki tarama İngiliz denetimi.",
+  d:"Wolseley kuvvetlerini Süveyş Kanalı üzerinden İsmâiliye'ye çıkarıp çölden yürüterek 13 Eylül 1882 şafağında Tel el-Kebîr'deki Mısır siperlerine baskın yaptı; muharebe bir saatte bitti. Urâbî ertesi gün teslim oldu ve İngiliz süvarisi aynı gün Kahire'ye girdi. Bu tarihten sonra Mısır'ın malî, askerî ve dış işleri fiilen İngiliz denetimine geçti; Osmanlı hükümranlığı ise hukuken 1914'e kadar sürdü. Atlasta bu ikilik", ic_not_d:"`isg:` işgal örtüsüyle gösterilir: taban rengi tâbi Mısır, üstündeki tarama İngiliz denetimi.",
   kaynak:"urabi-pasa", duygu:["😔"], yer_kon:[30.5636,31.9928] },
 
 // ---------------------------------------------------------------------------
@@ -323,7 +323,7 @@ window.OLAYLAR_EK9 = [
 { t:"1884-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi"],
   b:"Zeyla ve Somali sahilinin İngiliz idaresine geçişi",
   gun:"1884", yer:"Zeyla, Berbera, Bulhar, Somali sahili", kisiler:"Hidiv Tevfik, Aden siyasî mukimi",
-  d:"Mehdî ayaklanması Mısır'ın Sudan ve Kızıldeniz garnizonlarını çökertince Kahire, Habeş kıyısındaki uzak karakollarını boşaltmak zorunda kaldı. Aden'deki İngiliz idaresi 1884'te Zeyla ve Berbera'ya asker çıkardı; ertesi yıl Somali kabile reisleriyle himaye antlaşmaları imzalanarak İngiliz Somalilandı kuruldu. 1559'dan beri Habeş eyaletine bağlı olan Zeyla böylece elden çıktı. Denetim bu kırılmayı aynı güne düşen 'Reji İdaresi' maddesiyle eşleştiriyordu; bu madde o eşleşmeyi düzeltir. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  d:"Mehdî ayaklanması Mısır'ın Sudan ve Kızıldeniz garnizonlarını çökertince Kahire, Habeş kıyısındaki uzak karakollarını boşaltmak zorunda kaldı. Aden'deki İngiliz idaresi 1884'te Zeyla ve Berbera'ya asker çıkardı; ertesi yıl Somali kabile reisleriyle himaye antlaşmaları imzalanarak İngiliz Somalilandı kuruldu. 1559'dan beri Habeş eyaletine bağlı olan Zeyla böylece elden çıktı.", ic_not_d:"Denetim bu kırılmayı aynı güne düşen 'Reji İdaresi' maddesiyle eşleştiriyordu; bu madde o eşleşmeyi düzeltir. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"aden", duygu:["😔"], yer_id:"Zeyla" },
 
 // ---------------------------------------------------------------------------
@@ -415,7 +415,7 @@ window.OLAYLAR_EK9 = [
 { t:"1427-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi"],
   b:"Alâiye'nin Memlük Sultanı Barsbay'a satılması",
   gun:"1427", yer:"Alâiye (Alanya), İçel sahili", yer_id:"Alanya", kisiler:"Karaman b. Savcı Bey, Memlük Sultanı Barsbay",
-  d:"1293'te Karamanoğlu Mecdüddin Mahmud Bey'in ele geçirdiği Alâiye, Karamanoğulları'nın bir kolu tarafından yönetilen ayrı bir beylik hâline gelmişti; İbn Battûta 1333'te idarenin Karamanoğlu Yûsuf Bey'de olduğunu kaydeder. Karaman b. Savcı Bey 1427'de şehri beş bin altın karşılığında Memlük Sultanı Barsbay'a sattı ve Alâiye Memlük idaresine girdi. Akdeniz'in bu kilit limanı böylece Osmanlı'nın güneye açılan yolunda Memlük elinde bir engel oldu; 1471'de Gedik Ahmed Paşa kuşatınca son bey Kılıcarslan şehri teslim etti. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  d:"1293'te Karamanoğlu Mecdüddin Mahmud Bey'in ele geçirdiği Alâiye, Karamanoğulları'nın bir kolu tarafından yönetilen ayrı bir beylik hâline gelmişti; İbn Battûta 1333'te idarenin Karamanoğlu Yûsuf Bey'de olduğunu kaydeder. Karaman b. Savcı Bey 1427'de şehri beş bin altın karşılığında Memlük Sultanı Barsbay'a sattı ve Alâiye Memlük idaresine girdi. Akdeniz'in bu kilit limanı böylece Osmanlı'nın güneye açılan yolunda Memlük elinde bir engel oldu; 1471'de Gedik Ahmed Paşa kuşatınca son bey Kılıcarslan şehri teslim etti.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"alaiye-beyligi", duygu:["😔"] },
 
 ];

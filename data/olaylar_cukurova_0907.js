@@ -35,7 +35,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     yer: "Maraş",
     yer_id: "Maraş",
     kaynak: "kahramanmaras",
-    d: "Mondros Mütarekesi'nin ardından İngiliz kuvvetleri Maraş'a girdi. İşgal sekiz ay sürdü; İngiltere ile Fransa arasındaki anlaşma gereği şehir 29 Ekim 1919'da Fransızlara devredildi. TDV `kahramanmaras`: \"Mondros Mütarekesi'nin ardından İngilizler 22 Şubat 1919'da şehri işgal ettiler.\" ve \"İngiltere ile Fransa arasında yapılan antlaşma neticesinde Maraş ve çevresi Fransa'ya devredilince 29 Ekim 1919'da Fransızlar Maraş'a girdiler.\" ⚠️ Bu bir İŞGAL kaydıdır, egemenlik devri DEĞİL: Mondros bir mütarekedir, Sevr onaylanmamıştır."
+    d:"Mondros Mütarekesi'nin ardından İngiliz kuvvetleri Maraş'a girdi. İşgal sekiz ay sürdü; İngiltere ile Fransa arasındaki anlaşma gereği şehir 29 Ekim 1919'da Fransızlara devredildi. TDV", ic_not_d:"`kahramanmaras`: \\\"Mondros Mütarekesi'nin ardından İngilizler 22 Şubat 1919'da şehri işgal ettiler.\\\" ve \\\"İngiltere ile Fransa arasında yapılan antlaşma neticesinde Maraş ve çevresi Fransa'ya devredilince 29 Ekim 1919'da Fransızlar Maraş'a girdiler.\\\" ⚠️ Bu bir İŞGAL kaydıdır, egemenlik devri DEĞİL: Mondros bir mütarekedir, Sevr onaylanmamıştır."
   },
 
   {
@@ -47,7 +47,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     yer: "Kilis",
     yer_id: "Kilis",
     kaynak: "kilis",
-    d: "Ankara İtilâfnâmesi'nin (20 Ekim 1921) öngördüğü tahliye takvimi uyarınca Fransız kuvvetleri Kilis'ten çekildi. Şehir üç yıl önce, 6 Aralık 1918'de İngilizlerce işgal edilmiş, 29 Ekim 1919'da Fransızlara devredilmişti. TDV `kilis`: \"Kilis, Mondros Mütarekesi'nin ardından 6 Aralık 1918 tarihinde İngilizler tarafından işgal edildi.\" · \"Bir yıldan fazla bir süre devam eden bu işgalden sonra İngilizler burayı 29 Ekim 1919'da Fransız kuvvetlerine terkettiler.\" · \"Nihayet 23 Aralık 1921'de Kilis'in kurtuluşu gerçekleşmiş oldu.\""
+    d:"Ankara İtilâfnâmesi'nin (20 Ekim 1921) öngördüğü tahliye takvimi uyarınca Fransız kuvvetleri Kilis'ten çekildi. Şehir üç yıl önce, 6 Aralık 1918'de İngilizlerce işgal edilmiş, 29 Ekim 1919'da Fransızlara devredilmişti. TDV", ic_not_d:"`kilis`: \\\"Kilis, Mondros Mütarekesi'nin ardından 6 Aralık 1918 tarihinde İngilizler tarafından işgal edildi.\\\" · \\\"Bir yıldan fazla bir süre devam eden bu işgalden sonra İngilizler burayı 29 Ekim 1919'da Fransız kuvvetlerine terkettiler.\\\" · \\\"Nihayet 23 Aralık 1921'de Kilis'in kurtuluşu gerçekleşmiş oldu.\\\""
   },
 
   {
@@ -59,7 +59,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     yer: "Antep",
     yer_id: "Antep",
     kaynak: "gaziantep",
-    d: "Ankara Antlaşması'nın ardından Fransız kuvvetleri Antep'i boşalttı. Şehir 17 Aralık 1918'de İngilizlerce işgal edilmiş, 5 Kasım 1919'da Fransızlara bırakılmış; halk 1 Nisan 1920 – 7 Şubat 1921 arasında Fransız kuvvetlerine karşı uzun bir savunma vermişti. TDV `gaziantep`: \"17 Aralık 1918'de İngilizler şehre girdiler\" · \"Yaklaşık bir yıl süren işgalinin ardından Fransızlar ile yaptıkları anlaşma gereği burayı onlara terkettiler (5 Kasım 1919)\" · \"Antep halkı 1 Nisan 1920'den 7 Şubat 1921'e kadar Fransız kuvvetlerine karşı büyük bir mücadele verdi\" · \"Fransızlar Ankara Antlaşması'nın ardından 25 Aralık 1921'de şehri boşalttılar.\""
+    d:"Ankara Antlaşması'nın ardından Fransız kuvvetleri Antep'i boşalttı. Şehir 17 Aralık 1918'de İngilizlerce işgal edilmiş, 5 Kasım 1919'da Fransızlara bırakılmış; halk 1 Nisan 1920 – 7 Şubat 1921 arasında Fransız kuvvetlerine karşı uzun bir savunma vermişti. TDV", ic_not_d:"`gaziantep`: \\\"17 Aralık 1918'de İngilizler şehre girdiler\\\" · \\\"Yaklaşık bir yıl süren işgalinin ardından Fransızlar ile yaptıkları anlaşma gereği burayı onlara terkettiler (5 Kasım 1919)\\\" · \\\"Antep halkı 1 Nisan 1920'den 7 Şubat 1921'e kadar Fransız kuvvetlerine karşı büyük bir mücadele verdi\\\" · \\\"Fransızlar Ankara Antlaşması'nın ardından 25 Aralık 1921'de şehri boşalttılar.\\\""
   },
 
   {
@@ -71,7 +71,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     yer: "Tarsus",
     yer_id: "Tarsus",
     kaynak: "tarsus",
-    d: "Fransız kuvvetleri Ankara Antlaşması gereğince Tarsus'tan çekildi; şehir 17 Aralık 1918'den beri işgal altındaydı. TDV `tarsus`: \"Tarsus 1603'te Celâlî, 1833-1840 yılları arasında Mısır Valisi Mehmed Ali Paşa, 17 Aralık 1918'de Fransız işgaline ve Ermeni çetelerinin zulmüne uğradı. Fransızlar, Ankara Antlaşması'yla 27 Aralık 1921'de şehri boşalttılar.\""
+    d:"Fransız kuvvetleri Ankara Antlaşması gereğince Tarsus'tan çekildi; şehir 17 Aralık 1918'den beri işgal altındaydı. TDV", ic_not_d:"`tarsus`: \\\"Tarsus 1603'te Celâlî, 1833-1840 yılları arasında Mısır Valisi Mehmed Ali Paşa, 17 Aralık 1918'de Fransız işgaline ve Ermeni çetelerinin zulmüne uğradı. Fransızlar, Ankara Antlaşması'yla 27 Aralık 1921'de şehri boşalttılar.\\\""
   },
 
   {
@@ -83,7 +83,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     yer: "Mersin",
     yer_id: "Mersin",
     kaynak: "mersin",
-    d: "Millî kuvvetler Mersin'e girdi; son Fransız birlikleri ertesi gün şehri terketti. Fransız çıkarması 17 Aralık 1918'de denizden yapılmıştı. TDV `mersin`: \"17 Aralık 1918'de Fransız askerleri denizden Mersin'e çıkarma yapmaya başladı.\" · \"3 Ocak 1922'de millî kuvvetler Mersin'e girerek şehri kurtardı ve son Fransız kuvvetleri ertesi gün şehri terketti.\" ⚠️ TDV kurtuluşu 3 Ocak, son birliklerin ayrılışını 4 Ocak veriyor; atlas gövdeyi kurtuluş gününde çeviriyor ve fark burada BEYAN ediliyor."
+    d:"Millî kuvvetler Mersin'e girdi; son Fransız birlikleri ertesi gün şehri terketti. Fransız çıkarması 17 Aralık 1918'de denizden yapılmıştı. TDV", ic_not_d:"`mersin`: \\\"17 Aralık 1918'de Fransız askerleri denizden Mersin'e çıkarma yapmaya başladı.\\\" · \\\"3 Ocak 1922'de millî kuvvetler Mersin'e girerek şehri kurtardı ve son Fransız kuvvetleri ertesi gün şehri terketti.\\\" ⚠️ TDV kurtuluşu 3 Ocak, son birliklerin ayrılışını 4 Ocak veriyor; atlas gövdeyi kurtuluş gününde çeviriyor ve fark burada BEYAN ediliyor."
   },
 
   {
@@ -95,7 +95,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     yer: "Adana",
     yer_id: "Adana",
     kaynak: "adana",
-    d: "Fransız kuvvetleri Adana'yı terketti ve Çukurova'nın tahliyesi tamamlandı. Şehir 24 Aralık 1918'den beri Fransız işgali altındaydı. TDV `adana`: \"I. Dünya Savaşı sonunda 24 Aralık 1918'de Fransızlar tarafından işgal edilen Adana\" · \"5 Ocak 1922'de Fransızlar, şehri, kendilerine yardımcı olan Ermeniler'le birlikte terketmişlerdir. Bu tarih bugün Adana'nın kurtuluş günü olarak kutlanmaktadır.\""
+    d:"Fransız kuvvetleri Adana'yı terketti ve Çukurova'nın tahliyesi tamamlandı. Şehir 24 Aralık 1918'den beri Fransız işgali altındaydı. TDV", ic_not_d:"`adana`: \\\"I. Dünya Savaşı sonunda 24 Aralık 1918'de Fransızlar tarafından işgal edilen Adana\\\" · \\\"5 Ocak 1922'de Fransızlar, şehri, kendilerine yardımcı olan Ermeniler'le birlikte terketmişlerdir. Bu tarih bugün Adana'nın kurtuluş günü olarak kutlanmaktadır.\\\""
   }
 
 ];

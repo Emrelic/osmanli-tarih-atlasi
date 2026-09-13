@@ -707,7 +707,7 @@ window.KRONOLOJI_ALMANYA = [
 
 { t:"1410-07-15", devlet:"teuton-sovalyeleri", b:"Grunwald (Tannenberg) Muharebesi — Töton Tarikatı'nın yenilgisi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","teuton-sovalyeleri"],
-  d:"Lehistan-Litvanya birleşik ordusu, Töton Şövalyeleri Tarikatı'nın ordusunu Grunwald (Almanca: Tannenberg) yakınında ağır bir yenilgiye uğrattı; Büyük Üstat Ulrich von Jungingen savaş meydanında öldü. Yenilgi, tarikatın bir asır sonra 1525'te dünyevî bir dükalığa dönüşmesiyle sonuçlanacak uzun çöküşünün başlangıcıydı. ⚠️ Almanca 'Tannenberg' adı, 1914'teki Alman zaferine bilinçli bir tarihî gönderme olarak seçilmişti — iki savaş aynı bölgede, beş asır arayla ve ters sonuçla yaşandı.",
+  d:"Lehistan-Litvanya birleşik ordusu, Töton Şövalyeleri Tarikatı'nın ordusunu Grunwald (Almanca: Tannenberg) yakınında ağır bir yenilgiye uğrattı; Büyük Üstat Ulrich von Jungingen savaş meydanında öldü. Yenilgi, tarikatın bir asır sonra 1525'te dünyevî bir dükalığa dönüşmesiyle sonuçlanacak uzun çöküşünün başlangıcıydı.", ic_not_d:"⚠️ Almanca 'Tannenberg' adı, 1914'teki Alman zaferine bilinçli bir tarihî gönderme olarak seçilmişti — iki savaş aynı bölgede, beş asır arayla ve ters sonuçla yaşandı.",
   kaynak:"Wilson, Heart of Europe — Grunwald/Tannenberg'in 15 Temmuz 1410 muharebesi ve Töton Tarikatı'nın gerilemesi. Grunwald yerleşim kaydı yok", yer_kon:[53.4917,20.2306] },
 
 { t:"1619-08-26", devlet:"pfalz", b:"Friedrich V'in Bohemya tacını kabulü — 'Kış Kralı'", tur:"hukumdar", onem:5, dunya:3, kapsam:"dis", yer_id:"",

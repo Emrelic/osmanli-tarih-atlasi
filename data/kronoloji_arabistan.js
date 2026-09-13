@@ -110,7 +110,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"0897-01-01", b:"Zeydî imametinin kuruluşu — İmam Hâdî-İlelhak Sa'de'ye geldi", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","din","siyaset"],
   yer_id:"",
-  d:"Yahyâ b. Hüseyin, 'Hâdî-İlelhak' (Hakka İleten) unvanıyla kuzey Yemen'deki Sa'de şehrine gelip yerel kabileler arasındaki kan davalarını hakemlik yaparak çözdü ve Zeydî fıkhına dayalı bir imamet kurdu. Bu tarih, devletler.js'teki `yemen-zeydi` künyesinin f: alanıdır ve 1962'ye kadar (site ufkunun ötesinde) sürecek bir kurumun başlangıcıdır. Sa'de bugünkü yerleşimler.js'te kaydı yok; yer_id boş bırakıldı.",
+  d:"Yahyâ b. Hüseyin, 'Hâdî-İlelhak' (Hakka İleten) unvanıyla kuzey Yemen'deki Sa'de şehrine gelip yerel kabileler arasındaki kan davalarını hakemlik yaparak çözdü ve Zeydî fıkhına dayalı bir imamet kurdu. Bu tarih", ic_not_d:"devletler.js'teki `yemen-zeydi` künyesinin f: alanıdır ve 1962'ye kadar (site ufkunun ötesinde) sürecek bir kurumun başlangıcıdır. Sa'de bugünkü yerleşimler.js'te kaydı yok; yer_id boş bırakıldı.",
   kaynak:"TDV `yemen`: '284/897: İmam Hâdî-İlelhak Yahyâ b. Hüseyin Sa'de'ye geldi, Zeydî imâmetini tesis etti.'", yer_kon:[16.9402,43.7592] },
 
 { t:"0901-01-01", b:"İmam Hâdî San'a'yı ilk kez ele geçirdi", tur:"toprak-kazanc",
@@ -125,13 +125,13 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1538-08-03", b:"Osmanlı, Aden'i alarak Tâhirî hâkimiyetine son verdi", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","osmanli"],
   yer_id:"Aden",
-  d:"Hadım Süleyman Paşa, Hindistan seferi yolunda Aden limanına girdi; Portekiz'e meyilli Tâhirî hâkimi Âmir b. Dâvûd idam edildi ve şehre muhafız bırakıldı. Bu olay Zeydî imamet için doğrudan bir kayıp değildi (Aden zaten rakip Tâhirî hanedanının elindeydi) ama imametin bundan sonraki 97 yıl boyunca uğraşacağı yeni gücün — Osmanlı'nın — Yemen'e ilk ayak basışıydı. Tarih `data/yerlesimler.js`teki Aden kaydıyla (1538-08-03) birebir eşleşiyor.",
+  d:"Hadım Süleyman Paşa, Hindistan seferi yolunda Aden limanına girdi; Portekiz'e meyilli Tâhirî hâkimi Âmir b. Dâvûd idam edildi ve şehre muhafız bırakıldı. Bu olay Zeydî imamet için doğrudan bir kayıp değildi (Aden zaten rakip Tâhirî hanedanının elindeydi) ama imametin bundan sonraki 97 yıl boyunca uğraşacağı yeni gücün — Osmanlı'nın — Yemen'e ilk ayak basışıydı. Tarih", ic_not_d:"`data/yerlesimler.js`teki Aden kaydıyla (1538-08-03) birebir eşleşiyor.",
   kaynak:"TDV `yemen`: 'Muharrem 934 (Ekim 1527): Aden Osmanlılar tarafından alındı' [ilk teşebbüs] ve '1538: Hadım Süleyman Paşa Aden'i alarak Tâhirîler hânedanına son verdi.' Gün: data/olaylar_ek5.js kaydı (3 Ağustos 1538) — devletler.js ve yerlesimler.js ile uyumlu." },
 
 { t:"1547-01-01", b:"Osmanlı San'a'yı ele geçirdi — imamet başkentini kaybetti", tur:"toprak-kayip",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas"],
   yer_id:"Sana",
-  d:"Aden'in alınmasından dokuz yıl sonra Osmanlı kuvvetleri iç yaylaya ilerleyip San'a'yı da ele geçirdi; Yemen beylerbeyiliği artık ülkenin can damarını tutuyordu. Zeydî imamlar bu tarihten itibaren dağlık kuzeye çekilip direnişi oradan sürdürdü. Tarih yerlesimler.js'teki San'a kaydıyla (1547-01-01) birebir örtüşüyor.",
+  d:"Aden'in alınmasından dokuz yıl sonra Osmanlı kuvvetleri iç yaylaya ilerleyip San'a'yı da ele geçirdi; Yemen beylerbeyiliği artık ülkenin can damarını tutuyordu. Zeydî imamlar bu tarihten itibaren dağlık kuzeye çekilip direnişi oradan sürdürdü. Tarih", ic_not_d:"yerlesimler.js'teki San'a kaydıyla (1547-01-01) birebir örtüşüyor.",
   kaynak:"TDV `yemen`: '1547: San'a ele geçirildi.' — data/yerlesimler.js Sana kaydıyla çapraz doğrulandı." },
 
 { t:"1567-01-01", b:"Mutahhar isyanı — Yemen ikiye bölündü", tur:"isyan",
@@ -167,7 +167,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1629-01-01", b:"Taiz imametin eline geçti", tur:"toprak-kazanc",
   onem:3, dunya:1, kapsam:"ic", etiket:["toprak-kazanc"],
   yer_id:"Taiz",
-  d:"Haydar Paşa'nın San'a'yı tutamayıp geri çekilmesiyle eş zamanlı olarak Taiz de imamet kuvvetlerinin eline geçti; Osmanlı idaresi artık yalnızca kıyı şeridine ve birkaç iç kaleye sıkışmıştı. Tarih yerlesimler.js'teki Taiz kaydıyla (1629-01-01) birebir örtüşüyor.",
+  d:"Haydar Paşa'nın San'a'yı tutamayıp geri çekilmesiyle eş zamanlı olarak Taiz de imamet kuvvetlerinin eline geçti; Osmanlı idaresi artık yalnızca kıyı şeridine ve birkaç iç kaleye sıkışmıştı. Tarih", ic_not_d:"yerlesimler.js'teki Taiz kaydıyla (1629-01-01) birebir örtüşüyor.",
   kaynak:"TDV `yemen`: '1629: Haydar Paşa San'a'yı bırakmak zorunda kaldı.' — data/yerlesimler.js Taiz kaydıyla çapraz doğrulandı." },
 
 { t:"1630-08-01", b:"Kansu Paşa ile İmam Müeyyed arasında geçici anlaşma", tur:"antlasma",
@@ -179,7 +179,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1635-10-22", b:"Osmanlı çekilişi tamamlandı — imamet bağımsızlığını kazandı", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["bagimsizlik","savas"],
   yer_id:"",
-  d:"Mustafa Bey'in Muhâ (Moha) limanından ayrılışıyla, doksan yedi yıl süren birinci Osmanlı hâkimiyeti fiilen sona erdi; San'a ve Zebîd'deki son birlikler de aynı yıl Yemen'i tahliye etti. Kızıldeniz'in doğu kıyısı, 1849'daki ikinci Osmanlı dönüşüne kadar 214 yıl boyunca Zeydî imametin bağımsız denetiminde kaldı. Tarih yerlesimler.js'teki Moha kaydıyla (1635-10-22) GÜN GÜNÜNE örtüşüyor — Osmanlı'nın kendi kaynağının (TDV) Hicri tarihi (10 Cemâziyelevvel 1045) atlasın kendi verisiyle birebir çakışıyor.",
+  d:"Mustafa Bey'in Muhâ (Moha) limanından ayrılışıyla, doksan yedi yıl süren birinci Osmanlı hâkimiyeti fiilen sona erdi; San'a ve Zebîd'deki son birlikler de aynı yıl Yemen'i tahliye etti. Kızıldeniz'in doğu kıyısı, 1849'daki ikinci Osmanlı dönüşüne kadar 214 yıl boyunca Zeydî imametin bağımsız denetiminde kaldı. Tarih", ic_not_d:"yerlesimler.js'teki Moha kaydıyla (1635-10-22) GÜN GÜNÜNE örtüşüyor — Osmanlı'nın kendi kaynağının (TDV) Hicri tarihi (10 Cemâziyelevvel 1045) atlasın kendi verisiyle birebir çakışıyor.",
   kaynak:"TDV `yemen`: '10 Cemâziyelevvel 1045 (22 Ekim 1635): Mustafa Bey Muhâ'dan ayrıldı, Osmanlı çekilişi tamamlandı.' — data/yerlesimler.js Moha kaydıyla (1635-10-22) birebir doğrulandı; ayrıca bkz. data/olaylar_ek6.js aynı olayı Osmanlı tarafından anlatıyor.", yer_id:"Moha" },
 
 { t:"1644-01-01", b:"Mütevekkil İsmâil b. Kāsım tahta çıktı — Kāsımî imametin altın çağı", tur:"hukumdar",
@@ -207,13 +207,13 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1849-01-01", b:"İkinci Osmanlı dönemi başladı — Tihâme kıyısı yeniden alındı", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas"],
   yer_id:"Hudeyde",
-  d:"Osmanlı, 214 yıl aradan sonra Yemen'e döndü ve kıyı şeridini (Hudeyde dahil) yeniden ele geçirdi; ama TDV'nin kendi ifadesiyle San'a'yı ele geçirme çabası bu ilk yılda BAŞARISIZ oldu — iç yayla imametin elinde kalmaya devam etti, tam fetih ancak 1872'de tamamlanacaktı. Tarih yerlesimler.js'teki Hudeyde kaydıyla (1849-01-01) birebir örtüşüyor.",
+  d:"Osmanlı, 214 yıl aradan sonra Yemen'e döndü ve kıyı şeridini (Hudeyde dahil) yeniden ele geçirdi; ama TDV'nin kendi ifadesiyle San'a'yı ele geçirme çabası bu ilk yılda BAŞARISIZ oldu — iç yayla imametin elinde kalmaya devam etti, tam fetih ancak 1872'de tamamlanacaktı. Tarih", ic_not_d:"yerlesimler.js'teki Hudeyde kaydıyla (1849-01-01) birebir örtüşüyor.",
   kaynak:"TDV `yemen`: '1849: San'a ele geçirme çabası başarısız oldu.' — data/yerlesimler.js Hudeyde kaydıyla (1281-1849 'yemen', sonra kayıt yok) çapraz doğrulandı." },
 
 { t:"1872-04-01", b:"Ahmed Muhtar Paşa San'a'yı aldı — Yemen vilâyeti kuruldu", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","savas","idari"],
   yer_id:"Sana",
-  d:"Ahmed Muhtar Paşa'nın seferiyle San'a bu kez kesin olarak Osmanlı'nın eline geçti ve 1864 Tanzimat vilâyet düzenine göre bir Yemen vilâyeti kuruldu — imamet, 1918'e kadar sürecek 46 yıllık ikinci ve son doğrudan Osmanlı hâkimiyeti dönemine girdi. Tarih yerlesimler.js'teki San'a kaydıyla (1872-04-01) birebir örtüşüyor.",
+  d:"Ahmed Muhtar Paşa'nın seferiyle San'a bu kez kesin olarak Osmanlı'nın eline geçti ve 1864 Tanzimat vilâyet düzenine göre bir Yemen vilâyeti kuruldu — imamet, 1918'e kadar sürecek 46 yıllık ikinci ve son doğrudan Osmanlı hâkimiyeti dönemine girdi. Tarih", ic_not_d:"yerlesimler.js'teki San'a kaydıyla (1872-04-01) birebir örtüşüyor.",
   kaynak:"TDV `yemen`: '1871: Ahmed Muhtar Paşa San'a'yı aldı, vilâyet düzeni kurdu.' — data/yerlesimler.js Sana kaydıyla (1872-04-01) çapraz doğrulandı; bir yıllık fark TDV'nin sefer başlangıcı/şehrin düşüşü ayrımından kaynaklanıyor olabilir, ÇÖZÜLMEDİ." },
 
 { t:"1889-01-01", b:"Zeydîler isyan etti", tur:"isyan",
@@ -237,7 +237,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1905-04-01", b:"İmam Yahyâ San'a'yı kuşatıp ele geçirdi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"ic", etiket:["savas","toprak-kazanc"],
   yer_id:"Sana",
-  d:"Ahmed Feyzi Paşa'nın San'a'ya girmesinden yalnızca birkaç ay önce, İmam Yahyâ kuvvetleri şehri kısa süreliğine ele geçirdi. Tarih yerlesimler.js'teki San'a kaydında (1905-04-01 → 1905-09-01 arası 'yemen') GÜN GÜNÜNE bir mikro-pencere olarak görünüyor — haritanın en ince taneli doğrulamalarından biri.",
+  d:"Ahmed Feyzi Paşa'nın San'a'ya girmesinden yalnızca birkaç ay önce, İmam Yahyâ kuvvetleri şehri kısa süreliğine ele geçirdi. Tarih", ic_not_d:"yerlesimler.js'teki San'a kaydında (1905-04-01 → 1905-09-01 arası 'yemen') GÜN GÜNÜNE bir mikro-pencere olarak görünüyor — haritanın en ince taneli doğrulamalarından biri.",
   kaynak:"TDV `yemen` (dolaylı, 1905 olayları) — data/yerlesimler.js Sana kaydındaki 1905-04-01/1905-09-01 penceresiyle birebir doğrulandı." },
 
 { t:"1905-09-01", b:"Ahmed Feyzi Paşa San'a'yı geri aldı", tur:"toprak-kayip",
@@ -255,7 +255,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1918-10-30", b:"Mondros sonrası Osmanlı çekildi — imamet tam bağımsızlığını kazandı", tur:"son",
   onem:5, dunya:4, kapsam:"dis", etiket:["bagimsizlik","antlasma"],
   yer_id:"Hudeyde",
-  d:"Mondros Mütarekesi'nin ardından Osmanlı'nın Yemen'deki askerî-sivil bürokrasisi Hudeyde'de İngilizlere teslim oldu (5 Mart 1919'da tüm kadro tasfiye tamamlandı); Zeydî imamet, 283 yıl aradan sonra ikinci kez ve bu sefer kalıcı olarak tam bağımsızlığına kavuştu. `dunya:4` değeri kronoloji_ingiltere.js'teki aynı olaydan devralındı (Osmanlı'nın topyekûn savaştan çekilişi).",
+  d:"Mondros Mütarekesi'nin ardından Osmanlı'nın Yemen'deki askerî-sivil bürokrasisi Hudeyde'de İngilizlere teslim oldu (5 Mart 1919'da tüm kadro tasfiye tamamlandı); Zeydî imamet, 283 yıl aradan sonra ikinci kez ve bu sefer kalıcı olarak tam bağımsızlığına kavuştu.", ic_not_d:"`dunya:4` değeri kronoloji_ingiltere.js'teki aynı olaydan devralındı (Osmanlı'nın topyekûn savaştan çekilişi).",
   kaynak:"TDV `yemen`: '1918: Osmanlı askerî-sivil bürokrasisi Hudeyde'de İngilizler'e teslim oldu.' · '5 Mart 1919: Yemen'de asker ve memur kadrosu İngilizler'e teslim oldu.' dunya devralındı: kronoloji_ingiltere.js (Mondros, dunya:4)." },
 
 { t:"1920-01-01", b:"İmam Yahyâ, Mütevekkilî Krallığı'nı ilan etti", tur:"kurulus",
@@ -275,7 +275,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1620-01-01", b:"Nâsır b. Mürşid'e biat edildi — Ya'rubî imameti kuruldu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","din"],
   yer_id:"",
-  d:"İç karışıklıklar arasında bölge ileri gelenlerinin ortak biatıyla Nâsır b. Mürşid imam seçildi ve İbâdî Ya'rubî hanedanını kurdu; kuruluş için TDV'nin `yarubiler` maddesi 1615, `uman` maddesi ve devletler.js künyesi 1624 tarihini kullanıyor (iki yıl gün farkı, 1034/1024 hicri karışıklığından kaynaklanabilir — devletler.js'in f: alanı (1624) korunuyor, çelişki not düşüldü). İmamet kısa sürede Portekiz'e karşı örgütlü direnişin merkezi oldu.",
+  d:"İç karışıklıklar arasında bölge ileri gelenlerinin ortak biatıyla Nâsır b. Mürşid imam seçildi ve İbâdî Ya'rubî hanedanını kurdu; kuruluş için TDV'nin", ic_not_d:"`yarubiler` maddesi 1615, `uman` maddesi ve devletler.js künyesi 1624 tarihini kullanıyor (iki yıl gün farkı, 1034/1024 hicri karışıklığından kaynaklanabilir — devletler.js'in f: alanı (1624) korunuyor, çelişki not düşüldü). İmamet kısa sürede Portekiz'e karşı örgütlü direnişin merkezi oldu.",
   kaynak:"TDV `yarubiler`: '1615 - Ya'rubîler hanedanı kuruldu... Alternatif kuruluş tarihi 1624 (1034 hicrî).' · TDV `uman`: '1624: Nâsır b. Mürşid... Ya'rubî hânedanını kurdu.'", yer_kon:[23.39,57.42] },
 
 { t:"1630-01-01", b:"Portekiz ile barış antlaşması", tur:"antlasma",
@@ -293,7 +293,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1650-01-26", b:"Maskat, Portekiz'den geri alındı", tur:"toprak-kazanc",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kazanc","savas"],
   yer_id:"Maskat",
-  d:"Sultân b. Seyf komutasındaki Ya'rubî kuvvetleri, Portekiz'in 143 yıldır elinde tuttuğu Maskat'ı geri aldı — Uman'ın kendi başkentini Avrupa sömürgeciliğinden kurtardığı dönüm noktası ve bölgedeki Portekiz varlığının fiilen sonu. Tarih data/yerlesimler.js Maskat kaydıyla (1650-01-26) birebir örtüşüyor.",
+  d:"Sultân b. Seyf komutasındaki Ya'rubî kuvvetleri, Portekiz'in 143 yıldır elinde tuttuğu Maskat'ı geri aldı — Uman'ın kendi başkentini Avrupa sömürgeciliğinden kurtardığı dönüm noktası ve bölgedeki Portekiz varlığının fiilen sonu. Tarih data/", ic_not_d:"yerlesimler.js Maskat kaydıyla (1650-01-26) birebir örtüşüyor.",
   kaynak:"TDV `uman`: '1650, 26 Ocak: Maskat, Portekiz'den alındı.' — data/yerlesimler.js Maskat kaydıyla çapraz doğrulandı." },
 
 { t:"1680-01-01", b:"I. Sultân b. Seyf'in ölümü, Bel'arab yönetimi devraldı", tur:"hukumdar",
@@ -329,13 +329,13 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1743-01-01", b:"II. Seyf'in ölümü — Ahmed b. Saîd iktidarı ele geçirdi", tur:"bolunme",
   onem:4, dunya:2, kapsam:"ic", etiket:["bolunme","hukumdar"],
   yer_id:"",
-  d:"II. Seyf'in ölümüyle damadı Ahmed b. Saîd (Sohar valisi, İran işgaline karşı direnişiyle tanınmış bir komutan) fiilen iktidarı ele geçirdi — Bû Saîd hanedanının kuruluşunun fiilî başlangıcı. Resmî/sembolik kuruluş TDV `uman` maddesinde altı yıl sonra (1749) tarihleniyor; devletler.js künyesinin f: alanı da 1749-06-10'dur — bu madde ARADAKİ fiilî geçişi anlatıyor, künyenin tarihine dokunulmadı.",
+  d:"II. Seyf'in ölümüyle damadı Ahmed b. Saîd (Sohar valisi, İran işgaline karşı direnişiyle tanınmış bir komutan) fiilen iktidarı ele geçirdi — Bû Saîd hanedanının kuruluşunun fiilî başlangıcı. Resmî/sembolik kuruluş TDV", ic_not_d:"`uman` maddesinde altı yıl sonra (1749) tarihleniyor; devletler.js künyesinin f: alanı da 1749-06-10'dur — bu madde ARADAKİ fiilî geçişi anlatıyor, künyenin tarihine dokunulmadı.",
   kaynak:"TDV `yarubiler`: '1743 - II. Seyf vefat etti; damadı Ahmed b. Saîd iktidarı ele geçirerek Bû Saîd hanedanı dönemini başlattı.'", yer_id:"Suhâr" },
 
 { t:"1749-06-10", b:"Bû Saîd hanedanı resmen kuruldu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","hukumdar"],
   yer_id:"",
-  d:"Ahmed b. Saîd'in imamet makamını resmen ve kalıcı olarak devralmasıyla, bugüne (site ufkunun ötesine, 2020'lere) kadar sürecek Bû Saîd hanedanı kuruldu. Tarih devletler.js'teki `umman` künyesinin kendi f: alanıyla birebir aynıdır.",
+  d:"Ahmed b. Saîd'in imamet makamını resmen ve kalıcı olarak devralmasıyla, bugüne (site ufkunun ötesine, 2020'lere) kadar sürecek Bû Saîd hanedanı kuruldu. Tarih", ic_not_d:"devletler.js'teki `umman` künyesinin kendi f: alanıyla birebir aynıdır.",
   kaynak:"devletler.js `umman` künyesi: '{ t:\"1749-06-10\", tur:\"hukumdar\", b:\"Bû Saîd hanedanı kuruldu\" }' — TDV `uman` maddesiyle uyumlu.", kapsam_genis:true },
 
 { t:"1775-01-01", b:"Kerim Han Zend'in Basra kuşatmasında Osmanlı'ya yardım", tur:"ittifak",
@@ -439,7 +439,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1670-01-01", b:"Berrâk b. Guraybir, Hufuf'u alarak Benî Hâlid emirliğini kurdu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","toprak-kazanc"],
   yer_id:"",
-  d:"Berrâk b. Guraybir, Lahsa'nın merkezi Hufuf'u ele geçirip Osmanlı idaresine son vererek bedevi Benî Hâlid emirliğini kurdu; bu, devletler.js'teki `benihalid` künyesinin f: alanıdır. TDV'nin `lahsa` maddesinde bu kuruluş olayı doğrudan anlatılmıyor — devletler.js'in kendi araştırdığı bilgiye güvenilerek DEVRALINDI.",
+  d:"Berrâk b. Guraybir, Lahsa'nın merkezi Hufuf'u ele geçirip Osmanlı idaresine son vererek bedevi Benî Hâlid emirliğini kurdu; bu", ic_not_d:"devletler.js'teki `benihalid` künyesinin f: alanıdır. TDV'nin `lahsa` maddesinde bu kuruluş olayı doğrudan anlatılmıyor — devletler.js'in kendi araştırdığı bilgiye güvenilerek DEVRALINDI.",
   kaynak:"devletler.js `benihalid` künyesi (TDV `lahsa` + akademik kaynak karışımı, künyenin kendi notunda belirtilmiş); TDV `lahsa` maddesi bu spesifik olayı doğrudan içermiyor (taneciklik boşluğu, CLAUDE.md §4).", yer_id:"Lahsa" },
 
 { t:"1691-01-01", b:"Muhammed b. Berrâk, Necid'e akınlarını sürdürdü", tur:"toprak-kazanc",
@@ -463,7 +463,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1795-01-01", b:"Abdülazîz b. Suûd, Lahsa'yı alıp emirliği ilk kez tasfiye etti", tur:"toprak-kayip",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas"],
   yer_id:"",
-  d:"Yükselen I. Suûdî Devleti'nin hükümdarı Abdülazîz b. Muhammed b. Suûd, Lahsa'yı ele geçirerek Benî Hâlid emirliğini ilk kez ortadan kaldırdı. TDV'nin `lahsa` maddesi bu olayı bir yıl farkla '1796' olarak veriyor (devletler.js '1795' diyor); bu ayrılık ÇÖZÜLMEDİ, iki tarih de not düşüldü.",
+  d:"Yükselen I. Suûdî Devleti'nin hükümdarı Abdülazîz b. Muhammed b. Suûd, Lahsa'yı ele geçirerek Benî Hâlid emirliğini ilk kez ortadan kaldırdı. TDV'nin", ic_not_d:"`lahsa` maddesi bu olayı bir yıl farkla '1796' olarak veriyor (devletler.js '1795' diyor); bu ayrılık ÇÖZÜLMEDİ, iki tarih de not düşüldü.",
   kaynak:"devletler.js `benihalid` künyesi: '1795: Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti.' · TDV `lahsa`: '1796: Emîr Suûd tarafından bölge doğrudan Dir'iye'ye bağlandı.'", yer_id:"Lahsa" },
 
 { t:"1818-01-01", b:"İbrâhim Paşa'nın Vehhâbî seferinin ardından emirlik geçici olarak yeniden kuruldu", tur:"toprak-kazanc",

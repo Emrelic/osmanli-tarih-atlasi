@@ -914,7 +914,7 @@ window.KRONOLOJI_MACARISTAN = [
 { t:"1918-11-16", b:"Macaristan Halk Cumhuriyeti'nin ilanı — 637 yıllık krallık geleneğinin fiilen kesintiye uğraması", tur:"son", onem:5, dunya:4, kapsam:"ic",
   etiket:["son","kurulus"],
   yer_id:"Peşte",
-  d:"Károlyi hükümeti, Avusturya-Macaristan'ın resmen dağılmasının ardından bağımsız Macaristan Halk Cumhuriyeti'ni ilan etti; bin yıllık Macar krallık geleneği (kısa aralıklarla, 1920'de kralsız bir 'krallığa' dönüşerek) fiilen sona erdi. Bu dosyanın kapsadığı 1281-1918 arası anlatı burada kapanır — devamı `macaristan-naiplik` (bkz. `data/devletler.js`) ve olası bir sonraki kronoloji turudur.",
+  d:"Károlyi hükümeti, Avusturya-Macaristan'ın resmen dağılmasının ardından bağımsız Macaristan Halk Cumhuriyeti'ni ilan etti; bin yıllık Macar krallık geleneği (kısa aralıklarla, 1920'de kralsız bir 'krallığa' dönüşerek) fiilen sona erdi. Bu dosyanın kapsadığı 1281-1918 arası anlatı burada kapanır — devamı", ic_not_d:"`macaristan-naiplik` (bkz. `data/devletler.js`) ve olası bir sonraki kronoloji turudur.",
   kaynak:"akademik: Kontler (2002), s. 272-273 — dünya değeri Habsburg dosyasının 1918-11-11 (imparatorluğun tam sonu, dunya:5) maddesinden BİLEREK farklı: bu, Macaristan'ın KENDİ cumhuriyet ilanı, beş gün sonra ve ayrı bir olay" },
 
 ];

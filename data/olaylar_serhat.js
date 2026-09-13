@@ -72,19 +72,19 @@ window.OLAYLAR_SERHAT = [
 { t:"1428-01-01", b:"II. Murad Alacahisar'ı aldı, Şehirköy Osmanlı'ya geri döndü", tur:"fetih",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak","serhat"],
   yer_id:"Alacahisar (Kruševac)",
-  d:"Sırp Despotu Stefan Lazareviç'in vârissiz ölümünün (1427) ardından II. Murad, Yıldırım Bayezid'in Sırp prensesiyle evliliğine dayanarak Sırbistan'ın meşrû vârisi olduğunu ileri sürüp harekete geçti ve Alacahisar'ı aldı (1428). Aynı yıl, Lazareviç'in ölümünden sonra Osmanlılar Şehirköy kalesini de geri aldılar — şehir 1412'de Stefan tarafından alınmış ve Mûsâ Çelebi'ye karşı savunulmuştu. Böylece Büyük Morava ile Nişava vadilerini birbirine bağlayan hat Osmanlı denetimine girdi. ⚠️ TARİH HAKKINDA: TDV her iki yer için de YIL veriyor, gün vermiyor.",
+  d:"Sırp Despotu Stefan Lazareviç'in vârissiz ölümünün (1427) ardından II. Murad, Yıldırım Bayezid'in Sırp prensesiyle evliliğine dayanarak Sırbistan'ın meşrû vârisi olduğunu ileri sürüp harekete geçti ve Alacahisar'ı aldı (1428). Aynı yıl, Lazareviç'in ölümünden sonra Osmanlılar Şehirköy kalesini de geri aldılar — şehir 1412'de Stefan tarafından alınmış ve Mûsâ Çelebi'ye karşı savunulmuştu. Böylece Büyük Morava ile Nişava vadilerini birbirine bağlayan hat Osmanlı denetimine girdi.", ic_not_d:"⚠️ TARİH HAKKINDA: TDV her iki yer için de YIL veriyor, gün vermiyor.",
   kaynak:"alacahisar + sehirkoy" },
 
 { t:"1443-01-01", b:"Haçlı ordusu Şehirköy'ü zaptetti — 'Uzun Sefer'in Nişava kolu", tur:"kayip",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip","hacli"],
   yer_id:"Şehirköy (Pirot)",
-  d:"Kral Vladislav ve Sırp Despotu Curac Brankoviç liderliğindeki Haçlı ordusu 1443'te Şehirköy'ü zaptetti. Aynı seferin devamında Osmanlı kuvvetleri kasım ayında İzladi geçidinde bozguna uğrayacaktır. Şehirköy, Segedin Antlaşması'nın (1444) ardından II. Murad tarafından tekrar Sırplar'a verilmiş, ancak 1456'da Curac Brankoviç'in ölümünden sonra Osmanlılar'a geçmiştir. ⚠️ TARİH HAKKINDA: TDV yıl veriyor, gün vermiyor.",
+  d:"Kral Vladislav ve Sırp Despotu Curac Brankoviç liderliğindeki Haçlı ordusu 1443'te Şehirköy'ü zaptetti. Aynı seferin devamında Osmanlı kuvvetleri kasım ayında İzladi geçidinde bozguna uğrayacaktır. Şehirköy, Segedin Antlaşması'nın (1444) ardından II. Murad tarafından tekrar Sırplar'a verilmiş, ancak 1456'da Curac Brankoviç'in ölümünden sonra Osmanlılar'a geçmiştir.", ic_not_d:"⚠️ TARİH HAKKINDA: TDV yıl veriyor, gün vermiyor.",
   kaynak:"sehirkoy" },
 
 { t:"1454-01-01", b:"Alacahisar yeniden Osmanlı hâkimiyetine girdi — tımar kayıtlarının tanıklığı", tur:"fetih",
   onem:4, dunya:1, kapsam:"dis", etiket:["askeri","toprak","idari","serhat"],
   yer_id:"Alacahisar (Kruševac)",
-  d:"1444'te Macar delegeleriyle yapılan antlaşma sonunda Brankoviç'e bırakılan Alacahisar, Varna zaferini izleyen yıllarda yeniden Türk hâkimiyetine girdi. Şehrin bu ikinci fethi bir savaş kaydıyla değil, bir MALİYE kaydıyla belgelenir: Alacahisar'a bağlı bazı köylere ait tımar kayıtlarının varlığı, yörenin buraya girdiğini gösterir. ⚠️ TARİH HAKKINDA: TDV'nin kendi ifadesi 'muhtemelen 1453 sonları veya 1454 başları'dır — kaynağın tereddüdü olduğu gibi aktarılmıştır; gün beyandır. 📌 Bu tarihten sonra Alacahisar, TDV'nin ifadesiyle 'kesintisiz 300 sene devam eden Türk hâkimiyeti'ne girer ve ilk Avusturya işgalini ancak 1737'de görür — 1689 Habsburg ilerleyişinin Batı Morava'ya ulaşmadığının dayanağı budur.",
+  d:"1444'te Macar delegeleriyle yapılan antlaşma sonunda Brankoviç'e bırakılan Alacahisar, Varna zaferini izleyen yıllarda yeniden Türk hâkimiyetine girdi. Şehrin bu ikinci fethi bir savaş kaydıyla değil, bir MALİYE kaydıyla belgelenir: Alacahisar'a bağlı bazı köylere ait tımar kayıtlarının varlığı, yörenin buraya girdiğini gösterir.", ic_not_d:"⚠️ TARİH HAKKINDA: TDV'nin kendi ifadesi 'muhtemelen 1453 sonları veya 1454 başları'dır — kaynağın tereddüdü olduğu gibi aktarılmıştır; gün beyandır. 📌 Bu tarihten sonra Alacahisar, TDV'nin ifadesiyle 'kesintisiz 300 sene devam eden Türk hâkimiyeti'ne girer ve ilk Avusturya işgalini ancak 1737'de görür — 1689 Habsburg ilerleyişinin Batı Morava'ya ulaşmadığının dayanağı budur.",
   kaynak:"alacahisar" },
 
 ];

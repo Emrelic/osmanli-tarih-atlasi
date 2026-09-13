@@ -330,7 +330,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1911-01-01", b:"Harar'da Osmanlı maslahatgüzarlığının açılması", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis", yer_id:"Harar",
   etiket:["diplomasi","din"],
-  d:"Osmanlı Devleti ile Habeşistan arasında dâimî siyasî ilişkiler kurulduktan sonra Harar'da bir Osmanlı maslahatgüzarlığı açıldı; amaç bölgedeki müslümanların hukukunu gözetmekti. (⚠️ TDV `etiyopya` maddesi bu tarihi 1912 verir; ihtisas maddesi olan `harar` esas alındı.)",
+  d:"Osmanlı Devleti ile Habeşistan arasında dâimî siyasî ilişkiler kurulduktan sonra Harar'da bir Osmanlı maslahatgüzarlığı açıldı; amaç bölgedeki müslümanların hukukunu gözetmekti. (", ic_not_d:"⚠️ TDV `etiyopya` maddesi bu tarihi 1912 verir; ihtisas maddesi olan `harar` esas alındı.)",
   kaynak:"TDV `harar`: \"1911'de Osmanlı Devleti ile Habeşistan arasındaki dâimî siyasî ilişkiler kurulduktan sonra Harar'da Osmanlı maslahatgüzarlığı açıldı\"" },
 
 { t:"1913-01-01", b:"Osmanlı temsilciliğinin Harar'dan Adisababa'ya nakli", tur:"diplomasi", onem:2, dunya:1, kapsam:"dis", yer_id:"Addis",
@@ -416,7 +416,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 
 { t:"1557-04-02", b:"Masavva'ın fethi — Habeşistan'ın denize açılan kapısı kapandı", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"Masavva",
   etiket:["askeri","toprak","ticaret"],
-  d:"Özdemir Paşa 2 Cemâziyelâhir 964 (2 Nisan 1557) tarihinde Masavva'ı Osmanlı topraklarına kattı; ardından önemli bir liman olan Arkiko da ele geçirildi. Yaklaşık dört asır sürecek bu hâkimiyet, Habeş meliklerinin Avrupalılardan silâh ve insan yardımı almasını, Katolik ve Cizvit papazlarının ülkeye girmesini engelledi. (⚠️ TDV `harar` maddesi bu tarihi 12 Nisan 1557 verir; hicrî karşılığını veren `masavva` maddesi esas alındı.)",
+  d:"Özdemir Paşa 2 Cemâziyelâhir 964 (2 Nisan 1557) tarihinde Masavva'ı Osmanlı topraklarına kattı; ardından önemli bir liman olan Arkiko da ele geçirildi. Yaklaşık dört asır sürecek bu hâkimiyet, Habeş meliklerinin Avrupalılardan silâh ve insan yardımı almasını, Katolik ve Cizvit papazlarının ülkeye girmesini engelledi. (", ic_not_d:"⚠️ TDV `harar` maddesi bu tarihi 12 Nisan 1557 verir; hicrî karşılığını veren `masavva` maddesi esas alındı.)",
   kaynak:"TDV `masavva`: \"2 Cemâziyelâhir 964'te (2 Nisan 1557) Özdemir Paşa tarafından Osmanlı topraklarına katıldı\" · TDV `habes-eyaleti`: \"2 Nisan 1557'de Masavva‘ şehri alındıktan sonra yine önemli bir liman olan Arkiko (Harkiko) ele geçirildi\"" },
 
 { t:"1558-01-01", b:"Osmanlı ordusunun Tigre bölgesine hâkim olması", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"",

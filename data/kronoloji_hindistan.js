@@ -471,7 +471,7 @@ window.KRONOLOJI_HINDISTAN = [
 { t:"1565-01-26", b:"Talikota Savaşı: Dekken sultanlıkları ittifakı Vijayanagara'yı yendi", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak-kayip"],
   yer_id:"Vijayanagara (Hampi)",
-  d:"[Bîcâpur/Ahmednagar/Golkonda] Bîcâpur, Ahmednagar, Golkonda ve Bîdar sultanlıklarının kurduğu geçici ittifak, güney Hindistan'ın en büyük Hindu imparatorluğu Vijayanagara'yı ağır bir yenilgiye uğrattı; başkent Hampi yağmalanıp yakıldı, imparatorluk bir daha eski gücüne kavuşamadı. (Tarih `data/yerlesimler_asya.js`teki motor kırılma tarihiyle — 26 Ocak 1565 — birebir hizalandı; `data/devletler.js`teki 1565-01-25 kaydı bir günlük kaynak farkı taşıyor.)",
+  d:"[Bîcâpur/Ahmednagar/Golkonda] Bîcâpur, Ahmednagar, Golkonda ve Bîdar sultanlıklarının kurduğu geçici ittifak, güney Hindistan'ın en büyük Hindu imparatorluğu Vijayanagara'yı ağır bir yenilgiye uğrattı; başkent Hampi yağmalanıp yakıldı, imparatorluk bir daha eski gücüne kavuşamadı. (Tarih", ic_not_d:"`data/yerlesimler_asya.js`teki motor kırılma tarihiyle — 26 Ocak 1565 — birebir hizalandı; `data/devletler.js`teki 1565-01-25 kaydı bir günlük kaynak farkı taşıyor.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Burton Stein, A History of India (1998)" },
 { t:"1509-01-01", b:"Krişnadevarâya, Vijayanagara tahtına çıktı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["hukumdar","kultur"],

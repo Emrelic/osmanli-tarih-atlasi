@@ -759,7 +759,7 @@ window.KRONOLOJI_ITALYA = [
 
 { t:"1260-09-04", b:"Montaperti Savaşı — Siena'nın Floransa'yı ağır yenilgiye uğratması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["siena","askeri"],
-  d:"Ghibelline (İmparator yanlısı) Siena, sürgündeki Floransalı Ghibellinelerin ve Napoli Kralı Manfred'in desteğiyle Guelph (Papa yanlısı) Floransa ordusunu Montaperti'de ağır bir yenilgiye uğrattı — Dante bu savaşın kanla kızaran Arbia nehrini \"İlahi Komedya\"da anacaktı. Zafer kısa sürdü: dokuz yıl sonra Floransa aynı ittifak dengesiyle intikamını alacaktı. (Bu olay `data/devletler.js`de zaten kayıtlı; pencere öncesi (1260) olduğu için açılış madde olarak, sonraki dönemin arka planını vermek üzere alındı.)",
+  d:"Ghibelline (İmparator yanlısı) Siena, sürgündeki Floransalı Ghibellinelerin ve Napoli Kralı Manfred'in desteğiyle Guelph (Papa yanlısı) Floransa ordusunu Montaperti'de ağır bir yenilgiye uğrattı — Dante bu savaşın kanla kızaran Arbia nehrini \\\"İlahi Komedya\\\"da anacaktı. Zafer kısa sürdü: dokuz yıl sonra Floransa aynı ittifak dengesiyle intikamını alacaktı. (Bu olay", ic_not_d:"`data/devletler.js`de zaten kayıtlı; pencere öncesi (1260) olduğu için açılış madde olarak, sonraki dönemin arka planını vermek üzere alındı.)",
   kaynak:"data/devletler.js `siena` embedded kronoloji: \"Montaperti Savaşı'nda Floransa'yı ağır yenilgiye uğrattı\"", yer_kon:[43.32,11.451] },
 
 { t:"1348-01-01", b:"Kara Ölüm'ün Siena'yı vurması — katedral genişletme projesinin terki", tur:"salgin", onem:4, dunya:2, kapsam:"ic", yer_id:"",

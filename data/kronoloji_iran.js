@@ -377,7 +377,7 @@ window.KRONOLOJI_IRAN = [
   kaynak:"Encyclopaedia Iranica, madde: REZA SHAH", yer_id:"Tahran" },
 { t:"1923-10-28", b:"Ahmed Şah ülkeyi terk etti, Rıza Han başbakan oldu", tur:"son", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","son"],
-  d:"[Kaçar] Son Kaçar şahı Ahmed Şah, tedavi bahanesiyle Avrupa'ya gidip bir daha dönmedi; Rıza Han aynı yıl başbakanlığa getirildi ve iki yıl sonra (1925) Meclis'in kararıyla Kaçar hânedanını resmen tahttan indirip kendi Pehlevî hânedanını kuracaktı. Bu dosyanın kapsamı (1281-1923) burada kapanıyor — devamı için bkz. data/devletler.js `kacar`ın kendi kronolojisi ve gelecekte açılacak bir Pehlevî dosyası.",
+  d:"[Kaçar] Son Kaçar şahı Ahmed Şah, tedavi bahanesiyle Avrupa'ya gidip bir daha dönmedi; Rıza Han aynı yıl başbakanlığa getirildi ve iki yıl sonra (1925) Meclis'in kararıyla Kaçar hânedanını resmen tahttan indirip kendi Pehlevî hânedanını kuracaktı. Bu dosyanın kapsamı (1281-1923) burada kapanıyor — devamı için bkz. data/", ic_not_d:"devletler.js `kacar`ın kendi kronolojisi ve gelecekte açılacak bir Pehlevî dosyası.",
   kaynak:"Encyclopaedia Iranica, madde: QAJAR DYNASTY", yer_id:"Tahran" },
 
 // === EK MADDELER — ilk taslak 76'da kaldı, 100-150 hedefi için genişletildi ===

@@ -75,7 +75,7 @@ window.KRONOLOJI_TIMURLU = [
 
 { t:"1398-01-01", b:"Hindistan seferine çıkış kararı", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri"],
-  d:"Timur, Delhi Sultanlığı'nın 'kâfirlere karşı fazla yumuşak' davrandığı gerekçesiyle Hindistan'a bir sefer düzenlemeye karar verdi; ordusu aynı yıl içinde Hindukuş'u aşıp Pencap'a indi. Seferin Delhi'ye varışı ve şehrin yağmalanması `data/kronoloji_hindistan.js:155`te (1398-12-17, dunya:3) anlatılıyor — burada mükerrer yazılmadı.",
+  d:"Timur, Delhi Sultanlığı'nın 'kâfirlere karşı fazla yumuşak' davrandığı gerekçesiyle Hindistan'a bir sefer düzenlemeye karar verdi; ordusu aynı yıl içinde Hindukuş'u aşıp Pencap'a indi. Seferin Delhi'ye varışı ve şehrin yağmalanması", ic_not_d:"`data/kronoloji_hindistan.js:155`te (1398-12-17, dunya:3) anlatılıyor — burada mükerrer yazılmadı.",
   kaynak:"TDV `timur`: \"1398-1399 (Mart-Nisan – Nisan): Delhi Sultanı Mahmud Şah'a karşı sefer\"" },
 
 // ══════════════════════════════════════════════════════════════════
@@ -109,7 +109,7 @@ window.KRONOLOJI_TIMURLU = [
 
 { t:"1404-11-27", b:"Çin seferine çıkış", tur:"askeri", onem:3, dunya:2, kapsam:"dis", yer_id:"Semerkant",
   etiket:["askeri"],
-  d:"Semerkant'a döndükten dört ay sonra Timur, Ming Hanedanı'na karşı büyük bir sefer için ordusunu topladı; yetmiş yaşına yaklaşan hükümdar, imparatorluğunun en büyük askerî girişimini kışın ortasında başlattı. Sefer, iki ay sonra Otrar'da hastalanıp ölmesiyle hiç gerçekleşmeyecekti — `kronoloji_iran.js:82`de (1405-02-18, dunya:2) anlatılan ölüm burada mükerrer yazılmadı.",
+  d:"Semerkant'a döndükten dört ay sonra Timur, Ming Hanedanı'na karşı büyük bir sefer için ordusunu topladı; yetmiş yaşına yaklaşan hükümdar, imparatorluğunun en büyük askerî girişimini kışın ortasında başlattı. Sefer, iki ay sonra Otrar'da hastalanıp ölmesiyle hiç gerçekleşmeyecekti", ic_not_d:"`kronoloji_iran.js:82`de (1405-02-18, dunya:2) anlatılan ölüm burada mükerrer yazılmadı.",
   kaynak:"TDV `timur`: \"1404 (27 Kasım): Çin seferi için yola çıktı\"" },
 
 // ══════════════════════════════════════════════════════════════════
@@ -118,7 +118,7 @@ window.KRONOLOJI_TIMURLU = [
 
 { t:"1405-04-01", b:"Timur sonrası taht mücadelesi başladı", tur:"kriz", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["hanedan","kriz"],
-  d:"Timur'un ölümü imparatorluğu tek bir mirasçıya bırakmadı: torunu Halil Sultan Semerkant'ta tahta çıkarken oğlu Şahruh Herat'tan hak iddia etti, öteki oğullar ve torunlar da kendi bölgelerinde bağımsız hareket etmeye başladı. Dört yıl sürecek bu iç savaş, `kronoloji_iran.js`in 1405 ve 1409 tarihli maddeleri arasındaki boşluğu dolduruyor.",
+  d:"Timur'un ölümü imparatorluğu tek bir mirasçıya bırakmadı: torunu Halil Sultan Semerkant'ta tahta çıkarken oğlu Şahruh Herat'tan hak iddia etti, öteki oğullar ve torunlar da kendi bölgelerinde bağımsız hareket etmeye başladı. Dört yıl sürecek bu iç savaş", ic_not_d:"`kronoloji_iran.js`in 1405 ve 1409 tarihli maddeleri arasındaki boşluğu dolduruyor.",
   kaynak:"TDV `timurlular` — hanedanın taht mücadelesi genel hatlarıyla anlatılıyor, gün DOĞRULANMADI, dayanak: standart akademik kronoloji" },
 
 { t:"1409-05-01", b:"Şahruh, Semerkant'ı alıp hanedan birliğini yeniden kurdu", tur:"birlesme", onem:4, dunya:2, kapsam:"ic", yer_id:"Semerkant",
@@ -147,7 +147,7 @@ window.KRONOLOJI_TIMURLU = [
 
 { t:"1447-01-01", b:"Uluğ Bey tahta çıktı — bilgin-hükümdar Timurlu'nun başına geçti", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic", yer_id:"Herat",
   etiket:["hanedan"],
-  d:"Babası Şahruh'un ölümüyle (`kronoloji_iran.js:90`, 1447-03-13, dunya:1) Uluğ Bey resmen Timurlu tahtına çıktı; ama kırk yılını gökbilime ve matematik araştırmalarına adamış bir hükümdar olarak siyasî ve askerî yeteneği babasınınkinin gerisindeydi. Saltanatı iki yıl bile sürmeyecekti.",
+  d:"Babası Şahruh'un ölümüyle Uluğ Bey resmen Timurlu tahtına çıktı; ama kırk yılını gökbilime ve matematik araştırmalarına adamış bir hükümdar olarak siyasî ve askerî yeteneği babasınınkinin gerisindeydi. Saltanatı iki yıl bile sürmeyecekti.", ic_not_d:"(kronoloji_iran.js:90, 1447-03-13, dunya:1) -- ic-capa referansi, cumle icinden cikarildi.",
   kaynak:"TDV `ulug-bey`: \"1447-1449 arası hükümdarlık yaptı\"" },
 
 { t:"1449-10-25", b:"Uluğ Bey, öz oğlu tarafından öldürüldü", tur:"kriz", onem:5, dunya:2, kapsam:"ic", yer_id:"Semerkant",
@@ -161,7 +161,7 @@ window.KRONOLOJI_TIMURLU = [
 
 { t:"1469-04-01", b:"Ebû Said Mirza, Akkoyunlu Uzun Hasan'a yenilip öldürüldü", tur:"kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
-  d:"On bir yıl önce (`kronoloji_iran.js:398`, 1458, dunya:1) Timurlu topraklarını yeniden birleştiren Ebû Said Mirza, Azerbaycan'a doğru giriştiği bir seferde Akkoyunlu hükümdarı Uzun Hasan'ın ordusuna yenilip esir düştü ve öldürüldü. Yenilgi, Timurlu topraklarının batı ucunu (İran, Azerbaycan) kalıcı olarak Akkoyunlu'ya bıraktı; imparatorluk artık yalnız Horasan ve Mâverâünnehir'e sıkışmıştı.",
+  d:"On bir yıl önce Timurlu topraklarını yeniden birleştiren Ebû Said Mirza, Azerbaycan'a doğru giriştiği bir seferde Akkoyunlu hükümdarı Uzun Hasan'ın ordusuna yenilip esir düştü ve öldürüldü. Yenilgi, Timurlu topraklarının batı ucunu (İran, Azerbaycan) kalıcı olarak Akkoyunlu'ya bıraktı; imparatorluk artık yalnız Horasan ve Mâverâünnehir'e sıkışmıştı.", ic_not_d:"(kronoloji_iran.js:398, 1458, dunya:1) -- ic-capa referansi, cumle icinden cikarildi.",
   kaynak:"TDV `timurlular` ve `iran` maddelerinde Ebû Said'in 1469'da Uzun Hasan'a yenilip öldürüldüğü teyitli; gün DOĞRULANMADI" },
 
 { t:"1469-06-01", b:"Hüseyin Baykara, Herat'ta tahta çıktı — son altın çağ başladı", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"Herat",
@@ -196,7 +196,7 @@ window.KRONOLOJI_TIMURLU = [
 
 { t:"1507-05-01", b:"Şeybânî Han, Herat'ı aldı — Timurlu Devleti sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Herat",
   etiket:["askeri","toprak-kayip","hanedan"],
-  d:"Özbek hükümdarı Şeybânî Han, Hüseyin Baykara'nın birbiriyle çekişen oğullarının direnişini kırıp Herat'ı ele geçirdi; Timurlu hanedanının Mâverâünnehir-Horasan kolu böylece resmen sona erdi. Hanedanın soyu yalnız Bâbür'ün Hindistan'da kurduğu Bâbürlü İmparatorluğu'nda (1526, `kronoloji_hindistan.js:177`, dunya:4) devam edecekti — bir devlet Orta Asya'da ölüp Hindistan'da yeniden doğdu.",
+  d:"Özbek hükümdarı Şeybânî Han, Hüseyin Baykara'nın birbiriyle çekişen oğullarının direnişini kırıp Herat'ı ele geçirdi; Timurlu hanedanının Mâverâünnehir-Horasan kolu böylece resmen sona erdi. Hanedanın soyu yalnız Bâbür'ün Hindistan'da kurduğu Bâbürlü İmparatorluğu'nda (1526", ic_not_d:"`kronoloji_hindistan.js:177`, dunya:4) devam edecekti — bir devlet Orta Asya'da ölüp Hindistan'da yeniden doğdu.",
   kaynak:"TDV `timurlular`: \"Özbekler Mayıs 1507'de Herat'ı ele geçirdi, Timurlu hâkimiyeti sona erdi\" — ⚠️ gün TDV'de yok, ay standart akademik kronolojiyle teyitli" }
 
 ];

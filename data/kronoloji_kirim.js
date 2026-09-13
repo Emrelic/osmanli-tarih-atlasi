@@ -145,7 +145,7 @@ window.KRONOLOJI_KIRIM = [
 { t:"1521-01-01", b:"Sâhib Giray, ağabeyi I. Mehmed Giray'ın desteğiyle Kazan tahtına çıktı", tur:"hukumdar", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","taht"],
   yer_id:"Kazan",
-  d:"Kırım hanedanının Kazan Hanlığı üzerindeki nüfuzunun somut göstergesi: I. Mehmed Giray'ın kardeşi Sâhib Giray 1521 ilkbaharında Kazan'a gelip tahta oturdu — Giray hanedanının Volga havzasına uzanan siyasetinin bir parçası. ⚠️ TARİH HAKKINDA: TDV mevsim veriyor ('1521 ilkbaharı'), gün vermiyor; tarih alanına yıl yazıldı.",
+  d:"Kırım hanedanının Kazan Hanlığı üzerindeki nüfuzunun somut göstergesi: I. Mehmed Giray'ın kardeşi Sâhib Giray 1521 ilkbaharında Kazan'a gelip tahta oturdu — Giray hanedanının Volga havzasına uzanan siyasetinin bir parçası.", ic_not_d:"⚠️ TARİH HAKKINDA: TDV mevsim veriyor ('1521 ilkbaharı'), gün vermiyor; tarih alanına yıl yazıldı.",
   kaynak:"TDV `sahib-giray`: 'O da 1521 ilkbaharında Kazan'a gelip tahta oturdu.' · önceki dayanak: kirim (TDV)" },
 { t:"1523-01-01", b:"I. Mehmed Giray, Nogaylar'ın baskınında öldürüldü", tur:"diger", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset"],
@@ -479,7 +479,7 @@ window.KRONOLOJI_KIRIM = [
 { t:"1784-01-08", b:"İstanbul'da imzalanan antlaşmayla Osmanlı, Kırım'ın Rusya'ya ilhakını resmen tanıdı", tur:"antlasma", onem:4, dunya:2, kapsam:"dis",
   etiket:["diplomasi"],
   yer_id:"", kapsam_genis:true,
-  d:"Kırım Hanlığı'nın son kapanış işareti: İstanbul'da imzalanan antlaşmayla Osmanlı Devleti, Kırım, Taman ve Kuban'ın Rusya'ya ilhakını resmen kabul etti. Bu madde 1783 sonrasına düştüğü için dosyanın 1441-1783 kapsamının dışındadır, ilhakın hukuki kapanışı olduğu için epilog olarak eklendi (bkz. data/kronoloji_rusya.js'nin 1917 Ekim Devrimi'ni aynı gerekçeyle \"kapanış işareti\" olarak eklemesi).",
+  d:"Kırım Hanlığı'nın son kapanış işareti: İstanbul'da imzalanan antlaşmayla Osmanlı Devleti, Kırım, Taman ve Kuban'ın Rusya'ya ilhakını resmen kabul etti. Bu madde 1783 sonrasına düştüğü için dosyanın 1441-1783 kapsamının dışındadır, ilhakın hukuki kapanışı olduğu için epilog olarak eklendi (bkz. data/", ic_not_d:"kronoloji_rusya.js'nin 1917 Ekim Devrimi'ni aynı gerekçeyle \\\"kapanış işareti\\\" olarak eklemesi).",
   kaynak:"kirim (TDV)", yer_id:"İstanbul" },
 { t:"1787-08-01", b:"Son han Şâhin Giray, Rodos'ta idam edildi", tur:"son", onem:5, dunya:1, kapsam:"ic",
   etiket:["siyaset"],
@@ -531,7 +531,7 @@ window.KRONOLOJI_KIRIM = [
 { t:"1666-01-01", b:"Evliya Çelebi Kırım'ı gezdi; esir emeğine dayalı tarım düzenini gözlemledi", tur:"sosyal", onem:2, dunya:1, kapsam:"ic",
   etiket:["sosyal","esir-ticareti"],
   yer_id:"", kapsam_genis:true,
-  d:"Seyahatnâme'sinin Kırım bölümünde Evliya Çelebi, mirzaların topraklarını çoğunlukla hıristiyan esirlere ektirdiğini ve bu esirlerin sayısının o dönemde yüz binlere ulaştığını aktarır; Kırım'dan Osmanlı ülkesine ve Mısır'a esir, kürk, deri, balık ürünleri, balmumu ve tuz sevkiyatı yapıldığını da belirtir. (Yıl yaklaşıktır — Evliya Çelebi'nin Kırım seyahati Seyahatnâme'nin 7. cildinde 1666-1667 olarak tarihlenir; TDV maddesi gözlemi aktarır ama kesin gün vermez.)",
+  d:"Seyahatnâme'sinin Kırım bölümünde Evliya Çelebi, mirzaların topraklarını çoğunlukla hıristiyan esirlere ektirdiğini ve bu esirlerin sayısının o dönemde yüz binlere ulaştığını aktarır; Kırım'dan Osmanlı ülkesine ve Mısır'a esir, kürk, deri, balık ürünleri, balmumu ve tuz sevkiyatı yapıldığını da belirtir.", ic_not_d:"(Yıl yaklaşıktır — Evliya Çelebi'nin Kırım seyahati Seyahatnâme'nin 7. cildinde 1666-1667 olarak tarihlenir; TDV maddesi gözlemi aktarır ama kesin gün vermez.)",
   kaynak:"kirim (TDV, Evliya Çelebi'den aktarım)", yer_id:"Bahçesaray" },
 
 ];

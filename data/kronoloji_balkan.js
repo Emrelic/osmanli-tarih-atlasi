@@ -297,7 +297,7 @@ window.KRONOLOJI_BALKAN = [
 
 { t:"1877-09-01", b:"Nikšić, Podgorica ve Bar alındı, Ülgün ele geçirildi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas"], yer_id:"Podgorica",
-  d:"Savaşın son evresinde Karadağ kuvvetleri Nikšić'i, ardından Podgorica ve Bar'ı ele geçirdi; Ülgün de düştü. Bu fetihler bir yıl sonra Berlin'de tanınacak kazanımların fiilî zemini oldu. Yerel atlas kaydı (data/yerlesimler.js) Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.",
+  d:"Savaşın son evresinde Karadağ kuvvetleri Nikšić'i, ardından Podgorica ve Bar'ı ele geçirdi; Ülgün de düştü. Bu fetihler bir yıl sonra Berlin'de tanınacak kazanımların fiilî zemini oldu. Yerel atlas kaydı (data/", ic_not_d:"yerlesimler.js) Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.",
   kaynak:"TDV `karadag`: 'Savaşın sonlarına doğru Nikšić, Podgorica, Bar'ı aldı, Ülgün'ü (Dulcigno) ele geçirdi.' Ay: standart akademik kaynak." },
 
 { t:"1878-03-03", b:"Ayastefanos Antlaşması — bağımsızlık ilk kez tanındı", tur:"antlasma",
@@ -353,7 +353,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1185-01-01", b:"Asen kardeşler Bizans'a isyan etti — İkinci Bulgar İmparatorluğu kuruldu", tur:"kurulus",
   onem:5, dunya:3, kapsam:"dis", etiket:["kurulus","siyaset","askeri"],
   yer_id:"Tırnova",
-  d:"Bolyar Petar ve Asen kardeşler Tırnova çevresinde ayaklanarak Bizans idaresine son verdi ve Kuzey Bulgaristan'ı ele geçirdi. 1186'da Bizans imparatoru barışa zorlandı, 1187'de de yeni Bulgar devletini resmen tanıdı. Bu tarih devletler.js'teki `bulgar-carligi` künyesinin f: tarihidir.",
+  d:"Bolyar Petar ve Asen kardeşler Tırnova çevresinde ayaklanarak Bizans idaresine son verdi ve Kuzey Bulgaristan'ı ele geçirdi. 1186'da Bizans imparatoru barışa zorlandı, 1187'de de yeni Bulgar devletini resmen tanıdı. Bu tarih", ic_not_d:"devletler.js'teki `bulgar-carligi` künyesinin f: tarihidir.",
   kaynak:"TDV `bulgaristan`: 'Bolyar Petar ve Bolyar Asen kardeşlerin önderlik ettikleri bir başka ayaklanma başladı... 1187'de Bizans, ikinci Bulgar Devleti'ni tanıdı.'" },
 
 { t:"1205-04-14", b:"Edirne Savaşı — Çar Kaloyan Latin İmparator Baldwin'i esir aldı", tur:"savas",
@@ -365,7 +365,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1230-03-09", b:"Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı", tur:"toprak-kazanc",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kazanc"],
   yer_id:"", kapsam_genis:true,
-  d:"II. İvan Asen (1218-1241), Epir Despotu Theodoros Angelos'un ordusunu Klokotnitsa'da yenilgiye uğratarak Makedonya ve Trakya'nın büyük bölümünü ele geçirdi; Bulgar Çarlığı Adriyatik'ten Karadeniz'e, Tuna'dan Ege'ye uzanan en geniş sınırlarına ulaştı. Bu tarih devletler.js `bulgar-carligi` künyesinde zaten kayıtlı.",
+  d:"II. İvan Asen (1218-1241), Epir Despotu Theodoros Angelos'un ordusunu Klokotnitsa'da yenilgiye uğratarak Makedonya ve Trakya'nın büyük bölümünü ele geçirdi; Bulgar Çarlığı Adriyatik'ten Karadeniz'e, Tuna'dan Ege'ye uzanan en geniş sınırlarına ulaştı. Bu tarih", ic_not_d:"devletler.js `bulgar-carligi` künyesinde zaten kayıtlı.",
   kaynak:"devletler.js `bulgar-carligi` künyesi + akademik (Fine, The Late Medieval Balkans) — TDV `bulgaristan` maddesi yalnız 'merkezî devletin gücü arttırılmaya çalışıldı' diyor, savaşın ayrıntısını vermiyor." },
 
 { t:"1235-01-01", b:"Bulgar (Tırnova) Patrikliği kuruldu", tur:"din",
@@ -383,13 +383,13 @@ window.KRONOLOJI_BALKAN = [
 { t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — Bulgar knezlikleri de Osmanlı vassalı oldu", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri"],
   yer_id:"", kapsam_genis:true,
-  d:"Osmanlı akıncı kuvvetleri, İvan Aleksandır'ın ölümünden sonra parçalanmış Bulgar topraklarının komşusu olan Sırp beyliklerini Meriç kıyısında ağır bir yenilgiye uğrattı; bu bozgun Bulgar knezliklerinin de Osmanlı'ya haraca bağlanmasının önünü açtı. dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (TDV `sirbistan` üzerinden).",
+  d:"Osmanlı akıncı kuvvetleri, İvan Aleksandır'ın ölümünden sonra parçalanmış Bulgar topraklarının komşusu olan Sırp beyliklerini Meriç kıyısında ağır bir yenilgiye uğrattı; bu bozgun Bulgar knezliklerinin de Osmanlı'ya haraca bağlanmasının önünü açtı. dunya puanı", ic_not_d:"kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (TDV `sirbistan` üzerinden).",
   kaynak:"kronoloji_sirbistan.js (1371-09-26, dunya:3) — TDV `sirbistan`: '1371 Çirmen ve 1389 Kosova savaşları ile Osmanlı ordularına karşı yenilgiye uğrayan...'" },
 
 { t:"1371-01-01", b:"İvan Aleksandır'ın ölümü — devlet Tırnova ve Vidin çarlıklarına bölündü", tur:"bolunme",
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","bolunme"],
   yer_id:"Tırnova",
-  d:"İvan Aleksandır'ın (1331-1371) ölümüyle çarlık, oğulları arasında Tırnova (İvan Şişman) ve Vidin (İvan Sratsimir) çarlıkları olarak ikiye bölündü; bu bölünme Osmanlı ilerleyişine karşı ortak bir cephe kurulmasını imkânsızlaştırdı ve fethi hızlandırdı. Tarih devletler.js `bulgar-carligi` künyesiyle birebir eşleşiyor.",
+  d:"İvan Aleksandır'ın (1331-1371) ölümüyle çarlık, oğulları arasında Tırnova (İvan Şişman) ve Vidin (İvan Sratsimir) çarlıkları olarak ikiye bölündü; bu bölünme Osmanlı ilerleyişine karşı ortak bir cephe kurulmasını imkânsızlaştırdı ve fethi hızlandırdı. Tarih", ic_not_d:"devletler.js `bulgar-carligi` künyesiyle birebir eşleşiyor.",
   kaynak:"devletler.js `bulgar-carligi` künyesi: 'İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü.' ⚠️ WebFetch ile çekilen TDV `bulgaristan` özeti bu olayı '1365' olarak veriyordu; İvan Aleksandır'ın ölüm yılının tarihyazımında 1371 olduğu akademik literatürle (Fine) doğrulandığı için 1365 KULLANILMADI, çelişki not edildi." },
 
 { t:"1375-01-01", b:"Evtimiy Tırnova Patrikliği'ne getirildi — Tırnova Edebiyat Okulu zirvede", tur:"din",
@@ -401,13 +401,13 @@ window.KRONOLOJI_BALKAN = [
 { t:"1388-01-01", b:"Şumnu Osmanlı'ya teslim oldu", tur:"toprak-kayip",
   onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"Şumnu",
-  d:"1388-1389 kışında yürütülen Osmanlı seferi sırasında Şumnu, halkının kale anahtarlarını teslim etmesiyle çatışmasız ele geçirildi; kumandan Çandarlı Ali Paşa'ydı. Tarih yerlesimler.js'teki Şumnu kaydıyla (s: bulgaristan biter 1388-01-01) örtüşüyor.",
+  d:"1388-1389 kışında yürütülen Osmanlı seferi sırasında Şumnu, halkının kale anahtarlarını teslim etmesiyle çatışmasız ele geçirildi; kumandan Çandarlı Ali Paşa'ydı. Tarih", ic_not_d:"yerlesimler.js'teki Şumnu kaydıyla (s: bulgaristan biter 1388-01-01) örtüşüyor.",
   kaynak:"TDV `sumnu`: 790-791 (1388-1389) kışında şehrin kale anahtarlarının halk tarafından teslim edildiği, Çandarlı Ali Paşa'nın kaleyi savaşsız aldığı belirtiliyor." },
 
 { t:"1393-07-17", b:"Tırnova'nın düşüşü — Bulgar Krallığı'na son verildi", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"Tırnova",
-  d:"Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor. Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor.",
+  d:"Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor.", ic_not_d:"Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor.",
   kaynak:"TDV `bulgaristan`: '1393'te Tırnova düştü, Bulgar Krallığı'na son verildi.'" },
 
 { t:"1395-06-03", b:"Niğbolu kalesi Osmanlı'ya geçti", tur:"toprak-kayip",
@@ -419,13 +419,13 @@ window.KRONOLOJI_BALKAN = [
 { t:"1396-09-25", b:"NİĞBOLU — Avrupa'nın son büyük haçlı seferi bozguna uğradı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri"],
   yer_id:"Niğbolu",
-  d:"Macar Kralı Sigismund önderliğindeki uluslararası Haçlı ordusu, Yıldırım Bayezid komutasındaki Osmanlı kuvvetlerine Niğbolu önlerinde ağır bir yenilgiye uğradı; bu zafer Osmanlı'nın Bulgar topraklarındaki hâkimiyetini kalıcılaştırdı. Bu maddedeki dunya değeri kronoloji_bizans.js ile eşleştirildi (dunya:4); kronoloji_macaristan.js AYNI olaya dunya:3 veriyor — iki dosya arasında ÇELİŞKİ var, koordinatöre bildirilir.",
+  d:"Macar Kralı Sigismund önderliğindeki uluslararası Haçlı ordusu, Yıldırım Bayezid komutasındaki Osmanlı kuvvetlerine Niğbolu önlerinde ağır bir yenilgiye uğradı; bu zafer Osmanlı'nın Bulgar topraklarındaki hâkimiyetini kalıcılaştırdı. Bu maddedeki dunya değeri", ic_not_d:"kronoloji_bizans.js ile eşleştirildi (dunya:4); kronoloji_macaristan.js AYNI olaya dunya:3 veriyor — iki dosya arasında ÇELİŞKİ var, koordinatöre bildirilir.",
   kaynak:"TDV `nigbolu`: '21 Zilhicce 798 / 25 Eylül 1396' tarihinde Sigismund'un Haçlı ordusunun bozguna uğratıldığı belirtiliyor." },
 
 { t:"1396-10-01", b:"Vidin'in düşüşü — Bulgar Çarlığı sona erdi", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","son"],
   yer_id:"Vidin",
-  d:"Niğbolu zaferinin ardından Yıldırım Bayezid, İvan Sratsimir'i Bursa'ya götürüp Vidin Prensliği'ni doğrudan imparatorluğa kattı; Bulgar Çarlığı'nın son parçası da böylece ortadan kalktı. Bu tarihten 1878'e (Berlin Antlaşması) kadar 482 yıl boyunca ayrı bir Bulgar devleti YOKTUR. Tarih yerlesimler.js ve devletler.js kayıtlarıyla birebir eşleşiyor.",
+  d:"Niğbolu zaferinin ardından Yıldırım Bayezid, İvan Sratsimir'i Bursa'ya götürüp Vidin Prensliği'ni doğrudan imparatorluğa kattı; Bulgar Çarlığı'nın son parçası da böylece ortadan kalktı. Bu tarihten 1878'e (Berlin Antlaşması) kadar 482 yıl boyunca ayrı bir Bulgar devleti YOKTUR. Tarih", ic_not_d:"yerlesimler.js ve devletler.js kayıtlarıyla birebir eşleşiyor.",
   kaynak:"TDV `bulgaristan`: '1396'da Vidin'in düşüşüyle Osmanlı hâkimiyeti tamamlandı.' + TDV `vidin`." },
 
 // ═══════════════════════════════════════════════════════════════════
@@ -503,13 +503,13 @@ window.KRONOLOJI_BALKAN = [
 { t:"1877-12-10", b:"Plevne'nin düşüşü — Gazi Osman Paşa teslim oldu", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri"],
   yer_id:"Plevne",
-  d:"Osman Paşa'nın beş ay boyunca üç büyük Rus taarruzunu (20-21 Temmuz, 30 Temmuz, 11-12 Eylül 1877) püskürttüğü Plevne savunması, kuşatma altında erzağın tükenmesiyle sona erdi ve Osman Paşa teslim oldu; savunma, savaşın en uzun ve en çok kayıp verilen cephesiydi ve Rus ilerleyişini beş ay geciktirdi. Tarih yerlesimler.js'teki Plevne kaydıyla (d: bulgaristan başlar 1877-12-10) birebir eşleşiyor.",
+  d:"Osman Paşa'nın beş ay boyunca üç büyük Rus taarruzunu (20-21 Temmuz, 30 Temmuz, 11-12 Eylül 1877) püskürttüğü Plevne savunması, kuşatma altında erzağın tükenmesiyle sona erdi ve Osman Paşa teslim oldu; savunma, savaşın en uzun ve en çok kayıp verilen cephesiydi ve Rus ilerleyişini beş ay geciktirdi. Tarih", ic_not_d:"yerlesimler.js'teki Plevne kaydıyla (d: bulgaristan başlar 1877-12-10) birebir eşleşiyor.",
   kaynak:"TDV `plevne`: 'Temmuz ve Aralık 1877 ayları arasında cereyan eden meşhur kuşatma' — TDV tam gün vermiyor, teslim tarihi akademik kaynaktan (Crampton, 2005) ve yerlesimler.js kaydından doğrulandı." },
 
 { t:"1878-01-04", b:"Sofya Rus kuvvetlerince işgal edildi", tur:"toprak-kayip",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri"],
   yer_id:"Sofya",
-  d:"Rus ordusu Sofya'yı işgal etti; bu tarih beş yüz yılı aşkın Osmanlı idaresinin şehirde sona erişini işaretler ve bir yıl sonra (1879) Sofya'nın yeni kurulan Bulgaristan Prensliği'nin başkenti seçilmesinin önünü açtı. Tarih yerlesimler.js'teki Sofya kaydıyla (d: bulgaristan biter 1878-01-04) birebir eşleşiyor.",
+  d:"Rus ordusu Sofya'yı işgal etti; bu tarih beş yüz yılı aşkın Osmanlı idaresinin şehirde sona erişini işaretler ve bir yıl sonra (1879) Sofya'nın yeni kurulan Bulgaristan Prensliği'nin başkenti seçilmesinin önünü açtı. Tarih", ic_not_d:"yerlesimler.js'teki Sofya kaydıyla (d: bulgaristan biter 1878-01-04) birebir eşleşiyor.",
   kaynak:"TDV `sofya`: Rus kuvvetlerinin şehri 3 Ocak 1878'de işgal ettiği belirtiliyor — gün yerlesimler.js kaydıyla (1878-01-04) karşılaştırıldı, bir günlük fark not edildi, yerlesimler.js'teki tarih esas alındı." },
 
 // ═══════════════════════════════════════════════════════════════════
@@ -520,7 +520,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1878-03-03", b:"Ayastefanos Antlaşması — 'Büyük Bulgaristan' kısa ömürlü ilan edildi", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","siyaset"],
   yer_id:"İstanbul",
-  d:"93 Harbi'ni bitiren Ayastefanos Antlaşması, Tuna'dan Ege'ye, Arnavutluk'tan Karadeniz'e uzanan çok geniş, Osmanlı'ya bağlı özerk bir Bulgaristan Prensliği öngördü; bu 'Büyük Bulgaristan' Panslavizm'in zirve noktasıydı ve Avrupa güçlerinin (özellikle İngiltere'nin) sert tepkisiyle dört ay sonra Berlin'de küçültülecekti. dunya puanı kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
+  d:"93 Harbi'ni bitiren Ayastefanos Antlaşması, Tuna'dan Ege'ye, Arnavutluk'tan Karadeniz'e uzanan çok geniş, Osmanlı'ya bağlı özerk bir Bulgaristan Prensliği öngördü; bu 'Büyük Bulgaristan' Panslavizm'in zirve noktasıydı ve Avrupa güçlerinin (özellikle İngiltere'nin) sert tepkisiyle dört ay sonra Berlin'de küçültülecekti. dunya puanı", ic_not_d:"kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
   kaynak:"TDV `ayastefanos-antlasmasi`: 'Bulgaristan, Osmanlı Devleti'ne bağlı özerk bir prenslik haline getirilecek ... Sınırları Tuna'dan Ege denizine, Arnavutluk'tan Karadeniz'e kadar uzanacaktı.' — kronoloji_rusya.js (1878-03-03, dunya:3)." },
 
 { t:"1878-07-13", b:"Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu", tur:"kurulus",
@@ -538,19 +538,19 @@ window.KRONOLOJI_BALKAN = [
 { t:"1879-04-29", b:"Aleksandr Battenberg Bulgaristan Prensi seçildi", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","idari"],
   yer_id:"Tırnova",
-  d:"Tırnova'daki Kurucu Millet Meclisi, Rus Çarı II. Aleksandr'ın yeğeni Alman asıllı Prens Aleksandr von Battenberg'i Bulgaristan'ın ilk prensi seçti; seçim, Berlin Antlaşması'nın öngördüğü Avrupa devletlerinin onayı ve Osmanlı'nın tasdiki sürecinden geçti. TDV `bulgaristan` genel anlatısı 'Prens Ferdinand'ın yönetiminde' derken aslında ilk prensin Battenberg olduğunu atlıyor — bu madde o boşluğu dolduruyor.",
+  d:"Tırnova'daki Kurucu Millet Meclisi, Rus Çarı II. Aleksandr'ın yeğeni Alman asıllı Prens Aleksandr von Battenberg'i Bulgaristan'ın ilk prensi seçti; seçim, Berlin Antlaşması'nın öngördüğü Avrupa devletlerinin onayı ve Osmanlı'nın tasdiki sürecinden geçti. TDV", ic_not_d:"`bulgaristan` genel anlatısı 'Prens Ferdinand'ın yönetiminde' derken aslında ilk prensin Battenberg olduğunu atlıyor — bu madde o boşluğu dolduruyor.",
   kaynak:"bulunamadı — TDV özet metninde ilk prens (Battenberg) adı geçmiyor, doğrudan Ferdinand'a atlıyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
 { t:"1885-09-18", b:"Doğu Rumeli ilhak edildi — Bulgaristan birleşti", tur:"toprak-kazanc",
   onem:5, dunya:3, kapsam:"dis", etiket:["siyaset","toprak-kazanc"],
   yer_id:"Filibe",
-  d:"Filibe'de bir darbeyle Doğu Rumeli valisi görevden alındı ve vilâyetin Bulgaristan Prensliği'yle birleşmesi ilan edildi; Osmanlı'nın askerî müdahale tehdidi Avrupa güçlerinin baskısıyla gerçekleşmedi ve fiilî birleşme kabul edildi. Tarih yerlesimler.js'teki Filibe kaydıyla (s: bulgaristan başlar 1885-09-18) birebir eşleşiyor.",
+  d:"Filibe'de bir darbeyle Doğu Rumeli valisi görevden alındı ve vilâyetin Bulgaristan Prensliği'yle birleşmesi ilan edildi; Osmanlı'nın askerî müdahale tehdidi Avrupa güçlerinin baskısıyla gerçekleşmedi ve fiilî birleşme kabul edildi. Tarih", ic_not_d:"yerlesimler.js'teki Filibe kaydıyla (s: bulgaristan başlar 1885-09-18) birebir eşleşiyor.",
   kaynak:"TDV `bulgaristan`: '1885'te Doğu Rumeli vilâyetini de topraklarına kattı.'" },
 
 { t:"1885-11-14", b:"Sırp-Bulgar Savaşı başladı", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri"],
   yer_id:"", kapsam_genis:true,
-  d:"Doğu Rumeli'nin ilhakıyla bozulan Balkan güç dengesine tepki olarak Sırbistan Bulgaristan'a savaş açtı; kısa savaş, Bulgar ordusunun Slivnitsa'daki beklenmedik zaferiyle Sırpların yenilgisiyle sonuçlandı. dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi.",
+  d:"Doğu Rumeli'nin ilhakıyla bozulan Balkan güç dengesine tepki olarak Sırbistan Bulgaristan'a savaş açtı; kısa savaş, Bulgar ordusunun Slivnitsa'daki beklenmedik zaferiyle Sırpların yenilgisiyle sonuçlandı. dunya puanı", ic_not_d:"kronoloji_sirbistan.js'teki aynı olayla eşleştirildi.",
   kaynak:"kronoloji_sirbistan.js (1885-11-14, dunya:2) — TDV `sirbistan`: 'Bulgaristan 1885'te Doğu Rumeli eyaletini ilhak edince Sırbistan Bulgaristan'a savaş açtı.'" },
 
 { t:"1886-03-03", b:"Bükreş Barışı — Sırp-Bulgar Savaşı sona erdi", tur:"antlasma",
@@ -579,7 +579,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1908-10-05", b:"Bağımsızlık ilan edildi — Ferdinand 'Çar' unvanını aldı", tur:"kurulus",
   onem:5, dunya:4, kapsam:"dis", etiket:["siyaset","kurulus"],
   yer_id:"Tırnova",
-  d:"Ferdinand, Tırnova'daki Kırk Şehitler Kilisesi'nde Bulgaristan'ın Osmanlı'ya olan otuz yıllık tâbiiyetine son verip tam bağımsızlığını ve kendi 'çar' unvanını ilan etti; bu, tâbiiyetten çıkıştı, bir ilhaktan kurtuluş DEĞİLDİ — Prenslik zaten 1878'den beri özerkti. Tarih devletler.js'teki her iki künyenin (prensligi t: / kralligi f:) ortak sınır tarihidir.",
+  d:"Ferdinand, Tırnova'daki Kırk Şehitler Kilisesi'nde Bulgaristan'ın Osmanlı'ya olan otuz yıllık tâbiiyetine son verip tam bağımsızlığını ve kendi 'çar' unvanını ilan etti; bu, tâbiiyetten çıkıştı, bir ilhaktan kurtuluş DEĞİLDİ — Prenslik zaten 1878'den beri özerkti. Tarih", ic_not_d:"devletler.js'teki her iki künyenin (prensligi t: / kralligi f:) ortak sınır tarihidir.",
   kaynak:"TDV `bulgaristan`: 'Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân etti.'" },
 
 { t:"1912-03-13", b:"Sırp-Bulgar İttifak Antlaşması — Balkan İttifakı'nın çekirdeği kuruldu", tur:"diplomasi",
@@ -591,19 +591,19 @@ window.KRONOLOJI_BALKAN = [
 { t:"1912-10-08", b:"Birinci Balkan Savaşı'na giriş", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri"],
   yer_id:"", kapsam_genis:true,
-  d:"Balkan İttifakı'nın (Bulgaristan, Sırbistan, Yunanistan, Karadağ) bir parçası olarak Bulgaristan Osmanlı Devleti'ne savaş ilan etti; Bulgar ordusu savaşın en büyük ve en etkili gücüydü, Trakya cephesinde hızla ilerledi. dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (aynı gün, ortak giriş).",
+  d:"Balkan İttifakı'nın (Bulgaristan, Sırbistan, Yunanistan, Karadağ) bir parçası olarak Bulgaristan Osmanlı Devleti'ne savaş ilan etti; Bulgar ordusu savaşın en büyük ve en etkili gücüydü, Trakya cephesinde hızla ilerledi. dunya puanı", ic_not_d:"kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (aynı gün, ortak giriş).",
   kaynak:"TDV `bulgaristan`: '8 Ekim 1912'de Karadağ'ın harekâtıyla başladı' — kronoloji_sirbistan.js (1912-10-08, dunya:4)." },
 
 { t:"1912-10-24", b:"Kırkkilise (Kırklareli) Savaşı — Bulgar ordusunun büyük zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri"],
   yer_id:"Kırklareli",
-  d:"Bulgar I. ve III. orduları, Doğu Trakya'da Osmanlı kuvvetlerini Kırkkilise'de ağır bir yenilgiye uğrattı ve şehri ele geçirdi; bu zafer Bulgar ordusunun Çatalca hattına kadar ilerlemesinin önünü açtı. Tarih yerlesimler.js'teki Kırklareli kaydıyla (s: bulgaristan başlar 1912-10-24) birebir eşleşiyor.",
+  d:"Bulgar I. ve III. orduları, Doğu Trakya'da Osmanlı kuvvetlerini Kırkkilise'de ağır bir yenilgiye uğrattı ve şehri ele geçirdi; bu zafer Bulgar ordusunun Çatalca hattına kadar ilerlemesinin önünü açtı. Tarih", ic_not_d:"yerlesimler.js'teki Kırklareli kaydıyla (s: bulgaristan başlar 1912-10-24) birebir eşleşiyor.",
   kaynak:"yerlesimler.js Kırklareli kaydı (1912-10-24) + akademik (Crampton, A Concise History of Bulgaria, 2005) — TDV müstakil ayrıntı vermiyor." },
 
 { t:"1913-03-26", b:"Edirne'nin düşüşü — Bulgar-Sırp ortak kuşatması sonuçlandı", tur:"toprak-kazanc",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kazanc"],
   yer_id:"Edirne",
-  d:"Beş ay süren kuşatmanın ardından Bulgar ve Sırp kuvvetleri Edirne'yi Osmanlı'dan aldı; şehrin düşüşü I. Balkan Savaşı'nda Osmanlı direncinin fiilen kırıldığı anlardan biriydi ve iki ay sonra imzalanacak Londra Antlaşması'nın zeminini hazırladı. Tarih yerlesimler.js'teki Edirne kaydıyla (s: bulgaristan başlar 1913-03-26) birebir eşleşiyor.",
+  d:"Beş ay süren kuşatmanın ardından Bulgar ve Sırp kuvvetleri Edirne'yi Osmanlı'dan aldı; şehrin düşüşü I. Balkan Savaşı'nda Osmanlı direncinin fiilen kırıldığı anlardan biriydi ve iki ay sonra imzalanacak Londra Antlaşması'nın zeminini hazırladı. Tarih", ic_not_d:"yerlesimler.js'teki Edirne kaydıyla (s: bulgaristan başlar 1913-03-26) birebir eşleşiyor.",
   kaynak:"yerlesimler.js Edirne kaydı (1913-03-26) + akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
 { t:"1913-05-30", b:"Londra Antlaşması — I. Balkan Savaşı sona erdi", tur:"antlasma",
@@ -615,19 +615,19 @@ window.KRONOLOJI_BALKAN = [
 { t:"1913-06-29", b:"İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırdı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri"],
   yer_id:"", kapsam_genis:true,
-  d:"Paylaşım anlaşmazlığı yüzünden Bulgar ordusu gece Sırp ve Yunan mevzilerine ani bir saldırı başlattı; ancak Sırbistan, Yunanistan, Karadağ, Romanya ve son anda Osmanlı Devleti'nin de katılmasıyla Bulgaristan beş cepheden birden kuşatıldı ve ağır bir yenilgiye uğradı. Tarih devletler.js `bulgaristan-kralligi` künyesiyle birebir eşleşiyor; dunya değeri çapraz doğrulanamadı, kendi takdiriyle atandı.",
+  d:"Paylaşım anlaşmazlığı yüzünden Bulgar ordusu gece Sırp ve Yunan mevzilerine ani bir saldırı başlattı; ancak Sırbistan, Yunanistan, Karadağ, Romanya ve son anda Osmanlı Devleti'nin de katılmasıyla Bulgaristan beş cepheden birden kuşatıldı ve ağır bir yenilgiye uğradı. Tarih", ic_not_d:"devletler.js `bulgaristan-kralligi` künyesiyle birebir eşleşiyor; dunya değeri çapraz doğrulanamadı, kendi takdiriyle atandı.",
   kaynak:"devletler.js `bulgaristan-kralligi` künyesi: 'II. Balkan Savaşı'nda eski müttefiklerine yenilip toprak kaybetti.' Gün: akademik (Crampton, 2005)." },
 
 { t:"1913-07-21", b:"Edirne Osmanlı tarafından geri alındı", tur:"toprak-kayip",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"Edirne",
-  d:"Bulgaristan'ın diğer cephelerde ağır yenilgiler alması üzerine Enver Bey komutasındaki Osmanlı kuvvetleri, İkinci Balkan Savaşı'nın kargaşasından yararlanarak Edirne'yi neredeyse hiç direnişle karşılaşmadan geri aldı; bu, Balkan Savaşları'nda Osmanlı'nın kazandığı tek önemli toprak parçasıydı. Tarih yerlesimler.js'teki Edirne kaydıyla (s: bulgaristan biter 1913-07-21) birebir eşleşiyor.",
+  d:"Bulgaristan'ın diğer cephelerde ağır yenilgiler alması üzerine Enver Bey komutasındaki Osmanlı kuvvetleri, İkinci Balkan Savaşı'nın kargaşasından yararlanarak Edirne'yi neredeyse hiç direnişle karşılaşmadan geri aldı; bu, Balkan Savaşları'nda Osmanlı'nın kazandığı tek önemli toprak parçasıydı. Tarih", ic_not_d:"yerlesimler.js'teki Edirne kaydıyla (s: bulgaristan biter 1913-07-21) birebir eşleşiyor.",
   kaynak:"yerlesimler.js Edirne kaydı (1913-07-21) + akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
 { t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"", kapsam_genis:true,
-  d:"Bulgaristan, İkinci Balkan Savaşı'ndaki yenilgisinin bedelini ağır ödedi: Makedonya'nın büyük bölümünü Sırbistan ve Yunanistan'a, Güney Dobruca'yı Romanya'ya kaybetti. Bu 'millî felaket' (natsionalna katastrofa), Bulgar siyasetinde iki yıl sonra Bulgaristan'ı I. Dünya Savaşı'nda Merkezi Devletler'in yanına itecek revanşist duyguların kaynağı oldu. dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi.",
+  d:"Bulgaristan, İkinci Balkan Savaşı'ndaki yenilgisinin bedelini ağır ödedi: Makedonya'nın büyük bölümünü Sırbistan ve Yunanistan'a, Güney Dobruca'yı Romanya'ya kaybetti. Bu 'millî felaket' (natsionalna katastrofa), Bulgar siyasetinde iki yıl sonra Bulgaristan'ı I. Dünya Savaşı'nda Merkezi Devletler'in yanına itecek revanşist duyguların kaynağı oldu. dunya puanı", ic_not_d:"kronoloji_sirbistan.js'teki aynı olayla eşleştirildi.",
   kaynak:"TDV `bulgaristan`: '10 Ağustos 1913: Bükreş Barış Antlaşması imzalandı; Güney Dobruca Romanya'ya bırakıldı.' — kronoloji_sirbistan.js (1913-08-10, dunya:3)." },
 
 { t:"1915-10-14", b:"Bulgaristan I. Dünya Savaşı'na Merkezi Devletler yanında girdi", tur:"savas",
@@ -645,7 +645,7 @@ window.KRONOLOJI_BALKAN = [
 { t:"1918-10-03", b:"Ferdinand tahttan çekildi — III. Boris çar oldu", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset"],
   yer_id:"Sofya",
-  d:"Selanik Mütarekesi'nin doğurduğu iç kriz ve halk ayaklanması tehdidi karşısında Ferdinand, oğlu Boris lehine tahttan çekilip sürgüne gitti; III. Boris, ağır barış koşullarını devralan yeni çar oldu. TDV `bulgaristan` maddesi bu olayı mütareke ile aynı cümlede, 29 Eylül tarihiyle veriyor; akademik kaynaklar çekilmeyi birkaç gün sonrasına (3 Ekim) tarihlendiriyor.",
+  d:"Selanik Mütarekesi'nin doğurduğu iç kriz ve halk ayaklanması tehdidi karşısında Ferdinand, oğlu Boris lehine tahttan çekilip sürgüne gitti; III. Boris, ağır barış koşullarını devralan yeni çar oldu. TDV", ic_not_d:"`bulgaristan` maddesi bu olayı mütareke ile aynı cümlede, 29 Eylül tarihiyle veriyor; akademik kaynaklar çekilmeyi birkaç gün sonrasına (3 Ekim) tarihlendiriyor.",
   kaynak:"TDV `bulgaristan` (mütarekeyle birlikte anıyor) + akademik (Crampton, A Concise History of Bulgaria, 2005 — tahttan çekilmenin 3 Ekim 1918 olduğu)." },
 
 { t:"1919-11-27", b:"Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi", tur:"antlasma",
@@ -813,7 +813,7 @@ window.KRONOLOJI_BALKAN = [
 
 { t:"1827-10-20", b:"Navarin Deniz Savaşı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas"], yer_id:"",
-  d:"Osmanlı hükümetinin Londra Protokolü'nü reddetmesi üzerine İngiliz, Fransız ve Rus donanmalarından oluşan müttefik filo, Navarin limanındaki Osmanlı-Mısır donanmasına resmî bir savaş hâli olmaksızın âni bir baskın düzenledi. Elli iki gemi ve 6000 denizci kaybedildi; bu olay Yunan bağımsızlığını fiilen güvence altına aldı. dunya değeri kronoloji_ingiltere.js/kronoloji_misir.js ile eşleşiyor (dunya:4); kronoloji_fransa.js aynı olayı dunya:3 yazmış — çelişki, koordinatöre bildirilir.",
+  d:"Osmanlı hükümetinin Londra Protokolü'nü reddetmesi üzerine İngiliz, Fransız ve Rus donanmalarından oluşan müttefik filo, Navarin limanındaki Osmanlı-Mısır donanmasına resmî bir savaş hâli olmaksızın âni bir baskın düzenledi. Elli iki gemi ve 6000 denizci kaybedildi; bu olay Yunan bağımsızlığını fiilen güvence altına aldı. dunya değeri", ic_not_d:"kronoloji_ingiltere.js/kronoloji_misir.js ile eşleşiyor (dunya:4); kronoloji_fransa.js aynı olayı dunya:3 yazmış — çelişki, koordinatöre bildirilir.",
   kaynak:"TDV `navarin` (İdris Bostan, 2006): '29 Rebîülevvel 1243'te (20 Ekim 1827) İngiliz, Fransız ve Rus donanmalarından oluşan müttefiklerin limanda bulunan Osmanlı-Mısır donanmasına karşı düzenledikleri âni baskın... elli iki gemi ve 6000 denizci' + TDV `yunanistan`." },
 
 { t:"1829-09-14", b:"Edirne Antlaşması", tur:"antlasma",
@@ -928,7 +928,7 @@ window.KRONOLOJI_BALKAN = [
 
 { t:"1897-04-17", b:"1897 Osmanlı-Yunan Savaşı'nın başlaması", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas"], yer_id:"", kapsam_genis:true,
-  d:"Prens Georgios kumandasındaki bir Yunan filosunun Girit'e asker çıkarıp adayı ilhak ettiğini ilan etmesi (16 Şubat 1897) ve Rumeli sınırındaki çete saldırıları üzerine Osmanlı Devleti Yunanistan'a savaş ilan etti. data/devletler.js embedded kronolojisi aynı olayı 1897-04-18 yazıyor — bir günlük çelişki, koordinatöre bildirilir; bu maddede olaylar_ek5.js'in tarihi (04-17) kullanıldı.",
+  d:"Prens Georgios kumandasındaki bir Yunan filosunun Girit'e asker çıkarıp adayı ilhak ettiğini ilan etmesi (16 Şubat 1897) ve Rumeli sınırındaki çete saldırıları üzerine Osmanlı Devleti Yunanistan'a savaş ilan etti. data/", ic_not_d:"devletler.js embedded kronolojisi aynı olayı 1897-04-18 yazıyor — bir günlük çelişki, koordinatöre bildirilir; bu maddede olaylar_ek5.js'in tarihi (04-17) kullanıldı.",
   kaynak:"data/olaylar_ek5.js:385 ile birebir aynı olay, 1897-04-17 tarihiyle zaten doğrulanmış. TDV `girit` maddesi ayrıca Girit'e çıkarmayı 13 Şubat, Vassos'un ilhak beyannamesini 16 Şubat 1897 olarak veriyor." },
 
 { t:"1897-05-17", b:"Dömeke Savaşı", tur:"savas",
@@ -943,7 +943,7 @@ window.KRONOLOJI_BALKAN = [
 
 { t:"1898-12-22", b:"Prens George'un Girit fevkalade komiseri olması", tur:"siyaset",
   onem:4, dunya:2, kapsam:"dis", etiket:["siyaset"], yer_id:"Hanya",
-  d:"Büyük güçler, Yunan kralının ikinci oğlu Prens George'u Girit'e üç yıllığına fevkalade komiser olarak atadı; adadaki dört büyük devlet askerî kuvveti görevine başladıktan sonra adadan çekilmeye başladı. Bâbıâli'nin itirazlarına rağmen Girit fiilen Yunan yönetimine geçti. Bu tarih, data/yerlesimler.js'teki yaklaşık tarihten (1898-12-01) üç hafta sonradır — TDV'nin kesin günü kullanıldı.",
+  d:"Büyük güçler, Yunan kralının ikinci oğlu Prens George'u Girit'e üç yıllığına fevkalade komiser olarak atadı; adadaki dört büyük devlet askerî kuvveti görevine başladıktan sonra adadan çekilmeye başladı. Bâbıâli'nin itirazlarına rağmen Girit fiilen Yunan yönetimine geçti. Bu tarih, data/", ic_not_d:"yerlesimler.js'teki yaklaşık tarihten (1898-12-01) üç hafta sonradır — TDV'nin kesin günü kullanıldı.",
   kaynak:"TDV `girit`: 'Büyük devletler Yunan kralının oğlu Prens George'un üç yıl müddetle fevkalâde komiser sıfatı ile Girit'e tayin edilmesini kabul ettiler ve durumu 19 Kasım 1898'de Bâbıâli'ye bildirdiler. Prens George'un 22 Aralık 1898'de adada görevine başlaması üzerine...'" },
 
 { t:"1901-11-08", b:"Evangelika — İncil çevirisi ayaklanması", tur:"kultur",

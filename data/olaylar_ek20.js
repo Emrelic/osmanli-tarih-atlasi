@@ -64,7 +64,7 @@ window.OLAYLAR_EK20 = [
   yer:"Konya",
   yer_id:"Konya",
   kisiler:"Karamanoğlu Alâeddin Bey",
-  d:"Memlük Sultanlığı'nın Ermeni Krallığı'na son vererek bütün Çukurova'yı kendi topraklarına katmasından ve Orta Anadolu'daki Eretna Devleti'nde çıkan karışıklıklardan faydalanmak isteyen Karamanoğlu Alâeddin Bey, başta Konya (1366-1367) olmak üzere Niğde Karahisarı (Yeşilhisar), Aksaray, Akşehir, Ilgın, İshaklı ve Kayseri'yi Karamanlı topraklarına kattı. Konya, Selçuklu başşehri olarak taşıdığı ağırlık sebebiyle Karamanoğulları için yalnız bir şehir değil bir meşruiyet iddiasıydı. TDV maddesi yılı 1366-1367 diye veriyor, günü vermiyor.",
+  d:"Memlük Sultanlığı'nın Ermeni Krallığı'na son vererek bütün Çukurova'yı kendi topraklarına katmasından ve Orta Anadolu'daki Eretna Devleti'nde çıkan karışıklıklardan faydalanmak isteyen Karamanoğlu Alâeddin Bey, başta Konya (1366-1367) olmak üzere Niğde Karahisarı (Yeşilhisar), Aksaray, Akşehir, Ilgın, İshaklı ve Kayseri'yi Karamanlı topraklarına kattı. Konya, Selçuklu başşehri olarak taşıdığı ağırlık sebebiyle Karamanoğulları için yalnız bir şehir değil bir meşruiyet iddiasıydı.", ic_not_d:"TDV maddesi yılı 1366-1367 diye veriyor, günü vermiyor.",
   kaynak:"karamanogullari" },
 
 // ④ 1467-01-01 — veri: Van · Bitlis · Bargiri · Hoşap · Kotur  karakoyunlu → akkoyunlu
@@ -77,7 +77,7 @@ window.OLAYLAR_EK20 = [
   yer:"Van",
   yer_id:"Van",
   kisiler:"Uzun Hasan, Karakoyunlu Cihan Şah",
-  d:"Akkoyunlu hükümdarı Uzun Hasan, 1467'de üzerine yürüyen amansız düşmanı Karakoyunlu hükümdarı Cihan Şah'ı gafil avlayarak Karakoyunlu Devleti'ne son verdi. 1438'den beri hüküm süren Cihan Şah'ın ortadan kalkmasıyla Van gölü havzası — Van, Bitlis, Bargiri (Muradiye), Hoşap ve Kotur — Karakoyunlu'dan Akkoyunlu idaresine geçti. Bu zafer Akkoyunlu Devleti'ni Doğu Anadolu ve İran'da tek büyük güç hâline getirdi ve Uzun Hasan'ı bir nesil sonra Osmanlı ile karşı karşıya getirecek yola soktu. TDV maddesi yılı veriyor, günü vermiyor.",
+  d:"Akkoyunlu hükümdarı Uzun Hasan, 1467'de üzerine yürüyen amansız düşmanı Karakoyunlu hükümdarı Cihan Şah'ı gafil avlayarak Karakoyunlu Devleti'ne son verdi. 1438'den beri hüküm süren Cihan Şah'ın ortadan kalkmasıyla Van gölü havzası — Van, Bitlis, Bargiri (Muradiye), Hoşap ve Kotur — Karakoyunlu'dan Akkoyunlu idaresine geçti. Bu zafer Akkoyunlu Devleti'ni Doğu Anadolu ve İran'da tek büyük güç hâline getirdi ve Uzun Hasan'ı bir nesil sonra Osmanlı ile karşı karşıya getirecek yola soktu.", ic_not_d:"TDV maddesi yılı veriyor, günü vermiyor.",
   kaynak:"akkoyunlular" },
 
 // ⑤ 1490-01-01 — veri: Kutaisi `s:` 1490-01-01 · en yakın madde 309 GÜN ötede
@@ -138,7 +138,7 @@ window.OLAYLAR_EK20 = [
   yer:"Malatya",
   yer_id:"Malatya",
   kisiler:"",
-  d:"1315'te Memlük idaresine giren Malatya, İlhanlı Devleti'nin çözülme yıllarında bir süre Eretnaoğulları'nın eline geçmişti. TDV'nin Malatya maddesi dönüşü tek cümleyle veriyor: şehre 1338'den itibaren yeniden Memlükler hâkim oldu. Bu, Anadolu'nun güneydoğusunda İlhanlı sonrası boşluğun Memlük ve Eretna arasında paylaşıldığı yılların bir kesitidir. TDV yılı veriyor, günü vermiyor; kayıt bu yüzden gün hassasiyeti olmadan yazıldı.",
+  d:"1315'te Memlük idaresine giren Malatya, İlhanlı Devleti'nin çözülme yıllarında bir süre Eretnaoğulları'nın eline geçmişti. TDV'nin Malatya maddesi dönüşü tek cümleyle veriyor: şehre 1338'den itibaren yeniden Memlükler hâkim oldu. Bu, Anadolu'nun güneydoğusunda İlhanlı sonrası boşluğun Memlük ve Eretna arasında paylaşıldığı yılların bir kesitidir.", ic_not_d:"TDV yılı veriyor, günü vermiyor; kayıt bu yüzden gün hassasiyeti olmadan yazıldı.",
   kaynak:"malatya" },
 
 // ⑧ 1510-07-25 — veri: Trablus  hafsi → ispanya
@@ -157,7 +157,7 @@ window.OLAYLAR_EK20 = [
   yer:"Trablus",
   yer_id:"Trablus",
   kisiler:"Don Pedro Navarro",
-  d:"Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510 yılına kadar sürdü. O yıl şehir, Oliveto Kontu Don Pedro Navarro kumandasındaki İspanyollar tarafından işgal edildi; katliamdan kurtulan müslümanlar şehri terketti. İşgal, İspanya'nın Kuzey Afrika kıyısında Melilla'dan Trablus'a uzanan kale zincirinin doğu ucuydu. Trablusgarp halkı 925'te (1519) İstanbul'a bir heyet yollayarak İspanyol istilâsına karşı Osmanlı'dan yardım isteyecek, şehir 1551'de Turgut Reis ve Sinan Paşa tarafından alınarak Osmanlı idaresine girecektir. TDV maddesi yılı veriyor, günü vermiyor; 25 Temmuz standart akademik anlatıdandır.",
+  d:"Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510 yılına kadar sürdü. O yıl şehir, Oliveto Kontu Don Pedro Navarro kumandasındaki İspanyollar tarafından işgal edildi; katliamdan kurtulan müslümanlar şehri terketti. İşgal, İspanya'nın Kuzey Afrika kıyısında Melilla'dan Trablus'a uzanan kale zincirinin doğu ucuydu. Trablusgarp halkı 925'te (1519) İstanbul'a bir heyet yollayarak İspanyol istilâsına karşı Osmanlı'dan yardım isteyecek, şehir 1551'de Turgut Reis ve Sinan Paşa tarafından alınarak Osmanlı idaresine girecektir.", ic_not_d:"TDV maddesi yılı veriyor, günü vermiyor; 25 Temmuz standart akademik anlatıdandır.",
   kaynak:"trablusgarp" },
 
 // ⑨ 1530-03-24 — veri: Malta · Trablus  napoli/ispanya → sovalye
@@ -172,7 +172,7 @@ window.OLAYLAR_EK20 = [
   yer:"Malta",
   yer_id:"Malta",
   kisiler:"Şarlken (V. Carlos)",
-  d:"Kanûnî Sultan Süleyman'ın 928'de (1522) Rodos'tan çıkardığı Saint Jean (Hospitalier) şövalyeleri sekiz yıl yurtsuz kaldıktan sonra, İspanya-Almanya Kralı V. Carlos tarafından Malta'ya yerleştirildi; aynı bağışla Trablusgarp'ın savunması da tarikata verildi. Malta, sahip olduğu ideal limanlarıyla denizlerde etkili olan şövalyeler için elverişli bir üs hâline geldi: önce Birgu'ya yerleştiler, Saint Angelo Kalesi'ni tahkim ettiler ve Senglea ucunda Saint Michel Kalesi'ni yaptılar. Bu yerleşme, Akdeniz'in ortasında Osmanlı deniz yollarını kesen kalıcı bir düşman üssü doğurdu; Turgut Reis'in 947'de (1540) Gozo'ya akınıyla başlayan çatışmalar 1565 Malta kuşatmasına kadar sürecekti. TDV maddesi yılı veriyor, günü vermiyor.",
+  d:"Kanûnî Sultan Süleyman'ın 928'de (1522) Rodos'tan çıkardığı Saint Jean (Hospitalier) şövalyeleri sekiz yıl yurtsuz kaldıktan sonra, İspanya-Almanya Kralı V. Carlos tarafından Malta'ya yerleştirildi; aynı bağışla Trablusgarp'ın savunması da tarikata verildi. Malta, sahip olduğu ideal limanlarıyla denizlerde etkili olan şövalyeler için elverişli bir üs hâline geldi: önce Birgu'ya yerleştiler, Saint Angelo Kalesi'ni tahkim ettiler ve Senglea ucunda Saint Michel Kalesi'ni yaptılar. Bu yerleşme, Akdeniz'in ortasında Osmanlı deniz yollarını kesen kalıcı bir düşman üssü doğurdu; Turgut Reis'in 947'de (1540) Gozo'ya akınıyla başlayan çatışmalar 1565 Malta kuşatmasına kadar sürecekti.", ic_not_d:"TDV maddesi yılı veriyor, günü vermiyor.",
   kaynak:"malta" },
 
 // ⑩ 1887-01-07 — veri: Harar · Cîcîga · Dagahbûr  adal → habesistan
@@ -206,7 +206,7 @@ window.OLAYLAR_EK20 = [
   yer:"Ayacyo (Ajaccio)",
   yer_id:"Ayacyo (Ajaccio)",
   kisiler:"",
-  d:"Ceneviz Cumhuriyeti, yüzyıllardır elinde tuttuğu ama isyanlar yüzünden fiilen denetleyemediği Korsika'yı Fransa'ya devretti. TDV'nin Korsika maddesi olayı tek cümleyle veriyor: Ceneviz pek fazla sahiplenemediği bu adayı 1768'de Fransa'ya sattı. Devir, Cenova'nın Akdeniz'deki son büyük toprak varlığından çekilişini işaretler; ada 1796'da bir süre İngiliz eline geçecek, sonra yeniden Fransa'ya iade edilecektir. Adanın Fransız toprağı olması, bir yıl sonra Ajaccio'da doğacak Napolyon Bonapart'ı Fransız tebaası yapmıştır. TDV yılı veriyor, günü vermiyor.",
+  d:"Ceneviz Cumhuriyeti, yüzyıllardır elinde tuttuğu ama isyanlar yüzünden fiilen denetleyemediği Korsika'yı Fransa'ya devretti. TDV'nin Korsika maddesi olayı tek cümleyle veriyor: Ceneviz pek fazla sahiplenemediği bu adayı 1768'de Fransa'ya sattı. Devir, Cenova'nın Akdeniz'deki son büyük toprak varlığından çekilişini işaretler; ada 1796'da bir süre İngiliz eline geçecek, sonra yeniden Fransa'ya iade edilecektir. Adanın Fransız toprağı olması, bir yıl sonra Ajaccio'da doğacak Napolyon Bonapart'ı Fransız tebaası yapmıştır.", ic_not_d:"TDV yılı veriyor, günü vermiyor.",
   kaynak:"korsika" },
 
 // ⑫ 1870-09-20 — veri: Roma  papalik → italya
@@ -223,7 +223,7 @@ window.OLAYLAR_EK20 = [
   yer:"Roma",
   yer_id:"Roma",
   kisiler:"",
-  d:"Fransa-Prusya Savaşı'nda III. Napolyon'un devrilmesi, Roma'yı koruyan Fransız garnizonunu geri çekince İtalyan birlikleri şehre girdi ve papa Vatikan'a çekildi. Böylece bin yılı aşkın süredir varlığını sürdüren Papalık Devleti sona erdi ve Roma'yı da birliğe katan İtalya Krallığı siyasî bir güç olarak Avrupa ve dünya sahnesine çıktı. Bu, atlasın son yarım yüzyılı için doğrudan sonuç doğuran bir olaydır: birleşmiş İtalya, 1911'de Trablusgarp'ı ve Oniki Ada'yı Osmanlı'dan alacak devlettir. TDV maddesi yılı veriyor, günü vermiyor; 20 Eylül (Porta Pia gediği) standart akademik anlatıdandır.",
+  d:"Fransa-Prusya Savaşı'nda III. Napolyon'un devrilmesi, Roma'yı koruyan Fransız garnizonunu geri çekince İtalyan birlikleri şehre girdi ve papa Vatikan'a çekildi. Böylece bin yılı aşkın süredir varlığını sürdüren Papalık Devleti sona erdi ve Roma'yı da birliğe katan İtalya Krallığı siyasî bir güç olarak Avrupa ve dünya sahnesine çıktı. Bu, atlasın son yarım yüzyılı için doğrudan sonuç doğuran bir olaydır: birleşmiş İtalya, 1911'de Trablusgarp'ı ve Oniki Ada'yı Osmanlı'dan alacak devlettir.", ic_not_d:"TDV maddesi yılı veriyor, günü vermiyor; 20 Eylül (Porta Pia gediği) standart akademik anlatıdandır.",
   kaynak:"italya" },
 
 // ⑬ 1720-02-24 — veri: Kalyari (Cagliari) · Sasari (Sassari)  ispanya → sardinya
@@ -244,7 +244,7 @@ window.OLAYLAR_EK20 = [
   yer:"Kalyari (Cagliari)",
   yer_id:"Kalyari (Cagliari)",
   kisiler:"",
-  d:"İspanya Veraset Savaşı'nı kapatan düzenlemelerin son halkasında Sardinya adası İspanya'dan alınarak Savoy hânedanına verildi; Savoy dükü karşılığında Sicilya'yı bıraktı ve Sardinya Kralı unvanını aldı. Cagliari ve Sassari böylece iki yüzyıllık İspanyol idaresinden çıktı. Doğan Sardinya Krallığı, bir buçuk asır sonra İtalyan birliğini kuracak devletin çekirdeğidir — yani 1870'te Roma'ya giren İtalya Krallığı'nın kökü buraya iner. ⚠️ TDV'nin Sardinya maddesi adanın müslüman ve Akdeniz tarihini anlatıyor, XVIII. yüzyıl hânedan devirlerine girmiyor; kapsayıcı İtalya maddesinde de 1720 geçmiyor. Bu kayıt standart akademik anlatıya dayanır.",
+  d:"İspanya Veraset Savaşı'nı kapatan düzenlemelerin son halkasında Sardinya adası İspanya'dan alınarak Savoy hânedanına verildi; Savoy dükü karşılığında Sicilya'yı bıraktı ve Sardinya Kralı unvanını aldı. Cagliari ve Sassari böylece iki yüzyıllık İspanyol idaresinden çıktı. Doğan Sardinya Krallığı, bir buçuk asır sonra İtalyan birliğini kuracak devletin çekirdeğidir — yani 1870'te Roma'ya giren İtalya Krallığı'nın kökü buraya iner.", ic_not_d:"⚠️ TDV'nin Sardinya maddesi adanın müslüman ve Akdeniz tarihini anlatıyor, XVIII. yüzyıl hânedan devirlerine girmiyor; kapsayıcı İtalya maddesinde de 1720 geçmiyor. Bu kayıt standart akademik anlatıya dayanır.",
   kaynak:"bulunamadı" },
 
 // ═══ GECE PARTİSİ · KRONOLOJİ kovası — ilk 10'un ilk üçü ═══
@@ -326,7 +326,7 @@ window.OLAYLAR_EK20 = [
   yer:"Königsberg",
   yer_id:"Königsberg",
   kisiler:"I. Friedrich, İmparator I. Leopold",
-  d:"Brandenburg Elektörü III. Friedrich, İmparator I. Leopold'un onayıyla Königsberg'de taç giyerek «Prusya'da Kral» unvanını aldı (18 Ocak 1701). Unvan Doğu Prusya'dan alınmıştı, çünkü orası Kutsal Roma İmparatorluğu'nun dışındaydı ve imparatora bağlı bir elektör ancak imparatorluk sınırları dışında kral olabilirdi. Hohenzollern hânedanının dağınık toprakları bu tarihten sonra tek bir devlet adıyla anılmaya başlandı. Atlasta Königsberg, Memel, Berlin ve Magdeburg bu günden itibaren `prusya` kimliğiyle boyanır.",
+  d:"Brandenburg Elektörü III. Friedrich, İmparator I. Leopold'un onayıyla Königsberg'de taç giyerek «Prusya'da Kral» unvanını aldı (18 Ocak 1701). Unvan Doğu Prusya'dan alınmıştı, çünkü orası Kutsal Roma İmparatorluğu'nun dışındaydı ve imparatora bağlı bir elektör ancak imparatorluk sınırları dışında kral olabilirdi. Hohenzollern hânedanının dağınık toprakları bu tarihten sonra tek bir devlet adıyla anılmaya başlandı. Atlasta Königsberg, Memel, Berlin ve Magdeburg bu günden itibaren", ic_not_d:"`prusya` kimliğiyle boyanır.",
   kaynak:"prusya" },
 
 { t:"1807-07-09",
@@ -347,7 +347,7 @@ window.OLAYLAR_EK20 = [
   etiket:["siyaset","diplomasi","antlasma"],
   yer:"Münster ve Osnabrück",
   kisiler:"III. Ferdinand, Kraliçe Christina, XIV. Louis",
-  d:"Otuzyıl savaşlarını (1618-1648) bitiren antlaşmalar Münster ve Osnabrück'te aynı gün imzalandı (24 Ekim 1648). Kutsal Roma İmparatorluğu'nun üç yüz kadar prensliği kendi dış siyasetini yürütme hakkı kazandı; imparatorluk bir devlet olmaktan çıkıp bir çatıya dönüştü. TDV `almanya` maddesi barışı ve parçalanmayı anlatır («Almanya 300'e yakın devlete bölündü») ama toprak ayrıntısına girmez; aşağıdaki devir standart akademik anlatıya dayanır: İsveç Batı Pomeranya'yı ve Stettin'i aldı, Brandenburg Doğu Pomeranya ile Magdeburg başpiskoposluğunun beklentisini kazandı — Hohenzollern'in 1701'de krallığa yürüyecek toprak birikimi burada başlar. Hollanda ve İsviçre'nin bağımsızlığı resmen tanındı. Osmanlı açısından önemi dolaylı ama büyüktür: Habsburglar batı cephesinden çekilince Orta Avrupa'da yeniden doğuya dönebilecek bir güç doğdu.",
+  d:"Otuzyıl savaşlarını (1618-1648) bitiren antlaşmalar Münster ve Osnabrück'te aynı gün imzalandı (24 Ekim 1648). Kutsal Roma İmparatorluğu'nun üç yüz kadar prensliği kendi dış siyasetini yürütme hakkı kazandı; imparatorluk bir devlet olmaktan çıkıp bir çatıya dönüştü. TDV", ic_not_d:"`almanya` maddesi barışı ve parçalanmayı anlatır («Almanya 300'e yakın devlete bölündü») ama toprak ayrıntısına girmez; aşağıdaki devir standart akademik anlatıya dayanır: İsveç Batı Pomeranya'yı ve Stettin'i aldı, Brandenburg Doğu Pomeranya ile Magdeburg başpiskoposluğunun beklentisini kazandı — Hohenzollern'in 1701'de krallığa yürüyecek toprak birikimi burada başlar. Hollanda ve İsviçre'nin bağımsızlığı resmen tanındı. Osmanlı açısından önemi dolaylı ama büyüktür: Habsburglar batı cephesinden çekilince Orta Avrupa'da yeniden doğuya dönebilecek bir güç doğdu.",
   kaynak:"almanya" },
 
 ];

@@ -34,7 +34,7 @@ window.OLAYLAR_P0043KIRIM = [
 
 { t:"1526-01-01", k:"kazanc", etiket:["toprak-kazanc"],
   b:"Kızıkermen (Gazi Kerman) ve Dinyeper'in sağ kıyısının doğrudan Osmanlı denetimine girmesi",
-  gun:"1526 (IEU: yalnız yıl, gün yok)",
+  gun:"1526", ic_not_gun:"(IEU: yalnız yıl, gün yok)",
   yer:"Kızıkermen, Dinyeper ağzı", yer_id:"Kızıkermen (Gazi Kerman)",
   kisiler:"Kanûnî Sultan Süleyman",
   d:"Kırım Hanlığı'nın 15. yüzyıl ortasından beri elinde tuttuğu Kızıkermen kalesi ve Dinyeper'in sağ kıyısı, bu tarihte Osmanlı Devleti'nin doğrudan denetimine girdi; kale, bozkırın kuzey ucundaki bir Osmanlı ileri karakoluna dönüştü. Bahçesaray ve Or Kapı çevresindeki Kırım Hanlığı toprağından farklı olarak, Kızıkermen'in idaresi doğrudan Osmanlı'daydı.",

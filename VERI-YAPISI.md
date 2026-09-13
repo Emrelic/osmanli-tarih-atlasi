@@ -245,6 +245,7 @@ partileri. Toplam 799 madde. Hepsi `js/app.js`'te tek listede birleştirilir.
 | `yer`, `kisiler` | Serbest metin, virgülle |
 | `d` | Detay paragrafı, 2-4 cümle |
 | `kaynak` | TDV slug'ı — `CLAUDE.md` §4'e göre `<title>` ile **doğrulanmış** olmalı |
+| `ic_not_d` · `ic_not_gun` · `ic_not_b` | 🆕 13 Eylül 2026 · **İÇ NOT — kullanıcıya GÖSTERİLMEZ.** Kaynak çelişkisi, "atlas verisinde şu yok", dosya/oturum atfı gibi editoryal notlar `d`/`gun`/`b` metninden buraya **taşınır, silinmez** (Emre 0045 H-0006 · 0046 H-0001). Alan adı hangi metinden taşındığını söyler; tek `ic_not` değil çünkü aynı maddede iki alan taşınınca JS nesnesinde yinelenen anahtar ilk notu SESSİZCE yok eder. Uygulayıcı: `arac/ic_not_uygula.py`. 🔴 Yeni madde yazan: süreç notunu `d`ye DEĞİL doğrudan buraya yaz |
 
 ### `k:` — tam sözlük (31 Temmuz ölçümü, 985 madde)
 

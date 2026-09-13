@@ -289,7 +289,7 @@ window.KRONOLOJI_ANADOLU = [
 { t:"1402-07-28", b:"Ankara Savaşı sonrası Timur, Alâeddin'in oğullarına toprakları geri verdi", tur:"kurulus",
   onem:4, dunya:1, kapsam:"ic", etiket:["kurulus","ittifak"],
   yer_id:"",
-  d:"Timur, Ankara Savaşı'nda Yıldırım Bayezid'i yenip esir aldıktan sonra, ölçülü bir siyasetle Alâeddin Bey'in oğulları Mehmed ve Ali Bey'e babalarının topraklarını iade etti; beylik böylece yeniden kuruldu. ⚠️ Ankara Savaşı'nın kendisi bu dosyada ayrı bir madde olarak TEKRARLANMADI — bkz. `kronoloji_timurlu.js`; bu madde yalnız Karamanoğulları'nın kendi restorasyonunu anlatır.",
+  d:"Timur, Ankara Savaşı'nda Yıldırım Bayezid'i yenip esir aldıktan sonra, ölçülü bir siyasetle Alâeddin Bey'in oğulları Mehmed ve Ali Bey'e babalarının topraklarını iade etti; beylik böylece yeniden kuruldu.", ic_not_d:"⚠️ Ankara Savaşı'nın kendisi bu dosyada ayrı bir madde olarak TEKRARLANMADI — bkz. `kronoloji_timurlu.js`; bu madde yalnız Karamanoğulları'nın kendi restorasyonunu anlatır.",
   kaynak:"karamanogullari", kapsam_genis:true },
 
 { t:"1413-01-01", b:"II. Mehmed Bey Bursa'yı kuşattı, Memlüklerden Tarsus'u aldı", tur:"toprak-kazanc",
@@ -409,13 +409,13 @@ window.KRONOLOJI_ANADOLU = [
 { t:"1400-01-01", b:"Bölge tahıl, yün, deri, halı ve at ihraç ediyordu", tur:"ekonomi",
   onem:2, dunya:1, kapsam:"ic", etiket:["ekonomi","ticaret"],
   yer_id:"",
-  d:"Karamanoğulları toprakları buğday, arpa, yulaf ve pamuk üretiyor, ünlü Karaman koyunu ve soylu atlar yetiştiriyordu; tahıl, yün, deri, halı ve at Kıbrıs, Venedik, Ceneviz ve Memlük Sultanlığı'na ihraç ediliyordu. (Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
+  d:"Karamanoğulları toprakları buğday, arpa, yulaf ve pamuk üretiyor, ünlü Karaman koyunu ve soylu atlar yetiştiriyordu; tahıl, yün, deri, halı ve at Kıbrıs, Venedik, Ceneviz ve Memlük Sultanlığı'na ihraç ediliyordu.", ic_not_d:"(Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
   kaynak:"karamanogullari", kapsam_genis:true },
 
 { t:"1350-01-01", b:"Türkmen oymak konfederasyonlarına dayanan toplumsal yapı", tur:"sosyal",
   onem:1, dunya:1, kapsam:"ic", etiket:["sosyal","idari"],
   yer_id:"",
-  d:"Beylik, Türkmen oymak konfederasyonlarına dayanıyordu; hanedan toprakları aile üyeleri ve ileri gelen beyler arasında pay ediyordu. Zâviye ve tekkeler bölgede yaygındı, Konya'da Mevlevî geleneği güçlüydü. (Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
+  d:"Beylik, Türkmen oymak konfederasyonlarına dayanıyordu; hanedan toprakları aile üyeleri ve ileri gelen beyler arasında pay ediyordu. Zâviye ve tekkeler bölgede yaygındı, Konya'da Mevlevî geleneği güçlüydü.", ic_not_d:"(Tarih belirsiz, dönem geneli için temsilî tarih seçildi.)",
   kaynak:"karamanogullari", kapsam_genis:true },
 
 { t:"1431-01-01", b:"Aksaray Ulucamii tamamlandı", tur:"mimari",
@@ -435,7 +435,7 @@ window.KRONOLOJI_ANADOLU = [
 { t:"1071-08-26", b:"Malazgirt zaferi Anadolu'nun kapısını açtı", tur:"savas",
   onem:5, dunya:5, kapsam:"dis", etiket:["Malazgirt", "Büyük Selçuklu", "Bizans"],
   yer_id:"",
-  d:"Büyük Selçuklu Sultanı Alparslan, Bizans İmparatoru IV. Romanos Diogenes'i Malazgirt'te ağır bir yenilgiye uğrattı; bu zafer Türkmen boylarının önündeki son büyük engeli kaldırarak Anadolu'nun kapılarını açtı. Anadolu Selçuklu Devleti'ni kuracak olan I. Süleyman Şah da bu fetih dalgasının içinde yer aldı. (TDV `selcuklular` maddesinin taşıdığı baştaki bağlam; devletin kendisi 1075'te kurulacaktır.)",
+  d:"Büyük Selçuklu Sultanı Alparslan, Bizans İmparatoru IV. Romanos Diogenes'i Malazgirt'te ağır bir yenilgiye uğrattı; bu zafer Türkmen boylarının önündeki son büyük engeli kaldırarak Anadolu'nun kapılarını açtı. Anadolu Selçuklu Devleti'ni kuracak olan I. Süleyman Şah da bu fetih dalgasının içinde yer aldı. (TDV", ic_not_d:"`selcuklular` maddesinin taşıdığı baştaki bağlam; devletin kendisi 1075'te kurulacaktır.)",
   kaynak:"selcuklular", yer_kon:[39.1467,42.5397] },
 
 { t:"1075-01-01", b:"I. Süleyman Şah tarafından kuruldu, İznik başkent oldu", tur:"kurulus",
@@ -1554,7 +1554,7 @@ window.KRONOLOJI_ANADOLU = [
 { t:"1375-01-01", b:"Hacı Paşa'nın Ayasuluk kadılığına ve saray hekimliğine tayini", tur:"bilim",
   onem:3, dunya:1, kapsam:"ic", etiket:["Hacı Paşa", "tıp", "kadı", "Ayasuluk"],
   yer_id:"Ayasuluk (Selçuk)",
-  d:"Kahire'de Ekmeleddin el-Bâbertî'nin öğrencisi olarak yetişen Celâleddin Hızır (Hacı Paşa), Aydınoğlu İsa Bey'in daveti üzerine Anadolu'ya geldi. İsa Bey onu Ayasuluk kadılığına ve saray hekimliğine getirdi; 'Hacı Paşa' unvanının da beylik tarafından bir lütuf olarak verildiği düşünülür. Kesin tayin tarihi TDV maddesinde belirtilmemiştir, tahmini bir tarih verilmiştir.",
+  d:"Kahire'de Ekmeleddin el-Bâbertî'nin öğrencisi olarak yetişen Celâleddin Hızır (Hacı Paşa), Aydınoğlu İsa Bey'in daveti üzerine Anadolu'ya geldi. İsa Bey onu Ayasuluk kadılığına ve saray hekimliğine getirdi; 'Hacı Paşa' unvanının da beylik tarafından bir lütuf olarak verildiği düşünülür.", ic_not_d:"Kesin tayin tarihi TDV maddesinde belirtilmemiştir, tahmini bir tarih verilmiştir.",
   kaynak:"haci-pasa" },
 
 { t:"1385-01-01", b:"Hacı Paşa'nın Şifâü'l-eskâm'ı kaleme alması", tur:"bilim",
@@ -1626,7 +1626,7 @@ window.KRONOLOJI_ANADOLU = [
 { t:"1425-06-01", b:"Cüneyd Bey'in yakalanıp idam edilmesi, kesin Osmanlı ilhakı", tur:"son",
   onem:5, dunya:3, kapsam:"ic", etiket:["Cüneyd Bey", "idam", "ilhak", "II. Murad"],
   yer_id:"", kapsam_genis:true,
-  d:"Cüneyd Bey, Akhisar yakınında uğradığı askerî yenilgi, Ceneviz donanmasının deniz ablukası ve beklediği Karamanoğlu desteğinin gelmemesi üzerine İpsili'de teslim oldu. II. Murad onu yakalatıp bütün ailesiyle birlikte idam ettirdi (829/1425-26); Aydınoğulları toprakları kesin olarak Osmanlı Devleti'ne katıldı. TDV maddesi kesin ayı/günü vermediği için yıl aralığı (1425-26) not düşülmüştür.",
+  d:"Cüneyd Bey, Akhisar yakınında uğradığı askerî yenilgi, Ceneviz donanmasının deniz ablukası ve beklediği Karamanoğlu desteğinin gelmemesi üzerine İpsili'de teslim oldu. II. Murad onu yakalatıp bütün ailesiyle birlikte idam ettirdi (829/1425-26); Aydınoğulları toprakları kesin olarak Osmanlı Devleti'ne katıldı.", ic_not_d:"TDV maddesi kesin ayı/günü vermediği için yıl aralığı (1425-26) not düşülmüştür.",
   kaynak:"cuneyd-bey" },
 
 

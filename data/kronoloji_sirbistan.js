@@ -100,7 +100,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1217-01-01", b:"Sırbistan Krallığı ilan edildi (Stefan İlk-Taçlı)", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","siyaset"],
   yer_id:"",
-  d:"Stefan Nemanja'nın oğlu Stefan, papadan aldığı taçla kendini kral ilan etti ve Nemanjić hanedanının krallığını kurdu. Bu tarih Sırp devlet geleneğinin başlangıcı sayılır ve devletler.js'teki `sirbistan-nemanjic` künyesinin f: tarihidir.",
+  d:"Stefan Nemanja'nın oğlu Stefan, papadan aldığı taçla kendini kral ilan etti ve Nemanjić hanedanının krallığını kurdu. Bu tarih Sırp devlet geleneğinin başlangıcı sayılır ve", ic_not_d:"devletler.js'teki `sirbistan-nemanjic` künyesinin f: tarihidir.",
   kaynak:"TDV `sirbistan`: '1217'de burada Sırbistan Krallığı ilân edildi.'" },
 
 { t:"1331-01-01", b:"Stefan Duşan tahta çıktı", tur:"hukumdar",
@@ -130,7 +130,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1389-06-15", b:"I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","ittifak"],
   yer_id:"",
-  d:"Knez Lazar önderliğindeki Balkan ittifakı Kosova Ovası'nda I. Murad karşısında yenildi; I. Murad savaş meydanında öldürüldü, Lazar da esir düşüp idam edildi. Yenilgiyle Sırp Krallığı Osmanlı'ya haraca bağlandı ve bu tarih Sırp millî hafızasında (Kosova destanı, Vidovdan/Aziz Vitus günü anması) merkezi bir yer tutar. dunya puanı kronoloji_bizans.js'teki aynı olayla eşleştirildi.",
+  d:"Knez Lazar önderliğindeki Balkan ittifakı Kosova Ovası'nda I. Murad karşısında yenildi; I. Murad savaş meydanında öldürüldü, Lazar da esir düşüp idam edildi. Yenilgiyle Sırp Krallığı Osmanlı'ya haraca bağlandı ve bu tarih Sırp millî hafızasında (Kosova destanı, Vidovdan/Aziz Vitus günü anması) merkezi bir yer tutar. dunya puanı", ic_not_d:"kronoloji_bizans.js'teki aynı olayla eşleştirildi.",
   kaynak:"TDV `kosova`: 'Osmanlılar Balkanlar'da daha kalıcı olarak yerleşmiş ve Sırp Krallığı Osmanlı tâbiiyetine girmişti.'" },
 
 // ───────────────────────── SIRP DESPOTLUĞU (1402-1459)
@@ -138,7 +138,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1402-01-01", b:"Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)", tur:"kurulus",
   onem:4, dunya:2, kapsam:"ic", etiket:["kurulus","siyaset"],
   yer_id:"",
-  d:"Ankara Savaşı'nda (1402) Osmanlı yenilgisinin doğurduğu Fetret Devri'nden yararlanan Stefan Lazareviç, Bizans'tan 'despot' unvanını aldı ve Sırp Despotluğu'nu kurdu; başkent önce Belgrad oldu. Bu, Nemanjiç krallığının Osmanlı vasallığı altında dönüşmüş devamıdır (devletler.js `sirp-despotlugu` künyesi).",
+  d:"Ankara Savaşı'nda (1402) Osmanlı yenilgisinin doğurduğu Fetret Devri'nden yararlanan Stefan Lazareviç, Bizans'tan 'despot' unvanını aldı ve Sırp Despotluğu'nu kurdu; başkent önce Belgrad oldu. Bu, Nemanjiç krallığının Osmanlı vasallığı altında dönüşmüş devamıdır (", ic_not_d:"devletler.js `sirp-despotlugu` künyesi).",
   kaynak:"TDV `sirbistan` genel anlatısı + akademik (Fine, The Late Medieval Balkans) — gün TDV'de verilmiyor, YYYY-01-01." },
 
 { t:"1427-01-01", b:"Đurađ Branković despot oldu, başkent Semendire'ye taşındı", tur:"hukumdar",
@@ -150,7 +150,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1439-08-18", b:"Semendire'nin ilk düşüşü", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","kusatma"],
   yer_id:"Semendire",
-  d:"II. Murad'ın kuşatmasıyla despotluğun başkenti Semendire ilk kez Osmanlı'ya düştü; Sırbistan geçici olarak doğrudan ilhak edildi. Beş yıl sonra Edirne-Segedin Antlaşması'yla iade edilecektir. Gün devletler.js künyesinden alındı; olaylar_ek.js aynı olayı 1439-08-27 olarak veriyor — çelişki bildirildi (M-1021), düzeltme bu dosyanın kapsamı dışında.",
+  d:"II. Murad'ın kuşatmasıyla despotluğun başkenti Semendire ilk kez Osmanlı'ya düştü; Sırbistan geçici olarak doğrudan ilhak edildi. Beş yıl sonra Edirne-Segedin Antlaşması'yla iade edilecektir. Gün", ic_not_d:"devletler.js künyesinden alındı; olaylar_ek.js aynı olayı 1439-08-27 olarak veriyor — çelişki bildirildi (M-1021), düzeltme bu dosyanın kapsamı dışında.",
   kaynak:"TDV `semendire` + devletler.js `sirp-despotlugu` künyesi (1439-08-18)." },
 
 { t:"1444-08-15", b:"Edirne-Segedin Antlaşması ile Semendire ve despotluk toprakları iade edildi", tur:"toprak-kazanc",
@@ -162,13 +162,13 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1448-10-17", b:"II. Kosova Savaşı — despotluğun tarafsızlığı", tur:"savas",
   onem:2, dunya:3, kapsam:"dis", etiket:["savas"],
   yer_id:"",
-  d:"Hunyadi János'un Osmanlı'ya karşı düzenlediği haçlı seferi, Sırp Despotluğu topraklarından geçerken Đurađ Branković'in desteğini ALAMADI; despotluk, 1444'te iade edilen topraklarını yeniden tehlikeye atmamak için tarafsız kaldı ve hatta bazı kaynaklara göre Macar ordusunun geçişini engelledi. II. Murad'ın zaferiyle Osmanlı'nın Balkanlar'daki konumu kalıcılaştı. dunya puanı kronoloji_macaristan.js'teki aynı olayla eşleştirildi.",
+  d:"Hunyadi János'un Osmanlı'ya karşı düzenlediği haçlı seferi, Sırp Despotluğu topraklarından geçerken Đurađ Branković'in desteğini ALAMADI; despotluk, 1444'te iade edilen topraklarını yeniden tehlikeye atmamak için tarafsız kaldı ve hatta bazı kaynaklara göre Macar ordusunun geçişini engelledi. II. Murad'ın zaferiyle Osmanlı'nın Balkanlar'daki konumu kalıcılaştı. dunya puanı", ic_not_d:"kronoloji_macaristan.js'teki aynı olayla eşleştirildi.",
   kaynak:"kronoloji_macaristan.js (1448-10-17, dunya:3) + akademik (Fine) — despotluğun tarafsızlığı için." },
 
 { t:"1459-06-20", b:"Semendire'nin düşüşü — Sırp Despotluğu'nun sonu", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","son"],
   yer_id:"Semendire",
-  d:"Fâtih Sultan Mehmed'in kuşatmasıyla Semendire teslim oldu ve Sırp Despotluğu ortadan kalktı; Sırbistan bir Osmanlı sancağı hâline geldi. Bu tarihten 1804'e (Birinci Sırp Ayaklanması) kadar 345 yıl boyunca ayrı bir Sırp devleti YOKTUR — devletler.js'in kendi ifadesiyle 'modern Sırbistan'la 4 asırlık kopukluk var.'",
+  d:"Fâtih Sultan Mehmed'in kuşatmasıyla Semendire teslim oldu ve Sırp Despotluğu ortadan kalktı; Sırbistan bir Osmanlı sancağı hâline geldi. Bu tarihten 1804'e (Birinci Sırp Ayaklanması) kadar 345 yıl boyunca ayrı bir Sırp devleti YOKTUR", ic_not_d:"devletler.js'in kendi ifadesiyle 'modern Sırbistan'la 4 asırlık kopukluk var.'",
   kaynak:"TDV `sirbistan`: '1459'da Smederevo'nun (Semendire) ele geçirilişiyle Sırp Despotluğu ortadan kaldırıldı.'", kunye:["sirp-despotlugu"] },
 
 // ───────────────────────── OSMANLI DOĞRUDAN İDARESİ (1459-1804) — ayrı Sırp devleti YOK
@@ -194,7 +194,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1739-09-18", b:"Belgrad Antlaşması — kuzey Sırbistan yeniden Osmanlı'ya döndü", tur:"toprak-kazanc",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc"],
   yer_id:"Belgrad",
-  d:"1717-1739 arası yirmi iki yıl Habsburg idaresinde kalan Belgrad ve kuzey Sırbistan, Osmanlı-Avusturya savaşını bitiren Belgrad Antlaşması'yla yeniden Osmanlı'ya geçti. dunya puanı kronoloji_habsburg.js'teki aynı olayla eşleştirildi; kronoloji_kirim.js aynı olaya dunya:2 veriyor — iki dosya arasındaki bu çelişki bildirildi (M-1021), burada habsburg değeri alındı.",
+  d:"1717-1739 arası yirmi iki yıl Habsburg idaresinde kalan Belgrad ve kuzey Sırbistan, Osmanlı-Avusturya savaşını bitiren Belgrad Antlaşması'yla yeniden Osmanlı'ya geçti. dunya puanı", ic_not_d:"kronoloji_habsburg.js'teki aynı olayla eşleştirildi; kronoloji_kirim.js aynı olaya dunya:2 veriyor — iki dosya arasındaki bu çelişki bildirildi (M-1021), burada habsburg değeri alındı.",
   kaynak:"TDV `avusturya` (kronoloji_habsburg.js'te alıntılanan): 'Avusturya Pasarofça'da kazandığı yerleri…ve Belgrad'ı geri vermiştir.'", kunye:["sirbistan-eyaleti"] },
 
 { t:"1766-01-01", b:"Peç Patrikliği kalıcı olarak kaldırıldı", tur:"din",
@@ -208,13 +208,13 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1804-02-14", b:"Birinci Sırp Ayaklanması başladı (Kara Yorgi)", tur:"isyan",
   onem:5, dunya:3, kapsam:"dis", etiket:["isyan","kurulus"],
   yer_id:"",
-  d:"Belgrad sancağındaki yeniçeri (dahi) zorbalığına ve 'knezlerin katliamı'na (Seča knezova, Ocak 1804) tepki olarak Georgije Petrović (Kara Yorgi/Karadjordje) önderliğinde Orašac meclisinde ayaklanma ilan edildi. Bu tarih devletler.js `sirbistan-prensligi` künyesinin f: tarihidir ve modern Sırp devlet sürekliliğinin başlangıcı sayılır.",
+  d:"Belgrad sancağındaki yeniçeri (dahi) zorbalığına ve 'knezlerin katliamı'na (Seča knezova, Ocak 1804) tepki olarak Georgije Petrović (Kara Yorgi/Karadjordje) önderliğinde Orašac meclisinde ayaklanma ilan edildi. Bu tarih", ic_not_d:"devletler.js `sirbistan-prensligi` künyesinin f: tarihidir ve modern Sırp devlet sürekliliğinin başlangıcı sayılır.",
   kaynak:"TDV `sirbistan`: '1804'te Karadjordje (Djordje Petkoviç) liderliğinde Sırp isyanı patlak verdi.' Gün: devletler.js künyesi + akademik (B. Jelavich, History of the Balkans, 1983)." },
 
 { t:"1806-01-01", b:"Belgrad'ın Sırp isyancılarca ele geçirilmesi", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["savas","toprak-kazanc"],
   yer_id:"Belgrad",
-  d:"Kara Yorgi'nin kuvvetleri Belgrad kalesini ele geçirdi; TDV maddesi şehirdeki Müslüman halka yönelik büyük bir katliama girişildiğini belirtiyor. Belgrad'ın alınışı isyanın zirvesini oluşturdu, ama Osmanlı-Rus savaşının (1806-1812) gölgesinde kaldı. Gün kesin doğrulanamadı, YYYY-01-01.",
+  d:"Kara Yorgi'nin kuvvetleri Belgrad kalesini ele geçirdi; TDV maddesi şehirdeki Müslüman halka yönelik büyük bir katliama girişildiğini belirtiyor. Belgrad'ın alınışı isyanın zirvesini oluşturdu, ama Osmanlı-Rus savaşının (1806-1812) gölgesinde kaldı.", ic_not_d:"Gün kesin doğrulanamadı, YYYY-01-01.",
   kaynak:"TDV `sirbistan`: 'Belgrad'ı ele geçiren Sırp birlikleri şehirdeki müslümanlara karşı büyük katliama girişti.'" },
 
 { t:"1813-01-01", b:"Ayaklanmanın bastırılması, Belgrad'ın geri alınışı", tur:"savas",
@@ -238,19 +238,19 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1829-09-14", b:"Edirne Antlaşması — Osmanlı-Rus savaşının sonu, Sırp özerkliğinin yolu açıldı", tur:"antlasma",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma"],
   yer_id:"Edirne",
-  d:"1828-1829 Osmanlı-Rus Savaşı'nı bitiren Edirne Antlaşması, Sırbistan'a yeni haklar tanıyan bir fermanın çıkarılmasını öngördü; bu ferman bir yıl sonra (1830) yayımlanacaktır. dunya puanı kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
+  d:"1828-1829 Osmanlı-Rus Savaşı'nı bitiren Edirne Antlaşması, Sırbistan'a yeni haklar tanıyan bir fermanın çıkarılmasını öngördü; bu ferman bir yıl sonra (1830) yayımlanacaktır. dunya puanı", ic_not_d:"kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
   kaynak:"TDV `sirbistan`: Osmanlı Devleti 'bir fermanla Sırplar'a yeni haklar tanıdı' — kronoloji_rusya.js (1829-09-14, dunya:3)." },
 
 { t:"1830-10-17", b:"Özerklik fermanı (Hatt-ı Şerif) yayımlandı", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","kurulus"],
   yer_id:"",
-  d:"Osmanlı Devleti'nin verdiği imtiyaz fermanıyla Sırbistan, Osmanlı'ya bağlı ama kendi prensi (Miloš Obrenović, kalıtsal unvanla) ve kendi idaresiyle yönetilen özerk bir prenslik hâline geldi. ⚠️ TARİH: devletler.js `sirbistan-prensligi` künyesi bu olayı `1830-08-30` olarak veriyor; TDV maddesinin kendi cümlesi '17 Ekim 1830' diyor. `CLAUDE.md §4` gereği TDV esas alındı, çelişki bildirildi (M-1021).",
+  d:"Osmanlı Devleti'nin verdiği imtiyaz fermanıyla Sırbistan, Osmanlı'ya bağlı ama kendi prensi (Miloš Obrenović, kalıtsal unvanla) ve kendi idaresiyle yönetilen özerk bir prenslik hâline geldi.", ic_not_d:"⚠️ TARİH: devletler.js `sirbistan-prensligi` künyesi bu olayı `1830-08-30` olarak veriyor; TDV maddesinin kendi cümlesi '17 Ekim 1830' diyor. `CLAUDE.md §4` gereği TDV esas alındı, çelişki bildirildi (M-1021).",
   kaynak:"TDV `sirbistan`: '17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti.'" },
 
 { t:"1867-01-01", b:"Osmanlı garnizonları Sırp kalelerinden çekildi", tur:"toprak-kazanc",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","idari"],
   yer_id:"Belgrad",
-  d:"Özerk Sırp yönetimi, Osmanlı askerî idaresinde kalan son dört kaledeki (Belgrad, Fethülislâm, Semendire, Böğürdelen) garnizonların geri çekilmesini sağladı; Sırbistan'daki fiilî Osmanlı askerî varlığı burada sona erdi ve tam bağımsızlığa giden yolda kritik bir eşik aşıldı. TDV gün vermiyor, YYYY-01-01.",
+  d:"Özerk Sırp yönetimi, Osmanlı askerî idaresinde kalan son dört kaledeki (Belgrad, Fethülislâm, Semendire, Böğürdelen) garnizonların geri çekilmesini sağladı; Sırbistan'daki fiilî Osmanlı askerî varlığı burada sona erdi ve tam bağımsızlığa giden yolda kritik bir eşik aşıldı.", ic_not_d:"TDV gün vermiyor, YYYY-01-01.",
   kaynak:"TDV `sirbistan`: '1867'de Özerk Sırp yönetimi Osmanlı askerî idaresinde bulunan Belgrad, Fethülislâm, Semendire ve Böğürdelen kalelerindeki garnizonların geri çekilmesiyle buralardaki egemenliğini güçlendirdi.'" },
 
 { t:"1876-06-30", b:"Sırbistan Osmanlı Devleti'ne savaş ilan etti", tur:"savas",
@@ -262,7 +262,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1878-03-03", b:"Ayastefanos (San Stefano) Antlaşması — bağımsızlık ilk kez tanındı", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma"],
   yer_id:"",
-  d:"1877-78 Osmanlı-Rus Savaşı'nı bitiren Ayastefanos Antlaşması'yla Osmanlı Devleti, Romanya, Karadağ ve Sırbistan'ın bağımsızlıklarını ilk kez kabul etti; Sırbistan'a Niş şehri de verildi. Antlaşma, Avrupa devletlerinin (özellikle İngiltere'nin) itirazıyla dört ay sonra Berlin'de yeniden ele alınacaktır. dunya puanı kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
+  d:"1877-78 Osmanlı-Rus Savaşı'nı bitiren Ayastefanos Antlaşması'yla Osmanlı Devleti, Romanya, Karadağ ve Sırbistan'ın bağımsızlıklarını ilk kez kabul etti; Sırbistan'a Niş şehri de verildi. Antlaşma, Avrupa devletlerinin (özellikle İngiltere'nin) itirazıyla dört ay sonra Berlin'de yeniden ele alınacaktır. dunya puanı", ic_not_d:"kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
   kaynak:"TDV `ayastefanos-antlasmasi`: 'Osmanlı Devleti Romanya, Karadağ ve Sırbistan'ın bağımsızlıklarını kabul edecekti' — kronoloji_rusya.js (1878-03-03, dunya:3)." },
 
 { t:"1878-07-13", b:"Berlin Antlaşması — bağımsızlık kesinleşti, Niş ve Pirot katıldı", tur:"antlasma",
@@ -276,7 +276,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1882-03-06", b:"Sırbistan Krallığı ilan edildi (I. Milan)", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","hukumdar"],
   yer_id:"Belgrad",
-  d:"Bağımsızlığın uluslararası tanınmasının ardından Prens Milan Obrenović kendini kral ilan etti ve Prenslik, Sırbistan Krallığı'na dönüştü. Bu tarih devletler.js `sirbistan-kralligi` künyesinin f: tarihidir.",
+  d:"Bağımsızlığın uluslararası tanınmasının ardından Prens Milan Obrenović kendini kral ilan etti ve Prenslik, Sırbistan Krallığı'na dönüştü. Bu tarih", ic_not_d:"devletler.js `sirbistan-kralligi` künyesinin f: tarihidir.",
   kaynak:"TDV `sirbistan`: 'Prens Milan Obrenoviç 1882'de krallığını ilân etti.'" },
 
 { t:"1885-11-14", b:"Sırp-Bulgar Savaşı başladı", tur:"savas",
@@ -288,19 +288,19 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1903-06-11", b:"Mayıs Darbesi — Obrenović hanedanının sonu, Karađorđević'e geçiş", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","hukumdar","darbe-askeri"],
   yer_id:"Belgrad",
-  d:"Bir grup subay Kral I. Aleksandar Obrenović ile eşi Kraliçe Draga'yı saray baskınında öldürdü; taht, Kara Yorgi'nin torunu I. Petar Karađorđević'e geçti. Darbe, Sırbistan'ın dış politikasını Avusturya-Macaristan'dan uzaklaştırıp Rusya'ya yaklaştıran bir dönüm noktası oldu. TDV `sirbistan` bu olaydan bahsetmiyor — `CLAUDE.md §4` taneciklik kuralı gereği standart akademik kaynağa dayanıldı.",
+  d:"Bir grup subay Kral I. Aleksandar Obrenović ile eşi Kraliçe Draga'yı saray baskınında öldürdü; taht, Kara Yorgi'nin torunu I. Petar Karađorđević'e geçti. Darbe, Sırbistan'ın dış politikasını Avusturya-Macaristan'dan uzaklaştırıp Rusya'ya yaklaştıran bir dönüm noktası oldu. TDV", ic_not_d:"`sirbistan` bu olaydan bahsetmiyor — `CLAUDE.md §4` taneciklik kuralı gereği standart akademik kaynağa dayanıldı.",
   kaynak:"bulunamadı — TDV bu ayrıntıyı kapsamıyor; dayanak: akademik (B. Jelavich, History of the Balkans, 1983)." },
 
 { t:"1908-10-06", b:"Bosna-Hersek'in ilhakı — Sırbistan'ın savaş tehdidi", tur:"kriz",
   onem:5, dunya:4, kapsam:"dis", etiket:["kriz","diplomasi"],
   yer_id:"",
-  d:"Avusturya-Macaristan'ın otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmesi Sırbistan'da büyük öfkeyle karşılandı; Sırbistan (Rusya'nın desteğiyle) seferberlik ilan edip savaş tehdidinde bulundu, ancak Rusya'nın 1905 sonrası zayıflığı nedeniyle geri adım atmak zorunda kaldı. Kriz, 1914'e giden Sırp-Avusturya geriliminin başlangıç noktalarından biridir. dunya puanı kronoloji_habsburg.js'teki aynı olayla eşleştirildi; o dosya günü 'GÜN DOĞRULANMADI' diye işaretlemiş, aynı çekince burada da geçerli.",
+  d:"Avusturya-Macaristan'ın otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmesi Sırbistan'da büyük öfkeyle karşılandı; Sırbistan (Rusya'nın desteğiyle) seferberlik ilan edip savaş tehdidinde bulundu, ancak Rusya'nın 1905 sonrası zayıflığı nedeniyle geri adım atmak zorunda kaldı. Kriz, 1914'e giden Sırp-Avusturya geriliminin başlangıç noktalarından biridir. dunya puanı", ic_not_d:"kronoloji_habsburg.js'teki aynı olayla eşleştirildi; o dosya günü 'GÜN DOĞRULANMADI' diye işaretlemiş, aynı çekince burada da geçerli.",
   kaynak:"kronoloji_habsburg.js (1908-10-06, dunya:4) — TDV `avusturya`: 'otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmiştir (1908)' · ⚠️ GÜN DOĞRULANMADI (habsburg dosyasından devralındı)." },
 
 { t:"1912-10-08", b:"Birinci Balkan Savaşı'na giriş — Kosova ve Vardar Makedonyası alındı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","toprak-kazanc"],
   yer_id:"",
-  d:"Balkan İttifakı'nın (Sırbistan, Bulgaristan, Yunanistan, Karadağ) bir parçası olarak Sırbistan Osmanlı Devleti'ne savaş ilan etti; birkaç hafta içinde Kosova ile Üsküp ve Manastır'ı içine alan Vardar Makedonyası'nı ele geçirdi. 1389'dan beri Sırp millî hafızasının merkezinde duran Kosova, beş asır sonra Sırbistan'a geri döndü. Tarih devletler.js `sirbistan-kralligi` künyesiyle eşleşiyor.",
+  d:"Balkan İttifakı'nın (Sırbistan, Bulgaristan, Yunanistan, Karadağ) bir parçası olarak Sırbistan Osmanlı Devleti'ne savaş ilan etti; birkaç hafta içinde Kosova ile Üsküp ve Manastır'ı içine alan Vardar Makedonyası'nı ele geçirdi. 1389'dan beri Sırp millî hafızasının merkezinde duran Kosova, beş asır sonra Sırbistan'a geri döndü. Tarih", ic_not_d:"devletler.js `sirbistan-kralligi` künyesiyle eşleşiyor.",
   kaynak:"TDV `sirbistan`: Sırbistan '...Kosova'yı ve Üsküp ile Manastır'ı da içine alan Vardar Makedonyası'nı topraklarına kattı.'" },
 
 { t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti", tur:"antlasma",
@@ -312,7 +312,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { t:"1918-12-01", b:"Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşme", tur:"son",
   onem:5, dunya:3, kapsam:"dis", etiket:["kurulus","son"],
   yer_id:"Belgrad",
-  d:"I. Dünya Savaşı'nın sonunda Sırbistan Krallığı, Avusturya-Macaristan'ın dağılmasından doğan Sloven-Hırvat-Sırp Devleti ile birleşerek Sırp-Hırvat-Sloven Krallığı'nı (sonradan Yugoslavya) kurdu; Sırbistan Krallığı bağımsız bir devlet olarak burada sona erdi. Tarih devletler.js `sirbistan-kralligi` künyesinin t: tarihidir — bu dosyanın kapsamı burada kapanıyor.",
+  d:"I. Dünya Savaşı'nın sonunda Sırbistan Krallığı, Avusturya-Macaristan'ın dağılmasından doğan Sloven-Hırvat-Sırp Devleti ile birleşerek Sırp-Hırvat-Sloven Krallığı'nı (sonradan Yugoslavya) kurdu; Sırbistan Krallığı bağımsız bir devlet olarak burada sona erdi. Tarih", ic_not_d:"devletler.js `sirbistan-kralligi` künyesinin t: tarihidir — bu dosyanın kapsamı burada kapanıyor.",
   kaynak:"devletler.js `sirbistan-kralligi` künyesi (t:'1918-12-01') + TDV `sirbistan` genel anlatısı.", kunye:["sirbistan-kralligi"] },
 
 ];

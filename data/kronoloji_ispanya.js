@@ -106,7 +106,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1469-10-19", b:"İsabel ile Fernando'nun evliliği — iki taç aynı hanedanda birleşti", tur:"hanedan", onem:5, dunya:3, kapsam:"ic", yer_id:"Valladolid",
   etiket:["hanedan","antlasma"],
-  d:"Kastilya prensesi İsabel, Aragon veliahdı Fernando ile Valladolid'de gizlice evlendi; evlilik izinsiz yapıldığı için önce tartışmalıydı, ama on yıl içinde iki tacın fiilen tek hanedanda birleşmesinin temeli oldu. Bu tarih hem `kastilya` hem `aragon` hem `ispanya` künyelerinin `devletler.js`teki dönüm noktası olarak zaten kayıtlıydı.",
+  d:"Kastilya prensesi İsabel, Aragon veliahdı Fernando ile Valladolid'de gizlice evlendi; evlilik izinsiz yapıldığı için önce tartışmalıydı, ama on yıl içinde iki tacın fiilen tek hanedanda birleşmesinin temeli oldu. Bu tarih hem", ic_not_d:"`kastilya` hem `aragon` hem `ispanya` künyelerinin `devletler.js`teki dönüm noktası olarak zaten kayıtlıydı.",
   kaynak:"standart akademik kaynak (Elliott, Imperial Spain 1469-1716, 1. bölüm)" },
 
 { t:"1474-12-13", b:"İsabel, Kastilya kraliçesi ilan edildi", tur:"hanedan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
@@ -126,7 +126,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1492-01-02", b:"Gırnata'nın düşüşü — Endülüs'te sekiz asırlık İslâm hâkimiyeti sona erdi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Granada",
   etiket:["askeri","toprak-kazanc","din"],
-  d:"On yıllık kuşatma savaşının ardından son Nasrî emiri Ebû Abdullah (Boabdil), Gırnata'yı Katolik krallara teslim etti. TDV `endulus` maddesi bunu \"İslâm hâkimiyetinin Endülüs'teki en son kalesi de düşmüş oldu\" diye özetler; Osmanlı donanması (Kemal Reis) sonraki yıllarda kaçan müslümanları Kuzey Afrika'ya taşıdı.",
+  d:"On yıllık kuşatma savaşının ardından son Nasrî emiri Ebû Abdullah (Boabdil), Gırnata'yı Katolik krallara teslim etti. TDV", ic_not_d:"`endulus` maddesi bunu \\\"İslâm hâkimiyetinin Endülüs'teki en son kalesi de düşmüş oldu\\\" diye özetler; Osmanlı donanması (Kemal Reis) sonraki yıllarda kaçan müslümanları Kuzey Afrika'ya taşıdı.",
   kaynak:"TDV `endulus`: \"1492'de teslim olmak zorunda kaldılar\" (gövdesi bu oturumda OKUNDU) · `data/devletler.js` `granada` künyesi" },
 
 { t:"1492-03-31", b:"Alhambra Fermanı — Yahudilerin sürgünü", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
@@ -161,7 +161,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1499-01-01", b:"Alcalá de Henares Üniversitesi'nin kuruluşu", tur:"bilim", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["bilim","kultur"],
-  d:"Kardinal Cisneros'un girişimiyle kurulan üniversite, kısa sürede Salamanca'nın yanında İspanya'nın ikinci büyük bilim merkezi hâline geldi; Complutensian Politgot İncil projesinin de merkeziydi. Alcalá'daki yerleşim kaydı bulunmadığından `yer_id` boş bırakıldı.",
+  d:"Kardinal Cisneros'un girişimiyle kurulan üniversite, kısa sürede Salamanca'nın yanında İspanya'nın ikinci büyük bilim merkezi hâline geldi; Complutensian Politgot İncil projesinin de merkeziydi. Alcalá'daki yerleşim kaydı bulunmadığından", ic_not_d:"`yer_id` boş bırakıldı.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[40.4818,-3.3635] },
 
 { t:"1499-01-01", b:"Fernando de Rojas'ın La Celestina'sının yayımlanması", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"",
@@ -186,7 +186,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1512-07-25", b:"Navarra'nın güney (İber) kısmı İspanya'ya ilhak edildi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kazanc"],
-  d:"Fernando, Papa'nın aforoz tehdidini gerekçe göstererek Navarra Krallığı'nın güney (bugünkü İspanyol) kısmını işgal edip Kastilya'ya kattı; kuzeydeki Béarn/Fransız kolu 1620'ye dek ayrı sürdü. `data/devletler.js`teki `navarra` künyesinin `t:` alanı zaten bu tarihi taşıyordu.",
+  d:"Fernando, Papa'nın aforoz tehdidini gerekçe göstererek Navarra Krallığı'nın güney (bugünkü İspanyol) kısmını işgal edip Kastilya'ya kattı; kuzeydeki Béarn/Fransız kolu 1620'ye dek ayrı sürdü.", ic_not_d:"`data/devletler.js`teki `navarra` künyesinin `t:` alanı zaten bu tarihi taşıyordu.",
   kaynak:"`data/devletler.js` `navarra` künyesi (tarih korunuyor) · standart akademik kaynak", yer_id:"Pamplona" },
 
 { t:"1512-12-27", b:"Burgos Kanunları — Amerika yerlilerine yönelik ilk kodifiye hukuk", tur:"hukuk", onem:3, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
@@ -285,7 +285,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1545-01-01", b:"Potosí gümüş madenlerinin keşfi", tur:"ekonomi", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","kesif"],
-  d:"Bugünkü Bolivya'da bulunan Potosí, kısa sürede dünyanın en büyük gümüş kaynağı hâline geldi; buradan çıkarılan gümüş, 16-17. yüzyıl Avrupa'sında \"Fiyat Devrimi\" olarak bilinen büyük enflasyonu tetikledi. Potosí için yerleşim veritabanında eşleşen bir kayıt bulunamadı.",
+  d:"Bugünkü Bolivya'da bulunan Potosí, kısa sürede dünyanın en büyük gümüş kaynağı hâline geldi; buradan çıkarılan gümüş, 16-17. yüzyıl Avrupa'sında \\\"Fiyat Devrimi\\\" olarak bilinen büyük enflasyonu tetikledi.", ic_not_d:"Potosí için yerleşim veritabanında eşleşen bir kayıt bulunamadı.",
   kaynak:"standart akademik kaynak (Elliott, The Old World and the New, ekonomi bölümü) — dünya ekonomisini kalıcı biçimde değiştiren keşif", yer_id:"Potosí" },
 
 { t:"1556-01-16", b:"Şarlken'in tahttan çekilmesi — İspanya tacı II. Felipe'ye geçti", tur:"hanedan", onem:5, dunya:3, kapsam:"ic", yer_id:"",
@@ -327,7 +327,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1565-05-18", b:"Malta Kuşatması başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["askeri","kusatma"],
-  d:"Osmanlı donanması, Malta Şövalyeleri'nin adasını kuşattı; İspanya kralı II. Felipe'nin egemenliği altındaki Sicilya Krallığı, kuşatma boyunca şövalyelere destek ve erzak sağladı. TDV `malta-kusatmasi` maddesi ölçülmüş ve zayıf/erişilemez çıktığından bu madde standart akademik kaynağa dayanıyor.",
+  d:"Osmanlı donanması, Malta Şövalyeleri'nin adasını kuşattı; İspanya kralı II. Felipe'nin egemenliği altındaki Sicilya Krallığı, kuşatma boyunca şövalyelere destek ve erzak sağladı. TDV", ic_not_d:"`malta-kusatmasi` maddesi ölçülmüş ve zayıf/erişilemez çıktığından bu madde standart akademik kaynağa dayanıyor.",
   kaynak:"bulunamadı (TDV `malta-kusatmasi` slug'ı ölçüldü, madde gövdesi alınamadı) — standart akademik kaynak (Kamen)" },
 
 { t:"1565-09-07", b:"İspanyol \"Büyük Yardım\" filosu kuşatmayı kırdı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",
@@ -347,7 +347,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1573-10-10", b:"İspanya Tunus'u yeniden ele geçirdi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Tunus",
   etiket:["askeri","toprak-kazanc"],
-  d:"Don Juan de Austria, İnebahtı zaferinin ardından bir sefer düzenleyerek Tunus'u Osmanlı'ya bağlı yönetimden aldı; ancak işgal kısa ömürlü oldu. `data/yerlesimler.js` bu dönemi zaten kayıtlı tutuyor (f:1573-10-10, t:1574-08-25).",
+  d:"Don Juan de Austria, İnebahtı zaferinin ardından bir sefer düzenleyerek Tunus'u Osmanlı'ya bağlı yönetimden aldı; ancak işgal kısa ömürlü oldu.", ic_not_d:"`data/yerlesimler.js` bu dönemi zaten kayıtlı tutuyor (f:1573-10-10, t:1574-08-25).",
   kaynak:"`data/yerlesimler.js` Tunus kaydı (tarih korunuyor) · standart akademik kaynak" },
 
 { t:"1574-08-25", b:"Osmanlı Tunus'u kesin olarak geri aldı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
@@ -372,7 +372,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1580-06-01", b:"Osmanlı ile fiilî ateşkes", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
-  d:"Uzun süredir aralıklarla savaşan İspanya ve Osmanlı, İtalyan diplomat Giovanni Margliani'nin arabuluculuğuyla fiilî bir ateşkese vardı; bu, iki gücün Akdeniz'deki doğrudan çatışmasının fiilen sonu oldu ve her ikisinin de dikkatini başka cephelere (İspanya'nın Atlantik'e, Osmanlı'nın İran'a) çevirmesine imkân verdi. `data/devletler.js` `ispanya` künyesi bu tarihi zaten taşıyordu.",
+  d:"Uzun süredir aralıklarla savaşan İspanya ve Osmanlı, İtalyan diplomat Giovanni Margliani'nin arabuluculuğuyla fiilî bir ateşkese vardı; bu, iki gücün Akdeniz'deki doğrudan çatışmasının fiilen sonu oldu ve her ikisinin de dikkatini başka cephelere (İspanya'nın Atlantik'e, Osmanlı'nın İran'a) çevirmesine imkân verdi.", ic_not_d:"`data/devletler.js` `ispanya` künyesi bu tarihi zaten taşıyordu.",
   kaynak:"`data/devletler.js` `ispanya` künyesi (tarih korunuyor) · standart akademik kaynak", yer_id:"İstanbul" },
 
 { t:"1584-09-13", b:"El Escorial'in tamamlanması", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
@@ -387,7 +387,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1596-06-30", b:"İngiliz filosu Cádiz'i yağmaladı", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
-  d:"Essex Kontu komutasındaki İngiliz-Hollanda filosu Cádiz limanına baskın düzenledi, şehri yağmaladı ve limandaki İspanyol donanmasının büyük bölümünü yaktı. Baskın, Armada bozgunundan sonra İspanya'nın kendi kıyılarını bile koruyamadığının bir başka göstergesiydi. Cádiz için yerleşim kaydı bulunamadı.",
+  d:"Essex Kontu komutasındaki İngiliz-Hollanda filosu Cádiz limanına baskın düzenledi, şehri yağmaladı ve limandaki İspanyol donanmasının büyük bölümünü yaktı. Baskın, Armada bozgunundan sonra İspanya'nın kendi kıyılarını bile koruyamadığının bir başka göstergesiydi.", ic_not_d:"Cádiz için yerleşim kaydı bulunamadı.",
   kaynak:"standart akademik kaynak (Kamen)", yer_id:"Cádiz" },
 
 { t:"1598-09-13", b:"II. Felipe'nin ölümü", tur:"olum", onem:5, dunya:3, kapsam:"ic", yer_id:"",
@@ -456,7 +456,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1648-01-30", b:"Münster Antlaşması — Hollanda'nın bağımsızlığı tanındı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Amsterdam",
   etiket:["antlasma","toprak-kayip"],
-  d:"Vestfalya barış sürecinin parçası olan bu antlaşmayla İspanya, seksen yıldır süren savaşın ardından Birleşik Eyaletler'in (Hollanda) bağımsızlığını resmen tanıdı. `data/devletler.js` `hollanda` künyesi bu tarihi zaten taşıyordu; genel Vestfalya barışının (Habsburg-Fransa/İsveç, 24 Ekim 1648) `dunya:5` aldığı `kronoloji_habsburg.js`ten FARKLI bir belge olduğu için burada ayrı `dunya:4` değerlendirildi.",
+  d:"Vestfalya barış sürecinin parçası olan bu antlaşmayla İspanya, seksen yıldır süren savaşın ardından Birleşik Eyaletler'in (Hollanda) bağımsızlığını resmen tanıdı.", ic_not_d:"`data/devletler.js` `hollanda` künyesi bu tarihi zaten taşıyordu; genel Vestfalya barışının (Habsburg-Fransa/İsveç, 24 Ekim 1648) `dunya:5` aldığı `kronoloji_habsburg.js`ten FARKLI bir belge olduğu için burada ayrı `dunya:4` değerlendirildi.",
   kaynak:"`data/devletler.js` `hollanda` künyesi (tarih korunuyor) · standart akademik kaynak" },
 
 { t:"1656-01-01", b:"Velázquez, Las Meninas'ı tamamladı", tur:"kultur", onem:3, dunya:3, kapsam:"ic", yer_id:"Madrid",
@@ -530,7 +530,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1717-01-01", b:"Casa de Contratación Cádiz'e taşındı", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["ekonomi","idari"],
-  d:"Sevilla'daki nehir limanının Amerika ticareti için artan gemi boyutlarına elverişsiz hâle gelmesi üzerine, iki asırlık ticaret tekeli kurumu Cádiz'e nakledildi; bu, 18. yüzyıl İspanyol ticaret coğrafyasının yeniden şekillenmesinin ilk adımıydı. Cádiz için yerleşim kaydı bulunamadı.",
+  d:"Sevilla'daki nehir limanının Amerika ticareti için artan gemi boyutlarına elverişsiz hâle gelmesi üzerine, iki asırlık ticaret tekeli kurumu Cádiz'e nakledildi; bu, 18. yüzyıl İspanyol ticaret coğrafyasının yeniden şekillenmesinin ilk adımıydı.", ic_not_d:"Cádiz için yerleşim kaydı bulunamadı.",
   kaynak:"standart akademik kaynak (Elliott, Imperial Spain, ekonomi bölümü)", yer_id:"Cádiz" },
 
 { t:"1734-05-25", b:"Bitonto Savaşı — Napoli ve Sicilya yeniden kazanıldı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
@@ -679,7 +679,7 @@ window.KRONOLOJI_ISPANYA = [
 
 { t:"1810-09-24", b:"Cádiz Kortesleri'nin toplanması", tur:"reform", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["reform","anayasa"],
-  d:"Fransız kuşatması altındaki Cádiz'de toplanan ulusal meclis, İspanya tarihinde ilk kez halk egemenliği ilkesine dayalı bir anayasa hazırlamaya başladı; hem yarımadalı hem Amerika kolonilerinden temsilcileri bir araya getiren meclis, liberal İspanyol siyasetinin doğum yeri sayılır. Cádiz için yerleşim kaydı bulunamadı.",
+  d:"Fransız kuşatması altındaki Cádiz'de toplanan ulusal meclis, İspanya tarihinde ilk kez halk egemenliği ilkesine dayalı bir anayasa hazırlamaya başladı; hem yarımadalı hem Amerika kolonilerinden temsilcileri bir araya getiren meclis, liberal İspanyol siyasetinin doğum yeri sayılır.", ic_not_d:"Cádiz için yerleşim kaydı bulunamadı.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_id:"Cádiz" },
 
 { t:"1812-03-19", b:"Cádiz Anayasası'nın ilanı", tur:"reform", onem:5, dunya:4, kapsam:"ic", yer_id:"",

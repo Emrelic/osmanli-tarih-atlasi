@@ -556,7 +556,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1792-09-22", b:"I. Fransız Cumhuriyeti'nin ilanı", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["anayasa","kurulus","hanedan"],
-  d:"Yeni seçilen Ulusal Konvansiyon, ilk oturumunda oybirliğiyle monarşiyi kaldırıp Cumhuriyet'i ilan etti; aynı gün Fransa'da yeni bir takvim yılının (Cumhuriyet takvimi, Yıl I) başlangıcı sayıldı. `data/devletler.js`teki `fransa` künyesi bu tarihte kapanıp `fransa-cumhuriyet` künyesi açılıyor — VERİ DEVLET tarafından TDV `fransa` maddesiyle çapraz doğrulanmış tarih (22 Eylül).",
+  d:"Yeni seçilen Ulusal Konvansiyon, ilk oturumunda oybirliğiyle monarşiyi kaldırıp Cumhuriyet'i ilan etti; aynı gün Fransa'da yeni bir takvim yılının (Cumhuriyet takvimi, Yıl I) başlangıcı sayıldı.", ic_not_d:"`data/devletler.js`teki `fransa` künyesi bu tarihte kapanıp `fransa-cumhuriyet` künyesi açılıyor — VERİ DEVLET tarafından TDV `fransa` maddesiyle çapraz doğrulanmış tarih (22 Eylül).",
   kaynak:"TDV `fransa` maddesi ve `data/devletler.js:fransa` notu — \"22 Eylül'de de cumhuriyet ilân edildi\"" },
 
 { t:"1793-01-21", b:"XVI. Louis'nin idamı", tur:"olum", onem:5, dunya:5, kapsam:"ic", yer_id:"Paris",
@@ -696,7 +696,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1809-05-17", b:"Papalık topraklarının Fransa'ya ilhakı", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","din"],
-  d:"Napolyon, Kıta Ablukası'na direnen Papa VII. Pius'un topraklarını imparatorluğa ilhak etti; Papa'yı aforoz etmesi üzerine Fransız kuvvetleri onu tutuklayıp 1814'e kadar hapsetti. Olay, `data/devletler.js`teki Papalık Devleti kaydında zaten işlenmiştir; bu maddede Fransa cephesinden özetlenir.",
+  d:"Napolyon, Kıta Ablukası'na direnen Papa VII. Pius'un topraklarını imparatorluğa ilhak etti; Papa'yı aforoz etmesi üzerine Fransız kuvvetleri onu tutuklayıp 1814'e kadar hapsetti. Olay", ic_not_d:"`data/devletler.js`teki Papalık Devleti kaydında zaten işlenmiştir; bu maddede Fransa cephesinden özetlenir.",
   kaynak:"data/devletler.js (Papalık Devleti kaydı) — Ambrogio Caiani, 'To Kidnap a Pope' (Yale UP, 2021)", yer_id:"Viyana" },
 
 { t:"1812-06-24", b:"Napolyon'un Rusya Seferi'nin başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Moskova",
@@ -751,7 +751,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1830-07-28", b:"Temmuz Devrimi ('Üç Şanlı Gün')", tur:"isyan", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","hanedan","kriz"],
-  d:"X. Charles'ın basın özgürlüğünü ve seçmen tabanını kısıtlayan kararnameleri, Paris'te üç günlük bir barikat ayaklanmasına yol açtı; kral tahttan çekilmek zorunda kaldı. `data/devletler.js`teki fransa-cumhuriyet kaydındaki 1830-08-09 maddesiyle (Louis Philippe'in tahta çıkışı) doğrudan bağlantılıdır.",
+  d:"X. Charles'ın basın özgürlüğünü ve seçmen tabanını kısıtlayan kararnameleri, Paris'te üç günlük bir barikat ayaklanmasına yol açtı; kral tahttan çekilmek zorunda kaldı.", ic_not_d:"`data/devletler.js`teki fransa-cumhuriyet kaydındaki 1830-08-09 maddesiyle (Louis Philippe'in tahta çıkışı) doğrudan bağlantılıdır.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
 { t:"1830-08-09", b:"Louis Philippe'in tahta çıkışı — Temmuz Monarşisi", tur:"hukumdar", onem:4, dunya:3, kapsam:"ic", yer_id:"Paris",
@@ -791,7 +791,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1852-12-02", b:"III. Napolyon'un imparator ilan edilmesi — II. İmparatorluk", tur:"hukumdar", onem:5, dunya:3, kapsam:"ic", yer_id:"Paris",
   etiket:["hukumdar","hanedan","kurulus"],
-  d:"Louis-Napoléon, bir yıl önceki askerî darbesinin ardından halkoylamasıyla kendisini III. Napolyon unvanıyla imparator ilan etti; tarih, amcasının taç giymesinin (2 Aralık 1804) yıldönümüne bilerek denk getirildi. `data/devletler.js` bu tarihi zaten kaydediyordu; bu dosyada TDV ve akademik kaynakla doğrulanarak korundu.",
+  d:"Louis-Napoléon, bir yıl önceki askerî darbesinin ardından halkoylamasıyla kendisini III. Napolyon unvanıyla imparator ilan etti; tarih, amcasının taç giymesinin (2 Aralık 1804) yıldönümüne bilerek denk getirildi.", ic_not_d:"`data/devletler.js` bu tarihi zaten kaydediyordu; bu dosyada TDV ve akademik kaynakla doğrulanarak korundu.",
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) · standart ders kitabı bilgisi" },
 
 { t:"1853-10-04", b:"Kırım Savaşı'nın başlaması — Fransa'nın Osmanlı yanında savaşa girişi", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
@@ -846,7 +846,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1870-09-04", b:"III. Cumhuriyet'in ilanı", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", yer_id:"Paris",
   etiket:["kurulus","anayasa","siyaset"],
-  d:"Sedan bozgunu haberi üzerine Paris'te toplanan kalabalık, Meclis binasını basıp Cumhuriyet'i ilan etti; savaş sürerken kurulan geçici hükümet, işgal ve kuşatma altında görev üstlendi. `data/devletler.js`teki 1870-09-04 kaydı bu dosyada TDV ve akademik kaynakla doğrulanarak korundu.",
+  d:"Sedan bozgunu haberi üzerine Paris'te toplanan kalabalık, Meclis binasını basıp Cumhuriyet'i ilan etti; savaş sürerken kurulan geçici hükümet, işgal ve kuşatma altında görev üstlendi.", ic_not_d:"`data/devletler.js`teki 1870-09-04 kaydı bu dosyada TDV ve akademik kaynakla doğrulanarak korundu.",
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) · standart ders kitabı bilgisi" },
 
 { t:"1871-01-18", b:"Alman İmparatorluğu'nun Versay'da ilanı", tur:"kurulus", onem:4, dunya:5, kapsam:"dis", yer_id:"",
@@ -881,7 +881,7 @@ window.KRONOLOJI_FRANSA = [
 
 { t:"1881-05-12", b:"Bardo Antlaşması — Tunus'un Fransız himayesine girmesi", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
   etiket:["antlasma","toprak-kazanc","isgal"],
-  d:"Fransa, sınır çatışmasını bahane ederek Tunus'u işgal edip Bey'i bir himaye antlaşması imzalamaya zorladı; `data/devletler.js`teki fransa-cumhuriyet kaydı bu olayı zaten işliyordu. Tunus'un fiilî Osmanlı-tâbi statüsünün sona ermesi, Kuzey Afrika'da Osmanlı nüfuzunun geri çekilişinin bir başka halkasıydı.",
+  d:"Fransa, sınır çatışmasını bahane ederek Tunus'u işgal edip Bey'i bir himaye antlaşması imzalamaya zorladı", ic_not_d:"`data/devletler.js`teki fransa-cumhuriyet kaydı bu olayı zaten işliyordu. Tunus'un fiilî Osmanlı-tâbi statüsünün sona ermesi, Kuzey Afrika'da Osmanlı nüfuzunun geri çekilişinin bir başka halkasıydı.",
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) — standart ders kitabı bilgisiyle çapraz doğrulandı" },
 
 { t:"1885-07-06", b:"Pasteur'ün ilk kuduz aşısı uygulaması", tur:"bilim", onem:4, dunya:4, kapsam:"ic", yer_id:"Paris",

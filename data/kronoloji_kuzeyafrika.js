@@ -210,12 +210,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 
 { t:"1557-01-01", b:"Muhammed eş-Şeyh Osmanlı ordusunca öldürüldü, Abdullah tahta geçti", tur:"olum", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["hanedan"],
-  d:"1554'te Osmanlıları Fas'tan çıkaran Muhammed eş-Şeyh, üç yıl sonra bir Osmanlı harekâtı sırasında öldürüldü; yerine oğlu Abdullah (Gālib-Billâh) geçti. Osmanlı-Sâdî çekişmesi bir kuşak daha sürecekti. ⚠️ Kaynağın verdiği yer adı ('Derna dağları') Trablusgarp'taki Derne ile KARIŞTIRILMASIN — Fas içinde bir yerdir, atlasın Derne noktasıyla eşleştirilmedi.",
+  d:"1554'te Osmanlıları Fas'tan çıkaran Muhammed eş-Şeyh, üç yıl sonra bir Osmanlı harekâtı sırasında öldürüldü; yerine oğlu Abdullah (Gālib-Billâh) geçti. Osmanlı-Sâdî çekişmesi bir kuşak daha sürecekti.", ic_not_d:"⚠️ Kaynağın verdiği yer adı ('Derna dağları') Trablusgarp'taki Derne ile KARIŞTIRILMASIN — Fas içinde bir yerdir, atlasın Derne noktasıyla eşleştirilmedi.",
   kaynak:"TDV `sadiler`: \"964/1557'de Muhammed eş-Şeyh'in Osmanlı ordusu tarafından Derna dağlarında öldürülmesi\" · \"964/1557'de Abdullah (Gālib-Billâh) tahta geçişi\"" },
 
 { t:"1564-01-01", b:"İspanyollar Bâdis'i ele geçirdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip"],
-  d:"İspanya, Akdeniz kıyısındaki Bâdis adasını ele geçirdi. (Bâdis'in TDV'de müstakil maddesi yok; bilgi `sadiler` maddesinden alındı.)",
+  d:"İspanya, Akdeniz kıyısındaki Bâdis adasını ele geçirdi. (Bâdis'in TDV'de müstakil maddesi yok; bilgi", ic_not_d:"`sadiler` maddesinden alındı.)",
   kaynak:"TDV `sadiler`: \"1564'te İspanyolların Bâdis adasını ele geçirmesi\"", yer_id:"Bâdis (Peñón de Vélez)" },
 
 { t:"1576-01-01", b:"Osmanlı desteğiyle Abdülmelik Fas'a girdi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
@@ -225,7 +225,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 
 { t:"1578-08-04", b:"Vâdilmehâzin (Üç Kral) Savaşı — Portekiz Haçlı ordusu imha edildi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
-  d:"Portekiz Kralı Sebastião'nun bizzat başında bulunduğu Haçlı ordusu Vâdilmehâzin'de (Alcácer Quibir) bozguna uğratıldı; kral savaş alanında öldü, Abdülmelik de aynı gün hastalıktan öldü, Ahmed el-Mansûr tahta geçti. Portekiz tahtı vâris bırakmadan boşaldı ve iki yıl sonra İspanya Kralı II. Felipe Portekiz tacını ele geçirdi (1580 İber Birliği) — savaş, Fas sınırları dışında bir Avrupa hanedan krizini doğrudan tetikledi. ⚠️ Savaş alanı (Ksar el-Kebir/Alcácer Quibir) atlasın yerleşim veri tabanında YOK, yer_id boş bırakıldı.",
+  d:"Portekiz Kralı Sebastião'nun bizzat başında bulunduğu Haçlı ordusu Vâdilmehâzin'de (Alcácer Quibir) bozguna uğratıldı; kral savaş alanında öldü, Abdülmelik de aynı gün hastalıktan öldü, Ahmed el-Mansûr tahta geçti. Portekiz tahtı vâris bırakmadan boşaldı ve iki yıl sonra İspanya Kralı II. Felipe Portekiz tacını ele geçirdi (1580 İber Birliği) — savaş, Fas sınırları dışında bir Avrupa hanedan krizini doğrudan tetikledi.", ic_not_d:"⚠️ Savaş alanı (Ksar el-Kebir/Alcácer Quibir) atlasın yerleşim veri tabanında YOK, yer_id boş bırakıldı.",
   kaynak:"TDV `sadiler`: \"30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti\" · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor", yer_kon:[35.006,-5.904] },
 
 { t:"1588-01-01", b:"Ahmed el-Mansûr Osmanlı'ya vergiyi kesti", tur:"idari", onem:3, dunya:2, kapsam:"dis", yer_id:"",
@@ -265,17 +265,17 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 
 { t:"1580-01-01", b:"Osmanlı ordu teşkilâtı örnek alınarak reform", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["reform"],
-  d:"Abdülmelik ve Ahmed el-Mansûr döneminde Osmanlı'da tanınan idari deneyim örnek alınarak devlet teşkilâtlanması ve ordu (özellikle ateşli silah birlikleri) reformları yapıldı — ironik biçimde Osmanlı'ya karşı bağımsızlığını koruyan bir devlet, gücünü kısmen Osmanlı modelinden aldı. ⚠️ TDV yalnız \"Abdülmelik ve Ahmed el-Mansûr devrinde\" diyor, kesin yıl vermiyor; saltanat başlangıcı (1578) yaklaşık tarih olarak kullanıldı.",
+  d:"Abdülmelik ve Ahmed el-Mansûr döneminde Osmanlı'da tanınan idari deneyim örnek alınarak devlet teşkilâtlanması ve ordu (özellikle ateşli silah birlikleri) reformları yapıldı — ironik biçimde Osmanlı'ya karşı bağımsızlığını koruyan bir devlet, gücünü kısmen Osmanlı modelinden aldı.", ic_not_d:"⚠️ TDV yalnız \\\"Abdülmelik ve Ahmed el-Mansûr devrinde\\\" diyor, kesin yıl vermiyor; saltanat başlangıcı (1578) yaklaşık tarih olarak kullanıldı.",
   kaynak:"TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\"", kapsam_genis:true },
 
 { t:"1593-01-01", b:"Kasrü'l-bedî' Sarayı inşa edildi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Merakeş",
   etiket:["mimari","imar"],
-  d:"Ahmed el-Mansûr, Tondibi zaferinin Sudan altınıyla finanse edilen görkemli Kasrü'l-bedî' Sarayı'nı Merakeş'te inşa ettirdi; saray, dönemin İber ve Osmanlı saraylarıyla rekabet eden bir güç gösterisiydi. ⚠️ TDV yalnız \"Ahmed el-Mansûr devrinde\" diyor; saltanatının ortası (1593) yaklaşık tarih olarak kullanıldı, gün doğrulanmadı.",
+  d:"Ahmed el-Mansûr, Tondibi zaferinin Sudan altınıyla finanse edilen görkemli Kasrü'l-bedî' Sarayı'nı Merakeş'te inşa ettirdi; saray, dönemin İber ve Osmanlı saraylarıyla rekabet eden bir güç gösterisiydi.", ic_not_d:"⚠️ TDV yalnız \\\"Ahmed el-Mansûr devrinde\\\" diyor; saltanatının ortası (1593) yaklaşık tarih olarak kullanıldı, gün doğrulanmadı.",
   kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Kasrü'l-bedî' Sarayı'nın Merakeş'te inşası\"" },
 
 { t:"1595-01-01", b:"Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","diplomasi"],
-  d:"Ahmed el-Mansûr döneminde Sâdîler, şeker ve Sudan altını ticareti üzerinden Fransa, İngiltere ve Hollanda ile doğrudan ticarî ilişkiler kurdu — Fas'ın Avrupa devletleriyle Osmanlı arabuluculuğu olmaksızın kurduğu ilk düzenli ilişkiler. ⚠️ TDV kesin yıl vermiyor, saltanatının sonu yaklaşık tarih olarak kullanıldı.",
+  d:"Ahmed el-Mansûr döneminde Sâdîler, şeker ve Sudan altını ticareti üzerinden Fransa, İngiltere ve Hollanda ile doğrudan ticarî ilişkiler kurdu — Fas'ın Avrupa devletleriyle Osmanlı arabuluculuğu olmaksızın kurduğu ilk düzenli ilişkiler.", ic_not_d:"⚠️ TDV kesin yıl vermiyor, saltanatının sonu yaklaşık tarih olarak kullanıldı.",
   kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\"", kapsam_genis:true },
 
 // ══════════════════════════════════════════════════════════════════

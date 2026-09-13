@@ -58,7 +58,7 @@ window.OLAYLAR_P0043A = [
 { t:"1456-01-01", b:"Şehirköy Osmanlı hâkimiyetine döndü — Curac Brankoviç'in ölümü", tur:"fetih",
   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak","serhat"],
   yer_id:"Şehirköy (Pirot)",
-  d:"1443'te Haçlı ordusunca zaptedilen ve 1444 Edirne-Segedin Antlaşması'nın ardından II. Murad tarafından Sırplar'a bırakılan Şehirköy, 1456'da Sırp Despotu Curac Brankoviç'in ölümüyle Osmanlı hâkimiyetine döndü. Aynı yıl ve aynı sebeple Niş de kesin olarak Osmanlı idaresine girdi; Nişava vadisinin Sofya yoluna açılan hattı böylece bütünlendi. Antlaşmanın süresi on yıl olarak imzalanmıştı ve Varna (1444) ile II. Kosova'nın (1448) ardından Despotluk'un ömrü ancak Brankoviç'in hayatı kadar sürdü. ⚠️ TARİH HAKKINDA: TDV her iki madde için de (`sehirkoy`, `nis`) YIL veriyor, GÜN VERMİYOR. `1456-01-01` bu yüzden bir gün iddiası değil, `§4`ün 'yıl biliniyor, gün bilinmiyor' yazımıdır.",
+  d:"1443'te Haçlı ordusunca zaptedilen ve 1444 Edirne-Segedin Antlaşması'nın ardından II. Murad tarafından Sırplar'a bırakılan Şehirköy, 1456'da Sırp Despotu Curac Brankoviç'in ölümüyle Osmanlı hâkimiyetine döndü. Aynı yıl ve aynı sebeple Niş de kesin olarak Osmanlı idaresine girdi; Nişava vadisinin Sofya yoluna açılan hattı böylece bütünlendi. Antlaşmanın süresi on yıl olarak imzalanmıştı ve Varna (1444) ile II. Kosova'nın (1448) ardından Despotluk'un ömrü ancak Brankoviç'in hayatı kadar sürdü.", ic_not_d:"⚠️ TARİH HAKKINDA: TDV her iki madde için de (`sehirkoy`, `nis`) YIL veriyor, GÜN VERMİYOR. `1456-01-01` bu yüzden bir gün iddiası değil, `§4`ün 'yıl biliniyor, gün bilinmiyor' yazımıdır.",
   kaynak:"sehirkoy + nis" },
 
 ];
