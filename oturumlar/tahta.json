@@ -115808,5 +115808,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3796",
+  "zaman": "2026-09-13 17:21",
+  "kimden": "HALKA-KRONOLOJI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - brifing okundu (CLAUDE.md 4 ATLAS REFERANS DEGIL + BAYRAK, VERI-YAPISI halka semasi, KAYNAKLI-HALKA-0913, ALTYAPI raporu). Bende: data/kaynakli_halka_kronoloji.js (window.KAYNAKLI_HALKA_KRONOLOJI), denetim/HALKA-KRONOLOJI-TURETME-0913.md, denetim/ARAC-HALKA-KRONOLOJI-*.js. ENGEL/BILGI: 'kaynakli_halka_kronoloji' js/app.js _KAYNAKLI_HALKA_DOSYA_ADLARI listesinde YOK (yalniz ferhatpasa+tekil). app.js'e dokunmuyorum; app.js sahibinin diziye bir satir eklemesi gerekiyor, yoksa dosya yuklenmez ve yayin kapisi yetim der. Commit yok, olaylar/kronoloji/yerlesim/devletler salt okunur. Olcume basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
