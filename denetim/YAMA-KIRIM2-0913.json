@@ -1,0 +1,140 @@
+{
+ "oturum": "ARAS-KIRIM2",
+ "tarih": "2026-09-13",
+ "uyari": "YAMA ONERISIDIR, UYGULANMADI. Kosu 10 donuk. Uygulayan Oturum 0.",
+ "uygulama_kurali": "Her satir KAYDIN KENDI SATIRINDA uygulanir (ad ile bul). Ayni 'eski' dizgisi baska kayitlarda da geciyor (or. Hacibey ile Ozi, Kuban ile Soci/Tuapse/Maykop) - dosya genelinde replace YASAK (CLAUDE.md D001). Satir numaralari 2026-09-13 olcumudur, kayabilir.",
+ "rapor": "denetim/ARASTIRMA-KIRIM2-0913.md",
+ "oneriler": [
+  {
+   "ad": "Voronej", "dosya": "data/yerlesimler.js", "satir": 972, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1585-01-01\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1585-01-01\",d:\"__BOSLUK__\"}",
+   "kaynak": "IEU 'Slobidska Ukraine' (Voronezh 1585 ileri garnizon; bolge issiz vahsi bozkir, Tatar akin yollari) · IEU 'Kharkiv oblast' (16. yy 'nominally part of Muscovy')",
+   "gerekce": "Hicbir kaynak Kirim TASARRUFU yazmiyor; akin yolu tasarruf degil (D030). kur: secenegi reddedildi: petek komsulari Tambov kirim / Borisoglebsk nogay / Kursk litvanya - hayalet taraf degistirir (3.5.1). Litvanya/Moskova 'nominal' = iddia, tasarruf degil (D076). Kirilma gunu degismiyor.",
+   "guven": "orta",
+   "madde_onerisi": {"t": "1585-01-01", "b": "Moskova'nin Voronej'de bozkira karsi ileri karakol kurmasi", "gun": "1585 (IEU: yalniz yil)", "yer_id": "Voronej", "d": "Moskova Devleti, Kirim Tatarlarinin kuzeye akin yollarini gozetlemek icin Don kiyisindaki Voronej'de bir ileri garnizon kurdu. Bolge o zamana kadar surekli yerlesim olmayan, akinlarin gectigi vahsi bozkirdi. Kale, sonraki on yillarda Belgorod ve Kursk ile birlikte guney savunma hattinin ilk halkalarindan biri oldu.", "kaynak": "Internet Encyclopedia of Ukraine (CIUS), madde 'Slobidska Ukraine'", "not": "Mevcut 1585-01-01 cekirdek maddesi (olaylar_ek2.js:18 akce tagsisi) ALAKASIZ; denetimi tesadufen geciyor."}
+  },
+  {
+   "ad": "Belgorod", "dosya": "data/yerlesimler_ek17.js", "satir": 164, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1596-01-01\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1596-01-01\",d:\"__BOSLUK__\"}",
+   "kaynak": "IEU 'Slobidska Ukraine' (Belgorod 1596 ileri garnizon) · IEU 'Belgorod' (1596'dan kale kasabasi, Belgorod Hatti merkezi)",
+   "gerekce": "Voronej ile ayni sinif ve ayni gerekce. Kirilma gunu degismiyor.",
+   "guven": "orta",
+   "madde_onerisi": {"t": "1596-01-01", "b": "Moskova'nin Belgorod ve Kursk'u bozkirda ileri garnizon olarak kurmasi", "gun": "1596 (IEU: yalniz yil)", "yer_id": "Belgorod", "d": "Moskova Devleti, Kirim akinlarina karsi guney sinirini ileri tasiyarak Belgorod, Oskol ve Kursk'u vahsi bozkirda garnizon noktalari olarak kurdu. Belgorod, sonraki yuzyilda uzanacak Belgorod savunma hattinin merkezi oldu ve Kirim Tatarlarinin sik saldirilarina ugradi.", "kaynak": "Internet Encyclopedia of Ukraine (CIUS), maddeler 'Slobidska Ukraine' ve 'Belgorod'", "not": "Cekirdekte +-30 gunde madde bulunamadi (en yakin 1596-06-20)."}
+  },
+  {
+   "ad": "Harkov", "dosya": "data/yerlesimler.js", "satir": 971, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1654-01-01\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1654-01-01\",d:\"__BOSLUK__\"}",
+   "kaynak": "IEU 'Kharkiv' (1654/5 Kazaklarca kuruldu; 13-17. yy vahsi bozkir; 17. yy basindan resmen Moskova)",
+   "gerekce": "Ayni sinif. Bitis 1654-01-01 IEU'nun yil hassasiyetiyle uyumlu, gun yok. 'Resmen Moskova 17. yy basi' yili bulunamadi, yazilmadi.",
+   "guven": "orta"
+  },
+  {
+   "ad": "Sloboda bozkırı", "dosya": "data/yerlesimler_ek4.js", "satir": 196, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1654-01-18\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1654-01-18\",d:\"__BOSLUK__\"}",
+   "kaynak": "IEU 'Slobidska Ukraine'",
+   "gerekce": "Ayni sinif. BITIS GUNU KAYNAKLI DEGIL: ek4 basligina gore Poltava'nin Pereyaslav gunu devralinmis; cekirdek Pereyaslav maddesi olaylar_ek16.js:317 1654-01-08 diyor (10 gun fark). Bitis degistirilmedi, acik soru.",
+   "guven": "dusuk"
+  },
+  {
+   "ad": "Kuban (Yekaterinodar)", "dosya": "data/yerlesimler.js", "satir": 573, "alan": "s",
+   "eski": "{f:\"1281-01-01\",t:\"1441-01-01\",d:\"altinorda\"},{f:\"1441-01-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "yeni": "{f:\"1281-01-01\",t:\"1502-03-01\",d:\"altinorda\"},{f:\"1502-03-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "kaynak": "TDV altin-orda-hanligi (Altin Orda 1241-1502) · TDV kirim (1502 Mengli Giray son darbe) · IEU 'Kuban' (Nogaylar Altin Orda dagildiktan sonra Kuban'a yerlesip Kirim'la muttefik oldu, tarih yok)",
+   "gerekce": "1441'de Kirim'in Kuban'a hakimiyetini soyleyen kaynak BULUNAMADI. 1441-1502 arasi Buyuk Orda tasarrufu da adiyla bulunamadi; oneri TDV'nin genel kronolojisini uyguluyor. GUN: kaynak yalniz yil; 1502-03-01 cekirdek madde olaylar_ek5.js:142 gunu (gun:'1502' - hassasiyet sismis, kunye 1502-01-01). Yeni kirilma uretmesin diye kullanildi; hizalama ayri kalem. Kunye altinorda t:1502-01-01 -> 59 gun kuyruk dogar.",
+   "guven": "dusuk",
+   "yan_etki": "olaylar_ek16.js:88 (1441 Kirim kurulusu) yer: listesinde 'Kuban (Yekaterinodar)' yanlis olur - metin duzeltmesi kronoloji sahibine."
+  },
+  {
+   "ad": "Kuban Nogay bozkırı", "dosya": "data/yerlesimler_ek_bozkir.js", "satir": 127, "alan": "s",
+   "eski": "{f:\"1281-01-01\",t:\"1441-01-01\",d:\"altinorda\"},{f:\"1441-01-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "yeni": "{f:\"1281-01-01\",t:\"1502-03-01\",d:\"altinorda\"},{f:\"1502-03-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "kaynak": "TDV altin-orda-hanligi · TDV kirim · TDV nogaylar · IEU 'Kuban'",
+   "gerekce": "Kuban (Yekaterinodar) ile ayni. Dosyada 'Stavropol-Kuma bozkiri' ayni dizgiyi tasiyor - satir bazli uygula.",
+   "guven": "dusuk"
+  },
+  {
+   "ad": "Stavropol–Kuma bozkırı", "dosya": "data/yerlesimler_ek_bozkir.js", "satir": 138, "alan": "s",
+   "eski": "{f:\"1281-01-01\",t:\"1441-01-01\",d:\"altinorda\"},{f:\"1441-01-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "yeni": "{f:\"1281-01-01\",t:\"1502-03-01\",d:\"altinorda\"},{f:\"1502-03-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "kaynak": "TDV altin-orda-hanligi · TDV kirim · TDV nogaylar (Kucuk Nogay 1557-58'de Kabarda-Azak arasina geldi)",
+   "gerekce": "Ayni. EK: TDV'ye gore Kirim'a bagli Nogay 1557-58'de geliyor; 1502-1557 arasi sahip BULUNAMADI. Alternatif (1502-1557 __BOSLUK__) yamaya konmadi, acik soru.",
+   "guven": "dusuk"
+  },
+  {
+   "ad": "Anapa", "dosya": "data/yerlesimler.js", "satir": 554, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1781-01-01\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1475-06-06\",d:\"__BOSLUK__\"},{f:\"1475-06-06\",t:\"1781-01-01\",d:\"kirim\"}",
+   "kaynak": "TDV anapa (Kirim Osmanli himayesine girdikten SONRA Kuzey Kafkasya Kirim hanlarinin nufuz alani oldu) · TDV cerkezler (Yinal 1427-1456 Cerkesleri birlestirdi; 1475/1479 sonrasi kiyi Cerkesleri Osmanli'yi tanidi)",
+   "gerekce": "1441'de Cerkes kiyisina Kirim yazan kaynak yok. __BOSLUK__ = Kabartay (Nalcik) emsali: Cerkes/Adige kunyesi YOK, ara cozum; dogrusu `cerkes` kunyesi. 1475-06-06 olayin kendi gunu (Kirim'in himayeye girisi, olaylar.js:47, +-0 madde). Ikinci okuma: kiyi Cerkesleri Osmanli'yi tanidi - v:/d: ile ifadesi tasarruf iddiasi olur (D089), onerilmedi.",
+   "guven": "dusuk"
+  },
+  {
+   "ad": "Anapa", "dosya": "data/yerlesimler.js", "satir": 554, "alan": "isg",
+   "eski": null,
+   "yeni": "isg:[{f:\"1791-07-26\",t:\"1792-01-09\",d:\"rusya\",kaynak:\"TDV `anapa` - kaynakli: 26 Temmuz 1791 ucuncu kusatmada isgal; Yas Antlasmasi (1792) ile geri verildi. Bitis gunu Yas'in atlas gunu, gun icin bagimsiz kaynak okunmadi\"}]",
+   "kaynak": "TDV anapa",
+   "gerekce": "d: 1781-01-01 -> 1829-09-14 kesintisiz; gecici isgal isg: ile bindirilir, d:'ye dokunulmaz (Kefe emsali yerlesimler.js:530). MUKERRER UYARISI: ayni oneri denetim/YAMA-ANAPA-0913.json (KITA 18) icinde VAR (1828-06-24 ikinci isg: ile) ve madde data/olaylar_p0043kirim.js'te 1791-07-26 YAZILMIS. IKI KEZ UYGULANMAZ; YAMA-ANAPA esas alinsin. Degismez 2i: 1791-07-26 +-0 madde, 1792-01-09 olaylar_ek5.js:302 +-1.",
+   "guven": "orta",
+   "ayni_oneri_var": "denetim/YAMA-ANAPA-0913.json"
+  },
+  {
+   "ad": "Soçi (Sâşe)", "dosya": "data/yerlesimler.js", "satir": 571, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1475-06-06\",d:\"__BOSLUK__\"},{f:\"1475-06-06\",t:\"1783-04-19\",d:\"kirim\"}",
+   "kaynak": "TDV anapa · TDV cerkezler",
+   "gerekce": "Anapa s: ile ayni gerekce.",
+   "guven": "dusuk"
+  },
+  {
+   "ad": "Tuapse", "dosya": "data/yerlesimler.js", "satir": 572, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1475-06-06\",d:\"__BOSLUK__\"},{f:\"1475-06-06\",t:\"1783-04-19\",d:\"kirim\"}",
+   "kaynak": "TDV anapa · TDV cerkezler",
+   "gerekce": "Anapa s: ile ayni gerekce.",
+   "guven": "dusuk"
+  },
+  {
+   "ad": "Maykop (Çerkezya)", "dosya": "data/yerlesimler.js", "satir": 574, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1783-04-19\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1475-06-06\",d:\"__BOSLUK__\"},{f:\"1475-06-06\",t:\"1783-04-19\",d:\"kirim\"}",
+   "kaynak": "TDV anapa · TDV cerkezler",
+   "gerekce": "Anapa s: ile ayni; ic kesim oldugu icin 'kiyi Cerkeslerinin tanimasi' cumlesi onu KAPSAMIYOR - guven daha dusuk.",
+   "guven": "dusuk"
+  },
+  {
+   "ad": "Kabartay (Nalçik)", "dosya": "data/yerlesimler.js", "satir": 575, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1739-09-18\",d:\"kirim\"},{f:\"1739-09-18\",t:\"1774-07-21\",d:\"__BOSLUK__\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1774-07-21\",d:\"kabartay\"}",
+   "kaynak": "TDV cerkezler (Yinal 1427-1456 birlestirdi; Kabartay beylikleri 18. yy'a kadar komsularina hukmetti; Kirim akinlari yuzunden Temryuk 1557-59 Moskova'ya yoneldi; Kirim'a yukumlulukler 18. yy baglaminda) · TDV kabartaylar (Altin Orda cokusunden sonra birinci derecede nufuz; 1739 tarafsiz; 1774 Rusya)",
+   "gerekce": "Harac/akin tasarruf degil (D030, D076); kaynak Kabartay'i kendi beylikleriyle anlatiyor. Kunye devletler.js:7229 (1281-1774) ve renk renkler.py:3059 VAR; devletler.js:7224-7226 sirasinin ucuncu adimi. Yinal (1427-56) baslangicin 1441'den once olabilecegini gosteriyor; 1281-1441 altinorda sinanmadi. neden: alani da guncellenmeli (artik __BOSLUK__ yok).",
+   "guven": "orta",
+   "yan_etki": "1739-09-18 kirilmasi kaybolur. olaylar_ek16.js:88 yer: listesinde 'Kabartay (Nalcik)' yanlis olur - metin duzeltmesi kronoloji sahibine."
+  },
+  {
+   "ad": "Hacıbey (Odessa)", "dosya": "data/yerlesimler.js", "satir": 955, "alan": "s",
+   "eski": "{f:\"1441-01-01\",t:\"1538-09-01\",d:\"kirim\"}",
+   "yeni": "{f:\"1441-01-01\",t:\"1480-01-01\",d:\"litvanya-buyuk-dukalik\"},{f:\"1480-01-01\",t:\"1538-09-01\",d:\"kirim\"}",
+   "kaynak": "IEU 'Odesa' (15. yy basinda Vytautas tahkim etti; 1480'de kale 'Turkler'ce alindi) · IEU 'Ochakiv' (15. yy sonu kuzey kiyi Kirim Hanligi denetiminde) · TDV bucak (idari teskilat 1538)",
+   "gerekce": "TDV hacibey/hocabey/odesa 302; ozu/akkirman/bucak Hacibey'i anmiyor. KAYNAK CELISKISI: IEU 1480 icin 'Turkler' diyor, TDV Osmanli teskilatini 1538'e koyuyor; 1480-1538 kirim IEU Ochakiv'e dayaniyor. Ayni 'eski' dizgi Ozi satirinda da VAR - satir bazli uygula. Kunye litvanya-buyuk-dukalik 1253-1569 kapsiyor, renk renkler.py:698 VAR.",
+   "guven": "orta (Litvanya dilimi) / dusuk (1480 yili, tek kaynak)",
+   "madde_onerisi": {"t": "1480-01-01", "b": "Hacibey (Kacibey) kalesinin Litvanya'nin elinden cikmasi", "gun": "1480 (IEU: yalniz yil)", "yer_id": "Hacıbey (Odessa)", "d": "Karadeniz'in kuzeybati kiyisindaki Kacibey limani 15. yuzyil basinda Litvanya Buyuk Duku Vytautas tarafindan tahkim edilmisti. 1480'de kale Litvanya'nin elinden cikti ve Hacibey adini aldi. Bu tarihten sonra kiyi, Osmanli'ya tabi Kirim Hanligi'nin denetimine gecti; bolgenin dogrudan Osmanli idari teskilatina baglanmasi 1538'dir.", "kaynak": "Internet Encyclopedia of Ukraine (CIUS), maddeler 'Odesa' ve 'Ochakiv'; TDV 'bucak' (1538)", "not": "Cekirdekte +-30 gunde madde YOK (en yakin 1481-05). IEU 'Turkler' diyor - madde metni bu celiskiyi saklamamali."}
+  }
+ ],
+ "degisiklik_onerilmeyenler": [
+  {"ad": "Özi", "dosya": "data/yerlesimler.js", "satir": 450, "sebep": "TDV ozu: Kirim 1490'larda Tatar kalesi kurdu, Litvanya Dasiv istihkami 'one surulur'. Litvanya->Kirim gecis YILI BULUNAMADI (yalniz onyil). 1490-01-01 yazmak yil uydurmak olur (CLAUDE.md §4). Kayit borc."},
+  {"ad": "Kızıkermen (Gazi Kerman)", "dosya": "data/yerlesimler_ok106.js", "satir": 167, "sebep": "IEU Beryslav (15. yy ortasi Tatarlar kurdu, 1526 Osmanli) mevcut kur:1441 + kesinlik:yuzyil ile uyumlu."},
+  {"ad": "Bozkır (Deşt-i Kıpçak) · Yediçkul bozkırı · Camboyluk bozkırı · Yedisan bozkırı", "sebep": "1502'de altinorda->kirim TDV ile uyumlu. Acik soru: 1502-03-01 (veri+madde) vs 1502-01-01 (kunye); madde gun:'1502' diyor."}
+ ],
+ "acik_sorular": [
+  "Tambov (yerlesimler_ek17.js:166) kirim 1441->1636-04-17 AYNI SINIF ve ARASTIRILMADI; kuzey bozkir yamasi inip Tambov kalirsa tek basina bir Kirim adasi kalir.",
+  "1502 gunu hizalamasi: kunye 1502-01-01 · veri ve cekirdek madde 1502-03-01 (gun:'1502').",
+  "Sloboda/Poltava 1654-01-18 ile cekirdek Pereyaslav maddesi 1654-01-08 arasi 10 gun fark.",
+  "Stavropol-Kuma 1502-1557 sahibi bulunamadi.",
+  "Cerkes kiyisi icin kalici cozum: `cerkes` kunyesi + renk.",
+  "Hacibey 1480-1538 Osmanli mi Kirim mi (IEU 'Turkler' / TDV 1538)."
+ ]
+}

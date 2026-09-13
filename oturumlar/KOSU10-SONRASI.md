@@ -139,11 +139,29 @@ gereken bir mamul ürün, referans noktası değil." ⇒ Kaynak ile atlas çeli�
       Veride kusur: Bükreş 1806 30 Kasım → 25 Aralık (ESBE) · Kili/Hotin 1806 yıl kodu · Bender 1806-12 işgali yok ·
       Yergöğü 1812-1829 fazladan Rus. Değişmez: 2i 5 · 2 2 (Çehrin himaye başı/sonu) · 2s 1 uç maddesiz + 6 sahte
       kapanış (D147) — madde istekleri raporda. 🟢 EMRE KARARI (13 Eylül): Sol Yaka şehirleri HETMANLIK RENGİYLE (`kazak-hetmanligi`), rusya değil.
-- [ ] **Kırım bozkırı (0043/H-0003)** — 🔴 YENİDEN AÇILDI (13 Eylül, aynı gün): Emre "neden bozkır hanlığın renginde
-      değil" diye sordu. Ölçüm: etiket `renkler.py:746` renk adı · yarımada `v:` tâbi tonu, bozkır `s:kirim` kendi rengi ·
-      Voronej/Belgorod/Harkov/Sloboda 1441-1585/1596/1654 yanlış `kirim` (akın bozkırı) · 1441/1502 başlangıç çelişkisi.
-      Seçenek bekleniyor: A statüko · B etiket · C bozkır `v: kid:kirim` · D (ÖNERİ) C + gevşek tâbi işareti.
-      ⬇ ESKİ HÂL — uygulanmayacak, karar gelene kadar askıda: seçenek A, bugünkü gösterim KALIR (Nogay ulusları hanlığa
+- [ ] **Kırım bozkırı (0043/H-0003)** — 🟢 EMRE KARARI (13 Eylül, ikinci tur): **D — ÜÇ TON**. Emre'nin sözü:
+      *"osmanlıya direkt bağlı şehirler gene kırmızı · vassal olan topraklar şimdiki vassal renginde · vassal Kırım
+      hanlığının bozkır üzerinde etrafı şerit ile çerçevelenmiş himaye yapısı benzeri bir yapısı olsun ve bu boş
+      bozkırların rengi osmanlı vassal kırmızısından bir ton daha açık … üç ton geçişi olarak hissedilsin."*
+      ```
+      doğrudan (Kefe sancağı)     osmanli-dolgu #8e0b22           değişmez
+      tâbi (yarımada, 6 kayıt)    vassal-dolgu  #b2384a           değişmez
+      gevşek bozkır (Nogay)       himaye gövdesi · Osmanlı kırmızısı şerit çerçeve · dolgu vassal'dan BİR TON AÇIK kırmızı
+      ```
+      ⚠️ 2 Eylül himaye kuralından SAPMA, bilerek: orada iç dolgu devletin KENDİ rengi; burada açık kırmızı. Şemada
+      ayrı cins: `v:[{f,t,k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true}]` → motor `d.h[].renk` = açık ton.
+      Pencere: kirim dilimi ∩ Osmanlı tâbiliği 1475-06-06→1774-07-21; öncesi/sonrası `s:kirim` (1774-83 bağımsız hanlık,
+      yarımada da `s:kirim` — tutarlı). Etiket `renkler.py:746` "Kırım Hanlığı bozkırı" → "Kırım Hanlığı".
+      **ÜÇ İŞ (koşu 11, yayın zinciri push'undan SONRA atanır):**
+      ① VERİ — `denetim/YAMA-KIRIM2-0913.json` (14 satır: kuzey 4 kayıt `__BOSLUK__` · Kuban×3 1502 · Çerkes kıyısı
+        1441-1475 `__BOSLUK__` · Kabartay tek `kabartay` · Hacıbey Litvanya 1441-1480) + D dönüşümü + `neden:`/`kaynak:`
+        TDV kirim "gevşek" · Anapa `isg:` YALNIZ YAMA-ANAPA'dan (mükerrer uygulanmaz) · Tambov aynı sınıf, araştırılacak ·
+        madde önerileri 1480 Hacıbey · 1585 Voronej · 1596 Belgorod · ek16:88 `yer:` metni.
+      ② MOTOR — `uret_petek.py` bugün `d.h` ÜRETMİYOR (grep: himaye 0). `v:` içinde `himaye:true` gövdelerini
+        `kid`e göre ayrı gruplayıp `d.h:[{g,renk}]` yazmalı (şema app.js:183-193); renk: `statu:"gevsek"` → açık ton,
+        yoksa BOYALAR[kid]. Küçük kesitle sınanır.
+      ③ ARAYÜZ — açık tonun ΔE ölçümü (üç ton + şerit iç #d4707d birbirinden ayrışmalı) · lejant satırı.
+      ⬇ ESKİ HÂL (A — geçersiz): bugünkü gösterim KALIR (Nogay ulusları hanlığa
       gevşek tâbi) + kaynak notu: ilgili bozkır dolgu noktalarının `neden:`/`kaynak:` alanına TDV `kirim` cümlesi
       ("tâbiiyet gevşek olup … hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklarla birleşebiliyordu") yazılır.
       Yerleşim dosyası olduğu için koşu sonrası. Ayrıntı: denetim/ARASTIRMA-KIRIM-0912.md.
