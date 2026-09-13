@@ -116501,5 +116501,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3827",
+  "zaman": "2026-09-13 19:55",
+  "kimden": "PAKET-A3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ENGEL (bekletmeden, 7.1-6): iki A3 kalemi KITA 14 dosyasinda. (1) 0032/H-0003 Uzun Hasan maddesi data/olaylar_ek7.js:206 (t:1468-04-01 yer_id Tebriz). TDV karakoyunlular: Karakoyunlu ordusu dagildi Zilhicce 872/Temmuz 1468; uzun-hasan: Merend Safer 873/Eylul 1468. Ayrica yerlesim tarafi da ayni gun: 30 Azerbaycan noktasi s: karakoyunlu->akkoyunlu 1468-04-01 (B). ek7'ye yazmiyorum; yama onerisi raporda. (2) 0035/H-0065 ekrandaki madde 'Ibrim ve Nubye sinirinin guneye tasinmasi' data/olaylar_ek5.js:468 -> atliyorum, raporda not. Digerlerine devam.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
