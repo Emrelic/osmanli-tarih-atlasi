@@ -5,7 +5,7 @@ OTURUM   KITA 13 · 13 Eylül 2026 · koşu 10 → data/ DONUK, YAMA ayrı dosya
 SEVK     1.MURAT M-3640 kabul notu: "(a) — ARA. Bulursan YAMA, bulamazsan borç."
 ÖNGÖRÜ   denetim/ONGORU-KITA13-BITLIS-A-0913.md · commit 126d614 (kaynak açılmadan)
 YAMA     denetim/YAMA-KITA13-BITLIS-0913.json
-ALETLER  scratchpad/pdf_pasaj.py (pypdf; ilk sayfa uzunlukları basılır, §4⑦)
+ALETLER  ARAC-KITA13-PDFPASAJ-0913.py (pypdf; ilk sayfa uzunlukları basılır, §4⑦)
          ARAC-KITA13-TDVPASAJ-0913.py · ARAC-KITA13-ARADA-NE-VAR-0912.py
 ```
 
