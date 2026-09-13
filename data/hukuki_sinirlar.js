@@ -442,9 +442,16 @@ window.HUKUKI_SINIRLAR = [
     { ad: "Tiflis", lat: 41.7160, lon: 44.7830, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
       kaynak: "TDV gurcistan [417-418]: '1603'te Şah I. Abbas Tiflis şehrini Osmanlılar'dan geri alıp …'" },
     { ad: "Luristan", lat: 33.4870, lon: 48.3560, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
-      kaynak: "TDV luristan [35]" },
+      kaynak: "TDV luristan [35]",
+      not: "🔴 C-FERHATPASA-HAT (13 Eylül): kaydın t:1603-10-21'i Luristan için KAYNAKLA ÇELİŞİYOR — Monshi/Savory s.643-644 Luristan'ı 1000/1591-92'de Safevî'ye bağlanmış, 1002/1593-94'te Hürremâbâd'ı Safevî işgalinde veriyor; TDV luristan '1603'. GUNEY §⑦① — taraf SEÇİLMEDİ, işaret DEĞİŞTİRİLMEDİ." },
     { ad: "Mâku", lat: 39.2942, lon: 44.5142, taraf: "osmanli", guven: "kesin", kaynak_turu: "ansiklopedi",
-      kaynak: "TDV maku [17]", not: "1590 KAZANCI DEĞİL, 1574'ten beri Osmanlı ocaklığı; statükoyla tescillendi — atlas bugün safevi, YAMA-KITA29 A1" }
+      kaynak: "TDV maku [17]", not: "1590 KAZANCI DEĞİL, 1574'ten beri Osmanlı ocaklığı; statükoyla tescillendi — atlas bugün safevi, YAMA-KITA29 A1" },
+    // 🆕 C-FERHATPASA-HAT (13 Eylül 2026) — GUNEY kolunun Osmanlı ADASI.
+    // Koordinat ATLASTAN DEĞİL, GeoNames'ten (Emre ilkesi).
+    { ad: "Nihâvend (kale)", lat: 34.1908, lon: 48.3744, taraf: "osmanli", guven: "kesin", kaynak_turu: "kronik+ansiklopedi",
+      kaynak: "TDV nihavend--iran [94-100]: 996 (1588) sonları kale + beylerbeyilik · Monshi/Savory s.583, 618 (barıştan sonra şah kaleye dokunmadı), s.824 (1593-1603 Safevî toprağıyla çevrili: 'come and go freely to the fort') · Iranica NEHĀVAND 998/1589 → 1011/1602-03",
+      konum_kaynagi: "GeoNames Nahavand 34°11′27″N 48°22′28″E (şehir merkezi; kalenin kendi konumu ARANMADI)",
+      not: "Kaydın t:1603-10-21'i Nihâvend için KAYNAKLI DEĞİL: düşüş Iranica 1011/1602-03, GUNEY '1603 ortası' — gün yok. 1593'ten sonra Luristan Safevî ⇒ bu nokta bir ENKLAV (bkz. ferhad-pasa-1590-sinir-hatti guney_1593_varyant)." }
     ] // nokta_atamalari sonu
   }, // hat sonu
 
@@ -492,6 +499,200 @@ window.HUKUKI_SINIRLAR = [
       "Volkan Çeribaş, '1603-1618 Osmanlı-Safevi Savaşı Sırasında Serhadde Teyakkuz: Erzurum', Hazine-i Evrak 7/8 (2025)"
     ],
     not: "BOA TD 633'ün KENDİSİ okunmadı — atıflar makaleler üzerinden (D104)."
+  }
+},
+
+{
+  // 🆕 DOKUZUNCU KAYIT — C-FERHATPASA-HAT (13 Eylül 2026). Üç araştırma
+  // kolunun (kuzey SEHIR-MATRISI · GUNEY · 0047 BATI) YER HÜKÜMLERİNDEN
+  // tek çizgi. Rapor + sınav dökümü: denetim/C-FERHATPASA-HAT-0913.md
+  //
+  // 🔴 EMRE İLKESİ (13 Eylül, bağlayıcı): "Atlası referans alamazsın." ⇒
+  // KÖŞE KOORDİNATLARI ATLAS NOKTALARINDAN ALINMADI. Araştırma kolları
+  // köşeleri atlas noktalarının orta noktasından kurmuştu; burada AYNI YER
+  // ÇİFTLERİ korunup her yerin konumu GeoNames gazetteer'ından (geonames.org,
+  // ilçe/il merkezi kaydı) okundu. Sahiplik hükümleri raporların KAYNAK
+  // hükümleridir, atlasın gösterdiği değil. Orta nokta bir KAYNAK DEĞİLDİR:
+  // hiçbir kaynak sınırın o iki yerin tam ortasından geçtiğini söylemiyor ⇒
+  // orta nokta köşelerinin HEPSİ `dogrulanmadi:true`. Kaynakta ADIYLA geçen
+  // tek sınır ögesi Hudâferin (Arakel) — `dogrulanmadi:false` yalnız o.
+  //
+  // 🔴 DOLGU YOK — BİLEREK. app.js `_cKayitGeometrisi` N noktalı hatta
+  // kapsama poligonunu YALNIZ ilk↔son nokta KİRİŞİNE göre bölüyor (kendi
+  // yorumu: "dolgu-bölme yalnız İLK ve SON nokta arasındaki DÜZ ÇİZGİYE göre").
+  // `kapsama.kutu` boyansaydı kaynak hükmü olan 30 yerin 10'u YANLIŞ renk
+  // alırdı (Erdebil · Hemedan · Zencan · Sultâniye · Lenkeran · Astara ·
+  // Burûcird · Dizfûl · Havîza → osmanli; Bakü → safevi). Hattın kendisine
+  // göre 30/30 doğru taraf. ⇒ `kapsama.tur:"poligon"` + BOŞ `nokta_dizisi`:
+  // render poligon dalına girer, dolgu 0 parça, yalnız kesik ÇİZGİ çizilir.
+  // 🔴 `tur:"poligon"` SATIRINI SİLME — silinirse `kutu` dalı devreye girer
+  // ve yukarıdaki 10 yanlış boyama DOĞAR. Dolgu gerekiyorsa çare app.js'te
+  // N segmentli bölme (Oturum 1), bu dosyada değil.
+  id: "ferhad-pasa-1590-sinir-hatti",
+  taraflar: ["osmanli", "safevi"],
+  hassasiyet: "yer",
+  hassasiyet_notu: "Antlaşma çizgi ÇİZMİYOR (statüko: 'her iki devletin ele geçirdiği yerler kendilerinde kalacaktır'). Bu çizgi kaynakta hükmü verilmiş YERLERİN arasından TÜRETİLDİ. Iranica BOUNDARIES i: sınır bir çizgi değil KUŞAK — hat kuşağın ortası olarak okunmalı.",
+
+  f: "1590-03-21",
+  f_kaynak: "Adlığ 2026 [298], Dicle Üniv. SBED 42: '21 Mart 1590 tarihinde ... İstanbul Antlaşması veya Ferhad Paşa Antlaşması ... imzalanmıştır.' ⚠️ Kütükoğlu 1962 s.195-196 (aktaran Efe & Kızıl 2017) statüko maddesini '22 Mart 1590'a kadar tarafların hâkimiyetine giren yerler' diye veriyor — bir günlük fark, kaynaklar arası, ÇÖZÜLMEDİ.",
+  t: "1603-10-21",
+  t_kaynak: "TDV tebriz [58]: 'Osmanlılar 21 Ekim 1603 tarihine kadar Tebriz'i kontrolleri altında tuttular.' — statükonun ilk fiilî kırılması",
+  t_hukuki: "1612-11-20",
+  t_hukuki_kaynak: "TDV nasuh-pasa [73]: '26 Ramazan 1021'de (20 Kasım 1612) ... barış yapıldı.'",
+  t_uyari: "🔴 GÜNEY KESİMİ 1603'e kadar GEÇERLİ DEĞİL: Luristan 1592/93'te Safevî'ye döndü (Monshi/Savory s.643-644: 1000/1591-92 bağlılık, 1002/1593-94 Hürremâbâd) ↔ TDV luristan '1603' — ÇELİŞKİ, GUNEY §⑦①, gün kaynakta YOK. O tarihten sonra köşe 10-13 yerine `guney_1593_varyant` geçerli. Tek kayıt kaldı çünkü değişim günü kaynaksız (uydurulmadı); gün kararı verilince kayıt ikiye bölünmeli. Nihâvend kalesinin düşüşü de 1603-10-21'den ÖNCE olabilir (Iranica NEHĀVAND 1011/1602-03; GUNEY '1603 ortası').",
+
+  hat: {
+    tur: "dogal-tanimsiz",
+    yon: "kuzey → güney (Hazar → Basra Körfezi). Osmanlı tarafı hattın BATISI; Hazar–Aras kesiminde KUZEYİ.",
+    konum_kaynagi: "GeoNames gazetteer (geonames.org tam metin araması, 13 Eylül 2026; il/ilçe MERKEZİ kaydı). Köşe = iki yerin gazetteer konumunun geometrik orta noktası.",
+    birlesme_notu: "36°K birleşmesi: kuzey köşe 7 (Sakkız↔Bîcâr) güney kolunun 3. düğümüne (Kirmanşah↔Bîcâr) DOĞRUDAN bağlandı. Güney kolunun düğüm 1 (Şehrizor|Bâne) ve 2 (Halepçe|Merîvan) ATILDI: ikisi Bâne ve Merîvan'ı Safevî ucu sayıyordu (atlasın bugünkü hâli), oysa 0047 ikisini KAYNAKLI Osmanlı-tâbi buldu (BOA 1582/1585 hükümleri, Özcoşar & Açar 2024). Güney kolu bunu kendisi yazmıştı: 'Düğüm 1-3'ün Safevî tarafı 0047'ye BAĞLI.' Kuzey köşe 1'in Mahmudâbâd ucu (kaynak hükmü BELİRSİZ, GeoNames'te kaydı YOK) yerine kuzey kolunun kendi bant notundaki kaynaklı çift konuldu: Bakü (Osmanlı) ↔ Lenkeran (Safevî).",
+    nokta_dizisi: [
+      { ad: "1 · Hazar kıyısı, Şirvan/Talış arası (Bakü ↔ Lenkeran)", lat: 39.5659, lon: 49.3713, dogrulanmadi: true,
+        hukum_dayanagi: "Bakü OSMANLI — TDV baku [22] · Iranica BAKU i [48] · AMEA sənəd toplusu s.25 ║ Lenkeran SAFEVÎ — Narkvevebi IV (1974) s.82 'Erdebil ve Talış hariç' ← Pigulevskaya 1958 s.272 · Petrushevsky 1949 s.131-132",
+        konum_kaynagi: "GeoNames: Baku 40°22′39″N 49°53′31″E · Lankaran 38°45′15″N 48°51′02″E — orta nokta",
+        bant: "Salyan · Mahmudâbâd kaynaksız (BELİRSİZ) ⇒ gerçek hat Bakü ile Lenkeran arasında herhangi bir yerde; bu uç kıyıyı temsilen" },
+      { ad: "2 · Aras üzerinde Hudâferin köprüleri", lat: 39.15, lon: 46.9416, dogrulanmadi: false,
+        hukum_dayanagi: "HY Arakʻel of Tabriz, tr. Bournoutian 2010, s.31: Osmanlı paşaları 'controlled all the land up to Khudafrin' — kaynakta ADIYLA geçen sınır ögesi",
+        konum_kaynagi: "Wikipedia 'Khudafarin Bridges' 39°09′00″N 46°56′30″E; bağımsız teyit: veri-kaynak/ne_10m_rivers.geojson 'Aras' geometrisi bu noktadan 1,0 km geçiyor (bu oturum ölçtü)" },
+      { ad: "3 · Karadağ/Ahar ↔ Meşkin", lat: 38.4381, lon: 47.3758, dogrulanmadi: true, gecici: true, bekleyen: "ASM-ARASTIRMA (Ahar · Sarâb · Miyâne dokuz gelenek çalışması — 13 Eylül koordinatör notu; sonuca göre güncellenecek)",
+        hukum_dayanagi: "Ahar OSMANLI-tâbi — Eskandar Beg, tr. Savory II s.582-583 · Kütükoğlu 1962 'Karacadağ' ║ Meşkinşehr BELİRSİZ (kaynak yok)",
+        konum_kaynagi: "GeoNames: Ahar 38°28′38″N 47°04′11″E · Meshgin Shahr 38°23′56″N 47°40′55″E — orta nokta",
+        bant: "Meşkin belirsiz ⇒ hat Meşkin ile Erdebil arasına kayabilir" },
+      { ad: "4 · Sarâb ↔ Erdebil", lat: 38.0952, lon: 47.9149, dogrulanmadi: true, gecici: true, bekleyen: "ASM-ARASTIRMA (Ahar · Sarâb · Miyâne dokuz gelenek çalışması — 13 Eylül koordinatör notu; sonuca göre güncellenecek)",
+        hukum_dayanagi: "Sarâb OSMANLI (çıkarım) — Eskandar 'advanced as far as Sarāb' ║ Erdebil SAFEVÎ — Eskandar · TDV erdebil [53-56] · Narkvevebi IV s.82 ← Pigulevskaya",
+        konum_kaynagi: "GeoNames: Sarāb 37°56′26″N 47°32′12″E · Ardabil 38°14′59″N 48°17′35″E — orta nokta" },
+      { ad: "5 · Miyâne ↔ Halhâl", lat: 37.5196, lon: 48.1221, dogrulanmadi: true, gecici: true, bekleyen: "ASM-ARASTIRMA (Ahar · Sarâb · Miyâne dokuz gelenek çalışması — 13 Eylül koordinatör notu; sonuca göre güncellenecek)",
+        hukum_dayanagi: "İKİ UÇ DA BELİRSİZ — Miyâne ve Halhâl'ı 1590 için adıyla anan kaynak yok. EN ZAYIF KÖŞE: yalnız kuzeydeki Sarâb/Erdebil ile güneydeki Zencan arasını bağlıyor.",
+        konum_kaynagi: "GeoNames: Mīāneh 37°25′15″N 47°42′54″E · Khalkhāl 37°37′06″N 48°31′45″E — orta nokta" },
+      { ad: "6 · Miyâne ↔ Zencan", lat: 37.0486, lon: 48.1056, dogrulanmadi: true, gecici: true, bekleyen: "ASM-ARASTIRMA (Ahar · Sarâb · Miyâne dokuz gelenek çalışması — 13 Eylül koordinatör notu; sonuca göre güncellenecek)",
+        hukum_dayanagi: "Miyâne BELİRSİZ ║ Zencan SAFEVÎ — Eskandar Beg (1585) · TDV zencan (0047)",
+        konum_kaynagi: "GeoNames: Mīāneh · Zanjan 36°40′35″N 48°29′46″E — orta nokta" },
+      { ad: "7 · 36°K devir: Sakkız ↔ Bîcâr", lat: 36.0582, lon: 46.9392, dogrulanmadi: true,
+        hukum_dayanagi: "Sakkız OSMANLI ÖRTÜLÜ (Emre'nin enklav kuralı, kaynak yok — 0047 C0047-1) ║ Bîcâr BELİRSİZ (0047) — KAYNAKLI UÇ YOK",
+        konum_kaynagi: "GeoNames: Saqqez 36°14′59″N 46°16′24″E · Bījār 35°52′00″N 47°36′18″E — orta nokta" },
+      { ad: "8 · Kirmanşah ↔ Bîcâr", lat: 35.0904, lon: 47.335, dogrulanmadi: true,
+        hukum_dayanagi: "Kirmanşah OSMANLI ÖRTÜLÜ (Kalhor beyleri Bağdat'a bağlı, Monshi s.840 — dolaylı) ║ Bîcâr BELİRSİZ — KAYNAKLI UÇ YOK. ⚠️ Ardalan/Pelengân (Küpeli 2010: Osmanlı beylerbeyiliği) bu kesimde, gazetteer konumu ARANMADI.",
+        konum_kaynagi: "GeoNames: Kermanshah 34.31416N 47.06500E · Bījār — orta nokta" },
+      { ad: "9 · Kirmanşah ↔ Hemedan", lat: 34.5567, lon: 47.7897, dogrulanmadi: true,
+        hukum_dayanagi: "Kirmanşah ÖRTÜLÜ ║ Hemedan SAFEVÎ — Monshi/Savory s.587·690·825 (Safevî valileri) · Iranica NEHĀVAND · Kütükoğlu madde listesinde Hemedan YOK",
+        konum_kaynagi: "GeoNames: Kermanshah · Hamadan 34°47′57″N 48°30′52″E — orta nokta" },
+      { ad: "10 · Nihâvend ↔ Hemedan", lat: 34.495, lon: 48.4444, dogrulanmadi: true,
+        hukum_dayanagi: "Nihâvend kalesi OSMANLI — TDV nihavend--iran [94-100] · Monshi s.583 · Iranica NEHĀVAND ║ Hemedan SAFEVÎ (köşe 9)",
+        konum_kaynagi: "GeoNames: Nahavand 34°11′27″N 48°22′28″E · Hamadan — orta nokta" },
+      { ad: "11 · Nihâvend ↔ Burûcird", lat: 34.044, lon: 48.5629, dogrulanmadi: true,
+        hukum_dayanagi: "Nihâvend OSMANLI ║ Burûcird Safevî — Monshi s.643-644 (1593 bağlamı; 1590 için 'SAFEVÎ?')",
+        konum_kaynagi: "GeoNames: Nahavand · Borūjerd 33°53′50″N 48°45′05″E — orta nokta" },
+      { ad: "12 · Luristan (Hürremâbâd) ↔ Burûcird", lat: 33.6925, lon: 48.5536, dogrulanmadi: true,
+        hukum_dayanagi: "Luristan OSMANLI-tâbi 1590 — Monshi s.643 · TDV luristan [35] · Iranica CHRONOLOGY ║ Burûcird (köşe 11)",
+        konum_kaynagi: "GeoNames: Khorramabad 33.48777N 48.35583E (bölge merkezi olarak — bölge→nokta eşlemesi ÇIKARIM) · Borūjerd — orta nokta" },
+      { ad: "13 · Luristan ↔ Dizfûl", lat: 32.9344, lon: 48.3807, dogrulanmadi: true,
+        hukum_dayanagi: "Luristan OSMANLI-tâbi ║ Dizfûl SAFEVÎ — Monshi s.593, 675 · TDV huzistan [74-75]",
+        konum_kaynagi: "GeoNames: Khorramabad · Dezful 32°22′52″N 48°24′20″E — orta nokta" },
+      { ad: "14 · Kût ↔ Dizfûl", lat: 32.4469, lon: 47.1119, dogrulanmadi: true,
+        hukum_dayanagi: "Kût OSMANLI ÖRTÜLÜ ║ Dizfûl SAFEVÎ (köşe 13)",
+        konum_kaynagi: "GeoNames: Kut 32.51279N 45.818171E · Dezful — orta nokta",
+        bant: "Iranica IRAQ iv [120]: Hûzistan'da sınır TANIMSIZ kaldı — köşe 14-19 kuşak ortası" },
+      { ad: "15 · Ammâre ↔ Havîza", lat: 31.6487, lon: 47.6093, dogrulanmadi: true,
+        hukum_dayanagi: "Ammâre OSMANLI ÖRTÜLÜ ║ Havîza Müşa'şa', Safevî tâbisi — Monshi s.675-677 · Iranica IRAQ iv [64] (TR Küpeli s.232 aksini ima ediyor: GUNEY §⑦②)",
+        konum_kaynagi: "GeoNames: Amarah 31°50′08″N 47°08′41″E · Hoveyzeh 31°27′42″N 48°04′26″E — orta nokta" },
+      { ad: "16 · Kürne ↔ Havîza", lat: 31.2385, lon: 47.7538, dogrulanmadi: true,
+        hukum_dayanagi: "Kürne OSMANLI ÖRTÜLÜ ║ Havîza (köşe 15)",
+        konum_kaynagi: "GeoNames: Al Qurnah 31°00′55″N 47°26′01″E · Hoveyzeh — orta nokta" },
+      { ad: "17 · Basra ↔ Ahvaz", lat: 30.9136, lon: 48.2323, dogrulanmadi: true,
+        hukum_dayanagi: "Basra OSMANLI — TDV basra [381] ║ Ahvaz SAFEVÎ ÖRTÜLÜ (Safevî iç bölge)",
+        konum_kaynagi: "GeoNames: Basra 30°30′30″N 47°46′49″E · Ahvāz 31°19′08″N 48°41′03″E — orta nokta" },
+      { ad: "18 · Fâv ↔ Abâdân", lat: 30.1567, lon: 48.3887, dogrulanmadi: true,
+        hukum_dayanagi: "Fâv OSMANLI ÖRTÜLÜ ║ Abâdân 1590 sahibi BULUNAMADI (GUNEY C4) — KAYNAKLI UÇ YOK",
+        konum_kaynagi: "GeoNames: Al Fāw 29°58′27″N 48°28′23″E · Ābādān 30°20′21″N 48°18′15″E — orta nokta" },
+      { ad: "19 · Şattülarap'ın Basra Körfezi'ne döküldüğü yer", lat: 29.961208, lon: 48.53183, dogrulanmadi: true,
+        hukum_dayanagi: "1590 için Şattülarap'ı SINIR diye anan kaynak OKUNMADI — körfez ucu olarak konuldu (köşe 18 karada bitiyor, son segmentin uzantısı Fâv'ı yanlış tarafa düşürüyordu; bu uçla Fâv doğru tarafta, ölçüldü)",
+        konum_kaynagi: "veri-kaynak/ne_10m_rivers.geojson 'Shatt al Arab' geometrisinin son noktası (Natural Earth) — coğrafî koordinat kaynaklı, SINIR ROLÜ kaynaksız" }
+    ],
+    atilan_koseler: [
+      { ad: "Şehrizor | Bâne (GUNEY düğüm 1)", lat: 35.775, lon: 45.655, neden: "Bâne 0047'de KAYNAKLI Osmanlı-tâbi — düğüm Bâne'yi Safevî ucu sayıyordu. Koordinat atlas orta noktasıydı." },
+      { ad: "Halepçe | Merîvan (GUNEY düğüm 2)", lat: 35.350, lon: 46.082, neden: "Merîvan 0047'de KAYNAKLI Osmanlı-tâbi — aynı sebep. Koordinat atlas orta noktasıydı." },
+      { ad: "Mahmudâbâd | Lenkeran (KUZEY köşe 1)", lat: 39.067, lon: 49.046, neden: "Mahmudâbâd hükmü BELİRSİZ ve GeoNames'te kaydı YOK; kaynaklı Bakü↔Lenkeran çiftiyle değiştirildi. Koordinat atlas orta noktasıydı." }
+    ],
+    guney_1593_varyant: {
+      gecerlilik: "Luristan'ın Safevî'ye dönüşünden (1592/93, GÜN KAYNAKSIZ) 1603'e kadar — ÇİZİLMEZ, gün kararı bekliyor",
+      degisim: "köşe 9'dan sonra köşe 10-13 YERİNE aşağıdaki iki köşe, sonra köşe 14'ten devam",
+      nokta_dizisi: [
+        { ad: "Kirmanşah | Luristan", lat: null, lon: null, dogrulanmadi: true,
+          hukum_dayanagi: "Monshi/Savory s.644-645: Şâhverdî 'Ottoman territory'ye kaçtı; Kür-kûh 'on the border between Lorestan and Baghdad province'",
+          not: "GUNEY kolunun koordinatı (33.901,47.710) ATLAS orta noktasıydı — Emre ilkesi gereği ALINMADI. Kür-kûh'un gazetteer konumu ARANMADI." },
+        { ad: "Kût | Luristan", lat: null, lon: null, dogrulanmadi: true,
+          not: "GUNEY kolunun koordinatı (33.000,47.087) ATLAS orta noktasıydı — ALINMADI" }
+      ],
+      osmanli_adasi: { ad: "Nihâvend kalesi", lat: 34.1908, lon: 48.3744,
+        hukum_dayanagi: "Monshi/Savory s.824: 'about every ten days the Ottomans would march through their tribal territory and come and go freely to the fort' — kaynak ENKLAVI tarif ediyor",
+        konum_kaynagi: "GeoNames: Nahavand 34°11′27″N 48°22′28″E (şehir; kalenin kendi konumu ARANMADI)",
+        not: "İşaret noktası ferhad-pasa-istanbul-1590 kaydının nokta_atamalari'na eklendi (bu hat türü nokta çizmez)." }
+    }
+  },
+
+  gereken_cografya: [
+    { ad: "Hudâferin köprüleri (Aras)", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null, not: "köşe coğrafî koordinatla kuruldu; nokta eklemek hattın çizimi için gerekmiyor" },
+    { ad: "Aras (nehir)", tur: "nehir", atlasta_var: true, atlasta_kaynak: "veri-kaynak/ne_10m_rivers.geojson 'Aras' (scalerank 8)" },
+    { ad: "Pelengân (Ardalan)", tur: "yerlesim", atlasta_var: false, atlasta_kaynak: null, not: "Küpeli 2010: Osmanlı beylerbeyiliği; konumu ARANMADI" },
+    { ad: "Kür-kûh (Luristan–Bağdat sınırı)", tur: "dag", atlasta_var: false, atlasta_kaynak: null, not: "Monshi s.645 — 1593 varyantının kaynaklı sınır ögesi; konumu ARANMADI" },
+    { ad: "Şattülarap ağzı", tur: "nehir", atlasta_var: true, atlasta_kaynak: "veri-kaynak/ne_10m_rivers.geojson 'Shatt al Arab', scalerank 3" }
+  ],
+
+  kapsama: {
+    // 🔴 `tur:"poligon"` + BOŞ `nokta_dizisi` = DOLGU YOK (başlık notu).
+    tur: "poligon",
+    nokta_dizisi: [],
+    negatif_taraf: "osmanli",
+    kutu: { lat_min: 29.5, lat_max: 43.0, lon_min: 41.5, lon_max: 50.5 },
+    kutu_notu: "Sınır kuşağının BELGELİK kutusu (Kafkas sırtı → Körfez). Render bu kayıtta onu KULLANMIYOR (poligon dalı önce gelir). Kutu boyansaydı 10 yanlış boyama — sinav_kaydi.app_kutu_dolgusu.",
+    odak_kutu: { lat_min: 29.5, lat_max: 41.5, lon_min: 43.0, lon_max: 50.5 },
+    odak_kutu_not: "YALNIZ kamera odağı için.",
+    sezgi_kapali: false,
+    sezgi_kapali_gerekcesi: "Hat kaynaklı bir antlaşma çizgisi DEĞİL, türetilmiş kuşak ortası; 19 köşenin 18'i dogrulanmadi:true, 5 yer kaynaksız (belirsiz). Motor sezgisini bu kutuda kapatacak kesinlikte değil (D089).",
+    yon_kurali: "Hat kuzey→güney sıralı: batısı (Hazar–Aras kesiminde kuzeyi) cross<0 → osmanli; doğusu cross>0 → safevi."
+  },
+
+  sinav_kaydi: {
+    yontem: "denetim/C-FERHATPASA-HAT-0913.md §3. KONUM GeoNames, HÜKÜM raporların KAYNAK hükmü (atlasın gösterdiği SINAV DEĞİL). (a) hattın Osmanlı tarafı poligonuyla nokta-poligon testi; (b) app.js _cKayitGeometrisi'nin GERÇEK kodu node'da eval edilip kutu dolgusuyla renk testi.",
+    bilinen_noktalar: {
+      "Tebriz":  { P: [46.2917, 38.08], beklenen: "osmanli", hukum: "TDV tebriz [53-58] · Eskandar II s.832 · Arakel s.31", hat_tarafi: "osmanli", sonuc: "DOĞRU", koseye_katildi: false },
+      "Bağdat":  { P: [44.400876, 33.34058], beklenen: "osmanli", hukum: "Monshi · TDV bagdat", hat_tarafi: "osmanli", sonuc: "DOĞRU", koseye_katildi: false },
+      "Erdebil": { P: [48.2931, 38.2497], beklenen: "safevi", hukum: "TDV erdebil · Narkvevebi IV ← Pigulevskaya · Eskandar", hat_tarafi: "safevi", sonuc: "DOĞRU", koseye_katildi: true, app_kutu_dolgusu: "osmanli — YANLIŞ" },
+      "Hemedan": { P: [48.5144, 34.7992], beklenen: "safevi", hukum: "Monshi s.587·690·825 · Iranica NEHĀVAND", hat_tarafi: "safevi", sonuc: "DOĞRU", koseye_katildi: true, app_kutu_dolgusu: "osmanli — YANLIŞ" },
+      "Sultâniye": { P: [48.7947, 36.4331], beklenen: "safevi", hukum: "Eskandar s.644", hat_tarafi: "safevi", sonuc: "DOĞRU", koseye_katildi: false, app_kutu_dolgusu: "osmanli — YANLIŞ" },
+      "Astara":  { P: [48.8747, 38.4558], beklenen: "safevi", hukum: "Narkvevebi IV ← Pigulevskaya · Petrushevsky", hat_tarafi: "safevi", sonuc: "DOĞRU", koseye_katildi: false, app_kutu_dolgusu: "osmanli — YANLIŞ" }
+    },
+    hat_tarafi_toplam: "hükümlü 35 yer (GeoNames konumu): kaynaklı BAĞIMSIZ 10/10 · kaynaklı köşeye katılan 12/12 (DÖNGÜSEL — köşe onların ortasından kurulduğu için kanıt DEĞİL) · çıkarım 1/1 · örtülü 7/7 · belirsiz 5 (Miyâne · Abâdân → Osmanlı yanı; Meşkin · Halhâl · Bîcâr → Safevî yanı)",
+    app_kutu_dolgusu: "30 hükümlü yerde uyumlu 20 · YANLIŞ 10 — DOLGU BU YÜZDEN KAPALI",
+    eski_kayit_noktalari: "ferhad-pasa-istanbul-1590'ın koordinatlı noktalarının hepsi hattın Osmanlı tarafında (rapor §3)"
+  },
+
+  kaynak: {
+    tur: "türetilmiş hat (üç ölçüm raporunun KAYNAK hükümleri + GeoNames konumları)",
+    madde: "bulunamadı — antlaşma metni çizgi vermiyor; Feridun Bey, Münşeât 249-252 OKUNMADI",
+    alinti: "Eskandar Beg (Savory II s.585): 'acceptance of annexation by the Ottomans of areas already occupied by their troops'",
+    raporlar: [
+      "denetim/OLCUM-FERHATPASA-SEHIR-MATRISI-0913.md",
+      "denetim/OLCUM-FERHATPASA-GUNEY-0913.md",
+      "denetim/OLCUM-0047-FERHATPASA-BATI-0913.md"
+    ]
+  },
+  kaynak_ikincil: {
+    tur: "raporların ana kaynakları + konum kaynakları",
+    kaynaklar: [
+      "IR · Eskandar Beg Monshi, History of Shah ʿAbbas the Great, tr. R. M. Savory (1978), II s.582-587, 643-645, 675-677, 824-826, 831-832, 840",
+      "TR · TDV İslâm Ansiklopedisi: murad-iii · safeviler · erdebil · tebriz · baku · nihavend--iran · hemedan · luristan · huzistan · basra · zencan · bagdat · nasuh-pasa",
+      "TR · Kütükoğlu 1962 s.195-196, aktaran Efe & Kızıl, Erzincan Üniv. SBE Dergisi X-I (2017)",
+      "TR · Adlığ 2026, Dicle Üniv. SBED 42, doi:10.15182/diclesosbed.1696513",
+      "TR · Küpeli 2010, History Studies Ortadoğu özel sayısı s.227-244",
+      "TR · Özcoşar & Açar 2024, Bingöl Üniv. SBE Dergisi 28, doi:10.29029/busbed.1518775",
+      "EN · Encyclopaedia Iranica: NEHĀVAND · IRAQ iv · BOUNDARIES i · BAKU i · MOKRI",
+      "GE · Sakartvelos istoriis narkvevebi IV (1974) s.82 (← RU Pigulevskaya et al. 1958 s.272)",
+      "RU · Petrushevsky 1949 s.131-132",
+      "HY · Arakʻel of Tabriz, Book of History, tr. Bournoutian (2010) s.31",
+      "KONUM · GeoNames (geonames.org) — 24 yer; Wikipedia 'Khudafarin Bridges' + Natural Earth ne_10m_rivers (Aras · Shatt al Arab)"
+    ],
+    not: "Tarih kaynakları bu kayıtta YENİDEN OKUNMADI — raporlar üzerinden (D104). Konumlar bu oturumda okundu."
   }
 }
 
