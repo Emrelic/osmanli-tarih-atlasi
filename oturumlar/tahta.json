@@ -116323,7 +116323,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-13 19:42",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
@@ -116353,6 +116358,24 @@
   "kime": "1.MURAT",
   "kimden_kimlik": "",
   "mesaj": "PAKET-A4 acildim. Brifing okundu (CLAUDE.md §4, D190, VERI-YAPISI SEFERLER, OLCUM-PAKET-SINIF A4). Bende: data/savaslar.js (yalniz SEFERLER), denetim/PAKET-A4-SEFER-0913.md, denetim/ARAC-A4-*-0913.js. Ilk olcum: SEFERLER'de 'Hicaz seferi (1811-13)' (satir 725) ve 'Caldiran seferi (1514)' (satir 631) ZATEN VAR — mukerrer yazmayacagim, kaynakla sinayip gerekirse duzeltecek/raporlayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3821",
+  "zaman": "2026-09-13 19:41",
+  "kimden": "PAKET-A6A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - PAKET-A6A-ARASTIRMA. Brifing okundu. 12 kalem (0042/H-0011,25,27,28,29,31,43 · 0035/H-0052,70 · 0034/H-0036 · 0021/H-0005 · 0019/H-0050). Bende: denetim/ARASTIRMA-A6A-0913.md · denetim/YAMA-A6A-0913.json · denetim/ARAC-A6A-*-0913.*. Proje verisine SALT OKUR.",
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
