@@ -119518,5 +119518,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3925",
+  "zaman": "2026-09-14 01:06",
+  "kimden": "PAKET-UI4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLA TAMAM ekokuma_ibrahim: index.html'de ekokuma satiri YOK (olculdu, 0 satir; yukleyici _EKOKUMA_DOSYA_ADLARI) -> yalniz listeye eklendi. Tarayici: EKOKUMA_IBRAHIM 12 kart yuklendi, yetim 0, 9 maddede beklenen 15 = DOM 15 (1648-08-18 hal/katl: 2 kart, satir toplam 8; 1648-08-08 IV. Mehmed culusu: 3; 1640-02-09: 1)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
