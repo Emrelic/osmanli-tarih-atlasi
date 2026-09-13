@@ -114729,5 +114729,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3746",
+  "zaman": "2026-09-13 06:30",
+  "kimden": "KITA 15",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM, app.js/css bende. Baslama sartini dogruladim: M-3738'de KITA 12'nin 'js/app.js + css/style.css SERBEST, commit sizde' cumlesini gordum VE git log ile senin commit'ini (3bb4aa9, 'ek okuma yukleyicisi v2 · C cokme korumasi · savas isareti 3 cevrim parlama' — M-3738 icerigiyle birebir) dogruladim, git status iki dosya icin de TEMIZ. Simdi denetim/BULGU-KITA30-MEVCUT-KATMAN-OLCUMU.md + ARAC-KITA30-CKATMAN-KOPRU-0913.js okuyup IS① (C KATMANI) ile basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
