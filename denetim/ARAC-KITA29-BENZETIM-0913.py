@@ -4,7 +4,7 @@
 data/ DONUK (koşu 10). Hiçbir dosya yazılmaz; girdi.yukle()'nin döndürdüğü
 kayıtların DERİN KOPYASI üzerinde çalışılır.
 
-Uygulanan yamalar:
+Uygulanan yamalar — 1.MURAT KARARLARINDAN SONRAKİ hâl:
   K13-A   YAMA-KITA13-VAN-0913.json A grubu (Başkale · Çaldıran · Şeyhrumi
           1639-05-17 → 1548-08-25) — D166: benim yamamın ön koşulu O YAMADAN
           SONRAKİ durumdan türetilir, o yüzden önce o uygulanır
@@ -13,17 +13,20 @@ Uygulanan yamalar:
           "Şerur Kazası", Bilgili 2016 [52][85]; GÜNLER Nahçıvan'dan, D084)
   A3      Gence · Berde (Karabağ)  d başı 1588-01-01 → 1588-09-01
           (TDV murad-iii [114] · safeviler [210])
-  B1      Eçmiyadzin d 1583-06-01 → 1604-06-08 (Revan'ın günleri, D084) —
-          KARAR GEREKTİRİR, ayrıca ölçülür
+  C1      Revan      d başı 1583-06-01 → 1583-09-13 — KARAR (1.MURAT): EMİR günü
+          (BOA A.DVNSMHM.d 51-322, Adlığ 2026 [268][491]); fetih günü kaynakta YOK
+  B1      Eçmiyadzin d 1583-09-13 → 1604-06-08 — KARAR: UYGULA. Başlangıç C1'e
+          BAĞLI (D166): ankrajı Revan'dan ÖNCE Osmanlı olamaz
 
 Bölümler:
   A  değişen kayıtların zinciri ÖNCE / SONRA
   B  Değişmez 1 benzeri: değişen kayıtta kapsama BOŞLUĞU var mı
-  C  komşu cebi (en yakın 8'in ≥6'sı farklı) ÖNCE / SONRA, 4 kesit, `kur:` duyarlı
+  C  komşu cebi (en yakın 8'in ≥6'sı farklı) ÖNCE / SONRA, 5 kesit, `kur:` duyarlı
   D  ARADA NE VAR — Emre'nin tartışmalı yerleri, SONRA
   E  Değişmez 2: yamanın ürettiği kırılma günlerine en yakın ÇEKİRDEK madde
-  F  C kaydı için aday kutu: 1590-03-21'de içindeki noktaların sahipleri —
-     "kutuyu tek renkle doldur" önerisi KUTUNUN İÇİNDE safevi nokta varsa YANLIŞ BOYAR
+  F  C kaydı için aday kutu: 1590-03-21'de içindeki noktaların sahipleri
+  G  🆕 SIRA SINAVI: B1 C1'siz uygulanırsa (eski JSON değeri 1583-06-01)
+     Eçmiyadzin ankrajı Revan'dan önce mi Osmanlı oluyor
 
 Kullanım:  py denetim/ARAC-KITA29-BENZETIM-0913.py
 """
@@ -36,7 +39,8 @@ import girdi
 
 Y0 = girdi.yukle(sessiz=True)
 LA0, LA1, LO0, LO1 = 35.5, 42.6, 41.5, 50.5
-KESITLER = ["1575-06-15", "1590-03-21", "1605-06-15", "1620-06-15"]
+KESITLER = ["1575-06-15", "1583-07-01", "1590-03-21", "1605-06-15", "1620-06-15"]
+REVAN_YENI = "1583-09-13"
 
 
 def bul(Y, ad):
@@ -99,7 +103,7 @@ def k13a(y):
             p["f"] = "1548-08-25"
 
 
-def uygula(Y, b1):
+def uygula(Y, c1=True, b1=True, b1_bas=REVAN_YENI):
     for ad in ("Başkale", "Çaldıran", "Şeyhrumi (Yücelen)"):
         k13a(bul(Y, ad))
     m = bul(Y, "Mâku")
@@ -110,19 +114,22 @@ def uygula(Y, b1):
     sr.setdefault("d", []).append({"f": "1585-01-01", "t": "1603-10-21"})
     for ad in ("Gence", "Berde (Karabağ)"):
         d_bas_tasi(bul(Y, ad), "1588-01-01", "1588-09-01")
+    if c1:
+        d_bas_tasi(bul(Y, "Revan"), "1583-06-01", REVAN_YENI)
     if b1:
         e = bul(Y, "Eçmiyadzin")
-        s_bol(e, "safevi", "1583-06-01", "1604-06-08")
-        e.setdefault("d", []).append({"f": "1583-06-01", "t": "1604-06-08"})
+        s_bol(e, "safevi", b1_bas, "1604-06-08")
+        e.setdefault("d", []).append({"f": b1_bas, "t": "1604-06-08"})
 
 
 DEGISEN = ["Başkale", "Çaldıran", "Şeyhrumi (Yücelen)", "Mâku", "Şerur (Sharur)",
-           "Gence", "Berde (Karabağ)", "Eçmiyadzin"]
+           "Gence", "Berde (Karabağ)", "Revan", "Eçmiyadzin"]
 
 ONCE = Y0
-SONRA_A = copy.deepcopy(Y0); uygula(SONRA_A, b1=False)
-SONRA_AB = copy.deepcopy(Y0); uygula(SONRA_AB, b1=True)
-print("# taban %d nokta · SONRA_A = K13-A + A1 + A2 + A3 · SONRA_AB = + B1" % len(Y0))
+SONRA_A = copy.deepcopy(Y0); uygula(SONRA_A, c1=False, b1=False)
+SONRA_AB = copy.deepcopy(Y0); uygula(SONRA_AB)
+print("# taban %d nokta · SONRA_A = K13-A + A1 + A2 + A3 · SONRA_AB = + C1 (Revan %s) + B1"
+      % (len(Y0), REVAN_YENI))
 
 
 def zincir(y):
@@ -146,17 +153,14 @@ for ad in DEGISEN:
 # ── B ──
 print("\n" + "=" * 96 + "\nB · KAPSAMA BOŞLUĞU (d ∪ v ∪ s, ilk başlangıçtan son bitişe)\n" + "=" * 96)
 for ad in DEGISEN:
-    for etiket, Y in (("ÖNCE ", ONCE), ("SONRA", SONRA_AB)):
-        y = bul(Y, ad)
-        ar = sorted([(p["f"], p["t"]) for a in ("d", "v", "s") for p in (y.get(a) or [])])
-        bos, uc = [], ar[0][1]
-        for f, t in ar[1:]:
-            if f > uc:
-                bos.append((uc, f))
-            uc = max(uc, t)
-        ust = sum(1 for i, a in enumerate(ar) for b in ar[i+1:] if b[0] < a[1])
-        print("  %-22s %s boşluk: %-10s · örtüşen çift: %d"
-              % (ad, etiket, "yok ✓" if not bos else bos, ust))
+    y = bul(SONRA_AB, ad)
+    ar = sorted([(p["f"], p["t"]) for a in ("d", "v", "s") for p in (y.get(a) or [])])
+    bos, uc = [], ar[0][1]
+    for f, t in ar[1:]:
+        if f > uc:
+            bos.append((uc, f))
+        uc = max(uc, t)
+    print("  %-22s SONRA boşluk: %s" % (ad, "yok ✓" if not bos else bos))
 
 # ── C ──
 def cepler(Y, g):
@@ -183,8 +187,8 @@ for g in KESITLER:
 
 # ── D ──
 print("=" * 96 + "\nD · ARADA NE VAR — SONRA_AB\n" + "=" * 96)
-for g in ("1590-03-21", "1605-06-15"):
-    for ad in ("Mâku", "Şerur (Sharur)", "Eçmiyadzin", "Gümrü (Aleksandropol)", "Selmâs (Dilman)", "Merend"):
+for g in ("1583-07-01", "1583-10-01", "1590-03-21", "1605-06-15"):
+    for ad in ("Revan", "Eçmiyadzin", "Mâku", "Şerur (Sharur)", "Gümrü (Aleksandropol)", "Selmâs (Dilman)", "Merend"):
         y = bul(SONRA_AB, ad)
         s0 = sahip(y, g)
         uz = sorted(((girdi.km(y["lat"], y["lon"], z["lat"], z["lon"]), z) for z in SONRA_AB
@@ -205,11 +209,10 @@ gun = lambda s: datetime.date(int(s[:4]), int(s[5:7]), int(s[8:10]))
 for kg, not_ in (("1548-08-25", "K13-A başı"), ("1574-01-01", "A1 Mâku başı"),
                  ("1639-05-17", "A1 Mâku sonu"), ("1585-01-01", "A2 Şerur başı"),
                  ("1603-10-21", "A2 Şerur sonu"), ("1588-09-01", "A3 Gence/Berde başı"),
-                 ("1583-06-01", "B1 Eçmiyadzin başı"), ("1604-06-08", "B1 Eçmiyadzin sonu")):
-    yakin = sorted(madde, key=lambda x: abs((gun(x[0]) - gun(kg)).days))[:2]
-    en = yakin[0]
+                 (REVAN_YENI, "C1 Revan + B1 Eçm. başı"), ("1604-06-08", "B1 Eçmiyadzin sonu")):
+    en = min(madde, key=lambda x: abs((gun(x[0]) - gun(kg)).days))
     fark = abs((gun(en[0]) - gun(kg)).days)
-    print("  %s %-22s en yakın %s (%s, %4d gün) %s  %s"
+    print("  %s %-24s en yakın %s (%s, %4d gün) %s  %s"
           % (kg, not_, en[0], en[1], fark, "✓" if fark <= 30 else "🔴 AÇIK", en[2][:50]))
 
 # ── F ──
@@ -219,9 +222,15 @@ g = "1590-03-21"
 ic = [y for y in SONRA_AB if y.get("lat") is not None
       and ADAY["lat_min"] <= y["lat"] <= ADAY["lat_max"] and ADAY["lon_min"] <= y["lon"] <= ADAY["lon_max"]]
 say = collections.Counter(sahip(y, g) for y in ic)
-print("  aday kutu %s · %d nokta · sahipler: %s" % (ADAY, len(ic), dict(say)))
-saf = sorted([y for y in ic if sahip(y, g) not in ("OSMANLI", "tâbi", "KURULMADI")],
-             key=lambda y: (-y["lat"], y["lon"]))
-print("  🔴 kutu İÇİNDE Osmanlı/tâbi OLMAYAN %d nokta — tek renk dolgu bunları YANLIŞ boyar:" % len(saf))
-for y in saf:
-    print("     %8.4f %8.4f  %-26s %s" % (y["lat"], y["lon"], y["ad"][:26], sahip(y, g)))
+print("  aday kutu · %d nokta · sahipler: %s" % (len(ic), dict(say)))
+
+# ── G ──
+print("\n" + "=" * 96 + "\nG · SIRA SINAVI — eski JSON değeriyle B1 (1583-06-01), C1 UYGULANMADAN\n" + "=" * 96)
+YANLIS = copy.deepcopy(Y0); uygula(YANLIS, c1=False, b1=True, b1_bas="1583-06-01")
+KARISIK = copy.deepcopy(Y0); uygula(KARISIK, c1=True, b1=True, b1_bas="1583-06-01")
+for etiket, Y in (("DOĞRU  (C1 + B1 09-13)", SONRA_AB), ("ESKİ   (C1 yok, B1 06-01)", YANLIS),
+                  ("KARIŞIK(C1 var, B1 06-01)", KARISIK)):
+    r, e = bul(Y, "Revan"), bul(Y, "Eçmiyadzin")
+    ters = [g for g in ("1583-06-15", "1583-07-15", "1583-08-15", "1583-09-01")
+            if sahip(e, g) == "OSMANLI" and sahip(r, g) != "OSMANLI"]
+    print("  %-26s Eçmiyadzin OSM iken Revan DEĞİL: %s" % (etiket, ters or "yok ✓"))

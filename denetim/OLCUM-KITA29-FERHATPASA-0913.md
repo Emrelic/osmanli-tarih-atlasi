@@ -193,3 +193,29 @@ OKUMADIM     BOA TD 633'ün KENDİSİ (atıflar makaleler üzerinden) · İslamo
              Talin/Aralık/Karbi koordinatları (3 km taraması YAPILAMADI) ·
              1724-1735 ek bulgusunun günleri
 ```
+
+## ⑦ KARARLAR (1.MURAT, M-3753 cevabı) — ve kararın AÇTIĞI tek risk
+
+```
+① C kaydı   t = 1603-10-21 fiilî · t_hukuki 1612-11-20 kalır · KITA 30 alır
+② B         B1 Eçmiyadzin UYGULA · B2 Nahçıvan 1586 BEKLET
+③ C         C1 Revan başı 1583-09-13 = EMİR günü (benim önerim 1583-09-01 idi — §4 ③
+            ay-başı kodlaması gerekçesiyle REDDEDİLDİ) · C2 Gümrü: dokunma, beyanı düzelt
+④ sıra      koşu 10 yayını → K13-A → bu yama + KITA 14 maddeleri BİRLİKTE
+⑤ ek        1727 TD 901 ayrı kalem, sevk yok
+```
+
+🔴 **Karar ③ JSON'daki B1 değerini bayatlattı — ölçüldü ve düzeltildi.** B1 Eçmiyadzin'in
+başlangıcı Revan'ın başlangıcıdır. İlk teslimdeki (`47895c4`) JSON B1'e `1583-06-01`
+yazıyordu. Benzetim §G:
+```
+C1 + B1 (1583-09-13)              ters durum yok ✓
+C1 uygulanmış + B1 eski 06-01     Eçmiyadzin OSMANLI iken Revan DEĞİL — 4 kesitin 4'ünde 🔴
+```
+⇒ JSON yeniden yazıldı: C1 ve B1 artık aynı gün, dosyanın başında `🔴_UYGULAYANA_TEK_UYARI`.
+📌 `D166`'nın bu işteki hâli: *bir kararın etkisi kararın konusu olan kayıtta bitmez —
+ona BAĞLI kayıtta da ölçülür.*
+
+**Değişmez 2 — kararlar sonrası AÇIK üç gün:** `1574-01-01` (236 gün) · `1588-09-01` (244 gün) ·
+`1583-09-13` (43 gün, en yakın Bakü) — üçü de KITA 14 maddeleriyle BİRLİKTE inmeli
+(M-3743 · M-3760).
