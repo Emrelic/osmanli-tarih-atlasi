@@ -1467,6 +1467,42 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   align-self: flex-start;
 }
 
+/* 🆕 13 Eylül 2026 — paket 0046 ③, data/gorsel_madde.js (js/app.js
+   maddeGorseliniGuncelle). "küçük" olması KASITLI (koordinatörün kararı):
+   bu bir galeri değil, metnin YANINDA duran bir kanıt parçası. */
+#ob-madde-gorsel {
+  margin-top: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+#ob-madde-gorsel:empty { display: none; }
+.ob-madde-gorsel-kart {
+  margin: 0;
+  width: 130px;
+}
+.ob-madde-gorsel-kart img {
+  width: 130px;
+  height: 92px;
+  object-fit: cover;
+  border: 1px solid rgba(74, 59, 30, 0.35);
+  border-radius: 4px;
+  display: block;
+  background: #e8e2d0;
+}
+.ob-madde-gorsel-kart figcaption {
+  font-size: 10px;
+  line-height: 1.3;
+  color: #6b5a33;
+  margin-top: 2px;
+}
+.ob-madde-gorsel-kaynak {
+  color: #1257a8;
+  text-decoration: none;
+  border-bottom: 1px dotted #1257a8;
+}
+span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: italic; }
+
 /* ---------- Sefer okları ---------- */
 /* Sefer okunun adı. Ok başının hemen altında durur; ok döndürüldüğü için
    yazı ayrı bir işarettedir, yoksa o da dönerdi. */
@@ -1821,26 +1857,24 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 }
 .devlet-etiket:hover { color: rgba(52, 38, 22, 1); text-decoration: underline; }
 
-/* Yüzölçümü göstergesi — 7 Ağustos'ta lejanttan zaman çubuğuna taşınmıştı
-   (kapatılabilir bir kutuda durmasın diye), 21 Ağustos'ta Emre'nin isteğiyle
-   HARİTANIN sağ üst köşesine taşındı (`#harita-ust-sag`, panel düğmelerinin
-   altında) — id AYNI kaldı, js/app.js dokunulmadı. Artık koyu bir çubuğun
-   ÜSTÜNDE değil DOĞRUDAN HARİTANIN üstünde durduğu için `#btn-panel` ile
-   AYNI açık-krem rozet stiline geçti; eski sönük koyu-zemin stili haritanın
-   çeşitli renkleri üstünde OKUNMAZ olurdu. */
-#alan-goster {
-  background: rgba(247, 241, 227, 0.94);
-  border: 1px solid var(--altin);
-  border-radius: 6px;
-  padding: 3px 9px;
+/* Yüzölçümü göstergesi — 7 Ağustos'ta lejanttan zaman çubuğuna, 21 Ağustos'ta
+   haritanın sağ üst köşesine taşınmıştı. 13 Eylül 2026 — PAKET 0046/H-0005,
+   Emre: "...bu sayfanın başlangıç çubuğuna/title'ına koyalım, harita
+   üzerinde görünmesin." Üçüncü taşıma: `#harita-ust-sag`ten `<header>`e
+   (`#ustbar-alan`, index.html). Koyu üst çubuğun zemini artık krem-rozet
+   stiliyle ÇARPIŞIYOR — `#tepe-degisim`in ailesinden soluk-altın bir dipnot
+   stiline geçildi (bu çubuktaki DİĞER ikincil bilgilerle AYNI dil). */
+#ustbar-alan {
+  flex: 0 0 auto;
   font-size: 12px;
-  font-weight: bold;
-  color: #5c1020;
+  color: #ffd700;
+  opacity: 0.85;
   white-space: nowrap;
+  margin-left: 4px;
 }
-#alan-goster:empty { display: none; }
-/* Dar ekranda köşe kalabalıklaşmasın — panel düğmeleri önceliği alır. */
-@media (max-width: 720px) { #alan-goster { display: none; } }
+#ustbar-alan:empty { display: none; }
+/* Dar ekranda çubuk kalabalıklaşmasın — yıl ve dönem etiketi önceliği alır. */
+@media (max-width: 720px) { #ustbar-alan { display: none; } }
 
 /* Konu süzgeci (PLAN-ETIKET §8) — kronoloji listesinin üstünde, KAPALI açılır.
    Varsayılan kapalı: süzgeç bir araç, atlasın kendisi değil; açık dursaydı

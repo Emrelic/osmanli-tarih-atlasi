@@ -5843,7 +5843,7 @@ function guncelle() {
     // p23/H-0014 — etiketi ARTIK BURASI YAZMIYOR. Bu dal yalnız dönem
     // DEĞİŞTİĞİNDE giriliyor (`di !== aktifDonem`), yani buradan yazılan metin
     // sonraki bütün günlerde takılı kalıyordu. Tek yazan: tepeEtiketGuncelle().
-    var alanBos = document.getElementById("alan-goster");
+    var alanBos = document.getElementById("ustbar-alan"); // 0046/H-0005: haritadan üst çubuğa taşındı
     if (alanBos) alanBos.textContent = "📐 tek gövde yok — paylar ayrı ayrı";
   } else if (haritaHazir && di >= 0 && di !== aktifDonem) {
     aktifDonem = di;
@@ -5874,7 +5874,7 @@ function guncelle() {
     harita.getSource("serbest").setData(d.sb || bosVeri());
     harita.getSource("bolge").setData(bolgeVerisi(suanki));
     // p23/H-0014 — `d.ad` buradan YAZILMIYOR (yukarıdaki gerekçe).
-    var alanEl = document.getElementById("alan-goster");
+    var alanEl = document.getElementById("ustbar-alan"); // 0046/H-0005: haritadan üst çubuğa taşındı
     if (alanEl) {
       {
         // ⚠️ ZİRVEYE GÖRE KONUM — kullanıcının asıl şikâyetinin cevabı.
@@ -6647,7 +6647,68 @@ function obGoster(o) {
   }
   kartvizitGuncelle(o);
   ekOkumaButonlariGuncelle(o);
+  maddeGorseliniGuncelle(o);
   obPanel.classList.remove("gizli");
+}
+
+// 🆕 13 Eylül 2026 — paket 0046, ③ (koordinatörün kararı). Madde görseli
+// `ob-gorsel`den AYRI bir yuva (`ob-madde-gorsel`, index.html): o yuva
+// YALNIZ padişah/vefat portresi için (M-3651'de ölçtüm), bu maddenin
+// KENDİ görseli (paşa portresi, savaş minyatürü, albüm…) için değil.
+// Veri `window.GORSEL_MADDE` — `ekOkumaMerakYukle`nin çektiği dosyalardan
+// biri (app.js:_EKOKUMA_DOSYA_ADLARI, "gorsel_madde"), İKİNCİ bir
+// yükleyici YAZILMADI (D045: aynı iş için ikinci bir mekanizma açmak,
+// birini bayatlatmanın kesin yoludur).
+// 🔴 LİSANS KIRMIZI ÇİZGİSİ (Emre, 8. boyut kararı — CLAUDE.md §1.6):
+// yalnız PD ailesi (PD, PD-Art, PD-old, PD-old-70, PD-old-100, PD-US) ve
+// CC0 gösterilir; CC-BY-SA gibi başka bir jeton (ya da jeton HİÇ yoksa —
+// bkz. "1578-01-02-hunername-albumu" kaydının üst seviye `lisans`ı
+// tanımsız, D107 "okumadım" değil BU KOD "gösterme" der) SESSİZCE atlanır.
+function _gorselLisansGosterilebilirMi(l) {
+  if (!l) return false;
+  var s = String(l).toUpperCase();
+  return s === "CC0" || s.indexOf("PD") === 0;
+}
+function maddeGorseliniGuncelle(o) {
+  var kutu = document.getElementById("ob-madde-gorsel");
+  if (!kutu) return;
+  if (!EKOKUMA_DURUM.yuklendi) {
+    // Aynı gecikmeli-tekrar deseni ekOkumaButonlariGuncelle'nin — dosya
+    // henüz gelmemişse bir kez geldiğinde AYNI maddedeysek yeniden çiz.
+    ekOkumaMerakYukle(function () { if (aktifOlay === o) maddeGorseliniGuncelle(o); });
+    return;
+  }
+  kutu.innerHTML = "";
+  var kayit = (window.GORSEL_MADDE || []).find(function (g) {
+    return (g.olay || []).indexOf(o.t) >= 0;
+  });
+  if (!kayit) return;
+  // "albüm" türü (Hünernâme) `gorseller:[...]` dizisi taşıyor, "madde"/
+  // "portre" türü alanları KENDİ ÜZERİNDE taşıyor — ikisi de AYNI döngüden
+  // geçsin diye tekil kayıt `[kayit]` olarak sarılıyor (yeni bir dal DEĞİL).
+  (kayit.gorseller || [kayit]).forEach(function (r) {
+    if (!_gorselLisansGosterilebilirMi(r.lisans)) return;   // ZORUNLU şart ①
+    if (!r.url || !r.gorsel_alt) return;                     // erişilebilirlik alanı ŞART
+    var fig = document.createElement("figure");
+    fig.className = "ob-madde-gorsel-kart";
+    var img = document.createElement("img");
+    img.src = r.url; img.alt = r.gorsel_alt; img.loading = "lazy";
+    img.onerror = function () { fig.remove(); };   // dosya henüz yoksa sessiz — kırık ikon YOK
+    fig.appendChild(img);
+    var alt = document.createElement("figcaption");
+    var ust = [r.eser, r.sanatci, r.yil].filter(Boolean).join(" · ");
+    if (ust) alt.appendChild(document.createTextNode(ust));
+    // ZORUNLU ②: kaynak HER ZAMAN görünür — link varsa tıklanabilir,
+    // yoksa (bu kayıt setinde hiç yok ama D107 disiplini) düz metin.
+    var kaynakEl = r.gorsel_kaynak ? document.createElement("a") : document.createElement("span");
+    kaynakEl.className = "ob-madde-gorsel-kaynak";
+    if (r.gorsel_kaynak) { kaynakEl.href = r.gorsel_kaynak; kaynakEl.target = "_blank"; kaynakEl.rel = "noopener"; }
+    kaynakEl.textContent = "kaynak" + (r.lisans ? " · " + r.lisans : "");
+    if (ust) alt.appendChild(document.createElement("br"));
+    alt.appendChild(kaynakEl);
+    fig.appendChild(alt);
+    kutu.appendChild(fig);
+  });
 }
 
 // ---------- EK OKUMA (sebep-sonuç · magazin) ve MERAK ----------
@@ -6690,17 +6751,32 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_edebiyat",   // KITA 17, M-3654/M-3657
   "ekokuma_savas",      // KITA 20, TUR-KITA20-SAVAS-0913.md
   "ekokuma_sh104",      // 1 Eylül'den beri bekleyen yetim (M-3661)
-  "ekokuma_tartisma",   // KITA 26, M-3690 — henüz diskte YOK, sessizce atlanır
-  "ekokuma_kadin",      // KITA 27, M-3693 — henüz diskte YOK, sessizce atlanır
-  "ekokuma_ekonomi",    // KITA 28, M-3686 — henüz diskte YOK, sessizce atlanır
+  "ekokuma_tartisma",   // KITA 26, M-3690
+  "ekokuma_kadin",      // KITA 27, M-3693
+  "ekokuma_ekonomi",    // KITA 28, M-3686 — 13 Eylül'de üçü de diske indi (dosya
+                        // adı zaten dizideydi, KOD DEĞİŞMEDEN göründüler)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
   // gerekir). O karar gelmeden dosya hazırda dursun diye eklendi.
   "gorsel_madde"        // KITA 24, M-3650
 ];
+// 🔴🔴 13 Eylül 2026 — SONSUZ ÖZ-ÖZYİNELEME (D029, canlı tarayıcıda
+// yakalandı, "Maximum call stack size exceeded"). ESKİ HÂLİ: `deneniyor`
+// true iken gelen ÇAĞRIYA `biterse()` HEMEN çağrılıyordu — sanki dosyalar
+// GERÇEKTEN gelmiş gibi. `obGoster` aynı tikte `ekOkumaButonlariGuncelle`
+// SONRA `maddeGorseliniGuncelle`yi çağırınca: ①. çağrı yüklemeyi
+// BAŞLATIYOR (deneniyor=true) ②. çağrı (henüz `yuklendi` değilken) bu
+// dala düşüp `biterse()`yi ERKEN çağırıyor → `maddeGorseliniGuncelle`
+// KENDİSİNİ tekrar çağırıyor → o da `!EKOKUMA_DURUM.yuklendi` görüp
+// yeniden `ekOkumaMerakYukle` çağırıyor → SONSUZ DÖNGÜ (hiçbir gerçek
+// dosya hiç yüklenmeden). ⇒ ÇARE: `deneniyor` sırasında gelen `biterse`
+// callback'leri bir KUYRUĞA yazılır, GERÇEK yükleme bitince (`kalan<=0`)
+// HEPSİ BİRDEN çağrılır — erken/sahte "bitti" sinyali YOK.
+var _ekOkumaBekleyenler = [];
 function ekOkumaMerakYukle(biterse) {
-  if (EKOKUMA_DURUM.yuklendi || EKOKUMA_DURUM.deneniyor) { if (biterse) biterse(); return; }
+  if (EKOKUMA_DURUM.yuklendi) { if (biterse) biterse(); return; }
+  if (EKOKUMA_DURUM.deneniyor) { if (biterse) _ekOkumaBekleyenler.push(biterse); return; }
   EKOKUMA_DURUM.deneniyor = true;
   var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
   var v = (damga.match(/v=(r\d+)/) || [])[1];
@@ -6713,7 +6789,10 @@ function ekOkumaMerakYukle(biterse) {
       EKOKUMA_DURUM.yuklendi = true;
       console.log("[ekOkuma] " + _bulunan + "/" + _EKOKUMA_DOSYA_ADLARI.length +
                    " dosya yüklendi (" + _bulunmayan + " henüz yok, normal).");
+      var bekleyenler = _ekOkumaBekleyenler;
+      _ekOkumaBekleyenler = [];
       if (biterse) biterse();
+      bekleyenler.forEach(function (cb) { cb(); });
     }
   }
   _EKOKUMA_DOSYA_ADLARI.forEach(function (ad) {

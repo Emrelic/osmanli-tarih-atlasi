@@ -135,6 +135,17 @@
        EN SAĞINDA — tarih bloğu (`#ustbar-orta`) sağa yanaşık olarak
        hemen solunda bitiyor (bkz. css/style.css `#ustbar-orta`). -->
   <div id="ustbar-yil"></div>
+  <!-- 🆕 13 Eylül 2026 — PAKET 0046/H-0005, Emre: "bu kaç milyon
+       kilometrekare ve zirvenin % kaçı şeklinde görünen bilgi etiketini
+       bu sayfanın başlangıç çubuğuna/title'ına koyalım, harita üzerinde
+       görünmesin." Eski yer (21 Ağustos kararı, `#harita-ust-sag`/
+       `#alan-goster`, haritanın sağ üst köşesi) TERSİNE ÇEVRİLDİ — daha
+       YENİ ve daha somut bir talep üstüne geçti (aynı desen KITA 12'nin
+       halka-3-çevrim notundaki gibi: eski karar yanlış değildi, yenisi
+       onun üstüne geçti). Etiket id'si DEĞİŞTİ (`ustbar-alan`) çünkü artık
+       başka bir konteynerde/başka bir stil ailesinde; js/app.js'teki iki
+       `getElementById("alan-goster")` çağrısı da `ustbar-alan`'a çevrildi. -->
+  <span id="ustbar-alan" title="O anki toprak alanı ve tarihteki zirveye oranı"></span>
   <!-- 🆕 2 Eylül 2026 — kuyruk ⑤/②, Emre'nin bugünkü kararı: p2/H-0010'da
        kaldırılan "Hakkında" (proje künyesi + BEKLEYENLER tablosu) GERİ
        GELMİYOR — yalnız MİNİMAL bir sürüm damgası. Değer BURADA elle
@@ -147,13 +158,11 @@
 </header>
 
   <div id="harita">
-    <!-- 🔴 21 Ağustos — Emre: "kilometrekare göstergesini haritanın üzerinde
-         en sağ köşede yazdıralım" (eskiden alt çubuktaydı, bkz. footer'daki
-         not). `#harita-ust-sag` TEK bir köşe-sarmalı: düğmeler ÜSTTE, km²
-         ALTTA — ikisi ayrı ayrı `position:absolute` olsaydı aynı köşede
-         çakışırlardı. `#alan-goster` id'si AYNI KALDI, js/app.js'teki
-         `document.getElementById("alan-goster")` DOKUNULMADAN çalışıyor;
-         yalnız DOM'daki YERİ değişti. -->
+    <!-- 🔴 13 Eylül 2026 — `#alan-goster` (km² rozeti) BURADAN KALKTI,
+         `#ustbar-alan`'a taşındı (yukarıda, `<header>` içinde) — PAKET
+         0046/H-0005. `#harita-ust-sag` artık yalnız panel düğmesini
+         taşıyor; köşe-sarmalın kendisi SİLİNMEDİ, yarın başka bir harita
+         rozeti eklenirse aynı yapı hazır bekliyor. -->
     <div id="harita-ust-sag">
       <!-- 🔴 21 Ağustos — PAKET 0025/H-0003: `#btn-panel-genislik` (dar/geniş)
            BURADAN `#padisah-karti`ye TAŞINDI (Emre: "padişah isminin sağ
@@ -165,7 +174,6 @@
       <div id="harita-dugmeler">
         <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
       </div>
-      <div id="alan-goster"></div>
     </div>
     <!-- Bölge önayarları p2/H-0010 ile üst çubuğa taşındı (id="bolge" aynı,
          yalnız DOM konumu değişti — js/app.js id üzerinden çalışıyor). -->
@@ -448,6 +456,12 @@
            dolar (js/app.js haritayiOlayaGotur). -->
       <div id="ob-yer-yok"></div>
       <div id="ob-detay"></div>
+      <!-- 🆕 13 Eylül 2026 — H-0004/H-0005 (paket 0045, KITA 24 · şema
+           denetim/SEMA-GORSEL-MADDE-0913.md, veri data/gorsel_madde.js).
+           `ob-gorsel` (yukarıda) YALNIZ padişah/vefat portresi içindir
+           (M-3651'de ölçüldü); madde görseli AYRI bir yuva — js/app.js
+           obGoster() dolduruyor, PD/CC0 dışı lisans hiç basılmaz. -->
+      <div id="ob-madde-gorsel"></div>
       <div id="ob-ozel"></div>
       <!-- DUYGU-VE-SEKME-SARTNAME.md §B — PADISAH-KARTVIZITI.md yalnız
            o.vefat_id çözülen maddede dolar (js/app.js kartvizitGuncelle).
