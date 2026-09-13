@@ -114271,7 +114271,8 @@
   "okuyan": {
    "1.MURAT": "2026-09-13 06:16",
    "KITA 26": "2026-09-13 06:17",
-   "KITA 15": "2026-09-13 06:27"
+   "KITA 15": "2026-09-13 06:27",
+   "KITA 30": "2026-09-13 06:29"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -114340,7 +114341,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KITA 30": "2026-09-13 06:29"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -114653,7 +114656,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KITA 30": "2026-09-13 06:29"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
