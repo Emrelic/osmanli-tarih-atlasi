@@ -75,7 +75,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"karakoyunlular", duygu:["⚔️","👑"] },
 
 { t:"1438-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"Kazan Hanlığı'nın kuruluşu — Uluğ Muhammed Han'ın Altınorda'dan ayrılışı",
+  kapsam:"dis", b:"Kazan Hanlığı'nın kuruluşu — Uluğ Muhammed Han'ın Altınorda'dan ayrılışı",
   gun:"1437-1438 (TDV iki yıl arası bir süreç olarak verir)",
   yer:"Kazan, Sviyajsk, Çeboksarı, Çistopol, Yelabuga, Malmıj, Sarapul, Tetyuşi, Buğulma, Alatır, Birsk, Buinsk",
   yer_id:"Kazan", kisiler:"Uluğ Muhammed Han",
@@ -99,7 +99,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"karakoyunlular", duygu:["⚔️","👑"] },
 
 { t:"1537-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-idari"],
-  b:"Norveç'in Danimarka tacına bağlı bir eyalete indirgenmesi",
+  kapsam:"dis", b:"Norveç'in Danimarka tacına bağlı bir eyalete indirgenmesi",
   gun:"1536 tüzüğü, 1537'de yürürlüğe girdi",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Akureyri, Reykjavík",
   yer_id:"Oslo", kisiler:"III. Christian",
@@ -115,7 +115,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["⚔️","😔"] },
 
 { t:"1809-09-17", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
+  kapsam:"dis", b:"Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
   gun:"17 Eylül 1809",
   yer:"Helsinki, Turku (Åbo), Tampere, Oulu, Kuopio, Vaasa, Mikkeli, Hämeenlinna, Pori, Jyväskylä",
   yer_id:"Helsinki", kisiler:"Kurt Ludwig von Stedingk, Nikolay Rumyantsev",
@@ -123,7 +123,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["😔"] },
 
 { t:"1814-01-14", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
+  kapsam:"dis", b:"Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
   gun:"14 Ocak 1814",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Kristiansand, Haugesund, Lillehammer, Skien, Sogndal, Tønsberg, Mosjøen, Røros",
   yer_id:"Oslo", kisiler:"VI. Frederik, XIII. Karl",
@@ -131,7 +131,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["😔","👑"] },
 
 { t:"1861-02-13", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  b:"Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü",
+  kapsam:"dis", b:"Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü",
   gun:"13 Şubat 1861",
   yer:"Napoli, Bari, Brindisi, Lecce, Foggia, Taranto, Reggio Calabria, Katanya (Catania), Palermo, Messina, Cosenza, L'Aquila, Sirakuza",
   yer_id:"Napoli", kisiler:"II. Francesco (Francis II)",
@@ -139,7 +139,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["😔","⚔️"] },
 
 { t:"1861-03-17", k:"kurulus", etiket:["siyaset","konu-siyasi"],
-  b:"İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtalya'nın birleşmesi",
+  kapsam:"dis", b:"İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtalya'nın birleşmesi",
   gun:"17 Mart 1861",
   yer:"Torino, Milano, Cenova, Floransa, Pisa, Siena, Elba, Bolonya, Ferrara, Ancona, Bergamo, Brescia, Kalyari (Cagliari), Sasari (Sassari)",
   yer_id:"Torino", kisiler:"II. Vittorio Emanuele",
@@ -147,7 +147,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["🎉","👑"] },
 
 { t:"1905-06-07", k:"siyaset", etiket:["siyaset","konu-siyasi"],
-  b:"Norveç-İsveç Birliği'nin feshi — Storting'in tek taraflı bağımsızlık ilânı",
+  kapsam:"dis", b:"Norveç-İsveç Birliği'nin feshi — Storting'in tek taraflı bağımsızlık ilânı",
   gun:"7 Haziran 1905",
   yer:"Bergen, Trondheim, Oslo, Stavanger, Tromsø, Bodø, Ålesund, Hamar, Kristiansund, Molde, Alta, Vardø, Kristiansand, Haugesund, Lillehammer, Skien, Sogndal, Tønsberg, Mosjøen, Røros",
   yer_id:"Oslo", kisiler:"II. Oscar, Christian Michelsen",
@@ -155,7 +155,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["🎉","👑"] },
 
 { t:"1516-01-23", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
-  b:"Alçak Ülkeler'in İspanya tacına bağlanması — Ferdinand'ın ölümü, Şarlken'in tahta çıkışı",
+  kapsam:"dis", b:"Alçak Ülkeler'in İspanya tacına bağlanması — Ferdinand'ın ölümü, Şarlken'in tahta çıkışı",
   gun:"23 Ocak 1516",
   yer:"Brüksel, Gent, Anvers (Antwerpen), Brüj (Brugge), Amsterdam, Rotterdam, Utrecht, Groningen, Leeuwarden, Maastricht, Nijmegen, Mons, Namur, Arras, Lille, Ypres, Lüksemburg, Besançon, Middelburg",
   yer_id:"Brüksel", kisiler:"II. Ferdinand (Aragon), Şarlken (V. Karl)",
@@ -179,7 +179,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["😔"] },
 
 { t:"1795-10-24", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması",
+  kapsam:"dis", b:"Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması",
   gun:"24 Ekim 1795",
   yer:"Kaunas, Krakov, Varşova, Vilnius, Šiauliai",
   yer_id:"Varşova", kisiler:"II. Katerina, II. Friedrich Wilhelm, II. Franz",
@@ -187,7 +187,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı", duygu:["😔"] },
 
 { t:"1507-05-24", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Şeybânî Han'ın Herat'ı ve Horasan'ı Timurlulardan alışı",
+  kapsam:"dis", b:"Şeybânî Han'ın Herat'ı ve Horasan'ı Timurlulardan alışı",
   gun:"8 Muharrem 913 / 20 Mayıs 1507 (Herat'ın düşüşü) — 15 Muharrem/27 Mayıs (hutbenin Şeybânî adına okunuşu)",
   yer:"Meşhed, Nîşâbur, Sebzevâr, Serahs, Tûs, Merv (Mari), Nesâ, Ebîverd, Kelât-ı Nâdirî, Kûçân, Esferâyin, Bocnûrd, Kâin, Bîrcend, Turbet-i Haydariye, Turbet-i Câm, Turşiz (Kâşmer)",
   yer_id:"Meşhed", kisiler:"Şeybânî Han, Bediüzzaman Mirza",
@@ -195,7 +195,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"seybani-han", duygu:["⚔️","👑"] },
 
 { t:"1527-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Demak Sultanlığı'nın Majapahit'i yıkıp Cava kıyısına hâkim olması",
+  kapsam:"dis", b:"Demak Sultanlığı'nın Majapahit'i yıkıp Cava kıyısına hâkim olması",
   gun:"1527", ic_not_gun:"TDV yıl verir, gün vermez (0035/H-0062, PAKET-A3: parantezli süreç notu okur alanından taşındı).",
   yer:"Surabaya, Blitar, Bojonegoro, Jepara, Kudus, Madiun, Malang, Pasuruan, Pekalongan, Ponorogo, Rembang, Sumenep (Madura), Tegal, Trowulan (Majapahit)",
   yer_id:"Surabaya", kisiler:"Raden Patah, Sultan Trenggana",
@@ -203,7 +203,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"demak", duygu:["⚔️","🕌"] },
 
 { t:"1884-07-18", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı",
+  kapsam:"dis", b:"Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı",
   gun:"14-21 Temmuz 1884 (Habar Avel kabilesiyle ilk antlaşma 14 Temmuz)",
   yer:"Berbera, Bulhar, Hargeysa, Burao, Erigavo, Borama, Lasanod, Odveyne, Buhodle, Ceel Afveyn, Hîs, Lâs Hore, Mayd, Taleh, Şeyh (Somaliland)",
   yer_id:"Berbera", kisiler:"Habar Avel kabile reisleri",
@@ -211,7 +211,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"somali", duygu:["😔"] },
 
 { t:"1905-01-01", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi",
+  kapsam:"dis", b:"İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi",
   gun:"24 Ocak 1905",
   yer:"Mogadişu, Afgoye, Bardere, Baydoa, Beledveyne, Berâve, Bulo Burte, Cadale, Ceel Barde, Cilib, Diinsoor, Garbahârey, Hudur, Luuk, Merka, Vanlaveyn",
   yer_id:"Mogadişu", kisiler:"III. Vittorio Emanuele",
@@ -227,7 +227,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)", duygu:["😔"] },
 
 { t:"1503-04-02", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
+  kapsam:"dis", b:"Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
   gun:"25 Mart 1503 (Müjde/Annunciation mütarekesi)", ic_not_gun:"veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
   yer:"Kiev, Kursk, Nikarya (İkarya), Baturin, Hluhiv, Novgorod-Seversk, Orel, Poltava, Putivl, Çernigov",
   yer_id:"Çernigov", kisiler:"III. İvan, II. Ulászló (Vladislav)",
@@ -235,7 +235,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Moskova-Litvanya savaşları tarihyazımı)", duygu:["😔"] },
 
 { t:"1797-05-12", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
-  b:"Venedik Cumhuriyeti'nin sonu — Büyük Meclis kendini feshetti",
+  kapsam:"dis", b:"Venedik Cumhuriyeti'nin sonu — Büyük Meclis kendini feshetti",
   gun:"12 Mayıs 1797",
   yer:"Venedik, Verona, Padova, Brescia, Bergamo, Udine",
   yer_id:"Venedik", kisiler:"Ludovico Manin (son doge), Napolyon Bonapart",
@@ -243,7 +243,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Fall of the Republic of Venice tarihyazımı)", duygu:["😔"] },
 
 { t:"1561-11-28", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
+  kapsam:"dis", b:"Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
   gun:"28 Kasım 1561",
   yer:"Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Daugavpils (Dünaburg), Narva",
   yer_id:"Riga", kisiler:"II. Zygmunt August, Gotthard Kettler",
@@ -251,7 +251,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Livonian War / Treaty of Vilnius tarihyazımı)", duygu:["😔"] },
 
 { t:"1581-07-26", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İspanya'dan bağımsızlığını ilan etti",
+  kapsam:"dis", b:"Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İspanya'dan bağımsızlığını ilan etti",
   gun:"26 Temmuz 1581",
   yer:"Amsterdam, Rotterdam, Utrecht, Groningen, Leeuwarden, Nijmegen, Middelburg",
   yer_id:"Amsterdam", kisiler:"II. Felipe, Oranya Prensi Sessiz Willem",
@@ -259,7 +259,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Act of Abjuration tarihyazımı)", duygu:["🎉"] },
 
 { t:"1714-03-07", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
-  b:"Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
+  kapsam:"dis", b:"Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
   gun:"7 Mart 1714",
   yer:"Milano, Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Ypres, Lüksemburg",
   yer_id:"Milano", kisiler:"VI. Karl (Avusturya), XIV. Louis",
@@ -267,7 +267,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Rastatt tarihyazımı)", duygu:["⚔️"] },
 
 { t:"1721-08-30", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
+  kapsam:"dis", b:"Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
   gun:"30 Ağustos 1721",
   yer:"Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Narva, Lappeenranta",
   yer_id:"Riga", kisiler:"I. Petro (Büyük Petro), XII. Karl'ın ardılları",
@@ -275,7 +275,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Nystad tarihyazımı)", duygu:["😔"] },
 
 { t:"1815-06-09", k:"antlasma", etiket:["toprak-kayip","toprak-kazanc","konu-askeri","konu-diplomasi"],
-  b:"Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi",
+  kapsam:"dis", b:"Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi",
   gun:"9 Haziran 1815",
   yer:"Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Liège, Lüksemburg, Cenova, Varşova, Stralsund, Ypres",
   yer_id:"Brüksel", kisiler:"Metternich, Talleyrand, I. Aleksandr, VIII. Willem (Hollanda)",
@@ -291,7 +291,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı yeterli ayrıntıda doğrulamıyor, dayanak: standart akademik kaynak (Spanish conquest of Oran, 1509 tarihyazımı)", duygu:["😔"] },
 
 { t:"1611-06-13", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
-  b:"Smolensk'in Lehistan-Litvanya'ya düşüşü — 20 aylık kuşatmanın sonu",
+  kapsam:"dis", b:"Smolensk'in Lehistan-Litvanya'ya düşüşü — 20 aylık kuşatmanın sonu",
   gun:"13 Haziran 1611",
   yer:"Smolensk",
   yer_id:"Smolensk", kisiler:"III. Zygmunt (Lehistan), Şeyn (Rus komutan)",
@@ -299,7 +299,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1609-1611 tarihyazımı)", duygu:["😔"] },
 
 { t:"1617-02-27", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+  kapsam:"dis", b:"Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
   gun:"27 Şubat 1617",
   yer:"St. Petersburg (bölgesi), Oreşek (Nöteborg)",
   yer_id:"St. Petersburg", kisiler:"XVI. (Genç) Gustav Adolf, I. Mihail Romanov",
@@ -307,7 +307,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Stolbovo tarihyazımı)", duygu:["😔"] },
 
 { t:"1618-12-11", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
+  kapsam:"dis", b:"Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
   gun:"11 Aralık 1618",
   yer:"Smolensk, Çernigov, Novgorod-Seversk",
   yer_id:"Çernigov", kisiler:"Władysław (veliaht prens), I. Mihail Romanov",
@@ -315,7 +315,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Deulino tarihyazımı)", duygu:["😔"] },
 
 { t:"1654-01-08", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
-  b:"Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
+  kapsam:"dis", b:"Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
   gun:"8 Ocak 1654",
   yer:"Çernigov, Novgorod-Seversk, Baturin",
   yer_id:"Çernigov", kisiler:"Bohdan Hmelnitski, I. Aleksey Mihayloviç",
@@ -323,7 +323,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Pereyaslav Council 1654 tarihyazımı)", duygu:["😔"] },
 
 { t:"1654-10-03", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Smolensk'in Rusya tarafından geri alınışı",
+  kapsam:"dis", b:"Smolensk'in Rusya tarafından geri alınışı",
   gun:"3 Ekim 1654",
   yer:"Smolensk",
   yer_id:"Smolensk", kisiler:"I. Aleksey Mihayloviç",
@@ -331,7 +331,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1654 tarihyazımı)", duygu:["😔"] },
 
 { t:"1667-02-09", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+  kapsam:"dis", b:"Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
   gun:"30 Ocak 1667 (Jülyen) / 9 Şubat 1667 (Gregoryen)",
   yer:"Kiev",
   yer_id:"Kiev", kisiler:"I. Aleksey Mihayloviç, II. Jan Kazimierz",
@@ -339,7 +339,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Andrusovo tarihyazımı)", duygu:["😔"] },
 
 { t:"1703-05-27", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"St. Petersburg'un kuruluşu — Rusya'nın Batı'ya açılan penceresi",
+  kapsam:"dis", b:"St. Petersburg'un kuruluşu — Rusya'nın Batı'ya açılan penceresi",
   gun:"16/27 Mayıs 1703 (Jülyen/Gregoryen)",
   yer:"St. Petersburg",
   yer_id:"St. Petersburg", kisiler:"I. Petro (Büyük Petro)",
@@ -347,7 +347,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (founding of Saint Petersburg tarihyazımı)", duygu:["🎉"] },
 
 { t:"1802-03-25", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
-  b:"Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+  kapsam:"dis", b:"Amiens Antlaşması — Menorka İspanya'ya geri verildi",
   gun:"25 Mart 1802",
   yer:"Menorka (Mahon)",
   yer_id:"Menorka (Mahon)", kisiler:"III. George, IV. Carlos",
@@ -355,7 +355,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Amiens tarihyazımı)", duygu:["😔"] },
 
 { t:"1820-01-08", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye başladı",
+  kapsam:"dis", b:"Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye başladı",
   gun:"8 Ocak 1820 (imzalar 8 Ocak-15 Mart arası şeyhlik şeyhlik tamamlandı)",
   yer:"Ras el-Hayme (Cülfâr), Şârika, Abu Dabi",
   yer_id:"Şârika", kisiler:"Sultan bin Suggur (Şârika-Ras el-Hayme şeyhi)",
@@ -371,7 +371,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu savaşı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Mulayda tarihyazımı)", duygu:["⚔️"] },
 
 { t:"1492-01-02", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
-  b:"Granada'nın düşüşü — İber Yarımadası'nda son Müslüman devletin sonu",
+  kapsam:"dis", b:"Granada'nın düşüşü — İber Yarımadası'nda son Müslüman devletin sonu",
   gun:"2 Ocak 1492",
   yer:"Granada",
   yer_id:"Granada", kisiler:"Ebû Abdullah (Boabdil), Kastilyalı Isabel, Aragonlu Fernando",
@@ -379,7 +379,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Fall of Granada / Reconquista tarihyazımı)", duygu:["😔"] },
 
 { t:"1466-10-19", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
-  b:"İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
+  kapsam:"dis", b:"İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
   gun:"19 Ekim 1466",
   yer:"Gdansk",
   yer_id:"Gdansk", kisiler:"IV. Kazimierz (Lehistan)",
@@ -387,7 +387,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Second Peace of Thorn 1466 tarihyazımı)", duygu:["😔"] },
 
 { t:"1797-06-14", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
-  b:"Cenova Cumhuriyeti'nin sonu — Napolyon Ligurya Cumhuriyeti'ni kurdu",
+  kapsam:"dis", b:"Cenova Cumhuriyeti'nin sonu — Napolyon Ligurya Cumhuriyeti'ni kurdu",
   gun:"14 Haziran 1797",
   yer:"Cenova",
   yer_id:"Cenova", kisiler:"Napolyon Bonapart",
@@ -395,7 +395,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Ligurian Republic 1797 tarihyazımı)", duygu:["😔"] },
 
 { t:"1800-09-05", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
-  b:"Malta'nın İngiltere'ye teslimi — iki yıllık Fransız kuşatmasının sonu",
+  kapsam:"dis", b:"Malta'nın İngiltere'ye teslimi — iki yıllık Fransız kuşatmasının sonu",
   gun:"5 Eylül 1800",
   yer:"Malta",
   yer_id:"Malta", kisiler:"General Claude-Henri Vaubois, General Henry Pigot",
@@ -411,7 +411,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Kingdom of Imereti / Russian annexation 1810 tarihyazımı)", duygu:["😔"] },
 
 { t:"1452-10-23", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Bordeaux'nun İngiltere tarafından geri alınışı — John Talbot'ın son Gaskonya seferi",
+  kapsam:"dis", b:"Bordeaux'nun İngiltere tarafından geri alınışı — John Talbot'ın son Gaskonya seferi",
   gun:"22-23 Ekim 1452",
   yer:"Bordo",
   yer_id:"Bordo", kisiler:"John Talbot (Shrewsbury Kontu)",
@@ -419,7 +419,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Hundred Years' War / recapture of Bordeaux 1452 tarihyazımı)", duygu:["⚔️"] },
 
 { t:"1453-10-19", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
-  b:"Bordeaux'nun Fransa'ya kalıcı dönüşü — Yüz Yıl Savaşları'nın fiilî sonu",
+  kapsam:"dis", b:"Bordeaux'nun Fransa'ya kalıcı dönüşü — Yüz Yıl Savaşları'nın fiilî sonu",
   gun:"19 Ekim 1453",
   yer:"Bordo",
   yer_id:"Bordo", kisiler:"VII. Charles (Fransa)",
@@ -427,7 +427,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Castillon / Hundred Years' War tarihyazımı)", duygu:["😔"] },
 
 { t:"1708-09-29", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
-  b:"Menorka'nın İngiltere-Hollanda kuvvetlerince ele geçirilişi",
+  kapsam:"dis", b:"Menorka'nın İngiltere-Hollanda kuvvetlerince ele geçirilişi",
   gun:"28-29 Eylül 1708",
   yer:"Menorka (Mahon)",
   yer_id:"Menorka (Mahon)", kisiler:"General James Stanhope",
@@ -435,7 +435,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Capture of Minorca 1708 tarihyazımı)", duygu:["😔"] },
 
 { t:"1866-10-18", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
-  b:"Cizzah'ın (Jizzakh) Rusya'ya düşüşü — Buhara Emirliği'nin Sirderya hattındaki son kalesi",
+  kapsam:"dis", b:"Cizzah'ın (Jizzakh) Rusya'ya düşüşü — Buhara Emirliği'nin Sirderya hattındaki son kalesi",
   gun:"Ekim 1866 (7 günlük kuşatma ve baskının ardından)",
   yer:"Cizzah",
   yer_id:"Cizzah", kisiler:"General Dmitri Romanovski",
@@ -443,7 +443,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Russian conquest of Central Asia / Battle of Jizzakh 1866 tarihyazımı)", duygu:["😔"] },
 
 { t:"1882-03-10", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
-  b:"Assab'ın İtalyan devlet mülkiyetine geçişi — İtalya'nın ilk sömürgesinin temeli",
+  kapsam:"dis", b:"Assab'ın İtalyan devlet mülkiyetine geçişi — İtalya'nın ilk sömürgesinin temeli",
   gun:"10 Mart 1882",
   yer:"Aseb",
   yer_id:"Aseb", kisiler:"Rubattino Gemicilik Şirketi",
@@ -459,7 +459,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Anglo-Qatari Treaty of 1916 tarihyazımı)", duygu:["😔"] },
 
 { t:"1335-05-02", k:"siyaset", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması",
+  kapsam:"dis", b:"Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması",
   gun:"2 Nisan 1335 (Dük VI. Heinrich'in ölümü) — Habsburg beratı birkaç hafta içinde",
   yer:"Ljubljana",
   yer_id:"Ljubljana", kisiler:"Karintiya Dükü VI. Heinrich, Habsburglu II. Albrecht ve IV. Otto",

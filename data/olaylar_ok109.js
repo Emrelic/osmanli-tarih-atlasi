@@ -97,7 +97,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-10-31", k: "siyaset", etiket: ["siyaset", "ayaklanma", "konu-siyasi", "konu-isyan"],
-    b: "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi", yer_kon:[47.498,19.04],
+    kapsam:"dis", b: "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi", yer_kon:[47.498,19.04],
     gun: "31 Ekim 1918",
     yer: "Budapeşte",
     kisiler: "Kont Mihály Károlyi",
@@ -107,7 +107,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-11-03", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
-    b: "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti", kapsam_genis:true,
+    kapsam:"dis", b: "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti", kapsam_genis:true,
     gun: "3 Kasım 1918",
     yer: "Padova (Villa Giusti), Trento, Trieste",
     kisiler: "İmparator Karl",
@@ -127,7 +127,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1918-11-18", k: "taht", etiket: ["siyaset","konu-siyasi","konu-hanedan"],
-    b: "İmparator Karl'ın çekilişi — Habsburg hânedanının sonu", yer_kon:[48.208,16.373],
+    kapsam:"dis", b: "İmparator Karl'ın çekilişi — Habsburg hânedanının sonu", yer_kon:[48.208,16.373],
     gun: "18 Kasım 1918",
     yer: "Viyana",
     kisiler: "İmparator Karl",
@@ -147,7 +147,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1919-09-10", k: "antlasma", etiket: ["antlasma","konu-diplomasi","konu-hukuk"],
-    b: "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti", kapsam_genis:true,
+    kapsam:"dis", b: "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti", kapsam_genis:true,
     gun: "10 Eylül 1919",
     yer: "Saint-Germain-en-Laye, Viyana",
     kisiler: "—",
@@ -157,7 +157,7 @@ window.OLAYLAR_OK109 = [
 
   {
     t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
-    b: "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti", kapsam_genis:true,
+    kapsam:"dis", b: "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti", kapsam_genis:true,
     gun: "4 Haziran 1920",
     yer: "Trianon (Versailles), Budapeşte",
     kisiler: "Miklós Horthy",

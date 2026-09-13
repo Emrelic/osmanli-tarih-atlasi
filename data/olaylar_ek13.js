@@ -115,7 +115,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // Gün KESİN. Aynı seferin Tanca ayağı atlasta zaten var (1471-08-28).
 { t:"1471-08-24", k:"fetih", etiket:["toprak-kazanc","konu-askeri","konu-imar","konu-ulastirma"],
-  b:"Arzila'nın Portekiz tarafından alınışı — Fas kıyısında ikinci köprübaşı",
+  kapsam:"dis", b:"Arzila'nın Portekiz tarafından alınışı — Fas kıyısında ikinci köprübaşı",
   gun:"24 Ağustos 1471", yer:"Arzila (Asîlâ) — Fas",
   kisiler:"V. Afonso (Portekiz kralı)",
   d:"V. Afonso 30.000 kişilik bir kuvvet ve 400 parçalık donanmayla bizzat Fas kıyısına çıktı ve Vattâsî idaresindeki Arzila'yı 24 Ağustos 1471'de aldı. Şehrin düşmesi Tanca'nın direncini kırdı; Tanca dört gün sonra, 28 Ağustos'ta savaşsız teslim oldu. Portekiz böylece Sebte (1415) ve Kasrüssagīr'den (1458) sonra Fas'ın Atlas kıyısında üçüncü ve dördüncü mevziisini kurdu; kral bu seferden sonra unvanına \"Afrika'nın efendisi\" ibaresini ekletti.", duygu:["🎉"], yer_id:"Arzila (Asilah)" },
@@ -126,7 +126,7 @@ window.OLAYLAR_EK13 = [
 // 1488 = Portekiz nüfuzunun/himayesinin kuruluşu · 1508 = fiilî işgal.
 // İkisi de yazıldı; koordinatör kırılmayı hangisine koyacağına karar verir.
 { t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"Safi'nin Portekiz nüfuzuna girmesi",
+  kapsam:"dis", b:"Safi'nin Portekiz nüfuzuna girmesi",
   gun:"1488", ic_not_gun:"(kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal. Gün hiçbirinde yok)",
   yer:"Safi (Asfi) — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
   d:"Atlas kıyısının en işlek tahıl ve balıkçılık limanı olan Safi, 1488'de Portekiz nüfuzuna girdi; şehir bir süre yerli yöneticiler eliyle Portekiz himayesinde yönetildi ve 1508'de doğrudan işgal edildi. Kaynaklar bu iki aşamayı farklı ağırlıklandırdığı için başlangıç tarihi 1488 ile 1508 arasında değişir; ikisi de aynı sürecin uçlarıdır. Safi elli üç yıl Portekiz elinde kaldı ve 1541'de Agadir'in düşüşünün ardından boşaltıldı.", duygu:["🎌"] },
@@ -136,7 +136,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // 🔴 NOKTA ZATEN VARDI, dönem yoktu — D3'ün "en ucuz düzeltme"si.
 { t:"1505-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi",
+  kapsam:"dis", b:"Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi",
   gun:"1505 (gün ve ay kaynakta yok; taca devir 1513)",
   yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs kıyısı", yer_id:"Agadir",
   kisiler:"João Lopes de Sequeira",
@@ -146,7 +146,7 @@ window.OLAYLAR_EK13 = [
 // A-6 — Azemmûr'un alınışı
 // ---------------------------------------------------------------------------
 { t:"1513-09-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
-  b:"Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi",
+  kapsam:"dis", b:"Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi",
   gun:"1 Eylül 1513", yer:"Azemmûr — Ümmürrebî' nehri ağzı, Fas", yer_id:"Azemmûr",
   kisiler:"Jaime (Braganza Dükü)",
   d:"Braganza Dükü Jaime kumandasındaki Portekiz ordusu Ümmürrebî' nehrinin ağzındaki Azemmûr'a 1 Eylül 1513'te direnişle karşılaşmadan girdi. Şehrin alınması hem nehir ağzının hem de iç bölgeye açılan tahıl yolunun denetimini verdi ve ertesi yıl 12 km güneybatısında Mazagan kalesinin kurulmasının önünü açtı. Azemmûr yirmi sekiz yıl Portekiz elinde kaldı.", duygu:["🎉"] },
@@ -156,7 +156,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // 📌 Bu, Portekiz'in Fas'ta EN UZUN tuttuğu yerdir — 255 yıl (A-10'a bakınız).
 { t:"1514-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
-  b:"Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Portekiz mevzii",
+  kapsam:"dis", b:"Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Portekiz mevzii",
   gun:"1514 yazı (gün kaynakta yok; kale 1541-42'de yeniden ve çok daha güçlü inşa edildi)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
   d:"Azemmûr'un alınmasının ertesi yılı, 1514 yazında kıyıda Mazagan hisarı inşa edildi. 1541'deki genel çöküşten sonra Portekiz, Fas'taki bütün mevzilerini bırakırken Mazagan'ı bırakmadı; tersine kaleyi İtalyan tarzı burçlarla baştan yaptırdı ve şehir iki yüz elli beş yıl boyunca elde tutuldu. 1562'deki büyük kuşatma da püskürtüldü. Mazagan, Portekiz'in Fas'taki son mevzii olarak 1769'da boşaltılacaktı.", duygu:["🌱"], yer_id:"Mazagan (El Jadida)" },
@@ -165,7 +165,7 @@ window.OLAYLAR_EK13 = [
 // A-8 — Agadir'in düşüşü   🔴 1541 ÇÖKÜŞÜNÜN TETİĞİ, GÜN KESİN
 // ---------------------------------------------------------------------------
 { t:"1541-03-12", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  b:"Agadir'in düşüşü — Sa'dîler'in Portekiz'i Fas'tan söküşü başlıyor",
+  kapsam:"dis", b:"Agadir'in düşüşü — Sa'dîler'in Portekiz'i Fas'tan söküşü başlıyor",
   gun:"12 Mart 1541 (kuşatma 16 Şubat 1541'de başladı)",
   yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs", yer_id:"Agadir",
   kisiler:"Muhammed eş-Şeyh (Sa'dî sultanı), Guterre de Monroy (vali)",
@@ -181,7 +181,7 @@ window.OLAYLAR_EK13 = [
 // — YYYY-01-01 yer tutucusu KULLANILMADI, çünkü o Agadir'in düşüşünden ÖNCEYE
 // düşer ve sebep-sonuç sırasını ters çevirirdi.
 { t:"1541-10-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  b:"Safi ve Azemmûr'un boşaltılması — Portekiz Atlas kıyısından çekiliyor",
+  kapsam:"dis", b:"Safi ve Azemmûr'un boşaltılması — Portekiz Atlas kıyısından çekiliyor",
   gun:"Ekim 1541 (tahliye Eylül-Ekim'de tamamlandı; gün kaynakta yok)",
   yer:"Safi (Asfi), Azemmûr — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
   kisiler:"III. João (Portekiz kralı), Muhammed eş-Şeyh",
@@ -197,7 +197,7 @@ window.OLAYLAR_EK13 = [
 //   çünkü koordinatörün kuyruk listesi "1549 Arzila" diyor; TDV okuması
 //   metinde duruyor ve kırılma 1550'ye taşınırsa `t:` de taşınmalıdır.
 { t:"1549-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  b:"Arzila'nın boşaltılması — Portekiz kuzey kıyısını daraltıyor",
+  kapsam:"dis", b:"Arzila'nın boşaltılması — Portekiz kuzey kıyısını daraltıyor",
   gun:"1549", ic_not_gun:"(TDV `fas` 1550 der ve Kasrüssagīr ile birlikte anar; gün hiçbirinde yok)",
   yer:"Arzila (Asîlâ) — Fas kuzey kıyısı",
   kisiler:"III. João (Portekiz kralı), Muhammed eş-Şeyh",
@@ -208,7 +208,7 @@ window.OLAYLAR_EK13 = [
 // A-11 — Mazagan'ın boşaltılması   🔴 GÜN KESİN — Portekiz Fası'nın sonu
 // ---------------------------------------------------------------------------
 { t:"1769-03-11", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  b:"Mazagan'ın boşaltılması — Portekiz'in Fas'taki son mevzii düştü",
+  kapsam:"dis", b:"Mazagan'ın boşaltılması — Portekiz'in Fas'taki son mevzii düştü",
   gun:"11 Mart 1769 (tahliye filosu Lizbon'dan 1 Şubat'ta hareket etti)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
   kisiler:"Sultan III. Muhammed b. Abdullah, Dinis Gregório (vali), Bernardo Ramires Esquível",
@@ -284,7 +284,7 @@ window.OLAYLAR_EK13 = [
 // A-15 — Safevî fethi
 // ---------------------------------------------------------------------------
 { t:"1602-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
-  b:"Safevîler'in Bahreyn'i Portekiz'den alması",
+  kapsam:"dis", b:"Safevîler'in Bahreyn'i Portekiz'den alması",
   gun:"1602", ic_not_gun:"TDV ay/gün vermez",
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"Şah I. Abbas, Allahverdi Han",
@@ -295,7 +295,7 @@ window.OLAYLAR_EK13 = [
 // A-16 — Umman istilâsı
 // ---------------------------------------------------------------------------
 { t:"1717-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
-  b:"Ummanlılar'ın Bahreyn'i istilâsı — Safevî hâkimiyetinin sonu",
+  kapsam:"dis", b:"Ummanlılar'ın Bahreyn'i istilâsı — Safevî hâkimiyetinin sonu",
   gun:"1717 (gün ve ay kaynakta yok)",
   yer:"Bahreyn (Evâl adaları)",
   d:"Safevî Devleti'nin son yıllarındaki çözülme sırasında Ya'rubî hanedanı idaresindeki Umman donanması adayı istilâ etti ve Safevî hâkimiyeti sona erdi. Bunu izleyen otuz beş yıl körfezin en karışık dönemidir: ada Umman, İran ve yerel Arap güçleri arasında birkaç kez el değiştirdi.", ic_not_d:"⚠️ Bu pencerenin iç ayrıntısı bu turda kesinleştirilemedi; kayıt yazılırken tek blok mu yoksa birkaç dönem mi olacağı ayrı bir ölçüm ister.",
@@ -305,7 +305,7 @@ window.OLAYLAR_EK13 = [
 // A-17 — Âl-i Mezkûr dönemi
 // ---------------------------------------------------------------------------
 { t:"1753-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi"],
-  b:"Bahreyn'in Bûşehr'deki Âl-i Mezkûr idaresine geçmesi",
+  kapsam:"dis", b:"Bahreyn'in Bûşehr'deki Âl-i Mezkûr idaresine geçmesi",
   gun:"1753 (gün ve ay kaynakta yok)",
   yer:"Bahreyn (Evâl adaları), Bûşehr",
   kisiler:"Âl-i Mezkûr ailesi",
@@ -316,7 +316,7 @@ window.OLAYLAR_EK13 = [
 // A-18 — Âl-i Halîfe'nin fethi   🔴 RENK KİMLİĞİ YOK (ilerleme dosyası §İŞ ③)
 // ---------------------------------------------------------------------------
 { t:"1783-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-hanedan"],
-  b:"Âl-i Halîfe'nin Bahreyn'i fethi — bugüne kadar süren hanedanın kuruluşu",
+  kapsam:"dis", b:"Âl-i Halîfe'nin Bahreyn'i fethi — bugüne kadar süren hanedanın kuruluşu",
   gun:"1783", ic_not_gun:"(TDV: \\\"Bahreyn 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hâkimiyetine girdi\\\"; ay ve gün yok)",
   yer:"Bahreyn (Evâl adaları), Zübâre — Katar yarımadası",
   kisiler:"Ahmed b. Muhammed b. Halîfe, Nasr Âl-i Mezkûr",

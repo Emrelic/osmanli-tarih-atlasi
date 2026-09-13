@@ -157,7 +157,7 @@ window.OLAYLAR_EK11 = [
 //    Kaynak metnin içinde adıyla anılıyor.
 
 { t:"1581-04-16", k:"siyaset", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
-  b:"İberya Birliği: Portekiz tacı İspanya kralına geçti",
+  kapsam:"dis", b:"İberya Birliği: Portekiz tacı İspanya kralına geçti",
   gun:"16 Nisan 1581", yer:"Tomar — Portekiz",
   kisiler:"II. Felipe (Portekiz kralı I. Filipe), Kardinal Kral Henrique",
   d:"Kardinal Kral Henrique'nin vârissiz ölümüyle açılan veraset kavgası Alcântara Muharebesi'nde (25 Ağustos 1580) İspanya lehine kapandı ve Tomar'da toplanan Portekiz Cortes'i 16 Nisan 1581'de II. Felipe'yi Portekiz kralı olarak tanıdı. Tomar şartlarına göre Portekiz kendi kurumlarını, parasını ve dilini koruyacak, yönetime yalnız Portekizliler atanacak, Madrid'de ayrı bir Portekiz konseyi bulunacaktı — yani birleşme kişisel birlikti, ilhak değil.", ic_not_d:"Atlas aynı hukukî durumu Felemenk ve Milano için `ispanya` diye boyadığından anakara Portekiz de altmış yıl boyunca aynı şekilde işlendi; buna karşılık Estado da Índia (Goa, Diu, Malaka, Makao) Portekiz tacı altında kaldığı için `portekiz` bırakıldı. Kaynak: Britannica, History of Portugal — Union of Spain and Portugal, 1580-1640.", duygu:["🏛"], yer_kon:[39.6,-8.42] },
@@ -167,7 +167,7 @@ window.OLAYLAR_EK11 = [
 // tam bu etikete bakıyor — yanlış yazılan etiket, toprak iddiası taşıyan maddeyi
 // "kırılmasız" sayıp Değişmez 2t tavanını boş yere yer.
 { t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kayip","konu-askeri","konu-siyasi"],
-  b:"Restauração: Portekiz bağımsızlığını geri aldı",
+  kapsam:"dis", b:"Restauração: Portekiz bağımsızlığını geri aldı",
   gun:"1 Aralık 1640", yer:"Lizbon", yer_id:"Lizbon",
   kisiler:"IV. João (Braganza Dükü), Kont-Dük Olivares",
   d:"Katalonya isyanının İspanya'yı meşgul ettiği günlerde Lizbon'da bir grup soylu saraya baskın yaparak İspanyol idaresini devirdi ve Braganza Dükü'nü IV. João adıyla kral ilan etti. Altmış yıllık İberya Birliği böylece sona erdi; ancak Sebte İspanya'da kalmayı seçti ve bu 1668 Lizbon Antlaşması'yla tanındı. Portekiz'in Habsburg savaşlarına eklemlendiği bu pencere Asya'daki kayıplarının da çerçevesidir: Hürmüz 1622'de, Malaka 1641'de, Kolombo 1656'da elden çıktı; Tanca ile Bombay ise bağımsızlığın bedeli olarak İngiltere'ye verildi. Kaynak: Britannica, History of Portugal — Restoration.", duygu:["🏛"] },
@@ -179,7 +179,7 @@ window.OLAYLAR_EK11 = [
   d:"Diu kuşatmasını 5 Kasım 1538'de kaldıran donanma dönüş yolunda Yemen kıyısına uğradı ve Zebîd kesin olarak Osmanlı idaresine bağlandı; Hadım Süleyman Paşa şehirden 10 Mart 1539'da ayrılıp 1 Nisan'da Cidde'ye vardı. Şehir 1517'den beri eski Memlûk beylerinin elinde Osmanlı adına yönetiliyordu; bu tarihle doğrudan idareye geçti.", ic_not_d:"⚠️ Atlas bu geçişi uzun süre 3 Ağustos 1538'de gösteriyordu, oysa o gün alınan yer Aden'dir. Düzeltmenin kaynağı: Ertuğrul Önalp, \\\"Hadım Süleyman Paşa'nın 1538 yılındaki Hindistan Seferi\\\", OTAM (Ankara Üniversitesi Osmanlı Tarihi Araştırma ve Uygulama Merkezi Dergisi) — tam metin okundu.", duygu:["🎉"] },
 
 { t:"1662-01-30", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
-  b:"Tanca İngiltere'ye devredildi",
+  kapsam:"dis", b:"Tanca İngiltere'ye devredildi",
   gun:"30 Ocak 1662", yer:"Tanca — Fas", yer_id:"Tanca",
   kisiler:"II. Charles, Catherine de Braganza, Peterborough Kontu",
   d:"Portekiz'in bağımsızlık savaşında İngiliz desteğini sağlamak için yapılan evlilik antlaşmasının (23 Haziran 1661) ikinci maddesi Tanca'yı Catherine de Braganza'nın çeyizi olarak İngiltere'ye bırakıyordu. Sandwich Kontu'nun filosu 29 Ocak 1662'de demirledi ve ertesi gün Peterborough Kontu'nun töreniyle resmî devir yapıldı. İngilizler şehri 1684'te terk edecekti.", ic_not_d:"Atlas bu kaydı önce 23 Ocak 1661 olarak taşıyordu — antlaşma günüyle fiilî devir günü arasında bir karışma; Bombay için zaten fiilî devir tarihi (18 Şubat 1665) yazıldığından aynı ölçüt Tanca'ya da uygulandı.", duygu:["🤝"] },
