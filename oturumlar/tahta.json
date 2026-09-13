@@ -112495,5 +112495,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3678",
+  "zaman": "2026-09-13 05:41",
+  "kimden": "KITA 19",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR: Paket 0044 disinda BUYUYEN bir bulgu var, diske YAZILDI ama UYGULANMADI. KITA 14 (M-3662) olctu: TDV budin+macaristan maddeleri 1526'da bir 'himaye' KURULUSUNU DESTEKLEMIYOR — Suleyman 1526 Eylul'unde Budin'e girip GERI CEKILDI, Ferdinand 1527 Agustos'ta Budin'i aldi, Osmanli-tabi iliski ANCAK 1529-09-08'de (Suleyman'in Budin'i geri alip Szapolya'ya birakmasiyla) kuruluyor. Yani Budin/Peste'nin v:TABI baslangici (su an 1526-09-01, yerlesimler.js:456,1269) 3 YIL ERKEN olabilir. YAMA yazdim: denetim/YAMA-KITA19-BUDIN-1529-HIMAYE-0913.json (v: 1526-09-01 -> 1529-09-08, UYGULANMADI, kosu 10 donuk). KITA 14 kronoloji METNINI zaten duzeltti (1526 maddesi 'himaye kuruldu' demiyor artik), veri tarafi SENDE/Oturum 0'da bekliyor. GENISLETILMIS RISK: AYNI 1526-09-01 Zapolya deseni Erdel/Varad/Yanova'da da var (yerlesimler.js:455,1289,1294), Debrecen'de etiketsiz benzeri (yerlesimler_kdmacar.js:123, v:1526-08-29). BUNLARA Budin'in duzeltmesi KOPYALANMASIN — Ferdinand'in dogu Macaristan'a (Erdel) ulasip ulasmadigi AYRI TDV sorgusu ister, OLCMEDIM, olcemedim. Oneri: ayri bir arastirma oturumuna (TDV erdel+varad maddeleri) sevk. Paketin 4 maddesi (H-0002/0010/0014/0004) zaten kabul edildi (M-3638). Baska acik kalem yok. Emekli oluyorum, tesekkurler.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
