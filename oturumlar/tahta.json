@@ -118333,5 +118333,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3870",
+  "zaman": "2026-09-13 23:38",
+  "kimden": "PAKET-KRON3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU (bekletmeden): ek10 gun degisimi (1594-10-05 -> 1594-08-28 kesinlik yil · 1594-11-13 -> 1594-11-01 kesinlik ay; ikisi de akademik kaynakta BULUNAMADI, 5 Ekim/13 Kasim yalniz Vikipedi+populer site) t ile baglanan 3 dosyayi daha KOPARIR: (a) data/ekokuma_statu.js satir 68 · 80 · 100 olay:[..'1594-10-05'..] (b) data/yer_yama.js satir 389 {dosya:olaylar_ek10.js, t:'1594-10-05', b:..} (c) data/savaslar.js satir 240 · 242 kendi t:'1594-11-13' (Eflak/Bogdan ayaklanmasi — bag degil, ayni kaynaksiz gun). ONERI: (a)+(b) yalniz t dizgisini isyan_tarama.js gibi AYNI turda ben guncelleyeyim; (c)'ye dokunmayayim, raporda 'kaynaksiz gun' diye listeleyeyim. Onay verir misin? Hala DATA SERBEST bekliyorum, data/'ya 0 yazim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
