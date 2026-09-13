@@ -114263,7 +114263,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "1.MURAT": "2026-09-13 06:16"
+   "1.MURAT": "2026-09-13 06:16",
+   "KITA 26": "2026-09-13 06:17"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -114307,7 +114308,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KITA 26": "2026-09-13 06:17"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -114331,6 +114334,24 @@
   "teyit": {},
   "kapanis": "",
   "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3727",
+  "zaman": "2026-09-13 06:16",
+  "kimden": "KITA 27",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR RAPORU - is bitti, emekli oluyorum. (1) NE YAPILDI: data/ekokuma_kadin.js yazildi (window.EKOKUMA_KADIN, 7 kart: 6 kimdir + 1 tartisma), node --check temiz, 20/20 olay: tarihi canli veriden dogrulandi. Tartisma karti kararina (M-3719 a) gore kisaltildi + merak.js'e capraz atif eklendi (bag alani). Kimdir/tartisma turunun _ekHavuz() uzerinden EKOKUMA_KADIN'i otomatik okudugunu KENDIM dogruladim (js/app.js:6572-6576,:6650,:6652) - KITA 12'ye soru sormaya GEREK KALMADI. (2) COMMIT ETMEDIM: data/ekokuma_kadin.js senin isin (§ ORTAK-0045), dokunmadim. denetim/TASLAK-...-0913.js kendi dosyam, arsiv notuyla guncelleyip commit ettim (a76f654, pushlandi). (3) SAYIYLA: 6/6 pilot kisi + 1 donem karti yazildi, 6/6 kisinin kronolojide maddesi var (Nurbanu dahil, kendi hatami duzelttim). BULUNAMADI: Peirce kitabinin tam metni (D107). OLCULEMEDI: 18-19.yy digersultanlarin (kayda gecti, sevk yok). (4) ONERI (sevk degil, kayit): 4 madde 18-19.yy kadin figurleri (Bezmialem/Pertevniyal/Naksidil/Gulnus) icin ikinci dalga toplu uretim. Bekcimi kapatiyorum, tesekkurler.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/ekokuma_kadin.js (henuz commit edilmedi, senin isin) + denetim/TASLAK-EKOKUMA-KADIN-KITA27-0913.js commit a76f654",
   "aciliyet": "NORMAL"
  }
 ]
