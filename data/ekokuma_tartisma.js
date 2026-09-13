@@ -89,7 +89,7 @@ window.EKOKUMA_TARTISMA = [
   metin:"Rasathane, Takıyyüddin'in 1577'de kurduğu ve zamanının en gelişmiş gözlem aletlerini barındıran bir kurumdu; TDV onu Osmanlı tarihindeki tek resmî gözlemevi ve Türk bilim tarihi için büyük önem taşıyan bir tesis olarak niteliyor. Yıkımdan sonra imparatorlukta resmî bir rasathane kurumu uzun süre yeniden tesis edilmedi. Bu, dönemi Tycho Brahe'nin Avrupa'daki çağdaş gözlemeviyle karşılaştıran tarihçiler için somut bir kayıp örneğidir — ama aynı olay, din ile devlet erki arasındaki ilişkinin 16. yüzyıl Osmanlı sarayında ne kadar iç içe geçtiğinin de bir örneğidir.",
   kesinlik:"tartismali",
   zincir:[],
-  olay:["1577-01-01","1580-01-22"],
+  olay:["1577-01-01|Rasathane","1580-01-22"],
   kaynak:"TDV: takiyyuddin-er-rasid" },
 
 { id:"ingiltere-kapitulasyon-1580-tartisma", tur:"tartisma",
@@ -100,7 +100,7 @@ window.EKOKUMA_TARTISMA = [
   metin:"Kapitülasyon, Osmanlı'nın kendi ülkesinde güvenle ticaret yapabilmeleri için hıristiyan devletlere tanıdığı bir imtiyazdı; hukukî temeli ahidnâme adı verilen padişah belgesiydi. İngiltere'nin payına düşen imtiyaz salt bir ticaret meselesi değildi: 1578'de İstanbul'a gönderilen Harborne'un arkasında, Katolik İspanya'ya karşı Protestan İngiltere ile ortak çıkar arayan bir Osmanlı hesabı da vardı. Kısa vadeli sonucu somuttu — Levant Company Osmanlı topraklarındaki İngiliz ticaretini 1825'e kadar tek elde topladı ve iki ülke arasında kalıcı bir diplomatik ağ kurdu. Ahidnâmelerin kendisi de zamanla değişti: TDV'nin 'ahidname' maddesine göre başlangıçta tek taraflı ve dinî yeminle pekiştirilen bu belgeler, 19. yüzyılda 'muahede' (karşılıklı antlaşma) diline dönüştü — bu da Avrupa hükümdarlarının artık dilekçi değil eşit muhatap sayıldığının bir işaretidir.",
   kesinlik:"tartismali",
   zincir:[],
-  olay:["1580-01-01"],
+  olay:["1580-01-01|İngiltere"],
   kaynak:"TDV: ingiltere · imtiyazat · ahidname" }
 
 ];

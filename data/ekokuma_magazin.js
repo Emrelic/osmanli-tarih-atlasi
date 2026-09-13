@@ -75,7 +75,7 @@ window.EKOKUMA_MAGAZIN = [
 
 // ---------- I. Selim (Yavuz) ----------
 { id:"yavuz-baba-zehir-soylentisi", tur:"magazin", kisi:["selim1", "bayezid2"],
-  t:"1512-05-26", olay:["1512-05-26","1512-04-24"],
+  t:"1512-06-10", olay:["1512-06-10","1512-04-24"],
   soru:"Yavuz babasını zehirletti mi?",
   baslik:"Tahttan inen II. Bayezid'in şüpheli ölümü",
   metin:"II. Bayezid, yeniçerilerin baskısıyla 24 Nisan 1512'de tahtı oğlu Selim'e bıraktı ve Dimetoka'ya gitmek üzere İstanbul'dan ayrıldı. TDV'nin Bayezid maddesine göre yolda, Çorlu yakınındaki Abalar köyünde fenalaştı ve 10 Haziran 1512'de öldü; ansiklopedi ölümün sebebini son derece şüpheli bulur ve bazı yerli ve yabancı kayıtlara dayanan zehirlenme ihtimalinin tartışıldığını belirtir. Aynı ansiklopedinin Yavuz maddesi ise Selim'in babasını zehirlettiği yolundaki söylentilerin özellikle Batı kaynaklarında yer aldığını, fakat başka kaynaklarla doğrulanamadığını yazar.",
@@ -94,7 +94,7 @@ window.EKOKUMA_MAGAZIN = [
 
 // ---------- I. Süleyman (Kanûnî) ----------
 { id:"hurrem-nikah-buyu-soylentisi", tur:"magazin", kisi:["suleyman1"],
-  t:"1534-01-01", olay:["1534-01-01"],
+  t:"1534-01-01", olay:["1534-01-01|Hürrem"],
   soru:"Hürrem padişahı büyüyle mi bağladı?",
   baslik:"Teamülü bozan nikâh ve 'büyü' söylentisi",
   metin:"Osmanlı sarayında padişahın câriyeleriyle nikâhlanması bir zorunluluk değildi. TDV'ye göre Kanûnî, annesi Hafsa Sultan'ın 1534'teki ölümünün ardından Mâhidevran'ı Manisa'daki oğlu Mustafa'nın yanına gönderdi ve bu teamüle aykırı biçimde Hürrem'le resmen evlendi; bir Venedik kaynağı kararın halka duyurulduğunu ve hoşnutsuzlukla karşılandığını yazar. Busbecq gibi bazı çağdaş Avrupalı yazarlar ise Hürrem'in padişahın gönlünü büyüyle kazandığını nakleder — ansiklopedi bunu yalnızca bir nakil olarak aktarır.",
@@ -103,7 +103,7 @@ window.EKOKUMA_MAGAZIN = [
   kaynak:"TDV: hurrem-sultan · suleyman-i" },
 
 { id:"sehzade-mustafa-katli-entrika", tur:"magazin", kisi:["suleyman1"],
-  t:"1553-10-05", olay:["1553-10-05"],
+  t:"1553-10-05", olay:["1553-10-05|Mustafa"],
   soru:"Mustafa'nın katlinde Hürrem'in payı ne?",
   baslik:"Şehzade Mustafa'nın katli: bir saray entrikası mı?",
   metin:"Kanûnî, ordunun ve halkın sevdiği büyük oğlu Mustafa'yı İran seferi yolunda, Konya Ereğlisi yakınındaki ordugâhında boğdurttu; kararın öncesinde Rüstem Paşa, şehzadenin tahtı ele geçirmeye hazırlandığını padişaha bildirmişti. TDV'nin Hürrem maddesi, tarihçi Âlî'ye dayanarak olayda Hürrem, kızı Mihrimah ve damadı Rüstem Paşa'nın büyük payı olduğundan şüphe etmez. Aynı ansiklopedinin Mustafa Çelebi maddesi ise Osmanlı kaynaklarının olayı bu isimlerin başrolde olduğu bir saray entrikasına bağladığını, ama bu anlatının sipahilerin ve topraksız köylülerin neden şehzadenin etrafında toplandığını açıklamaktan uzak kaldığını vurgular.",

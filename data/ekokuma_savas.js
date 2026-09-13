@@ -151,7 +151,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Memlükler 4000 dolayında, Osmanlılar biraz daha az kayıp verdi. Tomanbay 27-28 Ocak gecesi 7000 kişiyle Kahire'ye girip üç gün sokak çarpışması yürüttü, sonra şehri terk etmek zorunda kaldı. Selim 15 Şubat'ta Kahire'ye girdi; 13 Nisan 1517'de Tomanbay'ın yakalanıp idam edilmesiyle Mısır'da Osmanlı idaresi yerleşti. TDV, sonucu belirleyen etkenin Memlüklerin topa sahip olmalarına rağmen onu savaş düzeninin bir parçası saymaması olduğunu vurgular.",
   tartisma:"Bazı kaynaklar tarihi 23 Ocak verir; TDV bunu hicrî takvimdeki bir günlük kaymanın hesaba katılmamasından doğan bir hata sayar. Sinan Paşa'yı yaralayan hücum konusunda iki anlatı vardır: Canbirdi Gazâlî'nin süvari hücumu ya da Tomanbay'ın onu padişah sanıp teke tek çarpışması; TDV ikincisinin doğru olma ihtimalini zayıf bulur.",
   kesinlik:"kesin",
-  olay:["1516-12-21","1517-01-22","1517-01-27","1517-02-15","1517-04-13"],
+  olay:["1516-12-21","1517-01-22|Ridaniye","1517-01-27","1517-02-15","1517-04-13"],
   kaynak:"TDV: ridaniye-savasi (DİA 35, 2008, s. 87-88)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 

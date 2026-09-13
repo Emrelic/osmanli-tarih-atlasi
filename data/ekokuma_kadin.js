@@ -60,7 +60,7 @@ window.EKOKUMA_KADIN = [
   metin:"Kanûnî Sultan Süleyman'ın cariyesiyken 1533-34 dolayında onunla resmen nikâhlanarak önceki hiçbir padişahta görülmemiş bir kırılma yarattı ve fiilen \"Haseki Sultan\" kurumunu başlattı. Oğlu Şehzade Selim'in (sonradan II. Selim) tahta geçmesi için sarayda uzun soluklu bir siyaset yürüttü: Sadrazam İbrahim Paşa'nın 1536'daki düşüşünde ve rakip veliaht Şehzade Mustafa'nın 1553'teki idamında etkili olduğu TDV'de aktarılır — bu son iddianın tam BOYUTU tarihçiler arasında tartışmalıdır. Kızı Mihrimah'ı damat Rüstem Paşa ile evlendirerek (1539) sarayda geniş bir ittifak kurdu; Rüstem'in 1555'te ikinci kez sadrazamlığa dönüşünde de bu ittifakın payı vardı. İstanbul'daki Haseki Külliyesi'nin yanı sıra Mekke, Medine ve Kudüs'te vakıflar kurarak hayır faaliyetleriyle de tanınır. 15 Nisan 1558'de öldü, Süleymaniye Külliyesi'nde gömülüdür.",
   not:"Şehzade Mustafa'nın idamındaki payının BÜYÜKLÜĞÜ tartışmalı; evlilik/vakıf/ölüm tarihleri kesindir.",
   kesinlik:"tartismali",
-  olay:["1534-01-01","1536-03-15","1553-10-05","1555-09-29","1558-04-15"],
+  olay:["1534-01-01|Hürrem","1536-03-15","1553-10-05|Mustafa","1555-09-29","1558-04-15"],
   kaynak:"TDV: hurrem-sultan" },
 
 { id:"kimdir-nurbanu-sultan", tur:"kimdir",
@@ -76,7 +76,7 @@ window.EKOKUMA_KADIN = [
   kisa:"İngiltere Kraliçesi I. Elizabeth'le doğrudan mektuplaşan tek Osmanlı vâlide sultanı.",
   metin:"III. Murad'ın hasekisi, III. Mehmed'in annesiydi. 1595'te oğlunun cülûsuyla vâlide sultan oldu; TDV'nin ifadesiyle sadrazamdan şeyhülislâma kadar birçok atamada söz sahibi oldu. Kraliçe I. Elizabeth ile doğrudan mektuplaşan ve hediye teâtisinde bulunan (1593'te mücevherli bir portre karşılığında işlemeli kumaşlar gönderdiği) tek Osmanlı vâlide sultanıdır — bu yazışma dönemin İngiliz-Osmanlı ticaret diplomasisinin bir parçasıydı. 1598'de Eminönü'nde Yeni Cami'nin inşasını başlattı, ama 1603'te oğlunun ölümüyle saraydan uzaklaştırılınca inşaat yarım kaldı; yapı ancak altmış yılı aşkın süre sonra, 1665'te başka bir vâlide sultan olan Turhan Hatice tarafından tamamlanacaktı. Ocak 1619'da öldü.",
   kesinlik:"kesin",
-  olay:["1595-01-16","1595-02-01","1598-04-09","1603-01-01","1603-12-22","1665-10-30"],
+  olay:["1595-01-16","1595-02-01","1598-04-09","1603-01-01|Yeni Cami","1603-12-22","1665-10-30"],
   kaynak:"TDV: safiye-sultan" },
 
 { id:"kimdir-kosem-sultan", tur:"kimdir",
@@ -100,7 +100,7 @@ window.EKOKUMA_KADIN = [
   kisa:"Kanûnî'nin hayatta kalan tek kızı; babasının yaşlılık döneminde devlet işlerinde danıştığı kadın.",
   metin:"Kanûnî Sultan Süleyman ile Hürrem Sultan'ın kızıydı ve padişahın hayatta kalan tek kızıydı. 1539'da Rüstem Paşa ile evlendirildi; kocasının 1544'te ve 1555'te iki kez sadrazamlığa getirilmesinde annesiyle birlikte etkili olduğu aktarılır — önce kardeşi Şehzade Bâyezid'i, veliahtlık mücadelesi kızıştıktan sonra ise Şehzade Selim'i destekledi. Babasının yaşlılık döneminde önemli konularda kendisine danıştığı, saraydaki nüfuzunu ölümüne kadar koruyan bir figürdü. Üsküdar'da ve Mimar Sinan yapımı Edirnekapı'da birer külliye yaptırdı, Mekke'de su yollarının onarımı için büyük bağışta bulundu (\"Mihrimah Suyu\"). 25 Ocak 1578'de öldü.",
   kesinlik:"kesin",
-  olay:["1544-12-02","1547-01-01","1555-09-29","1566-01-01"],
+  olay:["1544-12-02","1547-01-01|Mihrimah","1555-09-29","1566-01-01|Mihrimah"],
   kaynak:"TDV: mihrimah-sultan" },
 
 { id:"tartisma-kadinlar-saltanati", tur:"tartisma",

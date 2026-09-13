@@ -115,7 +115,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin: "Barışın ekonomik getirisi de oldu. Şah Abbas'ın başkenti Tebriz'den İsfahan'a taşıması ve Ermeni tüccarları için Yeni Culfa'yı kurması ticaret yollarını güneye kaydırmıştı; barış ortamında İran ipeği ve kumaşları Bağdat üzerinden Halep'e, Musul üzerinden Diyarbekir ve Anadolu şehirlerine taşındı. TDV'nin aktardığı rakamlara göre İran'ın ipek ihracatı 1640-1670 arasında yaklaşık yarı yarıya arttı. Bu dengeli dönem, Afşar hânedanının kurucusu Nâdir Şah'ın 1736'da iktidara gelişine kadar sürdü.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1638-12-24", "1639-05-17", "1736-03-08", "1746-09-04", "1847-05-31"],
+  olay: ["1638-12-24|Bağdat", "1639-05-17", "1736-03-08", "1746-09-04", "1847-05-31"],
   kaynak: "TDV: kasrisirin-antlasmasi · murad-iv"
 },
 

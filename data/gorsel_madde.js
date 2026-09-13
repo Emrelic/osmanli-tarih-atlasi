@@ -579,8 +579,7 @@ window.GORSEL_MADDE = [
   {
     id:            "1566-01-01-mostar-koprusu-1900",
     tur:           "mimari",
-    olay:          [],
-    bekleyen_olay: ["1566-01-01"],
+    olay:          ["1566-01-01|Mostar"],
     url:           "assets/gorseller/1566-01-01-mostar-koprusu-1900.jpg",
     baslik:        "Mostar Köprüsü (özgün yapı), 1890-1905",
     gorsel_alt:    "Renkli photochrom baskı: taş döşeli bir sokaktan görülen, Neretva üzerindeki tek kemerli Mostar Köprüsü, kıyıdaki taş evler ve arkada bir dağ",
@@ -596,8 +595,7 @@ window.GORSEL_MADDE = [
   {
     id:            "1566-01-01-mihrimah-sultan-camii-edirnekapi",
     tur:           "mimari",
-    olay:          [],
-    bekleyen_olay: ["1566-01-01"],
+    olay:          ["1566-01-01|Edirnekapı"],
     url:           "assets/gorseller/1566-01-01-mihrimah-sultan-camii-edirnekapi.jpg",
     baslik:        "Edirnekapı Mihrimah Sultan Camii — kesit ve plan (Gurlitt, 1912)",
     gorsel_alt:    "Mimari rölöve levhası: solda caminin kubbeli kesiti (Querschnitt), sağda avlulu zemin planı (Grundriss); üstte '20,c Moschee der Mihrimah, Edirne Kapu' başlığı",

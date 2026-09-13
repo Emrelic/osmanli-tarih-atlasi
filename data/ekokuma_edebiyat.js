@@ -101,7 +101,7 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"1730'daki Patrona Halil isyanı sırasında Nedîm hayatını kaybetti; kaynaklara göre ya isyan dehşetinden hastalanarak ya da kaçmaya çalışırken evinin damından düşerek öldü — ölüm şeklinin ayrıntısı kaynaklarda AYRIŞIYOR. Ölümüyle birlikte Lâle Devri'nin şiirdeki en parlak sesi de susmuş oldu; devrin kendisi de aynı isyanla sona erdi.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
-    kesinlik:"tartismali", olay:["1730-06-01","1730-09-25"],
+    kesinlik:"tartismali", olay:["1730-09-25","1730-10-28"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Nedîm\" (Muhsin Macit) — https://islamansiklopedisi.org.tr/nedim--divan-sairi" },
 
   { id:"nefi-idami", tur:"edebiyat",
@@ -113,6 +113,6 @@ window.EKOKUMA_EDEBIYAT = [
     metin:"Hicivleriyle tanınan Nef'î, Sihâm-ı Kazâ adlı hiciv mecmuası yüzünden 1635'te IV. Murad'ın emriyle idam edildi. Sadrazam Bayram Paşa onu teslim etti; Nef'î sarayın odunluğunda boğdurulup cesedi denize atıldı — kalemiyle kazandığı düşmanlıklar sonunu getirdi.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
-    kesinlik:"kesin", olay:["1635-01-01"],
+    kesinlik:"kesin", olay:["1635-01-01|Nef'î"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Nef'î\" (Metin Akkuş, 2006) — https://islamansiklopedisi.org.tr/nefi" }
 ];

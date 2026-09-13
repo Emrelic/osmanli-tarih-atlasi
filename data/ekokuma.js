@@ -61,7 +61,7 @@ window.EKOKUMA = [
   metin:"Yeniçeri, kapıkulu ocağının piyade sınıfıydı: devşirme ve pençik yoluyla toplanan gençler Acemi Ocağı'nda yetiştirildikten sonra 'orta' adlı bölüklere yazılırdı. Orta sayısı Kanûnî döneminde 165'e, sonra 196'ya ulaştı; ocak çorbacı ve ağa rütbeleriyle örgütlenmiş, merkezden düzenli maaş (ulûfe) alan bir kurumdu. II. Mahmud, 15-16 Haziran 1826'daki Vak'a-i Hayriyye ile ocağı topa tutarak kaldırdı.",
   kesinlik:"tartismali",
   zincir:[],
-  olay:["1352-03-01","1362-03","1826-06"],
+  olay:["1352-03-01","1361-01-01|Pençik","1362-03","1362-06-01|Yeniçeri Ocağı","1826-06"],
   kaynak:"TDV: yeniceri" },
 
 { id:"tabi-devlet-vassallik", tur:"sebep-sonuc",

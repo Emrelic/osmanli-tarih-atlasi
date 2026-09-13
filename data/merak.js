@@ -98,7 +98,7 @@ window.MERAK = [
     { tez:"İlhak biçimi de farklıydı",
       dayanak:"Batıda ilhaklar çoğu zaman savaşsız oldu: Germiyan toprakları 1381'de çeyiz olarak geldi, Hamîd ili satın alındı, bazıları antlaşmayla katıldı. Karaman'da ise her seferinde savaş gerekti ve ilhak 1397'den 1473'e kadar üç kuşak sürdü." }
   ],
-  baglanti:["1381-01-01","1381-06-01","1386-06-01","1397-07-01","1415-03-01","1468-01-01","1473-01-01"],
+  baglanti:["1381-01-01","1381-06-01","1386-06-01","1397-07-01","1415-03-01","1468-01-01|Karaman","1473-01-01"],
   kesinlik:"tartismali",
   kaynak:"TDV: KARAMANOĞULLARI · GERMİYANOĞULLARI" },
 
@@ -128,7 +128,7 @@ window.MERAK = [
     { tez:"Bitişi de kurumsaldı",
       dayanak:"1603'ten sonra yerini ekberiyet ve kafes usulü aldı. Şehzadelerin sancağa çıkarılmaması taht kavgasını fiilen bitirdi; yani uygulamayı sona erdiren ahlâkî bir dönüşüm değil, veraset düzeninin değişmesiydi." }
   ],
-  baglanti:["1477-01-01","1513-04-24","1553-10-05","1562-07-23","1595-01-27","1603-12-23"],
+  baglanti:["1477-01-01","1513-04-24","1553-10-05|Mustafa","1562-07-23","1595-01-27","1603-12-23"],
   kesinlik:"tartismali",
   kaynak:"TDV: KANUNNÂME · SANCAĞA ÇIKMA · AHMED I" },
 
@@ -143,7 +143,7 @@ window.MERAK = [
     { tez:"Çok eşlilik kural değil imkândı",
       dayanak:"Kanûnî'nin Hürrem Sultan'la nikâh kıyması (1534), câriyeyle nikâh kıyılmaması teamülünü açıkça bozan bir istisna olarak kaydedilmiştir." }
   ],
-  baglanti:["1381-01-01","1390-01-15","1534-01-01"],
+  baglanti:["1381-01-01","1390-01-15","1534-01-01|Hürrem"],
   kesinlik:"tartismali",
   kaynak:"TDV: ÂL-İ OSMÂN · HÜRREM SULTAN" },
 
@@ -158,7 +158,7 @@ window.MERAK = [
     { tez:"Ölçüt sorunu",
       dayanak:"'Saltanat' benzetmesi, görünür iktidarla perde arkasındaki fiilî etkiyi aynı kefeye koyduğu için tartışmalıdır." }
   ],
-  baglanti:["1534-01-01","1558-04-15","1583-12-07","1595-02-01","1651-09-02"],
+  baglanti:["1534-01-01|Hürrem","1558-04-15","1583-12-07","1595-02-01","1651-09-02"],
   kesinlik:"tartismali",
   kaynak:"TDV: VÂLİDE SULTAN · KÖSEM SULTAN · HÜRREM SULTAN" },
 
@@ -173,7 +173,7 @@ window.MERAK = [
     { tez:"Kaldırılışı tek taraflı oldu",
       dayanak:"Osmanlı kapitülasyonları müzakereyle değil, 1914'te tek taraflı ilanla kaldırdı; kesin tasfiye Lozan'da mümkün oldu. Bir imtiyazın kaldırılması için savaş gerekmesi, onun artık araç olmaktan çıktığının ölçüsüdür." }
   ],
-  baglanti:["1352-01-01","1536-02-18","1580-01-01","1740-05-30","1914-09-09","1923-07-24"],
+  baglanti:["1352-01-01","1536-02-18","1580-01-01|İngiltere","1740-05-30","1914-09-09","1923-07-24"],
   kesinlik:"tartismali",
   kaynak:"TDV: İMTİYAZÂT-ı EONOMİYYE · AHİDNÂME" },
 
@@ -203,7 +203,7 @@ window.MERAK = [
     { tez:"Sınırlı hedefe göre BAŞARILIYDI",
       dayanak:"Portekiz Kızıldeniz'e yerleşemedi: 1513 Aden ve 1517 Cidde teşebbüsleri püskürtüldü. Ölçüt 'Hindistan'a hâkim olmak' ise rekabet kaybedilmiş, 'Kızıldeniz'i kapatmak' ise kazanılmıştır." }
   ],
-  baglanti:["1516-08-02","1517-04-18","1538-06-13","1546-01-01"],
+  baglanti:["1516-08-02","1517-04-18","1538-06-13","1546-01-01","1559-01-01|Bahreyn"],
   kesinlik:"tartismali",
   kaynak:"TDV: HİNT DENİZİ SEFERLERİ · Ertuğrul Önalp (OTAM) · Diogo do Couto, Da Ásia" },
 
@@ -235,7 +235,7 @@ window.MERAK = [
     { tez:"Zincir fikrinin kendi sicili zayıf — ve Osmanlı'nın cevabı zincir değil TOP oldu",
       dayanak:"Zincir ancak İKİ UCU DA tutuluyorsa engeldir: Haliç zincirinin bir ucu Sirkeci'de Kentenarios burcuna, öteki ucu Karaköy'de Kastellion hisarına bağlıydı — ve 1203'te Batılı şövalyeler Kastellion'u ele geçirerek zinciri açmışlardı. 1453'te de zincir kırılmadı, 21 Nisan gecesi gemilerin Galata sırtlarından indirilmesiyle \"fonksiyonunu kaybetti\". Osmanlı aynı işi kalelere yerleştirdiği toplarla çözdü. ⚠️ Osmanlı'nın boğazlara zincir germeyi düşünüp düşünmediğine dair bir kayıt taranan TDV maddelerinde BULUNAMADI; bu görüş bir kayıt değil, zincirin ölçülmüş siciline dayanan bir çıkarımdır." }
   ],
-  baglanti:["1354-03-02","1366-08-01","1376-09-01","1395-08-01","1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
+  baglanti:["1354-03-02","1366-08-01","1376-09-01","1395-08-01","1452-01-01|Kilitbahir","1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
   kesinlik:"tartismali",
   kaynak:"TDV: ÇANAKKALE · KİLİTBAHİR KALESİ · GELİBOLU · ANADOLUHİSARI · RUMELİHİSARI · HALİÇ · İSTANBUL" },
 

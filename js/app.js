@@ -6752,16 +6752,32 @@ function maddeGorseliniGuncelle(o) {
     return;
   }
   kutu.innerHTML = "";
-  var kayit = (window.GORSEL_MADDE || []).find(function (g) {
-    return (g.olay || []).indexOf(o.t) >= 0;
+  // 🔴 13 Eylül 2026 — EKOKUMA-BAGLANTI-HASSAS-0913: ESKİ HÂLİ `find()` idi,
+  // yani o güne düşen İLK kayıt dışındakiler SESSİZCE gizleniyordu (1566-09-07
+  // Kanunî albümü Sokullu portresinin, 1538-09 Preveze Barbaros'un arkasında
+  // kalıyordu). Artık eşleşen BÜTÜN kayıtlar veri sırasıyla çizilir; aynı kayıt
+  // (id) ya da aynı görsel dosyası (url) iki kez basılmaz.
+  // Bağ değeri kartlarla AYNI yardımcıdan geçer (`_ekBagEslesir`): düz gün
+  // eskisi gibi, "1566-01-01|Mostar" yalnız başlığında "Mostar" geçen maddede.
+  var _gorulenKayit = {}, _gorulenUrl = {};
+  var kayitlar = (window.GORSEL_MADDE || []).filter(function (g) {
+    var tutar = (g.olay || []).some(function (v) { return _ekBagEslesir(v, o); });
+    if (!tutar) return false;
+    var anahtar = g.id || g.url || JSON.stringify(g.olay);
+    if (_gorulenKayit[anahtar]) return false;
+    _gorulenKayit[anahtar] = true;
+    return true;
   });
-  if (!kayit) return;
+  if (!kayitlar.length) return;
+  kayitlar.forEach(function (kayit) {
   // "albüm" türü (Hünernâme) `gorseller:[...]` dizisi taşıyor, "madde"/
   // "portre" türü alanları KENDİ ÜZERİNDE taşıyor — ikisi de AYNI döngüden
   // geçsin diye tekil kayıt `[kayit]` olarak sarılıyor (yeni bir dal DEĞİL).
   (kayit.gorseller || [kayit]).forEach(function (r) {
     if (!_gorselLisansGosterilebilirMi(r.lisans)) return;   // ZORUNLU şart ①
     if (!r.url || !r.gorsel_alt) return;                     // erişilebilirlik alanı ŞART
+    if (_gorulenUrl[r.url]) return;                          // aynı dosya iki kayıtta — bir kez
+    _gorulenUrl[r.url] = true;
     var fig = document.createElement("figure");
     fig.className = "ob-madde-gorsel-kart";
     var img = document.createElement("img");
@@ -6781,6 +6797,7 @@ function maddeGorseliniGuncelle(o) {
     alt.appendChild(kaynakEl);
     fig.appendChild(alt);
     kutu.appendChild(fig);
+  });
   });
 }
 
@@ -6828,6 +6845,10 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_kadin",      // KITA 27, M-3693
   "ekokuma_ekonomi",    // KITA 28, M-3686 — 13 Eylül'de üçü de diske indi (dosya
                         // adı zaten dizideydi, KOD DEĞİŞMEDEN göründüler)
+  "ekokuma_dalga2",     // 13 Eylül, ikinci üretim dalgası (window.EKOKUMA_DALGA2) —
+                        // dosya diskte yokken de burada; yoksa sessizce atlanır
+  "merak_sh104",        // SONNET HAZIR KITA 104 (window.MERAK_SH104, Otranto) —
+                        // 1 Eylül'den beri yetim; `_merakHavuz` okur
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -6889,6 +6910,18 @@ function _ekHavuz() {
     .filter(function (k) { return /^EKOKUMA(_[A-Z0-9]+)?$/.test(k) && Array.isArray(window[k]); })
     .reduce(function (acc, k) { return acc.concat(window[k]); }, []);
 }
+// 🆕 13 Eylül 2026 — MERAK havuzu, AYNI desen. "merak" türü yalnız
+// `window.MERAK` okuyordu; `data/merak_sh104.js` (`window.MERAK_SH104`, Otranto
+// kartı, 1 Eylül'den beri) ne yükleniyordu ne okunuyordu — HİÇ görünmüyordu
+// (D099). `window.MERAK` ÖNCE gelir: Object.keys ekleme sırasını korur ve
+// MERAK, MERAK_* dosyalarından önce yüklenir ama o sıraya GÜVENİLMEZ — açıkça
+// başa alınır. Havuzdaki (EKOKUMA*) tur:"merak" kartlar bugün de görünmez.
+function _merakHavuz() {
+  var ekler = Object.keys(window)
+    .filter(function (k) { return /^MERAK_[A-Z0-9]+$/.test(k) && Array.isArray(window[k]); })
+    .reduce(function (acc, k) { return acc.concat(window[k]); }, []);
+  return (Array.isArray(window.MERAK) ? window.MERAK : []).concat(ekler);
+}
 // AYNI DESEN — görsel havuzu. Bugün TEK kullanıcısı yok (madde görseli
 // gösterimi ayrı bir karar, M-3651); dosya yalnız BELLEĞE alınıyor. Karar
 // gelince kaynak burası olur, yeni bir toplayıcı yazmaya gerek kalmaz.
@@ -6898,20 +6931,63 @@ function _gorselHavuz() {
     .reduce(function (acc, k) { return acc.concat(window[k]); }, []);
 }
 
+// 🆕 13 Eylül 2026 — EKOKUMA-BAGLANTI-HASSAS-0913: bağ değerine İSTEĞE BAĞLI
+// AYIRT EDİCİ. Maddelerin `id` alanı yok; eşleşme yalnız GÜNE bakıyordu ve bir
+// kart o günü paylaşan HER maddeye düşüyordu (28 çakışma satırı: 1566-01-01'de
+// Mostar kartı Mihrimah Camii maddesinde, 1577-01-01'de rasathane tartışması
+// Fizan · Drina · Azapkapı maddelerinde…).
+//   "1566-01-01"          → bugünkü davranış, AYNEN (geriye uyumlu)
+//   "1566-01-01|Mostar"   → gün tutmalı VE "Mostar" maddenin `b` başlığında
+//                           geçmeli (büyük/küçük harf ve Türkçe/şapka duyarsız)
+// 🔴 Normalleştirici `lower()`dan ÖNCE Türkçe eşleme yapar (CLAUDE.md §4:
+// "İ".toLowerCase() İKİ kod noktası verir, "inyupiak" ⊄ "İnyupiak".lower()).
+// Kesme işaretleri atılır ("Nef'î" ile "Nef’î'nin" aynı okunur).
+function _ekNorm(s) {
+  s = String(s == null ? "" : s)
+    .replace(/[İIı]/g, "i").replace(/[Şş]/g, "s").replace(/[Ğğ]/g, "g")
+    .replace(/[Üü]/g, "u").replace(/[Öö]/g, "o").replace(/[Çç]/g, "c")
+    .replace(/[Ââ]/g, "a").replace(/[Îî]/g, "i").replace(/[Ûû]/g, "u");
+  if (s.normalize) s = s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return s.toLowerCase().replace(/['\u2018\u2019`\u02bc]/g, "").replace(/\s+/g, " ").trim();
+}
+// Bağ değerinin gün kısmı ("1566-01-01|Mostar" → "1566-01-01").
+function _ekBagGun(v) {
+  var s = String(v == null ? "" : v), i = s.indexOf("|");
+  return i < 0 ? s : s.slice(0, i);
+}
+// Tek bir bağ değeri bu maddeye düşüyor mu?
+function _ekBagEslesir(v, o) {
+  if (v == null) return false;
+  var s = String(v), i = s.indexOf("|");
+  if (i < 0) return s === o.t;
+  if (s.slice(0, i) !== o.t) return false;
+  var ayirt = _ekNorm(s.slice(i + 1));
+  return !ayirt || _ekNorm(o.b).indexOf(ayirt) >= 0;
+}
 // Bir kartın verilen kronoloji maddesine bağlı olup olmadığı — üç örnek
 // şema üç farklı bağlama alanı kullanıyor (dosyalardaki kendi örnekleri),
 // kod hepsini okuyor, tek bir ad dayatmıyor:
-//   sebep-sonuç `olay:[...]`   magazin `t` (tek tarih)   merak `baglanti:[...]`
+//   sebep-sonuç `olay:[...]`   magazin `t` (+ `olay:[...]`)   merak `baglanti:[...]`
+// 🆕 13 Eylül 2026 — magazin (ve `tur`suz) kart artık `olay`/`baglanti`yı da
+// okur (önceden yalnız `t`: `olay`a yazılmış 2 bağ SESSİZCE etkisizdi).
+// `t` eşleşmesi korunur, TEK istisna: liste AYNI GÜNÜ taşıyorsa `t` o gün
+// için listeye DEVREDER — yoksa "1534-01-01|Hürrem" ayırt edicisi, çıplak
+// `t:"1534-01-01"` yüzünden ilgisiz ikiz maddede yine tutardı.
 function ekKartBagliMi(kart, o) {
-  // `tur` alanı olmayan kaynaklar (ANTLASMALAR) da güne bağlanır.
-  if (kart.tur === "magazin" || !kart.tur) return kart.t === o.t;
   var liste = kart.olay || kart.baglanti || [];
-  return liste.indexOf(o.t) >= 0;
+  for (var i = 0; i < liste.length; i++) if (_ekBagEslesir(liste[i], o)) return true;
+  // `tur` alanı olmayan kaynaklar (ANTLASMALAR) da güne bağlanır.
+  if (kart.tur === "magazin" || !kart.tur) {
+    if (!_ekBagEslesir(kart.t, o)) return false;
+    for (var j = 0; j < liste.length; j++) if (_ekBagGun(liste[j]) === o.t) return false;
+    return true;
+  }
+  return false;
 }
 var EKOKUMA_TUR = {
   "sebep-sonuc": { etiket: "🔗 Sebep-Sonuç", kaynak: function () { return _ekHavuz(); } },
   "magazin":     { etiket: "🎭 Magazin",     kaynak: function () { return _ekHavuz(); } },
-  "merak":       { etiket: "❓ Merak",        kaynak: function () { return window.MERAK || []; } },
+  "merak":       { etiket: "❓ Merak",        kaynak: function () { return _merakHavuz(); } },
   // 🔴🔴 24 Ağustos 2026 — 0034/H-0010: *"TÜM ANLAŞMA içeren maddelerin
   // içine ANLAŞMA METNİ butonu"* (Emre).
   //
