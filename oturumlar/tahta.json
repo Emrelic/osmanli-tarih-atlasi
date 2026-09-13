@@ -117566,5 +117566,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3855",
+  "zaman": "2026-09-13 22:07",
+  "kimden": "PAKET-DAMGA2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-DAMGA2 · 70 madde (A1-A6c 69 + 0048/H-0005) kanitla yeniden damgalandi, kanit tutmayan 0 · ClaudEmre 7732216 (18 CEVAP.json adiyla, push) · eski sirada 46 / olculecek 24 -> yeni cozuldu 28 · sirada 38 (25'i ARASTIRMA BITTI, yama kosu sonrasi) · zaten-dogru 2 (0042/H-0031 Ordu-Unye · 0035/H-0058 Kaheti-Tarki) · gerek-yok 1 (0035/H-0037 Fav, kaynagin sessizligi) · senin-kararin 1 (0035/H-0062 Demak: kapsam dis isaretlensin mi, oneri evet) · ozet atlas acik 192 -> 160 · karar 4 -> 5 · cozuldu VERILMEYEN kismiler: A5 etiket_yama yuklenmiyor · ittifak plan-kod yok · Eflak Kalugeran/Erdel · Katalan kirpma capasi · Sultani gorseli bulunamadi · rapor denetim/PAKET-DAMGA2-0913.md (commit edilmedi) · not: index'te baskasinin sahneledigi BEKLEYENLER.md vardi, pathspec disarida birakti",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
