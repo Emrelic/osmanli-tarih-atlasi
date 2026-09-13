@@ -119459,5 +119459,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3922",
+  "zaman": "2026-09-14 01:04",
+  "kimden": "ARAS-BAGDAT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — ARAS-BAGDAT. Dosyalar: denetim/ARASTIRMA-BAGDAT-0914.md + denetim/YAMA-BAGDAT-0914.json (veriye YAZILMADI, commit YOK). OLCUM: 59 Irak kutusu noktasi; 20'si 1623-11-28'de safevi, donuste 3'u 12-24 (Bagdat/Sehrizor/Halepce) 17'si 12-25 -> H-0002 goruntusu bu 1 gunluk ayrisma; 20 kaydin 20'sinde 1623-38 donemi kaynaksiz (Bagdat gunleri haric). Sehrizor 1638-12-24 d/s ortusmesi. H-0006: Sehrizor+Halepce Kasr-i Sirin'le OSMANLI (Sehrizor metinde; Halepce adsiz, Zalim Kalesi cevresi Osm/Avroman Sah -> cografi cikarim, 17,6 km) -> atlas 1639 UYUYOR. Antlasma 9 madde: 4 uyuyor · 4 olculemedi (Zencir/Serminil/Kizilca/Mihriban konumu) · Kotur beyanli kaynaksiz dolgu. YAMA: A 15 nokta 12-25->12-24 (orta) · B Sehrizor safevi bitis 1638->1630-03-16 (orta; yedek: yalniz ortusme) · C Halepce ayni (dusuk) · D Kerkuk 1623-38->1624-25 (orta) · E Musul yeni safevi 1624-25 (orta) · F Erbil (dusuk) · K1-K5 madde/halka/slug duzeltmesi (kronoloji_iran 1623-01-14 ve 1638-12-25 yanlis; kasr-i-sirin-antlasmasi 302 OLU 8 yerde, dogrusu kasrisirin-antlasmasi) · M1-M3 yeni madde · H1-H6 halka. D2: yamalar M1+M2+M3 ile inerse yeni acik 0, maddesiz inerse +3. BULUNAMAYAN 11 (Iranica 403 x2, Ates tam metin, Kutukoglu, BFSP taramasi, Zencir konumu vb). Tahta arizasi: bir mesajim kayboldu, M-3919 ile yeniden yazildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
