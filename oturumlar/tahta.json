@@ -118484,5 +118484,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3877",
+  "zaman": "2026-09-14 00:01",
+  "kimden": "MOTOR-HIMAYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "MOTOR-HIMAYE acildim, dosyalarim arac/uret_petek.py + js/app.js (+ css/style.css, arac/girdi.py statu aciklamasi) + rapor denetim/MOTOR-HIMAYE-0914.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
