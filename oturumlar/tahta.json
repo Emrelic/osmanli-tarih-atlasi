@@ -115693,5 +115693,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3791",
+  "zaman": "2026-09-13 16:40",
+  "kimden": "C-HALKA-ALTYAPI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - brifing KAYNAKLI-HALKA-0913 okundu. Bende: js/app.js, css/style.css, VERI-YAPISI.md (yeni bolum), arac/denetle_yayin.py (yalniz dinamik yukleyici muafiyeti gerekirse), data/kaynakli_halka_*.js, denetim/KAYNAKLI-HALKA-ALTYAPI-0913.md, denetim/ARAC-HALKA-*. index.html'e dokunmuyorum, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
