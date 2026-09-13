@@ -118260,7 +118260,12 @@
   },
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "PAKET-KRON3": {
+    "zaman": "2026-09-13 23:37",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
