@@ -1442,11 +1442,14 @@ harita.on("load", function () {
   // ⚠️ YUMUŞAK kipte (`SIYASI_KIP.yumusak`, himaye-dolgu 0.60) ①'in iç yarısı
   //    saydam dolgunun ALTINDAN soluk görünür — alfa harmanının o kipte
   //    zaten yazılı bedeli.
-  // 📌 İNCE KALSIN: p zoomla 0.5 → 1 px; şerit toplamı 2 px (zoom 3) →
-  //    4 px (zoom 8). Eski tek çizginin 2 px'i ile aynı mertebe.
-  //    ⚠️ Zoom 3'te iki parça 1'er piksele iner ve kenar yumuşatmasıyla
-  //    kaynaşır (ölçüldü) — orada şerit tek koyu kırmızı hat gibi okunur.
-  var HIMAYE_P = [3, 0.5, 5, 0.75, 8, 1];      // [zoom, p, zoom, p …]
+  // 📌 KALINLIK — Emre, 13 Eylül 2026: "çizgiden hemen biraz daha fazla,
+  //    ince bir şerit kapsamında olmalı; çizgi denemeyecek kadar kalın,
+  //    şerit demeye ancak başlayacak kadar ince."
+  //    p zoomla 1 → 2 px; şerit toplamı (2p + 2p) 4 px (zoom 3) → 6 px
+  //    (zoom 5) → 8 px (zoom 8). Önceki değer (p 0.5 → 1, toplam 2 → 4 px)
+  //    zoom 3'te iki parçayı 1'er piksele indirip TEK koyu hat gibi
+  //    okutuyordu (ölçüldü) — Emre'nin "çizgi" dediği tam oydu.
+  var HIMAYE_P = [3, 1, 5, 1.5, 8, 2];         // [zoom, p, zoom, p …]
   function himayeGenislik(kat) {
     var ifade = ["interpolate", ["linear"], ["zoom"]];
     for (var hi = 0; hi < HIMAYE_P.length; hi += 2)
