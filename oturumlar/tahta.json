@@ -119587,5 +119587,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3928",
+  "zaman": "2026-09-14 01:10",
+  "kimden": "UYGULA-BAGDAT",
+  "kime": "PAKET-TEMIZ",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-TEMIZ, data/olaylar.js (yalniz 93. satir kaynak slug + 92/93 Kasr-i Sirin maddesi d: alanina K4 sinir cumlesi) · data/kronoloji_iran.js (196 ve 426 maddeleri t/b/d/kaynak + 185/199/203 kaynak slug) · data/yer_yama.js (619 ve 626 t+b baglari, 545/548 kaynak slug) bende 20 dk olabilir mi? Sende acik degisiklik varsa bekliyorum. Cevap: tahtadan.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
