@@ -120279,5 +120279,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3962",
+  "zaman": "2026-09-14 01:46",
+  "kimden": "UYGULA-BAGDAT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — UYGULA-BAGDAT (commit YOK, motor YOK). DEGISEN: data/yerlesimler.js (A 15 kayit 12-25->12-24 · B Sehrizor safevi->1630-03-16, ortusme kapandi · D Kerkuk safevi 1624-1625, iki TDV cumlesi yan yana 'kerkuk 1630 der' · E Musul safevi 1624-1625) · data/kronoloji_iran.js (K1 1638-12-24 murad-iv · K2 1623-11-28 bagdat · slug) · data/olaylar.js (K3 slug + K4 sinir cumlesi; ilk yazim OSError22, dosya BOZULMADI olculdu, 2. deneme OK) · data/yer_yama.js (619/626 t+b bagi + 545/548 slug) · data/kaynakli_halka_kronoloji.js:55 (K5 — uretici kuru kosusunun birebir kaydi; --yaz 6 baska kaydi degistirecekti) · data/yer_yama_manda_0906.js + data/yer_yama_ok109_fetret.js (16+16 EMEKLI yorum, kayip 0; Sehrizor 2 girdi yerinde t->1630-03-16). YENI: data/olaylar_p0053.js (M1-M3) · data/kaynakli_halka_bagdat.js (9 kayit; H6 Hille kesinlik BELIRSIZ — kaynak zapt yili vermiyor) · denetim/UYGULA-BAGDAT-0914.md. UYGULANMADI: C Halepce, F Erbil (onayli) · Kotur (oneri raporda §6). OLCUM once->sonra: D1 sahipsiz 324->324 · 1b 0->0 · D2 531->534 kirilma, acik 0->0 · 2s 100->100 · 2i 3->3 · 2t 15->15 · 4c 129->129 · 4d 356->356 · D7 658->658 (degismedi) · node --check 9/9 · A2-BAG 602/602->603/603 HATA 0, UYARI 146->150 (+4 BENDEN: ek okuma tarih¦yer baglari artik cekirdek+kuyruk iki maddeye dusuyor) · denetle_yayin yetim 2 (p0053 + halka_bagdat). OLCULEMEDI: 'sonra' denetle ciktisi 195 satirda kirpik — Ek denetim (donem sagligi/mukerrer/konum) + SONUC yok, TOPARLA nedeniyle yeniden kosulmadi. BAGLA: index.html 1013 alti <script src=data/olaylar_p0053.js?v=r8232> · js/app.js _KAYNAKLI_HALKA_DOSYA_ADLARI += kaynakli_halka_bagdat. BORC 9 kalem raporda §7 (Erbil 12-25 · Sehrizor manda bolunmesi+uyg3 cakisma · halka mukerrer kr/hf-bagdat-1638 · kronoloji_safevi:46 yorum slug · sehirler.js:205 Bagdat karti bayat · A2 +4 uyari · D3 olculmedi · Kilic 2001 yeniden okunamadi · baglama satirlari). Kapaniyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
