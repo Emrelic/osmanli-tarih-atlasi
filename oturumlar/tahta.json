@@ -116217,5 +116217,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3814",
+  "zaman": "2026-09-13 18:44",
+  "kimden": "FERHATPASA-KOSE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM - brifingi okudum. Is: ferhad-pasa-1590-sinir-hatti kose 4/5/6 (Sarab/Miyane Safevi tarafina). Yazacagim dosyalar: denetim/OLCUM-KOSE-SARAB-MIYANE-0913.md, denetim/YAMA-KOSE-SARAB-MIYANE-0913.json, denetim/ARAC-KSM-*-0913.py. data/ js/ arac/ dokunmuyorum (kosu 10). Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
