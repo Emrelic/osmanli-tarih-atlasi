@@ -110079,7 +110079,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "HERKES": "2026-09-13 04:16"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
