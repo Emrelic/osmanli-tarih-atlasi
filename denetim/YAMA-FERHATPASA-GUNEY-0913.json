@@ -1,0 +1,139 @@
+{
+  "_kunye": {
+    "oturum": "FERHATPASA-GUNEY araştırma işçisi",
+    "tarih": "2026-09-13",
+    "durum": "ÖNERİ — UYGULANMADI. Koşu aktif, data/ DONUK. Uygulayan Oturum 0.",
+    "rapor": "denetim/OLCUM-FERHATPASA-GUNEY-0913.md",
+    "benzetim": "denetim/ARAC-FERHATPASA-GUNEY-BENZETIM-0913.py A|B (yamalar bellekte; Değişmez 1 günlük tarama 0 sahipsiz gün, dönem sağlığı ✓, iki şıkta da)",
+    "hat_aleti": "denetim/ARAC-FERHATPASA-GUNEY-HAT-0913.py",
+    "kapsam": "Emre poligonu ∩ lat<36,0 · 43 atlas noktası (32 iç + 11 kenar) · 4'ü 0047'nin (Bâne · Merîvan · Bîcâr · Kasr-ı Şîrîn) · 4'ü pencerede yok (Senendec kur 1636 · Erâk 1808 · Nâsıriye 1869 · Muhammere 1812) ⇒ 35 hüküm",
+    "🔴_UYGULAYANA_TEK_UYARI": "A1 (Hemedan) iki şıkta da AYNI. A2-A4'te şık seçilmeden hiçbiri inmesin: A2/A3 aynı günü paylaşmalı (Burûcird Luristan'dan sonra Osmanlı kalamaz). A4-a'nın 1588-01-01 günü ve A3-a'nın 1592-01-01 günü Değişmez 2'yi TEKNİK olarak geçiyor ama İLGİSİZ maddelerle (Hünernâme II. cilt · Dâvud Ağa mimarbaşı) — kronoloji maddesi İSTENMELİ (bkz. madde_istekleri)."
+  },
+
+  "A_kaynakli": [
+    {
+      "id": "A1",
+      "ad": "Hemedan",
+      "islem": "d:[{f:'1590-03-21', t:'1603-10-21'}] dönemini SİL → kesintisiz s:safevi (1508→1736 zaten var; Değişmez 1: 0 sahipsiz gün)",
+      "hukum": "SAFEVÎ 1590-1603 — şehir ve vilayet Safevî valisi altında; 1588'de Osmanlı YAĞMASI var, TASARRUF yok",
+      "guven": "YÜKSEK",
+      "kaynaklar": [
+        {"gelenek": "IR (birincil, EN çeviri)", "kaynak": "Eskandar Beg Monshi, History of Shah ʿAbbas the Great, tr. R. Savory, 1978, s.580-583", "alinti": "He had defeated Qūr Koms Khan, the governor of Hamadan … had pillaged that province, and advanced as far as Nehāvand, where he had built a fort … provisioned and garrisoned them before retiring."},
+        {"gelenek": "IR", "kaynak": "Monshi/Savory s.587 (998/1590)", "alinti": "He appointed Ṭahmāspqolī Sultan Areilü governor of Hamadan … After the conclusion of peace, Shah Abbas made no further efforts to oust the Ottomans from their fort at Nehāvand"},
+        {"gelenek": "IR", "kaynak": "Monshi/Savory s.690 (1004/1595-96)", "alinti": "Hoseyn Ali Khan Čegani, the governor of Hamadan … dismissed … from the governorship of Hamadan"},
+        {"gelenek": "IR", "kaynak": "Monshi/Savory s.824-825 (1011-12/1602-03)", "alinti": "Nehāvand is a dependency of Hamadan … located at the heart of the province of Hamadan … ordered the governor of Hamadan, Hasan Khan"},
+        {"gelenek": "EN", "kaynak": "Encyclopaedia Iranica, NEHĀVAND", "url": "https://www.iranicaonline.org/articles/nehavand/", "alinti": "Shah ʿAbbās's governor of Hamadan, Ḥasan Khan, razed the fort to the ground"},
+        {"gelenek": "TR", "kaynak": "TDV hemedan [63] (T. Yazıcı, c.17 s.183-185)", "alinti": "1588'de Cigalazâde Sinan Paşa Hemedan civarını zaptetti.", "not": "ŞEHİR değil 'civar'; 1590-1603 Osmanlı idaresi ANILMIYOR"},
+        {"gelenek": "TR", "kaynak": "Kütükoğlu 1962 s.195-196 antlaşma maddeleri, aktaran Efe & Kızıl, dergipark 318610 s.6", "url": "https://dergipark.org.tr/en/download/article-file/318610", "alinti": "Tebriz, Karacadağ, Gence, Karabağ, Şirvan, Gürcistan, Nihavend, Luristan, Şehrizor (Kerkük) ve havalisi korunacak", "not": "HEMEDAN listede YOK"},
+        {"gelenek": "TR", "kaynak": "Küpeli 2010, History Studies Ortadoğu Özel Sayısı s.232 (Kütükoğlu 1993'e dayanarak)", "url": "https://www.historystudies.net/dergi/tar201512ec962.pdf", "alinti": "Osmanlılara bırakılan bölgeler Mihriban, Pelengân ve Nihavend beylerbeylikleri şeklinde teşkil edildi", "not": "Hemedan beylerbeyiliği YOK"}
+      ],
+      "degismez2": "silme yeni kırılma üretmez; 1590-03-21 ve 1603-10-21 günleri başka kayıtlarda sürüyor (ölçüldü)"
+    }
+  ],
+
+  "B_sikli": [
+    {
+      "id": "A2",
+      "ad": "Burûcird",
+      "hukum": "1593-94'te SAFEVÎ kesin; 1590-92 için Osmanlı olduğuna dair KAYNAK BULUNAMADI (kayıt y:'antlasma' diyor ama antlaşma maddesinde Burûcird yok)",
+      "kaynak": "Monshi/Savory s.643-644 (1002/1593-94): 'Šāhverdī began to molest the governors of Hamadan and to make raids on Borüjerd' · 'Oģūrlū Sultan Bayāt … had gone to Borüjerd' (Safevî seferberliği)",
+      "gelenek": "IR",
+      "sik_a": {"islem": "d 1590-03-21→1603-10-21 SİL", "gerekce": "Osmanlı dönemi kaynaksız; ilk ölçülen tarihte Safevî", "oneri": true},
+      "sik_b": {"islem": "d.t 1603-10-21 → 1593-01-01", "gerekce": "Luristan'la aynı gün (A3-b)", "risk": "🔴 Değişmez 2 AÇIK: 1593-01-01 ±30 günde madde yok (en yakın 1593-07-01, 181 gün — ölçüldü)"}
+    },
+    {
+      "id": "A3",
+      "ad": "Luristan (Hürremâbâd noktası, 33.487/48.356)",
+      "hukum": "1590'da OSMANLI TÂBİSİ (Şâhverdî Bağdat beylerbeyinin vasalı); 1000/1591-92 Safevî'ye bağlılık; 1002/1593-94 Şah Hürremâbâd'ı işgal, vali Mahdīqolī Khan Šāmlū",
+      "kaynaklar": [
+        {"gelenek": "IR", "kaynak": "Monshi/Savory s.643", "alinti": "Sahverdi then became the vassal of the Ottoman governor of Baghdad … In the year 1000/1591-92 … Šāhverdī was forced to declare his allegiance to the Safavid crown"},
+        {"gelenek": "IR", "kaynak": "Monshi/Savory s.644", "alinti": "the Shah … occupied Korramābād and made Mahdīgolī Khan Šāmlū governor of the city (1002/1593-94)"},
+        {"gelenek": "EN", "kaynak": "Iranica ATĀBAKĀN-E LORESTĀN", "url": "https://www.iranicaonline.org/articles/atabakan-e-lorestan/", "alinti": "when Shah ʿAbbās approached, Šāhverdī fled to Baghdad. He was reinstated in 1003/1594-95 … put to death in 1006/1597-98"},
+        {"gelenek": "EN", "kaynak": "Iranica CHRONOLOGY part 1 [493]", "alinti": "1590 Shah ʿAbbās makes peace with the Ottomans; he abandons Šarvān, Georgia, Tabriz, and Lorestān."},
+        {"gelenek": "TR", "kaynak": "TDV luristan [35-36]", "alinti": "998'de (1590) İstanbul'da yapılan antlaşmaya göre Osmanlı idaresine bağlanan Luristan'ı Şah I. Abbas Safevîler'e tam olarak bağladı (1603).", "celiski": "bitiş 1603 — Monshi/Iranica 1591-94 diyor"}
+      ],
+      "sik_a": {"islem": "d.t 1603-10-21 → 1592-01-01", "gerekce": "Monshi 1000/1591-92 bağlılık beyanı; §4 yıl hassasiyeti (AH 1000 = 19 Eki 1591–7 Eki 1592, çoğu 1592)", "degismez2": "✓ TEKNİK — ama madde ilgisiz (Dâvud Ağa mimarbaşı)", "oneri": true},
+      "sik_b": {"islem": "d.t 1603-10-21 → 1593-01-01", "gerekce": "fiilî işgal 1002/1593-94 (yaz)", "degismez2": "🔴 AÇIK (181 gün)"},
+      "tur_notu": "Kaynak 'vassal' diyor ⇒ d: yerine v: (tâbi) daha doğru; şema değişikliği C3'e bırakıldı"
+    },
+    {
+      "id": "A4",
+      "ad": "Nihâvend",
+      "hukum": "OSMANLI — yalnız KALE (garnizon Bağdat'tan besleniyor), 1588 → 1603",
+      "baslangic_kaynaklari": [
+        {"gelenek": "TR", "kaynak": "TDV nihavend--iran [94]", "alinti": "Bağdat Valisi Cigalazâde Sinan Paşa 996 (1588) yılı sonlarında Nihâvend üzerine yürüyüp şehri ele geçirdi ve burada bir kale inşa ettirdi."},
+        {"gelenek": "IR", "kaynak": "Monshi/Savory s.580-583, 'The Year of the Rat, 997/1588-89' başlığı altında"},
+        {"gelenek": "EN", "kaynak": "Iranica NEHĀVAND", "alinti": "in 998/1589, built a fortress there", "celiski": "1589 — TDV ve Monshi 1588(-89)"}
+      ],
+      "sik_a": {"islem": "d.f 1590-03-21 → 1588-01-01", "gerekce": "atlas tasarruf boyar (D076); TR+IR 1588'de birleşiyor", "degismez2": "✓ TEKNİK — 1588-01-01 zaten başka kayıtta kırılma; en yakın madde 'Hünernâme'nin II. cildi' İLGİSİZ", "oneri": true},
+      "sik_b": {"islem": "dokunma (1590-03-21 hukukî başlangıç)"},
+      "bitis": "1603-10-21 DOKUNMA — kaynak YIL veriyor (Monshi: Hare yılı 20 Mart 1603'te başlıyor, olay Azerbaycan seferinden ÖNCE · TDV '1603' · Iranica '1011/1602-03'); gün kaynaksız ama 1603-01-01 yazmak Nevruz 1603'ten ÖNCEYE düşer, kaynağa ters"
+    }
+  ],
+
+  "C_karar": [
+    {"id": "C1", "konu": "A2/A3/A4 şık seçimi", "oneri": "A (A2-a · A3-a · A4-a)"},
+    {"id": "C2", "konu": "Kirmanşah — atlas OSM 1590-1603 · hüküm OSMANLI örtülü (tâbi?)", "dayanak": "Monshi/Savory s.840 (1011-12/1602-04): Kalhor beyleri 'provincial governors on behalf of the Ottomans', 'All his forts and territory fell into Safavid hands'; s.851: 'Mir Qobād b. Mir ʿOmar Kalhor, who was a provincial governor under the governor of Baghdad'. Kirmanşah şehrinin kendisi ADIYLA GEÇMİYOR. Bilge 2005 listesi (aktaran Efe & Kızıl s.6) Kirmanşah'ı sayıyor ama aynı liste Huzistan'ı da sayıyor (TDV huzistan ve Monshi'ye ters) ⇒ zayıf.", "oneri": "dokunma; Emre'nin enklav kuralıyla 'örtülü' damgası"},
+    {"id": "C3", "konu": "Luristan d: → v: (tâbi) tür değişikliği", "oneri": "şema kararı Oturum 0'ın; öneri yok"},
+    {"id": "C4", "konu": "Abâdân — atlas d 1546-01-01→1847-05-31", "dayanak": "1590 sahibi BULUNAMADI. TDV huzistan [92]: 1837'de Osmanlılar 'Muhammere ile Abadan'ı ele geçirdiler' ⇒ en azından 1837 öncesi Osmanlı tasarrufu SORGULU", "oneri": "BEKLET — ayrı kalem"}
+  ],
+
+  "ek_bulgu_1612": {
+    "konu": "Şehrizor · Halepçe (ve Şehrizor zinciri) — atlas 1612-11-20'de OSM, TR kaynak Safevî işgali diyor",
+    "kaynak": "Küpeli 2010 s.232: 'Uzun Ahmed … ölümüyle birlikte Şehrizor ve Hüveyze'nin elden çıkması çok sürmedi. Bu bölgeler savaşın sonuna kadar Safeviler elinde kaldı.' · s.233: 1619 barış metni 'Şehrizor ve Bağdat taraflarında Safevilerce işgal edilmiş bölgelerin boşaltılmasına karşılık Derne ve Derteng'in onlara bırakılması'",
+    "gelenek": "TR",
+    "ikinci_kaynak": "Monshi/Savory s.851-852: Uzun Ahmad Zohāb'da esir (1012-13/1603-05) — ölüm günü ve Şehrizor'un düşüş günü OKUNMADI",
+    "oneri": "BEKLET — yıl bile yok ('çok sürmedi'); Ferhat Paşa penceresinin DIŞI"
+  },
+
+  "madde_istekleri_degismez2": [
+    {"gun": "1588-01-01", "konu": "Cığalazade Sinan Paşa Hemedan önünde Qūr Koms Han'ı yendi, Nihâvend'e kale kurdu", "kaynak": "TDV nihavend--iran [94] · Monshi/Savory s.583", "neden": "A4-a; bugünkü en yakın madde ilgisiz"},
+    {"gun": "1592-01-01", "konu": "Luristan hâkimi Şâhverdî Safevî'ye bağlılık bildirdi", "kaynak": "Monshi/Savory s.643 · Iranica ATĀBAKĀN-E LORESTĀN", "neden": "A3-a; bugünkü en yakın madde ilgisiz"}
+  ],
+
+  "sinir_hatti_guney": {
+    "tarih": "1590-03-21",
+    "yon": "kuzey→güney · hattın BATISI/GÜNEYBATISI OSMANLI (tâbi dahil), DOĞUSU/KUZEYDOĞUSU SAFEVÎ",
+    "yontem": "her düğüm = bir Osmanlı atlas noktası ile bir Safevî atlas noktasının ORTA NOKTASI (koordinat uydurulmadı; antlaşma çizgi çizmiyor — statüko)",
+    "birlesme": "kuzey ucu lat≈35,8 (Şehrizor|Bâne); kuzey yarının (FERHATPASA-SEHIR-MATRISI) güney ucuna bağlanır. Düğüm 1-3'ün Safevî tarafı 0047'nin hükmüne BAĞLI.",
+    "hat": [
+      {"ad": "Şehrizor | Bâne", "lat": 35.775, "lon": 45.655, "dayanak": "Şehrizor antlaşma maddesinde (Kütükoğlu 1962:195-196) · Iranica IRAQ iv [119]; Bâne → bkz. 0047"},
+      {"ad": "Halepçe | Merîvan", "lat": 35.350, "lon": 46.082, "dayanak": "Halepçe örtülü (Şehrizor eyaleti); Merîvan → bkz. 0047"},
+      {"ad": "Kirmanşah | Bîcâr", "lat": 35.093, "lon": 47.335, "dayanak": "Kirmanşah örtülü (Kalhor, Monshi s.840); Bîcâr → bkz. 0047 · ⚠️ Ardalan/Pelengân (Küpeli: Osmanlı beylerbeyiliği) bu düğümün yakınında, atlas noktası yok"},
+      {"ad": "Kirmanşah | Hemedan", "lat": 34.556, "lon": 47.790, "dayanak": "Hemedan Safevî valisi (Monshi s.587·690·825)"},
+      {"ad": "Nihâvend | Hemedan", "lat": 34.495, "lon": 48.446, "dayanak": "Nihâvend kalesi Osmanlı (TDV nihavend--iran · Monshi s.583 · Iranica NEHĀVAND)"},
+      {"ad": "Nihâvend | Burûcird", "lat": 34.044, "lon": 48.564, "dayanak": "Burûcird Safevî (Monshi s.643-644)"},
+      {"ad": "Luristan | Burûcird", "lat": 33.692, "lon": 48.554, "dayanak": "Luristan Osmanlı tâbisi 1590 (Monshi s.643 · TDV luristan · Iranica CHRONOLOGY)"},
+      {"ad": "Luristan | Dizfûl", "lat": 32.935, "lon": 48.379, "dayanak": "Dizfûl/Şüşter Safevî (Monshi s.593, 675 · TDV huzistan [74-75])"},
+      {"ad": "Kût el-Amâre | Dizfûl", "lat": 32.448, "lon": 47.110, "dayanak": "Iranica IRAQ iv [120]: sınır Hûzistan'da TANIMSIZ kaldı"},
+      {"ad": "Ammâre | Havîza", "lat": 31.646, "lon": 47.610, "dayanak": "Havîza Müşa'şa', Safevî tâbisi (Monshi s.675-677 · Iranica IRAQ iv [64])"},
+      {"ad": "Kürne | Havîza", "lat": 31.234, "lon": 47.759, "dayanak": "aynı"},
+      {"ad": "Basra | Ahvaz", "lat": 30.914, "lon": 48.226, "dayanak": "Ahvaz örtülü-Safevî"},
+      {"ad": "Fâv | Abâdân", "lat": 30.158, "lon": 48.388, "dayanak": "KÖRFEZ UCU · Abâdân BELİRSİZ (C4) — düğüm yalnız Şattülarap ağzını işaretler"}
+    ]
+  },
+
+  "sinir_hatti_guney_1593": {
+    "tarih": "1593-06-15 (Luristan Safevî'ye döndükten sonra; Nihâvend ADA)",
+    "hat": [
+      {"ad": "Şehrizor | Bâne", "lat": 35.775, "lon": 45.655},
+      {"ad": "Halepçe | Merîvan", "lat": 35.350, "lon": 46.082},
+      {"ad": "Kirmanşah | Bîcâr", "lat": 35.093, "lon": 47.335},
+      {"ad": "Kirmanşah | Hemedan", "lat": 34.556, "lon": 47.790},
+      {"ad": "Kirmanşah | Luristan", "lat": 33.901, "lon": 47.710, "dayanak": "Monshi s.644-645: Şâhverdî 'Ottoman territory'ye kaçtı, Kür-kûh 'on the border between Lorestan and Baghdad province'"},
+      {"ad": "Kût el-Amâre | Luristan", "lat": 33.000, "lon": 47.087},
+      {"ad": "Kût el-Amâre | Dizfûl", "lat": 32.448, "lon": 47.110},
+      {"ad": "Ammâre | Havîza", "lat": 31.646, "lon": 47.610},
+      {"ad": "Kürne | Havîza", "lat": 31.234, "lon": 47.759},
+      {"ad": "Basra | Ahvaz", "lat": 30.914, "lon": 48.226},
+      {"ad": "Fâv | Abâdân", "lat": 30.158, "lon": 48.388}
+    ],
+    "osmanli_adasi": {"ad": "Nihâvend", "lat": 34.191, "lon": 48.377, "f": "1593", "t": "1603", "dayanak": "Monshi/Savory s.824: 'about every ten days the Ottomans would march through their tribal territory and come and go freely to the fort' — kaynağın kendisi ENKLAVI tarif ediyor"}
+  },
+
+  "bkz_baska_oturum": {
+    "0047": ["Kasr-ı Şîrîn", "Bâne", "Merîvan", "Bîcâr"],
+    "0047_icin_not": "Kasr-ı Şîrîn (34.52/45.58) bu hattın OSMANLI tarafında kalıyor; Monshi s.840 ve s.851'e göre Zohāb–Zanjir kuşağındaki Kalhor beyleri 1604'e kadar Bağdat'a bağlı. Atlas 1590-1603'te safevi gösteriyor ⇒ 0047'nin hükmüyle karşılaştırılmalı",
+    "kuzey_yari": "FERHATPASA-SEHIR-MATRISI — o raporun öngörüsü Ö9 'Hemedan için kaynaklar Osmanlı der' diyor; bu ölçüm onu ÇÜRÜTÜYOR (A1)"
+  }
+}
