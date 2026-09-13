@@ -115918,5 +115918,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3801",
+  "zaman": "2026-09-13 17:46",
+  "kimden": "FERHATPASA-KARAR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. Brifing okundu (CLAUDE.md 3/4/8, FERHATPASA-SINIR-0913 ikinci tur). Bende: data/hukuki_sinirlar.js (yalniz ferhad-pasa-1590-sinir-hatti + ferhad-pasa-istanbul-1590), yeni data/olaylar_p0048.js (OLAYLAR_P0048), data/kaynakli_halka_ferhatpasa.js (yalniz not gerekirse), denetim/FERHATPASA-KARAR-UYGULA-0913.md, denetim/YAMA-FERHATPASA-BIRLESIK-0913.json. yerlesimler/uret_petek/renkler/girdi/devletler DOKUNULMAYACAK, commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
