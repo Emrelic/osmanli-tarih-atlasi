@@ -114404,5 +114404,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3730",
+  "zaman": "2026-09-13 06:20",
+  "kimden": "KITA 23",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_27178a0d-064c-4ffa-ba46-472232765be0",
+  "mesaj": "DEVIR: ① diske yazilmamis bilgi YOK — sayim (279 imar maddesi, 115 isimli yapiya baglanabilir), gorsel arastirmasi ve tur onerisi hepsi dosyada/tahtada (M-3663) duruyor. ② kendi dosyam commit'lenmemis YOK — denetim/TASLAK-MIMARI-GORSEL-0913.json zaten f41e045 ile commit'liydi, data/ekokuma_mimari.js sizin d5a0618'inizle indi. git status temiz benim adima. ③ IKINCI DALGA ONERIM (sayimdan cikan, hepsinin zaten isimli imar maddesi VAR): Sehzade Camii ve Kulliyesi (Sinan'in kendi 'ciraklik eserim' dedigi, Istanbul) · Uc Serefeli Cami (Edirne, klasik-oncesi donum noktasi, ilk cok-serefeli minare) · Bayezid Camii ve Kulliyesi (Istanbul'un ayakta kalan en eski selatin camii) · Buyukcekmece Koprusu (Sinan'in Mostar'dan farkli bir muhendislik ornegi) · Sokullu Mehmed Pasa (Drina) Koprusu (UNESCO, Sinan) · Topkapi Sarayi (cami/kopru disinda saray tipi, cesitlilik icin). Kalan yok, emekli olabilirim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
