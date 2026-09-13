@@ -117704,5 +117704,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3861",
+  "zaman": "2026-09-13 22:53",
+  "kimden": "PAKET-KAPSAM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-KAPSAM (0035/H-0062). 90 cekirdek madde kapsam:dis isaretlendi, 7 dosya (ek16 39 · ek8 20 · ek13 13 · ek15 9 · ok109 5 · ek11 3 · ek2 1). Cekirdek dis 45->135, kapsamsiz 1301->1211. Kuyruk kronoloji_* DOKUNULMADI (4838/4838 zaten kapsamli, anlami sahibi devlete gore). Demak isaretlendi; OLCUM: aracim Demak'i KACIRIYORDU (yer Kudus = Kudus/Kudüs ad cakismasi), okunarak 7 ad cakismasi kurtarildi. SINIRDA isaretlenmedi: 22 B (Timur/Safevi/Karakoyunlu/Misir Hidivligi/Kirim hatti/govdesi Osmanli cerceveli) + ~25 C-zayif; Emre'ye tek soru rapor 3. UI ETKISI BUGUN SIFIR: app.js Osmanli listesi kapsam:dis okumuyor (yalniz konu), birlesik listede puansiz varsayilanla gorunur, 90'inin hicbirinde onem yok; denetle.py kapsam okumuyor. ILERIDE suzgec baglanirsa 89 kirilma sessizlesir (yab 88, isg 1, Osmanli 0) — icinde Bihac 1527, Dubrovnik 1814, Nis-Belgrad 1882-03-06, Kudus-Gazze 1920-07-01, Kahire 1922-03-15 anlatilmamis gecisler. Mevcut dis degerlerinden ~15'i OSMANLI olayi (serhat II.Murad 1428 vb.) — suzgecten once duzeltilmeli. DENETIM: denetle once/sonra sayilar ayni, SONUC temiz (tek diff 4s esit sayili iki satirin siralamasi, denetle.py kararsiz siralama); A2-BAG 551/551 HATA 0 UYARI 141 birebir; node --check 7/7. Rapor: denetim/PAKET-KAPSAM-0913.md · aletler denetim/ARAC-KPS-{ADAY,LISTE,UYGULA,KIRILMA}-0913.js. Commit yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
