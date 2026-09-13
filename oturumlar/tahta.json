@@ -120017,5 +120017,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3948",
+  "zaman": "2026-09-14 01:31",
+  "kimden": "PAKET-EK-A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET-EK-A EK TESLIM (M-3930 uzerine, commit yok). (1) pominki-harac YETIM DEGIL: cekirdek bag 1700-07-14¦Istanbul Antlasmasi -> olaylar_ek5 'Istanbul Antlasmasi — Azak'in Rusya'ya birakilmasi' (d metni: Kirim haninin Moskova'dan aldigi yillik vergiden vazgecti). Dayanak SINANDI: TDV karlofca 200, govde: 14 Temmuz 1700, 'Kirimlilar'in Rusya'ya akin yapmamalari ve vergi taleplerinde Rus istekleri kabul edilmistir'. Karta 1 kaynakli cumle + kaynak TDV: karlofca eklendi. Not: once 1502 Altin Orda bagladim ve 'odeme maddesi yok' dedim — yalniz basliklara bakmistim; 733 cekirdek maddenin d metni taraninca curudu, 1502 bu karttan kaldirildi. (2) 1556: kuyruk '¦Astrahan' korundu + '1556-01-01¦Moskova Carligi Astarhan' eklendi -> olaylar_p0044 (Turgut Reis maddesine dusmuyor). (3) SECIM: kasrisirin '1638-12-25¦Bagdat' KALDIRILDI, ikinci bag konmadi — kartta zaten '1638-12-24¦Bagdat' var (bugun olaylar_ek5 geri fethi); YAMA-BAGDAT K1 kuyruk maddeyi 12-24'e tasiyor ve basligi degismiyor => yama inince ayni bag onu da tutar. Kuyruk baglari silinmedi. OLCUM: node --check 2/2 OK · ARAC-A2-BAG --hepsi 603/603 HATA 0 · bagsina 35/35 eslesmesiz 0 · ARAC-A2-KOPYA kopya 0. Rapor: denetim/PAKET-EK-A-0914.md §8.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
