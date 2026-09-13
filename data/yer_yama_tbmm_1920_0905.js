@@ -2782,7 +2782,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
   "ad": "Van",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23",
     "y": "kusatma"
    }
@@ -2805,7 +2805,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {
@@ -6116,7 +6116,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
   "ad": "Erciş",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23"
    }
   ],
@@ -6138,7 +6138,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {
@@ -7568,47 +7568,22 @@ window.YER_YAMA_TBMM_1920_0905 = [
    }
   ]
  , "kaynak": "ankraj Van (117 km) · Erciş — külliyattaki zincir", "neden": "akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyordu ve BAŞLAMAYA DEVAM EDİYOR — Osmanlı kırılması korundu."},
- {
-  "ad": "Çaldıran",
-  "d": [
-   {
-    "f": "1639-05-17",
-    "t": "1920-04-23"
-   }
-  ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1351-01-01",
-    "d": "ilhanli"
-   },
-   {
-    "f": "1351-01-01",
-    "t": "1467-01-01",
-    "d": "karakoyunlu"
-   },
-   {
-    "f": "1467-01-01",
-    "t": "1502-01-01",
-    "d": "akkoyunlu"
-   },
-   {
-    "f": "1502-01-01",
-    "t": "1639-05-17",
-    "d": "safevi"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
- },
+ // 🔴 EMEKLİ 13 Eylül 2026 — ARASTIRMA-CALDIRAN-0913 (1.MURAT M-3874 hükmü).
+ //    Yerine: data/yerlesimler_ek26.js "Çaldıran" (kaynaklı, d:1548→1920-04-23
+ //    + tbmm dilimi ZATEN içinde). Bu girdi 1639-05-17 zincirini taşıyordu.
+ //    SİLİNMEDİ, yoruma çevrildi:
+ // {"ad": "Çaldıran",
+ //  "d": [{"f": "1639-05-17", "t": "1920-04-23"}],
+ //  "s": [{"f": "1281-01-01", "t": "1351-01-01", "d": "ilhanli"},
+ //        {"f": "1351-01-01", "t": "1467-01-01", "d": "karakoyunlu"},
+ //        {"f": "1467-01-01", "t": "1502-01-01", "d": "akkoyunlu"},
+ //        {"f": "1502-01-01", "t": "1639-05-17", "d": "safevi"},
+ //        {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]},
  {
   "ad": "Özalp (Saray)",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23"
    }
   ],
@@ -7630,7 +7605,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {
@@ -7639,48 +7614,23 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- , "kaynak": "ankraj Van (55 km) — külliyattaki zincir; 1548-08-25 Van'ın kendi Osmanlı günü", "neden": "akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-25'te başlamaya devam ediyor."},
- {
-  "ad": "Başkale",
-  "d": [
-   {
-    "f": "1639-05-17",
-    "t": "1920-04-23"
-   }
-  ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1351-01-01",
-    "d": "ilhanli"
-   },
-   {
-    "f": "1351-01-01",
-    "t": "1467-01-01",
-    "d": "karakoyunlu"
-   },
-   {
-    "f": "1467-01-01",
-    "t": "1502-01-01",
-    "d": "akkoyunlu"
-   },
-   {
-    "f": "1502-01-01",
-    "t": "1639-05-17",
-    "d": "safevi"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
- },
+ , "kaynak": "ankraj Van (55 km) — külliyattaki zincir; 1548-08-24 Van'ın kendi Osmanlı günü", "neden": "akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-24'te başlamaya devam ediyor."},
+ // 🔴 EMEKLİ 13 Eylül 2026 — ARASTIRMA-CALDIRAN-0913 (1.MURAT M-3874 hükmü).
+ //    Yerine: data/yerlesimler_ek26.js "Başkale" (kaynaklı, d:1548→1920-04-23
+ //    + tbmm dilimi ZATEN içinde). Bu girdi 1639-05-17 zincirini taşıyordu.
+ //    SİLİNMEDİ, yoruma çevrildi:
+ // {"ad": "Başkale",
+ //  "d": [{"f": "1639-05-17", "t": "1920-04-23"}],
+ //  "s": [{"f": "1281-01-01", "t": "1351-01-01", "d": "ilhanli"},
+ //        {"f": "1351-01-01", "t": "1467-01-01", "d": "karakoyunlu"},
+ //        {"f": "1467-01-01", "t": "1502-01-01", "d": "akkoyunlu"},
+ //        {"f": "1502-01-01", "t": "1639-05-17", "d": "safevi"},
+ //        {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]},
  {
   "ad": "Yüksekova (Gever)",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23"
    }
   ],
@@ -7702,7 +7652,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {
@@ -8206,7 +8156,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
   "ad": "Çölemerik (Hakkâri)",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23"
    }
   ],
@@ -8228,7 +8178,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {
@@ -8242,7 +8192,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
   "ad": "Hoşap (Mahmudi)",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23"
    }
   ],
@@ -8264,7 +8214,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {
@@ -8278,7 +8228,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
   "ad": "Bargiri (Muradiye)",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23"
    }
   ],
@@ -8300,7 +8250,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {
@@ -8335,7 +8285,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
   "ad": "Bacirge (Esendere)",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23"
    }
   ],
@@ -8357,7 +8307,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {
@@ -8371,7 +8321,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
   "ad": "Şemdinli (Şemdinni)",
   "d": [
    {
-    "f": "1548-08-25",
+    "f": "1548-08-24",
     "t": "1920-04-23"
    }
   ],
@@ -8393,7 +8343,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
    },
    {
     "f": "1502-01-01",
-    "t": "1548-08-25",
+    "t": "1548-08-24",
     "d": "safevi"
    },
    {

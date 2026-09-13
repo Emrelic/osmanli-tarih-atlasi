@@ -188,7 +188,7 @@ window.SEHIRLER = [
   yapilar:"Alâeddin Keykubad'ın 1224'te yaptırdığı Ulu Cami, Melik Sun'ullah Camii, Şehâbiyye-i Kübrâ Medresesi.",
   kaynak:"malatya" },
 { ad:"Van",        tur:"kale",  lat:38.502, lon:43.393,
-  k:[{f:"1548-08-25",t:"1918-10-30",d:1,y:"kusatma"}],
+  k:[{f:"1548-08-24",t:"1918-10-30",d:1,y:"kusatma"}],
   koken:"Adının Urartuca 'Biane' ya da 'Viane'den geldiği en güvenilir görüş olarak kabul edilir.",
   onem:"Van Gölü kıyısında, Safevî İran'a karşı doğu sınırını denetleyen kilit bir kale ve idare merkezi.",
   tarihce:"Urartu'dan sonra Pers, Yunan, Roma, Sâsânî ve Arap hâkimiyetlerinden geçti; 1548'de Kanûnî Sultan Süleyman döneminde Osmanlı'ya bağlandı ve klasik dönem boyunca bir daha el değiştirmedi.",

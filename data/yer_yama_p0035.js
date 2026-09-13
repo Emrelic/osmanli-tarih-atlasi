@@ -161,13 +161,20 @@ window.YER_YAMA_P0035 = [
   // 1600-01-01'de kutusunda 18 Osmanlı · 7 safevi nokta var ve Çaldıran'ın dört
   //   yanı (Bargiri 20 km · Özalp 55 km · Doğubayazıt 47 km · Erciş 46 km)
   //   OSMANLI — yani harita orada bir SAFEVİ ADASI çiziyor.
-  { ad: "Çaldıran",
-    d: [{ f: "1548-08-25", t: "1923-10-29" }],
-    s: [{ f: "1281-01-01", t: "1351-01-01", d: "ilhanli" },
-        { f: "1351-01-01", t: "1467-01-01", d: "karakoyunlu" },
-        { f: "1467-01-01", t: "1502-01-01", d: "akkoyunlu" },
-        { f: "1502-01-01", t: "1548-08-25", d: "safevi" }],
-    neden: "H-0088 · kaydin kendi kaynak: alani 'ankraj Van - kulliyattaki zincir' diyor ama Van'in 1548-08-25 gununu tasimiyordu (1639-05-17 yazilmis, 90,7 yil gec). Dort komsusu (Bargiri/Ozalp/Hosap/Colemerik) Van'in zincirini harfiyen tasiyor. TDV hakkari: Van'in fethi uzerine kurulan Van eyaletine baglandi." },
+  // 🔴 EMEKLİ 13 Eylül 2026 — ARASTIRMA-CALDIRAN-0913 (1.MURAT M-3874).
+  //    Bu yamanın HÜKMÜ (1548, ada kalkar) DOĞRUYDU ve kaynakla doğrulandı;
+  //    ama veri artık data/yerlesimler_ek26.js'te KAYNAKLI yazılı ve iki farkı var:
+  //    gün 1548-08-24 (TDV `van` · TDV `suleyman-i` · Kılıç 2020 JUHIS) ve
+  //    1920-04-23 → tbmm-turkiye dilimi. ok110 ile tbmm_1920_0905 emekli edilince
+  //    _sahiplik_uygula.py bu girdiyi TEK BAŞINA UYGULAYACAKTI (kuru koşu: İNEN)
+  //    ve 25'i ile 1923 ucunu geri yazacaktı. SİLİNMEDİ, yoruma çevrildi:
+  // { ad: "Çaldıran",
+  //   d: [{ f: "1548-08-25", t: "1923-10-29" }],
+  //   s: [{ f: "1281-01-01", t: "1351-01-01", d: "ilhanli" },
+  //       { f: "1351-01-01", t: "1467-01-01", d: "karakoyunlu" },
+  //       { f: "1467-01-01", t: "1502-01-01", d: "akkoyunlu" },
+  //       { f: "1502-01-01", t: "1548-08-25", d: "safevi" }],
+  //   neden: "H-0088 · kaydin kendi kaynak: alani 'ankraj Van - kulliyattaki zincir' diyor ama Van'in 1548-08-25 gununu tasimiyordu (1639-05-17 yazilmis, 90,7 yil gec). Dort komsusu (Bargiri/Ozalp/Hosap/Colemerik) Van'in zincirini harfiyen tasiyor. TDV hakkari: Van'in fethi uzerine kurulan Van eyaletine baglandi." },
 
   // ── ④ BAŞKALE ───────────────────────────────────────────────────────────
   // Çaldıran ile BİREBİR aynı vaka (aynı şablon, aynı sapma, aynı ankraj).
@@ -176,13 +183,16 @@ window.YER_YAMA_P0035 = [
   //   Yüksekova 58 km · Van 55 km · Kotur 58 km) — tam bir ada.
   // TDV `hakkari` Başkale'yi ADIYLA anıyor ve Van-Hakkâri yolunun üstünde
   //   gösteriyor; Hakkâri sancağı Van eyaletinin ocaklık sancaklarındandı.
-  { ad: "Başkale",
-    d: [{ f: "1548-08-25", t: "1923-10-29" }],
-    s: [{ f: "1281-01-01", t: "1351-01-01", d: "ilhanli" },
-        { f: "1351-01-01", t: "1467-01-01", d: "karakoyunlu" },
-        { f: "1467-01-01", t: "1502-01-01", d: "akkoyunlu" },
-        { f: "1502-01-01", t: "1548-08-25", d: "safevi" }],
-    neden: "H-0088 · Caldiran ile ayni sablon ve ayni sapma; ayrica ters-enklav sinavini gecen uc kusurdan biri (en yakin BES komsunun BESI DE Osmanli). TDV hakkari: yore Van eyaletine bagli ocaklik sancagiydi." },
+  // 🔴 EMEKLİ 13 Eylül 2026 — ARASTIRMA-CALDIRAN-0913 (1.MURAT M-3874).
+  //    Gerekçe yukarıdaki Çaldıran notuyla aynı; yerine data/yerlesimler_ek26.js.
+  //    SİLİNMEDİ, yoruma çevrildi:
+  // { ad: "Başkale",
+  //   d: [{ f: "1548-08-25", t: "1923-10-29" }],
+  //   s: [{ f: "1281-01-01", t: "1351-01-01", d: "ilhanli" },
+  //       { f: "1351-01-01", t: "1467-01-01", d: "karakoyunlu" },
+  //       { f: "1467-01-01", t: "1502-01-01", d: "akkoyunlu" },
+  //       { f: "1502-01-01", t: "1548-08-25", d: "safevi" }],
+  //   neden: "H-0088 · Caldiran ile ayni sablon ve ayni sapma; ayrica ters-enklav sinavini gecen uc kusurdan biri (en yakin BES komsunun BESI DE Osmanli). TDV hakkari: yore Van eyaletine bagli ocaklik sancagiydi." },
 
   // ── ⑤ KASR-I ŞÎRÎN — EMRE'NİN GÖRSELİNDEKİ NOKTA ────────────────────────
   // H-0088-1.png: 1590-03-21, "SAFEVİ İRAN" etiketli bir kama Hânekîn ile

@@ -166,15 +166,21 @@ window.YER_YAMA_OK110 = [
 
 // ── A · SÜRMELİ-ARAS (5) — ankraj: Revan (40,18/44,52) ───────────────
  // ── B · VAN-HAKKÂRİ (8) — ankraj: Van · Çölemerik · Erciş ────────────
- {ad:"Çaldıran",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
-  kaynak:"ankraj Van (78 km) — külliyattaki zincir",
-  neden:"akkoyunlu tek blok. Mevcut safevi dilimi (1514-09-06→1639-05-17) 1502'ye çekildi — iki dilim tek dilim, sahip DEĞİŞMEDİ. Osmanlı 1639-05-17'de başlamaya devam ediyor."},
-
- {ad:"Başkale",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
-  kaynak:"ankraj Van (73 km) · Çölemerik (63 km) — külliyattaki zincir",
-  neden:"Çaldıran ile aynı desen."},
+ // 🔴 EMEKLİ 13 Eylül 2026 — ARASTIRMA-CALDIRAN-0913 (1.MURAT M-3874 hükmü).
+ //    Yerine: data/yerlesimler_ek26.js (Çaldıran · Başkale, kaynaklı kayıtlar).
+ //    Sebep: bu iki girdi 1639-05-17 zincirini taşıyordu; kaynak 1548'i veriyor
+ //    ve _sahiplik_uygula.py bunları ok110 × p0035 × tbmm_1920_0905 ÇAKIŞMASI
+ //    diye bekletiyordu — biri bu yamayı seçseydi düzeltme GERİ ALINIRDI.
+ //    SİLİNMEDİ, yoruma çevrildi (kayıt korunur):
+ // {ad:"Çaldıran",
+ //  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
+ //  kaynak:"ankraj Van (78 km) — külliyattaki zincir",
+ //  neden:"akkoyunlu tek blok. Mevcut safevi dilimi (1514-09-06→1639-05-17) 1502'ye çekildi — iki dilim tek dilim, sahip DEĞİŞMEDİ. Osmanlı 1639-05-17'de başlamaya devam ediyor."},
+ //
+ // {ad:"Başkale",
+ //  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
+ //  kaynak:"ankraj Van (73 km) · Çölemerik (63 km) — külliyattaki zincir",
+ //  neden:"Çaldıran ile aynı desen."},
 
  // ── C · MARDİN (4) — ankraj: Mardin ──────────────────────────────────
  // 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)

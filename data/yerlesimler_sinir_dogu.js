@@ -63,7 +63,7 @@
 //
 // ═══ DEĞİŞMEZ 2 (tavan 0) — HİÇBİR GÜN UYDURULMADI ═══
 //   Kullanılan 5 kırılma günü veride ZATEN kırılma ve külliyatta 0 gün
-//   sapmayla maddeli: 1514-09-06 (Tebriz'e giriş) · 1548-08-25 (Van'ın
+//   sapmayla maddeli: 1514-09-06 (Tebriz'e giriş) · 1548-08-24 (Van'ın
 //   fethi) · 1585-09-25 (Tebriz'in fethi) · 1603-10-21 (Tebriz'in kaybı).
 //   Zincirler bitişik Yüksekova (Gever) ve Urmiye kayıtlarından BİREBİR alındı.
 
@@ -75,8 +75,8 @@ window.YERLESIMLER_SINIR_DOGU = [
 // yani petek kenarı gerçekten aralarından geçiyor.
 {ad:"Bacirge (Esendere)", tur:"koy", lat:37.7114, lon:44.6010, g:0, k:4, m:null,
  sinir:true,
- s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
- d:[{f:"1548-08-25",t:"1920-04-23"}],
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+ d:[{f:"1548-08-24",t:"1920-04-23"}],
  kaynak:"GeoNames (CC BY 4.0), allCountries 31 Ağu 2026: 37.7114 K / 44.6010 D, feature class P, kod PPLA3; `alternatenames` alanı tarihî adı veriyor: 'Bacirga, Bacirge, Bajirge'. Koordinat TAHMİN DEĞİL, rehberden. ⚠️ TDV bu taneciği kapsamıyor (§4 taneciklik boşluğu): `semdinli`·`nehri`·`semdinan` sluglarının üçü de ÖLÜ (302), kapsayıcı `hakkari` maddesi CANLI (200) ama gövdesinde (17.020 karakter) Şemdinli/Nehrî HİÇ GEÇMİYOR. ⚠️ Ve şunu AÇIKÇA yazıyorum: yerleşimin VARLIĞI ve KONUMU doğrulandı, 1923'te de var olduğu AYRICA BELGELENEMEDİ — Kürtçe köy adlarının sürekliliği yüksektir ama bu bir kaynak değil, bir beklentidir.",
  neden:"sınır çifti: Sero (İran, bu dosyada) ile 4,1 km — 1913 İstanbul Protokolü sınırı tam aralarından geçer. Bacirge sınıra 0,4 km, Sero 5,3 km ⇒ sapma |5,3−0,4|/2 = 2,45 km, hedef 5 km'nin ALTINDA. ÖLÇÜLDÜ: bu çift pilot kesimin ortanca sapmasını 10,69 → 2,98 km'ye, ≤5km oranını %14 → %55'e taşıyor. Dönem günleri bitişik Yüksekova (Gever) kaydından (31,4 km) birebir alındı, uydurulmadı. BU KOŞUDA ÇİZİLMEZ, bir sonrakine kalır."
 },
@@ -98,8 +98,8 @@ window.YERLESIMLER_SINIR_DOGU = [
 // yükseltip KAPSAMI genişletiyor. Yazıldı, ama bu ödünleşme KAYDA GEÇTİ.
 {ad:"Şemdinli (Şemdinni)", tur:"kasaba", lat:37.3051, lon:44.5742, g:0, k:4, m:null,
  sinir:true,
- s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
- d:[{f:"1548-08-25",t:"1920-04-23"}],
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+ d:[{f:"1548-08-24",t:"1920-04-23"}],
  kaynak:"GeoNames (CC BY 4.0): 37.3051 K / 44.5742 D, kod PPLA2, nüfus 18.978; `alternatenames` 23 ad taşıyor, aralarında 'Şemdinni' ve 'Navşar'. Hafızamdaki 37,3167/44,5667 tahmini 1,7 km yanlışmış. ⚠️ TDV taneciklik boşluğu (yukarıda ölçüldü). Şemdinan (Nehrî) şeyhleri ve Şeyh Ubeydullah'ın 1880 ayaklanması standart literatürde (M. van Bruinessen, Agha, Shaikh and State) — yani yerleşimin 19. yüzyılda varlığı BELGELİ, bu da 1923 sürekliliğini kuvvetle destekliyor.",
  neden:"sınır çifti: Rāzhān (İran, bu dosyada) ile 27,2 km. İkisi de sınıra 12,3 km ⇒ SİMETRİK (fark 0,0 km), ve simetri mesafeden önemli: sapma |dB−dA|/2 olduğu için eşit uzaklıkta sapma SIFIRA gider. ÖLÇÜLDÜ: tek başına 10,69 → 9,76; A çiftiyle birlikte 4,53 ve ≤5km %52. BU KOŞUDA ÇİZİLMEZ."
 },
@@ -136,8 +136,8 @@ window.YERLESIMLER_SINIR_DOGU = [
 {ad:"Şeyh Salû-yi Ulyâ", tur:"koy", lat:38.9926, lon:44.2001, g:0, k:4, m:null,
  sinir:true,
  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu"},{f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}],
- d:[{f:"1548-08-25", t:"1639-05-17"}],
- kaynak:"GeoNames (CC BY 4.0): 38.9926 K / 44.2001 D, feature class P. `alternatenames` 19 ad taşıyor ve aralarında TÜRKÇE olanı da var: 'Shaikh Silu Yukari' (= Şeyh Salû Yukarı), ayrıca 'Sheykh Salū-ye Bālā', 'شِيخ سَلوی عُليا'. Aşağı köyü (Soflá/Pā’īn) 2,9 km güneyde ayrıca kayıtlı — yani ikiz köy, bölgede eski yerleşim deseni. ⚠️ TDV'de maddesi YOK; 1923 varlığı AYRICA BELGELENEMEDİ. 🔴 ZİNCİR KURULURKEN BİR TUZAK ATLANDI: en yakın İran kaydı Kotur'un (59 km) zinciri `1351-01-01` gününü kullanıyor ve o gün külliyatta 365 GÜN AÇIKTA. Onu devralsaydım Değişmez 2s'ye dokunurdum. Bunun yerine erken zincir Mâku'dan (43 km, günleri temiz), Osmanlı devri ise Kotur'dan (1548-08-25 → 1639-05-17) alındı — sınır kalesi Kotur bu köyün 20 km doğusunda ve aynı serhat kuşağında.",
+ d:[{f:"1548-08-24", t:"1639-05-17"}],
+ kaynak:"GeoNames (CC BY 4.0): 38.9926 K / 44.2001 D, feature class P. `alternatenames` 19 ad taşıyor ve aralarında TÜRKÇE olanı da var: 'Shaikh Silu Yukari' (= Şeyh Salû Yukarı), ayrıca 'Sheykh Salū-ye Bālā', 'شِيخ سَلوی عُليا'. Aşağı köyü (Soflá/Pā’īn) 2,9 km güneyde ayrıca kayıtlı — yani ikiz köy, bölgede eski yerleşim deseni. ⚠️ TDV'de maddesi YOK; 1923 varlığı AYRICA BELGELENEMEDİ. 🔴 ZİNCİR KURULURKEN BİR TUZAK ATLANDI: en yakın İran kaydı Kotur'un (59 km) zinciri `1351-01-01` gününü kullanıyor ve o gün külliyatta 365 GÜN AÇIKTA. Onu devralsaydım Değişmez 2s'ye dokunurdum. Bunun yerine erken zincir Mâku'dan (43 km, günleri temiz), Osmanlı devri ise Kotur'dan (1548-08-24 → 1639-05-17) alındı — sınır kalesi Kotur bu köyün 20 km doğusunda ve aynı serhat kuşağında.",
  neden:"sınır çifti: Şeyhrumi (Yücelen) (OSMANLI, bu dosyada) ile 8,2 km, simetri farkı 0,6 km. ⚠️ `d:`/`s:` örtüşmesi (1548-1639 Osmanlı devri safevi dönemiyle) KASITLI — projenin çoğunluk deseni, motor önceliği d>v>s çözüyor (uret_petek.py:3005). BU KOŞUDA ÇİZİLMEZ."
 }
 

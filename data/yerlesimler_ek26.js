@@ -96,7 +96,7 @@ window.YERLESIMLER_EK26 = [
 // 🔴 KAYNAK DÜZELTİLDİ — KITA 13, 12 Eylül 2026 (paket 0043 / H-0018).
 //    ESKİ BEYAN: kaynak:"ankraj Van (117 km) · Erciş — külliyattaki zincir"
 //    O beyan KENDİNİ ÇÜRÜTÜYORDU: dayanak gösterilen Van'ın `d:`si
-//    **1548-08-25**, yani iddia edilen günden OTUZ DÖRT YIL SONRA.
+//    **1548-08-25**, yani iddia edilen günden OTUZ DÖRT YIL SONRA. (13 Eylül 2026: Van günü kaynağa göre 24'e çekildi — hüküm değişmez.)
 //    Bir kaydın dayanağı, kaydın iddiasından sonrayı gösteremez (`D144`:
 //    beyan edilen kaynak iddiayı taşımıyor olabilir — burada taşımıyordu).
 // 🟢 GERÇEK KAYNAK BULUNDU ve YIL DOĞRULANDI: TDV `dogubayazit` (200,
@@ -114,21 +114,34 @@ window.YERLESIMLER_EK26 = [
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1514-09-06",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1514-09-06",t:"1920-04-23"}], v:[] },
 
-{ ad:"Çaldıran",kaynak:"ankraj Van (78 km) — külliyattaki zincir", tur:"kasaba", lat:39.145, lon:43.910, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
-  d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
+// 🔴 ÇALDIRAN + BAŞKALE — ARAS-CALDIRAN, 13 Eylül 2026 (parti-emrelic-0049 / H-0001)
+//    Emre: 1629 görüntüsünde Van-Erciş-Özalp-Hoşap-Çölemerik Osmanlı, bu iki
+//    nokta Osmanlı DEĞİL iki adacık. ÖLÇÜLDÜ: iki kayıt safevi 1502→1639-05-17,
+//    bütün komşular 1548-08-25'ten Osmanlı ⇒ 1548-1639 arası 91 yıllık ADA.
+//    (O gün de 1.MURAT M-3874 ile kaynağa göre 1548-08-24'e çekildi: TDV `van`
+//     "onuncu gün kale fethedildi (24 Ağustos 1548)" · TDV `suleyman-i` ·
+//     R. Kılıç, JUHIS 3 (2020) — 25 diyen akademik kaynak BULUNAMADI.)
+//    Eski beyan "ankraj Van — külliyattaki zincir" bir KAYNAK DEĞİLDİ (§4:
+//    atlas referans değildir) ve Van'ın kendi gününü bile taşımıyordu.
+//    Rapor: denetim/ARASTIRMA-CALDIRAN-0913.md (lehte/aleyhte tablosu orada).
+// ⚠️ 1281-1502 zinciri bu turda ARAŞTIRILMADI, dokunulmadı.
+// ⚠️ 1914-1918 Rus işgali YAZILMADI: bölgede (Van · Hakkâri · Erzurum) hiçbir
+//    kayıt `isg:` taşımıyor; tek başına yazmak TERS ADA açar. Öneri raporda.
+{ ad:"Çaldıran",neden:"H-0001 · 1548-1639 safevi ADACIĞI kaldırıldı. Bu kasabanın KENDİ dönem kaydı BULUNAMADI; hüküm İŞARETLERE dayanır (kanıt değil): Bargiri sancağı 1550-51 ilk Van tevcih defterinden 1684'e kadar Van eyaletinde; daha DOĞUDAKİ Mâkû 1574-1639 Osmanlı'nın Mahmûdî beyleri elinde ve 1605'te Şah Abbas kaleyi alamadı; Van 1548'den sonra el değiştirmedi. Safevî lehine 1548-1639 arası işaret BULUNAMADI. 1639 sonrası Kotur ve Mâkû İran'a döndü; Çaldıran onların batısında, Bargiri tarafında kaldı (işaret). GÜN komşudan (§4 şartlı): Van · TDV `van` 24 Ağustos 1548 — atlas Van kaydı 25 yazıyor, fark raporda. 1920-04-23 → tbmm-turkiye: proje kararı (M-3066), komşularla aynı.",kaynak:"İŞARET (doğrudan kanıt değil) — Talat Karataş, 'Erciş Sancağı'nın Osmanlı İdari Taksimatındaki Yeri (1555-1722)', Hacettepe Ü. Türkiyat Araştırmaları Dergisi 43 (2025), 151-163: 1550-51 tevcih defterinde Van vilayeti 'Van, Adilcevaz, Albak, Bitlis, Erciş, Kisani, Bargiri'; 1585 hükmünde 'Bargiri ma'a Kotur dere Beyi'; MD 180/154 (1684) Livâ-i Bargiri · TDV `maku` (R. Kurtuluş): 1574 İvaz Bey Mâkû'yu almakla görevli, 1605 Abbas kaleyi alamadı, 1639 Kasrışîrin çerçevesinde yıkıldı, IV. Murad'ın ölümünden sonra İran tekrar işgal etti · TDV `van`: Van Kalesi 24 Ağustos 1548'de fethedildi, bir daha el değiştirmedi · GÜN komşudan: Van · TDV `van`. ⚠️ Şen-Tekin (Van YYÜ SBE Dergisi 50, 2020) uyarısı: 1514 savaş alanı Hoy yakınındaki ovadır, bugünkü Çaldıran kasabası DEĞİL.", tur:"kasaba", lat:39.145, lon:43.910, g:0, k:3, m:"Van",
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
-{ ad:"Özalp (Saray)",neden:"akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-25'te başlamaya devam ediyor.",kaynak:"ankraj Van (55 km) — külliyattaki zincir; 1548-08-25 Van'ın kendi Osmanlı günü", tur:"kasaba", lat:38.658, lon:43.998, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1548-08-25",t:"1920-04-23"}], v:[] },
+{ ad:"Özalp (Saray)",neden:"akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-24'te başlamaya devam ediyor.",kaynak:"ankraj Van (55 km) — külliyattaki zincir; 1548-08-24 Van'ın kendi Osmanlı günü", tur:"kasaba", lat:38.658, lon:43.998, g:0, k:3, m:"Van",
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
-{ ad:"Başkale",kaynak:"ankraj Van (73 km) · Çölemerik (63 km) — külliyattaki zincir", tur:"kale", lat:38.045, lon:44.010, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
-  d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
+{ ad:"Başkale",neden:"H-0001 · 1548-1639 safevi ADACIĞI kaldırıldı. Başkale = tarihî ALBAK (Elbak) ve Osmanlı SANCAĞI olduğu DOĞRUDAN belgeli: 1550-51 ilk Van tevcih defteri · Celâlzâde 963/1556 listesi · 17 Kasım 1568 ve 1585 hükümlerinde 'Albak Beyi Zahid Bey' · 1565 hükmü 'Hakkâri ve Albak kadılarına' · 1613 Van beylerbeyi kuvvetleri Albak kalesindeki asi sancakbeyini teslim aldı (Safevî değil, Osmanlı içi isyan) · 1631-32 ve 1673-1740 yurtluk-ocaklık · 1684 Livâ-i Albak · 1854-58 Hakkâri sancağının Albak kazası · 1914 Hakkâri sancağının merkez kazası. 1548 ÖNCESİ: Mahmûdî İvaz Bey Şah Tahmasb himayesinde Elbak ve Hoşab'ı idare etti; Mahmûdî Hasan Bey 1548 II. İran Seferi'nde Osmanlı'ya tâbi oldu ⇒ safevi→1548 korundu. 1603-1612 ve 1623-1639 arası Safevî tasarrufu BULUNAMADI. GÜN komşudan (§4 şartlı): Van · TDV `van` 24 Ağustos 1548 (Albak, Van eyaletinin ilk tevcih defterinde) — atlas Van kaydı 25 yazıyor, fark raporda. 1920-04-23 → tbmm-turkiye: proje kararı (M-3066).",kaynak:"KANIT — Talat Karataş, 'Erciş Sancağı'nın Osmanlı İdari Taksimatındaki Yeri (1555-1722)', Hacettepe Ü. Türkiyat Araştırmaları Dergisi 43 (2025), 151-163 (1550-51 defter · Celâlzâde 1556 · 1585 hükmü · MD 180/154) · Zeki Tekin, 'Zeynel Bey ve Oğullarının Hakkâri Hâkimliği Mücâdelesi ve İsyânları', Atatürk Ü. SBE Dergisi 10/2 (2010), 119-132 (1565 · 1568 · 1613) · TDV `kurtler` (1631-32 ve 1673-1740 Van eyaleti ocaklık sancakları: Albak) · Yağmur Şen - Rahmi Tekin, 'Osmanlı Devrinde Mahmudî (Hoşab) Beyliği', Van YYÜ SBE Dergisi 50 (2020), 141-162 (İvaz Bey · Hasan Bey 1548) · Murat Alandağlı, Külliyat 2021, DOI 10.51592/kulliyat.1027274 (BOA NFS.d.3868: Albak kazası 1854) · Haluk Selvi, 'Millî Mücadele Döneminde Hakkâri', TÜBA, DOI 10.53478/TUBA.978-625-8352-71-9.ch10 (1914 merkez kaza Başkale) · GÜN komşudan: Van · TDV `van` '24 Ağustos 1548'.", tur:"kale", lat:38.045, lon:44.010, g:0, k:3, m:"Van",
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 { ad:"Yüksekova (Gever)",neden:"Özalp ile aynı desen.",kaynak:"ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir", tur:"kasaba", lat:37.573, lon:44.290, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1548-08-25",t:"1920-04-23"}], v:[] },
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 
 
