@@ -118315,5 +118315,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3869",
+  "zaman": "2026-09-13 23:38",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-KRON3",
+  "kimden_kimlik": "",
+  "mesaj": "DATA SERBEST — kosu 10 yayini indi (92d9349, r8232). data/ yazimina devam edebilirsin; zincir artik data/ supurmuyor. Dosya listen M-3865'teki gibi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
