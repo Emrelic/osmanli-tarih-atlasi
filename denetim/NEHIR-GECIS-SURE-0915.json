@@ -1,0 +1,161 @@
+{
+ "meta": {
+  "oturum": "NEHİR GEÇİŞ SÜRELERİ — tek kullanımlık araştırma",
+  "tarih": "2026-09-15",
+  "rapor": "denetim/NEHIR-GECIS-SURE-0915.md",
+  "onculler": ["denetim/ARASTIRMA-NEHIR-0912.md", "denetim/VERI-NEHIR-0912.json", "oturumlar/MENZIL-KARARLARI-0912.md", "data/gecitler.js"],
+  "yazilmayan": "data/ ve arac/ altına YAZILMADI (koşu sürüyor)",
+  "uyari": "Her sayı `guven` ve `kaynak` taşır. guven = kaynakli | turetildi | bulunamadi | olculemedi | celiski. Vikipedi ve popüler siteler hiçbir sayıya dayanak yapılmadı.",
+  "birim_kurallari": {
+   "yuruyus_gunu_saat": 8,
+   "tobler_duz_km_saat": 5.04,
+   "butce_saat_idare": 40,
+   "gece_beklemesi": "Geceye taşan bekleme bütçeden yalnız o günün KALAN yürüyüş saatini düşer; bir gece aşan bekleme en fazla 8 saat.",
+   "guven": "turetildi",
+   "kaynak": "oturumlar/MENZIL-KARARLARI-0912.md §②"
+  }
+ },
+
+ "duzeltmeler_0912": [
+  {"no": "D1", "eski": "Drava/Ösek 1526 köprüsü BEŞ GÜNDE, 300 m", "yeni": "14→19 Ağustos 1526 (Perjés 1988); 'beş gün' ifadesi hiçbir akademik kaynakta yok; uzunluk yalnız Vikipedi'de", "guven": "turetildi", "kaynak": "Karavelioğlu 2013, DEAD 11 (Perjés, Mohaç Meydan Muharebesi, TTK 1988, s.58 aktarımı)", "eylem": "5 gün → turetildi; 300 m SİLİNMELİ"},
+  {"no": "D2", "eski": "Ösek 1526 geçişi tek kayıt", "yeni": "A: 21 Ağu'dan 'üç gün üç gece' (Perjés) ↔ B: son grup 22 Ağu (TDV mohac-muharebesi)", "guven": "celiski", "kaynak": "Perjés 1988; TDV mohac-muharebesi"},
+  {"no": "D3", "eski": "16 Ağu 1526 Osijek-Darda köprüsü, Mimar Sinan, ~7 km", "yeni": "1566 Zigetvar köprüsüyle karışmış: 118 gemi, 4800 zirâ ≈3,5 km, 17 gün; 7-8 km yalnız Vikipedi", "guven": "kaynakli", "kaynak": "Selânikî (Tanyeli-Tanyeli 1990, ODTÜ MFD 10, s.9-10); Gökbilgin 1966"},
+  {"no": "D4", "eski": "ordu hazır köprüden geçiş süresi — bulunamadı", "yeni": "6 kaynaklı/türetilmiş kayıt (bkz. soru2_hazir_kopru)", "guven": "kaynakli"},
+  {"no": "D5", "eski": "Sefer mevsimi değeri bedeli YÜKSELTİR (genel)", "yeni": "Nil'de TERS (Mayıs 669 en düşük, Eylül 8389 en yüksek); Meriç/Edirne yıllık en yüksek Ocak (sezon dışı)", "guven": "turetildi", "kaynak": "Sutcliffe-Parks 1999 Tablo 10.2; Kurter 1976"},
+  {"no": "D6", "eski": "ordu köprü kurarak 200 km = 5 gün × 40 (tek vaka)", "yeni": "kurma medyanı 7 gün, n=10, aralık 1-17", "guven": "turetildi", "kaynak": "bkz. kurma_suresi_dagilimi"},
+  {"no": "G1", "hedef": "data/gecitler.js `kopru` gerekçesi", "not": "'Çobandede 3 gün' ORDU verisidir; rutin idare öznesi için köprü bedelinin dayanağı değildir. Dosyaya dokunulmadı — koordinatöre.", "guven": "kaynakli", "kaynak": "TDV aras"}
+ ],
+
+ "soru1_ordu_vakalari": [
+  {"vaka": "1396 Niğbolu", "nehir": "Tuna", "yer": "Orsova", "kurma_gun": null, "gecis_gun": null, "guven": "bulunamadi", "kaynak": "TDV nigbolu-savasi (yalnız 'Orsova yakınlarında aştı')", "not": "'8 gün' yalnız popüler sitede — kullanılmadı"},
+  {"vaka": "1444 Varna", "nehir": "Tuna", "gecis_baslangic": "1444-09-18", "gecis_bitis": "1444-09-22", "gecis_gun": 5, "guven": "kaynakli", "gun_guven": "turetildi", "kaynak": "TDV murad-ii (4-8 Cemâziyelâhir 848)", "not": "kaynak aralık veriyor, süre demiyor"},
+  {"vaka": "1476 Boğdan", "nehir": "Tuna", "yer": "İsakça", "olay": "gemilerden köprü", "gecis": "Temmuz 1476 başı", "gecis_gun": null, "guven": "kaynakli", "kaynak": "TDV mehmed-ii; Tanyeli 1990 s.6-7 (Tursun Bey)"},
+  {"vaka": "1484 Kili-Akkerman", "nehir": "Tuna", "yer": "İsakça", "gecis_baslangic": "1484-06-26", "gecis_gun": null, "tekne": "donanma ≤~100 birim", "guven": "kaynakli", "kaynak": "Beldiceanu 1983, Belleten XLVII/186"},
+  {"vaka": "1521 Belgrad — Böğürdelen", "nehir": "Sava", "kopru_bitis": "1521-07-18", "kurma_gun": 9, "kurma_alternatif": ["9-10 (Tabib Ramazan)", "17 (Lutfi Paşa)"], "uzunluk_m": 1364, "uzunluk_ham": "1800 bennâ zirâı", "gecis": "köprü selde yıkıldı; gemiyle 20 gün (Kemalpaşazâde) ↔ ~1 ay (Bostan)", "guven": "kaynakli", "kaynak": "Deniz 2025, Hazine-i Evrak 7/7, s.64-65"},
+  {"vaka": "1521 Belgrad — duba köprüsü", "nehir": "Sava-Tuna", "kopru_baslangic": "1521-08-06", "kopru_bitis": "1521-08-18", "kurma_gun": 12, "gecis": "31 Ağu (Şah Kasım, Feridun Bey) ↔ 15 Eyl (Kemalpaşazâde)", "guven": "kaynakli", "kaynak": "Deniz 2025 s.70 (Feridun Bey Münşeât I s.512)"},
+  {"vaka": "1526 Mohaç — Ösek", "nehir": "Drava", "kopru_baslangic": "1526-08-14", "kopru_bitis": "1526-08-19", "kurma_gun": 5, "kurma_guven": "turetildi", "gecis_A": "21 Ağu'dan 3 gün 3 gece (Perjés)", "gecis_B": "21-22 Ağu, 2 gün (TDV)", "uzunluk_m": null, "guven": "celiski", "kaynak": "Perjés 1988 (Karavelioğlu 2013); TDV mohac-muharebesi"},
+  {"vaka": "1526 Budin–Peşte", "nehir": "Tuna", "kopru_bitis": "1526-09-19", "kurma_gun": 10, "kurma_alternatif": "≤8 (11 Eyl girişten sonra başlandıysa — başlangıç kaynakta YOK)", "gecis": "padişah 21 Eyl 1526'da geçti", "guven": "kaynakli", "kaynak": "TDV budin; TDV suleyman-i"},
+  {"vaka": "1532 — Belgrad (hazır)", "nehir": "Sava", "gecis_baslangic": "1532-06-26", "gecis_bitis": "1532-06-28", "gecis_gun": [2, 3], "guven": "turetildi", "kaynak": "Erdoğru 2014, Tarih İncelemeleri Dergisi XXIX/1 (ruznâme, gün 54-56)"},
+  {"vaka": "1532 — Raba", "nehir": "Raba", "kopru_emri": "1532-08-05", "gecis": "1532-08-07/08", "kurma_gun_ust": 2, "guven": "turetildi", "kaynak": "Erdoğru 2014"},
+  {"vaka": "1532 — Morporuk (dönüş) ⭐", "nehir": "Drava", "kopru_baslangic": "1532-09-16", "kopru_bitis": "1532-09-19", "kurma_gun": 3.5, "gecis_baslangic": "1532-09-20 seher", "gecis_bitis": "1532-09-21 öğle", "gecis_gun": 1.5, "not": "gece de sürdü; geçişten sonra köprü yakıldı", "guven": "turetildi", "kaynak": "Erdoğru 2014, gün 137-138"},
+  {"vaka": "1538 Karaboğdan — İsakça", "nehir": "Tuna", "gecis_saat": 30, "gecis_alternatif": "bir iki gün", "guven": "kaynakli", "kaynak": "Guboğlu 1986, Belleten L/198 (Celâlzâde aktarımı)"},
+  {"vaka": "1538 Karaboğdan — Prut (Sinan)", "nehir": "Prut", "kurma_gun": 13, "gecis_gun": null, "guven": "kaynakli", "kaynak": "TDV sinan", "not": "rûznâmedeki 'iki gün ara' ile bağdaşmıyor (Guboğlu 1986)"},
+  {"vaka": "1566 Zigetvar — Ösek", "nehir": "Drava", "kurma_gun": 17, "gemi": 118, "uzunluk_m": 3500, "uzunluk_ham": "4800 zirâ", "gecis_bitis": "1566-07-19", "guven": "kaynakli", "kaynak": "Selânikî (Tanyeli 1990 s.9-10); Sâî; Gökbilgin 1966"},
+  {"vaka": "1595 Eflak — Rusçuk–Yergöğü", "nehir": "Tuna", "sayka": 70, "kurma_gun": null, "gecis_plan_gun": 3, "cokus_gunu": "24 Ekim (Alkan, popüler zincir) ↔ 27-30 Ekim (yalnız Vikipedi) — doğrulanamadı", "guven": "kaynakli", "kaynak": "TDV tuna; Alkan 2013, Akademik Bakış 7/13"},
+  {"vaka": "1621 Hotin — İsakça", "nehir": "Tuna", "varis": "1621-07-12", "kopru_bitis": "Şaban 1030 içinde (≤~1621-07-20)", "kurma_gun_ust_varistan_sonra": 8, "koprubasinda_kalis_gun": 18, "hareket": "1621-07-29", "guven": "kaynakli", "gun_guven": "turetildi", "kaynak": "Kazalak-Gündüz, OTAM, s.136-139"},
+  {"vaka": "1697 Zenta", "nehir": "Tisa", "tombaz": 83, "kurma_gun_ust": 3, "gecis_baslangic": "1697-09-10", "gecis": "11 Eyl sürerken Eugène saldırdı — yarım kaldı", "guven": "kaynakli", "gun_guven": "turetildi", "kaynak": "TDV zenta"},
+  {"vaka": "1711 Prut — İsakça", "nehir": "Tuna", "tombaz": 76, "uzunluk_m": 688.87, "en_m": 9.08, "gecis": "haziranın son günleri", "kurma_gun": null, "guven": "kaynakli", "kaynak": "TDV prut-antlasmasi; Çağatay 2023, JIEES 5/1, s.23-24"},
+  {"vaka": "1711 — Prut köprüsü", "nehir": "Prut", "kurma": "19 Temmuz 1711 gecesi (bir gece)", "guven": "turetildi", "kaynak": "TDV prut-antlasmasi"},
+  {"vaka": "1737 İsakçı", "nehir": "Tuna", "tombaz": [71, 72], "uzunluk_m": 562, "en_m": 7.6, "not": "31 Mar-13 May 1737 bir ÖDEME dönemi, kurulum süresi DEĞİL; onarım 11 gün", "guven": "celiski", "kaynak": "Çağatay 2023 s.25-26 (71); Tuğluca-Bayram 2021 s.148 (72)"},
+  {"vaka": "1769 İsakçı", "nehir": "Tuna", "tombaz": 62, "uzunluk_m": 562.5, "en_m": 12, "olay": "kazıklar Ocak'ta; ordu 14 May'da vardığında bitmemişti; 20 günlük konakta tamamlandı", "kopru_bitis_tahmini": "≈1769-06-03", "guven": "kaynakli", "gun_guven": "turetildi", "kaynak": "Tuğluca-Bayram 2021, Osmanlı Araştırmaları LVIII, s.147-151"},
+  {"vaka": "1770 İsakçı→Kartal", "nehir": "Tuna", "olay": "taşkın yüzünden köprü kurulamadı, asker üstü açıklarla geçirildi", "gecis_gun": null, "guven": "kaynakli", "kaynak": "Tuğluca-Bayram 2021 s.157; TDV ivazzade-halil-pasa"},
+  {"vaka": "1828 Rus — Satunovo", "nehir": "Tuna", "praam": 63, "ponton": 12, "nehir_genisligi": "900 adım", "ordu_mevcudu_ust": 30000, "kurma_saat": 23, "gecis_baslangic": "1828-06-08", "gecis_bitis": "1828-06-11", "gecis_gun_kopruden_ust": 3, "takvim": "Gregoryen kabul edildi (çıkarım)", "guven": "kaynakli", "gun_guven": "turetildi", "kaynak": "Moltke 1854, The Russians in Bulgaria and Rumelia, s.57-64, 106"},
+  {"vaka": "1877 Rus — İbrail/Galaç", "nehir": "Tuna", "kopru_baslangic": "1877-06-12", "kopru_bitis": "1877-06-16", "kurma_gun": 4, "olay": "su çekilene kadar kullanılamadı; 22 Haz iki alay tekneyle geçti", "guven": "kaynakli", "kaynak": "Greene 1879, s.156"},
+  {"vaka": "1877 Rus — Ziştovi ⭐", "nehir": "Tuna", "tekneyle_ilk_gun_kisi": 25000, "tekneyle_sure_saat": 20, "kopru_baslangic": "1877-06-28", "kopru_bitis": "1877-07-02", "kurma_gun": 4.5, "kopruden_gecis": "3-16 Temmuz ana ordu (14 gün); kolordu başına 2-7 gün; IV. Kolordu dahil 30 Temmuz", "ordu_mevcudu": "~200.000 muharip (bütün Tuna ordusu)", "uzunluk_m": null, "guven": "kaynakli", "gun_guven": "turetildi", "kaynak": "Greene 1879, s.148-165"}
+ ],
+ "soru1_bulunamayanlar": ["1396 geçiş günleri", "1462 geçiş", "1529 Ösek geçişi", "1541/1543 köprü günleri", "1596 Eğri köprüleri (Börekçi 2016 erişilemedi)", "1663-64", "1686-97 köprü kurma/geçiş günleri", "1716-17 Petervaradin/Belgrad", "1736-39 Rus geçişleri", "1773 Rumyantsev", "1790 İsmail", "1806-12", "1853-54", "1877 Niğbolu–Turnu köprüsü", "Ösek 1526, Ziştovi 1877 köprü uzunlukları"],
+
+ "soru2_hazir_kopru": [
+  {"kayit": "İsakça 1538", "kopru": "Tuna gemi köprüsü", "ozne": "Osmanlı ordusu", "sure_gun": 1.25, "sure_ham": "30 saat", "guven": "kaynakli", "kaynak": "Guboğlu 1986 (Celâlzâde)"},
+  {"kayit": "Morporuk 1532", "kopru": "Drava (yeni kurulmuş)", "ozne": "Osmanlı ordusu", "sure_gun": 1.5, "guven": "turetildi", "kaynak": "Erdoğru 2014"},
+  {"kayit": "Belgrad 1532", "kopru": "Sava (hazır)", "ozne": "Osmanlı ordusu", "sure_gun": [2, 3], "guven": "turetildi", "kaynak": "Erdoğru 2014"},
+  {"kayit": "Çobandede (Evliya)", "kopru": "Aras taş köprü", "ozne": "doğu seferi askeri", "sure_gun": 3, "guven": "kaynakli", "kaynak": "TDV aras"},
+  {"kayit": "Satunovo 1828", "kopru": "Tuna, 75 yüzer", "ozne": "Rus 3. Kolordu ≤30.000", "sure_gun_ust": 3, "guven": "turetildi", "kaynak": "Moltke 1854"},
+  {"kayit": "Ziştovi 1877", "kopru": "Tuna ponton", "ozne": "Rus Tuna ordusu ~200.000", "sure_gun": 14, "guven": "turetildi", "kaynak": "Greene 1879 s.164", "not": "ayrı mertebe — tabana KATILMADI"},
+  {"kayit": "Ösek 1526", "sure_gun": [2, 3], "guven": "celiski", "kaynak": "TDV mohac-muharebesi ↔ Perjés 1988"},
+  {"kayit": "Rusçuk–Yergöğü 1595", "sure_gun": 3, "guven": "kaynakli", "not": "PLAN — gerçekleşmedi (köprü çöktü)", "kaynak": "Alkan 2013"}
+ ],
+ "soru2_ozet": {"osmanli_ordusu_aralik_gun": [1.25, 3], "medyan_gun": 2, "guven": "turetildi"},
+
+ "soru3_kafile_feribot": {
+  "ana_hukum": "Tek ulak/memur için geçiş süresi BULUNAMADI; tek sefer süresi BULUNAMADI. Süreler yalnız kafile/kervan düzeyinde.",
+  "guven": "bulunamadi",
+  "aranan": ["TDV ulak", "TDV menzil--osmanli", "TDV peyk", "TDV berid", "Busbecq", "Evliya (Hammer c.II)", "Teixeira", "Otter", "Tavernier", "Buckingham", "Ainsworth", "Öğün-Başı 2016", "Altan 2020", "Dursun 2012", "Parlak 2021"],
+  "desen": {
+   "fiili_gecis_kafile_saat": 4,
+   "fiili_gecis_guven": "turetildi",
+   "gunun_kalani_giden_kayit": "5/5 (K01, K02, K03, K12, K13)",
+   "kopru_kirik_tekne_yok_gun": [2, 6],
+   "bekleme_sebebi": "KURUM — gümrük, teskere/izin, gece kapanan köprü, tekne bulunmaması; genişlik/debi değil"
+  },
+  "kayitlar": [
+   {"id": "K01", "nehir": "Fırat", "yer": "Birecik", "tarih": "1816-05", "ozne": "kervan", "fiili_gecis_saat": [3, 5], "fiili_guven": "turetildi", "bekleme": "gümrük akşama kadar", "tekne": 6, "tekne_basi": "~2 ton + 4 deve + 1-2 at + 3-4 eşek + 8-10 yolcu; mürettebat 6; ~400 m sürüklenme", "guven": "kaynakli", "kaynak": "Buckingham 1827, Travels in Mesopotamia I, s.45-49"},
+   {"id": "K02", "nehir": "Fırat", "yer": "Müseyyib", "tarih": "1604-10-03", "ozne": "küçük kafile", "fiili_gecis_saat": 4, "fiili_guven": "turetildi", "bekleme": "önceki akşam 'vakit geç' → bir gece (~13 saat saat-başı)", "tekne": 2, "guven": "kaynakli", "kaynak": "Teixeira, Hakluyt 1902, s.55-56"},
+   {"id": "K03", "nehir": "Fırat", "yer": "Ana", "tarih": "1604-12-23/24", "ozne": "küçük kafile", "fiili_gecis_saat": null, "bekleme_saat": [18, 20], "bekleme_sebebi": "izin + karanlıkta geçmeyi reddetme", "guven": "kaynakli", "bekleme_guven": "turetildi", "kaynak": "Teixeira s.80-81"},
+   {"id": "K04", "nehir": "Dicle", "yer": "Bağdat kayık köprüsü", "tarih": "1604", "olay": "köprü her gece, cuma namazında, rüzgâr/taşkında açılıyor; o zaman feribot", "guven": "kaynakli", "kaynak": "Teixeira s.61; TDV bagdat"},
+   {"id": "K05", "nehir": "Dicle", "yer": "Musul", "tarih": "1737", "ozne": "elçilik kafilesi", "gecis_gun": 2, "sebep": "kayık köprüsü kırık", "guven": "kaynakli", "kaynak": "Otter 1748, Voyage en Turquie et en Perse I"},
+   {"id": "K06", "nehir": "Ceyhan", "yer": "Misis", "tarih": "1737", "ozne": "elçilik kafilesi", "bekleme_gun": 6, "sebep": "köprü yıkık, sal yapımı", "guven": "kaynakli", "kaynak": "Otter 1748, I s.72-75"},
+   {"id": "K11", "nehir": "Fırat", "yer": "Birecik iskelesi", "tarih": "1552/1570", "personel": [45, 63], "reis": [5, 6], "guven": "kaynakli", "kaynak": "TDV birecik", "not": "reis ≈ tekne varsayımı turetildi"},
+   {"id": "K12", "nehir": "Fırat", "yer": "Birecik", "tarih": "1836", "ozne": "6 kişi", "olay": "feribot gecikmesiyle ilk günün yolu kısaldı", "guven": "kaynakli", "kaynak": "Ainsworth 1888, Personal Narrative I, s.190"},
+   {"id": "K13", "nehir": "Habur", "yer": "Zaho", "tarih": "1830'lar (yıl doğrulanmadı)", "ozne": "küçük kafile", "kayip": "≈yarım gün (boşaltma-yükleme)", "guven": "kaynakli", "kayip_guven": "turetildi", "kaynak": "Ainsworth 1888, II s.328-329"},
+   {"id": "K15", "nehir": "Dicle", "yer": "köprüsüz yerler", "tarih": "19-20. yy", "kapasite": "tek tulum = 1 yolcu; 15-20 tulumlu kelek", "bekleme": "kelek çoğu zaman hazır değil", "guven": "kaynakli", "kaynak": "Öğün-Başı 2016, JHS 8/3, s.87-88"},
+   {"id": "K18", "nehir": "Tuna", "tarih": "1860", "olay": "donma süresince evrak süvari zaptiyesiyle; gün sayısı yok", "guven": "kaynakli", "kaynak": "Dursun 2012, TDİD XII/2, s.334 (BOA A.MKT.MHM 204/12)"},
+   {"id": "EV", "nehir": "Drava", "yer": "Ösek köprüsü (~3,5 km)", "tarih": "17. yy", "ozne": "yolcu", "gecis_saat": 2, "guven": "kaynakli", "kaynak": "Evliya Çelebi, Tanyeli 1990 s.10 aktarımı"}
+  ]
+ },
+
+ "soru4_hidroloji": [
+  {"nehir": "Tuna", "kesim": "Budin", "istasyon": "Nagymaros", "donem": "1921-2012", "yillik_m3s": 2308, "sezon_max": "Haziran-Temmuz", "sezon_min": "(Kasım-Ocak, sezon dışı)", "genislik_m": null, "guven": "kaynakli", "kaynak": "Konecsny-Nagy 2014"},
+  {"nehir": "Tuna", "kesim": "Novi Sad-Belgrad", "istasyon": "Bezdan / Pančevo", "donem": "1931-1990", "yillik_m3s": [2372, 5380], "sezon_max": "Nisan-Mayıs", "sezon_min": "sonbahar", "genislik_m": {"novi_sad_kesimi": [350, 500], "belgrad_kesimi": [500, 800]}, "hiz_m_s": {"alcak": 0.5, "orta": 0.85, "yuksek": 1.4}, "guven": "kaynakli", "kaynak": "Belz 2004 (Sommerwerk 2009); Soskić-Ćurčić 2011 (1960 askerî tarif, baraj öncesi)"},
+  {"nehir": "Tuna", "kesim": "Vidin-Silistre", "istasyon": "Gruia → Chiciu", "donem": "1931-1970", "yillik_m3s": [5692, 6204], "sezon_max": "Nisan-Mayıs", "sezon_min": "Ağustos-Eylül", "genislik_m": null, "genislik_not": "Moltke 1854: Demirkapı altında hiçbir yerde 900 adımdan dar değil; Greene 1879: ana kol ~1000 yarda", "guven": "turetildi", "kaynak": "Gâştescu-Ţuchiu 2012 Tablo 3 (on yıllık ortalamaların ortalaması)"},
+  {"nehir": "Tuna", "kesim": "İsakça", "istasyon": "Ceatal Izmail", "donem": "1931-1970", "yillik_m3s": 6470, "sezon_max": "Nisan-Mayıs", "sezon_min": "Ağustos-Eylül", "genislik": "900 adım (Satunovo 1828)", "buz_gun_kis": 32, "buz_kaynak": "Ionita 2018 (Tulcea 1837-1950)", "guven": "turetildi", "kaynak": "Gâştescu 2012; Moltke 1854"},
+  {"nehir": "Sava", "istasyon": "Sremska Mitrovica", "donem": "1931-1990", "yillik_m3s": 1572, "sezon_max": {"ay": "Nisan", "m3s": 2433}, "sezon_min": {"ay": "Ağustos", "m3s": 637}, "genislik_m_ust": 1000, "hiz_m_s": [0.5, 1.0], "guven": "kaynakli", "kaynak": "Belz 2004; Leščešen 2022 (RHMZ 1928-2018); Soskić-Ćurčić 2011"},
+  {"nehir": "Drava", "istasyon": "Donji Miholjac", "donem": "1931-1990", "yillik_m3s": 541, "sezon_max": {"ay": "Mayıs", "m3s": 611}, "sezon_min": null, "genislik_m": null, "guven": "kaynakli", "kaynak": "Belz 2004; HSJ 66 (2021)"},
+  {"nehir": "Tisa", "istasyon": "Szeged / Senta", "donem": "1921-2012 / 1931-1990", "yillik_m3s": [834, 792], "sezon_max": "Mart-Nisan", "sezon_min": "Ekim", "genislik_m": {"senta": 220, "ortalama": 150}, "hiz_m_s": 0.5, "guven": "kaynakli", "kaynak": "Konecsny-Nagy 2014; Soskić-Ćurčić 2011", "not": "1845-1910 regülasyonu nehri %30-40 kısalttı"},
+  {"nehir": "Prut", "istasyon": "Ungheni (baraj öncesi)", "yillik_m3s": 86.6, "yillik_kurumsal": [78, 94], "sezon_max": "Mart taşkını", "sezon_min": null, "genislik_m": null, "buz_gun": [60, 65], "guven": "olculemedi", "kaynak": "IBN Moldova makale özeti (gövde açılamadı); Moldova Çevre Bakanlığı (78-94)"},
+  {"nehir": "Özi", "istasyon": "Kiev / ağız", "yillik_m3s": [1380, 1670], "sezon_max": "ilkbahar zirvesi ~7000 (Kiev); Mart-Mayıs %55-57", "sezon_min": "yaz %17-21", "genislik_m": {"kiev": 700, "sellaleler": [300, 800], "kichkas": 175}, "hiz_m_s_max": 6, "guven": "kaynakli", "kaynak": "Encyclopedia of Ukraine (baraj öncesi yatak)"},
+  {"nehir": "Ten", "istasyon": "Razdorskaya (natüralize)", "donem": "1891-1964", "yillik_m3s": 845, "sezon_max": "Mart-Mayıs %62,4; zirve ≈3900 (Mayıs)", "sezon_min": "yaz-sonbahar ≈400-500", "genislik_m_ust": 396, "buz_gun": 120, "guven": "turetildi", "kaynak": "Georgiadi 2023; Britannica (ikinci kaynak)"},
+  {"nehir": "İdil", "istasyon": "Volgograd (doğal)", "donem": "1881-1957", "yillik_m3s": 8112, "sezon_max": "Mayıs-Haziran", "sezon_min": null, "genislik_m": null, "buz_gun": 90, "guven": "turetildi", "kaynak": "Safarov 2024 (256 km³/yıl × 31,69)"},
+  {"nehir": "Fırat", "istasyon": "Keban / Jarablus / Hit", "donem": "1936-67 / 1938-73", "yillik_m3s": {"keban": 648, "jarablus": 951, "hit": 970}, "sezon_max": {"ay": "Nisan-Mayıs", "m3s_alt": 2000}, "sezon_min": {"ay": "Eylül", "m3s_min_kayit": 136}, "genislik_m": {"anah_hit": 320}, "derinlik_m": 3.4, "hiz_taskin_m_s": 1.5, "sig_gecit": "deve geçitleri Hit-Felluce (Chesney)", "guven": "kaynakli", "kaynak": "UNU Press §2.2; ESCWA-BGR 2013 Tablo 2; Chesney 1836"},
+  {"nehir": "Dicle", "istasyon": "Musul / Kut", "donem": "1931-1973", "yillik_m3s": [675, 1014], "sezon_max": "Nisan", "sezon_min": "Ağustos-Ekim (%7); Cizre Eylül 55", "genislik_m": null, "guven": "turetildi", "kaynak": "ESCWA-BGR 2013 Tablo 3; UNU; TDV dicle (rejim)"},
+  {"nehir": "Nil", "istasyon": "Vâdî Halfa/Kajnarty", "donem": "1911-1960", "yillik_m3s": 2729, "aylik_m3s": {"Nisan": 753, "Mayıs": 669, "Haziran": 750, "Temmuz": 1875, "Ağustos": 7171, "Eylül": 8389, "Ekim": 5449}, "sezon_max": {"ay": "Eylül", "m3s": 8389}, "sezon_min": {"ay": "Mayıs", "m3s": 669}, "genislik_m": {"sudan_kesimi_ortalama": 600}, "kritik": "SEFER MEVSİMİYLE TERS REJİM", "guven": "turetildi", "kaynak": "Sutcliffe-Parks 1999, IAHS SP5, Tablo 10.2"},
+  {"nehir": "Aras", "istasyon": "Kür kavşağı / Surmeli (TR)", "yillik_m3s": [210, 56], "sezon_max": "Nisan-Mayıs", "sezon_min": "Ağustos-Eylül", "genislik_m": {"nahcivan_ust": 55, "megree": 73}, "derinlik_m_megree": 1.2, "sig_gecit": "yazın birçok yerde geçilebilir (Kinnier 1810)", "guven": "kaynakli", "kaynak": "Encyclopaedia Iranica 'Araxes'; UNECE 2011 (orta güven)"},
+  {"nehir": "Kür", "istasyon": "Tiflis", "donem": null, "yillik_m3s": 204, "sezon_max": null, "sezon_min": null, "genislik_m": null, "guven": "kaynakli", "not": "orta güven; dönem bilinmiyor, baraj öncesi doğrulanamadı", "kaynak": "UNECE 2011 Ch.4"},
+  {"nehir": "Kızılırmak", "istasyon": "belirsiz (35 yıl)", "yillik_m3s": 184, "sezon_max": "Nisan", "sezon_min": "Ağustos", "genislik_m": null, "guven": "kaynakli", "not": "istasyon ve dönem belirsiz", "kaynak": "Bahadır 2011, Turkish Studies 6/3"},
+  {"nehir": "Sakarya", "istasyon": "Doğançay", "donem": "1953-1975", "yillik_m3s": 136.9, "sezon_max": {"ay": "Nisan", "m3s": 247.1}, "sezon_min": {"ay": "Ağustos", "m3s": 61.9}, "genislik_m": [60, 70], "genislik_not": "genel, yer yer 150", "guven": "kaynakli", "not": "Sarıyar (1956) sonrasını içerir", "kaynak": "Işık-Şaşal-Doğan 2006, Gazi MMF Derg. 21(3) (EİE)"},
+  {"nehir": "Meriç", "istasyon": "Edirne Meriç Köprüsü", "donem": "≤1976 (yıllar yazılmamış)", "yillik_m3s": 182, "sezon_max": {"ay": "Nisan", "m3s": 278.2}, "sezon_min": {"ay": "Ağustos", "m3s": 64.9}, "yillik_max_ay": "Ocak 296,3 (sezon dışı)", "genislik_m": null, "guven": "kaynakli", "kaynak": "Kurter 1976, İÜ GDAAD 4-5; TDV meric (rejim)"}
+ ],
+
+ "kurma_suresi_dagilimi": {
+  "kapsam": "yalnız yerinde montaj; tombaz tedariki aylar önce (1711: Aralık 1710; 1769: Kasım 1768)",
+  "vakalar_gun": {"1828 Satunovo": 1, "1532 Morporuk": 3.5, "1877 İbrail": 4, "1877 Ziştovi": 4.5, "1526 Ösek": 5, "1521 Böğürdelen": 9, "1526 Budin": 10, "1521 Belgrad": 12, "1538 Prut": 13, "1566 Ösek": 17},
+  "n": 10,
+  "medyan_gun": 7,
+  "hesap": "sıralı 10 değerin 5. ve 6.'sı: (5 + 9) / 2",
+  "yalniz_osmanli_n7_medyan_gun": 10,
+  "aralik_gun": [1, 17],
+  "guven": "turetildi"
+ },
+
+ "onerilen_adim_bedeli": [
+  {"ozne": "idare", "gecit_turu": "kopru", "bedel_saat": 0, "km_esdeger": 0, "aralik_saat": [0, 1.3], "guven": "turetildi", "dayanak": "Evliya: 3,5 km Ösek köprüsü 2 saat; yürüme hızıyla 0,7 saat ⇒ fark ≤1,3; tek kişi için başka kayıt bulunamadı", "kaynak": "Tanyeli 1990 s.10"},
+  {"ozne": "idare", "gecit_turu": "feribot | kale-cifti", "bedel_saat": 8, "km_esdeger": 40.3, "aralik_saat": [4, 8], "guven": "turetildi", "dayanak": "fiilî geçiş ≈4 s (K01, K02); 5/5 kafile kaydında günün kalanı gitti", "kaynak": "Buckingham 1827; Teixeira 1902; Ainsworth 1888", "uyari": "kayıtlar KAFİLE; tek ulak alt sınırı bulunamadı", "karar_bekliyor": "8 (gün kaybı) mı 4 (fiilî) mı — öneri 8"},
+  {"ozne": "idare", "gecit_turu": "istisna: köprü kırık / tekne yok", "bedel_saat": null, "aralik_saat": [16, 48], "guven": "kaynakli", "dayanak": "Musul 1737 2 gün; Misis 1737 6 gün", "kaynak": "Otter 1748", "not": "olay, sabit değil — motora yazılmaz"},
+  {"ozne": "idare", "gecit_turu": "sig-gecit", "bedel_saat": null, "guven": "bulunamadi", "dayanak": "varlık kaynaklı (Aras yazın; Fırat deve geçitleri), süre kaydı yok; tek taşınabilir dayanak 0912 Herzog oranı 1:4", "kaynak": "Iranica 'Araxes' (Kinnier 1810); Chesney"},
+  {"ozne": "idare", "gecit_turu": "gecit_yok", "bedel_saat": null, "guven": "turetildi", "dayanak": "sabit YAZILMAZ; dolanmayı model hesaplar (0912 öneri 3)"},
+  {"ozne": "ordu", "gecit_turu": "kopru (hazır)", "bedel_saat": 16, "km_esdeger": 80.6, "aralik_saat": [10, 24], "guven": "turetildi", "dayanak": "İsakça 1538 30 saat; Morporuk 1532 1,5 gün; Belgrad 1532 2-3 gün; Satunovo 1828 ≤3 gün; Çobandede 3 gün — medyan 2 gün × 8", "dis_deger": "Ziştovi 1877 14 gün (~200.000) tabana katılmadı"},
+  {"ozne": "ordu", "gecit_turu": "feribot (köprüsüz)", "bedel_saat": null, "aralik_saat": [8, 240], "guven": "kaynakli", "dayanak": "n=2, 30 kat fark: Ziştovi 1877 25.000 kişi ≈20 saat ↔ Böğürdelen 1521 20 gün-1 ay", "not": "sabit önerilmez"},
+  {"ozne": "ordu", "gecit_turu": "kopru kurarak", "bedel_saat": 72, "km_esdeger": 362.9, "aralik_saat": [24, 160], "guven": "turetildi", "dayanak": "kurma medyanı 7 gün (n=10) + geçiş medyanı 2 gün = 9 gün × 8", "uyari": "40 saatlik idare bütçesini tek başına aşar ⇒ ordu bütçesi ayrı tanımlanmalı"}
+ ],
+ "onerinin_sinirlari": [
+  "Bedel KENARA yazılmalı, hücreye değil (0912 ④ hâlâ geçerli).",
+  "Genişlik/debiye bağlı çarpan ÖNERİLMEZ: kaynaklarda süre ile genişlik arasında ilişki yok; süreyi kurum (gümrük, teskere, gece kapanan köprü, tekne yokluğu) belirliyor.",
+  "Emre'nin 100 km'i = 19,8 saat: ordu/hazır köprü (16 s) kademesine yakın; idare/feribot (8 s) bunun yarısı.",
+  "Tek mevsim değeri (0912 F) Nil ve Meriç için ayrıca düşünülmeli (D5)."
+ ],
+
+ "olculemeyenler": {
+  "bulunamadi": ["tek ulak/memur geçiş süresi", "tek tekne sefer süresi", "taşkın/buzla geçişin kaç gün kesildiği", "Rusçuk-Yergöğü, Vidin, Silistre iskele tekne sayısı ve süresi", "Tuna nokta genişlikleri Vidin-İsakça (GRWL işlenmedi)", "tam Nisan-Ekim aylık debi dizisi (Nil dışında)"],
+  "okumadim_erisilemedi": ["Feridun Bey Mohaç rûznâmesi", "Börekçi 2016 Eğri rûznâmesi", "Kurat, Prut Seferi ve Barışı", "Murphey, Ottoman Warfare", "Ágoston, Guns for the Sultan", "Finkel, Administration of Warfare", "Halaçoğlu, Menziller", "Orhonlu, Derbend Teşkilatı", "Dernschwam / Gerlach / Schweigger (Fraktur OCR)", "Rus resmî 1877-78 harp tarihi"],
+  "olculemedi": ["Prut/Ungheni 86,6 m³/s (Cloudflare)", "Kür, Kızılırmak, Meriç değerlerinin dönemi", "1828 Satunovo köprü başlangıç günü (8/9 Haziran)", "Moltke 1854 takvimi (Gregoryen kabul — çıkarım)"]
+ },
+
+ "tdv_slug_notlari": {
+  "canli_yanlis_madde": {"kur": "KÜR ölçü birimi", "kura": "KUR'A", "sakarya": "il → bk. ADAPAZARI", "mohac": "şehir (savaş: mohac-muharebesi)", "kanuni-koprusu": "Gebze'deki köprü", "ozu": "Özü kalesi", "ordu": "askerî ordu"},
+  "canli_saplama": ["tatar (bk. ULAK)", "posta (bk. BERÎD/MENZİL/PEYK/ULAK)", "zigetvar", "mimar-sinan", "sinan-pasa-koca", "sefername"],
+  "dogrusu": {"menzil": "menzil--osmanli"},
+  "olu_302": ["kizilirmak", "menzil", "iskele", "kelek", "mauna", "derbend", "tombaz", "sayka", "osek", "osijek", "drava", "sava", "tisa", "prut", "turla", "ozi", "dinyester", "zistovi", "ismail", "osmanli-rus-savaslari", "kirim-savasi", "musul"],
+  "http_500_turkce_karakter": ["kamaniçe", "karaboğdan", "ciğerdelen", "maçin", "ziştovi", "özi"],
+  "not_500": "ölü DEĞİL — taşıma arızası (§4 ⑤)"
+ }
+}
