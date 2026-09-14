@@ -120531,5 +120531,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3976",
+  "zaman": "2026-09-14 22:55",
+  "kimden": "TR-1923-SINIR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM (Emre'nin dogrudan istegi, 14 Eyl 22:50). IS: 29 Ekim 1923 Turkiye sinirlari — GR (Meric talveg + Karaagac) · BG · SY (Ankara 1921 md.8, Hatay Suriye'de) · SSCB (Kars) · IRAK (fiili statuko hatti, Emre karari). DOSYALARIM: js/app.js (TEK SATIR: maddeFarkiGoster BITIS gunu atlanir — 1923-10-29 '6 beyaz petek' hatasi, YAPILDI) · YENI data/yerlesimler_sinir_tr1923.js (window.YERLESIMLER_SINIR_TR1923, henuz yok) · girdi.py'ye bu dosyanin baglama satiri. Emre KOSUYU BU OTURUMDAN baslatmami istedi — baslatmadan once tahtaya 'GIRDI KILITLI' yazip 60 sn bekleyecegim. Turkiye sinir kusagindaki yerlesim kayitlarina yazacaksaniz once bana sorun.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
