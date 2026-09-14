@@ -588,6 +588,9 @@ GIRDI_DOSYALARI = [
                                       # çekildi. Şimdiden bağlı, çünkü rehber
                                       # gelince dolacak ve o gün girdi.py
                                       # kilitli olabilir.
+                                      # 🟢 14 Eylül 2026 TR-1923-SINIR doldurdu.
+    "yerlesimler_sinir_kuzey.js",     # sınır çifti — Yunanistan · Bulgaristan ·
+                                      # SSCB kolu (TR-1923-SINIR, Emre 14 Eyl).
     # ══ 1 EYLÜL 2026 — RENK ENGELİ KALKTI, ÜÇÜ DE BAĞLANDI ══
     # Dünkü tur bu üçünü *"kimlikleri renksiz"* diye bekletmişti; RENK
     # oturumu beş rengi de yazdı ⇒ engel kalktı. Dördü de yeniden ölçüldü:

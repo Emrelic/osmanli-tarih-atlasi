@@ -5854,6 +5854,13 @@ function _cKayitGeometrisi(kayit) {
   if (posTarafId === undefined) posTarafId = taraflar[1];
   var tarafSirasi = [negTarafId, posTarafId];
   var hatCizgisi = nd.map(function (p) { return [p.lon, p.lat]; });
+  // 🔴 15 Eylül 2026 — `kapsama.dolgu:false` → YALNIZ HAT, dolgu yok.
+  // Emre ekran görüntüsüyle bildirdi: Karlofça'dan sonra Srebrenik–Bosna
+  // Brod'u üstünde "yarısı kırmızı yarısı yeşil dikdörtgen". Sebep: kutu
+  // opaklık 1 ile petek dolgularının ÜSTÜNE boyanıyor, kenarları altındaki
+  // gerçek sınırlarla örtüşmüyor. Hat motorun zaten yaslandığı bir nehirse
+  // (Sava) dolgunun gizleyeceği bir yanlış sınır yok — yalnız yapay kutu kalır.
+  if (kap.dolgu === false) { negatif = []; pozitif = []; }
   return {
     dolgu: [negatif, pozitif].map(function (poly, i) {
       if (poly.length < 3) return null;
@@ -8057,12 +8064,16 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
 // ⚠️ Antlaşma maddesi burada ATLANIR — UI2 kutusu (taraf süzgeçli pencere) onu çiziyor.
 // ⚠️ BASLANGIC günü atlanır: 1281-01-01'in bir gün öncesi atlasın dışında, her
 //   yer "sahipsiz→sahipli" görünür (D180 — pencere ucu sorgu günü değildir).
+// ⚠️ BITIS günü de atlanır — AYNASI (Emre, 14 Eylül 2026): 1923-10-29'da bütün
+//   dönemler `t:"1923-10-29"` ile kapanıyor; "Cumhuriyet'in ilanı" maddesi
+//   Ankara çevresindeki 6 peteği "TBMM → sahipsiz" diye BEYAZ yakıyordu. O gün
+//   haritada gerçek bir el değiştirme yok, yalnız atlasın penceresi bitiyor.
 var MADDE_FARK_ACIK = true;
 function maddeFarkiGoster(o, ozelEl) {
   if (!MADDE_FARK_ACIK || !o || !ozelEl || antlasmaMaddesiMi(o)) return;
   var SG = window.SUZGEC;
   if (!SG || !SG.maddeDegisimleri) { console.warn("[aynı gün farkı] js/suzgec.js eski sürüm (önbellek) — kutu çizilmedi"); return; }
-  if (!(o.gi > BASLANGIC && o.gi <= BITIS)) return;
+  if (!(o.gi > BASLANGIC && o.gi < BITIS)) return;
   _farkIndeksiKur();
   var Y = window.YERLESIMLER || [], gs = _khGunStr(o.gi), kardes = o._agGrup || [o];
   var r = SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, kardes);

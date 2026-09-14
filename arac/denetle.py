@@ -1147,6 +1147,12 @@ BEYAN_EDILEN_BOSLUK = {
     # dizin susuyor.
     # 🔜 BORÇ: `cizre-beyligi` künyesi (Bohtan) — yazılınca bu satır SİLİNİR.
     ("Cizre", "1508-01-01", "1515-09-19"),
+    # 🟢 Cibri (Güçlü) 1508-1515 — Cizre beyanının İKİZİ (TR-1923-SINIR, 15 Eylül 2026).
+    # Köy Cizre'nin 10,1 km batısında bir SINIR ÇİFTİ noktası; zinciri Cizre
+    # kaydından birebir (denetim/ARAC-TR1923-YAZ-0914.py). Boşluk aynı TDV `cizre`
+    # hükmüne dayanıyor: Bohtan beyliğinin mahallî idaresi, künyesi yok.
+    # 🔜 `cizre-beyligi` künyesi yazılınca BU SATIR DA silinir ve köy yeniden üretilir.
+    ("Cibri (Güçlü)", "1508-01-01", "1515-09-19"),
 }
 
 

@@ -1,18 +1,14 @@
-YAYIN — KOSU 11 INDI · Kirim uc ton (gevsek himaye) · Caldiran-Baskale · Bagdat 1638 · dalga SINIF2 verisi
+YAYIN — KOSU 12 · 29 Ekim 1923 Turkiye kara sinirlari (28 sinir koyu) · 1921 Suriye hatti (Hatay Suriye'de) · Irak fiili statuko
 
-Tokensiz zincir (arac/kos_ve_yayinla.py) uretti, denetledi ve kapidan gecirdi. Koordinator 14 Eylul 2026 gecesi baslatti.
+Tokensiz zincir (arac/kos_ve_yayinla.py) uretti, denetledi ve kapidan gecirdi. TR-1923-SINIR oturumu 15 Eylul 2026 gecesi Emre'nin istegiyle baslatti.
 
-BU KOSUNUN ICINDEKILER (girdi kosudan once dondu):
-  · MOTOR: himaye govdeleri d.h (8ba093e) — Kirim Hanligi Nogay bozkiri gevsek himaye, serit + acik ton #e8a2aa
-  · VERI-KIRIM (07235d9): 18 bozkir kaydi gevsek himaye 1475-1774 · kuzey vahsi bozkir (Voronej, Belgorod, Harkov,
-    Sloboda, Tambov) kasitli bosluk · Cerkes kiyisi 1441-1475 bosluk · Kabartay kendi kunyesi · Hacibey Litvanya ·
-    Taganrog 1711-1739 tampon · etiket 'Kirim Hanligi'
-  · Caldiran · Baskale 1548-1639 Safevi adaciklari kalkti · Van fethi 24 Agustos 1548 · Seyhrumi
-  · UYGULA-BAGDAT: Bagdat eyaleti 1638-12-24 hizasi · Sehrizor 1630 · Kerkuk ve Musul 1624-25
-  · P04 Sehirkoy Fetret · Herseknovi 1539 · P05 yeni Anadolu noktalari (Bayburt, Zamanti, Mesudiye, Golkoy) · Kigi 1514
-  · P06 Katar 1559-1670 tabi · isyan taramasi (Erdel 1599/1601, Bogdan 1600) · dis olay suzgeci · ayni gun yanip sonme ·
-    magazin akordeonu · devlet paneli madde tiklamasi onarildi · yeni madde dosyalari p0050-p0058 · ek okumalar
-⚠️ Yama onerisi olarak bekleyen (bu kosuda YOK): YAMA-TRAKYA · ISGAL1919 · ANADOLU · ARAP · KARADENIZ · KUZEY · UZAK ·
-   P01/P02 inisleri · P13B Y6/Y7 (denetim/P13B-UYGULANMADI-Y6Y7-0914.patch).
+BU KOSUNUN ICINDEKILER:
+- data/yerlesimler_sinir_guney.js (12) + data/yerlesimler_sinir_kuzey.js (16, YENI, girdi.py + index.html bagli):
+  GeoNames koylerinden sinir ciftleri; sapma (|d_TR - d_komsu|/2) her kolda <=5 km %90+.
+  GR Lozan md.2/2 · BG Lozan md.2/1 · SSCB Moskova+Kars 1921 · IRAK IBS No.27 (fiili statuko = Musul vilayeti kuzey siniri)
+  SURIYE Ankara Itilafnamesi md.8 (Budak 1997, ATAM XIII/38 s.405-406): Payas guneyi -> Meydan-i Ekbez duz hat, Hatay Suriye'de.
+- Nahcivan temasi (8 km) ATLANDI (1932 takasina bagli, olculmedi) · Iran kapsam disi.
+- Kamisli ELENDI (1926 kurulus beyani, akademik kaynak okunamadi).
+- Rapor: denetim/TR1923-SINIR-0914.md
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
