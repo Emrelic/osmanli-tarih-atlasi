@@ -1802,7 +1802,11 @@ harita.on("load", function () {
              "fill-opacity-transition": { duration: 160 } } });
   harita.addLayer({ id: "antlasma-fark-cizgi", type: "line", source: "antlasma-fark",
     layout: { "line-join": "round" },
-    paint: { "line-color": "#ffd700", "line-width": 2.2, "line-dasharray": [2, 1.4] } });
+    // 14 Eylül 2026 — Emre: "bölgelerin arasına sarı sınırlar çiziliyor, bunu
+    // beğenmedim … sarı çizgileri Osmanlı kırmızısından daha koyu kırmızı
+    // çizgiler yapalım." Altın (#ffd700) kesikli kenar → kopkoyu kırmızı düz
+    // kenar (#3a0510, Osmanlı dolgusu #8e0b22'den belirgin koyu).
+    paint: { "line-color": "#3a0510", "line-width": 1.8 } });
 
   // ═══ GÜVEN KUŞAKLARI — KITA 12 PROTOTİPİ (bkz. yukarıdaki fonksiyon
   // bloğu, satır ~440). Bütün katmanlar başlangıçta GİZLİ — yalnız
@@ -2099,15 +2103,26 @@ harita.on("load", function () {
   // try/catch: kurulum atarsa geri kalan yükleme (haritaHazir) DURMASIN.
   try {
     harita.addSource("halka-kaynakli", { type: "geojson", data: bosVeri() });
-    var _khYaricap = ["+", 9, ["*", 5, ["get", "sira"]]];
-    var _khKalinlik = ["match", ["get", "tur"], "tabi", 1.6, "isgal", 2.2, 3];
+    // 🔴 14 Eylül 2026 — Emre: "şehirlerin etrafında koyu kırmızı halkalar var …
+    // ayarlarda açılma ile gösterilmesini istemiştik. Ayarlara basınca FARKLI
+    // TİP çemberler çıkıyor." Ayar kapalıyken görünen işaret C kaydının
+    // `hukuki-sinir-nokta` dairesiydi (yarıçap 6, dolu, #1a1a1a kenar);
+    // ⑧ açılınca krem zeminli büyük halkalar geliyordu. ⇒ ⑧ artık AYNI
+    // biçimi çizer: ilk devlet (sira 0) = dolu koyu daire + ince siyah kenar,
+    // aynı yerde ikinci/üçüncü devlet (çelişen tanıklık) = dışında halka.
+    // Krem zemin katmanı görünmez bırakıldı (id korunur, başka kod bağlı olabilir).
+    var _khIlk = ["==", ["get", "sira"], 0];
+    var _khYaricap = ["case", _khIlk, 6, ["+", 6, ["*", 5, ["get", "sira"]]]];
+    var _khKalinlik = ["case", _khIlk, 1.5, ["match", ["get", "tur"], "tabi", 1.6, "isgal", 2.2, 2.6]];
     harita.addLayer({ id: "halka-kaynakli-zemin", type: "circle", source: "halka-kaynakli",
       paint: { "circle-radius": _khYaricap, "circle-opacity": 0,
-               "circle-stroke-color": "#fffbe8", "circle-stroke-opacity": 0.85,
-               "circle-stroke-width": ["+", _khKalinlik, 2.4] } });
+               "circle-stroke-color": "#fffbe8", "circle-stroke-opacity": 0,
+               "circle-stroke-width": 0 } });
     harita.addLayer({ id: "halka-kaynakli", type: "circle", source: "halka-kaynakli",
-      paint: { "circle-radius": _khYaricap, "circle-opacity": 0,
-               "circle-stroke-color": ["get", "renk"], "circle-stroke-width": _khKalinlik } });
+      paint: { "circle-radius": _khYaricap,
+               "circle-color": ["get", "renk"], "circle-opacity": ["case", _khIlk, 1, 0],
+               "circle-stroke-color": ["case", _khIlk, "#1a1a1a", ["get", "renk"]],
+               "circle-stroke-width": _khKalinlik } });
     harita.on("click", "halka-kaynakli", function (e) {
       var yer = e.features[0].properties.yer;
       // HALKA-TIKLAMA: genel harita tıklaması bu yerin şehir görünümünü zaten
@@ -6387,9 +6402,11 @@ function _khGunYazi(gun) {                // gün indeksi → "15 Haziran 1595"
 var _KH_GOCMUS_C_KAYITLARI = ["ferhad-pasa-istanbul-1590"];
 function _khCNoktaSuzgeci() {
   if (typeof harita === "undefined" || !harita.getLayer || !harita.getLayer("hukuki-sinir-nokta")) return;
-  harita.setFilter("hukuki-sinir-nokta", KHALKA.acik
-    ? ["!", ["in", ["get", "kayit_id"], ["literal", _KH_GOCMUS_C_KAYITLARI]]]
-    : null);
+  // 🔴 14 Eylül 2026 — Emre: göçmüş kayıtların daireleri ⑧ KAPALIYKEN de
+  // görünüyordu ("ayar ile konulsun demiştim"). Süzgeç artık ⑧'den bağımsız
+  // HER ZAMAN uygulanır; o şehirler yalnız ⑧ açılınca (halka katmanında) görünür.
+  harita.setFilter("hukuki-sinir-nokta",
+    ["!", ["in", ["get", "kayit_id"], ["literal", _KH_GOCMUS_C_KAYITLARI]]]);
 }
 function kaynakliHalkaAc(acik) {
   KHALKA.acik = !!acik;
@@ -6415,6 +6432,8 @@ function kaynakliHalkaAyarKur() {
     kaynakliHalkaAc(kutu.checked);
   });
   if (kutu.checked) kaynakliHalkaAc(true);
+  // 14 Eylül 2026: süzgeç ⑧'den bağımsız — ⑧ hiç açılmasa da açılışta bir kez uygula.
+  try { _khCNoktaSuzgeci(); } catch (e) { console.error("C nokta süzgeci:", e); }
 }
 
 // Bir yerleşimin sahipliğini HARİTANIN KENDİ ÖNCELİK KURALIYLA çözer.
@@ -10685,9 +10704,8 @@ function enYakinOlayBul(gi) {
 
 (function tariheGitKur() {
   var giris = document.getElementById("tarihe-git-giris");
-  var buton = document.getElementById("tarihe-git-buton");
   var durum = document.getElementById("tarihe-git-durum");
-  if (!giris || !buton || !durum) return;   // §11: sessiz atlama yerine erken çık, koşuyu bozma
+  if (!giris || !durum) return;   // §11: sessiz atlama yerine erken çık, koşuyu bozma
   function _durumYaz(metin, uyari) {
     durum.textContent = metin;
     durum.title = metin;
@@ -10712,7 +10730,7 @@ function enYakinOlayBul(gi) {
       _durumYaz("✓ " + olayTarihYazi(o) + " — " + o.b);
     }
   }
-  buton.addEventListener("click", calistir);
+  // 14 Eylül 2026 — "📅 Git" butonu kaldırıldı; tek tetik Enter.
   giris.addEventListener("keydown", function (e) {
     if (e.key === "Enter") { calistir(); e.preventDefault(); }
   });

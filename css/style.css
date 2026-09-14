@@ -732,8 +732,8 @@ body {
 #zaman { flex: 1 1 auto; accent-color: var(--osmanli-kirmizi); height: 5px; min-width: 90px; }
 /* 11 Eylül 2026 — "Tarihe git" girişi. `#zamanbar button`/`input` genel
    kuralları zaten var; burada yalnız METİN GİRİŞİNİN kendine özgü genişliği
-   ve buton genişliğinin (32px varsayılanı "📅 Git" metnine dar kalıyor)
-   override'ı gerekiyor. */
+   gerekiyor. 14 Eylül 2026 — "📅 Git" butonu kaldırıldı, kuralı da silindi;
+   tek tetik Enter. */
 #tarihe-git-giris {
   height: 27px;
   width: 160px;
@@ -744,7 +744,6 @@ body {
   font-size: 12px;
   padding: 0 6px;
 }
-#tarihe-git-buton { width: auto; padding: 0 8px; font-size: 12px; }
 #tarihe-git-durum {
   font-size: 11px;
   color: #f3e6c8;
