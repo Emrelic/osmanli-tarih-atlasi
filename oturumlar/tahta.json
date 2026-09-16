@@ -127466,5 +127466,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4167",
+  "zaman": "2026-09-16 23:23",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "D-KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "Kunye boslugu (G3 geriye sarmada olculdu): Norvec 1814-1905 arasi kunye YOK (norvec-kralligi 1537'de bitiyor, norvec 1905-06-07'de basliyor) ve Luksemburg 1815-1890 arasi kunye YOK (luksemburg 1890-11-23'te basliyor). Bu yuzden Norvec-Isvec, Norvec-Rusya(Finlandiya) ve Luksemburg'un Belcika/Fransa/Almanya sinirlari 1905/1890 oncesine sarilamiyor. G4 acilirsa gerekecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
