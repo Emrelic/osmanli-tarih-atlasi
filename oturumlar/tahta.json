@@ -129650,5 +129650,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4244",
+  "zaman": "2026-09-17 02:17",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G6 (1774 -> 1699-01-26) - commit b4414c1 (pushlandi; G4/G5'in 120b095'i de artik origin'de). HAT: yeni E/D/C 0 · yeni YOK 2 (Rus-Safevi Hazar kiyisi 1723-09-12->1732->1735, koordinatsiz, kutu tahmini). KRONOLOJI +3: 1723-09-12 Petersburg (TDV derbend--dagistan) · 1732 Resht (YIL) · 1735 Gence (YIL). CELISKI (TDV kendi icinde, secim YAPILMADI): derbend--dagistan '12 Eylul 1723' + Derbend/Baku iadesi Gence 1735 <-> dagistan '1724' + iade Resht 1732. Olu slug: nadir-sah · tahmasb-ii · afsarlar · talis; erisilemedi: gilan · safeviler · mazenderan. 1735 sonrasi Terek/Sulak Rus-Iran temasi tanimsiz -> kayit yok. Toplam 53 kayit (E 16 · D 1 · C 7 · YOK 29) · 22 madde · bag sorunu 0.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4245",
+  "zaman": "2026-09-17 02:17",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G5 (1815 → 1774-07-21) · commit ffa20c3. HAT +1 → 132 kayıt (E 27 · C 21 · YOK 84): Nepal–Tibet 1792–1856 FİİLİ (IBS 50: 1792 Çin–Nepal antlaşmasının hükümleri belirsiz; f yalnız yıl). KRONOLOJİ +1 → 51 madde (1792 Çin–Nepal antlaşması, gün kaynakta yok). SINAV 1774 sonrası 117 kırılma, maddesiz 0, hata 0. Bölgemde 1774–1815 arasında başka antlaşma hattı yok: Asya'daki hatların çoğu 1816 sonrası; Rus–Qing Moğolistan hattı 1727'den beri aynı. YAZILMADI: Sugauli öncesi Şirket–Nepal (antlaşma yok). G6'ya geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
