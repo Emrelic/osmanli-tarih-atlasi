@@ -8476,6 +8476,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_diplomasi",  // window.EKOKUMA_DIPLOMASI — elçilik/konsolosluk tarihi, 0059/5
   "ekokuma_kiyas",      // window.EKOKUMA_KIYAS — yeniliğe tepki ayaklanmaları kıyası, 0059/6
   "ekokuma_rusiran",    // window.EKOKUMA_RUSIRAN — Rusya-İran ilişkileri, 0059/7
+  "ekokuma_baslik_oneri", // window.EKOBASLIK_ONERI — {id: başlık}, DİZİ DEĞİL, havuza girmez (0057/6)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -8802,7 +8803,13 @@ function _tartismaVarMi(t) {
 function _ekSatirBasligi(tur, k) {
   var et = EKOKUMA_TUR[tur] ? EKOKUMA_TUR[tur].etiket : tur;
   var ham;
-  if (k.tur === "sebep-sonuc" && (k.sebep || k.sonuc)) {
+  // 🆕 17 Eylül 2026 — paket 0057/H-0006: başlıksız kayıt tür etiketini
+  // ("Kimdir?") basıyordu. D-GEOARAC'ın önerisi (data/ekokuma_baslik_oneri.js)
+  // yalnız kaydın KENDİ başlığı/sorusu yoksa devreye girer.
+  var oneri = (window.EKOBASLIK_ONERI || {})[k.id];
+  if (!k.soru && !k.baslik && oneri) {
+    ham = oneri;
+  } else if (k.tur === "sebep-sonuc" && (k.sebep || k.sonuc)) {
     ham = ((k.sebep && k.sebep.b) || "") + " → " + ((k.sonuc && k.sonuc.b) || "");
   } else {
     ham = String(k.soru || k.baslik || k.ad || "").trim();
