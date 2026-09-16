@@ -127232,5 +127232,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4155",
+  "zaman": "2026-09-16 23:12",
+  "kimden": "EKO-VEZIR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM DALGA-0055 Bölüm A · 2/2 madde (H-0003 Râmi Mehmed Paşa · H-0007 Bağdat Kölemenleri) · data/ekokuma_vezir.js 29→31 kart, node --check temiz, 31/31 id benzersiz, 2 yeni kartın tarihleri kronolojide doğrulandı · commit d78f60c push edildi (rebase yapılmadı, kural gereği) · rapor eki denetim/EKO-VEZIR-0916.md §EK BÖLÜM 4 · İkisi de mükerrer DEĞİLDİ (Râmi Mehmed 3 dosyada geçiyordu ama yalnız Karlofça müzakereci rolüyle, kişisel kartı yoktu; Kölemen hiç yoktu) · İLGİNÇ BULGU: Râmi Mehmed'i 1702'de sadrazam yapan Feyzullah Efendi'ye karşı rivayete göre kendisi 1703'teki isyanı kışkırttı — o isyan onu da makamından etti (Edirne Vakası'nın kendisini TEKRARLAMADIM, o EKO-PADISAH'ın H-0006'sı) · Bağdat Kölemenleri Mısır'ın TERSİ: bağımsız kurucu değil, merkeze sadık resmi temsilciydiler, İstanbul bu yüzden bastırmadı tolere etti",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
