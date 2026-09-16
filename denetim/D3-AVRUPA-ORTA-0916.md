@@ -228,6 +228,23 @@ Bosna ilhakı 1908-10-06 · Londra 1913 (Arnavutluk, C) · Sırbistan-Karadağ s
 - **Bulgu (HARİTA-VERI'ye):** atlasta "Suda ve Spinalonga kalelerinin fethi" `1715-01-01`; Setton Suda'nın teslimini **25 Eylül 1715** verir. İstendil'in `1715-06-05` günü doğrulanamadı (Setton yalnız "June 1715").
 - Araçlar: `denetim/ARAC-D3ORTA-EKO-TARA-0916.js` (mükerrer tarama) · `denetim/ARAC-D3ORTA-EKO-OKU-0916.js` (`--bag` başlık + olay bağı sınaması).
 
+## 7. 🆕 EK OKUMA — paket 0059 H-0006 (`DALGA-0059.md` madde 6)
+
+`data/ekokuma_kiyas.js` → `window.EKOKUMA_KIYAS` — **1 kart** `kiyas-yenilige-tepki-ayaklanmalari` (tartisma, `baslik` var,
+kesinlik `tartismali` — kıyas çatısı kartın kendi derlemesi; kültürler arası karşılaştıran akademik çalışma BULUNAMADI).
+- **Vakalar (10):** Patrona 1730 · Kabakçı 1807 · Vak'a-i Hayriyye 1826 · Raskol (1652-67) · Streltsı 1698 ve Petro'nun sakal/kıyafet
+  reformu · Madrid 1766 · Luddcular 1811-16 + Swing 1830 · Hindistan 1857 · Şinpûren 1876 + Satsuma 1877 · Boksörler 1899-1901 · İran tütün 1891-92.
+- **Olay bağı 8 kalıp → 9 madde** (arayüzde `ekKartBagliMi` ile ölçüldü): ana liste 5 (Sâdâbâd 1722 · Patrona ×2 · Kabakçı · Asâkir-i Mansûre)
+  + devlet kronolojileri 4 (`KRONOLOJI_RUSYA` Nikon · `_INGILTERE` Hint · `_JAPONYA` Satsuma · `_CIN` Boksör). Sâdâbâd maddesinde "💬 Tartışma" satırı görüldü.
+- **Kaynak:** TDV 8 madde gövdesi (patrona-isyani · lale-devri · sadabad · ibrahim-muteferrika · kabakci-isyani · nizam-i-cedid · vaka-i-hayriyye · tutun);
+  302: patrona-halil · kabakci-mustafa(-isyani) · vaka-i-hayriye · tutun-boykotu · tutun-imtiyazi · reji.
+  Britannica (9 imzalı/kurumsal madde) · The National Archives · Hansard 1812 · Kotobank (Heibonsha, Nipponica) · Encyclopaedia Iranica (Algar; Concessions).
+- **Ana düzeltme karta yazıldı:** TDV'ye göre Patrona'yı matbaa değil lüks, vergi ve İran yenilgisi tetikledi; matbaa yalnız ~1 yıl kesildi, Sâdâbâd çevresinde 120 kasır yıkıldı.
+- **Mükerrer:** `lale-devri-tepkiler`, `tartisma-osmanli-darbeleri-tipoloji` okundu, atıf verildi.
+- **Yazılmayanlar (doğrulanamadı):** Madrid 1766 günü ve Esquilache'nin azli · Luddcular "Mart 1811" · sakal vergisinin yılı · Solovetsk · Boksör demiryolu tetikleyicisi · 7 Eylül 1901 günü.
+- **HARİTA-VERI'ye bulgu:** atlasın `1826-06-18` "Asâkir-i Mansûre kuruldu" maddesi — TDV ilanı **17 Haziran 1826** veriyor; yaygın "15 Haziran" TDV metninde yok.
+  İran fetvası TDV'de Kasım 1891 / Kerbelâ, Iranica'da Aralık 1891 başı / Sâmerrâ — kaynak çelişkisi, kartta ikisi de yazılı.
+
 ## 5. Kaynaklar (bu oturumda açılıp okunanlar)
 
 - ABD Dışişleri *International Boundary Study* (FSU): IBS 43, 47, 66, 74, 76, 77, 116 — `library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibsNNN.pdf` (pypdf ile tam metin)
