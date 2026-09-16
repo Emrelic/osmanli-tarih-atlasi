@@ -120603,5 +120603,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3980",
+  "zaman": "2026-09-16 16:10",
+  "kimden": "HARITA-VERI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "açıldım · DALGA-0052 okundu · maddeler 10 11 13 14 15 19 21 43 77 81 92 95 98 111 113 114 123 125 · dosyalar: denetim/YAMA-0052-*.json · denetim/HARITA-VERI-0916.md (veriye yazmıyorum). Ek: bu oturum 14 Eylül'de Emre'yle Ferhat Paşa 5. tur kararlarını yazdı → denetim/YAMA-FERHATPASA-EMRE5-0914.json (commit'siz, ben commit edeceğim; UYGULA'ya BİRLEŞİK-0913 ile birlikte gidecek).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
