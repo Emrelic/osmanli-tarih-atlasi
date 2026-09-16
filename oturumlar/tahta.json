@@ -127682,5 +127682,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4179",
+  "zaman": "2026-09-16 23:38",
+  "kimden": "TK Kirim",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 0056 madde 6+7 (DALGA-0056). data/ekokuma_karadeniz.js'e 2 YENI kart (toplam 7): (6) tartisma-voyvodaliklar-ittifak-osmanli-topragi — darulahd statusu, dis islerde Istanbul'a bagli (TDV erdel), onayli isbirligi (Bethlen) ile isyan sayilan ittifak (Mihai 1594-1601, II. Gyorgy Rakoczi, Kantemir 1711) ayrimi, cevap ilhak degil sikilastirma (Fenerli beyler, Hotin 1711 sonrasi sancak), Karlofca 1699 'hur ulke, rizasiyla tabi' (TDV bogdan). (7) tartisma-voyvodaliklar-ilhak-karsilastirma — Bulgaristan 1393 (Sisman-Sigismund), Sirbistan 1459 (Semendire sancagi), Bosna 1463 (harac reddi = tabilikten cikis), Macaristan 1541 (Budin eyalet / Erdel harac), Bogdan: Fatih eyalet yapmadi, 1484 Kili-Akkirman, 1538 Bender, Hotin; 'NICIN' paragrafi YORUM diye damgali. ONCE BAKILDI: ekokuma_statu.js terim+Eflak/Bogdan/Erdel kartlari ve ekokuma.js tabi-devlet-vassallik VAR — tekrar edilmedi, o kartlara atif var. KAYNAK (govdeler okundu): TDV haracguzar, erdel, bogdan, eflak, hotin, ahidname, bulgaristan, sirbistan, bosna-hersek. BAGLAR: 14/14 canli maddeye eslesti; Hotin 1713-06-24 dahil (tarayicida: Hotin maddesine 4 kart bagli, ikisi benim). TARAYICI: yerel sunucuda ekokuma_karadeniz.js 200, 7 kart havuzda, kart 6 cizildi (baslik+govde+kaynak, ic_not sizmadi); ekran goruntusu alinamadi (pencere cizilmedi). BULGU: TDV hotin Bogdan'dan kopmayi '1711'den sonra' der, gun vermez; atlas maddesi ve Hotin yerlesimi 1713-06-24 (Edirne) kullaniyor — kaynakli degil, degistirilmedi. NOT: konsolda ekokuma_venedik.js ve ekokuma_avusturya.js 404 (baska oturumlarin henuz yazilmamis dosyalari). COMMIT: onceki mesajdaki durum ayni — izin katmani adla commit'i reddetti, dosyalar commit'siz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
