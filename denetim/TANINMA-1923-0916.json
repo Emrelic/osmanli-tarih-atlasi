@@ -1,0 +1,474 @@
+{
+ "olusturan": "D-KUNYE (Sonnet Hazır Kıta 1002) · 16 Eylül 2026, GERİYE-SARMA-0916.md görevi",
+ "amac": "F sınıfı (E + uluslararası tanınma) kararı için: 1914-1923 Milletler Cemiyeti üyeliği ve büyük devlet tanıma tarihleri, tarihli ve kaynaklı. D1-D5/D2-KOMSU/D3/D4/D5 oturumları bu tabloya dayanarak sınır kayıtlarına F ya da E yazar.",
+ "durum": "Araştırma tablosu -- data/'ya YAZILMADI, yalnız denetim/ altında. Kullanan oturum kendi d_sinirlar*.js dosyasına F/E kararını YAZAR.",
+ "yontem": "Wikipedia 'Member states of the League of Nations' maddesi WebFetch ile okundu, 29 Ekim 1923'e kadarki üyelik tarihleri çıkarıldı. Büyük devlet tanıma (USSR/Türkiye/Mısır) için ayrı WebSearch doğrulaması yapıldı (Britannica/Foreign Affairs/Fransa-SSCB ilişkileri maddeleri).",
+ "kaynak_notu": "Wikipedia 'Member states of the League of Nations' (erisim 16 Eylul 2026) -- WebFetch ile dogrulandi, tarihler makaledeki tabloya dayanir",
+ "onemli_notlar": [
+  "🔴 EN ÖNEMLİ BULGU: SSCB'nin 1923-10-29'da HİÇBİR büyük Batı gücünce (İngiltere/Fransa/İtalya) de jure tanınmadığı -- bu üçü de 1924'te (ufkun AYLAR ötesinde) tanıdı. SSCB'nin komşularıyla sınırları (Polonya, Türkiye, İran, Baltık devletleri) bu yüzden EN FAZLA 'E' (ikili antlaşma) olabilir, 'F' OLAMAZ -- taraflardan biri (SSCB) geniş çapta tanınmadığı sürece.",
+  "🔴 TÜRKİYE: Lozan Antlaşması 24 Temmuz 1923'te İMZALANDI ama 1923-10-29'da YÜRÜRLÜKTE DEĞİL (yürürlük: 6 Ağustos 1924). D1-TURKIYE bu ayrımı (imza vs yürürlük) E/F kararında dikkate almalı -- ben karar vermiyorum, kanıtı veriyorum.",
+  "🟡 HABEŞİSTAN (Etiyopya) MC'ye 28 Eylül 1923'te girdi -- ufka yalnız 31 gün kala, D4-AFRIKA ayrıca doğrulamalı.",
+  "🟡 İRLANDA Serbest Devleti MC'ye 10 Eylül 1923'te girdi -- ufka 49 gün kala.",
+  "🟢 BALTIK DEVLETLERİ: MC üyeliği (22 Eylül 1921) ile TOPRAK TANIMASI ayrı olaylar -- Estonya/Letonya İtilaf Devletleri'nce 26 Ocak 1921'de (MC'den önce) de jure tanındı; Litvanya'nın sınırları (Vilnius anlaşmazlığı yüzünden) ancak 20 Aralık 1922'de Büyükelçiler Konferansı'nca tanındı.",
+  "İngiliz İmparatorluğu'nun beş parçası (İngiltere, Kanada, Avustralya, Yeni Zelanda, Güney Afrika, Britanya Hindistanı) MC'de AYRI AYRI üye -- egemenlik eşitliği değil, o günün İmparatorluk-içi düzenlemesi; D-oturumları bunu 'altı ayrı devlet' diye okumasın.",
+  "Bu tabloda MC üyesi olarak listelenen ama devletler.js'te künyesi henüz OLMAYAN (bugün D-KUNYE'nin taslağına eklenen): honduras-cumhuriyeti, el-salvador-cumhuriyeti, nikaragua-cumhuriyeti, kosta-rika-cumhuriyeti (bkz. denetim/TASLAK-KUNYE-D-0916.json).",
+  "Güney Afrika Birliği (taslakta 'guney-afrika-birligi') de MC kurucu üyesiydi ('South Africa' olarak) -- bu tabloya EKLENMELİ ama künyesi de taslakta, devletler.js'e henüz işlenmedi; D4-AFRIKA/UYGULA hatırlasın."
+ ],
+ "mc_uyeleri_1923_10_29": [
+  {
+   "id": "belcika",
+   "ad": "Belçika",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "bolivya-cumhuriyeti",
+   "ad": "Bolivya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "brezilya-cumhuriyeti",
+   "ad": "Brezilya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "ingiltere",
+   "ad": "İngiltere (Büyük Britanya)",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "kanada",
+   "ad": "Kanada",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": "Dominyon olmasına rağmen MC'de İngiltere'den AYRI, kendi başına üye -- dönemin özgünlüğü"
+  },
+  {
+   "id": "avustralya",
+   "ad": "Avustralya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": "bkz. kanada notu"
+  },
+  {
+   "id": "yeni-zelanda",
+   "ad": "Yeni Zelanda",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": "bkz. kanada notu"
+  },
+  {
+   "id": "ingiliz-hindistani",
+   "ad": "Britanya Hindistanı",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": "Sömürge/tacın parçası olmasına rağmen MC'de AYRI üye -- egemenlik değil, İmparatorluk içi düzenleme"
+  },
+  {
+   "id": "cin-cumhuriyeti",
+   "ad": "Çin",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "kuba-cumhuriyeti",
+   "ad": "Küba",
+   "uyelik_tarihi": "1920-03-08",
+   "tur": "kurucu-onay",
+   "not": "Kuruluş üyesi, resmî onay 8 Mart 1920"
+  },
+  {
+   "id": "fransa-cumhuriyet",
+   "ad": "Fransa",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "yunanistan",
+   "ad": "Yunanistan",
+   "uyelik_tarihi": "1920-03-30",
+   "tur": "kurucu-onay",
+   "not": "Kuruluş üyesi, resmî onay 30 Mart 1920"
+  },
+  {
+   "id": "guatemala",
+   "ad": "Guatemala",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "haiti",
+   "ad": "Haiti",
+   "uyelik_tarihi": "1920-06-30",
+   "tur": "kurucu-onay",
+   "not": "Kuruluş üyesi, resmî onay 30 Haziran 1920"
+  },
+  {
+   "id": "honduras-cumhuriyeti",
+   "ad": "Honduras",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": "TASLAK kunye (D-KUNYE bugun ekledi) -- devletler.js'e henuz islenmedi"
+  },
+  {
+   "id": "italya",
+   "ad": "İtalya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "meiji-japonya",
+   "ad": "Japonya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "liberya",
+   "ad": "Liberya",
+   "uyelik_tarihi": "1920-06-30",
+   "tur": "kurucu-onay",
+   "not": "Kuruluş üyesi, resmî onay 30 Haziran 1920"
+  },
+  {
+   "id": "nikaragua-cumhuriyeti",
+   "ad": "Nikaragua",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": "TASLAK kunye (D-KUNYE bugun ekledi)"
+  },
+  {
+   "id": "panama-cumhuriyeti",
+   "ad": "Panama",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "peru-cumhuriyeti",
+   "ad": "Peru",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "polonya",
+   "ad": "Polonya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "portekiz",
+   "ad": "Portekiz",
+   "uyelik_tarihi": "1920-04-08",
+   "tur": "kurucu-onay",
+   "not": "Kuruluş üyesi, resmî onay 8 Nisan 1920"
+  },
+  {
+   "id": "romanya-kralligi",
+   "ad": "Romanya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "yugoslavya",
+   "ad": "Sırp-Hırvat-Sloven Krallığı",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "siyam-chakri",
+   "ad": "Siyam",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "cekoslovakya",
+   "ad": "Çekoslovakya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "uruguay-cumhuriyeti",
+   "ad": "Uruguay",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "arjantin-cumhuriyeti",
+   "ad": "Arjantin",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "sili-cumhuriyeti",
+   "ad": "Şili",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "kolombiya-cumhuriyeti",
+   "ad": "Kolombiya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "hollanda",
+   "ad": "Hollanda",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "norvec",
+   "ad": "Norveç",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "paraguay-cumhuriyeti",
+   "ad": "Paraguay",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "kacar",
+   "ad": "Pers İmparatorluğu (İran)",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "el-salvador-cumhuriyeti",
+   "ad": "El Salvador",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": "TASLAK kunye (D-KUNYE bugun ekledi)"
+  },
+  {
+   "id": "ispanya",
+   "ad": "İspanya",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "isvec",
+   "ad": "İsveç",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "isvicre",
+   "ad": "İsviçre",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "venezuela-cumhuriyeti",
+   "ad": "Venezuela",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": ""
+  },
+  {
+   "id": "kosta-rika-cumhuriyeti",
+   "ad": "Kosta Rika",
+   "uyelik_tarihi": "1920-12-16",
+   "tur": "sonradan",
+   "not": "TASLAK kunye. 1925'te AYRILAN ilk MC uyesi oldu ama 1923'te henuz uyeydi"
+  },
+  {
+   "id": "danimarka",
+   "ad": "Danimarka",
+   "uyelik_tarihi": "1920-11-15",
+   "tur": "sonradan",
+   "not": "İlk Genel Kurul'a (15 Kasım 1920) katılan 41 devletten biri"
+  },
+  {
+   "id": "avusturya-cumhuriyet",
+   "ad": "Avusturya",
+   "uyelik_tarihi": "1921-12-15",
+   "tur": "sonradan",
+   "not": ""
+  },
+  {
+   "id": "bulgaristan-kralligi",
+   "ad": "Bulgaristan",
+   "uyelik_tarihi": "1921-12-16",
+   "tur": "sonradan",
+   "not": ""
+  },
+  {
+   "id": "finlandiya",
+   "ad": "Finlandiya",
+   "uyelik_tarihi": "1921-12-16",
+   "tur": "sonradan",
+   "not": ""
+  },
+  {
+   "id": "luksemburg",
+   "ad": "Lüksemburg",
+   "uyelik_tarihi": "1921-12-16",
+   "tur": "sonradan",
+   "not": ""
+  },
+  {
+   "id": "arnavutluk-bagimsiz",
+   "ad": "Arnavutluk",
+   "uyelik_tarihi": "1921-12-17",
+   "tur": "sonradan",
+   "not": "Sınırları 9 Kasım 1921'de Büyükelçiler Konferansı'nca ayrıca teyit edildi (Yunanistan/Yugoslavya iddialarına karşı)"
+  },
+  {
+   "id": "estonya",
+   "ad": "Estonya",
+   "uyelik_tarihi": "1921-09-22",
+   "tur": "sonradan",
+   "not": "MC öncesi de jure tanıma: İtilaf Yüksek Konseyi 26 Ocak 1921"
+  },
+  {
+   "id": "letonya",
+   "ad": "Letonya",
+   "uyelik_tarihi": "1921-09-22",
+   "tur": "sonradan",
+   "not": "MC öncesi de jure tanıma: İtilaf Yüksek Konseyi 26 Ocak 1921"
+  },
+  {
+   "id": "litvanya",
+   "ad": "Litvanya",
+   "uyelik_tarihi": "1921-09-22",
+   "tur": "sonradan",
+   "not": "🔴 MC ÜYELİĞİ ile TOPRAK TANIMASI AYRI: MC'ye 1921'de girdi ama sınırları (Vilnius/Klaipeda anlaşmazlığı yüzünden) Büyükelçiler Konferansı'nca ancak 20 Aralık 1922'de de jure tanındı"
+  },
+  {
+   "id": "macaristan-naiplik",
+   "ad": "Macaristan",
+   "uyelik_tarihi": "1922-09-18",
+   "tur": "sonradan",
+   "not": ""
+  },
+  {
+   "id": "irlanda-serbest-devlet",
+   "ad": "İrlanda Serbest Devleti",
+   "uyelik_tarihi": "1923-09-10",
+   "tur": "sonradan",
+   "not": "Anglo-İrlanda Antlaşması 6 Aralık 1921, iki parlamento onayı Aralık 1922 -- MC üyeliği bunun ÜSTÜNE geldi"
+  },
+  {
+   "id": "habesistan",
+   "ad": "Habeşistan (Etiyopya)",
+   "uyelik_tarihi": "1923-09-28",
+   "tur": "sonradan",
+   "not": "1923-10-29 ufkuna yalnız 31 gün kala -- pencereye çok yakın, ayrıca doğrulanmalı"
+  },
+  {
+   "id": "guney-afrika-birligi",
+   "ad": "Güney Afrika Birliği",
+   "uyelik_tarihi": "1920-01-10",
+   "tur": "kurucu",
+   "not": "TASLAK kunye (D-KUNYE bugun ekledi) -- MC kurucu uyesi \"South Africa\" olarak, devletler.js'e henuz islenmedi"
+  }
+ ],
+ "mc_uyesi_olmayan_onemli_devletler": [
+  {
+   "id": "sovyet-rusya",
+   "ad": "Sovyet Rusya/SSCB",
+   "aciklama": "MC üyesi DEĞİL (ancak 1934'te girdi). 🔴 KRİTİK: 1923-10-29'da hiçbir büyük Batı devletince (İngiltere, Fransa, İtalya) DE JURE TANINMADI -- İngiltere 1 Şubat 1924, İtalya 7 Şubat 1924, Fransa 28 Ekim 1924 tanıdı (hepsi ufkun 3-12 ay ÖTESİNDE). Yalnız Almanya (Rapallo Antlaşması, 16 Nisan 1922) tam diplomatik tanıma verdi. Komşularıyla (Polonya-Riga 1921, Türkiye-Kars 1921, İran 1921, Afganistan 1921) İKİLİ antlaşmalar var -- bunlar 'E' sınıfı kanıt olabilir ama 'F' İÇİN YETERSİZ."
+  },
+  {
+   "id": "tbmm-turkiye",
+   "ad": "Türkiye",
+   "aciklama": "MC üyesi DEĞİL (ancak 1932'de girdi). Lozan Antlaşması 24 Temmuz 1923'te İMZALANDI (İngiltere·Fransa·İtalya·Japonya·Yunanistan·Romanya·SHS Krallığı ile) ama 1923-10-29'da HENÜZ YÜRÜRLÜĞE GİRMEDİ -- onay süreci tamamlanıp yürürlük 6 Ağustos 1924. D1-TURKIYE'nin E/F kararı için: imza VAR, yürürlük YOK."
+  },
+  {
+   "id": "almanya",
+   "ad": "Almanya",
+   "aciklama": "MC üyesi DEĞİL (ancak 1926'da girdi, aynı yıl Locarno sonrası çıkarıldı da). Versay sonrası izole."
+  },
+  {
+   "id": "abd",
+   "ad": "Amerika Birleşik Devletleri",
+   "aciklama": "MC üyesi HİÇBİR ZAMAN olmadı -- Senato Versay Antlaşması'nı ve Cemiyet Sözleşmesi'ni onaylamadı (1919-1920)."
+  },
+  {
+   "id": "afganistan",
+   "ad": "Afganistan",
+   "aciklama": "MC üyesi DEĞİL (1934'e kadar)."
+  },
+  {
+   "id": "mogolistan",
+   "ad": "Moğolistan",
+   "aciklama": "MC üyesi DEĞİL, uluslararası olarak TANINMADI -- Çin nominal egemenlik iddiasını sürdürüyordu, yalnız SSCB fiilen destekliyordu."
+  },
+  {
+   "id": "tannu-tuva",
+   "ad": "Tannu Tuva",
+   "aciklama": "MC üyesi DEĞİL, uluslararası TANINMADI -- yalnız SSCB ve Moğolistan'ca tanınan bir 'halk cumhuriyeti'."
+  },
+  {
+   "id": "misir-kralligi",
+   "ad": "Mısır Krallığı",
+   "aciklama": "MC üyesi DEĞİL (1937'ye kadar). İngiltere'nin TEK TARAFLI 28 Şubat 1922 bağımsızlık ilanı geniş çok taraflı tanımayla desteklenmedi (İngiltere savunma/Süveyş/Sudan/azınlık haklarını elinde tuttu -- 'dört çekince')."
+  },
+  {
+   "id": "hicaz-kralligi",
+   "ad": "Hicaz Krallığı",
+   "aciklama": "MC üyesi DEĞİL. İngiltere ve müttefiklerince tanındı (1916 Arap İsyanı bağlamı) ama Cemiyet üyeliği/çok taraflı tescil yok."
+  },
+  {
+   "id": "suud-ucuncu",
+   "ad": "III. Suûdî Devleti (Necid-Hicaz)",
+   "aciklama": "MC üyesi DEĞİL."
+  },
+  {
+   "id": "irak-kralligi",
+   "ad": "Irak Krallığı",
+   "aciklama": "Egemen devlet DEĞİL -- İngiliz mandası, MC üyeliği ancak bağımsızlıkla (1932) geldi."
+  },
+  {
+   "id": "meksika",
+   "ad": "Meksika",
+   "aciklama": "MC üyesi DEĞİL (1931'e kadar) -- ABD ile ilişkiler ve iç karışıklık yüzünden davet gecikti."
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "ad": "Buhara Halk Sovyet Cumhuriyeti",
+   "aciklama": "MC üyesi DEĞİL, yalnız SSCB'ce tanındı."
+  },
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "ad": "Harezm Halk Sovyet Cumhuriyeti",
+   "aciklama": "MC üyesi DEĞİL, yalnız SSCB'ce tanındı."
+  },
+  {
+   "id": "yemen-zeydi",
+   "ad": "Yemen Zeydî İmamlığı",
+   "aciklama": "MC üyesi DEĞİL, geniş uluslararası tanıma yok (İtalya ile 1926 antlaşmasına kadar)."
+  }
+ ]
+}

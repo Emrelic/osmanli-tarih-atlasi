@@ -163,12 +163,55 @@ bağımsız bir künye değil, D5-ASYA'nın kendi sınır kaydında ele alması 
   kapsamımın (1923 kesiti) dışında ama HARITA-VERI/UYGULA'ya bildiriyorum, ayrı bir "sessiz
   boşluk" (CLAUDE.md §3.5) olabilir.
 
-## 7. İstek
+## 7. İkinci görev — Tanınma Tablosu (`GERIYE-SARMA-0916.md`)
 
-Taslak `denetim/TASLAK-KUNYE-D-0916.json`'da hazır. UYGULA'dan istediğim:
-1. 75 taslağı akademik kaynakla doğrulayıp `data/devletler.js`'e işlemek (ya da bölge
+1.MURAT'ın 20:58'deki `HERKES` yayınıyla (M-4098, A-F altı kademe kararı) D-KUNYE'ye yeni bir
+görev düştü: **`denetim/TANINMA-1923-0916.json`** — 1914-1923 arası Milletler Cemiyeti üyeliği
+ve büyük devlet tanıma tarihleri, F sınıfı kararının kanıt tabanı olarak.
+
+**Yöntem:** Wikipedia'nın "Member states of the League of Nations" maddesini WebFetch ile
+okudum (29 Ekim 1923'e kadarki üyelik tarihleri), USSR/Türkiye/Mısır'ın büyük devlet tanıma
+durumunu ayrıca WebSearch ile doğruladım.
+
+**Sayılar:** 54 MC üyesi (tarihli) + 15 önemli MC-dışı devlet (neden üye olmadığı/ tanınmadığı
+açıklamalı).
+
+### 🔴 En önemli bulgu — SSCB'nin hiçbir büyük Batı gücünce tanınmadığı
+
+1923-10-29'da **İngiltere, Fransa, İtalya'nın hiçbiri SSCB'yi de jure tanımamıştı** —
+İngiltere 1924-02-01, İtalya 1924-02-07, Fransa 1924-10-28 tanıdı (üçü de ufkun AYLAR
+ötesinde). Yalnız Almanya (Rapallo Antlaşması, 1922-04-16) tam tanıma vermişti. Bu, SSCB'nin
+Polonya/Türkiye/İran/Baltık devletleriyle sınırlarının 1923-10-29'da **en fazla "E" olabileceği,
+"F" OLAMAYACAĞI** anlamına geliyor — D2-KOMSU ve D3-AVRUPA-ORTA bunu bilerek F/E kararı vermeli.
+
+### 🔴 Türkiye — imza var, yürürlük yok
+
+Lozan Antlaşması **24 Temmuz 1923'te imzalandı** ama **1923-10-29'da henüz yürürlükte değildi**
+(yürürlük: 1924-08-06). D1-TURKIYE'nin E/F kararında bu ayrımı (imza ≠ yürürlük) dikkate alması
+gerekiyor — ben karar vermedim, yalnız kanıtı verdim.
+
+### Diğer bulgular
+
+- Habeşistan (Etiyopya) MC'ye **1923-09-28**'de girdi — ufka yalnız 31 gün kala.
+- İrlanda Serbest Devleti MC'ye **1923-09-10**'da girdi — ufka 49 gün kala.
+- Baltık devletlerinde MC üyeliği (1921-09-22) ile toprak tanıması AYRI olaylar: Estonya/Letonya
+  İtilaf Devletleri'nce MC'den önce (1921-01-26) tanındı; Litvanya'nın sınırları (Vilnius
+  anlaşmazlığı) ancak 1922-12-20'de tanındı.
+- İngiliz İmparatorluğu'nun beş parçası (İngiltere, Kanada, Avustralya, Yeni Zelanda, Güney
+  Afrika, Britanya Hindistanı) MC'de AYRI ayrı üye — egemenlik eşitliği değil, dönemin
+  İmparatorluk-içi düzenlemesi.
+- MC üyesi olarak listelenen ama `devletler.js`'te künyesi henüz olmayan 5 devlet (Honduras,
+  El Salvador, Nikaragua, Kosta Rika, Güney Afrika Birliği) zaten bu raporun **75-84 taslak
+  künye** listesinde.
+
+## 8. İstek
+
+Taslak `denetim/TASLAK-KUNYE-D-0916.json`'da (84 künye) ve tanınma tablosu
+`denetim/TANINMA-1923-0916.json`'da (54 MC üyesi + 15 MC-dışı) hazır. UYGULA'dan istediğim:
+1. Taslağı akademik kaynakla doğrulayıp `data/devletler.js`'e işlemek (ya da bölge
    oturumlarına devretmek).
 2. 3 renk-eksik künyeye (`oniki-ada-italyan · cezayir-fransiz · avusturya-cumhuriyet`) HEX atamak.
 3. Tür sözlüğüne yeni değerleri eklemek ya da eklenmeyecekse bana alternatif söylemek.
+4. `fas`/`kanada`-`ingiliz-kuzey-amerika` gibi mevcut künye tutarlılık sorunlarına karar vermek.
 
-Teslim mesajını tahtaya (`M-????`) ayrıca yazıyorum.
+Teslim mesajlarını tahtaya ayrıca yazıyorum.
