@@ -14,8 +14,10 @@
    "ingiltere": true,
    "italya": true,
    "kuveyt": true,
+   "misir-kavalali": false,
    "misir-kralligi": true,
    "misir-sultanligi": false,
+   "osmanli": false,
    "suud-ucuncu": true,
    "tunus-beyligi-fransiz": true,
    "urdun-emirligi": true
@@ -76,9 +78,17 @@
    }
   },
   {
-   "id": "d1918-filistin-misir-askeri-idare",
+   "id": "d1917-filistin-misir-askeri-idare",
    "kategori": "D",
    "sol_taraf": "misir-sultanligi",
+   "uzunluk_km": 206.1,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1914-filistin-misir-hidivlik",
+   "kategori": "E",
+   "sol_taraf": "misir-kavalali",
    "uzunluk_km": 206.1,
    "kesinlik_km": 1.5,
    "kiyas_atlas": null

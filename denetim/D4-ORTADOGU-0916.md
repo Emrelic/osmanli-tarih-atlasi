@@ -293,3 +293,32 @@ geometri yok) · 1919 Milner–Scialoja (Mısır kabul etmedi) · Muhammara 1922
 ```
 Her maddede `taraflar` (iki kimlik) · `sinir_id` (hat kayıtlarına bağ) · `sinif`. Ukayr'ın konumu GeoNames'te bulunamadı → `yer_kon` YOK.
 **index.html satırı koordinatörde:** `data/kronoloji_sinir_ortadogu.js`.
+
+---
+
+## 13. G2 — 1918-11-11 → 1914-07-28
+
+### Hatlar
+| parça | G2'de ne oldu | kayıt |
+|---|---|---|
+| Filistin–Mısır (1906) | 1914-07-28 → 1914-12-18: Osmanlı ile Hidivlik arasında 1906'da kararlaştırılıp birlikte işaretlenmiş hat (1909/1911 ortak tamir) | **YENİ `d1914-filistin-misir-hidivlik` — E** · `cins:idari_ic_hat` (Mısır hukuken imtiyazlı eyalet) · f = dalga sınırı |
+| 〃 | 1914-12-18 İngiliz himayesi (TDV `misir`) → hat iki tarafın ortak kabulüne dayanmıyor; Sina cephesi, iki kanal harekâtı | **kayıt YOK 1914-12-18 → 1917-10-31** — cephe, kesin hat yok (A/B, kasıtlı) |
+| 〃 | 1917-10-31 Birüssebi (TDV `filistin`, gün var); Gazze 1917 (TDV `gazze`, gün yok); Akabe Temmuz 1917'den Hicaz'da (RIAA §66) | **G1 kaydı geriye uzadı:** `d1918-…` → **`d1917-filistin-misir-askeri-idare`**, f 1918-11-11 (dalga sınırı) → **1917-10-31** (olay; ±1 hafta) — D |
+| Necid–Küveyt | 1913 sözleşmesi onaysız; 26.12.1915 Darin Antlaşması hat vermiyor (doğrulanmadı) | yok |
+| Libya–Tunus · Libya–Cezayir Gadames | hukukî hat (E) değişmedi, `f:1912-10-18` G2'yi kapsıyor. Fiilen İtalyan denetimi 1914-15'te iç bölgede çöktü (Senusî direnişi — **doğrulanmadı**); hat aynı, fiilî taraf ÖLÇÜLMEDİ | yeni kayıt yok |
+| Aden Himayesi–Osmanlı Yemen | 1902-05 İngiliz-Osmanlı komisyonu sütunlu hattı (Hansard 1905) — iki tarafça kabul ⇒ E adayı; 1915-18 Lahc kuşatması | **yazılmadı: geometri yok** (bugün iç hat, NE'de yok; 1905 sütun listesi okunmadı) |
+| Hicaz · Asîr · Mısır–Libya · Kuveyt–Basra · Katar | savaş cepheleri / onaysız 1913-1914 hatları | yok |
+
+🔴 **Kimlik yeniden adlandırıldı:** `d1918-filistin-misir-askeri-idare` → `d1917-filistin-misir-askeri-idare` (G1 teslimi M-4105'te eski ad geçiyor).
+⚠️ **`osmanli` `devletler.js`te künye DEĞİL** — çekirdek katman kimliği; D1/D2 kayıtları da aynı kimliği kullanıyor (`taraflar:["osmanli",…]`). Doğrulayıcım "KÜNYE YOK" basıyor, kasıtlı.
+
+### Kronoloji (G2 maddeleri)
+```
+1914-12-18  İngiltere Mısır'da Osmanlı hükümranlığını kaldırdı — 1906 hattının E dayanağı düştü   E→YOK   TDV misir
+1917-10-31  Birüssebi'nin düşüşü — hattın iki yakası İngiliz elinde, hat D olarak yeniden          D       TDV filistin · TDV gazze
+```
+
+### Toplam (G1 + G2 sonrası)
+```
+hat 11  = E 6 · D 3 · C 1 · YOK 1        kronoloji 5 (1914-12-18 · 1917-10-31 · 1920-07-01 · 1922-03-15 · 1922-12-02)
+```

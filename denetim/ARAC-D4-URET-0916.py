@@ -211,14 +211,29 @@ ekle("d1923-filistin-misir", [MIS, FIL], "1922-03-15", "1923-10-29", "D", em,
 DAY_FIL_G1 = [KAYIT[-1]["dayanak"][0],
               {"ad": "TDV filistin", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/filistin",
                "alinti": "1917'den itibaren Filistin'de askerî bir idare kuruldu"}]
-ekle("d1918-filistin-misir-askeri-idare", ["misir-sultanligi", "ingiltere"], "1918-11-11", "1920-07-01", "D", em,
-     "misir-sultanligi" if G["EGY"].contains(sol_nokta(em)) else "ingiltere", DAY_FIL_G1,
+ekle("d1917-filistin-misir-askeri-idare", ["misir-sultanligi", "ingiltere"], "1917-10-31", "1920-07-01", "D", em,
+     "misir-sultanligi" if G["EGY"].contains(sol_nokta(em)) else "ingiltere",
+     DAY_FIL_G1 + [{"ad": "TDV filistin", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/filistin",
+                    "alinti": "31 Ekim 1917'de Mareşal Allenby kumandasındaki İngiliz ordusu … Bi'rüssebi' yöresini ele geçirdi"},
+                   {"ad": "TDV gazze", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/gazze",
+                    "alinti": "1917'de General Allenby Gazze'yi aldı"}],
      {"deger": False, "kaynak": "RIAA XX + IBS 46", "not": "hat 1906'dan bugüne aynı"},
      {"t": "1906-12-31/1907-02-09", "not": "91 sütun"},
      1.5, KES_NE, NE + " — EGY ile İsrail+Gazze birleşik",
      "Filistin yakası İngiliz askerî idaresi (OETA; ayrı künye YOK → `ingiltere`). Hukuken hâlâ Osmanlı toprağı (Lozan 1924'te yürürlüğe girdi) ⇒ D. "
-     "f = G1 DALGA SINIRI (1918-11-11), hattın bu taraflarla fiilî başlangıcı değil — Allenby 31.10.1917'de Birüssebi'yi aldı (TDV filistin); öncesi G2'de.",
-     f_dalga_siniri=True)
+     "🔴 f günü: Birüssebi'nin alınışı (TDV, gün var) — hattın doğu yakasındaki Osmanlı savunmasının çöktüğü gün; Gazze'nin günü TDV'de YOK ('1917'), "
+     "Akabe Temmuz 1917'den beri Hicaz elinde (RIAA §66). Başlangıç ±1 hafta. Öncesi (1914-12-18 → 1917-10-31) CEPHE: kesin hat yok → kayıt yok (A/B).")
+ekle("d1914-filistin-misir-hidivlik", ["misir-kavalali", "osmanli"], "1914-07-28", "1914-12-18", "E", em,
+     "misir-kavalali" if G["EGY"].contains(sol_nokta(em)) else "osmanli",
+     DAY_FIL_G1[:1] + [{"ad": "TDV misir", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/misir",
+                        "alinti": "18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp"}],
+     {"deger": False, "kaynak": "RIAA XX + IBS 46", "not": "hat 1906'dan bugüne aynı"},
+     {"t": "1906-12-31/1907-02-09", "not": "91 sütun; 1909 ve 1911 ortak Osmanlı–Mısır tamiri (RIAA §59)"},
+     1.5, KES_NE, NE + " — EGY ile İsrail+Gazze birleşik",
+     "Osmanlı hükümeti ile Hidiv hükümeti arasında 1906'da kararlaştırılıp birlikte işaretlenmiş hat ⇒ E. Ama Mısır hukuken Osmanlı'nın İMTİYAZLI EYALETİ "
+     "(ve 1882'den beri İngiliz işgalinde) ⇒ hat bir 'idarî ayırma hattı'dır (anlaşmanın kendi adı), iki bağımsız devlet arasında değil. "
+     "f = G2 DALGA SINIRI (1914-07-28); hattın başlangıcı 1906 (G3'te). t = İngiliz himayesinin ilânı (TDV).",
+     cins="idari_ic_hat", f_dalga_siniri=True)
 ekle("d1920-filistin-misir-manda", ["misir-sultanligi", FIL], "1920-07-01", "1922-03-15", "D", em,
      "misir-sultanligi" if G["EGY"].contains(sol_nokta(em)) else FIL,
      DAY_FIL_G1[:1] + [{"ad": "TDV filistin", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/filistin",
@@ -234,8 +249,9 @@ ekle("d1920-filistin-misir-manda", ["misir-sultanligi", FIL], "1920-07-01", "192
 # ─────────────────────────── A–F SINIF (GORUNUM-ABCD-0916 en üst bölüm) ───────────────────────────
 # eşleme: D→E (F kanıtı gelene kadar; denetim/TANINMA-1923-0916.json YOK) · fiili→D · C→C · D-YOK→YOK
 # istisna: Filistin–Mısır ailesi D (koordinat kesin, hukukî teyit 1926)
-SINIF_OZEL = {"d1923-filistin-misir": "D", "d1918-filistin-misir-askeri-idare": "D", "d1920-filistin-misir-manda": "D"}
-ESLEME = {"D": "E", "fiili": "D", "C": "C", "D-YOK": "YOK"}
+SINIF_OZEL = {"d1923-filistin-misir": "D", "d1917-filistin-misir-askeri-idare": "D", "d1920-filistin-misir-manda": "D",
+              "d1914-filistin-misir-hidivlik": "E"}
+ESLEME = {"D": "E", "fiili": "D", "C": "C", "D-YOK": "YOK", "E": "E"}
 
 # ─────────────────────────── L2 · FİLİSTİN–ŞARKÎ ÜRDÜN (1922) ───────────────────────────
 URD = "urdun-emirligi"
@@ -317,7 +333,26 @@ KRON = [
           "hat fiilen kesin ama Mısır ile manda devleti arasında henüz hukuken teyit edilmiş değildi. "
           "Kaynak yalnız ayı veriyor; ayın 1'i manda künyesinden alınmıştır.",
      "kaynak": "TDV filistin ('Temmuz 1920 tarihinden itibaren … sivil manda yönetimi') · Taba hakem kararı RIAA XX §54-59",
-     "sinir_id": ["d1918-filistin-misir-askeri-idare", "d1920-filistin-misir-manda"], "sinif": "D"},
+     "sinir_id": ["d1917-filistin-misir-askeri-idare", "d1920-filistin-misir-manda"], "sinif": "D"},
+    # ── G2 (1914-07-28 → 1918-11-11) ──
+    {"t": "1914-12-18", "devlet": "misir-sultanligi", "taraflar": ["misir-sultanligi", "osmanli"],
+     "b": "İngiltere Mısır'da Osmanlı hükümranlığını kaldırdı — Refah (1906) hattının Osmanlı–Mısır hukukî dayanağı düştü",
+     "tur": "siyaset", "onem": 4, "dunya": 3, "kapsam": "dis", "yer_id": "",
+     "etiket": ["siyaset", "sinir", "misir-sultanligi", "osmanli", "misir-kavalali", "konu-siyasi"],
+     "d": "Osmanlı Devleti'nin savaşa girmesinin ardından İngiltere, 18 Aralık 1914'te Mısır üzerindeki Osmanlı hükümranlık haklarını tek taraflı olarak kaldırıp "
+          "ülkeyi himayesine aldı. Osmanlı ile Hidiv hükümetinin 1906'da birlikte çizip işaretlediği Refah–Taba hattı artık iki tarafın ortak kabulüne dayanmıyordu; "
+          "sonraki üç yıl bu hat bir cephe hattına dönüştü ve Osmanlı kuvvetleri Sina'ya ilerleyip iki kez Süveyş Kanalı'nı geçmeye çalıştı.",
+     "kaynak": "TDV misir ('18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp' · Cemal Paşa'nın iki kanal harekâtı) · RIAA XX §54-59",
+     "sinir_id": ["d1914-filistin-misir-hidivlik"], "sinif": "E→YOK"},
+    {"t": "1917-10-31", "devlet": "ingiltere", "taraflar": ["ingiltere", "misir-sultanligi"],
+     "b": "Birüssebi'nin düşüşü — Refah hattının iki yakası İngiliz elinde, hat fiilî sınır olarak yeniden",
+     "tur": "savas", "onem": 3, "dunya": 3, "kapsam": "dis", "yer_id": "",
+     "etiket": ["savas", "sinir", "ingiltere", "misir-sultanligi", "osmanli", "konu-siyasi", "konu-askeri"],
+     "d": "Allenby kumandasındaki İngiliz ordusu 31 Ekim 1917'de Birüssebi yöresini ele geçirdi; Gazze de aynı yıl düştü ve Filistin'de İngiliz askerî idaresi kuruldu. "
+          "Böylece 1906 Refah–Taba hattının iki yakası da İngiliz denetimine girdi ve hat, hukuken Osmanlı toprağı sayılan Filistin ile İngiliz himayesindeki Mısır "
+          "arasında fiilî bir sınır olarak yeniden işledi. Gazze'nin alınış günü kaynakta yoktur.",
+     "kaynak": "TDV filistin ('31 Ekim 1917'de … Bi'rüssebi' yöresini ele geçirdi' · '1917'den itibaren … askerî bir idare') · TDV gazze ('1917'de General Allenby Gazze'yi aldı')",
+     "sinir_id": ["d1917-filistin-misir-askeri-idare"], "sinif": "D"},
     {"t": "1922-03-15", "devlet": "misir-kralligi", "taraflar": ["misir-kralligi", FIL],
      "b": "Mısır Krallığı ilân edildi — Refah–Taba hattının Mısır yakası krallığa geçiyor",
      "tur": "siyaset", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "",
@@ -393,7 +428,7 @@ bas = ["// -*- coding: utf-8 -*-",
        "// Üretici: denetim/ARAC-D4-URET-0916.py — 🔴 ELLE DÜZENLEME, yeniden üret.",
        "// 🔴 BAĞLAYICI ALAN `sinif` (A–F kademesi, oturumlar/GORUNUM-ABCD-0916.md en üst): F | E | D (fiilî kesin) | C | YOK",
        "//    `kategori` ESKİ anlamıyla tarihî duruyor (kategori_tarihi:true) — ona geri düşülmez.",
-       "// f_dalga_siniri:true → f bir olay değil, geriye sarma dalgasının (G1: 1918-11-11) sınırı",
+       "// f_dalga_siniri:true → f bir olay değil, geriye sarma dalgasının sınırı (G2: 1914-07-28)",
        "// Şemaya EK alanlar: cins ('ortak_alan_siniri' | 'idari_ic_hat') · ortak_alan (kimlik) · sag_taraf",
        "//   ortak_alan_siniri: yakalardan biri Necid–Küveyt Tarafsız Bölgesi (iki tarafın eşit hakkı, 1922-1969)",
        "//   idari_ic_hat: aynı egemen altındaki hat (Filistin–Şarkî Ürdün) — uluslararası D ile karıştırılmamalı",
@@ -405,7 +440,7 @@ kb = ["// -*- coding: utf-8 -*-",
       "// window.KRONOLOJI_SINIR_ORTADOGU — oturumlar/GERIYE-SARMA-0916.md ADIM 3. Biçim data/kronoloji_almanya.js ile aynı;",
       "// EK: taraflar (iki devlet kimliği) · sinir_id (data/d_sinirlar_ortadogu.js kayıtları) · sinif.",
       "// Üretici: denetim/ARAC-D4-URET-0916.py — 🔴 ELLE DÜZENLEME. index.html satırını koordinatör ekler.",
-      "// Kapsam: G1 dalgası (1918-11-11 → 1923-10-29) içindeki E/F/D değişiklikleri.",
+      "// Kapsam: G1 (1918-11-11 → 1923-10-29) ve G2 (1914-07-28 → 1918-11-11) dalgalarındaki E/F/D değişiklikleri.",
       "", "window.KRONOLOJI_SINIR_ORTADOGU = ["]
 io.open("data/kronoloji_sinir_ortadogu.js", "w", encoding="utf-8").write(
     "\n".join(kb + [json.dumps(k, ensure_ascii=False, separators=(",", ":")) + "," for k in sorted(KRON, key=lambda k: k["t"])] + ["];", ""]))
