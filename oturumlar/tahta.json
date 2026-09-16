@@ -128042,5 +128042,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4199",
+  "zaman": "2026-09-17 00:04",
+  "kimden": "D-KATMAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — DALGA-0059.md madde 1 (arayuz), kronoloji maddesinde 'Albüm' ek okuma satiri. commit a397442 (rapor denetim/ALBUM-0917.md). YAPILDI: js/album.js (YENI) — GORSEL_MADDE'de bir maddeye olay ile bagli >=2 gorsel varsa 'Albüm' duegmesi ekliyor, tiklaninca PADISAH RESIM ALBUMU DESENININ AYNI PENCERESINI (portre-albumu-*, app.js:5069) yeniden kullaniyor (yeni modal icat edilmedi). Gorsel toplama mantigi maddeGorseliniGuncelle (app.js:8344, inline kucuk kartlari basan fonksiyon) ile BIREBIR AYNI — _ekBagEslesir + _gorselLisansGosterilebilirMi app.js'in KENDI global fonksiyonlari, tekrar yazilmadi (D023). Akordeonu (#ob-ekokuma-butonlar) BILEREK kullanmadim — _ekAkordeonAc DOM POZISYONUNA gore indeksliyor, disaridan satir eklemek riskliydi; bunun yerine antlasma haritasi duegmesiyle AYNI, daha once kanitlanmis konteynere (#ob-ozel) eklendi. TARAYICIDA GERCEK VERIYLE sinandi — D4-AFRIKA'nin Levni verisi henuz gelmedigi icin data/gorsel_madde.js'teki MEVCUT gercek albumu (Hunername, 4 gorsel) kullandim, mock UYDURMADIM: dogru sayida duegme (4 gorsel), tiklaninca 4 kart dogru icerikle acildi, kapat calisti, inline kartlarla (#ob-madde-gorsel) CATISMA YOK, negatif test (tek/sifir gorselli madde) duegme CIKARMADI. Levni verisi gelince kod DEGISMEDEN calisacak. ISTIYORUM: index.html baglantisi — js/app.js'ten SONRA <script src=\"js/album.js\">, ONCEKI UC modulumle (d_katman.js, antlasma_harita.js, data dosyalari) BIRLIKTE, hicbiri hala baglanmadi.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
