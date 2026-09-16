@@ -1,0 +1,4580 @@
+{
+  "not": "İNCELEME dosyası — data/antlasma_haritalari.js DEĞİL. Şema mutabakatı D-KATMAN ile tahtadan bekleniyor (DALGA-0055.md §B). Kaynak: data/savaslar.js window.ANTLASMALAR (41 kayıt) + data/yerlesimler*.js sahiplik dönemleri. Pencere ±60 gün. Eşleşme şartı: bir uç taraf[0] (ev sahibi: osmanlı/tbmm-türkiye), öteki uç antlaşmanın taraf listesinde. Kaynaksız/eşleşmeyen antlaşma 'bulunamadi:true' ile boş bırakıldı, UYDURULMADI.",
+  "pencere_gun": 60,
+  "antlasma_sayisi": 41,
+  "bulunamadi_sayisi": 21,
+  "toplam_eslesen_yerlesim": 217,
+  "antlasmalar": [
+    {
+      "id": "Edirne-Segedin",
+      "tarih": "1444-06-12",
+      "taraf": [
+        "osmanli",
+        "macaristan",
+        "sirp-despotlugu"
+      ],
+      "taraf_metin": "Macaristan-Sırbistan",
+      "topraklar_metni": "Sırp Despotluğu'nun (Semendire dahil) toprakları Osmanlı'dan Sırp Despotu Đurađ Branković'e iade edildi.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 6,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Niş",
+          "tur": "sehir",
+          "lat": 43.321,
+          "lon": 21.896,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirp-despotlugu",
+          "tarih": "1444-08-01",
+          "gun_farki": 50,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Semendire",
+          "tur": "kale",
+          "lat": 44.663,
+          "lon": 20.93,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirp-despotlugu",
+          "tarih": "1444-08-01",
+          "gun_farki": 50,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kragujevac",
+          "tur": "sehir",
+          "lat": 44.013,
+          "lon": 20.911,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirp-despotlugu",
+          "tarih": "1444-08-01",
+          "gun_farki": 50,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Çaçak",
+          "tur": "kale",
+          "lat": 43.891,
+          "lon": 20.35,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirp-despotlugu",
+          "tarih": "1444-08-01",
+          "gun_farki": 50,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Yagodina (Jagodina)",
+          "tur": "kasaba",
+          "lat": 43.9772,
+          "lon": 21.2617,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirp-despotlugu",
+          "tarih": "1444-08-01",
+          "gun_farki": 50,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Alacahisar (Kruševac)",
+          "tur": "sehir",
+          "lat": 43.58,
+          "lon": 21.327,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirp-despotlugu",
+          "tarih": "1444-08-01",
+          "gun_farki": 50,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "id": "İstanbul (Venedik)",
+      "tarih": "1479-01-25",
+      "taraf": [
+        "osmanli",
+        "venedik"
+      ],
+      "taraf_metin": "Venedik",
+      "topraklar_metni": "İşkodra ve Arnavutluk kıyısı Venedik'ten Osmanlı'ya geçti; Venedik Ege'deki bazı adalarını korudu, yıllık haraç ödemeyi kabul etti.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 1,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "İşkodra",
+          "tur": "kale",
+          "lat": 42.069,
+          "lon": 19.513,
+          "onceki_sahip": "venedik",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1479-01-25",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": true
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Limni",
+          "tur": "kale",
+          "lat": 39.876,
+          "lon": 25.156,
+          "onceki_sahip": "bizans",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1479-01-25",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bizans"
+        },
+        {
+          "yerlesim": "Sisam",
+          "tur": "kale",
+          "lat": 37.755,
+          "lon": 26.977,
+          "onceki_sahip": "ceneviz",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1479-01-25",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "ceneviz"
+        },
+        {
+          "yerlesim": "Bozbaba (Ay Strati)",
+          "tur": "kale",
+          "lat": 39.521,
+          "lon": 25.006,
+          "onceki_sahip": "bizans",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1479-01-25",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bizans"
+        }
+      ]
+    },
+    {
+      "id": "Amasya",
+      "tarih": "1555-05-29",
+      "taraf": [
+        "osmanli",
+        "safevi"
+      ],
+      "taraf_metin": "Safevî",
+      "topraklar_metni": "Irak-ı Arab (Bağdat dahil) ve Doğu Anadolu Osmanlı'da kaldı; Revan ve Karabağ Safevî'de kaldı — ilk resmî Osmanlı-Safevî sınırı çizildi.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Ferhad Paşa (İstanbul)",
+      "tarih": "1590-03-21",
+      "taraf": [
+        "osmanli",
+        "safevi"
+      ],
+      "taraf_metin": "Safevî",
+      "topraklar_metni": "Tebriz, Karabağ, Şirvan, Gürcistan ve Luristan'ın bir kısmı Safevî'den Osmanlı'ya geçti — Osmanlı'nın doğuda ulaştığı en geniş sınır.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Zitvatorok",
+      "tarih": "1606-11-11",
+      "taraf": [
+        "osmanli",
+        "habsburg"
+      ],
+      "taraf_metin": "Habsburg",
+      "topraklar_metni": "Toprak el değiştirmedi (savaş öncesi sınıra dönüş); Habsburg'un yıllık haracı tek seferlik ödemeye çevrildi.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Nasuh Paşa",
+      "tarih": "1612-11-20",
+      "taraf": [
+        "osmanli",
+        "safevi"
+      ],
+      "taraf_metin": "Safevî",
+      "topraklar_metni": "Tebriz, Karabağ, Şirvan ve Gürcistan Osmanlı'dan Safevî'ye geri döndü — sınır 1555 Amasya hattına çekildi.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Kasr-ı Şirin",
+      "tarih": "1639-05-17",
+      "taraf": [
+        "osmanli",
+        "safevi"
+      ],
+      "taraf_metin": "Safevî",
+      "topraklar_metni": "Bağdat ve Irak-ı Arab kesin olarak Osmanlı'da kaldı; Revan ve Karabağ Safevî'de kaldı — bugünkü Türkiye-İran-Irak sınırının temeli atıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 1,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Kotur",
+          "tur": "kale",
+          "lat": 38.475,
+          "lon": 44.3958,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "safevi",
+          "tarih": "1639-05-17",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "id": "Bucaş",
+      "tarih": "1672-10-18",
+      "taraf": [
+        "osmanli",
+        "lehistan"
+      ],
+      "taraf_metin": "Lehistan",
+      "topraklar_metni": "Podolya (Kamaniçe dahil) Lehistan'dan Osmanlı'ya geçti, Podolya Eyaleti kuruldu; Ukrayna'daki Kazak toprakları üzerinde Osmanlı himayesi tanındı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 4,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Kamaniçe",
+          "tur": "kale",
+          "lat": 48.674,
+          "lon": 26.574,
+          "onceki_sahip": "lehistan",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1672-08-27",
+          "gun_farki": -52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Bar (Podolya)",
+          "tur": "kale",
+          "lat": 49.074,
+          "lon": 27.674,
+          "onceki_sahip": "lehistan",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1672-08-27",
+          "gun_farki": -52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Meciboj (Mejibuji)",
+          "tur": "kale",
+          "lat": 49.431,
+          "lon": 27.415,
+          "onceki_sahip": "lehistan",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1672-08-27",
+          "gun_farki": -52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Yazlofça (Yazlovets)",
+          "tur": "kale",
+          "lat": 48.951,
+          "lon": 25.435,
+          "onceki_sahip": "lehistan",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1672-08-27",
+          "gun_farki": -52,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "id": "Karlofça",
+      "tarih": "1699-01-26",
+      "taraf": [
+        "osmanli",
+        "habsburg",
+        "lehistan",
+        "venedik",
+        "rusya"
+      ],
+      "taraf_metin": "Kutsal İttifak",
+      "topraklar_metni": "Macaristan ve Erdel Osmanlı'dan Habsburg'a; Podolya Osmanlı'dan Lehistan'a; Mora ve Dalmaçya kıyıları Osmanlı'dan Venedik'e geçti. Azak konusu ayrı olarak Rusya ile 1700 İstanbul Antlaşması'na bırakıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 8,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Kamaniçe",
+          "tur": "kale",
+          "lat": 48.674,
+          "lon": 26.574,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "lehistan",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Çehrin (Çigirin)",
+          "tur": "kale",
+          "lat": 49.077,
+          "lon": 32.663,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "lehistan",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Bar (Podolya)",
+          "tur": "kale",
+          "lat": 49.074,
+          "lon": 27.674,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "lehistan",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Meciboj (Mejibuji)",
+          "tur": "kale",
+          "lat": 49.431,
+          "lon": 27.415,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "lehistan",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Yazlofça (Yazlovets)",
+          "tur": "kale",
+          "lat": 48.951,
+          "lon": 25.435,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "lehistan",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Vrana (Urana)",
+          "tur": "kale",
+          "lat": 43.956,
+          "lon": 15.562,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "venedik",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Nadin",
+          "tur": "kale",
+          "lat": 44.074,
+          "lon": 15.498,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "venedik",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Uman",
+          "tur": "sehir",
+          "lat": 48.7484,
+          "lon": 30.2219,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "lehistan",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Gyula (Göle)",
+          "tur": "kale",
+          "lat": 46.65,
+          "lon": 21.277,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "avusturya",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Kostayniçe (Kostajnica)",
+          "tur": "kale",
+          "lat": 45.183,
+          "lon": 16.683,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "avusturya",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Bosna Dubiçası (Bosanska Dubica)",
+          "tur": "kale",
+          "lat": 45.174,
+          "lon": 16.81,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "avusturya",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Bosna Novi'si (Bosanski Novi)",
+          "tur": "kale",
+          "lat": 45.048,
+          "lon": 16.377,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "avusturya",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Jasenovaç (Jasenovac)",
+          "tur": "kale",
+          "lat": 45.281,
+          "lon": 16.917,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "avusturya",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Bosna Brod'u (Bosanski Brod)",
+          "tur": "kale",
+          "lat": 45.138,
+          "lon": 17.988,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "avusturya",
+          "tarih": "1699-01-26",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        }
+      ]
+    },
+    {
+      "id": "Prut",
+      "tarih": "1711-07-21",
+      "taraf": [
+        "osmanli",
+        "rusya"
+      ],
+      "taraf_metin": "Rusya",
+      "topraklar_metni": "Azak Kalesi ve çevresi Rusya'dan Osmanlı'ya geri döndü; Rusya Karadeniz kıyısındaki tahkimatını yıktı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 1,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Azak",
+          "tur": "kale",
+          "lat": 47.113,
+          "lon": 39.423,
+          "onceki_sahip": "rusya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1711-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": true
+        }
+      ]
+    },
+    {
+      "id": "Pasarofça",
+      "tarih": "1718-07-21",
+      "taraf": [
+        "osmanli",
+        "habsburg",
+        "venedik"
+      ],
+      "taraf_metin": "Habsburg-Venedik",
+      "topraklar_metni": "Belgrad, Semendire ve kuzey Sırbistan ile Batı Eflak Osmanlı'dan Habsburg'a geçti; buna karşılık Mora Venedik'ten Osmanlı'ya geri alındı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 2,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Çuha Adası (Kythira)",
+          "tur": "kale",
+          "lat": 36.24,
+          "lon": 22.99,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "venedik",
+          "tarih": "1718-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ayamavra (Lefkada)",
+          "tur": "kale",
+          "lat": 38.716,
+          "lon": 20.643,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "venedik",
+          "tarih": "1718-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "id": "Belgrad",
+      "tarih": "1739-09-18",
+      "taraf": [
+        "osmanli",
+        "habsburg",
+        "rusya"
+      ],
+      "taraf_metin": "Habsburg-Rusya",
+      "topraklar_metni": "Belgrad ve kuzey Sırbistan ile Batı Eflak Habsburg'dan Osmanlı'ya geri alındı; Rusya'ya Azak yıkılmak şartıyla bırakıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 1,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Azak",
+          "tur": "kale",
+          "lat": 47.113,
+          "lon": 39.423,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1739-09-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Belgrad",
+          "tur": "kale",
+          "lat": 44.818,
+          "lon": 20.457,
+          "onceki_sahip": "avusturya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1739-09-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": true,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Kragujevac",
+          "tur": "sehir",
+          "lat": 44.013,
+          "lon": 20.911,
+          "onceki_sahip": "avusturya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1739-09-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Çaçak",
+          "tur": "kale",
+          "lat": 43.891,
+          "lon": 20.35,
+          "onceki_sahip": "avusturya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1739-09-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Böğürdelen (Šabac)",
+          "tur": "kale",
+          "lat": 44.75,
+          "lon": 19.694,
+          "onceki_sahip": "avusturya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1739-09-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": true,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        },
+        {
+          "yerlesim": "Yagodina (Jagodina)",
+          "tur": "kasaba",
+          "lat": 43.9772,
+          "lon": 21.2617,
+          "onceki_sahip": "avusturya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1739-09-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "avusturya"
+        }
+      ]
+    },
+    {
+      "id": "Küçük Kaynarca",
+      "tarih": "1774-07-21",
+      "taraf": [
+        "osmanli",
+        "rusya",
+        "kirim"
+      ],
+      "taraf_metin": "Rusya",
+      "topraklar_metni": "Kırım Hanlığı Osmanlı egemenliğinden çıkıp siyaseten bağımsız ilan edildi (dinî bağ hilafette kaldı); Rusya Karadeniz kıyısında Kerç, Yenikale ve Azak'ı aldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 6,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Kerç",
+          "tur": "kale",
+          "lat": 45.356,
+          "lon": 36.467,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1774-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Taman",
+          "tur": "kale",
+          "lat": 45.2029,
+          "lon": 36.7172,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1774-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Hotin",
+          "tur": "kale",
+          "lat": 48.51,
+          "lon": 26.492,
+          "onceki_sahip": "rusya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1774-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": true
+        },
+        {
+          "yerlesim": "Bender",
+          "tur": "kale",
+          "lat": 46.831,
+          "lon": 29.481,
+          "onceki_sahip": "rusya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1774-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": true
+        },
+        {
+          "yerlesim": "Yenikale",
+          "tur": "kale",
+          "lat": 45.3521,
+          "lon": 36.6004,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1774-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kızıkermen (Gazi Kerman)",
+          "tur": "kale",
+          "lat": 46.84,
+          "lon": 33.42,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1774-07-21",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "id": "Bükreş",
+      "tarih": "1812-05-28",
+      "taraf": [
+        "osmanli",
+        "rusya"
+      ],
+      "taraf_metin": "Rusya",
+      "topraklar_metni": "Besarabya (Prut-Dinyester arası) Osmanlı'ya bağlı Boğdan'dan koparılıp Rusya'ya bırakıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 5,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Akkirman",
+          "tur": "kale",
+          "lat": 46.1968,
+          "lon": 30.3431,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1812-05-28",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kili",
+          "tur": "kale",
+          "lat": 45.451,
+          "lon": 29.271,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1812-05-28",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Hotin",
+          "tur": "kale",
+          "lat": 48.51,
+          "lon": 26.492,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1812-05-28",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Bender",
+          "tur": "kale",
+          "lat": 46.831,
+          "lon": 29.481,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1812-05-28",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İsmail",
+          "tur": "kale",
+          "lat": 45.351,
+          "lon": 28.836,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1812-05-28",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "id": "Edirne",
+      "tarih": "1829-09-14",
+      "taraf": [
+        "osmanli",
+        "rusya"
+      ],
+      "taraf_metin": "Rusya",
+      "topraklar_metni": "Tuna deltasındaki adalar ve Ahıska-Ahılkelek Rusya'ya bırakıldı; Eflak ve Boğdan'da Rus işgali sona erdi ama özerklik genişledi; Yunanistan'ın bağımsızlığının önü açıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 8,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Anapa",
+          "tur": "kale",
+          "lat": 44.894,
+          "lon": 37.316,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Soçi (Sâşe)",
+          "tur": "liman",
+          "lat": 43.585,
+          "lon": 39.723,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tuapse",
+          "tur": "liman",
+          "lat": 44.103,
+          "lon": 39.08,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Maykop (Çerkezya)",
+          "tur": "bolge",
+          "lat": 44.609,
+          "lon": 40.101,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ahıska",
+          "tur": "kale",
+          "lat": 41.643,
+          "lon": 42.986,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ahılkelek (Akhalkalaki)",
+          "tur": "kale",
+          "lat": 41.403,
+          "lon": 43.484,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Zazalo",
+          "tur": "koy",
+          "lat": 41.62509,
+          "lon": 42.753,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ts’q’altbila",
+          "tur": "koy",
+          "lat": 41.58278,
+          "lon": 42.86714,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "İbrail",
+          "tur": "kale",
+          "lat": 45.27,
+          "lon": 27.972,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "eflak",
+          "tarih": "1829-09-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "eflak"
+        }
+      ]
+    },
+    {
+      "id": "Londra Protokolü",
+      "tarih": "1830-02-03",
+      "taraf": [
+        "osmanli",
+        "ingiltere",
+        "rusya",
+        "yunanistan"
+      ],
+      "taraf_metin": "İng-Fra-Rus",
+      "topraklar_metni": "Mora ve orta Yunanistan Osmanlı'dan ayrılıp bağımsız Yunanistan Krallığı'na verildi.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 21,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Nakşa",
+          "tur": "kale",
+          "lat": 37.097,
+          "lon": 25.3825,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Andros",
+          "tur": "kale",
+          "lat": 37.833,
+          "lon": 24.933,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İskiros (Skyros)",
+          "tur": "kale",
+          "lat": 38.9,
+          "lon": 24.57,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İskopelos",
+          "tur": "kale",
+          "lat": 39.12,
+          "lon": 23.72,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İstendil (Tinos)",
+          "tur": "kale",
+          "lat": 37.57,
+          "lon": 25.17,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Santorini",
+          "tur": "kale",
+          "lat": 36.416,
+          "lon": 25.432,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Paros",
+          "tur": "kale",
+          "lat": 37.063,
+          "lon": 25.196,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Değirmenlik (Milos)",
+          "tur": "kale",
+          "lat": 36.6979,
+          "lon": 24.44,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kimolos (Argentiera)",
+          "tur": "kale",
+          "lat": 36.815,
+          "lon": 24.562,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Murted (Kea)",
+          "tur": "kale",
+          "lat": 37.614,
+          "lon": 24.331,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Termiye (Kythnos)",
+          "tur": "kale",
+          "lat": 37.398,
+          "lon": 24.419,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Koçbaba (Serifos)",
+          "tur": "kale",
+          "lat": 37.162,
+          "lon": 24.484,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sifnos (Yavuzca)",
+          "tur": "kale",
+          "lat": 36.978,
+          "lon": 24.707,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sire (Syros)",
+          "tur": "kale",
+          "lat": 37.436,
+          "lon": 24.918,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Mikonos",
+          "tur": "kale",
+          "lat": 37.456,
+          "lon": 25.376,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Nio (İos)",
+          "tur": "kale",
+          "lat": 36.723,
+          "lon": 25.33,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Yamurgi (Amorgos)",
+          "tur": "kale",
+          "lat": 36.848,
+          "lon": 25.905,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Namfi (Anafi)",
+          "tur": "kale",
+          "lat": 36.374,
+          "lon": 25.783,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Folegandros",
+          "tur": "kale",
+          "lat": 36.682,
+          "lon": 25.125,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İskiathos",
+          "tur": "kale",
+          "lat": 39.1686,
+          "lon": 23.4922,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Alonisos",
+          "tur": "kale",
+          "lat": 39.213,
+          "lon": 23.911,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1830-02-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "id": "Kütahya Sözleşmesi",
+      "tarih": "1833-05-14",
+      "taraf": [
+        "osmanli",
+        "misir-kavalali"
+      ],
+      "taraf_metin": "Mısır (Kavalalı)",
+      "topraklar_metni": "Suriye, Filistin, Adana ve Girit valilikleri Osmanlı merkezinden Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın idaresine bırakıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Hünkâr İskelesi",
+      "tarih": "1833-07-08",
+      "taraf": [
+        "osmanli",
+        "rusya"
+      ],
+      "taraf_metin": "Rusya",
+      "topraklar_metni": "Toprak el değiştirmedi; karşılıklı savunma ittifakı kuruldu, gizli maddeyle Boğazlar üçüncü devletlerin savaş gemilerine Rusya lehine kapatıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Balta Limanı",
+      "tarih": "1838-08-16",
+      "taraf": [
+        "osmanli",
+        "ingiltere"
+      ],
+      "taraf_metin": "İngiltere",
+      "topraklar_metni": "Toprak konusu yok; iç tekeller kaldırıldı, İngiliz mallarına düşük gümrük ve serbest ticaret hakkı tanındı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Londra (Mısır)",
+      "tarih": "1840-07-15",
+      "taraf": [
+        "osmanli",
+        "ingiltere",
+        "rusya",
+        "habsburg",
+        "almanya"
+      ],
+      "taraf_metin": "İng-Rus-Avu-Prusya",
+      "topraklar_metni": "Mehmed Ali Paşa'ya Mısır'ın irsî valiliği karşılığında Suriye, Adana, Girit ve Hicaz'ı Osmanlı'ya iade etmesi şartı koşuldu.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "İskenderiye Konvansiyonu",
+      "tarih": "1840-11-27",
+      "taraf": [
+        "osmanli",
+        "misir-kavalali"
+      ],
+      "taraf_metin": "Mısır (Kavalalı)",
+      "topraklar_metni": "Suriye, Filistin, Adana, Girit ve Hicaz Mehmed Ali'den Osmanlı merkezine geri döndü; Mısır ve Sudan'ın irsî valiliği Mehmed Ali hanedanında bırakıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Londra Boğazlar Sözleşmesi",
+      "tarih": "1841-07-13",
+      "taraf": [
+        "osmanli",
+        "ingiltere",
+        "rusya",
+        "habsburg",
+        "almanya"
+      ],
+      "taraf_metin": "Büyük devletler",
+      "topraklar_metni": "Toprak konusu yok; Boğazlar barış zamanında bütün yabancı savaş gemilerine kapatıldı, Hünkâr İskelesi'nin Rusya'ya tanıdığı ayrıcalık kaldırıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Cidde",
+          "tur": "liman",
+          "lat": 21.543,
+          "lon": 39.173,
+          "onceki_sahip": "misir-kavalali",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1841-05-24",
+          "gun_farki": -50,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "misir-kavalali"
+        },
+        {
+          "yerlesim": "Yenbu",
+          "tur": "liman",
+          "lat": 24.089,
+          "lon": 38.063,
+          "onceki_sahip": "misir-kavalali",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1841-05-24",
+          "gun_farki": -50,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "misir-kavalali"
+        },
+        {
+          "yerlesim": "Bedir",
+          "tur": "kasaba",
+          "lat": 23.78,
+          "lon": 38.79,
+          "onceki_sahip": "misir-kavalali",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1841-05-24",
+          "gun_farki": -50,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "misir-kavalali"
+        },
+        {
+          "yerlesim": "Râbiğ",
+          "tur": "liman",
+          "lat": 22.799,
+          "lon": 39.035,
+          "onceki_sahip": "misir-kavalali",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1841-05-24",
+          "gun_farki": -50,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "misir-kavalali"
+        }
+      ],
+      "bulunamadi": true
+    },
+    {
+      "id": "Paris",
+      "tarih": "1856-03-30",
+      "taraf": [
+        "osmanli",
+        "ingiltere",
+        "rusya",
+        "habsburg",
+        "sardinya-piyemonte"
+      ],
+      "taraf_metin": "Avrupa devletleri",
+      "topraklar_metni": "Güney Besarabya Rusya'dan geri alınıp Boğdan'a katıldı; Karadeniz tarafsızlaştırılıp bütün devletlerin savaş gemilerine kapatıldı; Eflak-Boğdan'ın özerkliği güvence altına alındı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Berlin",
+      "tarih": "1878-07-13",
+      "taraf": [
+        "osmanli",
+        "ingiltere",
+        "rusya",
+        "habsburg",
+        "almanya",
+        "italya",
+        "sirbistan-prensligi",
+        "bulgaristan-prensligi",
+        "karadag",
+        "romanya"
+      ],
+      "taraf_metin": "Büyük devletler",
+      "topraklar_metni": "Sırbistan, Romanya ve Karadağ tam bağımsızlığını kazandı (toprakları büyüdü); küçültülmüş özerk Bulgaristan Prensliği kuruldu, Rumeli-i Şarkî ayrı özerk vilayet oldu; Bosna-Hersek'in idaresi Osmanlı'dan Avusturya-Macaristan'a geçti (egemenlik nominal Osmanlı'da kaldı); Kars, Ardahan, Batum Rusya'ya bırakıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 22,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "İhtiman",
+          "tur": "kale",
+          "lat": 42.433,
+          "lon": 23.817,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Vidin",
+          "tur": "kale",
+          "lat": 43.992,
+          "lon": 22.873,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tırnova",
+          "tur": "sehir",
+          "lat": 43.081,
+          "lon": 25.629,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Varna",
+          "tur": "liman",
+          "lat": 43.214,
+          "lon": 27.915,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Şumnu",
+          "tur": "kale",
+          "lat": 43.271,
+          "lon": 26.936,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Silistre",
+          "tur": "kale",
+          "lat": 44.117,
+          "lon": 27.26,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Rusçuk",
+          "tur": "kale",
+          "lat": 43.856,
+          "lon": 25.971,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Batum",
+          "tur": "liman",
+          "lat": 41.6439,
+          "lon": 41.642,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Köstence",
+          "tur": "liman",
+          "lat": 44.173,
+          "lon": 28.639,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "romanya",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Podgorica",
+          "tur": "sehir",
+          "lat": 42.441,
+          "lon": 19.263,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "karadag",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sarıkamış",
+          "tur": "kasaba",
+          "lat": 40.328,
+          "lon": 42.578,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Babadağı (Babadag)",
+          "tur": "kasaba",
+          "lat": 44.8917,
+          "lon": 28.7169,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "romanya",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İshakçı (Isaccea)",
+          "tur": "kale",
+          "lat": 45.2736,
+          "lon": 28.46,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "romanya",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Şehirköy (Pirot)",
+          "tur": "kasaba",
+          "lat": 43.1531,
+          "lon": 22.5861,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Alacahisar (Kruševac)",
+          "tur": "sehir",
+          "lat": 43.58,
+          "lon": 21.327,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-prensligi",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Murvaneti",
+          "tur": "koy",
+          "lat": 41.56279,
+          "lon": 41.62598,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Lefkoşa",
+          "tur": "sehir",
+          "lat": 35.17,
+          "lon": 33.36,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1878-06-04",
+          "gun_farki": -39,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Magosa",
+          "tur": "kale",
+          "lat": 35.125,
+          "lon": 33.94,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1878-06-04",
+          "gun_farki": -39,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Girne (Kyrenia)",
+          "tur": "kale",
+          "lat": 35.3375,
+          "lon": 33.3187,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1878-06-04",
+          "gun_farki": -39,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Baf (Paphos)",
+          "tur": "kale",
+          "lat": 34.776,
+          "lon": 32.424,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1878-06-04",
+          "gun_farki": -39,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Limasol",
+          "tur": "liman",
+          "lat": 34.707,
+          "lon": 33.023,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1878-06-04",
+          "gun_farki": -39,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tuzla (Larnaka)",
+          "tur": "liman",
+          "lat": 34.917,
+          "lon": 33.63,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1878-06-04",
+          "gun_farki": -39,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Eski Zağra (Stara Zagora)",
+          "tur": "sehir",
+          "lat": 42.425,
+          "lon": 25.633,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sarki-rumeli",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sarki-rumeli"
+        },
+        {
+          "yerlesim": "Tatarpazarcığı",
+          "tur": "sehir",
+          "lat": 42.192,
+          "lon": 24.333,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sarki-rumeli",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sarki-rumeli"
+        },
+        {
+          "yerlesim": "Filibe",
+          "tur": "sehir",
+          "lat": 42.144,
+          "lon": 24.75,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sarki-rumeli",
+          "tarih": "1878-07-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sarki-rumeli"
+        }
+      ]
+    },
+    {
+      "id": "Uşi",
+      "tarih": "1912-10-18",
+      "taraf": [
+        "osmanli",
+        "italya"
+      ],
+      "taraf_metin": "İtalya",
+      "topraklar_metni": "Trablusgarp ve Bingazi (Libya) Osmanlı'dan İtalya'ya geçti; Oniki Ada İtalya'ya \"geçici\" işgal olarak bırakıldı (fiilen kalıcılaştı).",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 40,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Misrata",
+          "tur": "sehir",
+          "lat": 32.378,
+          "lon": 15.092,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Derne",
+          "tur": "liman",
+          "lat": 32.766,
+          "lon": 22.639,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Murzuk (Fizan)",
+          "tur": "bolge",
+          "lat": 25.919,
+          "lon": 13.919,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Zâviye",
+          "tur": "sehir",
+          "lat": 32.757,
+          "lon": 12.728,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Zuvâre",
+          "tur": "liman",
+          "lat": 32.931,
+          "lon": 12.082,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Nâlût",
+          "tur": "sehir",
+          "lat": 31.868,
+          "lon": 10.983,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Yefren",
+          "tur": "sehir",
+          "lat": 32.063,
+          "lon": 12.529,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Garyân",
+          "tur": "sehir",
+          "lat": 32.172,
+          "lon": 13.02,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Mızde",
+          "tur": "sehir",
+          "lat": 31.45,
+          "lon": 12.983,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Hums (Lebde)",
+          "tur": "liman",
+          "lat": 32.649,
+          "lon": 14.262,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Zilten",
+          "tur": "sehir",
+          "lat": 32.467,
+          "lon": 14.568,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Benî Velîd",
+          "tur": "sehir",
+          "lat": 31.746,
+          "lon": 13.983,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sirte",
+          "tur": "liman",
+          "lat": 31.205,
+          "lon": 16.589,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ecdâbiye",
+          "tur": "sehir",
+          "lat": 30.755,
+          "lon": 20.225,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Merc",
+          "tur": "sehir",
+          "lat": 32.492,
+          "lon": 20.833,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Beyzâ (Kirene)",
+          "tur": "sehir",
+          "lat": 32.827,
+          "lon": 21.858,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tobruk",
+          "tur": "liman",
+          "lat": 32.077,
+          "lon": 23.971,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ğadâmis",
+          "tur": "sehir",
+          "lat": 30.133,
+          "lon": 9.5,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Gât",
+          "tur": "sehir",
+          "lat": 24.964,
+          "lon": 10.18,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Cağbûb",
+          "tur": "sehir",
+          "lat": 29.744,
+          "lon": 24.517,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sokna",
+          "tur": "bolge",
+          "lat": 29.07,
+          "lon": 15.792,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Câlû",
+          "tur": "bolge",
+          "lat": 29.033,
+          "lon": 21.548,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sebha",
+          "tur": "sehir",
+          "lat": 27.038,
+          "lon": 14.428,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ubârî",
+          "tur": "sehir",
+          "lat": 26.59,
+          "lon": 12.777,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Terhûne",
+          "tur": "sehir",
+          "lat": 32.435,
+          "lon": 13.633,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kabâv (Nefûse)",
+          "tur": "sehir",
+          "lat": 31.941,
+          "lon": 12.036,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sinâvin",
+          "tur": "sehir",
+          "lat": 31.007,
+          "lon": 10.616,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Derc (Derj)",
+          "tur": "sehir",
+          "lat": 30.155,
+          "lon": 10.442,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tâverğa",
+          "tur": "sehir",
+          "lat": 32.005,
+          "lon": 15.055,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Vaddân (Cufre)",
+          "tur": "sehir",
+          "lat": 29.161,
+          "lon": 16.139,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Zilla (Zella)",
+          "tur": "bolge",
+          "lat": 28.556,
+          "lon": 17.532,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Nûfiliye",
+          "tur": "sehir",
+          "lat": 30.784,
+          "lon": 17.983,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Merâde",
+          "tur": "bolge",
+          "lat": 29.23,
+          "lon": 19.213,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tulmeyse",
+          "tur": "liman",
+          "lat": 32.712,
+          "lon": 20.951,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ayn el-Ğazâle (Bomba)",
+          "tur": "liman",
+          "lat": 32.495,
+          "lon": 23.12,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tırgan (Traghan)",
+          "tur": "sehir",
+          "lat": 26.13,
+          "lon": 14.47,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Zevîle (Zawila)",
+          "tur": "sehir",
+          "lat": 26.17,
+          "lon": 15.113,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "el-Katrûn",
+          "tur": "sehir",
+          "lat": 24.919,
+          "lon": 14.647,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-18",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Trablus",
+          "tur": "liman",
+          "lat": 32.897,
+          "lon": 13.191,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-15",
+          "gun_farki": -3,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Bingazi",
+          "tur": "liman",
+          "lat": 32.117,
+          "lon": 20.068,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "italya",
+          "tarih": "1912-10-15",
+          "gun_farki": -3,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Priştine",
+          "tur": "sehir",
+          "lat": 42.663,
+          "lon": 21.162,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-10-22",
+          "gun_farki": 4,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Yenipazar (Novi Pazar)",
+          "tur": "sehir",
+          "lat": 43.14,
+          "lon": 20.517,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-10-23",
+          "gun_farki": 5,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Kırklareli",
+          "tur": "sehir",
+          "lat": 41.735,
+          "lon": 27.225,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1912-10-24",
+          "gun_farki": 6,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bulgaristan-kralligi"
+        },
+        {
+          "yerlesim": "Üsküp",
+          "tur": "sehir",
+          "lat": 41.997,
+          "lon": 21.428,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-10-26",
+          "gun_farki": 8,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Köprülü (Veles)",
+          "tur": "sehir",
+          "lat": 41.716,
+          "lon": 21.775,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-10-26",
+          "gun_farki": 8,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "İştip (Štip)",
+          "tur": "sehir",
+          "lat": 41.746,
+          "lon": 22.195,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-10-26",
+          "gun_farki": 8,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Ustrumca (Strumica)",
+          "tur": "sehir",
+          "lat": 41.437,
+          "lon": 22.643,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-10-26",
+          "gun_farki": 8,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Doyran",
+          "tur": "kasaba",
+          "lat": 41.183,
+          "lon": 22.717,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-10-26",
+          "gun_farki": 8,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Gevgili (Gevgelija)",
+          "tur": "kasaba",
+          "lat": 41.144,
+          "lon": 22.502,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-10-26",
+          "gun_farki": 8,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Bozcaada",
+          "tur": "kale",
+          "lat": 39.833,
+          "lon": 26.045,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1912-10-07",
+          "gun_farki": -11,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Tekirdağ",
+          "tur": "liman",
+          "lat": 40.9838,
+          "lon": 27.5084,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1912-11-01",
+          "gun_farki": 14,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bulgaristan-kralligi"
+        },
+        {
+          "yerlesim": "İmroz",
+          "tur": "kale",
+          "lat": 40.163,
+          "lon": 25.905,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1912-11-01",
+          "gun_farki": 14,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Prizren",
+          "tur": "sehir",
+          "lat": 42.214,
+          "lon": 20.741,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-11-03",
+          "gun_farki": 16,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Manastır",
+          "tur": "sehir",
+          "lat": 41.031,
+          "lon": 21.335,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-11-19",
+          "gun_farki": 32,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Akçahisar (Kruja)",
+          "tur": "kale",
+          "lat": 41.509,
+          "lon": 19.793,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "İlbasan (Elbasan)",
+          "tur": "kale",
+          "lat": 41.113,
+          "lon": 20.083,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Berat",
+          "tur": "sehir",
+          "lat": 40.705,
+          "lon": 19.951,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Draç",
+          "tur": "liman",
+          "lat": 41.323,
+          "lon": 19.455,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Avlonya",
+          "tur": "liman",
+          "lat": 40.466,
+          "lon": 19.489,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Kanina",
+          "tur": "kale",
+          "lat": 40.421,
+          "lon": 19.507,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Delvine",
+          "tur": "sehir",
+          "lat": 39.95,
+          "lon": 20.0972,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Ergiri (Ergirikasrı)",
+          "tur": "sehir",
+          "lat": 40.0758,
+          "lon": 20.1389,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Butrint (Butrinto)",
+          "tur": "kale",
+          "lat": 39.7458,
+          "lon": 20.0206,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Hımara (Himarë)",
+          "tur": "kale",
+          "lat": 40.1017,
+          "lon": 19.7444,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Ayasaranda (Sarandë)",
+          "tur": "sehir",
+          "lat": 39.875,
+          "lon": 20.0053,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Mat (Mati)",
+          "tur": "sehir",
+          "lat": 41.61,
+          "lon": 20.009,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Leş (Alessio)",
+          "tur": "liman",
+          "lat": 41.783,
+          "lon": 19.644,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1912-11-28",
+          "gun_farki": 41,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Ohri",
+          "tur": "sehir",
+          "lat": 41.1194,
+          "lon": 20.8028,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-11-29",
+          "gun_farki": 42,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        },
+        {
+          "yerlesim": "Debre (Dibra)",
+          "tur": "sehir",
+          "lat": 41.524,
+          "lon": 20.531,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-kralligi",
+          "tarih": "1912-11-29",
+          "gun_farki": 42,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-kralligi"
+        }
+      ]
+    },
+    {
+      "id": "Londra",
+      "tarih": "1913-05-30",
+      "taraf": [
+        "osmanli",
+        "bulgaristan-kralligi",
+        "sirbistan-kralligi",
+        "yunanistan",
+        "karadag"
+      ],
+      "taraf_metin": "Balkan devletleri",
+      "topraklar_metni": "Midye-Enez hattının batısındaki bütün Rumeli toprakları (Selanik, Yanya, Girit dahil) Osmanlı'dan Balkan devletlerine bırakıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 35,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Çirmen",
+          "tur": "kale",
+          "lat": 41.72,
+          "lon": 26.2,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Köstendil",
+          "tur": "sehir",
+          "lat": 42.283,
+          "lon": 22.69,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Petriç",
+          "tur": "kale",
+          "lat": 41.404,
+          "lon": 23.203,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Nevrokop (Gotse Delçev)",
+          "tur": "sehir",
+          "lat": 41.573,
+          "lon": 23.733,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Drama",
+          "tur": "sehir",
+          "lat": 41.152,
+          "lon": 24.147,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Dimetoka",
+          "tur": "kale",
+          "lat": 41.348,
+          "lon": 26.497,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Serez",
+          "tur": "sehir",
+          "lat": 41.089,
+          "lon": 23.545,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kavala",
+          "tur": "liman",
+          "lat": 40.9451,
+          "lon": 24.4101,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ferecik (Feres)",
+          "tur": "sehir",
+          "lat": 40.897,
+          "lon": 26.172,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Gümülcine",
+          "tur": "sehir",
+          "lat": 41.122,
+          "lon": 25.406,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İskeçe",
+          "tur": "sehir",
+          "lat": 41.14,
+          "lon": 24.89,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Orestiada (Kumçiftliği)",
+          "tur": "sehir",
+          "lat": 41.503,
+          "lon": 26.531,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sofulu (Soufli)",
+          "tur": "kasaba",
+          "lat": 41.193,
+          "lon": 26.298,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Dedeağaç (Alexandroupoli)",
+          "tur": "liman",
+          "lat": 40.849,
+          "lon": 25.874,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Elhova (Elhovo)",
+          "tur": "kasaba",
+          "lat": 42.17,
+          "lon": 26.573,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Praviște (Eleftheroupoli)",
+          "tur": "kasaba",
+          "lat": 40.9167,
+          "lon": 24.25,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Stérna",
+          "tur": "koy",
+          "lat": 41.56546,
+          "lon": 26.4581,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Távri",
+          "tur": "koy",
+          "lat": 40.98089,
+          "lon": 26.2535,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Malak Dervent (Lalkovo)",
+          "tur": "koy",
+          "lat": 42.07516,
+          "lon": 26.72009,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Umur Fakih (Fakia)",
+          "tur": "koy",
+          "lat": 42.18986,
+          "lon": 27.08592,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-05-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kırcaali",
+          "tur": "sehir",
+          "lat": 41.65,
+          "lon": 25.37,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-07-14",
+          "gun_farki": 45,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Edirne",
+          "tur": "sehir",
+          "lat": 41.677,
+          "lon": 26.556,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kırklareli",
+          "tur": "sehir",
+          "lat": 41.735,
+          "lon": 27.225,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tekirdağ",
+          "tur": "liman",
+          "lat": 40.9838,
+          "lon": 27.5084,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Uzunköprü",
+          "tur": "sehir",
+          "lat": 41.267,
+          "lon": 26.688,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Havsa",
+          "tur": "kasaba",
+          "lat": 41.552,
+          "lon": 26.821,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Meriç (İpsala kuzeyi)",
+          "tur": "kasaba",
+          "lat": 41.191,
+          "lon": 26.421,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Lalapaşa",
+          "tur": "kasaba",
+          "lat": 41.836,
+          "lon": 26.741,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kofçaz",
+          "tur": "kasaba",
+          "lat": 41.936,
+          "lon": 27.176,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Dereköy (Kırklareli)",
+          "tur": "kasaba",
+          "lat": 41.943,
+          "lon": 27.401,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Demirköy",
+          "tur": "kasaba",
+          "lat": 41.822,
+          "lon": 27.762,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İğneada",
+          "tur": "liman",
+          "lat": 41.889,
+          "lon": 28.0258,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Vize",
+          "tur": "kale",
+          "lat": 41.5714,
+          "lon": 27.7658,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Uluköy (Akçadam)",
+          "tur": "koy",
+          "lat": 41.30488,
+          "lon": 26.53073,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Küfkaynapınarı (Azatlı)",
+          "tur": "koy",
+          "lat": 41.49897,
+          "lon": 26.70205,
+          "onceki_sahip": "bulgaristan-kralligi",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-07-21",
+          "gun_farki": 52,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "İşkodra",
+          "tur": "kale",
+          "lat": 42.069,
+          "lon": 19.513,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "arnavutluk-bagimsiz",
+          "tarih": "1913-04-23",
+          "gun_farki": -37,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "arnavutluk-bagimsiz"
+        },
+        {
+          "yerlesim": "Lahsa",
+          "tur": "bolge",
+          "lat": 25.383,
+          "lon": 49.588,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "suud-ucuncu",
+          "tarih": "1913-07-08",
+          "gun_farki": 39,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "suud-ucuncu"
+        },
+        {
+          "yerlesim": "Katîf",
+          "tur": "liman",
+          "lat": 26.557,
+          "lon": 49.9873,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "suud-ucuncu",
+          "tarih": "1913-07-08",
+          "gun_farki": 39,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "suud-ucuncu"
+        },
+        {
+          "yerlesim": "Ukayr (Uceyr)",
+          "tur": "liman",
+          "lat": 25.65,
+          "lon": 50.2131,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "suud-ucuncu",
+          "tarih": "1913-07-08",
+          "gun_farki": 39,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "suud-ucuncu"
+        },
+        {
+          "yerlesim": "Cübeyl",
+          "tur": "liman",
+          "lat": 26.9979,
+          "lon": 49.6406,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "suud-ucuncu",
+          "tarih": "1913-07-08",
+          "gun_farki": 39,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "suud-ucuncu"
+        }
+      ]
+    },
+    {
+      "id": "Mondros Mütarekesi",
+      "tarih": "1918-10-30",
+      "taraf": [
+        "osmanli",
+        "ingiltere",
+        "italya"
+      ],
+      "taraf_metin": "İtilaf devletleri",
+      "topraklar_metni": "Toprak resmen devredilmedi ama İtilaf devletlerine stratejik nokta ve demiryollarını işgal hakkı tanındı; fiilen Anadolu ve Trakya'nın işgalinin yolu açıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 15,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Şehrizor",
+          "tur": "sehir",
+          "lat": 35.56,
+          "lon": 45.43,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kerkük",
+          "tur": "sehir",
+          "lat": 35.468,
+          "lon": 44.392,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Silopi",
+          "tur": "kasaba",
+          "lat": 37.246,
+          "lon": 42.47,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Cumai (Birlikköy)",
+          "tur": "koy",
+          "lat": 37.24622,
+          "lon": 42.52018,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Musul",
+          "tur": "sehir",
+          "lat": 36.34,
+          "lon": 43.13,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Rewândiz",
+          "tur": "kale",
+          "lat": 36.6069,
+          "lon": 44.5322,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Akra",
+          "tur": "sehir",
+          "lat": 36.7408,
+          "lon": 43.8919,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Duhok",
+          "tur": "sehir",
+          "lat": 36.8672,
+          "lon": 42.9881,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Zaho",
+          "tur": "sehir",
+          "lat": 37.1447,
+          "lon": 42.6819,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Telafer",
+          "tur": "sehir",
+          "lat": 36.3775,
+          "lon": 42.4508,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sincar",
+          "tur": "sehir",
+          "lat": 36.3222,
+          "lon": 41.8689,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Gōrabī",
+          "tur": "koy",
+          "lat": 37.08333,
+          "lon": 44.7,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Tirwānīsh",
+          "tur": "koy",
+          "lat": 37.19618,
+          "lon": 43.50366,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İmâdiye (Amêdî)",
+          "tur": "sehir",
+          "lat": 37.0921,
+          "lon": 43.4877,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-11-08",
+          "gun_farki": 9,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Amman",
+          "tur": "sehir",
+          "lat": 31.949,
+          "lon": 35.933,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "ingiltere",
+          "tarih": "1918-09-25",
+          "gun_farki": -35,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Zebîd",
+          "tur": "sehir",
+          "lat": 14.195,
+          "lon": 43.317,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Moha",
+          "tur": "liman",
+          "lat": 13.319,
+          "lon": 43.25,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Sana",
+          "tur": "sehir",
+          "lat": 15.369,
+          "lon": 44.191,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Taiz",
+          "tur": "sehir",
+          "lat": 13.579,
+          "lon": 44.022,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Hudeyde",
+          "tur": "liman",
+          "lat": 14.798,
+          "lon": 42.954,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Ebha (Asir)",
+          "tur": "sehir",
+          "lat": 18.216,
+          "lon": 42.505,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "aiz",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "aiz"
+        },
+        {
+          "yerlesim": "Ferasan (Farasan)",
+          "tur": "kale",
+          "lat": 16.73,
+          "lon": 42.009,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Azez (A'zâz)",
+          "tur": "kasaba",
+          "lat": 36.586,
+          "lon": 37.045,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Münbiç",
+          "tur": "kasaba",
+          "lat": 36.528,
+          "lon": 37.955,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Cerablus",
+          "tur": "kasaba",
+          "lat": 36.825,
+          "lon": 38.014,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Ayn el-Arab (Kobani)",
+          "tur": "kasaba",
+          "lat": 36.891,
+          "lon": 38.353,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Malikiye (Derik)",
+          "tur": "kasaba",
+          "lat": 37.176,
+          "lon": 42.145,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Mersin",
+          "tur": "liman",
+          "lat": 36.8,
+          "lon": 34.633,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "İskenderun",
+          "tur": "liman",
+          "lat": 36.587,
+          "lon": 36.173,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Ḩīmū",
+          "tur": "koy",
+          "lat": 37.04723,
+          "lon": 41.16003,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Jadlā’",
+          "tur": "koy",
+          "lat": 36.65715,
+          "lon": 38.94703,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Sincan",
+          "tur": "koy",
+          "lat": 36.72065,
+          "lon": 36.2277,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Babū",
+          "tur": "koy",
+          "lat": 36.99209,
+          "lon": 40.95651,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Sa'de",
+          "tur": "sehir",
+          "lat": 16.94,
+          "lon": 43.764,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Şehâre",
+          "tur": "kale",
+          "lat": 16.183,
+          "lon": 43.723,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Kevkebân",
+          "tur": "kale",
+          "lat": 15.503,
+          "lon": 43.899,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yemen",
+          "tarih": "1918-10-30",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yemen"
+        },
+        {
+          "yerlesim": "Rakka",
+          "tur": "sehir",
+          "lat": 35.953,
+          "lon": 39.008,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-26",
+          "gun_farki": -4,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Deyrizor",
+          "tur": "sehir",
+          "lat": 35.336,
+          "lon": 40.141,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-26",
+          "gun_farki": -4,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Qaţţīnah",
+          "tur": "koy",
+          "lat": 36.80744,
+          "lon": 40.05343,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-26",
+          "gun_farki": -4,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Deyrülkamer (Dayr al-Kamer)",
+          "tur": "kasaba",
+          "lat": 33.6989,
+          "lon": 35.5619,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-08",
+          "gun_farki": -22,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Ba'lebek (Baalbek)",
+          "tur": "kasaba",
+          "lat": 34.0059,
+          "lon": 36.2181,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-08",
+          "gun_farki": -22,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Sûr (Tyre) — Lübnan",
+          "tur": "liman",
+          "lat": 33.2704,
+          "lon": 35.2038,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "fransa-cumhuriyet",
+          "tarih": "1918-10-08",
+          "gun_farki": -22,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Batum",
+          "tur": "liman",
+          "lat": 41.6439,
+          "lon": 41.642,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "gurcistan-demokratik-cumhuriyeti",
+          "tarih": "1918-12-01",
+          "gun_farki": 32,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "gurcistan-demokratik-cumhuriyeti"
+        },
+        {
+          "yerlesim": "Murvaneti",
+          "tur": "koy",
+          "lat": 41.56279,
+          "lon": 41.62598,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "gurcistan-demokratik-cumhuriyeti",
+          "tarih": "1918-12-01",
+          "gun_farki": 32,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "gurcistan-demokratik-cumhuriyeti"
+        },
+        {
+          "yerlesim": "Maan",
+          "tur": "kale",
+          "lat": 30.192,
+          "lon": 35.734,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "hicaz",
+          "tarih": "1918-09-27",
+          "gun_farki": -33,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "hicaz"
+        }
+      ]
+    },
+    {
+      "id": "Sevr",
+      "tarih": "1920-08-10",
+      "taraf": [
+        "osmanli",
+        "ingiltere",
+        "italya",
+        "yunanistan"
+      ],
+      "taraf_metin": "İtilaf devletleri",
+      "topraklar_metni": "İzmir ve Doğu Trakya Yunanistan'a, Oniki Ada ve Antalya bölgesi İtalya'ya, güneydoğu Fransız nüfuz bölgesine bırakılıyor; bağımsız Ermenistan ve özerk Kürdistan öngörülüyordu — TBMM tanımadığı için hiç uygulanmadı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Kars",
+      "tarih": "1921-10-13",
+      "taraf": [
+        "tbmm-turkiye"
+      ],
+      "taraf_metin": "Kafkas cumhuriyetleri",
+      "topraklar_metni": "Kars, Ardahan ve Iğdır Sovyet Ermenistan ve Gürcistan'dan TBMM Türkiyesi'ne kesin olarak geçti — bugünkü doğu sınırı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Şavşat",
+          "tur": "kasaba",
+          "lat": 41.245,
+          "lon": 42.36,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Posof",
+          "tur": "kasaba",
+          "lat": 41.51,
+          "lon": 42.72,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Hanak",
+          "tur": "kasaba",
+          "lat": 41.23,
+          "lon": 42.855,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Arpaçay (Akyaka)",
+          "tur": "kasaba",
+          "lat": 40.845,
+          "lon": 43.325,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Digor",
+          "tur": "kasaba",
+          "lat": 40.375,
+          "lon": 43.41,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Iğdır",
+          "tur": "kasaba",
+          "lat": 39.92,
+          "lon": 44.045,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Artvin",
+          "tur": "sehir",
+          "lat": 41.183,
+          "lon": 41.822,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Hopa",
+          "tur": "liman",
+          "lat": 41.39,
+          "lon": 41.427,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Sarp",
+          "tur": "koy",
+          "lat": 41.52,
+          "lon": 41.545,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Borçka",
+          "tur": "kasaba",
+          "lat": 41.339,
+          "lon": 41.677,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Saylıca",
+          "tur": "koy",
+          "lat": 41.33615,
+          "lon": 42.33915,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Beri",
+          "tur": "koy",
+          "lat": 39.91667,
+          "lon": 44.25,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Küçükperveli",
+          "tur": "koy",
+          "lat": 40.67302,
+          "lon": 43.61322,
+          "onceki_sahip": "sovyet-rusya",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-13",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sovyet-rusya"
+        },
+        {
+          "yerlesim": "Silopi",
+          "tur": "kasaba",
+          "lat": 37.246,
+          "lon": 42.47,
+          "onceki_sahip": "ingiltere",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-20",
+          "gun_farki": 7,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "ingiltere"
+        },
+        {
+          "yerlesim": "Mersin",
+          "tur": "liman",
+          "lat": 36.8,
+          "lon": 34.633,
+          "onceki_sahip": "fransa-cumhuriyet",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-20",
+          "gun_farki": 7,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "fransa-cumhuriyet"
+        },
+        {
+          "yerlesim": "Cumai (Birlikköy)",
+          "tur": "koy",
+          "lat": 37.24622,
+          "lon": 42.52018,
+          "onceki_sahip": "ingiltere",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-20",
+          "gun_farki": 7,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "ingiltere"
+        }
+      ],
+      "bulunamadi": true
+    },
+    {
+      "id": "Mudanya Mütarekesi",
+      "tarih": "1922-10-11",
+      "taraf": [
+        "tbmm-turkiye",
+        "ingiltere",
+        "italya"
+      ],
+      "taraf_metin": "İtilaf devletleri",
+      "topraklar_metni": "Doğu Trakya, Yunan işgalinden çıkıp savaş yapılmadan TBMM Türkiyesi'ne bırakıldı; İstanbul ve Boğazlar TBMM idaresine geçene dek İtilaf kuvvetlerinde kaldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Lozan",
+      "tarih": "1923-07-24",
+      "taraf": [
+        "tbmm-turkiye",
+        "ingiltere",
+        "italya",
+        "yunanistan"
+      ],
+      "taraf_metin": "İtilaf devletleri",
+      "topraklar_metni": "Sevr'in bütün toprak talepleri düştü; bugünkü Türkiye sınırları (Musul hariç, ileride ayrı çözüldü) uluslararası tanındı; Ege adalarının çoğu Yunanistan'da, Oniki Ada İtalya'da kaldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Kerden",
+      "tarih": "1746-09-04",
+      "taraf": [
+        "osmanli",
+        "afsar"
+      ],
+      "taraf_metin": "Afşar (Nadir Şah)",
+      "topraklar_metni": "Toprak el değiştirmedi; 1730'lardan beri tartışmalı Bağdat-Kirkük hattı 1639 Kasr-ı Şirin sınırına göre teyit edildi.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Sırbistan özerklik fermanı",
+      "tarih": "1830-08-30",
+      "taraf": [
+        "osmanli",
+        "sirbistan-prensligi"
+      ],
+      "taraf_metin": "Sırbistan Prensliği",
+      "topraklar_metni": "Toprak el değiştirmedi; Sırbistan Prensliği'ne (1804-1815 isyanlarının sonucu) geniş iç özerklik ve kendi ordusunu kurma hakkı tanındı, yıllık haraca bağlı vasal statüsü resmileşti.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Serav",
+      "tarih": "1618-09-26",
+      "taraf": [
+        "osmanli",
+        "safevi"
+      ],
+      "taraf_metin": "Safevî",
+      "topraklar_metni": "Toprak el değiştirmedi (1612 sınırı korundu); Osmanlı'nın istediği yıllık ipek/haraç ödemesi Safevî'ce kabul edilmedi — gerilim 1623'te Bağdat'ın kaybına giden savaşı doğurdu.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Vasvar",
+      "tarih": "1664-08-09",
+      "taraf": [
+        "osmanli",
+        "habsburg"
+      ],
+      "taraf_metin": "Habsburg",
+      "topraklar_metni": "Toprak büyük ölçüde korundu — Uyvar ve Novigrad (savaş sırasında alınmıştı) Osmanlı'da kaldı; buna karşılık Erdel'de Habsburg'un adayı tanındı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Ziştovi",
+      "tarih": "1791-08-04",
+      "taraf": [
+        "osmanli",
+        "habsburg"
+      ],
+      "taraf_metin": "Habsburg",
+      "topraklar_metni": "Toprak el değiştirmedi — Avusturya savaş sırasında aldığı Belgrad ve Sırbistan'ı boşaltıp 1788 öncesi sınıra döndü.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Yaş",
+      "tarih": "1792-01-10",
+      "taraf": [
+        "osmanli",
+        "rusya"
+      ],
+      "taraf_metin": "Rusya",
+      "topraklar_metni": "Bug-Dinyester arası (Yedisan) Rusya'ya bırakıldı; Rusya'nın 1783'te ilhak ettiği Kırım tanındı; Boğdan ve Eflak Osmanlı'da kaldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 3,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "İsmail",
+          "tur": "kale",
+          "lat": 45.351,
+          "lon": 28.836,
+          "onceki_sahip": "rusya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1792-01-10",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": true
+        },
+        {
+          "yerlesim": "Hacıbey (Odessa)",
+          "tur": "kale",
+          "lat": 46.485,
+          "lon": 30.733,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1792-01-09",
+          "gun_farki": -1,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Yedisan bozkırı",
+          "tur": "bolge",
+          "lat": 47.6,
+          "lon": 30.9,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1792-01-09",
+          "gun_farki": -1,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Oran",
+          "tur": "liman",
+          "lat": 35.699,
+          "lon": -0.634,
+          "onceki_sahip": "ispanya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1792-02-12",
+          "gun_farki": 33,
+          "y_antlasma_etiketli": true,
+          "oteki_taraf_ANTLASMALAR_disinda": "ispanya"
+        },
+        {
+          "yerlesim": "Mersa'l-Kebîr",
+          "tur": "liman",
+          "lat": 35.728,
+          "lon": -0.709,
+          "onceki_sahip": "ispanya",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1792-02-12",
+          "gun_farki": 33,
+          "y_antlasma_etiketli": true,
+          "oteki_taraf_ANTLASMALAR_disinda": "ispanya"
+        }
+      ]
+    },
+    {
+      "id": "Akkerman",
+      "tarih": "1826-10-07",
+      "taraf": [
+        "osmanli",
+        "rusya"
+      ],
+      "taraf_metin": "Rusya",
+      "topraklar_metni": "Toprak el değiştirmedi; Sırbistan'ın ve Eflak-Boğdan'ın özerkliği genişletildi, Rusya'nın Kafkasya'daki 1812 sınır kazanımları teyit edildi.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "id": "Ayastefanos (San Stefano)",
+      "tarih": "1878-03-03",
+      "taraf": [
+        "osmanli",
+        "rusya"
+      ],
+      "taraf_metin": "Rusya",
+      "topraklar_metni": "Ege'ye kadar uzanan büyük özerk Bulgaristan, Sırbistan/Karadağ/Romanya'nın tam bağımsızlığı ve Kars-Ardahan-Batum Rusya'ya öngörüldü; büyük devletlerin itirazıyla Berlin Kongresi'nde küçültüldü.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 15,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Şavşat",
+          "tur": "kasaba",
+          "lat": 41.245,
+          "lon": 42.36,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Posof",
+          "tur": "kasaba",
+          "lat": 41.51,
+          "lon": 42.72,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Hanak",
+          "tur": "kasaba",
+          "lat": 41.23,
+          "lon": 42.855,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Hulo (Acara)",
+          "tur": "kasaba",
+          "lat": 41.645,
+          "lon": 42.31,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Arpaçay (Akyaka)",
+          "tur": "kasaba",
+          "lat": 40.845,
+          "lon": 43.325,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Digor",
+          "tur": "kasaba",
+          "lat": 40.375,
+          "lon": 43.41,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Iğdır",
+          "tur": "kasaba",
+          "lat": 39.92,
+          "lon": 44.045,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Artvin",
+          "tur": "sehir",
+          "lat": 41.183,
+          "lon": 41.822,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Hopa",
+          "tur": "liman",
+          "lat": 41.39,
+          "lon": 41.427,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Sarp",
+          "tur": "koy",
+          "lat": 41.52,
+          "lon": 41.545,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Borçka",
+          "tur": "kasaba",
+          "lat": 41.339,
+          "lon": 41.677,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Saylıca",
+          "tur": "koy",
+          "lat": 41.33615,
+          "lon": 42.33915,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Makhalak’auri",
+          "tur": "koy",
+          "lat": 41.56667,
+          "lon": 42.41667,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Beri",
+          "tur": "koy",
+          "lat": 39.91667,
+          "lon": 44.25,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Küçükperveli",
+          "tur": "koy",
+          "lat": 40.67302,
+          "lon": 43.61322,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "rusya",
+          "tarih": "1878-03-03",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Niş",
+          "tur": "sehir",
+          "lat": 43.321,
+          "lon": 21.896,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "sirbistan-prensligi",
+          "tarih": "1878-01-11",
+          "gun_farki": -51,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "sirbistan-prensligi"
+        },
+        {
+          "yerlesim": "Sofya",
+          "tur": "sehir",
+          "lat": 42.698,
+          "lon": 23.322,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-01-04",
+          "gun_farki": -58,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bulgaristan-prensligi"
+        }
+      ]
+    },
+    {
+      "id": "İstanbul (Bulgaristan, 1913)",
+      "tarih": "1913-09-29",
+      "taraf": [
+        "osmanli",
+        "bulgaristan-kralligi"
+      ],
+      "taraf_metin": "Bulgaristan",
+      "topraklar_metni": "Edirne ve Kırklareli, II. Balkan Savaşı'nda geri alındığı gibi Osmanlı'da kesin kaldı; sınır Meriç'in biraz doğusundan çizildi.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 4,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Mustafapaşa (Svilengrad)",
+          "tur": "kasaba",
+          "lat": 41.766,
+          "lon": 26.207,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-09-29",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Malko Tırnova",
+          "tur": "kasaba",
+          "lat": 41.983,
+          "lon": 27.525,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-09-29",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Ahtapolu (Ahtopol)",
+          "tur": "liman",
+          "lat": 42.099,
+          "lon": 27.937,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-09-29",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Rezve (Rezovo)",
+          "tur": "koy",
+          "lat": 41.9935,
+          "lon": 28.0192,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-09-29",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Bozcaada",
+          "tur": "kale",
+          "lat": 39.833,
+          "lon": 26.045,
+          "onceki_sahip": "yunanistan",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-11-01",
+          "gun_farki": 33,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "İmroz",
+          "tur": "kale",
+          "lat": 40.163,
+          "lon": 25.905,
+          "onceki_sahip": "yunanistan",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-11-01",
+          "gun_farki": 33,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Selanik",
+          "tur": "liman",
+          "lat": 40.64,
+          "lon": 22.944,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Yanya",
+          "tur": "sehir",
+          "lat": 39.665,
+          "lon": 20.852,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Parga",
+          "tur": "kale",
+          "lat": 39.2925,
+          "lon": 20.4051,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Vonitsa",
+          "tur": "kale",
+          "lat": 38.917,
+          "lon": 20.888,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Preveze",
+          "tur": "liman",
+          "lat": 38.9607,
+          "lon": 20.7469,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Aynaroz (Athos)",
+          "tur": "kale",
+          "lat": 40.257,
+          "lon": 24.244,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Kesendire (Kassandra)",
+          "tur": "sehir",
+          "lat": 40.062,
+          "lon": 23.442,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Lanzaka (Lagkadas)",
+          "tur": "kasaba",
+          "lat": 40.75,
+          "lon": 23.0667,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Aydonat (Paramythia)",
+          "tur": "sehir",
+          "lat": 39.4667,
+          "lon": 20.5167,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Margiliç (Margariti)",
+          "tur": "sehir",
+          "lat": 39.55,
+          "lon": 20.4167,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Souli (Sûli)",
+          "tur": "kale",
+          "lat": 39.4167,
+          "lon": 20.6167,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "İgumenitsa (Gomenice)",
+          "tur": "sehir",
+          "lat": 39.5042,
+          "lon": 20.265,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Filat (Filiates)",
+          "tur": "sehir",
+          "lat": 39.6053,
+          "lon": 20.3175,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Kılkış (Avrathisar)",
+          "tur": "kasaba",
+          "lat": 40.994,
+          "lon": 22.874,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Vodina (Edessa)",
+          "tur": "sehir",
+          "lat": 40.803,
+          "lon": 22.047,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Karaferye (Veria)",
+          "tur": "sehir",
+          "lat": 40.524,
+          "lon": 22.203,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        },
+        {
+          "yerlesim": "Yenice-i Vardar",
+          "tur": "sehir",
+          "lat": 40.79,
+          "lon": 22.407,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "yunanistan"
+        }
+      ]
+    },
+    {
+      "id": "Atina",
+      "tarih": "1913-11-14",
+      "taraf": [
+        "osmanli",
+        "yunanistan"
+      ],
+      "taraf_metin": "Yunanistan",
+      "topraklar_metni": "Girit'in fiilen 1908'den beri süren Yunanistan'a bağlılığı Osmanlı tarafından resmen tanındı; Ege adalarının statüsü büyük devletlere bırakıldı.",
+      "pencere_gun": 60,
+      "eslesen_yerlesim_sayisi": 19,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Selanik",
+          "tur": "liman",
+          "lat": 40.64,
+          "lon": 22.944,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Yanya",
+          "tur": "sehir",
+          "lat": 39.665,
+          "lon": 20.852,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Parga",
+          "tur": "kale",
+          "lat": 39.2925,
+          "lon": 20.4051,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Vonitsa",
+          "tur": "kale",
+          "lat": 38.917,
+          "lon": 20.888,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Preveze",
+          "tur": "liman",
+          "lat": 38.9607,
+          "lon": 20.7469,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Aynaroz (Athos)",
+          "tur": "kale",
+          "lat": 40.257,
+          "lon": 24.244,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kesendire (Kassandra)",
+          "tur": "sehir",
+          "lat": 40.062,
+          "lon": 23.442,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Lanzaka (Lagkadas)",
+          "tur": "kasaba",
+          "lat": 40.75,
+          "lon": 23.0667,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Aydonat (Paramythia)",
+          "tur": "sehir",
+          "lat": 39.4667,
+          "lon": 20.5167,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Margiliç (Margariti)",
+          "tur": "sehir",
+          "lat": 39.55,
+          "lon": 20.4167,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Souli (Sûli)",
+          "tur": "kale",
+          "lat": 39.4167,
+          "lon": 20.6167,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İgumenitsa (Gomenice)",
+          "tur": "sehir",
+          "lat": 39.5042,
+          "lon": 20.265,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Filat (Filiates)",
+          "tur": "sehir",
+          "lat": 39.6053,
+          "lon": 20.3175,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Kılkış (Avrathisar)",
+          "tur": "kasaba",
+          "lat": 40.994,
+          "lon": 22.874,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Vodina (Edessa)",
+          "tur": "sehir",
+          "lat": 40.803,
+          "lon": 22.047,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Karaferye (Veria)",
+          "tur": "sehir",
+          "lat": 40.524,
+          "lon": 22.203,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Yenice-i Vardar",
+          "tur": "sehir",
+          "lat": 40.79,
+          "lon": 22.407,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "yunanistan",
+          "tarih": "1913-11-14",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "Bozcaada",
+          "tur": "kale",
+          "lat": 39.833,
+          "lon": 26.045,
+          "onceki_sahip": "yunanistan",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-11-01",
+          "gun_farki": -13,
+          "y_antlasma_etiketli": false
+        },
+        {
+          "yerlesim": "İmroz",
+          "tur": "kale",
+          "lat": 40.163,
+          "lon": 25.905,
+          "onceki_sahip": "yunanistan",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1913-11-01",
+          "gun_farki": -13,
+          "y_antlasma_etiketli": false
+        }
+      ],
+      "aday_eslesmeler_taraf_disi": [
+        {
+          "yerlesim": "Mustafapaşa (Svilengrad)",
+          "tur": "kasaba",
+          "lat": 41.766,
+          "lon": 26.207,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-09-29",
+          "gun_farki": -46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bulgaristan-kralligi"
+        },
+        {
+          "yerlesim": "Malko Tırnova",
+          "tur": "kasaba",
+          "lat": 41.983,
+          "lon": 27.525,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-09-29",
+          "gun_farki": -46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bulgaristan-kralligi"
+        },
+        {
+          "yerlesim": "Ahtapolu (Ahtopol)",
+          "tur": "liman",
+          "lat": 42.099,
+          "lon": 27.937,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-09-29",
+          "gun_farki": -46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bulgaristan-kralligi"
+        },
+        {
+          "yerlesim": "Rezve (Rezovo)",
+          "tur": "koy",
+          "lat": 41.9935,
+          "lon": 28.0192,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-kralligi",
+          "tarih": "1913-09-29",
+          "gun_farki": -46,
+          "y_antlasma_etiketli": false,
+          "oteki_taraf_ANTLASMALAR_disinda": "bulgaristan-kralligi"
+        }
+      ]
+    }
+  ]
+}

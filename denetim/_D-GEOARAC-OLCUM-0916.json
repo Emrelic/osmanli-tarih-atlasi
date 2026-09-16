@@ -1,0 +1,20 @@
+{
+  "vertex_araligi_km": {
+    "ortalama": 3.3946834757032684,
+    "medyan": 2.0636641557293216,
+    "p10": 0.7996834088349944,
+    "p90": 7.424337617525938,
+    "en_kisa": 0.006744354107531353,
+    "en_uzun": 53.890849358089774,
+    "n_segment": 68552
+  },
+  "cift_sayisi": 338,
+  "parca_sayisi": 390,
+  "toplam_uzunluk_km": 232712.34162641055,
+  "bos_kesisim": 860,
+  "yalniz_nokta_temas": 2,
+  "gecersiz_geom_duzeltilen": 1,
+  "kod_sayisi": 252,
+  "sure_sn": 36.478336572647095,
+  "bellek_mb_zirve": 165.945344
+}
