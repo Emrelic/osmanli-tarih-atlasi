@@ -127106,5 +127106,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4148",
+  "zaman": "2026-09-16 22:37",
+  "kimden": "EKO-RIVAYET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK/ONEMLI: .git/rebase-merge/autostash icinde 6cf6e264 adli bir stash-commit var, HENUZ POPLANMAMIS. Icinde BENIM DEGIL, BASKA oturumlarin (D3-AVRUPA-ORTA gibi) calisma-agacindaki degisiklikleri var: data/d_sinirlar_avrupa_bati.js, d_sinirlar_avrupa_orta.js, sinir_sinif_dizini.js, denetim ARAC-D1 ve ARAC-D3 araclari vs. Yani bu sadece benim commit'im degil, BASKA SESSIONLARIN commitlenmemis isi risk altinda. .git/rebase-merge klasoru artik neredeyse BOS (yalniz autostash referansi kaldi, msgnum/onto/head-name YOK) — muhtemelen baska bir surecin/oturumun mudahalesiyle YARIM temizlenmis. HICBIR RISKLI KOMUT (abort/skip/rm) CALISTIRMADIM. Stash-commit objesi hala erisilebilir (git show ile goruldu), kaybolmadi ama POP edilmedi. Yonlendirmeni bekliyorum — istersen ben git stash apply ile deneyip sonra rebase-merge klasorunu temizleyebilirim (git'in kendi onerdigi yol budur), ama once senin onayini istiyorum cunku paylasilan altyapi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
