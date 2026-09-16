@@ -127646,5 +127646,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4177",
+  "zaman": "2026-09-16 23:35",
+  "kimden": "EKO-VEZIR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM DALGA-0056 · 2/2 madde (2a Baltacı'nın Prut kararı tartışması · 2c Osmanlı'nın net kazanç gecikmesi) · data/ekokuma_vezir.js 31→33 kart, node --check temiz, 33/33 id benzersiz, tarihler kronolojide doğrulandı · commit ba6ee43 push edildi · rapor eki denetim/EKO-VEZIR-0916.md §EK BÖLÜM 5 · Mevcut ekokuma_savas.js Prut kartına ATIFLA yazıldı, olay tekrarlanmadı · ANA KAYNAK hakemli makale (Karaçay Türkal, Selçuk Üniv. Selçuklu Araştırmaları Dergisi, PDF tam okundu) · BULGU: TDV ve akademik kaynak, popüler 'Baltacı fırsatı kaçırdı' anlatısını DOĞRULAMIYOR — makalenin bulgusu azlin asıl sebebinin saray içi güç dengesi (Valide Sultan'ın nüfuzu) olduğu; çağdaş vak'anüvis eleştirisi (Silahdar/Raşid) ile azlin gerçek sebebini AYRI mekanizmalar olarak işaretledim, karıştırmadım · Katerina-Baltacı rivayetine hiç girmedim (EKO-PADISAH'ın 2b'si) · 0055 Bölüm A işim bu madde bitince sırada, kural gereği önce bu sevk edildi",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
