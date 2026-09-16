@@ -14,7 +14,37 @@
 // KAYNAK: yalnız okunmuş belgeler — Aitchison c. XIII (1933), Encyclopaedia Iranica (Balland),
 // FRUS 1921 II, LNTS 34. Atlas verisi dayanak DEĞİLDİR (CLAUDE.md §4).
 
+// ── G2 (1918-11-11 → 1914-07-28) ────────────────────────────────────
+// Rus tarafındaki taraf geçişleri (rusya → rusya-gecici-hukumet → sovyet-rusya, 1917) hat kayıtlarında
+// kırılma üretir ama SINIR olayı değildir — devlet kronolojilerinde anlatılır, burada YAZILMADI.
+
 window.KRONOLOJI_SINIR_ASYA = [
+
+{ t:"1915-06-07", devlet:"mogolistan", devletler:["mogolistan","cin-cumhuriyeti"], b:"Kiahta Üçlü Anlaşması — Dış Moğolistan'ın sınırı sancak sınırlarına bağlandı", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
+  etiket:["sinir","diplomasi","mogolistan","cin-cumhuriyeti","konu-siyasi","konu-diplomasi","sinif-YOK"],
+  d:"Rusya, Çin ve Dış Moğolistan arasında Kiahta'da imzalanan anlaşma Dış Moğolistan'ı Çin metbuluğu altında özerk saydı. 11. madde sınırı yalnız sancak ve aymak sınırlarına atıfla genel olarak tarif etti ve bir karma komisyon öngördü; bu komisyon hiç kurulmadı, sınırlandırma belgesi düzenlenmedi. Hat 1962–1964'e kadar hukuken çizilmemiş kaldı.",
+  kaynak:"IBS No. 173 China–Mongolia (ABD Dışişleri, 14.08.1984) — Kyakhta Tripartite Agreement 7 Haziran 1915, md. XI",
+  sinir_kaydi:"d1923-cn-mn-FIILI" },
+
+{ t:"1915-06-12", devlet:"cin-cumhuriyeti", devletler:["cin-cumhuriyeti","rusya"], b:"Horgos nehri boyunca Rus–Çin sınırlandırma protokolü", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"", kapsam_genis:true,
+  etiket:["sinir","diplomasi","cin-cumhuriyeti","rusya","konu-diplomasi","sinif-C"],
+  d:"1881 İli (St. Petersburg) Antlaşması'nın Horgos nehrini ayırıcı hat sayan hükmü, nehrin dağdan çıktığı noktadan İli'ye kadar bir protokolle sınırlandırıldı. Protokol nehir içindeki hattın talveg mi orta hat mı olduğunu belirtmiyor; işaretleme yapıldığı da anılmıyor.",
+  kaynak:"IBS No. 64 (rev.) China–U.S.S.R. (ABD Dışişleri, 13.02.1978) — Khorgos protokolü 12 Haziran 1915",
+  sinir_kaydi:"g2-sscb-cn-BILINMIYOR-kazak-rusya" },
+
+{ t:"1915-09-28", devlet:"hollanda-dogu-hint", devletler:["hollanda-dogu-hint","ingiltere"], b:"Londra Anlaşması — Borneo'da Hollanda–Kuzey Borneo sınırı işaretlendi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+  etiket:["sinir","diplomasi","hollanda-dogu-hint","ingiltere","konu-diplomasi","sinif-E"],
+  d:"İngiltere ile Hollanda, 17 Şubat 1913 tarihli Tawao ortak komisyon raporunu Londra'da imzalanan bir anlaşmayla kabul etti. 1891 Londra Sözleşmesi'nin 4°10' ve 4°20' kuzey paralelleri üzerindeki hattı yerinde tespit edildi: Sebatik adasının iki kıyısına iki, 4°20' paraleli üzerindeki nehir geçişlerine dört sütun dikildi. Kuzey Borneo o tarihte İngiliz himayesinde şirket yönetimindeydi.",
+  kaynak:"IBS No. 45 Indonesia–Malaysia (ABD Dışişleri, 15.03.1965) — London Agreement 28 Eylül 1915",
+  sinir_kaydi:"d1923-hd-en-sebatik" },
+
+{ t:"1916-08-17", devlet:"hollanda-dogu-hint", devletler:["hollanda-dogu-hint","portekiz"], b:"Timor sınırını düzenleyen protokol — Maucatar ve Noimuti değişimi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
+  etiket:["sinir","diplomasi","hollanda-dogu-hint","portekiz","konu-diplomasi","sinif-E"],
+  d:"1904 La Haye Sözleşmesi'nin 4. maddesi, Hollanda'nın Maucatar'ı Portekiz'e, Portekiz'in Noimuti'yi Hollanda'ya devrinin ancak sınır tespit belgeleri imzalandıktan sonra gerçekleşeceğini söylüyordu. IBRU kronolojisine göre sınırları düzenleyen protokol 17 Ağustos 1916'da La Haye'de imzalandı; bu günün dayanağı tek kaynaktır ve tablo düzeni bozuk okunmuştur.",
+  kaynak:"UN RIAA vol. XI s. 481–517 (1904 Sözleşmesi md. 4) · N. Deeley, The International Boundaries of East Timor, IBRU Boundary & Territory Briefing 3/5 (Durham 2001), kronoloji tablosu",
+  sinir_kaydi:"d1923-hd-pt-orta" },
+
+// ── G1 (1923-10-29 → 1918-11-11) ────────────────────────────────────
 
 { t:"1919-08-08", devlet:"afganistan", devletler:["afganistan","ingiliz-hindistani"], b:"Ravalpindi Antlaşması — Afganistan Hindistan sınırını kabul etti", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["sinir","diplomasi","afganistan","ingiliz-hindistani","konu-siyasi","konu-diplomasi","sinif-E"],

@@ -146,29 +146,31 @@ SINIF = {"D": "E", "C": "C", "D-YOK": "YOK", "fiili": "D"}
 SINIF_NOT = {"E": "eski kategori D → E. F için kanıt D-KUNYE tanınma tablosunu (denetim/TANINMA-1923-0916.json) bekliyor"}
 
 
-def ekle(id_, a, b, f, kategori, parcalar, dayanak, degisti, tahdit, kesinlik, kesinlik_not, not_="", geo=NE, sol=None, t=T):
+def ekle(id_, a, b, f, kategori, parcalar, dayanak, degisti, tahdit, kesinlik, kesinlik_not, not_="", geo=NE, sol=None, t=T, sinif=None):
     parcalar = [p for p in parcalar if uzunluk(p) >= 1.0]
     if not parcalar:
         raise SystemExit(f"{id_}: parça kalmadı")
+    f0 = f
     f, kn = kirp(id_, a, b, f, t)
     for i, ls in enumerate(parcalar):
         KAYIT.append({
             "id": id_ + (f"-{i+1}" if len(parcalar) > 1 else ""),
             "taraflar": [a, b], "f": f, "t": t, "kategori": kategori,
-            "sinif": SINIF[kategori], "sinif_not": SINIF_NOT.get(SINIF[kategori], ""),
+            "sinif": sinif or SINIF[kategori], "sinif_not": SINIF_NOT.get(sinif or SINIF[kategori], ""),
             "sol_taraf": sol or sol_taraf(ls, a, b), "hat": dizi(ls),
             "uzunluk_km": round(uzunluk(ls), 1), "geometri_kaynagi": geo,
             "degisti": degisti, "tahdit": tahdit,
             "kesinlik_km": kesinlik, "kesinlik_not": kesinlik_not,
-            "dayanak": dayanak, "not": " · ".join(x for x in (not_, kn) if x),
+            "dayanak": dayanak, "not": " · ".join(x for x in (not_, kn) if x), "_f0": f0,
         })
 
 
 def yok(id_, a, b, f, kutu, degisti, dayanak, not_="", t=T):
+    f0 = f
     f, kn = kirp(id_, a, b, f, t)
     KAYIT.append({"id": id_, "taraflar": [a, b], "f": f, "t": t, "kategori": "D-YOK", "sinif": "YOK", "hat": None,
                   "kutu": [round(v, 3) for v in kutu], "degisti": degisti, "dayanak": dayanak,
-                  "not": " · ".join(x for x in (not_, kn, YOK_NOT) if x)})
+                  "not": " · ".join(x for x in (not_, kn, YOK_NOT) if x), "_f0": f0})
 
 
 def ibs(n, ad, alinti=None):
@@ -201,7 +203,7 @@ sah_ls = LineString([(round(x, 4), 50.0) for x, _ in sah[0].coords] if len(sah[0
 x0, x1 = sah_ls.coords[0][0], sah_ls.coords[-1][0]
 nx = max(2, int((x1 - x0) / 0.25) + 1)
 sah_ls = LineString([(x0 + (x1 - x0) * k / (nx - 1), 50.0) for k in range(nx)])
-ekle("d1923-jp-sscb-sahalin", JP, SV, "1905-10-15", "D", [sah_ls],
+ekle("d1923-jp-sscb-sahalin", JP, SV, "1905-09-05", "D", [sah_ls],
      [{"ad": "Portsmouth Antlaşması", "madde": "md. IX (+ Ek md. II karma komisyon)", "tarih": "1905-09-05", "tur": "antlaşma metni",
        "kaynak": "worldjpn.net/documents/texts/pw/19050905.T1E.html (Tokyo Üniv.)",
        "alinti": "The fiftieth degree of north latitude is adopted as the northern boundary"},
@@ -213,7 +215,7 @@ ekle("d1923-jp-sscb-sahalin", JP, SV, "1905-10-15", "D", [sah_ls],
      {"t": "1906-07/1907-08", "not": "iki arazi mevsimi (1906 Tem–Eyl, 1907 May–Ağu); kapanış protokolü günü bulunamadı"},
      1.0, "hat antlaşmanın paraleli (tam 50°00'K); uçlar NE 10m kıyı kesişimi — taşların gerçek konumu ÖLÇÜLMEDİ",
      "⚠️ FİİLÎ DURUM: kuzey Sahalin 1923'te JAPON İŞGALİNDE (Temmuz 1920 → 15 May 1925; başlangıç günü yalnız ay düzeyinde, FRUS 1921 II d698). "
-     "Hukukî hat 50°K'dir; renderer işgali ayrıca göstermeli. f: Portsmouth yürürlük günü BULUNAMADI — 1905-10-15 IBS 17 (OCR) okumasıdır, doğrulanmadı. "
+     "Hukukî hat 50°K'dir; renderer işgali ayrıca göstermeli. f: Portsmouth İMZA günü (yürürlük günü okunmadı; IBS 17 OCR'ında 15 Eki 1905 geçiyor, doğrulanmadı). "
      "Taraf SSCB (atlasta Uzakdoğu Cumhuriyeti künyesi YOK). "
      "⚠️ ŞEMA BOŞLUĞU: FİİLÎ görünümde (D>F>E) işgal süresince bu E hattı fiilî sınır DEĞİLDİ (iki yakası da Japon elinde) — "
      "'burada fiilî hat YOK' ifadesi şemada yok; D-KATMAN'a bildirildi.",
@@ -228,24 +230,24 @@ yok("d1923-sscb-cn-BILINMIYOR-dogu", SV, CN, "1860-11-14", bbox([max(cizgi("CHN-
      ibs(64, "China–U.S.S.R.", "Argun, Amur, and Ussuri has never been precisely delimited.")],
     "Envanter §2.1: Sungaça–Tumen kara kesimi 1923'te D (1861 20 direk); nehirler C; Mançuli · 64 köy · kavşak adaları FİİLİ. "
     "Uzakdoğu Cumhuriyeti (1920–22) için atlasta ayrı künye YOK — Sovyet tarafı baştan `sovyet-rusya`")
-yok("d1923-sscb-cn-BILINMIYOR-batialtay", SV, CN, "1917-11-07", bbox([min(cizgi("CHN-RUS"), key=uzunluk)], 0.10),
+yok("d1923-sscb-cn-BILINMIYOR-batialtay", SV, CN, "1881-08-19", bbox([min(cizgi("CHN-RUS"), key=uzunluk)], 0.10),
     {"deger": None, "kaynak": "IBS 64 (1978)"},
     [{"ad": "St. Petersburg (İli) Antlaşması", "tarih": "1881-02-24", "tur": "antlaşma"}, ibs(64, "China–U.S.S.R.")],
     "Altay'daki kısa kesim (Moğolistan üçlü noktası civarı)")
-yok("d1923-sscb-cn-BILINMIYOR-kazak", SV, CN, "1917-11-07", bbox(cizgi("CHN-KAZ"), 0.10),
+yok("d1923-sscb-cn-BILINMIYOR-kazak", SV, CN, "1893-12-20", bbox(cizgi("CHN-KAZ"), 0.10),
     {"deger": None, "kaynak": "IBS 64 (1978)", "not": "1978'e kadar değişiklik bildirilmemiş; bağımsızlık sonrası Kazakistan–Çin anlaşmaları OKUNMADI"},
     [{"ad": "Tarbagatay (Çuguçak) Protokolü", "tarih": "1864-10-07", "tur": "protokol"},
      {"ad": "St. Petersburg (İli) Antlaşması", "tarih": "1881-02-24", "tur": "antlaşma"},
      ibs(64, "China–U.S.S.R.", "This part has been demarcated and about 12 markers are shown")],
     "Envanter §2.1: 1923'te D (Tekes–İli ~12 işaret; Jungar Alatau–Tarbagatay 1883/1893) · Horgos C")
-yok("d1923-sscb-cn-BILINMIYOR-kirgiz", SV, CN, "1917-11-07", bbox(cizgi("CHN-KGZ"), 0.10),
+yok("d1923-sscb-cn-BILINMIYOR-kirgiz", SV, CN, "1884-05-22", bbox(cizgi("CHN-KGZ"), 0.10),
     {"deger": None, "kaynak": "IBS 64 (1978)", "not": "Kırgızistan–Çin sonraki anlaşmaları OKUNMADI"},
     [{"ad": "Tarbagatay (Çuguçak) Protokolü", "tarih": "1864-10-07", "tur": "protokol"},
      {"ad": "Kaşgar protokolü", "tarih": "1882-11-25", "tur": "protokol"},
      {"ad": "Novi-Margelan protokolü", "tarih": "1884-05-22", "tur": "protokol"},
      ibs(64, "China–U.S.S.R.", "The 1864 delimitation of Tarbagatay is applicable from the Kizil Jik Dawan")],
     "Envanter §2.1: 1923'te D; protokol haritaları IBS'te yok")
-yok("d1923-sscb-cn-FIILI-pamir", SV, CN, "1917-11-07", bbox(cizgi("CHN-TJK"), 0.10),
+yok("d1923-sscb-cn-FIILI-pamir", SV, CN, "1895-03-11", bbox(cizgi("CHN-TJK"), 0.10),
     {"deger": None, "kaynak": "IBS 64 (1978)", "not": "1978'de hâlâ tartışmalı; Tacikistan–Çin sonraki anlaşmaları OKUNMADI"},
     [{"ad": "İngiliz–Rus Pamir anlaşması", "tarih": "1895-03-11", "tur": "nota teatisi", "not": "Çin'e danışılmadan"},
      ibs(64, "China–U.S.S.R.", "no treaty delimits the boundary in the Pamirs south of the pass")],
@@ -499,7 +501,7 @@ BAL = {"ad": "D. Balland, 'Boundaries iii. Boundaries of Afghanistan', Encyclopa
        "tur": "akademik", "url": "https://www.iranicaonline.org/articles/boundaries-iii"}
 AIT13 = {"ad": "Aitchison, Treaties, Engagements and Sanads, c. XIII (1933)", "tur": "resmî derleme",
          "url": "https://archive.org/details/in.ernet.dli.2015.206818"}
-ekle("d1923-af-sscb-bati", AF, SV, "1917-11-07", "D", cizgi("AFG-TKM"),
+ekle("d1923-af-sscb-bati", AF, SV, "1888-01-26", "D", cizgi("AFG-TKM"),
      [{"ad": "Londra protokolü (İngiltere–Rusya)", "tarih": "1885-09-10", "tur": "protokol"},
       {"ad": "Petersburg uzlaşması (son protokol No. IX)", "tarih": "1887-07-22", "tur": "protokol"},
       {"ad": "Kham Ab son protokolü", "tarih": "1888-01-26", "tur": "protokol"},
@@ -510,7 +512,7 @@ ekle("d1923-af-sscb-bati", AF, SV, "1917-11-07", "D", cizgi("AFG-TKM"),
 at = cizgi("AFG-UZB") + cizgi("AFG-TJK")
 PIL1 = 73 + 49 / 60                                         # IBS 26: 1. direk 37°26'32" / 73°49'00" (1895 sütunu)
 pamir = parcala(cizgi("AFG-TJK"), lambda c: c[0] >= PIL1)
-ekle("d1923-af-sscb-pamir", AF, SV, "1917-11-07", "D", pamir,
+ekle("d1923-af-sscb-pamir", AF, SV, "1895-03-11", "D", pamir,
      [{"ad": "İngiliz–Rus Pamir notaları", "tarih": "1895-03-11", "tur": "nota teatisi"},
       {"ad": "Pamir Komisyonu protokolleri + Gerard / Povalo-Şveykovski haritası", "tarih": "1895", "tur": "protokol",
        "not": "12 direğin enlem-boylamı Aitchison c. XIII Ek V'te (boylam Pulkovo'ya göre)"},
@@ -519,7 +521,7 @@ ekle("d1923-af-sscb-pamir", AF, SV, "1917-11-07", "D", pamir,
      {"t": "1895", "not": "12 direk, 1895 yazı"},
      1.5, KES_NE + " · batı ucu IBS 26'nın 1. direk boylamıyla (73°49'D) kesildi; Zorkul gölü içi kesim DIŞARIDA",
      "Envanter §3.11 · ⚠️ 1. direk koordinatı IBS 26 (73°49'00,6\") ile Aitchison Ek V (≈73°46'30\") arasında ÇELİŞKİLİ")
-yok("d1923-af-sscb-DEGISTI-amuderya", AF, SV, "1917-11-07",
+yok("d1923-af-sscb-DEGISTI-amuderya", AF, SV, "1895-03-11",
     bbox(cizgi("AFG-UZB") + parcala(cizgi("AFG-TJK"), lambda c: c[0] < PIL1), 0.05),
     {"deger": True, "kaynak": "IBS 26", "not": "1946 protokolü talveg/orta hat kuralı; 1947–48'de 1.192 ada paylaştırıldı; Darkad adası 26 Şub 1926'da Afganistan'a"},
     [{"ad": "Granville–Gorçakov yazışması", "tarih": "1873-01-31", "tur": "nota teatisi"},
@@ -567,6 +569,78 @@ yok("d1923-en-cn-BILINMIYOR-hongkong", EN, CN, "1899-03-19", bbox(cizgi("CHN-HKG
     [{"ad": "Peking Konvansiyonu (Yeni Topraklar kirası)", "tarih": "1898-06-09", "tur": "konvansiyon", "not": "onay 6 Ağu 1898"},
      ibs(13, "China–Hong Kong", "the right or northern bank of the river generally known as the Sham Chun")],
     "Envanter §2.9 · 1923'te sınıf D (kıyı + kazıklar). f: 1899 tespiti — GÜN ÇELİŞKİLİ (IBS 13 başlık 14 Mart, Ek I 19 Mart); Ek I metni esas alındı")
+
+# ================= G2 GERİYE SARMA (1918-11-11 → 1914-07-28) =================
+# (a) Çin–Moğolistan: Kiahta 1915'ten önceki hâl — 1913 Pekin Deklarasyonu (IBS 173)
+yok("g2-cn-mn-FIILI-1913", CN, MN, "1913-11-05", bbox(cizgi("CHN-MNG"), 0.10),
+    {"deger": True, "kaynak": "IBS 173"},
+    [{"ad": "Rus–Çin Pekin Deklarasyonu", "tarih": "1913-11-05", "tur": "deklarasyon",
+      "not": "Dış Moğolistan'ın sınırlarını açıkça belirsiz bırakıp konferansa havale eder"},
+     ibs(173, "China–Mongolia", "there are no detailed maps of Mongolia")],
+    "G2 · 1913–1915 hâli, sınıf FİİLİ (hukukî hat yok). 1913 öncesi (Bogd Hanlık ilanı) G3'ün işi",
+    t="1915-06-07")
+
+# (b) Borneo: 1915 Londra Anlaşması'ndan önceki 1891 hâli
+ekle("g2-hd-en-sebatik-1891", HD, EN, "1891-06-20", "D", parcala(ib, SEB),
+     [dict(B91, madde="md. IV"), ibs(45, "Indonesia–Malaysia (Borneo)", "an additional two (on the parallel of 4° 10' N.)")],
+     {"deger": False, "kaynak": "IBS 45 (1965)", "not": "hat 1891'den beri 4°10'K paraleli; 1915 yalnız işaretledi. " + IBS_TARIH},
+     {"t": None, "not": "1915'e kadar işaretsiz"}, 1.0, KES_NE,
+     "G2 · 1891–1915 hâli: Sebatik 1891 md. IV ile paralel üzerinden bölünmüş (koordinat tarifi), işaret 1915. Taraf `ingiltere` vekil",
+     t="1915-09-28")
+ekle("g2-hd-en-4-20-1891", HD, EN, "1891-06-20", "C", parcala(ib, PAR),
+     [dict(B91, madde="md. II (nehirler için 5 millik sapma şeridi)"), ibs(45, "Indonesia–Malaysia (Borneo)")],
+     {"deger": False, "kaynak": "IBS 45 (1965)", "not": IBS_TARIH},
+     {"t": None, "not": "1915'e kadar işaretsiz"}, 3.0, KES_NE + " · 1891'de nehir geçişlerindeki sapmalar tanımsızdı; çizgi 1915 hâlidir",
+     "G2 · 1891–1915 hâli: paralel tarif var ama nehir sapmaları 1915'e kadar tespit edilmemişti ⇒ C. Taraf `ingiltere` vekil",
+     t="1915-09-28")
+
+# (c) Timor: 1916 değişim protokolünden önceki hâl — Maucatar/Noimuti henüz devredilmemiş (1904 md. 4)
+ekle("g2-hd-pt-orta-1908", HD, PT, "1908-08-29", "D", ana, TIM,
+     {"deger": False, "kaynak": "IBRU 2001"},
+     {"t": "1915-04", "not": "karma komisyon Nisan 1915'te bu aralıkta işaretledi"},
+     1.5, KES_NE,
+     "G2 · 1908–1916 hâli: 1904 md. 5 hattı yürürlükte (onay 29 Ağu 1908, IBRU) AMA md. 4 gereği Maucatar hâlâ HOLLANDA enklavı — "
+     "enklav sınırının koordinatı yok ⇒ çizilmedi (o bölgede bu hat yanıltır)",
+     t=TIM_F)
+ekle("g2-hd-pt-oecussi-1914", HD, PT, "1914-06-25", "D", oek,
+     TIM + [{"ad": "Timor sınırı hakem kararı (Hollanda–Portekiz)", "tarih": "1914-06-25", "tur": "hakem kararı",
+             "kaynak": "UN RIAA vol. XI (Paris, 25 Haziran 1914)"}],
+     {"deger": False, "kaynak": "IBRU 2001"},
+     {"t": None, "not": "kararın emrettiği arazi tespiti BULUNAMADI"},
+     1.5, KES_NE,
+     "G2 · 1914–1916 hâli: doğu kesim hakem kararıyla belirlendi; Noimuti hâlâ PORTEKİZ enklavı (1904 md. 4) — çizilmedi. "
+     "1914 kararından önceki hâl (doğu kesim tartışmalı) G3'ün işi",
+     t=TIM_F)
+
+# (d) Rus tarafı: sovyet-rusya kaydının iki öncülü (hat aynı, taraf değişti)
+RUS_ZINCIR = [("rusya-gecici-hukumet", "gecici"), ("rusya", "rusya")]
+# Kore 1910'a kadar `joseon` (künye sonu) — Japonya o hatta ilhakla taraf oldu; öncesi G3'ün işi
+ALT_F = {"d1923-jp-sscb-BILINMIYOR-tumen": pad(KUNYE["joseon"][1])}
+yeni = []
+for k in KAYIT:
+    if SV not in k["taraflar"] or k["id"].startswith("g"):
+        continue
+    for rid, ek in RUS_ZINCIR:
+        kf, kt = pad(KUNYE[rid][0]), pad(KUNYE[rid][1])
+        if pad(k["_f0"]) >= kt:
+            continue
+        diger = [x for x in k["taraflar"] if x != SV][0]
+        f = max(pad(k["_f0"]), kf, pad(KUNYE[diger][0]), ALT_F.get(k["id"], ""))
+        if f >= kt:
+            continue
+        c = json.loads(json.dumps(k))
+        c["id"] = "g2-" + k["id"][len("d1923-"):] + "-" + ek
+        c["taraflar"] = [rid if x == SV else x for x in k["taraflar"]]
+        if c.get("sol_taraf") == SV:
+            c["sol_taraf"] = rid
+        c["f"], c["t"] = f, kt
+        c["not"] = (f"G2 · aynı hat, Rus tarafı `{rid}` (künye {KUNYE[rid][0]} → {KUNYE[rid][1]}); "
+                    "taraf geçişi bir SINIR olayı değildir, kronolojiye yazılmadı · ") + k["not"]
+        yeni.append(c)
+KAYIT += yeni
+print("G2 Rus öncülü:", len(yeni))
+for k in KAYIT:
+    k.pop("_f0", None)
 
 # ---- yaz ----
 ids = [k["id"] for k in KAYIT]
