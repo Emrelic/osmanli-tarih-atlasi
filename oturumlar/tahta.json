@@ -121448,5 +121448,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4003",
+  "zaman": "2026-09-16 16:45",
+  "kimden": "EKO-DUNYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · data/ekokuma_dunya.js (18 kart, node --check temiz, 265 kartlik aileyle id/anchor cakismasi yok) + denetim/EKO-DUNYA-0916.md · commit d41528e, push edildi · H-0035/36/37/38/40/41/70/78/79/88 TAM, H-0006 KISMEN (3 yeni savas: Viyana-Karlofca, Kirim Savasi, 93 Harbi; Prut adayi ekokuma_savas.js'de ZATEN VARDI, D045, yazilmadi), 51/H-0003 icerik TAM. Bulunamadi/uydurulmadi kalemler raporda. UI'ya AYRI mesaj gidiyor: 51/H-0003'un harita-odagi sikayeti icerik degil.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
