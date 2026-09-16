@@ -223,7 +223,7 @@ ekle("d1917-filistin-misir-askeri-idare", ["misir-sultanligi", "ingiltere"], "19
      "Filistin yakası İngiliz askerî idaresi (OETA; ayrı künye YOK → `ingiltere`). Hukuken hâlâ Osmanlı toprağı (Lozan 1924'te yürürlüğe girdi) ⇒ D. "
      "🔴 f günü: Birüssebi'nin alınışı (TDV, gün var) — hattın doğu yakasındaki Osmanlı savunmasının çöktüğü gün; Gazze'nin günü TDV'de YOK ('1917'), "
      "Akabe Temmuz 1917'den beri Hicaz elinde (RIAA §66). Başlangıç ±1 hafta. Öncesi (1914-12-18 → 1917-10-31) CEPHE: kesin hat yok → kayıt yok (A/B).")
-ekle("d1914-filistin-misir-hidivlik", ["misir-kavalali", "osmanli"], "1914-07-28", "1914-12-18", "E", em,
+ekle("d1906-filistin-misir-hidivlik", ["misir-kavalali", "osmanli"], "1906-10-01", "1914-12-18", "E", em,
      "misir-kavalali" if G["EGY"].contains(sol_nokta(em)) else "osmanli",
      DAY_FIL_G1[:1] + [{"ad": "TDV misir", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/misir",
                         "alinti": "18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp"}],
@@ -232,8 +232,9 @@ ekle("d1914-filistin-misir-hidivlik", ["misir-kavalali", "osmanli"], "1914-07-28
      1.5, KES_NE, NE + " — EGY ile İsrail+Gazze birleşik",
      "Osmanlı hükümeti ile Hidiv hükümeti arasında 1906'da kararlaştırılıp birlikte işaretlenmiş hat ⇒ E. Ama Mısır hukuken Osmanlı'nın İMTİYAZLI EYALETİ "
      "(ve 1882'den beri İngiliz işgalinde) ⇒ hat bir 'idarî ayırma hattı'dır (anlaşmanın kendi adı), iki bağımsız devlet arasında değil. "
-     "f = G2 DALGA SINIRI (1914-07-28); hattın başlangıcı 1906 (G3'te). t = İngiliz himayesinin ilânı (TDV).",
-     cins="idari_ic_hat", f_dalga_siniri=True)
+     "f = Refah Anlaşması günü (RIAA XX Ek B); sütunlar 31.12.1906-9.2.1907 dikildi, hat o güne kadar METİNLE belirliydi. "
+     "Öncesi (1892 fermanı / 1906 Akabe-Taba bunalımı) kaba ya da ihtilaflı → kayıt yok. t = İngiliz himayesinin ilânı (TDV).",
+     cins="idari_ic_hat")
 ekle("d1920-filistin-misir-manda", ["misir-sultanligi", FIL], "1920-07-01", "1922-03-15", "D", em,
      "misir-sultanligi" if G["EGY"].contains(sol_nokta(em)) else FIL,
      DAY_FIL_G1[:1] + [{"ad": "TDV filistin", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/filistin",
@@ -250,7 +251,7 @@ ekle("d1920-filistin-misir-manda", ["misir-sultanligi", FIL], "1920-07-01", "192
 # eşleme: D→E (F kanıtı gelene kadar; denetim/TANINMA-1923-0916.json YOK) · fiili→D · C→C · D-YOK→YOK
 # istisna: Filistin–Mısır ailesi D (koordinat kesin, hukukî teyit 1926)
 SINIF_OZEL = {"d1923-filistin-misir": "D", "d1917-filistin-misir-askeri-idare": "D", "d1920-filistin-misir-manda": "D",
-              "d1914-filistin-misir-hidivlik": "E"}
+              "d1906-filistin-misir-hidivlik": "E"}
 ESLEME = {"D": "E", "fiili": "D", "C": "C", "D-YOK": "YOK", "E": "E"}
 
 # ─────────────────────────── L2 · FİLİSTİN–ŞARKÎ ÜRDÜN (1922) ───────────────────────────
@@ -313,9 +314,28 @@ ekle("d1923-libya-cezayir-gadames", [ITA, CEZ], "1912-10-18", "1923-10-29", "D",
      5.0, KES_NE + " · NE yarım dairesi IBS'ninkinden geniş (uç Gadames'e ~18 km, IBS ~13-14 km; kesim ~41 km, IBS ~20 mil=32 km) · güney ucu (taş 233) NE çizgisinin Gadames'ten 225° ışınıyla kesiştiği yerde kesildi ('yaklaşık 14 km güneybatı') — gerçek taş koordinatı okunmadı",
      NE + " — kuzey uçtan taş 233'e kadar",
      "Libya kimliği geçici `italya` (bkz. d1923-libya-tunus). 1923'te bu kesim Tunus'un değil Cezayir'in (1911 Caillaux + 1923 Harbiye hattı, IBS 001 s.6); Tunus 1959'dan beri itiraz ediyor.")
+# G3: aynı iki kesim, Uşi'den (1912-10-18) önce Osmanlı Trablusgarp'ı ile
+DAY_USI = {"ad": "TDV trablusgarp-savasi", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/trablusgarp-savasi",
+           "alinti": "18 Ekim'de Lozan yakınlarındaki Uşi (Ouchy) kasabasında … nihaî bir barış antlaşması"}
+ekle("d1910-libya-tunus-osmanli", ["osmanli", TUN], "1910-05-19", "1912-10-18", "D", lt,
+     TUN if G["TUN"].contains(sol_nokta(lt)) else "osmanli", DAY_1910 + [DAY_USI],
+     {"deger": False, "kaynak": "IBS 121 s.4", "not": "1910 hattı bugünkü Libya–Tunus sınırı"},
+     {"t": "1910-1911", "not": "karma komisyon taş 31-233; sözleşme günü hat METİNLE belirliydi"},
+     2.0, KES_NE, NE,
+     "Fransız–Osmanlı sözleşmesi ('Regency of Tunis' – 'Vilayet of Tripoli') ⇒ E. ⚠️ Gün: IBS 121 + Martens '19 May 1910', IBS 001 '12 May 1910' — 19 esas. "
+     "⚠️ Fransa içi ihtilaf: 1910'da Zar'ın güneyi Cezayir sayılıyordu; Tunus'un taş 220'ye kadar koridoru 1911 Caillaux kararıyla (gün BULUNAMADI) — "
+     "sözleşmenin kendi başlığı Tunus dediği için kesim Tunus'a yazıldı. Eylül 1911'den itibaren İtalyan işgali kıyıda; hukukî taraf Uşi'ye kadar Osmanlı.",
+     sinif_zorla="E")
+ekle("d1910-libya-cezayir-gadames-osmanli", ["osmanli", CEZ], "1910-05-19", "1912-10-18", "D", d233,
+     CEZ if G["DZA"].contains(sol_nokta(d233)) else "osmanli", DAY_1910 + [DAY_USI],
+     {"deger": False, "kaynak": "IBS 001 s.2, s.6", "not": "taş 220-233 kesimi 1956'da değişmedi"},
+     {"t": "1910-1911", "not": "taş 220-233; yerleri UNTS c.300 s.290-291 (AÇILMADI)"},
+     5.0, KES_NE + " · güney ucu Gadames'in 225° ışını (taş 233 vekili)", NE + " — kuzey uçtan taş 233'e kadar",
+     "Fransız–Osmanlı 1910 sözleşmesi ⇒ E. IBS 001: Fransız delegeler Tunus ve Cezayir ADINA birlikte hareket etti; bu kesim Cezayir'in.",
+     sinif_zorla="E")
 
 for r in KAYIT:
-    r["sinif"] = SINIF_OZEL.get(r["id"], ESLEME[r["kategori"]])
+    r["sinif"] = r.pop("sinif_zorla", None) or SINIF_OZEL.get(r["id"], ESLEME[r["kategori"]])
     if r["sinif"] == "E":
         r["sinif_not"] = "F adayı değerlendirilmedi: D-KUNYE tanınma tablosu (denetim/TANINMA-1923-0916.json) henüz yok — E yazıldı"
     elif r["id"] in SINIF_OZEL:
@@ -343,7 +363,36 @@ KRON = [
           "ülkeyi himayesine aldı. Osmanlı ile Hidiv hükümetinin 1906'da birlikte çizip işaretlediği Refah–Taba hattı artık iki tarafın ortak kabulüne dayanmıyordu; "
           "sonraki üç yıl bu hat bir cephe hattına dönüştü ve Osmanlı kuvvetleri Sina'ya ilerleyip iki kez Süveyş Kanalı'nı geçmeye çalıştı.",
      "kaynak": "TDV misir ('18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp' · Cemal Paşa'nın iki kanal harekâtı) · RIAA XX §54-59",
-     "sinir_id": ["d1914-filistin-misir-hidivlik"], "sinif": "E→YOK"},
+     "sinir_id": ["d1906-filistin-misir-hidivlik"], "sinif": "E→YOK"},
+    # ── G3 (1878-07-13 → 1914-07-28) ──
+    {"t": "1906-10-01", "devlet": "osmanli", "taraflar": ["osmanli", "misir-kavalali"],
+     "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah–Taba hattı tarif edildi",
+     "tur": "antlasma", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "",
+     "etiket": ["antlasma", "sinir", "osmanli", "misir-kavalali", "ingiltere", "konu-siyasi", "konu-diplomasi"],
+     "d": "1906 Akabe–Taba bunalımının ardından Osmanlı ve Hidiv komiserleri Refah'ta bir 'idarî ayırma hattı' üzerinde anlaştı: "
+          "hat Akabe Körfezi'ndeki Ras Taba'dan kuzeybatıya adlı tepeler üzerinden Refah'taki iki sütunun ortasına ve oradan Akdeniz'e uzanıyordu. "
+          "Karma heyet 31 Aralık 1906 ile 9 Şubat 1907 arasında hat boyunca 91 kâgir sütun dikti. Bu hat bugünkü Mısır–İsrail ve Mısır–Gazze sınırıdır.",
+     "kaynak": "Taba hakem kararı, RIAA XX (1988) Ek B s.114-116 (anlaşma metni) ve §54-59 (dikim) · IBS 46",
+     "sinir_id": ["d1906-filistin-misir-hidivlik"], "sinif": "E"},
+    {"t": "1910-05-19", "devlet": "osmanli", "taraflar": ["osmanli", TUN],
+     "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi",
+     "tur": "antlasma", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "",
+     "etiket": ["antlasma", "sinir", "osmanli", TUN, CEZ, "konu-siyasi", "konu-diplomasi"],
+     "d": "Fransa ile Osmanlı Devleti arasında Trablus'ta imzalanan sözleşme, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz'deki Ras Ecdir'den "
+          "vadiler, sırtlar ve kuyular boyunca Gadames'in güneyine kadar tarif etti; Gadames'in batısındaki son kesim Cezayir sınırı oldu. "
+          "Karma komisyon 1910-1911'de hattı 31'den 233'e kadar numaralı taşlarla işaretledi. Hat bugün de Libya–Tunus sınırıdır. "
+          "Sözleşmenin günü kaynaklarda 12 ve 19 Mayıs olarak iki türlü geçer; iki kaynağın verdiği 19 Mayıs esas alındı.",
+     "kaynak": "IBS 121 (1972) s.2-5 · Martens, Nouveau Recueil Général 3. seri c.VII s.91-93 · IBS 001 (1961) s.2, s.6 ('12 May 1910')",
+     "sinir_id": ["d1910-libya-tunus-osmanli", "d1910-libya-cezayir-gadames-osmanli"], "sinif": "E"},
+    {"t": "1912-10-18", "devlet": "italya", "taraflar": ["italya", "osmanli"],
+     "b": "Uşi Antlaşması — Libya'nın Tunus ve Cezayir sınırları Osmanlı'dan İtalya'ya geçti",
+     "tur": "antlasma", "onem": 4, "dunya": 3, "kapsam": "dis", "yer_id": "",
+     "etiket": ["antlasma", "sinir", "italya", "osmanli", TUN, CEZ, "konu-siyasi", "konu-diplomasi"],
+     "d": "Trablusgarp Savaşı'nı bitiren Uşi Antlaşması ile Trablusgarp ve Bingazi'deki Osmanlı idaresi sona erdi. "
+          "1910 sözleşmesiyle çizilip taşlarla işaretlenen Tunus ve Cezayir sınırları aynı hat üzerinde kaldı; hattın doğu yakasındaki taraf artık İtalya'ydı.",
+     "kaynak": "TDV trablusgarp-savasi ('18 Ekim'de … Uşi (Ouchy) kasabasında … nihaî bir barış antlaşması') · IBS 121 s.2 ('October 12, 1912' — TDV esas)",
+     "sinir_id": ["d1910-libya-tunus-osmanli", "d1910-libya-cezayir-gadames-osmanli", "d1923-libya-tunus", "d1923-libya-cezayir-gadames"],
+     "sinif": "E"},
     {"t": "1917-10-31", "devlet": "ingiltere", "taraflar": ["ingiltere", "misir-sultanligi"],
      "b": "Birüssebi'nin düşüşü — Refah hattının iki yakası İngiliz elinde, hat fiilî sınır olarak yeniden",
      "tur": "savas", "onem": 3, "dunya": 3, "kapsam": "dis", "yer_id": "",
@@ -440,7 +489,7 @@ kb = ["// -*- coding: utf-8 -*-",
       "// window.KRONOLOJI_SINIR_ORTADOGU — oturumlar/GERIYE-SARMA-0916.md ADIM 3. Biçim data/kronoloji_almanya.js ile aynı;",
       "// EK: taraflar (iki devlet kimliği) · sinir_id (data/d_sinirlar_ortadogu.js kayıtları) · sinif.",
       "// Üretici: denetim/ARAC-D4-URET-0916.py — 🔴 ELLE DÜZENLEME. index.html satırını koordinatör ekler.",
-      "// Kapsam: G1 (1918-11-11 → 1923-10-29) ve G2 (1914-07-28 → 1918-11-11) dalgalarındaki E/F/D değişiklikleri.",
+      "// Kapsam: G1 (1918-11-11 → 1923-10-29) · G2 (1914-07-28 → 1918-11-11) · G3 (1878-07-13 → 1914-07-28) dalgalarındaki E/F/D değişiklikleri.",
       "", "window.KRONOLOJI_SINIR_ORTADOGU = ["]
 io.open("data/kronoloji_sinir_ortadogu.js", "w", encoding="utf-8").write(
     "\n".join(kb + [json.dumps(k, ensure_ascii=False, separators=(",", ":")) + "," for k in sorted(KRON, key=lambda k: k["t"])] + ["];", ""]))

@@ -322,3 +322,37 @@ Her maddede `taraflar` (iki kimlik) · `sinir_id` (hat kayıtlarına bağ) · `s
 ```
 hat 11  = E 6 · D 3 · C 1 · YOK 1        kronoloji 5 (1914-12-18 · 1917-10-31 · 1920-07-01 · 1922-03-15 · 1922-12-02)
 ```
+
+---
+
+## 14. G3 — 1914-07-28 → 1878-07-13 (Berlin) · M-4153
+
+### Hatlar
+| parça | G3'te | kayıt |
+|---|---|---|
+| Filistin–Mısır | hat **1906-10-01 Refah Anlaşması**yla başladı (RIAA XX Ek B); sütunlar 31.12.1906-9.2.1907. Öncesi 1892 fermanı / 1906 Akabe-Taba bunalımı — kaba ya da ihtilaflı | G2 kaydı geriye uzadı ve yeniden adlandı: `d1914-…` → **`d1906-filistin-misir-hidivlik`** (E, 1906-10-01 → 1914-12-18); f artık dalga sınırı DEĞİL, anlaşma günü |
+| Libya–Tunus | **1910-05-19 Trablus Sözleşmesi** (Fransa–Osmanlı) → Uşi'ye kadar Osmanlı yakası | **YENİ `d1910-libya-tunus-osmanli`** — E · osmanli × tunus-beyligi-fransiz · 1910-05-19 → 1912-10-18 |
+| Libya–Cezayir (taş 220-233) | aynı sözleşme | **YENİ `d1910-libya-cezayir-gadames-osmanli`** — E · osmanli × cezayir-fransiz |
+| Libya hatları, 1910 öncesi | 1886 ve 1892 Fransız–Osmanlı düzenlemeleri kısmî tahdit (IBS 121) — metin/geometri okunmadı | yok |
+| Aden–Osmanlı Yemen | 1902-05 sütunlu hat (Hansard 1905) — E adayı | **yazılmadı: geometri yok** (G2'deki gibi) |
+| Cezayir–Fas (1845) · Fransız–İspanyol Fas (27.11.1912) · Tanca · İfni | C düzeyi, geometri kaynağı yok | yok |
+| Mısır–Libya (1841 fermanı) · Tunus–Cezayir | Osmanlı / Fransa iç hatları, kaba | yok |
+| Necid · Küveyt · Katar · Sahil | 1913 sözleşmesi ONAYSIZ, 1914 Menekşe hat onayı doğrulanamadı | yok |
+
+⚠️ **1910 kayıtlarının açık kalemi:** Fransa içinde 1910'da Zar'ın güneyi Cezayir sayılıyordu; Tunus'un taş 220'ye kadar koridoru **1911 Caillaux kararıyla**
+(günü BULUNAMADI). Sözleşmenin başlığı "Regency of Tunis" dediği için Zar–220 kesimi Tunus'a yazıldı — bu bir **hukukî tercih**, ölçüm değil.
+⚠️ **Sözleşme günü:** IBS 121 + Martens "19 May", IBS 001 "12 May" → 19 esas, maddede iki gün de yazılı.
+⚠️ Eylül 1911'den itibaren İtalyan işgali kıyıda (Libya yakasında fiilî taraf değişti); D kaydı YAZILMADI — koordinatı kesin bir işgal hattı kaynakta yok.
+
+### Kronoloji (G3 maddeleri)
+```
+1906-10-01  Refah Anlaşması — Refah–Taba hattı                              E   RIAA XX Ek B · IBS 46
+1910-05-19  Trablus Sözleşmesi — Tunus/Cezayir–Trablusgarp sınırı            E   IBS 121 · Martens · IBS 001
+1912-10-18  Uşi Antlaşması — Libya sınırlarının doğu yakası İtalya'ya        E   TDV trablusgarp-savasi
+```
+
+### Toplam (G1 + G2 + G3 sonrası)
+```
+hat 13  = E 8 · D 3 · C 1 · YOK 1
+kronoloji 8 (1906-10-01 · 1910-05-19 · 1912-10-18 · 1914-12-18 · 1917-10-31 · 1920-07-01 · 1922-03-15 · 1922-12-02)
+```

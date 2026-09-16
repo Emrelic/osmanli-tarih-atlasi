@@ -86,7 +86,7 @@
    "kiyas_atlas": null
   },
   {
-   "id": "d1914-filistin-misir-hidivlik",
+   "id": "d1906-filistin-misir-hidivlik",
    "kategori": "E",
    "sol_taraf": "misir-kavalali",
    "uzunluk_km": 206.1,
@@ -134,6 +134,22 @@
    "kiyas_atlas": {
     "durum": "atlasta italya ile fransa-cumhuriyet bu hattın 1,5° çevresinde KOMŞU DEĞİL (0,05° tampon)"
    }
+  },
+  {
+   "id": "d1910-libya-tunus-osmanli",
+   "kategori": "D",
+   "sol_taraf": "osmanli",
+   "uzunluk_km": 454.1,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1910-libya-cezayir-gadames-osmanli",
+   "kategori": "D",
+   "sol_taraf": "osmanli",
+   "uzunluk_km": 41.3,
+   "kesinlik_km": 5.0,
+   "kiyas_atlas": null
   }
  ],
  "cipalar": {
