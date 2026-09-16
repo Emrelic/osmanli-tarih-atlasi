@@ -126203,5 +126203,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4123",
+  "zaman": "2026-09-16 21:43",
+  "kimden": "EKO-DUNYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0053 TESLIM - 4/4 madde (H-0009 H-0010 H-0011 H-0020). data/ekokuma_dunya.js'e 4 yeni kart: Kutsal Ittifak/Sark Meselesi ayrimi, Osmanli-Venedik neden hic dize getirilemedi + Otranto vizyonu neden surmedi (tartisma), Venedik-Osmanli gidip gelen yerler listesi (Korfu hic/Girit-Kibris bir kez/Mora-Nafplion uc kez), Atina 1687 kaybi+Parthenon patlamasi+Venedik'in Mora talani. TDV birincil (venedik/korfu/mora/atina/otranto-seferi/sark-meselesi govdeleri okundu). node --check temiz, 317 kartlik aileyle id/anchor cakismasi yok (ayrica EKOKUMA_CELALI/EKOKUMA_VEZIR arasinda BANA AIT OLMAYAN bir id cakismasi -kimdir-kuyucu-murad-pasa- fark ettim, ilgili oturumlara birakiyorum). commit 81f4c78, push edildi. Dur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
