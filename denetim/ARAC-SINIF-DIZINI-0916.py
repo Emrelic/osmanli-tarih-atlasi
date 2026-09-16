@@ -19,16 +19,34 @@ Eşleme (GORUNUM-ABCD-0916.md §"Eski kategori eşlemesi"):
 Bir kayıtta ZATEN `sinif` alanı varsa (bölge oturumu Adım 1'i kendi yapmışsa)
 dokunulmaz — o beyan esastır.
 
-F kararı: `denetim/TANINMA-1923-0916.json` varsa, iki tarafın da 1923-10-29'dan
-önce Milletler Cemiyeti üyesi olup olmadığına bakılır (ikisi de üyeyse F, değilse
-E + hangi tarafın eksik olduğu not düşülür). Dosya yoksa hepsi E'de kalır ve
-"F kanıtı bekleniyor" notu düşülür (GERIYE-SARMA-0916.md ADIM 1'in kendi kuralı).
+F kararı (1.MURAT M-4129, 16 Eylül 2026 22:12 — GÖRÜNÜM ölçütü): bir "D" (eski
+kategori) kaydı, KENDİ `f` (yürürlük) TARİHİNDE iki tarafın da uluslararası
+tanınmış olmasıyla F olur:
+    f >= 1920-01-10 (Cemiyet Misakı yürürlüğe girdi) -> taraf, o tarihte zaten
+        Milletler Cemiyeti üyesiyse (`uyelik_tarihi <= f`) tanınmış sayılır
+    f <  1920-01-10 -> Cemiyet henüz yok; büyük devletlerce tanınma gerekir ama
+        TANINMA-1923-0916.json bu tarih aralığı için veri TAŞIMIYOR (yalnız
+        MC üyelik tarihleri + ~15 özel devletin 1920-sonrası notları var)
+        -> "ölçülemedi", TEMKİNLE E'de kalır (uydurulmaz)
+İki taraftan biri MC-dışı listede AÇIKÇA tanınmadığı yazılıysa (ör. SSCB,
+Türkiye 1923-10-29'da) da E'de kalır, gerekçesiyle. Dosya yoksa (TANINMA
+tablosu yok) hepsi E'de kalır, "F kanıtı bekleniyor" notuyla.
+🔴 Bu, önceki sürümün hatasını düzeltir: eskisi tanınmayı dizinin SABİT
+1923-10-29 anına göre ölçüyordu — bir sınırın f'si MC kuruluşundan önce olsa
+bile, taraflar YILLAR SONRA üye olunca F sayılıyordu. Doğru soru "bu sınır
+KENDİ YÜRÜRLÜK ANINDA iki tanınmış devlet arasında mıydı" sorusudur.
+
+Kayıtta ZATEN `sinif` alanı varsa (bölge oturumu Adım 1'i kendi yazmışsa) o
+BEYAN esastır, dokunulmaz — çıktıda `sinif_kaynak:"veri"` ile işaretlenir.
+Bu betiğin ürettiği her satır `sinif_kaynak:"turetildi"` taşır.
 
 Kullanım:
     py denetim/ARAC-SINIF-DIZINI-0916.py            # yalnız özet basar
     py denetim/ARAC-SINIF-DIZINI-0916.py --yaz       # data/sinir_sinif_dizini.js'i YAZAR
 
 🔴 ÜRETİLMİŞ DOSYA ELLE DÜZENLENMEZ — bu betikle yeniden üretilir.
+🔴 Bölge dosyalarına (`data/d_sinirlar*.js`) YAZILMAZ — yalnız bu dizin üretilir
+   (1.MURAT M-4129: "Bölge dosyalarına YAZMA").
 """
 import glob
 import json
@@ -41,6 +59,11 @@ DATA = os.path.join(KOK, "data")
 DENETIM = os.path.join(KOK, "denetim")
 TANINMA_YOLU = os.path.join(DENETIM, "TANINMA-1923-0916.json")
 CIKTI_YOLU = os.path.join(DATA, "sinir_sinif_dizini.js")
+
+# Milletler Cemiyeti Misakı'nın yürürlüğe girdiği gün (ilk 'kurucu' uyelik_tarihi,
+# TANINMA-1923-0916.json'daki en erken tarih). Bundan ÖNCEKİ f tarihleri için MC
+# üyeliği ölçütü ANLAMSIZDIR (Cemiyet henüz yok) — ölçülemedi'ye düşülür.
+MC_KURULUS_TARIHI = "1920-01-10"
 
 
 def _js_dosyayi_oku(yol):
@@ -64,17 +87,37 @@ def _js_dosyayi_oku(yol):
 
 
 def _taninma_yukle():
-    """TANINMA-1923-0916.json varsa, 1923-10-29'dan önce MC üyesi olan id
-    kümesini döndürür. Dosya yoksa None (çağıran E'ye düşer, notla)."""
+    """TANINMA-1923-0916.json'u (uyelik_tarihi_by_id, mc_disi_aciklama_by_id)
+    olarak döndürür. Dosya yoksa (None, None) — çağıran E'ye düşer, notla."""
     if not os.path.exists(TANINMA_YOLU):
-        return None
+        return None, None
     with open(TANINMA_YOLU, encoding="utf-8") as f:
         d = json.load(f)
-    taninan = set()
+    uyelik = {}
     for r in d.get("mc_uyeleri_1923_10_29", []):
-        if (r.get("uyelik_tarihi") or "9999-99-99") <= "1923-10-29":
-            taninan.add(r["id"])
-    return taninan
+        if r.get("id") and r.get("uyelik_tarihi"):
+            uyelik[r["id"]] = r["uyelik_tarihi"]
+    mc_disi = {}
+    for r in d.get("mc_uyesi_olmayan_onemli_devletler", []):
+        if r.get("id"):
+            mc_disi[r["id"]] = r.get("aciklama", "")
+    return uyelik, mc_disi
+
+
+def _tanindi_mi(taraf_id, f_tarihi, uyelik, mc_disi):
+    """(durum, kaynak) döndürür. durum: True=tanındı · False=tanınmadığı bilinen
+    · None=ölçülemedi (veri yok)."""
+    if f_tarihi < MC_KURULUS_TARIHI:
+        return None, ("1920 öncesi (Cemiyet henüz yok); büyük devlet tanıma "
+                       "verisi TANINMA-1923-0916.json'da yok")
+    uyelik_tarihi = uyelik.get(taraf_id)
+    if uyelik_tarihi:
+        if uyelik_tarihi <= f_tarihi:
+            return True, "MC üyesi (%s)" % uyelik_tarihi
+        return False, "MC üyeliği f'den SONRA (%s)" % uyelik_tarihi
+    if taraf_id in mc_disi:
+        return False, "MC-dışı: " + mc_disi[taraf_id][:140]
+    return None, "id TANINMA-1923-0916.json'da yok — ölçülemedi"
 
 
 def _dayanak_kisa(kayit):
@@ -95,40 +138,55 @@ def _dayanak_kisa(kayit):
     return "bulunamadı"
 
 
-def _sinif_ata(kayit, taninan):
-    """(sinif, sinif_not) döndürür. taninan=None ise TANINMA tablosu yok demektir."""
-    if kayit.get("sinif"):
-        return kayit["sinif"], "kaydın kendi beyanı (bölge oturumu Adım 1'i yazmış)"
+def _sinif_ata(kayit, uyelik, mc_disi):
+    """(sinif, sinif_not, sinif_kaynak) döndürür. uyelik=None ise TANINMA tablosu
+    yok demektir.
 
+    🔴 M-4129: "E kaydı, F ölçütünü karşılıyorsa dizinde F" — yani bölge
+    oturumunun kendi yazdığı `sinif:"E"` beyanı SABİT değildir, F testinden
+    GEÇER. Yalnız "D"/"C"/"F"/"YOK" beyanları olduğu gibi bırakılır (E/F
+    merdiveninin dışındalar ya da zaten tavandalar)."""
+    beyan = kayit.get("sinif")
     kategori = kayit.get("kategori")
     hat_var = bool(kayit.get("hat"))
 
-    if kategori == "D":
-        if taninan is None:
-            return "E", "F kanıtı bekleniyor (TANINMA-1923-0916.json yok)"
+    e_adayi = (beyan == "E") or (not beyan and kategori == "D")
+    if e_adayi:
+        if uyelik is None:
+            kaynak = "veri" if beyan else "turetildi"
+            return "E", "F kanıtı bekleniyor (TANINMA-1923-0916.json yok)", kaynak
         taraflar = kayit.get("taraflar") or []
-        if len(taraflar) == 2 and all(t in taninan for t in taraflar):
-            return "F", "iki taraf da 1923-10-29'da MC üyesi (TANINMA-1923-0916.json)"
-        eksik = [t for t in taraflar if t not in taninan] or ["? (taraflar alanı 2 eleman değil)"]
-        return "E", "F değil — MC üyesi olmayan/tanınmamış taraf: " + ",".join(eksik)
+        f_tarihi = kayit.get("f") or "9999-99-99"
+        if len(taraflar) != 2:
+            kaynak = "veri" if beyan else "turetildi"
+            return "E", "taraflar alanı 2 eleman değil, F ölçülemedi", kaynak
+        sonuclar = [(t,) + _tanindi_mi(t, f_tarihi, uyelik, mc_disi) for t in taraflar]
+        detay = "; ".join("%s: %s" % (t, k) for t, _, k in sonuclar)
+        if all(s[1] is True for s in sonuclar):
+            return "F", "f=%s tarihinde iki taraf da tanınmış — %s" % (f_tarihi, detay), "turetildi"
+        kaynak = "veri" if beyan else "turetildi"
+        return "E", "F değil (f=%s) — %s" % (f_tarihi, detay), kaynak
+
+    if beyan:
+        return beyan, "kaydın kendi beyanı (bölge oturumu Adım 1'i yazmış)", "veri"
 
     if kategori == "fiili":
         if hat_var:
-            return "D", "eski 'fiili' + koordinat kesin -> yeni şemada D (FİİLÎ kesin sınır)"
-        return "YOK", "fiili ama koordinat yok (kaba) -> A/B görünümüne düşer"
+            return "D", "eski 'fiili' + koordinat kesin -> yeni şemada D (FİİLÎ kesin sınır)", "turetildi"
+        return "YOK", "fiili ama koordinat yok (kaba) -> A/B görünümüne düşer", "turetildi"
 
     if kategori == "C":
-        return "C", "kategori C değişmedi"
+        return "C", "kategori C değişmedi", "turetildi"
 
     if kategori == "D-YOK":
-        return "YOK", "kategori D-YOK: bugünkü çizgi 1923'ü göstermiyor"
+        return "YOK", "kategori D-YOK: bugünkü çizgi 1923'ü göstermiyor", "turetildi"
 
-    return "YOK", "bilinmeyen/eksik kategori: %r" % (kategori,)
+    return "YOK", "bilinmeyen/eksik kategori: %r" % (kategori,), "turetildi"
 
 
 def olustur():
     dosyalar = sorted(glob.glob(os.path.join(DATA, "d_sinirlar*.js")))
-    taninan = _taninma_yukle()
+    uyelik, mc_disi = _taninma_yukle()
     kayitlar = []
     ozet = {}
     for yol in dosyalar:
@@ -139,13 +197,14 @@ def olustur():
             print("UYARI: %s" % e, file=sys.stderr)
             continue
         for kayit in sonuc["kayitlar"]:
-            sinif, not_ = _sinif_ata(kayit, taninan)
+            sinif, not_, sinif_kaynak = _sinif_ata(kayit, uyelik, mc_disi)
             satir = {
                 "id": kayit.get("id"),
                 "taraflar": kayit.get("taraflar"),
                 "f": kayit.get("f"),
                 "t": kayit.get("t"),
                 "sinif": sinif,
+                "sinif_kaynak": sinif_kaynak,
                 "sinif_not": not_,
                 "dayanak_kisa": _dayanak_kisa(kayit),
                 "kaynak_dosya": rel,
@@ -153,7 +212,7 @@ def olustur():
             }
             kayitlar.append(satir)
             ozet[sinif] = ozet.get(sinif, 0) + 1
-    return kayitlar, ozet, dosyalar, taninan is not None
+    return kayitlar, ozet, dosyalar, uyelik is not None
 
 
 def yaz(kayitlar):
@@ -164,10 +223,12 @@ def yaz(kayitlar):
         "// Üretici: denetim/ARAC-SINIF-DIZINI-0916.py — 🔴 ELLE DÜZENLEME, yeniden üret:\n"
         "//   py denetim/ARAC-SINIF-DIZINI-0916.py --yaz\n"
         "// Şema: oturumlar/GORUNUM-ABCD-0916.md üst bölüm (A-F ALTI KADEME)\n"
-        "// Eşleme: kategori D -> E (F kanıtı TANINMA-1923-0916.json'dan) ·\n"
+        "// Eşleme: kategori D -> E, kaydın KENDİ f tarihinde iki taraf da\n"
+        "//         TANINMA-1923-0916.json'a göre tanınmışsa F (bkz. betiğin docstring'i) ·\n"
         "//         fiili+koordinat -> D · C -> C · D-YOK -> YOK\n"
-        "// Alanlar: id · taraflar · f · t · sinif · sinif_not (nasıl karar verildi) ·\n"
-        "//          dayanak_kisa · kaynak_dosya · kategori_eski (üretici dosyadaki eski alan)\n"
+        "// Alanlar: id · taraflar · f · t · sinif · sinif_kaynak ('veri': kaydın kendi\n"
+        "//          beyanı | 'turetildi': bu betik hesapladı) · sinif_not (nasıl karar\n"
+        "//          verildi) · dayanak_kisa · kaynak_dosya · kategori_eski (eski alan)\n"
         "\n"
         "window.SINIR_SINIF_DIZINI = [\n"
         + ",\n".join(satirlar)
