@@ -2,6 +2,8 @@
 // EK OKUMA — LÂLE DEVRİ (D5-ASYA, dalga 0058 · madde 1 · paket 0058/H-0001)
 // ============================================================================
 // Yazan: D5-ASYA · 17 Eylül 2026 · koordinatör 1.MURAT · şartname oturumlar/DALGA-0058.md
+// + DALGA-0059 madde 4 (paket 0059/H-0004): Yirmisekiz Çelebi kartı genişletildi, elçiliğin önemi ve
+//   Sefâretnâme'den 7 merak kartı eklendi · kişi kartı önerisi denetim/YAMA-0059-KISI.json
 //
 // 🔴 AD ALANI (CLAUDE.md §7): bu dosya YALNIZ window.EKOKUMA_LALE tanımlar.
 //    Yükleyici satırı js/app.js `_EKOKUMA_DOSYA_ADLARI`nda koordinatörce bağlandı.
@@ -63,14 +65,81 @@ window.EKOKUMA_LALE = [
 
 // ── YENİLEŞME: ELÇİLİKLER ──────────────────────────────────────────────────
 { id:"kimdir-yirmisekiz-celebi-mehmed-efendi", tur:"kimdir",
-  baslik:"Yirmisekiz Çelebi Mehmed Efendi ve Paris elçiliği (1720-1721)",
+  baslik:"Yirmisekiz Çelebi Mehmed Efendi (y. 1670 – 1731)",
   ad:"Yirmisekiz Çelebi Mehmed Efendi",
-  olay:["1720-10-08|Yirmisekiz","1721-03-21|Louis","1721-10-08|dönüşü"],
-  kisa:"XV. Louis'nin sarayına giden elçi yalnız mektup götürmedi; Paris'in rasathanesini, eczahanesini ve ayna fabrikasını gördü, dönüşte İstanbul'a Fransız zevkini taşıdı.",
-  metin:"KİMDİR. Edirne'de doğdu; babası Saksoncubaşı Süleyman Ağa'dır. 1720'de elli yaşlarında olduğu tahmin edildiğinden doğumu yaklaşık 1670'e konur. Yeniçeri Ocağı'nın 28. ortasına mensup olduğu için 'Yirmisekiz Çelebi' diye anıldı; ocakta çorbacılığa kadar yükseldi. Şiirde mahlası Fâizî'dir.\n\nYOLCULUK. Divan efendisi unvanıyla yanında bulunan oğlu Mehmed Said Efendi ve kalabalık bir maiyetle 7 Ekim 1720'de bir Fransız tüccar kalyonuyla yola çıktı; kırk altı gün sonra Toulon'a ulaştı. Marsilya'da salgın olduğu için güneybatı Fransa üzerinden Paris'e gitti.\n\nPARİS. 21 Mart 1721'de on iki yaşındaki XV. Louis tarafından Tuileries Sarayı'nda kabul edildi; III. Ahmed'in nâmesini, İbrâhim Paşa'nın mektubunu ve hediyeleri sundu. Paris'te tabiphane, eczahane, rasathane, goblen ve ayna fabrikalarını gezdi.\n\nDÖNÜŞ VE ETKİ. TDV'ye göre Fransa'dan, özellikle eğitim alanında çok etkilendi ve bunu İstanbul'a taşıdı; dönüşünden sonra İstanbul'da başta mimari olmak üzere hemen her alanda Fransız etkisi görüldü. Getirdiği planlara göre yapılan binalarda Avrupa mimarisinin izleri belirdi. Sefâretnâme'si Batı hakkında Osmanlı ülkesindeki ilk bilgilerin oluşmasına katkı sağladı; Paris'te de 'Turquerie' modasının yayılmasında bu elçiliğin rolü büyüktür.\n\nSONU. Dönüşte defter emini, 1722'de rûznâmçe-i evvel, 1724'te başmuhasebeci oldu. Patrona Ayaklanması'ndan sonra III. Ahmed'e ve İbrâhim Paşa'ya yakınlığı yüzünden Lefkoşe'ye sürüldü ve 1731'de orada öldü.\n\nOĞLU. Yanındaki oğlu Mehmed Said Efendi, İbrâhim Müteferrika ile birlikte ilk Türk matbaasının kurucularındandır (bkz. lale-devri-yenilikler).",
-  bag:"Önemi: TDV, Sefâretnâme'yi Batı'yı gözlemleyen ilk Osmanlı metinlerinden sayar; Tanpınar ise satırlarında gizli bir karşılaştırma ve 'bütün bir program' görür.",
+  olay:["1720-10-08|Yirmisekiz","1721-03-21|Louis","1721-10-08|dönüşü","1718-07-21|Pasarofça"],
+  kisa:"Yeniçeri ocağından yetişen bir maliyeci; Pasarofça'da murahhas, Paris'te elçi, İstanbul'da Fransız zevkinin taşıyıcısı, Kıbrıs'ta sürgün.",
+  metin:"DOĞUM VE AD. Edirne'de doğdu; babası Saksoncubaşı Süleyman Ağa'dır. 1720'de elli yaşlarında olduğu tahmin edildiğinden doğumu yaklaşık 1670'e konur (Paris'te onunla tanışan Saint-Simon altmış yaşında gösterdiğini yazar). Yeniçeri Ocağı'nın 28. ortasına mensup olduğu için 'Yirmisekiz Çelebi' diye anıldı. Şiirde mahlası Fâizî'dir.\n\nYÜKSELİŞ. Ocakta çorbacı, muhzırbaşı ve hâcegânlık rütbesiyle yeniçeri efendisi oldu; ardından Darphâne nâzırlığına getirildi.\n\nPASAROFÇA (1718). 1717 sonlarında şıkk-ı sâlis defterdarı unvanıyla, eski silâhdar İbrâhim Efendi ile birlikte barış görüşmelerine gönderildi. 5 Haziran 1718'de başlayan görüşmeler 21 Temmuz'da antlaşmayla sonuçlandı.\n\nPARİS ELÇİLİĞİ (1720-1721). Fransa'ya olağanüstü bir elçi gönderilmesi gündeme gelince sadrazam Nevşehirli Damad İbrâhim Paşa'nın desteğiyle bu göreve atandı. Gitmeden önce Viyana elçiliğinden kalan bir risâleyi okuduğu ve kendisine bir talimatnâme verildiği bilinir. 7 Ekim 1720'de oğlu Mehmed Said Efendi ve kalabalık bir maiyetle yola çıktı; 21 Mart 1721'de XV. Louis tarafından kabul edildi; 8 Ekim 1721'de İstanbul'a döndü. Elçiliğin önemi ve Paris'te gördükleri için bu dosyadaki yirmisekiz-elciligin-onemi ve 'Sefâretnâme'den' merak kartlarına bakın.\n\nDÖNÜŞTEN SONRA. Defter emini, 1722'de rûznâmçe-i evvel, 1724'te başmuhasebeci oldu. Fransa ile Avusturya'ya karşı bir saldırı-savunma antlaşması yapma çabası sonuç vermedi. 1730'da Çerkez Mehmed'in malını zapt için Mısır'a gönderildi.\n\nSÜRGÜN VE ÖLÜM. Patrona Ayaklanması'ndan sonra III. Ahmed'e ve İbrâhim Paşa'ya yakınlığı yüzünden Lefkoşe'ye sürüldü ve orada öldü. TDV'ye göre ölüm tarihi genellikle 1732 gösterilse de Lefkoşe Sinan Paşa Camii hazîresindeki mezar kitâbesi 14 Muharrem 1144'ü, yani 19 Temmuz 1731'i verir.\n\nESERLERİ. Sefâretnâme (Râşid Târihi içinde de yer alır; 1721'den itibaren Fransızca çevirileri yapıldı). Şehrezûrî'nin Resâʾilü'ş-Şecereti'l-ilâhiyye'sinin dördüncü bölümünü Semeratü'ş-Şecere adıyla çevirdi.\n\nOĞLU. Yanındaki Mehmed Said Efendi, İbrâhim Müteferrika ile birlikte ilk Türk matbaasının kurucularındandır (bkz. lale-devri-yenilikler).",
+  bag:"Önemi: TDV'ye göre nazik, zeki ve uyumlu kişiliği Paris'teki Türk imgesinin değişmesinde rol oynadı; dönüşte Mareşal Villeroi'ya dostça mektup yazması bunun bir örneğidir.",
+  not:"Ölüm yılı çelişkisi: data/kisiler.js 't:1732' taşıyor; TDV mezar kitâbesine göre 1731. Düzeltme önerisi denetim/YAMA-0059-KISI.json'da.",
   kesinlik:"kesin",
   kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi · lale-devri" },
+
+{ id:"yirmisekiz-elciligin-onemi", tur:"sebep-sonuc",
+  baslik:"Yirmisekiz Çelebi'nin Paris elçiliği niçin önemli",
+  olay:["1720-10-08|Yirmisekiz","1721-10-08|dönüşü","1727-07-05|matbaası"],
+  kisa:"Enver Ziya Karal'ın sözüyle 'Garp'ta açılmış ilk pencere': bir elçiye ilk kez resmen 'Fransa'nın imar ve bilgisinden uygulanabilir olanı öğren' görevi verildi.",
+  metin:"① YENİ BİR GÖREV TANIMI. Elçiye verilen talimatnâme, siyasî işlerin dışında Fransa'nın imar ve eğitim araçlarını iyice öğrenmesini ve uygulanabilir olanları rapor etmesini istiyordu. Lâle Devri maddesine göre dönemin Paris, Viyana ve Moskova elçilerinden de Avrupa diplomasisi ve askerî gücü hakkında bilgi toplamaları beklendi. Elçi artık yalnız mektup taşıyan değil, gözlemci de oldu.\n\n② İMGE ONARIMI. XIV. Louis'ye gönderilen Müteferrika Süleyman Ağa'nın kabulünde protokol sorunları yaşanmış, kralın isteğiyle Molière'in 'Kibarlık Budalası' komedisine Türk elçisini küçük düşüren sahneler konmuştu. TDV'ye göre Mehmed Efendi'nin elçiliği bu olumsuz imgenin yıkılması bakımından büyük önem taşır. Paris'te 'Turquerie' modasının yayılmasında da rolü büyüktür.\n\n③ SEFÂRETNÂME. Batı hakkında Osmanlı ülkesinde ilk bilgilerin oluşmasına katkı sağladı. Değerlendirmeler ayrışır: bazıları iki dünyayı karşılaştırmadığını söyler; Tanpınar ise her satırında gizli bir karşılaştırma ve 'bütün bir program' bulunduğunu yazar. TDV, aynı yıllarda Montesquieu'nün İran Mektupları'ndaki karşılaştırmalı bakışla bir bağ kurulabileceğini de not eder.\n\n④ MİMARİ. Venedik elçisi Emo'ya göre İstanbul'daki saray ve bahçeler Mehmed Efendi'nin Paris'ten getirdiği resim ve planlara göre yapıldı; bu planları ona tercüman Lenoir sağlamıştı. TDV, Sefâretnâme'de tasvir edilen Versailles havuzları ve hayvan heykellerinin Kâğıthane havuz ve sebillerine model olduğundan şüphe edilmeyeceğini söyler (bkz. lale-devri-mimari-ve-sehir, mimari-sadabad).\n\n⑤ MATBAA. TDV'ye göre elçiliğin en önemli sonuçlarından biri, oğlu Said Efendi'nin İbrâhim Müteferrika ile birlikte ilk Türk matbaasını kurma gayretidir. Mehmed Efendi, Paris'te tanıdığı Saint-Simon'a İstanbul'da yakında matbaa açılacağını söylemişti.\n\n⑥ OLMAYAN SONUÇ. Fransa ile Avusturya'ya karşı bir saldırı-savunma ittifakı kurma çabası sonuç vermedi.",
+  bag:"Önemi: TDV bu elçiliği Türk-Fransız ilişkilerinin gelişmesine ve Batı'daki kökleşmiş yanlış Türk imgesinin yavaş yavaş silinmesine katkı saydığı için öne çıkarır. Diplomasinin kurumsal gelişimi için bkz. ekokuma_diplomasi.js (D5-AMERIKA).",
+  kesinlik:"kesin",
+  kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi · lale-devri" },
+
+// ── MERAK: SEFÂRETNÂME'DEN VE ELÇİLİKTEN ──────────────────────────────────
+{ id:"yirmisekiz-merak-moliere", tur:"magazin",
+  baslik:"Molière'in sahnesindeki 'Türk elçisi' — ve onu unutturan elçilik",
+  olay:["1720-10-08|Yirmisekiz"],
+  kisa:"Bir önceki Osmanlı elçisinin kabulünden kalan kırgınlık, bir komedide Türkleri alaya alan sahnelere dönüşmüştü.",
+  metin:"XIV. Louis döneminde Paris'e giden Müteferrika Süleyman Ağa'nın kabulünde protokol sorunları yaşanmıştı. TDV'ye göre kralın isteği üzerine Molière'in 'Bourgeois gentilhomme' (Kibarlık Budalası) adlı komedisine Türk elçisini küçük düşüren sahneler kondu.\n\nYarım asır sonra gelen Yirmisekiz Çelebi Mehmed Efendi'nin Paris'e girişi görkemli oldu ve halkın ilgi odağı hâline geldi. TDV, bu elçiliğin o olumsuz imgenin yıkılması açısından büyük önem taşıdığını yazar.",
+  kesinlik:"kesin",
+  kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
+
+{ id:"yirmisekiz-merak-yolculuk", tur:"magazin",
+  baslik:"İstanbul'dan Paris'e: kalyon, karantina, kanallar",
+  olay:["1720-10-08|Yirmisekiz"],
+  kisa:"Kırk altı günlük deniz yolu, salgın yüzünden bir adada karantina ve Marsilya yerine kanallardan dolaşan bir güzergâh.",
+  metin:"Heyet 7 Ekim 1720'de Fransız elçisinin ayırdığı bir tüccar kalyonuyla İstanbul'dan ayrıldı ve kırk altıncı gün Toulon'a vardı.\n\nMarsilya'da salgın olduğu için Montpellier yakınındaki bir adada karantinaya alındı. Sonra Toulouse ve Bordeaux yolunu, güneybatı Fransa'daki kanalları ve Garonne nehrini izleyip Orléans üzerinden Paris'e çıktı.\n\nTDV bu salgını 'kolera' diye anar; hastalığın adı konusunda ayrıca bir kaynak okunmadı.",
+  kesinlik:"kesin",
+  kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
+
+{ id:"yirmisekiz-merak-kabul-toreni", tur:"magazin",
+  baslik:"On iki yaşındaki kralın huzurunda: tablo, madalyon ve gazete",
+  olay:["1721-03-21|Louis"],
+  kisa:"Kabul töreni o kadar ses getirdi ki resmi yapıldı, madalyonu basıldı, gazetede ayrıntılı anlatıldı.",
+  metin:"21 Mart 1721'de Tuileries Sarayı'ndaki kabul, TDV'ye göre Paris'te benzeri görülmemiş bir törene dönüştü. Elçi III. Ahmed'in nâmesini, İbrâhim Paşa'nın mektubunu ve hediyeleri on iki yaşındaki XV. Louis'ye sundu ve iki devletin dostluğunun güçlenmesinden söz etti.\n\nİZLERİ. Elçinin Tuileries bahçesinden saraya girişini ve görüşmeden sonra Döner Köprü'den çıkışını gösteren ünlü tablolar ressam Charles Parrocel'in imzasını taşır. Kabulü gösteren, arka yüzünde XV. Louis'nin portresi bulunan gümüş bir madalyon basıldı. Tören Le Nouveau Mercure gazetesinde ayrıntılı biçimde yer aldı.\n\nSONRASI. Elçi kralın avlarına davet edildi, kralı özel olarak da ziyaret etti (Mareşal Villeroi hazır bulundu) ve kralın hazine dairesini görme fırsatı buldu.",
+  kesinlik:"kesin",
+  kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
+
+{ id:"yirmisekiz-merak-opera", tur:"magazin",
+  baslik:"Operada bir Osmanlı elçisi: Thésée ve Omphale",
+  olay:["1721-03-21|Louis"],
+  kisa:"Elçi Paris'te operayı gördü ve hayretler içinde kaldı; oğlu da bir bale izledi.",
+  metin:"TDV'ye göre Mehmed Efendi'yi hayretler içinde bırakan opera, librettosu Quinault'nun, bestesi Lully'nin olan lirik trajedi 'Thésée' idi; bu temsili sarayda kralla birlikte izledi. İkinci kez gittiği opera, sözleri La Motte'un, bestesi Destouches'un olan 'Omphale' oldu. Oğlu Said Efendi de 'Les Fêtes Vénitiennes' balesini izledi.\n\nElçi ayrıca Paris'in kale ve istihkâmlarını da gezdi.",
+  kesinlik:"kesin",
+  kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
+
+{ id:"yirmisekiz-merak-versailles", tur:"magazin",
+  baslik:"Versailles karşısında bir teselli: 'Dünya müminin zindanı, kâfirin cennetidir'",
+  olay:["1721-03-21|Louis","1722-06-01|Sâdâbâd"],
+  kisa:"Saraylara, havuzlara, çeşmelere hayran kalan elçi, bu hayranlığı bilinen bir sözle dengeledi — ve planları yanına almayı unutmadı.",
+  metin:"Mehmed Efendi, Duc d'Orléans'ın Saint-Cloud Şatosu'nu gezdi ve onuruna verilen yemeğe katıldı. Ardından Sefâretnâme'de en ayrıntılı anlattığı yer olan Versailles'ı, sonra Trianon ve Marly saraylarını gördü.\n\nTDV'ye göre saraylara, bahçelere, havuzlara ve çeşmelere büyük hayranlık duydu ve bunları kendine özgü zarif üslûbuyla anlattı. Gördükleri karşısında, 'Dünya müminlerin hapishanesi, kâfirlerin cennetidir' sözünün inceliğiyle teselli bulduğunu yazdı. Farklı bir kültürle karşılaştığının bilincindeydi; hayranlığının yanında sarayların ve bahçelerin resimlerini ve planlarını da yanına aldı.\n\nSONUÇ. TDV, Sefâretnâme'deki Versailles havuzları ve hayvan heykellerinin Kâğıthane'deki havuz ve sebillere model olduğunu yazar (bkz. mimari-sadabad).",
+  kesinlik:"kesin",
+  kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
+
+{ id:"yirmisekiz-merak-paris-sokaklari", tur:"magazin",
+  baslik:"Sefâretnâme'den Paris: yedi katlı evler, kalabalık sokaklar, Seine'deki adalar",
+  olay:["1721-03-21|Louis"],
+  kisa:"Elçinin gözünde Paris: garip binalar, üç dört katlı evler — yedi katlıları da çok — ve kadınla erkeğin birlikte yürüdüğü kalabalık, taş döşeli, geniş sokaklar.",
+  metin:"TDV'nin özetlediği gözlemler:\n• Şehirde 'acayip ve garip' binalar, saraylar ve bahçeler vardır.\n• Evler üçer dörder katlıdır; yedi katlı yapılmış evler de pek çoktur.\n• Şehir ve sokaklar kalabalıktır; elçi bunu erkeklerle kadınların sokakta bir arada bulunmasına bağlar.\n• Sokaklar geniştir ve kaldırım taşıyla döşenmiştir.\n• Şehrin ortasından Seine geçer ve üç ada meydana getirir. Notre-Dame da gördüğü yerlerdendir.\n\nKURUMLAR. Paris'te tabiphane, eczahane (devâhâne), rasathane, goblen halı fabrikası ve ayna fabrikasını inceledi.\n\nTDV'ye göre Paris'i bu kadar geniş anlatması şehri çok iyi gezdiğini gösterir.",
+  kesinlik:"kesin",
+  kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
+
+{ id:"yirmisekiz-merak-said-efendi", tur:"magazin",
+  baslik:"Versailles'ın dehlizlerinde üç gün kaybolan elçi oğlu",
+  olay:["1721-03-21|Louis"],
+  kisa:"Babasından çok ayrı hareket eden Said Efendi birkaç kadınla birlikte Versailles'ta kayboldu, ancak üç gün sonra ortaya çıktı.",
+  metin:"Duc d'Orléans'ın yaşlı annesi Prenses Charlotte Elisabeth elçiyle görüşmedi, ama TDV'ye göre heyetin güvenliğiyle ve özellikle Said Efendi'nin sağlığıyla yakından ilgilendi. Çünkü babasından çok ayrı hareket eden Said Efendi birkaç kadınla birlikte Versailles'ın dehlizlerinde kaybolmuş, ancak üç gün sonra ortaya çıkmıştı.\n\nAynı Said Efendi birkaç yıl sonra İbrâhim Müteferrika ile birlikte ilk Türk matbaasını kuracaktı (bkz. lale-devri-yenilikler).\n\nDİKKAT. TDV olayı düz bir bilgi olarak verir ama dayanağını bu cümlede göstermez; madde bibliyografyasında Fransız arşiv belgeleriyle genişletilmiş 1981 Paris neşri (Le paradis des infidèles) yer alır.",
+  kesinlik:"tartismali",
+  kaynak:"TDV: yirmisekiz-celebi-mehmed-efendi" },
 
 // ── YENİLEŞME: MİMARİ ──────────────────────────────────────────────────────
 { id:"lale-devri-mimari-ve-sehir", tur:"teknik-bilimsel",

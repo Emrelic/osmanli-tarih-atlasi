@@ -1,0 +1,47 @@
+{
+  "_aciklama": "D5-ASYA · DALGA-0059 madde 4 (paket 0059/H-0004) · data/kisiler.js'teki 'yirmisekiz-celebi-mehmed-efendi' kaydını genişletme ve ölüm yılını düzeltme önerisi. Bu oturum kisiler.js'e YAZMADI (CLAUDE.md §7); UYGULA / 1.MURAT uygular.",
+  "_kaynak_yontemi": "TDV İslâm Ansiklopedisi 'yirmisekiz-celebi-mehmed-efendi' maddesinin gövdesi bu oturumda tam okundu (HTTP 200). 'yirmisekiz-mehmed-celebi' slug'ı ÖLÜ (302). Aynı okuma data/ekokuma_lale.js'teki 'kimdir-yirmisekiz-celebi-mehmed-efendi' kartına işlendi; iki dosya çelişmez.",
+  "onerilen_degisiklikler": [
+    {
+      "id": "yirmisekiz-celebi-mehmed-efendi",
+      "alan": "t",
+      "eski": "1732",
+      "yeni": "1731",
+      "gerekce": "TDV: 'mezar kitâbesine göre bu tarih 1731 olmalıdır' (1732'nin yaygın gösterildiğini de belirtir). Lefkoşe Sinan Paşa Camii hazîresindeki kitâbe: 14 Muharrem 1144 = 19 Temmuz 1731. Gün yalnız bu kitâbeye dayanıyor; t alanı yıl olarak yazıldığı için yalnız yıl önerildi.",
+      "kaynak": "TDV: yirmisekiz-celebi-mehmed-efendi"
+    },
+    {
+      "id": "yirmisekiz-celebi-mehmed-efendi",
+      "alan": "donem",
+      "eski": "ö. 1732",
+      "yeni": "y. 1670 – 1731",
+      "gerekce": "TDV doğumu tahminî verir: 1720'de elli yaşlarında olduğu düşünüldüğünden 1670. 'y.' (yaklaşık) işareti bu tahmini görünür kılar.",
+      "kaynak": "TDV: yirmisekiz-celebi-mehmed-efendi"
+    },
+    {
+      "id": "yirmisekiz-celebi-mehmed-efendi",
+      "alan": "f",
+      "eski": null,
+      "yeni": "1670",
+      "gerekce": "Kayıtta f alanı yok. TDV'nin tahminî doğum yılı; kesin değildir (Saint-Simon onu 1721'de altmış yaşında gösterir). İstenmezse bu kalem atlanabilir.",
+      "kaynak": "TDV: yirmisekiz-celebi-mehmed-efendi"
+    },
+    {
+      "id": "yirmisekiz-celebi-mehmed-efendi",
+      "alan": "not",
+      "eski": "1720-21'de Fransa'ya gönderilen, dönüşte gözlemlerini ünlü sefâretnâmesinde anlatan elçi",
+      "yeni": "Edirne'de doğdu; Yeniçeri Ocağı'nın 28. ortasına mensup olduğu için 'Yirmisekiz Çelebi' diye anıldı (mahlası Fâizî). Ocakta yeniçeri efendiliğine, ardından Darphâne nâzırlığına yükseldi. 1718'de şıkk-ı sâlis defterdarı olarak Pasarofça görüşmelerine katıldı. Damad İbrâhim Paşa'nın desteğiyle olağanüstü elçi olarak Fransa'ya gönderildi: 7 Ekim 1720'de oğlu Mehmed Said Efendi ile yola çıktı, 21 Mart 1721'de XV. Louis tarafından Tuileries'de kabul edildi, 8 Ekim 1721'de döndü. Talimatnâmesi ona Fransa'nın imar ve eğitim araçlarından uygulanabilir olanları öğrenmesini de emrediyordu. Versailles, Trianon, Marly, rasathane, eczahane ve fabrikaları gezdiği Sefâretnâme'si Osmanlı'da Batı hakkındaki ilk bilgilerin kaynaklarından oldu; getirdiği plan ve resimler Lâle Devri kasır ve bahçelerine örnek oldu, oğlunun Müteferrika ile kurduğu matbaa elçiliğin en önemli sonuçlarından sayılır. Dönüşte defter emini, rûznâmçe-i evvel (1722) ve başmuhasebeci (1724) oldu. Patrona Ayaklanması'ndan sonra Lefkoşe'ye sürüldü ve orada öldü (mezar kitâbesine göre 19 Temmuz 1731).",
+      "kaynak": "TDV: yirmisekiz-celebi-mehmed-efendi"
+    }
+  ],
+  "ek_kart_onerisi": {
+    "id": "said-efendi",
+    "durum": "DOKUNULMADI — yalnız bilgi",
+    "gozlem": "kisiler.js 'said-efendi' notu onu 'sonradan kısa süreli sadrazamlık da yaptı' diye anıyor. Bu oturumda okunan TDV maddeleri Said Efendi'nin sadrazamlığını ANMIYOR; bu iddia sınanmadı. TDV 'said-mehmed-pasa' maddesi canlı (HTTP 200) ama gövdesi OKUNMADI."
+  },
+  "ekokuma_baglari": [
+    "data/ekokuma_lale.js: kimdir-yirmisekiz-celebi-mehmed-efendi",
+    "data/ekokuma_lale.js: yirmisekiz-elciligin-onemi",
+    "data/ekokuma_lale.js: yirmisekiz-merak-moliere · yirmisekiz-merak-yolculuk · yirmisekiz-merak-kabul-toreni · yirmisekiz-merak-opera · yirmisekiz-merak-versailles · yirmisekiz-merak-paris-sokaklari · yirmisekiz-merak-said-efendi"
+  ]
+}
