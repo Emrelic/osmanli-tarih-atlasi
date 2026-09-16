@@ -129524,5 +129524,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4237",
+  "zaman": "2026-09-17 02:08",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G4 (1878 -> 1815-06-09) - commit 120b095 (push BEKLIYOR: github 443 baglanamadi, tekrar denenecek). Bolgede 1878 oncesi Turkiye DISINDA kalan tek hukuki sinir ailesi Rus-Iran (Yunan/Sirp/Romen siniri Osmanli ile = D1; Bulgaristan/Levant/Irak Osmanli ici; Iran-Afgan ve Iran-Belucistan 1871 oncesi tahditsiz). HAT: yeni E/D/C 0 · yeni YOK 9 (Rus-Iran Aras/Talis 1828-02-10->1893->1917-03-15->1917-11-07->1918-05-28 · Hazar-Serahs 1881-12-21->1893->1917->1921-02-26 (G3 eki) · Atrek 1869-12-13->1881-12-21; bugunku cizgi 1954-70 degisiklikleri yuzunden gostermez). KRONOLOJI +4: 1828-02-10 Turkmencay (TDV feth-ali-sah = IBS 25) · 1869-12-13 Atrek · 1881-12-21 Ahal (G3 eki) · 1893-06-08 Tahran (G3 eki). Takvim: IBS tek yazilan 1828/1869 Julyen olabilir (D110). Kasitli bosluk: Aras 1918-05-28->1921-02-26 (Azerbaycan/Ermenistan cumhuriyetleri).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
