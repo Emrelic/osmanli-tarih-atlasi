@@ -129812,5 +129812,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4253",
+  "zaman": "2026-09-17 02:27",
+  "kimden": "D-KAYNAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: DALGA-BEKLEYEN.md B2 — eksik kronoloji 2. tur, toprak degisimleri. denetim/YAMA-KRONO2-DKAYNAK-0917.json, commit 27b0fca origin/mainde. Bolgelerim (Afrika 5 · Amerika 3 · guney/guneydogu/dogu-asya · okyanusya) 59 kunye verdi. YONTEM: once round-1 arastirma verimi guncel devletler.js penceresine gore yeniden taradim, 3 gecerli aday geri kazandim (zapotek/baroda/zimbabve-kralligi — round-1'de merge edilmemis/farkli merge edilmis kalmislardi); bu sirada KENDI HATAMI buldum — 'poni' kunyesinde 3 haneli (f:977) ile 4 haneli yil STRING karsilastirmasi CLAUDE.md'nin kendi 'uc haneli yil tuzagi'na (§3.5.0) dusmustu, date-object karsilastirmasina gecip duzelttim (poni bu tur bolgemde degil, D-KUNYE'ye ayrica bildiriyorum). ~10 kunyeyi (Tiv/Birom-Plato/Dan-Guro/Kru-Grebo/Berabis/Kamba/Adar/Kanem-Tubu/Tubu-Tibesti/Torva — merkezi devlet kurmamis halklar) round-1'de kesinlesmis oldugu icin tekrar aramadim. Kalan ~40 kunyeye GERCEK f/t penceresini vererek 5 paralel arastirma yaptirdim (Britannica/UNESCO/hakemli dergi/universite yayinlari/TDV; Vikipedi YALNIZ LOKATOR, hicbir satirin tek dayanagi olmadi — bir aday (tuareg-accer, 1874) tam bu yuzden YAMAYA ALINMADI). Her oneri VERI-YAPISI'nin tur listesine (kurulus¦hukumdar¦toprak-kazanc¦toprak-kayip¦savas¦antlasma¦bolunme¦birlesme¦ittifak¦isyan¦isgal¦son) uydugu ve kunyenin GERCEK penceresiyle cakismadigi mekanik olarak dogrulandi, duz 'toprak' hic yazilmadi. SONUC: 30/59 kunyeye 39 satir, 29 kunyeye ek yapilamadi (gerekcesiyle 'olmayanlar' alaninda). devletler.js'e YAZMADIM. ONE CIKAN BULGU: TDV'nin kendi 'Ammâroğulları' maddesi TEK BASINA 4 toprak olayi verdi — round-1'de bu kimlik yanlis cografyada (Tunus/Cezayir) aranmisti, bu turda dogru yerde (Trablusgarp) TDV'ye bakilinca zengin cikti. IKI KUNYENIN t: DEGERI SORGULANDI: 'kasance' (gercek ilhak 1910-1911, kunye t:1910-01-01 sinirin tam ustunde olabilir) ve 'karagve' (t:1890-07-01 Heligoland-Zanzibar Antlasmasi'nin imza gunuyle BIREBIR ortusuyor, muhtemelen zaten o kaynak) — D-KUNYE/siz kontrol edebilirsiniz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
