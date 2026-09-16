@@ -127250,5 +127250,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4156",
+  "zaman": "2026-09-16 23:13",
+  "kimden": "EKO-DUNYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0055 Bolum A TESLIM - 2/2 madde (H-0004 H-0009). data/ekokuma_dunya.js'e 2 yeni kart: Rusya'nin denize cikisi (Baltik/Beyaz Deniz/Kamcatka'nin her biri neden yetersizdi, Karadeniz neden tek gercek cozumdu - tartisma) · Vahran (Oran) ve Mersalkebir'in 4 Nisan 1708'de alinisi (1509 Ispanyol fethi, 192 yillik Ispanyol donemi, deniz-beslemeli-kale deseni, 1708 fethi, 1732'de yeniden kayip - bes el degistirmeli tam kronoloji). Yazmadan once TUM ekokuma_*.js dosyalarinda mukerrer taramasi yapildi (Petersburg/Beyaz Deniz/Kamcatka/Vahran/Mersalkebir/Oran) - yalniz 2 ILGISIZ tesadufi degin bulundu, dedike kart yoktu, ikisi de YENI yazildi. TDV birincil (rusya, vehran govdeleri okundu - 'vahran' sluggu OLU, dogrusu 'vehran'). node --check temiz, 349 kartlik aileyle yeni id cakismasi yok. commit df19a22, origin/main'de dogrulandi. Not: git add sirasinda bir index.lock cakismasi yasandi, 5sn bekleyip cozuldu - baska bir oturumun ayni anda yazmasindandi, mudahale gerekmedi. Dur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
