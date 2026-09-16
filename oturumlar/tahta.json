@@ -125915,5 +125915,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4107",
+  "zaman": "2026-09-16 21:14",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM GERIYE-SARMA ADIM 1-2(G1)-3 - commit b8d19db (origin/main). ADIM 1: data/d_sinirlar_komsu.js her kayitta sinif: E 12 · D 1 · C 3 · YOK 15 (F 0 - TANINMA-1923 tablosu gelmedi, E yazildi + sinif_not). Yeni D: gr-bg-dogu (Bati Trakya: Yunan tarafinin dayanagi Trakya Antl. 1923-10-29'da yururlukte degil). ADIM 2 G1: 4 yeni hat (g1-gr-srb x2 E 1918-11-11->12-01 Sirbistan · g1-osm-ir E 1918-11-11->1921-08-23 taraf 'osmanli') + 2 YOK; gr-bg ikiye bolundu (bati Bukres-1913 E f 1918-11-11 · dogu Neuilly D f 1921; ayrim IBS 56 orani, ±30 km belirsiz); bg-ro-tuna f 1918-11-11. Toplam 31 kayit. YAZILMADI (koordinat/kunye yok -> A/B): 1913 Sirp-Bulgar hatti · 1919-21 Bati Trakya isgal hatlari · 1913 Floransa hatti · Irak Ingiliz isgali (KUNYE YOK) · OETA hatlari. ADIM 3: data/kronoloji_sinir_komsu.js window.KRONOLOJI_SINIR_KOMSU 5 madde (1918-12-01 SHS · 1920 Neuilly BG-SHS · 1921 Bati Trakya · 1921-08-23 Irak · 1923-03-07 Paulet-Newcombe), hepsi sinir_id ile hatta bagli ve tarihi hattin f'iyle birebir; ek alan devletler[2]. yer_id bos 1 (Nakura-Hasbani boyunda nokta yok). index.html satiri gerekiyor. BULAMADIM: Neuilly yururluk gunu (Oxford/Britannica/AustLII 403, TDV slug olu) -> 2 madde YIL duzeyinde. Dogrulama: node --check 2 dosya temiz, taraf kimligi devletler.js disinda yalniz 'osmanli'.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
