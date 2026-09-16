@@ -26,6 +26,10 @@ SH, NP, AIT2 = "sih-imparatorlugu", "nepal", "Aitchison, Treaties, Engagements a
 
 # (t, taraflar, b, tur, onem, dunya, sinif, d, kaynak, sinir_kaydi, yer_id)
 M = [
+# ---------------- G7 (1699-01-26 → 1606-11-11) ----------------
+("1689-08-27", [QG, RU], "Nerçinsk Antlaşması — ilk Rus–Mançu sınırı", "antlasma", 5, 4, "YOK",
+ "IBS'e göre Rusya ile Mançu İmparatorluğu arasındaki ilk sınır bu antlaşmayla kuruldu: hat Argun'u Şilka'ya kadar izledi, oradan kuzeye dönüp Yablonovıy ve Stanovoy sıradağlarının su ayrımıyla Pasifik'e uzandı. Mançular Rusları Amur'daki karakollarını bırakmaya zorladı; yine de IBS'e göre Rusya yaklaşık 230.000 km² toprağın hakkını kazandı. Uda ırmağı ile dağlar arasındaki ırmakların aidiyeti açık bırakıldı. IBS antlaşmanın günü için yalnız '27 Ağustos 1689' der, takvimini belirtmez.",
+ IBS % (64, "China–U.S.S.R. (rev. 1978)"), "g7-rusya-qing-BILINMIYOR-nercinsk-1689", ""),
 # ---------------- G6 (1774-07-21 → 1699-01-26) ----------------
 ("1727-10-12", [QG, RU], "Bur Antlaşması ve protokolleri — Moğolistan'ın kuzeyinde Rus–Çin sınırı çizildi", "antlasma", 5, 4, "YOK",
  "20 Ağustos 1727'de Bur ırmağı kıyısında imzalanan antlaşma ve ardından değişilen protokoller, Rus–Çin sınırını Argun'dan batıya, Moğolistan'ın kuzeyinden Kara İrtiş vadisine kadar tanımladı. 12 Ekim 1727 Abagatuy protokolü Kiahta'nın doğusunda 63 işaret, 27 Ekim 1727 Bur protokolü batısında 24 nokta belirledi. IBS'e göre bu anlaşmalarla Rusya Moğolistan'ın kuzeyinde yaklaşık 100.000 km² toprak kazandı. Kiahta Antlaşması'nın imza günü kaynaklarda tartışmalıdır (21, 24 ya da 27 Ekim 1727).",
@@ -194,7 +198,7 @@ M = [
 ]
 
 BAS = """// =====================================================================
-// SINIR KRONOLOJİSİ — ASYA (D5-ASYA) · geriye sarma G1–G6 (1923-10-29 → 1699-01-26)
+// SINIR KRONOLOJİSİ — ASYA (D5-ASYA) · geriye sarma G1–G7 (1923-10-29 → 1606-11-11)
 // =====================================================================
 // 🔴 ÜRETİLMİŞ DOSYA — elle düzenleme; üretici denetim/ARAC-D5-ASYA-KRONOLOJI-0916.py
 // window.KRONOLOJI_SINIR_ASYA — şartname oturumlar/GERIYE-SARMA-0916.md ADIM 3.

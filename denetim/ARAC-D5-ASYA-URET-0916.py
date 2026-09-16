@@ -838,6 +838,18 @@ yok("g5-np-tb-FIILI-1792", NP, TB, "1792-01-01", bbox(cizgi("CHN-NPL"), 0.10),
     "hükümleri belirsizdir. Antlaşmanın imzacısı Çin (Qing); sınırın karşı yakası Tibet — f yalnız yıl",
     t="1856-03-24")
 print("G5 elle: bitti")
+
+# ================= G7 GERİYE SARMA (1699-01-26 → 1606-11-11) =================
+yok("g7-rusya-qing-BILINMIYOR-nercinsk-1689", RU, QG, "1689-08-27", bbox([max(cizgi("CHN-RUS"), key=uzunluk)], 0.10),
+    {"deger": True, "kaynak": "IBS 64", "not": "1858 Aigun ve 1860 Pekin antlaşmaları hattı Amur ve Ussuri'ye indirdi"},
+    [{"ad": "Nerçinsk Barış ve Sınır Antlaşması", "tarih": "1689-08-27", "tur": "antlaşma",
+      "not": "IBS yalnız '27 Ağustos 1689' der; takvimi (Jülyen/Gregoryen) belirtmez", "kaynak": "Hertslet's China Treaties I:437 (IBS 64 aktarımı)"},
+     ibs(64, "China–U.S.S.R.", "the first boundary was created between the Russian and the Manchu Empire")],
+    "G7 · 1689–1858 hâli: hat Argun'u Şilka'ya kadar izleyip kuzeye, Yablonovıy ve Stanovoy sırtlarının su ayrımıyla Pasifik'e gidiyordu. "
+    "Kutu 1923 hattınındır: yalnız Argun kesimi bu kutuda; Amur ve Ussuri o yıllarda tamamen Mançu tarafındaydı, "
+    "hattın asıl kısmı kutunun çok kuzeyindedir ve koordinatı ELDE YOK. Uda ırmağı ile dağlar arasındaki bölgenin aidiyeti açık bırakıldı",
+    t="1858-05-28")
+print("G7 elle: bitti")
 for k in KAYIT:
     k.pop("_f0", None)
 
