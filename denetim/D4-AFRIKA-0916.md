@@ -128,6 +128,74 @@ Kaynak kuralı (`CLAUDE.md §4`, `DALGA-0052 §0.5`): bu coğrafya TDV'nin kapsa
    EEBC kararı) — nihaî 2002 kararı aynı 1900/1902/1908 çizgilerine döndü, yani "değişmedi" sonucu
    YÜZEYSEL doğru ama ARADA tarihsel kopukluk var; D verisine not düşülmeli.
 
+## 8. 🔴🔴 A-F ALTI KADEME + GERİYE SARMA — 16 Eylül akşamı güncellemesi
+
+Emre sınıfları değiştirdi (`oturumlar/GORUNUM-ABCD-0916.md` üst bölüm): eski `D`→`E`, yeni `D`=fiilî,
+`F`=E+tanınma. `oturumlar/GERIYE-SARMA-0916.md` ADIM 0→1→2→3 sırası D4-AFRIKA için geçerli.
+
+### ADIM 0+1 TAMAMLANDI — `data/d_sinirlar_afrika.js` yazıldı
+
+Üretici: `denetim/ARAC-D4-AFRIKA-URET-0916.py` (geometri `veri-kaynak/d_bugunku_sinirlar.geojson`'dan,
+D-GEOARAC aracı — yalnız "değişmedi" ya da açıkça beyan edilmiş VEKİL geometri olarak). **23 kayıt**,
+`sinif` dağılımı: **E 19 · D 2 · C 2**. `sol_taraf` her kayıt için otomatik hesaplandı (shapely ile
+orta noktadan dik ofsetli nokta-içinde testi).
+
+🔴 **ÖNEMLİ DÜZELTME — üretim sırasında yakalandı ve DÜZELTİLDİ:** `f` alanı önce yanlışlıkla
+antlaşmanın/hattın ÇİZİLDİĞİ tarihi taşıyordu. D4-ORTADOGU'nun `d1923-libya-tunus` emsaline bakılınca
+doğru kural şu: **`f` = kaydın `taraflar` alanında adı geçen KÜNYENİN kendisinin ne zaman kurulduğu**
+(hat daha eski olabilir, künye daha geç). 11 kayıtta bu yüzden `f` tarihi İLERİ alındı — en çarpıcısı:
+```
+d1923-guney-rodezya-mozambik   f 1891 → 1923-10-01   (BSAC yönetimi 1923-09-12'de sona erdi;
+                                                        1923-10-29 ufkuna YALNIZ 28 GÜN kala)
+d1923-nijerya-kamerun          f 1919 → 1922-07-20   (mandate tüzüğü onayı; fransiz-kamerun-mandasi
+                                                        o tarihte kuruldu)
+d1923-kenya-tanganyika         f 1890 → 1922-07-20   (ingiliz-tanganika-mandasi kuruluşu)
+d1923-ruanda/burundi-tanganyika f 1919 → 1922-07-20  (mandate onayı; sinif D korundu — 1924'e kadar
+                                                        nihai değil)
+d1923-becuanaland/angola/namrod-guneybati-afrika (3)  f → 1920-12-17 (guneybati-afrika-mandasi kuruluşu)
+d1923-sudan-misir-kondominyum  f 1899 → 1922-03-15   (misir-kralligi kuruluşu)
+```
+Bu, `§11`in *"bir kimliği künye ile hattı KARIŞTIRMA"* ailesine yakın yeni bir ders: **bir D kaydının
+`f`si iki ayrı şeyin en GEÇ olanıdır — hattın hukukî dayanağı VE taraf künyesinin kuruluşu.**
+
+### ADIM 2 — GERİYE SARMA G1 (1923 → 1918-11-11): KISMEN, dürüstçe
+
+Yukarıdaki `f` düzeltmesinin kendisi G1'in yarısını zaten yaptı (taraf değişikliklerini gördü). Gerçek
+G1 kaydı (ayrı bir ÖNCEKİ hat kaydı) şu 8 segment için GEREKLİ ama bu turda **YAZILMADI** — kesin
+koordinat/dayanak bulunamadığı için (`GERIYE-SARMA §ADIM2`: *"kesin değilse kayıt YAZILMAZ"*):
+
+```
+d1923-nijerya-kamerun          1919-1922 arası: aynı hat, taraf künyeleri YOK (Fransız/İngiliz
+                                askerî idaresi) — geçici `fransa-cumhuriyet`+`ingiltere` kullanılabilir
+d1923-kenya-tanganyika         1890-1922 arası: aynı hat, taraflar 'İngiliz Doğu Afrika Protektorası'
+                                (1920 öncesi) + 'Alman Doğu Afrikası'(1918'e) / işgal (1918-22) — künye YOK
+d1923-ruanda/burundi-tanganyika 1916-1922 arası: Belçika/İngiliz askerî işgali — künye YOK,
+                                geçici `belcika`+`ingiltere`; geometri farkı ÖLÇÜLMEDİ
+d1923-becuanaland/angola/namrod-guneybati-afrika (3)  1890-1915: Alman Güneybatı Afrikası (künye YOK)
+                                1915-1920: Güney Afrika Birliği askerî işgali (geçici `guney-afrika-birligi`)
+d1923-angola-kuzey-rodezya      1905-1911: taraf 'Kuzey-Batı Rodezya' (Kuzey Rodezya'nın BİRLEŞMEDEN
+                                önceki hâli) — künye YOK
+d1923-malavi-mozambik          1891-1907: taraf 'Britanya Orta Afrika Protektorası' (ingiliz-nyasaland'ın
+                                eski adı, muhtemelen SÜREKLİLİK, salt isim değişikliği) — künye YOK
+d1923-guney-rodezya-mozambik   1891-1923-09-12: taraf 'BSAC yönetimindeki Güney Rodezya' — künye YOK
+d1923-sudan-misir-kondominyum  1899-1922: taraf `misir-sultanligi` (GERÇEK künye, f:1914-12-18) —
+                                bu YAZILABİLİR (künye zaten var), ikinci turda eklenecek
+```
+🔴 **AÇIK SORU (D-KUNYE'ye/koordinatöre):** yukarıdaki 7 "künye YOK" satırı için ya (a) geçici olarak
+metropol künyesi (`fransa-cumhuriyet`/`ingiltere`/`belcika`/`guney-afrika-birligi`) kullanılsın ve
+`not:` alanına açıkça yazılsın, ya da (b) D-KUNYE bu geçiş dönemi idareleri için taslak künye önersin.
+Şart aynı: künyenin PENCERESİ (f/t) hattın olduğu dönemi kapsamalı — künye var olmak yetmez.
+
+### ADIM 3 — KRONOLOJİ: TAMAMLANDI (mevcut kayıtların kendi f tarihleri için)
+
+`data/kronoloji_sinir_afrika.js` yazıldı, **6 madde**: Güneybatı Afrika mandası (1920-12-17) ·
+Kamerun/Tanganyika/Ruanda-Urundi mandate onayları (1922-07-20, üçü aynı Milletler Cemiyeti Konseyi
+oturumunda) · Güney Rodezya'nın BSAC'tan öz-yönetime geçişi (1923-09-12/10-01) · Mısır Krallığı'nın
+Sudan sınırına etkisi (1922-03-15, D4-ORTADOGU'nun aynı olayı işleyen maddesiyle çapraz doğrulandı).
+⚠️ Bu **tam bir G1 geriye sarması değildir** — yalnız mevcut 1923 kayıtlarının kendi `f` tarihindeki
+olayı anlatır. Yukarıdaki 8 "künye YOK" segmentinin gerçek G1 öncesi maddeleri (1916-1919 dönemi)
+künye sorunu çözülünce yazılabilir.
+
 ## 7. SONRAKİ ADIM
 
 Şema (`denetim/SEMA-D-0916.md`) tahtada ilan edilince: yukarıdaki satırlardan **kesinliği yüksek**
