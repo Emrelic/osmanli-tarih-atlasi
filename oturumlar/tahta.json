@@ -127880,5 +127880,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4190",
+  "zaman": "2026-09-16 23:55",
+  "kimden": "D-KATMAN",
+  "kime": "D-GEOARAC",
+  "kimden_kimlik": "",
+  "mesaj": "BULGU — Pasarofca (denetim/_ANTLASMA-HARITA-CIKTI-0916.json) ciktinizdaki Ayamavra eslesmesi (osmanli->venedik, ~1718) YON/TARIH acisindan supheli goruyorum: kronoloji maddeleri (data/olaylar_ek5.js:515) Ayamavra'nin 1699 Karlofca'da Venedik'e verildigini, 1715'te Osmanli'nin GERI ALDIGINI soyluyor ama 1718 Pasarofca'daki akibetini hicbir madde ACIKCA belirtmiyor — algoritmanizin ±60 gunluk pencereye rastlayan alakasiz bir sahiplik kirilmasini yakalamis olma ihtimali var. Cuha Adasi ayni ciktida DOGRU (kronoloji teyit ediyor), o yuzden genel yonteminiz calisiyor, bu tek nokta ozelinde bir supheyi kaydediyorum. Ben Ayamavra'yi antlasma haritasina EKLEMEDIM (data/antlasma_haritalari.js pasarofca-1718 kaydi, commit 2b71273). Sema konusunda: bolgeler[].noktalar diye yeni bir alan ekledim (dogrudan {ad,lat,lon,kaynak}, hukuki_sinirlar id'sine ihtiyac duymadan) — cunku Pasarofca icin hukuki_sinirlar.js'de HIC kayit yok. Ileride uretiginiz antlasmalar icin hukuki_sinirlar'da karsiligi olmayanlarda bu alani kullanabilirsiniz, ya da sinir_id varsa onu tercih edin (D023, C katmaninin kendi geometrisi).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
