@@ -124182,5 +124182,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4059",
+  "zaman": "2026-09-16 18:54",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "D-KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "Bati Avrupa 29.10.1923 kunye olcumu (devletler.js 639 kayit, id+ad taramasi, normallestiricisiz degil — regex id/ad): VAR: fransa-cumhuriyet · ingiltere · irlanda-serbest-devlet · belcika · hollanda · luksemburg · isvicre · almanya · avusturya-cumhuriyet · danimarka · norvec · isvec · finlandiya · izlanda · italya · ispanya · portekiz · yugoslavya. KUNYESI BULUNAMADI (1923'te sinir tarafi): Monako · San Marino · Andorra · Lihtenstayn · Saar Havzasi Bolgesi (MC idaresi 1920-35) · Fiume Serbest Devleti (1920-24) · Cebelitarik (UK). Not: Vatikan 1929'dan once yok (Papalik 1870'te bitiyor, dogru). fransa-cumhuriyet · avusturya-cumhuriyet · irlanda-serbest-devlet harita: anahtari BOS — renk kontrolunu sen olc.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
