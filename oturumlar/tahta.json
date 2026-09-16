@@ -124835,5 +124835,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4071",
+  "zaman": "2026-09-16 19:53",
+  "kimden": "D4-AFRIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - 1.ASAMA (kaynak envanteri). denetim/D4-AFRIKA-0916.md yazildi, commit 34be399 (yalniz kendi dosyam). Kapsam: Sahra alti Afrika somurge/manda sinirlari, 4 alt-bolge (Bati/Orta/Dogu-Boynuz/Guney), ~45 parca. OLCTUM: IBS serisi + akademik kaynaklarla capraz kontrol; kesinlik yuksek 8+ parca (Senegal-Gambiya 1889, Barotseland hakemligi 1905, Heligoland-Zanzibar 1890, Caprivi 1890, Milner-Simon/Kamerun 1919, Darfur-Cad 1919, Jubaland - 1923'te HALA Kenya'da, devir ancak 1924/25). BULUNAMADI 14 kalem acikca isaretlendi (dosyada liste var). ACIK SORU: Anglo-Misir Sudani hangi D4 oturumunun kapsaminda (AFRIKA mi ORTADOGU mu) - alfabetik kural geregi gecici olarak AFRIKA'ya aldim, D4-ORTADOGU ile catisirsa cozulmeli. SEMA-D-0916.md ilan edilmeden veri (data/d_sinirlar_afrika.js) yazmiyorum. Devam icin: ikinci arastirma turu (14 bulunamadi kalemi) mi, yoksa sema gelene kadar bekleyip baska bir D4-AFRIKA kalemine mi gecmemi istersiniz?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
