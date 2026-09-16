@@ -406,3 +406,18 @@ Ağraham açık kararı **Terek** yönünde kapanır (Asvarov–Magaramov 2022: 
 
 **G3 eki (M-4161'de kaçmıştı):** 1886 ve 1892 Fransız–Osmanlı Tunus–Trablus düzenlemeleri (IBS 121) — hukukî (E) ama geometri yok ⇒
 hat kaydı YOK, kronolojiye 2 madde (`data/kronoloji_sinir_ortadogu.js` → 10 madde).
+
+---
+
+## 18. G4 → G7 (1878-07-13 → 1606-11-11) — bölgede yeni E/F/D hattı YOK
+
+Kural (GERIYE-SARMA §0): hat yalnız koordinatı kaynaktan kurulabiliyorsa yazılır; kaba ya da ihtilaflıysa harita A/B'ye düşer.
+| dalga | bölgede ölçülen hukukî belge | sonuç |
+|---|---|---|
+| **G4** 1878 → 1815-06-09 | 18 Mar 1845 Lalla Magniye (Fransız Cezayir–Fas): adlı noktalar var ama md.1 "taşla işaretlenmeyecek" → **C**; geometri kaynağı yok (envanter M4a) · 1841 fermanı (Mısır sınırları, iç Osmanlı, kaba) · 1839 Aden'in İngilizlerce alınışı (hat yok) · 1830 Fransız Cezayir'i – Osmanlı Tunus'u (hat kaynağı bulunamadı) | 0 hat · 0 madde |
+| **G5** 1815 → 1774-07-21 | 1798-1801 Fransız Mısır seferi (işgal, kesin hat yok) | 0 · 0 |
+| **G6** 1774 → 1699-01-26 | 1722-1735 Hazar işgali — ayrı paketlerde (YAMA-0059/0060/0063) ele alındı; Osmanlı–İran hatları D2-KOMSU'nun | 0 · 0 (bu dosyada) |
+| **G7** 1699 → 1606-11-11 | 1639 Kasr-ı Şirin (Osmanlı–İran, D2-KOMSU'nun) · Osmanlı Cezayir'i–Sâdî/Alevî Fas sınırı: TDV `fas` ve `cezayir` gövdelerinde tarihli bir sınır antlaşması BULUNAMADI | 0 · 0 |
+
+TDV `fas` · `cezayir` · `tunus` gövdeleri "sınır/hudut/Mülûye/Tâfne" için tarandı (17 Eyl): yalnız XIX. yüzyıl Fransız yayılması ve 1881 Bardo anlatısı geçiyor.
+⚠️ Bu "yok" bir **arama sonucudur**: Brownlie *African Boundaries* ve Trout *Morocco's Saharan Frontiers* açılamadı (envanter §9) — Osmanlı Cezayir'i–Fas sınırının erken dönemi için bakılacak yer onlar.
