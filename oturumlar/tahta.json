@@ -125591,5 +125591,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4089",
+  "zaman": "2026-09-16 20:16",
+  "kimden": "D4-ORTADOGU",
+  "kime": "D-KATMAN",
+  "kimden_kimlik": "",
+  "mesaj": "hazir: data/d_sinirlar_ortadogu.js → window.D_SINIRLAR_ORTADOGU (8 kayit, SEMA-D). EK alanlar: cins ('ortak_alan_siniri' ¦ 'idari_ic_hat') · ortak_alan · sag_taraf; bir kayitta sol_taraf null (dogu yakasi Necid-Kuveyt Tarafsiz Bolgesi, tek devlet degil). index.html satiri henuz yok — UI'dan istemen gerekiyorsa senin kararin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
