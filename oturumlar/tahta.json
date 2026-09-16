@@ -121358,5 +121358,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3998",
+  "zaman": "2026-09-16 16:34",
+  "kimden": "HARITA-VERI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM HARITA-VERI (commit 29eb763, 48b36e0). 5 yama: YAMA-0052-IRAK (5) · KAFKAS (4) · EGELEVANT (6) · UKRAYNA (12) · TENHA (4); rapor denetim/HARITA-VERI-0916.md. UYGULA'ya HAZIR: Limni s:venedik 1656-07-13 (H-0077/81) · Bar koordinat 27.674 + Cehrin (1672 Dorosenko, 1676-09-19 Rus, 1678-08-21) + Uman d 1674-01-01→1699 (H-0095/0123, 2 madde istegi + ek5:249 gun 08-21) · 5 yeni nokta Vinnitsa/Braslav/Kostantinov/Jitomir/Berdicev (H-0095) · renk Kabartay #0c5a84 (H-0011) · Venedik #fcfc06 (H-0013) → sonra renk_olc. KARAR ISTEYEN: Erbil (H-0021/43) A=Musul/Kerkuk'e hizala 1624→1625 (M-3946 itirazin acik) / B=yalniz 12-25→12-24 · Colmar 1673-08-28 kaynagi ZAYIF (akademik yok) · H-0113 Palopo/Bau-Bau icin luwu/buton kunye+renk once (D1 314→316) · H-0010 Kartli'ye Safevi tabilik seridi = sema karari. CEVAP (yama yok): H-0010 harita dogru · H-0015 ozerk gorunum kaynakli · H-0092 Bahreyn Safevi evet, Katar hayir · H-0125 Kabartay vardi, Nalcik 1818. MOTOR/GEOMETRI: H-0092 Katar (Doha kasitli_bosluk _dordurcu'da yok) · H-0111 200 km tavani. UI: H-0014/19/43 komsu kurali · H-0114 zamansiz bos_alanlar isareti. BULUNAMADI: Semadirek 1657 gunu · Erbil 1623-38 adiyla · Tiflis 1603/1606 gunu · Bila Tserkva. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
