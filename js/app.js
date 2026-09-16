@@ -8360,7 +8360,7 @@ function maddeGorseliniGuncelle(o) {
   // eskisi gibi, "1566-01-01|Mostar" yalnız başlığında "Mostar" geçen maddede.
   var _gorulenKayit = {}, _gorulenUrl = {};
   var kayitlar = (window.GORSEL_MADDE || []).filter(function (g) {
-    var tutar = (g.olay || []).some(function (v) { return _ekBagEslesir(v, o); });
+    var tutar = ((window.EKOBAG_ONERI || {})[g.id] || g.olay || []).some(function (v) { return _ekBagEslesir(v, o); });
     if (!tutar) return false;
     var anahtar = g.id || g.url || JSON.stringify(g.olay);
     if (_gorulenKayit[anahtar]) return false;
@@ -8477,6 +8477,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_kiyas",      // window.EKOKUMA_KIYAS — yeniliğe tepki ayaklanmaları kıyası, 0059/6
   "ekokuma_rusiran",    // window.EKOKUMA_RUSIRAN — Rusya-İran ilişkileri, 0059/7
   "ekokuma_baslik_oneri", // window.EKOBASLIK_ONERI — {id: başlık}, DİZİ DEĞİL, havuza girmez (0057/6)
+  "ekokuma_bag_oneri",   // window.EKOBAG_ONERI — {id: olay[]}, DİZİ DEĞİL (0057/6 ilgililik)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -8602,7 +8603,8 @@ function _ekBagEslesir(v, o) {
 // için listeye DEVREDER — yoksa "1534-01-01|Hürrem" ayırt edicisi, çıplak
 // `t:"1534-01-01"` yüzünden ilgisiz ikiz maddede yine tutardı.
 function ekKartBagliMi(kart, o) {
-  var liste = kart.olay || kart.baglanti || [];
+  // YAMA-0057-OLAY: yanlış bağlı kayıt için önerilen `olay:` listesi (data/ekokuma_bag_oneri.js) önce gelir.
+  var liste = (window.EKOBAG_ONERI || {})[kart.id] || kart.olay || kart.baglanti || [];
   for (var i = 0; i < liste.length; i++) if (_ekBagEslesir(liste[i], o)) return true;
   // `tur` alanı olmayan kaynaklar (ANTLASMALAR) da güne bağlanır.
   if (kart.tur === "magazin" || !kart.tur) {

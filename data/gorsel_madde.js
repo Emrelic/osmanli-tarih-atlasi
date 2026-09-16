@@ -844,6 +844,146 @@ window.GORSEL_MADDE = [
   "kesinlik": "cagdas",
   "lisans_olcum": "KABUL (0913b) · kategori PD-Art, PD-Art_(PD-old-auto-expired), PD-old, PD-old-100-expired",
   "not": "Tarama basılı bir reprodüksiyondan alınmış (raster/noktalı doku, düşük kalite). 🔴 DOSYA ADI TUZAĞI: ilk seçilen 'View of the siege of Vienna, 1529.jpg' (Newberry Library, Agostino de Musis) indirilip AÇILINCA altındaki metnin 'nel anno MDXXXII del mese di settembre' dediği görüldü — 1529 kuşatmasını değil 1532 seferini gösteriyor; o dosya assets'ten SİLİNDİ, kullanılmadı. Meldeman'ın 1530 tarihli çevre planı ve Beham'ın öteki küçük kopyası lisans aletinde RED (kabul kategorisi yok). İki madde de (olaylar.js '1529-09' · kronoloji_habsburg '1529-09-27') aynı kuşatma."
+},
+
+// YAMA-0059-GORSEL (D4-AFRIKA, 17 Eylül 2026) — albüm
+{
+  "id": "1720-01-01-surname-i-vehbi-albumu",
+  "tur": "albüm",
+  "olay": [
+    "1720-01-01|Levnî"
+  ],
+  "baslik": "Surnâme-i Vehbî albümü — Levnî'nin 1720 şenlik minyatürleri",
+  "gorseller": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname_51b.jpg?width=800",
+      "baslik": "III. Ahmed çadırda kabul sahnesi",
+      "gorsel_alt": "Bir çadırın içinde tahtında oturan III. Ahmed'in çevresini saran vezirler ve danışmanlar; Surnâme-i Vehbî'nin bir sayfası",
+      "eser": "Surnâme-i Vehbî, Topkapı Sarayı Müzesi (Inv. 3594, fol. 51b)",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-Art",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname_51b.jpg",
+      "kesinlik": "cagdas"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname_71b.jpg?width=800",
+      "baslik": "Esnaf loncalarının alayı — fırıncılar ve çiftçiler",
+      "gorsel_alt": "Fırınları ve ekmekleriyle fırıncı loncası, altta buğday demetleriyle çiftçiler — esnaf alayının Atmeydanı'ndan geçişini gösteren minyatür",
+      "eser": "Surnâme-i Vehbî, Topkapı Sarayı Müzesi (Inv. 9561, fol. 71b)",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-Art",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname_71b.jpg",
+      "kesinlik": "cagdas"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname_17b.jpg?width=800",
+      "baslik": "Kadın çalgıcılar topluluğu",
+      "gorsel_alt": "Zurna, tanbur, daire gibi çalgılarla bir kadın çalgıcılar topluluğunu gösteren minyatür",
+      "eser": "Surnâme-i Vehbî, Topkapı Sarayı Müzesi (Hazine 2164, fol. 17b)",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-Art",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname_17b.jpg",
+      "kesinlik": "cagdas"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname_22b.jpg?width=800",
+      "baslik": "Yeniçerilere safranlı pilav ziyafeti",
+      "gorsel_alt": "Padişahın yeniçerilere verdiği safranlı pilav (safranpilav) ziyafetini gösteren minyatür — yeniçerilerin yemeği kabul etmesi padişaha sadakat göstergesiydi",
+      "eser": "Surnâme-i Vehbî, Topkapı Sarayı Müzesi (fol. 22b)",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-Art",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname_22b.jpg",
+      "kesinlik": "cagdas",
+      "not": "Commons açıklaması: yeniçerilerin ziyafeti reddetmesi padişaha hoşnutsuzluk göstergesiydi; bu sahnede kabul ediyorlar."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname_27.jpg?width=800",
+      "baslik": "Paşaların III. Ahmed'e hediyeler sunması",
+      "gorsel_alt": "Paşaların ve devlet erkânının III. Ahmed'e şenlik vesilesiyle hediyeler sunduğu töreni gösteren minyatür",
+      "eser": "Surnâme-i Vehbî, Topkapı Sarayı Müzesi (Inv. A 3593, fol. 27)",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-Art",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname_27.jpg",
+      "kesinlik": "cagdas"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname-%C4%B1_H%C3%BCmayun_fireworks.png?width=800",
+      "baslik": "Gece havai fişek gösterisi",
+      "gorsel_alt": "Çift sayfalık minyatür: solda kıyıda toplanmış halkın önünde su üstünde patlayan beyaz bir havai fişek ve sarı ışık huzmeleri, arka planda gemi silüetleri; sağda kırmızı-beyaz çizgili bir çadırın altında hilal ve yıldızlı gece göğü altında oturan III. Ahmed ve maiyetinin gösteriyi izlemesi",
+      "eser": "Surnâme-i Hümâyun (Levnî, 1720) — dijital reprodüksiyon",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-old-70",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname-%C4%B1_H%C3%BCmayun_fireworks.png",
+      "kesinlik": "cagdas",
+      "not": "🟢 Ekran görüntüsüyle GÖZLE DOĞRULANDI (bu oturum). Commons kategorisi 'Surname-ı Hümayun *.png' serisinin 7'sinden 6'sı gerçekten Levnî/1720 — 7.si ('celebrations.png', Nakkaş Osman/1583) YANLIŞ kategorize edilmiş ve bu albüme KONMADI (bkz. dosyanın _kritik_bulgu notu)."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname-%C4%B1_H%C3%BCmayun_Dragon.png?width=800",
+      "baslik": "Gece alayı ve kale önü",
+      "gorsel_alt": "Çift sayfalık minyatür: solda hilalli gece göğü altında küçük beyaz kale/köşk yapısına doğru ilerleyen bir alay ve önde büyük beyaz bir kuş (turna/leylek) figürü; sağda kırmızı kubbeli bir seyir köşkünde oturan hükümdar ve maiyeti, altında renkli kalabalık",
+      "eser": "Surnâme-i Hümâyun (Levnî, 1720) — dijital reprodüksiyon",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-old-70",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname-%C4%B1_H%C3%BCmayun_Dragon.png",
+      "kesinlik": "cagdas",
+      "not": "🟢 Ekran görüntüsüyle GÖZLE DOĞRULANDI (bu oturum) — AMA sahnede net bir 'ejder' (dragon) figürü SEÇİLEMEDİ; Commons dosya adı 'Dragon' olsa da görülen büyük beyaz kuş bir turna/leylek gibi duruyor. Başlık İngilizce dosya adına sadık kalınarak yazılmadı, GÖRÜLEN tarif edildi — dosya adının kendisi YANLIŞ olabilir, doğrulanmadı."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname-%C4%B1_H%C3%BCmayun_parade.png?width=800",
+      "baslik": "Şenlik alayı geçidi",
+      "gorsel_alt": "Şenlik alayının geçişini gösteren bir minyatür (dosya adı 'parade')",
+      "eser": "Surnâme-i Hümâyun (Levnî, 1720) — dijital reprodüksiyon",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-old-70",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname-%C4%B1_H%C3%BCmayun_parade.png",
+      "kesinlik": "cagdas",
+      "not": "🟡 GÖZLE DOĞRULANMADI — ekran görüntüsü bu turda zaman aşımına uğradı. gorsel_alt yalnız dosya adından türetildi, sahne ayrıntısı YOK. Yayına girmeden önce açılıp gözle görülmeli."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname-%C4%B1_H%C3%BCmayun_ships.png?width=800",
+      "baslik": "Şenlikte gemiler",
+      "gorsel_alt": "Şenlik kutlamalarında gemileri gösteren bir minyatür (dosya adı 'ships')",
+      "eser": "Surnâme-i Hümâyun (Levnî, 1720) — dijital reprodüksiyon",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-old-70",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname-%C4%B1_H%C3%BCmayun_ships.png",
+      "kesinlik": "cagdas",
+      "not": "🟡 GÖZLE DOĞRULANMADI — bkz. 'parade' kaydındaki uyarı, aynı şart geçerli."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname-%C4%B1_H%C3%BCmayun_Tents.png?width=800",
+      "baslik": "Şenlik otağları",
+      "gorsel_alt": "Şenlik alanındaki otağları/çadırları gösteren bir minyatür (dosya adı 'Tents')",
+      "eser": "Surnâme-i Hümâyun (Levnî, 1720) — dijital reprodüksiyon",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-old-70",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname-%C4%B1_H%C3%BCmayun_Tents.png",
+      "kesinlik": "cagdas",
+      "not": "🟡 GÖZLE DOĞRULANMADI — bkz. 'parade' kaydındaki uyarı, aynı şart geçerli."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname-%C4%B1_H%C3%BCmayun_acrobacy.png?width=800",
+      "baslik": "Cambazların gösterisi",
+      "gorsel_alt": "Şenlikte cambazların/akrobatların gösterisini anlatan bir minyatür (dosya adı 'acrobacy')",
+      "eser": "Surnâme-i Hümâyun (Levnî, 1720) — dijital reprodüksiyon",
+      "sanatci": "Levni (Abdülcelil Çelebi)",
+      "yil": "1720",
+      "lisans": "PD-old-70",
+      "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname-%C4%B1_H%C3%BCmayun_acrobacy.png",
+      "kesinlik": "cagdas",
+      "not": "🟡 GÖZLE DOĞRULANMADI — bkz. 'parade' kaydındaki uyarı, aynı şart geçerli."
+    }
+  ]
 }
 
 ];
