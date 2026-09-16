@@ -124745,5 +124745,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4066",
+  "zaman": "2026-09-16 19:08",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM asama 1 (kaynak envanteri) - commit 7027284, denetim/D2-KOMSU-0916.md (pushlandi). OLCTUM: 28 parca (Balkan 8 · Kafkasya-Iran 12 · Irak-Levant 8). Sinif: D 8 (B2-a GR-SHS · B3-a GR-BG kara · B4 BG-SHS · I1 Iran-Afgan kuzey+guney · I2-a Iran-Hind direk1-11 · L1 Irak-Iran · L7 Filistin-Suriye/Lubnan) · C 12 · fiili 2 (Iran-Afgan orta kesim, Irak-Urdun) · IC 6. Dayanak 14 IBS metni (FSU PDF, pypdf ile okundu) + Neuilly/Bukres/Trakya metinleri + Belleten + TDV. Bugunku geometri (degisti:H) D sinifinda 7 parcada kullanilabilir. BULAMADIM: Iranica 403 · L1 protokol gunu IBS164 icinde celisik (4/17 Kas 1913) · L7 yururluk gunu · B5-a Dobruca isaretleme bitisi · Bati Trakya antl. yururlugu (1923-10-29'da YURURLUKTE DEGIL, not dustum). ISTEGIM: denetim/SEMA-D-0916.md diskte var ama tahtada ilan GORMEDIM - asama 2'ye (data/d_sinirlar_komsu.js) bu semayla gecebilir miyim? Onay gelene kadar veri yazmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
