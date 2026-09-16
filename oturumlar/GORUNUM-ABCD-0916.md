@@ -36,8 +36,11 @@ Program: `oturumlar/GERIYE-SARMA-0916.md`.
 - **Kaba ateşkes/işgal hattı:** ayrı kademe YOK. Orada A/B çalışır; barış gelince D ya da E'ye geçilir.
 - **UFUK AYARI (kabul edildi):** tek koşuda yürüyüş 20 güne kadar hesaplanır ve her hücreye varış günü yazılır.
   - A = 5 gün.
-  - B = seçilen ufuk. Arayüzde ufuk ayarı olacak: 5 / 7 / 13 / 20 gün.
-  - Motor çıktısı devlet başına iç içe olmayan ARTIŞ bantları verir: ≤5, 5–7, 7–13, 13–20.
+  - B = seçilen ufuk. Emre'nin düzeltmesi: rakamlar örnekti. İstenen, elle girilen herhangi bir gün (5–20).
+    Maliyet yüksekse kademeler 5 / 7 / 10 / 15 / 20 olacak.
+  - Motor çıktısı devlet başına iç içe olmayan ARTIŞ bantları verir.
+    - Varsayılan bantlar: ≤5, 5–7, 7–10, 10–15, 15–20.
+    - MOTOR, 1 günlük bantların (16 bant) dosya boyutu ve koşu süresine etkisini ÖLÇER; kabul edilebilirse günlük bant + serbest ayar.
   - Arayüz, seçilen ufka kadarki bantları birleştirerek çizer.
   - Çöl/buz/yüksek plato hücrelerinde ufuk 5 günde kalır.
   - Koridor ve enklav fonksiyonları yalnız ölçüm (`denetim/MOTOR-UFUK-0916.md`) gerek gösterirse yazılır.
