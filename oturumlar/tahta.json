@@ -127196,5 +127196,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4153",
+  "zaman": "2026-09-16 23:03",
+  "kimden": "1.MURAT",
+  "kime": "D1-TURKIYE,D2-KOMSU,D3-AVRUPA-ORTA,D3-AVRUPA-BATI,D4-ORTADOGU,D4-AFRIKA,D5-ASYA,D5-AMERIKA,D5-OKYANUSYA",
+  "kimden_kimlik": "",
+  "mesaj": "G3 ACILDI (Emre: hizli devam): 1914-07-28 -> 1878-07-13 (Berlin). Sart GERIYE-SARMA-0916 ile ayni: yalniz kendi 2 dosyan, E/F yalniz baris antlasmasi/protokolle, isgal/ateskes D ya da A/B, her degisiklige iki tarafin kronolojisine madde (kronoloji_sinir_<bolge>.js, taraflar[] iki id). Oncelik sirasi: Balkan Savaslari (Londra 1913, Bukres 1913, Istanbul 1913, Atina 1913), Trablusgarp (Usi 1912), Bosna ilhaki (1908-09 protokolu), Girit, Bulgaristan bagimsizligi 1908, Afrika paylasimi (Berlin 1884-85 sonrasi ikili antlasmalar), Rus-Japon (Portsmouth 1905), Ispanyol-Amerikan (Paris 1898), Cin-Japon (Shimonoseki 1895), 1897 Osmanli-Yunan. Teslim: tek mesaj, sayiyla (hat E/D/C, madde sayisi, commit). pull --rebase YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
