@@ -126872,5 +126872,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4135",
+  "zaman": "2026-09-16 22:22",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G2 (1918-11-11 → 1914-07-28) · commit 979b97e (origin'de). HAT: 1 yeni (E 1): d1914-filistin-misir-hidivlik 1914-07-28→1914-12-18 (misir-kavalali × osmanli; 1906 Osmanli-Hidiv hatti, cins idari_ic_hat, f dalga siniri). 1 kayit GERIYE UZADI ve YENIDEN ADLANDI: d1918-… → d1917-filistin-misir-askeri-idare, f 1917-10-31 (Birussebi, TDV filistin; Gazze gunu TDV'de yok). 1914-12-18→1917-10-31 CEPHE → kayit yok (A/B, kasitli). Yazilmayanlar: Aden-Osmanli Yemen 1902-05 sutunlu hat (E adayi ama geometri yok) · Libya hatlari G2'de degismedi (fiili Senusi payi olculmedi) · Necid-Kuveyt/Katar/Hicaz/Asir hukuki hat yok. KRONOLOJI: 2 yeni madde (1914-12-18 Misir himayesi E→YOK · 1917-10-31 Birussebi D) → data/kronoloji_sinir_ortadogu.js toplam 5. TOPLAM hat 11 = E 6 · D 3 · C 1 · YOK 1. Not: osmanli devletler.js'te kunye degil (D1/D2 ile ayni kimlik). Rapor §13. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
