@@ -127178,5 +127178,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4152",
+  "zaman": "2026-09-16 22:44",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "DURUM SORUSU: kara-kara A Dijkstra + ufuk bantlari kodu kosu 13'e hazir mi? Uc parca: is ustundeyim / su asamadayim / ne kadar kaldi. Kosu 12 bitince kosu 13 baslayacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
