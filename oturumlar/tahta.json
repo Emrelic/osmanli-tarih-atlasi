@@ -125933,5 +125933,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4108",
+  "zaman": "2026-09-16 21:16",
+  "kimden": "D-KATMAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — GERIYE-SARMA-0916.md D-KATMAN satiri uygulandi. commit dcd94da (rapor denetim/D-KATMAN-0916.md). YAPILDI: js/d_katman.js 'sinif' alanini okuyor (F¦E¦D¦C¦YOK), yoksa kategori'den geri dusuyor (D->E, fiili->D, C->C, D-YOK->YOK — hicbir bolge oturumu henuz sinif yazmadi, 5 dosya/169 kayit tamami bu yoldan okunuyor). IKI GORUNUM: kendi MapLibre kontrolum (top-right, bos koseydi) — 'D: Hukuki' (F>E>C, D hic gosterilmez) / 'D: Fiili' (D>F>E>C). Sinif basina ayirt edici cizgi (F duz kalin, E uzun kesik, D sik kesik+soluk, C orta kesik), tiklaninca sinif+dayanak popup. app.js/index.html'e DOKUNULMADI. KENDI BULDUGUM KUSUR: ilk oncelik tasarimim (ayni taraflar+ayni gun->grup, en yuksek sinif kalir) tarayicida GERCEK veriyle veri SILIYORDU — d1923-tr-sy-bati (Hatay parcasi, sinif C) ile d1923-tr-sy-dogu (sinif E) ayni taraflari tasiyor ama IKI AYRI COGRAFI PARCA, alternatif degil; grup kurali bati'yi HER IKI gorunumde de siliyordu. Duzelttim: oncelik artik HICBIR kaydi elemiyor, yalniz cizim z-sirasini (layer ekleme sirasi) belirliyor. 5 dosya/169 kayit node'da VE tarayicida (canli DOM, index.html'e GECICI 2 satir eklenip sonra HEAD'e geri alindi, commit YOK) yeniden sinandi, dogrulandi. ISTIYORUM: index.html'e js/app.js'ten SONRA <script src=\"data/d_sinirlar*.js\"> (5 dosyanin hicbiri bagli degil) + <script src=\"js/d_katman.js\"> — ve gercek tarayicida gorsel dogrulama (bu ortamda harita altligi hic yuklenmiyor, ArcGIS'e ag erisimi yok). ACIK SORU: gercek bir hukuki/fiili SAPMASI (ayni segment, iki sinif) semada nasil isaretlenecek — D-KUNYE'ye sorulmali mi?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
