@@ -263,6 +263,27 @@
    "uzunluk_km": 160.0,
    "kesinlik_km": 3.0,
    "kiyas_atlas": null
+  },
+  {
+   "id": "d1908-bg-bagimsiz-eski",
+   "kategori": "fiili",
+   "uzunluk_km": 70.2,
+   "kesinlik_km": 5.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1909-osm-bg-eski",
+   "kategori": "D",
+   "uzunluk_km": 70.2,
+   "kesinlik_km": 5.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1913-londra-enez-midye",
+   "kategori": "C",
+   "uzunluk_km": 196.1,
+   "kesinlik_km": 10.0,
+   "kiyas_atlas": null
   }
  ],
  "cipalar": {

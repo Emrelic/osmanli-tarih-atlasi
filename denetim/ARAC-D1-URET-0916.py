@@ -325,6 +325,64 @@ ekle("d1913-osm-bg-dogu", "osmanli", "bulgaristan-kralligi", "1913-09-29", "1915
      NE, "G2: 1913 hattının DOĞU kesimi. Tunca batısındaki 1913 kesimi koordinatsız ⇒ YAZILMADI (A/B)",
      sinif="E")
 
+# ════════════════ GERİYE SARMA G3 (1914-07-28 → 1878-07-13, Berlin) ════════════════
+# IBS 49 s.9: 1913 hattı Rezve'den gelip "old Turco-Bulgarian frontier"e katılır — birleşme noktası
+# "Türk-Alatlı'nın 4 km doğusu, eski sınırın KUZEYE açı yaptığı yer"; oradan Tunca'ya kadar ESKİ SINIR.
+# Birleşme noktası = bugünkü hattın EN KUZEY noktası (27.238/42.098). Sınav: GeoNames Ahlatlı (Kofçaz,
+# 42.077/27.227) bu noktanın 2,6 km BATISINDA; Ahlatlı = eski Alatlı özdeşliği yalnız web kaynaklarında
+# (akademik DEĞİL) ⇒ BELGELENEMEDİ, kesinlik 4 km.
+# 1878-1908: eski sınır Osmanlı ile Doğu Rumeli (özerk Osmanlı vilâyeti) / tâbi Bulgaristan arasındaydı
+# ⇒ DEVLETLER ARASI HAT DEĞİL, yazılmadı. Tunca batısı (1913 öncesi) ve 1912-13 Balkan cepheleri koordinatsız.
+_kuzey = max(_bg.coords, key=lambda c: c[1])
+_a, _b = sorted([_bg.project(Point(_kuzey)), _kes])
+_eski = substring(_bg, _a, _b)
+TDV_BG = {"ad": "TDV bulgaristan (Nazif Kuyucuklu)", "tur": "TDV",
+          "alinti": "Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra"}
+DOGAN = {"ad": "Türk-Bulgar Protokolü (İstanbul)", "tarih": "1909-04-19", "tur": "protokol",
+         "kaynak": "Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322",
+         "alinti": "Bu anlaşmalar neticesinde Osmanlı Devleti Bulgaristan'ın bağımsızlığını tanıdı"}
+KES_ESKI = ("birleşme noktası bugünkü hattın en kuzey noktası (IBS 49 tarifi); Türk-Alatlı özdeşliği "
+            "BELGELENEMEDİ ±4 km · Tunca ucu Radovets izdüşümü ±5 km · " + KES_NE)
+ekle("d1908-bg-bagimsiz-eski", "osmanli", "bulgaristan-kralligi", "1908-10-05", "1909-04-19", "fiili", [_eski],
+     [TDV_BG, IBS49], {"deger": False, "kaynak": "IBS 49 s.9 'exactly follows the former Turco-Bulgarian frontier'"},
+     {"t": "1921", "not": "Neuilly komisyonu işaretledi"}, 5.0, KES_ESKI, NE,
+     "G3 FİİLÎ: bağımsızlık ilanı ile Osmanlı tanıması arası — hat aynı, taraf fiilen bağımsız devlet oldu",
+     sinif="D")
+ekle("d1909-osm-bg-eski", "osmanli", "bulgaristan-kralligi", "1909-04-19", "1913-05-30", "D", [_eski],
+     [DOGAN, IBS49], {"deger": False, "kaynak": "IBS 49 s.9"},
+     {"t": "1921", "not": "1909-1921 arası hat eski (Berlin sonrası) işaretleriyle"}, 5.0, KES_ESKI, NE,
+     "G3: Osmanlı'nın tanımasıyla eski sınırın bu kesimi devletler arası hat oldu. 1912-10'dan itibaren Bulgar "
+     "işgali (Balkan Savaşı) cephe hatları koordinatsız ⇒ D YAZILMADI; E Londra'ya kadar sürer",
+     sinif="E")
+def gn_id(gid):
+    """Ad çakışmasına karşı kimlikle çıpa (Kıyıköy adı Muğla'da da var — ilk sürüm onu aldı, hat 405 km çıktı)."""
+    with open(GEONAMES, encoding="utf-8") as f:
+        for l in f:
+            if l.startswith(gid + "\t"):
+                c = l.split("\t")
+                return float(c[4]), float(c[5]), c[0], c[1]
+    raise SystemExit(f"GeoNames id yok: {gid}")
+
+
+enez = gn_id("747503")
+midye = gn_id("743093")
+ekle("d1913-londra-enez-midye", "osmanli", "bulgaristan-kralligi", "1913-05-30", "1913-09-29", "C",
+     [LineString([(enez[1], enez[0]), (midye[1], midye[0])])],
+     [{"ad": "Londra Antlaşması", "madde": "md. II", "tarih": "1913-05-30", "tur": "antlaşma metni",
+       "kaynak": "Wikisource neşri (data/hukuki_sinirlar.js midye-enez-1913 kaydıyla aynı metin)",
+       "alinti": "a line drawn from Enos on the Aegean Sea to Midia on the Black Sea"},
+      {"ad": "TDV bulgaristan", "tur": "TDV", "alinti": "30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması"}],
+     {"deger": True, "kaynak": "IBS 49", "not": "1913-09-29 İstanbul Antlaşması'yla Osmanlı Edirne'yi geri aldı"},
+     {"t": "—", "not": "işaretlenmedi"}, 10.0,
+     "antlaşma metni cetvel çizgisi: GeoNames Enez (747503) ↔ Kıyıköy/Midye (743093); kıyı uçları metinde tarifsiz",
+     "antlaşma metninden cetvel (2 nokta)",
+     "G3: taraf_b Balkan müttefikleri adına; C kaydının (hukuki_sinirlar midye-enez-1913) bulgaristan-kralligi seçimi korundu. "
+     "t: 1913-09-29 İstanbul Antlaşması (IBS 49)",
+     sinif="C")
+# 🔴 sol_taraf 1923 poligonuna bakar; 1913'te Enez→Midye çizgisinin SOLU (kuzeybatı, Edirne yakası)
+#    müttefiklere bırakılmıştı ⇒ elle düzeltme (ilk sürüm 'osmanli' basıyordu).
+KAYIT[-1]["sol_taraf"] = "bulgaristan-kralligi"
+
 # ---------------- SINIF (GORUNUM-ABCD-0916 en üst bölüm) ----------------
 # D→E (F kanıtı gelene kadar: denetim/TANINMA-1923-0916.json YOK, 16 Eylül'de ölçüldü) · fiili→D ya da YOK ·
 # C→C · D-YOK→YOK.  Irak fiilî hattı KESİN DEĞİL (bugünkü çizgi statükonun VEKİLİ) ⇒ YOK.

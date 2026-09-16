@@ -14,6 +14,24 @@
 
 window.KRONOLOJI_SINIR_TURKIYE = [
 
+{ t:"1908-10-05", devlet:"bulgaristan-kralligi", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1908-bg-bagimsiz-eski",
+  b:"Bulgaristan bağımsızlığını ilan etti — Osmanlı-Bulgar hattı fiilen devletler arası sınır oldu", tur:"bolunme", onem:3, dunya:3, kapsam:"dis", yer_id:"Sofya",
+  etiket:["bagimsizlik","sinir","konu-siyasi"],
+  d:"Tâbi Bulgaristan Prensliği bağımsızlığını ilan etti; Prens Ferdinand çar unvanını aldı. Berlin Antlaşması'ndan kalan Osmanlı-Bulgar sınırı yerinde kaldı, ama hat artık iki bağımsız devlet arasında fiilî bir sınırdı. Osmanlı bağımsızlığı henüz tanımamıştı.",
+  kaynak:"TDV bulgaristan (Nazif Kuyucuklu): 'Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra'" },
+
+{ t:"1909-04-19", devlet:"osmanli", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1909-osm-bg-eski",
+  b:"İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+  etiket:["antlasma","sinir","konu-siyasi"],
+  d:"Rusya'nın aracılığıyla İstanbul'da imzalanan protokolle Osmanlı Devleti Bulgaristan'ın bağımsızlığını tanıdı. Böylece Istranca'daki eski Osmanlı-Bulgar sınırı hukuken iki devlet arasındaki hat oldu; bu kesim bugün de Türkiye-Bulgaristan sınırının parçasıdır.",
+  kaynak:"Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9" },
+
+{ t:"1913-05-30", devlet:"osmanli", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1913-londra-enez-midye",
+  b:"Londra Antlaşması — Enez-Midye hattının batısı Balkan müttefiklerine bırakıldı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"İstanbul",
+  etiket:["antlasma","sinir","toprak-kaybi","konu-siyasi"],
+  d:"I. Balkan Savaşı'nı bitiren Londra Antlaşması, Osmanlı'nın Enez-Midye çizgisinin batısındaki bütün Rumeli topraklarını müttefiklere bırakmasını öngördü; Edirne de bu çizginin batısında kalıyordu. Çizgi yalnız iki ucuyla tarif edilmişti. II. Balkan Savaşı'nda Edirne geri alındı ve sınır 29 Eylül 1913 İstanbul Antlaşması'yla yeniden çizildi.",
+  kaynak:"TDV bulgaristan: '30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması' · Londra Antlaşması md. II (Wikisource neşri) · IBS No. 49 s.10" },
+
 { t:"1913-09-29", devlet:"osmanli", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1913-osm-bg-dogu",
   b:"İstanbul Antlaşması — Osmanlı-Bulgar sınırının tarifi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["antlasma","sinir","konu-siyasi"],
