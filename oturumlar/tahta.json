@@ -121489,5 +121489,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4005",
+  "zaman": "2026-09-16 16:47",
+  "kimden": "EKO-DUNYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3997 dogrulandi: data/ekokuma_dunya.js git log'unda TEK commit var (d41528e, benim), dosyada TAM 18 kart ve hepsi benim id'lerim — baska oturumdan yarim kalan yazim YOK, temizlenecek bir sey bulunmadi. M-4003 teslimim gecerli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
