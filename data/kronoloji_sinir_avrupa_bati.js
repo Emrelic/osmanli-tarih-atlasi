@@ -8,7 +8,8 @@
 //   sinir_id  : d_sinirlar_avrupa_bati.js kayıt kimliği (önek eşleşmesi: -1/-2 parçaları dahil)
 // index.html'e BAĞLANMADI (koordinatör yapacak).
 //
-// KAPSAM: GERİYE SARMA G1 (1918-11-11 → 1923-10-29) ve G2 (1914-07-28 → 1918-11-11).
+// KAPSAM: GERİYE SARMA G1 (1918-11-11 → 1923-10-29), G2 (1914-07-28 → 1918-11-11) ve
+// G3 (1878-07-13 → 1914-07-28; bölgede hat geometrisini değiştiren olay yok, antlaşma/düzeltme maddeleri).
 // G2'de hat değişikliği yalnız Finlandiya'nın ayrılmasıdır; 1914-18 cephe ve işgal hatları
 // (Belçika, Lüksemburg, Kuzey Fransa, İtalya cephesi) koordinatı kesin olmadığı için ne
 // kayıt ne madde aldı. Rusya'daki 1917 Şubat/Ekim hükûmet değişiklikleri hattı değiştirmedi,
@@ -26,6 +27,37 @@
 // TDV bu coğrafyayı bu taneciklikte kapsamıyor (CLAUDE.md §4 TANECİKLİK boşluğu).
 
 window.KRONOLOJI_SINIR_AVRUPA_BATI = [
+
+// ── G3 (1878-07-13 → 1914-07-28) ────────────────────────────────────
+{ t:"1879-06-24", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"d1923-ch-de",
+  b:"İsviçre–Almanya sınır antlaşması — Untersee ve Konstanz kesimi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","isvicre","almanya"],
+  d:"İsviçre ile Alman İmparatorluğu, Baden ile daha önce 1854 ve 1878'de yapılan düzenlemeleri izleyerek Untersee ve Konstanz çevresindeki sınırı antlaşmayla belirledi. Bodensee'nin büyük gölü (Obersee) üzerinde ise hiçbir antlaşma sınır çizmedi; bu durum bugün de sürüyor. Antlaşmanın öncesiyle hat farkı ölçülmedi.",
+  kaynak:"fedlex SR 0.132.136.3 (1964 antlaşmasının önceki antlaşmalara atfı) · Kramsch 2015 (Obersee) — tarih listesi envanter denetim/D3-AVRUPA-BATI-0916.md §1.11'de" },
+
+{ t:"1893-07-21", devlet:"isvicre", devletler:["isvicre","habsburg"], sinir_id:"d1893-hab-ch",
+  b:"Ren düzenlemesi antlaşması yürürlüğe girdi — Avusturya-Macaristan–İsviçre sınırı Eski Ren'in ortası", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","isvicre","habsburg"],
+  d:"30 Aralık 1892'de imzalanan Ren düzenlemesi antlaşması, Avusturya-Macaristan ile İsviçre arasındaki sınırı Eski Ren'in ortasına bağladı. Nehrin yeni yataklara alınması sınırı taşımadı; Diepoldsau kesiminde sınırın yeni kanala uyarlanması Birinci Dünya Savaşı'ndan sonraya kaldı.",
+  kaynak:"Avusturya Dışişleri Bakanlığı (BMEIA) Bern Büyükelçiliği antlaşma listesi" },
+
+{ t:"1894-03-05", devlet:"ispanya", devletler:["ispanya","fas"], sinir_id:"d1923-es-ma-melilla",
+  b:"Merakeş Sözleşmesi — Melilla sınırı ve tarafsız bölge", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","ispanya","fas"],
+  d:"İspanya ile Fas, Melilla çevresindeki sınır ve tarafsız bölge düzenini Merakeş'te imzalanan sözleşmeyle bağladı. Hattın dayanağı 1859 Tetuan Sözleşmesi, 1862 Tanca demarkasyon akdi ve 1891 yeniden işaretleme akdidir; İspanya hükümeti bugünkü sınırı bu belgelerin tamamına dayandırıyor. 1894 sözleşmesinin hattı değiştirip değiştirmediği ölçülmedi.",
+  kaynak:"İspanya hükümetinin Kongre'ye yazılı cevabı, 18 Kasım 2022 (congreso.es)" },
+
+{ t:"1900-02-12", devlet:"danimarka", devletler:["danimarka","almanya"], sinir_id:"d1864-dk-de-kongea",
+  b:"Kopenhag Sınır Sözleşmesi — Kongeå hattında iki küçük düzeltme", tur:"antlasma", onem:1, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","danimarka","almanya"],
+  d:"Danimarka ile Almanya, 1864 Viyana Antlaşması'nın çizdiği Kongeå sınırında sınır dereleri düzenlemesi için iki küçük düzeltme yaptı; takas edilen toprak akrlarla ölçülecek kadar küçüktü. Sözleşme, Viyana hattının yerinde işaretlenmiş olduğunu da gösteriyor. Bu hattın koordinatı haritada yoktur.",
+  kaynak:"IBS No. 81 Denmark–Germany (Copenhagen Frontier Convention, BFSP c.92)" },
+
+{ t:"1905-10-26", devlet:"norvec", devletler:["norvec","isvec"], sinir_id:"d1923-no-se",
+  b:"Karlstad sözleşmeleri — İsveç-Norveç birliğinin sonu, Norveç–İsveç sınırı iki bağımsız devletin sınırı oldu", tur:"bolunme", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","norvec","isvec"],
+  d:"İsveç ile Norveç, birliğin çözülmesini Karlstad'da imzalanan sözleşmelerle düzenledi ve sınırın iki yanında bir tarafsız bölge kurdu. 1751 Strömstad Antlaşması'nın çizdiği hat değişmedi ve bağımsız iki devletin sınırı oldu; antlaşma bugün de yürürlüktedir. Atlasta Norveç künyesi Haziran 1905'ten başlar; birliğin bittiği o günün tarihi bu kaynaklarda geçmiyor.",
+  kaynak:"Store norske leksikon 'riksgrensen' · Karlstad sözleşmesi 26.10.1905 (UNISPAL kopyası, yalnız başlık okundu)" },
 
 { t:"1917-12-06", devlet:"finlandiya", devletler:["finlandiya","isvec"], sinir_id:"d1923-fi-se",
   b:"Finlandiya bağımsızlığını ilan etti — İsveç ve Norveç ile sınırlar Finlandiya'nın oldu", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"",

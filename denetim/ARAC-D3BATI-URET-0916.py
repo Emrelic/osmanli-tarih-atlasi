@@ -761,6 +761,39 @@ for rid, f0, t0 in RUS:
              G2_NOT + " (norvec künyesi 1905'ten). Petsamo 1920'ye kadar Rusya'nındı (Tartu md. 4)",
              t=t0, iso=iso2)
 
+# =====================================================================
+# GERİYE SARMA G3 — 1914-07-28 → 1878-07-13 (Berlin) · 1.MURAT M-4153
+# Bölgede bu pencerede HAT GEOMETRİSİNİ değiştiren kaynaklı bir olay bulunamadı; pencereye düşen
+# 'bilinen son hat belgesi' başlangıçlarının (1879 · 1893 · 1894) öncesi YOK kutusudur.
+# PENCERE_BASI: öncülün kendi başlangıcı kaynakta YOK ⇒ f pencere başı; bu bir DEĞİŞİKLİK tarihi değildir.
+# Künye boşlukları: Norveç 1814-1905 ve Lüksemburg 1815-1890 künyesi yok ⇒ norvec/luksemburg kayıtları
+# 1905/1890 öncesine SARILAMADI (D-KUNYE'ye bildirilecek).
+# =====================================================================
+PENCERE_BASI = "1878-07-13"
+PB_NOT = "f G3 pencere başıdır (öncülün başlangıcı kaynakta yok) — değişiklik tarihi DEĞİL; G4'te denetlenecek"
+g = cizgi("CHE-DEU")
+xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
+yok("dg3-ch-de-1879-oncesi", CH, DE, PENCERE_BASI, (min(xs) - .03, min(ys) - .03, max(xs) + .03, max(ys) + .03),
+    {"deger": None, "kaynak": "bulunamadı", "not": "1879 antlaşması Untersee/Konstanz kesimini düzenledi; öncesiyle farkı ölçülmedi"},
+    [{"ad": "Baden–İsviçre sınır antlaşması (Untersee)", "tarih": "1854-10-31", "tur": "antlaşma"},
+     {"ad": "Baden–İsviçre antlaşması", "tarih": "1878-04-28", "tur": "antlaşma"},
+     {"ad": "İsviçre–Almanya sınır antlaşması (Untersee/Konstanz)", "tarih": "1879-06-24", "tur": "antlaşma"}],
+    "E (kara ve Untersee) · Obersee C", "G3 · " + PB_NOT, t="1879-06-24")
+g = cizgi("AUT-CHE") + CHIT_YENI
+xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
+yok("dg3-hab-ch-1893-oncesi", "habsburg", CH, PENCERE_BASI, (min(xs) - .03, min(ys) - .03, max(xs) + .03, max(ys) + .03),
+    {"deger": None, "kaynak": "bulunamadı", "not": "1892 Ren antlaşması sınırı Eski Ren'in ortasına bağladı; öncesiyle farkı ölçülmedi"},
+    HABCH, "E", "G3 · Ren ve dağ kesimleri + Cima Garibaldi–Piz Lad. " + PB_NOT, t="1893-07-21")
+g = cizgi("ESP-MAR", 2)
+xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
+yok("dg3-es-ma-melilla-1894-oncesi", ES, MA, "1862-06-21", (min(xs) - .02, min(ys) - .02, max(xs) + .02, max(ys) + .02),
+    {"deger": None, "kaynak": "bulunamadı", "not": "1891 yeniden aplikasyon ve 1894 Merakeş sözleşmesinin hattı değiştirip değiştirmediği ölçülmedi"},
+    [{"ad": "Tanca Demarkasyon Akdi", "tarih": "1862-06-21", "tur": "antlaşma", "not": "basında 1862-06-26 — ÇELİŞKİ"},
+     {"ad": "Yeniden Aplikasyon Akdi", "tarih": "1891-05-01", "tur": "antlaşma", "not": "bir özette 1891-04-29 — ÇELİŞKİ"},
+     {"ad": "İspanya hükümetinin meclise yazılı cevabı (2022-11-18)", "tur": "resmî",
+      "url": "https://www.congreso.es/entradap/l14p/e24/e_0244503_n_000.pdf"}],
+    "E", "G3 · Melilla 1862 demarkasyonu → 1894 Merakeş", t="1894-03-05")
+
 # ---------------- yaz ----------------
 ids = [k["id"] for k in KAYIT]
 assert len(ids) == len(set(ids)), "mükerrer id"
