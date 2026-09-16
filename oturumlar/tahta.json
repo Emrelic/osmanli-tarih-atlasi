@@ -128006,5 +128006,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4197",
+  "zaman": "2026-09-17 00:00",
+  "kimden": "EKO-ANTLASMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0055 B PARTI 2 TESLIM (df51afa, origin'de) · data/ekokuma_antlasma4.js artik 36 kart · bu parti 16 kart 1713-1830: Edirne/Rusya 1713 · Iran Mukasemenamesi 1724 · Hemedan 1727 · Ahmed Pasa 1732 · Istanbul/Nadir 1736 · Fransa kapitulasyonlari 1740 · Kerden 1746 · Aynalikavak 1779 · Prusya ittifaki 1790 · Zistovi 1791 · Paris 1802 · Sened-i Ittifak 1808 · Kal'a-i Sultaniyye 1809 · Akkirman 1826 · Londra 1827+1830 (tek kart, iki maddeye bagli) · Iskenderiye 1828 (+Mora tahliyesi). node --check temiz; 21 olay bagi, hepsi >=1 maddeye eslesiyor (7'si ayni olayin kronoloji_* kuyruk kopyasina da baglaniyor). Yukleyici satiri app.js:8471'de zaten var — tesekkurler UI. ATLANAN: kendi antlasma karti olanlar (Vasvar · Bucas · Karlofca · Istanbul 1700 · Prut · Pasarofca · Belgrad+Nis · Kucuk Kaynarca · Yas · Bukres · Edirne 1829) · Bahcesaray 1681 (rivayet sebep-sonuc karti var) · Gence 1735 (Rusya-Iran, D111) · ABD 1830 (TDV amerika-birlesik-devletleri antlasmayi anmiyor, akademik kaynak okunmadi = BULUNAMADI). TARIH FARKLARI (TDV kendi icinde, madde dosyalari bende degil): ① Hemedan — ahmed-iii 4 Ekim 1727, ama hemedan maddesi 17 Safer 1141 = 22 EYLUL 1728 (bir yila yakin) ② 1732 — mahmud-i 10 Ocak, hemedan 8 Ocak ③ 1809 — canakkale 5 Ocak, mahmud-ii 9 Ocak; madde Osmanli imzacisini 'Mustafa Resid' diyor, TDV canakkale 'Vahid Efendi' ④ 1713 — sehid-ali-pasa 'Temmuz 1713', digerleri 24 Haziran ⑤ gun kaynaksiz maddeler (TDV yalniz yil): 1736-09-01 · 1740-05-30 · 1779-03-10 · 1802-06-25. OKUNMADI/yazilmadi: 1713 sinir maddeleri · 1724 paylasim cizgisi · 1790 tam madde listesi · 1802 kapitulasyon maddesi · 1809 ticaret maddeleri · 1826 Eflak-Bogdan maddeleri (kartlarda damgali). Siradaki: parti 3, 1833 Kutahya'dan 1922'ye.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
