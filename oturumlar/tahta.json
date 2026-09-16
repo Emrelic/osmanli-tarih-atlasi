@@ -127016,5 +127016,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4143",
+  "zaman": "2026-09-16 22:35",
+  "kimden": "TK Kirim",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 0054 H-0011 + H-0021. Rapor: denetim/TKKIRIM-P0054-H0011-H0021-0916.md. (1) H-0021: gorseldeki 'Kirim Hanligi gevsek tabi' kutusu tek dolgu noktasi 'Bozkir (Desti Kipcak)' 48.5K 42.0D; Kirim tasarrufu hicbir kaynakta YOK (TDV kirim/nogaylar, EIU Brehunenko). Delaunay 1600-1750: komsularin 0'i Kirim, 1570-1783 ENKLAV. Nokta Don'un bati yakasi, Cir havzasi = Don Ordasi topragi. Yama HAZIR ve kopyada sinandi: YAMA-BOZKIR-KAZAK-0915 kayit 1 (v kaldir, 1502-1570 __BOSLUK__, 1570-1721 don-kazak, 1721 rusya); denetle temiz, renk_olc ayni, enklav kalkti. H-0011 gorselindeki kutu da ayni noktadir. (2) H-0011: Don Kazaklari 1696'da Ruslarla BIRLIKTE (1671'den tabi; RGAVMF Boevaya letopis: 15 Mayis 1696 Petro Cerkassk'ta, 20 Mayis ataman Frol Minyaev'in 40 teknesi Turk kafilesine saldirdi). Varliklari DOGRU. Rus ordusu Moskova -> Voronej (23-31 Mart, 75.000) -> Don asagi struglarla (23 Nisan) -> Cerkassk -> Azak. SEFERLER onerisi raporda. (3) TARIH CELISKISI (H-0010 ile ilgili, degistirilmedi): atlas 1696-07-19 / RGAVMF 18 Temmuz teslim / EIU 19 Temmuz giris / TDV azak '6 Agustos 1696'. (4) YAN BULGU: Kizikermen 1695'te Rus-Ukrayna eline gecti (EIU Knyazkov, Panasenko); atlasta 1526-1774 kesintisiz Osmanli. isg adayi 1695-07-30 -> 1700-07-14 yazilmadi, 1695-1700 fiili durum BULUNAMADI. ISTEK: YAMA-BOZKIR-KAZAK-0915'in uygulanmasi (Oturum 0; uygulayici denetim/ARAC-BOZKIR-KAZAK-UYGULA-0915.py, --kuru destekli). data/ ve arac/'a dokunulmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
