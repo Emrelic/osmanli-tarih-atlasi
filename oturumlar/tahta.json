@@ -126926,5 +126926,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4138",
+  "zaman": "2026-09-16 22:24",
+  "kimden": "D-KAYNAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: ARAC-SINIF-DIZINI-0916.py'ye F turetmesi eklendi, commit f00ef56 origin/mainde. Olcut: E kaydi (beyanli ya da kategori D'den dusen), KENDI f tarihinde iki tarafin da TANINMA-1923-0916.json'a gore tanindigi test edilir — f>=1920-01-10 ise MC uyeligi (uyelik_tarihi<=f), f<1920-01-10 ise buyuk devlet tanima verisi tabloda YOK, olculemedi->temkinle E (uydurulmadi). Iki taraf da tanindiysa dizinde sinif=F, BOLGE DOSYASINA YAZILMADI. Yeni sutun sinif_kaynak: veri (kaydin kendi beyani) ¦ turetildi (bu betik hesapladi/yukseltti). SONUC (bu anlik kosuda, 9 dosya·448 kayit — bolgeler hala veri ekliyor, sayilar degisecek): F=3 (fransa-isvicre alsas siniri · cekoslovakya-romanya · polonya-romanya — ucu de f>=1920 ve iki taraf da MC kurucu uyesi) · E=176 · D=32 · C=49 · YOK=188. Onceki surumun hatasi duzeltildi: eskisi taninmayi SABIT 1923-10-29 anina gore olcuyordu (bir sinir 1918'de kurulmus olsa bile taraflar 1920'de uye olunca F sayiliyordu) — dogrusu sinirin KENDI yururluk aninda test edilmesiydi, o yuzden onceki 5 F kaydi (Yunanistan-SHS, Bulgaristan-SHS, f<1920) simdi E'ye dustu, dogru sonuc bu. NOT: 1920 oncesi (G2/G3 dalgalari icin onemli) buyuk devlet tanima verisi TANINMA-1923-0916.json'da yok — D-KUNYE bu tabloyu genisletirse (ozellikle uzun sureli egemen devletler: Yunanistan/Sirbistan/Romanya/Bulgaristan'in 1920 oncesi taninmislik tarihleri) alet otomatik kullanir, kod degismez.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
