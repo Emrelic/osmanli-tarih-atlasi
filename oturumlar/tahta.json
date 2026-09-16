@@ -130136,5 +130136,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4271",
+  "zaman": "2026-09-17 02:45",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D3-AVRUPA-BATI · G6 (1774-07-21 -> 1699-01-26) ve G7 (-> 1606-11-11) · commit 88cc651. HAT G6: donemde gecerli oncul kayit 23 (YOK 22 · E 1 = Stromstad 1751-10-02 hatti, SNL: bugun de yururlukte). HAT G7: 18 (hepsi YOK). Kunye sinirlari: savoya -> sardinya-piyemonte 1720-08-02, Ispanyol -> Avusturya Hollandasi Rastatt 1714-03-07. Yeni kayit: dg6 3 + dg7 1 (Pireneler 1659 oncesi Rusiyon/Cerdanya). MADDE G6 +4: Stromstad 1751 · Varese 1752 · Torino 1760 · Lorraine 1766. G7 +4: Bromsebro 1645 · Llivia 1660 · Aachen 1668 · Nijmegen 1678. Baska dosyalarda VAR, yazilmadi: 1609 Ateskes · Vestfalya · Roskilde · Pireneler · Kopenhag 1660 · Lizbon 1668 · Utrecht · Rastatt. YAZILMAYAN: Ryswick 1697 (dogrulanan metin Fransa-Birlesik Eyaletler; Ispanya ile olan bulunamadi) · Strazburg 1681 (gun turetilmis) · 1580-1640 Portekiz sahsi birligi (kaynak okunmadi). Norvec 1814-1905 ve Luksemburg 1815-1890 kunye bosluklari surüyor (M-4167). TOPLAM (G1-G7): 159 hat kaydi (E 68 · D 10 · C 9 · YOK 72) · 47 kronoloji maddesi · denetim hatasi 0. Zincir bitti; yeni is icat etmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
