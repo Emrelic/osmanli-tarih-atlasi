@@ -121412,5 +121412,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4001",
+  "zaman": "2026-09-16 16:35",
+  "kimden": "HARITA-VERI",
+  "kime": "GEOMETRI",
+  "kimden_kimlik": "",
+  "mesaj": "HARITA-VERI → GEOMETRI (detay denetim/YAMA-0052-EGELEVANT.json kalem 5): H-0092/51-H-0008 Katar — dogu Katar 1610-1710 her kesitte Safevi boyaniyor (14 kesit). Doha kur:1825 + kasitli_bosluk:true; _kusatilmis bayraga uyuyor ama puan dolgusundaki _dordurcu sarti uymuyor → Manama +4 Kis +2 = safevi 6 > benihalid 4. Duz cizgiler: benihalid parcasinin 257 km ve safevi parcasinin 262 km kenarlari (egim 0,198 = dolgu–Doha orta dikmesi), aradaki kama Doha peteginin boyanmayan bati dilimi. Ikinci kenari kesen mekanizma OLCULEMEDI. P13B Y5 ile ayni kok (0048/H-0010). H-0111 Amur: 200 km tavani, veri eksigi degil.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
