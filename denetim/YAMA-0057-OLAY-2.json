@@ -1,0 +1,83 @@
+{
+  "_not": "DALGA-BEKLEYEN.md B8 — YAMA-0057-OLAY.json'daki 13 tam 'bulunamadı' (var olan hiçbir maddeye bağlanamayan) ek okuma kartı için: uygun VAR OLAN madde yoksa, kaynaklı YENİ kronoloji maddesi öner. Hiçbir tarih uydurulmadı — yalnız kartın KENDİ metninde zaten TDV kaynaklı olarak geçen tarihler önerildi; kaynağın kendisi tarih vermiyorsa (çoğu 'şüpheli ölüm' kartı) ÖNERİLMEDİ. data/olaylar*.js'e YAZMADIM — bu yalnız öneri, 1.MURAT uygular.",
+
+  "teknik-tahrir-defterleri": {
+    "onerilen_yeni_madde": { "t": "1431-01-01", "b": "En eski tahrir defteri düzenlendi", "kaynak": "TDV: tahrir" },
+    "gerekce": "Kartın kendi metni: \"bugüne ulaşan en eski tahrir defteri 1431 tarihlidir\" (TDV: tahrir). Gün TDV'de yok, YYYY-01-01 + kesinlik:yil önerilir."
+  },
+
+  "teknik-osmanli-tarihciligi-kaynaklari": {
+    "onerilemez": true,
+    "gerekce": "Kart üç ayrı tarihçiyi (Neşrî/Naîmâ/Cevdet Paşa) tanıtan bir GENEL GİRİŞ kartı — tek bir olay tarihine YAPISAL olarak bağlanamaz. Alttaki üç kişi kartının (Neşrî, Naîmâ) kendi önerileri bu kartı da dolaylı destekler; ayrı bir madde önerisi uydurma olurdu."
+  },
+
+  "kimdir-nesri": {
+    "onerilen_yeni_madde": { "t": "1520-01-01", "b": "Tarihçi Neşrî'nin ölümü", "kaynak": "TDV: nesri" },
+    "gerekce": "Kart: \"ö. 926/1520\". Gün TDV'de verilmiyor, YYYY-01-01 + kesinlik:yil."
+  },
+
+  "kimdir-naima": {
+    "onerilen_yeni_madde": [
+      { "t": "1702-01-01", "b": "Naîmâ, imparatorluğun ilk resmî tarihçisi (vakanüvis) unvanını aldı", "kaynak": "TDV: naima" },
+      { "t": "1734-01-01", "b": "Naîmâ Tarihi (Ravzatü'l-Hüseyn) İbrâhim Müteferrika tarafından basıldı", "kaynak": "TDV: naima" }
+    ],
+    "gerekce": "Kart: \"1114 (1702) dolayında ... İLK resmî tarihçisi unvanını aldı\" ve \"1147'de (1734) İbrâhim Müteferrika tarafından iki cilt hâlinde basıldı\". İkisi de TDV'nin verdiği yıl, gün yok. 1734 kaydı AYRICA Türk matbaacılık tarihi için ilgi çekici (Müteferrika basımı) — istenirse ayrı bir 'ilk basılı tarih kitapları' kartıyla da bağlanabilir, bu turda YAPILMADI."
+  },
+
+  "teknik-osmanli-fas-iliskileri": {
+    "onerilemez": true,
+    "gerekce": "YAMA-0057-OLAY.json'da zaten 'bulunamadi_kismi' — 1578 Vâdiülmehâzin/Kasrılkebir maddesi VAR ve düzeltmesi önerilmişti (muhtemelen 7 uygulanandan biri). Kalan 1554 Fas şehri tarihi için TDV'de gün/net bir tarih ayrımı yok, kartın kendisi \"yalnız dokuz ay elde tuttu\" diyor ama başlangıç/bitiş günü vermiyor — yeni madde UYDURMA olurdu."
+  },
+
+  "supheli-olum-orhan-kor-fetret": {
+    "onerilemez": true,
+    "gerekce": "TDV'nin KENDİSİ tarih vermiyor (\"FAİL VE KESİN TARİHİ vermez\", kartın kendi notu). Kaynak tarih vermeyince yeni madde de uydurulamaz — D107."
+  },
+
+  "supheli-olum-cem-oguz-han": {
+    "onerilemez": true,
+    "gerekce": "Aynı sebep — TDV yalnız Cem Sultan'ın mersiyesi üzerinden anıyor, ne fail ne tarih veriyor."
+  },
+
+  "supheli-olum-mehmed-iv-girisim": {
+    "onerilemez": true,
+    "gerekce": "Evliya Çelebi'ye dayanan bir RİVAYET, TDV'nin 'mehmed-iv' maddesi tarih vermiyor (kartın kendi ifadesiyle 'GİRİŞİM ve RİVAYET')."
+  },
+
+  "supheli-olum-sehzade-mehmed-1756": {
+    "onerilen_yeni_madde": { "t": "1756-12-22", "b": "Şehzade Mehmed'in ani ölümü — TDV'nin iki maddesi zehirlenme iddiasında AYRIŞIYOR", "kaynak": "TDV: mustafa-iii · TDV: osman-iii" },
+    "gerekce": "Bu kartın aslında tam GÜN hassasiyetli bir tarihi var (\"22 Aralık 1756'da aniden öldü\") — YAMA-0057-OLAY.json'da 'bulunamadi:true' yazmıştım çünkü VAR OLAN bir maddeye bağlanamadı, ama YENİ madde önermek için engel yok. Kaynak İKİ TDV maddesinin çelişkisini (zehir mi hastalık mı) açıkça taşıyor — madde metninde TARAF SEÇİLMEMELİ, kartın kendi 'tartışmalı' damgası korunmalı."
+  },
+
+  "kimdir-padisah-lakaplari": {
+    "onerilemez": true,
+    "gerekce": "Altı padişahın (Yıldırım/Yavuz/Kanûnî/Deli İbrahim/Avcı Mehmed/II.Selim) lakap kökenini karşılaştıran kart — YAPISAL olarak tek olaya bağlanamaz. Zorla bir padişahın cülus tarihine bağlamak kartın KAPSAMINI yanlış temsil eder."
+  },
+
+  "kimdir-padisah-sanat-zanaat": {
+    "onerilemez": true,
+    "gerekce": "kimdir-padisah-lakaplari ile AYNI yapısal sebep — altı padişahı (Fâtih/II.Bayezid/Kanûnî/II.Selim/III.Ahmed/II.Mahmud) karşılaştıran genel kart."
+  },
+
+  "darussaade-agasi-harem-hiyerarsisi": {
+    "onerilen_yeni_madde": { "t": "1574-01-01", "b": "Habeşî Mehmed Ağa'nın darüssaade ağalığını Bâbüssaâde ağalığından ayırıp müstakil bir makam hâline getirmesi", "kaynak": "TDV: darussaade" },
+    "gerekce": "Kartın KENDİ metni bunu zaten aday olarak öneriyordu (\"kronolojiye yeni bir madde açılabilecek somut bir aday\"). TDV yıl veriyor (1574), gün yok — YYYY-01-01 + kesinlik:yil."
+  },
+
+  "ebru-sanati-ipek-yolundan-istanbula": {
+    "onerilemez": true,
+    "gerekce": "Kartın KENDİ notu: TDV 'ebrunun kesin kökeni ve tarihi belirsizdir' diyor, kart yalnızca YAKLAŞIK bir yüzyıl çapası (1520/1590) kullanıyor, gerçek bir olay iddiası yok. Kaynak tarih vermeyince madde de uydurulamaz."
+  },
+
+  "iznik-cinicilik-cokusu": {
+    "onerilen_yeni_madde": { "t": "1648-01-01", "b": "Evliya Çelebi'nin gözlemine göre İznik'teki çini imalathanesi sayısı dokuza düşmüştü (bir asır önce onlarca vardı)", "kaynak": "TDV: iznik" },
+    "gerekce": "Kartın KENDİ metni bunu zaten aday olarak öneriyordu (\"kronolojiye ... yeni bir madde önerilebilir\"). Evliya Çelebi'nin seyahati 1648 — TDV'nin verdiği YIL, gün Evliya Çelebi'nin metninden gelmiyor, YYYY-01-01 + kesinlik:yil."
+  },
+
+  "_ozet": {
+    "toplam": 13,
+    "yeni_madde_onerildi": 6,
+    "onerilemez": 7,
+    "not": "6 karttan (Naîmâ 2 madde önerdiği için) toplam 7 yeni madde adayı çıktı. 7 kart YAPISAL sebeple (çok-konulu genel kart) ya da kaynağın kendisi tarih vermediği için (TDV 'fail belirsiz'/'rivayet' diyor) önerilemedi — bunlar EKSİKLİK değil, kaynağın kendi sınırı."
+  }
+}
