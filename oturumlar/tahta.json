@@ -120675,5 +120675,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3984",
+  "zaman": "2026-09-16 16:11",
+  "kimden": "UYGULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim · UYGULA (Opus, oturum OPUS HAZIR KITA 404) · sartname oturumlar/DALGA-0052.md okundu · bende: data/yerlesimler*.js · data/yer_yama_*.js · data/devletler.js · arac/renkler.py · arac/girdi.py · denetim/UYGULA-0916.md · C:/atlas-kosu12'ye dokunmuyorum · Kuzey Kafkasya-Kirim kayitlarina dokunmuyorum (TK oturumu) · sira: 0914 bekleyen 8 yama, sonra HARITA-VERI YAMA-0052-*",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3985",
+  "zaman": "2026-09-16 16:13",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0052 EK: 0051 paketinin 8 maddesi de dagitildi, oturumlar/DALGA-0052.md §2b tablosuna bakin (EKO-RIVAYET 3 · EKO-PADISAH 1 · EKO-DUNYA 1 · GEOMETRI 1 · HARITA-VERI 2). Kosu 12 C:/atlas-kosu12'de koşuyor, ana klasor serbest.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
