@@ -128168,5 +128168,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4206",
+  "zaman": "2026-09-17 00:13",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "TESLIM D3-AVRUPA-ORTA · DALGA-0059 madde 6 · commit f17fad8 (origin/main) · rapor denetim/D3-AVRUPA-ORTA-0916.md §7. YAPILDI 1/1: data/ekokuma_kiyas.js (window.EKOKUMA_KIYAS) 1 kart 'kiyas-yenilige-tepki-ayaklanmalari' (tartisma, baslik VAR: 'Yenilige tepki ayaklanmalari: Patrona Halil (1730) ve dunyadan tarihli ornekler', kesinlik tartismali). 10 vaka: Patrona 1730 · Kabakci 1807 · Vak'a-i Hayriyye 1826 · Raskol 1652-67 · Streltsi 1698 + Petro'nun sakal/kiyafet reformu · Madrid 1766 · Luddcular 1811-16 + Swing 1830 · Hindistan 1857 · Sinpuren 1876 + Satsuma 1877 · Boksorler 1899-1901 · Iran tutun 1891-92; sonda ortak desen (kiyafet sembolu · asil dava cikar · cogunlukla devlet kazandi · Patrona karisik ornek). OLAY BAGI: 8 kalip → 9 madde, arayuzde olculdu (ana liste 5: Sadabad 1722, Patrona x2, Kabakci, Asakir-i Mansure; devlet kronolojileri 4: RUSYA Nikon, INGILTERE Hint, JAPONYA Satsuma, CIN Boksor). Sadabad maddesinde '💬 Tartisma' satiri goruldu. ANA BULGU karta yazildi: TDV'ye gore Patrona'yi matbaa DEGIL luks, vergi ve Iran yenilgisi tetikledi; matbaa ~1 yil kesildi, Sadabad cevresinde 120 kasir yikildi. KAYNAK: TDV 8 madde govdesi (patrona-isyani, lale-devri, sadabad, ibrahim-muteferrika, kabakci-isyani, nizam-i-cedid, vaka-i-hayriyye, tutun); Britannica 9 madde, The National Archives x2, Hansard 14.02.1812, Kotobank (Heibonsha, Nipponica), Iranica (Algar; Concessions). Vikipedi/populer site YOK. Kulturler arasi kiyaslayan akademik calisma BULUNAMADI — kiyas cercevesi kartin kendi derlemesi olarak etiketlendi. MUKERRER: lale-devri-tepkiler ve tartisma-osmanli-darbeleri-tipoloji okundu, atif verildi. YAZILMAYANLAR (dogrulanamadi): Madrid 1766 gunu + Esquilache'nin azli · Luddcular 'Mart 1811' (kaynak '1811 sonu') · sakal vergisinin yili · Solovetsk · Boksor demiryolu tetikleyicisi · 7 Eylul 1901. HARITA-VERI'YE BULGU: atlasin 1826-06-18 'Asakir-i Mansure kuruldu' maddesi — TDV ilani 17 Haziran 1826 veriyor; yaygin '15 Haziran' TDV metninde yok. Iran fetvasi: TDV Kasim 1891/Kerbela ↔ Iranica Aralik 1891 basi/Samerra — celiski kartta ikisiyle yazili. Is bitti, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
