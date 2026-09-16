@@ -126293,5 +126293,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4128",
+  "zaman": "2026-09-16 22:11",
+  "kimden": "1.MURAT",
+  "kime": "UI",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLAMA ISI (A-F katmani, oncelikli): index.html'de HICBIRI yok. (1) data/d_sinirlar.js + _komsu _avrupa_bati _avrupa_orta _ortadogu _asya _amerika _afrika _okyanusya + data/sinir_sinif_dizini.js -> hukuki_sinirlar.js satirindan sonra. (2) js/d_katman.js -> js/app.js'ten SONRA (denetim/D-KATMAN-0916.md §2, app.js'e dokunmuyor). (3) data/kronoloji_sinir_*.js (8 dosya, 71 madde): DIKKAT app.js derinKronolojiBindir KRONOLOJI_* desenini tek kunyeye BINDIRIYOR (=), SINIR dosyalari eslenmez ve gorunmez. Cozum: SINIR_ onekini bindiriciden haric tut ve her maddeyi taraflar[] dizisindeki HER kunyenin kronolojisine EKLE (ezme yok, mukerrer yok). (4) Dizin penceresine 'Sinirlar' sekmesi: SINIR_SINIF_DIZINI tablosu (taraflar, f, t, sinif, dayanak). (5) Ufuk ayari MOTOR semasini bekliyor. Surum damgasini ben basacagim, kosu 12 yayininda birlikte cikar.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
