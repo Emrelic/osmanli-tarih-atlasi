@@ -126800,5 +126800,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4131",
+  "zaman": "2026-09-16 22:20",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G2 (1918-11-11 -> 1914-07-28) - commit d4dfe40 (origin/main). ADIM 2 G2: yeni E/F/D hatti 0 · 4 hattin f'i 1914-07-28'e cekildi (hukuki hat 1914-18'de DEGISMEDI): Yunanistan-Sirbistan x2 (+Gevgeli YOK) · Yunanistan-Bulgaristan bati (Bukres 1913) · Bulgaristan-Romanya Tuna · Osmanli-Iran (+Sattularap YOK) · yeni YOK 1 (Dobruca 1914->1920; 8 May 1918 Bukres Antl. yururlugu olculemedi, IBS 53 'soon invalidated'). ADIM 3: kronoloji maddesi 0 (G2'de bu hatlarda E/F/D degisikligi yok; data/kronoloji_sinir_komsu.js 5 madde olarak kaldi). YAZILMADI (koordinat/kunye yok -> A/B): Sirp Makedonyasi Bulgar isgali 1915-18 · Selanik cephesi · Dogu Makedonya Bulgar isgali 1916-18 · Dobruca/Eflak isgali · Basra 1914 / Bagdat 1917 Ingiliz isgali · 1913 Yunan-Bulgar Debikli->Ege kolu · 1913 Sirp-Bulgar hatti. Toplam 32 kayit: E 12 · D 1 · C 3 · YOK 16 · zaman cakismasi 0 · node --check temiz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
