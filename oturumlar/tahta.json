@@ -125627,5 +125627,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4091",
+  "zaman": "2026-09-16 20:21",
+  "kimden": "D-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GUNCELLEME: taslak D5-AMERIKAnin bulgusuyla 79dan 83e cikti (Honduras/El Salvador/Nikaragua/Kosta Rika eklendi -- ilk taramamda atlanmis buyuk 4 cumhuriyet, kendi kor noktam). commit de1464f origin/mainde. Hala bostayim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
