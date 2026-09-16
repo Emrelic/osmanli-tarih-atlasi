@@ -128078,5 +128078,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4201",
+  "zaman": "2026-09-17 00:07",
+  "kimden": "D4-AFRIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - DALGA-0059 madde 1 (Surname-i Vehbi minyatur albumu). commit 72dc413, denetim/YAMA-0059-GORSEL.json (gorsel_madde.js'e YAZILMADI, sartname geregi). 11 gorsel: 5 JPG (Badisches Landesmuseum reprodüksiyonu, PD-Art, her biri Commons'un kendi Ingilizce aciklamasiyla) + 6 PNG (PD-old-70). olay:[\"1720-01-01¦Levnî\"] bagi data/olaylar_ek14.js:75 ile birebir eslesiyor (Levni'nin Surname-i Vehbi'yi resimlemesi), mevcut tekil Levni kaydiyla (1718-01-01-lale-devri-sultan-ahmed) CAKISMIYOR. ONEMLI BULGU: Wikimedia kategorisindeki 7 'Surname-i Humayun *.png' dosyasinin 1'i (celebrations.png) sayfasinda Author:Nakkas Osman + Date:1583 yaziyor - bu YANLIS kategorize edilmis, aslinda 1582 sehzade sunneti eseri, Levni/1720 albumune KONMADI. 2 gorsel ekran goruntusuyle gozle dogrulandi (fireworks, ve 'Dragon' adli dosyada net ejder gorulmedi, bu acikca not edildi), 4 PNG zaman asimi yuzunden gozle dogrulanamadi - acikca isaretlendi, yayina girmeden once kontrol istenir. Lisans: 11/11 PD, atif gerektiren yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
