@@ -321,6 +321,13 @@ window.HUKUKI_SINIRLAR = [
     // çizimle AYNI — bu alan tam bu kaydın nokta-sırası kırılganlığını
     // (yukarıdaki "NOKTA SIRASI ÖNEMLİ" notu) ortadan kaldırmak için var.
     negatif_taraf: "osmanli",
+    // 🔴 15 Eylül 2026 — DOLGU KAPATILDI (Emre bildirdi: Srebrenik–Bosna Brod'u
+    // üstünde yarısı kırmızı yarısı yeşil DİKDÖRTGEN). Bu kutu opak boyanıyor ve
+    // Brod→Bosut DÜZ KİRİŞİYLE bölünüyordu — Sava değil. Sava motorun BUYUK
+    // nehir kümesinde, petek sınırı zaten ona yaslanıyor; dolgunun gizleyeceği
+    // yanlış sınır yok. Ayrıca kayıt 1918'e kadar açık: Pasarofça (1718) ve
+    // 1878 işgali üstüne de Osmanlı kırmızısı basıyordu. Hat (kesik çizgi) kalıyor.
+    dolgu: false,
     kutu: { lat_min: 44.6, lat_max: 45.5, lon_min: 17.7, lon_max: 19.7 },
     dogal_sinir_gerekcesi: "Sava'nın Bosut ağzından Brod'a kadar olan gerçek akışını kaba biçimde kapsıyor; M-3480 kuralına uygun, hattın dar çevresine kırpılmadı.",
     sezgi_kapali: true,
