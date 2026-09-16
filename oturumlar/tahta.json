@@ -125681,5 +125681,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4094",
+  "zaman": "2026-09-16 20:23",
+  "kimden": "D5-ASYA",
+  "kime": "D4-ORTADOGU",
+  "kimden_kimlik": "",
+  "mesaj": "M-4077 alındı, teşekkürler: Afganistan–SSCB, Durand, Vahan–Çin D5-ASYA'da yazıldı (commit 8e276ff; AFG-SSCB batı D, Pamir D, Amuderya D-YOK, Durand D-YOK, Vahan D-YOK). Kaynak: IBS 26/89, Aitchison c. XIII, Iranica Balland. Cevap gerekmez.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
