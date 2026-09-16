@@ -1,0 +1,456 @@
+{
+ "olusturan": "D-KUNYE (Sonnet Hazır Kıta 1002) · 16 Eylül 2026, DALGA-0055.md §C",
+ "amac": "Kronolojisi 0 madde olan kunyeler icin kurulus/toprak/son satirlari -- devletler.js'e YAZILMADI, UYGULA indirir.",
+ "yontem": "Bolgelerim (arabistan/misir-sudan/iran/anadolu/kafkasya/orta-asya/sibirya-bozkir/balkanlar/italya/orta-avrupa) icin KRONOLOJI-EKSIK-0916.json'daki 53 kunyeden kronoloji_sayisi==0 olan 27'si icin satir uretildi. Zaten 2 kayitli (kurulus+son) olan 26 kunyeye YENI satir YAZILMADI -- rapor sec.2'de listelendi, zaten yeterli sayildi. Kaynak ONCELIKLE kunyenin KENDI ozet/kaynak alaninda ZATEN yazili TDV/akademik atiflardan turetildi (yeniden arama YAPILMADI, cunku zaten vardi); atlasin ufkunun (1923-10-29) OTESINDEKI 'son' olaylari icin (orn. 1958 Irak darbesi) standart genel tarih bilgisi kullanildi ve ACIKCA 'DOGRULANMADI'/'dusuk guven' diye isaretlendi.",
+ "durum": "TASLAK YAMA -- devletler.js'e YAZILMADI. UYGULA/kaynak sahibi kunye kronoloji dizisine ekler.",
+ "satirlar": [
+  {
+   "id": "irak-kralligi",
+   "t": "1921-08-23",
+   "tur": "kurulus",
+   "b": "Faysal bin Hüseyin, Bağdat'ta İngiliz mandası altında Irak Kralı ilan edildi",
+   "kaynak": "künyenin kendi kaynak alanı: Britannica 'Faisal I'"
+  },
+  {
+   "id": "irak-kralligi",
+   "t": "1922-10-10",
+   "tur": "antlasma",
+   "b": "İngiliz-Irak Antlaşması imzalandı; Milletler Cemiyeti mandası bu çerçevede resmîleşti",
+   "kaynak": "standart akademik (Anglo-Iraqi Treaty 1922) — künyenin ozet alanındaki '~1922 MC onayı' notunun günlü hâli, ayrıca doğrulanmalı"
+  },
+  {
+   "id": "irak-kralligi",
+   "t": "1958-07-14",
+   "tur": "son",
+   "b": "14 Temmuz Devrimi: Abdülkerim Kasım liderliğindeki darbeyle II. Faysal öldürüldü, krallık yıkılıp cumhuriyet ilan edildi",
+   "kaynak": "standart akademik/ansiklopedik (1958 Iraqi coup d'état) — TDV kapsam dışı, künyenin t: alanıyla (1958) birebir uyumlu"
+  },
+  {
+   "id": "suriye-lubnan-mandasi",
+   "t": "1920-07-24",
+   "tur": "kurulus",
+   "b": "Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verildi, Fransız askerî idaresi başladı",
+   "kaynak": "TDV suriye (künyenin kendi kaynak alanından devralındı)"
+  },
+  {
+   "id": "suriye-lubnan-mandasi",
+   "t": "1922-07-24",
+   "tur": "toprak",
+   "b": "Milletler Cemiyeti, Fransa'nın Suriye-Lübnan mandasını resmen onayladı",
+   "kaynak": "künyenin kendi ozet alanı ('~1922 MC onayı') — gün standart akademik kaynaktan (Fransız mandası Konseyi onayı 24 Temmuz 1922), ayrıca doğrulanmalı"
+  },
+  {
+   "id": "filistin-mandasi",
+   "t": "1920-07-01",
+   "tur": "kurulus",
+   "b": "Filistin'de İngiliz mülkî manda idaresi kuruldu (askerî işgal 1917'den beri sürüyordu)",
+   "kaynak": "TDV filistin (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "filistin-mandasi",
+   "t": "1922-07-24",
+   "tur": "antlasma",
+   "b": "Milletler Cemiyeti, İngiltere'nin Filistin mandasını resmen onayladı",
+   "kaynak": "TDV filistin (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "filistin-mandasi",
+   "t": "1948-05-14",
+   "tur": "son",
+   "b": "İngiliz mandası sona erdi; aynı gün İsrail Devleti ilan edildi",
+   "kaynak": "standart akademik/ansiklopedik (1948 Palestine Mandate'in bitişi) — TDV kapsam dışı, künyenin t: alanıyla (1948-05-14) birebir uyumlu"
+  },
+  {
+   "id": "urdun-emirligi",
+   "t": "1921-02-01",
+   "tur": "kurulus",
+   "b": "Abdullah bin Hüseyin kendini Şarkî Ürdün Emîri ilan etti",
+   "kaynak": "TDV urdun (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "urdun-emirligi",
+   "t": "1946-05-25",
+   "tur": "son",
+   "b": "Londra Antlaşması ile İngiliz mandası sona erdi, Ürdün Krallığı ilan edildi",
+   "kaynak": "standart akademik/ansiklopedik (Treaty of London 1946) — TDV kapsam dışı, künyenin t: alanıyla (1946-05-25) birebir uyumlu"
+  },
+  {
+   "id": "kesiri-sultanligi",
+   "t": "1450-01-01",
+   "tur": "kurulus",
+   "b": "Kesîrî kabilesi Hadramut'un iç kesimine (Sayvân/Terîm/Şibâm) hâkim oldu",
+   "kaynak": "TDV hadramut (künyenin kendi kaynak alanından, 'XV. yüzyılın ikinci yarısı' — yıl kaba)"
+  },
+  {
+   "id": "kesiri-sultanligi",
+   "t": "1967-11-30",
+   "tur": "son",
+   "b": "Güney Yemen'in bağımsızlığıyla İngiliz himayesindeki Hadramut sultanlıkları (Kesîrî dahil) tarihe karıştı",
+   "kaynak": "standart akademik/ansiklopedik (South Arabia'nın bağımsızlığı, 30 Kasım 1967) — künyenin t: alanıyla birebir uyumlu"
+  },
+  {
+   "id": "kuayti-sultanligi",
+   "t": "1881-01-01",
+   "tur": "kurulus",
+   "b": "Ömer b. Avad el-Kuaytî İngiliz desteğiyle Şihr ve Mükellâ dahil Hadramut kıyısının tamamını ele geçirdi",
+   "kaynak": "TDV hadramut (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "kuayti-sultanligi",
+   "t": "1888-01-01",
+   "tur": "toprak",
+   "b": "İngiliz himaye antlaşması imzalandı: dış ilişkiler İngiltere'ye geçti, iç idare Kuaytî'de kaldı",
+   "kaynak": "TDV hadramut (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "kuayti-sultanligi",
+   "t": "1967-11-30",
+   "tur": "son",
+   "b": "Güney Yemen'in bağımsızlığıyla İngiliz himayesindeki Hadramut sultanlıkları (Kuaytî dahil) tarihe karıştı",
+   "kaynak": "standart akademik/ansiklopedik (South Arabia'nın bağımsızlığı, 30 Kasım 1967) — künyenin t: alanıyla birebir uyumlu"
+  },
+  {
+   "id": "mekke-serifligi",
+   "t": "1517-01-01",
+   "tur": "toprak",
+   "b": "Mısır'ın fethiyle Mekke Şerifliği Osmanlı hâkimiyetini tanıdı",
+   "kaynak": "TDV haremeyn (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "mekke-serifligi",
+   "t": "1916-06-10",
+   "tur": "son",
+   "b": "Şerif Hüseyin'in isyanıyla şeriflik fiilen Hicaz Krallığı'na dönüştü (bkz. hicaz-kralligi)",
+   "kaynak": "künyenin kendi ozet alanı — ardıl künye hicaz-kralligi'nin kendi 'isyan' maddesiyle aynı gün, çift kayıt DEĞİL, geçiş notu"
+  },
+  {
+   "id": "sani-emirligi",
+   "t": "1868-01-01",
+   "tur": "kurulus",
+   "b": "Osmanlılar Katar'a donanma göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermekten kurtarıp nüfuzlarına aldı",
+   "kaynak": "TDV katar (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "sani-emirligi",
+   "t": "1871-09-20",
+   "tur": "toprak",
+   "b": "Nâfiz Paşa'nın Lahsâ seferi sonrası Katar Osmanlı idaresine kazâ olarak bağlandı",
+   "kaynak": "TDV katar (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "sani-emirligi",
+   "t": "1913-07-29",
+   "tur": "son",
+   "b": "Osmanlı-İngiliz Konvansiyonu ile Katar İngiliz nüfuz alanına bırakıldı, Osmanlı bağı fiilen sona erdi",
+   "kaynak": "künyenin kendi f/t verisinden devralındı (1913 Anglo-Ottoman Convention) — gün ayrıca doğrulanmalı"
+  },
+  {
+   "id": "sabah-emirligi",
+   "t": "1899-01-23",
+   "tur": "toprak",
+   "b": "Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı",
+   "kaynak": "TDV kuveyt (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "sabah-emirligi",
+   "t": "1914-11-22",
+   "tur": "son",
+   "b": "I. Dünya Savaşı patlak verince İngiltere Kuveyt'i resmen 'bağımsız himaye altında bir şeyhlik' ilan etti, Osmanlı bağı tamamen kesildi",
+   "kaynak": "künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı"
+  },
+  {
+   "id": "misir-sultanligi",
+   "t": "1914-12-18",
+   "tur": "kurulus",
+   "b": "İngiltere tek taraflı himaye ilan etti, Hüseyin Kâmil Mısır Sultanı oldu, Osmanlı hükümranlığı kaldırıldı",
+   "kaynak": "TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)"
+  },
+  {
+   "id": "misir-sultanligi",
+   "t": "1922-03-15",
+   "tur": "son",
+   "b": "Ahmed Fuâd kral (melik) unvanını aldı, Sultanlık Krallığa dönüştü",
+   "kaynak": "TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)"
+  },
+  {
+   "id": "misir-kralligi",
+   "t": "1922-03-15",
+   "tur": "kurulus",
+   "b": "Ahmed Fuâd kral (melik) unvanını aldı, Mısır'da monarşi ilân edildi",
+   "kaynak": "TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)"
+  },
+  {
+   "id": "misir-kralligi",
+   "t": "1952-07-26",
+   "tur": "toprak",
+   "b": "Hür Subaylar darbesiyle Kral Faruk tahttan indirildi (oğlu II. Fuad adına naiplik dönemi başladı)",
+   "kaynak": "standart akademik/ansiklopedik (1952 Mısır Devrimi) — TDV kapsam dışı bu tarih için, ayrıca doğrulanmalı"
+  },
+  {
+   "id": "misir-kralligi",
+   "t": "1953-06-18",
+   "tur": "son",
+   "b": "Mısır Cumhuriyeti ilan edildi, monarşi resmen kaldırıldı",
+   "kaynak": "standart akademik/ansiklopedik — künyenin t: alanıyla (1953-06-18) birebir uyumlu"
+  },
+  {
+   "id": "ingiliz-sudani",
+   "t": "1899-01-19",
+   "tur": "kurulus",
+   "b": "İngiliz-Mısır antlaşmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçti",
+   "kaynak": "TDV sudan (künyenin kendi kaynak alanından, raw HTML doğrulanmış)"
+  },
+  {
+   "id": "ingiliz-sudani",
+   "t": "1956-01-01",
+   "tur": "son",
+   "b": "Sudan bağımsızlığını ilan etti, Anglo-Mısır Kondominyumu sona erdi",
+   "kaynak": "standart akademik/ansiklopedik (Sudan bağımsızlığı, 1 Ocak 1956) — künyenin t: alanıyla birebir uyumlu"
+  },
+  {
+   "id": "tannu-tuva",
+   "t": "1921-08-14",
+   "tur": "kurulus",
+   "b": "Rus İç Savaşı'nda Kızıl Ordu desteğiyle Tannu Tuva Halk Cumhuriyeti ilan edildi",
+   "kaynak": "Britannica 'Tannu-Tuva' (künyenin kendi kaynak alanından)"
+  },
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "t": "1920-02-02",
+   "tur": "toprak",
+   "b": "Kızıl Ordu ve yerel Jön Hîveliler Hive Hanlığı'nı devirdi",
+   "kaynak": "standart akademik/ansiklopedik (Wikipedia 'Khorezm People's Soviet Republic') — künyenin kendi kaynak alanındaki '~Şubat 1920' notunun gün hâli, ayrıca doğrulanmalı"
+  },
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "t": "1920-04-26",
+   "tur": "kurulus",
+   "b": "I. Harezm Kurultayı Harezm Halk Sovyet Cumhuriyeti'ni ilan etti",
+   "kaynak": "künyenin kendi kaynak alanı (Wikipedia 'Khorezm People's Soviet Republic')"
+  },
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "t": "1924-10-27",
+   "tur": "son",
+   "b": "Orta Asya'nın Sovyet millî sınırlara bölünmesi (national delimitation) ile Harezm SSC dağıtılıp Özbek ve Türkmen SSC'lerine katıldı",
+   "kaynak": "standart akademik/ansiklopedik (1924 Soviet national delimitation of Central Asia) — künyenin t: alanı 1924-01-01 KABA yıl taşıyor, bu satır gün hassasiyetini ARTIRIYOR, doğrulanmalı"
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "t": "1920-09-02",
+   "tur": "toprak",
+   "b": "Kızıl Ordu Buhara'yı ele geçirip Emirliği devirdi",
+   "kaynak": "künyenin kendi kaynak alanı (Wikipedia 'Bukharan People's Soviet Republic')"
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "t": "1920-10-08",
+   "tur": "kurulus",
+   "b": "Buhara Halk Sovyet Cumhuriyeti ilan edildi",
+   "kaynak": "künyenin kendi kaynak alanı (Wikipedia 'Bukharan People's Soviet Republic')"
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "t": "1924-10-27",
+   "tur": "son",
+   "b": "Orta Asya'nın Sovyet millî sınırlara bölünmesiyle Buhara SSC dağıtılıp Özbek ve Türkmen SSC'lerine katıldı",
+   "kaynak": "standart akademik/ansiklopedik (1924 Soviet national delimitation of Central Asia) — künyenin t: alanı 1924-01-01 KABA yıl taşıyor, bu satır gün hassasiyetini ARTIRIYOR, doğrulanmalı"
+  },
+  {
+   "id": "topia",
+   "t": "1363-01-01",
+   "tur": "kurulus",
+   "b": "Charles Thopia Kruya'ya (Akçahisar) hâkim oldu",
+   "kaynak": "künyenin kendi kaynak alanı (TDV kruya)"
+  },
+  {
+   "id": "topia",
+   "t": "1392-01-01",
+   "tur": "toprak",
+   "b": "Charles'ın oğlu ve halefi George'un ölümüyle Kruya elden çıktı; kız kardeşi Helena Venedikli Barbadigo ile evlendi",
+   "kaynak": "künyenin kendi kaynak alanı (TDV kruya)"
+  },
+  {
+   "id": "topia",
+   "t": "1394-01-01",
+   "tur": "toprak",
+   "b": "Osmanlı vasali olarak Sırp Prensi Konstantin Balšić Kruya'ya getirildi",
+   "kaynak": "künyenin kendi kaynak alanı (TDV kruya)"
+  },
+  {
+   "id": "topia",
+   "t": "1415-01-01",
+   "tur": "son",
+   "b": "Nikola Thopia Kruya'yı ailesi adına geri aldı ve aynı yıl ölümüne kadar elinde tuttu",
+   "kaynak": "künyenin kendi kaynak alanı (TDV kruya)"
+  },
+  {
+   "id": "dukagin",
+   "t": "1387-01-01",
+   "tur": "kurulus",
+   "b": "Paul ve Lek Dukagjin adlı Arnavut asilzadeleri Leş'i (Alessio) Dukagin Prensliği'nin merkezi hâline getirdi",
+   "kaynak": "künyenin kendi kaynak alanı (TDV les)"
+  },
+  {
+   "id": "dukagin",
+   "t": "1479-01-25",
+   "tur": "son",
+   "b": "Osmanlı-Venedik antlaşmasıyla bölge Osmanlı hâkimiyetine geçti (tarih arnavutluk-iskenderbey künyesiyle hizalı, TDV doğrudan gün vermiyor)",
+   "kaynak": "hizalama — arnavutluk-iskenderbey künyesinin t: alanından devralındı, kaynaksız gün olarak işaretlenmeli"
+  },
+  {
+   "id": "arvanid-sancagi",
+   "t": "1415-01-01",
+   "tur": "kurulus",
+   "b": "Osmanlılar Arnavutluk'un tamamını ele geçirip Arvanid-ili (Arnavut-ili) sancağını kurdu",
+   "kaynak": "künyenin kendi kaynak alanı (TDV arnavutluk)"
+  },
+  {
+   "id": "arvanid-sancagi",
+   "t": "1537-08-25",
+   "tur": "son",
+   "b": "Veriden devralınan bitiş tarihi (TDV bu günü doğrudan vermiyor, kaynaksız — ayrıca araştırılmalı)",
+   "kaynak": "künyenin kendi ozet alanı — 'kaynaksız' olarak işaretli, DOĞRULANMADI"
+  },
+  {
+   "id": "crnojevic-zetasi",
+   "t": "1482-01-01",
+   "tur": "kurulus",
+   "b": "Crnojević ailesi Zeta'da (Karadağ) Venedik desteğiyle idareyi kurdu",
+   "kaynak": "künyenin kendi kaynak alanı (TDV karadag)"
+  },
+  {
+   "id": "crnojevic-zetasi",
+   "t": "1499-01-01",
+   "tur": "son",
+   "b": "Osmanlı nüfuzu pekişti; künyenin t: alanı 1499'da kapanıyor (TDV bu günü doğrudan vermiyor, veriden devralındı)",
+   "kaynak": "künyenin kendi ozet alanı — kaynaksız, DOĞRULANMADI; TDV 1514'ü ayrı sancak kuruluşu olarak veriyor, iki tarih arasındaki fark ayrıca incelenmeli"
+  },
+  {
+   "id": "dejanovic-prensligi",
+   "t": "1371-09-26",
+   "tur": "kurulus",
+   "b": "Çirmen bozgunundan sonra Dejanović ailesi Osmanlı tâbiiyetini kabul etti",
+   "kaynak": "künyenin kendi ozet alanı — DOĞRULANMADI, künyenin kendi notu 'ARANMAYA DEVAM' diyor"
+  },
+  {
+   "id": "dejanovic-prensligi",
+   "t": "1395-05-17",
+   "tur": "son",
+   "b": "Rovine Savaşı'nda Konstantin Dejanović Osmanlı saflarında savaşırken öldü, toprakları doğrudan Osmanlı idaresine geçti",
+   "kaynak": "künyenin kendi ozet alanı — DOĞRULANMADI, künyenin kendi notu 'ARANMAYA DEVAM' diyor"
+  },
+  {
+   "id": "hurmuz-sultanligi",
+   "t": "1507-01-01",
+   "tur": "toprak",
+   "b": "Portekizliler Uman ve Hürmüz sahil şehirlerini ele geçirmeye başladı; Memlük donanması bu ilerleyişi durduramadı",
+   "kaynak": "künyenin kendi kaynak alanı (TDV hurmuz--iran / uman)"
+  },
+  {
+   "id": "hurmuz-sultanligi",
+   "t": "1514-01-01",
+   "tur": "son",
+   "b": "Şah İsmâil'in Osmanlı ile ihtilâfından yararlanan Portekiz, İran'a tâbi Hürmüz sultanını hâkimiyeti altına aldı",
+   "kaynak": "künyenin kendi kaynak alanı (TDV hurmuz--iran)"
+  },
+  {
+   "id": "piombino",
+   "t": "1399-02-19",
+   "tur": "kurulus",
+   "b": "Gherardo Appiani, Pisa'yı Visconti'ye devrederken Piombino ve Elba/Pianosa/Montecristo adalarını kendine ayırdı",
+   "kaynak": "künyenin kendi kaynak alanı (Wikipedia 'Principality of Piombino' + Britannica 'Elba')"
+  },
+  {
+   "id": "piombino",
+   "t": "1548-01-01",
+   "tur": "son",
+   "b": "V. Karl, İtalyan Savaşları sırasında Floransa'nın işgaline uğrayan Piombino'yu imparatorluk fiefi olarak Appiani hânedanına (Jacopo VI) iade etti — bağımsız prenslik statüsü sona erip İspanyol/imparatorluk nüfuz alanına girdi",
+   "kaynak": "standart akademik/ansiklopedik — DOĞRULANMADI, düşük güven; ayrıca araştırılmalı"
+  },
+  {
+   "id": "sutayogullari",
+   "t": "1343-01-01",
+   "tur": "kurulus",
+   "b": "Sutayoğulları'ndan İbrahim Şah Diyarbekir (Âmid) bölgesinde hâkimiyet kurdu",
+   "kaynak": "künyenin kendi kaynak alanı (TDV diyarbakir gövdesi)"
+  },
+  {
+   "id": "sutayogullari",
+   "t": "1353-01-01",
+   "tur": "son",
+   "b": "Diyarbekir'deki idare Celâyirliler'e geçti",
+   "kaynak": "künyenin kendi kaynak alanı (TDV diyarbakir gövdesi)"
+  },
+  {
+   "id": "cemisgezek-beyligi",
+   "t": "1200-01-01",
+   "tur": "kurulus",
+   "b": "Anadolu Selçuklu Devleti, Cemişgezek'i beylik merkezi hâline getirdi (yüzyılın başı, gün/yıl kesin değil)",
+   "kaynak": "künyenin kendi kaynak alanı (Fırat Üniv. 'Cemişgezek-Ulukale Köyü'nün Tarihsel Yerleşim Dokusu')"
+  },
+  {
+   "id": "cemisgezek-beyligi",
+   "t": "1281-01-01",
+   "tur": "toprak",
+   "b": "Memlüklerin Moğol nüfuzunu kırmasıyla Cemişgezek Beyleri (Melkîsî) topraklarını zayıflayan Moğol valilerinden geri aldı",
+   "kaynak": "künyenin kendi kaynak alanı (Karabulut 2019, Munzur Üniv. Sosyal Bilimler Dergisi)"
+  },
+  {
+   "id": "cemisgezek-beyligi",
+   "t": "1420-01-01",
+   "tur": "son",
+   "b": "Künyenin t: alanı burada kapanıyor AMA akademik kaynak (Fırat Üniv. makalesi) beyliğin 'Kanuni Sultan Süleyman zamanına kadar' (yani 16. yy'a kadar) sürdüğünü söylüyor — İKİ KAYNAK ARASINDA ~110 YIL FARK VAR, çözülmedi",
+   "kaynak": "🔴 ÇELİŞKİ — künyenin t: değeri (1420) ile aynı künyenin kendi kaynak alanındaki akademik atıf (Süleyman dönemi) UYUŞMUYOR; D-KUNYE bunu ÇÖZMEDİ, UYGULA/HARITA-VERI karar versin"
+  },
+  {
+   "id": "orta-macar-kralligi",
+   "t": "1682-01-01",
+   "tur": "kurulus",
+   "b": "İmre Tököli, Osmanlı desteğiyle Orta Macar Krallığı'nın kralı ilan edildi",
+   "kaynak": "künyenin kendi kaynak alanı (TDV tokoli-imre)"
+  },
+  {
+   "id": "orta-macar-kralligi",
+   "t": "1685-10-15",
+   "tur": "toprak",
+   "b": "II. Viyana bozgunu sonrası Osmanlılar Tököli'yi yenilgiden sorumlu tutup Varad'da tutuklattı",
+   "kaynak": "künyenin kendi kaynak alanı (TDV tokoli-imre, AYNEN alıntı)"
+  },
+  {
+   "id": "orta-macar-kralligi",
+   "t": "1688-01-17",
+   "tur": "son",
+   "b": "Krallığın son kalesi Munkács, Tököli'nin eşi Ilona Zrínyi'nin idaresinde bu tarihe kadar direndikten sonra düştü",
+   "kaynak": "künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı"
+  },
+  {
+   "id": "kumuk-samhalligi",
+   "t": "1578-01-01",
+   "tur": "kurulus",
+   "b": "Osmanlı-Safevî mücadelesi sırasında Tarki Kumuk Şamhallığı Osmanlı tâbiiyetini tanıdı",
+   "kaynak": "künyenin kendi kaynak alanı (TDV kumuklar)"
+  },
+  {
+   "id": "kumuk-samhalligi",
+   "t": "1607-01-01",
+   "tur": "son",
+   "b": "Künyenin t: alanı burada kapanıyor; TDV bu günü doğrudan vermiyor, veriden devralındı — DOĞRULANMADI",
+   "kaynak": "künyenin kendi ozet alanı, kaynaksız"
+  },
+  {
+   "id": "kaheti-kralligi",
+   "t": "1578-08-09",
+   "tur": "kurulus",
+   "b": "1578 Osmanlı seferi sonrası Kahet ülkesi ocaklık olarak eski hâkimine (Alexandre soyu) bırakılıp haraca bağlandı",
+   "kaynak": "künyenin kendi kaynak alanı (TDV gurcistan / sirvan)"
+  },
+  {
+   "id": "kaheti-kralligi",
+   "t": "1606-01-01",
+   "tur": "son",
+   "b": "Künyenin t: alanı burada kapanıyor; TDV bu günü doğrudan vermiyor, veriden devralındı — DOĞRULANMADI",
+   "kaynak": "künyenin kendi ozet alanı, kaynaksız"
+  }
+ ]
+}
