@@ -28,6 +28,202 @@
 
 window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 
+// ── G5-G7 (1606-11-11 → 1815-06-09) ─────────────────────────────────
+// Başka dosyada ZATEN bulunan maddeler yazılmadı: 1609 On İki Yıl Ateşkesi · Vestfalya 1648 ·
+// Roskilde 1658 · Pireneler 1659 · Kopenhag 1660 · Lizbon 1668 · Utrecht 1713 · Rastatt 1714 ·
+// Campo Formio 1797 · Fredrikshamn 1809 · Kiel 1814. Bu dönemin hatlarının çoğu haritada YOK kutusudur.
+
+{ t:"1645-08-13", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
+  b:"Brömsebro Barışı — Jämtland ve Härjedalen İsveç'e geçti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","isvec","danimarka"],
+  d:"Uzun müzakerelerin ardından Brömsebro'da imzalanan barışla Danimarka-Norveç, Norveç'in Jämtland ve Härjedalen illerini İsveç'e bıraktı. İki krallık arasındaki kuzey sınırı böylece batıya kaydı; ancak hat 1751'e kadar ayrıntılı olarak çizilmedi.",
+  kaynak:"Den Store Danske (lex.dk) 'Brömsebro' · Store norske leksikon 'riksgrensen'" },
+
+{ t:"1660-11-12", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"d1923-fr-es-llivia",
+  b:"Llívia sözleşmesi — Llívia'nın Cerdanya'da İspanyol anklavı olarak kalması", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa","ispanya"],
+  d:"Pireneler Antlaşması Cerdanya'nın köylerini Fransa'ya bırakmıştı. Llívia'da imzalanan sözleşme Llívia'yı bu devrin dışında tuttu; Llívia o günden beri Fransız toprağıyla çevrili bir İspanyol anklavıdır. Çevresi 1866 Bayonne Antlaşması'yla ayrıntılı olarak tarif edildi.",
+  kaynak:"Pireneler Antlaşması ve Llívia sözleşmesi metni (Digithèque MJP, Perpignan Üniversitesi) · UNTS c.1288 No. 907 (Bayonne 1866 md. XVI)" },
+
+{ t:"1668-05-02", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"dg5-guneyhol-fr-1",
+  b:"Aachen Barışı — Fransa ile İspanya arasında İspanyol Hollandası sınırının değişmesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa","ispanya"],
+  d:"Fransa ile İspanya arasında imzalanan Aachen Barışı İspanyol Hollandası ile Fransa arasındaki sınırı değiştirdi. Güney Hollanda–Fransa sınırı 1659, 1668, 1678 ve 1697 barışlarıyla defalarca değişti; bu hatların koordinatı haritada yoktur.",
+  kaynak:"Aachen Antlaşması metni (Digithèque MJP, 1668aix)" },
+
+{ t:"1678-09-17", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"dg5-fr-ch-jura-1",
+  b:"Nijmegen Barışı (Fransa–İspanya) — Franş-Konte Fransa'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa","ispanya","isvicre"],
+  d:"Fransa ile İspanya arasındaki Nijmegen Barışı'nın XI. maddesiyle Franş-Konte Fransa'ya bırakıldı. Böylece bugünkü Fransa–İsviçre sınırının Jura kesimine komşu olan bölge Fransız oldu; İspanyol Hollandası sınırında da yeni değişiklikler yapıldı.",
+  kaynak:"Nijmegen Antlaşması (Fransa–İspanya) metni, md. XI (Digithèque MJP, 1678nimegue)" },
+
+{ t:"1751-10-02", devlet:"danimarka", devletler:["danimarka","isvec"], sinir_id:"dg6-dk-se-stromstad",
+  b:"Strömstad Sınır Antlaşması — Norveç–İsveç sınırı çizildi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","danimarka","isvec","norvec"],
+  d:"Danimarka-Norveç ile İsveç, Norveç ile İsveç arasındaki sınırı Strömstad'da imzalanan antlaşmayla güneyden kuzeye ayrıntılı olarak belirledi; Sami halkının haklarını düzenleyen Lapp ek maddesi de antlaşmanın parçasıdır. Hat 1752-1766 arasında yerinde işaretlendi. Antlaşma bugün de yürürlüktedir ve bugünkü Norveç–İsveç sınırının dayanağıdır. İsveç takvimine göre imza günü 21 Eylül'dür.",
+  kaynak:"Store norske leksikon 'grensetraktaten av 1751' ve 'riksgrensen'" },
+
+{ t:"1752-08-02", devlet:"isvicre", devletler:["isvicre","milano-dukaligi"], sinir_id:"dg5-it-ch-1",
+  b:"Varese Antlaşması — Ticino ile Milano Dükalığı arasındaki sınırın sistemli delimitasyonu", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","isvicre","milano-dukaligi","habsburg"],
+  d:"Milano Düşesi, Avusturya İmparatoriçesi ve İsviçre Konfederasyonu, Lugano, Locarno ve Mendrisio vilayetleri ile Lombardiya arasındaki sınırı Varese'de düzenledi. Antlaşma sınırın yöntemli biçimde çizilmesinin ilk ciddi girişimi sayılır; 1754-1755'te karma komisyonlar hattı ayrıntılı olarak belgeledi. 1861 Lugano Sözleşmesi de Ticino sınırındaki anlaşmazlıkları bu antlaşmaya dayanarak çözdü.",
+  kaynak:"IBS No. 12 Italy–Switzerland (Treaty of Varese)" },
+
+{ t:"1760-03-24", devlet:"sardinya-piyemonte", devletler:["sardinya-piyemonte","fransa"], sinir_id:"dg5-sa-fr-2",
+  b:"Torino Antlaşması — Fransa ile Sardinya arasındaki sınırın düzenlenmesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","sardinya-piyemonte","fransa"],
+  d:"Fransa ile Sardinya Krallığı, Savoy ve Nice kontluğu boyunca uzanan ortak sınırlarını Torino'da imzalanan antlaşmayla düzenledi. Bu hat 1792'de Savoy'un Fransa'ya katılmasına kadar sürdü; koordinatı haritada yoktur.",
+  kaynak:"Torino Antlaşması 1760 metni (Digithèque MJP, 1760turin; Wenck derlemesi) · BnF katalog kaydı" },
+
+{ t:"1766-02-23", devlet:"fransa", devletler:["fransa","almanya"], sinir_id:"dg5-fr-de-1",
+  b:"Lorraine Fransa'ya katıldı — Stanislas'ın ölümü", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","konu-siyasi","fransa","almanya"],
+  d:"Lorraine Dükü Stanislas Lunéville'de öldü ve düklük ertesi gün Fransız kralı adına ele geçirildi. Lorraine'in katılmasıyla Fransa'nın Alman devletleriyle olan kuzeydoğu sınırı değişti; bu hattın koordinatı haritada yoktur.",
+  kaynak:"Musée Lorrain (Nancy)" },
+
+{ t:"1792-11-27", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","sardinya-piyemonte"], sinir_id:"dg5-sa-ch-3",
+  b:"Savoy'un Fransa'ya katılması — Cenevre ve Valais ile sınırlar Fransız oldu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","konu-siyasi","fransa-cumhuriyet","sardinya-piyemonte","isvicre"],
+  d:"Ulusal Konvansiyon Savoy'un Fransa'ya katılması kararını kabul etti; Nice'in katılması 31 Ocak 1793'te onaylandı. Savoy'un Cenevre ve Valais ile sınırları böylece Fransa'nın sınırı oldu. Cenevre 26 Nisan 1798'de, Valais 12 Kasım 1810'da Fransa'ya katıldı; 1815 Viyana düzenlemesi Savoy'u Sardinya'ya geri verdi.",
+  kaynak:"Digithèque MJP (d1792savoie, d1793nice — Archives parlementaires) · HLS 'Genf (Kanton)', 'Wallis'" },
+
+{ t:"1795-10-01", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","habsburg"], sinir_id:"dg5-guneyhol-fr-3",
+  b:"Avusturya Hollandası'nın Fransa'ya ilhakı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["sinir","konu-siyasi","fransa-cumhuriyet","habsburg","belcika"],
+  d:"Ulusal Konvansiyon, 9 vendémiaire IV. yıl kararıyla Avusturya Hollandası'nı Fransa'ya kattı. Güney Hollanda–Fransa sınırı böylece ortadan kalktı; bölge 1815'e kadar Fransız kaldı ve ardından Birleşik Hollanda Krallığı'na verildi.",
+  kaynak:"Digithèque MJP (d1795belgique) · Wallonie portalı (Institut Destrée)" },
+
+{ t:"1797-10-10", devlet:"isvicre", devletler:["isvicre","milano-dukaligi"], sinir_id:"dg5-it-ch-1",
+  b:"Valtellina, Chiavenna ve Bormio'nun Cisalpin Cumhuriyeti'ne katılması", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","konu-siyasi","isvicre","milano-dukaligi"],
+  d:"Napolyon, Graubünden'e tâbi Valtellina, Chiavenna ve Bormio'yu Cisalpin Cumhuriyeti'ne kattı; Graubünden bu toprakları kaybetti. Bu dönemin sınır hattının koordinatı haritada yoktur.",
+  kaynak:"HLS 'Veltlin'" },
+
+{ t:"1801-02-09", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","almanya"], sinir_id:"dg5-fr-de-2",
+  b:"Lunéville Antlaşması — Ren'in sol yakası Fransa'ya", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","almanya","habsburg"],
+  d:"Fransa ile Kutsal Roma İmparatorluğu arasındaki Lunéville Antlaşması, Ren'in sol yakasını Fransa'ya bıraktı ve Fransa–Almanya sınırını Ren nehrine taşıdı. Bu hat 1814'e kadar sürdü; bugünkü sınırın yalnız Alsas kesimindeki Ren parçası onunla çakışır, geri kalanının koordinatı haritada yoktur.",
+  kaynak:"Lunéville Antlaşması metni (Digithèque MJP, 1801luneville)" },
+
+{ t:"1801-06-06", devlet:"ispanya", devletler:["ispanya","portekiz"], sinir_id:"d1923-es-pt-olivenza",
+  b:"Badajoz Antlaşması — Olivenza İspanya'ya geçti, Guadiana fiilî sınır oldu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","ispanya","portekiz"],
+  d:"Badajoz Antlaşması'yla Olivenza İspanya'ya bırakıldı. Guadiana nehri bu kesimde iki ülke arasındaki sınır oldu. Portekiz bu hattı hiçbir zaman antlaşmayla kabul etmedi; Caia ile Cuncos arasındaki kesim bugün de sınırlandırılmamış, Olivenza anlaşmazlığı sürüyor.",
+  kaynak:"Diputación de Badajoz, Olivenza tarihçesi · Santos Sánchez, BAGE 104 (2025)" },
+
+{ t:"1802-09-11", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","sardinya-piyemonte"], sinir_id:"dg5-it-ch-3",
+  b:"Piyemonte'nin Fransa'ya ilhakı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","konu-siyasi","fransa-cumhuriyet","sardinya-piyemonte","isvicre"],
+  d:"Piyemonte kesin olarak Fransa'ya katıldı. Piyemonte'nin İsviçre ile olan sınırı böylece Fransa'nın sınırı oldu.",
+  kaynak:"S. Cavicchioli, Italies 6 (2002)" },
+
+{ t:"1810-07-09", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","hollanda"], sinir_id:"dg5-nl-de",
+  b:"Holland Krallığı'nın Fransa'ya ilhakı (Rambouillet Kararnamesi)", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["sinir","konu-siyasi","fransa-cumhuriyet","hollanda","almanya"],
+  d:"Rambouillet Kararnamesi'yle Holland Krallığı Fransa'ya katıldı. Hollanda'nın Alman devletleriyle olan sınırı böylece Fransa'nın sınırı oldu.",
+  kaynak:"parlement.com 'Koninkrijk Holland (1806-1810)' (Montesquieu Instituut)" },
+
+{ t:"1810-11-12", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"dg5-sa-ch-3",
+  b:"Valais'nin Simplon departmanı olarak Fransa'ya katılması", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","konu-siyasi","fransa-cumhuriyet","isvicre"],
+  d:"Valais, Simplon departmanı adıyla Fransa'ya katıldı ve Aralık 1813'e kadar Fransız kaldı. Savoy ile Valais arasındaki sınır bu dönemde bir Fransız iç sınırıydı; Valais 1815'te İsviçre Konfederasyonu'na katıldı.",
+  kaynak:"HLS 'Wallis'" },
+
+{ t:"1814-05-30", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"d1923-fr-ch",
+  b:"Birinci Paris Antlaşması — Fransa–İsviçre sınırının bugünkü hattı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","isvicre","sardinya-piyemonte"],
+  d:"Napolyon'un yenilgisinden sonra imzalanan Birinci Paris Antlaşması Fransa'nın sınırlarını yeniden çizdi ve İsviçre Konfederasyonu'nun bağımsızlığını bugünküne büyük ölçüde benzeyen sınırlarla tanıdı. 1815 bildirisi, 1818 Bern sözleşmesi ve 1824 Neuchâtel tutanağı hattı tamamladı; 1862 Dappes takası dışında bu hat yaklaşık 140 yıl değişmedi. ABD Dışişleri çalışması antlaşmanın gününü bir yerde 20 Mayıs olarak veriyor; İsviçre Tarih Sözlüğü 30 Mayıs diyor.",
+  kaynak:"IBS No. 11 France–Switzerland · HLS 'Pariser Frieden' · Digithèque MJP (1814paris)" },
+
+// ── G4 (1815-06-09 → 1878-07-13) ────────────────────────────────────
+// Başka dosyada ZATEN bulunan G4 maddeleri yazılmadı: Viyana 1815 · Londra 1839 · Villafranca ve Zürih 1859 ·
+// Torino 1860 · İtalya Krallığı 1861 · Prag 1866 · Viyana 1866 · Frankfurt 1871 (kronoloji_fransa/habsburg/
+// hollanda/italya/almanya.js).
+
+{ t:"1815-11-20", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","almanya"], sinir_id:"dg4-fr-de-1815",
+  b:"İkinci Paris Antlaşması — Fransa'nın doğu sınırı 1790 hattına yakın biçimde daraltıldı", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","almanya","sardinya-piyemonte"],
+  d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı; haritada 1815-1871 Fransa–Almanya hattı bu yüzden çizilmiyor.",
+  kaynak:"HLS 'Pariser Frieden' (30 Mayıs 1814 ve 20 Kasım 1815) · IBS No. 12 (1814'te Savoy'un bir kısmı Fransa'ya)" },
+
+{ t:"1816-03-16", devlet:"isvicre", devletler:["isvicre","sardinya-piyemonte"], sinir_id:"dg4-sa-ch-cenevre",
+  b:"Torino Antlaşması — Savoy'dan Cenevre'ye bırakılan komünler ve Cenevre–Savoy sınırı", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","isvicre","sardinya-piyemonte"],
+  d:"Viyana Kongresi Nihaî Senedi'nin LXXX. maddesi Savoy'a ait bazı komünleri İsviçre'ye katılan Cenevre'ye bırakmıştı. Sardinya ile İsviçre Torino'da bu devri uygulayan antlaşmayı imzaladı ve Cenevre'nin güney sınırını çizdi. Bu hat 1860'ta Savoy'un Fransa'ya geçmesiyle Fransa–İsviçre sınırı oldu.",
+  kaynak:"IBS No. 12 Italy–Switzerland (Viyana md. LXXX) · Historisches Lexikon der Schweiz 'Savoyen' (Torino 1816)" },
+
+{ t:"1816-06-26", devlet:"hollanda", devletler:["hollanda","almanya"], sinir_id:"dg4-nl-de-belcika-dogu",
+  b:"Aachen Sınır Antlaşması — Birleşik Hollanda ile Prusya arasındaki sınır ve Tarafsız Moresnet", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","hollanda","almanya"],
+  d:"Birleşik Hollanda Krallığı ile Prusya Aachen'de sınırlarını belirledi. Üzerinde anlaşılamayan Moresnet çevresi iki devletin ortak yönetimine bırakıldı (Tarafsız Moresnet). Bugünkü Hollanda–Almanya sınırının Prusya kesimi bu antlaşmaya dayanır; güneydeki kesim 1839'da Belçika'ya geçti.",
+  kaynak:"IBS No. 31 Germany–Netherlands · IBS No. 7 Belgium–Germany" },
+
+{ t:"1820-03-28", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","hollanda"], sinir_id:"dg4-nl-fr-kortrijk",
+  b:"Kortrijk Sınır Antlaşması — bugünkü Belçika–Fransa sınırı çizildi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","hollanda","belcika","luksemburg"],
+  d:"Fransa ile Birleşik Hollanda Krallığı, 1815 Paris Antlaşması'nın belirlediği sınırı Kortrijk'te ayrıntılı olarak çizdi. Belçika 1830'da ayrılınca bu hat Belçika–Fransa sınırı oldu ve küçük düzeltmeler dışında bugüne kadar değişmedi; Lüksemburg ile Fransa arasındaki sınır da aynı antlaşmaya dayanır.",
+  kaynak:"L. Milis, De Lage Landen 'Een verdrag met sporen in het landschap' · ACT Lüksemburg 'Limites d'État'" },
+
+{ t:"1824-07-02", devlet:"hollanda", devletler:["hollanda","almanya"], sinir_id:"d1923-nl-de",
+  b:"Meppen Sınır Antlaşması — Hollanda ile Hannover arasındaki sınır", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","hollanda","almanya"],
+  d:"Hollanda ile Hannover Krallığı, ortak sınırlarını Meppen'de imzaladıkları antlaşmayla ayrıntılı olarak belirleyip işaretledi. Böylece bugünkü Hollanda–Almanya sınırının kuzey kesimi de delimite edilmiş oldu.",
+  kaynak:"IBS No. 31 Germany–Netherlands" },
+
+{ t:"1830-10-04", devlet:"belcika", devletler:["belcika","hollanda"], sinir_id:"dg4-be-fr-fiili",
+  b:"Belçika'nın bağımsızlık ilanı — Fransa sınırı fiilen Belçika'nın oldu", tur:"kurulus", onem:4, dunya:4, kapsam:"dis", yer_id:"Brüksel",
+  etiket:["sinir","konu-siyasi","belcika","hollanda","fransa-cumhuriyet"],
+  d:"Brüksel'deki geçici hükûmet Belçika'nın Birleşik Hollanda Krallığı'ndan ayrıldığını ilan etti. Birleşik Hollanda'nın Fransa ile 1820'de çizilen sınırı fiilen yeni devletin sınırı oldu. Hukukî sınır ve uluslararası kabul 1839 Londra Antlaşması'yla geldi.",
+  kaynak:"Belçika Devlet Arşivi (arch.be) ve Wallonie portalı (4 Ekim 1830) · Nationaal Archief ve parlement.com (Londra 19 Nisan 1839)" },
+
+{ t:"1856-12-02", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","ispanya"], sinir_id:"d1923-fr-es-bati",
+  b:"Bayonne Antlaşması — Pirenelerde Bidasoa'dan Navarra'ya sınırın ayrıntılı çizimi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","ispanya"],
+  d:"Fransa ile İspanya, 1659 Pireneler Antlaşması'ndan beri ayrıntılı olarak çizilmemiş sınırlarının batı kesimini Bayonne'da imzalanan antlaşmayla belirledi. Antlaşma Bidasoa nehrinde talvegi sınır yaptı ve Sülün Adası'nı iki devletin ortak egemenliğine bıraktı. Sınır maddeleri 1859'da uygulanmaya başladı; doğu kesimleri 1862 ve 1866 antlaşmalarıyla tamamlandı.",
+  kaynak:"UNTS c.1142 No. 838 (Bayonne 1856, md. 9 ve 27) · J. Capdevila i Subirana, Historia del deslinde de la frontera hispano-francesa (IGN)" },
+
+{ t:"1860-04-26", devlet:"ispanya", devletler:["ispanya","fas"], sinir_id:"d1923-es-ma-ceuta",
+  b:"Wad-Ras Antlaşması — Ceuta'nın sınırı genişletildi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","ispanya","fas"],
+  d:"İspanya–Fas savaşını bitiren Wad-Ras Antlaşması Ceuta'nın kara sınırını genişletti ve bir tarafsız bölge öngördü. Yeni hat 17 Kasım 1860'ta imzalanan işaretleme belgesiyle yerinde çizildi; akademik bir rapora göre Ceuta bugün de bu sözleşmelerdeki sınırlara sahiptir.",
+  kaynak:"Bermejo García vd., Ceuta y Melilla, frontera terrestre (Observatorio de Ceuta y Melilla, 2020)" },
+
+{ t:"1861-03-07", devlet:"sardinya-piyemonte", devletler:["sardinya-piyemonte","fransa-cumhuriyet"], sinir_id:"dg4-sa-fr-1861",
+  b:"Torino sınır sözleşmesi — Savoy ve Nice'in devrinden sonra Fransa–Sardinya sınırı çizildi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","sardinya-piyemonte","fransa-cumhuriyet","italya"],
+  d:"1860 Torino Antlaşması'nın öngördüğü karma komisyon, Savoy ve Nice'in Fransa'ya geçmesinden sonraki sınırı Torino'da imzalanan sözleşmeyle belirledi. Hat birçok yerde antlaşmada tasarlanandan ayrıldı ve Fransa bazı vadi başlarını kaybetti. On gün sonra İtalya Krallığı ilan edilince bu hat Fransa–İtalya sınırı oldu; 1947'ye kadar yalnız küçük düzeltmeler gördü.",
+  kaynak:"IBS No. 4 France–Italy (Torino 1860-61)" },
+
+{ t:"1862-06-21", devlet:"ispanya", devletler:["ispanya","fas"], sinir_id:"dg3-es-ma-melilla-1894-oncesi",
+  b:"Tanca demarkasyon akdi — Melilla sınırı işaretlendi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","ispanya","fas"],
+  d:"1859 Tetuan Sözleşmesi ve 1861 Madrid Antlaşması'nın genişlettiği Melilla sınırı Tanca'da imzalanan demarkasyon akdiyle yerinde işaretlendi. Akdin günü kaynaklar arasında çelişkilidir: İspanya hükümeti 21 Haziran, basın 26 Haziran 1862 veriyor.",
+  kaynak:"İspanya hükümetinin Kongre'ye yazılı cevabı, 18 Kasım 2022" },
+
+{ t:"1862-12-08", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"d1923-fr-ch-dappes",
+  b:"Dappes Antlaşması — Fransa ile İsviçre arasında toprak takası", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","isvicre"],
+  d:"1815 bildirisiyle İsviçre'ye verilen Dappes vadisindeki stratejik yol, uzun süre iki devlet arasında sürtüşme konusu olmuştu. Bern'de imzalanan antlaşmayla vadi Fransa'ya geçti, karşılığında kuzeyindeki eşit bir alan İsviçre'ye verildi; takas 746,5 hektardı. Bu takas dışında Fransa–İsviçre sınırı 1814'ten 1953'e kadar değişmedi.",
+  kaynak:"IBS No. 11 France–Switzerland" },
+
+{ t:"1864-09-29", devlet:"ispanya", devletler:["ispanya","portekiz"], sinir_id:"d1923-es-pt-kuzey",
+  b:"Lizbon Sınır Antlaşması — Minho'dan Caia'ya İspanya–Portekiz sınırı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","ispanya","portekiz"],
+  d:"İspanya ile Portekiz, Minho nehrinin ağzından Caia'nın Guadiana'ya karıştığı yere kadar sınırlarını Lizbon'da imzalanan antlaşmayla belirledi. Couto Misto adlı tarafsız bölge İspanya'ya bırakıldı. Portekiz, Olivenza meselesi yüzünden hattı yalnız Caia'ya kadar kabul etti; güneyi 1926'ya kadar çizilmedi. Antlaşmanın ekleri 4 Kasım 1866'da tamamlandı.",
+  kaynak:"UNTS c.1288 No. 906 (Portekiz Deniz Kuvvetleri kopyası) · Santos Sánchez, BAGE 104 (2025) · Portekiz Dışişleri" },
+
+{ t:"1864-10-30", devlet:"danimarka", devletler:["danimarka","almanya"], sinir_id:"d1864-dk-de-kongea",
+  b:"Viyana Antlaşması — Danimarka Schleswig, Holstein ve Lauenburg'u bıraktı, sınır Kongeå'ya çekildi", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","danimarka","almanya","habsburg"],
+  d:"İkinci Schleswig Savaşı'nı bitiren Viyana Antlaşması'yla Danimarka üç düklük üzerindeki bütün haklarını Prusya ile Avusturya'ya bıraktı. Danimarka–Alman sınırı Elbe'den kuzeye, Ribe'nin kuzeyindeki Kongeå nehrine taşındı. Bu hat 1920'deki halk oylamalarına kadar sürdü.",
+  kaynak:"IBS No. 81 Denmark–Germany (Viyana 30 Ekim 1864, BFSP c.54)" },
+
+{ t:"1868-07-11", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","ispanya"], sinir_id:"d1923-fr-es-dogu",
+  b:"Bayonne Nihaî Akdi — Fransa–İspanya sınırının delimitasyonu tamamlandı", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","ispanya"],
+  d:"Fransa ile İspanya, 1856, 1862 ve 1866 Bayonne antlaşmalarıyla parça parça çizilen Pireneler sınırını 11 Temmuz 1868 Nihaî Akdi'yle tamamladı. 1866 antlaşması Llívia'nın çevresini de tarif ediyordu. Bir İspanyol resmî yayınına göre sınır o günden beri çok az değişti.",
+  kaynak:"UNTS c.1288 No. 907 (Bayonne 1866 ve Nihaî Akit 1868) · Capdevila (IGN)" },
+
 // ── G3 (1878-07-13 → 1914-07-28) ────────────────────────────────────
 { t:"1879-06-24", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"d1923-ch-de",
   b:"İsviçre–Almanya sınır antlaşması — Untersee ve Konstanz kesimi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",

@@ -169,6 +169,10 @@ VERSAY_YUR = {"ad": "FRUS 1919 Paris Peace Conference c. XIII", "tur": "resmî y
               "alinti": "procès-verbal for the first deposit of ratifications was executed"}
 SG = {"ad": "Saint-Germain Antlaşması", "madde": "md. 27(2)", "tarih": "1919-09-10",
       "tur": "antlaşma", "not": "yürürlük günü birincil/akademik kaynakta BULUNAMADI (RIS 503, AustLII 403)"}
+# G4-G7 tarihleri — doğrulama: envanter ve teslim mesajları (kaynağı her kaydın dayanak alanında)
+T_VIYANA1815 = "1815-06-09"    # Viyana Kongresi Nihaî Senedi (IBS 11, IBS 12)
+T_PARIS1814 = "1814-05-30"     # Paris Antlaşması (IBS 11 bir yerde 30, bir yerde 20 Mayıs — ÇELİŞKİ)
+T_TORINO1860 = "1860-03-24"    # Torino Antlaşması (IBS 4); Savoy'un fiilî devir günü ayrıca doğrulanacak
 SG_F = "1920-01-01"
 SG_F_NOT = ("f hassasiyeti YIL: Saint-Germain'in yürürlük GÜNÜ (yaygın olarak 16 Temmuz 1920) okunabilir bir birincil/akademik "
             "kaynakta BULUNAMADI (RIS 503 · AustLII 403 · UK TS 1919/11 metin katmanı yok); yıl IBS 58'den (Büyükelçiler "
@@ -287,15 +291,35 @@ FRCH = [{"ad": "Viyana Kongresi Bildirisi", "tarih": "1815-03-20", "tur": "antla
 FRCH_DEG = {"deger": True, "kaynak": "IBS 11 · Légifrance 2000-227/228", "not": "1953-02-25 sözleşmeleri (yürürlük 1957; "
             "14 küçük düzeltme + Leman Gölü hattı) · 1996-09-18 iki sözleşme · Senat: 1959-2002 arası 7 değişiklik. " + KUCUK}
 _leman_dis = lambda c: not LEMAN.contains(Point(c))
-ekle("d1923-fr-ch", FR, CH, "1862-12-08", "D", parcala(cizgi("CHE-FRA"), lambda c: _leman_dis(c) and not ALSAS(c)),
+# Savoy kesimleri (1860'a kadar Sardinya): her köşe en yakın Fransız yerleşiminin departmanına göre (GeoNames, 74 = Haute-Savoie)
+_FRK = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "D3BATI-FR-KOMUN-0917.json"), encoding="utf-8"))
+from shapely.strtree import STRtree
+_FRK_P = [Point(r[2], r[3]) for r in _FRK]
+_FRK_T = STRtree(_FRK_P)
+def dept(c):
+    i = _FRK_T.nearest(Point(c))
+    return _FRK[int(i)][4] if km(c, (_FRK[int(i)][2], _FRK[int(i)][3])) < 15 else None
+SAVOY = lambda c: dept(c) == "74"
+SAVOY_NOT = ("Savoy kesimi, köşenin en yakın Fransız yerleşiminin departmanıyla (GeoNames admin2 = 74 Haute-Savoie) "
+             "ayrıldı — departman sınırının 1860 hattını izlediği bir VARSAYIMDIR (±2 km)")
+DAPPES = box(5.98, 46.40, 6.16, 46.56)   # Vallée des Dappes (Les Rousses/La Cure çevresi) — kutu TAHMİNİ
+JURA = lambda c: _leman_dis(c) and not ALSAS(c) and not SAVOY(c)
+ekle("d1923-fr-ch", FR, CH, T_PARIS1814, "D", parcala(cizgi("CHE-FRA"), lambda c: JURA(c) and not DAPPES.contains(Point(c))),
      FRCH, FRCH_DEG, {"t": "1818/1824", "not": "Bern ve Neuchâtel belgeleri"}, 1.5, KES_NE,
-     "§1.10 · Alsas kesimi HARİÇ (ayrı kayıt). f son 1923 öncesi değişiklik (Dappes)")
+     "§1.10 · Jura kesimi (Alsas, Savoy, Leman ve Dappes HARİÇ). IBS 11: 1814 hattı Dappes dışında ~140 yıl geçerli kaldı")
+ekle("d1923-fr-ch-dappes", FR, CH, "1862-12-08", "D", parcala(cizgi("CHE-FRA"), lambda c: JURA(c) and DAPPES.contains(Point(c))),
+     FRCH, FRCH_DEG, {"t": "1862", "not": ""}, 2.0, KES_NE + "; Dappes kutusu TAHMİNİ",
+     "§1.10 · Vallée des Dappes: 1862 Bern antlaşmasıyla takas (746,5 ha, IBS 11)")
+ekle("d1923-fr-ch-savoy", FR, CH, T_TORINO1860, "D", parcala(cizgi("CHE-FRA"), lambda c: _leman_dis(c) and SAVOY(c)),
+     FRCH + [{"ad": "Torino Antlaşması (Savoy ve Nice Fransa'ya)", "tarih": "1860-03-24", "tur": "antlaşma", "url": IBS % 4}],
+     FRCH_DEG, {"t": "1816 / 1818", "not": "Cenevre–Savoy: Torino 1816"}, 2.0, KES_NE + "; " + SAVOY_NOT,
+     "§1.10 · Savoy kesimi (Cenevre güneyi ve Valais–Chablais): 1860'a kadar Sardinya–İsviçre sınırıydı")
 ekle("d1923-fr-ch-alsas", FR, CH, "1920-01-10", "D", parcala(cizgi("CHE-FRA"), ALSAS),
      FRCH + [dict(VERSAY, madde="md. 27, 51", url="https://avalon.law.yale.edu/imt/partiii.asp")], FRCH_DEG,
      {"t": "1815-1816", "not": "Alsas–İsviçre (Basel) kesimi"}, 2.0, KES_NE + "; " + BOL_NOT,
      "§1.10 · Haut-Rhin kesimi: 1871-1918 Almanya–İsviçre sınırıydı; Versay md. 51 1871 öncesi delimitasyonu geri getirdi. "
      "Basel-Mulhouse havalimanı egemenliği değiştirmedi")
-ekle("d1923-fr-ch-leman", FR, CH, "1862-12-08", "C", parcala(cizgi("CHE-FRA"), icinde([LEMAN])), FRCH,
+ekle("d1923-fr-ch-leman", FR, CH, T_TORINO1860, "C", parcala(cizgi("CHE-FRA"), icinde([LEMAN])), FRCH,
      dict(FRCH_DEG, not_="göl hattı ilk kez 1953 sözleşmesiyle çizildi"),
      {"t": "1953-02-25", "not": "göl hattı 1923'ten SONRA"}, 2.0, KES_NE,
      "§1.10 · Leman Gölü: 1923'te göl üzerinde çizilmiş hat yoktu (IBS 11) ⇒ C; çizgi bugünkü göl hattı")
@@ -526,20 +550,20 @@ ekle("d1923-es-pt-kuzey", ES, PT, "1866-11-04", "D", parcala(espt, lambda c: c[1
      {"t": "1906", "not": "genel işaretleme belgesi (BAGE)"}, 1.5,
      KES_NE + "; Caia ayrımı lat 38,87 ile — ağız noktası ÖLÇÜLMEDİ",
      "§3.20 · Minho ağzı → Caia/Guadiana birleşimi. Couto Misto İspanya'ya (md. VII)")
-ekle("d1923-es-pt-olivenza", ES, PT, "1801-01-01", "fiili",
+ekle("d1923-es-pt-olivenza", ES, PT, "1801-06-06", "fiili",
      parcala(espt, lambda c: CUNCOS_LAT <= c[1] < CAIA_LAT), [BAGE, MNE],
      {"deger": False, "kaynak": "BAGE", "not": "hukukî hat bugün de YOK; fiilî hat 1801'den beri Guadiana"},
      {"t": "yok", "not": "hiç sınırlandırılmadı"}, 1.5,
      KES_NE + "; Caia/Cuncos ayrımı enlemle — ağız noktaları ÖLÇÜLMEDİ",
      "§3.21 · Caia → Cuncos: Olivenza anlaşmazlığı, Portekiz hattı tanımıyor ⇒ fiilî (D). "
-     "f: BAGE 'Guadiana 1801 Badajoz Antlaşması'ndan beri sınır' diyor; gün kaynakta YOK ⇒ hassasiyet YIL")
+     "f: BAGE 'Guadiana 1801 Badajoz Antlaşması'ndan beri sınır' diyor; gün Diputación de Badajoz Olivenza tarihçesinden (6 Haziran 1801)")
 g = parcala(espt, lambda c: c[1] < CUNCOS_LAT)
 xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
-yok("d1923-es-pt-guney", ES, PT, "1801-01-01", (min(xs) - .05, min(ys) - .05, max(xs) + .05, CUNCOS_LAT),
+yok("d1923-es-pt-guney", ES, PT, "1801-06-06", (min(xs) - .05, min(ys) - .05, max(xs) + .05, CUNCOS_LAT),
     {"deger": True, "kaynak": "BAGE", "not": "1926-06-29 Lizbon sözleşmesi (onay 1927); tartışmalı alanlar (Contienda, "
      "Villanueva del Fresno, Valencia de Mombuey, Galiana) 1922-26'da bölündü"},
     [BAGE, MNE], "fiili — 1923'te bu kesimde hukukî hat yoktu",
-    "§3.22 · Cuncos → Guadiana ağzı. f hassasiyeti YIL (1801)")
+    "§3.22 · Cuncos → Guadiana ağzı. f Badajoz Antlaşması 1801-06-06")
 
 # 3.23 Cebelitarık kıstağı — fiilî çit 1908-09; değişiklik kaydı bulunamadı ⇒ YOK
 g = cizgi("ESP-GIB")
@@ -769,8 +793,9 @@ for rid, f0, t0 in RUS:
 # Künye boşlukları: Norveç 1814-1905 ve Lüksemburg 1815-1890 künyesi yok ⇒ norvec/luksemburg kayıtları
 # 1905/1890 öncesine SARILAMADI (D-KUNYE'ye bildirilecek).
 # =====================================================================
-PENCERE_BASI = "1878-07-13"
-PB_NOT = "f G3 pencere başıdır (öncülün başlangıcı kaynakta yok) — değişiklik tarihi DEĞİL; G4'te denetlenecek"
+PENCERE_BASI = T_VIYANA1815   # G4'te 1878-07-13'ten Viyana 1815'e uzatıldı (öncül başlangıcı hâlâ kaynakta yok)
+PB_NOT = ("f Viyana 1815 (G4 pencere başı): öncülün kendi başlangıcı kaynakta yok — değişiklik tarihi DEĞİL; "
+          "1815 öncesi G5'te")
 g = cizgi("CHE-DEU")
 xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
 yok("dg3-ch-de-1879-oncesi", CH, DE, PENCERE_BASI, (min(xs) - .03, min(ys) - .03, max(xs) + .03, max(ys) + .03),
@@ -793,6 +818,293 @@ yok("dg3-es-ma-melilla-1894-oncesi", ES, MA, "1862-06-21", (min(xs) - .02, min(y
      {"ad": "İspanya hükümetinin meclise yazılı cevabı (2022-11-18)", "tur": "resmî",
       "url": "https://www.congreso.es/entradap/l14p/e24/e_0244503_n_000.pdf"}],
     "E", "G3 · Melilla 1862 demarkasyonu → 1894 Merakeş", t="1894-03-05")
+
+# =====================================================================
+# GERİYE SARMA G4 — 1878-07-13 → 1815-06-09 (Viyana) · 1.MURAT zincir sevki
+# Alman Konfederasyonu devletleri (Prusya, Hannover, Baden, Bavyera) 'almanya' künyesiyle yazıldı
+# (künye 962-1923 süreklidir; 'prusya' künyesi harita anahtarsız). İtalya'nın birleşme öncesi iç
+# sınırları (Parma, Modena, Papalık, Toskana, Napoli) YAZILMADI — koordinat yok ve 1923 zincirimde değiller.
+# Norveç (1814-1905) ve Lüksemburg (1815-1890) künyesi olmadığından o zincirler SARILAMADI.
+# =====================================================================
+T_PARIS1815 = "1815-11-20"; T_TORINO1816 = "1816-03-16"; T_AACHEN1816 = "1816-06-26"; T_KORTRIJK = "1820-03-28"
+T_MEPPEN = "1824-07-02"; T_BELCIKA = "1830-10-04"; T_LONDRA1839 = "1839-04-19"; T_ZURIH = "1859-11-10"
+T_TORINO1861 = "1861-03-07"; T_ITALYA = "1861-03-17"; T_VIYANA1866 = "1866-10-03"; T_VIYANA1864 = "1864-10-30"
+SA = "sardinya-piyemonte"
+G4_NOT = "G4"
+def bb(parcalar, pay=0.03):
+    xs = [x for l in parcalar for x, _ in l.coords]; ys = [y for l in parcalar for _, y in l.coords]
+    return (min(xs) - pay, min(ys) - pay, max(xs) + pay, max(ys) + pay)
+PARIS1815 = {"ad": "İkinci Paris Antlaşması", "tarih": T_PARIS1815, "tur": "antlaşma"}
+PARIS1814 = {"ad": "Birinci Paris Antlaşması", "tarih": T_PARIS1814, "tur": "antlaşma",
+             "not": "IBS 11 aynı antlaşmayı hem 30 hem 20 Mayıs 1814 diye veriyor — ÇELİŞKİ"}
+VIYANA15 = {"ad": "Viyana Kongresi Nihaî Senedi", "tarih": T_VIYANA1815, "tur": "antlaşma", "url": IBS % 12,
+            "alinti": "Article LXXX of the Congress of Vienna on June 9, 1815"}
+KORTRIJK = {"ad": "Kortrijk Sınır Antlaşması (Fransa–Birleşik Hollanda)", "tarih": T_KORTRIJK, "tur": "antlaşma",
+            "url": "https://www.de-lage-landen.com/article/een-verdrag-met-sporen-in-het-landschap"}
+
+# G4-A Belçika hattı: 1830'a kadar Birleşik Hollanda Krallığı'nın, 1830-39 fiilî Belçika'nın
+ISO_NLBE = {NL: ["BEL"], FR: ["FRA"], BE: ["BEL"], DE: ["DEU"]}
+ekle("dg4-nl-fr-kortrijk", NL, FR, T_KORTRIJK, "D", cizgi("BEL-FRA"), [KORTRIJK],
+     {"deger": False, "kaynak": "Milis (De Lage Landen)", "not": "tarihsiz küçük düzeltmeler dışında değişmedi"},
+     {"t": "1820", "not": ""}, 1.5, KES_NE,
+     "G4 · bugünkü Belçika–Fransa hattı 1820'de Fransa ile Birleşik Hollanda Krallığı arasında çizildi", t=T_BELCIKA, iso=ISO_NLBE)
+yok("dg4-nl-fr-1820-oncesi", NL, FR, T_VIYANA1815, bb(cizgi("BEL-FRA")),
+    {"deger": None, "kaynak": "bulunamadı", "not": "1815 Paris hattı ile Kortrijk delimitasyonu arasındaki fark ölçülmedi"},
+    [PARIS1815, KORTRIJK], "E", "G4 · f Viyana 1815 (pencere başı); İkinci Paris Antlaşması'na kadar 1814 hattı", t=T_KORTRIJK)
+ekle("dg4-be-fr-fiili", BE, FR, T_BELCIKA, "fiili", cizgi("BEL-FRA"), [KORTRIJK,
+     {"ad": "Londra Antlaşması", "tarih": T_LONDRA1839, "tur": "antlaşma"}],
+     {"deger": False, "kaynak": "Milis (De Lage Landen)", "not": ""}, {"t": "1820", "not": ""}, 1.5, KES_NE,
+     "G4 · Belçika 1830'da fiilen ayrıldı, uluslararası tanınma ve hukukî sınır 1839 Londra Antlaşması'yla geldi. "
+     "f belcika künyesine hizalandı (bağımsızlık ilanı; gün kaynakta doğrulanacak)", t=T_LONDRA1839, iso=ISO_NLBE,
+     sinif_not="fiilî: tanınmamış devlet; hat Kortrijk hattı (koordinat kesin)")
+yok("dg4-nl-de-belcika-dogu", NL, DE, T_AACHEN1816, (5.95, 50.12, 6.45, 50.80),
+    {"deger": True, "kaynak": "IBS 7", "not": "1839'da Belçika'ya geçti; 1920'de Eupen-Malmedy ile yeniden değişti"},
+    [{"ad": "Aachen Sınır Antlaşması (Hollanda–Prusya)", "tarih": T_AACHEN1816, "tur": "antlaşma"},
+     {"ad": "IBS No. 7 Belgium–Germany", "tur": "resmî sınır çalışması", "url": IBS % 7}],
+    "E (Tarafsız Moresnet 1816'dan ortak yönetim — C)", "G4 · 1830-39 arası fiilen Belçika tarafı; ayrıca yazılmadı. "
+    "Aachen günü: IBS 31/IBS 7 26 Haziran, Kleve antlaşmasının birincil metni 25 Haziran diyor — ÇELİŞKİ",
+    t=T_LONDRA1839)
+yok("dg4-nl-de-1824-oncesi", NL, DE, T_VIYANA1815, bb(cizgi("DEU-NLD")),
+    {"deger": None, "kaynak": "IBS 31", "not": "Hannover kesimi 1824 Meppen antlaşmasına kadar delimite edilmemişti"},
+    [VIYANA15, {"ad": "Aachen Sınır Antlaşması (Hollanda–Prusya)", "tarih": T_AACHEN1816, "tur": "antlaşma"},
+     {"ad": "Meppen Sınır Antlaşması (Hollanda–Hannover)", "tarih": T_MEPPEN, "tur": "antlaşma"},
+     {"ad": "IBS No. 31 Germany–Netherlands", "tur": "resmî sınır çalışması", "url": IBS % 31}],
+    "E (Prusya kesimi 1816'dan) · Hannover kesimi C", "G4 · f Viyana 1815", t=T_MEPPEN)
+
+# G4-B Fransa–Almanya 1815-1871 (1870 hattı) ve Alsas–İsviçre
+yok("dg4-fr-de-1815", FR, DE, T_PARIS1815, (5.90, 47.55, 8.30, 49.60),
+    {"deger": None, "kaynak": "bulunamadı", "not": "1815 hattının 1870'e kadar (Versay'ın '18 Temmuz 1870 sınırı') aynı kaldığını "
+     "söyleyen kaynak BULUNAMADI — bugünkü çizgi vekil olarak kullanılamadı"},
+    [PARIS1815, dict(VERSAY, madde="md. 27(3) '18 Temmuz 1870 sınırı', md. 51")], "E",
+    "G4 · İkinci Paris Antlaşması'ndan Frankfurt'a kadar. Kutu TAHMİNİ", t="1871-05-10")
+yok("dg4-fr-de-1814", FR, DE, T_PARIS1814, (5.90, 48.60, 8.30, 49.60),
+    {"deger": True, "kaynak": "HLS 'Pariser Frieden'", "not": "1814 Birinci Paris hattı 1815 İkinci Paris Antlaşması'yla yeniden düzenlendi"},
+    [PARIS1814, PARIS1815], "E", "G4 · 1814 Birinci Paris hattı; koordinat yok. Kutu TAHMİNİ (Saar–Pfalz)", t=T_PARIS1815)
+ekle("dg4-fr-ch-alsas", FR, CH, T_PARIS1814, "D", parcala(cizgi("CHE-FRA"), ALSAS), [PARIS1814] + FRCH,
+     {"deger": True, "kaynak": "IBS 11", "not": "1814 hattı; 1953 kuzey düzeltmeleri küçük"}, {"t": "1818", "not": "Bern sözleşmesi"},
+     2.0, KES_NE + "; " + BOL_NOT, "G4 · Alsas–İsviçre (Basel) kesimi 1871'e kadar Fransız", t="1871-05-10")
+
+# G4-C Fransa–İsviçre: Dappes öncesi ve Savoy'un Sardinya dönemi
+yok("dg4-fr-ch-dappes-oncesi", FR, CH, T_PARIS1814, DAPPES.bounds,
+    {"deger": True, "kaynak": "IBS 11", "not": "Dappes vadisi 1815 bildirisiyle İsviçre'ye verildi, 1862'de takas edildi"},
+    FRCH, "E", "G4 · kutu TAHMİNİ", t="1862-12-08")
+ISO_SA = dict(ISO); ISO_SA[SA] = ["FRA", "ITA"]
+_sv = parcala(cizgi("CHE-FRA"), lambda c: _leman_dis(c) and SAVOY(c))
+SAV_CEN = [l for l in _sv if l.centroid.x < 6.5]
+SAV_VAL = [l for l in _sv if l.centroid.x >= 6.5]
+TORINO16 = {"ad": "Torino Antlaşması (Sardinya–İsviçre/Cenevre)", "tarih": T_TORINO1816, "tur": "antlaşma",
+            "not": "Viyana md. LXXX'in Savoy komünlerini Cenevre'ye devrini uyguladı"}
+ekle("dg4-sa-ch-cenevre", SA, CH, T_TORINO1816, "D", SAV_CEN, [VIYANA15, TORINO16] + FRCH[:1],
+     FRCH_DEG, {"t": "1816", "not": ""}, 2.0, KES_NE + "; " + SAVOY_NOT,
+     "G4 · Cenevre güneyi: 1860'a kadar Sardinya–İsviçre", t=T_TORINO1860, iso=ISO_SA)
+yok("dg4-sa-ch-cenevre-1816-oncesi", SA, CH, T_VIYANA1815, bb(SAV_CEN),
+    {"deger": True, "kaynak": "IBS 12", "not": "Viyana md. LXXX devri 1816'da uygulandı"}, [VIYANA15, TORINO16], "E",
+    "G4 · f Viyana 1815", t=T_TORINO1816)
+ekle("dg4-sa-ch-valais", SA, CH, T_VIYANA1815, "D", SAV_VAL, [VIYANA15] + FRCH[:1], FRCH_DEG,
+     {"t": "bulunamadı", "not": ""}, 2.0, KES_NE + "; " + SAVOY_NOT,
+     "G4 · Valais–Chablais/Faucigny: 1860'a kadar Sardinya–İsviçre. f Viyana 1815 (Valais İsviçre'ye katıldı)",
+     t=T_TORINO1860, iso=ISO_SA)
+ekle("dg4-sa-ch-leman", SA, CH, T_VIYANA1815, "C", parcala(cizgi("CHE-FRA"), icinde([LEMAN])), [VIYANA15] + FRCH,
+     {"deger": True, "kaynak": "IBS 11", "not": "göl hattı orta hat ilkesiyle; 1953'te düz çizgilere çevrildi"},
+     {"t": "yok", "not": ""}, 2.0, KES_NE, "G4 · Leman'ın Savoy kıyısı 1860'a kadar Sardinya'nın", t=T_TORINO1860, iso=ISO_SA)
+
+# G4-D Fransa–Sardinya/İtalya
+IBS4_TOR = dict(IBS4, alinti="Under the terms of the Treaty of Turin (March 24, 1860)")
+yok("dg4-sa-fr-var", SA, FR, T_PARIS1815, (5.60, 43.50, 7.80, 46.50),
+    {"deger": True, "kaynak": "IBS 4", "not": "1860'ta Savoy ve Nice Fransa'ya geçti; Var ve Savoy hatları kalktı"},
+    [PARIS1815, IBS4_TOR], "E", "G4 · Var nehri ve Savoy–Dauphiné/Bresse hattı; koordinat yok, kutu TAHMİNİ", t=T_TORINO1860)
+yok("dg4-sa-fr-1860-komisyon", SA, FR, T_TORINO1860, (6.60, 43.75, 7.80, 45.95),
+    {"deger": True, "kaynak": "IBS 4", "not": "karma komisyonun hattı 1861 sözleşmesiyle kesinleşti"},
+    [IBS4_TOR], "C (antlaşma hattı karma komisyona bıraktı)", "G4", t=T_TORINO1861)
+ISO_SAI = dict(ISO); ISO_SAI[SA] = ["ITA"]
+TORINO61 = {"ad": "Torino sınır sözleşmesi", "tarih": T_TORINO1861, "tur": "antlaşma", "url": IBS % 4}
+ekle("dg4-sa-fr-1861", SA, FR, T_TORINO1861, "D", parcala(cizgi("FRA-ITA"), disinda(KUT_FRIT.values())), [TORINO61, IBS4],
+     {"deger": False, "kaynak": "IBS 4", "not": "kutu dışı kesimler 1947'de değişmedi"}, {"t": "1861", "not": ""}, 1.5, KES_NE,
+     "G4 · İtalya Krallığı'nın ilanına kadar 10 gün Sardinya'nın", t=T_ITALYA, iso=ISO_SAI)
+for k, kutu in KUT_FRIT.items():
+    yok(f"dg4-sa-fr-1861-{k}", SA, FR, T_TORINO1861, kutu.bounds,
+        {"deger": True, "kaynak": "IBS 4", "not": ALAN[k] + " 1947'de değişti"}, [TORINO61, IBS4], "E", "G4", t=T_ITALYA)
+
+# G4-E İtalya–İsviçre eski kesimi: Piyemonte (batı) ve Lombardiya (doğu); ayrım Lago Maggiore
+MAGGIORE = 8.76
+IT_BATI = [l for l in parcala(CHIT_ESKI, lambda c: c[0] < MAGGIORE)]
+IT_DOGU = [l for l in parcala(CHIT_ESKI, lambda c: c[0] >= MAGGIORE)]
+IBS12_61 = dict(IBS12, alinti="resolved eleven disputes on the Ticino boundary on the basis of")
+ITCH_DEG = {"deger": True, "kaynak": "IBS 12", "not": "1861 Lugano ve 1863 sözleşmeleri anlaşmazlıkları Varese esasına göre çözdü; "
+            "'little territorial transfer' · sonraki küçük düzeltmeler d1923-it-ch'de. " + KUCUK}
+ekle("dg4-sa-ch-piyemonte", SA, CH, T_VIYANA1815, "D", IT_BATI, [VIYANA15, IBS12_61], ITCH_DEG, {"t": "bulunamadı", "not": ""},
+     2.0, KES_NE + "; Piyemonte/Lombardiya ayrımı Lago Maggiore (lon 8,76) ile", "G4 · f Viyana 1815", t=T_ITALYA, iso=ISO_SAI)
+ISO_HABI = dict(ISO); ISO_HABI["habsburg"] = ["ITA"]
+ekle("dg4-hab-ch-lombardiya", "habsburg", CH, T_VIYANA1815, "D", IT_DOGU,
+     [VIYANA15, {"ad": "Varese Antlaşması", "tarih": "1752-08-02", "tur": "antlaşma", "url": IBS % 12}, IBS12_61], ITCH_DEG,
+     {"t": "1754-1755", "not": "Varese sonrası karma komisyonlar"}, 2.0, KES_NE + "; ayrım lon 8,76",
+     "G4 · Lombardiya-Venedik Krallığı (Avusturya) — atlas künyesi 'milano-dukaligi' 1859'a kadar sürer; taraf Habsburg yazıldı",
+     t=T_ZURIH, iso=ISO_HABI)
+ekle("dg4-sa-ch-lombardiya", SA, CH, T_ZURIH, "D", IT_DOGU, [IBS12_61], ITCH_DEG, {"t": "bulunamadı", "not": ""},
+     2.0, KES_NE + "; ayrım lon 8,76", "G4 · Zürih'ten İtalya'nın ilanına kadar", t=T_ITALYA, iso=ISO_SAI)
+
+# G4-F İtalya/Sardinya–Habsburg iç hatları (koordinat yok)
+LOMVEN = (10.30, 44.90, 11.40, 46.60)
+yok("dg4-it-hab-venedik", IT, "habsburg", T_ITALYA, LOMVEN,
+    {"deger": True, "kaynak": "IBS 58", "not": "1866'da Venedik İtalya'ya geçti"},
+    [dict(IBS58_66), {"ad": "Viyana Barış Antlaşması (Avusturya–İtalya)", "tarih": T_VIYANA1866, "tur": "antlaşma"}], "E",
+    "G4 · Lombardiya–Venedik hattı (Mincio/Garda) ve Lombardiya–Tirol; kutu TAHMİNİ", t=T_VIYANA1866)
+yok("dg4-sa-hab-venedik", SA, "habsburg", T_ZURIH, LOMVEN,
+    {"deger": True, "kaynak": "IBS 58", "not": ""}, [dict(IBS58_66)], "E", "G4 · kutu TAHMİNİ", t=T_ITALYA)
+yok("dg4-sa-hab-ticino", SA, "habsburg", T_VIYANA1815, (8.50, 44.90, 9.30, 46.20),
+    {"deger": True, "kaynak": "bulunamadı", "not": "1859'da Lombardiya Sardinya'ya geçti; Ticino nehri hattı kalktı"},
+    [VIYANA15], "E", "G4 · Piyemonte–Lombardiya (Ticino nehri, Lago Maggiore doğu kıyısı); kutu TAHMİNİ", t=T_ZURIH)
+
+# G4-G İberya ve Fas: ayrıntılı delimitasyondan önceki hatlar (koordinat yok)
+PIRENE = {"ad": "Pireneler Antlaşması", "tarih": "1659-11-07", "tur": "antlaşma"}
+for no, isim in ((1, "bati"), (2, "dogu"), (3, "llivia")):
+    yok(f"dg4-fr-es-{isim}-1868-oncesi", FR, ES, T_VIYANA1815, bb(cizgi("ESP-FRA", no)),
+        {"deger": True, "kaynak": "Capdevila (IGN)", "not": "Bayonne antlaşmaları (1856-1868) hattı ayrıntılı çizdi"},
+        [PIRENE, CAPDEVILA] + BAYONNE[:1], "C (1659 hattı, ayrıntılı delimitasyon yok)",
+        "G4 · f Viyana 1815 (pencere başı). Batı kesiminin 1856 bölümü 1859'dan itibaren delimiteydi — bölünmedi "
+        "(Navarra–Aragon kavşak çıpası yok)", t="1868-07-11")
+yok("dg4-es-pt-kuzey-1866-oncesi", ES, PT, T_VIYANA1815, bb(parcala(espt, lambda c: c[1] >= CAIA_LAT)),
+    {"deger": True, "kaynak": "BAGE", "not": "1864 Lizbon antlaşması ve 1866 ekleri hattı ayrıntılı çizdi; Couto Misto İspanya'ya"},
+    [LIZBON, BAGE], "C (ayrıntılı delimitasyon yok; Couto Misto tarafsız)", "G4 · f Viyana 1815", t="1866-11-04")
+WADRAS = {"ad": "Wad-Ras Antlaşması", "tarih": "1860-04-26", "tur": "antlaşma",
+          "url": "https://ejercito.defensa.gob.es", "not": "gün yalnız Museo del Ejército sayfasında (metni Vikipedi'yle aynı) — ZAYIF"}
+yok("dg4-es-ma-ceuta-1860-oncesi", ES, MA, T_VIYANA1815, bb(cizgi("ESP-MAR", 1), 0.04),
+    {"deger": True, "kaynak": "Bermejo García vd. 2020", "not": "Wad-Ras Ceuta'yı genişletti"}, [WADRAS], "E (dar eski sınır)",
+    "G4 · f Viyana 1815", t="1860-11-17")
+yok("dg4-es-ma-melilla-1862-oncesi", ES, MA, T_VIYANA1815, bb(cizgi("ESP-MAR", 2), 0.04),
+    {"deger": True, "kaynak": "İspanya hükümeti cevabı 2022", "not": "1859-1862 sözleşmeleriyle genişledi"},
+    [{"ad": "Tetuan Sözleşmesi", "tarih": "1859-08-24", "tur": "antlaşma"}], "E (dar eski sınır)",
+    "G4 · f Viyana 1815", t="1862-06-21")
+
+# G4-H Danimarka–Alman Konfederasyonu (Eider/Elbe)
+yok("dg4-dk-de-eider", DK, DE, T_VIYANA1815, (8.50, 53.30, 11.00, 54.50),
+    {"deger": True, "kaynak": "IBS 81", "not": "1864 Viyana Antlaşması'yla sınır Kongeå'ya taşındı"},
+    [VIYANA15, {"ad": "Viyana Antlaşması", "tarih": T_VIYANA1864, "tur": "antlaşma", "kaynak": "BFSP c.54 s.522-530"},
+     {"ad": "IBS No. 81 Denmark–Germany", "tur": "resmî sınır çalışması", "url": IBS % 81,
+      "alinti": "moving the Dano - German boundary from the Elbe northward to the Konge Aa"}],
+    "E (düklükler üzerinden karmaşık nitelikli sınır — ayrıntısı ölçülmedi)",
+    "G4 · Eider ve Elbe; kutu TAHMİNİ. 1848-51 ve 1864 savaş hatları yazılmadı", t=T_VIYANA1864)
+
+# =====================================================================
+# GERİYE SARMA G5 — 1815-06-09 → 1774-07-21 · G6 → 1699-01-26 · G7 → 1606-11-11
+# Bu dönemlerde bölgenin hatları Devrim/Napolyon savaşları ve 17-18. yy barışlarıyla defalarca
+# değişti ve bugünkü açık geometride KARŞILIKLARI YOK. Bu yüzden kayıtların çoğu YOK kutusudur:
+# 'bu kutuda E/D çizilmez, A/B geçerli'. Kutu, zincirin 1815 sonrası hattını kaba kapsar (TAHMİNİ).
+# İstisna: Strömstad 1751 hattı (SNL: bugün de yürürlükte) — Danimarka-Norveç ile İsveç arasında E.
+# Dalga sınırında (DB) değişiklik yoksa YOK kaydının f'si bir sonraki dalga başına uzatılır; bu bir
+# değişiklik tarihi DEĞİLDİR (not alanında yazılı). Künye sınırları (fransa → fransa-cumhuriyet
+# 1792-09-22 · savoya → sardinya-piyemonte 1720-08-02 · navarra 1620-10-19) kayıtları böler.
+# =====================================================================
+T_G5, T_G6, T_G7 = "1774-07-21", "1699-01-26", "1606-11-11"
+T_FRANSA = "1792-09-22"; T_SAVOYA = "1720-08-02"; T_NAVARRA = "1620-10-19"
+T_KIEL = "1814-01-14"; T_STROMSTAD = "1751-10-02"
+DB_NOT = "f dalga başıdır (öncülün başlangıcı ölçülmedi) — değişiklik tarihi DEĞİL"
+def yok_zincir(id_, taraflar_donem, kutu, dayanak, sinif_1923, not_):
+    """taraflar_donem: [(a, b, f, t, ek_not), ...] — her dönem için bir YOK kaydı."""
+    for i, (a, b, f, t, ek) in enumerate(taraflar_donem):
+        yok(f"{id_}-{i+1}" if len(taraflar_donem) > 1 else id_, a, b, f, kutu,
+            {"deger": True, "kaynak": "bulunamadı", "not": "hat sonraki antlaşmalarla değişti; koordinat yok"},
+            dayanak, sinif_1923, not_ + (" · " + ek if ek else ""), t=t)
+
+FRCH_BB = bb(parcala(cizgi("CHE-FRA"), lambda c: not SAVOY(c)))
+SAVCH_BB = bb(parcala(cizgi("CHE-FRA"), SAVOY))
+FRCH_G5 = [PARIS1814, {"ad": "IBS No. 11 France–Switzerland", "tur": "resmî sınır çalışması", "url": IBS % 11,
+                       "alinti": "the 1814 boundary remained valid for almost 140 years"}]
+# Fransa–İsviçre (Jura + Alsas): 1814 öncesi
+yok_zincir("dg5-fr-ch-jura", [
+    ("fransa", CH, T_G7, T_FRANSA, "Franş-Konte 1678'e kadar İspanyol; Basel Prens-Piskoposluğu ve Neuchâtel ayrı yapılar"),
+    (FR, CH, T_FRANSA, T_PARIS1814, "Devrim/Napolyon ilhakları (Mont-Terrible, Cenevre, Valais) hattı defalarca değiştirdi")],
+    FRCH_BB, FRCH_G5, "E/C (dönem içinde değişken)", "G5-G7 · f dalga başı " + T_G7 + " (" + DB_NOT + ")")
+# Savoy–İsviçre: Sardinya/Savoya ve Fransız dönemi
+yok_zincir("dg5-sa-ch", [
+    ("savoya", CH, T_G7, T_SAVOYA, "Cenevre Cumhuriyeti ayrı devletti (künye yok)"),
+    (SA, CH, T_SAVOYA, "1792-11-27", "Cenevre Cumhuriyeti ayrı devletti (künye yok)"),
+    (FR, CH, "1792-11-27", T_VIYANA1815, "Savoy 1792-11-27'de Fransa'ya katıldı; Cenevre 1798-04-26, Valais 1810-11-12 "
+     "Fransa'ya katıldı (HLS)")],
+    SAVCH_BB, [VIYANA15, dict(IBS12, alinti="parts of Sardinia (Savoy) to Switzerland (Geneva)")],
+    "E (dönem içinde değişken)", "G5-G7 · " + DB_NOT + " (ilk dönem)")
+# Fransa–Savoya/Sardinya (Alpler, Var)
+yok_zincir("dg5-sa-fr", [
+    ("savoya", "fransa", T_G7, T_SAVOYA, ""),
+    (SA, "fransa", T_SAVOYA, T_FRANSA, "1760 Torino sınır antlaşması hattı düzenledi"),
+    (SA, FR, T_FRANSA, "1792-11-27", ""),
+    (SA, FR, T_PARIS1814, T_PARIS1815, "1814 hattı: Savoy'un bir kısmı Fransa'da")],
+    (5.60, 43.50, 7.80, 46.50), [IBS4_TOR, PARIS1814, PARIS1815], "E",
+    "G5-G7 · 1792-1814 arası Savoy ve Nice Fransız ilhakında — o dönem için Sardinya–Fransa kaydı yok. " + DB_NOT)
+# İtalya–İsviçre eski kesimi: 1815 öncesi (Valtellina 1797'ye kadar Graubünden'in)
+yok_zincir("dg5-it-ch", [
+    ("milano-dukaligi", CH, T_G7, "1797-10-10", "Ticino–Milano: 1752 Varese Antlaşması; Valtellina 1797-10-10'da Cisalpin'e "
+     "katılana kadar Graubünden'e tâbiydi (HLS 'Veltlin')"),
+    ("savoya", CH, T_G7, T_SAVOYA, "Piyemonte/Ossola–Valais/Ticino"),
+    (SA, CH, T_SAVOYA, "1802-09-11", "Piyemonte 1802-09-11'de Fransa'ya ilhak edildi (Cavicchioli, Italies 6)")],
+    bb(CHIT_ESKI), [VIYANA15, {"ad": "Varese Antlaşması", "tarih": "1752-08-02", "tur": "antlaşma", "url": IBS % 12,
+                                "alinti": "the first serious attempt at methodical and systematic border delimitation"}],
+    "E/C (dönem içinde değişken)", "G5-G7 · 1797-1815 Cisalpin/İtalya Cumhuriyeti ve Krallığı ile 1802-1815 Fransız "
+    "Piyemontesi künyesiz/ayrı — yazılmadı. " + DB_NOT)
+# Güney Hollanda (Belçika) – Fransa
+yok_zincir("dg5-guneyhol-fr", [
+    ("ispanya", "fransa", T_G7, "1714-03-07", "İspanyol Hollandası; 1659/1668/1678/1697 barışları hattı değiştirdi"),
+    ("habsburg", "fransa", "1714-03-07", T_FRANSA, "Avusturya Hollandası (Rastatt)"),
+    ("habsburg", FR, T_FRANSA, "1795-10-01", "1795-10-01'de Fransa'ya ilhak (MJP d1795belgique)")],
+    bb(cizgi("BEL-FRA")), [KORTRIJK], "E (dönem içinde değişken)",
+    "G5-G7 · 1795-1815 Belçika Fransız ilhakında — sınır yok. " + DB_NOT)
+# Hollanda Cumhuriyeti – Alman devletleri; Hollanda – İspanyol/Avusturya Hollandası
+yok_zincir("dg5-nl-de", [("hollanda", DE, T_G7, "1810-07-09", "Holland 1810-07-09'da Fransa'ya ilhak edildi (parlement.com)")],
+    bb(cizgi("DEU-NLD")), [{"ad": "IBS No. 31 Germany–Netherlands", "tur": "resmî sınır çalışması", "url": IBS % 31}],
+    "E/C (dönem içinde değişken)", "G5-G7 · 1810 ilhakından 1815'e kadarki dönem ayrıca yazılmadı. " + DB_NOT)
+yok_zincir("dg5-nl-guneyhol", [
+    ("hollanda", "ispanya", T_G7, "1714-03-07", "1609-04-09 On İki Yıl Ateşkesi (Nationaal Archief)"),
+    ("hollanda", "habsburg", "1714-03-07", "1795-10-01", "")],
+    (3.30, 50.70, 6.10, 51.55), [{"ad": "Londra Antlaşması", "tarih": T_LONDRA1839, "tur": "antlaşma"}],
+    "E (dönem içinde değişken)", "G5-G7 · bugünkü Belçika–Hollanda hattının tarihî öncülü; kutu TAHMİNİ. " + DB_NOT)
+# Fransa–Almanya (Alman devletleri)
+yok_zincir("dg5-fr-de", [
+    ("fransa", DE, T_G7, T_FRANSA, "Lorraine 1766-02-23'te Fransa'ya geçti (Musée Lorrain); dönemin öteki değişiklikleri ölçülmedi"),
+    (FR, DE, T_FRANSA, T_PARIS1814, "1801-02-09 Lunéville Antlaşması (MJP)")],
+    (5.80, 47.40, 8.40, 49.70), [PARIS1814, dict(VERSAY, madde="md. 51")], "E (dönem içinde değişken)",
+    "G5-G7 · kutu TAHMİNİ. " + DB_NOT)
+# Fransa–İspanya ve Navarra
+yok_zincir("dg5-fr-es", [
+    ("fransa", "ispanya", "1659-11-07", T_FRANSA, "Pireneler Antlaşması hattı"),
+    (FR, "ispanya", T_FRANSA, T_VIYANA1815, "savaş dönemi işgal hatları yazılmadı")],
+    bb(cizgi("ESP-FRA", 1) + cizgi("ESP-FRA", 2)), [PIRENE, CAPDEVILA], "C (ayrıntılı delimitasyon yok)", "G5-G7")
+yok("dg7-fr-es-1659-oncesi", "fransa", "ispanya", T_G7, (-1.90, 42.30, 3.30, 43.45),
+    {"deger": True, "kaynak": "bulunamadı", "not": "Rusiyon ve Cerdanya 1659'da Fransa'ya geçti"},
+    [PIRENE], "C", "G7 · Rusiyon/Cerdanya İspanyol; Aşağı Navarra 1620'ye kadar ayrı krallık (navarra künyesi). " + DB_NOT,
+    t="1659-11-07")
+# İspanya–Portekiz: 1866 öncesi zincir ve Olivenza öncesi
+yok_zincir("dg5-es-pt-kuzey", [(ES, PT, T_G7, T_VIYANA1815, "")],
+    bb(parcala(espt, lambda c: c[1] >= CAIA_LAT)), [LIZBON, BAGE], "C", "G5-G7 · " + DB_NOT)
+yok("dg5-es-pt-olivenza-oncesi", ES, PT, T_G7, (-7.60, 38.20, -6.90, 38.95),
+    {"deger": True, "kaynak": "BAGE", "not": "Olivenza 1801'e kadar Portekiz'indi; Guadiana sınır değildi"},
+    [BAGE], "C", "G5-G7 · kutu TAHMİNİ. " + DB_NOT, t="1801-06-06")
+# İspanya–Fas
+for isim, no, t_son in (("ceuta", 1, T_VIYANA1815), ("melilla", 2, T_VIYANA1815)):
+    yok(f"dg5-es-ma-{isim}", ES, MA, T_G7, bb(cizgi("ESP-MAR", no), 0.04),
+        {"deger": True, "kaynak": "bulunamadı", "not": "sonraki sözleşmelerle genişledi"}, [WADRAS], "E/C (dar eski sınır)",
+        "G5-G7 · Ceuta 1668-02-13 Lizbon Antlaşması'yla İspanya'da kaldı (ANTT) — öncesi ayrıca yazılmadı. " + DB_NOT,
+        t=t_son)
+# Danimarka–Alman devletleri (Eider/Elbe)
+yok("dg5-dk-de-eider", DK, DE, T_G7, (8.50, 53.30, 11.00, 54.50),
+    {"deger": True, "kaynak": "IBS 81", "not": "1864'e kadar Elbe hattı (IBS 81); dönem içi değişiklikler ölçülmedi"},
+    [{"ad": "IBS No. 81 Denmark–Germany", "tur": "resmî sınır çalışması", "url": IBS % 81}], "E/C (karmaşık)",
+    "G5-G7 · kutu TAHMİNİ. " + DB_NOT, t=T_VIYANA1815)
+# Danimarka-Norveç – İsveç: Strömstad 1751 hattı (bugünkü Norveç–İsveç çizgisi)
+SNL = {"ad": "Store norske leksikon, 'riksgrensen'", "tur": "akademik ansiklopedi", "url": "https://snl.no/riksgrensen",
+       "alinti": "gjelder fortsatt"}
+STROM = {"ad": "Strömstad Antlaşması + Lapp ek maddesi", "tarih": T_STROMSTAD, "tur": "antlaşma"}
+ekle("dg6-dk-se-stromstad", DK, SE, T_STROMSTAD, "D", cizgi("NOR-SWE"), [STROM, SNL],
+     {"deger": False, "kaynak": "SNL", "not": "1751 antlaşması bugün de yürürlükte"}, {"t": "1752-1766", "not": "yerinde işaretleme"},
+     1.5, KES_NE, "G6 · Danimarka-Norveç ile İsveç arasındaki hat; 1814 Kiel'le Norveç İsveç'e bağlandı (1814-1905 Norveç künyesi yok)",
+     t=T_KIEL, iso={DK: ["NOR"], SE: ["SWE"]})
+yok("dg6-dk-se-1751-oncesi", DK, SE, T_G7, bb(cizgi("NOR-SWE")),
+    {"deger": True, "kaynak": "SNL", "not": "1751'e kadar hat ayrıntılı çizilmemişti; 1645 ve 1658 barışları illeri değiştirdi"},
+    [STROM, SNL], "C (il sınırları; ayrıntılı delimitasyon yok)",
+    "G6-G7 · Jämtland/Härjedalen 1645, Bohuslän 1658 İsveç'e geçti — ayrıca bölünmedi. " + DB_NOT, t=T_STROMSTAD)
+yok("dg6-dk-se-finnmark", DK, SE, T_G7, bb(cizgi("FIN-NOR")),
+    {"deger": None, "kaynak": "bulunamadı", "not": "1751 hattının bugünkü Finlandiya–Norveç kesimindeki ucu ölçülmedi"},
+    [STROM, SNL], "E/C", "G5-G7 · Finlandiya 1809'a kadar İsveç'in; 1809-1814 Rusya–Danimarka-Norveç — ayrıca yazılmadı. " + DB_NOT,
+    t="1809-09-17")
 
 # ---------------- yaz ----------------
 ids = [k["id"] for k in KAYIT]
