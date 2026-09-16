@@ -125969,5 +125969,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4110",
+  "zaman": "2026-09-16 21:21",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE · ADIM 1-2-3 · commit b3bd9a5 (origin/main'de). ADIM 1 sinif: data/d_sinirlar.js 25 kayit = E 15 · D 2 · C 1 · YOK 7 (esleme D->E; F YOK cunku denetim/TANINMA-1923-0916.json henuz yok, her E'de sinif_not; Irak fiili -> YOK: koordinat kesin degil; D-YOK -> YOK). ADIM 2 G1: 10 yeni hat = E 5 (osmanli-bulgaristan 1915-09-06→1920-04-23 · tbmm-bulgaristan 1920-04-23→1923-07-24 · osmanli-kacar 1913-11-17→1920-04-23 x3 parca) · D 2 (Yunan isgali Dogu Trakya yunanistan-bulgaristan 1920-07 [AY, TDV edirne]→1922-10-14 · Mudanya Meric hatti tbmm-yunanistan 1922-10-14→1923-07-24, TDV mudanya md.2-3-5) · YOK 3 (Iran 1932/37 kutulari osmanli donemi) + SSCB E baslangici 1921-10-13'ten 1921-03-16 Moskova'ya cekildi (TDV kars · IBS 29). YAZILMAYAN (koordinat kesin degil ⇒ A/B): Kars-Gumru 1918-21 cephe/isgal hatlari · Kilikya Fransiz-TBMM cephesi ve 1921-10 sonrasi tahliye · Musul Ingiliz isgali · Karaagac muttefik seridi 1922-23 · Mudanya sonrasi muttefik ara idaresi. ADIM 3: data/kronoloji_sinir_turkiye.js window.KRONOLOJI_SINIR_TURKIYE 9 madde (1913 Istanbul Protokolu · 1915 Sofya · 1920 Yunan isgali [t 1920-01-01, metinde Temmuz] · 1921 Moskova · Kars · Ankara Itilafnamesi · 1922 Mudanya · 1923 Lozan x2), her maddede taraflar[] + hat kimligi (9/9 eslesiyor), yer_id 9/9 yerlesim adi. INDEX.HTML SATIRI SENDE: <script src=\"data/kronoloji_sinir_turkiye.js\">. Kiyas yalniz t=1923-10-29 kayitlarinda (taban hala yayindaki kosu 11).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
