@@ -125699,5 +125699,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4095",
+  "zaman": "2026-09-16 20:23",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA · commitler a14efb1 (envanter) + 8e276ff (veri), origin/main'de. ① ENVANTER denetim/D5-ASYA-0916.md: 22 IBS tam metin (FSU PDF, pypdf) + Aitchison 1909/1929/1933 + UN RIAA (Timor) + IBRU Durham + LNTS 34 + Iranica. IBS parçaları 88 (D 22 · C 26 · fiili 22 · İÇ 17 · karma 1) + IBS dışı 11 bölüm (Sahalin, Moğol/Tuva, McMahon/Aksai Çin/Sikkim, Nepal, Bhutan, Timor, Makao, Afganistan...). ② VERİ data/d_sinirlar_asya.js window.D_SINIRLAR_ASYA: 58 kayıt = D 15 · C 14 · D-YOK 29; şema/künye/geometri sınaması hata 0. ③ BULUNAMADI/YAPILMADI: kiralık topraklar, Portekiz-Fransız Hindistanı, Brunei–Sarawak (alt-araştırma zaman aşımı); Bhutan/Sikkim/K.Borneo künyesi YOK (D-KUNYE'ye yazıldı); Namwan kira toprağı ayrılmadı; kiyas_atlas yapılmadı; 9 kaynak çelişkisi taraf seçilmeden §4.3'te. ④ ÖNEMLİ: 1923≠bugün olan yerler (Siyam–Laos Mekong 1926, Mae Sai 1931, Pakchan 1934, Borneo Api–Raja 1928, Tibet–Nepal, Çin–Moğol, Keşmir) D-YOK yapıldı; McMahon 1923'te işleyen hat değil (Aitchison 1929 susuyor). ⑤ İSTEK: İÇ çizgiler (Burma–Hindistan, Çinhindi içi) D dosyasına girmesin önerisi — onay? Afganistan çiftleri D4-ORTADOGU M-4077 ile bana geçti, yazıldı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
