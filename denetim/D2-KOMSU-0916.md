@@ -176,6 +176,30 @@ Ek alanlar: `devletler` (iki kimlik) · `sinir_id`. index.html satırı YOK (koo
 🔴 Neuilly yürürlük günü (yaygın "9 Ağu 1920") okunabilir akademik kaynakta DOĞRULANAMADI:
 Oxford PIL · Britannica · AustLII → 403; TDV `noyi-antlasmasi` · `neuilly-antlasmasi` → 302 ölü.
 
+## 10. GERİYE SARMA G2 (1918-11-11 → 1914-07-28)
+
+Soru her hat için aynı: 1914-1918 arasında **hukukî** hat değişti mi, ve değişmediyse fiilî (D) bir
+hat **koordinatıyla** biliniyor mu?
+```
+f 1918-11-11 → 1914-07-28   4 hat (7 kayıt): g1-gr-srb ×2 + Gevgeli YOK · d1923-gr-bg-bati ·
+                            d1923-bg-ro-tuna · g1-osm-ir + Şattülarap YOK
+                            ⇒ dördünde de hukukî hat 1914-18'de DEĞİŞMEDİ
+YENİ YOK 1                  g2-bg-ro-DEGISTI-dobruca (1914-07-28 → 1920-01-01): 1913 hattı, bugünkü
+                            çizgi onu göstermez; 8 May 1918 Bükreş Antl. (IBS 53: "soon invalidated")
+                            yürürlüğü ve 1918-20 fiilî durumu ÖLÇÜLEMEDİ
+YENİ E/F/D hattı 0 · kronoloji maddesi 0
+```
+**Niçin sıfır:** G2'deki bütün değişiklikler **işgal/cephe**ydi — koordinatları elde yok, ya da
+künyeleri yok ⇒ şartname gereği YAZILMADI (harita A/B'ye düşer):
+```
+Sırp Makedonyası Bulgar işgali 1915-18 · Selanik cephesi · Doğu Makedonya Bulgar işgali 1916-18 ·
+Dobruca/Eflak işgali 1916-18 · Basra (1914) ve Bağdat (1917) İngiliz işgali · İran'da Rus/Osmanlı birlikleri
+1913 Yunan-Bulgar hattının Debikli → Ege kolu (1913-1919 geçerli) · 1913 Sırp-Bulgar hattı · 1913 Floransa hattı
+```
+Kronoloji: G2 penceresinde bu dosyanın hatlarında **E/F/D değişikliği yok** ⇒ madde yazılmadı.
+1918 Bükreş Antlaşması önemli bir olay ama hattı YOK sınıfında (koordinatsız, yürürlüğü belirsiz).
+Toplam 32 kayıt: **E 12 · D 1 · C 3 · YOK 16**. Zaman çakışması (aynı taraf + aynı parça): 0.
+
 ## 7. OKUNAN KAYNAKLAR (HTTP 200, metin okundu)
 
 ```
