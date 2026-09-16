@@ -1,0 +1,28 @@
+{
+  "_aciklama": "D5-OKYANUSYA · DALGA-0063 madde 2 (paket 0063/H-0002) · data/kisiler.js'teki 'ibrahim-muteferrika' kaydını genişletme önerisi. Bu oturum kisiler.js'e YAZMADI (CLAUDE.md §7); UYGULA / 1.MURAT uygular.",
+  "_kaynak_yontemi": "TDV İslâm Ansiklopedisi 'ibrahim-muteferrika' ve 'matbaa' maddelerinin gövdesi bu oturumda tam okundu (HTTP 200). Ayşe Başaran'ın hakemli makalesi (Dîvân, 2023) çapraz kontrol için kullanıldı.",
+  "onerilen_degisiklikler": [
+    {
+      "id": "ibrahim-muteferrika",
+      "alan": "donem",
+      "eski": "1674–1745",
+      "yeni": "y. 1670/1674 – 1745 (mezar taşı 1747)",
+      "gerekce": "TDV doğumu KESİN vermiyor, '1670 ile 1674 arasında bir tarihte doğduğu tahmin edilmektedir' diyor — mevcut kayıt 1674'ü kesinmiş gibi gösteriyor. ÖLÜM İÇİN DAHA ÖNEMLİ NÜANS: mezar taşı 1160 (1747) yazıyor, ama şair Nevres'in tarih düşürdüğü mısra 1158 (1745) veriyor ve 'hemen hemen bütün araştırmacılar' 1745'i kabul edip 1747'yi 'mezarın yapıldığı yıl' saymış. AMA TDV'nin kendisi bunu sorguluyor: 'tarih düşürülen mısrada bir yanlışlık yapılmış olmalıdır' diyor ve ölümün kayıtlı tarihten (muhtemelen ulûfe kaydı) birkaç gün önce olabileceğini de ekliyor. ÖNERİ: t alanını 1745'TE BIRAK (mevcut kayıt zaten TDV'nin raporladığı bilimsel FİKİR BİRLİĞİYLE uyumlu, DEĞİŞTİRME öngörmüyorum) ama donem/not alanlarına bu ikili tarih tartışmasını ekle — böylece kayıt TDV'nin kendi belirsizliğini SAKLAMAMIŞ olur.",
+      "kaynak": "TDV: ibrahim-muteferrika"
+    },
+    {
+      "id": "ibrahim-muteferrika",
+      "alan": "not",
+      "eski": "Macaristan doğumlu, İslâm'a girip Osmanlı hizmetine giren; ilk Osmanlı Türkçe matbaasını kuran âlim-diplomat",
+      "yeni": "Erdel'in Koloszvár şehrinde (bugün Cluj, Romanya) doğdu; Üniteryen mezhebine mensup bir aileden geldiği, Erdelli Üniteryanların toplu ihtidası sırasında Müslüman olmuş olabileceği düşünülür — kesin tarih bilinmiyor. Osmanlı hizmetine ESİR olarak değil GÖNÜLLÜ girdiği anlaşılır (esir iddiaları Niyazi Berkes tarafından çürütülmüştür). 18 Nisan 1716'da sipahilikten dergâh-ı âlî müteferrikalığına geçti (lakabı buradan gelir); 1717'den itibaren Osmanlı'ya sığınan Macar/Erdel prensi II. Ferenc Rákóczi'ye tercüman ve mihmandarlık yaptı. 1726'da matbaanın gerekliliğini savunan Vesîletü't-tıbâa risalesini yazdı; Temmuz 1727'de III. Ahmed'in fermanı ve Şeyhülislam Yenişehirli Abdullah Efendi'nin fetvasıyla (dinî eserler HARİÇ) basım izni aldı. Sağlığında 17, ölümünden sonra basılanlarla toplam 24 kitap bastı. 1741'de Yalova'da bir kâğıt fabrikası kurmaya girişti (bkz. data/ekokuma_yenilesme.js). Matbaası kendisinin de içinde yer aldığı 1730 Patrona Halil İsyanı'ndan zarar görmeden çıktı.",
+      "gerekce": "Mevcut not iki cümlelik; TDV'nin gövdesi çok daha zengin (görev sırası, esir/gönüllü tartışması, Rákóczi bağlantısı, 1741 kâğıt fabrikası). data/ekokuma_lale.js'teki 'kimdir-ibrahim-muteferrika' kartıyla ÇELİŞMEZ, onu KISALTARAK özetler.",
+      "kaynak": "TDV: ibrahim-muteferrika · matbaa"
+    }
+  ],
+  "ekokuma_baglari": [
+    "data/ekokuma_yenilesme.js: yenilesme-uc-kurum-gecikme-kiyasi · matbaa-300-yil-gecikme-tartismasi · matbaa-kesintili-tarihi-1747-1826 (YENİ, bu teslimde eklendi)",
+    "data/ekokuma_lale.js: kimdir-ibrahim-muteferrika · lale-devri-yenilikler",
+    "data/ekokuma_toplum.js: muteferrika-matbaasi-kurulusu"
+  ],
+  "not": "kimdir-ibrahim-muteferrika (ekokuma_lale.js) kaydı ZATEN doğru bilgiyi tasiyor ('1670-1674 arasi', 'Ölüm yılı 1745 kabul edilir, mezar tasindaki 1747 mezarin yapildigi yil sayilir') -- bu YAMA yalniz kisiler.js'in DAHA SIG kaydini ekokuma ile HIZALIYOR, iki dosya arasinda celiski yaratmiyor."
+}
