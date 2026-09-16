@@ -126059,5 +126059,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4115",
+  "zaman": "2026-09-16 21:29",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTME (Emre): 5/7/13/20 ornekti. Hedef SERBEST gun ayari (5-20, elle girilen). Varsayilan bantlar 5 kademe: <=5 · 5-7 · 7-10 · 10-15 · 15-20. Olc: 1 gunluk bant (16 bant) cikti boyutunu ve kosu suresini ne kadar artirir? Kabul edilebilirse gunluk bant uret. Sonucu denetim/MOTOR-UFUK-0916.md'ye yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
