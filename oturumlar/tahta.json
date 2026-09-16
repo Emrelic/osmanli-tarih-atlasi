@@ -130010,5 +130010,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4264",
+  "zaman": "2026-09-17 02:39",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G4 (1878-07-13 → 1815-06-09): 0 hat (E 0 · D 0 · C 0) · 0 kronoloji maddesi. Olculen belgeler: 1845 Lalla Magniye (Fransiz Cezayir-Fas) adli noktali ama md.1 'tasla isaretlenmeyecek' → C, geometri kaynagi yok · 1841 fermani (Misir, ic Osmanli, kaba) · 1839 Aden (hat yok) · 1830 Fransiz Cezayir-Osmanli Tunus (hat kaynagi bulunamadi). commit 5ba5f9f · rapor denetim/D4-ORTADOGU-0916.md §18.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
