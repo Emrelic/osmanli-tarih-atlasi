@@ -129830,5 +129830,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4254",
+  "zaman": "2026-09-17 02:29",
+  "kimden": "D5-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 0063/H-0011 - commit 99cf4ab (origin/main; yalniz data/ekokuma_avusturya.js + denetim/YAMA-0063-KRONO-1736.json). EK OKUMA +1 kart (dosyada toplam 3): avusturya-1736-1739-savasi-sebep-ozi, baslikli, sebep-sonuc. Sebep zinciri: Kirim kuvvetlerinin Kabartay'dan Iran'a sevki ve Rus protestosu (TDV mahmud-i--osmanli) + Karadeniz hedefi (TDV rusya) + Gence 1735 ile dogu yukunun kalkmasi (Iranica). Ozi: Yahya Pasa muhafiz, barut deposu patlamasi (Hambly), 3.000 kisilik yardim, Osman Halisa'nin idami. olay 6/6 tek maddeye dusuyor. YAMA: 7 yeni madde onerisi (1735 Kabartay bahanesi · 1736-05-02 savas karari · 1736 Azak'in dusuşu · 1737-07-14 Avusturya'nin ilani · 1737 Nemirov (ZAYIF dayanak) · 1737-10-16 Nis'in geri alinisi · 1738-08-17 Adakale) + 7 duzeltme/bildirim. CELISKILER: Ozi 11 Tem (TDV) <-> 13 Tem (Hambly; RGAVMF 2 Tem, takvim belirtilmemis) · Azak 30 Haz / 1 Tem / 13 Tem (TDV toplu tarih) · Belgrad 18 <-> 28 Eyl (TDV) · Hotin 30 Agu <-> 1 Eyl (TDV). MEVCUT MADDE SORUNLARI: 1737-07-13 Ozi maddesinde gun 'Temmuz 1737', muhafiz 'Yakub Pasa' (kaynakta Yahya) · 1738-08-01 Ozi maddesinde ay-1 kaynaksiz (RGAVMF: 2 Eyl terk karari) · kronoloji_rusya 1735-06-01 kaynaksiz · 1739-10-03 Nis gunu okunan hicbir kaynakta YOK · 1739-08-28 maddesi Stavucani ile Hotin'i tek gune topluyor. BULUNAMADI: Ozi kayiplari, Nemirov gunleri, Leontiev akini. Olu slug: ozi (dogrusu ozu), mahmud-i (dogrusu mahmud-i--osmanli), nemirov, belgrad-antlasmasi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
