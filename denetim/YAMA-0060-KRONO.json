@@ -1,0 +1,122 @@
+{
+  "paket": "0060/H-0001 · 0061/H-0001 — Osmanlı İran seferi ile Rusya'nın İran'daki ilerleyişi (1722-1735) birlikte",
+  "tarih": "2026-09-17",
+  "yazan": "D4-ORTADOGU (1.MURAT sevki, oturumlar/DALGA-0060.md)",
+  "durum": "ONERI — kilitli dosyalara YAZILMADI. Uygulayıcı: UYGULA / 1.MURAT. YAMA-0059-HAZAR.json ile BİRLİKTE uygulanmalı (aynı olaylar; mükerrer kalem yok, atıf var).",
+  "olcum_araci": "denetim/ARAC-D4-IRAN1722-SAYIM-0917.js (salt okuma; data/olaylar*.js ÇEKİRDEK + data/kronoloji*.js KUYRUK ayrı sayılır)",
+
+  "sayim_once": {
+    "evren": "1720-01-01 → 1737-12-31 · b/yer/d alanında İran-seferi ya da Rus-Hazar anahtar kelimesi",
+    "toplam": 48,
+    "osmanli_iran_ekseni": {"cekirdek": 19, "kuyruk": 15},
+    "rus_ekseni": {"cekirdek": 5, "kuyruk": 9},
+    "rusyanin_iran_icindeki_ilerleyisi_ozel": [
+      "1722-07-18 kuyruk kronoloji_rusya — İran (Hazar) seferi başladı (Jülyen; YAMA-0059 #9)",
+      "1722-08-23 çekirdek olaylar_ek7 — Derbend (Jülyen; YAMA-0059 #5)",
+      "1724-06-24 çekirdek olaylar_ek5 — İstanbul Mukāsemenâmesi",
+      "1724-06-24 kuyruk kronoloji_gurcistan — aynı antlaşma (Gürcistan yüzü)",
+      "1735-03-10 çekirdek olaylar_ek7 — Gence (Jülyen; YAMA-0059 #6)"
+    ],
+    "rus_ilerleyisinde_EKSIK": [
+      "Gîlân/Reşt'e Rus çıkarması (Kasım-Aralık 1722) — YOK",
+      "Bakü'nün alınışı (1723) — YOK (YAMA-0059 #7'de önerildi)",
+      "Petersburg Antlaşması (23 Eyl 1723) — YOK; ama atlasta 1723-09-23 KIRILMASI VAR (8 nokta) ⇒ Değişmez 2s açık",
+      "Lâhîcân'ın işgali (1725) — YOK",
+      "Tarku şamhallığının kaldırılması (1725-26) — YOK (YAMA-0059 #8'de önerildi)",
+      "Reşt Antlaşması (1732) — YOK; atlasta 1732-01-21 kırılması (Mahmudâbâd) maddesiz",
+      "Rusların Gîlân'dan çekilmesi (1734) — YOK; atlasta 1734-01-01 kırılması (8 nokta) maddesiz"
+    ],
+    "osmanli_tarafinda_gorulen_bosluk_ARASTIRILMADI": "1726 Eşref Han karşısında Nihâvend yenilgisi (ekokuma_antlasma4 kartında 'Kasım 1726' olarak geçiyor, çekirdekte madde yok) · 1724-25 Erdebil/Kazvin/Şemahı. Bu turun kapsamı Rus ekseni; bunlar kaynağa sorulmadı, madde önerilmedi."
+  },
+
+  "kronoloji_yeni": [
+    {
+      "no": 1,
+      "dosya": "çekirdek olaylar dosyası (UYGULA seçer)",
+      "yeni": "{ t:\"1723-01-01\", k:\"savas\", etiket:[\"savas\",\"konu-askeri\"], b:\"Rus kuvvetlerinin Enzeli'ye çıkıp Reşt'e yerleşmesi — Gîlân işgalinin başlangıcı\", gun:\"Kasım-Aralık 1722 (Iranica: Safer 1135; BRE: Aralık 1722, Rus takvimi)\", yer:\"Reşt, Bender Enzeli (Gîlân)\", kisiler:\"Albay İ. A. Şipov · General M. A. Matyuşkin\", d:\"Derbend'in alınmasından sonra Astrahan'dan gelen bin kişilik bir Rus çıkarma birliği Enzeli körfezine indi ve Afganlara karşı yardım isteyen Reşt valisinin çağrısıyla şehre yerleşti. Gîlân'ın geri kalanı Mayıs 1723'e kadar alındı. Osmanlı ordusu ise aynı bahar Tiflis üzerinden Kafkasya'ya girdi; iki imparatorluk çöken Safevî ülkesinin iki ayrı ucundan içeri ilerliyordu. Kaynaklar yalnız ayı veriyor ve ikisi birbirini tutmuyor; tarih alanı olayın EN GEÇ olabileceği yıl başıdır.\", kaynak:\"Iranica BOUNDARIES ii ('Ṣafar 1135/November 1722') · BRE Персидский поход 1722–23 ('В дек. 1722 … высадился в зал. Энзели и занял … Решт')\", yer_id:\"Reşt\" }",
+      "tarih_karari": "🔴 §4 kuralı yıl düzeyi ister; ama '1722-01-01' maddeyi seferin BAŞINDAN önceye (Ocak 1722) atar ve sıralamayı bozar. Iranica Safer 1135 (≈11 Kas-9 Ara 1722 G) ile BRE Aralık 1722 J (≈12 Ara 1722-11 Oca 1723 G) ÖRTÜŞMÜYOR. '1723-01-01' iki kaynağın ikisinde de olayın ÖNCESİNE düşmeyen tek yıl başı (BRE'nin son on günü hariç). Önerim 1723-01-01 + gun metni; KARAR KOORDİNATÖRÜN.",
+      "harita_bagi": "H1 (Reşt) · H4 (Enzeli) aynı güne bağlanır"
+    },
+    {
+      "no": 2,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1723-09-23\", k:\"antlasma\", etiket:[\"antlasma\",\"diplomasi\",\"konu-diplomasi\"], b:\"Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyısı eyaletlerini Rusya'ya bıraktı\", gun:\"23 Eylül 1723 (Rus takvimiyle 12 Eylül)\", yer:\"St. Petersburg\", kisiler:\"I. Petro · İsmâil Bey (II. Tahmasb'ın elçisi)\", d:\"Afganlara karşı Rus askerî yardımı karşılığında II. Tahmasb'ın elçisi Derbend ile Bakü'yü çevreleriyle birlikte ve Gîlân, Mâzenderân, Esterâbâd eyaletlerini Rusya'ya bıraktı. Tahmasb antlaşmayı onaylamadı; Rusya Derbend, Bakü ve Gîlân'da garnizon tuttu ama Mâzenderân ile Esterâbâd'a hiç asker göndermedi. Antlaşmanın toprak hükümleri ertesi yıl Osmanlı ile imzalanan İstanbul Mukāsemenâmesi'nde tanındı.\", kaynak:\"BRE Петербургский договор 1723 (12(23) сент.) · Iranica BOUNDARIES ii ('22 Ḏu'l-ḥejja 1135/23 September 1723') · Iranica RUSSIA i (Tahmasb'ın onaylamaması; Mâzenderân-Esterâbâd'a garnizon gönderilmemesi)\", yer_id:\"\" }",
+      "harita_bagi": "atlastaki 1723-09-23 kırılmasının (Mahmudâbâd · Lâhîcan · Enzeli + H2'de silinen 6 nokta) maddesi. H2/H3/H4 uygulanırsa bu gün yalnız Mahmudâbâd'da kalır — madde yine gerekir (antlaşmanın kendisi)."
+    },
+    {
+      "no": 3,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1725-01-01\", k:\"savas\", etiket:[\"savas\",\"konu-askeri\"], b:\"Rus kuvvetlerinin Lâhîcân'ı işgali — Gîlân'da en doğu nokta\", gun:\"1725\", yer:\"Lâhîcân (Gîlân)\", d:\"Ruslar Gîlân'da Lâhîcân'ın ötesine hiç geçemediler; şehir 1725'te işgal edildi. Petersburg Antlaşması'yla bırakılan Mâzenderân ve Esterâbâd hiçbir zaman fiilen Rus eline geçmedi. Aynı yıl Osmanlı ordusu Tebriz ve Gence'yi alarak Azerbaycan'daki payını tamamladı.\", kaynak:\"Iranica BOUNDARIES ii ('did not penetrate beyond Lāhījān, which was occupied in 1725', Hanway'e dayanarak)\", yer_id:\"Lâhîcan\" }",
+      "harita_bagi": "H3"
+    },
+    {
+      "no": 4,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1732-01-01\", k:\"antlasma\", etiket:[\"antlasma\",\"diplomasi\",\"konu-diplomasi\"], b:\"Reşt Antlaşması — Rusya Gîlân, Mâzenderân ve Esterâbâd'ı İran'a iade etti\", gun:\"1732 (tek, zayıf dayanak: 21 Ocak / 1 Şubat 1732)\", yer:\"Reşt\", kisiler:\"I. Anna (Rusya) · Nâdir (Tahmasb Kulu Han)\", d:\"I. Petro'nun ölümünden sonra Hazar kıyısı eyaletlerinden beklediği geliri alamayan ve hastalıktan ağır kayıp veren Rusya, yükselen Nâdir'le anlaşarak Mâzenderân ve Esterâbâd üzerindeki haklarından vazgeçti ve Gîlân ile Tâliş'i boşaltmayı kabul etti; Derbend ile Bakü şimdilik Rus elinde kaldı. Aynı kış Osmanlı da Ahmed Paşa Antlaşması'yla Batı İran'ın büyük bölümünü İran'a geri veriyordu: 1724'te paylaşılan ülke, sekiz yıl sonra iki taraftan birden geri alınıyordu.\", kaynak:\"Iranica BOUNDARIES ii ('Under the Treaty of Rašt (1144/1732) Astarābād and Māzandarān were restored, and the Russian forces abandoned Gīlān and Ṭāleš') · Iranica RUSSIA i (Anna, Reşt 1732 ve Gence 1735'te çekilmeyi kabul etti) · BRE Константинопольский договор 1724 ('вернула Персии по Рештскому трактату 1732') · Salamova, Omskiy nauçnıy vestnik 2007 · gün için Habibi-Rudsari, Politeks 2013 (dic.academic'e dayanıyor — ZAYIF)\", yer_id:\"Reşt\" }",
+      "tarih_karari": "Gün yalnız ikincil ve ansiklopedi-sitesine dayanan bir makalede var ⇒ yıl düzeyi. Atlasta Mahmudâbâd kırılması 1732-01-21 bu zayıf günü kullanıyor — 20 gün içinde, Değişmez 2 kapanır; kırılmanın kendisine dokunulmadı.",
+      "harita_bagi": "Mahmudâbâd 1732-01-21"
+    },
+    {
+      "no": 5,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1734-01-01\", k:\"toprak-kayip\", etiket:[\"idari\",\"konu-siyasi\"], b:\"Rus kuvvetlerinin Gîlân'ı boşaltması\", gun:\"1734\", yer:\"Reşt, Lâhîcân, Enzeli (Gîlân)\", d:\"Reşt Antlaşması'nın ardından Rus garnizonları Gîlân'dan çekildi; Rus komutanı Levaşov 1733'te hâlâ Nâdir'le görüşmek üzere Reşt'e gönderiliyordu. Kıyıdaki Rus varlığı artık yalnız Bakü ve Derbend'den ibaretti; onlar da 1735 Gence Antlaşması'yla iade edildi.\", kaynak:\"TDV gilan (Rusların 1734'te çekilmesi — ⚠️ aynı madde Petro'nun ölümünü yanlışlıkla 1732 veriyor) · Salamova, Omskiy nauçnıy vestnik 2007 (Levaşov'un 1733'te Reşt'e gönderilmesi)\", yer_id:\"Reşt\" }",
+      "harita_bagi": "atlastaki 1734-01-01 kırılması (Lâhîcan · Enzeli; H1 ile Reşt)"
+    }
+  ],
+  "kronoloji_yama0059_ile_ortak": "YAMA-0059-HAZAR.json #5 (Derbend 1722-09-03) · #6 (Gence 1735-03-21) · #7 (Bakü 1723-08-06) · #8 (Tarku 1726) · #9 (sefer başlangıcı 1722-07-29) — burada TEKRAR YAZILMADI; birlikte uygulanınca Rus ekseni 5 → 13 madde olur.",
+  "sira_ozeti_birlikte": [
+    "1722-03-08 Gülnâbâd (kuyruk) · 1722-07-29 Rus seferi başladı · 1722-09-03 Derbend · 1722-10-23 İsfahan düştü",
+    "1723-01-01 Reşt/Enzeli (Kasım-Aralık 1722) · 1723-06-15 Osmanlı Tiflis · 1723-08-06 Bakü · 1723-09-23 Petersburg · 1723-10-01 Kirmanşah",
+    "1724-06-24 İstanbul Mukāsemenâmesi · 1724-08-31 Hemedan · 1724-09-28 Revan",
+    "1725-01-01 Nahçıvan / Lâhîcân · 1725-08-04 Tebriz · 1725-09-12 Gence",
+    "1726-01-01 Tarku şamhallığının kaldırılması · 1727-10-04 Hemedan Antlaşması",
+    "1730-08-12 Nâdir'in taarruzu · 1732-01-01 Reşt Antlaşması · 1732-01-10 Ahmed Paşa Antlaşması",
+    "1734-01-01 Ruslar Gîlân'dan çekildi · 1735-03-21 Gence Antlaşması · 1735-06-19 Arpaçay · 1736-03-08 Nâdir Şah · 1736-09-01 İstanbul Antlaşması"
+  ],
+
+  "harita_yamalari": [
+    {
+      "no": "H1",
+      "dosya": "data/yerlesimler.js:1082 (Reşt) — AYNI DEĞER: data/yer_yama_zend_kacar.js:58 · data/yer_kron_dogu.js:187 (ölç)",
+      "eski": "{f:\"1501-07-01\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"1501-07-01\",t:\"1723-01-01\",d:\"safevi\"},{f:\"1723-01-01\",t:\"1734-01-01\",d:\"rusya\"},{f:\"1734-01-01\",t:\"1736-03-08\",d:\"safevi\"}",
+      "gerekce": "Reşt Rus Gîlân kolordusunun MERKEZİYDİ (Levaşov burada 'Yeni kale' yaptırdı — Garunova 2016) ama atlas onu kesintisiz Safevî gösteriyor; komşuları Enzeli ve Lâhîcân ise Rus. Gîlân'ın merkezi Rus olmadan boyanıyordu.",
+      "kaynak": "Iranica BOUNDARIES ii · BRE Персидский поход · Garunova, Vestnik DGU 2016 (Reşt'te redut ve Yeni kale) · TDV gilan (1734)"
+    },
+    {
+      "no": "H2",
+      "dosya": "data/yerlesimler.js:1961-1963 · 1966-1967 · 1970 (Sârî · Âmül · Bârfurûş · Ferahâbâd · Eşref · Esterâbâd) — AYNI DEĞER: data/yer_yama_zend_kacar.js:138-143",
+      "eski": "{f:\"<önceki>\",t:\"1723-09-23\",d:\"safevi\"},{f:\"1723-09-23\",t:\"1734-01-01\",d:\"rusya\"},{f:\"1734-01-01\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"<önceki>\",t:\"1736-03-08\",d:\"safevi\"}",
+      "gerekce": "Mâzenderân ve Esterâbâd Petersburg 1723 ile KÂĞIT ÜZERİNDE bırakıldı ama Ruslar oraya hiç asker göndermedi. Atlas seferi ya da antlaşmayı değil TASARRUFU boyar (CLAUDE.md §11 D030) ⇒ 11 yıllık Rus boyası yanlış. 1734 bitişi de yanlıştı: iki eyalet 1732 Reşt'le iade edildi.",
+      "kaynak": "Iranica BOUNDARIES ii ('the last two provinces were never effectively occupied by the Russians') · Iranica RUSSIA i ('no attempts were made to send garrisons to Mazanderan and Astarabad')",
+      "etki": "6 noktada 2'şer kırılma (1723-09-23 · 1734-01-01) KALKAR."
+    },
+    {
+      "no": "H3",
+      "dosya": "data/yerlesimler.js:1959 (Lâhîcan) — AYNI DEĞER: data/yer_yama_zend_kacar.js:136",
+      "eski": "{f:\"1592-01-01\",t:\"1723-09-23\",d:\"safevi\"},{f:\"1723-09-23\",t:\"1734-01-01\",d:\"rusya\"}",
+      "yeni": "{f:\"1592-01-01\",t:\"1725-01-01\",d:\"safevi\"},{f:\"1725-01-01\",t:\"1734-01-01\",d:\"rusya\"}",
+      "gerekce": "Lâhîcân 1725'te işgal edildi; Petersburg günü bir işgal günü değil.",
+      "kaynak": "Iranica BOUNDARIES ii"
+    },
+    {
+      "no": "H4",
+      "dosya": "data/yerlesimler.js:1960 (Bender Enzeli) — AYNI DEĞER: data/yer_yama_zend_kacar.js:137",
+      "eski": "{f:\"1592-01-01\",t:\"1723-09-23\",d:\"safevi\"},{f:\"1723-09-23\",t:\"1734-01-01\",d:\"rusya\"}",
+      "yeni": "{f:\"1592-01-01\",t:\"1723-01-01\",d:\"safevi\"},{f:\"1723-01-01\",t:\"1734-01-01\",d:\"rusya\"}",
+      "gerekce": "Rus çıkarması Enzeli körfezine Aralık 1722'de (J) — kronoloji #1 ile aynı gün, aynı tarih kararı.",
+      "kaynak": "BRE Персидский поход · Iranica BOUNDARIES ii"
+    }
+  ],
+  "yazilmayanlar": [
+    "Tâliş (Astara · Lenkeran): Iranica 'Russian forces abandoned … Ṭāleš' (1732) diyor ⇒ Tâliş'te Rus varlığı VARDI; ama BAŞLANGIÇ günü bulunamadı. Atlas iki noktayı kesintisiz Safevî gösteriyor — kusur olabilir, yama YAZILMADI.",
+    "Mahmudâbâd 1723-09-23 → 1732-01-21 Rus: başlangıç Petersburg günü (tasarruf değil antlaşma) ve bitiş zayıf gün — kaynakta bu noktanın işgaline dair bilgi bulunamadı; dokunulmadı.",
+    "Osmanlı tarafının eksikleri (1726 Nihâvend yenilgisi vb.) — kapsam dışı, kaynağa sorulmadı."
+  ],
+  "kaynak_notlari": [
+    "İstanbul Mukāsemenâmesi günü: BRE 12(23) Haziran 1724; TDV ahmed-iii ve atlas 24 Haziran. Bir gün fark — TDV esas (§4), değiştirilmedi.",
+    "Iranica BOUNDARIES ii 1724 Rus-Osmanlı antlaşmasını '23 June 1726' yazıyor — dizgi hatası (yıl), gün BRE'yle aynı.",
+    "Garunova 2016 Petro'nun ölümünü '28 января 1724' yazıyor — hata (1725); kullanılmadı."
+  ]
+}

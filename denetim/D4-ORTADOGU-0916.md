@@ -370,3 +370,20 @@ Kaytak usmiliği özerk. **Atlas teşhisi:** Tarki ve Ağraham 1501-1736 kesinti
 **Bağımlılık:** Tarku kalemi `kumuk-samhalligi` künyesinin pencere uzatmasını (1607 → ≥1726) ve renkler.py'de RENK ister (şu an yok) — yoksa alternatif B (`rusya`).
 **Açık karar:** Gence sonrası çekilme hattı Sulak mı Terek mi (kaynaklar ayrışıyor) — Ağraham'ın 1735 sonrası sahibi buna bağlı.
 **Kaynaklar:** BRE (çift tarihli) · Iranica (7 madde) · CyberLeninka hakemli 7 makale · TDV 6 madde (4 iç hatası dayanak yapılmadı).
+
+---
+
+## 16. DALGA-0060 (0060/1 · 0061/1) — İran'ın paylaşılması + Osmanlı ve Rus ilerleyişi birlikte
+
+Çıktılar: `denetim/YAMA-0060-KRONO.json` · `data/ekokuma_rusiran.js` (+1 kart → 4) · sayım aleti `denetim/ARAC-D4-IRAN1722-SAYIM-0917.js`.
+
+**Sayım (önce):** 1720-1737'de 48 madde — Osmanlı-İran ekseni 34 (çekirdek 19 · kuyruk 15), Rus ekseni 14 (çekirdek 5 · kuyruk 9);
+Rusya'nın İran içindeki ilerleyişine ait yalnız **5** (sefer başı · Derbend · Mukāsemenâme ×2 · Gence).
+**Eksik ve önerilen (5 yeni madde):** Reşt/Enzeli çıkarması (1722 → t 1723-01-01, karar koordinatörün) · Petersburg 23.9.1723 · Lâhîcân 1725 ·
+Reşt Antlaşması 1732 (gün zayıf → yıl) · Gîlân'ın boşaltılması 1734. YAMA-0059'un 5 kalemiyle birlikte Rus ekseni **5 → 13**.
+**Harita bulguları (4 yama):** 🔴 **Reşt — Rus Gîlân kolordusunun merkezi — atlasta kesintisiz Safevî** (H1) ·
+🔴 **Mâzenderân–Esterâbâd'ın 6 noktası 1723-1734 Rus boyanıyor, oysa Ruslar oraya hiç asker göndermedi** (Iranica ×2) → Rus dönemi silinir (H2) ·
+Lâhîcân başlangıcı 1725 (H3) · Enzeli başlangıcı 1722 sonu (H4). Atlastaki 1723-09-23 ve 1734-01-01 kırılmaları maddesizdi.
+**Yazılmadı:** Tâliş (Astara · Lenkeran) — Rus varlığı var ama başlangıç günü yok · Osmanlı tarafı boşlukları (1726 Nihâvend) — kaynağa sorulmadı.
+**Ek okuma:** `rusiran-iran-paylasimi-1724-neden` (tartışma) — iki tarafın gerekçeleri (Iranica), hükümler (BRE: 6 madde, Şemahı şartı, Tahmasb'ın tanınması),
+kâğıt üzerinde kalan paylaşım ve 1732-1736 iadeleri; `antlasma4-iran-mukasemenamesi-1724`'e atıf. Osmanlı'nın savaştan kaçınma gerekçesi kartta YORUM diye damgalı.
