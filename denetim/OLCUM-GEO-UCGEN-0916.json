@@ -1,0 +1,260 @@
+{
+ "hucre": {
+  "Vladikavkaz": {
+   "km2": 28581,
+   "bbox": [
+    43.78,
+    42.13,
+    45.91,
+    44.82
+   ],
+   "uzun_kenar_>120km": 0,
+   "en_uzun_kenar_km": 96,
+   "kur": "1784-01-01",
+   "kasitli_bosluk": true,
+   "bos": "hata",
+   "ilk_sahiplik": "1784-01-01"
+  },
+  "Kabartay (Nalçik)": {
+   "km2": 28841,
+   "bbox": [
+    42.27,
+    42.38,
+    44.84,
+    45.12
+   ],
+   "uzun_kenar_>120km": 0,
+   "en_uzun_kenar_km": 99,
+   "kur": null,
+   "kasitli_bosluk": null,
+   "bos": null,
+   "ilk_sahiplik": "1281-01-01"
+  },
+  "Rostov (Don)": {
+   "km2": 4927,
+   "bbox": [
+    39.3,
+    46.41,
+    39.9,
+    48.25
+   ],
+   "uzun_kenar_>120km": 0,
+   "en_uzun_kenar_km": 67,
+   "kur": "1749-12-15",
+   "kasitli_bosluk": null,
+   "bos": null,
+   "ilk_sahiplik": "1749-12-15"
+  },
+  "Taganrog": {
+   "km2": 9835,
+   "bbox": [
+    37.83,
+    46.11,
+    39.3,
+    48.06
+   ],
+   "uzun_kenar_>120km": 0,
+   "en_uzun_kenar_km": 59,
+   "kur": "1698-09-12",
+   "kasitli_bosluk": null,
+   "bos": null,
+   "ilk_sahiplik": "1698-09-12"
+  },
+  "Azak": {
+   "km2": 13688,
+   "bbox": [
+    37.88,
+    45.92,
+    39.98,
+    47.79
+   ],
+   "uzun_kenar_>120km": 0,
+   "en_uzun_kenar_km": 81,
+   "kur": null,
+   "kasitli_bosluk": null,
+   "bos": null,
+   "ilk_sahiplik": "1281-01-01"
+  },
+  "Çerkask (Razdory)": {
+   "km2": 22112,
+   "bbox": [
+    39.87,
+    45.97,
+    41.22,
+    48.68
+   ],
+   "uzun_kenar_>120km": 0,
+   "en_uzun_kenar_km": 120,
+   "kur": null,
+   "kasitli_bosluk": null,
+   "bos": null,
+   "ilk_sahiplik": "1281-01-01"
+  }
+ },
+ "boyama": {
+  "H-0012": {
+   "Vladikavkaz": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "OSM-v": 100.0
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Kabartay (Nalçik)": {
+    "sahip_gunde": "kabartay",
+    "boyayan_%": {
+     "OSM-v": 1.7,
+     "kabartay": 100.0
+    },
+    "boyanmayan_%": -0.0
+   },
+   "Rostov (Don)": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "OSM-o": 46.6,
+     "OSM-v": 0.8,
+     "don-kazak": 52.6
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Taganrog": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "OSM-v": 100.0
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Azak": {
+    "sahip_gunde": "OSMANLI",
+    "boyayan_%": {
+     "OSM-o": 100.0
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Çerkask (Razdory)": {
+    "sahip_gunde": "don-kazak",
+    "boyayan_%": {
+     "don-kazak": 100.0
+    },
+    "boyanmayan_%": 0.0
+   }
+  },
+  "H-0124": {
+   "Vladikavkaz": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "gurcistan": 96.7
+    },
+    "boyanmayan_%": 3.2
+   },
+   "Kabartay (Nalçik)": {
+    "sahip_gunde": "kabartay",
+    "boyayan_%": {
+     "OSM-v": 1.0,
+     "kabartay": 100.0
+    },
+    "boyanmayan_%": -0.0
+   },
+   "Rostov (Don)": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "OSM-o": 46.6,
+     "OSM-v": 0.8,
+     "don-kazak": 52.6
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Taganrog": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "OSM-v": 100.0
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Azak": {
+    "sahip_gunde": "OSMANLI",
+    "boyayan_%": {
+     "OSM-o": 100.0
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Çerkask (Razdory)": {
+    "sahip_gunde": "don-kazak",
+    "boyayan_%": {
+     "don-kazak": 100.0
+    },
+    "boyanmayan_%": 0.0
+   }
+  },
+  "H-0069": {
+   "Vladikavkaz": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "gurcistan": 96.7
+    },
+    "boyanmayan_%": 3.2
+   },
+   "Kabartay (Nalçik)": {
+    "sahip_gunde": "kabartay",
+    "boyayan_%": {
+     "OSM-v": 1.0,
+     "kabartay": 100.0
+    },
+    "boyanmayan_%": -0.0
+   },
+   "Rostov (Don)": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "OSM-o": 46.6,
+     "OSM-v": 0.8,
+     "don-kazak": 52.6
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Taganrog": {
+    "sahip_gunde": null,
+    "boyayan_%": {
+     "OSM-v": 100.0
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Azak": {
+    "sahip_gunde": "OSMANLI",
+    "boyayan_%": {
+     "OSM-o": 100.0
+    },
+    "boyanmayan_%": 0.0
+   },
+   "Çerkask (Razdory)": {
+    "sahip_gunde": "don-kazak",
+    "boyayan_%": {
+     "don-kazak": 100.0
+    },
+    "boyanmayan_%": 0.0
+   }
+  }
+ },
+ "osm_ic_ortusme": {
+  "H-0012": [
+   [
+    "OSM-v",
+    "OSM-h0",
+    141142
+   ]
+  ],
+  "H-0124": [
+   [
+    "OSM-v",
+    "OSM-h0",
+    141142
+   ]
+  ],
+  "H-0069": [
+   [
+    "OSM-v",
+    "OSM-h0",
+    141142
+   ]
+  ]
+ }
+}

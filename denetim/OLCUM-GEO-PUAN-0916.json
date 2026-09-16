@@ -1,0 +1,139 @@
+[
+ {
+  "vaka": "H-0102",
+  "govde": "kazak-hanligi",
+  "nokta": [
+   64.67,
+   52.17
+  ],
+  "puan": 5,
+  "0-200_katkisi_var": false,
+  "katki": [
+   [
+    "Kazak bozkırı (İşim)",
+    230,
+    2
+   ],
+   [
+    "Kazak bozkırı (Turgay)",
+    295,
+    2
+   ],
+   [
+    "Kökçetav (Kokçetav)",
+    345,
+    1
+   ]
+  ],
+  "60km_yanlarda_puan": [
+   8,
+   4,
+   5,
+   5
+  ]
+ },
+ {
+  "vaka": "H-0102",
+  "govde": "kazak-hanligi",
+  "nokta": [
+   66.9,
+   49.56
+  ],
+  "puan": 6,
+  "0-200_katkisi_var": false,
+  "katki": [
+   [
+    "Kazak bozkırı (Turgay)",
+    246,
+    2
+   ],
+   [
+    "Kazak bozkırı (Sarısu)",
+    283,
+    2
+   ],
+   [
+    "Kazak bozkırı (İşim)",
+    335,
+    1
+   ],
+   [
+    "Akmola (Akmolinsk)",
+    370,
+    1
+   ]
+  ],
+  "60km_yanlarda_puan": [
+   5,
+   8,
+   7,
+   5
+  ]
+ },
+ {
+  "vaka": "H-0109",
+  "govde": "qing-hanedani",
+  "nokta": [
+   105.06,
+   23.68
+  ],
+  "puan": 4,
+  "0-200_katkisi_var": false,
+  "katki": [
+   [
+    "Kunming",
+    282,
+    2
+   ],
+   [
+    "Nanning",
+    350,
+    1
+   ],
+   [
+    "Guiyang",
+    365,
+    1
+   ]
+  ],
+  "60km_yanlarda_puan": [
+   4,
+   2,
+   4,
+   2
+  ]
+ },
+ {
+  "vaka": "H-0109",
+  "govde": "qing-hanedani",
+  "nokta": [
+   106.17,
+   24.19
+  ],
+  "puan": 5,
+  "0-200_katkisi_var": false,
+  "katki": [
+   [
+    "Nanning",
+    270,
+    2
+   ],
+   [
+    "Guiyang",
+    276,
+    2
+   ],
+   [
+    "Kunming",
+    363,
+    1
+   ]
+  ],
+  "60km_yanlarda_puan": [
+   6,
+   4,
+   4,
+   5
+  ]
+ }
+]

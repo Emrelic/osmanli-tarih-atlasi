@@ -1,0 +1,888 @@
+{
+ "ozet": {
+  "KAPAMA": [
+   20,
+   3450
+  ],
+  "DEVIR/DOLGU (sahipsiz taban hücre)": [
+   34,
+   99706
+  ],
+  "B3 KORİDOR / DEVİR adayı": [
+   4,
+   19463
+  ]
+ },
+ "tasma": [
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "govde": "OSM-o",
+   "km2": 260,
+   "pp": 0.508,
+   "derinlik_km": 0,
+   "nokta": [
+    44.119,
+    41.334
+   ],
+   "alttaki_petek": "Gümrü (Aleksandropol)",
+   "alttakinin_sahibi": "safevi",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "govde": "OSM-v",
+   "km2": 28849,
+   "pp": 0.626,
+   "derinlik_km": 127,
+   "nokta": [
+    44.964,
+    43.483
+   ],
+   "alttaki_petek": "Vladikavkaz",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "govde": "OSM-v",
+   "km2": 88,
+   "pp": 0.573,
+   "derinlik_km": 11,
+   "nokta": [
+    43.669,
+    42.479
+   ],
+   "alttaki_petek": "Kabartay (Nalçik)",
+   "alttakinin_sahibi": "kabartay",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "govde": "OSM-v",
+   "km2": 57,
+   "pp": 0.55,
+   "derinlik_km": 10,
+   "nokta": [
+    44.336,
+    44.961
+   ],
+   "alttaki_petek": "Kabartay (Nalçik)",
+   "alttakinin_sahibi": "kabartay",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "govde": "OSM-v",
+   "km2": 290,
+   "pp": 0.35,
+   "derinlik_km": 0,
+   "nokta": [
+    42.409,
+    43.717
+   ],
+   "alttaki_petek": "Kabartay (Nalçik)",
+   "alttakinin_sahibi": "kabartay",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "govde": "safevi",
+   "km2": 30,
+   "pp": 0.063,
+   "derinlik_km": 0,
+   "nokta": [
+    44.455,
+    40.983
+   ],
+   "alttaki_petek": "Tiflis",
+   "alttakinin_sahibi": "OSM-o",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "govde": "rusya",
+   "km2": 41,
+   "pp": 0.089,
+   "derinlik_km": 0,
+   "nokta": [
+    47.345,
+    44.04
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0124",
+   "gun": "1679-01-01",
+   "govde": "gurcistan",
+   "km2": 17731,
+   "pp": 0.695,
+   "derinlik_km": 218,
+   "nokta": [
+    44.963,
+    43.767
+   ],
+   "alttaki_petek": "Vladikavkaz",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0069",
+   "gun": "1642-02-26",
+   "govde": "OSM-o",
+   "km2": 2309,
+   "pp": 0.268,
+   "derinlik_km": 40,
+   "nokta": [
+    39.642,
+    47.2
+   ],
+   "alttaki_petek": "Rostov (Don)",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0069",
+   "gun": "1642-02-26",
+   "govde": "OSM-v",
+   "km2": 14820,
+   "pp": 0.439,
+   "derinlik_km": 166,
+   "nokta": [
+    38.418,
+    47.64
+   ],
+   "alttaki_petek": "Taganrog",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0069",
+   "gun": "1642-02-26",
+   "govde": "OSM-v",
+   "km2": 22,
+   "pp": 0.407,
+   "derinlik_km": 3,
+   "nokta": [
+    38.233,
+    46.127
+   ],
+   "alttaki_petek": "Taganrog",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0069",
+   "gun": "1642-02-26",
+   "govde": "don-kazak",
+   "km2": 2601,
+   "pp": 0.202,
+   "derinlik_km": 10,
+   "nokta": [
+    39.792,
+    47.317
+   ],
+   "alttaki_petek": "Rostov (Don)",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0097-1",
+   "gun": "1672-10-18",
+   "govde": "lehistan",
+   "km2": 349,
+   "pp": 0.598,
+   "derinlik_km": 0,
+   "nokta": [
+    29.578,
+    53.278
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0097-1",
+   "gun": "1672-10-18",
+   "govde": "lehistan",
+   "km2": 852,
+   "pp": 0.502,
+   "derinlik_km": 0,
+   "nokta": [
+    28.233,
+    51.985
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0097-1",
+   "gun": "1672-10-18",
+   "govde": "rusya",
+   "km2": 49,
+   "pp": 0.575,
+   "derinlik_km": 0,
+   "nokta": [
+    29.223,
+    52.184
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0097-2",
+   "gun": "1672-10-18",
+   "govde": "avusturya",
+   "km2": 104,
+   "pp": 0.395,
+   "derinlik_km": 0,
+   "nokta": [
+    16.542,
+    50.302
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0097-2",
+   "gun": "1672-10-18",
+   "govde": "lehistan",
+   "km2": 106,
+   "pp": 0.27,
+   "derinlik_km": 4,
+   "nokta": [
+    18.117,
+    50.671
+   ],
+   "alttaki_petek": "Trencsén (Trenčín)",
+   "alttakinin_sahibi": "avusturya",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0097-3",
+   "gun": "1672-10-18",
+   "govde": "lehistan",
+   "km2": 717,
+   "pp": 0.453,
+   "derinlik_km": 0,
+   "nokta": [
+    16.743,
+    54.209
+   ],
+   "alttaki_petek": "Stettin (Szczecin)",
+   "alttakinin_sahibi": "isvec",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0097-4",
+   "gun": "1672-10-18",
+   "govde": "lehistan",
+   "km2": 83,
+   "pp": 0.438,
+   "derinlik_km": 0,
+   "nokta": [
+    32.7,
+    49.45
+   ],
+   "alttaki_petek": "Lubnı",
+   "alttakinin_sahibi": "rusya",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0097-4",
+   "gun": "1672-10-18",
+   "govde": "lehistan",
+   "km2": 1424,
+   "pp": 0.788,
+   "derinlik_km": 0,
+   "nokta": [
+    31.545,
+    49.283
+   ],
+   "alttaki_petek": "Yelisavetgrad (Aziz Yelizaveta Kalesi)",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0097-4",
+   "gun": "1672-10-18",
+   "govde": "rusya",
+   "km2": 190,
+   "pp": 0.377,
+   "derinlik_km": 14,
+   "nokta": [
+    31.392,
+    49.539
+   ],
+   "alttaki_petek": "Uman",
+   "alttakinin_sahibi": "lehistan",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0097-4",
+   "gun": "1672-10-18",
+   "govde": "rusya",
+   "km2": 21,
+   "pp": 0.328,
+   "derinlik_km": 1,
+   "nokta": [
+    33.108,
+    49.118
+   ],
+   "alttaki_petek": "Çehrin (Çigirin)",
+   "alttakinin_sahibi": "lehistan",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0097-4",
+   "gun": "1672-10-18",
+   "govde": "rusya",
+   "km2": 118,
+   "pp": 0.389,
+   "derinlik_km": 2,
+   "nokta": [
+    32.999,
+    49.407
+   ],
+   "alttaki_petek": "Çehrin (Çigirin)",
+   "alttakinin_sahibi": "lehistan",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0097-5",
+   "gun": "1672-10-18",
+   "govde": "gurcistan",
+   "km2": 2052,
+   "pp": 0.589,
+   "derinlik_km": 9999,
+   "nokta": [
+    45.077,
+    44.497
+   ],
+   "alttaki_petek": "Vladikavkaz",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0099-1",
+   "gun": "1672-10-18",
+   "govde": "almanya",
+   "km2": 32,
+   "pp": 0.259,
+   "derinlik_km": 0,
+   "nokta": [
+    5.892,
+    50.14
+   ],
+   "alttaki_petek": "Lüksemburg",
+   "alttakinin_sahibi": "ispanya",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0099-1",
+   "gun": "1672-10-18",
+   "govde": "almanya",
+   "km2": 32,
+   "pp": 0.367,
+   "derinlik_km": 0,
+   "nokta": [
+    5.289,
+    50.256
+   ],
+   "alttaki_petek": "Namur",
+   "alttakinin_sahibi": "ispanya",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0099-1",
+   "gun": "1672-10-18",
+   "govde": "ispanya",
+   "km2": 458,
+   "pp": 0.623,
+   "derinlik_km": 0,
+   "nokta": [
+    5.54,
+    49.917
+   ],
+   "alttaki_petek": "Liège",
+   "alttakinin_sahibi": "almanya",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0099-2",
+   "gun": "1672-10-18",
+   "govde": "fransa",
+   "km2": 120,
+   "pp": 0.175,
+   "derinlik_km": 0,
+   "nokta": [
+    3.321,
+    50.026
+   ],
+   "alttaki_petek": "Tournai",
+   "alttakinin_sahibi": "ispanya",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0099-3",
+   "gun": "1672-10-18",
+   "govde": "iskocya",
+   "km2": 313,
+   "pp": 0.41,
+   "derinlik_km": 4,
+   "nokta": [
+    -3.654,
+    55.799
+   ],
+   "alttaki_petek": "Edinburg",
+   "alttakinin_sahibi": "ingiltere",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0102",
+   "gun": "1672-08-27",
+   "govde": "rusya",
+   "km2": 1576,
+   "pp": 0.333,
+   "derinlik_km": 25,
+   "nokta": [
+    61.865,
+    53.319
+   ],
+   "alttaki_petek": "Troitsk",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0102",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 87,
+   "pp": 0.242,
+   "derinlik_km": 6,
+   "nokta": [
+    61.826,
+    50.636
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0102",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 12911,
+   "pp": 0.105,
+   "derinlik_km": 187,
+   "nokta": [
+    65.498,
+    51.193
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0102",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 481,
+   "pp": 0.15,
+   "derinlik_km": 28,
+   "nokta": [
+    65.759,
+    48.412
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "hive",
+   "km2": 33,
+   "pp": 0.023,
+   "derinlik_km": 0,
+   "nokta": [
+    60.42,
+    43.841
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "hive",
+   "km2": 171,
+   "pp": 0.091,
+   "derinlik_km": 0,
+   "nokta": [
+    60.783,
+    43.547
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "hive",
+   "km2": 23,
+   "pp": 0.465,
+   "derinlik_km": 0,
+   "nokta": [
+    61.77,
+    43.105
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 63,
+   "pp": 0.036,
+   "derinlik_km": 0,
+   "nokta": [
+    61.293,
+    46.718
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 25,
+   "pp": 0.317,
+   "derinlik_km": 0,
+   "nokta": [
+    59.997,
+    46.516
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 497,
+   "pp": 0.155,
+   "derinlik_km": 0,
+   "nokta": [
+    59.427,
+    46.59
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 85,
+   "pp": 0.056,
+   "derinlik_km": 0,
+   "nokta": [
+    58.206,
+    45.265
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 39,
+   "pp": 0.064,
+   "derinlik_km": 0,
+   "nokta": [
+    57.59,
+    44.525
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0103",
+   "gun": "1672-08-27",
+   "govde": "kazak-hanligi",
+   "km2": 33,
+   "pp": 0.127,
+   "derinlik_km": 2,
+   "nokta": [
+    56.921,
+    44.697
+   ],
+   "alttaki_petek": "Üstyurt platosu (doğu)",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0107",
+   "gun": "1672-08-27",
+   "govde": "toungoo",
+   "km2": 279,
+   "pp": 0.333,
+   "derinlik_km": 0,
+   "nokta": [
+    97.438,
+    18.566
+   ],
+   "alttaki_petek": "Loikaw",
+   "alttakinin_sahibi": "san-devletleri",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0107",
+   "gun": "1672-08-27",
+   "govde": "toungoo",
+   "km2": 31,
+   "pp": 0.099,
+   "derinlik_km": 0,
+   "nokta": [
+    98.278,
+    19.727
+   ],
+   "alttaki_petek": "Loikaw",
+   "alttakinin_sahibi": "san-devletleri",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0107",
+   "gun": "1672-08-27",
+   "govde": "san-devletleri",
+   "km2": 197,
+   "pp": 0.478,
+   "derinlik_km": 0,
+   "nokta": [
+    98.574,
+    20.524
+   ],
+   "alttaki_petek": "Chiang Rai",
+   "alttakinin_sahibi": "toungoo",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0107",
+   "gun": "1672-08-27",
+   "govde": "san-devletleri",
+   "km2": 10111,
+   "pp": 0.535,
+   "derinlik_km": 89,
+   "nokta": [
+    98.295,
+    19.03
+   ],
+   "alttaki_petek": "Chiang Mai",
+   "alttakinin_sahibi": "toungoo",
+   "kova": "B3 KORİDOR / DEVİR adayı"
+  },
+  {
+   "vaka": "H-0107",
+   "gun": "1672-08-27",
+   "govde": "san-devletleri",
+   "km2": 1009,
+   "pp": 0.677,
+   "derinlik_km": 30,
+   "nokta": [
+    96.65,
+    19.878
+   ],
+   "alttaki_petek": "Pyinmana",
+   "alttakinin_sahibi": "toungoo",
+   "kova": "B3 KORİDOR / DEVİR adayı"
+  },
+  {
+   "vaka": "H-0108",
+   "gun": "1672-08-27",
+   "govde": "qing-hanedani",
+   "km2": 30,
+   "pp": 0.288,
+   "derinlik_km": 0,
+   "nokta": [
+    110.261,
+    20.05
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0108",
+   "gun": "1672-08-27",
+   "govde": "qing-hanedani",
+   "km2": 24,
+   "pp": 0.44,
+   "derinlik_km": 0,
+   "nokta": [
+    110.603,
+    19.981
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0108",
+   "gun": "1672-08-27",
+   "govde": "qing-hanedani",
+   "km2": 21,
+   "pp": 0.182,
+   "derinlik_km": 0,
+   "nokta": [
+    110.706,
+    20.114
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0108",
+   "gun": "1672-08-27",
+   "govde": "qing-hanedani",
+   "km2": 27,
+   "pp": 0.124,
+   "derinlik_km": 0,
+   "nokta": [
+    110.2,
+    18.611
+   ],
+   "alttaki_petek": null,
+   "alttakinin_sahibi": "PETEK_YOK",
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0109",
+   "gun": "1672-08-27",
+   "govde": "qing-hanedani",
+   "km2": 1642,
+   "pp": 0.308,
+   "derinlik_km": 126,
+   "nokta": [
+    105.064,
+    23.677
+   ],
+   "alttaki_petek": "Cao Bằng",
+   "alttakinin_sahibi": "mac-hanedani",
+   "kova": "B3 KORİDOR / DEVİR adayı"
+  },
+  {
+   "vaka": "H-0109",
+   "gun": "1672-08-27",
+   "govde": "qing-hanedani",
+   "km2": 6701,
+   "pp": 0.198,
+   "derinlik_km": 122,
+   "nokta": [
+    106.289,
+    24.244
+   ],
+   "alttaki_petek": "Cao Bằng",
+   "alttakinin_sahibi": "mac-hanedani",
+   "kova": "B3 KORİDOR / DEVİR adayı"
+  },
+  {
+   "vaka": "H-0110",
+   "gun": "1672-08-27",
+   "govde": "portekiz",
+   "km2": 28,
+   "pp": 0.431,
+   "derinlik_km": 7,
+   "nokta": [
+    113.472,
+    22.172
+   ],
+   "alttaki_petek": "Kanton (Guangzhou)",
+   "alttakinin_sahibi": "qing-hanedani",
+   "kova": "KAPAMA"
+  },
+  {
+   "vaka": "H-0110",
+   "gun": "1672-08-27",
+   "govde": "portekiz",
+   "km2": 82,
+   "pp": 0.297,
+   "derinlik_km": 43,
+   "nokta": [
+    114.202,
+    22.242
+   ],
+   "alttaki_petek": "Hong Kong",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0110",
+   "gun": "1672-08-27",
+   "govde": "portekiz",
+   "km2": 136,
+   "pp": 0.261,
+   "derinlik_km": 24,
+   "nokta": [
+    113.95,
+    22.279
+   ],
+   "alttaki_petek": "Hong Kong",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0110",
+   "gun": "1672-08-27",
+   "govde": "portekiz",
+   "km2": 6042,
+   "pp": 0.121,
+   "derinlik_km": 159,
+   "nokta": [
+    114.146,
+    22.699
+   ],
+   "alttaki_petek": "Hong Kong",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  },
+  {
+   "vaka": "H-0110",
+   "gun": "1672-08-27",
+   "govde": "qing-hanedani",
+   "km2": 6117,
+   "pp": 0.304,
+   "derinlik_km": 35,
+   "nokta": [
+    114.685,
+    23.099
+   ],
+   "alttaki_petek": "Hong Kong",
+   "alttakinin_sahibi": null,
+   "kova": "DEVIR/DOLGU (sahipsiz taban hücre)"
+  }
+ ]
+}

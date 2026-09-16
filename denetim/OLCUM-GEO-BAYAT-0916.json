@@ -1,0 +1,671 @@
+{
+ "h1": [
+  {
+   "vaka": "H-0012",
+   "eski": "safevi",
+   "eski_f": "1604-06-08",
+   "yeni": "OSM-o",
+   "yeni_f": "1605-10-03",
+   "km2": 34,
+   "nokta": [
+    44.466,
+    40.98
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0012",
+   "eski": "safevi",
+   "eski_f": "1604-06-08",
+   "yeni": "OSM-o",
+   "yeni_f": "1605-10-03",
+   "km2": 265,
+   "nokta": [
+    44.033,
+    41.24
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0012",
+   "eski": "kabartay",
+   "eski_f": "1441-01-01",
+   "yeni": "OSM-v",
+   "yeni_f": "1605-10-03",
+   "km2": 48,
+   "nokta": [
+    43.889,
+    42.52
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0012",
+   "eski": "kabartay",
+   "eski_f": "1441-01-01",
+   "yeni": "OSM-v",
+   "yeni_f": "1605-10-03",
+   "km2": 90,
+   "nokta": [
+    43.682,
+    42.443
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0012",
+   "eski": "kabartay",
+   "eski_f": "1441-01-01",
+   "yeni": "OSM-v",
+   "yeni_f": "1605-10-03",
+   "km2": 58,
+   "nokta": [
+    44.335,
+    44.962
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0012",
+   "eski": "kabartay",
+   "eski_f": "1441-01-01",
+   "yeni": "OSM-v",
+   "yeni_f": "1605-10-03",
+   "km2": 295,
+   "nokta": [
+    42.408,
+    43.716
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0097-3",
+   "eski": "isvec",
+   "eski_f": "1658-02-26",
+   "yeni": "lehistan",
+   "yeni_f": "1672-08-27",
+   "km2": 726,
+   "nokta": [
+    16.741,
+    54.213
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0097-4",
+   "eski": "rusya",
+   "eski_f": "1668-01-01",
+   "yeni": "lehistan",
+   "yeni_f": "1672-08-27",
+   "km2": 209,
+   "nokta": [
+    31.443,
+    49.591
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0097-4",
+   "eski": "rusya",
+   "eski_f": "1668-01-01",
+   "yeni": "lehistan",
+   "yeni_f": "1672-08-27",
+   "km2": 77,
+   "nokta": [
+    32.725,
+    49.422
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0097-4",
+   "eski": "rusya",
+   "eski_f": "1668-01-01",
+   "yeni": "lehistan",
+   "yeni_f": "1672-08-27",
+   "km2": 127,
+   "nokta": [
+    33.0,
+    49.409
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0099-1",
+   "eski": "almanya",
+   "eski_f": "1648-10-24",
+   "yeni": "ispanya",
+   "yeni_f": "1668-05-02",
+   "km2": 34,
+   "nokta": [
+    5.834,
+    50.081
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0099-1",
+   "eski": "almanya",
+   "eski_f": "1648-10-24",
+   "yeni": "ispanya",
+   "yeni_f": "1668-05-02",
+   "km2": 463,
+   "nokta": [
+    5.68,
+    50.013
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0099-1",
+   "eski": "almanya",
+   "eski_f": "1648-10-24",
+   "yeni": "ispanya",
+   "yeni_f": "1668-05-02",
+   "km2": 30,
+   "nokta": [
+    5.303,
+    50.222
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0099-2",
+   "eski": "ispanya",
+   "eski_f": "1668-05-02",
+   "yeni": "fransa",
+   "yeni_f": "1671-01-01",
+   "km2": 124,
+   "nokta": [
+    3.318,
+    50.029
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0099-3",
+   "eski": "iskocya",
+   "eski_f": "1472-02-20",
+   "yeni": "ingiltere",
+   "yeni_f": "1670-04-15",
+   "km2": 307,
+   "nokta": [
+    -3.655,
+    55.799
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0102",
+   "eski": "kazak-hanligi",
+   "eski_f": "1644-01-01",
+   "yeni": "rusya",
+   "yeni_f": "1668-01-01",
+   "km2": 972,
+   "nokta": [
+    64.097,
+    52.901
+   ],
+   "ts_disi_epok_olayi": [
+    {
+     "ad": "Kurgan",
+     "kur": "1662-01-01",
+     "km": 295,
+     "eski_ts_icinde": false
+    }
+   ]
+  },
+  {
+   "vaka": "H-0107",
+   "eski": "san-devletleri",
+   "eski_f": "1281-01-01",
+   "yeni": "toungoo",
+   "yeni_f": "1584-05-03",
+   "km2": 323,
+   "nokta": [
+    96.672,
+    19.682
+   ],
+   "ts_disi_epok_olayi": [
+    {
+     "ad": "Ava (İnwa)",
+     "kur": "1364-01-01",
+     "km": 252,
+     "eski_ts_icinde": false
+    },
+    {
+     "ad": "Chiang Mai",
+     "kur": "1296-04-12",
+     "km": 263,
+     "eski_ts_icinde": false
+    }
+   ]
+  },
+  {
+   "vaka": "H-0107",
+   "eski": "san-devletleri",
+   "eski_f": "1281-01-01",
+   "yeni": "toungoo",
+   "yeni_f": "1584-05-03",
+   "km2": 285,
+   "nokta": [
+    97.438,
+    18.566
+   ],
+   "ts_disi_epok_olayi": [
+    {
+     "ad": "Chiang Mai",
+     "kur": "1296-04-12",
+     "km": 165,
+     "eski_ts_icinde": false
+    }
+   ]
+  },
+  {
+   "vaka": "H-0107",
+   "eski": "san-devletleri",
+   "eski_f": "1281-01-01",
+   "yeni": "toungoo",
+   "yeni_f": "1584-05-03",
+   "km2": 10099,
+   "nokta": [
+    98.294,
+    19.03
+   ],
+   "ts_disi_epok_olayi": [
+    {
+     "ad": "Chiang Mai",
+     "kur": "1296-04-12",
+     "km": 78,
+     "eski_ts_icinde": false
+    }
+   ]
+  },
+  {
+   "vaka": "H-0107",
+   "eski": "san-devletleri",
+   "eski_f": "1281-01-01",
+   "yeni": "toungoo",
+   "yeni_f": "1584-05-03",
+   "km2": 214,
+   "nokta": [
+    98.565,
+    20.54
+   ],
+   "ts_disi_epok_olayi": [
+    {
+     "ad": "Chiang Mai",
+     "kur": "1296-04-12",
+     "km": 200,
+     "eski_ts_icinde": false
+    }
+   ]
+  },
+  {
+   "vaka": "H-0109",
+   "eski": "mac-hanedani",
+   "eski_f": "1592-01-01",
+   "yeni": "qing-hanedani",
+   "yeni_f": "1659-01-07",
+   "km2": 1638,
+   "nokta": [
+    105.064,
+    23.677
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0109",
+   "eski": "mac-hanedani",
+   "eski_f": "1592-01-01",
+   "yeni": "qing-hanedani",
+   "yeni_f": "1659-01-07",
+   "km2": 63,
+   "nokta": [
+    107.282,
+    24.062
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0109",
+   "eski": "mac-hanedani",
+   "eski_f": "1592-01-01",
+   "yeni": "qing-hanedani",
+   "yeni_f": "1659-01-07",
+   "km2": 2954,
+   "nokta": [
+    106.258,
+    24.229
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0110",
+   "eski": "qing-hanedani",
+   "eski_f": "1659-01-07",
+   "yeni": "portekiz",
+   "yeni_f": "1671-01-01",
+   "km2": 28,
+   "nokta": [
+    113.472,
+    22.172
+   ],
+   "ts_disi_epok_olayi": []
+  },
+  {
+   "vaka": "H-0110",
+   "eski": "qing-hanedani",
+   "eski_f": "1659-01-07",
+   "yeni": "portekiz",
+   "yeni_f": "1671-01-01",
+   "km2": 1363,
+   "nokta": [
+    114.569,
+    22.932
+   ],
+   "ts_disi_epok_olayi": []
+  }
+ ],
+ "h2": [
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "nokta": [
+    44.5,
+    44.0
+   ],
+   "en_yakin": [
+    {
+     "ad": "Kabartay (Nalçik)",
+     "km": 90,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "kabartay",
+     "k": 0
+    },
+    {
+     "ad": "Vladikavkaz",
+     "km": 110,
+     "kur": "1784-01-01",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 0
+    },
+    {
+     "ad": "Stavropol–Kuma bozkırı",
+     "km": 178,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "TABI",
+     "k": 0
+    },
+    {
+     "ad": "Terek deltası (Kızlar)",
+     "km": 179,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "rusya",
+     "k": 0
+    }
+   ]
+  },
+  {
+   "vaka": "H-0012",
+   "gun": "1605-10-03",
+   "nokta": [
+    44.2,
+    43.3
+   ],
+   "en_yakin": [
+    {
+     "ad": "Vladikavkaz",
+     "km": 50,
+     "kur": "1784-01-01",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 0
+    },
+    {
+     "ad": "Kabartay (Nalçik)",
+     "km": 52,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "kabartay",
+     "k": 0
+    },
+    {
+     "ad": "Kutaisi",
+     "km": 168,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "TABI",
+     "k": 1
+    },
+    {
+     "ad": "Tiflis",
+     "km": 183,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "OSMANLI",
+     "k": 2
+    }
+   ]
+  },
+  {
+   "vaka": "H-0124",
+   "gun": "1679-01-01",
+   "nokta": [
+    44.8,
+    44.5
+   ],
+   "en_yakin": [
+    {
+     "ad": "Kabartay (Nalçik)",
+     "km": 146,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "kabartay",
+     "k": 0
+    },
+    {
+     "ad": "Vladikavkaz",
+     "km": 165,
+     "kur": "1784-01-01",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 0
+    },
+    {
+     "ad": "Terek deltası (Kızlar)",
+     "km": 170,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "rusya",
+     "k": 0
+    },
+    {
+     "ad": "Stavropol–Kuma bozkırı",
+     "km": 178,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "TABI",
+     "k": 0
+    }
+   ]
+  },
+  {
+   "vaka": "H-0124",
+   "gun": "1679-01-01",
+   "nokta": [
+    45.2,
+    43.8
+   ],
+   "en_yakin": [
+    {
+     "ad": "Vladikavkaz",
+     "km": 96,
+     "kur": "1784-01-01",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 0
+    },
+    {
+     "ad": "Terek deltası (Kızlar)",
+     "km": 122,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "rusya",
+     "k": 0
+    },
+    {
+     "ad": "Kabartay (Nalçik)",
+     "km": 132,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "kabartay",
+     "k": 0
+    },
+    {
+     "ad": "Ağraham burnu",
+     "km": 205,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "safevi",
+     "k": 0
+    }
+   ]
+  },
+  {
+   "vaka": "H-0069",
+   "gun": "1642-02-26",
+   "nokta": [
+    39.9,
+    47.0
+   ],
+   "en_yakin": [
+    {
+     "ad": "Çerkask (Razdory)",
+     "km": 29,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "don-kazak",
+     "k": 1
+    },
+    {
+     "ad": "Rostov (Don)",
+     "km": 30,
+     "kur": "1749-12-15",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 3
+    },
+    {
+     "ad": "Azak",
+     "km": 38,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "OSMANLI",
+     "k": 3
+    },
+    {
+     "ad": "Taganrog",
+     "km": 80,
+     "kur": "1698-09-12",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 3
+    }
+   ]
+  },
+  {
+   "vaka": "H-0069",
+   "gun": "1642-02-26",
+   "nokta": [
+    39.6,
+    47.7
+   ],
+   "en_yakin": [
+    {
+     "ad": "Rostov (Don)",
+     "km": 52,
+     "kur": "1749-12-15",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 3
+    },
+    {
+     "ad": "Çerkask (Razdory)",
+     "km": 61,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "don-kazak",
+     "k": 1
+    },
+    {
+     "ad": "Azak",
+     "km": 67,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "OSMANLI",
+     "k": 3
+    },
+    {
+     "ad": "Taganrog",
+     "km": 74,
+     "kur": "1698-09-12",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 3
+    }
+   ]
+  },
+  {
+   "vaka": "H-0069",
+   "gun": "1642-02-26",
+   "nokta": [
+    39.7,
+    46.2
+   ],
+   "en_yakin": [
+    {
+     "ad": "Azak",
+     "km": 104,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "OSMANLI",
+     "k": 3
+    },
+    {
+     "ad": "Rostov (Don)",
+     "km": 115,
+     "kur": "1749-12-15",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 3
+    },
+    {
+     "ad": "Çerkask (Razdory)",
+     "km": 119,
+     "kur": null,
+     "bit": null,
+     "sahip_gunde": "don-kazak",
+     "k": 1
+    },
+    {
+     "ad": "Taganrog",
+     "km": 131,
+     "kur": "1698-09-12",
+     "bit": null,
+     "sahip_gunde": null,
+     "k": 3
+    }
+   ]
+  }
+ ],
+ "h1_ozet": {
+  "ortusme_parcasi_>=20km2": 25,
+  "ts_disi_olayli": 5,
+  "oran": 0.2
+ }
+}

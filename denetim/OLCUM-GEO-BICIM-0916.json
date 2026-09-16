@@ -1,0 +1,276 @@
+{
+ "H-0097-4": {
+  "davetsiz": "rusya",
+  "asil": "lehistan",
+  "davetsiz_dnm": [
+   {
+    "f": "1668-01-01",
+    "t": "1678-01-01"
+   }
+  ],
+  "ortusme_parca_(km2,genislik_km)": [
+   [
+    127,
+    5.0
+   ],
+   [
+    77,
+    3.9
+   ],
+   [
+    209,
+    6.5
+   ]
+  ],
+  "davetsizin_yabanci_hucreleri": [
+   {
+    "hucre": "Uman",
+    "sahip": "lehistan",
+    "kur": "1616-01-01",
+    "davetsiz_%": 0.7,
+    "asil_govde_%": 100.0,
+    "km2": 178
+   },
+   {
+    "hucre": "Çehrin (Çigirin)",
+    "sahip": "lehistan",
+    "kur": null,
+    "davetsiz_%": 1.3,
+    "asil_govde_%": 99.8,
+    "km2": 146
+   },
+   {
+    "hucre": "Yelisavetgrad (Aziz Yelizaveta Kalesi)",
+    "sahip": null,
+    "kur": "1754-01-01",
+    "davetsiz_%": 0.3,
+    "asil_govde_%": 66.3,
+    "km2": 58
+   },
+   {
+    "hucre": "Zaporojye Seçi",
+    "sahip": "zaporojye",
+    "kur": null,
+    "davetsiz_%": 0.1,
+    "asil_govde_%": 0.0,
+    "km2": 19
+   }
+  ]
+ },
+ "H-0099-1": {
+  "davetsiz": "ispanya",
+  "asil": "almanya",
+  "davetsiz_dnm": [
+   {
+    "f": "1668-05-02",
+    "t": "1673-01-01"
+   }
+  ],
+  "ortusme_parca_(km2,genislik_km)": [
+   [
+    463,
+    9.3
+   ],
+   [
+    34,
+    2.1
+   ],
+   [
+    30,
+    2.2
+   ]
+  ],
+  "davetsizin_yabanci_hucreleri": [
+   {
+    "hucre": "Liège",
+    "sahip": "almanya",
+    "kur": null,
+    "davetsiz_%": 10.5,
+    "asil_govde_%": 100.0,
+    "km2": 459
+   }
+  ]
+ },
+ "H-0099-2": {
+  "davetsiz": "fransa",
+  "asil": "ispanya",
+  "davetsiz_dnm": [
+   {
+    "f": "1671-01-01",
+    "t": "1673-01-01"
+   }
+  ],
+  "ortusme_parca_(km2,genislik_km)": [
+   [
+    124,
+    3.3
+   ]
+  ],
+  "davetsizin_yabanci_hucreleri": [
+   {
+    "hucre": "Tournai",
+    "sahip": "ispanya",
+    "kur": null,
+    "davetsiz_%": 4.1,
+    "asil_govde_%": 99.9,
+    "km2": 123
+   }
+  ]
+ },
+ "H-0099-3": {
+  "davetsiz": "iskocya",
+  "asil": "ingiltere",
+  "davetsiz_dnm": [
+   {
+    "f": "1472-02-20",
+    "t": "1707-05-01"
+   }
+  ],
+  "ortusme_parca_(km2,genislik_km)": [
+   [
+    307,
+    9.9
+   ],
+   [
+    9,
+    1.4
+   ]
+  ],
+  "davetsizin_yabanci_hucreleri": [
+   {
+    "hucre": "Edinburg",
+    "sahip": "ingiltere",
+    "kur": null,
+    "davetsiz_%": 6.4,
+    "asil_govde_%": 99.1,
+    "km2": 318
+   }
+  ]
+ },
+ "H-0102": {
+  "davetsiz": "kazak-hanligi",
+  "asil": "rusya",
+  "davetsiz_dnm": [
+   {
+    "f": "1644-01-01",
+    "t": "1752-01-01"
+   }
+  ],
+  "ortusme_parca_(km2,genislik_km)": [
+   [
+    972,
+    10.0
+   ]
+  ],
+  "davetsizin_yabanci_hucreleri": [
+   {
+    "hucre": "Zaural Başkurt toprakları",
+    "sahip": "rusya",
+    "kur": null,
+    "davetsiz_%": 2.0,
+    "asil_govde_%": 99.4,
+    "km2": 937
+   }
+  ]
+ },
+ "H-0107": {
+  "davetsiz": "san-devletleri",
+  "asil": "toungoo",
+  "davetsiz_dnm": [
+   {
+    "f": "1281-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "ortusme_parca_(km2,genislik_km)": [
+   [
+    285,
+    5.7
+   ],
+   [
+    10099,
+    42.8
+   ],
+   [
+    12,
+    0.8
+   ],
+   [
+    323,
+    6.3
+   ],
+   [
+    214,
+    6.0
+   ]
+  ],
+  "davetsizin_yabanci_hucreleri": [
+   {
+    "hucre": "Chiang Mai",
+    "sahip": "toungoo",
+    "kur": "1296-04-12",
+    "davetsiz_%": 24.7,
+    "asil_govde_%": 99.8,
+    "km2": 10162
+   },
+   {
+    "hucre": "Pyinmana",
+    "sahip": "toungoo",
+    "kur": null,
+    "davetsiz_%": 9.8,
+    "asil_govde_%": 85.8,
+    "km2": 1013
+   },
+   {
+    "hucre": "Chiang Rai",
+    "sahip": "toungoo",
+    "kur": null,
+    "davetsiz_%": 0.7,
+    "asil_govde_%": 99.9,
+    "km2": 200
+   }
+  ]
+ },
+ "H-0109": {
+  "davetsiz": "qing-hanedani",
+  "asil": "mac-hanedani",
+  "davetsiz_dnm": [
+   {
+    "f": "1659-01-07",
+    "t": "1673-01-01"
+   }
+  ],
+  "ortusme_parca_(km2,genislik_km)": [
+   [
+    1638,
+    13.5
+   ],
+   [
+    63,
+    2.7
+   ],
+   [
+    2954,
+    18.1
+   ]
+  ],
+  "davetsizin_yabanci_hucreleri": [
+   {
+    "hucre": "Cao Bằng",
+    "sahip": "mac-hanedani",
+    "kur": null,
+    "davetsiz_%": 8.4,
+    "asil_govde_%": 94.3,
+    "km2": 5344
+   },
+   {
+    "hucre": "Lạng Sơn",
+    "sahip": "le-hanedani",
+    "kur": null,
+    "davetsiz_%": 0.9,
+    "asil_govde_%": 0.0,
+    "km2": 159
+   }
+  ]
+ }
+}

@@ -1,0 +1,70 @@
+[
+ {
+  "vaka": "H-0102",
+  "govde": "kazak-hanligi",
+  "serit_km2": 2893,
+  "nokta": [
+   64.67,
+   52.17
+  ],
+  "b3_kapsar": false,
+  "b3_sayac": {
+   "kapali": 3,
+   "sig": 31,
+   "yasak": 0,
+   "doldu": 18
+  },
+  "b3_dolan_km2": 1660
+ },
+ {
+  "vaka": "H-0102",
+  "govde": "kazak-hanligi",
+  "serit_km2": 2278,
+  "nokta": [
+   66.9,
+   49.56
+  ],
+  "b3_kapsar": false,
+  "b3_sayac": {
+   "kapali": 3,
+   "sig": 41,
+   "yasak": 0,
+   "doldu": 24
+  },
+  "b3_dolan_km2": 3382
+ },
+ {
+  "vaka": "H-0109",
+  "govde": "qing-hanedani",
+  "serit_km2": 1642,
+  "nokta": [
+   105.06,
+   23.68
+  ],
+  "b3_kapsar": false,
+  "b3_sayac": {
+   "kapali": 1,
+   "sig": 41,
+   "yasak": 0,
+   "doldu": 33
+  },
+  "b3_dolan_km2": 5152
+ },
+ {
+  "vaka": "H-0109",
+  "govde": "qing-hanedani",
+  "serit_km2": 2587,
+  "nokta": [
+   106.17,
+   24.19
+  ],
+  "b3_kapsar": false,
+  "b3_sayac": {
+   "kapali": 1,
+   "sig": 43,
+   "yasak": 0,
+   "doldu": 35
+  },
+  "b3_dolan_km2": 6469
+ }
+]

@@ -1,0 +1,1683 @@
+{
+ "taban": {
+  "donemler_js_izi": "koşu 11 çıktısı (data/ damgası)",
+  "petek": 3822,
+  "yerlesim_girdi_simdi": 3855
+ },
+ "vakalar": [
+  {
+   "id": "H-0012",
+   "gun": "1605-10-03",
+   "kutu": [
+    40.76,
+    45.33,
+    39.93,
+    48.92
+   ],
+   "katman": {
+    "OSM-o": {
+     "f": "1605-10-03",
+     "t": "1606-01-01",
+     "km2": 99619,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 297
+    },
+    "OSM-v": {
+     "f": "1605-10-03",
+     "t": "1606-01-01",
+     "km2": 126403,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 351
+    },
+    "OSM-h0": {
+     "f": "1605-10-03",
+     "t": "1606-01-01",
+     "km2": 50731,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 351
+    },
+    "safevi": {
+     "f": "1604-06-08",
+     "t": "1606-01-01",
+     "km2": 4187,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 144
+    },
+    "rusya": {
+     "f": "1604-01-01",
+     "t": "1607-01-01",
+     "km2": 39784,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 259
+    },
+    "kabartay": {
+     "f": "1441-01-01",
+     "t": "1774-07-21",
+     "km2": 29188,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 99
+    }
+   },
+   "ortusme": [
+    {
+     "a": "OSM-o",
+     "a_dnm": {
+      "f": "1605-10-03",
+      "t": "1606-01-01"
+     },
+     "b": "safevi",
+     "b_dnm": {
+      "f": "1604-06-08",
+      "t": "1606-01-01"
+     },
+     "km2": 299,
+     "parca": [
+      {
+       "km2": 34,
+       "nokta": [
+        44.466,
+        40.98
+       ],
+       "taban_petek": [
+        {
+         "petek": "Tiflis",
+         "sahip_gunde": "OSMANLI",
+         "olaylar": [
+          "1578-08-09",
+          "1606-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 265,
+       "nokta": [
+        44.033,
+        41.24
+       ],
+       "taban_petek": [
+        {
+         "petek": "Gümrü (Aleksandropol)",
+         "sahip_gunde": "safevi",
+         "olaylar": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "a": "OSM-v",
+     "a_dnm": {
+      "f": "1605-10-03",
+      "t": "1606-01-01"
+     },
+     "b": "kabartay",
+     "b_dnm": {
+      "f": "1441-01-01",
+      "t": "1774-07-21"
+     },
+     "km2": 511,
+     "parca": [
+      {
+       "km2": 48,
+       "nokta": [
+        43.889,
+        42.52
+       ],
+       "taban_petek": [
+        {
+         "petek": "Kabartay (Nalçik)",
+         "sahip_gunde": "kabartay",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 90,
+       "nokta": [
+        43.682,
+        42.443
+       ],
+       "taban_petek": [
+        {
+         "petek": "Kabartay (Nalçik)",
+         "sahip_gunde": "kabartay",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 58,
+       "nokta": [
+        44.335,
+        44.962
+       ],
+       "taban_petek": [
+        {
+         "petek": "Kabartay (Nalçik)",
+         "sahip_gunde": "kabartay",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 295,
+       "nokta": [
+        42.408,
+        43.716
+       ],
+       "taban_petek": [
+        {
+         "petek": "Kabartay (Nalçik)",
+         "sahip_gunde": "kabartay",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 17,
+       "nokta": [
+        43.19,
+        42.812
+       ],
+       "taban_petek": [
+        {
+         "petek": "Kutaisi",
+         "sahip_gunde": "TABI",
+         "olaylar": [
+          "1555-05-29"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [],
+   "serit": []
+  },
+  {
+   "id": "H-0124",
+   "gun": "1679-01-01",
+   "kutu": [
+    42.91,
+    45.04,
+    44.12,
+    46.59
+   ],
+   "katman": {
+    "OSM-v": {
+     "f": "1678-07-19",
+     "t": "1682-09-16",
+     "km2": 414,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 35
+    },
+    "OSM-h0": {
+     "f": "1678-07-19",
+     "t": "1682-09-16",
+     "km2": 414,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 35
+    },
+    "safevi": {
+     "f": "1649-02-22",
+     "t": "1709-04-21",
+     "km2": 194,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 26
+    },
+    "gurcistan": {
+     "f": "1606-01-01",
+     "t": "1723-06-15",
+     "km2": 17734,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 146
+    },
+    "rusya": {
+     "f": "1679-01-01",
+     "t": "1689-01-01",
+     "km2": 21782,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 211
+    },
+    "kabartay": {
+     "f": "1441-01-01",
+     "t": "1774-07-21",
+     "km2": 5877,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 171
+    }
+   },
+   "ortusme": [],
+   "bosluk": [
+    {
+     "km2": 917,
+     "pp": 0.437,
+     "nokta": [
+      44.791,
+      44.497
+     ],
+     "taban_petek": [
+      {
+       "petek": "Vladikavkaz",
+       "sahip_gunde": null
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0069",
+   "gun": "1642-02-26",
+   "kutu": [
+    45.62,
+    48.26,
+    37.07,
+    44.12
+   ],
+   "katman": {
+    "OSM-o": {
+     "f": "1642-02-26",
+     "t": "1645-08-22",
+     "km2": 15914,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 183
+    },
+    "OSM-v": {
+     "f": "1642-02-26",
+     "t": "1645-08-22",
+     "km2": 54753,
+     "uzun_kenar": 3,
+     "en_uzun_kenar_km": 489
+    },
+    "OSM-h0": {
+     "f": "1642-02-26",
+     "t": "1645-08-22",
+     "km2": 39890,
+     "uzun_kenar": 3,
+     "en_uzun_kenar_km": 489
+    },
+    "rusya": {
+     "f": "1642-01-01",
+     "t": "1643-01-01",
+     "km2": 7982,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 289
+    },
+    "don-kazak": {
+     "f": "1642-02-26",
+     "t": "1721-01-01",
+     "km2": 64104,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 180
+    }
+   },
+   "ortusme": [],
+   "bosluk": [
+    {
+     "km2": 100,
+     "pp": 0.638,
+     "nokta": [
+      37.127,
+      48.2
+     ],
+     "taban_petek": [
+      {
+       "petek": "Sloboda bozkırı",
+       "sahip_gunde": "__BOSLUK__"
+      }
+     ]
+    },
+    {
+     "km2": 22,
+     "pp": 0.164,
+     "nokta": [
+      41.819,
+      45.894
+     ],
+     "taban_petek": [
+      {
+       "petek": "Don bozkırı (Sal)",
+       "sahip_gunde": "don-kazak"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0097-1",
+   "gun": "1672-10-18",
+   "kutu": [
+    50.98,
+    53.7,
+    27.74,
+    31.07
+   ],
+   "katman": {
+    "OSM-o": {
+     "f": "1672-08-27",
+     "t": "1678-07-19",
+     "km2": 827,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 58
+    },
+    "lehistan": {
+     "f": "1672-08-27",
+     "t": "1678-07-19",
+     "km2": 26468,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 303
+    },
+    "rusya": {
+     "f": "1668-01-01",
+     "t": "1678-01-01",
+     "km2": 34891,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 303
+    }
+   },
+   "ortusme": [],
+   "bosluk": [
+    {
+     "km2": 3624,
+     "pp": 0.228,
+     "nokta": [
+      28.499,
+      51.73
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 2768,
+     "pp": 0.288,
+     "nokta": [
+      29.531,
+      52.895
+     ],
+     "taban_petek": [
+      {
+       "petek": "Minsk",
+       "sahip_gunde": "lehistan"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0097-2",
+   "gun": "1672-10-18",
+   "kutu": [
+    50.21,
+    50.84,
+    16.15,
+    18.24
+   ],
+   "katman": {
+    "avusturya": {
+     "f": "1663-09-24",
+     "t": "1682-09-16",
+     "km2": 5378,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 148
+    },
+    "lehistan": {
+     "f": "1672-08-27",
+     "t": "1678-07-19",
+     "km2": 4517,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 148
+    }
+   },
+   "ortusme": [],
+   "bosluk": [
+    {
+     "km2": 293,
+     "pp": 0.598,
+     "nokta": [
+      18.028,
+      50.639
+     ],
+     "taban_petek": [
+      {
+       "petek": "Trencsén (Trenčín)",
+       "sahip_gunde": "avusturya"
+      }
+     ]
+    },
+    {
+     "km2": 186,
+     "pp": 0.41,
+     "nokta": [
+      16.509,
+      50.451
+     ],
+     "taban_petek": [
+      {
+       "petek": "Poznan",
+       "sahip_gunde": "lehistan"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0097-3",
+   "gun": "1672-10-18",
+   "kutu": [
+    53.83,
+    54.63,
+    16.2,
+    17.26
+   ],
+   "katman": {
+    "lehistan": {
+     "f": "1672-08-27",
+     "t": "1678-07-19",
+     "km2": 4085,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 89
+    },
+    "isvec": {
+     "f": "1658-02-26",
+     "t": "1702-10-22",
+     "km2": 2038,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 65
+    }
+   },
+   "ortusme": [
+    {
+     "a": "lehistan",
+     "a_dnm": {
+      "f": "1672-08-27",
+      "t": "1678-07-19"
+     },
+     "b": "isvec",
+     "b_dnm": {
+      "f": "1658-02-26",
+      "t": "1702-10-22"
+     },
+     "km2": 726,
+     "parca": [
+      {
+       "km2": 726,
+       "nokta": [
+        16.741,
+        54.213
+       ],
+       "taban_petek": [
+        {
+         "petek": "Stettin (Szczecin)",
+         "sahip_gunde": "isvec",
+         "olaylar": [
+          "1648-10-24"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [
+    {
+     "km2": 87,
+     "pp": 0.149,
+     "nokta": [
+      16.397,
+      54.436
+     ],
+     "taban_petek": [
+      {
+       "petek": "Stettin (Szczecin)",
+       "sahip_gunde": "isvec"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0097-4",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.05,
+    50.02,
+    30.85,
+    33.24
+   ],
+   "katman": {
+    "lehistan": {
+     "f": "1672-08-27",
+     "t": "1678-07-19",
+     "km2": 10409,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 164
+    },
+    "rusya": {
+     "f": "1668-01-01",
+     "t": "1678-01-01",
+     "km2": 8420,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 173
+    }
+   },
+   "ortusme": [
+    {
+     "a": "lehistan",
+     "a_dnm": {
+      "f": "1672-08-27",
+      "t": "1678-07-19"
+     },
+     "b": "rusya",
+     "b_dnm": {
+      "f": "1668-01-01",
+      "t": "1678-01-01"
+     },
+     "km2": 413,
+     "parca": [
+      {
+       "km2": 209,
+       "nokta": [
+        31.443,
+        49.591
+       ],
+       "taban_petek": [
+        {
+         "petek": "Uman",
+         "sahip_gunde": "lehistan",
+         "olaylar": [
+          "1616-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 77,
+       "nokta": [
+        32.725,
+        49.422
+       ],
+       "taban_petek": [
+        {
+         "petek": "Lubnı",
+         "sahip_gunde": "rusya",
+         "olaylar": [
+          "1569-07-01",
+          "1654-01-18"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 127,
+       "nokta": [
+        33.0,
+        49.409
+       ],
+       "taban_petek": [
+        {
+         "petek": "Çehrin (Çigirin)",
+         "sahip_gunde": "lehistan",
+         "olaylar": [
+          "1569-07-01",
+          "1678-07-19",
+          "1699-01-26"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [
+    {
+     "km2": 228,
+     "pp": 0.693,
+     "nokta": [
+      31.502,
+      49.922
+     ],
+     "taban_petek": []
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0097-5",
+   "gun": "1672-10-18",
+   "kutu": [
+    44.2,
+    45.18,
+    44.19,
+    45.56
+   ],
+   "katman": {
+    "OSM-v": {
+     "f": "1672-08-27",
+     "t": "1678-07-19",
+     "km2": 424,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 47
+    },
+    "OSM-h0": {
+     "f": "1672-08-27",
+     "t": "1678-07-19",
+     "km2": 424,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 47
+    },
+    "gurcistan": {
+     "f": "1606-01-01",
+     "t": "1723-06-15",
+     "km2": 2052,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 72
+    },
+    "rusya": {
+     "f": "1668-01-01",
+     "t": "1678-01-01",
+     "km2": 4886,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 109
+    },
+    "kabartay": {
+     "f": "1441-01-01",
+     "t": "1774-07-21",
+     "km2": 3561,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 66
+    }
+   },
+   "ortusme": [],
+   "bosluk": [
+    {
+     "km2": 906,
+     "pp": 0.437,
+     "nokta": [
+      44.791,
+      44.497
+     ],
+     "taban_petek": [
+      {
+       "petek": "Vladikavkaz",
+       "sahip_gunde": null
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0099-1",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.73,
+    50.4,
+    4.95,
+    6.21
+   ],
+   "katman": {
+    "almanya": {
+     "f": "1648-10-24",
+     "t": "1681-09-30",
+     "km2": 2801,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 71
+    },
+    "ispanya": {
+     "f": "1668-05-02",
+     "t": "1673-01-01",
+     "km2": 4441,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 90
+    }
+   },
+   "ortusme": [
+    {
+     "a": "almanya",
+     "a_dnm": {
+      "f": "1648-10-24",
+      "t": "1681-09-30"
+     },
+     "b": "ispanya",
+     "b_dnm": {
+      "f": "1668-05-02",
+      "t": "1673-01-01"
+     },
+     "km2": 527,
+     "parca": [
+      {
+       "km2": 34,
+       "nokta": [
+        5.834,
+        50.081
+       ],
+       "taban_petek": [
+        {
+         "petek": "Lüksemburg",
+         "sahip_gunde": "ispanya",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 463,
+       "nokta": [
+        5.68,
+        50.013
+       ],
+       "taban_petek": [
+        {
+         "petek": "Liège",
+         "sahip_gunde": "almanya",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 30,
+       "nokta": [
+        5.303,
+        50.222
+       ],
+       "taban_petek": [
+        {
+         "petek": "Namur",
+         "sahip_gunde": "ispanya",
+         "olaylar": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [],
+   "serit": []
+  },
+  {
+   "id": "H-0099-2",
+   "gun": "1672-10-18",
+   "kutu": [
+    49.65,
+    50.26,
+    3.07,
+    3.53
+   ],
+   "katman": {
+    "fransa": {
+     "f": "1671-01-01",
+     "t": "1673-01-01",
+     "km2": 1532,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 68
+    },
+    "ispanya": {
+     "f": "1668-05-02",
+     "t": "1673-01-01",
+     "km2": 829,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 52
+    }
+   },
+   "ortusme": [
+    {
+     "a": "fransa",
+     "a_dnm": {
+      "f": "1671-01-01",
+      "t": "1673-01-01"
+     },
+     "b": "ispanya",
+     "b_dnm": {
+      "f": "1668-05-02",
+      "t": "1673-01-01"
+     },
+     "km2": 124,
+     "parca": [
+      {
+       "km2": 124,
+       "nokta": [
+        3.318,
+        50.029
+       ],
+       "taban_petek": [
+        {
+         "petek": "Tournai",
+         "sahip_gunde": "ispanya",
+         "olaylar": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [],
+   "serit": []
+  },
+  {
+   "id": "H-0099-3",
+   "gun": "1672-10-18",
+   "kutu": [
+    54.67,
+    56.2,
+    -4.27,
+    -2.61
+   ],
+   "katman": {
+    "ingiltere": {
+     "f": "1670-04-15",
+     "t": "1673-01-01",
+     "km2": 7235,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 152
+    },
+    "iskocya": {
+     "f": "1472-02-20",
+     "t": "1707-05-01",
+     "km2": 8475,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 151
+    }
+   },
+   "ortusme": [
+    {
+     "a": "ingiltere",
+     "a_dnm": {
+      "f": "1670-04-15",
+      "t": "1673-01-01"
+     },
+     "b": "iskocya",
+     "b_dnm": {
+      "f": "1472-02-20",
+      "t": "1707-05-01"
+     },
+     "km2": 320,
+     "parca": [
+      {
+       "km2": 307,
+       "nokta": [
+        -3.655,
+        55.799
+       ],
+       "taban_petek": [
+        {
+         "petek": "Edinburg",
+         "sahip_gunde": "ingiltere",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 9,
+       "nokta": [
+        -3.155,
+        56.091
+       ],
+       "taban_petek": [
+        {
+         "petek": "Perth (İskoçya)",
+         "sahip_gunde": "iskocya",
+         "olaylar": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [
+    {
+     "km2": 368,
+     "pp": 0.272,
+     "nokta": [
+      -3.154,
+      55.194
+     ],
+     "taban_petek": [
+      {
+       "petek": "Carlisle",
+       "sahip_gunde": "ingiltere"
+      }
+     ]
+    },
+    {
+     "km2": 33,
+     "pp": 0.099,
+     "nokta": [
+      -3.67,
+      56.065
+     ],
+     "taban_petek": [
+      {
+       "petek": "Perth (İskoçya)",
+       "sahip_gunde": "iskocya"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0102",
+   "gun": "1672-08-27",
+   "kutu": [
+    48.11,
+    53.66,
+    61.77,
+    68.96
+   ],
+   "katman": {
+    "rusya": {
+     "f": "1668-01-01",
+     "t": "1678-01-01",
+     "km2": 31728,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 189
+    },
+    "kazak-hanligi": {
+     "f": "1644-01-01",
+     "t": "1752-01-01",
+     "km2": 210901,
+     "uzun_kenar": 8,
+     "en_uzun_kenar_km": 288
+    }
+   },
+   "ortusme": [
+    {
+     "a": "rusya",
+     "a_dnm": {
+      "f": "1668-01-01",
+      "t": "1678-01-01"
+     },
+     "b": "kazak-hanligi",
+     "b_dnm": {
+      "f": "1644-01-01",
+      "t": "1752-01-01"
+     },
+     "km2": 972,
+     "parca": [
+      {
+       "km2": 972,
+       "nokta": [
+        64.097,
+        52.901
+       ],
+       "taban_petek": [
+        {
+         "petek": "Zaural Başkurt toprakları",
+         "sahip_gunde": "rusya",
+         "olaylar": [
+          "1598-08-20"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [
+    {
+     "km2": 23986,
+     "pp": 0.419,
+     "nokta": [
+      67.942,
+      49.709
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 21738,
+     "pp": 0.417,
+     "nokta": [
+      62.616,
+      51.558
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 11588,
+     "pp": 0.411,
+     "nokta": [
+      64.909,
+      52.671
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 9983,
+     "pp": 0.667,
+     "nokta": [
+      66.484,
+      49.27
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 2874,
+     "pp": 0.454,
+     "nokta": [
+      65.393,
+      48.364
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 145,
+     "pp": 0.23,
+     "nokta": [
+      64.159,
+      50.326
+     ],
+     "taban_petek": []
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0103",
+   "gun": "1672-08-27",
+   "kutu": [
+    42.99,
+    47.12,
+    56.8,
+    62.31
+   ],
+   "katman": {
+    "hive": {
+     "f": "1646-01-01",
+     "t": "1740-01-01",
+     "km2": 24620,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 362
+    },
+    "kazak-hanligi": {
+     "f": "1644-01-01",
+     "t": "1752-01-01",
+     "km2": 76925,
+     "uzun_kenar": 3,
+     "en_uzun_kenar_km": 433
+    }
+   },
+   "ortusme": [],
+   "bosluk": [
+    {
+     "km2": 74840,
+     "pp": 0.724,
+     "nokta": [
+      59.919,
+      45.075
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 13802,
+     "pp": 0.684,
+     "nokta": [
+      57.297,
+      43.737
+     ],
+     "taban_petek": [
+      {
+       "petek": "Üstyurt platosu (doğu)",
+       "sahip_gunde": null
+      }
+     ]
+    },
+    {
+     "km2": 8642,
+     "pp": 0.518,
+     "nokta": [
+      61.574,
+      43.612
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 383,
+     "pp": 0.244,
+     "nokta": [
+      61.62,
+      46.111
+     ],
+     "taban_petek": []
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0107",
+   "gun": "1672-08-27",
+   "kutu": [
+    17.62,
+    20.68,
+    95.69,
+    99.31
+   ],
+   "katman": {
+    "ayutthaya": {
+     "f": "1584-05-03",
+     "t": "1760-01-01",
+     "km2": 1052,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 76
+    },
+    "toungoo": {
+     "f": "1584-05-03",
+     "t": "1740-01-01",
+     "km2": 89119,
+     "uzun_kenar": 4,
+     "en_uzun_kenar_km": 341
+    },
+    "san-devletleri": {
+     "f": "1281-01-01",
+     "t": "1923-10-29",
+     "km2": 49656,
+     "uzun_kenar": 2,
+     "en_uzun_kenar_km": 328
+    }
+   },
+   "ortusme": [
+    {
+     "a": "toungoo",
+     "a_dnm": {
+      "f": "1584-05-03",
+      "t": "1740-01-01"
+     },
+     "b": "san-devletleri",
+     "b_dnm": {
+      "f": "1281-01-01",
+      "t": "1923-10-29"
+     },
+     "km2": 10932,
+     "parca": [
+      {
+       "km2": 323,
+       "nokta": [
+        96.672,
+        19.682
+       ],
+       "taban_petek": [
+        {
+         "petek": "Pyinmana",
+         "sahip_gunde": "toungoo",
+         "olaylar": [
+          "1555-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 12,
+       "nokta": [
+        96.784,
+        19.433
+       ],
+       "taban_petek": [
+        {
+         "petek": "Loikaw",
+         "sahip_gunde": "san-devletleri",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 285,
+       "nokta": [
+        97.438,
+        18.566
+       ],
+       "taban_petek": [
+        {
+         "petek": "Loikaw",
+         "sahip_gunde": "san-devletleri",
+         "olaylar": []
+        }
+       ]
+      },
+      {
+       "km2": 10099,
+       "nokta": [
+        98.294,
+        19.03
+       ],
+       "taban_petek": [
+        {
+         "petek": "Chiang Mai",
+         "sahip_gunde": "toungoo",
+         "olaylar": [
+          "1558-04-02"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 214,
+       "nokta": [
+        98.565,
+        20.54
+       ],
+       "taban_petek": [
+        {
+         "petek": "Chiang Rai",
+         "sahip_gunde": "toungoo",
+         "olaylar": [
+          "1558-04-02"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [
+    {
+     "km2": 779,
+     "pp": 0.396,
+     "nokta": [
+      96.494,
+      19.986
+     ],
+     "taban_petek": [
+      {
+       "petek": "Pyinmana",
+       "sahip_gunde": "toungoo"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0108",
+   "gun": "1672-08-27",
+   "kutu": [
+    17.87,
+    20.37,
+    108.34,
+    111.26
+   ],
+   "katman": {
+    "qing-hanedani": {
+     "f": "1659-01-07",
+     "t": "1673-01-01",
+     "km2": 31934,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 68
+    }
+   },
+   "ortusme": [],
+   "bosluk": [
+    {
+     "km2": 2738,
+     "pp": 0.309,
+     "nokta": [
+      108.777,
+      18.83
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 26,
+     "pp": 0.123,
+     "nokta": [
+      109.568,
+      19.968
+     ],
+     "taban_petek": [
+      {
+       "petek": "Qiongzhou (Haikou)",
+       "sahip_gunde": "qing-hanedani"
+      }
+     ]
+    },
+    {
+     "km2": 20,
+     "pp": 0.134,
+     "nokta": [
+      109.758,
+      19.962
+     ],
+     "taban_petek": [
+      {
+       "petek": "Qiongzhou (Haikou)",
+       "sahip_gunde": "qing-hanedani"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0109",
+   "gun": "1672-08-27",
+   "kutu": [
+    23.22,
+    24.77,
+    103.88,
+    107.46
+   ],
+   "katman": {
+    "qing-hanedani": {
+     "f": "1659-01-07",
+     "t": "1673-01-01",
+     "km2": 15772,
+     "uzun_kenar": 4,
+     "en_uzun_kenar_km": 188
+    },
+    "mac-hanedani": {
+     "f": "1592-01-01",
+     "t": "1677-01-01",
+     "km2": 32048,
+     "uzun_kenar": 1,
+     "en_uzun_kenar_km": 270
+    }
+   },
+   "ortusme": [
+    {
+     "a": "qing-hanedani",
+     "a_dnm": {
+      "f": "1659-01-07",
+      "t": "1673-01-01"
+     },
+     "b": "mac-hanedani",
+     "b_dnm": {
+      "f": "1592-01-01",
+      "t": "1677-01-01"
+     },
+     "km2": 4654,
+     "parca": [
+      {
+       "km2": 1638,
+       "nokta": [
+        105.064,
+        23.677
+       ],
+       "taban_petek": [
+        {
+         "petek": "Cao Bằng",
+         "sahip_gunde": "mac-hanedani",
+         "olaylar": [
+          "1677-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 63,
+       "nokta": [
+        107.282,
+        24.062
+       ],
+       "taban_petek": [
+        {
+         "petek": "Cao Bằng",
+         "sahip_gunde": "mac-hanedani",
+         "olaylar": [
+          "1677-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 2954,
+       "nokta": [
+        106.258,
+        24.229
+       ],
+       "taban_petek": [
+        {
+         "petek": "Cao Bằng",
+         "sahip_gunde": "mac-hanedani",
+         "olaylar": [
+          "1677-01-01"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [
+    {
+     "km2": 18784,
+     "pp": 0.357,
+     "nokta": [
+      104.52,
+      23.974
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 729,
+     "pp": 0.375,
+     "nokta": [
+      107.099,
+      24.365
+     ],
+     "taban_petek": [
+      {
+       "petek": "Cao Bằng",
+       "sahip_gunde": "mac-hanedani"
+      }
+     ]
+    },
+    {
+     "km2": 142,
+     "pp": 0.103,
+     "nokta": [
+      107.268,
+      23.517
+     ],
+     "taban_petek": [
+      {
+       "petek": "Nanning",
+       "sahip_gunde": "qing-hanedani"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  },
+  {
+   "id": "H-0110",
+   "gun": "1672-08-27",
+   "kutu": [
+    21.89,
+    23.26,
+    113.14,
+    115.43
+   ],
+   "katman": {
+    "portekiz": {
+     "f": "1671-01-01",
+     "t": "1680-01-01",
+     "km2": 6577,
+     "uzun_kenar": 0,
+     "en_uzun_kenar_km": 85
+    },
+    "qing-hanedani": {
+     "f": "1659-01-07",
+     "t": "1673-01-01",
+     "km2": 13655,
+     "uzun_kenar": 3,
+     "en_uzun_kenar_km": 235
+    }
+   },
+   "ortusme": [
+    {
+     "a": "portekiz",
+     "a_dnm": {
+      "f": "1671-01-01",
+      "t": "1680-01-01"
+     },
+     "b": "qing-hanedani",
+     "b_dnm": {
+      "f": "1659-01-07",
+      "t": "1673-01-01"
+     },
+     "km2": 1425,
+     "parca": [
+      {
+       "km2": 28,
+       "nokta": [
+        113.472,
+        22.172
+       ],
+       "taban_petek": [
+        {
+         "petek": "Kanton (Guangzhou)",
+         "sahip_gunde": "qing-hanedani",
+         "olaylar": [
+          "1644-04-25",
+          "1650-11-24",
+          "1676-03-01",
+          "1677-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 11,
+       "nokta": [
+        113.574,
+        22.245
+       ],
+       "taban_petek": [
+        {
+         "petek": "Kanton (Guangzhou)",
+         "sahip_gunde": "qing-hanedani",
+         "olaylar": [
+          "1644-04-25",
+          "1650-11-24",
+          "1676-03-01",
+          "1677-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 6,
+       "nokta": [
+        113.577,
+        22.595
+       ],
+       "taban_petek": [
+        {
+         "petek": "Kanton (Guangzhou)",
+         "sahip_gunde": "qing-hanedani",
+         "olaylar": [
+          "1644-04-25",
+          "1650-11-24",
+          "1676-03-01",
+          "1677-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 10,
+       "nokta": [
+        113.606,
+        22.622
+       ],
+       "taban_petek": [
+        {
+         "petek": "Makao (Macau)",
+         "sahip_gunde": "portekiz",
+         "olaylar": [
+          "1557-01-01"
+         ]
+        }
+       ]
+      },
+      {
+       "km2": 1363,
+       "nokta": [
+        114.569,
+        22.932
+       ],
+       "taban_petek": [
+        {
+         "petek": "Hong Kong",
+         "sahip_gunde": null,
+         "olaylar": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "bosluk": [
+    {
+     "km2": 34,
+     "pp": 0.052,
+     "nokta": [
+      113.582,
+      22.595
+     ],
+     "taban_petek": []
+    },
+    {
+     "km2": 29,
+     "pp": 0.219,
+     "nokta": [
+      113.592,
+      23.09
+     ],
+     "taban_petek": [
+      {
+       "petek": "Kanton (Guangzhou)",
+       "sahip_gunde": "qing-hanedani"
+      }
+     ]
+    },
+    {
+     "km2": 26,
+     "pp": 0.221,
+     "nokta": [
+      113.278,
+      22.388
+     ],
+     "taban_petek": [
+      {
+       "petek": "Kanton (Guangzhou)",
+       "sahip_gunde": "qing-hanedani"
+      }
+     ]
+    },
+    {
+     "km2": 21,
+     "pp": 0.094,
+     "nokta": [
+      113.26,
+      22.368
+     ],
+     "taban_petek": [
+      {
+       "petek": "Kanton (Guangzhou)",
+       "sahip_gunde": "qing-hanedani"
+      }
+     ]
+    },
+    {
+     "km2": 21,
+     "pp": 0.176,
+     "nokta": [
+      113.477,
+      22.1
+     ],
+     "taban_petek": [
+      {
+       "petek": "Makao (Macau)",
+       "sahip_gunde": "portekiz"
+      }
+     ]
+    }
+   ],
+   "serit": []
+  }
+ ]
+}

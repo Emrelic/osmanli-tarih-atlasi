@@ -1,0 +1,41 @@
+{
+ "ozet": {
+  "serit_>=150km2": 2,
+  "b2_icinde": 1
+ },
+ "serit": [
+  {
+   "vaka": "H-0102",
+   "govde": "kazak-hanligi",
+   "dnm": [
+    "1644-01-01",
+    "1752-01-01"
+   ],
+   "km2": 512,
+   "uzunluk_km": 62,
+   "nokta": [
+    64.07,
+    52.94
+   ],
+   "b2_bant": null
+  },
+  {
+   "vaka": "H-0109",
+   "govde": "qing-hanedani",
+   "dnm": [
+    "1659-01-07",
+    "1673-01-01"
+   ],
+   "km2": 225,
+   "uzunluk_km": 34,
+   "nokta": [
+    105.34,
+    23.89
+   ],
+   "b2_bant": {
+    "uzunluk_km": 50,
+    "ana_uc_yari_genislik_km": 43
+   }
+  }
+ ]
+}

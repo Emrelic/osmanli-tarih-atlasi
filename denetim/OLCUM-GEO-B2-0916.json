@@ -1,0 +1,122 @@
+{
+ "ozet": {
+  "aciklanamayan": 13,
+  "b2_kapsar": 2
+ },
+ "satir": [
+  {
+   "vaka": "H-0012",
+   "davetsiz": "OSM-v",
+   "asil": "kabartay",
+   "hucre": "Kabartay (Nalçik)",
+   "parca_km2": 48,
+   "b2": {
+    "bant_uzunluk_km": 126,
+    "bant_yari_genislik_ana_km": 307.4,
+    "motor_orta_cizgi_sinavi_gecer": false,
+    "bandin_baska_sahip_hucresine_tasan_km2": 27486
+   }
+  },
+  {
+   "vaka": "H-0012",
+   "davetsiz": "OSM-v",
+   "asil": "kabartay",
+   "hucre": "Kabartay (Nalçik)",
+   "parca_km2": 90,
+   "b2": null
+  },
+  {
+   "vaka": "H-0012",
+   "davetsiz": "OSM-v",
+   "asil": "kabartay",
+   "hucre": "Kabartay (Nalçik)",
+   "parca_km2": 58,
+   "b2": null
+  },
+  {
+   "vaka": "H-0097-4",
+   "davetsiz": "rusya",
+   "asil": "lehistan",
+   "hucre": "Uman",
+   "parca_km2": 209,
+   "b2": null
+  },
+  {
+   "vaka": "H-0099-1",
+   "davetsiz": "ispanya",
+   "asil": "almanya",
+   "hucre": "Liège",
+   "parca_km2": 463,
+   "b2": null
+  },
+  {
+   "vaka": "H-0099-2",
+   "davetsiz": "fransa",
+   "asil": "ispanya",
+   "hucre": "Tournai",
+   "parca_km2": 124,
+   "b2": null
+  },
+  {
+   "vaka": "H-0099-3",
+   "davetsiz": "iskocya",
+   "asil": "ingiltere",
+   "hucre": "Edinburg",
+   "parca_km2": 307,
+   "b2": null
+  },
+  {
+   "vaka": "H-0102",
+   "davetsiz": "kazak-hanligi",
+   "asil": "rusya",
+   "hucre": "Zaural Başkurt toprakları",
+   "parca_km2": 972,
+   "b2": null
+  },
+  {
+   "vaka": "H-0107",
+   "davetsiz": "san-devletleri",
+   "asil": "toungoo",
+   "hucre": "Pyinmana",
+   "parca_km2": 323,
+   "b2": null
+  },
+  {
+   "vaka": "H-0107",
+   "davetsiz": "san-devletleri",
+   "asil": "toungoo",
+   "hucre": "Chiang Mai",
+   "parca_km2": 10099,
+   "b2": null
+  },
+  {
+   "vaka": "H-0109",
+   "davetsiz": "qing-hanedani",
+   "asil": "mac-hanedani",
+   "hucre": "Cao Bằng",
+   "parca_km2": 1638,
+   "b2": null
+  },
+  {
+   "vaka": "H-0109",
+   "davetsiz": "qing-hanedani",
+   "asil": "mac-hanedani",
+   "hucre": "Cao Bằng",
+   "parca_km2": 63,
+   "b2": null
+  },
+  {
+   "vaka": "H-0109",
+   "davetsiz": "qing-hanedani",
+   "asil": "mac-hanedani",
+   "hucre": "Cao Bằng",
+   "parca_km2": 2954,
+   "b2": {
+    "bant_uzunluk_km": 27,
+    "bant_yari_genislik_ana_km": 333.0,
+    "motor_orta_cizgi_sinavi_gecer": true,
+    "bandin_baska_sahip_hucresine_tasan_km2": 3545
+   }
+  }
+ ]
+}

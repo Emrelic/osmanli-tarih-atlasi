@@ -1,0 +1,367 @@
+{
+ "H-0102": {
+  "hucre": [
+   {
+    "hucre": "Aral kuzeyi",
+    "km2": 39424,
+    "pp": 0.328,
+    "uzun/gen": 2.0,
+    "sahip": "kazak-hanligi",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "kazak-hanligi": 100
+    }
+   },
+   {
+    "hucre": "Kökçetav (Kokçetav)",
+    "km2": 44993,
+    "pp": 0.53,
+    "uzun/gen": 1.0,
+    "sahip": "kazak-hanligi",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "kazak-hanligi": 100
+    }
+   },
+   {
+    "hucre": "Troitsk",
+    "km2": 33376,
+    "pp": 0.745,
+    "uzun/gen": 1.1,
+    "sahip": null,
+    "kur": "1743-01-01",
+    "bos": null,
+    "boyayan_%": {
+     "rusya": 100
+    }
+   },
+   {
+    "hucre": "Kazak bozkırı (Turgay)",
+    "km2": 92479,
+    "pp": 0.759,
+    "uzun/gen": 1.0,
+    "sahip": "kazak-hanligi",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "kazak-hanligi": 100
+    }
+   },
+   {
+    "hucre": "Zaural Başkurt toprakları",
+    "km2": 49509,
+    "pp": 0.832,
+    "uzun/gen": 1.0,
+    "sahip": "rusya",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "rusya": 99,
+     "kazak-hanligi": 2
+    }
+   },
+   {
+    "hucre": "Irgiz (Irgız)",
+    "km2": 56299,
+    "pp": 0.856,
+    "uzun/gen": 1.1,
+    "sahip": "kazak-hanligi",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "kazak-hanligi": 100
+    }
+   },
+   {
+    "hucre": "Kurgan",
+    "km2": 47551,
+    "pp": 0.893,
+    "uzun/gen": 1.2,
+    "sahip": "rusya",
+    "kur": "1662-01-01",
+    "bos": null,
+    "boyayan_%": {
+     "rusya": 100
+    }
+   },
+   {
+    "hucre": "Kazak bozkırı (İşim)",
+    "km2": 82359,
+    "pp": 0.927,
+    "uzun/gen": 1.1,
+    "sahip": "kazak-hanligi",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "kazak-hanligi": 100
+    }
+   },
+   {
+    "hucre": "Kazak bozkırı (Sarısu)",
+    "km2": 92842,
+    "pp": 0.942,
+    "uzun/gen": 1.3,
+    "sahip": "kazak-hanligi",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "kazak-hanligi": 94
+    }
+   }
+  ],
+  "serit_r017": [
+   {
+    "govde": "kazak-hanligi",
+    "km2": 2893,
+    "uzun/gen": 9.5,
+    "nokta": [
+     64.67,
+     52.17
+    ],
+    "alt_hucre": []
+   },
+   {
+    "govde": "kazak-hanligi",
+    "km2": 2278,
+    "uzun/gen": 6.2,
+    "nokta": [
+     66.9,
+     49.56
+    ],
+    "alt_hucre": []
+   }
+  ]
+ },
+ "H-0107": {
+  "hucre": [
+   {
+    "hucre": "Thaton",
+    "km2": 16196,
+    "pp": 0.438,
+    "uzun/gen": 1.3,
+    "sahip": "toungoo",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 100
+    }
+   },
+   {
+    "hucre": "Pegu (Bago)",
+    "km2": 14917,
+    "pp": 0.592,
+    "uzun/gen": 1.3,
+    "sahip": "toungoo",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 100
+    }
+   },
+   {
+    "hucre": "Chiang Rai",
+    "km2": 26931,
+    "pp": 0.595,
+    "uzun/gen": 1.4,
+    "sahip": "toungoo",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 100
+    }
+   },
+   {
+    "hucre": "Taungdwingyi",
+    "km2": 8006,
+    "pp": 0.654,
+    "uzun/gen": 1.5,
+    "sahip": "toungoo",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 100
+    }
+   },
+   {
+    "hucre": "Prome (Pyay)",
+    "km2": 14879,
+    "pp": 0.681,
+    "uzun/gen": 1.1,
+    "sahip": "toungoo",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 100
+    }
+   },
+   {
+    "hucre": "Loikaw",
+    "km2": 31041,
+    "pp": 0.711,
+    "uzun/gen": 1.6,
+    "sahip": "san-devletleri",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "san-devletleri": 100
+    }
+   },
+   {
+    "hucre": "Henzada (Hinthada)",
+    "km2": 15646,
+    "pp": 0.748,
+    "uzun/gen": 1.1,
+    "sahip": "toungoo",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 100
+    }
+   },
+   {
+    "hucre": "Sukhothai",
+    "km2": 19001,
+    "pp": 0.75,
+    "uzun/gen": 1.2,
+    "sahip": "ayutthaya",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "ayutthaya": 100
+    }
+   },
+   {
+    "hucre": "Toungoo",
+    "km2": 20119,
+    "pp": 0.758,
+    "uzun/gen": 1.3,
+    "sahip": "toungoo",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 100
+    }
+   },
+   {
+    "hucre": "Kalaw",
+    "km2": 24935,
+    "pp": 0.775,
+    "uzun/gen": 1.9,
+    "sahip": "san-devletleri",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "san-devletleri": 100
+    }
+   },
+   {
+    "hucre": "Pyinmana",
+    "km2": 10355,
+    "pp": 0.8,
+    "uzun/gen": 1.0,
+    "sahip": "toungoo",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 86,
+     "san-devletleri": 10
+    }
+   },
+   {
+    "hucre": "Chiang Mai",
+    "km2": 40987,
+    "pp": 0.801,
+    "uzun/gen": 1.1,
+    "sahip": "toungoo",
+    "kur": "1296-04-12",
+    "bos": null,
+    "boyayan_%": {
+     "toungoo": 100,
+     "san-devletleri": 25
+    }
+   }
+  ],
+  "serit_r017": []
+ },
+ "H-0109": {
+  "hucre": [
+   {
+    "hucre": "Nanning",
+    "km2": 59516,
+    "pp": 0.894,
+    "uzun/gen": 1.1,
+    "sahip": "qing-hanedani",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "qing-hanedani": 99
+    }
+   },
+   {
+    "hucre": "Kunming",
+    "km2": 110458,
+    "pp": 0.913,
+    "uzun/gen": 1.4,
+    "sahip": "qing-hanedani",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "qing-hanedani": 98
+    }
+   },
+   {
+    "hucre": "Guiyang",
+    "km2": 122252,
+    "pp": 0.926,
+    "uzun/gen": 1.2,
+    "sahip": "qing-hanedani",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "qing-hanedani": 99
+    }
+   },
+   {
+    "hucre": "Cao Bằng",
+    "km2": 63085,
+    "pp": 0.931,
+    "uzun/gen": 1.0,
+    "sahip": "mac-hanedani",
+    "kur": null,
+    "bos": null,
+    "boyayan_%": {
+     "qing-hanedani": 8,
+     "mac-hanedani": 94
+    }
+   }
+  ],
+  "serit_r017": [
+   {
+    "govde": "qing-hanedani",
+    "km2": 1642,
+    "uzun/gen": 3.7,
+    "nokta": [
+     105.06,
+     23.68
+    ],
+    "alt_hucre": [
+     "Cao Bằng"
+    ]
+   },
+   {
+    "govde": "qing-hanedani",
+    "km2": 2587,
+    "uzun/gen": 4.9,
+    "nokta": [
+     106.17,
+     24.19
+    ],
+    "alt_hucre": [
+     "Cao Bằng"
+    ]
+   }
+  ]
+ }
+}
