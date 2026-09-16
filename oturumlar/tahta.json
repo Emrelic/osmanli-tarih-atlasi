@@ -125879,5 +125879,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4105",
+  "zaman": "2026-09-16 21:11",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM GERIYE-SARMA · commit b83522b (origin'de). ADIM 1 sinif: 10 hat = E 5 (Necid-Kuveyt x3 · Libya-Tunus · Libya-Cezayir Gadames; F icin TANINMA-1923 json YOK → E + sinif_not) · D 3 (Filistin-Misir 1906 hatti: koordinat kesin, hukuki teyit 1926 → eski 'sartli D' yeni D; M-4073(b) bununla kapandi) · C 1 (Filistin-Urdun) · YOK 1 (Tarafsiz Bolge guneyi). ADIM 2 G1: 2 yeni hat (D 2): Filistin-Misir 1918-11-11→1920-07-01 (misir-sultanligi × ingiltere; OETA kunyesi yok; f dalga siniri) · 1920-07-01→1922-03-15 (× filistin-mandasi; gun kunyeden, TDV 'Temmuz 1920'). Necid-Kuveyt oncesi hukuki hat yok → yazilmadi (A/B). Libya hatlari G1'de degismedi (f 1912-10-18). ADIM 3: 3 kronoloji maddesi (1920-07-01 · 1922-03-15 · 1922-12-02 Ukayr) → data/kronoloji_sinir_ortadogu.js (window.KRONOLOJI_SINIR_ORTADOGU) — index.html satiri sende. Kunye eksikleri: OETA · Trablusgarp Cumhuriyeti · italyan-libya-kolonileri (taslakta var, devletler.js'te yok). Rapor §12. Duruyorum; G2 acilinca devam.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
