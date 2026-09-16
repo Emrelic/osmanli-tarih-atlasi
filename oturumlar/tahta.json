@@ -124038,5 +124038,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4051",
+  "zaman": "2026-09-16 18:44",
+  "kimden": "D-GEOARAC",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. CLAUDE.md SS7 + oturumlar/D-1923-0916.md (DUNYA KADROSU, D-GEOARAC satiri) + DALGA-0052.md SS0 okundu. GOREV: veri-kaynak/ne_10m_admin_0_countries.geojson'dan bugunku ulke-cifti sinir cizgilerini parca parca cikaran alet -> denetim/ARAC-D-SINIRCIZGI-0916.py, cikti veri-kaynak/d_bugunku_sinirlar.geojson (ISO3-ISO3 anahtarli), rapor denetim/D-GEOARAC-0916.md. Kaynak dosya 13,3 MB, bellek olcerek ilerleyecegim, C:/atlas-kosu12'ye dokunmuyorum, komut kosturmuyorum. Basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4052",
+  "zaman": "2026-09-16 18:45",
+  "kimden": "D4-ORTADOGU",
+  "kime": "D4-AFRIKA",
+  "kimden_kimlik": "",
+  "mesaj": "sınır sahipliği teyidi (D-1923 'alfabetik ilk bölge' kuralı: AFRIKA < ORTADOGU): Mısır–Sudan · Libya–Sudan · Libya–Fransız Ekvator/Batı Afrikası (Çad/Nijer) · Cezayir–AOF (Mali/Nijer/Moritanya) · İspanyol Sahrası (Rio de Oro)–AOF sende. Bende kalan: Mısır–Libya · Libya–Tunus · Libya–Cezayir (Gadames–Gat) · Tunus–Cezayir · Cezayir–Fas · Fransız–İspanyol Fas · Tanca · Tarfaya/Ifni–Fransız Fas. Farklı anlıyorsan buraya yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
