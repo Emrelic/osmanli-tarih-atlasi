@@ -1,0 +1,1423 @@
+[
+ {
+  "motor": 2,
+  "gorsel": "0030/H-0018-1",
+  "gun": "1392-01-01",
+  "katman": [
+   "dulkadir"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 3,
+  "gorsel": "0035/H-0072-1",
+  "gun": "1721-08-30",
+  "katman": [
+   "lehistan",
+   "prusya",
+   "rusya"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 3,
+  "bosluk_hucresiz_km2": 336,
+  "bosluk_sahipli_km2": 799,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Šiauliai",
+    "lehistan",
+    727
+   ],
+   [
+    "Klaipėda (Memel)",
+    "prusya",
+    71
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 19,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 4,
+  "gorsel": "0035/H-0101-1",
+  "gun": "1820-01-08",
+  "katman": [
+   "ingiltere",
+   "umman"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 20516,
+  "bosluk_sahipli_km2": 3676,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Buraymî",
+    "umman",
+    3607
+   ],
+   [
+    "Abu Dabi",
+    "ingiltere",
+    69
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 165,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-1",
+  "gun": "1281-01-01",
+  "katman": [
+   "bizans",
+   "bulgaristan"
+  ],
+  "ortusme_km2": 791,
+  "ortusme_cift": [
+   [
+    "bizans",
+    "bulgaristan",
+    791
+   ]
+  ],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 30,
+  "kafes_sil_komsu": 761,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-2",
+  "gun": "1281-01-01",
+  "katman": [
+   "arnavutluk",
+   "bizans",
+   "sirbistan"
+  ],
+  "ortusme_km2": 2749,
+  "ortusme_cift": [
+   [
+    "bizans",
+    "sirbistan",
+    2749
+   ]
+  ],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 603,
+  "bosluk_sahipli_km2": 725,
+  "bosluk_sahipsiz_km2": 317,
+  "sahipli_bos_hucre": [
+   [
+    "Berat",
+    "__BOSLUK__",
+    679
+   ],
+   [
+    "Ergiri (Ergirikasrı)",
+    "bizans",
+    26
+   ]
+  ],
+  "kafes_ortusme_sonra": 34,
+  "kafes_sil_komsu": 2716,
+  "kafes_sil_hucresiz": 29,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-3",
+  "gun": "1281-01-01",
+  "katman": [
+   "bizans",
+   "inancogullari",
+   "selcuklu"
+  ],
+  "ortusme_km2": 349,
+  "ortusme_cift": [
+   [
+    "bizans",
+    "selcuklu",
+    349
+   ]
+  ],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 14,
+  "kafes_sil_komsu": 335,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-4",
+  "gun": "1281-01-01",
+  "katman": [
+   "cobanogullari",
+   "ilhanli"
+  ],
+  "ortusme_km2": 81,
+  "ortusme_cift": [
+   [
+    "ilhanli",
+    "cobanogullari",
+    81
+   ]
+  ],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 3,
+  "kafes_sil_komsu": 80,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 3
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-5",
+  "gun": "1281-01-01",
+  "katman": [
+   "gurcistan",
+   "ilhanli"
+  ],
+  "ortusme_km2": 306,
+  "ortusme_cift": [
+   [
+    "gurcistan",
+    "ilhanli",
+    306
+   ]
+  ],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 22,
+  "kafes_sil_komsu": 284,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-6",
+  "gun": "1281-01-01",
+  "katman": [
+   "ilhanli",
+   "trabzon-rum"
+  ],
+  "ortusme_km2": 117,
+  "ortusme_cift": [
+   [
+    "trabzon-rum",
+    "ilhanli",
+    117
+   ]
+  ],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 1,
+  "bosluk_sahipli_km2": 20,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 6,
+  "kafes_sil_komsu": 111,
+  "kafes_sil_hucresiz": 62,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-7",
+  "gun": "1281-01-01",
+  "katman": [
+   "artuklu",
+   "ilhanli"
+  ],
+  "ortusme_km2": 304,
+  "ortusme_cift": [
+   [
+    "ilhanli",
+    "artuklu",
+    304
+   ]
+  ],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 18,
+  "kafes_sil_komsu": 287,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-8",
+  "gun": "1281-01-01",
+  "katman": [
+   "almanya",
+   "avusturya",
+   "macaristan"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 492,
+  "bosluk_sahipli_km2": 5699,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Poznan",
+    "polonya-erken",
+    4283
+   ],
+   [
+    "Viyana",
+    "avusturya",
+    842
+   ],
+   [
+    "Trencsén (Trenčín)",
+    "macaristan",
+    327
+   ],
+   [
+    "Prag",
+    "almanya",
+    249
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 5,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 5
+ },
+ {
+  "motor": 5,
+  "gorsel": "0040/H-0001-9",
+  "gun": "1281-01-01",
+  "katman": [
+   "almanya",
+   "litvanya-buyuk-dukalik"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 3,
+  "bosluk_hucresiz_km2": 314,
+  "bosluk_sahipli_km2": 1311,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Šiauliai",
+    "litvanya-buyuk-dukalik",
+    1171
+   ],
+   [
+    "Riga",
+    "almanya",
+    59
+   ],
+   [
+    "Klaipėda (Memel)",
+    "almanya",
+    56
+   ],
+   [
+    "Pärnu",
+    "almanya",
+    25
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 103,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 6,
+  "gorsel": "0040/H-0002-1",
+  "gun": "1281-01-01",
+  "katman": [
+   "almanya",
+   "isvec-birlik-oncesi"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 139,
+  "bosluk_sahipli_km2": 488,
+  "bosluk_sahipsiz_km2": 2,
+  "sahipli_bos_hucre": [
+   [
+    "Turku (Åbo)",
+    "isvec-birlik-oncesi",
+    317
+   ],
+   [
+    "Tallinn (Reval)",
+    "almanya",
+    91
+   ],
+   [
+    "Mikkeli",
+    "isvec-birlik-oncesi",
+    49
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 228,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 7,
+  "gorsel": "0040/H-0003-1",
+  "gun": "1281-01-01",
+  "katman": [
+   "isvec-birlik-oncesi",
+   "norvec-kralligi"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 15037,
+  "bosluk_sahipli_km2": 3213,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Östersund (Jämtland)",
+    "norvec-kralligi",
+    2877
+   ],
+   [
+    "Härnösand",
+    "isvec-birlik-oncesi",
+    192
+   ],
+   [
+    "Jokkmokk",
+    "isvec-birlik-oncesi",
+    91
+   ],
+   [
+    "Bodø",
+    "norvec-kralligi",
+    40
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 801,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 7,
+  "gorsel": "0040/H-0003-2",
+  "gun": "1281-01-01",
+  "katman": [
+   "isvec-birlik-oncesi",
+   "norvec-kralligi"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 3916,
+  "bosluk_sahipli_km2": 711,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Alta",
+    "norvec-kralligi",
+    631
+   ],
+   [
+    "Tornio",
+    "isvec-birlik-oncesi",
+    78
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 261,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 7,
+  "gorsel": "0040/H-0003-3",
+  "gun": "1281-01-01",
+  "katman": [
+   "isvec-birlik-oncesi",
+   "novgorod"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 24671,
+  "bosluk_sahipli_km2": 4249,
+  "bosluk_sahipsiz_km2": 43,
+  "sahipli_bos_hucre": [
+   [
+    "Kandalakşa",
+    "novgorod",
+    3176
+   ],
+   [
+    "Nurmes",
+    "isvec-birlik-oncesi",
+    490
+   ],
+   [
+    "Iisalmi",
+    "isvec-birlik-oncesi",
+    194
+   ],
+   [
+    "Kuopio",
+    "isvec-birlik-oncesi",
+    129
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 20,
+  "kafes_sil_hucresiz": 3303,
+  "kafes_yeni_bosluk": 20
+ },
+ {
+  "motor": 8,
+  "gorsel": "0040/H-0007-1",
+  "gun": "1281-01-01",
+  "katman": [
+   "altinorda",
+   "cagatay"
+  ],
+  "ortusme_km2": 196,
+  "ortusme_cift": [
+   [
+    "altinorda",
+    "cagatay",
+    196
+   ]
+  ],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 82581,
+  "bosluk_sahipli_km2": 1213,
+  "bosluk_sahipsiz_km2": 3836,
+  "sahipli_bos_hucre": [
+   [
+    "Küngrat",
+    "altinorda",
+    956
+   ],
+   [
+    "Kazalinsk (Kazalı)",
+    "altinorda",
+    139
+   ],
+   [
+    "Emba (Cem)",
+    "altinorda",
+    72
+   ],
+   [
+    "Aral kuzeyi",
+    "altinorda",
+    34
+   ]
+  ],
+  "kafes_ortusme_sonra": 196,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 806,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-1",
+  "gun": "1299-01-01",
+  "katman": [
+   "bizans",
+   "karesi"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 52,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Kirmasti (M.Kemalpaşa)",
+    "bizans",
+    40
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 132,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 132
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-2",
+  "gun": "1299-01-01",
+  "katman": [
+   "hamid",
+   "sahibata",
+   "selcuklu"
+  ],
+  "ortusme_km2": 184,
+  "ortusme_cift": [
+   [
+    "selcuklu",
+    "hamid",
+    184
+   ]
+  ],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 15,
+  "kafes_sil_komsu": 168,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-3",
+  "gun": "1299-01-01",
+  "katman": [
+   "ilhanli",
+   "memluk"
+  ],
+  "ortusme_km2": 227,
+  "ortusme_cift": [
+   [
+    "memluk",
+    "ilhanli",
+    227
+   ]
+  ],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 10,
+  "kafes_sil_komsu": 217,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-4",
+  "gun": "1299-01-01",
+  "katman": [
+   "artuklu",
+   "ilhanli"
+  ],
+  "ortusme_km2": 305,
+  "ortusme_cift": [
+   [
+    "ilhanli",
+    "artuklu",
+    305
+   ]
+  ],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 18,
+  "kafes_sil_komsu": 287,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-5",
+  "gun": "1299-01-01",
+  "katman": [
+   "bizans",
+   "bulgaristan"
+  ],
+  "ortusme_km2": 735,
+  "ortusme_cift": [
+   [
+    "bizans",
+    "bulgaristan",
+    735
+   ]
+  ],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 29,
+  "kafes_sil_komsu": 707,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-6",
+  "gun": "1299-01-01",
+  "katman": [
+   "bulgaristan",
+   "eflak",
+   "sirbistan"
+  ],
+  "ortusme_km2": 882,
+  "ortusme_cift": [
+   [
+    "bulgaristan",
+    "sirbistan",
+    500
+   ],
+   [
+    "bulgaristan",
+    "eflak",
+    335
+   ],
+   [
+    "sirbistan",
+    "eflak",
+    47
+   ]
+  ],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 46,
+  "kafes_sil_komsu": 840,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 4
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-7",
+  "gun": "1299-01-01",
+  "katman": [
+   "bosna"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 1782,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-8",
+  "gun": "1299-01-01",
+  "katman": [
+   "altinorda",
+   "litvanya-buyuk-dukalik"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 5412,
+  "bosluk_sahipli_km2": 5188,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Meciboj (Mejibuji)",
+    "polonya-erken",
+    3154
+   ],
+   [
+    "Bar (Podolya)",
+    "polonya-erken",
+    585
+   ],
+   [
+    "Smolensk",
+    "litvanya-buyuk-dukalik",
+    429
+   ],
+   [
+    "Minsk",
+    "litvanya-buyuk-dukalik",
+    353
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 1344,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-9",
+  "gun": "1299-01-01",
+  "katman": [
+   "isvec-birlik-oncesi",
+   "norvec-kralligi"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 6530,
+  "bosluk_sahipli_km2": 4203,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Östersund (Jämtland)",
+    "norvec-kralligi",
+    2814
+   ],
+   [
+    "Mosjøen",
+    "norvec-kralligi",
+    738
+   ],
+   [
+    "Trondheim",
+    "norvec-kralligi",
+    454
+   ],
+   [
+    "Bodø",
+    "norvec-kralligi",
+    138
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 1686,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 9,
+  "gorsel": "0042/H-0002-10",
+  "gun": "1299-01-01",
+  "katman": [
+   "almanya",
+   "isvec-birlik-oncesi",
+   "norvec-kralligi",
+   "novgorod"
+  ],
+  "ortusme_km2": 14,
+  "ortusme_cift": [
+   [
+    "isvec-birlik-oncesi",
+    "novgorod",
+    14
+   ]
+  ],
+  "gecersiz_halka": 6,
+  "bosluk_hucresiz_km2": 64609,
+  "bosluk_sahipli_km2": 9335,
+  "bosluk_sahipsiz_km2": 212,
+  "sahipli_bos_hucre": [
+   [
+    "Kandalakşa",
+    "novgorod",
+    3379
+   ],
+   [
+    "Alta",
+    "norvec-kralligi",
+    745
+   ],
+   [
+    "Nurmes",
+    "isvec-birlik-oncesi",
+    511
+   ],
+   [
+    "Turku (Åbo)",
+    "isvec-birlik-oncesi",
+    508
+   ]
+  ],
+  "kafes_ortusme_sonra": 14,
+  "kafes_sil_komsu": 21,
+  "kafes_sil_hucresiz": 6274,
+  "kafes_yeni_bosluk": 21
+ },
+ {
+  "motor": 10,
+  "gorsel": "0042/H-0005-1",
+  "gun": "1308-01-01",
+  "katman": [
+   "bizans",
+   "bogdan",
+   "bulgaristan",
+   "eflak",
+   "macaristan",
+   "sirbistan"
+  ],
+  "ortusme_km2": 1598,
+  "ortusme_cift": [
+   [
+    "bizans",
+    "bulgaristan",
+    122
+   ],
+   [
+    "macaristan",
+    "eflak",
+    113
+   ],
+   [
+    "bulgaristan",
+    "sirbistan",
+    681
+   ],
+   [
+    "bulgaristan",
+    "eflak",
+    635
+   ],
+   [
+    "sirbistan",
+    "eflak",
+    47
+   ]
+  ],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 9,
+  "bosluk_sahipli_km2": 249,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Babadağı (Babadag)",
+    "bulgaristan",
+    96
+   ],
+   [
+    "Köstence",
+    "bulgaristan",
+    60
+   ],
+   [
+    "Kili",
+    "bogdan",
+    46
+   ],
+   [
+    "Varna",
+    "bulgaristan",
+    35
+   ]
+  ],
+  "kafes_ortusme_sonra": 89,
+  "kafes_sil_komsu": 1512,
+  "kafes_sil_hucresiz": 212,
+  "kafes_yeni_bosluk": 4
+ },
+ {
+  "motor": 11,
+  "gorsel": "0042/H-0008-1",
+  "gun": "1323-01-01",
+  "katman": [
+   "OSM-o",
+   "bizans",
+   "germiyan"
+  ],
+  "ortusme_km2": 3624,
+  "ortusme_cift": [
+   [
+    "OSM-o",
+    "bizans",
+    3624
+   ]
+  ],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 5,
+  "bosluk_sahipli_km2": 132,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Armutlu",
+    "bizans",
+    101
+   ]
+  ],
+  "kafes_ortusme_sonra": 116,
+  "kafes_sil_komsu": 3512,
+  "kafes_sil_hucresiz": 43,
+  "kafes_yeni_bosluk": 4
+ },
+ {
+  "motor": 12,
+  "gorsel": "0042/H-0009-1",
+  "gun": "1329-06-01",
+  "katman": [
+   "OSM-o",
+   "bizans"
+  ],
+  "ortusme_km2": 70,
+  "ortusme_cift": [
+   [
+    "OSM-o",
+    "bizans",
+    70
+   ]
+  ],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 7,
+  "bosluk_sahipli_km2": 92,
+  "bosluk_sahipsiz_km2": 13,
+  "sahipli_bos_hucre": [
+   [
+    "Beykoz",
+    "bizans",
+    66
+   ],
+   [
+    "Boğaziçi (Rumeli yakası)",
+    "bizans",
+    25
+   ]
+  ],
+  "kafes_ortusme_sonra": 29,
+  "kafes_sil_komsu": 41,
+  "kafes_sil_hucresiz": 43,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 13,
+  "gorsel": "0042/H-0012-1",
+  "gun": "1346-06-01",
+  "katman": [
+   "altinorda",
+   "celayirli",
+   "eretna",
+   "gurcistan",
+   "ilhanli",
+   "iran",
+   "sirvansah",
+   "trabzon-rum"
+  ],
+  "ortusme_km2": 463,
+  "ortusme_cift": [
+   [
+    "celayirli",
+    "gurcistan",
+    300
+   ],
+   [
+    "gurcistan",
+    "altinorda",
+    162
+   ]
+  ],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 549,
+  "bosluk_sahipli_km2": 503,
+  "bosluk_sahipsiz_km2": 930,
+  "sahipli_bos_hucre": [
+   [
+    "Tarki (Tarku)",
+    "iran",
+    74
+   ],
+   [
+    "Tuapse",
+    "altinorda",
+    66
+   ],
+   [
+    "Derbend",
+    "iran",
+    56
+   ],
+   [
+    "Trabzon",
+    "trabzon-rum",
+    51
+   ]
+  ],
+  "kafes_ortusme_sonra": 45,
+  "kafes_sil_komsu": 429,
+  "kafes_sil_hucresiz": 610,
+  "kafes_yeni_bosluk": 11
+ },
+ {
+  "motor": 14,
+  "gorsel": "0042/H-0013-1",
+  "gun": "1346-06-01",
+  "katman": [
+   "celayirli",
+   "gurcistan"
+  ],
+  "ortusme_km2": 307,
+  "ortusme_cift": [
+   [
+    "celayirli",
+    "gurcistan",
+    307
+   ]
+  ],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 0,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 22,
+  "kafes_sil_komsu": 285,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 15,
+  "gorsel": "0042/H-0015-1",
+  "gun": "1352-03-01",
+  "katman": [
+   "OSM-o",
+   "bizans"
+  ],
+  "ortusme_km2": 466,
+  "ortusme_cift": [
+   [
+    "OSM-o",
+    "bizans",
+    466
+   ]
+  ],
+  "gecersiz_halka": 2,
+  "bosluk_hucresiz_km2": 2,
+  "bosluk_sahipli_km2": 34,
+  "bosluk_sahipsiz_km2": 1,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 21,
+  "kafes_sil_komsu": 449,
+  "kafes_sil_hucresiz": 38,
+  "kafes_yeni_bosluk": 4
+ },
+ {
+  "motor": 16,
+  "gorsel": "0042/H-0016-1",
+  "gun": "1352-03-01",
+  "katman": [
+   "bizans",
+   "ceneviz"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 4,
+  "bosluk_sahipli_km2": 189,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "İmroz",
+    "bizans",
+    71
+   ],
+   [
+    "Limni",
+    "bizans",
+    58
+   ],
+   [
+    "Semadirek",
+    "ceneviz",
+    49
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 27,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 17,
+  "gorsel": "0042/H-0039-1",
+  "gun": "1408-06-01",
+  "katman": [
+   "akkoyunlu",
+   "artuklu",
+   "celayirli",
+   "eyyubi-hisnikeyfa",
+   "karakoyunlu",
+   "memluk"
+  ],
+  "ortusme_km2": 817,
+  "ortusme_cift": [
+   [
+    "akkoyunlu",
+    "artuklu",
+    19
+   ],
+   [
+    "celayirli",
+    "artuklu",
+    793
+   ],
+   [
+    "celayirli",
+    "eyyubi-hisnikeyfa",
+    5
+   ]
+  ],
+  "gecersiz_halka": 3,
+  "bosluk_hucresiz_km2": 1153,
+  "bosluk_sahipli_km2": 24,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Van",
+    "karakoyunlu",
+    24
+   ]
+  ],
+  "kafes_ortusme_sonra": 23,
+  "kafes_sil_komsu": 805,
+  "kafes_sil_hucresiz": 48,
+  "kafes_yeni_bosluk": 11
+ },
+ {
+  "motor": 17,
+  "gorsel": "0042/H-0039-2",
+  "gun": "1409-01-01",
+  "katman": [
+   "akkoyunlu",
+   "artuklu",
+   "celayirli",
+   "eyyubi-hisnikeyfa",
+   "karakoyunlu",
+   "memluk"
+  ],
+  "ortusme_km2": 2060,
+  "ortusme_cift": [
+   [
+    "memluk",
+    "artuklu",
+    11
+   ],
+   [
+    "karakoyunlu",
+    "akkoyunlu",
+    19
+   ],
+   [
+    "karakoyunlu",
+    "celayirli",
+    2025
+   ],
+   [
+    "celayirli",
+    "eyyubi-hisnikeyfa",
+    5
+   ]
+  ],
+  "gecersiz_halka": 3,
+  "bosluk_hucresiz_km2": 1776,
+  "bosluk_sahipli_km2": 34,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [
+   [
+    "Van",
+    "karakoyunlu",
+    34
+   ]
+  ],
+  "kafes_ortusme_sonra": 1349,
+  "kafes_sil_komsu": 722,
+  "kafes_sil_hucresiz": 57,
+  "kafes_yeni_bosluk": 12
+ },
+ {
+  "motor": 17,
+  "gorsel": "0042/H-0039-3",
+  "gun": "1409-01-01",
+  "katman": [
+   "celayirli",
+   "eyyubi-hisnikeyfa",
+   "karakoyunlu"
+  ],
+  "ortusme_km2": 2011,
+  "ortusme_cift": [
+   [
+    "karakoyunlu",
+    "celayirli",
+    2006
+   ],
+   [
+    "celayirli",
+    "eyyubi-hisnikeyfa",
+    5
+   ]
+  ],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 100,
+  "bosluk_sahipli_km2": 1,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 1330,
+  "kafes_sil_komsu": 680,
+  "kafes_sil_hucresiz": 11,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 18,
+  "gorsel": "0043/H-0017-1",
+  "gun": "1517-09-10",
+  "katman": [
+   "OSM-o",
+   "funj"
+  ],
+  "ortusme_km2": 9,
+  "ortusme_cift": [
+   [
+    "OSM-o",
+    "funj",
+    9
+   ]
+  ],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 44174,
+  "bosluk_sahipli_km2": 3,
+  "bosluk_sahipsiz_km2": 233573,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 2,
+  "kafes_sil_komsu": 7,
+  "kafes_sil_hucresiz": 4314,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 18,
+  "gorsel": "0043/H-0017-2",
+  "gun": "1517-09-10",
+  "katman": [
+   "OSM-o",
+   "ispanya",
+   "kanem-bornu"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 146,
+  "bosluk_sahipli_km2": 596,
+  "bosluk_sahipsiz_km2": 18231,
+  "sahipli_bos_hucre": [
+   [
+    "Câlû",
+    "kanem-bornu",
+    596
+   ]
+  ],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 416,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 18,
+  "gorsel": "0043/H-0017-3",
+  "gun": "1517-09-10",
+  "katman": [
+   "OSM-o"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 65,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 2171,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 1,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 19,
+  "gorsel": "0044/H-0011-1",
+  "gun": "1546-01-01",
+  "katman": [
+   "OSM-o",
+   "safevi"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 1061,
+  "bosluk_sahipli_km2": 1,
+  "bosluk_sahipsiz_km2": 1,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 19,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 19,
+  "gorsel": "0044/H-0011-2",
+  "gun": "1546-01-01",
+  "katman": [
+   "OSM-o"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 0,
+  "bosluk_hucresiz_km2": 925,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 0,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 0,
+  "kafes_yeni_bosluk": 0
+ },
+ {
+  "motor": 20,
+  "gorsel": "0048/H-0009-1",
+  "gun": "1602-01-01",
+  "katman": [
+   "OSM-v",
+   "safevi"
+  ],
+  "ortusme_km2": 0,
+  "ortusme_cift": [],
+  "gecersiz_halka": 1,
+  "bosluk_hucresiz_km2": 16766,
+  "bosluk_sahipli_km2": 0,
+  "bosluk_sahipsiz_km2": 7063,
+  "sahipli_bos_hucre": [],
+  "kafes_ortusme_sonra": 0,
+  "kafes_sil_komsu": 0,
+  "kafes_sil_hucresiz": 151,
+  "kafes_yeni_bosluk": 0
+ }
+]

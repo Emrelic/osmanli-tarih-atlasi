@@ -1,0 +1,205 @@
+{
+ "a": [
+  {
+   "hucre": "İmroz",
+   "boyanmayan_km2": 71,
+   "cevre_km": 84,
+   "ort_genislik_km": 0.84,
+   "kiyiya_4km_pay_%": 100
+  },
+  {
+   "hucre": "Limni",
+   "boyanmayan_km2": 62,
+   "cevre_km": 182,
+   "ort_genislik_km": 0.34,
+   "kiyiya_4km_pay_%": 100
+  },
+  {
+   "hucre": "Armutlu",
+   "boyanmayan_km2": 100,
+   "cevre_km": 83,
+   "ort_genislik_km": 1.22,
+   "kiyiya_4km_pay_%": 90
+  },
+  {
+   "hucre": "Beykoz",
+   "boyanmayan_km2": 66,
+   "cevre_km": 73,
+   "ort_genislik_km": 0.9,
+   "kiyiya_4km_pay_%": 100
+  },
+  {
+   "hucre": "Buraymî",
+   "boyanmayan_km2": 7763,
+   "cevre_km": 759,
+   "ort_genislik_km": 10.22,
+   "kiyiya_4km_pay_%": 0
+  },
+  {
+   "hucre": "Östersund (Jämtland)",
+   "boyanmayan_km2": 3069,
+   "cevre_km": 2428,
+   "ort_genislik_km": 1.26,
+   "kiyiya_4km_pay_%": 0
+  },
+  {
+   "hucre": "Viyana",
+   "boyanmayan_km2": 857,
+   "cevre_km": 661,
+   "ort_genislik_km": 1.3,
+   "kiyiya_4km_pay_%": 0
+  },
+  {
+   "hucre": "Küngrat",
+   "boyanmayan_km2": 1666,
+   "cevre_km": 1030,
+   "ort_genislik_km": 1.62,
+   "kiyiya_4km_pay_%": 0
+  },
+  {
+   "hucre": "Alta",
+   "boyanmayan_km2": 1221,
+   "cevre_km": 3527,
+   "ort_genislik_km": 0.35,
+   "kiyiya_4km_pay_%": 50
+  }
+ ],
+ "b": [
+  {
+   "km2": 9,
+   "nokta": [
+    23.89,
+    59.96
+   ],
+   "alt_hucre": [
+    "Tallinn (Reval)"
+   ],
+   "alt_sahip_1281": "almanya",
+   "alt_kur": null,
+   "alt_ilk_s": {
+    "f": "1281-01-01",
+    "t": "1561-11-28",
+    "d": "almanya"
+   }
+  },
+  {
+   "km2": 12,
+   "nokta": [
+    26.98,
+    60.06
+   ],
+   "alt_hucre": [
+    "Narva"
+   ],
+   "alt_sahip_1281": "almanya",
+   "alt_kur": null,
+   "alt_ilk_s": {
+    "f": "1281-01-01",
+    "t": "1561-11-28",
+    "d": "almanya"
+   }
+  },
+  {
+   "km2": 6,
+   "nokta": [
+    25.84,
+    60.21
+   ],
+   "alt_hucre": [
+    "Helsinki"
+   ],
+   "alt_sahip_1281": null,
+   "alt_kur": "1550-06-12",
+   "alt_ilk_s": {
+    "f": "1550-06-12",
+    "t": "1809-09-17",
+    "d": "isvec"
+   }
+  },
+  {
+   "km2": 1727,
+   "nokta": [
+    24.79,
+    60.21
+   ],
+   "alt_hucre": [
+    "Helsinki"
+   ],
+   "alt_sahip_1281": null,
+   "alt_kur": "1550-06-12",
+   "alt_ilk_s": {
+    "f": "1550-06-12",
+    "t": "1809-09-17",
+    "d": "isvec"
+   }
+  },
+  {
+   "km2": 30,
+   "nokta": [
+    25.63,
+    60.25
+   ],
+   "alt_hucre": [
+    "Helsinki"
+   ],
+   "alt_sahip_1281": null,
+   "alt_kur": "1550-06-12",
+   "alt_ilk_s": {
+    "f": "1550-06-12",
+    "t": "1809-09-17",
+    "d": "isvec"
+   }
+  },
+  {
+   "km2": 7,
+   "nokta": [
+    26.2,
+    60.33
+   ],
+   "alt_hucre": [
+    "Helsinki"
+   ],
+   "alt_sahip_1281": null,
+   "alt_kur": "1550-06-12",
+   "alt_ilk_s": {
+    "f": "1550-06-12",
+    "t": "1809-09-17",
+    "d": "isvec"
+   }
+  },
+  {
+   "km2": 35,
+   "nokta": [
+    26.08,
+    60.44
+   ],
+   "alt_hucre": [
+    "Helsinki"
+   ],
+   "alt_sahip_1281": null,
+   "alt_kur": "1550-06-12",
+   "alt_ilk_s": {
+    "f": "1550-06-12",
+    "t": "1809-09-17",
+    "d": "isvec"
+   }
+  }
+ ],
+ "c": {
+  "dulkadir": {
+   "dnm": [
+    "1360-01-01",
+    "1515-06-13"
+   ],
+   "km2_kutuda": 3550,
+   "uzun_kenar": [
+    0,
+    87
+   ],
+   "alt_hucre": [
+    "Elbistan:dulkadir",
+    "Zamantı (Pınarbaşı):dulkadir"
+   ]
+  }
+ }
+}

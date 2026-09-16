@@ -1,0 +1,433 @@
+[
+ {
+  "hucre": "Buraymî",
+  "gun": "1820-01-08",
+  "sahip": "umman",
+  "hucre_km2": 32820,
+  "govde_donemi": [
+   "1820-01-08",
+   "1923-10-29"
+  ],
+  "govde_boyar_%": 76.3,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 2,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1515-04-01",
+    "t": "1923-10-29",
+    "d": "umman"
+   }
+  ],
+  "kunye": {
+   "id": "umman",
+   "f": "1624-01-01",
+   "t": "1923-10-29",
+   "harita": "umman"
+  }
+ },
+ {
+  "hucre": "Östersund (Jämtland)",
+  "gun": "1299-01-01",
+  "sahip": "norvec-kralligi",
+  "hucre_km2": 42026,
+  "govde_donemi": [
+   "1281-01-01",
+   "1472-02-20"
+  ],
+  "govde_boyar_%": 92.7,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 3,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler_ek7.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "d": "norvec-kralligi"
+   }
+  ],
+  "kunye": {
+   "id": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "harita": null
+  }
+ },
+ {
+  "hucre": "Meciboj (Mejibuji)",
+  "gun": "1299-01-01",
+  "sahip": "polonya-erken",
+  "hucre_km2": 19068,
+  "govde_donemi": "DEVLET_HARITA'da HİÇ YOK",
+  "govde_boyar_%": null,
+  "nokta_boyali": false,
+  "kayit": {
+   "k": 3,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "kale",
+   "_kaynak": "yerlesimler.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1569-07-01",
+    "d": "polonya-erken"
+   }
+  ],
+  "kunye": {
+   "id": "polonya-erken",
+   "f": "1320-01-20",
+   "t": "1569-07-01",
+   "harita": null
+  }
+ },
+ {
+  "hucre": "Viyana",
+  "gun": "1281-01-01",
+  "sahip": "avusturya",
+  "hucre_km2": 24166,
+  "govde_donemi": [
+   "1281-01-01",
+   "1335-05-02"
+  ],
+  "govde_boyar_%": 96.5,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 1,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1918-11-11",
+    "d": "avusturya"
+   }
+  ],
+  "kunye": {
+   "id": "habsburg",
+   "f": "1526-08-29",
+   "t": "1918-11-11",
+   "harita": "avusturya"
+  }
+ },
+ {
+  "hucre": "Šiauliai",
+  "gun": "1281-01-01",
+  "sahip": "litvanya-buyuk-dukalik",
+  "hucre_km2": 23065,
+  "govde_donemi": [
+   "1281-01-01",
+   "1356-01-01"
+  ],
+  "govde_boyar_%": 94.8,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 3,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler_ek7.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1569-07-01",
+    "d": "litvanya-buyuk-dukalik"
+   }
+  ],
+  "kunye": {
+   "id": "litvanya-buyuk-dukalik",
+   "f": "1253-07-06",
+   "t": "1569-07-01",
+   "harita": null
+  }
+ },
+ {
+  "hucre": "Šiauliai",
+  "gun": "1721-08-30",
+  "sahip": "lehistan",
+  "hucre_km2": 23065,
+  "govde_donemi": [
+   "1699-01-26",
+   "1772-08-05"
+  ],
+  "govde_boyar_%": 94.8,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 3,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler_ek7.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1569-07-01",
+    "t": "1795-10-24",
+    "d": "lehistan"
+   }
+  ],
+  "kunye": {
+   "id": "lehistan",
+   "f": "1569-07-01",
+   "t": "1795-10-24",
+   "harita": "lehistan"
+  }
+ },
+ {
+  "hucre": "Alta",
+  "gun": "1281-01-01",
+  "sahip": "norvec-kralligi",
+  "hucre_km2": 34153,
+  "govde_donemi": [
+   "1281-01-01",
+   "1472-02-20"
+  ],
+  "govde_boyar_%": 96.4,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 3,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler_ek8.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "d": "norvec-kralligi"
+   }
+  ],
+  "kunye": {
+   "id": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "harita": null
+  }
+ },
+ {
+  "hucre": "Küngrat",
+  "gun": "1281-01-01",
+  "sahip": "altinorda",
+  "hucre_km2": 28796,
+  "govde_donemi": [
+   "1281-01-01",
+   "1325-01-01"
+  ],
+  "govde_boyar_%": 94.2,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 3,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1379-01-01",
+    "d": "altinorda"
+   }
+  ],
+  "kunye": {
+   "id": "altinorda",
+   "f": "1242-01-01",
+   "t": "1502-01-01",
+   "harita": "altinorda"
+  }
+ },
+ {
+  "hucre": "Câlû",
+  "gun": "1517-09-10",
+  "sahip": "kanem-bornu",
+  "hucre_km2": 47495,
+  "govde_donemi": [
+   "1465-01-01",
+   "1577-01-01"
+  ],
+  "govde_boyar_%": 98.7,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 4,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "bolge",
+   "_kaynak": "yerlesimler_afrika.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1577-01-01",
+    "d": "kanem-bornu"
+   }
+  ],
+  "kunye": {
+   "id": "kanem-bornu",
+   "f": "800-01-01",
+   "t": "1905-01-01",
+   "harita": null
+  }
+ },
+ {
+  "hucre": "Berat",
+  "gun": "1281-01-01",
+  "sahip": "__BOSLUK__",
+  "hucre_km2": 3471,
+  "govde_donemi": "DEVLET_HARITA'da HİÇ YOK",
+  "govde_boyar_%": null,
+  "nokta_boyali": false,
+  "kayit": {
+   "k": 4,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1417-01-01",
+    "d": "__BOSLUK__"
+   }
+  ],
+  "kunye": "KÜNYE YOK"
+ },
+ {
+  "hucre": "Armutlu",
+  "gun": "1323-01-01",
+  "sahip": "bizans",
+  "hucre_km2": 249,
+  "govde_donemi": [
+   "1323-01-01",
+   "1323-09-01"
+  ],
+  "govde_boyar_%": 59.7,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 4,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "kale",
+   "_kaynak": "yerlesimler.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1324-03-01",
+    "d": "bizans"
+   }
+  ],
+  "kunye": {
+   "id": "bizans",
+   "f": "330-05-11",
+   "t": "1461-08-15",
+   "harita": "bizans"
+  }
+ },
+ {
+  "hucre": "Beykoz",
+  "gun": "1329-06-01",
+  "sahip": "bizans",
+  "hucre_km2": 262,
+  "govde_donemi": [
+   "1329-06-01",
+   "1330-06-01"
+  ],
+  "govde_boyar_%": 75.0,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 4,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "sehir",
+   "_kaynak": "yerlesimler_ek23.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1395-08-01",
+    "d": "bizans"
+   }
+  ],
+  "kunye": {
+   "id": "bizans",
+   "f": "330-05-11",
+   "t": "1461-08-15",
+   "harita": "bizans"
+  }
+ },
+ {
+  "hucre": "İmroz",
+  "gun": "1352-03-01",
+  "sahip": "bizans",
+  "hucre_km2": 290,
+  "govde_donemi": [
+   "1352-03-01",
+   "1354-03-02"
+  ],
+  "govde_boyar_%": 75.5,
+  "nokta_boyali": true,
+  "kayit": {
+   "k": 4,
+   "kur": null,
+   "bit": null,
+   "bos": null,
+   "kasitli_bosluk": null,
+   "tur": "kale",
+   "_kaynak": "yerlesimler.js"
+  },
+  "s_donemi": [
+   {
+    "f": "1281-01-01",
+    "t": "1455-01-01",
+    "d": "bizans"
+   }
+  ],
+  "kunye": {
+   "id": "bizans",
+   "f": "330-05-11",
+   "t": "1461-08-15",
+   "harita": "bizans"
+  }
+ }
+]

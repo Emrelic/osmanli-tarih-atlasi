@@ -197,3 +197,105 @@ H-0109  ② B2 kanadı (yarı genişlik ≤333 km) · ④ hücresiz şerit      
 H-0110  ⑦ Hong Kong payı Makao'ya · ⑤                                                 → MOTOR + KARAR
 H-0124  ⑥ = H-0012 (1679'da Gürcistan) · uç boşluğu ÖLÇÜLMEDİ                        → MOTOR · HARITA-VERI (yalnız araştırma)
 ```
+
+---
+
+# İKİNCİ TUR — KUTU-AYIKLA MOTOR 1–20 (DALGA-0052 §2c)
+
+```
+GİRDİ   : denetim/KUTU-AYIKLA-0916.md §④ MOTOR 1–20 · görseller kutu/giden/parti-emrelic-00{21..48}
+TASARIM : oturumlar/GORUNUM-ABCD-0916.md (Emre, 16 Eyl — A sürtünmeli yürüyüş · B ayrı dolgu
+          katmanı · enklav kuralı: B başkasının A toprağını ÖRTMEZ)
+ÖLÇÜM   : 20 maddenin 38 görselinin alt yazısı okundu (gün+kutu) → 43 kutu, BUGÜNKÜ yayında
+          (koşu 11) yeniden kuruldu. Görseller ESKİ koşulardan ⇒ ilk soru "bugün hâlâ var mı" (D044).
+ALETLER : ARAC-GEO-TUR2 · ARAC-GEO-BOYANMAYAN · ARAC-GEO-KIYI (-0916) → OLCUM-GEO-{TUR2,BOYANMAYAN,KIYI}-0916.json
+```
+
+## Ⓐ 43 kutunun toplamı
+
+```
+örtüşme                18.665 km²   (Mardin 1409 hariç 13.777)
+KAFES sonrası           3.481 km²   (Mardin hariç 779 → −%94)   silinen komşu 15.413 · hücresiz 21.071
+KAFES yeni boşluk         231 km²
+geçersiz ham halka      29 kutuda ≥1 (toplam 53)
+boşluk  hücresiz 291.899 · sahipsiz hücre 268.175 · SAHİPLİ ama boyanmayan 42.740 km²
+```
+⚠️ Kafes için bu turda ÖNCEDEN öngörü yazılmadı (reçete birinci turdan taşındı) — sayı bir
+DOĞRULAMA değil, birinci turun sonucunun ikinci örneklemde TEKRARI.
+Mardin'de kalan 2.702 km²: sahipsiz hücreyi Celayirli (dönem 1406-10-21'de kurulmuş) ve Karakoyunlu
+(1409-01-01) İKİSİ de dolguyla boyuyor ⇒ birinci turun ⑤ BAYATLIK sınıfı.
+
+## Ⓑ İkinci turun yeni ölçümleri
+
+```
+① KIYI ŞERİDİ (öngörü önceden: genişlik ≤3,3 km · kıyıya yakın ≥%70)       🟢 TUTTU 4/4
+   İmroz 71 km² (%24) 0,84 km · Limni 62 · 0,34 km · Armutlu 100 (%40) 1,22 km · Beykoz 66 · 0,90 km
+   hepsinin %90-100'ü kıyıya 4 km'den yakın ⇒ SEYRELT_TOL 0,03° Douglas-Peucker'ı kıyıyı kemiriyor;
+   küçük adada payı büyük (H-0016 "Ege adalarına birebir oturt")
+   iç sınırda da var: Viyana 1,30 km · Östersund 1,26 · Küngrat 1,62 (kıyı payı %0)
+② DENİZ AŞIRI DEVİR (0040/H-0002 Tallinn)                                  🔴 KUSUR BUGÜN VAR
+   1281'de `almanya` gövdesi Fin kıyısında HELSİNKİ hücresinin (kur 1550) 1.727 km²'sini boyuyor
+   ⇒ paylaştırma ③ (yerel Voronoi) Finlandiya Körfezi'ni yok sayıyor
+③ `polonya-erken` RENKSİZ — bilinen kalem (M-3832), hâlâ açık, YAYINDA ölçüldü
+   9 yerleşim (Krakov · Lvov · Poznan · Lublin · Kamaniçe · Bar · Meciboj · Yazlofça · Chełm)
+   s: 1281→1569 · DEVLET_HARITA'da gövde YOK ⇒ Polonya çekirdeği 288 yıl boyanmıyor (M-4038)
+④ 1392 Maraş (0030/H-0018): bugün kutuda örtüşme/boşluk 0; `dulkadir` TEK dönem 1360→1515 (155 yıl)
+   ⇒ görseldeki üçgen bugün ölçülmüyor; dönem bayatlık sınıfına açık
+⑤ Buraymî 1820 (0035/H-0101): hücrenin %24'ü (7.763 km²) boyanmıyor, şerit 10 km, kıyıya yakınlık %0
+   ⇒ ne seyrelt ne kafes sınıfı; mekanizma ÖLÇÜLEMEDİ
+```
+
+## Ⓒ Madde madde — A/B ile çözülür mü?
+
+"A çözer" = GORUNUM-ABCD'deki tek sahiplik (çok kaynaklı Dijkstra, eşit-bedel sınırı, deniz
+geçilmez, nehir bedeli) **doğru kurulursa** kusur yapısal olarak doğamaz. "B çözer" = enklav
+kuralıyla maskeli dolgu. Şartlar Ⓓ'de.
+
+| # | madde | bugün (koşu 11) | sınıf | A/B? |
+|---|---|---|---|---|
+| 1 | 0021/H-0030 | — | sefer oku · ateş işareti (kısmen indi) | ❌ MOTOR DEĞİL → UI/HARITA-VERI (yanlış grup) |
+| 2 | 0030/H-0018 | kusur ölçülmedi | dulkadir tek dönem 1360-1515 | ✅ A (tazelik şartıyla) |
+| 3 | 0035/H-0072 | örtüşme 0 · geçersiz 3 | uzun düz Voronoi kenarı | ✅ A |
+| 4 | 0035/H-0101 | Buraymî %24 boş | ölçülemedi (Ⓑ⑤) | 🟡 A büyük ihtimalle — sınanamaz |
+| 5 | 0040/H-0001 ×9 | örtüşme 4.697 → kafes 127 | süs taşması + seyrelt | ✅ A+B (maske) |
+| 6 | 0040/H-0002 | Helsinki 1.727 km² almanya | deniz aşırı devir | ✅ A (deniz geçilmez) |
+| 7 | 0040/H-0003 ×3 | hücresiz 43.624 | 200 km tavanı | ✅ B (boşluk paylaştırma) · A'da tasarım gereği boş |
+| 8 | 0040/H-0007 | Aral hücresiz 82.581 | noktasızlık + tavan | 🟡 A kısmen (gölü dolaşır) — kıyıya ulaşmak için NOKTA gerek → HARITA-VERI |
+| 9 | 0042/H-0002 ×10 | örtüşme 2.347 → 132 · sahipsiz 1.782 | süs taşması · tavan | ✅ A+B |
+| 10 | 0042/H-0005 | örtüşme 1.598 → 89 | Tuna düz mesafe | ✅ A (nehir bedeli) |
+| 11 | 0042/H-0008 | OSM×Bizans 3.624 → 116 | süs taşması | ✅ A+B |
+| 12 | 0042/H-0009 | OSM×Bizans 70 → 29 | Boğaz'ı aşma | ✅ A (deniz geçilmez) |
+| 13 | 0042/H-0012 | örtüşme 463 → 45 | Kafkas düz mesafe | ✅ A (eğim) — birinci tur ⑥ ile aynı |
+| 14 | 0042/H-0013 | Celayirli×Gürcü 307 → 22 | süs taşması | ✅ A+B |
+| 15 | 0042/H-0015 | OSM×Bizans 466 → 21 | Saros'u aşma | ✅ A (deniz geçilmez) |
+| 16 | 0042/H-0016 | İmroz %24 · Limni boş | SEYRELT kıyı şeridi (Ⓑ①) | ❌ A/B ÇÖZMEZ → MOTOR R5 |
+| 17 | 0042/H-0039 ×3 | örtüşme 4.888 → 2.702 · geçersiz 7 | bayat dolgu + geçersiz halka | 🟡 A+B YALNIZ tazelik şartıyla · halka onarımı MOTOR R7 |
+| 18 | 0043/H-0017 ×3 | örtüşme 9 · sahipsiz 253.975 | çöl (tasarım) + serbest kenar ÇİZİMİ | 🟡 A'da da boş · "ışınsal" görüntü js/app.js serbest kenarı (UI) |
+| 19 | 0044/H-0011 ×2 | örtüşme 0 · hücresiz 1.986 | delta kıyısı + serbest kenar | 🟡 = 18 |
+| 20 | 0048/H-0009 | Doha hücresi 7.063 boş (1602) | kasitli_bosluk dolguya açık | ❌ B'nin "boş arazi" tanımı bunu açıkça dışlamalı → MOTOR R6 |
+
+```
+✅ A/B ile çözülür (şartlı)  13 : 2 3 5 6 7 9 10 11 12 13 14 15 + (17 tazelikle)
+🟡 kısmen / sınanamaz         4 : 4 8 18 19
+❌ A/B çözmez                  3 : 1 (motor değil) · 16 (seyrelt) · 20 (kasıtlı boşluk kuralı)
+```
+
+## Ⓓ MOTOR'a TEK TOPLU ÖNERİ — A/B'nin sağlaması gereken 8 şart
+
+```
+R1 TEK SAHİPLİK: devlet gövdeleri tek bir tarih-başı sahiplik ızgarasından TÜRETİLSİN; devlet
+   başına bağımsız gövde kurulmasın. Bugünkü örtüşmelerin tamamı bağımsız kurulumdan.
+R2 B MASKESİ = enklav kuralı: B dolgusu, o gün BAŞKA sahibi olan A toprağına ve 5 gün
+   bütçesinin dışındaki alana taşmaz. Sınandı (KAFES): 1. tur −%92, 2. tur −%94 (Mardin hariç).
+R3 TAZELİK: epok GLOBAL olsun (her kur/bit ve her sahiplik/dolgu değişimi), devletin kendi
+   ts'i değil. Vakalar: san 1281→1923 · dulkadir 1360→1515 · Mardin 1406/1409 çift dolgu.
+R4 DENİZ GEÇİLMEZ devir payında da geçerli (Tallinn→Helsinki 1.727 km²). Paylaştırma ③
+   kalkıp A'ya bağlanırsa kendiliğinden biter.
+R5 VEKTÖRLEŞTİRME: SEYRELT_TOL 0,03° kıyıda 0,3–1,2 km şerit yiyor (İmroz %24, Armutlu %40).
+   Küçük ada/kıyı hücrelerinde toleransı düşür ya da kıyı köşelerini dondur.
+R6 kasitli_bosluk DOLGUYA KAPALI (_dordurcu şartı bayrağa bakmıyor — Katar, Vladikavkaz; M-4018).
+R7 GEÇERSİZ HALKA: 43 kutunun 29'unda çıktıda is_valid=False ham halka (toplam 53).
+   Yazmadan önce make_valid + sayaç.
+R8 B2 kanat tavanı 3° (≤333 km yarı genişlik) — B'de köprü yeniden yazılırken küçült.
+```
+
