@@ -404,6 +404,37 @@ window.EKOKUMA_VEZIR = [
   not:"Mısır'ın 1811 Kal'a Vak'ası'nda (Kavalalı Mehmed Ali'nin kölemen beylerini toplu katliamla tasfiyesi) ile Bağdat'ın 1831'deki sonu arasındaki fark da öğretici: Mısır'da kölemenler bir yabancı güce (Mehmed Ali) karşı direnip yok edildi, Bağdat'ta ise 'isyan eden vali' gerekçesiyle bizzat merkezî devlet tarafından tasfiye edildiler — ikisi de kölemen döneminin sonu ama farklı bir siyasi mantıkla.",
   kesinlik:"kesin",
   olay:["1704-01-01"],
-  kaynak:"TDV: bagdat · Britannica: \"Hasan Pasha\" (Gürcü/Çerkes kökeni, Tiflis köle pazarı — TDV bu ayrıntıyı vermiyor, akademik ansiklopediden tamamlandı, CLAUDE.md §4 taneciklik kuralı)" }
+  kaynak:"TDV: bagdat · Britannica: \"Hasan Pasha\" (Gürcü/Çerkes kökeni, Tiflis köle pazarı — TDV bu ayrıntıyı vermiyor, akademik ansiklopediden tamamlandı, CLAUDE.md §4 taneciklik kuralı)" },
+
+// ============================================================================
+// DALGA-0056 EKİ (16 Eylül 2026 gece, ACİL — 0055'ten önce sevk edildi) —
+// maddeler 2a · 2c (H-0002'nin 1. ve 3. paragrafı; 2. paragraf — Katerina-
+// Baltacı rivayeti — EKO-PADISAH'a ait, burada işlenmedi)
+// Yazmadan önce kontrol: "Baltacı"/"Prut" ekokuma_savas.js'te ZATEN var — ama
+// o kart (tur:"savas-hikayesi") OLAYI anlatır, TARTIŞMAYI değil. Mükerrer
+// değil; iki kart o kartın anlattığı olguları TEKRARLAMADAN, ona atıfla,
+// tartışma/analiz katmanı ekliyor.
+// ============================================================================
+
+// ── 32 · Baltacı Rus ordusunu neden imha etmedi? İki görüş (H-0002, 2a) ────
+{ id:"tartisma-baltaci-prut-firsat-mi-kacirdi", tur:"tartisma",
+  ad:"Baltacı fırsatı mı kaçırdı, yoksa doğru olanı mı yaptı? Prut'un iki yüzyıllık tartışması",
+  kisa:"Çağdaş vak'anüvisler onu 'eli kolu bağlı düşmanı kaçırmak'la suçladı; kendisi ise Valide Sultan'a yazdığı mektuplarda ordunun imhasındansa siyasi kazanım almanın daha akıllıca olduğunu savundu. İkisi de tek başına bütün hikâyeyi anlatmıyor.",
+  metin:"19-21 Temmuz 1711'de Prut kıyısında Çar I. Petro'nun ordusu gerçekten çaresizdi — bu atlasın kendi savaş-hikâyesi kartının (ekokuma_savas.js) anlattığı gibi, kuşatma altındaki Rus ordugâhında beyaz bayraklar açılmış, Kırım Hanı'nın ve İsveç kralının temsilcisi Poniatowski'nin 'Ruslar birkaç gün içinde savaşmadan teslim olacak' uyarıları dinlenmemiş, buna rağmen Baltacı yirmi dört saat içinde bir ateşkesi kabul etmişti. GÖRÜŞ BİR — ÇAĞDAŞ ELEŞTİRİ: Dönemin resmî vak'anüvisleri Silahdâr Tarihi ve Râşid Tarihi, Baltacı'nın bu kararsızlığını sert biçimde eleştirir; düşmanı ele geçirilebilir durumdayken kaçırmakla, yeterince saldırgan davranmamakla suçlarlar — kesin bir zafer fırsatının böyle elden kaçırıldığını ima ederler (Karaçay Türkal 2022). Halk hafızasında bu eleştiri, zamanla Çariçe Katerina'nın mücevherlerle Baltacı'yı satın aldığı efsanesine dönüştü — ama bu rivayetin kaynaklarda aslı olup olmadığı AYRI bir ek okuma konusudur, burada tekrarlanmadı. GÖRÜŞ İKİ — BALTACI'NIN KENDİ SAVUNMASI VE ASKERÎ GERÇEKLİK: Aynı akademik araştırmanın okuduğu mektuplarda Baltacı, Valide Gülnuş Sultan'a yazarak kararının hesaplı olduğunu savunur: ordunun sağlığını korumanın ve ani kayıplardan kaçınmanın önemini vurgular, dışarıdan (Avrupalı güçlerden) bir müdahale riskinden çekindiğini ve siyasi kazanımların bir imha savaşından daha akla yatkın olduğunu ileri sürer. Kaynaklar bu savunmayı 'büyük ölçüde zayıf ve kendini haklı çıkarmaya yönelik' bulur — ama askerî gerçekler de savunmasız değildi: Osmanlı ordusu da erzak sıkıntısı çekiyordu, sefer mevsimi ilerlemişti ve bir Çar'ı esir almak (ki bu bile garanti değildi — Petro esir düşerse kendisinin hükümdar sayılmamasını isteyen bir emirnâme hazırlamıştı) Avrupa'da beklenmedik bir diplomatik krize yol açabilirdi.",
+  bag:"Modern araştırmanın (Karaçay Türkal 2022) asıl bulgusu şu: Baltacı'nın azli, 'kaçırılan askerî zafer' meselesinden çok, İstanbul'daki SARAY İÇİ GÜÇ DENGESİ değişikliklerine bağlanabilir — Valide Sultan'ın artan nüfuzu ve rakip devlet adamları arasındaki çekişme onun itibarını zedeledi. Yani çağdaş kroniklerin 'savaş meydanında fırsat kaçırdı' eleştirisiyle, onu gerçekte görevden götüren 'saray entrikası' AYRI iki mekanizmadır — ikisi sık sık aynı hikâye sanılır.",
+  not:"Bu kart bir hüküm vermez: iki görüş de kaynaklı olarak yan yana konmuştur. Osmanlı'nın bu barıştan net bir kazanç sağlayıp sağlayamadığı sorusu ayrı bir kartta (`tartisma-prut-net-kazanc-neden-saglanamadi`) ele alınmıştır.",
+  kesinlik:"tartismali",
+  olay:["1711-07-21|Prut Antlaşması — Azak"],
+  kaynak:"Merve Karaçay Türkal, \"Baltacı Mehmed Paşa'nın Azil Süreci ve Valide Gülnuş Sultan'a Gönderdiği Mektuplar\", Selçuk Üniversitesi Selçuklu Araştırmaları Dergisi (hakemli dergi, dergipark.org.tr/tr/pub/usad) · TDV: baltaci-mehmed-pasa" },
+
+// ── 33 · Prut'ta Osmanlı neden net bir kazanç sağlayamadı? (H-0002, 2c) ────
+{ id:"tartisma-prut-net-kazanc-neden-saglanamadi", tur:"tartisma",
+  ad:"Kağıt üstünde zafer, sahada iki yıllık hayal kırıklığı: Prut'un kazancı neden gecikti?",
+  kisa:"Amannâme'nin maddeleri elverişliydi — Azak geri, kaleler yıkık, İsveç kralı serbest. Ama kâğıttaki zafer sahaya hiç inmedi, çünkü kazanan tarafın elinde kazancı zorlayacak hiçbir kaldıraç kalmamıştı.",
+  metin:"Bu atlasın kendi kaydına göre (ekokuma_savas.js, savas-hikayesi kartı) Prut Amannâmesi'nin şartları kâğıt üzerinde gerçekten Osmanlı lehineydi: Azak arazisi ve mühimmatıyla geri verilecek, Taygan-Kamenka-Yenikale yıkılacak, Rusya Lehistan'a ve Kazaklara karışmayacak, İsveç Kralı Demirbaş Şarl'ın ülkesine dönüşüne engel olunmayacaktı. Ama TAM İKİ YIL boyunca bu hükümlerin HİÇBİRİ hayata geçmedi — Rusya ancak yeni savaş ilanlarının ve tehditlerin ardından 24 Haziran 1713'te Edirne Antlaşması'yla taahhütlerini kabul etti (bu atlasın kendi kaydı, olaylar_ek5.js). Bunun yapısal sebepleri: BİRİNCİSİ, Osmanlı'nın elindeki tek gerçek kaldıraç Çar'ın ordusuydu ve o ordu — ele geçirilebilir durumdayken — top ve tüfekleriyle, bayrakları açık, davul zurna eşliğinde serbest bırakıldı; Rusya'nın barış şartlarına uyması için askerî bir zorlama aracı kalmamıştı. İKİNCİSİ, anlaşmayı imzalayan ve uygulamasını takip etmesi gereken Baltacı Mehmed Paşa, dönüşünden kısa süre sonra (20 Kasım 1711) azledilip sürgüne gönderildi — icra sürekliliği koptu, yerine gelen yönetim aynı dosyaya aynı ağırlıkla sahip çıkmadı. ÜÇÜNCÜSÜ, Çar'ın kendisi hiçbir zaman esir ya da rehin olmadığı için (Petro esir düşerse tahttan sayılmayacağına dair önceden bir emirnâme bile hazırlamıştı) antlaşmayı çiğnemenin kendisine doğrudan bir bedeli yoktu — yalnız yeniden savaş tehdidiyle karşılaşırdı, ki bu da nitekim 1712 ve 1713'te iki kez gerçekleşti. DÖRDÜNCÜSÜ, akademik araştırmanın (Karaçay Türkal 2022) vurguladığı gibi İstanbul'daki siyasi çekişme (Valide Sultan'ın nüfuzu, sadrazam değişiklikleri) hükümetin dış politikada tutarlı bir baskı sürdürmesini de zorlaştırdı.",
+  not:"Sonuç itibariyle Osmanlı 1713'te istediğini aldı — ama savaş meydanındaki üstünlüğünü doğrudan diplomatik kazanca çeviremedi, iki yıllık bir zorlama sürecinden geçmek zorunda kaldı. Bu, 'net kazanç sağlanamaması' değil 'kazancın gecikmesi'dir; nihai sonuç Osmanlı lehine kapandı.",
+  kesinlik:"kesin",
+  olay:["1713-06-24"],
+  kaynak:"Merve Karaçay Türkal, \"Baltacı Mehmed Paşa'nın Azil Süreci ve Valide Gülnuş Sultan'a Gönderdiği Mektuplar\", Selçuk Üniversitesi Selçuklu Araştırmaları Dergisi (hakemli) · TDV: baltaci-mehmed-pasa, ahmed-iii" }
 
 ];

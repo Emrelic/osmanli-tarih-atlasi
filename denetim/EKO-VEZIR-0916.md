@@ -264,3 +264,37 @@ tolerans oldu, bastırma değil.
 DEĞİŞTİ  data/ekokuma_vezir.js   29→31 kart, node --check temiz, 31/31 id benzersiz,
                                  2 yeni kartın olay tarihleri mevcut kronolojide doğrulandı
 ```
+
+---
+
+# EK BÖLÜM 5 — DALGA-0056, maddeler 2a · 2c (16 Eylül gece, ACİL — 0055'ten önce)
+
+Kaynak: `oturumlar/DALGA-0056.md`. Konu: Prut Seferi (1711) — Baltacı'nın barış kararı
+tartışması ve Osmanlı'nın net kazanç sağlayamama sebebi. Kontrol: "Baltacı"/"Prut"
+`ekokuma_savas.js`de zaten vardı ama o kart OLAYI anlatıyordu (savas-hikayesi türü),
+TARTIŞMAYI değil — mükerrer sayılmadı, iki yeni "tartışma" kartı o karta atıfla,
+olguları tekrarlamadan eklendi.
+
+**2a** (`tartisma-baltaci-prut-firsat-mi-kacirdi`): iki görüş yan yana kondu —
+çağdaş vak'anüvislerin (Silahdâr, Râşid) eleştirisi ("fırsatı kaçırdı") ile
+Baltacı'nın Valide Sultan'a yazdığı mektuplardaki kendi savunması ("siyasi
+kazanım imha savaşından akıllıcaydı"). Ana kaynak: Merve Karaçay Türkal'ın
+hakemli makalesi (Selçuk Üniversitesi Selçuklu Araştırmaları Dergisi) — PDF
+tam okundu. **Önemli ayrım bulundu:** makalenin asıl bulgusu, azlin aslında
+"kaçırılan zafer"den çok saray içi güç dengesi (Valide Sultan'ın nüfuzu)
+yüzünden olduğu; kart bu iki mekanizmayı (savaş meydanı eleştirisi ↔ saray
+entrikası) ayrı ayrı işaretledi, karıştırmadı. Katerina-Baltacı rivayeti
+BİLEREK işlenmedi (EKO-PADISAH'ın 2b maddesi).
+
+**2c** (`tartisma-prut-net-kazanc-neden-saglanamadi`): var olan savaş-hikâyesi
+kartının kendi sonuç cümlesini ("hükümler sürüncemede kaldı, ancak 1713'te
+Edirne'yle bağlandı") YAPISAL SEBEPLERİYLE açıkladı — ordu serbest bırakıldı
+(kaldıraç kalmadı), Baltacı azledildi (icra sürekliliği koptu), Çar hiç rehin
+olmadı (ihlalin bedeli yoktu), saray içi çekişme dış politikada tutarlılığı
+zorlaştırdı. Sonuç kesin (1713'te Osmanlı istediğini aldı) ama gecikmeli.
+
+## Dosyalar
+```
+DEĞİŞTİ  data/ekokuma_vezir.js   31→33 kart, node --check temiz, 33/33 id benzersiz,
+                                 2 yeni kartın olay tarihleri mevcut kronolojide doğrulandı
+```
