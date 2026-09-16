@@ -223,4 +223,11 @@ Kayıtların arasında bu pencerede başlayan tek E hattı `d1923-co-ec` (Muñoz
 - 1914 White kararı (Kosta Rika–Panama): Panama reddetti, hat değişmedi.
 
 G1 maddeleri: G1'de madde **0**, bu yüzden dosya o turda yazılmamıştı (M-4111). `data/kronoloji_sinir_amerika.js` G2 ile birlikte yazıldı (1 madde) → `window.KRONOLOJI_SINIR_AMERIKA`.
+**G3 (1878-07-13 → 1914-07-28): yeni hat kaydı 4 (E 3 · C 1) · kronoloji maddesi 5.**
+- Pencerede başlayan E hatları: `mx-gt` 27 Eyl 1882 (IBS 159) · `br-py` ve `br-pe-tabatinga` 15 Kas 1889 · `hn-ni-bati` 24 Ara 1896 (IBS 36, onayların değiş tokuşu) · `ar-br` 26 May 1900 (IBS 168, onayların değiş tokuşu).
+- **Öncül kayıtlar:** yalnız 1889 hatlarının öncülü var, çünkü hat değişmedi, taraf değişti (Brezilya İmparatorluğu). `g3-br-imp-py` (1872-03-26 → 1889-11-15, E, 2 parça) · `g3-br-imp-pe-tabatinga-apaporis` (1852-10-18 → 1889-11-15, E) · `g3-ve-br-imp` (1859-01-01 → 1889-11-15, C; IBS yalnız yıl veriyor). 1889 günü: Library of Congress, *Brazil–U.S. Relations: First Republic*. TDV `brezilya` slug'ı ölü (302); `amerika` maddesi 1889'u anmıyor.
+- mx-gt · hn-ni · ar-br öncesinde hukuken kesin hat yok; kural gereği öncül yazılmadı. Nedenleri: Chiapas iddiası · 1888 geçici sözleşmesi · Misiones anlaşmazlığı. 1895 Cleveland kararı yalnız Misiones kesimini karara bağladı ve o kesimin koordinatı elde yok.
+- `d1923-ve-br` dayanağındaki kaynaksız "1859-05-05" günü **1859-01-01**'e çekildi.
+- Veri: 72 kayıt (E 19 · C 16 · YOK 37), degisti true 36 · false 26 · null 10.
+
 **Taslak künye:** 6 kimlik `devletler.js`te yok, `denetim/TASLAK-KUNYE-D-0916.json`dan alındı. 11 kayıt bu kimliklere bağlı (sayıldı).

@@ -98,7 +98,7 @@ ISO = {"kanada": ["CAN"], "abd": ["USA", "USG"], "meksika": ["MEX"], "guatemala"
        "brezilya-cumhuriyeti": ["BRA"], "ingiliz-guyanasi": ["GUY"], "hollanda-guyanasi": ["SUR"],
        "fransiz-guyanasi": ["FRA"], "kuba-cumhuriyeti": ["CUB"], "haiti": ["HTI"],
        "dominik-cumhuriyeti": ["DOM"], "newfoundland-dominyonu": ["CAN"], "fransa-cumhuriyet": ["MAF"],
-       "hollanda": ["SXM"]}
+       "hollanda": ["SXM"], "brezilya-imparatorlugu": ["BRA"]}
 KODLAR = {k for v in ISO.values() for k in v}
 ADM = json.load(open("veri-kaynak/ne_10m_admin_0_countries.geojson", encoding="utf8"))
 POLY = {}
@@ -428,9 +428,9 @@ ekle("d1923-gy-ve", GY, VE, "1899-10-03", "C", cizgi("GUY-VEN"),
      {"deger": False, "kaynak": "IBS 21", "not": "Venezuela 1962'de kararı tartışmaya açtı — hat değişmedi; Roraima noktası 1932"},
      {"t": "1900-1905", "not": "karma komisyon; yalnız Punta Playa–Barima (21 mil) açma+dikme, gerisi 25 beton gözlem direği"},
      1.5, KES_NE, "Tek kayıt, en düşük sınıf: Punta Playa–Barima kesimi envanterde E (kesim noktası koordinatı elde yok)")
-ekle("d1923-ve-br", VE, BR, "1859-05-05", "C", cizgi("BRA-VEN"),
-     [{"ad": "Sınır ve Nehir Ulaşımı Antlaşması (Caracas)", "madde": "md. 2", "tarih": "1859-05-05", "tur": "antlaşma",
-       "not": "gün genel bilgi; IBS yalnız '1859'"},
+ekle("d1923-ve-br", VE, BR, "1859-01-01", "C", cizgi("BRA-VEN"),
+     [{"ad": "Sınır ve Nehir Ulaşımı Antlaşması (Caracas)", "madde": "md. 2", "tarih": "1859-01-01", "tur": "antlaşma",
+       "not": "IBS yalnız YIL veriyor (1859); gün BULUNAMADI"},
       ibs(175, "Brazil–Venezuela", "the boundary definition was not disputed in the period after the 1859 treaty", "6")],
      {"deger": True, "kaynak": "IBS 175",
       "not": "KÜÇÜK: 1905/1912/1928 protokolleri 'esaslı değişiklik yapmadı'; 1928 sonrası koordinat düzeltmeleri, batı ucu Kolombiya üçlü noktasına uzatıldı"},
@@ -658,6 +658,37 @@ yok("d1923-br-uy-brasilera", BR, UY, "1889-11-15", B_BRAS.bounds,
     [ibs(170, "Brazil–Uruguay", "Brasilera Island is claimed by both Brazil and Uruguay", "7")],
     "hukuken C, belirsiz (1851: ağızdaki adalar Brezilya'nın); Uruguay itirazı 1940 tarihli", hukuki="hukuken C")
 
+# ======================= G3 (1914-07-28 → 1878-07-13) =======================
+# E/F/D başlangıcı pencerede olan kayıtlar: mx-gt 1882 · br-py 1889 · br-pe-tabatinga 1889 · hn-ni-bati 1896 · ar-br 1900.
+# Öncülleri: mx-gt / hn-ni / ar-br öncesinde hukukî KESİN hat yok (tartışma ya da geçici/kaba hat) ⇒ YAZILMADI (A/B).
+# br-py ve br-pe-tabatinga: hat 1889'da DEĞİŞMEDİ, yalnız taraf Brezilya İmparatorluğu → Cumhuriyet ⇒ öncül E kaydı.
+BR_IMP = "brezilya-imparatorlugu"
+LOC_BR = {"ad": "Library of Congress, Brazil–U.S. Relations: First Republic (1889–1930)", "tur": "resmî araştırma rehberi",
+          "url": "https://guides.loc.gov/brazil-us-relations/first-republic",
+          "alinti": "On November 15, 1889, a coup d'état overthrew the monarchy"}
+ekle("g3-br-imp-py", BR_IMP, PY, "1872-03-26", "D", parcala(bpy, lambda c: c[1] <= APA[1] + 0.005),
+     [{"ad": "Loizaga–Cotegipe Antlaşması (onay 26 Mar 1872)", "tarih": "1872-01-09", "tur": "antlaşma"},
+      ire("121–123", "the work of demarcation was finished November 14, 1874"), LOC_BR],
+     {"deger": False, "kaynak": "Ireland 1938", "not": "aynı hat 1889'dan sonra d1923-br-py"},
+     {"t": "1874-11-14", "not": "karma komisyon (1872–1874 arası hat hukuken tanımlı, işaretsiz)"},
+     1.5, KES_NE + " · kuzey ucu GeoNames 'Rio Apa' ağız noktasının enleminde",
+     "GERİYE SARMA G3: taraf Brezilya İmparatorluğu; t = cumhuriyetin ilanı (LoC)", t="1889-11-15")
+ekle("g3-br-imp-pe-tabatinga-apaporis", BR_IMP, PE, "1852-10-18", "D", parcala(bc, lambda c: c[1] <= APAPORIS[1]),
+     [{"ad": "Brezilya–Peru Sözleşmesi (onay 18 Eki 1852)", "tarih": "1851-10-23", "tur": "sözleşme"},
+      ire("125–130"), LOC_BR],
+     {"deger": True, "kaynak": "IBS 174 · LNTS 74", "not": "yalnız TARAF değişti (1889 cumhuriyet · 1928 Kolombiya); hat aynı"},
+     {"t": "1866-1874", "not": "karma komisyon 28 Tem 1866 – 14 Mar 1874"},
+     1.5, KES_NE + " · kuzey ucu GeoNames 'Río Apaporis' ağız noktasının enleminde",
+     "GERİYE SARMA G3: taraf Brezilya İmparatorluğu; t = cumhuriyetin ilanı (LoC) · Kolombiya haklarını saklı tutuyordu",
+     t="1889-11-15", sol_iso=dict(ISO, **{PE: ["COL"]}))
+ekle("g3-ve-br-imp", VE, BR_IMP, "1859-01-01", "C", cizgi("BRA-VEN"),
+     [{"ad": "Sınır ve Nehir Ulaşımı Antlaşması (Caracas)", "madde": "md. 2", "tarih": "1859-01-01", "tur": "antlaşma",
+       "not": "IBS yalnız YIL veriyor (1859); gün ve onay tarihi BULUNAMADI"},
+      ibs(175, "Brazil–Venezuela", "the boundary definition was not disputed in the period after the 1859 treaty", "6"), LOC_BR],
+     {"deger": True, "kaynak": "IBS 175", "not": "KÜÇÜK (bkz. d1923-ve-br)"},
+     {"t": "1880", "not": "yalnız Cucuy–Hua kesimi ortak işaretleme"},
+     2.0, KES_NE, "GERİYE SARMA G3: taraf Brezilya İmparatorluğu; f yalnız YIL (1859) · t = cumhuriyetin ilanı", t="1889-11-15")
+
 # ======================= YAZ =======================
 ids = [k["id"] for k in KAYIT]
 if len(ids) != len(set(ids)):
@@ -679,6 +710,8 @@ BAS = """// -*- coding: utf-8 -*-
 // G1 (1918-11-11 → 1923-10-29): bu pencerede E/F/D hattı değişmedi ⇒ her kaydın f'i hattın gerçek başlangıcı.
 // G2 (1914-07-28 → 1918-11-11): tek E başlangıcı d1923-co-ec (1917-01-26); öncesinde hukukî hat yok ⇒ öncül kayıt
 //   YAZILMADI (A/B'ye düşer). Kronoloji: data/kronoloji_sinir_amerika.js
+// G3 (1878-07-13 → 1914-07-28): 3 öncül kayıt (g3-*), taraf Brezilya İmparatorluğu (t 1889-11-15); mx-gt 1882 ·
+//   hn-ni 1896 · ar-br 1900 öncesinde hukukî kesin hat yok ⇒ öncül yazılmadı.
 
 window.D_SINIRLAR_AMERIKA = [
 """
