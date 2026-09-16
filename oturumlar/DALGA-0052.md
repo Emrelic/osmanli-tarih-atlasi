@@ -59,6 +59,16 @@ Maddeler `H-00NN` kısaltmasıdır (31 = H-0031).
 **Emre'nin kendi TK Kırım oturumunda:** H-0002 · H-0126 (Kırım/Kuban/Çerkes bozkırları). UYGULA ve HARITA-VERI
 Kuzey Kafkasya–Kırım kayıtlarına o oturum bitene kadar **dokunmaz**; H-0125 (Kabartay) yalnız araştırılır.
 
+### 2b. EK — önceki paket 0051 (8 madde, `…/parti-emrelic-0051/PARTI.md`), maddeleri `51/H-00NN` diye an
+
+| Oturum | 0051 maddeleri |
+|---|---|
+| EKO-RIVAYET | 51/H-0001 (İbrahim'in halli ↔ IV. Mehmed cülusu sırası → yama) · 51/H-0005 (Kâtib Çelebi ek okuma; 0052 H-0027/H-0082 ile birlikte) · 51/H-0006 (= 0052 H-0083) |
+| EKO-PADISAH | 51/H-0002 (şüpheli ölümler kartı; 0052 H-0045 ile birlikte) |
+| EKO-DUNYA | 51/H-0003 (Otuz Yıl Savaşları + Vestfalya ek okuma; haritanın Vestfalya'ya odaklanması → UI'ya tahtadan) |
+| GEOMETRI | 51/H-0004 (renk bozulması / katman üst üste binmesi) |
+| HARITA-VERI | 51/H-0007 (= 0052 H-0015 Levant özerk görünümü) · 51/H-0008 (= 0052 H-0092 Lahsa–Katar bozuk desen) |
+
 ## 3. OTURUMA ÖZEL NOTLAR
 
 **EKO-DUNYA** — H-0006 büyük: savaş başlangıç/sebep/bedel/antlaşma kartlarını ilgili savaş maddelerine bağla;
