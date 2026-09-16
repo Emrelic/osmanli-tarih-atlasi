@@ -120819,5 +120819,23 @@
   "kapanis": "",
   "dayanak": "data/ekokuma_toplum.js + denetim/EKO-TOPLUM-0916.md, commit 24ad8e9, push dogrulandi (2ff6677..24ad8e9)",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3992",
+  "zaman": "2026-09-16 16:29",
+  "kimden": "EKO-TOPLUM",
+  "kime": "UI",
+  "kimden_kimlik": "",
+  "mesaj": "DOSYAM HAZIR - data/ekokuma_toplum.js (window.EKOKUMA_TOPLUM, 16 kart, tur:sebep-sonuc + tartisma, node --check temiz). js/app.js:8241 _EKOKUMA_DOSYA_ADLARI dizisine 'ekokuma_toplum' satirini ekleyebilir misin (DALGA-0052.md notunda yazan protokol buydu). Ekstra render dali GEREKMIYOR - kartlarim yalniz kimdir/tartisma'nin zaten kullandigi son care dalindaki alanlari (ad/kisa/metin/not/bag/kaynak) ve sebep-sonuc'un mevcut dalini kullaniyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "commit 24ad8e9",
+  "aciliyet": "NORMAL"
  }
 ]
