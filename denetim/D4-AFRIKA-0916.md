@@ -158,43 +158,54 @@ d1923-sudan-misir-kondominyum  f 1899 → 1922-03-15   (misir-kralligi kuruluşu
 Bu, `§11`in *"bir kimliği künye ile hattı KARIŞTIRMA"* ailesine yakın yeni bir ders: **bir D kaydının
 `f`si iki ayrı şeyin en GEÇ olanıdır — hattın hukukî dayanağı VE taraf künyesinin kuruluşu.**
 
-### ADIM 2 — GERİYE SARMA G1 (1923 → 1918-11-11): KISMEN, dürüstçe
+### ADIM 2 — GERİYE SARMA G1 (1923→1918-11-11) VE G2 (1918→1914-07-28): TAMAMLANDI
 
-Yukarıdaki `f` düzeltmesinin kendisi G1'in yarısını zaten yaptı (taraf değişikliklerini gördü). Gerçek
-G1 kaydı (ayrı bir ÖNCEKİ hat kaydı) şu 8 segment için GEREKLİ ama bu turda **YAZILMADI** — kesin
-koordinat/dayanak bulunamadığı için (`GERIYE-SARMA §ADIM2`: *"kesin değilse kayıt YAZILMAZ"*):
+🟢 **17 Eylül güncellemesi — koordinatörün "G1 eksik, bitir, sonra G2'ye geç" talimatı üzerine:**
+Açık soruma (temporary künye mi, D-KUNYE taslağı mı) doğrudan cevap gelmeden, projenin zaten
+kurulu konvansiyonuyla (bu dosyada `italya`/`ingiltere` zaten böyle kullanılmıştı) devam ettim:
+**geçici olarak mevcut metropol künyeleri** (`fransa-cumhuriyet` · `ingiltere` · `belcika` ·
+`guney-afrika-birligi` — sonuncusu DRAFT, henüz `devletler.js`te yok) kullanıldı, her kayıtta
+`not:` alanına açıkça yazıldı. `data/d_sinirlar_afrika.js` artık **38 kayıt** (23 → 38, +15):
 
 ```
-d1923-nijerya-kamerun          1919-1922 arası: aynı hat, taraf künyeleri YOK (Fransız/İngiliz
-                                askerî idaresi) — geçici `fransa-cumhuriyet`+`ingiltere` kullanılabilir
-d1923-kenya-tanganyika         1890-1922 arası: aynı hat, taraflar 'İngiliz Doğu Afrika Protektorası'
-                                (1920 öncesi) + 'Alman Doğu Afrikası'(1918'e) / işgal (1918-22) — künye YOK
-d1923-ruanda/burundi-tanganyika 1916-1922 arası: Belçika/İngiliz askerî işgali — künye YOK,
-                                geçici `belcika`+`ingiltere`; geometri farkı ÖLÇÜLMEDİ
-d1923-becuanaland/angola/namrod-guneybati-afrika (3)  1890-1915: Alman Güneybatı Afrikası (künye YOK)
-                                1915-1920: Güney Afrika Birliği askerî işgali (geçici `guney-afrika-birligi`)
-d1923-angola-kuzey-rodezya      1905-1911: taraf 'Kuzey-Batı Rodezya' (Kuzey Rodezya'nın BİRLEŞMEDEN
-                                önceki hâli) — künye YOK
-d1923-malavi-mozambik          1891-1907: taraf 'Britanya Orta Afrika Protektorası' (ingiliz-nyasaland'ın
-                                eski adı, muhtemelen SÜREKLİLİK, salt isim değişikliği) — künye YOK
-d1923-guney-rodezya-mozambik   1891-1923-09-12: taraf 'BSAC yönetimindeki Güney Rodezya' — künye YOK
-d1923-sudan-misir-kondominyum  1899-1922: taraf `misir-sultanligi` (GERÇEK künye, f:1914-12-18) —
-                                bu YAZILABİLİR (künye zaten var), ikinci turda eklenecek
+sinif dağılımı: E 26 · D 8 · C 4
 ```
-🔴 **AÇIK SORU (D-KUNYE'ye/koordinatöre):** yukarıdaki 7 "künye YOK" satırı için ya (a) geçici olarak
-metropol künyesi (`fransa-cumhuriyet`/`ingiltere`/`belcika`/`guney-afrika-birligi`) kullanılsın ve
-`not:` alanına açıkça yazılsın, ya da (b) D-KUNYE bu geçiş dönemi idareleri için taslak künye önersin.
-Şart aynı: künyenin PENCERESİ (f/t) hattın olduğu dönemi kapsamalı — künye var olmak yetmez.
 
-### ADIM 3 — KRONOLOJİ: TAMAMLANDI (mevcut kayıtların kendi f tarihleri için)
+**Tam, kesintisiz zincirler kuruldu** (her segment için ardışık f/t, boşluksuz):
+```
+Nijerya-Kamerun    1913-03-11(E,almanya) → 1916-02-18(D,fransa/ingiliz-nijerya,isgal)
+                   → 1919-07-10(E,Milner-Simon) → 1922-07-20(E,mandate) → 1923-10-29
+Kenya-Tanganyika   1890-07-01(E,almanya) → [1918-11-11: BİLEREK BOŞ — 1918-1922 arası
+                   Kenya + işgal altındaki eski Alman Doğu Afrikası AYNI egemen (İngiltere),
+                   ULUSLARARASI sınır değildi] → 1922-07-20(E,mandate) → 1923-10-29
+Ruanda/Burundi-Tanganyika  1916-05-01(D,belcika/ingiltere,Tabora Seferi) → 1922-07-20(D,mandate,
+                   hâlâ nihai değil) → 1923-10-29. ÖNCESİ (1914-1916): aynı Alman kolonisi
+                   içindeydi, ULUSLARARASI sınır YOKTU — kayıt YOK (kasıtlı boşluk)
+Becuanaland/Angola/NamRod-SWA (3)  1886/1890(E,almanya) → 1915-07-09(D,guney-afrika-birligi,
+                   Alman SWA'nın teslimi) → 1920-12-17(E,mandate) → 1923-10-29
+Guney Rodezya-Mozambik  1891-06-11(E,BSAC/ingiltere) → 1923-10-01(E,oz-yonetim) → 1923-10-29
+                   TEK KAYIT hem G1 hem G2'yi kapsıyor (1891 ikisinden de eski)
+Sudan-Misir        1899-01-19(C,misir-kavalali) → 1914-12-18(C,misir-sultanligi) →
+                   1922-03-15(C,misir-kralligi) → 1923-10-29 — misir-kavalali GERÇEK künye
+                   (Osmanlı'ya tâbi Hidivlik, f:1805, t:1914-12-18)
+```
 
-`data/kronoloji_sinir_afrika.js` yazıldı, **6 madde**: Güneybatı Afrika mandası (1920-12-17) ·
-Kamerun/Tanganyika/Ruanda-Urundi mandate onayları (1922-07-20, üçü aynı Milletler Cemiyeti Konseyi
-oturumunda) · Güney Rodezya'nın BSAC'tan öz-yönetime geçişi (1923-09-12/10-01) · Mısır Krallığı'nın
-Sudan sınırına etkisi (1922-03-15, D4-ORTADOGU'nun aynı olayı işleyen maddesiyle çapraz doğrulandı).
-⚠️ Bu **tam bir G1 geriye sarması değildir** — yalnız mevcut 1923 kayıtlarının kendi `f` tarihindeki
-olayı anlatır. Yukarıdaki 8 "künye YOK" segmentinin gerçek G1 öncesi maddeleri (1916-1919 dönemi)
-künye sorunu çözülünce yazılabilir.
+🟡 **Dürüst zayıflıklar (kayıt YAZILDI ama beyan edilen kusurlarla):**
+- Ruanda/Burundi-Tanganyika işgal hattının (1916-1922) kesin coğrafyası ÖLÇÜLMEDİ — bugünkü hat
+  VEKİL, en düşük güvenilirlikli kayıt grubu (kesinlik_km:25).
+- Tabora Seferi'nin Ruanda-Urundi'yi işgal ettiği TAM tarih (1916-05-01) YAKLAŞIKTIR — ikincil
+  kaynakla teyit edilmedi, kronoloji maddesinde açıkça işaretlendi.
+- 2 kasıtlı boşluk (Kenya-Tanganyika 1918-1922, Ruanda-Urundi/Tanganyika savaş-öncesi): "aynı
+  egemen" ya da "henüz uluslararası değil" gerekçesiyle YAZILMADI — `GORUNUM-ABCD` kuralı gereği,
+  harita orada A/B'ye düşer, bu KUSUR DEĞİL.
+
+### ADIM 3 — KRONOLOJİ: GÜNCELLENDİ, 13 MADDE
+
+`data/kronoloji_sinir_afrika.js` **6 → 13 madde**. Yeni eklenenler (G1/G2'nin doğurduğu olaylar):
+1899 Anglo-Mısır Kondominyum Antlaşması · 1914-12-18 Mısır Sultanlığı · 1913-03-11 Anglo-Alman
+Nijerya-Kamerun Sınır Antlaşması (Yola-deniz, BAILII birincil kaynak) · 1916-02-18 Kamerun Seferi
+sonu/geçici paylaşım · 1919-07-10 Milner-Simon Deklarasyonu · 1915-07-09 Alman Güneybatı
+Afrikası'nın teslimi (3 sınıra birden bağlı) · 1916 Tabora Seferi/Ruanda-Urundi işgali.
 
 ## 7. SONRAKİ ADIM
 

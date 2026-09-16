@@ -364,6 +364,151 @@ KAYITLAR = [
          tahdit=dict(t="1902", not_="1902 idarî düzeltme (Vadi Halfa/Bahâriye bölgesi Sudan idaresine)"),
          kesinlik_km=20.0, kesinlik_not="22. paralel + 1902 idarî sınır ayrımı net değil, kondominyum niteliği yüzünden 'uluslararası sınır' sayılıp sayılmayacağı TARTIŞMALI",
          not_="🔴 AÇIK SORU (koordinatöre tahtadan soruldu): kondominyum İÇ hattı D kategorisine girer mi? Halayib Üçgeni bugün de İHTİLAFLI — bu segment tarihsel olarak da netameli. f=1922-03-15: `misir-kralligi` (gerçek künye) bu tarihte kuruldu (Sultan Fuad kral unvanını aldı); 1899-1922 arası taraf `misir-sultanligi` (gerçek künye, f:1914-12-18) ya da daha önce `misir-eyaleti`/`misir-kavalali` — G1 ADAYI, hat AYNI kalır, yalnız Mısır tarafının künyesi değişir."),
+
+# =========================================================================
+# GERİYE SARMA — G1 (1923→1918-11-11) ve G2 (1918→1914-07-28) ÖNCEKİ KAYITLAR
+# oturumlar/GERIYE-SARMA-0916.md ADIM 2. Her biri yukarıdaki bir 1923 kaydının
+# ÖNCESİNİ anlatır (kendi f/t/sinif/dayanağıyla), AYNI geometriyi VEKİL kullanır
+# (savaş dönemi hattının kesin farkı ÖLÇÜLMEDİ — açıkça beyan edildi).
+# "aynı egemen" (iki taraf da fiilen aynı gücün elinde) durumlarda kayıt
+# YAZILMAZ — GERIYE-SARMA kuralı: sınır o dönemde ULUSLARARASI değildi.
+# =========================================================================
+
+    # --- Nijerya-Kamerun: üç dönem (1913 savaş-öncesi E · 1916 işgal D · 1919 andlaşma E) ---
+    dict(id="d1919-nijerya-kamerun-milner-oncesi", cift="CMR-NGA", f="1919-07-10", t="1922-07-20",
+         sinif="E", taraflar=["fransa-cumhuriyet", "ingiliz-nijerya"],
+         dayanak=[dict(ad="Milner-Simon Deklarasyonu", tarih="1919-07-10", tur="antlaşma (Paris)",
+                       url="https://en.wikipedia.org/wiki/Neukamerun")],
+         degisti=dict(deger=None, kaynak="", not_="bkz. d1923-nijerya-kamerun-milner-simon"),
+         tahdit=dict(t=None, not_=""),
+         kesinlik_km=5.0, kesinlik_not="D-GEOARAC bugünkü hat VEKİL — aynı 1919 hattı, yalnız mandate ONAYINDAN (1922) önceki dönem",
+         not_="G1 ADAYI: `fransiz-kamerun-mandasi` künyesi 1922-07-20'de kuruldu; ONDAN ÖNCE (1919-1922) aynı hat, taraf FRANSA (metropol, geçici `fransa-cumhuriyet`) — mandate henüz Milletler Cemiyeti onayı almamıştı ama BİLATERAL ANTLAŞMA (Milner-Simon) zaten vardı, bu yüzden sinif E korundu."),
+    dict(id="d1916-nijerya-kamerun-isgal", cift="CMR-NGA", f="1916-02-18", t="1919-07-10",
+         sinif="D", taraflar=["fransa-cumhuriyet", "ingiliz-nijerya"],
+         dayanak=[dict(ad="Kamerun Seferi'nin bitişi (Mora'nın teslimi)", tarih="1916-02-18", tur="askerî olay",
+                       url="https://en.wikipedia.org/wiki/Kamerun_campaign")],
+         degisti=dict(deger=None, kaynak="", not_="savaş dönemi provizyonel hattı, bugünle kıyaslanmaz"),
+         tahdit=dict(t=None, not_="sahada işaretsiz, geçici askerî hat"),
+         kesinlik_km=20.0, kesinlik_not="D-GEOARAC bugünkü hat VEKİL — 1916 provizyonel Anglo-French paylaşım hattının Milner-Simon'dan (1919) FARKI ÖLÇÜLMEDİ, muhtemelen benzer ama kesin değil",
+         not_="G1 KAYDI: Kamerun Seferi'nin bitişiyle (Mora'nın 18 Şubat 1916'da teslimi) Fransız-İngiliz kuvvetleri eski Alman Kamerunu'nu aralarında GEÇİCİ olarak paylaştı; resmî andlaşma (Milner-Simon) ancak 1919'da geldi. Taraflar geçici `fransa-cumhuriyet`+`ingiliz-nijerya` (ayrı işgal idaresi künyesi YOK)."),
+    dict(id="d1913-nijerya-kamerun-almanya", cift="CMR-NGA", f="1913-03-11", t="1916-02-18",
+         sinif="E", taraflar=["almanya", "ingiliz-nijerya"],
+         dayanak=[dict(ad="Anglo-Alman Nijerya-Kamerun Sınır Antlaşması (Yola-deniz)", tarih="1913-03-11",
+                       tur="antlaşma (Londra)", url="https://www.bailii.org/uk/other/UKTS/1913/8087.html",
+                       alinti="Settlement of the Frontier between Nigeria and the Cameroons, from Yola to the Sea"),
+                  dict(ad="Obokum Demarkasyon Protokolü", tarih="1913-04-12", tur="demarkasyon protokolü",
+                       url="https://www.bailii.org/uk/other/UKTS/1913/8087.html")],
+         degisti=dict(deger=None, kaynak="", not_="savaş öncesi hat, bugünle doğrudan kıyas ayrı araştırma gerektirir"),
+         tahdit=dict(t="1913-04-12", not_="Obokum'da 8 haritayla demarke edildi"),
+         kesinlik_km=8.0, kesinlik_not="D-GEOARAC bugünkü hat VEKİL — 1913 hattının kesin izdüşümü ayrıca ölçülmedi",
+         not_="G2 KAYDI (1918'den 1914-07-28'e): savaştan ÖNCE, Almanya ve Britanya arasında GERÇEK bir sınır antlaşması vardı (11 Mart 1913 Londra + 12 Nisan 1913 Obokum demarkasyonu, Bakassi dahil Yola'dan denize). Taraf `almanya` (gerçek künye) + `ingiliz-nijerya`."),
+
+    # --- Kenya-Tanganyika: G1 sınırında (1918-11-11) hâlâ savaş sürüyordu (Lettow-Vorbeck 25 Kasım'a kadar) ---
+    dict(id="d1918-kenya-almanya-dogu-afrika", cift="KEN-TZA", f="1890-07-01", t="1918-11-11",
+         sinif="E", taraflar=["ingiltere", "almanya"],
+         dayanak=[dict(ad="Heligoland-Zanzibar Antlaşması", tarih="1890-07-01", tur="antlaşma",
+                       url="https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/anglo-german-treaty-heligoland-zanzibar-treaty-july-1-1890")],
+         degisti=dict(deger=False, kaynak="Britannica Zanzibar Treaty", not_="hat hiç değişmedi, bkz. d1923-kenya-tanganyika"),
+         tahdit=dict(t=None, not_=""),
+         kesinlik_km=5.0, kesinlik_not="D-GEOARAC bugünkü hat vekil",
+         not_="G1 KAYDI: 11 Kasım 1918 (Avrupa'daki Ateşkes) anında Alman Doğu Afrikası'nda savaş HÂLÂ SÜRÜYORDU — Lettow-Vorbeck'in kuvvetleri ancak 25 Kasım 1918'de (Kuzey Rodezya'da) teslim oldu. Taraflar `almanya` (gerçek künye) + geçici `ingiltere` (Kenya tarafı 1920'ye kadar 'İngiliz Doğu Afrika Protektorası' adını taşıyordu, ayrı künye YOK). ⚠️ 1918-11-11 SONRASI, 1922 mandate onayına kadar geçen dönem için AYRI KAYIT YAZILMADI: her iki taraf da fiilen İngiliz idaresi altındaydı (Kenya + işgal altındaki eski Alman Doğu Afrikası) — GERIYE-SARMA kuralı gereği bu dönemde ULUSLARARASI bir sınır YOKTU, iç idarî hat sayılır."),
+
+    # --- Ruanda-Urundi/Tanganyika: savaştan ÖNCE aynı Alman kolonisi içindeydi, uluslararası sınır YOKTU ---
+    dict(id="d1916-ruanda-tanganyika-isgal", cift="RWA-TZA", f="1916-05-01", t="1922-07-20",
+         sinif="D", taraflar=["belcika", "ingiltere"],
+         dayanak=[dict(ad="Belçika Kongosu'nun Alman Doğu Afrikası seferi (Tabora Seferi)", tarih="1916-05-01",
+                       tur="askerî olay", url="https://encyclopedia.1914-1918-online.net/article/ruanda-and-urundi/")],
+         degisti=dict(deger=None, kaynak="", not_="savaş dönemi provizyonel hat"),
+         tahdit=dict(t=None, not_="sahada işaretsiz"),
+         kesinlik_km=25.0, kesinlik_not="D-GEOARAC bugünkü hat VEKİL — 1916-1922 fiilî hattın kesin izdüşümü ÖLÇÜLMEDİ, en zayıf güvenilirlikli kayıt bu grupta",
+         not_="G1 KAYDI: Belçika kuvvetleri 1916'da (Kigali/Usumbura bölgesi) Ruanda-Urundi'yi Alman Doğu Afrikası'ndan kopararak işgal etti; İngiliz kuvvetleri geri kalan Tanganyika'yı işgal ediyordu — İKİ FARKLI işgalci güç, bu yüzden bu ara dönem BİLE bir sınır sayılır (Kenya-Tanganyika'daki 'aynı egemen' istisnasının TERSİ). Taraflar geçici `belcika`+`ingiltere`. 🔴 SAVAŞTAN ÖNCE (1914-07-28'den 1916'ya kadar) Ruanda-Urundi ve Tanganyika AYNI Alman kolonisinin (Alman Doğu Afrikası) parçasıydı — G2 için AYRI KAYIT YAZILMADI, o dönemde ULUSLARARASI sınır YOKTU (iç idarî bölünme, uluslararası D/E/C değil)."),
+    dict(id="d1916-burundi-tanganyika-isgal", cift="BDI-TZA", f="1916-05-01", t="1922-07-20",
+         sinif="D", taraflar=["belcika", "ingiltere"],
+         dayanak=[dict(ad="Belçika Kongosu'nun Alman Doğu Afrikası seferi (Tabora Seferi)", tarih="1916-05-01",
+                       tur="askerî olay", url="https://encyclopedia.1914-1918-online.net/article/ruanda-and-urundi/")],
+         degisti=dict(deger=None, kaynak="", not_="savaş dönemi provizyonel hat"),
+         tahdit=dict(t=None, not_="sahada işaretsiz"),
+         kesinlik_km=25.0, kesinlik_not="D-GEOARAC bugünkü hat VEKİL, aynı güvenilirlik notu",
+         not_="G1 KAYDI — bkz. d1916-ruanda-tanganyika-isgal notu, aynı süreç. G2 için AYRI KAYIT YOK (aynı gerekçe: savaştan önce aynı Alman kolonisi)."),
+
+    # --- Güneybatı Afrika (Caprivi/Angola/Kuzey Rodezya): Alman dönemi (E) -> Güney Afrika işgali (D) ---
+    dict(id="d1915-becuanaland-guneyafrika-isgal", cift="BWA-NAM", f="1915-07-09", t="1920-12-17",
+         sinif="D", taraflar=["ingiliz-becuanaland", "guney-afrika-birligi"],
+         dayanak=[dict(ad="Alman Güneybatı Afrikası'nın teslimi", tarih="1915-07-09", tur="askerî olay",
+                       url="https://en.wikipedia.org/wiki/Caprivi_Strip")],
+         degisti=dict(deger=None, kaynak="", not_="işgal dönemi, hat 1890'dan beri değişmedi ama egemen değişti"),
+         tahdit=dict(t=None, not_=""),
+         kesinlik_km=5.0, kesinlik_not="D-GEOARAC bugünkü hat vekil — hattın kendisi 1890'dan beri aynı, yalnız sinif/taraf değişti",
+         not_="G1 KAYDI: Almanya 9 Temmuz 1915'te Güney Afrika kuvvetlerine teslim oldu; mandate 1920-12-17'ye kadar Güney Afrika Birliği'nin ASKERÎ işgali altındaydı. Taraf geçici `guney-afrika-birligi` (Bechuanaland tarafı zaten aynı `ingiliz-becuanaland`)."),
+    dict(id="d1890-becuanaland-almanya-swa", cift="BWA-NAM", f="1890-07-01", t="1915-07-09",
+         sinif="E", taraflar=["ingiliz-becuanaland", "almanya"],
+         dayanak=[dict(ad="Anglo-Alman Antlaşması (Heligoland-Zanzibar, madde III/2)", tarih="1890-07-01", tur="antlaşma",
+                       url="https://en.wikipedia.org/wiki/Caprivi_Strip")],
+         degisti=dict(deger=False, kaynak="genel tarihyazımı", not_="hat hiç değişmedi"),
+         tahdit=dict(t=None, not_=""),
+         kesinlik_km=5.0, kesinlik_not="D-GEOARAC bugünkü hat vekil",
+         not_="G1+G2 KAYDI: 1890 antlaşması hem G1 hem G2 penceresini kapsıyor (savaştan çok önce). Taraf `almanya` (gerçek künye)."),
+
+    dict(id="d1915-angola-guneyafrika-isgal", cift="AGO-NAM", f="1915-07-09", t="1920-12-17",
+         sinif="D", taraflar=["portekiz-angola", "guney-afrika-birligi"],
+         dayanak=[dict(ad="Alman Güneybatı Afrikası'nın teslimi", tarih="1915-07-09", tur="askerî olay",
+                       url="https://en.wikipedia.org/wiki/Caprivi_Strip")],
+         degisti=dict(deger=None, kaynak="", not_="işgal dönemi"),
+         tahdit=dict(t=None, not_=""),
+         kesinlik_km=8.0, kesinlik_not="D-GEOARAC bugünkü hat vekil",
+         not_="G1 KAYDI — bkz. d1915-becuanaland-guneyafrika-isgal notu. Angola tarafı zaten `portekiz-angola`."),
+    dict(id="d1886-angola-almanya-swa", cift="AGO-NAM", f="1886-01-01", t="1915-07-09",
+         sinif="E", taraflar=["portekiz-angola", "almanya"],
+         dayanak=[dict(ad="Alman-Portekiz sözleşmesi (Kunene/Kubango hattı)", tarih="1886-01-01", tur="antlaşma",
+                       url="https://kolonialmarken.de/en/german-south-west-africa/")],
+         degisti=dict(deger=None, kaynak="", not_="1926 nihaî demarkasyonundan ÖNCEKİ dönem, bkz. d1923-angola-guneybati-afrika"),
+         tahdit=dict(t=None, not_=""),
+         kesinlik_km=10.0, kesinlik_not="D-GEOARAC bugünkü hat vekil, düşük kesinlik (nehir hattı 1926'ya kadar provizyonel)",
+         not_="G1+G2 KAYDI. Taraf `almanya`."),
+
+    dict(id="d1915-namrod-guneyafrika-isgal", cift="NAM-ZMB", f="1915-07-09", t="1920-12-17",
+         sinif="D", taraflar=["guney-afrika-birligi", "ingiliz-kuzey-rodezya"],
+         dayanak=[dict(ad="Alman Güneybatı Afrikası'nın teslimi", tarih="1915-07-09", tur="askerî olay",
+                       url="https://en.wikipedia.org/wiki/Caprivi_Strip")],
+         degisti=dict(deger=None, kaynak="", not_="işgal dönemi"),
+         tahdit=dict(t=None, not_=""),
+         kesinlik_km=6.0, kesinlik_not="D-GEOARAC bugünkü hat vekil",
+         not_="G1 KAYDI — bkz. d1915-becuanaland-guneyafrika-isgal notu. Kuzey Rodezya tarafı zaten `ingiliz-kuzey-rodezya`."),
+    dict(id="d1890-namrod-almanya-swa", cift="NAM-ZMB", f="1890-07-01", t="1915-07-09",
+         sinif="E", taraflar=["almanya", "ingiliz-kuzey-rodezya"],
+         dayanak=[dict(ad="Anglo-Alman Antlaşması 1890 (Caprivi Şeridi doğu ucu)", tarih="1890-07-01", tur="antlaşma",
+                       url="https://www.chalochatu.org/Kazungula_quadripoint")],
+         degisti=dict(deger=False, kaynak="genel tarihyazımı", not_="hat hiç değişmedi"),
+         tahdit=dict(t=None, not_=""),
+         kesinlik_km=6.0, kesinlik_not="D-GEOARAC bugünkü hat vekil",
+         not_="G1+G2 KAYDI. Taraf `almanya`."),
+
+    # --- Güney Rodezya-Mozambik: BSAC dönemi (1891-1923) TEK kayıtla hem G1 hem G2'yi kapsıyor ---
+    dict(id="d1891-guneyrodezya-mozambik-bsac", cift="MOZ-ZWE", f="1891-06-11", t="1923-10-01",
+         sinif="E", taraflar=["portekiz-mozambik", "ingiltere"],
+         dayanak=[dict(ad="Anglo-Portekiz Antlaşması", tarih="1891-06-11", tur="antlaşma",
+                       url="https://en.wikipedia.org/wiki/Anglo-Portuguese_Treaty_of_1891")],
+         degisti=dict(deger=False, kaynak="IBS No. 118 (Mozambique-Zimbabwe)", not_="hat hiç değişmedi"),
+         tahdit=dict(t="1891", not_="antlaşmayla eşzamanlı"),
+         kesinlik_km=4.0, kesinlik_not="D-GEOARAC bugünkü hat vekil",
+         not_="G1+G2 KAYDI: BSAC (Britanya Güney Afrika Şirketi) 1889-1923 arası Güney Rodezya'yı tüzüklü şirket olarak yönetti; bu dönem TEK bir kayıtla hem G1 (1918) hem G2 (1914) pencerelerini kapsıyor, çünkü 1891 antlaşması ikisinden de eskidir. Taraf 'BSAC yönetimindeki Güney Rodezya' için ayrı künye YOK, geçici `ingiltere` kullanıldı (BSAC bir Britanya kraliyet fermanıyla tüzüklendiği için)."),
+
+    # --- Sudan-Mısır: Mısır Sultanlığı (1914-1922) ve öncesi Kavalalı Hanedanı (1805-1914, GERÇEK künye) ---
+    dict(id="d1914-sudan-misir-sultanligi", cift="EGY-SDN", f="1914-12-18", t="1922-03-15",
+         sinif="C", taraflar=["misir-sultanligi", "ingiliz-sudani"],
+         dayanak=[dict(ad="Anglo-Mısır Kondominyum Antlaşması + 1902 idarî düzeltme", tarih="1899-01-19",
+                       tur="antlaşma (kondominyum)")],
+         degisti=dict(deger=None, kaynak="", not_="bkz. d1923-sudan-misir-kondominyum"),
+         tahdit=dict(t="1902", not_=""),
+         kesinlik_km=20.0, kesinlik_not="aynı belirsizlik, bkz. d1923-sudan-misir-kondominyum",
+         not_="G1 KAYDI: `misir-sultanligi` (gerçek künye, f:1914-12-18) — İngiliz himayesinin ilanıyla Mısır Sultanlığı kuruldu. Taraf `misir-sultanligi`+`ingiliz-sudani`."),
+    dict(id="d1899-sudan-misir-kavalali", cift="EGY-SDN", f="1899-01-19", t="1914-12-18",
+         sinif="C", taraflar=["misir-kavalali", "ingiliz-sudani"],
+         dayanak=[dict(ad="Anglo-Mısır Kondominyum Antlaşması", tarih="1899-01-19", tur="antlaşma (kondominyum)")],
+         degisti=dict(deger=None, kaynak="", not_="bkz. d1923-sudan-misir-kondominyum"),
+         tahdit=dict(t="1902", not_=""),
+         kesinlik_km=20.0, kesinlik_not="aynı belirsizlik, bkz. d1923-sudan-misir-kondominyum",
+         not_="G2 KAYDI (1918'den 1914-07-28'e kadar pencereyi kapsar, ve öncesi de): 1899 Kondominyum Antlaşması'nı imzalayan Mısır tarafı `misir-kavalali` (GERÇEK künye, Osmanlı'ya tâbi Hidivlik, f:1805-07-03, t:1914-12-18) idi. Bu kayıt 1899'dan 1914-12-18'e kadar geçerli, yani G2 penceresinin (1914-07-28) TAMAMINI kapsıyor."),
 ]
 
 
@@ -375,19 +520,30 @@ def uret():
     for k in KAYITLAR:
         cift = k["cift"]
         feats = bugunku.get(cift)
+        a_iso, b_iso = cift.split("-")
+        taraflar_override = k.get("taraflar")
         kayit = {
             "id": k["id"],
-            "taraflar": [ISO_KUNYE.get(cift.split("-")[0], cift.split("-")[0]),
-                         ISO_KUNYE.get(cift.split("-")[1], cift.split("-")[1])],
+            "taraflar": taraflar_override if taraflar_override else
+                        [ISO_KUNYE.get(a_iso, a_iso), ISO_KUNYE.get(b_iso, b_iso)],
             "f": k["f"], "t": k["t"],
             "sinif": k["sinif"],
         }
         if feats:
             f = parca_birlestir(feats)
             coords = f["geometry"]["coordinates"]
-            a, b = cift.split("-")
-            st = sol_taraf_bul(coords, a, b, poly)
-            kayit["sol_taraf"] = ISO_KUNYE.get(st, st) if st else None
+            st = sol_taraf_bul(coords, a_iso, b_iso, poly)
+            if taraflar_override:
+                # sol_taraf'i override edilen taraf ADINA cevir: st ISO koduysa
+                # hangi override elemanina karsilik geldigini a_iso/b_iso sirasindan bul
+                if st == a_iso:
+                    kayit["sol_taraf"] = taraflar_override[0]
+                elif st == b_iso:
+                    kayit["sol_taraf"] = taraflar_override[1]
+                else:
+                    kayit["sol_taraf"] = None
+            else:
+                kayit["sol_taraf"] = ISO_KUNYE.get(st, st) if st else None
             kayit["hat"] = [[round(x, 4), round(y, 4)] for x, y in coords]
             kayit["uzunluk_km"] = round(f["properties"]["uzunluk_km"], 1)
             kayit["geometri_kaynagi"] = "Natural Earth 10m admin-0 (bugünkü sınır, D-GEOARAC) — kullanılabilirliği 'degisti' alanına bağlı VEKİL"
