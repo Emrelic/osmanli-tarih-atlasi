@@ -127592,5 +127592,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4174",
+  "zaman": "2026-09-16 23:26",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G3 (1914-07-28 → 1878-07-13) · commit 0a397b3 (origin/main). HAT: 31 yeni kayıt → data/d_sinirlar_asya.js 122 kayıt (E 27 · C 21 · YOK 74 · D 0 · F 0). Yeni 31 = Qing öncülleri 16 (1911 öncesi Çin tarafı qing-hanedani) + elle 15 (Rus–Qing Moğolistan · Kore: Japonya–Qing, Joseon–Qing 1909, Joseon–Rusya 1888 · Burma–Çin 1894 · Tonkin 1887 · Siyam–Laos 1893/1904 · Siyam–Kamboçya 1904 · Siyam–Burma 1868 · Timor 1860/1908 · Afgan–Rus 1873/1885). KRONOLOJİ data/kronoloji_sinir_asya.js 38 madde (G3 +31), artık üretici betikle (ARAC-D5-ASYA-KRONOLOJI-0916.py); her maddede taraflar[] iki id + sinif + sinir_kaydi. SINAV (ARAC-D5-ASYA-SINA-0916.js): 1878 sonrası 92 kırılma, maddesiz 0, hata 0; 84 hanedan/devlet geçişi kırılması (1910 Kore · 1911 Çin/Moğol · 1917 Rus) sınır olayı sayılmadı. Öncelik listesinden: Portsmouth 1905 yazıldı; Shimonoseki 1895'in bölgemde kara hattı yok. YAZILMADI: 1867 Fransız–Siyam (araştırılmadı), 1909 öncesi Siyam–Malaya, 1898 öncesi Hong Kong, 1909 öncesi Yalu. Kaynakta olmayan 3 ifade maddelerden çıkarıldı. Rapor denetim/D5-ASYA-0916.md §6.5d.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
