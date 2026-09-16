@@ -39,8 +39,22 @@ A ile B iki ayrı koşu DEĞİLDİR. Motor tek koşuda:
 ③ arayüz: "B görünümü" anahtarı açıksa dolgu parçaları A'nın üstüne O DEVLETİN rengiyle
    çizilir; kapalıysa çizilmez → A ile B arasında geçiş anlık, yeni koşu gerekmez
 ```
-Enklav birleştirme bir parçanın sahibini değiştiriyorsa, dolgu parçası o enklavı ana devletin
-rengiyle örter (A'daki enklav silinmez, üstü kapanır).
+### 🔴 ENKLAV KURALI — Emre'nin düzeltmesi (16 Eylül, aynı gün)
+
+~~Enklav birleştirme bir parçanın sahibini değiştiriyorsa dolgu onu ana devletin rengiyle örter.~~ YANLIŞ.
+
+"Enklav" burada: bir devletin ana toprağına bağlı olmayan kopuk parçası (teknik adı dış
+parça/exclave; aynı parça, içinde kaldığı devlet açısından enklavdır).
+```
+ARADA BAŞKA DEVLETİN ŞEHRİ / BÖLGESİ / BEYLİĞİ VAR   → parça GERÇEK · ASLA örtülmez, birleştirilmez
+                                                       (aradaki kaydın doğruluğu ayrıca araştırılabilir:
+                                                        yanlışsa VERİ düzeltilir, doğruysa dokunulmaz)
+ARADAKİ TOPRAK YALNIZ BOŞ (kimseye yazılmamış)         → B dolgusu o boşluğu doldurup parçayı ana
+                                                       toprağa bağlayabilir
+```
+B dolgusu hiçbir devletin A'daki toprağını ÖRTMEZ; yalnız BOŞ araziyi doldurur.
+Birleştirmenin başka bir devletin toprağından geçmesi gerekiyorsa birleştirme YAPILMAZ ve
+parça "incelenecek" diye raporlanır (HARITA-VERI işi).
 
 ## C — BELGELİ SINIR
 
@@ -57,4 +71,6 @@ Durum: **tasarım aşaması** — önce hangi belgelerde bu ayrıntı var, ölç
 
 ## Öncelik (en kaba seviyeden ince seviyeye)
 
-`D > C > B > A` — bir bölgede üst seviye varsa alttakiler o bölgede çizilmez.
+`D > C > (A ya da B)` — bir bölgede üst seviye varsa alttakiler o bölgede çizilmez.
+A ile B bir sıra değil bir SEÇİMDİR (kullanıcının anahtarı); B atlanabilir. B kapalıyken benekli
+görünen bir bölge, tarih ilerleyip bir antlaşma geldiğinde doğrudan C'ye geçer.
