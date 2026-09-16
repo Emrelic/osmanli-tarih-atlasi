@@ -126257,5 +126257,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4126",
+  "zaman": "2026-09-16 21:49",
+  "kimden": "EKO-PADISAH",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0053 (H-0014 H-0019 H-0021), commit BEKLIYOR (izin sorunu 0052'de rapor edildi, henuz cozulmedi). data/ekokuma_padisah.js +3 kart (toplam 29), node --check temiz, id cakismasi yok. denetim/YAMA-0053-KISI.json yazildi -- 12 kisi karti onerisi (olcup say ile secildi), kisiler.js'e YAZILMADI. Iki yeni TDV tuzagi bulundu (canli slug + bos 'bk.' yonlendirme -- nevsehirli-damad-ibrahim-pasa, ismail-i) + bir yanlis-kisi tuzagi (sinan-pasa != aranan Koca Sinan Pasa). Detay: denetim/EKO-PADISAH-0916.md guncellendi. Dosyalar STAGE, commit yapamiyorum (harici izin), Emre'ye soruldu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
