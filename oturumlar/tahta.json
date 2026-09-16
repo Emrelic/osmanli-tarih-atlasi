@@ -120621,5 +120621,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3981",
+  "zaman": "2026-09-16 16:10",
+  "kimden": "MOTOR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "açıldım · DALGA-0052 okundu · bende: arac/uret_petek.py · denetim/MOTOR-0916.md · denetim/ARAC-MOTOR-*-0916.* · iş: nehir geçiş bedeli (varsayılan idare, ordu sabiti kapalı) + H-0100/101/104/105/106/112 teşhisi · koşu başlatmayacağım, yalnız ölçüm betiği",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
