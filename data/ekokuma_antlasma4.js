@@ -732,4 +732,325 @@ window.EKOKUMA_ANTLASMA4 = [
   kaynak:"TDV: ibrahim-pasa-kavalali (Avrupa devletlerinin ihtarı, Mehmed Ali'nin cevabı, Modon-Koron, 6 Ağustos 1828 Codrington anlaşması, Bâbıâli'nin izni olmadan çekilme) · TDV: yunanistan (1828'de İbrâhim Paşa'nın Mora'dan çekilişi) · TDV: navarin",
   ic_not:"Osmanlı merkezi taraf değil; taraf bir Osmanlı valisi. Tahliyenin tamamlanma günü (madde 1828-10-05) TDV'de OKUNMADI; madde dosyasına dayanıyor." },
 
+// ═══ PARTİ 3 · 1840 – 1921 ═══════════════════════════════════════════════
+// Atlananlar: Kütahya 1833 (içeriği ekokuma_antlasma2 hunkar sebep-sonuç
+// kartında) · Hünkâr İskelesi 1833 · Paris 1856 · Ayastefanos/Berlin 1878 ·
+// Mondros 1918 · Sevr · Mudanya · Lozan (kendi kartları var) · Balta Limanı 1838
+// (ekokuma_ekonomi kartı hükümleri taşıyor) · Uşi 1912 (ekokuma_antlasma3) ·
+// ilk dış borç 1854 (antlaşma değil, borç sözleşmesi) · Mersâ 1883 ve Kondominyum
+// 1899 (Osmanlı taraf değil, D111).
+
+// ── 1840 LONDRA ANTLAŞMASI → 1841 İRSÎ VALİLİK FERMANI ─────────────────────
+{ id:"antlasma4-misir-meselesi-1840-1841", tur:"sebep-sonuc",
+  kisa:"Mısır valisini padişaha karşı koruyan Fransa masaya çağrılmadı; dört büyük devlet Mehmed Ali'yi Mısır'a hapsetti, karşılığında Mısır'ı onun soyuna bıraktı.",
+  sebep:{ b:"Mehmed Ali Paşa ile Bâbıâli mücadelesinin, Osmanlı donanmasının Mısır'a teslimiyle bir Avrupa meselesine dönüşmesi", t:"1839-07-27" },
+  sonuc:{ b:"Mısır'ın irsî idaresinin Mehmed Ali soyuna verilmesi", t:"1841-05-24" },
+  bag:"Önemi: TDV abdülmecid maddesine göre 27 Temmuz 1839 ortak notasının kabulüyle Osmanlı tarihinde yeni bir dönem başladı ve devlet bir bakıma Avrupa devletlerinin vesayeti altına girdi. Mısır meselesi 1841 fermanıyla nihaî çözüme kavuştu, ama Mısır fiilen yarı bağımsız bir hanedan yönetimine geçti.",
+  surec:"Osmanlı donanmasının Mısır'a teslimiyle Bâbıâli ile Mehmed Ali arasındaki mücadele yeniden bir Avrupa meselesi oldu; 27 Temmuz 1839'da beş büyük devletin temsilcileri ortak bir notayla Bâbıâli'den kendi girişimlerinin sonucunu beklemesini istedi. Tanzimat Fermanı'nın yarattığı hava çözümü kolaylaştırdı. İngiltere'nin teklifiyle Londra'da toplanan devletlerden Mısır valisini destekleyen Fransa dışarıda bırakıldı; 15 Temmuz 1840'ta Bâbıâli, İngiltere, Rusya, Avusturya ve Prusya Londra Antlaşması'nı imzaladı. Fransa'nın telkiniyle Mehmed Ali şartları reddetti; İngiliz, Avusturya ve Osmanlı gemilerinden oluşan donanma Sayda, Beyrut ve Hayfa'yı aldı, Akkâ 4 Kasım'da düştü. 15 Eylül'de valilikten azledilmiş olan Mehmed Ali, 27 Kasım 1840'ta İskenderiye'de Amiral Napier ile anlaştı.",
+  hukumler:[
+    "Londra (15 Temmuz 1840): Mısır'ın idaresi Mehmed Ali'ye irsî olarak, Akkâ'nınki kaydıhayat şartıyla verilecekti.",
+    "Londra: Mehmed Ali şartları kabul etmezse imzacı devletler zorla uygulayacaktı (antlaşma gereği ortak donanma harekâtı yapıldı).",
+    "İskenderiye (27 Kasım 1840): Mısır'ın irsî idaresi kabul edilirse Mehmed Ali Osmanlı donanmasını iade edip Suriye'yi boşaltacaktı.",
+    "Ferman (24 Mayıs 1841): Mısır'ın idaresi Mehmed Ali Paşa soyunun en büyük erkek evlâdına geçecekti."
+  ],
+  metin:"Ferman Mehmed Ali tarafından kabul edildi ve TDV'ye göre Mısır meselesi böylece nihaî çözümüne kavuştu; paşanın son yılları sükûn içinde geçti. İşgal ettiği topraklar ve Osmanlı donanması geri alındı. Aynı devletler birkaç hafta sonra Londra'da Boğazlar Sözleşmesi'ni imzaladı (13 Temmuz 1841).",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1840-07-15|Londra Antlaşması","1840-11-27|İskenderiye Konvansiyonu","1841-05-24|irsî"],
+  kaynak:"TDV: kavalali-mehmed-ali-pasa (27 Temmuz 1839 notası, 15 Temmuz 1840 Londra ve hükümleri, Fransa'nın tutumu, Sayda-Beyrut-Hayfa, 4 Kasım Akkâ, 15 Eylül azil, 27 Kasım Napier anlaşması, 24 Mayıs 1841 fermanı) · TDV: abdulmecid (vesayet değerlendirmesi, Tanzimat'ın etkisi, Fransa'nın dışarıda bırakılması, donanmanın geri alınması)",
+  ic_not:"Nizip savaşı TDV kavalali maddesinin okunan parçasında adıyla geçmediği için kartta anılmadı. Maddenin 1840-11-27 bağı 'İskenderiye Konvansiyonu' b metnine göre." },
+
+// ── 1841 LONDRA BOĞAZLAR SÖZLEŞMESİ ────────────────────────────────────────
+{ id:"antlasma4-bogazlar-1841", tur:"sebep-sonuc",
+  kisa:"Hünkâr İskelesi'nin gizli maddesi Avrupa'yı ayağa kaldırmıştı; sekiz yıllık süre dolarken Boğazlar tek bir devletin değil, Avrupa'nın ortak kuralına bağlandı.",
+  sebep:{ b:"Hünkâr İskelesi Antlaşması'nın Çanakkale'yi Rusya lehine kapatan gizli maddesi", t:"1833-07-08" },
+  sonuc:{ b:"Londra Boğazlar Sözleşmesi", t:"1841-07-13" },
+  bag:"Önemi: Boğazlar meselesi ilk kez büyük devletlerin ortak bir sözleşmesine bağlandı; Osmanlı'nın Boğazlar üzerindeki hâkimiyeti tanındı ama bu hâkimiyetin kuralı artık Avrupa'nın onayına bağlıydı. Kural 1856 Paris'te Karadeniz'in tarafsızlaştırılmasıyla değiştirildi.",
+  surec:"1833 Hünkâr İskelesi Antlaşması sekiz yıl için yapılmıştı. Gizli maddesiyle Rusya, askerî yardım yükünden Osmanlı'yı kurtarmak karşılığında Çanakkale Boğazı'nın kendi lehine kapatılmasını ve hiçbir yabancı savaş gemisinin geçirilmemesini kabul ettirmişti. Maddenin varlığı ve içeriği açığa çıkınca İngiltere ve Fransa Petersburg ve Bâbıâli nezdinde protestolara başladı ve donanmalarını Çanakkale önlerine gönderdi; gizli madde Mısır meselesinin sonuna kadar Avrupa'nın gündeminde kaldı. Mısır meselesi 1840 Londra Antlaşması ve 1841 fermanıyla çözülünce aynı devletler Londra'da yeniden bir araya geldi.",
+  hukumler:[
+    "Osmanlı Devleti'nin Boğazlar üzerindeki hâkimiyeti kabul edildi.",
+    "Yabancı savaş gemilerinin Boğazlardan geçemeyeceği esası kabul edildi.",
+    "(Barış zamanına dair istisnalar ve maddelerin tam metni TDV'de okunmadı.)"
+  ],
+  metin:"Sözleşme 13 Temmuz 1841'de Londra'da imzalandı. Kırım Savaşı sırasında 1854'te Viyana'da belirlenen dört maddelik barış programının üçüncü maddesi, 1841 Londra Boğazlar Mukavelenâmesi'nin Avrupa güçler dengesine göre değiştirilmesini öngördü; 1856 Paris Antlaşması Karadeniz'i tarafsız ve silahsız hâle getirdi.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1841-07-13|Boğazlar"],
+  kaynak:"TDV: abdulmecid (13 Temmuz 1841, Boğazlar üzerindeki hâkimiyet ve savaş gemisi esası) · TDV: hunkar-iskelesi-antlasmasi (sekiz yıllık süre, gizli madde, İngiliz-Fransız protestoları) · TDV: paris-antlasmasi (1854 Viyana programının 3. maddesi)",
+  ic_not:"TDV abdulmecid imzacıları 'yine aynı devletler' diye veriyor (İngiltere, Rusya, Avusturya, Prusya); Fransa'nın 1841 sözleşmesine katılıp katılmadığı bu turda OKUNMADI — kartta imzacı listesi bilerek yazılmadı." },
+
+// ── 1847 İKİNCİ ERZURUM ANTLAŞMASI ─────────────────────────────────────────
+{ id:"antlasma4-erzurum-1847", tur:"sebep-sonuc",
+  kisa:"Savaşın eşiğine gelen iki Müslüman devletin sınırını, çıkarları olan iki Avrupa devleti çizdi; dört yıllık konferans Erzurum'da bir antlaşmayla, sınırın kendisi ise ancak yetmiş yıl sonra çizildi.",
+  sebep:{ b:"Osmanlı-İran sınır anlaşmazlıkları ve iki devletin 1842'de savaşın eşiğine gelmesi", t:"1842" },
+  sonuc:{ b:"İkinci Erzurum Antlaşması", t:"1847-06-01" },
+  bag:"Önemi: Kasr-ı Şirin (1639) çizgisini esas alan Osmanlı-İran sınırını ilk kez somut yer adları ve bir sınır komisyonu hükmüyle belirlemeye çalıştı; Süleymaniye'nin Osmanlı'da kalması ile Muhammere ve Şattülarap kıyısındaki düzenleme, XX. yüzyılın Irak-İran sınır anlaşmazlıklarına kadar uzanan bir mirasın başlangıcıdır.",
+  surec:"1823 I. Erzurum Antlaşması savaş öncesi sınırlara dönmüştü, ama anlaşmazlıklar bitmedi. 1838'de Herat'ı almaya çalışan İran'a karşı Bağdat Valisi Ali Rıza Paşa Huzistan'a girdi ve iki ülke 1842'de savaşın eşiğine geldi. İran'da çıkarı olan Rusya ve İngiltere, savaşı önlemek ve sınırı kesin olarak belirlemek için Osmanlı'ya baskı yaptı. 15 Mayıs 1843'te Erzurum'da İngiliz ve Rus temsilcilerinin arabuluculuğuyla bir konferans toplandı; makaleye göre İngilizler ve Ruslar bir taslak hazırlayıp iki tarafa dikte ettiler. TDV erzurum maddesine göre konferansa ev sahipliği yapan şehirde İran delegelerinin yol açtığı bir ayaklanma da çıktı. Müzakereler dört yıl sürdü.",
+  hukumler:[
+    "Dokuz madde; iki taraf birbirinden maddî talepte bulunmayacaktı.",
+    "İran, Zohab (Zühâb) şehrinin batı tarafını Osmanlı'ya; Osmanlı, Zohab'ın doğu tarafını ve Kürend deresini İran'a bıraktı.",
+    "İran Süleymaniye şehri üzerindeki iddiasından vazgeçti; Osmanlı Muhammere limanını, Hızır adasını (Abadan) ve Şattülarap'ı (makalenin ifadesiyle) İran'a bıraktı.",
+    "Taraflar kendilerine ait olmayan yerlerden çekilecek, sınırın belirlenmesi için mühendis tayin edilecekti.",
+    "Osmanlı hacıların ve ziyaretçilerin kutsal yerleri güvenle ziyaretini sağlayacaktı.",
+    "İki devlet birbirinin ülkesinde konsolosluk açabilecekti.",
+    "Dört devletten oluşan bir sınır belirleme komisyonu kuruldu."
+  ],
+  metin:"Komisyon başlamadan Derviş Paşa Kotur bölgesini Osmanlı'ya bağladı. Ocak 1850'de çalışmaya başlayan komisyon 1852'de Osmanlı'nın çekilmesiyle durdu; İngiltere ve Rusya'nın canlandırma çabaları Kırım Savaşı yüzünden sonuçsuz kaldı. 3 Ağustos 1869 antlaşmasıyla sorunlu bölgelerin komisyon incelemesi sırasındaki hâliyle kalması kararlaştırıldı; 1874-1875 komisyonları da sonuç vermeden dağıldı. Ekokuma kasrisirin kartındaki Sabri Ateş aktarımına göre bu sınır ancak 1843-1914 arasında aralıklarla çalışan karma komisyonlarla uluslararası tanınan kesin bir sınıra dönüşebildi.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1847-05-31|Erzurum"],
+  kaynak:"Haydar Efe – Murat Kızıl, 'Sınır Kavramı ve Tarihsel Süreç İçinde Türkiye-İran Sınırının Oluşumu ve Önemi', Erzincan Üniversitesi Sosyal Bilimler Enstitüsü Dergisi X-I (2017), s. 77-90 — hakemli dergi; kendisi Soofizadeh 2013 ve As 2010'a dayanıyor (1823 antlaşması, 1842 gerginliği, 15 Mayıs 1843 konferansı, 1 Haziran 1847 antlaşması ve maddeleri, komisyon, 1869) · TDV: erzurum (1843 konferansına ev sahipliği, İran delegelerinin yol açtığı ayaklanma, 28 Temmuz 1823) · ekokuma_kasrisirin (Ateş aktarımı)",
+  ic_not:"🔴 TDV'de bu antlaşmanın maddelerini veren bir gövde BULUNAMADI (erzurum, iran, basra okundu; muhammere, hurremsehr, zuhab, suleymaniye, enveri-said-pasa 302). Metin denetim/_govde/turkiye-iran-sinir-makale.txt'den (başka bir oturumun çektiği hakemli makale) okundu. 🔴 GÜN FARKI: makale '1 Haziran 1847', madde t:1847-05-31 — bir gün; hüküm verilmedi, kartın `sonuc.t`si makaleye göre. ⚠️ Makale 'Şattülarab'ı İran'a bıraktı' diyor; nehrin kendisinin mi yoksa kıyı haklarının mı bırakıldığını ayırmıyor — kartta 'makalenin ifadesiyle' damgası bu yüzden var." },
+
+// ── 1849 BALTALİMANI SÖZLEŞMESİ ────────────────────────────────────────────
+{ id:"antlasma4-baltalimani-1849", tur:"sebep-sonuc",
+  kisa:"1848 ihtilâlleri Tuna prensliklerine sıçrayınca iki 'metbû devlet' ortak bir işgalde buluştu; sözleşme prenslikleri yeniden atanmış beylerin eline verdi.",
+  sebep:{ b:"1848 ihtilâllerinin Eflak ve Boğdan'a yayılması ve Rus işgali", t:"1848" },
+  sonuc:{ b:"Osmanlı ile Rusya arasında Baltalimanı Sözleşmesi", t:"1849-05-01" },
+  bag:"Önemi: TDV abdülmecid maddesine göre Memleketeyn meselesini yalnız geçici bir sonuca bağladı. Prensliklerdeki millî uyanış ve birleşme arzusu sürdü; Rusya ile ortak himaye düzeni birkaç yıl sonra 'mukaddes makamlar' krizi ve Rusya'nın Eflak-Boğdan'ı işgaliyle Kırım Savaşı'na dönüştü.",
+  surec:"1848'de Eflak'ta Nicolae Bălcescu'nun önderliğinde aydınlar, Rusya'nın etkisini artırmak için kullandığı 'regulamentul organik'i kaldırıp yerine millî bir yasa koymak istediler; Rusya harekete karşı Eflak'a müdahale etti. Boğdan'da da 1848'de Yaş'ta çıkan ayaklanma Rus ordularının işgaliyle sonuçlandı. Aynı dönemde Osmanlı, Avusturya'ya karşı savaşan ve Türkiye'ye sığınan Macar mültecileri Avusturya ve Rusya'nın savaş tehditlerine rağmen iade etmedi. İki metbû devlet, Osmanlı ve Rusya, prenslikler meselesini İstanbul'da Baltalimanı'nda bir sözleşmeye bağladı.",
+  hukumler:[
+    "Memleketeyn meselesi Osmanlı ile Rusya arasında (geçici olarak) düzenlendi.",
+    "Boğdan mebusan meclisi lağvedildi ve prensliğe Grigore Ghica getirildi (TDV boğdan).",
+    "(Sözleşmenin süre, işgal kuvvetleri ve beylerin tayin usulüne dair maddeleri TDV'de okunmadı.)"
+  ],
+  metin:"TDV boğdan maddesine göre bu dönemde Memleketeyn'de millî uyanış gün geçtikçe güçleniyor ve iki prensliğin birleşmesini hedefliyordu; Boğdan'da birçok aydın bunun için çalışıyordu. Birkaç yıl sonra Kudüs'teki kutsal yerler meselesi Osmanlı ile Rusya'yı karşı karşıya getirdi; Rusya'nın isteklerini Osmanlı reddedince Rusya Eflak-Boğdan'ı işgal etti ve 4 Ekim 1853'te savaş ilân edildi.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1849-05-01|Baltalimanı"],
+  kaynak:"TDV: abdulmecid (Macar mülteciler, 1 Mayıs 1849 Baltalimanı Antlaşması'yla geçici sonuç, sonraki kriz) · TDV: eflak (1848 hareketi, regulamentul organik, Rus müdahalesi) · TDV: bogdan (Yaş ayaklanması, iki metbû devlet, mebusan meclisinin lağvı, Grigore Ghica, birleşme arzusu)",
+  ic_not:"Hüküm listesi bilerek kısa — sözleşme metni okunmadı. 'Bălcescu' TDV'de 'Balçesku'." },
+
+// ── 1854 İNGİLTERE VE FRANSA İLE İTTİFAK ────────────────────────────────────
+{ id:"antlasma4-ittifak-1854", tur:"sebep-sonuc",
+  kisa:"Kudüs'teki bir kilise anahtarı kavgası, Osmanlı'yı Avrupa'nın iki büyük devletiyle aynı safta Rusya'ya karşı savaşa soktu.",
+  sebep:{ b:"Mukaddes makamlar meselesi, Rusya'nın Ortodoks tebaanın himayesini istemesi ve Eflak-Boğdan'ı işgali", t:"1853-10-04" },
+  sonuc:{ b:"İstanbul'da İngiltere ve Fransa ile ittifak antlaşması", t:"1854-03-12" },
+  bag:"Önemi: Osmanlı Devleti Kırım Savaşı'nda İngiltere, Fransa ve Piyemonte ile aynı safta yer aldı. Savaş Paris Antlaşması (1856) ile bitti; müttefiklerin yardımının bedeli olarak Islahat Fermanı da (18 Şubat 1856) onların hazırlığıyla ilân edildi.",
+  surec:"Kudüs'teki Katolikleri himaye için başvuran Fransa'ya karşı Rusya da Ortodoksların haklarını koruma iddiasıyla harekete geçti ve bir notayla Ortodoks Osmanlı tebaasına geniş haklar ve bunların himaye hakkının kendisine verilmesini istedi. Osmanlı reddedince Rusya Eflak-Boğdan'ı işgal etti ve Osmanlı 4 Ekim 1853'te Rusya'ya savaş ilân etti. TDV paris-antlasmasi maddesine göre çekişme bir fırsat olarak görüldü ve özellikle İngiltere'nin İstanbul'daki kıdemli elçisi Stratford de Redcliffe tarafından savaşa varacak ölçüde kullanıldı. İstanbul'da ittifak antlaşması imzalandı; İngiltere ve Fransa 27-28 Mart 1854'te Rusya'ya savaş ilân etti.",
+  hukumler:[
+    "İngiltere ve Fransa, Rusya'ya karşı savaşta Osmanlı Devleti'nin yanında yer alacaktı.",
+    "(Antlaşmanın maddeleri — kuvvetlerin çekilme şartı vb. — TDV'de okunmadı.)"
+  ],
+  metin:"Eylül 1854'te müttefik kuvvetler Kırım'a çıktı ve savaşın asıl cephesi orada kuruldu; ağır kayıplı çarpışmalar ve uzun kuşatmadan sonra Sivastopol 8 Eylül 1855'te düştü. Avusturya ve Prusya tarafsız kaldı. Savaş 30 Mart 1856 Paris Antlaşması'yla sona erdi.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1854-03-12|ittifak"],
+  kaynak:"TDV: abdulmecid (mukaddes makamlar, Rus notası, Eflak-Boğdan işgali, 4 Ekim 1853, müttefikler, Islahat Fermanı) · TDV: paris-antlasmasi (Stratford de Redcliffe, 27-28 Mart 1854 savaş ilânları, Eylül 1854 çıkarma, Sivastopol)",
+  ic_not:"TDV'de 12 Mart 1854 ittifak antlaşmasının kendisini anlatan bir cümle BULUNAMADI; kart savaşın bağlamını veriyor, madde günü madde dosyasından. Hüküm listesi bilerek tek madde." },
+
+// ── 1913 LONDRA ANTLAŞMASI ─────────────────────────────────────────────────
+{ id:"antlasma4-londra-1913", tur:"sebep-sonuc",
+  kisa:"Edirne'yi kurtarmak iddiasıyla iktidara gelenler, Edirne'yi de bırakan bir barışı imzalamak zorunda kaldı; Rumeli'nin neredeyse tamamı tek bir antlaşmayla gitti.",
+  sebep:{ b:"I. Balkan Savaşı: Balkan ittifakının Osmanlı'ya savaş açması ve Rumeli'deki bozgunlar", t:"1912-10-08" },
+  sonuc:{ b:"Londra'da Osmanlı ile Balkan devletleri arasında barış", t:"1913-05-30" },
+  bag:"Önemi: TDV'ye göre Balkan savaşları Osmanlı tarihinde bir dönüm noktası oldu: asırlardır Rumeli'de yaşayan Müslüman nüfus büyük kayıplar verdi ve büyük kısmı Anadolu'ya sığındı. Antlaşma Midye-Enez hattının batısını Osmanlı'dan kopardı; ama Balkan müttefikleri ganimeti paylaşamayınca bir ay içinde birbirleriyle savaşa tutuştu.",
+  surec:"Rusya'nın kışkırtmasıyla 1912'de Bulgaristan, Yunanistan, Sırbistan ve Karadağ arasında ittifaklar kuruldu; Bâbıâli uyarılara rağmen buna inanmadı ve Rumeli'deki 120 talimli taburu terhis etti. Karadağ 8 Ekim 1912'de savaş ilân etti, müttefikler katıldı. Osmanlı Şark Ordusu Çatalca'ya çekildi, Garp Ordusu Kumanova'da yenildi, Selânik teslim oldu. Kâmil Paşa kabinesi büyük devletlerden ateşkes için aracılık istedi; görüşmeler sürerken İttihat ve Terakkî Bâbıâli Baskını'yla iktidarı aldı. 3 Şubat 1913'te savaş yeniden başladı: Yanya (6 Mart), Edirne (26 Mart) ve İşkodra (23 Nisan) düştü. Edirne'yi kurtarmak iddiasıyla iktidara gelen yönetim Kâmil Paşa'nın kabul etmediği şartları kabul etmek zorunda kaldı. 31 Mart'ta büyükelçiler Hariciye Nâzırı Said Halim Paşa'ya dört maddelik bir notayla barış esaslarını bildirdi ve Londra Konferansı yeniden başladı.",
+  hukumler:[
+    "Midye-Enez hattı Osmanlı-Bulgar sınırı kabul edildi.",
+    "Edirne, Trakya ve Dedeağaç Bulgaristan'a bırakıldı.",
+    "Selânik, Güney Makedonya ve Girit Yunanistan'a bırakıldı.",
+    "Kuzey ve Orta Makedonya Sırbistan'a bırakıldı.",
+    "(Silistre de Romanya'ya bırakıldı — TDV aynı cümlede sayıyor.)",
+    "5. madde: Ege adaları meselesi büyük devletlerin kararına havale edildi."
+  ],
+  metin:"Makedonya'nın büyük kısmının Bulgaristan'a kalmasına Sırbistan ve Yunanistan itiraz etti; Romanya da tatmin olmadı. Bulgaristan 23 Haziran 1913'te eski müttefiklerine saldırdı ve II. Balkan Savaşı başladı. Bulgaristan Londra'daki Midye-Enez hattının belirlenmesine yanaşmadı; Osmanlı, Meriç sınırının aşılmayacağını büyük devletlere bildirdi ve kuvvetsiz kalan Edirne'yi 21 Temmuz 1913'te direnişle karşılaşmadan geri aldı. Adalar meselesinde büyük devletler 16 Aralık 1913'te İmroz, Bozcaada ve Meis'i Türkiye'ye, öteki adaları Yunanistan'a verdi.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1913-05-30|Londra Antlaşması"],
+  kaynak:"TDV: balkan-savasi (ittifaklar, Bâbıâli'nin gafleti, savaşın seyri, Bâbıâli Baskını, 31 Mart notası, 30 Mayıs 1913 Londra ve hükümleri, II. Balkan Savaşı, Edirne'nin geri alınışı, 16 Aralık 1913 adalar kararı, dönüm noktası) · TDV: edirne (26 Mart ve 21 Temmuz 1913) · TDV: yunanistan (30 Mayıs 1913 Londra)",
+  ic_not:"TDV Silistre'yi Londra hükümleri cümlesinde sayıyor; tarihsel olarak Silistre'nin Romanya'ya bırakılması ayrı bir düzenlemedir (St. Petersburg protokolü) — bu turda OKUNMADI, kart TDV cümlesini parantezle aktardı." },
+
+// ── 1913 LONDRA SÖZLEŞMESİ (KATAR) ─────────────────────────────────────────
+{ id:"antlasma4-katar-1913", tur:"sebep-sonuc",
+  kisa:"Yalnızlıktan kurtulmak için İngiltere ile anlaşma arayan Osmanlı, Katar'daki bütün taleplerinden vazgeçti — ama antlaşma hiç yürürlüğe girmedi.",
+  sebep:{ b:"II. Meşrutiyet'te dış politikadaki yalnızlık ve 1910'da İngiltere ile başlayan görüşmeler", t:"1910" },
+  sonuc:{ b:"Londra'da imzalanan İngiliz-Osmanlı sözleşmesi: Katar'dan feragat", t:"1913-07-29" },
+  bag:"Önemi: Osmanlı'nın 1871'den beri Necid sancağına bağlı bir kaza olarak yönettiği Katar üzerindeki iddiasını kâğıt üzerinde bıraktığı metin. Yürürlüğe girmediği için hukuken sonuç doğurmadı; fiilî son I. Dünya Savaşı'yla geldi.",
+  surec:"1871 sonbaharında Midhat Paşa'nın Lahsâ seferi sırasında Şeyh Câsim b. Sânî İngiliz tehdidinden kurtulmak için Osmanlı askerini davet etti; Katar Necid sancağına bağlı bir kaza, Câsim de fahrî kaymakam oldu. Sonraki yıllarda Câsim zaman zaman başına buyruk hareket etti; Osmanlı bölgede varlığını artırmak istedikçe İngilizlerle karşı karşıya geldi (1895'te Zübâre'ye İngiliz saldırısı). II. Meşrutiyet yıllarında dış politikadaki yalnızlıktan kurtulmak için 1910'da İngilizlerle başlatılan görüşmelerde Katar'ın statüsü yeniden gündeme geldi.",
+  hukumler:[
+    "Osmanlı Devleti Katar yarımadası üzerindeki bütün taleplerinden feragat etti.",
+    "Katar'ın Şeyh Câsim b. Sânî ve halefleri tarafından yönetilmesinde mutabakata varıldı.",
+    "Antlaşma imzalandı ama yürürlüğe girmedi."
+  ],
+  metin:"Şeyh Câsim ölünce yerine oğlu Abdullah'ın tayini yine Osmanlı Devleti'nin muvafakatiyle oldu; yani feragatten sonra da bağ tamamen kopmadı. I. Dünya Savaşı ile bölgedeki Osmanlı varlığı sona erdi ve İngilizler 3 Kasım 1916'da Katar Emîri Abdullah ile öteki körfez şeyhleriyle yaptıklarına benzer bir himaye antlaşması imzaladı. Katar 3 Eylül 1971'de bağımsızlığına kavuştu.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1913-07-29|Katar"],
+  kaynak:"TDV: katar (1871 Osmanlı kontrolü, Câsim b. Sânî, Zübâre 1895, 1910 görüşmeleri, 29 Temmuz 1913 Londra antlaşması ve yürürlüğe girmeyişi, Abdullah'ın tayini, 3 Kasım 1916, 1971)",
+  ic_not:"Antlaşmanın Katar dışındaki maddeleri (Basra körfezi, Bağdat demiryolu vb.) TDV katar maddesinde yok, OKUNMADI." },
+
+// ── 1913 İSTANBUL ANTLAŞMASI (BULGARİSTAN) ─────────────────────────────────
+{ id:"antlasma4-istanbul-1913", tur:"sebep-sonuc",
+  kisa:"Londra'da kaybedilen Edirne, eski müttefiklerle savaşan Bulgaristan'dan geri alındı; İstanbul'daki barış bunu tescil etti ve Bulgaristan'da kalan Müslümanlar için ayrıntılı bir müftülük düzeni kurdu.",
+  sebep:{ b:"II. Balkan Savaşı ve Edirne'nin geri alınması", t:"1913-07-21" },
+  sonuc:{ b:"İstanbul'da Osmanlı-Bulgar barışı", t:"1913-09-29" },
+  bag:"Önemi: Balkan savaşlarında Osmanlı'nın geri aldığı tek önemli toprak olan Edirne ve çevresini güvenceye aldı; Meriç nehri iki devlet arasında sınır oldu. Ekindeki müftülük protokolü, Bulgaristan Müslümanlarının dinî-hukukî örgütlenmesini uluslararası bir metne bağladı.",
+  surec:"Londra'daki Midye-Enez hattının belirlenmesine yanaşmayan Bulgaristan, 23 Haziran 1913'te eski müttefiklerine saldırdı ve Romanya da ona savaş açtı. Osmanlı 19 Temmuz'da büyük devletlere Meriç sınırının aşılmayacağını bildirdi ve 21 Temmuz'da Edirne'yi direnişle karşılaşmadan geri aldı. II. Balkan Savaşı 10 Ağustos 1913 Bükreş Antlaşması'yla bitti; Osmanlı ile Bulgaristan barışı ise 29 Eylül 1913'te İstanbul'da imzalandı.",
+  hukumler:[
+    "Yirmi madde. Edirne ile batısında çapı 30 km'lik yarım daire biçiminde bir toprak parçası Osmanlı'da kaldı.",
+    "Batı Trakya Bulgaristan'a iade edildi.",
+    "Meriç nehri iki devlet arasında sınır kabul edildi.",
+    "Müftüler protokolü: Bulgaristan'daki Müslümanlar müftülerini seçecek, müftüler de aralarından bir başmüftü seçecek; başmüftü şeyhülislâmın tasdikiyle göreve başlayacaktı.",
+    "Başmüftü nikâh, boşanma, vasiyet, veraset, vesayet, nafaka ve yetim malı işlerinde tavsiye ve tebligat yapabilecek, bu davalara bakabilecekti; müftüler vakıflardan ve Müslüman okullarının teftişinden sorumlu olacaktı.",
+    "Müftülerin maaşını Bulgar hükümeti ödeyecek, Müslümanlar için Türkçe eğitim yapan ilk ve orta okullar açacaktı (Bulgarca öğrenmek zorunlu).",
+    "Mezarlıklar İslâm cemaatinin vakfı sayılacak; vakıf malları bedeli ödenmeden istimlâk edilmeyecekti."
+  ],
+  metin:"TDV'ye göre savaş sonrası antlaşmalarla Rumeli'de kalan Müslümanların hakları tasdik edildiği hâlde Müslüman Türklere yapılan baskılar durmadı ve göç günümüze kadar sürdü. Aynı yıl 14 Kasım'da Yunanistan ile benzer hükümler içeren Atina Antlaşması imzalandı; Sırbistan ile de 14 Mart 1914'te genel nitelikte bir antlaşma yapıldı.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1913-09-29|Bulgaristan"],
+  kaynak:"TDV: balkan-savasi (II. Balkan Savaşı, 19 ve 21 Temmuz 1913, Bükreş, 29 Eylül 1913 İstanbul Antlaşması'nın yirmi maddesi, müftüler protokolü ayrıntıları, sonraki baskılar, Sırbistan 1914) · TDV: edirne (21 Temmuz 1913)" },
+
+// ── 1913 ATİNA ANTLAŞMASI ──────────────────────────────────────────────────
+{ id:"antlasma4-atina-1913", tur:"sebep-sonuc",
+  kisa:"Selânik ve Girit Londra'da çoktan gitmişti; Atina'daki barış Yunanistan'da kalan Müslümanların haklarını, adaların kaderini ise büyük devletlerin kararını bekledi.",
+  sebep:{ b:"I. Balkan Savaşı'nda Yunanistan'ın Selânik, Yanya ve Ege adalarını işgali", t:"1912-11" },
+  sonuc:{ b:"Atina'da Osmanlı-Yunan barışı", t:"1913-11-14" },
+  bag:"Önemi: Osmanlı-Yunan savaş hâlini resmen bitirdi ve Yunanistan'daki Müslümanlara Rumlarla eşit haklar tanıdı. Asıl kritik mesele olan Ege adaları bu antlaşmayla değil, büyük devletlerin 16 Aralık 1913 kararıyla çözüldü ve Boğaz ağzındaki İmroz ile Bozcaada Osmanlı'ya bırakıldı.",
+  surec:"Balkan Savaşı'nda Tahsin Paşa 35.000 kişilik ordusuyla Selânik'te Yunanlılara teslim oldu (Ekim-Kasım 1912), Yanya 6 Mart 1913'te düştü; İmroz ve Bozcaada 1912'de Yunan eline geçti. Londra Antlaşması Selânik, Güney Makedonya ve Girit'i Yunanistan'a bırakmış, adalar meselesini 5. maddesiyle büyük devletlere havale etmişti. II. Balkan Savaşı'ndan sonra Osmanlı-Yunan barışı Atina'da imzalandı.",
+  hukumler:[
+    "Yunanistan'da kalan Müslümanlara Rumlarla eşit haklar tanındı.",
+    "Onların İstanbul'daki şeyhülislâmlığa bağlı müftülerle ilişkilerinde güçlük çıkarılmayacaktı.",
+    "Müslümanlar müftülerini kendileri seçecek; vakıflar ve eğitim kurumları İslâm cemaat meclislerince yönetilecekti."
+  ],
+  metin:"Adalar meselesinde büyük devletler 16 Aralık 1913'te tebliğ ettikleri kararla İmroz, Bozcaada ve Meis'i Türkiye'ye bıraktı, I. Balkan Savaşı'ndan beri işgal altında tuttuğu öteki adaları Yunanistan'a verdi. TDV imroz maddesi adanın 'ertesi yıl yapılan Londra Konferansı'nda' Osmanlılara bırakıldığını yazar. Bozcaada ise sonra Sevr'in 84. maddesiyle Yunanistan'a bırakıldı ve ancak 20 Eylül 1923'te kurtarıldı.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1913-11-14|Atina","1913-11-01|Bozcaada"],
+  kaynak:"TDV: balkan-savasi (Selânik, Yanya, Londra 5. madde, 14 Kasım 1913 Atina ve hükümleri, 16 Aralık 1913 adalar kararı) · TDV: imroz (1912 işgali, Londra Konferansı'nda Osmanlı'ya bırakılış) · TDV: bozcaada (1912, Sevr 84. madde, 20 Eylül 1923)",
+  ic_not:"🔴 ÇELİŞKİ — madde dosyası bende değil: çekirdek madde 1913-11-01 'Bozcaada ve İmroz'un geri alınışı — Atina Antlaşması' diyor; TDV balkan-savasi adaların İmroz-Bozcaada-Meis'i büyük devletlerin 16 ARALIK 1913 kararıyla Türkiye'ye bıraktığını yazıyor (Atina değil), imroz maddesi 'Londra Konferansı' diyor. Bozcaada maddesi 1913 dönüşünü hiç anmıyor. Kart maddeye bağlandı ama metin TDV'yi izliyor; madde için sorun bildirildi." },
+
+// ── 1914 OSMANLI-ALMAN İTTİFAKI ────────────────────────────────────────────
+{ id:"antlasma4-alman-ittifaki-1914", tur:"sebep-sonuc",
+  kisa:"İttifakı isteyen Almanya değil Osmanlı'ydı; imzalayan kayzerin kendi emriydi — ve antlaşma savaşa girmeyi zorunlu kılmadığı hâlde üç ay içinde savaşa girildi.",
+  sebep:{ b:"Hiçbir büyük Avrupa devletinin ittifak sistemine alınmayan Osmanlı'nın müttefik arayışı", t:"1914-07-28" },
+  sonuc:{ b:"İstanbul'da Osmanlı-Alman gizli ittifak antlaşması", t:"1914-08-02" },
+  bag:"Önemi: Osmanlı Devleti'ni I. Dünya Savaşı'nda Almanya'nın yanına bağlayan metin. TDV enver-paşa maddesine göre yaygın kanının aksine ittifak talebi Almanlardan gelmedi; ittifaka uzun süre direnen taraf Alman İmparatorluğu oldu, ve Enver Paşa'nın Osmanlı'yı bir oldubittiyle ittifaka zorladığı tezi doğru değildir.",
+  surec:"İttihat ve Terakkî liderlerinin tamamı, hiçbir büyük devletin ittifak sistemine dahil edilmeyen Osmanlı'nın Alman ittifakını sağlaması gerektiğine inanıyordu; Enver Paşa bunun için görevlendirildi. İlk teklifleri Almanya'nın İstanbul büyükelçisi Hans von Wangenheim tarafından reddedildi. Avusturya-Macaristan yetkililerinin baskısıyla, Wangenheim'ın ve Şansölye Bethmann-Hollweg'in itirazlarına rağmen Kayzer II. Wilhelm'in şahsî emriyle antlaşma, Almanya'nın Rusya'ya savaş açmasının ertesi günü, Sadrazam Said Halim Paşa'nın yalısında imzalandı. Aynı gün Osmanlı genel seferberlik ilân etti.",
+  hukumler:[
+    "Osmanlı Devleti ile Almanya arasında gizli ittifak.",
+    "TDV'ye göre antlaşma Osmanlı'yı savaşa girmek zorunda bırakmıyordu.",
+    "(Madde metni TDV'de okunmadı.)"
+  ],
+  metin:"Osmanlı hükümeti aslında tarafsız kalmak niyetindeydi. 10 Ağustos 1914'te İngiliz donanmasından kaçan Goeben ve Breslau kruvazörleri Çanakkale'ye girip sığındı; tarafsızlık gereği Türk sularını terk etmeleri gerekiyordu ve sorun gemilerin satın alınmasıyla çözüldü. Enver Paşa'nın arkadaşlarından ayrıldığı nokta, ittifakın zorunlu kılmadığı savaşa girmeyi istemesiydi. Yavuz ve Midilli adını alan kruvazörlerle birlikte Osmanlı donanması Alman Amirali Souchon komutasında 27 Ekim'de Karadeniz'e açılıp Rus gemilerini batırdı ve Sivastopol ile Novorossiysk'i topa tuttu; Rusya 2 Kasım 1914'te savaş ilân etti. TDV said-halim-paşa maddesine göre bu saldırı sadrazamın onayı alınmadan yapıldı ve bundan sonra sadâreti göstermelik hâle geldi.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1914-08-02|ittifak"],
+  kaynak:"TDV: enver-pasa (ittifak talebinin kaynağı, Wangenheim'ın reddi, Bethmann-Hollweg, II. Wilhelm'in emri, oldubitti tezinin reddi, savaşa girme meselesi) · TDV: birinci-dunya-savasi (2 Ağustos 1914, seferberlik, tarafsızlık niyeti, Goeben-Breslau, 27 Ekim, 2 Kasım 1914) · TDV: said-halim-pasa (yalıda imza, onaysız saldırı)",
+  ic_not:"TDV enver-pasa şansölyeyi 'Betmann-Hollweg' diye yazıyor; kartta yaygın yazım 'Bethmann-Hollweg' kullanıldı." },
+
+// ── 1918 BREST-LİTOVSK ANTLAŞMASI ───────────────────────────────────────────
+{ id:"antlasma4-brest-litovsk-1918", tur:"sebep-sonuc",
+  kisa:"Kırk yıl önce savaş tazminatı yerine verilen üç sancak, Rusya'nın ihtilâlle savaştan çekilmesiyle geri döndü — ama ancak yedi ay için.",
+  sebep:{ b:"1878'de Kars, Ardahan ve Batum'un savaş tazminatına karşılık Rusya'ya bırakılması ve Bolşevik İhtilâli", t:"1878-07-13" },
+  sonuc:{ b:"Brest-Litovsk'ta Rusya'nın Elviye-i Selâse'yi Osmanlı'ya iade etmesi", t:"1918-03-03" },
+  bag:"Önemi: Elviye-i Selâse meselesi kırk yıl sonra Osmanlı lehine çözüldü ve 1918 Haziranı'ndaki halk oylamasıyla katılım kesinleşti. Mondros'un 1914 sınırlarına çekilme hükmü bu kazanımı bozdu, ama Kars ve Ardahan'ın Türkiye'de kalması 1921 Moskova ve Kars antlaşmalarıyla yeniden sağlandı.",
+  surec:"Ayastefanos'ta (md. 19) savaş tazminatına karşılık Rusya'ya bırakılan Kars, Ardahan ve Batum, Berlin'de (md. 58) de Rusya'ya terk edilmiş; üç yılda 120.000 kişi bölgeden göç etmişti. I. Dünya Savaşı'nda bölge Rus ordusunun ve Ermeni komitacılarının saldırılarına sahne oldu. Bolşevik İhtilâli'nden sonra Rusya savaştan çekildi ve Brest-Litovsk'ta imzaladığı antlaşmayla üç sancağı Osmanlı'ya iade etti. Ruslar çekilirken yerlerini Ermenilere bıraktığından Türk ordusu ileri harekâta geçti: Kars 25 Nisan 1918'de alındı (TDV kars: harekât 23 Nisan'da başladı), Gümrü 15 Mayıs'ta.",
+  hukumler:[
+    "Rusya Kars, Ardahan ve Batum sancaklarını (Elviye-i Selâse) Osmanlı Devleti'ne iade etti.",
+    "(Antlaşmanın Osmanlı'yı ilgilendiren öteki maddeleri ve halk oylaması hükmünün metni TDV'de okunmadı; TDV oylamanın sonradan 'kararlaştırıldığını' yazıyor.)"
+  ],
+  metin:"İadeye en çok Ermeniler tepki gösterdi; Türk ordusunun duruma hâkim olmasıyla bölgede halkın serbest oyuna başvurulmasına karar verildi ve 1918 Haziranı'ndaki oylamayla katılım kesinleşti. Mondros Mütarekesi'yle (30 Ekim 1918) Osmanlı ordusu 1914 sınırlarına çekilmek ve sancakları 25 Ocak 1919'a kadar boşaltmak zorunda kaldı. Halk 5-6 Kasım 1918'de Kars İslâm Şûrası'nı kurdu, bu 1919'da Cenûb-i Garbî Kafkas Hükümeti adını aldı; İngilizler 12 Nisan 1919'da Kars'ı basıp hükümeti dağıttı ve bölgeyi Ermenilere bıraktı, Ardahan Gürcü işgaline uğradı.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1918-03-03|Brest","1918-05-25|Elviye"],
+  kaynak:"TDV: elviye-i-selase (1878 terki ve maddeleri, göç, 3 Mart 1918 iadesi, Ermeni tepkisi, Haziran 1918 plebisiti, Mondros, Kars İslâm Şûrası, 12 Nisan 1919) · TDV: kazim-karabekir (25 Nisan 1918 Kars, 15 Mayıs Gümrü) · TDV: kars (23 Nisan 1918 harekât, 5 Kasım 1918 şûra)",
+  ic_not:"TDV içinde gün farkları: Kars'ın alınışı kazim-karabekir'de 25 Nisan, kars maddesinde 'ileri harekâta geçerek 23 Nisan'; Kars İslâm Şûrası elviye'de 6 Kasım, kars'ta 5 Kasım 1918. Kartta ikisi de verildi. 1918-05-25 maddesinin günü TDV'de OKUNMADI." },
+
+// ── 1919 AMASYA PROTOKOLÜ ──────────────────────────────────────────────────
+{ id:"antlasma4-amasya-1919", tur:"sebep-sonuc",
+  kisa:"İstanbul hükümeti Anadolu'daki direniş örgütünü muhatap aldı: bir bakanla Temsil Heyeti arasındaki görüşme, Sivas kararlarının merkezce tanınmasıyla bitti.",
+  sebep:{ b:"Sivas Kongresi'nin ardından Damat Ferid hükümetinin düşmesi ve Ali Rızâ Paşa'nın sadrazam olması", t:"1919-10-02" },
+  sonuc:{ b:"Amasya'da Bahriye Nâzırı Sâlih Paşa ile Temsil Heyeti görüşmesi", t:"1919-10-22" },
+  bag:"Önemi: TDV'ye göre bu görüşmelerde Sivas Kongresi kararları merkezî hükümetçe de tanındı. Böylece Anadolu'daki hareket, İstanbul'un karşısında bir isyan değil, devletin muhatap aldığı bir temsil organı olarak kabul görmüş oldu.",
+  surec:"Sivas Kongresi bütün direniş örgütlerini Anadolu ve Rumeli Müdâfaa-i Hukuk Cemiyeti çatısında birleştirdi ve ülkeyi yönetmeye yetkili bir organ olduğunu ortaya koydu. Padişah 2 Ekim 1919'da Ali Rızâ Paşa'yı sadrazam yaparak Anadolu ile İstanbul arasındaki anlaşmazlığın giderilmesini istedi. Bahriye Nâzırı Sâlih Paşa ile Temsil Heyeti 20-22 Ekim tarihlerinde Amasya'da görüştü.",
+  hukumler:[
+    "Sivas Kongresi kararları merkezî hükümetçe de tanındı.",
+    "(Protokolün maddeleri — meclisin toplanma yeri, seçimler vb. — TDV milli-mucadele maddesinde okunmadı.)"
+  ],
+  metin:"Aynı günlerde müttefikler Yunan işgal bölgesini 7 Ekim'de Milne hattıyla sınırladı ve 3 Kasım'da Kuvâ-yi Milliye'nin bu hattın 3 km gerisine çekilmesini istedi; Harbiye Nezareti, Kuvâ-yi Milliye'nin hükümetin emrini dinlemeyeceğini ileri sürerek teklifi reddetti.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1919-10-22|Amasya"],
+  kaynak:"TDV: milli-mucadele (Sivas Kongresi'nin niteliği, 2 Ekim 1919, 20-22 Ekim Amasya görüşmeleri, Sivas kararlarının tanınması, Milne hattı)",
+  ic_not:"Bir devletlerarası antlaşma değil, iç protokol; madde envanterde antlaşma etiketiyle geldi. Hüküm listesi bilerek kısa." },
+
+// ── 1920 GÜMRÜ ANTLAŞMASI ──────────────────────────────────────────────────
+{ id:"antlasma4-gumru-1920", tur:"sebep-sonuc",
+  kisa:"Sevr doğu Anadolu'yu Ermenistan'a veriyordu; Doğu Cephesi harekâtından sonra Ermenistan, Ankara'nın imzaladığı ilk antlaşmayla bu haklardan vazgeçti.",
+  sebep:{ b:"Sevr'in doğu vilâyetlerini Ermenistan'a vermesi ve Kâzım Karabekir'in doğu harekâtı", t:"1920-09-28" },
+  sonuc:{ b:"Gümrü'de TBMM hükümeti ile Ermenistan arasında antlaşma", t:"1920-12-03" },
+  bag:"Önemi: TDV milli-mücadele maddesine göre Ankara'nın imzaladığı ilk antlaşma. Doğu cephesini kapattı; buradaki birlikler ve Ermenilerden alınan silahlar batı cephesine nakledildi. Kâzım Karabekir'e 'doğu fâtihi' unvanını kazandırdı ve Millî Mücadele'ye katılanların umudunu artırdı.",
+  surec:"Sevr Antlaşması Erzurum, Trabzon, Van, Bitlis ve Bingöl'ü Ermenilere veriyordu. Bölgede Ermeni mezâliminin artması üzerine TBMM hükümeti 20 Eylül 1920'de harekâta izin verdi. Şark Cephesi Kumandanı Kâzım Karabekir 28 Eylül'de taarruza geçti; Sarıkamış, Göle, Kağızman ve Kars'ı (30 Ekim) aldı, 7 Kasım'da Gümrü'ye, 12 Kasım'da Iğdır'a girdi. Mütarekeye razı olan Ermenilerle müzakereler yapıldı.",
+  hukumler:[
+    "Ermenistan, Sevr Antlaşması'nda kendisine tanınan bütün haklardan vazgeçti.",
+    "Kars, Sarıkamış, Kağızman, Kulp ve Iğdır yeniden Türk topraklarına katıldı."
+  ],
+  metin:"Ardahan 23 Şubat 1921'de alındı; Çürüksu, Acara ve Batum kazaları dışında kalan Elviye-i Selâse toprakları kurtarıldı. Gümrü hükümleri 16 Mart 1921 Moskova Antlaşması'nda Sovyet Rusya tarafından da kabul edildi ve 13 Ekim 1921 Kars Antlaşması'yla bugünkü sınır kesinleşti.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1920-12-03|Gümrü"],
+  kaynak:"TDV: kazim-karabekir (Sevr'in doğu hükümleri, 20 Eylül izni, 28 Eylül taarruzu, 30 Ekim Kars, 7 ve 12 Kasım, 3 Aralık 1920 Gümrü, Sevr haklarından feragat, 23 Şubat 1921, 'doğu fâtihi') · TDV: milli-mucadele (ilk antlaşma, katılan yerler, batıya nakil) · TDV: kars (3 Aralık 1920) · TDV: elviye-i-selase",
+  ic_not:"🔴 TDV İÇİNDE GÜN FARKI: elviye-i-selase 'Gümrü Antlaşması 20 Aralık 1920'; kazim-karabekir, kars ve milli-mucadele '3 Aralık 1920'. Madde 3 Aralık — üç kaynağa uyuyor, elviye maddesindeki gün muhtemelen dizgi hatası; hüküm verilmedi." },
+
+// ── 1921 MOSKOVA ANTLAŞMASI ────────────────────────────────────────────────
+{ id:"antlasma4-moskova-1921", tur:"sebep-sonuc",
+  kisa:"Ankara'yı tanıyan ama ittifaktan çekinen Sovyet Rusya, dostluk antlaşmasıyla hem silah ve altın verdi hem de Batum'u Gürcistan'a bırakan doğu sınırını kabul etti.",
+  sebep:{ b:"TBMM hükümetinin Batılı devletler karşısındaki yalnızlığı ve Sovyet Rusya ile yakınlaşma", t:"1920" },
+  sonuc:{ b:"Moskova'da TBMM hükümeti ile Sovyet Rusya arasında dostluk antlaşması", t:"1921-03-16" },
+  bag:"Önemi: Millî Mücadele'nin en büyük devletlerarası desteği ve doğu sınırının büyük devlet düzeyinde tanınması. Rusya, Batum hariç 1878'de Osmanlı'dan kopardığı üç sancaktan Kars ve Ardahan'ın Türkiye'ye katılmasını kabul etti.",
+  surec:"Londra Konferansı'nda Hariciye Vekili Bekir Sâmi Bey'in müttefiklerle ayrı ayrı imzaladığı sözleşmeler TBMM tarafından reddedildi. TBMM hükümetini tanıdığı hâlde ittifaktan çekinen Rusya ile 16 Mart'ta Moskova'da bir dostluk antlaşması imzalandı. Birkaç gün sonra Yunanlılar, Londra Konferansı'nın tanıdığı süre dolmadan 23 Mart'ta yeniden taarruza geçti.",
+  hukumler:[
+    "Rusya, Türkiye'nin tanımadığı bir antlaşmayı (Sevr) kendisinin de tanımayacağını taahhüt etti.",
+    "Kapitülasyonların kaldırılması kabul edildi.",
+    "Rusya, Ankara hükümetine iki tümene yetecek silah ve cephane ile 10 milyon altın ruble yardım vermeyi üstlendi.",
+    "Rusya Mîsâk-ı Millî'yi tanıdı ve Gümrü Antlaşması hükümlerini kabul etti.",
+    "Batum Gürcistan'a bırakıldı; Kars ve Ardahan Türkiye'de kaldı, Aras'ın doğusundaki Sürmeli ve Batum'un güneyindeki Artvin Türkiye'ye bırakıldı (TDV elviye-i selâse, Moskova ve Kars birlikte)."
+  ],
+  metin:"Mîsâk-ı Millî sınırları içinde sayılan ve TBMM'de uzun tartışmalara konu olan Batum, Acara ve Çürüksu toprakları Gürcistan tarafında kaldı. Diğer sorunlar 13 Ekim 1921 Kars Antlaşması'yla giderildi.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1921-03-16|Moskova Antlaşması"],
+  kaynak:"TDV: milli-mucadele (Bekir Sâmi Bey'in sözleşmeleri, 16 Mart 1921 dostluk antlaşması ve hükümleri, Kars'a devredilen sorunlar, 23 Mart Yunan taarruzu) · TDV: elviye-i-selase (Moskova ve Kars'la tanınan sınır, Artvin, Sürmeli, Batum-Acara-Çürüksu) · TDV: kars",
+  ic_not:"Sınır maddesi TDV elviye-i-selase'de Moskova ile Kars'a BİRLİKTE atfediliyor; hangi yerin hangi metinde düzenlendiği bu turda ayrılmadı." },
+
+// ── 1921 KARS ANTLAŞMASI ───────────────────────────────────────────────────
+{ id:"antlasma4-kars-1921", tur:"sebep-sonuc",
+  kisa:"Moskova'da çizilen doğu sınırı, Kars'ta üç Kafkas cumhuriyetinin de imzasıyla bugünkü hâlini aldı.",
+  sebep:{ b:"Moskova Antlaşması'nın açık bıraktığı sorunlar ve Kafkas cumhuriyetleriyle sınır", t:"1921-03-16" },
+  sonuc:{ b:"Kars'ta TBMM hükümeti ile Ermenistan, Gürcistan ve Azerbaycan arasında antlaşma", t:"1921-10-13" },
+  bag:"Önemi: Türkiye'nin doğu sınırını bugünkü hâliyle kesinleştirdi. TDV'ye göre Moskova ve Kars antlaşmalarıyla yapılan son sınır düzeltmeleri sayesinde Kars yeni Türk devletinin sınırları içinde kaldı; Elviye-i Selâse'ye Batum yerine Artvin dahil edilmiş oldu.",
+  surec:"Gümrü (3 Aralık 1920) Ermenistan'la, Moskova (16 Mart 1921) Sovyet Rusya'yla doğu sınırının esaslarını koymuştu. Ardahan, Çıldır ve Posof 23 Şubat 1921'de Gürcü işgalinden kurtarılmıştı. Kalan sorunlar Kars'ta Ermenistan, Gürcistan ve Azerbaycan cumhuriyetleriyle imzalanan antlaşmayla giderildi; bu cumhuriyetler bugünkü sınırları tanıdı.",
+  hukumler:[
+    "Ermenistan, Gürcistan ve Azerbaycan cumhuriyetleri bugünkü sınırları tanıdı.",
+    "Kars ve Ardahan sancakları, Aras'ın doğusundaki Sürmeli ve Batum'un güneyindeki Artvin Türkiye'ye bırakıldı (Moskova ile birlikte).",
+    "Batum, Acara ve Çürüksu Gürcistan tarafında kaldı."
+  ],
+  metin:"Kars Cumhuriyet döneminde il merkezi oldu. Batum'un Mîsâk-ı Millî sınırları içinde sayılmasına rağmen Gürcistan'da kalması TBMM'de uzun tartışmalara yol açmıştı.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1921-10-13|Kars Antlaşması"],
+  kaynak:"TDV: elviye-i-selase (13 Ekim 1921 Kars Muahedesi, üç cumhuriyetin tanıması, sınır hükümleri, Artvin, Batum) · TDV: kars (Moskova ve Kars antlaşmalarıyla son sınır düzeltmeleri, il merkezi) · TDV: milli-mucadele (Kars'a devredilen sorunlar)",
+  ic_not:"Sovyet Rusya'nın Kars Antlaşması'na katılımı TDV'nin okunan parçalarında geçmiyor; kartta taraf olarak yazılmadı. Nahçıvan'a dair hüküm bu turda OKUNMADI." },
+
+// ── 1921 ANKARA İTİLÂFNÂMESİ ───────────────────────────────────────────────
+{ id:"antlasma4-ankara-1921", tur:"sebep-sonuc",
+  kisa:"Sakarya zaferinden bir ay sonra müttefiklerden biri ilk kez Ankara'yı resmen tanıdı: Fransa güney cephesinden çekildi.",
+  sebep:{ b:"Sakarya Meydan Muharebesi'nin Türk zaferiyle bitmesi", t:"1921-09-12" },
+  sonuc:{ b:"Ankara'da Fransa ile antlaşma", t:"1921-10-20" },
+  bag:"Önemi: TDV'ye göre Türkiye için büyük bir diplomatik zafer; müttefiklerden biri Türk millî isteklerini ilk kez kabul etmiş ve Ankara hükümetini resmen tanımış oluyordu. Güney cephesinin kapanmasıyla oradaki birlikler batı cephesine kaydırıldı.",
+  surec:"Üç hafta süren Sakarya Meydan Muharebesi 12 Eylül 1921'de Yunan ordusunun ağır yenilgisiyle bitti; meclis 19 Eylül'de Mustafa Kemal Paşa'ya müşirlik rütbesi ve gazilik unvanı verdi. Sakarya'dan sonra Fransa ile Ankara'da antlaşma imzalandı.",
+  hukumler:[
+    "Fransa işgal ettiği Anadolu topraklarından çekilecekti.",
+    "Bugünkü sınırlarla Suriye ve Lübnan Fransız yönetimine bırakıldı.",
+    "İskenderun ve Antakya'da Türkçenin ve Türk kültürünün korunduğu özel bir Fransız idaresi kuruldu."
+  ],
+  metin:"Fransızlarla iş birliği yapan Ermeniler kitleler hâlinde bölgeyi terk etti. Birkaç gün sonra, 23 Ekim'de, İngilizlerle Ankara arasında esirlerin değiştirilmesi konusunda da uzlaşma sağlandı.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1921-10-20|Ankara"],
+  kaynak:"TDV: milli-mucadele (Sakarya, 19 Eylül, 20 Ekim 1921 Ankara Antlaşması ve hükümleri, diplomatik zafer değerlendirmesi, Ermenilerin göçü, birliklerin kaydırılması, 23 Ekim esir mübadelesi)",
+  ic_not:"Hatay maddesi (TDV hatay) bir yönlendirme kütüğü döndü (0 karakter), okunmadı. Fransız imzacı Franklin-Bouillon adı TDV'nin okunan parçasında yok; kartta yazılmadı." },
+
 ];
