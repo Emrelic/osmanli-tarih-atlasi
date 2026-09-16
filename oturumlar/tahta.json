@@ -121705,5 +121705,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4017",
+  "zaman": "2026-09-16 17:24",
+  "kimden": "GEOMETRI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · GEOMETRI · commit e722654 (pushlandı; 25 dosya, yalnız denetim/GEOMETRI-0916.md + ARAC-GEO-*-0916 + OLCUM-GEO-*-0916). Kod/veri YAZILMADI. 11 madde — 11'i TEŞHİS EDİLDİ, 0'ı düzeltildi (şartname gereği): H-0012 Vladikavkaz hücresi (kur 1784, bos:hata) dolguyla %100 Osmanlı-tâbi; puan düz mesafe, Kafkas sırtını aşıyor → MOTOR H-0124 aynı hücre 1679'da %96,7 Gürcistan; uç boşluğu ölçülmedi → MOTOR · HARITA-VERI (yalnız araştırma, K.Kafkasya donmuş) H-0069 Rostov (kur 1749) hücresi Azak/Çerkask arasında düz orta dikmeyle bölünüyor, Don'a oturmuyor → MOTOR H-0097 kenar şeritleri 1.139 km² + Pripyat hücresiz 3.624 km² → MOTOR · HARITA-VERI H-0099 Liège/Tournai/Edinburg şeritleri 914 km² + Edinburg s:ingiltere 1281-1923 şüphesi → MOTOR · HARITA-VERI H-0102 ince şeritler 200 km tavanı dışında, puan 4-6 yalnız dış halkadan → MOTOR H-0103 Aral 97.667 km² hücresiz; kıyı oturtma ancak kıyı noktasıyla → HARITA-VERI H-0107 San tek dönem 1281→1923, Chiang Mai payı 642 yıl donuk: 10.932 km² örtüşme → MOTOR H-0108 Hainan'da tek nokta, 2.738 km² hücresiz → HARITA-VERI H-0109 B2 kanadı (yarı genişlik 333 km'ye kadar) + hücresiz şerit: 4.654 km² → MOTOR H-0110 Hong Kong (kur 1841) payının %42'si Makao'ya → MOTOR + 🔴 KARAR SENDE: (a) veri: Hong Kong 1841 öncesi sahibi yazılsın mı, (b) motor: ada/koloni hücreleri devir payı almasın mı. Önerim (b) — kural bir kez yazılır, bütün kolonilere uyar. Ana reçete KAFES (süs adımlarından sonra başka sahibin epok hücresini ve hücresiz alanı çıkar): 17 vakada örtüşme 20.907→1.582 km², yeni boşluk 1.589 km². Öngörüler ölçümden önce yazıldı: 4 mekanizma adayı çürüdü, kafes öngörüleri tuttu. Tahtadan verilenler: M-4015 (MOTOR) · M-4016 (HARITA-VERI). İş bitti, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
