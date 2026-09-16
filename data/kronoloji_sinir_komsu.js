@@ -51,4 +51,60 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
   kaynak:"IBS No. 75 Israel–Lebanon (Cmd. 1910; 22 LNTS 364; 'erected in 1922 by a mixed Anglo-French commission') · PalQuest 'Palestine-Lebanon border'" },
 
+// ── GERİYE SARMA G3 (1878-07-13 → 1914-07-28) ─────────────────────────
+
+{ t:"1878-12-17", devlet:"bulgaristan-prensligi", devletler:["bulgaristan-prensligi","romanya"], sinir_id:"g3-bg-ro-dobruca-p1",
+  b:"Avrupa Komisyonu Romanya–Bulgaristan Dobruca sınırını çizdi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Silistre",
+  etiket:["sinir","konu-siyasi","bulgaristan-prensligi","romanya","dobruca"],
+  d:"Berlin Antlaşması (md. XLVI) Dobruca'daki sınırı yalnız 'Silistre'nin doğusundan Mangalya'nın güneyine' diye tarif etmiş, ayrıntıyı bir Avrupa komisyonuna bırakmıştı. Komisyonun 17 Aralık 1878'de İstanbul'da imzalanan senedi hattı metin, ölçüm cetvelleri ve 1:30.000 ölçekli haritayla belirledi. Bu hat 1880'de Silistre yakınında değişti ve 1902'de Mangalya'da kayda geçirildi. Bugünkü Romanya–Bulgaristan kara sınırı büyük ölçüde budur.",
+  kaynak:"IBS No. 53 Bulgaria–Romania s.6-7 (Berlin md. XLVI; Avrupa Komisyonu Senedi 17 Aralık 1878, Hertslet IV s.2825)" },
+
+{ t:"1880-01-01", devlet:"bulgaristan-prensligi", devletler:["bulgaristan-prensligi","romanya"], sinir_id:"g3-bg-ro-dobruca-p2",
+  b:"Silistre yakınında (Arap Tabya) Romanya–Bulgaristan sınırı Bulgaristan lehine düzeltildi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Silistre",
+  etiket:["sinir","konu-siyasi","bulgaristan-prensligi","romanya","dobruca"],
+  d:"Berlin Antlaşması'na taraf devletler Ağustos–Eylül 1880'deki nota değişimiyle 1878 senedinin 6. ve 7. maddelerini değiştirdi. Silistre–Karaorman yolu Bulgaristan'da bırakıldı, Arap Tabya tepesi Romanya'da kaldı. Tarih yalnız YIL düzeyindedir; ay metindedir, gün bilinmiyor.",
+  kaynak:"IBS No. 53 Bulgaria–Romania s.6 (Hertslet IV s.2996: 'altered the original boundary near Silistra in favor of Bulgaria')" },
+
+{ t:"1891-01-01", devlet:"kacar", devletler:["kacar","afganistan"], sinir_id:"d1923-ir-af-kuzey",
+  b:"MacLean hakem kararı: İran–Afganistan kuzey sınırı 39 direkle işaretlendi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Herat",
+  etiket:["sinir","konu-siyasi","kacar","afganistan","hakem-karari"],
+  d:"Herat ile İran arasındaki kuzey sınır anlaşmazlığı 1857 Paris Antlaşması (md. VI) gereği İngiliz hakemliğine götürüldü. General C. S. MacLean 1888–1891 arasında iki tarafın delillerini inceleyip bir uzlaşma hattı çizdi. Hat Rus üçlü noktasından 34°20′ kuzey enlemine kadar Herirud ve 39 direkle işaretlendi. Tarih yalnız YIL düzeyindedir (çalışmanın bittiği yıl).",
+  kaynak:"IBS No. 6 Afghanistan–Iran s.2-3 ('Between 1888 and 1891 Major General C.S. MacLean … laid down a compromise boundary')" },
+
+{ t:"1905-05-15", devlet:"kacar", devletler:["kacar","afganistan"], sinir_id:"d1923-ir-af-guney",
+  b:"McMahon komisyonu Sistan'da İran–Afganistan sınırını 90 işaretle tamamladı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Zerenc (Sîstan)",
+  etiket:["sinir","konu-siyasi","kacar","afganistan","hakem-karari"],
+  d:"Hilmend'in 1896'da yatak değiştirmesi Goldsmid'in 1872 hakem kararını işlemez kıldı ve mesele yeniden İngiliz hakemliğine gitti. Albay Henry McMahon'un Kasım 1903 kararı sınırı Malik Siyah dağından Hilmend yatağı boyunca Siah Koh'a çizdi. Komisyon Şubat 1903'te başladığı işaretlemeyi 15 Mayıs 1905'te 90 işaretle bitirdi.",
+  kaynak:"IBS No. 6 Afghanistan–Iran s.3, 11-12 ('By May 15, 1905, the McMahon Commission had placed 90 markers')" },
+
+{ t:"1908-10-05", devlet:"bulgaristan-kralligi", devletler:["bulgaristan-kralligi","romanya-kralligi"], sinir_id:"g3-bg-ro-dobruca-p4",
+  b:"Bulgaristan bağımsızlığını ilan etti — Romanya ile sınırı artık bağımsız krallığın sınırı", tur:"kurulus", onem:5, dunya:3, kapsam:"dis", yer_id:"Sofya",
+  etiket:["sinir","konu-siyasi","bulgaristan-kralligi","romanya-kralligi","bagimsizlik"],
+  d:"Bulgaristan 5 Ekim 1908'de bağımsızlığını ilan etti ve hükümdarı çar unvanını aldı. Berlin'den beri Osmanlı'ya tâbi bir prenslik olan devletin Romanya ile Tuna ve Dobruca sınırı değişmeden bağımsız krallığın sınırı oldu.",
+  kaynak:"TDV bulgaristan ('Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra') · IBS No. 53" },
+
+{ t:"1913-08-10", devlet:"romanya-kralligi", devletler:["romanya-kralligi","bulgaristan-kralligi"], sinir_id:"g3-bg-ro-dobruca-p4",
+  b:"Bükreş Antlaşması: Güney Dobruca Romanya'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Bükreş",
+  etiket:["sinir","antlasma","konu-siyasi","romanya-kralligi","bulgaristan-kralligi","ikinci-balkan-savasi"],
+  d:"İkinci Balkan Savaşı'nı bitiren Bükreş Antlaşması (md. II ve ek protokol) Romanya–Bulgaristan sınırını Tuna'da Turtukaya'nın yukarısından Karadeniz'de Ekrene'nin güneyine taşıdı. Güney Dobruca Romanya'ya geçti. Berlin'den beri süren Silistre–Mangalya hattı bu günde sona erdi. Yeni hattın koordinatı elde olmadığı için haritada çizgi olarak gösterilmez.",
+  kaynak:"IBS No. 53 Bulgaria–Romania s.7 (Bükreş 10 Ağustos 1913; onay teatisi IBS'e göre 25 Ağustos) · Bükreş Antlaşması metni md. II ('begin at the Danube above Turtukaia')" },
+
+{ t:"1913-08-10", devlet:"yunanistan", devletler:["yunanistan","sirbistan-kralligi"], sinir_id:"g1-gr-srb",
+  b:"Bükreş Antlaşması: Yunanistan–Sırbistan sınırı doğdu", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Selanik",
+  etiket:["sinir","antlasma","konu-siyasi","yunanistan","sirbistan-kralligi","ikinci-balkan-savasi"],
+  d:"Balkan Savaşları'nda Osmanlı'dan alınan Makedonya'nın paylaşılmasıyla Yunanistan ile Sırbistan ilk kez komşu oldu. Bükreş Antlaşması'nın ardından Selanik'te toplanan Sırp-Yunan sınır komisyonu hattı 10 Ağustos–27 Aralık 1913 arasında işaretledi ve protokolünü 7 Aralık 1913'te imzaladı. Gevgeli çevresindeki kısa kesimin yorum anlaşmazlığı 1927'ye kadar sürdü. IBS 79'daki 'June 1912' ifadesi kronolojiyle çeliştiği için kullanılmadı.",
+  kaynak:"IBS No. 79 Greece–Yugoslavia (Bükreş 1913; Selanik komisyonu 7 Aralık 1913; Gevgeli 1927)" },
+
+{ t:"1913-08-10", devlet:"yunanistan", devletler:["yunanistan","bulgaristan-kralligi"], sinir_id:"d1923-gr-bg-bati",
+  b:"Bükreş Antlaşması: Yunanistan–Bulgaristan sınırı Belasica'dan Rodoplar'a çizildi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Selanik",
+  etiket:["sinir","antlasma","konu-siyasi","yunanistan","bulgaristan-kralligi","ikinci-balkan-savasi"],
+  d:"Bükreş Antlaşması'nın V. maddesine ekli protokol Yunan–Bulgar sınırını Belasica sırtından Struma'yı ve Mesta'yı geçerek Rodoplar'daki Debikli'ye kadar tarif etti. Bu kesim Neuilly'de korundu ve 1921'de işaretlendi; bugünkü sınırın batı kısmıdır. Debikli'den Ege'ye inen 1913 kolu 1919'da kalktı ve koordinatı elde yok.",
+  kaynak:"IBS No. 56 Bulgaria–Greece s.11-12 (Bükreş md. V protokolü; 'essentially that formed by the Treaty of Bucharest … eastward to point 1587')" },
+
+{ t:"1913-11-17", devlet:"kacar", devletler:["osmanli","kacar"], sinir_id:"g1-osm-ir",
+  b:"İstanbul Protokolü: Osmanlı–İran sınırı ayrıntılı olarak çizildi (Irak kesimi)", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Kasr-ı Şîrîn",
+  etiket:["sinir","antlasma","konu-siyasi","osmanli","kacar"],
+  d:"İngiltere ve Rusya'nın aracılığıyla imzalanan İstanbul Protokolü Osmanlı–İran sınırını baştan sona tarif etti. Şattülarap'ı (Muhammere bölgesi hariç) Osmanlı egemenliğinde bıraktı. Dört devletin komisyonu Kasım 1913 – Ekim 1914 arasında hattı direklerle işaretledi. IBS 164 protokolün gününü metinde 17 Kasım, antlaşma listesinde 4 Kasım 1913 olarak veriyor; çelişki çözülmedi. Bu madde hattın bugünkü Irak kesimini anlatır.",
+  kaynak:"IBS No. 164 Iran–Iraq (Constantinople Protocol, 1914 komisyonu; 'The boundary is demarcated throughout by pillars or rivers')" },
+
 ];

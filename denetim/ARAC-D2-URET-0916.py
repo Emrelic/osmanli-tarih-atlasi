@@ -39,8 +39,9 @@ def uzunluk(ls):
 
 
 # ---- GeoNames çıpaları: TEK geçiş ----
-ARANAN = {("MK", "gevgelija"): None, ("BG", "tutrakan"): None}
-KUTU = {("MK", "gevgelija"): (22.3, 41.0, 22.7, 41.3), ("BG", "tutrakan"): (26.4, 43.9, 26.8, 44.2)}  # adaşları eler
+ARANAN = {("MK", "gevgelija"): None, ("BG", "tutrakan"): None, ("BG", "silistra"): None}
+KUTU = {("MK", "gevgelija"): (22.3, 41.0, 22.7, 41.3), ("BG", "tutrakan"): (26.4, 43.9, 26.8, 44.2),
+        ("BG", "silistra"): (27.1, 43.95, 27.45, 44.25)}  # adaşları eler
 with open(GEONAMES, encoding="utf-8") as f:
     for l in f:
         c = l.split("\t")
@@ -57,8 +58,8 @@ with open(GEONAMES, encoding="utf-8") as f:
 eksik = [k for k, v in ARANAN.items() if v is None]
 if eksik:
     raise SystemExit(f"çıpa yok: {eksik}")
-GEV, TUT = ARANAN[("MK", "gevgelija")], ARANAN[("BG", "tutrakan")]
-print("çıpalar:", GEV, TUT)
+GEV, TUT, SIL = ARANAN[("MK", "gevgelija")], ARANAN[("BG", "tutrakan")], ARANAN[("BG", "silistra")]
+print("çıpalar:", GEV, TUT, SIL)
 
 # ---- bugünkü çift çizgileri ----
 GJ = json.load(open("veri-kaynak/d_bugunku_sinirlar.geojson", encoding="utf-8"))
@@ -84,7 +85,7 @@ POLY = {f["properties"]["ADM0_A3"]: shape(f["geometry"]).buffer(0) for f in ADM[
 ISO = {"yunanistan": ["GRC"], "bulgaristan-kralligi": ["BGR"], "yugoslavya": ["SRB", "MKD"],
        "arnavutluk-bagimsiz": ["ALB"], "romanya-kralligi": ["ROU"], "kacar": ["IRN"], "afganistan": ["AFG"],
        "irak-kralligi": ["IRQ"], "filistin-mandasi": ["ISR"], "suriye-lubnan-mandasi": ["LBN"],
-       "sirbistan-kralligi": ["MKD"], "osmanli": ["IRQ"]}     # yalnız sol_taraf testi: o yakanın BUGÜNKÜ ülkesi
+       "sirbistan-kralligi": ["MKD"], "osmanli": ["IRQ"], "romanya": ["ROU"], "bulgaristan-prensligi": ["BGR"]}     # yalnız sol_taraf testi: o yakanın BUGÜNKÜ ülkesi
 
 
 def sol_taraf(ls, a, b):
@@ -193,19 +194,24 @@ yok("d1923-gr-shs-DEGISTI-gevgeli", GR, YU, "1918-12-01", gev_kutu.bounds,
 SRB = "sirbistan-kralligi"
 TDV_YU = {"ad": "TDV yugoslavya", "tur": "TDV", "kaynak": "islamansiklopedisi.org.tr/yugoslavya",
           "alinti": "1 Aralık 1918'de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı"}
-G2F = "1914-07-28"   # GERİYE SARMA G2 dalga sınırı (hat daha eskiyse öncesi G3'ün işi)
-ekle("g1-gr-srb", GR, SRB, G2F, "D", b2_dis,
+G2F = "1914-07-28"   # GERİYE SARMA G2 dalga sınırı
+G3F = "1878-07-13"   # GERİYE SARMA G3 dalga sınırı (Berlin)
+BUK13 = "1913-08-10" # Bükreş Antlaşması imzası (IBS 53/56/79; onay teatisi 25 Ağu — IBS 53 — ile 30 Ağu çelişik)
+ekle("g1-gr-srb", GR, SRB, BUK13, "D", b2_dis,
      [{"ad": "Bükreş Antlaşması", "tarih": "1913-08-10", "tur": "antlaşma", "madde": "bulunamadı (madde no okunmadı)"},
       {"ad": "Sırp-Yunan Sınır Komisyonu (Selanik)", "tarih": "1913-12-07", "tur": "komisyon"},
       {"ad": "IBS No. 79 Greece–Yugoslavia", "tur": "resmî sınır çalışması", "url": IBS % 79}, TDV_YU],
      {"deger": False, "kaynak": "IBS 79"},
      {"t": "1913-08/1913-12", "not": "1913 komisyonu işaretledi"},
      1.5, KES_NE,
-     "GERİYE SARMA G1+G2: hat 1913'ten beri; f=1914-07-28 G2 dalga sınırıdır, öncesi G3'ün işi. t=SHS'nin kuruluşu (TDV). "
+     "GERİYE SARMA G1+G2+G3: f=Bükreş 10 Ağu 1913 (hat bu antlaşmayla hukukî; yerinde işaretleme Ara 1913'te bitti). "
+     "Öncesi (1912-13 Makedonya'nın paylaşılması, işgal hatları) koordinatsız ⇒ YAZILMADI. ⚠️ IBS 79 iki devletin "
+     "sınırı 'June 1912'de' belirlediğini yazıyor — o tarihte Makedonya henüz Osmanlı'daydı ⇒ ÇELİŞKİ, kullanılmadı. "
+     "t=SHS'nin kuruluşu (TDV). "
      "G2: 1915-18'de Sırbistan'ın Makedonya'sı Bulgar işgalindeydi ve Selanik cephesi bu hattın çevresinde uzanıyordu — "
      "hukukî hat DEĞİŞMEDİ; işgal/cephe hatları (D) koordinatsız olduğu için YAZILMADI",
      t="1918-12-01")
-yok("g1-gr-srb-DEGISTI-gevgeli", GR, SRB, G2F, gev_kutu.bounds,
+yok("g1-gr-srb-DEGISTI-gevgeli", GR, SRB, BUK13, gev_kutu.bounds,
     {"deger": True, "kaynak": "IBS 79", "not": "Gevgeli anlaşmazlığı 1913'ten 1927'ye açık"},
     [{"ad": "IBS No. 79 Greece–Yugoslavia", "tur": "resmî sınır çalışması", "url": IBS % 79}],
     "GERİYE SARMA G1", t="1918-12-01")
@@ -227,7 +233,7 @@ IBS56 = {"ad": "IBS No. 56 Bulgaria–Greece", "tur": "resmî sınır çalışma
 bati_oran = 155.7 / (494.0 - 15.3)
 uc_bati = "son" if uc == "bas" else "bas"                           # Tumba BATI uçta
 bg_bati, bg_dogu = uc_kes(kara, bati_oran * uzunluk(kara), uc_bati)
-ekle("d1923-gr-bg-bati", GR, BG, G2F, "D", [bg_bati],
+ekle("d1923-gr-bg-bati", GR, BG, BUK13, "D", [bg_bati],
      [{"ad": "Bükreş Antlaşması", "madde": "md. V + ek protokol", "tarih": "1913-08-10", "tur": "antlaşma metni",
        "kaynak": "IBS 56 s.11 aktarımı"}, NEU, IBS56],
      {"deger": False, "kaynak": "IBS 56", "not": "1947 Paris 1 Ocak 1941 sınırlarını teyit etti; 1941-44 işgali geri alındı"},
@@ -235,7 +241,8 @@ ekle("d1923-gr-bg-bati", GR, BG, G2F, "D", [bg_bati],
      1.5, KES_NE + " · Debikli (taş 233) ayrımı IBS uzunluk ORANIYLA (155,7/478,7) — ayrım noktası (~24,13°D) ±30 km BELİRSİZ, Debikli'nin koordinatı okunmadı",
      "GERİYE SARMA G1: Tumba→Debikli kesimi Bükreş 1913 hattıdır, Neuilly onu korudu ⇒ 1918-11-11'de de aynı iki "
      "taraf arasında geçerli. G2: 1914-1918 arasında hukukî hat DEĞİŞMEDİ (1916-18 Doğu Makedonya'nın Bulgar işgali "
-     "koordinatsız ⇒ D yazılmadı). f=1914-07-28 G2 dalga sınırı; 1913-1914 G3'ün işi. ⚠️ 1913 hattının Debikli'den "
+     "koordinatsız ⇒ D yazılmadı). G3: f=Bükreş 10 Ağu 1913 — hattın başlangıcı; öncesi Osmanlı toprağıydı "
+     "(1912-13 cephe hatları koordinatsız). ⚠️ 1913 hattının Debikli'den "
      "Ege'ye inen kolu (1913-1919 arası Yunan-Bulgar sınırı) koordinatsız ⇒ YAZILMADI")
 ekle("d1923-gr-bg-dogu", GR, BG, "1921-01-01", "D", [bg_dogu],
      [NEU, IBS56,
@@ -284,7 +291,7 @@ ekle("d1923-gr-al", GR, AL, "1921-11-09", "C", cizgi("ALB-GRC"),
 b5 = cizgi("BGR-ROU")
 tuna = parcala(b5, lambda c: c[0] < TUT[0] - 0.05)
 dob_kutu = box(TUT[0] - 0.05, 43.25, 28.70, 44.20)
-ekle("d1923-bg-ro-tuna", BG, RO, G2F, "C", tuna,
+ekle("d1923-bg-ro-tuna", BG, RO, BUK13, "C", tuna,
      [dict(NEU, madde="md. 27(5)", alinti="the principal channel of navigation of the Danube"),
       {"ad": "IBS No. 53 Bulgaria–Romania", "tur": "resmî sınır çalışması", "url": IBS % 53}],
      {"deger": False, "kaynak": "IBS 53", "not": "HUKUKÎ hüküm (ana seyir kanalı); talveg konumu kesin tarif edilemez"},
@@ -294,16 +301,58 @@ ekle("d1923-bg-ro-tuna", BG, RO, G2F, "C", tuna,
      "GERİYE SARMA G1: f=1918-11-11 — 8 May 1918 Bükreş Antl. (IBS 53) yalnız Dobruca'yı değiştirmişti ve 'ultimate defeat of "
      "the Central Powers soon invalidated this treaty' (IBS 53 s.7; iptal GÜNÜ okunmadı). Tuna'nın Timok–Turtukaya kolu "
      "Neuilly'den önce de aynı iki devlet arasındaydı. G2: 1916-18 savaşında (Dobruca ve Eflak işgali) Tuna kolu "
-     "hukuken değişmedi ⇒ f=1914-07-28 dalga sınırı; öncesi G3")
+     "hukuken değişmedi. G3: f=Bükreş 1913 — o güne kadar Tuna hattı Silistre'ye uzanıyordu (g3-bg-ro-tuna kayıtları)")
 # G2 (1914-07-28 → 1920): Dobruca hattı 1913 Bükreş hattıydı (1923'le AYNI hat, ama bugünkü çizgi onu göstermez).
 # 8 May 1918 Bükreş Antl. Güney + Kuzey Dobruca'nın bir kısmını Bulgaristan'a bıraktı; yürürlüğü ve 1918-1920 fiilî
 # durumu ölçülemedi ⇒ YOK (koordinatsız).
-yok("g2-bg-ro-DEGISTI-dobruca", BG, RO, G2F, dob_kutu.bounds,
+yok("g2-bg-ro-DEGISTI-dobruca", BG, RO, BUK13, dob_kutu.bounds,
     {"deger": True, "kaynak": "IBS 53", "not": "1913 hattı; Craiova 1940 ile değişti. 1918 Bükreş Antl. 'soon invalidated'"},
     [{"ad": "Bükreş Antlaşması", "madde": "md. II + ek protokol", "tarih": "1913-08-10", "tur": "antlaşma metni"},
      {"ad": "IBS No. 53 Bulgaria–Romania", "tur": "resmî sınır çalışması", "url": IBS % 53, "sayfa": "s.7",
       "alinti": "The Treaty of Bucharest (May 8, 1918) ceded to Bulgaria"}],
-    "GERİYE SARMA G2", t="1920-01-01")
+    "GERİYE SARMA G2+G3: f=Bükreş 1913 (Güney Dobruca Romanya'ya)", t="1920-01-01")
+
+# G3 (1878-07-13 → 1913-08-10): BERLİN hattı. IBS 53: Berlin md. XLVI + Avrupa Komisyonu Senedi 17 Ara 1878 (1:30.000);
+# Ağu–Eyl 1880 nota değişimiyle Silistre yakınında (Arap Tabya) Bulgaristan lehine değişti; Mangalia karma komisyonu
+# 5 Eyl 1902'de metin ve krokilerle kayda geçirdi. Craiova 1940 bu "1902 hattına" döndü ve 1947 teyit etti
+# ⇒ bugünkü Dobruca kara çizgisi = 1880/1902 hattı (degisti:false). Tuna kolu o dönemde Silistre'ye kadar uzanıyordu.
+tuna_berlin = parcala(b5, lambda c: c[0] < SIL[0])
+dob_berlin = parcala(b5, lambda c: c[0] >= SIL[0] - 0.01)
+sil_kutu = box(SIL[0] - 0.02, SIL[1] - 0.12, SIL[0] + 0.14, SIL[1] + 0.03)
+BERLIN = {"ad": "Berlin Antlaşması", "madde": "md. XLVI", "tarih": "1878-07-13", "tur": "antlaşma",
+          "kaynak": "IBS 53 s.6 (BFSP 69:749)", "alinti": "a line starting from the east of Silistria"}
+AVR78 = {"ad": "Avrupa Komisyonu Senedi (Romanya–Bulgaristan sınırı)", "tarih": "1878-12-17", "tur": "sınır protokolü",
+         "kaynak": "IBS 53 s.6 (Hertslet IV s.2825)", "alinti": "delimited by text, survey tables, and a large-scale, 1:30,000 map"}
+NOT80 = {"ad": "Berlin taraflarının nota değişimi (Ağu–Eyl 1880)", "tarih": "1880-01-01", "tur": "nota",
+         "kaynak": "IBS 53 s.6 (Hertslet IV s.2996)", "alinti": "altered the original boundary near Silistra in favor of Bulgaria"}
+MANG02 = {"ad": "Mangalia Romen-Bulgar karma komisyonu metin ve krokileri", "tarih": "1902-09-05", "tur": "sınır protokolü",
+          "kaynak": "IBS 53 (Craiova 1940 protokolü aktarımı)", "alinti": "compiled and signed on September 5, 1902"}
+BP, RP = "bulgaristan-prensligi", "romanya"
+DONEM = [("p1", BP, RP, "1878-12-17", "1880-01-01"), ("p2", BP, RP, "1880-01-01", "1881-03-26"),
+         ("p3", BP, RO, "1881-03-26", "1908-10-05"), ("p4", BG, RO, "1908-10-05", BUK13)]
+for pid, a, b, f, t in DONEM:
+    parca = parcala(dob_berlin, lambda c: not sil_kutu.contains(Point(c))) if pid == "p1" else dob_berlin
+    ekle(f"g3-bg-ro-dobruca-{pid}", a, b, f, "D", parca, [BERLIN, AVR78, NOT80, MANG02,
+         {"ad": "IBS No. 53 Bulgaria–Romania", "tur": "resmî sınır çalışması", "url": IBS % 53, "sayfa": "s.7",
+          "alinti": "return to the 1902 boundary, i.e., the Treaty of Berlin line as modified"}],
+         {"deger": False, "kaynak": "IBS 53", "not": "Craiova 1940 bu hatta döndü; 1947 Paris teyit. Bugünkü çizgi = 1880/1902 hattı"},
+         {"t": "1878-12-17 / 1902-09-05", "not": "Avrupa Komisyonu 1:30.000; Mangalia komisyonu 1902"},
+         1.5, KES_NE + (" · Silistre (Arap Tabya) kutusu 1880 öncesinde farklıydı ⇒ kutu içi ÇIKARILDI" if pid == "p1" else ""),
+         "GERİYE SARMA G3: Berlin hattı. Kimlik dönemleri: Romanya Prensliği → Krallık 26 Mar 1881; Bulgaristan "
+         "Prensliği → Krallık 5 Eki 1908 (künye günleri; bağımsızlık maddesi kronolojide). f 1880-01-01: nota değişiminin "
+         "yalnız YILI (Ağu–Eyl 1880) — gün bilinmiyor", t=t)
+    ekle(f"g3-bg-ro-tuna-{pid}", a, b, G3F if pid == "p1" else f, "C", tuna_berlin,
+         [{"ad": "Berlin Antlaşması", "madde": "bulunamadı (Tuna sınırı maddesi okunmadı)", "tarih": "1878-07-13", "tur": "antlaşma"},
+          {"ad": "IBS No. 53 Bulgaria–Romania", "tur": "resmî sınır çalışması", "url": IBS % 53,
+           "alinti": "the thalweg, or the principal channel of navigation"}],
+         {"deger": False, "kaynak": "IBS 53", "not": "HUKUKÎ hüküm; talveg kayabilir"},
+         {"t": None, "not": "nehir sınırı, işaretlenmedi"},
+         2.0, KES_NE + " · Silistre'ye kadar (GeoNames Silistra boylamı)",
+         "GERİYE SARMA G3: Berlin'den Bükreş 1913'e kadar Tuna kolu Timok'tan Silistre'ye uzanıyordu. p1 f=Berlin imzası "
+         "(1878-07-13, G3 dalga sınırı); Tuna'nın Berlin'den önceki durumu (Osmanlı iç nehri) kapsam dışı", t=t)
+yok("g3-bg-ro-DEGISTI-silistre-1878", BP, RP, "1878-12-17", sil_kutu.bounds,
+    {"deger": True, "kaynak": "IBS 53", "not": "1878 hattı Arap Tabya çevresinde 1880'de Bulgaristan lehine değişti"},
+    [AVR78, NOT80], "GERİYE SARMA G3: 1878-1880 Silistre kesiminin koordinatı elde yok", t="1880-01-01")
 yok("d1923-bg-ro-DEGISTI-dobruca", BG, RO, "1920-01-01", dob_kutu.bounds,
     {"deger": True, "kaynak": "IBS 53", "not": "Craiova 7 Eyl 1940 md. I: Güney Dobruca Bulgaristan'a; 1947 Paris teyit"},
     [dict(NEU, madde="md. 27(5)", alinti="the frontier existing on August 1, 1914"),
@@ -387,7 +436,7 @@ ekle("d1923-iq-ir", IQ, IR, "1921-08-23", "D", [iqkara],
                "İran'ın Irak'ı tanıması 1929 (doğrulanmadı) ⇒ tanınma kanıtı yok")
 # G1 (1918-11-11 → 1921-08-23): aynı 1913/14 hattı, hukukî taraf hâlâ Osmanlı. İngiliz işgal idaresi için künye
 # YOK ⇒ fiilî (D) kaydı yazılamadı (D-KUNYE'ye bildirildi). `osmanli` C katmanının (hukuki_sinirlar.js) kullandığı kimlik.
-ekle("g1-osm-ir", "osmanli", IR, G2F, "D", [iqkara],
+ekle("g1-osm-ir", "osmanli", IR, "1913-11-17", "D", [iqkara],
      [PROT, {"ad": "IBS No. 164 Iran–Iraq", "tur": "resmî sınır çalışması",
              "alinti": "The boundary is demarcated throughout by pillars or rivers"},
       {"ad": "TDV irak--ulke", "tur": "TDV", "kaynak": "islamansiklopedisi.org.tr/irak--ulke",
@@ -397,10 +446,11 @@ ekle("g1-osm-ir", "osmanli", IR, G2F, "D", [iqkara],
      2.0, KES_NE + " · Şattülarap ayrımı IBS oranıyla (yaklaşık)",
      "GERİYE SARMA G1+G2: hukukî taraf 1921'e kadar Osmanlı'ydı. İngiliz işgali (Basra 1914'ten, Bağdat 1917'den, "
      "Mondros sonrası tümü) ve savaş yıllarındaki Rus/Osmanlı birliklerinin İran'daki hareketi hukukî hattı DEĞİŞTİRMEDİ; "
-     "işgal hattı (D) künye ve koordinat olmadığı için YAZILMADI. f=1914-07-28 G2 dalga sınırı — 1913 protokolü "
-     "(17 Kas 1913) ile 1914 işaretlemesi (Eki 1914'te bitti) arası G3'ün işi. t=Irak Krallığı",
+     "işgal hattı (D) künye ve koordinat olmadığı için YAZILMADI. G3: f=İstanbul Protokolü (17 Kas 1913; IBS 164 "
+     "listesi 4 Kas diyor — çelişki, D1 ile aynı gün kullanıldı); yerinde işaretleme Eki 1914'te bitti. Öncesi "
+     "Erzurum 1847 (işaretsiz, koordinatsız ⇒ YAZILMADI). t=Irak Krallığı",
      t="1921-08-23")
-yok("g1-osm-ir-DEGISTI-sattularap", "osmanli", IR, G2F, bbox([satt], 0.06),
+yok("g1-osm-ir-DEGISTI-sattularap", "osmanli", IR, "1913-11-17", bbox([satt], 0.06),
     {"deger": True, "kaynak": "IBS 164", "not": "1913 sol kıyı sınırı; 1937 ve 1975'te değişti"},
     [PROT], "GERİYE SARMA G1", t="1921-08-23")
 yok("d1923-iq-ir-DEGISTI-sattularap", IQ, IR, "1921-08-23", bbox([satt], 0.06),

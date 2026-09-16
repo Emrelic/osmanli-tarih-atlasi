@@ -200,6 +200,38 @@ Kronoloji: G2 penceresinde bu dosyanın hatlarında **E/F/D değişikliği yok**
 1918 Bükreş Antlaşması önemli bir olay ama hattı YOK sınıfında (koordinatsız, yürürlüğü belirsiz).
 Toplam 32 kayıt: **E 12 · D 1 · C 3 · YOK 16**. Zaman çakışması (aynı taraf + aynı parça): 0.
 
+## 11. GERİYE SARMA G3 (1914-07-28 → 1878-07-13, Berlin) · tahta M-4153
+
+```
+YENİ hat 8     g3-bg-ro-dobruca-p1..p4  (E) Berlin/Avrupa Komisyonu 17 Ara 1878 hattı, 1880 Arap Tabya
+                                        düzeltmesi, 1902 Mangalia kaydı — IBS 53: Craiova 1940 "1902 hattına"
+                                        döndü ⇒ BUGÜNKÜ çizgi = o hat (degisti:false). Kimlik dönemleri:
+                                        prenslik/prenslik · prenslik/krallık (1881) · krallık/krallık (1908)
+               g3-bg-ro-tuna-p1..p4     (C) Tuna Timok → SİLİSTRE (1913'e kadar Turtukaya değil)
+YENİ YOK 1     Silistre 1878-1880 (Arap Tabya öncesi hat koordinatsız; p1 hattından kutu içi çıkarıldı)
+f GERİ ÇEKİLDİ gr-srb ×2 + Gevgeli · gr-bg-bati · bg-ro-tuna (1913) · Dobruca YOK → Bükreş 10 Ağu 1913
+               osm-ir + Şattülarap → İstanbul Protokolü 17 Kas 1913 (IBS 164 içinde 4/17 Kas çelişkisi)
+YAZILMADI      1912-13 Makedonya işgal/cephe hatları · 1913 Yunan-Bulgar Debikli→Ege kolu · 1913 Sırp-Bulgar
+               ve 1878 Berlin Sırp-Bulgar hatları · Erzurum 1847 Osmanlı-İran hattı (işaretsiz) ·
+               Goldsmid 1872 Sistan hattı (Hilmend kaydı, koordinatsız) · Rus-İran hatları (bugünkü çizgi
+               1954'te değişti) · Osmanlı'nın öteki sınırları (D1)
+```
+Toplam **41 kayıt: E 16 · D 1 · C 7 · YOK 17** · zaman çakışması 0 · ters dönem 0.
+
+**Kronoloji +9 → 14 madde** (hepsi `sinir_id` ile bağlı, günü hattın `f` ya da `t`'siyle birebir,
+`yer_id` eşleşmeyen 0):
+```
+1878-12-17 Avrupa Komisyonu Dobruca hattı      IBS 53
+1880-01-01 Arap Tabya düzeltmesi (YIL)          IBS 53
+1891-01-01 MacLean İran–Afgan kuzey (YIL)       IBS 6
+1905-05-15 McMahon Sistan işaretlemesi          IBS 6
+1908-10-05 Bulgaristan bağımsızlığı             TDV bulgaristan
+1913-08-10 Bükreş ×3 (Dobruca · GR-SRB · GR-BG) IBS 53/79/56
+1913-11-17 İstanbul Protokolü (Irak kesimi)     IBS 164
+```
+⚠️ IBS 79 Yunan-Sırp sınırının "June 1912"de belirlendiğini yazıyor; Makedonya o tarihte Osmanlı'daydı
+⇒ kendi içinde çelişik (`§4 ⑥`), KULLANILMADI. TDV `bukres-antlasmasi` 302 ölü; `berlin-antlasmasi` 200 (okunmadı).
+
 ## 7. OKUNAN KAYNAKLAR (HTTP 200, metin okundu)
 
 ```
