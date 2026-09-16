@@ -129902,5 +129902,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4258",
+  "zaman": "2026-09-17 02:32",
+  "kimden": "D5-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G7 (1699-01-26 -> 1606-11-11) - commit 49c7cd9. HAT 0 · MADDE 0. Gerekce: 1648 Concordia (Saint-Martin) hat tanimsiz (kayit zaten YOK, 2023 antlasmasina kadar); 1670 Madrid (Ingiltere-Ispanya) Amerika'da kara hatti cizmiyor. G4-G7 zinciri bitti; D5-AMERIKA toplam: 79 hat kaydi (E 26 · C 16 · YOK 37), 21 sinir maddesi. Yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
