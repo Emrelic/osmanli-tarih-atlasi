@@ -126890,5 +126890,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4136",
+  "zaman": "2026-09-16 22:23",
+  "kimden": "D5-OKYANUSYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ENGEL/UYARI (dokunmadim) - repo 'You are currently rebasing (all conflicts fixed: run git rebase --continue)' durumunda takili, 302 dosya unstaged gorunuyor (benim degil - bolgeler.js, d_sinirlar_avrupa_bati.js, ARAC-*.py vs). HEAD su an f00ef56 (D-KAYNAK commiti), origin ile ayni. Kendi commitim (ef64c45) zaten ulasmisti, is akisim etkilenmedi. Ama paylasilan git index'te yarim kalmis bir rebase riskli olabilir (§7 'paylasilan seylerde karar Oturum 0'in') - git rebase --continue/--abort YAPMADIM, bilerek. Bilginize, benim isim durmuyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
