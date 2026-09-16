@@ -135,6 +135,47 @@ D-YOK       Kafkas/Hazar kutuları elle TAHMİNİ; ötekiler bugünkü çizginin
 YAPILMADI: koşu çıktısıyla kıyas (D1'in `kiyas_atlas` alanı) · arayüz bağlama (D-KATMAN/UI işi) ·
 İÇ parçalar (künye yok, §4).
 
+## 9. A–F KADEMESİ + GERİYE SARMA G1 (1923 → 1918-11-11) · 16 Eylül akşamı
+
+Görev: `oturumlar/GERIYE-SARMA-0916.md` D2-KOMSU satırı (ADIM 1 → 2 → 3). Tanım: `GORUNUM-ABCD-0916.md` en üst bölüm.
+
+**ADIM 1 — `sinif` alanı** (her kayıtta; `kategori` geçiş için KALDI, `sinif_not` gerekçeyi taşır):
+```
+eski D → E (12)   F YOK: tanınma tablosu (TANINMA-1923) gelmedi; iq-ir ayrıca "F değil" notlu
+eski C → C (3)    · eski D-YOK → YOK (15; fiilî-kaba olan 2'si sinif_not'la)
+🆕 D (1)          d1923-gr-bg-dogu — Batı Trakya: hat Bulgaristan için Neuilly'de kararlaştırıldı,
+                  ama Yunan tarafının dayanağı (Trakya Antl. 1920) 1923-10-29'da yürürlükte DEĞİLDİ
+```
+**ADIM 2 — G1:** her parçanın başlangıcı soruldu.
+```
+YENİ hat kaydı 4    g1-gr-srb ×2 (E, 1918-11-11→12-01, taraf Sırbistan Krallığı)
+                    g1-osm-ir (E, 1918-11-11→1921-08-23, taraf `osmanli` — C katmanı geleneği)
+                    + 2 YOK (Gevgeli · Şattülarap, aynı dönem)
+BÖLÜNDÜ 1           gr-bg → bati (Bükreş 1913 hattı, f 1918-11-11, E) + dogu (Neuilly hattı, f 1921, D)
+                    ayrım IBS 56 uzunluk oranıyla, ~24,13°D, ±30 km BELİRSİZ (Debikli koordinatı okunmadı)
+f GERİ ÇEKİLDİ 1    bg-ro-tuna 1920 → 1918-11-11 (1918 Bükreş Antl. yalnız Dobruca'yı değiştirmişti)
+YAZILMADI           bg-shs öncesi (1913 Sırp-Bulgar hattı — koordinat yok) · gr-bg-dogu 1919-21
+                    (Fransız/Yunan işgal hattı koordinatsız) · gr-al öncesi (1913 Floransa hattı 1921'de
+                    değişti) · Irak İngiliz işgali (künye YOK) · fi-lb öncesi (OETA hatları koordinatsız)
+                    ⇒ harita orada A/B'ye düşer (şartname: kasıtlı)
+DOKUNULMADI         ir-af (1891/1905) · ir-hind (1896) — hat G1'den eski
+```
+Toplam 31 kayıt: **E 12 · D 1 · C 3 · YOK 15**. Taraf kimliği `devletler.js` dışında yalnız `osmanli`.
+
+**ADIM 3 — kronoloji** `data/kronoloji_sinir_komsu.js` → `window.KRONOLOJI_SINIR_KOMSU`, **5 madde**
+(her biri `sinir_id` ile bir E/D kaydına bağlı, tarihi o kaydın `f`'iyle BİREBİR):
+```
+1918-12-01  SHS kuruldu — gr-shs                    TDV yugoslavya · IBS 79
+1920-01-01  Neuilly Bulgaristan–SHS hattı — bg-shs   TDV bulgaristan · IBS 130   (YIL: yürürlük günü bulunamadı)
+1921-01-01  Batı Trakya hattı işaretlendi — gr-bg-dogu  IBS 56 · TDV bati-trakya  (YIL)
+1921-08-23  Irak Krallığı — iq-ir                    TDV irak--ulke, faysal-i · IBS 164
+1923-03-07  Paulet–Newcombe — fi-lb                  IBS 75 · PalQuest
+```
+`yer_id` boş 1 madde (Paulet–Newcombe: Nakura–Hasbani boyunda atlasta nokta yok).
+Ek alanlar: `devletler` (iki kimlik) · `sinir_id`. index.html satırı YOK (koordinatör).
+🔴 Neuilly yürürlük günü (yaygın "9 Ağu 1920") okunabilir akademik kaynakta DOĞRULANAMADI:
+Oxford PIL · Britannica · AustLII → 403; TDV `noyi-antlasmasi` · `neuilly-antlasmasi` → 302 ölü.
+
 ## 7. OKUNAN KAYNAKLAR (HTTP 200, metin okundu)
 
 ```
