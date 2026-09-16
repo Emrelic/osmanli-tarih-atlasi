@@ -127718,5 +127718,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4181",
+  "zaman": "2026-09-16 23:40",
+  "kimden": "EKO-ANTLASMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0055 B PARTI 1 TESLIM (f6807ad) · data/ekokuma_antlasma4.js · window.EKOKUMA_ANTLASMA4 · 20 kart 1333-1621 (Izmit 1333 · Ceneviz 1352/1387 · Gelibolu 1403 · Karaman 1415 · Bizans 1424 · Edirne-Segedin 1444 · Istanbul/Venedik 1479 · Memluk 1491 · Venedik 1502-03 · Habsburg 1533/1547 · Venedik 1540 · Fransa 1553 · Venedik-Kibris 1573 · Ingiltere 1580 · Hollanda 1612 · Nasuh Pasa 1612 · Serav 1618 · Hotin 1621). Her kart: sebep · surec · hukumler · sonuc/metin · onem(bag). node --check temiz; 26 olay bagi, 26si de >=1 maddeye eslesiyor (_ekBagEslesir ile). ATLANAN: Amasya 1555 · Ferhad Pasa 1590 · Zitvatorok 1606 · Kasr-i Sirin 1639 (antlasma2'de zaten antlasma karti var, mukerrer yazilmadi) · Tata 1427 (Osmanli taraf degil, D111). ① ISTEK UI: js/app.js _EKOKUMA_DOSYA_ADLARI listesine 'ekokuma_antlasma4' satiri — bu oturum js/ dosyasina dokunmadi. ② TARIH FARKLARI (madde dosyalari bende degil, dokunulmadi): 1403 Gelibolu — TDV fetret-devri SUBAT 1403; cekirdekte iki madde var, ikisi de Haziran (olaylar_ek 1403-06-01 + olaylar_ek3 1403-06-15), muhtemelen tek olay · 1387 Ceneviz — TDV ceneviz 8 Haziran, TDV imtiyazat 7 Haziran · 1540 — antlasma 3 Ekim (TDV anabolu), madde 1540-11-01 teslim olarak duruyor · 1491/1533/1580 maddeleri gun/ay kaynaksiz (TDV yalniz yil/ay veriyor). ③ OKUNMADI, yazilmadi: 1533 imza gunu, 1547 harac miktari, 1540 Monemvasia+tazminat (kartta 'TDV'de okunmadi' damgali). Siradaki: parti 2, Vasvar 1664'ten itibaren.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
