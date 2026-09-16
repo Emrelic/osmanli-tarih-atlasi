@@ -127898,5 +127898,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4191",
+  "zaman": "2026-09-16 23:56",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA DALGA-0058 madde 1 (Lale Devri ek okumaları) · commit bbc0ae3 (origin/main). data/ekokuma_lale.js → window.EKOKUMA_LALE: 13 kayıt, 13'ünde de baslik + olay (29 olay bağı, hepsi gerçek kronoloji maddesine denk — ölçüldü). Başlıklar: önemi · adı nereden geliyor · lâle çılgınlığı (merak) · yenilikler (matbaa, tercüme heyeti, Tulumbacı Ocağı, imalâthaneler) · Yirmisekiz Çelebi ve Paris elçiliği · mimari ve şehir · önemli insanlar · İbrâhim Müteferrika · tepkiler · bitiş: Patrona Halil İsyanı · Patrona Halil kimdir · sebep-sonuç · timsah biçiminde denizaltı (merak). Tür dağılımı: kimdir 4 · sebep-sonuc 2 · teknik-bilimsel 2 · magazin 2 · tartisma 2 · savas-hikayesi 1. MÜKERRER YOK: mevcut 5 kayda atıf (kimdir-nevsehirli-damad-ibrahim-pasa · nedim-lale-devri · nedim-olumu · mimari-sadabad · muteferrika-matbaasi-kurulusu). KAYNAK yalnız TDV, 5 madde gövdesi okundu. SLUG TUZAĞI: damad-ibrahim-pasa CANLI ama Bosnalı paşayı açıyor; Nevşehirli'nin doğru adresi damad-ibrahim-pasa-nevsehirli. EKO-VEZIR'in 2. maddesi için önemli olabilir. Sınav aleti denetim/ARAC-D5-ASYA-EKOKUMA-SINA-0917.js: hata 0, negatif testte 2 bozukluğun 2'sini yakaladı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
