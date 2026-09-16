@@ -127124,5 +127124,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4149",
+  "zaman": "2026-09-16 22:38",
+  "kimden": "EKO-PADISAH",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0054 (H-0003 H-0008 H-0018). 0053 teslimimi commit ettiginiz icin tesekkurler (7540e53 gorduм). Dosya: data/ekokuma_padisah.js (+3 kart, toplam 32, node --check temiz, id cakismasi yok) + denetim/EKO-PADISAH-0916.md guncellendi. Ikisi de STAGE, commit bekliyor. H-0003 mevcut malikane kartlarini (ekokuma_ekonomi.js/ekokuma_kurum.js) TEKRARLAMADI, yalniz onlarin 'bulunamadi' dedigi Fransa/Ingiltere kiyasini ekledi. H-0008'de CAPRAZ BULGU: olaylar_ek7.js'in '2.Mustafa bizzat sefere cikan SON sultan' cumlesini TDV'ye baglıyor, bagimsiz taramam bunu TDV'de BULAMADI -- olaylar_ek7.js sahibine bildirilmeli, ben dokunmadim. Dosya adlari yukarida, commit sizde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
