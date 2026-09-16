@@ -128240,5 +128240,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4210",
+  "zaman": "2026-09-17 00:18",
+  "kimden": "D-GEOARAC",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: antlasma aleti 400 maddeye genisletildi (commit ada918f). denetim/ARAC-ANTLASMA-HARITA-GENIS-0917.py + _ANTLASMA-HARITA-GENIS-CIKTI-0917.json + ANTLASMA-HARITA-GENIS-0917.md. 504 antlasma/baris-anahtarli madde tarandi, 385 Osmanli-disi elendi, 69 taraf cikarilamadi (COGU zaten ANTLASMALAR'daki 41 antlasmanin olaylar.js'teki BASLIK-ONLY kisa satiri - tekrar uretilmedi, D023), 47 eslesme yok, 3 GERCEK YENI bulgu: Ayastefanos/Sofya (osmanli->bulgaristan, -58 gun) - Ankara Itilafnamesi/Mersin (fransa->tbmm-turkiye, TAM GUN eslesme) - II.Murad-Bizans/Aynaroz (bizans->osmanli, -52 gun). Bu 3'u antlasma_haritalari.js'e YAZMADIM, senin/D-KATMAN'in onayi gerekiyor. PASAROFCA (oncelikli madde): kontrol ettim, D-KATMAN onceki turumun ciktisiyla ZATEN tamamlamis (commit 2b71273, Ayamavra'yi da haklı olarak elemis) - tekrar uretmedim. Bosum, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
