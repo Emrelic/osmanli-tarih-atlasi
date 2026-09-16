@@ -38,10 +38,48 @@
 // ============================================================================
 window.EKOKUMA_ANTLASMA4 = [
 
+// ═══ ÖNCELİKLİ · DALGA-0058 madde 3a ═════════════════════════════════════
+// Pasarofça'nın hükümleri ekokuma.js `antlasma-pasarofca-1718`, savaşın hikâyesi
+// ekokuma_antlasma2.js `sebep-sonuc-pasarofca-1718` kartında da var; bu kart
+// istenen bütün başlıkları (diplomatlar dahil) TEK yerde toplar.
+
+// ── 1718 PASAROFÇA ANTLAŞMASI ──────────────────────────────────────────────
+{ id:"antlasma4-pasarofca-1718", tur:"sebep-sonuc",
+  baslik:"Pasarofça Antlaşması (1718): sebep, görüşmeler, hükümler ve diplomatlar",
+  kisa:"Karlofça'nın rövanşı için açılan savaş Mora'yı geri getirdi ama Belgrad'ı götürdü; yetmiş günlük görüşme, iki aracı devletin elçileri önünde iki ayrı antlaşmayla bitti.",
+  sebep:{ b:"Osmanlı'nın Venedik'e savaş açması ve Avusturya'nın Venedik'in yanında savaşa girmesi (13 Nisan 1716 ittifakı)", t:"1716-04-13" },
+  sonuc:{ b:"Pasarofça'da Avusturya ve Venedik ile barış antlaşmaları", t:"1718-07-21" },
+  bag:"Önemi: TDV'ye göre antlaşma Venedik'ten çok Avusturya'nın lehine sonuçlandı; Osmanlı Devleti büyük toprak kayıplarıyla Orta Avrupa'dan çekilmekle kalmadı, Avrupa için artık güçlü bir devlet olmaktan çıkmaya başladı. Belgrad ancak 1739'da geri alınabildi.",
+  surec:"Osmanlı devlet adamları Karlofça'yı bir mütareke gibi görüyordu. Prut'tan sonra Venedik'e savaş açıldı ve Mora geri alındı. Prens Eugène'in savaş yanlılığıyla 13 Nisan 1716'da Avusturya-Venedik ittifakı (1684 Kutsal İttifakı'nın yenilenmesi) imzalandı; İngiltere ve Hollanda'nın aracılık teklifleri reddedildi. Damad Ali Paşa Varadin'de şehit düştü, Banat ve Tımışvar, 1717'de de Belgrad Avusturya'ya geçti. Barış için Bosna'daki Elhâc Mustafa Paşa görevlendirildi; Morava nehrini sınır öneren mektubunu Eugène 11 Aralık 1717'de 'Belgrad ve çevresi Avusturya'da' diye yorumladı. VI. Karl ayrıca savaş tazminatı, Bosna, Tuna'nın sağındaki Sırbistan ve Eflak'ı istedi; III. Ahmed öfkelendi. Aracı elçilerin gayretiyle görüşmelerin mevcut durum üzerinden yapılması kabul edildi. 9 Mayıs 1718'de Nevşehirli İbrâhim Paşa sadrazam oldu. Görüşmeler Semendire'nin 24 km doğusunda, Morava yakınındaki Pasarofça'da 5 Haziran 1718'de başladı. Avusturya önce Rákóczi ve adamlarının teslimini şart koştu, ikinci oturumda (7 Haziran) Sırbistan'ın tamamını, Niş, Vidin, Yenipazar, Üsküp, Semendire ve Eflak-Boğdan'ı istedi. İbrâhim Paşa ile Eugène arasında yazışmalar yapıldı; iki ordu da savaşa hazırlanıyordu, ama Avusturya İspanya ile yeni bir çatışmanın eşiğindeydi. Üçüncü oturumda (15 Haziran) Osmanlı Drina-Una arasındaki Bosna toprağında ısrar etmedi; beşinci oturumda Avusturya Sırbistan ve Eflak-Boğdan isteklerinden vazgeçip mevcut duruma razı oldu. Osmanlı Rákóczi'yi teslim etmeyeceğini (18 Haziran) ve Lehistan'ın barışa sokulmasını kabul etmeyeceğini bildirdi; Avusturya ikisinden de vazgeçti. Osmanlı on beş yıllık barış istedi, Avusturya'nın yirmi dört yıl önerisi kabul edildi. Avusturya ile görüşmeler 10 Temmuz'daki sekizinci oturumla bitti. Venedik ile 16, 21, 28 Haziran ve 12 Temmuz'da dört oturum yapıldı; Ruzzini, Avusturya'ya güvenerek Mora dahil kaybedilen her yeri ve iki yıllık tazminat istedi.",
+  diplomatlar:[
+    "Osmanlı: birinci delege Silâhdar İbrâhim Efendi (şıkk-ı sâni defterdarlığı pâyesiyle) · ikinci delege Yirmisekiz Çelebi Mehmed Efendi (şıkk-ı sâlis defterdarlığı pâyesiyle) · tercüman Eflak Voyvodası Yenaki (Johann Mavrokordato) Bey. Sadrazam Nevşehirli Damad İbrâhim Paşa yazışmaları yürüttü.",
+    "Avusturya: saray savaş müşaviri Wirmond · eski İstanbul elçisi, saray müşaviri Talmann. Barış yetkisi Başvekil Prens Eugène'deydi.",
+    "Venedik: Carlo Ruzzini.",
+    "Aracılar — İngiltere: fevkalâde elçi Robert Sutton ve İstanbul elçisi Stanyan · Hollanda: elçi Jacobus Colyer."
+  ],
+  hukumler:[
+    "AVUSTURYA (20 madde) · ilk yedi madde sınırlar; kesin tespit komiserlere bırakıldı. Bütün Banat, Oltu ırmağına kadar Küçük Eflak, Belgrad dahil kuzey Sırbistan ve Kuzey Bosna Avusturya'ya bırakıldı.",
+    "Karşılıklı saldırılarda emniyetin sağlanması, esirlerin serbest bırakılması veya mübadelesi.",
+    "Osmanlı ülkesindeki Katolikler ve Kudüs'teki Fransiskenler rahatça ibadet edebilecek, kilise açmaları engellenmeyecekti.",
+    "Osmanlı, Rákóczi'nin oğlunu ve öteki Macar mültecilerini sınırdan uzak bir yere yerleştirecek; Avusturya ailelerini yanlarına gönderecekti.",
+    "13. madde: ticaretin güvenliği; Cezayir, Tunus, Trablusgarp ve Ülgün korsanlarına Osmanlı engel olacaktı.",
+    "Onay bir ay içinde, teyit ertesi ilkbaharda büyükelçilerle; son madde Kırım'ın da hükümlere uymasını şart koştu. Barış süresi 24 yıl.",
+    "TİCARET ANTLAŞMASI (27 Temmuz, 20 madde): Avusturya tüccarı serbestçe alışveriş yapacak, bir defaya mahsus %3 gümrük ödeyecekti; bütün paralar geçerli, para ve değerli madenden gümrük alınmayacak; Avusturya liman ve ticaret yerlerinde konsolosluk açabilecek, Osmanlı da Avusturya'da şehbenderlik kurabilecekti; İranlı tüccara %5 gümrükle Avusturya'ya geçiş serbestliği.",
+    "VENEDİK (26 madde) · ilk beş madde sınırlar: Mora, Suda ve İşşimolanga hiç anılmadı, yani Osmanlı'da kaldı. Osmanlı, savaşta aldığı Çuka (Cerigo) adasını, Bosna ile Ragusa arasında serbest bir yol bırakılması ve bu yoldaki üç palankanın Osmanlı sınırına alınması şartıyla iade etti. Butrinto, Preveze, Vonitsa (Voniçe) ve İfrindos Venedik'te kaldı.",
+    "Venedik'in tazminat talebine karşılık gümrük vergisi %5'ten %3'e indirildi — TDV'ye göre bu antlaşmadaki tek yeni madde."
+  ],
+  metin:"İmzalayanlar — Osmanlı: Silâhdar İbrâhim Efendi ve Yirmisekiz Çelebi Mehmed Efendi (tercüman Yenaki Mavrokordato); Avusturya: Wirmond ve Talmann; Venedik: Carlo Ruzzini; aracılar: İngiltere'den Robert Sutton ve Stanyan, Hollanda'dan Jacobus Colyer. Antlaşmalar 22 Şâban 1130 / 21 Temmuz 1718'de imzalandı. Onaylar zamanında değiş tokuş edildi; delegeler Ağustos sonunda Pasarofça'dan ayrıldı, ordular yerlerine çekildi ve sınır tespiti ertesi yıla kadar bitti. 1719'da Avusturya İstanbul'a Wirmond'u, Osmanlı Viyana'ya Rumeli beylerbeyiliği pâyesiyle İbrâhim Paşa'yı büyükelçi gönderdi; iki devlet değerli hediyeler yolladı. Ticaret antlaşması gereği Kazgancızâde Ömer Ağa Viyana'ya şehbender oldu. Avusturya, Venedik ve Lehistan arasındaki, birine yapılan Osmanlı saldırısını birlikte karşılama ittifakı ise yürürlükte kaldı. Sırbistan sınırı 1739 Belgrad Antlaşması'yla yeniden düzeltildi ve Belgrad geri alındı.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1718-07-21|Pasarofça"],
+  kaynak:"TDV: pasarofca-antlasmasi (savaşın sebepleri, 13 Nisan 1716, Mustafa Paşa'nın teklifi, 11 Aralık 1717 mektubu, VI. Karl'ın şartları, 9 Mayıs 1718, görüşme yeri, heyetler ve aracılar, oturumlar, 21 Temmuz 1718, Avusturya/ticaret/Venedik antlaşmalarının maddeleri, onay ve elçilikler, değerlendirme) · ayrıca bk. ekokuma.js antlasma-pasarofca-1718 ve ekokuma_antlasma2.js sebep-sonuc-pasarofca-1718",
+  ic_not:"'diplomatlar' alanı bu karta özgü yeni bir alan (DALGA-0058 3a talebi); arayüz göstermiyorsa diye özeti `metin`in başında da var." },
+
 // ═══ PARTİ 1 · 1333 – 1621 ═══════════════════════════════════════════════
 
 // ── 1333 İZMİT ÖNÜNDEKİ ANTLAŞMA ─────────────────────────────────────────────
 { id:"antlasma4-izmit-1333", tur:"sebep-sonuc",
+  baslik:"İzmit Antlaşması (1333): Bizans'ın Orhan Bey'e yıllık ödemesi",
   kisa:"Bizans imparatoru kuşatılmış bir şehri kurtarmak için savaşmak yerine her yıl altın ödemeyi seçti; Osmanlı beyi gözünde bu, Bizans'ın haraçgüzâr olması demekti.",
   sebep:{ b:"Orhan Bey'in büyük bir ordu ve mancınıklarla Nikomedia'yı (İzmit) kuşatması", t:"1333" },
   sonuc:{ b:"İzmit önünde Orhan ile III. Andronikos arasında antlaşma", t:"1333-08" },
@@ -61,6 +99,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1352 CENEVİZ İTTİFAKI VE İLK KAPİTÜLASYON ───────────────────────────────
 { id:"antlasma4-ceneviz-1352", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Ceneviz ittifakı ve ilk kapitülasyon (1352)",
   kisa:"Boğaz'da Venedik'e karşı savaşan Cenevizliler için Orhan doğal bir müttefikti; karşılığında verilen ilk ticaret imtiyazı, Osmanlı kapitülasyonlarının başlangıcı oldu.",
   sebep:{ b:"1351-1355 Ceneviz-Venedik savaşı: Venedik donanmasının Pera'yı (Galata) kuşatması", t:"1351" },
   sonuc:{ b:"Orhan ile Cenevizliler arasında ittifak ve ilk Osmanlı kapitülasyonu", t:"1352" },
@@ -80,6 +119,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1387 OSMANLI-CENEVİZ AHİDNÂMESİ ──────────────────────────────────────────
 { id:"antlasma4-ceneviz-1387", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Ceneviz ahidnâmesi (1387)",
   kisa:"Metni bugüne ulaşan en eski Osmanlı ahidnâmesi: bir düğün şenliğinin ortasında, otuz beş yıllık Ceneviz dostluğu kâğıda geçirildi.",
   sebep:{ b:"Tenedos (Bozcaada) yüzünden alevlenen Venedik-Ceneviz rekabetinde I. Murad'ın Cenevizlileri desteklemesi", t:"1381" },
   sonuc:{ b:"Pera'dan gelen Ceneviz elçileriyle 1352 ticaret anlaşmasının yenilenmesi", t:"1387-06" },
@@ -99,6 +139,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1403 GELİBOLU ANTLAŞMASI ────────────────────────────────────────────────
 { id:"antlasma4-gelibolu-1403", tur:"sebep-sonuc",
+  baslik:"Gelibolu Antlaşması (1403): Süleyman Çelebi'nin Bizans'a tavizleri",
   kisa:"Ankara bozgunundan sonra Rumeli'de tutunmak isteyen bir şehzade, tahtın bedelini toprakla ödedi: Selanik ve Karadeniz kıyıları Bizans'a döndü, haraç kalktı.",
   sebep:{ b:"Ankara Savaşı (1402) ve Osmanlı şehzadeleri arasında taht mücadelesi (Fetret devri)", t:"1402-07-28" },
   sonuc:{ b:"Süleyman Çelebi ile Bizans İmparatoru Manuel arasında Gelibolu Antlaşması", t:"1403-02" },
@@ -120,6 +161,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1415 KARAMANOĞULLARI İLE ANTLAŞMA ───────────────────────────────────────
 { id:"antlasma4-karaman-1415", tur:"sebep-sonuc",
+  baslik:"Karamanoğulları ile barış (1415)",
   kisa:"Rumeli'de kardeşiyle savaşırken Bursa'yı yakan komşusuna Çelebi Mehmed, birliği sağlar sağlamaz Konya surlarının önünde cevap verdi.",
   sebep:{ b:"Karaman Beyi Mehmed'in, Çelebi Mehmed Rumeli'de Mûsâ'ya karşı savaşırken Bursa'yı otuz bir gün kuşatıp yakması", t:"1413" },
   sonuc:{ b:"Konya kuşatması ve Karamanoğlu'nun barış istemesi", t:"1415-03" },
@@ -138,6 +180,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1424 II. MURAD – BİZANS BARIŞI ─────────────────────────────────────────
 { id:"antlasma4-bizans-1424", tur:"sebep-sonuc",
+  baslik:"II. Murad-Bizans barışı (1424)",
   kisa:"Selanik'i Venedik'e devreden Bizans, İstanbul'un da aynı yola gideceği korkusunu doğurdu; barış onu yeniden haraç ödemeye bağladı.",
   sebep:{ b:"Venedik'in anlaşmayla Selanik'in idaresini devralması ve Osmanlı'ya karşı ittifak arayışı", t:"1423" },
   sonuc:{ b:"II. Murad ile Bizans imparatoru arasında barış — Bizans yeniden haraç ödemeyi kabul etti", t:"1424-02-22" },
@@ -155,6 +198,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1444 EDİRNE-SEGEDİN ANTLAŞMASI ─────────────────────────────────────────
 { id:"antlasma4-edirne-segedin-1444", tur:"sebep-sonuc",
+  baslik:"Edirne-Segedin Antlaşması (1444)",
   kisa:"Padişah antlaşmanın gereğini yerine getirdi, Sırp despotu topraklarını geri aldı; ama Macar kralının yemini bozduruldu ve barış dört ay içinde Varna'ya döndü.",
   sebep:{ b:"'Uzun Sefer': Hunyadi Yanko ve Macar kralının Niş ve Sofya'yı alıp Balkan geçitlerine dayanması", t:"1443-10" },
   sonuc:{ b:"Edirne'de Macar, Sırp ve Hunyadi elçileriyle anlaşma", t:"1444-06-12" },
@@ -175,6 +219,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1479 İSTANBUL ANTLAŞMASI (VENEDİK) ─────────────────────────────────────
 { id:"antlasma4-istanbul-venedik-1479", tur:"sebep-sonuc",
+  baslik:"İstanbul Antlaşması (1479): Osmanlı-Venedik savaşının sonu",
   kisa:"On altı yıllık savaş İşkodra'nın kapısında bitti: Venedik kaleyi boş olarak teslim etti ve Osmanlı ticaretine yeniden girmek için her yıl altın ödemeyi kabul etti.",
   sebep:{ b:"Osmanlı-Venedik savaşı (1463-1479) ve Fâtih'in İşkodra kuşatması", t:"1478" },
   sonuc:{ b:"İstanbul'da Osmanlı-Venedik barış antlaşması", t:"1479-01-25" },
@@ -196,6 +241,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1491 OSMANLI-MEMLÜK BARIŞI ─────────────────────────────────────────────
 { id:"antlasma4-memluk-1491", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Memlük barışı (1491)",
   kisa:"Altı yıl Çukurova'da el değiştiren kaleler kimseye kesin zafer vermedi; Tunus sultanının aracılığıyla yapılan barış, Adana ve Tarsus'u Mekke-Medine vakfı sayıp Memlüklere bıraktı.",
   sebep:{ b:"Çukurova ve Dulkadıroğulları üzerinde nüfuz yarışı ile Memlüklerin Cem Sultan'ı desteklemesi", t:"1485" },
   sonuc:{ b:"Tunus Hafsî sultanının aracılığıyla Osmanlı-Memlük barışı", t:"1491" },
@@ -214,6 +260,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1502-1503 OSMANLI-VENEDİK BARIŞI ────────────────────────────────────────
 { id:"antlasma4-venedik-1503", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Venedik barışı (1502-1503)",
   kisa:"Modon ve Koron'u kaybeden Venedik, papanın Haçlı çağrısı da boşa çıkınca eski haracına dönmeyi kabul etti; karşılığında ticaret kapısı yeniden açıldı.",
   sebep:{ b:"Venedik'in Türklere karşı Fransa ile ittifakı ve 1499-1502 Osmanlı-Venedik savaşı", t:"1498" },
   sonuc:{ b:"İstanbul'da Grekçe düzenlenen barış antlaşması", t:"1502-12-14" },
@@ -234,6 +281,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1533 İSTANBUL ANTLAŞMASI (HABSBURG) ────────────────────────────────────
 { id:"antlasma4-istanbul-habsburg-1533", tur:"sebep-sonuc",
+  baslik:"İstanbul Antlaşması (1533): Habsburglarla ilk barış",
   kisa:"Viyana ve Alman seferlerinden sonra Kanûnî batıda bir soluk istiyordu; Ferdinand'ın elçisini kabul edip ateşkese razı olunca gözünü doğuya, İran'a çevirdi.",
   sebep:{ b:"Kanûnî'nin Alman seferi (1532) ve Macar tahtı üzerindeki Habsburg-Szapolyai çekişmesi", t:"1532" },
   sonuc:{ b:"Ferdinand'ın elçisi Cornelius'un kabulü ve ateşkes — Habsburglarla ilk barış", t:"1533-01" },
@@ -251,6 +299,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1540 OSMANLI-VENEDİK ANTLAŞMASI ────────────────────────────────────────
 { id:"antlasma4-venedik-1540", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Venedik Antlaşması (1540): Anabolu ve Ege adaları",
   kisa:"Preveze'den sonra Venedik, Ege adalarını ve Mora'daki son kalelerini bırakarak barış satın aldı; Anabolu uzun bir kuşatmadan sonra teslim edildi.",
   sebep:{ b:"1537-1540 Osmanlı-Venedik savaşı ve Barbaros'un Ege seferleri", t:"1537" },
   sonuc:{ b:"Osmanlı-Venedik antlaşması; Anabolu (Nauplion) Osmanlılara bırakıldı", t:"1540-10-03" },
@@ -270,6 +319,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1547 İSTANBUL ANTLAŞMASI (HABSBURG) ────────────────────────────────────
 { id:"antlasma4-istanbul-habsburg-1547", tur:"sebep-sonuc",
+  baslik:"İstanbul Antlaşması (1547): Habsburglarla beş yıllık barış",
   kisa:"Habsburg imparatoru ve kardeşi, Macaristan'da ellerinde kalan topraklar için Osmanlı'ya her yıl ödeme yapmayı kabul etti; Osmanlı için bu, doğuya dönmeden önce batıyı güvenceye almaktı.",
   sebep:{ b:"Budin'in Osmanlı eyaleti olması (1541) ve V. Karl ile Ferdinand'ın barış arayışı", t:"1545" },
   sonuc:{ b:"Habsburglarla beş yıllık barış antlaşması", t:"1547-06" },
@@ -288,6 +338,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1553 OSMANLI-FRANSIZ İTTİFAKI ──────────────────────────────────────────
 { id:"antlasma4-fransa-1553", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Fransız ittifakı (1536-1553)",
   kisa:"Bir Katolik kral, Habsburglara karşı bir Müslüman padişahla ittifak yaptı; 1536 ahidnâmesiyle başlayan yakınlaşma 1553'te iki donanmanın ortak harekâtına dönüştü.",
   sebep:{ b:"Fransa'nın V. Karl'a karşı müttefik arayışı ve 1536 ahidnâmesi", t:"1536-02-18" },
   sonuc:{ b:"Fransa'nın Habsburglara karşı Osmanlı Devleti ile yeni ittifakı", t:"1553-02-01" },
@@ -306,6 +357,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1573 OSMANLI-VENEDİK ANTLAŞMASI (KIBRIS) ───────────────────────────────
 { id:"antlasma4-venedik-kibris-1573", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Venedik Antlaşması (1573): Kıbrıs'ın terki",
   kisa:"Venedik İnebahtı'da kazandı ama savaşı kaybetti: iki yıl sonra Kıbrıs'ı resmen bıraktı ve üstüne tazminat ödedi.",
   sebep:{ b:"Kıbrıs'ın fethi (1570-1571) ve İnebahtı deniz savaşı (1571)", t:"1570-09-09" },
   sonuc:{ b:"Osmanlı-Venedik antlaşması — Kıbrıs'ın hukuken Osmanlı'ya geçişi", t:"1573-03-07" },
@@ -323,6 +375,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1580 İNGİLTERE'YE İLK AHİDNÂME ────────────────────────────────────────
 { id:"antlasma4-ingiltere-1580", tur:"sebep-sonuc",
+  baslik:"İngiltere'ye ilk ahidnâme (1580)",
   kisa:"Fransız bayrağı altında ticaret yapmak zorunda kalan İngiliz tüccarı, İstanbul'a gönderdiği tek bir temsilciyle Venedik ve Fransa'nın imtiyazlarına ortak oldu.",
   sebep:{ b:"İngiliz tüccarları Osborne ve Staper'ın temsilcileri William Harborne'ı İstanbul'a göndermesi", t:"1578-10" },
   sonuc:{ b:"III. Murad'ın İngiliz tüccarlarına ahidnâme vermesi", t:"1580" },
@@ -340,6 +393,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1612 HOLLANDA'YA İLK AHİDNÂME ──────────────────────────────────────────
 { id:"antlasma4-hollanda-1612", tur:"sebep-sonuc",
+  baslik:"Hollanda'ya ilk ahidnâme (1612)",
   kisa:"İspanya'ya karşı bağımsızlık savaşı veren bir cumhuriyetin elçisi, Fransız ve İngiliz elçilerinin engellemelerine rağmen padişahın huzuruna çıktı — ve kendi bayrağıyla ticaret hakkını aldı.",
   sebep:{ b:"Hollandalı tüccarların Fransız, sonra İngiliz bayrağı altında ticaret yapmak zorunda kalması", t:"1601-12" },
   sonuc:{ b:"I. Ahmed'in Felemenk Birleşik Cumhuriyeti'ne ilk ahidnâmeyi vermesi", t:"1612-07-06" },
@@ -359,6 +413,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1612 NASUH PAŞA ANTLAŞMASI ─────────────────────────────────────────────
 { id:"antlasma4-nasuh-pasa-1612", tur:"sebep-sonuc",
+  baslik:"Nasuh Paşa Antlaşması (1612)",
   kisa:"Şah Abbas'ın kazandıklarını tanıyan bir barış: yeni sadrazam, her yıl 200 yük ipek karşılığında İran'la Kanûnî devrinin sınırlarına döndü.",
   sebep:{ b:"Kuyucu Murad Paşa'nın Tebriz yakınlarına kadar ilerlemesi ve Şah Abbas'ın barış teklifi", t:"1610" },
   sonuc:{ b:"İstanbul'da İran ile barış (Nasuh Paşa Antlaşması)", t:"1612-11-20" },
@@ -376,6 +431,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1618 SERAV ANTLAŞMASI ──────────────────────────────────────────────────
 { id:"antlasma4-serav-1618", tur:"sebep-sonuc",
+  baslik:"Serav Antlaşması (1618)",
   kisa:"Erdebil önünde yenilen Osmanlı ordusu, intikam yürüyüşüne çıkarken Safevîlerin barış teklifini aldı; ipek haracı yarıya indi, geri kalan her şey Nasuh Paşa'daki gibi kaldı.",
   sebep:{ b:"Nasuh Paşa Antlaşması'nın ipek taahhüdünün yerine getirilmemesi ve 1615-1618 savaşları", t:"1615" },
   sonuc:{ b:"Serav Antlaşması — İran'la barışın yenilenmesi", t:"1618-09" },
@@ -394,6 +450,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1621 HOTİN ANTLAŞMASI ──────────────────────────────────────────────────
 { id:"antlasma4-hotin-1621", tur:"sebep-sonuc",
+  baslik:"Hotin Antlaşması (1621)",
   kisa:"Genç padişahın tabyalar önünde tıkanan seferi, Osmanlı lehine bir barışla bitti ve zafer diye ilân edildi — ama ordunun padişaha güveni burada kırıldı.",
   sebep:{ b:"II. Osman'ın Kazak akınları ve Lehistan'la süren savaş hali üzerine Lehistan seferine çıkması", t:"1621" },
   sonuc:{ b:"Hotin önlerinde Osmanlı-Leh antlaşması", t:"1621-10-09" },
@@ -420,6 +477,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1713 EDİRNE ANTLAŞMASI (RUSYA) ─────────────────────────────────────────
 { id:"antlasma4-edirne-rusya-1713", tur:"sebep-sonuc",
+  baslik:"Edirne Antlaşması (1713): Rusya ile Prut'un teyidi",
   kisa:"Prut'ta kuşatılan çar kurtulmak için imza atmıştı; o imzanın gereğini yaptırmak iki yıl, iki savaş ilânı ve yeni bir antlaşma aldı.",
   sebep:{ b:"Rusya'nın Prut Antlaşması (1711) hükümlerini yerine getirmeyi sürüncemede bırakması", t:"1711-07-21" },
   sonuc:{ b:"Edirne'de Rusya ile yeni antlaşma — Azak'ın Osmanlı'da kalması", t:"1713-06-24" },
@@ -439,6 +497,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1724 İSTANBUL (İRAN) MUKĀSEMENÂMESİ ────────────────────────────────────
 { id:"antlasma4-iran-mukasemenamesi-1724", tur:"sebep-sonuc",
+  baslik:"İstanbul (İran) Mukāsemenâmesi (1724)",
   kisa:"Çöken Safevî ülkesinin üzerinde iki imparatorluk karşı karşıya geldi; savaşmak yerine Fransız elçisinin aracılığıyla haritayı paylaştılar.",
   sebep:{ b:"Afgan istilâsıyla Safevî Devleti'nin çökmesi ve Rusya'nın Derbend ile Bakü'yü alması", t:"1722" },
   sonuc:{ b:"İstanbul'da Rusya ile İran Mukāsemenâmesi", t:"1724-06-24" },
@@ -457,6 +516,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1727 HEMEDAN ANTLAŞMASI ────────────────────────────────────────────────
 { id:"antlasma4-hemedan-1727", tur:"sebep-sonuc",
+  baslik:"Hemedan Antlaşması (1727)",
   kisa:"Sahada yenilen taraf masada kazandı: Osmanlı'nın yeni bir sefere hazırlandığı haberi, Afgan şahını geniş tavizlere razı etti.",
   sebep:{ b:"Eşref Han'ın 1724 paylaşımını tanımaması ve Nihâvend'deki Osmanlı yenilgisi", t:"1726-11" },
   sonuc:{ b:"Eşref Han ile Hemedan Mukāsemenâmesi", t:"1727-10-04" },
@@ -477,6 +537,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1732 AHMED PAŞA ANTLAŞMASI ─────────────────────────────────────────────
 { id:"antlasma4-ahmed-pasa-1732", tur:"sebep-sonuc",
+  baslik:"Ahmed Paşa Antlaşması (1732)",
   kisa:"Bağdat valisi zaferden sonra barış imzaladı ve Tebriz'i İran'a bıraktı; padişah antlaşmayı tanımadı, barışı yapanları görevden aldı ve savaş yeniden başladı.",
   sebep:{ b:"II. Tahmasb'ın Safevî gücünü toparlayıp Batı İran'daki Osmanlı kazanımlarına saldırması", t:"1730" },
   sonuc:{ b:"Ahmed Paşa ile Muhammed Rızâ Kulı arasında barış antlaşması", t:"1732-01-10" },
@@ -495,6 +556,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1736 İSTANBUL ANTLAŞMASI (NÂDİR ŞAH) ────────────────────────────────────
 { id:"antlasma4-istanbul-iran-1736", tur:"sebep-sonuc",
+  baslik:"İstanbul Antlaşması (1736): Nâdir Şah ile barış",
   kisa:"Nâdir Şah tahtını tanıtmak ve Caferîliği beşinci mezhep kabul ettirmek istedi; ikincisi reddedildi, ama Kafkasya'daki Osmanlı kazanımları elden çıktı.",
   sebep:{ b:"Nâdir'in Gence, Tiflis ve Revan'ı geri alması ve Osmanlı-Rus ilişkilerinin bozulması", t:"1735" },
   sonuc:{ b:"Nâdir Şah ile 1639 Kasr-ı Şirin esasına dayanan anlaşma", t:"1736" },
@@ -514,6 +576,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1740 FRANSA KAPİTÜLASYONLARI ───────────────────────────────────────────
 { id:"antlasma4-fransa-kapitulasyon-1740", tur:"sebep-sonuc",
+  baslik:"Fransa kapitülasyonlarının sürekli hâle gelmesi (1740)",
   kisa:"Belgrad barışında aracılık eden Fransız elçisi ödülünü aldı: her padişahla yenilenmesi gereken imtiyazlar artık süresiz oldu.",
   sebep:{ b:"Fransız elçisi Villeneuve'ün 1739 Belgrad antlaşmalarındaki aracılığı", t:"1739-09-18" },
   sonuc:{ b:"Fransa kapitülasyonlarının genişletilip sürekli hâle getirilmesi", t:"1740" },
@@ -534,6 +597,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1746 KERDEN ANTLAŞMASI ─────────────────────────────────────────────────
 { id:"antlasma4-kerden-1746", tur:"sebep-sonuc",
+  baslik:"Kerden Antlaşması (1746)",
   kisa:"Yüz yıldan fazla aralıklarla süren Osmanlı-İran savaşlarının sonuncusu, iki tarafa da toprak kazandırmadan 1639 sınırında bitti.",
   sebep:{ b:"Nâdir Şah'ın Kerkük'ü alıp Bağdat ve Musul'a yönelmesi (1743)", t:"1743-07" },
   sonuc:{ b:"Kerden'de Osmanlı-İran barışı", t:"1746-09-04" },
@@ -554,6 +618,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1779 AYNALIKAVAK TENKİHNÂMESİ ──────────────────────────────────────────
 { id:"antlasma4-aynalikavak-1779", tur:"sebep-sonuc",
+  baslik:"Aynalıkavak Tenkihnâmesi (1779)",
   kisa:"Küçük Kaynarca'nın 'bağımsız Kırım'ı bir savaşa dönüşmek üzereydi; bir açıklama metni savaşı erteledi ama Kırım'ı Rusya'ya bir adım daha yaklaştırdı.",
   sebep:{ b:"Kırım hanlığına Rusya'nın Şâhin Giray'ı, Osmanlı'nın III. Selim Giray'ı çıkarmak istemesi", t:"1778" },
   sonuc:{ b:"Aynalıkavak Kasrı'nda Tenkihnâme", t:"1779-03-10" },
@@ -576,6 +641,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1790 OSMANLI-PRUSYA İTTİFAKI ───────────────────────────────────────────
 { id:"antlasma4-prusya-1790", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Prusya ittifakı (1790)",
   kisa:"Osmanlı diplomatları savaşın ortasında Rusya'ya karşı savaşmayı vaat eden bir müttefik buldu; Berlin ise vaadi hiç yerine getirmedi, ama Avusturya'yı barışa zorladı.",
   sebep:{ b:"1787-1790 iki cepheli savaş ve Prusya'nın Avusturya'nın Osmanlı toprağıyla büyümesinden kaygılanması", t:"1788-02-09" },
   sonuc:{ b:"İstanbul'da Osmanlı-Prusya ittifak antlaşması", t:"1790-01-31" },
@@ -594,6 +660,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1791 ZİŞTOVİ ANTLAŞMASI ────────────────────────────────────────────────
 { id:"antlasma4-zistovi-1791", tur:"sebep-sonuc",
+  baslik:"Ziştovi Antlaşması (1791)",
   kisa:"Yedi ay, on sekiz oturum ve 'status quo' kelimesi üzerine uzun bir kavga: Osmanlı ile Avusturya arasındaki son barış, iki devleti rakiplikten yakınlaşmaya taşıdı.",
   sebep:{ b:"Avusturya'nın Rusya'nın müttefiki olarak savaşa katılması (9 Şubat 1788) ve Reichenbach Konvansiyonu", t:"1790-07-27" },
   sonuc:{ b:"Ziştovi'de Osmanlı-Avusturya barışı", t:"1791-08-04" },
@@ -617,6 +684,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1802 PARİS ANTLAŞMASI (FRANSA) ─────────────────────────────────────────
 { id:"antlasma4-paris-1802", tur:"sebep-sonuc",
+  baslik:"Paris Antlaşması (1802): Fransa ile barış",
   kisa:"Napolyon'un Mısır seferi, üç yüz yıllık 'kadim dost'u düşmana çevirmişti; Mısır boşaltılınca Paris'te dostluk yeniden kuruldu.",
   sebep:{ b:"Napolyon'un Mısır'ı işgali ve Osmanlı'nın İngiltere ve Rusya ile ittifakı", t:"1798-07-01" },
   sonuc:{ b:"Paris'te Osmanlı-Fransız barışı", t:"1802" },
@@ -635,6 +703,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1808 SENED-İ İTTİFAK ───────────────────────────────────────────────────
 { id:"antlasma4-sened-i-ittifak-1808", tur:"sebep-sonuc",
+  baslik:"Sened-i İttifak (1808)",
   kisa:"Bir sadrazam, taşranın güçlü âyanlarını İstanbul'a çağırıp padişahla bir sadakat sözleşmesi imzalattı; sözleşmeyi yapan sadrazam altı hafta sonra öldü, sözleşme de onunla gömüldü.",
   sebep:{ b:"Âyanın merkezî otorite aleyhine güçlenmesi ve Alemdar Mustafa Paşa'nın II. Mahmud'u tahta çıkarması", t:"1808-07-28" },
   sonuc:{ b:"Merkez bürokrasisi ile âyan arasında Sened-i İttifak", t:"1808-10-07" },
@@ -659,6 +728,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1809 KAL'A-İ SULTÂNİYYE ANTLAŞMASI ──────────────────────────────────────
 { id:"antlasma4-kalai-sultaniyye-1809", tur:"sebep-sonuc",
+  baslik:"Kal'a-i Sultâniyye (Çanakkale) Antlaşması (1809)",
   kisa:"İki yıl önce İstanbul önlerine kadar gelen İngiliz filosunun devleti, Çanakkale'de barış imzaladı ve savaş gemilerinin Boğazlardan geçişini yeniden düzenledi.",
   sebep:{ b:"1806'da İngiltere ve Rusya ile savaş hali ve İngiliz filosunun İstanbul önlerine gelmesi", t:"1807-02" },
   sonuc:{ b:"Çanakkale'de İngiltere ile barış antlaşması", t:"1809-01" },
@@ -678,6 +748,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1826 AKKİRMAN ANTLAŞMASI ───────────────────────────────────────────────
 { id:"antlasma4-akkirman-1826", tur:"sebep-sonuc",
+  baslik:"Akkirman Antlaşması (1826)",
   kisa:"Yeniçeri Ocağı'nı kaldırdıktan dört ay sonra ordusuz kalan devlet, Rus isteklerini kabul etti; ama Rusya bu kazançlara rağmen bir yıl sonra savaş açtı.",
   sebep:{ b:"1820'lerde şiddetlenen Osmanlı-Rus sürtüşmeleri ve Yeniçeri Ocağı'nın kaldırılması", t:"1826-06-15" },
   sonuc:{ b:"Akkirman'da Osmanlı-Rus antlaşması", t:"1826-10-07" },
@@ -697,6 +768,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1827 LONDRA ANTLAŞMASI → 1830 LONDRA PROTOKOLÜ ─────────────────────────
 { id:"antlasma4-londra-yunan-1827-1830", tur:"sebep-sonuc",
+  baslik:"Londra Antlaşması (1827) ve Londra Protokolü (1830): Yunan meselesi",
   kisa:"Osmanlı'nın imzalamadığı ama sonuçlarına katlandığı iki metin: üç büyük devlet önce Osmanlı'ya bağlı bir Yunan beyliği, sonra bağımsız bir Yunan devleti kararlaştırdı.",
   sebep:{ b:"1821 Yunan isyanı, Sakız olaylarının Avrupa'daki yankısı ve Filhelenizm", t:"1826-04-04" },
   sonuc:{ b:"Londra Protokolü — Yunanistan'ın bağımsızlığı", t:"1830-02-03" },
@@ -716,6 +788,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1828 İSKENDERİYE SÖZLEŞMESİ ────────────────────────────────────────────
 { id:"antlasma4-iskenderiye-1828", tur:"sebep-sonuc",
+  baslik:"İskenderiye Sözleşmesi (1828): Mısır kuvvetlerinin Mora'dan çekilmesi",
   kisa:"Donanması Navarin'de yakılan Mısır valisi, İstanbul'a sormadan bir İngiliz amiraliyle anlaştı ve oğlunun ordusunu Mora'dan çekti.",
   sebep:{ b:"Navarin baskını ve Avrupa devletlerinin Mehmed Ali Paşa'ya Mora'dan asker çekme ihtarı", t:"1827-10-20" },
   sonuc:{ b:"Mehmed Ali Paşa ile Amiral Codrington arasında İskenderiye anlaşması", t:"1828-08-06" },
@@ -742,6 +815,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1840 LONDRA ANTLAŞMASI → 1841 İRSÎ VALİLİK FERMANI ─────────────────────
 { id:"antlasma4-misir-meselesi-1840-1841", tur:"sebep-sonuc",
+  baslik:"Londra Antlaşması (1840) ve Mısır'ın irsî valiliği (1841)",
   kisa:"Mısır valisini padişaha karşı koruyan Fransa masaya çağrılmadı; dört büyük devlet Mehmed Ali'yi Mısır'a hapsetti, karşılığında Mısır'ı onun soyuna bıraktı.",
   sebep:{ b:"Mehmed Ali Paşa ile Bâbıâli mücadelesinin, Osmanlı donanmasının Mısır'a teslimiyle bir Avrupa meselesine dönüşmesi", t:"1839-07-27" },
   sonuc:{ b:"Mısır'ın irsî idaresinin Mehmed Ali soyuna verilmesi", t:"1841-05-24" },
@@ -762,6 +836,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1841 LONDRA BOĞAZLAR SÖZLEŞMESİ ────────────────────────────────────────
 { id:"antlasma4-bogazlar-1841", tur:"sebep-sonuc",
+  baslik:"Londra Boğazlar Sözleşmesi (1841)",
   kisa:"Hünkâr İskelesi'nin gizli maddesi Avrupa'yı ayağa kaldırmıştı; sekiz yıllık süre dolarken Boğazlar tek bir devletin değil, Avrupa'nın ortak kuralına bağlandı.",
   sebep:{ b:"Hünkâr İskelesi Antlaşması'nın Çanakkale'yi Rusya lehine kapatan gizli maddesi", t:"1833-07-08" },
   sonuc:{ b:"Londra Boğazlar Sözleşmesi", t:"1841-07-13" },
@@ -781,6 +856,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1847 İKİNCİ ERZURUM ANTLAŞMASI ─────────────────────────────────────────
 { id:"antlasma4-erzurum-1847", tur:"sebep-sonuc",
+  baslik:"İkinci Erzurum Antlaşması (1847)",
   kisa:"Savaşın eşiğine gelen iki Müslüman devletin sınırını, çıkarları olan iki Avrupa devleti çizdi; dört yıllık konferans Erzurum'da bir antlaşmayla, sınırın kendisi ise ancak yetmiş yıl sonra çizildi.",
   sebep:{ b:"Osmanlı-İran sınır anlaşmazlıkları ve iki devletin 1842'de savaşın eşiğine gelmesi", t:"1842" },
   sonuc:{ b:"İkinci Erzurum Antlaşması", t:"1847-06-01" },
@@ -804,6 +880,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1849 BALTALİMANI SÖZLEŞMESİ ────────────────────────────────────────────
 { id:"antlasma4-baltalimani-1849", tur:"sebep-sonuc",
+  baslik:"Baltalimanı Sözleşmesi (1849)",
   kisa:"1848 ihtilâlleri Tuna prensliklerine sıçrayınca iki 'metbû devlet' ortak bir işgalde buluştu; sözleşme prenslikleri yeniden atanmış beylerin eline verdi.",
   sebep:{ b:"1848 ihtilâllerinin Eflak ve Boğdan'a yayılması ve Rus işgali", t:"1848" },
   sonuc:{ b:"Osmanlı ile Rusya arasında Baltalimanı Sözleşmesi", t:"1849-05-01" },
@@ -823,6 +900,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1854 İNGİLTERE VE FRANSA İLE İTTİFAK ────────────────────────────────────
 { id:"antlasma4-ittifak-1854", tur:"sebep-sonuc",
+  baslik:"İngiltere ve Fransa ile ittifak (1854)",
   kisa:"Kudüs'teki bir kilise anahtarı kavgası, Osmanlı'yı Avrupa'nın iki büyük devletiyle aynı safta Rusya'ya karşı savaşa soktu.",
   sebep:{ b:"Mukaddes makamlar meselesi, Rusya'nın Ortodoks tebaanın himayesini istemesi ve Eflak-Boğdan'ı işgali", t:"1853-10-04" },
   sonuc:{ b:"İstanbul'da İngiltere ve Fransa ile ittifak antlaşması", t:"1854-03-12" },
@@ -841,6 +919,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1913 LONDRA ANTLAŞMASI ─────────────────────────────────────────────────
 { id:"antlasma4-londra-1913", tur:"sebep-sonuc",
+  baslik:"Londra Antlaşması (1913): Balkan Savaşı'nın sonu",
   kisa:"Edirne'yi kurtarmak iddiasıyla iktidara gelenler, Edirne'yi de bırakan bir barışı imzalamak zorunda kaldı; Rumeli'nin neredeyse tamamı tek bir antlaşmayla gitti.",
   sebep:{ b:"I. Balkan Savaşı: Balkan ittifakının Osmanlı'ya savaş açması ve Rumeli'deki bozgunlar", t:"1912-10-08" },
   sonuc:{ b:"Londra'da Osmanlı ile Balkan devletleri arasında barış", t:"1913-05-30" },
@@ -863,6 +942,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1913 LONDRA SÖZLEŞMESİ (KATAR) ─────────────────────────────────────────
 { id:"antlasma4-katar-1913", tur:"sebep-sonuc",
+  baslik:"Londra Sözleşmesi (1913): Katar'dan feragat",
   kisa:"Yalnızlıktan kurtulmak için İngiltere ile anlaşma arayan Osmanlı, Katar'daki bütün taleplerinden vazgeçti — ama antlaşma hiç yürürlüğe girmedi.",
   sebep:{ b:"II. Meşrutiyet'te dış politikadaki yalnızlık ve 1910'da İngiltere ile başlayan görüşmeler", t:"1910" },
   sonuc:{ b:"Londra'da imzalanan İngiliz-Osmanlı sözleşmesi: Katar'dan feragat", t:"1913-07-29" },
@@ -882,6 +962,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1913 İSTANBUL ANTLAŞMASI (BULGARİSTAN) ─────────────────────────────────
 { id:"antlasma4-istanbul-1913", tur:"sebep-sonuc",
+  baslik:"İstanbul Antlaşması (1913): Bulgaristan ile barış",
   kisa:"Londra'da kaybedilen Edirne, eski müttefiklerle savaşan Bulgaristan'dan geri alındı; İstanbul'daki barış bunu tescil etti ve Bulgaristan'da kalan Müslümanlar için ayrıntılı bir müftülük düzeni kurdu.",
   sebep:{ b:"II. Balkan Savaşı ve Edirne'nin geri alınması", t:"1913-07-21" },
   sonuc:{ b:"İstanbul'da Osmanlı-Bulgar barışı", t:"1913-09-29" },
@@ -904,6 +985,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1913 ATİNA ANTLAŞMASI ──────────────────────────────────────────────────
 { id:"antlasma4-atina-1913", tur:"sebep-sonuc",
+  baslik:"Atina Antlaşması (1913): Yunanistan ile barış",
   kisa:"Selânik ve Girit Londra'da çoktan gitmişti; Atina'daki barış Yunanistan'da kalan Müslümanların haklarını, adaların kaderini ise büyük devletlerin kararını bekledi.",
   sebep:{ b:"I. Balkan Savaşı'nda Yunanistan'ın Selânik, Yanya ve Ege adalarını işgali", t:"1912-11" },
   sonuc:{ b:"Atina'da Osmanlı-Yunan barışı", t:"1913-11-14" },
@@ -923,6 +1005,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1914 OSMANLI-ALMAN İTTİFAKI ────────────────────────────────────────────
 { id:"antlasma4-alman-ittifaki-1914", tur:"sebep-sonuc",
+  baslik:"Osmanlı-Alman ittifakı (1914)",
   kisa:"İttifakı isteyen Almanya değil Osmanlı'ydı; imzalayan kayzerin kendi emriydi — ve antlaşma savaşa girmeyi zorunlu kılmadığı hâlde üç ay içinde savaşa girildi.",
   sebep:{ b:"Hiçbir büyük Avrupa devletinin ittifak sistemine alınmayan Osmanlı'nın müttefik arayışı", t:"1914-07-28" },
   sonuc:{ b:"İstanbul'da Osmanlı-Alman gizli ittifak antlaşması", t:"1914-08-02" },
@@ -942,6 +1025,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1918 BREST-LİTOVSK ANTLAŞMASI ───────────────────────────────────────────
 { id:"antlasma4-brest-litovsk-1918", tur:"sebep-sonuc",
+  baslik:"Brest-Litovsk Antlaşması (1918): Elviye-i Selâse'nin iadesi",
   kisa:"Kırk yıl önce savaş tazminatı yerine verilen üç sancak, Rusya'nın ihtilâlle savaştan çekilmesiyle geri döndü — ama ancak yedi ay için.",
   sebep:{ b:"1878'de Kars, Ardahan ve Batum'un savaş tazminatına karşılık Rusya'ya bırakılması ve Bolşevik İhtilâli", t:"1878-07-13" },
   sonuc:{ b:"Brest-Litovsk'ta Rusya'nın Elviye-i Selâse'yi Osmanlı'ya iade etmesi", t:"1918-03-03" },
@@ -960,6 +1044,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1919 AMASYA PROTOKOLÜ ──────────────────────────────────────────────────
 { id:"antlasma4-amasya-1919", tur:"sebep-sonuc",
+  baslik:"Amasya Protokolü (1919)",
   kisa:"İstanbul hükümeti Anadolu'daki direniş örgütünü muhatap aldı: bir bakanla Temsil Heyeti arasındaki görüşme, Sivas kararlarının merkezce tanınmasıyla bitti.",
   sebep:{ b:"Sivas Kongresi'nin ardından Damat Ferid hükümetinin düşmesi ve Ali Rızâ Paşa'nın sadrazam olması", t:"1919-10-02" },
   sonuc:{ b:"Amasya'da Bahriye Nâzırı Sâlih Paşa ile Temsil Heyeti görüşmesi", t:"1919-10-22" },
@@ -978,6 +1063,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1920 GÜMRÜ ANTLAŞMASI ──────────────────────────────────────────────────
 { id:"antlasma4-gumru-1920", tur:"sebep-sonuc",
+  baslik:"Gümrü Antlaşması (1920)",
   kisa:"Sevr doğu Anadolu'yu Ermenistan'a veriyordu; Doğu Cephesi harekâtından sonra Ermenistan, Ankara'nın imzaladığı ilk antlaşmayla bu haklardan vazgeçti.",
   sebep:{ b:"Sevr'in doğu vilâyetlerini Ermenistan'a vermesi ve Kâzım Karabekir'in doğu harekâtı", t:"1920-09-28" },
   sonuc:{ b:"Gümrü'de TBMM hükümeti ile Ermenistan arasında antlaşma", t:"1920-12-03" },
@@ -996,6 +1082,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1921 MOSKOVA ANTLAŞMASI ────────────────────────────────────────────────
 { id:"antlasma4-moskova-1921", tur:"sebep-sonuc",
+  baslik:"Moskova Antlaşması (1921)",
   kisa:"Ankara'yı tanıyan ama ittifaktan çekinen Sovyet Rusya, dostluk antlaşmasıyla hem silah ve altın verdi hem de Batum'u Gürcistan'a bırakan doğu sınırını kabul etti.",
   sebep:{ b:"TBMM hükümetinin Batılı devletler karşısındaki yalnızlığı ve Sovyet Rusya ile yakınlaşma", t:"1920" },
   sonuc:{ b:"Moskova'da TBMM hükümeti ile Sovyet Rusya arasında dostluk antlaşması", t:"1921-03-16" },
@@ -1017,6 +1104,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1921 KARS ANTLAŞMASI ───────────────────────────────────────────────────
 { id:"antlasma4-kars-1921", tur:"sebep-sonuc",
+  baslik:"Kars Antlaşması (1921)",
   kisa:"Moskova'da çizilen doğu sınırı, Kars'ta üç Kafkas cumhuriyetinin de imzasıyla bugünkü hâlini aldı.",
   sebep:{ b:"Moskova Antlaşması'nın açık bıraktığı sorunlar ve Kafkas cumhuriyetleriyle sınır", t:"1921-03-16" },
   sonuc:{ b:"Kars'ta TBMM hükümeti ile Ermenistan, Gürcistan ve Azerbaycan arasında antlaşma", t:"1921-10-13" },
@@ -1036,6 +1124,7 @@ window.EKOKUMA_ANTLASMA4 = [
 
 // ── 1921 ANKARA İTİLÂFNÂMESİ ───────────────────────────────────────────────
 { id:"antlasma4-ankara-1921", tur:"sebep-sonuc",
+  baslik:"Ankara İtilâfnâmesi (1921)",
   kisa:"Sakarya zaferinden bir ay sonra müttefiklerden biri ilk kez Ankara'yı resmen tanıdı: Fransa güney cephesinden çekildi.",
   sebep:{ b:"Sakarya Meydan Muharebesi'nin Türk zaferiyle bitmesi", t:"1921-09-12" },
   sonuc:{ b:"Ankara'da Fransa ile antlaşma", t:"1921-10-20" },
