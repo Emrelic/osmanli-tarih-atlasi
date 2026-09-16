@@ -1,0 +1,39 @@
+{
+  "yazan": "EKO-RIVAYET",
+  "tarih": "2026-09-16",
+  "dalga": "0052",
+  "not": "Bu dosya CLAUDE.md §7 / DALGA-0052.md gereği mevcut madde/kayıt değişikliği İSTEĞİDİR — doğrudan yazılmadı. Uygulama koordinatör (1.MURAT) ya da ilgili dosyanın sahibi oturum tarafından yapılır.",
+  "yamalar": [
+    {
+      "madde_kimligi": "51/H-0001 (0052 karşılığı: kapsam dışı, doğrudan carry-over) — data/olaylar_ek2.js, t:\"1648-08-18\", b:\"Sultan İbrahim'in hal'i ve katli\" VE data/olaylar_ek7.js, t:\"1648-08-08\", b:\"IV. Mehmed'in yedi yaşında cülusu\"",
+      "sikayet": "Emre (51/H-0001, görsel H-0001-1.png): \"İbrahim'in halli maddesi önce, 4. Mehmed cülusu maddesi sonra gelmeli idi; orada terslik olmuş.\"",
+      "olcum": "İki kayıt aynı olay zincirinin farklı anlarını taşıyor ve `t:` alanındaki sıralamaları TERS: olaylar_ek7.js'teki cülus kaydı t=1648-08-08 (ERKEN), olaylar_ek2.js'teki hal'+katil kaydı t=1648-08-18 (GEÇ). Kronolojik gerçek sıra: İbrahim'in HAL'İ (8 Ağustos 1648) → IV. Mehmed'in CÜLUSU (aynı gün, 8 Ağustos 1648) → İbrahim'in KATLİ (10 gün sonra, 18 Ağustos 1648, TDV `ibrahim--padisah`). Yani hal' ile cülus AYNI GÜN olmalı, ama olaylar_ek2.js'teki kayıt hal'i katille aynı tarihe (08-18) bağladığı için, atlasta CÜLUS (08-08) HAL'DEN (08-18 görünen) ÖNCE sıralanıyor — Emre'nin gördüğü tam olarak bu tersliktir.",
+      "alan": "t",
+      "eski": "data/olaylar_ek2.js kaydı: t:\"1648-08-18\" (hal'i ve katli TEK tarihe bağlıyor)",
+      "yeni_oneri_A": "data/olaylar_ek2.js kaydının başlığını yalnız KATLE daraltmak (b:\"Sultan İbrahim'in katli\") ve t'yi 1648-08-18'de bırakmak; HAL'İ ayrı, 1648-08-08 tarihli yeni/ayrı bir cümlede olaylar_ek7.js'teki cülus kaydına eklemek (\"İbrahim aynı gün hal edildi, yerine...\"). Bu, iki farklı olayı (hal' ve katil) doğru sıraya ayırır.",
+      "yeni_oneri_B": "(daha ucuz) olaylar_ek2.js kaydının t'sini 1648-08-08'e çekmek (hal' günü) ve metindeki \"on gün sonra fetvayla boğduruldu\" cümlesini olduğu gibi bırakmak — böylece madde HEM hal'i HEM katli anlatır ama sıralamada cülustan ÖNCE/aynı gün görünür. Dezavantajı: `t:` artık maddenin ANLATTIĞI iki olaydan yalnız birini (daha erken olanı) temsil eder.",
+      "kaynak": "TDV: ibrahim--padisah (hal' 8 Ağustos, katil 18 Ağustos 1648) — WebSearch/WebFetch ile 16 Eylül 2026'da doğrulandı; CLAUDE.md §4 uyarınca atlasın kendi maddeleri birbirine karşı ölçü ALINMADI, TDV'nin verdiği gün farkı esas alındı.",
+      "oncelik": "orta — görsel bir sıralama hatası, veri kaybı yok"
+    },
+    {
+      "madde_kimligi": "H-0007 (0052) — data/kisiler.js, kisi id:\"nevsehirli-damad-ibrahim-pasa\" (KAYIT EKSİĞİ, mevcut kaydın alanı değil)",
+      "sikayet": "Emre: \"3. Mehmet sefere çıkması 20 Haziran 1596 kronoloji maddesi içinde Nevşehirli Damat İbrahim Paşa ek okuması var, bunun konu ile alakası yok.\"",
+      "olcum": "data/olaylar_ek7.js:60 (t:1596-06-20) kaydının `kisiler:` alanı \"III. Mehmed, Damad İbrahim Paşa\" metnini taşıyor — bu, III. Mehmed'in 1596-1601 arası sadrazamı olan (Nevşehirli OLMAYAN) bir başka Damad İbrahim Paşa'dır (bkz. data/ekokuma_savas.js `savas-hacova-1596` kartı, aynı kişiyi doğru bağlamda anıyor). js/app.js:7606 `kisiBul()` fonksiyonu bu serbest metni data/kisiler.js'teki `KISILER` listesiyle TAM EŞLEŞME bulamayınca kelime-örtüşme skoruna düşüyor (satır 7611-7624, eşik ≥0,5); kisiler.js'te \"Damad İbrahim Paşa\" örüntüsüne uyan TEK kayıt \"nevsehirli-damad-ibrahim-pasa\"dır (satır 53) — 1596 döneminin kendi Damad İbrahim Paşa'sı için AYRI bir kayıt YOK. Sonuç: fuzzy eşleştirici 1596 maddesine 18. yüzyıl (Lâle Devri) vezirinin kişi kartını bağlıyor. Bu js/app.js dosyasında bir HATA değil, kisiler.js'teki bir KAYIT EKSİĞİNİN sonucu — düzeltme kisiler.js'e yeni bir kayıt eklemek.",
+      "alan": "yeni kayıt (data/kisiler.js, KISILER dizisine ekleme)",
+      "eski": "yok — yalnız id:\"nevsehirli-damad-ibrahim-pasa\" var (ad çakışması 1596-1601 dönemine yanlış kişi kartı bağlıyor)",
+      "yeni_oneri": "{ id:\"damad-ibrahim-pasa-1601\", tur:\"sadrazam\", ad:\"Damad İbrâhim Paşa\", t:\"1601\", donem:\"1596–1601 (aralıklı)\", not:\"III. Mehmed'in Haçova seferindeki serdarı ve sadrazamı; Nevşehirli Damad İbrahim Paşa (Lâle Devri, ö.1730) ile KARIŞTIRILMAMALI\" } — tam doğum/ölüm tarihleri ve dönem aralıkları TDV `mehmed-iii`/`hacova-meydan-savasi`den kisiler.js sahibince (Oturum 5) doğrulanmalı; bu turda yalnız TEŞHİS yapıldı, kayıt YAZILMADI (§7 dosya sahipliği).",
+      "kaynak": "js/app.js:7606-7631 (kisiBul), data/kisiler.js:46-53, data/olaylar_ek7.js:60, data/ekokuma_savas.js:335-368 (savas-hacova-1596) — 16 Eylül 2026 kod okuması",
+      "oncelik": "orta — görsel/kavramsal karışıklık, veri kaybı yok; kisiler.js sahibi (Oturum 5) ve app.js sahibi (UI) bilgilendirilmeli"
+    },
+    {
+      "madde_kimligi": "H-0042 (0052) — data/olaylar_ek2.js, t:\"1632-06-01\", b:\"Hezârfen'in uçuş denemesi (rivayet)\" VE data/olaylar_ek7.js, t:\"1638-06-01\", b:\"Hezarfen Ahmed Çelebi'nin kanatlı uçuşu\"",
+      "sikayet": "Emre: \"1638 Hezarfen Ahmet Çelebi'nin Galata Kulesi'nden uçuşu maddesinde olay anlatılıyor, bu hangi kaynaklarda nasıl anlatılıyor?\" — araştırma sırasında iki AYRI tarihli, aynı olayı anlatan İKİ kayıt bulundu.",
+      "olcum": "İki kayıt AYNI kişi (Hezarfen Ahmed Çelebi), AYNI olay (Galata Kulesi'nden Üsküdar'a uçuş) ve AYNI kaynak alanını (`kaynak:\"hezarfen-ahmed-celebi\"`) taşıyor ama `t:` 6 yıl farklı (1632 vs 1638). TDV `hezarfen-ahmed-celebi` maddesinin kendisi HİÇBİR YIL VERMİYOR — yalnız 'XVII. yüzyılda yaşadı' diyor (16 Eylül 2026'da WebFetch ile doğrulandı). Ayrıca 1638 tarihli kayıt 'TDV İslâm Ansiklopedisi'nin ... maddesine göre bu uçuş, insanlık tarihinin belgelenmiş ilk uzun mesafeli planör uçuşlarından biri sayılır' diyor — TDV'nin kendi maddesi böyle bir 'belgelenmiş' hükmü VERMİYOR, tersine kol-kanat çırpmanın fiziken imkânsız olduğunu ama olayın 'basit bir planörle' açıklanabileceğini SPEKÜLASYON olarak sunuyor. 1632 tarihli kayıt ise doğru biçimde 'rivayet' ve 'tarihî kesinliği tartışmalı' diye hedgeliyor — TDV'nin temkinli tonuna daha sadık.",
+      "alan": "t (mükerrer madde + kaynak beyanı)",
+      "eski": "İKİ ayrı kayıt: olaylar_ek2.js t=1632-06-01 (hedgeli) · olaylar_ek7.js t=1638-06-01 (aşırı iddialı 'belgelenmiş' ifadesiyle)",
+      "yeni_oneri": "İkisinden BİRİ silinmeli (D002 'yakın mükerrer' ailesi — burada mekân değil zaman/kaynak mükerrerliği). Kalan kayıtta: ① yıl TDV'de yok, bu yüzden ya `gun:` alanına 'yıl belirsiz, XVII. yüzyıl' yazılıp `t:` künyenin/bağlı olayın penceresine hizalanmalı (§4 hassasiyet kuralı), ② 'belgelenmiş ilk uzun mesafeli planör uçuşu' ifadesi TDV'nin söylemediği bir hüküm olduğu için SİLİNMELİ, yerine 1632 kaydındaki 'rivayete göre ... tarihî kesinliği tartışmalı' çerçevesi korunmalı.",
+      "kaynak": "TDV: hezarfen-ahmed-celebi (WebFetch, 16 Eylül 2026, HTTP 200, gövde okundu)",
+      "oncelik": "yüksek — bu D144 ailesinden bir vaka: beyan edilen kaynak (TDV), iddiayı ('belgelenmiş ilk...') TAŞIMIYOR"
+    }
+  ]
+}
