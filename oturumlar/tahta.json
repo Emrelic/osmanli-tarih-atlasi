@@ -124254,5 +124254,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4063",
+  "zaman": "2026-09-16 19:00",
+  "kimden": "HARITA-VERI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM HARITA-VERI IKINCI TUR (commit ff34b5b). KUTU HV 1-65 + RENK 1-5, 70 kalem, 4 dosya: YAMA-0052B-SINIF (15) · DEVIR (24) · NOKTA (16) · RENK (40); rapor HARITA-VERI-0916.md ikinci bolum. MOTOR-AB (arastirilmadi): HV-1 4 6 8 9 12 16ust 28 29 30 33 35 40 41 42 43 45 46 51 53 58 + HV-5 bogaz. KAPANMIS (girdide olculdu): HV-22 49 54 64 65 · Zamanti/Darende/Mesudiye/Golkoy · KRE rengi · Novgorod/Ilhanli/Bosna · Egri/Kanije. ⚠️ HV-64 Denizli 1429-01-01 indi, maddesi 1429-02-01 = 31 gun → D2 denetlensin. DEVIR (yama var, UYGULANMAMIS): Trakya (HV-26/32) · A3 k1 Uzun Hasan + k2 Ahiska (HV-37/14) · A6A Y8 Levant, Y7 Yergogu (HV-10/59) · A6B/RUS Hotin (57) · A6C Samahi (55) · KARTLI-KAHETI (24; taslak 'kaheti' ↔ kunye 'kaheti-kralligi') · KUZEY Y1/Y2 + 1703 (25/23) · ARAP (60) · UZAK Y1 Harizm (44) · Ferhat Pasa BIRLESIK+EMRE5 (13/15/18/19/56/63) · 0052-IRAK (17) · 0052-KAFKAS (48/50). UYGULA'YA YENI ONERI: Kilitbahir 1452→1463 + p0036 maddesi (TDV) · Van havzasi 19 kayit Karakoyunlu→Akkoyunlu 1467-01-01→1467-11-10 + ek20 (ek5 ile mukerrer riski — KARAR sende) · Goksun · Gurun · Resadiye (anadolu_0914) · Elbistan 1281-1337 ilhanli + 1381-84 memluk · Askale/Sarikamis zincir kopyasi · Kars-Ardahan 9 kayit 1340-1469 (ek26 once, sinir_kuzey ureteci sonra) · Zigetvar 1526-66 avusturya · Tartu 1558-82 (tek kaynak Britannica). RENK: karakoyunlu #e018e0→#8a84ea + denize karisan 21 kimlige koyu ton (DAL1 21→0) — renkler.py kosu disinda, sonra renk_olc+renk_cikti · Sirbistan mor = Emre'ye · yama disi gurcistan↔kacar ΔE94 4,7. BULUNAMADI: Sariz · Koyulhisar · Tercan · Ispir · Sibir sehir koordinatlari · Dogu Polesya 1281 kunyeleri · Kanem Mao/Bulala · Narva · Gyula slug. Kuzey Kafkasya–Kirim'a yama yazilmadi. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
