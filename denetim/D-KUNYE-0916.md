@@ -44,7 +44,7 @@ yazarken aynı tuzağa düşmesin.
 | 1923-10-29'u kapsayan künye (`f<=gün<=t`, pad düzeltmeli) | **120** |
 | Künyesi var, `BOYALAR`de rengi YOK | **3** |
 | Dünya kontrol listesi (Wikipedia 1923 + İngiliz bağımlı toprak genişletmesi) | 76 kalem |
-| Kontrol listesinden `devletler.js`'te HİÇ künyesi bulunmayan | **68** kalem → **79 taslak künye** (bazı kalemler birden çok ayrı koloniye bölündü, örn. "İngiliz Batı Hint" → Jamaika/Trinidad-Tobago/Bahama/Barbados/Leeward/Windward/Bermuda) |
+| Kontrol listesinden `devletler.js`'te HİÇ künyesi bulunmayan | **72** kalem → **83 taslak künye** (bazı kalemler birden çok ayrı koloniye bölündü, örn. "İngiliz Batı Hint" → Jamaika/Trinidad-Tobago/Bahama/Barbados/Leeward/Windward/Bermuda) |
 
 ## 4. Künyesi var ama rengi yok (3)
 
@@ -133,6 +133,19 @@ Antlaşması) tek künyenin içinde eritilmiş. Tutarlılık için önerim: `fas
 bitsin, yeni `fas-fransiz-himayesi` (1912-03-30 → 1923-10-29, sonrası 1956'ya kadar sürer)
 açılsın — `tunus-beyligi-fransiz` adlandırma kalıbıyla. Bu MEVCUT bir künyenin tarihini
 değiştirmeyi gerektirdiği için ben YAZMADIM, UYGULA/D4-ORTADOGU karar versin.
+
+**D5-AMERIKA** (M-4087) bana en pahalı bulguyu getirdi: **Honduras, El Salvador, Nikaragua,
+Kosta Rika** — dördü de tanınmış, sıradan bağımsız cumhuriyetler — `devletler.js`'te HİÇ
+künyesi yok, ve ben bunları **ilk taramamda hiç kontrol etmemiştim.** Sebebi kendi
+metodolojimin bir kör noktası: kontrol listemi Wikipedia'nın 1923 sayfasından ve "hangi
+bölgeler eksik kalabilir" sezgisinden kurdum, ama Orta Amerika cumhuriyetleri o kadar
+"bilinen/sıradan" göründüğü için "zaten künyesi vardır" diye **varsaydım ve gerçekten
+aramadım** — CLAUDE.md §4'ün "tahmin edilen id aranmaz, gerçek veri taranır" kuralını burada
+BEN de çiğnemiştim, D5-AMERIKA'nın gerçek tarama sonucu beni düzeltti. Dördü de taslağa
+eklendi (f: bağımsızlık tarihleri, Orta Amerika Federasyonu'nun dağılışı 1838-1841).
+D5-AMERIKA ayrıca bir **çakışma** bildirdi (taslağımın kapsamı dışı, düzeltme UYGULA'nın):
+`kanada` (f:1867) ile `ingiliz-kuzey-amerika` (f:1763) aynı toprak için iki ayrı künye,
+ikisi de 1923-10-29'u kapsıyor.
 
 ## 6. Bilinmeyen/araştırılmamış bırakılanlar
 

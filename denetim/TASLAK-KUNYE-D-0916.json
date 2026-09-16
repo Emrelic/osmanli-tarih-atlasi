@@ -9,7 +9,8 @@
   "FIUME ve GUNEY-RODEZYA pencere sinirinda (1923-10-29'a sirasiyla ~11 ay ve 28 gun var) -- tarihleri ayrica dogrulanmali.",
   "KUNYESI VAR AMA RENGI YOK (devletler.js'te kayitli, 1923-10-29'u kapsiyor, ama arac/renkler.py BOYALAR sozlugunde ne id ne harita anahtari karsiligi bulunmuyor): oniki-ada-italyan, cezayir-fransiz, avusturya-cumhuriyet -- bunlar TASLAK DEGIL, mevcut kunye; yalniz renk atanmasi gerekiyor.",
   "EK (D3-AVRUPA-BATI ve D2-KOMSU'nun tahta M-4059/M-4067 bulgulari uzerine, 16 Eylul aksami): saar-havzasi-mandasi ve cebelitarik-ingiliz eklendi. Ayrica D2-KOMSU'nun sordugu granularite sorusu acik kaldi -- Gurcistan/Ermenistan/Azerbaycan SSC (1923'te Transkafkasya SFSC uzerinden SSCB'ye bagli, kendi basina uluslararasi taraf DEGIL) ve Suriye/Lubnan (tek manda kunyesi, suriye-lubnan-mandasi) ayri kunye ister mi -- D-KUNYE bunlari EKSIK saymadi (1923-10-29'da bagimsiz/ayri taraf olarak var olmadiklari icin), ama D2-KOMSU harita cizerken ic sinir gerektirirse bu karar yeniden acilmali.",
-  "EK2 (D4-ORTADOGU tahta M-4074 uzerine): ifni-ispanyol ve necid-kuveyt-tarafsiz-bolgesi eklendi. D4-ORTADOGU ayrica sordu: 'fas' kunyesi (f:1549->t:1923-10-29, TEK kunye, Fransiz himayesi 1912'den itibaren AYRI kunye gerektirir mi.' HUKMUM: EVET, gerekir -- proje zaten AYNI SINIFTA bir emsal tutuyor: 'tunus-ocagi' (Fransiz oncesi) ile 'tunus-beyligi-fransiz' (1881 sonrasi Fransiz himaye donemi) AYRI kunyeler. 'fas' bu emsale UYMUYOR -- Fas Fransiz himayesi (1912-03-30 Fas Antlasmasi) tek kunyenin icinde eritilmis. Tutarlilik icin onerim: 'fas' kunyesi 1912-03-30'da BITSIN, yeni 'fas-fransiz-himayesi' (1912-03-30 -> 1923-10-29, sonrasi 1956'ya kadar surer) acilsin -- tunus-beyligi-fransiz adlandirma kalibiyle. Bu, MEVCUT bir kunyenin tarihini degistirmeyi gerektirdigi icin ben YAZMADIM, UYGULA/D4-ORTADOGU karar versin."
+  "EK2 (D4-ORTADOGU tahta M-4074 uzerine): ifni-ispanyol ve necid-kuveyt-tarafsiz-bolgesi eklendi. D4-ORTADOGU ayrica sordu: 'fas' kunyesi (f:1549->t:1923-10-29, TEK kunye, Fransiz himayesi 1912'den itibaren AYRI kunye gerektirir mi.' HUKMUM: EVET, gerekir -- proje zaten AYNI SINIFTA bir emsal tutuyor: 'tunus-ocagi' (Fransiz oncesi) ile 'tunus-beyligi-fransiz' (1881 sonrasi Fransiz himaye donemi) AYRI kunyeler. 'fas' bu emsale UYMUYOR -- Fas Fransiz himayesi (1912-03-30 Fas Antlasmasi) tek kunyenin icinde eritilmis. Tutarlilik icin onerim: 'fas' kunyesi 1912-03-30'da BITSIN, yeni 'fas-fransiz-himayesi' (1912-03-30 -> 1923-10-29, sonrasi 1956'ya kadar surer) acilsin -- tunus-beyligi-fransiz adlandirma kalibiyle. Bu, MEVCUT bir kunyenin tarihini degistirmeyi gerektirdigi icin ben YAZMADIM, UYGULA/D4-ORTADOGU karar versin.",
+  "EK3 (D5-AMERIKA tahta M-4087 uzerine): honduras-cumhuriyeti, el-salvador-cumhuriyeti, nikaragua-cumhuriyeti, kosta-rika-cumhuriyeti eklendi -- DORDU DE benim ilk taramamda ATLANMISTI (Orta Amerika'nin buyuk/taninmis cumhuriyetleri oldugu icin 'zaten kunyesi vardir' varsayimiyla kontrol listesine hic almamisim -- D5-AMERIKA'nin gercek devletler.js taramasi bunu yanlisladi). D5-AMERIKA ayrica bir CAKISMA bildirdi (benim taslak listemde DEGIL, mevcut veri sorunu): 'kanada' (1867->) ve 'ingiliz-kuzey-amerika' (1763->) AYNI TOPRAK icin IKI kunye, ikisi de 1923-10-29'u kapsiyor -- UYGULA'nin coz mesi gereken bir cakisma, benim taslagimin kapsami disi."
  ],
  "kaynak_notu": "taslak -- D-KUNYE oturumu tarafindan genel akademik/standart tarihi bilgiyle taslak olarak dolduruldu, TDV bu taneciği kapsamıyor (CLAUDE.md sec.4 'tanecik boslugu'). Ilgili D-oturumu (harita/sinir cizerken) akademik kaynakla (Iranica/Cambridge/universite yayini) DOGRULAMALI; tarihler kesin degil, en iyi bilinen resmi kurulus/ilhak tarihidir.",
  "taslak_kunyeler": [
@@ -879,6 +880,50 @@
    "f": "1922-12-02",
    "t": "1923-10-29",
    "ozet": "Ukayr Protokolü (Sir Percy Cox arabuluculuğu) ile Necid (Suud) ve Kuveyt arasında ortak kullanım bölgesi olarak kuruldu. D4-ORTADOGU'nun (M-4074) bulgusu.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "honduras-cumhuriyeti",
+   "ad": "Honduras Cumhuriyeti",
+   "bolge": "orta-amerika",
+   "tur_onerisi": "cumhuriyet",
+   "f": "1838-11-05",
+   "t": "1923-10-29",
+   "ozet": "Orta Amerika Federasyonu'ndan ayrılarak bağımsız cumhuriyet oldu. D5-AMERIKA'nın (M-4087) bulgusu — benim ilk taramamda atlanmıştı.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "el-salvador-cumhuriyeti",
+   "ad": "El Salvador Cumhuriyeti",
+   "bolge": "orta-amerika",
+   "tur_onerisi": "cumhuriyet",
+   "f": "1841-02-18",
+   "t": "1923-10-29",
+   "ozet": "Orta Amerika Federasyonu'ndan ayrılarak bağımsız cumhuriyet oldu. D5-AMERIKA'nın (M-4087) bulgusu.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "nikaragua-cumhuriyeti",
+   "ad": "Nikaragua Cumhuriyeti",
+   "bolge": "orta-amerika",
+   "tur_onerisi": "cumhuriyet",
+   "f": "1838-04-30",
+   "t": "1923-10-29",
+   "ozet": "Orta Amerika Federasyonu'ndan ayrılarak bağımsız cumhuriyet oldu. D5-AMERIKA'nın (M-4087) bulgusu.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "kosta-rika-cumhuriyeti",
+   "ad": "Kosta Rika Cumhuriyeti",
+   "bolge": "orta-amerika",
+   "tur_onerisi": "cumhuriyet",
+   "f": "1838-11-14",
+   "t": "1923-10-29",
+   "ozet": "Orta Amerika Federasyonu'ndan ayrılarak bağımsız cumhuriyet oldu. D5-AMERIKA'nın (M-4087) bulgusu.",
    "harita": null,
    "kaynak": "bulunamadi -- taslak, dogrulanacak"
   }
