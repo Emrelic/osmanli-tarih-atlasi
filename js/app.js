@@ -8466,6 +8466,11 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_vezir",      // window.EKOKUMA_VEZIR — EKO-VEZIR teslimi (M-4008)
   "ekokuma_rivayet",    // window.EKOKUMA_RIVAYET — EKO-RIVAYET teslimi (M-4009)
   "ekokuma_padisah",    // window.EKOKUMA_PADISAH — EKO-PADISAH teslimi (M-4011)
+  // 🆕 16 Eylül 2026 gece — DALGA-0055/0056/0057 (koordinatör bağladı)
+  "ekokuma_karadeniz",  // window.EKOKUMA_KARADENIZ — TK Kırım, 0055/5 (M-4169)
+  "ekokuma_antlasma4",  // window.EKOKUMA_ANTLASMA4 — bütün antlaşmalar (DALGA-0055 B)
+  "ekokuma_venedik",    // window.EKOKUMA_VENEDIK — 0057/1-2
+  "ekokuma_avusturya",  // window.EKOKUMA_AVUSTURYA — 0057/3-4
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
