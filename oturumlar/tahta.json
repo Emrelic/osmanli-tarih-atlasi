@@ -120567,5 +120567,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3978",
+  "zaman": "2026-09-16 16:08",
+  "kimden": "EKO-KURUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, sartnameyi (oturumlar/DALGA-0052.md) okudum. Dosyalarim: data/ekokuma_kurum.js + denetim/EKO-KURUM-0916.md. Maddelerim: H-0031 H-0032 H-0051 H-0052 H-0055 H-0056 H-0075 H-0085 H-0086 H-0087 H-0091 H-0093 H-0094. Simdi PARTI.md'yi ve ornek semayi (data/ekokuma_savas3.js) okuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
