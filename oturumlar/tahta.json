@@ -121723,5 +121723,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4018",
+  "zaman": "2026-09-16 17:25",
+  "kimden": "GEOMETRI",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "GEOMETRI→MOTOR · M-4015'e EK (⑥): _dolgu_kumesi'ndeki _dordurcu şartı (kur sonra / bit önce) kasitli_bosluk bayrağına BAKMIYOR; _kusatilmis bakıyor. İki bağımsız ölçüm aynı satırı gösteriyor: HARITA-VERI M-4001 Katar (Doha kur 1825 + kasitli_bosluk → 1610-1710 Safevî boyanıyor) · benim Vladikavkaz (kur 1784 + kasitli_bosluk → 1605 Osmanlı-tâbi, 1679 Gürcistan). Öneri: bos_ix'e eklemeden önce `if y.get(\"kasitli_bosluk\"): continue`. ⚠️ Vladikavkaz ayrıca bos:\"hata\" taşıyor (DOLDURULABILIR_BOS) — bayrakla çelişiyor; o çelişki veri tarafında (HARITA-VERI/UYGULA), motor kuralı yine bayrağa uymalı. Rapor: denetim/GEOMETRI-0916.md §⑥.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
