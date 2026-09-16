@@ -234,3 +234,33 @@ DEĞİŞTİ  data/ekokuma_vezir.js   26→29 kart (1 genişletme + 3 yeni), node
 YOK      denetim/YAMA-0054-VEZIR.json  ÜRETİLMEDİ — H-0012'nin öngördüğü eksik kronoloji
                                  maddesi zaten mevcut, önerilecek bir şey yoktu
 ```
+
+---
+
+# EK BÖLÜM 4 — DALGA-0055 Bölüm A, maddeler H-0003 H-0007 (16 Eylül gece)
+
+Kaynak: `oturumlar/DALGA-0055.md` §A. Kontrol: Râmi Mehmed Efendi'nin adı üç
+`ekokuma_*.js` dosyasında (ekokuma, ekokuma_antlasma2, ekokuma_rivayet) zaten
+geçiyordu ama YALNIZ Karlofça/İstanbul 1700 görüşmelerindeki rolüyle — kendi
+hayatı, sadrazamlığı, Edirne Vak'asındaki akıbeti hiçbirinde yoktu; mükerrer
+sayılmadı, eksik kişi kartı yazıldı. "Kölemen" hiçbir dosyada geçmiyordu.
+
+**H-0003** — `kimdir-rami-mehmed-pasa`: TDV `rami-mehmed-pasa` okundu. Çarpıcı
+bulgu: Râmi Mehmed'i 1702'de bizzat sadrazam yapan Şeyhülislâm Feyzullah
+Efendi'ye karşı, rivayete göre kendisi 1703'te bir askerî isyanı kışkırttı —
+bu kıvılcım büyüyüp onu da makamından eden Edirne Vak'asına dönüştü. Edirne
+Vak'asının kendisi bu dalgada EKO-PADISAH'a (H-0006) ait olduğu için burada
+TEKRARLANMADI, yalnız Râmi Mehmed'in kişisel payına değinildi.
+
+**H-0007** — `tartisma-bagdat-kolemenleri`: TDV `bagdat` + tamamlayıcı olarak
+Britannica "Hasan Pasha" maddesi (TDV'nin vermediği Gürcü/Çerkes köle pazarı
+ayrıntısı için, §4 taneciklik kuralı). Bağdat kölemenlerinin Mısır Memlükleri
+ile TERS bir ilişkisi olduğu ortaya çıktı: Mısır'da bağımsız kurucu yöneticiler,
+Bağdat'ta merkeze sadık resmî temsilciler — İstanbul'un tepkisi bu yüzden
+tolerans oldu, bastırma değil.
+
+## Dosyalar
+```
+DEĞİŞTİ  data/ekokuma_vezir.js   29→31 kart, node --check temiz, 31/31 id benzersiz,
+                                 2 yeni kartın olay tarihleri mevcut kronolojide doğrulandı
+```

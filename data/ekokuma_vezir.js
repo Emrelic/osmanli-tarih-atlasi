@@ -372,6 +372,38 @@ window.EKOKUMA_VEZIR = [
   zincir:[],
   olay:["1569-01-01","1569-04-01","1569-06-01"],
   kaynak:"TDV: sokullu-mehmed-pasa · astarhan-hanligi",
-  ic_not:"H-0012 'kronoloji maddemiz var mı' diye soruyordu — CEVAP: EVET, ZATEN VAR ve zengin: kronoloji_orta_asya.js (1557-01-01 hac yolu · 1569-04-01 arazide çöküş — mühendislik ayrıntısıyla), kronoloji_kirim.js (1569-01-01 Devlet Giray'ın gizli muhalefeti), kronoloji_rusya.js (1569-01-01 sefer) ve kronoloji_orta_asya.js (1569-06-01 Nogay desteksizliği). Bu yüzden denetim/YAMA-0054-VEZIR.json'a YENİ BİR KRONOLOJİ ÖNERİSİ YAZILMADI — önerilen dosya boş kalacaktı, üretilmedi (D001 sınıfı: var olan kaydı tekrar üretme). Bu kart yalnız dağınık dört kronoloji maddesini TEK bir sebep-sonuç anlatısında birleştirdi." }
+  ic_not:"H-0012 'kronoloji maddemiz var mı' diye soruyordu — CEVAP: EVET, ZATEN VAR ve zengin: kronoloji_orta_asya.js (1557-01-01 hac yolu · 1569-04-01 arazide çöküş — mühendislik ayrıntısıyla), kronoloji_kirim.js (1569-01-01 Devlet Giray'ın gizli muhalefeti), kronoloji_rusya.js (1569-01-01 sefer) ve kronoloji_orta_asya.js (1569-06-01 Nogay desteksizliği). Bu yüzden denetim/YAMA-0054-VEZIR.json'a YENİ BİR KRONOLOJİ ÖNERİSİ YAZILMADI — önerilen dosya boş kalacaktı, üretilmedi (D001 sınıfı: var olan kaydı tekrar üretme). Bu kart yalnız dağınık dört kronoloji maddesini TEK bir sebep-sonuç anlatısında birleştirdi." },
+
+// ============================================================================
+// DALGA-0055 EKİ, Bölüm A (16 Eylül 2026 gece) — maddeler H-0003 H-0007
+// Yazmadan önce kontrol: "Râmi Mehmed" adı ekokuma.js/ekokuma_antlasma2.js/
+// ekokuma_rivayet.js'te GEÇİYOR ama üçü de yalnız Karlofça/İstanbul 1700
+// görüşmelerindeki ROLÜNÜ anlatıyor — kendi hayatı, sadrazamlığı, Edirne
+// Vakası'ndaki akıbeti hiçbirinde YOK. Mükerrer değil, eksik bir kişi kartı
+// tamamlandı. "Kölemen" hiçbir ekokuma_*.js dosyasında geçmiyordu — mükerrer
+// değil, yeni konu. Edirne Vakası'nın kendisi (darbenin örgütlenmesi, Feyzullah
+// Efendi) bu dalgada EKO-PADISAH'a (madde 6) atanmış — o olay burada TEKRAR
+// ANLATILMADI, yalnız Râmi Mehmed'in kişisel payına değinildi.
+// ============================================================================
+
+// ── 30 · Reisülküttab/Sadrazam Râmi Mehmed Paşa (H-0003) ────────────────────
+{ id:"kimdir-rami-mehmed-pasa", tur:"kimdir",
+  ad:"Râmi Mehmed Paşa",
+  kisa:"Avrupalı delegeleri diplomatik ustalığıyla etkileyen barış mimarı, üç yıl sonra kendisini sadrazam yapan şeyhülislama karşı bir isyanı ateşleyip tahtını kaybetti.",
+  metin:"1655'te İstanbul'da bürokrat bir aileye doğdu. Şiir yeteneği sayesinde divan-ı hümâyun kalemine girdi, Vezir Damad Musâhib Mustafa Paşa'nın kâtipliğini yaptı ve döneminin ünlü şairi Nâbî ile yakın dostluk kurup 1678-1679'da onunla birlikte hacca gitti. 1694'te reisülküttab (dışişlerine yakın bir görev) oldu; 1697'de Sadrazam Elmas Mehmed Paşa'yla anlaşmazlık yüzünden kısa süreliğine görevden alındıysa da aynı yıl Amcazâde Hüseyin Paşa döneminde makama geri döndü. Kariyerinin zirvesi 1699 Karlofça barış görüşmelerindeki rolüydü: Osmanlı heyetinin başında eski antlaşma metinlerini inceleyip uzmanlardan rapor alarak Avrupalı delegeleri diplomatik bilgisi ve ustalığıyla etkiledi (bu atlasın kendi kayıtları, ekokuma_rivayet.js ve ekokuma_antlasma2.js'te ayrıntılı anlatılır); dönüşte teklif edilen vezirlik rütbesini geri çevirdi. 1702'de bizzat Şeyhülislâm Feyzullah Efendi tarafından vezir yapılıp sadrazamlığa getirildi, ama şeyhülislâmın devlet işlerine aşırı müdahalesi yüzünden yetkisi ağır biçimde kısıtlandı. Rivayete göre bu gerilim yüzünden Ocak 1703'te iki yüz askeri isyana teşvik etti — bu kıvılcım, Temmuz 1703'te büyüyerek Feyzullah Efendi'nin linç edilip II. Mustafa'nın tahttan indirildiği Edirne Vak'asına dönüştü (bu olayın kendisi ayrı bir ek okuma konusudur). Râmi Mehmed olaydan kaçıp canını kurtardıysa da sadrazamlığını kaybetti. Kıbrıs valiliğinin ardından 1704'te Mısır valisi oldu, kıtlık koşullarıyla boğuşup 1705'te azledildi; Rodos'a sürgün edildi ve orada Mart 1708'de bağırsak hastalığından öldü.",
+  not:"Kendi eliyle sadrazam yaptığı şeyhülislama karşı bir isyanı kışkırttığı iddiası TDV'de 'rivayete göre' diye geçer — olgu olarak değil.",
+  kesinlik:"tartismali",
+  olay:["1703-07-17"],
+  kaynak:"TDV: rami-mehmed-pasa" },
+
+// ── 31 · Bağdat Kölemenleri — kimdir, Mısır'dan farkı (H-0007) ─────────────
+{ id:"tartisma-bagdat-kolemenleri", tur:"tartisma",
+  ad:"Kölemen Mısır'a özgü sanılır — ama Bağdat'ı 127 yıl aynı sistem yönetti",
+  kisa:"Kölemen, 'köle' kelimesinin Osmanlı Türkçesindeki biçimidir ve Arapça 'memlûk' (sahip olunan) ile aynı kurumu adlandırır — ama Bağdat'ınki, Mısır'ınkinin tam tersi bir sadakat hikâyesi anlatır.",
+  metin:"'Kölemen', Arapça 'memlûk' kavramının Osmanlı Türkçesindeki karşılığıdır: köken olarak köle statüsünde alınıp özel eğitimden geçirilerek askerî ve idarî görevlere hazırlanan kullar. Bağdat'taki kölemen sistemi, 1704'te Bağdat valiliğine atanan Gürcü asıllı Hasan Paşa ile başladı. Hasan Paşa'nın kendisi İstanbul'dan gönderilmiş bir Osmanlı valisiydi, ama Tiflis köle pazarından satın aldığı Gürcü ve Çerkes çocuklarını özel bir mektepte yetiştirip kendi hane halkından bir yönetici ve asker kadrosu oluşturdu — amaç hem yeniçeri ocağını dengelemek hem sınır savunmasını güçlendirmekti. On dokuz yıllık valiliği boyunca aşiretleri sindirip bölgede istikrarı sağladı; oğlu Ahmed Paşa aynı siyaseti sürdürdü ve sistem 1749'da Süleyman Paşa'nın valiliğiyle iyice yerleşti. ASIL FARK Mısır'la buradaydı: Mısır Memlükleri devletin KURUCUSU ve BAĞIMSIZ yöneticileriydi (13.-16. yüzyıllarda kendi sultanlıklarını kurmuşlardı); Bağdat kölemenleri ise hiçbir zaman bağımsızlık ilan etmedi, kendilerini Osmanlı Devleti'nin RESMÎ TEMSİLCİLERİ olarak gördü ve merkeze bağlılıklarını hep korudu — yarı özerktiler ama isyancı değildiler. İSTANBUL'UN TEPKİSİ de bu yüzden beklenenin tersiydi: merkezî hükümet başlangıçta tepki göstermedi, hatta bölge istikrar kazandıkça kölemen yönetimini TOLERE ETTİ — çünkü Bâbıâli artık istediği kişiyi değil, nüfuzu eline geçirmiş kölemenlerden birini vali tayin etmek zorunda kalsa da, İran sınırını kendi kaynaklarıyla savunan bir yapıya sahip olmuş oluyordu. Bu denge ancak II. Mahmud'un merkezîleşme siyasetiyle bozuldu: 1831'de vali Dâvud Paşa âsi ilan edilip doksan günlük bir kuşatmayla tasfiye edildi ve 1704'ten beri süren kölemen yönetimi son buldu.",
+  not:"Mısır'ın 1811 Kal'a Vak'ası'nda (Kavalalı Mehmed Ali'nin kölemen beylerini toplu katliamla tasfiyesi) ile Bağdat'ın 1831'deki sonu arasındaki fark da öğretici: Mısır'da kölemenler bir yabancı güce (Mehmed Ali) karşı direnip yok edildi, Bağdat'ta ise 'isyan eden vali' gerekçesiyle bizzat merkezî devlet tarafından tasfiye edildiler — ikisi de kölemen döneminin sonu ama farklı bir siyasi mantıkla.",
+  kesinlik:"kesin",
+  olay:["1704-01-01"],
+  kaynak:"TDV: bagdat · Britannica: \"Hasan Pasha\" (Gürcü/Çerkes kökeni, Tiflis köle pazarı — TDV bu ayrıntıyı vermiyor, akademik ansiklopediden tamamlandı, CLAUDE.md §4 taneciklik kuralı)" }
 
 ];
