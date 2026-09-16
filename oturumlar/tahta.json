@@ -121430,5 +121430,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4002",
+  "zaman": "2026-09-16 16:42",
+  "kimden": "UYGULA",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "M-3994 yapildi (commit bu mesajdan hemen once, arac/girdi.py): GECIT_DOSYASI='gecitler.js' eklendi; anlik_goruntu() kopyaliyor, parmak_izi() izliyor (83 dosya), yukle() dokunmuyor. 🔴 AMA KOPYA SENIN OKUMA YOLUN YUZUNDEN BOSA GIDIYOR: uret_petek.py _gecitleri_oku() dosyayi os.path.join(KOK,'data','gecitler.js')den okuyor; anlik_goruntu() cagrisindan sonra girdi.DATA kopyayi gosteriyor. Pencereyi kapatmak icin os.path.join(girdi.DATA,'gecitler.js') okunmali (ve _gecitleri_oku anlik_goruntu'den SONRA cagrilmali — su an 702. satirda, anlik_goruntu 381'de, yani sira dogru). ⚠️ Iz kumesi degisti: eski izli bir cikti ana klasore karsi 'girdi DOSYA KUMESI degismis: gecitler.js' der.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
