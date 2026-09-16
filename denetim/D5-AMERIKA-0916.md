@@ -196,3 +196,24 @@ Sütunlar: **kat** = önerilen `kategori` · **tahdit** = yerinde işaretleme ·
 7. Brezilya–Fransız Guyanası işaretlemesinde kaynaklar ÇELİŞİYOR (AFDI 1956 ↔ Ireland 1938) — bildirildi, taraf seçilmedi.
 
 📌 Atlasın 1923 çıktısı hiçbir satırda dayanak olarak kullanılmadı (CLAUDE.md §4).
+
+## 6. VERİ — ADIM 0 · ADIM 1 · ADIM 2 G1 · ADIM 3 (16 Eylül akşamı, `GERIYE-SARMA-0916.md`)
+
+Üretici `denetim/ARAC-D5AM-URET-0916.py` → `data/d_sinirlar_amerika.js` (`window.D_SINIRLAR_AMERIKA`).
+```
+kayıt 68   sinif: E 16 · C 15 · YOK 37 · D 0 · F 0      hat toplamı ~20.944 km
+degisti    true 34 · false 24 · null 10
+```
+**78 envanter parçası → 68 kayıt; niçin fark var:**
+- Bir çiftin alt kesimleri farklı sınıftaysa ve kesim noktasının koordinatı elimde yoksa çift TEK kayıt olarak yazıldı, sınıfı alt kesimlerin EN DÜŞÜĞÜ. Not alanı daha yüksek sınıflı kesimi söylüyor. Bu çiftler: Guatemala–İng. Honduras · Guyana–Venezuela · Venezuela–Brezilya · Brezilya–Peru · Bolivya–Peru · Brezilya–Uruguay.
+- Kesim noktası gerektiğinde, antlaşmanın adını verdiği yerin **GeoNames** konumu kullanıldı: Portillo de Teotecacinte · Apaporis ağzı · Apa ağzı · Pilcomayo ağzı · Olca/Paroma/Chipapa · Patalani/Irpa/Sillajhuay · Tolacollo (1904 hattının 96. noktası) · Masoller. Brasilera kutusunun merkezi NE üçlü noktası. Bu konumlar sınırın dayanağı değil, yalnız yer göstergesi.
+- Bugünkü çizgi yalnız `degisti:false` olan parçalarda ya da not alanına yazılmış **ölçek altı** değişiklikte kullanıldı. Bu ikinci durum üç kayıtta var: Kanada–ABD 1925 düz paralel · Venezuela–Brezilya 1928 koordinat düzeltmeleri · Brezilya–İng. Guyanası 1926 Tacutu düzeltmesi. `degisti:null` olan parçalar kutu olarak yazıldı; tek istisna 141. meridyen, çünkü geometrisi antlaşma metninin kendisinden geliyor.
+- `d1923-br-pe-tabatinga-apaporis` kaydında hattın yeri değişmedi, değişen **taraf**: 1928'den sonra bu hat Brezilya–Kolombiya sınırı oldu. Bu yüzden sol taraf testinde Peru yerine bugünkü Kolombiya poligonuna bakıldı.
+- Sol taraf iki küçük parçada bulunamadı (`null`): Kanada–ABD 4 km · Guantánamo parça 2.
+- **D (fiilî kesin) 0:** envanterdeki dört fiilî hattın hiçbirinin 1923 koordinatı kaynakta yok (Guatemala–El Salvador · Kolombiya–Peru 1911 statükosu · Şili–Peru Sama hattı · Guyanalar alt kesimi). Bunlar YOK olarak yazıldı ve `sinif_not` alanına "FİİLİ (D adayı)" dendi.
+- **F 0:** `denetim/TANINMA-1923-0916.json` henüz yok, bu yüzden E yazıldı (`sinif_not`).
+- **Borç — Kanal Bölgesi:** 1914 sözleşmesi koordinat veriyor (FRUS 1915 d1732), ama hat bu turda çizilmedi; kayıt YOK, `sinif_not` "hukuken E".
+
+**ADIM 2 G1 (1918-11-11 → 1923-10-29): yeni hat kaydı 0.** Bu pencerede Amerika'da hiçbir E/F/D hattı değişmedi. Yalnız iki belge var ve ikisi de C düzeyinde: Thomson–Urrutia onayı (1 Mar 1922) ve İsviçre Federal Konseyi kararı (24 Mar 1922). Her kaydın `f`'i hattın gerçek başlangıcıdır: kaynak günü ile iki tarafın künye `f`'inden BÜYÜĞÜ. Künye günü devralınan kayıtlar not alanında belirtildi.
+**ADIM 3: kronoloji maddesi 0**, bu yüzden `data/kronoloji_sinir_amerika.js` yazılmadı. G1 penceresinde E/F/D değişikliği yok; şartname C değişikliğine madde istemiyor.
+**Taslak künye:** 6 kimlik `devletler.js`te yok, `denetim/TASLAK-KUNYE-D-0916.json`dan alındı. 11 kayıt bu kimliklere bağlı (sayıldı).
