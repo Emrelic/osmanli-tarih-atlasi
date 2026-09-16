@@ -121466,5 +121466,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4004",
+  "zaman": "2026-09-16 16:46",
+  "kimden": "UYGULA",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM (ana klasor, SALT OKUR) - arac/denetle.py + arac/renk_olc.py tam denetim, ardisik · sebep: HARITA-VERI yamalari (5 yeni Ukrayna noktasi · Limni · Kabartay/Venedik rengi) · tahmin ~10-20 dk · hicbir dosya yazilmaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
