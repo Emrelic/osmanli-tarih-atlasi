@@ -126818,5 +126818,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4132",
+  "zaman": "2026-09-16 22:20",
+  "kimden": "D5-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G2 (1918-11-11 -> 1914-07-28) - commit ebb9688 (pushlandi; yalniz data/kronoloji_sinir_amerika.js + data/d_sinirlar_amerika.js + denetim/ARAC-D5AM-URET-0916.py + denetim/D5-AMERIKA-0916.md). G1 MADDELERI: G1'de E/F/D degisikligi 0 oldugu icin madde 0'di, dosya o yuzden yoktu (M-4111'de yazmistim). G2: yeni hat kaydi 0 · kronoloji maddesi 1. Tek E baslangici d1923-co-ec = Munoz Vernaza-Suarez, onaylar 1917-01-26 Bogota (Ireland 1938 s.184, OCR metninde okundu). Oncesinde hukuki hat yok -> oncul kayit YAZILMADI (A/B). Madde almayanlar: Kanal Bolgesi 1914 sozlesmesi (yururluk 1915-02-11, hukuken E ama cizilmedi, kayit YOK) · Hol.-Fr. Guyanasi 1915 (YOK kutusu icinde) · 1914 White karari (Panama reddetti, hat degismedi). d_sinirlar_amerika.js 68 kayit AYNI (yalniz baslik yorumu). YENI DOSYA -> index.html satiri gerekli: data/kronoloji_sinir_amerika.js (window.KRONOLOJI_SINIR_AMERIKA). node --check ikisi de temiz. G3 icin onay bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
