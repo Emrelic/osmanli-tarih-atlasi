@@ -756,6 +756,8 @@ GIRDI_DOSYALARI = [
                                       # aradı; veri PARANTEZLİ ÇİFT AD yazıyor
                                       # ve `Kolhapûr` şapkalı. ⇒ Dördü de
                                       # yazılsaydı ÜÇ MÜKERRER nokta doğardı.
+    "yerlesimler_ukrayna_0916.js",    # 5 nokta · Vinnitsa · Braslav · Kostantinov · Jitomir · Berdiçev
+                                      # (H-0095, HARITA-VERI araştırdı, UYGULA bağladı 16 Eyl 2026)
     "yerlesimler_anadolu_0914.js", "yerlesimler_p0037.js",           # 15 nokta · Bolgrad · Kahul · Zamość
                                       # ⚠️ Zamość/Lublin/Chełm `lehistan`
                                       # kullanıyor ama o künye 1795'te

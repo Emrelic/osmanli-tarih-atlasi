@@ -499,7 +499,7 @@ window.YERLESIMLER = [
 // yani Bozcaada'nın kendisi. Biga yarımadasında kaybedilen toprak YOKTUR;
 // adanın karaya 20 km uzaklıkta olması, imparatorluk ölçeğinde onu Biga
 // kıyısının bir parçası gibi gösteriyor.
-{ ad:"Limni",kaynak:"limni",isg:[{f:"1912-10-08",t:"1923-07-24",d:"yunanistan",kaynak:"oniki-ada"}], tur:"kale", lat:39.876, lon:25.156, g:0, k:3, m:"Selanik", s:[{f:"1281-01-01",t:"1479-01-25",d:"bizans"},{f:"1656-08-21",t:"1657-11-15",d:"venedik"},{f:"1923-07-24",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-01-25",t:"1656-08-21"},{f:"1657-11-15",t:"1923-07-24"}] },
+{ ad:"Limni",kaynak:"limni",isg:[{f:"1912-10-08",t:"1923-07-24",d:"yunanistan",kaynak:"oniki-ada"}], tur:"kale", lat:39.876, lon:25.156, g:0, k:3, m:"Selanik", s:[{f:"1281-01-01",t:"1479-01-25",d:"bizans"},{f:"1656-07-13",t:"1657-11-15",d:"venedik",kaynak:"gün komşudan: Bozcaada · TDV bozcaada (21 Ramazan 1066 / 13 Temmuz 1656); TDV limni yalnız 1656 Temmuzu diyor — aynı Venedik harekâtı (TDV mehmed-iv)"},{f:"1923-07-24",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-01-25",t:"1656-07-13"},{f:"1657-11-15",t:"1923-07-24"}] },
 // Girit, Mora'nın karşılığı olarak 1830'da Mehmed Ali'nin idaresine bırakıldı;
 // 1840 İskenderiye Konvansiyonu'yla Bâbıâli'ye geri döndü.
 { ad:"Kandiye (Girit)",kaynak:"girit", tur:"liman", lat:35.339, lon:25.133, g:1, k:2, s:[{f:"1281-01-01",t:"1669-09-27",d:"venedik"},{f:"1913-05-30",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1669-09-27",t:"1898-12-01",y:"kusatma"}],
@@ -1349,7 +1349,7 @@ window.YERLESIMLER = [
 // → 1699-01-26 (Karlofça). Taksim tarihleri komşularıyla aynı: Podolya içi
 // Bar ve Meciboj 1793-01-23 (ikinci taksim, Kamaniçe gibi), Galiçya'daki
 // Yazlofça 1772-08-05 (birinci taksim, Lvov gibi) Avusturya'ya geçer.
-{ ad:"Bar (Podolya)", tur:"kale", lat:49.078, lon:28.260, g:0, k:3, m:"Kamaniçe",
+{ ad:"Bar (Podolya)", tur:"kale", lat:49.074, lon:27.674, g:0, k:3, m:"Kamaniçe",
   // 🔴 12 Eylül 2026, KITA 2 — `lehistan` SPLIT (PAKET-VERI-DUZELTME-A).
   s:[{f:"1281-01-01",t:"1569-07-01",d:"polonya-erken"},{f:"1569-07-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
 { ad:"Meciboj (Mejibuji)", tur:"kale", lat:49.431, lon:27.415, g:0, k:3, m:"Kamaniçe",

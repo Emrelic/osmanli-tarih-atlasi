@@ -893,7 +893,7 @@ BOYALAR = {
     #   ton kayması 19,5° — turuncu-kızıl aile korundu, kimlik sürekliliği var.
     "hollanda":   ("Hollanda",               "#7e332a"),
     # venedik  #51c0b1 → #deed93  (toplu tur)
-    "venedik": ("Venedik", "#deed93"),
+    "venedik": ("Venedik", "#fcfc06"),
     "ceneviz":    ("Ceneviz",                "#633c0c"),
     "napoli":     ("Napoli / İki Sicilya",   "#d23f78"),
     # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #c9c1a3 soluk krem-altındı ve
@@ -3056,7 +3056,7 @@ BOYALAR = {
     "zende":                   ("Zende (Azande) Sultanlıkları",        "#cc3624"),
     "zerma":                   ("Zerma (Djerma) Devletçikleri",        "#6c1290"),
     "zuni":                    ("Zuni (A:shiwi)",                      "#1e78c0"),
-    "kabartay":                ("Kabartay (Kabardey) Beylikleri",    "#d058e8"),
+    "kabartay":                ("Kabartay (Kabardey) Beylikleri",    "#0c5a84"),
     # ================================================================
     # MERGE 5 EYLUL 2026 — 29 KIMLIK, TEK TURDA COZULDU
     # `renk_olc.py --oner` · artefakt: oneri-20260905-224505.txt
