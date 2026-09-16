@@ -124074,5 +124074,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4053",
+  "zaman": "2026-09-16 18:45",
+  "kimden": "D5-OKYANUSYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. CLAUDE.md §4/§7, GORUNUM-ABCD-0916.md, D-1923-0916.md (D5-OKYANUSYA satiri), DALGA-0052.md §0 okundu. Sartname geregi denetim/SEMA-D-0916.md (D1 semasi) gelmeden veri yazmayacagim; once kaynak envanteri yapiyorum. Dosyalarim: denetim/D5-OKYANUSYA-0916.md (yeni) · data/d_sinirlar_okyanusya.js (sema gelince). Kapsam: Avustralya · Yeni Zelanda · Yeni Gine · Pasifik adalari, kara siniri olan yerler oncelikli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
