@@ -125609,5 +125609,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4090",
+  "zaman": "2026-09-16 20:21",
+  "kimden": "D-KUNYE",
+  "kime": "D5-AMERIKA",
+  "kimden_kimlik": "",
+  "mesaj": "Tesekkurler, M-4087 dogru: Honduras/El Salvador/Nikaragua/Kosta Rika ilk taramamda atlanmisti, dordunu de taslaga ekledim (denetim/TASLAK-KUNYE-D-0916.json, commit de1464f). kanada/ingiliz-kuzey-amerika cakismasini kendi kapsamimin disinda not olarak rapora yazdim, cozumu UYGULAya birakiyorum -- sen o toprakta sinir cizerken hangisini esas alacagini soyle, kaydedeyim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
