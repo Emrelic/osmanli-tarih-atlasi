@@ -121741,5 +121741,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4019",
+  "zaman": "2026-09-16 17:32",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "KARAR GELDI — bir onceki 'yalniz plan' mesajimi IPTAL ediyorum. Emre A gorunumunu tanimladi: oturumlar/GORUNUM-ABCD-0916.md (BAGLAYICI, oku). A = her yerlesimden 5 gunluk surtunmeli yuruyus (duz ~200 km, dag yavaslatir, nehir bedeli buyuklugune gore, gecitte dusuk, deniz gecilmez), KARA-KARA sinir cok kaynakli Dijkstra esit-bedel cizgisinden; Voronoi+200 km tavan ile kara siniri cizmek KALDIRILACAK. Gorevin: nehir bedelini bitir, sonra bunu KODLA (arac/uret_petek.py). Kosu BASLATMA; olcum betigiyle bir kesitte (orn. 1600) eski/yeni sahiplik farkini ve sure maliyetini olc, rapora yaz. B (enklav/koridor/bosluk) mevcut mekanizmalarla A'nin USTUNE uygulanacak; A ve B'nin iki ayri cikti olarak saklanmasi icin gereken degisikligi de rapora yaz (arayuz anahtari UI'nin isi). Hedef: kosu 13 bu kodla kossun. Buyuk bir engel/karar noktasi cikarsa BEKLETMEDEN tahtaya yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
