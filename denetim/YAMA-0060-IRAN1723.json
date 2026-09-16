@@ -2,7 +2,7 @@
   "paket": "0060-IRAN1723",
   "tarih": "2026-09-17",
   "yazan": "HARITA-VERI alt görev IRAN1723",
-  "durum": "ONERI — veriye yazılmadı; uygulayıcı UYGULA · 17 Eylül EMRE: Urmiye 1724 (şık A) · Kürt beylikleri (Senendec · Merîvan · Bâne · Sakkız · Mahabad) doğrudan Osmanlı d:. Açık kalan: Merâga şık A/B (kalem 13).",
+  "durum": "ONERI — veriye yazılmadı; uygulayıcı UYGULA · 17 Eylül EMRE: Urmiye 1724 (şık A) · Kürt beylikleri (Senendec · Merîvan · Bâne · Sakkız · Mahabad) doğrudan Osmanlı d:. Merâga şık A (Tebriz günü, kalem 13). AÇIK KARAR KALMADI.",
   "anahtarlar": {
     "K-REVAN": "ANAHTAR K-REVAN = Revan d[2] (bugün 1724-09-28→1735-06-19; kalem 1-2 inerse 1724-10-03→1735-10-03)",
     "K-NAHCIVAN": "ANAHTAR K-NAHCIVAN = Nahçıvan d[1] (bugün 1725-01-01→1730-08-12; kalem 7 + A6C P-0076-a inerse 1724-01-01→1735-06-19)",
@@ -169,14 +169,15 @@
     {
       "dosya": "data/yerlesimler.js:1768 (Merâga) — ANAHTAR kayıt, bu grubun listesinde değil",
       "eski": "{f:\"1725-08-04\", t:\"1730-08-12\"}",
-      "yeni": "KARAR İSTENİYOR: şık A dokunma (Tebriz günü kalır) · şık B f:\"1724-01-01\" (Bilgili 'Mart 1724', yıl kodu)",
+      "yeni": "DOKUNMA — {f:\"1725-08-04\", t:\"1730-08-12\"} kalır (Tebriz ile aynı gün)",
       "gerekce": "Mahabad ve Mîyandoab bu anahtara bağlanıyor (kalem 14-15). Merâga'nın başlangıç günü Tebriz maddesinden alınmış. Bilgili teslimi Mart 1724'e koyuyor (Çelebizâde s.123). Ancak aynı cümle olayı 'Abdullah Paşa'nın Tebriz yürüyüşü sırasında' diye anlatıyor; o yürüyüş 1724 sonbaharı ile 1725 arasında. Cümle kendi içinde gergin olduğu için taraf seçmedim. TDV'de Merâga için 1720'lerin günü aranmadı (bu grubun kapsamı dışında).",
       "kaynak": "Bilgili, Ali Sinan (2016), «Osmanlı Tahrir Defterlerine Göre İran-Azerbaycan Şehirlerinde Ermeniler», Ermeni Araştırmaları 53 (dergipark article-file/638569) s.119: «Meraga'nın Safevî Valisi Feridun Han'ın … Osmanlılara matbu olmasıyla Mart 1724'de ele geçirilen Meraga ve Sovukbulak livaları» (TD 909)",
       "etki_olculen": "Şık B seçilirse 1724-01-01'de kırılma doğar (kalem 7'deki madde taşımasıyla aynı gün; metin Merâga'yı anmalı). Şık A'da değişiklik yok.",
       "madde_istegi": "",
-      "durum": "cevap",
+      "durum": "cevap-karar-verildi",
       "madde": "0060/H-0002 · 0062/H-0001",
-      "no": 13
+      "no": 13,
+      "karar": "🟢 EMRE KARARI 17 Eylül 2026 — 'Merâga Tebriz ile aynı gün kalsın.' Şık A. Bilgili'nin 'Mart 1724'ü ayrışma notu olarak kalır. Mîyandoab ve Mahabad (kalem 14-15) Merâga'nın bu günlerini kopyalar."
     },
     {
       "dosya": "data/yerlesimler.js:1778 (Mîyandoab)",
