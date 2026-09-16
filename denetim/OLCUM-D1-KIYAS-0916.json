@@ -149,6 +149,27 @@
    "kiyas_atlas": null
   },
   {
+   "id": "d1913-tr-ir-DEGISTI-kucuk-agri-1932",
+   "kategori": "D-YOK",
+   "uzunluk_km": null,
+   "kesinlik_km": null,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1913-tr-ir-DEGISTI-kotur-1932",
+   "kategori": "D-YOK",
+   "uzunluk_km": null,
+   "kesinlik_km": null,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1913-tr-ir-DEGISTI-bacirge-1932-1937",
+   "kategori": "D-YOK",
+   "uzunluk_km": null,
+   "kesinlik_km": null,
+   "kiyas_atlas": null
+  },
+  {
    "id": "d1923-tr-iq-fiili",
    "kategori": "fiili",
    "uzunluk_km": 277.0,
@@ -186,6 +207,55 @@
     "enkotu_km": 17.2,
     "le5_yuzde": 26
    }
+  },
+  {
+   "id": "d1915-osm-bg",
+   "kategori": "D",
+   "uzunluk_km": 197.4,
+   "kesinlik_km": 3.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1920-tbmm-bg",
+   "kategori": "D",
+   "uzunluk_km": 197.4,
+   "kesinlik_km": 3.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1920-yunan-isgal-bg",
+   "kategori": "fiili",
+   "uzunluk_km": 197.4,
+   "kesinlik_km": 3.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1922-mudanya-meric",
+   "kategori": "fiili",
+   "uzunluk_km": 171.1,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1913-osm-ir-1",
+   "kategori": "D",
+   "uzunluk_km": 113.7,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1913-osm-ir-2",
+   "kategori": "D",
+   "uzunluk_km": 47.1,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1913-osm-ir-3",
+   "kategori": "D",
+   "uzunluk_km": 27.1,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": null
   }
  ],
  "cipalar": {

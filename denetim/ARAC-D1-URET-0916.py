@@ -112,11 +112,14 @@ IRN_DEGISEN = [
 KAYIT = []
 
 
-def ekle(id_, a, b, f, t, kategori, parcalar, dayanak, degisti, tahdit, kesinlik, kesinlik_not, geo_kaynak, not_=""):
+def ekle(id_, a, b, f, t, kategori, parcalar, dayanak, degisti, tahdit, kesinlik, kesinlik_not, geo_kaynak, not_="",
+         sinif=None, tarih_kesinlik=None):
     for i, ls in enumerate(parcalar):
         KAYIT.append({
             "id": f"{id_}" + (f"-{i+1}" if len(parcalar) > 1 else ""),
             "taraflar": [a, b], "f": f, "t": t, "kategori": kategori,
+            **({"sinif": sinif} if sinif else {}),
+            **({"tarih_kesinlik": tarih_kesinlik} if tarih_kesinlik else {}),
             "sol_taraf": sol_taraf(ls, a, b),
             "hat": dizi(ls),
             "uzunluk_km": round(ls.length * 111 * 0.8, 1),
@@ -152,7 +155,10 @@ ekle("d1923-tr-gr", TT, "yunanistan", "1923-07-24", "1923-10-29", "D", hat("GRC"
      1.5, KES_NE + " · nehir talvegi değişkenliği ayrıca", NE)
 
 for kod, ad in (("GEO", "gurcistan"), ("ARM", "ermenistan"), ("AZE", "nahcivan")):
-    ekle(f"d1923-tr-sscb-{ad}", TT, "sovyet-rusya", "1921-10-13", "1923-10-29", "D", hat(kod),
+    # G1 (16 Eylül): başlangıç Kars (13.10.1921) değil MOSKOVA (16.3.1921) — IBS 29: "The Treaty of
+    # Moscow (1921) delimited the boundary as it exists today"; TDV `kars`: "Moskova (16 Mart 1921)
+    # ve Kars (13 Ekim 1921) antlaşmalarıyla yapılan son sınır tashihleri".
+    ekle(f"d1923-tr-sscb-{ad}", TT, "sovyet-rusya", "1921-03-16", "1923-10-29", "D", hat(kod),
          [{"ad": "Moskova Antlaşması", "tarih": "1921-03-16", "tur": "antlaşma", "madde": "bulunamadı (madde no okunmadı)"},
           {"ad": "Kars Antlaşması", "tarih": "1921-10-13", "tur": "antlaşma", "madde": "bulunamadı"},
           {"ad": "IBS No. 29 Turkey–U.S.S.R. (1964)", "sayfa": "s.4-6", "tur": "resmî sınır çalışması", "url": IBS % 29,
@@ -173,8 +179,9 @@ ekle("d1923-tr-ir", TT, "kacar", "1920-04-23", "1923-10-29", "D", kirp(irn, degi
      {"deger": False, "kaynak": "IBS 28", "not": "Bu parçalar 1932/1937 değişikliklerinin DIŞINDA kalan kesimler; 'değişmedi' bir ÇIKARIM: IBS değişenleri adıyla sayıyor, kalanları saymıyor"},
      {"t": "1914-10", "not": "1913 protokolünün komisyonu işaretledi (Kotur hariç)"},
      2.0, KES_NE + " · değişen kesimlerin kutu sınırı TAHMİNİ (±10 km)", NE)
-for kid, kutu, gerekce in IRN_DEGISEN:
-    KAYIT.append({"id": f"d1923-tr-ir-DEGISTI-{kid}", "taraflar": [TT, "kacar"], "f": "1920-04-23", "t": "1923-10-29",
+for (onek, taraf, ff, tt) in (("d1923", TT, "1920-04-23", "1923-10-29"), ("d1913", "osmanli", "1913-11-17", "1920-04-23")):
+  for kid, kutu, gerekce in IRN_DEGISEN:
+    KAYIT.append({"id": f"{onek}-tr-ir-DEGISTI-{kid}", "taraflar": [taraf, "kacar"], "f": ff, "t": tt, "sinif": "YOK",
                   "kategori": "D-YOK", "hat": None, "kutu": [round(v, 3) for v in kutu.bounds],
                   "degisti": {"deger": True, "kaynak": "IBS 28", "not": gerekce},
                   "not": "1923 hattının koordinatı ELDE YOK (1913 protokol metni/haritası okunmadı) ⇒ bu kutuda D ÇİZİLMEZ, A/B geçerli. Bugünkü çizgi 1923'ü GÖSTERMEZ."})
@@ -221,6 +228,87 @@ ekle("d1923-tr-sy-bati", TT, "suriye-lubnan-mandasi", "1921-10-20", "1923-10-29"
      10.0, "metin 'yaklaşık olarak' diyor; iki uç GeoNames çıpası (Payas 2 km güneyi kıyı · Maydān Ikbis), arası DÜZ — Hassa'nın yakası belirsiz",
      "antlaşma metninden cetvel (2 nokta)")
 
+# ════════════════ GERİYE SARMA G1 (1923 → 1918-11-11) · oturumlar/GERIYE-SARMA-0916.md ════════════════
+# Kural: E/F değişikliği YALNIZ antlaşma/protokolle; önceki işgal = D (koordinat KESİNSE), değilse YAZILMAZ.
+# YAZILMAYANLAR (koordinat kesin değil ⇒ A/B): Kars-Ardahan-Gümrü 1918-1921 cephe/işgal hatları
+# (TDV `kars`: 12.4.1919 İngiliz işgali, 30.10.1920 Karabekir, 3.12.1920 Gümrü) · Kilikya'da Fransız-TBMM
+# cephesi ve 1921-10-20 sonrası tahliye · Mondros sonrası Musul'un İngiliz işgali · 1878-1914 Osmanlı-Rus hattı.
+TDV_MUD = {"ad": "TDV mudanya-mutarekesi (Cezmi Eraslan)", "tur": "TDV",
+           "alinti": "Yunan kuvvetleri … Meriç'in sol kıyısına çekilecektir"}
+IBS49 = {"ad": "IBS No. 49 Bulgaria–Turkey (1965)", "sayfa": "s.10-12", "tur": "resmî sınır çalışması", "url": IBS % 49,
+         "alinti": "defined the boundary according to the Treaty of Constantinople of 1913"}
+IBS49_SOFYA = {"ad": "Bulgar-Türk Sınır Düzeltme Sözleşmesi (Sofya)", "tarih": "1915-09-06", "tur": "sınır sözleşmesi",
+               "kaynak": "IBS 49 s.10: 'signed at Sofia, August 24 (September 6), 1915'"}
+KES_BG_ESKI = ("1915 metninin geometrisi 1921 İŞARETİYLE vekâleten çizildi; IBS 49 1921 komisyonunun 1913+1915 hattını "
+               "işaretlediğini söylüyor, Meriç ucundaki 1915 düzeltmesinin bu parçaya etkisi ÖLÇÜLMEDİ")
+
+ekle("d1915-osm-bg", "osmanli", "bulgaristan-kralligi", "1915-09-06", "1920-04-23", "D", hat("BGR"),
+     [IBS49_SOFYA, IBS49],
+     {"deger": None, "kaynak": "IBS 49", "not": "Neuilly (1919) bu hattı Bulgaristan için teyit etti; 1921 komisyonu işaretledi"},
+     {"t": "1921", "not": "1915-1921 arası hat metinle belirliydi"},
+     3.0, KES_BG_ESKI, NE, "G1: hukukî Osmanlı-Bulgar hattı. 1920-04-23'te taraf TBMM'ye geçer (atlas kimlik geçişi — SINIR DEĞİŞİMİ DEĞİL)",
+     sinif="E")
+ekle("d1920-tbmm-bg", TT, "bulgaristan-kralligi", "1920-04-23", "1923-07-24", "D", hat("BGR"),
+     [IBS49_SOFYA, IBS49],
+     {"deger": None, "kaynak": "IBS 49"}, {"t": "1921", "not": "Neuilly komisyonu"},
+     3.0, KES_BG_ESKI, NE,
+     "G1: aynı hukukî hat, taraf halef TBMM (Lozan 2/1 1923-07-24'te 'elyevm' hattı teyit etti). "
+     "Fiilen 1920-07 → 1922-10 Doğu Trakya Yunan işgalindeydi ⇒ ayrıca D kaydı (d1920-yunan-isgal-bg)",
+     sinif="E")
+ekle("d1920-yunan-isgal-bg", "yunanistan", "bulgaristan-kralligi", "1920-07-01", "1922-10-14", "fiili", hat("BGR"),
+     [{"ad": "TDV edirne (M. Tayyib Gökbilgin)", "tur": "TDV", "alinti": "Temmuz 1920'de Yunan işgaline uğradı. 1922'de kurtarıldı"},
+      TDV_MUD,
+      {"ad": "IBS No. 41 Greece–Turkey (1964)", "sayfa": "s.4", "tur": "resmî sınır çalışması", "url": IBS % 41,
+       "alinti": "signed the Mudania Armistice three days later on October 14, 1922"}],
+     {"deger": None, "kaynak": "—", "not": "fiilî hat; hukukî hat d1920-tbmm-bg"},
+     {"t": "1921", "not": "hat 1921'de işaretlendi"},
+     3.0, KES_BG_ESKI, NE,
+     "G1 FİİLÎ: Doğu Trakya'daki Yunan işgali (Sevr 10.8.1920 hiç yürürlüğe girmedi ⇒ hukuken E DEĞİL). "
+     "🔴 f AY hassasiyetinde (TDV 'Temmuz 1920', gün YOK). t Mudanya'nın yürürlüğü; Yunan tahliyesi md.5 gereği "
+     "15 gün daha sürdü, müttefik ara idaresi ≤30 gün — o ara dönem ayrıca YAZILMADI (taraf ve gün belirsiz)",
+     sinif="D", tarih_kesinlik={"f": "ay", "t": "gun"})
+
+_nehir = json.load(open("veri-kaynak/ne_10m_rivers.geojson", encoding="utf8"))
+evros = unary_union([shape(f["geometry"]) for f in _nehir["features"] if f["properties"].get("name") == "Evros"])
+_m = evros.intersection(unary_union(hat("GRC")).buffer(0.08))
+meric = linemerge(_m) if _m.geom_type == "MultiLineString" else _m
+ekle("d1922-mudanya-meric", TT, "yunanistan", "1922-10-14", "1923-07-24", "fiili", list(getattr(meric, "geoms", [meric])),
+     [{"ad": "Mudanya Mütarekesi", "madde": "md. 2 · md. 3 · md. 5", "tarih": "1922-10-11", "tur": "ateşkes",
+       "kaynak": "TDV mudanya-mutarekesi", "alinti": "Karaağaç dahil Meriç'in sağ kıyısı müttefiklerce işgal edilecektir"},
+      {"ad": "IBS No. 41 Greece–Turkey (1964)", "sayfa": "s.4-5", "tur": "resmî sınır çalışması", "url": IBS % 41,
+       "alinti": "To restore Thrace as far as the Maritsa River to Turkey"}],
+     {"deger": None, "kaynak": "—", "not": "ateşkes hattı; Lozan (1923-07-24) aynı nehri hukukî hat yaptı + Karaağaç dirseği"},
+     {"t": "—", "not": "işaretlenmedi (ateşkes)"},
+     2.0, "Natural Earth 10m nehirler 'Evros' (ölçek 7) — talveg değil, nehir çizgisi; konum hatası ÖLÇÜLMEDİ",
+     "Natural Earth 10m rivers 'Evros'",
+     "G1 FİİLÎ: ateşkes hattı = Meriç, denizden Bulgar üçlü noktasına (md.2). Karaağaç dahil sağ kıyı barışa kadar "
+     "MÜTTEFİK işgalinde (md.3) — o şerit ayrı taraf, koordinatı yok, YAZILMADI. f: IBS 41 Yunan imzası 14 Ekim; "
+     "TDV 'üç gün içinde yürürlüğe girecek' (imza 11 Ekim)",
+     sinif="D")
+
+ekle("d1913-osm-ir", "osmanli", "kacar", "1913-11-17", "1920-04-23", "D", kirp(irn, degisen_kutu, True),
+     [{"ad": "İstanbul Protokolü (Türk-İran tahdidi)", "tarih": "1913-11-17", "tur": "protokol",
+       "kaynak": "IBS 28 s.7 · H. Efe–M. Kızıl, ERZSOSDE X-I (2017) s.77-90"},
+      {"ad": "IBS No. 28 Iran–Turkey (1964)", "sayfa": "s.5-7", "tur": "resmî sınır çalışması", "url": IBS % 28,
+       "alinti": "by October 1914, had demarcated the entire boundary except for about 40 miles"}],
+     {"deger": False, "kaynak": "IBS 28", "not": "1932/1937 değişikliklerinin DIŞINDAKİ kesimler (çıkarım, bkz. d1923-tr-ir)"},
+     {"t": "1914-10", "not": "Kotur hariç işaretlendi"},
+     2.0, KES_NE, NE, "G1: 1920-04-23'te taraf TBMM'ye geçer (kimlik geçişi — SINIR DEĞİŞİMİ DEĞİL). "
+     "1914-1918 Rus ve Osmanlı işgalleri G2'nin işi", sinif="E")
+
+# ---------------- SINIF (GORUNUM-ABCD-0916 en üst bölüm) ----------------
+# D→E (F kanıtı gelene kadar: denetim/TANINMA-1923-0916.json YOK, 16 Eylül'de ölçüldü) · fiili→D ya da YOK ·
+# C→C · D-YOK→YOK.  Irak fiilî hattı KESİN DEĞİL (bugünkü çizgi statükonun VEKİLİ) ⇒ YOK.
+_ESLE = {"D": "E", "C": "C", "D-YOK": "YOK", "fiili": "YOK"}
+for r in KAYIT:
+    if "sinif" not in r:
+        r["sinif"] = _ESLE[r["kategori"]]
+    if r["sinif"] == "E":
+        r["sinif_not"] = "F için tanınma kanıtı (denetim/TANINMA-1923-0916.json) henüz yok — E yazıldı"
+    if r["kategori"] == "fiili" and r["sinif"] == "YOK":
+        r["sinif_not"] = ("fiilî statüko hattının koordinatı KESİN DEĞİL (bugünkü çizgi vekil) ⇒ YOK; "
+                          "hat bilgi amaçlı duruyor, çizilmemeli")
+
 # ---------------- KIYAS: koşu 12 ----------------
 kiyas = {"kaynak": K12, "gun": GUN}
 try:
@@ -253,7 +341,7 @@ try:
         raise RuntimeError("koşu 12'de tbmm-turkiye 1923-10-28 dönemi yok")
     sinir = govde.boundary
     for r in KAYIT:
-        if not r.get("hat"):
+        if not r.get("hat") or r["t"] != "1923-10-29":   # yalnız 29 Ekim 1923 hâli kıyaslanır
             continue
         ls = LineString(r["hat"])
         n = max(2, int(ls.length * 111 / 2))
@@ -274,8 +362,11 @@ bas = ["// -*- coding: utf-8 -*-",
        "// data/d_sinirlar.js — D KATEGORİSİ SINIRLAR (koordinatlı, parça parça kaynaklı)",
        "// D1-TURKIYE · 16 Eylül 2026 · şema denetim/SEMA-D-0916.md · rapor denetim/D1-TURKIYE-0916.md",
        "// Üretici: denetim/ARAC-D1-URET-0916.py — 🔴 ELLE DÜZENLEME, yeniden üret.",
-       "// kategori: D (koordinatlı) · C (belge kaba — D yoksa C katmanı çizer) · fiili (hukukî hat yok) ·",
-       "//           D-YOK (bugünkü çizgi 1923'ü göstermez; kutuda D çizilmez)",
+       "// 🔴 BAĞLAYICI ALAN `sinif` (oturumlar/GORUNUM-ABCD-0916.md en üst bölüm, Emre 16 Eylül akşamı):",
+       "//    F = E + tanınma · E = hukukî kesin · D = FİİLÎ kesin · C = belge kaba · YOK = çizilmez (A/B geçerli)",
+       "//    Tanınma kanıtı (denetim/TANINMA-1923-0916.json) gelene kadar F yerine E yazıldı.",
+       "// `kategori` ESKİ alan (geçiş dönemi): D (koordinatlı hukukî) · C · fiili · D-YOK.",
+       "// G1 geriye sarma (1923 → 1918-11-11) kayıtları da bu dosyada (d1913/d1915/d1920/d1922 önekleri).",
        "// sol_taraf: `hat` ilerleme yönüne göre SOLDA kalan devlet (render tarafı için).",
        "", "window.D_SINIRLAR = ["]
 satir = [json.dumps(r, ensure_ascii=False, separators=(",", ":")) + "," for r in KAYIT]
@@ -288,5 +379,5 @@ print("kayıt", len(KAYIT), "· kıyas", kiyas["durum"], "· taban:", kiyas.get(
 print("Karaağaç (41.655/26.53) NE Türkiye içinde:", tr.contains(Point(26.53, 41.655)))
 for r in KAYIT:
     k = r.get("kiyas_atlas") or {}
-    print(f"  {r['id']:34} {r['kategori']:6} {r.get('uzunluk_km','-'):>6} km  sol={r.get('sol_taraf','-'):22} "
+    print(f"  {r['id']:38} {r['sinif']:3} {r['f']}→{r['t']} {r.get('uzunluk_km','-'):>6} km  sol={r.get('sol_taraf','-'):22} "
           f"kıyas ortanca {k.get('ortanca_km','-')} p90 {k.get('p90_km','-')} en kötü {k.get('enkotu_km','-')} ≤5km %{k.get('le5_yuzde','-')}")
