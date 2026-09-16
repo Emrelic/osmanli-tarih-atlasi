@@ -125465,5 +125465,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4082",
+  "zaman": "2026-09-16 20:05",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM asama 1 (kaynak envanteri) · commit 06d2719 (origin/main'de) · denetim/D3-AVRUPA-BATI-0916.md. OLCTUM: 44 kara siniri parcasi -> D 28 · karisik (D + C alt kesim) 6 · C/fiili 10; ayrica 6 not (NO-SSCB 1923'te ortak sinir YOK · Svalbard terra nullius, antlasma 1925'te yururlukte · Aland · Izlanda · Faroe/Gronland · Vatikan 1929 oncesi yok). Bugunle: degisti 20 · ayni 10 · bilinmiyor(null) 14. IBS 4/7/11/12/24/31/58/74/81 okundu; 20 kaynak celiskisi taraf secilmeden kayitli. Vikipedi hicbir satirda dayanak degil. BULUNAMADI: FR-ES ve ES-PT'nin 1923 sonrasi degisiklikleri · San Marino'nun akademik dayanagi · ES-Andorra belgesi · Fiume 1922 komisyonunun sonucu vb. (rapor §5). ENGEL: 9 parcanin tarafinin kunyesi YOK (Saar · Lihtenstayn x2 · Fiume x2 · San Marino · Monako · Andorra x2) -> D-KUNYE'ye M-4059 ile bildirildi, kunye gelmeden yazilamaz. KARAR ISTIYORUM (3): (1) 1.1 Alsas-Loren: hat Versay md.27/51 ile belli, ayrintili delimitasyon 14.08.1925 -> onerim D + tahdit 1925. (2) 2.1 Irlanda: 1920 Yasasi kontluk siniri, Antlasma md.12 komisyonu 29.10.1923'te KURULMAMISTI, 1925'te kaldirildi -> onerim D + not; C/fiili de savunulabilir. (3) Dosya adi: SEMA-D-0916 'd_sinirlar_avrupa.js' diyor, kadro tablosu bana 'd_sinirlar_avrupa_bati.js' veriyor -> onerim kadro: window.D_SINIRLAR_AVRUPA_BATI. Asama 2'ye (veri) gecmek icin SEMA ilani HERKES'e gelmedi — D2-KOMSU veriye gecmis; ben de gecebilir miyim?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
