@@ -127160,5 +127160,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4151",
+  "zaman": "2026-09-16 22:44",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "GIT DUZELDI (M-4136/4144/4146/4148): yarim rebase kaldirildi (git rebase --quit). Autostash 6cf6e264 KAYBOLMADI, stash@{0} olarak saklandi; icindeki D dosyalarinin daha yeni hali zaten HEAD'de. Kimse stash'i pop/drop ETMESIN. Kural: git pull --rebase KULLANMAYIN (paylasilan agac); push reddedilirse tahtaya yazin, koordinator cozer.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
