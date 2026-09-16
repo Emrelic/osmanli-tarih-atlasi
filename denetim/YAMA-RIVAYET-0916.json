@@ -54,6 +54,16 @@
       "yeni_oneri": "b:\"Trablusşam ve Hama'nın Osmanlı idaresine girişi\" — Humus'un eklenip eklenmeyeceği, TDV `humus` ya da `trablussam`/`hama` maddelerinin ayrıca okunmasına bağlı; bu turda ÖLÇÜLMEDİ.",
       "kaynak": "mevcut kaydın kendi `d:` alanı (kaynak: TDV trablussam) — Humus için ayrıca kaynak taraması GEREKİYOR, bu turda yapılmadı",
       "oncelik": "düşük — kozmetik, veri kaybı yok; Humus için ek araştırma açık kaldı"
+    },
+    {
+      "madde_kimligi": "DALGA-0056 madde 1 — data/olaylar_ek5.js:264, t:\"1711-03-01\", b:\"Trablusgarp'ta Karamanlı hanedanının kurulması\"",
+      "sikayet": "Yok — bu ek okuma kartı yazılırken (sebep-sonuc-trablusgarp-karamanlilar-1711, data/ekokuma_rivayet.js) araştırma sırasında tesadüfen bulundu.",
+      "olcum": "Kayıt `gun:\"1711\"` diyerek zaten yıl-düzeyi hassasiyeti kabul ediyor ve `t:` alanını '1711-03-01' gibi rastgele bir gün-ay ile dolduruyor. Ama TDV `trablusgarp` ve `karamanli` maddeleri KESİN BİR GÜN VERİYOR: Ahmed Bey'in Trablusgarp idaresini fiilen ele geçirmesi 29 Temmuz 1711. Yani kayıt, kaynağın verdiği hassasiyetten DAHA DÜŞÜK bir hassasiyet kullanmış — CLAUDE.md §4'ün 'hassasiyet kaynağı aşamaz' kuralının TERSİ bir vaka: burada eksik olan kaynağın kendisi değil, kaynağı TARAYAN önceki oturumun günü bulamamış/aramamış olması.",
+      "alan": "t, gun",
+      "eski": "t:\"1711-03-01\", gun:\"1711\"",
+      "yeni_oneri": "t:\"1711-07-29\", gun:\"29 Temmuz 1711\" (TDV karamanli: Ahmed Bey'in idareyi fiilen ele geçirdiği gün; III. Ahmed'in beylerbeyilik beratı sonradan geldi, o berat gününün ayrıca kaynakta verilip verilmediği bu turda araştırılmadı).",
+      "kaynak": "TDV: trablusgarp · karamanli (WebFetch, 16 Eylül 2026, HTTP 200, gövde okundu)",
+      "oncelik": "düşük — üç aylık bir kayma, veri kaybı yok, yalnız hassasiyet artırımı"
     }
   ]
 }
