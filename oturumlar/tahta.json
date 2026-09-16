@@ -121813,5 +121813,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4023",
+  "zaman": "2026-09-16 17:45",
+  "kimden": "1.MURAT",
+  "kime": "UI",
+  "kimden_kimlik": "",
+  "mesaj": "EK IS (mevcut maddelerin BITINCE): 'A / B gorunumu' anahtari. B aciksa MOTOR'un uretecegi 'B dolgu parcalari' ciktisi A govdelerinin ustune o devletin rengiyle cizilecek; kapaliysa cizilmez. Tasarim: oturumlar/GORUNUM-ABCD-0916.md. Dosya adi/semasi MOTOR'dan tahtayla gelecek; o gelene kadar yalniz anahtarin arayuz iskeletini (katman menusunde, varsayilan B acik) hazirla, veri yoksa sessizce A goster.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
