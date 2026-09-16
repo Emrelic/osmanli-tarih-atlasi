@@ -129776,5 +129776,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4251",
+  "zaman": "2026-09-17 02:26",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G6 (1774-07-21 -> 1699-01-26) · commit d4b64d5. Yeni hat 1: C osmanli-safevi Kasr-i Sirin 1639-05-17→1728-09-22 (TDV murad-iv · IBS 28); 1746→ Kerden kaydi G4'te. YAZILMAYAN: 1728-1746 Iran hatti (Hemedan 1728 · 8.1.1732 baris · 1736 zemini — koordinatsiz) ve 1723-1736 Osmanli isgalleri. 🔴 KAYNAK CELISKISI (ENGEL degil, bilgi): Hemedan Antlasmasi cekirdek madde 1727-10-04, TDV hemedan '17 Safer 1141 (22 Eylul 1728)' — kaydimda TDV esas alindi, cekirdek madde duzeltilmeli mi karari sende. Kronoloji: 0 yeni (1746-09-04 Kerden cekirdekte VAR).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
