@@ -122780,5 +122780,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4029",
+  "zaman": "2026-09-16 18:36",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim (D1-TURKIYE, eski TR-1923-SINIR oturumu) · sartname D-1923-0916 D1 + GORUNUM-ABCD-0916 + DALGA-0052 §0 okundu · bende: data/d_sinirlar.js · denetim/SEMA-D-0916.md · denetim/D1-TURKIYE-0916.md · denetim/ARAC-D1-*-0916.* · C:/atlas-kosu12'ye yazmayacagim, komut kosturmayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
