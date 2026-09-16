@@ -69,6 +69,20 @@ Kuzey Kafkasya–Kırım kayıtlarına o oturum bitene kadar **dokunmaz**; H-012
 | GEOMETRI | 51/H-0004 (renk bozulması / katman üst üste binmesi) |
 | HARITA-VERI | 51/H-0007 (= 0052 H-0015 Levant özerk görünümü) · 51/H-0008 (= 0052 H-0092 Lahsa–Katar bozuk desen) |
 
+### 2c. İKİNCİ TUR — eski paketlerden kalan 166 madde (`denetim/KUTU-AYIKLA-0916.md` §④, numaralar oradaki sıra)
+
+| Oturum | Kalemler | Çıktı |
+|---|---|---|
+| HARITA-VERI | HARITA-VERI 1–65 · RENK 1–5 | `denetim/YAMA-0052B-*.json` · rapora ek bölüm |
+| EKO-DUNYA | HARITA-VERI 66–98 | `denetim/YAMA-0052C-*.json` · `denetim/EKO-DUNYA-0916.md`e ek bölüm |
+| EKO-VEZIR | HARITA-VERI 99–131 | `denetim/YAMA-0052D-*.json` · `denetim/EKO-VEZIR-0916.md`e ek bölüm |
+| GEOMETRI | MOTOR 1–20 | teşhis; A/B tasarımıyla (GORUNUM-ABCD-0916.md) çözülecekleri işaretle |
+| EKO-RIVAYET | EKOKUMA 1–6 · KRONOLOJI 1–4 | kendi dosyaların (`ekokuma_rivayet.js` · `olaylar_p0059.js`) |
+
+Kurallar aynı. HARITA-VERI grubundaki kalemlerin bir kısmı aslında görüntü/geometri kusurudur:
+öyleyse "MOTOR/A-B ile çözülür" diye işaretle, araştırma yapma. Veriye YAZMA — yama önerisi; UYGULA uygular.
+**Saat 23:30'da nerede olursan ol teslim mesajını yaz** (yapılan · kalan).
+
 ## 3. OTURUMA ÖZEL NOTLAR
 
 **EKO-DUNYA** — H-0006 büyük: savaş başlangıç/sebep/bedel/antlaşma kartlarını ilgili savaş maddelerine bağla;
