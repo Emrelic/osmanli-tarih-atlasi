@@ -1,0 +1,105 @@
+{
+  "yazan": "FERHATPASA-EMRE5 (oturum c4727e) · 14 Eylül 2026",
+  "durum": "ÖNERİ — UYGULANMADI. Koşu 11 (PID 19472, 02:10:34) sürüyor, data/yerlesimler* ve arac/* DONUK. Koşu 11 yayını push edildikten SONRA uygulanır; haritada koşu 12 ile görünür. · 14 Eylül ikinci mesaj: E4 Mâku · E5 Ahar · E5 Merend KARARA BAĞLANDI; E3 de karara bağlandı (üçüncü mesaj) — AÇIK KARAR KALMADI; yalnız koşu 11 yayınını bekliyor.",
+  "dayanak": "Emre'nin 14 Eylül 2026 mesajı (Ferhat Paşa sınırı · 8 madde · halka · sarı çizgi). Bu dosya denetim/YAMA-FERHATPASA-BIRLESIK-0913.json'un ÜSTÜNE biner, onu tekrar etmez.",
+  "taban_olcumu": {
+    "yontem": "py arac/girdi.yukle() — koşu 11'in okuduğu girdi (02:10 sonrası data/ ve arac/ altında yalnız bolgeler.js değişti, o üretilmiş dosya)",
+    "sonuc": "BİRLEŞİK YAMANIN HİÇBİR KALEMİ GİRDİDE YOK. Hemedan d 1590-03-21→1603-10-21 · Burûcird d aynı · Revan d.f 1583-06-01 · Gence/Berde d.f 1588-01-01 · Eçmiyadzin/Gümrü/Mâku/Şerur/Merend/Selmâs/Bâne/Merîvan/Mahabad/Serdeşt/Kasr-ı Şîrîn yalnız s:safevi · Miyâne/Sarâb d 1585-09-25→1603-10-21 · Luristan/Nihâvend/Kirmanşah d.f 1590-03-21. Çaldıran ve Başkale d.f 1548-08-24 ZATEN girdide (ARAS-CALDIRAN).",
+    "cizgi": "data/hukuki_sinirlar.js `ferhad-pasa-1590-sinir-hatti` kapsama.tur:'poligon' + boş nokta_dizisi = DOLGU KASITLI KAPALI (kutu dolgusu 30 yerden 10'unu yanlış boyuyordu; kutu Kuzey Kafkasya'yı ve tâbi/doğrudan ayrımını da ezerdi). Motor (uret_petek.py) HUKUKI_SINIRLAR okumuyor (grep 0). ⇒ renk yalnız yerleşim dönemlerinden gelir."
+  },
+  "kalemler": [
+    {
+      "no": "E1",
+      "istek": "Van 24 Ağustos 1548 ile Çaldıran ve Başkale",
+      "durum": "ZATEN GİRDİDE — koşu 11 yayınıyla canlıya iner. İş yok.",
+      "madde": "olaylar_ek5.js 1548-08-24 'Van'ın fethi' VAR"
+    },
+    {
+      "no": "E2",
+      "istek": "Revan 1583 — harita Revan maddesinde; Gümrü ve Eçmiyazin birlikte",
+      "uygula": "BİRLEŞİK G-REVAN (d.f 1583-06-01→1583-09-13) + G-ECMIYADZIN + G-GUMRU AYNI PARTİDE",
+      "olcum": "1583-09-13'te girdide başka kırılma 0; madde olaylar_ek5.js 'Revan'ın fethi' 1583-09-13 VAR. Bugünkü 1583-06-01 başlangıcı Bakü maddesinden (1583-08-01) önce düştüğü için Revan Bakü maddesinde görünüyordu."
+    },
+    {
+      "no": "E3",
+      "istek": "Nahçıvan ve Ordubad haritada 'Büyük tağşiş' maddesinde değil kendi maddesinde",
+      "kok_sebep": "İkisi de t:1585-01-01. Aynı günün sırası dosya sırası (OLAYLAR_EK2 < OLAYLAR_EK8, app.js olaylarAnahtarSiraNo) ⇒ tağşiş önce gelir, harita o maddede zaten değişmiş görünür. 1585-01-01 yıl kodu, KAYNAKSIZ (TDV nahcivan gün/yıl vermiyor: '986'da (1578) yeniden başlayan … mücadelede Osmanlılar'ın eline geçti').",
+      "oneri": "Nahçıvan · Ordubad · Culfa · Şerur d.f 1585-01-01 → 1586-01-01 (Bilge, Vakanüvis 2 [51-52] 'Nahçıvan 1586') ve olaylar_ek8.js maddesi t/gun 1586'ya BİRLİKTE.",
+      "olcum": "1586-01-01'de girdide 1 yabancı kırılma (Ust-Sısolsk s.f rusya) ve 2 kuyruk maddesi — D147 sahte kapanma DELTA ile ölçülecek.",
+      "celiski": "Ordubad için Eskandar/Savory II s.582-583 997/1588-89 'Jaʿfar Pasha extended his jurisdiction over … Ordūbād, Marand' diyor. Bilge 1587-88 kışında Safevî arası da veriyor (KITA29 B2).",
+      "karar": "🟢 EMRE 14 Eylül (üçüncü mesaj): 'EVET TAŞI.' ⇒ Nahçıvan · Ordubad · Culfa · Şerur d.f 1585-01-01 → 1586-01-01 (Bilge, Vakanüvis 2 [51-52] 'Nahçıvan 1586'; Ordubad/Culfa/Şerur için kayda 'gün komşudan: Nahçıvan — Emre kararı 14 Eylül' yazılır) VE olaylar_ek8.js 'Nahçıvan ve Ordubad'ın Osmanlı idaresine girmesi' maddesi t:'1586-01-01' gun:'1586' — İKİSİ AYNI PARTİDE. Madde metnindeki 'aynı yılın eylülünde Tebriz'e girilebildi' cümlesi 1586 ile çelişir (Tebriz 1585-09-25) ⇒ metin de düzeltilir. Uygulamada Bilge [51-52] pasajı yeniden okunur (D104). Sonrası denetle DELTA: 1586-01-01 Ust-Sısolsk yabancı kırılması (D147) · 1585-01-01'de Voronej artık tağşiş maddesine yaslanıyor (olaylar_p0051 kendi maddesi var, ölç)."
+    },
+    {
+      "no": "E4",
+      "istek": "Nahçıvan-Ordubad alınınca Mâku ve Şerur da Osmanlı — bölge birlikte",
+      "serur": "BİRLEŞİK G-SERUR d.f = Nahçıvan günü (E3 hangi günse). BOA TD 633 (Kasım 1590) 'Şerür' kazası Osmanlı. Kayda 'gün komşudan Nahçıvan — Emre kararı 14 Eylül' yazılır.",
+      "maku": "KAYNAK ÇELİŞİYOR: TDV maku '1574' İvaz Bey ocaklığı (BİRLEŞİK G-MAKU d 1574-01-01→1639-05-17). 1574 uygulanırsa Mâku Nahçıvan maddesinde ZATEN Osmanlı görünür (istek görsel olarak karşılanır) ama o maddede değişmez.",
+      "karar": "🟢 EMRE 14 Eylül (ikinci mesaj): Mâku TDV'ye göre 1574'te alınmış gösterilir — 'tıpkı Başkale Çaldıran gibi, doğu savaşı başlamadan önce Osmanlı'da idi.' ⇒ G-MAKU d.f 1574-01-01 (TDV maku: '1574 yılında Osmanlı Devleti … İvaz Bey'i Mâkû'yu İranlılar'dan alıp burada bir kale yapmakla görevlendirdi'). Madde ZATEN VAR ve index.html'e BAĞLI: olaylar_p0044.js 1574-01-01 'Mâku Osmanlı'ya geçti — Mahmûdî İvaz Bey'e kale yapma görevi' (gun:'1574'). Madde kendi ic_not'unda yamayla BİRLİKTE inmeyi istiyor. Nahçıvan günüyle BAĞLANMAZ."
+    },
+    {
+      "no": "E5",
+      "istek": "Tebriz'in fethi (1585-09-25) ile Ahar · Merend · Selmâs · Merâga · Mîyandoab · Mahabad · Sakkız · Bâne · Merîvan",
+      "hazir": "Merâga · Mîyandoab girdide 1585-09-25 ✓ · G-SELMAS d.f 1585-09-25 ✓ · G-MAHABAD/G-SAKKIZ/G-BANE/G-MERIVAN/G-SERDEST v.f 1585-09-25 (Karar 5: Kürt beylikleri Osmanlı tâbisi) ✓",
+      "ahar": "ÇELİŞİYOR: bugünkü girdi d.f 1585-09-25 (isteğe UYGUN). BİRLEŞİK G-AHAR Emre'nin 13 Eylül şık B'si: v 1588-01-01→1603-10-21 (Kütükoğlu s.168 · Eskandar s.582 · Petrushevsky — itaat Cafer Paşa'nın 1588 zaferinden sonra). Enklav gerekçesi YOK (Ahar hattın doğu kenarında).",
+      "madde_metni": "olaylar_ek2.js 1585-09-25 Tebriz maddesine 'aynı süreçte Hoy · Merend · Selmâs · Merâga · Mîyandoab ve Mukrî/Bâne/Merîvan beyleri' eki (BİRLEŞİK M4)",
+      "karar_ahar": "🟢 EMRE: 'Ahar hangi tarihte Osmanlı'ya geldi ise o tarihte boyansın.' Kaynak yılı 1588 (RU Petrushevsky s.168 '(1588)' · IR Eskandar/Savory II s.582 Year of the Rat 997/1588-89: Şâhverdi Han Cafer Paşa'ya itaat etti, oğlunu Tebriz'e rehin gönderdi · TR Kütükoğlu s.168). GÜN YOK. ÖNERİ v.f 1588-09-01 — şartlı komşu günü: Eskandar s.582-583 aynı pasajda Cafer Paşa'nın Merend/Ordubad'a hükmünü genişletmesini Ferhad Paşa'nın Gence'deki kale inşasına 'Meanwhile' ile bağlıyor; Gence günü TDV murad-iii [114] '1 Eylül 1588'. ⚠️ 1588-01-01 KULLANILMAZ: Hünernâme II maddesinin günü (Gence'de şikâyet edilen hatanın aynısı) ve Eskandar yılının (Nevruz 1588) ÖNÜNE düşer. Bitiş 1603-10-21 (13 Eylül şık B). d 1585-09-25→1603-10-21 SİLİNİR.",
+      "karar_merend": "🟢 EMRE: 'Merend'i 1588'de boya, Ferhat Paşa anlaşmasında boyanmış olsun yeter.' ⇒ BİRLEŞİK G-MEREND AYNEN: d 1588-09-01→1603-10-21 (Eskandar s.582-583). Örtülü 1585 önerisi DÜŞTÜ.",
+      "yeni_madde": {
+        "t": "1588-09-01",
+        "gun": "997 (1588)",
+        "b": "Karacadağ (Ahar) hâkimi Şâhverdi Han'ın Cafer Paşa'ya itaati — Merend'in Osmanlı idaresine girmesi",
+        "yer_id": "Ahar (Karadağ)",
+        "kirilmalar": "Ahar v.f · Merend d.f",
+        "kaynak": "Eskandar Beg Monshi, tr. Savory II s.582-583 · Kütükoğlu 1962 s.168 · Petrushevsky 1949 s.168-169",
+        "not": "gün komşudan: Gence (TDV murad-iii [114]); metinde 'kaynak yalnız yıl veriyor' açıkça yazılır. Aynı gün 'Karabağ ve Gence'nin ilhakı' maddesiyle ①② olur. BİRLEŞİK M7 isteği bu madde ile kapanır. D104: alıntılar OLCUM-AHAR-SARAB-MIYANE-0913 ve OLCUM-FERHATPASA-SEHIR-MATRISI-0913 raporlarından, bu oturumda yeniden okunmadı."
+      }
+    },
+    {
+      "no": "E6",
+      "istek": "Gence ve Karabağ haritada Hünernâme maddesinde değil kendi maddesinde",
+      "kok_sebep": "Gence/Berde d.f 1588-01-01 = Hünernâme II (olaylar_ek14.js 1588-01-01) günü.",
+      "uygula": "BİRLEŞİK G-GENCE-BERDE d.f 1588-09-01 (TDV murad-iii [114] · safeviler [210] '1 Eylül 1588'). Madde olaylar_ek5.js 1588-09-01 'Karabağ ve Gence'nin ilhakı' VAR; o günde başka kırılma 0."
+    },
+    {
+      "no": "E7",
+      "istek": "Kasr-ı Şirin · Kirmanşah · Nihâvend · Luristan'ın alınışı için ayrı madde + harita",
+      "oneri_madde_1": {
+        "t": "1589-01-01",
+        "gun": "996 sonu – 997 (1588 sonu – 1589)",
+        "b": "Cığalazâde Sinan Paşa'nın Nihâvend kalesini kurması ve Luristan hâkimi Şâhverdi'nin itaati",
+        "yer_id": "Nihâvend",
+        "kirilmalar": "Nihâvend d.f · Luristan v.f (BİRLEŞİK G-NIHAVEND/G-LURISTAN 1589-01-01) · Kirmanşah d.f 1590-03-21→1589-01-01 (örtülü: batısı Derteng/Kerind 994/1586 Osmanlı sancağı — Kütükoğlu s.164, 180-181; doğusu Bîsütûn kalesi 996/1588 — Kütükoğlu s.183)",
+        "kaynak": "TDV nihavend--iran (İ. Sarıçam) · Kütükoğlu 1962 s.182 dn.124 (hil'at 10 Rebîülevvel 997), s.183 (Eyvân itaati, Bîsütûn 'Şehr-i nev', Sa'd Vakkas) · Iranica NEHĀVAND '998/1589' (ayrışma)",
+        "olcum": "1589-01-01'de girdide 1 yabancı kırılma (Hiroşima s.f) + 4 kuyruk maddesi — D147 DELTA ile ölçülecek; BİRLEŞİK M1 isteği bu madde ile kapanır.",
+        "uyari": "D104: Kütükoğlu ve Monshi alıntıları raporlardan (OLCUM-NIHAVEND-BAGLANTI-0913 · OLCUM-KIRMANSAH-0913), bu oturumda yeniden OKUNMADI."
+      },
+      "oneri_madde_2": {
+        "t": "1534-12-04",
+        "b": "Derteng (Hulvân) ve Kasr-ı Şîrîn beylerinin Osmanlı'ya bağlanması",
+        "kirilma": "BİRLEŞİK G-KASRISIRIN d.f 1534-12-04 (bugün Kasr-ı Şîrîn 1590'da bile Safevî görünüyor)",
+        "kaynak": "Şerefnâme (Charmoy II/1 s.180-181): Derteng beyi Ömer Bey Kanûnî Bağdat'ı alınca itaat etti · TDV bagdat [758-760] 1578-1588 sancak listelerinde Kasrışîrin · Kütükoğlu s.164 (994/1586 Derteng-Derne sancakları)",
+        "gun": "şartlı komşu günü: Bağdat'ın fethi 1534-12-04 (olaylar.js, TDV) — aynı süreç, ~160 km; kayda 'gün komşudan: Bağdat' yazılır",
+        "uyari": "Kasr-ı Şîrîn'in 1534-1586 arası kesintisiz Osmanlı olduğu kaynakta AÇIK DEĞİL (Şerefnâme itaat, TDV 1578-88 liste); bitiş 1623-11-28 BİRLEŞİK'te yeniden kaynaklanacak."
+      },
+      "luristan_isyan": "olaylar_p0048.js 1592 isyan + 1603 kayıp maddeleri ZATEN YAZILI — index.html'e bağlı olup olmadığı ölçülecek (D099)."
+    },
+    {
+      "no": "E8",
+      "istek": "Burûcird ve Hemedan Safevî'de kalacak",
+      "uygula": "BİRLEŞİK G-HEMEDAN + G-BURUCIRD (1590-1603 d: SİL). Çizgi köşe 9-11 zaten bu hükümle."
+    }
+  ],
+  "arayuz_bu_oturumda": {
+    "sari_cizgi": "js/app.js antlasma-fark-cizgi #ffd700 kesikli → #3a0510 düz (madde/antlaşma farkı kutusu). Veri değil.",
+    "halka": "js/app.js — ferhad-pasa-istanbul-1590 C noktaları artık ⑧'den bağımsız HEP gizli; ⑧ halka katmanı aynı biçimde (dolu koyu daire + ince siyah kenar, yarıçap 6) çiziyor. Veri değil."
+  },
+  "uygulama_sirasi": [
+    "0 · koşu 11 zinciri 'ZINCIR BITTI' + push doğrulanır (kosu11_zincir.out)",
+    "1 · denetle.py TABAN (önce)",
+    "2 · KOSU10-SONRASI §1 sırası: KITA29 (G-MAKU · G-SERUR · G-GENCE-BERDE · {G-REVAN, G-ECMIYADZIN, G-GUMRU})",
+    "3 · BİRLEŞİK güney/batı: {G-LURISTAN, G-NIHAVEND, madde E7-1} · {G-MERIVAN, G-BANE, G-MAHABAD, G-SAKKIZ, G-SERDEST} · G-HEMEDAN · G-BURUCIRD · G-KASRISIRIN + madde E7-2 · {G-SARAB, G-MIYANE} · G-SELMAS · G-TIFLIS · G-BICAR · G-KIRMANSAH kaynak",
+    "4 · Emre kararları gelince: E3 (Nahçıvan kümesi günü + ek8 maddesi) · E4 Mâku · E5 Ahar · E5 Merend",
+    "5 · denetle.py DELTA (2 · 2s · 2t · D147) + renk_olc.py (§9)",
+    "6 · koşu 12 (tahtaya 'KOŞUYU BEN BAŞLATIYORUM', 60 sn bekle)"
+  ]
+}
