@@ -256,6 +256,13 @@
    "uzunluk_km": 27.1,
    "kesinlik_km": 2.0,
    "kiyas_atlas": null
+  },
+  {
+   "id": "d1913-osm-bg-dogu",
+   "kategori": "D",
+   "uzunluk_km": 160.0,
+   "kesinlik_km": 3.0,
+   "kiyas_atlas": null
   }
  ],
  "cipalar": {

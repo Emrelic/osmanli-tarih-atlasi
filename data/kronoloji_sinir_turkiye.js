@@ -14,6 +14,12 @@
 
 window.KRONOLOJI_SINIR_TURKIYE = [
 
+{ t:"1913-09-29", devlet:"osmanli", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1913-osm-bg-dogu",
+  b:"İstanbul Antlaşması — Osmanlı-Bulgar sınırının tarifi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"İstanbul",
+  etiket:["antlasma","sinir","konu-siyasi"],
+  d:"II. Balkan Savaşı'nı Osmanlı-Bulgar cephesinde bitiren antlaşmanın 1. maddesi iki devlet arasındaki sınırı tarif etti ve Edirne Osmanlı'da kaldı. Rezve'den Tunca'ya kadarki kesim bugünkü Türkiye-Bulgaristan sınırıyla aynıdır; Tunca batısındaki kesim 1915'te değiştirildi.",
+  kaynak:"IBS No. 49 Bulgaria–Turkey (1965) s.9-10: 'signed at Constantinople, September 16/29, 1913' · 'it exactly follows the former Turco-Bulgarian frontier'" },
+
 { t:"1913-11-17", devlet:"osmanli", taraflar:["osmanli","kacar"], hat:"d1913-osm-ir-1",
   b:"İstanbul Protokolü — Türk-İran sınırının tahdidi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["antlasma","sinir","konu-siyasi"],

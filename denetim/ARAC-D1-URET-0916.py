@@ -296,6 +296,35 @@ ekle("d1913-osm-ir", "osmanli", "kacar", "1913-11-17", "1920-04-23", "D", kirp(i
      2.0, KES_NE, NE, "G1: 1920-04-23'te taraf TBMM'ye geçer (kimlik geçişi — SINIR DEĞİŞİMİ DEĞİL). "
      "1914-1918 Rus ve Osmanlı işgalleri G2'nin işi", sinif="E")
 
+# ════════════════ GERİYE SARMA G2 (1918-11-11 → 1914-07-28) ════════════════
+# IBS 49 s.9-10: bugünkü hat, 1913 İstanbul Antlaşması hattını "exactly follows" — Tunca'yı
+# Radovets'in GÜNEYİNDE kestiği noktaya kadar. O noktadan Meriç'e kadarki kesim 1915 Sofya
+# Sözleşmesi'nin (baba 279-320). ⇒ 1913-09-29 → 1915-09-06 arası YALNIZ doğu kesim E yazılabilir.
+# YAZILMAYANLAR (koordinat yok): 1913 hattının Tunca batısı · 1915-1919 aşağı Meriç kesimi (IBS 49
+# yalnız "about one mile east of the Maritsa" diyor — Edirne'yi keserdi, ayrıntı BİLİNMİYOR) ·
+# Brest-Litovsk (3.3.1918, TDV kars) ve Batum (4.6.1918) hatları · 1914-1918 Kafkas, İran, Irak,
+# Suriye cepheleri · Mondros sonrası tahliye hatları.
+radovets = gn("BG", "Radovets")
+_bg = max(hat("BGR"), key=lambda g: g.length)
+_bg = _bg if _bg.geom_type == "LineString" else max(_bg.geoms, key=lambda g: g.length)
+_kes = _bg.project(Point(radovets[1], radovets[0]))
+_uclar = [Point(_bg.coords[0]), Point(_bg.coords[-1])]
+if _uclar[0].x > _uclar[1].x:            # Rezve (Karadeniz) ucu doğudadır
+    _dogu1913 = substring(_bg, 0, _kes)
+else:
+    _dogu1913 = substring(_bg, _kes, _bg.length)
+ekle("d1913-osm-bg-dogu", "osmanli", "bulgaristan-kralligi", "1913-09-29", "1915-09-06", "D", [_dogu1913],
+     [{"ad": "Bulgar-Osmanlı Barış Antlaşması (İstanbul)", "madde": "md. I", "tarih": "1913-09-29", "tur": "antlaşma",
+       "kaynak": "IBS 49 s.10: 'signed at Constantinople, September 16/29, 1913. Article I, defines the … frontier'"},
+      {"ad": "IBS No. 49 Bulgaria–Turkey (1965)", "sayfa": "s.9-10", "tur": "resmî sınır çalışması", "url": IBS % 49,
+       "alinti": "it exactly follows the former Turco-Bulgarian frontier"}],
+     {"deger": False, "kaynak": "IBS 49 s.9-10", "not": "bu doğu kesim 1913'ten bugüne AYNI; batı ucu 1915'te değişti"},
+     {"t": "1921", "not": "Neuilly komisyonu işaretledi; 1913-1921 arası hat metinle belirliydi"},
+     3.0, KES_NE + " · kesim noktası: GeoNames Radovets'in (" + f"{radovets[0]:.3f}/{radovets[1]:.3f}" +
+     ") bugünkü hat üzerindeki izdüşümü — IBS 'Tunca'yı Radovets'in güneyinde kestiği yer' diyor, ±5 km",
+     NE, "G2: 1913 hattının DOĞU kesimi. Tunca batısındaki 1913 kesimi koordinatsız ⇒ YAZILMADI (A/B)",
+     sinif="E")
+
 # ---------------- SINIF (GORUNUM-ABCD-0916 en üst bölüm) ----------------
 # D→E (F kanıtı gelene kadar: denetim/TANINMA-1923-0916.json YOK, 16 Eylül'de ölçüldü) · fiili→D ya da YOK ·
 # C→C · D-YOK→YOK.  Irak fiilî hattı KESİN DEĞİL (bugünkü çizgi statükonun VEKİLİ) ⇒ YOK.
