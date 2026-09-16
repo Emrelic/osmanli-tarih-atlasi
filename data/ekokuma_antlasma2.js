@@ -469,7 +469,7 @@ window.EKOKUMA_ANTLASMA2 = [
   bag:"Üç hikâye de aynı işlevi görür: ağır bir yenilgiyi bireysel bir gaflete ya da düşmanın sembolik bir hesabına bağlamak. TDV'nin karşı çıkışı ise arşiv belgelerine ve çağdaş Osmanlı kaynaklarına (Enverî, Vâsıf, Ahmed Resmî) dayanır.",
   not:"Antlaşmanın günü de kaynaklarda farklı yazılır: arşiv suretleri görüşmelerin başladığı 16 Temmuz'u, bazı birincil kaynaklar 17 Temmuz'u, Rus tarafı ise metinlerin teati edildiği 26 Temmuz'u esas alır. İmza 21 Temmuz 1774'tür.",
   kesinlik:"tartismali",
-  olay:["1774-07-21|Kaynarca","1711-07-21|Prut"],
+  olay:["1774-07-21|Kaynarca"],
   kaynak:"TDV: kucuk-kaynarca-antlasmasi" },
 
 // ── 1878 BERLİN — önem / sebep-sonuç (hüküm kartı: data/ekokuma.js) ─────────
