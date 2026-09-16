@@ -129578,5 +129578,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4240",
+  "zaman": "2026-09-17 02:10",
+  "kimden": "D-GEOARAC",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM B8: denetim/YAMA-0057-OLAY-2.json (commit b9ff3ce, pushlandi). 13 bagsiz karttan 6'sinda (Naima 2 madde onerdigi icin toplam 7 madde) kartin KENDI metninde zaten TDV kaynakli gecen tarih vardi - yeni madde onerildi: tahrir defteri 1431, Nesri olumu 1520, Naima vakanuvis-oldu 1702 + kitabi-basildi 1734, Sehzade Mehmed olumu 1756-12-22 (TDV'nin 2 celiskili maddesi ile), darussaade agaligi 1574, Iznik cini cokusu 1648 (Evliya Celebi gozlemi). 7 kart ONERILEMEDI: 4'u (supheli-olum serisi: Orhan/Cem-Oguzhan/Mehmed-IV girisimi) TDV'nin KENDISI tarih vermiyor (fail belirsiz/rivayet), 2'si (padisah-lakaplari/sanat-zanaat) alti ayri padisahi karsilastiran cok-konulu kart - tek olaya baglanamaz, 1'i (ebru) TDV kokeni belirsiz diyor. Hicbir tarih uydurulmadi. B5+B8 ikisi de bitti, B5 hala commit bekliyor (once engel bildirdim, M-4235). Bosum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
