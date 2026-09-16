@@ -300,10 +300,12 @@ yok("d1923-ih-tb-BILINMIYOR-sikkim", IH, TB, "1890-08-27", bbox([hk_orta], 0.05)
      {"ad": "Lhasa Sözleşmesi", "madde": "md. I", "tarih": "1904-01-01", "tur": "sözleşme", "not": "yalnız YIL okundu; Tibet hattı tanıdı; direk dikme yükümlülüğü — dikildiği BULUNAMADI"}],
     "Envanter §3.6 · 1923'te sınıf C. Taraf SİKKİM (İngiliz himayesi, 1890 md. II) — künyesi YOK, `ingiliz-hindistani` vekil (D-KUNYE'ye soruldu). "
     "f: 1890 sözleşmesinin onay günü")
-yok("d1923-ih-tb-FIILI-batihimalaya", IH, TB, "0001-01-01", bbox(parcala([hk_bati], lambda c: not LADAKH(c)), 0.10),
+yok("d1923-ih-tb-FIILI-batihimalaya", IH, TB, "1816-03-04", bbox(parcala([hk_bati], lambda c: not LADAKH(c)), 0.10),
     {"deger": None, "kaynak": "bulunamadı"},
-    [{"ad": "antlaşma bulunamadı", "tur": "yok"}],
-    "Envanter §3.6 · Spiti/Kinnaur/Kumaon–Tibet · sınıf FİİLİ. 32,5°K güneyi — ayrım TAHMİNİ. hukukî başlangıç YOK — f taraf künyelerinin ortak başlangıcı")
+    [{"ad": "Tibet ile sınır antlaşması bulunamadı", "tur": "yok"},
+     {"ad": "Sugauli (Segowlee) Antlaşması", "madde": "md. 5", "tarih": "1815-12-02", "tur": "antlaşma",
+      "kaynak": "Aitchison c. II (1909), Nepal No. XXV", "alinti": "all claim to or connexion with the countries lying to the west"}],
+    "Envanter §3.6 · Spiti/Kinnaur/Kumaon–Tibet · sınıf FİİLİ. 32,5°K güneyi — ayrım TAHMİNİ. f: Sugauli'nin yürürlüğü (Nepal md. 5 ile Kali'nin batısından vazgeçti; Kumaon'un İngiliz idaresine geçişi). Spiti'nin 1846 geçişi ARAŞTIRILMADI — o kesim 1846'ya kadar bu kayda ait değil")
 yok("d1923-ck-cn-FIILI-aksaicin", CK, CN, "1842-09-17", bbox(parcala([hk_bati], LADAKH) + cizgi("CHN-KAS"), 0.10),
     {"deger": None, "kaynak": "IBS 85"},
     [{"ad": "Ladakh–Tibet mektubu", "tarih": "1842-09-17", "tur": "mektup", "alinti": "ancient boundaries"},

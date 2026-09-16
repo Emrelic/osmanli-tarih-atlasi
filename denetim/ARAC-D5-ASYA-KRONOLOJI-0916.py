@@ -26,11 +26,18 @@ SH, NP, AIT2 = "sih-imparatorlugu", "nepal", "Aitchison, Treaties, Engagements a
 
 # (t, taraflar, b, tur, onem, dunya, sinif, d, kaynak, sinir_kaydi, yer_id)
 M = [
+# ---------------- G6 (1774-07-21 → 1699-01-26) ----------------
+("1727-10-12", [QG, RU], "Bur Antlaşması ve protokolleri — Moğolistan'ın kuzeyinde Rus–Çin sınırı çizildi", "antlasma", 5, 4, "YOK",
+ "20 Ağustos 1727'de Bur ırmağı kıyısında imzalanan antlaşma ve ardından değişilen protokoller, Rus–Çin sınırını Argun'dan batıya, Moğolistan'ın kuzeyinden Kara İrtiş vadisine kadar tanımladı. 12 Ekim 1727 Abagatuy protokolü Kiahta'nın doğusunda 63 işaret, 27 Ekim 1727 Bur protokolü batısında 24 nokta belirledi. IBS'e göre bu anlaşmalarla Rusya Moğolistan'ın kuzeyinde yaklaşık 100.000 km² toprak kazandı. Kiahta Antlaşması'nın imza günü kaynaklarda tartışmalıdır (21, 24 ya da 27 Ekim 1727).",
+ IBS % (64, "China–U.S.S.R. (rev. 1978)"), "g3-sscb-mn-BILINMIYOR-rusya-qing", ""),
 # ---------------- G5 (1815-06-09 → 1774-07-21) ----------------
 ("1792-01-01", [NP, TB], "Çin–Nepal antlaşması — Himalaya sınırı belirsiz bırakıldı", "antlasma", 3, 2, "YOK",
  "1792'de (gün kaynakta yok; tarih alanı yalnız yılı taşır) Çin ile Nepal arasında yapılan antlaşma, IBS'e göre Himalaya'nın güneyindeki bazı toprakları Tibet'e bırakıyor görünür; ama kesin hükümleri belirsizdir. Nepal–Tibet sınırı bu antlaşmadan sonra da ancak fiilî bir çizgi olarak kaldı.",
  IBS % (50, "China–Nepal"), "g5-np-tb-FIILI-1792", ""),
 # ---------------- G4 (1878-07-13 → 1815-06-09) ----------------
+("1816-03-04", [IH, TB], "Sugauli ile Kali'nin batısı İngiliz idaresine geçti — Kumaon'un Tibet sınırı İngiliz sınırı oldu", "antlasma", 3, 2, "YOK",
+ "Sugauli Antlaşması'nın 5. maddesiyle Nepal Raca'sı, Kali ırmağının batısındaki ülkelerle her türlü bağından vazgeçti. Böylece bu ülkelerin Tibet'e bakan yüzü İngiliz Hindistanı'nın sınırına dönüştü. Bu kesimde Tibet ile bir sınır antlaşması bulunamadı; hat 1923'te de yalnız fiilîydi.",
+ AIT2, "d1923-ih-tb-FIILI-batihimalaya", ""),
 ("1816-03-04", [IH, NP], "Sugauli Antlaşması yürürlükte — Nepal ovalarını İngilizlere bıraktı", "antlasma", 5, 3, "YOK",
  "2 Aralık 1815'te Segowlee'de (Sugauli) imzalanan antlaşmanın onaylı nüshası 4 Mart 1816'da Nepal temsilcisine teslim edildi. 3. madde Kali–Rapti, Rapti–Gandak, Gandak–Kosi ve Mechi–Teesta arasındaki ovaları ve Mechi'nin doğusundaki tepeleri Şirket'e bıraktı. 8 Aralık 1816 muhtırasıyla Gandak–Rapti Terai'si Nepal'e geri verildi ve sınırın ortak komiserlerce belirlenmesi kararlaştırıldı.",
  AIT2, "g4-ih-np-BILINMIYOR-1816", ""),
@@ -187,7 +194,7 @@ M = [
 ]
 
 BAS = """// =====================================================================
-// SINIR KRONOLOJİSİ — ASYA (D5-ASYA) · geriye sarma G1–G5 (1923-10-29 → 1774-07-21)
+// SINIR KRONOLOJİSİ — ASYA (D5-ASYA) · geriye sarma G1–G6 (1923-10-29 → 1699-01-26)
 // =====================================================================
 // 🔴 ÜRETİLMİŞ DOSYA — elle düzenleme; üretici denetim/ARAC-D5-ASYA-KRONOLOJI-0916.py
 // window.KRONOLOJI_SINIR_ASYA — şartname oturumlar/GERIYE-SARMA-0916.md ADIM 3.
