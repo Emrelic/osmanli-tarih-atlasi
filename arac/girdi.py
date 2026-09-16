@@ -81,7 +81,7 @@ def anlik_goruntu():
 
     def _ozet(kok):
         iz = {}
-        for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI]:
+        for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI, GECIT_DOSYASI]:
             y = os.path.join(kok, ad)
             if os.path.exists(y):
                 iz[ad] = hashlib.sha256(io.open(y, "rb").read()).hexdigest()
@@ -91,7 +91,7 @@ def anlik_goruntu():
     hedef = tempfile.mkdtemp(prefix="petek_girdi_")
     for deneme in range(1, 6):
         once = _ozet(kaynak)
-        for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI]:
+        for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI, GECIT_DOSYASI]:
             y = os.path.join(kaynak, ad)
             if os.path.exists(y):
                 shutil.copy2(y, os.path.join(hedef, ad))
@@ -1344,6 +1344,17 @@ def kd_gun(y, gun):
 # aynısını üretir. Zamana bağlı göl gerekirse önce motorda epok desteği
 # (petek_epok deseni) kurulmalı.
 GOL_DOSYASI = "goller.js"
+# 🆕 GEÇİTLER (UYGULA, 16 Eylül 2026 · MOTOR'un M-3994 notu üzerine) —
+# uret_petek.py (3581661) koşu başında `data/gecitler.js`i okuyor, ama bu
+# dosya anlık görüntüye ve parmak izine GİRMİYORDU: koşu sırasında bir
+# düzenleme çıktıya girer ya da girmez, iz ikisini AYIRT EDEMEZDİ.
+# ⚠️ `yukle()` bu dosyaya DOKUNMAZ (YERLESIMLER değişkeni yok) — yalnız
+#    anlık görüntü ve parmak izi kapsar.
+# ⚠️ Kopyanın İŞE YARAMASI için motorun dosyayı `girdi.DATA`dan okuması
+#    gerekir; bugün `KOK/data`dan okuyor (MOTOR'a bildirildi).
+# ⚠️ İz KÜMESİ değişti: bu satırdan önce alınmış bir koşu izi, yayın
+#    kapısında "girdi DOSYA KÜMESİ değişmiş: gecitler.js" der (denetle_yayin).
+GECIT_DOSYASI = "gecitler.js"
 UFUK = ("1281-01-01", "1923-10-29")
 
 
@@ -1389,7 +1400,7 @@ def parmak_izi():
     """Okunan data/ girdilerinin sha256'ları — {dosya: özet}."""
     import hashlib
     iz = {}
-    for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI]:
+    for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI, GECIT_DOSYASI]:
         yol = os.path.join(DATA, ad)
         if os.path.exists(yol):
             iz[ad] = hashlib.sha256(io.open(yol, "rb").read()).hexdigest()
