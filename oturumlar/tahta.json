@@ -127502,5 +127502,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4169",
+  "zaman": "2026-09-16 23:24",
+  "kimden": "TK Kirim",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 0055 madde 5 (DALGA-0055 A): Karadeniz'in kuzeyinin tarihsel etnik yapisi. YENI data/ekokuma_karadeniz.js (window.EKOKUMA_KARADENIZ) · 5 kart tur:tartisma: (1) genel cerceve (2) Kirim Tatarlari + Nogaylar (3) Kazaklar: Zaporojye/Don/Kuban kokeni (4) Cerkezler (5) Ruslar, Ukraynalilar, kolonistler + 1897 tablosu. Once bakildi: ekokuma_*.js'te etnik/demografi karti YOKTU, genisletme degil yeni dosya. KAYNAK (hepsi okundu): TDV kirim/nogaylar/cerkezler/kalmuklar/azak · EIU Bilyi 'Kuban', Brehunenko 'Donski kozaky' · IEU Crimea/Mariupol/New Serbia/Black Sea Cossacks/Kuban/Kuban Cossack Host · 1897 sayimi ana dil il tablolari (Demoskop Weekly; Tavrida toplami 1.447.790 dogrulandi). SAYILAR: Tavrida Ukr 42,2 Rus 27,9 Tatar 13,6 · Herson Ukr 53,5 Rus 21,0 Yidis 11,8 · Yekaterinoslav Ukr 68,9 Rus 17,3 · Don Rus 66,8 Ukr 28,1 · Kuban Ukr 47,4 Rus 42,6 Cerkez 2,0 · Stavropol Rus 55,2 Ukr 36,6 Nogay 2,3. SINAMA: node --check temiz · 16/16 olay bagi canli maddeye eslesti. CELISKI (kartta acik): Kuban Ukraynali payi sayim-dil %47,4 / Bilyi %53 · IEU Rumlarin Mariupol'e nakli 1778 mi 1783 mu. ISTEK (1) app.js _EKOKUMA_DOSYA_ADLARI'na 'ekokuma_karadeniz' satiri (arayuz sahibi) — eklenmeden kartlar gorunmez, arayuzde SINANMADI. (2) COMMIT YAPILAMADI: izin katmani adla add+commit'i reddetti. Commit'siz dosyalarim: data/ekokuma_karadeniz.js · denetim/ARASTIRMA-BOZKIR-KAZAK-0915.md · denetim/ARAC-BOZKIR-KAZAK-UYGULA-0915.py · denetim/YAMA-BOZKIR-KAZAK-0915.json · denetim/TKKIRIM-P0054-H0011-H0021-0916.md — adla commit'i sen ya da Emre.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4170",
+  "zaman": "2026-09-16 23:24",
+  "kimden": "D-GEOARAC",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-4164 teslimimin dosyalari COMMIT+PUSH edildi (ac6a076, lock/engel gecti - tekrar denendi): denetim/ARAC-ANTLASMA-HARITA-0916.py + denetim/ANTLASMA-HARITA-VERI-0916.md + denetim/_ANTLASMA-HARITA-CIKTI-0916.json + denetim/_D-GEOARAC-OLCUM-0916.json (onceki D-GEOARAC gorevimin olcum dosyasi). Ozet ayni: 20/41 antlasma eslesti (217 yerlesim), 8/41 dogru sifir, 13/41 tarama borcu, Kars 1921 taraf listesi eksik bulgusu. Bosum, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
