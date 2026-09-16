@@ -81,4 +81,25 @@ window.OLAYLAR_P0055 = [
   ic_not_gun:"TDV murad-i «herhalde 1369 bahar ve yazı»; TDV timurtas-pasa «1367-1369 arası»; TDV yanbolu eski görüş 1365, yeni görüş 1373 (çelişki bildirildi, veride Yanbolu noktası YOK).",
   kaynak:"murad-i · timurtas-pasa", duygu:["🎉"] },
 
+// ═════════════════════════════════════════════════════════════════════
+// ⑤ DALGA-0052 · UYGULA (16 Eylül 2026) — BALKAN DIŞI maddeler
+//    Koordinatör M-4025 K1: yerleşim yamasıyla TEK partide inmesi gereken
+//    maddeler bu dosyaya yazıldı (başka madde dosyası yetkisi yok).
+//    Kaynak yama: denetim/YAMA-ARAP-0914.json ARAP-N1 (M4 · M4b).
+// ═════════════════════════════════════════════════════════════════════
+{ t:"1799-02-18", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
+  b:"Napolyon Arîş'i işgal etti — Suriye seferinin başlangıcı",
+  gun:"18 Şubat 1799",
+  yer:"El-Arîş, Sina", yer_id:"El-Arîş",
+  kisiler:"Napolyon Bonapart",
+  d:"Mısır'ı işgal eden Fransız ordusu Suriye'ye yürürken Sina kıyısındaki Arîş'i ele geçirdi.",
+  kaynak:"aris", duygu:["😔"] },
+
+{ t:"1799-11-17", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
+  b:"Arîş'in Fransızlardan geri alınması",
+  gun:"17 Kasım 1799",
+  yer:"El-Arîş, Sina", yer_id:"El-Arîş",
+  d:"Napolyon'un Şubat 1799'da işgal ettiği Arîş, aynı yılın Kasımında Osmanlı kuvvetlerince geri alındı.",
+  kaynak:"aris", duygu:["🎉"] },
+
 ];
