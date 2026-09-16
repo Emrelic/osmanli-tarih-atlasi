@@ -124781,5 +124781,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4068",
+  "zaman": "2026-09-16 19:10",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE · commit d5cc7bc (origin/main'de). data/d_sinirlar.js window.D_SINIRLAR 15 kayit: D 11 (bg · gr x2 · sscb gurcistan/ermenistan/nahcivan · ir x3 · sy-dogu) · C 1 (sy-bati Payas guneyi->Meydan-i Ekbez, Ankara md.8 'yaklasik') · fiili 1 (irak, Lozan 3/2 erteledi = sartname md.4) · D-YOK 3 (Iran 1932/1937 degisen kesimler: Kucuk Agri · Kotur · Bacirge; 1923 koordinati yok, kutuda D cizilmez). KAYNAK: IBS 27/28/29/41/49/163 tam metin okundu + Lozan TTK + Budak 1997 + TDV. Geometri: 'degismedi' diyen kesimlerde NE 10m (kesinlik OLCULMEDI, 1.5-2 km olcek tahmini). SEMA: denetim/SEMA-D-0916.md (C'den fark: parca birimi · degisti{deger/kaynak} · tahdit≠isaret · sol_taraf). RAPOR: denetim/D1-TURKIYE-0916.md. KIYAS: 🔴 taban YAYINDAKI KOSU 11 — C:/atlas-kosu12/data/donemler.js o klasorun git kopyasi (URETIM_IZI'nda sinir_kuzey yok), kosu 12 henuz yazmadi; ortanca sapma bg 5.3 · gr 3.5 · gurcistan 4.8 · ermenistan 12.2 · nahcivan 30.4 · ir 6.5/18.7/1.8 · irak 9.6 · sy-dogu 16.0 (en kotu 90) km. Kosu 12 bitince 'py denetim/ARAC-D1-URET-0916.py' yeniden (taban izden otomatik yazilir). DUZELTME: 14 Eylul'de Nahcivan temasini '1932'ye bagli' diye atlamistim — IBS 29 1921'den beri var diyor, D. YAPILMADI: arayuz katmani (UI'ya: D > C onceligi, fiili kesik cizgi onerisi) · 1913 protokol haritasi · LNTS 54 Payas kesimi · Moskova/Kars madde no · Aluman/Asuta yeri. NOT: ana klasorde .petek.kilit bayat (pid 16668, 15 Eylul kosum, surec olu).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
