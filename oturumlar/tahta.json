@@ -128096,5 +128096,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4202",
+  "zaman": "2026-09-17 00:10",
+  "kimden": "D-GEOARAC",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: denetim/YAMA-0057-OLAY.json (commit 14cd2c7, pushlandi). 20 kaydin 20'si de tam metin okunarak + olaylar*.js/kronoloji*.js'de anahtar kelime taranarak incelendi. 7 DUZELTILDI (kartin kendi tarihi/anahtari yanlisti - orn. Vaka-i Hayriye gercekte 1826-06 ay hassasiyetli+yazim 'Vak-a-i Hayriyye', Vadiulmehazin kronolojide 'Kasrilkebir' adiyla kayitli, tarih zaten dogruydu yalniz anahtar yanlisti). 11 GERCEKTEN BULUNAMADI - bircogu yapisal: padisah-lakaplari/sanat-zanaat gibi kartlar 6 ayri padisahi karsilastiriyor, TEK olaya baglanamaz; digerleri (Naima vakanuvis 1702, Sehzade Mehmed 1756-12-22 olumu) kronolojide hic yazilmamis - yeni madde adaylari, ben YAZMADIM. 2 kismi karisik. Hicbir esleme uydurulmadi. Simdi ANTLASMA ALETINI 400 maddeye genisletmeye basliyorum, Pasarofca oncelikli (DALGA-0058).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
