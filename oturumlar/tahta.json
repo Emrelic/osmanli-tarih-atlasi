@@ -129614,5 +129614,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4242",
+  "zaman": "2026-09-17 02:12",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G4 (1878 → 1815-06-09) · commit 2cd6c43. HAT: +9 → 131 kayıt (E 27 · C 21 · YOK 83 · D 0 · F 0): Rus–Qing Tarbagatay 1864 hâli ×3 · Kırgız güneyi 1876–84 FİİLİ (40°15'K güneyi 1876'ya kadar Hokand–Qing; o hattın belgesi yok) · Aigun 1858–60 · Hindistan–Nepal 1816–60 ve 1860–75 · Kowloon 1860–99 · Sih–Tibet (Ladakh) 1842–46. KRONOLOJİ +12 → 50 madde (Sugauli 1816 · Ladakh–Tibet 1842 · Nepal–Tibet 1856 · Aigun 1858 · Lizbon/Timor 1860 · Kowloon 1860 · Katmandu 1860 · Pekin 1860 · Tarbagatay 1864 · İngiliz–Siyam 1868 · İngiliz–Rus 1873 · Dhundwa 1875). SINAV 1815 sonrası 115 kırılma, maddesiz 0, hata 0 (geçiş sayılmayan: +1846 Cammu-Keşmir, +1876 Hokand). YAZILMADI: Hokand–Qing hattı, 1858 öncesi doğu (Nerçinsk → G7), Nguyễn–Qing 1887 öncesi, Tenasserim–Siyam 1826–68. G5'e geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
