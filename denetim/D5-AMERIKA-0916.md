@@ -216,4 +216,11 @@ degisti    true 34 · false 24 · null 10
 
 **ADIM 2 G1 (1918-11-11 → 1923-10-29): yeni hat kaydı 0.** Bu pencerede Amerika'da hiçbir E/F/D hattı değişmedi. Yalnız iki belge var ve ikisi de C düzeyinde: Thomson–Urrutia onayı (1 Mar 1922) ve İsviçre Federal Konseyi kararı (24 Mar 1922). Her kaydın `f`'i hattın gerçek başlangıcıdır: kaynak günü ile iki tarafın künye `f`'inden BÜYÜĞÜ. Künye günü devralınan kayıtlar not alanında belirtildi.
 **ADIM 3: kronoloji maddesi 0**, bu yüzden `data/kronoloji_sinir_amerika.js` yazılmadı. G1 penceresinde E/F/D değişikliği yok; şartname C değişikliğine madde istemiyor.
+**G2 (1914-07-28 → 1918-11-11): yeni hat kaydı 0 · kronoloji maddesi 1.**
+Kayıtların arasında bu pencerede başlayan tek E hattı `d1923-co-ec` (Muñoz Vernaza–Suárez; onaylar 26 Oca 1917'de değiş tokuş edildi, Ireland s.184). Öncesinde hukukî hat yok; kural gereği öncül kayıt yazılmadı, harita orada A/B'ye düşer. Pencereden madde almayanlar:
+- Kanal Bölgesi 1914 sözleşmesi (yürürlük 11 Şub 1915): hukuken E ama hattı çizilmedi, kayıt YOK.
+- Hollanda–Fransız Guyanası 1915 sözleşmesi: YOK kutusunun içinde.
+- 1914 White kararı (Kosta Rika–Panama): Panama reddetti, hat değişmedi.
+
+G1 maddeleri: G1'de madde **0**, bu yüzden dosya o turda yazılmamıştı (M-4111). `data/kronoloji_sinir_amerika.js` G2 ile birlikte yazıldı (1 madde) → `window.KRONOLOJI_SINIR_AMERIKA`.
 **Taslak künye:** 6 kimlik `devletler.js`te yok, `denetim/TASLAK-KUNYE-D-0916.json`dan alındı. 11 kayıt bu kimliklere bağlı (sayıldı).

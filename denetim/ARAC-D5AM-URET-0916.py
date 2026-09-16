@@ -677,6 +677,8 @@ BAS = """// -*- coding: utf-8 -*-
 // Taslak künyeler (devletler.js'te henüz yok): ingiliz-honduras · newfoundland-dominyonu · honduras-cumhuriyeti ·
 //   el-salvador-cumhuriyeti · nikaragua-cumhuriyeti · kosta-rika-cumhuriyeti
 // G1 (1918-11-11 → 1923-10-29): bu pencerede E/F/D hattı değişmedi ⇒ her kaydın f'i hattın gerçek başlangıcı.
+// G2 (1914-07-28 → 1918-11-11): tek E başlangıcı d1923-co-ec (1917-01-26); öncesinde hukukî hat yok ⇒ öncül kayıt
+//   YAZILMADI (A/B'ye düşer). Kronoloji: data/kronoloji_sinir_amerika.js
 
 window.D_SINIRLAR_AMERIKA = [
 """
