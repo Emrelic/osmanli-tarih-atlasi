@@ -126,7 +126,53 @@ verdi, dördüncü/normal örnek genel rengi korudu) — gerçek D-sınırı ver
 YOK (GERİYE-SARMA henüz 1923'ten geriye sarmadı), bu yüzden tarayıcıda gerçek bir kayıtla GÖRSEL olarak
 sınanamadı; fonksiyon mantığı doğrulandı, veri gelince otomatik devreye girecek.
 
-## 8. Bekleyen
+## 9. DALGA-0058 md.3b — Pasarofça 1718, şema `noktalar` ile genişletildi
+
+1.MURAT: "Karlofça'dan sonra ikinci antlaşma haritası Pasarofça 1718 olsun, üç taraflı etiketle:
+'Avusturya'ya bırakıldı' (Belgrad, Banat, Küçük Eflak, Kuzey Sırbistan), 'Osmanlı'ya kaldı' (Mora),
+'Venedik'e bırakıldı' (Dalmaçya/Arnavutluk kıyı kaleleri). Veriyi D-GEOARAC üretiyor... tahtadan onunla
+eşleş."
+
+**`data/hukuki_sinirlar.js`de Pasarofça için SIFIR kayıt var** (Karlofça'nın 4 kaydından farklı) —
+`sinir_id` yolu kullanılamadı. Şema bu yüzden yeni bir alan aldı: `bolgeler[].noktalar` — doğrudan
+`{ad, lat, lon, kaynak}` dizisi, `data/hukuki_sinirlar.js` aracılığı OLMADAN. `js/antlasma_harita.js`
+`_ahBolgeleriUret` bu iki yolu (mevcut `sinir_id` VE yeni `noktalar`) PARALEL destekliyor; Karlofça
+regresyon testinde AYNI sonucu verdi (5 nokta/3 etiket/0 dolgu — değişmedi).
+
+**D-GEOARAC'ın çıktısıyla karşılaştırma** (`denetim/_ANTLASMA-HARITA-CIKTI-0916.json`, otomatik
+yerleşim-fark aleti): Pasarofça için yalnız 2 eşleşme buldu — Çuha Adası VE Ayamavra, ikisi de
+`osmanli→venedik` yönünde. Çuha DOĞRU (kronoloji maddesi teyit ediyor). **Ayamavra ŞÜPHELİ/atlandı**:
+kronoloji maddeleri Ayamavra'nın 1699 Karlofça'da Venedik'e verildiğini, 1715'te Osmanlı'nın GERİ
+ALDIĞINI (data/olaylar_ek5.js:515) söylüyor ama Pasarofça'daki (1718) akıbetini hiçbir madde AÇIKÇA
+belirtmiyor — D-GEOARAC'ın algoritması muhtemelen ±60 gün penceresine rastlayan alakasız bir sahiplik
+kırılmasını yakalamış olabilir. **Ayamavra bu kayda EKLENMEDİ** (D107: bulunamadı, uydurulmadı); bulgu
+D-GEOARAC'a tahtadan bildirildi (bkz. §10).
+
+**Gerçek geometri, kronoloji maddesinden ve `data/yerlesimler*.js`nin bilinen koordinatlarından
+kuruldu** (D-GEOARAC'ın çıktısı DEĞİL — o yalnız 2 nokta buluyordu, asıl içerik başka yerden geldi):
+`data/olaylar_ek5.js:517` (kaynak: TDV `pasarofca-antlasmasi`) üç grubu da isimle veriyor: "Belgrad ile
+birlikte Kuzey Sırbistan, Banat ve Küçük Eflak Avusturya'ya terk edildi... Mora'yı Osmanlı'da bıraktı...
+Venedik ise İyon kıyısındaki Preveze ve Çuha gibi mevzilerini korudu." 8 nokta üretildi:
+```
+Avusturya'ya bırakılan   Belgrad · Semendire · Temeşvar(Banat, TEMSİLÎ) · Krayova(Küçük Eflak, TEMSİLÎ)
+Osmanlı'da kalan          Koron (Mora, TEMSİLÎ)
+Venedik'te kalan          Preveze · Çuha Adası · Vonitsa
+```
+⚠️ **"TEMSİLÎ nokta" damgası BİLEREK kondu** — Temeşvar/Krayova/Koron antlaşma metninin doğrudan andığı
+yerler DEĞİL, "Banat"/"Küçük Eflak"/"Mora" gibi BÖLGE adlarının bilinen idarî merkezleri/temsilcileri.
+Bu, Karlofça'daki `nokta_atamalari`den (antlaşmanın KENDİSİ o şehirleri adıyla anıyordu) epistemik
+olarak FARKLI bir güven seviyesi — kayıtta açıkça ayırt edildi, gizlenmedi.
+
+Tarayıcıda gerçek `obGoster`/`_ahBolgeleriUret` ile sınandı: 8 nokta + 3 etiket doğru üretildi, "Haritada
+gör" düğmesi doğru metinle belirdi, hata yok.
+
+## 10. Tahtadan D-GEOARAC'a bildirilen bulgu
+
+M-… (yatay mesaj): D-GEOARAC'ın Pasarofça eşleşmesindeki Ayamavra kaydının yön/tarih açısından şüpheli
+olduğu, kronoloji maddeleriyle doğrulanamadığı, bu yüzden antlaşma haritasına EKLENMEDİĞİ bildirildi —
+aletlerini gözden geçirmek isterlerse diye.
+
+## 11. Bekleyen
 
 - 🔴 UI'ya tahtadan: `index.html`ye `js/app.js`ten SONRA DÖRT satır —
   `<script src="data/antlasma_haritalari.js">` · `<script src="js/antlasma_harita.js">` ·
@@ -141,5 +187,8 @@ sınanamadı; fonksiyon mantığı doğrulandı, veri gelince otomatik devreye g
 - 🟡 "Boya/tara" — Emre "taranması" da dedi (hatch pattern). MapLibre'de hatch, bir sprite/pattern
   görseli gerektiriyor (bu pilotta YOK, yarı saydam fill ile yetinildi). Emre onaylarsa küçük bir
   çizgili PNG pattern eklenebilir — ayrı bir iş, bu pilotun kapsamı dışında bırakıldı.
+- 🟡 D-GEOARAC'a Ayamavra bulgusu bildirildi (§10) — aletlerini gözden geçirip geçirmediklerini
+  bekliyorum; ileride başka antlaşmalarda benzer yön/tarih şüphesi çıkarsa aynı disiplinle (kaynaksız
+  eşleşme EKLENMEZ) elenecek.
 - 🟢 Yeni antlaşma kayıtları (D-GEOARAC'tan) `ANTLASMA_HARITALARI`ye eklendikçe `js/antlasma_harita.js`
   DEĞİŞMEZ — tasarım zaten antlaşma sayısından bağımsız (§6).

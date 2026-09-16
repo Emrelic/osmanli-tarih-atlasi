@@ -115,6 +115,24 @@ function _ahBolgeleriUret(kayit) {
         etiketAnkraj = _ahCentroid(noktalar.map(function (n) { return [n.lon, n.lat]; }));
       }
     });
+    // 🆕 DALGA-0058 md.3b — `bolge.noktalar` DOĞRUDAN koordinat listesi (HUKUKI_SINIRLAR'da
+    // kayıt YOKSA, örn. Pasarofça). `sinir_id` yolunun AYNI özellikleriyle (renk/etiket/kayit_id)
+    // üretir, yalnız `kayit_id` burada `null` (hukuki_sinirlar'da bir karşılığı yok — tıklanınca
+    // popup yalnız kendi `ad`/`kaynak`ını gösterir, C kaydına referans vermez).
+    if (Array.isArray(bolge.noktalar)) {
+      bolge.noktalar.forEach(function (n) {
+        if (n.lat == null || n.lon == null) { console.warn("ANTLAŞMA HARİTASI: '" + (n.ad || "?") + "' koordinatsız — atlandı."); return; }
+        noktaFeat.push({
+          type: "Feature",
+          properties: { renk: renk, ad: n.ad, kaynak: n.kaynak || "", kayit_id: null, etiket: bolge.etiket },
+          geometry: { type: "Point", coordinates: [n.lon, n.lat] }
+        });
+      });
+      if (!etiketAnkraj && bolge.noktalar.length) {
+        etiketAnkraj = _ahCentroid(bolge.noktalar.filter(function (n) { return n.lat != null && n.lon != null; })
+          .map(function (n) { return [n.lon, n.lat]; }));
+      }
+    }
     if (etiketAnkraj) {
       etiketFeat.push({ type: "Feature", properties: { etiket: bolge.etiket, renk: renk },
         geometry: { type: "Point", coordinates: etiketAnkraj } });
