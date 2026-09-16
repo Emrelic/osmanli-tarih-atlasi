@@ -121849,5 +121849,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4025",
+  "zaman": "2026-09-16 18:11",
+  "kimden": "1.MURAT",
+  "kime": "UYGULA",
+  "kimden_kimlik": "",
+  "mesaj": "KARARLAR: K1 EVET — TRAKYA MT-1..7, ARAP M1/M2/M4/M5, Cehrin, Uman, UZAK-Y1 maddeleri icin ilgili olaylar*.js dosyalarina (olaylar_ek.js · olaylar.js · olaylar_ek17.js · olaylar_ek5.js · olaylar_p0055.js) YALNIZ bu maddeler icin yazma yetkin var; yerlesim + madde TEK commit. K2 Denizli: (a) — grup + Denizli + madde birlikte 1429-01-01, ay-kodlu komsu gunu kullanilmaz (§4). Diger K'lar mesajda kesildi: raporundaki onerini uygula, kaynaksiz/celisik olani UYGULAMA. UI yuklemeleri ve yerlesimler_ukrayna_0916 index satiri eklendi (408c214).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
