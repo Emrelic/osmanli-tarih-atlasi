@@ -1,0 +1,16 @@
+// -*- coding: utf-8 -*-
+// data/kronoloji_sinir_okyanusya.js -- D5-OKYANUSYA sinir kronolojisi
+// Sartname: oturumlar/GERIYE-SARMA-0916.md ADIM 3. Bicim data/kronoloji_almanya.js
+// ile AYNI (t, devlet, b, tur, onem, dunya, kapsam, yer_id, etiket, d, kaynak) +
+// EKLENEN alan `devlet2`: sinirin OTEKI tarafinin devletler.js kimligi (GERIYE-SARMA
+// ADIM 3 "ilgili IKI devletin kimligi de maddede" sartini karsilamak icin -- D1 ya da
+// baska bir D-bolgesi henuz ornek yayinlamadigindan bu alan adi bu oturumda secildi,
+// koordinator baska bir kural isterse degistirilir).
+// index.html'e BAGLANMADI (koordinator ekleyecek, GERIYE-SARMA-0916.md ADIM 3).
+// Kaynak: denetim/D5-OKYANUSYA-0916.md + data/d_sinirlar_okyanusya.js dayanaklari.
+
+window.KRONOLOJI_SINIR_OKYANUSYA = [
+{"t": "1884-01-01", "devlet": "almanya", "devlet2": "hollanda-dogu-hint", "b": "Almanya, Yeni Gine'nin kuzey kiyisini ilhak etti (141. meridyen siniri fiilen basladi)", "tur": "toprak-kazanc", "onem": 2, "dunya": 2, "kapsam": "dis", "yer_id": "", "etiket": ["diplomasi", "almanya", "konu-diplomasi"], "d": "Ayni yil (1884) Britanya, Yeni Gine'nin guney kiyisinda bir himaye ilan ederken, Almanya kuzey kiyisini (Hollanda sinirinin dogusunu) ilhak etti. Kesin bir Hollanda-Almanya sinir antlasmasi metni bulunamadi; 141. meridyen fiilen, karsilikli itiraz edilmeden taniniyordu.", "kaynak": "IBS No.160 (ABD Disisleri, The Geographer, 7 Subat 1977) s.2 - \"Germany annexed the northern coast east of the Dutch boundary\" (gun/ay bulunamadi, yalnizca yil verilmis)"},
+{"t": "1895-07-20", "devlet": "hollanda-dogu-hint", "devlet2": "ingiltere", "b": "Ingiltere-Hollanda Sozlesmesi — Yeni Gine'de guney sinirinin kesin tanimi", "tur": "antlasma", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "", "etiket": ["diplomasi", "hollanda-dogu-hint", "konu-diplomasi"], "d": "Lahey'de imzalanan (16 Mayis 1895) ve onay degisimiyle yururluge giren (20 Temmuz 1895) sozlesme, Hollanda ve Britanya Yeni Ginesi arasindaki siniri Bensbach Nehri agzindan baslayip 141. meridyeni izleyerek, Fly Nehri'nin talvegiyle kisa bir sapma yaparak tanimladi. Bu hat esasen degismeden bugune (Endonezya-Papua Yeni Gine siniri) kadar surdu.", "kaynak": "Convention between Great Britain and the Netherlands, The Hague, 16 May 1895 (British Foreign and State Papers Vol.87, 1894-95, s.18-21); IBS No.160 s.2-3 (pypdf ile tam okundu)"},
+{"t": "1920-12-17", "devlet": "avustralya", "devlet2": "almanya", "b": "Milletler Cemiyeti, eski Alman Yeni Ginesi'nin C-mandasini Avustralya'ya verdi", "tur": "antlasma", "onem": 3, "dunya": 3, "kapsam": "dis", "yer_id": "", "etiket": ["diplomasi", "avustralya", "konu-diplomasi"], "d": "Milletler Cemiyeti Konseyi, I. Dunya Savasi'nda Avustralya kuvvetlerince fiilen isgal edilmis olan eski Alman Yeni Ginesi'nin yonetimini C-sinifi manda olarak Avustralya Milletler Toplulugu'na (Ingiltere adina) verdi. Hollanda Yeni Ginesi'yle olan 141. meridyen siniri AYNEN devam etti; degisen yalniz dogu tarafin egemeniydi (Almanya -> Avustralya). Manda sartlari Avustralya'ya Nisan 1921'de ulasti, sivil idare Mayis 1921'de basladi.", "kaynak": "IBS No.160 s.3 (\"accepted a mandate from the League of Nations in 1920\"); Cambridge Core, \"From Protectorate to Colony to Mandate, 1920\" (International Status in the Shadow of Empire); New Guinea Act 1920 (Avustralya)"}
+];
