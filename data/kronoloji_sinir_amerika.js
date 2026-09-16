@@ -33,6 +33,8 @@
 //     Kaynaklar: International Boundary Commission · ABD Dışişleri Office of the Historian ·
 //     The Canadian Encyclopedia · Avalon (Yale) · RIAA XV · IBS 158 · IBS 166 · Ireland 1938.
 //     Yıl düzeyindeki maddeler (1818 · 1842 · 1846) §4 gereği YYYY-01-01; ay/gün metinde yok.
+//   G5 (1774-07-21 → 1815-06-09) · G6 (1699-01-26 → 1774) · G7 (1606-11-11 → 1699): 0 madde —
+//     geometrisi kaynakla kurulabilen E/F/D hat başlangıcı yok (gerekçe: denetim/D5-AMERIKA-0916.md §6).
 
 window.KRONOLOJI_SINIR_AMERIKA = [
 

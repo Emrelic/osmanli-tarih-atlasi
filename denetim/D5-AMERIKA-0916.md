@@ -250,4 +250,13 @@ G1 maddeleri: G1'de madde **0**, bu yüzden dosya o turda yazılmamıştı (M-41
 - **Öncül yazılmayanlar:** 1842 öncesi Maine (tartışmalıydı) · 1846 öncesi Oregon (ortak kullanım) · 1819 Adams–Onís hattı (geometri yok) · Bolivya–Şili 1866/1874 24°G hattı (doğu ucu belirsiz, kaynak okunmadı).
 - Veri: 79 kayıt (E 26 · C 16 · YOK 37). Kronoloji toplamı 21 madde; hepsi var olan bir kayda bağlı.
 
+**G5 (1815-06-09 → 1774-07-21) · G6 (→ 1699-01-26) · G7 (→ 1606-11-11): yeni hat 0 · kronoloji maddesi 0.**
+Bu pencerelerde Amerika'da, geometrisi kaynakla kurulabilen bir E/F/D hat başlangıcı YOK:
+- **1783 Paris Antlaşması (İng. Kuzey Amerikası–ABD).** IBC hattı ad ad tarif ediyor (St. Croix → Lake of the Woods → Mississippi). Ama hangi kesimin 1842'ye kadar kesin olduğunu kesim kesim vermiyor. Maine kesimi 1842'ye kadar tartışmalıydı. Göller kesimini kesinleştiren 1822 komisyon kararı okunan kaynakta yok ⇒ kesim noktası ve tarih uydurulmadan yazılamaz.
+- **1795 Pinckney (ABD–İspanya, 31°K) · 1763 Paris (Mississippi hattı) · 1819 Adams–Onís.** Bugünkü ülke sınırı değiller, NE 10m'de karşılıkları yok ⇒ geometri yok.
+- **1777 San Ildefonso (İspanya–Portekiz, Güney Amerika).** Kaba (C) ve geometrisi yok. 1750 Madrid Antlaşması 1761'de iptal edildi.
+- **1648 Concordia (Saint-Martin).** Hat tanımsız (kayıt zaten YOK).
+- **Haiti bağımsızlığı (1804).** Adada çizilmiş bir hat yok (Haiti–Dominik için ilk etkili belge 1929, IBS 5).
+⇒ Kural gereği ("kesin değilse kayıt YAZILMAZ; harita orada A/B'ye düşer") üç dalgada da kayıt ve madde çıkmadı.
+
 **Taslak künye:** 6 kimlik `devletler.js`te yok, `denetim/TASLAK-KUNYE-D-0916.json`dan alındı. 11 kayıt bu kimliklere bağlı (sayıldı).
