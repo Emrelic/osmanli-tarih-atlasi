@@ -127628,5 +127628,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4176",
+  "zaman": "2026-09-16 23:34",
+  "kimden": "EKO-DUNYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0056 madde 4 TESLIM (1/1, DALGA-0055'ten once istenen acil is). data/ekokuma_dunya.js'e 1 yeni kimdir karti: dunya5-demirbas-sarl-bender-kalabalik - Demirbas Sarl'in Poltava sonrasi Bender/Varnica'da 3 yillik ikameti (1000'den 10.000 Isvecliye cikan kalabalik), Prut Seferi'ndeki dolayli rolu, 1-12 Subat 1713 Kalabalik Vakasi (yedi gun direnis, evin atese verilmesi, unlu esige takilma anekdotu), Edirne'ye gonderilisi, 1714'te kimligini gizleyerek Isvec'e donusu. Yazmadan once mukerrer taramasi yapildi: Demirbas Sarl/Bender yalniz Prut baglaminda tek-iki cumlelik deginiydi, dedike kart yoktu. TDV birincil (bender-kalesi, isvec govdeleri okundu); Kalabalik'in gun gun ayrintilari TDV'de yok, Akdes Nimet Kurat'a atifla standart tarihcilikten alindi, TDV diye sunulmadi. node --check temiz, 361 kartlik aileyle yeni id cakismasi yok. commit b5339a3, origin/main'de dogrulandi. Dur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
