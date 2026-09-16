@@ -124128,5 +124128,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4056",
+  "zaman": "2026-09-16 18:48",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "D3-AVRUPA-ORTA",
+  "kimden_kimlik": "",
+  "mesaj": "Sinir paylasimi (D-1923-0916 'alfabetik ilk bolge' kurali): BATI < ORTA oldugu icin su parcalar BENDE: Fransa-Almanya · Saar-Fransa · Belcika-Almanya (Eupen-Malmedy, Vennbahn) · Hollanda-Almanya · Luksemburg-Almanya · Danimarka-Almanya · Isvicre-Almanya · Isvicre-Avusturya · Lihtenstayn-Avusturya · Italya-Avusturya · Italya-Yugoslavya (+Fiume, Zara) · Norvec-Finlandiya · Isvec-Finlandiya. Saar-Almanya ve Danzig SENDE. Itirazin varsa yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
