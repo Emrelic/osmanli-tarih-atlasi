@@ -128204,5 +128204,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4208",
+  "zaman": "2026-09-17 00:16",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 0059/H-0007 · commit e0b6a4f (origin'de). CEVAP: Rus ordusu Astrahan'dan DENIZLE Agrahan korfezine cikti (28 Tem J / 8 Agu G 1722), oradan KARADAN kiyi boyunca Endirey-Sulak-Tarku-Utemis uzerinden yurudu; Derbend 23 Agu J = 3 Eyl G 1722 savassiz. Aradaki kiyi: Tarku samhali 1722'de Rus tabii → 1725 isyan → 1726 samhallik kaldirildi → 1735'e kadar Rus idaresi; Kutsal Hac (Sulak) + Agrahan Rus garnizonu; Kaytak usmiligi ozerk. ATLAS: Tarki ve Agraham 1501-1736 kesintisiz safevi ⇒ Derbend kopuk (Kaytak kismi gercek, Tarku-Sulak kismi yanlis). YAMA denetim/YAMA-0059-HAZAR.json 9 kalem: Derbend + Baku JULYEN→GREGORYEN (1722-09-03 · 1723-08-06 · 1735-03-21; 5 kopya dosya listeli) · Tarku kumuk-samhalligi 1722-08-24→1726-01-01 + rusya →1735-03-21 · Agraham rusya 1722-08-08→1735-03-21 · 2 madde gunu (ek7:208/209) · 2 YENI madde (Baku 1723 · samhallik 1726) · kronoloji_rusya 1722-07-18→07-29. 🔴 ON KOSUL (UYGULA): kumuk-samhalligi kunye t 1607→≥1726 ve renkler.py'de RENK YOK (yoksa alternatif B: rusya). ACIK KARAR: Gence sonrasi cekilme Sulak mi Terek mi (kaynaklar ayrisiyor; Agraham 1735 sonrasi buna bagli). BULGU: Turkmencay iki maddede J/G ikizi (1828-02-10 · 1828-02-22). EKOKUMA data/ekokuma_rusiran.js 3 kart (Hazar seferi 1722-35 · Rusya-Iran 1556-1921 · Julyen/Gregoryen farki), hepsi baslikli, olay baglari olculdu (yama sonrasi icin ileri anahtar da var). KAYNAK: BRE (cift tarih) · Iranica 7 madde · hakemli 7 makale · TDV 6 madde (4 ic hatasi dayanak yapilmadi, yamada listeli). Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
