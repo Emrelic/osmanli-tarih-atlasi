@@ -102,3 +102,68 @@ YOK, gerçek `kemankes-mustafa-pasa`). Alıntı yapılmadı, özetlendi.
 node --check data/ekokuma_vezir.js  → temiz
 21 kart · 0 mükerrer id · 21/21 olay tarihi mevcut kronolojide doğrulandı
 ```
+
+---
+
+# EK BÖLÜM — İKİNCİ TUR: HARITA-VERI 99-131 (16 Eylül 2026, aynı gün ikinci sevk)
+
+Kaynak: `oturumlar/DALGA-0052.md §2c` · `denetim/KUTU-AYIKLA-0916.md §④` (HARITA-VERI listesi, sıra no 99-131,
+33 madde) · çıktı `denetim/YAMA-0052D-VEZIR-0916.json`. Veriye YAZILMADI (§7 — bu dosyalara yazma yetkim yok).
+
+## 0. En önemli bulgu: çoğu iş ZATEN YAPILMIŞ
+
+33 maddenin araştırması taranınca (grep + `PAKET-SINIF2-0914.json` çapraz eşleşme), **29 maddede araştırma
+zaten mevcut** — çoğu 13-14 Eylül'de yapılmış ve `denetim/YAMA-*-0914.json` dosyalarında "öneri" olarak
+bekliyor, bir kısmı da 14 Eylül'deki büyük "KOŞU 11 İNDİ" yayınıyla (commit `a4894b9`) **zaten veriye inmiş
+ve canlı.** Bu oturum bu araştırmayı TEKRAR ÜRETMEDİ (D023: var olan araştırma yeniden yazılandan iyidir) —
+her maddenin nerede durduğunu doğruladı ve tek bir durum dosyasında topladı.
+
+## 1. Sayıyla (33/33 madde ele alındı)
+
+```
+✅ zaten çözüldü ve YAYINDA                    4   (99 Mersin · 114 Kırım bozkırı · 130 Bağdat · 128 motor kodu)
+🟢 karara bağlanmış, yalnız UYGULA bekliyor     3   (124·125·126 — Ferhat Paşa E2-E8, Emre'nin kendi kararları)
+🟡 öneri hazır, uygulama bekliyor              15   (100-109,111,113,118,123,127,129,131-kısmi)
+✅ kapsam dışı (EK OKUMA), zaten yapılmış       3   (119·120·122)
+🟡 kapsam dışı, MÜKERRER (EKO-PADISAH H-0048)   1   (121)
+🔴 GERÇEK YENİ BULGU (bu oturumda ölçüldü)      1   (116 — Kaheti Krallığı kimliği YOK)
+⚪ ölçülemedi (zaman kısıtı)                     2   (115-kısmi · 117)
+```
+
+## 2. En acil kalem: Ferhat Paşa (124, 125, 126)
+
+`denetim/YAMA-FERHATPASA-EMRE5-0914.json` — Emre'nin 14 Eylül'de bizzat verdiği kararlarla TAMAMEN karara
+bağlanmış (E1-E8), hiçbir açık soru kalmamış, yalnız "koşu 11 yayını bitince uygulanır" notuyla bekliyor.
+**Koşu 11 ZATEN İndi** (commit `a4894b9`, 14 Eylül) ama bu üç madde o commit'in kendi mesajında hâlâ
+"P01 inişleri — bu koşuda YOK" diye bekleyenler arasında sayılıyor. **İSTİYORUM:** UYGULA bu dosyayı öncelikli
+alsın — üç günlük kararlı, kaynaklı, hazır bir yama koşu 12'yi beklemeden bile elle uygulanabilir durumda.
+
+## 3. Gerçek yeni bulgu: Kaheti Krallığı (madde 116)
+
+TDV `gurcistan` (bu oturumda okundu): "I. Alexandre'nin 1442 ölümünden sonra Gürcistan üç krallığa (**Kartli,
+Kaheti, İmereti**) ... ayrıldı." Atlasta `gurcistan` (=Kartli, Tiflis) ve `imereti` (Kutaisi, v: 1555-1810)
+var; **`kaheti` kimliği `data/devletler.js`de SIFIR KAYIT** (grep doğrulandı, 0 satır). Bu maddenin şikâyeti
+("üçe bölündü diyor ama iki parça görünüyor") DOĞRU ve kaynaklı bir eksiği işaret ediyor. Kaheti'nin
+tarihî merkezi Telavi'dir; bir Telavi noktası olup olmadığı bu oturumda ARANMADI (zaman kısıtı) —
+**İSTİYORUM:** bir sonraki HARITA-VERI oturumu Telavi'yi arasın, yoksa yeni nokta + `kaheti` künyesi önersin.
+
+## 4. Koordinatöre dört soru/istek
+
+1. Madde 119, 120, 122 (savaş hikâyeleri · antlaşma hükümleri · mimari teknik kartları) **HARITA-VERI
+   kapsamına hiç girmiyor** — üçü de EK OKUMA isteği ve üçü de zaten yapılmış (`ekokuma_savas3.js` ·
+   `ekokuma_antlasma3.js` + `ANTLASMALAR` otomatik bağı · `ekokuma_mimari2.js`, hepsi P12-EKOKUMA, 14 Eylül).
+   Bu üç maddeyi HARITA-VERI kutusundan düşürmenizi öneririm.
+2. Madde 121 (padişah magazin/komplo kartları) bu dalganın **kendi H-0048 maddesiyle MÜKERRER**
+   (EKO-PADISAH'a atanmış, şu an paralel çalışıyor). Teslim gelince mükerrer işaretlenmeli.
+3. Madde 128 (Katar batısı görüntü bozulması) GERÇEKTEN bir motor/geometri kusuruydu, sahiplik araştırması
+   gerekmiyordu — kod düzeltmesi zaten `arac/uret_petek.py`ye P13B Y7 ile girmiş, yalnız tam koşuyu bekliyor.
+   GEOMETRI/MOTOR'un işiydi, HARITA-VERI'ye yanlış düşmüş (KUTU-AYIKLA'nın kendi itiraf ettiği sınıflama
+   sezgisi hatası).
+4. Madde 115 ve 117 zaman kısıtı yüzünden tam ölçülemedi — bir sonraki oturuma devredilmeli.
+
+## 5. Dosyalar
+
+```
+YENİ   denetim/YAMA-0052D-VEZIR-0916.json   33/33 madde, durum + kaynak dosya + not (py ile JSON doğrulandı)
+EK     denetim/EKO-VEZIR-0916.md            bu bölüm
+```
