@@ -1,0 +1,114 @@
+{
+  "_not": "DALGA-0057/0058 devamı — YAMA-0057-BASLIK.json'da olay_uygun='hayır' çıkan 20 kaydın her biri elle (tam metin okunarak + data/olaylar*.js+kronoloji*.js'de anahtar kelime aranarak) incelendi. 'oneri' alanı yalnız VAR OLAN bir madde bulunduğunda dolu; bulunamayanlar 'bulunamadi:true' ile açıkça bırakıldı, UYDURULMADI. 1.MURAT uygular.",
+  "teknik-osmanli-idari-yapi-degisimi": {
+    "eski_olay": ["1826-06-15|Vaka-i Hayriye"],
+    "oneri": ["1826-06|Yeniçeri Ocağı"],
+    "gerekce": "Kusur İKİ katmanlı: (1) gün yanlış — gerçek madde AY hassasiyetli (data/olaylar.js, t:'1826-06'), gün uydurulmuş; (2) anahtar kelime yazımı farklı — gerçek metin 'Vak'a-i Hayriyye' (apostrof+çift-y), kart 'Vaka-i Hayriye' yazmış. Madde: \"Vak'a-i Hayriyye — Yeniçeri Ocağı kaldırıldı\". Yeni anahtar 'Yeniçeri Ocağı' yazım farkına dayanıksız."
+  },
+  "teknik-narh-defterleri": {
+    "eski_olay": ["1640-01-01|narh defteri"],
+    "oneri": ["1640-06-01|narh defteri"],
+    "gerekce": "Gün yanlış (01-01 yerine 06-01). Madde: data/olaylar_ek14.js \"Kapsamlı narh defterinin düzenlenmesi\" — kartın kendi metni de '1640 defteri' diyor, tarih tutarlı, yalnız ay/gün kartta uydurulmuştu."
+  },
+  "teknik-tahrir-defterleri": {
+    "eski_olay": ["1431-01-01|en eski tahrir defteri"],
+    "bulunamadi": true,
+    "gerekce": "Kronolojide 'ilk/en eski tahrir defteri' (1431) maddesi YOK — 1425-1435 aralığı tek tek tarandı, yok. En yakın TEMATİK (ama FARKLI olay) alternatif: data/olaylar_ek14.js '1432-06-01 — Tımar sisteminin kurumsallaşması' (tahrir'in dayandığı sistem, ama tahrir defterinin kendisi değil) — bağlama ZORLANMADI, yalnız not olarak bırakıldı."
+  },
+  "teknik-osmanli-egitim-sistemi": {
+    "eski_olay": ["1470-01-01|Sahn-ı Semân", "1924-03-03|Tevhîd-i Tedrîsat"],
+    "oneri": ["1470-06-01|Sahn-ı Semân"],
+    "bulunamadi_kismi": ["1924-03-03|Tevhîd-i Tedrîsat"],
+    "gerekce": "Sahn-ı Semân: gün yanlış, gerçek madde data/olaylar_ek7.js 1470-06-01 'Sahn-ı Semân medreselerinin öğretime açılması' — düzeltildi. Tevhîd-i Tedrîsat (1924): kronolojide HİÇ yok (1924 yılının tek maddesi Harizm/Buhara SSC'leri hakkında, ilgisiz) — bulunamadı."
+  },
+  "teknik-osmanli-tabi-statu-listesi": {
+    "eski_olay": ["1373-01-01|Eflak tâbiiyeti", "1455-01-01|Boğdan tâbiiyeti", "1541-01-01|Erdel voyvodalığı", "1475-01-01|Kırım himayesi", "1840-01-01|Hicaz"],
+    "oneri": ["1456-06-01|Boğdan'ın haraca bağlanışı", "1475-07-01|Kırım Hanlığı"],
+    "bulunamadi_kismi": ["1373-01-01|Eflak tâbiiyeti", "1541-01-01|Erdel voyvodalığı", "1840-01-01|Hicaz"],
+    "gerekce": "Boğdan: data/olaylar_ek2.js '1456-06-01 Boğdan'ın haraca bağlanışı' (kart 1455 diyor, 1 yıl fark — kaynak farkı olabilir, ELLE karar 1.MURAT'ta). Kırım: kronoloji_kirim.js '1475-07-01 Mengli Giray Osmanlı hâkimiyetini resmen tanıdı — Kırım Hanlığı Osmanlı'ya tâbi oldu' (gün düzeltildi). Eflak (1373): tarandı, yok — en yakın 1395-05-17 Rovine Savaşı FARKLI bir olay. Erdel (1541 voyvodalık KURULUŞU): yok — yalnız 1613 Bethlen Gábor seçimi var (bkz. ayrı kart). Hicaz (1840, Mısır'dan merkeze dönüş): yok — 1517 ilhak ve 1811-13 Hicaz seferi var ama 1840 geçişi kayıtlı değil."
+  },
+  "teknik-eflak-bogdan-erdel-haklari": {
+    "eski_olay": ["1613-01-01|Bethlen Gábor", "1716-01-01|Fenerli idare"],
+    "oneri": ["1613-10-23|Bethlen Gábor"],
+    "bulunamadi_kismi": ["1716-01-01|Fenerli idare"],
+    "gerekce": "Bethlen Gábor: gün düzeltildi — kronoloji_macaristan.js '1613-10-23 Bethlen Gábor'un Erdel prensi seçilmesi'. Fenerli idare (1716 Eflak/Boğdan'a Rum yöneticiler atanması): 'Fenerli' kelimesi kronolojide HİÇ geçmiyor — bulunamadı."
+  },
+  "teknik-osmanli-tarihciligi-kaynaklari": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "Kart üç ayrı tarihçiyi (Neşrî/Naîmâ/Cevdet Paşa) tek metinde tanıtan bir GİRİŞ kartı — tek bir olay tarihine doğal olarak bağlanmıyor. Anılan üç kişinin kendi 'kimdir' kartları da (bkz. aşağı) kronolojide bağlanamadı, dolayısıyla bağlanacak bir çapa yok."
+  },
+  "kimdir-nesri": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "Neşrî'nin ölüm tarihi (1520) ya da eserinin yazımı (yaklaşık 1490'lar) kronolojide ayrı bir madde olarak yok; kişi kartı doğası gereği (biyografi) tek bir 'olay'a bağlı değil."
+  },
+  "kimdir-naima": {
+    "eski_olay": ["1702-01-01|Naîmâ vakanüvis oldu", "1734-01-01|Ravzatü'l-Hüseyn basıldı"],
+    "bulunamadi": true,
+    "gerekce": "İkisi de tarandı ('vakanüvis', 'Naima', 'Naîmâ', 'Ravzatü' — hiçbiri) kronolojide YOK. Naîmâ'nın resmî vakanüvisliği (1702) ve eserinin basımı (1734) ayrı birer madde olarak hiç yazılmamış — kronolojiye yeni madde adayı olabilir, ben YAZMADIM."
+  },
+  "teknik-cezayir-dayilik": {
+    "eski_olay": ["1516-01-01|Cezayir'in Osmanlı'ya bağlanması"],
+    "oneri": ["1519-09-01|Cezayir'in Osmanlı Devleti'ne bağlanması", "1671-01-01|dayı idaresi"],
+    "gerekce": "Kartın verdiği 1516 tarihi yerine kronolojide 1519-09-01 (data/olaylar_ek5.js) var — 3 yıl fark, muhtemelen 'Barbaros'un fethi (1516)' ile 'resmî bağlanma/hutbe (1519)' ayrımı, kartın kendi metni de ikisini ayrı anlatıyor. AYRICA kartın ASIL KONUSU dayılık olduğu için data/olaylar_ek5.js '1671-01-01 Cezayir'de dayı idaresinin başlaması' konuya kart başlığından DAHA YAKIN bir çapa — ikisi de öneriliyor, 1.MURAT seçsin."
+  },
+  "teknik-osmanli-fas-iliskileri": {
+    "eski_olay": ["1554-01-01|Fas şehri", "1578-08-04|Vâdiülmehâzin"],
+    "oneri": ["1578-08-04|Kasrılkebir"],
+    "bulunamadi_kismi": ["1554-01-01|Fas şehri"],
+    "gerekce": "Vâdiülmehâzin: TARİH zaten doğruydu (1578-08-04), yalnız ANAHTAR KELİME yanlıştı — kronolojideki gerçek ad 'Vâdisseyl (Kasrılkebir) Savaşı' (data/olaylar_ek5.js), kart TDV'nin farklı bir yazımını ('Vâdiülmehâzin') kullanmış. Fas şehri (1554, Sâlih Paşa'nın 9 aylık işgali): kronolojide yok — 1549'daki bir Fas şehri maddesi VAR ama o TAMAMEN FARKLI bir olay (Sa'dîlerin Vattâsîleri yenmesi, Osmanlı'yla ilgisiz) — YANLIŞLIKLA bağlanmasın diye önerilmedi."
+  },
+  "supheli-olum-orhan-kor-fetret": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "Şehzade Orhan'ın kör edilmesi (Fetret Devri) kronolojide ayrı bir madde olarak yok; TDV'nin kendisi de tarihi vermiyor (kartın kendi notu), bağlanacak bir gün yok."
+  },
+  "supheli-olum-cem-oguz-han": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "'Oğuz Han' (Cem Sultan'ın oğlu) kronolojide hiç geçmiyor. Cem Sultan'ın KENDİ hayatına dair 8 madde var (1481-1495) ama hiçbiri oğlunun ölümünü anmıyor — yanlış bir maddeye zorla bağlanmadı."
+  },
+  "supheli-olum-mehmed-iv-girisim": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "Turhan Sultan'ın müdahalesiyle ilgili bu rivayet (Evliya Çelebi kaynaklı) kronolojide ayrı bir madde olarak yok; 'Turhan Sultan' araması sıfır sonuç verdi."
+  },
+  "supheli-olum-sehzade-mehmed-1756": {
+    "eski_olay": ["1756-12-22"],
+    "bulunamadi": true,
+    "gerekce": "1756-12-22 tarihinde kronolojide HİÇ madde yok (1756'nın tek maddeleri Yedi Yıl Savaşları'yla ilgili, konuyla ilgisiz). Şehzade Mehmed'in ölümü ayrı bir madde olarak hiç yazılmamış."
+  },
+  "kimdir-padisah-lakaplari": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "Kart altı ayrı padişahın lakabını karşılaştırıyor (Yıldırım/Yavuz/Kanûnî/Deli İbrahim/Avcı Mehmed/Selim II) — YAPISAL olarak tek bir tarihe bağlanamaz, genel bir karşılaştırma kartı. Zorla bir padişahın cülus tarihine bağlamak YANILTICI olurdu."
+  },
+  "kimdir-padisah-sanat-zanaat": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "kimdir-padisah-lakaplari ile AYNI yapısal sebep — altı padişahı (Fâtih/II.Bayezid/Kanûnî/II.Selim/III.Ahmed/II.Mahmud) karşılaştıran genel bir kart, tek olaya bağlanamaz."
+  },
+  "darussaade-agasi-harem-hiyerarsisi": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "Kartın KENDİ metni zaten bunu söylüyor: '1574-01-01 kronolojide BULUNAMADI'. Aranan 'darüssaade' kelimesi tüm kronolojide sıfır sonuç verdi — doğrulandı. Habeşî Mehmed Ağa'nın 1574'teki müstakilleşmesi kronolojiye YENİ bir madde adayı (kartın kendi önerisi), var olan bir maddeye BAĞLANAMAZ."
+  },
+  "ebru-sanati-ipek-yolundan-istanbula": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "Kartın KENDİ notu `olay:[]`in BİLEREK boş bırakıldığını açıklıyor — TDV'nin kendisi ebrunun kökenini/tarihini belirsiz bırakıyor, kart yalnızca yaklaşık bir yüzyıl çapası (1520/1590) kullanıyor, gerçek bir olay iddiası yok. Zorla bir tarihe bağlamak UYDURMA olurdu — bu kart YAPISI GEREĞİ bağlanamaz sınıfında, kusur değil."
+  },
+  "iznik-cinicilik-cokusu": {
+    "eski_olay": [],
+    "bulunamadi": true,
+    "gerekce": "Kartın kendi notu '1648, Evliya Çelebi'nin İznik çini gözlemi' adıyla YENİ bir madde önerisi yapıyor. 'İznik' kelimesi kronolojide 7 kez geçiyor ama hepsi 1075-1331 arası (kuruluş/fetih) — 1648 gözlemine dair HİÇBİR madde yok, VAR OLAN bir maddeye bağlanamaz."
+  },
+  "_ozet": {
+    "toplam": 20,
+    "duzeltildi_gun_veya_anahtar": 7,
+    "bulunamadi_tam": 11,
+    "bulunamadi_kismi_karisim": 2,
+    "not": "'düzeltildi' = kartın kendi olay: tarihi kronolojide YANLIŞ gün/anahtarla aranıyordu, doğrusu bulundu. 'bulunamadı' = aranan olay kronolojide GERÇEKTEN yok (yeni madde adayı olabilir, YAZILMADI). Hiçbir öneri uydurulmadı; hepsi data/olaylar*.js + data/kronoloji*.js taranarak doğrulandı."
+  }
+}
