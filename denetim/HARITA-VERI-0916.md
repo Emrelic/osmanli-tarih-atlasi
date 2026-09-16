@@ -42,3 +42,42 @@ Veriye YAZILMADI. Öneriler 5 dosyada, uygulayıcı UYGULA. Araştırma beş par
 
 ## Bulunamayanlar
 Semadirek 1657 geri alış günü · Luwu'nun Hollanda'ya geçiş günü · Mandar/Bolaang-Mongondow/Banggai sahiplik günleri · Erbil 1623-1638 adıyla kaynak · Tiflis 1603/1606 çelişkisinin gün düzeyinde çözümü · Kołodziejczyk Podolya defteri (okunamadı) · Bila Tserkva 1672-99 (TDV↔IEU çelişik).
+
+---
+
+# İKİNCİ TUR · KUTU-AYIKLA HV 1–65 + RENK 1–5 (16 Eylül akşam)
+
+Veriye YAZILMADI. 70 kalem dört dosyada:
+
+| dosya | kayıt | öneri | devir | cevap | motor-AB | diğer |
+|---|---|---|---|---|---|---|
+| `YAMA-0052B-SINIF.json` | 15 | — | 5 | — | 6 | başka oturum 3 · UI 1 |
+| `YAMA-0052B-DEVIR.json` | 24 | 5 | 12 | 5 | 2 | — |
+| `YAMA-0052B-NOKTA.json` | 16 | 4 | 5 | — | 5 | bulunamadı 1 · yapılmadı 1 |
+| `YAMA-0052B-RENK.json` | 40 | 34 | 4 | 1 | — | UI 1 |
+
+## A/B görünümüyle çözülür (araştırma yapılmadı)
+HV-1 · 4 (göl kıyıları, Emre ⑦ "seçici ince") · 6 (Çimpe, körfez aşımı) · 8 · 9 · 30 · 35 (boğaz aşımı) · 12 (Malta) · 16 üst boşluk · 28 · 29 · 33 (kıyı/Kuzey Afrika) · 40 (1493 Yedisan) · 41 · 42 · 43 · 45 · 46 (pergel daireleri) · 51 · 53 · 58 (çöl dolgusu, Emre ㉔ "(b) beklesin") · HV-5 boğaz kısmı.
+
+## Kapanmış (bugünkü girdide ölçüldü)
+HV-22 Basra/Abâdân · HV-49 Bayburt/Kiğı (Tercan/İspir bulunamadı) · HV-54 Taganrog · HV-64 Denizli (⚠️ 1429-01-01 indi, madde 1429-02-01 → 31 gün, D2 denetlensin) · HV-65 Herseknovi · Zamantı/Darende/Mesudiye/Gölköy (HV-3/7/31) · Kutsal Roma rengi (HV-2) · Novgorod/İlhanlı/Bosna (RENK-3/4) · Eğri/Kanije Habsburg (RENK-2).
+
+## Uygulanmamış yama bekleyen (devir)
+Trakya TR-001…050 (HV-26/32) · A3 kalem 1 Uzun Hasan 1468 (HV-37) ve kalem 2 Ahıska (HV-14) · A6A-Y8 Levant 1516 (HV-10) · A6A-Y7 Yergöğü (HV-59) · A6B/RUS Hotin (HV-57) · A6C C-0020 Şamahı (HV-55) · KARTLI-KAHETI (HV-24; taslak kimlik "kaheti" ↔ künye "kaheti-kralligi") · KUZEY Y1/Y2 Baltık (HV-25) · KUZEY 1703 İngriya (HV-23) · ARAP El-Arîş/Salihiyye (HV-60) · UZAK Y1 Hârizm (HV-44) · Ferhat Paşa BİRLEŞİK+EMRE5 (HV-13/15/18/19/56/63) · 0052-IRAK Erbil (HV-17) · 0052-KAFKAS (HV-48/50) · PAKET-SINIF2 renk (HV-36).
+
+## Yeni öneriler
+- **Kilitbahir** (HV-5): kur/d.f + p0036 maddesi 1452 → 1463-01-01 (TDV kilitbahir-kalesi "fetihten sonra" · Kritovulos 867/1463); ek.js:103-104 anakronik anış çıkar.
+- **Van havzası 19 kayıt** (HV-36 veri): Karakoyunlu→Akkoyunlu 1467-01-01 → 1467-11-10 (Cihan Şah'ın ölümü, TDV uzun-hasan) + ek20 maddesi; ek5 çöküş maddesiyle mükerrer riski — koordinatör. Bitlis 1473, ara sahip bulunamadı.
+- **Tartu** (HV-25 ek): Rus 1558→1582 (Britannica, §4 ara bölge, tek kaynak).
+- **Göksun · Gürün** (HV-7), **Reşadiye** (HV-31) → yerlesimler_anadolu_0914.js; D1/D2 açık 0.
+- **Elbistan**: 1281-1337 memluk → ilhanli, 1381-1384 memluk (TDV elbistan); 1384-01-01 yeni yabancı kırılma → 2s ölç. Maraş aynı sınıf, ölçülmedi.
+- **Aşkale · Sarıkamış** (RENK-1): eski Erzurum/Kars zinciri kopyası → güncel TDV zincirine.
+- **Kars/Ardahan 9 kayıt** (RENK-5): 1340-1469 aralığı Revan'ın düzeltilmiş zincirine (önce ek26, sinir_kuzey üretilmiş dosya → üreteç sonra). 1467-1469 ikinci kopukluk açık (HV-37'ye bağlı).
+- **Zigetvar** (RENK-2): 1526-1566 macaristan → avusturya (TDV sigetvar). 28 benzer kayıt Szapolyai/Ferdinand kimlik işi.
+- **Renk**: karakoyunlu #e018e0 → #8a84ea (gürcistan ΔE94 5,8 → 16,7) · denize karışan 21 kimliğe koyu ton (DAL1 21 → 0; komşu çakışması 2→2 değişmedi). Sırbistan mor önerisi Emre'ye ("çok dert değil" demişti). Kabartay/Venedik (783f473) engel olarak hesaba katıldı. Yama dışı: gürcistan ↔ kaçar ΔE94 4,7.
+
+## Bulunamadı / yapılmadı
+Sarız · Koyulhisar · Tercan · İspir · Sibir şehirleri (Karaçin/Taşatkan/Tarhankale) koordinatı · Doğu Polesya 1281 künyeleri (HV-2) · Kanem-Bornu Mao/Bulala künyesi (HV-47) · Narva İsveç geçiş yılı · Gyula TDV sluğu.
+
+## Uygulayıcıya
+renkler.py koşu sürerken yazılmaz; renkler ancak sonraki koşuyla iner → sonra renk_olc.py + renk_cikti.py. KUTU-ACIK-LISTE NOT'ları 200 karakterde kesik; tam metin parti-emrelic-00NN/CEVAP.json'da.

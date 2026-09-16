@@ -1,0 +1,1631 @@
+{
+ "paket": "0052B-RENK",
+ "tarih": "2026-09-16",
+ "yazan": "HARITA-VERI alt gorev RENK",
+ "durum": "ONERI — veriye yazilmadi; uygulayici UYGULA. renkler.py kalemleri kosu SURERKEN uygulanmaz.",
+ "ozet": {
+  "renk_degisikligi": 22,
+  "veri_yamasi": 12,
+  "devir": 4,
+  "cevap": 1,
+  "arayuz_UI": 1,
+  "cakisma_kontrolu": "kabartay #0c5a84 ve venedik #fcfc06 (YAMA-0052-KAFKAS, 783f473 ile BOYALAR'da) engel olarak dahil; tum yeni renklere karsi dE76 tabloda. YAMA-0052-*.json dosyalarinda bu kayitlara (Aşkale · Sarıkamış · Kars/Revan ovasi · Zigetvar) dokunan kalem YOK (grep)."
+ },
+ "kalemler": [
+  {
+   "no": 1,
+   "madde": "RENK-1 · 0019/H-0007 · RENK-5 · 0042/H-0038 · KUTU HV-36 · 0032/H-0002 (renk kismi)",
+   "dosya": "arac/renkler.py:534 (karakoyunlu)",
+   "eski": "\"karakoyunlu\": (\"Karakoyunlular\", \"#e018e0\"),",
+   "yeni": "\"karakoyunlu\": (\"Karakoyunlular\", \"#8a84ea\"),",
+   "gerekce": "Emre'nin 2 Eylul karari (HV-36 NOT, soru 19): '(b) YINE DE KUSUR SAY, ARASTIRILSIN'. Olculdu: gurcistan #e020b0 ile karakoyunlu #e018e0 Voronoi KOMSUSU (girdi komsulugu), bugunku gorunen renkte dE76 12,90 (esik 12'nin hemen ustu, alet 'temiz' diyor) ama dE94 5,78 — goz 'ayni renk' diyor, CIE94 da. Hangisi degisecek: KOMSU SAYISI. karakoyunlu Voronoi 20 / engel evreni 80 · gurcistan Voronoi 21 / engel evreni 88. Ustelik gurcistan icin kisitlari saglayan aday SIFIR cikti (d76>=12 306 aday, dE94(vor)>=12 olan 0); karakoyunlu icin 3. ⇒ karakoyunlu degisir. Yeni renk lavanta-mavi (ton 333 -> 301). ⚠️ Pay dar: en yakin engel kilikya-ermeni dE76 12,4 / dE94 5,9 (Voronoi komsusu DEGIL, 1500 km evreninde; cozucu dE94'u yalniz Voronoi komsularina uyguladi — tum evrene uygulayinca karakoyunlu icin aday 0). Tek basina cozulunce #b490f0 cikiyor (dE76 12,0); birlikte cozumdeki #8a84ea secildi cunku o denetimle dogrulandi.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#e018e0",
+    "yeni_hex": "#8a84ea",
+    "engel_sayisi": 78,
+    "voronoi_komsu": 19,
+    "en_yakin_engel_dE76": [
+     [
+      "kilikya-ermeni",
+      12.4
+     ],
+     [
+      "lusignan",
+      12.8
+     ],
+     [
+      "teke",
+      13.1
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "kilikya-ermeni",
+      5.9
+     ],
+     [
+      "lusignan",
+      9.2
+     ],
+     [
+      "teke",
+      10.9
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "gilan-kiya",
+      20.3
+     ],
+     [
+      "sirbistan",
+      41.7
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 51.1,
+    "osmanli_tabi_dE76": 37.9,
+    "altlik_dE76": 31.9,
+    "deniz_beyan_yumusak_dE76": 18.4,
+    "deniz_beyan_yumusak_dL": 10.5,
+    "deniz_Esri_sert_dE76": 48.3,
+    "deniz_Esri_sert_dL": 10.9,
+    "kabartay_0c5a84_dE76": 22.3,
+    "venedik_fcfc06_dE76": 78.6,
+    "bagli_L": 75.9
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri",
+   "cevap_emreye": "Hayır, Karakoyunlular Gürcistan'ı almadı; iki ayrı devlet, renkleri gereğinden yakındı. TDV (karakoyunlular): Gürcü kralı Karakoyunlu'ya karşı ittifak kurdu, 1412'de Kür boyunda yenildi. TDV (gurcistan): Kara Yusuf 1412-13'te Gürcistan'a girip bazı yerleri tahrip etti. Bunlar akın ve savaş, ilhak değil. Karakoyunlu rengini #e018e0'dan #8a84ea'ya (lavanta-mavi) almayı öneriyorum; iki renk arasındaki fark (ΔE) 12,9'dan 32,9'a çıkıyor."
+  },
+  {
+   "no": 2,
+   "madde": "RENK-1 · 0019/H-0007 (parcali toprak)",
+   "dosya": "data/yerlesimler_ek29.js:411 (Aşkale)",
+   "eski": "s:[{f:\"1281-01-01\",t:\"1348-01-01\",d:\"ilhanli\"},{f:\"1348-01-01\",t:\"1502-01-01\",d:\"akkoyunlu\"},{f:\"1502-01-01\",t:\"1518-01-01\",d:\"safevi\"},",
+   "yeni": "s:[{f:\"1281-01-01\",t:\"1360-01-01\",d:\"ilhanli\"},{f:\"1360-01-01\",t:\"1385-01-01\",d:\"eretna\"},{f:\"1385-01-01\",t:\"1387-01-01\",d:\"karakoyunlu\"},{f:\"1387-01-01\",t:\"1403-01-01\",d:\"timurlu\"},{f:\"1403-01-01\",t:\"1408-01-01\",d:\"mutahharten\"},{f:\"1408-01-01\",t:\"1467-01-01\",d:\"karakoyunlu\"},{f:\"1467-01-01\",t:\"1502-01-01\",d:\"akkoyunlu\"},{f:\"1502-01-01\",t:\"1518-01-01\",d:\"safevi\"},",
+   "gerekce": "Gorselin tarihi 1417-01-01. O gun olculdu: Askale akkoyunlu, ama iki yanindaki Erzurum (49 km) ve Bayburt (55 km) karakoyunlu — yesil bir serit karakoyunlu govdesini ikiye boluyor (Emre'nin 'parcali yapi'si). Kaydin KENDI yorumu: 'Erzurum (48,9 km) cizgisiyle ayni … kaynak: bulunamadi — cizgi kardes kayit Erzurum'dan' (15 Agu, ek29). Erzurum zinciri SONRA TDV'ye gore yeniden yazildi (eretna/karakoyunlu/timurlu/mutahharten/karakoyunlu 1408/akkoyunlu 1467); Askale ESKI kopyada kaldi (D034: bir bilgi iki yerde, biri guncellenince oteki bayatlar). Yama Askale'yi beyan ettigi capaya geri baglar.",
+   "kaynak": "gun komsudan: Erzurum (data/yerlesimler.js:243) · Erzurum'un kaynagi: kayit alani 'TDV erzurum · TDV akkoyunlular'. Sartlar: (1) Erzurum gunleri kendi kaynagina dayaniyor (2) Askale icin kaynak yok (kaydin kendi beyani 'bulunamadi') (3) Askale Erzurum'un kazasi, 49 km, ayni surec (4) bu satir kayda 'gun komsudan: Erzurum · TDV erzurum' diye yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1360/1385/1387/1403/1408/1467 Erzurum'da zaten kirilma. Degismez 2 (Osmanli d:) etkilenmez; d: 1518-01-01 ayni. Kaldirilan 1348-01-01 kirilmasi cekirdekte ±30 gun MADDESIZDI (olculdu: 0). 1417-01-01 kesitinde Askale karakoyunlu olur, Erzurum-Bayburt arasi kopukluk kapanir. Degismez 1: zincir 1281->1518 kesintisiz, sahipsizlik dogmaz.",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 3,
+   "madde": "RENK-5 · 0042/H-0038 · RENK-1 · 0019/H-0007 (Kars cevresi parcali)",
+   "dosya": "data/yerlesimler_ek28.js:121 (Sarıkamış)",
+   "eski": "s:[{f:\"1281-01-01\",t:\"1534-06-01\",d:\"gurcistan\"},{f:\"1878-07-13\",t:\"1917-03-15\",d:\"rusya\"},",
+   "yeni": "s:[{f:\"1281-01-01\",t:\"1340-01-01\",d:\"ilhanli\"},{f:\"1340-01-01\",t:\"1386-01-01\",d:\"celayirli\"},{f:\"1386-01-01\",t:\"1406-10-21\",d:\"timurlu\"},{f:\"1406-10-21\",t:\"1467-01-01\",d:\"karakoyunlu\"},{f:\"1467-01-01\",t:\"1514-09-06\",d:\"akkoyunlu\"},{f:\"1514-09-06\",t:\"1534-06-01\",d:\"safevi\"},{f:\"1878-07-13\",t:\"1917-03-15\",d:\"rusya\"},",
+   "gerekce": "Sarikamis 1281-1534 boyunca TEK BLOK gurcistan. Kaydin kendi yorumu: 'Tarihler Kars kaydiyla BIREBIR ayni — ayni sanjak, ayni kader' (12 Agu). O gun Kars '253 yillik TEK BLOK gurcistan'di; Kars sonra TDV `kars` govdesine gore alti doneme bolundu (M-2116), Sarikamis bolunmedi. Sonuc: 1406-1417 kesitlerinde Kars'in hemen guneyinde gurcu bir dil — Kars/Ardahan'i karakoyunlu govdesinden ayiran parcalardan biri. D034 (bayat kopya).",
+   "kaynak": "gun komsudan: Kars (data/yerlesimler.js:244, 53 km) · Kars'in kaynagi TDV `kars` (200, govde okundu): '759'da (1358) Celâyirliler tarafından ele geçirildi' · '788'de (1386) Timur tarafından alındığında' · 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' · '871'de (1467) … Uzun Hasan tarafından ele geçirildi'. Sart (3): kayit 'Kars sancagi, ayni kader' diyor. ⚠️ Kars'in 1406-10-21 gunu TDV'den degil, cekirdek madde gunu (Kara Yusuf'un Tebriz'i almasi, olaylar_ek7.js:205); TDV Kars icin tarih vermiyor ('Timur'un olumunden sonra'). ⚠️ Kars'in 1340 (TDV 1358) ve 1514 (TDV 907/1501 Safevi) gunleri de TDV ile birebir degil — bu yama Kars'i DUZELTMEZ, yalniz kopyayi esitler; Kars'in kendi farki ayri borc.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1340/1386/1406-10-21/1467/1514-09-06 Kars'ta zaten var; cekirdekte ±30 gun maddesi olculdu (1340 olaylar_ek16 · 1386 'Timur'un uc yillik seferi' · 1406-10-21 Kara Yusuf · 1467 olaylar_ek20). d: 1534-06-01 ayni, Degismez 2 etkilenmez. Ikinci, AYRI bir soru: rusya baslangici 1878-07-13, Kars 1877-11-18'e cekilmisti (TDV doksanuc-harbi) — ayni 'ayni kader' beyani onu da kapsiyor ama bu yamaya KATILMADI (93 Harbi'nde Sarikamis'in dusus gunu olculmedi).",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 4,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_ek26.js:49 (Arpaçay (Akyaka))",
+   "eski": "{f:\"1340-01-01\",t:\"1410-01-01\",d:\"celayirli\"},{f:\"1410-01-01\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "yeni": "{f:\"1340-01-01\",t:\"1386-01-01\",d:\"celayirli\"},{f:\"1386-01-01\",t:\"1406-10-21\",d:\"timurlu\"},{f:\"1406-10-21\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 5,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_ek26.js:53 (Digor)",
+   "eski": "{f:\"1340-01-01\",t:\"1410-01-01\",d:\"celayirli\"},{f:\"1410-01-01\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "yeni": "{f:\"1340-01-01\",t:\"1386-01-01\",d:\"celayirli\"},{f:\"1386-01-01\",t:\"1406-10-21\",d:\"timurlu\"},{f:\"1406-10-21\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 6,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_ek26.js:57 (Iğdır)",
+   "eski": "{f:\"1340-01-01\",t:\"1410-01-01\",d:\"celayirli\"},{f:\"1410-01-01\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "yeni": "{f:\"1340-01-01\",t:\"1386-01-01\",d:\"celayirli\"},{f:\"1386-01-01\",t:\"1406-10-21\",d:\"timurlu\"},{f:\"1406-10-21\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 7,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_ek26.js:88 (Gümrü (Aleksandropol))",
+   "eski": "{f:\"1340-01-01\",t:\"1410-01-01\",d:\"celayirli\"},{f:\"1410-01-01\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "yeni": "{f:\"1340-01-01\",t:\"1386-01-01\",d:\"celayirli\"},{f:\"1386-01-01\",t:\"1406-10-21\",d:\"timurlu\"},{f:\"1406-10-21\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 8,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_ek26.js:92 (Eçmiyadzin)",
+   "eski": "{f:\"1340-01-01\",t:\"1410-01-01\",d:\"celayirli\"},{f:\"1410-01-01\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "yeni": "{f:\"1340-01-01\",t:\"1386-01-01\",d:\"celayirli\"},{f:\"1386-01-01\",t:\"1406-10-21\",d:\"timurlu\"},{f:\"1406-10-21\",t:\"1469-01-01\",d:\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 9,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_sinir_kuzey.js:29 (Norapat)",
+   "eski": "{\"f\":\"1340-01-01\",\"t\":\"1410-01-01\",\"d\":\"celayirli\"},{\"f\":\"1410-01-01\",\"t\":\"1469-01-01\",\"d\":\"karakoyunlu\"}",
+   "yeni": "{\"f\":\"1340-01-01\",\"t\":\"1386-01-01\",\"d\":\"celayirli\"},{\"f\":\"1386-01-01\",\"t\":\"1406-10-21\",\"d\":\"timurlu\"},{\"f\":\"1406-10-21\",\"t\":\"1469-01-01\",\"d\":\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri",
+   "uygulama_notu": "yerlesimler_sinir_kuzey.js ELLE DUZENLENMEZ ('yeniden uret'): ureteci denetim/ARAC-TR1923-YAZ-0914.py zinciri en yakin kayittan BIREBIR kopyaliyor. Once ek26 kayitlari duzeltilir, sonra uretec yeniden kosulur; uretecin bu 4 kayda ayni zinciri verdigi OLCULMELI (kopya kaynagi Digor/Gumru/Arpacay idi, TR1923-SINIR-0914.md)."
+  },
+  {
+   "no": 10,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_sinir_kuzey.js:30 (Beri)",
+   "eski": "{\"f\":\"1340-01-01\",\"t\":\"1410-01-01\",\"d\":\"celayirli\"},{\"f\":\"1410-01-01\",\"t\":\"1469-01-01\",\"d\":\"karakoyunlu\"}",
+   "yeni": "{\"f\":\"1340-01-01\",\"t\":\"1386-01-01\",\"d\":\"celayirli\"},{\"f\":\"1386-01-01\",\"t\":\"1406-10-21\",\"d\":\"timurlu\"},{\"f\":\"1406-10-21\",\"t\":\"1469-01-01\",\"d\":\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri",
+   "uygulama_notu": "yerlesimler_sinir_kuzey.js ELLE DUZENLENMEZ ('yeniden uret'): ureteci denetim/ARAC-TR1923-YAZ-0914.py zinciri en yakin kayittan BIREBIR kopyaliyor. Once ek26 kayitlari duzeltilir, sonra uretec yeniden kosulur; uretecin bu 4 kayda ayni zinciri verdigi OLCULMELI (kopya kaynagi Digor/Gumru/Arpacay idi, TR1923-SINIR-0914.md)."
+  },
+  {
+   "no": 11,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_sinir_kuzey.js:31 (Kliçatak (Suser))",
+   "eski": "{\"f\":\"1340-01-01\",\"t\":\"1410-01-01\",\"d\":\"celayirli\"},{\"f\":\"1410-01-01\",\"t\":\"1469-01-01\",\"d\":\"karakoyunlu\"}",
+   "yeni": "{\"f\":\"1340-01-01\",\"t\":\"1386-01-01\",\"d\":\"celayirli\"},{\"f\":\"1386-01-01\",\"t\":\"1406-10-21\",\"d\":\"timurlu\"},{\"f\":\"1406-10-21\",\"t\":\"1469-01-01\",\"d\":\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri",
+   "uygulama_notu": "yerlesimler_sinir_kuzey.js ELLE DUZENLENMEZ ('yeniden uret'): ureteci denetim/ARAC-TR1923-YAZ-0914.py zinciri en yakin kayittan BIREBIR kopyaliyor. Once ek26 kayitlari duzeltilir, sonra uretec yeniden kosulur; uretecin bu 4 kayda ayni zinciri verdigi OLCULMELI (kopya kaynagi Digor/Gumru/Arpacay idi, TR1923-SINIR-0914.md)."
+  },
+  {
+   "no": 12,
+   "madde": "RENK-5 · 0042/H-0038 (Kars-Ardahan ayri bolge)",
+   "dosya": "data/yerlesimler_sinir_kuzey.js:32 (Küçükperveli)",
+   "eski": "{\"f\":\"1340-01-01\",\"t\":\"1410-01-01\",\"d\":\"celayirli\"},{\"f\":\"1410-01-01\",\"t\":\"1469-01-01\",\"d\":\"karakoyunlu\"}",
+   "yeni": "{\"f\":\"1340-01-01\",\"t\":\"1386-01-01\",\"d\":\"celayirli\"},{\"f\":\"1386-01-01\",\"t\":\"1406-10-21\",\"d\":\"timurlu\"},{\"f\":\"1406-10-21\",\"t\":\"1469-01-01\",\"d\":\"karakoyunlu\"}",
+   "gerekce": "Gorselin tarihi 1406-10-21. O gun olculdu: Kars ve Ardahan karakoyunlu, ama cevrelerindeki Arpacay (33 km) · Digor (37) · Kucukperveli (44) · Klicatak (56) · Gumru (67) celayirli, Sarikamis ve Posof gurcistan ⇒ Kars/Ardahan ana karakoyunlu govdesinden kopuk bir ADA (Emre: 'ayni renk olmasina ragmen ayri bolge gibi'). Kusur renkte degil, iki AYRI kimlik arasinda (celayirli) — H-0038 NOT'unun (b) teshisi dogru. Kok: bu 9 kaydin zinciri 'ankraj Revan — ayni zincir' diye Revan'dan kopyalandi (ek26, 11 Agu; sinir_kuzey 14 Eyl ureteci bunlardan kopyaladi). Revan 2 Eylul'de (aaadabf) celayirli 1340-1386 · timurlu 1386-1406-10-21 · karakoyunlu 1406-10-21 diye yeniden yazildi; kopyalar ESKI hâlde (celayirli 1340-1410) kaldi — D034. Yama YALNIZ 1340-1469 arasini capayla esitler; akkoyunlu gecisi (1467 Kars · 1468-04-01 Revan · 1469 kopyalar) DOKUNULMADI (asagidaki not).",
+   "kaynak": "gun komsudan: Kars ve Revan — ikisi de 1386-01-01 ve 1406-10-21'de AYNI. 1386: TDV `kars` '788'de (1386) Timur tarafından alındığında' (yil hassasiyeti, YYYY-01-01); TDV `revan` 'Timur'un Revan'ı hâkimiyeti altına alması' (tarihsiz). 1406-10-21: cekirdek madde 'Kara Yusuf'un Tebriz ve Azerbaycan'ı Timurlulardan geri alması' (olaylar_ek7.js:205, TDV karakoyunlular'a dayaniyor); TDV `kars`: 'Timur'un ölümünden sonra … Karakoyunlular Kars'ı yeniden hâkimiyetlerine aldılar' (GUN VERMIYOR — hassasiyet metinde yazilmali). Sart (4): kayda 'gun komsudan: Kars/Revan · TDV kars' yazilmali.",
+   "etki_olculen": "Yeni kirilma gunu YOK: 1386-01-01 (cekirdek: 'Timur'un uc yillik seferi') ve 1406-10-21 (Kara Yusuf maddesi) Kars/Revan'da zaten var. 1410-01-01 kirilmasi bu 9 kayittan kalkar (cekirdekte ±30 gun MADDESIZDI; Zencan ve 'Zagros ici' hâla kullaniyor). Degismez 1: zincir kesintisiz. 1406-10-21 → 1410-01-01 araliginda Kars-Revan hatti tek karakoyunlu govdesi olur. ⚠️ ACIK KALAN: 1467-01-01 → 1469-01-01 araliginda Kars grubu (Kars · Ardahan · yamali Sarikamis) akkoyunlu, bu 9 kayit karakoyunlu — 15-24 aylik ikinci bir kopukluk. Cozulmedi, cunku Revan'in 1468-04-01'i HV-37 NOT'unda 'MADDE GUNU YANLIS' damgali ve TDV kars 1467 yalniz Kars sehri icin yil veriyor; hangi gun, ayri kaynak isi.",
+   "madde_istegi": "yok",
+   "durum": "oneri",
+   "uygulama_notu": "yerlesimler_sinir_kuzey.js ELLE DUZENLENMEZ ('yeniden uret'): ureteci denetim/ARAC-TR1923-YAZ-0914.py zinciri en yakin kayittan BIREBIR kopyaliyor. Once ek26 kayitlari duzeltilir, sonra uretec yeniden kosulur; uretecin bu 4 kayda ayni zinciri verdigi OLCULMELI (kopya kaynagi Digor/Gumru/Arpacay idi, TR1923-SINIR-0914.md)."
+  },
+  {
+   "no": 13,
+   "madde": "RENK-5 · 0042/H-0038 · RENK-1 · 0019/H-0007 (veri sorusu — cevap)",
+   "dosya": "—",
+   "eski": "—",
+   "yeni": "—",
+   "gerekce": "Iki soru ayri (D024): (a) renk → kalem 1; (b) 'Gurcistan o tarihte Karakoyunlu'ya bagli mi' → HAYIR, veri de oyle gosteriyor (1406 ve 1417 kesitlerinde Tiflis · Kutaisi · Ahiska · Batum · Artvin gurcistan, karakoyunlu degil); (c) 'Kars-Ardahan ayri bolge' → gercek bir veri tutarsizligi, kalem 3 ve Kars/Revan kalemleri. (d) 1417 'parcali yapi' → Askale (kalem 2) + Sarikamis (kalem 3); ayrica Erzurum-Van arasi 38,3-40,5K / 40,5-43D kutusunda 1417'de yalniz 4 nokta var (Sarikamis · Askale · Erzurum · Bitlis) — kalan sekil emilme (§2), NOKTA isi.",
+   "kaynak": "TDV `karakoyunlular` (200, govde okundu): 'Gürcü Kralı Köstendil, Şirvanşah Şeyh İbrâhim … Kara Yûsuf'a karşı bir ittifak' · 'Kür boylarında yapılan savaşta müttefikler ağır bir yenilgiye uğradı (815/1412)'. TDV `gurcistan` (200): 'Karakoyunlu Kara Yûsuf 815'te (1412-13) Gürcistan'a gelerek bazı yerleri tahrip etti'.",
+   "etki_olculen": "girdi.yukle() ile 1406-10-21 ve 1417-01-01 kesitleri (37,3-42,5K / 38,5-46D) olculdu.",
+   "madde_istegi": "yok",
+   "durum": "cevap",
+   "cevap_emreye": "Gürcistan, Karakoyunlular'a bağlı değildi. Gürcü kralı onlara karşı ittifak kurup 1412'de yenildi; Kara Yusuf da Gürcistan'a akın düzenledi, ama ülkeyi ilhak etmedi. Renk yakınlığı bir palet kusuruydu, düzeltme öneriyorum. Kars ve Ardahan'ın ayrı bölge gibi görünmesinin sebebi veri. Çevredeki köylerin tarihleri, Revan kaydının eski hâlinden kopyalanmıştı; o yüzden 1406-1410 arasında Karakoyunlu değil Celâyirli görünüyorlardı. Sarıkamış ise Kars'ın düzeltilmeden önceki \"hep Gürcistan\" kaydını taşıyordu. 1417'deki parçalı görüntünün bir sebebi de Aşkale'ydi: eski bir kopya yüzünden Erzurum ile Bayburt arasında Akkoyunlu kalıyordu. Üçünü de kaynağı belli komşu kayda bağlayan yamalar hazır."
+  },
+  {
+   "no": 14,
+   "madde": "RENK-2 · 0025/H-0005",
+   "dosya": "data/yerlesimler.js:482-483 (Eğri · Kanije)",
+   "eski": "—",
+   "yeni": "—",
+   "devir": "cb24187 (23 Agu 2026) 'RECETE 2 — Egri ve Kanije (0027/H-0010)': s: 1281->fetih macaristan => 1281->1526-08-29 macaristan + 1526-08-29->fetih avusturya",
+   "uygulandi": true,
+   "gerekce": "Gorsel 1566-09-07 (Zigetvar); paket 21 Agu. O gun gorulen iki acik yesil 'MACARISTAN' serit Kanije (bati) ve Egri (kuzeydogu) kayitlarindan geliyordu: ikisi 1526 sonrasi da `macaristan` (bagimsiz krallik kunyesi, t:1526-08-29) tasiyordu. 2 gun sonra cb24187 ikisini Habsburg Kraliyet Macaristani (`avusturya`) yapti. BUGUN olculdu (girdi.yukle, 1566-09-07, 45,3-49,5K / 15,5-22,5D): `macaristan` sahipli nokta 0; Kraliyet Macaristani noktalari (Egri · Kanije · Yanikkale · Komarom · Uyvar · Tokaj · Kassa · Sopron · Varasd …) hepsi avusturya; Debrecen · Varad · Yanova tabi (Erdel/Osmanli tabi). Yayinda da (devletler_harita.js a4894b9) `macaristan`in 1566-09-07'yi kapsayan penceresi YOK.",
+   "kaynak": "TDV `sigetvar` (200, govde okundu): Sigetvar 1543 sonrasi 'Macar serhad kaleleri' arasinda; 1566'da kumandani Zrínyi, basi 'Habsburg Kralı II. Maksimilyan'a gönderildi'.",
+   "etki_olculen": "cb24187 girdide UYGULANMIS: Egri s:[1281-1526-08-29 macaristan, 1526-08-29-1596-10-12 avusturya …] · Kanije s:[… 1526-08-29-1600-10-20 avusturya …] (girdi.yukle ile okundu).",
+   "madde_istegi": "yok",
+   "durum": "devir",
+   "cevap_emreye": "Hayır, o yeşil alanlar doğru değildi. 1566'da orası Habsburg'un elindeki Kraliyet Macaristanı'ydı, bağımsız bir Macaristan yoktu. Bu iki yeşil şerit Eğri ve Kanije kayıtlarından geliyordu ve 23 Ağustos'ta düzeltildi; bugün aynı gün ve bölgede \"Macaristan\" rengi taşıyan hiç nokta yok. Zigetvar'ın düşüşünden önceki günlerde de yeşil kalan bir parça daha buldum, onun yaması aşağıda."
+  },
+  {
+   "no": 15,
+   "madde": "RENK-2 · 0025/H-0005 (ayni sinifin kalan ucu)",
+   "dosya": "data/yerlesimler.js:1541 (Zigetvar)",
+   "eski": "s:[{f:\"1281-01-01\",t:\"1566-09-07\",d:\"macaristan\"},{f:\"1689-02-11\"",
+   "yeni": "s:[{f:\"1281-01-01\",t:\"1526-08-29\",d:\"macaristan\"},{f:\"1526-08-29\",t:\"1566-09-07\",d:\"avusturya\"},{f:\"1689-02-11\"",
+   "gerekce": "Egri/Kanije ile ayni kusur, cb24187'nin atladigi kayit: Zigetvar 1526-1566 boyunca `macaristan` (bagimsiz krallik kunyesi 1526-08-29'da bitiyor ⇒ 40 yillik kunye asimi). Gorsel gunu (1566-09-07) tam bu donemin bitis gunu; ondan onceki her gun Zigetvar cevresi acik yesil 'MACARISTAN' cizilir. TDV 1566'da kaleyi Habsburg kralinin serhaddi olarak anlatiyor.",
+   "kaynak": "TDV `sigetvar` (200): '950'de (1543) … Sigetvar, Macar serhad kaleleri içerisinde stratejik bir önem kazandı' · kumandan Zrínyi, 'Habsburg Kralı II. Maksimilyan'. ⚠️ HASSASIYET: TDV 1526-1543 arasinda kalenin hangi krala (I. Ferdinand / Szapolyai) bagli oldugunu SOYLEMIYOR. 1526-08-29 bir yerel fetih gunu degil, Macar tacinin el degistirdigi gun (Mohac; cb24187 Egri/Kanije recetesiyle ayni kural). Uygulayici bunu kabul etmezse alternatif: `avusturya` 1543-01-01'den (TDV yili), 1526-1543 ise olculemedi olarak kalir.",
+   "etki_olculen": "Yeni kirilma 1526-08-29: cekirdekte 'Mohac Meydan Muharebesi' (olaylar.js, 0 gun) VAR. 1566-09-07 d: kirilmasi degismedi. Degismez 1: kesintisiz. Ek bulgu, YAMA YOK: 1526-08-29 sonrasi `macaristan` tasiyan 28 kayit daha var (Temesvar →1552 · Gyula →1566-09-02 · Solnok →1552 · Segedin/Estergon/Istolni Belgrad →1543 · Pecuy →1543 · Budin/Peste/Varad … →1526-09-01 · Banaluka/Yayca →1528 · Klis →1537 · Bihac →1527). Gyula icin TDV slugu bulunamadi (gyula · gula · gule · gyula-kale · gole--macaristan hepsi 302; `temesvar` 200 ama govde bos geldi). Bunlar Szapolyai/Ferdinand ayrimi isteyen ayri bir kimlik isi (Dogu Macar Kralligi kunyesi yok).",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 16,
+   "madde": "RENK-3 · 0040/H-0004 · RENK-4 · 0040/H-0005",
+   "dosya": "arac/renkler.py:681 (novgorod) · :1919 (ilhanli) · :942 (bosna)",
+   "eski": "—",
+   "yeni": "—",
+   "devir": "denetim/ONERI-RENK-0904.json (PAKET RENK 0904) → cfe7714 (4 Eyl 2026 17:29): novgorod #84c9cf→#1e333e · ilhanli #c690ed→#433be3 · bosna #90f3f3→#0a0381 · norvec-kralligi · le-hanedani · DE_DENIZ 15→18 · DE_DENIZ_GENIS 20→51",
+   "uygulandi": true,
+   "gerekce": "Emre'nin adini verdigi uc kimlik 4 Eylul'de degistirildi, sikayet paketinden (4 Eyl 10:42) 7 saat sonra. Bugun olculdu: BOYALAR novgorod #1e333e · ilhanli #433be3 · bosna #0a0381 (aciklik tabani bunu #2f1896'ya kaldiriyor) — yayinda (devletler_harita.js) de ayni. Beyan edilen denize (#c4dcea) yumusak kipte dE76: novgorod 29,2 · ilhanli 36,5 · bosna 35,2 (esik 18); Esri denizine (~#7cb4d4) sert kipte 52,4 · 95,0 · 85,7. Ucu de artik DAL1/DAL2 disinda.",
+   "kaynak": "olcum: renk_olc.deniz_ihlal() + gorunen() · ONERI-RENK-0904.json DEVIR_RAPORU",
+   "etki_olculen": "renkler.py satirlari girdide o hex'leri tasiyor (import ile okundu); devletler_harita.js (a4894b9) ayni hex'ler.",
+   "madde_istegi": "yok",
+   "durum": "devir",
+   "cevap_emreye": "Adını verdiğin Novgorod, İlhanlı ve Bosna 4 Eylül'de koyu tonlara alındı; üçü de artık denizden açıkça ayrışıyor. Sırbistan o gün bilerek dışarıda bırakılmıştı (\"çok dert değil\" demiştin). Ama deniz eşiği sonradan 18'e çıkınca araç onu da yakalıyor; ayrıca öneri olarak aşağıda. Denizin kendisini açma işi arayüz tarafında: bugün ekranda görünen deniz bizim açık mavimiz (#c4dcea) değil, Esri altlığının koyu mavisi (~#7cb4d4)."
+  },
+  {
+   "no": 17,
+   "madde": "RENK-3 · 0040/H-0004 (deniz renginin kendisi)",
+   "dosya": "js/app.js:1022 (SU_RENGI) · js/app.js:1061-1083 (Esri World Physical raster · zemin katmani)",
+   "eski": "—",
+   "yeni": "—",
+   "gerekce": "Emre 'deniz daha acik renk olmali' diyor. Olcum (ONERI-RENK-0904 B1, bugun kod yeniden okundu): beyan edilen SU_RENGI #c4dcea (L* ~86) ZATEN acik, ama `zemin` background katmaninin USTUNE Esri World Physical raster biniyor ve ekranda gorunen deniz Esri'nin ~#7cb4d4'u (L* ~70). Yani 'denizi acmak' SU_RENGI'ni degistirmek degil, Esri okyanusunu ortmek ya da kaldirmak demek — bu GORUNUM A-B-C-D karariyla (16 Eylul, 5a61140) ayni eksen.",
+   "kaynak": "js/app.js okundu (SU_RENGI=#c4dcea, satir 1022; Esri tile satir 1061; zemin satir 1083) · denetim/ONERI-RENK-0904.json bulgular.B1",
+   "etki_olculen": "Bu gorevde UI'ya dokunulmadi. Palet onerileri (kalem 'mavi aile') DORT gorunumde de (beyan+Esri, sert+yumusak) dE>=18 saglayacak sekilde secildi — deniz hangi yone giderse gitsin tutar.",
+   "madde_istegi": "yok",
+   "durum": "arayuz-UI",
+   "cevap_emreye": "Denizin rengini açmak arayüz işi (UI koluna öneri). Kodda tanımlı deniz rengi zaten açık (#c4dcea), ama üstüne Esri altlığı bindiği için ekranda koyu mavi (~#7cb4d4) görünüyor. Çözüm Esri okyanusunu örtmek ya da kaldırmak; bu da 16 Eylül'deki A/B/C/D görünüm kararıyla aynı iş. Bu arada önerdiğim renkleri iki deniz rengine göre de ayrışacak şekilde seçtim."
+  },
+  {
+   "no": 18,
+   "madde": "RENK-4 · 0040/H-0005 (sirbistan) · RENK-3",
+   "dosya": "arac/renkler.py:917 (sirbistan)",
+   "eski": "\"sirbistan\":  (\"Sırbistan\",              \"#518790\"),",
+   "yeni": "\"sirbistan\":  (\"Sırbistan\",              \"#ae00e4\"),",
+   "gerekce": "Emre sirbistan icin 'hafif, cok dert degil' dedi ve ONERI-RENK-0904 onu BILEREK disarida birakti (o gunun esigiyle). Ayni oturumun esigi 15→18'e cikinca sirbistan DAL1'e dustu: bugun dE76 17,97 (<18), Esri'ye sert kipte 21,7. Degistirmemek de mesru bir secim — karar koordinatorun. Onerilen renk mor (ton 164 → 325): ton HEDEFI 290 (koyu mavi) verildi ama Balkan engel evreni (112 kimlik) orada aday birakmadi; en koyu mesru aday bu. Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#518790",
+    "yeni_hex": "#ae00e4",
+    "engel_sayisi": 112,
+    "voronoi_komsu": 10,
+    "en_yakin_engel_dE76": [
+     [
+      "isvec-birlik-oncesi",
+      14.2
+     ],
+     [
+      "zeyyani",
+      14.2
+     ],
+     [
+      "teodoro",
+      14.5
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "teodoro",
+      4.8
+     ],
+     [
+      "isvec-birlik-oncesi",
+      4.9
+     ],
+     [
+      "varsova-dukaligi",
+      5.0
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "prusya",
+      28.7
+     ],
+     [
+      "karakoyunlu",
+      41.7
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 49.4,
+    "osmanli_tabi_dE76": 46.5,
+    "altlik_dE76": 68.5,
+    "deniz_beyan_yumusak_dE76": 59.4,
+    "deniz_beyan_yumusak_dL": 22.6,
+    "deniz_Esri_sert_dE76": 107.9,
+    "deniz_Esri_sert_dL": 25.6,
+    "kabartay_0c5a84_dE76": 59.8,
+    "venedik_fcfc06_dE76": 111.5,
+    "bagli_L": 63.8
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 19,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:635 (prusya)",
+   "eski": "\"prusya\":     (\"Prusya\",                 \"#2478d2\"),",
+   "yeni": "\"prusya\":     (\"Prusya\",                 \"#0618ea\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#2478d2",
+    "yeni_hex": "#0618ea",
+    "engel_sayisi": 41,
+    "voronoi_komsu": 8,
+    "en_yakin_engel_dE76": [
+     [
+      "iskocya",
+      13.1
+     ],
+     [
+      "savoya",
+      17.2
+     ],
+     [
+      "parma",
+      20.5
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "savoya",
+      5.9
+     ],
+     [
+      "iskocya",
+      6.0
+     ],
+     [
+      "zaporojye",
+      9.7
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "sirbistan",
+      28.7
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 59.8,
+    "osmanli_tabi_dE76": 54.3,
+    "altlik_dE76": 64.1,
+    "deniz_beyan_yumusak_dE76": 47.8,
+    "deniz_beyan_yumusak_dL": 27.2,
+    "deniz_Esri_sert_dE76": 117.0,
+    "deniz_Esri_sert_dL": 39.7,
+    "kabartay_0c5a84_dE76": 44.6,
+    "venedik_fcfc06_dE76": 109.6,
+    "bagli_L": 59.3
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 20,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:407 (gilan-kiya)",
+   "eski": "\"gilan-kiya\":        (\"Kârkiyâ (Gîlân)\",        \"#4272c3\"),",
+   "yeni": "\"gilan-kiya\":        (\"Kârkiyâ (Gîlân)\",        \"#1e245a\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#4272c3",
+    "yeni_hex": "#1e245a",
+    "engel_sayisi": 51,
+    "voronoi_komsu": 11,
+    "en_yakin_engel_dE76": [
+     [
+      "kabartay",
+      13.6
+     ],
+     [
+      "lusignan",
+      14.5
+     ],
+     [
+      "ingiltere",
+      15.4
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "cagatay",
+      10.9
+     ],
+     [
+      "ingiltere",
+      11.1
+     ],
+     [
+      "kabartay",
+      11.9
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "karakoyunlu",
+      20.3
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 42.4,
+    "osmanli_tabi_dE76": 32.1,
+    "altlik_dE76": 35.0,
+    "deniz_beyan_yumusak_dE76": 28.9,
+    "deniz_beyan_yumusak_dL": 27.4,
+    "deniz_Esri_sert_dE76": 61.1,
+    "deniz_Esri_sert_dL": 53.8,
+    "kabartay_0c5a84_dE76": 13.6,
+    "venedik_fcfc06_dE76": 73.7,
+    "bagli_L": 59.0
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 21,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:1670 (estonya)",
+   "eski": "\"estonya\":      (\"Estonya\",               \"#88e8e0\"),",
+   "yeni": "\"estonya\":      (\"Estonya\",               \"#181e9c\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#88e8e0",
+    "yeni_hex": "#181e9c",
+    "engel_sayisi": 23,
+    "voronoi_komsu": 3,
+    "en_yakin_engel_dE76": [
+     [
+      "fransa-cumhuriyet",
+      12.4
+     ],
+     [
+      "romanya-kralligi",
+      12.5
+     ],
+     [
+      "ingiltere",
+      17.5
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "romanya-kralligi",
+      5.4
+     ],
+     [
+      "fransa-cumhuriyet",
+      7.1
+     ],
+     [
+      "ingiltere",
+      13.3
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [],
+    "osmanli_dogrudan_dE76": 47.3,
+    "osmanli_tabi_dE76": 39.3,
+    "altlik_dE76": 46.8,
+    "deniz_beyan_yumusak_dE76": 33.7,
+    "deniz_beyan_yumusak_dL": 27.3,
+    "deniz_Esri_sert_dE76": 85.6,
+    "deniz_Esri_sert_dL": 48.6,
+    "kabartay_0c5a84_dE76": 25.5,
+    "venedik_fcfc06_dE76": 90.0,
+    "bagli_L": 59.1
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 22,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:1433 (ingiliz-kuzey-amerika)",
+   "eski": "\"ingiliz-kuzey-amerika\":    (\"İngiliz Kuzey Amerikası\",   \"#00ade2\"),",
+   "yeni": "\"ingiliz-kuzey-amerika\":    (\"İngiliz Kuzey Amerikası\",   \"#0c2a54\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#00ade2",
+    "yeni_hex": "#0c2a54",
+    "engel_sayisi": 48,
+    "voronoi_komsu": 24,
+    "en_yakin_engel_dE76": [
+     [
+      "ingiltere",
+      20.0
+     ],
+     [
+      "yeni-ispanya",
+      20.6
+     ],
+     [
+      "dene",
+      21.9
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "dene",
+      12.9
+     ],
+     [
+      "cherokee",
+      13.6
+     ],
+     [
+      "yeni-ispanya",
+      13.6
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "sahaptin",
+      18.6
+     ],
+     [
+      "zuni",
+      20.6
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 45.9,
+    "osmanli_tabi_dE76": 35.6,
+    "altlik_dE76": 34.1,
+    "deniz_beyan_yumusak_dE76": 28.1,
+    "deniz_beyan_yumusak_dL": 27.4,
+    "deniz_Esri_sert_dE76": 56.2,
+    "deniz_Esri_sert_dL": 53.3,
+    "kabartay_0c5a84_dE76": 9.9,
+    "venedik_fcfc06_dE76": 71.5,
+    "bagli_L": 59.1
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 23,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2882 (komanci)",
+   "eski": "\"komanci\":                 (\"Komançiler\",                        \"#78bdff\"),",
+   "yeni": "\"komanci\":                 (\"Komançiler\",                        \"#0636d8\"),",
+   "gerekce": "komanci denize EN YAKIN kimlik: dE76 4,5 (pratikte deniz rengi). Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#78bdff",
+    "yeni_hex": "#0636d8",
+    "engel_sayisi": 24,
+    "voronoi_komsu": 1,
+    "en_yakin_engel_dE76": [
+     [
+      "yeni-ispanya",
+      13.9
+     ],
+     [
+      "sosoni",
+      19.6
+     ],
+     [
+      "ingiltere",
+      26.1
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "yeni-ispanya",
+      8.6
+     ],
+     [
+      "sosoni",
+      13.1
+     ],
+     [
+      "ingiltere",
+      15.8
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "zuni",
+      12.6
+     ],
+     [
+      "ingiliz-kuzey-amerika",
+      29.8
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 56.9,
+    "osmanli_tabi_dE76": 48.8,
+    "altlik_dE76": 52.4,
+    "deniz_beyan_yumusak_dE76": 35.5,
+    "deniz_beyan_yumusak_dL": 24.1,
+    "deniz_Esri_sert_dE76": 94.6,
+    "deniz_Esri_sert_dL": 37.4,
+    "kabartay_0c5a84_dE76": 31.0,
+    "venedik_fcfc06_dE76": 97.5,
+    "bagli_L": 62.4
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 24,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2959 (herero)",
+   "eski": "\"herero\":                  (\"Herero Halkı\",                        \"#24bad2\"),",
+   "yeni": "\"herero\":                  (\"Herero Halkı\",                        \"#06305a\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#24bad2",
+    "yeni_hex": "#06305a",
+    "engel_sayisi": 25,
+    "voronoi_komsu": 4,
+    "en_yakin_engel_dE76": [
+     [
+      "ndongo",
+      12.9
+     ],
+     [
+      "griqua",
+      19.4
+     ],
+     [
+      "ingiltere",
+      21.4
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "ndongo",
+      10.6
+     ],
+     [
+      "lunda-imparatorlugu",
+      12.6
+     ],
+     [
+      "griqua",
+      13.0
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "bemba",
+      25.7
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 48.0,
+    "osmanli_tabi_dE76": 37.5,
+    "altlik_dE76": 34.0,
+    "deniz_beyan_yumusak_dE76": 27.3,
+    "deniz_beyan_yumusak_dL": 26.8,
+    "deniz_Esri_sert_dE76": 53.5,
+    "deniz_Esri_sert_dL": 51.0,
+    "kabartay_0c5a84_dE76": 8.0,
+    "venedik_fcfc06_dE76": 71.5,
+    "bagli_L": 59.7
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 25,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2937 (bundu)",
+   "eski": "\"bundu\":                   (\"Bundu Emirliği\",                      \"#24b4d2\"),",
+   "yeni": "\"bundu\":                   (\"Bundu Emirliği\",                      \"#0c3042\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#24b4d2",
+    "yeni_hex": "#0c3042",
+    "engel_sayisi": 34,
+    "voronoi_komsu": 7,
+    "en_yakin_engel_dE76": [
+     [
+      "fransa-cumhuriyet",
+      16.3
+     ],
+     [
+      "fas",
+      21.4
+     ],
+     [
+      "hollanda",
+      21.7
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "fransa-cumhuriyet",
+      12.5
+     ],
+     [
+      "hollanda",
+      15.4
+     ],
+     [
+      "gyaaman",
+      17.0
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "solima-yalunka",
+      26.2
+     ],
+     [
+      "bambara",
+      62.0
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 47.2,
+    "osmanli_tabi_dE76": 36.5,
+    "altlik_dE76": 31.7,
+    "deniz_beyan_yumusak_dE76": 29.0,
+    "deniz_beyan_yumusak_dL": 26.9,
+    "deniz_Esri_sert_dE76": 53.0,
+    "deniz_Esri_sert_dL": 52.3,
+    "kabartay_0c5a84_dE76": 10.4,
+    "venedik_fcfc06_dE76": 66.2,
+    "bagli_L": 59.6
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 26,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2922 (aro-konfederasyonu)",
+   "eski": "\"aro-konfederasyonu\":      (\"Aro Konfederasyonu\",                  \"#24aed2\"),",
+   "yeni": "\"aro-konfederasyonu\":      (\"Aro Konfederasyonu\",                  \"#122a48\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#24aed2",
+    "yeni_hex": "#122a48",
+    "engel_sayisi": 46,
+    "voronoi_komsu": 4,
+    "en_yakin_engel_dE76": [
+     [
+      "tuareg-air",
+      12.6
+     ],
+     [
+      "fransa-cumhuriyet",
+      13.4
+     ],
+     [
+      "ingiltere",
+      20.8
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "fransa-cumhuriyet",
+      8.9
+     ],
+     [
+      "tuareg-air",
+      10.9
+     ],
+     [
+      "jukun-kvararafa",
+      13.1
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "adamava",
+      32.4
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 45.0,
+    "osmanli_tabi_dE76": 34.5,
+    "altlik_dE76": 32.7,
+    "deniz_beyan_yumusak_dE76": 28.8,
+    "deniz_beyan_yumusak_dL": 27.3,
+    "deniz_Esri_sert_dE76": 55.3,
+    "deniz_Esri_sert_dL": 53.9,
+    "kabartay_0c5a84_dE76": 10.9,
+    "venedik_fcfc06_dE76": 68.7,
+    "bagli_L": 59.1
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 27,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2949 (fipa-nyakyusa)",
+   "eski": "\"fipa-nyakyusa\":           (\"Fipa ve Nyakyusa Halkları\",           \"#24a8d2\"),",
+   "yeni": "\"fipa-nyakyusa\":           (\"Fipa ve Nyakyusa Halkları\",           \"#122a42\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#24a8d2",
+    "yeni_hex": "#122a42",
+    "engel_sayisi": 42,
+    "voronoi_komsu": 6,
+    "en_yakin_engel_dE76": [
+     [
+      "fransa-cumhuriyet",
+      14.9
+     ],
+     [
+      "ingiltere",
+      21.8
+     ],
+     [
+      "italya",
+      24.3
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "fransa-cumhuriyet",
+      10.5
+     ],
+     [
+      "ingiltere",
+      15.5
+     ],
+     [
+      "lunda-imparatorlugu",
+      15.5
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "bemba",
+      20.5
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 45.0,
+    "osmanli_tabi_dE76": 34.5,
+    "altlik_dE76": 32.2,
+    "deniz_beyan_yumusak_dE76": 29.3,
+    "deniz_beyan_yumusak_dL": 27.4,
+    "deniz_Esri_sert_dE76": 55.3,
+    "deniz_Esri_sert_dL": 54.3,
+    "kabartay_0c5a84_dE76": 11.4,
+    "venedik_fcfc06_dE76": 67.4,
+    "bagli_L": 59.0
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 28,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:3030 (svazi)",
+   "eski": "\"svazi\":                   (\"Svazi Krallığı\",                      \"#24a2cc\"),",
+   "yeni": "\"svazi\":                   (\"Svazi Krallığı\",                      \"#0c304e\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#24a2cc",
+    "yeni_hex": "#0c304e",
+    "engel_sayisi": 23,
+    "voronoi_komsu": 5,
+    "en_yakin_engel_dE76": [
+     [
+      "fransa-cumhuriyet",
+      13.3
+     ],
+     [
+      "ingiltere",
+      22.2
+     ],
+     [
+      "griqua",
+      22.2
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "fransa-cumhuriyet",
+      9.5
+     ],
+     [
+      "griqua",
+      14.7
+     ],
+     [
+      "hollanda",
+      16.0
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "bemba",
+      22.7
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 47.1,
+    "osmanli_tabi_dE76": 36.5,
+    "altlik_dE76": 32.5,
+    "deniz_beyan_yumusak_dE76": 27.9,
+    "deniz_beyan_yumusak_dL": 26.7,
+    "deniz_Esri_sert_dE76": 52.5,
+    "deniz_Esri_sert_dL": 51.7,
+    "kabartay_0c5a84_dE76": 9.0,
+    "venedik_fcfc06_dE76": 68.7,
+    "bagli_L": 59.7
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 29,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2984 (maliseet)",
+   "eski": "\"maliseet\":                (\"Maliseet (Wolastoqiyik)\",             \"#24a2d2\"),",
+   "yeni": "\"maliseet\":                (\"Maliseet (Wolastoqiyik)\",             \"#122a4e\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#24a2d2",
+    "yeni_hex": "#122a4e",
+    "engel_sayisi": 14,
+    "voronoi_komsu": 4,
+    "en_yakin_engel_dE76": [
+     [
+      "ingiltere",
+      19.9
+     ],
+     [
+      "hollanda",
+      21.8
+     ],
+     [
+      "abenaki",
+      22.2
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "abenaki",
+      13.4
+     ],
+     [
+      "ingiltere",
+      13.8
+     ],
+     [
+      "savni",
+      14.2
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [],
+    "osmanli_dogrudan_dE76": 45.0,
+    "osmanli_tabi_dE76": 34.5,
+    "altlik_dE76": 33.2,
+    "deniz_beyan_yumusak_dE76": 28.4,
+    "deniz_beyan_yumusak_dL": 27.3,
+    "deniz_Esri_sert_dE76": 55.6,
+    "deniz_Esri_sert_dL": 53.5,
+    "kabartay_0c5a84_dE76": 10.6,
+    "venedik_fcfc06_dE76": 70.0,
+    "bagli_L": 59.2
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 30,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2932 (betsileo)",
+   "eski": "\"betsileo\":                (\"Betsileo Krallıkları\",                \"#249cd2\"),",
+   "yeni": "\"betsileo\":                (\"Betsileo Krallıkları\",                \"#182a4e\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#249cd2",
+    "yeni_hex": "#182a4e",
+    "engel_sayisi": 16,
+    "voronoi_komsu": 3,
+    "en_yakin_engel_dE76": [
+     [
+      "fransa-cumhuriyet",
+      12.1
+     ],
+     [
+      "ingiltere",
+      19.1
+     ],
+     [
+      "antemoro",
+      19.7
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "fransa-cumhuriyet",
+      7.5
+     ],
+     [
+      "ingiltere",
+      12.8
+     ],
+     [
+      "antandroy",
+      13.3
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [],
+    "osmanli_dogrudan_dE76": 44.1,
+    "osmanli_tabi_dE76": 33.5,
+    "altlik_dE76": 32.9,
+    "deniz_beyan_yumusak_dE76": 28.5,
+    "deniz_beyan_yumusak_dL": 27.0,
+    "deniz_Esri_sert_dE76": 55.6,
+    "deniz_Esri_sert_dL": 53.2,
+    "kabartay_0c5a84_dE76": 11.3,
+    "venedik_fcfc06_dE76": 69.8,
+    "bagli_L": 59.4
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 31,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2947 (etowah)",
+   "eski": "\"etowah\":                  (\"Etowah\",                              \"#2496d2\"),",
+   "yeni": "\"etowah\":                  (\"Etowah\",                              \"#0c2a5a\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#2496d2",
+    "yeni_hex": "#0c2a5a",
+    "engel_sayisi": 25,
+    "voronoi_komsu": 4,
+    "en_yakin_engel_dE76": [
+     [
+      "moundville",
+      17.9
+     ],
+     [
+      "ingiltere",
+      19.2
+     ],
+     [
+      "yeni-ispanya",
+      19.3
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "moundville",
+      12.5
+     ],
+     [
+      "cherokee",
+      12.8
+     ],
+     [
+      "yeni-ispanya",
+      12.9
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [],
+    "osmanli_dogrudan_dE76": 46.0,
+    "osmanli_tabi_dE76": 35.8,
+    "altlik_dE76": 34.7,
+    "deniz_beyan_yumusak_dE76": 27.9,
+    "deniz_beyan_yumusak_dL": 27.3,
+    "deniz_Esri_sert_dE76": 57.1,
+    "deniz_Esri_sert_dL": 52.9,
+    "kabartay_0c5a84_dE76": 10.0,
+    "venedik_fcfc06_dE76": 72.8,
+    "bagli_L": 59.1
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 32,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:3046 (vasulu)",
+   "eski": "\"vasulu\":                  (\"Vâsûlû Devleti (Samori Ture)\",        \"#248acc\"),",
+   "yeni": "\"vasulu\":                  (\"Vâsûlû Devleti (Samori Ture)\",        \"#0c4e6c\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#248acc",
+    "yeni_hex": "#0c4e6c",
+    "engel_sayisi": 40,
+    "voronoi_komsu": 7,
+    "en_yakin_engel_dE76": [
+     [
+      "fransa-cumhuriyet",
+      14.9
+     ],
+     [
+      "gyaaman",
+      19.3
+     ],
+     [
+      "sokoto",
+      21.7
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "fransa-cumhuriyet",
+      12.3
+     ],
+     [
+      "gyaaman",
+      14.1
+     ],
+     [
+      "sokoto",
+      15.0
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "solima-yalunka",
+      23.8
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 52.8,
+    "osmanli_tabi_dE76": 41.3,
+    "altlik_dE76": 30.4,
+    "deniz_beyan_yumusak_dE76": 23.8,
+    "deniz_beyan_yumusak_dL": 22.6,
+    "deniz_Esri_sert_dE76": 39.8,
+    "deniz_Esri_sert_dL": 39.7,
+    "kabartay_0c5a84_dE76": 3.8,
+    "venedik_fcfc06_dE76": 67.7,
+    "bagli_L": 63.8
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 33,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2924 (bambara)",
+   "eski": "\"bambara\":                 (\"Bambara Krallıkları (Segu ve Kaarta)\", \"#248ad2\"),",
+   "yeni": "\"bambara\":                 (\"Bambara Krallıkları (Segu ve Kaarta)\", \"#7200fc\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#248ad2",
+    "yeni_hex": "#7200fc",
+    "engel_sayisi": 53,
+    "voronoi_komsu": 9,
+    "en_yakin_engel_dE76": [
+     [
+      "tuareg-ivellemmedan",
+      12.2
+     ],
+     [
+      "tuareg-adag",
+      18.0
+     ],
+     [
+      "futa-toro",
+      19.6
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "tuareg-ivellemmedan",
+      4.5
+     ],
+     [
+      "futa-toro",
+      6.3
+     ],
+     [
+      "tuareg-adag",
+      6.7
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "solima-yalunka",
+      44.1
+     ],
+     [
+      "bundu",
+      62.0
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 57.6,
+    "osmanli_tabi_dE76": 54.6,
+    "altlik_dE76": 73.0,
+    "deniz_beyan_yumusak_dE76": 60.6,
+    "deniz_beyan_yumusak_dL": 25.1,
+    "deniz_Esri_sert_dE76": 121.4,
+    "deniz_Esri_sert_dL": 31.7,
+    "kabartay_0c5a84_dE76": 60.2,
+    "venedik_fcfc06_dE76": 117.7,
+    "bagli_L": 61.4
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 34,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:3020 (sahaptin)",
+   "eski": "\"sahaptin\":                (\"Sahaptin (Orta Columbia halkları)\",   \"#2484cc\"),",
+   "yeni": "\"sahaptin\":                (\"Sahaptin (Orta Columbia halkları)\",   \"#541260\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#2484cc",
+    "yeni_hex": "#541260",
+    "engel_sayisi": 20,
+    "voronoi_komsu": 3,
+    "en_yakin_engel_dE76": [
+     [
+      "sosoni",
+      15.1
+     ],
+     [
+      "nuu-cah-nulth",
+      20.4
+     ],
+     [
+      "yavapai",
+      20.9
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "sosoni",
+      8.5
+     ],
+     [
+      "yavapai",
+      11.6
+     ],
+     [
+      "nuu-cah-nulth",
+      11.9
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "ingiliz-kuzey-amerika",
+      18.6
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 32.6,
+    "osmanli_tabi_dE76": 22.7,
+    "altlik_dE76": 39.3,
+    "deniz_beyan_yumusak_dE76": 35.0,
+    "deniz_beyan_yumusak_dL": 27.2,
+    "deniz_Esri_sert_dE76": 71.8,
+    "deniz_Esri_sert_dL": 50.0,
+    "kabartay_0c5a84_dE76": 26.3,
+    "venedik_fcfc06_dE76": 78.7,
+    "bagli_L": 59.2
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 35,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:3058 (zuni)",
+   "eski": "\"zuni\":                    (\"Zuni (A:shiwi)\",                      \"#1e78c0\"),",
+   "yeni": "\"zuni\":                    (\"Zuni (A:shiwi)\",                      \"#241e96\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#1e78c0",
+    "yeni_hex": "#241e96",
+    "engel_sayisi": 25,
+    "voronoi_komsu": 4,
+    "en_yakin_engel_dE76": [
+     [
+      "sosoni",
+      12.9
+     ],
+     [
+      "apaci-ovalar",
+      13.3
+     ],
+     [
+      "klamath",
+      13.5
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "apaci-ovalar",
+      5.4
+     ],
+     [
+      "klamath",
+      5.6
+     ],
+     [
+      "norse-gronland",
+      6.9
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "komanci",
+      12.6
+     ],
+     [
+      "ingiliz-kuzey-amerika",
+      20.6
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 45.3,
+    "osmanli_tabi_dE76": 36.9,
+    "altlik_dE76": 45.3,
+    "deniz_beyan_yumusak_dE76": 33.2,
+    "deniz_beyan_yumusak_dL": 27.0,
+    "deniz_Esri_sert_dE76": 83.0,
+    "deniz_Esri_sert_dL": 48.7,
+    "kabartay_0c5a84_dE76": 25.0,
+    "venedik_fcfc06_dE76": 88.4,
+    "bagli_L": 59.4
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 36,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2917 (adamava)",
+   "eski": "\"adamava\":                 (\"Adamava Emirliği (Fumbina)\",          \"#2484d2\"),",
+   "yeni": "\"adamava\":                 (\"Adamava Emirliği (Fumbina)\",          \"#06ccfc\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#2484d2",
+    "yeni_hex": "#06ccfc",
+    "engel_sayisi": 44,
+    "voronoi_komsu": 9,
+    "en_yakin_engel_dE76": [
+     [
+      "damagaram",
+      12.8
+     ],
+     [
+      "portekiz",
+      13.3
+     ],
+     [
+      "ingiliz-sudani",
+      15.6
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "damagaram",
+      9.2
+     ],
+     [
+      "portekiz",
+      10.4
+     ],
+     [
+      "ingiliz-sudani",
+      11.1
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "aro-konfederasyonu",
+      32.4
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 75.4,
+    "osmanli_tabi_dE76": 61.9,
+    "altlik_dE76": 33.8,
+    "deniz_beyan_yumusak_dE76": 18.7,
+    "deniz_beyan_yumusak_dL": 5.3,
+    "deniz_Esri_sert_dE76": 21.0,
+    "deniz_Esri_sert_dL": 5.6,
+    "kabartay_0c5a84_dE76": 21.7,
+    "venedik_fcfc06_dE76": 71.8,
+    "bagli_L": 81.1
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 37,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:2929 (bemba)",
+   "eski": "\"bemba\":                   (\"Bemba Krallığı (Citimukulu)\",         \"#247ed2\"),",
+   "yeni": "\"bemba\":                   (\"Bemba Krallığı (Citimukulu)\",         \"#4e3000\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#247ed2",
+    "yeni_hex": "#4e3000",
+    "engel_sayisi": 40,
+    "voronoi_komsu": 11,
+    "en_yakin_engel_dE76": [
+     [
+      "hollanda",
+      12.3
+     ],
+     [
+      "yao",
+      12.6
+     ],
+     [
+      "kuba",
+      13.0
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "hollanda",
+      9.5
+     ],
+     [
+      "yao",
+      9.7
+     ],
+     [
+      "kuba",
+      10.3
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "fipa-nyakyusa",
+      20.5
+     ],
+     [
+      "svazi",
+      22.7
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 40.8,
+    "osmanli_tabi_dE76": 29.9,
+    "altlik_dE76": 28.9,
+    "deniz_beyan_yumusak_dE76": 39.7,
+    "deniz_beyan_yumusak_dL": 25.1,
+    "deniz_Esri_sert_dE76": 74.8,
+    "deniz_Esri_sert_dL": 47.9,
+    "kabartay_0c5a84_dE76": 29.0,
+    "venedik_fcfc06_dE76": 50.9,
+    "bagli_L": 61.3
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 38,
+   "madde": "RENK-3 · 0040/H-0004 (genel mavi aile)",
+   "dosya": "arac/renkler.py:3027 (solima-yalunka)",
+   "eski": "\"solima-yalunka\":          (\"Solima Yalunka Krallığı\",             \"#5a78d8\"),",
+   "yeni": "\"solima-yalunka\":          (\"Solima Yalunka Krallığı\",             \"#9084e4\"),",
+   "gerekce": "Emre (0040/H-0004): 'denizle benzer renk … bu renkler mavinin daha KOYU tonlarinda olmali'. Bugun `renk_olc.deniz_ihlal()` DAL1'de (yumusak kip, beyan denizine dE76<18) 21 kimlik sayiyor — 'mavi ailesi'nin tamami (ton 164-282); Emre'nin adini verdikleri 4 Eylul'de temizlenmisti, bunlar kalan govde. Cozucu bu 21'i + karakoyunlu'yu BIRLIKTE cozdu (renk_olc.oner mantigi + ek kisitlar), aday siralamasinda once KOYU (bagli L* 59'a yakin), sonra palet uyumu; ton ±40° icinde tutulmaya calisildi, bulunamazsa serbest birakildi. ⚠️ Kuzey Amerika ve Bati Afrika'da koyu-mavi aday uzayi tukendi: sahaptin → bordo-mor, bemba → koyu kahve, bambara → mor, zuni → lacivert-mor; bu ton sapmalari aletin durust cevabi, 'guzel' degil 'mesru' (renk_olc: 'Arac mesru der, guzel demez'). DAL2 (42 kimlik: acik pembe/sari/yesil, L* denizle esit ama mavi DEGIL) bu partiye ALINMADI — Emre'nin 'mavi aile' tarifine uymuyor, ayri karar.",
+   "kaynak": "olcum: arac/renk_olc.py fonksiyonlari (gorunen · engel_kumesi · komsuluk · deniz_ihlal · dE94) — scratchpad cozucu, diske yazmadi",
+   "delta_e": {
+    "eski_hex": "#5a78d8",
+    "yeni_hex": "#9084e4",
+    "engel_sayisi": 37,
+    "voronoi_komsu": 6,
+    "en_yakin_engel_dE76": [
+     [
+      "gonja",
+      13.2
+     ],
+     [
+      "ingiltere",
+      13.5
+     ],
+     [
+      "bate",
+      16.5
+     ]
+    ],
+    "en_yakin_engel_dE94": [
+     [
+      "gonja",
+      8.0
+     ],
+     [
+      "ingiltere",
+      12.2
+     ],
+     [
+      "bate",
+      12.8
+     ]
+    ],
+    "yeni_renkler_arasi_en_yakin_dE76": [
+     [
+      "vasulu",
+      23.8
+     ],
+     [
+      "bundu",
+      26.2
+     ]
+    ],
+    "osmanli_dogrudan_dE76": 50.1,
+    "osmanli_tabi_dE76": 36.6,
+    "altlik_dE76": 30.5,
+    "deniz_beyan_yumusak_dE76": 18.1,
+    "deniz_beyan_yumusak_dL": 10.4,
+    "deniz_Esri_sert_dE76": 46.0,
+    "deniz_Esri_sert_dL": 10.7,
+    "kabartay_0c5a84_dE76": 22.1,
+    "venedik_fcfc06_dE76": 77.1,
+    "bagli_L": 76.1
+   },
+   "etki_olculen": "bellekte 22 hex birlikte uygulanip `renk_olc.denetle()` kosuldu (3855 nokta, 586 kimlik): DENIZLE KARISAN DAL1 21 -> 0 · DAL2 42 -> 42 (dokunulmadi) · KOMSUSUYLA CAKISAN 2 -> 2 (ayni iki eski cift: indor-maratha, bharatpur-cat-gvalyar) · YAKIN-AMA-DEGMEYEN 6 -> 6 (ayni liste) · SINIRDA 128 -> 125 · gorunmez 0 -> 0 · ayni-hex 0 -> 0 · `cie94_karsilastir()` YALNIZ-CIE94 578 -> 567 · gurcistan-karakoyunlu dE76 12,90 -> 32,93 · dE94 5,78 -> 16,73. Kisitlar (her aday): altlik dE>=15 · bagli L*>=59 (aciklik tabani hex'i DEGISTIRMESIN) · deniz DORT gorunumde (sert/yumusak x beyan #c4dcea / Esri ~#7cb4d4) dE>=18 ve (|dL|>=4 ya da dE>=55) · engel_kumesi()+Osmanli ikilisi dE76>=12 · Voronoi komsusu + Osmanli dE94>=12 ve sert kipte dE76>=12 · 22 yeni renk birbirine ayni kurallarla · iki gecis. kabartay #0c5a84 ve venedik #fcfc06 BOYALAR'da ZATEN (783f473) — engel kumesine girdiler, tabloda ayrica olculdu. renkler.py motor izinde: kosu SURERKEN yazilmaz. Renk haritaya ancak `uret_petek.py` kosusu devletler_harita.js'i yeniden urettiginde iner (bugun yayinda kabartay/venedik bile eski renkte). Kosudan sonra `py arac/renk_olc.py` ve `py arac/renk_cikti.py` (cizili komsuluk) SART — bu oneri Voronoi komsulugunda olculdu, cizili haritada DEGIL.",
+   "madde_istegi": "yok — renk degisikligi kirilma dogurmaz",
+   "durum": "oneri"
+  },
+  {
+   "no": 39,
+   "madde": "KUTU HV-2 · 0014/H-0005 (Kutsal Roma rengi — ikinci yari)",
+   "dosya": "arac/renkler.py:614 (almanya)",
+   "eski": "—",
+   "yeni": "—",
+   "devir": "eec5f3d (12 Agu 2026, RENK DENIZ oturumu): almanya #16c6fe → #78d028",
+   "uygulandi": true,
+   "gerekce": "Sikayet 11 Agu (paket 0014), duzeltme ertesi gun. Bugun olculdu: BOYALAR almanya #78d028 (yesil), yayinda (devletler_harita.js) ayni. Beyan denizine yumusak kipte dE76 52,9 (|dL*| 4,1 — DAL2 esigi 4'un hemen ustu, izlenmeli), Esri denizine sert kipte 99,3, sert×beyan 91,2. Deniz ihlal listesinde YOK. HV-2'nin ilk yarisi (Polesya ucgeni) NOKTA isi, bu gorevin disinda.",
+   "kaynak": "olcum: renk_olc.gorunen/deniz_ihlal · git log -G'\"almanya\":' arac/renkler.py",
+   "etki_olculen": "renkler.py:614 girdide #78d028 (import ile okundu).",
+   "madde_istegi": "yok",
+   "durum": "devir",
+   "cevap_emreye": "Kutsal Roma'nın rengi 12 Ağustos'ta denize benzeyen açık maviden (#16c6fe) yeşile (#78d028) alındı ve yayında. İki deniz rengine göre de artık belirgin biçimde ayrışıyor."
+  },
+  {
+   "no": 40,
+   "madde": "KUTU HV-36 · 0032/H-0002 (renk kismi)",
+   "dosya": "arac/renkler.py:534 (karakoyunlu)",
+   "eski": "—",
+   "yeni": "—",
+   "devir": "bu dosya kalem 1 (ayni degisiklik)",
+   "uygulandi": false,
+   "gerekce": "Emre'nin 2 Eylul karari '(b) YINE DE KUSUR SAY, ARASTIRILSIN' okundu ve uygulandi: gurcistan-karakoyunlu dE76 12,90 esigi geciyor ama dE94 5,78 ⇒ kusur SAYILDI, kalem 1 onu kapatiyor (dE94 16,73). HV-36 NOT'undaki 'dE2000 7,5 (scratch)' ve 0019 NOT'undaki 'dE 25,7' sayilari bugunku gorunen renkle TUTMUYOR (bugun dE76 12,90); fark olcu birimi/opaklik farkindan, D052 sinifi. HV-36'nin 'harita karakoyunluya odaklanmiyor' kismi bu gorevin disinda.",
+   "kaynak": "olcum: renk_olc.gorunen + dE + dE94_asgari",
+   "etki_olculen": "Ek bulgu, YAMA YOK: ayni sinifin bir cifti daha acik — gurcistan ↔ kacar Voronoi komsusu, dE76 12,63 · dE94 4,70 (cie94_karsilastir listesinin basi; bu yama sonrasi da duruyor). Gurcistan icin cozucu aday bulamadi (0); kacar degismeli — ayri renk kalemi.",
+   "madde_istegi": "yok",
+   "durum": "devir",
+   "cevap_emreye": "Bunu kusur saydım (2 Eylül'deki \"(b)\" kararın). Karakoyunlu'nun rengi değişince Gürcistan ile arasındaki fark (ΔE) 12,9'dan 32,9'a çıkıyor. Aynı sorun Gürcistan ile Kaçarlar arasında da var (ΔE 12,6, göz için neredeyse aynı); o çift ayrı bir renk işi."
+  }
+ ]
+}
