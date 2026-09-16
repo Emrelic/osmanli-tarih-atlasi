@@ -1,0 +1,22 @@
+# DALGA-BEKLEYEN — gece iş kuyruğu · 17 Eylül 2026 01:20 · koordinatör 1.MURAT
+
+Emre: "sabaha kadar; boştaki eski oturumları önce kullan; 6 Opus + 6 Sonnet hazır kıta gelecek."
+Her iş verilince satırın başına oturum adını yaz (✅ bitince). Görevlendirme mesajının İLK SATIRI oturum adıdır.
+
+## A. Süren (zincirli)
+- 9 bölge oturumu — GERİYE SARMA G4→G7 (`GERIYE-SARMA-0916.md`), zincirli, koordinatör beklenmez.
+- EKO-ANTLASMA — bütün antlaşma ek okumaları (Osmanlı bitti; Emre: Osmanlı dışı antlaşmalar da, M-4215).
+- DALGA-0055/56/57/58/59/60/63 kalemleri ilgili oturumlarda.
+
+## B. Sıradaki işler (boşa çıkana ya da yeni kıtaya)
+| # | İş | Model | Dosya |
+|---|---|---|---|
+| B1 | EKSİK KRONOLOJİ 2. tur (Asya/Ortadoğu/Avrupa/Kafkasya/Anadolu yarısı): `denetim/KRONOLOJI-EKSIK-2-0917.json` — 0-2 maddeli 107 künyeden bu bölgeler; ilk turda "2 madde yeterli" denip atlananlar DAHİL. Hedef: kuruluş · önemli toprak değişimleri · son, kaynaklı | Sonnet (D-KUNYE) | `denetim/YAMA-KRONO2-DKUNYE-0917.json` |
+| B2 | EKSİK KRONOLOJİ 2. tur (Afrika/Amerika/Okyanusya/Güney-Doğu Asya yarısı) | Sonnet (D-KAYNAK) | `denetim/YAMA-KRONO2-DKAYNAK-0917.json` |
+| B3 | UI-ETKILESIM: DALGA-0063 madde 3·4·7·8 (sağ tık kopyala · boş tıklamada sayfa açılmasın · resim büyütme · cetvel) | Sonnet (yeni kıta) | `js/app.js` · `css/style.css` |
+| B4 | ESKİ PAKET DENETİMİ: `ClaudEmre/kutu/giden/parti-emrelic-00{40..63}/CEVAP.json` içinde `sirada` olan her madde için tahtada/git'te teslim var mı; teslimsiz olanları listele, hangisi hangi oturumda kaldı | Sonnet (yeni kıta) | `denetim/PAKET-BEKLEYEN-0917.md` |
+| B5 | ANTLAŞMA HARİTASI VERİSİ: D-GEOARAC'ın 504'lük çıktısından (`denetim/_ANTLASMA-HARITA-GENIS-CIKTI-0917.json`) eşleşenleri `data/antlasma_haritalari.js`e taşı, D-KATMAN'la şema | Sonnet (D-GEOARAC) | `data/antlasma_haritalari.js` |
+| B6 | EKO-ANTLASMA-2: Osmanlı DIŞI antlaşmalar (Avrupa: Vestfalya, Utrecht, Paris 1763, Viyana 1815…), EKO-ANTLASMA ile yıl aralığı bölüşülerek | Opus (yeni kıta) | `data/ekokuma_antlasma5.js` (app.js'e bağlanacak) |
+| B7 | EKSİK DEVLET KÜNYESİ: G4-G7 dalgalarında bölge oturumlarının "künye yok" dediği devletler (tahtadan topla) → künye önerisi | Opus (yeni kıta) | `denetim/YAMA-KUNYE-G4-0917.json` |
+| B8 | 13 bağsız ek okuma (YAMA-0057-OLAY `bulunamadi`): uygun kronoloji maddesi YOKSA kaynaklı yeni madde öner (Neşrî, Naîmâ, İznik çiniciliği, ebru…) | Sonnet | `denetim/YAMA-0057-OLAY-2.json` |
+| B9 | GEÇİT VERİTABANI (Emre onayı bekliyor — onaysız AÇMA) | — | — |

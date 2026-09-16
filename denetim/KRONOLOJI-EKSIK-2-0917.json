@@ -1,0 +1,156 @@
+{
+ "olcum": "2026-09-17 01:20 · kronolojisi 0-2 madde olan kunyeler (ikinci tur; ilk turda 2 maddeli olanlara yeni satir yazilmamisti)",
+ "bolgeye_gore": {
+  "orta-asya": [
+   "harezm-halk-cumhuriyeti",
+   "buhara-halk-cumhuriyeti"
+  ],
+  "guney-amerika": [
+   "fransiz-guyanasi",
+   "ranquel",
+   "charrua",
+   "arua",
+   "ekvador-cumhuriyeti",
+   "kolombiya-cumhuriyeti",
+   "chimu-krallik",
+   "colla-krallik",
+   "lupaqa-krallik",
+   "diaguita-calchaqui-konfederasyonu",
+   "muisca-konfederasyonu",
+   "ingiliz-guyanasi",
+   "hollanda-guyanasi"
+  ],
+  "iran": [
+   "lur-i-kucek",
+   "incu",
+   "kutlughanli",
+   "galzay",
+   "hurmuz-sultanligi"
+  ],
+  "balkanlar": [
+   "mora-despotlugu",
+   "bosna-isgal",
+   "oniki-ada-italyan",
+   "sarki-rumeli",
+   "garbi-trakya",
+   "dukagin",
+   "arvanid-sancagi",
+   "crnojevic-zetasi",
+   "dejanovic-prensligi",
+   "sirbistan-eyaleti"
+  ],
+  "anadolu": [
+   "kibris-krallik",
+   "kibris-ingiliz",
+   "fetret-isa",
+   "eyyubi-hisnikeyfa",
+   "sutayogullari",
+   "cemisgezek-beyligi"
+  ],
+  "kafkasya": [
+   "azerbaycan-demokratik-cumhuriyeti",
+   "kabartay",
+   "kumuk-samhalligi",
+   "kaheti-kralligi"
+  ],
+  "arabistan": [
+   "suud-ikinci",
+   "hicaz-kralligi",
+   "usfuri",
+   "nebhani",
+   "suriye-lubnan-mandasi",
+   "urdun-emirligi",
+   "kesiri-sultanligi",
+   "mekke-serifligi",
+   "sani-emirligi",
+   "sabah-emirligi",
+   "cebel-i-lubnan-mutasarrifligi"
+  ],
+  "misir-sudan": [
+   "dacu",
+   "misir-sultanligi",
+   "ingiliz-sudani",
+   "misir-eyaleti"
+  ],
+  "dogu-afrika": [
+   "sidamo-kralliklari",
+   "nkore",
+   "karagve",
+   "kenya-kuzey-halklari",
+   "kamba"
+  ],
+  "sibirya-bozkir": [
+   "kasim",
+   "tannu-tuva"
+  ],
+  "bati-afrika": [
+   "berabis",
+   "buna",
+   "gonja",
+   "tiv",
+   "birom-plato",
+   "adar",
+   "dan-guro",
+   "kru-grebo",
+   "bate",
+   "arma"
+  ],
+  "orta-afrika": [
+   "bamum",
+   "rabih",
+   "kanem-tubu",
+   "zende",
+   "kasance",
+   "yeke",
+   "tubu-tibesti"
+  ],
+  "guney-afrika": [
+   "torva",
+   "zimbabve-kralligi"
+  ],
+  "kuzey-afrika": [
+   "tuareg-ahaggar",
+   "tuareg-accer",
+   "rif-cumhuriyeti",
+   "ammarogullari",
+   "konstantin-beyligi"
+  ],
+  "kuzey-amerika": [
+   "alutiiq",
+   "secwepemc",
+   "mohave",
+   "sahaptin",
+   "spiro",
+   "cherokee",
+   "apaci-ovalar"
+  ],
+  "orta-avrupa": [
+   "avusturya-cumhuriyet",
+   "orta-macar-kralligi"
+  ],
+  "guneydogu-asya": [
+   "poni",
+   "bali-kralliklari-pejeng"
+  ],
+  "italya": [
+   "bonacolsi",
+   "piombino"
+  ],
+  "guney-asya": [
+   "multan-langah",
+   "kolhapur",
+   "baroda"
+  ],
+  "dogu-asya": [
+   "pingnan"
+  ],
+  "orta-amerika-karayip": [
+   "purepecha-imparatorlugu",
+   "tututepec-krallik",
+   "zapotek-krallik"
+  ],
+  "okyanusya": [
+   "tui-tonga-imparatorlugu"
+  ]
+ }
+}

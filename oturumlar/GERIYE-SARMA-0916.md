@@ -17,7 +17,16 @@ ADIM 2  GERİYE SARMA — dalga dalga:
         G1  1923 → 1918-11-11   (Mondros/Compiègne ateşkesleri, işgal hatları, Paris antlaşmaları)
         G2  1918 → 1914-07-28
         G3  1914 → 1878-07-13   (Berlin)
-        ... sonra koordinatör açar
+        G4  1878 → 1815-06-09   (Viyana Kongresi)                     ← 17 Eylül 01:15 AÇILDI
+        G5  1815 → 1774-07-21   (Küçük Kaynarca)
+        G6  1774 → 1699-01-26   (Karlofça)
+        G7  1699 → 1606-11-11   (Zitvatorok)
+        🟢 G4'ten itibaren ZİNCİRLİ: bir dalgayı bitirince tahtaya tek teslim yaz ve
+           koordinatörü BEKLEMEDEN sonrakine geç (Emre, 17 Eylül: "sabaha kadar").
+           Bölgende o dönemde ikinci taraf/sınır yoksa (ör. sömürge öncesi) bunu tek
+           cümleyle teslimde söyle ve sonraki dalgaya geç — boş kayıt uydurma.
+           Her dalgada ÖNCE mevcut kronoloji maddelerini say (olaylar*/kronoloji*/künye),
+           yalnız EKSİK olan antlaşma/işgal maddesini yaz (mükerrer yok).
         Her sınır parçası için: bu hat NE ZAMAN başladı (f), ÖNCESİNDE ne vardı?
         Öncesi yeni bir hat kaydıdır (kendi f/t'si, kendi sinif'i, kendi dayanağı).
         Antlaşmadan önceki işgal/ateşkes hattı → sinif D (koordinat kesinse). Kesin değilse
