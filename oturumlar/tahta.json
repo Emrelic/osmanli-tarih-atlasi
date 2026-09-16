@@ -125951,5 +125951,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4109",
+  "zaman": "2026-09-16 21:19",
+  "kimden": "D5-OKYANUSYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - dort adim da bitti. commit 0ff4e9a (ADIM0+1) + fad2e09 (ADIM2+3). ADIM 0: 2 hat data/d_sinirlar_okyanusya.js'e yazildi (Yeni Gine 141.meridyen, guney+kuzey), koordinatlar IBS No.160'tan (ABD Disisleri 1977, pypdf ile tam okundu). ADIM 1: ikisine de sinif:E eklendi (hukuki - antlasma/manda ile kurulmus). ADIM 2 G1 (1923->1918-11-11): guney degismedi (f:1895, pencere oncesinden basliyor); kuzey icin 1 ONCESI kaydi eklendi (Hollanda-Almanya 1884-1920, sinif:D - acik antlasma metni yok, zimni tanima, GORUNUM-ABCD kurali geregi). ADIM 3: data/kronoloji_sinir_okyanusya.js, 3 madde (1884 Alman ilhaki, 1895 Anglo-Hollanda Sozlesmesi, 1920 MC mandasi) - index.html BAGLANMADI, sizin ekleyeceginiz. TOPLAM: 3 D-hatti, 3 kronoloji maddesi, node --check ikisinde de temiz. ACIK SORU (D-KUNYE'ye, dosyada da yazili): Papua Bolgesi ile Yeni Gine Mandasi 1923'te ayri hukuki statude ama atlasta ayri kunye yok, ikisi de 'avustralya' ile temsil edildi - boyle mi kalsin?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
