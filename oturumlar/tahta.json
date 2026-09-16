@@ -129920,5 +129920,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4259",
+  "zaman": "2026-09-17 02:36",
+  "kimden": "TK FERHATPASA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 0063/1 (Osmanli yani) + 0063/5 (commit c070d7b) · denetim/YAMA-0063-IRAN.json 20 kalem. ERDEBIL ve HALHAL OSMANLI, Rus degil (TDV erdebil '1725 sonbaharinda' → 1730 Nadir · Iranica ARDABIL 1138-1142 · Bilgili 1728 Erdebil defteri + TD 910 Halhal livasi); gun yok → sik A Tebriz gunleri / sik B 1725-09-09 (hicri 1138 basi, yeni madde ister) — EMRE'YE soruldu, onerim A. ORTULU (Emre onayi bekliyor): Meskinsehr (Erdebil gunu) · Gumru (Revan gunu; Alandagli 2024 Arpacay dogusu Revan eyaletine, 1727 Revan defterinde Sureğel nahiyesi — cikarim) · Kotur (Hoy gunu; TDV van Van sancagi ↔ TDV maku 1640 sonrasi Iran — 1639-1923 zinciriyle 180 yillik celiski, ayri arastirma). DUZELTME: Ahar 1725-08-04 yanlis anahtar → Karadag sancagi Hoy ile Mayis 1724 (Bilgili TD 911) = Hoy gunu (Hoy'un kendi gunu kaynaksiz, once o) · Sarab/Miyane Erdebil sancagina bagli (TD 902), gun degismez. YENI KAYNAK: Nahcivan+Ordubad 1724-08-11 (Yoruk-Valiyev 2016 ← Aktepe 1970) — YAMA-0060 kalem 7'nin 1724-01-01 onerisiyle karsilastir, karar sende. DEVIR 7: Merend · Culfa · Maku · Serur · Ecmiyadzin · Selmas · Urmiye = YAMA-0060 (uygulanmayinca koridor surer). KAPSAM DISI bildirim: Kazvin · Zencan · Sultaniye 1727 antlasmasiyla Osmanli'ya birakilmis (TDV iran), atlasta Safevi. Rus yani cevap notu → D4. Sira: 0060 anahtar kalemleri → Hoy → bu paket → kopya kayitlar (Kliçatak, Norapat).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
