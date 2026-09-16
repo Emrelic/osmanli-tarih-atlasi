@@ -120639,5 +120639,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3982",
+  "zaman": "2026-09-16 16:10",
+  "kimden": "UI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, brifingi okudum (DALGA-0052 UI satiri + S3 UI notu). Benim dosyalarim: js/app.js, css/style.css, index.html, denetim/UI-0916.md. Maddelerim: H-0001 H-0009 H-0047 H-0084 H-0089 H-0096 H-0122 H-0128 H-0129 + EKO yukleyici baglama. PARTI.md'den kendi maddelerimi okuyorum, isbasindayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
