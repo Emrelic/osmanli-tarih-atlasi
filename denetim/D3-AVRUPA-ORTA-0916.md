@@ -184,6 +184,34 @@ Ukrayna Halk Cumhuriyeti ile Brest (1918-02-09) — yürürlük BULUNAMADI, kün
 Moldova Demokratik Cumhuriyeti (1917-12/1918-02) künyesi YOK · 1918 başı fiilî Dinyester hattı (Hotin kesimi A-M işgalinde).
 **Fiilî görünümde yanlış bilinen aralık:** Prut E hattı 1918-01-21 → 04-08 (Rumen ordusu Prut'un ötesinde).
 
+## 4d. 🆕 G3 — 1914-07-28 → 1878-07-13 (Berlin)
+
+```
+kayıt 114 → 127  ·  G3 aralığında başlayan 36 kayıt: E 6 · YOK 30
+kronoloji 37 → 42 madde (E 33 · D 8 · C 1) · yer_id dolu 25
+```
+**Yöntem:** taraf kimlikleri künye pencerelerine bölündü (`bol()`): Romanya prensliği → krallığı 1881-03-26 ·
+Sırbistan prensliği → krallığı 1882-03-06 · Bosna `bosna-isgal` (1878-07-13 → 1908-10-06) → `habsburg` · Rusya 3 rejim.
+G2 kayıtları G3'e uzatılırken kimlikleri `d1914-*` → `d1878-*` / `d1913-*` oldu (kronoloji `sinir_id`leri güncellendi).
+
+| Kayıt | f → t | sınıf | dayanak |
+|---|---|---|---|
+| `d1878-de-ah` (AUT-DEU) | **1878-07-13** → 1918-11-11 | E | 1914 hattı (Versay/Saint-Germain); 1878-1914 değişiklik kaydı yok (◐) |
+| `d1878-ru-ro-{prut,tuna}-{rus,gecici,sovyet}-{rp,rk}` (8 kayıt) | **1878-08-03** → 1918-04-08 | E | Berlin md. 45 + teati 1878-08-03 (IBS 43 ✓); 1878-07-13→08-03 güneyde 1856 hattı (koordinatsız) |
+| `d1913-sr-mn` (MNE-SRB) | **1913-11-12** → 1918-11-26 | E | Belgrad anlaşması (◐) + CANU ✓. 1878-1912 ortak sınır YOK (arada Osmanlı Yenipazar sancağı); 1912-13 işgal hattı koordinatsız |
+| `d1878-de-ru-*`, `d1878-ah-ru-*`, `d1878-de-ah-bohemya/silezya` | 1878-07-13 → | YOK | G2 gerekçesi |
+| `d1878-hm-ro-*`, `d1878-ah-ro-bukovina-*` (× Romanya prenslik/krallık) | 1878-07-13 → | YOK | Berlin md. 43 yalnız bağımsızlık; Karpat hattı değişmedi |
+| `d1878-bs-sr-drina-{bosna,ah}-{sp,sk}` | 1878-07-13 → 1918-11-11 | YOK | Berlin md. 25 işgal; ilhak 1908-10-06 (künye günü). **Osmanlı egemenliği yüzü D1-TURKIYE'nin** |
+| `d1878-bs-mn-*`, `d1878-ah-mn-dalmacya` | 1878-07-13 → | YOK | Berlin md. 26-29 (Spiça Dalmaçya'ya); Sutorina/Boka değişti |
+| `d1878-hm-sr-tuna-*`, 🆕 `d1878-sr-ro-tuna-*` | 1878-07-13 → | YOK | Sırbistan–Romanya Tuna sınırı (iki devlet de 1878'de bağımsız) — "değişmedi" diyen kaynak yok |
+| `d1913-mn-al`, `d1913-sr-al` | **1913-05-30** → | YOK (C) | Londra Antl. sınırları büyük devletlere bıraktı; konferans 1913 yazı (gün BULUNAMADI — f = hattın doğabileceği en erken gün) |
+
+**Kapsam dışı (başka oturumların):** Osmanlı ile olan her hat (Sırbistan/Karadağ–Osmanlı 1878-1912, Bosna–Yenipazar, 1880 Ülgün, 1909 Bosna protokolü) → D1 ·
+Bulgaristan'la olanlar → D2.
+**Kronoloji +5:** Berlin 1878 (Bosna işgali, bağımsızlıklar) · Berlin yürürlüğü 1878-08-03 (Güney Besarabya) ·
+Bosna ilhakı 1908-10-06 · Londra 1913 (Arnavutluk, C) · Sırbistan-Karadağ sınır anlaşması 1913-11-12.
+**Çakışma:** BATI'nın `dg3-hab-ch-1893-oncesi` kutusu `d1878-de-ah`nin 89/358, `dg3-ch-de-1879-oncesi` 3/358 noktasını örtüyor (BATI'ya yazıldı).
+
 ## 5. Kaynaklar (bu oturumda açılıp okunanlar)
 
 - ABD Dışişleri *International Boundary Study* (FSU): IBS 43, 47, 66, 74, 76, 77, 116 — `library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibsNNN.pdf` (pypdf ile tam metin)

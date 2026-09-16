@@ -612,18 +612,33 @@ dyok("d1918-al-yu-1913", [AL, YU], "1918-12-01", [19.2, 40.8, 20.9, 42.75],
 
 # ================================================================ G2 — 1914-07-28 → 1918-11-11
 G2 = "1914-07-28"
+G3 = "1878-07-13"   # 🆕 G3 alt sınırı (Berlin)
 HA, HM, RU, RG, SR, MN = "habsburg", "macaristan-habsburg", "rusya", "rusya-gecici-hukumet", "sirbistan-kralligi", "karadag"
-RUS_DONEM = [(RU, G2, "1917-03-15"), (RG, "1917-03-15", "1917-11-07"), (SU, "1917-11-07", None)]
+RP, SP, BI = "romanya", "sirbistan-prensligi", "bosna-isgal"
+# künye pencereleri (devletler.js'ten; taraf kimliği bu pencerelere göre bölünür)
+RUS_W = [(RU, "1547-01-16", "1917-03-15"), (RG, "1917-03-15", "1917-11-07"), (SU, "1917-11-07", "9999")]
+ROM_W = [(RP, "1859-01-24", "1881-03-26"), (RO, "1881-03-26", "9999")]
+SRB_W = [(SP, "1804-02-14", "1882-03-06"), (SR, "1882-03-06", "1918-12-01")]
+BOS_W = [(BI, "1878-07-13", "1908-10-06"), (HA, "1908-10-06", "1918-11-11")]
+KISA = {RU: "rus", RG: "gecici", SU: "sovyet", RP: "rp", RO: "rk", SP: "sp", SR: "sk", BI: "bosna", HA: "ah"}
 
 
-def rus_bol(t_son):
-    """Rusya tarafını künye pencerelerine böler: (kimlik, f, t)."""
-    out = []
-    for kim, f, t in RUS_DONEM:
-        t = t or t_son
-        if f < t_son:
-            out.append((kim, f, min(t, t_son)))
+def bol(pencereler, f, t):
+    """Her taraf için künye pencerelerinin kesişimi: [((kim1, kim2, ...), f, t)]."""
+    out = [((), f, t)]
+    for W in pencereler:
+        yeni = []
+        for kimler, a, b in out:
+            for kim, wf, wt in W:
+                ff, tt = max(a, wf), min(b, wt)
+                if ff < tt:
+                    yeni.append((kimler + (kim,), ff, tt))
+        out = yeni
     return out
+
+
+def rus_bol(t_son, f_bas=G3):
+    return [(k[0], f, t) for k, f, t in bol([RUS_W], f_bas, t_son)]
 
 
 BER45 = dict(ad="Berlin Antlaşması 1878 (AJIL Supplement metni, archive.org/JSTOR)", madde="md. 45", tarih="1878-07-13 (onay 1878-08-03, IBS 43)",
@@ -633,22 +648,32 @@ BER45 = dict(ad="Berlin Antlaşması 1878 (AJIL Supplement metni, archive.org/JS
 K["ber45"] = BER45
 VS27 = "Versay md. 27(5) + Saint-Germain md. 27(7): '3 Ağustos 1914 sınırı'"
 
-d_kaydi("d1914-de-ah", [A, HA], G2, "AUT-DEU", {"AUT": HA, "DEU": A},
+K["berlin"] = dict(ad="Berlin Antlaşması 1878 (AJIL Supplement metni, archive.org/JSTOR)", madde="md. 25 (Bosna-Hersek işgali, Yenipazar garnizonları), 26 (Karadağ), 29 (Spiça), 34 (Sırbistan), 43 (Romanya), 64 (onay)",
+                   tarih="1878-07-13 (teati 1878-08-03, IBS 43)", tur="antlasma", url="https://archive.org/stream/jstor-2212670/2212670_djvu.txt",
+                   alinti="shall be occupied and administered by Austria-Hungary")
+K["londra1913"] = dict(ad="IBS 116 — Londra Antlaşması ve Büyükelçiler Konferansı 1913", madde="Londra Antl. 1913-05-30 (Arnavutluk sınırları büyük devletlere); konferans 1913 yazı", tarih="1913",
+                       tur="IBS", url=FSU.format(116),
+                       alinti="Agreement, in principle, on the Albanian frontiers was reached",
+                       not_="kuzey sınır komisyonu 1914 Haziran'da bitti; kesinleşme savaşla ertelendi")
+
+d_kaydi("d1878-de-ah", [A, HA], G3, "AUT-DEU", {"AUT": HA, "DEU": A},
         degis(False, "Avusturya Devlet Antl. 1955 md. 5", "1914 hattı 1919'da değişmedi (Versay/Saint-Germain), 1955'te 1938 hattı geri geldi"),
         dy("versay27", "sg50"), {"t": "1914 öncesi", "not": "eski işaretli hat"}, t="1918-11-11",
-        not_=f"G2. {VS27} ⇒ bu çizgi 1914'te Almanya–Avusturya-Macaristan sınırıydı. f = G2 alt sınırı (hat çok daha eski — G3). "
-             "Habsburg künyesi 1918-11-11'de bitiyor, Avusturya Cumhuriyeti 1918-11-12'de başlıyor: 1 günlük künye boşluğu.")
+        not_=f"G2+G3. {VS27} ⇒ bu çizgi 1914'te Almanya–Avusturya-Macaristan sınırıydı; 1878-1914 arasında değiştiğine dair kayıt yok (◐ — 'değişmedi' diyen kaynak da yok). "
+             "f = G3 alt sınırı (hat daha eski). Habsburg künyesi 1918-11-11'de bitiyor, Avusturya Cumhuriyeti 1918-11-12'de başlıyor: 1 günlük künye boşluğu.")
 
 # Prut: Berlin md. 45 tarifi (Prut orta kanalı + Kilya + Eski İstanbul) = bugünkü RO-MD/RO-UA tarifi (IBS 43) ⇒ hukukî kimlik; yatak kayması ölçülmedi
-for kim, f, t in rus_bol("1918-04-08"):
-    son = {RU: "rusya", RG: "gecici", SU: "sovyet"}[kim]
-    for cift, parca, iso in (("MDA-ROU", 1, {"MDA": kim, "ROU": RO}), ("ROU-UKR", 2, {"ROU": RO, "UKR": kim})):
-        d_kaydi(f"d1914-ru-ro-{'prut' if cift == 'MDA-ROU' else 'tuna'}-{son}", [kim, RO], f, cift, iso,
+# f = Berlin teatisi 1878-08-03 (IBS 43). Taraflar: Rusya 3 rejim × Romanya prensliği/krallığı
+for (kr, kro), f, t in bol([RUS_W, ROM_W], "1878-08-03", "1918-04-08"):
+    son = f"{KISA[kr]}-{KISA[kro]}"
+    for cift, parca, iso in (("MDA-ROU", 1, {"MDA": kr, "ROU": kro}), ("ROU-UKR", 2, {"ROU": kro, "UKR": kr})):
+        d_kaydi(f"d1878-ru-ro-{'prut' if cift == 'MDA-ROU' else 'tuna'}-{son}", [kr, kro], f, cift, iso,
                 degis(False, "IBS 43 + Berlin md. 45", "aynı nehir tarifi (Prut talvegi; Tuna-Kilya-Eski İstanbul); 1948-49 yeniden işaretlendi. 🟡 nehir yatağı kayması ÖLÇÜLMEDİ"),
                 dy("ber45", "ibs43"),
                 None, parca=parca, t=t,
-                not_="G2. Rusya-Romanya hattı (1878). t = Besarabya birliği (1918-04-08, IBS 43). "
-                     + ("🔴 Moldova Demokratik Cumhuriyeti (1917-12/1918-02) künyesi YOK; Rumen ordusu 1918 başında Prut'u geçti — fiilî görünüm bu aralıkta yanlış. " if kim == SU else "")
+                not_="G2+G3. Rusya-Romanya hattı: Berlin md. 45 ile Güney Besarabya Rusya'ya döndü; f = teati 1878-08-03 (IBS 43), t = Besarabya birliği (1918-04-08). "
+                     "1878-07-13 → 08-03 arası güneyde 1856 hattı geçerliydi (koordinatsız, yazılmadı). "
+                     + ("🔴 Moldova Demokratik Cumhuriyeti (1917-12/1918-02) künyesi YOK; Rumen ordusu 1918 başında Prut'u geçti — fiilî görünüm bu aralıkta yanlış. " if kr == SU else "")
                      + ("Bugünkü RO-UA kuzey ucundaki ~20 km'lik Prut parçası (Novoselitsa yakını) kesim belirsizliği yüzünden ALINMADI." if cift == "MDA-ROU" else ""))
 
 
@@ -682,70 +707,89 @@ K["dobrincu"] = dict(ad="Dobrincu (Iaşi Üniv.), Europa Liberă yazıları", ma
 K["fi_tanima"] = dict(ad="histdoc.net — Sovyet tanıma belgeleri (çeviri)", madde="Sovnarkom 1917-12-31, VTsİK 1918-01-04", tarih="1918-01-04", tur="belge-cevirisi",
                       url="https://histdoc.net/history/itsen2.html", not_="◐; tanıma belgesinde sınır tarifi YOK")
 for i, kutu in enumerate([[20.9, 54.3, 22.95, 55.9], [18.6, 53.0, 22.95, 54.35], [17.3, 50.2, 19.25, 53.05]], 1):
-    yok_rus(f"d1914-de-ru-{i}", A, kutu, BREST_T, dy("versay28", "versay87", "brest", "melno"),
-            "G2. Almanya-Rusya 1914 sınırı (Doğu Prusya / Poznan / Silezya – Kongre Polonyası-Litvanya). Koordinat YOK. "
+    yok_rus(f"d1878-de-ru-{i}", A, kutu, BREST_T, dy("versay28", "versay87", "brest", "melno"),
+            "G2+G3. Almanya-Rusya sınırı (Doğu Prusya / Poznan / Silezya – Kongre Polonyası-Litvanya); 1878-1918 arasında değişmedi (◐). Koordinat YOK. "
             "Doğu Prusya-Litvanya kesimi 1422 Melno hattı, Versay'a kadar korundu (VLE ✓); bugünkü Kaliningrad-Litvanya hattının "
             "güney kısmıyla aynı olduğunu söyleyen akademik cümle BULUNAMADI ⇒ çizilmedi. "
-            "t: Brest-Litovsk teatisi 1918-03-29 (Rusya Polonya ve Litvanya'dan vazgeçti, md. III).")
+            "t: Brest-Litovsk teatisi 1918-03-29 (Rusya Polonya ve Litvanya'dan vazgeçti, md. III). f = G3 alt sınırı.")
 for i, kutu in enumerate([[18.9, 49.95, 24.2, 51.05], [23.9, 48.55, 26.45, 51.05], [25.9, 48.15, 26.4, 48.5]], 1):
-    yok_rus(f"d1914-ah-ru-{i}", HA, kutu, BREST_AH_T, dy("riga1921", "ibs43", "brest"),
-            "G2. Avusturya-Macaristan (Galiçya/Bukovina) – Rusya sınırı; Zbruç kesimi 1921'de Polonya-SSCB hattı oldu (Riga md. 2). Koordinat YOK. "
-            "t: Merkez Devletleri–Rusya teatisi 1918-07-04 (◐).")
+    yok_rus(f"d1878-ah-ru-{i}", HA, kutu, BREST_AH_T, dy("riga1921", "ibs43", "brest"),
+            "G2+G3. Avusturya-Macaristan (Galiçya/Bukovina) – Rusya sınırı; Zbruç kesimi 1921'de Polonya-SSCB hattı oldu (Riga md. 2). Koordinat YOK. "
+            "t: Merkez Devletleri–Rusya teatisi 1918-07-04 (◐). f = G3 alt sınırı.")
 dyok("d1918-brest", [A, SU], BREST_T, [21.0, 51.5, 28.5, 59.6],
      degis(True, "Brest md. III", "Sovyet Rusya 1918-11-13'te iptal etti (◐)"), dy("brest"), None,
      "G2. Brest-Litovsk md. III hattı: batısı Rus egemenliğinden çıktı; hat antlaşma HARİTASINDA — koordinat YOK. "
      "Karşı taraf Almanya'nın işgalindeki eski Rus toprakları (Polonya, Litvanya, Kurland; ek antlaşma 1918-08-27 ile Estonya-Livonya — metin OKUNMADI). "
      "Ukrayna Halk Cumhuriyeti ile Brest (1918-02-09, md. II Holm hattı) — yürürlüğü BULUNAMADI, künyesi YOK ⇒ yazılmadı.",
      kategori_1923="E", t="1918-11-13")
-dyok("d1914-de-ah-bohemya-1", [A, HA], G2, [12.0, 49.3, 13.9, 50.4],
-     degis(None, None, "Bohemya-Bavyera — 1923 kaydıyla aynı gerekçe"), dy("versay83"), None, "G2.", t="1918-11-11")
-dyok("d1914-de-ah-bohemya-2", [A, HA], G2, [12.0, 50.2, 15.1, 51.1],
-     degis(None, None, "Bohemya-Saksonya"), dy("versay83"), None, "G2.", t="1918-11-11")
-dyok("d1914-de-ah-bohemya-3", [A, HA], G2, [12.8, 48.78, 13.83, 49.3],
-     degis(None, None, "Bohemya-Bavyera güney"), dy("versay83"), None, "G2.", t="1918-11-11")
-dyok("d1914-de-ah-silezya", [A, HA], G2, [14.8, 49.9, 19.4, 51.1],
-     degis(True, None, "Prusya Silezyası – Avusturya Silezyası/Moravya/Galiçya; 1920-45 değişti"), dy("versay83"), None, "G2.", t="1918-11-11")
+dyok("d1878-de-ah-bohemya-1", [A, HA], G3, [12.0, 49.3, 13.9, 50.4],
+     degis(None, None, "Bohemya-Bavyera — 1923 kaydıyla aynı gerekçe"), dy("versay83"), None, "G2+G3.", t="1918-11-11")
+dyok("d1878-de-ah-bohemya-2", [A, HA], G3, [12.0, 50.2, 15.1, 51.1],
+     degis(None, None, "Bohemya-Saksonya"), dy("versay83"), None, "G2+G3.", t="1918-11-11")
+dyok("d1878-de-ah-bohemya-3", [A, HA], G3, [12.8, 48.78, 13.83, 49.3],
+     degis(None, None, "Bohemya-Bavyera güney"), dy("versay83"), None, "G2+G3.", t="1918-11-11")
+dyok("d1878-de-ah-silezya", [A, HA], G3, [14.8, 49.9, 19.4, 51.1],
+     degis(True, None, "Prusya Silezyası – Avusturya Silezyası/Moravya/Galiçya; 1920-45 değişti"), dy("versay83"), None, "G2+G3.", t="1918-11-11")
 BUKRES_NOT = ("Bükreş Barışı (1918-05-07) md. 11 Karpat hattını A-M lehine düzeltiyordu ama kral onaylamadı, teati olmadı ⇒ "
-              "yürürlüğe GİRMEDİ (◐) — hukukî hat 1914 hattı kaldı. ")
-dyok("d1914-hm-ro-1", [HM, RO], G2, [22.0, 44.6, 26.0, 45.9],
-     degis(True, None, "1920'den beri Romanya içi"), dy("ibs43", "bukres1918"), None,
-     "G2. Macar tacı (Banat/Transilvanya) – Romanya Karpat sınırı. " + BUKRES_NOT +
-     "Rumen ordusu 1916-08-27'de Transilvanya'ya girdi, 1916 sonbaharında geri atıldı; Bükreş 1916 Aralık'ta düştü (cephe hatları koordinatsız).",
-     t="1918-11-16")
-dyok("d1914-hm-ro-2", [HM, RO], G2, [25.3, 45.4, 26.6, 47.3],
-     degis(True, None, "1920'den beri Romanya içi"), dy("ibs43", "bukres1918"), None, "G2. Doğu Karpat kesimi. " + BUKRES_NOT, t="1918-11-16")
-dyok("d1914-ah-ro-bukovina", [HA, RO], G2, [25.2, 47.2, 26.6, 48.3],
-     degis(True, "IBS 43", "1918 birlik; 1940 Kuzey Bukovina hattı"), dy("ibs43", "bukres1918"), None,
-     "G2. Bukovina (Avusturya) – Romanya. IBS 43: kuzey sınırında 1918'e kadar değişiklik yok. " + BUKRES_NOT, t="1918-11-11")
-dyok("d1914-ah-sr-drina", [HA, SR], G2, [18.9, 43.55, 19.75, 44.9],
-     degis(True, "Spahić 2017", "Drina hattı Berlin 1878'den; AVNOJ 1943 '1918 sınırları' — ama küçük düzeltmeler (Foça, Zvornik adaları), "
-                                "onaylanmamış Drina kesimi ve anlaşmazlıklar (Sjeverin, Međurječje, Štrbci, barajlar)"),
-     dy("spahic"), None,
-     "G2. Bosna-Hersek – Sırbistan (Drina; güneyde Rudo-Priboj eski Bosna/Sancak ayrımı). Bugünkü BİH-SRB büyük ölçüde bu hat "
-     "ama kaynak küçük farklar sayıyor ⇒ çizilmedi (koordinatör kararı: farklı kesimler kutulanıp geri kalanı vekil yapılabilir). "
-     "Sırbistan 1915 sonbaharında işgal edildi.", t="1918-11-11")
-dyok("d1914-hm-sr-tuna", [HM, SR], G2, [19.1, 44.4, 22.7, 45.2],
-     degis(True, None, "Srem/Banat 1918'den beri Sırbistan içi"), dy("ibs116"), None,
-     "G2. Macar tacı (Hırvatistan-Slavonya/Banat) – Sırbistan: Sava ve Tuna.", t="1918-11-16")
-dyok("d1914-ah-mn", [HA, MN], G2, [18.4, 42.3, 19.15, 43.6],
-     degis(True, "Spahić 2017 + CANU", "Sutorina 1929'da Zeta'ya, 1945'te Karadağ'a; Boka 1918'e kadar Avusturya Dalmaçyası ⇒ bugünkü HRV-MNE 1914 hattı DEĞİL; "
-                                       "BİH-MNE'nin 1878 hattıyla aynılığı BULUNAMADI"),
-     dy("spahic", "canu"), None, "G2. Hersek/Dalmaçya – Karadağ. Karadağ 1916 Ocak'ta işgal edildi.", t="1918-11-11")
-d_kaydi("d1914-sr-mn", [SR, MN], G2, "MNE-SRB", {"MNE": MN, "SRB": SR},
+              "yürürlüğe GİRMEDİ (◐) — hukukî hat 1914 hattı kaldı. Berlin 1878 bu hattı değiştirmedi (md. 43 yalnız bağımsızlık). ")
+for (kro,), f, t in bol([ROM_W], G3, "1918-11-16"):
+    dyok(f"d1878-hm-ro-1-{KISA[kro]}", [HM, kro], f, [22.0, 44.6, 26.0, 45.9],
+         degis(True, None, "1920'den beri Romanya içi"), dy("berlin", "ibs43", "bukres1918"), None,
+         "G2+G3. Macar tacı (Banat/Transilvanya) – Romanya Karpat sınırı. " + BUKRES_NOT +
+         "Rumen ordusu 1916-08-27'de Transilvanya'ya girdi, 1916 sonbaharında geri atıldı (cephe hatları koordinatsız).", t=t)
+    dyok(f"d1878-hm-ro-2-{KISA[kro]}", [HM, kro], f, [25.3, 45.4, 26.6, 47.3],
+         degis(True, None, "1920'den beri Romanya içi"), dy("berlin", "ibs43", "bukres1918"), None, "G2+G3. Doğu Karpat kesimi. " + BUKRES_NOT, t=t)
+for (kro,), f, t in bol([ROM_W], G3, "1918-11-11"):
+    dyok(f"d1878-ah-ro-bukovina-{KISA[kro]}", [HA, kro], f, [25.2, 47.2, 26.6, 48.3],
+         degis(True, "IBS 43", "1918 birlik; 1940 Kuzey Bukovina hattı"), dy("berlin", "ibs43", "bukres1918"), None,
+         "G2+G3. Bukovina (Avusturya) – Romanya. IBS 43: kuzey sınırında 1918'e kadar değişiklik yok. " + BUKRES_NOT, t=t)
+# Bosna – Sırbistan: 1878-1908 Bosna A-M işgalinde (Osmanlı egemenliği, künye `bosna-isgal`), 1908-10-06 ilhak
+for (kb, ks), f, t in bol([BOS_W, SRB_W], G3, "1918-11-11"):
+    dyok(f"d1878-bs-sr-drina-{KISA[kb]}-{KISA[ks]}", [kb, ks], f, [18.9, 43.55, 19.75, 44.9],
+         degis(True, "Spahić 2017", "Drina hattı Berlin 1878'den; AVNOJ 1943 '1918 sınırları' — ama küçük düzeltmeler (Foça, Zvornik adaları), "
+                                    "onaylanmamış Drina kesimi ve anlaşmazlıklar (Sjeverin, Međurječje, Štrbci, barajlar)"),
+         dy("berlin", "spahic"), None,
+         "G2+G3. Bosna-Hersek – Sırbistan (Drina; güneyde Rudo-Priboj eski Bosna/Sancak ayrımı). Bugünkü BİH-SRB büyük ölçüde bu hat "
+         "ama kaynak küçük farklar sayıyor ⇒ çizilmedi. 1878-1908 Bosna, Berlin md. 25 ile A-M işgal ve idaresinde (egemenlik Osmanlı'da — "
+         "o dönemin Osmanlı yüzü D1-TURKIYE'nin); ilhak 1908-10-06 (künye günü). Sırbistan 1915 sonbaharında işgal edildi.", t=t)
+for (ks,), f, t in bol([SRB_W], G3, "1918-11-16"):
+    dyok(f"d1878-hm-sr-tuna-{KISA[ks]}", [HM, ks], f, [19.1, 44.4, 22.7, 45.2],
+         degis(True, None, "Srem/Banat 1918'den beri Sırbistan içi"), dy("berlin"), None,
+         "G2+G3. Macar tacı (Hırvatistan-Slavonya/Banat) – Sırbistan: Sava ve Tuna.", t=t)
+for (ks, kro), f, t in bol([SRB_W, ROM_W], G3, "1918-12-01"):
+    dyok(f"d1878-sr-ro-tuna-{KISA[ks]}-{KISA[kro]}", [ks, kro], f, [21.3, 44.3, 22.6, 44.9],
+         degis(None, None, "Tuna kesimi için 'değişmedi' diyen kaynak BULUNAMADI (Demir Kapı barajı)"), dy("berlin"), None,
+         "G3. Sırbistan–Romanya Tuna sınırı (iki devlet de Berlin md. 34 / 43 ile bağımsız). Timok ağzı–Demir Kapı. 1923 `d1923-ro-yu-tuna` ile aynı kutu.",
+         kategori_1923="E", t=t)
+for (kb,), f, t in bol([BOS_W], G3, "1918-11-11"):
+    dyok(f"d1878-bs-mn-{KISA[kb]}", [kb, MN], f, [18.4, 42.3, 19.15, 43.6],
+         degis(True, "Spahić 2017 + CANU", "Sutorina 1929'da Zeta'ya, 1945'te Karadağ'a ⇒ bugünkü sınır 1914 hattı DEĞİL; "
+                                           "BİH-MNE'nin 1878 hattıyla aynılığı BULUNAMADI"),
+         dy("berlin", "spahic", "canu"), None,
+         "G2+G3. Hersek – Karadağ (Berlin md. 26-29 hattı). 1878-1908 Hersek A-M işgalinde. Karadağ 1916 Ocak'ta işgal edildi.", t=t)
+dyok("d1878-ah-mn-dalmacya", [HA, MN], G3, [18.4, 42.0, 19.15, 42.55],
+     degis(True, "CANU", "Boka 1918'e kadar Avusturya Dalmaçyası, 1945'te Karadağ'a ⇒ bugünkü HRV-MNE 1914 hattı DEĞİL"),
+     dy("berlin", "canu"), None,
+     "G2+G3. Dalmaçya (Boka/Spiça) – Karadağ. Berlin md. 29: Spiça Dalmaçya'ya katıldı, Bar (Antivari) Karadağ'a.", t="1918-11-11")
+d_kaydi("d1913-sr-mn", [SR, MN], "1913-11-12", "MNE-SRB", {"MNE": MN, "SRB": SR},
         degis(False, "CANU Leksikon", "Sancak bugün 1913 sınırlarına göre bölünmüş (✓)"),
         dy("sr_mn_1913", "canu"), None, t="1918-11-26",
-        not_="G2. 1913-11-12 (◐) Belgrad anlaşmasıyla Sancak bölündü; f = G2 alt sınırı (G3'te 1913'e uzar). t = Karadağ künyesinin sonu "
-             "(Podgorica meclisi, birlik) ⇒ hat SHS içinde iç sınır oldu. 1913 hattı doğuda bugünkü Kosova'nın içinden (İpek-Yakova Karadağ'daydı) "
-             "Beyaz Drin üçlü noktasına gidiyordu — o kısım bugünkü çizgi DEĞİL, alınmadı. 1915-18 iki taraf da işgal altında.")
-dyok("d1914-sr-mn-kosova", [SR, MN], G2, [19.9, 42.2, 20.9, 42.82],
+        not_="G2+G3. f = 1913-11-12 (30 Ekim E.T.) Belgrad sınır anlaşması (◐ ikincil yayın). Öncesi: Sancak 1912 Ekim'de iki ordunun işgaline girdi "
+             "(fiilî ayrım hattı koordinatsız, yazılmadı); 1878-1912 arasında iki devletin ortak sınırı YOKTU (arada Osmanlı Yenipazar sancağı). "
+             "t = Karadağ künyesinin sonu (Podgorica meclisi) ⇒ hat SHS içinde iç sınır oldu. 1913 hattı doğuda bugünkü Kosova'nın içinden "
+             "(İpek-Yakova Karadağ'daydı) Beyaz Drin üçlü noktasına gidiyordu — o kısım alınmadı. 1915-18 iki taraf da işgal altında.")
+dyok("d1913-sr-mn-kosova", [SR, MN], "1913-11-12", [19.9, 42.2, 20.9, 42.82],
      degis(True, "sr_mn_1913", "1913 hattının Metohija kesimi bugün Kosova içi"), dy("sr_mn_1913", "canu"), None,
-     "G2. Karadağ'ın İpek-Yakova kesimi ile Sırbistan arası.", t="1918-11-26")
-dyok("d1914-mn-al", [MN, AL], G2, [19.2, 41.8, 20.1, 42.75],
-     degis(True, "IBS 116", "1913 hattı 1921'de 'bazı değişikliklerle' onaylandı"), dy("ibs116"), None,
-     "G2. 1913 Londra hattı: prensipte kabul, kuzey komisyonu 1914 Haziran'da bitti, kesinleşmesi savaşla ertelendi (IBS 116 ✓). "
-     "Arnavutluk 1914-18 boyunca işgal altında (Karadağ, Sırbistan, İtalya, A-M).", kategori_1923="C", t="1918-11-26")
-dyok("d1914-sr-al", [SR, AL], G2, [20.0, 40.8, 20.9, 42.6],
-     degis(True, "IBS 116", "aynı gerekçe"), dy("ibs116"), None, "G2. 1913 Londra hattı (C).", kategori_1923="C", t="1918-12-01")
+     "G2+G3. Karadağ'ın İpek-Yakova kesimi ile Sırbistan arası.", t="1918-11-26")
+ARN_NOT = ("1913 Londra hattı: Londra Antlaşması (1913-05-30) sınırları büyük devletlere bıraktı, Büyükelçiler Konferansı 1913 YAZINDA prensipte anlaştı "
+           "(gün BULUNAMADI — f = Londra Antlaşması, yani hattın doğabileceği en erken gün), kuzey komisyonu 1914 Haziran'da bitti, "
+           "kesinleşme savaşla ertelendi (IBS 116 ✓). 1912-11-28 → 1913-05-30 arası Arnavutluk sınırsız (Balkan Savaşı işgalleri koordinatsız). "
+           "Arnavutluk 1914-18 boyunca işgal altında (Karadağ, Sırbistan, İtalya, A-M).")
+dyok("d1913-mn-al", [MN, AL], "1913-05-30", [19.2, 41.8, 20.1, 42.75],
+     degis(True, "IBS 116", "1913 hattı 1921'de 'bazı değişikliklerle' onaylandı"), dy("londra1913", "ibs116"), None,
+     "G2+G3. " + ARN_NOT, kategori_1923="C", t="1918-11-26")
+dyok("d1913-sr-al", [SR, AL], "1913-05-30", [20.0, 40.8, 20.9, 42.6],
+     degis(True, "IBS 116", "aynı gerekçe"), dy("londra1913", "ibs116"), None, "G2+G3. " + ARN_NOT, kategori_1923="C", t="1918-12-01")
 
 # Finlandiya fiilî hattı G2'ye uzar: Sovyet tanıması 1918-01-04 (◐; belgede sınır tarifi YOK)
 for k in KAYIT:
@@ -995,7 +1039,33 @@ KRON += [
     m("1918-11-26", MN, [MN, SR], "Karadağ Sırbistan'la birleşti: 1913 sınırı devletlerarası olmaktan çıktı", "son", 4, 2, "Podgorica",
       "Podgorica meclisinin birleşme kararıyla Karadağ Krallığı sona erdi ve Sancak'ı 1913'te bölen Sırbistan-Karadağ sınırı iç sınır oldu. "
       "Karadağ Bilimler Akademisi'nin sözlüğüne göre Sancak bugün de 1913 sınırlarına göre bölünmüş durumdadır.",
-      ["sr_mn_1913", "canu"], "E", "d1914-sr-mn"),
+      ["sr_mn_1913", "canu"], "E", "d1913-sr-mn"),
+]
+# ---- G3 maddeleri (1878-07-13 → 1914-07-28)
+KRON += [
+    m("1878-07-13", BI, [BI, SP, MN], "Berlin Antlaşması: Bosna-Hersek A-M işgaline, Sırbistan ve Karadağ bağımsız", "antlasma", 5, 5, "Saraybosna",
+      "Berlin Kongresi'nin antlaşması 25. maddeyle Bosna-Hersek'i Avusturya-Macaristan'ın işgal ve idaresine bıraktı ve Yenipazar sancağında A-M garnizonlarına izin verdi. "
+      "26. ve 34. maddeler Karadağ ile Sırbistan'ın bağımsızlığını tanıdı; 29. madde Spiça'yı Dalmaçya'ya kattı. "
+      "Böylece Bosna'nın Sırbistan ve Karadağ ile sınırları A-M idaresinde bir hat oldu; egemenlik Osmanlı'da kaldı.",
+      ["berlin", "spahic"], "E", "d1878-bs-sr-drina"),
+    m("1878-08-03", RU, [RU, RP], "Berlin Antlaşması yürürlüğe girdi: Güney Besarabya Rusya'ya döndü", "antlasma", 4, 3, "İsmail",
+      "Berlin Antlaşması'nın 45. maddesi, 1856'da Rusya'dan alınan Güney Besarabya'yı Romanya'dan Rusya'ya geri verdi; yeni sınır batıda Prut'un orta kanalı, "
+      "güneyde Kilya kolu ve Eski İstanbul ağzı oldu. Onay belgeleri 3 Ağustos 1878'de değişildi. Romanya karşılığında Kuzey Dobruca'yı aldı.",
+      ["ber45", "ibs43"], "E", "d1878-ru-ro-prut"),
+    m("1908-10-06", HA, [HA, SR, MN], "Avusturya-Macaristan Bosna-Hersek'i ilhak etti", "toprak-kazanc", 5, 4, "Saraybosna",
+      "Avusturya-Macaristan, 1878'den beri işgal ve idaresinde tuttuğu Bosna-Hersek'i Ekim 1908'de ilhak etti; Bosna'nın Sırbistan ve Karadağ ile sınırları "
+      "böylece doğrudan Avusturya-Macaristan'ın devletlerarası sınırı oldu. Gün atlasın künye kaydından alınmıştır (5-6 Ekim olarak da verilir); "
+      "Osmanlı ile tanıma protokolü D1-TURKIYE'nin kapsamındadır.",
+      ["spahic"], "E", "d1878-bs-sr-drina"),
+    m("1913-05-30", AL, [AL, SR, MN], "Londra Antlaşması: Arnavutluk'un sınırları büyük devletlere bırakıldı", "antlasma", 5, 4, "İşkodra",
+      "Birinci Balkan Savaşı'nı bitiren Londra Antlaşması, yeni Arnavutluk devletinin statüsünü ve sınırlarını büyük devletlerin kararına bıraktı. "
+      "Londra Büyükelçiler Konferansı 1913 yazında kuzey sınırında prensipte anlaştı (gün bulunamadı); kuzey sınır komisyonu işini Haziran 1914'te bitirdi, "
+      "ancak kesinleşme savaş yüzünden ertelendi.",
+      ["londra1913", "ibs116"], "C", "d1913-mn-al"),
+    m("1913-11-12", SR, [SR, MN], "Sırbistan–Karadağ sınır anlaşması: Yenipazar sancağı bölündü", "antlasma", 4, 2, "Yenipazar (Novi Pazar)",
+      "Balkan Savaşları'nda Osmanlı'dan alınan Yenipazar sancağını Sırbistan ile Karadağ, Belgrad'da imzalanan sınır anlaşmasıyla paylaştı; "
+      "hat Hersek sınırından Beyaz Drin'deki Arnavutluk üçlü noktasına uzanıyordu. Gün ikincil yayına dayanır (30 Ekim eski takvim).",
+      ["sr_mn_1913", "canu"], "E", "d1913-sr-mn"),
 ]
 ids = [k["id"] for k in KAYIT]
 for x in KRON:
@@ -1004,7 +1074,7 @@ for x in KRON:
 KRON.sort(key=lambda x: (x["t"], x["b"]))
 with open(KRON_CIKTI, "w", encoding="utf-8", newline="\n") as f:
     f.write("""// -*- coding: utf-8 -*-
-// data/kronoloji_sinir_avrupa_orta.js — SINIR KRONOLOJİSİ · ORTA/DOĞU AVRUPA · 1914-07-28 → 1923-10-29 (G1 + G2)
+// data/kronoloji_sinir_avrupa_orta.js — SINIR KRONOLOJİSİ · ORTA/DOĞU AVRUPA · 1878-07-13 → 1923-10-29 (G1 + G2 + G3)
 // window.KRONOLOJI_SINIR_AVRUPA_ORTA — D3-AVRUPA-ORTA · 16 Eylül 2026 · 🔴 ELLE DÜZENLEME
 // Üretici: denetim/ARAC-D3ORTA-URET-0916.py (hat kayıtlarıyla AYNI betik — `sinir_id` data/d_sinirlar_avrupa_orta.js'e bağlanır)
 // Şema: oturumlar/KRONOLOJI-SARTNAME.md §3 + `taraflar` (ilgili devletler) · `sinif` (E hukukî / D fiilî) · `sinir_id` (kayıt öneki)
