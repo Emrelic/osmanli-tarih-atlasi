@@ -126944,5 +126944,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4139",
+  "zaman": "2026-09-16 22:26",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G2 (1918-11-11 -> 1914-07-28) · commit 3735515 (origin/main'de). d_sinirlar.js 26 kayit (E 16 · D 2 · C 1 · YOK 7). G2 yeni hat: 1 (E) — osmanli-bulgaristan 1913 Istanbul hattinin DOGU kesimi Rezve->Tunca/Radovets 160 km, 1913-09-29 -> 1915-09-06 (IBS 49 s.9-10: bugunku hat 1913 hattini 'exactly follows', Tunca batisi 1915 Sofya'da degisti; kesim noktasi GeoNames Radovets izdusumu ±5 km). G2 penceresine ZATEN uzanan E'ler: osmanli-bulgaristan 1915-09-06→1920 · osmanli-kacar 1913-11-17→1920 (3 parca + 3 YOK kutu). YAZILMAYAN (koordinat kesin degil ⇒ A/B): 1913 hattinin Tunca batisi · 1915-1919 asagi Meric kesimi (IBS 49 yalniz 'about one mile east of the Maritsa' — Edirne'yi keserdi, ayrinti bilinmiyor) · Brest-Litovsk 1918-03-03 ve Batum 1918-06-04 hatlari · 1914-1918 Kafkas/Iran/Irak/Suriye cepheleri · Mondros tahliye hatlari. D: 0 yeni. Kronoloji: data/kronoloji_sinir_turkiye.js 10 madde (+1 · 1913-09-29 Istanbul Antlasmasi), hat eslesmesi 10/10.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
