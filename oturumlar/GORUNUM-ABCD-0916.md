@@ -1,3 +1,37 @@
+# 🔴 A–F ALTI KADEME — Emre'nin kararı, 16 Eylül 2026 akşamı
+Bu bölüm aşağıdaki C, D ve "Öncelik" bölümlerinin yerini alır.
+
+```
+A  5 günlük sürtünmeli yaya yürüyüşü, 16 yön (22,5°), ilk varan kazanır. Dağ/rampa yavaşlatır,
+   nehir niteliğine göre keser ya da geçide yönlendirir, deniz/körfez geçilmez (boğaz fonksiyonu ayrı)
+B  A + dolgu: boşluk · aynı devletin parçaları arasındaki BOŞ toprak · derin koridor · sahipsiz toprağın paylaşımı.
+   GERÇEK enklav asla kapatılmaz (aşağıdaki ENKLAV KURALI)
+C  belgeli KABA sınır (antlaşma metni büyük şehir/bölge sayar)
+D  FİİLÎ (de facto) KESİN sınır: koordinatı belli ama hukuken geçersiz (ordu işgali, ateşkes hattı,
+   tanınmamış devlet — bugünkü KKTC). ESKİ "D" bu DEĞİLDİ
+E  HUKUKÎ kesin sınır: barış antlaşması / sınır protokolüyle iki devlet arasında kararlaştırılmış.
+   ESKİ "D" = BU
+F  E + uluslararası tanınma (öteki devletler / Milletler Cemiyeti kabul ediyor)
+```
+
+**İki katman:**
+- HUKUKÎ görünüm: `F > E > C > (A|B)`
+- FİİLÎ görünüm: `D > F > E > C > (A|B)`. Fiilî sapma yoksa hukukî hat fiilî hattır.
+
+**Veri alanı:** her hat kaydına `sinif: "F"|"E"|"D"|"C"|"YOK"` eklenir. Eski `kategori` eşlemesi:
+- `D → E` (F kanıtı varsa F)
+- `fiili → D` (koordinat kesinse); kaba ise `YOK` + not
+- `C → C`
+- `D-YOK → YOK`
+
+`data/d_sinirlar*.js` dosya adları TARİHÎDİR, değiştirilmez; bağlayıcı olan `sinif` alanıdır.
+
+**Kural:** E/F değişikliği YALNIZ barış antlaşması ya da sınır protokolüyle olur. Antlaşmadan önceki işgal
+veya el koyma D'dir (koordinat kesinse); değilse A/B.
+Program: `oturumlar/GERIYE-SARMA-0916.md`.
+
+---
+
 # A · B · C · D GÖRÜNÜMLERİ — Emre'nin kararı, 16 Eylül 2026 (BAĞLAYICI)
 
 `GORUNUM-ABC-0910.md`nin yerini alır. Oradaki "A = bugünkü motor" tanımı **geçersizdir.**
