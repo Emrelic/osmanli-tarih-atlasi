@@ -44,7 +44,7 @@ yazarken aynı tuzağa düşmesin.
 | 1923-10-29'u kapsayan künye (`f<=gün<=t`, pad düzeltmeli) | **120** |
 | Künyesi var, `BOYALAR`de rengi YOK | **3** |
 | Dünya kontrol listesi (Wikipedia 1923 + İngiliz bağımlı toprak genişletmesi) | 76 kalem |
-| Kontrol listesinden `devletler.js`'te HİÇ künyesi bulunmayan | **66** kalem → **77 taslak künye** (bazı kalemler birden çok ayrı koloniye bölündü, örn. "İngiliz Batı Hint" → Jamaika/Trinidad-Tobago/Bahama/Barbados/Leeward/Windward/Bermuda) |
+| Kontrol listesinden `devletler.js`'te HİÇ künyesi bulunmayan | **68** kalem → **79 taslak künye** (bazı kalemler birden çok ayrı koloniye bölündü, örn. "İngiliz Batı Hint" → Jamaika/Trinidad-Tobago/Bahama/Barbados/Leeward/Windward/Bermuda) |
 
 ## 4. Künyesi var ama rengi yok (3)
 
@@ -119,6 +119,20 @@ Transkafkasya SFSC üzerinden SSCB'ye bağlı, kendi başına taraf değil) ve S
 (tek `suriye-lubnan-mandasi` künyesi) ayrı künye gerektirir mi? **Ben bunları EKSİK saymadım**
 (1923-10-29'da bağımsız/ayrı taraf olarak yoklar) ama D2-KOMSU sınır çizerken iç ayrım
 gerekirse bu karar yeniden açılmalı — taslak JSON'a not düştüm.
+
+**D4-ORTADOGU** (M-4074) de kendi bölgesinde künyesiz kalanları bildirdi — çoğu zaten
+taslağımdaydı (İtalyan Libya, İspanyol Fas, Tanca, Aden, Asir, Trucial); **`ifni-ispanyol`**
+(1860'ta kâğıt üzerinde İspanyol ama 1934'e kadar fiilen işgal edilmedi) ve
+**`necid-kuveyt-tarafsiz-bolgesi`** (Ukayr Protokolü, 1922) yeni eklendi.
+
+D4-ORTADOGU ayrıca sordu: `fas` künyesi (f:1549 → t:1923-10-29, TEK künye) Fransız himayesi
+(1912'den itibaren) için ayrı künye gerektirir mi? **Hükmüm: EVET.** Proje zaten aynı sınıfta
+bir emsal tutuyor — `tunus-ocagi` (Fransız öncesi) ile `tunus-beyligi-fransiz` (1881 sonrası
+himaye dönemi) AYRI künyeler. `fas` bu emsale uymuyor: Fas Fransız himayesi (1912-03-30 Fas
+Antlaşması) tek künyenin içinde eritilmiş. Tutarlılık için önerim: `fas` künyesi 1912-03-30'da
+bitsin, yeni `fas-fransiz-himayesi` (1912-03-30 → 1923-10-29, sonrası 1956'ya kadar sürer)
+açılsın — `tunus-beyligi-fransiz` adlandırma kalıbıyla. Bu MEVCUT bir künyenin tarihini
+değiştirmeyi gerektirdiği için ben YAZMADIM, UYGULA/D4-ORTADOGU karar versin.
 
 ## 6. Bilinmeyen/araştırılmamış bırakılanlar
 

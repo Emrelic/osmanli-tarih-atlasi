@@ -8,7 +8,8 @@
   "GRANULARITE KARARI GEREKEN 3 KALEM: (1) ingiliz-uganda-protektorasi ile mevcut 'buganda' kunyesinin haritada nasil bir arada duracagi, (2) straits-settlements ile mevcut 'ingiliz-malaya' kunyesinin ortusup ortusmedigi, (3) fransiz-antilleri tek kunyede mi yoksa Guadelup/Martinik ayri mi olmali -- D-KUNYE karar vermedi, ilgili bolge oturumuna (D4-AFRIKA/D5-ASYA/D5-AMERIKA) birakildi.",
   "FIUME ve GUNEY-RODEZYA pencere sinirinda (1923-10-29'a sirasiyla ~11 ay ve 28 gun var) -- tarihleri ayrica dogrulanmali.",
   "KUNYESI VAR AMA RENGI YOK (devletler.js'te kayitli, 1923-10-29'u kapsiyor, ama arac/renkler.py BOYALAR sozlugunde ne id ne harita anahtari karsiligi bulunmuyor): oniki-ada-italyan, cezayir-fransiz, avusturya-cumhuriyet -- bunlar TASLAK DEGIL, mevcut kunye; yalniz renk atanmasi gerekiyor.",
-  "EK (D3-AVRUPA-BATI ve D2-KOMSU'nun tahta M-4059/M-4067 bulgulari uzerine, 16 Eylul aksami): saar-havzasi-mandasi ve cebelitarik-ingiliz eklendi. Ayrica D2-KOMSU'nun sordugu granularite sorusu acik kaldi -- Gurcistan/Ermenistan/Azerbaycan SSC (1923'te Transkafkasya SFSC uzerinden SSCB'ye bagli, kendi basina uluslararasi taraf DEGIL) ve Suriye/Lubnan (tek manda kunyesi, suriye-lubnan-mandasi) ayri kunye ister mi -- D-KUNYE bunlari EKSIK saymadi (1923-10-29'da bagimsiz/ayri taraf olarak var olmadiklari icin), ama D2-KOMSU harita cizerken ic sinir gerektirirse bu karar yeniden acilmali."
+  "EK (D3-AVRUPA-BATI ve D2-KOMSU'nun tahta M-4059/M-4067 bulgulari uzerine, 16 Eylul aksami): saar-havzasi-mandasi ve cebelitarik-ingiliz eklendi. Ayrica D2-KOMSU'nun sordugu granularite sorusu acik kaldi -- Gurcistan/Ermenistan/Azerbaycan SSC (1923'te Transkafkasya SFSC uzerinden SSCB'ye bagli, kendi basina uluslararasi taraf DEGIL) ve Suriye/Lubnan (tek manda kunyesi, suriye-lubnan-mandasi) ayri kunye ister mi -- D-KUNYE bunlari EKSIK saymadi (1923-10-29'da bagimsiz/ayri taraf olarak var olmadiklari icin), ama D2-KOMSU harita cizerken ic sinir gerektirirse bu karar yeniden acilmali.",
+  "EK2 (D4-ORTADOGU tahta M-4074 uzerine): ifni-ispanyol ve necid-kuveyt-tarafsiz-bolgesi eklendi. D4-ORTADOGU ayrica sordu: 'fas' kunyesi (f:1549->t:1923-10-29, TEK kunye, Fransiz himayesi 1912'den itibaren AYRI kunye gerektirir mi.' HUKMUM: EVET, gerekir -- proje zaten AYNI SINIFTA bir emsal tutuyor: 'tunus-ocagi' (Fransiz oncesi) ile 'tunus-beyligi-fransiz' (1881 sonrasi Fransiz himaye donemi) AYRI kunyeler. 'fas' bu emsale UYMUYOR -- Fas Fransiz himayesi (1912-03-30 Fas Antlasmasi) tek kunyenin icinde eritilmis. Tutarlilik icin onerim: 'fas' kunyesi 1912-03-30'da BITSIN, yeni 'fas-fransiz-himayesi' (1912-03-30 -> 1923-10-29, sonrasi 1956'ya kadar surer) acilsin -- tunus-beyligi-fransiz adlandirma kalibiyle. Bu, MEVCUT bir kunyenin tarihini degistirmeyi gerektirdigi icin ben YAZMADIM, UYGULA/D4-ORTADOGU karar versin."
  ],
  "kaynak_notu": "taslak -- D-KUNYE oturumu tarafindan genel akademik/standart tarihi bilgiyle taslak olarak dolduruldu, TDV bu taneciği kapsamıyor (CLAUDE.md sec.4 'tanecik boslugu'). Ilgili D-oturumu (harita/sinir cizerken) akademik kaynakla (Iranica/Cambridge/universite yayini) DOGRULAMALI; tarihler kesin degil, en iyi bilinen resmi kurulus/ilhak tarihidir.",
  "taslak_kunyeler": [
@@ -856,6 +857,28 @@
    "f": "1713-07-13",
    "t": "1923-10-29",
    "ozet": "Utrecht Antlaşması ile İspanya'dan İngiltere'ye devredildi. D3-AVRUPA-BATI'nın (M-4059) bulgusu.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "ifni-ispanyol",
+   "ad": "İfni (İspanyol İddiası/Yerleşimi)",
+   "bolge": "kuzey-afrika",
+   "tur_onerisi": "koloni",
+   "f": "1860-04-26",
+   "t": "1923-10-29",
+   "ozet": "Tetuan Antlaşması ile İspanya'ya bırakıldı ama 1934'e kadar fiilen İŞGAL EDİLMEDİ — 1923-10-29'da yalnız KAĞIT ÜZERİNDE İspanyol. D4-ORTADOGU'nun (M-4074) bulgusu; fiilî durum ile hukukî iddia ayrımı ayrıca doğrulanmalı.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "necid-kuveyt-tarafsiz-bolgesi",
+   "ad": "Necid-Kuveyt Tarafsız Bölgesi",
+   "bolge": "arabistan",
+   "tur_onerisi": "ozel-bolge",
+   "f": "1922-12-02",
+   "t": "1923-10-29",
+   "ozet": "Ukayr Protokolü (Sir Percy Cox arabuluculuğu) ile Necid (Suud) ve Kuveyt arasında ortak kullanım bölgesi olarak kuruldu. D4-ORTADOGU'nun (M-4074) bulgusu.",
    "harita": null,
    "kaynak": "bulunamadi -- taslak, dogrulanacak"
   }
