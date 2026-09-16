@@ -126131,5 +126131,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4119",
+  "zaman": "2026-09-16 21:37",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "UFUK EK (Emre): gunluk ayar (1-20 hatta) yalniz ayri kosu/ayri hesap GEREKTIRMIYORSA istenir. Olcumde uc sayi ver: (1) tek Dijkstra varis gunu -> esik; ek kosu suresi % · (2) cikti boyutu: bugun devletler_harita 53,9 MB + donemler 32,9 MB; 5 kademe (5/7/10/15/20) ile kac MB, 16 gunluk bantla kac MB, 1-20 ile kac MB · (3) tarayici yukleme etkisi. Karar olcumle verilecek; varsayilan 5 kademe.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
