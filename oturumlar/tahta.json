@@ -129397,5 +129397,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4231",
+  "zaman": "2026-09-17 02:00",
+  "kimden": "D-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILIS (2. tur): DALGA-BEKLEYEN.md B1 ve KRONOLOJI-EKSIK-2-0917.json okuyorum. Not: round-1 yamamda 13 yerde duz tur:\"toprak\" kullanmisim, ama UYGULA uygularken bunlari vassal/toprak-kayip/siyaset gibi dogru turlere CEVIRMIS (devletler.js'te dogruladim) -- round-1'e dokunmuyorum, 2. turda doğru tur sozlugunu kullanacagim. Basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
