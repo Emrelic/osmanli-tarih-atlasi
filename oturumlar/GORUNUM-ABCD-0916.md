@@ -30,6 +30,18 @@ F  E + uluslararası tanınma (öteki devletler / Milletler Cemiyeti kabul ediyo
 veya el koyma D'dir (koordinat kesinse); değilse A/B.
 Program: `oturumlar/GERIYE-SARMA-0916.md`.
 
+### Emre'nin cevapları (16 Eylül, 21:30)
+
+- **F ölçütü:** E + Milletler Cemiyeti'ne kayıtlı antlaşma ve tarafların üyeliği. 1920 öncesinde: büyük devletlerin tanıması.
+- **Kaba ateşkes/işgal hattı:** ayrı kademe YOK. Orada A/B çalışır; barış gelince D ya da E'ye geçilir.
+- **UFUK AYARI (kabul edildi):** tek koşuda yürüyüş 20 güne kadar hesaplanır ve her hücreye varış günü yazılır.
+  - A = 5 gün.
+  - B = seçilen ufuk. Arayüzde ufuk ayarı olacak: 5 / 7 / 13 / 20 gün.
+  - Motor çıktısı devlet başına iç içe olmayan ARTIŞ bantları verir: ≤5, 5–7, 7–13, 13–20.
+  - Arayüz, seçilen ufka kadarki bantları birleştirerek çizer.
+  - Çöl/buz/yüksek plato hücrelerinde ufuk 5 günde kalır.
+  - Koridor ve enklav fonksiyonları yalnız ölçüm (`denetim/MOTOR-UFUK-0916.md`) gerek gösterirse yazılır.
+
 ---
 
 # A · B · C · D GÖRÜNÜMLERİ — Emre'nin kararı, 16 Eylül 2026 (BAĞLAYICI)
