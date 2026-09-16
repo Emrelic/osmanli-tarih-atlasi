@@ -11075,6 +11075,7 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
   var bindirilen = [], eslenmeyen = [], ezilen = [];
   Object.keys(window).forEach(function (anahtar) {
     if (anahtar.slice(0, 10) !== "KRONOLOJI_") return;
+    if (/^KRONOLOJI_(SINIR|COK)_/.test(anahtar)) return;   // çok taraflı: aşağıdaki ekleyici
     var derin = window[anahtar];
     if (!derin || !derin.length) return;
     // 🆕 4 Eylül 2026 — İKİ ADAY, SIRAYLA. Türetme `_`yi `-`ye çevirmiyordu ve
@@ -11117,6 +11118,40 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
   if (bindirilen.length) console.log("Atlas: derin kronoloji bindirildi — " + bindirilen.join(", "));
   // Sessiz kaybolma YOK — eşlenmeyen bir dosya "0 madde" gibi görünmesin.
   if (eslenmeyen.length) console.warn("Atlas: KRONOLOJI_* eşlenemedi — " + eslenmeyen.join(", "));
+})();
+
+// 🆕 17 Eylül 2026 — ÇOK TARAFLI KRONOLOJİ (koordinatör, GERIYE-SARMA-0916 ADIM 3).
+// `KRONOLOJI_SINIR_<BOLGE>` (sınır değişiklikleri) ve `KRONOLOJI_COK_<KONU>`
+// (ör. I. Dünya Savaşı) tek bir künyeye değil, maddenin `taraflar[]` (yoksa
+// `devletler[]`, o da yoksa `devlet`) listesindeki HER künyeye EKLENİR —
+// yukarıdaki bindirici gibi `=` ile değiştirmez. Aynı t+b ikinci kez eklenmez.
+// Eşlenemeyen taraf kimliği sessizce düşmez, sayılıp basılır.
+(function cokTarafliKronolojiEkle() {
+  var D = window.DEVLETLER || [], ix = {};
+  D.forEach(function (d) { ix[d.id] = d; });
+  var eklenen = 0, eslenmeyen = {}, dokunulan = {};
+  Object.keys(window).forEach(function (anahtar) {
+    if (!/^KRONOLOJI_(SINIR|COK)_[A-Z0-9_]+$/.test(anahtar)) return;
+    (window[anahtar] || []).forEach(function (m) {
+      var ids = m.taraflar || m.devletler || (m.devlet ? [m.devlet] : []);
+      ids.forEach(function (id) {
+        var d = ix[id];
+        if (!d) { eslenmeyen[id] = (eslenmeyen[id] || 0) + 1; return; }
+        if (!dokunulan[id]) { d.kronoloji = (d.kronoloji || []).slice(); dokunulan[id] = true; }
+        var var_mi = d.kronoloji.some(function (o) { return o.t === m.t && o.b === m.b; });
+        if (var_mi) return;
+        d.kronoloji.push(m); eklenen++;
+      });
+    });
+  });
+  Object.keys(dokunulan).forEach(function (id) {
+    ix[id].kronoloji.sort(function (a, b) { return String(a.t) < String(b.t) ? -1 : String(a.t) > String(b.t) ? 1 : 0; });
+  });
+  if (eklenen) console.log("Atlas: çok taraflı kronoloji — " + eklenen + " madde, " +
+                          Object.keys(dokunulan).length + " künyeye eklendi");
+  var e = Object.keys(eslenmeyen);
+  if (e.length) console.warn("Atlas: çok taraflı kronolojide künyesi olmayan taraf — " +
+                             e.map(function (k) { return k + " (" + eslenmeyen[k] + ")"; }).join(", "));
 })();
 
 (function odakKur() {

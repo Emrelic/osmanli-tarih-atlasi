@@ -11,6 +11,8 @@ Her iş verilince satırın başına oturum adını yaz (✅ bitince). Görevlen
 ## B. Sıradaki işler (boşa çıkana ya da yeni kıtaya)
 | # | İş | Model | Dosya |
 |---|---|---|---|
+| B0 🔴 | BİRİNCİ DÜNYA SAVAŞI tam kronoloji + harita senkronu (Emre, 01:25) — `oturumlar/BIRINCI-DUNYA-SAVASI-0917.md`, A ve B iki oturum | Opus ×2 (ilk yeni kıtalar) | `data/kronoloji_cok_1dunya_A.js` · `_B.js` (index.html satırını 1.MURAT ekler) |
+| B7b | KÜNYESİ OLMAYAN TARAF (çok taraflı kronoloji, 17 Eylül ölçümü): danzig-serbest-sehri · saar-havzasi-mandasi · guneybati-afrika-mandasi · ingiliz-becuanaland · fransiz-kamerun-mandasi · ingiliz-nijerya · ingiliz-tanganika-mandasi · ingiliz-kenya-kolonisi · ruanda-urundi-mandasi · ingiliz-guney-rodezya · portekiz-mozambik · guney-afrika-birligi · honduras-cumhuriyeti · nikaragua-cumhuriyeti → künye önerisi (ya da var olan doğru id'ye eşleme) | Sonnet | `denetim/YAMA-KUNYE-TARAF-0917.json` |
 | B1 | EKSİK KRONOLOJİ 2. tur (Asya/Ortadoğu/Avrupa/Kafkasya/Anadolu yarısı): `denetim/KRONOLOJI-EKSIK-2-0917.json` — 0-2 maddeli 107 künyeden bu bölgeler; ilk turda "2 madde yeterli" denip atlananlar DAHİL. Hedef: kuruluş · önemli toprak değişimleri · son, kaynaklı | Sonnet (D-KUNYE) | `denetim/YAMA-KRONO2-DKUNYE-0917.json` |
 | B2 | EKSİK KRONOLOJİ 2. tur (Afrika/Amerika/Okyanusya/Güney-Doğu Asya yarısı) | Sonnet (D-KAYNAK) | `denetim/YAMA-KRONO2-DKAYNAK-0917.json` |
 | B3 | UI-ETKILESIM: DALGA-0063 madde 3·4·7·8 (sağ tık kopyala · boş tıklamada sayfa açılmasın · resim büyütme · cetvel) | Sonnet (yeni kıta) | `js/app.js` · `css/style.css` |
