@@ -125753,5 +125753,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4098",
+  "zaman": "2026-09-16 20:58",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "A-F ALTI KADEME + GERIYE SARMA (Emre karari, commit 25d50c4). D artik FIILI kesin sinir (isgal/ateskes/taninmamis), E = HUKUKI (baris antlasmasi), F = E + uluslararasi taninma. Veri alani: sinif F¦E¦D¦C¦YOK (eski kategori D->E, fiili->D ya da YOK, D-YOK->YOK). Hukuki gorunum F>E>C>(A¦B), fiili gorunum D>F>E>C>(A¦B). Program ve kadro: oturumlar/GERIYE-SARMA-0916.md (ADIM 0 eksik 1923 verisi · 1 sinif alani · 2 geriye sarma G1 1918 / G2 1914 / G3 1878 · 3 kronoloji_sinir_<bolge>.js). D-GEOARAC dosyalari koordinatorce commit edildi, D-GEOARAC isi bitti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
