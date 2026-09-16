@@ -199,13 +199,56 @@ Sudan-Misir        1899-01-19(C,misir-kavalali) → 1914-12-18(C,misir-sultanlig
   egemen" ya da "henüz uluslararası değil" gerekçesiyle YAZILMADI — `GORUNUM-ABCD` kuralı gereği,
   harita orada A/B'ye düşer, bu KUSUR DEĞİL.
 
-### ADIM 3 — KRONOLOJİ: GÜNCELLENDİ, 13 MADDE
+### ADIM 2 — GERİYE SARMA G3 (1914-07-28 → 1878-07-13 Berlin): TAMAMLANDI
 
-`data/kronoloji_sinir_afrika.js` **6 → 13 madde**. Yeni eklenenler (G1/G2'nin doğurduğu olaylar):
+`data/d_sinirlar_afrika.js` **38 → 41 kayıt** (+3): Nijerya-Kamerun'un 1885 Anglo-Alman genel nüfuz
+sözleşmesi (Rio del Rey hattı, Berlin Konferansı'nın hemen ardından) · Liberya-Sierra Leone'nin 1885
+Mano nehri sözleşmesi · Liberya-Fildişi Sahili'nin 1892 (sonradan terk edilen) Cavalla nehri sözleşmesi.
+
+🔴 **En düşük güvenilirlikli kayıt bu turda eklendi:** `d1885-nijerya-kamerun-genel` (kesinlik_km:40)
+1885→1890→1893→1913 arası ÜÇ AYRI evrimi TEK kayıtla temsil ediyor — bu bir BASİTLEŞTİRMEDİR, açıkça
+beyan edildi, ikinci turda üçe bölünmeli.
+
+🟢 **G3'ün ASIL bulgusu: kalan ~30 kaydın BÜYÜK ÇOĞUNLUĞU için YENİ KAYIT GEREKMİYOR — ve nedeni
+tektip:** Sahra altı Afrika'da Avrupa sömürgeciliği fiilen Berlin Konferansı'yla (1884-85) başladı;
+G3 penceresinin (1878-1885) çoğu segment için cevabı **"karşı taraf henüz sömürge/koloni olarak
+yoktu"** ya da **"aynı devlet içiydi"**:
+
+```
+Becuanaland/Angola/NamRod-SWA (3+3 zincir)  Alman Güneybatı Afrikası 24 Nisan 1884'te ilan edildi
+                                             (Lüderitz koruması) → 1878-1884 arası KAYIT YOK
+Ruanda/Burundi-Tanganyika                   1878-1914 arası AYNI Alman kolonisi içindeydi →
+                                             uluslararası sınır hiç YOKTU, KAYIT YOK
+Sudan-Mısır (misir-kavalali kaydı zaten 1899'dan başlıyor)  1878-1885 aynı devlet (Mısır doğrudan
+                                             Sudan'ı yönetiyordu, 'Türkiyye' dönemi); 1885-1899 Mehdî
+                                             Devleti BAĞIMSIZDI ve Mısır'la ANDLAŞMALI sınırı YOKTU
+                                             (düşman devletlerdi) → KAYIT YOK, gerekçe İKİ KATMANLI
+Guney Rodezya-Mozambik (BSAC)                BSAC 1889'da tüzüklendi, Güney Rodezya 1890 Öncü Sütunu'yla
+                                             kolonize edildi → 1878-1889/90 arası KAYIT YOK
+Kenya-Tanganyika                             1890 Heligoland-Zanzibar zaten 1878'e yakın en erken hat;
+                                             öncesi (1878-1890) Doğu Afrika kıyısı Zanzibar Sultanlığı'nın
+                                             GEVŞEK nüfuzundaydı, KESİN bir Anglo-Alman sınırı yoktu
+Kongo (Belçika/Fransız, 2 segment)           🔴 BLOKE — Kongo Serbest Devleti (1885-1908, Kral II.
+                                             Leopold'ün ŞAHSI mülkü) `belcika-kongo`dan HUKUKEN FARKLI
+                                             bir kimlik; ayrı künye YOK. `belcika` kullanmak Leopold'ün
+                                             şahsi mülkünü Belçika devletine YANLIŞ ATFEDER (CLAUDE.md
+                                             §3.5 hayalet devlet ailesi) — bu yüzden YAZILMADI, D-KUNYE'ye
+                                             AÇIK SORU olarak bırakıldı
+```
+⚠️ **Kongo segmentleri İSTİSNA:** Berlin Senedi'nin (1885) kendisi ve 1887/1894 protokolleri G3
+penceresindeydi ve GERÇEK bir hukukî hattı temsil ediyordu — ama doğru taraf kimliği (Kongo Serbest
+Devleti, Belçika Kongosu'ndan ayrı) `devletler.js`te YOK. Bu, "kesin değilse kayıt yazılmaz" kuralının
+GEOMETRİK değil KİMLİK boyutundaki bir uygulaması.
+
+### ADIM 3 — KRONOLOJİ: GÜNCELLENDİ, 16 MADDE
+
+`data/kronoloji_sinir_afrika.js` **6 → 16 madde**. Yeni eklenenler (G1/G2/G3'ün doğurduğu olaylar):
 1899 Anglo-Mısır Kondominyum Antlaşması · 1914-12-18 Mısır Sultanlığı · 1913-03-11 Anglo-Alman
 Nijerya-Kamerun Sınır Antlaşması (Yola-deniz, BAILII birincil kaynak) · 1916-02-18 Kamerun Seferi
 sonu/geçici paylaşım · 1919-07-10 Milner-Simon Deklarasyonu · 1915-07-09 Alman Güneybatı
-Afrikası'nın teslimi (3 sınıra birden bağlı) · 1916 Tabora Seferi/Ruanda-Urundi işgali.
+Afrikası'nın teslimi (3 sınıra birden bağlı) · 1916 Tabora Seferi/Ruanda-Urundi işgali ·
+1885-04-01 Anglo-Alman Rio del Rey genel sözleşmesi · 1885-11-11 Anglo-Liberian Mano nehri
+sözleşmesi · 1892 Fransız-Liberya Cavalla nehri sözleşmesi.
 
 ## 7. SONRAKİ ADIM
 
