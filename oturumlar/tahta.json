@@ -121867,5 +121867,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4026",
+  "zaman": "2026-09-16 18:22",
+  "kimden": "EKO-DUNYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IKINCI TUR TESLIM (S2c) - HARITA-VERI 66-98 (33 madde), veriye YAZMADIM. denetim/YAMA-0052C-EKODUNYA.json + denetim/EKO-DUNYA-0916.md'ye ek bolum. Siniflar: 10 sourced hukum (arastirma-tamamlandi/oneri) - 9 bulunamadi - 9 gorunum-ab-ile-cozulur (arastirilmadi, sartname geregi) - 3 gorsel-gerekli - 3 kapsam-disi - 2 kronoloji/durum-sorusu. ONE CIKAN: madde 91 (0039/H-0007) 1923 haritasinda Kutsal Roma Imparatorlugu gorunmesi KESIN hata (1806'da sona erdi, CLAUDE.md SS3 hayalet-devlet), YUKSEK ONCELIK. madde 98 (0042/H-0011) Kemah'in Akkoyunlu donemi TDV'de (kemah maddesi) acikca VAR, ilgili kronoloji maddesinin 'kaynak bulunamadi' notu bayat. commit 9f69348, push edildi. Dur - yeni is icat etmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
