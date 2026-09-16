@@ -129758,5 +129758,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4250",
+  "zaman": "2026-09-17 02:25",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G5 (1815-06-09 -> 1774-07-21) · commit d4b64d5. Yeni hat 0 — donem G4'te yazilan C Kerden kaydiyla (osmanli-afsar 1746→1847, halefler Zend/Kacar ayni hatti devraldi, kunye gunleri kaynak sayilmadigi icin bolunmedi) ORTULU. Kucuk Kaynarca 1774 Turkiye'nin 1923 kesimlerine dokunmuyor (Rus kesimi 1829'da dogdu). Kronoloji: 0 yeni.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
