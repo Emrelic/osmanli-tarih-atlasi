@@ -639,6 +639,131 @@ for k in KAYIT:
         yeni.append(c)
 KAYIT += yeni
 print("G2 Rus öncülü:", len(yeni))
+
+# ================= G3 GERİYE SARMA (1914-07-28 → 1878-07-13) =================
+QG, JS, RU = "qing-hanedani", "joseon", "rusya"
+QING_KES = pad(KUNYE[CN][0])                     # 1911-10-10 — Çin tarafı bu günden önce Qing
+
+# (a) Çin tarafı öncülleri: cin-cumhuriyeti künyesine kırpılmış bütün kayıtlar (d1923 + g2 Rus kopyaları)
+ATLA = {"d1923-jp-cn-BILINMIYOR-yalu-tumen"}      # Kore tarafı da değişiyor → elle (c)
+qy = []
+for k in KAYIT:
+    if CN not in k["taraflar"] or pad(k["f"]) != QING_KES or pad(k["_f0"]) >= QING_KES or k["id"] in ATLA:
+        continue
+    diger = [x for x in k["taraflar"] if x != CN][0]
+    f = max(pad(k["_f0"]), pad(KUNYE[QG][0]), pad(KUNYE[diger][0]))
+    if f >= QING_KES:
+        continue
+    c = json.loads(json.dumps(k))
+    c["id"] = "g3-" + k["id"].split("-", 1)[1] + "-qing"
+    c["taraflar"] = [QG if x == CN else x for x in k["taraflar"]]
+    if c.get("sol_taraf") == CN:
+        c["sol_taraf"] = QG
+    c["f"], c["t"] = f, QING_KES
+    c["not"] = ("G3 · aynı hat, Çin tarafı `qing-hanedani` (cin-cumhuriyeti künyesi 1911-10-10'da başlıyor); "
+                "hanedan geçişi bir SINIR olayı değildir · ") + k["not"]
+    qy.append(c)
+KAYIT += qy
+print("G3 Qing öncülü:", len(qy))
+
+# (b) Moğolistan 1911-12-29'dan önce Qing'in parçası: Rus–Moğol hattı = Rus–Qing hattı
+MNG_KUTU = bbox(cizgi("MNG-RUS"), 0.10)
+yok("g3-sscb-mn-BILINMIYOR-rusya-qing", RU, QG, "1727-10-12", MNG_KUTU,
+    {"deger": None, "kaynak": "IBS 64 (1978)"},
+    [{"ad": "Bur Antlaşması", "tarih": "1727-08-20", "tur": "antlaşma"},
+     {"ad": "Abagatuy protokolü", "tarih": "1727-10-12", "tur": "protokol"},
+     ibs(64, "China–U.S.S.R.", "defined the limits of the two states from the Argun westward")],
+    "G3 · Dış Moğolistan 1911-12-29'a kadar Qing'e bağlı (künye sınırı) — hat 1727 Rus–Çin hattı. Kiahta doğusu 1727'de işaretli (E), batısı C",
+    t=pad(KUNYE[MN][0]))
+
+# (c) Kore: 1910 ilhakından önce Joseon
+YT_KUTU = bbox(cizgi("CHN-PRK"), 0.10)
+GANDO = {"ad": "Çin–Japon Tumen (Gando) Anlaşması", "madde": "md. I", "tarih": "1909-09-04", "tur": "anlaşma",
+         "not": "Japonya Kore'nin koruyucusu sıfatıyla imzaladı"}
+yok("g3-jp-cn-BILINMIYOR-yalu-tumen-qing", JP, QG, "1910-08-29", YT_KUTU,
+    {"deger": None, "kaynak": "IBS 17 (1962)"},
+    [GANDO, ibs(17, "China–Korea")],
+    "G3 · ilhak (Joseon künyesi 1910-08-29'da bitiyor) ile Çin Cumhuriyeti arası; Çin tarafı Qing", t=QING_KES)
+yok("g3-joseon-cn-BILINMIYOR-yalu-tumen-qing", JS, QG, "1909-09-04", YT_KUTU,
+    {"deger": None, "kaynak": "IBS 17 (1962)"},
+    [GANDO, ibs(17, "China–Korea", "the River Tumen Is recognized as forming the boundary between China and Korea")],
+    "G3 · 1909 anlaşmasından ilhaka kadar. 1909'dan önceki Yalu hattı ('en az 1875'ten beri kabul') ve Paektu anlaşmazlığı "
+    "tarihli bir belgeye bağlanamadı ⇒ kayıt YAZILMADI", t=pad(KUNYE[JS][1]))
+yok("g3-joseon-rusya-BILINMIYOR-tumen", JS, RU, "1888-08-20", bbox(cizgi("PRK-RUS"), 0.05),
+    {"deger": None, "kaynak": "IBS 59 (1965)"},
+    [{"ad": "Seul Tumen Ticaret Nizamnamesi", "tarih": "1888-08-20", "tur": "nizamname", "not": "hattı yalnız anar"},
+     ibs(59, "Korea–U.S.S.R.")],
+    "G3 · Kore–Rusya Tumen kesimi ilhaka kadar. 1860 Pekin Antlaşması'ndan 1888'e kadarki hâl yazılmadı (Kore o metnin tarafı değil)",
+    t=pad(KUNYE[JS][1]))
+
+# (d) Burma–Çin: 1897'den önce 1894 Londra Konvansiyonu hattı (1897 onu değiştirdi; koordinat yok)
+yok("g3-ih-cn-BILINMIYOR-guney-1894", IH, QG, "1894-08-23", bbox(parcala(mm_cn, lambda c: c[1] <= K1), 0.08),
+    {"deger": True, "kaynak": "IBS 42", "not": "4 Şub 1897 Peking Anlaşması (onay 5 Haz 1897) 1894 hattını değiştirdi"},
+    [{"ad": "Londra Konvansiyonu (İngiltere–Çin)", "tarih": "1894-03-01", "tur": "konvansiyon", "not": "onay 23 Ağu 1894"},
+     ibs(42, "Burma–China")],
+    "G3 · 1894–1897 hâli; High Conical Peak (25°35'K) güneyi. Kuzeyi 1894'te de 'to be settled ulteriorly'", t="1897-06-05")
+
+# (e) Çin–Tonkin: 1895 Tamamlayıcı Sözleşme'den önce 1887 hattı
+yok("g3-qing-fc-BILINMIYOR-tonkin-1887", QG, FC, "1887-06-26", bbox(cizgi("CHN-VNM"), 0.08),
+    {"deger": True, "kaynak": "IBS 38", "not": "20 Haz 1895 Tamamlayıcı Sözleşme (onay 7 Ağu 1896) Yünnan R–S kesimini ve Long-po-tchai – Kara Irmak kesimini değiştirdi"},
+    [{"ad": "Pekin Sözleşmesi (Fransa–Çin)", "tarih": "1887-06-26", "tur": "sözleşme", "not": "onay günü bulunamadı"},
+     ibs(38, "China–Viet-Nam")],
+    "G3 · 1887–1896 hâli; Laos kesimi 1887'de belirlenmemişti (IBS 34)", t="1896-08-07")
+
+# (f) Siyam–Fransız Çinhindi
+SI_LAOS_KUTU = bbox(lt, 0.05)
+ekle("g3-si-fc-kara-1904", SI, FC, "1904-02-13", "C", lt_kara,
+     [{"ad": "Fransız–Siyam Sözleşmesi", "madde": "md. I–II", "tarih": "1904-02-13", "tur": "sözleşme",
+       "not": "onay alışverişi 7 Ara 1904 (IBS 32) / 9 Ara 1904 (IBS 40) — ÇELİŞKİLİ"},
+      {"ad": "Fransız–Siyam Anlaşması", "madde": "md. II (Nam Kop batısındaki sırt · Nam Heung Nga)", "tarih": "1904-06-29", "tur": "anlaşma"},
+      ibs(20, "Laos–Thailand", "the boundary joined the ridge line to the west of the Nam-Kop system")],
+     {"deger": False, "kaynak": "IBS 20 (1962)", "not": "1907 teyit etti. " + IBS_TARIH},
+     {"t": "1907", "not": "komisyon haritası [1907]"}, 3.0, KES_NE,
+     "G3 · 1904–1907 hâli; kara kesimleri 1904'te kuruldu, 1907 aynen teyit etti. f imza günü; 29 Haz 1904 anlaşması kuzey ucu değiştirdi",
+     t="1907-03-23")
+yok("g3-si-fc-DEGISTI-laos-1893", SI, FC, "1893-10-03", SI_LAOS_KUTU,
+    {"deger": True, "kaynak": "IBS 20", "not": "1904'te Mekong'un sağ yakasındaki Luang Prabang ve Bassac toprakları Fransa'ya geçti"},
+    [{"ad": "Fransız–Siyam Barış Antlaşması", "madde": "md. I", "tarih": "1893-10-03", "tur": "antlaşma", "not": "onay 2/3 Şub 1894 (IBS 20/40 çelişkili)"},
+     ibs(20, "Laos–Thailand", "Siam renounced all rights to the territories on the left bank of the Mekong")],
+    "G3 · 1893–1904 hâli: hat bütünüyle Mekong'un SİYAM KIYISI (koordinat yok). 1893 öncesi Laos Siyam'a bağlı — kayıt yok",
+    t="1904-02-13")
+yok("g3-si-fc-DEGISTI-kambocya-1904", SI, FC, "1904-02-13", bbox(cizgi("KHM-THA"), 0.05),
+    {"deger": True, "kaynak": "IBS 40", "not": "23 Mar 1907 Antlaşması hattı yeniden çizdi; 1904 çizgisinin Büyük Göl'ün batısı/kuzeybatısı geçersiz kaldı"},
+    [{"ad": "Fransız–Siyam Sözleşmesi", "madde": "md. I", "tarih": "1904-02-13", "tur": "sözleşme"}, ibs(40, "Cambodia–Thailand")],
+    "G3 · 1904–1907 hâli (Dangrek kesimi bugünküyle aynı, batısı farklı; ayrılmadı). 1904 öncesi (1867 Fransız–Siyam) ARAŞTIRILMADI",
+    t="1907-03-23")
+
+# (g) Siyam–Burma: 1894 harita teatisinden önce
+yok("g3-si-ih-BILINMIYOR-1868", SI, IH, "1868-07-03", bbox(mt, 0.05),
+    {"deger": True, "kaynak": "IBS 63"},
+    [{"ad": "İngiliz–Siyam Sözleşmesi", "tarih": "1868-01-01", "tur": "sözleşme", "not": "gün çelişkili (8 Şub / 8 Eyl 1868); onay 3 Tem 1868"},
+     ibs(63, "Burma–Thailand")],
+    "G3 · 1868–1894 hâli: güney (Tenasserim) 1868 hattı vardı; kuzey (Şan beylikleri, 1886 sonrası İngiliz) 1889–94 komisyonuna kadar tanımsız. "
+    "Parçalar ayrılmadı", t="1894-10-17")
+
+# (h) Timor: 1904 sözleşmesinin yürürlüğünden önce 1859 hattı (enklavlarla)
+yok("g3-hd-pt-BILINMIYOR-timor-1860", HD, PT, "1860-08-13", bbox(it, 0.08),
+    {"deger": True, "kaynak": "IBRU 2001", "not": "1904 sözleşmesi Maucatar/Noimuti enklavlarını kaldırıp hattı yeniden tarif etti"},
+    [{"ad": "Lizbon Antlaşması (Hollanda–Portekiz)", "tarih": "1859-04-20", "tur": "antlaşma", "not": "onay 13 Ağu 1860 (IBRU)"},
+     {"ad": "Lizbon Sözleşmesi", "tarih": "1893-06-10", "tur": "sözleşme", "not": "enklavların kaldırılmasını öngördü, hattı değiştirmedi (IBRU)"}],
+    "G3 · 1860–1908 hâli; 1899 karma komisyon ölçümü bu dönemde. Koordinat yok", t="1908-08-29")
+yok("g3-hd-pt-FIILI-oecussi-1908", HD, PT, "1908-08-29", bbox(oek, 0.05),
+    {"deger": True, "kaynak": "UN RIAA XI", "not": "25 Haz 1914 hakem kararı doğu kesimi (A – Noèl Meto) belirledi"},
+    [dict(TIM[0])],
+    "G3 · 1908–1914 hâli: batı/güney 1904 md. 3 §1–9 ile E, doğu kesim (§10) TARTIŞMALI — parçalar ayrılmadı", t="1914-06-25")
+
+# (i) Afganistan–Rusya: 1888 son protokolünden ve 1895 notalarından önce
+yok("g3-af-rusya-BILINMIYOR-bati-1885", AF, RU, "1885-09-10", bbox(cizgi("AFG-TKM"), 0.05),
+    {"deger": None, "kaynak": "Balland (Iranica)"},
+    [{"ad": "Londra protokolü (İngiltere–Rusya)", "tarih": "1885-09-10", "tur": "protokol"}, BAL],
+    "G3 · 1885–1888 hâli: hat protokolle tarif edildi, işaretleme 12 Kas 1885'te başladı; Kham Ab ucu 1888'e kadar açık", t="1888-01-26")
+yok("g3-af-rusya-DEGISTI-amuderya-1873", AF, RU, "1873-01-31", bbox(cizgi("AFG-UZB") + cizgi("AFG-TJK"), 0.05),
+    {"deger": True, "kaynak": "Aitchison c. XIII", "not": "1895 notaları + Durand–Emir 1893: Emir Şugnan/Roşan'dan (1894), Buhara Darvaz'dan (Eki 1896) çekildi"},
+    [{"ad": "Granville–Gorçakov yazışması", "tarih": "1873-01-31", "tur": "nota teatisi", "not": "Balland 17.10.1872 / 31.01.1873"}, BAL, AIT13],
+    "G3 · 1873–1895 hâli: Amuderya çizgisi; Pence/Pamir kesimi farklı. Kuzey kıyı büyük ölçüde BUHARA EMİRLİĞİ (Rus himayesi) — ayrılmadı",
+    t="1895-03-11")
+
+print("G3 elle: bitti")
 for k in KAYIT:
     k.pop("_f0", None)
 
