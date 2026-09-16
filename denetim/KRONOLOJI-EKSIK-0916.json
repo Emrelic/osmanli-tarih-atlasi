@@ -1,0 +1,229 @@
+{
+ "olcum": "2026-09-16 · 639 kunye · kronolojisi 0 madde: 33 · 1-2 madde: 112 · olcut max(kunye.kronoloji, KRONOLOJI_<ID> dosyasi)",
+ "sifir": [
+  "irak-kralligi",
+  "suriye-lubnan-mandasi",
+  "filistin-mandasi",
+  "urdun-emirligi",
+  "misir-sultanligi",
+  "misir-kralligi",
+  "tannu-tuva",
+  "harezm-halk-cumhuriyeti",
+  "buhara-halk-cumhuriyeti",
+  "rif-cumhuriyeti",
+  "ingiliz-guyanasi",
+  "hollanda-guyanasi",
+  "fransiz-guyanasi",
+  "agadez-sultanligi",
+  "kesiri-sultanligi",
+  "kuayti-sultanligi",
+  "topia",
+  "dukagin",
+  "hurmuz-sultanligi",
+  "piombino",
+  "ingiliz-sudani",
+  "sutayogullari",
+  "cemisgezek-beyligi",
+  "orta-macar-kralligi",
+  "arvanid-sancagi",
+  "mekke-serifligi",
+  "konstantin-beyligi",
+  "sani-emirligi",
+  "sabah-emirligi",
+  "kumuk-samhalligi",
+  "kaheti-kralligi",
+  "crnojevic-zetasi",
+  "dejanovic-prensligi"
+ ],
+ "bolgeye_gore": {
+  "arabistan": [
+   "irak-kralligi",
+   "suriye-lubnan-mandasi",
+   "filistin-mandasi",
+   "urdun-emirligi",
+   "kesiri-sultanligi",
+   "kuayti-sultanligi",
+   "mekke-serifligi",
+   "sani-emirligi",
+   "sabah-emirligi",
+   "suud-ikinci",
+   "hicaz-kralligi",
+   "usfuri",
+   "nebhani",
+   "cebel-i-lubnan-mutasarrifligi"
+  ],
+  "misir-sudan": [
+   "misir-sultanligi",
+   "misir-kralligi",
+   "ingiliz-sudani",
+   "dacu",
+   "misir-eyaleti"
+  ],
+  "sibirya-bozkir": [
+   "tannu-tuva",
+   "kasim"
+  ],
+  "orta-asya": [
+   "harezm-halk-cumhuriyeti",
+   "buhara-halk-cumhuriyeti"
+  ],
+  "kuzey-afrika": [
+   "rif-cumhuriyeti",
+   "konstantin-beyligi",
+   "cezayir-fransiz",
+   "tuareg-ahaggar",
+   "tuareg-accer",
+   "ammarogullari",
+   "tunus-beyligi-fransiz"
+  ],
+  "guney-amerika": [
+   "ingiliz-guyanasi",
+   "hollanda-guyanasi",
+   "fransiz-guyanasi",
+   "ranquel",
+   "charrua",
+   "arua",
+   "ekvador-cumhuriyeti",
+   "kolombiya-cumhuriyeti",
+   "chimu-krallik",
+   "colla-krallik",
+   "lupaqa-krallik",
+   "diaguita-calchaqui-konfederasyonu",
+   "muisca-konfederasyonu"
+  ],
+  "bati-afrika": [
+   "agadez-sultanligi",
+   "berabis",
+   "gambiya-mandinka",
+   "gurma",
+   "buna",
+   "gonja",
+   "borgu",
+   "tiv",
+   "birom-plato",
+   "adar",
+   "tuareg-adag",
+   "tuareg-ivellemmedan",
+   "dan-guro",
+   "kru-grebo",
+   "bate",
+   "arma"
+  ],
+  "balkanlar": [
+   "topia",
+   "dukagin",
+   "arvanid-sancagi",
+   "crnojevic-zetasi",
+   "dejanovic-prensligi",
+   "mora-despotlugu",
+   "bosna-isgal",
+   "oniki-ada-italyan",
+   "sarki-rumeli",
+   "garbi-trakya",
+   "sirbistan-eyaleti"
+  ],
+  "iran": [
+   "hurmuz-sultanligi",
+   "lur-i-kucek",
+   "incu",
+   "kutlughanli",
+   "galzay"
+  ],
+  "italya": [
+   "piombino",
+   "bonacolsi"
+  ],
+  "anadolu": [
+   "sutayogullari",
+   "cemisgezek-beyligi",
+   "kibris-krallik",
+   "kibris-ingiliz",
+   "fetret-isa",
+   "eyyubi-hisnikeyfa"
+  ],
+  "orta-avrupa": [
+   "orta-macar-kralligi",
+   "avusturya-cumhuriyet"
+  ],
+  "kafkasya": [
+   "kumuk-samhalligi",
+   "kaheti-kralligi",
+   "azerbaycan-demokratik-cumhuriyeti",
+   "kabartay"
+  ],
+  "dogu-afrika": [
+   "sidamo-kralliklari",
+   "nkore",
+   "karagve",
+   "maravi",
+   "kaonde-ila",
+   "kenya-kuzey-halklari",
+   "kamba",
+   "sakalava-boina"
+  ],
+  "orta-afrika": [
+   "adamava",
+   "bamum",
+   "vaday",
+   "bagirmi",
+   "rabih",
+   "kanem-tubu",
+   "darul-kuti",
+   "zende",
+   "mangbetu",
+   "banda-gbaya",
+   "tio",
+   "kasance",
+   "matamba",
+   "ovimbundu",
+   "ovambo",
+   "yeke",
+   "tubu-tibesti"
+  ],
+  "guney-afrika": [
+   "torva",
+   "manica",
+   "venda",
+   "tsvana",
+   "herero",
+   "nama-orlam",
+   "zimbabve-kralligi"
+  ],
+  "kuzey-amerika": [
+   "alutiiq",
+   "secwepemc",
+   "mohave",
+   "sahaptin",
+   "moundville",
+   "spiro",
+   "cherokee",
+   "apaci-ovalar",
+   "norse-gronland"
+  ],
+  "guneydogu-asya": [
+   "poni",
+   "kutai",
+   "bali-kralliklari-pejeng"
+  ],
+  "guney-asya": [
+   "multan-langah",
+   "meysur-racaligi",
+   "gvalyar",
+   "indor",
+   "kolhapur",
+   "baroda"
+  ],
+  "dogu-asya": [
+   "pingnan"
+  ],
+  "orta-amerika-karayip": [
+   "nahua-sehir-devletleri",
+   "purepecha-imparatorlugu",
+   "tututepec-krallik",
+   "zapotek-krallik"
+  ],
+  "okyanusya": [
+   "tui-tonga-imparatorlugu"
+  ]
+ }
+}
