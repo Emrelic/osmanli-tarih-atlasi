@@ -1,0 +1,216 @@
+{
+ "kiyas": {
+  "kaynak": "C:\\atlas-kosu12\\data",
+  "gun": "1923-10-28",
+  "girdi_sinir_dosyalari": [
+   "yerlesimler_sinir_dogu.js",
+   "yerlesimler_sinir_guney.js"
+  ],
+  "taban": "YAYINDAKİ KOŞU 11 (sınır köyleri ÖNCESİ) — koşu 12 henüz yazmadı",
+  "durum": "ölçüldü"
+ },
+ "parcalar": [
+  {
+   "id": "d1923-tr-bg",
+   "kategori": "D",
+   "uzunluk_km": 197.4,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": {
+    "ornek": 124,
+    "ortanca_km": 5.3,
+    "p90_km": 15.1,
+    "enkotu_km": 24.5,
+    "le5_yuzde": 48
+   }
+  },
+  {
+   "id": "d1923-tr-gr-1",
+   "kategori": "D",
+   "uzunluk_km": 170.2,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": {
+    "ornek": 107,
+    "ortanca_km": 3.5,
+    "p90_km": 9.8,
+    "enkotu_km": 11.7,
+    "le5_yuzde": 63
+   }
+  },
+  {
+   "id": "d1923-tr-gr-2",
+   "kategori": "D",
+   "uzunluk_km": 1.9,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": {
+    "ornek": 3,
+    "ortanca_km": 0.6,
+    "p90_km": 0.9,
+    "enkotu_km": 0.9,
+    "le5_yuzde": 100
+   }
+  },
+  {
+   "id": "d1923-tr-sscb-gurcistan",
+   "kategori": "D",
+   "uzunluk_km": 234.6,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": {
+    "ornek": 147,
+    "ortanca_km": 4.8,
+    "p90_km": 16.8,
+    "enkotu_km": 22.8,
+    "le5_yuzde": 52
+   }
+  },
+  {
+   "id": "d1923-tr-sscb-ermenistan",
+   "kategori": "D",
+   "uzunluk_km": 242.8,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": {
+    "ornek": 152,
+    "ortanca_km": 12.2,
+    "p90_km": 23.6,
+    "enkotu_km": 29.7,
+    "le5_yuzde": 20
+   }
+  },
+  {
+   "id": "d1923-tr-sscb-nahcivan",
+   "kategori": "D",
+   "uzunluk_km": 11.7,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": {
+    "ornek": 8,
+    "ortanca_km": 30.4,
+    "p90_km": 32.6,
+    "enkotu_km": 32.6,
+    "le5_yuzde": 0
+   }
+  },
+  {
+   "id": "d1923-tr-ir-1",
+   "kategori": "D",
+   "uzunluk_km": 113.7,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": {
+    "ornek": 71,
+    "ortanca_km": 6.5,
+    "p90_km": 17.0,
+    "enkotu_km": 21.4,
+    "le5_yuzde": 31
+   }
+  },
+  {
+   "id": "d1923-tr-ir-2",
+   "kategori": "D",
+   "uzunluk_km": 47.1,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": {
+    "ornek": 30,
+    "ortanca_km": 18.7,
+    "p90_km": 26.2,
+    "enkotu_km": 27.1,
+    "le5_yuzde": 23
+   }
+  },
+  {
+   "id": "d1923-tr-ir-3",
+   "kategori": "D",
+   "uzunluk_km": 27.1,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": {
+    "ornek": 17,
+    "ortanca_km": 1.8,
+    "p90_km": 6.0,
+    "enkotu_km": 6.1,
+    "le5_yuzde": 76
+   }
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-kucuk-agri-1932",
+   "kategori": "D-YOK",
+   "uzunluk_km": null,
+   "kesinlik_km": null,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-kotur-1932",
+   "kategori": "D-YOK",
+   "uzunluk_km": null,
+   "kesinlik_km": null,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-bacirge-1932-1937",
+   "kategori": "D-YOK",
+   "uzunluk_km": null,
+   "kesinlik_km": null,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1923-tr-iq-fiili",
+   "kategori": "fiili",
+   "uzunluk_km": 277.0,
+   "kesinlik_km": 5.0,
+   "kiyas_atlas": {
+    "ornek": 174,
+    "ortanca_km": 9.6,
+    "p90_km": 18.0,
+    "enkotu_km": 19.9,
+    "le5_yuzde": 30
+   }
+  },
+  {
+   "id": "d1923-tr-sy-dogu",
+   "kategori": "D",
+   "uzunluk_km": 591.9,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": {
+    "ornek": 370,
+    "ortanca_km": 16.0,
+    "p90_km": 78.6,
+    "enkotu_km": 90.1,
+    "le5_yuzde": 25
+   }
+  },
+  {
+   "id": "d1923-tr-sy-bati",
+   "kategori": "C",
+   "uzunluk_km": 42.9,
+   "kesinlik_km": 10.0,
+   "kiyas_atlas": {
+    "ornek": 27,
+    "ortanca_km": 10.4,
+    "p90_km": 16.1,
+    "enkotu_km": 17.2,
+    "le5_yuzde": 26
+   }
+  }
+ ],
+ "cipalar": {
+  "payas": [
+   36.756,
+   36.21432,
+   "297899",
+   "Payas"
+  ],
+  "meydan_ekbez": [
+   36.82091,
+   36.67774,
+   "167017",
+   "Maydān Ikbis"
+  ],
+  "kiyi": [
+   36.73798198198198,
+   36.20220220618897
+  ],
+  "kotur": [
+   38.4714,
+   44.4085,
+   "119142",
+   "Qoţūr"
+  ]
+ },
+ "karaagac_ne_icinde": true
+}
