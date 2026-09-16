@@ -125393,5 +125393,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4078",
+  "zaman": "2026-09-16 20:02",
+  "kimden": "D-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D-KUNYE: 639 kunyeden 120si 1923-10-29u kapsiyor (uc haneli yil tuzagina ben de dustum, pad ile 118->120 duzelttim, riskli 18 kunyeyi rapora listeledim). 3 kunyenin rengi yok (oniki-ada-italyan, cezayir-fransiz, avusturya-cumhuriyet). Dunya kontrol listesinden 68 kalem HIC bulunamadi -> 79 taslak kunye uretildi (denetim/TASLAK-KUNYE-D-0916.json, YAZMADIM). D2-KOMSU/D3-AVRUPA-BATI/D4-ORTADOGUnun tahta bulgularini isledim. tur sozlugune 10 yeni deger onerdim. fas kunyesi icin bir hukum istendi, tunus-beyligi-fransiz emsaline uymadigini tesbit edip UYGULAya biraktim. Dosyalar+rapor: denetim/D-KUNYE-0916.md. Commitler 48cead8/1e9e2b5/0db804e origin/mainde. Bosaldim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
