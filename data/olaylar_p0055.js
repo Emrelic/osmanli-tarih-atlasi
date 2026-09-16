@@ -71,4 +71,14 @@ window.OLAYLAR_P0055 = [
   ic_not_gun:"TDV barbaros-hayreddin-pasa: «Nova da (Castelnuova) kolaylıkla geri alındı (10 Ağustos 1539)». TDV dalmacya: «bir yıl sonra Barbaros Hayreddin Paşa ve Bosna Beyi Gazi Hüsrev Bey'in gayretiyle». 🟡 FARK: YAMA-A6C Museo del Ejército'nun son saldırıyı 7 Ağustos 1539'a koyduğunu bildiriyor — §4 TDV esas; bu oturum o sayfayı yeniden OKUMADI.",
   kaynak:"barbaros-hayreddin-pasa · dalmacya", duygu:["🎉"] },
 
+// ── ④ YAMA-TRAKYA-0914 MT-6 · 1369 · Timurtaş Tunca vadisi (UYGULA 16 Eylül 2026) ──
+{ t:"1369-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+  b:"Timurtaş Bey Tunca vadisinde Kızılcaağaç Yenicesi (Elhova) ve Yanbolu'yu aldı",
+  gun:"1369 — kaynak «herhalde 1369 bahar ve yazı» diyor",
+  yer:"Elhova (Kızılcaağaç Yenicesi), Yanbolu", yer_id:"Elhova (Elhovo)",
+  kisiler:"Kara Timurtaş Bey, I. Murad",
+  d:"I. Murad'ın Bulgaristan ve Bizans'a karşı yürüttüğü harekât sırasında Kara Timurtaş Bey Tunca vadisine gönderildi; Kızılcaağaç Yenicesi ile Yanbolu'yu ele geçirip çok miktarda ganimetle Edirne'ye döndü.",
+  ic_not_gun:"TDV murad-i «herhalde 1369 bahar ve yazı»; TDV timurtas-pasa «1367-1369 arası»; TDV yanbolu eski görüş 1365, yeni görüş 1373 (çelişki bildirildi, veride Yanbolu noktası YOK).",
+  kaynak:"murad-i · timurtas-pasa", duygu:["🎉"] },
+
 ];

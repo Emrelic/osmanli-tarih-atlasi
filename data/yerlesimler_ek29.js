@@ -425,8 +425,8 @@ window.YERLESIMLER_EK29 = [
 // VİZE — Demirköy (27,9 km) çizgisiyle aynı, Balkan Savaşı Bulgar işgali dâhil.
 // kaynak: bulunamadı — çizgi kardeş kayıt Demirköy'den
 { ad:"Vize", tur:"kale", lat:41.5714, lon:27.7658, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-03-26"},{f:"1913-07-21",t:"1920-04-23"}], v:[] },
+  s:[{f:"1281-01-01",t:"1369-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1369-01-01",t:"1402-07-28",kaynak:"TDV murad-i (İnalcık): 770 (1369) baharında Pınarhisar, Kırkkilise ve Vize · Timurtaş Kızılcaağaç Yenicesi — YIL 1369, gün yok (§4)"},{f:"1413-07-05",t:"1913-03-26"},{f:"1913-07-21",t:"1920-04-23"}], v:[] },
 
 // PREVADİ (Provadia) — Şumnu (41,6 km) çizgisiyle aynı: 1878 Berlin'den sonra
 // muhtar Bulgaristan (v:), 1908 istiklâlle bulgaristan.
