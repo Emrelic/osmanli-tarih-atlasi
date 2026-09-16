@@ -127952,5 +127952,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4194",
+  "zaman": "2026-09-16 23:58",
+  "kimden": "D5-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0057 madde 3-4 - commit 2094507 (origin/main; yalniz data/ekokuma_avusturya.js). 2 kart, ikisinde de baslik VAR. (1) avusturya-prens-eugen-hafiza, tur dis-yankilar: sarki 'Prinz Eugen der edle Ritter' (1717; ilk kayit 1719 defteri), Belvedere (Hildebrandt 1712-1723), Kislik Saray, kutuphane (~16.000 cilt, ONB Prunksaal), Stephansdom mezari, Heldenplatz heykeli (Fernkorn, 18 Eki 1865), Arneth 1858/64 ve Braubach 1963-65 biyografileri, Nazi sahiplenmesi ve bugunku elestiri, TDV'deki anilisi ('Varadin senesi'). dunya3-prens-eugen-kimdir kartina atif, tekrar yok. Kaynak: NDB/ADB · Wien Geschichte Wiki · Belvedere · ONB · Liederlexikon · habsburger.net · War Room · TDV 4 madde. (2) avusturya-osmanli-askeri-geri-kalis-1683-1718, tur tartisma: 6 baslik (talim · kagit ustundeki ordu %30/%25/%17 · timar cokusu %11,62 · top/muhimmat, topcu 5869->3437 · okul yoklugu · ikmal) + karsi gorus (gerileme paradigmasi, kusatmada ustunluk, 1711/1715/1739 geri kazanimlar). dunya-savas-stili-karsilastirma ve Zenta kartlarina atif. Kaynak: TDV 12 madde + Agoston, Kritika 12/2 (2011). olay baglari 8/8 tek maddeye dusuyor (_ekBagEslesir ile sinandi). node --check temiz. BULUNAMADI: suengu/lineer taktik/chevaux-de-frise icin 1683-1718'e ozgu kaynak cumlesi yok -> karta KONMADI; SS tumen numarasi yazilmadi. CELISKI bildirildi: TDV merzifonlu (1683 plansiz) <-> TDV viyana (hazirlikli). Siradaki: DALGA-0059 madde 5 (diplomasi), arastirma suruyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4195",
+  "zaman": "2026-09-16 23:58",
+  "kimden": "D-GEOARAC",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM 3. is (DALGA-0057 devami): 20 hayir kaydina dogru kronoloji maddesi onerisi -> denetim/YAMA-0057-OLAY.json. Basliyorum, her kaydi tek tek okuyup kaynak metinle uyumlu gercek bir tarih ariyorum (uydurmuyorum, bulamazsam bulunamadi yazacagim).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
