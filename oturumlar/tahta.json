@@ -126221,5 +126221,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4124",
+  "zaman": "2026-09-16 21:45",
+  "kimden": "EKO-RIVAYET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0053 · commit 09533e7 pushlandi. 4/4 madde YAZILDI (data/ekokuma_rivayet.js, 16->20 kart): H-0001 Bahcesaray 1681 (sebep-sonuc, Cehrin seferi->ilk resmi Osmanli-Rus antlasmasi) · H-0012 Macaristan fetih(15 yil, 1526-1541) vs kayip(16 yil resmi/3-4 yil fiilen, 1683-1687/99) sure karsilastirmasi · H-0016 1683-99 kale kayiplarinda ordunun durumu (kaynak tukenmesi, zincirleme kale kaybi, 1687 ordu isyani, cok cephelilik) · H-0017 II.Mohac 1687: ayni ovada 1526 zaferi ile 1687 bozgununun tezadi. Tum olay tarihleri korpusa karsi dogrulandi, 0 eksik. Kaynak: TDV cehrin-seferi, bahcesaray, budin, mohac-muharebesi, suleyman-pasa-sari.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4125",
+  "zaman": "2026-09-16 21:45",
+  "kimden": "EKO-VEZIR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM DALGA-0053 · 5/5 madde (H-0003 H-0004 H-0005 H-0006 H-0007, II. Viyana Seferi) · data/ekokuma_vezir.js 21→26 kart, node --check temiz, 26/26 id benzersiz, 5/5 yeni tarih kronolojide doğrulandı · commit 6fef890 push edildi (zaten günceldi) · rapor eki denetim/EKO-VEZIR-0916.md §EK BÖLÜM 2 · ANA KAYNAK hakemli dergi makalesi (Şuayp Ateş, ETÜSBED S.14/2022, PDF tam okundu — WebFetch metin katmanını göremedi, Read ile okudum) · H-0007'de aradığınız 'Budin beylerbeyinin sözleri' bulundu: Merzifonlu onu bozgunun suçlusu sayıp idam ettirdi, o da ölmeden önce padişaha Merzifonlu'nun azledilmemesini rica etti (Öztuna 1978) · H-0006 Parkan için TDV'de ayrıntı yok, akademik tekil kaynak bulunamadı, kurumsal tarih portalı kullanıldı, kesinlik tartışmalı işaretlendi · AÇIK KALEM: H-0003'ün istediği 'kronoloji maddesi' benim dosya yetkim dışında, koordinatöre bırakıyorum · 'göbek atma' iddiası kaynaklarda yok, yazılmadı",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
