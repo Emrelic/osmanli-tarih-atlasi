@@ -1,0 +1,1183 @@
+{
+  "_not": "GENİŞLETİLMİŞ aday listesi — ARAC-ANTLASMA-HARITA-0916.py'nin (41 ANTLASMALAR kaydı, yapılandırılmış taraf) tersine, buradaki taraf listesi AD-EŞLEŞTİRME SEZGİSİYLE çıkarıldı ve DOĞRULANMADI. D-KATMAN'ın Pasarofça turunda AYNI riskten bir yanlış eşleşme (Ayamavra) zaten yakalanıp elenmişti (M-4190) — bu dosyadaki HİÇBİR kayıt kaynak olarak KULLANILMADAN önce elden geçirilmeli.",
+  "pencere_gun": 60,
+  "madde_sayisi": 504,
+  "osmanli_disi_elenen": 385,
+  "taraf_cikarilamadi": 69,
+  "bulunamadi": 47,
+  "toplam_eslesen_yerlesim": 3,
+  "maddeler": [
+    {
+      "tarih": "1828-02-10",
+      "govde_ilk100": "Türkmençay Antlaşması — Erivan ve Nahcıvan kaybedildi",
+      "_dosya": "kronoloji_iran.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1743-08-07",
+      "govde_ilk100": "Åbo (Turku) Antlaşması — güneydoğu Finlandiya kaybedildi",
+      "_dosya": "kronoloji_isvec.js",
+      "taraf_cikarilan": [
+        "finlandiya"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1831-01-01",
+      "govde_ilk100": "Çin (Qing) ile antlaşma — Doğu Türkistan'dan çekiliş",
+      "_dosya": "kronoloji_ozbek.js",
+      "taraf_cikarilan": [
+        "yakub-beg"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1909-04-19",
+      "govde_ilk100": "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
+      "_dosya": "kronoloji_sinir_turkiye.js",
+      "taraf_cikarilan": [
+        "bulgaristan-prensligi"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1913-11-17",
+      "govde_ilk100": "İstanbul Protokolü — Türk-İran sınırının tahdidi",
+      "_dosya": "kronoloji_sinir_turkiye.js",
+      "taraf_cikarilan": [
+        "iran"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1921-03-16",
+      "govde_ilk100": "Moskova Antlaşması — Türk-Sovyet sınırının tahdidi",
+      "_dosya": "kronoloji_sinir_turkiye.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1923-07-24",
+      "govde_ilk100": "Lozan Antlaşması — Türk-Yunan sınırı Meriç ve Karaağaç dirseğiyle belirlendi",
+      "_dosya": "kronoloji_sinir_turkiye.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1923-07-24",
+      "govde_ilk100": "Lozan Antlaşması — Türk-Bulgar sınırının teyidi",
+      "_dosya": "kronoloji_sinir_turkiye.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1555-05-29",
+      "govde_ilk100": "Amasya Antlaşması",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1606-11-11",
+      "govde_ilk100": "Zitvatorok Antlaşması",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1639-05-17",
+      "govde_ilk100": "Kasr-ı Şirin Antlaşması",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1672-10-18",
+      "govde_ilk100": "Bucaş Antlaşması — en geniş sınırlar",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1699-01-26",
+      "govde_ilk100": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1739-09-18",
+      "govde_ilk100": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı",
+      "_dosya": "olaylar.js",
+      "taraf_cikarilan": [
+        "sirbistan-prensligi"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1774-07-21",
+      "govde_ilk100": "Küçük Kaynarca Antlaşması",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1878-07-13",
+      "govde_ilk100": "Berlin Antlaşması",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1913-05-30",
+      "govde_ilk100": "Londra Antlaşması — Rumeli'nin kaybı",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1918-10-30",
+      "govde_ilk100": "Mondros Mütarekesi",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1923-07-24",
+      "govde_ilk100": "Lozan Antlaşması",
+      "_dosya": "olaylar.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1387-06-08",
+      "govde_ilk100": "Osmanlı-Ceneviz ahidnâmesi — 1352 antlaşmasının yenilenmesi",
+      "_dosya": "olaylar_ek.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1479-01-25",
+      "govde_ilk100": "İstanbul Antlaşması — Arnavutluk ve İşkodra",
+      "_dosya": "olaylar_ek.js",
+      "taraf_cikarilan": [
+        "arnavutluk-bagimsiz",
+        "arnavutluk-iskenderbey"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1812-05-28",
+      "govde_ilk100": "Bükreş Antlaşması — Besarabya'nın kaybı",
+      "_dosya": "olaylar_ek.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1829-09-14",
+      "govde_ilk100": "Edirne Antlaşması",
+      "_dosya": "olaylar_ek.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1921-10-13",
+      "govde_ilk100": "Kars Antlaşması",
+      "_dosya": "olaylar_ek.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1403-06-01",
+      "govde_ilk100": "Süleyman Çelebi – Bizans antlaşması: Selanik'in iadesi",
+      "_dosya": "olaylar_ek.js",
+      "taraf_cikarilan": [
+        "bizans"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1444-06-12",
+      "govde_ilk100": "Edirne-Segedin Antlaşması",
+      "_dosya": "olaylar_ek.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1861-05-31",
+      "govde_ilk100": "Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
+      "_dosya": "olaylar_ek13.js",
+      "taraf_cikarilan": [
+        "bahreyn"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1797-10-17",
+      "govde_ilk100": "Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "avusturya-cumhuriyet",
+        "fransa-cumhuriyet",
+        "venedik"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1809-09-17",
+      "govde_ilk100": "Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "finlandiya"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1814-01-14",
+      "govde_ilk100": "Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1503-04-02",
+      "govde_ilk100": "Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "litvanya"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1561-11-28",
+      "govde_ilk100": "Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "litvanya"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1714-03-07",
+      "govde_ilk100": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya g",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "avusturya-cumhuriyet",
+        "hollanda"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1721-08-30",
+      "govde_ilk100": "Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1617-02-27",
+      "govde_ilk100": "Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1618-12-11",
+      "govde_ilk100": "Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "novgorod"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1667-02-09",
+      "govde_ilk100": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1802-03-25",
+      "govde_ilk100": "Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "ispanya"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1820-01-08",
+      "govde_ilk100": "Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye ",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "umman"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1466-10-19",
+      "govde_ilk100": "İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1916-11-03",
+      "govde_ilk100": "İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
+      "_dosya": "olaylar_ek16.js",
+      "taraf_cikarilan": [
+        "katar"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1838-08-16",
+      "govde_ilk100": "Balta Limanı Ticaret Antlaşması",
+      "_dosya": "olaylar_ek2.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1854-08-24",
+      "govde_ilk100": "İlk dış borç sözleşmesi",
+      "_dosya": "olaylar_ek2.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1590-03-21",
+      "govde_ilk100": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+      "_dosya": "olaylar_ek2.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1612-11-20",
+      "govde_ilk100": "Nasuh Paşa Antlaşması",
+      "_dosya": "olaylar_ek2.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1768-05-15",
+      "govde_ilk100": "Korsika Ceneviz'den Fransa'ya satıldı — Versailles Antlaşması",
+      "_dosya": "olaylar_ek20.js",
+      "taraf_cikarilan": [
+        "fransa-cumhuriyet"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1807-07-09",
+      "govde_ilk100": "Tilsit Antlaşması — Prusya topraklarının yarısını kaybetti, Varşova Dukalığı kuruldu",
+      "_dosya": "olaylar_ek20.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1648-10-24",
+      "govde_ilk100": "Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü",
+      "_dosya": "olaylar_ek20.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1403-06-15",
+      "govde_ilk100": "Gelibolu Antlaşması — Bizans'a tavizler",
+      "_dosya": "olaylar_ek3.js",
+      "taraf_cikarilan": [
+        "bizans"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1698-11-13",
+      "govde_ilk100": "Karlofça barış görüşmeleri başladı",
+      "_dosya": "olaylar_ek3.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1827-07-06",
+      "govde_ilk100": "Londra Antlaşması: üç devlet Yunan özerkliğini dayattı",
+      "_dosya": "olaylar_ek4.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1828-08-06",
+      "govde_ilk100": "İskenderiye Sözleşmesi: Mısır Mora'dan çekilme kararı",
+      "_dosya": "olaylar_ek4.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1833-05-14",
+      "govde_ilk100": "Kütahya Sözleşmesi — Suriye ve Adana Kavalalı'ya",
+      "_dosya": "olaylar_ek4.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1833-07-08",
+      "govde_ilk100": "Hünkâr İskelesi Antlaşması",
+      "_dosya": "olaylar_ek4.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1840-07-15",
+      "govde_ilk100": "Londra Antlaşması: dört devlet Osmanlı'nın yanında",
+      "_dosya": "olaylar_ek4.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1840-11-27",
+      "govde_ilk100": "İskenderiye Konvansiyonu",
+      "_dosya": "olaylar_ek4.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1841-07-13",
+      "govde_ilk100": "Londra Boğazlar Sözleşmesi",
+      "_dosya": "olaylar_ek4.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1333-08-01",
+      "govde_ilk100": "Bizans'ın haraca bağlanması — İzmit kuşatması ve antlaşma",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "bizans"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1415-03-01",
+      "govde_ilk100": "Konya kuşatması ve Karamanoğulları ile antlaşma",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "karaman"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1491-05-01",
+      "govde_ilk100": "Osmanlı-Memlük barışı — Tunus arabuluculuğu",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "tunus-beyligi-fransiz"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1502-12-14",
+      "govde_ilk100": "Osmanlı-Venedik Savaşı'nın sona ermesi ve barış",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "venedik"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1533-01-01",
+      "govde_ilk100": "İstanbul Antlaşması — Habsburglarla ilk barış",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1547-06-18",
+      "govde_ilk100": "İstanbul Antlaşması — Habsburglarla beş yıllık barış",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1573-03-07",
+      "govde_ilk100": "Venedik'le İstanbul Antlaşması — Kıbrıs'ın tanınması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "venedik"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1618-09-26",
+      "govde_ilk100": "Serav Antlaşması — İran'la barışın yenilenmesi",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "iran"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1621-10-09",
+      "govde_ilk100": "Hotin Seferi ve Hotin Antlaşması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1664-08-09",
+      "govde_ilk100": "Vasvar Antlaşması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1681-01-11",
+      "govde_ilk100": "Bahçesaray Antlaşması — Rusya ile ilk resmî barış",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1700-07-14",
+      "govde_ilk100": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1711-07-21",
+      "govde_ilk100": "Prut Antlaşması — Azak ve Taygan'ın geri alınması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1713-06-24",
+      "govde_ilk100": "Rusya ile Edirne Antlaşması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1727-10-04",
+      "govde_ilk100": "Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "iran"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1732-01-10",
+      "govde_ilk100": "Ahmed Paşa Antlaşması — Batı İran'ın büyük bölümünün iadesi",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "iran"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1736-09-01",
+      "govde_ilk100": "İstanbul Antlaşması — Güney Kafkasya'nın İran'a terki",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "iran"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1739-10-03",
+      "govde_ilk100": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1746-09-04",
+      "govde_ilk100": "Kerden Antlaşması — Osmanlı-İran savaşlarının sonu",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "iran"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1791-08-04",
+      "govde_ilk100": "Ziştovi Antlaşması — Avusturya cephesinin kapanması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "avusturya-cumhuriyet"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1792-01-10",
+      "govde_ilk100": "Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1802-06-25",
+      "govde_ilk100": "Paris Antlaşması — Fransa ile barışın yeniden kurulması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "fransa-cumhuriyet"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1809-01-05",
+      "govde_ilk100": "Kal'a-i Sultâniyye Antlaşması — İngiltere ile barış ve Boğazlar kaidesi",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1826-10-07",
+      "govde_ilk100": "Akkirman Antlaşması — Sırbistan ve prensliklere tavizler",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "sirbistan-prensligi"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1830-05-07",
+      "govde_ilk100": "Amerika Birleşik Devletleri ile ilk antlaşma",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "abd"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1849-05-01",
+      "govde_ilk100": "Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himayesi",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1854-03-12",
+      "govde_ilk100": "İstanbul'da İngiltere ve Fransa ile ittifak antlaşması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "fransa-cumhuriyet"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1856-03-30",
+      "govde_ilk100": "Paris Antlaşması: Kırım Savaşı'nın sonu ve Osmanlı'nın Avrupa devletler sistemine kabulü",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1878-01-31",
+      "govde_ilk100": "Edirne Mütarekesi: 93 Harbi'nde silahların susması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1878-03-03",
+      "govde_ilk100": "Ayastefanos Antlaşması: Büyük Bulgaristan tasarısı",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "bulgaristan-prensligi"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 1,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Sofya",
+          "tur": "sehir",
+          "lat": 42.698,
+          "lon": 23.322,
+          "onceki_sahip": "osmanli",
+          "sonraki_sahip": "bulgaristan-prensligi",
+          "tarih": "1878-01-04",
+          "gun_farki": -58,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "tarih": "1912-10-15",
+      "govde_ilk100": "Uşi Antlaşması: Trablusgarp ve Bingazi'nin İtalya'ya terki",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1913-09-29",
+      "govde_ilk100": "İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "bulgaristan-prensligi"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1913-11-14",
+      "govde_ilk100": "Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1914-08-02",
+      "govde_ilk100": "İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1918-03-03",
+      "govde_ilk100": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1919-10-22",
+      "govde_ilk100": "Amasya Protokolü: İstanbul hükümetiyle Heyet-i Temsîliyye görüşmesi",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "sili-cumhuriyeti"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1920-12-03",
+      "govde_ilk100": "Gümrü Antlaşması: TBMM hükümetinin ilk uluslararası antlaşması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1921-10-20",
+      "govde_ilk100": "Ankara İtilâfnâmesi: Fransa ile barış ve güney cephesinin kapanması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "fransa-cumhuriyet"
+      ],
+      "ev_sahibi": "tbmm-turkiye",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 1,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Mersin",
+          "tur": "liman",
+          "lat": 36.8,
+          "lon": 34.633,
+          "onceki_sahip": "fransa-cumhuriyet",
+          "sonraki_sahip": "tbmm-turkiye",
+          "tarih": "1921-10-20",
+          "gun_farki": 0,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    },
+    {
+      "tarih": "1922-10-11",
+      "govde_ilk100": "Mudanya Mütarekesi: İstanbul ve Boğazlar'ın savaşsız devri",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1540-11-01",
+      "govde_ilk100": "Anabolu'nun (Nauplion) antlaşmayla devralınması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1427-01-01",
+      "govde_ilk100": "Belgrad'ın Macaristan'a bırakılması — Tata Antlaşması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_cikarilan": [
+        "macaristan-naiplik"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1718-07-21",
+      "govde_ilk100": "Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve Banat kaybedildi",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1913-11-01",
+      "govde_ilk100": "Bozcaada ve İmroz'un geri alınışı — Atina Antlaşması",
+      "_dosya": "olaylar_ek5.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1735-03-10",
+      "govde_ilk100": "Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi",
+      "_dosya": "olaylar_ek7.js",
+      "taraf_cikarilan": [
+        "iran"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1828-02-22",
+      "govde_ilk100": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+      "_dosya": "olaylar_ek7.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1830-02-03",
+      "govde_ilk100": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
+      "_dosya": "olaylar_ek8.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1920-08-10",
+      "govde_ilk100": "Sevr Antlaşması — imparatorluğun paylaşım metni",
+      "_dosya": "olaylar_ek8.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1884-06-03",
+      "govde_ilk100": "Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
+      "_dosya": "olaylar_ek9.js",
+      "taraf_cikarilan": [
+        "habesistan"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1899-01-19",
+      "govde_ilk100": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+      "_dosya": "olaylar_ek9.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1883-06-08",
+      "govde_ilk100": "Mersâ (La Marsa) Sözleşmesi — Tunus himayesinin tamamlanması",
+      "_dosya": "olaylar_ek9.js",
+      "taraf_cikarilan": [
+        "tunus-beyligi-fransiz"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1868-07-03",
+      "govde_ilk100": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
+      "_dosya": "olaylar_kamerika.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1762-11-03",
+      "govde_ilk100": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
+      "_dosya": "olaylar_kamerika.js",
+      "taraf_cikarilan": [
+        "ispanya"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1851-09-17",
+      "govde_ilk100": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+      "_dosya": "olaylar_kamerika.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1847-05-31",
+      "govde_ilk100": "II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
+      "_dosya": "olaylar_ok106.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1918-11-03",
+      "govde_ilk100": "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti",
+      "_dosya": "olaylar_ok109.js",
+      "taraf_cikarilan": [
+        "avusturya-cumhuriyet",
+        "ferrara",
+        "macaristan-naiplik"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1919-09-10",
+      "govde_ilk100": "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti",
+      "_dosya": "olaylar_ok109.js",
+      "taraf_cikarilan": [
+        "avusturya-cumhuriyet"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1920-06-04",
+      "govde_ilk100": "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti",
+      "_dosya": "olaylar_ok109.js",
+      "taraf_cikarilan": [
+        "macaristan-naiplik"
+      ],
+      "ev_sahibi": "tbmm-turkiye",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1919-06-28",
+      "govde_ilk100": "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü",
+      "_dosya": "olaylar_ok109.js",
+      "taraf_cikarilan": [
+        "fransa-cumhuriyet"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1919-11-27",
+      "govde_ilk100": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+      "_dosya": "olaylar_ok109.js",
+      "taraf_cikarilan": [
+        "bulgaristan-prensligi"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1913-07-29",
+      "govde_ilk100": "Katar'dan Osmanlı feragati — Londra Sözleşmesi",
+      "_dosya": "olaylar_p0036.js",
+      "taraf_cikarilan": [
+        "katar"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 0,
+      "eslesen_yerlesimler": [],
+      "bulunamadi": true
+    },
+    {
+      "tarih": "1921-03-16",
+      "govde_ilk100": "Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi",
+      "_dosya": "olaylar_p0049.js",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "taraf_cikarilamadi": true
+    },
+    {
+      "tarih": "1424-02-22",
+      "govde_ilk100": "II. Murad ile Bizans barışı — Bizans yeniden haraç ödemeyi kabul etti",
+      "_dosya": "olaylar_p0058.js",
+      "taraf_cikarilan": [
+        "bizans"
+      ],
+      "ev_sahibi": "osmanli",
+      "taraf_yontemi": "ad-eslestirme (dogrulanmadi)",
+      "eslesen_yerlesim_sayisi": 1,
+      "eslesen_yerlesimler": [
+        {
+          "yerlesim": "Aynaroz (Athos)",
+          "tur": "kale",
+          "lat": 40.257,
+          "lon": 24.244,
+          "onceki_sahip": "bizans",
+          "sonraki_sahip": "osmanli",
+          "tarih": "1424-01-01",
+          "gun_farki": -52,
+          "y_antlasma_etiketli": false
+        }
+      ]
+    }
+  ]
+}
