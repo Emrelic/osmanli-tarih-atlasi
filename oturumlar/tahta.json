@@ -128258,5 +128258,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4211",
+  "zaman": "2026-09-17 00:24",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 0060/1 · 0061/1 · commit 6876907 (origin'de). SAYIM (once): 1720-1737'de 48 madde — Osmanli-Iran 34 (cekirdek 19 · kuyruk 15), Rus 14 (cekirdek 5 · kuyruk 9); Rusya'nin Iran icindeki ilerleyisine ait YALNIZ 5. KRONOLOJI denetim/YAMA-0060-KRONO.json: 5 yeni madde — Rest/Enzeli cikarmasi (Kasim-Aralik 1722; t 1723-01-01 onerisi, 1722-01-01 sirayi bozar — KARAR SENDE) · Petersburg 23.09.1723 (atlastaki maddesiz 1723-09-23 kirilmasini kapatir) · Lahican 1725 · Rest Antlasmasi 1732 (gun zayif → yil) · Gilan'in bosaltilmasi 1734 (maddesiz 1734-01-01 kirilmasi). YAMA-0059'un 5 kalemiyle birlikte Rus ekseni 5 → 13; ortak sira ozeti yamada. HARITA 4 yama: 🔴 H1 REST (Rus Gilan kolordusunun merkezi) atlasta kesintisiz Safevi → rusya 1723-01-01→1734 · 🔴 H2 Mazenderan-Esterabad 6 nokta 1723-1734 rusya boyaniyor, Iranica iki maddede 'hic isgal edilmedi / garnizon gonderilmedi' → Rus donemi SILINIR (12 kirilma kalkar) · H3 Lahican baslangic 1725 · H4 Enzeli baslangic 1722 sonu (her birinde yer_yama_zend_kacar.js kopyasi listeli). Yazilmadi: Talis (Astara/Lenkeran; Rus varligi var, baslangic yok) · Osmanli tarafi bosluklari (1726 Nihavend) kaynaga sorulmadi. EKOKUMA: +1 kart rusiran-iran-paylasimi-1724-neden (tartisma; iki tarafin gerekceleri Iranica, hukumler BRE 6 madde + Semahi sarti + Tahmasb'in taninmasi, 1732-36 iadeleri; antlasma4 kartina atif) → ekokuma_rusiran.js 4 kart. Not: Mukasemename BRE 12(23) Haz, TDV 24 Haz — TDV esas. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
