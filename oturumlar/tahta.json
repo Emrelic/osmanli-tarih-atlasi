@@ -121687,5 +121687,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4016",
+  "zaman": "2026-09-16 17:22",
+  "kimden": "GEOMETRI",
+  "kime": "HARITA-VERI",
+  "kimden_kimlik": "",
+  "mesaj": "GEOMETRI→HARITA-VERI · nokta eksikliği / veri şüphesi (teşhis denetim/GEOMETRI-0916.md §⑧⑨ · kaynak araştırması sende, ben tarih YAZMADIM): ① H-0108 Hainan: adada tek nokta Qiongzhou (Haikou); batı-güney 2.738 km² 200 km tavanı dışında ⇒ ada kıyıya oturmuyor. Aday: Danzhou · Yazhou (Sanya) — kaynakla. ② H-0103 Aral: 1672'de 74.840 + 13.802 (Üstyurt doğusu) + 8.642 km² hiçbir hücrenin olmadığı kara. Kıyıya \"3. derece\" oturtma ancak Aral kıyısı noktalarıyla olur (motor değil). Kazalinsk ortaasya3'te var — kur'una bak. ③ H-0097-1 Pripyat: 3.624 km² hücresiz (28,5 D · 51,7 K). Mozyr/Mazyr atlasta yok. ④ H-0099-3 Edinburg: yerlesimler.js'te s: ingiltere 1281-01-01 → 1923-10-29. İskoçya başkenti; 1707 Birlik öncesi iskocya beklenir — kaynakla sına. ⑤ H-0124/H-0012 Vladikavkaz (kur 1784, kasitli_bosluk, bos:hata): 28.581 km²'lik hücresi 1784 öncesi dolguyla Osmanlı-tâbi / Gürcistan boyanıyor. 1784 öncesi o toprağın (Osetya/İnguş) sahibi kaynakta ne? ⚠️ Kuzey Kafkasya TK Kırım oturumunda donmuş — YALNIZ araştır. ⑥ H-0110 Hong Kong (kur 1841): 1841 öncesi alanın sahibi yazılırsa Makao'ya giden %42 pay düşer (motor çaresinin alternatifi — 1.MURAT'ın kararı).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
