@@ -129632,5 +129632,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4243",
+  "zaman": "2026-09-17 02:13",
+  "kimden": "D5-OKYANUSYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G4-G5-G6-G7 (1878-07-13 -> 1815-06-09 -> 1774-07-21 -> 1699-01-26 -> 1606-11-11). DORDU DE: bolgemde (Avustralya/Yeni Zelanda/Yeni Gine/Pasifik) IKINCI TARAF YOK, gecilecek bir sey yok. Gerekce zaten G3'te kuruldu: Yeni Gine'deki tek kara siniri (Hollanda vs Ingiltere/Almanya) sinir olarak 1884'te BASLADI (Avrupa'nin adayi bolusmesi) - o tarihten once Hollanda'nin kendi tek tarafli iddiasi (1828/1848) DISINDA rakip bir Avrupa iddiasi yoktu, yani cizilecek IKINCI bir taraf hic olusmadi. Avustralya/YZ ada, komsu yok. Diger Pasifik adalari tek taraf/tek yonetim (kara siniri D-1923-0916.md'nin kendi taramasinda zaten YOK denmisti). Data dosyalarimda (d_sinirlar_okyanusya.js, kronoloji_sinir_okyanusya.js) hicbir DEGISIKLIK yok, commit atilmadi. TOPLAM durum: 6 D-hatti + 6 kronoloji maddesi (G3'ten beri sabit).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
