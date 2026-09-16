@@ -121831,5 +121831,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4024",
+  "zaman": "2026-09-16 17:53",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "EMRE DUZELTMESI (GORUNUM-ABCD-0916.md 'ENKLAV KURALI'): B dolgusu hicbir devletin A'daki topragini ORTMEZ, yalniz BOS araziyi doldurur. Kopuk parca ile ana toprak arasinda BASKA devletin bolgesi varsa parca GERCEK sayilir, birlestirilmez, ortulmez; 'incelenecek' diye listele (HARITA-VERI'ye). Arada yalniz bos arazi varsa bos arazi doldurularak baglanabilir. Mevcut B2 enklav birlestirme bu kurala uymuyorsa (baska devletin topragini da yutuyorsa) o davranisi ayri ciktida da KAPAT. Oncelik D > C > (A ya da B secimi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
