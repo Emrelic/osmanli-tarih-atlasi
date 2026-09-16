@@ -1,0 +1,778 @@
+{
+ "assam_h0106": {
+  "meta": {
+   "tarih": "2026-09-16",
+   "oturum": "MOTOR · DALGA-0052",
+   "motor_sha_ilk12": "772ec0ceb3d9",
+   "gecit_izi_ilk12": "86104fbf32de",
+   "izgara": [
+    300,
+    240
+   ],
+   "kv_adim": 0.05,
+   "dijkstra_sure_sn": {
+    "nehirli": 1.0,
+    "nehirsiz": 1.2,
+    "duz": 1.2
+   },
+   "ozne": "idare",
+   "tablo_saat": {
+    "gecitsiz": {
+     "1": 16.0,
+     "2": 4.0
+    },
+    "kopru": 0.0,
+    "feribot": 8.0,
+    "kale-cifti": 8.0,
+    "sig-gecit": 4.0
+   },
+   "km_saat": 5.04,
+   "kutu": [
+    85.0,
+    20.0,
+    100.0,
+    32.0
+   ],
+   "pencere_disi_tohum": 3809
+  },
+  "kenar": {
+   "nehir_hucre": 2082,
+   "aday_hucre": 6412,
+   "aday_adim": 51091,
+   "kesen_adim": 11238,
+   "sinif1_adim": 7174,
+   "sinif2_adim": 4064,
+   "gecit_indirimli": 38,
+   "kopru_adim": 0,
+   "gecit": 63
+  },
+  "sinif_parca": {
+   "1": 9,
+   "2": 5
+  },
+  "izgara_farki": {
+   "erisilen_hucre": 67345,
+   "erisilen_nehirsizle_ayni": true,
+   "sahibi_degisen_hucre": 5805,
+   "sahibi_degisen_yuzde": 8.62,
+   "sahibi_degisen_km2": 162124,
+   "erisilen_km2": 1867251
+  },
+  "bolge": {
+   "Tuna havzası 8-30D 42-50K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Balkanlar 18-30D 39-45K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Anadolu 26-45D 36-42K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Mezopotamya 38-49D 29-38K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Mısır-Nil 28-35D 21-32K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Kafkasya 38-50D 38-44K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Karadeniz kuzeyi 28-50D 44-56K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Assam 88-97D 23-29K": {
+    "erisilen_hucre": 21559,
+    "degisen_hucre": 1937,
+    "degisen_yuzde": 8.98,
+    "degisen_km2": 54094
+   }
+  },
+  "en_cok_kaybeden": [
+   {
+    "ad": "Mungîr (Monghyr)",
+    "net_km2": -13260
+   },
+   {
+    "ad": "Şigatse",
+    "net_km2": -12664
+   },
+   {
+    "ad": "Murşidâbâd",
+    "net_km2": -10577
+   },
+   {
+    "ad": "Gauhâtî (Guwahati)",
+    "net_km2": -9736
+   },
+   {
+    "ad": "Dakka (Dhaka)",
+    "net_km2": -9601
+   },
+   {
+    "ad": "Pagan",
+    "net_km2": -9036
+   },
+   {
+    "ad": "Myitkyina",
+    "net_km2": -8664
+   },
+   {
+    "ad": "Bhâgalpûr",
+    "net_km2": -7728
+   },
+   {
+    "ad": "Kalküta",
+    "net_km2": -4212
+   },
+   {
+    "ad": "Yenangyaung",
+    "net_km2": -3539
+   },
+   {
+    "ad": "Ava (İnwa)",
+    "net_km2": -3402
+   },
+   {
+    "ad": "Myingyan",
+    "net_km2": -2983
+   },
+   {
+    "ad": "Kengtung",
+    "net_km2": -1313
+   },
+   {
+    "ad": "Bhamo",
+    "net_km2": -623
+   },
+   {
+    "ad": "Shwebo",
+    "net_km2": -84
+   }
+  ],
+  "en_cok_kazanan": [
+   {
+    "ad": "Râcmahal",
+    "net_km2": 17437
+   },
+   {
+    "ad": "Gyantse",
+    "net_km2": 13374
+   },
+   {
+    "ad": "Pakokku",
+    "net_km2": 10985
+   },
+   {
+    "ad": "Sonârgâon",
+    "net_km2": 9122
+   },
+   {
+    "ad": "Gaur (Lakhnautî)",
+    "net_km2": 8439
+   },
+   {
+    "ad": "Katmandu",
+    "net_km2": 5517
+   },
+   {
+    "ad": "Lhasa",
+    "net_km2": 5096
+   },
+   {
+    "ad": "Pandua (Hazret Pandua)",
+    "net_km2": 4296
+   },
+   {
+    "ad": "Hûglî (Hooghly)",
+    "net_km2": 3098
+   },
+   {
+    "ad": "Minbu",
+    "net_km2": 3074
+   },
+   {
+    "ad": "Mandalay",
+    "net_km2": 2996
+   },
+   {
+    "ad": "Sibsâgar (Rangpûr)",
+    "net_km2": 2760
+   },
+   {
+    "ad": "Patna (Azîmâbâd)",
+    "net_km2": 2427
+   },
+   {
+    "ad": "Mogok",
+    "net_km2": 2312
+   },
+   {
+    "ad": "Çamdo (Chamdo)",
+    "net_km2": 1672
+   }
+  ],
+  "butce": {
+   "butce_km_esdeger": 201.6,
+   "not": "DÜZ taraf 0,05° ızgarada 8 komşulu mesafedir; gerçek daireden ~%8'e kadar sapar",
+   "duz_200km_ic_km2": 1417560,
+   "surtunmeli_40saat_ic_km2": 901669,
+   "duzde_ic_surtunmede_dis_km2": 515890,
+   "surtunmede_ic_duzde_dis_km2": 0
+  },
+  "h0106_ornek": {
+   "Gauhâtî (Guwahati)": {
+    "lat": 26.145,
+    "lon": 91.736,
+    "duz_200km_kendi_km2": 90088,
+    "surtunmeli_40saat_kendi_km2": 48195,
+    "surtunmeli_sahip_toplam_km2": 86492,
+    "surtunmeli_en_uzak_hucre_saat": 117.2
+   },
+   "Sibsâgar (Rangpûr)": {
+    "lat": 26.985,
+    "lon": 94.638,
+    "duz_200km_kendi_km2": 92689,
+    "surtunmeli_40saat_kendi_km2": 50585,
+    "surtunmeli_sahip_toplam_km2": 139126,
+    "surtunmeli_en_uzak_hucre_saat": 152.5
+   }
+  }
+ },
+ "osmanli_dunyasi": {
+  "meta": {
+   "tarih": "2026-09-16",
+   "oturum": "MOTOR · DALGA-0052",
+   "motor_sha_ilk12": "772ec0ceb3d9",
+   "gecit_izi_ilk12": "86104fbf32de",
+   "izgara": [
+    1140,
+    760
+   ],
+   "kv_adim": 0.05,
+   "dijkstra_sure_sn": {
+    "nehirli": 21.1,
+    "nehirsiz": 23.7,
+    "duz": 20.7
+   },
+   "ozne": "idare",
+   "tablo_saat": {
+    "gecitsiz": {
+     "1": 16.0,
+     "2": 4.0
+    },
+    "kopru": 0.0,
+    "feribot": 8.0,
+    "kale-cifti": 8.0,
+    "sig-gecit": 4.0
+   },
+   "km_saat": 5.04,
+   "kutu": [
+    5.0,
+    20.0,
+    62.0,
+    58.0
+   ],
+   "pencere_disi_tohum": 2512
+  },
+  "kenar": {
+   "nehir_hucre": 8316,
+   "aday_hucre": 25434,
+   "aday_adim": 202537,
+   "kesen_adim": 44996,
+   "sinif1_adim": 27906,
+   "sinif2_adim": 17090,
+   "gecit_indirimli": 2508,
+   "kopru_adim": 1536,
+   "gecit": 63
+  },
+  "sinif_parca": {
+   "1": 35,
+   "2": 35
+  },
+  "izgara_farki": {
+   "erisilen_hucre": 691169,
+   "erisilen_nehirsizle_ayni": true,
+   "sahibi_degisen_hucre": 31972,
+   "sahibi_degisen_yuzde": 4.626,
+   "sahibi_degisen_km2": 696336,
+   "erisilen_km2": 16288117
+  },
+  "bolge": {
+   "Tuna havzası 8-30D 42-50K": {
+    "erisilen_hucre": 61871,
+    "degisen_hucre": 5799,
+    "degisen_yuzde": 9.37,
+    "degisen_km2": 122493
+   },
+   "Balkanlar 18-30D 39-45K": {
+    "erisilen_hucre": 21315,
+    "degisen_hucre": 1165,
+    "degisen_yuzde": 5.47,
+    "degisen_km2": 26204
+   },
+   "Anadolu 26-45D 36-42K": {
+    "erisilen_hucre": 38208,
+    "degisen_hucre": 2713,
+    "degisen_yuzde": 7.1,
+    "degisen_km2": 65238
+   },
+   "Mezopotamya 38-49D 29-38K": {
+    "erisilen_hucre": 38935,
+    "degisen_hucre": 3094,
+    "degisen_yuzde": 7.95,
+    "degisen_km2": 79809
+   },
+   "Mısır-Nil 28-35D 21-32K": {
+    "erisilen_hucre": 27283,
+    "degisen_hucre": 4020,
+    "degisen_yuzde": 14.73,
+    "degisen_km2": 112164
+   },
+   "Kafkasya 38-50D 38-44K": {
+    "erisilen_hucre": 21925,
+    "degisen_hucre": 1612,
+    "degisen_yuzde": 7.35,
+    "degisen_km2": 38350
+   },
+   "Karadeniz kuzeyi 28-50D 44-56K": {
+    "erisilen_hucre": 96047,
+    "degisen_hucre": 10670,
+    "degisen_yuzde": 11.11,
+    "degisen_km2": 210418
+   },
+   "Assam 88-97D 23-29K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   }
+  },
+  "en_cok_kaybeden": [
+   {
+    "ad": "Regensburg",
+    "net_km2": -13633
+   },
+   {
+    "ad": "Benî Süveyf",
+    "net_km2": -13226
+   },
+   {
+    "ad": "Çernigov",
+    "net_km2": -12136
+   },
+   {
+    "ad": "Kamışin",
+    "net_km2": -9646
+   },
+   {
+    "ad": "Smolensk",
+    "net_km2": -9146
+   },
+   {
+    "ad": "Hvalınsk",
+    "net_km2": -8357
+   },
+   {
+    "ad": "Deyrizor",
+    "net_km2": -7894
+   },
+   {
+    "ad": "Kozmodemyansk",
+    "net_km2": -7812
+   },
+   {
+    "ad": "Esna",
+    "net_km2": -7050
+   },
+   {
+    "ad": "Asyut",
+    "net_km2": -6810
+   },
+   {
+    "ad": "Zaporojye Seçi",
+    "net_km2": -6644
+   },
+   {
+    "ad": "Kızıkermen (Gazi Kerman)",
+    "net_km2": -6627
+   },
+   {
+    "ad": "Viyana",
+    "net_km2": -6539
+   },
+   {
+    "ad": "Ammâre",
+    "net_km2": -6433
+   },
+   {
+    "ad": "Orsk",
+    "net_km2": -6148
+   }
+  ],
+  "en_cok_kazanan": [
+   {
+    "ad": "Prag",
+    "net_km2": 12130
+   },
+   {
+    "ad": "Vetluga",
+    "net_km2": 10047
+   },
+   {
+    "ad": "Atfîh",
+    "net_km2": 9315
+   },
+   {
+    "ad": "Nürnberg",
+    "net_km2": 9076
+   },
+   {
+    "ad": "Volokolamsk",
+    "net_km2": 8749
+   },
+   {
+    "ad": "Ahmîm",
+    "net_km2": 7975
+   },
+   {
+    "ad": "Minye",
+    "net_km2": 7521
+   },
+   {
+    "ad": "Dîvâniye",
+    "net_km2": 7449
+   },
+   {
+    "ad": "Tsarevokokşaysk (Yoşkar-Ola)",
+    "net_km2": 7430
+   },
+   {
+    "ad": "Yeni Saray (Tsarev)",
+    "net_km2": 7274
+   },
+   {
+    "ad": "Kiev",
+    "net_km2": 7038
+   },
+   {
+    "ad": "Uralsk (Yayık)",
+    "net_km2": 7024
+   },
+   {
+    "ad": "Rın kumulları (Volga-Yayık arası)",
+    "net_km2": 6997
+   },
+   {
+    "ad": "Borisoglebsk",
+    "net_km2": 6945
+   },
+   {
+    "ad": "Rostov (Don)",
+    "net_km2": 6011
+   }
+  ],
+  "butce": {
+   "butce_km_esdeger": 201.6,
+   "not": "DÜZ taraf 0,05° ızgarada 8 komşulu mesafedir; gerçek daireden ~%8'e kadar sapar",
+   "duz_200km_ic_km2": 14903333,
+   "surtunmeli_40saat_ic_km2": 14404619,
+   "duzde_ic_surtunmede_dis_km2": 498924,
+   "surtunmede_ic_duzde_dis_km2": 210
+  },
+  "h0106_ornek": {
+   "Gauhâtî (Guwahati)": {
+    "lat": 26.145,
+    "lon": 91.736,
+    "duz_200km_kendi_km2": 0,
+    "surtunmeli_40saat_kendi_km2": 0,
+    "surtunmeli_sahip_toplam_km2": 0,
+    "surtunmeli_en_uzak_hucre_saat": null
+   },
+   "Sibsâgar (Rangpûr)": {
+    "lat": 26.985,
+    "lon": 94.638,
+    "duz_200km_kendi_km2": 0,
+    "surtunmeli_40saat_kendi_km2": 0,
+    "surtunmeli_sahip_toplam_km2": 0,
+    "surtunmeli_en_uzak_hucre_saat": null
+   }
+  }
+ },
+ "tibet_h0105": {
+  "meta": {
+   "tarih": "2026-09-16",
+   "oturum": "MOTOR · DALGA-0052",
+   "motor_sha_ilk12": "772ec0ceb3d9",
+   "gecit_izi_ilk12": "86104fbf32de",
+   "izgara": [
+    400,
+    320
+   ],
+   "kv_adim": 0.05,
+   "dijkstra_sure_sn": {
+    "nehirli": 4.9,
+    "nehirsiz": 4.6,
+    "duz": 4.1
+   },
+   "ozne": "idare",
+   "tablo_saat": {
+    "gecitsiz": {
+     "1": 16.0,
+     "2": 4.0
+    },
+    "kopru": 0.0,
+    "feribot": 8.0,
+    "kale-cifti": 8.0,
+    "sig-gecit": 4.0
+   },
+   "km_saat": 5.04,
+   "kutu": [
+    85.0,
+    22.0,
+    105.0,
+    38.0
+   ],
+   "pencere_disi_tohum": 3818
+  },
+  "kenar": {
+   "nehir_hucre": 3154,
+   "aday_hucre": 9766,
+   "aday_adim": 77903,
+   "kesen_adim": 17064,
+   "sinif1_adim": 13058,
+   "sinif2_adim": 4006,
+   "gecit_indirimli": 38,
+   "kopru_adim": 0,
+   "gecit": 63
+  },
+  "sinif_parca": {
+   "1": 13,
+   "2": 5
+  },
+  "izgara_farki": {
+   "erisilen_hucre": 126957,
+   "erisilen_nehirsizle_ayni": true,
+   "sahibi_degisen_hucre": 15817,
+   "sahibi_degisen_yuzde": 12.459,
+   "sahibi_degisen_km2": 415569,
+   "erisilen_km2": 3395221
+  },
+  "bolge": {
+   "Tuna havzası 8-30D 42-50K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Balkanlar 18-30D 39-45K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Anadolu 26-45D 36-42K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Mezopotamya 38-49D 29-38K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Mısır-Nil 28-35D 21-32K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Kafkasya 38-50D 38-44K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Karadeniz kuzeyi 28-50D 44-56K": {
+    "erisilen_hucre": 0,
+    "degisen_hucre": 0,
+    "degisen_yuzde": 0.0,
+    "degisen_km2": 0
+   },
+   "Assam 88-97D 23-29K": {
+    "erisilen_hucre": 21559,
+    "degisen_hucre": 1937,
+    "degisen_yuzde": 8.98,
+    "degisen_km2": 54094
+   }
+  },
+  "en_cok_kaybeden": [
+   {
+    "ad": "Şigatse",
+    "net_km2": -166430
+   },
+   {
+    "ad": "Çamdo (Chamdo)",
+    "net_km2": -68974
+   },
+   {
+    "ad": "Kalküta",
+    "net_km2": -15005
+   },
+   {
+    "ad": "Mungîr (Monghyr)",
+    "net_km2": -13260
+   },
+   {
+    "ad": "Murşidâbâd",
+    "net_km2": -10577
+   },
+   {
+    "ad": "Dali",
+    "net_km2": -9933
+   },
+   {
+    "ad": "Gauhâtî (Guwahati)",
+    "net_km2": -9736
+   },
+   {
+    "ad": "Dakka (Dhaka)",
+    "net_km2": -9601
+   },
+   {
+    "ad": "Bhâgalpûr",
+    "net_km2": -7728
+   },
+   {
+    "ad": "Myitkyina",
+    "net_km2": -2133
+   },
+   {
+    "ad": "Shwebo",
+    "net_km2": -887
+   },
+   {
+    "ad": "Kunming",
+    "net_km2": -356
+   }
+  ],
+  "en_cok_kazanan": [
+   {
+    "ad": "Lhasa",
+    "net_km2": 160753
+   },
+   {
+    "ad": "Xining",
+    "net_km2": 31156
+   },
+   {
+    "ad": "Çengdu (Chengdu)",
+    "net_km2": 26743
+   },
+   {
+    "ad": "Râcmahal",
+    "net_km2": 17437
+   },
+   {
+    "ad": "Gyantse",
+    "net_km2": 13374
+   },
+   {
+    "ad": "Hûglî (Hooghly)",
+    "net_km2": 11858
+   },
+   {
+    "ad": "Sonârgâon",
+    "net_km2": 11500
+   },
+   {
+    "ad": "Gaur (Lakhnautî)",
+    "net_km2": 8439
+   },
+   {
+    "ad": "Lanzhou",
+    "net_km2": 7985
+   },
+   {
+    "ad": "Katmandu",
+    "net_km2": 5517
+   },
+   {
+    "ad": "Bhamo",
+    "net_km2": 5224
+   },
+   {
+    "ad": "Pandua (Hazret Pandua)",
+    "net_km2": 4296
+   },
+   {
+    "ad": "Mogok",
+    "net_km2": 3629
+   },
+   {
+    "ad": "Sibsâgar (Rangpûr)",
+    "net_km2": 2760
+   },
+   {
+    "ad": "Patna (Azîmâbâd)",
+    "net_km2": 2427
+   }
+  ],
+  "butce": {
+   "butce_km_esdeger": 201.6,
+   "not": "DÜZ taraf 0,05° ızgarada 8 komşulu mesafedir; gerçek daireden ~%8'e kadar sapar",
+   "duz_200km_ic_km2": 1609831,
+   "surtunmeli_40saat_ic_km2": 895366,
+   "duzde_ic_surtunmede_dis_km2": 714465,
+   "surtunmede_ic_duzde_dis_km2": 0
+  },
+  "h0106_ornek": {
+   "Gauhâtî (Guwahati)": {
+    "lat": 26.145,
+    "lon": 91.736,
+    "duz_200km_kendi_km2": 90088,
+    "surtunmeli_40saat_kendi_km2": 48195,
+    "surtunmeli_sahip_toplam_km2": 86492,
+    "surtunmeli_en_uzak_hucre_saat": 117.2
+   },
+   "Sibsâgar (Rangpûr)": {
+    "lat": 26.985,
+    "lon": 94.638,
+    "duz_200km_kendi_km2": 92689,
+    "surtunmeli_40saat_kendi_km2": 50585,
+    "surtunmeli_sahip_toplam_km2": 139126,
+    "surtunmeli_en_uzak_hucre_saat": 152.5
+   },
+   "Çamdo (Chamdo)": {
+    "lat": 31.14,
+    "lon": 97.178,
+    "duz_200km_kendi_km2": 112932,
+    "surtunmeli_40saat_kendi_km2": 20815,
+    "surtunmeli_sahip_toplam_km2": 410738,
+    "surtunmeli_en_uzak_hucre_saat": 234.5
+   }
+  }
+ }
+}
