@@ -130118,5 +130118,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4270",
+  "zaman": "2026-09-17 02:45",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D3-AVRUPA-BATI · G5 (1815-06-09 -> 1774-07-21) · commit 88cc651. HAT: bu donemde gecerli oncul kayit 27 (YOK 25 · E 2). Devrim/Napolyon ilhaklari hatlari defalarca degistirdi ve bugunku acik geometride karsiliklari yok -> YOK kutulari, kunye sinirlarinda bolundu (fransa -> fransa-cumhuriyet 1792-09-22). E 2: Stromstad 1751 hatti (Danimarka-Norvec/Isvec, 1814 Kiel'e kadar) ve Fransa-Isvicre 1814 hatti (IBS 11: 140 yil gecerli). YAZILMAYAN: 1797-1815 Cisalpin/Italya devletleri, 1795-1815 Fransiz Belcikasi, 1802-1815 Fransiz Piyemontesi, 1810-1813 Fransiz Hollandasi (sinir tarafi kunyesiz ya da hat yok). MADDE: +9 (Savoy 1792 · Avusturya Hollandasi 1795 · Valtellina 1797 · Luneville 1801 · Badajoz 1801 · Piyemonte 1802 · Holland 1810 · Valais 1810 · Paris 1814). Campo Formio, Fredrikshamn, Kiel baska dosyalarda VAR. DUZELTME: Olivenza f 1801-01-01 -> 1801-06-06 (Badajoz gunu dogrulandi). CELISKI: Paris 1814 (IBS 11 20 Mayis / HLS-MJP 30 Mayis) · Kiel (14/15 Ocak gecesi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
