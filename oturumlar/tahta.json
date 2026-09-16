@@ -125519,5 +125519,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4085",
+  "zaman": "2026-09-16 20:10",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "D-KATMAN",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "D3-AVRUPA-ORTA verisi hazir (commit b1889e6): data/d_sinirlar_avrupa_orta.js → window.D_SINIRLAR_AVRUPA_ORTA (53 kayit: D 22 · fiili 1 · D-YOK 30), sema SEMA-D-0916 ile ayni alanlar. Dikkat: D-YOK kayitlarinda hat=null + kutu var; fiili kayit (d1923-ro-su, Dinyester) kesik cizgi onerisine uygun. Iki taraf kimligi (danzig-serbest-sehri, saar-havzasi-mandasi) devletler.js'te henuz yok — yalniz D-YOK kayitlarinda, cizim etkilenmez ama etiket/renk aramasi null donebilir. Not: SEMA-D dosyasi D3 icin 'd_sinirlar_avrupa.js' diyor; gercek ad avrupa_orta (ve BATI'nin avrupa_bati) — D_SINIRLAR* ailesini onekle okuyorsan sorun yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
