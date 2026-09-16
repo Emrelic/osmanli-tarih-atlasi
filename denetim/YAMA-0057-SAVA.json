@@ -1,0 +1,144 @@
+{
+  "paket": "0057-SAVA",
+  "madde": "DALGA-0057 madde 5 (D2-KOMSU)",
+  "tarih": "2026-09-16",
+  "yazan": "D2-KOMSU",
+  "durum": "ONERI — veriye yazılmadı; uygulayıcı UYGULA / 1.MURAT",
+  "dosya": "data/yerlesimler_ek29.js",
+  "ozet": "Karlofça metninin kaydın KENDİSİNDE alıntılanan cümlesi ters okunmuş: Novi, Dubica, Brod 'on the part of Bosnia' sayılan ve İmparatorluk garnizonlarının ÇEKİLECEĞİ yerler — yani 1699'dan sonra OSMANLI tarafı. Yalnız Kostayniçe (Castanoviz, Una'nın öte yakası) Avusturya'da kaldı. Üç kayıt 1699-1918 arasını baştan sona 'avusturya' gösteriyor; doğrusu 1908 ilhakına kadar Osmanlı (Brod için 1718-1739 Pasarofça arası hariç).",
+  "kaynaklar": {
+    "TDV_karlofca": {
+      "url": "https://islamansiklopedisi.org.tr/karlofca",
+      "http": 200,
+      "alinti": "Neticede Kostayniçe’nin Avusturya’da kalmasına karşılık diğer kalelerin boşaltılması kararlaştırıldı.",
+      "baglam": "Aynı paragraf tartışılan kaleleri sayıyor: Brot, Dobay (Debej), Yesanofça (Jasenowac), Dupiçe (Dubica), Kostayniçe, Novi, Krupa, Bihke"
+    },
+    "Karlofca_metni_ingilizce": {
+      "not": "Kaydın kendi kaynak alanında ve data/hukuki_sinirlar.js'te duran alıntı. Barındırma yeri scribd (hukuki_sinirlar.js 'daha sağlam akademik kaynakla teyit edilmeli' diyor). Bu yama onu TDV ile teyitli sayar.",
+      "alinti": "Imperial Garrisons that are in Novi, Dubizza, Sessenovizza, Doboy and Bred on the part of Bosnia … shall be drawn out"
+    },
+    "TDV_bosna-hersek": {
+      "url": "https://islamansiklopedisi.org.tr/bosna-hersek",
+      "http": 200,
+      "alintilar": [
+        "1718 Pasarofça Antlaşması ile Sava’nın güneyindeki şerit şeklinde arazi Avusturya’ya verildi.",
+        "1739 Belgrad Antlaşması ile Avusturya, Furjon Kalesi hariç Pasarofça Antlaşması sonucu aldığı bütün yerleri geri verdi.",
+        "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi.",
+        "Osmanlı-Avusturya savaşı (1788-1791) Bosna sınır bölgesinde pek büyük bir değişikliğe yol açmamakla birlikte"
+      ]
+    },
+    "TDV_pasarofca-antlasmasi": {
+      "url": "https://islamansiklopedisi.org.tr/pasarofca-antlasmasi",
+      "http": 200,
+      "alinti": "22 Şâban 1130 (21 Temmuz 1718) tarihinde … imzalandı",
+      "ek": "Kuzey Bosna tamamen Avusturya’ya bırakılmıştır"
+    },
+    "TDV_mahmud-i--osmanli": {
+      "url": "https://islamansiklopedisi.org.tr/mahmud-i--osmanli",
+      "http": 200,
+      "alinti": "24 Cemâziyelâhir 1152 (28 Eylül 1739) tarihinde yirmi yedi yıllığına yapılan anlaşma",
+      "celiski": "Atlasın kendi kronoloji maddesi Belgrad Antlaşması'nı 1739-09-18'e koyuyor ve kaynağı 'belgrad-antlasmalari' — bu slug ÖLÜ (302, 16 Eylül ölçümü). Hicrî tarih tablo takvimiyle 28 Eylül 1739'a denk geliyor (bu oturumda hesaplandı). 18/28 Eylül farkı ÇÖZÜLMEDİ (§4 ⑥, D110 takvim tuzağı) — yama TDV'yi esas aldı. İkisi ±30 gün içinde, Değişmez 2 etkilenmez."
+    },
+    "GeoNames_konum_sinavi": {
+      "not": "Bölge kutusuyla (44.9-45.35 K / 16.2-18.2 D) arandı — ilk denemede adaşlar geldi (Novi Grad 18.3°D, Brod 18.8°D), elendi.",
+      "sonuc": {
+        "Brod (BA) 3203651": [45.13747, 17.98722],
+        "Kozarska Dubica (BA) 3203657": [45.17667, 16.80944],
+        "Novi Grad (BA) 3203647": [45.04643, 16.37782],
+        "Hrvatska Kostajnica (HR) 3197594": [45.23167, 16.53917],
+        "Kostajnica (BA) 3203655": [45.21956, 16.53929],
+        "Jasenovac (HR) 3198815": [45.27167, 16.91167],
+        "Slavonski Brod (HR) 3190586": [45.16158, 18.0163]
+      }
+    }
+  },
+  "kalemler": [
+    {
+      "no": 1,
+      "kayit": "Bosna Brod'u (Bosanski Brod)",
+      "konum": "45.138, 17.988 — GeoNames Brod (BA) ile ≤0,3 km ✓ Sava'nın GÜNEY kıyısı. Slavonski Brod ile KARIŞMAMIŞ (o 45.162, 18.016).",
+      "eski": {
+        "d": [{"f": "1538-01-01", "t": "1699-01-26"}],
+        "s": [{"f": "1699-01-26", "t": "1918-11-11", "d": "avusturya"}, {"f": "1918-11-11", "t": "1923-10-29", "d": "yugoslavya"}]
+      },
+      "yeni": {
+        "d": [{"f": "1538-01-01", "t": "1718-07-21"}, {"f": "1739-09-28", "t": "1908-10-07"}],
+        "s": [{"f": "1718-07-21", "t": "1739-09-28", "d": "avusturya"},
+              {"f": "1908-10-07", "t": "1918-11-11", "d": "avusturya"},
+              {"f": "1918-11-11", "t": "1923-10-29", "d": "yugoslavya"}]
+      },
+      "gerekce": "Karlofça: 'Bred on the part of Bosnia' garnizonu çekilecek yerlerde; TDV: Kostayniçe DIŞINDAKİ kaleler boşaltıldı ⇒ 1699 sonrası Osmanlı. Brod Sava'nın güney kıyısında ⇒ TDV'nin '1718 Pasarofça ile Sava'nın güneyindeki şerit' kapsamında ⇒ 1718-1739 Avusturya; 1739 Belgrad ile iade. 1878-1908 Avusturya-Macaristan işgali: Bosna'nın öteki kayıtlarıyla (Banaluka, Srebrenik) aynı gelenek — hukukî Osmanlı, d: sürer.",
+      "kaynak_yeni_alan": "Karlofça metni ('Bred on the part of Bosnia … shall be drawn out') · TDV karlofca · TDV bosna-hersek (1718 şerit; 1739 iade; 7 Ekim 1908) · TDV pasarofca-antlasmasi (21 Temmuz 1718) · TDV mahmud-i--osmanli (28 Eylül 1739; 18 Eylül ile çelişki notlu)",
+      "acik": [
+        "f 1538-01-01 hâlâ KOMŞU EMSALİ (Dubica'dan) — kendi fetih kaynağı bulunamadı (kayıt zaten böyle damgalı)",
+        "1688-1699 İmparatorluk garnizonu dönemi (metin 'Imperial Garrisons that are in … Bred' diyor) modellenmedi: işgal günü bulunamadı"
+      ]
+    },
+    {
+      "no": 2,
+      "kayit": "Bosna Dubiçası (Bosanska Dubica)",
+      "konum": "45.174, 16.810 — GeoNames Kozarska Dubica ile ≤0,3 km ✓ Una'nın Bosna (güney) yakası",
+      "eski": {
+        "d": [{"f": "1538-01-01", "t": "1699-01-26"}],
+        "s": [{"f": "1699-01-26", "t": "1918-11-11", "d": "avusturya"}, {"f": "1918-11-11", "t": "1923-10-29", "d": "yugoslavya"}]
+      },
+      "yeni": {
+        "d": [{"f": "1538-01-01", "t": "1908-10-07"}],
+        "s": [{"f": "1908-10-07", "t": "1918-11-11", "d": "avusturya"},
+              {"f": "1918-11-11", "t": "1923-10-29", "d": "yugoslavya"}]
+      },
+      "gerekce": "Karlofça: 'Dubizza … on the part of Bosnia' garnizonu çekilecek; TDV: Dupiçe tartışılan kaleler arasında ve Kostayniçe dışındakiler boşaltıldı ⇒ 1699 sonrası Osmanlı.",
+      "kaynak_yeni_alan": "Karlofça metni · TDV karlofca · TDV bosna-hersek (7 Ekim 1908)",
+      "acik": [
+        "🟡 1718-1739: Dubica Una üzerinde, Sava'ya ~10 km — Pasarofça 'Sava'nın güneyindeki şerit'e girip girmediği BULUNAMADI. Girdiyse Brod gibi 1718-07-21→1739-09-28 avusturya eklenmeli. KARAR GEREKİYOR; yama girmediğini varsaymıyor, yalnız bilinmediğini yazıyor",
+        "1688-1699 ve 1788-1791 Avusturya işgalleri modellenmedi (günleri bulunamadı; TDV 1788-91 için 'pek büyük bir değişikliğe yol açmamakla' diyor, Ziştovi ele geçirilen yerlerin iadesini yazıyor)"
+      ]
+    },
+    {
+      "no": 3,
+      "kayit": "Bosna Novi'si (Bosanski Novi)",
+      "konum": "45.048, 16.377 — GeoNames Novi Grad (BA) ile ≤0,3 km ✓",
+      "eski": {
+        "d": [{"f": "1556-01-01", "t": "1699-01-26"}],
+        "s": [{"f": "1699-01-26", "t": "1918-11-11", "d": "avusturya"}, {"f": "1918-11-11", "t": "1923-10-29", "d": "yugoslavya"}]
+      },
+      "yeni": {
+        "d": [{"f": "1556-01-01", "t": "1908-10-07"}],
+        "s": [{"f": "1908-10-07", "t": "1918-11-11", "d": "avusturya"},
+              {"f": "1918-11-11", "t": "1923-10-29", "d": "yugoslavya"}]
+      },
+      "gerekce": "Karlofça: 'Novi … on the part of Bosnia' garnizonu çekilecek; TDV: Novi tartışılanlar arasında, Kostayniçe dışındakiler boşaltıldı ⇒ Osmanlı. TDV bosna-hersek ayrıca 'Novi kadısı Ömer Efendi' (1736-1739 olaylarının tarihçisi) ve 1872 Banaluka–Novi demiryolunu anıyor — 18. ve 19. yüzyılda Osmanlı idaresinde olduğunun iki bağımsız izi.",
+      "kaynak_yeni_alan": "Karlofça metni · TDV karlofca · TDV bosna-hersek (Novi kadısı; 1872 demiryolu; 7 Ekim 1908)",
+      "acik": [
+        "🟡 1718-1739 Pasarofça durumu BULUNAMADI (Novi Sava'dan ~50 km, Una üzerinde — 'şerit' içinde olması daha az olası ama ölçülmedi)",
+        "1688-1699 ve 1788-1791 işgalleri modellenmedi"
+      ]
+    },
+    {
+      "no": 4,
+      "kayit": "Kostayniçe (Kostajnica)",
+      "tur": "KONUM düzeltmesi — dönem DOĞRU",
+      "eski": {"lat": 45.183, "lon": 16.683},
+      "yeni": {"lat": 45.232, "lon": 16.539},
+      "gerekce": "Dönem kaynağa uygun: TDV 'Kostayniçe'nin Avusturya'da kalması', metin 'Castanoviz … together with the farthermost Bank of the said River Unna … remain in the Power of the Emperor' ⇒ Una'nın ÖTE (Hırvat) yakasındaki Hrvatska Kostajnica. Ama kaydın noktası 45.183/16.683 — GeoNames Hrvatska Kostajnica'dan (45.232/16.539) ~12,5 km DOĞU-GÜNEYDOĞUDA, Una'nın Bosna tarafına düşüyor olabilir ⇒ 1699 sonrasında Bosna yakasının bir kısmını Avusturya boyayabilir. Koordinat kaydın kendi notunda 'GPS/harita ile birebir doğrulanmadı' diye damgalı.",
+      "kaynak_yeni_alan": "GeoNames 3197594 (Hrvatska Kostajnica) · Karlofça metni · TDV karlofca",
+      "acik": ["Una'nın karşı yakasındaki Bosanska Kostajnica (GeoNames 3203655, 45.220/16.539) atlasta YOK — 1699 sonrası Osmanlı kalesi; nokta önerisi HARITA-VERI'ye"]
+    },
+    {
+      "no": 5,
+      "kayit": "Jasenovaç (Jasenovac)",
+      "tur": "DEĞİŞİKLİK ÖNERİLMİYOR — KARAR GEREKİYOR",
+      "konum": "45.281, 16.917 — GeoNames Jasenovac (HR) ile ~1 km ✓ Sava'nın KUZEY, Una'nın BATI yakası (Hırvat tarafı)",
+      "sorun": "Kayıt 'Sessenovizza'yı Jasenovac sayıyor. Metin onu 'on the part of Bosnia' garnizonu çekilecek yerler arasında sayıyor ve TDV 'Yesanofça (Jasenowac)'ı boşaltılan kaleler listesinde veriyor ⇒ Osmanlı'ya kalmış gibi. Ama Jasenovac Una-Sava hattının HIRVAT yakasında; Karlofça sınırı bu iki nehir ⇒ coğrafî olarak Avusturya tarafı. 'Boşaltılmak' bir kalenin askerden arındırılması da olabilir, toprak devri değil. İki okuma birbirini dışlıyor.",
+      "oneri": "Bugünkü kayıt (1699-1918 avusturya) DOKUNULMADI. Akademik bir Karlofça sınır komisyonu çalışması (1699-1703) gerekiyor; 1538 fethi de komşu emsali."
+    }
+  ],
+  "tarama": {
+    "kutu": "44.6-45.45 K / 16.2-19.3 D, girdi.yukle() ile (3855 nokta)",
+    "sava_una_guney_kiyisi_kayitlari": ["Bosna Brod'u", "Bosna Dubiçası", "Bosna Novi'si", "(Kostayniçe — Hırvat yakası olmalı)", "(Jasenovaç — Hırvat yakası)"],
+    "atlasta_YOK": ["Kobaş (Kobaš)", "Berbir / Bosanska Gradiška", "Şamac (Šamac)", "Doboy (Doboj) — Karlofça metninde adıyla geçiyor", "Bosanska Kostajnica", "Krupa"],
+    "sava_kuzey_kiyisi_YOK": ["Slavonski Brod", "Stara Gradiška"],
+    "iki_uc_uyarisi": "Yama uygulanınca Brod/Dubica/Novi Osmanlı olur (doğru yön). Ama Sava'nın KUZEY yakasında Slavonski Brod ve Stara Gradiška noktası YOK ⇒ Brod peteği Sava'nın ötesine taşıp Slavonya'nın bir kısmını Osmanlı boyayabilir (CLAUDE.md §2 / §3.5.1 'iki uç da ölçülür'). Uygulamadan sonra motor çıktısında Brod peteğinin kuzey sınırına bakılmalı; gerekirse iki kuzey noktası HARITA-VERI'ye.",
+    "ayrica_bulgu_uygulanmadi": "Bosna'nın öteki kayıtları (Banaluka, Srebrenik …) ilhakı 1908-10-05'e koyuyor; TDV bosna-hersek 7 Ekim 1908 diyor (5 Ekim Bulgaristan'ın bağımsızlık günü). Bu yama kendi üç kaydında 1908-10-07 kullandı; bütün Bosna için ayrı karar gerekir — iki gün arayla komşu kayıtlar farklı renk alır."
+  }
+}
