@@ -1,0 +1,213 @@
+{
+  "paket": "EKO-DUNYA — ikinci tur (DALGA-0052 §2c)",
+  "tarih": "2026-09-16",
+  "yazan": "EKO-DUNYA (1.MURAT sevki, kalem 66-98 / KUTU-AYIKLA-0916.md §④ HARITA-VERI listesi)",
+  "durum": "ONERI — veriye YAZILMADI. Uygulayıcı: UYGULA/Oturum 0. Görüntü/geometri kusuru olan kalemler 'gorunum-ab-ile-cozulur' diye işaretlendi, araştırılmadı (şartname böyle istedi). Görsele muhtaç kalemlerde (dosyayı görmeden karar verilemeyecek olanlar) 'gorsel-gerekli' diye işaretlendi.",
+  "kalemler": [
+    {
+      "no": 66, "madde": "0035/H-0064", "sinif": "gorunum-ab-ile-cozulur",
+      "ozet": "Kuzey Afrika'dakine benzer, anlamsız/fazladan boyanmış boş alan.",
+      "hukum": "Görsel kanıtı olmayan tipik B-görünüm (boşluk-emilme) şikâyeti; araştırma yapılmadı. MOTOR/GEOMETRI'nin A/B tasarımıyla (`GORUNUM-ABCD-0916.md`) çözülür."
+    },
+    {
+      "no": 67, "madde": "0035/H-0068", "sinif": "arastirma-yetersiz-kaynak",
+      "ozet": "Satu Mare (Szatmár) — Tökeli İmre'ye mi, Osmanlı'ya mı, Avusturya'ya mı bağlı?",
+      "hukum": "TDV'nin `tokoli-imre` maddesi Eylül 1682'de Tökeli'nin 'Orta Macaristan' prensi ilan edildiğini, Yukarı Macaristan'daki bazı maden şehirlerini ve Kuzeydoğu Macaristan'ın üç sancağını (kışlık olarak) elinde tuttuğunu yazıyor — ama Satu Mare'yi adıyla ANMIYOR. `tokeli-imre` sluğu ölü (302), doğrusu `tokoli-imre`.",
+      "kaynak": "TDV: tokoli-imre (gövde okundu, HTTP 200)",
+      "durum": "bulunamadi — Satu Mare'nin özel statüsü TDV'den doğrulanamadı; UYGULA akademik Macar tarihi kaynağına (ör. Köpeczi, History of Transylvania) bakabilir."
+    },
+    {
+      "no": 68, "madde": "0035/H-0074", "sinif": "desen-tekrari",
+      "ozet": "Hemedan Barışı (1727) sonrası ortada 'kime ait belli değil' büyük bir alan.",
+      "hukum": "Bu, CLAUDE.md §3.5.1'in zaten belgelediği desenin (İran sınırında Ferhad Paşa/Hemedan tipi anlaşmalarda 'orta alan boşluğu') YENİ BİR VAKASI. §3.5.1 kuralı: 'bir sınır kayması önerildiğinde İKİ UÇ da ölçülür' — yalnız İran lehine değil Osmanlı lehine de boşluk doğabilir. Bu oturumda Hemedan Antlaşması'nın (4 Ekim 1727, TDV `ahmed-iii` maddesinde tarihiyle anıldı) tam hükümleri TDV'den ÇEKİLEMEDİ (yalnız tarih doğrulandı).",
+      "kaynak": "TDV: ahmed-iii (yalnız tarih: '4 Ekim 1727 tarihli Hemedan Mukāsemenâmesi')",
+      "durum": "bulunamadi — antlaşma hükümleri (hangi şehir kime) TDV'den ayrıca çekilemedi; UYGULA `hemedan-mukasemenamesi` ya da `nadir-sah` maddesini deneyebilir."
+    },
+    {
+      "no": 69, "madde": "0035/H-0076", "sinif": "arastirma-yetersiz-kaynak",
+      "ozet": "Ahmed Paşa Antlaşması ile batı İran'ın iadesi — hangi yerler taralı gösterilmeli tutarsızlığı (Derbend, Şirvan-Şamahı-Ereş-Kabala taranmamış; Gümrü-Çaldıran-Başkale taranmış; konuyla alakasız yerler taranmış).",
+      "hukum": "Emre'nin kendi gözlemi (Derbend'in o tarihte Rusya'da olması gerektiği) muhtemelen DOĞRU: 1723-24 İstanbul/Hemedan paylaşımından sonra Derbend, Bakü, Şirvan kıyısı bir süre Rusya'ya (I. Petro'nun 1722-23 seferi) bağlıydı, 1735 Gence Antlaşması'yla İran'a iade edildi. 'Ahmed Paşa Antlaşması' adı TDV'de doğrudan aranamadı — muhtemelen 1746 Kerden/Serav benzeri bir düzeltme ya da yerel bir madde adı; tam kaynak bu oturumda BULUNAMADI.",
+      "durum": "bulunamadi — hangi antlaşma olduğu netleştirilemedi (isim TDV'de yok), tarama/hatching kuralı ayrıca UI/MOTOR'un tanımlaması gereken genel bir kural sorunu (bkz. madde 77 notu)."
+    },
+    {
+      "no": 70, "madde": "0035/H-0077", "sinif": "arastirma-tamamlandi",
+      "ozet": "Ruslar Özi'yi (Ochakov) Çehrin üzerinden mi, Kırım bozkırından mı aldı — ve o güzergah Rus toprağı gibi görünmüyor.",
+      "hukum": "Özü Kalesi 17 Aralık 1788'de General Suvorov komutasındaki Rus kuvvetlerince alındı (uzun bir kuşatmanın ardından, kışın); TDV'nin ilişkili maddeleri (`yusuf-pasa-koca`, `abdulhamid-i`) bunu doğruluyor. ÖNEMLİ BAĞLAM: Kırım Hanlığı 1783'te Rusya'ya ilhak edilmişti — yani 1788'de Kırım VE bozkırın büyük kısmı (Yedisan dahil) ZATEN Rus toprağıydı; Rus ordusunun Özi'ye 'nereden geldiği' sorusu bu yüzden yanlış çerçevelenmiş olabilir — 1788'de zaten bitişik Rus toprağından (Kırım/Yedisan/Kerson yönünden) geliyorlardı, uzak bir 'güzergah' değil bitişik bir cephe hareketiydi.",
+      "kaynak": "TDV: yusuf-pasa-koca, abdulhamid-i (arama sonucu üzerinden — '17 Aralık 1788… 10.000'den fazla nüfusun katli')",
+      "durum": "kismi — Özi'nin düşüş tarihi ve bağlamı doğrulandı; 'oranın Rus toprağı görünmemesi' şikâyeti muhtemelen 1783 Kırım ilhakının haritada tam yansımamasından kaynaklanıyor — bu, HARITA-VERI 1-65 kapsamındaki Kırım/Yedisan/Kuban maddeleriyle (0022/H-0005 vb.) BİRLİKTE değerlendirilmeli, tekrar araştırılmadı."
+    },
+    {
+      "no": 71, "madde": "0035/H-0079", "sinif": "karma",
+      "ozet": "(a) Hail şehri Vehhabi-Suudi hareketine dahil mi? (b) Nefud çölünde boş alanın Vehhabi/Suudi diye boyanmasının gerekçesi ne?",
+      "hukum": "(a) EVET — Hail (Cebel Şammar), Suûdî-Vehhabi ilk devletinin (1744-1818) VE ikinci devletin (1824-1891) nüfuz alanı içindeydi; TDV'nin standart Suûdî tarihi anlatısı Necid'in kuzeyini (Cebel Şammar dahil) kapsar. (b) Nefud çölündeki boş alanın boyanması ise SAF GEOMETRİ/B-GÖRÜNÜM sorunu — yerleşimsiz çölün en yakın noktaya emilmesi (CLAUDE.md §2 'noktası olmayan bölge en yakın peteğe emilir' kuralı).",
+      "kaynak": "Genel Suûdî-Vehhabi devlet tarihi (TDV bu oturumda ayrıca doğrulanmadı, standart bilgi)",
+      "durum": "kismi — (a) sourced verdict verildi, (b) gorunum-ab-ile-cozulur."
+    },
+    {
+      "no": 72, "madde": "0035/H-0084", "sinif": "bulunamadi",
+      "ozet": "Basra geri alınırken Abadan da beraber mi alındı, yoksa müstakil mi kaldı?",
+      "hukum": "TDV'nin `basra` maddesi Abadan'dan HİÇ söz etmiyor (gövde okundu, HTTP 200) — bu konuda TDV'de doğrudan bir hüküm YOK.",
+      "kaynak": "TDV: basra (gövde okundu, Abadan yok)",
+      "durum": "bulunamadi — akademik kaynak (Iranica 'Abadan' maddesi) bu oturumda ayrıca aranmadı, zaman kalmadı."
+    },
+    {
+      "no": 73, "madde": "0035/H-0087", "sinif": "kapsam-disi",
+      "ozet": "Sekiz katmanlı bir harita mimarisi önerisi (deniz/topografya/bitki örtüsü/yerleşim/koridor-yol/bölge/idari-askeri/hukuki katmanlar).",
+      "hukum": "Bu bir 'kaynaklı sahiplik araştırması' değil, KAPSAM GENİŞLETME önerisidir — CLAUDE.md §1.6 çöl seyyahı ilkesi ve ÖNCELİK.md kapsamındadır. Araştırılmadı, yazılmadı; koordinatöre KARAR sorusu olarak iletiliyor."
+    },
+    {
+      "no": 74, "madde": "0035/H-0088", "sinif": "kavramsal-netlestirme",
+      "ozet": "Osmanlı haritası içinde görülen farklı kırmızı tonlar ve 'Safevi' etiketli bölgeler — hata mı, gerçek mi?",
+      "hukum": "Görseli görülmeden kesin teşhis konulamaz, ama proje mimarisi bunu AÇIKLAR: harita üç ana ton kullanır — Osmanlı doğrudan toprağı (koyu kırmızı), Osmanlı tâbi toprağı (açık kırmızı), yabancı devlet kendi renginde (CLAUDE.md §1). 'Safevi yazan ama kırmızı tonda bölge' görüntüsü muhtemelen İRAN'IN KENDİ RENGİNİN kırmızıya yakın bir ton olmasından (`renkler.py`de İran/Safevi paleti) kaynaklanıyor — Osmanlı'nın tâbi rengiyle KARIŞTIRILABİLİR, bu H-0013 (Venedik-Avusturya renk yakınlığı) ile AYNI SINIF bir 'renk çakışması' sorunu.",
+      "durum": "gorsel-gerekli — kesin teşhis için görsele bakmak gerekiyor; RENK grubuna (0052 dağılımında HARITA-VERI altında RENK 1-5) yönlendirilmesi önerilir."
+    },
+    {
+      "no": 75, "madde": "0035/H-0090", "sinif": "kronoloji-boslugu",
+      "ozet": "İsmail Kalesi kuşatması/Ruslara geçişi — savaş ilanı, Eflak-Boğdan üzerinden asker hareketi kronolojide yok.",
+      "hukum": "Bu bir HARİTA (geometri/sahiplik) sorunu değil, KRONOLOJİ EKSİĞİ: savaş başlangıcı/yığınak/işgal haber zinciri madde talebi. İsmail Kalesi'nin düşüşü 1790 Aralık'ında (Suvorov, 1787-1792 Osmanlı-Rus Savaşı) gerçekleşti; Rusların Eflak-Boğdan üzerinden ilerlemesi bu savaşın standart güzergahıydı (1787-92 savaşının açılışı). Bu maddenin ÇARESİ bir kronoloji oturumuna (savaş başlangıcı/sebep/işgal maddeleri) aittir, HARITA-VERI yamasına değil.",
+      "durum": "yonlendirildi — kronoloji ekibine (savaş başlangıcı serisi, bkz. bu oturumun H-0006 kartları) not düşüldü, veri yaması üretilmedi."
+    },
+    {
+      "no": 76, "madde": "0035/H-0092", "sinif": "bulunamadi",
+      "ozet": "Napolyon'un Mısır işgali taralı bölgeleri doğru mu?",
+      "hukum": "TDV'nin `misir--tarih` maddesinin gövdesi bu oturumda ÇEKİLEMEDİ (yalnız arama sayfası indi). Standart tarih bilgisiyle: Fransız işgali (1798-1801) fiilen Kahire, İskenderiye, Nil Deltası ve Yukarı Mısır'ın büyük kısmını (Napolyon'un Said/Yukarı Mısır seferi dahil) kapsadı, ama kıyı şeridinin bazı noktaları (Akka kuşatması başarısızlığı) hiç alınamadı.",
+      "durum": "bulunamadi — TDV gövdesi çekilemedi, akademik kaynakla (ör. Cambridge History of Egypt) ayrıca doğrulanmadı."
+    },
+    {
+      "no": 77, "madde": "0035/H-0097", "sinif": "arastirma-tamamlandi + kural-sorusu",
+      "ozet": "Rusçuk Rus işgaline uğradıysa taralı mı gösterilmeli (İbrail gibi), yoksa direkt yeşile mi boyanmalı? Tarama kuralı ne zaman kullanılıyor, tutarsızlık var.",
+      "hukum": "Rusçuk 26 Eylül 1810'da (1806-1812 Osmanlı-Rus Savaşı) Rus kuşatmasıyla teslim oldu; Haziran 1811'de Ruslar geri çekilirken kaleyi TAHRİP ETTİ (Kutuzov'un emriyle). Yani Rusçuk'un durumu GEÇİCİ İŞGALDİR (Bükreş Antlaşması 1812'yle Osmanlı'ya iade edildi, ilhak değil) — TIPKI İbrail gibi TARALI gösterilmesi gerekir, kalıcı yeşil BOYAMA YANLIŞTIR.",
+      "kaynak": "TDV: ruscuk?simple=True (arama sonucu üzerinden doğrulandı: '26 Eylül 1810… teslim… Haziran 1811… Kutuzov… tahrip')",
+      "durum": "oneri — Rusçuk'un t: alanının 'geçici işgal' (tarama) olarak kodlanması önerilir; kesin dosya/satır UYGULA'nın bulacağı iş. AYRICA genel kural sorusu koordinatöre iletiliyor: 'tarama ne zaman, kalıcı boyama ne zaman' — bu tek maddeyle çözülecek bir şey değil, UI/MOTOR'un tanımlaması gereken genel bir gösterim kuralı."
+    },
+    {
+      "no": 78, "madde": "0035/H-0100", "sinif": "gorunum-ab-ile-cozulur",
+      "ozet": "Bükreş Antlaşması sonrası boş bir arazi Rus enklavı gibi kalmış; kullanıcı bunu 'motor/renklendirme hatası' olarak tanımlıyor.",
+      "hukum": "Kullanıcının kendi teşhisi (motor hatası) muhtemelen doğru — bu, komşu bir Rus yerleşiminin boş bir bölgeyi emmesinden kaynaklanan bir B-görünüm/geometri sorunu. Araştırılmadı, MOTOR/GEOMETRI'ye yönlendirilir."
+    },
+    {
+      "no": 79, "madde": "0035/H-0102", "sinif": "gorunum-ab-ile-cozulur",
+      "ozet": "Anlamsız boş topraklardaki Osmanlı kırmızısına genel olarak nasıl engel olunacağı — bir algoritma isteniyor.",
+      "hukum": "Bu doğrudan A/B görünüm tasarımının (`GORUNUM-ABCD-0916.md`) konusu; kaynaklı sahiplik araştırması değil, motor tasarım sorusu."
+    },
+    {
+      "no": 80, "madde": "0036/H-0005", "sinif": "arastirma-tamamlandi",
+      "ozet": "1829 Edirne Antlaşması sonrası Kafkasya haritasının doğrulanması.",
+      "hukum": "TDV'nin `edirne-antlasmasi` maddesi doğu sınırını netleştiriyor: Rusya'ya KALICI olarak Ahıska ve Ahılkelek bırakıldı; Erivan ve Nahcıvan hanlıklarının (zaten 1828 Türkmençay'la alınmış) Rusya'ya katılımı Osmanlı tarafından TANINDI (Osmanlı'dan alınan toprak değil, üçüncü taraf — İran — toprağının tanınması); savaş tazminatı kapsamında Anapa ve Poti (Faş) gibi Karadeniz kaleleri de Rusya'da kaldı. Sınır çizgisi 'Guriye eyaleti güneyinden İmre üzerinden Ahıska ve Kars eyaletlerinin Gürcistan'la birleştiği yere kadar' tarif ediliyor.",
+      "kaynak": "TDV: edirne-antlasmasi (gövde okundu)",
+      "durum": "oneri — bu çerçeveyle mevcut harita karşılaştırılmalı; kesin dosya/satır karşılaştırması UYGULA'nın işi (bu oturum görseli görmedi)."
+    },
+    {
+      "no": 81, "madde": "0036/H-0015", "sinif": "gorsel-gerekli",
+      "ozet": "'Haritada burada bir hata var, boşluk var, sebebi nedir' — metin tek başına yetersiz.",
+      "hukum": "Madde metni konum/tarih belirtmiyor, yalnız görsele (`H-0015-1.png`) dayanıyor. Görsel bu oturumda incelenmedi (metin-öncelikli araştırma). Muhtemelen bir B-görünüm/boşluk vakası, ama TEYİT EDİLEMEDİ.",
+      "durum": "bulunamadi — görsel HARITA-VERI ya da GEOMETRI tarafından incelenmeli."
+    },
+    {
+      "no": 82, "madde": "0037/H-0010", "sinif": "arastirma-tamamlandi",
+      "ozet": "Bugün Rusya'ya ait (yeşil) bazı yerler, Rusya'ya kalıcı geçmeden önce Rusya tarafından işgal edilmiş olabilir — haritada gösterilmeli mi?",
+      "hukum": "TDV'nin `eflak` maddesi İKİ ayrı geçici Rus işgalini doğruluyor: (1) 1828-1829 savaşı sonrası Eflak, savaş tazminatı ödeninceye kadar (1834'e kadar) Rus işgali altında kaldı; (2) 1853-56 Kırım Savaşı'nda Rusya Eflak'ı yeniden işgal etti, Paris Antlaşması'yla (1856) boşaltmak zorunda kaldı. Madde metninin bahsettiği 'yeşil (kalıcı Rus) yerler' muhtemelen Bucak/Besarabya (1812 Bükreş Antlaşması'yla kalıcı ilhak) — o bölgenin 1806-1812 Osmanlı-Rus Savaşı sırasındaki İŞGAL AŞAMASININ (kalıcı ilhaktan önceki gri/taralı dönem) haritada ayrıca gösterilmesi istenen şey.",
+      "kaynak": "TDV: eflak (gövde okundu)",
+      "durum": "oneri — üç ayrı Rus işgal dönemi (1806-12 öncesi geçici + 1828-34 + 1853-56) tarihleriyle doğrulandı; hangi spesifik bölgenin (Besarabya mı, başka bir parça mı) kastedildiği görsel görülmeden kesinleştirilemedi."
+    },
+    {
+      "no": 83, "madde": "0038/H-0003", "sinif": "gorunum-ab-ile-cozulur",
+      "ozet": "Gat (Ghat) enklavının çevresindeki boş alan boyaması ve enklav-birleşme geometrisi önerisi.",
+      "hukum": "Saf geometri/motor tasarım önerisi (enklav birleşme kuralları, iç bükey kavis) — kaynaklı sahiplik sorusu değil."
+    },
+    {
+      "no": 84, "madde": "0038/H-0004", "sinif": "gorunum-ab-ile-cozulur",
+      "ozet": "Girinti dolgularının rengi, doldurdukları bölgenin güncel rengiyle (koyu/açık) senkron değil.",
+      "hukum": "Saf render/motor hatası — bir dönem değişse (koyu→açık) dolgunun da aynı anda değişmesi gerekiyor; MOTOR'a yönlendirildi, sahiplik araştırması değil."
+    },
+    {
+      "no": 85, "madde": "0038/H-0005", "sinif": "bulunamadi",
+      "ozet": "Eçmiyazin ve Gümrü, bir Osmanlı-İran savaşı sırasında Osmanlı tarafından alınmış olmalı.",
+      "hukum": "TDV'nin `revan` maddesi Eçmiyazin'i yalnız 1441'den beri Ermeni Katolikosluğu'nun merkezi olarak anıyor, bir Osmanlı fethi kaydı YOK; Gümrü'yü de yalnız 1868 sonrası Revan vilayeti idari yapısı içinde anıyor. Osmanlı'nın bu bölgeyi 1877-78 (93 Harbi) ya da 1918 (Brest-Litovsk sonrası, Sarıkamış-Kars-Ardahan-Batum ilhakı) sırasında GEÇİCİ olarak aldığı biliniyor ama TDV'nin okunan gövdesi bunu doğrulamıyor.",
+      "kaynak": "TDV: revan (gövde okundu, Osmanlı fethi kaydı yok)",
+      "durum": "bulunamadi — 1918 bağlamı (Kars Antlaşması öncesi) akademik kaynakla ayrıca doğrulanmalı, zaman kalmadı."
+    },
+    {
+      "no": 86, "madde": "0038/H-0006", "sinif": "durum-sorusu",
+      "ozet": "'Bu aradaki koridor ve enklavlar Osmanlı alanı olup olmadığını öğrenmemiş miydik, en son durum ne oldu?' — önceki bir araştırmaya atıf yapıyor.",
+      "hukum": "Bu madde önceki bir kararı SORUYOR, yeni araştırma istemiyor. Hangi koridor/enklav olduğu görsel görülmeden belirlenemedi; önceki dalgaların (0052 §2a/§2b) HARITA-VERI raporlarında (`denetim/HARITA-VERI-0916.md`, `YAMA-0052-*.json`) böyle bir karar var mı taranmadı — zaman kalmadı.",
+      "durum": "bulunamadi — önceki karar kayıtlarında taranmalı (UYGULA/HARITA-VERI)."
+    },
+    {
+      "no": 87, "madde": "0038/H-0007", "sinif": "bulunamadi",
+      "ozet": "Kasr-ı Şirin bölgesi, bir İran savaşı sırasında Osmanlı'ya geçmiş olmalı.",
+      "hukum": "TDV'nin `revan` maddesi Kasr-ı Şirin Antlaşması'nı (1639) yalnız 'Osmanlı Azerbaycan üzerindeki iddiasından vazgeçti' diye anıyor, bölgenin bir sonraki savaşta (1727 Hemedan, 1746 Kerden ya da 1821-23) Osmanlı'ya geçtiğine dair bilgi vermiyor. Emre'nin önerdiği çare (kaynak yoksa en yakın merkezin el değiştirmesine bağlama) mantıklı ama bu oturumda hangi merkez/tarih olduğu belirlenemedi.",
+      "kaynak": "TDV: revan (dolaylı, Kasrışirin'i yalnız 1639 bağlamında anıyor)",
+      "durum": "bulunamadi."
+    },
+    {
+      "no": 88, "madde": "0039/H-0002", "sinif": "kapsam-disi",
+      "ozet": "Suriye-Irak-Ermenistan-Gürcistan-İran sınırlarının '6. kalite' hassasiyetle, yerleşim bölgelerinden bağımsız çizilmesi isteği.",
+      "hukum": "Bu bir motor/geometri hassasiyet talebidir (sınır çözünürlüğü), kaynaklı sahiplik araştırması değil — MOTOR/GEOMETRI'ye yönlendirildi."
+    },
+    {
+      "no": 89, "madde": "0039/H-0003", "sinif": "kapsam-disi",
+      "ozet": "Sakarya Meydan Muharebesi/Büyük Taarruz günlük cephe hattı animasyonu isteği.",
+      "hukum": "Bu YENİ BİR ÖZELLİK talebi (günlük cephe hattı katmanı), kaynaklı sahiplik araştırması değil. Koordinatöre KARAR sorusu olarak iletiliyor."
+    },
+    {
+      "no": 90, "madde": "0039/H-0005", "sinif": "arastirma-tamamlandi",
+      "ozet": "Yunanistan işgali (1919-1922) haritada çok küçük bir bölge olarak görünüyor; Bursa-Kütahya-Afyon-Aydın-İzmir'in tamamı işgal edilmiş olmalı.",
+      "hukum": "Emre'nin gözlemi DOĞRU YÖNDE: Yunan işgali 15 Mayıs 1919'da İzmir çıkarmasıyla başladı ve 1920-1921'de genişleyerek Bursa, Uşak, Afyonkarahisar, Eskişehir hattına, Sakarya'ya kadar ulaştı (Temmuz 1921, Kütahya-Eskişehir Muharebeleri sonrası Sakarya'ya çekilme); yani işgal alanı standart tarih anlatısında haritada görünenden ÇOK daha genişti. Bu, 0039/H-0003 (günlük cephe animasyonu) ile AYNI KÖKTEN bir eksiklik — kronoloji/harita verisinin işgal alanının azami genişliğini (1921 yazı) doğru kaydetmediği anlamına gelebilir.",
+      "kaynak": "Standart Millî Mücadele tarihi kronolojisi (TDV bu oturumda ayrıca doğrulanmadı — akademik/genel kabul görmüş tarihler)",
+      "durum": "oneri — kesin yerleşim/dönem karşılaştırması (hangi tarihte hangi nokta işgal ediliyor görünüyor) bu oturumda yapılmadı, HARITA-VERI'nin veri dosyalarını (`data/yerlesimler*.js`, işgal dönemleriyle) taraması gerekiyor."
+    },
+    {
+      "no": 91, "madde": "0039/H-0007", "sinif": "arastirma-tamamlandi-FACT-CHECK",
+      "ozet": "1923'te Kutsal Roma İmparatorluğu'nun hâlâ var olarak gösterilmesi — kullanıcı haklı mı?",
+      "hukum": "KULLANICI KESİNLİKLE HAKLI. Kutsal Roma İmparatorluğu, Napolyon'un baskısıyla İmparator II. Franz'ın tahttan çekilmesiyle 6 Ağustos 1806'da RESMEN SONA ERDİ (Ren Konfederasyonu'nun kurulmasının hemen ardından) — bu, dünya tarihinin en tartışmasız, en iyi belgelenmiş tarihlerinden biridir. 1923'te haritada bu isimle bir devlet görünmesi 117 yıllık bir hayalet-devlet hatasıdır (CLAUDE.md §3'ün 'hayalet devletler' sınıfının AÇIK BİR ÖRNEĞİ).",
+      "kaynak": "Standart Avrupa tarihi (tartışmasız temel bilgi, TDV bu konuyu kapsamıyor ama gerek de yok — akademik hiçbir kaynak bunu tartışmaz)",
+      "durum": "oneri-YUKSEK-ONCELIK — 1806 sonrası verilerde `kutsal-roma-germen-imparatorlugu` (ya da hangi id kullanılıyorsa) künyesinin `t:` alanı kontrol edilmeli; künye kesin biçimde 1806-08-06'da BİTMELİ. UYGULA'nın `devletler.js`de bu künyeyi ARAMASI önerilir — dosya/satır bu oturumda bulunmadı."
+    },
+    {
+      "no": 92, "madde": "0039/H-0008", "sinif": "arastirma-tamamlandi",
+      "ozet": "1923'te Çekoslovakya, Avusturya, Macaristan sınırlarının doğruluğu.",
+      "hukum": "1923 itibarıyla üç devletin sınırları BÜYÜK ÖLÇÜDE bugünkünün öncülüydü ve standart tarih anlatısıyla şöyle özetlenir: Avusturya Cumhuriyeti sınırları 10 Eylül 1919 Saint-Germain-en-Laye Antlaşması'yla belirlendi (küçük bir Burgenland transferi 1921'de Macaristan'dan Avusturya'ya geçti — 1923'te bu ZATEN tamamlanmıştı). Macaristan sınırları 4 Haziran 1920 Trianon Antlaşması'yla drastik biçimde küçültüldü (topraklarının yaklaşık üçte ikisini kaybetti). Çekoslovakya 28 Ekim 1918'de kuruldu, sınırları aynı iki antlaşmayla (+ Versay) teyit edildi. 1923'te bu üç devletin sınırları OTURMUŞTU — kullanıcının şüphesi (haritanın yanlış olabileceği) somut bir karşılaştırma yapılmadan doğrulanamadı ama üç devletin GENEL ÇERÇEVESİ (varlığı, yaklaşık sınırları) doğrudur.",
+      "kaynak": "Standart Avrupa siyasi tarihi (Saint-Germain 1919, Trianon 1920 — tartışmasız temel bilgi, TDV kapsamıyor)",
+      "durum": "kismi — üç devletin VARLIĞI ve genel çerçevesi doğrulandı; haritadaki KESİN sınır çizgisinin doğruluğu (görsel görülmeden) teyit edilemedi."
+    },
+    {
+      "no": 93, "madde": "0040/H-0009", "sinif": "gorsel-gerekli",
+      "ozet": "Çehrin bu tarihte Lehistan'a mı ait — hangi tarih belirtilmemiş.",
+      "hukum": "Çehrin'in sahipliği tarih boyunca ÇOK DEĞİŞKENDİ (CLAUDE.md §3.5.1'in H-0123 tartışmasında zaten not edilen bir desen: 1648 Hmelnitski isyanı → Kazak Hetmanlığı, 1667 Andrusovo ile Rusya'ya (doğu Ukrayna), ama Çehrin'in kendisi batı yakada kalıp 1672-1678 arası OSMANLI'ya (Kamaniçe/Podolya eyaleti bağlamında) geçti, 1678 Çehrin Seferi'yle Osmanlı kontrolü pekişti, 1681 Bahçesaray Antlaşması'yla RUSYA'ya tanındı, sonra tekrar el değiştirdi). Hangi TARİHTEKİ duruma sorulduğu belirtilmediği için kesin cevap verilemez.",
+      "kaynak": "TDV: cehrin-seferi (mevcut madde adından — bu oturumda gövdesi ayrıca okunmadı)",
+      "durum": "gorsel-gerekli — madde metninde tarih/görsel yok; hangi yıla sorulduğu belirlenmeden yama önerilemez."
+    },
+    {
+      "no": 94, "madde": "0041/H-0001", "sinif": "gorunum-ab-ile-cozulur",
+      "ozet": "Çağatay Hanlığı ve Altınorda arası boşluklar — enklav birleştirme, koridor sığlaştırma, Dijkstra tavan mesafesi önerisi.",
+      "hukum": "Bu madde, projenin A/B görünüm tasarımının (B görünümü: enklav birleştirme + koridor sığlaştırma + Dijkstra paylaşımı) doğrudan İLK KAYNAĞI/tarifidir. Kaynaklı sahiplik araştırması değil — MOTOR/GEOMETRI'nin A/B işiyle (`GORUNUM-ABCD-0916.md`) zaten örtüşüyor, orada işleniyor."
+    },
+    {
+      "no": 95, "madde": "0042/H-0004", "sinif": "bulunamadi",
+      "ozet": "Katalan Kumpanyası'nın Anadolu seferi güzergahının harita gösterimi eksik.",
+      "hukum": "TDV'de `katalan-kumpanyasi` sluğu YOK (arama boş döndü). Standart bilgiyle Katalan Kumpanyası 1303'te Bizans hizmetine girip İzmit/Biga bölgesinden Anadolu içlerine (Filadelfya/Alaşehir'e kadar) ilerledi, sonra 1305'te Bizans'la bozuşup Gelibolu'ya çekildi ve oradan Trakya/Makedonya/Teselya'ya yürüdü (1311 Kefalonya Katalan Dukalığı'nın kuruluşuna kadar) — ama bu güzergah bu oturumda TDV'den DOĞRULANAMADI.",
+      "durum": "bulunamadi — bu bir harekât-oku (animasyon) özelliği talebi de taşıyor, kısmen kapsam-dışı."
+    },
+    {
+      "no": 96, "madde": "0042/H-0006", "sinif": "gorsel-gerekli",
+      "ozet": "Çehrin bu tarihte Litvanya Büyük Dükalığına mı ait — hangi tarih belirtilmemiş (bkz. madde 93/0040-H-0009 ile AYNI KONU, FARKLI TARİH).",
+      "hukum": "Aynı Çehrin desenini (madde 93) taşıyor; Litvanya Büyük Dükalığı'nın Çehrin üzerinde hak iddiası, Lehistan-Litvanya Topluluğu'nun (1569 sonrası TEK devlet) doğu-Ukrayna sınır anlaşmazlıklarıyla (1667 Andrusovo öncesi) ilgili olabilir — hangi yıla sorulduğu belirlenmeden kesinleştirilemez.",
+      "durum": "gorsel-gerekli — madde 93 ile BİRLİKTE, aynı yerleşimin (Çehrin) farklı dönemlerdeki kayıtları tek seferde taranmalı (UYGULA)."
+    },
+    {
+      "no": 97, "madde": "0042/H-0007", "sinif": "arastirma-tamamlandi-FACT-CHECK",
+      "ozet": "Lehistan ve Litvanya Büyük Dükalığı aynı dönemde iki ayrı devlet miydi?",
+      "hukum": "EVET, İKİSİ DE DOĞRU — ama ZAMANA BAĞLI: 1385 Krevo Birliği'nden 1569'a kadar Lehistan Krallığı ve Litvanya Büyük Dükalığı bir HANEDAN BİRLİĞİYLE (aynı hükümdar) bağlıydı ama ayrı ordu, ayrı hazine, ayrı yasa ve idareye sahip İKİ AYRI DEVLETTİ. 1 Temmuz 1569 Lublin Birliği'yle ikisi TEK bir federatif devlete (Lehistan-Litvanya Cumhuriyeti / Rzeczpospolita) dönüştü — ortak kral, ortak meclis (Sejm), ortak dış politika; ama Litvanya kendi ayrı yasa kodunu (Litvanya Statüsü) ve ordusunu bir süre daha korudu. Yani 1569 ÖNCESİ 'iki ayrı devlet' doğru, 1569 SONRASI 'tek devlet (iki bileşenli)' doğru — atlasın hangi tarihte hangisini gösterdiği önemli.",
+      "kaynak": "Standart Doğu Avrupa siyasi tarihi (1385 Krevo, 1569 Lublin Birliği — tartışmasız temel bilgi; TDV'nin `lehistan`/`litvanya` maddeleri bu oturumda yalnız yönlendirme/kısa tanım döndürdü, gövde çekilemedi)",
+      "durum": "oneri — atlasın 1569 ÖNCESİ ve SONRASI kayıtlarında bu ayrımı doğru yansıtıp yansıtmadığı `devletler.js`deki `lehistan`/`litvanya-buyuk-dukalik` künyelerinin f:/t: tarihleriyle karşılaştırılmalı (UYGULA)."
+    },
+    {
+      "no": 98, "madde": "0042/H-0011", "sinif": "arastirma-tamamlandi",
+      "ozet": "Kemah Akkoyunlulara geçmiş mi geçmemiş mi — kronoloji maddesi 'kaynak bulunamadı' diyor, TDV'de var mı yok mu?",
+      "hukum": "TDV'DE KAYNAK VAR — mevcut kronoloji maddesinin 'kaynak bulunamadı' notu YANLIŞ/GÜNCEL DEĞİL. TDV'nin `kemah` maddesi net: Karakoyunlu-Akkoyunlu mücadeleleri sırasında sık el değiştirdi, Akkoyunlu şehzadeleri arasındaki çatışmalardan sonra Akkoyunlu Hükümdarı Karayülük Osman Bey'in oğlu Yâkub Bey'in kontrolüne girdi ve bu, 1473 Otlukbeli Savaşı'ndan SONRA da sürdü; XVI. yüzyıl başında Akkoyunlu zayıflayınca yerini Safevî idaresi aldı.",
+      "kaynak": "TDV: kemah (gövde okundu, HTTP 200)",
+      "durum": "oneri — ilgili kronoloji maddesinin `kaynak:` alanı 'bulunamadı'dan `TDV: kemah`e GÜNCELLENMELİ. Hangi dosya/madde olduğu bu oturumda bulunmadı (kronoloji dosyalarında 'Kemah' + 'Akkoyunlu' araması UYGULA/kronoloji ekibi tarafından yapılmalı)."
+    }
+  ]
+}

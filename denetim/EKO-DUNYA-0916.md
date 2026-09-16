@@ -59,8 +59,52 @@ bulundu, disambiguator metni eşleşti).
    Otuz Yıl Savaşları) standart akademik/ansiklopedik kaynak kullanıldı ve
    `kaynak:` alanına TDV diye GÖSTERİLMEDİ.
 
-## Commit
+## Commit (birinci tur)
 
 `git add -- data/ekokuma_dunya.js denetim/EKO-DUNYA-0916.md` ·
 `git commit -F <msg> -- data/ekokuma_dunya.js denetim/EKO-DUNYA-0916.md` ·
+`git pull --rebase --autostash` · `git push`. Commit `d41528e`.
+
+---
+
+## İKİNCİ TUR (§2c) — HARITA-VERI 66-98, `denetim/YAMA-0052C-EKODUNYA.json`
+
+Şartname: `oturumlar/DALGA-0052.md` §2c · girdi: `denetim/KUTU-AYIKLA-0916.md`
+§④ HARITA-VERI listesi, sıra 66-98 (33 madde, paket 0035-0042). Veriye
+YAZILMADI — yalnız araştırma + yama önerisi. Format `YAMA-ANADOLU-0914.json`
+esas alındı, ama bu turun maddelerinin çoğu **görsele dayalı** olduğu ve bu
+oturum görselleri incelemediği için (yalnız metin okundu) çoğu kalem kesin
+bir `eski`/`yeni` satırı değil, **sourced hüküm + UYGULA'nın bulacağı
+konum** biçiminde yazıldı — dürüstçe işaretlendi.
+
+### Sınıf dağılımı (33 madde)
+
+| Sınıf | Sayı | Anlamı |
+|---|---|---|
+| `gorunum-ab-ile-cozulur` | 9 | Saf geometri/render/B-görünüm — araştırılmadı, şartname gereği MOTOR/GEOMETRI'ye bırakıldı (66,78,79,83,84,88,94 + kısmen 71,74) |
+| `arastirma-tamamlandi` / `oneri` | 10 | TDV ya da tartışmasız temel kaynakla sourced hüküm verildi (70,77,80,82,90,91,92,97,98 + kısmi 71a) |
+| `bulunamadi` | 9 | TDV'de doğrudan yok, akademik kaynak bu oturumda ayrıca aranmadı (67,68,69,72,76,85,86,87,95) |
+| `gorsel-gerekli` | 3 | Metin tek başına yetersiz, tarih/konum görselde (74,81,93,96 — 93/96 aynı Çehrin deseni) |
+| `kapsam-disi` | 3 | Kaynaklı sahiplik sorusu değil, özellik/kapsam talebi (73,88,89) |
+| `kronoloji-boslugu` / `yonlendirildi` | 1 | Harita değil kronoloji eksiği (75) |
+| `durum-sorusu` | 1 | Önceki bir karara atıf, yeni araştırma istemiyor (86) |
+
+### Öne çıkan iki bulgu
+
+1. **Madde 91 (0039/H-0007) — YÜKSEK ÖNCELİK, kesin fact-check**: 1923'te
+   haritada "Kutsal Roma İmparatorluğu" görünmesi kesin hata — o devlet
+   6 Ağustos 1806'da resmen sona erdi (CLAUDE.md §3 hayalet-devlet sınıfı).
+   `devletler.js`deki ilgili künyenin `t:` alanı 1806-08-06'yı aşmamalı.
+2. **Madde 98 (0042/H-0011) — kronoloji düzeltmesi**: Kemah'ın Akkoyunlu
+   dönemi TDV'de (`kemah` maddesi) açıkça VAR; ilgili kronoloji maddesinin
+   "kaynak bulunamadı" notu bayat/yanlış, `TDV: kemah`e güncellenmeli.
+
+Madde 93/96 (Çehrin, iki ayrı tarihte iki ayrı soru) CLAUDE.md §3.5.1'in
+H-0123 tartışmasıyla aynı desen — Çehrin tarih boyunca çok el değiştirdi,
+hangi yıla sorulduğu belirtilmeden kesin cevap verilemez.
+
+## Commit (ikinci tur)
+
+`git add -- denetim/YAMA-0052C-EKODUNYA.json denetim/EKO-DUNYA-0916.md` ·
+`git commit -F <msg> -- denetim/YAMA-0052C-EKODUNYA.json denetim/EKO-DUNYA-0916.md` ·
 `git pull --rebase --autostash` · `git push`.
