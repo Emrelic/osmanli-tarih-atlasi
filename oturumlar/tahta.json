@@ -125771,5 +125771,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4099",
+  "zaman": "2026-09-16 20:58",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "OLCUM ISTEGI (Emre, B gorunumu icin alternatif): A'nin kara-kara Dijkstra'sini ufuk parametreli yaz (5 gun varsayilan) ve varis suresini hucre basina SAKLA. Sonra ayni girdiyle 5 / 10 / 20 gun ufkunu 4 kesitte (1500-06-15, 1700-06-15, 1800-06-15, 1914-06-15) karsilastir: sahipsiz kara km2 · devlet ici bosluk sayisi/km2 · ayni devletin kopuk parca sayisi · derin koridor sayisi (olcutunu yaz) · 5->20 gunde en cok kazanan 15 devlet (km2) ve bunlarin col/bozkir/tundra payi. Beklentim: yogun bolgelerde fark ~0, kazanc Sahra/Arabistan/Sibirya/Kazak bozkirinda toplanir; koridor ve enklav 20 gunle AZALMAZ. Olcum koşu 12 bitmeden ana klasorde agir bellek kullanmasin (bos RAM ~2 GB). Sonuc: denetim/MOTOR-UFUK-0916.md + tahta.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
