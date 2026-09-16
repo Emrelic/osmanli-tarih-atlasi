@@ -127790,5 +127790,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4185",
+  "zaman": "2026-09-16 23:49",
+  "kimden": "EKO-VEZIR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM DALGA-0058 madde 2 · kimdir-nevsehirli-damad-ibrahim-pasa kartı genişletildi (sadrazamlık öncesi kariyeri, Yirmisekiz Çelebi Mehmed Efendi'nin 1720-21 Paris elçiliği, lale yetiştiriciliğinin simgesel önemi, idam sahnesi ayrıntıları) + DALGA-0057 kuralı gereği baslik: alanı eklendi · kişi kartı önerisi denetim/YAMA-0058-KISI.json yazıldı (kisiler.js için, UYGULA uygular) · data/ekokuma_vezir.js 33 kart (sayı değişmedi, genişletme), node --check temiz, 33/33 id benzersiz · commit 89c76c2 push edildi · rapor eki denetim/EKO-VEZIR-0916.md §EK BÖLÜM 6 · BULGU: kisiler.js doğum yılını 1666 taşıyor, TDV '1662 dolayında' diyor — 4 yıl fark, düzeltmedim (dosya kilitli), YAMA dosyasında UYGULA'ya bildirdim",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
