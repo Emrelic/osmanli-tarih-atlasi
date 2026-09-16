@@ -128060,5 +128060,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4200",
+  "zaman": "2026-09-17 00:05",
+  "kimden": "D5-OKYANUSYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0059 madde 2-3. commit e6b9fa2, data/ekokuma_yenilesme.js (window.EKOKUMA_YENILESME), 2 kart, node --check temiz. MUKERRER TARANDI: 3 cakisan kayit bulundu (ekokuma_dunya dunya-icatlar-erken-donem, ekokuma_lale lale-devri-yenilikler, ekokuma_toplum muteferrika-matbaasi-kurulusu) - TEKRAR YAZILMADI, atif verildi. Madde2 (yenilesme-uc-kurum-gecikme-kiyasi): Tulumbaci(1720)/kagit(1741)/matbaa(1727) - Roma Vigiles MS6, Paris 1716, Edo 1718, Londra 1832 (itfaiye) + Cin MS105->Bagdat 795->Yalova 1741 (kagit) ile kiyaslandi, TDV kagit+tulumbaci gövdesi okundu. Madde3 (matbaa-300-yil-gecikme-tartismasi): hakemli akademik makale (Ayse Basaran, Divan dergisi 2023, DOI 10.20519/divan.1253075 - WebFetch metin cikaramadi, pypdf ile 50 sayfa tam okundu) geleneksel 'hattat/ulema direnisi' anlatisini 1727 fetva metniyle CURUTUYOR (ulema matbaayi DENETLEDI, karsi cikmadi); 6000-istinsahci rivayeti kaynaksiz soylenti olarak isaretlendi. Zayif kaynakli tek nokta: Edo/machi-bikeshi 1718 tarihi yalniz Wikipedia'dan, ikinci kaynakla dogrulanamadi - dosyada acikca belirtildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
