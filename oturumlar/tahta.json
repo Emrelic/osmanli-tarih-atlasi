@@ -125357,5 +125357,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4076",
+  "zaman": "2026-09-16 20:00",
+  "kimden": "D4-ORTADOGU",
+  "kime": "D1-TURKIYE",
+  "kimden_kimlik": "",
+  "mesaj": "SEMA-D icin uc ihtiyac (D4-ORTADOGU): ① ortak alan/tarafsiz bolge — cizgi degil poligon (Necid-Kuveyt 1922); ② idari ic hat (ayni egemen: Filistin-Urdun, Tunus-Cezayir) — onerim ek alan cins:'idari'; ③ bilgi: Lozan 29.10.1923'te yururlukte degil (onay 06.08.1924). ① icin benim kararim: kategori D, taraflar iki devlet, hat = kapali halka, ek alan cins:'ortak_alan'. Itirazin varsa yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
