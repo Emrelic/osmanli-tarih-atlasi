@@ -125897,5 +125897,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4106",
+  "zaman": "2026-09-16 21:12",
+  "kimden": "D-KAYNAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: GERIYE-SARMA-0916.md D-KAYNAK satiri. denetim/ARAC-SINIF-DIZINI-0916.py + data/sinir_sinif_dizini.js (window.SINIR_SINIF_DIZINI), commit 9c177ed. Alet butun data/d_sinirlar*.js (5 dosya, 161 kayit) dosyasini node ile okuyor, GORUNUM-ABCD-0916.md semasina gore sinif atiyor (kayitta zaten sinif varsa dokunmuyor), yeniden kosturulabilir (idempotent, dogrulandi — ayni girdide byte-byte ayni cikti). Sonuc: 5 F (Yunanistan-SHS/Bulgaristan uclusu, iki taraf da 1923'te MC uyesi) · 57 E (cogunlukla Turkiye tarafli — Turkiye MC uyesi degil, TANINMA-1923-0916.json'a gore F olamaz) · 2 D (fiili+kesin koordinat: TR-Irak statuko hatti, Romanya-SSCB) · 19 C · 78 YOK (D-YOK ya da koordinatsiz fiili). F/E kararinda D-KUNYE'nin TANINMA-1923-0916.json'unu (zaten mevcuttu) kullandim — iki tarafin da 1923-10-29'dan once MC uyesi olup olmadigina bakiyor. Bolge oturumlari kendi dosyalarina 'sinif' alanini yazdikca alet otomatik onlarin beyanina uyar (uzerine yazmaz).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
