@@ -1,0 +1,60 @@
+{
+  "paket": "0052-KAFKAS",
+  "tarih": "2026-09-16",
+  "yazan": "HARITA-VERI alt görev KAFKAS",
+  "durum": "ONERI — veriye yazılmadı; uygulayıcı UYGULA. data/ ve arac/ dosyalarına dokunulmadı. Renk ölçümü renk_olc.py içe aktarılarak yapıldı; --oner artefaktı scratchpad'e yönlendirildi (denetim/ altına YAZILMADI).",
+  "kalemler": [
+    {
+      "no": 1,
+      "madde": "H-0010",
+      "dosya": "data/yerlesimler.js:611 (Tiflis) · :621 (Zagem (Kaheti)) · :623 (Gence) · :1973 (Berde (Karabağ))",
+      "eski": "Tiflis s:[{f:\"1281-01-01\",t:\"1801-09-12\",d:\"gurcistan\"}…] d:[{f:\"1578-08-09\",t:\"1606-01-01\"},…] · Gence/Berde d:[{f:\"1588-01-01\",t:\"1606-01-01\"}] s:[…{f:\"1501-07-01\",t:\"1736-03-08\",d:\"safevi\"}]",
+      "yeni": "DEĞİŞİKLİK YOK — renk ataması doğru (Tiflis→gurcistan, Gence/Berde→safevi)",
+      "gerekce": "Ölçüldü: 1606-01-01'de Tiflis (d biter → s gurcistan) ve Zagem (v biter → s gurcistan) Gürcistan rengine, Gence ve Berde (d biter → s safevi) Safevî rengine geçiyor. Kaynaklara göre bu AYRIM DOĞRU: Gence ve Karabağ Safevî'nin doğrudan eyaletiydi; Kartli ve Kaheti ise kendi Bagratlı kralları tarafından yönetilen, Safevî şahına TÂBİ krallıklardı (Farsça belgelerde 'vâli-i Gürcistan'). Yani fetheden Safevî'dir ama toprağı Gürcü krallar idare eder; atlas 'tasarruf' boyadığı için (D030/D076) iç dolgu Gürcistan rengi olmalı. EKSİK OLAN ŞEY VERİ DEĞİL MODEL: atlasın tâbilik kademesi (v:, himaye:true) yalnız OSMANLI'ya tâbiliği ifade edebiliyor; 'Safevî'ye tâbi Kartli' gösterecek bir alan YOK (VERI-YAPISI.md v:/himaye bölümü ölçüldü). Safevî rengine boyamak yanlış olur (Iranica: Bagratlılar tahtı korudu). ⇒ Çare, yabancı devletler için tâbilik kademesi (ör. s:[{d:'gurcistan', metbu:'safevi'}] → Safevî renginde ince şerit) — ŞEMA/UI/MOTOR işi, Emre kararı. 🟡 AYRICA TARİH ÇELİŞKİSİ (yama YOK): atlas ve kronoloji maddesi (olaylar_ek6.js:44, 'Tiflis ve Gence'nin kaybı', t:1606-01-01) Tiflis'in kaybını 1606'ya koyuyor; maddenin kaynağı TDV `sirvan` Tiflis'i hiç anmıyor (gövde okundu, yalnız 'Şah Abbas 1607'de bölgeyi…' Şirvan için). TDV `tiflis` ve `gurculer` 1603 diyor; TDV `gurcistan` '1590-1614 yılları arasında Osmanlı idaresinde kalan Gürcistan' diyor. Gence için 1606 doğru (TDV `gence` + Iranica GANJA: altı aylık kuşatmadan sonra 1015/1606). §4⑥ gereği taraf SEÇİLMEDİ; Tiflis 1603'e çekilecekse ±30 gün madde gerekir ve gün bulunamadı. Not: Kartli'de Tiflis dışında nokta YOK (Gori · Lori · Tumanis normalleştirilmiş aramada 0) — Tiflis peteği bütün Kartli'yi temsil ediyor.",
+      "kaynak": "TDV `tiflis` (200, gövde): '1603'te Tiflis Şah Abbas'ın eline geçti' + 'yerine Şah Abbas tarafından II. Laursab getirildi (1606-1616)' · TDV `gurculer` (200): 'Kartli ve Kaheti, Safevî Devleti'ne tâbi oldukları dönemde' 'vâli-i Gürcistan' krallar yönetti; Osmanlı yönetimi '1578-1603, 1723-1735' · TDV `gurcistan` (200): '1590-1614 yılları arasında Osmanlı idaresinde kalan Gürcistan' · TDV `gence` (200): '1606'da I. Abbas tarafından altı aylık bir kuşatmadan sonra' · TDV `karabag` (200): Safevîler '1603'te … bölgeyi yeniden ele geçirdiler' · Encyclopaedia Iranica KARTLI (200): 'Bagratid rulers are mentioned as kings who recognize themselves as vassals of Persia' · Iranica GANJA (200): 'reconquered it in 1015/1606 after a six-month siege' · ölü: kartli · kaheti (302)",
+      "etki_olculen": "Yama yok ⇒ yeni kırılma yok. Mevcut 1606-01-01 kırılması olaylar_ek6.js:44 ile ±0 gün maddeli. Komşu kayıtlar: Zagem v 1578-08-09→1606-01-01 'Kaheti krallığı (tâbi)' sonra gurcistan; Kutaisi v imereti (Osmanlı tâbi) değişmiyor.",
+      "madde_istegi": "",
+      "durum": "cevap",
+      "cevap_emreye": "Doğru olan şu an haritada görünen ayrım. Gence ve Karabağ'ı Şah Abbas doğrudan Safevî eyaleti yaptı, o yüzden İran rengi doğru. Tiflis/Kartli ise ayrı bir devlet olarak kaldı ama Safevî'ye tâbiydi: kralını şah atıyordu (II. Luarsab, 1606), İran belgeleri bu krallara 'vâli-i Gürcistan' diyordu. Topraklar Gürcü kralların elinde olduğu için iç renk Gürcistan olmalı; İran rengine boyamak yanlış olur. Eksik olan, 'İran'a tâbi' bilgisini göstermek. Atlas tâbiliği bugün yalnız Osmanlı için çizebiliyor. Kartli'nin çevresine Safevî renginde ince bir şerit koymak için yabancı devletlere de tâbilik kademesi gerekiyor; bu bir şema/arayüz kararı, onayını bekliyor. Ek olarak: TDV Tiflis'in kaybını 1603'e koyuyor, haritada ise 1606 görünüyor. TDV'nin kendi maddeleri de burada çelişiyor (Gürcistan maddesi 1614 diyor). Gence için 1606 doğru."
+    },
+    {
+      "no": 2,
+      "madde": "H-0011",
+      "dosya": "arac/renkler.py:3059 (kabartay)",
+      "eski": "\"kabartay\":                (\"Kabartay (Kabardey) Beylikleri\",    \"#d058e8\"),",
+      "yeni": "\"kabartay\":                (\"Kabartay (Kabardey) Beylikleri\",    \"#0c5a84\"),",
+      "gerekce": "Ölçüldü (renk_olc.py içe aktarıldı; görünen renk = bind(opaklık 0,44, altlık #e8dfc8)): kabartay #d058e8 ↔ gurcistan #e020b0 dE76 13,74 (kapı eşiği DE_KOMSU=12'yi GEÇİYOR) ama dE94 8,45 — H-0007'deki gurcistan↔karakoyunlu vakasının aynısı; Emre'nin gözü CIE94 ile uyuşuyor. Voronoi komşuları: OSMANLI · altinorda · gurcistan · imereti · nogay · rusya; engel evreni (engel_kumesi, 1500 km eşzamanlı) 81 kimlik. ÖNERİ #0c5a84 (koyu petrol mavisi): evren min dE76 12,1 (gilan-kiya) · Voronoi komşularına min dE94 17,1 · gurcistan dE76 50,0 / dE94 26,1 · imereti 39,8/31,7 · nogay 51,8/31,0 · altinorda 27,8/21,7 · rusya 22,3/17,1 · kirim 38,9/25,5 · Osmanlı doğrudan 55,0 · tâbi 43,3 · altlık 31,0 · deniz 21,4 (DE_DENIZ 18, geçer ama mavi ailede — Emre deniz benzerliğine duyarlı). YEDEK #8a00f6 (menekşe): deniz 60,4, altlık 71,8, ama gurcistan dE76 27,8 / dE94 14,3 (mor aile, ayrışma daha zayıf) ve trabzon-rum dE94 4,3. Arama: oner()'in aday ızgarası + ek şart altlık≥18, Osmanlı≥25, kırmızı tondan ≥30°, Voronoi'ye dE94≥13-15. oner()'in kendi seçimi #e44860 (kırmızı-pembe, ton 24,5°) Osmanlı ailesine düştüğü için REDDEDİLDİ. ⚠️ Kabartay (Nalçik) kaydı başka bir oturumun çalışma alanında; bu kalem yalnız renkler.py satırıdır, yerleşim kaydına dokunmaz.",
+      "kaynak": "ölçüm — arac/renk_olc.py (CIE76 kapı + dE94_asgari rapor), engel_kumesi(), komsuluk(); canlı veri 3850 nokta",
+      "etki_olculen": "Veri değişmiyor ⇒ Değişmez 2 etkisiz. Aktarımdan sonra py arac/renk_olc.py (tam denetim) koşulmalı; seçilen adayın evren içinde dE76<12 çifti 0.",
+      "madde_istegi": "",
+      "durum": "oneri",
+      "cevap_emreye": "Haklısın. İki renk ölçüm aracının kapısından geçiyordu ama göze daha duyarlı olan ölçüye göre çok yakındı (8,5; eşik 12). Kabartay için koyu petrol mavisi (#0c5a84) öneriyorum; Gürcistan'dan farkı 26'ya çıkıyor. Mavi fazla deniz gibi gelirse yedek renk menekşe (#8a00f6)."
+    },
+    {
+      "no": 3,
+      "madde": "H-0013",
+      "dosya": "arac/renkler.py:896 (venedik)",
+      "eski": "\"venedik\": (\"Venedik\", \"#deed93\"),",
+      "yeni": "\"venedik\": (\"Venedik\", \"#fcfc06\"),",
+      "gerekce": "Ölçüldü: venedik #deed93 ↔ avusturya #bdab3f dE76 12,17 (eşiğin 0,17 üstü) · dE94 10,34 — Voronoi komşusu. Ek bulgu: venedik ↔ imereti #deea90 dE76 0,63 (FİİLEN AYNI RENK; engel evreninde, Voronoi komşusu değil) ve venedik altlıktan yalnız 15,5 (eşik 15 — soluk, zemine yakın). Avusturya'yı değiştirmek denendi: Voronoi komşularına dE94≥11 sağlayan aday 0 (34 komşu) ⇒ değişecek olan Venedik. Venedik: 29 renkli Voronoi komşusu, 121 kimlik engel evreni; dE94≥15 aday 0, dE94≥11 aday 26. ÖNERİ #fcfc06 (canlı sarı — sarı kimlik korunuyor): evren min dE76 12,8 (alaiye) · Voronoi komşularına min dE94 13,7 · avusturya dE76 30,4 / dE94 13,7 · imereti 33,3/9,4 · almanya 24,4/13,7 · ispanya 41,1/17,1 · hafsi 32,7/15,1 · ceneviz 49,7/30,6 · macaristan 46,3/23,9 · Osmanlı doğrudan 83,0 · tâbi 71,6 · altlık 48,0 · deniz 68,8. ⚠️ Kalan zayıf çiftler (Voronoi komşusu DEĞİL, 1500 km eşzamanlı): alaiye dE94 7,5 · sirvansah 8,0 · fransa 8,3 · aydin 8,8.",
+      "kaynak": "ölçüm — arac/renk_olc.py (CIE76 kapı + dE94_asgari), engel_kumesi(), komsuluk(); canlı veri 3850 nokta",
+      "etki_olculen": "Veri değişmiyor ⇒ Değişmez 2 etkisiz. Aktarımdan sonra py arac/renk_olc.py koşulmalı. Ayrı borç (bu kalemde düzeltilmedi): imereti #deea90 ↔ ryazan dE76 3,0 · imereti altlıktan 15,4.",
+      "madde_istegi": "",
+      "durum": "oneri",
+      "cevap_emreye": "Haklısın, iki renk eşiğin hemen üstündeydi (12,2). Avusturya'nın 34 komşusu olduğu için onun rengini değiştirecek yer yok, bu yüzden Venedik değişmeli. Öneri canlı sarı (#fcfc06); Avusturya'dan farkı 30'a çıkıyor. Bu arada Venedik'in eski rengi İmereti ile birebir aynıydı; o sorun da çözülüyor."
+    },
+    {
+      "no": 4,
+      "madde": "H-0125",
+      "dosya": "data/yerlesimler.js:575 (Kabartay (Nalçik)) — YALNIZ OKUNDU",
+      "eski": "tur:\"bolge\", k:0 · s:[{f:\"1281-01-01\",t:\"1441-01-01\",d:\"altinorda\"},{f:\"1441-01-01\",t:\"1774-07-21\",d:\"kabartay\"},{f:\"1774-07-21\",…,d:\"rusya\"}…]",
+      "yeni": "YAMA YOK (şartname: yalnız araştır)",
+      "gerekce": "Görsel tarihi 1679-01-01. ① KABARTAY BEYLİKLERİ 1679'da VARDI: TDV `kabartaylar`a göre Kabartaylar Altın Orda'nın çöküşünden sonra bölgede 'birinci derecede etkili' oldular; 16. yüzyılın ilk yarısında Rus çarlarıyla ilişki kurdular (Temrük'ün kızı IV. İvan'la evlendi). 1739 Belgrad Antlaşması onları tarafsız ülke yaptı, 1774 Küçük Kaynarca Rusya'ya bıraktı. Yani 1679'da Kabartay beylikleri hem vardı hem bağımsızdı; atlasın 'kabartay' boyaması (1441→1774) 1679 için doğru. ② NALÇİK ŞEHRİ 1679'da YOKTU: Britannica'ya göre Nalçik 1818'de Rus kalesi olarak kuruldu. TDV'de `nalcik` ve `nalcik--sehir` ölü (302); `kabartaylar`, `karacay-balkarlar` ve `cerkezler` gövdeleri Nalçik'i yalnız günümüzün başşehri olarak anıyor ve kuruluş tarihi vermiyor. Kayıt tur:'bolge', k:0 (dolgu), yani 'şehir' iddiası taşımıyor. Ama haritada 'Kabartay (Nalçik)' etiketi ve şehir işareti görünüyor; 1818 öncesi için bu anakronik bir izlenim veriyor. Öneri: etiket 1818 öncesinde yalnız 'Kabartay' olsun ya da nokta şehir gibi gösterilmesin. Kayıt başka bir oturumun alanında olduğu için yama YAZILMADI; bu bir UI/etiket kararı. ⚠️ Nalçik'in kuruluşu tek kaynağa (Britannica editör maddesi, imzasız) dayanıyor; ikinci bağımsız kaynak BULUNAMADI (Büyük Rus Ansiklopedisi bigenc.ru 401 döndü, ölçülemedi).",
+      "kaynak": "TDV `kabartaylar` (200, gövde, müellif Davut Dursun): 'Altın Orda Devleti'nin çökmesinin ardından bölgenin tarihinde birinci derecede etkili olmaya başladılar' · Britannica 'Nalchik' (200, Britannica Editors): 'Founded as a Russian fortress in 1818' · ölü: nalcik · nalcik--sehir · kabarda (302) · bigenc.ru 401 (ölçülemedi)",
+      "etki_olculen": "Yama yok.",
+      "madde_istegi": "",
+      "durum": "cevap",
+      "cevap_emreye": "Kabartay beylikleri 1679'da vardı ve bağımsızdı. Altın Orda çöktükten sonra bölgenin en güçlü unsuru oldular; 1739'da tarafsız ilan edildiler, 1774'te Rusya'ya bırakıldılar (TDV). Harita rengi bu yüzden doğru. Nalçik şehri ise 1679'da yoktu; 1818'de Rus kalesi olarak kuruldu (Britannica). Oradaki nokta aslında bölgeyi temsil eden bir dolgu noktası, şehir kaydı değil. Ama 'Kabartay (Nalçik)' etiketi 1818 öncesinde yanıltıcı; etiketin o tarihten önce yalnız 'Kabartay' yazması öneriliyor. Kayıt başka bir oturumun elinde olduğu için değiştirmedim."
+    }
+  ]
+}

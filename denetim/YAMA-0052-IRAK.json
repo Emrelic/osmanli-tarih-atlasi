@@ -1,0 +1,83 @@
+{
+  "paket": "0052-IRAK",
+  "tarih": "2026-09-16",
+  "yazan": "HARITA-VERI alt görev IRAK",
+  "durum": "ONERI — veriye yazılmadı; uygulayıcı UYGULA",
+  "olcum_araci": "scratchpad irak_olc.js / irak_sim.js — js/suzgec.js maddeDegisimleri'nin KENDİSİ require edilerek, index.html'deki 173 olaylar/kronoloji/yerlesimler dosyası yüklenerek (3850 yerleşim · 6273 madde) koşuldu",
+  "onceki_is": "denetim/ARASTIRMA-BAGDAT-0914.md · denetim/UYGULA-BAGDAT-0914.md (F — Erbil UYGULANMADI, onay M-3946: 'Erbil adıyla anılmıyor, şart ③ zayıf'). Bu yama o kararı Emre'nin H-0021/H-0043 sorusu üzerine YENİDEN önüne getiriyor; karar koordinatörün.",
+  "kalemler": [
+    {
+      "no": 1,
+      "madde": "H-0014",
+      "dosya": "js/suzgec.js:668-696 (maddeDegisimleri) · data/yerlesimler.js:591 (Tarki (Tarku))",
+      "eski": "if (s.once === d.once && s.sonra === d.sonra && _ydKm(Y[s.i], Y[d.i]) <= MADDE_DEGISIM_AYAR.komsuKm)",
+      "yeni": "ÖNERİ (UI): komşu eşleşmesinde 'önce' anahtarı sınıf olarak karşılaştırılsın — osmanli ≡ tabi:* (CLAUDE.md §3: OSMANLI ile tâbi aynı sistem içidir). Örnek: var _ydSinif = function (k) { return (k === 'osmanli' || String(k).indexOf('tabi:') === 0) ? 'OSM' : k; }; ... if (_ydSinif(s.once) === _ydSinif(d.once) && s.sonra === d.sonra && ...). Ölçülen etki: 1607-01-01 maddesinde 10 → 11 (Tarki eklenir). Bütün veride tek başına bu değişiklik +6 yerleşim.",
+      "gerekce": "ÖLÇÜLDÜ: 1607-01-01 günü haritada 13 yerleşim el değiştiriyor; madde 10'unu seçiyor (Şamahı yer_id · Bakü, Derbend yer · Kabala, Ereş, Şâbüran, Mahmudâbâd, Salyan, Kuba, Şeki komşu). Seçilmeyen 3'ün ikisi Japonya/Sibirya. Üçüncüsü Tarki (Tarku): kırılma günü madde günüyle AYNI (v.t=1607-01-01), Derbend'e 121 km (≤150) — ama önceki sahibi 'tabi:' (v, kid boş), Derbend ve ötekilerinki 'osmanli' (d). Komşu kuralı önce→sonra geçişinin BİREBİR aynı olmasını istiyor ⇒ tâbi→safevi geçişi osmanli→safevi geçişinin komşusu sayılmıyor. Görseldeki 'Derbend'in üstündeki koyulaşmayan açık bölge' Derbend değil, Tarki'nin peteği (Derbend'in kendisi d: taşıyor ve yanıp sönüyor). Yani Emre'nin tahmini DOĞRU: davranış doğrudan/tâbi ayrımına göre değişiyor. Veri kusuru DEĞİL, seçim kuralı.",
+      "kaynak": "kod: js/suzgec.js:689-690 · veri: data/yerlesimler.js:591 Tarki v:[{f:\"1578-11-01\",t:\"1607-01-01\",k:\"Kumuk şamhallığı (tâbi)\"}]",
+      "etki_olculen": "Veri değişmiyor ⇒ Değişmez 1/2 etkilenmez. 🟡 Yan not (yama önerilmedi): Tarki kaydının kendi kaynak alanı 'bulunamadı' diyor; 1607'de Şamhallığın Safevî'ye geçişi ve s:safevi 1501-1736 dolgusu KAYNAKSIZ — bu oturum aramadı (kapsam dışı), bulunamadı değil 'okumadım'.",
+      "madde_istegi": "",
+      "durum": "arayuz-UI",
+      "cevap_emreye": "Evet, fark doğrudan/tâbi ayrımından geliyor. Maddeye tıklayınca haritanın yakıp söndürdüğü yerler şunlar: maddede adı geçenler (Şamahı, Bakü, Derbend), bir de bunlarla AYNI el değiştirmeyi yaşayan ve 150 km içinde kalan komşular. 'Aynı el değiştirme' bugün birebir aranıyor: 'Osmanlı → Safevî' ile 'tâbi → Safevî' ayrı sayılıyor. Derbend'in kuzeyindeki açık renkli bölge Derbend değil, Tarki'nin (Kumuk şamhallığı, tâbi) peteği. O da aynı gün Safevî'ye geçiyor ve Derbend'e 121 km uzakta, ama tâbi olduğu için yanıp sönmüyor. Arayüze öneri gitti: komşu aranırken Osmanlı ile tâbi aynı sınıf sayılsın."
+    },
+    {
+      "no": 2,
+      "madde": "H-0019",
+      "dosya": "js/suzgec.js:619 (MADDE_DEGISIM_AYAR.komsuKm:150) · 684-694 (zincirsiz komşu) · data/olaylar_ek5.js:229 (madde)",
+      "eski": "var MADDE_DEGISIM_AYAR = { komsuKm: 150, minHarf: 4 };  … // Zincir YOK (komşunun komşusu alınmaz)",
+      "yeni": "ÖNERİ (UI, Emre kararı gerekir): komşu arama ZİNCİRLİ olsun — her adım ≤150 km, aynı gün, aynı geçiş, aynı günün başka maddesine doğrudan bağlı yerleşim yine alınmaz. Uygulama: 684-694 döngüsünü bir kuyrukla (seçilen her komşu yeni kaynak olur) tekrarlamak. ÖLÇÜLEN ETKİ: 1623-11-28 maddesi 9 → 19 (günün 19 değişiminin tamamı), 1638-12-24 maddesi 9 → 17 (tamamı). ⚠️ BÜTÜN VERİDE: bağ bulunan 548 çekirdek maddenin 85'inde seçim büyür, toplam +1115 yerleşim — kural gevşer, başka günlerde yanlış atıf doğurabilir; UI bu 85 maddeyi gözden geçirmeden açmamalı. Daha dar seçenek: zinciri yalnız k:'kayip'/'fetih' maddelerinde ve günün TEK toprak maddesi olduğu durumda açmak (bu seçenek ölçülmedi).",
+      "gerekce": "ÖLÇÜLDÜ: 1623-11-28'de 19 yerleşim osmanli→safevi geçiyor, 19'unun kırılma günü madde günüyle AYNI (d.t=s.f=1623-11-28) ⇒ gün kusuru YOK. Madde tek bir yere bağlı (yer_id/yer 'Bağdat'); öteki 18'i yalnız 'Bağdat'a ≤150 km' kuralıyla alınabiliyor. Seçilen 8 komşu: Fellûce 54 · Kerbelâ 86 · Hille 96 · Sâmerrâ 106 · Kûfe 146 · Hît 146 · Hânekîn 147 · Necef 150 km. Seçilmeyen 10: Tikrit 154 · Dîvâniye 159 · Kifri 160 · Kût el-Amâre 164 · Tuz Hurmatu 173 · Vâsıt 221 · Halepçe 253 · Âne 257 · Şehrizor 266 · Erbil 319 km. Emre'nin iki listesi bu eşikle BİREBİR örtüşüyor. Kural komşunun komşusunu almıyor (bilinçli tasarım, PAKET-UI3). Başlıkta yer adı olarak yalnız 'Bağdat' var; maddenin yer: alanına Irak kasabalarını eklemek kaynaksız bir atıf olurdu (kaynak yalnız 'Irak'ın büyük bölümü' ve abbas-i'de Necef/Kerbelâ diyor) ⇒ veri yaması ÖNERİLMEDİ.",
+      "kaynak": "kod: js/suzgec.js:614-616, 684-694 · veri ölçümü bu oturum",
+      "etki_olculen": "Veri değişmiyor. 🟡 Yan gözlem (yama yok): 1623-1638 Safevî dönemlerinin 20 Irak kaydında da kaynağı yok (ARASTIRMA-BAGDAT §1.1); TDV musul--irak 1609 listesinde Tikrit'i MUSUL eyaletinin sancağı sayıyor — Tikrit'in Bağdat zincirine bağlı Safevî dönemi ayrıca sorulmalı (bulunamadı: Tikrit için 1623-1638 kaynağı).",
+      "madde_istegi": "",
+      "durum": "arayuz-UI",
+      "cevap_emreye": "Tarihler aynı; sebep mesafe. 19 yerin hepsi 28 Kasım 1623'te Safevî'ye geçiyor. Ama maddenin kendisi yalnız Bağdat'ı anıyor. Harita 'komşu' olarak Bağdat'a en çok 150 km uzaktaki yerleri yakıp söndürüyor: Fellûce 54, Kerbelâ 86, Hille 96, Sâmerrâ 106, Kûfe 146, Hît 146, Hânekîn 147, Necef 150 km. Senin ikinci listen bu sınırın hemen dışında kalıyor: Tikrit 154, Dîvâniye 159, Kifri 160, Kûtülamâre 164, Tuzhurmatu 173, Vâsıt 221, Halepçe 253, Âne 257, Şehrizor 266, Erbil 319 km. Komşunun komşusu da alınmıyor. Arayüze öneri gitti: komşu arama zincirleme yapılsın (Bağdat → Sâmerrâ → Tikrit gibi), böylece aynı gün aynı el değiştirmeyi yaşayan bütün Irak birlikte yanıp söner. Bu değişiklik atlastaki 85 başka maddeyi de etkilediği için önce senin onayın gerekiyor."
+    },
+    {
+      "no": 3,
+      "madde": "H-0043",
+      "dosya": "js/suzgec.js:619, 684-694 · data/olaylar_ek5.js:234 (madde) · data/yerlesimler.js:1804 (Erbil)",
+      "eski": "(kalem 2 ile aynı kural)",
+      "yeni": "(kalem 2'deki UI önerisi aynen). Ölçülen etki: 1638-12-24 maddesi 9 → 17. Erbil ayrıca VERİ kusuru — kalem 4-5.",
+      "gerekce": "ÖLÇÜLDÜ: 1638-12-24'te 17 yerleşim safevi→osmanli geçiyor (UYGULA-BAGDAT A hizalamasından sonra hepsi aynı gün). Seçilen 9 (Bağdat + 8 komşu, liste kalem 2 ile aynı); seçilmeyen 8: Tikrit 154 · Dîvâniye 159 · Kifri 160 · Kût 164 · Tuz Hurmatu 173 · Vâsıt 221 · Halepçe 253 · Âne 257 km — sebep yine 150 km eşiği. İKİ İSTİSNA: Şehrizor o gün hiç değişmiyor (UYGULA-BAGDAT B ile 1630-03-16'dan beri Osmanlı). Erbil ise o gün DEĞİŞMİYOR: kaydında s safevi t=1638-12-25, d f=1638-12-25 — bir gün geç, kaynaksız; 1638-12-25 kırılmasını taşıyan tek yerleşim Erbil. Görselde (H-0043-1, 1638-12-24) Erbil'in açık kalması bu.",
+      "kaynak": "veri ölçümü bu oturum · ARASTIRMA-BAGDAT-0914 §1.1",
+      "etki_olculen": "Kalem 4-5 uygulanırsa 1638-12-25 kırılması tamamen kalkar (başka yerleşim yok, ölçüldü).",
+      "madde_istegi": "",
+      "durum": "arayuz-UI",
+      "cevap_emreye": "Tarihler aynı; ikilik kalem 2'deki 150 km sınırından geliyor. Erbil ise ayrı bir veri hatası: kaydı Osmanlı'ya bir gün geç, 25 Aralık'ta dönüyor. Bu tarihin kaynağı yok; aşağıdaki Erbil yamasıyla düzelir."
+    },
+    {
+      "no": 4,
+      "madde": "H-0021 · H-0043",
+      "dosya": "data/yerlesimler.js:1804 (Erbil)",
+      "eski": "{f:\"1623-11-28\",t:\"1638-12-25\",d:\"safevi\"}  VE  d:[{f:\"1534-12-04\", t:\"1623-11-28\"}, {f:\"1638-12-25\", t:\"1917-03-11\"}]",
+      "yeni": "{f:\"1624-01-01\",t:\"1625-01-01\",d:\"safevi\",kesinlik:\"yil\",kaynak:\"gün komşudan: Kerkük ve Musul (aynı süreç — Karçakay Han/Kāsım Han harekâtı ve Hâfız Ahmed Paşa'nın öncü kuvveti; Erbil iki şehrin arasında, atlas koordinatlarıyla Musul'a ~81, Kerkük'e ~87 km). Komşuların kaynağı: TDV musul--irak «Kerkük gibi Musul da İran hâkimiyetine geçti» (1033/1624) · «Kerkük de dahil bölgeyi kontrol altına aldı» (1035/1625) · TDV hafiz-ahmed-pasa «Kerkük ve Musul … Kāsım Han tarafından zaptedildi». 🔴 ERBİL ADIYLA ANILMIYOR: TDV erbil · musul--irak · kerkuk · bagdat · murad-iv · sehrizor · husrev-pasa gövdeleri okundu (16 Eylül 2026). YIL hassasiyeti, güven DÜŞÜK-ORTA. Önceki 1623-11-28→1638-12-25 dönemi de kaynaksızdı (Bağdat zinciri). 🟡 TDV musul--irak Evliya aktarımı: Musul Hüsrev Paşa'dan sonra tekrar Safevî'ye geçti, IV. Murad seferinde geri alındı — TARİHSİZ, modellenmedi (Kerkük/Musul kayıtlarıyla aynı karar). YAMA-0052-IRAK\"}  VE  d:[{f:\"1534-12-04\",t:\"1624-01-01\",kesinlik:{f:\"gun\",t:\"yil\"}},{f:\"1625-01-01\",t:\"1917-03-11\",kesinlik:{f:\"yil\",t:\"gun\"}}]",
+      "gerekce": "ÖLÇÜLDÜ (bugünkü veri): Erbil 1623-11-28→1638-12-25 Safevî. Aynı yıllarda Musul Osmanlı (yalnız 1624 Safevî), Kerkük Osmanlı (yalnız 1624 Safevî, UYGULA-BAGDAT D), Rewândiz/Akra/Duhok kesintisiz Osmanlı ⇒ 1625-1638 arası Erbil Osmanlı toprağı içinde 13 yıllık Safevî ADACIĞI (H-0021 görseli 1628-09-22 bunu gösteriyor). Bu adacığın hiçbir kaynağı yok: Erbil'in 1623 tarihi Bağdat'tan kopyalanmış (ARASTIRMA-BAGDAT §1.1), 12-25 günü ise hiçbir kaynağa dayanmıyor. KAYNAKLAR: (1) TDV musul--irak ve hafiz-ahmed-pasa, Bağdat'ın düşüşünden sonra Safevîlerin Musul ile Kerkük'ü aldığını, 1625'te Çerkez Hasan'ın 10.000 İran taraftarını Altınköprü'den Kerkük'e kadar kovalayıp 'Kerkük de dahil bölgeyi' kontrol altına aldığını yazıyor. Musul–Altınköprü–Kerkük hattı Erbil'in üzerinden geçer. (2) TDV husrev-pasa: ordu 28 Ocak 1630'da Musul'dan çıkıyor, Şemâmik menzilinde 'Şehrizol (Kerkük ve civarı) bölgesinin emniyet altına alınmasına' karar veriyor; yolda Kürt aşiret beyleri bağlılık bildiriyor. Bu bir İŞARET: 1630'da Osmanlı ordusu bu bölgede serbestçe hareket ediyor (Şemâmik'in konumu bu oturumda kaynakla DOĞRULANMADI). (3) Erbil'in idarî bağı iki kaynakta farklı: TDV bagdat 1587 listesinde Bağdat eyaletinin sancağı, TDV musul--irak 995/1587'de Musul eyaletinin sancağı. İkisi de Erbil'i Musul-Kerkük hattına bağlıyor; 1638'e kadar Bağdat'la birlikte kaldığını söyleyen bir kaynak yok. ŞARTLI KOMŞU GÜNÜ (CLAUDE.md §4): ① Kerkük ve Musul'un 1624-1625 günleri kendi TDV kaynaklarına dayanıyor ✓ ② Erbil için kaynakta gün/yıl yok ✓ ③ aynı süreç (aynı Safevî harekâtı, aynı Osmanlı karşı harekâtı), yakın konum ✓ — ama Erbil ADIYLA geçmiyor, 'bölge/havali' ifadesinden çıkarım. M-3946'nın 'şart ③ zayıf' hükmü bu yüzden hâlâ geçerli bir itiraz ④ kayda açıkça yazıldı ✓. KARŞI: TDV abbas-i «Şah Abbas Musul, Kerkük ve Van'ı da almak istedi, fakat muvaffak olamadı» (saltanat özeti). YEDEK SEÇENEK (şart ③ yetersiz sayılırsa): yalnız d.f 1638-12-25→1638-12-24 ve s.t 1638-12-25→1638-12-24 (gün komşudan: Bağdat · TDV murad-iv). Bu seçenek H-0043'ün bir günlük ayrışmasını kapatır ama 1625-1638 adacığı kalır.",
+      "kaynak": "TDV musul--irak (HTTP 200, gövde okundu) «Kerkük gibi Musul da İran hâkimiyetine geçti» · «Kerkük de dahil bölgeyi kontrol altına aldı» · TDV hafiz-ahmed-pasa (200) «Kerkük ve Musul şahın kumandanlarından Kāsım Han tarafından zaptedildi» · TDV husrev-pasa (200, H. İnalcık) «Şehrizol (Kerkük ve civarı) bölgesinin emniyet altına alınmasına karar verildi» · TDV erbil (200) — 1623-1638 için HİÇBİR ŞEY YOK, yalnız 1535 fethi ve 'bir müddet sonra' Şehrizor sancağına bağlı kaza · TDV bagdat (200) 1587 sancak listesi · TDV kerkuk · sehrizor · murad-iv (200) — Erbil'in 1623-1638'ini anmıyor · ölü: erbil--irak (302) · musul (302)",
+      "etki_olculen": "Değişmez 1: dönemler uç uca (1534-12-04→1624-01-01 d · 1624→1625 s · 1625→1917-03-11 d), boşluk/örtüşme yok (elle kontrol). Değişmez 2: yeni kırılmalar 1624-01-01 ve 1625-01-01 — ikisinde de ZATEN Musul/Kerkük kırılması ve AYNI GÜNDE çekirdek madde var (data/olaylar_p0053.js M1 'Musul ve Kerkük'ün Safevî eline geçmesi', M2 'Musul'un Safevîlerden kurtarılması') ⇒ ±0 gün, KAPALI. 1623-11-28'de 18 başka kırılma kalıyor (madde var). 1638-12-25 kırılması tamamen kalkıyor (Erbil tek taşıyıcıydı) ⇒ Değişmez 2 kırılma sayısı −1. UI: M1'e (yer_id Musul) tıklanınca Erbil aynı geçişle Musul'a ~81 km ⇒ komşu olarak yanıp söner (yeni atıf, tasarımın kendi kuralı). Değişmez 3 (Erbil m:'Şehrizor'): bugünkü çelişki penceresi 1630-03-16→1638-12-25 (~8,8 yıl) yerine 1623-11-28→1624-01-01 + 1625-01-01→1630-03-16 (~5,3 yıl) — Kerkük'ün (m:'Şehrizor') bugünkü deseniyle aynı; tam tarama koşulmadı.",
+      "madde_istegi": "Yeni madde GEREKMİYOR. İsteğe bağlı: p0053 M1 ve M2'nin ic_not alanına 'Erbil aynı dilime hizalandı (gün komşudan, adıyla anılmıyor) — YAMA-0052-IRAK' notu eklenebilir.",
+      "durum": "oneri",
+      "cevap_emreye": "Erbil'in 1623-1638 arasındaki durumunu anlatan bir kaynak bulamadım. TDV'nin Erbil maddesi bu yıllardan hiç söz etmiyor; Musul, Kerkük, Bağdat, IV. Murad, Şehrizor ve Hüsrev Paşa maddeleri de Erbil'i bu olaylarda adıyla anmıyor. Atlastaki 'Erbil 1623'te Bağdat'la birlikte Safevî'ye geçti, 25 Aralık 1638'de döndü' kaydı da kaynaksız; Bağdat'ın tarihleri kopyalanmış. Kaynakların söylediği şu: Bağdat düştükten sonra Safevîler Musul ile Kerkük'ü aldı (1624). 1625'te Osmanlı öncü kuvveti İran taraftarlarını Altınköprü'den Kerkük'e kadar kovalayıp 'Kerkük dahil bölgeyi' geri aldı. 1630'da Hüsrev Paşa'nın ordusu Musul'dan Şehrizol'e bu bölgenin içinden yürüdü. Erbil Musul ile Kerkük arasındaki yolun üzerinde. Bu yüzden Erbil'i Musul ve Kerkük'le aynı tarihlere, yani 1624'te Safevî'ye geçiş ve 1625'te Osmanlı'ya dönüşe hizalamayı öneriyorum. Böylece adacık kalkar. Bu bir çıkarım: Erbil kaynaklarda adıyla geçmiyor ve kayda bu açıkça yazılıyor. Önerinin kabulü koordinatöre bağlı. Kabul edilmezse en azından 25 Aralık'ı 24 Aralık'a çekmek bir günlük farkı kapatır, ama 1625-1638 adacığı kalır."
+    },
+    {
+      "no": 5,
+      "madde": "H-0021 · H-0043",
+      "dosya": "data/yer_yama_manda_0906.js:872-873 (Erbil) · data/yer_yama_ok109_fetret.js:336-337 (Erbil)",
+      "eski": "\"f\": \"1623-11-28\",\n        \"t\": \"1638-12-25\",\n        \"d\": \"safevi\"",
+      "yeni": "\"f\": \"1624-01-01\",\n        \"t\": \"1625-01-01\",\n        \"d\": \"safevi\"",
+      "gerekce": "Bu iki yama dosyası Erbil'in s: dizisini TAM hâliyle taşıyor ve canlı girdi olarak duruyor (UYGULA-BAGDAT §5: '1638-12-25 taşıyan canlı girdi yalnız Erbil'). Kalem 4 yalnız yerlesimler.js'e inerse iki dosya eski Safevî dilimini yeniden yazabilir ya da ayrışma çıkarabilir. UYGULA-BAGDAT Şehrizor için iki dosyayı da aynı turda düzeltti; aynı yol izlenmeli. Yedek seçenek (kalem 4 YEDEK) seçilirse burada yalnız t 1638-12-25→1638-12-24 yapılır. Satır numaraları bu oturumda grep ile ölçüldü; her iki dosyada da bu üçlü YALNIZ Erbil bloğunda geçiyor (1638-12-25 başka canlı satırda yok).",
+      "kaynak": "kalem 4 ile aynı",
+      "etki_olculen": "Uygulayıcı yazımdan sonra girdi.yukle() ile Erbil'in birleşik kaydını okuyup s dizisinde 1623-11-28/1638-12-25 kalmadığını doğrulamalı (bu oturum yazmadı, ölçemedi).",
+      "madde_istegi": "",
+      "durum": "oneri",
+      "cevap_emreye": "(kalem 4'ün uygulama parçası)"
+    }
+  ],
+  "bulunamayanlar": [
+    "Erbil'in 1623-1638 arasındaki sahipliğini ADIYLA veren kaynak — TDV erbil, musul--irak, kerkuk, bagdat, murad-iv, sehrizor, husrev-pasa, hafiz-ahmed-pasa, abbas-i gövdeleri okundu; bulunamadı",
+    "1624 içindeki Safevî alış/Osmanlı geri alışlarının günleri — kaynakta yok (ARASTIRMA-BAGDAT ile aynı)",
+    "Evliya aktarımındaki Musul'un 1630 sonrası yeniden Safevî'ye geçişinin tarihi — tarihsiz",
+    "Şemâmik menzilinin konumu — kaynakla doğrulanmadı",
+    "Tarki (Tarku)'nun 1607 Safevî geçişinin kaynağı — ARANMADI (kapsam dışı)",
+    "Encyclopaedia Iranica / akademik ikinci kaynak — bu oturumda aranmadı"
+  ]
+}
