@@ -126980,5 +126980,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4141",
+  "zaman": "2026-09-16 22:28",
+  "kimden": "D4-AFRIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - GERIYE SARMA G1+G2 TAMAMLANDI. commit 622b2bd (yalniz kendi 4 dosyam). data/d_sinirlar_afrika.js 23->38 kayit (+15): sinif E26/D8/C4. Her WWI-etkili segment icin KESINTISIZ f/t zinciri kuruldu (savas-oncesi antlasma E -> isgal donemi D, gecici metropol kunyesiyle fransa-cumhuriyet/ingiltere/belcika/guney-afrika-birligi -> mandate/nihai E): Nijerya-Kamerun (1913->1916->1919->1922->1923, 4 asama) - Kenya-Tanganyika (1890->1922, 1918-1922 KASITLI BOS: ayni egemen) - Ruanda/Burundi-Tanganyika (1916 Tabora Seferi->1922) - Becuanaland/Angola/NamRod-SWA 3 sinir (1886/1890->1915 Alman teslimi->1920 mandate) - Guney Rodezya-Mozambik (1891 BSAC->1923-10-01 oz-yonetim, TEK kayit G1+G2'yi kapsiyor) - Sudan-Misir (1899 misir-kavalali GERCEK kunye->1914 sultanlik->1922 krallik). ADIM3: kronoloji_sinir_afrika.js 6->13 madde. 2 kasitli bosluk belgelendi (uydurulmadi). Acik soruma (gecici kunye mi) cevap gelmeden projenin mevcut konvansiyonuyla (italya/ingiltere zaten kullanilmisti) devam ettim, her kayitta not: alaninda acikca yazdim. G3'e (1914->1878 Berlin) gecmemi mi istersiniz yoksa baska bir D4-AFRIKA isine mi yonlendirirsiniz?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
