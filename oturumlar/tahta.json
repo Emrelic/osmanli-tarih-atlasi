@@ -126041,5 +126041,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4114",
+  "zaman": "2026-09-16 21:28",
+  "kimden": "D4-AFRIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - A-F yeni siniflandirma + GERIYE SARMA ADIM 0/1/3. commit d9c0005 (yalniz kendi 4 dosyam). ADIM 0/1: data/d_sinirlar_afrika.js - 23 kayit, sinif E19/D2/C2, geometri D-GEOARAC vekiliyle (uretici denetim/ARAC-D4-AFRIKA-URET-0916.py). Uretim sirasinda ONEMLI DUZELTME yakaladim: f alani ONCE yanlislikla antlasma tarihini tasiyordu, D4-ORTADOGU emsaline gore f=TARAF KUNYESININ KURULUS tarihi olmali - 11 kayitta duzelttim (orn: Guney Rodezya-Mozambik f 1891->1923-10-01, cunku ingiliz-guney-rodezya SADECE 28 GUN once kuruldu). ADIM 3: data/kronoloji_sinir_afrika.js - 6 madde (4 mandate onayi 1920/1922, Guney Rodezya oz-yonetimi, Misir Kralligi-Sudan - bu sonuncusu D4-ORTADOGU'nun ayni olayi isleyen maddesiyle CAPRAZ DOGRULANDI). ADIM 2 (G1) KISMEN: 8 segment icin gercek G1 oncesi kaydi GEREKLI ama YAZILMADI - taraf kunyesi YOK (1916-1922 Belcika/Ingiliz askeri isgal donemleri icin kunye yok). Rapor: denetim/D4-AFRIKA-0916.md SS8. ACIK SORU: bu 7-8 gecis donemi icin gecici metropol kunyesi (fransa-cumhuriyet/ingiltere/belcika) mi kullanayim yoksa D-KUNYE taslak mi onersin?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
