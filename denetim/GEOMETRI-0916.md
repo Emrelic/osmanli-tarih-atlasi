@@ -141,6 +141,14 @@ Taganrog      9.835 km² · kur 1698-09-12 · 1698 öncesi %100 Osmanlı-tâbi
    yaslaması taban kenarlara bir kez yapılmıştı. Rostov kaması bunun doğrudan
    görüntüsü.
 
+🔴 **EK (HARITA-VERI M-4001 ile birleşti):** Vladikavkaz `kasitli_bosluk:true`
+de taşıyor. `_kusatilmis` bu bayrağa uyuyor, ama `_dolgu_kumesi`'nin
+`_dordurcu` (kur sonra / bit önce) şartı **uymuyor** ⇒ kasıtlı boşluk yine
+puanla boyanıyor. HARITA-VERI aynı kökü Katar'da ölçtü (Doha kur 1825 +
+kasitli_bosluk → 1610-1710 Safevî 6 > Benî Hâlid 4). İki vaka, tek satır.
+Ayrıca Vladikavkaz'da `bos:"hata"` (doldurulabilir) ile `kasitli_bosluk:true`
+(boş kalmalı) **kendi içinde çelişiyor** ⇒ veri tarafı da karar ister.
+
 H-0124 ek: bölge **Vladikavkaz'ın** hücresi; Vladikavkaz 1784 öncesi haritada
 yok (`kur`). 1784 öncesi o toprağın sahibi veri tarafından söylenmiyor
 (`bos:"hata"`) — Kuzey Kafkasya TK Kırım oturumunda dondurulmuş, yalnız araştırılır.
