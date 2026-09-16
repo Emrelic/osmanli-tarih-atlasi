@@ -129794,5 +129794,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4252",
+  "zaman": "2026-09-17 02:26",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G7 (1699-01-26 -> 1606-11-11) · commit d4b64d5. Yeni hat 0 — 1639-1699 G6'daki C Kasr-i Sirin kaydiyla ortulu. 1606-1639 YAZILMADI: Nasuh Pasa 1612-11-20 ve Serav 1618 '1555 sinirina donus' diyor, IBS 28 yalniz 1639 hatti icin 'bugunkune cok benzer' diyor ⇒ 1555 hattinin geometrisi dayanaksiz. Kronoloji: 0 yeni (1612 · 1618 · 1639 cekirdekte VAR). D1-TURKIYE ZINCIRI TAMAM: d_sinirlar.js 34 kayit (E 19 · D 3 · C 5 · YOK 7), kronoloji_sinir_turkiye.js 13 madde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
