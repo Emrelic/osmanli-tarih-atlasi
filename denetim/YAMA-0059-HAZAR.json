@@ -1,0 +1,110 @@
+{
+  "paket": "0059/H-0007 — Rus Hazar seferi 1722-1735: Derbend kopuk parça",
+  "tarih": "2026-09-17",
+  "yazan": "D4-ORTADOGU (1.MURAT sevki, oturumlar/DALGA-0059.md md.7)",
+  "durum": "ONERI — kilitli dosyalara YAZILMADI. Uygulayıcı: UYGULA / 1.MURAT.",
+  "olcum_araci": "denetim/ARAC-D4-HAZAR-OLCUM-0917.py (salt okuma; girdi.py'nin 82 dosyası, 3855 kayıt)",
+
+  "cevap": {
+    "soru": "Rusya Derbend'e karadan mı denizden mi geldi; aradaki topraklar kimin elindeydi?",
+    "kisa": "HER İKİSİ: ordu Astrahan'dan DENİZLE Agrahan körfezine çıktı (28 Tem J / 8 Ağu G 1722), oradan KIYI BOYUNCA KARADAN Endirey–Sulak–Tarku–Utemiş üzerinden Derbend'e yürüdü; Derbend 23 Ağu (J) = 3 Eyl (G) 1722'de savaşsız teslim oldu. Aradaki kıyı Rus DEĞİL ama Rus NÜFUZUNDAYDI: Tarku şamhalı 1722'de Petro'yu ağırlayıp Rus tâbiiyetine girdi (1725 isyan, 1726'da şamhallık kaldırıldı → Rus idaresi), Sulak'ta Kutsal Haç kalesi ve Agrahan istihkâmı 1722-1735 Rus garnizonuydu; Kaytak usmiliği özerk ve dalgalı sadakatteydi.",
+    "harita_teshisi": "Atlasta Derbend 1722-1735 `rusya`, ama arada kalan Tarki (Tarku) ve Ağraham burnu kesintisiz `safevi` (1501-1736) ⇒ Derbend KOPUK. Kopukluk KISMEN gerçek (Kaytak arazisi Rus değildi) ama Tarku–Sulak–Agrahan kuşağı 1722'den itibaren Rus tâbiiyetinde/garnizonunda olduğu için harita onu İran gösterirken YANLIŞ.",
+    "ikinci_bulgu_takvim": "Atlasın 1722-08-23 · 1723-07-26 · 1735-03-10 günleri JÜLYEN (Rus kaynağı). Gregoryen karşılıkları 1722-09-03 · 1723-08-06 · 1735-03-21 (BRE üçünü de çift tarihle veriyor)."
+  },
+
+  "kalemler": [
+    {
+      "no": 1,
+      "dosya": "data/yerlesimler.js:639 (Derbend) — AYNI DEĞER: data/yer_yama_zend_kacar.js:42 · data/yer_yama_kafkas_rusya.js:57 · data/yer_kron_dogu.js:110 · data/yer_yama.js:132-133 (madde bağı) (hangisinin canlı olduğunu UYGULA ölçsün; D034: hepsi birlikte)",
+      "eski": "{f:\"1509-01-01\",t:\"1722-08-23\",d:\"safevi\"},{f:\"1722-08-23\",t:\"1735-03-10\",d:\"rusya\"},{f:\"1735-03-10\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"1509-01-01\",t:\"1722-09-03\",d:\"safevi\"},{f:\"1722-09-03\",t:\"1735-03-21\",d:\"rusya\"},{f:\"1735-03-21\",t:\"1736-03-08\",d:\"safevi\"}",
+      "gerekce": "Jülyen → Gregoryen. 1735-03-21 Gence Antlaşması'nın günü (hukukî iade); Derbend'in fiilen boşaltıldığı gün BULUNAMADI (Garunova 2016: 29 Eki 1734 fermanı önce Bakü'den çekilmeyi, Derbend'i sonra öngörüyor; Levaşov 1735 sonunda Astrahan'a vardı).",
+      "kaynak": "BRE 'Персидский поход 1722–23' (Gordiyenko, c.25, 2014): '23 авг. (3 сент.) без боя вступила в Дербент' · BRE 'Гянджинский трактат 1735' 10(21) Mart 1735 · TDV derbend--dagistan ('1722 Ağustosunda burayı işgal etti' — ay, Jülyen ile uyumlu)",
+      "kesinlik": "gün kesin (iki takvim kaynakta)"
+    },
+    {
+      "no": 2,
+      "dosya": "data/yerlesimler.js:637 (Bakü) — AYNI DEĞER: data/yer_kron_dogu.js:86 · data/yer_yama_zend_kacar.js:41 (ölç)",
+      "eski": "{f:\"1501-07-01\",t:\"1723-07-26\",d:\"safevi\"},{f:\"1723-07-26\",t:\"1735-03-10\",d:\"rusya\"},{f:\"1735-03-10\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"1501-07-01\",t:\"1723-08-06\",d:\"safevi\"},{f:\"1723-08-06\",t:\"1735-03-21\",d:\"rusya\"},{f:\"1735-03-21\",t:\"1736-03-08\",d:\"safevi\"}",
+      "gerekce": "Jülyen → Gregoryen; Gence günü kalem 1 ile aynı.",
+      "kaynak": "BRE 'Персидский поход': '26 июля (6 авг.) отряд Матюшкина … занял Баку' · Iranica BAKU i (Soucek): 'occupation ended in 1735 with the treaty of Ganja' · ⚠️ TDV baku '1734' diyor — çelişki bildirildi, BRE+Iranica esas",
+      "kesinlik": "gün kesin"
+    },
+    {
+      "no": 3,
+      "dosya": "data/yerlesimler.js:602 (Tarki (Tarku)) — AYNI DEĞER: data/yer_yama_zend_kacar.js:34 (ölçüldü; `s:` tam kopya) · yer_yama_vassal_kid_0906.js:73 ve yer_yama_kademe_m_0905.js:95 yalnız v:/m: taşıyor, etkilenmez",
+      "eski": "{f:\"1501-07-01\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"1501-07-01\",t:\"1722-08-24\",d:\"safevi\"},{f:\"1722-08-24\",t:\"1726-01-01\",d:\"kumuk-samhalligi\"},{f:\"1726-01-01\",t:\"1735-03-21\",d:\"rusya\"},{f:\"1735-03-21\",t:\"1736-03-08\",d:\"safevi\"}",
+      "gerekce": "Şamhal Adil-Girey 13 Ağu (J) = 24 Ağu (G) 1722'de Petro'yu Tarku'da ağırladı ve tâbiiyete girdi (Kasım 1722 fermanıyla şamhallığı tanındı, Utemiş toprakları ona verildi). 1725 isyanı; 1725 sonbaharında Yeropkin Tarku'yu yıktı; Mayıs 1726 ortasında Adil-Girey tutuklanıp sürüldü, şamhallık KALDIRILDI → Rus idaresi 1735'e kadar. Rus tâbiiyeti atlasın `v:` alanıyla ifade EDİLEMİYOR (o alan Osmanlı'ya ait); `s:rusya` yazmak tâbiiyeti doğrudan idare gibi gösterirdi (D089) ⇒ şamhallığın KENDİ kimliği. `t:1726-01-01`: kaynak 'Mayıs 1726 ortası' (makale) ve '1725' (TDV) — §4 kaba güvenli düzey YIL; ay/kaynak farkı nota.",
+      "kaynak": "Bukanova & Abdusalamov, 'Каспийский поход 1722–1723 гг. Петра I и отношение к нему кумыкских правителей' (CyberLeninka; Butkov'dan: Petro 13 Ağu şamhalın sofrasında) · Abdusalamov, Vestnik AGU 2011 (Adil-Girey isyanı 1725, Mayıs 1726 tutuklama, şamhallığın kaldırılması) · TDV kumuklar: 'Ruslar şemhallerin bağımsız yönetimlerine son verdiler (1725)'",
+      "on_kosul": "🔴 İKİ BAĞIMLI YAMA (UYGULA'nın dosyaları): (a) data/devletler.js `kumuk-samhalligi` künyesi t:1607-01-01 → en az 1726-01-01 (şamhallık 1607-1722 arasında da vardı; bu aralıkta veride kullanılmıyor — sessiz borç olur, kusur değil). (b) arac/renkler.py BOYALAR'da `kumuk-samhalligi` YOK → renk gerekir, yoksa HARİTA DELİĞİ (Değişmez: renksiz künye). Renk önerisi yapılmadı — renk_olc.py ile `rusya` #4f7d4f ve `safevi` #a56cab'dan ayrışan bir ton seçilmeli.",
+      "alternatif_B": "Ön koşullar yapılamazsa: `{f:\"1722-08-24\",t:\"1735-03-21\",d:\"rusya\"}` — TEK dönem. ⚠️ 1722-1726 tâbiiyeti doğrudan Rus idaresi gibi gösterir; kayda `not` düşülmeli. Önerim A.",
+      "kesinlik": "1722-08-24 gün kesin (makale, J→G hesap); 1726-01-01 yıl düzeyi"
+    },
+    {
+      "no": 4,
+      "dosya": "data/yerlesimler.js:603 (Ağraham burnu) — AYNI DEĞER: data/yer_yama_zend_kacar.js:35",
+      "eski": "{f:\"1501-07-01\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"1501-07-01\",t:\"1722-08-08\",d:\"safevi\"},{f:\"1722-08-08\",t:\"1735-03-21\",d:\"rusya\"},{f:\"1735-03-21\",t:\"1736-03-08\",d:\"safevi\"}",
+      "gerekce": "Petro'nun ordusu 28 Tem (J) = 8 Ağu (G) 1722'de Agrahan körfezine çıktı; Agrahan istihkâmı Rus garnizonuydu (1725'te Adil-Girey'in saldırısı PÜSKÜRTÜLDÜ). Gence 1735 ile Rus kuvvetleri Sulak'ın ötesine çekildi.",
+      "kaynak": "BRE 'Персидский поход' (28 июля высадка) · Bukanova & Abdusalamov (27 Tem, Uç dili — ⚠️ BRE'den bir gün farklı; BRE esas) · Abdusalamov 2011 (Agrahan istihkâmına saldırı) · Salamova, Omskiy nauçnıy vestnik 2007 ('с отводом русских войск за р. Сулак')",
+      "acik": "⚠️ Gence sonrası çekilme hattı kaynaklarda AYRIŞIYOR: Salamova 'Sulak'ın ötesi' (Agrahan Sulak'ın KUZEYİNDE → Rus kalabilirdi), Habibi-Rudsari 2013 ve Kutsal Haç makalesi 'fiilî sınır Terek'. 1735-03-21 iadesi Terek yorumuna göre yazıldı; Sulak yorumunda Ağraham 1735'ten sonra da Rus olur. KARAR KOORDİNATÖRÜN.",
+      "kesinlik": "gün kesin (BRE çift tarih)"
+    },
+    {
+      "no": 5,
+      "dosya": "data/olaylar_ek7.js:208 (madde 'Rus kuvvetlerinin Derbend'i alması')",
+      "eski": "t:\"1722-08-23\" … gun:\"23 Ağustos 1722\" … kaynak:\"dagistan\"",
+      "yeni": "t:\"1722-09-03\" … gun:\"3 Eylül 1722 (Rus takvimiyle 23 Ağustos)\" … d: metnine ekle: 'Ordu Astrahan'dan deniz yoluyla Agrahan körfezine çıkmış, oradan kıyı boyunca Tarku üzerinden karadan yürümüştü; Tarku şamhalı Petro'yu ağırlayıp Rus tâbiiyetine girdi.' … kaynak:\"dagistan · derbend--dagistan · BRE Персидский поход 1722–23\"",
+      "gerekce": "Kalem 1 ile birlikte (Değişmez 2: kırılma ile madde aynı gün kalır). Ek cümle Emre'nin sorusunun cevabı. ⚠️ Madde `t` değişince bu maddeye `olay:[\"1722-08-23|Derbend\"]` ile bağlı ek okumalar kopar — data/ekokuma_rusiran.js iki anahtarı da taşıyor; başka dosyada bu anahtar varsa ölç.",
+      "kaynak": "BRE (yukarıda) · TDV derbend--dagistan"
+    },
+    {
+      "no": 6,
+      "dosya": "data/olaylar_ek7.js:209 (madde 'Gence Antlaşması')",
+      "eski": "t:\"1735-03-10\" … gun:\"Mart 1735\"",
+      "yeni": "t:\"1735-03-21\" … gun:\"21 Mart 1735 (Rus takvimiyle 10 Mart)\" … kaynak:\"dagistan · BRE Гянджинский трактат 1735\"",
+      "gerekce": "Kalem 1-2-3-4 ile birlikte. Metin 'on üç yıl' diyor — 1722-1735 doğru.",
+      "kaynak": "BRE 'Гянджинский трактат 1735': 10(21) марта · Iranica BOUNDARIES ii: 'Ḏu'l-qaʿda 1148/March 1735'"
+    },
+    {
+      "no": 7,
+      "dosya": "YENİ MADDE (çekirdek olaylar dosyası — UYGULA seçer)",
+      "yeni": "{ t:\"1723-08-06\", k:\"savas\", etiket:[\"savas\",\"konu-askeri\"], b:\"Rus kuvvetlerinin Bakü'yü alması\", gun:\"6 Ağustos 1723 (Rus takvimiyle 26 Temmuz)\", yer:\"Bakü\", kisiler:\"General M. A. Matyuşkin\", d:\"I. Petro'nun Hazar seferinin ikinci yılında General Matyuşkin'in birliği denizden gelerek Bakü'yü ele geçirdi. Şehir, Gence Antlaşması'yla 1735'te İran'a iade edilinceye kadar Rus garnizonunda kaldı.\", kaynak:\"BRE Персидский поход 1722–23 · Iranica BAKU i\", yer_id:\"Bakü\" }",
+      "gerekce": "Bakü'nün 1723 kırılmasının (kalem 2) KENDİ maddesi yok; en yakın madde 1724-06-24 (~11 ay) — Değişmez 2s AÇIK kırılması. ⚠️ TDV baku '1734' iade diyor — BRE+Iranica esas."
+    },
+    {
+      "no": 8,
+      "dosya": "YENİ MADDE (çekirdek olaylar dosyası — UYGULA seçer)",
+      "yeni": "{ t:\"1726-01-01\", k:\"toprak-kayip\", etiket:[\"idari\",\"konu-siyasi\"], b:\"Tarku şamhallığının Ruslarca kaldırılması\", gun:\"1725-1726 (şamhal Adil-Girey Mayıs 1726'da tutuklandı)\", yer:\"Tarki (Tarku)\", kisiler:\"Şamhal Adil-Girey\", d:\"1722'de Rus tâbiiyetine giren Tarku şamhalı Adil-Girey 1725'te ayaklanıp Kutsal Haç kalesine ve Agrahan istihkâmına saldırdı, başarılı olamadı. Tarku 1725 sonbaharında yakıldı; şamhal 1726 baharında tutuklanıp sürüldü ve şamhallık kaldırıldı. Dağıstan kıyısı 1735'e kadar doğrudan Rus askerî idaresinde kaldı. Kaynak ayın ortasını veriyor; tarih yıl düzeyinde yazıldı.\", kaynak:\"kumuklar · Abdusalamov, Vestnik AGU 2011\", yer_id:\"Tarki (Tarku)\" }",
+      "gerekce": "Kalem 3'ün 1726-01-01 kırılmasının maddesi."
+    },
+    {
+      "no": 9,
+      "dosya": "data/kronoloji_rusya.js ('İran (Hazar) seferi başladı')",
+      "eski": "t:\"1722-07-18\"",
+      "yeni": "t:\"1722-07-29\"",
+      "gerekce": "18 Tem (J) filonun Astrahan'dan çıkışı = 29 Tem (G). Kuyruk dosyası — Değişmez 2 evreninde değil, ama aynı takvim hatası.",
+      "kaynak": "BRE (Petro 15(26) Temmuz'da Astrahan'da, 3 gün sonra çıkış) · Bukanova & Abdusalamov ('18 июля 1722 г. флот … вышел')"
+    }
+  ],
+
+  "yazilmayanlar": [
+    "Kutsal Haç (Svyatoy Krest) kalesi, Sulak — 1722 Eylül → 1735 (12 Ağu 1735 burçları yıkıldı raporu). Yeni NOKTA önerilmedi: koordinat kaynağı yok (GeoNames'te bulunamadı), kuruluş günü de doğrulanmadı. Noktası yazılırsa Tarku–Terek arası Rus kuşağı haritada kendi peteğini alır.",
+    "Kaytak usmiliği / Utemiş — atlasta nokta yok; usmilik özerk ve dalgalı sadakatte (1722 boyun eğiş, 1725 isyana kışkırtma, 25 Oca 1735 yemin). Derbend'in 'kopuk' görünmesinin GERÇEK kısmı bu arazidir.",
+    "Kızlar — 'Terek deltası (Kızlar)' noktası 1556'dan beri `rusya` ve bu doğru (Terek şehri 16. yy'dan Rus). Ama Kızlar kalesinin resmî kuruluşu 1735 (Garunova 2018; arşivde 1728 'Kızlar komutanı' kaydı da var) — noktanın ADI anakronik, sahipliği değil.",
+    "Gilan/Reşt 1722-1732 — bu kalemin kapsamı dışında; iki tarih kaynağı var (BRE Kasım-Aralık 1722, Iranica Safer 1135). Ayrı ölçülmeli."
+  ],
+
+  "kaynak_celiskileri": [
+    "TDV dagistan: Rusya–İran antlaşması '1724' — doğrusu Petersburg 12(23) Eyl 1723 (BRE, Iranica)",
+    "TDV gilan: 'Petro'nun ölümünden (1732)' — Petro 1725'te öldü",
+    "TDV sirvan: '1722'de … Ruslar Şemâhî'yi zaptettiler' — BRE'ye göre Şemahı hedefti, sefer ulaşmadı (doğrulanmadı, muhtemelen yanlış)",
+    "TDV baku: iade '1734' — BRE/Iranica 1735 Gence",
+    "Iranica RUSSIA i: Türkmençay '22 February 1826' — dizgi hatası (Boundaries maddesi 1828)",
+    "İstanbul 1724 (Rus–Osmanlı): BRE 12(23) Haziran, TDV sirvan / atlas 24 Haziran — bir gün fark, ölçülmedi"
+  ],
+
+  "atlasin_baska_takvim_ikizi": "Türkmençay iki maddede iki günle: KRONOLOJI_IRAN 1828-02-10 (Jülyen) ve OLAYLAR_EK7 1828-02-22 (Gregoryen) — aynı olay, 12 gün fark. Iranica BOUNDARIES ii '5 Šaʿbān 1243/10 February 1828' (J). KRONOLOJI_IRAN kaydı G'ye çekilmeli (1828-02-22). Gülistan KRONOLOJI_IRAN 1813-10-24 zaten G (Iranica GOLESTĀN: 29 Šawwāl 1228/24 October; J 12 Ekim)."
+}

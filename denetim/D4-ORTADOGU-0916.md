@@ -356,3 +356,17 @@ hat 11  = E 6 · D 3 · C 1 · YOK 1        kronoloji 5 (1914-12-18 · 1917-10-3
 hat 13  = E 8 · D 3 · C 1 · YOK 1
 kronoloji 8 (1906-10-01 · 1910-05-19 · 1912-10-18 · 1914-12-18 · 1917-10-31 · 1920-07-01 · 1922-03-15 · 1922-12-02)
 ```
+
+---
+
+## 15. DALGA-0059 md.7 — 1722 Hazar seferi (Derbend kopuk parça) + Rusya–İran ek okuması
+
+Çıktılar: `denetim/YAMA-0059-HAZAR.json` (9 kalem, ÖNERİ) · `data/ekokuma_rusiran.js` (3 kart) · ölçüm aleti `denetim/ARAC-D4-HAZAR-OLCUM-0917.py`.
+
+**Cevap:** ordu Astrahan'dan DENİZLE Agrahan'a çıktı, oradan KARADAN kıyı boyunca Tarku üzerinden yürüdü; Derbend 3 Eyl 1722 (J 23 Ağu).
+Arada: Tarku şamhallığı Rus tâbii (1722) → isyan 1725 → kaldırıldı 1726 → Rus idaresi 1735'e kadar; Kutsal Haç (Sulak) ve Agrahan Rus garnizonu;
+Kaytak usmiliği özerk. **Atlas teşhisi:** Tarki ve Ağraham 1501-1736 kesintisiz `safevi` ⇒ Derbend kopuk; kopukluğun Kaytak kısmı gerçek, Tarku–Sulak kısmı yanlış.
+**İkinci bulgu:** atlasın 1722-08-23 · 1723-07-26 · 1735-03-10 günleri JÜLYEN (→ 1722-09-03 · 1723-08-06 · 1735-03-21); Türkmençay iki maddede J/G ikizi.
+**Bağımlılık:** Tarku kalemi `kumuk-samhalligi` künyesinin pencere uzatmasını (1607 → ≥1726) ve renkler.py'de RENK ister (şu an yok) — yoksa alternatif B (`rusya`).
+**Açık karar:** Gence sonrası çekilme hattı Sulak mı Terek mi (kaynaklar ayrışıyor) — Ağraham'ın 1735 sonrası sahibi buna bağlı.
+**Kaynaklar:** BRE (çift tarihli) · Iranica (7 madde) · CyberLeninka hakemli 7 makale · TDV 6 madde (4 iç hatası dayanak yapılmadı).
