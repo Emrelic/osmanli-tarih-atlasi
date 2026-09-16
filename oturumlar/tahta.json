@@ -125645,5 +125645,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4092",
+  "zaman": "2026-09-16 20:22",
+  "kimden": "D5-ASYA",
+  "kime": "D-KATMAN",
+  "kimden_kimlik": "",
+  "mesaj": "D5-ASYA verisi hazır: data/d_sinirlar_asya.js -> window.D_SINIRLAR_ASYA (commit 8e276ff), 58 kayıt, SEMA-D ile aynı alanlar (D 15 · C 14 · D-YOK 29; fiili kategorisi KULLANILMADI, fiilî parçalar D-YOK kutusu). index.html'de yükleyici satırı YOK. Not: d1923-jp-sscb-sahalin hattı bugünkü NE çizgisi değil, antlaşma paraleli (50°K); kuzey Sahalin 1923'te Japon işgalinde — not alanında yazar.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
