@@ -206,7 +206,36 @@ ekle("d1923-filistin-misir", [MIS, FIL], "1922-03-15", "1923-10-29", "D", em,
       "not": "1979 barış antlaşması md.II hattı 1906 hattı olarak tanıdı; 1988 kararı ihtilaflı 14 sütunu (Taba = BP 91 Mısır'ın gösterdiği yer) kesinleştirdi; Gazze kesimi aynı hat"},
      {"t": "1906-12-31/1907-02-09", "not": "91 kâgir sütun karşılıklı dikildi (RIAA §54-58); 1909 ve 1911'de ortak tamir. 29 Ekim 1923'te ZATEN işaretliydi"},
      1.5, KES_NE + " · Taba ucu 1988 kararına göre (NE'nin Taba noktası ölçülmedi)", NE + " — EGY ile İsrail+Gazze birleşik",
-     "ŞARTLI D (koordinatör hükmü bekliyor): saha hattı kesin ve 1923'te ihtilafsız; 'uluslararası sınır' statüsü 1926 İngiliz–Mısır mektuplarıyla teyit edildi (RIAA §76). f = Mısır Krallığı künyesi; Filistin mandası 29.09.1923'te yürürlüğe girdi (RIAA §172).")
+     "Saha hattı kesin ve 1923'te ihtilafsız; ama Mısır Krallığı ile manda devleti arasında hukukî teyit YOK — 'uluslararası sınır' statüsü 1926 İngiliz–Mısır mektuplarıyla geldi (RIAA §76) ⇒ sinif D (fiilî kesin). f = Mısır Krallığı künyesi; Filistin mandası 29.09.1923'te yürürlüğe girdi (RIAA §172).")
+# G1 (1918-11-11 → 1922-03-15): aynı 1906 hattı, taraflar farklı — sinif D (fiilî kesin, hukukî teyit yok)
+DAY_FIL_G1 = [KAYIT[-1]["dayanak"][0],
+              {"ad": "TDV filistin", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/filistin",
+               "alinti": "1917'den itibaren Filistin'de askerî bir idare kuruldu"}]
+ekle("d1918-filistin-misir-askeri-idare", ["misir-sultanligi", "ingiltere"], "1918-11-11", "1920-07-01", "D", em,
+     "misir-sultanligi" if G["EGY"].contains(sol_nokta(em)) else "ingiltere", DAY_FIL_G1,
+     {"deger": False, "kaynak": "RIAA XX + IBS 46", "not": "hat 1906'dan bugüne aynı"},
+     {"t": "1906-12-31/1907-02-09", "not": "91 sütun"},
+     1.5, KES_NE, NE + " — EGY ile İsrail+Gazze birleşik",
+     "Filistin yakası İngiliz askerî idaresi (OETA; ayrı künye YOK → `ingiltere`). Hukuken hâlâ Osmanlı toprağı (Lozan 1924'te yürürlüğe girdi) ⇒ D. "
+     "f = G1 DALGA SINIRI (1918-11-11), hattın bu taraflarla fiilî başlangıcı değil — Allenby 31.10.1917'de Birüssebi'yi aldı (TDV filistin); öncesi G2'de.",
+     f_dalga_siniri=True)
+ekle("d1920-filistin-misir-manda", ["misir-sultanligi", FIL], "1920-07-01", "1922-03-15", "D", em,
+     "misir-sultanligi" if G["EGY"].contains(sol_nokta(em)) else FIL,
+     DAY_FIL_G1[:1] + [{"ad": "TDV filistin", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/filistin",
+                        "alinti": "Temmuz 1920 tarihinden itibaren Filistin'de bir sivil manda yönetimi kurdu"},
+                       {"ad": "TDV misir", "tur": "TDV", "url": "https://islamansiklopedisi.org.tr/misir",
+                        "alinti": "Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı"}],
+     {"deger": False, "kaynak": "RIAA XX + IBS 46", "not": "hat 1906'dan bugüne aynı"},
+     {"t": "1906-12-31/1907-02-09", "not": "91 sütun"},
+     1.5, KES_NE, NE + " — EGY ile İsrail+Gazze birleşik",
+     "🔴 f günü: TDV yalnız 'Temmuz 1920' diyor; ayın 1'i filistin-mandasi künyesinden DEVRALINDI (CLAUDE.md §4 künye penceresi kuralı) ve künyenin günü de kaynaksız. "
+     "Manda henüz yürürlükte değil (29.09.1923), Mısır İngiliz himayesinde ⇒ D.")
+
+# ─────────────────────────── A–F SINIF (GORUNUM-ABCD-0916 en üst bölüm) ───────────────────────────
+# eşleme: D→E (F kanıtı gelene kadar; denetim/TANINMA-1923-0916.json YOK) · fiili→D · C→C · D-YOK→YOK
+# istisna: Filistin–Mısır ailesi D (koordinat kesin, hukukî teyit 1926)
+SINIF_OZEL = {"d1923-filistin-misir": "D", "d1918-filistin-misir-askeri-idare": "D", "d1920-filistin-misir-manda": "D"}
+ESLEME = {"D": "E", "fiili": "D", "C": "C", "D-YOK": "YOK"}
 
 # ─────────────────────────── L2 · FİLİSTİN–ŞARKÎ ÜRDÜN (1922) ───────────────────────────
 URD = "urdun-emirligi"
@@ -269,6 +298,46 @@ ekle("d1923-libya-cezayir-gadames", [ITA, CEZ], "1912-10-18", "1923-10-29", "D",
      NE + " — kuzey uçtan taş 233'e kadar",
      "Libya kimliği geçici `italya` (bkz. d1923-libya-tunus). 1923'te bu kesim Tunus'un değil Cezayir'in (1911 Caillaux + 1923 Harbiye hattı, IBS 001 s.6); Tunus 1959'dan beri itiraz ediyor.")
 
+for r in KAYIT:
+    r["sinif"] = SINIF_OZEL.get(r["id"], ESLEME[r["kategori"]])
+    if r["sinif"] == "E":
+        r["sinif_not"] = "F adayı değerlendirilmedi: D-KUNYE tanınma tablosu (denetim/TANINMA-1923-0916.json) henüz yok — E yazıldı"
+    elif r["id"] in SINIF_OZEL:
+        r["sinif_not"] = "koordinat kesin, iki taraf arasında hukukî teyit yok (1926 İngiliz–Mısır mektupları öncesi) ⇒ D"
+    r["kategori_tarihi"] = True   # `kategori` ESKİ anlamıyla duruyor; bağlayıcı alan `sinif`
+
+# ─────────────────────────── KRONOLOJİ (G1 dalgası: 1918-11-11 → 1923-10-29) ───────────────────────────
+KRON = [
+    {"t": "1920-07-01", "devlet": FIL, "taraflar": [FIL, "misir-sultanligi"],
+     "b": "Filistin'de sivil manda yönetimi — Refah (1906) hattının Filistin yakası askerî idareden çıkıyor",
+     "tur": "idari", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "",
+     "etiket": ["idari", "sinir", FIL, "misir-sultanligi", "konu-siyasi", "konu-idari"],
+     "d": "İngiltere, 1917'den beri askerî idare altında tuttuğu Filistin'de Temmuz 1920'de bir yüksek komiser eliyle sivil manda yönetimi kurdu. "
+          "Mısır ile arasındaki sınır, 1906'da Osmanlı ve Mısır komiserlerinin sütunlarla işaretlediği Refah–Taba hattı olarak kaldı; "
+          "hat fiilen kesin ama Mısır ile manda devleti arasında henüz hukuken teyit edilmiş değildi. "
+          "Kaynak yalnız ayı veriyor; ayın 1'i manda künyesinden alınmıştır.",
+     "kaynak": "TDV filistin ('Temmuz 1920 tarihinden itibaren … sivil manda yönetimi') · Taba hakem kararı RIAA XX §54-59",
+     "sinir_id": ["d1918-filistin-misir-askeri-idare", "d1920-filistin-misir-manda"], "sinif": "D"},
+    {"t": "1922-03-15", "devlet": "misir-kralligi", "taraflar": ["misir-kralligi", FIL],
+     "b": "Mısır Krallığı ilân edildi — Refah–Taba hattının Mısır yakası krallığa geçiyor",
+     "tur": "siyaset", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "",
+     "etiket": ["siyaset", "sinir", "misir-kralligi", FIL, "konu-siyasi"],
+     "d": "İngiltere'nin 28 Şubat 1922'de Mısır'ı tek taraflı olarak bağımsız ilân etmesinin ardından Sultan Ahmed Fuâd 15 Mart 1922'de kral unvanını aldı. "
+          "Filistin ile sınır 1906 Refah hattı olarak sürdü; bu hattın iki devlet arasında uluslararası sınır sayılması 1926 mektuplaşmasına kaldı.",
+     "kaynak": "TDV misir ('28 Şubat 1922' · 'Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı') · RIAA XX §76",
+     "sinir_id": ["d1920-filistin-misir-manda", "d1923-filistin-misir"], "sinif": "D"},
+    {"t": "1922-12-02", "devlet": "kuveyt", "taraflar": ["kuveyt", SUUD],
+     "b": "Ukayr Protokolü — Necid–Küveyt sınırı ve Tarafsız Bölge çizildi",
+     "tur": "antlasma", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "",
+     "etiket": ["antlasma", "sinir", "kuveyt", SUUD, "konu-siyasi", "konu-diplomasi"],
+     "d": "İngiliz aracılığıyla Ukayr'da imzalanan protokol, Necid ile Küveyt arasındaki sınırı Vadi el-Avca ile Vadi el-Bâtın'ın kavşağından "
+          "29. paralele düz bir hat ve oradan kıyıya uzanan, Küveyt kasabası merkezli 40 millik yarım daire olarak tarif etti. "
+          "Bu hattın güneyinde, batıda eş-Şak çöküntüsü ve güneyde Ayn el-Abd hattıyla çevrili bir bölge iki tarafın eşit hakkına bırakıldı (Tarafsız Bölge; 1969'da bölündü).",
+     "kaynak": "TDV kuveyt ('Suudi Arabistan ile antlaşma imzalayarak (2 Aralık 1922)') · IBS 103 s.4 (protokol metni)",
+     "sinir_id": ["d1923-necid-kuveyt-bati", "d1923-necid-kuveyt-yay", "d1923-necid-kuveyt-tarafsiz-bati", "d1923-necid-kuveyt-tarafsiz-guney"],
+     "sinif": "E"},
+]
+
 # ─────────────────────────── KIYAS: koşu 12 (yalnız okuma) ───────────────────────────
 kiyas = {"kaynak": K12, "gun": GUN}
 try:
@@ -297,8 +366,8 @@ try:
     kiyas["harita_eslemesi"] = HARITA
     kiyas["govdesi_olan"] = {k: (HARITA.get(k, k) in govde) for k in sorted({t for r in KAYIT for t in r["taraflar"]})}
     for r in KAYIT:
-        if not r.get("hat"):
-            continue
+        if not r.get("hat") or not (r["f"] <= GUN < r["t"]):
+            continue          # kıyas yalnız 1923-10-28 kesiti için; G1 kayıtları kendi günlerinde ölçülmedi
         a, b = (HARITA.get(x, x) for x in r["taraflar"])
         if a not in govde or b not in govde:
             r["kiyas_atlas"] = {"durum": "ÖLÇÜLEMEDİ — atlasta 1923-10-28 gövdesi yok: " + ", ".join(x for x in (a, b) if x not in govde)}
@@ -322,12 +391,24 @@ bas = ["// -*- coding: utf-8 -*-",
        "// data/d_sinirlar_ortadogu.js — D KATEGORİSİ SINIRLAR · Orta Doğu + Mağrip · 29 Ekim 1923",
        "// D4-ORTADOGU · 16 Eylül 2026 · şema denetim/SEMA-D-0916.md · envanter+rapor denetim/D4-ORTADOGU-0916.md",
        "// Üretici: denetim/ARAC-D4-URET-0916.py — 🔴 ELLE DÜZENLEME, yeniden üret.",
+       "// 🔴 BAĞLAYICI ALAN `sinif` (A–F kademesi, oturumlar/GORUNUM-ABCD-0916.md en üst): F | E | D (fiilî kesin) | C | YOK",
+       "//    `kategori` ESKİ anlamıyla tarihî duruyor (kategori_tarihi:true) — ona geri düşülmez.",
+       "// f_dalga_siniri:true → f bir olay değil, geriye sarma dalgasının (G1: 1918-11-11) sınırı",
        "// Şemaya EK alanlar: cins ('ortak_alan_siniri' | 'idari_ic_hat') · ortak_alan (kimlik) · sag_taraf",
        "//   ortak_alan_siniri: yakalardan biri Necid–Küveyt Tarafsız Bölgesi (iki tarafın eşit hakkı, 1922-1969)",
        "//   idari_ic_hat: aynı egemen altındaki hat (Filistin–Şarkî Ürdün) — uluslararası D ile karıştırılmamalı",
        "", "window.D_SINIRLAR_ORTADOGU = ["]
 satir = [json.dumps(r, ensure_ascii=False, separators=(",", ":")) + "," for r in KAYIT]
 io.open("data/d_sinirlar_ortadogu.js", "w", encoding="utf-8").write("\n".join(bas + satir + ["];", ""]))
+kb = ["// -*- coding: utf-8 -*-",
+      "// data/kronoloji_sinir_ortadogu.js — SINIR KRONOLOJİSİ · Orta Doğu + Mağrip · D4-ORTADOGU",
+      "// window.KRONOLOJI_SINIR_ORTADOGU — oturumlar/GERIYE-SARMA-0916.md ADIM 3. Biçim data/kronoloji_almanya.js ile aynı;",
+      "// EK: taraflar (iki devlet kimliği) · sinir_id (data/d_sinirlar_ortadogu.js kayıtları) · sinif.",
+      "// Üretici: denetim/ARAC-D4-URET-0916.py — 🔴 ELLE DÜZENLEME. index.html satırını koordinatör ekler.",
+      "// Kapsam: G1 dalgası (1918-11-11 → 1923-10-29) içindeki E/F/D değişiklikleri.",
+      "", "window.KRONOLOJI_SINIR_ORTADOGU = ["]
+io.open("data/kronoloji_sinir_ortadogu.js", "w", encoding="utf-8").write(
+    "\n".join(kb + [json.dumps(k, ensure_ascii=False, separators=(",", ":")) + "," for k in sorted(KRON, key=lambda k: k["t"])] + ["];", ""]))
 json.dump({"kiyas": kiyas,
            "parcalar": [{k: r.get(k) for k in ("id", "kategori", "sol_taraf", "uzunluk_km", "kesinlik_km", "kiyas_atlas")} for r in KAYIT],
            "cipalar": {"nokta2": N2, "H": NH, "kuveyt_merkez": MERKEZ, "yay_kiyi_ucu": kiyi_uc, "ras_kalia": RAS_KALIA,

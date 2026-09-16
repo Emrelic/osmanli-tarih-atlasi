@@ -251,3 +251,45 @@ C   8 kesim yazılmadı: Aden–Yemen batısı (bugün iç hat, NE'de yok) · Ga
            Fransız–İspanyol Fas (bugün iç hat) · Tanca · Tarfaya meridyeni (Dra ırmağı NE nehirlerinde YOK — ırmak ucu kaynaksız) · İfni
 ```
 ⇒ Yazılabilir hâle gelmeleri için gereken kaynaklar §9'da (Brownlie · UNTS c.300 · 1845 ve 1912 haritaları).
+
+---
+
+## 12. GERİYE SARMA — A–F SINIFI + G1 (1923 → 1918-11-11) · `oturumlar/GERIYE-SARMA-0916.md`
+
+### ADIM 1 — `sinif` alanı (eşleme GORUNUM-ABCD en üst: D→E · fiili→D · C→C · D-YOK→YOK)
+```
+E    5   necid-kuveyt-bati · -yay · -tarafsiz-bati · libya-tunus · libya-cezayir-gadames
+         → F değerlendirilmedi: denetim/TANINMA-1923-0916.json YOK (her kayıtta sinif_not)
+D    3   filistin-misir (1923) + G1'in iki kaydı
+         🔴 İSTİSNA: eski "şartlı D" → YENİ D (fiilî kesin). Sütunlu 1906 hattı kesin, ama Mısır ile manda devleti
+         arasında hukukî teyit 1926'ya kadar yok (RIAA §76). Bu, M-4073(b) sorusunu yeni sınıflarla CEVAPLIYOR.
+C    1   filistin-urdun
+YOK  1   necid-kuveyt-tarafsiz-guney
+```
+`kategori` alanı ESKİ anlamıyla kaldı (`kategori_tarihi:true`); bağlayıcı olan `sinif`.
+
+### ADIM 2 — G1 (her parça için: ne zaman başladı, öncesinde ne vardı)
+| parça | 1923 kaydının f'si | G1 içinde öncesi | yeni kayıt |
+|---|---|---|---|
+| Necid–Küveyt (3 + YOK) | 1922-12-02 Ukayr | hukukî hat YOK (1913 sözleşmesi onaysız, Necid taraf değil; 1920 Cehra çatışması) | **yazılmadı** → A/B (kasıtlı) |
+| Filistin–Mısır | 1922-03-15 (Mısır Krallığı) | aynı 1906 hattı, taraflar farklı | **2 kayıt, D:** `d1920-filistin-misir-manda` (1920-07-01 → 1922-03-15, misir-sultanligi × filistin-mandasi) · `d1918-filistin-misir-askeri-idare` (1918-11-11 → 1920-07-01, misir-sultanligi × ingiltere) |
+| Filistin–Ürdün (C) | 1922-09-16 memorandum | 1920-21 Şeria çizgisi fiilî idarî sınır; kaynakla ölçülmedi, C/YOK düzeyinde | yazılmadı (G1 yalnız E/F/D ister) |
+| Libya–Tunus · Libya–Cezayir | 1912-10-18 (Uşi) | G1 boyunca değişiklik YOK | yok — 1910/1912 başlangıcı G3'ün işi |
+
+🔴 **`d1918-…` kaydının f'si bir olay değil DALGA SINIRI** (`f_dalga_siniri:true`): İngiliz askerî idaresi 1917'den beri (TDV `filistin`;
+Allenby 31.10.1917 Birüssebi). Öncesi G2'de.
+🔴 **`d1920-…` f günü:** TDV yalnız "Temmuz 1920"; ayın 1'i `filistin-mandasi` künyesinden devralındı ve künyenin günü de kaynaksız (§4).
+⚠️ **Künye boşlukları:** Filistin askerî idaresi (OETA) için künye yok → `ingiltere` · İtalyan Libyası → geçici `italya`
+(D-KUNYE taslağında `italyan-libya-kolonileri` var) · Trablusgarp Cumhuriyeti (1918-22; iç bölgede fiilî güç) için künye yok —
+hat aynı kaldığı için ayrı D kaydı YAZILMADI, fiilî taraf farkı **ölçülmedi**.
+G1'de bölgemdeki öteki hukukî olaylar E/F/D üretmiyor: 12.09.1919 Fransız–İtalyan düzenlemesi (Gadames–Tummo, "ayrıntıdan yoksun" → C,
+geometri yok) · 1919 Milner–Scialoja (Mısır kabul etmedi) · Muhammara 1922 (D2-KOMSU).
+
+### ADIM 3 — kronoloji (`data/kronoloji_sinir_ortadogu.js` · `window.KRONOLOJI_SINIR_ORTADOGU`)
+```
+1920-07-01  Filistin'de sivil manda yönetimi — Refah hattının Filistin yakası     D   TDV filistin (gün künyeden)
+1922-03-15  Mısır Krallığı — Refah hattının Mısır yakası                          D   TDV misir
+1922-12-02  Ukayr Protokolü — Necid–Küveyt sınırı + Tarafsız Bölge                E   TDV kuveyt · IBS 103
+```
+Her maddede `taraflar` (iki kimlik) · `sinir_id` (hat kayıtlarına bağ) · `sinif`. Ukayr'ın konumu GeoNames'te bulunamadı → `yer_kon` YOK.
+**index.html satırı koordinatörde:** `data/kronoloji_sinir_ortadogu.js`.

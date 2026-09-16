@@ -11,9 +11,11 @@
   "govdesi_olan": {
    "cezayir-fransiz": true,
    "filistin-mandasi": true,
+   "ingiltere": true,
    "italya": true,
    "kuveyt": true,
    "misir-kralligi": true,
+   "misir-sultanligi": false,
    "suud-ucuncu": true,
    "tunus-beyligi-fransiz": true,
    "urdun-emirligi": true
@@ -72,6 +74,22 @@
     "enkotu_km": 79.6,
     "le5_yuzde": 0
    }
+  },
+  {
+   "id": "d1918-filistin-misir-askeri-idare",
+   "kategori": "D",
+   "sol_taraf": "misir-sultanligi",
+   "uzunluk_km": 206.1,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1920-filistin-misir-manda",
+   "kategori": "D",
+   "sol_taraf": "misir-sultanligi",
+   "uzunluk_km": 206.1,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": null
   },
   {
    "id": "d1923-filistin-urdun",
