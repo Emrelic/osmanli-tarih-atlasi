@@ -17,8 +17,10 @@
 | `37ec7be` | `girdi.py` — `gecitler.js` anlık görüntü + parmak izi (MOTOR M-3994) | — |
 | `783f473` | HARITA-VERI: 5 Ukrayna noktası (yeni dosya) · Bar · Limni · Kabartay/Venedik rengi | ✓ · D1 3850→3855 · `renk_olc` 0 |
 
-**Uygulanan kalem: 24** (13 + 3 + 1 + 5 + 1 + 1 + 2 renk; `girdi.py` iki şema düzeltmesi ayrıca)
-**Uygulanmayan: kaynak/madde/karar bekleyenler — §3.**
+**Birinci tur: 24 kalem** (13 + 3 + 1 + 5 + 1 + 1 + 2 renk; `girdi.py` iki şema düzeltmesi ayrıca)
+**İkinci tur (M-4025 sonrası, §5): 3 commit** — Germiyan 8 kayıt · TRAKYA 17 kayıt + Niş ·
+Çehrin · Uman · El-Arîş · **11 madde** (5 değişen, 6 yeni/dönüşen)
+**Uygulanmayan: kaynaksız/çelişik ya da koordinatör dosyasına bağlı — §3 ve §5.**
 
 Taban (`denetle.py`, uygulamadan önce): bütün değişmezler ✓ · 3850 yerleşim · 324 sahipsiz ·
 D2 535/0 · 2s 1333/99 · 2i 65/3 · 2t 16 · 4c 129 · D7 662.
@@ -169,6 +171,97 @@ Konya — gün/uç seçimi.
 **K10 — Hazır olmayanlar.** KUZEY: 8 kalemin hepsi *"sırada"* (künye/gün bekliyor) +
 Y3b Nystad takvim sorusu · UZAK Y2–Y5 bloke, Y6 motor · P12 dosyaları UYGULA'nın değil ·
 ANADOLU-6 **zaten yapılmış** (`girdi.py:759` bağlı, `index.html` satırı var).
+
+---
+
+## 5. İKİNCİ TUR — M-4025 kararlarından sonra
+
+Koordinatör: **K1 evet** (olaylar_ek · olaylar · olaylar_ek17 · olaylar_ek5 ·
+olaylar_p0055 — yalnız bu maddeler için, yerleşim + madde TEK commit) · **K2 (a)** ·
+öteki K'lar *"kaynaksız/çelişik olanı UYGULAMA"*.
+
+| commit | ne indi | denetim |
+|---|---|---|
+| `f51242f` | Germiyan grubu 1429-01-01 · TRAKYA 17 kayıt + Niş · MT-1/2/3/5/6/7 | ✓ · D2 534/0 · 2s 1331→1330 |
+| `d9cc529` | Çehrin fetih günü 1678-08-21 · Uman 1674-1699 · ek5 iki madde | ✓ · D2 534→535/0 |
+| `7d0de72` | El-Arîş 1799 Napolyon işgali · p0055 iki madde | ✓ · 2i 96→98/3 |
+
+### 5.1 Germiyan — K2 (a)
+7 kaydın 14 geçişi `1429-02-01` → `1429-01-01` (Kütahya · Afyon · Simav · Tavşanlı ·
+Emet · Uşak · Alaşehir) · Denizli `1425-06-01` → `1429-01-01` (dönemine TDV denizli
+kaynak notu) · madde `olaylar_ek.js` *"Germiyan'ın vasiyetle ilhakı"* aynı güne.
+⚠️ `data/yer_yama_tbmm_1920_0905.js` aynı günü 14 yerde **tarihî kayıt** olarak
+taşıyor — canlı girdi değil (ne `GIRDI_DOSYALARI` ne `index.html`); dokunulmadı.
+Bir uygulayıcı o dosyayı yeniden koşarsa eski günü geri yazabilir.
+
+### 5.2 TRAKYA
+```
+T1 1360        Çorlu · Lüleburgaz · Keşan                         kaynaklı yıl
+T2 1361        Dimetoka + Sofulu · Meriç                          yıl + komşu (Dimetoka)
+T3 1361-05-05  Edirne + Havsa · Orestiada · Lalapaşa              kaynaklı gün + komşu
+T5 1369        Kırklareli · Vize · Elhova + Kofçaz · Dereköy · Demirköy · Malko Tırnova
+NIS            Niş d 1413→1428 + s sirp-despotlugu 1413-1428      TDV nis
+```
+Her değişen `d:` dönemine kaynak notu; komşu günlerinde *"gün komşudan: … · …"* (§4 ④).
+Maddeler: **MT-1** (`olaylar_ek.js` 1362 maddesi **yerinde** 1360 maddesine dönüştü —
+yama "SİL, yerine MT-1" diyordu; silmek yerine dönüştürmek aynı sonucu referans
+kırmadan veriyor) · MT-2 · MT-3 · MT-5 · MT-6 (p0055) · MT-7 (yalnız Keşan çıktı).
+
+**BEKLETİLDİ:** T4 (Çirmen · Ferecik · Mustafapaşa · Dedeağaç + MT-4 — MT-4 metni
+Çirmen'in teslimi üzerine kurulu, Çirmen'in yılı Emre sorusu; Ferecik 1357 maddesinde
+kaldı) · Uzunköprü (yamanın kendisi *"Orta Meriç'e girdiği ölçülemedi"*) · İğneada ·
+Ahtopol · Rezve (yıl bulunamadı; 1361-01-01'de kaldılar, MT-5 yer listesinden çıkarıldı) ·
+Köstendil (SEÇENEK açık).
+
+### 5.3 Çehrin · Uman
+Çehrin **yalnız ③**: 1678-07-19 → 1678-08-21 (TDV merzifonlu ve cehrin-seferi ikisi de
+alınışı 21 Ağustos veriyor; 19/21 Temmuz kuşatmanın başı). Madde aynı güne.
+**Bekletildi ①②**: TDV merzifonlu teslimi 1675'e koyuyor, cehrin-seferi 1675 sonrasını
+ima ediyor, IEU 19 Eylül 1676 veriyor ve takvimi belirtmiyor → çelişik.
+Uman: `lehistan` ikiye bölündü, `d:` 1674-01-01 → 1699-01-26 (TDV merzifonlu, Ağustos
+1674 → §4 yıl) · ek5'e yeni madde.
+
+### 5.4 ARAP · UZAK
+**İndi:** El-Arîş `isg` 1799-02-18 → 1799-11-17 + iki madde. Etiketler `p0057`'nin işgal
+sözleşmesine hizalandı (`isgal` / `kurtulus`, `k:"kazanc"`): işgal sahipliği değiştirmez.
+
+**DENENDİ, DENETİM KIRMIZI VERDİ, GERİ ALINDI:**
+```
+H1 Hâil s:suud 1779-1818     1b ✗  1818-09-09 → 1836-01-01 BEYANSIZ iç boşluk
+                             (gerçek: Dir'iye düştü, Reşîdîler 1836'da). Beyan
+                             listesi denetle.py BEYAN_EDILEN_BOSLUK'ta — KOORDİNATÖRÜN.
+UZAK-Y1 Hârizm 1593-1598     D7 ✗  sorgusuz enklav 661 → 665 (tavan 664) — dört
+buhara                       Hârizm noktası Kızılkum'da nokta olmadığı için Buhara
+                             gövdesinden KOPUK. Gerçekte Amuderya boyunca bitişik
+                             ⇒ NOKTASIZLIK artefaktı (§2); enklav:true YANLIŞ iddia olur.
+```
+**Uygulanmadı:** S1 Arîş/Sâlihiyye 1517 (yazarın kendi D030 notu: ordunun geçişi ≠
+tasarruf) · H1 Nefud (D1 beklentisi değişir) · H1 Riyad (1744-73 kimliği yok) · T1
+Bağdat (M1 `olaylar_ek11.js`te, yetki listesinde yok) · B1 · F1.
+
+### 5.5 İkinci turun bulguları
+
+**B5 — 2t'nin kayıp tarafı KÖR.** `_toprak_iddiasi()` (`denetle.py:1340`) `toprak-kaybi`
+arıyor; veride bu yazım **5 satır**, kullanılan yazım `toprak-kayip` **241 satır**.
+⇒ Toprak kaybı iddia eden maddelerin neredeyse tamamı 2t'nin evreninde değil.
+`denetle.py` koordinatörün.
+
+**B6 — 2t'nin kırılma havuzunda `isg:` yok.** İşgal başlangıç/bitiş maddeleri `toprak-*`
+etiketi taşırsa "kırılmasız" sayılıyor. `p0057` sözleşmesi (`isgal`/`kurtulus`) bunu
+zaten önlüyor; yeni işgal maddesi yazan bu sözleşmeye uymalı.
+
+**B7 — `git pull` yarışı.** Bir kez *"Cannot rebase onto multiple branches"* (eşzamanlı
+fetch), bir kez geçici `.git/rebase-merge` gördüm. İkisi de kendiliğinden geçti;
+hiçbirine dokunmadım.
+
+### 5.6 Koordinatöre somut istekler
+```
+① Hâil'i indirebilmem için BEYAN_EDILEN_BOSLUK'a
+   ("Hâil", "1818-09-09", "1836-01-01") — kaynak: TDV residiler (1818'de Cebelişemmer
+   Suûdî hâkimiyetinden çıktı; Reşîdî emirliği 1836). Eklersen H1-Hâil + M5b madde iner.
+② UZAK-Y1 için Amuderya boyunca (Çarcuy/Amul) nokta araştırması — HARITA-VERI'ye.
+③ B5: _toprak_iddiasi()'na "toprak-kayip" eklenmesi (2t sayısı büyük ihtimalle artar).
+```
 
 ---
 
