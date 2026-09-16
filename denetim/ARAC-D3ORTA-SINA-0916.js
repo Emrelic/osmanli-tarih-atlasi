@@ -21,6 +21,9 @@ for (const [ka, a] of HEPSI) {
   for (const [kb, b] of HEPSI) {
     if (b.kategori !== 'D-YOK') continue;
     if (ka !== 'D_SINIRLAR_AVRUPA_ORTA' && kb !== 'D_SINIRLAR_AVRUPA_ORTA') continue;
+    // zaman: aralıklar kesişmiyorsa çakışma yok (G2 kutuları 1914-18, G1/1923 çizgileri sonrası)
+    const P = s => (s || '').replace(/^(\d{1,3})-/, (m, y) => y.padStart(4, '0') + '-');
+    if (!(P(a.f) < P(b.t) && P(b.f) < P(a.t))) continue;
     const n = a.hat.filter(p => ic(p, b.kutu)).length;
     if (n) { console.log(`  ⚠️ ${ka}:${a.id} (${a.kategori}) ${n}/${a.hat.length} nokta → ${kb}:${b.id} kutusunda`); if (ka !== kb) hata++; }
   }

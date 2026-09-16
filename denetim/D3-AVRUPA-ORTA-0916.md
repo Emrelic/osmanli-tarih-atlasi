@@ -158,6 +158,32 @@ Saarbrücken · Palanga · Eisenstadt · Katowice · Sighet (koordinatör nokta 
 - BATI'nın `d1923-it-shs` YOK kutusu (13,35-14,45 D · 45,3-46,53 K) benim `d1923-at-yu-karintiya` çizgimin 24/66 noktasını örtüyor — tahtadan BATI'ya yazıldı.
 - Taraflar 1918-11-11'den önce (`habsburg`, `rusya`…) G2'nin işi; `d1918-fi-su-fiili` ve `d1923-ro-su` G2'de geriye uzar.
 
+## 4c. 🆕 G2 — 1918-11-11 → 1914-07-28
+
+```
+kayıt 73 → 114  ·  G2 aralığında başlayan 44 kayıt: E 8 · D 4 · YOK 32
+kronoloji 32 → 37 madde (E 29 · D 8) · yer_id dolu 20
++ G1 tamamlama: d1918-al-yu-1913 (YOK/C, 1918-12-01 → 1921-11-09)
+```
+| Kayıt | f → t | sınıf | dayanak |
+|---|---|---|---|
+| `d1914-de-ah` (Almanya–Habsburg, AUT-DEU çizgisi) | 1914-07-28 → 1918-11-11 | E | Versay 27(5) + Saint-Germain 27(7) "3 Ağustos 1914 sınırı" ✓ |
+| `d1914-ru-ro-prut-{rusya,gecici,sovyet}` + `-tuna-…` (6 kayıt) | 1914-07-28 → 1917-03-15 → 1917-11-07 → 1918-04-08 | E | **Berlin 1878 md. 45** "Prut'un orta kanalı + Kilya + Eski İstanbul ağzı" (AJIL metni) = IBS 43'ün bugünkü tarifi ⇒ hukukî kimlik; yatak kayması ÖLÇÜLMEDİ. Rusya tarafı künye pencerelerine bölündü |
+| `d1914-sr-mn` (MNE-SRB çizgisi) | 1914-07-28 → 1918-11-26 | E | 1913-11-12 Belgrad anlaşması (◐) + **CANU Leksikon ✓**: "Sancak 1913 sınırlarına göre bölünür". Doğudaki Metohija kesimi (bugün Kosova içi) YOK |
+| `d1918-fi-su-fiili-*` f **1918-11-11 → 1918-01-04** | — | D | Sovyet tanıması (VTsİK, ◐); tanıma belgesinde sınır yok |
+| `d1918-brest` | 1918-03-29 → 1918-11-13 | YOK (E) | Brest md. III (hat haritada), teati Berlin 1918-03-29 ✓, iptal 1918-11-13 ◐ |
+| `d1914-de-ru-1..3` × 3 rejim | → 1918-03-29 | YOK | Melno hattı Versay'a kadar sürdü (VLE ✓); bugünkü LT-RU ile aynılık BULUNAMADI |
+| `d1914-ah-ru-1..3` × 3 rejim | → 1918-07-04 ◐ | YOK | A-M–Rusya Brest teatisi (HHStA ◐) |
+| `d1914-de-ah-bohemya-1..3`, `-silezya` | → 1918-11-11 | YOK | 1923 Bohemya kayıtlarıyla aynı gerekçe |
+| `d1914-hm-ro-1/2`, `d1914-ah-ro-bukovina` | → 1918-11-16 / 11-11 | YOK | **Bükreş 1918 md. 11 Karpat düzeltmesi YÜRÜRLÜĞE GİRMEDİ** (kral onaylamadı, md. 31 teati yok ◐) ⇒ hukukî hat 1914 |
+| `d1914-ah-sr-drina` | → 1918-11-11 | YOK | Spahić 2017 ✓: Drina 1878 hattı büyük ölçüde sürüyor ama küçük düzeltmeler + onaylanmamış kesimler + anlaşmazlıklar ⇒ çizilmedi |
+| `d1914-hm-sr-tuna`, `d1914-ah-mn`, `d1914-mn-al` (C), `d1914-sr-al` (C), `d1914-sr-mn-kosova` | → künye sonu | YOK | Sutorina/Boka (CANU ✓) · 1913 Londra hattı kesinleşmemişti (IBS 116 ✓) |
+
+**Yazılmayanlar:** cephe ve işgal hatları (Sırbistan 1915, Karadağ 1916, Romanya 1916-18, Doğu cephesi) — koordinatsız ·
+Ukrayna Halk Cumhuriyeti ile Brest (1918-02-09) — yürürlük BULUNAMADI, künye YOK · Brest ek antlaşması (1918-08-27) metni OKUNMADI ·
+Moldova Demokratik Cumhuriyeti (1917-12/1918-02) künyesi YOK · 1918 başı fiilî Dinyester hattı (Hotin kesimi A-M işgalinde).
+**Fiilî görünümde yanlış bilinen aralık:** Prut E hattı 1918-01-21 → 04-08 (Rumen ordusu Prut'un ötesinde).
+
 ## 5. Kaynaklar (bu oturumda açılıp okunanlar)
 
 - ABD Dışişleri *International Boundary Study* (FSU): IBS 43, 47, 66, 74, 76, 77, 116 — `library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibsNNN.pdf` (pypdf ile tam metin)
