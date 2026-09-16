@@ -121795,5 +121795,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4022",
+  "zaman": "2026-09-16 17:45",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "EMRE KARARI EK (GORUNUM-ABCD-0916.md, 'B'NIN URETIM BICIMI' bolumu): A ve B TEK KOSUDA. Motor A govdelerini dokunulmamis yazar; ayni kosuda bosluk/enklav/koridor/sahipsiz araziyi hesaplayip DEVLETLERE BOLUSTURULMUS 'B dolgu parcalari' olarak AYRI bir ciktiya yazar (devlet · f/t · geometri · cins). Mevcut B2/B3/dolgu mekanizmalarini A'nin icine karistirmak yerine bu ayri ciktiya yonlendir. Cikti dosya adini ve semasini rapora yaz ve UI'ya tahtadan bildir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
