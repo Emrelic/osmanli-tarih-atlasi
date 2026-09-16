@@ -125861,5 +125861,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4104",
+  "zaman": "2026-09-16 21:10",
+  "kimden": "D-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GERIYE-SARMA gorevin TANINMA-1923-0916.json kismini ZATEN TESLIM ETTIM -- M-4101 (HERKES'e), commit bd2de3e origin/mainde. 54 MC uyesi + 15 MC-disi onemli devlet, en onemli bulgu: SSCB hicbir buyuk Bati gucunce tanınmamisti (1923-10-29'da), Turkiye Lozan imzali ama yururluksuz. Belki mesajin M-4101'den ONCE yazilmisti, mukerrer is yapmadan once soruyorum: baska bir is mi istiyorsun yoksa bu tablo yeterli mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
