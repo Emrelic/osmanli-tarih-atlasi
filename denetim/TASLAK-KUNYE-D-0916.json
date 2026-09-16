@@ -10,7 +10,8 @@
   "KUNYESI VAR AMA RENGI YOK (devletler.js'te kayitli, 1923-10-29'u kapsiyor, ama arac/renkler.py BOYALAR sozlugunde ne id ne harita anahtari karsiligi bulunmuyor): oniki-ada-italyan, cezayir-fransiz, avusturya-cumhuriyet -- bunlar TASLAK DEGIL, mevcut kunye; yalniz renk atanmasi gerekiyor.",
   "EK (D3-AVRUPA-BATI ve D2-KOMSU'nun tahta M-4059/M-4067 bulgulari uzerine, 16 Eylul aksami): saar-havzasi-mandasi ve cebelitarik-ingiliz eklendi. Ayrica D2-KOMSU'nun sordugu granularite sorusu acik kaldi -- Gurcistan/Ermenistan/Azerbaycan SSC (1923'te Transkafkasya SFSC uzerinden SSCB'ye bagli, kendi basina uluslararasi taraf DEGIL) ve Suriye/Lubnan (tek manda kunyesi, suriye-lubnan-mandasi) ayri kunye ister mi -- D-KUNYE bunlari EKSIK saymadi (1923-10-29'da bagimsiz/ayri taraf olarak var olmadiklari icin), ama D2-KOMSU harita cizerken ic sinir gerektirirse bu karar yeniden acilmali.",
   "EK2 (D4-ORTADOGU tahta M-4074 uzerine): ifni-ispanyol ve necid-kuveyt-tarafsiz-bolgesi eklendi. D4-ORTADOGU ayrica sordu: 'fas' kunyesi (f:1549->t:1923-10-29, TEK kunye, Fransiz himayesi 1912'den itibaren AYRI kunye gerektirir mi.' HUKMUM: EVET, gerekir -- proje zaten AYNI SINIFTA bir emsal tutuyor: 'tunus-ocagi' (Fransiz oncesi) ile 'tunus-beyligi-fransiz' (1881 sonrasi Fransiz himaye donemi) AYRI kunyeler. 'fas' bu emsale UYMUYOR -- Fas Fransiz himayesi (1912-03-30 Fas Antlasmasi) tek kunyenin icinde eritilmis. Tutarlilik icin onerim: 'fas' kunyesi 1912-03-30'da BITSIN, yeni 'fas-fransiz-himayesi' (1912-03-30 -> 1923-10-29, sonrasi 1956'ya kadar surer) acilsin -- tunus-beyligi-fransiz adlandirma kalibiyle. Bu, MEVCUT bir kunyenin tarihini degistirmeyi gerektirdigi icin ben YAZMADIM, UYGULA/D4-ORTADOGU karar versin.",
-  "EK3 (D5-AMERIKA tahta M-4087 uzerine): honduras-cumhuriyeti, el-salvador-cumhuriyeti, nikaragua-cumhuriyeti, kosta-rika-cumhuriyeti eklendi -- DORDU DE benim ilk taramamda ATLANMISTI (Orta Amerika'nin buyuk/taninmis cumhuriyetleri oldugu icin 'zaten kunyesi vardir' varsayimiyla kontrol listesine hic almamisim -- D5-AMERIKA'nin gercek devletler.js taramasi bunu yanlisladi). D5-AMERIKA ayrica bir CAKISMA bildirdi (benim taslak listemde DEGIL, mevcut veri sorunu): 'kanada' (1867->) ve 'ingiliz-kuzey-amerika' (1763->) AYNI TOPRAK icin IKI kunye, ikisi de 1923-10-29'u kapsiyor -- UYGULA'nin coz mesi gereken bir cakisma, benim taslagimin kapsami disi."
+  "EK3 (D5-AMERIKA tahta M-4087 uzerine): honduras-cumhuriyeti, el-salvador-cumhuriyeti, nikaragua-cumhuriyeti, kosta-rika-cumhuriyeti eklendi -- DORDU DE benim ilk taramamda ATLANMISTI (Orta Amerika'nin buyuk/taninmis cumhuriyetleri oldugu icin 'zaten kunyesi vardir' varsayimiyla kontrol listesine hic almamisim -- D5-AMERIKA'nin gercek devletler.js taramasi bunu yanlisladi). D5-AMERIKA ayrica bir CAKISMA bildirdi (benim taslak listemde DEGIL, mevcut veri sorunu): 'kanada' (1867->) ve 'ingiliz-kuzey-amerika' (1763->) AYNI TOPRAK icin IKI kunye, ikisi de 1923-10-29'u kapsiyor -- UYGULA'nin coz mesi gereken bir cakisma, benim taslagimin kapsami disi.",
+  "EK4 (D5-ASYA tahta M-4093 uzerine): D5-ASYA'nin sordugu Bhutan/Sikkim/Kuzey-Borneo UZATEN taslakta vardi (butan, sikkim, kuzey-borneo-ingiliz) -- CAPRAZ DOGRULAMA basarili, ek gerekmedi. kwangchowan-fransiz eklendi (Kwantung/Weihaiwei ile ayni sinif kiralik bolge). Namwan Kirasi (Burma-Cin siniri, 1897) BILEREK EKLENMEDI -- cok kucuk bir sinir seridi, bagimsiz kunye degil D-sinir kaydinin kendisi olmali, D5-ASYA karar versin."
  ],
  "kaynak_notu": "taslak -- D-KUNYE oturumu tarafindan genel akademik/standart tarihi bilgiyle taslak olarak dolduruldu, TDV bu taneciği kapsamıyor (CLAUDE.md sec.4 'tanecik boslugu'). Ilgili D-oturumu (harita/sinir cizerken) akademik kaynakla (Iranica/Cambridge/universite yayini) DOGRULAMALI; tarihler kesin degil, en iyi bilinen resmi kurulus/ilhak tarihidir.",
  "taslak_kunyeler": [
@@ -924,6 +925,17 @@
    "f": "1838-11-14",
    "t": "1923-10-29",
    "ozet": "Orta Amerika Federasyonu'ndan ayrılarak bağımsız cumhuriyet oldu. D5-AMERIKA'nın (M-4087) bulgusu.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "kwangchowan-fransiz",
+   "ad": "Kwangchowan (Guangzhouwan) Fransız Kiralık Bölgesi",
+   "bolge": "dogu-asya",
+   "tur_onerisi": "kiralik-bolge",
+   "f": "1898-04-10",
+   "t": "1923-10-29",
+   "ozet": "Fransa'nın Çin'den 99 yıllığına kiraladığı liman bölgesi (Kwantung/Weihaiwei ile aynı sınıf). D5-ASYA'nın (M-4093) bulgusu.",
    "harita": null,
    "kaynak": "bulunamadi -- taslak, dogrulanacak"
   }

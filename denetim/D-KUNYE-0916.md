@@ -44,7 +44,7 @@ yazarken aynı tuzağa düşmesin.
 | 1923-10-29'u kapsayan künye (`f<=gün<=t`, pad düzeltmeli) | **120** |
 | Künyesi var, `BOYALAR`de rengi YOK | **3** |
 | Dünya kontrol listesi (Wikipedia 1923 + İngiliz bağımlı toprak genişletmesi) | 76 kalem |
-| Kontrol listesinden `devletler.js`'te HİÇ künyesi bulunmayan | **72** kalem → **83 taslak künye** (bazı kalemler birden çok ayrı koloniye bölündü, örn. "İngiliz Batı Hint" → Jamaika/Trinidad-Tobago/Bahama/Barbados/Leeward/Windward/Bermuda) |
+| Kontrol listesinden `devletler.js`'te HİÇ künyesi bulunmayan | **73** kalem → **84 taslak künye** (bazı kalemler birden çok ayrı koloniye bölündü, örn. "İngiliz Batı Hint" → Jamaika/Trinidad-Tobago/Bahama/Barbados/Leeward/Windward/Bermuda) |
 
 ## 4. Künyesi var ama rengi yok (3)
 
@@ -146,6 +146,11 @@ eklendi (f: bağımsızlık tarihleri, Orta Amerika Federasyonu'nun dağılış�
 D5-AMERIKA ayrıca bir **çakışma** bildirdi (taslağımın kapsamı dışı, düzeltme UYGULA'nın):
 `kanada` (f:1867) ile `ingiliz-kuzey-amerika` (f:1763) aynı toprak için iki ayrı künye,
 ikisi de 1923-10-29'u kapsıyor.
+
+**D5-ASYA** (M-4093) Bhutan/Sikkim/Kuzey Borneo'yu sordu — üçü de **zaten taslağımdaydı**,
+çapraz doğrulama başarılı. Ayrıca `kwangchowan-fransiz` (Kwantung/Weihaiwei ile aynı sınıf
+Fransız kiralık limanı) eklendi. Namwan Kirası'nı (Burma-Çin sınır şeridi) bilerek eklemedim —
+bağımsız bir künye değil, D5-ASYA'nın kendi sınır kaydında ele alması daha doğru.
 
 ## 6. Bilinmeyen/araştırılmamış bırakılanlar
 
