@@ -34,6 +34,7 @@ FİLİSTİN MANDASI  yürürlük 29.09.1923 (Taba hakem kararı RIAA XX §172 "k
 | Necid–Irak · Küveyt–Irak · Şarkî Ürdün–Irak · Şarkî Ürdün–Suriye · Filistin–Suriye/Lübnan · Afganistan–İran | **D2-KOMSU** |
 | Afganistan–SSCB · Afganistan–İngiliz Hindistanı · Afganistan–Çin (Vahan) | **D5-ASYA** |
 | Mısır–Sudan · Libya–Sudan · Libya–AOF/AEF · Cezayir–AOF · Rio de Oro–AOF | **D4-AFRIKA** |
+| İspanya–Fas (Sebte · Melilla çevresi) · Cebelitarık kıstağı | **D3-AVRUPA-BATI** (M-4083 teyidi) |
 | Aşağıdaki tablolardaki bütün öteki çiftler | **D4-ORTADOGU (bu dosya)** |
 
 ⇒ **Afganistan'ın hiçbir kara sınırı bu oturumda değil**; künye/kimlik notu §6'da.
