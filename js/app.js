@@ -8472,6 +8472,10 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_venedik",    // window.EKOKUMA_VENEDIK — 0057/1-2
   "ekokuma_avusturya",  // window.EKOKUMA_AVUSTURYA — 0057/3-4
   "ekokuma_lale",       // window.EKOKUMA_LALE — Lale Devri, 0058/1
+  "ekokuma_yenilesme",  // window.EKOKUMA_YENILESME — matbaa/tulumba/kağıt gecikmesi, 0059/2-3
+  "ekokuma_diplomasi",  // window.EKOKUMA_DIPLOMASI — elçilik/konsolosluk tarihi, 0059/5
+  "ekokuma_kiyas",      // window.EKOKUMA_KIYAS — yeniliğe tepki ayaklanmaları kıyası, 0059/6
+  "ekokuma_rusiran",    // window.EKOKUMA_RUSIRAN — Rusya-İran ilişkileri, 0059/7
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
