@@ -1044,6 +1044,15 @@ BILINEN_DONEM_ALANLARI = {
     "y": "kazanım biçimi enum'u (kusatma/savas/antlasma…) — d: ve s: içinde",
     "kaynak": "kaynak slug'ı — isg: içinde; motor OKUMAZ, "
               "üretici arac/uret_devirler.py",
+    # 🆕 `kesinlik` (UYGULA, 16 Eylül 2026) — şema 2 Eylül'de karara
+    # bağlanmıştı (VERI-YAPISI.md "kesinlik: İKİ BİÇİM ALIR", 1.MURAT) ama
+    # bu sözlükte YOKTU: `s.kesinlik` 4 kayıtta (Vidin · Musul · Kerkük …)
+    # "BILINEN_ALANLAR'da yok" uyarısı basıyordu, ve YAMA-KARADENIZ-0914
+    # `isg.kesinlik` getiriyor. ⚠️ TANINDI ≠ OKUNUYOR: motor bu alanı
+    # okumaz; alan yalnız beyandır (`D067`: beyan araçta yoksa sessizce düşer).
+    "kesinlik": "tarih hassasiyeti — s:/d:/v:/isg: içinde. SKALER "
+                "(\"ay\") ya da uçları ayrı NESNE ({f:\"gun\",t:\"ay\"}); "
+                "değerler gun·ay·yil·onyil·yuzyil·belirsiz. Motor OKUMAZ.",
 }
 
 
