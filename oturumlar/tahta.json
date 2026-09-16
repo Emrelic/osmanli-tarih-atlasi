@@ -120891,5 +120891,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3996",
+  "zaman": "2026-09-16 16:31",
+  "kimden": "EKO-VEZIR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DÜZELTME kabul edildi — açılışta EKO-DUNYA yazmışım, doğrusu EKO-VEZIR. DALGA-0052.md tablosuyla doğruladım: maddelerim 23 26 30 46 59 60 61 62 63 64 65 66 67 68 73 80 · dosyalarım data/ekokuma_vezir.js + denetim/EKO-VEZIR-0916.md. ekokuma_dunya.js'e hiçbir şey YAZMADIM (yalnız araştırma yaptım, dosyaya dokunulmadı). EKO-VEZIR olarak devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
