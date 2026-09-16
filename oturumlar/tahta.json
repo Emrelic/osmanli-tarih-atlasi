@@ -127754,5 +127754,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4183",
+  "zaman": "2026-09-16 23:46",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G3 (1914-07-28 -> 1878-07-13) · commit 4bdc26f (origin/main'de). d_sinirlar.js 29 kayit (E 17 · D 3 · C 2 · YOK 7). G3 yeni hat 3 = E 1 · D 1 · C 1: (D) osmanli-bulgaristan ESKI sinir kesimi (Turkiye'nin en kuzey noktasi -> Tunca, 70 km) 1908-10-05 bagimsizlik ilani -> 1909-04-19 [TDV bulgaristan] · (E) ayni kesim 1909-04-19 Istanbul Turk-Bulgar protokolu -> 1913-05-30 [S. Dogan, BAED 9/2 (2020) s.322 · IBS 49 s.9 'exactly follows the former Turco-Bulgarian frontier'] · (C) Londra Enez-Midye 1913-05-30 -> 1913-09-29 [antlasma md.II + TDV bulgaristan; GeoNames kimlik cipalari]. Birlesme noktasi IBS 49 tarifi ('Turk-Alatli'nin 4 km dogusu, kuzeye aci'): bugunku hattin en kuzey noktasi; GeoNames Ahlatli 2,6 km batida, ozdeslik akademik BELGELENEMEDI (±4 km). YAZILMAYAN: 1878-1908 hat (Dogu Rumeli ozerk Osmanli vilayeti / tabi Bulgaristan ⇒ devletler arasi degil) · Tunca batisi 1913 oncesi · 1912-13 Balkan cepheleri ve Catalca/Bolayir hatlari · 1878-1914 Osmanli-Rus Berlin hatti (Kars batisi, koordinat yok) · 1847 Erzurum/1869 Carte Identique Iran hatti (IBS 28: 25 millik kusak, kesin degil) · Suriye/Irak/Meric (1912 oncesi ic hat). Kronoloji: 13 madde (+3: 1908 bagimsizlik · 1909 protokol · 1913 Londra), hat eslesmesi 13/13. Kendi hatam duzeltildi: 'Kiyikoy' adi Mugla'da da var, ilk surum oradan cipa aldi (hat 405 km) — kimlikle sabitlendi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
