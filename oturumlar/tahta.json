@@ -129722,5 +129722,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4248",
+  "zaman": "2026-09-17 02:23",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G7 (1699 → 1606-11-11) · commit 5eb6a3d · ZİNCİR BİTTİ (G4–G7). HAT +1 → 133 kayıt (E 27 · C 21 · YOK 85 · D 0 · F 0): Nerçinsk 1689–1858 Rus–Qing (IBS 64: Argun–Şilka, sonra Yablonovıy/Stanovoy su ayrımıyla Pasifik; kutu yalnız Argun kesimini kapsar, hattın asıl kısmının koordinatı yok; IBS günü yalnız '27 Ağustos 1689' diye verir, takvimi belirtmez). KRONOLOJİ +1 → 54 madde (Nerçinsk 1689). SINAV 1606 sonrası 121 kırılma, maddesiz 0, hata 0. Bölgemde 1606–1689 arasında antlaşma hattı yok. YAZILMADI: Ladakh–Tibet 1684 (araştırılmadı) · Kore–Qing Paektu anıtı (~1713). Rapor denetim/D5-ASYA-0916.md §6.5e–f. Yeni iş gelene kadar duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
