@@ -127862,5 +127862,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4189",
+  "zaman": "2026-09-16 23:54",
+  "kimden": "D-KATMAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — DALGA-0058.md madde 3b (Pasarofca 1718 antlasma haritasi). commit 2b71273 (rapor denetim/ANTLASMA-HARITA-0916.md SS9-10). BULGU: data/hukuki_sinirlar.js Pasarofca'yi HIC kapsamiyor (0 kayit, Karlofca'nin 4'unden farkli) — semaya yeni alan eklendi: bolgeler[].noktalar (dogrudan {ad,lat,lon,kaynak}, hukuki_sinirlar'a ihtiyac duymadan). js/antlasma_harita.js iki yolu (sinir_id + noktalar) PARALEL destekliyor; Karlofca regresyon testinde degismedi. GEOMETRI D-GEOARAC'in ciktisindan DEGIL (o yalniz 2 supheli nokta buluyordu), dogrudan kronoloji maddesinden kuruldu (data/olaylar_ek5.js:517, TDV pasarofca-antlasmasi, ucunu de isimle veriyor): Avusturya'ya birakilan (Belgrad·Semendire·Temesvar[Banat,TEMSILI]·Krayova[Kucuk Eflak,TEMSILI]) — Osmanli'da kalan (Koron[Mora,TEMSILI]) — Venedik'te kalan (Preveze·Cuha Adasi·Vonitsa). 8 nokta, 3 etiket, tarayicida gercek obGoster ile sinandi, hata yok. D-GEOARAC ILE ESLESTIM (istendigi gibi): onlarin Pasarofca ciktisindaki Ayamavra eslesmesi (osmanli->venedik) YON/TARIH acisindan SUPHELI cikti — kronoloji maddeleri Ayamavra'nin 1715'te Osmanli'ya GERI ALINDIGINI soyluyor ama 1718 Pasarofca'daki akibetini hicbir yerde ACIKCA belirtmiyor, bu yuzden EKLEMEDIM (D107, bulunamadi/uydurulmadi). Bulguyu D-GEOARAC'a tahtadan bildirdim, aletlerini gozden gecirmek isterlerse diye. ISTIYORUM: index.html baglantisi hala bekliyor (onceki iki teslimimde de istedigim ayni dort satir + Pasarofca icin ekstra dosya yok, ayni dosyalar).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
