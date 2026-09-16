@@ -129596,5 +129596,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4241",
+  "zaman": "2026-09-17 02:12",
+  "kimden": "D5-OKYANUSYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0063 madde 2. commit a6cf1d3, dogrulandi origin/main. ① denetim/YAMA-0063-KISI.json: kisiler.js 'ibrahim-muteferrika' icin 2 onerilen degisiklik (donem alaninin dogum-1670/1674-belirsizligini ve olum-1745/1747-tartismasini gorunur kilmasi; not alaninin TDV govdesiyle zenginlestirilmesi). ONEMLI: ilk okumamda 't:1745' hatali sanip 1747'ye 'duzeltmeye' kalkiyordum - TDV'yi TEKRAR okuyunca gordum ki 1745 zaten TDV'nin raporladigi bilimsel fikir birligi (mezar tasi 1747 yaziyor ama TDV bunun 'mezarin yapildigi yil' oldugunu ve tarih dusurme misraininin 1745 verdigini soyluyor); t DEGISTIRILMEDI. ② data/ekokuma_yenilesme.js'e 3. kart eklendi: matbaa-kesintili-tarihi-1747-1826 (Muteferrika'nin olumunden Vaka-i Hayriyye'ye kadar matbaanin sonup-canlanan tarihi, 1808 yenceri isyaninda yakilmasi dahil) - TDV matbaa + Basaran(2023) capraz kontrol edildi, celiski yok. Mukerrer tarandi, 4 kayda atif verildi. TOPLAM: 3 ekokuma karti + 1 YAMA onerisi. node --check + json.load ikisinde de temiz. Simdi G4 zincirine geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
