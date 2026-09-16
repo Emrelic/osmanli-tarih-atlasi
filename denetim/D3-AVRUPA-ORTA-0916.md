@@ -212,6 +212,22 @@ Bulgaristan'la olanlar → D2.
 Bosna ilhakı 1908-10-06 · Londra 1913 (Arnavutluk, C) · Sırbistan-Karadağ sınır anlaşması 1913-11-12.
 **Çakışma:** BATI'nın `dg3-hab-ch-1893-oncesi` kutusu `d1878-de-ah`nin 89/358, `dg3-ch-de-1879-oncesi` 3/358 noktasını örtüyor (BATI'ya yazıldı).
 
+## 6. 🆕 EK OKUMA — paket 0057 H-0001 / H-0002 (`DALGA-0057.md`)
+
+`data/ekokuma_venedik.js` → `window.EKOKUMA_VENEDIK` — **2 kart**, ikisinde de `baslik` var.
+| Kart | tür | olay bağı (kronolojide bulundu) | dayanak |
+|---|---|---|---|
+| `venedik-istendil-tinos-1715` — *İstendil (Tinos): Venedik'in Ege'deki son adası niçin 1715'e kadar dayandı?* | sebep-sonuc | 1715-06-05 İstendil ✓ · 1715-01-01 Suda ✓ | TDV `cezayir-i-bahr-i-sefid` ("Yalnız Tine adası 1715 yılına kadar alınamadı") · `sehid-ali-pasa` · `pasarofca-antlasmasi` + Setton 1991 |
+| `venedik-denizde-guclu-karada-zayif-mora-1715` — *Venedik denizde güçlü, karada zayıf mıydı? 1687'de aldığı Mora'yı 1715'te niçin 101 günde kaybetti?* | tartisma | 1715-07-01 Mora ✓(2) · 1715-07-20 Anabolu ✓ · 1699-01-26 Mora'nın Venedik… ✓ · 1685-06-01 Morosini ✓ | TDV `sehid-ali-pasa` · `mora` · `anabolu` · `korfu` · `pasarofca-antlasmasi` · `venedik` + Setton 1991 |
+
+- **Kaynak:** TDV gövdeleri okundu (8 madde). TDV'de İstendil/Tinos maddesi YOK (`istendil`/`tinos`/`istendil-adasi` → 302); `damad-ali-pasa` gövdesiz, asıl madde `sehid-ali-pasa`.
+  Akademik ek: **Setton, *Venice, Austria, and the Turks in the Seventeenth Century* (APS Memoirs 192, 1991)** — tam metin archive.org, sayfalar karttadır.
+  Popüler kaynaklar (Vikipedi, turizm siteleri) bulundu ama KULLANILMADI; Balbi'nin yargılandığı bilgisi yalnız onlarda → yazılmadı.
+- **Mükerrer denetimi:** 6 yakın kart okundu, tekrar yazılmadı, atıf verildi (`dunya2-*venedik*`, `dunya3-giritin-gec-dusen-kaleleri`, `dunya3-osmanli-venedik-deniz-savaslari`, `dunya3-kutsal-ittifakin-dort-cephesi`, `sebep-sonuc-pasarofca-1718`).
+- **Arayüzde doğrulandı** (yerel sunucu, `ekOkumaMerakYukle` + `ekKartBagliMi`): İstendil maddesinde "🔗 Sebep-Sonuç — İstendil (Tinos)…" satırı çıkıyor; Mora kartı 1715-07-01 ve 1715-07-20 maddelerine bağlanıyor. Havuz 388 kart.
+- **Bulgu (HARİTA-VERI'ye):** atlasta "Suda ve Spinalonga kalelerinin fethi" `1715-01-01`; Setton Suda'nın teslimini **25 Eylül 1715** verir. İstendil'in `1715-06-05` günü doğrulanamadı (Setton yalnız "June 1715").
+- Araçlar: `denetim/ARAC-D3ORTA-EKO-TARA-0916.js` (mükerrer tarama) · `denetim/ARAC-D3ORTA-EKO-OKU-0916.js` (`--bag` başlık + olay bağı sınaması).
+
 ## 5. Kaynaklar (bu oturumda açılıp okunanlar)
 
 - ABD Dışişleri *International Boundary Study* (FSU): IBS 43, 47, 66, 74, 76, 77, 116 — `library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibsNNN.pdf` (pypdf ile tam metin)
