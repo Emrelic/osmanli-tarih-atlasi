@@ -383,6 +383,74 @@ ekle("d1913-londra-enez-midye", "osmanli", "bulgaristan-kralligi", "1913-05-30",
 #    müttefiklere bırakılmıştı ⇒ elle düzeltme (ilk sürüm 'osmanli' basıyordu).
 KAYIT[-1]["sol_taraf"] = "bulgaristan-kralligi"
 
+# ════════════════ GERİYE SARMA G4 → G7 (1878-07-13 → 1606-11-11) ════════════════
+# Türkiye'nin 1923 kesimlerinden 1878 öncesinde DEVLETLER ARASI olanlar yalnız ikisi:
+#   ① Rus kesimi, Kanlı Dağı → Arpaçay → Aras kavşağı. IBS 29 s.4-7: 1829 Edirne md.IV hattı
+#     "Batum, Ardahan ve Kars sancaklarının kuzey idarî sınırı"; 1920'de sınır "1878 öncesi hâline"
+#     döndü — İSTİSNA Batum kesimi (Sarp→Kanlı Dağı) ve Aras/Sürmeli kesimi. ⇒ E.
+#   ② İran kesimi — IBS 28 s.4: 1639 hattı "located much as it exists today"; 1847 "vaguely defined",
+#     1869 Carte Identique 25 millik kuşak ⇒ C (kaba), kesinlik 40 km.
+# Trakya · Meriç · Suriye · Irak 1912'ye kadar Osmanlı İÇ hattı ⇒ kayıt yok.
+# YAZILMAYANLAR: 1728-1746 İran hattı (Hemedan 1728 · 8.1.1732 barışı · 1736 zemini — koordinatsız) ·
+# 1606-1639 (Nasuh Paşa 1612 / Serav 1618 "1555 sınırı"; IBS 1555≈bugün DEMİYOR) · 1823 I. Erzurum
+# (kaynağı bu turda OKUNMADI) · 1853-56 ve 1877-78 Rus işgalleri (koordinatsız) · 1828 öncesi Arpaçay
+# (Osmanlı-İran; IBS 29 söylemiyor) · Ayastefanos 3.3.1878 hattı (Beyazıt dahil, koordinatsız).
+kanli = gn_id("553116")          # Kanli Dağı (GE, MT) — IBS 29: Artvin/Kars idarî sınırının üçlü noktası
+arpa_agiz = gn_id("10007052")    # Arpa Çay (TR, STM) — Aras kavşağı
+_geo = max(hat("GEO"), key=lambda g: g.length)
+_arm = max(hat("ARM"), key=lambda g: g.length)
+_ku = _geo.project(Point(kanli[1], kanli[0]))
+_geo_dogu = substring(_geo, _ku, _geo.length) if Point(_geo.coords[-1]).x > Point(_geo.coords[0]).x else substring(_geo, 0, _ku)
+_ak = _arm.project(Point(arpa_agiz[1], arpa_agiz[0]))
+_arm_kuzey = substring(_arm, 0, _ak) if Point(_arm.coords[0]).y > Point(_arm.coords[-1]).y else substring(_arm, _ak, _arm.length)
+ekle("d1829-osm-rus", "osmanli", "rusya", "1829-09-14", "1878-07-13", "D", [_geo_dogu, _arm_kuzey],
+     [{"ad": "Edirne Antlaşması", "madde": "md. 2-4", "tarih": "1829-09-14", "tur": "antlaşma",
+       "kaynak": "TDV edirne-antlasmasi", "alinti": "Böylece Ahıska ve Ahılkelek Ruslar'da kalıyordu"},
+      {"ad": "IBS No. 29 Turkey–U.S.S.R. (1964)", "sayfa": "s.4-7", "tur": "resmî sınır çalışması", "url": IBS % 29,
+       "alinti": "re-established as it had been prior to the 1878 Treaty"},
+      {"ad": "Berlin Antlaşması", "madde": "md. LVIII", "tarih": "1878-07-13", "tur": "antlaşma",
+       "kaynak": "IBS 29 s.7: 'transfer of Batumi, Ardahan, and Kars from Turkey to Russia'"}],
+     {"deger": False, "kaynak": "IBS 29", "not": "1921 hattı bu kesimde 1878 öncesi hattın geri gelişidir"},
+     {"t": "1925-1926", "not": "bugünkü işaretler; 1829 hattının kendi işareti OKUNMADI"},
+     5.0, "kesim uçları GeoNames Kanlı Dağı (553116) ve Arpa Çay ağzı (10007052) izdüşümleri · " + KES_NE, NE,
+     "G4: t Berlin (IBS 29 çerçevesi: Ayastefanos askerî işgal öngördü, devri Berlin yaptı). "
+     "Kronoloji: çekirdekte 1829-09-14 Edirne ve 1878-07-13 Berlin maddeleri VAR, yeni madde yazılmadı",
+     sinif="E")
+
+_irn_tum = unary_union(irn)
+_irn_tum = linemerge(_irn_tum) if _irn_tum.geom_type == "MultiLineString" else _irn_tum
+_irn_tum = list(getattr(_irn_tum, "geoms", [_irn_tum]))
+KES_IR_C = ("C KABA: IBS 28 1869 'Carte Identique' sınırı 25 millik kuşakta gösteriyor ⇒ 40 km; geometri "
+            "bugünkü hattın vekili (1932/37 değişen kesimler DAHİL)")
+IBS28 = {"ad": "IBS No. 28 Iran–Turkey (1964)", "sayfa": "s.4-7", "tur": "resmî sınır çalışması", "url": IBS % 28,
+         "alinti": "located much as it exists today, was laid down in 1639"}
+ekle("d1847-osm-kacar-erzurum", "osmanli", "kacar", "1847-05-31", "1913-11-17", "C", _irn_tum,
+     [{"ad": "II. Erzurum Antlaşması", "tarih": "1847-05-31", "tur": "antlaşma", "kaynak": "IBS 28 s.6",
+       "alinti": "the limits of the two empires were vaguely defined"}, IBS28],
+     {"deger": True, "kaynak": "IBS 28", "not": "1913 protokolüyle tahdit, 1932/1937 değişiklikleri"},
+     {"t": "—", "not": "1848-52 komisyonu harita yaptı ama hat işaretlenmedi"},
+     40.0, KES_IR_C, NE + " — C vekili",
+     "G4 (G3'e uzanır). Berlin md.LX Kotur'u İran'a verdi, uygulanması yıllar sürdü (IBS 28) — ayrı kayıt yok. "
+     "Kronoloji: çekirdekte 1847-05-31 maddesi VAR", sinif="C")
+ekle("d1746-osm-afsar-kerden", "osmanli", "afsar", "1746-09-04", "1847-05-31", "C", _irn_tum,
+     [{"ad": "Kerden Antlaşması", "tarih": "1746-09-04", "tur": "antlaşma", "kaynak": "TDV mahmud-i--osmanli (Abdülkadir Özcan)",
+       "alinti": "Kasrışîrin Antlaşması esasları dahilinde anlaşma sağlandı (17 Şâban 1159 / 4 Eylül 1746)"}, IBS28],
+     {"deger": True, "kaynak": "IBS 28"}, {"t": "—", "not": "işaretlenmedi"},
+     40.0, KES_IR_C, NE + " — C vekili",
+     "G4-G5-G6: taraf Nâdir Şah'ın Afşar devleti; HALEFLERİ (Zend, Kaçar) aynı hattı devraldı — kimlik geçişi sınır "
+     "değişimi değil, künye günleri kaynak sayılmadığı için bölünmedi. 1823 I. Erzurum OKUNMADI. "
+     "Kronoloji: çekirdekte 1746-09-04 maddesi VAR", sinif="C")
+ekle("d1639-osm-safevi-kasrisirin", "osmanli", "safevi", "1639-05-17", "1728-09-22", "C", _irn_tum,
+     [{"ad": "Kasr-ı Şirin (Zühâb) Antlaşması", "tarih": "1639-05-17", "tur": "antlaşma", "kaynak": "TDV murad-iv",
+       "alinti": "Kasrışîrin Antlaşması imzalanmıştı (14 Muharrem 1049 / 17 Mayıs 1639)"}, IBS28,
+      {"ad": "Hemedan Barış Antlaşması", "tarih": "1728-09-22", "tur": "antlaşma", "kaynak": "TDV hemedan",
+       "alinti": "17 Safer 1141'de (22 Eylül 1728) imzalanan Hemedan Barış Antlaşması"}],
+     {"deger": True, "kaynak": "IBS 28"}, {"t": "—", "not": "işaretlenmedi"},
+     40.0, KES_IR_C, NE + " — C vekili",
+     "G6-G7: t Hemedan Antlaşması (Osmanlı fetihlerini tanıdı). 🔴 KAYNAK ÇELİŞKİSİ: çekirdek madde 1727-10-04, "
+     "TDV hemedan 22 Eylül 1728 (hicrî ile) — TDV esas alındı (§4). 1723-1728 Osmanlı işgali koordinatsız. "
+     "Kronoloji: çekirdekte 1639-05-17 maddesi VAR", sinif="C")
+
 # ---------------- SINIF (GORUNUM-ABCD-0916 en üst bölüm) ----------------
 # D→E (F kanıtı gelene kadar: denetim/TANINMA-1923-0916.json YOK, 16 Eylül'de ölçüldü) · fiili→D ya da YOK ·
 # C→C · D-YOK→YOK.  Irak fiilî hattı KESİN DEĞİL (bugünkü çizgi statükonun VEKİLİ) ⇒ YOK.

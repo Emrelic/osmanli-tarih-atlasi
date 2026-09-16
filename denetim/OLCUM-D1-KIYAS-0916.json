@@ -284,6 +284,41 @@
    "uzunluk_km": 196.1,
    "kesinlik_km": 10.0,
    "kiyas_atlas": null
+  },
+  {
+   "id": "d1829-osm-rus-1",
+   "kategori": "D",
+   "uzunluk_km": 137.4,
+   "kesinlik_km": 5.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1829-osm-rus-2",
+   "kategori": "D",
+   "uzunluk_km": 125.0,
+   "kesinlik_km": 5.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1847-osm-kacar-erzurum",
+   "kategori": "C",
+   "uzunluk_km": 396.7,
+   "kesinlik_km": 40.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1746-osm-afsar-kerden",
+   "kategori": "C",
+   "uzunluk_km": 396.7,
+   "kesinlik_km": 40.0,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1639-osm-safevi-kasrisirin",
+   "kategori": "C",
+   "uzunluk_km": 396.7,
+   "kesinlik_km": 40.0,
+   "kiyas_atlas": null
   }
  ],
  "cipalar": {
