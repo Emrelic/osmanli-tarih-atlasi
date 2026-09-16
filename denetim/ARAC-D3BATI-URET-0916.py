@@ -254,14 +254,30 @@ yok("d1923-be-lu", BE, LU, "1890-11-23", (min(xs) - .03, min(ys) - .03, max(xs) 
      {"ad": "ACT Lüksemburg — Limites d'État", "tur": "resmî", "url": "https://act.public.lu/fr/parcelles-residences/mensuration-officielle/limites-etat.html"}],
     "E", "§1.8 · f lüksemburg künyesine hizalandı (hat 1843'ten)")
 
-# 1.9 Fransa–Lüksemburg
-ekle("d1923-fr-lu", FR, LU, "1890-11-23", "D", cizgi("FRA-LUX"),
+# 1.9 Fransa–Lüksemburg — Lorraine kesimi (Moselle, 1871-1918 Alman) ayrı kayıt
+LOR_LON = 5.944   # Villerupt (gn 2968316, dept 54, Fransız kaldı) ile Audun-le-Tiche (gn 3036226, dept 57, ilhak) arası
+LORRAINE = lambda c: c[0] > LOR_LON
+ALSAS_LON = 7.14  # Réchésy (gn 2984252, dept 90, Fransız kaldı) ile Pfetterhouse (gn 2987428, dept 68, ilhak) arası
+ALSAS = lambda c: c[0] > ALSAS_LON and c[1] < 47.62
+BOL_NOT = ("1871 hattı ayrımı bugünkü departman sınırıyla (54/57 · 90/68) yapıldı — departman sınırının 1871 hattını "
+           "izlediği bir VARSAYIMDIR, kaynakta doğrulanmadı (±2 km)")
+FRLU_DAY = [{"ad": "Kortrijk Sınır Antlaşması", "tarih": "1820-03-28", "tur": "antlaşma"},
+            {"ad": "Fransız Senatosu raporu l06-232", "tur": "resmî rapor", "url": "https://www.senat.fr/rap/l06-232/l06-232_mono.html"},
+            {"ad": "Légifrance, Kararname 2002-1188", "tur": "resmî yayın"}]
+FRLU_DEG = {"deger": True, "kaynak": "Senat l06-232 · Kararname 2002-1188", "not": "küçük: 1963 · 1989 · 2000-03-15 · "
+            "2006-01-20 Belval takası (~8,8-9 ha; iki kaynak farklı sayı veriyor). " + KUCUK}
+ekle("d1923-fr-lu-lorraine", FR, LU, "1920-01-10", "D", parcala(cizgi("FRA-LUX"), LORRAINE),
+     FRLU_DAY + [dict(VERSAY, madde="md. 27, 51", url="https://avalon.law.yale.edu/imt/partiii.asp")], FRLU_DEG,
+     {"t": "1820", "not": ""}, 2.0, KES_NE + "; " + BOL_NOT,
+     "§1.9 · Moselle kesimi: 1871-1918 Almanya–Lüksemburg sınırıydı; Versay md. 51 1871 öncesi delimitasyonu geri getirdi")
+ekle("d1923-fr-lu", FR, LU, "1890-11-23", "D", parcala(cizgi("FRA-LUX"), lambda c: not LORRAINE(c)),
      [{"ad": "Kortrijk Sınır Antlaşması", "tarih": "1820-03-28", "tur": "antlaşma"},
       {"ad": "Fransız Senatosu raporu l06-232", "tur": "resmî rapor", "url": "https://www.senat.fr/rap/l06-232/l06-232_mono.html"},
       {"ad": "Légifrance, Kararname 2002-1188", "tur": "resmî yayın"}],
      {"deger": True, "kaynak": "Senat l06-232 · Kararname 2002-1188", "not": "küçük: 1963 · 1989 · 2000-03-15 · "
       "2006-01-20 Belval takası (~8,8-9 ha; iki kaynak farklı sayı veriyor). " + KUCUK},
-     {"t": "1820", "not": ""}, 1.5, KES_NE, "§1.9 · f lüksemburg künyesine hizalandı (hat 1820'den)")
+     {"t": "1820", "not": ""}, 1.5, KES_NE, "§1.9 · Meurthe-et-Moselle kesimi (1871'de Fransız kaldı); "
+     "f lüksemburg künyesine hizalandı (hat 1820'den)")
 
 # 1.10 Fransa–İsviçre (Leman Gölü kesimi C: göl hattı 1953'te çizildi)
 LEMAN = box(6.25, 46.30, 6.79, 46.53)   # Hermance (gn 2660364, 6.243) ile Saint-Gingolph (gn 2979660, 6.796) arası
@@ -270,9 +286,15 @@ FRCH = [{"ad": "Viyana Kongresi Bildirisi", "tarih": "1815-03-20", "tur": "antla
         {"ad": "IBS No. 11 France–Switzerland", "tur": "resmî sınır çalışması", "url": IBS % 11}]
 FRCH_DEG = {"deger": True, "kaynak": "IBS 11 · Légifrance 2000-227/228", "not": "1953-02-25 sözleşmeleri (yürürlük 1957; "
             "14 küçük düzeltme + Leman Gölü hattı) · 1996-09-18 iki sözleşme · Senat: 1959-2002 arası 7 değişiklik. " + KUCUK}
-ekle("d1923-fr-ch", FR, CH, "1862-12-08", "D", parcala(cizgi("CHE-FRA"), disinda([LEMAN])), FRCH, FRCH_DEG,
-     {"t": "1818/1824", "not": "Bern ve Neuchâtel belgeleri"}, 1.5, KES_NE,
-     "§1.10 · f son 1923 öncesi değişiklik (Dappes). Basel-Mulhouse havalimanı egemenliği değiştirmedi")
+_leman_dis = lambda c: not LEMAN.contains(Point(c))
+ekle("d1923-fr-ch", FR, CH, "1862-12-08", "D", parcala(cizgi("CHE-FRA"), lambda c: _leman_dis(c) and not ALSAS(c)),
+     FRCH, FRCH_DEG, {"t": "1818/1824", "not": "Bern ve Neuchâtel belgeleri"}, 1.5, KES_NE,
+     "§1.10 · Alsas kesimi HARİÇ (ayrı kayıt). f son 1923 öncesi değişiklik (Dappes)")
+ekle("d1923-fr-ch-alsas", FR, CH, "1920-01-10", "D", parcala(cizgi("CHE-FRA"), ALSAS),
+     FRCH + [dict(VERSAY, madde="md. 27, 51", url="https://avalon.law.yale.edu/imt/partiii.asp")], FRCH_DEG,
+     {"t": "1815-1816", "not": "Alsas–İsviçre (Basel) kesimi"}, 2.0, KES_NE + "; " + BOL_NOT,
+     "§1.10 · Haut-Rhin kesimi: 1871-1918 Almanya–İsviçre sınırıydı; Versay md. 51 1871 öncesi delimitasyonu geri getirdi. "
+     "Basel-Mulhouse havalimanı egemenliği değiştirmedi")
 ekle("d1923-fr-ch-leman", FR, CH, "1862-12-08", "C", parcala(cizgi("CHE-FRA"), icinde([LEMAN])), FRCH,
      dict(FRCH_DEG, not_="göl hattı ilk kez 1953 sözleşmesiyle çizildi"),
      {"t": "1953-02-25", "not": "göl hattı 1923'ten SONRA"}, 2.0, KES_NE,
@@ -635,6 +657,109 @@ ekle("d1917-no-sov-petsamo", NO, "sovyet-rusya", "1917-11-07", "D", cizgi("NOR-R
      "İmparatorluğu / Geçici Hükûmet) G2'nin işi",
      iso=ISO_SOV, t="1920-12-31",
      sinif_not="E (1826 hattı, devlet halefiyeti); F kanıtı (tanınma) aranmadı — TANINMA-1923 bekleniyor")
+
+# G1 DÜZELTMESİ (G2 sırasında bulundu): Alsas–İsviçre ve Lorraine–Lüksemburg kesimleri 1871-1918 Alman'dı
+ekle("d1918-fr-ch-alsas-isgal", FR, CH, "1918-11-11", "fiili", parcala(cizgi("CHE-FRA"), ALSAS),
+     [COMPIEGNE, dict(VERSAY, madde="md. 51")], FRCH_DEG, {"t": "1815-1816", "not": ""}, 2.0, KES_NE + "; " + BOL_NOT,
+     "G1 · ateşkesle tahliye edilen Alsas'ın İsviçre sınırı fiilen Fransız idaresinde (Versay yürürlüğüne kadar)",
+     t=G1_T_FRDE, sinif_not="fiilî: işgal; hat eski Fransa–İsviçre hattı")
+ekle("d1918-fr-lu-lorraine-isgal", FR, LU, "1918-11-11", "fiili", parcala(cizgi("FRA-LUX"), LORRAINE),
+     [COMPIEGNE, dict(VERSAY, madde="md. 51")], FRLU_DEG, {"t": "1820", "not": ""}, 2.0, KES_NE + "; " + BOL_NOT,
+     "G1 · ateşkesle tahliye edilen Lorraine'in Lüksemburg sınırı fiilen Fransız idaresinde (Versay yürürlüğüne kadar)",
+     t=G1_T_FRDE, sinif_not="fiilî: işgal; hat 1820 Kortrijk hattı")
+
+# =====================================================================
+# GERİYE SARMA G2 — 1918-11-11 → 1914-07-28
+# 1914-18 cephe/işgal hatları (Batı cephesi, Belçika ve Lüksemburg'un Alman işgali, İtalya cephesi)
+# koordinatı kesin olmadığı için YAZILMADI (şartname: kesin değilse kayıt yok, A/B geçerli).
+# f < 1914-07-28 olan öncül kayıtlarda f 'bilinen son hat belgesi'dir; G3'te ayrıca denetlenecek.
+# =====================================================================
+G2_NOT = "G2 · f bilinen son hat belgesi/künye başlangıcı; öncesi G3'te denetlenecek"
+FRANKFURT = dict(VERSAY, madde="Kısım III Kesim V girişi ve md. 51 (1871 Frankfurt Antlaşması'na atıf)",
+                 url="https://avalon.law.yale.edu/imt/partiii.asp", alinti="Treaty of Frankfort of May 10, 1871")
+
+# G2-1 Almanya–İsviçre (Alsas kesimi) ve Almanya–Lüksemburg (Lorraine kesimi) 1871-1918
+ekle("d1871-de-ch-alsas", DE, CH, "1871-05-10", "D", parcala(cizgi("CHE-FRA"), ALSAS),
+     [FRANKFURT] + FRCH[:1], FRCH_DEG, {"t": "1815-1816", "not": "eski Fransa–İsviçre hattı devralındı"},
+     2.0, KES_NE + "; " + BOL_NOT, G2_NOT + ". Alsas'ın İsviçre sınırı 1871'de Almanya'ya geçti",
+     t="1918-11-11", iso={DE: ["FRA"], CH: ["CHE"]})
+ekle("d1890-de-lu-lorraine", DE, LU, "1890-11-23", "D", parcala(cizgi("FRA-LUX"), LORRAINE),
+     [FRANKFURT] + FRLU_DAY, FRLU_DEG, {"t": "1820", "not": "Kortrijk hattı 1871'de Almanya'ya geçti"},
+     2.0, KES_NE + "; " + BOL_NOT, G2_NOT + " (f lüksemburg künyesi; hat 1820'den, taraf 1871'den)",
+     t="1918-11-11", iso={DE: ["FRA"], LU: ["LUX"]})
+
+# G2-2 Fransa–Almanya 1871 Frankfurt hattı — koordinat yok
+yok("d1871-fr-de-frankfurt", FR, DE, "1871-05-10", (5.90, 47.45, 7.20, 49.56),
+    {"deger": True, "kaynak": "Versay md. 51", "not": "1918/1920'de 1870 hattı geri geldi; Frankfurt hattı kalktı"},
+    [FRANKFURT, dict(COMPIEGNE)], "E",
+    G2_NOT + ". Kutu Longwy–Avricourt–Vosges–Belfort hattını kaba kapsar (TAHMİNİ)", t="1918-11-11")
+
+# G2-3 Habsburg–İsviçre (bugünkü AT–CH + Cima Garibaldi–Piz Lad kesimi)
+ISO_HAB = dict(ISO); ISO_HAB["habsburg"] = ["AUT", "ITA"]   # Vinschgau bugün İtalya'da; `a` önce sorulur
+HABCH = [{"ad": "Ren düzenlemesi antlaşması (Avusturya-Macaristan–İsviçre)", "tarih": "1892-12-30", "tur": "antlaşma",
+          "not": "yürürlük 1893-07-21 (BMEIA listesi)"},
+         {"ad": "BMEIA — Österreich in der Schweiz, Verträge", "tur": "resmî liste",
+          "url": "https://www.bmeia.gv.at/oeb-bern/oesterreich-in-der-schweiz/vertraege"}]
+ekle("d1893-hab-ch", "habsburg", CH, "1893-07-21", "D", parcala(chat, lambda c: c[1] < 47.49), HABCH, CHAT_DEG,
+     {"t": "bulunamadı", "not": ""}, 1.5, KES_NE, G2_NOT, t="1918-11-11", iso=ISO_HAB)
+ekle("d1893-hab-ch-bodensee", "habsburg", CH, "1893-07-21", "C", parcala(chat, lambda c: c[1] >= 47.49), HABCH,
+     {"deger": False, "kaynak": "Kramsch 2015", "not": "göl kesimi bugün de çizilmemiş"},
+     {"t": "yok", "not": ""}, None, "NE göl/ağız çizgisi kartografik uzlaşı", G2_NOT + ". Bodensee statüsü ihtilaflı ⇒ C",
+     t="1918-11-11", iso=ISO_HAB)
+ekle("d1893-hab-ch-vinschgau", "habsburg", CH, "1893-07-21", "D", CHIT_YENI, HABCH + [IBS12],
+     {"deger": False, "kaynak": "IBS 12", "not": "hat 1919'da İtalya'ya devredildi, değişmedi"},
+     {"t": "bulunamadı", "not": ""}, 1.5, KES_NE,
+     G2_NOT + ". Cima Garibaldi → Piz Lad: Villa Giusti işgaliyle (1918-11-03) İtalya'nın fiilî sınırı oldu",
+     t="1918-11-03", iso=ISO_HAB)
+
+# G2-4 İtalya–Habsburg: Villa Giusti ile Habsburg'un sonu arası (8 gün) + 1866 Viyana hattı
+ekle("d1918-it-hab-ateskes", IT, "habsburg", "1918-11-03", "fiili", parcala(cizgi("AUT-ITA"), disinda(KUT_ATESKES)),
+     [VGIUSTI, IBS58], ATIT_DEG, {"t": "yok", "not": ""}, 3.0,
+     KES_NE + "; ateşkes hattı su bölümünden (±3 km)",
+     "G2 · d1918-it-at-ateskes kaydının Habsburg dönemi (1918-11-03 → 11-11)", t="1918-11-11", iso=ISO_HAB,
+     sinif_not="fiilî: ateşkes tahliye hattı")
+KARN = lambda c: 12.50 <= c[0] <= 13.20
+VIYANA66 = {"ad": "Viyana Barış Antlaşması (Avusturya–İtalya)", "tarih": "1866-10-03", "tur": "antlaşma"}
+IBS58_66 = dict(IBS58, alinti="one in 1866 for the section east of a point near the Dobbiaco")
+ekle("d1866-it-hab-karn", IT, "habsburg", "1866-10-03", "D", parcala(cizgi("AUT-ITA"), KARN), [VIYANA66, IBS58_66],
+     {"deger": False, "kaynak": "IBS 58", "not": "Karn Alpleri kesimi 1866 hattıdır; 1919'da korundu"},
+     {"t": "1911-1912", "not": "uluslararası komisyon İsviçre'den Adriyatik'e bütün hattı yeniden işaretledi"},
+     1.5, KES_NE + "; kesim lon 12,50-13,20 ile sınırlandı (Toblach ve Pontebba uçları dışarıda)",
+     "G2 · savaş öncesi hattın bugünkü sınırla çakışan tek kesimi. 1915-05'ten itibaren cephe hattı YAZILMADI",
+     t="1918-11-03", iso=ISO_HAB)
+yok("d1866-it-hab-trentino", IT, "habsburg", "1866-10-03", (10.40, 45.60, 12.50, 46.70),
+    {"deger": True, "kaynak": "IBS 58", "not": "Saint-Germain ile hat Brenner'e taşındı"},
+    [VIYANA66, IBS58_66], "E", "G2 · Stelvio → Garda → Cadore → Toblach yakını; kutu TAHMİNİ", t="1918-11-03")
+yok("d1866-it-hab-dogu", IT, "habsburg", "1866-10-03", (13.15, 45.60, 13.85, 46.55),
+    {"deger": True, "kaynak": "IBS 58 · Rapallo 1920", "not": "Pontebba → Isonzo → Adriyatik kesimi kalktı"},
+    [VIYANA66, IBS58_66], "E", "G2 · kutu TAHMİNİ", t="1918-11-03")
+
+# G2-5 Rusya (Finlandiya Büyük Dükalığı) ile İsveç ve Norveç — aynı hatlar, üç Rus künyesi
+RUS = [("rusya", None, "1917-03-15"), ("rusya-gecici-hukumet", "1917-03-15", "1917-11-07"),
+       ("sovyet-rusya", "1917-11-07", "1917-12-06")]
+FISE_DAY = [{"ad": "Fredrikshamn Barışı", "madde": "md. V", "tarih": "1809-09-17", "tur": "antlaşma"},
+            {"ad": "Sınır düzenleme sözleşmesi", "tarih": "1810-11-20", "tur": "antlaşma"},
+            {"ad": "MML — Suomen–Ruotsin rajankäynti 2006, §2.1 (1809-1917)", "tur": "resmî",
+             "url": "https://www.maanmittauslaitos.fi/sites/maanmittauslaitos.fi/files/Suomen_valtakunnanrajat/FIN-SWE_Valtakunnanraja_Riksgr%C3%A4nsen_2006/FIN-SWE_Raja_Asiakirjat.pdf"}]
+FINO_DAY = [{"ad": "Strömstad Antlaşması", "tarih": "1751-10-02", "tur": "antlaşma"},
+            {"ad": "Rusya–Norveç sınır sözleşmesi", "tarih": "1826", "tur": "antlaşma"},
+            {"ad": "IBS No. 24 Norway–USSR", "tur": "resmî sınır çalışması", "url": IBS % 24}]
+for rid, f0, t0 in RUS:
+    iso = dict(ISO); iso[rid] = ["FIN"]
+    kisa = rid.split("-")[0] if rid != "rusya-gecici-hukumet" else "gecici"
+    ekle(f"dg2-{kisa}-se", rid, SE, f0 or "1809-09-17", "D", cizgi("FIN-SWE"), FISE_DAY,
+         {"deger": False, "kaynak": "MML 2006", "not": "kara/ırmak hattı aynı"}, {"t": "1810/1823/1888", "not": ""},
+         1.5, KES_NE, G2_NOT + ". Finlandiya Büyük Dükalığı Rusya'ya bağlıydı", t=t0, iso=iso)
+    ekle(f"dg2-{kisa}-no-bati", rid, NO, f0 or "1905-06-07", "D", cizgi("FIN-NOR"), FINO_DAY,
+         {"deger": False, "kaynak": "SNL · MML", "not": ""}, {"t": "1897", "not": "Treriksröset"},
+         1.5, KES_NE, G2_NOT + " (norvec künyesi 1905'ten)", t=t0, iso=iso)
+    if rid != "sovyet-rusya":   # sovyet dönemi d1917-no-sov-petsamo'da
+        iso2 = dict(ISO); iso2[rid] = ["RUS"]
+        ekle(f"dg2-{kisa}-no-petsamo", rid, NO, f0 or "1905-06-07", "D", cizgi("NOR-RUS"), FINO_DAY,
+             {"deger": True, "kaynak": "IBS 24", "not": "hat 1826 hattı; 1947 protokolü talveg farkı küçük"},
+             {"t": "1896", "not": "1826 hattının işaretlemesi"}, 1.5, KES_NE,
+             G2_NOT + " (norvec künyesi 1905'ten). Petsamo 1920'ye kadar Rusya'nındı (Tartu md. 4)",
+             t=t0, iso=iso2)
 
 # ---------------- yaz ----------------
 ids = [k["id"] for k in KAYIT]

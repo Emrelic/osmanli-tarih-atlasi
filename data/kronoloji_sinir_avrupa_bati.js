@@ -8,7 +8,12 @@
 //   sinir_id  : d_sinirlar_avrupa_bati.js kayıt kimliği (önek eşleşmesi: -1/-2 parçaları dahil)
 // index.html'e BAĞLANMADI (koordinatör yapacak).
 //
-// KAPSAM: GERİYE SARMA G1 penceresi (1918-11-11 → 1923-10-29) + pencereyi AÇAN
+// KAPSAM: GERİYE SARMA G1 (1918-11-11 → 1923-10-29) ve G2 (1914-07-28 → 1918-11-11).
+// G2'de hat değişikliği yalnız Finlandiya'nın ayrılmasıdır; 1914-18 cephe ve işgal hatları
+// (Belçika, Lüksemburg, Kuzey Fransa, İtalya cephesi) koordinatı kesin olmadığı için ne
+// kayıt ne madde aldı. Rusya'daki 1917 Şubat/Ekim hükûmet değişiklikleri hattı değiştirmedi,
+// yalnız kayıtların taraf kimliğini böldü — madde almadı.
+// G1 ayrıca: pencereyi AÇAN
 // Villa Giusti ateşkesi (1918-11-03; G1 kaydının başlangıcı). C değişiklikleri madde
 // ALMADI. İSTİSNA: Rapallo (hukukî sınıfı E/C, haritada koordinatı yok — YOK kaydı)
 // başlıca bir antlaşma olduğu için madde aldı; `sinir_id` YOK kaydını gösterir.
@@ -22,6 +27,12 @@
 
 window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 
+{ t:"1917-12-06", devlet:"finlandiya", devletler:["finlandiya","isvec"], sinir_id:"d1923-fi-se",
+  b:"Finlandiya bağımsızlığını ilan etti — İsveç ve Norveç ile sınırlar Finlandiya'nın oldu", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+  etiket:["sinir","konu-siyasi","finlandiya","isvec","norvec","sovyet-rusya"],
+  d:"Rusya'ya bağlı Finlandiya Büyük Dükalığı bağımsızlığını ilan etti. 1809 Fredrikshamn Barışı ve 1810 sınır sözleşmesiyle Torne–Muonio ırmakları boyunca çizilen İsveç sınırı ile 1751 Strömstad hattına dayanan Norveç sınırının batı kesimi değişmeden yeni devletin sınırı oldu; Finlandiya resmî kayıtları 1809-1917 ve 1918 sonrası dönemleri aynı belgelerle anlatır. Petsamo kesimi ise 1920'ye kadar Rusya'da kaldı. Bağımsızlık ilanının günü okunabilir bir kaynakta doğrulanamadı; gün finlandiya künyesinden devralındı.",
+  kaynak:"MML, Suomen–Ruotsin rajankäynti 2006, §2.1-2.2 (1809-1917 / 1918 sonrası) · Store norske leksikon 'riksgrensen' · Tartu Barışı md. 4 (LNTS c.3)" },
+
 { t:"1918-11-03", devlet:"italya", devletler:["italya","habsburg"], sinir_id:"d1918-it-ch-isgal",
   b:"Villa Giusti Ateşkesi — Güney Tirol'ün Brenner'e kadar İtalyan işgaline bırakılması", tur:"ateskes", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","ateskes","konu-siyasi","italya","habsburg","isvicre"],
@@ -31,7 +42,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1918-11-11", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","almanya"], sinir_id:"d1918-fr-de-isgal",
   b:"Compiègne Ateşkesi — Alsas-Loren'in tahliyesi ve Fransız işgali", tur:"ateskes", onem:5, dunya:4, kapsam:"dis", yer_id:"Strazburg",
   etiket:["sinir","ateskes","konu-siyasi","fransa-cumhuriyet","almanya"],
-  d:"Almanya ile imzalanan ateşkesin ikinci maddesi Belçika, Fransa, Lüksemburg ve Alsas-Loren'in kısa bir süre içinde tahliyesini ve Müttefik birliklerince işgalini öngördü. Alsas-Loren böylece 1870 sınırına kadar fiilen Fransız idaresine geçti. Hukukî devir Versay Antlaşması'nın yürürlüğünü bekledi; antlaşmanın 51. maddesi egemenliği geriye yürür biçimde ateşkes gününden başlattı. İşgalin fiilen tamamlandığı gün kaynakta yok.",
+  d:"Almanya ile imzalanan ateşkesin ikinci maddesi Belçika, Fransa, Lüksemburg ve Alsas-Loren'in kısa bir süre içinde tahliyesini ve Müttefik birliklerince işgalini öngördü. Alsas-Loren böylece 1870 sınırına kadar fiilen Fransız idaresine geçti; Alsas'ın İsviçre ile, Lorraine'in Lüksemburg ile olan sınırları da yeniden Fransa'nın fiilî sınırı oldu. Hukukî devir Versay Antlaşması'nın yürürlüğünü bekledi; antlaşmanın 51. maddesi egemenliği geriye yürür biçimde ateşkes gününden başlattı. İşgalin fiilen tamamlandığı gün kaynakta yok.",
   kaynak:"FRUS 1918 Supp. 1 c.1 d384 (şartlar, A.2) · d420 (11 Kasım 1918 imzası) · Versay md. 51 (Avalon)" },
 
 { t:"1920-01-10", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","almanya"], sinir_id:"d1923-fr-de",
