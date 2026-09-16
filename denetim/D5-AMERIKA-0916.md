@@ -230,4 +230,24 @@ G1 maddeleri: G1'de madde **0**, bu yüzden dosya o turda yazılmamıştı (M-41
 - `d1923-ve-br` dayanağındaki kaynaksız "1859-05-05" günü **1859-01-01**'e çekildi.
 - Veri: 72 kayıt (E 19 · C 16 · YOK 37), degisti true 36 · false 26 · null 10.
 
+**G4 (1815-06-09 → 1878-07-13): yeni hat kaydı 7 (hepsi E) · kronoloji maddesi 16.**
+- **Kanada 1867'de sınırın tamamına komşu değildi.** Canadian Encyclopedia'ya göre Rupert's Land ile Kuzey-Batı Toprakları 15 Tem 1870'te, Britanya Kolumbiyası 20 Tem 1871'de Kanada'ya katıldı. Bu yüzden eski `d1923-ca-us-ana` kaydı üç kuşağa bölündü:
+  - `-dogu` (1867-07-01),
+  - `-prairie` (1870-07-15),
+  - `-bati` (1871-07-20).
+  Kuşak sınırları LoW NW açısı (−95,153) ile Kıta Su Ayrımı'dır (−114,07, TAHMİNİ). `d1923-ca-us-141` kaydının f'i de 1867-07-01'den **1870-07-15**'e düzeltildi.
+- **Öncüller (taraf `ingiliz-kuzey-amerika`):**
+  - `g4-bna-us-dogu` 1842→1867 (Webster–Ashburton),
+  - `g4-bna-us-prairie` 1818→1870 (1818 Sözleşmesi),
+  - `g4-bna-us-bati` 1846→1871 (Oregon),
+  - `g4-bna-rus-141` 1825-02-28→1867-10-18 (Rus Alaskası),
+  - `g4-bna-us-141` 1867-10-18→1870-07-15.
+  Kaynak: IBC, ABD Dışişleri Office of the Historian, RIAA XV. 1818, 1842 ve 1846 için IBC yalnız YIL veriyor, bu yüzden f alanları `YYYY-01-01` biçiminde.
+- **ABD–Meksika kara hattı iki kayda ayrıldı:**
+  - `-kaliforniya`: 1848-05-30 (Guadalupe Hidalgo onay teatisi, Avalon). Gadsden md. I bu hattı "aynen" korudu.
+  - `-gadsden`: 1854-06-30 (onay teatisi, Avalon). Önceki kayıttaki kaynaksız "1853-12-30 yürürlük" varsayımı düzeltildi.
+  - 1848–1854 arasındaki Gila hattının geometrisi elde yok, bu yüzden öncül yazılmadı.
+- **Öncül yazılmayanlar:** 1842 öncesi Maine (tartışmalıydı) · 1846 öncesi Oregon (ortak kullanım) · 1819 Adams–Onís hattı (geometri yok) · Bolivya–Şili 1866/1874 24°G hattı (doğu ucu belirsiz, kaynak okunmadı).
+- Veri: 79 kayıt (E 26 · C 16 · YOK 37). Kronoloji toplamı 21 madde; hepsi var olan bir kayda bağlı.
+
 **Taslak künye:** 6 kimlik `devletler.js`te yok, `denetim/TASLAK-KUNYE-D-0916.json`dan alındı. 11 kayıt bu kimliklere bağlı (sayıldı).

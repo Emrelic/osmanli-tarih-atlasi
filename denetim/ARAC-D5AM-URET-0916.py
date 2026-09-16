@@ -98,7 +98,8 @@ ISO = {"kanada": ["CAN"], "abd": ["USA", "USG"], "meksika": ["MEX"], "guatemala"
        "brezilya-cumhuriyeti": ["BRA"], "ingiliz-guyanasi": ["GUY"], "hollanda-guyanasi": ["SUR"],
        "fransiz-guyanasi": ["FRA"], "kuba-cumhuriyeti": ["CUB"], "haiti": ["HTI"],
        "dominik-cumhuriyeti": ["DOM"], "newfoundland-dominyonu": ["CAN"], "fransa-cumhuriyet": ["MAF"],
-       "hollanda": ["SXM"], "brezilya-imparatorlugu": ["BRA"]}
+       "hollanda": ["SXM"], "brezilya-imparatorlugu": ["BRA"],
+       "ingiliz-kuzey-amerika": ["CAN"], "rusya": ["USA"]}
 KODLAR = {k for v in ISO.values() for k in v}
 ADM = json.load(open("veri-kaynak/ne_10m_admin_0_countries.geojson", encoding="utf8"))
 POLY = {}
@@ -228,22 +229,64 @@ cu = cizgi("CAN-USA")
 alaska = [g for g in cu if min(x for x, _ in g.coords) < -129.5]
 ana = [g for g in cu if g not in alaska]
 B_LOW = box(-95.20, 48.83, -94.60, 49.40)
-ekle("d1923-ca-us-ana", CA, US, "1846-06-15", "D", parcala(ana, lambda c: not B_LOW.contains(Point(c))),
+BNA = "ingiliz-kuzey-amerika"
+IBC = {"ad": "International Boundary Commission — History", "tur": "resmî komisyon",
+       "url": "https://www.internationalboundarycommission.org/en/about/history.php"}
+IBC_1818 = dict(IBC, alinti="to the 49th parallel and along it to the Stony Mountains")
+IBC_1842 = dict(IBC, alinti="It was not until the Webster-Ashburton Treaty of 1842")
+IBC_1846 = dict(IBC, alinti="extended the boundary from the summit of the Rockies westward")
+OREGON = {"ad": "Office of the Historian (ABD Dışişleri), Oregon Territory, 1846", "tur": "resmî",
+          "url": "https://history.state.gov/milestones/1830-1860/oregon-territory",
+          "alinti": "The Senate ratified the treaty by a vote of 41-14 on June 18, 1846."}
+CE_KONF = {"ad": "The Canadian Encyclopedia, Confederation timeline", "tur": "ansiklopedi (Historica Canada)",
+           "url": "https://www.thecanadianencyclopedia.ca/en/timeline/confederation"}
+ALASKA = {"ad": "Office of the Historian (ABD Dışişleri), Purchase of Alaska, 1867", "tur": "resmî",
+          "url": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+          "alinti": "Alaska was formally transferred to the United States on October 18, 1867."}
+T1925 = {"ad": "ABD–Britanya Antlaşması 24 Şub 1925 (44 Stat. 2102)", "tur": "antlaşma", "madde": "md. II",
+         "url": "https://www.govinfo.gov/content/pkg/STATUTE-44/pdf/STATUTE-44-Pg2102.pdf"}
+T1908 = {"ad": "1908 Antlaşması (yeniden ölçüm ve işaretleme)", "madde": "md. V–VI", "tarih": "1908-04-11", "tur": "antlaşma"}
+DEG_1925 = {"deger": True, "kaynak": "44 Stat. 2102 (1925)",
+            "not": "KÜÇÜK: 1925 md. II 49. paraleli anıtlar arası DÜZ çizgi saydı (1923'te eğri paralel) — ölçek altı"}
+TAH_49 = {"t": "1872-1876", "not": "49. paralel 1872 karma komisyonu (son protokol 29 May 1876); 1908 sonrası yeniden işaretleme"}
+# Kanada 1867'de YALNIZ doğu kuşağına komşuydu: Rupert's Land 15 Tem 1870, Britanya Kolumbiyası 20 Tem 1871 (CE_KONF).
+LOW_LON, DIVIDE_LON = -95.153, -114.07     # LoW NW açısı (1925 md. I) · Kıta Su Ayrımı'nın 49°K'deki boylamı (TAHMİNİ)
+ana_d = parcala(ana, lambda c: c[0] > LOW_LON and not B_LOW.contains(Point(c)))
+ana_p = parcala(ana, lambda c: DIVIDE_LON < c[0] <= LOW_LON and not B_LOW.contains(Point(c)))
+ana_b = parcala(ana, lambda c: c[0] <= DIVIDE_LON)
+KES_49 = KES_NE + " · kuşak ayrımı LoW NW açısı (−95,153) ve Kıta Su Ayrımı (−114,07, TAHMİNİ) boylamlarıyla; LoW kutusu dışarıda"
+ekle("d1923-ca-us-dogu", CA, US, "1867-07-01", "D", ana_d,
      [{"ad": "Paris Antlaşması", "tarih": "1783-09-03", "tur": "antlaşma"},
-      {"ad": "1818 Sözleşmesi", "madde": "md. II", "tarih": "1818-10-20", "tur": "sözleşme"},
-      {"ad": "Webster–Ashburton Antlaşması", "tarih": "1842-08-09", "tur": "antlaşma"},
-      {"ad": "Oregon Antlaşması", "tarih": "1846-06-15", "tur": "antlaşma"},
-      {"ad": "1908 Antlaşması (yeniden ölçüm ve işaretleme)", "madde": "md. V–VI", "tarih": "1908-04-11", "tur": "antlaşma"},
-      {"ad": "International Boundary Commission — History", "tur": "resmî komisyon",
-       "url": "https://www.internationalboundarycommission.org/en/about/history.php"},
-      {"ad": "ABD–Britanya Antlaşması 24 Şub 1925 (44 Stat. 2102)", "tur": "antlaşma", "madde": "md. II",
-       "url": "https://www.govinfo.gov/content/pkg/STATUTE-44/pdf/STATUTE-44-Pg2102.pdf"}],
-     {"deger": True, "kaynak": "44 Stat. 2102 (1925)",
-      "not": "KÜÇÜK: 1925 md. II 49. paraleli anıtlar arası DÜZ çizgi saydı (1923'te eğri paralel) — ölçek altı; "
-             "md. III Grand Manan kanalı denizde. Lake of the Woods kesimi ayrı kayıt"},
-     {"t": "1872-1876", "not": "49. paralel 1872 karma komisyonu (son protokol 29 May 1876); 1908 sonrası yeniden işaretleme"},
-     1.5, KES_NE + " · Lake of the Woods kutusu (TAHMİNİ) dışarıda bırakıldı",
-     "Oregon Antlaşması günü (15 Haz 1846) ajan raporunda yok — genel bilgi; f yine Kanada künyesine (1867-07-01) çekilir")
+      {"ad": "Webster–Ashburton Antlaşması", "tarih": "1842-01-01", "tur": "antlaşma", "not": "IBC yalnız YIL veriyor"},
+      T1908, IBC_1842, CE_KONF, T1925], DEG_1925,
+     {"t": None, "not": "1908 sonrası yeniden işaretleme; ilk işaretleme yılları kesim kesim BULUNAMADI"},
+     1.5, KES_49, "Atlantik'ten Lake of the Woods'a · f = Kanada Dominyonu'nun kuruluşu (1 Tem 1867)")
+ekle("d1923-ca-us-prairie", CA, US, "1870-07-15", "D", ana_p,
+     [{"ad": "1818 Sözleşmesi", "madde": "md. II", "tarih": "1818-01-01", "tur": "sözleşme", "not": "IBC yalnız YIL veriyor"},
+      T1908, IBC_1818, CE_KONF, T1925], DEG_1925, TAH_49, 1.5, KES_49,
+     "Lake of the Woods'tan Kayalık Dağlar'a 49. paralel · f = Rupert's Land'in Kanada'ya devri (15 Tem 1870)")
+ekle("d1923-ca-us-bati", CA, US, "1871-07-20", "D", ana_b,
+     [{"ad": "Oregon Antlaşması", "tarih": "1846-01-01", "tur": "antlaşma", "not": "ABD Senatosu onayı 18 Haz 1846; imza ve teati günü okunmadı"},
+      T1908, IBC_1846, OREGON, CE_KONF, T1925], DEG_1925, TAH_49, 1.5, KES_49,
+     "Kayalık Dağlar'dan Pasifik'e (Point Roberts dahil) · Juan de Fuca ve San Juan su hattı bu kayıtta yok · f = Britanya Kolumbiyası'nın Kanada'ya katılışı (20 Tem 1871)")
+# ---- G4 öncülleri: taraf İngiliz Kuzey Amerikası ----
+ekle("g4-bna-us-dogu", BNA, US, "1842-01-01", "D", ana_d,
+     [{"ad": "Webster–Ashburton Antlaşması", "tarih": "1842-01-01", "tur": "antlaşma", "not": "IBC yalnız YIL veriyor"}, IBC_1842, CE_KONF],
+     {"deger": True, "kaynak": "44 Stat. 2102 (1925)", "not": "KÜÇÜK (bkz. d1923-ca-us-dogu); 1867'de yalnız taraf değişti"},
+     {"t": None, "not": "BULUNAMADI"}, 1.5, KES_49,
+     "GERİYE SARMA G4 · 1842 öncesi Maine kesimi tartışmalıydı ⇒ öncül YAZILMADI · f yalnız YIL", t="1867-07-01",
+     sol_iso=dict(ISO, **{BNA: ["CAN"]}))
+ekle("g4-bna-us-prairie", BNA, US, "1818-01-01", "D", ana_p,
+     [{"ad": "1818 Sözleşmesi", "madde": "md. II", "tarih": "1818-01-01", "tur": "sözleşme"}, IBC_1818, OREGON, CE_KONF],
+     {"deger": True, "kaynak": "44 Stat. 2102 (1925)", "not": "KÜÇÜK; 1870'te yalnız taraf değişti"},
+     {"t": "1872-1876", "not": "49. paralel ancak 1872 komisyonunca işaretlendi (1818–1872 arası hukuken tanımlı, işaretsiz)"},
+     1.5, KES_49, "GERİYE SARMA G4 · f yalnız YIL (1818)", t="1870-07-15", sol_iso=dict(ISO, **{BNA: ["CAN"]}))
+ekle("g4-bna-us-bati", BNA, US, "1846-01-01", "D", ana_b,
+     [{"ad": "Oregon Antlaşması", "tarih": "1846-01-01", "tur": "antlaşma"}, IBC_1846, OREGON, CE_KONF],
+     {"deger": True, "kaynak": "44 Stat. 2102 (1925)", "not": "KÜÇÜK; 1871'de yalnız taraf değişti"},
+     {"t": "1872-1876", "not": "49. paralel ancak 1872 komisyonunca işaretlendi"},
+     1.5, KES_49, "GERİYE SARMA G4 · 1846 öncesi Oregon ortak kullanımdaydı (1818 kararı ertelendi) ⇒ öncül YAZILMADI · f yalnız YIL",
+     t="1871-07-20", sol_iso=dict(ISO, **{BNA: ["CAN"]}))
 yok("d1923-ca-us-DEGISTI-lake-of-the-woods", CA, US, "1846-06-15", B_LOW.bounds,
     {"deger": True, "kaynak": "44 Stat. 2102 (1925) md. I", "not": "1925: Northwest Angle bitim noktası 49°23'04.49\"K 95°09'11.61\"B"},
     [{"ad": "ABD–Britanya Antlaşması 24 Şub 1925", "madde": "md. I", "tur": "antlaşma",
@@ -255,17 +298,28 @@ mer = [c for g in alaska for c in g.coords if abs(c[0] + 141) < 0.01]
 if len(mer) < 2:
     raise SystemExit("141. meridyen noktası yok")
 la = [c[1] for c in mer]
-ekle("d1923-ca-us-141", CA, US, "1867-06-20", "D", [LineString([(-141.0, max(la)), (-141.0, min(la))])],
-     [{"ad": "İngiliz–Rus Sözleşmesi", "madde": "md. III (141. meridyen)", "tarih": "1825-02-28", "tur": "sözleşme"},
-      {"ad": "ABD–Rusya Alaska Antlaşması", "tarih": "1867-03-30", "tur": "antlaşma"},
-      {"ad": "International Boundary Commission — History", "tur": "resmî komisyon",
-       "url": "https://www.internationalboundarycommission.org/en/about/history.php",
-       "alinti": "141. meridyen saha işi 1913'te tamamlandı (özet, alıntı değil)"}],
+MER = [LineString([(-141.0, max(la)), (-141.0, min(la))])]
+MER_GEO = "antlaşma metni (141°B meridyeni) · uçlar NE 10m"
+MER_KES = "geometri METİNDEN: 141°B meridyeni, uçları NE çizgisinin meridyen üzerindeki en kuzey/en güney noktası"
+RUS1825 = {"ad": "İngiliz–Rus Sözleşmesi", "madde": "md. III (141. meridyen)", "tarih": "1825-02-28", "tur": "sözleşme",
+           "url": "https://legal.un.org/riaa/cases/vol_XV/481-540.pdf"}
+ekle("d1923-ca-us-141", CA, US, "1870-07-15", "D", MER,
+     [RUS1825, {"ad": "ABD–Rusya Alaska Antlaşması", "tarih": "1867-03-30", "tur": "antlaşma"}, ALASKA, CE_KONF,
+      dict(IBC, alinti="141. meridyen saha işi 1913'te tamamlandı (özet, alıntı değil)")],
      {"deger": None, "kaynak": "—", "not": "değişiklik bulunmadı; 'değişmedi' diyen kaynak da okunmadı. Hat antlaşmanın kendi meridyeni"},
-     {"t": "1913", "not": "saha işi 1913'te bitti (IBC)"},
-     0.5, "geometri METİNDEN: 141°B meridyeni, uçları NE çizgisinin meridyen üzerindeki en kuzey/en güney noktası",
-     "1867 günleri ajan raporunda yok (imza 30 Mar 1867 genel bilgi); f Kanada künyesine çekilir",
-     geometri="antlaşma metni (141°B meridyeni) · uçlar NE 10m")
+     {"t": "1913", "not": "saha işi 1913'te bitti (IBC)"}, 0.5, MER_KES,
+     "f = Kuzey-Batı Topraklarının Kanada'ya devri (15 Tem 1870); ABD tarafı 18 Eki 1867'den beri", geometri=MER_GEO)
+RU = "rusya"
+ekle("g4-bna-rus-141", BNA, RU, "1825-02-28", "D", MER, [RUS1825, ALASKA],
+     {"deger": True, "kaynak": "history.state.gov", "not": "yalnız TARAF değişti (1867 ABD, 1870 Kanada); meridyen aynı"},
+     {"t": None, "not": "1825–1867 arası işaretleme BULUNAMADI"}, 0.5, MER_KES,
+     "GERİYE SARMA G4 · Rus Alaskası", t="1867-10-18", geometri=MER_GEO,
+     sol_iso=dict(ISO, **{BNA: ["CAN"], RU: ["USA"]}))
+ekle("g4-bna-us-141", BNA, US, "1867-10-18", "D", MER, [RUS1825, ALASKA, CE_KONF],
+     {"deger": True, "kaynak": "The Canadian Encyclopedia", "not": "1870'te yalnız taraf değişti"},
+     {"t": None, "not": "BULUNAMADI"}, 0.5, MER_KES,
+     "GERİYE SARMA G4 · Alaska ABD'de, karşı yaka henüz Kanada'ya devredilmemiş", t="1870-07-15", geometri=MER_GEO,
+     sol_iso=dict(ISO, **{BNA: ["CAN"]}))
 yok("d1923-ca-us-alaska-guneydogu", CA, US, "1905-03-25",
     bbox(parcala(alaska, lambda c: c[0] > -140.99), 0.05),
     {"deger": None, "kaynak": "RIAA XV 481–540", "not": "hat 1903 kararı + 1905 notaları; işaretleme yılı ve sonraki değişiklik BULUNAMADI"},
@@ -288,18 +342,25 @@ B_COL = box(-114.84, 32.48, -114.70, 32.73)
 IBWC_T = {"ad": "IBWC — Treaties", "tur": "resmî komisyon", "url": "https://www.ibwc.gov/treaties-minutes/treaties/"}
 IBWC_H = {"ad": "IBWC — History", "tur": "resmî komisyon", "url": "https://www.ibwc.gov/about-us/history/",
           "alinti": "increased the number of boundary monuments from 52 to 258"}
-ekle("d1923-us-mx-kara", US, MX, "1853-12-30", "D",
-     parcala(mu, lambda c: c[0] <= EP_LON and not B_COL.contains(Point(c))),
-     [{"ad": "Guadalupe Hidalgo Antlaşması", "tarih": "1848-02-02", "tur": "antlaşma"},
-      {"ad": "Gadsden Antlaşması", "tarih": "1853-12-30", "tur": "antlaşma"},
-      {"ad": "Sınır Sözleşmeleri", "tarih": "1882-07-29", "tur": "sözleşme", "not": "ve 1 Mar 1889"},
-      IBWC_T, IBWC_H],
-     {"deger": False, "kaynak": "IBWC History",
-      "not": "1894 sonrası yalnız 18 ek anıt (toplam 276); 1933 ve 1970 belgelerinin kapsamı NEHİR kesimi. "
-             "'Kara hattı değişmedi' cümlesi kaynakta AÇIKÇA yok — değişiklik anılmıyor"},
-     {"t": "1891-1894", "not": "Barlow–Blanco yeniden ölçümü, 258 anıt"},
-     1.5, KES_NE + " · El Paso ayrımı lon −106.53 (TAHMİNİ, 1 numaralı anıt çevresi) · Colorado kutusu TAHMİNİ",
-     "Gadsden: imza günü; yürürlük günü okunmadı")
+GH = {"ad": "Guadalupe Hidalgo Antlaşması (imza 2 Şub 1848)", "madde": "md. V", "tarih": "1848-05-30", "tur": "antlaşma",
+      "url": "https://avalon.law.yale.edu/19th_century/guadhida.asp", "alinti": "RATIFICATIONS EXCHANGED AT QUERETARO, MAY 30, 1848"}
+GADS = {"ad": "Gadsden Antlaşması (imza 30 Ara 1853)", "madde": "md. I", "tarih": "1854-06-30", "tur": "antlaşma",
+        "url": "https://avalon.law.yale.edu/19th_century/mx1853.asp",
+        "alinti": "retaining the same dividing line between the two Californias"}
+DEG_KARA = {"deger": False, "kaynak": "IBWC History",
+            "not": "1894 sonrası yalnız 18 ek anıt (toplam 276); 1933 ve 1970 belgelerinin kapsamı NEHİR kesimi. "
+                   "'Kara hattı değişmedi' cümlesi kaynakta AÇIKÇA yok — değişiklik anılmıyor"}
+TAH_KARA = {"t": "1891-1894", "not": "Barlow–Blanco yeniden ölçümü, 258 anıt"}
+KES_KARA = KES_NE + " · El Paso ayrımı lon −106.53 (TAHMİNİ, 1 numaralı anıt çevresi) · Colorado kutusu TAHMİNİ"
+kara_k = parcala(mu, lambda c: c[0] < B_COL.bounds[0])
+kara_g = parcala(mu, lambda c: B_COL.bounds[2] < c[0] <= EP_LON)
+SOZ = {"ad": "Sınır Sözleşmeleri", "tarih": "1882-07-29", "tur": "sözleşme", "not": "ve 1 Mar 1889"}
+ekle("d1923-us-mx-kaliforniya", US, MX, "1848-05-30", "D", kara_k, [GH, GADS, SOZ, IBWC_T, IBWC_H],
+     DEG_KARA, TAH_KARA, 1.5, KES_KARA,
+     "Pasifik'ten Colorado'ya düz hat: 1848 md. V hattı; Gadsden md. I onu AYNEN korudu")
+ekle("d1923-us-mx-gadsden", US, MX, "1854-06-30", "D", kara_g, [GADS, SOZ, IBWC_T, IBWC_H],
+     DEG_KARA, TAH_KARA, 1.5, KES_KARA,
+     "Colorado'dan El Paso'ya · f = Gadsden onay teatisi (30 Haz 1854) · 1848–1854 arasındaki Gila hattının geometrisi elde yok ⇒ öncül YAZILMADI")
 rg = parcala(mu, lambda c: c[0] > EP_LON)
 yok("d1923-us-mx-DEGISTI-rio-grande", US, MX, "1848-02-02", bbox(rg, 0.05),
     {"deger": True, "kaynak": "IBWC", "not": "1933 El Paso–Juárez düzeltmesi (155 mil) · 1970 antlaşması 1.255 millik nehir kesimini yeniden kurdu"},
@@ -712,6 +773,9 @@ BAS = """// -*- coding: utf-8 -*-
 //   YAZILMADI (A/B'ye düşer). Kronoloji: data/kronoloji_sinir_amerika.js
 // G3 (1878-07-13 → 1914-07-28): 3 öncül kayıt (g3-*), taraf Brezilya İmparatorluğu (t 1889-11-15); mx-gt 1882 ·
 //   hn-ni 1896 · ar-br 1900 öncesinde hukukî kesin hat yok ⇒ öncül yazılmadı.
+// G4 (1815-06-09 → 1878-07-13): Kanada–ABD üç kuşağa bölündü (doğu 1867 · prairie 1870 · batı 1871) ve
+//   öncülleri İngiliz Kuzey Amerikası ile yazıldı (1842 · 1818 · 1846); 141. meridyen: Rusya (1825→1867) →
+//   ABD (1867→1870) → Kanada; ABD–Meksika kara hattı Kaliforniya (1848) ve Gadsden (1854) olarak ayrıldı.
 
 window.D_SINIRLAR_AMERIKA = [
 """
