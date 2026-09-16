@@ -129938,5 +129938,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4260",
+  "zaman": "2026-09-17 02:36",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 0063/1 (Rus yani) + 0063/10 · commit 17b303a (origin'de). H-0001: Tarku EVET (tabi→idare, YAMA-0059) · Lenkeran/Astara EVET 1723→1732-09-02 (T1; atlas Safevi gosteriyor) · Salyan IKI DONEM 1724 ve 1727→1732 (S1; atlas Petersburg gunune bagli; ACIK: Salyan Kura'nin hangi yakasinda olculmedi, kuzeyse 1735) · Kuba KISMEN (1724 Rus payi, yerli han, garnizon yok → tabi; kuba-hanligi kunyesi YOK — devletler.js 'kuba' Kongo! → dokunma onerim) · Erdebil HAYIR (1725 Osmanli) · Halhal HAYIR. YAMA-0063-HAZAR.json 3 kalem + YAMA-0059'a 3 inceltme (Derbend sonu 1735-05-08 · Baku 1735-05-01 = TESLIM gunleri; Agraham karari TEREK — Asvarov-Magaramov 2022). 🔴 KENDI HATAMI DUZELTTIM: YAMA-0060'ta Gilan bosaltmasini TDV gilan'a dayanip 1734 yazmistim; Iranica + Kurukin 1732 (Levasov Kura'yi 2 Eyl 1732 gecti) → YAMA-0060 #5 ve H1/H3/H4 1732-09-02'ye cekildi (dosyada DUZELTME_0063). H-0010: Rus-Iran savasi YOK; YAMA-0063-KRONO.json 6 madde (1724-09-11 Salyan'da Rus taburu · 1734-05-31 Nadir'in Golitsin'a tehdidi · 1734-11-09 cekilme buyrugu · 1735-05-01 Baku · 1735-05-08 Derbend · 1735-08-23 Kutsal Hac yikildi/sinir Terek) + birlikte sira. EKOKUMA +1 kart rusiran-nadir-ruslari-cikardi (toplam 5). UYARI: Kurukin 2010 yalniz cevrimici aynadan — 4 gun 'basili nushayla karsilastirilmadi' damgali. G3 EKI (M-4161'de kacmisti): 1886 + 1892 Fransiz-Osmanli Tunus-Trablus duzenlemeleri, E ama geometri yok → hat yok, 2 kronoloji maddesi (kronoloji_sinir_ortadogu.js 10 madde). Simdi G4 zincirine geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4261",
+  "zaman": "2026-09-17 02:38",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "TESLIM D3-AVRUPA-ORTA · G4 (1878-07-13 → 1815-06-09) · commit 8dba67c · rapor §4e. HAT: G4'te baslayan 23 kayit = E 7 · D 0 · C 2 (Spielmannsau, Pfronten 1816-44) · YOK 14. CIZILEN E: Prut kuzey (Rusya–Bogdan 1856-59, Rusya–Romanya 1859-78; Katamori koordinati BULUNAMADI → kesim 47,1 K) · Avusturya–Bavyera Munih 1816 (teslim 1816-05-01, Hertslet No.53) + 1844 (Hertslet No.197). YOK: Prusya/Almanya–Rusya (Melno) · Prusya/Almanya–Kongre Polonyasi (1817 antl., 1835, Tarnowitz 1836 tahdit) · Avusturya–Kongre Polonyasi (Krakow 1815-46 kutuda, kunye YOK) · Avusturya–Rusya (Galicya-Volhinya; Bukovina-Besarabya 1812'den) · Guney Besarabya 1856-78 (Kisinev senedi 1857-04-11) · Macar taci–Sirbistan 1830-10-17'den (TDV) · Avusturya–Karadag Dalmacya 1820-11-23'ten (CANU; tahdit 1841-07-18). Prut agzindan sonrasi 1812-78 Rusya-Osmanli → D1. KRONOLOJI +7 (yalniz eksik; Viyana 1815, Paris 1856, Cuza 1859, 1871 zaten var): Munih 1816 · Prusya-Rusya 1817 · Avusturya-Karadag 1820 · Munih 1844 · Krakow ilhaki 1846-11-11 · Dresden 1848 · Kisinev 1857. BULGU: atlas Sirbistan ozerklik fermani 1830-11-08 ↔ TDV 1830-10-17 · Cuza secimi Hertslet 17 Oca/5 Sub 1859 ↔ TDV 5/24 Sub · AUT-DEU 1972+2001 kucuk duzeltmeleri (2.031 m² takas) d1923/d1878 notlarina islendi, degisti:false korundu (KARAR SENDE). Kaynak: Hertslet c.1-4, Noradounghian, IBS 43, Stauber 2015, Avusturya Parlamentosu, TDV sirbistan, CANU. G5'e gecildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
