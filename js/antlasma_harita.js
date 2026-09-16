@@ -1,15 +1,23 @@
 // ============================================================================
 // ANTLAŞMA HARİTASI — bir barış antlaşması kronoloji maddesi açıldığında,
-// YALNIZ O MADDEDEYKEN, antlaşmayla bırakılan bölgeleri boyayıp etiketleyen
-// geçici katman. Emre, paket 0054 H-0020:
+// "Haritada gör" DÜĞMESİYLE, antlaşmayla bırakılan bölgeleri boyayıp
+// etiketleyen geçici katman. Emre, paket 0054 H-0020:
 //   "tüm barış anlaşmaları ... kronolojik maddesinde ... haritada alınan
 //   verilen bölgelerin boyanması taranması ve üstlerine ... etiketler
 //   koyalım ... bu harita sadece o kronoloji maddesinde geçerli olacaktır"
+// DALGA-0055 §A madde 1 (1.MURAT, 16 Eylül gece) — Karlofça pilotunun
+// GENELLEMESİ: "maddede 'Haritada gör' düğmesi" — İLK sürüm (commit 1f45b2e)
+// madde açılır açılmaz OTOMATİK çiziyordu; ~400 antlaşma maddesi olduğu için
+// (DALGA-0055 §B ölçümü) otomatik çizim yerine EXPLICIT düğmeye geçildi —
+// hem kullanıcı kontrolü hem gereksiz hesap yok.
 //
 // Veri: window.ANTLASMA_HARITALARI (data/antlasma_haritalari.js) — her kayıt
 // bir antlaşmaya bağlı `bolgeler[]` listesi taşır, geometri KENDİ BAŞINA
 // üretilmez, `data/hukuki_sinirlar.js` (window.HUKUKI_SINIRLAR, C katmanı)
-// kayıtlarından TÜRETİLİR (D023). Bu dosya PİLOT — yalnız Karlofça (1699).
+// kayıtlarından TÜRETİLİR (D023). Şu an TEK kayıt (Karlofça, pilot); veriyi
+// GENİŞLETECEK olan D-GEOARAC (DALGA-0055 §B, `denetim/ARAC-ANTLASMA-HARITA-
+// 0916.py`) — şema tahtadan netleştirilecek, KOD DEĞİŞMEDEN yeni kayıtları
+// okur (`_ahEslesenKayit` window.ANTLASMA_HARITALARI'nin TAMAMINI tarar).
 //
 // EŞLEŞTİRME app.js'in ZATEN KULLANDIĞI desenle AYNI (app.js:7991-7993,
 // `ANTLASMALAR` için): kronoloji maddesinin `b` alanı antlaşma adını
@@ -19,9 +27,11 @@
 // Tek entegrasyon noktası: app.js'in global `obGoster(o)` fonksiyonu
 // (madde detay kartını dolduran fonksiyon, app.js:7909) monkey-patch ile
 // sarılıyor — d_katman.js'in `guncelle()` sarmalama deseniyle AYNI yöntem.
-// `obGoster` HER madde açılışında çağrılır; bu yüzden "yalnız o maddede
-// geçerli" şartı doğal olarak sağlanıyor — madde değişince ÖNCE temizlenir,
-// SONRA (varsa) yeni maddenin haritası çizilir.
+// `obGoster` HER madde açılışında çağrılır: eşleşme varsa düğme EKLENİR
+// (`#ob-ozel`e — app.js'in kendi kutu deseniyle aynı DOM, dokunulmuyor,
+// yalnız APPEND ediliyor), yoksa/madde değişince önceki harita TEMİZLENİR.
+// "Yalnız o maddede geçerli" şartı böylece korunuyor — düğmeye TIKLANMAMIŞ
+// olsa bile madde kapanınca harita zaten hiç açılmamış/temiz kalıyor.
 // index.html'e TEK gereken satır: bu dosyanın <script> etiketi, js/app.js'ten
 // SONRA. Tahtadan UI'ya istendi — bkz. denetim/ANTLASMA-HARITA-0916.md.
 // ============================================================================
@@ -177,6 +187,35 @@ if (typeof harita !== "undefined" && harita && typeof harita.on === "function") 
   harita.on("load", _ahKatmaniKur);
 }
 
+// ---- DÜĞME — "#ob-ozel"e (app.js'in kendi ek-kutu konteyneri) tek buton ekler ---
+function _ahDugmeEkle(kayit) {
+  var ozel = document.getElementById("ob-ozel");
+  if (!ozel) return;
+  var kutu = document.createElement("div");
+  kutu.className = "ob-kutu";
+  var btn = document.createElement("button");
+  btn.type = "button";
+  btn.style.cursor = "pointer";
+  btn.style.padding = "4px 10px";
+  btn.style.borderRadius = "4px";
+  btn.style.border = "1px solid #0a2f5c";
+  btn.style.background = "#fff";
+  btn.style.color = "#0a2f5c";
+  var KAPALI = "🗺️ Haritada gör — bırakılan bölgeler", ACIK = "✕ Haritadan kaldır";
+  btn.textContent = KAPALI;
+  btn.addEventListener("click", function () {
+    if (_ahAktifId === kayit.id) {
+      _ahTemizle();
+      btn.textContent = KAPALI; btn.style.background = "#fff"; btn.style.color = "#0a2f5c";
+    } else {
+      _ahGoster(kayit);
+      btn.textContent = ACIK; btn.style.background = "#0a2f5c"; btn.style.color = "#fff";
+    }
+  });
+  kutu.appendChild(btn);
+  ozel.appendChild(kutu);
+}
+
 // ---- obGoster() SARMALAMA — app.js'e dokunmadan "madde açıldı" bağlantısı ------
 (function () {
   if (typeof window.obGoster !== "function") {
@@ -187,8 +226,10 @@ if (typeof harita !== "undefined" && harita && typeof harita.on === "function") 
   window.obGoster = function (o) {
     var r = _ahEskiObGoster.apply(this, arguments);
     try {
+      _ahTemizle();   // her madde açılışında ÖNCE temizle — bir önceki maddenin
+                       // haritası (düğmeye tıklanmış olsun olmasın) kalmasın
       var kayit = _ahEslesenKayit(o);
-      if (kayit) _ahGoster(kayit); else _ahTemizle();
+      if (kayit) _ahDugmeEkle(kayit);
     } catch (e) { console.error("[antlaşma haritası]", e); }
     return r;
   };

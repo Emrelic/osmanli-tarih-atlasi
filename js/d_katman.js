@@ -45,6 +45,24 @@
 var D_SINIF_ONCELIK_HUKUKI = { F: 3, E: 2, C: 1 };            // D burada YOK
 var D_SINIF_ONCELIK_FIILI = { D: 4, F: 3, E: 2, C: 1 };
 var D_HAT_RENK = "#0a2f5c";
+// 🆕 DALGA-0055 §A madde 2 (1.MURAT) — Osmanlı vasalının sınır çizgisi "açık
+// kırmızı" olsun, iç dolgu DEĞİŞMEZ. Renk app.js'in KENDİ vasal-şerit rengiyle
+// AYNI (`himaye-serit-ic`, app.js:1508: "line-color": "#d4707d") — yeni bir
+// ton İCAT EDİLMEDİ, var olan görsel dille eşleşti. İç dolgu zaten bu dosyada
+// HİÇ çizilmiyor (D-KATMAN yalnız çizgi çizer, §9 — GORUNUM-ABCD tasarımı),
+// yani "iç dolgu değişmez" şartı otomatik sağlanıyor.
+// Kapsam Emre'nin AÇIKÇA saydığı üçle SINIRLI (Eflak/Boğdan/Erdel) — genel
+// "her prenslik/vassal" kuralı DEĞİL: devletler.js'te statik bir "vasal"
+// bayrağı yok (yalnız `tur:"prenslik"` gibi POLİTİK TÜR var, tâbilik
+// yerleşim seviyesinde zaman-pencereli `v:` kaydı — D188 "kümeyi bilmeden
+// hüküm verme"). Genişletme istenirse 1.MURAT'a sorulacak (bkz. rapor §…).
+var D_VASAL_RENK = "#d4707d";
+var D_VASAL_TARAF_IDLERI = { eflak: 1, bogdan: 1, erdel: 1 };
+function _dCizgiRengi(kayit) {
+  var tf = kayit.taraflar || [];
+  for (var i = 0; i < tf.length; i++) if (D_VASAL_TARAF_IDLERI[tf[i]]) return D_VASAL_RENK;
+  return D_HAT_RENK;
+}
 var D_SINIF_STIL = {
   F: { genislik: 3.5, dash: null, opaklik: 1 },       // hukukî + tanınmış — en kalın, düz
   E: { genislik: 2.8, dash: [6, 2], opaklik: 1 },       // hukukî — uzun kesik
@@ -168,7 +186,7 @@ function _dSinirGuncelle(gun) {
   var feat = aktif.map(function (a) {
     return {
       type: "Feature",
-      properties: { kayit_id: a.kayit.id, sinif: a.sinif },
+      properties: { kayit_id: a.kayit.id, sinif: a.sinif, renk: _dCizgiRengi(a.kayit) },
       geometry: { type: "LineString", coordinates: a.kayit.hat }
     };
   });
@@ -235,7 +253,7 @@ function _dKatmaniKur() {
     var SINIFLAR = ["C", "E", "F", "D"];
     SINIFLAR.forEach(function (sinif) {
       var s = D_SINIF_STIL[sinif];
-      var paint = { "line-color": D_HAT_RENK, "line-width": s.genislik, "line-opacity": s.opaklik };
+      var paint = { "line-color": ["get", "renk"], "line-width": s.genislik, "line-opacity": s.opaklik };
       if (s.dash) paint["line-dasharray"] = s.dash;
       harita.addLayer({
         id: "d-sinir-hat-" + sinif, type: "line", source: "d-sinir-hat",

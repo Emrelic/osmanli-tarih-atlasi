@@ -82,13 +82,64 @@ harita hâlâ görünsün), `antlasma-harita-nokta` (circle, taraf renginde), `a
 Renk: `_cTarafRengi(taraf)` — C katmanının KENDİ renk fonksiyonu, tekrar yazılmadı (D023). Tıklanınca
 popup: etiket + (nokta ise) yer adı + kaynak alıntısı.
 
-## 5. Bekleyen
+## 6. DALGA-0055 §A madde 1 — genelleme, otomatik çizimden DÜĞMEYE geçiş
 
-- 🔴 UI'ya tahtadan: `index.html`ye `js/app.js`ten SONRA İKİ satır —
-  `<script src="data/antlasma_haritalari.js">` ve `<script src="js/antlasma_harita.js">`.
-- 🟡 Görsel (tile) doğrulama — bu ortamda yapılamadı, erişimi olan bir ortamda tekrarlanmalı.
+1.MURAT: "Karlofça pilotunu BÜTÜN antlaşma maddelerine genelle ('Haritada gör' düğmesi, taralı alan +
+'X'e bırakıldı' etiketi); veriyi D-GEOARAC üretecek (bölüm B), şemayı tahtadan onunla netleştir."
+
+**Kod tarafı zaten genel** — `_ahEslesenKayit`/`_ahBolgeleriUret` Karlofça'ya ÖZEL yazılmadı, `window.
+ANTLASMA_HARITALARI`nin TAMAMINI tarar; D-GEOARAC yeni kayıt ekledikçe kod DEĞİŞMEDEN çalışır. Değişen
+tek şey **tetikleme**: ilk sürüm (commit 1f45b2e) madde açılır açılmaz OTOMATİK çiziyordu — ~400
+antlaşma maddesi olduğu için (DALGA-0055 §B ölçümü) bu hem gereksiz hesap hem kullanıcı kontrolsüzlüğü
+demekti. Artık `obGoster` sarmalaması yalnız bir **"🗺️ Haritada gör — bırakılan bölgeler"** düğmesi
+ekliyor (`#ob-ozel`e append, app.js'in kendi "önce/sonra"/"yakıp söndür" düğmelerinin YANINA — mevcut
+DOM'a dokunulmadı), tıklanınca `_ahGoster`/`_ahTemizle` arasında geçiş yapıyor (ikinci tık kaldırır).
+
+**Şema D-GEOARAC'a tahtadan gönderildi** (yatay mesaj, §7.1③): tam alan listesi + "geometri kendin
+üretme, yalnız `data/hukuki_sinirlar.js` id'lerine işaret et" uyarısı. D-GEOARAC'ın önceki işi (M-4098:
+"D-GEOARAC dosyaları koordinatörce commit edildi, D-GEOARAC işi bitti") 1923 D sınırları geometri
+aletiydi — BU iş (antlaşma haritası veri aleti) DALGA-0055 §B'de AYRI ve YENİ bir görev.
+
+**Doğrulama (tarayıcı, gerçek `obGoster`):** madde açılınca düğme doğru metinle beliriyor
+("🗺️ Haritada gör — bırakılan bölgeler"), `#ob-ozel` içindeki DÖRT düğmeden (◀ Öncesi/Sonrası ▶/↻ Yakıp
+söndür/⌖ Farka odaklan — hepsi ÖNCEDEN VAR OLAN ANT_FARK düğmeleri) doğru ayırt edilip bulundu, metin
+tıklanınca değişiyor. Aç/kapa döngüsü `_ahAktifId`i elle eşitleyerek de sınandı (bu ortamda harita
+"load" olmadığı için `_ahGoster` gerçek durumu asla ayarlayamıyor — önceki turlarla AYNI, bilinen kısıt)
+ve doğru çalıştığı doğrulandı.
+
+## 7. DALGA-0055 §A madde 2 — vasal sınır rengi (`js/d_katman.js`)
+
+1.MURAT: "Vasal devletlerin SINIR çizgisi Osmanlı vasal açık kırmızısı, iç dolgu değişmez (Eflak,
+Boğdan, Erdel ayrı ayrı)." `js/d_katman.js`e eklendi (bu D-KATMAN'ın 1923 D-sınırları modülü, antlaşma
+haritasından AYRI dosya): `taraflar`ı `eflak`/`bogdan`/`erdel` içeren bir D-sınırı kaydı artık
+`D_HAT_RENK` (#0a2f5c, genel koyu lacivert) yerine `D_VASAL_RENK` (#d4707d) ile çiziliyor — bu renk
+**yeni İCAT EDİLMEDİ**, app.js'in kendi vasal-şerit rengiyle (`himaye-serit-ic`, app.js:1508) BİREBİR
+AYNI, görsel dil tutarlı kaldı. "İç dolgu değişmez" otomatik sağlanıyor çünkü D-KATMAN zaten hiç dolgu
+çizmiyor (yalnız çizgi, §9) — app.js'in kendi osmanli/himaye-dolgu katmanlarına dokunulmadı.
+
+⚠️ **Kapsam BİLEREK dar tutuldu** — yalnız Emre'nin açıkça saydığı üç künye (`eflak`/`bogdan`/`erdel`).
+`devletler.js`de statik bir "vasal" bayrağı yok (yalnız `tur:"prenslik"` gibi polit tür var, gerçek
+tâbilik yerleşim seviyesinde zaman-pencereli `v:` kaydı — D188 "kümeyi bilmeden hüküm verme"); Kırım
+Hanlığı, Cezayir/Tunus/Trablus ocaklıkları gibi başka tâbi devletler İSTENİRSE 1.MURAT'a sorulup
+`D_VASAL_TARAF_IDLERI`ye eklenir, ŞİMDİ eklenmedi. Düz JS nesnesiyle sınandı (üç isim de doğru renk
+verdi, dördüncü/normal örnek genel rengi korudu) — gerçek D-sınırı verisinde Eflak/Boğdan/Erdel henüz
+YOK (GERİYE-SARMA henüz 1923'ten geriye sarmadı), bu yüzden tarayıcıda gerçek bir kayıtla GÖRSEL olarak
+sınanamadı; fonksiyon mantığı doğrulandı, veri gelince otomatik devreye girecek.
+
+## 8. Bekleyen
+
+- 🔴 UI'ya tahtadan: `index.html`ye `js/app.js`ten SONRA DÖRT satır —
+  `<script src="data/antlasma_haritalari.js">` · `<script src="js/antlasma_harita.js">` ·
+  `<script src="js/d_katman.js">` (D-KATMAN'ın öteki modülü, aynı ricada) ve `data/d_sinirlar*.js`
+  aileleri (bkz. `denetim/D-KATMAN-0916.md` §8, ayrı rapor).
+- 🟡 Görsel (tile) doğrulama — bu ortamda yapılamadı, erişimi olan bir ortamda tekrarlanmalı; özellikle
+  düğmenin gerçek haritada dolgu/nokta/etiketi açtığı ve vasal rengin (Eflak/Boğdan/Erdel verisi
+  gelince) doğru göründüğü.
+- 🟡 D-GEOARAC'a şema gönderildi (tahta, §6) — cevap/ilk üretilmiş kayıt bekleniyor.
+- 🟡 Vasal renk kapsamı (§7) yalnız Eflak/Boğdan/Erdel — genişletme (Kırım Hanlığı, Kuzey Afrika
+  ocaklıkları vb.) 1.MURAT'a sorulmalı, kendiliğinden EKLENMEDİ.
 - 🟡 "Boya/tara" — Emre "taranması" da dedi (hatch pattern). MapLibre'de hatch, bir sprite/pattern
   görseli gerektiriyor (bu pilotta YOK, yarı saydam fill ile yetinildi). Emre onaylarsa küçük bir
   çizgili PNG pattern eklenebilir — ayrı bir iş, bu pilotun kapsamı dışında bırakıldı.
-- 🟢 İkinci antlaşma (örn. İstanbul 1700 — Rusya/Azak) `ANTLASMA_HARITALARI`ye YENİ bir kayıt eklenerek
-  genişletilir, `js/antlasma_harita.js` DEĞİŞMEZ — tasarım antlaşma sayısından bağımsız.
+- 🟢 Yeni antlaşma kayıtları (D-GEOARAC'tan) `ANTLASMA_HARITALARI`ye eklendikçe `js/antlasma_harita.js`
+  DEĞİŞMEZ — tasarım zaten antlaşma sayısından bağımsız (§6).
