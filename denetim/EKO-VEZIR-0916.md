@@ -196,3 +196,41 @@ işaretlendi, rakamlar (10.000 ölü) tek kaynaklı olduğu için ihtiyatla veri
 
 **Bulunamayan iddia:** "İstanbul'da Merzifonlu'yu sevmeyenlerin göbek atması" — okunan
 kaynaklarda yok, uydurulmadı.
+
+---
+
+# EK BÖLÜM 3 — DALGA-0054, maddeler H-0002 H-0009 H-0010 H-0012 (16 Eylül gece)
+
+Kaynak: `oturumlar/DALGA-0054.md`. Yeni kural: yazmadan önce diğer `ekokuma_*.js`
+dosyalarında aynı konu var mı bakıldı (grep ile) — "mezzomorto"/"azak"/"don-volga
+kanal" hiçbir dosyada mükerrer çıkmadı, yalnız "Azak" adı iki dosyada (ekokuma_dunya,
+ekokuma_rivayet) GEÇİYORDU ama "Rusya neden istedi" sorusunu ayrı işlemiyorlardı —
+bu yüzden ayrı kart yazıldı, var olanlara ATIFLA, tekrarsız.
+
+**H-0002** mükerrerdi (kendi dosyamda zaten vardı) — YENİ KART AÇILMADI, mevcut
+`kimdir-koprulu-fazil-ahmed-pasa` kartı TDV'den yeniden okunarak genişletildi:
+Saint Gotthard yenilgisi (1 Ağustos 1664) ile on beş gün sonraki elverişli Vasvar
+Antlaşması (16 Ağustos 1664) arasındaki çelişki, Köprülü Kütüphanesi ve himaye
+ettiği isimler (Nâbî, Hezarfen Hüseyin Efendi, Derviş Ali), ölüm sebebi (siroz,
+3 Kasım 1676) eklendi.
+
+**H-0009, H-0010** yeni kart (Mezemorta Hüseyin Paşa'nın lakabı — İtalyanca
+"yarı ölü", gençlikte İspanyollarla savaşta aldığı yaradan; Azak'ın Rusya için
+stratejik önemi — Karadeniz'e tek fiziksel çıkış kapısı).
+
+**H-0012 — ÖNEMLİ DÜZELTME:** Madde "kronoloji maddemiz var mı" diye soruyordu.
+CEVAP: **EVET, ZATEN VAR** — dört ayrı dosyada (`kronoloji_orta_asya.js`,
+`kronoloji_kirim.js`, `kronoloji_rusya.js`) 1557 ve 1569 tarihli toplam beş
+madde, mühendislik ayrıntısına kadar (arazi engebeli çıktı, Kırım hanının
+yardımsızlığı, Nogayların desteksizliği) zaten yazılmış durumda. Bu yüzden
+`denetim/YAMA-0054-VEZIR.json`'a YENİ BİR KRONOLOJİ ÖNERİSİ YAZILMADI (dosya
+üretilmedi — önerilecek bir eksik yoktu). Yazılan tek şey, bu dört dağınık
+maddeyi TEK bir sebep-sonuç ek okuma kartında birleştirmek oldu.
+
+## Dosyalar
+```
+DEĞİŞTİ  data/ekokuma_vezir.js   26→29 kart (1 genişletme + 3 yeni), node --check temiz,
+                                 29/29 id benzersiz, yeni kartların tüm olay tarihleri doğrulandı
+YOK      denetim/YAMA-0054-VEZIR.json  ÜRETİLMEDİ — H-0012'nin öngördüğü eksik kronoloji
+                                 maddesi zaten mevcut, önerilecek bir şey yoktu
+```
