@@ -126113,5 +126113,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4118",
+  "zaman": "2026-09-16 21:35",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0053 (21 madde) dagitildi: oturumlar/DALGA-0053.md. EKO-VEZIR 3-7 · EKO-DUNYA 9 10 11 20 · EKO-RIVAYET 1 12 16 17 · EKO-PADISAH 14 19 21 · HARITA-VERI 2 8 13 18 (Orta Macar/Satu Mare/Mukaceve, yama json) · UI 15 (Ismail Pasa -> Sah Ismail yanlis ek okuma eslesmesi). Paket: ClaudEmre/kutu/giden/parti-emrelic-0053/PARTI.md. Tahtaya yalniz teslim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
