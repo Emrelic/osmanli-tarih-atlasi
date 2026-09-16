@@ -208,6 +208,35 @@ K = {
                       not_="Japonya onaylamadı ⇒ antlaşma yürürlüğe girmedi (aosr.ro); 1923 Kasım'da Dinyester ötesi ilişkiler için geçici düzenleme"),
     "zbruc": dict(ad="Zbruç ağzı koordinatı (Vikipedi/Wikidata — YALNIZ coğrafî çapa, tarihî dayanak DEĞİL)", madde="48.5391 K, 26.4427 D", tarih="—", tur="cografi",
                   url="https://en.wikipedia.org/wiki/Zbruch"),
+    # ---- G1 (1918-11-11 → hukukî başlangıç) kaynakları
+    "tartu_fi": dict(ad="Tartu Barışı Finlandiya–RSFSC, onay tutanağı (LNTS 3:65-79)", madde="md. 39 + onay tutanağı; md. 4, 10 (45 gün tahliye)", tarih="1920-10-14 (yürürlük 1920-12-31)", tur="antlasma",
+                     url="http://www.forost.ungarisches-institut.de/pdf/19201014-1.pdf",
+                     alinti="Done at Moscow, on December thirty-first, nineteen hundred and twenty",
+                     not_="IBS 74'ün 'Helsinki 1921-02-14'ü muhtemelen 45 günlük tahliye sonu (çıkarım ◐)"),
+    "fedinec": dict(ad="Fedinec, Kárpátaljai magyarság kronológiája (MTA)", madde="1919-01-12 Ung; 1919-04-16 Rumen işgali; 1919-07-25 tarafsız bölge; 1920-02-24→03-30 Tisza ötesi tahliye; 1920-08-30 Rutenya tahliyesi", tarih="—", tur="akademik",
+                    url="https://real.mtak.hu/13002/1/fedinec_kron191844.pdf"),
+    "perczel": dict(ad="Perczel — archivnet (Macar Ulusal Arşivi yayını)", madde="Rumen ordusu Tisza gerisine 1919-11-23; Gyula/Békéscsaba 1920-03-31 (◐)", tarih="—", tur="arsiv",
+                    url="https://www.archivnet.hu/atrocitasok-bekes-es-csongrad-megyeben-a-roman-megszallas-idejen-1919-1920"),
+    "gyanti": dict(ad="Macar Ulusal Arşivi (MNL BaML) — Pécs işgalinin sonu", madde="Macar ordusu Pécs'e 1921-08-22", tarih="1921-08-22", tur="arsiv",
+                   url="https://mnl.gov.hu/mnl/baml/hirek/szaz_eve_1921_augusztus_22_en_ert_veget_pecs_es_baranya_megye_szerb_megszallasa"),
+    "suppan": dict(ad="Suppan, Hitler–Beneš–Tito, bl. 5 (Avusturya Bilimler Akademisi)", madde="Belgrad mütarekesi 1918-11-13; Radkersburg 1918-12-01 → 1920-07-26; Karintiya plebisiti 1920-10-10", tarih="—", tur="akademik",
+                   url="https://www.austriaca.at/0xc1aa500d_0x002f0ea0"),
+    "sg50": dict(ad="Saint-Germain Antlaşması (forost metni)", madde="md. 27(3), md. 49-50 (Karintiya plebisiti)", tarih="1919-09-10", tur="antlasma",
+                 url="http://www.forost.ungarisches-institut.de/pdf/19190910-1.pdf",
+                 not_="1. bölgede Avusturya oyu ⇒ bütün alan kesin olarak Avusturya egemenliğinde (md. 50); bölge 1920-11-18'de Avusturya'ya devredildi"),
+    "jedlicka": dict(ad="Jedlicka, Burgenländische Heimatblätter 23", madde="Avusturya ordusu 1921-11-13/17 (kuzey), 11-25/30 (güney); devir 1921-12-03", tarih="—", tur="hakemli",
+                     url="https://www.zobodat.at/pdf/Burgenlaendische-Heimatblaetter_23_0117-0123.pdf",
+                     not_="devir günü habsburger.net'te 1921-12-05 — ÇELİŞKİ"),
+    "mnl_sopron": dict(ad="Macar Ulusal Arşivi (MNL OL) — Sopron plebisiti", madde="oylama 1921-12-14/15/16; devir tutanağı 1922-01-01", tarih="1922-01-01", tur="arsiv",
+                       url="https://mnl.gov.hu/mnl/ol/hirek/magyarok_maradtunk_nepszavazas_sopronban_es_kornyeken_1921"),
+    "kadria": dict(ad="Kadria, Istorija 20. veka 2022/1", madde="1921 Ekim sonu SHS birlikleri Lura-Oroshi-Shëngjin'de; Vermoş 1922 Temmuz'dan itibaren işgalde", tarih="2022", tur="hakemli",
+                   url="https://istorija20veka.rs/wp-content/uploads/2022/01/2022_1_2_kad_17-38.pdf"),
+    "pokutya": dict(ad="Europe Centenary — Pokutya'da Rumen ordusu 1919 (Stănescu 1999'a dayanıyor)", madde="giriş 1919-05-24; tahliye 1919-08-17→27", tarih="1919-08-27", tur="ikincil",
+                    url="https://europecentenary.eu/the-intervention-of-the-romanian-army-in-pokuttia-1919/",
+                    not_="◐ ikincil; Polonya'nın devralma günü BULUNAMADI"),
+    "cs_isgal": dict(ad="velenice.cz · zamek-valtice.cz (belediye/müze sayfaları — ◐)", madde="Valtice ve Gmünd istasyon bölgesi 1920-07-31'de ÇS'ye", tarih="1920-07-31", tur="ikincil",
+                     url="https://www.velenice.cz/mesto/informace-o-meste/zacatky-mesta/",
+                     not_="◐ Alman Bohemyası'nın işgali 1918-12 → 1919-01 (Znojmo 18/27 Aralık ÇELİŞKİLİ)"),
     "stoh": dict(ad="IBS 43", madde="'Stoh (1655 m)' ÇS-PL-RO üçlü noktası — koordinatı BULUNAMADI, uzunluktan kestirildi", tarih="1964", tur="IBS", url=FSU.format(43)),
     "rubicon": dict(ad="Rubicon — 'From the Treaty of Trianon to the Boundary Stones'", madde="1923 Nisan Somoskő; 1952 takasları", tarih="—", tur="dergi",
                     url="https://rubicon.hu/en/cikkek/from-the-treaty-of-trianon-to-the-boundary-stones",
@@ -244,18 +273,25 @@ UYARI = []
 
 
 def d_kaydi(id_, taraflar, f, cift, iso_kunye, degisti, dayanak, tahdit=None, parca=1,
-            km=None, disari=(), not_=""):
+            km=None, disari=(), not_="", t=T, kategori="D", yalniz=None):
     c = bugun(cift, parca)
     if km:
         c = kes(c, *km)
-    parcalar = kutu_disi(c, disari) if disari else [c]
+    if yalniz:                                   # yalnız kutunun İÇİNDEKİ parça(lar)
+        b = yalniz
+        dis = [[-180, -90, b[0], 90], [b[2], -90, 180, 90], [b[0], -90, b[2], b[1]], [b[0], b[3], b[2], 90]]
+        parcalar = []
+        for p in kutu_disi(c, dis):
+            parcalar += kutu_disi(p, disari) if disari else [p]
+    else:
+        parcalar = kutu_disi(c, disari) if disari else [c]
     for i, p in enumerate(parcalar, 1):
         sid = id_ if len(parcalar) == 1 else f"{id_}-{i}"
         s = sol(p, iso_kunye)
         if s is None:
             UYARI.append(f"{sid}: sol_taraf ölçülemedi")
         KAYIT.append(dict(
-            id=sid, taraflar=taraflar, f=f, t=T, kategori="D", sol_taraf=s, hat=yuvarla(p),
+            id=sid, taraflar=taraflar, f=f, t=t, kategori=kategori, sol_taraf=s, hat=yuvarla(p),
             uzunluk_km=round(uzunluk(p), 1),
             geometri_kaynagi=NE_NOT + (f" · kesim {km[0]}-{km[1]} km (uzunluktan)" if km else ""),
             degisti=degisti, tahdit=tahdit, kesinlik_km=None, kesinlik_not=KES_NOT,
@@ -267,7 +303,12 @@ def dyok(id_, taraflar, f, kutu, degisti, dayanak, tahdit=None, not_="", kategor
         id=id_, taraflar=taraflar, f=f, t=T, kategori="D-YOK", sol_taraf=None, hat=None,
         kutu=kutu, geometri_kaynagi=None, degisti=degisti, tahdit=tahdit,
         kesinlik_km=None, kesinlik_not="kutu TAHMİNİ (±10-20 km); hat 1923 haritasından okunmadı",
-        dayanak=dayanak, not_=f"29 Ekim 1923 hukukî sınıfı: {kategori_1923}. " + not_))
+        dayanak=dayanak,
+        not_=f"29 Ekim 1923 sınıfı (A–F kademesi): {YENI_SINIF.get(kategori_1923, kategori_1923)}. " + not_))
+
+
+YENI_SINIF = {"D": "E", "fiili": "D (fiilî, koordinatsız)", "C": "C",
+              "D (Javorina kesimi C)": "E (Javorina kesimi C)"}
 
 
 def degis(deger, kaynak, not_):
@@ -312,10 +353,13 @@ dyok("d1923-de-cs-4", [A, CS], "1923-01-24", [14.8, 49.9, 18.2, 51.1],
      degis(True, None, "Prusya Silezyası kesimi 1945'ten sonra Çek-Polonya sınırı"),
      dy("versay83"), {"t": "1924-04-15", "not": "Çek-Alman komisyonu sonu"},
      "Silezya + Hlučín (md. 83); Haatsch 1923-01-24'te ÇS'ye.")
-d_kaydi("d1923-de-at", [A, AT], "1920-01-10", "AUT-DEU", {"AUT": AT, "DEU": A},
+d_kaydi("d1923-de-at", [A, AT], "1918-11-12", "AUT-DEU", {"AUT": AT, "DEU": A},
         degis(False, "Avusturya Devlet Antl. 1955 md. 5", "1938-01-01 hattı geri geldi; 1914 hattı 1919'da değişmedi (FRUS). 🟡 1955 sonrası küçük düzeltme antlaşmaları ARANMADI"),
-        dy("versay27", "at1955"), {"t": "1914 öncesi", "not": "eski işaretli hat; yeni komisyon gerekmedi"})
-dyok("d1923-saar-de", [SAAR, A], "1920-12-17", [6.35, 49.3, 7.45, 49.7],
+        dy("versay27", "sg50", "at1955"), {"t": "1914 öncesi", "not": "eski işaretli hat; yeni komisyon gerekmedi"},
+        not_="G1: f = Avusturya Cumhuriyeti'nin günü (1918-11-12). Versay md. 27(5) ve Saint-Germain md. 27(7) '3 Ağustos 1914 sınırı' diyor; "
+             "1918-11 sonrası işgal/değişiklik HİÇBİR kaynakta çıkmadı — ama 'doğrudan sürdü' diyen cümle de BULUNAMADI (◐). "
+             "Taraf 1918 öncesi `habsburg` (G2).")
+dyok("d1923-saar-de", [SAAR, A], "1920-12-17", [6.55, 49.3, 7.45, 49.7],
      degis(True, None, "1935 plebisiti ile uluslararası sınır kalktı; bugünkü Saarland sınırı farklı (1946-47 genişlemesi DOĞRULANMADI)"),
      dy("saar"), None,
      "Saar–Fransa kesimi D3-AVRUPA-BATI'nin (M-4056). Kutu yalnız kuzey/doğu kenar. 🔴 taraf kimliği devletler.js'te yok.")
@@ -360,14 +404,26 @@ dyok("d1923-lv-su", [LV, SU], "1920-08-11", [27.2, 56.0, 28.3, 57.6],
 # D: yalnız Kuhmo-Suomussalmi orta kesimi, iki uçta ~40 km pay bırakılarak.
 FI_KM = (480, 805)
 _fi = kes(bugun("FIN-RUS"), *FI_KM)
-d_kaydi("d1923-fi-su", [FI, SU], "1921-02-14", "FIN-RUS", {"FIN": FI, "RUS": SU},
+REPOLA = [30.15, 63.50, 31.20, 64.10]           # Fin denetimi 1918 sonbaharı → 1920-12-31/1921-02-14 (◐)
+d_kaydi("d1923-fi-su", [FI, SU], "1920-12-31", "FIN-RUS", {"FIN": FI, "RUS": SU},
         degis(False, "IBS 74", "orta kesim 1920 sonrası antlaşmalardan (Dorpat = eski Büyük Dükalık hattı); uç kestirmesi UZUNLUKTAN, ±40 km"),
-        dy("ibs74"), {"t": "1938", "not": "Dorpat hattı nihai protokolü 1938 (IBS 74); Karelya kıstağı işaretlemesi 1925'te başladı"},
-        km=FI_KM, not_="Petsamo kesimi 1921-23 işaretlendi (harita 1923-03-01).")
-dyok("d1923-fi-su-kuzey", [FI, SU], "1921-02-14", [28.2, round(_fi[0][1] + 0.02, 3), 30.4, 69.1],
-     degis(True, "IBS 74", "Salla-Kuusamo 1940, Petsamo 1944, Janiskoski 1947"), dy("ibs74"), None,
-     "Petsamo koridoru (md. 4) ve Salla kesimi.")
-dyok("d1923-fi-su-guney", [FI, SU], "1921-02-14", [27.7, 60.5, 32.0, round(_fi[-1][1] - 0.02, 3)],
+        dy("tartu_fi", "ibs74"), {"t": "1938", "not": "Dorpat hattı nihai protokolü 1938 (IBS 74); Karelya kıstağı işaretlemesi 1925'te başladı"},
+        km=FI_KM, not_="Petsamo kesimi 1921-23 işaretlendi (harita 1923-03-01). f: LNTS onay tutanağı 1920-12-31 (IBS 74'ün 1921-02-14'ü 45 gün tahliye sonu). "
+                       "Repola 1921-02-14'e kadar Fin denetiminde kalmış olabilir (◐) — fiilî görünümde o kesim 45 gün yanlış.")
+# G1: 1918-11-11 → 1920-12-31 — hukukî hat yok (tanıma 1918-01-04 sınır antlaşması değil); fiilî hat Büyük Dükalık sınırı (◐), Repola hariç
+d_kaydi("d1918-fi-su-fiili", [FI, SU], "1918-11-11", "FIN-RUS", {"FIN": FI, "RUS": SU},
+        degis(False, "IBS 74", "aynı Büyük Dükalık hattı"),
+        dy("tartu_fi", "ibs74"), None, km=FI_KM, disari=[REPOLA], t="1920-12-31", kategori="fiili",
+        not_="G1. Tartu önsözü Rusya'nın Finlandiya'yı 'Büyük Dükalık sınırları içinde' tanıdığını söylüyor; IBS 74 antlaşmanın 'mevcut sınırı TEYİT ettiğini' yazıyor ⇒ "
+             "1918-20'de fiilî hat bu çizgi (◐ — gün düzeyinde kaynak yok, geçici Fin seferleri hariç). Repola (Fin denetimi 1918 sonbaharı→) kutu dışı. "
+             "f = G1 alt sınırı; gerçek başlangıç daha eski (G2'de geriye uzatılacak).")
+dyok("d1923-fi-su-kuzey", [FI, SU], "1920-12-31", [28.2, round(_fi[0][1] + 0.02, 3), 30.4, 68.98],
+     degis(True, "IBS 74", "Salla-Kuusamo 1940, Janiskoski 1947"), dy("tartu_fi", "ibs74"), None,
+     "Salla kesimi. Kutu 68,98 K'de kesildi: üstünde D3-AVRUPA-BATI'nin FI-NO hatları var.")
+dyok("d1923-fi-su-petsamo", [FI, SU], "1920-12-31", [30.95, 68.9, 32.2, 70.0],
+     degis(True, "IBS 74", "Petsamo 1944'te SSCB'ye"), dy("tartu_fi", "ibs74"), None,
+     "Petsamo koridorunun doğu kenarı (md. 4; Fin idaresi 1921-02-14'ten ◐). 28,9-30,85 D arası BATI'nın FI-NO hattı — kutu dışı.")
+dyok("d1923-fi-su-guney", [FI, SU], "1920-12-31", [27.7, 60.5, 32.0, round(_fi[-1][1] - 0.02, 3)],
      degis(True, "IBS 74", "Karelya 1940 Moskova Barışı"), dy("ibs74"), {"t": "1925-", "not": "kıstak işaretlemesi 1925'te başladı"},
      "Karelya kıstağı (Sestra) ve Ladoga Karelyası.")
 
@@ -398,40 +454,92 @@ BANAT_UC = [20.10, 45.95, 20.60, 46.25]        # HU-RO-YU üçlü noktası 1923-
 
 d_kaydi("d1923-at-cs", [AT, CS], "1920-07-16", "AUT-CZE", {"AUT": AT, "CZE": CS},
         degis(False, "Avusturya Devlet Antl. 1955 md. 5", "1938-01-01 hattı. 🟡 1955 sonrası düzeltmeler ARANMADI"),
-        dy("saint_germain", "at1955", "megginson"), {"t": "1923-05-31", "not": "komisyon işi bitti (FRUS, araç özeti 🟡)"})
+        dy("saint_germain", "at1955", "megginson"), {"t": "1923-05-31", "not": "komisyon işi bitti (FRUS, araç özeti 🟡)"},
+        not_="Valtice ve Gmünd istasyon bölgesi fiilen 1920-07-31'de ÇS'ye geçti (◐) — fiilî görünümde o iki noktada 15 gün fark.")
+# G1: ÇS denetimi 1918-12 → 1919-01 eski taç toprağı hattına ulaştı; Saint-Germain md. 27(6) = eski idarî hat, Valtice ve Gmünd HARİÇ
+VALTICE = [16.60, 48.66, 16.98, 48.82]
+GMUND = [14.88, 48.70, 15.06, 48.85]
+d_kaydi("d1919-at-cs-fiili", [AT, CS], "1919-01-01", "AUT-CZE", {"AUT": AT, "CZE": CS},
+        degis(False, "Saint-Germain md. 27(6) + 1955 md. 5", "eski Bohemya/Moravya–Aşağı/Yukarı Avusturya idarî hattı"),
+        dy("sg50", "cs_isgal"), None, disari=[VALTICE, GMUND], t="1920-07-16", kategori="fiili",
+        not_="G1. f: 'Ocak 1919' (◐, gün BULUNAMADI — Liberec 1918-12-16, Opava 1918-12-18, Znojmo 18/27 Aralık çelişkili, uç cepler Ocak 1919). "
+             "Valtice ve Gmünd kutu dışı: o iki yer 1920-07-31'e kadar Avusturya'daydı, hat farklıydı.")
 d_kaydi("d1923-at-cs-morava", [AT, CS], "1920-07-16", "AUT-SVK", {"AUT": AT, "SVK": CS},
         degis(False, "Avusturya Devlet Antl. 1955 md. 5 + IBS 66", "Morava kesimi 1938 hattı; güney ucu 1947'de AT-HU'dan AT-CS'ye geçti (kutu dışı)"),
         dy("saint_germain", "at1955", "ibs66"), {"t": "1923-05-31", "not": "🟡"}, disari=[RAJKA])
-d_kaydi("d1923-at-hu", [AT, HU], "1921-07-26", "AUT-HUN", {"AUT": AT, "HUN": HU},
-        degis(False, "Macaristan Barışı 1947 md. 1(1)", "1938-01-01 hattı; kuzey ucu 1947 Rajka değişikliği (kutu dışı). 🟡 1947 sonrası ARANMADI"),
-        dy("trianon", "hu1947", "grandits"), {"t": "1924-08-02", "not": "komisyon dağıldı (🔴 ikincil); Pinka köyleri 1922-09, Szentpéterfa/Ólmod 1923-01-27 onay"},
-        disari=[RAJKA], not_="Sopron plebisiti 1921-12; köy takaslarının 29 Ekim 1923'ten ÖNCE bittiği görünüyor (🔴 birincil kaynak yok).")
-d_kaydi("d1923-at-yu", [AT, YU], "1920-07-16", "AUT-SVN", {"AUT": AT, "SVN": YU},
-        degis(False, "Avusturya Devlet Antl. 1955 md. 5", "1938-01-01 hattı. 🟡 1955 sonrası ARANMADI"),
-        dy("saint_germain", "at1955"), {"t": None, "not": "komisyon bitiş günü BULUNAMADI"},
-        not_="Karintiya plebisiti 1920-10-10.")
+SOPRON = [16.38, 47.57, 16.80, 47.80]          # plebisit bölgesi — Trianon hattı onu Avusturya'ya veriyordu
+PINKA = [16.38, 46.98, 16.62, 47.16]           # Pinka vadisi köyleri 1922-09 (🟡) · Szentpéterfa (🔴)
+OLMOD = [16.52, 47.37, 16.68, 47.46]           # Ólmod 1923 başı (🔴)
+_AH_DAY = dy("trianon", "hu1947", "grandits", "jedlicka")
+_AH_DEG = degis(False, "Macaristan Barışı 1947 md. 1(1)", "1938-01-01 hattı; kuzey ucu 1947 Rajka değişikliği (kutu dışı). 🟡 1947 sonrası ARANMADI")
+d_kaydi("d1923-at-hu", [AT, HU], "1921-07-26", "AUT-HUN", {"AUT": AT, "HUN": HU}, _AH_DEG, _AH_DAY,
+        {"t": "1924-08-02", "not": "komisyon dağıldı (🔴 ikincil)"},
+        disari=[RAJKA, SOPRON, PINKA, OLMOD],
+        not_="🔴 FİİLÎ görünüm: Burgenland Macar denetiminde kaldı — Avusturya ordusu 1921-11-13/30, devir 1921-12-03 (Jedlicka; habsburger.net 12-05). "
+             "1921-07-26 → 12-03 arası fiilî hat eski 1867 hattıydı ve koordinatı YOK ⇒ D kaydı yazılmadı, bu E çizgisi o aralıkta fiilen yanlış.")
+d_kaydi("d1922-at-hu-sopron", [AT, HU], "1922-01-01", "AUT-HUN", {"AUT": AT, "HUN": HU}, _AH_DEG,
+        dy("mnl_sopron", "hu1947", "grandits"), None, disari=[RAJKA], yalniz=SOPRON,
+        not_="Sopron plebisiti 1921-12-14/15/16 → devir tutanağı 1922-01-01 (MNL). Öncesinde Trianon hattı Sopron'u Avusturya'ya veriyordu — o hat bu kutuda ÇİZİLMEDİ (koordinatı yok).")
+dyok("d1923-at-hu-pinka", [AT, HU], "1921-07-26", PINKA,
+     degis(False, "1947 md. 1(1)", "1923 hattı bugünkü; DEĞİŞME günü kaynaksız"), dy("grandits", "rubicon"), None,
+     "Pinka vadisi köyleri 1922-09 MC kararı (🟡), Szentpéterfa takası (🔴). 1923-10-29'da hat bugünküyle aynı olabilir ama başlangıç günü kaynaksız ⇒ çizilmedi.")
+dyok("d1923-at-hu-olmod", [AT, HU], "1921-07-26", OLMOD,
+     degis(False, "1947 md. 1(1)", "aynı gerekçe"), dy("grandits"), None, "Ólmod devri 1923 başı (🔴 birincil kaynak yok).")
+_AY_DEG = degis(False, "Avusturya Devlet Antl. 1955 md. 5", "1938-01-01 hattı. 🟡 1955 sonrası ARANMADI")
+KARINTIYA_DOGU = [15.0, 45.0, 17.5, 48.0]
+KARINTIYA_BATI = [12.0, 45.0, 15.0, 48.0]
+d_kaydi("d1923-at-yu-stiriya", [AT, YU], "1920-07-16", "AUT-SVN", {"AUT": AT, "SVN": YU}, _AY_DEG,
+        dy("saint_germain", "at1955", "suppan"), {"t": None, "not": "komisyon bitiş günü BULUNAMADI"},
+        disari=[KARINTIYA_BATI],
+        not_="Steiermark kesimi (15° D doğusu — ayrım boylamdan, ±5 km). Radkersburg SHS'de 1918-12-01 → 1920-07-26 (Suppan): fiilî görünümde 10 gün fark.")
+d_kaydi("d1923-at-yu-karintiya", [AT, YU], "1920-10-10", "AUT-SVN", {"AUT": AT, "SVN": YU}, _AY_DEG,
+        dy("sg50", "suppan", "at1955"), {"t": None, "not": "komisyon bitiş günü BULUNAMADI"},
+        disari=[KARINTIYA_DOGU],
+        not_="Karintiya: md. 27(3) hattı plebisite 'bağlı'; 1920-10-10 oylamasında %59,04 Avusturya (Suppan) ⇒ hat kesinleşti. "
+             "Sonucun resmî ilan günü BULUNAMADI; 1. bölge 1920-11-18'de Avusturya'ya devredildi (fiilî görünüm 39 gün fark). "
+             "🟡 Plebisit bölgesi dışındaki batı Karavanke kesimi 1920-07-16'dan beri kesin olabilir — ayrılmadı, erken başlatmamak için hepsi 10-10.")
 d_kaydi("d1923-hu-cs", [HU, CS], "1921-07-26", "HUN-SVK", {"HUN": HU, "SVK": CS},
         degis(False, "IBS 66", "Trianon hattı 1947'de geri geldi — Rajka köprübaşı ve 1952 takas bölgeleri kutu dışı"),
         dy("trianon", "ibs66", "rubicon"), {"t": "1925", "not": "komisyon 1921-25 (IBS 66); Somoskő köyleri 1923-04 MC kararıyla Macaristan'a"},
         disari=[RAJKA, SOMOSKO, SATORAL])
+TRI_HCR = [22.80, 47.90, 22.95, 48.00]
+# G1: Paris hattı (1919-06-12/13) = sonraki Trianon hattı (IBS 76: "followed in the clauses"); ÇS ordusu tarafsız bölgeyi 1919-07-25'te aldı
+d_kaydi("d1919-hu-cs-fiili", [HU, CS], "1919-07-25", "HUN-SVK", {"HUN": HU, "SVK": CS},
+        degis(False, "IBS 66", "aynı Trianon hattı"), dy("ibs76", "fedinec"), None,
+        disari=[RAJKA, SOMOSKO, SATORAL], t="1921-07-26", kategori="fiili",
+        not_="G1 — Slovakya kesimi. 1919-06-13 Clemenceau notası hattı Trianon'daki hatla aynı (IBS 76, Fedinec); Macar Kızıl Ordusu 1919-06-30'dan çekildi (◐), "
+             "ÇS ordusu 1919-07-01 Pozsony mütarekesinin tarafsız bölgesini 1919-07-25'te aldı (Fedinec ✓). "
+             "Komisyon düzeltmeleri (1921-25) ve Somoskő (1923) kutu dışı/tahdit. Öncesi (1918-12-06 Bartha-Hodža hattı) koordinatsız ⇒ yazılmadı.")
 d_kaydi("d1923-hu-cs-rutenya", [HU, CS], "1921-07-26", "HUN-UKR", {"HUN": HU, "UKR": CS},
         degis(False, "IBS 76", "1947 md. 1(3): HU-SSCB hattı = 1938-01-01 HU-ÇS hattı"),
         dy("trianon", "ibs76"), {"t": "1925", "not": "komisyon 1921-25 (IBS 66/76)"},
-        disari=[[22.80, 47.90, 22.95, 48.00]], not_="Rutenya kesimi; HU-CS-RO üçlü noktası çevresi kutu dışı.")
+        disari=[TRI_HCR], not_="Rutenya kesimi; HU-CS-RO üçlü noktası çevresi kutu dışı.")
+d_kaydi("d1920-hu-cs-rutenya-fiili", [HU, CS], "1920-08-30", "HUN-UKR", {"HUN": HU, "UKR": CS},
+        degis(False, "IBS 76", "aynı hat"), dy("ibs76", "fedinec"), None,
+        disari=[TRI_HCR], t="1921-07-26", kategori="fiili",
+        not_="G1 — Rumen ordusu 1919-04-16'dan Rutenya'nın ~%65'ini (Çop–Berehove hattı dahil) tuttu; Berehove 1919-07-23, Vinohradiv 1920-05, "
+             "son olarak Yasinya 1920-08-30'da boşaltıldı (Fedinec ✓). Bu kesimde ÇS-HU fiilî teması ancak o günden kesin ⇒ f muhafazakâr.")
 d_kaydi("d1923-hu-yu-slovenya", [HU, YU], "1921-07-26", "HUN-SVN", {"HUN": HU, "SVN": YU},
         degis(False, "Macaristan Barışı 1947 md. 1(1)", "1938-01-01 hattı. 🟡 1947 sonrası ARANMADI"),
         dy("trianon", "hu1947"), {"t": "1924-07-10", "not": "komisyon (🔴 ikincil); Lendva itirazı 1922-11 karara bağlandı"})
 d_kaydi("d1923-hu-yu-hirvatistan", [HU, YU], "1921-07-26", "HRV-HUN", {"HUN": HU, "HRV": YU},
         degis(False, "Macaristan Barışı 1947 md. 1(1)", "1938-01-01 hattı. 🟡 1947 sonrası ARANMADI"),
-        dy("trianon", "hu1947"), {"t": "1924-07-10", "not": "🔴 ikincil"},
-        not_="Baranya 1921-08 boşaltıldı.")
+        dy("trianon", "hu1947", "gyanti", "suppan"), {"t": "1924-07-10", "not": "🔴 ikincil"},
+        not_="🔴 FİİLÎ görünüm: SHS, Belgrad mütarekesi (1918-11-13) hattıyla Pécs-Baja-Barcs'ı tuttu; Pécs 1921-08-22'de boşaltıldı (MNL ✓, Baja günü BULUNAMADI). "
+             "1921-07-26 → 08-22 arası fiilî hat farklı ve koordinatsız ⇒ D kaydı yazılmadı.")
 d_kaydi("d1923-hu-yu-sirbistan", [HU, YU], "1921-07-26", "HUN-SRB", {"HUN": HU, "SRB": YU},
         degis(False, "Macaristan Barışı 1947 md. 1(1)", "1938-01-01 hattı; üçlü nokta çevresi 1923-24'te kaydı (kutu dışı)"),
         dy("trianon", "hu1947", "timar"), {"t": "1924-07-10", "not": "🔴 ikincil"}, disari=[BANAT_UC])
 d_kaydi("d1923-hu-ro", [HU, RO], "1921-07-26", "HUN-ROU", {"HUN": HU, "ROU": RO},
         degis(False, "IBS 47 + 1947 md. 1(2)", "komisyon 11 kesimin 5'inde küçük düzeltme (antlaşma yetkisiyle — tahdit); üçlü nokta çevresi kutu dışı"),
         dy("trianon", "ibs47", "hu1947", "timar"), {"t": "1925", "not": "komisyon 1921-08-01'de başladı; bitiş BULUNAMADI (genel 1921-25)"},
-        disari=[BANAT_UC, [22.80, 47.90, 22.95, 48.00]])
+        disari=[BANAT_UC, TRI_HCR])
+# G1: Rumen ordusu Tisza ötesini 1920-02-24 → 03-30 boşalttı (Fedinec ✓); Gyula/Békéscsaba 03-31 (◐) ⇒ muhafazakâr f
+d_kaydi("d1920-hu-ro-fiili", [HU, RO], "1920-03-31", "HUN-ROU", {"HUN": HU, "ROU": RO},
+        degis(False, "IBS 47", "aynı Paris/Trianon hattı"), dy("ibs47", "fedinec", "perczel"), None,
+        disari=[BANAT_UC, TRI_HCR], t="1921-07-26", kategori="fiili",
+        not_="G1. 1919-06-13 telgrafındaki hat Trianon md. 27(3) ile esasen aynı (IBS 47). 1919-04-16 → 1920-03 Rumen işgali hattın ötesindeydi (Budapeşte 1919-08-04; "
+             "Tisza gerisine 1919-11-23) ⇒ o dönem koordinatsız, yazılmadı.")
 
 # Romanya–Ukrayna bugünkü çizgisi = 214 km eski ÇS-RO + 53 km eski PL-RO (IBS 43).
 # NE 347,7 km ↔ resmî 421 km ⇒ ölçek 0,826 → ÇS-RO ≈ 0-177, PL-RO ≈ 177-221 NE km.
@@ -448,6 +556,11 @@ d_kaydi("d1923-pl-ro", [PL, RO], "1923-03-15", "ROU-UKR", {"ROU": RO, "UKR": PL}
         degis(False, "IBS 43", "bugünkü RO-UA hattının 53 km'si 1939 öncesi PL-RO hattı"),
         dy("ibs43", "kb1923", "sevres1920"), {"t": "1935-05-17", "not": "nihai protokol (LNTS 173:4027); 1923'te işaretsiz"},
         km=(192, 212), not_="Eski Galiçya–Macaristan kadastro hattı. Uçlar uzunluktan kestirildi (±15 km).")
+d_kaydi("d1919-pl-ro-fiili", [PL, RO], "1919-08-27", "ROU-UKR", {"ROU": RO, "UKR": PL},
+        degis(False, "IBS 43", "aynı eski kadastro hattı"), dy("ibs43", "pokutya"), None,
+        km=(192, 212), t="1923-03-15", kategori="fiili",
+        not_="G1. Rumen ordusu Pokutya'ya 1919-05-24'te girdi, 1919-08-17→27 boşalttı (◐ ikincil) ⇒ iki denetim eski hatta buluştu. "
+             "Polonya'nın devralma günü BULUNAMADI. Hukukî tanıma (Doğu Galiçya) 1923-03-15.")
 _pr = kes(bugun("ROU-UKR"), 212, 240)
 dyok("d1923-pl-ro-1940", [PL, RO], "1923-03-15", kutu_of(_pr),
      degis(True, "IBS 43", "1940 Kuzey Bukovina hattı buradan ayrılıyor — geçiş belirsizliği"), dy("ibs43"), None, "")
@@ -489,6 +602,26 @@ dyok("d1923-al-yu-vermos", [AL, YU], "1921-11-09", VERMOS,
      degis(True, "IBS 116", "1925'te değişti (dipnot; kapsamı ÇELİŞKİLİ)"), dy("ibs116"), None, "", kategori_1923="C")
 
 # ---------------------------------------------------------------- denetim + yazım
+# ---------------------------------------------------------------- ADIM 1: sinif (GORUNUM-ABCD-0916 en üst bölüm)
+# D→E (F kanıtı TANINMA-1923 tablosu gelene kadar yok) · fiili→D (koordinat kesin) · C→C · D-YOK→YOK
+TANINMA_YOK = "F kanıtı bekliyor: denetim/TANINMA-1923-0916.json (D-KUNYE) gelene kadar E"
+for k in KAYIT:
+    kat = k["kategori"]
+    if kat == "D":
+        k["sinif"], k["sinif_not"] = "E", TANINMA_YOK
+    elif kat == "fiili":
+        k["sinif"] = "D"
+        k["sinif_not"] = ("fiilî hat — hukuken geçersiz; koordinat: "
+                          + ("nehir orta çizgisi (Dinyester)" if k["id"] == "d1923-ro-su"
+                             else "sonraki hukukî hatla çakıştığı aralık (bugünkü çizgi, kaynak 'değişmedi' diyor)"))
+    elif kat == "C":
+        k["sinif"] = "C"
+    elif kat == "D-YOK":
+        k["sinif"] = "YOK"
+        k["sinif_not"] = "1923 koordinatı yok; hukukî sınıfı notta (29 Ekim 1923 hukukî sınıfı: …)"
+    else:
+        raise SystemExit(f"🔴 bilinmeyen kategori {kat} ({k['id']})")
+
 idler = [k["id"] for k in KAYIT]
 assert len(idler) == len(set(idler)), "🔴 mükerrer id"
 for k in KAYIT:
@@ -497,7 +630,7 @@ for k in KAYIT:
         assert k["hat"] and len(k["hat"]) >= 2, k["id"]
     else:
         assert k["kutu"], k["id"]
-    if k["kategori"] == "D":
+    if (k.get("geometri_kaynagi") or "").startswith("Natural Earth 10m admin"):
         # bugünkü geometri yalnız degisti:false ile (şartname md.3)
         assert k["degisti"]["deger"] is False, k["id"]
     for a in k["dayanak"]:
@@ -516,7 +649,8 @@ bas = f"""// -*- coding: utf-8 -*-
 // data/d_sinirlar_avrupa_orta.js — D KATEGORİSİ SINIRLAR · ORTA/DOĞU AVRUPA · 29 Ekim 1923
 // D3-AVRUPA-ORTA · 16 Eylül 2026 · şema denetim/SEMA-D-0916.md · rapor denetim/D3-AVRUPA-ORTA-0916.md
 // Üretici: denetim/ARAC-D3ORTA-URET-0916.py — 🔴 ELLE DÜZENLEME, yeniden üret.
-// kategori: D · C · fiili · D-YOK (bugünkü çizgi 1923'ü göstermez ya da bilinmiyor; kutuda D çizilmez)
+// 🔴 BAĞLAYICI ALAN `sinif` (GORUNUM-ABCD-0916 en üst: D fiilî · E hukukî · F E+tanınma · C kaba · YOK).
+// `kategori` eski adlandırmadır (D=hukukî) — geçiş dönemi için duruyor, OKUMA.
 // Bugünkü geometri YALNIZ degisti.deger===false kayıtlarda kullanıldı (D-1923-0916 md.3).
 // 🔴 devletler.js'te OLMAYAN taraf kimlikleri: {', '.join(eksik) or 'yok'} (D-KUNYE taslağında)
 """
@@ -525,6 +659,178 @@ with open(CIKTI, "w", encoding="utf-8", newline="\n") as f:
     for k in KAYIT:
         f.write(json.dumps(k, ensure_ascii=False, separators=(",", ":")) + ",\n")
     f.write("];\n")
+
+# ================================================================ ADIM 3: KRONOLOJİ
+# Her E/F/D değişikliği için madde → data/kronoloji_sinir_avrupa_orta.js (window.KRONOLOJI_SINIR_AVRUPA_ORTA)
+# Şema: oturumlar/KRONOLOJI-SARTNAME.md §3 + `taraflar` (ilgili iki/üç devlet) + `sinif` + `sinir_id` (kayıt öneki).
+KRON_CIKTI = KOK + "data/kronoloji_sinir_avrupa_orta.js"
+
+
+def kaynak_metni(*anahtar):
+    return " · ".join(f"{K[a]['ad']} — {K[a]['madde']}" for a in anahtar)
+
+
+def m(t, devlet, taraflar, b, tur, onem, dunya, yer, d, kaynaklar, sinif, sinir_id):
+    out = dict(t=t, devlet=devlet, taraflar=taraflar, b=b, tur=tur, onem=onem, dunya=dunya, kapsam="dis",
+               etiket=["sinir", "1918-1923", f"sinif-{sinif.lower()}", "konu-siyasi"] + taraflar)
+    if isinstance(yer, str):
+        out["yer_id"] = yer
+    else:
+        out["yer_id"], out["yer_kon"] = "", yer
+    out.update(d=d, kaynak=kaynak_metni(*kaynaklar), sinif=sinif, sinir_id=sinir_id)
+    return out
+
+
+KRON = [
+    m("1919-01-01", CS, [CS, AT], "Çekoslovakya Alman Bohemyası ve Güney Moravya'yı denetime aldı", "toprak-kazanc", 4, 2,
+      [48.855, 16.049],
+      "Aralık 1918 – Ocak 1919 arasında Çekoslovak birlikleri Liberec, Opava ve Znojmo başta olmak üzere Almanca konuşulan bölgeleri aldı; uç cepler Ocak 1919'da düştü. "
+      "Avusturya ile fiilî hat böylece eski Bohemya-Moravya idarî sınırına oturdu; yalnız Valtice ve Gmünd istasyon bölgesi 1920 yazına kadar Avusturya'da kaldı. "
+      "Gün kesin değildir (Ocak 1919; Znojmo için 18 ve 27 Aralık tarihleri çelişiyor).",
+      ["cs_isgal", "sg50"], "D", "d1919-at-cs-fiili"),
+    m("1919-07-25", CS, [CS, HU], "Çekoslovak ordusu Slovakya'da Paris hattına ulaştı", "toprak-kazanc", 4, 2, "Bratislava",
+      "Paris Barış Konferansı'nın 13 Haziran 1919 notasıyla bildirdiği Çekoslovak-Macar hattı, Macar Kızıl Ordusu'nun Slovakya'dan çekilmesi ve "
+      "1 Temmuz Pozsony mütarekesiyle kurulan tarafsız bölgenin 25 Temmuz'da Çekoslovak ordusunca alınmasıyla fiilî sınır oldu. Bu hat Trianon Antlaşması'na esasen aynen girdi.",
+      ["fedinec", "ibs76"], "D", "d1919-hu-cs-fiili"),
+    m("1919-08-27", RO, [RO, PL], "Romanya Pokutya'yı boşalttı: Polonya ile temas eski Galiçya–Bukovina hattında", "toprak-kayip", 3, 1, [48.531, 25.037],
+      "Mayıs 1919'da Pokutya'ya giren Rumen birlikleri 17-27 Ağustos 1919'da bölgeyi boşalttı; böylece Polonya ve Romanya denetimi eski Avusturya kadastro hattında buluştu. "
+      "Polonya'nın bölgeyi devraldığı gün kaynakta bulunamadı; tarih ikincil kaynağa dayanır.",
+      ["pokutya", "ibs43"], "D", "d1919-pl-ro-fiili"),
+    m("1920-01-10", PL, [PL, A], "Versay Antlaşması yürürlüğe girdi: Almanya–Polonya sınırı", "antlasma", 5, 5, [52.408, 16.934],
+      "Versay Antlaşması'nın yürürlüğe girmesiyle 27. ve 87. maddelerde tarif edilen Almanya-Polonya sınırı (Pomeranya, Poznan, Aşağı Silezya kesimi) hukuken geçerli oldu. "
+      "Doğu Prusya ve Yukarı Silezya kesimleri plebisitlere bırakıldı; sınır tahdit komisyonu işini 18 Ekim 1924'te bitirdi.",
+      ["versay27", "versay87"], "E", "d1923-de-pl-1"),
+    m("1920-01-10", CS, [CS, A], "Versay Antlaşması: Almanya–Çekoslovakya sınırı ve Hlučín", "antlasma", 4, 5, [49.897, 18.190],
+      "Versay md. 27(6) Almanya ile Çekoslovakya arasında 3 Ağustos 1914'teki Almanya-Avusturya sınırını esas aldı; md. 83 ile Prusya Silezyası'ndaki Hlučín bölgesi Çekoslovakya'ya bırakıldı. "
+      "Hlučín hattının son pürüzleri Ocak 1923'te giderildi.",
+      ["versay83"], "E", "d1923-de-cs"),
+    m("1920-03-31", RO, [RO, HU], "Rumen ordusu Tisza ötesini boşalttı; fiilî hat Paris hattına çekildi", "toprak-kayip", 4, 2, "Debrecen",
+      "1919 baharında Macaristan içlerine ilerleyen ve Ağustos'ta Budapeşte'ye giren Rumen ordusu, Kasım 1919'da Tisza gerisine, 24 Şubat – 30 Mart 1920 arasında da "
+      "Paris Konferansı'nın çizdiği hattın gerisine çekildi. Böylece fiilî Macar-Rumen sınırı sonradan Trianon'a giren hatla çakıştı; Gyula ve Békéscsaba'nın 31 Mart'ta boşaltıldığı ikincil kaynakta geçer.",
+      ["fedinec", "perczel", "ibs47"], "D", "d1920-hu-ro-fiili"),
+    m("1920-07-16", AT, [AT, CS], "Saint-Germain Antlaşması yürürlüğe girdi: Avusturya–Çekoslovakya sınırı", "antlasma", 5, 4, [48.770, 14.980],
+      "Saint-Germain md. 27(6) Avusturya ile Çekoslovakya arasına eski idarî sınırı koydu; Feldsberg (Valtice) demiryolu bölgesi ile Gmünd istasyonu Çekoslovakya'ya bırakıldı. "
+      "Bu iki yer 31 Temmuz 1920'de fiilen devredildi (ikincil kaynak).",
+      ["saint_germain", "sg50", "cs_isgal"], "E", "d1923-at-cs"),
+    m("1920-07-16", AT, [AT, YU], "Saint-Germain: Avusturya–SHS sınırı (Steiermark kesimi)", "antlasma", 4, 4, [46.688, 15.988],
+      "Saint-Germain Antlaşması'nın yürürlüğe girmesiyle Avusturya ile Sırp-Hırvat-Sloven Krallığı arasındaki Steiermark sınırı hukuken kesinleşti. "
+      "1 Aralık 1918'den beri SHS birliklerinin elindeki Radkersburg, müttefik tahliye komisyonunca 26 Temmuz 1920'de Avusturya'ya verildi.",
+      ["saint_germain", "suppan"], "E", "d1923-at-yu-stiriya"),
+    m("1920-07-28", CS, [CS, PL], "Büyükelçiler Konferansı Cieszyn, Spiş ve Orava'yı paylaştırdı", "diplomasi", 4, 3, [49.750, 18.632],
+      "Müttefik Büyükelçiler Konferansı'nın 28 Temmuz 1920 kararıyla Cieszyn Silezyası, Spiş ve Orava Çekoslovakya ile Polonya arasında bölündü ve iki devlet kararı kabul etti. "
+      "Javorina kesimindeki anlaşmazlık 1923 sonunda Uluslararası Daimî Adalet Divanı'na taşındı; bu yüzden o kesim 29 Ekim 1923'te hâlâ açıktı.",
+      ["pcij8"], "E", "d1923-cs-pl"),
+    m("1920-08-30", CS, [CS, HU], "Rumen ordusu Karpat Ötesi Rutenya'yı tamamen boşalttı", "toprak-kazanc", 3, 1, "Ungvár (Uzhhorod)",
+      "Nisan 1919'dan beri Rutenya'nın büyük bölümünü tutan Rumen ordusu, Şubat 1920'den itibaren kademeli çekildi ve 30 Ağustos 1920'de Yasinya'yı da boşalttı. "
+      "Böylece Macaristan ile Rutenya arasındaki bütün kesimde Çekoslovak denetimi Paris hattına dayandı.",
+      ["fedinec"], "D", "d1920-hu-cs-rutenya-fiili"),
+    m("1920-08-31", PL, [PL, A], "Doğu Prusya plebisitleri sonrası sınır: köyler Polonya'ya", "toprak-kazanc", 3, 2, [53.778, 20.480],
+      "11 Temmuz 1920'de Allenstein ve Marienwerder bölgelerinde yapılan plebisitlerde büyük çoğunluk Doğu Prusya'da kalmayı seçti. "
+      "Büyükelçiler Konferansı yine de Allenstein'dan üç, Marienwerder'den beş köyü Polonya'ya bıraktı; Allenstein köyleri 31 Ağustos 1920'de devredildi.",
+      ["versay28", "versay87"], "E", "d1923-de-pl-3"),
+    m("1920-10-10", AT, [AT, YU], "Karintiya plebisiti: 1. bölge Avusturya'da kaldı", "toprak-kazanc", 4, 3, [46.624, 14.308],
+      "Saint-Germain md. 49-50 uyarınca yapılan oylamada Klagenfurt havzasının güneyindeki 1. bölgede oyların %59,04'ü Avusturya'dan yana çıktı ve Karintiya sınırı Karavankeler üzerinde kesinleşti. "
+      "Bölge 18 Kasım 1920'de plebisit komisyonunca Avusturya'ya devredildi; sonucun resmî ilan günü bulunamadı.",
+      ["sg50", "suppan"], "E", "d1923-at-yu-karintiya"),
+    m("1920-10-19", EE, [EE, LV], "Estonya–Letonya sınır sözleşmesi: Valga ikiye bölündü", "antlasma", 4, 1, [57.777, 26.047],
+      "İngiliz hakem Tallents'in 3 Temmuz 1920 kararına dayanan sözleşmeyle Estonya-Letonya sınırı belirlendi ve Valga/Valka şehri iki devlet arasında bölündü. "
+      "Nihai sınır anlaşması Kasım 1923'te Tallinn'de imzalandı (gün bulunamadı).",
+      ["ee_mfa", "lv_ee_1992"], "E", "d1923-ee-lv"),
+    m("1920-03-30", EE, [EE, SU], "Tartu Barışı yürürlüğe girdi: Estonya–Sovyet Rusya sınırı", "antlasma", 5, 3, "Tartu (Dorpat)",
+      "2 Şubat 1920'de imzalanan Tartu Barışı'nın 3. maddesi Estonya ile Sovyet Rusya arasındaki sınırı çizdi; Narva'nın doğusu ve Petseri bölgesi Estonya'da kaldı. "
+      "Onay belgelerinin 30 Mart 1920'de değişildiği bilgisi ikincil kaynağa dayanır.",
+      ["tartu_ee"], "E", "d1923-ee-su"),
+    m("1920-08-11", LV, [LV, SU], "Riga Barışı: Letonya–Sovyet Rusya sınırı", "antlasma", 5, 3, "Riga",
+      "Letonya ile Sovyet Rusya arasında Riga'da imzalanan barış antlaşması iki devlet arasındaki sınırı belirledi ve Abrene (Pıtalovo) bölgesini Letonya'ya bıraktı. "
+      "Antlaşmanın sınır maddesinin numarası ve yürürlük günü bu çalışmada bulunamadı; tarih imza günüdür.",
+      ["riga1920"], "E", "d1923-lv-su"),
+    m("1920-11-15", DZ, [DZ, A, PL], "Danzig Serbest Şehri kuruldu", "kurulus", 5, 3, "Gdansk",
+      "Versay md. 100-102 uyarınca Almanya'dan ayrılan Danzig, Büyükelçiler Konferansı kararının yürürlüğe girmesiyle Milletler Cemiyeti korumasında serbest şehir oldu. "
+      "Şehrin Doğu Prusya ve Polonya ile sınırları antlaşmada tarif edilmişti; tahdit komisyonunun bitiş günü bulunamadı.",
+      ["versay100"], "E", "d1923-dz"),
+    m("1920-12-17", SAAR, [SAAR, A], "Saar Havzası'nın Almanya ile sınırı notalarla tespit edildi", "diplomasi", 2, 1, [49.234, 6.997],
+      "Versay md. 48'e göre Milletler Cemiyeti idaresine bırakılan Saar Havzası'nın sınırları, Büyükelçiler Konferansı ile Almanya arasında 16-17 Aralık 1920'de değişilen notalarla kesinleşti.",
+      ["saar"], "E", "d1923-saar"),
+    m("1920-12-31", FI, [FI, SU], "Tartu Barışı (Finlandiya) yürürlüğe girdi: Petsamo Finlandiya'ya", "antlasma", 5, 3, "Petsamo (Peçenga)",
+      "14 Ekim 1920'de imzalanan Tartu Barışı, onay belgelerinin 31 Aralık 1920'de Moskova'da değişilmesiyle yürürlüğe girdi. "
+      "Antlaşma eski Büyük Dükalık sınırını teyit etti, Petsamo'yu Finlandiya'ya verdi, Repola ve Porajärvi'yi Rusya'ya bıraktı; tahliye için 45 gün tanındı.",
+      ["tartu_fi", "ibs74"], "E", "d1923-fi-su"),
+    m("1921-04-30", PL, [PL, SU], "Riga Antlaşması yürürlüğe girdi: Polonya–Sovyet sınırı", "antlasma", 5, 4, "Minsk",
+      "18 Mart 1921'de imzalanan Riga Antlaşması'nın onay belgeleri 30 Nisan 1921'de Minsk'te değişildi. "
+      "2. madde Polonya'nın doğu sınırını Dvina'dan Zbruç'un Dinyester'e karıştığı yere kadar çizdi; hat Kasım 1922'de arazide işaretlendi.",
+      ["riga1921"], "E", "d1923-pl-su"),
+    m("1921-05-14", LV, [LV, LT], "Letonya–Litvanya sınır sözleşmesi: Palanga Litvanya'ya", "antlasma", 4, 1, [55.918, 21.068],
+      "İngiliz hakem Simpson'ın Mart 1921 kararıyla Palanga Litvanya'ya, İlukste bölgesi Letonya'ya bırakıldı; Riga'da imzalanan 14 Mayıs 1921 sözleşmesi hattın arazide kurulmasını düzenledi. "
+      "Hakem kararının günü kaynaklarda 20 ve 21 Mart olarak farklı geçer.",
+      ["nekrasas", "lv_lt_1993"], "E", "d1923-lt-lv"),
+    m("1921-07-26", HU, [HU, CS], "Trianon Antlaşması yürürlüğe girdi: Macaristan–Çekoslovakya sınırı", "antlasma", 5, 4, "Bratislava",
+      "Trianon md. 27(4) ile çizilen Macar-Çekoslovak sınırı hukuken geçerli oldu; hat 1919'dan beri fiilî sınırdı. Karma komisyon sınırı 1921-1925 arasında işaretledi.",
+      ["trianon", "ibs66"], "E", "d1923-hu-cs"),
+    m("1921-07-26", HU, [HU, RO], "Trianon Antlaşması: Macaristan–Romanya sınırı", "antlasma", 5, 4, "Varad (Oradea)",
+      "Trianon md. 27(3) Macaristan ile Romanya arasındaki sınırı çizdi; hat, Rumen ordusunun Mart 1920'de çekildiği Paris hattıyla esasen aynıdır. "
+      "Sınır komisyonu 1 Ağustos 1921'de işe başladı ve 11 kesimin beşinde küçük düzeltme yaptı.",
+      ["trianon", "ibs47"], "E", "d1923-hu-ro"),
+    m("1921-07-26", HU, [HU, YU], "Trianon Antlaşması: Macaristan–SHS sınırı", "antlasma", 5, 4, "Segedin (Szeged)",
+      "Trianon md. 27(2) Macaristan ile Sırp-Hırvat-Sloven Krallığı arasındaki sınırı çizdi. "
+      "Ancak SHS birlikleri Belgrad mütarekesi hattının gerisindeki Pécs ve Baranya'yı Ağustos 1921'e kadar tuttu; Macar ordusu Pécs'e 22 Ağustos 1921'de girdi.",
+      ["trianon", "gyanti", "suppan"], "E", "d1923-hu-yu"),
+    m("1921-07-26", AT, [AT, HU], "Trianon Antlaşması: Burgenland Avusturya'ya", "antlasma", 5, 4, [47.846, 16.527],
+      "Trianon ve Saint-Germain antlaşmalarıyla Batı Macaristan (Burgenland) Avusturya'ya bırakıldı. "
+      "Macar düzensiz birlikleri Ağustos 1921'de Avusturya jandarmasını geri püskürttü; Venedik Protokolü'nün (13 Ekim 1921) ardından Avusturya ordusu Kasım 1921'de bölgeye girdi ve devir 3 Aralık'ta tamamlandı.",
+      ["trianon", "jedlicka", "grandits"], "E", "d1923-at-hu"),
+    m("1921-11-09", AL, [AL, YU], "Büyükelçiler Konferansı Arnavutluk sınırlarını onayladı", "diplomasi", 5, 3, "Debre (Dibra)",
+      "Büyükelçiler Konferansı 1913 Londra Konferansı'nın çizdiği Arnavutluk-Sırbistan hattını bazı değişikliklerle onayladı; o sırada SHS birlikleri Lura, Oroshi ve Shëngjin çevresinde bulunuyordu. "
+      "Sınır 1922-1925 arasında işaretlendi, Sveti Naum ve Vermoş anlaşmazlıkları 1925'te çözüldü, nihai akit 30 Temmuz 1926'da imzalandı.",
+      ["ibs116", "kadria"], "E", "d1923-al-yu"),
+    m("1922-01-01", HU, [HU, AT], "Sopron plebisit bölgesi Macaristan'a devredildi", "toprak-kazanc", 4, 2, "Sopron",
+      "Venedik Protokolü uyarınca 14-16 Aralık 1921'de Sopron ve çevresindeki sekiz köyde yapılan plebisit Macaristan lehine sonuçlandı. "
+      "Bölge 1 Ocak 1922'de düzenlenen devir tutanağıyla Macaristan'a geçti ve sınır bu kesimde Trianon hattından ayrıldı.",
+      ["mnl_sopron", "jedlicka"], "E", "d1922-at-hu-sopron"),
+    m("1922-06-03", PL, [PL, A], "Yukarı Silezya Sözleşmesi yürürlüğe girdi: bölge paylaşıldı", "antlasma", 5, 3, [50.259, 19.022],
+      "20 Mart 1921 plebisitinin ardından Milletler Cemiyeti Konseyi'nin önerisini Büyükelçiler Konferansı Ekim 1921'de kabul etti (19 ve 20 Ekim günleri kaynaklarda çelişir). "
+      "15 Mayıs 1922'de imzalanan Cenevre Sözleşmesi 3 Haziran 1922'de yürürlüğe girdi ve Yukarı Silezya Almanya ile Polonya arasında bölündü.",
+      ["versay87"], "E", "d1923-de-pl-2"),
+    m("1923-01-24", CS, [CS, A], "Hlučín kesiminde son karar: Haatsch Çekoslovakya'ya", "diplomasi", 2, 1, [49.945, 18.241],
+      "Büyükelçiler Konferansı 13 Ocak 1923'te Ratibor ve Leobschütz sınırını belirledi, 24 Ocak'ta Haatsch köyünü Çekoslovakya'ya verdi. "
+      "Çek-Alman sınır komisyonu işini 15 Nisan 1924'te bitirdi.",
+      ["versay83"], "E", "d1923-de-cs-4"),
+    m("1923-02-07", RO, [RO, CS], "Büyükelçiler Konferansı Çekoslovakya–Romanya sınırını karara bağladı", "diplomasi", 3, 1, [47.928, 23.886],
+      "Büyükelçiler Konferansı'nın 7 Şubat 1923 tarihli 204-XVIII sayılı kararı, Karpat Ötesi Rutenya ile Romanya arasındaki sınırı belirledi. "
+      "Sınır komisyonu işaretlemeyi 1926'da bitirdi; bu hattın büyük bölümü bugün Romanya-Ukrayna sınırıdır.",
+      ["ibs43"], "E", "d1923-cs-ro"),
+    m("1923-02-16", LT, [LT, A], "Büyükelçiler Konferansı Memel bölgesini Litvanya'ya bıraktı", "toprak-kazanc", 4, 2, "Klaipėda (Memel)",
+      "Versay md. 99 ile Almanya'nın Müttefiklere bıraktığı Memel bölgesi, Büyükelçiler Konferansı'nın 16 Şubat 1923 kararıyla şartlı olarak Litvanya'ya tahsis edildi. "
+      "Devir sözleşmesi 8 Mayıs 1924'te imzalandı ve 25 Ağustos 1925'te yürürlüğe girdi; Almanya ile sınır Versay md. 28 hattıdır.",
+      ["memel"], "E", "d1923-de-lt-memel"),
+    m("1923-03-15", PL, [PL, RO], "Büyükelçiler Konferansı Polonya'nın doğu sınırlarını tanıdı: Romanya sınırı", "diplomasi", 4, 3, [48.531, 25.037],
+      "Büyükelçiler Konferansı'nın 15 Mart 1923 kararı Polonya'nın Doğu Galiçya üzerindeki egemenliğini tanıdı; böylece 1919'dan beri fiilî olan Polonya-Romanya sınırı hukuken de kesinleşti. "
+      "Nihai tahdit protokolü 17 Mayıs 1935'te imzalandı.",
+      ["kb1923", "ibs43"], "E", "d1923-pl-ro"),
+    m("1923-03-15", PL, [PL, LT], "Büyükelçiler Konferansı Vilnius'u Polonya'ya bıraktı; Litvanya tanımadı", "diplomasi", 5, 3, "Vilnius",
+      "Aynı karar, Milletler Cemiyeti Konseyi'nin 3 Şubat 1923'te tarafsız bölgeyi paylaştırmasıyla oluşan fiilî durumu esas alarak Polonya-Litvanya hattını Letonya sınırına kadar çizdi. "
+      "Litvanya kararı tanımadı ve iki devlet ortak işaretleme yapmadı; hat fiilî sınır olarak kaldı.",
+      ["kb1923"], "D", "d1923-pl-lt"),
+]
+ids = [k["id"] for k in KAYIT]
+for x in KRON:
+    assert any(i == x["sinir_id"] or i.startswith(x["sinir_id"] + "-") or i.startswith(x["sinir_id"]) for i in ids), x["sinir_id"]
+    assert len(x["d"]) > 60, x["b"]
+KRON.sort(key=lambda x: (x["t"], x["b"]))
+with open(KRON_CIKTI, "w", encoding="utf-8", newline="\n") as f:
+    f.write("""// -*- coding: utf-8 -*-
+// data/kronoloji_sinir_avrupa_orta.js — SINIR KRONOLOJİSİ · ORTA/DOĞU AVRUPA · 1918-11-11 → 1923-10-29 (G1)
+// window.KRONOLOJI_SINIR_AVRUPA_ORTA — D3-AVRUPA-ORTA · 16 Eylül 2026 · 🔴 ELLE DÜZENLEME
+// Üretici: denetim/ARAC-D3ORTA-URET-0916.py (hat kayıtlarıyla AYNI betik — `sinir_id` data/d_sinirlar_avrupa_orta.js'e bağlanır)
+// Şema: oturumlar/KRONOLOJI-SARTNAME.md §3 + `taraflar` (ilgili devletler) · `sinif` (E hukukî / D fiilî) · `sinir_id` (kayıt öneki)
+// index.html'e BAĞLANMADI (koordinatör ekler). Kaynak: her maddede; ◐ işaretli günler ikincil kaynaklıdır.
+// yer_id boş olanlarda yer_kon var: o yerleşim (Poznan, Klagenfurt, Katowice…) atlasta YOK.
+""")
+    f.write("\nwindow.KRONOLOJI_SINIR_AVRUPA_ORTA = [\n")
+    for x in KRON:
+        f.write(json.dumps(x, ensure_ascii=False, separators=(",", ":")) + ",\n")
+    f.write("];\n")
+print("kronoloji:", len(KRON), "madde ·", sum(x["sinif"] == "E" for x in KRON), "E ·", sum(x["sinif"] == "D" for x in KRON), "D ·",
+      sum(1 for x in KRON if x["yer_id"]), "yer_id dolu")
 
 say = {}
 for k in KAYIT:

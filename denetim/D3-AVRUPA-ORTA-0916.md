@@ -112,6 +112,52 @@ Kısaltma: ✓ kaynakta okundu · ◐ ikincil/araç özeti · ✗ bulunamadı. `
 7. **Yapmadım:** atlas koşu çıktısıyla `kiyas_atlas` (şartname md. 6 D1'e yazılmış; istenirse D1 aracı uyarlanır) ·
    arayüz katmanı (D-KATMAN'ın).
 
+## 4b. 🆕 GERİYE SARMA — `GERIYE-SARMA-0916.md` · 16 Eylül akşamı
+
+### ADIM 1 — `sinif` alanı (A–F kademesi)
+Eşleme `GORUNUM-ABCD-0916` en üst: `D→E` · `fiili→D` · `D-YOK→YOK`. **F yok:** tanınma tablosu
+(`denetim/TANINMA-1923-0916.json`) gelene kadar hepsi E, `sinif_not`ta yazılı. `kategori` alanı geçiş için duruyor;
+bağlayıcı olan `sinif`. D-YOK notlarındaki "29 Ekim 1923 sınıfı" da yeni harflere çevrildi (hukukî → E, fiilî → D).
+
+### ADIM 2 — G1 (1918-11-11 → hukukî başlangıç)
+Kural: fiilî (D) kayıt yalnız fiilî hat **sonraki hukukî hatla çakışıyor ve günü kaynaklıysa** yazıldı
+(koordinat = aynı kaynaklı bugünkü çizgi). Farklı ve koordinatsız fiilî hat → kayıt YOK (harita A/B'ye düşer).
+```
+kayıt 53 → 73  ·  sinif: E 27 · D 13 · YOK 33  ·  t<1923-10-29 olan (G1 öncül) 12
+```
+| Yeni/değişen | f → t | sınıf | dayanak |
+|---|---|---|---|
+| `d1923-de-at` f **1920-01-10 → 1918-11-12** | — | E | Versay 27(5) + Saint-Germain 27(7) "1914 sınırı"; kesintisizlik ◐ |
+| `d1923-fi-su` f **1921-02-14 → 1920-12-31** | — | E | LNTS 3 onay tutanağı "Moskova 31 Aralık 1920" ✓ — IBS 74'ün günü 45 gün tahliye sonu (çelişki ÇÖZÜLDÜ) |
+| `d1918-fi-su-fiili-1/2/3` | 1918-11-11 → 1920-12-31 | D | Büyük Dükalık hattı (Tartu önsözü, IBS 74) ◐; Repola kutu dışı; f = G1 alt sınırı |
+| `d1919-at-cs-fiili-1/2/3` | 1919-01-01 → 1920-07-16 | D | eski taç toprağı hattı; Valtice + Gmünd kutu dışı; "Ocak 1919" ◐ |
+| `d1919-hu-cs-fiili-1/2/3` | 1919-07-25 → 1921-07-26 | D | tarafsız bölge alındı (Fedinec ✓); Paris hattı = Trianon (IBS 76 ✓) |
+| `d1920-hu-cs-rutenya-fiili` | 1920-08-30 → 1921-07-26 | D | Rumen ordusu Rutenya'yı son boşaltış (Fedinec ✓) |
+| `d1920-hu-ro-fiili` | 1920-03-31 → 1921-07-26 | D | Tisza ötesi tahliye 02-24→03-30 ✓, Gyula 03-31 ◐ (muhafazakâr) |
+| `d1919-pl-ro-fiili` | 1919-08-27 → 1923-03-15 | D | Pokutya tahliyesi ◐ ikincil |
+| `d1923-at-yu` → **`-stiriya`** (1920-07-16) + **`-karintiya`** (f **1920-10-10**) | — | E | md. 27(3)/50 plebisit şartı ✓ (Suppan, forost) — ayrım 15° D |
+| `d1923-at-hu-1..4` + **`d1922-at-hu-sopron`** (f 1922-01-01) | — | E | Sopron devir tutanağı (MNL ✓); Pinka + Ólmod **YOK** kutusu (gün kaynaksız) |
+| `d1923-fi-su-petsamo` (yeni YOK), `fi-su-kuzey` daraltıldı | — | YOK | BATI'nın FI-NO hatlarını örtmesin diye |
+
+**Fiilî görünümde bilinen yanlış aralıklar** (fiilî hat farklı ve koordinatsız ⇒ D yazılamadı, E çizgisi o aralıkta fiilen yanlış;
+kayıtların `not`unda yazılı): Burgenland 1921-07-26→12-03 · Baranya/Pécs 1921-07-26→08-22 · Karintiya 1920-10-10→11-18 ·
+Radkersburg 1920-07-16→07-26 · Valtice/Gmünd 1920-07-16→07-31 · Repola 1920-12-31→1921-02-14 ◐.
+**Yazılmayan öncüller (koordinatsız):** Bartha-Hodža hattı 1918-12-06 · Belgrad mütarekesi hattı 1918-11-13 ·
+Rumen işgal hatları 1919 · eski Leitha (1867) hattı · 1913 Londra hattı (Arnavutluk) · Riga ön barış hattı 1920-10-12 ·
+Litvanya-Letonya 1919-21 fiilî durumu.
+
+### ADIM 3 — kronoloji
+`data/kronoloji_sinir_avrupa_orta.js` → `window.KRONOLOJI_SINIR_AVRUPA_ORTA` — **32 madde** (E 26 · D 6).
+Şema `KRONOLOJI-SARTNAME §3` + `taraflar` + `sinif` + `sinir_id` (hat kaydına bağ; üretici bağı sınıyor).
+`yer_id` dolu 15 · boş 17 — boşların hepsinde `yer_kon` var, çünkü yerleşim atlasta YOK:
+Poznan · Hlučín/Hať · Znojmo · Kolomiya · Gmünd · Radkersburg · Cieszyn · Allenstein · Klagenfurt · Valga ·
+Saarbrücken · Palanga · Eisenstadt · Katowice · Sighet (koordinatör nokta yazdırmak isterse liste bu).
+**index.html'e bağlanmadı** (koordinatör ekler).
+
+### Açık kalan (G1)
+- BATI'nın `d1923-it-shs` YOK kutusu (13,35-14,45 D · 45,3-46,53 K) benim `d1923-at-yu-karintiya` çizgimin 24/66 noktasını örtüyor — tahtadan BATI'ya yazıldı.
+- Taraflar 1918-11-11'den önce (`habsburg`, `rusya`…) G2'nin işi; `d1918-fi-su-fiili` ve `d1923-ro-su` G2'de geriye uzar.
+
 ## 5. Kaynaklar (bu oturumda açılıp okunanlar)
 
 - ABD Dışişleri *International Boundary Study* (FSU): IBS 43, 47, 66, 74, 76, 77, 116 — `library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibsNNN.pdf` (pypdf ile tam metin)
