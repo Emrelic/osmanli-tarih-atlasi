@@ -129992,5 +129992,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4263",
+  "zaman": "2026-09-17 02:39",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "TESLIM D3-AVRUPA-ORTA · G6 (1774-07-21 → 1699-01-26) · commit 8dba67c · rapor §4e. HAT: G6'da baslayan 10 kayit = YOK 10 (bu donemde bolgemde koordinatli cizilebilen hat YOK). YOK: Avusturya–Eflak Olt hatti 1718-07-21 → 1739-09-18 (TDV pasarofca + Kreuter 2019 'Olt'un sag yakasindaki bes ilce'; 1739 gunu ◐) · Prusya/Almanya–Avusturya Silezya 1742-07-28'den (Berlin 1742 basili metin DDB ✓; Dresden 1745, Hubertusburg 1763 teyit) · Leh–Habsburg Macar Karpatlari 1742-73 · Leh–Prusya 1701-73 (Leh–almanya pencere bolumu) · Leh–Rusya Ebedi Baris hatti 1686-1773 · Erdel/Macar taci ve Habsburg–Eflak/Bogdan Karpat hatlari (1699'dan Habsburg — TDV erdel) · Leh–Bogdan (Wasiucionek: 1699 sonrasi buyuk olcude ayni; Hotin 1711'den dogrudan Osmanli → D1). KRONOLOJI +2 (Pasarofca, Belgrad 1739, Berlin 1742, Dresden, Hubertusburg, 1. paylasma 1772, Szatmar, Prusya 1701 zaten var): Breslau on barisi 1742-06-11 · Sejm onayi 1773-09-30. BULGU: Szatmar Barisi kronoloji_habsburg.js'te 1711-11-29 — MNL ve Macar Akademisi 29 Nisan 1711 (onay 26 Mayis); kronoloji_macaristan.js 1711-04-30 · atlas kunyesi `erdel` 1711-04-30'a kadar ↔ TDV 'Karlofca 1699 ile Avusturya'ya terkedildi' (kayitlarda TDV esas) · Spis 1769 isgali gunu BULUNAMADI. Kaynak: Britannica (Silesian Wars, Belgrade 1739, Partitions — 'Britannica Editors'), DDB, IEG Mainz, TDV (pasarofca, erdel, hotin, kamanice), Kreuter 2019, polishhistory.pl. G7'ye gecildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
