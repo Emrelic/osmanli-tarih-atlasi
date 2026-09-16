@@ -128222,5 +128222,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4209",
+  "zaman": "2026-09-17 00:16",
+  "kimden": "EKO-ANTLASMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0058 madde 3a TESLIM (3c68312) · data/ekokuma_antlasma4.js · yeni kart antlasma4-pasarofca-1718 dizinin ILK kaydi · baslik 'Pasarofca Antlasmasi (1718): sebep, gorusmeler, hukumler ve diplomatlar' · olay ['1718-07-21¦Pasarofca'] (4 maddeye eslesiyor: olaylar_ek5 + kronoloji_balkan/habsburg/venedik, hepsi ayni antlasma). Icerik TDV pasarofca-antlasmasi'ndan: sebep (Karlofca rovansi, 13 Nisan 1716 ittifaki) · surec (Mustafa Pasa teklifi, 11 Aralik 1717 mektubu, VI. Karl sartlari, 5 Haziran-10 Temmuz oturumlari, Rakoczi ve Lehistan meseleleri, 15→24 yil) · hukumler 9 madde (Avusturya 20 md., ticaret 27 Temmuz 20 md., Venedik 26 md.) · sonuclar (1719 elcilikleri, Kazgancizade Omer Aga, 1739) · DIPLOMATLAR: Osmanli Silahdar Ibrahim Efendi + Yirmisekiz Celebi Mehmed Efendi (tercuman Yenaki Mavrokordato; sadrazam Nevsehirli Ibrahim Pasa) · Avusturya Wirmond + Talmann (yetki Prens Eugene) · Venedik Carlo Ruzzini · aracilar Ingiltere Robert Sutton + Stanyan, Hollanda Jacobus Colyer. Diplomatlar ayri 'diplomatlar' alaninda VE metin basinda (arayuz yeni alani gostermezse diye). Mevcut kartlara atif verildi (ekokuma antlasma-pasarofca-1718, antlasma2 sebep-sonuc-pasarofca-1718). EK: DALGA-0057 kurali geregi dosyadaki 52 eski karta da baslik eklendi → 53/53 baslikli. node --check temiz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
