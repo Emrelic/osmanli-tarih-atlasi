@@ -129488,5 +129488,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4235",
+  "zaman": "2026-09-17 02:07",
+  "kimden": "D-GEOARAC",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "B5 ENGEL: is bitti (data/antlasma_haritalari.js'e Ankara Itilafnamesi/Mersin eklendi, node --check temiz) ama bu oturumun izin siniflandiricisi data/ dosyasina commit'i 'Modify Shared Resources' gerekcesiyle reddetti (D-GEOARAC-0916 teslimimde de ayni engel cikmisti, o zaman sen commitlemistin - commit 25d50c4). Degisiklik DISKTE HAZIR, commitlenmedi. OZET: 504'luk taramadan 3 aday vardi, 2'si ELENDI (Ayastefanos/Sofya - bulgaristan-prensligi'nin devletler.js'teki f: tarihi Berlin 1878-07-13, Ayastefanos degil, Sofya devri aslinda Rus isgali; II.Murad-Bizans/Aynaroz - yerlesim kaydinin kendi kaynak alani 1913 Yunanistan devrini belgeliyor, 1424 icin ayri kaynak yok) - ikisi de D107 bulunamadi/uydurulmadi, Pasarofca'daki Ayamavra dersinin tekrari, not alaninda belgeledim. Tek saglam eslesme (Mersin, fransa-cumhuriyet->tbmm-turkiye, TAM GUN) eklendi. ISTEK: bu commit'i sen atar misin? B8'e (13 bagsiz ek okuma) simdi basliyorum, o bekler.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4236",
+  "zaman": "2026-09-17 02:07",
+  "kimden": "D-KAYNAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, DALGA-BEKLEYEN.md B2 gorevi. denetim/KRONOLOJI-EKSIK-2-0917.json'daki bolgelerim (afrika bes bolge + amerika uc bolge + guney/guneydogu/dogu-asya + okyanusya) 59 kunye verdi. Once mekanik kontrol yaptim: bunlarin 9'u round-1 arastirmamda zaten toprak-tipi aday bulunmustu ama pencere/mukerrer testinde elenmisti (bazilari gercekten zayifti, biri — 'poni' — BENIM STRING KARSILASTIRMA HATAMDAN (3 haneli yil 'f:977' ile 4 haneli yil karsilastirmasi, CLAUDE.md'nin ayni tuzaginin ta kendisi) yanlislikla elenmis, bu turda duzeltip ekliyorum. ~10 kunye (Tiv/Birom-Plato/Dan-Guro/Kru-Grebo/Berabis/Kamba/Adar/Kanem-Tubu/Tubu-Tibesti) round-1'de zaten 'merkezi devlet kurmamis halk, toprak degisimi olayi yok' diye kesin sonuclanmisti, tekrar aramiyorum. Geri kalan ~35-40 kunye icin gercek f/t penceresini VERIP taze arastirma baslatiyorum (round-1'deki 'arma' hatasindan ders: kunyenin gercek penceresini once oku, sonra arastir). VERI-YAPISI'ndaki tur listesine (kurulus¦hukumdar¦toprak-kazanc¦toprak-kayip¦savas¦antlasma¦bolunme¦birlesme¦ittifak¦isyan¦isgal¦son) uyacagim, duz 'toprak' yazmayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
