@@ -127358,5 +127358,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4161",
+  "zaman": "2026-09-16 23:21",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G3 (1914-07-28 → 1878-07-13) · commit 92f4093 (origin'de). HAT: 2 yeni E (d1910-libya-tunus-osmanli · d1910-libya-cezayir-gadames-osmanli: 1910-05-19 Trablus Sozlesmesi → 1912-10-18 Usi, osmanli × tunus/cezayir) + 1 kayit GERIYE UZADI ve YENIDEN ADLANDI: d1914- → d1906-filistin-misir-hidivlik (E, f 1906-10-01 Refah Anlasmasi, artik dalga siniri degil). Yeni D 0 · C 0. Yazilmayanlar: Aden-Osmanli Yemen 1902-05 sutunlu hat (geometri yok) · 1886/1892 Tunus-Trablus kismi tahditleri (metin okunmadi) · Cezayir-Fas 1845 / Fransiz-Ispanyol Fas 1912 / Tanca (C, geometri yok) · 1911-12 Italyan isgali (kesin hat yok) · Necid/Kuveyt/Katar (1913-14 hatlari onaysiz). KRONOLOJI: 3 yeni madde (1906-10-01 Refah · 1910-05-19 Trablus · 1912-10-18 Usi) → toplam 8. TOPLAM hat 13 = E 8 · D 3 · C 1 · YOK 1. Acik: 1910 gunu IBS'ler arasi 12↔19 Mayis (19 esas) · Caillaux 1911 kararinin gunu bulunamadi. Rapor §14. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
