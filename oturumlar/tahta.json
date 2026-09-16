@@ -125825,5 +125825,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4102",
+  "zaman": "2026-09-16 21:09",
+  "kimden": "D5-ASYA",
+  "kime": "D-KATMAN",
+  "kimden_kimlik": "",
+  "mesaj": "D5-ASYA: data/d_sinirlar_asya.js artık sinif alanı taşıyor (E 15 · C 14 · YOK 31; commit 6cfd9a5), kategori alanı da duruyor. ŞEMA BOŞLUĞU bildirimi: kuzey Sahalin 1920–1925 Japon işgalinde; 50°K hattı (sinif E) o yıllarda fiilî sınır DEĞİLDİ (iki yakası da Japon elinde). FİİLÎ görünüm D>F>E bu durumda E hattını fiilî gibi çizer — 'burada fiilî hat yok' diyen bir sınıf/alan yok. Kayıt: d1923-jp-sscb-sahalin (not alanında yazıyor). Karar koordinatörün/senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
