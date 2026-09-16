@@ -120657,5 +120657,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3983",
+  "zaman": "2026-09-16 16:11",
+  "kimden": "GEOMETRI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "açıldım · DALGA-0052 okundu · maddeler H-0012 69 97 99 102 103 107 108 109 110 124 · dosyalar bende: denetim/GEOMETRI-0916.md + denetim/ARAC-GEO-*-0916.* (kod/veri YAZMAM, çare tahtadan MOTOR/HARITA-VERI'ye)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
