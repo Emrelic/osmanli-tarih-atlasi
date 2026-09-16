@@ -1459,9 +1459,14 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   width: 130px;
 }
 .ob-madde-gorsel-kart img {
+  /* 16 Eylül 2026 — H-0122 (Emre): "Merzifonlu'nun resmi kadraja tam
+     sığmamış." Sebep: gerçek tuval 75x49 cm (~1,53:1), kutu 130x92px
+     (~1,41:1) — `cover` fazla geniş kısmı KIRPIYORDU. `contain`e
+     çevrildi: her görsel TAMAMEN görünür (arka plan zemini dolduruyor),
+     hiçbir eser kırpılmaz — "gerekirse ince uzun format" istegi budur. */
   width: 130px;
   height: 92px;
-  object-fit: cover;
+  object-fit: contain;
   border: 1px solid rgba(74, 59, 30, 0.35);
   border-radius: 4px;
   display: block;
@@ -1734,6 +1739,59 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
   font-size: 18px; cursor: pointer; color: #6b5a33;
 }
 #ekokuma-icerik { overflow-y: auto; min-height: 0; font-size: 13px; line-height: 1.5; }
+
+/* 🆕 16 Eylül 2026 — H-0128: padişah portre albümü, `#ekokuma-pencere` ile
+   BİREBİR aynı desen. */
+#portre-albumu-pencere {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center; z-index: 60;
+}
+#portre-albumu-pencere.gizli { display: none; }
+#portre-albumu-kutu {
+  background: var(--panel); border: 2px solid var(--altin); border-radius: 10px;
+  width: min(640px, 94vw); max-height: 84vh;
+  display: flex; flex-direction: column; padding: 16px 20px; position: relative;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+#portre-albumu-baslik { margin-bottom: 10px; padding-right: 24px; }
+#portre-albumu-kapat {
+  position: absolute; top: 8px; right: 10px; border: none; background: none;
+  font-size: 18px; cursor: pointer; color: #6b5a33;
+}
+#portre-albumu-icerik {
+  overflow-y: auto; min-height: 0;
+  display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;
+}
+.portre-albumu-kart { text-align: center; max-width: 260px; }
+.portre-albumu-kart img { max-width: 100%; max-height: 50vh; border-radius: 6px;
+  border: 1px solid rgba(74,59,30,0.35); }
+.portre-albumu-kart figcaption { font-size: 11.5px; color: #6b5a33; margin-top: 4px; }
+/* Tek görsel bugünkü kural (assets/portreler/ tek dosya taşıyor) — albüm
+   YARINKİ çokluğa hazır yapı, bugünün eksikliği bir kusur değil. */
+#padisah-portre { cursor: pointer; }
+
+/* 🆕 16 Eylül 2026 — H-0129: mesafe ölç cetveli (js/app.js, harita "load"
+   bloğunun sonu). `#olcum-etiket` haritanın piksel koordinatına elle
+   yerleştirilir (`harita.project`) — MapLibre popup'ı DEĞİL, çünkü popup
+   kapanış/ok gibi fazladan gövde taşır ve burada istenmiyor. */
+#olcum-etiket {
+  position: absolute; transform: translate(-50%, -130%);
+  background: rgba(30, 22, 10, 0.88); color: #ffd700;
+  font-size: 12px; font-weight: 600; padding: 3px 8px; border-radius: 5px;
+  display: flex; align-items: center; gap: 6px;
+  pointer-events: none; white-space: nowrap; z-index: 5;
+}
+#olcum-etiket button {
+  pointer-events: auto; background: none; border: none; color: #ffd700;
+  font-size: 11px; cursor: pointer; padding: 0; line-height: 1; opacity: 0.75;
+}
+#olcum-etiket button:hover { opacity: 1; }
+#olcum-durum {
+  position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%);
+  background: rgba(30, 22, 10, 0.88); color: #ffd700;
+  font-size: 12.5px; padding: 5px 12px; border-radius: 14px;
+  pointer-events: none; white-space: nowrap; z-index: 5;
+}
 
 .ek-kart {
   border: 1px solid #d8c9a3;
@@ -2273,6 +2331,19 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 .ob-isyan .isyan-satir { display: block; margin-top: 3px; line-height: 1.35; }
 .ob-isyan .isyan-satir.aktif { font-weight: 600; }
 .ob-isyan .isyan-dip { display: block; margin-top: 4px; font-size: 11px; opacity: 0.8; }
+/* 🆕 16 Eylül 2026 — H-0001: üç voyvodalık başkentinde isyan ateşi
+   (js/app.js isyanAtesGuncelle). Haritanın sürüklenmesini engellemesin. */
+.isyan-ates-isaret {
+  font-size: 20px;
+  line-height: 1;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 2px #fff);
+  animation: isyan-ates-titre 1.4s ease-in-out infinite;
+}
+@keyframes isyan-ates-titre {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
 .devir-lejant i {
   display: inline-block;
   width: 16px;

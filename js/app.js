@@ -1392,14 +1392,29 @@ harita.on("load", function () {
     paint: { "line-color": "#6d0d1c", "line-width": 3.5, "line-opacity": 0.95 } });
 
   harita.addSource("vassal", agirKaynak());
-  // ⚠️ Renk yakınlaştırıldı (kullanıcı: "vassal devletlerin kırmızısı sadece bir
-  // ton açık renk olmalı, burada kırmızı ve pembe olacak şekilde fark büyük,
-  // ayrı devlet gibi görünüyorlar"). Eski: #d4707d @0.52 — Osmanlı #8e0b22
-  // @0.68'e karşı hem ton hem doygunluk atlıyordu. Yeni ton aynı aileden.
+  // 🆕🆕 RENK BİRLİĞİ — H-0084 (Emre, 16 Eylül 2026, DALGA-0052):
+  // *"tabi devletlerin bölgelerinin sınırlarını tabi renk ile ince olmayan
+  //  bir çerçeve ile çepeçevre geçelim ama tabi devletlerin orta iç rengi
+  //  de osmanlı kırmızısı olsun … tek fark bölgenin etrafında açık kırmızı
+  //  tabi rengi ile bir şerit geçecek, orta renk kırmızı olacak."*
+  // ⇒ Aşağıdaki "Renk yakınlaştırıldı" kararı (21 Ağustos) TERSİNE ÇEVRİLDİ:
+  // o gün iç dolguyu #d4707d'den #b2384a'ya YAKINLAŞTIRMIŞTIK; bugün dolgu
+  // #8e0b22'YE (Osmanlı'nın KENDİSİ) EŞİTLENİYOR, ayrım artık dolguda değil
+  // DIŞ ŞERİTTE. Teknik `himaye-serit-dis` ile AYNI HALE yöntemi (bkz.
+  // aşağıda): şerit dolgunun ALTINDA çizilir, dolgu iç yarısını örter, dışta
+  // yalnız bir kuşak kalır. `imparatorluk-hale` (üstte) İMPARATORLUĞUN
+  // BÜTÜNÜNÜ (osmanlı+tâbi) çevreleyen KALIN dış hat olarak DEĞİŞMEDEN durur;
+  // bu yeni şerit yalnız tâbi toprağı KENDİ İÇİNDE, komşusundan (doğrudan
+  // idareden de) ayırt eden İKİNCİ, daha ince bir kuşaktır.
+  harita.addLayer({ id: "vassal-serit-dis", type: "line", source: "vassal",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#b2384a", "line-opacity": 1,
+      "line-width": ["interpolate", ["linear"], ["zoom"], 3, 4, 5, 6, 8, 8] } });
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
-    paint: { "fill-color": "#b2384a", "fill-opacity": 1 } });
+    paint: { "fill-color": "#8e0b22", "fill-opacity": 1 } });
   // Kesikli çizgi KALDIRILDI: "ayrı devlet" algısını en çok o üretiyordu.
-  // Tâbi toprağın dış hattı artık imparatorluk halesinden geliyor.
+  // Tâbi toprağın dış hattı artık imparatorluk halesinden geliyor; H-0084'ten
+  // sonra `vassal-serit-dis` KENDİ tâbi rengiyle ikinci, iç bir kuşak ekliyor.
 
   // 🆕 HİMAYE ŞERİDİ (kuyruk ⑫, Emre — 2 Eylül 2026): "Himaye ince Osmanlı
   // kırmızısı şerit ile o ülke topraklarını çevreleyen bir yapı olarak
@@ -1956,7 +1971,10 @@ harita.on("load", function () {
     // voyvodalık, himaye…) AÇILMIYOR — d: ve v: ikilisi korunuyor, ayrım görsel
     // katmanda yapılıyor.
     '<span><i style="background:#8e0b22"></i> Doğrudan idare</span>' +
-    '<span><i style="background:#b2384a"></i> Bağlı / tâbi topraklar</span>' +
+    // 🆕 16 Eylül 2026 — H-0084: iç dolgu artık Osmanlı kırmızısıyla AYNI;
+    // ayrım dıştaki tâbi-renkli şeride taşındı (`vassal-serit-dis`).
+    '<span><i style="background:#8e0b22;border:3px solid #b2384a;' +
+    'box-sizing:border-box"></i> Bağlı / tâbi topraklar (kırmızı iç, açık kırmızı şerit)</span>' +
     // 🆕 14 Eylül 2026 — ÜÇÜNCÜ TON (Emre 0043/H-0003 seçenek D): "Osmanlı
     // kırmızısı · vassal kırmızısı · daha açık tonda kırmızı ile himaye edilen
     // gevşek kontrollü bozkır." Örnek haritadaki gibi dıştan içe:
@@ -2094,6 +2112,105 @@ harita.on("load", function () {
     localStorage.setItem("lejantKapali", kapali ? "1" : "0");
   });
   document.getElementById("harita").appendChild(lejantDugme);
+
+  // 🆕 16 Eylül 2026 — H-0129 (Emre, DALGA-0052 UI): "mesafe ölç isminde bir
+  // cetvel yapalım haritaya sağ tıklayınca buradan buraya şeklinde bir
+  // mesafe ölçer olsun, harita ölçeğine göre iki nokta arasındaki mesafeyi
+  // bize versin." Büyük daire mesafesi `kmArasi` (aşağıda, kmMesafe/ucus
+  // hesaplarının KENDİSİ) YENİDEN YAZILMADI (D023) — yalnız arayüz eklendi.
+  // Akış: sağ tık → A noktası + canlı önizleme; ikinci sağ tık → B noktası +
+  // sabit etiket (✕ ile kapanır); Esc her an temizler. Sol tık YOK — mevcut
+  // yerleşim tıklama davranışına HİÇ dokunmaz.
+  try {
+    harita.addSource("olcum", { type: "geojson", data: bosVeri() });
+    harita.addLayer({ id: "olcum-cizgi", type: "line", source: "olcum",
+      filter: ["==", ["geometry-type"], "LineString"],
+      layout: { "line-cap": "round" },
+      paint: { "line-color": "#ffd700", "line-width": 2.5, "line-dasharray": [2, 1.4] } });
+    harita.addLayer({ id: "olcum-nokta", type: "circle", source: "olcum",
+      filter: ["==", ["geometry-type"], "Point"],
+      paint: { "circle-radius": 4.5, "circle-color": "#ffd700",
+               "circle-stroke-width": 1.5, "circle-stroke-color": "#4d3419" } });
+    var OLCUM = { a: null, b: null, aktif: false };
+    function _olcumCiz(gecici) {
+      var fs = [];
+      if (OLCUM.a) fs.push({ type: "Feature", geometry: { type: "Point", coordinates: OLCUM.a } });
+      if (OLCUM.b) fs.push({ type: "Feature", geometry: { type: "Point", coordinates: OLCUM.b } });
+      var b2 = OLCUM.b || gecici;
+      if (OLCUM.a && b2) fs.push({ type: "Feature", geometry: { type: "LineString", coordinates: [OLCUM.a, b2] } });
+      harita.getSource("olcum").setData({ type: "FeatureCollection", features: fs });
+    }
+    function _olcumMesafeYazi(a, b) {
+      var km = kmArasi(a[1], a[0], b[1], b[0]);
+      return (km < 10 ? km.toFixed(2) : km < 100 ? km.toFixed(1) : Math.round(km).toLocaleString("tr-TR")) + " km";
+    }
+    function _olcumEtiketKur() {
+      var el = document.getElementById("olcum-etiket");
+      if (el) return el;
+      el = document.createElement("div");
+      el.id = "olcum-etiket";
+      el.appendChild(document.createElement("span"));
+      var kapat = document.createElement("button");
+      kapat.type = "button"; kapat.textContent = "✕"; kapat.title = "Ölçümü kapat";
+      kapat.addEventListener("click", function (e) { e.stopPropagation(); _olcumTemizle(); });
+      el.appendChild(kapat);
+      document.getElementById("harita").appendChild(el);
+      return el;
+    }
+    function _olcumEtiketYerlestir() {
+      if (!OLCUM.a || !OLCUM.b) return;
+      var el = _olcumEtiketKur();
+      el.firstChild.textContent = _olcumMesafeYazi(OLCUM.a, OLCUM.b);
+      var orta = [(OLCUM.a[0] + OLCUM.b[0]) / 2, (OLCUM.a[1] + OLCUM.b[1]) / 2];
+      var p = harita.project(orta);
+      el.style.left = p.x + "px"; el.style.top = p.y + "px";
+      el.hidden = false;
+    }
+    function _olcumDurumGoster(metin) {
+      var el = document.getElementById("olcum-durum");
+      if (!el) {
+        el = document.createElement("div");
+        el.id = "olcum-durum";
+        document.getElementById("harita").appendChild(el);
+      }
+      el.textContent = metin;
+    }
+    function _olcumTemizle() {
+      OLCUM.a = null; OLCUM.b = null; OLCUM.aktif = false;
+      _olcumCiz();
+      var etiket = document.getElementById("olcum-etiket"); if (etiket) etiket.hidden = true;
+      var durum = document.getElementById("olcum-durum"); if (durum) durum.remove();
+    }
+    // Tek `contextmenu` işleyicisi, DURUMA göre dallanır: `OLCUM.aktif`
+    // yoksa bu tık A'yı kurar, varsa bu tık B'yi kurup ölçümü BİTİRİR. İki
+    // ayrı olay türü İCAT edilmedi — sağ tık zaten doğru olay, ikinci
+    // tıklamayı ayırt eden şey OLAY değil DURUM.
+    harita.on("contextmenu", function (e) {
+      if (e.originalEvent && e.originalEvent.preventDefault) e.originalEvent.preventDefault();
+      var nokta = [e.lngLat.lng, e.lngLat.lat];
+      if (!OLCUM.aktif) {
+        OLCUM.a = nokta; OLCUM.b = null; OLCUM.aktif = true;
+        var etiket = document.getElementById("olcum-etiket"); if (etiket) etiket.hidden = true;
+        _olcumCiz(OLCUM.a);
+        _olcumDurumGoster("📏 Mesafe ölç — bitiş noktası için tekrar sağ tıklayın (Esc: iptal)");
+      } else {
+        OLCUM.b = nokta; OLCUM.aktif = false;
+        _olcumCiz();
+        _olcumEtiketYerlestir();
+        var durum = document.getElementById("olcum-durum"); if (durum) durum.remove();
+      }
+    });
+    harita.on("mousemove", function (e) {
+      if (!OLCUM.aktif || !OLCUM.a) return;
+      _olcumCiz([e.lngLat.lng, e.lngLat.lat]);
+      _olcumDurumGoster("📏 " + _olcumMesafeYazi(OLCUM.a, [e.lngLat.lng, e.lngLat.lat]) +
+        " — bitiş için tekrar sağ tıklayın (Esc: iptal)");
+    });
+    harita.on("move", function () { if (OLCUM.a && OLCUM.b) _olcumEtiketYerlestir(); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && (OLCUM.aktif || OLCUM.a)) _olcumTemizle();
+    });
+  } catch (eOlcum) { console.error("[mesafe ölç] kurulamadı", eOlcum); }
 
   // 🆕 KAYNAKLI SAHİPLİK HALKASI katmanları (13 Eylül 2026, C-HALKA-ALTYAPI).
   // Yükleme bloğunun SONUNDA eklenir ki dolgu/sınır/kuşak katmanlarının ÜSTÜNDE
@@ -3560,6 +3677,45 @@ function isyanGuncelle(t) {
   harita.getSource("isyan").setData({ type: "FeatureCollection", features: fs });
   isyanLejanti(fs);
 }
+
+// 🆕 16 Eylül 2026 — H-0001 (Emre, DALGA-0052 UI): "üç voyvodalığın (Eflak,
+// Boğdan, Erdel) isyanını taralı gösterdik; her birinin başkentine birer
+// isyan ateşi emojisi koyalım." Yeni VERİ yazılmadı (D045: mevcut
+// ISYAN_TARAMA + devletler.js `baskent` alanı zaten yeterliydi) — yalnız o
+// gün AKTİF `tur:"isyan"` penceresinin kimliğine göre başkente bir 🔥
+// işaretçisi konuyor. Habsburg idare penceresi (`tur:"habsburg"`) bir isyan
+// değildir, ateş yakılmaz.
+// ⚠️ `baskent` bir AD taşır, koordinat değil — gerçek nokta yerlesimler.js'ten
+// elle okunup buraya kondu (Bükreş/Yaş/Erdel Belgradı). Kimliği bu sözlükte
+// olmayan bir isyan SESSİZCE atlanır: ateş dekoratif bir katman, D`sessiz
+// atlama yasak` kuralı veri BÜTÜNLÜĞÜ maddeleri içindir, burada delik açmaz.
+var ISYAN_ATES_BASKENT = {
+  eflak:  [26.103, 44.427],    // Bükreş
+  bogdan: [27.601, 47.157],    // Yaş
+  erdel:  [23.58, 46.0678]     // Erdel Belgradı (Gyulafehérvár)
+};
+var ISYAN_ATES = { anahtar: null, markerler: [] };
+function isyanAtesGuncelle(t) {
+  var IT = window.ISYAN_TARAMA;
+  if (!haritaHazir || !IT || !IT.pencereler || typeof maplibregl === "undefined") return;
+  var aktif = [], anahtar = "";
+  IT.pencereler.forEach(function (p) {
+    if (p.tur !== "isyan" || !ISYAN_ATES_BASKENT[p.kimlik]) return;
+    if (p.gi === undefined) { p.gi = gunIdx(p.f); p.gs = gunIdx(p.t); }
+    if (t >= p.gi && t < p.gs) { aktif.push(p.kimlik); anahtar += p.kimlik + ";"; }
+  });
+  if (anahtar === ISYAN_ATES.anahtar) return;
+  ISYAN_ATES.anahtar = anahtar;
+  ISYAN_ATES.markerler.forEach(function (m) { m.remove(); });
+  ISYAN_ATES.markerler = aktif.map(function (kimlik) {
+    var el = document.createElement("div");
+    el.className = "isyan-ates-isaret";
+    el.textContent = "🔥";
+    el.title = (devletAdi(kimlik) || kimlik) + " isyanda";
+    return new maplibregl.Marker({ element: el, anchor: "center" })
+      .setLngLat(ISYAN_ATES_BASKENT[kimlik]).addTo(harita);
+  });
+}
 function isyanLejanti(fs) {
   var el = document.getElementById("isyan-lejant");
   if (!el) {
@@ -4876,12 +5032,14 @@ var adKutu = document.getElementById("padisah-ad");
 var saltanatKutu = document.getElementById("padisah-saltanat");
 var sonPadisahId = null;
 
+var _aktifPadisah = null;
 function padisahGuncelle(t) {
   var aktif = null;
   for (var i = 0; i < window.PADISAHLAR.length; i++) {
     var p = window.PADISAHLAR[i];
     if (gunIdx(p.from) <= t && t < gunIdx(p.to)) { aktif = p; break; }
   }
+  _aktifPadisah = aktif;
   if (!aktif) { adKutu.textContent = "—"; saltanatKutu.textContent = ""; return; }
   adKutu.textContent = aktif.ad;
   saltanatKutu.textContent = idxTarih(gunIdx(aktif.from)).y + " – " + idxTarih(gunIdx(aktif.to)).y;
@@ -4898,6 +5056,58 @@ function padisahGuncelle(t) {
   };
   portreKutu.appendChild(img);
 }
+
+// 🆕 16 Eylül 2026 — H-0128 (Emre, DALGA-0052 UI): "padişah resmine tıklanınca
+// o padişah ile ilgili resim albümü açılsın, o padişahla ilgili tüm resimleri
+// oraya yükleyelim." Şartname notu (H-0128, §3): "yalnız mevcut
+// assets/portreler/ ile başla, yeni görsel indirme YOK." ⇒ Bugün her
+// padişahın TEK portresi var (38 dosyalık klasör ölçüldü); albüm yarının
+// çokluğuna hazır bir yapı — bugün eksik olan görsel SAYISI, kod değil.
+// `.ozel` kayıtların (fetret/ara dönem) portresi yok — tıklama sessizce
+// hiçbir şey açmaz (D`sessiz atlama` burada zararsız: buton zaten görünmüyor,
+// portreKutu bir sembol basıyor, "albüm" iddiası hiç yapılmıyor).
+function portreAlbumuAc(p) {
+  if (!p || p.ozel) return;
+  var pencere = document.getElementById("portre-albumu-pencere");
+  var baslik = document.getElementById("portre-albumu-baslik");
+  var icerik = document.getElementById("portre-albumu-icerik");
+  if (!pencere || !baslik || !icerik) return;
+  baslik.textContent = p.ad + " — resim albümü";
+  icerik.innerHTML = "";
+  var kaynaklar = [{ url: "assets/portreler/" + p.id + ".jpg", baslik: p.ad + " — resmî portre" }];
+  // İleride assets/portreler/ birden fazla dosya taşırsa (ör. <id>-2.jpg) ya
+  // da GORSEL_MADDE bu padişaha bağlı bir kayıt kazanırsa buraya EK kart
+  // gelir; bugün ikinci kaynak YOK — ölçüldü, uydurulmadı.
+  (window.GORSEL_MADDE || []).forEach(function (g) {
+    if (g.tur === "portre" && Array.isArray(g.olay) &&
+        g.olay.some(function (v) { return String(v).split("|")[1] === p.ad; })) {
+      kaynaklar.push({ url: g.url, baslik: g.baslik || p.ad });
+    }
+  });
+  var gorulduMu = {};
+  kaynaklar.forEach(function (k) {
+    if (gorulduMu[k.url]) return;
+    gorulduMu[k.url] = true;
+    var fig = document.createElement("figure");
+    fig.className = "portre-albumu-kart";
+    var img = new Image();
+    img.src = k.url; img.alt = k.baslik;
+    img.onerror = function () { fig.remove(); };   // dosya yoksa kart sessizce düşer
+    fig.appendChild(img);
+    var cap = document.createElement("figcaption");
+    cap.textContent = k.baslik;
+    fig.appendChild(cap);
+    icerik.appendChild(fig);
+  });
+  pencere.classList.remove("gizli");
+}
+portreKutu.addEventListener("click", function () { portreAlbumuAc(_aktifPadisah); });
+document.getElementById("portre-albumu-kapat").addEventListener("click", function () {
+  document.getElementById("portre-albumu-pencere").classList.add("gizli");
+});
+document.getElementById("portre-albumu-pencere").addEventListener("click", function (e) {
+  if (e.target === this) this.classList.add("gizli");
+});
 
 // ---------- Olay akışı (ana + ek liste birleşik, gün sıralı) ----------
 // ARAYÜZ AYNI GÜN (10 Ağustos) — elle tutulan concat zinciri `OLAYLAR_EK15`'te
@@ -7111,6 +7321,8 @@ function guncelle() {
   agirOlc("isgalGuncelle", function () { isgalGuncelle(suanki); });
   // PAKET-ISYAN — kare başına yalnız anahtar karşılaştırması (bkz. isyanGuncelle).
   agirOlc("isyanGuncelle", function () { isyanGuncelle(suanki); });
+  // H-0001 — üç voyvodalığın başkentinde isyan ateşi (bkz. isyanAtesGuncelle).
+  agirOlc("isyanAtesGuncelle", function () { isyanAtesGuncelle(suanki); });
   // 🔴🔴 22 Ağustos 2026 — KIRPMA SIRASINDA PANEL DONDURULUYOR.
   // Emre: *"ileri tuşuna basınca kronoloji maddelerinde ileri geri gösterim
   // bozukluğu yaşanıyor — Kaluğeran'dan ileri tıklayınca Estergon'un
@@ -8078,6 +8290,24 @@ function maddeFarkiGoster(o, ozelEl) {
   var Y = window.YERLESIMLER || [], gs = _khGunStr(o.gi), kardes = o._agGrup || [o];
   var r = SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, kardes);
   if (!r.degisim.length) return;                      // o gün haritada değişim yok — gösterilecek fark yok
+  var gunYazi = _khGunYazi(o.gi);
+  // 🆕 16 Eylül 2026 — H-0047 (Emre): "hiçbiri bu maddeye bağlanamadı" GELİŞTİRİCİ
+  // teşhisidir, son kullanıcıyı ilgilendirmez ("bu notları tespit edip kaldıralım
+  // son okuyucu metninden"). Eşleşme YOKSA kutu hiç BASILMAZ — teşhis konsola gider,
+  // sessiz atlama yerine (D`ölçülemedi ≠ yok` ailesi): geliştirici F12'den görebilir.
+  if (!r.secilen.length) {
+    var sahipli = [];
+    if (kardes.length > 1) kardes.forEach(function (k, ix) {
+      if (k === o) return;
+      var rk = SG.maddeDegisimleri(k, gs, Y, ANT_FARK.ix, kardes);
+      if (rk.secilen.length || antlasmaMaddesiMi(k)) sahipli.push(agDaireSayi(ix + 1));
+    });
+    console.debug("[aynı gün farkı] " + gunYazi + " günü haritada " + r.degisim.length +
+      " yerleşim el değiştiriyor; hiçbiri bu maddeye bağlanamadı (yer_id · yer · " +
+      "başlıktaki yer adı eşleşmedi)." +
+      (sahipli.length ? " Değişimlerin bir kısmı aynı günün " + sahipli.join(" ") + " maddesine bağlı." : ""));
+    return;
+  }
   var kutuEl = document.createElement("div");
   kutuEl.className = "ob-kutu ob-antlasma ob-madde-fark";
   var bas = document.createElement("b");
@@ -8086,22 +8316,6 @@ function maddeFarkiGoster(o, ozelEl) {
   var yazi = document.createElement("span");
   kutuEl.appendChild(yazi);
   ozelEl.appendChild(kutuEl);
-  var gunYazi = _khGunYazi(o.gi);
-  if (!r.secilen.length) {
-    // SESSİZ KALMA — o gün harita değişiyor ama hiçbiri bu maddeye bağlanamadı.
-    kutuEl.classList.add("ob-madde-fark-yok");
-    var sahipli = [];
-    if (kardes.length > 1) kardes.forEach(function (k, ix) {
-      if (k === o) return;
-      var rk = SG.maddeDegisimleri(k, gs, Y, ANT_FARK.ix, kardes);
-      if (rk.secilen.length || antlasmaMaddesiMi(k)) sahipli.push(agDaireSayi(ix + 1));
-    });
-    yazi.textContent = gunYazi + " günü haritada " + r.degisim.length + " yerleşim el değiştiriyor; " +
-      "hiçbiri bu maddeye bağlanamadı (yer_id · yer · başlıktaki yer adı eşleşmedi). " +
-      "Bu maddenin haritadaki yeri belirlenemedi." +
-      (sahipli.length ? " Değişimlerin bir kısmı aynı günün " + sahipli.join(" ") + " maddesine bağlı." : "");
-    return;
-  }
   var kalan = r.degisim.length - r.secilen.length;
   var anaMetin = "Aynı gün · bu maddeye bağlı " + r.secilen.length + " yerleşim bölgesi el değiştirdi: " +
     _farkOzeti(r.secilen) +
@@ -8245,6 +8459,13 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_kasrisirin", // window.EKOKUMA_KASRISIRIN — Kasr-ı Şirin Antlaşması (PAKET-EK-A)
   "ekokuma_savas3", "ekokuma_antlasma3", "ekokuma_mimari2",   // P12-EKOKUMA 14 Eylül
   "ekokuma_kirimrus",   // window.EKOKUMA_KIRIMRUS — Kırım-Rus / 1571 Moskova (PAKET-EK-A)
+  // 🆕 16 Eylül 2026 — DALGA-0052, "dosyam hazır" tahta protokolü (§3 UI notu).
+  "ekokuma_kurum",      // window.EKOKUMA_KURUM — EKO-KURUM teslimi (M-3987)
+  "ekokuma_toplum",     // window.EKOKUMA_TOPLUM — EKO-TOPLUM teslimi (M-3992)
+  "ekokuma_dunya",      // window.EKOKUMA_DUNYA — EKO-DUNYA teslimi (M-4003)
+  "ekokuma_vezir",      // window.EKOKUMA_VEZIR — EKO-VEZIR teslimi (M-4008)
+  "ekokuma_rivayet",    // window.EKOKUMA_RIVAYET — EKO-RIVAYET teslimi (M-4009)
+  "ekokuma_padisah",    // window.EKOKUMA_PADISAH — EKO-PADISAH teslimi (M-4011)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -8538,6 +8759,33 @@ function _icNotAyikla(k) {
   return c;
 }
 
+// ── DALGA-0052 · UI (16 Eylül) — H-0089: "on madde ①②③…" tek paragrafta
+// yığılıyordu. Daire içi rakam (①-⑳) bir madde başlangıcıdır; onun ÖNÜNE
+// satır başı ve boş satır konur. Veri DEĞİŞMEZ (ekokuma_antlasma2.js Vasvar
+// kaydı zaten ①-⑩ ile doğru işaretlenmiş) — yalnız GÖSTERİM bölünür. Daire
+// yoksa davranış eskisiyle birebir (tek `<p>`).
+var _DAIRE_RAKAM_VAR = /[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]/;
+var _DAIRE_RAKAM_ONCESI = /(?=[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳](?:-[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳])?\s)/;
+function _maddeliMetniHtmle(metin) {
+  if (!metin) return "";
+  if (!_DAIRE_RAKAM_VAR.test(metin)) return "<p>" + ekEsc(metin) + "</p>";
+  return metin.split(_DAIRE_RAKAM_ONCESI).map(function (parca) {
+    parca = parca.trim();
+    return parca ? "<p>" + ekEsc(parca) + "</p>" : "";
+  }).join("");
+}
+
+// ── DALGA-0052 · UI (16 Eylül) — H-0096: bazı `tartisma` alanları TDV'de
+// gerçek bir ayrışma YOKTUR demek için "kaynakların ayrıştığı bir nokta
+// kaydetmiyor/kaydedilmiyor" türü bir cümle taşıyor (örn. ekokuma_savas3.js
+// Kamaniçe kaydı). Bu bir tartışma DEĞİL, aramanın SONUCU — `bulunamadı`
+// (edebiyat dalı, satır ~8678) ile aynı aile: son okuyucuyu ilgilendirmez.
+function _tartismaVarMi(t) {
+  if (!t) return false;
+  var s = String(t);
+  return !(/kaynak/i.test(s) && /ayrış/i.test(s) && /kayde(t|dil)(mi?yor|memiş)/i.test(s));
+}
+
 // ── PAKET-UI2 · EK OKUMA AKORDEONU (0035/H-0030, Emre'nin kararı 13 Eylül) ──
 // Satır başlığı: tür etiketi + kartın SORUSU/başlığı. 🔴 `kisa` KONMAZ
 // (0032/H-0008 ölçümü: `kisa` cevabın özetidir, başlıkta merakı söndürür).
@@ -8648,7 +8896,7 @@ function ekKartHtml(k) {
   if (k.tur === "sebep-sonuc") {
     h += "<h4>" + ekEsc(k.sebep && k.sebep.b) + " → " + ekEsc(k.sonuc && k.sonuc.b) + "</h4>";
     if (k.bag) h += '<p class="ek-alt">' + ekEsc(k.bag) + "</p>";
-    if (k.metin) h += "<p>" + ekEsc(k.metin) + "</p>";
+    if (k.metin) h += _maddeliMetniHtmle(k.metin);
     if (k.zincir && k.zincir.length) {
       h += '<p class="ek-alt">İlgili: ' + k.zincir.map(function (id) {
         return '<span class="ek-zincir-link" data-id="' + ekEsc(id) + '">' + ekEsc(id) + "</span>";
@@ -8656,7 +8904,7 @@ function ekKartHtml(k) {
     }
   } else if (k.tur === "magazin") {
     h += "<h4>" + ekEsc(k.baslik) + "</h4>";
-    if (k.metin) h += "<p>" + ekEsc(k.metin) + "</p>";
+    if (k.metin) h += _maddeliMetniHtmle(k.metin);
     if (k.not) h += '<p class="ek-alt">' + ekEsc(k.not) + "</p>";
   } else if (k.tur === "merak") {
     h += "<h4>" + ekEsc(k.soru) + "</h4>";
@@ -8674,7 +8922,7 @@ function ekKartHtml(k) {
     if (k.sanatci) h += '<p class="ek-alt"><b>' + ekEsc(k.sanatci.ad) + "</b> — " +
                          ekEsc(k.sanatci.hayat) + "</p>";
     if (k.sanatci && k.sanatci.onem) h += "<p>" + ekEsc(k.sanatci.onem) + "</p>";
-    if (k.metin) h += "<p>" + ekEsc(k.metin) + "</p>";
+    if (k.metin) h += _maddeliMetniHtmle(k.metin);
     if (k.alinti && k.alinti.metin &&
         k.alinti.metin.indexOf("bulunamadi") !== 0 &&
         k.alinti.metin.indexOf("bulunamadı") !== 0) {
@@ -8695,17 +8943,19 @@ function ekKartHtml(k) {
     });
     [["oncesi", "Öncesi"], ["akis", "Muharebe"], ["sonuc", "Sonuç ve etkisi"],
      ["tartisma", "Kaynaklar nerede ayrışıyor"]].forEach(function (b) {
-      if (k[b[0]]) h += "<p><b>" + b[1] + ":</b> " + ekEsc(k[b[0]]) + "</p>";
+      // H-0096: `tartisma` "ayrışma yok" boyacılığı taşıyorsa hiç basılmaz.
+      if (k[b[0]] && (b[0] !== "tartisma" || _tartismaVarMi(k[b[0]])))
+        h += "<p><b>" + b[1] + ":</b> " + ekEsc(k[b[0]]) + "</p>";
     });
   } else if (!k.tur && (k.ozet || k.topraklar)) {
     // 📜 ANTLAŞMA — `ANTLASMALAR` kaydı, `tur` alanı taşımaz.
     h += "<h4>" + ekEsc(k.ad || "Antlaşma") + "</h4>";
     if (k.taraf_metin) h += '<p class="ek-alt">' + ekEsc(k.taraf_metin) + "</p>";
-    if (k.ozet) h += "<p>" + ekEsc(k.ozet) + "</p>";
+    if (k.ozet) h += _maddeliMetniHtmle(k.ozet);
     // ⚠️ `topraklar` alan adına rağmen YALNIZ toprak anlatmıyor: Balta
     //    Limanı kaydı "Toprak konusu yok; iç tekeller kaldırıldı…" diyor.
     //    Yani alan HÜKÜMLERİ taşıyor — başlık ona göre.
-    if (k.topraklar) h += "<p><b>Hükümleri:</b> " + ekEsc(k.topraklar) + "</p>";
+    if (k.topraklar) h += "<p><b>Hükümleri:</b></p>" + _maddeliMetniHtmle(k.topraklar);
     if (k.savas_basi) h += '<p class="ek-alt">Bitirdiği savaş: ' + ekEsc(k.savas_basi) + "</p>";
   } else {
     // 🔴🔴 SON ÇARE DALI — VE BU DAL BUGÜNE KADAR YOKTU.
@@ -8723,7 +8973,7 @@ function ekKartHtml(k) {
     //   olduğu gibi dökülür. Çirkin olabilir, GÖRÜNMEZ olamaz.
     if (k.baslik || k.ad || k.soru) h += "<h4>" + ekEsc(k.baslik || k.ad || k.soru) + "</h4>";
     ["ozet", "metin", "kisa", "not", "bag", "aciklama"].forEach(function (a) {
-      if (k[a] && typeof k[a] === "string") h += "<p>" + ekEsc(k[a]) + "</p>";
+      if (k[a] && typeof k[a] === "string") h += _maddeliMetniHtmle(k[a]);
     });
   }
   if (k.kaynak) h += '<p class="ek-alt">Kaynak: ' + ekEsc(k.kaynak) + "</p>";
