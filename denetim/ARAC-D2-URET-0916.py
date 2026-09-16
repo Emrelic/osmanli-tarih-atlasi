@@ -421,6 +421,23 @@ yok("g5-rus-ir-DEGISTI-gulistan", "rusya", IR, "1813-01-01", KUTU_GULISTAN,
     "GERİYE SARMA G5: Gülistan'dan Türkmençay'a; kutu Revan–Gürcistan ve Talış kesimlerini kaba kaplar (TAHMİNİ). 1804-1813 savaş/işgal hatları yazılmadı",
     t="1828-02-10")
 
+# G6: Rus–Safevî Hazar kıyısı (1723 Petersburg → 1732 Reşt → 1735 Gence). Koordinatsız ⇒ YOK.
+TDV_DERBEND = {"ad": "TDV derbend--dagistan", "tur": "TDV", "kaynak": "islamansiklopedisi.org.tr/derbend--dagistan",
+               "alinti": "12 Eylül 1723’te Petersburg’da imzalanan antlaşma ile Derbend, Bakü"}
+TDV_DAGISTAN = {"ad": "TDV dagistan", "tur": "TDV", "kaynak": "islamansiklopedisi.org.tr/dagistan",
+                "not": "ÇELİŞKİ: antlaşmayı 1724'e koyuyor ve Derbend-Bakü'nün 1732 Reşt ile geri alındığını söylüyor; derbend--dagistan 1735 Gence diyor"}
+KUTU_HAZAR_KIYI = (47.00, 36.30, 55.00, 42.20)
+yok("g6-rus-safevi-DEGISTI-hazar-kiyisi-1723", "rusya", "safevi", "1723-09-12", KUTU_HAZAR_KIYI,
+    {"deger": True, "kaynak": "TDV derbend--dagistan", "not": "Derbend, Bakü ve Hazar'ın güney kıyılarının büyük bölümü Rusya'ya"},
+    [TDV_DERBEND, TDV_DAGISTAN],
+    "GERİYE SARMA G6: taraf 'safevi' (II. Tahmasb'ın elçisi imzaladı; İsfahan 1722'den beri Afgan elinde). Hat koordinatsız, kutu TAHMİNİ",
+    t="1732-01-01")
+yok("g6-rus-safevi-DEGISTI-hazar-kiyisi-1732", "rusya", "safevi", "1732-01-01", KUTU_HAZAR_KIYI,
+    {"deger": True, "kaynak": "TDV dagistan", "not": "Reşt 1732 ile toprakların bir kısmı İran'a döndü; hangi kısmı iki TDV maddesinde farklı"},
+    [TDV_DAGISTAN, TDV_DERBEND],
+    "GERİYE SARMA G6: Reşt ve Gence yalnız YIL düzeyinde (gün bulunamadı). 1735 sonrası Rus-İran teması (Terek/Sulak) tanımsız ⇒ kayıt YOK",
+    t="1735-01-01")
+
 af = cizgi("AFG-IRN")
 P39 = 34 + 20 / 60
 # Güney (McMahon) kesimi: IBS 6 "182-mile southern segment", Malik Siyah → Siah Koh (Nar-i Ahu, taş 90).

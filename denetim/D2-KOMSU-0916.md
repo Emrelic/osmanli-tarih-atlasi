@@ -254,6 +254,21 @@ KRONOLOJİ +5 → 19   1813 Gülistan (YIL — IBS 12 Eki ↔ TDV 24 Kas) · 182
 veriyor ⇒ tek olanlar Jülyen olabilir. Türkmençay'da TDV de 10 Şubat diyor; TDV esas.
 Toplam **51 kayıt: E 16 · D 1 · C 7 · YOK 27** · 19 kronoloji maddesi, hepsi bağlı.
 
+## 13. GERİYE SARMA G6 (1774 → 1699-01-26) + G7 (→ 1606-11-11)
+
+```
+G6  YENİ YOK 2   Rus–Safevî Hazar kıyısı 1723-09-12 → 1732 → 1735 (kutu TAHMİNİ, koordinat yok)
+    KRONOLOJİ +3 1723-09-12 Petersburg · 1732 Reşt (YIL) · 1735 Gence (YIL)
+    🔴 TDV KENDİ İÇİNDE ÇELİŞİK (§4 ⑥): `derbend--dagistan` 12 Eylül 1723 + iade Gence 1735 ·
+       `dagistan` 1724 + Derbend/Bakü iadesi Reşt 1732 ⇒ taraf SEÇİLMEDİ, maddelerde ikisi de yazılı
+    1735 sonrası Terek/Sulak teması tanımsız ⇒ kayıt yok
+    ÖLÜ slug: nadir-sah · tahmasb-ii · tahmasb-kulu-han · afsarlar · esref-han · talis
+    ERİŞİLEMEDİ (000): gilan · safeviler · mazenderan
+G7  0 — bölgede Türkiye DIŞI hukukî sınır yok (Rus-İran teması 1722'den önce yok; Osmanlı-Safevî
+    Zühab 1639 D1'in; Afgan-İran ve Kandahar el değiştirmeleri tahdit değil)
+```
+Toplam **53 kayıt: E 16 · D 1 · C 7 · YOK 29** · **22 kronoloji maddesi**, bağ sorunu 0.
+
 ## 7. OKUNAN KAYNAKLAR (HTTP 200, metin okundu)
 
 ```

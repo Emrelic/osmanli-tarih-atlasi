@@ -142,4 +142,26 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"27 Mayıs/8 Haziran 1893 Tahran Sözleşmesi Hazar doğusundaki sınırın kalanını Babadurmaz'dan Afganistan üçlü noktasına kadar çizdi ve toprak değişimi öngördü. Rusya Firuze'yi aldı; Türkmençay'dan beri elinde tuttuğu Abbasabad köprübaşını İran'a bıraktı.",
   kaynak:"IBS No. 25 s.4-5, 12 (BFSP 86:1246; 'a concession the Russians held until 1893'; 'Firyuza … which the Russians had received in 1893')" },
 
+// ── GERİYE SARMA G6: RUS–SAFEVÎ HAZAR KIYISI ──────────────────────────
+// İki TDV maddesi çelişiyor (yıl 1723/1724; Derbend-Bakü'nün iadesi Reşt 1732 / Gence 1735).
+// Taraf seçilmedi, çelişki metinde.
+
+{ t:"1723-09-12", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1723",
+  b:"Petersburg Antlaşması: Derbend, Bakü ve Hazar'ın güney kıyıları Rusya'ya bırakıldı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","safevi","rusya"],
+  d:"İran'daki karışıklıktan yararlanan I. Petro Ağustos 1722'de Derbend'i işgal etti. 12 Eylül 1723'te Petersburg'da imzalanan antlaşma ile Derbend, Bakü ve Hazar'ın güney kıyılarının büyük bölümü Rusya'ya bırakıldı. TDV'nin dagistan maddesi bu antlaşmayı 1724'e koyuyor; gün derbend--dagistan maddesinden alındı. Hattın koordinatı yok.",
+  kaynak:"TDV derbend--dagistan ('12 Eylül 1723’te Petersburg’da imzalanan antlaşma') · TDV baku ('1723’te I. Petro tarafından Rus topraklarına katıldı') · TDV dagistan (1724 — çelişki)" },
+
+{ t:"1732-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
+  b:"Reşt Antlaşması: Rusya Hazar kıyısındaki toprakların bir kısmını İran'a iade etti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","safevi","rusya","nadir-sah"],
+  d:"Nâdir'in Ruslara karşı yürüttüğü mücadele sonunda 1732'de Reşt Antlaşması imzalandı. TDV dagistan maddesine göre bu antlaşmayla Dağıstan'ın güneyi, Derbend ve Bakü İran'a geçti. TDV derbend--dagistan ise Derbend ile Bakü'nün iadesini 1735 Gence Antlaşması'na bağlıyor. Çelişki çözülmedi. Tarih yalnız YIL düzeyindedir.",
+  kaynak:"TDV dagistan ('1732’de imzalanan Reşt Antlaşması’yla') · TDV derbend--dagistan (iade 1735 — çelişki)" },
+
+{ t:"1735-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",
+  b:"Gence Antlaşması: Rusya Hazar kıyısından çekildi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","safevi","rusya","nadir-sah"],
+  d:"Osmanlı ve Kırım'ın Dağıstan'daki faaliyetleri ve İran'da merkezî idarenin güçlenmesi Rusya'yı 1735 Gence Antlaşması'na zorladı. TDV derbend--dagistan'a göre Derbend, Bakü ve Hazar kıyısındaki öteki bölgeler İran'a geri verildi. TDV dagistan ise bu antlaşmaya Sulak ile Kura arasındaki bazı toprakları bağlıyor. Tarih yalnız YIL düzeyindedir.",
+  kaynak:"TDV derbend--dagistan ('1735 Gence Antlaşması’nı imzalamaya zorladı') · TDV dagistan ('1735 tarihli antlaşma ile de Sulak ve Kura')" },
+
 ];
