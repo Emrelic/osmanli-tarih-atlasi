@@ -73,6 +73,44 @@ dosyalarım DIŞINDA olduğu için doğrudan düzeltilmedi):
    1718-1730) 1596-1601 dönemine ait BAŞKA bir Damad İbrahim Paşa'nın yerine
    geçmesine yol açıyor. Kod hatası değil, kisiler.js'te eksik bir kayıt.
 
+---
+
+## İKİNCİ TUR — 2c (eski paketlerden kalan: `denetim/KUTU-AYIKLA-0916.md` §④, EKOKUMA 1-6 · KRONOLOJI 1-4)
+
+Koordinatör talimatı: EKOKUMA 1-6 ve KRONOLOJI 1-4 kalemleri, kendi iki dosyaya
+(`ekokuma_rivayet.js`, `olaylar_p0059.js`). Teslim 23:30.
+
+### EKOKUMA
+
+| # | Kalem | Sonuç |
+|---|---|---|
+| 1 | 0048/H-0015 (antlaşma önem/sebep-sonuç, kalan liste) | ✅ 4 kart YAZILDI: Ferhad Paşa/İstanbul 1590 (doğuda en geniş sınır, 13-18 yılda tamamen eridi), İstanbul 1700/Azak (Rusya'nın ilk kalıcı elçiliği), Prut 1711 (Baltacı'nın tartışmalı kararı), Doksanüç Harbi→Ayastefanos (savaşın KENDİ sebebi, `sebep-sonuc-berlin-1878`den kasıtlı ayrı). `PAKET-EK2-0913.md §3`'teki dev geri kalan liste (Balta Limanı, Sevr, Lozan, Kars, Gümrü vb. onlarca kalem) bu turda YAZILMADI — kapsam çok geniş, sonraki dalgaya kalıyor. |
+| 2 | 0050/H-0001 (Rus kaynaklarında Kırım Hanlığı) | ⛔ ZATEN TAMAMEN YAZILMIŞ — `data/ekokuma_kirimrus.js` (6 kart, Ocakli/Williams/Remy/Encyclopedia of Ukraine kaynaklı, 14 Eylül). KUTU-AYIKLA'da "[sirada]" görünmesi bayat bir kayıt; mükerrer yazılmadı. |
+| 3 | 0050/H-0003 (I. Mustafa'nın hal'i, kızlarağası rivayeti) | ✅ YAZILDI — `tartisma-i-mustafa-kizlaragasi-rivayeti`. TDV'nin verdiği (kızlarağasının hal' kararındaki etkisi) ile halk arasında anlatılan (odaya kilitleme sahnesi, TDV'de YOK) açıkça ayrıldı. |
+| 4 | 0050/H-0005 (Kasr-ı Şirin ek okumaları) | ⛔ ZATEN TAMAMEN YAZILMIŞ — `data/ekokuma_kasrisirin.js` (5 kart: müzakere, sınır, arka plan, kalıcılık, tarih yazımı tartışması). Mükerrer yazılmadı. |
+| 5 | 0050/H-0007 (magazin kartları akordeon olsun, sekme değil) | ⛔ BENİM DOSYALARIMDA DEĞİL — bu bir `js/app.js` render/UI mimarisi kararı (magazin türünün ayrı sekme yerine akordeon gösterimi). UI oturumuna tahtadan bildirildi. |
+| 6 | 0050/H-0008 (Deli İbrahim skandalları) | 🟡 KISMEN — samur vergisi, Cinci Hoca, "ayaklarını gıdıklama" (araştırılıp REDDEDİLMİŞ) zaten `ekokuma_ibrahim.js`'te vardı. Varvar Ali Paşa isyanı YENİ YAZILDI (`magazin-varvar-ali-pasa-isyani-1647`, TDV kaynaklı). "Şişman kadın/Şivekâr" anlatısı ARANDI, yalnız forum/wiki/blog kaynağı bulundu (TDV/akademikte YOK) — CLAUDE.md §4 kırmızı çizgisi gereği YAZILMADI, `tartisma-ibrahim-sisman-kadin-arastirmasi` kartıyla "bulunamadı" diye kayda geçirildi. |
+
+### KRONOLOJI
+
+| # | Kalem | Sonuç |
+|---|---|---|
+| 1 | 0019/H-0045 (Halep maddesi başlığına Rakka/Deyrizor) | 🟡 YAMA'ya yazıldı — kayıt benim dosyam değil (`olaylar_ek5.js`), basit başlık düzeltmesi önerisi verildi, araştırma gerekmedi (detay zaten kayıtta vardı). |
+| 2 | 0019/H-0047 (Trablusşam maddesi başlığına Hama/Humus) | 🟡 YAMA'ya yazıldı — Hama için başlık önerisi verildi (detay kayıtta zaten var); Humus için TDV doğrulaması bu turda YAPILAMADI, açık bırakıldı. |
+| 3 | 0035/H-0065 (İbrim'in başlangıç günü hâlâ açık) | ⛔ BENİM DOSYALARIMDA DEĞİL — bu bir `yerlesimler.js` veri sorunu (İbrim'in `s:`/`d:` başlangıç tarihi), ek okuma/kronoloji metni DEĞİL. HARITA-VERI/UYGULA'ya yönlendirilmeli; bu turda dokunulmadı. |
+| 4 | 0039/H-0004 (WWI cepheleri: İtalyan/Fransız/İngiliz/Ermeni/Rus/Yunan, 1918-1923) | ⛔ ÖLÇÜLDÜ, BU TURDA YAZILMADI — beş ayrı cephe, beş yıllık dönem, çok sayıda ayrı olay gerektiren geniş bir araştırma projesi. Kalan zamanda ACELEYLE yazmak yerine (kaynaksız/yarım kalır riski) dürüstçe ERTELENDİ — bir sonraki dalgaya, tercihen ayrı bir oturuma (KUTU-AYIKLA'nın "ilk parti 10 madde" ile devam) sevk edilmeli. |
+
+### Ek doğrulama
+
+`ekokuma_rivayet.js` toplam **16 karta** çıktı (ilk turdan 9 + ikinci turdan 7:
+4 antlaşma + Mustafa + Varvar Ali Paşa + "şişman kadın: bulunamadı"). Tüm
+`olay:` tarihleri yeniden node ile tam korpusa (`olaylar*.js`) karşı taranıp
+**0 eksik** bulundu (ilk taramada 3 hatalı tarih çıktı — 1699-01-24→1699-01-26,
+1709-08-01 kaldırıldı, 1648-05-20 kaldırıldı — hepsi düzeltildi). `denetim/YAMA-RIVAYET-0916.json`
+5 öneriye çıktı.
+
+---
+
 ## Aksaklık/karar gerektiren tek kalem
 
 `js/app.js`'in `_EKOKUMA_DOSYA_ADLARI` listesine `"ekokuma_rivayet"` ve

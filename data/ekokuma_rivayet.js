@@ -104,6 +104,85 @@ window.EKOKUMA_RIVAYET = [
   kaynak:"TDV: cinar-vakasi · TDV: koprulu-mehmed-pasa" },
 
 // ── 9 · H-0083 / 51-H-0006 — Yanova, Erdel seferi ve Rákóczi zinciri ────────
+// ── 10 · 0048/H-0015 (2. tur) — Ferhad Paşa/İstanbul Antlaşması 1590 ────────
+{ id:"sebep-sonuc-ferhad-pasa-istanbul-1590", tur:"sebep-sonuc",
+  kisa:"Osmanlı doğuda hiç olmadığı kadar genişledi — ve on sekiz yıl içinde kazandığının tamamını geri verdi.",
+  sebep:{ b:"1578'de başlayan uzun ve yıpratıcı Osmanlı-Safevî savaşının Gence'nin 1 Eylül 1588'de alınmasıyla Osmanlı lehine dönmesi ve yeni şah I. Abbas'ın taht çekişmeleri ile doğuda Özbeklerin baskısıyla uğraşması", t:"1588-09-01" },
+  sonuc:{ b:"Ferhad Paşa (İstanbul) Antlaşması: Kafkasya'da Gürcistan, Dağıstan, Şirvan, Karabağ ve Gence; Azerbaycan'da Tebriz ve Karacadağ; batıda Luristan, Nihâvend, Kürdistan, Şehrizor ve Bağdat'ın Osmanlı'da kalması ve İran'da halifelere lânet okunmasının yasaklanması", t:"1590-01-01" },
+  bag:"Önemi: bu antlaşma Osmanlı'nın doğuda ulaştığı EN GENİŞ sınırı belgeler — TDV'nin Safevîler maddesindeki toprak listesi bunu gösterir. Ama kazanım KALICI OLMADI: Şah Abbas doğu cephesini (Özbekler) önce halledip batıya döndü ve Luristan'ı 1603'te, Tebriz'i 21 Ekim 1603'te, Gence'yi 1606'da, Şirvan ile Gürcistan'ı 1608'de geri aldı — on üç ila on sekiz yıl içinde 1590'ın bütün kazanımları eridi. Bu, 'genişleme' ile 'kalıcı tasarruf'un aynı şey olmadığını gösteren en çarpıcı örneklerden biridir (bkz. D030 'atlas seferi değil tasarrufu boyar').",
+  metin:"1578'den beri süren savaş, Osmanlı'nın 1588'de Gence'yi almasıyla dönüm noktasına ulaştı; yeni tahta çıkan Şah I. Abbas hem iç çekişmelerle hem doğudaki Özbek baskısıyla uğraşıyordu ve batı cephesini kapatmak istiyordu. Şah, Haydar Mirza başkanlığında kalabalık bir heyeti İstanbul'a gönderdi; Osmanlı serdarı Ferhad Paşa da heyetle birlikte dönerek antlaşmada rol oynadı. 1590'da (998) varılan barışla savaş boyunca ele geçirilen bütün topraklar (Kafkasya, Azerbaycan, batı İran ve Irak'ın büyük bölümü) Osmanlı'da kaldı ve İran'da ilk üç halifeye lânet okunması yasaklandı. Ama bu, kalıcı bir sınır değil bir GÜÇ DENGESİ ANI'ydı: batı cephesi güvenceye alınan Abbas doğuya (Özbeklere) yöneldi, orduyu ve maliyeyi yeniden düzenledi (meşhur şah kulu reformları da bu döneme rastlar) ve hazır olunca batıya döndü. Luristan 1603'te, Tebriz aynı yılın 21 Ekim'inde, Gence 1606'da, Şirvan ve Gürcistan 1608'de tek tek Safevîlere geçti.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1588-09-01","1590-03-21"],
+  kaynak:"TDV: safeviler · murad-iii · luristan · ferhad-pasa · tebriz" },
+
+// ── 11 · 0048/H-0015 (2. tur) — İstanbul Antlaşması 1700 (Azak) ─────────────
+{ id:"sebep-sonuc-istanbul-1700-azak", tur:"sebep-sonuc",
+  kisa:"Karlofça'nın çözemediği tek hesap Rusya'yla kaldı — ve bu kez Rusya, kaybeden taraf değil masadaki EŞİT bir taraf gibi konuştu.",
+  sebep:{ b:"Karlofça görüşmelerinde (1699) Osmanlı ile Rusya arasında kalıcı bir barış kurulamaması: Osmanlı Azak'ı bırakmaya razıydı ama Dinyeper ağzındaki kalelerin boşaltılmasını istiyordu, Rus elçisi Ukrayntsev ise bu konuda tam yetkili olmadığını söylüyordu — yalnız iki yıllık, beş maddelik bir mütarekeyle (24 Ocak 1699) yetinildi", t:"1699-01-24" },
+  sonuc:{ b:"İstanbul Antlaşması: Azak Kalesi kesin olarak Rusya'ya bırakıldı, ama toprak meselelerinde genellikle Osmanlı istekleri kabul edildi ve Rusya ilk kez İstanbul'da SÜREKLİ ELÇİ bulundurma hakkı kazandı", t:"1700-07-14" },
+  bag:"Önemi: bu antlaşma, Rusya'nın artık Osmanlı sarayında GÜNDELİK, SÜREKLİ bir diplomatik varlık kazandığı ilk andır — önceki yüzyıllarda elçilikler geçici heyetlerdi. Osmanlı bir tavizle (Azak) bir kazanç (toprakta genel olarak kendi isteklerinin kabulü, Kırım'a akın yapılmaması güvencesi) elde etti, ama Rusya'nın Karadeniz'e açılma talebini (ticaret gemilerinin serbest dolaşımı) reddederek denizi kendi gölü olarak tutmayı sürdürdü — bu direnç ancak 1774 Küçük Kaynarca'da kırılacaktı.",
+  metin:"Karlofça'da bütün müttefiklerle (Avusturya, Venedik, Lehistan) kalıcı barış yapılabildiği hâlde Rusya'yla yalnız geçici bir mütareke imzalanabilmişti. Görüşmeler birkaç ay sonra İstanbul'da aynı Osmanlı heyeti (Reis-ül Küttab Râmi Mehmed Efendi) ile Rus elçisi Ukrayntsev arasında sürdürüldü ve on dört maddelik antlaşma 14 Temmuz 1700'de imzalandı. Azak Kalesi kesin olarak Rusya'ya bırakıldı; buna karşılık Kırımlılara akın yapılmaması ve haraç talep edilmemesi konusunda Rus istekleri kabul edildi, Rusya İstanbul'da elçi düzeyinde sürekli bir temsilci bulundurma hakkı kazandı, ama ticaret gemilerinin Karadeniz'de serbestçe dolaşması talebi REDDEDİLDİ. Osmanlı hükümeti antlaşmadan sonra, Azak'ın Rusya'ya geçmesine karşılık Karadeniz'in güvenliği için Kerç Boğazı'nda Yenikale'yi inşa ettirdi.",
+  kesinlik:"kesin",
+  zincir:["sebep-sonuc-karlofca-1699","sebep-sonuc-kucuk-kaynarca-1774"],
+  olay:["1699-01-26","1700-07-14"],
+  kaynak:"TDV: karlofca · azak · mustafa-ii · rusya" },
+
+// ── 12 · 0048/H-0015 (2. tur) — Prut Antlaşması 1711 ────────────────────────
+{ id:"sebep-sonuc-prut-1711", tur:"sebep-sonuc",
+  kisa:"Bir sadrazam, bir çarı ordusuyla birlikte elinin altında yakaladı — ve onu serbest bıraktı. Kahramanlık mı, rüşvet mi, akıllı diplomasi mi?",
+  sebep:{ b:"İsveç Kralı XII. Karl'ın Poltava'da (Ağustos 1709) Çar I. Petro'ya yenilip Osmanlı topraklarına sığınması, Boğdan voyvodası Dimitrie Kantemir'in Petro ile gizlice anlaşıp Osmanlı'ya karşı harekete geçmesi ve Rusya'nın Azak'tan sonra Kırım'ı tehdit eden yeni kaleler kurması", t:"1709-08-01" },
+  sonuc:{ b:"Baltacı Mehmed Paşa'nın Prut nehri kıyısında Çar I. Petro'nun bizzat bulunduğu Rus ordusunu kuşatıp imha edebilecekken barış teklifini kabul etmesi; Prut Antlaşması (Amannâmesi): Azak'ın Rusya'dan geri alınması, Taygan ve Yenikale'nin yıkılması, Lehistan ve Kazaklara karışılmaması", t:"1711-07-21" },
+  bag:"Önemi ve tartışması bir arada: Rusya'nın en güçlü hükümdarlarından birini ordusuyla birlikte tuzağa düşürüp SONRA SERBEST BIRAKMAK, Osmanlı tarih yazımının en tartışmalı kararlarından biridir. TDV'nin aktardığı eleştiriler açık: Baltacı'nın çarı esir alma fırsatını kaçırdığı, Rus ordusunu topu tüfeğiyle serbest bıraktığı ve müttefiki İsveç Kralı'nın rızasını almadan karar verdiği söylendi; Çariçe Katerina'nın sadrazama gönderdiği hediyelerin (mücevher) barışı etkilediği iddia edildi. Baltacı bu yüzden azledilip Limni'ye sürüldü ve 1712'de orada öldü. Ama TDV bazı tarihçilerin bunu akıllıca bir diplomasi kabul ettiğini de ekliyor: savaş tazminatı ve Rus donanmasının teslimi gibi daha ağır şartlar hiç gündeme gelmedi, ve imzalanan belge zaten bir mütareke (temessük) niteliğindeydi — asıl kalıcı barışın İstanbul'da yapılması öngörülüyordu.",
+  metin:"Poltava bozgunundan kaçan İsveç Kralı XII. Karl'ın Osmanlı topraklarına (Bender) sığınması ve Boğdan voyvodası Kantemir'in Rusya'yla gizli anlaşması, Osmanlı'yı 1710'da Rusya'ya savaş açmaya itti. 1711 yazında Baltacı Mehmed Paşa komutasındaki Osmanlı ordusu, Prut nehri kıyısında Çar I. Petro'nun bizzat bulunduğu Rus ordusunu kuşattı — ordu erzaksız ve çaresiz durumdaydı. Ama Baltacı, imha etmek yerine 21 Temmuz 1711'de bir mütareke (Amannâme) imzaladı: Rusya Azak'ı çevresi ve cephanesiyle geri verecek, Taygan ile Kamenka kaleleri ve Yenikale yıkılacak, Lehistan'a ve Kazaklara müdahale edilmeyecek, Müslüman esirler serbest bırakılacaktı — ama savaş tazminatı, donanma teslimi ya da Kantemir'in iadesi gibi ağır şartlar metne hiç girmedi. Osmanlı tarafının Türkçe metniyle Rusça metin arasında da fark vardı: Türkçesi Lehistan'a müdahaleyi yalnız Rusya'ya yasaklarken Rusçası bunu iki devlete birden uyguluyordu.",
+  kesinlik:"tartismali",
+  zincir:[],
+  olay:["1711-07-21|Azak ve Taygan"],
+  kaynak:"TDV: prut-antlasmasi" },
+
+// ── 13 · 0048/H-0015 (2. tur) — 93 Harbi'nin başlangıcı → Ayastefanos ───────
+{ id:"sebep-sonuc-doksanuc-harbi-1877-ayastefanos", tur:"sebep-sonuc",
+  kisa:"Balkanlarda başlayan bir isyan zinciri, iki cephede birden Osmanlı'yı yenilgiye götürdü — ve bu kart Berlin'in sebebini DEĞİL, savaşın KENDİSİNİN sebebini anlatır.",
+  sebep:{ b:"1875-76'da Bosna-Hersek ve Bulgaristan'da çıkan ayaklanmalar, Rusya'nın panslavist siyasetle bunları körüklemesi ve Aralık 1876'daki İstanbul Konferansı'nın önerilerinin Osmanlı tarafından reddedilmesi üzerine Rusya'nın 24 Nisan 1877'de savaş ilan etmesi", t:"1877-04-24" },
+  sonuc:{ b:"Rus ordularının Tuna'da Plevne'yi (Osman Paşa'nın direnişine rağmen) ve doğuda Erzurum'u aşıp İstanbul önlerine (Yeşilköy/Ayastefanos) dayanması; 31 Ocak 1878 Edirne Mütarekesi ve 3 Mart 1878 Ayastefanos Antlaşması", t:"1878-03-03" },
+  bag:"Önemi: bu kart, `sebep-sonuc-berlin-1878`den KASITLI olarak AYRI — o kart Ayastefanos'un NİÇİN Berlin'de değiştirildiğini (büyük devletlerin itirazı) anlatır, bu kart ise SAVAŞIN KENDİSİNİN nasıl başladığını ve Osmanlı'ya bedelini anlatır. 93 Harbi, Balkanlardaki Osmanlı varlığının çöküşünün başlangıcı sayılır: yüz binlerce Türk ve Müslüman muhacir Bulgaristan'dan Anadolu'ya göç etmek zorunda kaldı, devlet Rusya'ya 802,5 milyon frank savaş tazminatı borçlandı — bu mali yük 1875 Düyûn-ı Umûmiye iflasının üzerine binen ikinci büyük darbe oldu.",
+  metin:"1875-76'da Bosna-Hersek ve Bulgaristan'da çıkan ayaklanmalar Avrupa kamuoyunda geniş yankı buldu; Rusya panslavist siyasetiyle bu hareketleri destekledi. Aralık 1876'da toplanan İstanbul Konferansı'nın Balkan halklarına özerklik öneren kararları Osmanlı hükümetince reddedilince Rusya 24 Nisan 1877'de savaş ilan etti. Savaş iki cephede birden yürütüldü: Tuna cephesinde Abdülkerim Paşa'nın komutasında başlayan mücadele, Osman Paşa'nın Plevne'deki uzun direnişine rağmen Rus ilerleyişini durduramadı; doğuda Ahmed Muhtar Paşa'nın Kafkas cephesindeki başlangıçtaki başarıları da kalıcı olmadı. Rus orduları batıda İstanbul'un Yeşilköy (Ayastefanos) semtine, doğuda Erzurum'a kadar ilerleyince Bâbıâli 31 Ocak 1878'de Edirne Mütarekesi'ni imzalamak zorunda kaldı. Savaşın insanî bedeli ağırdı: özellikle Bulgaristan'dan yüz binlerce Türk ve Müslüman zorla yerinden edildi ya da yollarda öldü; bu muhacirlerin bir kısmı sonradan II. Abdülhamid adına kurulan köylere yerleştirildi. 3 Mart 1878'de imzalanan Ayastefanos Antlaşması'nın hükümleri (bağımsızlıklar, Bulgaristan'ın genişlemesi, toprak kayıpları, 1.410.000.000 rublelik tazminat) ayrı bir kartta (`antlasma-ayastefanos-1878`) anlatılıyor.",
+  kesinlik:"kesin",
+  zincir:["sebep-sonuc-berlin-1878"],
+  olay:["1877-04-24","1878-01-31","1878-03-03"],
+  kaynak:"TDV: doksanuc-harbi · ayastefanos-antlasmasi" },
+
+// ── 14 · 0050/H-0003 — I. Mustafa'nın hal'i ve kızlarağası rivayeti ─────────
+{ id:"tartisma-i-mustafa-kizlaragasi-rivayeti", tur:"tartisma",
+  baslik:"Kızlarağası'nın rolü — ve on beş yıllık bir sessizlik",
+  kisa:"TDV bir isim veriyor ama bir hikâye vermiyor: halk arasında anlatılan 'kızlarağası onu odaya kilitledi' anlatısı kaynakta yok.",
+  metin:"I. Mustafa, II. Osman'ın 1622'de öldürülmesinin ardından ikinci kez tahta çıkmış, ama akli dengesizliği yüzünden yalnız bir yıl kadar sonra 10 Eylül 1623'te ikinci ve son kez tahttan indirilmişti (yerine IV. Murad geçti). TDV İslâm Ansiklopedisi bu hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtir — yani karar sarayın en üst düzey iç hizmet görevlisinin de içinde olduğu bir mutabakatla alındı. Ama TDV'nin kaydı burada durur: kızlarağasının Mustafa'yı bizzat bir odaya kilitlediğine, ya da halk arasında anlatılan başka bir sahneye dair bir ayrıntı YOK.\n\nHal'den ölümüne kadar geçen on beş yıl (1623-1639) hakkında TDV'nin kendi ifadesi çarpıcı bir biçimde açık: bu döneme dair 'herhangi bir bilgi bulunmamaktadır.' Yani I. Mustafa, imparatorluğun ortasında, kapalı bir odada, tarihin hiç kaydetmediği on beş yıl geçirdi. 20 Ocak 1639'da (15 Ramazan 1048) öldüğünde kaynaklar ikiye ayrılır: bir kısmı doğal ölüm der, bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer — TDV ikisini de 'iddia edilir/ileri sürülür' diye aktarır, birini seçmez.",
+  bag:"Bu kart Emre'nin H-0003'te sorduğu 'kızlarağasının rolünü ilginç/komik bir olay olarak anlatalım' isteğine karşı DÜRÜST bir sınır koyuyor: kaynakta VAR olan (kızlarağasının hal' kararındaki etkisi) ile HALK ARASINDA anlatılan ama TDV'de bulunmayan (bir odaya kilitleme sahnesi) birbirinden ayrıldı. İkincisi kartta YAZILMADI — D107'nin 'bulunamadı' damgası burada tam yerinde.",
+  not:"Ölüm sebebi (doğal/cinayet) TARTIŞMALI; hal' kararında kızlarağasının etkisi KESİN; on beş yıllık boşluk döneminin içeriği kaynakta YOK.",
+  kesinlik:"tartismali",
+  olay:["1623-09-10","1639-01-20"],
+  kaynak:"TDV: mustafa-i" },
+
+// ── 15 · 0050/H-0008 — Varvar Ali Paşa isyanı ───────────────────────────────
+{ id:"magazin-varvar-ali-pasa-isyani-1647", tur:"magazin",
+  baslik:"Reddedilen bir emir, bir yıl süren bir isyana dönüştü",
+  kisa:"Bir beylerbeyi, başka bir paşanın karısını padişaha götürmeyi reddetti — ve bu ret, Sultan İbrahim döneminin en büyük taşra isyanlarından birinin fitilini ateşledi.",
+  metin:"Bosnalı bir devşirme olan Varvar Ali Paşa, 1647'de Sivas beylerbeyiliğine tayin edildi. Aynı yıl, Sultan İbrahim'in emriyle İpşir Mustafa Paşa'nın Sivas'ta bulunan nikâhlı karısı Perihan Hanım'ın İstanbul'a, padişaha takdim edilmek üzere gönderilmesi istendi. Varvar Ali Paşa bu emri geri çevirdi — TDV, reddedişinin kesin sebebini bilmediğini açıkça yazar, ama bu itaatsizliğin isyan sürecinin başlangıcı olduğunu belirtir.\n\nEkim 1647'de kendisinden 30.000 kuruş istenince ödeme imkânı olmadığını bildirdi; merkezle ilişkisi daha da gerildi. Bunun üzerine eyaletteki taşra ileri gelenleriyle birleşip İstanbul'daki yönetimden reformlar talep etti ve etrafına asker topladı — Sultan İbrahim döneminin genel huzursuzluk ortamı, ona geniş bir destek bulacağı umudunu verdi. İsyan yaklaşık bir yıl sürdü. 20 Mayıs 1648'de Çerkeş'te, daha önce karısının verilmesini reddettiği İpşir Mustafa Paşa'nın kuvvetlerince yakalandı; kısa bir muhakemeden sonra idam edildi, kesik başı İstanbul'a gönderildi.",
+  not:"Varvar Ali Paşa aynı zamanda şair olarak da anılır. İsyanının Sultan İbrahim'in hal'inden (Ağustos 1648) yalnız üç ay önce bastırılmış olması, döneme özgü genel otorite krizinin bir başka yüzüdür.",
+  kesinlik:"kesin",
+  olay:["1648-08-08"],
+  kaynak:"TDV: varvar-ali-pasa" },
+
+// ── 16 · 0050/H-0008 — 'şişman kadın' anlatısı: BULUNAMADI ──────────────────
+{ id:"tartisma-ibrahim-sisman-kadin-arastirmasi", tur:"tartisma",
+  baslik:"'Şişman kadın merakı' — bu turda akademik/TDV kaynak bulunamadı",
+  kisa:"Popüler sitelerde çok anlatılan bir hikâye; TDV'de ve akademik yazında izi bulunamadı.",
+  metin:"H-0008'in saydığı 'şişman kadın düşkünlüğü' anlatısı (halk arasında 'Şivekâr' adıyla bilinen bir haseki hikâyesi) bu turda araştırıldı. TDV `ibrahim--padisah` maddesi böyle bir haseki adı ya da fiziksel özellik tarifi VERMİYOR. Bulunan tek kaynaklar Wikipedia, fandom wiki'leri, Tumblr ve eksisözlük gibi kullanıcı içerikli sitelerdi — CLAUDE.md §4'ün kırmızı çizgisi (forum/blog/kaynaksız derleme site kullanılmaz) bu kaynakları KULLANMAYI YASAKLIYOR. Bu yüzden anlatı bu turda karta YAZILMADI.\n\nEn yakın DOĞRULANMIŞ konu: `ibrahim-telli-haseki-nikahi` ve `ibrahim-hasekiler-pasmaklik-eyaletler` kartları (bu dosyanın dışında, `data/ekokuma_ibrahim.js`) İbrahim'in çok sayıda haseki edinmesini ve onlara sağladığı gelirleri zaten TDV kaynaklı olarak anlatıyor — 'şişman kadın' anlatısı bu genel temanın popülerleşmiş bir dalı olabilir ama kendi başına doğrulanamadı.",
+  not:"Bu kart bir 'sonuç' değil bir 'arama raporu'dur — D107'nin 'bulunamadı' damgası.",
+  kesinlik:"tartismali",
+  olay:["1644-01-01|Deli İbrahim"],
+  kaynak:"aranmadı — yalnız forum/wiki/blog türü sonuçlar bulundu, TDV ve akademik kaynakta YOK" },
+
 { id:"sebep-sonuc-rakoczi-erdel-seferi-1658-1664", tur:"sebep-sonuc",
   kisa:"Bir prens izinsiz Lehistan'a girdi — ve iki yıl sonra kendi ölümünü, altı yıl sonra da yeni bir Osmanlı-Avusturya savaşını doğurdu.",
   sebep:{ b:"Erdel Prensi II. György Rákóczi'nin Osmanlı himayesini çiğneyerek izinsiz Lehistan seferine çıkması", t:"1657-01-01" },

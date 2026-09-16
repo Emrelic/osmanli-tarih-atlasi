@@ -34,6 +34,26 @@
       "yeni_oneri": "İkisinden BİRİ silinmeli (D002 'yakın mükerrer' ailesi — burada mekân değil zaman/kaynak mükerrerliği). Kalan kayıtta: ① yıl TDV'de yok, bu yüzden ya `gun:` alanına 'yıl belirsiz, XVII. yüzyıl' yazılıp `t:` künyenin/bağlı olayın penceresine hizalanmalı (§4 hassasiyet kuralı), ② 'belgelenmiş ilk uzun mesafeli planör uçuşu' ifadesi TDV'nin söylemediği bir hüküm olduğu için SİLİNMELİ, yerine 1632 kaydındaki 'rivayete göre ... tarihî kesinliği tartışmalı' çerçevesi korunmalı.",
       "kaynak": "TDV: hezarfen-ahmed-celebi (WebFetch, 16 Eylül 2026, HTTP 200, gövde okundu)",
       "oncelik": "yüksek — bu D144 ailesinden bir vaka: beyan edilen kaynak (TDV), iddiayı ('belgelenmiş ilk...') TAŞIMIYOR"
+    },
+    {
+      "madde_kimligi": "0019/H-0045 (2. tur, KUTU-AYIKLA KRONOLOJI-1) — data/olaylar_ek5.js:158, t:\"1516-08-28\", b:\"Halep'in Osmanlı hâkimiyetine girişi\"",
+      "sikayet": "Emre: \"Halep'in Osmanlı hakimiyetine girişi maddesinde haritada Deyrizor ve Rakka'da görünüyor, kronoloji BAŞLIĞINDA bunlardan da bahsedilebilir; detay metinde zaten var.\"",
+      "olcum": "Doğru: `d:` alanı zaten \"Aynı tarihte katılan öteki yerler: Antakya, Rakka, Deyrizor\" diyor, ama `b:` (başlık) yalnız \"Halep'in Osmanlı hâkimiyetine girişi\". Kullanıcı yalnız başlığı görüyor, detay metne tıklamadan Rakka/Deyrizor'un aynı harekette geldiğini anlamıyor.",
+      "alan": "b",
+      "eski": "b:\"Halep'in Osmanlı hâkimiyetine girişi\"",
+      "yeni_oneri": "b:\"Halep, Rakka ve Deyrizor'un Osmanlı hâkimiyetine girişi\" (Antakya başlığa alınmadı — TDV halep maddesinin ana konusu Halep olduğu için üç yer sınırı aşılmadı; istenirse dördü birden de yazılabilir, tercih madde sahibine bırakıldı)",
+      "kaynak": "mevcut kaydın kendi `d:` alanı (kaynak: TDV halep) — yeni araştırma GEREKMEDİ, yalnız başlık-gövde tutarsızlığı",
+      "oncelik": "düşük — kozmetik, veri kaybı yok"
+    },
+    {
+      "madde_kimligi": "0019/H-0047 (2. tur, KUTU-AYIKLA KRONOLOJI-2) — data/olaylar_ek5.js:90, t:\"1516-09-26\", b:\"Trablusşam'ın Osmanlı idaresine girişi\"",
+      "sikayet": "Emre: \"Trablusşam'ın Osmanlı'ya girmesi maddesinde Hama ve Humus da bahsedilebilir, detayda var.\"",
+      "olcum": "KISMEN doğru: `d:` alanı \"Halep ve Hama'nın ardından Suriye kıyısındaki Trablusşam da...\" diyerek HAMA'yı anıyor, ama HUMUS'tan hiç söz etmiyor. Humus'un aynı 1516 fetih dalgasında alındığına dair bu turda TDV'de doğrulama YAPILMADI (zaman kalmadı) — bu yüzden yalnız Hama için öneri veriliyor, Humus icat EDİLMEDİ.",
+      "alan": "b",
+      "eski": "b:\"Trablusşam'ın Osmanlı idaresine girişi\"",
+      "yeni_oneri": "b:\"Trablusşam ve Hama'nın Osmanlı idaresine girişi\" — Humus'un eklenip eklenmeyeceği, TDV `humus` ya da `trablussam`/`hama` maddelerinin ayrıca okunmasına bağlı; bu turda ÖLÇÜLMEDİ.",
+      "kaynak": "mevcut kaydın kendi `d:` alanı (kaynak: TDV trablussam) — Humus için ayrıca kaynak taraması GEREKİYOR, bu turda yapılmadı",
+      "oncelik": "düşük — kozmetik, veri kaybı yok; Humus için ek araştırma açık kaldı"
     }
   ]
 }
