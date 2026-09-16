@@ -826,6 +826,16 @@ yok("g4-sih-tb-FIILI-ladakh-1842", SH, TB, "1842-09-17", bbox(parcala([hk_bati],
     "(künye `sih-imparatorlugu`); 1846'dan sonra `cammu-kesmir` (devlet geçişi, sınır olayı sayılmadı). 1842 öncesi yazılmadı",
     t=pad(KUNYE[CK][0]))
 print("G4 elle: bitti")
+
+# ================= G5 GERİYE SARMA (1815-06-09 → 1774-07-21) =================
+yok("g5-np-tb-FIILI-1792", NP, TB, "1792-01-01", bbox(cizgi("CHN-NPL"), 0.10),
+    {"deger": True, "kaynak": "IBS 50", "not": "24 Mar 1856 Nepal–Tibet barışı; 1960–63 anlaşmaları"},
+    [{"ad": "Çin–Nepal antlaşması", "tarih": "1792-01-01", "tur": "antlaşma", "not": "yalnız YIL biliniyor; hükümleri belirsiz"},
+     ibs(50, "China–Nepal", "appears to give territories south of the Himalaya to Tibet")],
+    "G5 · 1792–1856 hâli, sınıf FİİLİ: IBS'e göre antlaşma Himalaya'nın güneyindeki bazı toprakları Tibet'e bırakıyor görünür, "
+    "hükümleri belirsizdir. Antlaşmanın imzacısı Çin (Qing); sınırın karşı yakası Tibet — f yalnız yıl",
+    t="1856-03-24")
+print("G5 elle: bitti")
 for k in KAYIT:
     k.pop("_f0", None)
 

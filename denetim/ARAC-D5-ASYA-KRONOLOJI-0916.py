@@ -26,6 +26,10 @@ SH, NP, AIT2 = "sih-imparatorlugu", "nepal", "Aitchison, Treaties, Engagements a
 
 # (t, taraflar, b, tur, onem, dunya, sinif, d, kaynak, sinir_kaydi, yer_id)
 M = [
+# ---------------- G5 (1815-06-09 → 1774-07-21) ----------------
+("1792-01-01", [NP, TB], "Çin–Nepal antlaşması — Himalaya sınırı belirsiz bırakıldı", "antlasma", 3, 2, "YOK",
+ "1792'de (gün kaynakta yok; tarih alanı yalnız yılı taşır) Çin ile Nepal arasında yapılan antlaşma, IBS'e göre Himalaya'nın güneyindeki bazı toprakları Tibet'e bırakıyor görünür; ama kesin hükümleri belirsizdir. Nepal–Tibet sınırı bu antlaşmadan sonra da ancak fiilî bir çizgi olarak kaldı.",
+ IBS % (50, "China–Nepal"), "g5-np-tb-FIILI-1792", ""),
 # ---------------- G4 (1878-07-13 → 1815-06-09) ----------------
 ("1816-03-04", [IH, NP], "Sugauli Antlaşması yürürlükte — Nepal ovalarını İngilizlere bıraktı", "antlasma", 5, 3, "YOK",
  "2 Aralık 1815'te Segowlee'de (Sugauli) imzalanan antlaşmanın onaylı nüshası 4 Mart 1816'da Nepal temsilcisine teslim edildi. 3. madde Kali–Rapti, Rapti–Gandak, Gandak–Kosi ve Mechi–Teesta arasındaki ovaları ve Mechi'nin doğusundaki tepeleri Şirket'e bıraktı. 8 Aralık 1816 muhtırasıyla Gandak–Rapti Terai'si Nepal'e geri verildi ve sınırın ortak komiserlerce belirlenmesi kararlaştırıldı.",
@@ -183,7 +187,7 @@ M = [
 ]
 
 BAS = """// =====================================================================
-// SINIR KRONOLOJİSİ — ASYA (D5-ASYA) · geriye sarma G1–G4 (1923-10-29 → 1815-06-09)
+// SINIR KRONOLOJİSİ — ASYA (D5-ASYA) · geriye sarma G1–G5 (1923-10-29 → 1774-07-21)
 // =====================================================================
 // 🔴 ÜRETİLMİŞ DOSYA — elle düzenleme; üretici denetim/ARAC-D5-ASYA-KRONOLOJI-0916.py
 // window.KRONOLOJI_SINIR_ASYA — şartname oturumlar/GERIYE-SARMA-0916.md ADIM 3.
