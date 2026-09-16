@@ -1,52 +1,80 @@
 // ============================================================================
-// D KATMANI — 1923 sınırlarının KOORDİNATLA belirlenmiş kesin hattı.
-// GORUNUM-ABCD-0916.md §D: "Her köyün, tepenin, akarsuyun hangi tarafta
-// kaldığının koordinatla belirlendiği ayrıntılı sınır." Öncelik D > C > (A/B).
+// D KATMANI — 1923'ten geriye sarılan sınırların KOORDİNATLA belirlenmiş hattı.
 //
-// Şema: denetim/SEMA-D-0916.md (D1-TURKIYE, 16 Eylül 2026 — bu dosya o ilandan
-// SONRA yazıldı, alanlar TEYİTLİ, tahmin değil).
+// 16 Eylül 2026 akşamı Emre A-D dört kademeyi A-F ALTI KADEMEYE genişletti
+// (oturumlar/GORUNUM-ABCD-0916.md en üst bölüm, BAĞLAYICI):
+//   A  sürtünmeli yürüyüş · B  A'nın dolgulu hâli · C  belgeli KABA sınır
+//   D  FİİLÎ kesin sınır (koordinatı belli, hukuken geçersiz — işgal/ateşkes hattı)
+//   E  HUKUKÎ kesin sınır (barış antlaşması/protokol)  — ESKİ "D" = BU
+//   F  E + uluslararası tanınma (Milletler Cemiyeti/büyük devletler)
+// İki görünüm: HUKUKÎ = F>E>C (D hiç gösterilmez) · FİİLÎ = D>F>E>C.
+// Program: oturumlar/GERIYE-SARMA-0916.md, D-KATMAN satırı.
 //
-// D_SINIRLAR AİLESİ — oturumlar/D-1923-0916.md 'DÜNYA KADROSU' tablosu:
-//   window.D_SINIRLAR              (D1-TURKIYE)              data/d_sinirlar.js
-//   window.D_SINIRLAR_KOMSU        (D2-KOMSU)                data/d_sinirlar_komsu.js
-//   window.D_SINIRLAR_AVRUPA       (D3-AVRUPA-BATI+ORTA)     data/d_sinirlar_avrupa.js
-//   + ileride: ORTADOGU · AFRIKA · ASYA · AMERIKA · OKYANUSYA aileleri —
-//     hepsi Array.isArray ile güvenli kontrol edilir, yoksa sessizce atlanır.
-// Bu dosya yazılırken yalnız D_SINIRLAR (D1-TURKIYE) veriye sahipti; ötekiler
-// dosyaya girdikçe otomatik okunur (ad listesine EKLEME dışında kod değişmez).
+// GEÇİŞ DÖNEMİ: bölge oturumları henüz `sinif` alanını yazmadı (yalnız eski
+// `kategori`: D|C|fiili|D-YOK var, hepsi node'da doğrulandı — 16 Eylül 19:40
+// itibarıyla 5 dosya, 159 kayıt, `sinif` alanı SIFIR). `_dEtkinSinif` bu
+// yüzden `kategori`den GERİ DÜŞÜYOR (eşleme aşağıda, GORUNUM-ABCD'nin kendi
+// tablosu): D→E · fiili→D · C→C · D-YOK→YOK. Bir kayıt `sinif` yazınca o
+// alan `kategori`nin ÖNÜNE geçer, kod değişmeden.
 //
-// kategori (SEMA-D-0916.md §2):
-//   D      koordinatlı, en yüksek güven          → DÜZ (solid) çizgi
-//   C      belge kaba (2 nokta/cetvel)            → KISA kesik çizgi
-//   fiili  hukukî hat YOK, bugünkü çizgi VEKİL     → SEYREK kesik + düşük opaklık
-//   D-YOK  bu kutuda D çizilmez (A/B geçerli)      → HİÇ ÇİZİLMEZ (hat:null zaten)
-// Üçü de AYNI D_HAT_RENK'i kullanır (C katmanından — #1a1a1a siyah kesikli —
-// AYIRT edilsin diye, GORUNUM-ABCD-0916.md'nin D>C önceliğini görsel olarak
-// da yansıtır); yalnız çizgi biçimi güven seviyesini taşır.
+// D_SINIRLAR AİLESİ — oturumlar/GERIYE-SARMA-0916.md §1 Kadro:
+//   window.D_SINIRLAR               data/d_sinirlar.js              (D1-TURKIYE)
+//   window.D_SINIRLAR_KOMSU         data/d_sinirlar_komsu.js        (D2-KOMSU)
+//   window.D_SINIRLAR_AVRUPA_BATI   data/d_sinirlar_avrupa_bati.js  (D3-AVRUPA-BATI)
+//   window.D_SINIRLAR_AVRUPA_ORTA   data/d_sinirlar_avrupa_orta.js  (D3-AVRUPA-ORTA)
+//   window.D_SINIRLAR_ORTADOGU      data/d_sinirlar_ortadogu.js     (D4-ORTADOGU)
+//   window.D_SINIRLAR_AFRIKA        data/d_sinirlar_afrika.js       (D4-AFRIKA)
+//   window.D_SINIRLAR_ASYA          data/d_sinirlar_asya.js         (D5-ASYA)
+//   window.D_SINIRLAR_AMERIKA       data/d_sinirlar_amerika.js      (D5-AMERIKA)
+//   window.D_SINIRLAR_OKYANUSYA     data/d_sinirlar_okyanusya.js    (D5-OKYANUSYA)
+// Hepsi Array.isArray ile güvenli kontrol edilir; dosya yoksa sessizce atlanır.
 //
 // index.html/app.js'e DOKUNULMADI (CLAUDE.md §7 — o dosyalar ARAYÜZ'ün).
-// İki entegrasyon noktası kendi içinde çözüldü:
-//   ① katman kurulumu — kendi `harita.on("load", ...)` dinleyicisi
-//      (MapLibre birden fazla "load" dinleyicisini destekler; app.js
-//      kendisi de ikinci bir örnek, app.js:7533).
-//   ② her gün değişiminde güncelleme — app.js'in global `guncelle()`
-//      fonksiyonu monkey-patch ile sarılıyor (aşağıda, dosya sonu).
+// İki entegrasyon noktası kendi içinde çözüldü (bkz. denetim/D-KATMAN-0916.md §2):
+//   ① katman kurulumu — kendi `harita.on("load", ...)` dinleyicisi.
+//   ② canlı güncelleme — app.js'in global `guncelle()`u monkey-patch ile sarılıyor.
+// Görünüm anahtarı (HUKUKÎ/FİİLÎ) de kendi MapLibre `addControl`ıyla kendi
+// ekliyor — app.js/index.html'e satır eklemek GEREKMEDİ.
 // index.html'e TEK gereken satır: bu dosyanın <script> etiketi, js/app.js'ten
-// SONRA. Tahtadan UI'ya istendi — bkz. denetim/D-KATMAN-0916.md §2/§4.
+// SONRA (+ data/d_sinirlar*.js dosyalarının kendi <script> etiketleri —
+// henüz index.html'e hiçbiri bağlı değil, tahtadan istendi).
 // ============================================================================
 "use strict";
 
+// ---- SINIF STİLİ / ÖNCELİK ------------------------------------------------
+var D_SINIF_ONCELIK_HUKUKI = { F: 3, E: 2, C: 1 };            // D burada YOK
+var D_SINIF_ONCELIK_FIILI = { D: 4, F: 3, E: 2, C: 1 };
 var D_HAT_RENK = "#0a2f5c";
+var D_SINIF_STIL = {
+  F: { genislik: 3.5, dash: null, opaklik: 1 },       // hukukî + tanınmış — en kalın, düz
+  E: { genislik: 2.8, dash: [6, 2], opaklik: 1 },       // hukukî — uzun kesik
+  D: { genislik: 2.5, dash: [1, 2], opaklik: 0.75 },    // fiilî/de facto — sık kesik, soluk
+  C: { genislik: 2.2, dash: [2, 2], opaklik: 0.85 }     // belge kaba — orta kesik
+};
+var D_SINIF_ETIKET = {
+  F: "hukukî (uluslararası tanınmış)", E: "hukukî", D: "fiilî (de facto, hukuken geçersiz)", C: "belge kaba"
+};
+
+// kategori → sinif (GORUNUM-ABCD-0916.md en üst bölümün kendi eşleme tablosu).
+// "D kanıtı varsa F" — F kanıtı D-KUNYE'nin tanınma tablosundan (henüz yok,
+// denetim/TANINMA-1923-0916.json) gelecek; o gelene kadar eski kategori:"D"
+// hep E'ye düşer (temkinli — F'yi kanıtsız iddia etmemek D107'nin kuralı).
+function _dEtkinSinif(k) {
+  if (k.sinif) return k.sinif;
+  if (k.kategori === "D") return "E";
+  if (k.kategori === "fiili") return "D";
+  if (k.kategori === "C") return "C";
+  return "YOK";   // "D-YOK" ya da tanınmayan/eksik kategori
+}
 
 function _dHazirMi() {
   return typeof harita !== "undefined" && harita && typeof harita.getSource === "function";
 }
 
-// ---- VERİ TOPLAMA -----------------------------------------------------
+// ---- VERİ TOPLAMA ----------------------------------------------------------
 var _D_AILELER = [
-  "D_SINIRLAR", "D_SINIRLAR_KOMSU", "D_SINIRLAR_AVRUPA",
-  "D_SINIRLAR_AVRUPA_BATI", "D_SINIRLAR_AVRUPA_ORTA", "D_SINIRLAR_ORTADOGU",
-  "D_SINIRLAR_AFRIKA", "D_SINIRLAR_ASYA", "D_SINIRLAR_AMERIKA",
+  "D_SINIRLAR", "D_SINIRLAR_KOMSU", "D_SINIRLAR_AVRUPA_BATI", "D_SINIRLAR_AVRUPA_ORTA",
+  "D_SINIRLAR_ORTADOGU", "D_SINIRLAR_AFRIKA", "D_SINIRLAR_ASYA", "D_SINIRLAR_AMERIKA",
   "D_SINIRLAR_OKYANUSYA"
 ];
 function _dKayitlariTopla() {
@@ -68,19 +96,44 @@ function _dKayitIndeksi() {
   return _dIndeksOnbellek;
 }
 
-// ---- AKTİF PENCERE (D061/D195: açık uç BITIŞE kadar geçerli) ----------
+// ---- GÖRÜNÜM ANAHTARI -------------------------------------------------------
+var _dGorunum = "hukuki";   // "hukuki" | "fiili"
+
+// ---- AKTİF KAYITLAR (pencere) ------------------------------------------------
+// 🔴 ÖNCELİK (F>E>C / D>F>E>C) BURADA VERİ BASTIRMASI OLARAK UYGULANMIYOR —
+// denendi, GERÇEK VERİYLE ÇÜRÜDÜ (tarayıcıda sınandı, D-KATMAN-0916.md §10):
+// ilk tasarım "aynı taraflar (sırasız) + aynı gün aktif ⇒ tek grup, yalnız en
+// yüksek sınıf kalır" kuralını kullanıyordu. D1'in `d1923-tr-sy-dogu` (sinif E)
+// ve `d1923-tr-sy-bati` (sinif C) kayıtları AYNI taraflar'ı taşıyor ama
+// sınırın İKİ AYRI COĞRAFİ PARÇASI (doğu/Hatay-batı) — taraflar-eşleşmesi
+// "aynı segmentin alternatifi" ile "aynı devlet çiftinin başka bir parçası"nı
+// AYIRT EDEMİYOR, ve grup kuralı `tr-sy-bati`yi HER İKİ görünümde de SESSİZCE
+// SİLİYORDU (D089: veri modelinin ifade edemediği bir ilişkiyi ifade edebildiği
+// bir ilişkiye çevirmek yaklaşıklama değil BAŞKA BİR İDDİADIR). Şema "aynı
+// fiziksel segment" için ortak bir anahtar taşımadığı sürece BASTIRMA YOK —
+// öncelik yalnız ÇİZİM SIRASINDA kullanılıyor (bkz. _dKatmaniKur: layer'lar
+// C→E→F→D sırayla eklenir, üstteki geometrik çakışmada üstte görünür).
+// Açık soru (D-KUNYE/1.MURAT'a): gerçek bir hukukî/fiilî SAPMASI olduğunda
+// (aynı segment, iki sınıf) bunu ayırt edecek bir alan (örn. `parca_grubu`
+// ya da `sapma_of:"<id>"`) şemaya eklenmeli mi?
 function _dAktifKayitlar(gun) {
-  return _dKayitlariTopla().filter(function (k) {
-    if (!k || k.kategori === "D-YOK" || !Array.isArray(k.hat) || k.hat.length < 2) return false;
-    if (k.f == null) return false;
+  var izinliSiniflar = (_dGorunum === "fiili")
+    ? { D: 1, F: 1, E: 1, C: 1 }
+    : { F: 1, E: 1, C: 1 };            // hukukî görünüm D'yi hiç göstermez
+  var sonuc = [];
+  _dKayitlariTopla().forEach(function (k) {
+    if (!k || !Array.isArray(k.hat) || k.hat.length < 2 || k.f == null) return;
+    var sinif = _dEtkinSinif(k);
+    if (!izinliSiniflar[sinif]) return;
     var f = gunIdx(k.f);
-    if (gun < f) return false;
-    if (k.t == null) return true;
-    return gun < gunIdx(k.t);
+    if (gun < f) return;
+    if (k.t != null && gun >= gunIdx(k.t)) return;   // D061/D195: açık uç BİTİŞE kadar
+    sonuc.push({ kayit: k, sinif: sinif });
   });
+  return sonuc;
 }
 
-// ---- POPUP METNİ (dayanak[] → kısa gösterim) ---------------------------
+// ---- POPUP METNİ ------------------------------------------------------------
 function _dDayanakSatirlari(kayit) {
   var d = kayit.dayanak;
   if (!Array.isArray(d) || !d.length) return "";
@@ -94,11 +147,9 @@ function _dDayanakSatirlari(kayit) {
   if (d.length > GOSTER) satirlar.push("+" + (d.length - GOSTER) + " kaynak daha");
   return satirlar.join("<br>");
 }
-function _dPopupHtml(kayit) {
-  var KATEGORI_ETIKET = { "D": "koordinatlı", "C": "belge kaba", "fiili": "fiilî statüko (vekil)" };
+function _dPopupHtml(kayit, sinif) {
   var ust = "<b>" + ekEsc(kayit.id || "D sınırı") + "</b>";
-  var alt = [];
-  alt.push(KATEGORI_ETIKET[kayit.kategori] || kayit.kategori || "");
+  var alt = [D_SINIF_ETIKET[sinif] || sinif || ""];
   if (kayit.uzunluk_km != null) alt.push(kayit.uzunluk_km + " km");
   if (kayit.kesinlik_km != null) alt.push("kesinlik ±" + kayit.kesinlik_km + " km");
   var dayanakHtml = _dDayanakSatirlari(kayit);
@@ -106,64 +157,108 @@ function _dPopupHtml(kayit) {
     (dayanakHtml ? "<br><small>" + dayanakHtml + "</small>" : "");
 }
 
-// ---- GEOMETRİ / GÜNCELLEME ----------------------------------------------
-var _dAktifId = null;
+// ---- GEOMETRİ / GÜNCELLEME ---------------------------------------------------
+var _dAktifImza = null;
 function _dSinirGuncelle(gun) {
   if (!_dHazirMi() || !harita.getSource("d-sinir-hat")) return;
   var aktif = _dAktifKayitlar(gun);
-  var idImza = aktif.map(function (k) { return k.id; }).join("+") || null;
-  if (idImza === _dAktifId) return;
-  _dAktifId = idImza;
-  var feat = aktif.map(function (k) {
+  var imza = _dGorunum + "|" + aktif.map(function (a) { return a.kayit.id + ":" + a.sinif; }).join("+");
+  if (imza === _dAktifImza) return;
+  _dAktifImza = imza;
+  var feat = aktif.map(function (a) {
     return {
       type: "Feature",
-      properties: { kayit_id: k.id, kategori: k.kategori || "D" },
-      geometry: { type: "LineString", coordinates: k.hat }
+      properties: { kayit_id: a.kayit.id, sinif: a.sinif },
+      geometry: { type: "LineString", coordinates: a.kayit.hat }
     };
   });
   harita.getSource("d-sinir-hat").setData({ type: "FeatureCollection", features: feat });
 }
 
-// ---- KATMAN KURULUMU (şemadan bağımsız, kalıcı) -------------------------
+// ---- GÖRÜNÜM KONTROLÜ (MapLibre custom control, top-right — boşta) -----------
+function _DGorunumKontrolu() {}
+_DGorunumKontrolu.prototype.onAdd = function () {
+  var el = document.createElement("div");
+  el.className = "maplibregl-ctrl maplibregl-ctrl-group";
+  el.style.background = "#fff";
+  el.style.fontSize = "11px";
+  el.style.fontFamily = "inherit";
+  var dugmeler = {};
+  function boyaDugmeler() {
+    Object.keys(dugmeler).forEach(function (deger) {
+      var aktif = (_dGorunum === deger);
+      dugmeler[deger].style.background = aktif ? D_HAT_RENK : "#fff";
+      dugmeler[deger].style.color = aktif ? "#fff" : "#222";
+    });
+  }
+  function dugmeYap(etiket, deger, aciklama) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.textContent = etiket;
+    b.title = "D sınırları görünümü: " + aciklama;
+    b.style.display = "block";
+    b.style.width = "100%";
+    b.style.border = "none";
+    b.style.padding = "4px 8px";
+    b.style.cursor = "pointer";
+    b.addEventListener("click", function () {
+      if (_dGorunum === deger) return;
+      _dGorunum = deger;
+      boyaDugmeler();
+      if (typeof haritaHazir !== "undefined" && haritaHazir && typeof suanki !== "undefined") {
+        _dSinirGuncelle(suanki);
+      }
+    });
+    dugmeler[deger] = b;
+    return b;
+  }
+  el.appendChild(dugmeYap("D: Hukukî", "hukuki", "F > E > C — yalnız barış antlaşması/protokolle kararlaştırılmış sınırlar; fiilî hat gösterilmez"));
+  el.appendChild(dugmeYap("D: Fiilî", "fiili", "D > F > E > C — hukuken geçersiz olsa da fiilî/de facto hat varsa O gösterilir"));
+  boyaDugmeler();
+  this._el = el;
+  return el;
+};
+_DGorunumKontrolu.prototype.onRemove = function () {
+  if (this._el && this._el.parentNode) this._el.parentNode.removeChild(this._el);
+};
+
+// ---- KATMAN KURULUMU (şemadan bağımsız, kalıcı) -------------------------------
 function _dKatmaniKur() {
   if (!_dHazirMi() || harita.getSource("d-sinir-hat")) return;   // iki kez kurma
   try {
     harita.addSource("d-sinir-hat", { type: "geojson", data: bosVeri() });
-    // Üç katman, TEK kaynak — kategoriye göre filtre + farklı çizgi biçimi
-    // (line-dasharray MapLibre'de veri-güdümlü ifade almıyor, o yüzden
-    // kategori başına AYRI layer; C katmanının çoklu-layer/tek-kaynak
-    // deseniyle aynı yaklaşım).
-    harita.addLayer({
-      id: "d-sinir-hat-d", type: "line", source: "d-sinir-hat",
-      filter: ["==", ["get", "kategori"], "D"],
-      layout: { "line-join": "round", "line-cap": "round" },
-      paint: { "line-color": D_HAT_RENK, "line-width": 3, "line-opacity": 1 }
+    // Ekleme sırası = çizim sırası (MapLibre sonra eklenen layer'ı ÜSTE çizer).
+    // C→E→F→D: hem HUKUKÎ (F üstte, sonra E, sonra C) hem FİİLÎ (D en üstte)
+    // önceliğini TEK sabit sırayla karşılar — iki geometrik olarak çakışan
+    // hat varsa (bugün örneği yok) üstteki görünür; veri BASTIRILMAZ (yukarı
+    // bkz. _dAktifKayitlar başlığındaki not).
+    var SINIFLAR = ["C", "E", "F", "D"];
+    SINIFLAR.forEach(function (sinif) {
+      var s = D_SINIF_STIL[sinif];
+      var paint = { "line-color": D_HAT_RENK, "line-width": s.genislik, "line-opacity": s.opaklik };
+      if (s.dash) paint["line-dasharray"] = s.dash;
+      harita.addLayer({
+        id: "d-sinir-hat-" + sinif, type: "line", source: "d-sinir-hat",
+        filter: ["==", ["get", "sinif"], sinif],
+        layout: { "line-join": "round", "line-cap": "round" },
+        paint: paint
+      });
     });
-    harita.addLayer({
-      id: "d-sinir-hat-c", type: "line", source: "d-sinir-hat",
-      filter: ["==", ["get", "kategori"], "C"],
-      layout: { "line-join": "round", "line-cap": "round" },
-      paint: { "line-color": D_HAT_RENK, "line-width": 2.5, "line-opacity": 1, "line-dasharray": [3, 1.5] }
-    });
-    harita.addLayer({
-      id: "d-sinir-hat-fiili", type: "line", source: "d-sinir-hat",
-      filter: ["==", ["get", "kategori"], "fiili"],
-      layout: { "line-join": "round", "line-cap": "round" },
-      paint: { "line-color": D_HAT_RENK, "line-width": 2.5, "line-opacity": 0.7, "line-dasharray": [1, 2] }
-    });
-    var LAYERS = ["d-sinir-hat-d", "d-sinir-hat-c", "d-sinir-hat-fiili"];
+    var LAYERS = SINIFLAR.map(function (s) { return "d-sinir-hat-" + s; });
     LAYERS.forEach(function (lyr) {
       harita.on("click", lyr, function (e) {
-        var kayit = _dKayitIndeksi()[e.features[0].properties.kayit_id];
+        var p = e.features[0].properties;
+        var kayit = _dKayitIndeksi()[p.kayit_id];
         if (!kayit) return;
         new maplibregl.Popup({ closeButton: true, maxWidth: "280px" })
           .setLngLat(e.lngLat)
-          .setHTML(_dPopupHtml(kayit))
+          .setHTML(_dPopupHtml(kayit, p.sinif))
           .addTo(harita);
       });
       harita.on("mouseenter", lyr, function () { harita.getCanvas().style.cursor = "pointer"; });
       harita.on("mouseleave", lyr, function () { harita.getCanvas().style.cursor = ""; });
     });
+    harita.addControl(new _DGorunumKontrolu(), "top-right");
   } catch (e) {
     console.error("D KATMANI kurulamadı:", e);
   }
