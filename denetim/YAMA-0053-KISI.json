@@ -1,0 +1,79 @@
+{
+  "_aciklama": "EKO-PADISAH · DALGA-0053 H-0014 · data/kisiler.js'teki tek cümlelik 'not:' alanlarını 1-2 paragrafa genişletme önerisi. UYGULA uygular, bu oturum kisiler.js'e yazmadı (CLAUDE.md §7). Kişiler 'ölçüp say, önce en çok görünenler' talimatına göre seçildi: data/olaylar*.js + data/kronoloji*.js 'kisiler:' alanlarında geçen isim sıklığı ölçüldü, kısa (140 karakterden az) 'not' taşıyan ve en sık görünen 12 kişi alındı. Ölçüm betiği bu paketle birlikte teslim edilmedi (tek kullanımlık scratch script), yöntem: ad-tabanlı alt-dizgi sayımı.",
+  "_kaynak_yontemi": "TDV İslâm Ansiklopedisi, WebFetch ile ham sayfa okunarak (küçük model özetine güvenilmedi — bir vakada özet YANLIŞ çıktı, bkz. mehmed-iv notları). TDV'de madde olmayan iki kişi (Napolyon, Morosini) için Encyclopaedia Britannica kullanıldı, kaynak alanında açıkça belirtildi.",
+  "onerilen_degisiklikler": [
+    {
+      "id": "sokullu-mehmed-pasa",
+      "eski_not": "Üç padişah devrinin kudretli sadrazamı",
+      "yeni_not": "Bosna'nın Sokoloviç köyünde 1505'te doğdu, devşirme olarak saraya alındı. Çeşitli görevlerden geçerek 1549'da Rumeli beylerbeyi, 1554'te dördüncü, 1561'de ikinci vezir oldu; 1565-1579 arasında Kanûnî Sultan Süleyman, II. Selim ve III. Murad dönemlerinde on dört yıl kesintisiz sadrazamlık yaptı. Zigetvar kuşatması sırasında (1566) Kanûnî'nin ölümünü gizleyerek II. Selim'in cülusunu sorunsuz sağladı; İnebahtı bozgunundan (1571) sonra donanmayı hızla yeniden inşa ettirdi. Lehistan tahtı meselesinde önce Fransız prensi Henri de Valois'yı, sonra Stefan Báthory'yi destekleyerek Osmanlı nüfuzunu korudu. 12 Ekim 1579'da bir dervişin hançeriyle öldürüldü; suikastın, idam edilen bir Hamzavî şeyhinin intikamıyla bağlantılı olabileceği düşünülür.",
+      "kaynak": "TDV: sokullu-mehmed-pasa"
+    },
+    {
+      "id": "nevsehirli-damad-ibrahim-pasa",
+      "eski_not": "Lâle Devri'nin yöneticisi",
+      "yeni_not": "1662'de Nevşehir'de doğdu; 1689'da Baltacılar Ocağı'yla saraya girip Şehzade Ahmed'in (sonradan III. Ahmed) güvenilir adamı oldu. 1716'da ikinci vezir ve rikâb kaymakamı, 1717'de sadrazam Şehid Ali Paşa'nın kızı Fatma Sultan'la evlenip damad oldu, 9 Mayıs 1718'de sadrazamlığa getirildi — Lâle Devri'nin (1718-1730) mimarı budur. Pasarofça (1718) ve İran'ın paylaşılması (1724) antlaşmalarıyla savaşsız diplomasiyi öne çıkardı; Kağıthane'yi köşk, çeşme ve camilerle imar etti, Nevşehir'i geliştirdi. Ekonomik sıkıntı ve askerî başarısızlıklarla patlak veren Patrona Halil isyanında III. Ahmed'in onayıyla damatlarıyla birlikte 1 Ekim 1730'da idam edildi.",
+      "kaynak": "TDV: damad-ibrahim-pasa-nevsehirli (aranan slug 'nevsehirli-damad-ibrahim-pasa' HTTP 200 ama boş 'bk.' yönlendirme stub'ı — gerçek madde bu adreste)"
+    },
+    {
+      "id": "midhat-pasa",
+      "eski_not": "Kanûn-ı Esâsî'nin mimarı",
+      "yeni_not": "1822'de İstanbul'da doğdu; 1834'te Divan-ı Hümayun kalemine girdi, 1849'da Meclis-i Vâlâ üyesi oldu. Niş (1861-63) ve Tuna (1864-68) valiliklerinde Vilayet Nizamnamesi'ni uygulayarak modern taşra yönetiminin öncüsü oldu, imparatorluğun ilk vilayet gazetesini çıkardı. 1869-72 Bağdat valiliğinin ardından iki kez (1872 ve 1876-77) sadrazamlık yaptı; 1876 Kanûn-ı Esâsî'sinin baş mimarıydı ve bununla iç karışıklığın yabancı müdahale olmadan sona ereceğini umuyordu — bu umut gerçekleşmedi. 1877'de görevden alınıp sürgüne gönderildi, sonra Suriye ve Aydın valiliklerinde bulundu. 1881'de Sultan Abdülaziz'in ölümüyle suç ortaklığı iddiasıyla tutuklanıp önce idama, sonra müebbet hapse mahkûm edildi. Taif zindanında şüpheli koşullarda öldürüldü (7-8 Mayıs 1884); kemikleri 1951'de İstanbul'a nakledildi.",
+      "kaynak": "TDV: midhat-pasa"
+    },
+    {
+      "id": "gedik-ahmed-pasa",
+      "eski_not": "Kefe ve Otranto seferlerinin komutanı",
+      "yeni_not": "Sırbistan'da (muhtemelen Vranye yakınlarındaki Punuševce köyünde) doğdu. II. Murad ve II. Mehmed dönemlerinde saray hizmetlerinden yetişti; Rum ve Anadolu beylerbeyiliği yaptı, 1470'te vezir, Mahmud Paşa'nın idamı üzerine 1474'te sadrazam oldu. Koyulhisar (1461), Karaman toprakları, Alanya (1471) ve Kefe dahil Kırım'daki Ceneviz kolonilerinin (1475) fethinde rol aldı; 1473 Otlukbeli zaferinde Akkoyunlulara karşı belirleyici katkısı oldu. Ağustos 1480'de Otranto'yu ele geçirerek Osmanlı'nın İtalya'daki ilk ve tek fiilî fethini gerçekleştirdi. II. Bayezid döneminde, Cem Sultan'ın tarafını tuttuğu şüphesiyle bir saray ziyafetinde boğdurularak idam edildi (18 Kasım 1482).",
+      "kaynak": "TDV: gedik-ahmed-pasa"
+    },
+    {
+      "id": "sinan-pasa",
+      "eski_not": "Tunus'un kesin fethi",
+      "yeni_not": "Koca Sinan Paşa (ad ayrımı: kisiler.js'teki 'Sinan Paşa (Koca)' kaydı budur, 15. yüzyıl âlim-vezir 'Sinan Paşa' ile KARIŞTIRILMAMALI — TDV'de 'sinan-pasa' slug'ı o başka kişiye ait, doğru adres 'koca-sinan-pasa'). Doğumu belirsiz, yaklaşık 1520 civarı tahmin edilir (ikinci sadrazamlığında 'yetmiş yaşında' olduğu kaydına dayanarak); 1596'da öldü. Mısır, Suriye ve Erzurum beylerbeyiliklerinden geçerek yükseldi; III. Murad ve III. Mehmed devirlerinde BEŞ KEZ sadrazam oldu — sık sık görevden alınıp yeniden atanan, döneminin en tecrübeli devlet adamlarından biriydi. İspanyolların elindeki Tunus'u geri almak üzere komutan tayin edildi; Osmanlı donanması otuz üç günlük kuşatma sonunda Halkulvâdî'yi alıp Tunus'a yeniden hâkim oldu (1574) — bu başarısıyla 'Tunus fâtihi' unvanını kazanıp dördüncü vezirliğe yükseldi.",
+      "kaynak": "TDV: koca-sinan-pasa (DİKKAT: 'sinan-pasa' slug'ı BAŞKA bir kişiye — 15. yy âlim-vezir, ö. 1486 — ait; kisiler.js kaydının id'i 'sinan-pasa' olsa da TDV eşlemesi koca-sinan-pasa olmalı)"
+    },
+    {
+      "id": "suleyman-pasa",
+      "eski_not": "Rumeli'ye geçişin öncüsü",
+      "yeni_not": "Orhan Bey'in büyük oğlu; yaklaşık 1310-1316'da doğdu, sonbahar 1357'de öldü. Babasının kumandanlığında yetişti; 1348'de Bizans imparatoru Kantakuzenos'a yardım için 10.000 süvariyle Rumeli'ye geçti. 1352-1354 arasında tekrarlanan seferlerle Rumeli'de kalıcı Osmanlı varlığının temelini attı. Mart 1354'teki büyük deprem Gelibolu surlarını yıkınca hemen Gelibolu yakasına geçip şehre hâkim oldu ve Anadolu'dan Türkmen nüfusu yerleştirdi. Tekirdağ, Keşan ve Edirne yönünde ilerleyerek Rumeli fethinin öncüsü oldu; Bizans kaynaklarında Orhan Bey'in vârisi ve devletin fiilen bütün işlerinden sorumlu yöneticisi diye anılır. Bolayır-Seyitgazi arasında av sırasında atının bir çukura düşmesi sonucu öldüğü rivayet edilir (bazı kaynaklar savaşla ilişkilendirir, kesin değil).",
+      "kaynak": "TDV: suleyman-pasa"
+    },
+    {
+      "id": "barbaros-hayreddin-pasa",
+      "eski_not": "Kaptan-ı deryâ; Preveze zaferi",
+      "yeni_not": "Yaklaşık 1478'de doğdu, 5 Temmuz 1546'da İstanbul'da öldü. Ağabeyi Oruç Reis'le Kuzey Afrika kıyılarında akınlara başladı; Cezayir'i 1519-1530 arasında İspanyol işgalinden kurtararak Osmanlı topraklarına kattı — Yavuz Sultan Selim onun için 'Hızır Reis nâsırüddindir, hayrüddindir' demiştir. 1533'te İstanbul'a çağrıldı, 1534'te kaptan-ı deryalığa getirildi; bu atamayla kaptanlık makamı ilk kez beylerbeylik derecesine yükseltildi. 1538 Preveze deniz savaşında Andrea Doria komutasındaki Haçlı donanmasını bozguna uğratıp 36 gemi ele geçirdi; böylece Doğu Akdeniz'den sonra Orta Akdeniz'de de Osmanlı deniz üstünlüğü sağlandı. Osmanlı donanmasını Akdeniz'in en güçlü deniz kuvveti hâline getirdi.",
+      "kaynak": "TDV: barbaros-hayreddin-pasa"
+    },
+    {
+      "id": "timur",
+      "eski_not": "Ankara Savaşı'nın galibi",
+      "yeni_not": "8 Nisan 1336'da Keş'te (bugünkü Şehrisebz yakınları) doğdu, Çin seferine hazırlanırken 18 Şubat 1405'te Otrar'da öldü. On yıllık ittifak/mücadele döneminin ardından Çağatay kabileleri arasında güç topladı, 9 Nisan 1370'te Semerkant'ta tahta çıkarak Timurlu hanedanını kurdu. 1370-1404 arasındaki seferlerle Delhi'den Moskova'ya, Çin sınırından Akdeniz'e uzanan geniş ama kırılgan bir imparatorluk kurdu. 28 Temmuz 1402'de Ankara Savaşı'nda Osmanlı Sultanı I. Bayezid'i yenilgiye uğratıp Fetret Devri'ni başlattı. Semerkant'ı fethettiği ülkelerden getirdiği mimarlarla imar etti (Bibi Hanım Camii, Gûr-ı Emîr türbesi). Egemenlik anlayışını 'dünya iki hükümdara yetecek kadar büyük değildir, Allah bir olduğu gibi sultan da bir olmalıdır' sözüyle özetlediği rivayet edilir.",
+      "kaynak": "TDV: timur"
+    },
+    {
+      "id": "napolyon-bonapart",
+      "eski_not": "Mısır seferinin komutanı",
+      "yeni_not": "15 Ağustos 1769'da Korsika'nın Ajaccio kentinde doğdu, 5 Mayıs 1821'de sürgündeki St. Helena adasında öldü. Toulon kuşatmasındaki (1793) başarısıyla yükseldi, 1799'da Birinci Konsül, 1804'te İmparator oldu. Osmanlı tarihiyle kesiştiği en önemli olay 1798 Mısır Seferi'dir: İskenderiye'yi alıp Nil deltasını ele geçirdiği sırada donanması Ebûkır'da İngiliz amirali Nelson'a yenildi; Mısır'ın nominal hâmisi Osmanlı Devleti Fransa'ya savaş ilan edince Şubat 1799'da Suriye'ye yürüdü, Akka önünde durduruldu ve geri çekildi. 1799'da ordusunu bırakıp Fransa'ya dönerek darbeyle iktidarı ele geçirdi; 1814-15'te tahttan indirilip sürgüne gönderildi.",
+      "kaynak": "Encyclopaedia Britannica, britannica.com/biography/Napoleon-I — TDV'de müstakil madde YOK ('napolyon' 302 ölü), §4 kuralına göre akademik kaynağa geçildi"
+    },
+    {
+      "id": "ibrahim-pasa",
+      "eski_not": "Mehmed Ali'nin oğlu; Necid, Mora ve Suriye harekâtlarının komutanı",
+      "yeni_not": "1789'da Kavala'da doğdu, Kasım 1848'de Mısır valiliğine yeni geçtiği sırada öldü. Mısır valisi Kavalalı Mehmed Ali Paşa'nın büyük oğludur; 1805'te babasının valiliğe atanmasıyla Mısır'a geldi, Kahire Kalesi idaresi ve 1807-13 defter kâtipliğinin ardından Yukarı Mısır valisi oldu. 1816-1819'da Hicaz'da Vehhâbîlere karşı sefer düzenleyip Vehhâbî reisi Abdullah b. Suûd'u ele geçirerek hac yollarının güvenliğini sağladı. 1831'de Suriye'ye girip Akka ve Şam'ı aldı, 1832'de Konya'da Osmanlı ordusunu yenerek sadrazamı esir aldı. 1833'te Anadolu'dan çekildikten sonra 1840'a kadar Suriye valiliğini sürdürdü; sağlığı bozulunca Mısır'a döndü, babasının yerine valiliğe geçtikten kısa süre sonra öldü.",
+      "kaynak": "TDV: ibrahim-pasa-kavalali"
+    },
+    {
+      "id": "francesco-morosini",
+      "eski_not": "Kandiye'yi teslim eden Venedik komutanı",
+      "yeni_not": "1619'da Venedik'te doğdu, 1694'te Nafplion'da (Mora) öldü. 1657'de Venedik donanmasının başkomutanı oldu; birkaç başarılı seferin ardından bir rakibinin entrikasıyla görevden alındı. 1667'de kuşatma altındaki Kandiye'yi (Girit) kurtarmaya gönderildi, şehrin 1669'da Osmanlılara teslim edilmesini engelleyemedi ama sorumlu tutulmadı. 1684'te savaş yeniden başlayınca tekrar başkomutan oldu ve 1684-88 Mora Seferi'nde Mora'yı ve Atina'yı Venedik'e kazandırdı — Atina kuşatmasında bir top güllesi Partenon'u ağır hasara uğrattı. Dönüşünde 'Peloponnesiaco' unvanıyla onurlandırıldı, 1688'de Venedik doju seçildi; 75 yaşında bir kez daha donanmanın başına geçtiği sırada öldü.",
+      "kaynak": "Encyclopaedia Britannica, britannica.com/topic/Morosini-family — TDV'de müstakil madde YOK (Girit/Mora/Atina maddelerinde yalnız adı geçiyor), §4 kuralına göre akademik kaynağa geçildi"
+    },
+    {
+      "id": "ismail",
+      "eski_not": "Safevî kurucusu; Çaldıran",
+      "yeni_not": "17 Temmuz 1487'de Erdebil'de doğdu, 23 Mayıs 1524'te Tebriz'de öldü. Safevî tarikatının başına geçip 1501'de Safevî Devleti'ni kurdu ve ilk şahı oldu (1501-1524); Oniki İmam adına ezan okutarak Şiîliği resmî mezhep ilan etti ve İran'ı bu yönde dönüştürdü. 1510'da Özbek hükümdarı Şeybânî Han'ı yenilgiye uğrattı. 1514 Çaldıran'da Osmanlı Sultanı I. Selim karşısında ağır bir yenilgiye uğradı; TDV'nin ifadesiyle 'Çaldıran mağlûbiyeti Şah İsmail'in yenilmezliği inancına büyük darbe vurdu.' Çağdaşları ve hayranları onu 'sâhib-i seyf ü kalem' (kılıç ve kalem sahibi) diye nitelendirmiştir.",
+      "kaynak": "TDV: sah-ismail (aranan slug 'ismail-i' HTTP 200 ama boş 'bk.' yönlendirme stub'ı — gerçek madde bu adreste)"
+    }
+  ],
+  "metodolojik_not": "İki kayıtta (nevsehirli-damad-ibrahim-pasa, ismail) TDV'nin aranan slug'ı HTTP 200 dönüyor ve başlık doğru görünüyor ama madde gövdesi yalnız tek cümlelik bir 'bk.' (bakınız) yönlendirmesinden ibaret — CLAUDE.md §4'ün mevcut tuzak listesindeki (ölü slug / yanlış madde / boş gövde / boilerplate) hiçbirine tam uymayan, bu araştırmada ilk kez adlandırılan bir alt-sınıf. Koordinatöre bildirilir, §4'e eklenmesi önerilir."
+}

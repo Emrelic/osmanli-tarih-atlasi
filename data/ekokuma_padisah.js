@@ -4,6 +4,7 @@
 // Yazan: EKO-PADISAH · 16 Eylül 2026 · paket parti-emrelic-0052, maddeler:
 //   H-0004 H-0005 H-0016 H-0017 H-0018 H-0045 H-0048 H-0049 H-0050 H-0057
 //   H-0058 H-0074 (+ 0051/H-0002 şüpheli ölümler — H-0045 ile aynı içerik)
+//   + DALGA-0053: H-0014 (bkz. denetim/YAMA-0053-KISI.json) H-0019 H-0021
 // Koordinatör: 1.MURAT · rapor: denetim/EKO-PADISAH-0916.md
 //
 // 🔴 KİMLİK DÜZELTMESİ: Bu oturum açılışta yanlışlıkla "EKO-DUNYA" sandı
@@ -260,6 +261,44 @@ window.EKOKUMA_PADISAH = [
   olay:[],
   kaynak:"TDV: mehmed-ii · TDV: bayezid-ii · TDV: suleyman-i · TDV: selim-ii · TDV: ahmed-iii · TDV: mahmud-ii--osmanli",
   ic_not:"mahmud-ii sluğu 302 ÖLÜ; doğrusu mahmud-ii--osmanli (CLAUDE.md §4 'ordu--sehir' deseninin aynısı).",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ============================================================================
+// DALGA-0053 EKLERİ — 16 Eylül 2026 gece, aynı oturum (yeni açılış YOK,
+// koordinatör talimatı: "tahtaya yalnız teslimde yazılır")
+// ============================================================================
+
+// ── H-0021 · II. Süleyman ve II. Ahmed'in kafes hayatı ve geç saltanatları ──
+{ id:"tartisma-suleyman-ii-ahmed-ii-kafes", tur:"tartisma",
+  kisa:"Kırk yıl kafeste tutulan şehzade, onu almaya gelenleri celladı sandı ve 'öldürülecekseniz bari iki rekat namaz kılayım' dedi — sonra tahta çıktı.",
+  metin:"II. Süleyman ve II. Ahmed, IV. Mehmed'in iki kardeşiydi ve TDV'nin ikisi için de kaydettiği kafes süresi Osmanlı tarihinin en uzunları arasındadır.\n\n**II. Süleyman** 15 Nisan 1642'de doğdu; IV. Mehmed'in saltanatının ilk yıllarında (yaklaşık 1648-1650, Kösem Sultan ile Hatice Turhan Sultan arasındaki nüfuz mücadelesi sırasında tahta aday gösterilebileceği için) kardeşleriyle birlikte Şimşirlik'e kapatıldı. 8 Kasım 1687'de, 1683 Viyana bozgunu sonrası toprak kayıplarının yarattığı hoşnutsuzlukla IV. Mehmed hal edilince tahta çıktığında YAKLAŞIK KIRK YIL kafeste kalmıştı, 45 yaşındaydı. TDV'nin aktardığı çarpıcı bir rivayet var: kendisini almaya gelenleri ölüm emriyle geldiklerini sanan Süleyman tereddüt etti, yerinden ayrılmak istemedi ve 'İzâlemiz emrolunduysa söyleyin, iki rekât namaz kılayım' dedi — kırk yıllık ölüm korkusuyla yaşayan bir adamın, en azından hazırlanarak ölmeyi tercih ettiğini gösteren bir cümle. Saltanatı (1687-1691) iç isyanlarla (Fetvacı Ahmed Çavuş ve Küçük Mehmed'in çarşı-pazar yağması, Sancak Vak'ası) geçti; TDV onu uzun hapis hayatının etkisiyle iyi eğitim alamamış, kırılgan tabiatlı ve büyük ölçüde Köprülüzâde Fâzıl Mustafa Paşa gibi güçlü sadrazamların vesayetinde kalan bir padişah olarak resmeder. 22 Haziran 1691'de istiskā (ödem) hastalığından öldü, Kanûnî Sultan Süleyman'ın türbesine defnedildi.\n\n**II. Ahmed** 25 Şubat 1643'te doğdu, kardeşinin ölümü üzerine 23 Haziran 1691'de Edirne'de tahta çıktı (49 yaşında). TDV'nin kendi maddesi onun kafes süresini AYRICA BELİRTMİYOR — Süleyman maddesindeki 'kardeşleriyle birlikte kapatıldı' cümlesinden çıkarımla benzer bir süre (~41-43 yıl) tahmin edilebilir, ama bu Ahmed'in kendi TDV maddesinde doğrulanmıyor ve akademik kaynakla da teyit edilmedi — burada bir ÇIKARIM olduğu açıkça belirtilir. Kardeşinden farklı olarak, TDV onu hassas ve hiddetli mizaçlı ama aynı zamanda şiir-mûsikiye meraklı, hattat, divan müzakerelerine bizzat katılan ve reâyânın haklarını gözeten bir padişah olarak tanımlar — yani nispeten daha katılımcı bir imaj. Ama Sadrazam Köprülüzâde Fâzıl Mustafa Paşa'nın Salankamen'de (1691) şehit düşmesinden sonra sık sık sadrazam değiştirdi ve 'çevresindekilerin telkinlerine çabuk kapıldığı' da not edilir. 6 Şubat 1695'te, kardeşiyle AYNI hastalıktan (istiskā), 52 yaşında Edirne'de öldü; o da Kanûnî'nin türbesine defnedildi.\n\n⇒ TDV'nin iki maddesi ASİMETRİK: Süleyman için açık bir nedensellik kuruyor (uzun hapis → eğitimsizlik/kırılganlık → saray güç odaklarına bağımlılık); Ahmed için aynı bağı KURMUYOR, onun yerine kişisel mizaç ve devlet işlerine ilgisini öne çıkarıyor. Ortak sonuç yine de aynı: ikisi de fiilen Köprülü sadrazamlarının yönettiği bir devletin başındaydı, ikisi de aynı hastalıktan öldü, ikisi de aynı türbeye gömüldü — TDV bu paralelliği kendisi vurgulamıyor ama veriler kendiliğinden örtüşüyor.",
+  kesinlik:"tartismali",
+  olay:["1687-11-08","1691-06-23"],
+  kaynak:"TDV: suleyman-ii · TDV: ahmed-ii",
+  ic_not:"II. Ahmed'in kafes süresi TDV'de bulunamadı — yazılan '41-43 yıl' rakamı AÇIKÇA bir çıkarım olarak damgalandı, olgu gibi sunulmadı (CLAUDE.md §4).",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── H-0019a · IV. Mehmed'in avcılığı — TDV'nin KENDİSİ nedensellik kuruyor ──
+{ id:"sebep-sonuc-mehmed-iv-avcilik", tur:"sebep-sonuc",
+  kisa:"Yedi yaşında tahta çıkan çocuk, yirmi yıl süren Köprülü vesayetinde ava alıştı — vesayet kalkınca, artık kurumsallaşmış bu tutku onu tahtından etti.",
+  sebep:{ b:"IV. Mehmed'in yedi yaşında (1648) tahta çıkması; ilk sekiz yılda iktidarın büyükannesi Kösem, annesi Turhan Sultan ve taraftarları arasında paylaşılması; 1656'da Köprülü Mehmed Paşa'nın, 1661'de oğlu Fâzıl Ahmed Paşa'nın sadrazam olmasıyla devlet yönetiminin yirmi yılı aşkın süreyle Köprülü ailesine devri", t:"1648-08-08" },
+  sonuc:{ b:"Bu delegasyon döneminde IV. Mehmed'in av alanlarını ordu güzergâhında yoğunlaştırarak mesaisinin büyük kısmını avcılığa ayırması, İstanbul'a neredeyse hiç uğramayıp Edirne merkezli yaşaması, ve devletin fiilen Edirne'den değil Köprülü sadrazamlarınca yürütülmesi", t:"1661-10-30" },
+  metin:"TDV İslâm Ansiklopedisi'nin 'Mehmed IV' maddesi (Abdülkadir Özcan) bu nedenselliği DOLAYLI YORUM olarak değil, doğrudan kendi hükmü olarak kuruyor: 'IV. Mehmed'in ava aşırı düşkünlüğünde ve ilgisiz tavırlarında çok küçük yaşta tahta çıkmasının rolü olduğu söylenir... Bu sebeple iyi bir eğitim alamadığı, çevresindeki cahil saray ağalarından oluşan iktidar ortaklarının onun sarayın dar çevresi dışına çıkmasını engellediği belirtilir. Saltanatı boyunca aslî görevlerini başkalarının üstlenmiş olması da hükümdarın bu rahat tavırlarını belirleyen önemli bir unsurdur.'\n\nBu bir tek yönlü zincir değil, İKİ AŞAMALI bir anlatı: (1) 1648-1683 arası, Köprülü sadrazamların yirmi yılı aşkın yönetimi sırasında av alışkanlığı yerleşti ve pasif bir hükümdarlık tarzı oturdu; (2) bu destek sistemi çökünce (Fâzıl Ahmed Paşa'nın 1676'daki ölümü, annesi Turhan Sultan'ın 1683'teki vefatı ve Köprülü ailesinin görevden uzaklaştırılması), artık KURUMSALLAŞMIŞ av tutkusu deneyimsizlikle birleşip TDV'nin kendi ifadesiyle 'tahttan indirilmesinin BAŞLICA SEBEBİ' hâline geldi.\n\nSomut kanıt: sarayda IV. Mehmed adına 1661-62'de (Köprülü döneminin hemen başında) yaptırılan dairenin adı bile 'Avcı Sultan Mehmed Han Dairesi'ydi — lakap daha yönetimin ilk yıllarında yerleşmişti. Rakamsal av harcaması TDV'de verilmiyor — bulunamadı, uydurulmadı.",
+  kesinlik:"kesin",
+  zincir:["tartisma-mehmed-iv-hal-olaylari"],
+  olay:["1648-08-08","1687-08-01","1687-11-08"],
+  kaynak:"TDV: mehmed-iv (Abdülkadir Özcan) · TDV: turhan-sultan (Filiz Karaca) · TDV: koprulu-mehmed-pasa · TDV: kopruluzade-fazil-ahmed-pasa",
+  ic_not:"Metodolojik uyarı: WebFetch'in küçük modeli bu sorunun cevabını önce 'HAYIR, TDV'de açık bağlantı yok' diye özetlemişti — ham HTML elle okununca bunun YANLIŞ olduğu, TDV'nin nedenselliği açıkça kurduğu görüldü. CLAUDE.md §4'ün 'küçük model özetine güvenme' kuralının somut doğrulaması.",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── H-0019b · IV. Mehmed'in hal'i (1687) — olay örgüsü ──────────────────────
+{ id:"tartisma-mehmed-iv-hal-olaylari", tur:"tartisma",
+  kisa:"Sadrazamı öldürüp başını askere gösterdi, av edevatını dağıtıp tövbe ilan etti — hiçbiri işe yaramadı; Ayasofya'daki soru sükûtla cevaplandı ve bu 'evet' sayıldı.",
+  metin:"IV. Mehmed'in 39 yıllık saltanatının çöküşü 1683 Viyana bozgunuyla başladı. Merzifonlu Kara Mustafa Paşa'nın kuşatması Ordu ile birlikte yola çıkan padişah Belgrad'da kalmıştı; bozgun haberiyle Edirne'ye döndü ama sadrazamına desteğini sürdürdü — Merzifonlu, sarayda kendisine düşman olan Kızlar Ağası Yûsuf, Uzun Sarı Süleyman ve Sadâret Kaymakamı Kara İbrâhim Paşa üçlüsünün etkisiyle Belgrad'da idam edildi. TDV'nin kendi tanımlamasıyla 'Viyana bozgununun ardından başlayan dönem onun saltanatının şüphesiz EN KARANLIK zamanı olmuştur.'\n\n1685-1687 arası kayıplar art arda geldi: Koron ve Modon (1685), Anabolu ve bütün Mora (1686), Atina (1687), Budin Kalesi (2 Eylül 1686). Ağustos 1687'deki Mohaç (Harşan) yenilgisinden sonra ulûfeleri ödenmeyen asker Serdâr-ı Ekrem Süleyman Paşa'ya başkaldırdı, Köprülü Mehmed Paşa'nın damadı Abaza Siyavuş Paşa'yı sadrazam ilan edip İstanbul'a doğru yürümeye başladı.\n\nPadişahın son çırpınışı: saltanatını kaybettiğini anlayan IV. Mehmed, sadâret mührünü askerden kaçırıp getiren Süleyman Paşa'yı öldürtüp başını askere gösterdi; av edevatını ve tazılarını dağıtarak tövbe ettiğini ilan etti — TDV'nin ifadesiyle 'fakat artık iş işten geçmişti.' Sadâret Kaymakamı Receb Paşa'nın orduyu durdurma girişimi de başarısız oldu.\n\nHal' süreci resmî bir prosedürle işledi: yeni sadrazam Siyavuş Paşa, Şeyhülislâm Ankaravî Mehmed Emin Efendi ile 'başka çarenin kalmadığını' teyit ettirdi; 7 Kasım 1687'de (1 Muharrem 1099) Silivri'de ocak ağaları ve zorbabaşılarıyla bir karar aldırdı. Öldürülmekten korkan IV. Mehmed kendi yerine küçük oğlu Mustafa'nın geçirilmesini istedi — REDDEDİLDİ. Ayasofya'da toplanan şeyhülislam, vezirler ve ocak ağalarına şu soru soruldu: 'ülke düşman istilâsına uğrarken avdan başını alamayan, etrafındaki müfsitlerin tesiriyle bu derdin ilâcını görecek kişileri uzaklaştıran bir padişahın hal'inin şer'an câiz olup olmadığı' — cevap SÜKÛTLA verildi, yani zımnen onaylandı. Yerine kardeşi II. Süleyman tahta çıkarıldı (8 Kasım 1687).\n\nSonrası: IV. Mehmed iki oğluyla birlikte Şimşirlik Dairesi'ne kondu; 1689'da Edirne'ye getirildi, kardeşi II. Ahmed'in saltanatına da orada şahit oldu, 6 Ocak 1693'te Edirne'de öldü, annesinin Yenicami'deki türbesine gömüldü.",
+  kesinlik:"kesin",
+  zincir:["sebep-sonuc-mehmed-iv-avcilik"],
+  olay:["1687-08-01","1687-11-08"],
+  kaynak:"TDV: mehmed-iv (Abdülkadir Özcan) · TDV: merzifonlu-kara-mustafa-pasa",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
 ];

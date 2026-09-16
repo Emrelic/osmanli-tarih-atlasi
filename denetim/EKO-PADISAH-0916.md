@@ -1,4 +1,27 @@
-# EKO-PADISAH — teslim raporu, 16 Eylül 2026 (DALGA-0052)
+# EKO-PADISAH — teslim raporu, 16 Eylül 2026 (DALGA-0052 + DALGA-0053 eki)
+
+## DALGA-0053 eki (aynı oturum, yeni açılış yok — koordinatör talimatı)
+
+Maddeler: H-0014 H-0019 H-0021. Dosyalar: `data/ekokuma_padisah.js`'e 3 yeni kart eklendi
+(toplam **29 kart**), `denetim/YAMA-0053-KISI.json` yazıldı (`kisiler.js`'e YAZILMADI, CLAUDE.md §7).
+
+- **H-0021** (II. Süleyman/II. Ahmed kafes hayatı) — TAM. TDV'nin çarpıcı rivayeti doğrulandı:
+  II. Süleyman'ı almaya gelenleri celladı sanıp "iki rekât namaz kılayım" dediği. II. Ahmed'in
+  kafes süresi TDV'de YOK — açıkça çıkarım diye damgalandı.
+- **H-0019** (IV. Mehmed avcılık + hal) — TAM, 2 karta bölündü. 🔴 ÖNEMLİ METODOLOJİK BULGU:
+  araştırma agentı WebFetch'in küçük modelinin "avcılık ile Köprülü vesayeti arasında TDV'de
+  bağlantı YOK" dediğini, ama ham HTML'i elle okuyunca TDV'nin bunu AÇIKÇA kurduğunu buldu —
+  CLAUDE.md §4'ün "küçük model özetine güvenme" kuralının somut bir doğrulaması.
+- **H-0014** (kişi kartı genişletme) — 12 kişi seçildi (kısa "not" + en sık görünen, ölçülerek).
+  TDV'de İKİ YENİ tuzak alt-sınıfı bulundu: `nevsehirli-damad-ibrahim-pasa` ve `ismail-i` HTTP
+  200 dönüyor, başlık doğru, ama gövde yalnız tek cümlelik "bk." yönlendirmesi — CLAUDE.md §4'ün
+  mevcut 8 tuzağının hiçbirine tam uymuyor, dokuzuncu bir alt-sınıf olarak eklenmesi önerilir.
+  Ayrıca `sinan-pasa` slug'ının ARANAN kişiden (Koca Sinan Paşa) BAŞKA bir kişiye (15. yy
+  âlim-vezir) ait olduğu tespit edildi — kayıt `koca-sinan-pasa`ya düzeltildi.
+
+---
+
+# DALGA-0052 raporu (asıl teslim)
 
 ## 🔴 Kimlik düzeltmesi (önce bu)
 
