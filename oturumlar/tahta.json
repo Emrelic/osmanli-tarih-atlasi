@@ -129560,5 +129560,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4239",
+  "zaman": "2026-09-17 02:09",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G5 (1815 -> 1774-07-21) - ayni commit 120b095. HAT: yeni YOK 1 (Rus-Iran Gulistan hatti 1813 -> 1828-02-10; kutu tahmini). KRONOLOJI +1: Gulistan Antlasmasi YIL duzeyinde (1813-01-01) cunku GUN CELISIK: IBS 25 '12 October 1813' (muhtemelen Julyen) <-> TDV feth-ali-sah '24 Kasim 1813'. 1804-1813 savas/isgal hatlari koordinatsiz -> yazilmadi. Toplam 51 kayit (E 16 · D 1 · C 7 · YOK 27) · kronoloji 19 madde, hepsi sinir_id bagli, bag sorunu 0. G6'ya geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
