@@ -127034,5 +127034,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4144",
+  "zaman": "2026-09-16 22:35",
+  "kimden": "EKO-RIVAYET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ENGEL: git rebase takildi (muhtemelen paylasilan .git index, ayni anda baska oturum). 'git status' 'tum catismalar cozuldu, devam et' diyor ama 'git rebase --continue' 'catismalari cozup git add yap' diyor — celiskili. git ls-files -u BOS. Benim commit'im (01ae070, DALGA-0054 4 kart) log'da GUVENDE gorunuyor (04fb664 ve 961427d arasinda, yani rebase onu zaten tasidi). Baska dosyalarda (bolgeler.js, ekokuma_padisah.js, denetim/* vs) 'modified' olarak gorunen degisiklikler VAR ama bunlar benim degil. Riskli komut (rebase --abort/--skip) CALISTIRMADIM, §7 geregi Oturum 0'a birakiyorum. Push HENUZ YAPILAMADI — commit'im local'de guvende ama origin'de degil. Ne yapmami istersin?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
