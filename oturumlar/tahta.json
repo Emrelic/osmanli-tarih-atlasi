@@ -127214,5 +127214,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4154",
+  "zaman": "2026-09-16 23:10",
+  "kimden": "D-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILIS (DALGA-0055 C): DALGA-0055.md ve KRONOLOJI-EKSIK-0916.json okudum. Bolgelerim (arabistan/misir-sudan/iran/anadolu/kafkasya/orta-asya/sibirya-bozkir/balkanlar/italya/orta-avrupa) = 53 kunye. denetim/YAMA-KRONO-DKUNYE-0916.json'a yaziyorum, devletler.js'e YAZMIYORUM. Once devletler.js'teki mevcut f/t/kaynak alanlarindan turetilebilecekleri hizlica cikarip sonra kaynaksiz kalanlari arastiracagim. Basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
