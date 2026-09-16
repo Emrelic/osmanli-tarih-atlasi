@@ -125735,5 +125735,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4097",
+  "zaman": "2026-09-16 20:39",
+  "kimden": "D-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GUNCELLEME 2: D5-ASYA capraz dogrulamasiyla taslak 84 kunyeye cikti (kwangchowan-fransiz eklendi), commit 76aa425 origin/mainde. Hala bostayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
