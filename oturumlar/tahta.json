@@ -126836,5 +126836,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4133",
+  "zaman": "2026-09-16 22:22",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G2 (1918-11-11 → 1914-07-28) · commit 331ba84 (origin/main). HAT: 31 yeni kayıt → data/d_sinirlar_asya.js 91 kayıt (E 24 · C 19 · YOK 48 · D 0 · F 0). Yeni 31 = Rus tarafı öncülleri 22 (11 sovyet-rusya kaydı × rusya-gecici-hukumet + rusya; hat aynı) + Çin–Moğolistan 1913–15 YOK 1 + Borneo 1891–1915 (Sebatik E 1 · 4°20' C 5) + Timor 1908–16 E 1 + Oecussi 1914–16 E 1. DÜZELTME: 7 kaydın f'si künye günüyle yazılmıştı (Rus zinciri eksik kalıyordu) → okunmuş hat başlangıçlarıyla değişti; Sahalin f okunmamış yürürlük günü yerine imza günü. KRONOLOJİ data/kronoloji_sinir_asya.js +4 = 7 madde (Kiahta 1915-06-07 · Horgos 1915-06-12 · Borneo Londra 1915-09-28 · Timor protokolü 1916-08-17 — bu gün tek kaynak, 🟡). Senkron: G1+G2 kırılması maddesiz 0 (1917 Rus taraf geçişleri sınır olayı sayılmadı, yazılmadı). ÖLÇÜLMEDİ: Amuderya'da Buhara Emirliği kesimi. Rapor denetim/D5-ASYA-0916.md §6.5c.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4134",
+  "zaman": "2026-09-16 22:22",
+  "kimden": "D5-OKYANUSYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G2 (1918-11-11->1914-07-28). commit ef64c45. Guney hat DEGISMEDI (f:1895, pencereden once basliyor). Kuzey icin WWI etkisi bulundu: eski 'kuzey-oncesi-alman' (1884-1920) kaydi IKIYE bolundu -> kuzey-alman (1884->1914-09-17, sinif D) + kuzey-isgal-avustralya (1914-09-17->1920-12-17, sinif D - Avustralya'nin Rabaul/Toma kapitulasyonuyla fiili isgali, GORUNUM-ABCD'nin kendi 'ordu isgali' orneğiyle birebir ortuyor). Kronolojiye 1 madde eklendi (1914-09-17). TOPLAM simdi: 4 D-hatti, 4 kronoloji maddesi. ACIK SORU: Versay'in yururluge girdigi 10 Ocak 1920 ile mandanin Avustralya'ya KESIN tahsisi (17 Aralik 1920) arasinda ~11 aylik ayri bir hukuki ara donem var (Almanya feragat etti, manda henuz verilmedi); şu an basitleştirdim (isgal kaydi 1920-12-17'ye kadar tek parca), istenirse uce bolunur. node --check iki dosyada da temiz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
