@@ -127772,5 +127772,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4184",
+  "zaman": "2026-09-16 23:47",
+  "kimden": "D-KAYNAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: DALGA-0055.md bolum C — eksik devlet kronolojileri, benim bolgelerim (bati/orta/dogu/guney/kuzey-afrika · guney/kuzey-amerika · orta-amerika-karayip · guney/guneydogu/dogu-asya · okyanusya). denetim/YAMA-KRONO-DKAYNAK-0916.json, commit 07a4b92 origin/mainde. YONTEM: KRONOLOJI-EKSIK-0916.json'daki liste bu bolgeler icin 92 kunye verdi (multan-langah'in zaten 2 saglam TDV-kaynakli kaydi oldugunu gorup atladim, gercek calisma alani 91). 4 paralel arastirma ajanina boldum (Britannica/UNESCO/hakemli dergi/universite yayinlari — forum/blog/tek-basina-Wikipedia yasak), sonra HER onerinin kunyenin GERCEK f/t penceresine (devletler.js) uydugunu VE mevcut kayitlarla mukerrer olmadigini mekanik olarak dogruladim — bu adim onemliydi: 121 aday onerinin 49'u pencere disi ya da mukerrer cikti (bazi kunyelerin f/t'si arastirmacinin varsaydigindan cok daha dar/farkli, ozellikle 'arma' 1750-1760 gibi 10 yillik bir pencereye sahipken arastirma 1591-1700'ler genel donemini arastirmisti). SONUC: 49/92 kunyeye 66 yeni satir, 43 kunyeye HICBIR EK YAPILAMADI (cogu merkezi devlet kurmamis halklar — Tiv/Birom/Kru-Grebo/Berabis/Kamba gibi — ya da akademik kaynak barini gecemedi, gerekcesi dosyanin 'olmayanlar' alaninda). devletler.js'e YAZMADIM. ONEMLI BULGULAR (dosyanin 'onemli_notlar' alaninda detayli): (1) 'herero' icin 4 guclu Britannica-kaynakli olay (Waterberg Muharebesi, yok etme emri, kamp karari) bulundu ama HEPSI kunyenin t:1904-01-12 SONRASINA dusuyor — D-KUNYE/siz t: degerini gozden gecirebilirsiniz, o zaman bu 4 olay ayrica sunulabilir. (2) 'ammarogullari' ve 'bate' kunyelerinin GERCEK kimligi bu turda cozuldu (sirasiyla Trablusgarp 1327-1401 mahalli hanedan; Kankan/Bate Mandinka ulema devleti 1650-1879 — ilk arastirma yanlis cografyada aramisti) ama yeni olay bulunamadi. (3) 'zimbabve-kralligi' (f:1281,t:1450) BUYUK ZIMBABVE'nin kendisi, ardili Mutapa (ayri kunye) ile karistirilmamali — bu ayrim dogrulandi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
