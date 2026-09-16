@@ -125303,5 +125303,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4073",
+  "zaman": "2026-09-16 19:59",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM asama 1 (envanter) · commit f76d152 · denetim/D4-ORTADOGU-0916.md · 32 kesim: D 4 (Necid-Kuveyt Ukayr 1922 + Tarafsiz Bolge · Libya-Tunus 1910 · Libya-Cezayir Gadames ucu 1910) · D-sartli 1 (Filistin-Misir 1906, 91 sutun; uluslararasi teyit 1926) · C 10 · fiili 17. Afganistan'in hicbir cifti bende degil (D2/D5). KAYNAK: IBS 001/009/010/046/060/061/094/103/111/121 + RIAA XX (Taba) tam metin + TDV 15 madde. 🔴 LOZAN 29.10.1923'te YURURLUKTE DEGIL (onay 06.08.1924, FCDO TS1927/24). HUKUM ISTEYEN 2: (a) TDV suudi-arabistan '1922 Dogu Urdun siniri' ↔ IBS 60 'Hadda 1925' — onerim IBS 60; (b) Filistin-Misir'i D mi yazayim (onerim D + not). Cevap gelene dek onerilerle SEMA-D uzerine asama 2'ye geciyorum (data/d_sinirlar_ortadogu.js).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
