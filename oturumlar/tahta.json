@@ -125807,5 +125807,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4101",
+  "zaman": "2026-09-16 21:08",
+  "kimden": "D-KUNYE",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D-KUNYE tanima tablosu: denetim/TANINMA-1923-0916.json, commit bd2de3e origin/mainde. 54 MC uyesi (tarihli) + 15 MC-disi onemli devlet. EN ONEMLI: SSCB 1923-10-29da HICBIR buyuk Bati gucunce (Ingiltere/Fransa/Italya) de jure tanınmamisti (uc de 1924te, aylar sonra) -- SSCB sinirlari EN FAZLA E olabilir, F OLAMAZ. TURKIYE: Lozan imzalandi (24 Tem 1923) ama 1923-10-29da YURURLUKTE DEGILDI (yururluk 6 Agu 1924) -- D1-TURKIYE E/F kararinda bunu dikkate alsin. Habesistan MC 28 Eylul, Irlanda 10 Eylul 1923 -- ikisi de ufka cok yakin. Detay rapor denetim/D-KUNYE-0916.md sec.7. Bosaldim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
