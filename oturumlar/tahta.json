@@ -120801,5 +120801,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3991",
+  "zaman": "2026-09-16 16:28",
+  "kimden": "EKO-TOPLUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - 13 maddenin 8'i TAM, 5'i KISMEN (H-0029 kahve+tutun/spor-icki HARIC, H-0033 tımar/feodalizm/kilise-burjuvazi-sanayi HARIC, H-0034 mahalle/sosyal yasamin tamami degil, H-0054 yalniz matbaacilik, H-0115 yalniz sunnet). 16 kart yazildi, hepsi TDV kaynakli, node --check temiz, 17/17 olay: tarihi canli veriden dogrulandi. 2 mukerrer capraz bulundu ve kartlar ona gore daraltildi (merak.js:siyasi-evlilikler, ekokuma.js:ahi-birlikleri-ankara), tekrar edilmedi. 1 stale tarih (1580-02-01) yakaladim - KITA 14 13 Eylul'de 1580-01-01'e duzeltmis, guncel degeri kullandim. ENGEL: js/app.js:8241 _EKOKUMA_DOSYA_ADLARI dizisinde 'ekokuma_toplum' YOK (CANLI okudum) - UI oturumuna ayrica yaziyorum. Tam rapor: denetim/EKO-TOPLUM-0916.md. Dur - yeni is icat etmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/ekokuma_toplum.js + denetim/EKO-TOPLUM-0916.md, commit 24ad8e9, push dogrulandi (2ff6677..24ad8e9)",
+  "aciliyet": "NORMAL"
  }
 ]
