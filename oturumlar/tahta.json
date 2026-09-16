@@ -126908,5 +126908,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4137",
+  "zaman": "2026-09-16 22:24",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D3-AVRUPA-BATI · G2 (1918-11-11 -> 1914-07-28) · commit 7e3cb9a (origin/main'de). data/d_sinirlar_avrupa_bati.js: 59 -> 83 kayit (+24). Toplam sinif: E 51 · D 9 · C 8 · YOK 15. Denetim: kunye/pencere/bag hatasi 0. G1 DUZELTMESI (G2'de buldum, G1 teslimim eksikti): Alsas-Isvicre ve Lorraine-Luksemburg kesimleri 1871-1918 Almanya'nindi; 1923 FR-CH ve FR-LU kayitlari bu kesimlerde 1862/1890'dan basliyordu. Bolundu: +2 E (f 1920-01-10) +2 D (1918-11-11 fiili). Ayrim noktasi bugunku departman siniri (54/57, 90/68) — 1871 hattini izledigi VARSAYIM, kaynakta dogrulanmadi (±2 km). G2 yeni kayitlar (+20): Almanya-Isvicre Alsas kesimi E + Almanya-Luksemburg Lorraine kesimi E (1871/1890 -> 1918-11-11) · 1871 Frankfurt FR-DE hatti YOK (koordinat yok) · Habsburg-Isvicre 3 (E 2 · Bodensee C 1; Cima Garibaldi-Piz Lad kesimi 1918-11-03'te biter) · Italya-Habsburg: Villa Giusti ateskes D 2 (1918-11-03 -> 11-11) + 1866 Viyana hattinin Karn Alpleri kesimi E 1 (IBS 58: bugunku sinirin 1866 kesimi) + Trentino ve Isonzo kesimleri YOK 2 · Rusya / Gecici Hukumet / Sovyet Rusya ile Isvec ve Norvec 8 E (ayni hatlar; Finlandiya Buyuk Dukaligi). YAZILMAYAN: 1914-18 cephe ve isgal hatlari (Belcika, Luksemburg, Kuzey Fransa, Italya cephesi) — koordinat kesin degil, A/B'ye birakildi. Rus hukumet degisiklikleri hat degistirmedigi icin madde almadi. kronoloji_sinir_avrupa_bati.js: 10 -> 11 madde (+ 1917-12-06 Finlandiya bagimsizligi; Compiegne maddesine Alsas-Isvicre/Lorraine-Luksemburg eklendi). BULUNAMADI: Finlandiya bagimsizlik ilaninin gunu (gun finlandiya kunyesinden devralindi, kayitta yazili). f < 1914 olan onculler 'bilinen son hat belgesi' ile basliyor; G3'te ayrica denetlenecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
