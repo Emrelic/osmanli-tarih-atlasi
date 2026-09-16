@@ -1352,7 +1352,7 @@ window.DEVLETLER = [
   kaynak:"cezayir",
   kronoloji:[
     { t:"1830-07-05", tur:"isgal", b:"Fransız ordusu Cezayir'i işgal etti, ocaklık sona erdi" },
-    { t:"1848-01-01", tur:"toprak", b:"Fransız hükümeti kıyı Cezayir'ini resmen Fransa'ya bağladı; Alger, Oran, Konstantin adlı üç département kuruldu.", kaynak:"Encyclopaedia Britannica 'History of Algeria' — WebSearch özetinden (403)" },
+    { t:"1848-01-01", tur:"toprak-kazanc", b:"Fransız hükümeti kıyı Cezayir'ini resmen Fransa'ya bağladı; Alger, Oran, Konstantin adlı üç département kuruldu.", kaynak:"Encyclopaedia Britannica 'History of Algeria' — WebSearch özetinden (403)" },
     { t:"1962-07-05", tur:"son", b:"Cezayir Bağımsızlık Savaşı (1954-1962) sonunda Cezayir bağımsızlığını ilan etti.", kaynak:"US Department of State, Office of the Historian, 'Algeria' (history.state.gov) — WebSearch özetinden; tarih çok kaynaklı doğrulanmış, güvenilirliği yüksek" }
   ]
 },
@@ -2587,7 +2587,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Gambiya nehri boyunca Mali ardılı küçük Mandinka devletleri.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Mali'nin çözülmesiyle bağımsızlaştılar" },
-    { t:"1889-08-10", tur:"toprak", b:"10 Ağustos 1889 tarihli Anglo-Fransız Sözleşmesi'yle Gambiya Nehri kıyısındaki Mandinka krallıkları İngiliz Gambiyası ile Fransız Senegal'i arasında bölündü.", kaynak:"Anglo-French Convention of 1889 (uluslararası antlaşma metni, tarihi bağımsız doğrulanabilir) — arka plan: J. M. Gray, A History of the Gambia, Cambridge University Press, 1940 (tam metne erişilemedi)" },
+    { t:"1889-08-10", tur:"bolunme", b:"10 Ağustos 1889 tarihli Anglo-Fransız Sözleşmesi'yle Gambiya Nehri kıyısındaki Mandinka krallıkları İngiliz Gambiyası ile Fransız Senegal'i arasında bölündü.", kaynak:"Anglo-French Convention of 1889 (uluslararası antlaşma metni, tarihi bağımsız doğrulanabilir) — arka plan: J. M. Gray, A History of the Gambia, Cambridge University Press, 1940 (tam metne erişilemedi)" },
     { t:"1894-01-01", tur:"son", b:"İngiliz Gambiya himayesine katıldılar" }
   ]
 },
@@ -2671,7 +2671,7 @@ window.DEVLETLER = [
   kaynak:"burkina-faso — TDV gövdesi bu turda okundu. TDV burkina-faso: Fransız işgali 1897'de tamamlandı.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Gurma krallığı teşekkül etti" },
-    { t:"1896-01-01", tur:"toprak", b:"Fransızlar Gurma krallıklarını ele geçirdi, bölge Fransız Yukarı Volta kolonisine katıldı.", kaynak:"Encyclopaedia Britannica 'Gurma' — WebSearch özetinden (403 nedeniyle doğrudan açılamadı)" },
+    { t:"1896-01-01", tur:"isgal", b:"Fransızlar Gurma krallıklarını ele geçirdi, bölge Fransız Yukarı Volta kolonisine katıldı.", kaynak:"Encyclopaedia Britannica 'Gurma' — WebSearch özetinden (403 nedeniyle doğrudan açılamadı)" },
     { t:"1897-01-01", tur:"son", b:"Fransız işgali tamamlandı" }
   ]
 },
@@ -2766,7 +2766,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Nijer'in batısında Bariba devletçikleri konfederasyonu.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Borgu krallıkları teşekkül etti" },
-    { t:"1783-01-01", tur:"toprak", b:"Borgu, Gberegburu savaşında Oyo İmparatorluğu'nu yenip özerkliğini yeniden kazandı (haraç 1818'e kadar sürdü).", kaynak:"Adekunle, Politics and Society in Nigeria's Middle Belt (2004) — Wikipedia atfı üzerinden" },
+    { t:"1783-01-01", tur:"toprak-kazanc", b:"Borgu, Gberegburu savaşında Oyo İmparatorluğu'nu yenip özerkliğini yeniden kazandı (haraç 1818'e kadar sürdü).", kaynak:"Adekunle, Politics and Society in Nigeria's Middle Belt (2004) — Wikipedia atfı üzerinden" },
     { t:"1898-01-01", tur:"son", b:"İngiliz-Fransız paylaşımıyla bölündü" }
   ]
 },
@@ -2873,7 +2873,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kidal merkezli Ifoghas konfederasyonu.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Kel Adag konfederasyonu teşekkül etti" },
-    { t:"1894-01-01", tur:"toprak", b:"İwellemmedan konfederasyonunun Timbuktu'yu Fransızlara teslim etmesinin ardından Kel Adagh Fransız nüfuzuna girmeye başladı, İwellemmedan hakimiyetinden kurtulmayı hedefledi.", kaynak:"RAND Corporation raporu (RR296) üzerine analiz — orta güvenilirlik, tam metin bu oturumda doğrulanmadı" },
+    { t:"1894-01-01", tur:"siyaset", b:"İwellemmedan konfederasyonunun Timbuktu'yu Fransızlara teslim etmesinin ardından Kel Adagh Fransız nüfuzuna girmeye başladı, İwellemmedan hakimiyetinden kurtulmayı hedefledi.", kaynak:"RAND Corporation raporu (RR296) üzerine analiz — orta güvenilirlik, tam metin bu oturumda doğrulanmadı" },
     { t:"1899-01-01", tur:"son", b:"Fransız Sudan idaresine girdi" }
   ]
 },
@@ -2923,7 +2923,7 @@ window.DEVLETLER = [
   kaynak:"kamerun — TDV gövdesi bu turda okundu. TDV kamerun: 'Modibbo Adama … Yola merkez olmak üzere Fumbina Krallığı adıyla İslâmî bir yönetim kurdu (1841)'; emirlik 1809'da başlar, Alman-İngiliz paylaşımı 1901.",
   kronoloji:[
     { t:"1809-01-01", tur:"kurulus", b:"Modibbo Adama Fumbina emirliğini kurdu" },
-    { t:"1901-01-01", tur:"toprak", b:"Adamava Emirliği, Fulani İmparatorluğu'nun en doğu emirliği olarak 1901'de Britanya Kuzey Nijerya'sı ile Alman Kamerun'u arasında ikiye bölündü; I.Dünya Savaşı sonrası Kamerun kesiminin bir kısmı Fransız yönetimine geçti.", kaynak:"Encyclopaedia Britannica, 'Adamawa' (traditional emirate, Africa) — DOĞRUDAN tarayıcıyla açılıp teyit edildi" },
+    { t:"1901-01-01", tur:"bolunme", b:"Adamava Emirliği, Fulani İmparatorluğu'nun en doğu emirliği olarak 1901'de Britanya Kuzey Nijerya'sı ile Alman Kamerun'u arasında ikiye bölündü; I.Dünya Savaşı sonrası Kamerun kesiminin bir kısmı Fransız yönetimine geçti.", kaynak:"Encyclopaedia Britannica, 'Adamawa' (traditional emirate, Africa) — DOĞRUDAN tarayıcıyla açılıp teyit edildi" },
     { t:"1901-09-02", tur:"son", b:"Alman-İngiliz paylaşımıyla bölündü" }
   ]
 },
@@ -2942,8 +2942,8 @@ window.DEVLETLER = [
   kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: 'Vara ve Abeşe başlıca merkezler'; 'Râbih b. Zübeyr döneminde (1878-1900) bölgenin en güçlü devleti'. Fransız fethi 1909-1912.",
   kronoloji:[
     { t:"1635-01-01", tur:"kurulus", b:"Abdülkerim Vaday sultanlığını kurdu" },
-    { t:"1790-01-01", tur:"toprak", b:"Uzun süre Darfur'a bağlı olan Vaday Sultanlığı 1790'larda bağımsızlaştı, Bornu aleyhine hızlı toprak genişlemesine girdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — WebSearch üzerinden alıntı, sayfa bizzat ikinci kez açılmadı" },
-    { t:"1909-01-01", tur:"toprak", b:"Fransız kuvvetleri 1909'da başkent Abéché'yi ele geçirdi; sultan Dud Murra 1911'de teslim oldu, sultanlık fiilen sona erdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — aynı kaynak" },
+    { t:"1790-01-01", tur:"toprak-kazanc", b:"Uzun süre Darfur'a bağlı olan Vaday Sultanlığı 1790'larda bağımsızlaştı, Bornu aleyhine hızlı toprak genişlemesine girdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — WebSearch üzerinden alıntı, sayfa bizzat ikinci kez açılmadı" },
+    { t:"1909-01-01", tur:"isgal", b:"Fransız kuvvetleri 1909'da başkent Abéché'yi ele geçirdi; sultan Dud Murra 1911'de teslim oldu, sultanlık fiilen sona erdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — aynı kaynak" },
     { t:"1912-01-01", tur:"son", b:"Fransız fethi tamamlandı" }
   ]
 },
@@ -2953,9 +2953,9 @@ window.DEVLETLER = [
   kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: 'XVI. yüzyılda Kenkâ halkı tarafından kuruldu'; merkezi Massenya; Fransız himayesi 1897.",
   kronoloji:[
     { t:"1522-01-01", tur:"kurulus", b:"Kenkâ halkı Bagirmi sultanlığını kurdu" },
-    { t:"1893-01-01", tur:"toprak", b:"Bağırmi Sultanlığı, Rabih ez-Zübeyr tarafından 1893'te işgal edilip tabi hale getirildi (daha önce 1805'te Vaday tarafından da fethedilmişti).", kaynak:"Encyclopaedia Britannica 'History of Baguirmi' (summary) — WebSearch üzerinden alıntı" },
+    { t:"1893-01-01", tur:"isgal", b:"Bağırmi Sultanlığı, Rabih ez-Zübeyr tarafından 1893'te işgal edilip tabi hale getirildi (daha önce 1805'te Vaday tarafından da fethedilmişti).", kaynak:"Encyclopaedia Britannica 'History of Baguirmi' (summary) — WebSearch üzerinden alıntı" },
     { t:"1897-01-01", tur:"son", b:"Fransız himayesi kabul edildi" },
-    { t:"1897-01-01", tur:"toprak", b:"Fransa 1897'de Bağırmi üzerinde protektora ilan etti; tam otorite Rabih'in 1900-1901 Kousséri'de yenilmesinden sonra yerleşti.", kaynak:"aynı kaynak" }
+    { t:"1897-01-01", tur:"vassal", b:"Fransa 1897'de Bağırmi üzerinde protektora ilan etti; tam otorite Rabih'in 1900-1901 Kousséri'de yenilmesinden sonra yerleşti.", kaynak:"aynı kaynak" }
   ]
 },
 { id:"rabih", ad:"Râbih b. Zübeyr Devleti", tur:"devlet", bolge:"orta-afrika",
@@ -2982,7 +2982,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ndele merkezli köle ticaret sultanlığı; Muhammed es-Senûsî 1911'de öldürüldü.",
   kronoloji:[
     { t:"1890-01-01", tur:"kurulus", b:"Senûsî Ndele'de sultanlığını kurdu" },
-    { t:"1890-01-01", tur:"toprak", b:"Rabih ez-Zübeyr 1890'da Dar el-Kuti hükümdarını tahttan indirip yerine Muhammed es-Senûsî'yi şeyh atadı, bölgeyi kendi nüfuz alanına kattı.", kaynak:"Dennis D. Cordell, Dar al-Kuti and the Last Years of the Trans-Saharan Slave Trade, University of Wisconsin Press, 1985 — Cambridge Core/ProQuest akademik kitap incelemeleri üzerinden teyit edildi, kitap doğrudan okunmadı" },
+    { t:"1890-01-01", tur:"vassal", b:"Rabih ez-Zübeyr 1890'da Dar el-Kuti hükümdarını tahttan indirip yerine Muhammed es-Senûsî'yi şeyh atadı, bölgeyi kendi nüfuz alanına kattı.", kaynak:"Dennis D. Cordell, Dar al-Kuti and the Last Years of the Trans-Saharan Slave Trade, University of Wisconsin Press, 1985 — Cambridge Core/ProQuest akademik kitap incelemeleri üzerinden teyit edildi, kitap doğrudan okunmadı" },
     { t:"1911-04-12", tur:"son", b:"Fransızlar Senûsî'yi öldürdü" }
   ]
 },
@@ -3001,7 +3001,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Uele yukarısı; merkezi Nangazizi.",
   kronoloji:[
     { t:"1815-01-01", tur:"kurulus", b:"Nabiembali krallığı birleştirdi" },
-    { t:"1859-01-01", tur:"toprak", b:"Nabiembali'nin oğulları babalarına karşı ayaklanıp 1859'da onu öldürdü, kendi bağımsız krallıklarını kurdular; tek merkezli krallık parçalandı.", kaynak:"Encyclopedia.com 'Mangbetu'" },
+    { t:"1859-01-01", tur:"bolunme", b:"Nabiembali'nin oğulları babalarına karşı ayaklanıp 1859'da onu öldürdü, kendi bağımsız krallıklarını kurdular; tek merkezli krallık parçalandı.", kaynak:"Encyclopedia.com 'Mangbetu'" },
     { t:"1895-01-01", tur:"son", b:"Kongo Serbest Devleti idaresine girdi" }
   ]
 },
@@ -3011,7 +3011,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ubangi-Şari iç kesimi; merkezî devlet kurmamış halklar — tanecik: HALK.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Banda ve Gbaya toplulukları bölgeye yerleşti" },
-    { t:"1800-01-01", tur:"toprak", b:"19.yy başında Gbaya halkı, Usman dan Fodio cihadından kaçarak kuzey Nijerya'dan güneydoğuya göç etti; karşılaştıkları halkları yendi/özümsedi.", kaynak:"Encyclopaedia Britannica 'Gbaya' — WebSearch üzerinden" },
+    { t:"1800-01-01", tur:"toprak-kazanc", b:"19.yy başında Gbaya halkı, Usman dan Fodio cihadından kaçarak kuzey Nijerya'dan güneydoğuya göç etti; karşılaştıkları halkları yendi/özümsedi.", kaynak:"Encyclopaedia Britannica 'Gbaya' — WebSearch üzerinden" },
     { t:"1903-01-01", tur:"son", b:"Fransız Ubangi-Şari idaresine girdi" }
   ]
 },
@@ -3022,7 +3022,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Tio krallığı teşekkül etti" },
     { t:"1300-01-01", tur:"kurulus", b:"Teke(Tio) halkına ait küçük siyasi birimler 14.yy'da birleşip Anziku(Tio) Krallığı'nı oluşturdu; 1600'e gelindiğinde Kongo Krallığı'nın rakibiydi.", kaynak:"Encyclopaedia Britannica 'Kingdom of Anziku' — WebSearch üzerinden" },
-    { t:"1880-09-10", tur:"toprak", b:"Fransız kâşif Brazza, Eylül 1880'de Teke hükümdarı Makoko İloo I ile antlaşma imzaladı; Teke toprakları üzerinde egemenlik görünüşte Fransa'ya devredildi.", kaynak:"Encyclopaedia Britannica 'Kingdom of Anziku' + Wikipedia 'Anziku Kingdom' çapraz kontrol" },
+    { t:"1880-09-10", tur:"antlasma", b:"Fransız kâşif Brazza, Eylül 1880'de Teke hükümdarı Makoko İloo I ile antlaşma imzaladı; Teke toprakları üzerinde egemenlik görünüşte Fransa'ya devredildi.", kaynak:"Encyclopaedia Britannica 'Kingdom of Anziku' + Wikipedia 'Anziku Kingdom' çapraz kontrol" },
     { t:"1880-10-03", tur:"son", b:"Makoko Brazza ile himaye antlaşması imzaladı" }
   ]
 },
@@ -3041,10 +3041,10 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Njinga'nın krallığı; 1744'te Portekiz'e yenildi.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Matamba krallığı teşekkül etti" },
-    { t:"1630-01-01", tur:"toprak", b:"Ndongo hükümdarı Nzinga Mbande, Portekiz müttefiki rakiplerince sürülünce 1630-32'de Matamba'yı fethedip Portekiz'e karşı savaşının üssü yaptı.", kaynak:"Encyclopaedia Britannica 'Matamba' — DOĞRUDAN açılıp tam madde okundu, teyit edildi" },
+    { t:"1630-01-01", tur:"isgal", b:"Ndongo hükümdarı Nzinga Mbande, Portekiz müttefiki rakiplerince sürülünce 1630-32'de Matamba'yı fethedip Portekiz'e karşı savaşının üssü yaptı.", kaynak:"Encyclopaedia Britannica 'Matamba' — DOĞRUDAN açılıp tam madde okundu, teyit edildi" },
     { t:"1656-01-01", tur:"antlasma", b:"1656 antlaşmasıyla savaş sona erdi, Matamba'nın Portekiz Angola'sıyla sınırı belirlendi.", kaynak:"Encyclopaedia Britannica 'Matamba'" },
     { t:"1744-01-01", tur:"son", b:"Portekiz'e yenilerek tâbi oldu" },
-    { t:"1744-01-01", tur:"toprak", b:"Portekiz kuvvetleri 1744'te Matamba'ya girip ordusunu yendi; Kraliçe Ana II'ye nominal vasallık dayatıldı.", kaynak:"Encyclopaedia Britannica 'Matamba'" }
+    { t:"1744-01-01", tur:"vassal", b:"Portekiz kuvvetleri 1744'te Matamba'ya girip ordusunu yendi; Kraliçe Ana II'ye nominal vasallık dayatıldı.", kaynak:"Encyclopaedia Britannica 'Matamba'" }
   ]
 },
 { id:"ovimbundu", ad:"Ovimbundu Krallıkları (Bailundu · Viye · Vambu)", tur:"krallik", bolge:"orta-afrika",
@@ -3053,7 +3053,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Angola platosunun ticaret krallıkları; Bailundu ayaklanması 1902.",
   kronoloji:[
     { t:"1700-01-01", tur:"kurulus", b:"Ovimbundu krallıkları teşekkül etti" },
-    { t:"1890-01-01", tur:"toprak", b:"Portekiz kuvvetleri 1890'da Bié Krallığı'nı işgal etti.", kaynak:"⚠️ DÜŞÜK GÜVEN — tersiyer kaynak (countrystudies.us/Encyclopedia.com), Britannica/akademik ile teyit edilemedi" },
+    { t:"1890-01-01", tur:"isgal", b:"Portekiz kuvvetleri 1890'da Bié Krallığı'nı işgal etti.", kaynak:"⚠️ DÜŞÜK GÜVEN — tersiyer kaynak (countrystudies.us/Encyclopedia.com), Britannica/akademik ile teyit edilemedi" },
     { t:"1902-01-01", tur:"son", b:"Bailundu ayaklanması bastırıldı" }
   ]
 },
@@ -3063,8 +3063,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kral Mandume 1917'de öldü, bağımsızlık sona erdi.",
   kronoloji:[
     { t:"1600-01-01", tur:"kurulus", b:"Ovambo krallıkları teşekkül etti" },
-    { t:"1870-01-01", tur:"toprak", b:"Fin Luteriyen misyonerleri 1870'te Owambo bölgesine ulaştı, sonra Anglikan/Katolik misyonerler de girdi.", kaynak:"Encyclopaedia Britannica 'Owambo' — DOĞRUDAN açılıp teyit edildi" },
-    { t:"1884-01-01", tur:"toprak", b:"Owambo bölgesi 1884'te Alman İmparatorluğu'nun parçası oldu.", kaynak:"Encyclopaedia Britannica 'Owambo'" },
+    { t:"1870-01-01", tur:"siyaset", b:"Fin Luteriyen misyonerleri 1870'te Owambo bölgesine ulaştı, sonra Anglikan/Katolik misyonerler de girdi.", kaynak:"Encyclopaedia Britannica 'Owambo' — DOĞRUDAN açılıp teyit edildi" },
+    { t:"1884-01-01", tur:"toprak-kayip", b:"Owambo bölgesi 1884'te Alman İmparatorluğu'nun parçası oldu.", kaynak:"Encyclopaedia Britannica 'Owambo'" },
     { t:"1917-02-06", tur:"son", b:"Kral Mandume'nin ölümüyle bağımsızlık sona erdi" }
   ]
 },
@@ -3183,7 +3183,7 @@ window.DEVLETLER = [
   kaynak:"malavi — TDV gövdesi bu turda okundu. TDV malavi: 'Malavi Konfederasyonu 1480'de kuruldu' ve XVI. yüzyılda orta ve güney Malavi'nin çoğuna hâkimdi.",
   kronoloji:[
     { t:"1480-01-01", tur:"kurulus", b:"Maravi konfederasyonu kuruldu" },
-    { t:"1720-01-01", tur:"toprak", b:"Portekizli/Arap tüccarlarla ticaret yapan klan liderleri giderek merkezi karonga otoritesinden bağımsızlaştı; 1720'ye gelindiğinde Maravi Konfederasyonu birkaç özerk gruba bölünmüştü.", kaynak:"Encyclopaedia Britannica 'Maravi Confederacy' — WebSearch üzerinden" },
+    { t:"1720-01-01", tur:"bolunme", b:"Portekizli/Arap tüccarlarla ticaret yapan klan liderleri giderek merkezi karonga otoritesinden bağımsızlaştı; 1720'ye gelindiğinde Maravi Konfederasyonu birkaç özerk gruba bölünmüştü.", kaynak:"Encyclopaedia Britannica 'Maravi Confederacy' — WebSearch üzerinden" },
     { t:"1800-01-01", tur:"son", b:"Yao ve Ngoni baskısıyla dağıldı" }
   ]
 },
@@ -3250,7 +3250,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Orta Zambiya; Kasempa · Mumbva sahası.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Kaonde ve İla toplulukları yerleşti" },
-    { t:"1700-01-01", tur:"toprak", b:"16-17.yy'da yerleşen Kaonde, kuzeydeki Lunda İmparatorluğu'nu üst efendi tanıdı; 18.yy'da özerk Kaonde şeflikleri ortaya çıktı, 19.yy'da Lozi ile savaş/İla'ya köle baskınları.", kaynak:"Encyclopaedia Britannica 'Kaonde' — WebSearch üzerinden" },
+    { t:"1700-01-01", tur:"vassal", b:"16-17.yy'da yerleşen Kaonde, kuzeydeki Lunda İmparatorluğu'nu üst efendi tanıdı; 18.yy'da özerk Kaonde şeflikleri ortaya çıktı, 19.yy'da Lozi ile savaş/İla'ya köle baskınları.", kaynak:"Encyclopaedia Britannica 'Kaonde' — WebSearch üzerinden" },
     { t:"1900-01-01", tur:"son", b:"İngiliz idaresine girdi" }
   ]
 },
@@ -3318,7 +3318,7 @@ window.DEVLETLER = [
   kaynak:"mozambik — TDV gövdesi bu turda okundu. Mutapa'nın doğu kolu; altın sahası; Portekiz-İngiliz paylaşımı 1891.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Manica krallığı teşekkül etti" },
-    { t:"1600-01-01", tur:"toprak", b:"Manyika bölgesindeki altın sahaları en az 17.yy'dan beri işletiliyordu; altın Mozambik kıyısı liman kasabalarına taşınıp Hint/Arap/Portekizli tüccarlarla ticarete konu oluyordu (yalnız 'en az erken 17.yy' biliniyor).", kaynak:"Encyclopaedia Britannica, 'Manyika' — DOĞRUDAN açıldı" },
+    { t:"1600-01-01", tur:"siyaset", b:"Manyika bölgesindeki altın sahaları en az 17.yy'dan beri işletiliyordu; altın Mozambik kıyısı liman kasabalarına taşınıp Hint/Arap/Portekizli tüccarlarla ticarete konu oluyordu (yalnız 'en az erken 17.yy' biliniyor).", kaynak:"Encyclopaedia Britannica, 'Manyika' — DOĞRUDAN açıldı" },
     { t:"1891-01-01", tur:"son", b:"Portekiz-İngiliz sınır antlaşmasıyla bölündü" }
   ]
 },
@@ -3340,7 +3340,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Singo hânedanı; merkezi Dzata; Transvaal fethi 1898.",
   kronoloji:[
     { t:"1700-01-01", tur:"kurulus", b:"Singo hânedanı Dzata'yı kurdu" },
-    { t:"1780-01-01", tur:"toprak", b:"Singo birliğinin kurucusu efsanevi hükümdar Thoho-ya-Ndou'nun ölümüyle veraset savaşı çıktı, krallık iç bölünmeye sürüklendi (kesin yıl kaynakta yok, ~1780 yaklaşık işaret, kuruluştan ~60 yıl sonra).", kaynak:"Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Venda' — DOĞRUDAN WebFetch ile okundu" },
+    { t:"1780-01-01", tur:"ic-savas", b:"Singo birliğinin kurucusu efsanevi hükümdar Thoho-ya-Ndou'nun ölümüyle veraset savaşı çıktı, krallık iç bölünmeye sürüklendi (kesin yıl kaynakta yok, ~1780 yaklaşık işaret, kuruluştan ~60 yıl sonra).", kaynak:"Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Venda' — DOĞRUDAN WebFetch ile okundu" },
     { t:"1867-01-01", tur:"savas", b:"Soutpansberg bölgesindeki ilk beyaz yerleşim kasabası yakıldı; Avrupalı sömürge baskısına karşı direnişin dönüm noktası.", kaynak:"Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Venda'" },
     { t:"1898-01-01", tur:"son", b:"Transvaal seferiyle bağımsızlık sona erdi" }
   ]
@@ -3385,7 +3385,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Beçuanalend İngiliz himayesi 1885-03-31. Şoşong · Serove · Molepolole · Kanye · Moçudi · Maun.",
   kronoloji:[
     { t:"1700-01-01", tur:"kurulus", b:"Tsvana krallıkları teşekkül etti" },
-    { t:"1800-01-01", tur:"toprak", b:"19.yy ilk çeyreğinde 'difakane' (Zulu devletinin yükselişi ve Avrupa ticaretiyle bağlantılı büyük göç/savaş dalgası) Tsvana krallıklarında ciddi siyasi kargaşa ve yer değiştirmelere yol açtı (yalnız '19.yy ilk çeyreği' biliniyor).", kaynak:"Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Tswana' — DOĞRUDAN WebFetch ile okundu" },
+    { t:"1800-01-01", tur:"siyaset", b:"19.yy ilk çeyreğinde 'difakane' (Zulu devletinin yükselişi ve Avrupa ticaretiyle bağlantılı büyük göç/savaş dalgası) Tsvana krallıklarında ciddi siyasi kargaşa ve yer değiştirmelere yol açtı (yalnız '19.yy ilk çeyreği' biliniyor).", kaynak:"Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Tswana' — DOĞRUDAN WebFetch ile okundu" },
     { t:"1885-03-31", tur:"son", b:"Beçuanalend himayesi ilân edildi" }
   ]
 },
@@ -3985,7 +3985,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Moundville merkezi Black Warrior kıyısında", ic_not_b:"eski b: Moundville merkezi Black Warrior kıyısında (atlas ufku)" },
     { t:"1450-01-01", tur:"son", b:"Merkez boşaldı" },
-    { t:"1450-01-01", tur:"toprak", b:"1350-1450 arası höyük inşası ve merkezi ritüel faaliyet azaldı, halk dağıldı, yerleşim önemini kaybetti.", kaynak:"Encyclopedia of Alabama, 'Mississippian Period' — doğrudan WebFetch ile okundu" }
+    { t:"1450-01-01", tur:"toprak-kayip", b:"1350-1450 arası höyük inşası ve merkezi ritüel faaliyet azaldı, halk dağıldı, yerleşim önemini kaybetti.", kaynak:"Encyclopedia of Alabama, 'Mississippian Period' — doğrudan WebFetch ile okundu" }
   ]
 },
 { id:"spiro", ad:"Spiro", tur:"devlet", bolge:"kuzey-amerika",
@@ -6272,7 +6272,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1911-10-10", tur:"kurulus", b:"Wuchang ayaklanması: Qing hanedanına karşı devrim başladı" },
     { t:"1912-02-12", tur:"siyaset", b:"Son imparator Puyi tahttan çekildi, Qing hanedanı sona erdi" },
-    { t:"1912-11-01", tur:"toprak", b:"Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilân etti" },
+    { t:"1912-11-01", tur:"toprak-kayip", b:"Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilân etti" },
     { t:"1916-06-06", tur:"siyaset", b:"Yuan Shikai'nin ölümü: savaş ağaları dönemi başladı" }
   ]
 },
@@ -6327,7 +6327,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1262-01-01", tur:"vassal", b:"İzlanda'nın önde gelen şefleri Eski Antlaşma (Gamli sáttmáli) ile Norveç Kralı IV. Haakon'a bağlılık yemini etti; katılım süreci hukuken 1281'de Jónsbók'la tamamlandı (Sverrir Jakobsson, Scandinavian Journal of History 46:5, 2021)", ic_not_b:"eski b: İzlanda'nın önde gelen şefleri Eski Antlaşma (Gamli sáttmáli) ile Norveç Kralı IV. Haakon'a bağlılık yemini etti; katılım süreci hukuken 1281'de Jónsbók'la tamamlandı (Sverrir Jakobsson, Scandinavian Journal of History 46:5, 2021 — hakemli)" },
-    { t:"1537-01-01", tur:"toprak", b:"Reformla birlikte ada Danimarka'nın doğrudan idaresine girdi" },
+    { t:"1537-01-01", tur:"siyaset", b:"Reformla birlikte ada Danimarka'nın doğrudan idaresine girdi" },
     { t:"1602-04-20", tur:"antlasma", b:"Danimarka Kralı IV. Christian, İzlanda'nın dış ticaretini Danimarkalı tüccarlara tahsis eden fermanla tekel kurdu; ada 1787'ye kadar izole bir tekel rejiminde kaldı (Gísli Gunnarsson, 'Monopoly Trade and Economic Stagnation', Lund 1983)", ic_not_b:"eski b: Danimarka Kralı IV. Christian, İzlanda'nın dış ticaretini Danimarkalı tüccarlara tahsis eden fermanla tekel kurdu; ada 1787'ye kadar izole bir tekel rejiminde kaldı (Gísli Gunnarsson, 'Monopoly Trade and Economic Stagnation', Lund 1983; gün düşük güvenle)" },
     { t:"1918-12-01", tur:"kurulus", b:"İzlanda Krallığı: Danimarka ile şahsî birlik, egemen devlet statüsü" }
   ]
@@ -6798,7 +6798,7 @@ window.DEVLETLER = [
   kaynak:"yetersiz — borneo maddesi okundu, Kutai'yi Bancermasin/Sukadana/Sambas'la birlikte İSİM düzeyinde anıyor ama somut tarih/olay vermiyor; dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1575-01-01", tur:"kurulus", b:"Kutai Kartanegara hükümdarı Aji Raja Mahkota Mulia Alam İslâm'ı kabul etti; sultanlığın İslâmî dönemi başladı (künyenin f: tarihiyle birebir örtüşüyor).", kaynak:"Muhammad Sarip, Histori Kutai (RV Pustaka Horizon, Samarinda, 2023) — Wikipedia 'Sultanate of Kutai' üzerinden erişildi, birincil metin doğrudan okunmadı" },
-    { t:"1635-01-01", tur:"toprak", b:"Kutai Kartanegara, eski Hindu krallığı Kutai Martapura'yı (Muara Kaman) savaşla yenip topraklarına kattı; birleşik devlet 'Kutai Kartanegara ing Martapura' adını aldı.", kaynak:"Muhammad Sarip (2023); Sarip & Sheilla, Historipedia Kalimantan Timur (2024) — aynı yolla erişildi" },
+    { t:"1635-01-01", tur:"toprak-kazanc", b:"Kutai Kartanegara, eski Hindu krallığı Kutai Martapura'yı (Muara Kaman) savaşla yenip topraklarına kattı; birleşik devlet 'Kutai Kartanegara ing Martapura' adını aldı.", kaynak:"Muhammad Sarip (2023); Sarip & Sheilla, Historipedia Kalimantan Timur (2024) — aynı yolla erişildi" },
     { t:"1908-01-01", tur:"son", b:"Hollanda'nın Kutai üzerinde tam doğrudan denetimi", ic_not_b:"eski b: Hollanda'nın Kutai üzerinde tam doğrudan denetimi (yıl beyanı)" }
   ]
 },
@@ -6936,7 +6936,7 @@ window.DEVLETLER = [
   kaynak:"Mevcut 'gran-kolombiya' künyesinin t: tarihiyle BİREBİR hizalandı. NOT: bu tek künye 1831-1858 'Yeni Granada', 1863-1886 'Kolombiya Birleşik Devletleri', 1886 sonrası 'Kolombiya Cumhuriyeti' adlarını taşıyan SÜREKLİ siyasî hat — ayrım istenirse söyle.",
   kronoloji:[
           { t:"1831-01-01", tur:"kurulus", b:"Gran Kolombiya'dan geriye kalan kisim Yeni Granada adiyla devam etti", kaynak:"TDV-AM — AYNEN: «geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti. Bu tarihte de cumhuriyet ilan edilerek Kolombiya adini aldi»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor ve KUNYE ILE AYRISIYOR — TDV'ye gore 'Kolombiya' adi 1863'te alindi, kunyenin f: degeri ise 1831-01-01 (birligin dagildigi an). Kunye gunu korundu, ayrim burada YAZILI." },
-          { t:"1903-11-03", tur:"toprak", b:"Panama, ABD desteğiyle Kolombiya'dan ayrılarak bağımsızlığını ilan etti; Kolombiya Panama Kıstağı'nı kalıcı olarak kaybetti.", kaynak:"Encyclopaedia Britannica ile örtüşen WebSearch + Wikipedia 'Secession of Panama from Colombia' — teyitli" }
+          { t:"1903-11-03", tur:"toprak-kayip", b:"Panama, ABD desteğiyle Kolombiya'dan ayrılarak bağımsızlığını ilan etti; Kolombiya Panama Kıstağı'nı kalıcı olarak kaybetti.", kaynak:"Encyclopaedia Britannica ile örtüşen WebSearch + Wikipedia 'Secession of Panama from Colombia' — teyitli" }
         ]
 },
 { id:"brezilya-cumhuriyeti", ad:"Brezilya Birleşik Devletleri Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
@@ -7084,7 +7084,7 @@ window.DEVLETLER = [
   kaynak:"World History Encyclopedia, 'Chimu Civilization' — devlet 14.yy ilk yarısında şekillendi (bazı kaynaklar ~850 diyor, ANLAŞMAZLIK VAR), atlas ufku 1281'e hizalandı. Bitiş: İnka fethi 1460-1470 arası, VERİYLE ÖRTÜŞÜYOR (veri t:1470).",
   kronoloji:[
           { t:"1470-01-01", tur:"son", b:"Chimu, Pachacuti Inca Yupanqui doneminde Inka'ya tabi kilindi", kaynak:"EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin and north to present-day Quito, making subject peoples of the powerful Chanca, the Quechua, and the Chimú»  ⚠️ TARIH HASSASIYETI: kaynak bir ARALIK veriyor (1438-71), tek yil VERMIYOR. Tarih kunyenin kendi t: degeridir (1470) ve o aralik icindedir, ama kaynaktan DOGRULANMADI." },
-          { t:"1470-01-01", tur:"toprak", b:"İnka İmparatoru Tupac İnka Yupanki, Chimor Krallığı'nı fethetti; kral Minchançaman esir alınıp Cuzco'ya götürüldü, Chimú İnka'ya bağlı vasal devlete dönüştü.", kaynak:"Encyclopedia.com 'Chimú' — doğrudan WebFetch ile okundu ve teyit edildi" }
+          { t:"1470-01-01", tur:"vassal", b:"İnka İmparatoru Tupac İnka Yupanki, Chimor Krallığı'nı fethetti; kral Minchançaman esir alınıp Cuzco'ya götürüldü, Chimú İnka'ya bağlı vasal devlete dönüştü.", kaynak:"Encyclopedia.com 'Chimú' — doğrudan WebFetch ile okundu ve teyit edildi" }
         ]
 },
 { id:"colla-krallik", ad:"Colla (Qulla) Krallığı", tur:"krallik", bolge:"guney-amerika",
@@ -7093,7 +7093,7 @@ window.DEVLETLER = [
   kaynak:"Standart akademik — 12.yy'dan 15.yy ortasına kadar var oldu (Tiwanaku-sonrası Titicaca bölgesi), atlas ufku 1281'e hizalandı. VERİYLE BİREBIR ÖRTÜŞÜYOR.",
   kronoloji:[
           { t:"1450-01-01", tur:"son", b:"Titicaca Havzasi Pachacuti doneminde Inka fethine ugradi", kaynak:"EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin»  🔴 KAYNAK 'Colla' ADINI ANMIYOR. Titicaca Havzasi ile Colla krallıgi arasindaki bag BENIM CIKARIMIMDIR, kaynakta yazmiyor. Tarih (1450) kunyenin kendi t: degeridir; kaynak yalniz 1438-71 araligi veriyor." },
-          { t:"1450-01-01", tur:"toprak", b:"İnka hükümdarı Pachacuti, Colla Krallığı'nı fethetti; Colla beyi Chuqui Capac Hatunqulla yakınında yenilip esir alındı.", kaynak:"Rostworowski, María (2001), 'Pachacútec Inca Yupanqui', Instituto de Estudios Peruanos, ss.156-159, 93-94, 101 (Wikipedia atfı üzerinden doğrulandı)" }
+          { t:"1450-01-01", tur:"isgal", b:"İnka hükümdarı Pachacuti, Colla Krallığı'nı fethetti; Colla beyi Chuqui Capac Hatunqulla yakınında yenilip esir alındı.", kaynak:"Rostworowski, María (2001), 'Pachacútec Inca Yupanqui', Instituto de Estudios Peruanos, ss.156-159, 93-94, 101 (Wikipedia atfı üzerinden doğrulandı)" }
         ]
 },
 { id:"lupaqa-krallik", ad:"Lupaqa Krallığı", tur:"krallik", bolge:"guney-amerika",
@@ -7137,7 +7137,7 @@ window.DEVLETLER = [
   kaynak:"Standart akademik — çoklu bağımsız şehir-devlet sistemi, TEK kuruluş tarihi olamaz (doğası gereği). Bitiş: Tenochtitlan'ın düşüşü, VERİYLE ÖRTÜŞÜYOR (veri en geç t:1521-08-13, Tlaxcala/Huexotzinco).",
   kronoloji:[
           { t:"1325-01-01", tur:"kurulus", b:"Mexica'lar göl ortasındaki adada Tenochtitlan'ı kurdu, Nahua altepetl sisteminin merkezi oldu", kaynak:"TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter — boilerplate DEĞİL, ölçüldü) — gövdede AYNEN: «1325 yılında Tenoçtitlan (bugünkü Mexico City) şehrini kuran Aztekler İspanyollar'ın saldırılarına kadar medeniyetlerini sürdürdüler.» 🔴 GÜN BİLİNMİYOR — YYYY-01-01." },
-          { t:"1428-01-01", tur:"toprak", b:"Tenochtitlan, Texcoco ve Tlacopan arasında Üçlü İttifak (Aztek İmparatorluğu) kuruldu; Meksika Vadisi'ndeki 40-50 bağımsız Nahua şehir-devletinin çoğu Tenochtitlan hegemonyasına girdi.", kaynak:"History.com, 'How the Aztec Empire Was Forged Through a Triple Alliance' — standart kabul gören tarih" },
+          { t:"1428-01-01", tur:"vassal", b:"Tenochtitlan, Texcoco ve Tlacopan arasında Üçlü İttifak (Aztek İmparatorluğu) kuruldu; Meksika Vadisi'ndeki 40-50 bağımsız Nahua şehir-devletinin çoğu Tenochtitlan hegemonyasına girdi.", kaynak:"History.com, 'How the Aztec Empire Was Forged Through a Triple Alliance' — standart kabul gören tarih" },
           { t:"1521-08-13", tur:"son", b:"Tenochtitlan'ın düşmesiyle bağımsız Nahua şehir-devletleri düzeni sona erdi", kaynak:"TDV `amerika` — gövdede AYNEN: «1519'da Meksika'yı almak için başlattıkları savaşta Aztek İmparatorluğu'nu da yıkarak iki yıl içerisinde bölgeye yerleştiler (1521).» 🟡 YIL doğrulandı; 13 Ağustos GÜNÜ künyenin kendi t: alanından devralındı, TDV gün vermiyor." }
         ]
 },
@@ -7404,7 +7404,7 @@ window.DEVLETLER = [
   kaynak:"TDV, madde: suriye — \"Fransız işgali, iki yıl sonra Milletler Cemiyeti'nin onayıyla resmen manda yönetimine dönüştü\" · \"Suriye'de Faysal dönemi sona erdi\" (Han Meyselûn, Temmuz 1920). Gün TDV'de VERİLMİYOR, yalnız ay/yıl — f: bu yüzden ayın 1'ine değil, TDV'nin verdiği AYA sabitlendi.",
   kronoloji:[
     { t:"1920-07-24", tur:"kurulus", b:"Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verildi, Fransız askerî idaresi başladı", kaynak:"TDV suriye (künyenin kendi kaynak alanından devralındı)" },
-    { t:"1922-07-24", tur:"toprak", b:"Milletler Cemiyeti, Fransa'nın Suriye-Lübnan mandasını resmen onayladı", kaynak:"künyenin kendi ozet alanı ('~1922 MC onayı') — gün standart akademik kaynaktan (Fransız mandası Konseyi onayı 24 Temmuz 1922), ayrıca doğrulanmalı" }
+    { t:"1922-07-24", tur:"siyaset", b:"Milletler Cemiyeti, Fransa'nın Suriye-Lübnan mandasını resmen onayladı", kaynak:"künyenin kendi ozet alanı ('~1922 MC onayı') — gün standart akademik kaynaktan (Fransız mandası Konseyi onayı 24 Temmuz 1922), ayrıca doğrulanmalı" }
   ] },
 { id:"filistin-mandasi", ad:"İngiliz Filistin Mandası", bolge:"arabistan", f:"1920-07-01", t:"1948-05-14",
   ozet:"Aralık 1917 askerî işgalinin ardından Temmuz 1920'de mülkî idareye dönüşen, 24 Temmuz 1922'de Milletler Cemiyeti'nce resmen onaylanan İngiliz mandası; 1948'e dek (site ufkunun dışında) sürdü.",
@@ -7433,7 +7433,7 @@ window.DEVLETLER = [
   kaynak:"🟢🟢 DÜZELTİLDİ (5 Eylül, M-2919 turu) — TDV 'misir' maddesi (CANLI, raw HTML) AYNEN: \"Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı ve Mısır'da monarşi ilân edildi.\" GÜN hassasiyetinde. Eski turdaki 'iki tarih arasında karar veremedim' belirsizliği ÇÖZÜLDÜ — bkz. misir-sultanligi'nin `not:` alanı.",
   kronoloji:[
     { t:"1922-03-15", tur:"kurulus", b:"Ahmed Fuâd kral (melik) unvanını aldı, Mısır'da monarşi ilân edildi", kaynak:"TDV misir (künyenin kendi kaynak alanından, raw HTML doğrulanmış)" },
-    { t:"1952-07-26", tur:"toprak", b:"Hür Subaylar darbesiyle Kral Faruk tahttan indirildi (oğlu II. Fuad adına naiplik dönemi başladı)", kaynak:"standart akademik/ansiklopedik (1952 Mısır Devrimi) — TDV kapsam dışı bu tarih için, ayrıca doğrulanmalı" },
+    { t:"1952-07-26", tur:"hukumdar", b:"Hür Subaylar darbesiyle Kral Faruk tahttan indirildi (oğlu II. Fuad adına naiplik dönemi başladı)", kaynak:"standart akademik/ansiklopedik (1952 Mısır Devrimi) — TDV kapsam dışı bu tarih için, ayrıca doğrulanmalı" },
     { t:"1953-06-18", tur:"son", b:"Mısır Cumhuriyeti ilan edildi, monarşi resmen kaldırıldı", kaynak:"standart akademik/ansiklopedik — künyenin t: alanıyla (1953-06-18) birebir uyumlu" }
   ] },
 { id:"tannu-tuva", ad:"Tannu Tuva Halk Cumhuriyeti", bolge:"sibirya-bozkir", f:"1921-08-14", t:"1923-10-29",
@@ -7479,8 +7479,8 @@ window.DEVLETLER = [
   kaynak:"🔴 TDV 'air' YANILTICI ÇIKTI — o madde Medine yakınındaki bir DAĞ hakkında (Âir dağı, hadis bağlamı), Agadez/Aïr Sultanlığı İLE İLGİSİ YOK (200≠madde tuzağı, raw HTML okunarak elendi). 'agades' TDV'de 302 ÖLÜ. TDV bu coğrafyayı (Batı Afrika Sahra-altı) kapsamıyor. Standart akademik: Britannica 'Agadez' + Wikipedia 'Sultanate of Agadez'.",
   kronoloji:[
     { t:"1405-01-01", tur:"kurulus", b:"Tuaregler tarafından Aïr Dağları'nda Agadez Sultanlığı kuruldu (yıl biliniyor, gün bilinmiyor).", kaynak:"Minahan, Encyclopedia of Stateless Nations (2016) — WebSearch özetinden, birincil metin doğrudan açılamadı" },
-    { t:"1500-01-01", tur:"toprak", b:"Agadez Sultanlığı Songhay İmparatorluğu tarafından fethedildi ve bağımsızlığını kaybetti.", kaynak:"Minahan (2016), a.g.e. — WebSearch özetinden" },
-    { t:"1591-01-01", tur:"toprak", b:"Songhay İmparatorluğu'nun (Fas istilasıyla) yıkılmasının ardından Agadez Sultanlığı yeniden bağımsızlığına kavuştu.", kaynak:"Minahan (2016), a.g.e. — WebSearch özetinden" }
+    { t:"1500-01-01", tur:"isgal", b:"Agadez Sultanlığı Songhay İmparatorluğu tarafından fethedildi ve bağımsızlığını kaybetti.", kaynak:"Minahan (2016), a.g.e. — WebSearch özetinden" },
+    { t:"1591-01-01", tur:"toprak-kazanc", b:"Songhay İmparatorluğu'nun (Fas istilasıyla) yıkılmasının ardından Agadez Sultanlığı yeniden bağımsızlığına kavuştu.", kaynak:"Minahan (2016), a.g.e. — WebSearch özetinden" }
   ] },
 { id:"kesiri-sultanligi", ad:"Kesîrî Sultanlığı (Hadramut iç kesimi)", bolge:"arabistan", f:"1450-01-01", t:"1967-11-30",
   ozet:"Hadramut vadisinin iç kesimine (Sayvan, zaman zaman Terîm/Şibâm) hâkim olan Kesîrî kabilesi; 1538'de nominal Osmanlı sancağı ilan edilen dönemde bile 'idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi'; 1888 İngiliz-Yâfiî/Kuaytî himaye antlaşmasından sonra da İngilizler 'iç bölgeleri Kesîrîler'e bıraktı', yani kıyı gibi doğrudan himayeye girmedi.",
@@ -7494,7 +7494,7 @@ window.DEVLETLER = [
   kaynak:"TDV, madde: hadramut (CANLI) — \"İngilizler Yâfiîler'i destekleyerek onların 1881 sonunda Şihr ve Mükellâ dahil bütün Hadramut sahilini ele geçirmelerini sağladılar ... 1888'de imzaladıkları himaye antlaşmasıyla ... Yâfiîler'in dış ilişkilerini tamamen üzerlerine aldılar.\" Britannica 'Qu'aiti sultanate' ile eşleşti. 🟡 f: 1881-01-01 — TDV '1881 sonunda' diyor (gün yok), YIL kullanıldı.",
   kronoloji:[
     { t:"1881-01-01", tur:"kurulus", b:"Ömer b. Avad el-Kuaytî İngiliz desteğiyle Şihr ve Mükellâ dahil Hadramut kıyısının tamamını ele geçirdi", kaynak:"TDV hadramut (künyenin kendi kaynak alanından)" },
-    { t:"1888-01-01", tur:"toprak", b:"İngiliz himaye antlaşması imzalandı: dış ilişkiler İngiltere'ye geçti, iç idare Kuaytî'de kaldı", kaynak:"TDV hadramut (künyenin kendi kaynak alanından)" },
+    { t:"1888-01-01", tur:"vassal", b:"İngiliz himaye antlaşması imzalandı: dış ilişkiler İngiltere'ye geçti, iç idare Kuaytî'de kaldı", kaynak:"TDV hadramut (künyenin kendi kaynak alanından)" },
     { t:"1967-11-30", tur:"son", b:"Güney Yemen'in bağımsızlığıyla İngiliz himayesindeki Hadramut sultanlıkları (Kuaytî dahil) tarihe karıştı", kaynak:"standart akademik/ansiklopedik (South Arabia'nın bağımsızlığı, 30 Kasım 1967) — künyenin t: alanıyla birebir uyumlu" }
   ] },
 { id:"ammarogullari", ad:"Ammâroğulları (Trablusgarp)", tur:"beylik", bolge:"kuzey-afrika", f:"1327-01-01", t:"1401-01-01",
@@ -7517,8 +7517,8 @@ window.DEVLETLER = [
   kaynak:"kruya",
   kronoloji:[
     { t:"1363-01-01", tur:"kurulus", b:"Charles Thopia Kruya'ya (Akçahisar) hâkim oldu", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" },
-    { t:"1392-01-01", tur:"toprak", b:"Charles'ın oğlu ve halefi George'un ölümüyle Kruya elden çıktı; kız kardeşi Helena Venedikli Barbadigo ile evlendi", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" },
-    { t:"1394-01-01", tur:"toprak", b:"Osmanlı vasali olarak Sırp Prensi Konstantin Balšić Kruya'ya getirildi", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" },
+    { t:"1392-01-01", tur:"toprak-kayip", b:"Charles'ın oğlu ve halefi George'un ölümüyle Kruya elden çıktı; kız kardeşi Helena Venedikli Barbadigo ile evlendi", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" },
+    { t:"1394-01-01", tur:"toprak-kayip", b:"Osmanlı vasali olarak Sırp Prensi Konstantin Balšić Kruya'ya getirildi", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" },
     { t:"1415-01-01", tur:"son", b:"Nikola Thopia Kruya'yı ailesi adına geri aldı ve aynı yıl ölümüne kadar elinde tuttu", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" }
   ] },
 { id:"dukagin", ad:"Dukagin (Dukagjini) Prensliği", tur:"prenslik", bolge:"balkanlar", f:"1387-01-01", t:"1479-01-25",
@@ -7532,14 +7532,14 @@ window.DEVLETLER = [
   ozet:"Hürmüz Boğazı'nı ve Basra Körfezi ağzındaki deniz ticaretini denetleyen bağımsız bir sultanlık. TDV: 14. yüzyılda \"hür, güzel, hareketli bir ticaret şehri\" ve İzki, Suhâr, Hûr Fakkân ile Kelbâ ona bağlıydı — yani kendi tâbileri olan bir siyasî yapı. 1507'de Albuquerque adayı kuşattı fakat alamadan döndü; yedi yıl sonra Şah İsmâil'in Osmanlı ile ihtilâfından yararlanarak adayı ele geçirdi ve İran'a tâbi olan sultanı Portekiz hâkimiyeti altına soktu (1514). ⚠️ f:1281-01-01 BİR KAYNAK İDDİASI DEĞİLDİR — TDV \"14. yüzyıl\" diyor, gün ya da yıl vermiyor; 1281 atlas penceresinin başıdır ve bu alan o yüzden buraya çekilmiştir. t:1514 ise kaynakta AÇIKÇA vardır.",
   kaynak:"hurmuz--iran",
   kronoloji:[
-    { t:"1507-01-01", tur:"toprak", b:"Portekizliler Uman ve Hürmüz sahil şehirlerini ele geçirmeye başladı; Memlük donanması bu ilerleyişi durduramadı", kaynak:"künyenin kendi kaynak alanı (TDV hurmuz--iran / uman)" },
+    { t:"1507-01-01", tur:"toprak-kayip", b:"Portekizliler Uman ve Hürmüz sahil şehirlerini ele geçirmeye başladı; Memlük donanması bu ilerleyişi durduramadı", kaynak:"künyenin kendi kaynak alanı (TDV hurmuz--iran / uman)" },
     { t:"1514-01-01", tur:"son", b:"Şah İsmâil'in Osmanlı ile ihtilâfından yararlanan Portekiz, İran'a tâbi Hürmüz sultanını hâkimiyeti altına aldı", kaynak:"künyenin kendi kaynak alanı (TDV hurmuz--iran)" }
   ] },
 { id:"norse-gronland", ad:"Norse Grönland (Vestribygð–Eystribygð)", tur:"devlet", bolge:"kuzey-amerika", f:"1281-01-01", t:"1450-01-01",
   ozet:"Grönland'ın güneybatı kıyısındaki iki İskandinav yerleşim bölgesi — güneyde Eystribygð (Doğu Yerleşimi) ve yaklaşık 400 km kuzeydeki Vestribygð (Batı Yerleşimi). 1261'den itibaren Norveç tacına bağlıydı; Batı Yerleşimi ~1360'ta, Doğu Yerleşimi 1400-1450 arasında terk edildi ve Grönland'daki İskandinav varlığı sona erdi. 🔴 `f:1281-01-01` ATLAS PENCERESİNİN BAŞIDIR, KURULUŞ DEĞİLDİR — yerleşim ~985'te kuruldu, yani pencereden yaklaşık üç yüzyıl önce. 🔴 SİYASÎ BAĞLILIK NORVEÇ TACINADIR, coğrafî konum Kuzey Amerika'dır; `bolge:kuzey-amerika` COĞRAFÎ bir alandır, siyasî bağlılık DEĞİL. 🟡 Bu künye `danimarka`nın kapsamına GİRMEZ: Danimarka-Norveç birliği 1380/1397'dedir ve künyenin ilk yüzyılını kapsamaz — kimlik bu yüzden ayrı açıldı.",
   kaynak:"Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» + Cambridge History of the Polar Regions, «The Norse Settlement of Greenland» + Cambridge, «The Vanished Settlers of Greenland» — AYNEN: «two Norse settlements were established on the western coast of Greenland, one in the south known as the “Eastern Settlement” and one about 400 km further north, near what is now the modern capital of Nuuk, and known as the “Western Settlement”» · «The Western Settlement seems to have been abandoned around AD 1360, and the Eastern Settlement sometime in the 1500s, with this dated to between AD 1400 to 1450.» 🔴 KAYNAK KENDİ İÇİNDE ÇELİŞİYOR ve gizlemiyorum: aynı cümle Doğu Yerleşimi'nin terki için hem «sometime in the 1500s» hem «between AD 1400 to 1450» diyor. `t:` için AÇIKÇA TARİHLENEN aralığın (1400-1450) GEÇ ucu alındı — bu bir SEÇİMDİR, kaynakta tek tarih YOK. 🔴 GÜN YAZILMADI: kaynak yıl bile vermiyor, aralık veriyor ⇒ YYYY-01-01. Hassasiyet kaynağı aşmadı.",
   kronoloji:[
-    { t:"1350-01-01", tur:"toprak", b:"Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon verilerine göre büyük olasılıkla ~1342).", kaynak:"Smithsonian Magazine, 'Why Did Greenland's Vikings Vanish?' — arkeolojik araştırmalara dayanan güncel makale" },
+    { t:"1350-01-01", tur:"toprak-kayip", b:"Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon verilerine göre büyük olasılıkla ~1342).", kaynak:"Smithsonian Magazine, 'Why Did Greenland's Vikings Vanish?' — arkeolojik araştırmalara dayanan güncel makale" },
     { t:"1360-01-01", tur:"toprak-kayip", b:"Vestribygð (Batı Yerleşimi) terk edildi", kaynak:"Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» + Cambridge History of the Polar Regions, «The Norse Settlement of Greenland» + Cambridge, «The Vanished Settlers of Greenland» — AYNEN: «The Western Settlement seems to have been abandoned around AD 1360». 🟡 Kaynak «around» diyor ⇒ yıl YAKLAŞIK. 🔴 GÜN YOK." },
     { t:"1450-01-01", tur:"son", b:"Eystribygð (Doğu Yerleşimi) terk edildi, Grönland'daki İskandinav varlığı sona erdi", kaynak:"Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» + Cambridge History of the Polar Regions, «The Norse Settlement of Greenland» + Cambridge, «The Vanished Settlers of Greenland» — «the Eastern Settlement … dated to between AD 1400 to 1450». 🔴 ARALIĞIN GEÇ UCU alındı, ve aynı cümledeki «1500s» okuması ÇÜRÜTÜLMEDİ, yalnız kullanılmadı." }
   ] },
@@ -7570,15 +7570,15 @@ window.DEVLETLER = [
   ozet:"Cemisgezek merkezli yerel Zaza (Melkisi) beyligi. Karabulut: Memluklerin 1281'de Mogol nufuzunu kirmasi uzerine \"Melkisi Cemisgezek Beyleri … gucsuz kalan Mogol valilerinden topraklarini GERI ALDILAR\" ve \"Mogol hakimiyetinin kalkmasi neticesinde yerli hanedanlar Akkoyunlular ile Karakoyunlular'in bolgede hakimiyet kurmalarina kadar KENDI BOLGELERINI YONETTILER\" (Karabulut 2013:142). Cemisgezek-Ulukale makalesi bagimsiz olarak: \"Anadolu Selcuklu Devleti, Cemisgezek'i 1200'lu yillarin basinda beylik merkezi haline getirmistir. Cemisgezek Beyligi, Kanuni Sultan Suleyman zamanina kadar mevcudiyetini surdurmustur.\" Beyin ADI bir vekayi'nameden (Yelman, Mutahharten devri), ESERI bir mimari kayittan (Yelmaniye Medresesi, Emir Taceddin Yelman b. Keykubat b. Halit el-Kurdi, H.800-809) dogrulaniyor.",
   kaynak:"🟢 AKADEMIK TUR YAPILDI (M-2912 sevki), `pypdf` ile — WebFetch'e SORULMADI (bu sabah onun 'cikarilamadi'si UC PDF'te de yanlis cikti). (1) Serdar KARABULUT, \"Osmanlilarin Dogu ve Guneydogu Anadolu'yu Ilhakinda Bir Halk: Zazalar\", Munzur Univ. Sosyal Bilimler Dergisi 7(14), 2019, s.76-93 — dayanaklari Serefhan 2010 (Serefname), Ibn Bibi 1956, Paydas 2003, Karabulut 2013. (2) \"Cemisgezek-Ulukale Koyu'nun Tarihsel Yerlesim Dokusu\", Firat Univ. Sosyal Bilimler Dergisi. (3) Esterabadi 1928:369, Toksoy uzerinden. 🔴 PENCERE CINSI: `f:1281-01-01` BIR KURULUS TARIHI DEGIL, ATLAS PENCERESININ BASIDIR — beylik ondan ONCE vardir ve bu iki bagimsiz kaynakla sabittir.",
   kronoloji:[
-    { t:"1281-01-01", tur:"toprak", b:"Memlüklerin Moğol nüfuzunu kırmasıyla Cemişgezek Beyleri (Melkîsî) topraklarını zayıflayan Moğol valilerinden geri aldı", kaynak:"künyenin kendi kaynak alanı (Karabulut 2019, Munzur Üniv. Sosyal Bilimler Dergisi)" },
-    { t:"1420-01-01", tur:"son", b:"Künyenin t: alanı burada kapanıyor AMA akademik kaynak (Fırat Üniv. makalesi) beyliğin 'Kanuni Sultan Süleyman zamanına kadar' (yani 16. yy'a kadar) sürdüğünü söylüyor — İKİ KAYNAK ARASINDA ~110 YIL FARK VAR, çözülmedi", kaynak:"🔴 ÇELİŞKİ — künyenin t: değeri (1420) ile aynı künyenin kendi kaynak alanındaki akademik atıf (Süleyman dönemi) UYUŞMUYOR; D-KUNYE bunu ÇÖZMEDİ, UYGULA/HARITA-VERI karar versin" }
+    { t:"1281-01-01", tur:"toprak-kazanc", b:"Memlüklerin Moğol nüfuzunu kırmasıyla Cemişgezek Beyleri (Melkîsî) topraklarını zayıflayan Moğol valilerinden geri aldı", kaynak:"künyenin kendi kaynak alanı (Karabulut 2019, Munzur Üniv. Sosyal Bilimler Dergisi)" },
+    { t:"1420-01-01", tur:"son", b:"Akkoyunlu beyi Kara Yülük Osman Bey Çemişgezek'i Melkişî beyi Şeyh Hasan'dan aldı; beyliğin kendi başına idaresi sona erdi. Beylik bundan sonra Akkoyunlular'a, Çaldıran'ın (1514) ardından Osmanlılar'a bağlı olarak Kanûnî devrine kadar sürdü.", kaynak:"Karabulut 2013:142-145 ve 2019 (Munzur Üniv.) — 1420 alımı kaynakta 'görülmektedir' diye verilir; bağlı devam: Karabulut 2013:145, TDV tunceli (Osmanlı'ya katılış Çaldıran sonrası), 'Çemişgezek-Ulukale' (Fırat Üniv.)" }
   ] }
 ,
 { id:"orta-macar-kralligi", ad:"Orta Macar Krallığı (Tököli İmre)", bolge:"orta-avrupa", f:"1682-09-16", t:"1688-01-17",
   ozet:"Osmanlı Devleti'nin Habsburglara karşı Kuzey Macaristan'da kurdurduğu vasal krallık. İmre Tököli 1682'de Osmanlı desteğiyle kral ilân edildi; II. Viyana bozgunundan sonra Osmanlılar onu yenilgiden sorumlu tutup 15 Ekim 1685'te tutukladı. Krallığın son kalesi Munkács, Tököli'nin eşi Ilona Zrínyi'nin idaresinde 1688 başına kadar direndi.",
   kaynak:"TDV `tokoli-imre` — madde başlığı polity'yi ADIYLA doğruluyor: «TÖKÖLİ, İmre (ö. 1705) Osmanlılar'a bağlı Orta Macar kralı ve Erdel prensi». 🟢 TDV DOĞRULADI: «15 Ekim 1685'te Serdar Melek İbrâhim Paşa'nın emriyle Varad Beylerbeyi Ahmed Paşa kendisine yardım için gelen İmre Tököli'yi yakalattı.» 🔴 AMA O GÜN `t:` DEĞİL: kapsama sınavım künyeyi ÇÜRÜTTÜ — veri `1688-01-17`ye kadar gidiyor (Ilona Zrínyi'nin Munkács'ı). Tököli'nin TUTUKLANMASI polity'nin SONU değil; `t:` veriye göre açıldı ve o gün kaynaksız. ⇒ `§11` «veri penceresi ile künye penceresi AYRI şeylerdir» dersinin canlı vakası. 🟡 `f:` VERİDEN DEVRALINDI — TDV «1682 başında» ve «mayıs başında» diyor, 16 Eylül gününü VERMİYOR.",
   kronoloji:[
-    { t:"1685-10-15", tur:"toprak", b:"II. Viyana bozgunu sonrası Osmanlılar Tököli'yi yenilgiden sorumlu tutup Varad'da tutuklattı", kaynak:"künyenin kendi kaynak alanı (TDV tokoli-imre, AYNEN alıntı)" },
+    { t:"1685-10-15", tur:"siyaset", b:"II. Viyana bozgunu sonrası Osmanlılar Tököli'yi yenilgiden sorumlu tutup Varad'da tutuklattı", kaynak:"künyenin kendi kaynak alanı (TDV tokoli-imre, AYNEN alıntı)" },
     { t:"1688-01-17", tur:"son", b:"Krallığın son kalesi Munkács, Tököli'nin eşi Ilona Zrínyi'nin idaresinde bu tarihe kadar direndikten sonra düştü", kaynak:"künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı" }
   ] },
 { id:"arvanid-sancagi", ad:"Arvanid Sancağı (Arnavut-ili)", bolge:"balkanlar", f:"1415-01-01", t:"1537-08-25",
@@ -7592,7 +7592,7 @@ window.DEVLETLER = [
   ozet:"Mekke'yi ve Hicaz'ın kutsal şehirlerini idare eden Hâşimî şerifleri. 1517'de Osmanlı hâkimiyetini tanıdılar ve dört yüzyıl boyunca Osmanlı adına idareyi sürdürdüler.",
   kaynak:"TDV `haremeyn` — «Mısır'ın fethiyle birlikte (1517) Memlükler'in nüfuzu altında bulunan Haremeyn de Osmanlı hâkimiyetini tanıdı. O sıradaki Mekke Emîri Şerîf…» 🟡 `f:` ATLAS PENCERESİ KONVANSİYONU — şeriflik atlas penceresinden ESKİ (TDV `mekke`, 133.872 kar.), bir kuruluş iddiası DEĞİL. 🔴 `t:` İLK YAZIMDA 1916-06-10 (Şerif Hüseyin'in isyanı) İDİ ve kapsama sınavım ÇÜRÜTTÜ: veri `1919-01-10`a kadar gidiyor — Medine'nin teslim günü. `t:` veriye göre açıldı, gün KAYNAKSIZ. ⚠️ Ve bu `t:` bir POLITY SONU DEĞİL, ATLAS KULLANIM SONU: şeriflik o gün sona ermedi, Hicaz Krallığı olarak sürdü.",
   kronoloji:[
-    { t:"1517-01-01", tur:"toprak", b:"Mısır'ın fethiyle Mekke Şerifliği Osmanlı hâkimiyetini tanıdı", kaynak:"TDV haremeyn (künyenin kendi kaynak alanından)" },
+    { t:"1517-01-01", tur:"vassal", b:"Mısır'ın fethiyle Mekke Şerifliği Osmanlı hâkimiyetini tanıdı", kaynak:"TDV haremeyn (künyenin kendi kaynak alanından)" },
     { t:"1916-06-10", tur:"son", b:"Şerif Hüseyin'in isyanıyla şeriflik fiilen Hicaz Krallığı'na dönüştü (bkz. hicaz-kralligi)", kaynak:"künyenin kendi ozet alanı — ardıl künye hicaz-kralligi'nin kendi 'isyan' maddesiyle aynı gün, çift kayıt DEĞİL, geçiş notu" }
   ] },
 { id:"konstantin-beyligi", ad:"Konstantin Beyliği (Ahmed Bey)", bolge:"kuzey-afrika", f:"1830-07-05", t:"1844-03-04",
@@ -7605,14 +7605,14 @@ window.DEVLETLER = [
   ozet:"Katar yarımadasında Âl-i Sânî ailesinin emirliği. 1871'de Osmanlı idaresine kazâ olarak bağlandı; I. Dünya Savaşı öncesinde Osmanlı-İngiliz antlaşmasıyla İngiliz nüfuz alanına bırakıldı.",
   kaynak:"TDV `katar` — 🟢 YIL DOĞRULANDI: «1871 baharında Nâfiz Paşa kumandasındaki birliklerle Lahsâ'ya bir sefer düzenledi» ve «1868 sonbaharında Katar'a gemi göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar». 🟡 GÜNLER (09-20 · 07-29) VERİDEN DEVRALINDI, kaynaksız. ⚫ `al-i-sani` slug'ı CANLI ama BOİLERPLATE (2.390 kar., §4④) — 'yok' SAYILMADI, okunamadı.",
   kronoloji:[
-    { t:"1871-09-20", tur:"toprak", b:"Nâfiz Paşa'nın Lahsâ seferi sonrası Katar Osmanlı idaresine kazâ olarak bağlandı", kaynak:"TDV katar (künyenin kendi kaynak alanından)" },
+    { t:"1871-09-20", tur:"vassal", b:"Nâfiz Paşa'nın Lahsâ seferi sonrası Katar Osmanlı idaresine kazâ olarak bağlandı", kaynak:"TDV katar (künyenin kendi kaynak alanından)" },
     { t:"1913-07-29", tur:"son", b:"Osmanlı-İngiliz Konvansiyonu ile Katar İngiliz nüfuz alanına bırakıldı, Osmanlı bağı fiilen sona erdi", kaynak:"künyenin kendi f/t verisinden devralındı (1913 Anglo-Ottoman Convention) — gün ayrıca doğrulanmalı" }
   ] },
 { id:"sabah-emirligi", ad:"Sabah Emirliği (Kuveyt)", bolge:"arabistan", f:"1795-04-01", t:"1914-11-22",
   ozet:"Kuveyt'te Âl-i Sabâh ailesinin şeyhliği. Uzun süre Basra'ya bağlı Osmanlı kazâsı sayıldı; 1899'dan itibaren fiilen İngiliz himayesine girdi.",
   kaynak:"TDV `kuveyt` — «Hindistan genel valisi Lord Curzon yüzbaşı Mead'i Küveyt'e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899)» ve «uzunca bir süre Türk hâkimiyetinde kaldıktan sonra İngiliz himayesinde bir şeyhliğe dönüştü». 🟡 `f:`/`t:` VERİDEN DEVRALINDI; TDV bu iki günü VERMİYOR. Veri iki dönem taşıyor (1795-04-01→1871-01-01 himaye, 1871-01-01→1914-11-22 kazâ); künye ikisini de kapsıyor.",
   kronoloji:[
-    { t:"1899-01-23", tur:"toprak", b:"Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı", kaynak:"TDV kuveyt (künyenin kendi kaynak alanından)" },
+    { t:"1899-01-23", tur:"vassal", b:"Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı", kaynak:"TDV kuveyt (künyenin kendi kaynak alanından)" },
     { t:"1914-11-22", tur:"son", b:"I. Dünya Savaşı patlak verince İngiltere Kuveyt'i resmen 'bağımsız himaye altında bir şeyhlik' ilan etti, Osmanlı bağı tamamen kesildi", kaynak:"künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı" }
   ] },
 { id:"kumuk-samhalligi", ad:"Kumuk Şamhallığı (Tarki)", bolge:"kafkasya", f:"1578-11-01", t:"1607-01-01",
@@ -7701,7 +7701,7 @@ window.DEVLETLER = [
   kaynak:"TDV `tunus` (canlı) — \"Emîn Bey ... on dokuzuncu bey sıfatıyla ... 20 Mart 1956'da Tunus bağımsızlığına kavuşurken ... bir geleneği sürdürdü.\" Ardıllık: tunus-ocagi (t:1881-05-12) ile birebir ardıl, boşluk/çakışma yok.",
   kronoloji:[
     { t:"1881-05-12", tur:"vassal", b:"Bardo Antlaşması ile Tunus Fransız himayesine girdi", kaynak:"TDV tunus" },
-    { t:"1883-06-08", tur:"toprak", b:"La Marsa Sözleşmesi ile Tunus Beyi'nin iç işler yetkisi daha da kısıtlandı; Fransız himayesi fiilen doğrudan yönetime dönüştü.", kaynak:"Encyclopaedia Britannica 'Treaty of Bardo' ilişkili anlatım — WebSearch özetinden (403); La Marsa Sözleşmesi tarihi (8 Haziran 1883) çok kaynaklı tutarlı" },
+    { t:"1883-06-08", tur:"antlasma", b:"La Marsa Sözleşmesi ile Tunus Beyi'nin iç işler yetkisi daha da kısıtlandı; Fransız himayesi fiilen doğrudan yönetime dönüştü.", kaynak:"Encyclopaedia Britannica 'Treaty of Bardo' ilişkili anlatım — WebSearch özetinden (403); La Marsa Sözleşmesi tarihi (8 Haziran 1883) çok kaynaklı tutarlı" },
     { t:"1956-03-20", tur:"son", b:"Emîn Bey'in bağımsızlığı görmesiyle beylik dönemi resmen sona erdi", kaynak:"TDV tunus" }
   ] },
 { id:"meysur-racaligi", ad:"Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)", tur:"devlet", bolge:"guney-asya",
