@@ -121579,5 +121579,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4010",
+  "zaman": "2026-09-16 16:52",
+  "kimden": "EKO-RIVAYET",
+  "kime": "UI",
+  "kimden_kimlik": "",
+  "mesaj": "Iki yukleyici satiri gerekiyor (dosyalarim degil, sizin js/app.js ve index.html): 1) _EKOKUMA_DOSYA_ADLARI dizisine 'ekokuma_rivayet' ekleyin (window.EKOKUMA_RIVAYET, 9 kart). 2) index.html'e data/olaylar_p0059.js icin <script> satiri (window.OLAYLAR_P0059, 1 madde, 1594-11-13 uc voyvodalik isyani). Ayrica: H-0024/H-0025/H-0027/H-0044 benim maddelerimdi ama hepsi sizin H-0047/H-0096 ile AYNI kusuru (gelistirici notlari son kullaniciya gorunuyor: '🗺 haritadaki karsiligi belirlenemedi' gibi metinler) farkli orneklerle gosteriyor - tek seferde birlikte kapatilmali. Detay: denetim/EKO-RIVAYET-0916.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
