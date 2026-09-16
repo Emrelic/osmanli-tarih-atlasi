@@ -1,0 +1,14 @@
+{
+  "_aciklama": "EKO-VEZIR · DALGA-0058 madde 2 · data/kisiler.js'teki 'nevsehirli-damad-ibrahim-pasa' kaydının tek cümlelik 'not:' alanını genişletme önerisi. UYGULA uygular, bu oturum kisiler.js'e yazmadı (CLAUDE.md §7).",
+  "_kaynak_yontemi": "TDV İslâm Ansiklopedisi 'damad-ibrahim-pasa-nevsehirli' maddesi bu oturumda iki ayrı geçişte tam okundu (16 Eylül DALGA-0052 ilk yazım, 17 Eylül DALGA-0058 genişletme). Aynı içerik data/ekokuma_vezir.js'teki 'kimdir-nevsehirli-damad-ibrahim-pasa' kartına da işlendi — bu iki dosya AYNI TDV okumasına dayanır, çelişmez.",
+  "onerilen_degisiklikler": [
+    {
+      "id": "nevsehirli-damad-ibrahim-pasa",
+      "eski_not": "Lâle Devri'nin yöneticisi",
+      "yeni_not": "1662 dolayında Nevşehir'de doğdu (kisiler.js'teki f:1666 ile 4 yıl fark var, aşağıda not), 1689'da İstanbul'a gelip saraya Helvacılar, ardından Baltacılar Ocağı'ndan girdi. Şehzade Ahmed'in (III. Ahmed) hizmetinde bulunup 1703 Edirne Vak'asını atlatarak Dârüssaâde kethüdâsı yazıcılığına yükseldi. III. Ahmed'in kızı ve dul kalmış Şehid Ali Paşa'nın eşi Fatma Sultan'la 19 Şubat 1717'de evlendirilip 'dâmâd-ı şehriyârî' oldu, 1718'de sadrazamlığa atandı. İlk icraatı uzayan savaşları bitiren Pasarofça Antlaşması (1718) oldu; hazineye 5675 divanî kese fazla sağladı. 1720-1721'de Yirmisekiz Çelebi Mehmed Efendi'yi Paris'e elçi gönderip Avrupa'ya kültürel açılımı hızlandırdı. Kâğıthane'de Sâdâbâd Kasrı'nı yaptırdı, lale yetiştiriciliğinin seçkinler arasında zevk simgesi olduğu bu dönem 'Lâle Devri' adını aldı. 1727'de İbrâhim Müteferrika'nın ilk Türk matbaasını kurmasını destekledi, tulumbacı teşkilâtını kurdu, bilim adamı ve sanatçıları himaye etti. Afgan seferindeki yenilgi, yeni vergiler ve halkın 'zevk ve sefahat' algısıyla büyüyen hoşnutsuzluk 1730'da Patrona Halil İsyanı'na dönüştü; III. Ahmed damadını feda etmek zorunda kaldı — İbrahim Paşa 1 Ekim 1730'da damatlarıyla birlikte öldürüldü, cesedi İstanbul sokaklarında sürüklenip parçalanmış hâlde III. Ahmed Çeşmesi yakınında bırakıldı.",
+      "kaynak": "TDV: damad-ibrahim-pasa-nevsehirli"
+    }
+  ],
+  "ayrica_bulunan_celiski": "data/kisiler.js kaydı f:\"1666\" taşıyor, TDV okunan gövde \"1662 dolayında\" diyor — 4 yıllık fark. Bu oturum f: alanını DEĞİŞTİRMEDİ (kisiler.js kilitli, §7); UYGULA'nın TDV'yi tekrar okuyup karar vermesi önerilir. Ölüm tarihi (t:\"1730\") TDV'nin verdiği gün (1 Ekim 1730) ile tutarlı, yalnız yıl hassasiyetinde tutulmuş — dokunulmadı.",
+  "metodolojik_not": "Bu proposal YAMA-0056-KISI.json'daki gibi TDV'nin dar slug'ının ölü çıkıp kapsayıcı maddeye başvurma durumu DEĞİL — 'damad-ibrahim-pasa-nevsehirli' slug'ının kendisi canlı (HTTP 200) ve doğru kişiyi anlatıyor; burada yalnız var olan zengin içeriğin kisiler.js'in tek cümlelik notuna TAŞINMASI önerildi."
+}

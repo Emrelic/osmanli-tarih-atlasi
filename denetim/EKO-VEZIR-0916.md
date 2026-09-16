@@ -298,3 +298,31 @@ zorlaştırdı. Sonuç kesin (1713'te Osmanlı istediğini aldı) ama gecikmeli.
 DEĞİŞTİ  data/ekokuma_vezir.js   31→33 kart, node --check temiz, 33/33 id benzersiz,
                                  2 yeni kartın olay tarihleri mevcut kronolojide doğrulandı
 ```
+
+---
+
+# EK BÖLÜM 6 — DALGA-0058, madde 2 (17 Eylül) — Nevşehirli Damad İbrahim Paşa genişletme
+
+Kaynak: `oturumlar/DALGA-0058.md` + `oturumlar/DALGA-0057.md` başındaki yeni kural
+(`baslik:` ZORUNLU). `data/ekokuma_vezir.js`deki `kimdir-nevsehirli-damad-ibrahim-pasa`
+kartı YENİ KART AÇILMADAN genişletildi (33 kart aynı kaldı) — TDV'den ikinci kez
+okunarak sadrazamlık ÖNCESİ kariyeri (Helvacılar/Baltacılar ocağı, 1703 Edirne
+Vak'asını atlatması, Dârüssaâde kethüdâlığı), Yirmisekiz Çelebi Mehmed Efendi'nin
+1720-21 Paris elçiliği, lale yetiştiriciliğinin simgesel önemi ve idam sahnesinin
+somut ayrıntıları (ceset İstanbul sokaklarında sürüklendi, III. Ahmed Çeşmesi
+yakınında bırakıldı) eklendi. Karta ayrıca DALGA-0057 kuralı gereği `baslik:`
+alanı eklendi.
+
+**Kişi kartı önerisi:** `denetim/YAMA-0058-KISI.json` — `data/kisiler.js`deki
+`nevsehirli-damad-ibrahim-pasa` kaydının tek cümlelik notu için aynı içerikle
+genişletme önerisi (UYGULA uygular, kisiler.js'e yazılmadı).
+
+**Bulunan çelişki:** `kisiler.js` doğum yılını `f:"1666"` taşıyor, TDV okunan
+gövde "1662 dolayında" diyor — 4 yıl fark. Düzeltilmedi (dosya kilitli),
+YAMA dosyasında UYGULA'ya bildirildi.
+
+## Dosyalar
+```
+DEĞİŞTİ  data/ekokuma_vezir.js         33 kart (sayı değişmedi, 1 kart genişletildi + baslik: eklendi)
+YENİ     denetim/YAMA-0058-KISI.json   kisiler.js için genişletme önerisi
+```
