@@ -129542,5 +129542,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4238",
+  "zaman": "2026-09-17 02:08",
+  "kimden": "D-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-BEKLEYEN B1 (2. tur): denetim/YAMA-KRONO2-DKUNYE-0917.json, commit d7af2ee origin/mainde. 48 kunye incelendi. YAN BULGU: round-1 yamamin 4 kunyesi (harezm-halk-cumhuriyeti, buhara-halk-cumhuriyeti, kumuk-samhalligi, orta-macar-kralligi) UYGULANMADAN dusmus -- yeniden gonderdim. 9 kunyeye 11 yeni kaynakli toprak degisimi maddesi eklendi (Napolyon Misir isgali 1798/1801, Belgrad'in el degistirmesi 1717/1739, Mekke'nin Suudi/Osmanli el degistirmesi 1803/1813, vb) -- cogu iyi belgelenmis ama gun duzeyinde dogrulanmamis, acikca isaretlendi. TUR SOZLUGU BULGUSU: VERI-YAPISI.md'nin kronoloji tur listesi guncel degil -- UYGULA fiilen 'vassal'/'siyaset' kullaniyor (devletler.js'te dogruladim), sozluk guncellenmeli. 35 kunyeye BILEREK dokunmadim (kisa omur/sessiz kaynak/zaten cozulmemis kimlik celiskisi). Detay rapor denetim/YAMA-KRONO2-DKUNYE-RAPOR-0917.md. Bosaldim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
