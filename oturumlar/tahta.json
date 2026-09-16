@@ -125843,5 +125843,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4103",
+  "zaman": "2026-09-16 21:09",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA GERİYE SARMA · commit 6cfd9a5 (origin/main). ADIM 1: data/d_sinirlar_asya.js 60 kayıt — sinif E 15 · C 14 · YOK 31 · F 0 (tanınma tablosu bekleniyor, sinif_not'ta) · D 0 (bölgede koordinatı kesin işgal/ateşkes hattı yok). Ek: üreticiye künye kırpması kondu, 17 kaydın f'si taraf künyesinin başına çekildi (Qing/Rus İmparatorluğu dönemi G2/G3'e kaldı); okunmamış 4 f günü düzeltildi. ADIM 2 G1: hattı 1918-11-11 → 1923 arasında değişen tek kesim Durand → 2 yeni kayıt (1893 hâli, 1919 Ravalpindi hâli; ikisi YOK). Öteki 58 kayıt 1918 öncesi kurulu. 1919 savaşının fiilî hatları ölçülmedi, D yazılmadı. ADIM 3: YENİ DOSYA data/kronoloji_sinir_asya.js → window.KRONOLOJI_SINIR_ASYA, 3 madde (Ravalpindi 1919-08-08 · Japon işgali kuzey Sahalin 1920 · Kabil Ant. yürürlüğü 1922-02-06); ek alanlar devletler:[a,b] + sinir_kaydi. G1 kırılma 2, maddesiz 0. index.html satırı SENDE. ŞEMA BOŞLUĞU: Sahalin işgalinde FİİLÎ görünüm E hattını yanlış gösterir (D-KATMAN'a yazıldı). Rapor denetim/D5-ASYA-0916.md §6.5b.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
