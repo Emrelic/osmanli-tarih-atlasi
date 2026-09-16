@@ -22,8 +22,47 @@ IH, TB, SI, FC, HD = "ingiliz-hindistani", "tibet-ganden-phodrang", "siyam-chakr
 EN, SW, PT, JP, JS = "ingiltere", "sarawak-brooke", "portekiz", "meiji-japonya", "joseon"
 MA, CK, SV = "ingiliz-malaya", "cammu-kesmir", "sovyet-rusya"
 
+SH, NP, AIT2 = "sih-imparatorlugu", "nepal", "Aitchison, Treaties, Engagements and Sanads c. II (Calcutta 1909)"
+
 # (t, taraflar, b, tur, onem, dunya, sinif, d, kaynak, sinir_kaydi, yer_id)
 M = [
+# ---------------- G4 (1878-07-13 → 1815-06-09) ----------------
+("1816-03-04", [IH, NP], "Sugauli Antlaşması yürürlükte — Nepal ovalarını İngilizlere bıraktı", "antlasma", 5, 3, "YOK",
+ "2 Aralık 1815'te Segowlee'de (Sugauli) imzalanan antlaşmanın onaylı nüshası 4 Mart 1816'da Nepal temsilcisine teslim edildi. 3. madde Kali–Rapti, Rapti–Gandak, Gandak–Kosi ve Mechi–Teesta arasındaki ovaları ve Mechi'nin doğusundaki tepeleri Şirket'e bıraktı. 8 Aralık 1816 muhtırasıyla Gandak–Rapti Terai'si Nepal'e geri verildi ve sınırın ortak komiserlerce belirlenmesi kararlaştırıldı.",
+ AIT2, "g4-ih-np-BILINMIYOR-1816", ""),
+("1842-09-17", [SH, TB], "Ladakh–Tibet mektubu — 'eski sınırlar' teyit edildi", "diplomasi", 3, 2, "YOK",
+ "Ladakh ile Tibet arasında yazılan mektup, iki tarafın eski sınırlarını tanıdı; ama sınırı tarif etmedi, koordinat vermedi. Ladakh o yıllarda Sih İmparatorluğu'na bağlı Dogra idaresindeydi. Bu kesimde 1923'te bile iki taraf arasında antlaşmayla çizilmiş bir hat yoktu.",
+ "Ladakh–Tibet mektubu metni (tibetjustice.org, van Walt van Praag derlemesi) · " + IBS % (85, "China–Pakistan"), "g4-sih-tb-FIILI-ladakh-1842", ""),
+("1856-03-24", [NP, TB], "Nepal–Tibet barışı — sınır çizilmedi", "antlasma", 3, 2, "YOK",
+ "Nepal ile Tibet arasındaki barış antlaşması Kerong ve Kuti çevresindeki bazı reayayı Nepal'e bıraktı, ama sınırı ayrıntılı olarak tarif etmedi. IBS'e göre iki ülke arasındaki çizgi 1960–1963 anlaşmalarına kadar yalnız fiilî bir sınırdı; daha eski 1792 antlaşmasının hükmü de belirsizdir.",
+ IBS % (50, "China–Nepal"), "d1923-np-tb-FIILI", ""),
+("1858-05-28", [QG, RU], "Aigun Antlaşması — Amur Rus–Çin sınırı oldu", "antlasma", 5, 4, "YOK",
+ "16 (28) Mayıs 1858'de imzalanan antlaşma Amur'un sol kıyısını Rusya'ya, sağ kıyısını Çin'e bıraktı; nehir içindeki hattı ise tanımlamadı. Ussuri ile Pasifik arasındaki toprağı iki devlet ortak yönetecekti. Zeya ile Holdoldzin arasındaki sol kıyıda yaşayan Mançu köylüleri ('64 köy') Mançu idaresinde kalacaktı. IBS'e göre Rusya yaklaşık 598.000 km² toprak kazandı. Mançu imparatoru 2 Haziran, çar 8 Temmuz 1858'de onayladı.",
+ IBS % (64, "China–U.S.S.R. (rev. 1978)"), "g4-rusya-qing-BILINMIYOR-dogu-1858", ""),
+("1860-08-13", [HD, PT], "Lizbon Antlaşması yürürlükte — Timor'da ilk Hollanda–Portekiz sınırı", "antlasma", 3, 2, "YOK",
+ "20 Nisan 1859'da Lizbon'da imzalanan sınır ve toprak değişimi antlaşmasının onayları 13 Ağustos 1860'ta değişildi. IBRU'ya göre bu, mevcut bağlılıklara dayanan çok genel bir sınırlandırmaydı; Timor'daki Hollanda ve Portekiz enklavlarını da kaldırmadı.",
+ IBRU, "g3-hd-pt-BILINMIYOR-timor-1860", ""),
+("1860-10-24", [EN, QG], "Peking Konvansiyonu — Kowloon İngiltere'ye bırakıldı", "antlasma", 4, 3, "YOK",
+ "Konvansiyonun 6. maddesiyle Çin, Kowloon yarımadasının bugünkü Boundary Street'in güneyinde kalan kısmını ve Stonecutters adasını İngiltere'ye bıraktı. Böylece Hong Kong ile Çin arasında ilk kara sınırı doğdu; 1898'deki Yeni Topraklar kirasıyla sınır kuzeye taşındı.",
+ IBS % (13, "China–Hong Kong"), "g4-en-qing-BILINMIYOR-kowloon-1860", ""),
+("1860-11-01", [IH, NP], "Katmandu Antlaşması — batı Terai Nepal'e iade edildi", "antlasma", 3, 2, "YOK",
+ "İngiltere, Kali ile Gorakhpur arasındaki ovaları Nepal'e geri verdi. Antlaşmanın 3. maddesi yeni sınırın kâgir direklerle işaretlendiğini söyler; Genel Vali 15 Kasım 1860'ta onayladı.",
+ AIT2, "g4-ih-np-BILINMIYOR-1860", ""),
+("1860-11-14", [QG, RU], "Pekin Ek Antlaşması — Ussuri'nin doğusu Rusya'ya geçti", "antlasma", 5, 4, "YOK",
+ "2 (14) Kasım 1860'ta imzalanan antlaşmanın 1. maddesi Ussuri'yi ve oradan Sungaça, Hanka gölü ve Tumen'e uzanan kara hattını sınır yaptı; hat haritada 20 noktayla gösterildi ve 1861'de bu noktalara ahşap direkler dikildi. Antlaşma Türkistan'da da ilk kez bir Mançu–Rus sınırı öngördü: mevcut Çin karakol hattı.",
+ IBS % (64, "China–U.S.S.R. (rev. 1978)"), "g3-sscb-cn-BILINMIYOR-dogu-rusya-qing", ""),
+("1864-10-07", [QG, RU], "Tarbagatay (Çuguçak) Protokolü — Orta Asya'da Rus–Çin sınırı çizildi", "antlasma", 4, 3, "YOK",
+ "25 Eylül (7 Ekim) 1864'te imzalanan protokol, Pekin Antlaşması'nın öngördüğü Türkistan sınırını Moğolistan'dan güneybatıya, Hokand'ın sınırı sayılan yaklaşık 40°15' kuzey – 74°40' doğuya kadar çizdi. Hattın çoğu Orta Asya'nın ana su ayrımıydı. IBS'e göre birçok nokta Doğu Türkistan'daki karışıklık yüzünden belirsiz kaldı.",
+ IBS % (64, "China–U.S.S.R. (rev. 1978)"), "g4-rusya-qing-BILINMIYOR-kazak-1864", ""),
+("1868-07-03", [SI, IH], "İngiliz–Siyam Sözleşmesi onaylandı — Tenasserim sınırı çizildi", "antlasma", 3, 2, "YOK",
+ "Sözleşme Salween'den güneye Moei (Thaungyin) nehrini, ardından su ayrımını ve Pakchan nehrini ağzına kadar Tenasserim ile Siyam arasında sınır yaptı; onaylar 3 Temmuz 1868'de değişildi. Sözleşmenin imza günü kaynaklarda çelişkilidir (8 Şubat ya da 8 Eylül 1868).",
+ IBS % (63, "Burma–Thailand"), "g3-si-ih-BILINMIYOR-1868", ""),
+("1873-01-31", [AF, RU], "İngiliz–Rus anlaşması — Amuderya Afganistan'ın kuzey sınırı sayıldı", "antlasma", 4, 3, "YOK",
+ "İngiltere ile Rusya, Badahşan'ı ve Sarıkul gölüne kadar Vahan'ı Afganistan toprağı saydı; Amuderya'yı Hoca Salar geçidine kadar Afganistan'ın kuzey sınırı kabul etti ve buradan İran sınırına kadarki hattın bir karma komisyonca çizilmesini öngördü (1885).",
+ IBS % (26, "Afghanistan–U.S.S.R. (rev. 1983)") + " · " + BAL, "g3-af-rusya-DEGISTI-amuderya-1873", ""),
+("1875-01-07", [IH, NP], "Dhundwa tepeleri anlaşması — Hindistan–Nepal sınırında düzeltme", "antlasma", 2, 1, "YOK",
+ "Anlaşma, Arrah Nuddee ile Bagowra Tal arasındaki Dhundwa tepeleri kesiminde sınırın düzlüğe inen alt çıkıntıların eteğinden geçeceğini belirledi.",
+ AIT2, "d1923-ih-np-BILINMIYOR", ""),
 # ---------------- G3 (1914-07-28 → 1878-07-13) ----------------
 ("1881-08-19", [QG, RU], "İli (St. Petersburg) Antlaşması onaylandı — Rus–Çin sınırı Tekes'ten Kara İrtiş'e yeniden çizildi", "antlasma", 4, 3, "E",
  "12 (24) Şubat 1881'de imzalanan antlaşmanın onayları 7 (19) Ağustos 1881'de değişildi. Çin, Zaysan ve Markakol çevresini Rusya'ya bıraktı; hat 1882–1884 protokolleriyle ayrıntılandırılıp kısmen işaretlendi.",
@@ -144,7 +183,7 @@ M = [
 ]
 
 BAS = """// =====================================================================
-// SINIR KRONOLOJİSİ — ASYA (D5-ASYA) · geriye sarma G1 + G2 + G3 (1923-10-29 → 1878-07-13)
+// SINIR KRONOLOJİSİ — ASYA (D5-ASYA) · geriye sarma G1–G4 (1923-10-29 → 1815-06-09)
 // =====================================================================
 // 🔴 ÜRETİLMİŞ DOSYA — elle düzenleme; üretici denetim/ARAC-D5-ASYA-KRONOLOJI-0916.py
 // window.KRONOLOJI_SINIR_ASYA — şartname oturumlar/GERIYE-SARMA-0916.md ADIM 3.

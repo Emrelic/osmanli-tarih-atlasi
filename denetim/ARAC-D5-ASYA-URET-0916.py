@@ -764,6 +764,68 @@ yok("g3-af-rusya-DEGISTI-amuderya-1873", AF, RU, "1873-01-31", bbox(cizgi("AFG-U
     t="1895-03-11")
 
 print("G3 elle: bitti")
+
+# ================= G4 GERİYE SARMA (1878-07-13 → 1815-06-09) =================
+SH = "sih-imparatorlugu"
+TARB = {"ad": "Tarbagatay (Çuguçak) Protokolü", "tarih": "1864-10-07", "tur": "protokol", "not": "25 Eylül (7 Ekim) 1864"}
+# (a) Rus–Qing: 1881 / 1884 / 1893 öncesi Tarbagatay hâli · 1860 öncesi Aigun hâli
+HOKAND_SINIRI = 40 + 15 / 60        # IBS 64: Tarbagatay hattı "approximately 40°15' North and 74°40' East, the limits of Kokand"
+kg = cizgi("CHN-KGZ")
+kg_kuzey = parcala(kg, lambda c: c[1] >= HOKAND_SINIRI)
+kg_guney = parcala(kg, lambda c: c[1] < HOKAND_SINIRI)
+yok("g4-rusya-qing-FIILI-kirgiz-guney-1876", RU, QG, pad(KUNYE["hokand"][1]), bbox(kg_guney, 0.10),
+    {"deger": True, "kaynak": "IBS 64", "not": "Kaşgar (25 Kas 1882) ve Novi-Margelan (22 May 1884) protokolleri bu kesimi çizdi"},
+    [ibs(64, "China–U.S.S.R.", "the limits of the State of Kokand (not conquered by Russia until 1876)")],
+    "G4 · 40°15'K güneyi: 1876'ya kadar Hokand–Qing sınırıydı (Hokand–Qing hattının belgesi BULUNAMADI, kayıt yazılmadı). "
+    "Hokand'ın Rusya'ya katılmasından (künye sonu; IBS yalnız yılı verir) protokollere kadar Rus–Qing hattı tanımsız — FİİLİ",
+    t="1884-05-22")
+for ad, cift_, t_ in [("batialtay", [min(cizgi("CHN-RUS"), key=uzunluk)], "1881-08-19"),
+                      ("kazak", cizgi("CHN-KAZ"), "1893-12-20"),
+                      ("kirgiz", kg_kuzey, "1884-05-22")]:
+    yok(f"g4-rusya-qing-BILINMIYOR-{ad}-1864", RU, QG, "1864-10-07", bbox(cift_, 0.10),
+        {"deger": True, "kaynak": "IBS 64", "not": "1881 İli Antlaşması ve 1882–1893 protokolleri hattı değiştirip ayrıntılandırdı"},
+        [TARB, ibs(64, "China–U.S.S.R.")],
+        "G4 · 1864 Tarbagatay hâli; sonraki antlaşmaya kadar. 1864 öncesi Orta Asya'da antlaşma hattı yok (IBS 64) — kayıt yazılmadı",
+        t=t_)
+yok("g4-rusya-qing-BILINMIYOR-dogu-1858", RU, QG, "1858-05-28", bbox([max(cizgi("CHN-RUS"), key=uzunluk)], 0.10),
+    {"deger": True, "kaynak": "IBS 64", "not": "2 (14) Kasım 1860 Pekin Ek Antlaşması Ussuri–Tumen kesimini Rusya'ya bağladı"},
+    [{"ad": "Aigun Antlaşması", "tarih": "1858-05-28", "tur": "antlaşma", "not": "16 (28) Mayıs 1858; nehir içi hat tanımsız"},
+     ibs(64, "China–U.S.S.R.", "The Aigun Treaty did not delimit a precise position for the boundary in the Amur.")],
+    "G4 · 1858–1860 hâli: Amur hattı Aigun'la kuruldu, Ussuri ile deniz arası ortak kullanımdaydı (IBS 64). "
+    "1858 öncesi doğu hattı 1689 Nerçinsk hattıdır — başka bir coğrafyada (G7), bu kutuda değil",
+    t="1860-11-14")
+
+# (b) Hindistan–Nepal: 1875 Dhundwa düzeltmesinden ve 1860 Terai iadesinden önceki hâller
+NP_KUTU = bbox(cizgi("IND-NPL"), 0.10)
+yok("g4-ih-np-BILINMIYOR-1860", IH, NP, "1860-11-01", NP_KUTU,
+    {"deger": True, "kaynak": "Aitchison c. II (1909)", "not": "7 Oca 1875 anlaşması Dhundwa tepeleri kesimini düzeltti"},
+    [{"ad": "Katmandu Antlaşması", "madde": "md. 3", "tarih": "1860-11-01", "tur": "antlaşma", "not": "GV onayı 15 Kas 1860", "alinti": "marked by pillars"}],
+    "G4 · 1860–1875 hâli: batı Terai Nepal'e iade edilmiş, kâgir direklerle işaretli", t="1875-01-07")
+yok("g4-ih-np-BILINMIYOR-1816", IH, NP, "1816-03-04", NP_KUTU,
+    {"deger": True, "kaynak": "Aitchison c. II (1909)", "not": "1 Kas 1860 antlaşması Kali–Gorakhpur ovalarını Nepal'e iade etti"},
+    [{"ad": "Sugauli (Segowlee) Antlaşması", "madde": "md. III", "tarih": "1815-12-02", "tur": "antlaşma", "not": "onaylı nüsha 4 Mar 1816'da Nepal temsilcisine teslim"},
+     {"ad": "Gandak–Rapti Terai'sinin iadesine dair muhtıra", "tarih": "1816-12-08", "tur": "muhtıra", "not": "sınırı ortak komiserler belirleyecek"}],
+    "G4 · 1816–1860 hâli: Sugauli ile ovalar Şirket'e geçti; 8 Ara 1816 muhtırasıyla Gandak–Rapti Terai'si iade edildi (kayıt bölünmedi)",
+    t="1860-11-01")
+
+# (c) Hong Kong: 1898 kirasından önce Kowloon (Boundary Street) hattı
+yok("g4-en-qing-BILINMIYOR-kowloon-1860", EN, QG, "1860-10-24", bbox(cizgi("CHN-HKG"), 0.10),
+    {"deger": True, "kaynak": "IBS 13", "not": "9 Haz 1898 Peking Konvansiyonu Yeni Toprakları kiraladı; kara sınırı kuzeye, Sham Chun'a taşındı"},
+    [{"ad": "Peking Konvansiyonu", "madde": "md. VI (Kowloon terki)", "tarih": "1860-10-24", "tur": "konvansiyon"},
+     ibs(13, "China–Hong Kong", "Kowloon Peninsula south of present-day Boundary Street")],
+    "G4 · 1860–1899 hâli: İngiliz–Çin kara sınırı Kowloon'da bugünkü Boundary Street hattıydı; o hattın koordinatı ELDE YOK. "
+    "Kutu 1923 hattınınkidir — bu yıllarda o kutuda İngiliz–Çin sınırı YOKTU. 1860 öncesi (1842 Nanking) yalnız ada, kara sınırı yok",
+    t="1899-03-19")
+
+# (d) Keşmir–Çin: Cammu-Keşmir künyesinden (1846) önce Sih İmparatorluğu dönemi
+yok("g4-sih-tb-FIILI-ladakh-1842", SH, TB, "1842-09-17", bbox(parcala([hk_bati], LADAKH) + cizgi("CHN-KAS"), 0.10),
+    {"deger": None, "kaynak": "bulunamadı"},
+    [{"ad": "Ladakh–Tibet mektubu", "tarih": "1842-09-17", "tur": "mektup",
+      "kaynak": "tibetjustice.org/materials/treaties/treaties3.html", "alinti": "ancient boundaries"}],
+    "G4 · 1842–1846 hâli, sınıf FİİLİ: mektup koordinat vermez. Ladakh o yıllarda Sih İmparatorluğu'na bağlı Dogra idaresindeydi "
+    "(künye `sih-imparatorlugu`); 1846'dan sonra `cammu-kesmir` (devlet geçişi, sınır olayı sayılmadı). 1842 öncesi yazılmadı",
+    t=pad(KUNYE[CK][0]))
+print("G4 elle: bitti")
 for k in KAYIT:
     k.pop("_f0", None)
 

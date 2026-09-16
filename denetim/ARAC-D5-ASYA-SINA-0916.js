@@ -34,7 +34,8 @@ const ids = new Set(A.map(k => k.id));
 for (const m of K) { if (!ids.has(m.sinir_kaydi)) hata('bağ', m.t, m.sinir_kaydi);
   if (!m.taraflar || m.taraflar.length !== 2) hata('taraflar', m.t, m.b);
   for (const x of (m.taraflar || [])) if (!KN[x]) hata('madde künye', m.t, x); }
-const GECIS = new Set(['1917-03-15', '1917-11-07', '1911-10-10', '1911-12-29', '1910-08-29', '1923-10-29']);
+// künye sınırı günleri: 1917 Rusya · 1911 Çin/Moğolistan · 1910 Kore · 1846 Cammu-Keşmir (Sih'ten Dogra'ya)
+const GECIS = new Set(['1917-03-15', '1917-11-07', '1911-10-10', '1911-12-29', '1910-08-29', '1923-10-29', '1846-03-16', '1876-02-19']);   // 1876 Hokand'ın Rusya'ya katılması
 const g = s => Date.parse(pad(s)) / 864e5;
 const acik = []; let kir = 0, gec = 0;
 for (const k of A) for (const d of [k.f, k.t]) {
