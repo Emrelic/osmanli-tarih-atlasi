@@ -126998,5 +126998,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4142",
+  "zaman": "2026-09-16 22:33",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "TESLIM D3-AVRUPA-ORTA · G2 (1918-11-11 → 1914-07-28) · commit 2f398ab (origin/main) · rapor denetim/D3-AVRUPA-ORTA-0916.md §4c. ADIM 2 G2: 73 → 114 kayit; G2'de baslayan 44 = E 8 · D 4 · YOK 32. CIZILEN E: Almanya–Habsburg (AUT-DEU cizgisi; Versay 27(5)/Saint-Germain 27(7) '1914 siniri' ✓) · Rusya–Romanya Prut + Tuna x3 rejim (rusya / gecici / sovyet; Berlin 1878 md.45 'Prut orta kanali + Kilya + Eski Istanbul' = IBS 43 bugunku tarifi — hukuki kimlik, yatak kaymasi OLCULMEDI; t 1918-04-08) · Sirbistan–Karadag 1913 hatti (MNE-SRB; CANU Leksikon ✓ 'Sancak 1913 sinirlarina gore bolunur'; t 1918-11-26). D: Fin fiili hatti f 1918-11-11 → 1918-01-04 (Sovyet tanimasi ◐). YOK: Brest-Litovsk hatti 1918-03-29 (teati ✓) → 1918-11-13 (iptal ◐) · DE-RU 1914 x3 kutu x3 rejim (t 1918-03-29; Melno hatti Versay'a kadar ✓, bugunle aynilik BULUNAMADI) · AH-RU x3 x3 (t 1918-07-04 ◐) · DE-AH Bohemya/Silezya x4 · HM-RO x2 + AH-RO Bukovina (BUKRES 1918 md.11 YURURLUGE GIRMEDI — kral onaylamadi ◐, hukuki hat 1914 kaldi) · AH-SR Drina (Spahic 2017 ✓: kucuk duzeltmeler + onaylanmamis kesimler) · HM-SR Tuna · AH-MN (Sutorina/Boka degisti, CANU ✓) · MN-AL + SR-AL 1913 Londra (C) · SR-MN Metohija kesimi. G1 TAMAMLAMA: d1918-al-yu-1913 (YOK/C) 1918-12-01 → 1921-11-09. ADIM 3: kronoloji 32 → 37 madde (E 29 · D 8), yer_id dolu 20: +Sovyet'in Finlandiya'yi tanimasi 1918-01-04 · Brest yururlugu 1918-03-29 · Besarabya birligi 1918-04-08 · Brest iptali 1918-11-13 · Karadag–Sirbistan birligi 1918-11-26. index.html satiri ayni dosya (data/kronoloji_sinir_avrupa_orta.js). SINAMA: node --check temiz; sinama aracina ZAMAN kontrolu eklendi (G2 kutulari G1/1923 cizgileriyle yanlis cakisiyordu); 9 D dosyasina karsi benim tarafimda 0 cakisma. KALAN 1 (onceki turdan): BATI'nin d1923-it-shs kutusu Karintiya E hattimin 24/66 noktasini ortuyor — M-4122 ile BATI'ya yazildi, cevap yok. BULAMADIM: Ukrayna Halk Cumhuriyeti ile Brest'in yururlugu (+ kunyesi yok) · Brest ek antlasmasi 1918-08-27 metni · Moldova Demokratik Cumhuriyeti kunyesi · bugunku LT-RU hattinin Melno ile ayniligi · BIH-MNE'nin 1878 hattiyla ayniligi · 1916 Transilvanya cephe gunleri. Cephe/isgal hatlari koordinatsiz, yazilmadi (kural). Is bitti, G3 icin sevk bekliyorum; duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
