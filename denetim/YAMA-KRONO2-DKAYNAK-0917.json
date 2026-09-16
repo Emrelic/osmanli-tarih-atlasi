@@ -1,0 +1,408 @@
+{
+ "olusturan": "D-KAYNAK (Sonnet) - DALGA-BEKLEYEN.md B2 gorevi, 2. tur, 17 Eylul 2026",
+ "amac": "1. turda (YAMA-KRONO-DKAYNAK-0916.json, yayinda) kuruluş+son eklenen kunyelere bu kez YALNIZ kaynakli onemli TOPRAK DEGISIMI (toprak-kazanc/toprak-kayip/isgal/bolunme/birlesme/ittifak/savas/antlasma) maddeleri eklemek. denetim/KRONOLOJI-EKSIK-2-0917.json'daki bolgelerim (Afrika 5 bolge, Amerika 3 bolge, guney/guneydogu/dogu-asya, okyanusya) 59 kunye verdi.",
+ "yontem": "Once round-1'in kendi arastirma verisini (5 ajan, ~180 kunye) mekanik olarak yeniden tarayip guncel devletler.js penceresine gore hala GECERLI olan adaylari geri kazandim (3 kunye: zapotek-krallik, baroda, zimbabve-kralligi — bu ucu round-1'de merge edilmemis kalmis ya da farkli sekilde merge edilmisti). Bu sirada KENDI round-1 hatami buldum: 'poni' kunyesinin 3 haneli baslangic yili (f:977) ile 4 haneli olay tarihleri STRING olarak karsilastirilmis ve CLAUDE.md'nin kendi tarif ettigi 'uc haneli yil tuzagi'na (§3.5.0) dusulmustu — bu turda date-object karsilastirmasina gecilerek duzeltildi (poni bu turun bolgesinde degil, D-KUNYE'ye bildirilecek). Sonra ~10 kunyeyi (Tiv/Birom-Plato/Dan-Guro/Kru-Grebo/Berabis/Kamba/Adar/Kanem-Tubu/Tubu-Tibesti/Torva) round-1'de zaten 'merkezi devlet kurmamis halk, toprak degisimi yok' diye kesinlestigi icin TEKRAR ARASTIRMADAN atladim. Geriye kalan ~40 kunye icin GERCEK f/t penceresini VEREREK 5 paralel arastirma ajanina taze arastirma yaptirdim (Britannica/UNESCO/hakemli dergi/universite yayinlari/TDV; Wikipedia yalniz LOKATOR, tek dayanak olarak KULLANILMADI). Her oneri kunyenin GERCEK f/t penceresine (date karsilastirmasiyla) ve mevcut kayitlarla mukerrer olmadigina gore mekanik olarak elendi/onaylandi; VERI-YAPISI'nin tur listesine (kurulus|hukumdar|toprak-kazanc|toprak-kayip|savas|antlasma|bolunme|birlesme|ittifak|isyan|isgal|son) uymayan hicbir satir yazilmadi, duz 'toprak' hic kullanilmadi.",
+ "durum": "Arastirma + pencere/mukerrer/tur-uygunluk filtresi TAMAMLANDI. devletler.js'e UYGULANMADI.",
+ "onemli_notlar": [
+  "🟢 'ammarogullari' icin TDV'nin kendi 'Ammâroğulları' maddesi DORT ayri toprak olayi veriyor (1347 Cerbe fethi, 1355 Trablusgarp kaybi, 1371 yeniden hakimiyet, 1393 Sicilya kralina tabiiyeti) — round-1'de bu kunyenin kimligi yanlis cografyada aranmisti (Tunus/Cezayir), bu turda TDV'nin kendi maddesi kullanilinca cok zengin cikti.",
+  "🔴 'kasance' icin kunyenin gercek Portekiz'e ilhak tarihi kaynaklarda 1910-1911 olarak geciyor ama kunyenin t: degeri 1910-01-01 — kesin ilhak gunu 1911'de ise kunyenin t: degeri sinirin tam UZERINDE/hafif YANLIS olabilir, D-KUNYE/1.MURAT kontrol etmeli.",
+  "🔴 'karagve' icin kunyenin t:1890-07-01 degeri, Heligoland-Zanzibar Antlasmasi'nin (1 Temmuz 1890) IMZA GUNUYLE TAM ORTUSUYOR — bu, t: degerinin zaten bu antlasmaya dayandigini gosteriyor, ayrica bir toprak maddesi ONERILMEDI (mukerrer olurdu).",
+  "🟡 'tui-tonga-imparatorlugu' icin tam istenen pencereyi (1777-1845) kapsayan hakemli bir kaynak (Niel Gunson, Journal of Pacific History 25/2, 1990) bulundu AMA paywall arkasinda icerigi okunamadi — erisimi olan biri icin gelecek tur ipucu. Alternatif olarak bulunan '1250 Samoa kaybi' onerisi GENEALOJIK TAHMIN oldugu icin (kaynagin kendisi yalniz '13.yy' diyor) YAZILMADI — yil uydurma riski.",
+  "🟡 'multan-langah' ve 'bali-kralliklari-pejeng' icin TDV/akademik kaynak tekrar tarandi, ikisi de gercekten ek olay VERMIYOR — mevcut kuruluş+son zaten mevcut kaynagin tavanidir.",
+  "⚠️ 'buna' ve 'bate' icin bulunan olaylar akademik-birinci-sinif KAYNAK DEGIL (WebSearch sentezi, dogrulanamayan ikincil siteler) — Wikipedia degil ama zayif; 'dusuk guven' etiketiyle sunuluyor, reviewer karar versin.",
+  "🔴 'tuareg-accer' icin bulunan '1874 savas' onerisi bu yamaya DAHIL EDILMEDI — kaynagi yalniz Wikipedia idi ve bu turun kendi kurali ('Vikipedi tek dayanak olamaz') acikca ihlal ediyordu."
+ ],
+ "olmayanlar": [
+  {
+   "id": "adar",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "alutiiq",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "apaci-ovalar",
+   "not": "Komanc genislemesi (1700-1725) mevcut 2 kaydin (1700,1750) ARASINI dolduran genel surec ama TEK yeni tarihli olay ayirt edilemiyor. Mevcut kapsama YETERLI, yeni madde onerilmedi."
+  },
+  {
+   "id": "arma",
+   "not": "Pencere yalnız 10 yıl (1750-1760). TDV 'Tinbüktü' maddesi DOĞRUDAN okundu — yalnız iki uç tarihi veriyor, aradaki 10 yılda 'uyum' olduğu söyleniyor ama BAŞKA HİÇBİR OLAY YOK. Gerçekten bulunamadı."
+  },
+  {
+   "id": "bali-kralliklari-pejeng",
+   "not": "Hizli kontrol — turizm blogu/fandom disinda kaynak yok. Onceki turun tespiti dogrulandi: bulunamadi."
+  },
+  {
+   "id": "berabis",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "birom-plato",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "charrua",
+   "not": "1735 Santa Fe kolonisti/Charrua yenilgisi iddiasi TEK kaynagi globalsecurity.org, kirmizi cizgiye gore kabul edilemez, baska hicbir akademik kaynakta dogrulanamadi. Akademik literatur cokusu 18.yy boyunca YAYILAN bir surec olarak anlatiyor, tek tarihe sikismiyor. BULUNAMADI, mevcut son(1831) zaten d"
+  },
+  {
+   "id": "dan-guro",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "diaguita-calchaqui-konfederasyonu",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "ekvador-cumhuriyeti",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "gonja",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "kamba",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "kanem-tubu",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "karagve",
+   "not": "1870 isyan aday BULUNAMADI damgasina yakin (kaynak zayif tarih blogu, gercek akademik kaynak Katoke 1975/Buganda tarihleri dogrulanamadi). 🔴 ONEMLI: kunyenin t=1890-07-01, Heligoland-Zanzibar Antlasmasi'nin (1 Temmuz 1890) IMZA GUNUYLE TAM ORTUSUYOR — kunyenin t: kaynagi muhtemelen zaten bu antlasma"
+  },
+  {
+   "id": "kenya-kuzey-halklari",
+   "not": "bulunamadi. Ademi merkeziyetci gocebe halklar (Borana/Rendille/Turkana/Somali), 1281-1895 penceresinde toplu tarihi belirli olay yok. Pencerenin bitis gunuyle (1895-07-01) ortusen 'Zanzibar kiyi topraklarinin Ingiltere'ye devri' muhtemelen zaten kunyenin t: kaynagi, mukerrer olmasin diye onerilmedi."
+  },
+  {
+   "id": "kru-grebo",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "mohave",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "multan-langah",
+   "not": "TDV 'multan' maddesi yeniden tam okundu — yalniz 1451 kurulus ve 1527 sonu veriyor. Wikipedia'daki 'Arghun-Langah War 1524-1528' ve 'Battle of Multan 1475' iddialari KAYNAKSIZ (disambiguation sayfasinda tek satir). §4 geregi kullanilamadi. bulunamadi."
+  },
+  {
+   "id": "poni",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "secwepemc",
+   "not": "1862 salgini pencere disi. 1782 salginin Secwepemc'e ozgu etkisi akademik kaynakta (Ignace & Ignace, McGill-Queen's UP) bulunamadi (kitap yalniz 1860'lar salginini veriyor, o da pencere disi). Fort Kamloops(1812)/HBC devralmasi(1821) ticaret mevkii, TOPRAK DEGISIMI degil. BULUNAMADI."
+  },
+  {
+   "id": "sidamo-kralliklari",
+   "not": "bulunamadi. Menelik'in 1891 fethinden ONCEKI, Sidama krallıklarinin kendi sinirlariyla ilgili tarihlenmiş bir olay bulunamadi. Oromo genislemesi Sidama-DISI Gibe bolgesi krallıklarini etkiliyor. Braukamper monografileri/'The Sidama Nation' onerilebilir, erisilemedi."
+  },
+  {
+   "id": "spiro",
+   "not": "Oklahoma Historical Society resmi kaydi yalniz genis bir araligi (MS 850-1450) veriyor, yazili kayit olmayan kultur, belirli GUN/YIL'a bagli olay yok. BULUNAMADI, mevcut kurulus/son yeterli cozunurlukte."
+  },
+  {
+   "id": "tiv",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "torva",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "tuareg-accer",
+   "not": "🔴 DÜŞÜK GÜVEN — kaynak yalnız Wikipedia, proje kuralına göre TEK DAYANAK OLAMAZ. Keenan/Duveyrier doğrulanmadan YAZILMAMALI, yalnız ipucu. 1911 Djanet düşüşü t=1911'i aştığı için değerlendirilmedi."
+  },
+  {
+   "id": "tubu-tibesti",
+   "not": "arastirilmadi (round-1'de kesin bulunamadi/merkezi devlet kurmamis halk sonucuna varilmisti, bu turda tekrarlanmadi)"
+  },
+  {
+   "id": "tui-tonga-imparatorlugu",
+   "not": "🔴 AGENT '1250 toprak-kayip' onerdi (Talakaifaiki'nin Samoa'dan kovulmasi) AMA kaynagin kendisi (Collocott 1924) yalniz '13.yy' diyor, 1250 GENEALOJIK TAHMIN — agent'in kendi ifadesiyle 'CLAUDE.md §4 yil uydurma kuralina gore kabul edilmeden once koordinator gormeli.' Bu proje kuralina gore (yil beli"
+  },
+  {
+   "id": "tututepec-krallik",
+   "not": "BULUNAMADI. '8 Geyik' donemi genislemesi 1083/11.yy sonu (f=1281 ONCESI, kullanilamaz). Aztek istila girismelerinin puskurtulmesi (1483-1519) genel donem ifadesi var ama TEK OLAY icin kesin tarih bulunamadi (Spores 1993, Joyce 2016 erisimi kisitliydi, 403/binary hata). Uydurma yil YAZILMADI."
+  }
+ ],
+ "yamalar": [
+  {
+   "id": "ammarogullari",
+   "t": "1347-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Emir Muhammed b. Sâbit, Cerbe adasını kuşatarak ele geçirdi.",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi (islamansiklopedisi.org.tr/ammarogullari--trablusgarp)"
+  },
+  {
+   "id": "ammarogullari",
+   "t": "1355-01-01",
+   "tur": "toprak-kayip",
+   "b": "Cenevizli amiral Philippo Doria'nın hilesi sonucu Trablusgarp elden çıktı; Sâbit ve kardeşi Ammâr kaçtı, şehir sonradan Ahmed b. Ali el-Mekkî'ye satıldı.",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi"
+  },
+  {
+   "id": "ammarogullari",
+   "t": "1371-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Ebû Bekir b. Muhammed, bedevî Arapların desteğiyle Trablusgarp'a yeniden hâkim oldu.",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi"
+  },
+  {
+   "id": "ammarogullari",
+   "t": "1393-01-01",
+   "tur": "ittifak",
+   "b": "Ammâroğulları, Sicilya Kralı Martin'e tâbi oldu.",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi"
+  },
+  {
+   "id": "arua",
+   "t": "1725-01-01",
+   "tur": "savas",
+   "b": "Fransizlar, Mexiana adasi yerlilerinin lideri Gaaimara ile birlikte 1725-1728 arasinda Arua topluluklarina tekrar tekrar saldirdi; Arualar bu donemde zaman zaman Portekizlilere karsi Fransiz seferlerine de katildi.",
+   "kaynak": "'Os aruã: políticas indígenas e políticas indigenistas na amazônia portuguesa (século XVII/XVIII)', Revista Brasileira de História & Ciências Sociais (hakemli akademik dergi)"
+  },
+  {
+   "id": "bamum",
+   "t": "1800-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Mfon Mbuembue (Bamum'un 11.hukumdari), erken 19.yy'da krallik topraklarini ilk kez genisleten hukumdar oldu.",
+   "kaynak": "Encyclopaedia Britannica 'Bamum' (WebSearch ozeti, 403). Britannica yalniz 'erken 19.yy' diyor, KESIN YIL YOK — ikincil kaynaklar 1780-1814 arasi farkli yillar veriyor, TEYIT EDILEMEDI"
+  },
+  {
+   "id": "bamum",
+   "t": "1810-01-01",
+   "tur": "savas",
+   "b": "Fulani lideri Hamman Sambo'nun Foumban'a saldirisi, Mbuembue'nin sehri hendek/surla tahkim etmesiyle puskurtuldu.",
+   "kaynak": "Encyclopaedia Britannica 'Bamum' (WebSearch ozeti). Yil yine 'erken 19.yy', bazi ikincil kaynaklar 1820'ler diyor, TEYIT GEREKIR"
+  },
+  {
+   "id": "baroda",
+   "t": "1802-03-15",
+   "tur": "antlasma",
+   "b": "İç isyan (Arap paralı askerler) ve rakip iddialara karşı İngiliz müdahalesiyle imzalanan Cambay Antlaşması ile Baroda, Maratha Konfederasyonu'ndan bağımsızlığını İngiliz metbûluğunu tanıma karşılığında kabul ettirdi.",
+   "kaynak": "Wikipedia 'Gaekwad dynasty' (doğrudan WebFetch ile okundu, madde kendisi bu cümle için ayrı dipnot vermiyor); ikincil atıf: Bond/Wright/Playne, Indian States (1922) — round 1'den devralındı"
+  },
+  {
+   "id": "bate",
+   "t": "1875-01-01",
+   "tur": "ittifak",
+   "b": "Baté hükümdarı Karamo Mori Kaba, animist Condé klanına karşı Samori Ture ile Tintioule'de ittifak kurdu; Baté, Samori'nin Vasulu İmparatorluğu'na katıldı.",
+   "kaynak": "bulunamadı (TDV kapsamı dışı, Britannica 403) — WebSearch sentezi, ikincil derlemeler; AKADEMİK BİRİNCİL KAYNAK DOĞRULANAMADI"
+  },
+  {
+   "id": "buna",
+   "t": "1896-04-01",
+   "tur": "isgal",
+   "b": "Samori Ture'nin sofa kuvvetleri, Buna hükümdarının Tieba Krallığı'ndan kaçan mültecileri teslim etmeyi reddetmesi üzerine Buna'yı işgal etti.",
+   "kaynak": "bulunamadı (TDV/Britannica'da yok) — WebSearch sentezi: 'Samori's Relations With Gonja, 1895-1897' (modernghana.com; doğrudan açılamadı, 403) — AKADEMİK BİRİNCİL KAYNAK DOĞRULANAMADI"
+  },
+  {
+   "id": "cherokee",
+   "t": "1777-07-20",
+   "tur": "antlasma",
+   "b": "Holston Irmagi'ndaki Long Island'da imzalanan antlasmayla Overhill Cherokee'leri Mavi Sirt Daglari'nin dogusundaki topraklarini terk etti.",
+   "kaynak": "Encyclopaedia Britannica, 'Treaty of Long Island of Holston (American Revolution) [1777]'"
+  },
+  {
+   "id": "cherokee",
+   "t": "1785-11-28",
+   "tur": "antlasma",
+   "b": "Hopewell Antlasmasi, Cherokee'lerin Fransiz Broad ve Holston nehirleri boyunca uzanan genis toprak parcalarini ABD'ye birakmasini sagladi.",
+   "kaynak": "Treaty with the Cherokee, 1785 (Kappler's Indian Affairs: Laws and Treaties, Oklahoma State University resmi antlasma arsivi)"
+  },
+  {
+   "id": "chimu-krallik",
+   "t": "1370-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Chimu hükümdarı Nancinpinco, Chimor vadisinin yukarı kesimini ve komşu Saña, Pacasmayo, Chicama, Virú, Chao ve Santa vadilerini fethederek krallığın topraklarını genişletti.",
+   "kaynak": "John Howland Rowe, 'The Kingdom of Chimor', Acta Americana 6 (1948), s.26-59 — hükümdar-yıl oranına dayanarak ~1370'e tarihliyor"
+  },
+  {
+   "id": "colla-krallik",
+   "t": "1430-01-01",
+   "tur": "savas",
+   "b": "Viracocha Inka'nin gizlice Lupaqa lideri Cari ile ittifak kurmasi uzerine Colla hukumdari, Inka yardimi ulasmadan Lupaqalari Paucarcolla yakininda saldirdi; Colla ordusu bu savasta yenilgiye ugradi.",
+   "kaynak": "Maria Rostworowski, History of the Inca Realm (cev. Iceland), Cambridge University Press, 1999, s.68-69"
+  },
+  {
+   "id": "fransiz-guyanasi",
+   "t": "1895-05-15",
+   "tur": "isgal",
+   "b": "Fransız kuvvetleri, sınır anlaşmazlığı sürerken tartışmalı Amapá bölgesini (Oiapoque-Araguari arası) Araguari nehrine kadar işgal etti.",
+   "kaynak": "Imago Mundi/Taylor & Francis akademik makale, 'A New Map of the Franco-Brazilian Border Dispute (1900)' (tandfonline.com); ayrıca Governo do Amapá resmi tarih kaydı 'O Laudo Suíço'"
+  },
+  {
+   "id": "fransiz-guyanasi",
+   "t": "1900-12-01",
+   "tur": "toprak-kayip",
+   "b": "İsviçre hakemlik kararı (Laudo Suíço), Fransa-Brezilya Contestado/Amapá anlaşmazlığını Brezilya lehine sonuçlandırdı; Fransa tartışmalı bölge iddiasını kalıcı kaybetti.",
+   "kaynak": "Governo do Estado do Amapá resmi tarih kaydı 'O Laudo Suíço' + UN Reports of International Arbitral Awards, 'The Guiana Boundary Case' (legal.un.org/riaa)"
+  },
+  {
+   "id": "hollanda-guyanasi",
+   "t": "1814-08-13",
+   "tur": "toprak-kayip",
+   "b": "Londra Sozlesmesi (Anglo-Dutch Convention 1814), Berbice/Demerara/Essequibo kolonilerinin Ingiltere'ye kalici devrini onayladi; Hollanda Guyanasi bu uc bolgeyi kalici kaybetti.",
+   "kaynak": "Anglo-Dutch Convention of 13 August 1814 — Sovereign Limits, 'Guyana-Suriname Land Boundary' resmi sinir incelemesi"
+  },
+  {
+   "id": "hollanda-guyanasi",
+   "t": "1891-05-01",
+   "tur": "antlasma",
+   "b": "Rus Cari III.Aleksandr'in hakemlik karari, Lawa nehrini Hollanda Guyanasi ile Fransiz Guyanasi arasindaki sinir olarak belirledi, tartismali altin bolgesini Surinam lehine birakti.",
+   "kaynak": "UN RIAA (legal.un.org/riaa) + France-Suriname border sinir incelemesi (Sovereign Limits); gun belirsiz, yalniz 'Mayis 1891'"
+  },
+  {
+   "id": "ingiliz-guyanasi",
+   "t": "1899-10-03",
+   "tur": "antlasma",
+   "b": "Paris'teki Anglo-Venezuela Hakemlik Mahkemesi, Venezuela-Ingiliz Guyanasi Essequibo sinir anlazmasini karara bagladi; tartismali bolgenin buyuk kismi Ingiliz Guyanasi'na birakildi.",
+   "kaynak": "Arbitral Award of 3 October 1899 (Guyana v. Venezuela), ICJ dava kaydi (icj-cij.org/case/171)"
+  },
+  {
+   "id": "kasance",
+   "t": "1850-01-01",
+   "tur": "savas",
+   "b": "Ticaret yollarinin Kasanje'yi atlayacak sekilde degismesiyle cikan anlazmazlik 1850'de Kasanje Kralligi ile Portekiz Angolasi arasinda savasa yol acti; Binbasi Francisco de Salles Ferreira komutasindaki Portekiz seferi gonderildi.",
+   "kaynak": "Encyclopaedia Britannica 'Kasanje' (WebSearch ozeti, 403); cagdas birincil kaynak basligi dogrulandi: 'Memória da expedição a Cassange... 1850'"
+  },
+  {
+   "id": "kolhapur",
+   "t": "1812-10-01",
+   "tur": "antlasma",
+   "b": "Kolhapur Racasi, Malwan limanini baris duzenine indirmeyi ve deniz korsanligindan vazgecmeyi taahhut eden bir anlasmayi Ingilizlerle imzaladi.",
+   "kaynak": "C.U. Aitchison, A Collection of Treaties, Engagements and Sanads Relating to India and Neighbouring Countries, 4th ed., Vol.VII Pt.II (Calcutta, 1892/1929), No.LXVII, s.198 — archive.org tam metin (in.ernet.dli.2015.97541), DOGRUDAN OKUNDU"
+  },
+  {
+   "id": "kolombiya-cumhuriyeti",
+   "t": "1922-03-24",
+   "tur": "toprak-kazanc",
+   "b": "Kolombiya ile Peru arasinda imzalanan Salomon-Lozano Antlasmasi ile Putumayo ve Amazon nehirleri arasindaki, Leticia limanini iceren koridor Kolombiya'ya birakildi, Amazon nehrine dogrudan cikis saglandi.",
+   "kaynak": "'Salomón-Lozano Treaty (1922)', Encyclopedia.com (Encyclopedia of Latin American History and Culture, Charles Scribner's Sons/Gale)"
+  },
+  {
+   "id": "konstantin-beyligi",
+   "t": "1832-03-27",
+   "tur": "toprak-kayip",
+   "b": "Fransız kuvvetleri Bône (Annaba) limanını ele geçirdi; Ali bin Aïssa şehri savunmadan tahliye etti, Beylik kuzey sahil şeridinin bir bölümünü kaybetti.",
+   "kaynak": "1911 Encyclopædia Britannica, 'Algeria' maddesi (Wikisource üzerinden tam metin) + fr.wikipedia 'Prise de Bône' (ikincil teyit)"
+  },
+  {
+   "id": "konstantin-beyligi",
+   "t": "1836-11-01",
+   "tur": "savas",
+   "b": "Mareşal Clausel komutasındaki 8.700 kişilik Fransız kuvveti Konstantin'e saldırdı; Ahmed Bey'in kuvvetleri saldırıyı püskürttü.",
+   "kaynak": "1911 Encyclopædia Britannica, 'Constantine (Algeria)' maddesi (Wikisource tam metin)"
+  },
+  {
+   "id": "lupaqa-krallik",
+   "t": "1430-01-01",
+   "tur": "savas",
+   "b": "Lupaqa lideri Cari, Inka hukumdari Viracocha ile gizli ittifaki sayesinde Paucarcolla yakininda saldiran Colla ordusunu yenilgiye ugratti; bu zafer Lupaqalari Titicaca havzasinin onde gelen siyasi gucu konumuna tasidi.",
+   "kaynak": "Maria Rostworowski, History of the Inca Realm, Cambridge University Press, 1999, s.68-69"
+  },
+  {
+   "id": "muisca-konfederasyonu",
+   "t": "1490-01-01",
+   "tur": "savas",
+   "b": "Bacata (Bogota) zipasi Saguamanchica'nin guney Muisca gucleri ile Hunza (Tunja) zaquesi Michua'nin kuzey Muisca gucleri Choconta'da carpisti; her iki lider de oldu, zipazgo galip geldi.",
+   "kaynak": "Lucas Fernandez de Piedrahita, Historia General de las Conquistas del Nuevo Reyno de Granada (1676) — Muisca tarihi akademik literaturunde (Langebaek) zipa-zaque savaslarinin temel kronigi"
+  },
+  {
+   "id": "nkore",
+   "t": "1843-01-01",
+   "tur": "savas",
+   "b": "Nkore Krali (Omugabe) Mutambuka, 1843'te komsu Busongora Krallıgına en az uc kez askeri sefer duzenledi; savas, Busongora Krali Kyomya II ile yapilan barisla sona erdi (Prenses Kibooga-Prens Bacwa evliligi).",
+   "kaynak": "Busongora-Chwezi Krallıgı resmi tarih sayfasi (busongora-chwezi.org) — WebSearch ozeti, birinci sinif akademik degil; muhtemel asil kaynak Samwiri Karugire, A History of the Kingdom of Nkore (Oxford, 1971), dogrulanamadi, TEYIT ONERILIR"
+  },
+  {
+   "id": "pingnan",
+   "t": "1868-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Pingnan Devleti'nin (Du Wenxiu) en genis sinirlarina ulastigi 1860-1868 doneminde kirk kasaba ve yuz koy ele gecirildi/tahrip edildi; Tengyue (Momein) gibi sehirlerde valilikler kuruldu.",
+   "kaynak": "John Anderson, E.B.Sladen, H.A.Browne, Mandalay to Momien (Macmillan, 1876) — cagdas Ingiliz heyet anlatisi, modern akademik literaturun (Atwill 2005) dayandigi birincil kaynak. Sladen heyeti Momein'i Mayis-Temmuz 1868'de ziyaret etti, sehri Pingnan valiligi altinda buldu"
+  },
+  {
+   "id": "purepecha-imparatorlugu",
+   "t": "1478-01-01",
+   "tur": "savas",
+   "b": "Aztek hukumdari Axayacatl'in ~32.000 kisilik ordusu, Taximaroa'da Purepecha kuvvetlerince agir yenilgiye ugratildi; bu zafer Purepecha topraklarina yonelik Aztek istilasini durdurdu.",
+   "kaynak": "Ross Hassig, Aztec Warfare: Imperial Expansion and Political Control, University of Oklahoma Press, 1988; ayrica Helen Perlstein Pollard, Tariacuri's Legacy: The Prehispanic Tarascan State, University of Oklahoma Press, 1993"
+  },
+  {
+   "id": "rabih",
+   "t": "1893-03-01",
+   "tur": "toprak-kazanc",
+   "b": "Rabih b.Zubeyr, Bagirmi Sultani Abdurrahman Gwaranga'ya saldirdi; Gwaranga'yi Manjaffa'da 3-5 ay kusattiktan sonra Mart 1893'te baskenti tahrip ederek Bagirmi Sultanligini topraklarina katti.",
+   "kaynak": "Encyclopaedia Britannica 'Rabih az-Zubayr' (WebSearch ozeti)"
+  },
+  {
+   "id": "ranquel",
+   "t": "1872-05-01",
+   "tur": "antlasma",
+   "b": "General Arredondo'nun Lebuco tolderialarini yakmasinin ardindan bes aylik muzakereler sonunda, Ranquel reisleri (Mariano Rosas, Baigorrita, Epumer Rosas, Yanquetruz) ile Arjantin ulusal hukumeti arasinda yeni bir baris antlasmasi imzalandi.",
+   "kaynak": "SciELO Argentina (hakemli), 'El frustrado proyecto de avance territorial del estado nacional entre 1869 y 1872', Quinto Sol"
+  },
+  {
+   "id": "rif-cumhuriyeti",
+   "t": "1924-11-15",
+   "tur": "toprak-kazanc",
+   "b": "İspanyol kuvvetlerinin Şevan (Xauen) bölgesinden çekilmesiyle (15 Kasım-13 Aralık 1924) boşalan geniş alan Rif kontrolüne geçti.",
+   "kaynak": "RUHM — Revista Universitaria de Historia Militar, 'Hacia el fin de la pesadilla: La retirada de Xauen...' (ruhm.es) — hakemli akademik dergi makalesi"
+  },
+  {
+   "id": "rif-cumhuriyeti",
+   "t": "1925-04-12",
+   "tur": "toprak-kazanc",
+   "b": "Abdülkerim el-Hattâbî'nin kuvvetleri Fransız Fas'ına (Ouergha vadisi hattı) saldırıya geçti, çok sayıda Fransız karakolunu ele geçirdi.",
+   "kaynak": "bulunamadı (Britannica 403) — DTIC raporu 'France and the Rif War' ile teyitli, doğrudan okunmadı"
+  },
+  {
+   "id": "sahaptin",
+   "t": "1847-11-29",
+   "tur": "savas",
+   "b": "Cayuse'larin Whitman Misyonu'na saldirisi (Whitman Katliami), Cayuse Savasi'ni baslatti; 1848'de Umatilla savascilari da katildi, savas 1850'ye kadar surdu.",
+   "kaynak": "HistoryLink.org (Washington State tarih kurumu) + Oregon Encyclopedia (Oregon Historical Society), 'Cayuse Indian War (1847-1855)'"
+  },
+  {
+   "id": "tuareg-ahaggar",
+   "t": "1881-02-16",
+   "tur": "savas",
+   "b": "Ahitagel liderliğindeki Kel Ahaggar Tuaregleri, Bir el-Garama'da Albay Flatters'ın Sahra keşif heyetini pusuya düşürüp neredeyse tamamen imha etti.",
+   "kaynak": "bulunamadı — akademik makaleye (Dialnet/ResearchGate) doğrudan erişilemedi; WebSearch özeti + Wikipedia ile tarih teyidi"
+  },
+  {
+   "id": "yeke",
+   "t": "1870-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Msiri, ~1870'te guney Katanga'daki bakir bolgesinin buyuk kismini, onceden hakim olan Lunda hukumdarlarindan ele gecirdi.",
+   "kaynak": "Encyclopaedia Britannica 'Msiri' (WebSearch ozeti, 403)"
+  },
+  {
+   "id": "zapotek-krallik",
+   "t": "1497-01-01",
+   "tur": "savas",
+   "b": "Aztek imparatoru Ahuitzotl, Zapotek kralı Cosijoeza'ya karşı sefer başlattı; Zapotekler Guiengola kalesine çekilerek yedi ay süren kuşatmaya direndi ve bağımsızlıklarını korudu.",
+   "kaynak": "Wikipedia 'Cosijoeza'/'Guiengola' (Zeitlin 2005 atfıyla, Judith Francis Zeitlin — akademik antropolog, ilgili yayınları var) — doğrudan akademik kaynak açılmadı, round 1'den devralındı"
+  },
+  {
+   "id": "zende",
+   "t": "1894-05-12",
+   "tur": "bolunme",
+   "b": "12 Mayis 1894 Anglo-Kongo Antlasmasi, Bahrulgazal havzasini (Zande sultanliklarinin bulundugu bolge) somurge gucleri arasinda paylastirma surecini baslatti; Zande sultanliklari Ingiliz Sudani, Belcika Kongosu ve Fransiz Ekvatoral Afrikasi arasinda bolundu.",
+   "kaynak": "Encyclopaedia Britannica 'Lado Enclave' (antlasma tarihi) + HAU: Journal of Ethnographic Theory c.14 s.3 (University of Chicago Press, hakemli) — WebSearch ozeti"
+  },
+  {
+   "id": "zimbabve-kralligi",
+   "t": "1430-01-01",
+   "tur": "toprak-kayip",
+   "b": "Büyük Zimbabve'den prens Nyatsimba Mutota, Tonga ve Tavara halklarını yenip Chitakochangonya Tepesi'nde kendi hanedanını (Mutapa Krallığı'nın çekirdeği) kurdu; elit/nüfus göçü Büyük Zimbabve'nin siyasi öneminin sona ermesine yol açtı.",
+   "kaynak": "orta güven — tersiyer kaynaklar (worldhistory.org, africanhistoryextra.com); Britannica 'Mwene Matapa' bizzat açılıp teyit edilmedi — round 1'den devralındı, tur 'toprak-kazanc'tan 'toprak-kayip'e çevrildi (Zimbabve'nin kendi bakış açısından kayıp)"
+  }
+ ]
+}
