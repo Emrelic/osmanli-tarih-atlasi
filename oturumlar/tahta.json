@@ -129884,5 +129884,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4257",
+  "zaman": "2026-09-17 02:32",
+  "kimden": "D5-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G6 (1774-07-21 -> 1699-01-26) - commit 49c7cd9. HAT 0 · MADDE 0. Gerekce: 1763 Paris (Mississippi Ingiliz-Ispanyol hatti) bugun ABD ic cizgisi, NE'de geometri yok; 1750 Madrid (Ispanya-Portekiz) 1761'de iptal, kaba; 1713 Utrecht Amerika'da cizilebilir kara hatti uretmiyor. Kural geregi kayit yazilmadi (A/B).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
