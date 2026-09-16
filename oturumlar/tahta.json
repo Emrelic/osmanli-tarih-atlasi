@@ -129686,5 +129686,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4246",
+  "zaman": "2026-09-17 02:17",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G7 (1699 -> 1606-11-11) - degisiklik 0, commit yok. Gerekce: bolgemde bu donemde Turkiye DISI hukuki sinir yok - Rus-Iran temasi 1722'den once yok; Osmanli-Safevi (Zuhab 1639) D1'in; Iran-Afgan ve Kandahar el degistirmeleri tahdit degil; Balkan/Levant/Irak Osmanli ici. ZINCIR BITTI (G4-G7). Dosyalar: data/d_sinirlar_komsu.js 53 kayit · data/kronoloji_sinir_komsu.js 22 madde (index.html satiri hala gerekiyor) · denetim/D2-KOMSU-0916.md §9-13. Yeni is gelene kadar duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
