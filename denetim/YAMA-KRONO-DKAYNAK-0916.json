@@ -1,0 +1,652 @@
+{
+ "olusturan": "D-KAYNAK (Sonnet) - DALGA-0055.md bolum C gorevi, 16-17 Eylul 2026",
+ "amac": "Eksik devlet kronolojileri: bati/orta/dogu/guney/kuzey-afrika, guney/kuzey-amerika, orta-amerika-karayip, guney/guneydogu/dogu-asya, okyanusya bolgelerinden 92 kunye (denetim/KRONOLOJI-EKSIK-0916.json bolgeye_gore). devletler.js'e YAZILMADI, bu yama 1.MURAT tarafindan indirilecek.",
+ "yontem": "92 kunye 4 paralel arastirma ajanina bolustu (WebSearch+WebFetch/tarayici, TDV'nin kapsamadigi cografyalar icin akademik kaynak: Britannica, UNESCO, hakemli dergi/universite yayinlari; forum/blog/Wikipedia-tek-basina YASAK). Ajan onerileri once kunyenin GERCEK f/t penceresiyle (data/devletler.js) mekanik olarak dogrulandi: pencere disina dusen ve mevcut kayitlarla mukerrer olan onerilerin TAMAMI elendi (49/92 kunyede en az bir satir hayatta kaldi, 66 satir). Ayrica 5 satir kaynak kalitesi (Wikipedia tek dayanak / 'temsili' uydurma tarih / ayni-olay-farkli-etiket mukerrerligi) yuzunden elle cikarildi.",
+ "durum": "Arastirma + pencere/mukerrer/kaynak-kalitesi filtresi TAMAMLANDI. devletler.js'e UYGULANMADI.",
+ "onemli_notlar": [
+  "🔴 'arma' kunyesi (f:1750,t:1760) TDV'ye gore YALNIZ Ebu'l-Mahalli'nin 1750-1760 Tinbuktu yonetimini temsil ediyor - agent'in arastirdigi 1591-1700'ler genel Arma/Pasalik donemi BASKA, DAHA GENIS bir tarihsel donem; o yuzden agent'in 1603 onerisi pencere disi kaldi ve GERCEKTEN bu kunyeye ait DEGIL (taksonomik uyusmazlik, hata degil).",
+  "🔴 'herero' icin 4 guclu Britannica-kaynakli olay bulundu (Waterberg Muharebesi 1904-08-11, yok etme emri 1904-10-03, kamp karari 1904-12-09) AMA hepsi kunyenin kendi t: degerinden (1904-01-12, ayaklanmanin BASLANGICI) SONRA tarihleniyor - bu yamaya EKLENEMEDI. D-KUNYE/1.MURAT bu kunyenin t: degerini 1904-10-03 ya da sonrasina cekmeyi degerlendirebilir; o zaman bu 4 olay ayri bir yama turu olarak sunulabilir.",
+  "🔴 'muisca-konfederasyonu': kunyenin kendi t:1537-08-01, agent'in bulduğu Bogota kurulus tarihi (1538-08-06) BUNDAN SONRA - ayni celiski turu, eklenmedi.",
+  "🟡 'ammarogullari' ve 'bate' icin GERCEK KIMLIK bu turda COZULDU (sirasiyla: Trablusgarp'ta 1327-1401 mahalli hanedan; Kankan/Bate Mandinka ulema devleti 1650-1879) ama hicbir yeni olay bulunamadi - kunyenin kendi mevcut 2 kaydi zaten TDV kaynakli ve yeterli gorunuyor (ammarogullari) ya da hic arastirilmadi (bate, yanlis cografyada arandigi icin).",
+  "🟡 'zimbabve-kralligi' (f:1281,t:1450) BUYUK ZIMBABVE'NIN KENDISI - ardili Mutapa (ayri kunye, f:1450,t:1695) ILE KARISTIRILMAMALI; bu ayrim bu turda dogrulandi.",
+  "🟡 43/92 kunyeye HICBIR yeni satir eklenemedi - cogu merkezi bir devlet kurmamis halklar (Tiv, Birom, Kru-Grebo, Kamba, Berabis...) ya da kaynak akademik bari karsilamiyor (Kolhapur, Diaguita-Calchaqui, Tuareg-Accer). Liste ve gerekce 'olmayanlar' alaninda."
+ ],
+ "olmayanlar": [
+  {
+   "id": "adar",
+   "not": "bulunamadi - bulunamadı — aramalar komşu Damagaram Sultanlığı'na (AYRI birim) yönlendi, Adar'ın kendi siyasi yapısı netleşmedi."
+  },
+  {
+   "id": "ammarogullari",
+   "not": "bulunamadi - bulunamadı VE KİMLİK TESPİTİ BAŞARISIZ. En yakın bulgular: (1) Tunus'ta Ben Ammar ailesi — saray/kaid ailesi, toprak sahibi hanedan DEĞİL; (2) Kuku Kr"
+  },
+  {
+   "id": "apaci-ovalar",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Senato onayı Temmuz 1868'de; hangisinin olay tarihi sayılacağı reviewer'a bırakıldı."
+  },
+  {
+   "id": "arma",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - 1591 fetih muhtemelen zaten mevcut kayıtta. EBSCO Research Starters 'Rise of the Arma in Timbuktu' makalesi bulundu ama içeriği okunmadı, insan teyit "
+  },
+  {
+   "id": "arua",
+   "not": "bulunamadi - BULUNAMADI. 'Arua/Aruã' halkı Amazon ağzı/Marajó-Caviana çevresinde 17-18.yy Arawak dilli halk (pib.socioambiental.org - ISA kurumu) ama tek bir siyas"
+  },
+  {
+   "id": "bali-kralliklari-pejeng",
+   "not": "bulunamadi - BULUNAMADI. Mevcut 2 madde (1292 bağımsızlaşma, 1343 Gajah Mada fethi) zaten CLAUDE.md §3.5.0'ın doğruladığı olaylar. Aradaki dönem için bulunan her ş"
+  },
+  {
+   "id": "bamum",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - 🔴 ÇELİŞKİ: Britannica kuruluşu '18.yy başı' diyor, Wikipedia 1394 diyor — mevcut kurulus kaydı hangisini kullanıyor kontrol edilmeli."
+  },
+  {
+   "id": "bate",
+   "not": "bulunamadi - bulunamadı VE KİMLİK BELİRSİZ — 'Bate' teriminin tam karşılığı bu oturumda tespit edilemedi (muhtemelen Fouta Djallon'un dokuz eyaletinden birinin tra"
+  },
+  {
+   "id": "berabis",
+   "not": "bulunamadi - bulunamadı. Merkezi devlet değil, Sahra tuz ticareti yapan göçebe Arap kabile konfederasyonu. Taneciklik sorunu."
+  },
+  {
+   "id": "birom-plato",
+   "not": "bulunamadi - bulunamadı (nitelikli) — merkezi krallık yok, kademeli sömürge entegrasyonu tek tarihe bağlanamıyor."
+  },
+  {
+   "id": "buna",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - 🔴 KİMLİK KARIŞIKLIĞI RİSKİ: 'Buna' Bono/Bonoman (Gana Akan devleti, 1723 Asante'ce yıkıldı) ile Bouna (Fildişi Sahili Kulango/Dyula krallığı) karışmış"
+  },
+  {
+   "id": "charrua",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Gün kesin (11 Nisan 1831)."
+  },
+  {
+   "id": "cherokee",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Reviewer National Archives veya Britannica ile teyit etmeli (403 engeliyle bu turda açılamadı)."
+  },
+  {
+   "id": "dan-guro",
+   "not": "bulunamadi - bulunamadı — merkezi devlet yok. Tek aday (1915'e kadar süren direniş) süregelen süreç, tek tarihe bağlanamıyor, kaynak zayıf (minorityrights.org)."
+  },
+  {
+   "id": "diaguita-calchaqui-konfederasyonu",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - 🔴 CLAUDE.md'nin akademik kaynak şartı KARŞILANAMADI — yalnız Wikipedia/Fandom bulundu. Reviewer bir Andean tarihçiliği kaynağı (ör. Lorandi, Ana María"
+  },
+  {
+   "id": "ekvador-cumhuriyeti",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - 1830-05-13 günü ayrıca doğrulanamadı, reviewer YYYY-01-01'e çekebilir."
+  },
+  {
+   "id": "fransiz-guyanasi",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Bu kimlik hiç bağımsızlaşmadı, 'son' yerine 1946 statü değişikliği önerildi. Atlas penceresi 1946'yı kapsamıyorsa bu madde anlamsız olabilir, kontrol "
+  },
+  {
+   "id": "gonja",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - 🔴 TARİH HASSASİYETİ DÜŞÜK — kaynaklar 1623-1666 aralığı veriyor, 1650 TEMSİLÎ. CLAUDE.md §4 'yıl uydurma' riskine dikkat, insan gözden geçirici künyen"
+  },
+  {
+   "id": "kamba",
+   "not": "bulunamadi - BULUNAMADI — Kamba merkezi devlet kurmamış bir halk (~1300'den itibaren yerleşim, 15-17.yy yoğun göç). Zengin ticaret tarihi var ama kesin tarihli dev"
+  },
+  {
+   "id": "kanem-tubu",
+   "not": "bulunamadi - BULUNAMADI + TASNİF SORUNU: Ayrı bağımsız siyasi tarihi olan bir 'Kanem-Tubu' devleti bulunamadı. Kanem'in MS~800 civarı Teda-Daza(Tubu) göçebe konfed"
+  },
+  {
+   "id": "karagve",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - İnsan incelemeci Katoke'nin UNESCO monografisini bizzat kontrol etmeli — en iyi aday kaynak budur."
+  },
+  {
+   "id": "kasance",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - 1910-1911'de Portekiz Angola'sına katılma iddiası yalnız düşük kaliteli kaynaklarda, Britannica/akademik ile teyit edilemedi — 'son' için öneri YAPILM"
+  },
+  {
+   "id": "kenya-kuzey-halklari",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - TASNİF: Çok farklı halkı tek şemsiyede topluyor, atlas bu tasnifi yeniden değerlendirmeli."
+  },
+  {
+   "id": "kolhapur",
+   "not": "bulunamadi - 1812 tarihi ('İngiliz üstünlüğü Kolhapur'da 1812'de tanındı') yalnız ikincil/blog kaynaklarda tekrarlanıyor (Aitchison derlemesine atıfla), doğru Aitc"
+  },
+  {
+   "id": "kru-grebo",
+   "not": "bulunamadi - bulunamadı (nitelikli) — 1856 Liberian-Grebo Savaşı ve 1915 Kru Kıyısı İsyanı adaylar ama akademik doğrulama yapılamadı, halk-sömürgeci çatışması nite"
+  },
+  {
+   "id": "lupaqa-krallik",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Hemming 1970 klasik/saygın akademik eser (standart İnka tarihi referansı)."
+  },
+  {
+   "id": "muisca-konfederasyonu",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Fetih süreci 1537-1540 sürdü; 1538 Ağustos, kalıcı idari merkeze dönüşüm tarihi olarak seçildi."
+  },
+  {
+   "id": "multan-langah",
+   "not": "zaten 2 TDV-kaynakli saglam kayit var (kurulus 1451, son 1527) - arastirilmadi, ek gerek yok"
+  },
+  {
+   "id": "pingnan",
+   "not": "bulunamadi - TDV 'panthay' maddesi baştan sona okundu (WebFetch) — yalnız Dali 1855 fethini ve Yunnan-Fu'ya yayılmayı anlatıyor, ek somut tarihli olay YOK. Mevcut "
+  },
+  {
+   "id": "poni",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Wikipedia yalnız lokatör olarak kullanıldı, dipnotlardaki asıl kaynaklar (Ming Şi, 2009 ders kitabı) bizzat açılmadı ama Wikipedia'nın verdiği alıntıl"
+  },
+  {
+   "id": "rabih",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Muhtemelen zaten mevcut kurulus/son kayıtlarıyla örtüşüyor, teyit amaçlı."
+  },
+  {
+   "id": "ranquel",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Kesin gün bulunamadı, yalnız yıl; YYYY-01-01 kullanıldı."
+  },
+  {
+   "id": "sahaptin",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - 'Sahaptin' geniş dil ailesini kapsıyor; bu olay yalnız üç halkı (Cayuse, Umatilla, Walla Walla) kapsıyor."
+  },
+  {
+   "id": "secwepemc",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Gün bilinmiyor, yalnız yıl."
+  },
+  {
+   "id": "spiro",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Eyalet düzeyinde tanınmış akademik referans kurumu."
+  },
+  {
+   "id": "tiv",
+   "not": "bulunamadi - bulunamadı (nitelikli) — Tiv merkezi devleti hiç olmamış bir halk (Britannica doğruluyor). 1906 İngiliz girişi devlet fethi değil. Taksonomik: devlet "
+  },
+  {
+   "id": "torva",
+   "not": "bulunamadi - Mevcut kurulus(1450)/son(1683) DOĞRU ve Britannica ile teyit edildi (doğrudan açıldı: 'flourishing... until the end of the 17th century... In 1683, th"
+  },
+  {
+   "id": "tuareg-accer",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Zayıf tek kaynaklı vaka, insan mutlaka bağımsız akademik kaynakla teyit etmeli."
+  },
+  {
+   "id": "tuareg-ahaggar",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - İnsan gözden geçirici Douglas Porch, The Conquest of the Sahara gibi bir üniversite yayınıyla teyit etmeli."
+  },
+  {
+   "id": "tubu-tibesti",
+   "not": "bulunamadi - BULUNAMADI (kaynak yetersiz) — Tibesti Tubularının 'derde' kurumu (16.yy sonu) ve Çad'ın 1965 Bardaï garnizonu bilgisi yalnız Wikipedia'ya dayanıyor, "
+  },
+  {
+   "id": "tututepec-krallik",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Spores 1993 (Cambridge, hakemli) en güçlü kaynaklardan biri, kuruluşu ~MS 1000 olarak veriyor (popüler '1083, 8 Geyik' anlatısıyla tam örtüşmüyor)."
+  },
+  {
+   "id": "yeke",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - Muhtemelen mevcut kurulus/son kayıtlarıyla örtüşüyor, temiz ve kesin tarihli."
+  },
+  {
+   "id": "zende",
+   "not": "bulundu ama pencere/mukerrer/kaynak testinde elendi - TASNİF UYARISI: Zande tek merkezi devlet değil, Vungara(doğu)/Bandia(batı) hanedanlarının rakip krallıkları. Sömürge dönemi paylaşımı için kesin tarih"
+  }
+ ],
+ "yamalar": [
+  {
+   "id": "adamava",
+   "t": "1901-01-01",
+   "tur": "toprak",
+   "b": "Adamava Emirliği, Fulani İmparatorluğu'nun en doğu emirliği olarak 1901'de Britanya Kuzey Nijerya'sı ile Alman Kamerun'u arasında ikiye bölündü; I.Dünya Savaşı sonrası Kamerun kesiminin bir kısmı Fransız yönetimine geçti.",
+   "kaynak": "Encyclopaedia Britannica, 'Adamawa' (traditional emirate, Africa) — DOĞRUDAN tarayıcıyla açılıp teyit edildi"
+  },
+  {
+   "id": "agadez-sultanligi",
+   "t": "1405-01-01",
+   "tur": "kurulus",
+   "b": "Tuaregler tarafından Aïr Dağları'nda Agadez Sultanlığı kuruldu (yıl biliniyor, gün bilinmiyor).",
+   "kaynak": "Minahan, Encyclopedia of Stateless Nations (2016) — WebSearch özetinden, birincil metin doğrudan açılamadı"
+  },
+  {
+   "id": "agadez-sultanligi",
+   "t": "1500-01-01",
+   "tur": "toprak",
+   "b": "Agadez Sultanlığı Songhay İmparatorluğu tarafından fethedildi ve bağımsızlığını kaybetti.",
+   "kaynak": "Minahan (2016), a.g.e. — WebSearch özetinden"
+  },
+  {
+   "id": "agadez-sultanligi",
+   "t": "1591-01-01",
+   "tur": "toprak",
+   "b": "Songhay İmparatorluğu'nun (Fas istilasıyla) yıkılmasının ardından Agadez Sultanlığı yeniden bağımsızlığına kavuştu.",
+   "kaynak": "Minahan (2016), a.g.e. — WebSearch özetinden"
+  },
+  {
+   "id": "alutiiq",
+   "t": "1784-08-01",
+   "tur": "toprak",
+   "b": "Rus tüccar Grigory Şelihov'un adamları Kodiak Adası'ndaki Refuge Rock'ta (Awa'uq) sığınan Koniag Alutiiq halkına saldırdı; 200-500 kişi öldürüldü, Rus sömürge egemenliğinin başlangıcı oldu.",
+   "kaynak": "Wikipedia 'Awa'uq Massacre' + ResearchGate arkeolojik makale (başlık/özet üzerinden, tam metin açılmadı)"
+  },
+  {
+   "id": "bagirmi",
+   "t": "1893-01-01",
+   "tur": "toprak",
+   "b": "Bağırmi Sultanlığı, Rabih ez-Zübeyr tarafından 1893'te işgal edilip tabi hale getirildi (daha önce 1805'te Vaday tarafından da fethedilmişti).",
+   "kaynak": "Encyclopaedia Britannica 'History of Baguirmi' (summary) — WebSearch üzerinden alıntı"
+  },
+  {
+   "id": "bagirmi",
+   "t": "1897-01-01",
+   "tur": "toprak",
+   "b": "Fransa 1897'de Bağırmi üzerinde protektora ilan etti; tam otorite Rabih'in 1900-1901 Kousséri'de yenilmesinden sonra yerleşti.",
+   "kaynak": "aynı kaynak"
+  },
+  {
+   "id": "banda-gbaya",
+   "t": "1800-01-01",
+   "tur": "toprak",
+   "b": "19.yy başında Gbaya halkı, Usman dan Fodio cihadından kaçarak kuzey Nijerya'dan güneydoğuya göç etti; karşılaştıkları halkları yendi/özümsedi.",
+   "kaynak": "Encyclopaedia Britannica 'Gbaya' — WebSearch üzerinden"
+  },
+  {
+   "id": "baroda",
+   "t": "1802-03-15",
+   "tur": "antlasma",
+   "b": "İç isyan (Arap paralı askerler) ve rakip iddialara karşı İngiliz müdahalesiyle imzalanan Cambay Antlaşması ile Baroda, Maratha Konfederasyonu'ndan bağımsızlaşıp İngiliz metbûluğunu kabul etti (subsidiary alliance).",
+   "kaynak": "Wikipedia 'Gaekwad dynasty' (doğrudan WebFetch ile okundu, ama maddenin kendisi bu cümle için ayrı dipnot vermiyor); ikincil atıf: Bond/Wright/Playne, Indian States (1922) — açılıp doğrulanamadı"
+  },
+  {
+   "id": "borgu",
+   "t": "1783-01-01",
+   "tur": "toprak",
+   "b": "Borgu, Gberegburu savaşında Oyo İmparatorluğu'nu yenip özerkliğini yeniden kazandı (haraç 1818'e kadar sürdü).",
+   "kaynak": "Adekunle, Politics and Society in Nigeria's Middle Belt (2004) — Wikipedia atfı üzerinden"
+  },
+  {
+   "id": "cezayir-fransiz",
+   "t": "1848-01-01",
+   "tur": "toprak",
+   "b": "Fransız hükümeti kıyı Cezayir'ini resmen Fransa'ya bağladı; Alger, Oran, Konstantin adlı üç département kuruldu.",
+   "kaynak": "Encyclopaedia Britannica 'History of Algeria' — WebSearch özetinden (403)"
+  },
+  {
+   "id": "cezayir-fransiz",
+   "t": "1962-07-05",
+   "tur": "son",
+   "b": "Cezayir Bağımsızlık Savaşı (1954-1962) sonunda Cezayir bağımsızlığını ilan etti.",
+   "kaynak": "US Department of State, Office of the Historian, 'Algeria' (history.state.gov) — WebSearch özetinden; tarih çok kaynaklı doğrulanmış, güvenilirliği yüksek"
+  },
+  {
+   "id": "chimu-krallik",
+   "t": "1470-01-01",
+   "tur": "toprak",
+   "b": "İnka İmparatoru Tupac İnka Yupanki, Chimor Krallığı'nı fethetti; kral Minchançaman esir alınıp Cuzco'ya götürüldü, Chimú İnka'ya bağlı vasal devlete dönüştü.",
+   "kaynak": "Encyclopedia.com 'Chimú' — doğrudan WebFetch ile okundu ve teyit edildi"
+  },
+  {
+   "id": "colla-krallik",
+   "t": "1450-01-01",
+   "tur": "toprak",
+   "b": "İnka hükümdarı Pachacuti, Colla Krallığı'nı fethetti; Colla beyi Chuqui Capac Hatunqulla yakınında yenilip esir alındı.",
+   "kaynak": "Rostworowski, María (2001), 'Pachacútec Inca Yupanqui', Instituto de Estudios Peruanos, ss.156-159, 93-94, 101 (Wikipedia atfı üzerinden doğrulandı)"
+  },
+  {
+   "id": "darul-kuti",
+   "t": "1890-01-01",
+   "tur": "toprak",
+   "b": "Rabih ez-Zübeyr 1890'da Dar el-Kuti hükümdarını tahttan indirip yerine Muhammed es-Senûsî'yi şeyh atadı, bölgeyi kendi nüfuz alanına kattı.",
+   "kaynak": "Dennis D. Cordell, Dar al-Kuti and the Last Years of the Trans-Saharan Slave Trade, University of Wisconsin Press, 1985 — Cambridge Core/ProQuest akademik kitap incelemeleri üzerinden teyit edildi, kitap doğrudan okunmadı"
+  },
+  {
+   "id": "gambiya-mandinka",
+   "t": "1889-08-10",
+   "tur": "toprak",
+   "b": "10 Ağustos 1889 tarihli Anglo-Fransız Sözleşmesi'yle Gambiya Nehri kıyısındaki Mandinka krallıkları İngiliz Gambiyası ile Fransız Senegal'i arasında bölündü.",
+   "kaynak": "Anglo-French Convention of 1889 (uluslararası antlaşma metni, tarihi bağımsız doğrulanabilir) — arka plan: J. M. Gray, A History of the Gambia, Cambridge University Press, 1940 (tam metne erişilemedi)"
+  },
+  {
+   "id": "gurma",
+   "t": "1896-01-01",
+   "tur": "toprak",
+   "b": "Fransızlar Gurma krallıklarını ele geçirdi, bölge Fransız Yukarı Volta kolonisine katıldı.",
+   "kaynak": "Encyclopaedia Britannica 'Gurma' — WebSearch özetinden (403 nedeniyle doğrudan açılamadı)"
+  },
+  {
+   "id": "gvalyar",
+   "t": "1803-12-30",
+   "tur": "antlasma",
+   "b": "İkinci Anglo-Maratha Savaşı sonrası Surji-Anjangaon Antlaşması ile Sindiya, Ganj-Cemna Doab'ı, Delhi-Ağra bölgesini ve başka toprakları İngilizlere bıraktı (Gvalyar/Gohad 1805 revizyonuyla kısmen iade edildi).",
+   "kaynak": "Encyclopaedia Britannica 'Treaty of Surji-Arjungaon' — WebSearch özetinden, sayfa 403 verdi doğrudan açılamadı"
+  },
+  {
+   "id": "herero",
+   "t": "1884-01-01",
+   "tur": "toprak-kayip",
+   "b": "Almanya, Herero topraklarını kapsayan Alman Güney Batı Afrikası'nı 1884-1890 arasında resmen sömürgeleştirdi; yerleşimci nüfus artışı Herero'nun toprak/su/sığır kaynaklarına erişimini daralttı.",
+   "kaynak": "Encyclopaedia Britannica, 'German-Herero conflict of 1904-07' — tarayıcıyla DOĞRUDAN açılıp tam metin okundu"
+  },
+  {
+   "id": "hollanda-guyanasi",
+   "t": "1667-07-31",
+   "tur": "kurulus",
+   "b": "Breda Antlaşması imzalandı; Hollanda İngiltere'den Surinam'ı devraldı (Yeni Amsterdam karşılığında).",
+   "kaynak": "Wikipedia 'Treaty of Breda (1667)' — doğrudan WebFetch ile okundu, tarih teyit edildi"
+  },
+  {
+   "id": "hollanda-guyanasi",
+   "t": "1975-11-25",
+   "tur": "son",
+   "b": "Hollanda, Surinam'ın bağımsızlığını tanıdı; Johan Ferrier ilk cumhurbaşkanı oldu.",
+   "kaynak": "Encyclopaedia Britannica 'Suriname/History' — WebSearch özetinden (403 nedeniyle doğrudan açılamadı)"
+  },
+  {
+   "id": "indor",
+   "t": "1818-01-06",
+   "tur": "antlasma",
+   "b": "Üçüncü Anglo-Maratha Savaşı'nda Mahidpur Muharebesi sonrası Mandsaur Antlaşması ile Holkar, Narmada güneyi ve Khandeş topraklarını terk etti, İngiliz himayesine (subsidiary alliance) girdi.",
+   "kaynak": "Treaty of Mandsaur (1818) özgün antlaşma metni — Wikisource (en.wikisource.org/wiki/Treaty_of_Mandsaur), madde 3-6 DOĞRUDAN OKUNDU (birincil kaynak)"
+  },
+  {
+   "id": "ingiliz-guyanasi",
+   "t": "1831-03-04",
+   "tur": "kurulus",
+   "b": "IV. William, Essequibo-Demerara ve Berbice sömürgelerini birleştirip İngiliz Guyanası kolonisini kuran bir Kraliyet Buyruğu yayımladı; ilk vali Benjamin D'Urban oldu.",
+   "kaynak": "guyananews.org, 'The Beginning of British Guiana' (chapter 37) — doğrudan doğrulandı"
+  },
+  {
+   "id": "ingiliz-guyanasi",
+   "t": "1966-05-26",
+   "tur": "son",
+   "b": "Guyana Bağımsızlık Yasası (1966) yürürlüğe girdi; koloni 'Guyana' adını aldı.",
+   "kaynak": "Guyana Independence Act 1966, legislation.gov.uk (İngiliz resmî mevzuat metni, doğrudan okundu)"
+  },
+  {
+   "id": "kaonde-ila",
+   "t": "1700-01-01",
+   "tur": "toprak",
+   "b": "16-17.yy'da yerleşen Kaonde, kuzeydeki Lunda İmparatorluğu'nu üst efendi tanıdı; 18.yy'da özerk Kaonde şeflikleri ortaya çıktı, 19.yy'da Lozi ile savaş/İla'ya köle baskınları.",
+   "kaynak": "Encyclopaedia Britannica 'Kaonde' — WebSearch üzerinden"
+  },
+  {
+   "id": "kolombiya-cumhuriyeti",
+   "t": "1903-11-03",
+   "tur": "toprak",
+   "b": "Panama, ABD desteğiyle Kolombiya'dan ayrılarak bağımsızlığını ilan etti; Kolombiya Panama Kıstağı'nı kalıcı olarak kaybetti.",
+   "kaynak": "Encyclopaedia Britannica ile örtüşen WebSearch + Wikipedia 'Secession of Panama from Colombia' — teyitli"
+  },
+  {
+   "id": "konstantin-beyligi",
+   "t": "1837-10-13",
+   "tur": "son",
+   "b": "General Valée komutasındaki Fransız ordusu Konstantin kuşatmasını kazanıp şehri aldı; son bey Ahmed Bey 1848'e kadar dağlarda direndi ama beyliğin fiilî sonu budur.",
+   "kaynak": "Çok kaynaklı, tutarlı, iyi belgelenmiş tarih — Encyclopaedia Britannica 'History of Algeria' (WebSearch özeti) + ResearchGate makalesi"
+  },
+  {
+   "id": "kutai",
+   "t": "1575-01-01",
+   "tur": "kurulus",
+   "b": "Kutai Kartanegara hükümdarı Aji Raja Mahkota Mulia Alam İslâm'ı kabul etti; sultanlığın İslâmî dönemi başladı (künyenin f: tarihiyle birebir örtüşüyor).",
+   "kaynak": "Muhammad Sarip, Histori Kutai (RV Pustaka Horizon, Samarinda, 2023) — Wikipedia 'Sultanate of Kutai' üzerinden erişildi, birincil metin doğrudan okunmadı"
+  },
+  {
+   "id": "kutai",
+   "t": "1635-01-01",
+   "tur": "toprak",
+   "b": "Kutai Kartanegara, eski Hindu krallığı Kutai Martapura'yı (Muara Kaman) savaşla yenip topraklarına kattı; birleşik devlet 'Kutai Kartanegara ing Martapura' adını aldı.",
+   "kaynak": "Muhammad Sarip (2023); Sarip & Sheilla, Historipedia Kalimantan Timur (2024) — aynı yolla erişildi"
+  },
+  {
+   "id": "mangbetu",
+   "t": "1859-01-01",
+   "tur": "toprak",
+   "b": "Nabiembali'nin oğulları babalarına karşı ayaklanıp 1859'da onu öldürdü, kendi bağımsız krallıklarını kurdular; tek merkezli krallık parçalandı.",
+   "kaynak": "Encyclopedia.com 'Mangbetu'"
+  },
+  {
+   "id": "manica",
+   "t": "1600-01-01",
+   "tur": "toprak",
+   "b": "Manyika bölgesindeki altın sahaları en az 17.yy'dan beri işletiliyordu; altın Mozambik kıyısı liman kasabalarına taşınıp Hint/Arap/Portekizli tüccarlarla ticarete konu oluyordu (yalnız 'en az erken 17.yy' biliniyor).",
+   "kaynak": "Encyclopaedia Britannica, 'Manyika' — DOĞRUDAN açıldı"
+  },
+  {
+   "id": "maravi",
+   "t": "1720-01-01",
+   "tur": "toprak",
+   "b": "Portekizli/Arap tüccarlarla ticaret yapan klan liderleri giderek merkezi karonga otoritesinden bağımsızlaştı; 1720'ye gelindiğinde Maravi Konfederasyonu birkaç özerk gruba bölünmüştü.",
+   "kaynak": "Encyclopaedia Britannica 'Maravi Confederacy' — WebSearch üzerinden"
+  },
+  {
+   "id": "matamba",
+   "t": "1630-01-01",
+   "tur": "toprak",
+   "b": "Ndongo hükümdarı Nzinga Mbande, Portekiz müttefiki rakiplerince sürülünce 1630-32'de Matamba'yı fethedip Portekiz'e karşı savaşının üssü yaptı.",
+   "kaynak": "Encyclopaedia Britannica 'Matamba' — DOĞRUDAN açılıp tam madde okundu, teyit edildi"
+  },
+  {
+   "id": "matamba",
+   "t": "1656-01-01",
+   "tur": "antlasma",
+   "b": "1656 antlaşmasıyla savaş sona erdi, Matamba'nın Portekiz Angola'sıyla sınırı belirlendi.",
+   "kaynak": "Encyclopaedia Britannica 'Matamba'"
+  },
+  {
+   "id": "matamba",
+   "t": "1744-01-01",
+   "tur": "toprak",
+   "b": "Portekiz kuvvetleri 1744'te Matamba'ya girip ordusunu yendi; Kraliçe Ana II'ye nominal vasallık dayatıldı.",
+   "kaynak": "Encyclopaedia Britannica 'Matamba'"
+  },
+  {
+   "id": "meysur-racaligi",
+   "t": "1831-10-19",
+   "tur": "toprak",
+   "b": "İngilizler, mali suistimal iddiaları ve Nagar İsyanı gerekçesiyle Meysûr yönetimini doğrudan denetime aldı (Meysûr Komisyonu); Wodeyar hanedanı fiilen yönetimden uzaklaştırıldı, elli yıl sürecek doğrudan İngiliz idaresi başladı.",
+   "kaynak": "Wikipedia 'Mysore Commission' maddesi (kendi verdiği akademik kaynaklar: B.L. Rice, Mysore: A Gazetteer, 1897; S.U. Kamath, A Concise History of Karnataka, 2001 — bu ikisi doğrudan açılmadı)"
+  },
+  {
+   "id": "meysur-racaligi",
+   "t": "1881-03-25",
+   "tur": "antlasma",
+   "b": "Elli yıllık doğrudan İngiliz yönetiminin ardından iç yönetim, resmî bir durbar töreniyle Wodeyar hanedanına (Chamarajendra Wodeyar X) iade edildi.",
+   "kaynak": "T.R.A. Thumboo Chetty, 'Modern Mysore' — WebSearch üzerinden, doğrudan WebFetch yapılmadı"
+  },
+  {
+   "id": "mohave",
+   "t": "1859-04-19",
+   "tur": "toprak",
+   "b": "Mohave Savaşı (1858-1859) sırasında ABD ordusu Colorado Nehri kıyısında Fort Mohave'yi kurdu; savaş sonu barışla Mohave halkı silahlı direnişi sona erdirdi.",
+   "kaynak": "Wikipedia 'Fort Mohave'/'Mohave War' + Encyclopedia.com 'Mohave' (doğrudan açılıp teyit edilmedi)"
+  },
+  {
+   "id": "moundville",
+   "t": "1450-01-01",
+   "tur": "toprak",
+   "b": "1350-1450 arası höyük inşası ve merkezi ritüel faaliyet azaldı, halk dağıldı, yerleşim önemini kaybetti.",
+   "kaynak": "Encyclopedia of Alabama, 'Mississippian Period' — doğrudan WebFetch ile okundu"
+  },
+  {
+   "id": "nahua-sehir-devletleri",
+   "t": "1428-01-01",
+   "tur": "toprak",
+   "b": "Tenochtitlan, Texcoco ve Tlacopan arasında Üçlü İttifak (Aztek İmparatorluğu) kuruldu; Meksika Vadisi'ndeki 40-50 bağımsız Nahua şehir-devletinin çoğu Tenochtitlan hegemonyasına girdi.",
+   "kaynak": "History.com, 'How the Aztec Empire Was Forged Through a Triple Alliance' — standart kabul gören tarih"
+  },
+  {
+   "id": "nama-orlam",
+   "t": "1830-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Orlam reisi Jonker Afrikaner ve silahlı takipçileri 1830'larda bölgesel güç dengesini değiştirdi; Herero yayılmasıyla sürülen Nama halkının çağrısı üzerine Windhoek'e yerleşip Walvis Körfezi ticaret yollarını denetleyerek fiilî devlet kurdu (yalnız '1830'lar' biliniyor).",
+   "kaynak": "Encyclopaedia Britannica, biyografi 'Jonker Afrikaner' — tarayıcıyla DOĞRUDAN açılıp okundu (AI özeti değil, makalenin kendisi)"
+  },
+  {
+   "id": "nkore",
+   "t": "1901-10-25",
+   "tur": "toprak",
+   "b": "Nkore(Ankole) Krallığı, 25 Ekim 1901 Ankole Antlaşması ile Britanya Uganda Protektorası'na dahil edildi.",
+   "kaynak": "orta güven — tersiyer (Wikipedia, monitor.co.ug); Karugire'nin akademik Ankole tarihiyle teyit edilemedi"
+  },
+  {
+   "id": "norse-gronland",
+   "t": "1350-01-01",
+   "tur": "toprak",
+   "b": "Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon verilerine göre büyük olasılıkla ~1342).",
+   "kaynak": "Smithsonian Magazine, 'Why Did Greenland's Vikings Vanish?' — arkeolojik araştırmalara dayanan güncel makale"
+  },
+  {
+   "id": "ovambo",
+   "t": "1870-01-01",
+   "tur": "toprak",
+   "b": "Fin Luteriyen misyonerleri 1870'te Owambo bölgesine ulaştı, sonra Anglikan/Katolik misyonerler de girdi.",
+   "kaynak": "Encyclopaedia Britannica 'Owambo' — DOĞRUDAN açılıp teyit edildi"
+  },
+  {
+   "id": "ovambo",
+   "t": "1884-01-01",
+   "tur": "toprak",
+   "b": "Owambo bölgesi 1884'te Alman İmparatorluğu'nun parçası oldu.",
+   "kaynak": "Encyclopaedia Britannica 'Owambo'"
+  },
+  {
+   "id": "ovimbundu",
+   "t": "1890-01-01",
+   "tur": "toprak",
+   "b": "Portekiz kuvvetleri 1890'da Bié Krallığı'nı işgal etti.",
+   "kaynak": "⚠️ DÜŞÜK GÜVEN — tersiyer kaynak (countrystudies.us/Encyclopedia.com), Britannica/akademik ile teyit edilemedi"
+  },
+  {
+   "id": "purepecha-imparatorlugu",
+   "t": "1300-01-01",
+   "tur": "kurulus",
+   "b": "Tarasko beyi Tariácuri, Pátzcuaro Gölü havzasındaki dağınık Purépecha topluluklarını birleştirmeye başladı; süreç 14.yy ortasına kadar sürdü.",
+   "kaynak": "Pollard, Helen Perlstein (1993), Taríacuri's Legacy: The Prehispanic Tarascan State, University of Oklahoma Press — kitap doğrudan açılamadı (PDF 403), varlığı/yayıncısı WorldCat/Internet Archive ile doğrulandı"
+  },
+  {
+   "id": "rif-cumhuriyeti",
+   "t": "1923-02-01",
+   "tur": "kurulus",
+   "b": "Abdülkerim el-Hattabi liderliğinde Rif Cumhuriyeti ilan edildi (Şubat 1923, gün bilinmiyor).",
+   "kaynak": "Encyclopaedia Britannica 'Republic of the Rif' — WebSearch özetinden (403)"
+  },
+  {
+   "id": "rif-cumhuriyeti",
+   "t": "1926-05-01",
+   "tur": "son",
+   "b": "Ortak Fransız-İspanyol harekâtı sonucu Abdülkerim el-Hattabi teslim oldu (Mayıs 1926, gün net değil — bazı kaynaklar 27 Mayıs der) ve sürgüne gönderildi.",
+   "kaynak": "Encyclopaedia Britannica 'Abd el-Krim' — WebSearch özetinden (403)"
+  },
+  {
+   "id": "sakalava-boina",
+   "t": "1700-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Boina, kardeş krallık Menabe ile birlikte 18.yy'da güçlerinin zirvesindeydi; ikisi batı Madagaskar'ın neredeyse tamamını denetim altına aldı ve Merina dahil adadaki öteki krallıklarca üstünlükleri tanındı (yalnız '18.yy' biliniyor, 1700 yaklaşık işaret).",
+   "kaynak": "Encyclopaedia Britannica, 'Menabé' — DOĞRUDAN tarayıcıyla açılıp okundu"
+  },
+  {
+   "id": "sakalava-boina",
+   "t": "1822-01-01",
+   "tur": "toprak-kayip",
+   "b": "Merina ordusu Boina'nın limanı Mahacanga'yı (Majunga) ele geçirdi; bu darbe Boina krallığının siyasi yapısını kırdı.",
+   "kaynak": "Journal des africanistes (openedition.org/jda/509), 'Culte des ancêtres royaux et légitimation du pouvoir dans la région de Majunga' — hakemli akademik dergi, DOĞRUDAN açılıp okundu: 'La prise de Majunga en 1822 par l'armée merina brise la structure de la royauté du Boina'"
+  },
+  {
+   "id": "sidamo-kralliklari",
+   "t": "1891-01-01",
+   "tur": "son",
+   "b": "Sidama toprakları, II.Menelik'in güney fetih seferleri sırasında 1891'de Etiyopya İmparatorluğu'na ilhak edildi; bağımsız Sidama krallıkları koalisyonunun sonu.",
+   "kaynak": "orta güven — tersiyer (101lasttribes.com, Wikipedia); Bahru Zewde'nin akademik Etiyopya tarihi veya Britannica ile teyit edilemedi"
+  },
+  {
+   "id": "tio",
+   "t": "1300-01-01",
+   "tur": "kurulus",
+   "b": "Teke(Tio) halkına ait küçük siyasi birimler 14.yy'da birleşip Anziku(Tio) Krallığı'nı oluşturdu; 1600'e gelindiğinde Kongo Krallığı'nın rakibiydi.",
+   "kaynak": "Encyclopaedia Britannica 'Kingdom of Anziku' — WebSearch üzerinden"
+  },
+  {
+   "id": "tio",
+   "t": "1880-09-10",
+   "tur": "toprak",
+   "b": "Fransız kâşif Brazza, Eylül 1880'de Teke hükümdarı Makoko İloo I ile antlaşma imzaladı; Teke toprakları üzerinde egemenlik görünüşte Fransa'ya devredildi.",
+   "kaynak": "Encyclopaedia Britannica 'Kingdom of Anziku' + Wikipedia 'Anziku Kingdom' çapraz kontrol"
+  },
+  {
+   "id": "tsvana",
+   "t": "1800-01-01",
+   "tur": "toprak",
+   "b": "19.yy ilk çeyreğinde 'difakane' (Zulu devletinin yükselişi ve Avrupa ticaretiyle bağlantılı büyük göç/savaş dalgası) Tsvana krallıklarında ciddi siyasi kargaşa ve yer değiştirmelere yol açtı (yalnız '19.yy ilk çeyreği' biliniyor).",
+   "kaynak": "Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Tswana' — DOĞRUDAN WebFetch ile okundu"
+  },
+  {
+   "id": "tuareg-adag",
+   "t": "1894-01-01",
+   "tur": "toprak",
+   "b": "İwellemmedan konfederasyonunun Timbuktu'yu Fransızlara teslim etmesinin ardından Kel Adagh Fransız nüfuzuna girmeye başladı, İwellemmedan hakimiyetinden kurtulmayı hedefledi.",
+   "kaynak": "RAND Corporation raporu (RR296) üzerine analiz — orta güvenilirlik, tam metin bu oturumda doğrulanmadı"
+  },
+  {
+   "id": "tuareg-ivellemmedan",
+   "t": "1893-01-01",
+   "tur": "savas",
+   "b": "İlk Fransız kolonu Timbuktu'yu ele geçirmeye çalıştığında İwellemmedan Tuaregleri tarafından yok edildi.",
+   "kaynak": "Michael Shurkin, 'Tuareg Deep Dive' (analiz yazısı, akademik dergi DEĞİL) — düşük-orta güvenilirlik"
+  },
+  {
+   "id": "tui-tonga-imparatorlugu",
+   "t": "1220-01-01",
+   "tur": "kurulus",
+   "b": "Muʻa (Lapaha), Tuʻi Tonga hanedanının üçüncü ve son sürekli başkenti oldu; imparatorluğun 1200-1500 zirve döneminin simgesi (hanedan çizgisi geleneksel olarak ~950'ye dayanır).",
+   "kaynak": "UNESCO World Heritage Centre, 'The Ancient Capitals of the Kingdom of Tonga' (whc.unesco.org/en/tentativelists/5167) — künyede zaten kullanılan kaynakla aynı, f: tarihiyle birebir hizalı"
+  },
+  {
+   "id": "tunus-beyligi-fransiz",
+   "t": "1883-06-08",
+   "tur": "toprak",
+   "b": "La Marsa Sözleşmesi ile Tunus Beyi'nin iç işler yetkisi daha da kısıtlandı; Fransız himayesi fiilen doğrudan yönetime dönüştü.",
+   "kaynak": "Encyclopaedia Britannica 'Treaty of Bardo' ilişkili anlatım — WebSearch özetinden (403); La Marsa Sözleşmesi tarihi (8 Haziran 1883) çok kaynaklı tutarlı"
+  },
+  {
+   "id": "vaday",
+   "t": "1790-01-01",
+   "tur": "toprak",
+   "b": "Uzun süre Darfur'a bağlı olan Vaday Sultanlığı 1790'larda bağımsızlaştı, Bornu aleyhine hızlı toprak genişlemesine girdi.",
+   "kaynak": "Encyclopaedia Britannica 'Wadai' — WebSearch üzerinden alıntı, sayfa bizzat ikinci kez açılmadı"
+  },
+  {
+   "id": "vaday",
+   "t": "1909-01-01",
+   "tur": "toprak",
+   "b": "Fransız kuvvetleri 1909'da başkent Abéché'yi ele geçirdi; sultan Dud Murra 1911'de teslim oldu, sultanlık fiilen sona erdi.",
+   "kaynak": "Encyclopaedia Britannica 'Wadai' — aynı kaynak"
+  },
+  {
+   "id": "venda",
+   "t": "1780-01-01",
+   "tur": "toprak",
+   "b": "Singo birliğinin kurucusu efsanevi hükümdar Thoho-ya-Ndou'nun ölümüyle veraset savaşı çıktı, krallık iç bölünmeye sürüklendi (kesin yıl kaynakta yok, ~1780 yaklaşık işaret, kuruluştan ~60 yıl sonra).",
+   "kaynak": "Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Venda' — DOĞRUDAN WebFetch ile okundu"
+  },
+  {
+   "id": "venda",
+   "t": "1867-01-01",
+   "tur": "savas",
+   "b": "Soutpansberg bölgesindeki ilk beyaz yerleşim kasabası yakıldı; Avrupalı sömürge baskısına karşı direnişin dönüm noktası.",
+   "kaynak": "Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Venda'"
+  },
+  {
+   "id": "zapotek-krallik",
+   "t": "1497-01-01",
+   "tur": "savas",
+   "b": "Aztek imparatoru Ahuitzotl, Zapotek kralı Cosijoeza'ya karşı sefer başlattı; Zapotekler Guiengola kalesine çekilip yedi ay kuşatmaya direndi ve bağımsızlıklarını korudu.",
+   "kaynak": "Wikipedia 'Cosijoeza'/'Guiengola' (Zeitlin 2005 atfıyla) — doğrudan akademik kaynak açılmadı"
+  },
+  {
+   "id": "zapotek-krallik",
+   "t": "1521-01-01",
+   "tur": "son",
+   "b": "İspanyol fethi sonrası Zapotek elitleri haraç ödeyen köylü statüsüne indirgendi; bağımsız Zapotek siyasi yapıları fiilen sona erdi.",
+   "kaynak": "Encyclopedia.com, 'Zapotecs' — doğrudan WebFetch ile okundu"
+  },
+  {
+   "id": "zimbabve-kralligi",
+   "t": "1300-01-01",
+   "tur": "toprak-kazanc",
+   "b": "14.yy'da Büyük Zimbabve, altın bakımından zengin platoya yayılan büyük bir devletin başkenti oldu; nüfusu 10.000'i aştı, Büyük Kapalı Alan (Great Enclosure) inşa edildi (yalnız '14.yy' biliniyor).",
+   "kaynak": "aynı UNESCO kaydı"
+  }
+ ]
+}
