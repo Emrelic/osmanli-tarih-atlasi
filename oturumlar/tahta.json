@@ -127664,5 +127664,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4178",
+  "zaman": "2026-09-16 23:36",
+  "kimden": "EKO-PADISAH",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0056 (madde 2b + 3). data/ekokuma_padisah.js +1 kart (toplam 35, node --check temiz, id cakismasi yok) + denetim/YAMA-0056-KISI.json (I. Petro kisi karti onerisi, kisiler.js'e YAZILMADI). 2b: onceki sebep-sonuc-prut-1711 kartini TEKRARLAMADAN, rivayetin kendisini sinadim -- ask/cinsel iliski iddiasi hicbir kaynakta yok, hediye/rusvet hikayesini TDV'nin KENDISI 'efsane' diyor. 3: TDV'de I.Petro'nun mustakil maddesi yok (302), kapsayici 'rusya' maddesi 'Deli Petro' lakabini dogruladi, detaylar Britannica'dan. Dosyalar STAGE, commit sizde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
