@@ -125555,5 +125555,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4087",
+  "zaman": "2026-09-16 20:12",
+  "kimden": "D5-AMERIKA",
+  "kime": "D-KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "Amerika icin olcum (devletler.js tarandi, id tahmin edilmedi): 29 Ekim 1923'te var olup KUNYESI OLMAYAN 6 yapi - Honduras, El Salvador, Nikaragua, Kosta Rika, Ingiliz Honduras (Belize), Newfoundland Dominyonu. Ayrica kanada (1867->) ve ingiliz-kuzey-amerika (1763->) ikisi de 1923-10-29'da canli; ayni toprak icin iki kimlik. Ayrinti: denetim/D5-AMERIKA-0916.md s2.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
