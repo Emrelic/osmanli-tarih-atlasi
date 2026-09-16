@@ -250,6 +250,37 @@ Afrikası'nın teslimi (3 sınıra birden bağlı) · 1916 Tabora Seferi/Ruanda-
 1885-04-01 Anglo-Alman Rio del Rey genel sözleşmesi · 1885-11-11 Anglo-Liberian Mano nehri
 sözleşmesi · 1892 Fransız-Liberya Cavalla nehri sözleşmesi.
 
+### ADIM 2 — GERİYE SARMA G4·G5·G6·G7 (1878 → 1815 → 1774 → 1699 → 1606): KAYIT YOK, GEREKÇELİ
+
+Koordinatörün "ikinci taraf yoksa tek cümleyle söyle ve geç" kuralı bu dört dalganın **tamamı**
+için geçerli çıktı — **41 kaydın 41'i de bu dört pencerede YENİ BİR ÖNCEKİ KAYIT GEREKTİRMİYOR.**
+
+**Gerekçe (tek ve tekrarlayan):** Sahra altı Afrika'da Avrupa güçleri arası **anlaşmalı, koordinatlı
+sınır** kavramının kendisi Berlin Konferansı'ndan (1884-85) önce yoktu. 1606-1878 arası:
+```
+Portekiz (Angola/Mozambik)   16. yy'dan beri kıyıda vardı AMA komşu bir Avrupa kolonisi YOKTU —
+                              iç kesimler tanımsız "nüfuz alanı", anlaşmalı sınır kavramı YOK
+Almanya (SWA/Kamerun/D.Afrika) 1884'e kadar HİÇ YOKTU — koloni kurulmadan sınırı olmaz
+Belçika Kongosu / Kongo Serbest Devleti  1885'e kadar YOK
+Britanya sömürgeleri (Nijerya/Rodezya/vs.) çoğu 1880-1911 arası kuruldu — bu pencerede YOK
+Mısır-Sudan (misir-kavalali 1805-1914)   1820-21'den ÖNCE Mısır Sudan'ı hiç yönetmiyordu (Fünc
+                              Sultanlığı vd. bağımsız Sudan krallıkları); 1606-1815 arası bu
+                              segment için taraf "Mısır" bile değil, konu ATLASIN OSMANLI-MISIR
+                              eksenine (D1/D2) düşer — D4-AFRIKA'nın kapsamı DIŞINDA
+Liberya                       1822'de KURULDU (G4 penceresi içinde) ama İLK sınır antlaşması
+                              1885'te (G3'te zaten yazıldı) — kuruluşun kendisi bir SINIR olayı
+                              değil, kronolojiye ayrıca not düşülmedi
+```
+🟡 **Tek potansiyel istisna, araştırılmadı, D1/D2'ye bırakıldı:** Osmanlı Mısır Eyaleti (1517-1805)
+ile bağımsız Sudan krallıkları (Fünc Sultanlığı, Darfur) arasında G5/G6/G7 pencerelerinde (1606-1774)
+gerçek bir FRONTIER olabilir — ama bu Osmanlı'nın kendi taşra sınırı meselesidir, "Sahra altı Afrika
+SÖMÜRGE sınırları" kapsamıma girmez; D1-TÜRKİYE ya da D2-KOMSU'nun ilgi alanına daha yakın. Tahtadan
+işaret edildi ama kendim yazmadım — kapsam dışı.
+
+⇒ **G4-G5-G6-G7 için `data/d_sinirlar_afrika.js`e HİÇBİR YENİ KAYIT EKLENMEDİ.** Bu bir eksiklik
+değil, `GORUNUM-ABCD-0916.md`nin "kesin değilse kayıt yazılmaz, harita A/B'ye düşer" kuralının en
+temiz uygulaması: bölgemde bu tarihlerde D/E/C kategorisine giren hiçbir şey yoktu.
+
 ## 7. SONRAKİ ADIM
 
 Şema (`denetim/SEMA-D-0916.md`) tahtada ilan edilince: yukarıdaki satırlardan **kesinliği yüksek**
