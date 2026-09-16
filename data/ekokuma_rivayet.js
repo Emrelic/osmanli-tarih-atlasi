@@ -228,6 +228,63 @@ window.EKOKUMA_RIVAYET = [
   olay:["1526-08-29","1686-09-02","1687-08-12"],
   kaynak:"TDV: mohac-muharebesi · suleyman-pasa-sari (1526 ve genel bağlam) · ikincil literatür (kayıp rakamları için, TDV'de yok)" },
 
+// ── 21 · DALGA-0054 H-0004 — Salankamen bozgunu 1691 ────────────────────────
+{ id:"savas-salankamen-1691", tur:"savas-hikayesi",
+  baslik:"Salankamen Muharebesi (19 Ağustos 1691)",
+  kisa:"Reformcu bir sadrazam cepheye bizzat daldı, bir kurşunla düştü — ve cesedi bir daha hiç bulunamadı.",
+  tarih_metin:"19 Ağustos 1691 öğleden sonra",
+  yer:"Salankamen (Slankamen), Belgrad'ın kuzeybatısı, Varadin ile Karlofça arasında, Tuna kıyısında",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Sadrazam ve serdar-ı ekrem Köprülüzâde Fâzıl Mustafa Paşa", kuvvet:"kaynakta toplam sayı verilmiyor; Kırım kuvvetlerinin katılımı beklenip gelmedi" },
+    { ad:"Kutsal İttifak (Avusturya)", komutan:"Baden Prensi Ludwig Wilhelm", kuvvet:"kaynakta toplam sayı verilmiyor" }
+  ],
+  oncesi:"Fâzıl Mustafa Paşa, 1683 Viyana bozgunundan sonraki en yetenekli sadrazamlardan sayılır: idarî, malî ve askerî ıslahatlar yaptı, 19 Ağustos 1690'da (tam bir yıl önce) Belgrad'ı ve Niş'i geri aldı. 1691 seferinde Salankamen mevkiinde ordugâh kurup Kırım kuvvetlerinin katılmasını bekliyordu. Baden Prensi Ludwig, Osmanlı ordusunun Kırım takviyesinden yoksun olduğunu ve Varadin'e giden yolun kapalı olduğunu öğrenince, kendi ordusunun ikmal sıkıntısına rağmen beklemeden saldırı kararı aldı.",
+  akis:"Öğleden sonra başlayan çarpışmada Avusturya kuvvetleri merkeze saldırdı. Fâzıl Mustafa Paşa, askerini cesaretlendirmek için bizzat ön saflara ilerlerken bir kurşunla vuruldu. Sadrazamın düşmesiyle ordu dağılmaya, geri çekilmeye başladı; Osmanlı ordugâhı ve ağırlıkları Avusturya eline geçti.",
+  sonuc:"Fâzıl Mustafa Paşa'nın cesedi kapsamlı aramalara rağmen bir daha bulunamadı. Onun ölümüyle 1683 sonrası toparlanma çabasının en güçlü ismi kayboldu; bozgun, savaşın gidişini yeniden Osmanlı aleyhine çevirdi ve altı yıl sonraki Zenta felaketine (1697) giden çöküşün önemli bir halkası oldu.",
+  tartisma:"Kaynakta çarpışmanın ayrıntılı safhaları (birlik hareketleri, saat saat gidişat) yok; anlatı ağırlıklı olarak Fâzıl Mustafa Paşa'nın ölüm anına ve sonrasındaki dağılmaya odaklanıyor.",
+  kesinlik:"kesin",
+  olay:["1691-08-19"],
+  kaynak:"TDV: kopruluzade-fazil-mustafa-pasa",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 22 · DALGA-0054 H-0016 — Zenta bozgunu 1697 ─────────────────────────────
+{ id:"savas-zenta-1697", tur:"savas-hikayesi",
+  baslik:"Zenta Muharebesi (11 Eylül 1697)",
+  kisa:"Ordu bir nehri ikiye bölünmüş hâlde geçerken yakalandı — sadrazam, kendi kestirdiği köprünün başında kılıcıyla dururken öldü.",
+  tarih_metin:"11 Eylül 1697",
+  yer:"Zenta (Senta), Tisa (Tisza) nehri kıyısı",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Sadrazam ve serdar-ı ekrem Elmas Mehmed Paşa · II. Mustafa (ordunun başında)", kuvvet:"kaynakta toplam sayı verilmiyor" },
+    { ad:"Kutsal Roma İmparatorluğu (Avusturya)", komutan:"Prens Eugen (Savoyalı)", kuvvet:"kaynakta toplam sayı verilmiyor" }
+  ],
+  oncesi:"1695'ten beri sadrazam olan Elmas Mehmed Paşa'nın komuta ettiği ordu, Tisa nehrini geçerek harekâtına devam etmek istiyordu. Prens Eugen, Osmanlı ordusunun sefer planını öğrenmişti ve tam nehri geçiş anında baskın yapmaya hazırlandı.",
+  akis:"11 Eylül 1697'de, Padişah II. Mustafa ve ordunun bir kısmı Tisa'nın karşı kıyısına geçmişken, Elmas Mehmed Paşa, yeniçeriler ve geri kalan birlikler henüz nehrin bu yakasındaydı. Prens Eugen tam bu anda, ordu ikiye bölünmüşken saldırıya geçti. Elmas Mehmed Paşa, geçişi durdurmak ve düzeni korumak için köprünün iki gözünü kaldırttıktan sonra kılıcı elinde köprü başında durdu; kısa süre içinde muhtemelen kendi askerince (panik içindeki kalabalığın çiğnemesiyle ya da doğrudan) öldürüldü.",
+  sonuc:"Birkaç saat içinde ordunun önemli bir kısmı dağıldı; çok sayıda asker Tisa'nın sularında boğuldu, sadrazam Elmas Mehmed Paşa hayatını kaybetti. Avusturya kuvvetleri Osmanlı ordugâhındaki topları, sancakları ve büyük miktarda mühimmatı ele geçirdi. Zenta, Osmanlı-Kutsal İttifak savaşının (1683-1699) kaderini fiilen belirleyen son büyük meydan muharebesiydi; bu yenilginin ardından Osmanlı tarafı barışa razı oldu ve iki yıl sonra Karlofça'da masaya oturuldu.",
+  tartisma:"Kaynaklar Elmas Mehmed Paşa'nın tam olarak nasıl öldüğü konusunda kesin değil — 'muhtemelen' ifadesiyle aktarılıyor; kendi askerince mi yoksa düşman ateşiyle mi öldüğü net değil.",
+  kesinlik:"kesin",
+  olay:["1697-09-11"],
+  kaynak:"TDV: elmas-mehmed-pasa (aktarım) · genel Osmanlı-Avusturya savaş tarihi",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 23 · DALGA-0054 H-0017 — Orduların nehir geçişindeki risk ───────────────
+{ id:"tartisma-ordularin-nehir-gecisi-riski", tur:"tartisma",
+  baslik:"Bir ordunun en savunmasız anı: nehrin ortasında, ikiye bölünmüşken",
+  kisa:"Zenta'da ordu ikiye bölünmüşken yakalandı, Prut'ta yakalayan taraf pes etti. Aynı zafiyet, iki taraflı bir kumar.",
+  metin:"H-0017'nin gözlemi askerî tarihte gerçek ve tekrarlayan bir zafiyete işaret ediyor: bir nehri geçmekte olan ordu, geçişin ortasında EN SAVUNMASIZ anını yaşar — birlik ikiye bölünmüştür, düzenli saf tutamaz, geri çekilme yolu (köprü ya da geçit) TEK ve DAR bir noktaya sıkışmıştır. Bu atlasın kendi kronolojisinde iki karşıt örnek var:\n\n① ZENTA (11 Eylül 1697) — TAM BU ZAAFIN KURBANI: Padişah II. Mustafa ve ordunun bir kısmı Tisa'nın karşı kıyısına geçmiş, sadrazam Elmas Mehmed Paşa ile yeniçeriler henüz öteki yakadaydı. Prens Eugen tam bu anı, ordu ikiye bölünmüşken saldırdı. Sadrazam köprünün gözlerini kaldırtıp geçişi durdurmaya çalıştıysa da düzen çöktü, çok sayıda asker panikle nehre atlayıp boğuldu. Bu, savaşın kaderini belirleyen tek muharebe oldu (bkz. `savas-zenta-1697`, aynı dosya).\n② PRUT (1711) — AYNI ZAAF, TERS SONUÇ: Baltacı Mehmed Paşa'nın kuşattığı Rus ordusu da Prut nehri kıyısında, erzaksız ve çaresiz durumdaydı — yani kuşatan taraf (Osmanlı) burada nehir kıyısındaki mahsur kalmış düşmanın zaafından yararlanma FIRSATINI yakaladı, ama imha etmek yerine barış yaptı (bkz. `sebep-sonuc-prut-1711`, aynı dosya). Yani aynı coğrafi zaaf (nehir kıyısında sıkışmışlık), bir tarafta YIKICI bir yenilgiye (Zenta), öteki tarafta KAÇIRILMIŞ bir fırsata (Prut) dönüştü.\n\nBu ikisinin karşılaştırması genel bir askerî tarih ilkesini doğruluyor: nehir geçişleri tarih boyunca pusu ve baskın için klasik bir fırsat penceresi sayılmıştır, çünkü saldıran taraf düşmanı en örgütsüz ve en dar bir cepheye sıkışmış hâlde yakalar.",
+  bag:"Bu kart bir 'olay' değil bir DESEN kartıdır — atlasın kendi iki kaydını (Zenta ve Prut) yan yana koyarak, tek bir askerî zafiyetin iki farklı sonucunu gösteriyor. `arac/uret_petek.py`'nin motor seviyesinde geliştirdiği 'nehir sürtünmesi' (geçiş bedeli) modellemesi de aynı coğrafi gerçekliğin haritacılık tarafıdır — o motor kararı ayrı bir oturumun (MOTOR) konusu, burada yalnız tarihsel örnek olarak anılıyor.",
+  not:"Prens Eugen'in Zenta'daki zaferinin 'sefer planını öğrenmiş olması'na dayandığı bazı kaynaklarda geçer; bu istihbarat iddiası TDV'nin okunan maddesinde ayrıca doğrulanmadı.",
+  kesinlik:"tartismali",
+  olay:["1697-09-11","1711-07-21|Azak ve Taygan"],
+  kaynak:"TDV: elmas-mehmed-pasa · prut-antlasmasi (Prut örneği için)" },
+
+// ── 24 · DALGA-0054 H-0019 — Karlofça'nın diplomatik yeniliği ───────────────
+{ id:"teknik-karlofca-yuvarlak-masa-protokolu", tur:"teknik-bilimsel",
+  kisa:"Kaybeden taraf bu kez masaya oturuyordu — ve tarihte ilk kez, oturma düzeni bile 'kim üstün' sorusunu sormasın diye tasarlandı.",
+  metin:"H-0019 Karlofça görüşmelerinin süreciyle ilgili ek okuma istiyor; savaşın sebep-sonucu ve antlaşmanın hükümleri zaten başka bir kartta var (`sebep-sonuc-karlofca-1699`, aynı dosya). Bu kart o kartı TEKRARLAMIYOR, yalnız görüşmelerin KENDİSİNİ — yani bir barış konferansının nasıl fiziksel ve protokol olarak kurulduğunu — ayrı bir açıdan anlatıyor.\n\nTDV `karlofca` maddesine göre Osmanlı heyeti başkanı Reîsülküttâb Râmi Mehmed Efendi, görüşmelerin yapılacağı büyük çadırın kurulumunu ve döşenmesini bizzat denetledi. Çadırın DÖRT AYRI KAPISI vardı — Osmanlı, müttefik (Avusturya-Venedik-Lehistan), arabulucu (İngiltere-Hollanda) ve ayrıca Rusya heyeti için — ve TARAFLAR AYNI ANDA, HİÇBİRİNE ÖNCELİK TANINMADAN farklı kapılardan içeri girdi. Bu düzenleme, barış müzakereleri tarihinde protokol eşitliğini fiziksel mimariyle çözen ilk örneklerden biri sayılır: hangi tarafın 'önce' girdiği, kimin kime 'boyun eğdiği' izlenimi vermeyecek bir tasarımdı.\n\nGörüşmelerin kendisi de sıradan değildi: 13 Kasım 1698'de başlayıp yetmiş iki gün süren müzakereler otuz altı ayrı oturumda yürütüldü; yalnız protokol tartışmaları (kimin nereye oturacağı, hangi unvanın kullanılacağı gibi) ilk yirmi günü tüketti. TDV'nin aktardığı bir ayrıntı: Avusturya delegesi ve aynı zamanda bilim insanı olan Marsigli, Hıristiyan delegelerin müzakerelerde zaman zaman acınacak duruma düştüğünü yazmıştır — oysa savaşı KAYBEDEN taraf Osmanlı'ydı. TDV, yenilmiş konumdaki Osmanlı heyetinin buna rağmen 'güçlü ve vakur bir tavır', sabır ve ikna kabiliyeti sergilediğini vurgular.",
+  kesinlik:"kesin",
+  olay:["1698-11-13","1699-01-26"],
+  kaynak:"TDV: karlofca" },
+
 { id:"sebep-sonuc-rakoczi-erdel-seferi-1658-1664", tur:"sebep-sonuc",
   kisa:"Bir prens izinsiz Lehistan'a girdi — ve iki yıl sonra kendi ölümünü, altı yıl sonra da yeni bir Osmanlı-Avusturya savaşını doğurdu.",
   sebep:{ b:"Erdel Prensi II. György Rákóczi'nin Osmanlı himayesini çiğneyerek izinsiz Lehistan seferine çıkması", t:"1657-01-01" },
