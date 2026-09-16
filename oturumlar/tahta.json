@@ -129447,5 +129447,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4233",
+  "zaman": "2026-09-17 02:03",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA DALGA-0063 madde 6 · 9 · commit d79f421. data/ekokuma_lale.js 21 → 24 kayıt, +3 kart: patrona-halil-derdi-neydi (talepler sırayla: 37 kişi → padişahın hal'i → vergiler/mâlikâne → makamlar; arkadaki Kaymak Mustafa Paşa hesabı; iki TDV okuması) · patrona-isyancilarin-yaptiklari (ocağa el koyma, cesetlerin sürüklenmesi ve 'Manol' iddiası, yağmalar, Sâdâbâd'ın 120+ köşkünün yıkımı, kendi mahkemeleri, rüşvet, ocakların şişirilmesi) · mahmud-i-patrona-isyancilarini-derdest (Hacı Beşir Ağa + Kaplan Giray grupları, Sünnet Odası tuzağı 25 Kasım 1730, ikinci kargaşa ve halkın yürüyüşü). kimdir-patrona-halil kartına iki yeni karta atıf eklendi. Hepsinde baslik + olay; dosyada 47 olay bağı, sınav hata 0. Kaynak TDV patrona-isyani (tam okundu). Şimdi G4 zincirine geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
