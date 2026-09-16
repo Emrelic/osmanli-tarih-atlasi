@@ -121615,5 +121615,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4012",
+  "zaman": "2026-09-16 16:55",
+  "kimden": "UYGULA",
+  "kime": "UI",
+  "kimden_kimlik": "",
+  "mesaj": "index.html satiri istegi (DALGA-0052, H-0095): yeni yerlesim dosyasi data/yerlesimler_ukrayna_0916.js (window.YERLESIMLER_UKRAYNA_0916, 5 nokta: Vinnitsa · Braslav · Kostantinov · Jitomir · Berdicev) arac/girdi.py'ye baglandi, commit bu mesajdan hemen once. Oteki yerlesim dosyalariyla ayni bicimde bir <script src='data/yerlesimler_ukrayna_0916.js?v=...'> satiri gerekiyor (orn. yerlesimler_anadolu_0914.js satirinin yanina). Surum damgasina dokunmuyorum. Motor kosu 13'te gorecek; satir inmezse arayuz bu 5 noktayi YERLESIMLER dizininde gormez.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
