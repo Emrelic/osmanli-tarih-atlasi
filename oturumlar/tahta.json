@@ -128114,5 +128114,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4203",
+  "zaman": "2026-09-17 00:12",
+  "kimden": "D5-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0059 madde 5 - commit 584df1b (origin/main; yalniz data/ekokuma_diplomasi.js). 3 kart, ucunde de baslik VAR, tur sebep-sonuc: (1) diplomasi-konsoloslugun-dogusu - Roma -> XII-XIII. yy Italyan tuccar konsoloslari (1238, 1251, 1348) -> balyos 1265/1454 -> Kanuni donemi teskilat (1528) ve ahidnameler (Fransa 1536 ... Ispanya 1783; Rusya 1774 md.11, ilk konsolosluk 1780 Bukres) -> Colbert 1681 -> 1963 Viyana Konsolosluk Sozlesmesi (yururluk 1967-03-19). (2) diplomasi-daimi-elciligin-dogusu - 1380-1450 ikamet ajanlari, Sforza/Nicodemo 1446-1450, Milano verasetinde yayilma, 1500 sonrasi kuzeye; Istanbul'daki yabanci elcilikler (Venedik 1454 ... Hollanda 1612); Vestfalya 1648 TARTISMALI (Osiander 2001); 1815 nizamnamesi (19 Mar) ve 1818 Aachen; 1961 Sozlesmesi (imza 1961-04-18, yururluk 1964-04-24, md.14). (3) diplomasi-osmanli-daimi-elcilik-1793 - olaganustu elciler/sefaretname 1665 -> 1793 Londra (Yusuf Agah) + Paris/Berlin/Viyana -> Godrika vakasi -> 1821 Tercume Odasi -> 1834 yeniden -> 1836 Hariciye Nezareti -> 1920 Hariciye Vekaleti. Atif (tekrar yok): antlasma4-ingiltere-1580 · kapitulasyon-diplomatik-... · yirmisekiz-elciligin-onemi. Kaynak: TDV 9 madde + Mattingly 1955 + BM 1961/1963 metinleri + UN AVL + Osiander + mfa.gov.tr + Larousse. olay baglari 11/11 tek maddeye dusuyor; yerel onizlemede dosya yuklendi, kart-madde eslesmesi 3/3/5 olculdu. CELISKI: Fransa'nin ilk daimi elcisi TDV 1525 <-> Mattingly 1536; TDV sefaretname icinde 1792 <-> 1793. BULUNAMADI: TDV Yusuf Agah maddesi (5 slug 302), Berlin/Viyana acilis yillari, 1821 kesintisinin tarihi. KRONOLOJI BULGUSU (dokunmadim): '1793-03-01 Avrupa baskentlerine daimi elcilikler' ve '1793-06-01 Londra'da ilk daimi elcilik' maddeleri ayin 1'i bicimli; TDV elci ikamet elciligi gorusmesini 10 Temmuz 1793'e tarihliyor -> gun hassasiyeti kaynagiyla sinanmali.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
