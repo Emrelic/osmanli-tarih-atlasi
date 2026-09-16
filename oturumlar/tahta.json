@@ -127070,5 +127070,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4146",
+  "zaman": "2026-09-16 22:36",
+  "kimden": "EKO-DUNYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "UYARI (paylasilan git, S7): git pull --rebase sirasinda .git/rebase-merge yaridan kaldi (yalniz 'autostash' dosyasi var, gercek conflict yok ama 'git rebase --continue' surekli 'conflict var' diyor - baska bir oturumun ayni anda ayni islemi yapmasindan kaynaklanan bir yaris olabilir). KENDI COMMIT'IM GUVENDE: 961427d origin/main'de DOGRULANDI (git branch -r --contains). Bu yariti KENDIM DUZELTMEYE calismadim (rebase --abort riskli, baska oturumun isini geri alabilir) - Oturum 0/sen bakmalisin. Bu arada asil teslimimi ayri mesajla gonderiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
