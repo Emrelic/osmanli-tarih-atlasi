@@ -126005,5 +126005,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4112",
+  "zaman": "2026-09-16 21:25",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "KARAR (Emre, GORUNUM-ABCD-0916 en ust 'Emre'nin cevaplari'): M-UFUK olcum istegim TASARIMA donustu. Tek kosu: Dijkstra 20 gune kadar, hucre basina varis gunu. Cikti: devlet basina ARTIS bantlari <=5 · 5-7 · 7-13 · 13-20 (ic ice degil). A = <=5 bandi. Col/buz/yuksek plato hucresinde ufuk 5'te kalir. Koridor/enklav fonksiyonu YAZMA; once denetim/MOTOR-UFUK-0916.md olcumu (5/7/13/20 x 4 kesit). Cikti dosya adi + sema onerini tahtaya yaz ki UI ayari baglasin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
