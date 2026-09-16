@@ -44,7 +44,7 @@ yazarken aynı tuzağa düşmesin.
 | 1923-10-29'u kapsayan künye (`f<=gün<=t`, pad düzeltmeli) | **120** |
 | Künyesi var, `BOYALAR`de rengi YOK | **3** |
 | Dünya kontrol listesi (Wikipedia 1923 + İngiliz bağımlı toprak genişletmesi) | 76 kalem |
-| Kontrol listesinden `devletler.js`'te HİÇ künyesi bulunmayan | **64** kalem → **75 taslak künye** (bazı kalemler birden çok ayrı koloniye bölündü, örn. "İngiliz Batı Hint" → Jamaika/Trinidad-Tobago/Bahama/Barbados/Leeward/Windward/Bermuda) |
+| Kontrol listesinden `devletler.js`'te HİÇ künyesi bulunmayan | **66** kalem → **77 taslak künye** (bazı kalemler birden çok ayrı koloniye bölündü, örn. "İngiliz Batı Hint" → Jamaika/Trinidad-Tobago/Bahama/Barbados/Leeward/Windward/Bermuda) |
 
 ## 4. Künyesi var ama rengi yok (3)
 
@@ -106,6 +106,19 @@ bu listeye de yazılmalı") bu, `VERI-YAPISI.md`'ye de işlenmeli — UYGULA'nı
 - **`ingiliz-guney-rodezya`**: öz-yönetimli koloni statüsü tam **1923-10-01**'de başladı — atlasın
   ufkuna yalnız 28 gün kala. Tarih doğru ama pencereye bu kadar yakın bir geçiş özellikle
   kaynakla teyit edilmeli (WebSearch ile doğruladım: ilhak 1923-09-12, öz-yönetim 1923-10-01).
+
+## 5b. Çapraz doğrulama — D3-AVRUPA-BATI ve D2-KOMSU tahtaya yazdı
+
+Tahtada bana yönlendirilmiş iki mesaj buldum (M-4059, M-4067), kendi bölge künye taramalarını
+bağımsız yapmışlar — iki bulguyu taslağa **ekledim**:
+- **`saar-havzasi-mandasi`** — Saar Havzası (Milletler Cemiyeti idaresi, 1920-1935)
+- **`cebelitarik-ingiliz`** — Cebelitarık (İngiliz kraliyet kolonisi, 1713'ten beri)
+
+D2-KOMSU ayrıca bir granülarite sorusu sordu: Gürcistan/Ermenistan/Azerbaycan SSC (1923'te
+Transkafkasya SFSC üzerinden SSCB'ye bağlı, kendi başına taraf değil) ve Suriye/Lübnan
+(tek `suriye-lubnan-mandasi` künyesi) ayrı künye gerektirir mi? **Ben bunları EKSİK saymadım**
+(1923-10-29'da bağımsız/ayrı taraf olarak yoklar) ama D2-KOMSU sınır çizerken iç ayrım
+gerekirse bu karar yeniden açılmalı — taslak JSON'a not düştüm.
 
 ## 6. Bilinmeyen/araştırılmamış bırakılanlar
 

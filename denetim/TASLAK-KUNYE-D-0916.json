@@ -7,7 +7,8 @@
   "UC HANELI YIL TUZAGI (CLAUDE.md sec.3.5.0): ilk taramada f alani 3 haneli olan (897, 962 gibi) iki kunye (yemen-zeydi, almanya) string karsilastirmasiyla YANLISLIKLA 'pencere disi' gorundu; pad(4) duzeltmesiyle DUZELDI. devletler.js'te f/t alani 3 (ya da daha az) haneli yil tasiyan TOPLAM 18 kunye var (bkz. rapor) -- baska hicbir alet bu 18'i ayni tuzakla YANLIS OLCMESIN diye burada listelendi.",
   "GRANULARITE KARARI GEREKEN 3 KALEM: (1) ingiliz-uganda-protektorasi ile mevcut 'buganda' kunyesinin haritada nasil bir arada duracagi, (2) straits-settlements ile mevcut 'ingiliz-malaya' kunyesinin ortusup ortusmedigi, (3) fransiz-antilleri tek kunyede mi yoksa Guadelup/Martinik ayri mi olmali -- D-KUNYE karar vermedi, ilgili bolge oturumuna (D4-AFRIKA/D5-ASYA/D5-AMERIKA) birakildi.",
   "FIUME ve GUNEY-RODEZYA pencere sinirinda (1923-10-29'a sirasiyla ~11 ay ve 28 gun var) -- tarihleri ayrica dogrulanmali.",
-  "KUNYESI VAR AMA RENGI YOK (devletler.js'te kayitli, 1923-10-29'u kapsiyor, ama arac/renkler.py BOYALAR sozlugunde ne id ne harita anahtari karsiligi bulunmuyor): oniki-ada-italyan, cezayir-fransiz, avusturya-cumhuriyet -- bunlar TASLAK DEGIL, mevcut kunye; yalniz renk atanmasi gerekiyor."
+  "KUNYESI VAR AMA RENGI YOK (devletler.js'te kayitli, 1923-10-29'u kapsiyor, ama arac/renkler.py BOYALAR sozlugunde ne id ne harita anahtari karsiligi bulunmuyor): oniki-ada-italyan, cezayir-fransiz, avusturya-cumhuriyet -- bunlar TASLAK DEGIL, mevcut kunye; yalniz renk atanmasi gerekiyor.",
+  "EK (D3-AVRUPA-BATI ve D2-KOMSU'nun tahta M-4059/M-4067 bulgulari uzerine, 16 Eylul aksami): saar-havzasi-mandasi ve cebelitarik-ingiliz eklendi. Ayrica D2-KOMSU'nun sordugu granularite sorusu acik kaldi -- Gurcistan/Ermenistan/Azerbaycan SSC (1923'te Transkafkasya SFSC uzerinden SSCB'ye bagli, kendi basina uluslararasi taraf DEGIL) ve Suriye/Lubnan (tek manda kunyesi, suriye-lubnan-mandasi) ayri kunye ister mi -- D-KUNYE bunlari EKSIK saymadi (1923-10-29'da bagimsiz/ayri taraf olarak var olmadiklari icin), ama D2-KOMSU harita cizerken ic sinir gerektirirse bu karar yeniden acilmali."
  ],
  "kaynak_notu": "taslak -- D-KUNYE oturumu tarafindan genel akademik/standart tarihi bilgiyle taslak olarak dolduruldu, TDV bu taneciği kapsamıyor (CLAUDE.md sec.4 'tanecik boslugu'). Ilgili D-oturumu (harita/sinir cizerken) akademik kaynakla (Iranica/Cambridge/universite yayini) DOGRULAMALI; tarihler kesin degil, en iyi bilinen resmi kurulus/ilhak tarihidir.",
  "taslak_kunyeler": [
@@ -833,6 +834,28 @@
    "f": "1892-01-01",
    "t": "1923-10-29",
    "ozet": "İngiliz protektorası ilan edildi; 1916'da kraliyet kolonisine dönüştü.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "saar-havzasi-mandasi",
+   "ad": "Saar Havzası Bölgesi (Milletler Cemiyeti İdaresi)",
+   "bolge": "orta-avrupa",
+   "tur_onerisi": "ozel-bolge",
+   "f": "1920-01-10",
+   "t": "1923-10-29",
+   "ozet": "Versay Antlaşması ile Almanya'dan ayrıldı, 15 yıllığına Milletler Cemiyeti idaresine bırakıldı (kömür madenleri Fransa'ya); 1935 halk oylamasıyla Almanya'ya döndü. D3-AVRUPA-BATI'nın (M-4059) bulgusu.",
+   "harita": null,
+   "kaynak": "bulunamadi -- taslak, dogrulanacak"
+  },
+  {
+   "id": "cebelitarik-ingiliz",
+   "ad": "Cebelitarık (İngiliz Kraliyet Kolonisi)",
+   "bolge": "iberya",
+   "tur_onerisi": "koloni",
+   "f": "1713-07-13",
+   "t": "1923-10-29",
+   "ozet": "Utrecht Antlaşması ile İspanya'dan İngiltere'ye devredildi. D3-AVRUPA-BATI'nın (M-4059) bulgusu.",
    "harita": null,
    "kaynak": "bulunamadi -- taslak, dogrulanacak"
   }
