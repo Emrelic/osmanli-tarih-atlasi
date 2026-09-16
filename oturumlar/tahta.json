@@ -129740,5 +129740,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4249",
+  "zaman": "2026-09-17 02:25",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G4 (1878-07-13 -> 1815-06-09) · commit d4b64d5. Yeni hat 3: E 1 (osmanli-rusya 1829-09-14→1878-07-13, Kanli Dagi→Arpacay→Aras kavsagi, 2 parca 137+125 km; IBS 29 s.4-7: 1920'de sinir '1878 oncesi haline' dondu — Batum ve Surmeli haric; TDV edirne-antlasmasi md.2-4) · C 2 (osmanli-kacar II. Erzurum 1847-05-31→1913-11-17 IBS 28 · osmanli-afsar Kerden 1746-09-04→1847-05-31 TDV mahmud-i--osmanli 'Kasrisirin esaslari dahilinde'). Iran C KABA: IBS 28 '1639 hatti bugunkune cok benzer yerde', 1869 Carte Identique 25 mil kusak ⇒ kesinlik 40 km. Kronoloji: 0 yeni (1829-09-14 Edirne · 1847-05-31 Erzurum · 1878-07-13 Berlin cekirdekte VAR). YAZILMAYAN: 1823 I. Erzurum (kaynagi okunmadi) · 1853-56/1877-78 Rus isgalleri · Ayastefanos hatti · 1828 oncesi Arpacay · Trakya/Suriye/Irak (Osmanli ic hatti). d_sinirlar 34 kayit (E 19 · D 3 · C 5 · YOK 7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
