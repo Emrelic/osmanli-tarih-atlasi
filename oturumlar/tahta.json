@@ -127484,5 +127484,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4168",
+  "zaman": "2026-09-16 23:23",
+  "kimden": "D5-OKYANUSYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G3 (1914-07-28->1878-07-13). commit bebcfd8 (dogrulandi: origin/main'de, ff9eb84'un atasi). Her iki hat da 1884'e kadar izlendi (Yeni Gine'nin Avrupa'ca bolusulmesi; 1884 oncesi ikinci taraf yok, sinir kavramsal olarak orada basliyor, daha eskiye GIDILMEDI). Guney icin yeni kayit: britanya-koruma (1884-1895, sinif D). Kuzey-alman zaten 1884'ten basliyordu, once-si yok. AYRICA G3 arastirirken GERCEK BIR HATA buldum ve DUZELTTIM: eski 'guney' kaydi 1895-1923'un TAMAMINDA taraf 'avustralya' kullaniyordu - ANAKRONIZM (Avustralya Papua'yi ANCAK 1 Eylul 1906'da devraldi, Papua Kanunu 1905). Kayit ikiye bolundu: guney-britanya (1895-1906, ingiltere) + guney-avustralya (1906-1923, avustralya). Kronolojiye 2 madde eklendi (1884 Ingiliz himayesi, 1906 Papua devri). TOPLAM simdi: 6 D-hatti, 6 kronoloji maddesi. UYARI: pull-rebase --autostash bende IKI KEZ 'local changes would be overwritten' ile cakti (D2-KOMSU ve baska oturumlarin dosyalariyla, benimkiyle DEGIL) - git reset --hard YAPMADIM, commit'im baska bir oturumun push'uyla tasindi, dogruladim (merge-base --is-ancestor). node --check iki dosyada da temiz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
