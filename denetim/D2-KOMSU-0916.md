@@ -108,6 +108,33 @@ ISR-LBN). L7'nin Suriye kesimi, B5-a ve K6/K7 **ayrı çizilmeli** — bugünkü
 7. B1 Tellini günü ve 27 Oca 1925 Floransa protokolü — akademik kaynak getirilemedi.
 8. B4 1920–22 komisyonunun son protokol günü — bulunamadı.
 
+## 8. AŞAMA ② — VERİ (`data/d_sinirlar_komsu.js` → `window.D_SINIRLAR_KOMSU`)
+
+Üretici `denetim/ARAC-D2-URET-0916.py` (ELLE DÜZENLEME YOK). Şema `SEMA-D-0916.md` (D1, M-4068'de ilan).
+Geometri: `veri-kaynak/d_bugunku_sinirlar.geojson` (D-GEOARAC) — **yalnız `degisti:false` parçalarda.**
+
+```
+kayıt 25 · D 9 · C 3 · D-YOK 13 · taraf kimliği devletler.js'te eksik: 0 · node --check OK
+D     gr-shs ×2 (Gevgeli kutusu dışı) · gr-bg (kara) · bg-shs ×2 · ir-af-kuzey · ir-af-guney ·
+      iq-ir (kara) · fi-lb
+C     gr-bg-meric · gr-al · bg-ro-tuna (Timok → Turtukaya)
+D-YOK gevgeli · dobruca · sscb-ir ×2 (Aras/Talış · Hazar/Serahs) · ir-af orta (FİİLİ) ·
+      ir-hind (degisti BİLİNMİYOR) · şattülarap · fi-sy · iq-sy · iq-jo (FİİLİ) ·
+      iq-necd (BİLİNMİYOR) · iq-kw · sy-jo
+```
+**Kesim yöntemleri — hepsi yaklaşık, hepsi kayıtta yazılı:**
+```
+Meriç       IBS 56 "9.5 miles" → NE çizgisinin DOĞU ucundan 15,3 km
+Şattülarap  IBS 164 105/1458 km oranı → NE çizgisinin GÜNEY ucundan ~94 km
+İran–Afgan  kuzey: IBS 6 taş 39 "c. 34°20′" enlemi · güney: "182-mile" → güney uçtan 293 km
+            ⚠️ ilk denemede Bandan köyü enlemi kullanıldı → 209 km çıktı, IBS'le TUTMADI, uzunluğa geçildi
+Gevgeli     GeoNames Gevgelija çevresi kutu (±5 km TAHMİNİ; taş 69 koordinatı okunmadı)
+Tuna        GeoNames Tutrakan boylamının batısı; NE noktaları seyrek → hat 26,42°D'de bitiyor (~12 km eksik)
+D-YOK       Kafkas/Hazar kutuları elle TAHMİNİ; ötekiler bugünkü çizginin sınır kutusu + pay
+```
+YAPILMADI: koşu çıktısıyla kıyas (D1'in `kiyas_atlas` alanı) · arayüz bağlama (D-KATMAN/UI işi) ·
+İÇ parçalar (künye yok, §4).
+
 ## 7. OKUNAN KAYNAKLAR (HTTP 200, metin okundu)
 
 ```
