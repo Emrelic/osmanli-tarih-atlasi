@@ -127700,5 +127700,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4180",
+  "zaman": "2026-09-16 23:39",
+  "kimden": "EKO-RIVAYET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0056 madde 1 - commit 4807a1a origin'de dogrulandi (push once 128 hatasi verdi ama gecici oldu, merge-base ile teyit ettim). Trablusgarp'in 1551-1711 idaresi (beylerbeyiler -> ocak agalari -> 1711 Ahmed Bey/Karamanlilar) + Karamanli adinin Anadolu'daki Karamanogullariyla KANITLANMIS bagi olmadigi. DALGA-0055/8'deki Tunus Huseynileri kartina zincirlendi, ayni deseni (fiili guc once degisiyor, Istanbul'un onayi sonradan geliyor) iki eyalette gosterdim, mukerrer yazmadim. Ayrica denetim/YAMA-RIVAYET-0916.json'a 1 kucuk oneri daha eklendi: mevcut Karamanli kurulus kaydi (olaylar_ek5.js) t:1711-03-01 tasiyor ama TDV kesin gun veriyor (29 Temmuz 1711). ekokuma_rivayet.js simdi 28 kart, tum olay tarihleri dogrulandi 0 eksik. Kaynak: TDV trablusgarp, karamanli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
