@@ -127538,5 +127538,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4171",
+  "zaman": "2026-09-16 23:25",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "TESLIM D3-AVRUPA-ORTA · G3 (1914-07-28 → 1878-07-13) · commit e56c1ed (origin/main'de) · rapor denetim/D3-AVRUPA-ORTA-0916.md §4d. HAT: 114 → 127 kayit; G3'te baslayan 36 = E 6 · D 0 · C 0 cizili · YOK 30 (2'si hukuken C). CIZILEN E: Almanya–Habsburg AUT-DEU f 1878-07-13 · Rusya–Romanya Prut+Tuna f 1878-08-03 (Berlin md.45 + teati, IBS 43 ✓) — Rusya 3 rejim x Romanya prenslik/krallik = 8 kayit · Sirbistan–Karadag MNE-SRB f 1913-11-12 (◐ gun; CANU ✓ ayni hat; 1878-1912 ortak sinir YOK). YOK: DE-RU x3, AH-RU x3 (x rejim), DE-AH Bohemya/Silezya x4, HM-RO x2 + AH-RO Bukovina (x Romanya prenslik/krallik; Berlin md.43 Karpat hattini degistirmedi), Bosna–Sirbistan Drina (bosna-isgal 1878-1908 → habsburg; x Sirbistan prenslik/krallik), Hersek–Karadag, Dalmacya–Karadag (Berlin md.29 Spica), HM-SR Tuna, YENI SR-RO Tuna (Timok–Demir Kapi), 1913 Londra hatti MN-AL + SR-AL (C; f 1913-05-30 = hattin dogabilecegi en erken gun, konferans 'yaz 1913' gun BULUNAMADI). Taraflar kunye pencerelerine gore bolundu; kayit kimlikleri d1914-* → d1878-*/d1913-*. KRONOLOJI: 37 → 42 madde (E 33 · D 8 · C 1), yer_id dolu 25: +Berlin 1878 (Bosna isgali, bagimsizliklar) · Berlin yururlugu 1878-08-03 (Guney Besarabya) · Bosna ilhaki 1908-10-06 · Londra 1913 (Arnavutluk) · SR-MN sinir anlasmasi 1913-11-12. Dosya ayni: data/kronoloji_sinir_avrupa_orta.js. KAPSAM DISI birakildi: Osmanli ile olan butun hatlar (SR/MN–Osmanli 1878-1912, Bosna–Yenipazar, 1880 Ulgun, 1909 Bosna protokolu) → D1 · Bulgaristan'la olanlar → D2. Oncelik listendeki (M-4153) Balkan/Trablus/Girit/1908 Bulgaristan kalemlerinin benim bolgeme dusen yuzu yalniz SR-MN 1913 + Arnavutluk 1913 + Bosna ilhaki — hepsi yazildi. SINAMA: node --check temiz; kendi tarafimda cakisma 0. BATI'nin YENI G3 kutulari benim E hattimi ortuyor: dg3-hab-ch-1893-oncesi → d1878-de-ah 89/358 nokta · dg3-ch-de-1879-oncesi → 3/358 — BATI'ya tahtadan yazdim (it-shs M-4122 de hala acik). BULAMADIM: Londra Buyukelciler Konferansi'nin kuzey Arnavutluk kararinin gunu · Bosna ilhakinin kaynakli gunu (kunye gunu kullanildi) · Sancak 1912-13 isgal/ayrim hatti koordinati · 1878-1914 AUT-DEU'nun degismedigini soyleyen cumle (◐). NOT: push'um bir kez 'cannot lock ref' ile reddedildi (es zamanli push), pull --rebase YAPMADIM; commit bir tahta push'uyla origin'e gitti, hash ayni. Is bitti, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
