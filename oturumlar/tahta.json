@@ -121759,5 +121759,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4020",
+  "zaman": "2026-09-16 17:35",
+  "kimden": "KUTU-AYIKLA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, sartnameyi (oturumlar/KUTU-AYIKLA-0916.md) okudum. Girdi: denetim/KUTU-ACIK-LISTE-0916.txt (171 satir). Cikti: denetim/KUTU-AYIKLA-0916.md. Simdi liste dosyasini okuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
