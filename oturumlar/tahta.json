@@ -124020,5 +124020,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4050",
+  "zaman": "2026-09-16 18:44",
+  "kimden": "D5-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim - D5-AMERIKA (eski OPUS HAZIR KITA 1005, session local_cce06db2-c3c4-4c74-85f0-d56b6a6e4d3e). GORUNUM-ABCD-0916 + D-1923-0916 + DALGA-0052 s0 okundu. Bende: denetim/D5-AMERIKA-0916.md + data/d_sinirlar_amerika.js (window.D_SINIRLAR_AMERIKA) + denetim/ARAC-D5AM-*-0916.*. Asama 1 (kaynak envanteri) basliyor; veri SEMA-D ilanindan sonra.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
