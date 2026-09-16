@@ -107,4 +107,39 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"İngiltere ve Rusya'nın aracılığıyla imzalanan İstanbul Protokolü Osmanlı–İran sınırını baştan sona tarif etti. Şattülarap'ı (Muhammere bölgesi hariç) Osmanlı egemenliğinde bıraktı. Dört devletin komisyonu Kasım 1913 – Ekim 1914 arasında hattı direklerle işaretledi. IBS 164 protokolün gününü metinde 17 Kasım, antlaşma listesinde 4 Kasım 1913 olarak veriyor; çelişki çözülmedi. Bu madde hattın bugünkü Irak kesimini anlatır.",
   kaynak:"IBS No. 164 Iran–Iraq (Constantinople Protocol, 1914 komisyonu; 'The boundary is demarcated throughout by pillars or rivers')" },
 
+// ── GERİYE SARMA G3 eki + G4 + G5: RUS–İRAN ───────────────────────────
+// Hatlar bugünkü çizgiyle gösterilemiyor (1954 sonrası değişti) ⇒ d_sinirlar_komsu.js'te YOK
+// kutuları; hukukî değişiklik yine de madde alır. Rus tarihleri IBS'te tek yazıldığında
+// Jülyen olabilir (D110) — metinde belirtildi.
+
+{ t:"1813-01-01", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g5-rus-ir-DEGISTI-gulistan",
+  b:"Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'ya bırakıldı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
+  d:"1804–1813 Rus-İran savaşının sonunda imzalanan Gülistan Antlaşması (md. II) ile İran Gence, Şeki, Şirvan, Bakü, Karabağ, Derbend, Kuba ve Talış hanlıklarını Rusya'ya bıraktı (TDV azerbaycan ve feth-ali-sah birlikte). Revan ve Nahçıvan hanlıkları İran'da kaldı. Tarih yalnız YIL düzeyindedir: IBS 25 imzayı 12 Ekim 1813 (onay 15 Eylül 1814, Tiflis), TDV 24 Kasım 1813 veriyor. Fark çözülmedi; 12 Ekim Jülyen takvimine göre olabilir. Hattın koordinatı elde yok.",
+  kaynak:"IBS No. 25 Iran–U.S.S.R. s.4, 11 (BFSP 5:1109) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan ve iran (1813)" },
+
+{ t:"1828-02-10", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-aras-talis",
+  b:"Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
+  d:"1826–1828 savaşını bitiren Türkmençay Antlaşması (md. IV) ile Revan ve Nahçıvan hanlıkları Rusya'ya geçti. Aras nehri Hazar'ın batısında iki devletin sınırı oldu. Rusya'ya Abbasabad karşısında Aras'ın sağ kıyısında bir köprübaşı bırakıldı; burası 1893'e kadar Rusya'da kaldı. Gün TDV ile IBS'te aynıdır; Jülyen takvimine göre olabilir. Bugünkü hat 1954–1970 değişiklikleri yüzünden 1828 hattını göstermez.",
+  kaynak:"TDV feth-ali-sah ('Türkmençay Antlaşması imzalandı (10 Şubat 1828)') · TDV revan · IBS No. 25 s.4, 11 (BFSP 15:669)" },
+
+{ t:"1869-12-13", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-atrek",
+  b:"Rus-İran anlaşması: aşağı Atrek nehri Hazar doğusunda sınır sayıldı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
+  d:"Rusya'nın Hazar ötesindeki ilerleyişi İran sınırına dayanınca 13 Aralık 1869 tarihli anlaşma aşağı Atrek'i, Hazar kıyısından doğuya yaklaşık 30 millik bir kesimde, iki devletin sınırı olarak tanıdı. Tarih IBS'te tek yazılmıştır, Jülyen olabilir.",
+  kaynak:"IBS No. 25 s.4, 12 ('recognizing the Atrek River as the boundary, December 13, 1869')" },
+
+{ t:"1881-12-21", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-hazar-serahs",
+  b:"Ahal-Horasan Sözleşmesi: Rus-İran sınırı Babadurmaz'a kadar çizildi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
+  d:"9/21 Aralık 1881 sözleşmesinin I. maddesi Hazar doğusundaki sınırı Atrek'ten Aşkabat'ın doğusundaki Babadurmaz'a kadar çizdi ve 1869 Atrek hattını teyit etti. Ardından gelen protokoller küçük toprak değişiklikleri ve daha ayrıntılı tahdit getirdi.",
+  kaynak:"IBS No. 25 s.4, 12 ('Convention between Persia and Russia of December 9 - 21, 1881')" },
+
+{ t:"1893-06-08", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g3-rus-ir-DEGISTI-hazar-serahs-1893",
+  b:"Tahran Sözleşmesi: Rus-İran sınırı Afgan üçlü noktasına uzatıldı, Abbasabad köprübaşı İran'a döndü", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Serahs",
+  etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
+  d:"27 Mayıs/8 Haziran 1893 Tahran Sözleşmesi Hazar doğusundaki sınırın kalanını Babadurmaz'dan Afganistan üçlü noktasına kadar çizdi ve toprak değişimi öngördü. Rusya Firuze'yi aldı; Türkmençay'dan beri elinde tuttuğu Abbasabad köprübaşını İran'a bıraktı.",
+  kaynak:"IBS No. 25 s.4-5, 12 (BFSP 86:1246; 'a concession the Russians held until 1893'; 'Firyuza … which the Russians had received in 1893')" },
+
 ];

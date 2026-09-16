@@ -377,6 +377,50 @@ yok("d1923-sscb-ir-DEGISTI-hazar-serahs", SV, IR, "1921-02-26", (53.85, 35.55, 6
       "alinti": "although actually this exchange never took place"}],
     "Envanter K7 · sınıf C. Kutu TAHMİNİ")
 
+# ---- GERİYE SARMA G1–G5: RUS–İRAN (koordinatsız ⇒ hepsi YOK; hukukî değişiklikler kronolojide) ----
+# IBS 25 s.4-5, 11-12. Rus tarihleri IBS'te tek (1813, 1828, 1869) ya da çift (1881 "9-21 Ara", 1893 "27 May-8 Haz")
+# yazılmış; tek yazılanlar Jülyen olabilir (D110) — TDV feth-ali-sah Türkmençay'ı da 10 Şubat 1828 veriyor.
+IBS25 = {"ad": "IBS No. 25 Iran–U.S.S.R.", "tur": "resmî sınır çalışması", "url": IBS % 25, "sayfa": "s.4-5, 11-12"}
+TURKMENCAY = {"ad": "Türkmençay Antlaşması", "madde": "md. IV", "tarih": "1828-02-10", "tur": "antlaşma",
+              "kaynak": "IBS 25 (BFSP 15:669) · TDV feth-ali-sah ('10 Şubat 1828')",
+              "alinti": "delimited, with minor exceptions, the present boundary west of the Caspian"}
+RUS_DONEM = [("rusya", None, "1893-06-08"), ("rusya", "1893-06-08", "1917-03-15"),
+             ("rusya-gecici-hukumet", "1917-03-15", "1917-11-07")]
+KUTU_ARAS = (44.75, 38.35, 48.95, 39.75)
+KUTU_HAZAR = (53.85, 35.55, 61.30, 38.40)
+KUTU_ATREK = (53.85, 37.00, 54.70, 37.80)
+KUTU_GULISTAN = (43.40, 38.30, 49.00, 41.60)
+for kim, f0, t0 in RUS_DONEM:
+    etk = "G2" if kim != "rusya" else ("G3" if f0 else "G4")
+    ek = "-1893" if (kim == "rusya" and f0) else ""
+    yok(f"{etk.lower()}-rus-ir-DEGISTI-aras-talis{ek}", kim, IR, f0 or "1828-02-10", KUTU_ARAS,
+        {"deger": True, "kaynak": "IBS 25", "not": "Türkmençay hattı; 1893 Abbasabad köprübaşı İran'a döndü; 1954/1957/1970 değişiklikleri"},
+        [TURKMENCAY, IBS25], f"GERİYE SARMA {etk}: Türkmençay'dan beri Aras/Talış hattı; koordinatı yok", t=t0)
+    yok(f"{etk.lower()}-rus-ir-DEGISTI-hazar-serahs{ek}", kim, IR, f0 or "1881-12-21", KUTU_HAZAR,
+        {"deger": True, "kaynak": "IBS 25", "not": "1881 Ahal hattı (Babadurmaz'a kadar) + 1893 Tahran uzantısı (Afgan üçlü noktasına); 1954 değişiklikleri"},
+        [{"ad": "Ahal–Horasan Sözleşmesi", "madde": "md. I", "tarih": "1881-12-21", "tur": "sözleşme", "kaynak": "IBS 25 ('December 9-21, 1881')"},
+         {"ad": "Tahran Sözleşmesi", "tarih": "1893-06-08", "tur": "sözleşme", "kaynak": "IBS 25 ('May 27 - June 8, 1893'; BFSP 86:1246)"}, IBS25],
+        f"GERİYE SARMA {etk} (G3 eki): 1881'den beri Hazar doğusu hattı; 1893'e kadar yalnız Babadurmaz'a uzanıyordu — kutu ikisini birlikte kaplar", t=t0)
+yok("g1-sscb-ir-DEGISTI-aras-talis", SV, IR, "1917-11-07", KUTU_ARAS,
+    {"deger": True, "kaynak": "IBS 25"}, [TURKMENCAY, IBS25],
+    "GERİYE SARMA G1: 28 May 1918'de Azerbaycan ve Ermenistan cumhuriyetleri kuruldu; 1918-05-28 → 1921-02-26 arası bu hatta KAYIT YOK (taraflar çok parçalı, künyeler 1920-21'de bitiyor)",
+    t="1918-05-28")
+yok("g1-sscb-ir-DEGISTI-hazar-serahs", SV, IR, "1917-11-07", KUTU_HAZAR,
+    {"deger": True, "kaynak": "IBS 25"}, [IBS25],
+    "GERİYE SARMA G1: 1918-19 Hazar ötesi hükümeti dönemi ayrıca modellenmedi (künye yok)", t="1921-02-26")
+yok("g4-rus-ir-DEGISTI-atrek", "rusya", IR, "1869-12-13", KUTU_ATREK,
+    {"deger": True, "kaynak": "IBS 25", "not": "aşağı Atrek (~30 mil); 1881'de teyit edildi, 1954'te delta uzlaşma hattı"},
+    [{"ad": "Rus-İran Atrek anlaşması", "tarih": "1869-12-13", "tur": "anlaşma",
+      "kaynak": "IBS 25 (Treaties &c. 1891 s.133-134)", "alinti": "recognizing the Atrek River as the boundary"}, IBS25],
+    "GERİYE SARMA G4: tarih IBS'te tek yazılmış — Jülyen olabilir", t="1881-12-21")
+yok("g5-rus-ir-DEGISTI-gulistan", "rusya", IR, "1813-01-01", KUTU_GULISTAN,
+    {"deger": True, "kaynak": "IBS 25", "not": "Gülistan hattı Revan ve Nahçıvan'ı İran'da bırakıyordu; Türkmençay 1828 ile Aras'a indi"},
+    [{"ad": "Gülistan Antlaşması", "madde": "md. II", "tarih": "1813-01-01", "tur": "antlaşma",
+      "kaynak": "IBS 25 (BFSP 5:1109; '12 October, 1813', onay 15 Eylül 1814 Tiflis) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan",
+      "not": "GÜN ÇELİŞİK: IBS 12 Ekim (muhtemelen Jülyen = 24 Ekim) ↔ TDV 24 Kasım ⇒ YIL düzeyinde yazıldı"}, IBS25],
+    "GERİYE SARMA G5: Gülistan'dan Türkmençay'a; kutu Revan–Gürcistan ve Talış kesimlerini kaba kaplar (TAHMİNİ). 1804-1813 savaş/işgal hatları yazılmadı",
+    t="1828-02-10")
+
 af = cizgi("AFG-IRN")
 P39 = 34 + 20 / 60
 # Güney (McMahon) kesimi: IBS 6 "182-mile southern segment", Malik Siyah → Siah Koh (Nar-i Ahu, taş 90).

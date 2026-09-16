@@ -232,6 +232,28 @@ Toplam **41 kayıt: E 16 · D 1 · C 7 · YOK 17** · zaman çakışması 0 · t
 ⚠️ IBS 79 Yunan-Sırp sınırının "June 1912"de belirlendiğini yazıyor; Makedonya o tarihte Osmanlı'daydı
 ⇒ kendi içinde çelişik (`§4 ⑥`), KULLANILMADI. TDV `bukres-antlasmasi` 302 ölü; `berlin-antlasmasi` 200 (okunmadı).
 
+## 12. GERİYE SARMA G4 (1878 → 1815-06-09) + G5 (→ 1774-07-21) · zincirli
+
+**Bölgenin 1878 öncesi hâli:** Yunanistan, Sırbistan ve Romanya'nın 1878 öncesi sınırları Osmanlı'yla
+(D1'in işi); Bulgaristan ve Levant/Irak Osmanlı içi. Bölgede Türkiye DIŞINDA kalan tek hukukî sınır
+ailesi **Rus–İran**; İran–Afganistan ve İran–Belucistan'da 1871-72 öncesi tahdit yok.
+
+```
+YENİ YOK 10   Rus–İran, kimlik dönemlerine bölünmüş (rusya → geçici hükümet → sovyet):
+              Aras/Talış     1828-02-10 → 1893 → 1917-03-15 → 1917-11-07 → 1918-05-28
+              Hazar–Serahs   1881-12-21 → 1893 → 1917-03-15 → 1917-11-07 → 1921-02-26
+              Atrek          1869-12-13 → 1881-12-21
+              Gülistan hattı 1813 → 1828-02-10   (G5)
+              ⇒ hepsi YOK: bugünkü çizgi 1954/1957/1970 değişiklikleri yüzünden bu hatları göstermez
+BOŞLUK (kasıtlı) Aras 1918-05-28 → 1921-02-26: Azerbaycan/Ermenistan cumhuriyetleri, çok parçalı
+YENİ E/D/C hat 0
+KRONOLOJİ +5 → 19   1813 Gülistan (YIL — IBS 12 Eki ↔ TDV 24 Kas) · 1828-02-10 Türkmençay
+                    (TDV = IBS) · 1869-12-13 Atrek · 1881-12-21 Ahal · 1893-06-08 Tahran
+```
+⚠️ **Takvim (D110):** IBS 1881 ve 1893'ü çift tarihle (Jülyen–Gregoryen), 1813/1828/1869'u tek tarihle
+veriyor ⇒ tek olanlar Jülyen olabilir. Türkmençay'da TDV de 10 Şubat diyor; TDV esas.
+Toplam **51 kayıt: E 16 · D 1 · C 7 · YOK 27** · 19 kronoloji maddesi, hepsi bağlı.
+
 ## 7. OKUNAN KAYNAKLAR (HTTP 200, metin okundu)
 
 ```
