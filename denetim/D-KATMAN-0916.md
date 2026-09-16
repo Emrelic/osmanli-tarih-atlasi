@@ -32,32 +32,63 @@ istiyor. İki entegrasyon noktası app.js'e dokunmadan çözüldü:
 `<script src="js/d_katman.js?v=rNNNN"></script>` eklemesi. Başka hiçbir dosyaya dokunulması
 gerekmiyor. Tahtadan istenecek (bkz. §4).
 
-## 3. Şema — TEYİT EDİLMEDİ, D1-TURKIYE'nin ilanı bekleniyor
+## 3. Şema — İLAN EDİLDİ (16 Eylül 19:00), kod GERÇEK alanlara göre yazıldı
 
-`D-1923-0916.md` madde 1: D şeması `data/hukuki_sinirlar.js` (C) şemasından türetilecek; D1-TURKIYE
-bunu `denetim/SEMA-D-0916.md`de yayınlayıp tahtaya ilan edecek. Bu ilan henüz (16 Eylül 18:50 itibarıyla)
-YOK. `js/d_katman.js` şu alan adlarını **C'den türeterek TAHMİN ETTİ** (kesinleşmedi):
+D1-TURKIYE `denetim/SEMA-D-0916.md`yi yayınladı ve `data/d_sinirlar.js` (15 kayıt) ile birlikte teslim
+etti (commit d5cc7bc). İlk taslağımdaki tahminler (`hat.nokta_dizisi`, tekil `dayanak` string/obje,
+`kesinlik`) YANLIŞ çıktı — gerçek şema:
 ```
-kayit.taraflar[]           (C ile aynı — devletler.js kimlikleri, şartnamede AÇIKÇA yazıyor)
-kayit.f / kayit.t           (C ile aynı — şartnamede AÇIKÇA "geçerlilik f/t")
-kayit.hat.nokta_dizisi[]    (C'den türetildi — {lon,lat} ya da [lon,lat], İKİSİ de kabul ediliyor)
-kayit.dayanak               (C'nin `kayit.kaynak`sının D karşılığı — şartnamede "her parçanın dayanağı")
-kayit.kesinlik              (şartnamede AÇIKÇA "kesinlik (km)")
+kayit.taraflar[]      ✓ tahminle aynı
+kayit.f / kayit.t      ✓ tahminle aynı
+kayit.hat               düz [[lon,lat], ...] — .nokta_dizisi YOK (tahmin yanlıştı, düzeltildi)
+kayit.kategori          "D" | "C" | "fiili" | "D-YOK"  — TAHMİN ETMEMİŞTİM, sonradan öğrenildi
+kayit.dayanak[]         DİZİ, her öge {ad, madde, tarih, tur, kaynak|url, sayfa, alinti} — tekil değil
+kayit.kesinlik_km       ("kesinlik" değil — "_km" soneki var)
+kayit.uzunluk_km, kayit.kutu (yalnız D-YOK'ta), kayit.degisti, kayit.tahdit, kayit.kiyas_atlas — kullanılmadı
 ```
-Katman kurulumu (kaynak/layer/tıklama, §2) şemadan BAĞIMSIZ ve KALICI. Yalnız `_dNoktaDizisi` ve
-`_dDayanakMetni` fonksiyonları şema ilan edilince gözden geçirilecek — kod bu ikisine izole edildi,
-değişiklik tek noktadan yapılabilecek.
+`js/d_katman.js` bu gerçek alanlara göre yeniden yazıldı. `kategori` üç görsel biçime ayrıldı (§5).
+`kategori:"D-YOK"` (hat:null) tamamen elenir — şema md.3 "bu kutuda D çizilmez, A/B geçerli kalır" diyor.
 
-## 4. Bekleyen
+## 4. Doğrulama
 
-- 🔴 D1-TURKIYE'nin `SEMA-D-0916.md` ilanı (tahtada HERKES'e).
-- 🔴 UI'ya tahtadan: `index.html`ye `js/d_katman.js` script satırı (bkz. §2).
-- 🟡 En az bir D kaydı (`window.D_SINIRLAR`) yazılınca gerçek veriyle sınama (tarayıcıda görsel doğrulama,
-  `<when_to_verify>` gereği).
+🟢 **Mantık, gerçek veriyle node'da sınandı** (`_dAktifKayitlar` + `_dDayanakSatirlari`, D1'in 15
+kaydına karşı): 1923-08-01'de 12/15 aktif (3 `D-YOK` doğru elendi: küçük Ağrı/Kotur/Bacirge 1932-37
+değişiklikleri) · 1923-10-29'da (kapanış günü) 0/15 aktif — yarı-açık aralık (`gün < t`) doğru çalışıyor,
+D061/D195'in "açık uç BİTİŞE kadar" kuralıyla tutarlı · popup metni (dayanak birleştirme) doğru üretiliyor.
 
-## 5. Görsel tasarım
+🟡 **Tarayıcıda GÖRSEL doğrulama YAPILAMADI.** `index.html`ye GEÇİCİ olarak iki `<script>` satırı eklenip
+(`data/d_sinirlar.js` + `js/d_katman.js`) yerel önizleme sunucusunda (`py arac/sunucu.py`) denendi, SONRA
+index.html HEAD'e geri alındı (commit edilmedi, `git diff` temiz doğrulandı). Sonuç: harita altlığı
+(`server.arcgisonline.com` raster kaynağı) bu ortamda hiç yüklenmedi — MapLibre'nin "load" olayı
+ateşlenmedi, `harita.loaded()` dakikalarca `false` kaldı (muhtemelen bu oturumun dış ağ erişimi kısıtlı;
+`git push`un `github.com`a da "Could not resolve host" vermesiyle AYNI sınıf bir kısıt). `_dKatmaniKur()`
+elle çağrılınca MapLibre kendi hata mesajını verdi: **"Style is not done loading."** — kendi try/catch'im
+bunu YAKALADI ve `console.error` ile bildirdi, geri kalan hiçbir şeyi bozmadı (C katmanının aynı savunma
+deseni). ⇒ Bu, KODUN "load" öncesi çağrılmaması gerektiğinin doğrudan kanıtı — tasarım (§2 madde 1)
+doğru. Gerçek görsel doğrulama, altlığın yüklenebildiği bir ortamda (ya da UI script satırını ekleyip
+Emre'nin kendi tarayıcısında) tekrar denenmeli.
 
-C: kesik siyah çizgi (#1a1a1a, dasharray 2/1.3). D: düz (kesiksiz), kalın (3px), koyu lacivert
-(#0a2f5c) — D > C önceliği görsel olarak da ayırt edilsin diye ("daha kesin/ayrıntılı" izlenimi).
-Tıklanınca popup: kayıt id + dayanak metni + kesinlik (km). Dolgu YOK — şartname yalnız "D çizgisini
-çizer" diyor, C'deki taraf boyama mantığı burada YOK.
+## 5. Bekleyen
+
+- 🔴 UI'ya tahtadan: `index.html`ye İKİ satır — `<script src="data/d_sinirlar.js">` (D1-TURKIYE'nin
+  verisi de henüz index.html'e bağlı DEĞİL) ve `<script src="js/d_katman.js">`, `js/app.js`ten SONRA.
+- 🟡 Görsel doğrulama — bu oturumun ortamında harita altlığı yüklenmedi (§4), erişimi olan bir ortamda
+  tekrarlanmalı.
+- 🟢 D2-KOMSU/D3-AVRUPA-* vb. veri yazdıkça otomatik okunur (`_D_AILELER` listesi), kod değişmez.
+
+## 6. Görsel tasarım
+
+Üçü de aynı renk (#0a2f5c, koyu lacivert — C'nin #1a1a1a siyah kesikli hattından AYIRT edilsin diye),
+kategoriye göre çizgi biçimi farklı (güven seviyesini taşır):
+```
+kategori:"D"      düz (kesiksiz), 3px          — koordinatlı, en yüksek güven
+kategori:"C"      kısa kesik [3,1.5], 2.5px     — belge kaba (2 nokta/cetvel)
+kategori:"fiili"  seyrek kesik [1,2], opaklık 0.7 — hukukî hat yok, bugünkü çizgi VEKİL
+kategori:"D-YOK"  ÇİZİLMEZ (hat:null)            — bu kutuda D yok, A/B geçerli
+```
+Üç ayrı MapLibre `line` layer'ı, TEK kaynak (`d-sinir-hat`), her biri `kategori` alanına filtre —
+`line-dasharray` MapLibre'de veri-güdümlü ifade almadığı için (sabit dizi gerekiyor). Tıklanınca popup:
+kayıt id + kategori etiketi + uzunluk_km + kesinlik_km + ilk 2 dayanak (ad, tarih, alıntı). Dolgu YOK —
+şartname yalnız "D çizgisini çizer" diyor (D-1923-0916.md, D-KATMAN satırı), C'deki taraf boyama mantığı
+burada yok. `kategori:"fiili"`nin biçimi SEMA-D-0916.md §4 madde 1'in ÖNERİSİ (kesik çizgi) uygulanarak
+seçildi — henüz UI/Emre onayı YOK, açık soru olarak kaldı.
