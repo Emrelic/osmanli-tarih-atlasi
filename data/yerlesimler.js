@@ -1333,7 +1333,7 @@ window.YERLESIMLER = [
 // 1678'de aldıktan sonra yıktırmış ve bölgeyi boşaltmıştı. Sağ yaka ancak
 // 26 Ocak 1699 Karlofça ile Lehistan'a döndü (Kamaniçe kaydıyla aynı gün) ve
 // 1793 ikinci taksimiyle Rusya'ya geçti. Zincir Kamaniçe'nin birebir aynısı.
-{ ad:"Çehrin (Çigirin)",kaynak:"polonya", tur:"kale", lat:49.077, lon:32.663, g:0, k:4, m:"Kamaniçe", s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1678-07-19",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1678-07-19",t:"1699-01-26",y:"kusatma"}] },
+{ ad:"Çehrin (Çigirin)",kaynak:"polonya", tur:"kale", lat:49.077, lon:32.663, g:0, k:4, m:"Kamaniçe", s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1678-08-21",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], d:[{f:"1678-08-21",t:"1699-01-26",y:"kusatma",kaynak:"TDV cehrin-seferi · merzifonlu-kara-mustafa-pasa: alınış 21 Ağustos 1678 (19/21 Temmuz kuşatmanın başı)"}] },
 
 // ── PODOLYA EYALETİNİN SANCAK MERKEZLERİ ───────────────────────────────────
 // hatalar 6.docx madde 10 — kullanıcı: "çehrin kalesinin fethi ve podolya fethi

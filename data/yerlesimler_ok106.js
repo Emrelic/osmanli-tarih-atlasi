@@ -119,11 +119,15 @@ window.YERLESIMLER_OK106 = [
   //    ⇒ Uydurmak yerine KAYDETTİM: bu iki pencere açık borçtur.
   { ad:"Uman", tur:"sehir", lat:48.7484, lon:30.2219, g:0, k:3,
     kur:"1616-01-01",
-    s:[{f:"1616-01-01",t:"1793-01-23",d:"lehistan"},
+    s:[{f:"1616-01-01",t:"1674-01-01",d:"lehistan"},
+       {f:"1699-01-26",t:"1793-01-23",d:"lehistan"},
        {f:"1793-01-23",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-    kaynak:"bulunamadı — TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor, ölçüldü). Dayanak: Internet Encyclopedia of Ukraine (Canadian Institute of Ukrainian Studies, University of Alberta), madde \"Uman\"" },
+    // d: 1674 — TDV `merzifonlu-kara-mustafa-pasa`: "Cemâziyelevvel 1085 (Ağustos 1674) …
+    //   Human'ı (Uman) teslim aldı". AY hassasiyeti: §4 gereği YYYY-01-01 (YAMA-0052-UKRAYNA 10).
+    d:[{f:"1674-01-01",t:"1699-01-26",y:"fetih",kaynak:"TDV merzifonlu-kara-mustafa-pasa: Lehistan'a ait kalelerden Human'ı (Uman) teslim aldı — Ağustos 1674, gün yok (§4)"}],
+    kaynak:"1674-1699: TDV merzifonlu-kara-mustafa-pasa · öteki dönemler: bulunamadı — TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor, ölçüldü). Dayanak: Internet Encyclopedia of Ukraine (Canadian Institute of Ukrainian Studies, University of Alberta), madde \"Uman\"" },
 
   // ═══════════════════════════════════════════════════════════════════
   // TUR 3 — PAKET A'nın son kalemi (Kızıkermen) + PAKET B'nin yedisi
