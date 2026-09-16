@@ -1,0 +1,159 @@
+{
+  "paket": "0063/H-0011 — 1736-1739 Osmanlı-Rus(-Avusturya) savaşı: niçin başladı, Özi'nin düşüşü; kronolojide eksik sebep/olay maddeleri",
+  "tarih": "2026-09-17",
+  "yazan": "D5-AMERIKA (1.MURAT sevki, oturumlar/DALGA-0063.md)",
+  "durum": "ONERI — kilitli dosyalara YAZILMADI. Uygulayıcı: UYGULA / 1.MURAT. Ek okuma kartı: data/ekokuma_avusturya.js `avusturya-1736-1739-savasi-sebep-ozi`.",
+  "sayim_once": {
+    "evren": "data/olaylar*.js (çekirdek) + data/kronoloji*.js (kuyruk), 1735-01-01 → 1739-12-31, savaşla ilgili maddeler",
+    "cekirdek": [
+      "1735-06-19 olaylar_ek6 — Baghavard (Arpaçay) bozgunu",
+      "1737-07-13 olaylar_ek5 — Özi (Ochakov) Kalesi'nin Ruslara düşüşü (gun:'Temmuz 1737')",
+      "1737-08-04 olaylar_ek5 — Banaluka Zaferi",
+      "1738-08-01 olaylar_ek5 — Özi'nin geri alınışı (gun:'1738')",
+      "1738-08-01 olaylar_ek17 — Semendire'nin geri alınışı",
+      "1739-07-22 olaylar_ek5 — Hisarcık (Grocka) Zaferi",
+      "1739-08-28 olaylar_p0056 — Stavuçani yenilgisi ve Hotin'in teslimi",
+      "1739-09-18 olaylar — Belgrad Antlaşması",
+      "1739-10-03 olaylar_ek5 — Niş Antlaşması"
+    ],
+    "kuyruk": [
+      "1735-06-01 kronoloji_rusya — Osmanlı ile savaş başladı (1739'a dek)",
+      "1736-01-01 kronoloji_kirim — Münnich Kırım'ı istila etti, Bahçesaray'ı yaktı",
+      "1737-01-01 kronoloji_kirim — Lascy Kırım'da tahribatı sürdürdü",
+      "1737-08-04 kronoloji_habsburg — Banaluka bozgunu",
+      "1739-07-22 kronoloji_habsburg — Hisarcık bozgunu",
+      "1739-09-18 kronoloji_habsburg / kronoloji_sirbistan / kronoloji_kirim — Belgrad Antlaşması"
+    ],
+    "EKSIK": [
+      "savaşın SEBEBİ (Kabartay geçişi, Rus protestosu) — hiçbir maddede yok",
+      "Osmanlı'nın savaş kararı / Rus saldırısı (1736) — çekirdekte yok",
+      "Azak'ın düşüşü (1736) — hiçbir maddede yok",
+      "Avusturya'nın savaşa girişi (1737) — hiçbir maddede yok",
+      "Nemirov görüşmeleri (1737) — yok",
+      "Niş'in Avusturya'dan geri alınışı (Ekim 1737) — yok",
+      "Adakale'nin alınışı (17 Ağustos 1738) — yok"
+    ]
+  },
+  "kronoloji_yeni": [
+    {
+      "no": 1,
+      "dosya": "çekirdek olaylar dosyası (UYGULA seçer)",
+      "yeni": "{ t:\"1735-01-01\", k:\"siyaset\", etiket:[\"siyaset\",\"diplomasi\",\"konu-siyasi\"], b:\"Kırım kuvvetlerinin Kabartay üzerinden İran'a sevki — Rusya'nın protestosu ve savaşın bahanesi\", gun:\"1735 yazı (Arpaçay yenilgisinden sonra; kaynak gün vermiyor)\", yer:\"Kabartay, Kuzey Kafkasya\", kisiler:\"I. Mahmud, Kırım hanı\", d:\"Haziran 1735'teki Arpaçay yenilgisinden sonra padişah Kırım hanına Kafkaslar üzerinden İran'a yürümesini emretti. Tatar kuvvetlerinin Kabartay'dan geçecek olmasını Rusya, bu toprakların kendisine ait olduğunu söyleyerek protesto etti. Emir geri alındığı hâlde Rusya bu olayı 1736'da açılan savaşın bahanesi olarak kullandı. Asıl hedef ise Azak'ı geri almak ve Karadeniz'e çıkmaktı.\", kaynak:\"mahmud-i--osmanli\", duygu:[\"⚠️\"], yer_id:\"Kabartay (Nalçik)\" }",
+      "tarih_karari": "🔴 Kaynak yalnız 'Arpaçay yenilgisinden sonra' diyor (Haziran 1735). §4 gereği yıl düzeyi 1735-01-01 yazıldı; bu, maddeyi 1735-06-19 Arpaçay maddesinin ÖNÜNE sıralar. UYGULA sıra bozulmasını kabul etmezse tek meşru seçenek maddeyi sıralamada Arpaçay'dan sonraya koyacak bir 'gun' açıklamasıyla bırakmaktır; gün UYDURULMAZ.",
+      "kaynak_alinti": "TDV mahmud-i--osmanli (A. Özcan): «buraların kendisine ait olduğu gerekçesiyle protesto eden Ruslar»"
+    },
+    {
+      "no": 2,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1736-05-02\", k:\"savas\", etiket:[\"savas\",\"konu-askeri\",\"konu-siyasi\"], b:\"Rusya ile savaş kararı — Azak'a Rus saldırısı üzerine\", gun:\"20 Zilhicce 1148 / 2 Mayıs 1736\", yer:\"İstanbul\", kisiler:\"I. Mahmud, Marquis de Villeneuve\", d:\"Ruslar Mart 1736'da Azak'a saldırıp Or Kapı'ya yürüyünce Osmanlı divanı 2 Mayıs 1736'da Rusya'ya karşı savaş kararı aldı; kaynak Fransız elçisi Villeneuve'ün teşvikini de anar. Rusya, müttefiki Avusturya ile Lehistan Veraset Savaşı'nı kendi lehine bitirmiş ve Mart 1735 Gence anlaşmasıyla İran cephesinden kurtulmuştu. Böylece Karadeniz'e çıkış hedefini yeniden gündeme aldı.\", kaynak:\"mahmud-i--osmanli\", duygu:[\"⚔️\"], yer_id:\"İstanbul\" }",
+      "kaynak_alinti": "TDV mahmud-i--osmanli: Zilkade 1148 Rus saldırısı · 20 Zilhicce 1148 savaş kararı · TDV rusya (K. Beydilli): «Karadeniz'e açılmak Rusya'nın en başta gelen hedefi» · Iranica 'Nāder Shah': «signed a defensive alliance in March 1735 at Ganja»",
+      "not": "Rus savaş ilanı Hambly'de (EBSCO) 12 Nisan 1736, takvim belirtilmemiş → ayrı madde ÖNERİLMEDİ."
+    },
+    {
+      "no": 3,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1736-06-30\", k:\"kayip\", etiket:[\"savas\",\"toprak-kayip\",\"konu-askeri\"], b:\"Azak'ın Ruslara düşüşü\", gun:\"Haziran-Temmuz 1736 (kaynaklar çelişiyor: 19 Haziran eski takvim = 30 Haziran · 1 Temmuz · TDV toplu tarih 13 Temmuz)\", yer:\"Azak, Don ağzı\", kisiler:\"Mareşal Münnich, Lascy\", d:\"Mart 1736'da başlayan kuşatmanın sonunda Don ağzındaki Azak Kalesi Rusların eline geçti. Aynı yaz Münnich Or Kapı hatlarını aşıp Kırım'a girdi ve Bahçesaray'ı yaktı. Azak, 1739 barışıyla Rusya'da kaldı ama istihkâmları yıkıldı ve bölge tahkim edilmeyecek bir alan sayıldı. Kaynaklar düşüş gününde birbirini tutmuyor.\", kaynak:\"azak\", duygu:[\"😔\"], yer_id:\"Azak\" }",
+      "tarih_karari": "🔴 ÇELİŞKİ: RGAVMF 'Боевая летопись' «19 июня … Взятие русскими войсками Азова» (takvim yazmıyor) · Megabook «19 (30) июня 1736» (iki takvim; imzasız ticarî ansiklopedi, ara bölge) · Hambly (EBSCO) «fell on July 1» · TDV mahmud-i--osmanli Azak, Gözleve, Or Kapı ve Kılburun'u birlikte '13 Temmuz 1736' altında veriyor (toplu tarih, şüpheli). Öneri 30 Haziran (iki kaynağın Gregoryen karşılığı); UYGULA yıl düzeyini (1736-01-01) tercih ederse gerekçesi §4 çelişki kuralıdır.",
+      "not": "TDV azak maddesinin gövdesi okundu; gün vermiyor."
+    },
+    {
+      "no": 4,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1737-07-14\", k:\"savas\", etiket:[\"savas\",\"konu-askeri\",\"konu-siyasi\"], b:\"Avusturya Osmanlı'ya savaş ilan etti — Rusya'nın yanında ikinci cephe\", gun:\"14 Temmuz 1737 (resmî ilan; TDV'ye göre saldırı Safer 1150 / Haziran 1737)\", yer:\"Viyana / Sırbistan-Bosna cephesi\", kisiler:\"VI. Karl, Seckendorf\", d:\"1726'dan beri Rusya'nın müttefiki olan Avusturya, TDV'ye göre Haziran 1737'de üç koldan Osmanlı topraklarına saldırdı; imparatorun resmî savaş ilanı 14 Temmuz 1737 tarihlidir. Seckendorf Temmuz'da Niş'i aldı, ama Avusturya'nın Bosna harekâtı Ağustos'ta Banaluka'da durduruldu. Bu cephe 1739 Belgrad Antlaşması'yla Avusturya'nın kaybıyla kapandı.\", kaynak:\"mahmud-i--osmanli\", duygu:[\"⚔️\"] }",
+      "kaynak_alinti": "Hambly (EBSCO Research Starters, imzalı): «On July 14, the emperor at last declared war» · TDV mahmud-i--osmanli: Safer 1150 / Haziran 1737 üç koldan saldırı · TDV nis: Seckendorf Rebîülevvel 1150'de (Temmuz 1737) Niş'i aldı",
+      "not": "İki kaynak farklı olayları (fiilî saldırı / resmî ilan) tarihliyor; çelişki değil. Kaynak alanı TDV slug'ı olmak zorundaysa 'mahmud-i--osmanli'; ilan günü Hambly'dendir ve d metninde öyle belirtildi."
+    },
+    {
+      "no": 5,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1737-01-01\", k:\"antlasma\", etiket:[\"diplomasi\",\"konu-diplomasi\"], b:\"Nemirov görüşmeleri — sonuçsuz kalan barış kongresi\", gun:\"Ağustos 1737 (gün bulunamadı)\", yer:\"Nemirov, Podolya\", kisiler:\"\", d:\"Özi'nin düşüşünden ve Avusturya'nın savaşa girmesinden sonra Nemirov'da Osmanlı, Rusya ve Avusturya temsilcileri arasında barış görüşmeleri başladı. Taraflar anlaşamadı ve savaş iki yıl daha sürdü. Kaynak yalnız ayı veriyor.\", kaynak:\"bulunamadı\", duygu:[\"🤝\"] }",
+      "tarih_karari": "🔴 Kaynak (Megabook, imzasız, ara bölge) yalnız «В августе [1737] в Немирове начались мирные переговоры» diyor. §4 gereği yıl düzeyi; madde Özi'nin (13 Temmuz) önüne sıralanır. TDV'de nemirov / nemirov-kongresi 302 (ölü). UYGULA bu maddeyi kaynaksız bulursa ALMAMALI — o durumda bilgi yalnız ek okuma kartında kalır.",
+      "zayif_dayanak": true
+    },
+    {
+      "no": 6,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1737-10-16\", k:\"fetih\", etiket:[\"savas\",\"toprak-kazanc\",\"konu-askeri\"], b:\"Niş'in Avusturya'dan geri alınışı\", gun:\"Ekim 1737 (Avusturya garnizonunun teslimi: 16 Ekim)\", yer:\"Niş\", kisiler:\"Hâfız Ahmed Paşa, Seckendorf\", d:\"Temmuz 1737'de Seckendorf komutasındaki Avusturya ordusunun aldığı Niş, aynı yılın ekiminde Hâfız Ahmed Paşa'ya savaşmadan teslim edildi. Bu, Banaluka'dan sonra Avusturya'nın 1737 harekâtını tamamen boşa çıkaran ikinci gelişmeydi.\", kaynak:\"nis\", duygu:[\"🎉\"], yer_id:\"Niş\" }",
+      "kaynak_alinti": "TDV nis: Temmuz 1737'de Seckendorf aldı, aynı yılın ekiminde Hâfız Ahmed Paşa savaşsız geri aldı · Hambly: «surrender on October 16, 1737»"
+    },
+    {
+      "no": 7,
+      "dosya": "çekirdek olaylar dosyası",
+      "yeni": "{ t:\"1738-08-17\", k:\"fetih\", etiket:[\"savas\",\"toprak-kazanc\",\"konu-askeri\"], b:\"Adakale'nin Avusturya'dan alınışı\", gun:\"17 Ağustos 1738\", yer:\"Adakale, Tuna\", kisiler:\"\", d:\"Tuna üzerindeki Adakale, 17 Ağustos 1738'de Avusturya'dan alındı. Semendire'nin geri alınışıyla birlikte Osmanlı ordusu Belgrad'a giden yolu açtı; bir yıl sonra Hisarcık zaferi ve Belgrad Antlaşması geldi.\", kaynak:\"mahmud-i--osmanli\", duygu:[\"⚔️\"] }",
+      "kaynak_alinti": "TDV mahmud-i--osmanli: Adakale 17 Ağustos 1738",
+      "not": "Adakale için atlasta yerleşim kaydı bulunamadı → yer_id boş."
+    }
+  ],
+  "kronoloji_duzeltme": [
+    {
+      "no": "D1",
+      "madde": "olaylar_ek5.js · t:\"1737-07-13\" · 'Özi (Ochakov) Kalesi'nin Ruslara düşüşü'",
+      "alan": "gun + kaynak + kisiler",
+      "eski": "gun:\"Temmuz 1737\" · kaynak:\"osmanlilar\" · kisiler:\"Yâkub Paşa, Mareşal Münnich, I. Mahmud\"",
+      "yeni": "gun:\"13 Temmuz 1737 (Rus kaynaklarında 2 Temmuz, muhtemelen eski takvim; TDV 11 Temmuz)\" · kaynak:\"ozu\" · kisiler:\"Yahyâ Paşa, Mareşal Münnich, I. Mahmud\"",
+      "gerekce": "t alanı gün iddia ediyor, gun alanı AY diyordu (§4 üçüncü hassasiyet ekseni). TDV ozu ve mahmud-i--osmanli «Özü Ruslar'ın eline geçti (11 Temmuz 1737)»; RGAVMF «2 июля. Штурм и взятие … Очакова» (takvim yok); Hambly «On July 13, the Russians stormed Ochakov». t=13 Temmuz iki kaynağın uyuştuğu Gregoryen gündür; TDV'nin 11 Temmuz'u gun metninde bildirildi. Muhafız TDV'ye göre Trabzon Valisi YAHYÂ Paşa ('Yâkub Paşa' için kaynak bulunamadı). kaynak: TDV'nin Özi maddesinin slug'ı 'ozu' ('ozi' ölü).",
+      "cekince": "t değiştirilmedi. UYGULA TDV'yi esas alırsa (§4 'çelişirse TDV esastır') t → 1737-07-11 olmalı; bu yamanın önerisi 13 Temmuz ama karar UYGULA'nın."
+    },
+    {
+      "no": "D2",
+      "madde": "olaylar_ek5.js · t:\"1738-08-01\" · 'Özi'nin geri alınışı ve Kırım'ın Rus istilâsından kurtarılması'",
+      "alan": "t + gun",
+      "eski": "t:\"1738-08-01\" · gun:\"1738\"",
+      "yeni": "gun:\"1738 sonbaharı — Rus ordusu veba yüzünden kaleyi boşalttı (RGAVMF: 2 Eylül kararı, takvim belirtilmemiş); hukukî iade 1739 barışıyla\"",
+      "gerekce": "t alanındaki ayın 1'i hiçbir kaynağa dayanmıyor (gun '1738'). RGAVMF «2 сентября. Ввиду эпидемии чумы … решил оставить Очаков и Кинбурн». TDV ozu kalenin 1739 antlaşmasıyla iade edildiğini yazıyor.",
+      "cekince": "t için iki meşru seçenek: yıl düzeyi 1738-01-01 (sıra bozulur, Semendire ve Adakale'nin önüne düşer) ya da 1738-09-13 (2 Eylül'ün Jülyen varsayımıyla Gregoryen karşılığı; takvim kaynakta YOK). Bu yama gün UYDURMAZ, seçimi UYGULA'ya bırakır."
+    },
+    {
+      "no": "D3",
+      "madde": "kronoloji_rusya.js · t:\"1735-06-01\" · 'Osmanlı ile savaş başladı (1739'a dek)'",
+      "alan": "t (bildirim)",
+      "eski": "t:\"1735-06-01\"",
+      "yeni": "(öneri) t:\"1735-01-01\" + d metnine: 'Rus kaynakları savaşı 1735 sonbaharındaki Tatar akınıyla başlatır; Osmanlı savaş kararı 2 Mayıs 1736'",
+      "gerekce": "Ayın 1'i biçimi kaynaksız. TDV rusya savaşı '1735-1739', mahmud-i--osmanli ve ozu '1736-1739' diye yazıyor; Megabook bahaneyi 1735 sonundaki Tatar akınlarına bağlıyor. Haziran 1735'i destekleyen kaynak BULUNAMADI."
+    },
+    {
+      "no": "D4",
+      "madde": "olaylar.js · t:\"1739-09-18\" · 'Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı'",
+      "alan": "yalnız bildirim",
+      "gerekce": "TDV mahmud-i--osmanli Avusturya ile barışı «24 Cemâziyelâhir 1152 (28 Eylül 1739)» diye veriyor; Hambly (18 Eyl), RGAVMF (18 Eyl) ve Megabook «7 (18) сентября» 18 Eylül diyor. TDV rusya Rusya ile barış için '29 Eylül 1739' veriyor. Hicrî 24 Cemâziyelâhir 1152 = 28 Eylül 1739; muhtemelen onay/teati ya da hicrî çevirim farkı. DOKUNULMASIN; çelişki kayda geçsin."
+    },
+    {
+      "no": "D5",
+      "madde": "olaylar_ek5.js · t:\"1739-10-03\" · 'Niş Antlaşması — Rusya ile barış…'",
+      "alan": "yalnız bildirim",
+      "gerekce": "3 Ekim 1739 günü okunan hiçbir kaynakta (TDV mahmud-i--osmanli, rusya, nis, azak; Hambly; RGAVMF) BULUNAMADI. TDV mahmud-i--osmanli Rusya ile barış için «11 Ramazan 1152 / 12 Aralık 1739» (muhtemelen onay/teati), TDV rusya '29 Eylül 1739' veriyor. Maddenin kaynak alanı 'osmanlilar' — o maddede de gün doğrulanmadı. Kaynağıyla sınanmalı."
+    },
+    {
+      "no": "D6",
+      "madde": "kronoloji_kirim.js · t:\"1736-01-01\" · 'Münnich … Kırım'ı istila etti, Han Sarayı'nı ve Bahçesaray'ı yaktı'",
+      "alan": "yalnız bildirim (yıl düzeyi doğru)",
+      "gerekce": "Megabook (ara bölge) Or Kapı'yı «20 (31) мая 1736», Bahçesaray'ı «17 (28) июня» veriyor. TDV kirim ve bahcesaray gün vermiyor ama tahribatı doğruluyor (2.000 ev, Han Sarayı, Selim Giray'ın kütüphanesi). İkinci bir akademik kaynak bulunmadan gün yazılmamalı."
+    },
+    {
+      "no": "D7",
+      "madde": "olaylar_p0056.js · t:\"1739-08-28\" · 'Stavuçani yenilgisi ve Hotin'in Ruslara teslimi'",
+      "alan": "yalnız bildirim",
+      "gerekce": "Megabook Stavuçani «17 (28) августа», Hotin «19 (30) августа»; TDV rusya Hotin için «1 Eylül 1739». Aynı madde iki olayı tek güne topluyor; Hotin'in teslimi kaynaklara göre 28 Ağustos DEĞİL. Hotin için ayrı gün gerekirse TDV esas alınmalı (1 Eylül)."
+    }
+  ],
+  "yazilmayanlar": [
+    "Rus savaş ilanı (Hambly: 12 Nisan 1736, takvim yok) — ayrı madde önerilmedi, no.2'nin notunda",
+    "Ekim 1737'de Özi'yi geri alma girişimi (RGAVMF: 3 Ekim, 40.000 asker ve 12 kadırga; takvim yok) — yalnız ek okuma kartında",
+    "Lascy'nin 1737-1738 Kırım seferleri — kuyrukta zaten var (1737-01-01)",
+    "Özi'deki kayıplar ve Yahya Paşa'nın esareti — yalnız Vikipedi türevi arama özetinde; kullanılmadı",
+    "Leontiev akını (1735) — okunan kaynaklarda ad ve gün yok",
+    "Kaplan Giray / Feth Giray'ın Kafkasya seferi günü — TDV maddeleri ölü (302)"
+  ],
+  "kaynak_notlari": {
+    "TDV_okunan": ["mahmud-i--osmanli", "ozu", "azak", "kirim", "rusya", "hotin", "nis", "bahcesaray", "kefe", "abdullah-pasa-muhsinzade", "hekimoglu-ali-pasa", "kabartaylar", "dagistan"],
+    "TDV_olu_302": ["ozi", "mahmud-i", "kirim-hanligi", "bender", "yegen-mehmed-pasa", "kaplan-giray", "kaplan-giray-i", "feth-giray", "feth-giray-ii", "munnich", "kabarda", "belgrad-antlasmasi", "nadir-sah", "yahya-pasa", "nemirov", "nemirov-kongresi", "kilburun"],
+    "TDV_cekilemedi": ["ivaz-mehmed-pasa (200 ama gövde gelmedi — 'yok' DEĞİL)"],
+    "dis_kaynak": {
+      "Iranica": "https://www.iranicaonline.org/articles/nader-shah (E. Tucker)",
+      "Hambly": "https://www.ebsco.com/research-starters/history/russo-austrian-war-against-ottoman-empire (imzalı; ara bölge, §4 kırmızı listeye girmiyor)",
+      "RGAVMF": "https://rgavmf.ru/biblioteka/boevaya-letopis-russkogo-flota/voyna-s-turciey-1735-1739-gg (devlet arşivinin yayımladığı yıllık; TAKVİM BELİRTİLMEMİŞ)",
+      "Megabook": "megabook.ru 'Русско-турецкая война 1735-1739' (imzasız ticarî ansiklopedi — yalnız iki takvimli günler için İKİNCİL; tek dayanak yapılmadı)"
+    },
+    "takvim_uyarisi": "Rus kaynaklarındaki günler çoğu zaman eski takvimdir (XVIII. yy'da Gregoryen'den 11 gün geri). Takvimi belirtilmeyen gün tek başına t alanına yazılmamalı."
+  }
+}
