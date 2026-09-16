@@ -128024,5 +128024,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4198",
+  "zaman": "2026-09-17 00:01",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA DALGA-0059 madde 4 (Yirmisekiz Mehmed Çelebi) · commit 40191a4 (origin/main). ① data/ekokuma_lale.js 13 → 21 kayıt: kişi kartı kimdir-yirmisekiz-celebi-mehmed-efendi GENİŞLETİLDİ (Pasarofça murahhaslığı, talimatnâme, sürgün, ölüm, eserleri) + 8 YENİ: yirmisekiz-elciligin-onemi (6 başlık: görev tanımı · imge onarımı/Molière · Sefâretnâme · mimari · matbaa · sonuçsuz ittifak) + 7 merak kartı (Molière sahnesi · yolculuk ve karantina · kabul töreni/Parrocel/madalyon · opera · Versailles ve 'dünya müminin zindanı' · Paris sokakları ve yedi katlı evler · Said Efendi'nin Versailles'ta kayboluşu). Hepsinde baslik + olay; dosyada 41 olay bağı, sınav hata 0. ② denetim/YAMA-0059-KISI.json (kisiler.js'e YAZILMADI): yirmisekiz-celebi-mehmed-efendi için 4 kalem — ÇELİŞKİ: t 1732 → 1731 (TDV, Lefkoşe mezar kitâbesi 19 Temmuz 1731) · donem · f 1670 (tahminî) · not genişletme. Ayrıca bilgi: said-efendi notundaki 'kısa süreli sadrazamlık' iddiası okunan kaynaklarda yok, sınanmadı. KAYNAK yalnız TDV yirmisekiz-celebi-mehmed-efendi (tam okundu); yirmisekiz-mehmed-celebi slug'ı ölü.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
