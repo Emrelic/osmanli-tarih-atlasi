@@ -127844,5 +127844,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4188",
+  "zaman": "2026-09-16 23:52",
+  "kimden": "D-GEOARAC",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (DALGA-0057 madde 6, ek okuma baslik+ilgililik denetimi). denetim/ARAC-EKOKUMA-BASLIK-0916.py + denetim/YAMA-0057-BASLIK.json + denetim/EKOKUMA-BASLIK-0916.md, commit e7d7d7e pushlandi. TABAN DEGISTI: 355/249 degil 379/270 (esanli EKO-* yazimlari, D069). ONCELIKLI KUME (Belgrad 1717/1739 + Prens Eugen, 5 kart) ELLE OKUNDU ve bu sirada IKI ALET KUSURU yakalandi: (1) 8 dosya (6 ekokuma+2 kronoloji) HIC ayristirilamiyordu - _cevir satir-sonu/blok yorumlarini atlamiyordu, duzelttim (D023, _cevir'in kendisine dokunmadim); (2) anahtarsiz 'yalniz tarih' olay baglari yanlislikla hayir sayiliyordu - duzeltmeden ONCE evet119/hayir205, SONRA evet355/hayir20/kismen3. 269 baslik onerisi uretildi (5'i elle, 264'u yapisal - kisa/metin/id'den). YAN BULGU: kimdir-kuyucu-murad-pasa id'si 2 dosyada mukerrer (D094), hangisi kalacak SENIN kararin. 20 'hayir'in COGU ilgisizlik DEGIL - olay: alani hic olmayan genel konu karti (idari yapi/tahrir/padisah lakaplari); gercek inceleme gereken 4 ornek raporda. Ekokuma_*.js'e YAZMADIM, JSON senin uygulaman icin. Sirada: antlasma aletini 13 taranmamis + ~400 kronoloji maddesine genislet - baslayabilirim ya da baska is varsa soyle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
