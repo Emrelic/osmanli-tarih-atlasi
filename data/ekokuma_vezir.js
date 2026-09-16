@@ -248,6 +248,85 @@ window.EKOKUMA_VEZIR = [
   not:"Bu bir sıralama değil bir derlemedir; 'en başarılı 10' iddiası öznel olduğu için sayı sabitlenmedi — burada TDV'nin kendi metninde somut icraatla desteklenen isimler bir araya getirildi. Mahmutpaşa ve Çandarlı Mehmed Paşa (Emre'nin listesindeki iki isim) için bu oturumda ayrı TDV doğrulaması yapılamadı; kart bu ikisini içermiyor.",
   kesinlik:"tartismali",
   olay:["1656-09-15"],
-  kaynak:"TDV: sokullu-mehmed-pasa · koprulu-mehmed-pasa · kopruluzade-fazil-ahmed-pasa · kuyucu-murad-pasa · kemankes-mustafa-pasa · ragib-pasa · mustafa-resid-pasa · ali-pasa-mehmed-emin · midhat-pasa · ibrahim-pasa-makbul · merzifonlu-kara-mustafa-pasa" }
+  kaynak:"TDV: sokullu-mehmed-pasa · koprulu-mehmed-pasa · kopruluzade-fazil-ahmed-pasa · kuyucu-murad-pasa · kemankes-mustafa-pasa · ragib-pasa · mustafa-resid-pasa · ali-pasa-mehmed-emin · midhat-pasa · ibrahim-pasa-makbul · merzifonlu-kara-mustafa-pasa" },
+
+// ============================================================================
+// DALGA-0053 EKİ (16 Eylül 2026 gece) — maddeler H-0003 H-0004 H-0005 H-0006 H-0007
+// Kaynak: parti-emrelic-0053/PARTI.md. Ana kaynak Şuayp Ateş, "1075-1099/1664-1688
+// Tarihli Anonim Bir Esere Göre II. Viyana Seferinde Sadrazam Kara Mustafa Paşa",
+// ETÜ Sosyal Bilimler Enstitüsü Dergisi S.14 (Nisan 2022), s.203-221 (hakemli dergi
+// makalesi, PDF bu oturumda TAM okundu — Read aracıyla, WebFetch metin katmanını
+// göremedi, D107 "metin çıkarılamadı ≠ belgede metin yok" tuzağı burada da çıktı).
+// Makale çağdaş kroniklerden (Vekâyi-i Viyana, Silahdâr Tarihi) doğrudan alıntı
+// yapıyor; alıntılar burada 15 kelimeyi aşmayacak şekilde kısaltılıp aktarıldı.
+// Parkan (H-0006) için TDV'de 1683 çarpışmasının ayrıntısı YOK (yalnız 1663 sonrası
+// Ciğerdelen olayları var, taneciklik boşluğu — CLAUDE.md §4); akademik tekil kaynak
+// bulunamadığı için kurumsal bir tarih portalı (Polish History, Lehistan Tarih Müzesi
+// yayını) kullanıldı, kesinlik:"tartismali" ile işaretlendi.
+// ============================================================================
+
+// ── 22 · II. Viyana kararı: divan, itirazlar, gizli yürüyüş (H-0003) ───────
+{ id:"sebep-sonuc-2viyana-karar-sureci", tur:"sebep-sonuc",
+  kisa:"Sadrazam, kendisine karşı çıkan Budin beylerbeyini ve Kırım hanını 'korkaklık'la suçlayıp divanı susturdu; padişaha haber bile vermeden Viyana'ya yöneldi.",
+  sebep:{ b:"27 Haziran 1683'te İstoni-Belgrad'da toplanan harp divanında Sadrazam Kara Mustafa Paşa'nın Yanıkkale'yi almadan doğrudan Viyana'ya yürüme kararını açıklaması; Budin Beylerbeyi Koca İbrahim Paşa, Kırım Hanı Murad Giray ve Orta Macar kralı Tökeli İmre'nin buna açıkça karşı çıkması", t:"1683-07-14" },
+  sonuc:{ b:"Sadrazam'ın itiraz edenleri korkaklıkla suçlayıp ikisinin de düşmanlığını kazanması; Yanıkkale'yi geride bırakıp IV. Mehmed'e sefer rotası hakkında danışmadan bir mektupla haber vererek Viyana'ya ilerlemesi", t:"1683-07-14" },
+  bag:"IV. Mehmed, Viyana'nın hedef olduğunu öğrenince şaşkınlığını gizlemedi: 'Kasdımız Yanık ve Komaron kaleleri idi. Viyana'ya gidileceği konuşulmamıştı... önceden söylemiş olsaydı izin vermezdim' dedi (Silahdâr) — yine de sadrazamı cesaretlendirmek için ona hil'at ve kılıç gönderdi. Padişah bizzat orduyla gitmeyip Belgrad'da av partileriyle kaldığı için, seferin bütün sorumluluğu ve Viyana fâtihi olma hevesi tek başına Kara Mustafa Paşa'ya kalmıştı.",
+  metin:"Merzifonlu'nun Avusturya seferi hayali sadrazamlığının daha altıncı yılında (1676'dan altı yıl sonra, yani 1682) başlamıştı; bu fikrine padişahı ikna edebilmek için Valide Turhan Sultan'ı, yeniçerileri ve serhat beylerini harekete geçirmiş, Macarların Osmanlı himayesine girme talebini de gerekçe göstermişti. 1682 Ağustos'unda toplanan Divân-ı Hümâyun'da kendisine muhalefet edebilecek kimse yoktu; 1664 Vasvar Barış Antlaşması'nın süresi 1684'te dolacaktı ve bu artık dikkate alınmaması gereken bir antlaşma sayıldı. 1 Nisan 1683'te Edirne'den yola çıkan ordu Tuna kıyılarına vardığında Kara Mustafa Paşa serasker tayin edildi. Asıl dönüm noktası 27 Haziran 1683'teki İstoni-Belgrad divanıydı: sadrazam burada Yanıkkale'yi atlayıp doğrudan Viyana'yı hedeflediğini açıkladı, üç önemli müttefikini (Budin beylerbeyi, Kırım hanı, Tökeli İmre) karşısına aldı ve onları susturdu. Ordu Temmuz başında Viyana önlerine ulaştığında, şehri kaçan halkından zaten boşalmış buldu.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1683-07-14"],
+  kaynak:"Şuayp Ateş, ETÜSBED S.14 (2022), s.204-206 — Silahdâr Tarihi (1928) II/39 · Uzunçarşılı, Osmanlı Tarihi III (2011) 461-473, 471-473 · Çolak, Bitmeyen Hesaplaşma (2008) 1-14 · Madlen, Viyana 1683 (2005) 24-26",
+  ic_not:"Emre'nin isteği ayrıca bir KRONOLOJİ MADDESİ istiyordu ('2. Viyana kuşatmasına giden süreci anlatan bir kronoloji maddesi') — bu ek okuma dosyası olaylar_*.js'e yazamaz (§7, dosya yetkisi yok); kronoloji maddesi ihtiyacı koordinatöre ayrıca bildirilecek." },
+
+// ── 23 · Neden Viyana, neden değil Yanıkkale? (H-0004) ─────────────────────
+{ id:"tartisma-2viyana-neden-viyana-degil-yanikkale", tur:"tartisma",
+  ad:"Yanıkkale, Komáron, Léva dururken neden doğrudan Viyana? Bir kumarın anatomisi",
+  kisa:"Bir kâhin rüyasını yorup 'bu seferden vazgeç, yoksa pişman olursun' dedi; sadrazam onu hapsetti. Serhat beyleri uyardı; sözlerini dinlemeyeceğine yemin etti.",
+  metin:"Padişahın fermanı açıktı: başta Yanıkkale-Komáron olmak üzere birkaç kale ve palangayı almak. Sadrazam bunu bilerek aştı — TDV'nin ve akademik kaynağın ortak vurgusu, kararın arkasında Kanûnî'nin bile açamadığı Viyana kapılarını açma hırsı ve şahsi şöhret olduğu yönünde. Karardan önce iki uyarı görmezden gelindi. Birincisi bir rüya yorumuydu: sadrazam, ayağına çizme giyip yedi başlı bir ejderhanın kendisine saldırdığı bir rüya gördü; İstanbul'un tanınmış kâhini Muabbir Hasan Efendi bunu 'ejderha Nemçe kralıdır, yedi kral ona itaat eder — bu seferin azametinden vazgeç, yoksa pişmanlık kesindir' diye yorumladı. Sadrazam öfkelenip kâhini hapsetti. İkincisi Budin serhaddinden gelen tecrübeli ihtiyarların uyarısıydı: Alman ordularının gücünü bilen bu kişiler sefere açıkça karşı çıktı; sadrazam sert azarlarla reddedip 'bundan sonra karşı çıkanın dilini makasla keserim' dedi. Askerî tarih açısından risk açıktı: kale kuşatmak için gereken ağır muhasara topları (kırk elli balyemez, on beş yirmi kolomborna) hiç getirilmemişti, yalnız 300 orta boy top vardı — çağdaş bir gözlemcinin (Kreutel'in aktardığı) sorusu: 'bu çeşit küçük toplarla böylesine kudretli bir kale nasıl dövülür?' Yakın kaleleri (Yanıkkale, Komáron, Léva, Hatta) atlayıp doğrudan bir başkenti kuşatmak, hem geri çekilme hattını hem ikmal yollarını müttefik topraklarının ortasında bırakmak demekti — nitekim ordunun atları için ot bile tükendi.",
+  bag:"Tanınmış edebiyatçı Ahmet Hamdi Tanpınar'ın hükmü sert: 'Hiçbir şey Osmanlı İmparatorluğu'na Merzifonlu Kara Mustafa Paşa'nın hırsı kadar zararlı olmamıştır.' Akademik makalenin kendi değerlendirmesi ise daha ölçülü: İbn Haldun'a atıfla, her çağın kendi zorunlulukları içinde değerlendirilmesi gerektiğini, sorumluluğun tek başına Merzifonlu'ya yüklenmesinin çağdaş tarihlerin bir alışkanlığı olabileceğini hatırlatır.",
+  not:"Kara Mustafa Paşa'nın şehri tahrip etmeden, 'kendisine bir ödül gibi' teslim alınmasını umarak kuşatmayı uzun tuttuğu (yağmayı geciktirdiği) da bir başka ayrı tercih hatası olarak kaynaklarda geçer — açgözlülük zamanı Osmanlı aleyhine işletti.",
+  kesinlik:"kesin",
+  olay:["1683-07-14"],
+  kaynak:"Şuayp Ateş, ETÜSBED S.14 (2022), s.205-206 (Kreutel 1970: 30-31, 86 · Madlen 2005: 49-51) · TDV: merzifonlu-kara-mustafa-pasa" },
+
+// ── 24 · Bozgunun sebepleri: teçhizat, taktik, ihanet (H-0005) ─────────────
+{ id:"tartisma-2viyana-bozgun-sebepleri", tur:"tartisma",
+  ad:"Viyana'da Osmanlı'yı yenen şey neydi? Top, sayı, yeniçeri ve bir hanın sessizliği",
+  kisa:"Yeniçeriler tüfekleriyle siperlerde bekletilirken kale düşecek sanılıyordu; düşman geldiğinde asıl savaşan asker meydanda yoktu.",
+  metin:"Kaynaklar bozgunu tek nedene bağlamaz, dört ayrı zaafı art arda sayar. TEÇHİZAT: Osmanlı topçusu hem sayıca hem nitelikçe yetersizdi — Avusturya topçusu 'sadrazamın emrindeki topçulardan daha iyiydi' ve daha Ağustos başında Türk karargâhında büyük kayıplara yol açmıştı (Jorga); büyük muhasara topları hiç getirilmemişti. SAYI: Osmanlı kuvvetinin mevcudu kaynaklarda 60.000'den 500.000'e kadar uçuk farklarla verilir; Danişmend'in ölçülü tahmini kuşatan ordunun 60.000, gelen Kutsal İttifak yardım kuvvetinin bundan on bin fazla (yaklaşık 70.000) olduğu yönündedir — yani sayı üstünlüğü iddia edildiği kadar kesin değildi. TAKTİK: asıl hata, kalenin düşmek üzere olduğunu sanan sadrazamın ateşli silah taşıyan yeniçerileri ve ordunun önemli bir kısmını siperlerde bekletip esas muharebeye hiç sokmamasıydı (İnalcık); bu grup meydanda yokken ordu büyük bir panikle geri çekilmek zorunda kaldı. İTTİFAK ÇÖZÜLMESİ: Tuna köprülerini korumakla görevli Kırım Hanı Murad Giray, düşman geçişine mukavemet göstermedi — tarihçi Jorga, Lehlerle gizli bir anlaşma ihtimaline işaret eden Leh belgelerinden söz eder; hanın kendi kâhyasının uyarılarını 'yalan delil' diye reddedip muharebeye katılmadığı da kayıtlıdır. Budin Beylerbeyi İbrahim Paşa'nın kuvvetleri de Alaman-dağı (Kahlenberg) çarpışmasında fazla direnmeden geri çekildi. LOJİSTİK: iki aydır süren kuşatmada atlar için ot bile tükenmiş, ordu büyük bir bıkkınlığa düşmüştü. Son olarak Sobieski'nin eşine yazdığı bir mektup, Eflak-Boğdan gibi 'aslen Hıristiyan' birliklerin savaş sırasında karşı tarafa geçtiğini de anlatır — Merzifonlu bu seferde fiilen yalnız bırakılmıştı.",
+  not:"Bir görgü tanığı müzesi karşılaştırması ilginç bir çelişki taşır: Prof. Nevzat Tarhan, Viyana Arsenal Müzesi'nde sergilenen Avusturya silahlarının Osmanlı'nınkilerden 'çok daha eski ve gelişmemiş' göründüğünü aktarır — bu, kaynakların çoğunluğunun 'Avusturya topçusu üstündü' hükmüyle ÇELİŞİR; makale bu çelişkiyi çözmeden yan yana bırakır.",
+  kesinlik:"tartismali",
+  olay:["1683-09-12"],
+  kaynak:"Şuayp Ateş, ETÜSBED S.14 (2022), s.206-208 (Jorga 2009: II/148-151 · Danişmend 1972: III/454-456 · İnalcık 2017: 187-222 · Madlen 2005: 49-51)" },
+
+// ── 25 · Parkan'ın ikinci bozgunu (H-0006) ──────────────────────────────────
+{ id:"savas-hikayesi-parkan-1683", tur:"savas-hikayesi",
+  baslik:"Parkan Muharebesi (7-9 Ekim 1683)",
+  kisa:"İlk gün Osmanlı pusu kurup kazandı, kral neredeyse öldürülüyordu; iki gün sonra aynı ordu bir nehir kıyısında sırtı köprüye dayalı halde kıstırıldı ve neredeyse yok oldu.",
+  tarih_metin:"7-9 Ekim 1683",
+  yer:"Parkan (Ciğerdelen / Párkány, bugün Štúrovo, Slovakya), Estergon'un Tuna karşı yakası",
+  taraflar:[
+    { ad:"Osmanlı kuvvetleri (Viyana'dan çekilen artçı)", komutan:"Kara Mehmed Paşa", kuvvet:"kaynakta kesin sayı verilmiyor (bir kaynağa göre 10.000-15.000)" },
+    { ad:"Lehistan-Kutsal İttifak kuvvetleri", komutan:"Kral Jan Sobieski · Lorraine Dükü Charles", kuvvet:"kaynağa göre 14.000-15.000 (ikinci gün karşı saldırı kuvveti)" }
+  ],
+  oncesi:"Viyana'dan bozgunla çekilen Osmanlı kuvvetlerinin bir kısmı, Aşağı Macaristan'ı (Osmanlı'ya tâbi bölgeyi) ikmalden kesmemek için stratejik Estergon kalesini elde tutmaya çalışıyordu. Parkan, Estergon'un Tuna'nın karşı yakasındaki köprübaşıydı.",
+  akis:"7 Ekim'de öncü birliği keşif yapmadan ilerleyen Sobieski'nin ordusu Kara Mehmed Paşa'nın kuvvetlerince pusuya düşürüldü; kralın kendisi kıl payı kurtuldu. Osmanlılar, kralın süvarisi sanılan bir voyvodanın cesedini bulup başını sadrazam kalıntı ordusuna gönderdi. Sobieski iki gün içinde düzeni yeniden kurup karşı saldırı hazırladı. 9 Ekim'de müttefik kuvvetler topçu üstünlüğünü kullanarak Osmanlı'nın sol kanadını kırdı; Kara Mehmed Paşa'nın birlikleri önlerinde Hron (Gran) nehrini ve yıkılan köprüyü, arkalarında ilerleyen düşman ordusunu bulup kaçış yolu bulamadı.",
+  sonuc:"Bir kaynağa göre 10.000 Osmanlı askeri öldü, 1.500'ü esir alındı; Kara Mehmed Paşa yalnız 800 kişiyle kaçabildi. Bu ikinci bozgunun ardından Estergon kalesi kısa bir kuşatmanın sonunda 27 Ekim 1683'te müttefiklerin eline geçti — Habsburg taarruzunun Viyana sonrası ilk somut toprak kazancıydı.",
+  tartisma:"TDV'nin `estergon` maddesi 1683 Ekim çarpışmasının komutan, tarih ve ayrıntılarını VERMİYOR — yalnız sonucu (Osmanlı yenilgisi, Estergon'un kaybı) kaydediyor; 1663 sonrası döneme dair ayrı bir Ciğerdelen olayını anlatıyor, iki olay karıştırılmamalı. Verilen kayıp rakamları (10.000 ölü) yalnız tek bir kurumsal tarih portalına dayanıyor, ikinci bağımsız akademik kaynakla ÇAPRAZLANAMADI — bu yüzden rakamlar ihtiyatla aktarılmalı.",
+  kesinlik:"tartismali",
+  olay:["1683-10-09"],
+  kaynak:"Polish History (Lehistan Tarih Müzesi'nin kamuya açık tarih portalı), \"The Battle of Párkány (7-9 October 1683)\" · TDV: estergon (yalnız Estergon'un kaybı ve 27 Ekim tarihi için)",
+  ic_not:"Atlasın kendi kaydı (olaylar_ek3.js, t:1683-10-09, kaynak:'estergon') zaten 'Parkan'da ikinci kez bozguna uğradı' diyor — bu kart HANGİ mekanizmayla (nehir+köprü tuzağı, topçu üstünlüğü) ikinci kez yenildiğini ekliyor, tekrar üretmiyor. Akademik tekil kaynak (hakemli makale) bu savaş için bu oturumda bulunamadı; §4 kırmızı çizgisi gereği kurumsal müze portalı 'standart akademik referans' değildir — bu yüzden kesinlik:'tartismali' ve ikinci kaynak arayışı bir sonraki oturuma bırakılmalı.",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 26 · Merzifonlu'nun idamı ve Budin beylerbeyinin son sözleri (H-0007) ──
+{ id:"magazin-merzifonlu-idam-budin-beylerbeyi", tur:"magazin",
+  ad:"'Azl etmesin!' — kendi katilinin canını isteyen adam: Budin beylerbeyinin son sözleri",
+  kisa:"Merzifonlu, bozgunun suçunu kendisini uyaran adama yükleyip onu idam ettirdi. O adam, ölmeden hemen önce padişaha kendisini öldüren sadrazamın canının bağışlanmasını rica etti.",
+  metin:"Viyana'dan Yanıkkale'ye çekilirken Kara Mustafa Paşa bozgunun sorumlusu olarak Budin Beylerbeyi (Arnavut asıllı) Koca İbrahim Paşa'yı gösterdi ve 'bu bozguna sebep olan İbrahim Paşa'dır' diyerek onu orada idam ettirdi (Vekâyi-i Viyana kroniği). Oysa İbrahim Paşa, 27 Haziran divanında Viyana'ya doğrudan yürümeye açıkça karşı çıkan, sadrazamın 'korkaklık'la suçlayıp düşmanlığını kazandığı isimdi — yani felaketi önceden görüp uyaran kişi, felaketin faturasını ödeyen kişi oldu. Öztuna'nın aktardığı rivayete göre İbrahim Paşa, kendisini sevmemesine rağmen idam edilmeden hemen önce şu sözleri söyledi: 'Padişahımıza söyle, kaybımızı telafi edecek ancak budur [Mustafa Paşa'dır], azl etmesin!' — yani ölümüne sebep olan adamın makamda kalmasını istedi, devletin selameti için. Bu olağanüstü tavrın onu kurtaramayacağı adamı, birkaç ay içinde aynı akıbet bekliyordu: Viyana bozgununu haber alan IV. Mehmed, Belgrad'a bir hatt-ı şerif ve idam fermanı gönderdi; Merzifonlu Kara Mustafa Paşa 25 Aralık 1683'te Belgrad'da boğduruldu, malları müsadere edildi. Reîsülküttab da tutuklanıp İstanbul'da asıldı. Yerine sadrazam olarak Merzifonlu'nun eski kethüdası Kara İbrahim Paşa (Budin'de idam edilenle AYNI kişi değil, adaş) atandı.",
+  not:"Merzifonlu'yu 'bu hale getiren' şeyin kibir mi hırs mı olduğu sorusuna kaynaklar aynı yönde cevap verir: ünlü edebiyatçı Tanpınar'ın 'hiçbir şey imparatorluğa onun hırsı kadar zararlı olmamıştır' sözü ve çağdaş kroniğin onu 'inatçı, garazkâr, haddinden fazla mağrur ve şöhret düşkünü' diye tarif etmesi (Kreutel) aynı portreyi çizer — ama aynı akademik makale bunun tek taraflı bir mahkûmiyet olabileceğini, sorumluluğun devrin diğer aktörlerine (Kırım hanı, Budin beylerbeyi dahil) de düştüğünü hatırlatır. İstanbul'da düşmanlarının 'göbek attığı' yönünde bir iddia bu oturumda okunan kaynaklarda BULUNAMADI — uydurulmadı, yazılmadı.",
+  kesinlik:"kesin",
+  olay:["1683-12-25"],
+  kaynak:"Şuayp Ateş, ETÜSBED S.14 (2022), s.217-218 (Vekâyi-i Viyana vr. 22b, 26b-27a) · Öztuna, Büyük Türkiye Tarihi (1978), s.123, ETÜSBED dn.6 üzerinden aktarıldı · TDV: merzifonlu-kara-mustafa-pasa" }
 
 ];

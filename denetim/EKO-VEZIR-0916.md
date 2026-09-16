@@ -167,3 +167,32 @@ tarihî merkezi Telavi'dir; bir Telavi noktası olup olmadığı bu oturumda ARA
 YENİ   denetim/YAMA-0052D-VEZIR-0916.json   33/33 madde, durum + kaynak dosya + not (py ile JSON doğrulandı)
 EK     denetim/EKO-VEZIR-0916.md            bu bölüm
 ```
+
+---
+
+# EK BÖLÜM 2 — DALGA-0053, maddeler H-0003 H-0004 H-0005 H-0006 H-0007 (16 Eylül gece)
+
+Kaynak: `oturumlar/DALGA-0053.md`. Konu: II. Viyana Seferi (1683) — karar süreci, Merzifonlu'nun
+Viyana'yı Yanıkkale'ye tercih etmesi, bozgunun sebepleri, Parkan'ın ikinci bozgunu, Merzifonlu'nun
+idamı. `data/ekokuma_vezir.js`e **5 yeni kart** eklendi (toplam 21→26), `node --check` temiz,
+26/26 id benzersiz, 5 yeni kartın 5'inin de `olay:` tarihi mevcut kronolojide doğrulandı.
+
+**Ana kaynak:** Şuayp Ateş, "1075-1099/1664-1688 Tarihli Anonim Bir Esere Göre II. Viyana
+Seferinde Sadrazam Kara Mustafa Paşa", *ETÜ Sosyal Bilimler Enstitüsü Dergisi* S.14 (Nisan
+2022), s.203-221 — hakemli dergi makalesi, dergipark.org.tr üzerinden **tam metin PDF olarak
+okundu** (WebFetch metin katmanını göremedi — "PDF metin çıkarılamıyor" dedi; `Read` aracıyla
+aynı dosya sorunsuz okundu, D107'nin "metin çıkarılamadı ≠ belgede metin yok" tuzağının bu
+oturumdaki tekrarı). Makale çağdaş bir kroniğin (Vekâyi-i Viyana, Çorum İl Halk Kütüphanesi
+yazması) transkripsiyonuna dayanıyor ve doğrudan alıntılar taşıyor.
+
+**Kapsam dışı bırakılan istek:** H-0003 ayrıca bir "kronoloji maddesi" istiyordu — bu benim
+dosya yetkim dışında (`data/olaylar*.js`e yazamam), karta not olarak işlendi ve koordinatöre
+bildiriliyor.
+
+**Tek zayıf kaynaklı kart:** H-0006 (Parkan, 7-9 Ekim 1683) için TDV'de ayrıntı yok (yalnız
+1663 sonrası ayrı bir olay var) ve akademik tekil kaynak bu oturumda bulunamadı; kurumsal bir
+tarih portalı (Polish History / Lehistan Tarih Müzesi) kullanıldı, `kesinlik:"tartismali"`
+işaretlendi, rakamlar (10.000 ölü) tek kaynaklı olduğu için ihtiyatla verildi.
+
+**Bulunamayan iddia:** "İstanbul'da Merzifonlu'yu sevmeyenlerin göbek atması" — okunan
+kaynaklarda yok, uydurulmadı.
