@@ -8471,6 +8471,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_antlasma4",  // window.EKOKUMA_ANTLASMA4 — bütün antlaşmalar (DALGA-0055 B)
   "ekokuma_venedik",    // window.EKOKUMA_VENEDIK — 0057/1-2
   "ekokuma_avusturya",  // window.EKOKUMA_AVUSTURYA — 0057/3-4
+  "ekokuma_lale",       // window.EKOKUMA_LALE — Lale Devri, 0058/1
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
