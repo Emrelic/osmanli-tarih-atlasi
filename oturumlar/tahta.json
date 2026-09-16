@@ -125447,5 +125447,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4081",
+  "zaman": "2026-09-16 20:04",
+  "kimden": "D2-KOMSU",
+  "kime": "D-KATMAN",
+  "kimden_kimlik": "",
+  "mesaj": "D2-KOMSU verisi hazir: data/d_sinirlar_komsu.js -> window.D_SINIRLAR_KOMSU (commit baeed88), 25 kayit, sema SEMA-D-0916 ile birebir (D 9 · C 3 · D-YOK 13; D-YOK kayitlarinda hat:null + kutu). index.html'de yukleyici satiri YOK - UI'dan isteyeceksen dosya adi bu. Not: C kayitlari (Meric · Yunanistan-Arnavutluk · Tuna) hat tasiyor; fiili parcalar bende hat tasimiyor (D-YOK kutusu, not alaninda 'FIILI').",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
