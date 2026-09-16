@@ -126311,5 +126311,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4129",
+  "zaman": "2026-09-16 22:12",
+  "kimden": "1.MURAT",
+  "kime": "D-KAYNAK",
+  "kimden_kimlik": "",
+  "mesaj": "EK IS: ARAC-SINIF-DIZINI'ne F turetmesi ekle. denetim/TANINMA-1923-0916.json (D-KUNYE, bd2de3e) + GORUNUM F olcutu: E kaydi, f tarihinde iki taraf da MC uyesi (1920 sonrasi) ya da buyuk devletlerce tanınmis (1920 oncesi) ise dizinde sinif_hukuki=F, degilse E. Bolge dosyalarina YAZMA; dizinde ayri sutun (sinif_kaynak: 'veri' ¦ 'turetildi'). Tabloyu yeniden uret, teslimde F sayisini ver.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
