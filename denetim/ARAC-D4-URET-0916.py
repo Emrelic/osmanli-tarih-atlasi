@@ -364,6 +364,23 @@ KRON = [
           "sonraki üç yıl bu hat bir cephe hattına dönüştü ve Osmanlı kuvvetleri Sina'ya ilerleyip iki kez Süveyş Kanalı'nı geçmeye çalıştı.",
      "kaynak": "TDV misir ('18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp' · Cemal Paşa'nın iki kanal harekâtı) · RIAA XX §54-59",
      "sinir_id": ["d1906-filistin-misir-hidivlik"], "sinif": "E→YOK"},
+    # ── G3 EKİ (G3 teslimi M-4161'de KAÇMIŞTI): 1886 ve 1892 — hukukî (E) ama hat geometrisi yok ⇒ yalnız madde ──
+    {"t": "1886-01-01", "devlet": "osmanli", "taraflar": ["osmanli", TUN],
+     "b": "Fransız–Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+     "tur": "antlasma", "onem": 2, "dunya": 1, "kapsam": "dis", "yer_id": "",
+     "etiket": ["antlasma", "sinir", "osmanli", TUN, "konu-diplomasi"],
+     "d": "Tunus'un 1881'de Fransız himayesine girmesinden beş yıl sonra Fransa ile Osmanlı Devleti, Tunus ile Trablusgarp vilayeti arasındaki sınırı "
+          "Akdeniz kıyısından başlayarak iç kesimde kısa bir mesafe boyunca belirledi. Kaynak yalnız yılı veriyor; hattın koordinatları bilinmediği için haritada çizilmedi.",
+     "kaynak": "IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary … for a limited distance')",
+     "sinir_id": [], "sinif": "E", "not": "hat kaydı YOK — geometri kaynakta yok"},
+    {"t": "1892-01-01", "devlet": "osmanli", "taraflar": ["osmanli", TUN],
+     "b": "Fransız–Osmanlı düzenlemesi — Tunus–Trablusgarp sınırı Gadames'e kadar uzatıldı",
+     "tur": "antlasma", "onem": 2, "dunya": 1, "kapsam": "dis", "yer_id": "",
+     "etiket": ["antlasma", "sinir", "osmanli", TUN, "konu-diplomasi"],
+     "d": "İkinci bir Fransız–Osmanlı düzenlemesi Tunus ile Trablusgarp arasındaki sınırı öncekinden daha ayrıntılı biçimde ve iç kesimde Gadames'e kadar belirledi. "
+          "Bugünkü sınırı çizen asıl belge 1910 Trablus Sözleşmesi'dir. Kaynak yalnız yılı veriyor; 1892 hattının koordinatları bilinmediği için haritada çizilmedi.",
+     "kaynak": "IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy … as far as Ghudamis')",
+     "sinir_id": [], "sinif": "E", "not": "hat kaydı YOK — geometri kaynakta yok"},
     # ── G3 (1878-07-13 → 1914-07-28) ──
     {"t": "1906-10-01", "devlet": "osmanli", "taraflar": ["osmanli", "misir-kavalali"],
      "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah–Taba hattı tarif edildi",

@@ -2,7 +2,8 @@
   "paket": "0060/H-0001 · 0061/H-0001 — Osmanlı İran seferi ile Rusya'nın İran'daki ilerleyişi (1722-1735) birlikte",
   "tarih": "2026-09-17",
   "yazan": "D4-ORTADOGU (1.MURAT sevki, oturumlar/DALGA-0060.md)",
-  "durum": "ONERI — kilitli dosyalara YAZILMADI. Uygulayıcı: UYGULA / 1.MURAT. YAMA-0059-HAZAR.json ile BİRLİKTE uygulanmalı (aynı olaylar; mükerrer kalem yok, atıf var).",
+  "durum": "ONERI — kilitli dosyalara YAZILMADI. Uygulayıcı: UYGULA / 1.MURAT. YAMA-0059-HAZAR.json ve YAMA-0063-HAZAR.json ile BİRLİKTE uygulanmalı.",
+  "DUZELTME_0063": "🔴 17 Eylül (0063 turu): Gîlân'ın boşaltılması 1734 DEĞİL 1732 — Iranica BOUNDARIES ii + Kurukin 2010 (Levaşov Kura'yı 22 Ağu 1732 J = 2 Eyl 1732 G geçti). TDV gilan '1734' muhtemelen 29 Eki 1734 genel çekilme buyruğunun yılı. ⇒ kronoloji #5 ve H1/H3/H4 bitişleri 1734-01-01 → 1732-09-02 DÜZELTİLDİ. Atlastaki 1734-01-01 kırılması yanlış güne bağlı; H2 ile birlikte 8 noktanın hepsinde kalkar.",
   "olcum_araci": "denetim/ARAC-D4-IRAN1722-SAYIM-0917.js (salt okuma; data/olaylar*.js ÇEKİRDEK + data/kronoloji*.js KUYRUK ayrı sayılır)",
 
   "sayim_once": {
@@ -24,7 +25,7 @@
       "Lâhîcân'ın işgali (1725) — YOK",
       "Tarku şamhallığının kaldırılması (1725-26) — YOK (YAMA-0059 #8'de önerildi)",
       "Reşt Antlaşması (1732) — YOK; atlasta 1732-01-21 kırılması (Mahmudâbâd) maddesiz",
-      "Rusların Gîlân'dan çekilmesi (1734) — YOK; atlasta 1734-01-01 kırılması (8 nokta) maddesiz"
+      "Rusların Gîlân'dan çekilmesi (1732; atlas 1734 diyor) — YOK; atlasta 1734-01-01 kırılması (8 nokta) maddesiz ve yanlış güne bağlı"
     ],
     "osmanli_tarafinda_gorulen_bosluk_ARASTIRILMADI": "1726 Eşref Han karşısında Nihâvend yenilgisi (ekokuma_antlasma4 kartında 'Kasım 1726' olarak geçiyor, çekirdekte madde yok) · 1724-25 Erdebil/Kazvin/Şemahı. Bu turun kapsamı Rus ekseni; bunlar kaynağa sorulmadı, madde önerilmedi."
   },
@@ -59,8 +60,8 @@
     {
       "no": 5,
       "dosya": "çekirdek olaylar dosyası",
-      "yeni": "{ t:\"1734-01-01\", k:\"toprak-kayip\", etiket:[\"idari\",\"konu-siyasi\"], b:\"Rus kuvvetlerinin Gîlân'ı boşaltması\", gun:\"1734\", yer:\"Reşt, Lâhîcân, Enzeli (Gîlân)\", d:\"Reşt Antlaşması'nın ardından Rus garnizonları Gîlân'dan çekildi; Rus komutanı Levaşov 1733'te hâlâ Nâdir'le görüşmek üzere Reşt'e gönderiliyordu. Kıyıdaki Rus varlığı artık yalnız Bakü ve Derbend'den ibaretti; onlar da 1735 Gence Antlaşması'yla iade edildi.\", kaynak:\"TDV gilan (Rusların 1734'te çekilmesi — ⚠️ aynı madde Petro'nun ölümünü yanlışlıkla 1732 veriyor) · Salamova, Omskiy nauçnıy vestnik 2007 (Levaşov'un 1733'te Reşt'e gönderilmesi)\", yer_id:\"Reşt\" }",
-      "harita_bagi": "atlastaki 1734-01-01 kırılması (Lâhîcan · Enzeli; H1 ile Reşt)"
+      "yeni": "{ t:\"1732-09-02\", k:\"toprak-kayip\", etiket:[\"idari\",\"konu-siyasi\"], b:\"Rus kuvvetlerinin Gîlân ve Tâliş'i boşaltması — Levaşov Kura'yı geçti\", gun:\"2 Eylül 1732 (Rus takvimiyle 22 Ağustos)\", yer:\"Reşt, Lâhîcân, Enzeli, Lenkeran, Astara\", kisiler:\"General V. Y. Levaşov\", d:\"Reşt Antlaşması'nın teslim süresi dolarken Rus Gîlân kolordusu Gîlân ile Tâliş'ten çekildi ve Kura ırmağının kuzeyine geçti; yalnız Gîlân'da Ocak-Mart 1732 arasında binden fazla asker hastalıktan ölmüştü. Kıyıdaki Rus varlığı artık Kura'nın kuzeyi, Bakü ve Derbend'den ibaretti; onlar da 1735 Gence Antlaşması'yla iade edildi.\", kaynak:\"Iranica BOUNDARIES ii ('the Russian forces abandoned Gīlān and Ṭāleš', 1732) · Kurukin, Персидский поход Петра Великого (2010) — Kura geçişi günü ve kayıplar (çevrimiçi aynadan okundu, basılı nüshayla KARŞILAŞTIRILMADI) · ⚠️ TDV gilan '1734' — çekilme buyruğunun yılı olmalı, kullanılmadı\", yer_id:\"Reşt\" }",
+      "harita_bagi": "H1 · H3 · H4 bitişleri + YAMA-0063 H-TALIŞ (Lenkeran · Astara)"
     }
   ],
   "kronoloji_yama0059_ile_ortak": "YAMA-0059-HAZAR.json #5 (Derbend 1722-09-03) · #6 (Gence 1735-03-21) · #7 (Bakü 1723-08-06) · #8 (Tarku 1726) · #9 (sefer başlangıcı 1722-07-29) — burada TEKRAR YAZILMADI; birlikte uygulanınca Rus ekseni 5 → 13 madde olur.",
@@ -71,7 +72,7 @@
     "1725-01-01 Nahçıvan / Lâhîcân · 1725-08-04 Tebriz · 1725-09-12 Gence",
     "1726-01-01 Tarku şamhallığının kaldırılması · 1727-10-04 Hemedan Antlaşması",
     "1730-08-12 Nâdir'in taarruzu · 1732-01-01 Reşt Antlaşması · 1732-01-10 Ahmed Paşa Antlaşması",
-    "1734-01-01 Ruslar Gîlân'dan çekildi · 1735-03-21 Gence Antlaşması · 1735-06-19 Arpaçay · 1736-03-08 Nâdir Şah · 1736-09-01 İstanbul Antlaşması"
+    "1732-08-01 Nâdir Tahmasb'ı indirdi (kuyruk) · 1732-09-02 Ruslar Gîlân ve Tâliş'ten çekildi · 1734-05-31 Nâdir'in Golitsın'a tehdidi · 1734-11-09 çekilme buyruğu · 1735-03-21 Gence Antlaşması · 1735-05-01/08 Bakü ve Derbend teslimi · 1735-06-19 Arpaçay · 1736-03-08 Nâdir Şah · 1736-09-01 İstanbul Antlaşması"
   ],
 
   "harita_yamalari": [
@@ -79,9 +80,9 @@
       "no": "H1",
       "dosya": "data/yerlesimler.js:1082 (Reşt) — AYNI DEĞER: data/yer_yama_zend_kacar.js:58 · data/yer_kron_dogu.js:187 (ölç)",
       "eski": "{f:\"1501-07-01\",t:\"1736-03-08\",d:\"safevi\"}",
-      "yeni": "{f:\"1501-07-01\",t:\"1723-01-01\",d:\"safevi\"},{f:\"1723-01-01\",t:\"1734-01-01\",d:\"rusya\"},{f:\"1734-01-01\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"1501-07-01\",t:\"1723-01-01\",d:\"safevi\"},{f:\"1723-01-01\",t:\"1732-09-02\",d:\"rusya\"},{f:\"1732-09-02\",t:\"1736-03-08\",d:\"safevi\"}",
       "gerekce": "Reşt Rus Gîlân kolordusunun MERKEZİYDİ (Levaşov burada 'Yeni kale' yaptırdı — Garunova 2016) ama atlas onu kesintisiz Safevî gösteriyor; komşuları Enzeli ve Lâhîcân ise Rus. Gîlân'ın merkezi Rus olmadan boyanıyordu.",
-      "kaynak": "Iranica BOUNDARIES ii · BRE Персидский поход · Garunova, Vestnik DGU 2016 (Reşt'te redut ve Yeni kale) · TDV gilan (1734)"
+      "kaynak": "Iranica BOUNDARIES ii · BRE Персидский поход · Garunova, Vestnik DGU 2016 (Reşt'te redut ve Yeni kale) · bitiş: Iranica 1732 + Kurukin 2010 (22 Ağu 1732 J)"
     },
     {
       "no": "H2",
@@ -96,7 +97,8 @@
       "no": "H3",
       "dosya": "data/yerlesimler.js:1959 (Lâhîcan) — AYNI DEĞER: data/yer_yama_zend_kacar.js:136",
       "eski": "{f:\"1592-01-01\",t:\"1723-09-23\",d:\"safevi\"},{f:\"1723-09-23\",t:\"1734-01-01\",d:\"rusya\"}",
-      "yeni": "{f:\"1592-01-01\",t:\"1725-01-01\",d:\"safevi\"},{f:\"1725-01-01\",t:\"1734-01-01\",d:\"rusya\"}",
+      "yeni": "{f:\"1592-01-01\",t:\"1725-01-01\",d:\"safevi\"},{f:\"1725-01-01\",t:\"1732-09-02\",d:\"rusya\"},{f:\"1732-09-02\",t:\"1736-03-08\",d:\"safevi\"}",
+      "not_eski_uzanti": "eski kaydın sonraki `{f:\"1734-01-01\",t:\"1736-03-08\",d:\"safevi\"}` parçası bu yenisiyle DEĞİŞİR",
       "gerekce": "Lâhîcân 1725'te işgal edildi; Petersburg günü bir işgal günü değil.",
       "kaynak": "Iranica BOUNDARIES ii"
     },
@@ -104,7 +106,8 @@
       "no": "H4",
       "dosya": "data/yerlesimler.js:1960 (Bender Enzeli) — AYNI DEĞER: data/yer_yama_zend_kacar.js:137",
       "eski": "{f:\"1592-01-01\",t:\"1723-09-23\",d:\"safevi\"},{f:\"1723-09-23\",t:\"1734-01-01\",d:\"rusya\"}",
-      "yeni": "{f:\"1592-01-01\",t:\"1723-01-01\",d:\"safevi\"},{f:\"1723-01-01\",t:\"1734-01-01\",d:\"rusya\"}",
+      "yeni": "{f:\"1592-01-01\",t:\"1723-01-01\",d:\"safevi\"},{f:\"1723-01-01\",t:\"1732-09-02\",d:\"rusya\"},{f:\"1732-09-02\",t:\"1736-03-08\",d:\"safevi\"}",
+      "not_eski_uzanti": "eski kaydın sonraki `{f:\"1734-01-01\",t:\"1736-03-08\",d:\"safevi\"}` parçası bu yenisiyle DEĞİŞİR",
       "gerekce": "Rus çıkarması Enzeli körfezine Aralık 1722'de (J) — kronoloji #1 ile aynı gün, aynı tarih kararı.",
       "kaynak": "BRE Персидский поход · Iranica BOUNDARIES ii"
     }

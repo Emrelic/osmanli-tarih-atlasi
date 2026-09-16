@@ -1,0 +1,67 @@
+{
+  "paket": "0063/H-0010 — İran'ın Rusları kendi topraklarından çıkarması kronolojide",
+  "tarih": "2026-09-17",
+  "yazan": "D4-ORTADOGU (1.MURAT sevki, oturumlar/DALGA-0063.md)",
+  "durum": "ONERI — kilitli dosyalara YAZILMADI. YAMA-0059 · YAMA-0060 · YAMA-0063-HAZAR ile birlikte uygulanır.",
+  "emre_sorusu": "İran'ın Rus işgalini İran içinden atması söz konusu oldu ise bunu da kronolojilerde açıklayalım.",
+  "kisa_cevap": "Doğrudan bir Rus-İran savaşı OLMADI. Çıkarma iki antlaşmayla (Reşt 1732, Gence 1735) oldu; ama arkasında Nâdir'in Osmanlılara karşı zaferlerinin ve 'toprakları vermezseniz Türklerle anlaşırım' tehdidinin baskısı vardı. Tek silahlı çatışma 1724'te Salyan'da bir Rus taburunun yok edilmesiydi.",
+
+  "var_olan_maddeler": [
+    "1724-06-24 İstanbul Mukāsemenâmesi (çekirdek)",
+    "1729-01-01 Nadir Han Afganları yenip İsfahan'ı geri aldı (kuyruk kronoloji_iran)",
+    "1732-01-10 Ahmed Paşa Antlaşması (çekirdek)",
+    "1732-08-01 Nâdir'in Tahmasb'ı indirmesi (kuyruk kronoloji_safevi)",
+    "1735-03-10 Gence Antlaşması (çekirdek; YAMA-0059 #6 → 1735-03-21)",
+    "1735-06-19 Arpaçay bozgunu (çekirdek; günü bu turda DOĞRULANMADI)"
+  ],
+  "diger_yamalarda_onerilen": [
+    "YAMA-0060 #4 — 1732-01-01 Reşt Antlaşması",
+    "YAMA-0060 #5 — 1732-09-02 Rusların Gîlân ve Tâliş'i boşaltması (bu turda 1734'ten DÜZELTİLDİ)"
+  ],
+
+  "kronoloji_yeni": [
+    {
+      "no": 1,
+      "yeni": "{ t:\"1724-09-11\", k:\"savas\", etiket:[\"savas\",\"konu-askeri\"], b:\"Salyan'da Rus taburunun yok edilmesi — Tahmasb'ın birlikleri Kura ağzına girdi\", gun:\"11 Eylül 1724 (Rus takvimiyle 31 Ağustos)\", yer:\"Salyan (Kura ağzı)\", kisiler:\"Zembulatov\", d:\"Bakü'nün alınmasından sonra Kura ağzına yerleşen Rus taburunun subayları Salyan naibinin verdiği bir ziyafette öldürüldü; kalan birlik Bakü'ye çekildi ve Salyan'a II. Tahmasb'ın yaklaşık dört bin kişilik birliği girdi. Ruslar bölgeye ancak birkaç yıl sonra, naibi kendileri atayarak dönebildiler. İşgal döneminde Rusların İran içinde silahla geri püskürtüldüğü nadir olaylardan biridir.\", kaynak:\"Kurukin, Персидский поход Петра Великого (2010) — çevrimiçi aynadan, basılı nüshayla KARŞILAŞTIRILMADI · Özdamirova, Sovremennaya nauçnaya mısl' 2024 (arşiv belgeleri)\", yer_id:\"Salyan\" }",
+      "harita_bagi": "YAMA-0063-HAZAR S1"
+    },
+    {
+      "no": 2,
+      "yeni": "{ t:\"1734-05-31\", k:\"diplomasi\", etiket:[\"diplomasi\",\"konu-diplomasi\"], b:\"Nâdir'in Rus elçisi Golitsın'a tehdidi: 'Hazar eyaletlerini ve Derbend'i vermezseniz Türklerle anlaşırım'\", gun:\"31 Mayıs 1734 (Rus takvimiyle 20 Mayıs)\", yer:\"Nâdir'in karargâhı\", kisiler:\"Nâdir (Tahmasb Kulu Han) · Prens S. D. Golitsın\", d:\"Revan önünde Osmanlı ordusunu yenen Nâdir, Rus yardım teklifini reddetti ve Rusya Hazar kıyısı eyaletleriyle Derbend'i Reşt Antlaşması'nın ötesinde hemen iade etmezse Osmanlı ile ayrı barış yapacağını bildirdi. Petersburg, yeni bir Osmanlı savaşının arifesinde İran'ı karşı tarafa itmemek için geri adım attı.\", kaynak:\"Salamova, Omskiy nauçnıy vestnik 2007 ('на аудиенции 20 мая … если российское правительство немедленно не возвратит')\", yer_id:\"\" }",
+      "tarih_notu": "Makale yılı bağlamdan veriyor (Mayıs 1734 Revan yenilgisinden sonra); gün Rus takvimiyle 20 Mayıs kabul edildi → G 31 Mayıs. Takvim makalede belirtilmiyor — doğrulanmadı."
+    },
+    {
+      "no": 3,
+      "yeni": "{ t:\"1734-11-09\", k:\"idari\", etiket:[\"idari\",\"konu-siyasi\"], b:\"Rus çekilme buyruğu — Bakü, Nizovaya ve Kura'dan Derbend'e kadar bütün mevziler boşaltılacak\", gun:\"9 Kasım 1734 (Rus takvimiyle 29 Ekim)\", yer:\"St. Petersburg\", kisiler:\"İmparatoriçe Anna · General V. Y. Levaşov\", d:\"İmparatoriçe Anna'nın buyruğu Rus kuvvetlerinin önce Bakü'den ve Nizovaya kalesinden Derbend'e çekilmesini, Derbend ile kalan eyaletlerin de mevsim elverdiğinde boşaltılmasını emretti. Nâdir'in baskısı antlaşmadan önce sonuç vermişti.\", kaynak:\"Garunova, Vestnik DGU 2016 ('29 октября 1734 г. последовал новый указ … вывести русские войска из Баку, Низовой')\", yer_id:\"Bakü\" }"
+    },
+    {
+      "no": 4,
+      "yeni": "{ t:\"1735-05-01\", k:\"toprak-kayip\", etiket:[\"idari\",\"konu-siyasi\"], b:\"Bakü'nün İran'a teslimi\", gun:\"1 Mayıs 1735 (Rus takvimiyle 20 Nisan)\", yer:\"Bakü\", kisiler:\"de Brilly · Musa Han\", d:\"Gence Antlaşması'nın iki ay içinde boşaltma şartı üzerine Rus komutanı de Brilly, şehri teslim almaya gelen Musa Han'a Bakü'yü teslim etti.\", kaynak:\"Kurukin 2010 (ayna, DOĞRULANMADI) · BRE Гянджинский трактат 1735 (iki ay şartı)\", yer_id:\"Bakü\" }",
+      "harita_bagi": "YAMA-0063-HAZAR yama0059_inceltme #2"
+    },
+    {
+      "no": 5,
+      "yeni": "{ t:\"1735-05-08\", k:\"toprak-kayip\", etiket:[\"idari\",\"konu-siyasi\"], b:\"Derbend'in İran'a teslimi — on üç yıllık Rus işgalinin sonu\", gun:\"8 Mayıs 1735 (Rus takvimiyle 27 Nisan)\", yer:\"Derbend\", kisiler:\"Eropkin\", d:\"Derbend'in anahtarları İran tarafına teslim edildi; bazı Rus birlikleri bir süre daha şehirde kaldı. Böylece 1722'de başlayan Rus işgali, Rusya'nın bir yeni Osmanlı savaşı öncesinde Nâdir'i müttefik tutma isteğiyle, tek bir büyük muharebe olmadan sona erdi.\", kaynak:\"Kurukin 2010 (ayna, DOĞRULANMADI) · Salamova 2007 (Rusya'nın Nâdir'le ittifak kaygısı)\", yer_id:\"Derbend\" }",
+      "harita_bagi": "YAMA-0063-HAZAR yama0059_inceltme #1"
+    },
+    {
+      "no": 6,
+      "yeni": "{ t:\"1735-08-23\", k:\"idari\", etiket:[\"idari\",\"konu-askeri\"], b:\"Kutsal Haç kalesinin yıkılması — Rus sınırı Terek'e çekildi, Kızlar kalesi kuruldu\", gun:\"Ağustos 1735 (Levaşov'un raporu: Rus takvimiyle 12 Ağustos)\", yer:\"Sulak ırmağı · Kızlar (Terek)\", kisiler:\"General V. Y. Levaşov\", d:\"Reşt ve Gence antlaşmalarından sonra Rusya'nın yeni sınırı Terek ırmağı oldu; Sulak üzerindeki Kutsal Haç kalesinin yıkılmasına karar verildi ve Levaşov yıkımı Ağustos 1735'te bildirdi. Aynı yıl Levaşov Terek üzerinde Kızlar kalesinin yerini seçti; Dağıstan kıyısında 1722'den beri süren Rus varlığı böylece Terek'in kuzeyine çekildi.\", kaynak:\"Asvarov–Magaramov, Kaspiyskiy region 2022 ('новые границы России проходили по реке Терек … 12 августа 1735 г. генерал В. Я. Левашов доносил') · Garunova, İzvestiya VGPU 2018 (Kızlar'ın 1735 kuruluşu)\", yer_id:\"\" }",
+      "tarih_notu": "t = raporun Gregoryen günü; yıkım bu günden ÖNCE ya da o gün tamamlandı ('en geç').",
+      "harita_bagi": "YAMA-0059 #4 (Ağraham) — açık karar Terek yönünde kapanır"
+    }
+  ],
+
+  "birlikte_sira": [
+    "1722-09-03 Derbend alındı · 1723-01-01 Reşt/Enzeli (Kas-Ara 1722) · 1723-08-06 Bakü · 1723-09-23 Petersburg",
+    "1724-06-24 Mukāsemenâme · 1724-09-11 Salyan'da Rus taburu yok edildi",
+    "1725-01-01 Lâhîcân · 1726-01-01 Tarku şamhallığı kaldırıldı",
+    "1729-01-01 Nâdir İsfahan'ı aldı (kuyruk) · 1732-01-01 Reşt Antlaşması · 1732-01-10 Ahmed Paşa · 1732-08-01 Nâdir Tahmasb'ı indirdi (kuyruk) · 1732-09-02 Ruslar Gîlân ve Tâliş'ten çekildi",
+    "1734-05-31 Nâdir'in tehdidi · 1734-11-09 çekilme buyruğu",
+    "1735-03-21 Gence · 1735-05-01 Bakü teslimi · 1735-05-08 Derbend teslimi · 1735-06-19 Arpaçay · 1735-08-23 Kutsal Haç yıkıldı, sınır Terek"
+  ],
+  "yazilmayanlar": [
+    "Nâdir'in 9 Kasım 1733 Kerkük zaferi — kaynak (Iranica NĀDER SHAH) ajan raporunda geçiyor, bu oturumda gövdesi AYRICA okunmadı; Osmanlı ekseni.",
+    "Rus mühendislerinin 1735 Gence kuşatmasında Nâdir'e yardımı — Kurukin (ayna) tek kaynak; yazılmadı."
+  ]
+}

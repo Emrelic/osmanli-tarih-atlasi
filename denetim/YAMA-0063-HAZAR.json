@@ -1,0 +1,90 @@
+{
+  "paket": "0063/H-0001 (Rus yanı) — Hazar kıyısında Rus işgalindeki yerler haritada doğru mu (1722-1735)",
+  "tarih": "2026-09-17",
+  "yazan": "D4-ORTADOGU (1.MURAT sevki, oturumlar/DALGA-0063.md)",
+  "durum": "ONERI — kilitli dosyalara YAZILMADI. YAMA-0059-HAZAR ve YAMA-0060-KRONO ile BİRLİKTE uygulanır; bu dosya o ikisini TAMAMLAR ve iki kalemini İNCELTİR (aşağıda 'yama0059_inceltme').",
+  "emre_sorusu": "Rusya Hazar kıyısından geçerken Tarku, Kuba, Lenkeran, Erdebil, Halhal gibi yerleri işgal etmemiş mi?",
+  "kisa_cevap": "Tarku EVET (tâbi, 1726'dan sonra doğrudan idare — YAMA-0059 #3) · Kuba KISMEN (1724 antlaşmasıyla Rus payı, yerli han eliyle; garnizon kaynakta yok → tâbi) · Lenkeran/Astara EVET (Tâliş 1723-1732 Rus; Astara'da garnizon) · Erdebil HAYIR (1724'te şaha bırakıldı, 1725'te OSMANLI aldı — o yan TK FERHATPASA'nın) · Halhal HAYIR (hiçbir kaynakta Rus izi yok) · Reşt/Gîlân EVET (YAMA-0060 H1-H4) · Salyan İKİ DÖNEM (aşağıda).",
+
+  "atlas_olcumu": {
+    "arac": "denetim/ARAC-D4-HAZAR-OLCUM-0917.py + satır içi tarama (38-42,2°K · 47-50,5°D)",
+    "rus_gorunen_1725": "Derbend · Bakü · Salyan · Mahmudâbâd · (Enzeli · Lâhîcan · Mâzenderân 6 nokta)",
+    "safevi_gorunen_ama_rus_olan": "Tarki (Tarku) · Reşt · Lenkeran · Astara · (Kuba, Şâbüran — tâbi)",
+    "dogru_olan": "Erdebil · Halhal: Rus değil ✓ (Osmanlı yanı ayrı oturumda)"
+  },
+
+  "kalemler": [
+    {
+      "no": "T1",
+      "dosya": "data/yerlesimler.js:1974 (Lenkeran) · :1971 (Astara) — AYNI DEĞER: data/yer_yama_zend_kacar.js:144-145",
+      "eski": "{f:\"1501-07-01\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"1501-07-01\",t:\"1723-01-01\",d:\"safevi\"},{f:\"1723-01-01\",t:\"1732-09-02\",d:\"rusya\"},{f:\"1732-09-02\",t:\"1736-03-08\",d:\"safevi\"}",
+      "gerekce": "Tâliş beyi Mir Abbas Bey 1723'te boyun eğdi; Lenkeran, Astara ve Kızılağaç Rus vilayetleri oldu, Astara'da garnizon vardı (Rus generalleri 1731'e kadar orada öldü); dört Rus alayı bu vilayetlerin adını taşıyordu. 1732 Reşt Antlaşması'yla Tâliş bırakıldı; Levaşov Kura'yı 22 Ağu 1732 (J) = 2 Eyl 1732 (G) geçti. Başlangıç yalnız YIL (1723) — Reşt/Enzeli kalemiyle aynı tarih kararı (YAMA-0060 #1).",
+      "kaynak": "Iranica BOUNDARIES ii ('the Russian forces abandoned Gīlān and Ṭāleš') · TDV talis-hanligi (200, gövde okundu) · Özdamirova, Sovremennaya nauçnaya mısl' 2024 (arşiv belgeleri) · Kurukin, Персидский поход Петра Великого (2010) — ÇEVRİMİÇİ AYNADAN, basılı nüshayla karşılaştırılmadı",
+      "ek_not": "1726'da Astara hanı Musa ayaklanıp bölgeyi bıraktı; Rus garnizonu kaldı — ayrı kırılma YAZILMADI."
+    },
+    {
+      "no": "S1",
+      "dosya": "data/yerlesimler.js:1975 (Salyan) — AYNI DEĞER: data/yer_yama_zend_kacar.js:146",
+      "eski": "{f:\"1538-01-01\",t:\"1723-09-23\",d:\"safevi\"},{f:\"1723-09-23\",t:\"1732-01-21\",d:\"rusya\"},{f:\"1732-01-21\",t:\"1736-03-08\",d:\"safevi\"}",
+      "yeni": "{f:\"1538-01-01\",t:\"1724-01-01\",d:\"safevi\"},{f:\"1724-01-01\",t:\"1724-09-11\",d:\"rusya\"},{f:\"1724-09-11\",t:\"1727-01-01\",d:\"safevi\"},{f:\"1727-01-01\",t:\"1732-09-02\",d:\"rusya\"},{f:\"1732-09-02\",t:\"1736-03-08\",d:\"safevi\"}",
+      "gerekce": "İKİ DÖNEM. (1) Bakü'nün alınmasından (Ağu 1723) sonra Zembulatov taburu Kura ağzında tahkimli ordugâh kurdu; 1724 başında Salyan'da Rus askeri vardı (başlangıç gün yok → yıl başı, 'en geç'). 31 Ağu 1724 (J) = 11 Eyl (G) günü tabur naibin ziyafetinde öldürüldü, Salyan'a Tahmasb'ın ~4.000 kişilik birliği girdi. (2) 1727'de naibi Rus yönetimi atıyordu (yıl → 'en geç'); Iranica: Ruslar Salyan ve Mugan'ı Şahseven Ali Kulu Han'a emanet etti. Bitiş: Iranica MOḠĀN 'Kura'nın güneyi, Mugan dahil' 1732'de bırakıldı.",
+      "kaynak": "Kurukin 2010 (ayna, doğrulanmadı) · Özdamirova 2024 (arşiv belgeleri) · Iranica MOḠĀN",
+      "acik_karar": "🔴 Salyan Kura'nın hangi yakasında — ÖLÇÜLMEDİ. Kuzey yakadaysa Rus dönemi 1735'e (Bakü teslimi 1735-05-01) kadar sürer, çünkü 29 Eki 1734 buyruğu 'Kura ırmağından itibaren' çekilmeyi emrediyor. Önerim: koordinatör bir haritayla yakayı ölçsün; ölçülene kadar 1732-09-02.",
+      "eski_kirilma_etkisi": "1723-09-23 (Petersburg günü — tasarruf değil) ve 1732-01-21 (zayıf Reşt günü) bu noktadan KALKAR."
+    },
+    {
+      "no": "K1",
+      "dosya": "data/yerlesimler.js:1980 (Kuba) · :657 (Şâbüran) — AYNI DEĞER: data/yer_yama_zend_kacar.js:147 · :45",
+      "eski": "{f:\"1538-01-01\",t:\"1736-03-08\",d:\"safevi\"} (Kuba) · {f:\"1501-07-01\",t:\"1736-03-08\",d:\"safevi\"} (Şâbüran)",
+      "yeni_A": "Kuba: {…,t:\"1726-01-01\",d:\"safevi\"},{f:\"1726-01-01\",t:\"1735-05-01\",d:\"kuba-hanligi\"},{f:\"1735-05-01\",t:\"1736-03-08\",d:\"safevi\"} — Rus tâbiiyeti künyenin notunda",
+      "yeni_B": "Kuba ve Şâbüran: {f:\"1724-06-24\",t:\"1735-05-01\",d:\"rusya\"} — ⚠️ tâbiiyeti doğrudan idare gibi gösterir (D089)",
+      "gerekce": "Guba vilayeti ile Şabran ve Muşkur ilçeleri 1724 İstanbul antlaşmasıyla RUS PAYINA girdi (sınır: Şamahı–kıyı yolunun üçte ikisi + Derbend'den 22 saat → Kura-Aras kavşağı). Yönetim yerli han ve naip eliyle yürüdü; Hüseyin Ali Han 1726'da Rus tâbiiyetine geçti; vilayette Rus garnizonu KAYNAKTA ANILMIYOR. 29 Eki 1734 buyruğuyla çekilme, Gence 1735.",
+      "kaynak": "Magaramov, Journal of Frontier Studies 7/1 (2022) s.94-109 (PDF okundu; antlaşma md.1'i Русско-дагестанские отношения 1958 s.298'den aktarıyor — antlaşma metni ayrıca okunmadı) · Kurukin 2010 (ayna)",
+      "on_kosul": "🔴 A için `kuba-hanligi` künyesi YOK (devletler.js'teki `kuba` Kongo'daki Kuba Krallığı!) ve rengi YOK → D-KUNYE/UYGULA. B tâbiiyeti ifade edemez.",
+      "onerim": "A. Künye gelene kadar DOKUNMA (Safevî kalsın) — B, harita üzerinde garnizonsuz bir bölgeyi Rus ordusu gibi boyar.",
+      "not_sabran": "Şâbüran Rus payındaydı; Nizovaya (Niyazabad) Rus kalesi ~yakınında (kuruluş günü BULUNAMADI, atlasta noktası YOK). Şâbüran'ın tasarrufu garnizon mu tâbiiyet mi — ölçülmedi; K1 kararı ona da uygulanır."
+    }
+  ],
+
+  "yama0059_inceltme": [
+    {
+      "yama0059_kalem": 1,
+      "konu": "Derbend Rus döneminin SONU",
+      "yama0059_degeri": "1735-03-21 (Gence antlaşması)",
+      "oneri": "1735-05-08",
+      "gerekce": "Atlas TASARRUF boyar: antlaşma 10(21) Mart'ta imzalandı, Derbend'in anahtarları Eropkin tarafından 27 Nis 1735 (J) = 8 May (G) teslim edildi (bazı birlikler bir süre daha kaldı). Antlaşma iki ay içinde boşaltma öngörüyordu (BRE).",
+      "kaynak": "Kurukin 2010 (ayna, DOĞRULANMADI) · BRE Гянджинский трактат 1735 (iki ay şartı)",
+      "karar": "Kurukin aynası basılı nüshayla karşılaştırılmadı → koordinatör: tasarruf günü (1735-05-08) mi, antlaşma günü (1735-03-21) mi. Önerim 1735-05-08 + not."
+    },
+    {
+      "yama0059_kalem": 2,
+      "konu": "Bakü Rus döneminin SONU",
+      "yama0059_degeri": "1735-03-21",
+      "oneri": "1735-05-01",
+      "gerekce": "Musa Han 23 Mart (J) şehri teslim almaya geldi; de Brilly 20 Nis 1735 (J) = 1 May (G) teslim etti. TDV baku '1734' — muhtemelen 29 Eki 1734 çekilme buyruğunun yılı.",
+      "kaynak": "Kurukin 2010 (ayna, DOĞRULANMADI) · Garunova, Vestnik DGU 2016 (29 Eki 1734 buyruğu: 'вывести русские войска из Баку, Низовой')",
+      "karar": "aynı"
+    },
+    {
+      "yama0059_kalem": 4,
+      "konu": "Ağraham burnu SONU (Sulak mı Terek mi)",
+      "yeni_bilgi": "Levaşov Kızlar'da yeni sınır kalesini kurup 19 Eki 1735'te (J) ayrıldı; Kutsal Haç surları yıkıldı (12 Ağu 1735 J raporu) ⇒ fiilî hat TEREK. Önerim: Ağraham'ın Rus dönemi Kutsal Haç'ın yıkımıyla biter — 1735-08-23 (G). Kaynak: Garunova 2016; Asvarov–Magaramov 2022.",
+      "karar": "YAMA-0059 #4 açık kararı bu bilgiyle Terek yönünde kapanabilir."
+    }
+  ],
+
+  "yazilmayanlar": [
+    "Nizovaya (Niyazabad) Rus kalesi ve 1727 Dedeli kalesi — atlasta nokta yok, kuruluş günü bulunamadı. Nokta eklenirse Şâbüran kıyısı kendi peteğini alır.",
+    "Cavad (Kura üzerinde Rus ilçesi) — atlasta nokta yok; başlangıç bulunamadı.",
+    "Mahmudâbâd — hiçbir okunan kaynak anmıyor; mevcut Rus dönemi (1723-09-23 → 1732-01-21) Petersburg ve zayıf Reşt günlerine bağlı. Dokunulmadı; 'kaynaksız dönem' diye işaretlenmeli.",
+    "Mugan/Şahseven bozkırı — Rus tâbiiyeti (Ali Kulu Han), kesintili garnizon; atlasta nokta yok."
+  ],
+
+  "kaynak_celiskileri": [
+    "TDV gilan 'Ruslar 1734'te Gîlân'dan çekildi' ↔ Iranica + Kurukin 1732 — YAMA-0060 bu turda DÜZELTİLDİ (1734 → 1732-09-02).",
+    "TDV baku '1734' ↔ Kurukin 20 Nis 1735 (J).",
+    "TDV sirvan '1722'de Ruslar Şemâhî'yi zaptetti' ↔ BRE (Petro Derbend'den döndü) + 1724 antlaşması Şamahı'yı Osmanlı'ya veriyor — TDV cümlesi muhtemelen yanlış.",
+    "Arpaçay (Bağavard) 19 Haziran 1735 — atlasın olaylar_ek6 maddesi; bu turda kaynakla doğrulanmadı (Kurukin gün vermiyor)."
+  ]
+}

@@ -387,3 +387,22 @@ Lâhîcân başlangıcı 1725 (H3) · Enzeli başlangıcı 1722 sonu (H4). Atlas
 **Yazılmadı:** Tâliş (Astara · Lenkeran) — Rus varlığı var ama başlangıç günü yok · Osmanlı tarafı boşlukları (1726 Nihâvend) — kaynağa sorulmadı.
 **Ek okuma:** `rusiran-iran-paylasimi-1724-neden` (tartışma) — iki tarafın gerekçeleri (Iranica), hükümler (BRE: 6 madde, Şemahı şartı, Tahmasb'ın tanınması),
 kâğıt üzerinde kalan paylaşım ve 1732-1736 iadeleri; `antlasma4-iran-mukasemenamesi-1724`'e atıf. Osmanlı'nın savaştan kaçınma gerekçesi kartta YORUM diye damgalı.
+
+---
+
+## 17. DALGA-0063 — H-0001 (Rus yanı) + H-0010 · ve bir G3 eki
+
+Çıktılar: `denetim/YAMA-0063-HAZAR.json` (3 kalem + YAMA-0059'a 3 inceltme) · `denetim/YAMA-0063-KRONO.json` (6 madde) ·
+`data/ekokuma_rusiran.js` (+1 kart → 5) · `denetim/YAMA-0060-KRONO.json` DÜZELTİLDİ.
+
+**H-0001 cevabı:** Tarku EVET (tâbi→idare) · Kuba KISMEN (1724 Rus payı, yerli han, garnizon yok → tâbi; `kuba-hanligi` künyesi YOK — `kuba` Kongo!) ·
+Lenkeran/Astara EVET 1723-1732 (T1) · Salyan İKİ DÖNEM 1724 ve 1727-1732 (S1; Kura'nın hangi yakası ÖLÇÜLMEDİ) · Erdebil HAYIR (1725'te Osmanlı) · Halhal HAYIR.
+**🔴 Kendi hatamın düzeltmesi:** YAMA-0060'ta Gîlân'ın boşaltılmasını TDV `gilan`a dayanıp **1734** yazmıştım; Iranica + Kurukin **1732** (Levaşov Kura'yı 2 Eyl 1732'de geçti).
+YAMA-0060 #5 ve H1/H3/H4 bitişleri 1732-09-02'ye çekildi (dosyada `DUZELTME_0063`). Ders: TDV'nin başka yerde hatası kanıtlanmış bir maddesini tek dayanak yapmıştım.
+**YAMA-0059 inceltmesi:** Derbend ve Bakü'nün Rus dönemi antlaşma günüyle değil TESLİM günüyle bitsin (1735-05-08 · 1735-05-01; Kurukin aynası, doğrulanmadı) ·
+Ağraham açık kararı **Terek** yönünde kapanır (Asvarov–Magaramov 2022: "yeni sınır Terek", Kutsal Haç 12 Ağu 1735 J raporu).
+**H-0010 cevabı:** Rus-İran savaşı YOK; tek çatışma Salyan 1724. Çıkarma = Reşt 1732 + Nâdir'in Mayıs 1734 tehdidi + 29 Eki 1734 buyruğu + Gence 1735 + teslimler.
+**Kaynak uyarısı:** Kurukin 2010 monografisi yalnız bir çevrimiçi aynadan okundu — ondan gelen dört gün "basılı nüshayla karşılaştırılmadı" damgalı.
+
+**G3 eki (M-4161'de kaçmıştı):** 1886 ve 1892 Fransız–Osmanlı Tunus–Trablus düzenlemeleri (IBS 121) — hukukî (E) ama geometri yok ⇒
+hat kaydı YOK, kronolojiye 2 madde (`data/kronoloji_sinir_ortadogu.js` → 10 madde).
