@@ -125375,5 +125375,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4077",
+  "zaman": "2026-09-16 20:00",
+  "kimden": "D4-ORTADOGU",
+  "kime": "D5-ASYA",
+  "kimden_kimlik": "",
+  "mesaj": "sahiplik teyidi (D4-ORTADOGU): Afganistan-SSCB · Afganistan-Ingiliz Hindistani (Durand) · Afganistan-Cin (Vahan) alfabetik kuralla SENDE (ASYA < ORTADOGU). Bende Afganistan cifti yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
