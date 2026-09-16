@@ -2,7 +2,7 @@
 
 Oturum: D4-ORTADOGU (Opus) · koordinatör 1.MURAT · şartname `oturumlar/D-1923-0916.md` · 16 Eylül 2026
 Kapsam: Arap Yarımadası · Filistin/Şarkî Ürdün · Mısır · Libya · Tunus · Cezayir · Fas · Afganistan
-Durum: **yalnız envanter.** `denetim/SEMA-D-0916.md` ilan edilmedi → `data/d_sinirlar_ortadogu.js` YAZILMADI.
+Durum: aşama ① envanter (§0-§10) + aşama ② veri (§11) — `data/d_sinirlar_ortadogu.js` 8 kayıt.
 
 Sınıflar (`GORUNUM-ABCD-0916.md`):
 **D** = adlı nokta / sütun / koordinatla tanımlı ve 29.10.1923'te iki tarafça kabul edilen hat ·
@@ -203,3 +203,50 @@ boş/boilerplate gövde (200): `umman` · `akabe` (bir ölçümde) → "çekilem
 **Ölçülemedi (403/404/Cloudflare):** QDL/IOR dosyaları · Tallon 2019 (academia.edu) · al-bab.com Shepherd · UN Digital Library 630667 · UN iLibrary 30621 · ResearchGate Urteaga · Tandfonline 10.1080/13629387.2025.2505875
 
 Vikipedi ve arama özetleri yalnız yön bulmak için kullanıldı; tablonun hiçbir satırı onlara dayanmıyor.
+
+---
+
+## 11. AŞAMA ② — VERİ (`data/d_sinirlar_ortadogu.js` · `window.D_SINIRLAR_ORTADOGU`)
+
+Üretici `denetim/ARAC-D4-URET-0916.py` (elle düzenleme yok) · ölçüm `denetim/OLCUM-D4-ORTADOGU-KIYAS-0916.json` ·
+şema `denetim/SEMA-D-0916.md` · `node --check` temiz · 8 kaydın bütün `taraflar` kimlikleri `devletler.js`te VAR.
+
+| id | kat. | km | geometri | kesinlik | atlas kıyası (koşu 11 tabanı) |
+|---|---|---|---|---|---|
+| `d1923-necid-kuveyt-bati` | D | 90,1 | düz hat: NE dörtlü nokta → IBS 103 nokta 2 | 2 km | **atlasta suud–kuveyt KOMŞU DEĞİL** |
+| `d1923-necid-kuveyt-yay` | D | 87,5 | HESAP: 40 mil yarım daire, merkez GeoNames Kuwait City; nokta 2 → kıyı (uç Ras el-Kalia'nın 3,3 km güneyi ✓ metin "south of") | 3 km | aynı |
+| `d1923-necid-kuveyt-tarafsiz-bati` | D | 62,5 | NE ara köşeler, uçlar IBS 103 nokta 2 ve H | 3 km | aynı |
+| `d1923-necid-kuveyt-tarafsiz-guney` | D-YOK | — | kutu [47.40, 27.90, 48.70, 28.56] — Ayn el-Abd koordinatı BULUNAMADI | — | — |
+| `d1923-filistin-misir` | D (şartlı) | 206,1 | NE EGY × (ISR+PSX), Taba → Refah | 1,5 km | ortanca **19,1** · p90 63,4 · en kötü 79,6 · ≤5 km %0 |
+| `d1923-filistin-urdun` | C (`idari_ic_hat`) | 231,9 | NE JOR × (ISR+PSX) en uzun parça — 1994 çizgisi VEKİL | 5 km | ortanca **36,4** · p90 99,8 · en kötü 119,1 · ≤5 km %9 |
+| `d1923-libya-tunus` | D | 454,1 | NE LBY–TUN (Ras Ecdir → taş 220) | 2 km | **atlasta italya–fransa-cumhuriyet bu çevrede KOMŞU DEĞİL** |
+| `d1923-libya-cezayir-gadames` | D | 41,3 | NE DZA–LBY kuzey ucu → Gadames'in 225° ışını (taş 233 vekili) | 5 km | aynı |
+
+**Şemaya EK alanlar** (D1'e M-4076 ile bildirildi): `cins` = `ortak_alan_siniri` | `idari_ic_hat` · `ortak_alan` (kimlik) ·
+`sag_taraf`. `d1923-necid-kuveyt-tarafsiz-bati`de `sol_taraf:null` — doğu yakası tek bir devlet değil, Tarafsız Bölge.
+
+### Ölçüm bulguları
+1. 🔴 **IBS 103 KENDİ İÇİNDE ÇELİŞİYOR — mil değerleri koordinatlarını tutmuyor.** Metin "39,5 + 28 + 33,5 = 101 mil" diyor;
+   kendi koordinatlarından: nokta 2 → H düz **57,6 km** (28 mil = 45), H → G **~71 km** (33,5 mil = 54), batı hattı NE dörtlü
+   noktasından **90,1 km** (39,5 mil = 63,6). IBS'nin kendi tavsiyesi *"it is advised that the coordinates noted in this study be
+   used"* → **koordinat esas alındı**, mil değerleri kullanılmadı. Dörtlü noktanın gerçek yeri ÖLÇÜLMEDİ (NE: 29,11K 46,55D).
+2. **NE, IBS noktalarından sapıyor:** nokta 2'ye 3,5 km · H'ye 1,1 km → uçlar IBS koordinatına oturtuldu.
+3. **Gadames yarım dairesi NE'de IBS'ninkinden geniş:** 41 km / uç 18 km (IBS ~32 km / 13-14 km) → kesinlik 5 km.
+4. **Kuveyt yay merkezi:** GeoNames PPLC → nokta 2 = 63,87 km, 40 mil = 64,37 → 0,5 km tutarlı.
+5. 🔴 **ATLAS (koşu 11) 1923'te Necid–Küveyt ve Libya–Fransız Mağribi temasını HİÇ çizmiyor** (1,5° çevrede ortak sınır yok).
+   Teşhis bu oturumun işi değil → koordinatöre. Fransız Tunus/Cezayir atlasta `fransa-cumhuriyet` gövdesiyle eşlendi (varsayım).
+6. **Filistin–Mısır'da atlas ortalama 19 km, en kötü 80 km sapıyor** — 1906 hattı 91 sütunla işaretliyken. Güçlü düzeltme adayı.
+7. **Uşi günü:** IBS 121 "12 Ekim 1912", TDV `trablusgarp-savasi` "18 Ekim" → TDV esas (`f:1912-10-18`).
+8. **Libya kimliği geçici `italya`** — İtalyan Libyası künyesi yok (D-KUNYE M-4074). Künye gelince üretici yeniden koşulur.
+
+### YAZILMAYANLAR — ve niçin
+Envanterin 32 kesiminden 24'ü veriye inmedi. Bir kaydın `hat` taşıması zorunlu; geometri kaynaktan kurulamıyorsa hat üretmek uydurmadır:
+```
+fiili 17   hukukî hat yok; bugünkü çizgi 1923 statükosunu GÖSTERMEZ (1925 Hadda · 1934 Taif · 1965/1974/1990/2000 antlaşmaları)
+           — D1'in Irak vekili (Emre 14.9.2026) statükonun bugünküyle ≈ olduğu yerde; burada değil.
+           Mısır–Libya: bugünkü hat 1925 hattı, Cağbub 1923'te ihtilaflı → vekil de yanlış.
+C   8 kesim yazılmadı: Aden–Yemen batısı (bugün iç hat, NE'de yok) · Gadames–Gat ve Gat güneyi (1919 metni yok; 1956 çizgisi anakronizm) ·
+           Tunus–Cezayir kuzeyi (iç hat, NE'de yok) · Cezayir–Fas kuzeyi ("bugün aynı" teyidi yalnız arama özetinden) ·
+           Fransız–İspanyol Fas (bugün iç hat) · Tanca · Tarfaya meridyeni (Dra ırmağı NE nehirlerinde YOK — ırmak ucu kaynaksız) · İfni
+```
+⇒ Yazılabilir hâle gelmeleri için gereken kaynaklar §9'da (Brownlie · UNTS c.300 · 1845 ve 1912 haritaları).

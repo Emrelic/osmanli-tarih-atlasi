@@ -1,0 +1,141 @@
+{
+ "kiyas": {
+  "kaynak": "C:\\atlas-kosu12\\data",
+  "gun": "1923-10-28",
+  "taban": "YAYINDAKİ KOŞU 11 — koşu 12 henüz yazmadı",
+  "harita_eslemesi": {
+   "suud-ucuncu": "suud",
+   "tunus-beyligi-fransiz": "fransa-cumhuriyet",
+   "cezayir-fransiz": "fransa-cumhuriyet"
+  },
+  "govdesi_olan": {
+   "cezayir-fransiz": true,
+   "filistin-mandasi": true,
+   "italya": true,
+   "kuveyt": true,
+   "misir-kralligi": true,
+   "suud-ucuncu": true,
+   "tunus-beyligi-fransiz": true,
+   "urdun-emirligi": true
+  },
+  "durum": "ölçüldü"
+ },
+ "parcalar": [
+  {
+   "id": "d1923-necid-kuveyt-bati",
+   "kategori": "D",
+   "sol_taraf": "kuveyt",
+   "uzunluk_km": 90.1,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": {
+    "durum": "atlasta suud ile kuveyt bu hattın 1,5° çevresinde KOMŞU DEĞİL (0,05° tampon)"
+   }
+  },
+  {
+   "id": "d1923-necid-kuveyt-yay",
+   "kategori": "D",
+   "sol_taraf": "kuveyt",
+   "uzunluk_km": 87.5,
+   "kesinlik_km": 3.0,
+   "kiyas_atlas": {
+    "durum": "atlasta kuveyt ile suud bu hattın 1,5° çevresinde KOMŞU DEĞİL (0,05° tampon)"
+   }
+  },
+  {
+   "id": "d1923-necid-kuveyt-tarafsiz-bati",
+   "kategori": "D",
+   "sol_taraf": null,
+   "uzunluk_km": 62.5,
+   "kesinlik_km": 3.0,
+   "kiyas_atlas": {
+    "durum": "atlasta suud ile kuveyt bu hattın 1,5° çevresinde KOMŞU DEĞİL (0,05° tampon)"
+   }
+  },
+  {
+   "id": "d1923-necid-kuveyt-tarafsiz-guney",
+   "kategori": "D-YOK",
+   "sol_taraf": null,
+   "uzunluk_km": null,
+   "kesinlik_km": null,
+   "kiyas_atlas": null
+  },
+  {
+   "id": "d1923-filistin-misir",
+   "kategori": "D",
+   "sol_taraf": "misir-kralligi",
+   "uzunluk_km": 206.1,
+   "kesinlik_km": 1.5,
+   "kiyas_atlas": {
+    "ornek": 104,
+    "ortanca_km": 19.1,
+    "p90_km": 63.4,
+    "enkotu_km": 79.6,
+    "le5_yuzde": 0
+   }
+  },
+  {
+   "id": "d1923-filistin-urdun",
+   "kategori": "C",
+   "sol_taraf": "filistin-mandasi",
+   "uzunluk_km": 231.9,
+   "kesinlik_km": 5.0,
+   "kiyas_atlas": {
+    "ornek": 116,
+    "ortanca_km": 36.4,
+    "p90_km": 99.8,
+    "enkotu_km": 119.1,
+    "le5_yuzde": 9
+   }
+  },
+  {
+   "id": "d1923-libya-tunus",
+   "kategori": "D",
+   "sol_taraf": "italya",
+   "uzunluk_km": 454.1,
+   "kesinlik_km": 2.0,
+   "kiyas_atlas": {
+    "durum": "atlasta italya ile fransa-cumhuriyet bu hattın 1,5° çevresinde KOMŞU DEĞİL (0,05° tampon)"
+   }
+  },
+  {
+   "id": "d1923-libya-cezayir-gadames",
+   "kategori": "D",
+   "sol_taraf": "italya",
+   "uzunluk_km": 41.3,
+   "kesinlik_km": 5.0,
+   "kiyas_atlas": {
+    "durum": "atlasta italya ile fransa-cumhuriyet bu hattın 1,5° çevresinde KOMŞU DEĞİL (0,05° tampon)"
+   }
+  }
+ ],
+ "cipalar": {
+  "nokta2": [
+   47.46824527777778,
+   29.0
+  ],
+  "H": [
+   47.706986944444445,
+   28.524034999999998
+  ],
+  "kuveyt_merkez": [
+   47.97429,
+   29.367
+  ],
+  "yay_kiyi_ucu": [
+   48.27631540998141,
+   28.84860715480286
+  ],
+  "ras_kalia": [
+   48.29167,
+   28.875
+  ],
+  "gadames": [
+   9.50072,
+   30.13366
+  ],
+  "tas233_tahmini": [
+   9.371271763791972,
+   30.020946443898207
+  ]
+ }
+}
