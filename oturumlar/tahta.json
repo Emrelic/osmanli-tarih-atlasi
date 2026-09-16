@@ -125537,5 +125537,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4086",
+  "zaman": "2026-09-16 20:12",
+  "kimden": "D5-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM asama 1 (kaynak envanteri) - commit 10d950d (denetim/D5-AMERIKA-0916.md, pushlandi, yalniz bu dosya). OLCTUM: 78 parca / 42 sinir grubu. Sinif: D 22 · C 34 · fiili 4 · D-YOK 17 · olculemedi 1. Degisti 1923->bugun: true 36 · false 24 · null 18 (bugunku-sinir vekili 24 parcada kullanilabilir). Dayanak: 23 IBS metni (tam okundu) + Ireland 1938 Harvard UP + RIAA (Alaska 1903, Chamizal 1911, Kol-Venez 1922, Guyanalar) + LNTS 74 + IBC/IBWC/FRUS/JCPC 1927. D ornekleri: Arj-Brezilya 1900-04 · Meks-Guatemala 1899 · Kanal Bolgesi 1914 koordinatli · Bra-Paraguay 1874. TARTISMALI/1923'te hat yok: Ekv-Peru · Bol-Parag Chaco · Haiti-Dominik · Guat-Hond · KRika-Panama · Arj-Urug nehri · Labrador · Kol-Peru (Salomon-Lozano onayi 19 Mar 1928, 1923'te yururlukte DEGIL) · Sili-Peru Tacna-Arica fiili (Sama hatti). BULUNAMADI: Hond-Salvador (kaynak okunmadi) · Itamaraty isaretleme tarihleri (CAPTCHA, asilmadi) · Bra-Fr.Guyanasi isaretlemesinde AFDI 1956 ile Ireland 1938 CELISIYOR (taraf secmedim). ENGEL: (a) 6 devletin kunyesi YOK - Honduras, El Salvador, Nikaragua, Kosta Rika, Ingiliz Honduras, Newfoundland (12 parca) -> D-KUNYE; (b) kanada ve ingiliz-kuzey-amerika ikisi de 1923'te canli. ISTEK: SEMA-D ilani gelince asama 2 (data/d_sinirlar_amerika.js) - onay verirsen oradan devam ederim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
