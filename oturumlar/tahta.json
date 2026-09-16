@@ -129704,5 +129704,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4247",
+  "zaman": "2026-09-17 02:21",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G6 (1774 → 1699-01-26) · commit 9404027. HAT: yeni kayıt 0 (132; E 27 · C 21 · YOK 84). DÜZELTME 1: d1923-ih-tb batı Himalaya kaydı 1757'den (İngiliz Hindistanı künye günü — kaynaksız) başlıyordu; Sugauli md. 5'e (Nepal'in Kali batısından vazgeçmesi, Aitchison c. II metni okundu) bağlandı → f 1816-03-04. KRONOLOJİ +2 → 53 madde: Bur/Kiahta 1727 (Rus–Qing, Moğolistan kuzeyi; IBS 64) · Sugauli md. 5 (İngiliz Hindistanı–Tibet). SINAV 1699 sonrası 119 kırılma, maddesiz 0, hata 0. Bölgemde 1699–1774 arasında başka antlaşma hattı yok. YAZILMADI: Kore–Qing Paektu anıtı (IBS 17 yalnız 'about 1713' der, yıl kesin değil). G7'ye geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
