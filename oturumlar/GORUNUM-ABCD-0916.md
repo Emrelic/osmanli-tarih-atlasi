@@ -28,6 +28,20 @@ A haritası üzerine: boşluk kapatma · enklav birleştirme · koridor doldurma
 iki devlet arasındaki boş araziyi paylaştırma. Amaç delik deşik / benekli görüntüyü kaldırmak.
 A ÜRETİLİR, B ondan TÜRETİLİR; ikisi de saklanır, arayüzde **anahtarla** seçilir.
 
+### 🔴 B'NİN ÜRETİM BİÇİMİ — Emre'nin kararı (16 Eylül, aynı gün): TEK KOŞU, AYRI DOLGU KATMANI
+
+A ile B iki ayrı koşu DEĞİLDİR. Motor tek koşuda:
+```
+① A gövdelerini üretir (sürtünmeli yürüyüş) — dokunulmamış hâliyle yazar
+② aynı koşuda A'nın boşluk · enklav · koridor · sahipsiz arazisini hesaplar ve bunları
+   DEVLETLERE BÖLÜŞTÜRÜLMÜŞ "B dolgu parçaları" olarak AYRI bir çıktıya yazar
+   (her parça: devlet kimliği · tarih aralığı · geometri · dolgu cinsi)
+③ arayüz: "B görünümü" anahtarı açıksa dolgu parçaları A'nın üstüne O DEVLETİN rengiyle
+   çizilir; kapalıysa çizilmez → A ile B arasında geçiş anlık, yeni koşu gerekmez
+```
+Enklav birleştirme bir parçanın sahibini değiştiriyorsa, dolgu parçası o enklavı ana devletin
+rengiyle örter (A'daki enklav silinmez, üstü kapanır).
+
 ## C — BELGELİ SINIR
 
 Bir bölgede sınır antlaşma/belge ile belirlenmişse o bölgede A ve B **söz konusu edilmez**:
