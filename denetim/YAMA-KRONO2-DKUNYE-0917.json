@@ -1,0 +1,150 @@
+{
+ "olusturan": "D-KUNYE (Sonnet Hazır Kıta 1002) · 17 Eylül 2026, DALGA-BEKLEYEN.md B1",
+ "amac": "Eksik kronoloji 2. tur: round-1'de kuruluş+son ile 'yeterli' sayılan künyelere de gercek, kaynakli TOPRAK DEGISIMI ara maddeleri eklemek.",
+ "yontem": "denetim/KRONOLOJI-EKSIK-2-0917.json'daki 10 bolgemin 48 kunyesinin GUNCEL (round-1 sonrasi) kronoloji dizilerini devletler.js'ten cektim. Once UYGULA'nin round-1'de UYGULAMADAN dustugu 4 kunye/satir grubunu (harezm, buhara, kumuk-samhalligi, orta-macar-kralligi) TESPIT edip YENIDEN gonderdim. Sonra 48 kunyenin HER BIRINI tek tek inceledim: cogu (kisa omurlu hanedanlar, 10-50 yillik beylikler) icin gercek/kaynakli bir ARA toprak degisimi YOKTU -- bunlara YENI satir YAZMADIM (uydurmadim). Iyi belgelenmis, guclu ara olaylari OLAN 9 kunyeye (galzay, mora-despotlugu, dukagin, sirbistan-eyaleti, kibris-krallik, azerbaycan-demokratik-cumhuriyeti, suud-ikinci, mekke-serifligi, misir-eyaleti) toplam 11 yeni satir eklendi.",
+ "tur_sozlugu_notu": "Yalniz VERI-YAPISI.md'nin kronoloji[].tur listesini (kurulus|hukumdar|toprak-kazanc|toprak-kayip|savas|antlasma|bolunme|birlesme|ittifak|isyan|isgal|son) kullandim. 'vassal' ve 'siyaset' de kullandim CUNKU UYGULA bunlari round-1'i uygularken FIILEN kullanmis (devletler.js'te dogrulandi) -- sozluk belgesi guncel degil gibi gorunuyor, UYGULA'ya ayrica bildiriyorum.",
+ "durum": "TASLAK YAMA -- devletler.js'e YAZILMADI. UYGULA indirir.",
+ "dokunulmayan_39_kunye_notu": "Diger 39 kunyeye (lur-i-kucek, incu, kutlughanli, hurmuz-sultanligi, bosna-isgal, oniki-ada-italyan, sarki-rumeli, garbi-trakya, arvanid-sancagi, crnojevic-zetasi, dejanovic-prensligi, kibris-ingiliz, fetret-isa, eyyubi-hisnikeyfa, sutayogullari, cemisgezek-beyligi, kabartay, kaheti-kralligi, hicaz-kralligi, usfuri, nebhani, suriye-lubnan-mandasi, urdun-emirligi, kesiri-sultanligi, sani-emirligi, sabah-emirligi, cebel-i-lubnan-mutasarrifligi, dacu, misir-sultanligi, ingiliz-sudani, kasim, tannu-tuva, avusturya-cumhuriyet, bonacolsi, piombino) BILEREK dokunulmadi -- kisa omur, kaynagin sessiz kalmasi, ya da zaten kimlik/tarih celiskisi acik oldugu icin (usfuri, nebhani, cemisgezek-beyligi) yeni katman eklemek riskli.",
+ "satirlar": [
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "t": "1920-02-02",
+   "tur": "toprak-kayip",
+   "b": "Kızıl Ordu ve yerel Jön Hîveliler Hive Hanlığı'nı devirdi",
+   "kaynak": "künyenin kendi kaynak alanı (Wikipedia 'Khorezm People's Soviet Republic') — round-1'de YAZILMIŞTI, uygulanmadan düşmüş, YENİDEN gönderiliyor"
+  },
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "t": "1920-04-26",
+   "tur": "kurulus",
+   "b": "I. Harezm Kurultayı Harezm Halk Sovyet Cumhuriyeti'ni ilan etti",
+   "kaynak": "künyenin kendi kaynak alanı — round-1'de YAZILMIŞTI, uygulanmadan düşmüş, YENİDEN gönderiliyor"
+  },
+  {
+   "id": "harezm-halk-cumhuriyeti",
+   "t": "1924-10-27",
+   "tur": "son",
+   "b": "Orta Asya'nın Sovyet millî sınırlara bölünmesiyle Harezm SSC dağıtılıp Özbek ve Türkmen SSC'lerine katıldı",
+   "kaynak": "standart akademik/ansiklopedik (1924 Soviet national delimitation) — round-1'de YAZILMIŞTI, uygulanmadan düşmüş, YENİDEN gönderiliyor"
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "t": "1920-09-02",
+   "tur": "toprak-kayip",
+   "b": "Kızıl Ordu Buhara'yı ele geçirip Emirliği devirdi",
+   "kaynak": "künyenin kendi kaynak alanı (Wikipedia 'Bukharan People's Soviet Republic') — round-1'de YAZILMIŞTI, uygulanmadan düşmüş, YENİDEN gönderiliyor"
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "t": "1920-10-08",
+   "tur": "kurulus",
+   "b": "Buhara Halk Sovyet Cumhuriyeti ilan edildi",
+   "kaynak": "künyenin kendi kaynak alanı — round-1'de YAZILMIŞTI, uygulanmadan düşmüş, YENİDEN gönderiliyor"
+  },
+  {
+   "id": "buhara-halk-cumhuriyeti",
+   "t": "1924-10-27",
+   "tur": "son",
+   "b": "Orta Asya'nın Sovyet millî sınırlara bölünmesiyle Buhara SSC dağıtılıp Özbek ve Türkmen SSC'lerine katıldı",
+   "kaynak": "standart akademik/ansiklopedik — round-1'de YAZILMIŞTI, uygulanmadan düşmüş, YENİDEN gönderiliyor"
+  },
+  {
+   "id": "kumuk-samhalligi",
+   "t": "1578-01-01",
+   "tur": "vassal",
+   "b": "Osmanlı-Safevî mücadelesi sırasında Tarki Kumuk Şamhallığı Osmanlı tâbiiyetini tanıdı",
+   "kaynak": "TDV kumuklar (künyenin kendi kaynak alanı) — round-1'de tur:kurulus olarak YAZILMIŞTI, uygulanmadan düşmüş; bu turda tur:vassal (tâbiiyet kabulü) olarak DÜZELTİLMİŞ hâliyle YENİDEN gönderiliyor"
+  },
+  {
+   "id": "orta-macar-kralligi",
+   "t": "1682-01-01",
+   "tur": "kurulus",
+   "b": "İmre Tököli, Osmanlı desteğiyle Orta Macar Krallığı'nın kralı ilan edildi",
+   "kaynak": "TDV tokoli-imre (künyenin kendi kaynak alanı) — round-1'de YAZILMIŞTI, uygulanmadan düşmüş, YENİDEN gönderiliyor"
+  },
+  {
+   "id": "galzay",
+   "t": "1722-10-23",
+   "tur": "toprak-kazanc",
+   "b": "Mahmud Hotakî, Gülnâbâd Muharebesi'ndeki zaferin ardından İsfahan'ı kuşatıp aldı, Safevî başkentini ele geçirdi",
+   "kaynak": "standart akademik/ansiklopedik (Gulnabad Muharebesi 8 Mart 1722, İsfahan'ın düşüşü 23 Ekim 1722) — TDV kapsam dışı, gün doğrulanmalı"
+  },
+  {
+   "id": "mora-despotlugu",
+   "t": "1446-12-01",
+   "tur": "toprak-kayip",
+   "b": "II. Murad, Hexamilion Suru'nu yararak Mora'yı yağmaladı; despotluk Osmanlı'ya haraca bağlandı",
+   "kaynak": "standart akademik/ansiklopedik (1446 Osmanlı Mora seferi) — TDV kapsam dışı bu ayrıntı için, gün DOĞRULANMADI (yıl güvenilir, ay/gün kaba)"
+  },
+  {
+   "id": "dukagin",
+   "t": "1444-03-02",
+   "tur": "ittifak",
+   "b": "Lezhë Birliği: Arnavut beyleri (Dukagjini dahil) İskender Bey önderliğinde Osmanlı'ya karşı ittifak kurdu",
+   "kaynak": "standart akademik/ansiklopedik (League of Lezhë, 2 Mart 1444) — TDV kapsam dışı, künyenin kendi kaynağı (TDV les) bu olayı içermiyor"
+  },
+  {
+   "id": "sirbistan-eyaleti",
+   "t": "1717-08-18",
+   "tur": "toprak-kayip",
+   "b": "Prens Eugene komutasındaki Avusturya ordusu Belgrad Muharebesi'ni kazanıp şehri aldı; Kuzey Sırbistan Avusturya'ya geçti (Pasarofça Antlaşması'na kadar sürecek dönem)",
+   "kaynak": "standart akademik/ansiklopedik (Belgrad Muharebesi, 16 Ağustos 1717 — bazı kaynaklarda 18 Ağustos teslim) — TDV kapsam dışı, gün ayrıca doğrulanmalı. NOT: bu pencere künyenin kendi ozet alanında '1717-1738 Avusturya işgali ayrıca modellenmiş' diye anılıyor; bu iki satır o modellemeyle ÇAKIŞMASIN diye HARITA-VERI/UYGULA kontrol etmeli"
+  },
+  {
+   "id": "sirbistan-eyaleti",
+   "t": "1739-09-18",
+   "tur": "toprak-kazanc",
+   "b": "Belgrad Antlaşması ile Kuzey Sırbistan (Belgrad dahil) Osmanlı'ya iade edildi",
+   "kaynak": "standart akademik/ansiklopedik (Treaty of Belgrade, 18 Eylül 1739) — TDV kapsam dışı, kabartay künyesinin de kullandığı aynı antlaşmanın gün alanı (BAĞIMSIZ TUTARLILIK)"
+  },
+  {
+   "id": "kibris-krallik",
+   "t": "1426-07-07",
+   "tur": "vassal",
+   "b": "Hirokitia Muharebesi'nde Memlük ordusu Lüzinyan kuvvetlerini yenip Kral I. Janus'u esir aldı; Kıbrıs Krallığı Memlük Sultanlığı'na yıllık haraca bağlandı",
+   "kaynak": "standart akademik/ansiklopedik (Battle of Khirokitia, 7 Temmuz 1426) — TDV kapsam dışı, gün doğrulanmalı"
+  },
+  {
+   "id": "azerbaycan-demokratik-cumhuriyeti",
+   "t": "1918-09-15",
+   "tur": "toprak-kazanc",
+   "b": "Osmanlı-Azerbaycan İslâm Ordusu Bakü'yü ele geçirdi, hükûmet başkenti Bakü'ye taşıdı",
+   "kaynak": "TDV azerbaycan (aynı madde kapsamında olması beklenir, bu turda doğrudan gövdeden alıntılanmadı) — standart akademik olarak da çok iyi belgelenmiş (Bakü'nün alınışı, 15 Eylül 1918)"
+  },
+  {
+   "id": "suud-ikinci",
+   "t": "1838-01-01",
+   "tur": "toprak-kayip",
+   "b": "Mısır Valisi Mehmed Ali Paşa'nın kuvvetleri Necid'i işgal etti, Riyad'a bağımlı bir yönetici (Hâlid bin Suûd) atadı",
+   "kaynak": "standart akademik/ansiklopedik (Mısır'ın Necid seferi, 1837-1840 arası, kesin gün BULUNAMADI, yıl kaba) — TDV kapsam dışı, ayrıca doğrulanmalı"
+  },
+  {
+   "id": "mekke-serifligi",
+   "t": "1803-04-01",
+   "tur": "toprak-kayip",
+   "b": "I. Suûdî Devleti (Vehhâbî) kuvvetleri Mekke'yi ele geçirdi; Şerif Galib şehri terk etmek zorunda kaldı",
+   "kaynak": "standart akademik/ansiklopedik (Suûdî-Vehhâbî Mekke'nin alınışı, 1803, kesin gün BULUNAMADI) — TDV kapsam dışı, ayrıca doğrulanmalı"
+  },
+  {
+   "id": "mekke-serifligi",
+   "t": "1813-01-01",
+   "tur": "toprak-kazanc",
+   "b": "Mehmed Ali Paşa'nın oğlu Tosun Paşa komutasındaki Osmanlı-Mısır kuvvetleri Mekke ve Medine'yi Suûdîler'den geri aldı",
+   "kaynak": "standart akademik/ansiklopedik (Osmanlı-Suûdî Savaşı 1811-1818, Hicaz'ın geri alınışı 1812-13) — TDV kapsam dışı, kesin gün BULUNAMADI, ayrıca doğrulanmalı"
+  },
+  {
+   "id": "misir-eyaleti",
+   "t": "1798-07-21",
+   "tur": "toprak-kayip",
+   "b": "Napolyon Bonapart komutasındaki Fransız ordusu Ehram Muharebesi'ni kazanıp Kahire'yi ele geçirdi, Mısır fiilen Fransız işgaline girdi",
+   "kaynak": "standart akademik/ansiklopedik (Battle of the Pyramids, 21 Temmuz 1798) — TDV kapsam dışı bu ayrıntı için, çok iyi belgelenmiş bir olay"
+  },
+  {
+   "id": "misir-eyaleti",
+   "t": "1801-09-02",
+   "tur": "toprak-kazanc",
+   "b": "İskenderiye'deki Fransız kuvvetlerinin teslimiyle (İskenderiye Kapitülasyonu) Fransız işgali sona erdi, Mısır Osmanlı-İngiliz kontrolüne döndü",
+   "kaynak": "standart akademik/ansiklopedik (Capitulation of Alexandria, 2 Eylül 1801) — TDV kapsam dışı, çok iyi belgelenmiş"
+  }
+ ]
+}
