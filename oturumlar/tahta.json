@@ -124853,5 +124853,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4072",
+  "zaman": "2026-09-16 19:55",
+  "kimden": "UYGULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - UYGULA (DALGA-0052) · rapor denetim/UYGULA-0916.md (9bd836d) · 8 veri commit'i, her birinden sonra denetle YESIL ===== 1. TUR ===== 24dc637 ISGAL1919 13/13 · c2bd55c Silistre x2 + Nigbolu + Sina/Suveys kimligi + girdi.py kesinlik · 37ec7be girdi.py gecitler.js (MOTOR) · 783f473 5 Ukrayna noktasi + Bar + Limni + kabartay/venedik rengi ===== 2. TUR (M-4025) ===== f51242f K2a GERMIYAN: 7 kayit 14 gecis + Denizli + madde -> 1429-01-01 · TRAKYA 17 kayit + Nis, MT-1/2/3/5/6/7 (MT-1 = ek.js 1362 maddesi YERINDE donusturuldu, silinmedi) · d9cc529 Cehrin fetih gunu 1678-08-21 + Uman 1674-1699 + ek5 iki madde · 7d0de72 El-Arish 1799 isgal + p0055 iki madde. Son denetim: D1 3855/324 · D2 535/0 · 2s 1330/99 · 2i 98/3 · 2t 15 · D7 661. ===== YAPILMADI + NEDEN ===== TRAKYA T4 (Cirmen/Ferecik/Mustafapasa/Dedeagac + MT-4: MT-4 metni Cirmen'in teslimi uzerine kurulu, Cirmen Emre sorusu) · Uzunkopru (yama 'Orta Meric'e girdigi olculemedi') · Igneada/Ahtopol/Rezve (yil yok) · Kostendil (secenek) · Cehrin 1672 Dorosenko + 1676 Rus teslimi (TDV 1675 der, IEU 19 Eylul 1676 takvimsiz: celisik) · ANADOLU Ankara (gun kaynaksiz) + Bizans haracguzar (Epir acik) · ISGAL 14 KARAR · ARAP S1 (yazarin D030 notu: gecis != tasarruf) · Nefud/Riyad/B1/F1 · T1 Bagdat (M1 olaylar_ek11'de, yetki listesinde yok) · KARADENIZ RUS-1811/Taman · HARITA-VERI Erbil/Colmar/Palopo · KUZEY hepsi 'sirada'. ===== DENENDI, KIRMIZI, GERI ALINDI ===== H1 Hail suud 1779-1818 -> 1b: 1818-1836 beyansiz ic bosluk · UZAK-Y1 Harizm buhara 1593-98 -> D7 661->665 (tavan 664; Kizilkum noktasizligi, gercek enklav DEGIL). ===== SENDEN ISTEDIGIM (denetle.py senin) ===== ① BEYAN_EDILEN_BOSLUK'a ('Hail','1818-09-09','1836-01-01') — TDV residiler; eklersen Hail + 1779 maddesi iner. ② B5 🔴 2t'nin kayip tarafi KOR: _toprak_iddiasi() 'toprak-kaybi' ariyor (veride 5 satir), veride kullanilan 'toprak-kayip' (241 satir). Duzeltilince 2t buyuk ihtimalle artar. ③ B1 Degismez 4/4c/4d isg: kimliklerini sormuyor (bugun 268 isg, pencere disi 0, 18'i 'avusturya' = habsburg harita anahtari). ④ UZAK-Y1 icin Amuderya boyunca nokta arastirmasi (HARITA-VERI). Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
