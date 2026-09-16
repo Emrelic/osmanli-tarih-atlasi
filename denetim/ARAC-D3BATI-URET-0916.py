@@ -124,14 +124,17 @@ SINIF = {"D": ("E", F_NOT), "C": ("C", ""), "fiili": ("D", "fiilî hat, koordina
 KAYIT = []
 
 
-def ekle(id_, a, b, f, kategori, parcalar, dayanak, degisti, tahdit, kesinlik, kesinlik_not, not_="", iso=None):
+def ekle(id_, a, b, f, kategori, parcalar, dayanak, degisti, tahdit, kesinlik, kesinlik_not, not_="", iso=None, t=T,
+         sinif_not=None):
     if not parcalar:
         raise SystemExit(f"boş parça: {id_}")
     s, sn = SINIF[kategori]
+    if sinif_not is not None:
+        sn = sinif_not
     for i, ls in enumerate(parcalar):
         KAYIT.append({
             "id": id_ + (f"-{i+1}" if len(parcalar) > 1 else ""),
-            "taraflar": [a, b], "f": f, "t": T, "kategori": kategori,
+            "taraflar": [a, b], "f": f, "t": t, "kategori": kategori,
             "sinif": s, "sinif_not": sn,
             "sol_taraf": sol_taraf(ls, a, b, iso), "hat": dizi(ls),
             "uzunluk_km": round(uzunluk(ls), 1), "geometri_kaynagi": NE,
@@ -141,9 +144,9 @@ def ekle(id_, a, b, f, kategori, parcalar, dayanak, degisti, tahdit, kesinlik, k
         })
 
 
-def yok(id_, a, b, f, kutu, degisti, dayanak, sinif_1923, not_=""):
-    KAYIT.append({"id": id_, "taraflar": [a, b], "f": f, "t": T, "kategori": "D-YOK",
-                  "sinif": "YOK", "sinif_not": f"1923 koordinatı yok; 29 Ekim 1923 hukukî sınıfı: {sinif_1923}",
+def yok(id_, a, b, f, kutu, degisti, dayanak, sinif_1923, not_="", t=T):
+    KAYIT.append({"id": id_, "taraflar": [a, b], "f": f, "t": t, "kategori": "D-YOK",
+                  "sinif": "YOK", "sinif_not": f"koordinat yok; dönemin ({f} → {t}) hukukî sınıfı: {sinif_1923}",
                   "sol_taraf": None, "hat": None, "kutu": [round(v, 3) for v in kutu],
                   "geometri_kaynagi": None, "degisti": degisti, "dayanak": dayanak,
                   "kesinlik_km": None, "kesinlik_not": "kutu TAHMİNİ (±5-10 km); hat 1923 haritasından okunmadı",
@@ -165,9 +168,11 @@ VERSAY_YUR = {"ad": "FRUS 1919 Paris Peace Conference c. XIII", "tur": "resmî y
               "url": "https://history.state.gov/historicaldocuments/frus1919Parisv13/ch1",
               "alinti": "procès-verbal for the first deposit of ratifications was executed"}
 SG = {"ad": "Saint-Germain Antlaşması", "madde": "md. 27(2)", "tarih": "1919-09-10",
-      "tur": "antlaşma", "not": "yürürlük günü 1920-07-16 birincil kaynakta DOĞRULANMADI (RIS 503, AustLII 403)"}
-SG_F = "1920-07-16"
-SG_F_NOT = "f: Saint-Germain yürürlüğü 1920-07-16 — birincil kaynakta doğrulanamadı (bulunamadı)"
+      "tur": "antlaşma", "not": "yürürlük günü birincil/akademik kaynakta BULUNAMADI (RIS 503, AustLII 403)"}
+SG_F = "1920-01-01"
+SG_F_NOT = ("f hassasiyeti YIL: Saint-Germain'in yürürlük GÜNÜ (yaygın olarak 16 Temmuz 1920) okunabilir bir birincil/akademik "
+            "kaynakta BULUNAMADI (RIS 503 · AustLII 403 · UK TS 1919/11 metin katmanı yok); yıl IBS 58'den (Büyükelçiler "
+            "Konferansı 22 Temmuz 1920'de demarkasyon talimatı verdi)")
 
 # ================= 1. FRANSA · BENELÜKS · İSVİÇRE · DANİMARKA =================
 # 1.1 Fransa–Almanya (Saar kesimi HARİÇ — 1923'te orada komşu Saar Havzası, künyesi YOK)
@@ -328,8 +333,8 @@ ekle("d1923-ie-gb", IE, GB, "1922-12-06", "D", cizgi("GBR-IRL"),
      {"deger": False, "kaynak": "Act 1925 No. 40", "not": "1925 anlaşması hattı s.1(2) olarak sabitledi; açık meseleler yalnız denizde"},
      {"t": "yok", "not": "hat kontluk sınırları; ayrı işaretleme yok"},
      1.5, KES_NE, "§2.1 · D (E) sınıfı ÖNERİMDİR: Antlaşma md. 12 komisyonu 29 Ekim 1923'te KURULMAMIŞTI "
-     "(ilk toplantı 1924-11-06), 1925'te kaldırıldı; C/fiili de savunulabilir. f irlanda-serbest-devlet künyesine "
-     "hizalandı — kuruluş günü birincil kaynaktan DOĞRULANMADI")
+     "(ilk toplantı 1924-11-06), 1925'te kaldırıldı; C/fiili de savunulabilir. f: 1922 Anayasası md. 83 ilanı "
+     "'not later than the sixth day of December' 1922 şart koşar — ilanın kendi günü kaynakta yok (künye günüyle aynı)")
 
 ekle("d1923-no-se", NO, SE, "1905-06-07", "D", cizgi("NOR-SWE"),
      [{"ad": "Strömstad Antlaşması + Lapp ek maddesi", "tarih": "1751-10-02", "tur": "antlaşma"},
@@ -546,6 +551,90 @@ ekle("d1923-es-ma-melilla", ES, MA, "1894-03-05", "D", cizgi("ESP-MAR", 2),
      {"deger": False, "kaynak": "İspanya hükümeti cevabı 2022", "not": "hükümet bugünkü sınırı bu belgelere dayandırıyor"},
      {"t": "1862 / 1891", "not": "demarkasyon ve yeniden aplikasyon akitleri"}, 1.0, KES_NE,
      "§3.24 · 1921-23 Rif Savaşı art bölgeyi fiilen etkiliyordu. f son sözleşme (Merakeş)")
+
+# =====================================================================
+# GERİYE SARMA G1 — 1923-10-29 → 1918-11-11 (oturumlar/GERIYE-SARMA-0916.md ADIM 2)
+# Yalnız 1923 hattı bu pencerede BAŞLAYAN parçalar geriye sarıldı; öncesi yeni kayıttır.
+# Ateşkes/işgal hattı → sinif D yalnız koordinat kesinse; değilse kayıt YAZILMADI.
+# =====================================================================
+FRUS18 = "https://history.state.gov/historicaldocuments/frus1918Supp01v01/d%d"
+COMPIEGNE = {"ad": "Almanya ile Ateşkes (Compiègne)", "madde": "A.2 (Alsas-Loren'in tahliyesi ve işgali)",
+             "tarih": "1918-11-11", "tur": "ateşkes metni", "url": FRUS18 % 420,
+             "not": "şartlar: FRUS 1918 Supp. 1 c.1 d384; imzalı metindeki değişiklikler d420",
+             "alinti": "This armistice has been signed the 11th of November, 1918"}
+VGIUSTI = {"ad": "Avusturya-Macaristan ile Ateşkes (Villa Giusti)", "madde": "I.3 (tahliye hattı)", "tarih": "1918-11-03",
+           "tur": "ateşkes metni", "url": FRUS18 % 362,
+           "not": "imza bildirimi FRUS d373 ('Austrian armistice signed'); yürürlük saati kaynakta yok",
+           "alinti": "passing thence by Mounts Reschen and Brenner"}
+G1_T_FRDE = "1920-01-10"
+
+# G1-1 Fransa–Almanya: ateşkesten Versay yürürlüğüne fiilî Fransız idaresi (aynı 1870 hattı)
+ekle("d1918-fr-de-isgal", FR, DE, "1918-11-11", "fiili", parcala(cizgi("DEU-FRA"), disinda([SAAR])),
+     [COMPIEGNE, dict(VERSAY, madde="md. 51 (egemenliği ateşkes gününden itibaren iade eder)")],
+     {"deger": True, "kaynak": "Senat rap. l01-276", "not": "E kaydıyla (d1923-fr-de) aynı geometri ve aynı küçük sapmalar"},
+     {"t": "1870", "not": "18 Temmuz 1870 sınırı (Versay md. 27/3)"},
+     1.5, KES_NE, "G1 · Alsas-Loren tahliye edilip Müttefiklerce işgal edildi (ateşkes A.2; tahliye süresi 14-15 gün, "
+     "f ateşkes İMZASI — işgalin fiilen tamamlandığı gün kaynakta yok); hat 1870 hattı. "
+     "Versay md. 51 egemenliği geriye yürür biçimde 1918-11-11'den iade etti ama antlaşma 1920-01-10'da yürürlüğe girdi "
+     "⇒ bu aralık FİİLÎ (D). Saar kesimi E kaydındaki gibi YAZILMADI. Öncesi (1871 Frankfurt hattı) G2'nin işi",
+     t=G1_T_FRDE, sinif_not="fiilî: işgal hattı = 1870 hattı (koordinatı E kaydıyla aynı vekil)")
+
+# G1-2 Belçika–Almanya: Versay öncesi hat (Eupen-Malmedy Almanya'da, Moresnet tarafsız) — koordinat yok
+yok("d1839-be-de-eski", BE, DE, "1839-04-19", (5.95, 50.12, 6.45, 50.80),
+    {"deger": True, "kaynak": "IBS 7", "not": "Versay md. 32-34 ile Moresnet ve Eupen-Malmedy Belçika'ya geçti"},
+    [{"ad": "Londra Antlaşması", "tarih": "1839-04-19", "tur": "antlaşma"},
+     dict(VERSAY, madde="md. 32-34", url="https://avalon.law.yale.edu/imt/partiii.asp"),
+     {"ad": "IBS No. 7 Belgium–Germany", "tur": "resmî sınır çalışması", "url": IBS % 7}],
+    "E (Tarafsız Moresnet 1816'dan beri ortak yönetim — ayrıca C)",
+    "G1 · f Belçika'nın bağımsızlığı; 1839-1918 arası G2/G3'te AYRICA denetlenecek", t="1920-01-10")
+
+# G1-3 Danimarka–Almanya: 1864 Viyana hattı (Kongeå) — koordinat yok
+yok("d1864-dk-de-kongea", DK, DE, "1864-10-30", (8.55, 55.30, 9.60, 55.62),
+    {"deger": True, "kaynak": "IBS 81", "not": "Versay md. 109-114 + 1920 halk oylamaları; hat 1920'de güneye taşındı"},
+    [{"ad": "Viyana Antlaşması", "tarih": "1864-10-30", "tur": "antlaşma", "kaynak": "BFSP c.54 s.522-530"},
+     {"ad": "Kopenhag Sınır Sözleşmesi (iki küçük düzeltme)", "tarih": "1900-02-12", "tur": "antlaşma"},
+     {"ad": "IBS No. 81 Denmark–Germany", "tur": "resmî sınır çalışması", "url": IBS % 81,
+      "alinti": "moving the Dano - German boundary from the Elbe northward to the Konge Aa"}],
+    "E", "G1 · Kongeå hattı; kutu Ribe–Kolding arası TAHMİNİ. 1920-01-10 → 1920-07-05 arası halk oylaması bölgesi "
+    "uluslararası komisyon idaresindeydi — künyesi yok, kayıt YAZILMADI. 1864-1918 G2/G3'te denetlenecek", t="1920-01-10")
+
+# G1-4 İtalya–İsviçre (Cima Garibaldi → Piz Lad): Villa Giusti tahliye hattının içinde kalan Vinschgau İtalyan işgalinde
+ekle("d1918-it-ch-isgal", IT, CH, "1918-11-03", "fiili", CHIT_YENI,
+     [VGIUSTI, IBS12],
+     {"deger": False, "kaynak": "IBS 12", "not": "hat aynı (eski Avusturya–İsviçre sınırı)"},
+     {"t": "1920-1927", "not": ""}, 1.5, KES_NE,
+     "G1 · ateşkes tahliye hattı Stelvio'nun kuzeyinden Adige kaynaklarına ve Reschen'e uzanır ⇒ İsviçre sınırına "
+     "komşu Vinschgau İtalyan işgalinde; sınırın kendisi değişmedi. f ateşkes İMZASI (yürürlük saati kaynakta yok). "
+     "1918-11-03 → 1918-11-12 arası karşı taraf hukuken Habsburg'du; 1918 öncesi (Habsburg–İsviçre) G2'nin işi",
+     t=SG_F, sinif_not="fiilî: ateşkes işgali; hat İsviçre sınırı (koordinat kesin)")
+
+# G1-5 İtalya–Avusturya: ateşkes tahliye hattı su bölümünü izler; Toblach ve Tarvis çevresinde nihai hattan AYRILIR
+KUT_ATESKES = KUT_ATIT + [box(12.10, 46.60, 12.50, 46.96),   # Toblach (Dobbiaco) → Karnik Alpler kavşağı
+                          box(13.20, 46.40, 13.75, 46.62)]   # Pontebba → Tarvis → Predil
+ekle("d1918-it-at-ateskes", IT, AT, "1918-11-12", "fiili", parcala(cizgi("AUT-ITA"), disinda(KUT_ATESKES)),
+     [VGIUSTI, IBS58],
+     {"deger": False, "kaynak": "IBS 58", "not": "su bölümü kesimleri Saint-Germain hattıyla aynı"},
+     {"t": "yok", "not": "ateşkes hattı yerinde işaretlenmedi"}, 3.0,
+     KES_NE + "; ateşkes metni hattı dağ adlarıyla tarif eder, su bölümü = nihai hat varsayımı (±3 km)",
+     "G1 · Villa Giusti tahliye hattı (Reschen–Brenner–Ötz/Ziller tepeleri); Toblach geçişi ve Tarvis çevresi nihai "
+     "hattan farklı ⇒ o kutular YAZILMADI. İtalyan birliklerinin hattın ötesine geçtiği dönemler kaynakta tarihli değil. "
+     "f Avusturya Cumhuriyeti künyesi (1918-11-03 → 11-12 Habsburg dönemi G2'nin işi)",
+     t=SG_F, sinif_not="fiilî: ateşkes tahliye hattı (koordinat su bölümünden)")
+
+# G1-6 Petsamo kesimi Tartu'dan önce Rusya–Norveç sınırıydı (aynı 1826 hattı)
+ISO_SOV = dict(ISO); ISO_SOV["sovyet-rusya"] = ["RUS"]
+ekle("d1917-no-sov-petsamo", NO, "sovyet-rusya", "1917-11-07", "D", cizgi("NOR-RUS"),
+     [{"ad": "Rusya–Norveç sınır sözleşmesi", "tarih": "1826", "tur": "antlaşma"},
+      {"ad": "Tartu (Dorpat) Barışı", "madde": "md. 4", "tarih": "1920-10-14", "tur": "antlaşma metni",
+       "url": "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%203/v3.pdf",
+       "alinti": "the former frontier between Russia and Norway"},
+      {"ad": "IBS No. 24 Norway–USSR", "tur": "resmî sınır çalışması", "url": IBS % 24}],
+     {"deger": True, "kaynak": "IBS 24", "not": "hat 1826 hattı; 1947 protokolü talveg farkı küçük"},
+     {"t": "1896", "not": "1826 hattının işaretlemesi"}, 1.5, KES_NE,
+     "G1 · Petsamo 1920-12-31'e kadar Rusya'nındı (Tartu md. 4). f sovyet-rusya künyesi; 1917 öncesi (Rusya "
+     "İmparatorluğu / Geçici Hükûmet) G2'nin işi",
+     iso=ISO_SOV, t="1920-12-31",
+     sinif_not="E (1826 hattı, devlet halefiyeti); F kanıtı (tanınma) aranmadı — TANINMA-1923 bekleniyor")
 
 # ---------------- yaz ----------------
 ids = [k["id"] for k in KAYIT]
