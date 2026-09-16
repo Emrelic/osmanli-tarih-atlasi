@@ -212,6 +212,33 @@ Bulgaristan'la olanlar → D2.
 Bosna ilhakı 1908-10-06 · Londra 1913 (Arnavutluk, C) · Sırbistan-Karadağ sınır anlaşması 1913-11-12.
 **Çakışma:** BATI'nın `dg3-hab-ch-1893-oncesi` kutusu `d1878-de-ah`nin 89/358, `dg3-ch-de-1879-oncesi` 3/358 noktasını örtüyor (BATI'ya yazıldı).
 
+## 4e. 🆕 G4-G7 — 1878-07-13 → 1606-11-11 (zincirli, 17 Eylül)
+
+```
+kayıt 127 → 184  ·  kronoloji 42 → 59 madde
+dalga   başlayan kayıt        yeni kronoloji maddesi (yalnız EKSİK olanlar)
+G4      23  (E 7 · YOK 16)    7   Münih 1816 · Prusya-Rusya 1817 · Avusturya-Karadağ 1820 · Münih 1844 · Kraków 1846 · Dresden 1848 · Kişinev 1857
+G5      12  (E 1 · YOK 11)    6   Bukovina senedi 1776 · Teschen 1779 · 3. paylaşma 1797 · Pressburg 1805 · Schönbrunn 1809 · Paris 1814
+G6      10  (YOK 10)          2   Breslau 1742 · Sejm onayı 1773
+G7      12  (YOK 12)          2   Linz 1645 · Ebedî Barış 1686
+```
+**Çizilen E hatları:**
+- **Prut:** Bükreş 1812 md. 4 (Noradounghian, IBS 43) → `d1812-ru-bg-prut` (1812-06-23 → 1856-04-27). Kuzey Prut 1856'dan sonra da çizildi: Boğdan 1859'a kadar, Romanya 1878'e kadar. Kesim 47,1 K'de; 1856 hattının Prut'a vardığı Katamori'nin koordinatı BULUNAMADI (Cotul Morii ~46,9 K olabilir, doğrulanmadı).
+- **Avusturya–Bavyera:** Münih 1816 (Hertslet No. 53; teslim 1816-05-01) → `d1816-alm-ah` (Spielmannsau ve Pfronten/Jungholz kutu dışı, 1844'e kadar C) ve `d1844-alm-ah` (1844-01-30 → 1878).
+
+**Sınırlar (bu dönemin kuralı):** Prut'un Tuna ağzından sonrası 1812-1878 arasında Rusya-Osmanlı hattıydı, D1'in (Edirne 1829 md. 3). Mütarekeler (Deulino 1618, Andrusovo 1667) D sınıfıdır ama koordinatsız oldukları için yazılmadı. Hukukî E hattı 1634 → 1686 Polyanovka hattı olarak kaldı. Zborov/Bila Tserkva (Hetmanlık özerkliği) devletlerarası sınır sayılmadı. Hadyaç uygulanmadı.
+**Künye eksikleri (D-KUNYE'ye):** Kraków Serbest Şehri (1815-1846) · Danzig (1807-1814) · Dukalık Prusya / Brandenburg-Prusya (1657-1701) · Bavyera Krallığı (1806-1871). Bunların yerine `almanya` kullanıldı. `erdel` künyesi 1711-04-30'a kadar sürüyor, TDV'ye göre Erdel 1699'da Avusturya'ya geçti; kayıtlarda TDV esas alındı. G3 kayıtları Kongre Polonyası sınırlarında `rusya` kullanıyor, oysa `kongre-polonyasi` künyesi 1917'ye kadar sürüyor.
+**HARİTA-VERI'ye bulgular:**
+- Szatmár Barışı `kronoloji_habsburg.js`'te 1711-11-29 günüyle geçiyor. MNL ve Macar Bilimler Akademisi 29 Nisan 1711 (onay 26 Mayıs) diyor; `kronoloji_macaristan.js` 1711-04-30.
+- Sırbistan özerklik fermanı atlasta 1830-11-08, TDV'de 1830-10-17.
+- Polanów 1634-06-14 günü kabul edilebilir kaynakta bulunamadı.
+- Cuza'nın seçimi: Hertslet 17 Ocak/5 Şubat 1859, TDV 5/24 Şubat.
+- Dubrovnik'in sonu: TDV 27 Mayıs 1806, Britannica 1808.
+
+**AUT-DEU sonraki düzeltmeleri:** 1972 ve 2001 antlaşmaları (2001: Innwinkel'de karşılıklı 2.031 m² takas; Avusturya Parlamentosu). Bu bilgi `d1923-de-at` ve `d1878-de-ah` notlarına işlendi. `degisti:false` korundu, çünkü takasın büyüklüğü NE 10m kesinliğinin çok altında. 🟡 Koordinatör kararı.
+**Çakışma:** Kendi tarafımda 0. BATI'nın `dg3-hab-ch-1893-oncesi` kutusu (9,49-10,50 D · 46,51-47,57 K) şimdi AUT-DEU E kayıtlarımın dördünü örtüyor (47-89 nokta). Öneri M-4173'te BATI'ya iletildi.
+**Kaynaklar:** Hertslet c. 1-4 (archive.org) · Noradounghian c. I-II · IBS 43 · Stauber 2015 · Avusturya Parlamentosu · Britannica (Partitions, Tilsit/Schönbrunn/Pressburg, Teschen, Silesian Wars, Belgrade 1739, Hungary, Deulino/Andrusovo, Wehlau/Oliva — çoğu "Britannica Editors") · DDB (Berlin 1742 basılı metni) · IEG Mainz · Kreuter 2019 · TDV (pasarofca-antlasmasi, erdel, hotin, kamanice, bogdan, sirbistan, yas-antlasmasi) · Encyclopedia of Ukraine · Sejm Kançılaryası · CANU · polishhistory.pl (Wasiucionek) · dzieje.pl (◐).
+
 ## 6. 🆕 EK OKUMA — paket 0057 H-0001 / H-0002 (`DALGA-0057.md`)
 
 `data/ekokuma_venedik.js` → `window.EKOKUMA_VENEDIK` — **2 kart**, ikisinde de `baslik` var.

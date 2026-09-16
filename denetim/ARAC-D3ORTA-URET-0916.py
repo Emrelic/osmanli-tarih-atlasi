@@ -355,7 +355,7 @@ dyok("d1923-de-cs-4", [A, CS], "1923-01-24", [14.8, 49.9, 18.2, 51.1],
      dy("versay83"), {"t": "1924-04-15", "not": "Çek-Alman komisyonu sonu"},
      "Silezya + Hlučín (md. 83); Haatsch 1923-01-24'te ÇS'ye.")
 d_kaydi("d1923-de-at", [A, AT], "1918-11-12", "AUT-DEU", {"AUT": AT, "DEU": A},
-        degis(False, "Avusturya Devlet Antl. 1955 md. 5", "1938-01-01 hattı geri geldi; 1914 hattı 1919'da değişmedi (FRUS). 🟡 1955 sonrası küçük düzeltme antlaşmaları ARANMADI"),
+        degis(False, "Avusturya Devlet Antl. 1955 md. 5 + Avusturya Parlamentosu", "1938-01-01 hattı geri geldi; 1914 hattı 1919'da değişmedi (FRUS). 🟡 sonraki küçük düzeltmeler: 1972 antlaşması (içeriği OKUNMADI) ve 2001 antlaşması (Innwinkel'de karşılıklı 2.031 m² takas)"),
         dy("versay27", "sg50", "at1955"), {"t": "1914 öncesi", "not": "eski işaretli hat; yeni komisyon gerekmedi"},
         not_="G1: f = Avusturya Cumhuriyeti'nin günü (1918-11-12). Versay md. 27(5) ve Saint-Germain md. 27(7) '3 Ağustos 1914 sınırı' diyor; "
              "1918-11 sonrası işgal/değişiklik HİÇBİR kaynakta çıkmadı — ama 'doğrudan sürdü' diyen cümle de BULUNAMADI (◐). "
@@ -657,7 +657,7 @@ K["londra1913"] = dict(ad="IBS 116 — Londra Antlaşması ve Büyükelçiler Ko
                        not_="kuzey sınır komisyonu 1914 Haziran'da bitti; kesinleşme savaşla ertelendi")
 
 d_kaydi("d1878-de-ah", [A, HA], G3, "AUT-DEU", {"AUT": HA, "DEU": A},
-        degis(False, "Avusturya Devlet Antl. 1955 md. 5", "1914 hattı 1919'da değişmedi (Versay/Saint-Germain), 1955'te 1938 hattı geri geldi"),
+        degis(False, "Avusturya Devlet Antl. 1955 md. 5 + Avusturya Parlamentosu", "1914 hattı 1919'da değişmedi (Versay/Saint-Germain), 1955'te 1938 hattı geri geldi; 🟡 1972 ve 2001 küçük düzeltmeleri (2001: 2.031 m² takas)"),
         dy("versay27", "sg50"), {"t": "1914 öncesi", "not": "eski işaretli hat"}, t="1918-11-11",
         not_=f"G2+G3. {VS27} ⇒ bu çizgi 1914'te Almanya–Avusturya-Macaristan sınırıydı; 1878-1914 arasında değiştiğine dair kayıt yok (◐ — 'değişmedi' diyen kaynak da yok). "
              "f = G3 alt sınırı (hat daha eski). Habsburg künyesi 1918-11-11'de bitiyor, Avusturya Cumhuriyeti 1918-11-12'de başlıyor: 1 günlük künye boşluğu.")
@@ -790,6 +790,239 @@ dyok("d1913-mn-al", [MN, AL], "1913-05-30", [19.2, 41.8, 20.1, 42.75],
      "G2+G3. " + ARN_NOT, kategori_1923="C", t="1918-11-26")
 dyok("d1913-sr-al", [SR, AL], "1913-05-30", [20.0, 40.8, 20.9, 42.6],
      degis(True, "IBS 116", "aynı gerekçe"), dy("londra1913", "ibs116"), None, "G2+G3. " + ARN_NOT, kategori_1923="C", t="1918-12-01")
+
+# ================================================================ G4-G7 — 1878-07-13 → 1606-11-11 (zincirli)
+# Kural (GERIYE-SARMA ADIM 2): E yalnız barış antlaşması/protokol; işgal/ateşkes D ama koordinatsızsa YAZILMAZ.
+# Bu dönemde koordinatla çizilebilen hatlar: Prut (1812, Bükreş md. 4) ve Avusturya–Bavyera (1816, Münih).
+# Öteki bütün hatlar YOK kutusu (hukukî dayanaklı envanter; harita orada A/B'ye düşer).
+HT = "https://archive.org/details/MapOfEuropeByTreatyV"
+K.update({
+    "hertslet1": dict(ad="Hertslet, The Map of Europe by Treaty, c. 1 (1875)", madde="No. 12-14 (3 Mayıs 1815), 27 (Viyana Nihai Senedi), 53 (Münih 1816), 77 (Prusya-Rusya 1817), 81 (Salzburg 1818)", tarih="1815-1818", tur="antlasma-derlemesi", url=HT + "1"),
+    "hertslet2": dict(ad="Hertslet, The Map of Europe by Treaty, c. 2", madde="No. 143 (Radziwiłłów, A-R sınırı), 175 (1835), 180 (Tarnowitz 1836), 197 (Münih 1844), 201-202 (Kraków 1846), 209 (Dresden 1848), 228 (1850), 264 (Paris 1856), 277, 280 (Kişinev 1857), 282, 299, 334", tarih="1829-1861", tur="antlasma-derlemesi", url=HT + "2"),
+    "hertslet3": dict(ad="Hertslet, The Map of Europe by Treaty, c. 3", madde="No. 388 (Prag 1866), 444 (1871 anayasası)", tarih="1866-1871", tur="antlasma-derlemesi", url=HT + "3"),
+    "noradounghian": dict(ad="Noradounghian, Recueil d'actes internationaux de l'Empire ottoman (1897-1903)", madde="c. I no. 369-371 (Bukovina 1775-1776); c. II (Yaş 1792 md. 3; Bükreş 1812 md. 4; Edirne 1829 md. 3)", tarih="—", tur="antlasma-derlemesi",
+                          url="https://archive.org/details/recueildactesin03turkgoog"),
+    "stauber": dict(ad="Stauber, Zeitschrift für bayerische Landesgeschichte 2015 (İng. sürüm, bavarian-studies.org)", madde="Paris 1814-06-03 (Tirol iadesi); Münih 1816-04-14, Salzburg devri 1816-05-01", tarih="2015", tur="hakemli",
+                    url="https://www.bavarian-studies.org/the-reorganization-of-europe-north-and-south-of-the-alps/"),
+    "parl_at": dict(ad="Avusturya Parlamentosu — Avusturya-Almanya sınır antlaşması belgeleri", madde="1972-02-29 antlaşması; 2001-07-02 antlaşması (Innwinkel'de 2.031 m² takas; 1844 ve 1850 antlaşmalarını kaldırır)", tarih="2001", tur="resmi",
+                    url="https://www.parlament.gv.at/dokument/XXI/I/741/fnameorig_602882.html"),
+    "eb_partitions": dict(ad="Britannica — Partitions of Poland", madde="1772-08-05 sözleşme, Sejm onayı 1773-09-30; 1793-01-23; 1795-10-24 → 1797-01-26", tarih="—", tur="ansiklopedi",
+                          url="https://www.britannica.com/event/Partitions-of-Poland", not_="'Britannica Editors' — imzasız kurumsal madde (§4 ara bölge)"),
+    "eb_napoleon": dict(ad="Britannica — Treaties of Tilsit · Treaty of Schönbrunn · Treaty of Pressburg (1805) · Duchy of Warsaw", madde="Tilsit 1807-07-07/09; Schönbrunn 1809-10-14; Pressburg 1805-12-26", tarih="—", tur="ansiklopedi",
+                        url="https://www.britannica.com/event/Treaty-of-Schonbrunn"),
+    "eb_teschen": dict(ad="Britannica — Treaty of Teschen", madde="Mayıs 1779; Inn'in doğusu Yukarı Avusturya'ya", tarih="1779", tur="ansiklopedi",
+                       url="https://www.britannica.com/topic/Treaty-of-Teschen"),
+    "eb_silesia": dict(ad="Britannica — Silesian Wars", madde="Breslau 1742-06-11; Troppau, Teschen, Jägerndorf Avusturya'da", tarih="—", tur="ansiklopedi",
+                       url="https://www.britannica.com/event/Silesian-Wars"),
+    "ddb_1742": dict(ad="Berlin Barışı basılı metni (Deutsches Historisches Museum, DDB)", madde="'Am 28. Julii 1742. zu Berlin gezeichnet'", tarih="1742-07-28", tur="antlasma",
+                     url="https://www.deutsche-digitale-bibliothek.de/item/EFSSM4D5KHXJZ4AWHMDGLERKZLZWTUMP"),
+    "ieg_1763": dict(ad="IEG Mainz — Europäische Friedensverträge: Hubertusburg", madde="1763-02-15, status quo ante", tarih="1763-02-15", tur="akademik",
+                     url="https://www.ieg-friedensvertraege.de/---_site.popup..html_dir._treaty.3_comment.378_notrans.1_likecms.html"),
+    "kreuter": dict(ad="Kreuter, Grazer Jahrbuch (2019), DOI 10.25364/22.2:2019.10", madde="Pasarofça 1718-07-21: Olt'un sağ yakasındaki beş ilçe Avusturya'ya", tarih="2019", tur="hakemli",
+                    url="https://unipub.uni-graz.at/download/pdf/4672086.pdf"),
+    "tdv_pasarofca": dict(ad="TDV — pasarofca-antlasmasi", madde="Küçük Eflak 'Oltu ırmağına kadar'; ilk yedi madde sınır", tarih="1718-07-21", tur="TDV",
+                          url="https://islamansiklopedisi.org.tr/pasarofca-antlasmasi"),
+    "eb_belgrad": dict(ad="Britannica — Treaty of Belgrade (1739)", madde="Kuzey Sırbistan ve Küçük Eflak Osmanlı'ya", tarih="Eylül 1739", tur="ansiklopedi",
+                       url="https://www.britannica.com/event/Treaty-of-Belgrade-1739", not_="gün 18 Eylül yalnız arama özetinde (◐)"),
+    "tdv_erdel": dict(ad="TDV — erdel", madde="'1699 Karlofça Antlaşması ile Erdel Avusturya'ya terkedildi'", tarih="1699", tur="TDV",
+                      url="https://islamansiklopedisi.org.tr/erdel", not_="🔴 atlas künyesi `erdel` 1711-04-30'a kadar sürüyor — TDV ile çelişki, D-KUNYE'ye"),
+    "eb_hungary": dict(ad="Britannica — History of Hungary: The period of partition; Gábor Bethlen; György Rákóczi I", madde="Nikolsburg 1621-12-31 (yedi kontluk); Pozsony 1626; Linz 1645-12-16", tarih="—", tur="ansiklopedi",
+                       url="https://www.britannica.com/topic/history-of-Hungary/The-period-of-partition",
+                       not_="yedi kontluğun geri dönüş günleri BULUNAMADI"),
+    "ieu_eternal": dict(ad="Encyclopedia of Ukraine (CIUS) — Eternal Peace of 1686", madde="Moskova 1686-05-16; sol yaka ve Kiev Rusya'ya", tarih="1686-05-16", tur="ansiklopedi-akademik",
+                        url="https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CE%5CT%5CEternalPeaceof1686.htm",
+                        not_="Sejm Kançılaryası 1 Mayıs 1686 diyor — ÇELİŞKİ; onay Varşova Genel Konseyi 1710"),
+    "sejm_1710": dict(ad="Dzieje Sejmu (Sejm Kançılaryası) — General Council of Warsaw 1710", madde="Ebedî Barış'ın onayı", tarih="1710", tur="resmi",
+                      url="https://www.dziejesejmu.pl/en/general-council-of-warsaw-1710-confirmation-kingdom-of-poland-gives-up-the-central-and-east-ukraine,p1858802479"),
+    "eb_deulino": dict(ad="Britannica — Truce of Deulino (R. Limbach) · Truce of Andrusovo", madde="Deulino Aralık 1618 (mütareke); Andrusovo 30 Ocak E.T. / 9 Şubat 1667 (mütareke)", tarih="—", tur="ansiklopedi",
+                       url="https://www.britannica.com/event/Truce-of-Deulino"),
+    "eb_polyanov": dict(ad="Britannica — Władysław IV (Polyanov barışı)", madde="1634: Moskova önceki toprak devirlerini teyit etti", tarih="1634", tur="ansiklopedi",
+                        url="https://www.britannica.com/topic/Treaty-of-Polyanov", not_="gün BULUNAMADI (14 Haziran yalnız atlasın kendi kaydında)"),
+    "eb_wehlau": dict(ad="Britannica — Treaty of Wehlau · Treaty of Oliva", madde="Wehlau 1657-09-19 (Dukalık Prusya üzerindeki Leh metbuluğu kalktı); Oliva 1660-05-03 teyit", tarih="—", tur="ansiklopedi",
+                      url="https://www.britannica.com/event/Treaty-of-Wehlau"),
+    "polishhistory": dict(ad="Wasiucionek — Across the Dniester (Muzeum Historii Polski portalı)", madde="Leh-Boğdan sınırı Beyaz Çeremoş, Kolaçin, Dinyester; 1699 sonrası büyük ölçüde aynı", tarih="—", tur="akademik",
+                          url="https://polishhistory.pl/across-the-dniester-the-texture-of-contact-in-the-seventeenth-century-polish-moldavian-borderland/"),
+    "tdv_hotin": dict(ad="TDV — hotin · kamanice · bogdan", madde="Hotin 1711'den sonra doğrudan Osmanlı; Kamaniçe 1699'da tahliye", tarih="—", tur="TDV",
+                      url="https://islamansiklopedisi.org.tr/hotin"),
+    "ieu_podilia": dict(ad="Encyclopedia of Ukraine — Podilia · Bukovyna · Bucharest Peace Treaty of 1812", madde="1793'te doğu Podolya Rusya'ya, batı sınırı Zbruç, güneybatısı Dinyester", tarih="—", tur="ansiklopedi-akademik",
+                        url="https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CO%5CPodilia.htm"),
+    "dz_1793": dict(ad="dzieje.pl (PAP) — İkinci paylaşma", madde="Rusya-Polonya imza 1793-07-22, onay 1793-08-17; Prusya-Polonya onayı 1793-09-23", tarih="1793", tur="gazetecilik",
+                    url="https://dzieje.pl/", not_="◐ gazetecilik kaynağı — günler ikincil"),
+    "canu_mn_at": dict(ad="CANU Leksikon — Avusturya-Karadağ sınırı", madde="1820-11-23 sınır antlaşması; 1841-07-18 sınır belirleme antlaşması", tarih="—", tur="akademi",
+                       url="https://leks.canu.ac.me/web/ldcg.php?OID=2761"),
+    "tdv_sirbistan": dict(ad="TDV — sirbistan", madde="özerklik fermanı 17 Ekim 1830", tarih="1830-10-17", tur="TDV",
+                          url="https://islamansiklopedisi.org.tr/sirbistan", not_="🔴 atlas maddesi 1830-11-08 — ÇELİŞKİ, HARİTA-VERI'ye"),
+    "hertslet_cuza": dict(ad="Hertslet c. 2 s. 1335 notu; No. 299, 334", madde="Cuza Boğdan'da 1859-01-17, Eflak'ta 1859-02-05 seçildi; güçlerin protokolü 1859-09-06; ferman 1861-12-06", tarih="1859", tur="antlasma-derlemesi",
+                          url=HT + "2", not_="TDV `bogdan` 5 ve 24 Şubat diyor — ÇELİŞKİ; atlas künyesi `romanya` 1859-01-24'te başlıyor"),
+})
+
+# Taraf pencereleri (künye kimlikleri; devletler.js)
+BG, EF, ER, LH, PR, VR, KP, ZP = "bogdan", "eflak", "erdel", "lehistan", "prusya", "varsova-dukaligi", "kongre-polonyasi", "zaporojye"
+BOG_W = [(BG, "1359-01-01", "1859-01-24"), (RP, "1859-01-24", "1881-03-26"), (RO, "1881-03-26", "9999")]
+EFL_W = [(EF, "1330-01-01", "1859-01-24"), (RP, "1859-01-24", "1881-03-26"), (RO, "1881-03-26", "9999")]
+TRA_W = [(ER, "1570-01-01", "1699-01-26"), (HM, "1699-01-26", "1918-11-16")]   # TDV: Karlofça 1699
+GER_W = [(A, "0962-02-02", "1701-01-18"), (PR, "1701-01-18", "1871-01-18"), (A, "1871-01-18", "9999")]
+KISA.update({BG: "bg", EF: "ef", ER: "er", HM: "hm", LH: "lh", PR: "pr", A: "de", VR: "vr", KP: "kp"})
+G4, G5, G6, G7 = "1815-06-09", "1774-07-21", "1699-01-26", "1606-11-11"
+
+
+def yokp(id_, pencereler, sabit, kutu, f, t, dayanak, not_, tahdit=None, kat="D", degisti=None, onde=True):
+    """Künye pencerelerine bölünmüş YOK kayıtları. sabit: değişmeyen taraf (None olabilir)."""
+    for kimler, ff, tt in bol(pencereler, f, t):
+        taraf = list(kimler) if sabit is None else ([sabit] + list(kimler) if onde else list(kimler) + [sabit])
+        dyok(id_ + "".join("-" + KISA.get(k, k) for k in kimler), taraf, ff, kutu,
+             degisti or degis(True, None, "koordinatsız eski hat"), dayanak, tahdit, not_, kategori_1923=kat, t=tt)
+
+
+# ---------- Polonya-Litvanya ↔ Moskova/Rusya (G7-G6)
+dyok("d1634-lh-ru", [LH, RU], "1634-01-01", [23.0, 49.5, 36.5, 56.5],
+     degis(True, None, "1667/1686'da değişti"), dy("eb_polyanov", "eb_deulino"), None,
+     "G7. Polyanovka barışı Deulino mütarekesinin (Aralık 1618) toprak devirlerini teyit etti (Britannica). f: yıl kaynaklı, GÜN BULUNAMADI (YYYY-01-01). "
+     "1606-1634 arası: Karışıklık Dönemi işgalleri ve Deulino MÜTAREKESİ — koordinatsız fiilî hat, yazılmadı. "
+     "Andrusovo (1667) de bir MÜTAREKEdir: sol yaka, Kiev, Smolensk fiilen Rusya'ya geçti ama hukukî E hattı 1686'ya kadar Polyanovka hattı kaldı "
+     "(fiilî görünüm 1667-1686 arası yanlış, koordinatsız).", t="1686-05-16")
+dyok("d1686-lh-ru", [LH, RU], "1686-05-16", [23.0, 49.5, 36.5, 56.5],
+     degis(True, None, "1772-1795 paylaşmaları"), dy("ieu_eternal", "sejm_1710"), None,
+     "G7-G6. Ebedî Barış (Grzymułtowski): sol yaka Ukrayna ve Kiev Rusya'ya, Bratslav tarafsız kuşak (IEU). Gün ÇELİŞKİLİ (16 Mayıs IEU / 1 Mayıs Sejm Kançılaryası); "
+     "Polonya onayı 1710. 1699-1772 arasında değiştiğine dair kaynak yok (◐ — 'değişmedi' diyen akademik cümle de yok).", t="1773-09-30")
+# ---------- Polonya ↔ Brandenburg-Prusya / Almanya
+yokp("d1606-lh-alm", [GER_W], LH, [14.5, 51.5, 22.9, 55.0], G7, "1773-09-30", dy("eb_wehlau", "eb_partitions"),
+     "G7-G6. Polonya'nın batı ve kuzey sınırı: Brandenburg, Pomeranya, Dukalık Prusya (1657 Wehlau'ya kadar Leh fiefi — o dönem bu kesim iç sınır; "
+     "1657'den sonra egemen, künyesi YOK → `almanya` ile yazıldı), 1701'den Prusya Krallığı. 1742'den sonra Silezya-Polonya kesimi de Prusya'nın.")
+# ---------- Polonya ↔ Habsburg (Silezya + Macar Karpatları)
+dyok("d1606-lh-ah", [LH, HA], G7, [17.0, 48.8, 24.5, 50.5],
+     degis(True, None, "1742 Silezya Prusya'ya; 1772 Galiçya"), dy("eb_silesia", "eb_partitions"), None,
+     "G7-G6. Habsburg Silezyası ve Macar tacının Karpat kesimi – Polonya. Spiş kasabaları 1769'da Avusturya işgaline girdi (gün BULUNAMADI, koordinatsız), 1772-73 paylaşmasıyla resmîleşti.",
+     t="1742-07-28")
+dyok("d1742-lh-ah", [LH, HA], "1742-07-28", [18.8, 48.8, 24.5, 49.7],
+     degis(True, None, "1772 Galiçya"), dy("ddb_1742", "eb_partitions"), None, "G6. Yalnız Macar Karpat kesimi (Silezya artık Prusya'nın).", t="1773-09-30")
+# ---------- Macar tacı ↔ Erdel, Erdel/Habsburg ↔ Eflak/Boğdan
+dyok("d1606-hm-er", [HM, ER], G7, [20.5, 45.5, 24.0, 48.5],
+     degis(True, None, "1699'da Erdel Habsburg'a geçti"), dy("eb_hungary", "tdv_erdel"), None,
+     "G7. Habsburg Macaristan'ı ile Erdel prensliği (Osmanlı'ya tâbi) arası. Nikolsburg (1621-12-31) Bethlen'e yedi kuzeydoğu kontluğunu verdi; Pozsony (1626); "
+     "Linz (1645-12-16) yine yedi kontluk. Kontlukların geri dönüş günleri BULUNAMADI ⇒ hat dilimlere ayrılamadı, tek kutu.", t=G6)
+yokp("d1606-tra-ef", [TRA_W, EFL_W], None, [22.0, 44.6, 26.0, 45.9], G7, G3, dy("tdv_erdel", "hertslet_cuza", "ibs43"),
+     "G7→G4. Erdel/Macar tacı – Eflak Karpat sınırı. 1718-1739 arasında Küçük Eflak (Oltenya) Avusturya'daydı: batı kesimi o dönem iç sınır (ayrı Olt kaydı). "
+     "Karlofça sonrası Erdel ayrı bir Habsburg prensliğiydi; taraf `macaristan-habsburg` ile yazıldı (künye yok). Habsburg-Eflak Karpat sınırının tahdidi BULUNAMADI.")
+yokp("d1606-tra-bg", [TRA_W, BOG_W], None, [25.3, 45.4, 26.6, 47.3], G7, G3, dy("tdv_erdel", "hertslet_cuza"),
+     "G7→G4. Erdel/Macar tacı – Boğdan Doğu Karpat sınırı.")
+dyok("d1718-ah-ef-olt", [HA, EF], "1718-07-21", [23.8, 43.7, 24.6, 45.6],
+     degis(True, None, "1739'da kalktı"), dy("tdv_pasarofca", "kreuter", "eb_belgrad"), None,
+     "G6. Pasarofça: Küçük Eflak Olt'a kadar Avusturya'ya (TDV; Kreuter 2019: 'Olt'un sağ yakasındaki beş ilçe'). Hat Olt nehri — ama 1718 nehir yatağı "
+     "ve Olt'un Tuna'ya kadar tam güzergâhı ölçülmedi ⇒ çizilmedi. t: Belgrad Barışı 1739-09-18 (gün ◐; Britannica 'Eylül 1739').", t="1739-09-18")
+# ---------- Polonya ↔ Boğdan, Avusturya ↔ Boğdan (Bukovina)
+dyok("d1606-lh-bg", [LH, BG], G7, [24.5, 47.9, 27.5, 48.8],
+     degis(True, None, "1772'de Galiçya Avusturya'ya"), dy("polishhistory", "tdv_hotin"), None,
+     "G7-G6. Beyaz Çeremoş, Kolaçin, Dinyester (Wasiucionek). 1672-1699 Podolya Osmanlı'daydı (Leh-Osmanlı yüzü D1'in); "
+     "Hotin 1711'den sonra doğrudan Osmanlı (D1). 1699 sonrası hat büyük ölçüde aynı (Wasiucionek).", t="1773-09-30")
+dyok("d1773-ah-bg", [HA, BG], "1773-09-30", [24.5, 47.7, 26.5, 48.8],
+     degis(True, None, "1775 Bukovina"), dy("eb_partitions", "noradounghian"), None,
+     "G6-G5. Galiçya Avusturya'ya geçince eski Leh-Boğdan hattı Avusturya-Boğdan hattı oldu; Bukovina'nın devriyle (1775) değişti.", t="1775-05-07")
+yokp("d1775-ah-bukovina", [BOG_W], HA, [25.2, 47.2, 26.6, 48.3], "1775-05-07", G3, dy("noradounghian", "ieu_podilia", "hertslet_cuza"),
+     "G5-G4. Bukovina'nın devri: İstanbul sözleşmesi 1775-05-07, açıklayıcı sözleşme 1776-05-12, Palamutka tahdit senedi 1776-07-04 (gün ◐). "
+     "Avusturya işgali 1774 (gün BULUNAMADI). IBS 43: kuzey sınırı 1918'e kadar değişmedi — ama hat 1940'ta ortadan kalktı, koordinat YOK.",
+     tahdit={"t": "1776-07-04", "not": "Palamutka tahdit senedi (◐ gün)"})
+# ---------- Rusya ↔ Boğdan: yukarı Dinyester (1793-1812) ve Prut (1812-1878)
+dyok("d1793-ru-bg-dinyester", [RU, BG], "1793-08-17", [26.4, 48.0, 29.5, 48.8],
+     degis(True, None, "1812'de Prut hattı"), dy("ieu_podilia", "tdv_hotin", "dz_1793"), None,
+     "G5. İkinci paylaşmayla doğu Podolya Rusya'ya geçti; güneybatı sınırı Dinyester (IEU). Aşağısı Yaş (1792) ile Rusya-Osmanlı (D1), Hotin raya'sı Osmanlı (D1). "
+     "f: Rusya-Polonya onayı 1793-08-17 (◐ gazetecilik). Dinyester kesiminin kaynaklı uçları yok ⇒ çizilmedi.", t="1812-06-23")
+# Prut: Bükreş 1812 md. 4 — "Prut ... Tuna'ya dökülüşüne kadar"; Rusya nehrin yarısını aldı (talveg)
+PRUT_KUZEY = [26.0, 47.1, 28.5, 48.6]            # 1856 hattının Prut'a vardığı Katamori'nin KUZEYİ (muhafazakâr)
+PRUT_GUNEY = [27.5, 45.3, 29.0, 47.1]
+d_kaydi("d1812-ru-bg-prut", [RU, BG], "1812-06-23", "MDA-ROU", {"MDA": RU, "ROU": BG},
+        degis(False, "IBS 43 + Bükreş md. 4 + Berlin md. 45", "Prut orta çizgisi 1812'den beri aynı tarif; 🟡 yatak kayması ÖLÇÜLMEDİ"),
+        dy("noradounghian", "ibs43"), None, t="1856-04-27",
+        not_="G5-G4. Bükreş 1812 md. 4: Prut, Boğdan'a girdiği yerden Tuna'ya dökülüşüne kadar sınır; Rusya nehrin yarısını aldı. Teati 1812-06-23 (IBS 43). "
+             "Prut ağzından sonraki Tuna kesimi Rusya-Osmanlı'dır (D1) — bugünkü RO-UA Tuna parçası bu yüzden ALINMADI. Edirne 1829 md. 3 Prut'u değiştirmedi.")
+d_kaydi("d1856-ru-bg-prut-kuzey", [RU, BG], "1856-04-27", "MDA-ROU", {"MDA": RU, "ROU": BG},
+        degis(False, "IBS 43 + Paris md. 20", "kuzey Prut 1856'da değişmedi"), dy("hertslet2", "ibs43"), None, t="1859-01-24",
+        yalniz=PRUT_KUZEY,
+        not_="G4. Paris 1856 md. 20: Güney Besarabya Boğdan'a; yeni hat 'Katamori'de Prut'a' varıyor. Katamori'nin koordinatı BULUNAMADI (Cotul Morii ~46,9 K olabilir — DOĞRULANMADI) "
+             "⇒ yalnız 47,1 K'nin kuzeyi çizildi. Paris'in yürürlüğü 1856-04-27 (teati, IBS 43); arazide tahdit Kişinev 1857-04-11 (Hertslet No. 280).")
+d_kaydi("d1859-ru-rp-prut-kuzey", [RU, RP], "1859-01-24", "MDA-ROU", {"MDA": RU, "ROU": RP},
+        degis(False, "IBS 43", "kuzey Prut"), dy("hertslet_cuza", "ibs43"), None, t="1878-08-03", yalniz=PRUT_KUZEY,
+        not_="G4. Taraf Romanya (künye 1859-01-24; Hertslet Cuza'nın seçimini 17 Ocak/5 Şubat 1859, TDV 5/24 Şubat verir — ÇELİŞKİ).")
+yokp("d1856-bes-guney", [BOG_W], RU, [27.5, 45.3, 29.0, 47.1], "1856-04-27", "1878-08-03", dy("hertslet2", "ibs43"),
+     "G4. Paris 1856 md. 20 hattı: Burnas gölü – Akkerman yolu – Trajan duvarı – Bolgrad'ın güneyi – Yalpuğ – Saratsika – Katamori (Prut). "
+     "Kişinev nihai senedi 1857-04-11: toprak konilerle işaretlendi (Hertslet No. 280). Koordinat YOK ⇒ çizilmedi; güney Prut bu dönemde iki ülke arası değildi.",
+     tahdit={"t": "1857-04-11", "not": "Kişinev nihai senedi"})
+# ---------- Avusturya ↔ Bavyera/Almanya (AUT-DEU)
+SPIEL = [10.18, 47.26, 10.45, 47.44]     # Spielmannsau ve çevresi (1844 md. 13)
+PFRON = [10.38, 47.52, 10.66, 47.66]     # Pfronten talebi, Jungholz (1844 md. 13-16)
+_ADDEG = degis(False, "Avusturya Devlet Antl. 1955 md. 5 + Avusturya Parlamentosu", "1938 hattı; 🟡 1972 antlaşması (içeriği OKUNMADI) ve 2001 antlaşması (Innwinkel'de 2.031 m² takas) küçük düzeltmeler")
+dyok("d1606-alm-ah-bavyera", [A, HA], G7, [9.75, 47.2, 13.9, 48.8],
+     degis(True, None, "1779, 1805, 1809-10, 1814, 1816 değişiklikleri"), dy("eb_teschen", "eb_napoleon", "stauber"), None,
+     "G7-G5. Avusturya–Bavyera/Salzburg kesimi: Teschen (Mayıs 1779) Innviertel'i Avusturya'ya verdi; Salzburg 1803'e kadar ayrı başpiskoposluk; "
+     "Pressburg (1805-12-26) Tirol ve Vorarlberg'i Bavyera'ya, Schönbrunn (1809-10-14) Salzburg ve Innviertel'i Bavyera'ya verdi; "
+     "Paris (1814-06-03) Tirol'ü geri verdi; Münih (1816) bugünkü hattı kurdu. Ara hatların koordinatı YOK.", t="1816-05-01")
+d_kaydi("d1816-alm-ah", [A, HA], "1816-05-01", "AUT-DEU", {"AUT": HA, "DEU": A}, _ADDEG, dy("hertslet1", "stauber", "parl_at"),
+        {"t": "1818-09-30", "not": "Salzburg sınır sözleşmesi (Hertslet No. 81)"}, disari=[SPIEL, PFRON], t="1844-01-30",
+        not_="G4. Münih 1816-04-14; karşılıklı teslim 1816-05-01 (md. XVI). Bavyera 1806-1871 egemen krallık — künyesi yok, `almanya` ile yazıldı. "
+             "Spielmannsau ve Pfronten/Jungholz çevresi 1844'e kadar çekişmeli (kutu dışı).")
+dyok("d1816-alm-ah-cekisme", [A, HA], "1816-05-01", SPIEL, degis(True, "Hertslet No. 197", "1844'te çözüldü"), dy("hertslet2"), None,
+     "G4. Spielmannsau: 1844 md. 13 ile Avusturya vazgeçti.", kategori_1923="C", t="1844-01-30")
+dyok("d1816-alm-ah-pfronten", [A, HA], "1816-05-01", PFRON, degis(True, "Hertslet No. 197/228", "1844/1850"), dy("hertslet2"), None,
+     "G4. Pfronten talebi ve Jungholz: 1844 md. 13-16; 1850 ek antlaşması Jungholz takasını iptal etti.", kategori_1923="C", t="1844-01-30")
+d_kaydi("d1844-alm-ah", [A, HA], "1844-01-30", "AUT-DEU", {"AUT": HA, "DEU": A}, _ADDEG, dy("hertslet2", "parl_at"), None, t="1878-07-13",
+        not_="G4. Münih Tirol-Vorarlberg antlaşması (1844-01-30, imza günü; yürürlük BULUNAMADI) ve 1850-12-16 ek antlaşması. "
+             "1866 Prag barışı bu hattı değiştirmedi (Hertslet No. 388). 2001 antlaşması 1844 ve 1850 antlaşmalarını kaldırdı.")
+# ---------- Almanya/Prusya ↔ Bohemya, Silezya
+for i, kutu in enumerate([[12.0, 49.3, 13.9, 50.4], [12.0, 50.2, 15.1, 51.1], [12.8, 48.78, 13.83, 49.3]], 1):
+    dyok(f"d1606-alm-ah-bohemya-{i}", [A, HA], G7, kutu, degis(None, None, "1923 kaydıyla aynı gerekçe"), dy("hertslet2", "hertslet3"), None,
+         "G7-G4. Bohemya-Saksonya/Bavyera eski hattı. " + ("Dresden 1848-03-05: Avusturya Rumburg'un dört bölgesini ve Schirgiswalde'yi Saksonya'ya bıraktı (Hertslet No. 209). "
+                                                          "1635 Lusatya değişimi ARAŞTIRILMADI." if i == 2 else ""), t=G3)
+yokp("d1742-alm-ah-silezya", [GER_W], HA, [14.8, 49.9, 19.4, 51.1], "1742-07-28", G3, dy("eb_silesia", "ddb_1742", "ieg_1763"),
+     "G6-G4. Berlin 1742-07-28: Silezya ve Glatz Prusya'ya; Troppau, Teschen, Jägerndorf'un güneyi Avusturya'da (Britannica; Glatz ve Opava hattı ◐). "
+     "Dresden 1745-12-25 ve Hubertusburg 1763-02-15 teyit etti. 1742 öncesi Silezya Habsburg içiydi.")
+# ---------- Polonya paylaşmaları (G5)
+yokp("d1773-lh-alm", [GER_W], LH, [14.5, 51.5, 22.9, 55.0], "1773-09-30", "1795-10-24", dy("eb_partitions", "dz_1793"),
+     "G5. Birinci paylaşma: Kraliyet Prusyası (Danzig ve Thorn hariç) ve kuzey Büyük Polonya Prusya'ya. İkinci paylaşma (Prusya-Polonya onayı 1793-09-23 ◐) hattı yeniden çizdi — dilimlenmedi.")
+dyok("d1773-lh-ru", [LH, RU], "1773-09-30", [23.0, 49.0, 32.5, 57.0], degis(True, None, "paylaşmalar"), dy("eb_partitions", "dz_1793"), None,
+     "G5. Birinci paylaşma: Dvina-Dinyeper hattının doğusu Rusya'ya. İkinci paylaşma (onay 1793-08-17 ◐) Belarus, batı Ukrayna, Podolya, Volhinya'nın bir kısmı.", t="1795-10-24")
+dyok("d1773-lh-ah", [LH, HA], "1773-09-30", [18.9, 49.4, 26.5, 51.2], degis(True, None, "1795"), dy("eb_partitions"), None,
+     "G5. Galiçya: doğuda Zbruç (IEU), Vistül'ün güneyi; San-Vistül arası. 1774-1776 sınır sözleşmeleri (Zbruç/Podgórze) BULUNAMADI.", t="1795-10-24")
+dyok("d1795-pr-ru", [PR, RU], "1795-10-24", [21.5, 52.5, 24.5, 56.0], degis(True, None, "1807 Tilsit"), dy("eb_partitions"), None,
+     "G5. Üçüncü paylaşma: Neman hattı (Prusya batısını, Rusya doğusunu aldı). Kesinleşme 1797-01-26.", t="1807-07-09")
+dyok("d1795-ah-ru", [HA, RU], "1795-10-24", [22.5, 50.3, 24.5, 52.5], degis(True, None, "1809 Schönbrunn"), dy("eb_partitions"), None,
+     "G5. Üçüncü paylaşma: Kraków'dan kuzeydoğuya Bug kavsine — Avusturya-Rusya hattı Bug.", t="1809-10-14")
+dyok("d1795-pr-ah", [PR, HA], "1795-10-24", [19.5, 50.0, 23.5, 52.5], degis(True, None, "1807 Tilsit"), dy("eb_partitions"), None,
+     "G5. Üçüncü paylaşma: Batı Galiçya-Yeni Doğu Prusya hattı (Pilica adı kaynakta BULUNAMADI).", t="1807-07-09")
+# ---------- Varşova Büyük Dukalığı (1807-1815)
+dyok("d1807-pr-vr", [PR, VR], "1807-07-22", [15.5, 51.0, 22.0, 54.5], degis(True, None, "1815"), dy("eb_napoleon"), None,
+     "G5. Tilsit: Dukalık Prusya'nın 1793/1795 kazançlarından kuruldu; Danzig serbest şehir (künye YOK).", t=G4)
+dyok("d1807-ru-vr", [RU, VR], "1807-07-22", [21.5, 51.5, 24.5, 55.0], degis(True, None, "1815"), dy("eb_napoleon"), None,
+     "G5. Tilsit: Białystok bölgesi Rusya'ya.", t=G4)
+dyok("d1807-ah-vr", [HA, VR], "1807-07-22", [19.5, 49.8, 24.5, 51.5], degis(True, None, "1809"), dy("eb_napoleon"), None,
+     "G5. Dukalık-Batı Galiçya hattı.", t="1809-10-14")
+dyok("d1809-ah-vr", [HA, VR], "1809-10-14", [19.0, 49.3, 24.5, 51.3], degis(True, None, "1815"), dy("eb_napoleon", "hertslet1"), None,
+     "G5. Schönbrunn: Kraków ve Lublin dahil Batı Galiçya Dukalığa; Viyana 1815 md. IV Galiçya-Rus Polonyası hattında 1809 hattını esas aldı (Zawichost-Bug).", t=G4)
+dyok("d1809-ah-ru-tarnopol", [HA, RU], "1809-10-14", [25.0, 49.0, 26.5, 50.2], degis(True, None, "1815'te geri döndü"), dy("eb_napoleon", "hertslet1"), None,
+     "G5. Schönbrunn: Tarnopol bölgesi Rusya'ya; Viyana 1815 md. V ile Avusturya'ya döndü.", t=G4)
+# ---------- G4: Viyana düzeni (1815-1878)
+for i, kutu in enumerate([[20.9, 54.3, 22.95, 55.9]], 1):
+    yokp("d1815-alm-ru", [GER_W], RU, kutu, G4, G3, dy("hertslet1", "melno"),
+         "G4. Doğu Prusya-Litvanya (Melno hattı, VLE). 1871'e kadar Prusya, sonra Almanya.")
+yokp("d1815-alm-kp", [GER_W], KP, [16.5, 50.1, 22.95, 54.35], G4, G3, dy("hertslet1", "hertslet2"),
+     "G4. Poznan Büyük Dukalığı ve Silezya – Kongre Polonyası (Viyana md. I-II). Prusya-Rusya sınır antlaşması 1817-11-11 (Hertslet No. 77; Jemelin, Kirchdorf maddeleri), "
+     "kesin antlaşma 1835-03-04 ve Tarnowitz tahdit senedi 1836-12 (215 taş). 🟡 1878 sonrası G3 kayıtları taraf olarak `rusya` kullanıyor — Kongre Polonyası künyesi 1917'ye kadar sürüyor (D-KUNYE'ye soru).",
+     tahdit={"t": "1836-12-13", "not": "Tarnowitz tahdit senedi (Hertslet dizininde 13 Aralık)"})
+dyok("d1815-ah-kp", [HA, KP], G4, [18.9, 49.95, 24.2, 51.05], degis(True, None, "1918"), dy("hertslet1", "hertslet2"), None,
+     "G4. Galiçya-Kongre Polonyası (Viyana md. IV: Zawichost-Bug 1809 hattı). Kraków Serbest Şehri (1815-1846) bu kutuda — künyesi YOK; "
+     "Avusturya-Prusya-Rusya sözleşmesi 1846-11-06, Avusturya ilhak beyannamesi 1846-11-11 (Hertslet No. 201-202). Radziwiłłów sınır antlaşması (Hertslet No. 143, tarih okunamadı).",
+     t=G3)
+dyok("d1815-ah-ru", [HA, RU], G4, [23.9, 48.55, 26.45, 51.05], degis(True, None, "1918"), dy("hertslet1", "hertslet2"), None,
+     "G4. Galiçya-Volhinya/Podolya (Bug-Zbruç-Dinyester); Tarnopol 1815'te Avusturya'ya döndü (md. V).", t=G3)
+dyok("d1812-ah-ru-bukovina", [HA, RU], "1812-06-23", [25.9, 48.15, 26.4, 48.5], degis(True, None, "1918"), dy("noradounghian", "hertslet2"), None,
+     "G5-G4. Besarabya 1812'de Rusya'ya geçince Bukovina-Besarabya hattı doğdu (Dinyester-Prut arası; Radziwiłłów antlaşması, Hertslet No. 143).", t=G3)
+yokp("d1830-hm-sr-tuna", [SRB_W], HM, [19.1, 44.4, 22.7, 45.2], "1830-10-17", G3, dy("tdv_sirbistan", "hertslet2"),
+     "G4. Sırbistan'ın özerkliği (TDV: ferman 1830-10-17; atlas maddesi 1830-11-08 — ÇELİŞKİ). Öncesi Avusturya-Osmanlı (D1). "
+     "1815-1878 arasında Avusturya-Sırbistan hattının değiştiğine dair belge bulunamadı (Hertslet dizininde yok — kanıt yokluğu).")
+dyok("d1820-ah-mn-dalmacya", [HA, MN], "1820-11-23", [18.4, 42.0, 19.15, 42.55], degis(True, "CANU", "1878 Spiça; 1945 Boka Karadağ'a"), dy("canu_mn_at"),
+     {"t": "1841-07-18", "not": "Krivošije, Boka, Paštrovići kesimleri"},
+     "G4. Avusturya-Karadağ sınır antlaşması 1820-11-23; Maine (1837) ve Stanjevići (1839) manastırları Avusturya'ya satıldı; sınır belirleme antlaşması 1841-07-18 (CANU). "
+     "1815-1820 arası hattın durumu BULUNAMADI. Hersek-Karadağ kesimi 1878'e kadar Osmanlı-Karadağ (D1).", t=G3)
+
 
 # Finlandiya fiilî hattı G2'ye uzar: Sovyet tanıması 1918-01-04 (◐; belgede sınır tarifi YOK)
 for k in KAYIT:
@@ -1067,6 +1300,81 @@ KRON += [
       "hat Hersek sınırından Beyaz Drin'deki Arnavutluk üçlü noktasına uzanıyordu. Gün ikincil yayına dayanır (30 Ekim eski takvim).",
       ["sr_mn_1913", "canu"], "E", "d1913-sr-mn"),
 ]
+# ---- G4-G7 maddeleri — YALNIZ atlasta EKSİK olanlar (denetim/ARAC-D3ORTA-KRON-VAR/YIL-0917.js ile tarandı)
+# Var olduğu için YAZILMAYANLAR: Viyana 1815-06-09 (6 madde) · Paris 1856-03-30 · Bükreş 1812-05-28 · Cuza 1859-01-24 · 1871-01-18 ·
+# Bukovina 1775 · 2. paylaşma 1793-01-23 · 3. paylaşma 1795-10-24 · Yaş 1792 · Tilsit 1807 · Pasarofça · Belgrad 1739 · Berlin 1742 ·
+# Dresden 1745 · Hubertusburg · 1. paylaşma 1772-08-05 · Szatmár 1711 · Prusya 1701 · Deulino · Polanów 1634 · Andrusovo · Pereyaslav ·
+# Wehlau · Oliwa · Nikolsburg · Sırbistan özerkliği 1830.
+KRON += [
+    m("1645-12-16", ER, [ER, HM], "Linz Barışı: I. Rákóczi György yedi Macar kontluğunu aldı", "antlasma", 3, 2, [48.306, 14.286],
+      "Otuz Yıl Savaşları sırasında Habsburglara karşı savaşan Erdel prensi I. György Rákóczi, Linz Barışı ile Macaristan'ın kuzeydoğusundaki yedi kontluğu kendi idaresine aldı. "
+      "Aynı kontluklar 1621 Nikolsburg Barışı'nda da Gábor Bethlen'e verilmişti. Kontlukların Habsburg'a geri dönüş günleri bu çalışmada bulunamadı.",
+      ["eb_hungary"], "E", "d1606-hm-er"),
+    m("1686-05-16", LH, [LH, RU], "Ebedî Barış: Polonya Kiev'i ve sol yaka Ukrayna'yı Rusya'ya bıraktı", "antlasma", 5, 4, "Moskova",
+      "Moskova'da imzalanan Ebedî Barış (Grzymułtowski Barışı), Andrusovo mütarekesinin geçici düzenini kalıcılaştırdı: sol yaka Ukrayna, Kiev ve Zaporojye Rusya'ya bırakıldı, "
+      "Bratslav bölgesi ıssız bir tarafsız kuşak sayıldı. Polonya ayrıca Osmanlı'ya karşı Kutsal İttifak'a katılan Rusya'dan tazminat aldı. İmza günü kaynaklarda 16 Mayıs "
+      "(Encyclopedia of Ukraine) ve 1 Mayıs (Sejm Kançılaryası) olarak farklı geçer; Polonya meclisi barışı ancak 1710'da onayladı.",
+      ["ieu_eternal", "sejm_1710"], "E", "d1686-lh-ru"),
+    m("1742-06-11", PR, [PR, HA], "Breslau ön barışı: Silezya Prusya'ya bırakıldı", "antlasma", 4, 3, "Berlin",
+      "Birinci Silezya Savaşı'nda Avusturya, Breslau ön barışıyla Troppau, Teschen ve Jägerndorf bölgeleri dışında Silezya'nın tamamını Prusya'ya bıraktı. "
+      "Kesin antlaşma 28 Temmuz 1742'de Berlin'de imzalandı.",
+      ["eb_silesia", "ddb_1742"], "E", "d1742-alm-ah-silezya"),
+    m("1773-09-30", LH, [LH, RU, PR, HA], "Polonya meclisi birinci paylaşmayı onayladı", "antlasma", 5, 4, "Varşova",
+      "Rusya, Prusya ve Avusturya'nın 5 Ağustos 1772'de anlaştığı birinci paylaşma, Varşova'da toplanan olağanüstü meclisin 30 Eylül 1773 onayıyla hukuken tamamlandı. "
+      "Rusya Dvina-Dinyeper hattının doğusunu, Prusya Kraliyet Prusyası'nı (Danzig ve Thorn hariç), Avusturya Galiçya'yı aldı. "
+      "Devir antlaşmalarının 18 Eylül 1773'te imzalandığı bilgisi ikincil kaynaklıdır.",
+      ["eb_partitions"], "E", "d1773-lh-ru"),
+    m("1776-07-04", HA, [HA, BG], "Bukovina sınır senedi imzalandı", "diplomasi", 3, 1, "Çernovitz (Çernivtsi)",
+      "1775 İstanbul sözleşmesiyle Avusturya'ya bırakılan Bukovina'nın Boğdan ile sınırı, 12 Mayıs 1776 açıklayıcı sözleşmesinin ardından Palamutka'da imzalanan tahdit senediyle işaretlendi. "
+      "Senedin günü Noradounghian'ın derlemesinin dizininden alınmıştır; bazı kaynaklar 2 Temmuz der.",
+      ["noradounghian"], "E", "d1775-ah-bukovina"),
+    m("1779-01-01", HA, [HA, A], "Teschen Barışı: Innviertel Avusturya'ya geçti", "antlasma", 3, 3, "Münih",
+      "Bavyera Veraset Savaşı'nı bitiren Teschen Barışı ile Bavyera'nın Inn nehrinin doğusundaki toprakları (Innviertel) Yukarı Avusturya'ya katıldı. "
+      "Barış Mayıs 1779'da imzalandı; gün bu çalışmada kabul edilebilir bir kaynakta doğrulanamadı.",
+      ["eb_teschen"], "E", "d1606-alm-ah-bavyera"),
+    m("1797-01-26", RU, [RU, PR, HA], "Üçüncü paylaşmanın kesin düzenlemesi", "antlasma", 4, 3, "Varşova",
+      "1795 Ekim'inde anlaşılan üçüncü paylaşma 26 Ocak 1797'de kesinleşti ve Polonya-Litvanya devleti haritadan tamamen silindi. "
+      "Rusya Kurland'ı ve Neman'ın doğusunu, Prusya Varşova dahil Mazovya'yı ve Neman'ın batısını, Avusturya Kraków'dan Bug'a uzanan bölgeyi aldı.",
+      ["eb_partitions"], "E", "d1795-pr-ru"),
+    m("1805-12-26", A, [A, HA], "Pressburg Barışı: Tirol ve Vorarlberg Bavyera'ya", "antlasma", 4, 4, "Bratislava",
+      "Austerlitz yenilgisinin ardından Avusturya, Pressburg Barışı ile Tirol ve Vorarlberg'i Napolyon'un müttefiki Bavyera'ya bıraktı.",
+      ["eb_napoleon"], "E", "d1606-alm-ah-bavyera"),
+    m("1809-10-14", HA, [HA, VR, RU], "Schönbrunn Barışı: Batı Galiçya Varşova Dukalığı'na, Tarnopol Rusya'ya", "antlasma", 4, 4, "Viyana",
+      "Wagram yenilgisinden sonra Avusturya, Kraków ve Lublin dahil Batı Galiçya'yı Varşova Büyük Dukalığı'na, Doğu Galiçya'nın Tarnopol kesimini Rusya'ya bıraktı. "
+      "Salzburg, Berchtesgaden ve Innviertel ise Bavyera'ya geçti.",
+      ["eb_napoleon"], "E", "d1809-ah-vr"),
+    m("1814-06-03", HA, [HA, A], "Paris antlaşması: Tirol Avusturya'ya döndü", "antlasma", 3, 2, "Paris",
+      "Napolyon'un yenilgisinin ardından Avusturya ile Bavyera arasında imzalanan antlaşmayla Tirol (Vils ve Kufstein hariç) ve Vorarlberg iki hafta içinde Avusturya'ya iade edildi; "
+      "devir Haziran 1814 sonunda tamamlandı.",
+      ["stauber"], "E", "d1606-alm-ah-bavyera"),
+    m("1816-04-14", HA, [HA, A], "Münih Antlaşması: Salzburg Avusturya'ya döndü", "antlasma", 4, 3, "Münih",
+      "Bavyera, Münih Antlaşması ile Innviertel'i, Hausruckviertel'in bir kısmını ve Salzburg'u Avusturya'ya iade etti; Salzach ve Saalach'ın sol yakasındaki Rupertiwinkel Bavyera'da kaldı. "
+      "Karşılıklı teslim 1 Mayıs 1816'da yapıldı. Bugünkü Avusturya-Almanya sınırının Salzburg kesimi bu antlaşmaya dayanır.",
+      ["hertslet1", "stauber"], "E", "d1816-alm-ah"),
+    m("1817-11-11", PR, [PR, KP], "Prusya-Rusya sınır antlaşması: Poznan-Kongre Polonyası hattı", "antlasma", 3, 1, "Varşova",
+      "Berlin'de imzalanan sınır antlaşması, Viyana Nihai Senedi'nin Poznan Büyük Dukalığı hattını uygularken çıkan güçlükleri giderdi ve bir icra komisyonu kurdu. "
+      "Silezya kesimi 1835 kesin antlaşması ve 1836 Tarnowitz tahdit senediyle tamamlandı.",
+      ["hertslet1", "hertslet2"], "E", "d1815-alm-kp"),
+    m("1820-11-23", MN, [MN, HA], "Avusturya-Karadağ sınır antlaşması", "antlasma", 3, 1, "Cetinje",
+      "Karadağ ile Avusturya Dalmaçyası arasındaki sınır ilk kez bir antlaşmayla belirlendi. Sınırın Krivošije, Boka ve Paštrovići kesimleri 18 Temmuz 1841 antlaşmasıyla ayrıntılı olarak çizildi.",
+      ["canu_mn_at"], "E", "d1820-ah-mn-dalmacya"),
+    m("1844-01-30", HA, [HA, A], "Avusturya-Bavyera Tirol-Vorarlberg sınır antlaşması", "antlasma", 2, 1, "Münih",
+      "Münih'te imzalanan antlaşmayla Avusturya Spielmannsau ve çevresindeki mezralardan, Bavyera Pfronten üzerindeki taleplerinden vazgeçti; Jungholz Avusturya'da kaldı. "
+      "Bu antlaşma ve 1850 ek antlaşması 2001'de yerini yeni bir sınır antlaşmasına bıraktı.",
+      ["hertslet2", "parl_at"], "E", "d1844-alm-ah"),
+    m("1846-11-11", HA, [HA, KP, PR], "Avusturya Kraków Serbest Şehri'ni ilhak etti", "toprak-kazanc", 4, 3, "Krakov",
+      "1815'te kurulan Kraków Serbest Şehri'nin statüsü, Avusturya, Prusya ve Rusya'nın 6 Kasım 1846 sözleşmesiyle kaldırıldı; Avusturya 11 Kasım'da ilhakı ilan etti. "
+      "İngiltere ve Fransa ilhakı protesto etti. Fiilî teslim gününe dair kabul edilebilir bir kaynak bulunamadı.",
+      ["hertslet2"], "E", "d1815-ah-kp"),
+    m("1848-03-05", HA, [HA, A], "Avusturya-Saksonya sınır antlaşması: Rumburg bölgeleri", "antlasma", 2, 1, "Dresden",
+      "Dresden'de imzalanan antlaşmayla Avusturya, Rumburg'a bağlı dört bölgeyi ve Schirgiswalde yerleşim adacığını Saksonya'ya bıraktı; devir altı hafta içinde yapılacaktı.",
+      ["hertslet2"], "E", "d1606-alm-ah-bohemya-2"),
+    m("1857-04-11", RU, [RU, BG], "Kişinev nihai senedi: Güney Besarabya sınırı işaretlendi", "diplomasi", 3, 2, "Bender",
+      "1856 Paris Antlaşması'nın Güney Besarabya'yı Boğdan'a bırakan 20. maddesi uyarınca kurulan komisyon, yeni hattı toprak konilerle işaretleyip Kişinev'de nihai senedi imzaladı. "
+      "Bolgrad Boğdan'a, Komrat Rusya'ya kaldı. Senet 19 Haziran 1857 Paris antlaşmasıyla teyit edildi.",
+      ["hertslet2", "ibs43"], "E", "d1856-bes-guney"),
+]
+
 ids = [k["id"] for k in KAYIT]
 for x in KRON:
     assert any(i == x["sinir_id"] or i.startswith(x["sinir_id"] + "-") or i.startswith(x["sinir_id"]) for i in ids), x["sinir_id"]
@@ -1074,7 +1382,7 @@ for x in KRON:
 KRON.sort(key=lambda x: (x["t"], x["b"]))
 with open(KRON_CIKTI, "w", encoding="utf-8", newline="\n") as f:
     f.write("""// -*- coding: utf-8 -*-
-// data/kronoloji_sinir_avrupa_orta.js — SINIR KRONOLOJİSİ · ORTA/DOĞU AVRUPA · 1878-07-13 → 1923-10-29 (G1 + G2 + G3)
+// data/kronoloji_sinir_avrupa_orta.js — SINIR KRONOLOJİSİ · ORTA/DOĞU AVRUPA · 1606-11-11 → 1923-10-29 (G1-G7)
 // window.KRONOLOJI_SINIR_AVRUPA_ORTA — D3-AVRUPA-ORTA · 16 Eylül 2026 · 🔴 ELLE DÜZENLEME
 // Üretici: denetim/ARAC-D3ORTA-URET-0916.py (hat kayıtlarıyla AYNI betik — `sinir_id` data/d_sinirlar_avrupa_orta.js'e bağlanır)
 // Şema: oturumlar/KRONOLOJI-SARTNAME.md §3 + `taraflar` (ilgili devletler) · `sinif` (E hukukî / D fiilî) · `sinir_id` (kayıt öneki)
