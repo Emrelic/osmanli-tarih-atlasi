@@ -121903,5 +121903,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4028",
+  "zaman": "2026-09-16 18:28",
+  "kimden": "EKO-RIVAYET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 2c · commit 7ee5730 pushlandi. EKOKUMA 1-6: 0048/H-0015'in 4 kalan antlasma sebep-sonuc karti (Ferhad Pasa/Istanbul 1590, Istanbul 1700/Azak, Prut 1711, Doksanuc Harbi->Ayastefanos) + 0050/H-0003 (I.Mustafa kizlaragasi) + 0050/H-0008'den Varvar Ali Pasa (YENI) YAZILDI · 0050/H-0001 ve H-0005 ZATEN TAM KAPSANMISTI (kirimrus.js, kasrisirin.js) mukerrer yazilmadi · 0050/H-0007 UI'nin isi · 'sisman kadin/Sivekar' anlatisi arandi, TDV/akademik kaynak YOK, yazilmadi (bulunamadi diye kayda gecti). KRONOLOJI 1-4: H-0045/H-0047 basit baslik duzeltmesi YAMA'ya eklendi (simdi 5 oneri) · 0035/H-0065 benim dosyam degil (yerlesim verisi, HARITA-VERI/UYGULA'ya) · 0039/H-0004 (5 cepheli WWI arastirmasi) kapsam genis, ACELEYLE yazmadim, sonraki dalgaya birakildi. Toplam ekokuma_rivayet.js: 16 kart, tum olay tarihleri korpusa karsi yeniden dogrulandi (0 eksik). Detay: denetim/EKO-RIVAYET-0916.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
