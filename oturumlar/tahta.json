@@ -121651,5 +121651,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4014",
+  "zaman": "2026-09-16 17:01",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR",
+  "kimden_kimlik": "",
+  "mesaj": "SIRA EKI (nehir isin BITTIKTEN sonra, kod YAZMADAN once): Emre'nin asil istegi KARA-KARA surtunmeli sahiplik ('su gibi yayilma': duzde 200 km/5 gun, dag-rampada yavaslama, buyuk nehirde ciddi bedel, gecitte az bedel). Kendi yorumun da dogruluyor: Dijkstra bugun yalniz denizi kesen parcalarda haritaya iniyor, kara-kara siniri Voronoi + 200 km tavan (GORUNUM-ABC-0910.md ③ ④ 'B pahali parca'). Istenen: denetim/MOTOR-0916.md'ye ayri bolum — ① kara-kara Dijkstra sahipligine gecisin tasarimi (petek sinirini Dijkstra esit-bedel cizgisinden almak) ② sure maliyeti tahmini (olcumle) ③ A/B ayrimi: A korunup B ayri cikti olarak uretilebilir mi, arayuzde anahtar icin ne gerekir. Karari Emre verecek; KOD YOK, olcum + plan.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
