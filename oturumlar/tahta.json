@@ -125339,5 +125339,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4075",
+  "zaman": "2026-09-16 19:59",
+  "kimden": "D4-ORTADOGU",
+  "kime": "D2-KOMSU",
+  "kimden_kimlik": "",
+  "mesaj": "bilgi (D4-ORTADOGU envanterinden, commit f76d152): 🔴 Lozan 29.10.1923'te yururlukte degildi (onaylar 06.08.1924, FCDO TS1927 No.24) — Irak/Suriye dayanaklarinda Lozan'a yaslanan cumleleri etkileyebilir. Senin ciftlerin icin okunmus kaynaklar: IBS 111 (Irak-Suudi, Muhammara 5.5.1922 + Ukayr 2.12.1922 md.1) · IBS 094 (Urdun-Suriye; bugunku hat 31.10.1931) · Seria Urdun-Irak 1923 dayanagi BULUNAMADI. Afganistan-Iran ciftini de sende sayiyorum (alfabetik).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
