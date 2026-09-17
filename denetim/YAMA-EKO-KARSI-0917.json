@@ -1,0 +1,24 @@
+{
+  "yama": "YAMA-EKO-KARSI-0917",
+  "yazan": "EKO-KARSI (OPUS HAZIR KITA 1014)",
+  "tarih": "2026-09-17",
+  "sartname": "oturumlar/DALGA-0067.md · H-0007",
+  "uygulayan": "1.MURAT (data/olaylar*.js koordinatorde)",
+  "gerekce": "data/ekokuma_karsi.js icindeki 'karsi-karansebes-1788' karti bu gune baglaniyor; kronolojide 1788 Eylul'unde Avusturya cephesine ait madde YOK (olculdu: 1788'in 14 maddesi arasinda Sebes/Mehadiye/Banat gecmiyor). Madde inmeden kart yalniz 1788-02-09 acilis maddesinden gorunur.",
+  "kronoloji_onerisi": [
+    {
+      "t": "1788-09-21",
+      "b": "Sebes (Karansebes) muharebesi — Avusturya ordusunun gece cekilisi ve Sebes'in alinmasi",
+      "metin": "Vidin Seraskeri Kethuda Hasan Pasa kumandasindaki Osmanli kuvvetleri, II. Joseph'in ordusunu Mehadiye'den sonra Sebes'te (Karansebes) de yendi. Serdariekrem cadirindaki mesverette dusman karargahina saldiri karari alindi; gece hazirliklar surerken Avusturya birliklerinin mevzilerini terk edip Sebes kasabasina cekildikleri goruldu. Takip eden Osmanli kuvvetleri onlari kasabada sikistirdi; cikan yanginda cok sayida asker oldu, kurtulanlar yedi saat uzaktaki Logos'a (Lugoj) sigindi, binden fazla kisi esir alindi. Avusturya ordusunun kendi sefer gunlugu ayni geceyi bir panik ve kendi atesi olarak kaydeder; iki tarafin anlatisinin karsilastirmasi icin ek okuma: karsi-karansebes-1788.",
+      "kaynak": "Ummugulsum Filiz Bayram, 'Eflak ve Bogdan Voyvodaliklarinin 1787-1792 Osmanli-Rus ve Avusturya Savaslarindaki Rolleri', MUTAD X/1 (2023), s. 11 — Enveri Tarihi III, s. 472 ve Tarih-i Cevdet'ten; TDV hasan-pasa-kethuda ve yusuf-pasa-koca (muharebeler icin AY hassasiyeti: Agustos-Eylul 1788)",
+      "kesinlik": "kesin",
+      "hassasiyet_notu": "GUN yalniz hakemli makaleden (Enveri'ye dayali): 21 Eylul 1788. TDV gun VERMIYOR. Avusturya arsivi ayni olayi 20/21 Eylul gecesi diye kaydeder — ayni gece. Gun kabul edilmezse t:'1788-09-01' + metinde 'Eylul 1788' yazilabilir.",
+      "degismez_2_notu": "Bu madde bir HARITA KIRILMASI dogurmaz: kaynaklar Sebes ve Lugoj'un Osmanli tasarrufuna GECTIGINI soylemiyor (sehir alindi, yakildi, 10 Ekim 1788'de terk edildi). Yerlesim donemi ONERILMEDI."
+    }
+  ],
+  "bulgu_nokta_boslugu": {
+    "olcum": "Banat kutusunda (45,0-46,5 K / 20,5-22,5 D) atlasta 2 yerlesim noktasi var: Temesvar (45,76 / 21,23) ve Yanova (46,426 / 21,741). Karansebes (~45,42 / 22,22) ve Lugoj (~45,69 / 21,90) noktasi YOK.",
+    "sonuc": "Bu bir kusur BEYANI degil, bir OLCUMDUR: 1788 harekatinin gectigi hat noktasiz. CLAUDE.md §2 geregi noktasiz bolge en yakin petege emilir. Nokta yazmak EKO-KARSI'nin isi degil — nokta oturumuna sevk edilebilir.",
+    "uyari": "Nokta eklenirse sahiplik donemleri kaynakla yazilmali: 1788'de bu iki yerin Osmanli tasarrufuna gectigine dair kaynak BULUNAMADI (sehir gecici olarak alindi ve terk edildi)."
+  }
+}
