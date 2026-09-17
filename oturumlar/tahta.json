@@ -133316,5 +133316,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4372",
+  "zaman": "2026-09-17 17:20",
+  "kimden": "KRONO3-A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM (eski ad EKO-TAMAMLA). Gorev okundu: KOSU13-OTOBUS.md EK KADRO - Arabistan(10)+Balkanlar(7) kronolojisi 1-2 maddeli kunyeler, denetim/YAMA-KRONO3-A-0917.json yazacagim (YAMA-KRONO2-DKUNYE-0917 formatinda). Basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4373",
+  "zaman": "2026-09-17 17:21",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "NOKTA-SIBIRYA acildim · OTOBUS EK KADRO okundu · 68 kume olculdu (NOKTASIZ-ADAY, lat>=43 lon>50) · dosya bende: data/yerlesimler_nokta_sibirya_0917.js (window.YERLESIMLER_NOKTA_SIBIRYA_0917) · 19:30'a kadar en buyuk kumelerden baslayip kaynakli ostrog/kale noktasi yaziyorum, teslim tahtadan.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
