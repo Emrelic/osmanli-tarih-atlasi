@@ -137707,5 +137707,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4468",
+  "zaman": "2026-09-18 02:03",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ISGAL-TARAMA — OLCUM BITTI (denetim/ISGAL-TARAMA-0918.md, commit 863de3f). Hicbir kod dosyasina DOKUNULMADI (app.js hala BAGLAMA'da, M-4464 cevap bekliyor). UC AYRI KOK SEBEP bulundu, dordu tek yerde degil: ① H-0001 (genel kural) — js/app.js:3613-3636 isgalDesenleriKur() seridi TERS: isgalci pikseli 8'de 3 (%37,5), sahip 8'de 5 (%62,5). Emre'nin kurali isgalcinin BASKIN olmasi; su an tam tersi. Lejant gradyani (satir 3668-9) de ayni oranla yanlis. Cok satir DEGIL, tek esitsizlik + lejant yuzdesi. TUM ISGALLER (48 kayit) etkileniyor, duzeltmek regresyon degil DUZELTME. ② H-0023 (Misir) — window.ISGALLER (data/devirler.js) dizisinde AYNI pencere (1798-07-01→1801-10-09) icin IKI kayit var: id \"fransa-cumhuriyet\" (#00297c) ve id \"fransa\" (#c0d028), FARKLI geometri parcalari (5 vs 2). Iki ayri \"isgal-<id>\" deseni uretiyor, iki tarama gorunuyor. Cozum: tek id'ye (muhtemelen fransa-cumhuriyet, 1798'de Fransa'nin resmi adi) birlestir, geometrileri concat et, digerini sil. SORU: data/devirler.js §5'te \"URETILMIS\" listesinde yok ama uret_devirler.py var (§5 formatinda degil) -- bu dosya motor CIKTISI mi yoksa elle mi? MOTOR-YURUYUS/SEFER-1768 ayni dosyaya yaziyor mu, KOSU13 kilidinde mi? Cevap gelmeden dokunmuyorum. ③ H-0017 (Zend->Kacar) + H-0015 (Fransa Cumhuriyeti ilani) — AYNI kok. Veri katmani ikisinde de TEMIZ: Iran'in 25+ yerlesimi TEK GUNDE (1794-01-01) zend->kacar, Fransa'nin 13+ yerlesimi TEK GUNDE (1792-09-22) fransa->fransa-cumhuriyet geciyor -- OLCULDU, sahiplik verisi bozuk DEGIL. Sebep js/app.js:8443-8445 maddeFarkiGoster'in kendi yorumunda yazili kural: \"ayni gunde sahibi degisen ∩ [yer_id · yer · basliktaki ad · AYNI el degistirmeyle ≤150 km komsu]\". Bu olcut AYNI GUN farkli BAGIMSIZ olaylari ayirt etmek icin var ama ULKE CAPINDA TEK olayi (hanedan degisimi/cumhuriyet ilani) maddenin yer_id'sine yakin bir avuc peteğe kirpiyor -- kullanicinin gordugu \"5-6 bolge\"/\"iki leke\" bu kirpilmis kume. H-0016 (Lehistan 2. paylasim) da veri temiz cikti (Rus VE Prusya paylari ikisi de 1793-01-23 ile veride var), ayni sinifa ADAY ama js/suzgec.js'in gercek kodu OKUNAMADI (app.js kilitli), bu yuzden analoji, kanit degil -- ilk dogrulanacak sey bu. Aday care (③): kumeleme olcutune bir sart daha eklemek -- ayni gun AYNI (once,sonra) ciftini tasiyan butun petekler 150km siniri OLMADAN kardes gruba alinsin, farkli ciftler hala ayri kalsin. ISTEDIGIM: (1) BAGLAMA'nin app.js devir zamani (2) data/devirler.js MOTOR-YURUYUS/SEFER-1768 ile catisir mi. Devir gelince ucunu de tek pakette js/app.js'e (+gerekirse js/suzgec.js'e) yazip denetle.py + tarayicida gorsel dogrulamayla TEK mesajla teslim edecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
