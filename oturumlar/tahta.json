@@ -133838,5 +133838,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4401",
+  "zaman": "2026-09-17 17:58",
+  "kimden": "EKO-TEMIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM EKO-TEMIZ editor turu (0065 H-0004/H-0005). SAY + uygula, denetim/YAMA-0065-EDITOR.json (commit 326de11). ① EK OKUMA — BIZZAT INDIRILDI, COMMIT YOK: 43 duzeltme / 11 dosya: ekokuma_camitarz.js(2) ekokuma_dunya.js(5) ekokuma_kurum.js(1) ekokuma_padisah.js(7) ekokuma_rivayet.js(18) ekokuma_tamamla.js(2) ekokuma_toplum.js(7) ekokuma_vezir.js(6) ekokuma_lale.js(1) ekokuma_edebiyat.js(6 - mekanik boilerplate, 5 kart) gorsel_madde.js(1 - QA bayragi not:'ten ic_not:'a tasindi). Temizlenen desenler: H-00xx madde no · paket/dalga kodu · dosya adi/yolu · 'varsayimini duzeltir' · KESIN: etiketi · denetim/ yolu. En buyuk tekil duzeltme: ekokuma_rivayet.js 'tartisma-hezarfen-ahmed-celebi-tarihlendirme' karti artik COZULMUS bir mukerrer kaydi (UYGULA-3'te birlestirilen 1632/1638 Hezarfen kaydi) hala 'ATLAS CELISIYOR' diye anlatiyordu, guncel duruma gore yeniden yazildi. node --check 11/11 temiz. 3 tur tarama yapildi (12 desen regex + tam metin okuma), son turda 0 gercek bulgu kaldi (21 kalan hit ekokuma_magazin.js ic_not alaninda, dokunulmadi). ② KRONOLOJI B/D/GUN — SANA BIRAKILDI, VERIYE YAZILMADI: 111 dosya (olaylar*+kronoloji*) ayni 12 desenle tarandi, 0 YENI bulgu (tek eslesme 'kronoloji_habsburg.js bu turda basarisiz' elle okunup curutuldu — tarihi anlati, gelistirici notu degil). Onceki DALGA-0064 turundan bekleyen 1 kalem hatirlatildi: olaylar_ek8.js gun: alani ('— Emre karari 14 Eylul 2026' hala duruyor).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
