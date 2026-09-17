@@ -1,6 +1,45 @@
 # PROTOKOL-BUDAMA — 17 Eylül 2026 · Opus 1015 · koordinatör 1.MURAT
 
-Şartname: `oturumlar/KADRO-1010-1015.md` PROTOKOL-BUDAMA satırı.
+Şartname: `oturumlar/KADRO-1010-1015.md` PROTOKOL-BUDAMA satırı + 18 Eylül kapsam genişlemesi
+(Emre: "gereksiz ne varsa sadeleştir, token tasarrufu için ne gerekiyorsa yapalım").
+
+## 0. İKİNCİ TUR — 25 KB ve açılış listesi (18 Eylül)
+```
+CLAUDE.md   28.046 B -> 24.990 B   (hedef <=25.000)                       ✓
+KORUMA SINAVI tekrar: eksik 0 · kırık baglanti 0 · §1.5 regexi tutuyor     ✓
+```
+- **Açılış listesi değişti:** "AÇILIŞTA YALNIZ İKİ BELGE OKUNUR: CLAUDE.md + kendi şartnamen".
+  Belge setindeki "her oturumda" ibareleri kalktı; her belge "yalnız iş gerektirirse, adıyla
+  ve gerekli bölümüyle". Ölçülen tasarruf: 440 KB/oturum → ~25 KB + şartname.
+- **Çıkarılan tek şey:** §3'teki üç `node -e` tek satırlık denetim komutu (2.354 B). Gerçek
+  kapı `py arac/denetle.py`; üç komut `D202`de BİREBİR duruyor, yani kaybolmadı.
+- 🔴 **ALET TABANI SABİTLENDİ:** sınav eski metni `HEAD:CLAUDE.md`den okuyordu; 1.MURAT
+  28 KB'lik sürümü `5bc42ed` ile commit'leyince alet KENDİ ÇIKTISINI ölçmeye başladı ve
+  bütün işaretçiler "0 kez" çıktı. Taban artık `d2228e6` (budama öncesi son CLAUDE.md
+  commit'i), `--taban <ref>` ile değiştirilebilir. **Ders:** bir "önce/sonra" sınavının
+  ÖNCE'si `HEAD`e bağlanamaz — `HEAD` sınavın kendi sonucuyla birlikte kayar.
+- 🟡 §8 metnini sararken (satır sonlarını değiştirince) sınav "3 satır kayboldu" dedi ve
+  haklıydı: §8 dersler'e taşınmamıştı, birebir duruyordu. Geri alındı. **Taşınmamış bölümde
+  biçim değişikliği de içerik değişikliğidir.**
+
+## 0.1 OGRENILENLER.md ve YAPILACAKLAR.md — ÖLÇÜLDÜ, DOKUNULMADI
+```
+OGRENILENLER.md  199.328 B · 4228 satır · 183 baslik (§1..§N) · son commit 2026-09-03
+                 en buyuk tek bolum "### Kural" 18.625 B
+YAPILACAKLAR.md   57.890 B · 1022 satır ·  29 baslik ·  73 madde · son commit 2026-09-12
+                 "## Şimdi (harita ekseni)" TEK BASINA 25.069 B (%43)
+```
+**Önerim (uygulanmadı, hüküm 1.MURAT/Emre'de):**
+1. `OGRENILENLER.md` §11 emsaliyle budanır: 183 başlığın her biri `ogrenilenler/<kimlik>.md`e
+   BİREBİR taşınır, kökte yalnız slogan dizini kalır (~8-10 KB). Alet hazır: bu dizindeki
+   `ARAC-PROTOKOL-BUDAMA-0917.py` işaretçi listesi değiştirilerek koşar; koruma sınavı aynen
+   kullanılabilir. Tahminî kazanç **~190 KB**.
+2. `YAPILACAKLAR.md` ikiye ayrılır: kökte YALNIZ açık işler (~10 KB), kapanmış/anlatı kısmı
+   `arsiv/YAPILACAKLAR-KAPANMIS-0918.md`e. Kapanmış madde ayıklaması ölçülmeli — 73 maddenin
+   kaçının kapandığını SAYMADIM.
+3. İkisi de artık "her oturumda" değil (CLAUDE.md belge seti), yani bu iş token tasarrufunu
+   **ikinci kez** getirir: sadeleşme + okunmama.
+⚠️ İkisine de DOKUNMADIM (şartname yasakladı); yukarıdaki sayılar ölçümdür, tahmin değil.
 
 ## ① Ölçüm
 ```

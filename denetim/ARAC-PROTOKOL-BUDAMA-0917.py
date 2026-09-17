@@ -102,8 +102,15 @@ BLOK = [
 DIZIN_BAS = "## 11. Tekrarlanmaması"
 
 
+# 🔴 TABAN SABİTTİR: budama ÖNCESİ son CLAUDE.md commit'i. `HEAD` yazılırsa budama
+# commit'lendikten sonra alet KENDİ ÇIKTISINI ölçer ve sınav yalan söyler — 17 Eylül'de
+# tam bu oldu (1.MURAT 28 KB'lik sürümü 5bc42ed ile commit'ledi, işaretçiler kayboldu).
+TABAN = "d2228e6"
+
+
 def eski_metin():
-    b = subprocess.run(["git", "show", "HEAD:CLAUDE.md"], cwd=KOK,
+    ref = (sys.argv[sys.argv.index("--taban") + 1] if "--taban" in sys.argv else TABAN)
+    b = subprocess.run(["git", "show", f"{ref}:CLAUDE.md"], cwd=KOK,
                        capture_output=True, check=True).stdout
     return b.decode("utf-8").replace("\r\n", "\n")
 
@@ -199,14 +206,14 @@ def main():
                  if x.strip() and x.strip().replace("](dersler/", "](") not in havuz]
         b = len(yeni_claude.encode("utf-8"))
         print(f"\nKORUMA SINAVI · eski satır {sum(1 for x in sat if x.strip())} · eksik {len(eksik)}")
-        print(f"yeni CLAUDE.md {b} B · hedef ≤ 30000 B · {'✓' if b <= 30000 else '✗'}")
+        print(f"yeni CLAUDE.md {b} B · hedef ≤ 25000 B · {'✓' if b <= 25000 else '✗'}")
         for i, x in eksik[:40]:
             print(f"  ✗ {i}: {x[:100]}")
         # ters yön: yeni CLAUDE.md'deki her dersler/ bağlantısı gerçek bir dosyaya gitmeli
         kirik = [l for l in re.findall(r"\]\((dersler/[^)]+)\)", yeni_claude)
                  if not os.path.exists(os.path.join(KOK, l))]
         print(f"kırık dersler bağlantısı: {len(kirik)}", kirik[:10])
-        if eksik or kirik or b > 30000:
+        if eksik or kirik or b > 25000:
             sys.exit(2)
         print("🟢 SINAV GEÇTİ")
 
