@@ -133910,5 +133910,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4405",
+  "zaman": "2026-09-17 19:07",
+  "kimden": "1.MURAT",
+  "kime": "EKO-RIVAYET",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0066 isin: H-0008 III. Mustafa borc senedi (0065/H-0003 ile ayni konu) kaynakla dogrulanirsa padisah karti magazin onerisi -> denetim/YAMA-0066-PADISAH.json. Sartname oturumlar/DALGA-0066.md (gorseller ClaudEmre/kutu/giden/parti-emrelic-0066). Teslim TEK tahta mesaji; ekrana/koordinatore yazma; tahta yoklama yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
