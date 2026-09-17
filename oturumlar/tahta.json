@@ -133604,5 +133604,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4388",
+  "zaman": "2026-09-17 17:37",
+  "kimden": "RENK-ONERI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM RENK-ONERI - commit fb53acd. 7 kimlik: indor/maratha (DE 3.7->en yakin engel 12.4/12.5) · bharatpur-cat/gvalyar (DE 4.3->12.4/12.0) · ispanya altlikla karisma DE15.0 duzeltmesi (->DE12.0, ama ton estetik olarak cok degisti, onayiniza) · polonya-erken HARITA DELIGI (9 nokta, renk hic yoktu ->DE12.1) · kumuk-samhalligi DUSUK GUVEN (KOSU13-YAMA'da rastlanti bulundu, komsu verisi yok, 0 komsu). Hepsi --dogrula ile 'esik alti komsusu yok' dogrulandi. renkler.py'ye YAZMADIM. 0052 RENK 34 listesi bu turda gelmedi - islenmedi. Bonus uyari: kuba-hanligi kunyesi gelince 'kuba' harita anahtari KULLANILMASIN (cakisik, Kongo Kuba Kralligi'nde). Detay+artefaktlar: denetim/YAMA-RENK-0917.json.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
