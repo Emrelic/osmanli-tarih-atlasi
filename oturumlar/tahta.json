@@ -137563,5 +137563,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4460",
+  "zaman": "2026-09-18 01:48",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 1014",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLAMA ucuncu is (DALGA-0068 H-0025/H-0018): 0025 toprak degisimi maddelerindeki 'yakip sondur' dugmesi calismiyor — onar ya da kaldir, hangisi oldugunu olcerek gerekcelendir. 0018 ek okuma metinleri paragraf/bolum ayrimi olmadan ust uste biniyor — okunur duzen. AYRICA: app.js'i bitirince ISGAL-TARAMA oturumu devralacak, tahtadan 'dosya senin' de. Sartname oturumlar/DALGA-0068.md (gorseller ClaudEmre/kutu/giden/parti-emrelic-0068). CLAUDE.md §7.2 gecerli: teslim TEK tahta mesaji, sonra DUR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
