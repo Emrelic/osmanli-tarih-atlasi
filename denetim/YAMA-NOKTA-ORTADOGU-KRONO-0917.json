@@ -1,0 +1,39 @@
+{
+  "paket": "NOKTA-ARABISTAN (KOSU13-OTOBUS) — yeni nokta dosyasının kırılmalarına çekirdek kronoloji maddeleri",
+  "tarih": "2026-09-17",
+  "yazan": "D4-ORTADOGU",
+  "durum": "ONERI — çekirdek olaylar dosyası 1.MURAT'ın. data/yerlesimler_nokta_ortadogu_0917.js ile BİRLİKTE uygulanır.",
+  "olcum": "node denetim/ARAC-D4-NOKTA-KIRILMA-0917.js — 20 kırılma günü · çekirdekte ±30 gün maddesiz 6; ayrıca 6 gün ✓ görünüyor ama eşleşen madde İLGİSİZ (1450 Yergöğü · 1538 Mimar Sinan · 1659 Sâdî sonu · 1792 Yaş · 1840 Taka · 1919-05-26 Yunan Manisa) → kırılma yanlış maddenin altında belirir (CLAUDE.md §3 Değişmez 2'nin asıl kusuru).",
+  "maddeler": [
+    { "t": "1538-01-01", "k": "toprak-kazanc", "b": "Hadramut'un Osmanlı sancağı olması — iç idare Kesîrî reislerinde", "gun": "1538 (Hadım Süleyman Paşa seferi; gün bulunamadı)", "yer": "Hadramut", "yer_id": "Seyûn (Sayvan)",
+      "d": "Hadım Süleyman Paşa'nın Hint seferiyle Yemen kıyıları Osmanlı'ya bağlanırken Hadramut da bir sancak olarak Osmanlı idaresine girdi; ancak bölgenin iç kesiminde yönetim Kesîrî kabilesinin reislerinde kaldı. Kaynak yalnız yılı veriyor.",
+      "kaynak": "hadramut (TDV, gövde okundu: 'Hadramut içinde idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi')" },
+    { "t": "1659-01-01", "k": "savas", "b": "Zeydî imamı Mütevekkil-Alellah'ın Hadramut'u istilâsı", "gun": "1069 (1658-59); gün bulunamadı", "yer": "Hadramut", "yer_id": "Seyûn (Sayvan)",
+      "d": "Osmanlıların Yemen'den çekilmesinden sonra güçlenen Zeydî imamlığı, İmam Mütevekkil-Alellah döneminde Hadramut'a ordu gönderip bölgeyi istilâ etti; Kesîrîler Zeydî hâkimiyetini tanımak zorunda kaldı. Hicrî yıl 1658 ile 1659'a yayıldığından tarih yıl düzeyinde verildi.",
+      "kaynak": "hadramut (TDV, gövde okundu: '1069'da (1658-59) Zeydî imamı Mütevekkil-Alellah bir ordu gönderip Hadramut'u istilâ etti')" },
+    { "t": "1792-01-01", "k": "toprak-kazanc", "b": "Vehhâbî-Suûdî hâkimiyetinin Harc'a ulaşması", "gun": "1792'ye kadar (fethin kendi yılı bulunamadı)", "yer": "Harc (Necid)", "yer_id": "Dilem (Harc)",
+      "d": "Dir'iye merkezli ilk Suûdî Devleti, Riyad'ın alınmasının ardından Necid'in güneyine yayıldı ve 1792'ye gelindiğinde Harc bölgesine de hâkim olmuştu. Kaynaklar bu yayılmanın bittiği yılı veriyor; Harc'ın hangi yıl alındığı bulunamadı.",
+      "kaynak": "vehhabilik (TDV: 1792'ye kadar 'Riyad, Harc ve Kasîm'de hâkimiyet kurdular') · Al-Rasheed, A History of Saudi Arabia (CUP 2010): 'expanded into Riyadh, Kharj and Qasim by 1792'" },
+    { "t": "1801-01-01", "k": "toprak-kayip", "b": "Tâif çevresi kabilelerinin Vehhâbî nüfuzuna girmesi", "gun": "1801", "yer": "Tâif çevresi (Türabe, Hurma)", "yer_id": "Türabe",
+      "d": "Mekke Şerifliği'ne bağlı Tâif çevresindeki kabileler 1801'de Vehhâbî nüfuzuna girdi; bu, Suûdîlerin 1803'te Tâif'i ve ardından Mekke'yi almasının öncülüydü.",
+      "kaynak": "Lorimer, Gazetteer of the Persian Gulf, Oman and Central Arabia I (1915) s.1055 · taif (TDV: Vehhâbîler Tâif'i Şubat 1803'te aldı)" },
+    { "t": "1816-01-01", "k": "toprak-kayip", "b": "Mısır garnizonlarının güney Hicaz'daki Türabe, Bîşe ve Rânye'den çekilmesi", "gun": "1816", "yer": "Türabe, Bîşe, Rânye", "yer_id": "Türabe",
+      "d": "1815 Bisel zaferinin ardından güney Hicaz'a yerleşen Mısır (Kavalalı) garnizonları 1816'da Türabe, Bîşe ve Rânye'den geri çekildi. Dir'iye'nin düşüşüne (1818) kadar bölgeyi kimin yönettiği kaynakta bulunamadı.",
+      "kaynak": "Lorimer, Gazetteer I s.1080-1086" },
+    { "t": "1819-08-13", "k": "toprak-kayip", "b": "Mısır garnizonunun Necid'in güneyinden (Harc) çekilmesi", "gun": "13 Ağustos 1819", "yer": "Harc, Menfûha (Necid)", "yer_id": "Dilem (Harc)",
+      "d": "Dir'iye'nin yıkılmasından sonra Necid'de bırakılan Mısır garnizonu Harc'taki Süleymiye'den çekildi ve 13 Ağustos 1819'da Menfûha'ya ulaştı; Necid'in güneyi Mısır'ın tanıdığı kabile temsilcilerine bırakıldı. İkinci Suûdî Devleti 1824'te Riyad'da kurulana kadar bölgede merkezî bir otorite yoktu.",
+      "kaynak": "Lorimer, Gazetteer I s.1091-1092" },
+    { "t": "1838-01-01", "k": "savas", "b": "Hurşid Paşa'nın Necid'i işgali — ikinci Mısır dönemi", "gun": "1838 (gün bulunamadı)", "yer": "Harc (Süleymiye), Necid", "yer_id": "Dilem (Harc)",
+      "d": "Mehmed Ali Paşa'nın komutanı Hurşid Paşa Necid'e girip karargâhını Harc'taki Süleymiye'ye kurdu ve bütün Necid'de Mısır egemenliğini ilan etti. Mısır kuvvetleri 1840'ta Arabistan'dan çekilince bu dönem sona erdi.",
+      "kaynak": "Lorimer, Gazetteer I s.1099 · hicaz (TDV: Mısır idaresi 1840'a kadar)",
+      "uyari": "Atlasın Riyad, Dir'iye ve Şakrâ kayıtları 1838-1840'ı kesintisiz suud-ikinci gösteriyor — bu madde onlarla ÇELİŞİR; komşu kayıtların düzeltilmesi ayrı karar." },
+    { "t": "1919-05-26", "k": "savas", "b": "Türabe Savaşı — Abdülazîz b. Suûd'un İhvan kuvvetleri Şerif Hüseyin'in ordusunu yendi", "gun": "26 Mayıs 1919", "yer": "Türabe", "yer_id": "Türabe",
+      "d": "Hurma ve Türabe vahaları üzerindeki anlaşmazlıkta Şerif Hüseyin'in Hicaz kuvvetleri Türabe'de Suûdî kuvvetlerine yenildi. Tâif'in doğusundaki vahalar böylece Necid tarafına geçti.",
+      "kaynak": "abdulaziz-b-suud (TDV: '26 Mayıs 1919'da Şerif Hüseyin'in kuvvetlerini yendi') · Al-Rasheed 2010 s.42" }
+  ],
+  "madde_yazilamayan_kirilmalar": [
+    "1700-01-01 (Seyûn: Zeydî nüfuzunun zayıflaması) — kaynak 'XVIII. yy ilk yarısı' diyor; olay değil yarım yüzyıllık bir süreç. Madde uydurulmadı; kırılma 2s'de açık kalır.",
+    "1795-01-01 (Havta · Leylâ: Suûdî hâkimiyeti 'en geç') — bir olay günü değil, gerekçeli üst sınır. Kuyrukta 1795-01-01 'Abdülazîz b. Suûd Lahsa'yı alıp…' var; çekirdekte yok.",
+    "1450-01-01 (Kesîrî başlangıcı, künye yılı) · 1840-01-01 (Mısır'ın çekilişi) · 1891-01-24 (Reşîdî) — çekirdekte tesadüfen ±30 gün içinde ilgisiz madde var; kendi maddeleri yok. 1824-06-01 · 1902-01-15 · 1818-09-09 · 1916-06-10 · 1517-07-06 · 1635-10-22 · 1815-01-13 kendi maddelerine bağlı ✓."
+  ]
+}

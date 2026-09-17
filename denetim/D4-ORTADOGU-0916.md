@@ -438,3 +438,26 @@ G10 17 aday → 15 VAR · 2 'YOK' sorgu kusuruydu (dar aramada VAR: Karakoyunlu/
 **Hat kaydı: 0** — Amasya 1555 · Ferhat Paşa 1590 · (1639) metinleri kaba (C) ve geometri kaynağı yok; Osmanlı–İran hatları ilk dağıtımda D2-KOMSU'ndu.
 **🔴 Bulgu — Amasya günü:** atlas her yerde 1555-05-29; TDV (müstakil madde + suleyman-i) **1 Haziran 1555 (11 Receb 962)**. `yer_yama_kafkas.js` 29 Mayıs'ı
 bir kez "külliyatta böyle" diye yaymış (atlas kendine dayanmış). Öneri + etkilenen 15+ kayıt: `denetim/YAMA-D4-AMASYA-0917.json` — KARAR KOORDİNATÖRÜN.
+
+---
+
+## 20. NOKTA-ARABISTAN (KOSU13-OTOBUS, 17 Eylül) — noktasızlık dolgusu
+
+Aday kaynağı `denetim/NOKTASIZLIK-ADAY-0917.json`: bölgede 10 NOKTASIZ-ADAY kümesi (316.052 km²); 2'si bölge dışı (Multan–Bahâvelpûr → D5-ASYA · Uzboy–Üstyurt → Orta Asya).
+Çıktı `data/yerlesimler_nokta_ortadogu_0917.js` (`window.YERLESIMLER_NOKTA_ORTADOGU_0917`) — **6 nokta**, doğrulayıcı `denetim/ARAC-D4-NOKTA-DOGRULA-0917.js`:
+`node --check` temiz · **hata 0 · uyarı 8** (hepsi `bos:"devletsiz"` beyanlı kaynaklı boşluk) · 3 km içinde mevcut nokta yok (3858 nokta / 81 dosya).
+| küme | yazılan | yazılamayan (neden) |
+|---|---|---|
+| Necid içi 37 bin km² | Dilem (Harc) · Havta · Leylâ (Eflâc) | el-Hârik (yetişmedi) · Süleyyil (kaynak yok) |
+| Tâif çevresi 19,5 bin km² | Türabe · Hurma | Rânye (zincir kaynaksız) · Bîşe (Asîr künyesi yok) |
+| Hadramut 22,5 bin km² | Seyûn | Terîm (Âl-i Yemânî/Seyyid künyesiz) · Şibâm (TDV kendi içinde çelişik) |
+| Asîr–Yemen içi 67 bin km² | — | Mârib/Cevf (Me'rib Şerifliği 1640-1932 künyesiz) · Necrân (Mekârime künyesiz, akademik kaynak yok) · Beyhân/Harîb (kaynak yok) |
+| Hâş–Kandehar 59 bin km² | — | Kalat Hanlığı künyesi YOK (TDV `belucistan` dayanaklı künye önerisi: `kelat-hanligi`) |
+| Gazne–Kâbil 34 bin km² | — | Argun ve Bâbür'ün Kâbil'i (1504-1526) künyesiz; komşu Gazne günleri kaynaksız |
+| Abu Dabi içi 21 bin km² | — | Benî Yâs / Sahil şeyhlikleri künyesiz |
+| Figuig–Ağvât 16,5 bin km² | — | el-Beyyiz: 1852 öncesi zincir kaynaksız (ANOM yalnız 'poste créé en 1852') |
+🔴 **Seyûn 1281-1450 `yemen-zeydi` bir yanlış atıf YAKLAŞIKLAMASI** (kaynakta Resûlî/Tâhirî, künyeleri yok) — kaydın `neden`inde damgalı.
+🔴 **Atlas bulgusu:** Riyad/Dir'iye/Şakrâ 1838-1840 ikinci Mısır işgalini (Lorimer I/1099) göstermiyor; yeni noktalar bu dilimde komşularıyla çelişir.
+**Değişmez 2 öngörüsü** (`denetim/ARAC-D4-NOKTA-KIRILMA-0917.js`): 20 kırılma günü · 6'sı çekirdekte maddesiz · 6'sı İLGİSİZ maddeye denk geliyor →
+8 madde önerisi `denetim/YAMA-NOKTA-ORTADOGU-KRONO-0917.json`; 1700 ve 1795 olay değil sınır → madde yazılmadı.
+**Kotur/Hoy (K5):** Kotur için kaynak yok; Hoy'un mevcut 1724-09-28→1730-08-12 günleri atlastan seçilmiş; TDV `hoy` 1724 (yıl) ve kayıp **1739** — KOSU13-YAMA'ya M-4365.
