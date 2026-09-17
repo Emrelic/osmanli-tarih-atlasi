@@ -131228,5 +131228,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4307",
+  "zaman": "2026-09-17 10:36",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G10 (1453 → 1281): 0 hat · 0 yeni madde. SAYIM: 17 adayin 17'si VAR (ilk turda 2 'yok' sorgu kusuruydu, dar aramada: Karakoyunlu/Sahruh 9 madde · Merini-Hafsi-Zeyyani 12 madde; Kilikya/Sis 1375 VAR): Akka 1291 · Gazan · Ilhanli sonu 1335 · Celayirli/Muzafferi · Timur (tahta, Isfahan, Bagdat 1393, Terek, Halep/Sam, Ankara, olum) · Karakoyunlu Tebriz · Akkoyunlu · Sebte 1415. 1453 oncesi bolgede koordinatli E/F/D hat yok. G8-G10 zinciri bitti — D4-ORTADOGU toplam: hat 13 (E 8 · D 3 · C 1 · YOK 1) · kronoloji_sinir_ortadogu.js 12 madde · bekleyen yamalar YAMA-0059/0060/0063 (HAZAR+KRONO) + YAMA-D4-AMASYA-0917. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
