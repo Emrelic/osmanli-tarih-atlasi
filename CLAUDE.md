@@ -1906,6 +1906,9 @@ OTURUM SEÇİMİ  doğruluk > tasarruf > hız · doğruluktan hiçbir şey için
             Varsayılan TAZE oturum (her tur bütün bağlamı yeniden okur: maliyet ≈
             bağlam × tur). Tecrübeli/emekli oturum yalnız işin doğrudan devamıysa ve
             doğruluk kazancı varsa. Alakasız dolu işçiye iş VERİLMEZ.
+BEKLEME     ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kontrol
+            ediyorum" yazılmaz. Tek yol: Monitor + `arac/tahta_bekci.py --kim <AD>`
+            (mesaj yoksa sessiz, yalnız adına mesaj gelince uyandırır).
 ```
 
 🔴 **Bu bölüm 7 Ağustos 2026'da doğdu ve sebebi ölçülmüş bir kayıptır.**
