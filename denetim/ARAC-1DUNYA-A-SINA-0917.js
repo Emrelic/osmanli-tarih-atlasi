@@ -73,7 +73,7 @@ const gun = s => Math.round(Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slic
 const DUR = new Set(['ve', 'ile', 'bir', 'the', 'savaş', 'savaşı', 'ilan', 'etti', 'i.', 'dünya', 'savaşı\'na', '—', '-', 'antlaşması', 'imzalandı', 'başladı', 'muharebesi']);
 // ülke/halk kökleri ORTAK SÖZCÜK SAYILMAZ — "alman" her Alman maddesinde geçer (ilk koşuda 10 sahte şüphe)
 const ULKE = new Set(['alman', 'almanl', 'frans', 'ingil', 'brita', 'rusya', 'rusla', 'avust', 'macar', 'belçi', 'bulga',
-  'sırbi', 'sırpl', 'itaya', 'italy', 'roman', 'karad', 'yunan', 'portek', 'polon', 'merke', 'devle', 'itilâ', 'itila']);
+  'sırbi', 'sırpl', 'itaya', 'italy', 'roman', 'karad', 'yunan', 'portek', 'polon', 'sovye', 'ukray', 'letto', 'eston', 'litva', 'merke', 'devle', 'itilâ', 'itila']);
 const pad = s => String(s).replace(/^(\d{1,3})-/, (m, y) => y.padStart(4, '0') + '-');   // üç haneli yıl tuzağı (CLAUDE.md §3.5.0)
 const kel = s => new Set(String(s).toLocaleLowerCase('tr').replace(/[^\p{L}\p{N}\s]/gu, ' ').split(/\s+/).filter(w => w.length > 3 && !DUR.has(w)).map(w => w.slice(0, 5)).filter(w => !ULKE.has(w)));
 let hata = 0, supheli = 0, uyari = 0, eslenmeyen = {};

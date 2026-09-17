@@ -450,6 +450,81 @@ M = [
  "Belçika'da 21 Kasım 1918'de yeni hükümet kuruldu. "
  "Kral I. Albert ve Kraliçe Elisabeth Kasım 1918'de kurtarılan Belçika topraklarına döndü.",
  ve(TL, BEL), ["bati-cephesi"]),
+("1917-09-03", ["rusya-gecici-hukumet", "almanya"],
+ "Alman ordusu Riga'yı aldı", "isgal", 4, 3,
+ "Ludendorff, Rusya'yı savaştan çıkarmak için topçusunu kuzeye kaydırıp Riga'ya taarruz emri verdi; Almanlar 1 Eylül 1917'de yoğun gaz ve yüksek infilaklı mermi bombardımanıyla taarruza başladı. "
+ "General von Hutier'in 8. Ordusu iki gün sonra şehri aldı; saldırıyı öngören General Klembovski 12. Ordu'yu haftalar önce çekmiş, Riga'yı savunmak için yalnız küçük bir kuvvet bırakmıştı.",
+ EF, ["dogu-cephesi"]),
+# ───────────────────────── PARTİ 3 · 1919-1923 ─────────────────────────
+("1919-01-18", ["fransa-cumhuriyet", "ingiltere", "italya", "abd"],
+ "Paris Barış Konferansı toplandı", "diplomasi", 5, 5,
+ "TDV'ye göre Barış Konferansı 18 Ocak 1919'da Paris'te toplandı. "
+ "Konferansta Almanya, Avusturya, Bulgaristan, Macaristan ve Osmanlı Devleti ile ayrı ayrı barış antlaşmaları hazırlandı; TDV'ye göre galipler Türkiye dışındaki yenik devletlere ağır barış şartları kabul ettirdi.",
+ ve(TDV, TL), ["baris"]),
+("1919-04-28", ["fransa-cumhuriyet", "ingiltere", "italya", "abd"],
+ "Paris Barış Konferansı Milletler Cemiyeti Misakı'nı kabul etti", "diplomasi", 4, 5,
+ "Paris Barış Konferansı 28 Nisan 1919'da Milletler Cemiyeti'nin kuruluş belgesini onayladı.",
+ TL, ["baris"]),
+("1919-05-11", ["avusturya-cumhuriyet", "isvicre"],
+ "Vorarlberg'de İsviçre'ye katılma referandumu", "diplomasi", 2, 2,
+ "Avusturya'nın Vorarlberg eyaletinde 11 Mayıs 1919'da İsviçre Konfederasyonu'na katılma konusunda halkoylaması yapıldı.",
+ TL, ["baris"]),
+("1919-06-19", ["letonya", "estonya"],
+ "Cēsis Muharebesi", "savas", 3, 2,
+ "Litvanya, Letonya ve Estonya'nın bağımsızlık savaşları sırasında 19 Haziran 1919'da Cēsis Muharebesi yapıldı.",
+ TL, ["baltik-bagimsizlik"]),
+("1919-06-28", ["fransa-cumhuriyet", "italya", "abd", "belcika"],
+ "Versay Antlaşması imzalandı", "antlasma", 5, 5,
+ "Almanya Dışişleri Bakanı Hermann Müller 28 Haziran 1919'da Versay Antlaşması'nı imzaladı. "
+ "TDV'ye göre Belçika bu antlaşmayla bağımsızlığına yeniden kavuştu ve Almanya'dan Malmedy ile çevresini aldı. "
+ "(Almanya, İngiltere, eski Fransa ve Polonya künyelerinde bu olay zaten var.)",
+ ve(TDV, TL, "TDV İslâm Ansiklopedisi, «Belçika» — islamansiklopedisi.org.tr/belcika"), ["baris"]),
+("1919-07-12", ["almanya", "ingiltere"],
+ "Müttefiklerin Almanya'ya uyguladığı deniz ablukası kaldırıldı", "diplomasi", 3, 3,
+ "Müttefiklerin savaş boyunca Almanya'ya uyguladığı deniz ablukası 12 Temmuz 1919'da kaldırıldı.",
+ TL, ["baris"]),
+("1919-09-10", ["italya", "fransa-cumhuriyet", "ingiltere", "abd", "polonya", "romanya-kralligi"],
+ "Saint-Germain Antlaşması — Avusturya ile barış", "antlasma", 5, 4,
+ "TDV'ye göre 10 Eylül 1919'da Avusturya ile Saint-Germain Antlaşması imzalandı. "
+ "Antlaşma Bukovina'nın Romanya'nın parçası olduğunu uluslararası alanda tanıdı. "
+ "(Avusturya, Çekoslovakya ve SHS künyelerinde bu olay zaten var.)",
+ ve(TDV, TL, ROM), ["baris"]),
+("1919-11-27", ["bulgaristan-kralligi", "yunanistan", "yugoslavya", "romanya-kralligi", "fransa-cumhuriyet", "ingiltere", "italya"],
+ "Neuilly Antlaşması — Bulgaristan ile barış", "antlasma", 5, 4,
+ "TDV'ye göre 27 Kasım 1919'da Bulgaristan ile Neuilly Antlaşması imzalandı. "
+ "Yunanistan bu antlaşmayla Bulgaristan'dan Batı Trakya'yı aldı.",
+ ve(TDV, TL, EK + "Richard C. Hall, «Bulgaria» — encyclopedia.1914-1918-online.net/article/bulgaria/", GRE), ["baris"]),
+("1920-01-10", ["ingiltere", "italya"],
+ "Versay Antlaşması yürürlüğe girdi", "antlasma", 4, 4,
+ "Versay Antlaşması 10 Ocak 1920'de yürürlüğe girdi. "
+ "Ren bölgesindeki başlangıçta tamamen askerî olan işgal idaresinin yerini Müttefiklerin sivil idaresi olan Ren Bölgesi Müttefikler Arası Yüksek Komisyonu aldı. "
+ "(Almanya, Fransa Cumhuriyeti, Belçika, Polonya ve Çekoslovakya künyelerinde bu yürürlük sınır maddeleriyle zaten var.)",
+ ve(TL, EK + "«Occupation during and after the War (Germany)» — encyclopedia.1914-1918-online.net/article/occupation-during-and-after-the-war-germany/"), ["baris"]),
+("1920-04-25", ["polonya", "sovyet-rusya"],
+ "Polonya-Sovyet Savaşı", "savas", 4, 3,
+ "1914-1918-online zaman çizelgesi Polonya-Sovyet Savaşı'nı 25 Nisan 1920 tarihiyle veriyor. "
+ "Polonya açısından Dünya Savaşı, 18 Mart 1921 Riga Barışı'na kadar süren sınır mücadeleleriyle birlikte ele alınır.",
+ ve(TL, POL), ["polonya-sovyet-savasi"]),
+("1920-06-04", ["romanya-kralligi", "yugoslavya", "avusturya-cumhuriyet", "fransa-cumhuriyet", "ingiltere", "italya"],
+ "Trianon Antlaşması — Macaristan ile barış", "antlasma", 5, 4,
+ "TDV'ye göre 4 Haziran 1920'de Macaristan ile Trianon Antlaşması imzalandı. "
+ "Antlaşma Erdel, Crişana ve Maramureş'in ve Banat'ın üçte ikisinin Romanya ile birleşmesini tanıdı. "
+ "(Macaristan ve Çekoslovakya künyelerinde bu olay zaten var.)",
+ ve(TDV, TL, ROM), ["baris"]),
+("1920-11-15", ["isvicre", "fransa-cumhuriyet", "ingiltere", "italya"],
+ "Milletler Cemiyeti ilk kez Cenevre'de toplandı", "diplomasi", 4, 5,
+ "Milletler Cemiyeti Genel Kurulu 15 Kasım 1920'de Cenevre'de ilk toplantısını yaptı.",
+ TL, ["baris"]),
+("1921-03-18", ["sovyet-rusya"],
+ "Riga Antlaşması — Polonya-Sovyet Savaşı sona erdi", "antlasma", 5, 4,
+ "Polonya ile Sovyetler arasında 18 Mart 1921'de Riga Antlaşması imzalandı. "
+ "TDV'ye göre antlaşmayla Polonya'nın Batı Ukrayna üzerindeki hâkimiyeti tanındı. "
+ "(Polonya künyesinde bu olay zaten var.)",
+ ve(TL, POL, "TDV İslâm Ansiklopedisi, «Ukrayna» — islamansiklopedisi.org.tr/ukrayna"), ["polonya-sovyet-savasi", "baris"]),
+("1921-05-23", ["almanya"],
+ "Leipzig savaş suçları davaları başladı", "siyasi", 3, 3,
+ "Almanya'da savaş suçlarıyla itham edilenlerin yargılandığı Leipzig davaları 23 Mayıs 1921'de başladı.",
+ TL, ["baris"]),
 ]
 
 CELISKI = [
