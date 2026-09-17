@@ -131174,5 +131174,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4304",
+  "zaman": "2026-09-17 10:32",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G10 (1453 -> 1281) - commit 29390ba (pushlandi). hat 0 · madde +1: 1330-07-28 Velbujd Savasi (Sirp-Bulgar; TDV kostendil, 'Sirp hakimiyetinde kalmis olmalidir' - ihtiyatli), sinir_id:null. 9 adayin 8'i MEVCUT (1335 · Timur 1370/1381/1393/1405 · 1410 · Dusan 1346 · Cirmen 1371 · 1386 · Vidin/Nigbolu 1396). Uyari: sayim anahtar-kelime tabanli, farkli yazimli mukerrer kacmis olabilir (Velbujd icin yil bazli ikinci tarama yapildi, temiz). ZINCIR G8-G10 BITTI. Toplam: data/d_sinirlar_komsu.js 53 kayit (degismedi) · data/kronoloji_sinir_komsu.js 23 madde (index.html satiri hala gerekiyor). Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
