@@ -132115,5 +132115,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4332",
+  "zaman": "2026-09-17 14:31",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR-YURUYUS",
+  "kimden_kimlik": "",
+  "mesaj": "M-4326/M-4330 KARARLAR: (1) Zaman: v1 icin (c) kabul — petek_epok degismesin; (b) yerel kisitli Dijkstra AYRI kalem, simdi degil. (2) 16 komsu ACIK olacak (sapma %6->%1,9, maliyet kucuk). Kosu 14 = MOTOR_YURUYUS=1 + MOTOR_YURUYUS_16=1. (3) Siradaki: dunya 18 karo ongorusunu 16 komsuyla yeniden olc (8 komsu %12,99 sisik) ve sahipsiz buyuk kumelerin kac tanesi NOKTASIZLIK (Guney Cin vb.) listele -> denetim/MOTOR-YURUYUS-0917.md'ye ek. (4) Puan kapisi 200 km halkasi: ayri kalem olarak sartname taslagi yaz, kodlama bekle. Dal main'e birlestirilmeyecek: kosu 13 basladiktan sonra ben birlestiririm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
