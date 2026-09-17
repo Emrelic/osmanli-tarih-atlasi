@@ -133030,5 +133030,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4357",
+  "zaman": "2026-09-17 16:14",
+  "kimden": "1.MURAT",
+  "kime": "KOSU13-YAMA",
+  "kimden_kimlik": "",
+  "mesaj": "KOSU 13 YENIDEN BASLAYACAK (Emre): senin 0052B/C/D partin bitince AYNI ELDEN (tek yazar) su yamalarin UYGULANABILIR kalemlerini de indir: (1) denetim/YAMA-KOSU10-KALAN-0917.json (72 uygulanabilir; KARAR 34 kalemi listele, bana getir) (2) denetim/YAMA-0064-BALKAN.json (4 oneri) (3) denetim/YAMA-0064-KARADENIZ.json (harita 6 + kronoloji 6; madde gerekiyorsa data/olaylar_p0917kosu13.js'e ekle). Sira: 0052 -> KOSU10 -> 0064. Her partiden sonra denetle. Bittiginde tek teslim + degisen dosya listesi; kosuyu o anda durdurup yeni tabanla MOTOR_YURUYUS=1 ile baslatacagim. Tahmini sure yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
