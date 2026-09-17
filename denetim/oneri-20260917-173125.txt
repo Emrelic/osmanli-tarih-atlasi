@@ -1,0 +1,8 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260917-173125.txt
+indor #d28424
+maratha #1ed884
+bharatpur-cat #d82472
+gvalyar #2472d8
+ispanya #ea0cea
+polonya-erken #6cea0c

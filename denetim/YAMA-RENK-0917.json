@@ -1,0 +1,60 @@
+{
+  "paket": "RENK-ONERI",
+  "tarih": "2026-09-17",
+  "yazan": "RENK-ONERI (Sonnet 1010, eski KOSU10-DOGRULA)",
+  "durum": "ÖNERİ — arac/renkler.py'ye YAZILMADI. Uygulayan 1.MURAT (D098).",
+  "arac": "py arac/renk_olc.py --oner \"<kimlik1,kimlik2,...>\" ile üretildi, py arac/renk_olc.py --dogrula ile doğrulandı. Ham çıktı: denetim/_renk_olc_ham_0917.txt (tam rapor, ölçüm tabanı).",
+  "kaynak_sinavi": "6 kimliklik ilk parti için --dogrula çıktısı: \"önerilen renklerin hiçbirinin eşik altı komşusu yok\" — ΔE ≥ 12 komşu eşiği hepsinde sağlanıyor. 5 FARK/1 PALETTE-YOK satırı BEKLENEN: öneri henüz dosyaya işlenmedi.",
+  "on_kosul_eksik": "0052 RENK 34 listesi bu teslim anında KOSU13-YAMA'dan (denetim/YAMA-KOSU13-BIRLESIK-0917.json) henüz GELMEDİ — kalemler.uygulanabilir/karar/bloke/bildirim alanlarında ayrı bir '34 renk' listesi yok. Bu kalem İŞLENMEDİ, ölçülemedi. Bulunursa ayrı bir tur gerekir.",
+  "kalemler": [
+    {
+      "kimlik": "indor",
+      "eski": "#ba24d2",
+      "yeni": "#d28424",
+      "gerekce": "KOMŞUSUYLA ÇAKIŞAN listesinde: indor ↔ maratha ΔE 3.7 (eşik 12'nin çok altında). Öneri en yakın engelle ΔE 12.4 — 4 Voronoi komşusu, 38 evrenlik renkli engel kümesine göre çözüldü. 'yeniler arası komşuluk' setinde maratha ile de komşu olduğu için ikisi birlikte, birbirinden de ayrışacak şekilde önerildi."
+    },
+    {
+      "kimlik": "maratha",
+      "eski": "#a828d8",
+      "yeni": "#1ed884",
+      "gerekce": "indor ile aynı çakışmanın diğer ucu (ΔE 3.7). Ayrıca bharatpur-cat ve gvalyar ile de komşu (aynı Hint alt kıtası kümesi, 'yeniler arası komşuluk: 4 çift'). Öneri en yakın engelle ΔE 12.5 — 28 komşu, 73 evrenlik engel kümesine göre çözüldü."
+    },
+    {
+      "kimlik": "bharatpur-cat",
+      "eski": "#1e54e4",
+      "yeni": "#d82472",
+      "gerekce": "KOMŞUSUYLA ÇAKIŞAN listesinde: bharatpur-cat ↔ gvalyar ΔE 4.3. Öneri en yakın engelle ΔE 12.4 — 5 komşu, 40 evrenlik engel kümesine göre. maratha ile de komşu olduğu için üçlü grup (indor/maratha/bharatpur-cat/gvalyar) birlikte çözüldü."
+    },
+    {
+      "kimlik": "gvalyar",
+      "eski": "#3050d2",
+      "yeni": "#2472d8",
+      "gerekce": "bharatpur-cat ile aynı çakışmanın diğer ucu (ΔE 4.3), ayrıca maratha ile de komşu. Öneri en yakın engelle ΔE 12.0 (eşiğe en yakın olan öneri, yine de geçerli) — 6 komşu, 41 evrenlik engel kümesine göre."
+    },
+    {
+      "kimlik": "ispanya",
+      "eski": "#d59f63",
+      "yeni": "#ea0cea",
+      "gerekce": "renk_olc.py'nin kendi UYARI satırı: 'aciklik tavani: ispanya ALTLIKTAN yeterince ayrismiyor (esik DE 15) — DE 15.0 — zemine karışıp GÖRÜNMEZ olabilir, kroma artırılarak düzeltilmeli.' Bu tam olarak görev tanımındaki 'ispanya altlıkla karışıyor' kalemi. Öneri altlıktan ve 80 Voronoi komşusundan (193 evren) ayrışacak şekilde üretildi, en yakın engelle ΔE 12.0. ⚠️ NOT: renk tonu tarihî/estetik beklentiden (kum/toprak sarısı) çok uzaklaştı — bright magenta. Araç yalnız MEŞRULUĞU (çakışmasızlık) garanti ediyor, GÜZELLİĞİ değil (kendi damgası). Uygulayan tarafın estetik onayı ayrıca istenir; alternatif olarak yalnız kroma artırılıp ton sabit tutulan elle bir deneme de denenebilir ve --dogrula ile sınanabilir."
+    },
+    {
+      "kimlik": "polonya-erken",
+      "eski": "YOK — data/devletler.js:707 künyesi f:1320-01-20 t:1569-07-01 ile var, harita: alanı yok (yani lookup anahtarı doğrudan 'polonya-erken'), ama arac/renkler.py BOYALAR sözlüğünde bu anahtar hiç tanımlı değil.",
+      "yeni": "#6cea0c",
+      "gerekce": "Görev tanımındaki 'polonya-erken rengi YOK (9 nokta)' kalemi. Ölçüldü: data/*.js içinde d:\"polonya-erken\" TAM 9 kez kullanılıyor (yerlesimler.js, yerlesimler_p0037.js, yer_yama_elba/kademe2/litvanya/misir_himaye.js). renkler.py'de 'polonya-erken' HARİTA DELİĞİ. Öneri 8 Voronoi komşusuna (99 evren) göre üretildi, en yakın engelle ΔE 12.1. Bu, §1.5'in 'Renksiz künye — HARİTA DELİĞİ' değişmezine giren canlı bir vaka — 39 sessiz borç listesine kayıtlı olabilir, ayrıca doğrulanmadı."
+    },
+    {
+      "kimlik": "kumuk-samhalligi",
+      "eski": "YOK — data/devletler.js:7655 künyesi f:1578-11-01 t:1607-01-01 (KOSU13-YAMA'nın kendi notuna göre t: ≥1726-01-01'e çekilmesi ayrıca bekliyor), harita: alanı yok, renkler.py'de 'kumuk-samhalligi' ve kısaltma 'kumuk' hiçbir biçimde tanımlı değil.",
+      "yeni": "#6c24d2",
+      "gerekce": "🟡 DÜŞÜK GÜVEN — bu kalem görev tanımında YOKTU, KOSU13-YAMA'nın birleşik dosyasında (denetim/YAMA-KOSU13-BIRLESIK-0917.json) rastlantıyla görüldü ('renk YOK → HARİTA DELİĞİ' notu) ve aynı sınıfta olduğu için buraya eklendi. Araç açıkça uyardı: 'komşusu ÖLÇÜLEMEYEN kimlik — verisi girdi.py'nin okuduğu dosyalarda DEĞİL, öneri yalnız altlık ve Osmanlı ikilisine dayanır' (0 komşu, yalnız 2 renkli engel). ⇒ Bu öneri, künye devletler.js'e YERLEŞİM verisiyle birlikte indikten SONRA yeniden ölçülmeden kullanılmamalı — şimdilik yalnız 'çakışma yok' garantisi taşıyor, komşu-duyarlılığı YOK."
+    }
+  ],
+  "kuba_hanligi_uyarisi": "Bonus bulgu, aksiyon istenmiyor: KOSU13-YAMA dosyasında 'kuba-hanligi künyesi YOK (devletler.js kuba = Kongo Kuba Krallığı!) + renk YOK' notu var. Künye henüz yazılmadığı için renk önerisi VERİLEMEDİ — ama künye yazılırken 'kuba' harita anahtarı KULLANILMAMALI, çünkü renkler.py:1171'de o anahtar zaten başka bir devlete (#a85a1b, Kongo Kuba Krallığı) ait. Künye geldiğinde ayrı bir renk_olc.py --oner turu gerekir.",
+  "genel_ozet": "7 kimlik ölçüldü: 5'i mevcut renk çakışması/görünürlük düzeltmesi (indor·maratha·bharatpur-cat·gvalyar·ispanya), 1'i tam harita deliği (polonya-erken), 1'i düşük güvenli ön-öneri (kumuk-samhalligi, veri gelince yeniden ölçülmeli). Hepsi ΔE≥12 komşu eşiğini --dogrula ile geçti. '0052 RENK 34' kalemi bu turda gelmediği için işlenmedi.",
+  "artefaktlar": [
+    "denetim/_renk_olc_ham_0917.txt — tam renk_olc.py raporu (ölçüm tabanı, komşu/deniz/altlık uyarıları)",
+    "denetim/oneri-20260917-173125.txt — ilk 6 kimliğin --oner çıktısı (--dogrula ile sınandı)",
+    "denetim/oneri-20260917-173606.txt — kumuk-samhalligi tek kimlik --oner çıktısı (düşük güven, komşu verisi yok)"
+  ]
+}

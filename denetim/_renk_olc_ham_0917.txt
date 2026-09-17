@@ -1,0 +1,138 @@
+  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM #d24824 -- ovambo, suriye-lubnan-mandasi. Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali.
+  RENK acikma: 18 kimlik ACIKLIK_TABANI_L=59'a cekildi (hex DEGISTI, ton/doygunluk AYNI):
+    L*=54.9  bosna                        #0a0381 -> #2f1896
+    L*=55.9  bizans                       #0f0f5d -> #281e6f
+    L*=56.7  norvec-kralligi              #0b1650 -> #202460
+    L*=57.0  moskova                      #0f0f9c -> #2419a6
+    L*=57.5  kutai                        #4b0f15 -> #55191d
+    L*=57.5  kert                         #0808f0 -> #1b0ff4
+    L*=57.6  cunagadh                     #3c1515 -> #451d1c
+    L*=57.6  astarhan                     #421212 -> #4c1b1a
+    L*=57.6  savoya                       #12129f -> #2119a6
+    L*=57.7  afgan-durrani                #3c1239 -> #451b41
+    L*=58.1  gova-makassar                #281098 -> #30169d
+    L*=58.1  san-fan                      #4e1218 -> #55191d
+    L*=58.3  laos-kralliklari             #421539 -> #46193d
+    L*=58.3  bhopal                       #451539 -> #49193c
+    L*=58.4  litvanya-buyuk-dukalik       #060cff -> #1310ff
+    L*=58.4  bonacolsi                    #421542 -> #461945
+    L*=58.8  kandy                        #600f3c -> #60103c
+    L*=59.0  nebhani                      #60121b -> #61131b
+  RENK acikma IKINCI GECIS (2 kimlik) - saf L-lift komsuya cok yaklastiriyordu, ton acisi da kaydirildi (ORHANGAZI M-1848):
+    L*=55.1  fransa-cumhuriyet            #09095a -> #00297c  (<-ingiltere DE=18.5)
+    L*=57.8  ferrara                      #300c93 -> #7a005c  (<-mantua DE=19.6)
+  UYARI aciklik tavani: 1 kimlik ALTLIKTAN yeterince ayrismiyor (esik DE 15) - zemine karisip GORUNMEZ olabilir:
+    DE  15.0  ispanya                      #d59f63   <- kroma artirilarak duzeltilmeli
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+canlı veri 3859 nokta · 586 kimlik · altlık #e8dfc8 · opaklık 0.44
+eşikler: komşudan ΔE ≥ 12 · altlıktan ≥ 15
+
+========================================================================
+ALTLIKTAN AYRIŞMAYAN — 0 kimlik (ΔE < 15)
+========================================================================
+  yok
+
+========================================================================
+DENİZLE KARIŞAN — DAL1 ΔE<18: 21 · DAL2 |ΔL*|<4∧ΔE<51 (ek): 42 · birleşim 63 (deniz #c4dcea)
+========================================================================
+   15.18  ΔL*14.00  adamava                  #2484d2  Adamava Emirliği (Fumbina)
+   19.29  ΔL* 2.52  afganistan               #e4b1d5  Afganistan Emirliği
+   15.16  ΔL* 8.89  aro-konfederasyonu       #24aed2  Aro Konfederasyonu
+   18.48  ΔL* 3.22  avad                     #deabe4  Avad (Oudh) Nevablığı
+   38.57  ΔL* 2.73  avustralya               #f9b169  Avustralya Milletler Topluluğu
+   37.71  ΔL* 0.10  azerbaycan-demokratik-cumhuriyeti #eacf75  Azerbaycan Demokratik Cumhuriyeti
+   14.45  ΔL*13.27  bambara                  #248ad2  Bambara Krallıkları (Segu ve Kaarta)
+   16.10  ΔL*14.72  bemba                    #247ed2  Bemba Krallığı (Citimukulu)
+   13.70  ΔL*11.09  betsileo                 #249cd2  Betsileo Krallıkları
+   16.05  ΔL* 8.15  bundu                    #24b4d2  Bundu Emirliği
+   38.50  ΔL* 2.82  cavnpur-sultanligi       #e7b763  Cavnpûr Sultanlığı
+   38.49  ΔL* 3.04  cohor-sultanligi         #eab463  Cohor (Johor) Sultanlığı
+   22.28  ΔL* 3.57  creek-konfederasyonu     #28d8d8  Krik Konfederasyonu
+   20.21  ΔL* 2.55  dogu-sumatra-sultanliklari #eaaedb  Doğu Sumatra Sultanlıkları (Jambi, Siyak, Deli, Indragiri)
+   30.05  ΔL* 1.40  eretna                   #8df0ae  Eretna Beyliği
+   16.95  ΔL* 0.81  estonya                  #88e8e0  Estonya
+   13.70  ΔL*11.82  etowah                   #2496d2  Etowah
+   27.71  ΔL* 3.86  evfat                    #2ad8ba  Evfât (İfat) Emirliği
+   14.45  ΔL* 9.62  fipa-nyakyusa            #24a8d2  Fipa ve Nyakyusa Halkları
+   18.89  ΔL* 3.36  floransa                 #deabd8  Floransa Cumhuriyeti
+   23.30  ΔL* 1.26  germiyan                 #1eeaf3  Germiyanoğulları
+   16.57  ΔL*15.49  gilan-kiya               #4272c3  Kârkiyâ (Gîlân)
+   41.32  ΔL* 0.60  guney-ming               #d8d060  Güney Ming
+   27.73  ΔL* 0.80  gurcistan-demokratik-cumhuriyeti #90eab1  Gurcistan Demokratik Cumhuriyeti
+   25.08  ΔL* 2.72  hawaii-kralligi          #ffa5d6  Hawaii Krallığı
+   17.09  ΔL* 7.42  herero                   #24bad2  Herero Halkı
+   35.49  ΔL* 2.93  imereti                  #deea90  Imereti Kralligi
+   17.59  ΔL* 9.61  ingiliz-kuzey-amerika    #00ade2  İngiliz Kuzey Amerikası
+   28.09  ΔL* 0.88  isvec                    #48eac3  İsveç
+   35.76  ΔL* 2.50  kaffa                    #d2ea8d  Kaffa Krallığı
+   31.29  ΔL* 0.76  karnatik                 #aee499  Karnatik Nevablığı
+    4.49  ΔL* 4.30  komanci                  #78bdff  Komançiler
+   24.61  ΔL* 3.93  kongo-kralligi           #f09cf3  Kongo Krallığı
+   46.13  ΔL* 3.66  ladak                    #a8c63c  Ladakh Krallığı
+   43.44  ΔL* 0.79  liberya                  #d2de60  Liberya Cumhuriyeti
+   35.80  ΔL* 3.90  luba                     #dbf396  Luba İmparatorluğu
+   18.89  ΔL* 1.74  lur-i-kucek              #ffccf3  Lur-i Küçek (Hurşîdîler)
+   13.95  ΔL*10.35  maliseet                 #24a2d2  Maliseet (Wolastoqiyik)
+   20.87  ΔL* 3.01  mehdi                    #eaa8ea  Mehdî Devleti (Sudan)
+   32.15  ΔL* 3.37  nkore                    #24deae  Nkore (Ankole) Krallığı
+   37.04  ΔL* 2.62  pagan                    #e1e787  Pagan Krallığı (Burma)
+   29.50  ΔL* 1.11  pandya                   #54e7b4  Pândya Krallığı
+   23.97  ΔL* 1.73  poni                     #1ee7ea  Poni (Borneo)
+   24.24  ΔL* 1.50  portekiz                 #34fcfc  Portekiz
+   17.19  ΔL*15.44  prusya                   #2478d2  Prusya
+   36.35  ΔL* 1.91  ryazan                   #cce787  Ryazan Knezliği
+   14.96  ΔL*14.08  sahaptin                 #2484cc  Sahaptin (Orta Columbia halkları)
+   33.54  ΔL* 1.36  sarawak-brooke           #78e090  Sarawak (Brooke) Racalığı
+   25.42  ΔL* 2.63  serbedariler             #a5f3c3  Serbedârîler
+   18.00  ΔL*13.17  sirbistan                #518790  Sırbistan
+   17.26  ΔL*13.73  solima-yalunka           #5a78d8  Solima Yalunka Krallığı
+   21.30  ΔL* 3.79  sovyet-rusya             #00d9ff  Sovyet Rusya
+   19.16  ΔL* 2.96  sukhothai                #e1aed5  Sukhothai Krallığı
+   26.14  ΔL* 1.91  suleyman-celebi          #8dd5a2  Emîr Süleyman Çelebi (Rumeli)
+   14.50  ΔL*10.43  svazi                    #24a2cc  Svazi Krallığı
+   19.37  ΔL* 2.99  tibet                    #e1aed2  Tibet (Phagmodrupa-Tsangpa)
+   18.03  ΔL* 3.45  tidore-sultanligi        #72ccc0  Tidore Sultanlığı (Moluk)
+   41.57  ΔL* 0.56  tiv                      #ded866  Tiv Halkı
+   26.13  ΔL* 0.64  tran-hanedani            #96e7b4  Trần Hanedanı (Đại Việt)
+   14.38  ΔL*13.35  vasulu                   #248acc  Vâsûlû Devleti (Samori Ture)
+   40.80  ΔL* 0.80  yatenga                  #84e472  Yatenga Krallığı
+   29.49  ΔL* 3.02  yunanistan               #20e0c0  Yunanistan
+   16.48  ΔL*15.86  zuni                     #1e78c0  Zuni (A:shiwi)
+
+========================================================================
+KOMŞUSUYLA ÇAKIŞAN — 2 çift (ΔE < 12)
+========================================================================
+     3.7  indor                  ↔ maratha
+     4.3  bharatpur-cat          ↔ gvalyar
+
+========================================================================
+AYNI ANAHTARI PAYLAŞIP TARİHİ ÖRTÜŞEN — 0 çift (ΔE 0!)
+  (devletler.js 639 kayıt · 6 anahtar paylaşımlı · 6 anahtar ardışık/örtüşmesiz: susuldu)
+========================================================================
+  yok
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+
+========================================================================
+AYNI HEX'İ PAYLAŞIP EŞZAMANLI VE 600 KM'DEN YAKIN — 0 çift (ΔE 0!)
+========================================================================
+  yok
+  i 5 çift ÖLÇÜLEMEDİ — canlı veride dönemi olmayan kimlikler ('ölçülemedi' ≠ 'temiz') — dökümü: --ayrinti
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+
+========================================================================
+YAKIN AMA DEĞMEYEN — 6 İHLAL (ΔE < 12 · eşzamanlı · 600 km'den yakın)
+  (Voronoi komşusu olmayan 134 çift kuruldu; komşu olanları yukarıdaki bölüm basıyor)
+========================================================================
+    4.08    101 km  dukagin              ↔ macaristan           1387-1393
+    7.48    494 km  ingiliz-sudani       ↔ nkore                1899-1901
+    8.82    282 km  hurmuz-sultanligi    ↔ portekiz             1281-1510
+    8.92    405 km  floransa             ↔ isvicre              1332-1532
+   11.16    446 km  agadez-sultanligi    ↔ sokoto               1807-1903
+   11.41    297 km  bizans               ↔ bosna                1281-1479
+
+  i 128 çift SINIRDA (12 ≤ ΔE < 15) — EKRAN, çıkış kodunu etkilemez — dökümü: --ayrinti
+  i 1021 çift ÖLÇÜLEMEDİ ('ölçülemedi' ≠ 'temiz') — dökümü: --ayrinti
+
+========================================================================
+  🔴 0 görünmez · 2 çakışma · 0 aynı-anahtar örtüşmesi · 0 aynı-hex çakışması · 6 yakın-ama-değmeyen
