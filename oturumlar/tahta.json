@@ -132994,5 +132994,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4355",
+  "zaman": "2026-09-17 15:58",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0064 · D3-AVRUPA-ORTA · commit 36b64f1 · rapor denetim/D3-EKSKLAV-0917.md · yama denetim/YAMA-0064-BALKAN.json (9 kalem: 4 oneri · 2 karar · 3 teyit) · alet denetim/ARAC-EKSKLAV-0917.py (tarih x devlet kopuk parca + aradaki yerlesimler; Delaunay; --yama bellekte ONCE/SONRA; --donemler canli cikti). ALET IKI YONDE SINANDI: Novi eski haline dondurulunce 1737-08-04 'KOPUK Bihac · arada Novi=avusturya' basiyor, bugunku veriyle 0. Balkan kutusu 1690-1800 15 kesit: kopuk 0 (1738-08 Semendire haric). H-0003/H-0008 BIHAC: sebep canli KOSU 12'de Novi'nin Osmanli olmamasi (petek #1860); 55a5b28 ile veride ZATEN duzeldi, KOSU 13+ ile kapanir. KALAN HATA k1: Bosna Dubicasi 1699 sonrasi hep avusturya yazilmis — Karlofca metni ters okunmus (garnizonlar CEKILIYOR). HE Kozarska Dubica + Sirp Ansiklopedisi (1788'de Avusturya 'Turk sinir kaleleri Dubica ve Novi'yi aldi) → oneri d 1538-1718-07-21 · avusturya 1718-07-21→1739-09-28 (gun komsudan: Brod/TDV) · d 1739-09-28→1908 · isg 1788-08-26→1791-08-04 (Koric 2016). k2 Novi isg 1788-10-03→1791-08-04 (Koric). k1-k2 icin 2 MADDE ONERISI yamada (1788-08-26, 1788-10-03 — olaylar'da yok). k4 YENI NOKTA Krupa (Bosanska Krupa) 1565 (HE) + madde onerisi 1565-01-01 (yok). H-0008 KNIN: Avusturya DEGIL Venedik, kayit HE ile birebir (teyit). H-0005 SEMENDIRE: gun TDV'ye dayali (Agustos 1738); arada YALNIZ Jagodina; Jagodina/Paracin/Cuprija donus gunu BULUNAMADI (yalniz Vikipedi soyluyor, kullanilmadi) → k5 KARAR: sik A (oneri, H-0010 B4) Jagodina'yi 1738-08-01'e cek — sinandi, eksklav kapaniyor; sik B dokunma. Kragujevac/Cacak/Belgrad/Bogurdelen/Turnu Severin 1739'a kadar Avusturya DOGRU (Sirp Ans. ilce listesi). H-0002: taralı serit Nis'in 1737 Avusturya isgali, GERCEK; k6 gunler 07-01/10-01 → 07-27 (Sirp Ans.) / 10-16 (mevcut madde). k3 KARAR (onerim A: dokunma): HE Karlofca devri sapmalari yalniz yil (Dubica 1687-1701 · Novi 1691-1703 + fetih 1557 · Kostajnica 1687). BULUNAMADI: Jasenovac Avusturya'ya gecis gunu. H-0003 'koyu halka' sorusu UI-HARITA'nin H-0012'siyle ayni, bende degil. Sonraki is icin bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
