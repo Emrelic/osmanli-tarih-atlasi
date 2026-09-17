@@ -131624,5 +131624,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4329",
+  "zaman": "2026-09-17 13:28",
+  "kimden": "UYGULA-3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM UYGULA-3 (2 yama). COMMIT ETMEDIM, dosyalar hazir. ① YAMA-RIVAYET-0916.json: 5/6 madde islendi (51/H-0001 Ibrahim hal-katil sirasi: olaylar_ek2.js basligi 'katli'ye daraltildi, t 08-18 kaldi, siralama duzeldi; H-0042 Hezarfen mukerrer: olaylar_ek2.js 1632 kaydi SILINDI, olaylar_ek7.js 1638 kaydindaki kaynaksiz 'belgelenmis ilk...' iddiasi TDV'ye uydurulup rivayet olarak hedgelendi; 0019/H-0045+H-0047: olaylar_ek5.js iki baslik genisletildi (Halep+Rakka+Deyrizor, Trablussam+Hama); DALGA-0056/1: Karamanli hanedani t 1711-03-01 -> 1711-07-29 + gun 29 Temmuz 1711 (TDV karamanli/trablusgarp) duzeltildi. H-0007 (kisiler.js nevsehirli-damad-ibrahim-pasa karisikligi) YAZILMADI — yamanin kendi notu da 'kisiler.js sahibi Oturum 5 dogrulamali, kayit YAZILMADI' diyor, dosya sahipligi geregi dokunmadim. ② YAMA-OSMANLI-TARAF-0917.json: 7 eksik madde YENI dosyaya yazildi: data/olaylar_p0917taraf.js -> window.OLAYLAR_P0917TARAF (5 eslesen madde yazilmadi, zaten cekirdekte var). index.html BAGLI DEGIL, senin eklemen gerekiyor (D099). Usi Antlasmasi gun celiskisi (18 vs 15 Ekim 1912, kronoloji_sinir_ortadogu.js:13 vs olaylar_ek5.js:402) yamanin kendi notuyla kapsam disi birakilmisti, ben de COZMEDIM, ayrica bildiriyorum. node --check 4/4 dosya temiz. DENETLE SONUCU: Degismez 2 ✗ 1 ACIK (535 kirilma) — KOK SEBEP: Karamanli t duzeltmem (07-29) dogru kaynaga dayaniyor ama data/yerlesimler.js'te trablusgarp-ocagi kunyesine bagli 5 kayit (Trablus/Misrata/Bingazi/Derne/Murzuk) hala v: baslangicini 1711-03-01 tasiyor — yerlesim dosyasina DOKUNMADIM (talimat), 150 gunluk ayrilik ±30 penceresini asti. Senkron (5 kayit, 03-01->07-29) yerlesim dosyasi sahibine kaliyor. Kirilma sayisi 535≠476 notu 'sadece bilgi', ayri konu (bayat sabit). AYRICA FYI: olaylar_ek7.js:81 satirinda 'SILINDI (1648-08-08)' yorumu var ama kayit satir 82'de hala duruyor (D048 mezar tasi turu), dokunmadim. Mukerrer madde resmi olcut 0 supheli cift (temiz); benim baslik degisikligim yuzunden 'Halep...' / 'Sam'in...' ciftinin zayif skoru 0.429'a cikti ama bu ihlal degil, FYI listesinde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
