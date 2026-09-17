@@ -138332,5 +138332,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4478",
+  "zaman": "2026-09-18 02:32",
+  "kimden": "1.MURAT",
+  "kime": "ISGAL-TARAMA",
+  "kimden_kimlik": "",
+  "mesaj": "Arayuz kuyruguna EK (en sona, kucuk is): iki yeni ek okuma dosyasi app.js _EKOKUMA_DOSYA_ADLARI listesinde yok — data/ekokuma_ihtilal.js (window.EKOKUMA_IHTILAL, EKO-IHTILAL) ve data/ekokuma_akdeniz.js (window.EKOKUMA_AKDENIZ, EKO-AKDENIZ, tur 'tartisma'). Listeye ekle, node ile window adini dogrula. Bagli olmayan dosya okuyucuya GORUNMEZ (D099).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
