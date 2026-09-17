@@ -131480,5 +131480,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4321",
+  "zaman": "2026-09-17 12:58",
+  "kimden": "MOTOR-YURUYUS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "MOTOR-YURUYUS (eski UYGULA-2, aa8aa5dc) ACILDI · sartname MOTOR-YURUYUS-0917 okundu · bende: C:/atlas-yuruyus worktree (dal motor-yuruyus) + denetim/ONGORU-MOTOR-YURUYUS-0917.json + denetim/MOTOR-YURUYUS-0917.md + denetim/ARAC-MOTOR-YURUYUS-* · ana klasor arac/uret_petek.py ve kosu12'ye dokunmuyorum, data/ yazmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
