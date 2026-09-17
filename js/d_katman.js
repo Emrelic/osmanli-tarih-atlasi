@@ -51,16 +51,49 @@ var D_HAT_RENK = "#0a2f5c";
 // ton İCAT EDİLMEDİ, var olan görsel dille eşleşti. İç dolgu zaten bu dosyada
 // HİÇ çizilmiyor (D-KATMAN yalnız çizgi çizer, §9 — GORUNUM-ABCD tasarımı),
 // yani "iç dolgu değişmez" şartı otomatik sağlanıyor.
-// Kapsam Emre'nin AÇIKÇA saydığı üçle SINIRLI (Eflak/Boğdan/Erdel) — genel
-// "her prenslik/vassal" kuralı DEĞİL: devletler.js'te statik bir "vasal"
-// bayrağı yok (yalnız `tur:"prenslik"` gibi POLİTİK TÜR var, tâbilik
-// yerleşim seviyesinde zaman-pencereli `v:` kaydı — D188 "kümeyi bilmeden
-// hüküm verme"). Genişletme istenirse 1.MURAT'a sorulacak (bkz. rapor §…).
+// 🆕 DALGA-0064 H-0007 (1.MURAT, 17 Eylül) — SABİT ÜÇLÜ LİSTE GENEL KURALA
+// GENİŞLETİLDİ: "yerleşim `v:` statüsü vassal olan BÜTÜN devletler." Statik
+// bir "vasal" bayrağı devletler.js'te yok (yalnız `tur:"prenslik"` gibi
+// POLİTİK TÜR var, D188 "kümeyi bilmeden hüküm verme" uyarısı buradaydı) —
+// ama tâbilik zaten `window.YERLESIMLER`de ZAMAN PENCERELİ olarak duruyor
+// (`y.v[].kid` + `f`/`t`), C katmanının `sahipAnahtari`/`sahipIlgiliMi`
+// fonksiyonlarının (js/suzgec.js) OKUDUĞU AYNI alan. Kendi ayrıştırıcımızı
+// YAZMADIK (D023): `kid` alanı zaten devletler.js'in gerçek `id:`si, ek bir
+// ad eşleme/normalleştirme GEREKMİYOR — `y.v[].k` (kid'siz serbest metin)
+// kasten ATLANIYOR, çünkü o kayıtların zaten bir devletler.js kimliği yok,
+// D_SINIRLAR'ın `taraflar[]`i İSE her zaman gerçek künye id'si taşıyor.
 var D_VASAL_RENK = "#d4707d";
-var D_VASAL_TARAF_IDLERI = { eflak: 1, bogdan: 1, erdel: 1 };
-function _dCizgiRengi(kayit) {
+// GÜN başına DEĞİL, YERLEŞİM sayısı değişmedikçe BİR KEZ kurulur (3800+
+// kayıt × her ekran güncellemesi yerine tek seferlik ön-hesap).
+var _dVasalPencereOnbellek = null, _dVasalPencereSayisi = -1;
+function _dVasalPencereIndeksi() {
+  var Y = window.YERLESIMLER || [];
+  if (_dVasalPencereOnbellek && _dVasalPencereSayisi === Y.length) return _dVasalPencereOnbellek;
+  var ix = {};
+  Y.forEach(function (y) {
+    (y.v || []).forEach(function (p) {
+      if (!p.kid) return;   // kid'siz kayıt — devletler.js kimliği yok, eşleşecek taraf id'si de yok
+      (ix[p.kid] = ix[p.kid] || []).push(p);
+    });
+  });
+  _dVasalPencereOnbellek = ix;
+  _dVasalPencereSayisi = Y.length;
+  return ix;
+}
+function _dVasalMi(tarafId, gun) {
+  var pencereler = _dVasalPencereIndeksi()[tarafId];
+  if (!pencereler) return false;
+  for (var i = 0; i < pencereler.length; i++) {
+    var p = pencereler[i], f = gunIdx(p.f);
+    if (gun < f) continue;
+    if (p.t != null && gun >= gunIdx(p.t)) continue;   // D061/D195: açık uç BİTİŞE kadar
+    return true;
+  }
+  return false;
+}
+function _dCizgiRengi(kayit, gun) {
   var tf = kayit.taraflar || [];
-  for (var i = 0; i < tf.length; i++) if (D_VASAL_TARAF_IDLERI[tf[i]]) return D_VASAL_RENK;
+  for (var i = 0; i < tf.length; i++) if (_dVasalMi(tf[i], gun)) return D_VASAL_RENK;
   return D_HAT_RENK;
 }
 var D_SINIF_STIL = {
@@ -179,14 +212,19 @@ function _dPopupHtml(kayit, sinif) {
 var _dAktifImza = null;
 function _dSinirGuncelle(gun) {
   if (!_dHazirMi() || !harita.getSource("d-sinir-hat")) return;
-  var aktif = _dAktifKayitlar(gun);
-  var imza = _dGorunum + "|" + aktif.map(function (a) { return a.kayit.id + ":" + a.sinif; }).join("+");
+  var aktif = _dAktifKayitlar(gun).map(function (a) {
+    return { kayit: a.kayit, sinif: a.sinif, renk: _dCizgiRengi(a.kayit, gun) };
+  });
+  // renk imzaya DAHİL — vasal renk artık gün-bağımlı (H-0007), aynı id:sinif
+  // kümesi iki farklı günde farklı renk gerektirebilir (bir taraf tam o
+  // aralıkta vassal'a döner/çıkar); yalnız id:sinif imzası bu geçişi KAÇIRIRDI.
+  var imza = _dGorunum + "|" + aktif.map(function (a) { return a.kayit.id + ":" + a.sinif + ":" + a.renk; }).join("+");
   if (imza === _dAktifImza) return;
   _dAktifImza = imza;
   var feat = aktif.map(function (a) {
     return {
       type: "Feature",
-      properties: { kayit_id: a.kayit.id, sinif: a.sinif, renk: _dCizgiRengi(a.kayit) },
+      properties: { kayit_id: a.kayit.id, sinif: a.sinif, renk: a.renk },
       geometry: { type: "LineString", coordinates: a.kayit.hat }
     };
   });

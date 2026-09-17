@@ -170,3 +170,47 @@ Dört ayrı MapLibre `line` layer'ı, TEK kaynak (`d-sinir-hat`), her biri `sini
 başına ayrı). Tıklanınca popup: kayıt id + sınıf etiketi + uzunluk_km + kesinlik_km + ilk 2 dayanak
 (ad, tarih, alıntı). Dolgu YOK — şartname yalnız "sınıf başına ayırt edici çizgi" istiyor, C'deki taraf
 boyama mantığı burada yok.
+
+## 11. DALGA-0064 H-0007 — vasal renk SABİT LİSTEDEN GENEL KURALA (17 Eylül, yayında sonrası)
+
+D-1923 D-katmanı ve antlaşma haritası bu gün yayına bağlandı (r8945, koordinatörün ölçümü: 9
+`d_sinirlar*` dizisi yükleniyor, konsol hatası 0). 1.MURAT'ın bir sonraki ricası: "vasal sınırı açık
+kırmızı (#d4707d) şu an yalnız Eflak/Boğdan/Erdel; genel kural olsun: o tarihte yerleşim `v:` (vassal)
+dönemi taşıyan bütün devletler."
+
+**Uygulama** — `D_VASAL_TARAF_IDLERI` sabit nesnesi kaldırıldı; `_dCizgiRengi(kayit, gun)` artık
+`window.YERLESIMLER`i (C katmanının `sahipAnahtari`/`js/suzgec.js`nin OKUDUĞU AYNI kaynak — D023, ikinci
+bir ayrıştırıcı yazılmadı) tarayıp o gün AKTİF bir `v:` penceresi (`kid` + `f`/`t`) taşıyan taraf id'sini
+vasal sayıyor. `kid`siz (serbest metin `k`) kayıtlar BİLEREK atlanıyor — onların devletler.js kimliği
+yok, `D_SINIRLAR`ın `taraflar[]`i ise HER ZAMAN gerçek künye id'si. Önbellek `window.YERLESIMLER.length`
+değişmediği sürece TEK SEFERLİK kurulur (3800+ kayıt × her gün güncellemesi yerine).
+
+🔴 **Renk artık GÜN-BAĞIMLI olduğu için `_dSinirGuncelle`nin `imza` önbelleği DÜZELTİLDİ** — eski imza
+yalnız `id:sinif` çiftini taşıyordu; aynı id:sinif kümesi iki farklı günde FARKLI vasal renk gerektirebilir
+(bir taraf tam o aralıkta vassal statüsüne girer/çıkar) ve eski imza bu geçişi KAÇIRIRDI (bir sonraki
+`setData` çağrısı sessizce atlanırdı). `renk` de imzaya eklendi.
+
+**Doğrulama — hem yerel test verisiyle (node) hem CANLI production verisiyle (tarayıcı, `window.
+YERLESIMLER.length` 3855):**
+```
+REGRESYONSUZ    eflak (16 v: penceresi) · bogdan (14) — hâlâ VASAL, doğru
+YENİ KAPSANAN   bulgaristan-prensligi(7) · sirbistan-prensligi(5) · misir-kavalali(154) ·
+                kirim(24) · cezayir-ocagi(41) · trablusgarp-ocagi(39) · haciemir(4) ·
+                sarki-rumeli(3) · kuveyt(2) · zeta·katar·lubnan-emirligi·cebel-i-lubnan-
+                mutasarrifligi·harfusogullari (1'er) — eski sabit liste bunları HİÇ kapsamıyordu
+```
+
+🔴 **BULUNAN GERÇEK BULGU — REGRESYON, kod kusuru DEĞİL, VERİ BOŞLUĞU:** `erdel` hiçbir `window.
+YERLESIMLER` kaydında `kid:"erdel"` taşıyan bir `v:` penceresi YOK (hem yerel hem canlı veride
+sıfır — `Erdel Belgradı (Gyulafehérvár)` yerleşimi VAR ama onun `v:` alanı bu kimliği taşımıyor).
+Sonuç: `taraflar` listesi SADECE `["macaristan-habsburg","erdel"]` olan 2 D-sınırı kaydı
+(`d1606-hm-er` · `d1571-hm-er`) artık vasal renk ALMIYOR — eski sabit liste bunları vasal
+boyuyordu. `erdel`+`eflak`/`erdel`+`bogdan` çiftli 4 kayıt ise (eflak/bogdan zaten vasal olduğu
+için) ETKİLENMEDİ. **Bu D-KATMAN'ın kodunda düzeltilecek bir şey değil** — Emre'nin istediği kural
+tam olarak budur ("yerleşim v: verisine bak"); veri o iki kaydı desteklemiyor. Yerleşim verisine
+`kid:"erdel"` eklenmesi (uygun bir Erdel yerleşimine, muhtemelen Erdel Belgradı/Gyulafehérvár'a) bir
+sonraki oturuma (yerleşim dosyalarının sahibi, CLAUDE.md §7) sorulacak bir yama — D-KATMAN kendi
+YAZMIYOR.
+
+Tarayıcıda gerçek fonksiyon çağrısıyla (harita "load" bu ortamda hâlâ ateşlenmiyor, önceki turlarla
+AYNI ağ kısıtı — bkz. §4) hata YOK, sonuçlar node testiyle BİREBİR eşleşti.
