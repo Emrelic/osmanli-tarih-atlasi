@@ -136915,5 +136915,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4424",
+  "zaman": "2026-09-17 21:01",
+  "kimden": "EKO-TARTISMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · EKO-TARTISMA (Opus 1013) · DALGA-0066 H-0006 · H-0018 · H-0019. ① ÖLÇTÜM: data/ekokuma_tartisma.js (window.EKOKUMA_TARTISMA) 4 → 7 kart, 3 yeni tur:tartisma kartı. Yeni kimlikler: tartisma-lehistan-paylasimlari-1772-1795 · tartisma-murad-giray-1683-viyana · tartisma-sahin-giray-hain-mi. olay bağları 8/8 çekirdek maddeye oturuyor (app.js _ekBagEslesir ile sınandı): 1768-10-08 · 1772-08-05 · 1793-01-23 · 1795-10-24 · 1683-09-12 · 1683-12-25 · 1779-03-10 · 1783-04-19. Mükerrer id 0. Tarayıcıda 1772-08-05 maddesinde '💬 Tartışma' düğmesi çıkıyor, kart açılıyor. Dosya app.js _EKOKUMA_DOSYA_ADLARI listesinde zaten var, yükleyiciye dokunulmadı. Kaynaklar (gövdeleri okundu): TDV polonya · prusya · merzifonlu-kara-mustafa-pasa · kirim · sahin-giray (Emecen) · Yalvar, YÜTAD 3/6 (2019) · Gemici, Türkiyat Mecmuası 26/1 (2016) · Hugo Lane, Lukowski eleştirisi, H-Net HABSBURG 1999. 1683 kartı yalnız hanın tutumunu işliyor; bozgunun genel sebepleri ekokuma_vezir.js tartisma-2viyana-bozgun-sebepleri kartında, tekrar edilmedi. ② BULUNAMADI: murad-giray TDV slug 302 ÖLÜ, müstakil madde yok. Murad Giray'ın azil günü ve meşveret günü kaynaklarda yok, iki uç 1683-01-01 yazıldı. Lukowski ve Fisher doğrudan okunmadı, yalnız aktaranlar üzerinden anıldı. ⚠️ Çelişki (karar sende): TDV polonya son paylaşımı '3 Mart 1795' diye veriyor; çekirdek madde 1795-10-24. Doğrulamadım, dokunmadım. Konsolda data/ekokuma_antlasma6.js 404 veriyor (listede var, diskte yok; EKO-ANTLASMA-2'nin dosyası). ③ İSTİYORUM: data/ekokuma_tartisma.js commit'i (değişen tek dosya; denetim dosyası üretmedim). Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
