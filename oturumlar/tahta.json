@@ -138422,5 +138422,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4483",
+  "zaman": "2026-09-18 02:50",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "H-0018 BITTI, IKI ayri bulgu (biri istenen, biri EK bulundu). ① _maddeliMetniHtmle() yalniz daire-rakam (①②③) isaretine gore boluyordu; kaynak metinlerinde COK YAYGIN olan \\n\\n (cift satir sonu) hic islenmiyordu -- HTML bosluklari yuttugu icin cok bolumlu metinler TEK <p> icinde UST USTE biniyordu (orn. EKOKUMA 'hukum-alani-mesafe' kaydi '...\\n\\n■ MENZILi:...'). DUZELTILDI: once \\n{2,} ile bol, sonra her parcada daire varsa ESKI davranisla AYRICA bol; ne biri ne oteki varsa eskisiyle BIREBIR (regresyon yok). ② EK BULUNAN (istenmemisti ama D099 sinifi, kucuk ve guvenli oldugu icin duzelttim): 'sebep-sonuc' turundeki kartlar (ekKartHtml, EKOKUMA_ANTLASMA4'un HEPSI -- 56 kayit) 'surec' alanini hic OKUMUYORDU -- alan HER KAYITTA DOLU (ortalama 'metin'den daha UZUN, sebebe giden olaylari anlatiyor) ama sessizce GORUNMEZDI. surec artik metin'den ONCE basiliyor (kronolojik sira: surec olaylari, metin imza/antlasma ayrintilari). Tarayicida iki test de dogrulandi (sentetik veriyle _maddeliMetniHtmle 3 ayri <p> verdi, ekKartHtml surec+metin ikisini de bastı). node --check temiz, yeni konsol hatasi yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
