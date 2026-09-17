@@ -1,0 +1,124 @@
+{
+  "yazan": "EKO-TEMIZ",
+  "tarih": "2026-09-17",
+  "paket": "0064 H-0004",
+  "not": "Bu dosya bir ÖNERİDİR, doğrudan yazılmadı (§7 dosya sahipliği — çoğu satır başka oturumların dosyasında). 1.MURAT indirir. ic_not/ic_not_*/// yorumlarına dokunulmadı — oralarda 'Emre' geçen çok sayıda satır KASTEN dışarıda bırakıldı (görev tanımı öyle diyor).",
+  "sayim": {
+    "A_gorev_kapsaminda_ekokuma": 13,
+    "B_kapsam_disi_ayni_desen_devletler_savaslar": 7,
+    "toplam": 20,
+    "tarandi": "data/ekokuma_*.js (tamamı) + data/gorsel_madde.js + data/olaylar*.js + data/kronoloji*.js b/d alanları — B bölümü için ayrıca data/devletler.js ve data/savaslar.js",
+    "gorsel_madde_sonuc": "0 — yalnız bir // yorumda Emre geçiyor, reader-facing alanda yok",
+    "kronoloji_tail_dosyalari_sonuc": "0 — kronoloji_*.js dosyalarındaki tüm 'Emre' geçişleri // yorum satırlarında, b:/d: alanlarında değil",
+    "olaylar_dosyalari_sonuc": "0 doğrudan b:/d: alanında — bulunan tüm geçişler ic_not_d/ic_not_kaynak/ic_not_gun alanlarında (dokunulmadı, görev tanımı gereği)"
+  },
+
+  "A_gorev_kapsaminda": [
+    {
+      "dosya": "data/ekokuma_baslik_oneri.js", "id": "tartisma-en-basarili-sadrazamlar", "alan": "(başlık sözlüğü değeri)",
+      "eski": "Emre'nin önerdiği liste TDV'yle karşılaştırıldı",
+      "yeni": "Önerilen liste TDV'yle karşılaştırıldı"
+    },
+    {
+      "dosya": "data/ekokuma_rivayet.js", "id": "sebep-sonuc-1594-uc-voyvodalik-isyani", "alan": "bag",
+      "eski": "Emre'nin H-0003'te sorduğu \"bu maddeyi göremedim\" sorusunun cevabı: madde gerçekten YOKTU",
+      "yeni": "Bu isyanın kronolojide kendi maddesi yoktu"
+    },
+    {
+      "dosya": "data/ekokuma_rivayet.js", "id": "menkibe-tiryaki-hasan-pasa-kanije", "alan": "metin",
+      "eski": "③ YÖNTEM SORUSU: Emre'nin sorduğu 'akademik kaynağın ötesine geçen bir araştırma usulü koysak mı' sorusuna cevap:",
+      "yeni": "③ YÖNTEM SORUSU: akademik kaynağın ötesine geçen bir araştırma usulü izlenebilir mi?"
+    },
+    {
+      "dosya": "data/ekokuma_rivayet.js", "id": "tartisma-i-mustafa-kizlaragasi-rivayeti", "alan": "bag",
+      "eski": "Bu kart Emre'nin H-0003'te sorduğu 'kızlarağasının rolünü ilginç/komik bir olay olarak anlatalım' isteğine karşı DÜRÜST bir sınır koyuyor:",
+      "yeni": "Bu kart, 'kızlarağasının rolünü ilginç bir olay olarak anlatalım' türü bir merak isteğine karşı DÜRÜST bir sınır koyuyor:"
+    },
+    {
+      "dosya": "data/ekokuma_vezir.js", "id": "tartisma-en-basarili-sadrazamlar", "alan": "kisa",
+      "eski": "Emre'nin önerdiği liste TDV'yle karşılaştırıldı — çoğu doğrulandı",
+      "yeni": "Önerilen bir liste TDV'yle karşılaştırıldı — çoğu doğrulandı"
+    },
+    {
+      "dosya": "data/ekokuma_vezir.js", "id": "tartisma-en-basarili-sadrazamlar", "alan": "metin",
+      "eski": "Emre'nin önerdiği listede yer alan PARGALI İBRAHİM PAŞA ve MERZİFONLU KARA MUSTAFA PAŞA",
+      "yeni": "Önerilen listede yer alan PARGALI İBRAHİM PAŞA ve MERZİFONLU KARA MUSTAFA PAŞA"
+    },
+    {
+      "dosya": "data/ekokuma_vezir.js", "id": "tartisma-en-basarili-sadrazamlar", "alan": "metin",
+      "eski": "ama Emre'nin 'en başarılı' listesine değil, bu dosyanın idam-örüntüsü tartışmasına dahil edildi",
+      "yeni": "ama 'en başarılı' listesine değil, bu dosyanın idam-örüntüsü tartışmasına dahil edildi"
+    },
+    {
+      "dosya": "data/ekokuma_vezir.js", "id": "tartisma-en-basarili-sadrazamlar", "alan": "not",
+      "eski": "Mahmutpaşa ve Çandarlı Mehmed Paşa (Emre'nin listesindeki iki isim) için bu oturumda ayrı TDV doğrulaması yapılamadı",
+      "yeni": "Mahmutpaşa ve Çandarlı Mehmed Paşa (önerilen listedeki iki isim) için bu oturumda ayrı TDV doğrulaması yapılamadı"
+    },
+    {
+      "dosya": "data/ekokuma_toplum.js", "id": "timar-avrupa-feodalizm-farki", "alan": "bag",
+      "eski": "Bu karşılaştırma Emre'nin sorduğu soruyu (Osmanlı ekonomik yapısının Avrupa feodalizmi, sanayi devrimi, aydınlanma, kilise-kral-soylular düzeniyle farkı) yalnız TEK bir eksende",
+      "yeni": "Bu karşılaştırma, Osmanlı ekonomik yapısının Avrupa feodalizmi, sanayi devrimi, aydınlanma, kilise-kral-soylular düzeniyle farkı sorusunu yalnız TEK bir eksende"
+    },
+    {
+      "dosya": "data/ekokuma_avusturya.js", "id": "avusturya-prens-eugen-hafiza", "alan": "bag",
+      "eski": "Bu kart, Emre'nin sorusuna (\"Avusturyalılar Prens Eugen konusunda kendi kaynaklarında ne anlatıyor\") iki katmanla cevap verir.",
+      "yeni": "Bu kart, \"Avusturyalılar Prens Eugen konusunda kendi kaynaklarında ne anlatıyor\" sorusuna iki katmanla cevap verir."
+    },
+    {
+      "dosya": "data/ekokuma_avusturya.js", "id": "avusturya-1736-1739-savasi-sebep-ozi", "alan": "bag",
+      "eski": "Kronolojide savaşın sebebi hiç anlatılmıyordu ve Emre'nin sorusu bunu gösteriyor.",
+      "yeni": "Kronolojide savaşın sebebi hiç anlatılmıyordu."
+    },
+    {
+      "dosya": "data/ekokuma_kiyas.js", "id": "kiyas-yenilige-tepki-ayaklanmalari", "alan": "metin",
+      "eski": "Yani Emre'nin sorusundaki 'yenilik' burada daha çok görünür lüks ve Batı tarzı yaşam biçimiydi.",
+      "yeni": "Yani buradaki 'yenilik' daha çok görünür lüks ve Batı tarzı yaşam biçimiydi."
+    },
+    {
+      "dosya": "data/ekokuma_statu.js", "id": "statu-iki-tarihyazimi", "alan": "metin",
+      "eski": "Emre'nin sorusu 1594'teki üç voyvodalık ayaklanmasından doğdu: yabancı kaynaklarda Erdel, Eflak ve Boğdan ayrı devletler gibi,",
+      "yeni": "Bu soru 1594'teki üç voyvodalık ayaklanmasından doğar: yabancı kaynaklarda Erdel, Eflak ve Boğdan ayrı devletler gibi,"
+    }
+  ],
+
+  "B_kapsam_disi_ayni_desen": [
+    {
+      "not": "Görev tanımı yalnız ekokuma_*/gorsel_madde/kronoloji b-d dedi; bunlar devletler.js `ozet:`/`kaynak:` ve savaslar.js `kaynak:` alanlarında — aynı sınıf leke (karar günlüğü okura görünen alana sızmış) ama başka oturumların dosyası ve isim taraması sırasında tesadüfen bulundu. Karar sizin: aynı yamada mı, ayrı mı iner."
+    },
+    {
+      "dosya": "data/devletler.js", "id": "iran", "alan": "ozet",
+      "eski": "hanedan adları (Safevî/Afşar/Zend/Kaçar) ayrı künyelerde tutulur (Emre'nin 7 Ağustos 2026 kararı).",
+      "yeni": "hanedan adları (Safevî/Afşar/Zend/Kaçar) ayrı künyelerde tutulur."
+    },
+    {
+      "dosya": "data/devletler.js", "id": "suud-ucuncu", "alan": "ozet",
+      "eski": "🔴 t: DÜZELTİLDİ (M-3555, 1.MURAT/Emre): künyenin KENDİ `ad:` ve bu ozet zaten 'Necid ve Hicaz Sultanlığı' unvanını taşıyor — bu unvan 1926-1932 arasının unvanıdır. t:'yi 1926'da (Hicaz Krallığı ilanı) bitirmek künyenin kendi adıyla ÇELİŞİRDİ; t: bu yüzden TAM BİRLEŞME'yi (Suûdî Arabistan Krallığı ilanı, 1932-09-18) esas alıyor.",
+      "yeni": "Künyenin kendi 'Necid ve Hicaz Sultanlığı' unvanı 1926-1932 arasına aittir; bitiş tarihi bu yüzden 1926'daki Hicaz Krallığı ilanı değil, 1932-09-18'deki Suûdî Arabistan Krallığı'na tam birleşmeyi esas alır."
+    },
+    {
+      "dosya": "data/devletler.js", "id": "mogolistan", "alan": "ozet",
+      "eski": "🔴 t: DÜZELTİLDİ (M-3555, 1.MURAT/Emre): Bogd Han 1924-05-20'de ÖLDÜ ama HANLIK KURUMU o gün bitmedi — resmî/hukukî son, Moğolistan Halk Cumhuriyeti'nin ilan edildiği ve monarşinin resmen kaldırıldığı 1924-11-26'dır. Hükümdarın ölümü kurumu bitirmez.",
+      "yeni": "Bogd Han 1924-05-20'de öldü, ama hanlık kurumu o gün bitmedi: resmî son, Moğolistan Halk Cumhuriyeti'nin ilan edilip monarşinin kaldırıldığı 1924-11-26'dır."
+    },
+    {
+      "dosya": "data/devletler.js", "id": "cebel-i-lubnan-mutasarrifligi", "alan": "kaynak",
+      "eski": "TDV `lubnan` (aynı madde, ayrı bölüm). 🟢 tur:\"mutasarriflik\" UYGULANDI (M-3555, Emre onayı) — geçici tur:\"devlet\" yerine. Gerekçe (Emre): 1861 Reglement Organique ile kurulan, Hıristiyan vali + uluslararası garantili özerk sancak; sıradan bir vilayet değil. Sözlük VERI-YAPISI.md'de de güncellendi (bkz. tur alan tablosu).",
+      "yeni": "TDV `lubnan` (aynı madde, ayrı bölüm). Tür \"mutasarriflik\" olarak sınıflandırıldı: 1861 Reglement Organique ile kurulan, Hıristiyan vali ve uluslararası garantili özerk bir sancaktı, sıradan bir vilayet değildi."
+    },
+    {
+      "dosya": "data/devletler.js", "id": "tunus-beyligi-fransiz", "alan": "ozet",
+      "eski": "🔴 t: ATLASIN PENCERE SONU (1923-10-29) DEĞİL, GERÇEK bitiş tarihi yazıldı (D195, Emre kararı) — künye bu bakımdan PAKET-T'nin 27 kaydıyla AYNI ilkeyi kendi yaratılışında uyguluyor. ⚠️ HARİTA ETKİSİ AYRI BİR İŞ GEREKTİRİYOR: yerlesimler.js'teki Tunus/Kayrevan/Sfaks noktaları bu dönemi hâlâ v:[{statu:vassal}] (Osmanlı tâbi) olarak taşıyor + isg: (geçici işgal) katmanı biniyor; künye yazılması TEK BAŞINA haritayı değiştirmez — v: kaydının s:[{d:tunus-beyligi-fransiz}] olarak değiştirilmesi ve isg:'nin kaldırılması ayrı, bağımlı bir yerleşim-verisi işidir (HAZIRLIK-TUNUS-0911.json).",
+      "yeni": "Gerçek bitiş tarihi yazıldı, atlasın 1923 pencere sonu değil. ⚠️ Haritadaki etkisi ayrı bir iş gerektiriyor: yerleşim verisinde Tunus/Kayrevan/Sfaks noktaları bu dönemi hâlâ Osmanlı tâbi olarak taşıyor; bunun düzeltilmesi ayrı, bağımlı bir yerleşim-verisi işidir."
+    },
+    {
+      "dosya": "data/savaslar.js", "id": "rus-ozi-1788", "alan": "kaynak",
+      "eski": "tur A6B'de kusatma idi — Emre kararı gereği ilerleyen ordu sefer (kesikli + ok)",
+      "yeni": "ilerleyen bir ordu güzergâhı olduğu için sefer (kesikli çizgi + ok) olarak gösteriliyor, kuşatma değil"
+    },
+    {
+      "dosya": "data/savaslar.js", "id": "rus-kisinev-zimnitsa-1877", "alan": "kaynak",
+      "eski": "Romanya MÜTTEFİK: bu ok bir geçiştir, işgal DEĞİL (Emre kararı: taralı desen yalnız işgal)",
+      "yeni": "Romanya müttefikti: bu ok bir geçiştir, işgal değildir — taralı desen yalnız işgali gösterir"
+    }
+  ]
+}
