@@ -1,0 +1,99 @@
+{
+  "_not": "DALGA-BEKLEYEN.md C3 OSMANLI-TARAF — Sonnet Hazır Kıta 1008. Görev: data/kronoloji_sinir_*.js'de 'taraflar' içinde 'osmanli' geçen maddelerin çekirdek Osmanlı kronolojisinde (data/olaylar*.js) karşılığı var mı ölç; yoksa kaynaklı yeni madde öner. data/olaylar*.js'e YAZILMADI — yalnız öneri, 1.MURAT uygular.",
+
+  "olcum": {
+    "yontem": "grep '\"?taraflar\"?:\\[[^]]*\"osmanli\"[^]]*\\]' data/kronoloji_sinir_*.js — yalnız 'taraflar' alanında osmanli geçenler sayıldı (kronoloji_sinir_komsu.js'deki 'devletler' alanlı 2 kayıt bu tanıma girmiyor, hariç tutuldu).",
+    "toplam_aday": 12,
+    "mevcut_eslesme": 5,
+    "eksik": 7,
+    "not_sayi_farki": "Görev tanımı '11 madde görünmüyor' diyordu; ölçüm 12 aday buldu ve 5'inin çekirdek kronolojide ZATEN karşılığı var — eksik olan 7. D036 (hüküm ile teşhis ayrı şeylerdir): sayı ölçülünce değişti, aşağıda tek tek gerekçesiyle."
+  },
+
+  "eslesenler": [
+    { "sinir_kayit": "kronoloji_sinir_turkiye.js:17", "t": "1908-10-05", "b": "Bulgaristan bağımsızlığını ilan etti — Osmanlı-Bulgar hattı fiilen devletler arası sınır oldu",
+      "karsilik": "data/olaylar_ek.js:79 — t:\"1908-10-05\" \"Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı\"", "sonuc": "ESLESIYOR (gün aynı)" },
+    { "sinir_kayit": "kronoloji_sinir_turkiye.js:29", "t": "1913-05-30", "b": "Londra Antlaşması — Enez-Midye hattının batısı Balkan müttefiklerine bırakıldı",
+      "karsilik": "data/olaylar.js:165 — t:\"1913-05-30\" \"Londra Antlaşması — Rumeli'nin kaybı\"", "sonuc": "ESLESIYOR (gün aynı)" },
+    { "sinir_kayit": "kronoloji_sinir_turkiye.js:35", "t": "1913-09-29", "b": "İstanbul Antlaşması — Osmanlı-Bulgar sınırının tarifi",
+      "karsilik": "data/olaylar_ek5.js:405 — t:\"1913-09-29\" \"İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili\"", "sonuc": "ESLESIYOR (gün aynı)" },
+    { "sinir_kayit": "kronoloji_sinir_ortadogu.js:13", "t": "1912-10-18", "b": "Uşi Antlaşması — Libya'nın Tunus ve Cezayir sınırları Osmanlı'dan İtalya'ya geçti",
+      "karsilik": "data/olaylar_ek5.js:402 — t:\"1912-10-15\" \"Uşi Antlaşması: Trablusgarp ve Bingazi'nin İtalya'ya terki\"",
+      "sonuc": "ESLESIYOR AMA GÜN ÇELİŞİYOR (15 vs 18 Ekim) — bu YAMA'nın kapsamı dışı, ayrıca bildiriliyor (bkz. asagida 'ayrica_bulunan')" },
+    { "sinir_kayit": "kronoloji_sinir_ortadogu.js:14", "t": "1914-12-18", "b": "İngiltere Mısır'da Osmanlı hükümranlığını kaldırdı",
+      "karsilik": "data/olaylar_ek5.js:411 — t:\"1914-12-18\" \"Mısır'ın İngiliz himayesine alınarak sultanlık ilan edilmesi\"", "sonuc": "ESLESIYOR (gün aynı)" }
+  ],
+
+  "eksik_onerilen_madde": [
+    {
+      "sinir_kayit": "kronoloji_sinir_turkiye.js:23",
+      "onerilen_yeni_madde": { "t": "1909-04-19", "k": "antlasma", "etiket": ["antlasma","diplomasi","konu-diplomasi"],
+        "b": "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
+        "gun": "19 Nisan 1909", "yer": "İstanbul", "yer_id": "İstanbul", "kisiler": "",
+        "d": "Rusya'nın aracılığıyla İstanbul'da imzalanan protokolle Osmanlı Devleti, altı ay önce tek taraflı ilan edilen Bulgaristan bağımsızlığını resmen tanıdı. Böylece Istranca'daki eski Osmanlı-Bulgar sınırı hukuken de iki bağımsız devlet arasındaki hat oldu; bu kesim bugün de Türkiye-Bulgaristan sınırının parçasıdır.",
+        "kaynak": "Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9" },
+      "gerekce": "kronoloji_sinir_turkiye.js:23'ün kendi kaynağı (aynen taşındı, D104). Çekirdek kronolojide 1909-04-19 ya da 'Türk-Bulgar Protokolü' araması sonuçsuz — yalnız bağımsızlık ilanı (1908-10-05, olaylar_ek.js) var, tanınması ayrı bir olay ve eksik."
+    },
+    {
+      "sinir_kayit": "kronoloji_sinir_turkiye.js:41",
+      "onerilen_yeni_madde": { "t": "1913-11-17", "k": "antlasma", "etiket": ["antlasma","diplomasi","konu-diplomasi"],
+        "b": "İstanbul Protokolü — Türk-İran sınırının tahdidi",
+        "gun": "17 Kasım 1913", "yer": "İstanbul", "yer_id": "İstanbul", "kisiler": "",
+        "d": "Osmanlı ve İran temsilcileri, İngiliz ve Rus elçilerinin gözetiminde, 1847 Erzurum Antlaşması'na dayanan Türk-İran sınırının tahdit protokolünü İstanbul'da imzaladı. Karma komisyon ertesi yıl Ekim'e kadar hattı Kotur çevresindeki kısa bir kesim dışında yerinde işaretledi. 1923'te Türkiye-İran sınırı olarak kalan bu hat 1932 ve 1937'de üç kesimde değiştirildi.",
+        "kaynak": "IBS No. 28 Iran–Turkey (1964) s.5-7 · H. Efe–M. Kızıl, ERZSOSDE X-I (2017) s.77-90" },
+      "gerekce": "kronoloji_sinir_turkiye.js:41'in kendi kaynağı. Çekirdek kronolojide 'Kotur', 'Erzurum Antlaşması' aramaları yalnız 1639/1847 antlaşmalarına çıkıyor; 1913 protokolü hiç yok."
+    },
+    {
+      "sinir_kayit": "kronoloji_sinir_turkiye.js:47",
+      "onerilen_yeni_madde": { "t": "1915-09-06", "k": "antlasma", "etiket": ["antlasma","diplomasi","konu-diplomasi"],
+        "b": "Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
+        "gun": "6 Eylül 1915", "yer": "Sofya", "yer_id": "Sofya", "kisiler": "",
+        "d": "Bulgaristan'ın Osmanlı yanında savaşa girmesinden kısa süre önce Sofya'da imzalanan sözleşme, 1913 İstanbul Antlaşması'nın çizdiği Osmanlı-Bulgar sınırını düzeltti. Hattın Doğu Trakya kesimi 1921'de Neuilly komisyonunca yeniden işaretlenip Lozan'da teyit edildi.",
+        "kaynak": "IBS No. 49 Bulgaria–Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'" },
+      "gerekce": "kronoloji_sinir_turkiye.js:47'nin kendi kaynağı. Çekirdek kronolojide 'Sofya Sözleşmesi' hiç geçmiyor; yalnız 1913 İstanbul Antlaşması (olaylar_ek5.js:405) var, bu ayrı ve sonraki bir düzeltme."
+    },
+    {
+      "sinir_kayit": "kronoloji_sinir_ortadogu.js:9",
+      "onerilen_yeni_madde": { "t": "1886-01-01", "k": "antlasma", "etiket": ["antlasma","diplomasi","konu-diplomasi"],
+        "b": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+        "gun": "1886", "yer": "Tunus-Trablusgarp sınırı", "yer_id": "", "kisiler": "",
+        "d": "Tunus'un 1881'de Fransız himayesine girmesinden beş yıl sonra Fransa ile Osmanlı Devleti, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz kıyısından başlayarak kısa bir mesafe boyunca belirledi. Kaynak yalnız yılı veriyor; hattın koordinatları bilinmiyor.",
+        "kaynak": "IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary … for a limited distance')" },
+      "gerekce": "kronoloji_sinir_ortadogu.js:9'un kendi kaynağı, kesinlik:yil önerilir (gün yok). Çekirdek kronolojide Tunus-Trablusgarp sınır düzenlemesi hiç yok."
+    },
+    {
+      "sinir_kayit": "kronoloji_sinir_ortadogu.js:10",
+      "onerilen_yeni_madde": { "t": "1892-01-01", "k": "antlasma", "etiket": ["antlasma","diplomasi","konu-diplomasi"],
+        "b": "İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
+        "gun": "1892", "yer": "Tunus-Trablusgarp sınırı", "yer_id": "", "kisiler": "",
+        "d": "İkinci bir Fransız-Osmanlı düzenlemesi, Tunus ile Trablusgarp vilayeti arasındaki sınırı öncekinden daha ayrıntılı biçimde ve iç kesimde Gadames'e kadar belirledi. Bugünkü sınırı çizen asıl belge on sekiz yıl sonra imzalanacak Trablus Sözleşmesi'dir.",
+        "kaynak": "IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy … as far as Ghudamis')" },
+      "gerekce": "kronoloji_sinir_ortadogu.js:10'un kendi kaynağı, kesinlik:yil önerilir. Çekirdek kronolojide yok."
+    },
+    {
+      "sinir_kayit": "kronoloji_sinir_ortadogu.js:11",
+      "onerilen_yeni_madde": { "t": "1906-10-01", "k": "antlasma", "etiket": ["antlasma","diplomasi","konu-diplomasi"],
+        "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı tarif edildi",
+        "gun": "Ekim 1906", "yer": "Refah, Sina", "yer_id": "", "kisiler": "",
+        "d": "1906 Akabe-Taba bunalımının ardından Osmanlı ve Hidiv komiserleri Refah'ta bir idarî ayırma hattı üzerinde anlaştı; hat Akabe Körfezi'ndeki Ras Taba'dan Refah'taki iki sütunun ortasına uzanıyordu. Karma heyet aynı yılın sonu ile ertesi yıl şubatı arasında hat boyunca doksan bir kâgir sütun dikti. Bu hat bugünkü Mısır-İsrail ve Mısır-Gazze sınırıdır.",
+        "kaynak": "Taba hakem kararı, RIAA XX (1988) Ek B s.114-116 (anlaşma metni) ve §54-59 (dikim) · IBS 46" },
+      "gerekce": "kronoloji_sinir_ortadogu.js:11'in kendi kaynağı. Çekirdek kronolojide 'Refah', 'Taba', 'Akabe' hiç geçmiyor — Mısır'ın 1914 hükümranlık kaybı var (olaylar_ek5.js:411) ama 1906 hat tarifi ayrı ve eksik."
+    },
+    {
+      "sinir_kayit": "kronoloji_sinir_ortadogu.js:12",
+      "onerilen_yeni_madde": { "t": "1910-05-19", "k": "antlasma", "etiket": ["antlasma","diplomasi","konu-diplomasi"],
+        "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi",
+        "gun": "19 Mayıs 1910", "yer": "Trablus / Tunus-Trablusgarp sınırı", "yer_id": "", "kisiler": "",
+        "d": "Fransa ile Osmanlı Devleti arasında Trablus'ta imzalanan sözleşme, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz kıyısındaki Ras Ecdir'den Gadames'in güneyine kadar tarif etti. Karma komisyon 1910-1911'de hattı iki yüzü aşkın taşla işaretledi; hat bugün de Libya-Tunus sınırıdır. Bu sınır iki yıl sonra Uşi Antlaşması'yla Osmanlı'dan İtalya'ya geçti.",
+        "kaynak": "IBS 121 (1972) s.2-5 · Martens, Nouveau Recueil Général 3. seri c.VII s.91-93 · IBS 001 (1961) s.2, s.6 ('12 May 1910')" },
+      "gerekce": "kronoloji_sinir_ortadogu.js:12'nin kendi kaynağı (günün 12/19 Mayıs ikiliği de aynen taşındı — sinir kaydı 19 Mayıs'ı esas almıştı). Çekirdek kronolojide Trablus Sözleşmesi yok; yalnız iki yıl sonraki Uşi Antlaşması (bkz. eslesenler) var."
+    }
+  ],
+
+  "ayrica_bulunan": [
+    {
+      "konu": "Uşi Antlaşması gün çelişkisi — bu YAMA'nın kapsamı dışında, C3 ölçümü sırasında görüldü",
+      "bulgu": "kronoloji_sinir_ortadogu.js:13 t:\"1912-10-18\" (TDV trablusgarp-savasi 'esas alındı' notuyla) ile data/olaylar_ek5.js:402 t:\"1912-10-15\" (gun:\"15 Ekim 1912\") AYNI olayı (Uşi Antlaşması) 3 gün farklı günde tarihliyor. Üçüncü bir gün de olaylar.js:164'ün metninde geçiyor ('18 Ekim 1912', künye/metin, t: alanı değil).",
+      "oneri": "Bu YAMA'ya dahil edilmedi çünkü C3'ün görevi 'eksik madde' bulmak, mevcut maddeler arası tarih çelişkisi çözmek değil. Ayrı bir kalem olarak 1.MURAT'a bildiriliyor (D073/D110 ailesi — TDV takvim ekseni ya da IBS/TDV günü ayrışması olabilir, üç kaynak karşılaştırılmalı)."
+    }
+  ]
+}
