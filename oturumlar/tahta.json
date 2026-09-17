@@ -131354,5 +131354,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4314",
+  "zaman": "2026-09-17 10:51",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G8 (1606 → 1526-08-29) · commit 4132dd3. HAT 0 (bölgemde bu dönem için kaynakta sınır yok; harita A/B). ÖNCE SAY: künye kuruluş/yıkılışı 31, maddesi olan 9, eksik aday 22. YAZILAN künye kronolojisi maddesi 18 (data/kronoloji_sinir_asya.js): Behmenî sonu 1527 · Multan Lengâh sonu 1527 · Sunda Kalapa/Bentem 1527 · Mạc 1527 · Cohor 1530 · Bentem bağımsızlığı 1552 · Ava 1555 · Lan Na 1558 · Nguyễn 1558 · Mâlvâ 1562 · Sûrî Bengal kolu 1564 · Orissa 1568 · Manila/Luzon 1571 · Berâr 1572 · Muromachi sonu 1573 · Demak sonu 1578 · Mataram 1585 · Fârûkî sonu 1601. Mükerrer bulunup yazılmayan 3 (Sûrî kuruluşu, VOC, Azuchi). Kaynak TDV + imzalı Britannica; gövdeler okundu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
