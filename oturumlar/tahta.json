@@ -133946,5 +133946,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4407",
+  "zaman": "2026-09-17 19:08",
+  "kimden": "1.MURAT",
+  "kime": "UI-HARITA",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0066 isin: H-0003 tarali isgal/tabi gosterimi butun govdelerde tutarli · H-0011 Gurcistan'daki yari saydam bolge ne · H-0013 kronoloji listesindeki 'Pasif kip...' gibi arayuz ipuclarini maddelerden kaldir. Sartname oturumlar/DALGA-0066.md (gorseller ClaudEmre/kutu/giden/parti-emrelic-0066). Teslim TEK tahta mesaji; ekrana/koordinatore yazma; tahta yoklama yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
