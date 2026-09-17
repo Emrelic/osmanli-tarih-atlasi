@@ -137041,5 +137041,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4431",
+  "zaman": "2026-09-17 21:18",
+  "kimden": "BASRA-KORFEZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · BASRA-KORFEZ (0066 H-0017 · H-0020 · H-0021) · commit 134e253 (1) NE OLCTUM · data/ekokuma_korfez.js YAZILDI — window.EKOKUMA_KORFEZ, 4 kart (H-0017 ilansiz isgal tartismasi · H-0020 Basra/Abadan/Fav 12 maddelik sahiplik cizelgesi · H-0021 sebep-sonuc Basra->Kuveyt · H-0021 \"Kuveyt kimindi\" Osmanli/Ingiliz karsi anlatisi). 20 olay bagi sinandi, 20'si tutuyor; ad alani tek, id cakismasi 0. · Kaynak: 34 TDV govdesi cekildi (18 CANLI okundu, 52 slug 302 OLU) + Iranica 4 madde + Lorimer Gazetteer I (1915) ve Moberly Mesopotamia I (1923) kamu mali OCR. · denetim/YAMA-BASRA-0917.json — ATLASLA 6 AYRISMA olculdu, veriye YAZILMADI: Y1 Basra d basi 1546-01-01 -> 1545-12-26 (TDV gun verir) + atlasta HIC OLMAYAN safevi isgali 1696-1701 (TDV basra + TDV daltaban-mustafa-pasa) Y2 Fav d sonu 1914-11-22 -> 1914-11-06 (TDV irak--ulke + Moberly; cikarma Basra'ya degil Fav'a) Y3 Kurne d sonu 1914-11-22 -> 1914-12-09 (Moberly; Kurne Basra'dan 17 gun SONRA dustu) Y4 Abadan: TDV abadan \"uzun sure Osmanli\" <-> Iranica \"17. yy'dan beri Ka'b asiretinin\" + TDV huzistan \"1837'de ele gecirdiler\" — CELISKI, taraf SECMEDIM Y5 Muhammere 1837'de alinip AYNI YIL bosaltilmis — donem onerilmedi Y6 Kuveyt 1795-04-01 kirilmasi KAYNAKSIZ: TDV kuveyt 1795'te himaye olayi ANLATMIYOR; o yil Lorimer'in donem siniri (Ingiliz ticaret merkezinin Kuveyt'ten ayrilisi). D144+D196. · 6 yeni madde onerisi (K1-K5 + K4b) · 6 duzeltme onerisi (D1-D6). Ikisi olgu hatasi: olaylar_ek8 \"isgal boyunca Ingiliz acentesi Kuveyt'e tasindi\" — Lorimer: BUSEHR'e cekildi (11-16 Nis 1775), Mayis 1776'da Basra'ya dondu; Kuveyt'e tasinma 1793-95. kronoloji_iran 1775-04-16 \"kusatti VE ele gecirdi\": 16 Nis 1775 Ingiliz ajanliginin Busehr'e VARIS gunu; kusatma 7 Nis 1775, teslim 16 Nis 1776. · Degismez 2 olculdu (cekirdek, +-30 gun): 1696-01-01 MADDE YOK · 1701-01-01 yalnizca ilgisiz (Prusya Kralligi) · 1914-11-06 / 11-22 / 12-09 yalnizca ilgisiz maddelerle geciyor. 🔴 Basra'nin BUGUNKU 1914-11-22 kirilmasinin da cekirdekte kendi maddesi YOK (yalniz kuyrukta). (2) NE BULAMADIM · Basra'nin 1779'da geri alinis GUNU: Lorimer yalnizca \"spring of 1779\"; veri 1779-04-01 diyor, maddenin kendi gun alani \"1779\" (S4 ay-kodlu sinifi). Kaynakli gun bulunamadi. · 1696-1701 isgalinin gunleri: Matthee BSOAS 69/1 (2006) erisilemedi (Cambridge 302). · Lorimer'in Kuveyt (s.1000-1005) ve Turk Irak'i (s.1244-1271) bolum GOVDELERI archive.org OCR'inda yok — o iki bolumden yalniz ICINDEKILER okundu, kayda oyle yazildi. · devletler.js'te Muntefik · Huveyze (Musa'sa') · Beni Ka'b · Al-i Megamis kunyesi YOK; Basra 1538-45 ve 1690-96, 1779 ara donemi, Abadan/Muhammere asiret donemleri cizilemiyor. · 16 Nisan 1776 (Lorimer) ile Iranica'nin \"Rabi I 1190\" ayi CELISIYOR (o ay 20 Nisan'da basliyor); ikisi de kayda yazildi, taraf secilmedi. (3) NE ISTIYORUM a) js/app.js `_EKOKUMA_DOSYA_ADLARI` dizisine \"ekokuma_korfez\" satiri (UI-HARITA'ya mi gitsin?) — o satir olmadan 4 kart GORUNMEZ. denetle_yayin listesine de eklenmeli. b) Y1/Y2/Y3 uygulansin mi? Uygulanacaksa K1-K4 maddeleri ONCE inmeli (Degismez 2). Uyari: bu bes yerlesimin her biri icin data/yer_yama_*.js'te zaten d/s dizisi var, yeni bir yer_yama dosyasi _sahiplik_uygula.py'de BLOKE olur — hedef diziler dogrudan islenmeli. c) Y4 (Abadan) ve Y6 (Kuveyt) icin HUKUM: ikisi de kaynak celiskisi, S7.1 (6) geregi bende degil. d) K4b'yi (Basra'nin 1914 isgali cekirdek maddesi) yazayim mi? Bugunku bosluk benim onerimden bagimsiz duruyor. Bende acik dosya YOK; sirada is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
