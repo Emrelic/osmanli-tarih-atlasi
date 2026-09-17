@@ -212,9 +212,253 @@ M = [
  "Karadağ birlikleri 6-7 Ocak'taki Mojkovac Muharebesi'yle Sırp çekilmesini korumuştu; Kral I. Nikola ülkeyi terk etti ve ordu Ocak 1916'da teslim oldu. "
  "(Teslim gününü kaynaklar farklı veriyor: aynı makalede 16 ve 25 Ocak, zaman çizelgesinde 23 Ocak — bu yüzden gün yazılmadı.)",
  ve(AHO, MNE, SE), ["balkan-cephesi"]),
+# ───────────────────────── PARTİ 2 · 1916 ─────────────────────────
+("1916-02-21", ["fransa-cumhuriyet"],
+ "Verdun Muharebesi başladı", "savas", 5, 5,
+ "Almanlar 21 Şubat 1916'da Verdun'e karşı taarruza başladı. "
+ "TDV'ye göre Verdun'ü savunan General Pétain komutasındaki 2. Fransız Ordusu 3 Eylül 1916'da düşmanı çekilmeye mecbur etti. "
+ "(Almanya künyesinde bu olay zaten var; madde Fransa Cumhuriyeti tarafı içindir.)",
+ ve(TDV, TL), ["bati-cephesi"]),
+("1916-03-09", ["almanya"],
+ "Almanya Portekiz'e savaş ilan etti", "savas", 3, 3,
+ "Portekiz, 1914'te kendi sularına sığınmış onlarca Alman gemisine İngiltere'nin ittifak talebiyle el koydu. "
+ "Şikâyeti karşılıksız kalan Almanya 9 Mart 1916'da Portekiz'e savaş ilan etti. "
+ "(Portekiz künyesinde bu olay zaten var; madde Almanya tarafı içindir.)",
+ ve(POR, TL), ["savas-ilani"]),
+("1916-05-04", ["almanya", "abd"],
+ "Sussex Taahhüdü — Almanya denizaltı savaşını sınırladı", "diplomasi", 3, 3,
+ "Almanya 24 Mart 1916'da Fransız yolcu gemisi Sussex'i batırdı; olay Alman denizaltı savaşının geçici olarak durdurulmasına yol açtı. "
+ "Almanya 4 Mayıs 1916'da Sussex Taahhüdü'nü verdi.",
+ TL, ["deniz-savasi"]),
+("1916-06-04", ["rusya", "habsburg"],
+ "Brusilov Taarruzu başladı", "savas", 5, 4,
+ "Rus güney orduları grubu General Brusilov komutasında 4 Haziran 1916'da Avusturyalılara karşı büyük bir taarruza girişti. "
+ "TDV'ye göre üç ay süren taarruz başarılı fakat yıpratıcı oldu; Rus kayıpları 1.400.000'i buldu. Bu cephede Avusturyalılarla birlikte Osmanlı'nın 15. Kolordusu da savaştı.",
+ ve(TDV, TL, EF), ["dogu-cephesi"]),
+("1916-07-01", ["fransa-cumhuriyet", "almanya"],
+ "Somme Muharebesi başladı", "savas", 5, 5,
+ "Batı Cephesi'nde 1 Temmuz 1916'da Somme Muharebesi başladı. "
+ "15 Eylül 1916'da İngilizler bu cephede tankı ilk kez kullandı. "
+ "(İngiltere künyesinde bu olay zaten var.)",
+ TL, ["bati-cephesi"]),
+("1916-08-04", ["italya", "habsburg"],
+ "Gorizia Muharebesi", "savas", 3, 3,
+ "İtalya cephesinde 4 Ağustos 1916'da Gorizia Muharebesi başladı.",
+ TL, ["italya-cephesi"]),
+("1916-08-17", ["romanya-kralligi", "fransa-cumhuriyet", "ingiltere", "rusya", "italya"],
+ "Romanya ile İtilâf devletleri arasında siyasî ve askerî sözleşme imzalandı", "ittifak", 4, 3,
+ "Romanya hükümetinin İtilâf devletleriyle görüşmeleri 17 Ağustos 1916 Siyasî ve Askerî Sözleşmesi ile sonuçlandı. "
+ "Büyük devletler, Avusturya-Macaristan'ın Rumen çoğunluklu topraklarında Romanya'nın hakkını tanıdı; sözleşme on gün sonraki savaş ilanının zeminiydi.",
+ ROM, ["ittifak"]),
+("1916-08-17", ["bulgaristan-kralligi", "sirbistan-kralligi"],
+ "Makedonya cephesinde Merkezî Devletler'in ani taarruzu", "savas", 3, 3,
+ "Romanya'nın savaşa girişini desteklemek için İtilâf kuvvetleri Selanik cephesinde taarruz hazırlarken karşı taraf 17 Ağustos 1916'da bütün cephe boyunca ani bir saldırı başlattı. "
+ "17 Ağustos–20 Kasım 1916 arasındaki Gorniçevo, Kaymakçalan ve Çerna vadisi muharebelerinde İtilâf kuvvetleri bu taarruzu durdurdu ve karşı tarafı kırk kilometre kadar kuzeye itti.",
+ ve(GRE, SE), ["balkan-cephesi"]),
+("1916-08-27", ["habsburg"],
+ "Romanya Avusturya-Macaristan'a savaş ilan etti", "savas", 5, 4,
+ "İtilâf'la yapılan sözleşmenin ardından Romanya 27 Ağustos 1916'da Avusturya-Macaristan'a savaş ilan etti; birkaç gün sonra Erdel'e karşı harekât başladı. "
+ "TDV'ye göre bu karar Rusların Brusilov taarruzundaki başarısının üzerine alındı. "
+ "(Romanya künyesinde bu olay zaten var; madde Habsburg tarafı içindir.)",
+ ve(TDV, TL, ROM), ["savas-ilani", "balkan-cephesi"]),
+("1916-08-30", ["yunanistan"],
+ "Selanik'te Venizelos yanlılarının hareketi — Yunanistan'da ikilik", "isyan", 3, 3,
+ "Venizelos yanlıları 30 Ağustos 1916'da Selanik'teki Yunan garnizonunu denetime almaya çalıştı; bunu ancak güçlükle ve İtilâf komutanı Sarrail'in yardımıyla başardılar. "
+ "Venizelos, General Danglis ve Amiral Kunduriotis Selanik'te ayrı bir millî müdafaa hükümeti kurdu.",
+ GRE, ["balkan-cephesi"]),
+("1916-09-11", ["yunanistan", "bulgaristan-kralligi"],
+ "Kavala'daki Yunan kolordusu Bulgar ordusuna teslim oldu", "toprak-kayip", 3, 2,
+ "Kavala'daki Yunan IV. Kolordusu 11 Eylül 1916'da çarpışmadan Bulgar ordusuna teslim oldu. "
+ "Kolordu Almanya'da Görlitz'deki bir esir kampına götürüldü ve savaşın sonuna kadar orada kaldı.",
+ GRE, ["balkan-cephesi"]),
+("1916-09-15", ["ingiltere", "almanya"],
+ "İngilizler Somme cephesinde tankı ilk kez kullandı", "savas", 4, 4,
+ "15 Eylül 1916'da İngiliz ordusu Somme cephesinde ilk kez tank kullandı. "
+ "TDV'ye göre 1918 yazındaki İtilâf taarruzları da tank ve uçak desteğiyle yapıldı.",
+ ve(TL, TDV), ["bati-cephesi"]),
+("1916-11-05", ["almanya", "habsburg"],
+ "Merkezî Devletler'e bağlı «Polonya Krallığı» ilan edildi", "kurulus", 4, 3,
+ "Almanya ve Avusturya-Macaristan 5 Kasım 1916'da «İki İmparator Bildirisi» ile işgal altındaki Rus Polonyası'nda bir Polonya Krallığı ilan etti. "
+ "Krallığın siyasî yetkisi sınırlıydı, ama sonradan Polonya'nın yeniden kuruluşunda önemli bir adım sayıldı; Aralık 1916'da Geçici Devlet Konseyi kuruldu.",
+ ve(TL, POL, AHO), ["dogu-cephesi"]),
+("1916-12-01", ["yunanistan", "fransa-cumhuriyet", "ingiltere"],
+ "İtilâf deniz piyadeleri Pire'ye çıktı", "savas", 3, 2,
+ "İtilâf devletleri kralcıları uymaya zorlamak için 1 Aralık 1916'da (eski Jülyen takvimiyle 18 Kasım) Pire'ye 3.000 İngiliz ve Fransız deniz piyadesi çıkardı.",
+ GRE, ["balkan-cephesi"]),
+# ───────────────────────── PARTİ 2 · 1917 ─────────────────────────
+("1917-01-22", ["abd"],
+ "Wilson'ın «zafersiz barış» konuşması", "diplomasi", 3, 4,
+ "ABD Başkanı Woodrow Wilson 22 Ocak 1917'de «zafersiz barış» konuşmasını yaptı.",
+ TL, ["diplomasi"]),
+("1917-03-16", ["almanya", "fransa-cumhuriyet"],
+ "Alman ordusu Hindenburg Hattı'na çekildi", "toprak-kayip", 4, 3,
+ "Alman ordusu Şubat 1917'de başlayan «Alberich Harekâtı»yla hazırlanan geri mevzilere, Hindenburg Hattı'na 16 Mart 1917'de çekildi.",
+ TL, ["bati-cephesi"]),
+("1917-04-17", ["fransa-cumhuriyet", "almanya"],
+ "Üçüncü Şampanya Muharebesi (Nivelle Taarruzu)", "savas", 4, 3,
+ "Şampanya'da 17 Nisan 1917'de üçüncü muharebe başladı. "
+ "(Eski «Fransa» künyesinde bu taarruz 16 Nisan tarihiyle geçiyor; zaman çizelgesi 17 Nisan veriyor.)",
+ TL, ["bati-cephesi"]),
+("1917-06-11", ["yunanistan", "fransa-cumhuriyet"],
+ "Fransa Yunanistan'a ültimatom verdi — Kral Konstantin'in çekilmesi istendi", "diplomasi", 4, 3,
+ "Müttefiklerin ilk itirazlarına rağmen Fransa 11 Haziran 1917'de güney Yunanistan'da stratejik noktaları ele geçirdi ve Yunan hükümetine Kral Konstantin'in derhal çekilmesini isteyen bir ültimatom verdi. "
+ "Venizelos 26 Haziran 1917'de Atina'ya dönerek başbakanlığa yeniden geçti.",
+ GRE, ["balkan-cephesi"]),
+("1917-07-01", ["rusya-gecici-hukumet", "habsburg", "almanya"],
+ "Kerenski Taarruzu başladı", "savas", 4, 3,
+ "Rusya Geçici Hükûmeti Doğu Cephesi'nde 1 Temmuz 1917'de Kerenski Taarruzu'nu başlattı. "
+ "TDV'ye göre Kerenski hükümeti ülkeyi saran karışıklıkları gideremedi.",
+ ve(TL, TDV), ["dogu-cephesi"]),
+("1917-07-20", ["sirbistan-kralligi"],
+ "Korfu Bildirisi — Sırp, Hırvat ve Slovenlerin birleşme ilkeleri", "diplomasi", 4, 3,
+ "Sırbistan hükümeti ile 1915'te kurulan Yugoslav Komitesi 20 Temmuz 1917'de Korfu'da ortak bir bildiri yayımladı. "
+ "Bildiri bir Sırp-Hırvat-Sloven Krallığı'nda birleşmeyi öngördü; ilkeleri 1 Aralık 1918'de ilan edilen birleşmenin temeli oldu.",
+ ve(TL, EK + "Mile Bjelajac, «Serbia» — encyclopedia.1914-1918-online.net/article/serbia/"), ["balkan-cephesi"]),
+("1917-07-24", ["romanya-kralligi", "rusya-gecici-hukumet"],
+ "Mărăşti ve Mărăşeşti muharebeleri — Rumen-Rus yaz taarruzu", "savas", 4, 3,
+ "Fransız yardımıyla yeniden düzenlenen Rumen ordusu Rus birlikleriyle birlikte Temmuz 1917'de taarruza geçti. "
+ "Mărăşti (24 Temmuz–1 Ağustos), Mărăşeşti (6 Ağustos–3 Eylül), Oituz (8-21 Ağustos) ve Cireşoaia (9-10 Eylül) muharebeleri, kaynağa göre İtilâf'ın 1917'deki tek başarılarıydı.",
+ SE, ["balkan-cephesi"]),
+("1917-07-31", ["ingiltere", "almanya", "belcika"],
+ "Üçüncü Ypres (Passchendaele) Muharebesi başladı", "savas", 4, 4,
+ "Belçika'da Ypres kesiminde 31 Temmuz 1917'de üçüncü büyük muharebe başladı; Kanada birlikleri 26 Ekim'de Passchendaele'ye saldırdı.",
+ TL, ["bati-cephesi"]),
+("1917-10-24", ["habsburg", "almanya"],
+ "Caporetto yarması — on ikinci Isonzo Muharebesi", "savas", 5, 4,
+ "Avusturya-Macaristan birlikleri Alman birlikleriyle birlikte 24 Ekim 1917'de başlayan on ikinci Isonzo taarruzunda İtalyan cephesini yardı. "
+ "(İtalya künyesinde bu olay «Caporetto Bozgunu» olarak geçiyor; madde Merkezî Devletler tarafı içindir.)",
+ ve(TL, AHO), ["italya-cephesi"]),
+("1917-11-08", ["sovyet-rusya"],
+ "Barış Kararnamesi kabul edildi", "diplomasi", 4, 4,
+ "Lenin'in «Barış Kararnamesi» 8 Kasım 1917'de İkinci Sovyetler Kongresi'nde kabul edildi.",
+ TL, ["dogu-cephesi"]),
+("1917-12-07", ["romanya-kralligi", "almanya", "habsburg"],
+ "Focşani Mütarekesi — Romanya savaşı durdurdu", "antlasma", 4, 3,
+ "Taç Konseyi 2 Aralık 1917'de direnişi sürdürme kararı almış olsa da Başbakan Brătianu, Rusya'nın Brest-Litovsk'ta barış görüşmelerine başlamasından iki gün sonra, 7 Aralık 1917'de Focşani'de Merkezî Devletler'le mütareke imzaladı. "
+ "Bunun sebebi Rus devrimi yüzünden yaklaşık 1.200.000 Rus askerinin cepheden çekilmesiydi.",
+ ve(ROM, SE), ["balkan-cephesi"]),
+("1917-12-15", ["sovyet-rusya", "almanya", "habsburg", "bulgaristan-kralligi"],
+ "Brest-Litovsk Mütarekesi — Rusya ile Merkezî Devletler savaşı durdurdu", "antlasma", 5, 4,
+ "TDV'ye göre Bolşevik hükümeti 15 Aralık 1917'de Almanya ve müttefikleriyle mütareke yaptı. "
+ "Doğu Cephesi makalesine göre mütareke 17 Aralık'ta yürürlüğe girdi.",
+ ve(TDV, EF), ["dogu-cephesi"]),
+# ───────────────────────── PARTİ 2 · 1918 ─────────────────────────
+("1918-01-08", ["abd"],
+ "Wilson'ın On Dört Madde'si", "diplomasi", 5, 5,
+ "ABD Başkanı Wilson 8 Ocak 1918'de Kongre'de On Dört Madde'lik barış programını açıkladı. "
+ "Programın on üçüncü maddesi denize çıkışı olan bağımsız bir Polonya'nın kurulmasını öngörüyordu.",
+ ve(TL, POL, MNE), ["diplomasi"]),
+("1918-02-09", ["almanya", "habsburg", "bulgaristan-kralligi", "ukrayna-halk-cumhuriyeti"],
+ "«Ekmek Barışı» — Ukrayna ile Merkezî Devletler arasında Brest-Litovsk Antlaşması", "antlasma", 4, 4,
+ "Rus ve Ukraynalı Kızıl Muhafızlar Ukrayna'ya girip Rada'yı Kiev'den çıkarınca Rada delegeleri acil askerî yardım umuduyla 9 Şubat 1918'de Brest-Litovsk'ta Merkezî Devletler'le barış antlaşması imzaladı. "
+ "(Ukrayna Halk Cumhuriyeti'nin atlasta künyesi YOK; kimlik öneri olarak yazıldı.)",
+ ve(TL, AHO), ["dogu-cephesi"]),
+("1918-03-03", ["almanya", "habsburg", "bulgaristan-kralligi"],
+ "Brest-Litovsk Antlaşması — Rusya savaştan çekildi", "antlasma", 5, 5,
+ "Bolşevik hükümeti 3 Mart 1918'de Brest-Litovsk Antlaşması'nı imzalayarak savaştan çekildi. "
+ "Antlaşmayla Ukrayna, Galiçya, Finlandiya, Baltık ülkeleri ve Kafkasya üzerindeki denetimden vazgeçildi. "
+ "(Sovyet Rusya künyesinde ve Osmanlı kronolojisinde bu olay zaten var; madde öteki imzacılar içindir.)",
+ ve(TDV, TL, EF), ["dogu-cephesi"]),
+("1918-03-05", ["romanya-kralligi", "almanya", "habsburg"],
+ "Buftea Ön Barışı — Romanya ile Merkezî Devletler", "antlasma", 4, 3,
+ "Alman ve Avusturya-Macaristan baskısı ve aylarca süren görüşmelerin ardından 5 Mart 1918'de Bükreş yakınındaki Buftea'da ön barış antlaşması imzalandı.",
+ ROM, ["balkan-cephesi"]),
+("1918-03-21", ["ingiltere", "fransa-cumhuriyet"],
+ "Alman Bahar Taarruzu başladı", "savas", 5, 4,
+ "Almanlar bütün güçlerini toplayarak 21 Mart 1918'de Batı Cephesi'nde büyük taarruza geçti. "
+ "TDV'ye göre taarruz şiddetli oldu ama 19 Nisan'da başarısızlıkla sonuçlandı; bundan sonra Almanya ve müttefikleri savunmada kaldı. "
+ "(Almanya künyesinde bu olay zaten var.)",
+ ve(TDV, TL), ["bati-cephesi"]),
+("1918-04-09", ["portekiz", "almanya", "ingiltere"],
+ "La Lys Muharebesi — Portekiz tümeni ağır kayıp verdi", "savas", 4, 3,
+ "Mart 1918 Alman taarruzu durdurulduktan sonra İngiliz komutanlığı yıpranmış 1. Portekiz Tümeni'ni geri çekmeye başlamıştı; cephede güçlendirilmiş 2. Tümen kalmıştı. "
+ "Portekiz Seferî Kolordusu'nun savaştaki en ağır sınavı 9 Nisan 1918'de başlayan La Lys Muharebesi oldu.",
+ POR, ["bati-cephesi"]),
+("1918-04-17", ["fransa-cumhuriyet", "ingiltere", "abd"],
+ "General Foch İtilâf orduları başkomutanı oldu", "ittifak", 4, 4,
+ "İtilâf devletleri ortak başkomutanlık kurmaya karar verdi: 1917 Kasım'ında Yüksek Harp Kurulu oluşturuldu, TDV'ye göre 17 Nisan 1918'de de Fransız General Foch'un İtilâf orduları başkomutanı olmasında anlaşıldı.",
+ TDV, ["bati-cephesi"]),
+("1918-05-07", ["romanya-kralligi", "almanya", "habsburg", "bulgaristan-kralligi"],
+ "Bükreş Antlaşması — Romanya ile Merkezî Devletler barışı", "antlasma", 5, 4,
+ "Romanya hükümeti 7 Mayıs 1918'de Bükreş Antlaşması'nı imzaladı. "
+ "Antlaşma işgal altındaki Romanya'nın parlamentosunca onaylanmadı; işgal kuvvetleri ülkede birkaç ay daha kaldı.",
+ ve(TL, ROM, EK + "Richard C. Hall, «Bulgaria» — encyclopedia.1914-1918-online.net/article/bulgaria/"), ["balkan-cephesi"]),
+("1918-06-15", ["italya", "habsburg"],
+ "Piave Muharebesi", "savas", 4, 3,
+ "İtalya cephesinde 15 Haziran 1918'de Piave nehri boyunca muharebe başladı.",
+ TL, ["italya-cephesi"]),
+("1918-07-15", ["fransa-cumhuriyet", "almanya", "abd", "ingiltere"],
+ "İkinci Marne Muharebesi", "savas", 5, 4,
+ "15 Temmuz 1918'de Marne'da ikinci büyük muharebe başladı. "
+ "TDV'ye göre Foch komutasındaki İtilâf karşı taarruzları yaz boyunca sürdü ve Almanlar geride hazırladıkları mevzilere çekildi.",
+ ve(TL, TDV), ["bati-cephesi"]),
+("1918-08-08", ["ingiltere", "fransa-cumhuriyet", "almanya"],
+ "Amiens Taarruzu", "savas", 5, 4,
+ "İngiliz ve Fransız kuvvetleri 8 Ağustos 1918'de Amiens'de taarruza geçti.",
+ TL, ["bati-cephesi"]),
+("1918-09-29", ["sirbistan-kralligi", "bulgaristan-kralligi", "fransa-cumhuriyet"],
+ "Üsküp'ün düşüşü — Bulgar direnişi çöktü", "toprak-kazanc", 4, 3,
+ "Selanik cephesinin yarılmasından sonra Sırp birlikleri 26 Eylül'de Köprülü (Veles) ve İştip'e girdi; Fransız süvarisi 29 Eylül 1918'de ani bir baskınla Üsküp'ü aldı. "
+ "Üsküp'ün düşüşü Bulgar direnişinin sonu oldu ve Bulgaristan İtilâf devletleriyle mütareke imzalayarak savaştan çekildi.",
+ ve(TDV, GRE, SE), ["balkan-cephesi"]),
+("1918-10-03", ["bulgaristan-kralligi"],
+ "Çar Ferdinand tahttan çekildi — III. Boris çar oldu", "siyasi", 4, 3,
+ "Bulgar Çarı Ferdinand 3 Ekim 1918'de oğlu Boris lehine tahttan çekildi ve ülkeyi bir daha dönmemek üzere terk etti.",
+ EK + "Richard C. Hall, «Bulgaria» — encyclopedia.1914-1918-online.net/article/bulgaria/", ["balkan-cephesi"]),
+("1918-10-12", ["sirbistan-kralligi"],
+ "Sırp ordusu Niş'i aldı", "toprak-kazanc", 3, 2,
+ "Sırp birlikleri 12 Ekim 1918'de Niş'i aldı; böylece Merkezî Devletler'in Osmanlı Devleti ile bütün kara bağlantısı kesildi. "
+ "Eski Sırbistan Krallığı'nın bütün toprakları 1 Kasım 1918'e kadar kurtarıldı.",
+ ve(SE, EK + "Mile Bjelajac, «Serbia» — encyclopedia.1914-1918-online.net/article/serbia/"), ["balkan-cephesi"]),
+("1918-10-24", ["habsburg"],
+ "Vittorio Veneto Muharebesi başladı", "savas", 5, 4,
+ "İtalya cephesinde 24 Ekim 1918'de Vittorio Veneto Muharebesi başladı. "
+ "Yenilgiyi kabul eden Avusturya-Macaristan TDV'ye göre 3 Kasım'da silah bıraktı. "
+ "(İtalya künyesinde bu olay zaten var; madde Habsburg tarafı içindir.)",
+ ve(TL, TDV), ["italya-cephesi"]),
+("1918-10-30", ["habsburg"],
+ "Polonyalılar Krakov'da yönetimi ele geçirdi", "toprak-kayip", 3, 2,
+ "Naiplik Konseyi 7 Ekim 1918'de bağımsız Polonya'nın yeniden kurulduğunu ilan etmişti. "
+ "Polonyalılar 30 Ekim 1918'de Avusturya Galiçyası'nın merkezi Krakov'da yönetimi ele geçirdi.",
+ POL, ["dogu-cephesi"]),
+("1918-11-03", ["almanya"],
+ "Kiel'de denizci ayaklanması başladı", "isyan", 4, 3,
+ "Alman donanmasının Kiel'deki denizcileri 3 Kasım 1918'de ayaklandı. "
+ "Altı gün sonra, 9 Kasım'da, Philipp Scheidemann ve Karl Liebknecht ayrı ayrı cumhuriyet ilan etti ve II. Wilhelm tahttan çekildi.",
+ TL, ["alman-devrimi"]),
+("1918-11-10", ["romanya-kralligi", "almanya"],
+ "Romanya yeniden savaşa girdi", "savas", 3, 2,
+ "Romanya, Compiègne mütarekesinden bir gün önce, 10 Kasım 1918'de Merkezî Devletler'e yeniden savaş ilan etti. "
+ "Böylece savaşın sonunda galip devletlerin tarafında yer aldı.",
+ ve(ROM, SE), ["savas-ilani", "balkan-cephesi"]),
+("1918-11-11", ["abd", "belcika"],
+ "Compiègne Mütarekesi — Batı Cephesi'nde savaş sona erdi", "antlasma", 5, 5,
+ "Almanya 11 Kasım 1918'de Compiègne ormanında mütareke imzalayarak silah bıraktı. "
+ "TDV'ye göre dört yıl üç ay on bir gün süren savaşta İtilâf devletleri 5.152.115, Almanya ve müttefikleri 3.386.200 ölü verdi. "
+ "(Almanya, İngiltere ve Fransa künyelerinde bu olay zaten var.)",
+ ve(TDV, TL), ["mutareke"]),
+("1918-11-13", ["macaristan-habsburg", "fransa-cumhuriyet", "sirbistan-kralligi"],
+ "Belgrad Mütarekesi — Macaristan ile savaşın son mütarekesi", "antlasma", 3, 3,
+ "Savaşın son mütarekesi 13 Kasım 1918'de Belgrad'da Macaristan ile imzalandı.",
+ SE, ["mutareke", "balkan-cephesi"]),
+("1918-11-20", ["luksemburg", "almanya"],
+ "Alman işgal ordusu Lüksemburg'dan çekildi", "toprak-kazanc", 3, 2,
+ "Alman işgal ordusu 20 Kasım 1918'de Lüksemburg'dan ayrıldı; ertesi gün ilk Müttefik birlikleri ülkeye girdi.",
+ LUX, ["bati-cephesi"]),
+("1918-11-21", ["belcika"],
+ "Belçika'da yeni hükümet kuruldu — kral ülkeye döndü", "siyasi", 3, 2,
+ "Belçika'da 21 Kasım 1918'de yeni hükümet kuruldu. "
+ "Kral I. Albert ve Kraliçe Elisabeth Kasım 1918'de kurtarılan Belçika topraklarına döndü.",
+ ve(TL, BEL), ["bati-cephesi"]),
 ]
 
 CELISKI = [
+    ("Bükreş'in düşüşü", "TDV 7 Aralık 1916", "Tasić 6 Aralık 1916 · «Romania» makalesi 9 Aralık 1916"),
+    ("Manastır'ın alınışı", "TDV 11 Aralık 1916", "Tasić: 17 Ağustos–20 Kasım 1916 muharebeleri sonunda"),
+    ("Bulgaristan mütarekesi", "TDV 29 Eylül 1918 (ve mevcut KRONOLOJI_BALKAN)", "Tasić 30 Eylül 1918"),
+    ("Dobro Pole / Makedonya taarruzu", "TDV 15 Eylül 1918", "Hall (Bulgaria) ve Greece makalesi 14 Eylül 1918"),
+    ("Yunanistan'ın savaş ilanı", "Greece makalesi 28 Haziran 1917", "zaman çizelgesi 29 Haziran 1917"),
+    ("Zimmermann telgrafı", "USA makalesi 16 Ocak 1917", "zaman çizelgesi 19 Ocak 1917"),
     ("İkinci Ypres / ilk zehirli gaz", "TDV 23 Şubat 1915", "1914-1918-online zaman çizelgesi 21-22 Nisan 1915"),
     ("Birinci Ypres başlangıcı", "TDV 29 Ekim 1914", "1914-1918-online zaman çizelgesi 20 Ekim 1914"),
     ("Karadağ ordusunun teslimi", "SE makalesi 16 Ocak ve 25 Ocak 1916 (iki ayrı yerde)", "zaman çizelgesi 23 Ocak 1916"),
