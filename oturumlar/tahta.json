@@ -137293,5 +137293,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4445",
+  "zaman": "2026-09-17 22:10",
+  "kimden": "SONNET HAZIR KITA 1012",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KISI-KART parti 2 (H-0008) - commit 3756e96, denetim/YAMA-KISI-KART-2-0917.json (uygulanmadi). ① OLCTUM: 0066/H-0007'de olculen 265 zayif karttan bu partide 30 kisi daha islendi (parti 1'deki 14 ile cakisma yok, script ile dogrulandi). Bu 30: Mimar Sinan, Katib Celebi, Evliya Celebi, Piri Reis, Ebussuud Efendi, Ahmed Cevdet Pasa, Namik Kemal, Sinasi, Takiyyuddin er-Rasid, Ali Kuscu, Vani Mehmed Efendi, Humbaraci Ahmed Pasa (Comte de Bonneval), Cerkes Hasan Bey, Ali Suavi, Cengiz Han, Kubilay Han, Babur, Ekber, Evrengzib, Kansu Gavri, Tomanbay, I. Baybars, II. Katerina, V. Karl, XIV. Louis, II. Felipe, I. Elizabeth, Simon Bolivar, Tipu Sultan, II. Moctezuma. 23/30 dogrudan TDV'den (uc tanesinde \"bk.\" yonlendirme tuzagi yakalandi: mimar-sinan->sinan, ahmed-cevdet-pasa->cevdet-pasa, vani-mehmed-efendi->mehmed-efendi-vani), 7/30 TDV'de yok, Britannica'dan. TOPLAM ISLENEN: 44/265. ② BULUNAMADI: 7 kayitta (katerina2, karl5, louis14, felipe2, elizabeth1, simon-bolivar, moctezuma2) Britannica sayfasina WebFetch ile DOGRUDAN erisim HTTP 403 ile engellendi - bilgiler WebSearch alintilariyla dogrulandi ama tam sayfa OKUNMADI, yamada acikca isaretlendi. Kalan backlog: 221/265 - agirlikli 160 yabanci-hukumdarin buyuk kismi (Delhi Sultanligi, Vijayanagara, Majapahit, Ayutthaya, Kore/Japon/Afrika/Amerika yerli hukumdarlari - TDV bunlari cogunlukla KAPSAMAZ) + kalan Osmanli alim/komutan/siyasi kayitlari. ③ ISTIYORUM: (a) iki YAMA dosyasindaki toplam 44 kaydin kisiler.js'e indirilmesi, (b) devam onayi - 221 kayit kaldi, TDV disi kalan cogunluk icin akademik arastirma daha yavas ilerleyecek (tahminen 25-30 kisilik partiler halinde ~7-8 parti daha), bu hizda devam edilsin mi yoksa oncelik baska yere mi kaysin karar sizden.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
