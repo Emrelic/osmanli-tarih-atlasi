@@ -1,0 +1,69 @@
+{
+ "olusturan": "KRONO3-A (Sonnet Hazır Kıta 1006, eski adlar UI-ETKILESIM/EKO-TAMAMLA) · 17 Eylül 2026, KOSU13-OTOBUS.md EK KADRO",
+ "amac": "1-2 maddeli künyeler: Arabistan (10) + Balkanlar (7) — her birine kuruluş/toprak değişimi/son eksenlerinden eksik olanı kaynaklı olarak eklemek. Biçim denetim/YAMA-KRONO2-DKUNYE-0917.json ile AYNI.",
+ "kapsam_tespiti": "17 künye SAYIMLA bulundu: data/devletler.js'te bolge:'arabistan' (27 künyenin 10'u) ve bolge:'balkanlar' (39 künyenin 7'si) kronoloji.length<=2 olanlar — sayı KOSU13-OTOBUS.md'nin verdiği (10+7) ile BİREBİR eşleşti, programatik ölçüldü (node ile).",
+ "yontem": "17 künyenin HER BİRİNİN güncel kronoloji dizisi devletler.js'ten okundu. Önce denetim/YAMA-KRONO2-DKUNYE-0917.json'daki 'dokunulmayan_39_kunye' listesi kontrol edildi — bu 17'nin SEKİZİ (usfuri, nebhani, sarki-rumeli, garbi-trakya, arvanid-sancagi, crnojevic-zetasi, dejanovic-prensligi, hicaz-kralligi) o listede D-KUNYE tarafından 'kısa ömür/kaynağın sessizliği/kimlik-tarih çelişkisi' gerekçesiyle BİLEREK atlanmıştı. Bu oturum onları KÖR KÖRÜNE tekrar denemedi — her biri TEK TEK yeniden TDV'de arandı; ikisinde (arvanid-sancagi, crnojevic-zetasi) D-KUNYE'nin bırakmasından SONRA yeni bir TDV okuması gerçek bir bulgu verdi (aşağıda), altısında VERMEDİ (bulunamadı, açıkça işaretli).",
+ "tur_sozlugu_notu": "VERI-YAPISI.md sözlüğü (kurulus|hukumdar|toprak-kazanc|toprak-kayip|savas|antlasma|bolunme|birlesme|ittifak|isyan|isgal|son) + D-KUNYE'nin fiilen kullandığı 'siyaset' kullanıldı.",
+ "durum": "TASLAK YAMA — devletler.js'e YAZILMADI. UYGULA indirir.",
+ "kritik_bulgu_pencere_kapagi": "6 künyenin `t:` alanı GERÇEK bir bitiş değil, ATLASIN KENDİ PENCERE KAPAĞI (1923-10-29): hicaz-kralligi, suriye-lubnan-mandasi, urdun-emirligi (t:1946 olduğu için bu değil, muaf), oniki-ada-italyan (bu turda ÇÖZÜLDÜ, aşağıya bak), garbi-trakya (57 günlük gerçek son zaten pencere İÇİNDE, muaf). En açık vaka HİCAZ KRALLIĞI: TDV serif-huseyin GERÇEK sonu net veriyor — '16 Ekim 1924'te krallığına ve halifelik iddialarına son verildi' (İbn Suûd'un Mekke'yi alması) — bu tarih künyenin kendi t:'sinden (1923-10-29) 353 GÜN SONRA. Bu satıra YENİ OLAY EKLEMEDİM çünkü künye penceresinin DIŞINDA kalıyor (D011: veri penceresi ≠ künye penceresi, ama t:'yi BEN DEĞİŞTİREMEM, §7); UYGULA/koordinatöre AÇIKÇA bildiriyorum — künyenin t:'si 1924-10-16'ya çekilirse gerçek 'son' olayı eklenebilir.",
+ "cozulen_belirsizlik_crnojevic": "crnojevic-zetasi'nin mevcut 'son' kaydı (1499) kendi kaynak notunda 'DOĞRULANMADI, TDV 1514'ü ayrı sancak kuruluşu olarak veriyor, fark incelenmeli' diyordu. Bu turda TDV karadag YENİDEN okundu: aile 1499'da DİRENME GÜCÜNÜ kaybetti (künyenin t:'si İLE UYUMLU), 1514'teki İskender Bey sancağı ONBEŞ YIL SONRA, AYRI bir Osmanlı idarî düzenlemesi — aynı olay DEĞİL, art arda gelen İKİ olay. ⇒ Künyenin t:1499'u DOĞRU görünüyor, YENİ OLAY EKLEMEDİM (uydurma riski) ama kaynak notundaki 'DOĞRULANMADI' etiketinin kaldırılmasını ÖNERİYORUM — bu bir veri satırı değil, UYGULA'ya sözlü bir bulgu.",
+ "dokunulmayan_kunyeler_bu_turda": "usfuri (künyenin kendi kaynağı isim çelişkisini itiraf ediyor — 'Usfûrî' TDV'de hiç geçmiyor; yeni katman eklemek riskli, D-KUNYE'nin gerekçesi hâlâ geçerli) · nebhani (TDV `uman` yalnız 11. yy'daki BİTİŞ referansını veriyor, kuruluş günü YOK ve zaten atlas penceresinin -1281- ÇOK öncesine düşüyor, künye penceresi içinde eklenecek bir 'kuruluş' yok) · suriye-lubnan-mandasi (gerçek devamı 1946'ya kadar sürüyor, künye penceresi içinde -1920/1923- TDV'de yeni bir ORTA olay bulunamadı) · urdun-emirligi (TDV `urdun` 1923 özerklik ayrıntısını VERMİYOR, bulunamadı) · kesiri-sultanligi (bu turda TDV `hadramut` tekrar taranmadı, zaman kısıtı) · sarki-rumeli (TDV `rumeli`/`bati-trakya` bu 7 yıllık dönem için ek bir olay vermiyor, bulunamadı) · garbi-trakya (57 gün — D-KUNYE'nin 'kısa ömür' gerekçesiyle aynı, orta olay aranmadı) · dejanovic-prensligi (künyenin kendi notu hâlâ 'ARANMAYA DEVAM' diyor, bu turda da TDV'de ek kaynak BULUNAMADI, D-KUNYE'nin temkini korundu).",
+ "satirlar": [
+  {
+   "id": "suud-ikinci",
+   "t": "1865-01-01",
+   "tur": "bolunme",
+   "b": "Faysal b. Türkî'nin ölümünün ardından oğulları Abdullah ile Suûd arasında taht kavgası başladı; İngilizler Suûd'u desteklerken Abdullah Osmanlı himayesine başvurdu",
+   "kaynak": "TDV necid — \"Faysal'ın 1865'teki ölümünden sonra Abdullah ve kardeşi Suûd arasındaki anlaşmazlıklar\" ve İngilizlerin Suûd'u desteklediği, Abdullah'ın Osmanlı korumasına yöneldiği. Gün TDV'de VERİLMİYOR (yalnız 1865 yılı, Faysal'ın ölüm yılı) — YYYY-01-01 kaba."
+  },
+  {
+   "id": "sani-emirligi",
+   "t": "1893-01-01",
+   "tur": "savas",
+   "b": "Basra valisi Hâfız Mehmed Paşa'nın padişah onayı olmadan Devha'ya asker sokması Şeyh Câsim b. Sânî'nin direnişiyle karşılaştı; çıkan çatışmada Osmanlı kuvveti ağır bir hezimete uğradı, Câsim padişah tarafından affedilip görevinde bırakıldı",
+   "kaynak": "TDV katar — \"1893 başlarında\" Hâfız Mehmed Paşa'nın 200 kişilik taburla Devha'ya girmesi, Câsim'in Vecebe Kalesi'ne çekilip direnmesi, Osmanlı kuvvetinin hezimeti. Gün TDV'de yalnız '1893 başı' — YYYY-01-01 kaba, ay/gün uydurulmadı."
+  },
+  {
+   "id": "sabah-emirligi",
+   "t": "1896-01-01",
+   "tur": "bolunme",
+   "b": "Şeyh Muhammed es-Sabah bir suikast sonucu öldürüldü, ailesi içinde iktidar mücadelesi başladı",
+   "kaynak": "TDV kuveyt — \"1896'da bir suikast sonucu öldürüldü\", ardından aile fertleri arasında mücadele. ⚠️ TDV Mübârek'in KARDEŞLERİNİ ÖLDÜRDÜĞÜNÜ doğrudan YAZMIYOR (popüler anlatı bunu iddia eder) — kart bu iddiayı YAZMADI, yalnız TDV'nin doğruladığı kadarını verdi."
+  },
+  {
+   "id": "sabah-emirligi",
+   "t": "1897-01-01",
+   "tur": "vassal",
+   "b": "Osmanlı merkezi yönetimi, aile içi çekişmenin yatışmasını bekledikten ve İngiltere'den yardım talebi endişesiyle, Mübârek es-Sabâh'ın kaymakamlığını onayladı",
+   "kaynak": "TDV kuveyt — \"taraflar İngiltere'den yardım talep edince Osmanlılar endişelenip Mübârek'in kaymakamlığını 1897'de onayladı\". Gün YOK, YYYY-01-01 kaba."
+  },
+  {
+   "id": "cebel-i-lubnan-mutasarrifligi",
+   "t": "1864-09-06",
+   "tur": "siyaset",
+   "b": "İlk mutasarrıf Dâvud Paşa'nın üç yıllık deneyiminin ardından, mutasarrıflığın ana yönetim belgesi sayılan revize nizamname/protokol imzalandı",
+   "kaynak": "TDV lubnan — \"6 Eylül 1864'te yeni bir milletlerarası protokol imzalandı\", bu metnin 1861-1915 arası sekiz mutasarrıfın döneminde ana belge sayıldığı."
+  },
+  {
+   "id": "oniki-ada-italyan",
+   "t": "1923-07-24",
+   "tur": "antlasma",
+   "b": "Lozan Antlaşması'nın 15. maddesi hiç değişikliğe uğramadan imzalandı: Rodos, Oniki Ada ve bağlı adacıklar ile Meis İtalya'ya bırakıldı",
+   "kaynak": "TDV oniki-ada — \"24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nın 15. maddesinde hiçbir değişiklik yapılmadan Rodos, Oniki Ada ve bağlı adacıklarla Meis adasının İtalya'ya verileceği hükme bağlandı.\" ⚠️ Künyenin `t:` (1923-10-29) İLE KARIŞTIRILMASIN — o atlasın kendi pencere kapağı, BU olayın kendi günü 1923-07-24."
+  },
+  {
+   "id": "arvanid-sancagi",
+   "t": "1466-01-01",
+   "tur": "bolunme",
+   "b": "Fâtih Sultan Mehmed'in İlbasan Kalesi'ni inşa ettirmesinin ardından Arvanid-ili sancağı yeniden yapılandırıldı; güneyde Avlonya, doğuda Ohri, kuzeyde İşkodra sancakları ayrı birer sancak olarak kuruldu",
+   "kaynak": "TDV arnavutluk — \"1466 yılına kadar Arnavutluk, Osmanlı idare sisteminde Arvanid-ili adı altında bir sancak olarak görülmektedir\"; İlbasan Kalesi inşasından sonra bölgenin yeni sancak(lar)a bölünmesi, Avlonya/Ohri/İşkodra sancaklarının kuruluşu. 🔴 ÖNEMLİ: bu bulgu künyenin kendi t:'sinin (1537, zaten 'kaynaksız DOĞRULANMADI' işaretli) YANLIŞ olabileceğini düşündürüyor — Arvanid-ili sancağı TEK PARÇA olarak asıl 1466'da SONA ERMİŞ görünüyor. t: değişikliği BENİM YETKİM DIŞINDA (§7), UYGULA'ya AYRICA bildiriliyor."
+  },
+  {
+   "id": "bosna-isgal",
+   "t": "1899-01-01",
+   "tur": "siyaset",
+   "b": "Müftü Ali Fehmi Câbiç liderliğinde, Avusturya-Macaristan idaresine karşı dinî özerklik (millet sistemi hakları) için bir mücadele başlatıldı",
+   "kaynak": "TDV bosna-hersek — \"1899'da müftü Ali Fehmi Câbiç liderliğinde dinî özerklik için mücadele başlatıldı\". Gün YOK, YYYY-01-01 kaba."
+  }
+ ]
+}
