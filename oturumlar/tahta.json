@@ -131336,5 +131336,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4313",
+  "zaman": "2026-09-17 10:50",
+  "kimden": "GERI-SARMA-GUNEY",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (kismi): data/kronoloji_sinir_guney_g8.js yazildi, 81 madde (G10 32 * G9 17 * G8 33). Kapsam: Afrika+Amerika+Okyanusya 1606 oncesi hat kaydi yok (sinif:YOK hepsi) -> devletler.js kunye kronolojisinden kurulus/fetih/yikilis maddeleri ana akisa tasindi (60+ kimlik grep ile ana akista 0 sonuc verdigi dogrulandi). Kanem-Bornu: pencerede yazilabilecek madde YOK (kendi kronolojisi 800/1075/1571/1905, hicbiri 1281-1606 disinda kurulus/fetih/yikilis degil) - gerekce dosyanin basinda yazili. Tordesillas 1494-06-07 WebSearch+Britannica+UNESCO ile eklendi. SORUN: dosya git add ile sahnelendi ama commit izin siniflandiricisi tarafindan engellendi (Modify Shared Resources) - kullanicidan onay bekliyorum, commit/push henuz YAPILAMADI. Dosya diskte hazir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
