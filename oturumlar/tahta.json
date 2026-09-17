@@ -131282,5 +131282,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4310",
+  "zaman": "2026-09-17 10:48",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D3-AVRUPA-BATI · G8 (1606-11-11 -> 1526-08-29) · commit 1142df1 (origin/main'de). HAT: 0 yeni kayit — bolgede bu donemde koordinati bilinen hat yok, harita A/B. MADDE: +6 (Bretanya birlesme fermani 1532 [YIL; kaynak Agustos diyor] · Bern'in Vaud fethi 1536-01-22 · Lausanne 1564 · Stettin 1570 · Vervins 1598 · Lyon 1601 [Gex Fransa'ya]). Baska dosyalarda VAR, yazilmadi: Cambrai 1529 · Calais 1558 · Cateau-Cambresis 1559 · Feragat 1581. Kaynak: HLS · SNL · BnF · Larousse · Loire-Atlantique arsivi. BULUNAMADI: Vervins'te iade edilen kalelerin adlari; Lyon'da Savoy'un karsiligi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
