@@ -3451,10 +3451,10 @@ window.YERLESIMLER_ASYA = [
 // Malaka — 1400 civarında kuruldu (kur:); Albuquerque 24 Ağustos 1511'de
 // aldı, Hollanda 14 Ocak 1641'de, İngiltere 1824 antlaşmasıyla (fiilî
 // devir 1825).
-{ ad:"Malaka", tur:"liman", lat:2.1960, lon:102.2500, g:2, k:2,kd:[{f:"1400-01-01",t:"1511-08-24",k:1,m:"Malaka"}], d:[],
+{ ad:"Malaka", tur:"liman", lat:2.1960, lon:102.2500, g:2, k:2,kd:[{f:"1400-01-01",t:"1511-08-10",k:1,m:"Malaka"}], d:[],
   kur:"1400-01-01",
-  s:[{f:"1400-01-01", t:"1511-08-24", d:"malaka-sultanligi"},
-     {f:"1511-08-24", t:"1641-01-14", d:"portekiz",enklav:true},
+  s:[{f:"1400-01-01", t:"1511-08-10", d:"malaka-sultanligi"},
+     {f:"1511-08-10", t:"1641-01-14", d:"portekiz",enklav:true},
      {f:"1641-01-14", t:"1825-03-01", d:"hollanda-dogu-hint",enklav:true},
      {f:"1825-03-01", t:"1923-10-29", d:"ingiliz-malaya"}] },
 

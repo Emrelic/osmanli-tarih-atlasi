@@ -143,19 +143,19 @@ window.OLAYLAR_EK8 = [
   "yer_id": "Murzuk (Fizan)"
  },
  {
-  "t": "1585-01-01",
+  "t": "1586-01-01",
   "k": "fetih",
   "etiket": [
    "toprak-kazanc",
    "konu-askeri"
   ],
   "b": "Nahçıvan ve Ordubad'ın Osmanlı idaresine girmesi",
-  "gun": "1585",
+  "gun": "1586 (Bilge 2017, Vakanüvis 2 s.51-52; TDV nahcivan yıl vermiyor) — Emre kararı 14 Eylül 2026",
   "yer": "Nahçıvan, Ordubad, Aras vadisi",
   "yer_id": "Nahçıvan",
   "kisiler": "Ferhad Paşa, Özdemiroğlu Osman Paşa",
   "d": "1583'te Revan'ın alınıp beylerbeyilik merkezi yapılmasının ardından Aras vadisi boyunca güneydoğuya inen kuvvetler Nahçıvan ile Ordubad'ı Osmanlı idaresine bağladı; iki şehir yeni kurulan Revan eyaletinin sancakları oldu. TDV İslâm Ansiklopedisi'nin Nahcıvan maddesine göre şehirde ilk defa kalıcı Osmanlı idaresi bu savaş sırasında kuruldu — 1553'teki Nahcıvan seferinde şehir alınmış ama yalnızca yağmalanıp terk edilmişti. Böylece Revan ile Tebriz arasındaki ordu yolu açıldı ve aynı yılın eylülünde Tebriz'e girilebildi. Şah Abbas 1603'te Nahçıvan'ı geri alacaktı.",
-  "kaynak": "nahcivan",
+  "kaynak": "nahcivan · Bilge 2017 (Vakanüvis 2, s.51-52)",
   "duygu": [
    "🎉",
    "😔"

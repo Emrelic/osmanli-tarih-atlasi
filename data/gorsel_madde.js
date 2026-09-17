@@ -945,7 +945,7 @@ window.GORSEL_MADDE = [
       "lisans": "PD-old-70",
       "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Surname-%C4%B1_H%C3%BCmayun_parade.png",
       "kesinlik": "cagdas",
-      "not": "🟡 GÖZLE DOĞRULANMADI — ekran görüntüsü bu turda zaman aşımına uğradı. gorsel_alt yalnız dosya adından türetildi, sahne ayrıntısı YOK. Yayına girmeden önce açılıp gözle görülmeli."
+      "ic_not": "GÖZLE DOĞRULANMADI — ekran görüntüsü zaman aşımına uğradı. gorsel_alt yalnız dosya adından türetildi, sahne ayrıntısı yok. Yayına girmeden önce açılıp gözle görülmeli."
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surname-%C4%B1_H%C3%BCmayun_ships.png?width=800",

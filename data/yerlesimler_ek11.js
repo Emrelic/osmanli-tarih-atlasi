@@ -61,7 +61,7 @@ window.YERLESIMLER_EK11 = [
 
 // ── GÜNEY ESTONYA — Livonya Dukalığı, Lehistan safhası VAR ──────────
 { ad:"Tartu (Dorpat)", tur:"sehir", lat:58.3780, lon:26.7290, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1558-01-01",d:"almanya",kesinlik:{t:"yil"}},{f:"1558-01-01",t:"1582-01-01",d:"rusya",kesinlik:{f:"yil",t:"yil"},kaynak:"Britannica «Livonian War» (Britannica Editors): 1558 Dorpat zaptı · 1582 Yam Zapolski — §4 ara bölge, ikinci kaynak aranacak"},{f:"1582-01-01",t:"1621-09-15",d:"lehistan",kesinlik:{f:"yil"}},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
 
 { ad:"Pärnu", tur:"liman", lat:58.3860, lon:24.4970, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },

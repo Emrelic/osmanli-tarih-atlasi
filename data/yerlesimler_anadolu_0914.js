@@ -68,6 +68,35 @@ window.YERLESIMLER_ANADOLU_0914 = [
      {f:"1350-01-01",t:"1427-06-01",d:"haciemir"},
      {f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1427-06-01",t:"1920-04-23"}],
+  v:[{f:"1398-06-01",t:"1402-07-28",k:"Hacıemîroğulları Beyliği (Osmanlı tâbii)",statu:"vassal",kid:"haciemir"}] },
+
+{ ad:"Göksun", tur:"kale", lat:38.0210, lon:36.4973, g:0, k:4,
+  neden:"0017/H-0001 · 0016/H-0002 · Kayseri–Elbistan–Maraş arasındaki kama. ÖLÇÜLDÜ (1340-01-01, kutu 37,9-38,4K / 36,2-37,0D): en büyük boşluk 80,2 km (38,0K 36,2D, en yakın Maraş); bu noktayla 45,7 km. Geniş şikâyet kutusunda (37,78-39,23K / 35,29-37,56D, 1337-09-09) en büyük boşluk 100,6 → 82,6 km.",
+  not:"ZİNCİR: 1281-1337 İLHANLI ve 1337 günü KOMŞUDAN (§4 şartlı): Elbistan için TDV `elbistan` 'Anadolu'daki Moğol hâkimiyeti' ve 'İlhanlı idaresinin sarsılması sonucu 1337' diyor; Göksun için ayrı gün/yıl YOK; Göksun Elbistan'a 64 km, aynı süreç (Dulkadir beyliğinin kuruluşu). Gün komşudan: Elbistan · TDV elbistan (yıl hassasiyeti, 1337-01-01). 🔴 KODLANMAYAN: Elbistan'ın 1381-1384 Memlük arası TDV'de yalnız 'şehir' için söyleniyor — Göksun'a TAŞINMADI. 1515-06-13 GÜNÜ DOĞRUDAN KAYNAKTAN: Ördekli savaşı 'Göksun ile Andırın arasında'.",
+  kaynak:"TDV `dulkadirogullari` (200, gövde okundu): 'Osmanlı ordusunu Göksun ile Andırın arasında Ördekli mevkiinde karşılayan Alâüddevle yenildi ve öldürüldü (13 Haziran 1515)' · 'Memlük kuvvetlerini Göksun'da karşılayan Sevli Bey galip gelerek' (Dulkadir sahası içinde savunma). TDV `elbistan` (200, gövde okundu): 'İlhanlı idaresinin sarsılması sonucu 1337 yılında Taraklı oymağının reisi Halil Bey yöreyi ele geçirdi'. Koordinat: GeoNames 314188 (Göksun ilçe merkezi, tarihî kale yeri ÖLÇÜLMEDİ). Dar slug `goksun` 302 ÖLÜ.",
+  s:[{f:"1281-01-01",t:"1337-01-01",d:"ilhanli"},
+     {f:"1337-01-01",t:"1515-06-13",d:"dulkadir"},
+     {f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1515-06-13",t:"1920-04-23",y:"savas"}] },
+
+{ ad:"Gürün", tur:"sehir", lat:38.7223, lon:37.2710, g:0, k:4,
+  neden:"0017/H-0001 notunun adıyla istediği dört noktadan biri. Darende–Zamantı–Sivas arasında (38,3-39,2K / 36,2-37,6D, 1340) en büyük boşluk 72,5 → 66,3 km.",
+  not:"ZİNCİR KOMŞUDAN (§4 şartlı): Darende (yerlesimler_ok110.js). Şart ③ kaynağın KENDİSİNDEN: Kaya 'Gürün, Darende ile birlikte aynı devlet yahut beyliklerin sınırları içinde yer almıştı'. Gün komşudan: Darende · TDV dulkadirogullari 'Dârende: 1338'de işgal edildi' (yıl). ⚠️ Darende'nin 1335-01-01'i kendi kaydında 'komşu ankrajdan türetildi' diye BEYANLI — bu tek gün kaynaksız devralındı, bildirilir. 🔴 KODLANMAYAN (Darende'de de yok): Kaya'ya göre Tohma havzası 1344-45 Dulkadir, '1350'lerden sonra' Eratna geri aldı, 'yaklaşık on yıl sonra' tekrar Dulkadir; 1381 sonrası ve 1404 Darende'nin 'tekrar zaptı' (Sümer) — yıl/sahip belirsiz, yazılmadı. Kaya: Gürün 'bu dönemlerde bir köy konumundaydı'.",
+  kaynak:"Abdullah KAYA, 'Dulkadirli Beyliği'nin Eratnalılar ile Münasebetleri', MKÜ SBE Dergisi 11(25), 2014, s.81-97 (dergipark article-file/183340, pypdf ile okundu): s.89 'Gürün, Darende ile birlikte aynı devlet yahut beyliklerin sınırları içinde' · s.87 'Dârende, Gemerek ve Gürün bu akınlar sonucu Dulkadirliler'in eline geçerken'. TDV `dulkadirogullari`: beylik sahası '… Gemerek ve Gürün'den Hatay'a bağlı Hassa'ya kadar'. Koordinat GeoNames 313314. Dar slug `gurun` 302 ÖLÜ.",
+  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},
+     {f:"1335-01-01",t:"1338-01-01",d:"eretna"},
+     {f:"1338-01-01",t:"1515-06-13",d:"dulkadir"},
+     {f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1515-06-13",t:"1920-04-23"}] },
+
+{ ad:"Reşadiye (İskefsir)", tur:"kale", lat:40.3919, lon:37.3375, g:0, k:4,
+  neden:"0030/H-0004 · Ordu peteğinin sivri ucunun batı-iç ayağı: Niksar (40 km) ile Mesudiye (38 km) arasında. Emre kutusunda en büyük boşluk 51,1 → 38,0 km.",
+  not:"ZİNCİR KOMŞUDAN (§4 şartlı) — Ordu (Bayramlı) kaydından, Mesudiye/Gölköy ile AYNI dayanak: İskefsir TDV'de Milas ve Habsamana ile AYNI cümlede, aynı süreçte (Hacıemîroğulları fethi) geçiyor. Gün komşudan: Ordu (Bayramlı) · TDV ordu--sehir. ⚠️ Ordu'nun günleri kısmen kaynaksız: '1350 yıllarında' (yıl) · '800 (1398) baharında' (06-01 ay kodu) · '1427'de ilhak' (06-01 ay kodu) — yeni kırılma üretmemek için DEVRALINDI. 🔴 1281-1350 trabzon-rum bir ÇIKARIMDIR (kale fetih sırasında Rum savunmasındaydı; hangi yıldan beri, bilinmiyor). ⚠️ İskefsir Niksar'a (eretna/taceddin) 40 km — iç kesimde Rum hâkimiyetinin Canik beylikleriyle sınırı ÖLÇÜLMEDİ.",
+  kaynak:"TDV `ordu--sehir` (200, gövde okundu): 'İskefsir (Reşadiye), Milas (Mesudiye), Habsamana (Gölköy), Bolaman, Vona ve Öksün gibi kalelerde fetih sırasında savunmada kalan' · 'Hacıemîroğulları Beyliği 1427'de Osmanlılar tarafından ilhak edildi' · '859 (1455) … vilâyet-i Canik-i Bayramlu maa İskefsir ve Milas' · '954'te (1547) … İskefsir, Bayramlu ve Bazarsuyu kazalarına'. Koordinat GeoNames 740490 (Reşadiye ilçe merkezi; tarihî kale yeri ÖLÇÜLMEDİ).",
+  s:[{f:"1281-01-01",t:"1350-01-01",d:"trabzon-rum"},
+     {f:"1350-01-01",t:"1427-06-01",d:"haciemir"},
+     {f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1427-06-01",t:"1920-04-23"}],
   v:[{f:"1398-06-01",t:"1402-07-28",k:"Hacıemîroğulları Beyliği (Osmanlı tâbii)",statu:"vassal",kid:"haciemir"}] }
 
 ];

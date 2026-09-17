@@ -88,7 +88,7 @@ window.EKOKUMA_TAMAMLA = [
   metin:"II. Selim'in içkiye düşkünlüğü ile 1571 Kıbrıs seferi arasında bağ kuran popüler bir anlatı vardır. TDV'nin II. Selim maddesi padişahı gerçekten 'zevk ve eğlenceye düşkün, içki meclislerine müdavim' olarak tanımlar — ama Kıbrıs seferini anlatan bölümde bu düşkünlükle bir GEREKÇE bağı kurmaz; sefer tamamen askerî-stratejik çerçevede (Venedik'le gerilim, Doğu Akdeniz güvenliği, hac ve ticaret yollarının denetimi) anlatılır. Yani 'şarap için sefer' iddiası bu kaynakta doğrulanmaz, ama çürütülmez de — TDV konuyu hiç İŞLEMEZ.\n\n"
     +"İslâm hukukunda içki kesin haramdır (Mâide 90-91) ve bu yasak teoride Osmanlı'da da geçerliydi; ama meyhâneler ('hânût', 'hammâre') hiç kapanmadı, ticaretini çoğunlukla gayrimüslim tüccarlar yürüttü, panayır ve konaklama yerlerinde satış sürdü. Hükümdarların tutumu değişkendi: kimi (IV. Murad gibi, bk. 'kahve-kahvehane-yasagi' kartı) sert yasaklarla mücadele etti, kimi (II. Selim gibi) kişisel olarak içkiye düşkündü — resmî yasak hiçbir dönemde içkiyi tamamen ortadan kaldıramadı.\n\n"
     +"TDV'nin kendi kaydında ilginç bir ayrıntı var: Ramazan ayında içkiyi bırakmaya (tövbe) kalkışması baş dönmesiyle sonuçlanmış, bu rahatsızlık ölümüne götüren sürecin bir parçası sayılmıştır.",
-  not:"'Sarı Selim' lakabının kaynağı bu turda doğrulanamadı — okunan TDV metninde açıkça geçmiyor; kartta iddia edilmedi.",
+  not:"'Sarı Selim' lakabının kaynağı doğrulanamadı — okunan TDV metninde açıkça geçmiyor; kartta iddia edilmedi.",
   kesinlik:"tartismali",
   olay:["1571-08|Kıbrıs"],
   kaynak:"TDV: selim-ii · TDV: icki",
@@ -132,7 +132,7 @@ window.EKOKUMA_TAMAMLA = [
   kisa:"Bir şehzadenin ya da sultanın doğumu, sünnet veya düğün kadar sık olmasa da, kendi başına bir saray şenliği ve edebî eser konusu olabilirdi.",
   sebep:{ b:"III. Mustafa'nın kızı Hibetullah Sultan'ın dünyaya gelmesi", t:"1759-01-01" },
   sonuc:{ b:"Yedi gün yedi gece süren bir doğum şenliğinin (velâdet-i hümâyun) düzenlenmesi ve şair Haşmet'in bunu 'Vilâdetnâme-i Hibetullah Sultan' adlı bir sûrnâmede anlatması", t:"1759-01-01" },
-  bag:"Sûrnâme türü esas olarak SÜNNET (bk. 'sehzade-mehmed-sunnet-dugunu-1582' kartı, data/ekokuma_toplum.js) ve düğün şenliklerini anlatır; doğum şenlikleri bu türde daha SEYREK işlenir. TDV'nin verdiği iki örnekten biri budur, öteki 1776'da Hatice Sultan'ın doğumudur (Melek İbrâhim'in 'Vilâdetnâme-i Hadîce Sultan'ı).",
+  bag:"Sûrnâme türü esas olarak SÜNNET (bk. Şehzade Mehmed'in Sünnet Düğünü kartı) ve düğün şenliklerini anlatır; doğum şenlikleri bu türde daha SEYREK işlenir. TDV'nin verdiği iki örnekten biri budur, öteki 1776'da Hatice Sultan'ın doğumudur (Melek İbrâhim'in 'Vilâdetnâme-i Hadîce Sultan'ı).",
   metin:"Osmanlı sarayında bir şehzade ya da sultanın doğumu, hanedanın sürekliliğini halka göstermenin bir fırsatıydı ve bazen — sünnet ya da düğün kadar sık olmasa da — kendi başına bir şenlik ve edebî eser konusu oldu. Haşmet'in kaleme aldığı 'Vilâdetnâme-i Hibetullah Sultan', III. Mustafa'nın kızının doğumu üzerine düzenlenen yedi günlük kutlamayı anlatır. Ölüm ve cenaze törenleri ise sûrnâme türünün KAPSAMI DIŞINDADIR — bu tür yalnız sevinç vesilesi olan saray törenlerini (sünnet, düğün, doğum) konu alır; bir padişahın cenaze protokolü tamamen ayrı bir anlatı geleneğine, vakayinamelere aittir.",
   kesinlik:"kesin",
   zincir:[],

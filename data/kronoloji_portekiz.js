@@ -206,7 +206,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Afonso de Albuquerque, Bicapur Sultanlığı'ndan Goa'yı ele geçirdi; şehir kısa sürede Portekiz'in Asya'daki bütün topraklarının (Estado da Índia) başkenti ve dört buçuk asır sürecek bir sömürge merkezi oldu. Goa'nın limanı ve tersanesi, Hint Okyanusu filolarının ana üssüne dönüştü.",
   kaynak:"TDV `portekiz`: \"1510: Goa ele geçirildi\"" },
 
-{ t:"1511-08-24", b:"Malaka'nın fethi — baharat yolunun boğazı ele geçirildi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Malaka",
+{ t:"1511-08-10", b:"Malaka'nın fethi — baharat yolunun boğazı ele geçirildi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Malaka",
   etiket:["askeri","toprak-kazanc","ticaret","konu-askeri","konu-ekonomi"],
   d:"Albuquerque, Malaka Boğazı'nı denetleyen zengin liman şehri Malaka'yı Malaka Sultanlığı'ndan aldı. Boğaz, Hint Okyanusu ile Güneydoğu Asya baharat adaları arasındaki tek deniz geçidiydi; onun ele geçirilmesi Portekiz'e baharat ticaretinin kaynağına doğrudan erişim sağladı.",
   kaynak:"TDV `portekiz`: \"1511: Malezya zaptedildi\" (Malaka Sultanlığı kastediliyor)" },

@@ -1666,44 +1666,8 @@ window.YER_YAMA_TBMM_1920_0905 = [
  },
  {
   "ad": "Manisa",
-  "d": [
-   {
-    "f": "1390-01-01",
-    "t": "1402-07-28",
-    "y": "savas"
-   },
-   {
-    "f": "1416-09-01",
-    "t": "1920-04-23"
-   }
-  ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1313-01-01",
-    "d": "bizans"
-   },
-   {
-    "f": "1313-01-01",
-    "t": "1390-01-01",
-    "d": "saruhan"
-   },
-   {
-    "f": "1402-07-28",
-    "t": "1402-08-17",
-    "d": "timurlu"
-   },
-   {
-    "f": "1402-08-17",
-    "t": "1416-09-01",
-    "d": "saruhan"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
+  "d": [{"f": "1390-01-01", "t": "1402-07-28", "y": "savas"}, {"f": "1415-01-01", "t": "1920-04-23", "kaynak": "saruhanogullari (1411 sonrası-1415 öncesi; en geç uç) · manisa (818/1415 biraz önce)"}],
+  "s": [{"f": "1281-01-01", "t": "1313-01-01", "d": "bizans"}, {"f": "1313-01-01", "t": "1390-01-01", "d": "saruhan"}, {"f": "1402-07-28", "t": "1402-08-17", "d": "timurlu"}, {"f": "1402-08-17", "t": "1415-01-01", "d": "saruhan"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  },
  {
   "ad": "Çeşme",
@@ -2525,7 +2489,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
  {
   "ad": "Erzincan",
   "d": [{"f": "1401-02-01", "t": "1402-07-28"}, {"f": "1514-09-06", "t": "1916-07-24"}, {"f": "1918-02-26", "t": "1920-04-23", "kaynak": "TDV erzincan (26 Şubat 1918)"}],
-  "s": [{"f": "1281-01-01", "t": "1348-01-01", "d": "ilhanli"}, {"f": "1348-01-01", "t": "1379-01-01", "d": "akkoyunlu"}, {"f": "1379-01-01", "t": "1401-02-01", "d": "mutahharten"}, {"f": "1402-07-28", "t": "1410-01-01", "d": "mutahharten"}, {"f": "1410-01-01", "t": "1502-01-01", "d": "akkoyunlu"}, {"f": "1502-01-01", "t": "1514-09-06", "d": "safevi"}, {"f": "1916-07-24", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-02-26", "d": "transkafkasya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
+  "s": [{"f": "1281-01-01", "t": "1348-01-01", "d": "ilhanli"}, {"f": "1348-01-01", "t": "1379-01-01", "d": "eretna", "kaynak": "TDV erzincan: 'Eretna Bey'in hükmüne girdi … (1348)' · 'Pîr Hüseyin Bey'in vefatıyla (1378) … Mutahharten'in Erzincan emîri olması'"}, {"f": "1379-01-01", "t": "1401-02-01", "d": "mutahharten"}, {"f": "1402-07-28", "t": "1410-01-01", "d": "mutahharten"}, {"f": "1410-01-01", "t": "1422-01-01", "d": "karakoyunlu", "kaynak": "TDV erzincan: 'Erzincan 1410 yılında Karakoyunlu hâkimiyetine girdi' · 'Karayülük Osman … Akkoyunlu topraklarına katıldı (1422)' · 'Uzun Hasan … yeniden Akkoyunlu hâkimiyetine aldı (1457)' · TDV uzun-hasan: 'Cihan Şah'ın 854'te (1450) Erzincan'a ordu gönderip burayı alması' — YIL"}, {"f": "1422-01-01", "t": "1450-01-01", "d": "akkoyunlu", "kaynak": "TDV erzincan: 'Erzincan 1410 yılında Karakoyunlu hâkimiyetine girdi' · 'Karayülük Osman … Akkoyunlu topraklarına katıldı (1422)' · 'Uzun Hasan … yeniden Akkoyunlu hâkimiyetine aldı (1457)' · TDV uzun-hasan: 'Cihan Şah'ın 854'te (1450) Erzincan'a ordu gönderip burayı alması' — YIL"}, {"f": "1450-01-01", "t": "1457-01-01", "d": "karakoyunlu", "kaynak": "TDV erzincan: 'Erzincan 1410 yılında Karakoyunlu hâkimiyetine girdi' · 'Karayülük Osman … Akkoyunlu topraklarına katıldı (1422)' · 'Uzun Hasan … yeniden Akkoyunlu hâkimiyetine aldı (1457)' · TDV uzun-hasan: 'Cihan Şah'ın 854'te (1450) Erzincan'a ordu gönderip burayı alması' — YIL"}, {"f": "1457-01-01", "t": "1502-01-01", "d": "akkoyunlu", "kaynak": "TDV erzincan: 'Erzincan 1410 yılında Karakoyunlu hâkimiyetine girdi' · 'Karayülük Osman … Akkoyunlu topraklarına katıldı (1422)' · 'Uzun Hasan … yeniden Akkoyunlu hâkimiyetine aldı (1457)' · TDV uzun-hasan: 'Cihan Şah'ın 854'te (1450) Erzincan'a ordu gönderip burayı alması' — YIL"}, {"f": "1502-01-01", "t": "1514-09-06", "d": "safevi"}, {"f": "1916-07-24", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-02-26", "d": "transkafkasya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  , "kaynak": "TDV `erzincan` — govde okundu: \"Otlukbeli Savasi'ndan (1473) SONRA DA Erzincan AKKOYUNLU sinirlari icinde kaldi\" · \"Akkoyunlu Devleti'nin dagilmasi ile Erzincan SAFEVILER'in kontrolu altina girdi\" · \"Erzincan ve yoresi 1514'te ... savassiz olarak Osmanli hakimiyetine girdi\" · \"Erzincan, Bayburt ile birlikte 23 EKIM 1514'te Biyikli Mehmed Bey'e beylerbeyilik olarak verilmisti\" ⚠️ KIRILMA GUNU 1514-10-23'ten 1514-09-06'ya ALINDI: TDV'nin 23 Ekim'i BEYLERBEYILIK ATAMASIDIR (devirden sonraki idari islem); toprak Caldiran SEFERI sirasinda el degistirdi ve 1514-09-06 kulliyatta VAR OLAN bir gun (\"Yavuz Sultan Selim'in Tebriz'e girisi\"). 47 gunluk kaydirma, ayni seferin icinde.", "neden": "p0004/H-0006. Kayit IKI YERDE yanlisti: (1) 1473-08-11 Otlukbeli'yi Osmanli devri sayiyordu — TDV acikca 'sonra DA Akkoyunlu sinirlari icinde kaldi' diyor; (2) 1502-1514 SAFEVI donemi HIC YOKTU, oysa komsulari Erzurum/Van/Ercis/Kemah'in dordunde de var. Iki kusur birbirini gizliyordu: 1473'ten itibaren Osmanli yazilinca arada Safevi'ye yer kalmiyordu. 🔴 Degismez 2 tavani 0 ve DOLU; 1514-10-23'e ±30 gun madde YOK (en yakin 47 gun). Kaydirma bir odun degil daha dogru modelleme."},
  {
   "ad": "Erzurum",
@@ -2703,8 +2667,8 @@ window.YER_YAMA_TBMM_1920_0905 = [
  },
  {
   "ad": "Bitlis",
-  "d": [{"f": "1515-09-15", "t": "1916-03-01"}, {"f": "1916-08-08", "t": "1920-04-23", "kaynak": "TDV bitlis (Rus işgali 1 Mart - 8 Ağustos 1916)"}],
-  "s": [{"f": "1281-01-01", "t": "1351-01-01", "d": "ilhanli"}, {"f": "1351-01-01", "t": "1467-01-01", "d": "karakoyunlu"}, {"f": "1467-01-01", "t": "1502-01-01", "d": "akkoyunlu"}, {"f": "1502-01-01", "t": "1515-09-15", "d": "safevi"}, {"f": "1916-03-01", "t": "1916-08-08", "d": "rusya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
+  "d": [{"f": "1515-09-15", "t": "1532-01-01", "kaynak": "bitis: Dağlar 2016 (Vakanüvis 1/1) s.185 H.938 Ulama-Fil Paşa kuşatması kaldırıldı, Bitlis Şah Tahmasb'ın himayesindeki Şeref Han'a bağlandı · yıl 1532 = H.938 ∩ 1532 (Iranica ṬAHMĀSP I '1532' — ölçülemedi) · gün kaynakta yok"}, {"f": "1534-01-01", "t": "1916-03-01", "kaynak": "TDV bitlis: 'Bitlis'i 1534'te kesin olarak Osmanlı topraklarına katmıştır' · TDV seref-han: Şeref Han 940 (1533) Ulama tarafından öldürüldü · gün kaynakta yok"}, {"f": "1916-08-08", "t": "1920-04-23", "kaynak": "TDV bitlis (Rus işgali 1 Mart - 8 Ağustos 1916)"}],
+  "s": [{"f": "1281-01-01", "t": "1351-01-01", "d": "ilhanli"}, {"f": "1351-01-01", "t": "1467-01-01", "d": "karakoyunlu"}, {"f": "1467-01-01", "t": "1502-01-01", "d": "akkoyunlu"}, {"f": "1502-01-01", "t": "1515-09-15", "d": "safevi"}, {"f": "1532-01-01", "t": "1534-01-01", "d": "safevi"}, {"f": "1916-03-01", "t": "1916-08-08", "d": "rusya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  , "kaynak": "ankraj Van (72 km) · Erciş — akkoyunlu'nun bitişi külliyatta 1501-07-01/1502-01-01; TDV `akkoyunlular`: Elvend 1501'de yenildi", "neden": "BU KAYITTA AÇILIŞ DOĞRUYDU, kusur KUYRUKTAYDI: akkoyunlu 1515-09-15'e kadar sürüyordu, oysa künye 1514-01-01'de, TDV 1501'de bitiriyor. 1502-1515 arası bölge Safevî'nin elindeydi (Van'ın kendi kaydı bunu söylüyor). Osmanlı günü 1515-09-15 DEĞİŞMEDİ."},
  {
   "ad": "Diyarbakır",
@@ -3158,12 +3122,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
  },
  {
   "ad": "Kilitbahir",
-  "d": [
-   {
-    "f": "1452-01-01",
-    "t": "1920-04-23"
-   }
-  ],
+  "d": [{"f": "1463-01-01", "t": "1920-04-23", "kesinlik": {"f": "yil"}, "kaynak": "TDV kilitbahir-kalesi: 'İstanbul'un fethinden sonra yapılmış kale' · Kritovulos 867 (1463) inşa görevi, 869 (1464-65) tamamlanma · KOSU10-SONRASI §5-0 (Emre 13 Eyl)"}],
   "s": [
    {
     "f": "1920-04-23",
@@ -3549,23 +3508,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "y": "savas"
    }
   ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1337-01-01",
-    "d": "memluk"
-   },
-   {
-    "f": "1337-01-01",
-    "t": "1515-06-13",
-    "d": "dulkadir"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
+  "s": [{"f": "1281-01-01", "t": "1337-01-01", "d": "ilhanli", "kaynak": "TDV elbistan: 1337'ye kadar Moğol/İlhanlı · 1381 Memlük · 1384 Dulkadıroğlu Halil Bey geri aldı (yıl hassasiyeti) — YAMA-0052B-NOKTA #5"}, {"f": "1337-01-01", "t": "1381-01-01", "d": "dulkadir", "kaynak": "TDV elbistan: 1337'ye kadar Moğol/İlhanlı · 1381 Memlük · 1384 Dulkadıroğlu Halil Bey geri aldı (yıl hassasiyeti) — YAMA-0052B-NOKTA #5"}, {"f": "1381-01-01", "t": "1384-01-01", "d": "memluk", "kaynak": "TDV elbistan: 1337'ye kadar Moğol/İlhanlı · 1381 Memlük · 1384 Dulkadıroğlu Halil Bey geri aldı (yıl hassasiyeti) — YAMA-0052B-NOKTA #5"}, {"f": "1384-01-01", "t": "1515-06-13", "d": "dulkadir", "kaynak": "TDV elbistan: 1337'ye kadar Moğol/İlhanlı · 1381 Memlük · 1384 Dulkadıroğlu Halil Bey geri aldı (yıl hassasiyeti) — YAMA-0052B-NOKTA #5"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  },
  {
   "ad": "Biga",
@@ -7550,33 +7493,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "t": "1920-04-23"
    }
   ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1534-06-01",
-    "d": "gurcistan"
-   },
-   {
-    "f": "1878-07-13",
-    "t": "1917-03-15",
-    "d": "rusya"
-   },
-   {
-    "f": "1917-03-15",
-    "t": "1917-11-07",
-    "d": "rusya-gecici-hukumet"
-   },
-   {
-    "f": "1917-11-07",
-    "t": "1918-05-25",
-    "d": "sovyet-rusya"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
+  "s": [{"f": "1281-01-01", "t": "1340-01-01", "d": "ilhanli", "kaynak": "gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"}, {"f": "1340-01-01", "t": "1386-01-01", "d": "celayirli", "kaynak": "gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"}, {"f": "1386-01-01", "t": "1406-10-21", "d": "timurlu", "kaynak": "gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"}, {"f": "1406-10-21", "t": "1467-01-01", "d": "karakoyunlu", "kaynak": "gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"}, {"f": "1467-01-01", "t": "1514-09-06", "d": "akkoyunlu", "kaynak": "gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"}, {"f": "1514-09-06", "t": "1534-06-01", "d": "safevi", "kaynak": "gün komşudan: Kars · TDV kars (1358 Celâyirli · 1386 Timur · Timur sonrası Karakoyunlu · 1467 Uzun Hasan) — Kars'ın kendi günleri TDV ile birebir değil (YAMA-0052B-RENK #3)"}, {"f": "1878-07-13", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-05-25", "d": "sovyet-rusya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  },
  {
   "ad": "Üsküdar",
@@ -7888,28 +7805,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "t": "1920-04-23"
    }
   ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1348-01-01",
-    "d": "ilhanli"
-   },
-   {
-    "f": "1348-01-01",
-    "t": "1502-01-01",
-    "d": "akkoyunlu"
-   },
-   {
-    "f": "1502-01-01",
-    "t": "1518-01-01",
-    "d": "safevi"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
+  "s": [{"f": "1281-01-01", "t": "1360-01-01", "d": "ilhanli", "kaynak": "gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"}, {"f": "1360-01-01", "t": "1385-01-01", "d": "eretna", "kaynak": "gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"}, {"f": "1385-01-01", "t": "1387-01-01", "d": "karakoyunlu", "kaynak": "gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"}, {"f": "1387-01-01", "t": "1403-01-01", "d": "timurlu", "kaynak": "gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"}, {"f": "1403-01-01", "t": "1408-01-01", "d": "mutahharten", "kaynak": "gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"}, {"f": "1408-01-01", "t": "1467-01-01", "d": "karakoyunlu", "kaynak": "gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"}, {"f": "1467-01-01", "t": "1502-01-01", "d": "akkoyunlu", "kaynak": "gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"}, {"f": "1502-01-01", "t": "1518-01-01", "d": "safevi"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  },
  {
   "ad": "Silivri",

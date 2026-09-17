@@ -172,19 +172,8 @@ window.YER_YAMA_YUNANANAKARA = [
   {
     ad: "Vodina (Edessa)",
     // işgal/teslim: 1912-11-08 (veriden) → Atina 1913-11-14
-    d: [
-      { f: "1392-01-15", t: "1402-07-28" },
-      { f: "1413-07-05", t: "1913-11-14" }
-    ],
-    s: [
-      { f: "1281-01-01", t: "1345-01-01", d: "bizans" },
-      { f: "1345-01-01", t: "1392-01-15", d: "sirbistan" },
-      { f: "1402-07-28", t: "1410-02-13", d: "suleyman-celebi" },
-      { f: "1410-02-13", t: "1410-06-15", d: "musa-celebi" },
-      { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
-      { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
-      { f: "1913-11-14", t: "1923-10-29", d: "yunanistan" }
-    ],
+    d: [{f:"1387-01-01",t:"1402-07-28",kaynak:"vodina — 1386-1387 kışı (TDV: kuvvetli ihtimal; KPZ 1391, APZ Üsküp sonrası), YIL"},{f:"1413-07-05",t:"1913-11-14"}],
+    s: [{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1387-01-01",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
     isg: [ { f: "1912-11-08", t: "1913-11-14", d: "yunanistan" } ],
     kaynak: "atina-antlasmasi"
   },

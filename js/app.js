@@ -2913,24 +2913,35 @@ function sehirGuncelle(t) {
   // Aynı O(n) taramaya bindiriliyor — ayrı bir geçiş açmak `olaylar`ı iki kere
   // gezmek olurdu (1000+ madde × her kare).
   var anilan = {}, fetihTarihi = {}, yaklasan = {}, savasSimgesi = {};
-  // 🆕 UI-HARITA (DALGA-0064 H-0015, Emre): "simgeler birbirinin üstüne
-  // biniyor, düzgün ayarla." Ölçülmüş vaka: Musul Savunması hem KENDİ
-  // `savas-isaret` işaretini (savasIsaretleri, tam ad + ikon) hem de aynı
-  // yuvada `.s-yontem` düşen küçük ⚔ ikonunu (aşağıda, p4/H-0008) aynı
-  // koordinata basıyordu — iki işaret AYNI bilgiyi tekrarlayıp üst üste
-  // biniyordu. Çare üretmek değil: yönteme has ikon, tam boy bir savaş
-  // işareti zaten AYNI yerde açıksa hiç basılmaz (aşağıda `_aktifSavasKoord`
-  // ile süzülüyor). `savasGuncelle`nin kendi çakışma elemesi HER ZAMAN
+  // 🆕 UI-HARITA (DALGA-0064 H-0015 · DALGA-0065 H-0012/14, Çeşme 1770 ile
+  // düzeltildi): "simgeler birbirinin üstüne biniyor." Ölçülmüş vaka: Musul
+  // Savunması hem KENDİ `savas-isaret` işaretini (savasIsaretleri, tam ad +
+  // ikon) hem de aynı yuvada `.s-yontem` düşen küçük ⚔ ikonunu (aşağıda,
+  // p4/H-0008) basıyordu — iki işaret AYNI bilgiyi tekrarlayıp üst üste
+  // biniyordu. Çare: yönteme has ikon, YAKINDA tam boy bir savaş işareti
+  // zaten açıksa hiç basılmaz (aşağıda `_aktifSavasNoktalari` ile süzülüyor).
+  // 🔴 İLK YAZIM `.toFixed(3)` ile TAM eşleşme arıyordu ve Musul'da tesadüfen
+  // tutmuştu (künye ile savaş kaydı aynı ondalığı paylaşıyordu); Çeşme'de
+  // ÇÜRÜDÜ — şehrin kendi kaydı 38.3250/26.3091, savaş kaydı 38.32/26.30
+  // (~600 m fark, TAM SAYIDA eşleşmiyor). ⇒ Konum eşitliği değil YAKINLIK
+  // (kmArasi, 3 km eşik — D066'nın "3 km bir şüphe eşiğidir" ölçütüyle aynı
+  // mertebe) arandı. `savasGuncelle`nin kendi çakışma elemesi HER ZAMAN
   // `sehirGuncelle`den SONRA çalıştığı için oradaki `ekli` bayrağı bir kare
   // eski olurdu; bunun yerine aynı pencere kuralı (`t < gi+sure`) burada
   // BAĞIMSIZ tekrar hesaplanıyor.
-  var _aktifSavasKoord = {};
+  var _aktifSavasNoktalari = [];
   for (var _svi = 0; _svi < savasIsaretleri.length; _svi++) {
     var _sv = savasIsaretleri[_svi];
     var _svSure = _sv.sure || sonrakiOlayaKadar(_sv.gi);
     if (t < _sv.gi || t >= _sv.gi + _svSure) continue;
     var _svLL = _sv.mk.getLngLat();
-    _aktifSavasKoord[_svLL.lng.toFixed(3) + "," + _svLL.lat.toFixed(3)] = true;
+    _aktifSavasNoktalari.push(_svLL);
+  }
+  function _yakinAktifSavasVarMi(lat, lon) {
+    for (var _k = 0; _k < _aktifSavasNoktalari.length; _k++) {
+      if (kmArasi(lat, lon, _aktifSavasNoktalari[_k].lat, _aktifSavasNoktalari[_k].lng) < 3) return true;
+    }
+    return false;
   }
   for (var oi = 0; oi < olaylar.length; oi++) {
     var o = olaylar[oi];
@@ -3160,10 +3171,10 @@ function sehirGuncelle(t) {
     // madde savaş türündeyse, aynı yuvada savaş simgesi çıkar. İkisi aynı anda
     // olmaz: mülkiyet değişimi zaten daha somut bir olgu, öncelik onda.
     var simgeBaslik = "";
-    // H-0015: aynı koordinatta tam boy bir savaş işareti zaten açıksa bu
-    // küçük ikon BASILMAZ — ikisi aynı bilgiyi tekrarlayıp üst üste biniyordu.
-    var _muhKoord = m.s.lon.toFixed(3) + "," + m.s.lat.toFixed(3);
-    if (!simge && savasSimgesi[mi] && !_aktifSavasKoord[_muhKoord]) {
+    // H-0015/H-0012·14: yakında (3 km içinde) tam boy bir savaş işareti
+    // zaten açıksa bu küçük ikon BASILMAZ — ikisi aynı bilgiyi tekrarlayıp
+    // üst üste biniyordu.
+    if (!simge && savasSimgesi[mi] && !_yakinAktifSavasVarMi(m.s.lat, m.s.lon)) {
       simge = savasSimgesi[mi].s; simgeBaslik = savasSimgesi[mi].b;
     }
     if (m.yontemEl.textContent !== simge) m.yontemEl.textContent = simge;
@@ -3431,12 +3442,26 @@ function savasGuncelle(t) {
     ? olaylar[sonVurgulanan].gi : null;
   var tutulan = [];
   var korunan = [];
+  // 🆕 UI-HARITA (DALGA-0065 H-0012/14, Çeşme 1770 ile ölçüldü) — odaktaki
+  // GÜNE birden fazla savas-isaret düşebilir (Çeşme'de aynı gün için
+  // `savaslar.js`de İKİ ayrı kayıt var: "Çeşme (deniz)" ve "Çeşme baskını",
+  // 3 px arayla). Eskiden `mp.gi === odakGi` olan HER işaret tam korunuyordu
+  // — yani ikisi de HİÇBİR ZAMAN çarpışma sınavından geçmiyor, ikisi de tam
+  // boy kalıp üst üste biniyordu. Artık yalnız İLK eşleşen tam korunur;
+  // ikincisi aşağıdaki normal çarpışma sınavına girer (birincinin kutusu
+  // zaten `tutulan`da) ve çarpışırsa küçük simgeye iner — "hepsini koru"
+  // değil "konunun BİR temsilcisini koru".
+  var _odakIlkBulundu = false;
   for (var mk0 = 0; mk0 < savasIsaretleri.length; mk0++) {
     var mp = savasIsaretleri[mk0];
+    mp._odakKorundu = false;
     if (!mp.ekli || odakGi === null || mp.gi !== odakGi) continue;
     var pel = mp.mk.getElement();
     var pr = pel ? pel.getBoundingClientRect() : null;
-    if (pr && pr.width) { korunan.push(pr); tutulan.push(pr); }
+    if (pr && pr.width) {
+      korunan.push(pr); tutulan.push(pr);
+      if (!_odakIlkBulundu) { mp._odakKorundu = true; _odakIlkBulundu = true; }
+    }
   }
   for (var si = 0; si < sehirler.length; si++) {
     if (!sehirler[si].ekli) continue;
@@ -3457,7 +3482,7 @@ function savasGuncelle(t) {
     var el = mm.mk.getElement();
     var svIc = el ? el.firstChild : null;
     if (svIc) svIc.classList.remove("sv-sade");
-    if (odakGi !== null && mm.gi === odakGi) continue;   // odaktaki: dokunma
+    if (mm._odakKorundu) continue;   // odaktaki TEK temsilci: dokunma
     var r = el ? el.getBoundingClientRect() : null;
     if (!r || !r.width) continue;
     var carpti = false;

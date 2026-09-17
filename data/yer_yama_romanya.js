@@ -206,14 +206,7 @@ window.YER_YAMA_ROMANYA = [
 
   {
     ad: "Yergöğü (Giurgiu)",
-    s: [
-      { f: "1281-01-01", t: "1420-01-01", d: "eflak" },
-      { f: "1427-01-01", t: "1449-01-01", d: "eflak" },
-      { f: "1810-09-27", t: "1829-09-14", d: "rusya" },
-      { f: "1829-09-14", t: "1859-01-24", d: "eflak" },
-      { f: "1859-01-24", t: "1881-03-26", d: "romanya" },
-      { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }
-    ]
+    s: [{f:"1281-01-01",t:"1420-01-01",d:"eflak"},{f:"1427-01-01",t:"1450-01-01",d:"eflak",kaynak:"TDV yergogu: '1427'de Eflaklılar Giurgiu Kalesi'ni geri aldı'"},{f:"1829-09-14",t:"1859-01-24",d:"eflak"},{f:"1859-01-24",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}]
   },
 
   {

@@ -523,7 +523,7 @@ window.EKOKUMA_SAVAS = [
   bag:"İki görüş çelişmez, ölçek konusunda ayrışır: biri yoklamayı yangını tutuşturan kıvılcım, öteki zaten yanan bir ateşe dökülen yakıt gibi görür. Kesin olan, Haçova'nın askerî zaferinin Anadolu'da bir iç güvenlik bedeli doğurduğudur; zafer 1606'ya kadar süren savaşın gidişini de değiştirmedi.",
   not:"Zaferden sonra Cigalazâde'nin, Eğri'ye gelmeyip savaşa az kuvvet gönderen Kırım Hanı Gazi Giray'ı azlettirmesi de rakiplerince aleyhine kullanıldı.",
   kesinlik:"tartismali",
-  olay:["1596-10|Haçova","1596-10-26|Haçova bozgunu","1599-06-01|Karayazıcı"],
+  olay:["1596-10-26|Haçova","1596-10-26|Haçova bozgunu","1599-01-01|Karayazıcı"],
   kaynak:"TDV: hacova-meydan-savasi · TDV: cigalazade-sinan-pasa · TDV: celali-isyanlari" }
 
 ];

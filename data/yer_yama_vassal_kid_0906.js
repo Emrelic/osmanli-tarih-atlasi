@@ -71,7 +71,7 @@ window.YER_YAMA_VASSAL_KID_0906 = [
   { ad:"Girit (Resmo)", v:[{f:"1830-11-01",t:"1841-02-25",statu:"vassal"},{f:"1898-12-01",t:"1913-05-30",statu:"vassal"}] },
   { ad:"Bahçesaray", v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı",statu:"vassal",kid:"kirim"}] },
   { ad:"Tarki (Tarku)", v:[{f:"1578-11-01",t:"1607-01-01",k:"Kumuk şamhallığı (tâbi)",statu:"vassal"}] },
-  { ad:"Zagem (Kaheti)", v:[{f:"1578-08-09",t:"1606-01-01",k:"Kaheti krallığı (tâbi)",statu:"vassal"}] },
+  { ad:"Zagem (Kaheti)", v:[{f:"1578-08-24",t:"1606-01-01",k:"Kaheti krallığı (tâbi)",statu:"vassal",kaynak:"TDV gurcistan: 'Tiflis'in fethinden sonra İmeret ve Kahet yöneticileri Osmanlılar'a itaatlerini bildirdiler' — gün komşudan: Tiflis · TDV tiflis (24 Ağustos 1578); değer EN ERKEN sınırdır"}] },
   { ad:"Halep", v:[{f:"1832-06-25",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
   { ad:"Hama", v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
   { ad:"Şam", v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },

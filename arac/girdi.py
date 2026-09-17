@@ -776,6 +776,12 @@ GIRDI_DOSYALARI = [
                                       # `devletsiz` ayrımı). Boşluk bir
                                       # eksiklik değil bir ÖLÇÜM; bağlı
                                       # olması "bu dosya görüldü" demektir.
+    # KOSU13-OTOBUS (17 Eylül 2026) — NOKTASIZLIK-ADAY kümelerine kaynaklı noktalar
+    "yerlesimler_nokta_amerika_0917.js",
+    "yerlesimler_nokta_asya_0917.js",
+    # "yerlesimler_nokta_ortadogu_0917.js",  # 1b boşluğu (Leylâ·Havta·Dilem·Hurma·Türabe) — D4-ORTADOGU düzeltince bağlanır
+    "yerlesimler_nokta_sibirya_0917.js",
+    "yerlesimler_nokta_afrika_0917.js",
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma

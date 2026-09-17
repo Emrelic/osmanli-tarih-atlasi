@@ -177,7 +177,7 @@ window.EKOKUMA_KURUM = [
 // ── H-0086 · Eflak-Boğdan-Erdel'in iç/dış hakları ───────────────────────────
 { id:"teknik-eflak-bogdan-erdel-haklari", tur:"teknik-bilimsel",
   kisa:"Bu üç voyvodalık ne tam bağımsızdı ne bir Osmanlı sancağı — aradaki çizgi vergide, orduda ve prensin kimin onayıyla tahta çıktığında duruyordu.",
-  metin:"H-0085'teki genel listeye ek olarak, üç Balkan/Karpat voyvodalığının somut yetki paylaşımı:\n\n"
+  metin:"Genel listeye ek olarak, üç Balkan/Karpat voyvodalığının somut yetki paylaşımı:\n\n"
     +"■ İÇ İŞLER\n"
     +"Üçünde de yerli voyvoda/prens iç yönetimi elinde tuttu: Eflak'ta yerli boyarlar ve bağımsız bir Ortodoks metropolitlik, Boğdan'da benzer bir yerel idare, Erdel'de macar/sekel/sas 'üç millet' meclisi kendi iç düzenini sürdürdü. Osmanlı hiçbirinin gündelik idaresine karışmadı.\n\n"
     +"■ VERGİ (HARAÇ)\n"

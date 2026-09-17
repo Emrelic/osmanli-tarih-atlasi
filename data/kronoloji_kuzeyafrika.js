@@ -114,7 +114,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"Abdülvâdîler Tilimsan'ı geri alarak on yıllık Merînî hâkimiyetine son verdi.",
   kaynak:"TDV `meriniler`: \"749/1348'de Abdülvâdîler Tilimsân'ı geri aldı; on yıllık Merînî hâkimiyeti sona erdi\"" },
 
-{ t:"1358-01-01", b:"Ebû İnân Tilimsan'a girdi, Abdülvâdîlerin ikinci hükümranlığı sona erdi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
+{ t:"1352-01-01", b:"Ebû İnân Tilimsan'a girdi, Abdülvâdîlerin ikinci hükümranlığı sona erdi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Ebû İnân, babası Ebü'l-Hasan'ın işini tamamlayıp Tilimsan'ı yeniden ilhak etti; aynı yıl Kostantîne'yi zaptedip Tunus'a girerek Hafsî hâkimiyetine de son verdi — Merînî gücünün son zirvesi.",
   kaynak:"TDV `meriniler`: \"759/1358'de Ebû İnân Tilimsân'a girdi\" · \"758/1357'de Kostantîne zaptedilerek Tunus'a girilerek Hafsîler hâkimiyeti sona erdi\"" },
@@ -371,7 +371,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   d:"On yıllık Merînî ilhakının ardından Abdülvâdîler Tilimsan'ı geri aldı. bkz. [[merini]].",
   kaynak:"TDV `tilimsan` · TDV `meriniler`: \"749/1348'de Abdülvâdîler Tilimsân'ı geri aldı\"" },
 
-{ t:"1358-01-01", b:"Merînîler Tilimsan'ı ikinci kez aldı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
+{ t:"1352-01-01", b:"Merînîler Tilimsan'ı ikinci kez aldı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip","konu-askeri"],
   d:"Merînî hükümdarı Ebû İnân, Tilimsan'ı ikinci kez ele geçirerek Abdülvâdîlerin ikinci hükümranlık dönemine son verdi. bkz. [[merini]].",
   kaynak:"TDV `tilimsan` · TDV `meriniler`: \"759/1358'de Ebû İnân Tilimsân'a girdi\"" },

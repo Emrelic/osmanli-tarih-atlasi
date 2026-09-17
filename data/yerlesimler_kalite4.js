@@ -33,7 +33,7 @@ window.YERLESIMLER_KALITE4 = [
   // kaynak: standart akademik (Encyclopaedia Iranica/Wikipedia, TDV müstakil maddesi yok)
   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu"},{f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
 
-{ ad:"Mahabad (Sâvücbulak)",d:[{f:"1725-08-04",t:"1730-08-12",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.119 (TD 909 Sovukbulak) · TDV tebriz · Özcoşar-Açar 2024 · gün komşudan: Merâga · Emre 17 Eyl: Kürt beylikleri d:"}], tur:"sehir", lat:36.77, lon:45.72, g:0, k:3,
+{ ad:"Mahabad (Sâvücbulak)",v:[{f:"1585-09-25",t:"1603-10-21",kaynak:"Mukrî beyliği Osmanlı tâbiliği — Iranica MOKRI (Oberling): bağlılık Osmanlıların Azerbaycan'ı alışına ve Şah Abbas'ın 1603'te geri alışına bağlı · gün komşudan: Tebriz · TDV tebriz (25 Eylül 1585 · 21 Ekim 1603) · Emre kararı 13 Eyl 2026 karar 5 (tâbi, künye yok)"}], d:[{f:"1725-07-28",t:"1730-08-12",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.119 (TD 909 Sovukbulak) · TDV tebriz · Özcoşar-Açar 2024 · gün komşudan: Merâga · Emre 17 Eyl: Kürt beylikleri d:"}], tur:"sehir", lat:36.77, lon:45.72, g:0, k:3,
   kur:"1501-07-01",
   // kaynak: standart akademik — "ilk kez 16. yy'da (Safevî dönemi)
   // kaydediliyor, 17. yy'da Mükrî beyliğinin merkezi oldu" (Budak Sultan
@@ -53,7 +53,7 @@ window.YERLESIMLER_KALITE4 = [
   // (Mükriyân), Safevî-Osmanlı sınır bölgesi. TDV müstakil maddesi yok.
   s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
 
-{ ad:"Şerur (Sharur)",d:[{f:"1724-10-03",t:"1735-10-03",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.107 (TD 901 Şerür nahiyesi) · gün komşudan: Revan"}], tur:"sehir", lat:39.55, lon:44.95, g:0, k:3,
+{ ad:"Şerur (Sharur)",d:[{f:"1586-01-01",t:"1603-10-21",kaynak:"BOA TD 633 (Kasım 1590) 'Şerür' kazası — Bilgili 2016 · gün komşudan: Nahçıvan — Emre kararı 14 Eylül 2026 (bölge birlikte; Nahçıvan 1586 Bilge, Vakanüvis 2) · bitiş Nahçıvan ile aynı (TDV nahcivan: 1012/1603 Şah Abbas geri aldı)"},{f:"1724-10-03",t:"1735-10-03",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.107 (TD 901 Şerür nahiyesi) · gün komşudan: Revan"}], tur:"sehir", lat:39.55, lon:44.95, g:0, k:3,
   // kaynak: standart akademik — "Nahçıvan'ın en eski ve en büyük
   // yerleşimlerinden biri", 1502'de Şah İsmâil'in Safevî ordusu burada
   // savaş kazandı (Nahçıvan'ın Safevî'ye geçişiyle aynı dönem), 16-18.

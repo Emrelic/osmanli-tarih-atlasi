@@ -47,10 +47,7 @@ window.YER_YAMA_IRAN = [
     ad: "Mîyandoab",
     // MEVCUT: d:[] (boş) · s: safevi 1501-07-01 → 1736-03-08 (bölünmemiş)
     // KOSU13-YAMA 17 Eyl: ikinci pencere eklendi (YAMA-0060-IRAN1723 #14 — kaynak Bilgili 2016 TD 909)
-    d: [
-      { f: "1585-09-25", t: "1603-10-21" },
-      { f: "1725-08-04", t: "1730-08-12", kaynak: "Bilgili 2016 (Ermeni Araştırmaları 53) s.119 (TD 909 Miyan-duvâb nahiyesi) · gün komşudan: Merâga (Tebriz ile aynı gün, Emre kararı)" }
-    ],
+    d: [{f:"1585-09-25",t:"1603-10-21"},{f:"1725-07-28",t:"1730-08-12",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.119 (TD 909 Miyan-duvâb nahiyesi) · gün komşudan: Merâga (Tebriz ile aynı gün, Emre kararı)"}],
     kaynak: "TDV `tebriz` — 1593 idarî taksimi gövdesi okundu: Tebriz eyaleti " +
             "livâları arasında Merâga, Merâga'nın nahiyeleri arasında " +
             "\"Miyândûvab\". TDV `meraga`: şehir 993 (1585) yılında " +

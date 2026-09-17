@@ -82,7 +82,7 @@ window.EKOKUMA_EKONOMI = [
   metin:"Tağşiş, sikkenin değerli maden (gümüş) oranını düşürüp aynı ağırlıkta daha fazla para basmaktır — devlete kısa vadede ek gelir sağlar ama halkın elindeki paranın alım gücünü eritir. 1585'te akçenin gümüş oranı keskin biçimde düşürüldü; ulûfesini (maaşını) akçeyle alan kapıkulu askeri bunu neredeyse anında hissetti, çünkü esnaf yeni akçeyle eski fiyattan mal satmayı reddediyordu. Sonuç zincirlemeydi: fiyatlar yükseldi (16. yüzyılın 'fiyat devrimi'), taşrada tımarlı sipahi düzeni geçim sıkıntısına girdi ve bu ortam Anadolu'daki asker kaçkını/eşkıya hareketlerini (Celâlî kargaşası) besleyen zeminlerden biri oldu — ama Celâlî isyanlarının İLK dalgası (1519, Şeyh Celâl ayaklanması) tağşişten önceye gittiği için, tağşişin etkisi 1590'lardan sonraki İKİNCİ ve daha büyük Celâlî dalgasıyla ilişkilendirilir, ilk dalgayla değil. 1589'da patlayan Beylerbeyi Vak'ası bu krizin İstanbul'a taşan yüzüydü: ulûfesi değersizleşen kapıkulu sarayı kuşattı, hesap sorulan isim şeyhülislam oldu.",
   kesinlik:"tartismali",
   zincir:["iltizam-malikane-esham-zinciri"],
-  olay:["1578-08-09","1585-01-01|tağşiş","1589-06-01","1599-06-01|Karayazıcı"],
+  olay:["1578-08-09","1585-01-01|tağşiş","1589-06-01","1599-01-01|Karayazıcı"],
   kaynak:"TDV: akce · abdulkadir-seyhi-efendi", ic_not_kaynak:"eski kaynak: TDV: akce · abdulkadir-seyhi-efendi · atlasın 1585-01-01 kaydının kendi metni (kaynak: akce) — Amerikan gümüşü bağlantısı ikinci bir TDV sayfasıyla ayrıca doğrulanmadı" },
 
 { id:"iltizam-malikane-esham-zinciri", tur:"sebep-sonuc",

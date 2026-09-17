@@ -261,7 +261,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Montecuccoli komutasındaki imparatorluk ordusu Raab nehri kıyısında Osmanlı ordusunu yendi. Bu, Habsburg'un Osmanlı'ya karşı kazandığı ilk büyük meydan muharebesidir ve Avusturya askerî anlatısında bir dönüşün işareti sayılır.",
   kaynak:"depo savaslar.js (1664-08-01)", yer_kon:[46.94,16.27] },
 
-{ t:"1664-08-10", b:"Vasvár Antlaşması — zafere rağmen ödün", gun:"16 Muharrem 1075 (9 Ağustos 1664)", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1664-08-09", b:"Vasvár Antlaşması — zafere rağmen ödün", gun:"16 Muharrem 1075 (9 Ağustos 1664)", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
   d:"Sen Gotar zaferinin hemen ardından imzalanan antlaşma, Uyvar'ın Osmanlı'da kalmasını kabul etti. Macar soyluları bunu ihanet saydı; antlaşma, birkaç yıl sonraki Wesselényi tertibinin başlıca sebebi oldu.", ic_not_d:"EK2 §4: t:1664-08-10 yanlış gün. t KORUNDU — ekokuma_antlasma2 '1664-08-10|Vasvár' bağı (D181) · öneri YAMA-KRON2: t→1664-08-09 + bağ güncellemesi (kuyruk dosyası Değişmez 2 evreninde değil) · eski kaynak: depo savaslar.js (1664-08-10) · TDV `vasvar-antlasmasi` slug CANLI · TDV `avusturya`",
   kaynak:"TDV vasvar-antlasmasi: 16 Muharrem 1075 (9 Ağustos 1664); 10 Ağustos Türkçe metindeki tarihin yanlış çevrilmesinden doğan Batı tarihidir", yer_kon:[47.048,16.804] },

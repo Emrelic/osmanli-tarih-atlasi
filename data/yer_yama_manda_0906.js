@@ -324,23 +324,7 @@ window.YER_YAMA_MANDA_0906 = [
   },
   {
     "ad": "Sayda",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1517-01-01",
-        "d": "memluk"
-      },
-      {
-        "f": "1918-10-06",
-        "t": "1920-07-24",
-        "d": "fransa-cumhuriyet"
-      },
-      {
-        "f": "1920-07-24",
-        "t": "1923-10-29",
-        "d": "suriye-lubnan-mandasi"
-      }
-    ],
+    "s": [{"f": "1281-01-01", "t": "1516-09-27", "d": "memluk"}, {"f": "1918-10-06", "t": "1920-07-24", "d": "fransa-cumhuriyet"}, {"f": "1920-07-24", "t": "1923-10-29", "d": "suriye-lubnan-mandasi"}],
     "kaynak": "TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır."
   },
   {
@@ -366,86 +350,22 @@ window.YER_YAMA_MANDA_0906 = [
   },
   {
     "ad": "Akkâ",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1517-01-01",
-        "d": "memluk"
-      },
-      {
-        "f": "1918-09-23",
-        "t": "1920-07-01",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1920-07-01",
-        "t": "1923-10-29",
-        "d": "filistin-mandasi"
-      }
-    ],
+    "s": [{"f": "1281-01-01", "t": "1516-09-27", "d": "memluk"}, {"f": "1918-09-23", "t": "1920-07-01", "d": "ingiltere"}, {"f": "1920-07-01", "t": "1923-10-29", "d": "filistin-mandasi"}],
     "kaynak": "TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\". 🟡 AY hassasiyetli: TDV gün vermiyor; 1 Temmuz 1920 mülkî idarenin fiilî başlangıcıdır, iki gerekçe ÇAKIŞTIĞI için ayırt edilemiyor — BEYAN EDİLDİ."
   },
   {
     "ad": "Nablus",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1516-12-28",
-        "d": "memluk"
-      },
-      {
-        "f": "1918-09-21",
-        "t": "1920-07-01",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1920-07-01",
-        "t": "1923-10-29",
-        "d": "filistin-mandasi"
-      }
-    ],
+    "s": [{"f": "1281-01-01", "t": "1516-09-27", "d": "memluk"}, {"f": "1918-09-21", "t": "1920-07-01", "d": "ingiltere"}, {"f": "1920-07-01", "t": "1923-10-29", "d": "filistin-mandasi"}],
     "kaynak": "TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\". 🟡 AY hassasiyetli: TDV gün vermiyor; 1 Temmuz 1920 mülkî idarenin fiilî başlangıcıdır, iki gerekçe ÇAKIŞTIĞI için ayırt edilemiyor — BEYAN EDİLDİ."
   },
   {
     "ad": "Yafa",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1516-12-28",
-        "d": "memluk"
-      },
-      {
-        "f": "1917-11-16",
-        "t": "1920-07-01",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1920-07-01",
-        "t": "1923-10-29",
-        "d": "filistin-mandasi"
-      }
-    ],
+    "s": [{"f": "1281-01-01", "t": "1516-09-27", "d": "memluk"}, {"f": "1917-11-16", "t": "1920-07-01", "d": "ingiltere"}, {"f": "1920-07-01", "t": "1923-10-29", "d": "filistin-mandasi"}],
     "kaynak": "TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\". 🟡 AY hassasiyetli: TDV gün vermiyor; 1 Temmuz 1920 mülkî idarenin fiilî başlangıcıdır, iki gerekçe ÇAKIŞTIĞI için ayırt edilemiyor — BEYAN EDİLDİ."
   },
   {
     "ad": "Kudüs",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1516-12-29",
-        "d": "memluk"
-      },
-      {
-        "f": "1917-12-09",
-        "t": "1920-07-01",
-        "d": "ingiltere"
-      },
-      {
-        "f": "1920-07-01",
-        "t": "1923-10-29",
-        "d": "filistin-mandasi"
-      }
-    ],
+    "s": [{"f": "1281-01-01", "t": "1516-10-01", "d": "memluk", "kesinlik": {"t": "ay"}}, {"f": "1917-12-09", "t": "1920-07-01", "d": "ingiltere"}, {"f": "1920-07-01", "t": "1923-10-29", "d": "filistin-mandasi"}],
     "kaynak": "TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\". 🟡 AY hassasiyetli: TDV gün vermiyor; 1 Temmuz 1920 mülkî idarenin fiilî başlangıcıdır, iki gerekçe ÇAKIŞTIĞI için ayırt edilemiyor — BEYAN EDİLDİ."
   },
   {

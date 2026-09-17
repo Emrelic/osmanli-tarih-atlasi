@@ -43,10 +43,7 @@ window.YER_YAMA_GECE_V3 = [
 
   {
     ad: "Bükreş",
-    isg: [
-      { f: "1806-11-30", t: "1812-05-28", d: "rusya", kaynak: "eflak" },
-      { f: "1828-05-01", t: "1834-01-01", d: "rusya", kaynak: "eflak" }
-    ],
+    isg: [{f:"1789-11-01",t:"1791-08-04",d:"avusturya",kesinlik:"ay",kaynak:"ESBE «Турецкие войны России» (Kasım başı J, Coburg) · zistovi-antlasmasi (4 Ağustos 1791, iade)"},{f:"1806-12-25",t:"1812-05-28",d:"rusya",kaynak:"eflak · ESBE «Турецкие войны России» (13 Aralık J, Miloradoviç)"},{f:"1828-05-07",t:"1834-01-01",d:"rusya",kaynak:"eflak · edirne-antlasmasi · ESBE (25 Nisan J)"}],
     kaynak: "TDV `eflak` (gövde okundu): '...Eflak harp tazminatı ödeninceye " +
             "kadar (1834) Rus işgali altında kaldı.' 1806-1812 penceresi " +
             "sınır kalelerindeki (Akkirman/Kili/Hotin) ZATEN VAR OLAN isg: " +
@@ -60,10 +57,7 @@ window.YER_YAMA_GECE_V3 = [
 
   {
     ad: "Yaş",
-    isg: [
-      { f: "1806-11-30", t: "1812-05-28", d: "rusya", kaynak: "bogdan" },
-      { f: "1828-05-01", t: "1834-01-01", d: "rusya", kaynak: "bogdan" }
-    ],
+    isg: [{f:"1739-09-12",t:"1739-09-18",d:"rusya",kaynak:"ESBE «Турецкие войны России» (1 Eylül J) · ESBE «Белградский мир»"},{f:"1806-11-30",t:"1812-05-28",d:"rusya",kaynak:"bogdan"},{f:"1828-05-07",t:"1834-01-01",d:"rusya",kaynak:"bogdan · edirne-antlasmasi · ESBE (25 Nisan J)"}],
     kaynak: "TDV `bogdan` (gövde okundu): '1828-1829 Osmanlı-Rus savaşı " +
             "sırasında Ruslar Memleketeyn'i tekrar işgal ettiler' (General " +
             "Kiselev idaresi, 1830 anayasası). 1806-1812 penceresi Bükreş " +

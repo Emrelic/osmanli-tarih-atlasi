@@ -260,21 +260,20 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Kostayniçe (Kostajnica)", tur:"kale", lat:45.232, lon:16.539, g:0, k:3,
   neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
-  d:[{f:"1556-07-17",t:"1699-01-26"}],
+  d:[{f:"1556-07-16",t:"1699-01-26"}],
   s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   v:[],
-  kaynak:"Karlofça Antlaşması birincil metni: \"Castanoviz... are and remain in the Power of the Emperor of the Romans\". Fetih: Wikipedia 'Kostajnica Fortress' — 17 Temmuz 1556." },
+  kaynak:"Karlofça Antlaşması birincil metni: \"Castanoviz... are and remain in the Power of the Emperor of the Romans\". Fetih: N. Ostojčić, 'Kostajnica', Bulwark of Europe (Zagreb Üniv. Felsefe Fak., 2019, vojnakrajina.ffzg.unizg.hr/en/kostajnica): 'utvrda je predana 16. srpnja, samo dan nakon početka opsade' (kaynakçası: M. Kruhek, Povijesni prilozi 21, 2001, 71-97) — 16 Temmuz 1556. TDV hirvatistan/bosna-hersek/malkocogullari/bihac anmıyor (tanecik boşluğu)." },
 
-{ ad:"Bosna Dubiçası (Bosanska Dubica)", tur:"kale", lat:45.174, lon:16.810, g:0, k:3,
+{ ad:"Bosna Dubiçası (Bosanska Dubica)",isg:[{f:"1788-08-26",t:"1791-08-04",d:"avusturya",kaynak:"Korić 2016, Prilozi za orijentalnu filologiju 65 (26 avgusta 1788 teslim) · Srpska enciklopedija 'Austro-turski ratovi' (Svištov 4. VIII 1791) · HE Kozarska Dubica"}], tur:"kale", lat:45.174, lon:16.810, g:0, k:3,
   neden:"1281-1538 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
-  d:[{f:"1538-01-01",t:"1699-01-26"}],
-  s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1538-01-01",t:"1718-07-21",kaynak:"gün komşudan: Bosna Brod'u (aynı Pasarofça/Belgrad Sava şeridi · TDV bosna-hersek · mahmud-i--osmanli) · HE Kozarska Dubica: Avusturya yönetimi 1716–41 (YIL; fiilî uçlar farklı) · Karlofça metni imparatorluk garnizonlarının Bosna yakasındaki Dubica'dan ÇEKİLECEĞİNİ söyler (1699-1718 Osmanlı) — YAMA-0064-BALKAN #1"},{f:"1739-09-28",t:"1908-10-05",kaynak:"gün komşudan: Bosna Brod'u (aynı Pasarofça/Belgrad Sava şeridi · TDV bosna-hersek · mahmud-i--osmanli) · HE Kozarska Dubica: Avusturya yönetimi 1716–41 (YIL; fiilî uçlar farklı) · Karlofça metni imparatorluk garnizonlarının Bosna yakasındaki Dubica'dan ÇEKİLECEĞİNİ söyler (1699-1718 Osmanlı) — YAMA-0064-BALKAN #1 · 1908-10-05 Bosna kayıtlarının ortak günü (Novi ile aynı)"}],
+  s:[{f:"1718-07-21",t:"1739-09-28",d:"avusturya",kaynak:"gün komşudan: Bosna Brod'u (aynı Pasarofça/Belgrad Sava şeridi · TDV bosna-hersek · mahmud-i--osmanli) · HE Kozarska Dubica: Avusturya yönetimi 1716–41 (YIL; fiilî uçlar farklı) · Karlofça metni imparatorluk garnizonlarının Bosna yakasındaki Dubica'dan ÇEKİLECEĞİNİ söyler (1699-1718 Osmanlı) — YAMA-0064-BALKAN #1"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"...Dubizza...shall be drawn out...left entirely free\". Fetih: Wikipedia 'Battle of Dubica' — 1538." },
 
-{ ad:"Bosna Novi'si (Bosanski Novi)", tur:"kale", lat:45.048, lon:16.377, g:0, k:3,
+{ ad:"Bosna Novi'si (Bosanski Novi)",isg:[{f:"1788-10-03",t:"1791-08-04",d:"avusturya",kaynak:"Korić 2016 (3. oktobra 1788) · Srpska enciklopedija (Svištov 4. VIII 1791) · HE Novi Grad (fiilî 1788–95)"}], tur:"kale", lat:45.048, lon:16.377, g:0, k:3,
   neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
   d:[{f:"1556-01-01",t:"1908-10-05",kaynak:"Karlofça metni ('Novi … on the part of Bosnia') · TDV karlofca · TDV bosna-hersek (Novi kadısı Ömer Efendi · 1872 demiryolu) · 1908 günü K8'e bağlı"}],
   s:[{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
@@ -406,7 +405,7 @@ window.YERLESIMLER_EK29 = [
 // AŞKALE — Erzurum (48,9 km) çizgisiyle aynı: Akkoyunlu → Safevî → 1518 Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Erzurum'dan
 { ad:"Aşkale", tur:"kasaba", lat:39.9214, lon:40.6939, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1518-01-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  s:[{f:"1281-01-01",t:"1360-01-01",d:"ilhanli",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1360-01-01",t:"1385-01-01",d:"eretna",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1385-01-01",t:"1387-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1387-01-01",t:"1403-01-01",d:"timurlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1403-01-01",t:"1408-01-01",d:"mutahharten",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1408-01-01",t:"1467-01-01",d:"karakoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu",kaynak:"gün komşudan: Erzurum · TDV erzurum / TDV akkoyunlular (YAMA-0052B-RENK #2)"},{f:"1502-01-01",t:"1518-01-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1518-01-01",t:"1920-04-23"}], v:[] },
 
 // ───────── RUMELİ KOLU ─────────
@@ -583,5 +582,12 @@ window.YERLESIMLER_EK29 = [
   d:[{f:"1516-09-27",t:"1918-10-08"}], v:[],
   neden:"Emirlik/Mutasarrıflık'a v: BAĞLANMADI — TDV `sur--lubnan` idarî zincirini sancak-içi anlatıyor (Şam→Sayda→1865 Beyrut sancağı), Ma'noğlu Fahreddin'in müdahalesi biçimsel egemenlik değil başarısız bir onarım girişimi olarak geçiyor. Osmanlı doğrudanlığı hiç kesilmiyor.",
   kaynak:"TDV `sur--lubnan` (ilk sınav `sur` yanlış madde/kavram karışıklığı riski taşıyordu, doğru slug içerik okunarak doğrulandı — §4② tuzağı): 'Yavuz Sultan Selim'in 1516 Mercidâbık zaferinden sonra Sûr şehri de Osmanlı ülkesine katıldı.' Gün Şam kaydıyla (yerlesimler.js:665) hizalandı — aynı Mercidâbık seferi, komşu emsali (D084)." },
+
+{ ad:"Krupa (Bosanska Krupa)", tur:"kale", lat:44.882, lon:16.158, g:0, k:3,
+  neden:"DALGA-0064 · YAMA-0064-BALKAN #4 (KOSU13-YAMA, 17 Eyl 2026): Bihaç (24 km) ile Novi (25 km) arasında Una sağ yakasındaki Osmanlı sınır kalesi; Bihaç eksklavının ikinci bağı. 1565 öncesi (Hırvat-Macar dönemi) bağlılığı bu pakette araştırılmadı — nokta 1565'ten önce sahipsiz (kasıtlı).",
+  kaynak:"HE Bosanska Krupa: 'Osmanlije su zaposjeli Krupu 1565'; Avusturya 1581, 1690, 1692, 1716'da kuşattı (alındığı yazılmıyor) · Korić 2016: 1787-88'de Una üzerinden malzeme gönderilen Osmanlı sınır kalesi · koordinat OSM düğüm 841364318 · 1908 günü Bosna kayıtlarının ortak günü (1878 işgali atlasta ayrı modellenmiyor)",
+  kur:"1565-01-01",
+  d:[{f:"1565-01-01",t:"1908-10-05",kaynak:"HE Bosanska Krupa (YIL)"}],
+  s:[{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], v:[] }
 
 ];

@@ -39,8 +39,8 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"933'te (1526-27) İstanbul'da fakir bir ailenin çocuğu olarak doğdu; babası Fâtih Camii müezzini Mehmed Efendi'ydi. Gençliğinde bir zanaat çıraklığıyla (saraçlık ya da serrâclık) hayata atıldı, medrese eğitimiyle yükseldi. 1008'de (1600) öldü.",
       onem:"TDV'nin tarifiyle \"klasik Osmanlı şiirine söyleyiş gücü kazandıran\" büyük dîvân şairi; çağdaşlarınca \"Sultânü'ş-şuarâ\" (şairler sultanı) diye anıldı." },
     metin:"Kanûnî Sultan Süleyman'ın 1566 Eylülünde Sigetvar seferi dönüşünde ölüm haberi İstanbul'a ulaştığında Bâkî, sultana duyduğu bağlılığı ve onun yüce şahsiyetini dile getiren mersiyesini yazdı. Osmanlı edebiyatının en tanınmış mersiyelerinden sayılır; mersiyenin son kısmı, birkaç hafta sonra tahta çıkacak II. Selim'e bir bakıma zemin hazırlar.",
-    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
-    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
+    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
+    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"kesin", olay:["1566-09-01","1566-09-07"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Bâkî\" (Mehmed Çavuşoğlu, 1991) — https://islamansiklopedisi.org.tr/baki--sair" },
 
@@ -64,7 +64,7 @@ window.EKOKUMA_EDEBIYAT = [
       onem:"TDV'nin tarifiyle \"klasik Türk edebiyatının en büyük şairlerinden\"; Türkçe, Arapça ve Farsça divan yazabilecek kadar üç dile hâkimdi." },
     metin:"Kanûnî'nin 1534'te Bağdat'ı fethetmesinin ardından Fuzûlî, sultana beş kaside sundu. Bu jestle Fuzûlî, o âna kadar bağlı olduğu Safevî himayesinden çıkıp Osmanlı devlet adamlarının hâmîliğini aramaya yöneldi.",
     alinti:{ metin:"\"Geldi burc-ı evliyâya pâdişâh-ı nâmdâr\" — kasidenin ilk mısraı, TDV maddesinin aktardığı biçimiyle", kaynak:"TDV: fuzuli" },
-    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
+    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"kesin", olay:["1534-12-04"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Fuzûlî\" (Abdülkadir Karahan, 1996) — https://islamansiklopedisi.org.tr/fuzuli" },
 
@@ -75,8 +75,8 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"Doğum tarihi ve yeri kesin bilinmiyor; kaynaklar Bağdat civarında doğduğunu yazar ama yer konusunda birleşmez. Babasının adı Süleyman'dı. 963'te (1556) öldü.",
       onem:"TDV'nin tarifiyle \"klasik Türk edebiyatının en büyük şairlerinden\"; Türkçe, Arapça ve Farsça divan yazabilecek kadar üç dile hâkimdi." },
     metin:"Leylâ vü Mecnûn, Fuzûlî tarafından 1535'te, Kanûnî'nin Bağdat seferine katılan İstanbullu şairlerin isteği üzerine yazılıp tamamlandı. Arap yarımadasının eski bir aşk efsanesini işleyen eser, klasik Türk edebiyatının en güzel mesnevilerinden sayılır.",
-    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
-    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
+    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
+    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"kesin", olay:["1535-01-01|Leylâ"],  // PAKET-A2 13 Eyl: 1535-01-01'de Tigre ve Çitor maddeleri de vardı
     kaynak:"TDV İslâm Ansiklopedisi, \"Fuzûlî\" (Abdülkadir Karahan, 1996) — https://islamansiklopedisi.org.tr/fuzuli" },
 
@@ -87,8 +87,8 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"İstanbul'da muhtemelen 1092'de (1681) doğdu; babası kazasker torunu Kadı Mehmed Efendi, annesi Karaçelebizâdeler ailesindendi. 1143'te (1730) öldü.",
       onem:"TDV'nin tarifiyle \"divan şiirinde kendi adıyla anılan bir tarz ortaya koyan şair\" — sade ve nükteli üslûbuyla Lâle Devri'nin en tanınmış ismi oldu." },
     metin:"1718-1730 arasındaki Lâle Devri boyunca Nedîm, ifade sadeliği ve nükteli üslûbuyla yeni bir şiir tarzı geliştirdi. Nevşehirli Damad İbrahim Paşa'nın çevresinde gelişen bu tarz, divan şiirinde \"yerlileşme\" akımının en büyük temsilcisi sayılır — soyut mazmunlar yerine İstanbul'un günlük hayatı ve eğlence kültürü şiire girdi.",
-    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
-    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
+    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
+    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"kesin", olay:["1718-01-01","1718-05-09"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Nedîm\" (Muhsin Macit) — https://islamansiklopedisi.org.tr/nedim--divan-sairi" },
 
@@ -99,8 +99,8 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"İstanbul'da muhtemelen 1092'de (1681) doğdu; babası kazasker torunu Kadı Mehmed Efendi, annesi Karaçelebizâdeler ailesindendi. 1143'te (1730) öldü.",
       onem:"TDV'nin tarifiyle \"divan şiirinde kendi adıyla anılan bir tarz ortaya koyan şair\" — sade ve nükteli üslûbuyla Lâle Devri'nin en tanınmış ismi oldu." },
     metin:"1730'daki Patrona Halil isyanı sırasında Nedîm hayatını kaybetti; kaynaklara göre ya isyan dehşetinden hastalanarak ya da kaçmaya çalışırken evinin damından düşerek öldü — ölüm şeklinin ayrıntısı kaynaklarda AYRIŞIYOR. Ölümüyle birlikte Lâle Devri'nin şiirdeki en parlak sesi de susmuş oldu; devrin kendisi de aynı isyanla sona erdi.",
-    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
-    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
+    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
+    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"tartismali", olay:["1730-09-25","1730-10-28"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Nedîm\" (Muhsin Macit) — https://islamansiklopedisi.org.tr/nedim--divan-sairi" },
 
@@ -111,8 +111,8 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"980 (1572) yıllarında Erzurum'un Pasinler (Hasankale) ilçesinde doğduğu tahmin ediliyor; bir sancak beyi ailesindendi. 1044'te (1635) öldü.",
       onem:"TDV'nin tarifiyle \"hiciv ve kasideleriyle ünlü divan şairi\" — güçlü ve iddialı üslûbuyla Osmanlı hiciv edebiyatının en dikkat çeken ismi sayılır." },
     metin:"Hicivleriyle tanınan Nef'î, Sihâm-ı Kazâ adlı hiciv mecmuası yüzünden 1635'te IV. Murad'ın emriyle idam edildi. Sadrazam Bayram Paşa onu teslim etti; Nef'î sarayın odunluğunda boğdurulup cesedi denize atıldı — kalemiyle kazandığı düşmanlıklar sonunu getirdi.",
-    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı bu turda YAPILMADI", kaynak:null },
-    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, bu turda görsel taraması yapılmadı",
+    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
+    gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"kesin", olay:["1635-01-01|Nef'î"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Nef'î\" (Metin Akkuş, 2006) — https://islamansiklopedisi.org.tr/nefi" }
 ];

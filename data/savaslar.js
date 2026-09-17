@@ -274,7 +274,7 @@ window.SAVASLAR = [
 { t:"1743-10-23", tur:"kusatma", ad:"Musul savunması",           taraf_metin:"Afşar (Nadir Şah)", sonuc:"zafer",   seri:"",        lat:36.34, lon:43.13, taraf:["osmanli","afsar"], galip:"osmanli" },
 { t:"1770-07-06", tur:"deniz", ad:"Çeşme (deniz)",             taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:38.32, lon:26.30, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1770-08-01", tur:"meydan", ad:"Kartal (Kagul) Ovası",      taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:45.90, lon:28.20, taraf:["osmanli","rusya"], galip:"rusya" },
-{ t:"1774-06-20", tur:"meydan", ad:"Kozluca",                   taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:43.35, lon:26.75, taraf:["osmanli","rusya"], galip:"rusya" },
+{ t:"1774-06-25", tur:"meydan", ad:"Kozluca",                   taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:43.35, lon:26.75, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1788-12-17", tur:"kusatma", ad:"Özi savunması",             taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:46.62, lon:31.54, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1807-04-21", tur:"meydan", ad:"Reşid (Rosetta)",           taraf_metin:"İngiltere",         sonuc:"zafer",   seri:"misir",   lat:31.40, lon:30.42, taraf:["osmanli","ingiltere","misir-kavalali"], galip:"osmanli" },
 { t:"1811-10-25", tur:"meydan", ad:"Slobozia",                  taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:44.56, lon:27.36, taraf:["osmanli","rusya"], galip:"rusya" },
@@ -366,7 +366,7 @@ window.SAVASLAR = [
 // Ad düzeltmesi (Koordinatör, OTURUM-10 turu): TDV'de "Kalender Çelebi" diye madde
 // yok, doğrusu "Kalender Şah" (kalender-sah, canlı slug).
 { t:"1526-01-01", tur:"isyan", ad:"Kalender Şah",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.36, lon:38.31, sure:300, taraf:["osmanli"] },
-{ t:"1599-06-01", tur:"isyan", ad:"Karayazıcı Abdülhalim",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:37.16, lon:38.80, sure:900, taraf:["osmanli"] },
+{ t:"1599-01-01", tur:"isyan", ad:"Karayazıcı Abdülhalim",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:37.16, lon:38.80, sure:900, taraf:["osmanli"] },
 // hatalar 5.docx madde 2 — kullanıcı: "karayazıcı abdülhalim isyanı nerede
 // başlamış haritada aksiyon görülmüyor 1596. Bu maddenin iki ayrı maddesi
 // varmış." İki sebep vardı: (1) olaylar_ek7.js'te isyanı 1596'ya koyan MÜKERRER
@@ -382,8 +382,8 @@ window.SAVASLAR = [
 { t:"1600-09-23", tur:"meydan", ad:"Kayseri ovası (Karayazıcı)", taraf_metin:"Celâlî", sonuc:"yenilgi", seri:"ic", lat:38.73, lon:35.48, sure:300, taraf:["osmanli"] },
 { t:"1601-08-12", tur:"meydan", ad:"Sepetli (Elbistan) — Karayazıcı'nın bozgunu", taraf_metin:"Celâlî", sonuc:"zafer", seri:"ic", lat:38.20, lon:37.20, sure:300, taraf:["osmanli"] },
 { t:"1603-01-01", tur:"isyan", ad:"Deli Hasan",             taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:600, taraf:["osmanli"] },
-{ t:"1607-10-23", tur:"isyan", ad:"Canbolatoğlu Ali Paşa",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:500, taraf:["osmanli"] },
-{ t:"1608-08-05", tur:"isyan", ad:"Kalenderoğlu",           taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:38.02, lon:36.53, sure:400, taraf:["osmanli"] },
+{ t:"1607-10-24", tur:"isyan", ad:"Canbolatoğlu Ali Paşa",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:500, taraf:["osmanli"] },
+{ t:"1608-08-09", tur:"isyan", ad:"Kalenderoğlu",           taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:38.02, lon:36.53, sure:400, taraf:["osmanli"] },
 { t:"1628-09-22", tur:"isyan", ad:"Abaza Mehmed Paşa",      taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:39.91, lon:41.27, sure:600, taraf:["osmanli"] },
 { t:"1659-02-16", tur:"isyan", ad:"Abaza Hasan Paşa",       taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:400, taraf:["osmanli"] },
 { t:"1795-03-01", tur:"isyan", ad:"Pazvandoğlu Osman",      taraf_metin:"iç isyan", sonuc:"belirsiz", seri:"ic", lat:43.99, lon:22.87, sure:1500, taraf:["osmanli"] },

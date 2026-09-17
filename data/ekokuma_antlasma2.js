@@ -395,7 +395,7 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1664 VASVAR ─────────────────────────────────────────────────────────────
 { id:"antlasma-vasvar-1664", tur:"antlasma",
-  olay:["1664-08-09","1664-08-10|Vasvár"],
+  olay:["1664-08-09","1664-08-09|Vasvár"],
   metin:"On madde, Türkçe ve Latince iki nüsha. ① Osmanlı ve Habsburg birlikleri Erdel'den aynı anda çekilecek, Erdel'deki imparatorluk garnizonları ülkeyi terk edecek, Erdel prensi serbest seçimle belirlenecekti. ② Szatmár ve Szabolcs bölgeleri Habsburg yönetimine bağlandı. ③ Székelyhíd Kalesi bir daha kullanılmamak üzere yıkılacaktı. ④-⑤ Rákóczi ve Kemény aileleri başta olmak üzere kimse Erdel'e dışarıdan karışmayacak; iki devlet birbirinin düşmanına yardım etmeyecekti. ⑥ Zrínyi'nin Kanije karşısında yaptırdığı ve 1664 yazında Osmanlılarca alınıp yakılan Yenikale yeniden yapılmayacaktı. ⑦ Karışıklıkta iki tarafa sığınan Erdel soyluları memleketlerine dönüp aile mülklerine sahip çıkabilecekti. ⑧ I. Leopold'e, topraklarını korumak için Vág nehrinin öte yakasında yeni bir kale yapma izni verildi. ⑨ Sınırlarda çete faaliyetleri önlenecekti. ⑩ Antlaşma yirmi yıl yürürlükte kalacak, dört ay içinde büyükelçiler karşılıklı gönderilecekti. Metne yazılmayan ama sonucu belirleyen iki nokta: 'alâ hâlihî' ilkesiyle antlaşmadan önce alınan Uyvar ve Novigrad Osmanlı'da kaldı; Fâzıl Ahmed Paşa nakit para isteğinden vazgeçti, Habsburglar 200.000 kara kuruş değerinde hediye göndermeyi kabul etti.",
   kesinlik:"kesin",
   kaynak:"TDV: vasvar-antlasmasi" },
@@ -407,7 +407,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin:"Kriz Erdel'de başladı: II. Rákóczi'nin ölümünden sonra Osmanlılar 27 Ağustos 1660'ta Varad'ı aldı, Erdel soyluları ise bazı kalelere Alman askeri yerleştirilmesine razı oldu. İstanbul'daki Habsburg elçisi Simon Reniger ile iki yıl süren görüşmelerde Reîsülküttâb Şâmîzâde Mehmed Efendi'nin 1662 taslağı, sonradan imzalanacak maddelerin çoğunu zaten içeriyordu; Viyana işi ağırdan alınca Fâzıl Ahmed Paşa 1663'te sefere çıktı ve Uyvar'ı altı haftalık kuşatmayla aldı. 1664'te Zrínyi ve Hohenlohe'nin Ocak ve Nisan aylarındaki beklenmedik saldırılarından sonra müttefikler Nisan sonunda Kanije'yi kuşattı; kuşatma ancak Haziran başında kaldırılabildi ve Osmanlılar Haziran sonunda Zrínyi'nin Yenikalesi'ni alıp yaktı. 1 Ağustos 1664'te Rába nehrini geçmeye çalışan Osmanlı birlikleri Montecúccoli'nin ordusu karşısında ağır kayıp verdi (Sen Gotar). Bu yenilgi Osmanlı karargâhında barış isteğini güçlendirdi; sekiz gün sonra Fâzıl Ahmed Paşa'nın otağında metinler değiştirildi. I. Leopold daha iyi şartlar umarak onayı geciktirdi, fakat ordusunun durumu ve imparatorluk meclisinin savaşa isteksizliği yüzünden 9 Eylül'de onayladı; tasdik törenle 27 Ekim 1664'te Uyvar yakınında yapıldı. Tarih notu: antlaşma 9 Ağustos 1664'te imzalandı; Türkçe metindeki tarihin yanlış çevrilmesi yüzünden Batı tarih yazımında 10 Ağustos diye geçer.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1663-09-24|Uyvar","1664-08-01|Sen Gotar","1664-08-09","1664-08-10|Vasvár"],
+  olay:["1663-09-24|Uyvar","1664-08-01|Sen Gotar","1664-08-09","1664-08-09|Vasvár"],
   kaynak:"TDV: vasvar-antlasmasi" },
 
 // ── 1672 BUCAŞ ──────────────────────────────────────────────────────────────
@@ -460,7 +460,7 @@ window.EKOKUMA_ANTLASMA2 = [
   metin:"Savaş Rusya'nın Lehistan'ın iç işlerine karışması ve Kırım sınırındaki saldırıları yüzünden, haklı sebeplerle ama hiçbir hazırlık yapılmadan ilan edildi. Ruslar kısa sürede Kırım'ı ve Eflak-Boğdan'ı işgal edip Tuna'yı aştı. Osmanlı ordusunda kötü yönetim, disiplinsizlik, iflas eden menzil düzeni ve iaşe sıkıntısı genel bir çözülmeyi haber veriyordu. Rus tarafı da rahat değildi; ülkeyi sarsan Pugaçev isyanı onu barış görüşmelerine yöneltti — Büyük Friedrich bu savaşı 'körlerle tek gözlülerin savaşı' diye nitelemişti. 1772-1773'te Fokşan ve Bükreş'te yapılan görüşmelerde Kırım'a bağımsızlık verilmesi şeriata aykırı görüldü, kalelerin terki ve tazminat da İstanbul'daki ulemanın sert tepkisiyle reddedildi; savaş Mart 1773'te yeniden başladı. 1774 baharında Ruslar Kozluca'da Osmanlı kuvvetlerini ağır bir yenilgiye uğrattı (TDV'ye göre 25 Haziran) ve Şumnu'daki karargâhı kuşattı. Mareşal Rumyantsov'un barış mektubu, bozgunda tercümanlar bile kaçıştığı için birkaç gün çevrilmeden kaldı. 7-8000 kişisi kalmış ordugâh kuşatma altındayken Rumyantsov mütareke ilan etmeden, savaş sürerken görüşmeyi şart koştu. Osmanlı delegeleri Ahmed Resmî ve Münib efendiler 16, 17 ve 21 Temmuz'da Küçük Kaynarca'da görüştü; ağır hasta sadrazamın onayı gelince antlaşma 21 Temmuz 1774 akşamı imzalandı. II. Katerina şartları beklenenden tatminkâr buldu.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1768-10-06|Rus","1774-06-20|Kozluca","1774-07-21|Kaynarca"],
+  olay:["1768-10-06|Rus","1774-06-25|Kozluca","1774-07-21|Kaynarca"],
   kaynak:"TDV: kucuk-kaynarca-antlasmasi" },
 { id:"tartisma-kucuk-kaynarca-rivayetleri", tur:"tartisma",
   baslik:"Küçük Kaynarca hakkında anlatılan üç hikâye — ve kaynakların cevabı",

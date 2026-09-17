@@ -220,7 +220,7 @@ window.EKOBASLIK_ONERI = {
 "tartisma-candarli-halil-pasa-idami": "İstanbul'u fetheden padişah, fethe mesafeli duran sadrazamını —ailesinin dört kuşaktır aynı makamda…",
 "tartisma-deli-padisahlar-karsilastirma": "Üç padişah 'deli' diye anılır",
 "tartisma-edirne-vakasi-1703-feyzullah": "Padişahın hocasıydı, oğluna şeyhülislamlığı miras bıraktıracak emsalsiz bir ferman aldırdı",
-"tartisma-en-basarili-sadrazamlar": "Emre'nin önerdiği liste TDV'yle karşılaştırıldı",
+"tartisma-en-basarili-sadrazamlar": "Önerilen liste TDV'yle karşılaştırıldı",
 "tartisma-evliya-celebi-guvenilirlik": "Bir köyde kadınların fil doğurduğunu yazan adam, tarihçilerin en çok başvurduğu Osmanlı kaynaklarından biri",
 "tartisma-ibrahim-culus-rivayeti": "Kardeşinin öldüğüne inanmayıp odadan çıkmadı, cesedi GÖRDÜKTEN (Naîmâ'ya göre İKİ KEZ baktıktan)…",
 "tartisma-ibrahim-skandal-figurleri": "Bir büyücü-hoca kazaskerliğe yükseldi, bir sadrazam öldükten sonra bin parçaya bölündüğü için adını…",
