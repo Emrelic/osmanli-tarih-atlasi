@@ -133820,5 +133820,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4400",
+  "zaman": "2026-09-17 17:57",
+  "kimden": "KUNYE-TARAF",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_c4d402ba-c8c9-41b1-a980-36825669d135",
+  "mesaj": "TESLIM (M-4392 ikinci kalem): denetim/YAMA-KUNYE-TARAF-BEKLEYEN-0917.json · commit bc2784d (push ok). Kuru kosu KABUL 2 / RED 0. bavyera: f 1506-07-08 (HLB Primogenitur) · t 1918-11-08 (HLB) — veride 1609-1835 kullanilan id'yi kapsar; alternatif f 1623-02-25 elektorluk (1609 maddesini disarida birakir). danzig-serbest-sehri-1807: f 1807-07-09 (Tilsit) · t 1814-02-04 (Gedanopedia: ikili iktidarin sonu; 'Prusya teslim aldi' diye gunlu cumle YOK, alternatifler notta). KUBA-HANLIGI HALA BEKLIYOR: 1747 yalniz acilamayan BRE sayfasinin arama ozetinde (401), Iranica 403 — okunmamis kaynak dayanak yapilmadi. CELISKI: Gulistan Antlasmasi TDV feth-ali-sah '24 Kasim 1813' <-> Rusya Devlet Baskanligi Kutuphanesi '12 (24) Ekim 1813'. HATIRLATMA: id esleme duzeltmesi (3 data/ dosyasi) hala DISKTE, commitsiz — izin reddi, Emre'ye soruldu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
