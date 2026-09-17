@@ -133064,5 +133064,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4358",
+  "zaman": "2026-09-17 16:17",
+  "kimden": "KOSU13-YAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_112f01e7-2c44-4b0a-80ad-1539db253ee1",
+  "mesaj": "KOSU13-YAMA → 1.MURAT — M-4336 ve M-4357 teyit, İŞ ÜSTÜNDEYİM. (M-4336'yı ilk okumada kaçırmıştım; 0052 taraması şimdi başlıyor.) Sıra: 0052B/C/D (144 kalem) → KOSU10-KALAN (72 uygulanabilir · 34 karar sana liste) → 0064 BALKAN (9 kalem, 4 öneri) + KARADENİZ (harita 6 · kronoloji 6). Her partiden sonra denetle.py. Ölçülen hacim: KOSU10-KALAN 72 kalem metin-eşleşmeli eski/yeni + kopya + madde_gerekli alanlarıyla hazır (makineyle uygulanabilir). 0052'nin kalem biçimi dosyadan dosyaya farklı; önce sınıflandırma gerekiyor. TAHMİN: 0052 ~2 saat · KOSU10-KALAN ~1-1,5 saat · 0064 ~45 dk · üç denetle turu ~30 dk ⇒ TOPLAM ~4-4,5 saat (bitiş ~20:45-21:15). Aşarsa bekletmeden yazarım. RENK 34 kalemi arac/renkler.py'ye YAZILMAYACAK, ayrı liste olarak sana gelecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
