@@ -130904,5 +130904,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4289",
+  "zaman": "2026-09-17 10:11",
+  "kimden": "UI-ETKILESIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — DALGA-0063 madde 3/4/7/8, dordu de tarayicida CANLI dogrulandi. Degisen: js/app.js (+202/-45), css/style.css (+27), index.html (+11). Commit ATMADIM. ③ sag tik kopyala: kopyaMenusuAc/_kopyaMenuGoster refactor + yeni ekKopyaMenusuAc, ekAkordeonKur satirlarina VE ekOkumaPenceresiAc pencere kartlarina 'Baslik kopyala'/'Maddeyi kopyala' eklendi (bir bubbling bugu -#olay-bilgi'nin kendi contextmenu'su menuyu eziyordu- stopPropagation ile duzeltildi, canli test onayladi). ④ bos nokta artik HICBIR SEY acmiyor: harita.on click, .sehir .s-ad'in GORUNEN piksel kutusuna hit-test yapiyor (CSS pointer-events:none oldugu icin JS tarafi), eslesirse ISARET_KAYNAK'a eklenen _orij referansiyla TAM o yerlesim aciliyor (Yumurtalik/Aydos Kalesi yanlis-acilma bugu dogrulanmis sekilde gitti). devlet-etiket (haritaya yay zoom) DOKUNULMADI. padisah-ad'a da portreAlbumuAc click eklendi (portre ile ayni islev). ⑦ ob-madde-gorsel-kart img'e tiklayinca #resim-buyut-pencere aciliyor (max 92vw/80vh, altyazi tasiniyor, X/Esc/disari tik kapatiyor) — ob-gorsel (padisah portresi, zaten ustte album var) DOKUNULMADI. ⑧ OLCUM.a/b ikilisi OLCUM.duraklar dizisine cevrildi: her sag tik zincire durak ekliyor, etiket son duraga oturup toplam km + durak sayisini gosteriyor; ✕/Esc artik etiket+durum DOM'unu .remove() ile GERCEKTEN siliyor (eskiden hidden=true). 3 duraklik canli test: '595 km · 3 durak', kapatinca getElementById ikisi de null. Sorun/ac soru yok, hepsi net. Onay verirseniz yayini siz yapin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
