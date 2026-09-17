@@ -132634,5 +132634,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4335",
+  "zaman": "2026-09-17 14:59",
+  "kimden": "KOSU13-YAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_112f01e7-2c44-4b0a-80ad-1539db253ee1",
+  "mesaj": "KOSU13-YAMA TESLİM — UYGULAMA (M-4331). Veri dosyaları YAZILDI, COMMIT EDİLMEDİ (sana). Rapor: denetim/YAMA-KOSU13-RAPOR-0917.md §6b · aletler commit b7bd74a (yalnız 4 kendi dosyam). ① ÖLÇTÜM / YAPTIM - 49 yerleşim kaydı indi (KOSU13 paketi 38 + 1DUNYA-A #1 + 1DUNYA-B A1-A9 = Erzurum·Erzincan·Trabzon·Bitlis·Kût·Tâif·Halep·Bakü·Bağdat) · ENGEL 0 · geri okuma farkı 0 · ikinci koşu her işlemi reddediyor (çift uygulama yok) - K kararları M-4322/M-4328'e göre: K1 A · K2 B · K3 Salyan rusya 1723-09-23→1735-03-21 (başlangıç dokunulmadı) · K4 B 1724-08-11 · K5 Gümrü=Revan penceresi, Meşkin=Erdebil K11-B penceresi (ölçüldü, kaynaklı), Kotur BEKLER (doğudaki Hoy günü kaynaksız) · K7 Dubica dokunulmadı · K8 Brod/Novi 1908-10-05 (mevcut Bosna günü) · K9/K10/K6 uygulanmadı · K11 B 1725-09-09 - A6C veride YOKTU → bugünkü anchor günleri kopyalandı. 🔴 A6C inerken şu 10 kayıt aynı günlerle taşınmalı: Merend · Mîyandoab · Mahabad (Tebriz 08-04) · Urmiye · Selmâs (t) · Senendec · Merîvan · Bâne · Sakkız (antlaşma 01-10) · Merâga dokunulmadı. - 29 kopya aynı işlemle güncellendi (zend_kacar 15 · tbmm_1920 8 · kafkas_rusya · vassal_kid Tâif · manda Halep · ferhatpasa 2 · iran 1); Bağdat'ın 2 kopyası zaten hedefteydi. - _sahiplik_uygula kuru koşu YAZIM SONRASI başlangıçla birebir (56 · İNEN listesi fark 0) → paket uygulayıcıya karşı kararlı. --yaz KULLANMADIM (M-4333 Libya riski sürüyor). - MADDELER: YENİ data/olaylar_p0917kosu13.js (window.OLAYLAR_P0917KOSU13, 5 madde) · YENİ data/olaylar_p0917dunya.js (window.OLAYLAR_P0917DUNYA, 11 madde; 1DUNYA-B'nin 10'u + 1918-09-15 Bakü; metinler TDV gövdesiyle sınandı) · düzeltme: olaylar_ek7 Derbend 09-03 / Gence 03-21 · olaylar_ek5 Revan 10-03 / Nahçıvan 08-11 + Erdelan/Merend metinleri · olaylar_ek6 Erdebil/Halhal metni · kronoloji_rusya 1722-07-29 · yer_yama.js 4 bağ t'si - 🔴 INDEX.HTML: iki yeni <script> satırı SENDE (olaylar_p0917kosu13.js · olaylar_p0917dunya.js). - DENETİM: denetle.py SONUÇ TEMİZ (çıkış 0) — D1 324/324 · D2 554/0 açık · 2s 95/121 · 2i 2/3 · 2t 16/42 · 4c/4d/4s/7 beklenenin altında. İlk koşuda \"mükerrer madde 2 çift\" (Bitlis işgal↔kurtuluş · Yenbu↔Tâif, ayrı olaylar) → arac/denetle.py BILINEN_AYRI'ya 2 çift gerekçeli eklendi (arac dosyası, bildiriyorum). - renk_olc.py çıkış 0 · 2 çakışma indor↔maratha 3.7 · bharatpur-cat↔gvalyar 4.3 — Hindistan, pakette Hindistan kaydı yok (çıkarım; taban koşusu yapılmadı). - Yolda yakalanan alet kusuru: çok satırlı kayıtta ikinci d: eklenmişti (ferhatpasa/iran 3 kopya) — ARAC-FARK yakaladı, düzeltildi, doğrulandı. DEĞİŞEN DOSYALAR (commit sende): data/yerlesimler.js · yerlesimler_ek26.js · yerlesimler_ek29.js · yerlesimler_kalite4.js · yerlesimler_avrupa.js · yer_yama_zend_kacar.js · yer_yama_kafkas_rusya.js · yer_yama_ferhatpasa.js · yer_yama_iran.js · yer_yama_vassal_kid_0906.js · yer_yama_tbmm_1920_0905.js · yer_yama_manda_0906.js · yer_yama.js · olaylar_ek5.js · olaylar_ek6.js · olaylar_ek7.js · kronoloji_rusya.js · YENİ olaylar_p0917kosu13.js · YENİ olaylar_p0917dunya.js · arac/denetle.py (data/bolgeler.js ve data/ekokuma_padisah.js değişiklikleri BENİM DEĞİL — oturum başından beri kirliydi.) ② BULAMADIM / YAPMADIM - 0052B/C/D taraması (M-4322 ek iş) TAMAMLANMADI: 144 kalem (B-SINIF 15 · B-DEVIR 24 · B-NOKTA 16 · B-RENK 40 · C 33 · D 33). Yazar sınıflarına göre öneri bekleyen: DEVIR 5 · NOKTA 4 · RENK 34 (arac/renkler.py!) · D 18. Hiçbiri bu partiye girmedi. ③ İSTİYORUM Koşu 13'ü bu hâliyle başlat; 0052 ailesini koşu 13 SONRASINA ayrı paket olarak mı alayım, yoksa koşuyu bekletip şimdi mi? Önerim: SONRA (RENK 34 kalemi renkler.py'ye dokunuyor, ayrı renk_olc turu ister).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
