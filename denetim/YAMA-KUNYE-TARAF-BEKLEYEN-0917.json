@@ -1,0 +1,56 @@
+{
+  "_NOT": "KUNYE-TARAF (OPUS HAZIR KITA 1009 · local_c4d402ba) · 17 Eylül 2026 · 1.MURAT M-4392 ikinci kalemi: YAMA-KUNYE-TARAF-0917'nin `bekleyen_kunyeler`i (kuba-hanligi · danzig-serbest-sehri-1807 · bavyera). `YAMA-KUNYE-*` önekli — `arac/_kunye_uygula.py` VARSAYILAN glob'una girer ve yalnız `kunyeler` listesini okur; `hala_bekleyen` listesi KASTEN `id` değil `kimlik` taşır. devletler.js'e YAZILMADI.",
+  "durum": "ÖNERİ — 2 künye yazılabilir hâlde, 1 (kuba-hanligi) kaynak bekliyor.",
+  "kunyeler": [
+    {
+      "id": "bavyera",
+      "ad": "Bavyera (Dükalık → Elektörlük → Krallık)",
+      "tur": "devlet",
+      "bolge": "orta-avrupa",
+      "f": "1506-07-08",
+      "t": "1918-11-08",
+      "baskent": "Münih",
+      "ozet": "Wittelsbach hanedanının 1506 Primogenitur düzenlemesiyle birleşen Bavyera Dükalığı; 1623'te Maximilian I'e elektörlük verildi, 1 Ocak 1806'da krallık ilan edildi. 1871'de Alman İmparatorluğu'na ayrıcalıklarını koruyarak katıldı; monarşi 7/8 Kasım 1918 gecesi Bavyera Özgür Devleti'nin ilanıyla sona erdi.",
+      "kaynak": "f: Historisches Lexikon Bayerns (HLB), Gerhard Immler, 'Wittelsbachische Primogeniturordnung (1506)' — «Die Primogeniturordnung vom 8. Juli 1506». Elektörlük: NDB, Dieter Albrecht, 'Maximilian I.' (1990) — «am 25.2.1623 auf Lebenszeit mit der pfälz. Kurwürde belehnt»; ADB (Stieve, 1885) — «zu Regensburg am 25. Februar 1623». Krallık: HLB, Ferdinand Kramer, 'Königswürde (1806)' — «Am 1. Januar 1806 verkündete der bisherige pfalzbayerische Kurfürst Max IV. Joseph…». t: HLB, Bernhard Grau, 'Revolution, 1918/1919' — «in der Nacht vom 7. auf den 8. November … wurde der Freistaat Bayern proklamiert». TDV `bavyera` ÖLÜ (302).",
+      "not": "id `bavyera` KASTEN: veride (kronoloji_almanya.js) bu id 1609-07-10 → 1835-12-07 maddelerinde kullanılıyor; künye o aralığı kapsıyor. f İÇİN İKİ ADAY, ikisi de gün hassasiyetli: 1506-07-08 (birleşme — ÖNERİLEN, 1609 maddesini kapsayan tek aday) · 1623-02-25 (elektörlük; Bayerisches Hauptstaatsarchiv sergisi: «nur für seine Person belehnt» — hanedana geçiş NDB'ye göre 22.2.1628 sözleşmesiyle; 1609 maddesi bu adayla künye ÖNCESİNE düşer). t İÇİN İKİ ADAY: 1918-11-08 (monarşinin sonu — ÖNERİLEN; `almanya` künyesi 1871-1918'i de kapsıyor, çakışma DİZİN düzeyinde) · 1871 (imparatorluğa katılış). Katılış günleri (HLB, Patrick Henßler, 'Reservatrechte': antlaşma 23 Kasım 1870 · Reichsräte 30 Aralık 1870 · meclis 21 Ocak 1871 · katılış 30 Ocak 1871, 1 Ocak 1871'den geriye yürürlük) ARACIN ÖZETİNDEN — ham metinden ayrıca DOĞRULANMADI, bu yüzden kronolojiye yazılmadı. Anif Bildirisi (13 Kasım 1918) HLB'de GEÇMİYOR — bulunamadı. `almanya` ile taneciklik kararı 1.MURAT'ta (kronoloji_almanya.js'in öteki 8 alt-devlet kimliği aynı sınıf).",
+      "kronoloji": [
+        {"t": "1506-07-08", "tur": "birlesme", "b": "Primogenitur düzenlemesiyle Bavyera dükalıkları birleşti, bölünmez tek dükalık oldu", "kaynak": "HLB, Immler, 'Wittelsbachische Primogeniturordnung (1506)'"},
+        {"t": "1623-02-25", "tur": "hukumdar", "b": "Maximilian I Regensburg'da elektörlükle (ömür boyu) tımarlandırıldı", "kaynak": "NDB Albrecht · ADB Stieve"},
+        {"t": "1806-01-01", "tur": "kurulus", "b": "Max IV. Joseph Bavyera Krallığı'nı ilan etti", "kaynak": "HLB, Kramer, 'Königswürde (1806)'"},
+        {"t": "1918-11-08", "tur": "son", "b": "7/8 Kasım gecesi Bavyera Özgür Devleti ilan edildi, monarşi sona erdi", "kaynak": "HLB, Grau, 'Revolution, 1918/1919'"}
+      ]
+    },
+    {
+      "id": "danzig-serbest-sehri-1807",
+      "ad": "Danzig Serbest Şehri (Napolyon Dönemi)",
+      "tur": "cumhuriyet",
+      "bolge": "dogu-avrupa",
+      "f": "1807-07-09",
+      "t": "1814-02-04",
+      "baskent": "Danzig",
+      "ozet": "Tilsit barışıyla Prusya'dan ayrılıp Fransız koruması altında bir Fransız valinin (Rapp) yönettiği serbest şehir; 1813 kuşatmasından sonra Fransız garnizonu 2 Ocak 1814'te çıktı, Rus-Prusya ikili iktidarı 4 Şubat 1814'te sona erdi ve şehir Prusya idaresine geçti (Viyana Nihai Senedi ile 1815'te kesinleşti).",
+      "kaynak": "f: TDV `prusya` (200) — Tilsit barışı 9 Temmuz 1807; Gedanopedia, B. Hajduk, 'WOLNE MIASTO GDAŃSK, 1807–1815' — Fransa-Prusya antlaşması 9 Temmuz 1807. t: Gedanopedia (aynı madde, ilgili bölüm TAM okundu) — «Po opuszczeniu przez wojska napoleońskie miasta … między 2 stycznia a 4 lutego 1814, doszło … do dwuwładzy». Viyana Nihai Senedi md. 23: Hertslet, 'The Map of Europe by Treaty' — Prusya «reassumed the possession» · «The City of Dantzig».",
+      "not": "f İÇİN İKİ ADAY: 1807-07-09 (Tilsit, Fransa-Prusya — ÖNERİLEN; egemenliğin el değiştirdiği antlaşma) · 1807-07-21 (Gedanopedia: «Oficjalne uroczystości … 21 VII 1807», resmî ilan töreni). t: Gedanopedia'da «Prusya teslim aldı» diye günlü cümle YOK; 4 Şubat 1814 İKİLİ İKTİDARIN SONUDUR ve fiilî Prusya idaresinin en savunulabilir günü olarak seçildi. Öteki adaylar: 1814-01-02 Fransız çıkışı (Gedanopedia; Gdańsk Üniv. ders materyali «przejęcie miasta przez Rosjan») · 1814-02-03 Çar'ın Prusya idaresine onayı · 1814-02-09 Rusların çıkışı · 1814-02-14 Senato'nun feshi · 1815-05-15 Prusya'ya katılma dekreti (bu dördü yalnız Gdańsk Üniversitesi ders materyalinde — imzasız, dayanağı zayıf) · 1815-06-09 Viyana Nihai Senedi. 1814-01-02 → 02-04 arası Rus işgali (ikili iktidar) ayrı dilim olabilir. Bu kimlik veride HENÜZ KULLANILMIYOR (D3-AVRUPA-ORTA M-4265: yerine `almanya` yazılmış). Ardıl `danzig-serbest-sehri` (1920) ile id çakışmasın diye `-1807` soneki; yıl taşıyan id istisnası.",
+      "kronoloji": [
+        {"t": "1807-07-09", "tur": "kurulus", "b": "Tilsit barışıyla Danzig Prusya'dan ayrılıp serbest şehir oldu", "kaynak": "TDV prusya · Gedanopedia (Hajduk)"},
+        {"t": "1807-07-21", "tur": "siyaset", "b": "Serbest şehir resmî törenle ilan edildi", "kaynak": "Gedanopedia (Hajduk)"},
+        {"t": "1814-01-02", "tur": "isgal", "b": "Napolyon'un kuvvetleri şehirden çıktı, Rus-Prusya ikili iktidarı başladı", "kaynak": "Gedanopedia (Hajduk)"},
+        {"t": "1814-02-04", "tur": "son", "b": "İkili iktidar sona erdi, şehir Prusya idaresine geçti", "kaynak": "Gedanopedia (Hajduk)"}
+      ]
+    }
+  ],
+  "hala_bekleyen": [
+    {
+      "kimlik": "kuba-hanligi",
+      "ad": "Kuba Hanlığı",
+      "bolge": "kafkasya",
+      "neden": "f İÇİN OKUNMUŞ KAYNAK YOK. Tek aday 1747 (Nâdir Şah'ın ölümünden sonra Hüseyin Ali Han'ın tam bağımsızlığı) — Büyük Rus Ansiklopedisi 'КУБИНСКОЕ ХАНСТВО' (old.bigenc.ru/domestic_history/text/2118317); ama sayfa ÖLÇÜLEMEDİ (401, yönlendirme), cümle yalnız ARAMA ÖZETİNDEN görüldü — §4 gereği okunmamış kaynak dayanak yapılmadı. Encyclopaedia Iranica (quba/qoba/qobba/golestan-treaty) 403 — ÖLÇÜLEMEDİ. Cambridge History of Iran c.7 ve Atkin BULUNAMADI. 1747 ayrıca yalnız Vikipedi'de.",
+      "yazilabilir_olanlar": {
+        "t_adaylari": "fiilî 1806 (YIL): N. F. Dubrovin, 'История войны и владычества русских на Кавказе' c.5 (vostlit.info) — Bakü «3-го октября 1806 года … окончательно покорен» (Jülyen), Kuba'nın işgali Bakü'nün «естественным последствием»; Bulgakov'un raporu «от 10-го ноября» — Kuba için GÜN YOK (3 Ekim–10 Kasım 1806 Jülyen aralığı bir ÇIKARIMDIR). Hukukî 1813: Gülistan Antlaşması.",
+        "gulistan_celiskisi": "🔴 TDV `feth-ali-sah` (200, ham metin) «24 Kasım 1813'te Rusya ile Gülistan Antlaşması'nı imzalamak zorunda kalan İran» ↔ Rusya Devlet Başkanlığı Kütüphanesi (prlib.ru/history/619659) «12 (24) октября 1813 г. в селении Гюлистан (Карабах) … был подписан» — AY düzeyinde ayrışma (Ekim/Kasım); taraf SEÇİLMEDİ. TDV `sirvan`/`kuba--azerbaycan` yalnız 1813. Iranica '9 Şevval 1228 / 12 Ekim 1813' yalnız arama özetinde — ölçülemedi. `gulistan-antlasmasi` ÖLÜ (302); `gulistan` Sâdî'nin eseri.",
+        "bagimlilik": "BRE (özetten): 1735 Gence Antlaşması sonrası hanlık Nâdir'e bağımlı kaldı — TDV'deki «1735'e kadar merkez Hudad» ile çelişmiyor."
+      },
+      "karar": "① f: Iranica ya da BRE'nin kendisi okunana kadar künye YAZILMASIN mı, yoksa TDV'nin 'XVII. yüzyıl sonu' ifadesiyle `1700-01-01` + hassasiyet notu mu (bu bir YIL uydurması sayılır — ÖNERMİYORUM)? ② t: 1806 (fiilî) mı 1813 (hukukî) mı; 1813 seçilirse Gülistan ay çelişkisi YIL hassasiyetiyle (1813-01-01) örtülebilir."
+    }
+  ]
+}
