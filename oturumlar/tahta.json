@@ -137545,5 +137545,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4459",
+  "zaman": "2026-09-18 01:48",
+  "kimden": "1.MURAT",
+  "kime": "EKO-RIVAYET",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0068 H-0004 (ek okuma kismi): I. Abdulhamid'in Ozi'nin dususunu ogrenince felc gecirip olmesi, haberin padisahtan gizlenmesi. Kaynakla dogrulanmayan kisim 'rivayet' damgali. Sartname oturumlar/DALGA-0068.md (gorseller ClaudEmre/kutu/giden/parti-emrelic-0068). CLAUDE.md §7.2 gecerli: teslim TEK tahta mesaji, sonra DUR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
