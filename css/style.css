@@ -1829,6 +1829,10 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 }
 .ek-kart:last-child { margin-bottom: 0; }
 .ek-kart h4 { font-size: 13.5px; color: #6b4a1f; margin-bottom: 6px; }
+/* 🆕 UI-HARITA (DALGA-0064 H-0004) — kartvizit satırları (künye/nasıl
+   bilirdiniz/magazin) `.ek-kart` sınıfını taşımıyor, ama açılan gövdede AYNI
+   başlık görünümü gerekiyor: kişinin adı artık içeriğin TEPESİNDE de yazılı. */
+.kv-kunye h4, .kv-nasil-bilirdiniz h4, .kv-magazin h4 { font-size: 13.5px; color: #6b4a1f; margin-bottom: 6px; }
 .ek-kart p { margin-bottom: 6px; }
 .ek-kart .ek-alt { font-size: 11.5px; color: #8a6d2f; }
 /* kesinlik rozeti — HER kartta görünür, "rivayet" en güçlü ayrım (kullanıcı:

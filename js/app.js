@@ -2913,6 +2913,25 @@ function sehirGuncelle(t) {
   // Aynı O(n) taramaya bindiriliyor — ayrı bir geçiş açmak `olaylar`ı iki kere
   // gezmek olurdu (1000+ madde × her kare).
   var anilan = {}, fetihTarihi = {}, yaklasan = {}, savasSimgesi = {};
+  // 🆕 UI-HARITA (DALGA-0064 H-0015, Emre): "simgeler birbirinin üstüne
+  // biniyor, düzgün ayarla." Ölçülmüş vaka: Musul Savunması hem KENDİ
+  // `savas-isaret` işaretini (savasIsaretleri, tam ad + ikon) hem de aynı
+  // yuvada `.s-yontem` düşen küçük ⚔ ikonunu (aşağıda, p4/H-0008) aynı
+  // koordinata basıyordu — iki işaret AYNI bilgiyi tekrarlayıp üst üste
+  // biniyordu. Çare üretmek değil: yönteme has ikon, tam boy bir savaş
+  // işareti zaten AYNI yerde açıksa hiç basılmaz (aşağıda `_aktifSavasKoord`
+  // ile süzülüyor). `savasGuncelle`nin kendi çakışma elemesi HER ZAMAN
+  // `sehirGuncelle`den SONRA çalıştığı için oradaki `ekli` bayrağı bir kare
+  // eski olurdu; bunun yerine aynı pencere kuralı (`t < gi+sure`) burada
+  // BAĞIMSIZ tekrar hesaplanıyor.
+  var _aktifSavasKoord = {};
+  for (var _svi = 0; _svi < savasIsaretleri.length; _svi++) {
+    var _sv = savasIsaretleri[_svi];
+    var _svSure = _sv.sure || sonrakiOlayaKadar(_sv.gi);
+    if (t < _sv.gi || t >= _sv.gi + _svSure) continue;
+    var _svLL = _sv.mk.getLngLat();
+    _aktifSavasKoord[_svLL.lng.toFixed(3) + "," + _svLL.lat.toFixed(3)] = true;
+  }
   for (var oi = 0; oi < olaylar.length; oi++) {
     var o = olaylar[oi];
     if (o.gi > t + 365) break;                 // ne şimdiki ne 365 gün içindeki gelecek
@@ -3141,7 +3160,12 @@ function sehirGuncelle(t) {
     // madde savaş türündeyse, aynı yuvada savaş simgesi çıkar. İkisi aynı anda
     // olmaz: mülkiyet değişimi zaten daha somut bir olgu, öncelik onda.
     var simgeBaslik = "";
-    if (!simge && savasSimgesi[mi]) { simge = savasSimgesi[mi].s; simgeBaslik = savasSimgesi[mi].b; }
+    // H-0015: aynı koordinatta tam boy bir savaş işareti zaten açıksa bu
+    // küçük ikon BASILMAZ — ikisi aynı bilgiyi tekrarlayıp üst üste biniyordu.
+    var _muhKoord = m.s.lon.toFixed(3) + "," + m.s.lat.toFixed(3);
+    if (!simge && savasSimgesi[mi] && !_aktifSavasKoord[_muhKoord]) {
+      simge = savasSimgesi[mi].s; simgeBaslik = savasSimgesi[mi].b;
+    }
     if (m.yontemEl.textContent !== simge) m.yontemEl.textContent = simge;
     if (m.yontemEl.title !== simgeBaslik) m.yontemEl.title = simgeBaslik;
     // Fetih tarihi rozeti: yalnız `fethedilen:` listesinde adı geçen şehirde.
@@ -7938,23 +7962,26 @@ function kartvizitSatirlari(o) {
     if (k.saltanat_yil) satirlar.push("Saltanat: " + k.saltanat_yil + " yıl");
     if (k.lakap && k.lakap.length) satirlar.push("Lakap: " + k.lakap.join(", "));
     if (k.unvan && k.unvan.length) satirlar.push("Unvan: " + k.unvan.join(", "));
-    sat.push(_kvSatir("kv-kunye", ad, '<div class="kv-kunye">' +
+    sat.push(_kvSatir("kv-kunye", ad, '<div class="kv-kunye"><h4>' + ekEsc(ad) + "</h4>" +
       satirlar.map(function (s) { return "<div>" + ekEsc(s) + "</div>"; }).join("") + "</div>"));
 
     // "Nasıl bilirdiniz" — kartın kalbi (övgü · yergi · tartışma · tarihçiler).
     // `ovgu` alanının varlığı, kartvizit METNİNİN yazılıp yazılmadığının ölçütü
     // (oturumlar/ARAYUZ-3-SARTNAME.md "çapasız kart" §B). Boşsa NİÇİN boş
     // olduğu AÇIKÇA söylenir, satır sessizce kaybolmaz.
+    // 🆕 UI-HARITA (DALGA-0064 H-0004, Emre): "madde başlığı metnin tepesinde
+    // yazmalı" — açılan gövde daha önce kişinin adını hiç taşımıyordu, yalnız
+    // KAPALI satırın ipucu/`title` tooltip'inde görünüyordu.
     var nb;
     if (k.ovgu || k.yergi || k.tartisma) {
-      nb = '<div class="kv-nasil-bilirdiniz">' +
+      nb = '<div class="kv-nasil-bilirdiniz"><h4>' + ekEsc(ad) + "</h4>" +
         [["kv-ovgu", "Övgü", k.ovgu], ["kv-yergi", "Yergi", k.yergi],
          ["kv-tartisma", "Tartışma", k.tartisma], ["kv-tarihciler", "Tarihçiler", k.tarihciler]]
           .filter(function (x) { return x[2]; })
           .map(function (x) { return '<div class="kv-satir ' + x[0] + '">' + ekEsc(x[1] + ": " + x[2]) + "</div>"; })
           .join("") + "</div>";
     } else {
-      nb = '<div class="kv-nasil-bilirdiniz kv-eksik"><div class="kv-satir kv-ovgu">' +
+      nb = '<div class="kv-nasil-bilirdiniz kv-eksik"><h4>' + ekEsc(ad) + '</h4><div class="kv-satir kv-ovgu">' +
            "Bu kişinin kartviziti henüz yazılmadı.</div></div>";
     }
     sat.push(_kvSatir("kv-nasil", ad, nb));
@@ -7965,7 +7992,7 @@ function kartvizitSatirlari(o) {
     if (k.esler && k.esler.length) mSatir.push("Eşleri: " + k.esler.join(", "));
     if (k.cocuk) mSatir.push("Çocukları: " + [k.cocuk.oglan ? k.cocuk.oglan + " oğlan" : "",
       k.cocuk.kiz ? k.cocuk.kiz + " kız" : ""].filter(Boolean).join(", "));
-    var mh = '<div class="kv-magazin">' + ekEsc(mSatir.join("  ·  "));
+    var mh = '<div class="kv-magazin"><h4>' + ekEsc(ad) + "</h4>" + ekEsc(mSatir.join("  ·  "));
     if (k.skandal) mh += '<div class="kv-skandal">' + ekEsc(k.skandal) + "</div>";
     sat.push(_kvSatir("kv-magazin", ad, mh + "</div>"));
   }
@@ -8602,6 +8629,8 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_kiyas",      // window.EKOKUMA_KIYAS — yeniliğe tepki ayaklanmaları kıyası, 0059/6
   "ekokuma_antlasma5",  // window.EKOKUMA_ANTLASMA5 — Osmanli disi antlasmalar >=1700 (EKO-ANTLASMA)
   "ekokuma_antlasma6",  // window.EKOKUMA_ANTLASMA6 — Osmanli disi antlasmalar <1700 (EKO-ANTLASMA-2)
+  "ekokuma_camitarz",   // window.EKOKUMA_CAMITARZ — cami mimarisi tarzlari (EKO-VEZIR, 0064/20)
+  "ekokuma_tamamla",    // window.EKOKUMA_TAMAMLA — 0052 yarim kalanlar (EKO-TAMAMLA)
   "ekokuma_rusiran",    // window.EKOKUMA_RUSIRAN — Rusya-İran ilişkileri, 0059/7
   "ekokuma_baslik_oneri", // window.EKOBASLIK_ONERI — {id: başlık}, DİZİ DEĞİL, havuza girmez (0057/6)
   "ekokuma_bag_oneri",   // window.EKOBAG_ONERI — {id: olay[]}, DİZİ DEĞİL (0057/6 ilgililik)
