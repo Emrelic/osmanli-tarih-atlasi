@@ -131192,5 +131192,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4305",
+  "zaman": "2026-09-17 10:35",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM G8 (1606 → 1526) · commit 6d6d43a. SAYIM: 22 aday → 19 atlasta VAR (Bagdat 1534 · Basra · Lahsa · Amasya · Cildir · Mesaleler · Tebriz 1585 · Ferhat Pasa 1590 · Sah Abbas 1603 · Sufiyan · Tunus 1534/1574 · Aden · Trablus 1551 · Tilimsan · Habes · Vadi'l-mehazin); dar aramayla 2 'yok' daha VAR cikti (Cezayir Penon 1529 kuyrukta · Irakeyn donusu 1535). GERCEK EKSIK 1: Nahcivan seferi → 2 madde (1553-08-28 cikis, TDV suleyman-i · 1554-09-26 Erzurum mutarekesi, TDV amasya-antlasmasi). HAT 0 (Amasya/Ferhat Pasa metinleri kaba, geometri yok). 🔴 BULGU: Amasya Antlasmasi atlasta her yerde 1555-05-29, TDV (mustakil madde + suleyman-i) 1 HAZIRAN 1555 (11 Receb 962); 29 Mayis bir kez yer_yama_kafkas.js'te 'kulliyatta boyle' diye atlasin kendisine dayanilarak yayilmis → denetim/YAMA-D4-AMASYA-0917.json (15+ etkilenen kayit listeli) — KARAR SENDE. kronoloji_sinir_ortadogu.js 12 madde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
