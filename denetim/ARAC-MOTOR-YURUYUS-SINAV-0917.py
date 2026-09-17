@@ -24,11 +24,23 @@ import io, json, os, sys, time, hashlib, argparse
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CIKTI = os.path.join(KOK, "denetim", "ARAC-MOTOR-YURUYUS-SINAV-0917.json")
+# Paralel koşularda her süreç KENDİ dosyasına yazar (eşzamanlı oku-değiştir-yaz
+# kaydı ezer); kıyas için `kiyasla` birden çok dosyayı birleştirir.
+if os.environ.get("SINAV_CIKTI"):
+    CIKTI = os.path.join(KOK, "denetim", os.environ["SINAV_CIKTI"])
 ANA_MOTOR = os.path.join(KOK, "arac", "uret_petek.py")
 
 
 def _yukle():
     return json.load(io.open(CIKTI, encoding="utf-8")) if os.path.exists(CIKTI) else {}
+
+
+def _hepsi():
+    import glob
+    H = {}
+    for yol in sorted(glob.glob(os.path.join(KOK, "denetim", "ARAC-MOTOR-YURUYUS-SINAV-0917*.json"))):
+        H.update(json.load(io.open(yol, encoding="utf-8")))
+    return H
 
 
 def kos(a):
@@ -54,8 +66,22 @@ def kos(a):
     if '".uretim-basladi"' not in src[i:j]:
         raise SystemExit("damga satırı tanınmadı")
     src = src[:i] + "pass  # SINAV: .uretim-basladi YAZILMADI\n" + src[j:]
-    k = src.index("# ---------------- ÇÖL TAVANI ----------------\n")
-    src = src[:k]
+    if a.derin:
+        # DERİN KİP (KOSU13-OTOBUS): epok devri ve ekleyici kapı da sınanır ⇒
+        # metin "Yabancı devlet gövdeleri" aşamasında kesilir. Arada İKİ yazma
+        # var ve ikisi de ETKİSİZLEŞTİRİLİR (veri-kaynak/motor_kara · data/bolgeler.js).
+        degis('io.open(_mkyol, "w", encoding="utf-8").write(json.dumps(',
+              '(lambda _x: None)(json.dumps(')
+        degis('open(_byol, "w", encoding="utf-8").write(_bj)\n',
+              'pass  # SINAV: bolgeler.js YAZILMADI\n')
+        src = src.replace("os.path.getsize(_byol)", "0").replace("os.path.getsize(_mkyol)", "0")
+        k = src.index('asama("Yabancı devlet gövdeleri")\n')
+        j = src.index("def _osm_aktif(y, a):\n")
+        e = src.index("DEVLET_KAYIT = []\n", j)
+        src = src[:k] + src[j:e]          # _dolgu_kumesi _osm_aktif'e muhtaç
+    else:
+        k = src.index("# ---------------- ÇÖL TAVANI ----------------\n")
+        src = src[:k]
     os.environ["MOTOR_YURUYUS"] = "1" if a.bayrak else "0"
     os.environ["MOTOR_YURUYUS_SAAT"] = str(a.saat)
     os.environ["MOTOR_EGIM_AB_KAPALI"] = "1"       # iki tarafta da aynı: ölçüm Dijkstra'ları
@@ -95,17 +121,47 @@ def kos(a):
            "nokta_kendi_peteginin_disinda": kendi_disinda,
            "alan": [round(x, 1) for x in alan], "wkb": wkb,
            "ad": [y["ad"] for y in Y]}
+    if a.derin:
+        t1 = time.time()
+        gunler = sorted(set([NS["EPOK"]] + list(NS["_epok_gun"])
+                            + ["1520-06-15", "1683-06-15", "1800-06-15", "1900-06-15"]))
+        PD0 = NS["PETEK_D"]
+        epok_h, dolgu_h = [], []
+        dev_km2, epok_ozet = 0, {}
+        for gun in gunler:
+            pe = NS["petek_epok"](gun)
+            h = hashlib.sha1()
+            for i, g in enumerate(pe):
+                if g is not PD0[i]:
+                    h.update(str(i).encode())
+                    h.update(shapely.to_wkb(g, output_dimension=2) if not g.is_empty else b"")
+            epok_h.append(h.hexdigest()[:12])
+            dk = NS["_dolgu_kumesi"](gun)
+            dolgu_h.append(hashlib.sha1(json.dumps(
+                {k: sorted(v) for k, v in dk.items()}, sort_keys=True).encode()).hexdigest()[:12])
+        for dv, p in NS["_VARLIK_PAY"].items():
+            for kk, vv in p.items():
+                epok_ozet[kk] = round(epok_ozet.get(kk, 0) + vv, 1)
+        SON["derin"] = {"gun": len(gunler), "sure_sn": round(time.time() - t1),
+                        "epok_hash": epok_h, "dolgu_hash": dolgu_h,
+                        "epok_pay_toplam": epok_ozet,
+                        "dolgu_sayac": dict(NS["_DOLGU_SAYAC"]),
+                        "puan_saat_matrisi": len(NS.get("_YR_PUAN_SAAT") or {})}
+        print(f"DERİN: {len(gunler)} gün · {SON['derin']['sure_sn']} sn · epok pay {epok_ozet} · "
+              f"dolgu {SON['derin']['dolgu_sayac']} · saat matrisi {SON['derin']['puan_saat_matrisi']}")
     H = _yukle()
     H[a.ad] = SON
     with io.open(CIKTI, "w", encoding="utf-8") as f:
-        json.dump(H, f, ensure_ascii=False)
+        # numpy tamsayısı (intc) sayaçlara karışabiliyor — ilk derin koşu bunda düştü
+        json.dump(H, f, ensure_ascii=False,
+                  default=lambda o: o.item() if hasattr(o, "item") else str(o))
     print(f"SINAV YAZILDI {a.ad} · {sure} sn · boyalı {boyali_km2:,.0f} / kara {kara_km2:,.0f} km² · "
           f"Osmanlı {osm} · boş nokta {len(bos_nokta)} · kendi dışında {len(kendi_disinda)}")
 
 
 def kiyasla(x, y):
     sys.stdout.reconfigure(encoding="utf-8")
-    H = _yukle()
+    H = _hepsi()
     A, B = H[x], H[y]
     assert A["ad"] == B["ad"], "yerleşim listesi farklı — kıyas geçersiz"
     fark = [i for i in range(len(A["wkb"])) if A["wkb"][i] != B["wkb"][i]]
@@ -122,6 +178,14 @@ def kiyasla(x, y):
     print(f"  alan değişimi (|net| toplamının yarısı): {degisen_km2:,.0f} km²")
     for dd, ad in d[:20]:
         print(f"     {dd:>+12,.0f} km²  {ad}")
+    if "derin" in A and "derin" in B:
+        ea = sum(1 for x, y in zip(A["derin"]["epok_hash"], B["derin"]["epok_hash"]) if x != y)
+        da = sum(1 for x, y in zip(A["derin"]["dolgu_hash"], B["derin"]["dolgu_hash"]) if x != y)
+        print(f"  DERİN: {A['derin']['gun']} gün · epok sonucu FARKLI gün {ea} · dolgu sonucu FARKLI gün {da}")
+        print(f"     {x}: epok {A['derin']['epok_pay_toplam']} · dolgu {A['derin']['dolgu_sayac']}")
+        print(f"     {y}: epok {B['derin']['epok_pay_toplam']} · dolgu {B['derin']['dolgu_sayac']} · "
+              f"saat matrisi {B['derin']['puan_saat_matrisi']}")
+        fark += [None] * (ea + da)
     print(f"  {y}: kutudaki noktanın peteği boş {len(B['kutudaki_nokta_petegi_bos'])} "
           f"{B['kutudaki_nokta_petegi_bos'][:8]} · nokta kendi peteğinin dışında "
           f"{len(B['nokta_kendi_peteginin_disinda'])} {B['nokta_kendi_peteginin_disinda'][:8]}")
@@ -138,4 +202,6 @@ if __name__ == "__main__":
     ap.add_argument("--ad", required=True)
     ap.add_argument("--bayrak", type=int, default=0)
     ap.add_argument("--saat", type=float, default=40.0)
+    ap.add_argument("--derin", action="store_true",
+                    help="epok devri + ekleyici kapıyı da sına (Yabancı gövde aşamasında kes)")
     kos(ap.parse_args())

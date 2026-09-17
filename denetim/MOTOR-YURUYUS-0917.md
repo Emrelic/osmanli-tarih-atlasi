@@ -251,3 +251,43 @@ Adaylardan en büyükleri:
   - Aday noktalardan 80 saatlik yerel Dijkstra; kaba tahmin ~6–12 dk.
   - 1.448 aday nokta (7 `hata` · 100 `bolge` · 1.347 `kur:`/`bit:`).
 - **Emre'ye iki soru:** 40/60/80 saat halkaları · örtmede "yakın" düz mesafeyle mi, yürüyüşle mi ölçülsün.
+
+---
+
+# EK 2 — KOSU13-OTOBUS (17 Eylül, 16:36–17:35) · commit `b7c08df`
+
+Dal birleştikten sonra (c63b22a) iki parça, ikisi de `MOTOR_YURUYUS=1` altında.
+Ana klasörde `arac/uret_petek.py`, +213 satır.
+
+**① Epok devri (b):**
+- `petek_epok`, ölü tohumun ızgara hücrelerini canlı komşu hücrelerden kısıtlı Dijkstra ile dağıtıyor (`_yr_epok_onar` · `_yr_yerel_dijkstra`).
+- Sonuç, epok başına tam Dijkstra koşmakla aynı olmalı: canlı hücrenin mesafesi ölü tohumdan etkilenmez.
+- Bütçeyi (40 saat) aşan pay kimseye verilmiyor, `_VARLIK_PAY`'a `yuruyus` · `butce_disi_km2` olarak sayılıyor.
+- Izgarada hücresi olmayan grup eski yoldan geçiyor.
+
+**② Ekleyici kapı:**
+- Aday sahipsiz noktalardan 80 saatte duran yerel Dijkstra ile saat matrisi bir kez kuruluyor.
+- Puanlar 40/60/80 saat = 4/2/1 puan; örtmede "yakın" yürüyüş saatiyle ölçülüyor.
+- Izgarada hücresi olmayan nokta km kuralında kalıyor.
+- ⚠️ 60 ve 80 saat hâlâ Emre'ye sorulu bir **karar sayısı**.
+
+**Sınav:** derin kip. Kutu 34–56°D · 18–38°K; motor yabancı gövde aşamasına kadar koştu; 552 epok günü.
+Aletin iki yazması (`motor_kara` · `bolgeler.js`) etkisizleştirildi.
+```
+bayrak KAPALI  ↔ c63b22a   petek 0 · epok 0/552 gün · dolgu 0/552 gün farklı   ⇒ BİT BİT AYNI
+bayrak AÇIK + 16 komşu
+   epok devri   72 petek yürüyüşle · bütçe dışı 1.708 km² (kutu toplamı)
+   ekleyici     katılan petek-gün 144.844 → 143.083 · çekişmeli 11.438 → 10.911
+                çölde takılan 0 → 1.100 · çölde geçen 2.194 → 544
+   Osmanlı doğrudan (ham)  1520 −%2,46 · 1683/1800 −%2,86
+   süre         derin kısım 1.112 → 1.149 sn · saat matrisi 28 nokta 34 sn
+```
+
+**Koşu 13 için maliyet tahmini** (ölçülmedi, kutudan orantı):
+- **Saat matrisi:** dünyada ~1.449 aday × ~1,2 sn ⇒ **~25–30 dk**, tek sefer.
+- **Epok onarımı:** her ayrı devir kümesinde tam ızgara `isin` + genişletme (~1–3 sn) ve yerel Dijkstra ⇒ birkaç yüz kümede **~15–30 dk**.
+
+**Sınırlar:**
+- Kutuda adayların 1.421'inin ızgara hücresi yok (pencere dışı), bu yüzden saat matrisi yalnız 28 noktayla sınandı.
+- Dünya dağılımı ölçülmedi.
+- Bayrak açıkken çölde takılan artışı (0 → 1.100) yeni bir davranış: yürüyüşle puan düşüyor ve eşik 8 daha sık tutmuyor. İyi mi kötü mü, göz karar verecek.
