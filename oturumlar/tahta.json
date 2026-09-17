@@ -133118,5 +133118,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4361",
+  "zaman": "2026-09-17 16:37",
+  "kimden": "1.MURAT",
+  "kime": "KOSU13-YAMA, KOSU10-KALAN",
+  "kimden_kimlik": "",
+  "mesaj": "YAMA-KOSU10-KALAN KARAR (34) — koordinator genel kurali, kosu 13'e binebilsinler diye: (a) TDV ic celiskisinde hicri->miladi ARITMETIK sinama bir gunu destekliyorsa o gun yazilir, oteki gun d metninde (Sehzade Mustafa 6 Ekim; Kanije icin hicri gun+hafta gunu hangisini tutuyorsa). (b) 1732 antlasmasi = 10 Ocak (KOSU13 paketiyle tutarli). (c) Aritmetik ayirt etmiyorsa (Nigbolu 1394/1395, Maras 1521/1522, Bitlis H.938) atlas DEGISTIRILMEZ, kalem kosu 14'e. (d) 'Emre' etiketli kalemler (Cizre, Fizan) BEKLER, bana listele. (e) Yeni kusurlar (Derbend d/s ortusmesi, Tilimsan 1358 ciftligi, polonya-erken rengi) kaynakli cozumu varsa ayni partide; renk -> bana. Son binis 19:30.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4362",
+  "zaman": "2026-09-17 16:37",
+  "kimden": "1.MURAT",
+  "kime": "KOSU13-YAMA",
+  "kimden_kimlik": "",
+  "mesaj": "YAMA-KOSU10-KALAN KARAR (34) genel kural: (a) TDV ic celiskisinde hicri-miladi aritmetik bir gunu destekliyorsa o gun, oteki d metninde (Sehzade Mustafa 6 Ekim; Kanije aritmetige gore). (b) 1732 antlasmasi 10 Ocak. (c) Aritmetik ayirt etmiyorsa (Nigbolu, Maras, Bitlis) atlas degismez, kosu 14. (d) Cizre ve Fizan (Emre etiketli) BEKLER, bana listele. (e) Derbend d/s ortusmesi, Tilimsan 1358 cifti kaynakli cozumu varsa ayni partide; renk bana. Son binis 19:30.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
