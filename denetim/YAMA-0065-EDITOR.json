@@ -1,0 +1,42 @@
+{
+  "yazan": "EKO-TEMIZ",
+  "tarih": "2026-09-17",
+  "paket": "0065 H-0004/H-0005 — Editör turu",
+  "not": "Görev: kronoloji b/d/gun ve ek okuma metinlerinde geliştirici notlarını (H-00xx, kutu, paket/dalga kodu, dosya adı, 'varsayımını düzeltir', 'KESİN:' etiketi, denetim/ dosya yolu, tahta mesaj no) ayıkla; yığılmış metni akışı bozmadan yeniden yaz. Yöntem: 12 desenlik programatik tarama (regex, ic_not/ic_not_*/// hariç tutuldu) + her adayın tam metni okunup elle doğrulandı.",
+
+  "A_ek_okuma_BIZZAT_INDIRILDI": {
+    "not": "Bu bölüm veriye YAZILDI (görev tanımı 'ek okuma dosyalarını sen indir' diyor). Commit YOK, dosya listesi ayrıca tahtaya yazılacak.",
+    "toplam_duzeltme": 43,
+    "dosyalar": {
+      "data/ekokuma_camitarz.js": 2,
+      "data/ekokuma_dunya.js": 5,
+      "data/ekokuma_kurum.js": 1,
+      "data/ekokuma_padisah.js": 7,
+      "data/ekokuma_rivayet.js": 18,
+      "data/ekokuma_tamamla.js": 2,
+      "data/ekokuma_toplum.js": 7,
+      "data/ekokuma_vezir.js": 6,
+      "data/ekokuma_lale.js": 1,
+      "data/ekokuma_edebiyat.js": 6,
+      "data/gorsel_madde.js": 1
+    },
+    "ornekler": [
+      { "dosya": "data/ekokuma_rivayet.js", "id": "tartisma-hezarfen-ahmed-celebi-tarihlendirme", "not": "En büyük değişiklik: kart, artık ÇÖZÜLMÜŞ olan bir eski çelişkiyi (olaylar_ek2/ek7'deki 1632 vs 1638 mükerrer Hezarfen kaydı, UYGULA-3'te birleştirildi) hâlâ 'ATLASIN KENDİSİ ÇELİŞİYOR' diye anlatıyordu — güncel duruma göre yeniden yazıldı." },
+      { "dosya": "data/ekokuma_vezir.js", "id": "kimdir-koca-ragib-pasa", "not": "Görev tanımının kendi örneği: 'Bu madde de H-0063'ün idamları varsayımını düzeltir: Ragıp Paşa tabii ölümle öldü.' → 'Ragıp Paşa tabii ölümle öldü — bir idam değildi.'" },
+      { "dosya": "data/gorsel_madde.js", "id": "1749-01-19-nuruosmaniye-camii", "not": "'not' alanına sızmış bir QA bayrağı ('GÖZLE DOĞRULANMADI ... bu turda zaman aşımına uğradı') ic_not'a taşındı — okura görünmesin, ama uyarı kaybolmasın diye silinmedi." }
+    ],
+    "denetim": "node --check 11/11 dosya temiz. İkinci ve üçüncü tarama turunda kaçırılan 6 kalem (ekokuma_padisah.js:58 artık kaynaksız dosya adı taşımıyor, ekokuma_rivayet.js:32/33/336, ekokuma_toplum.js:81/194) ayrıca yakalanıp düzeltildi — final tarama 0 gerçek bulgu (kalan 21 hit tamamı ekokuma_magazin.js ic_not alanında, dokunulmadı)."
+  },
+
+  "B_kronoloji_b_d_gun_TARAMA_SONUCU": {
+    "not": "Görev tanımı bu kısım için yamayı 1.MURAT'a bırakıyor — VERİYE YAZILMADI, yalnız ölçüm.",
+    "taranan": "111 dosya (data/olaylar*.js + data/kronoloji*.js), b:/d:/gun: alanları, aynı 12 desen",
+    "sonuc": "0 yeni bulgu. Tek eşleşme (kronoloji_habsburg.js, 'bu turda başarısız') ÇÜRÜDÜ — 'bu turda' burada tarihi bir olayın kendi anlatısı ('bu seferinde/bu denemede'), geliştirici notu değil; elle okunup elendi.",
+    "onceki_bulgu_hala_bekliyor": {
+      "dosya": "data/olaylar_ek8.js", "id": "(t:1586-01-01, b:\"Nahçıvan ve Ordubad'ın Osmanlı idaresine girmesi\")", "alan": "gun",
+      "not": "DALGA-0064 turunda bulundu (denetim/YAMA-0064-EMRE-TEMIZ.json bölüm C), henüz uygulanmadı",
+      "eski": "1586 (Bilge 2017, Vakanüvis 2 s.51-52; TDV nahcivan yıl vermiyor) — Emre kararı 14 Eylül 2026",
+      "yeni": "1586 (Bilge 2017, Vakanüvis 2 s.51-52; TDV nahcivan yıl vermiyor)"
+    }
+  }
+}
