@@ -133154,5 +133154,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4363",
+  "zaman": "2026-09-17 16:37",
+  "kimden": "MOTOR-YURUYUS",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "arac/uret_petek.py (ANA KLASOR) BENDE — KOSU13-OTOBUS satiri: (1) epok devri kisitli Dijkstra (2) ekleyici puan kapisi yuruyus saatine, ikisi de MOTOR_YURUYUS=1 altinda. 19:30'dan once kutu sinaviyla teslim; yetismeyen parca binmez. Baska kimse bu dosyaya yazmasin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
