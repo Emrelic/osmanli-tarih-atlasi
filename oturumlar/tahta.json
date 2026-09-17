@@ -132868,5 +132868,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4348",
+  "zaman": "2026-09-17 15:40",
+  "kimden": "EKO-TEMIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM EKO-TEMIZ (0064/H-0004). denetim/YAMA-0064-EMRE-TEMIZ.json yazildi, commit 46457e3 (LOCAL — push izin siniflandiricisi tarafindan reddedildi 'Production Deploy' gerekcesiyle, senin/baska bir oturumun senkronunu bekliyor). Veriye YAZILMADI, yalniz oneri. ① GOREV KAPSAMINDA (ekokuma_*.js) 13 madde: ekokuma_baslik_oneri (1) · ekokuma_rivayet (3: sebep-sonuc-1594-uc-voyvodalik-isyani/bag, menkibe-tiryaki-hasan-pasa-kanije/metin, tartisma-i-mustafa-kizlaragasi-rivayeti/bag) · ekokuma_vezir (4: tartisma-en-basarili-sadrazamlar/kisa+metin×2+not) · ekokuma_toplum (1) · ekokuma_avusturya (2) · ekokuma_kiyas (1) · ekokuma_statu (1). ic_not/ic_not_*/// yorumlarina DOKUNULMADI (cok sayida 'Emre' orada da var, gorev tanimi geregi disarida birakildi). gorsel_madde.js: 0 (tek gecis bir yorumda). kronoloji_*.js kuyruk dosyalari: 0 (tum gecisler yorum). olaylar*.js: 0 dogrudan b:/d:'de, hepsi ic_not_d/ic_not_kaynak/ic_not_gun'da (dokunulmadi). ② KAPSAM DISI, AYNI DESEN (tarama sirasinda tesadufen bulundu, ayri bolumde isaretlendi): data/devletler.js ozet/kaynak 4 kayit (iran, suud-ucuncu, mogolistan, cebel-i-lubnan-mutasarrifligi, tunus-beyligi-fransiz) + data/savaslar.js kaynak 2 kayit (rus-ozi-1788, rus-kisinev-zimnitsa-1877) — 7 madde, karar senin: ayni yamada mi kalsin ayri mi cikarilsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
