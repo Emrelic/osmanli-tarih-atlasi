@@ -326,3 +326,60 @@ YAMA dosyasında UYGULA'ya bildirildi.
 DEĞİŞTİ  data/ekokuma_vezir.js         33 kart (sayı değişmedi, 1 kart genişletildi + baslik: eklendi)
 YENİ     denetim/YAMA-0058-KISI.json   kisiler.js için genişletme önerisi
 ```
+
+---
+
+# EK BÖLÜM 7 — DALGA-0064, H-0020 (17 Eylül) — Cami mimarisi tarzları, YENİ DOSYA
+
+Kaynak: `oturumlar/DALGA-0064.md` satır 17 — "Cami mimarisi tarzları ve dönemleri
+(erken Osmanlı, klasik/Sinan, Lale, Osmanlı barok — Nuruosmaniye, ampir/eklektik),
+örnek camilerle". Talimat açıkça "önce `data/ekokuma_mimari*.js`'yi oku (başkasının;
+tekrar yazma), yeni dosya" diyordu — bu yüzden `ekokuma_vezir.js`'e DOKUNULMADI,
+yeni dosya `data/ekokuma_camitarz.js` → `window.EKOKUMA_CAMITARZ` açıldı.
+
+**Önce okundu, kopyalanmadı:** `ekokuma_mimari.js` (10 yapı kartı: Sultanahmet,
+Süleymaniye, Selimiye, Mostar Köprüsü, Mihrimah/Edirnekapı, Nuruosmaniye, Topkapı
+Sarayı + tartışma, Dolmabahçe Sarayı, Fatih Camii, Rumelihisarı, Şehzade Camii, Yeni
+Cami, Beyazıt Camii) ve `ekokuma_mimari2.js` (Üç Şerefeli Camii, Drina Köprüsü,
+Sâdâbâd). Bu iki dosya klasik/Sinan dönemini (Üç Şerefeli · Şehzade · Süleymaniye ·
+Selimiye) ve Osmanlı barokunu (Nuruosmaniye · Fatih'in 1767-71 barok yeniden yapımı)
+zaten yoğun işliyordu; **iki gerçek boşluk kaldı: erken Osmanlı (hiç yok) ve
+ampir/eklektik CAMİ (Dolmabahçe bir SARAY, cami değil)**, artı beş dönemi bir arada
+anlatan bir sentez metni yoktu.
+
+**3 kart yazıldı:**
+1. `camitarz-bes-donem` — beş dönemi (erken Osmanlı → klasik/Sinan → Lâle Devri
+   bağlamı → Osmanlı barok → ampir/eklektik) art arda anlatan sentez kartı; her
+   dönemin somut örneği için `ekokuma_mimari*.js`'teki ilgili karta ADIYLA
+   çapraz referans verir (`olay:` boş bırakıldı — bir sentez metni tek bir tarihe
+   bağlanamaz).
+2. `camitarz-bursa-ulucami` — erken Osmanlı boşluğu. TDV `ulucami` maddesi (üç
+   ölü slug denemesinden sonra bulundu: `ulu-cami--bursa` ve `ulucami--bursa`
+   302, `bursa-ulucamii` canlı ama BOŞ CROSS-REFERENCE STUB — TDV tuzak listesinin
+   ③ sınıfı). 1399-1400 tamamlanma, 20 kubbeli plan, kündekârî minber (6666 parça,
+   nadir gezegen/yıldız tasviri). `olay:["1399-06-01"]` — `olaylar_ek2.js`'teki
+   mevcut "Bursa Ulu Camii tamamlandı" maddesine bağlandı (tek eşleşme, ayırıcıya
+   gerek kalmadı).
+3. `camitarz-nusretiye-camii` — ampir/eklektik boşluğu. TDV `nusretiye-camii`
+   ilk denemede canlı çıktı. 1823-1826 inşa (Tophane yangınından sonra), mimar
+   Krikor Amira Kalfa (Balyan ailesi), TDV'nin kendi tabiriyle "Avrupa'nın barok
+   ve empire üslûplarının karma" uygulaması. Adı ("Nusret") Yeniçeri Ocağı'nın
+   kaldırılmasıyla (Vak'a-i Hayriyye) ilişkilendirilerek verilmiş — bu yüzden
+   `olay:["1826-06"]` ile mevcut "Vak'a-i Hayriyye" maddesine bağlandı (tek
+   eşleşme).
+
+**Standart doğrulama** (node --check + özel script): 3/3 kart `baslik:` taşıyor,
+3/3 id benzersiz, 2/2 `olay:` tarihi (`1399-06-01`, `1826-06`) 4286 tarihlik
+tam kronoloji havuzunda (`data/olaylar*.js` + `data/kronoloji*.js`) GERÇEKTEN
+mevcut, "Emre" kelimesi hiçbir kartta geçmiyor (DALGA-0064'ün H-0004 kuralı).
+
+**Dokunulmayan/atlanmayan:** 0052/H-0046 (EKO-TAMAMLA'ya devredildi, bu turda hiç
+açılmadı) · Lâle Devri'nin kendi tematik derinliği (D5-ASYA'nın `ekokuma_lale.js`
+işi — burada yalnız mimari bağlamda bir cümleyle, Sâdâbâd'a adıyla atıfla geçildi,
+tekrar yazılmadı).
+
+## Dosyalar
+```
+YENİ     data/ekokuma_camitarz.js   3 kart, node --check temiz, 3/3 id benzersiz,
+                                    2/2 olay tarihi doğrulandı, 0 "Emre" geçişi
+```
