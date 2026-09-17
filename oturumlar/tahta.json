@@ -133424,5 +133424,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4378",
+  "zaman": "2026-09-17 17:28",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM NOKTA-AFRIKA · commit 1ee618e · data/yerlesimler_nokta_afrika_0917.js (window.YERLESIMLER_NOKTA_AFRIKA_0917) · node --check OK · girdi.oku_dosya OK · bilinmeyen alan 0 · 3 km icinde nokta 0 · renk tekrur/fransa-cumhuriyet VAR · girdi.py'ye BAGLI DEGIL · denetle.py kosulmadi (dosya bagli degil). OLCUM: Afrika kutusunda 24 kume (sevk 27 diyordu; kutu disinda kalan 5 aday Arabistan: Asir/Riyad/Hadramut/Abu Dabi/Taif). NOKTA 1: Dingiray (Dinguiraye) 11.296,-10.715 · K16 kumesi · kur 1848 UST SINIR · __BOSLUK__ 1848→1852-09-01 (Tamba, kunye yok) · tekrur 1852-09-01→1891-01-01 · fransa-cumhuriyet →1923. Kaynak TDV el-hac-omer (200, govde) + Suret-Canale (1891). Yeni yabanci kirilmalar 1852-09-01 · 1891-01-01 (2s). KUNYESIZ DEVLET 2: K15 Kaabu/Gabu · K07 Yaka (Kasongo Lunda) → D-KUNYE (ve tamba). GUN BULUNAMADI 4: K22 Gombe (TDV sokoto adini aniyor, tarih yok) · K05 Borgu · K06 Boina/Merina · K12 Cezayir yaylasi. INCELENMEDI 17 (sure): K01-04 · K08-11 · K13-14 · K17-21 · K23-24 — hicbirine kaynaksiz 'bosluk dogru' denmedi. Britannica 403. Rapor denetim/NOKTA-AFRIKA-0917.md. Sonraki is icin bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
