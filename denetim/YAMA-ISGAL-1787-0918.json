@@ -1,0 +1,100 @@
+{
+  "paket": "0068-ISGAL-1787",
+  "maddeler": "DALGA-0068 · H-0002 (Dubica) · H-0003 (Novi) · H-0005 + H-0007 (1789-11-01 Belgrad çevresi) · H-0008 (Bükreş) · H-0009 (Bender, Kili) · H-0011 (Bender/Kili/İsmail + Bükreş) · H-0026 (El-Arîş)",
+  "tarih": "2026-09-18",
+  "yazan": "ISGAL-1787 (Opus 1011, önceki adı KARADENIZ-KAFKAS) · koordinatör 1.MURAT · şartname oturumlar/DALGA-0068.md B tablosu",
+  "durum": "ÖNERİ — veri dosyalarına YAZILMADI. 8 maddenin 7'si için YAMA GEREKMİYOR (veri zaten doğru ve kaynaklı, eksik olan YAYIN); 1 gerçek boşluk bulundu (Belgrad).",
+
+  "manset": "Emre'nin 'haritada hiçbir aksiyon yok' dediği yedi kalemin altısında VERİ DOĞRU — kayıtlar koşu 12'nin girdisinden SONRA yazıldı, bu yüzden bugünkü haritada yoklar ve koşu 13 yayınlanınca görünecekler. İsmail'in 'yeşile boyanması' da aynı kökten: koşu 12 tabanında İsmail'in Rus dönemi `s:` (kalıcı sahiplik) idi, 17 Eylül 19:46'da `isg:`e (geçici işgal) ÇEVRİLDİ. Tek gerçek boşluk BELGRAD: şehir 1789'da Avusturya'nın eline geçti, atlasta o işgalin kaydı YOK.",
+
+  "olcum": {
+    "yontem": "Dört ayrı katman ayrı ayrı okundu: ① bugünkü veri (arac/girdi.py GIRDI_DOSYALARI, 86 dosya) ② koşu 12'nin GİRDİSİ (git show 710b3ad:data/yerlesimler.js — koşu 12'nin tabanı, 16 Eylül 15:52) ③ koşu 12'nin ÇIKTISI (data/donemler.js ve data/devirler.js, ikisi de 17 Eylül 14:54) ④ koşu 13'ün girdi anlık görüntüsü (C:/atlas-kosu13/data/*.js, 17 Eylül 19:47). Koşu 13 ölçüm sırasında SÜRÜYORDU — worktree'ye yalnız OKUMA yapıldı.",
+    "tablo": [
+      {"kayit": "Böğürdelen (Šabac)", "isg": "avusturya 1788-04-24→1791-08-04", "bugun": "VAR", "kosu12_girdi": "VAR", "donemler": "yok", "devirler": "VAR (taralı)", "kosu13_girdi": "VAR", "sonuc": "bugün haritada TARALI çiziliyor — Emre'nin görselindeki BATIDAKİ leke budur"},
+      {"kayit": "Semendire (Smederevo)", "isg": "avusturya 1789-10-13→1791-08-04", "bugun": "VAR", "kosu12_girdi": "VAR", "donemler": "yok", "devirler": "VAR (taralı)", "kosu13_girdi": "VAR", "sonuc": "bugün haritada TARALI — görseldeki DOĞUDAKİ leke budur. Kaynağı sağlam: TDV semendire '13 Ekim 1789'da 300 askerin silâhlarını bırakarak geri çekilebilmesi şartıyla teslim oldu … 4 Ağustos 1791'de imzalanan Ziştovi Antlaşması'na kadar Avusturyalılar'ın egemenliği altında kaldı'"},
+      {"kayit": "Bosna Dubiçası (Bosanska Dubica)", "isg": "avusturya 1788-08-26→1791-08-04", "bugun": "VAR (yerlesimler_ek29.js)", "kosu12_girdi": "YOK", "donemler": "yok", "devirler": "yok", "kosu13_girdi": "VAR", "sonuc": "H-0002 → YAMA GEREKMEZ, koşu 13 ile görünecek"},
+      {"kayit": "Bosna Novi'si (Bosanski Novi)", "isg": "avusturya 1788-10-03→1791-08-04", "bugun": "VAR (yerlesimler_ek29.js)", "kosu12_girdi": "YOK", "donemler": "yok", "devirler": "yok", "kosu13_girdi": "VAR", "sonuc": "H-0003 → YAMA GEREKMEZ, koşu 13 ile görünecek"},
+      {"kayit": "Hotin", "isg": "avusturya 1788-09-01→1792-01-09", "bugun": "VAR", "kosu12_girdi": "YOK", "donemler": "yok", "devirler": "yok", "kosu13_girdi": "VAR", "sonuc": "aynı sınıf"},
+      {"kayit": "Bükreş", "isg": "avusturya 1789-11-01→1791-08-04", "bugun": "VAR", "kosu12_girdi": "YOK", "donemler": "yok", "devirler": "yok", "kosu13_girdi": "VAR", "sonuc": "H-0008 ve H-0011'in Bükreş kısmı → YAMA GEREKMEZ"},
+      {"kayit": "Bender", "isg": "rusya 1789-11-14→1792-01-09", "bugun": "VAR", "kosu12_girdi": "YOK", "donemler": "yok", "devirler": "yok", "kosu13_girdi": "VAR", "sonuc": "H-0009 → YAMA GEREKMEZ"},
+      {"kayit": "Kili", "isg": "rusya 1790-10-24→1792-01-09", "bugun": "VAR", "kosu12_girdi": "YOK", "donemler": "yok", "devirler": "yok", "kosu13_girdi": "VAR", "sonuc": "H-0009 · H-0011 → YAMA GEREKMEZ"},
+      {"kayit": "İsmail", "isg": "rusya 1790-12-22→1792-01-09", "bugun": "VAR (isg)", "kosu12_girdi": "VARDI AMA `s:` OLARAK — {f:1790-12-22, t:1792-01-10, d:rusya}", "donemler": "VAR — segment adı 'Kayıp: İsmail'", "devirler": "yok", "kosu13_girdi": "VAR (isg)", "sonuc": "H-0011'in 'yalnız İsmail yeşile boyanıyor' şikâyetinin SEBEBİ: kalıcı sahiplik olarak kodlanmıştı. 17 Eylül'de isg'ye çevrildi ⇒ koşu 13'te öteki kaleler gibi TARALI olacak"},
+      {"kayit": "El-Arîş", "isg": "fransa-cumhuriyet 1799-02-18→1799-11-17", "bugun": "VAR (yerlesimler_afrika.js)", "kosu12_girdi": "YOK", "donemler": "yok", "devirler": "yok", "kosu13_girdi": "VAR", "sonuc": "H-0026 → YAMA GEREKMEZ, koşu 13 ile görünecek"},
+      {"kayit": "Anapa", "isg": "rusya 1791-07-26→1792-01-09", "bugun": "VAR", "kosu12_girdi": "VAR", "donemler": "yok", "devirler": "VAR (taralı)", "kosu13_girdi": "VAR", "sonuc": "bağlam — bugün de çiziliyor"},
+      {"kayit": "🔴 Belgrad", "isg": "YOK", "bugun": "YOK", "kosu12_girdi": "YOK", "donemler": "yok", "devirler": "yok", "kosu13_girdi": "YOK", "sonuc": "H-0005 · H-0007 → GERÇEK BOŞLUK, tek yama önerisi (I-1)"}
+    ],
+    "sayilar": "1787-01-01 – 1792-12-31 penceresine değen kırılma: 178 (bunun 134'ü Fransa Cumhuriyeti'nin 1792-09-22 ilanı). Aynı pencerede `isg:` dönemi: 10 kayıt. Koşu 12 çıktısındaki işgal örtüsü (data/devirler.js window.ISGALLER): pencerede 3 kayıt (Böğürdelen · Semendire · Anapa). Koşu 13'ten sonra beklenen: 9 (Belgrad yazılırsa 10)."
+  },
+
+  "H0005_H0007_cevap": {
+    "soru": "1789-11-01'de savaş sürüyor muydu; Avusturya bu bölgeleri işgal etmiş durumda mıydı; topraklar işgal altında gibi görünüyor",
+    "cevap": "EVET, ikisi de doğru. Savaş Avusturya cephesinde 4 Ağustos 1791 Ziştovi Antlaşması'na kadar sürdü (TDV zistovi-antlasmasi: '1787'de başlayan Osmanlı-Rus-Avusturya savaşı sonunda 4 Ağustos 1791'de Avusturya ile yapılan barış antlaşması'). 1789-11-01'de Avusturya Belgrad'ı, Semendire'yi ve Böğürdelen'i fiilen elinde tutuyordu — TDV zistovi-antlasmasi II. Joseph için 'o sıralarda elinde tuttuğu Belgrad'ı iade etmeye hazırdı' diyor.",
+    "gorseldeki_iki_leke": "Belgrad'ın batısındaki taralı alan Böğürdelen'in (1788-04-24), doğusundaki Semendire'nin (1789-10-13) peteğidir. İkisi de doğru ve kaynaklı.",
+    "gorseldeki_kusur": "Aralarındaki BELGRAD taralı DEĞİL — çünkü Belgrad kaydında 1789-1791 işgali hiç yok. Yani görüntü 'işgal fazla gösteriliyor' değil, TERSİ: işgalin tam ortasındaki şehir işgalsiz görünüyor."
+  },
+
+  "yerlesim_yamalari": [
+    {
+      "no": "I-1",
+      "kayit": "Belgrad",
+      "dosya": "data/yerlesimler.js",
+      "tur": "EKSİK İŞGAL — tek gerçek yama",
+      "simdi": "s: … 1717-08-18→1739-09-18 avusturya · d: 1739-09-18→1867-04-18 · isg: YOK",
+      "oneri": {"isg_ekle": {"f": "<gün kararı — aşağıda>", "t": "1791-08-04", "d": "avusturya", "kaynak": "TDV belgrad: 'Bundan sonra tam bir sınır kalesi haline gelen Belgrad elli yıl sonra tekrar Avusturyalılar'ın eline geçtiyse de (1789) Ziştovi Antlaşması'na (1791) göre yine Osmanlılar'a iade edildi.' · TDV zistovi-antlasmasi: II. Joseph 'o sıralarda elinde tuttuğu Belgrad'ı iade etmeye hazırdı' ve antlaşma günü 4 Ağustos 1791"}},
+      "d_dokunulmaz": "d: 1739-09-18→1867-04-18 AYNEN KALIR — işgal örtüsü onun üstüne biner (Anapa ve Kefe emsali). Bu bir İŞGALDİR, ilhak değil: şehir Ziştovi ile geri verildi.",
+      "gun_karari": {
+        "sorun": "TDV Belgrad'ın düşüşü için YALNIZ YIL veriyor ('1789'). Dört TDV maddesi tarandı (belgrad · zistovi-antlasmasi · semendire · koca-yusuf-pasa) — GÜN HİÇBİRİNDE YOK.",
+        "a (ÖNERİM)": "f:\"1789-10-13\" · kayda şu yazılır: 'gün komşudan: Semendire · TDV semendire (13 Ekim 1789)'. §4'ün şartlı komşu kuralının dört şartı da karşılanıyor: ① komşunun günü kendi kaynağına dayanıyor (TDV semendire, atlas değil) ② hedef için kaynak gün vermiyor ③ aynı süreç (Loudon'un aynı sonbahar harekâtı) ve 45 km mesafe ④ kayda açıkça yazılıyor. Ek güvence: Semendire'nin günü Belgrad'ın düşüşünden SONRADIR, yani bu seçim işgali erken göstermez.",
+        "b": "f:\"1789-01-01\" (yıl hassasiyeti). §4'ün harfi ama bu kayıtta ZARARLI: dönem BAŞLANGICI olduğu için harita Ocak-Ekim 1789 arasında Belgrad'ı 9 ay boyunca işgal altında gösterir — kaynağın söylemediği bir şey.",
+        "c": "Akademik kaynakta gün aranır (BULUNAMADI kovasında; bu oturum TDV dışına çıkmadı, çünkü §4 TDV'yi birincil sayıyor ve TDV konuyu KAPSIYOR, yalnız o taneciği vermiyor).",
+        "degismez2_notu": "(a) yeni bir kırılma GÜNÜ açmaz — 1789-10-13'te Semendire'nin kırılması zaten var; aynı güne ikinci kayıt eklenir. (b) 1789-01-01'de YENİ ve maddesiz bir kırılma açar."
+      }
+    },
+    {
+      "no": "I-2",
+      "kayit": "Bükreş · Yaş",
+      "tur": "HASSASİYET BAYRAĞI — değişiklik önerilmiyor",
+      "olcum": "Bükreş'in işgali hem veride (`isg: f:\"1789-11-01\"`) hem kronolojide (`t:\"1789-11-01\", kesinlik:\"ay\"`) ayın 1'ine kodlanmış. İkisi TUTARLI ve madde kendi hassasiyetini AÇIKÇA damgalamış (`kesinlik:\"ay\"`) — bu, `D213`ün istediği davranış.",
+      "not": "Kayıt tarafında böyle bir damga alanı yok; `YYYY-MM-01` biçimi veride 'ayın 1'i' ile 'ay biliniyor'u ayırt edemiyor. Genel bir eksik, bu kaydın kusuru değil."
+    },
+    {
+      "no": "I-3",
+      "kayit": "Orşova · Yeni Orşova (Ada Kale)",
+      "tur": "ADAY — ölçülemedi, yama YOK",
+      "gerekce": "Avusturya cephesinin bu iki kalesi atlasta HİÇ YOK (nokta aranıp bulunamadı: 'orsova' · 'gradiska' · 'berbir' · 'kladova' · 'fethulislam' — beşi de kayıtsız). Nokta olmadığı için işgal de yazılamaz; nokta açmak bu şartnamenin dışında ve kaynak (TDV slug) bu turda sınanmadı."
+    }
+  ],
+
+  "kronoloji_onerisi": [
+    {
+      "no": "IK-1",
+      "t": "1789-10-13",
+      "b": "Belgrad ve Semendire Avusturya'nın eline geçti",
+      "devletler": ["osmanli", "avusturya"],
+      "tur": "toprak-kayip",
+      "onem": 4,
+      "dunya": 2,
+      "kapsam": "dis",
+      "yer_id": "Belgrad",
+      "d": "1787'de başlayan savaşın üçüncü yılında Avusturya kumandanı Loudon Tuna boyundaki Osmanlı sınır kalelerini aldı: Semendire 13 Ekim 1789'da, 300 askerin silâhlarını bırakarak çekilmesi şartıyla teslim oldu; Belgrad da aynı sonbaharda Avusturya'nın eline geçti. Her iki şehir de 4 Ağustos 1791 Ziştovi Antlaşması'yla Osmanlı Devleti'ne geri verildi. ⚠️ Belgrad'ın teslim GÜNÜ kaynakta yok; tarih Semendire'nin TDV'de verilen gününden alınmıştır.",
+      "kaynak": "TDV semendire (13 Ekim 1789 · Ziştovi'ye kadar Avusturya egemenliği) · TDV belgrad (1789'da Avusturya'nın eline geçti, Ziştovi ile iade) · TDV zistovi-antlasmasi (4 Ağustos 1791)",
+      "gerekce": "Bu güne bugün bir madde YOK; Semendire'nin 1789-10-13 kırılması da karşılıksız duruyor. I-1 (a) seçilirse madde iki kırılmayı birden karşılar."
+    }
+  ],
+
+  "motora_devredilen": {
+    "no": "M-1",
+    "konu": "Aynı `isg:` alanı iki ayrı yoldan çiziliyor ve sonuçları AYRIŞIYOR",
+    "olcum": "data/devirler.js (window.ISGALLER, taralı örtü) `arac/uret_devirler.py:isgalleri_uret` tarafından doğrudan `isg:` dönemlerinden kuruluyor — koşu 12'de pencerede 3 kayıt üretti. Buna karşılık İsmail'in işgali data/donemler.js'te bir SAHİPLİK segmenti ('Kayıp: İsmail', 1790-12-22→1792-01-09) olarak duruyor. Sebebi ölçüldü: o tarihte İsmail'in kaydı `isg:` değil `s:`ti; yani ayrışma motordan değil VERİDEN geliyordu ve 17 Eylül'de düzeltildi.",
+    "kalan_soru": "Koşu 13'ten sonra bu on işgalin tamamı taralı örtüye girmeli. Koşu bitince ölçülmeli: `window.ISGALLER` pencerede 9-10 kayıt mı? Girmeyen olursa sebebi `uret_devirler.py`nin 'gövde kurulamadı' / 'peteği bulunamadı' uyarılarındadır — o uyarılar koşu logunda aranmalı.",
+    "kime": "MOTOR-YURUYUS / ISGAL-TARAMA (Emre'nin H-0001 kuralı: işgal edenin rengi baskın, işgal edilenin rengi ince tarama). Bu oturum motora ve app.js'e DOKUNMADI."
+  },
+
+  "bulunamadi": [
+    "Belgrad'ın 1789'da Avusturya'ya teslim GÜNÜ — dört TDV maddesinde yok (belgrad · zistovi-antlasmasi · semendire · koca-yusuf-pasa); TDV yalnız yıl veriyor",
+    "Orşova, Yeni Orşova, Berbir/Gradişka, Kladova/Fethülislam — atlasta yerleşim kaydı YOK, işgalleri ölçülemedi",
+    "Koşu 13'ün bitiş saati (koşu ölçüm sırasında sürüyordu; worktree'ye yalnız okuma yapıldı)"
+  ],
+
+  "yapilmayan": "Hiçbir veri dosyasına yazılmadı; koşu 13 sürerken `data/` ve `arac/` donmuş sayıldı (§7). Belgrad yaması da dahil her şey ÖNERİ."
+}
