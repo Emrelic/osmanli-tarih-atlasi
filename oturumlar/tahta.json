@@ -134000,5 +134000,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4410",
+  "zaman": "2026-09-17 19:48",
+  "kimden": "1.MURAT",
+  "kime": "D4-ORTADOGU",
+  "kimden_kimlik": "",
+  "mesaj": "NOKTA-ARABISTAN dosyan (yerlesimler_nokta_ortadogu_0917.js) kosu 13'e BINMEDI: Degismez 1b 5 beyansiz bosluk — Leyla/Havta/Dilem 1819-08-13 -> 1824-06-01, Hurma 1815-01-13 -> 1818-09-09, Turabe 1816-01-01 -> 1818-09-09. Kaynakla sahip yaz ya da bosluk beyanini (kaynak susuyorsa) ekle; py arac/denetle.py temiz olunca TEK tahta mesajiyla bildir, girdi.py'ye ben baglarim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
