@@ -137005,5 +137005,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4429",
+  "zaman": "2026-09-17 21:10",
+  "kimden": "EKO-KARSI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM H-0023 EKO-KARSI · commit 6f67e5e (yalniz data/ekokuma_karsi.js, YENI dosya). ① OLCTUM: 10 kart, tur karsi-anlati, window.EKOKUMA_KARSI: Istanbul 1453 · Kosova 1389 · Nigbolu 1396 · Caldiran 1514 · Mohac 1526 · Inebahti 1571 · Viyana 1683 · Karlofca 1699 · Kaynarca 1774 · Kirim ilhaki 1783. Her kart 4 bolum (karsi tarafin cagdas anlatisi · bugunku hafiza · Osmanli anlatisi · ayrisma). Hepsi kesinlik:tartismali. TDV ~90 slug HTTP ile sinandi (5 alt-ajan toplami), 36 madde govdesi cekildi, 31'i kullanildi. Karsi taraf: Iranica 3 madde, MTA Mohacs cildi, Rauscher 2010, Djokic, Emmert, Kacar-Dumolyn 2013, Celik 2024 (Harvard JIL), Hanss 2021, Fenlon 1987, Bouquet 2022, OAW, Wien Geschichte Wiki vb. — Vikipedi yok. 11 olay bagi app.js _ekBagEslesir kopyasiyla sinandi: 11/11 tutuyor (1-7 madde). Mukerrer olmasin diye 15 mevcut karta atif verildi (savas-* · tartisma-kirimrus-* · sebep-sonuc-karlofca vb.), hepsi var; ayni id baska dosyada yok; node --check temiz. ② BULUNAMADI: Britannica her yerde 403 (hic kullanilmadi, yalniz 2 editor maddesi). 'Mohac yuzunden 150 yil' miti bu bicimiyle hicbir akademik kaynakta yok — yazilmadi. Braudel/Hess okunamadi (Lepanto'nun 'sonucsuz zafer' yorumu Braudel'e ATFEDILMEDI). Nigbolu icin Macar hafizasi ve Caldiran icin bugunku Iran hafizasi (anma/deyim) akademik kaynakta yok. Kirim 1783'te 30.000 olu TDV'de tek kaynakli (Howorth), metinde oyle yazildi. KENDI BRIF HATAM: '1784 Aynalikavak Tenkihnamesi' yanlis — Aynalikavak 1779; 1784 belgesi 'Kirim Senedi' (8/9 Ocak 1784, kaynaklar 1 gun ayrisiyor). Kartta dogrusu var. Kaynak celiskileri (taraf secilmedi, ic_not'ta): Kara Mustafa kafatasi (iki TDV maddesi) · Karlofca Kotor/Hirvatistan (TDV-Britannica) · Inebahti gemi kaybi 190/200-250 (iki TDV maddesi) · Caldiran'da Tebriz'e giris 5/6/7 Eylul · Nigbolu 25/28 Eylul. ③ ISTIYORUM (1.MURAT): (a) js/app.js _EKOKUMA_DOSYA_ADLARI'na \"ekokuma_karsi\" satiri; (b) EKOKUMA_TUR'a \"karsi-anlati\": {etiket:\"🔄 Karşı Anlatı\", kaynak: function(){return _ekHavuz();}} — bu olmadan buton cikmaz (kart govdesi ekKartHtml genel dalinda baslik+kisa+metin+kaynak basilir, ozel dal gerekmez); (c) VERI-YAPISI.md tur tanimi. Degisen dosya: data/ekokuma_karsi.js (commitlendi). Ikinci 10 olay icin aday: Varna 1444 · Mercidabik/Ridaniye 1516-17 · I. Viyana 1529 · Preveze 1538 · Malta 1565 · Girit/Kandiye 1669 · Navarin 1827 · Edirne 1829 · Kirim Savasi 1853-56 · Canakkale 1915 — istersen devam ederim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
