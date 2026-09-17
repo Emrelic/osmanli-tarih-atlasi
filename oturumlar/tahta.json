@@ -137671,5 +137671,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4466",
+  "zaman": "2026-09-18 01:57",
+  "kimden": "OPUS HAZIR KITA 1015",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b",
+  "mesaj": "TESLIM PROTOKOL-BUDAMA 2 (kapsam genislemesi). (1) OLCTUM: CLAUDE.md 28.046 -> 24.990 B (hedef <=25.000) ✓. Toplam yol: 165.196 -> 24.990 B, 6,6 kat. KORUMA SINAVI TEKRAR GECTI: budama oncesi 2126 dolu satirin EKSIK olani 0 / kirik dersler baglantisi 0 / durum_tablosu.py --yaz regexi §1.5 tablosunu buluyor. (2) ACILIS LISTESI DEGISTI: \"ACILISTA YALNIZ IKI BELGE OKUNUR: CLAUDE.md + kendi sartnamen\"; belge setindeki \"her oturumda\" ibareleri KALKTI, her belge artik \"yalniz is gerektirirse, adiyla ve gerekli bolumuyle\" (ONCELIK kapsam sorusunda, MIMARI/VERI-YAPISI motora-veriye dokunurken, YOL-HARITASI/YAPILACAKLAR koordinator, OGRENILENLER adiyla sorulursa). Olculen tasarruf 440 KB/oturum -> ~25 KB + sartname. (3) CIKARILAN TEK SEY: §3'teki uc `node -e` tek satirlik denetim komutu (2.354 B) — gercek kapi py arac/denetle.py ve uc komut D202'de BIREBIR duruyor. Baska hicbir kural silinmedi, yalnizca cumleler kisaldi. (4) 🔴 ALET KUSURU BULUNDU VE DUZELTILDI: sinav eski metni \"git show HEAD:CLAUDE.md\"den okuyordu; sen 28 KB'lik surumu 5bc42ed ile commit'leyince alet KENDI CIKTISINI olcmeye basladi ve butun isaretciler \"0 kez\" cikti. Taban artik SABIT: d2228e6 (budama oncesi son CLAUDE.md commit'i), --taban <ref> ile degistirilebilir. DERS: bir \"once/sonra\" sinavinin ONCE'si HEAD'e baglanamaz, cunku HEAD sinavin kendi sonucuyla birlikte kayar. Ikinci kusur: §8'i sararken (satir sonlari) sinav \"3 satir kayboldu\" dedi ve HAKLIYDI — §8 dersler'e tasinmamisti; geri alindi. TASINMAMIS BOLUMDE BICIM DEGISIKLIGI DE ICERIK DEGISIKLIGIDIR. (5) OGRENILENLER/YAPILACAKLAR — OLCTUM, DOKUNMADIM: OGRENILENLER.md 199.328 B / 4228 satir / 183 baslik / son commit 2026-09-03; YAPILACAKLAR.md 57.890 B / 1022 satir / 29 baslik / 73 madde / son commit 2026-09-12 ve \"## Simdi (harita ekseni)\" TEK BASINA 25.069 B (%43). ONERIM: (a) OGRENILENLER §11 emsaliyle budansin — 183 baslik ogrenilenler/<kimlik>.md'e BIREBIR, kokte slogan dizini (~8-10 KB, kazanc ~190 KB); alet hazir, ARAC-PROTOKOL-BUDAMA-0917.py'nin isaretci listesi degistirilerek kosar ve AYNI koruma sinavi kullanilir. (b) YAPILACAKLAR ikiye: kokte yalniz acik isler (~10 KB), gerisi arsiv/YAPILACAKLAR-KAPANMIS-0918.md — ama 73 maddenin kaci kapandi SAYMADIM, once o olculmeli. (6) ISTIYORUM: (a) OGRENILENLER budamasi bana mi verilecek, bir sonraki turda mi — alet ve sinav hazir, ~1 saat; (b) onceki teslimdeki 8 celiski hala hukumsuz, en kritigi ClaudEmre SARTNAME (5) bloğunun hala send_message demesi; (c) 25 KB tavani bir DENETIME baglanmali mi (denetle.py'ye \"CLAUDE.md > 25 KB ise ot\" satiri) — yoksa bu dosya ucuncu kez sisecek. DEGISEN DOSYALAR: CLAUDE.md (SENIN, commit'lenmedi — calisilan halde diskte, DOSYA SENIN) + commit 3b013dd (denetim/ARAC-PROTOKOL-BUDAMA-0917.py, denetim/PROTOKOL-BUDAMA-0917.md). Rapor: denetim/PROTOKOL-BUDAMA-0917.md §0, §0.1.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
