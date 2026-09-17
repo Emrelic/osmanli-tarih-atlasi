@@ -1,0 +1,76 @@
+{
+  "paket": "1DUNYA-A-0917",
+  "tarih": "2026-09-17",
+  "yazan": "1DUNYA-A (şartname oturumlar/BIRINCI-DUNYA-SAVASI-0917.md)",
+  "durum": "ONERI — yerleşim dosyalarına YAZILMADI; koşu 13'e koordinatör indirir",
+  "olcum": "denetim/ARAC-1DUNYA-A-HARITA-0917.py (girdi.yukle, 77 dosya, 3855 nokta). Kontrol edilen 26 yerleşimin HİÇBİRİNDE 1914-1918 savaş içi isg: dönemi yok: Belçika, Lüksemburg, Sırbistan, Karadağ, Romanya, Rus Polonyası, Baltık ve Kuzey İtalya savaş boyunca kendi devletinin rengiyle boyanıyor.",
+  "degismez_2i_notu": "denetle.py 2i evreni = Y_cekirdek × olaylar*.js. KRONOLOJI_COK maddeleri 2i'yi KAPATMAZ. yerlesimler_avrupa.js KUYRUK_DOSYALARI içinde → kalem 1-2-7 2i'ye girmez. yerlesimler.js ÇEKİRDEK → kalem 3-4-5-6 uygulanırsa 2i'de yeni açık doğar (tavan 3); çekirdek olaylar*.js maddesi gerekir.",
+  "kalemler": [
+    {
+      "no": 1,
+      "sinif": "UYGULANABILIR",
+      "dosya": "data/yerlesimler_avrupa.js:362 (Lüksemburg)",
+      "eski": "{f:\"1890-11-23\",t:\"1923-10-29\",d:\"luksemburg\"}] },",
+      "yeni": "{f:\"1890-11-23\",t:\"1923-10-29\",d:\"luksemburg\"}], isg:[{f:\"1914-08-02\",t:\"1918-11-20\",d:\"almanya\",kaynak:\"1914-1918-online, Majerus/Roemer «Luxembourg» — 2 Ağustos 1914 sabahı işgal edildi; Alman işgal ordusu 20 Kasım 1918'de ayrıldı\"}] },",
+      "gerekce": "İki uç da AYNI kaynakta, gün hassasiyetinde. Kronolojide karşılığı: KRONOLOJI_COK_1DUNYA_A 1914-08-02 ve 1918-11-20.",
+      "kaynak": "encyclopedia.1914-1918-online.net/article/luxembourg/ — 'Luxembourg was occupied on the morning of 2 August 1914' · 'The German occupying army leaves Luxembourg on 20 November 1918'"
+    },
+    {
+      "no": 2,
+      "sinif": "KARAR — bitiş günü bulunamadı",
+      "dosya": "data/yerlesimler_avrupa.js:354 (Brüksel)",
+      "oneri": "isg:[{f:\"1914-08-20\",t:\"?\",d:\"almanya\"}]",
+      "gerekce": "Başlangıç kaynaklı: Brüksel 20 Ağustos 1914'te savaşmadan düştü. Bitiş: kaynak yalnız 'Kasım 1918' (kraliyet ailesinin Brüksel'e dönüşü) diyor, gün yok. 1918-11-11 (Compiègne) yazmak kaynaksız bir gün olur. Aynı soru Liège (4 Ağustos'ta Alman girişi, şehrin düşüş günü yok) ve Anvers (düşüş günü kaynaklarda yok) için de geçerli.",
+      "kaynak": "encyclopedia.1914-1918-online.net/article/belgium/ — 'by 20 August, the day when Brussels, an open city, fell without a fight'"
+    },
+    {
+      "no": 3,
+      "sinif": "KARAR — bitiş günü + mevcut s: dönemi şüpheli",
+      "dosya": "data/yerlesimler.js:1055 (Varşova)",
+      "oneri": "isg:[{f:\"1915-08-05\",t:\"?\",d:\"almanya\"}]",
+      "gerekce": "Alman süvarisi 5 Ağustos 1915'te Varşova'ya girdi. Mevcut kayıt 1917-03-15→1917-11-07 rusya-gecici-hukumet ve 1917-11-07→1918-11-11 sovyet-rusya gösteriyor; kaynağa göre şehir o tarihlerde Alman işgalindeydi, 5 Kasım 1916'da Merkezî Devletler'e bağlı 'Polonya Krallığı' ilan edilmişti, Naiplik Konseyi 12 Eylül 1917'den beri devlet başkanlığı yapıyordu. Sınıf: 'devlet var, yeri yanlış' (CLAUDE.md §3.5.-1). Bitiş: Piłsudski 10 Kasım 1918'de Varşova'ya geldi; Alman kuvvetlerinin çıkış günü kaynakta yok (mevcut 1918-11-11 sınırı atlastan, kaynaktan değil).",
+      "kaynak": "encyclopedia.1914-1918-online.net/article/poland/ — 'German cavalry entering Warsaw on 5 August 1915' · 'on 10 November 1918, Piłsudski came to Warsaw' · occupation-during-and-after-the-war-austria-hungary — 'from 12 September 1917, the Regency Council'"
+    },
+    {
+      "no": 4,
+      "sinif": "KARAR — bitiş günü + mevcut s: dönemi şüpheli",
+      "dosya": "data/yerlesimler.js:1049 (Riga)",
+      "oneri": "isg:[{f:\"1917-09-03\",t:\"?\",d:\"almanya\"}]",
+      "gerekce": "Alman 8. Ordusu, 1 Eylül 1917'de başlayan taarruzdan iki gün sonra Riga'yı aldı. Mevcut kayıt 1917-11-07→1918-11-11 sovyet-rusya gösteriyor; şehir o sırada Alman elindeydi. Almanların Riga'dan çıkış günü kaynaklarımda yok.",
+      "kaynak": "encyclopedia.1914-1918-online.net/article/eastern-front/ — 'The Germans opened the offensive on 1 September … Eighth Army took the city two days later'"
+    },
+    {
+      "no": 5,
+      "sinif": "KARAR — bitiş günü bulunamadı",
+      "dosya": "data/yerlesimler.js:1161 (Cetinje)",
+      "oneri": "isg:[{f:\"1916-01-13\",t:\"?\",d:\"avusturya\"}]",
+      "gerekce": "Lovćen 11 Ocak 1916'da düştü, başkent iki gün sonra alındı. Avusturya-Macaristan işgalinin bitiş günü kaynaklarımda yok. d:'avusturya' — Habsburg künyesinin harita anahtarı.",
+      "kaynak": "encyclopedia.1914-1918-online.net/article/occupation-during-and-after-the-war-austria-hungary/ — 'By 11 January 1916, the strategically important Mount Lovćen was captured, two days later the capital Cetinje was seized.'"
+    },
+    {
+      "no": 6,
+      "sinif": "BLOKE — başlangıç günü bulunamadı",
+      "dosya": "data/yerlesimler.js:335 (Niş)",
+      "oneri": "isg:[{f:\"?\",t:\"1918-10-12\",d:\"bulgaristan\"}]",
+      "gerekce": "Sırp birlikleri Niş'i 12 Ekim 1918'de aldı. Niş'in 1915'teki düşüş günü kaynaklarımda yok (Bulgar taarruzu 14 Ekim 1915'te başladı; TDV'ye göre Sırbistan 26 Kasım'da yenildi). Aynı durum Belgrad (1915 düşüşü günsüz; kaynak: 'eski Sırbistan toprakları 1 Kasım 1918'e kadar kurtarıldı'), Üsküp (Fransız süvarisi 29 Eylül 1918'de aldı; 1915 günü yok) ve Manastır (TDV/Tasić çelişkisi) için de geçerli. Ayrıca Niş/Üsküp'ün 1915-1918'de Bulgar mı Alman-Avusturya mı işgal bölgesinde olduğunu kaynağım ayırmıyor (Tasić yalnız 'Bulgar işgal bölgesi' ve 'Avusturya-Macaristan işgal bölgesi' diyor).",
+      "kaynak": "encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/ — 'When Serbian troops took the town of Niš on 12 October'"
+    },
+    {
+      "no": 7,
+      "sinif": "BLOKE — iki gün de bulunamadı",
+      "dosya": "data/yerlesimler_avrupa.js:411 (Udine)",
+      "oneri": "isg:[{f:\"?\",t:\"?\",d:\"avusturya\"}]",
+      "gerekce": "Caporetto (24 Ekim 1917) sonrası Udine ve Belluno illeri ile Venedik, Treviso, Vicenza'nın bazı kısımları 'bir yıl süreyle' Avusturya-Macaristan idaresine girdi. Günler kaynakta yok.",
+      "kaynak": "encyclopedia.1914-1918-online.net/article/occupation-during-and-after-the-war-austria-hungary/ — 'For the period of a year, the provinces of Udine and Belluno as well as parts of Venetia, Treviso and Vicenza came under Austro-Hungarian rule.'"
+    },
+    {
+      "no": 8,
+      "sinif": "BLOKE — başlangıç günü kaynakta ÇELİŞİK",
+      "dosya": "data/yerlesimler.js:447 (Bükreş) — ÇEKİRDEK, 2i'ye girer",
+      "oneri": "isg:[{f:\"?\",t:\"?\",d:\"almanya\"}]",
+      "gerekce": "Bükreş'in düşüşü: TDV 7 Aralık 1916 · Tasić 6 Aralık 1916 · «Romania» makalesi 9 Aralık 1916. Bitiş: askerî idare 'Kasım 1918 başına kadar' sürdü, gün yok.",
+      "kaynak": "TDV birinci-dunya-savasi · 1914-1918-online warfare-1914-1918-south-east-europe · romania-1-1"
+    }
+  ],
+  "ozet": "8 kalem: 1 uygulanabilir · 4 karar · 3 bloke. Çekirdek 4 kalemden (3-6) 2 tanesi (Varşova, Riga) ayrıca mevcut s: döneminde 'devlet var, yeri yanlış' şüphesi taşıyor."
+}
