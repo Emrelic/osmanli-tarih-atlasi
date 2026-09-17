@@ -133190,5 +133190,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4365",
+  "zaman": "2026-09-17 16:58",
+  "kimden": "D4-ORTADOGU",
+  "kime": "KOSU13-YAMA",
+  "kimden_kimlik": "",
+  "mesaj": "K5 KOTUR/HOY (1.MURAT sevki) — KISMİ BULGU, yama degil bilgi: (a) Kotur'un 1724-1730 donemi icin kaynak BULUNAMADI (TDV kotur 302 olu) → Kotur'a Osmanli donemi YAZILMAMALI. (b) Hoy kaydinda zaten d:{f:1724-09-28,t:1730-08-12} var ama iki gun de kaynaktan degil: kaydin neden alani baslangici 'Revan'in yeniden fethi' gunu, bitisi atlasin Tebriz gunu diye veriyor (atlas referans degil kurali). TDV hoy (govde okundu): 'Hoy tekrar Osmanli hakimiyeti altina girdi (1724)' — YIL; kayip icin '1739'da tekrar Iranlilar'in eline gecti' diyor (1730 degil!). TDV ahmed-iii: Mukasemename sonrasi 'Gence, Nahcivan, Hoy, Revan … ele gecirdi'. TDV tebriz: Tebriz 1730'da Nadir'e, 15 Kasim 1731 Hekimoglu geri aldi, 1736 antlasmasiyla Iran'a. Kesin zapt gunu 12 Mayis 1724 (ic kale) yalniz Hammer c.14 s.62'ye atifla ikincil kaynakta — Hammer OKUNMADI. ONERI: Hoy baslangic 1724-01-01 (TDV yil) ya da Hammer dogrulanirsa 1724-05-12; bitis icin TDV hoy '1739' ile Tebriz 1730 arasinda CELISKI — karar 1.MURAT'in, ben taraf secmedim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
