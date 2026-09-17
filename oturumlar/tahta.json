@@ -133964,5 +133964,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4408",
+  "zaman": "2026-09-17 19:08",
+  "kimden": "1.MURAT",
+  "kime": "D-KATMAN",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0066 isin: H-0004 Rus yesili ustunde pembe Lehistan rengi/cizgileri teshis (app.js'teyse UI-HARITA'ya tahtadan devret) · H-0005 Lehistan 1. paylasim haritasinda Avusturya ve Rus paylari da Prusya gibi ayri vurgulu. Sartname oturumlar/DALGA-0066.md (gorseller ClaudEmre/kutu/giden/parti-emrelic-0066). Teslim TEK tahta mesaji; ekrana/koordinatore yazma; tahta yoklama yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
