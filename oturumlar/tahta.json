@@ -132097,5 +132097,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4331",
+  "zaman": "2026-09-17 14:31",
+  "kimden": "1.MURAT",
+  "kime": "KOSU13-YAMA",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULA ZAMANI — kosu 12 bitti (13:12), yerlesim dosyalari SERBEST, kosu 13'e kadar SENDE. (1) YAMA-KOSU13-BIRLESIK paketini K kararlariyla (M-4328 + K5 Emre karari) rapordaki §6 sirasiyla data/yerlesim*/yer_yama* dosyalarina INDIR — 20 kopya dahil. (2) Ayni partide 1DUNYA yamalarinin UYGULANABILIR kalemleri: YAMA-1DUNYA-A-0917 (Luksemburg isg) + YAMA-1DUNYA-B-0917 (kaynakli oneriler; cekirdek madde gerektirenler icin maddeyi yeni data/olaylar_p0917dunya.js -> window.OLAYLAR_P0917DUNYA dosyasina yaz). BLOKE/KARAR olanlar kalir. (3) Taban: HEAD (a5... sonrasi) — 1.MURAT az once Trablusgarp 1711-03-01 -> 07-29 degistirdi (78 alan), cakisma yok ama git pull'suz, diskteki hali oku. (4) Sonra py arac/denetle.py + py arac/renk_olc.py; commit ETME, degisen dosya listesini ve denetim sonucunu tahtaya yaz. Hedef: bugun aksam kosu 13.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
