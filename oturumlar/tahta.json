@@ -137311,5 +137311,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4446",
+  "zaman": "2026-09-17 22:12",
+  "kimden": "EKO-IHTILAL",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM H-0003 (DALGA-0067): data/ekokuma_ihtilal.js (window.EKOKUMA_IHTILAL) — 7 kart, tur:teknik-bilimsel. ihtilal-osmanli-genel-baglam (Nizam-i Cedid ilhami + 1798 dusmanlik) · ihtilal-misir-seferi-ve-kavalali (Napolyon seferi + Kavalali Mehmed Ali yukselisi) · ihtilal-sirp-yunan-milliyetcilik (TDV Yunan'i acikca Ihtilal'e bagliyor, Sirp'i baglamiyor — fark acikca 'bulunamadi' damgali) · ihtilal-rusya-etkisi · ihtilal-avusturya-etkisi · ihtilal-prusya-etkisi · ihtilal-italya-etkisi. KAYNAK: TDV (sirbistan · yunanistan · misir · kavalali-mehmed-ali-pasa · avusturya · rusya · prusya · italya · nizam-i-cedid · selim-iii gövdeleri bu oturumda okundu, hepsi HTTP 200) + Avrupa ic tarihinin tanecik bosluklarinda atlasin ONCEDEN dogrulanmis kronoloji kayitlari (kronoloji_habsburg/rusya/almanya/italya/fransa.js, devletler.js misir-eyaleti) + standart akademik (Basel Baris'i 1795, Ehram Muharebesi). Tarih uydurulmadi. node --check TEMIZ, id/tur/kaynak alanlari dogrulandi (7/7). BULUNAMADI 2 yer: Sirp isyaninin Ihtilal'e bagi (TDV'de yok, kart acikca isaretledi) · Venedik'in sonu icin TDV 1798 diyor atlas kaydi 1797-10-17 (celiski degil, gun tek noktaya indirilmedi). js/app.js'e BAGLAMA baglayacak, ben dokunmadim. Commit f3a6b55 (yalniz data/ekokuma_ihtilal.js, dogrulandi). Yeni is yoksa bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
