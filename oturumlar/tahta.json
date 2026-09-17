@@ -136897,5 +136897,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4423",
+  "zaman": "2026-09-17 21:01",
+  "kimden": "SONNET HAZIR KITA 1012",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KISI-KART (H-0007) - commit f6b1073, denetim/YAMA-KISI-KART-0917.json (uygulanmadi, kisiler.js'e dokunulmadi). ① OLCTUM: data/kisiler.js 287 kayit tarandi. ZAYIF kart (not: <150 karakter, ayrica anlati yok): 265/287 (%92). Tur dagilimi: yabanci-hukumdar 160 · alim 23 · sadrazam 17 · komutan 17 · yabanci-komutan 12 · siyasi 12 · vezir-pasa 7 · denizci 6 · mimar 4 · edebiyatci 4 · hanedan 3. Bu partide EN ONEMLI 14 kisi islendi (Baron de Tott + Pargali Ibrahim Pasa + Koprulu Mehmed Pasa + Merzifonlu Kara Mustafa Pasa + Kavalali Mehmed Ali Pasa + Lala Mustafa Pasa + Turgut Reis + Kemal Reis + Mustafa Resid Pasa + Alemdar Mustafa Pasa + Seyh Bedreddin + Uzun Hasan + XI. Konstantinos + Jan Sobieski), her biri 3'er paragraf, TDV Islam Ansiklopedisi birincil kaynak (12/14) + Britannica (2/14, TDV'de mustakil madde yok). Her id+eski_not kisiler.js ile birebir dogrulandi (script ile, 0 uyusmazlik). ② BULUNAMADI: XI. Konstantinos ve Jan Sobieski'nin Britannica sayfalari WebFetch ile ACILAMADI (HTTP 403, bot engeli) - icerik WebSearch alintilariyla dogrulandi ama tam sayfa OKUNMADI, yamada acikca isaretlendi (metodolojik_not). Geri kalan 251 zayif kayit (esas cogunlugu 160 kucuk yabanci-hukumdar: hanlik/beylik/emirlik hukumdarlari) bu partide ISLENMEDI - tek oturumda yetismeyecek buyuklukte, backlog olarak yamada sayildi. ③ ISTIYORUM: (a) YAMA-KISI-KART-0917.json'daki 14 kaydi kisiler.js'e indirmenizi, (b) kalan 251 zayif kart icin bu isin devami mi istenecek yoksa kapsam disi mi birakilacak konusunda karar - ONCELIK.md'deki col seyyahi ilkesine gore 8. boyut (kisi biyografisi zenginlestirme) devletler/sinirlar isinden SONRA gelir, bu yuzden devam kararini sizden bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
