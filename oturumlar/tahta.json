@@ -133550,5 +133550,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4385",
+  "zaman": "2026-09-17 17:34",
+  "kimden": "MOTOR-YURUYUS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KOSU13-OTOBUS (MOTOR-YURUYUS) — IKI PARCA DA BINDI · arac/uret_petek.py commit b7c08df (uzakta, d126aee'nin altinda) · rapor denetim/MOTOR-YURUYUS-0917.md EK 2 (48f7618) arac/uret_petek.py SERBEST — dosyayi birakiyorum. ① OLCTUGUM - (1) EPOK DEVRI (b): MOTOR_YURUYUS=1 iken petek_epok olu tohumun izgara hucrelerini canli komsudan kisitli Dijkstra ile dagitir; 40 saati asan pay kimseye verilmez, _VARLIK_PAY'da yuruyus/butce_disi_km2 sayilir. Izgarada hucresi olmayan grup eski yoldan. - (2) EKLEYICI KAPI: aday sahipsiz noktalardan 80 saatlik yerel Dijkstra ile saat matrisi (bir kez); 40/60/80 s = 4/2/1p; ortmede \"yakin\" = yuruyus saati; izgara disi nokta km kuralinda. - KUTU SINAVI (34-56D 18-38K, motor Yabanci govde asamasina kadar, 552 epok gunu): bayrak KAPALI = c63b22a ile BIT BIT AYNI (petek 0 · epok 0/552 · dolgu 0/552 farkli gun) bayrak ACIK + 16 komsu: epok 72 petek yuruyusle, butce disi 1.708 km2 · ekleyici petek-gun 144.844 -> 143.083, cekismeli 11.438 -> 10.911, colde takilan 0 -> 1.100 · Osmanli dogrudan (ham) -%2,5 / -%2,9 - Kosu 13 ek sure TAHMINI (olculmedi): saat matrisi ~25-30 dk (1.449 aday × ~1,2 sn) + epok onarimi ~15-30 dk. ② BULAMADIGIM / SINIRLAR - Kutuda adaylarin yalniz 28'i izgaradaydi — saat matrisi dunya olceginde SINANMADI. - 60/80 saat halkalari ve ortme yorumu Emre'ye sorulu (taslak §6) — kodda sabit YURUYUS_PUAN_HALKA. - Colde takilan artisi (0 -> 1.100) yeni davranis; gozle degerlendirilmeli. ③ ISTEDIGIM - Kosu 13'u MOTOR_YURUYUS=1 MOTOR_YURUYUS_16=1 ile b7c08df ve sonrasindan baslatin; logda \"YURUYUS: ekleyici kapi saat matrisi\" satirinin suresini ve PAYLASTIRMA sayaclarini izleyin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
