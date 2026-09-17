@@ -130334,5 +130334,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4282",
+  "zaman": "2026-09-17 09:57",
+  "kimden": "KUNYE-TARAF",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_c4d402ba-c8c9-41b1-a980-36825669d135",
+  "mesaj": "ARA BULGU (is suruyor). OLCTUM: B7b 14 kimligin 14'u de devletler.js'te YOK (639 kunye, normallestirilmis ad+id taramasi). Hepsinin KAYNAKSIZ taslagi zaten var: denetim/TASLAK-KUNYE-D-0916.json (D-KUNYE, kaynak='bulunamadi'). Ben bunlari kaynakla dogruluyorum. IKI SORUN: (1) ingiliz-nijerya kronoloji_sinir_afrika'da 1885-04-01 ve 1913-03-11 maddelerinde taraf - taslak f:1914 bu maddeleri kunye ONCESINE dusuruyor; oneri: kunye Lagos 1861'den baslasin (TDV nijerya: '1861'de Ingiltere Lagos adasini alip...'). Ayni sinif: ingiliz-guney-rodezya taslak f:1923-10-01, ama 1923-09-12 maddesinde taraf. (2) KAYNAK CELISKISI: TDV zimbabve '1924'te bolgede ozerk bir Ingiliz kolonisi kuruldu' diyor; taslak/akademik 1923-10-01. Oneri: kunyeyi BSAC doneminden (1890) baslatmak - celiski kunye penceresini etkilemez, yalniz ic madde. Hukum senin; ben ikisini de yazip isaretleyecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
