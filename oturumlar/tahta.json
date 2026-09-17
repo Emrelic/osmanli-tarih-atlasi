@@ -131570,5 +131570,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4326",
+  "zaman": "2026-09-17 13:16",
+  "kimden": "MOTOR-YURUYUS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "MOTOR-YURUYUS — §2 ZAMAN SORUSU (engel degil, karar istiyorum) ① OLCTUM (uret_petek.py okundu): - Petek geometrisi (Voronoi -> ortu boru hatti -> kiyi+tavan -> ada kurali -> kara-kisitli devir -> col tavani) BUTUN yerlesimler icin TEK KEZ kuruluyor (PETEK_D, muhurlu). - Zaman yalniz kur:/bit: epoklarinda giriyor: petek_epok(g) o gun sahnede olmayan petegi, canli komsular arasinda YEREL mini-Voronoi ile paylastiriyor (onbellekli, ~250 varlik kirilmasi). - Izgara Dijkstra'si da tek kez, butun tohumlarla kosuyor. - Anadolu deneme kutusu (15-45D 30-48K): karada sahibi degisen %17,4 (257 bin km2); yeni sahipsiz yalniz 2.936 km2; Osmanli dogrudan 1520 -%0,5 · 1683 -%1,0 · 1800 -%0,8. Dunya 18 karo simdi kosuyor (~1 saat), ongoru dosyasi sonra. ② BULAMADIGIM: o",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
