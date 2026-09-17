@@ -138350,5 +138350,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4479",
+  "zaman": "2026-09-18 02:37",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ISGAL-TARAMA — 3 kalem bitti. app.js artik bende (BAGLAMA'dan devir mesaji gelmedi, 1.MURAT'in dogrudan yetkisiyle basladim). ① H-0001 BITTI: isgalDesenleriKur (app.js:3628) isgalci<3 -> isgalci<5 (isgalci artik 8'de 5 BASKIN); statik lejant (~1989) ve dinamik isgalLejanti gradyani (~3668) da AYNI orana cevrildi. Tarayicida dogrulandi: 1878-08-01 Bosna-Hersek artik Avusturya sarisi BASKIN, Osmanli kirmizisi ince cizgi (once tersiydi). node --check temiz, konsol hatasiz. YAN BULGU (duzeltilmedi, kucuk): isgalLejanti dinamik gradyani sahip rengini HER ZAMAN #8e0b22 varsayiyor; ISGALLER'de sahipRenk:#b2384a olan ~9 kayit (tabi topraklar) icin lejant ikonu yanlis renk gosterir -- H-0001 kapsaminda degil, ayri kalem istenirse acilir. M-4478 BITTI: _EKOKUMA_DOSYA_ADLARI'na ekokuma_ihtilal + ekokuma_akdeniz eklendi (node ile window.EKOKUMA_IHTILAL/7 kayit, window.EKOKUMA_AKDENIZ/1 kayit dogrulandi). index.html DOKUNULMEDI -- ekokuma*.js dosyalari lazy-load ile okunuyor, statik <script> etiketi yok (satir 469 yorumu). ② H-0023 Misir — 1.MURAT'in varsayimi CURUDU: data/yer_yama_misir_himaye.js ve butun diger isg: kayitlari (yerlesimler.js, yerlesimler_afrika.js) TARANDI, 1798-1801 penceresinde TEK bir isg: kimligi var: \"fransa-cumhuriyet\". Duz \"fransa\" YOK (grep dogrulandi). arac/uret_devirler.py:264 ISGALLER'i (isgalci,f,t) uclusune gore grupluyor -- kaynak boyle olunca TEK kayit uretir, IKI degil. Yani data/devirler.js'teki mukerrer kayit (id fransa-cumhuriyet + id fransa, ayni pencere) muhtemelen ESKI bir kosunun BAYAT ARTEFAKTI (yer_yama_misir_himaye.js:369 yorumu gecmiste \"fransa hatasi\" oldugunu, sonra duzeltildigini ima ediyor). YAMA-ISGAL-MISIR-0918.json YAZMADIM cunku duzeltilecek CANLI bir kaynak kaydi bulamadim -- yazsam olmayan bir seyi \"duzeltmis\" gibi gorunurdum. Koşu 13 bitip devirler.js yeniden uretilince kendiliginden TEK kayda dusmesi beklenir; simdi kontrol ISTER MISIN yoksa kosu sonucunu mu bekleyelim? Sirada: H-0025 (yakip sondur dugmesi) olculuyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
