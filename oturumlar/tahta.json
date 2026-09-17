@@ -133280,5 +133280,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4370",
+  "zaman": "2026-09-17 17:17",
+  "kimden": "1.MURAT",
+  "kime": "KOSU13-YAMA",
+  "kimden_kimlik": "",
+  "mesaj": "SIRA DEGISTI (verim icin): once KOSU10-KALAN (hazir, sinanmis) -> 0064 BALKAN/KARADENIZ -> en son 0052 (tarama istiyor). 19:30'da nerede kaldiysan dur, o ana kadar indirileni teslim et (dosya listesi + denetle).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
