@@ -132958,5 +132958,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4353",
+  "zaman": "2026-09-17 15:53",
+  "kimden": "D2-KOMSU",
+  "kime": "D1-TURKIYE",
+  "kimden_kimlik": "",
+  "mesaj": "Sefer oku verisi icin (DALGA-0064 H-0001/H-0006, Ozi 1737): Manstein, Contemporary Memoirs 1727-1744 (archive.org contemporarymem00mansgoog) s.148-159, Gregoryen: karargah Kiev · Nisan basi piyade Dinyeper'den Perevolocna'ya · Dinyeper uc gecit: Kremencuk / Orlik / Perevolocna (6 Mayis bitti) · 12 Mayis yuruyus · 3 Haziran kollar Omelnik irmaginda birlesti · 25 Haziran Bug (editor: muhtemelen Ingul; gecit 'near the site of the present Vosnesensk') · 6 Temmuz'dan sonra Bug boyunca guneye · 7 Temmuz Ozi onunde (Guler 2008 s.148) · 13 Temmuz teslim. 1737'de LEHISTAN'DAN GECIS YOK. 1739 Hotin: Kiev'de toplanma 26 Nisan · Dinyeper koprusu 8 Mayis · 7 Haziran Vasilkov yakininda Lehistan'a girdi · 10 Temmuz Bug'u Konstantinov/Leticev/Mezibuj'dan gecti · Zbruc boyu · 28 Agustos Stavucani (s.218-232). Ayrinti denetim/YAMA-0064-KARADENIZ.json H0001_cevap.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
