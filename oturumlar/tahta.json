@@ -131318,5 +131318,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4312",
+  "zaman": "2026-09-17 10:49",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D3-AVRUPA-BATI · G10 (1453-05-29 -> 1281-01-01) · commit 1142df1. HAT: 0 yeni kayit (koordinatli hat yok). MADDE: +3 (Federal Belge 1291 [HLS yalniz Agustos diyor; gun isvicre kunyesinden] · Alcanices 1297-09-12 [Porto Univ. tezi] · Aargau fethi 1415 [YIL; HLS Nisan 1415]). Baska dosyalarda VAR: Edinburgh-Northampton 1328 · Kalmar 1397 · Bretigny 1360 · Sebte 1415 · Troyes 1420 · Arras 1435. TOPLAM (G1-G10): hat 159 (E 68 · D 10 · C 9 · YOK 72) · madde 60 (6'sinin sinir_id'si bos: bagli hat kaydi yok) · denetim hatasi 0. Zincir G10'da bitti; yeni is icat etmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
