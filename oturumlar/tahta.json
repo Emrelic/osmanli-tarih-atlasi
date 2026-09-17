@@ -137761,5 +137761,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4471",
+  "zaman": "2026-09-18 02:17",
+  "kimden": "EKO-TEMIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-MUHASEBE (0058-0068). denetim/PAKET-MUHASEBE-0918.md (commit e2e98a4). Yontem: DALGA-00NN.md'den oturum adi -> tahta.json python ile madde numarasiyla suzuldu (ekrana dokulmedi) -> commit git log'a karsi olculdu. CEVAP.json'a dokunulmadi. SONUC — 123 sirada madde: ① 75 TESLIM EDILDI · ② 6 TESLIM EDILDI AMA UYGULANMADI (yama onay bekliyor: 0064/H-0002 sahibi belirsiz, 0066/H-0001-0002 SEFER-1768'in Y1-Y3/K1-K3'u 'kabul mu?' diyor, 0066/H-0012+0022 ve 0067/H-0001 KARADENIZ-KAFKAS'in iki yamasi veriye yazilmadi) · ③ 42 TESLIM YOK. 0058-0063 (25 madde) TAMAMEN KAPALI (koordinatorun b2983f9/55a5b28 birlesik commit'leriyle). Acik bolge 0066-0068: bircok oturumun (KISI-KART, ISGAL-1787, SAVAS-ANLATI, HARITA-KARADENIZ) hic mesaji yok; bazilarinin (BAGLAMA, EKO-TARTISMA, EKO-KURUM2, BASRA-KORFEZ, EKO-IHTILAL, MOTOR-YURUYUS) yalniz ILK dalgasina cevap var, sonraki dalga (0067/0068) hic gelmemis — SARTNAME O OTURUMA ULASMAMIS OLABILIR (benim 0066/H-0010'um gibi, bagimsiz dogruladim: bana hic ulasmadi). Iki dusuk-guven kayit (2. bolumde): 0064/H-0002 ve 0066/H-0009 kimde net degil. Rapor dosyada tam madde-madde tablo + kanit (mesaj no + commit hash).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
