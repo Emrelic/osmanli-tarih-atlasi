@@ -1,0 +1,133 @@
+{
+ "paket": "0064-BALKAN",
+ "tarih": "2026-09-17",
+ "yazan": "D3-AVRUPA-ORTA (DALGA-0064 · H-0002 · H-0003 · H-0005 · H-0008 · H-0010)",
+ "durum": "ONERI — veriye yazılmadı; uygulayıcı KOSU13-YAMA. Sıra ve şık kararı 1.MURAT'ta. Uygulamadan önce `eski` ile ara (dosyalar başka oturumlarca değişiyor).",
+ "alet": "denetim/ARAC-EKSKLAV-0917.py — `--yama denetim/YAMA-0064-BALKAN.json` kalemlerin `uygula` alanını BELLEKTE uygular, ONCE/SONRA kopuk parça listesi verir. Kalem 3 ve 9'da `uygula` YOK (karar bekliyor).",
+ "olculen": {
+  "taban": "girdi.yukle · 2026-09-17 15:40 (55a5b28 KOSU13-YAMA inişinden sonra)",
+  "canli_harita": "data/donemler.js = KOSU 12 (taban 710b3ad, 16 Eylül). 1737-08-04 ve 1739-09-20'de 'Bosna Novi'si' Osmanlı kümesinde DEĞİL (petek #1860). Novi'nin kaydı 55a5b28 ile d:1556→1908'e düzeldi, yani Bihaç eksklavının ANA sebebi veride zaten kapandı; KOSU 13+ çıktısında görünecek.",
+  "alet_iki_yon_sinamasi": "Novi eski hâline (1699 sonrası avusturya) bellekte döndürülünce alet 1737-08-04'te 'KOPUK: Bihaç · arada Bosna Novi'si sahip=avusturya' basıyor; bugünkü veriyle kopuk parça 0. ⇒ ekran görüntüsündeki (H-0003 · H-0008) eksklav birebir yeniden üretildi.",
+  "balkan_taramasi": "kutu 40,5-48,5K · 13-30D · 1690-1800 arası 15 kesit: OSMANLI kopuk parça 0. 1738-08-15 kesitinde 1 kopuk parça: Semendire (arada Yagodina, avusturya) — kalem 5.",
+  "degismez2": "olaylar* taraması: 1564-12/1565-01 ve 1788-08/1788-11 aralığında madde YOK ⇒ kalem 4 ve 1-2'nin işgal kırılmaları için madde önerisi `madde_istegi` alanında. 1718-07-21 · 1738-08-01 · 1739-09-18 · 1791-08-04 maddeleri VAR."
+ },
+ "kaynaklar": {
+  "HE": "Hrvatska enciklopedija (Leksikografski zavod Miroslav Krleža), maddeler: Kozarska Dubica · Hrvatska Dubica · Novi Grad · Hrvatska Kostajnica · Jasenovac · Bosanska Krupa · Prijedor · Knin (enciklopedija.hr/clanak/<ad>)",
+  "SE": "Srpska enciklopedija (Matica srpska / SANU), 'Austro-turski ratovi', V. S. Dabić, I. tom 1. kitap",
+  "KORIC": "Elma Korić, 'Bosansko pograničje u vrijeme Dubičkog rata 1788-1791', Prilozi za orijentalnu filologiju 65 (2016), Orijentalni institut Sarajevo — pof.ois.unsa.ba/index.php/pof/article/view/9",
+  "RCT": "Royal Collection Trust RCIN 734105.f — Chr. von Mechel 1788 baskısı başlık çevirisi (Dubica 26 Ağustos 1788 teslim) · KORIC ile aynı gün",
+  "TDV": "semendire · nis · mahmud-i--osmanli · pasarofca-antlasmasi (gövdeler okundu)",
+  "KARLOFCA": "Karlofça Antlaşması İngilizce çevirisi, denetim/HAZIRLIK-BOSNA-NOKTA-0911.json'daki alıntı: 'Imperial Garrisons that are in Novi, Dubizza, Sessenovizza, Doboy and Bred on the part of Bosnia … shall be drawn out'"
+ },
+ "kalemler": [
+  {
+   "no": 1,
+   "madde": "H-0003 · H-0008",
+   "karar_agaci": "B1 — kayıt yanlış",
+   "dosya": "data/yerlesimler_ek29.js · 'Bosna Dubiçası (Bosanska Dubica)'",
+   "eski": "d:[{f:\"1538-01-01\",t:\"1699-01-26\"}], s:[{f:\"1699-01-26\",t:\"1918-11-11\",d:\"avusturya\"},{f:\"1918-11-11\",t:\"1923-10-29\",d:\"yugoslavya\"}]",
+   "yeni": "d:[{f:\"1538-01-01\",t:\"1718-07-21\"},{f:\"1739-09-28\",t:\"1908-10-05\"}], s:[{f:\"1718-07-21\",t:\"1739-09-28\",d:\"avusturya\"},{f:\"1908-10-05\",t:\"1918-11-11\",d:\"avusturya\"},{f:\"1918-11-11\",t:\"1923-10-29\",d:\"yugoslavya\"}], isg:[{f:\"1788-08-26\",t:\"1791-08-04\",d:\"avusturya\",kaynak:\"Korić 2016 (26 avgusta 1788 teslim) · Srpska enciklopedija (Svištov 4. VIII 1791) · HE Kozarska Dubica\"}]",
+   "gerekce": "Kayıt Karlofça metnini TERS okumuş: metin imparatorluk garnizonlarının Bosna yakasındaki Dubica'dan ÇEKİLECEĞİNİ söylüyor. SE: 1788'de Avusturya 'Türk sınır kaleleri Bosanska Dubica ve Novi'yi' aldı; demek ki 1699-1788 arası Osmanlı'daydı. HE Kozarska Dubica: 1538'de Osmanlı; Avusturya yönetimi 1687–1701, 1716–41, 1788–96/97; Ziştovi 1791 ile Osmanlı'ya iade; 1878 işgal. Nokta (45,174 · 16,810) Una'nın SAĞ yakasındaki Kozarska Dubica'dır (OSM 45,183 · 16,809); sol yakadaki Hrvatska Dubica 1689'da kurulan ayrı yerdir (HE).",
+   "gun_notu": "1718-07-21 / 1739-09-28 GÜN KOMŞUDAN: Bosna Brod'u (aynı Pasarofça Sava şeridi, TDV bosna-hersek · mahmud-i--osmanli). HE yalnız YIL veriyor ve fiilî başlangıç-bitişi 1716 / 1741 diye yazıyor — fark bildirildi. Ziştovi 1791-08-04 hukukî iade; HE fiilî boşaltmayı 1796/97 verir (şık: bkz. kalem 3).",
+   "uygula": [
+    {"islem": "alan", "ad": "Bosna Dubiçası (Bosanska Dubica)", "alan": "d", "deger": [{"f": "1538-01-01", "t": "1718-07-21"}, {"f": "1739-09-28", "t": "1908-10-05"}]},
+    {"islem": "alan", "ad": "Bosna Dubiçası (Bosanska Dubica)", "alan": "s", "deger": [{"f": "1718-07-21", "t": "1739-09-28", "d": "avusturya"}, {"f": "1908-10-05", "t": "1918-11-11", "d": "avusturya"}, {"f": "1918-11-11", "t": "1923-10-29", "d": "yugoslavya"}]},
+    {"islem": "alan", "ad": "Bosna Dubiçası (Bosanska Dubica)", "alan": "isg", "deger": [{"f": "1788-08-26", "t": "1791-08-04", "d": "avusturya"}]}
+   ],
+   "etki_olculen": "alet: 1737-08-04 · 1739-09-20 kopuk parça 0 (önce/sonra aynı). 1699-01-26 Dubica kırılması kalkar, 1718-07-21 ve 1739-09-28 Brod ile aynı güne düşer (maddeleri var). 1908-10-05 kırılması Novi ile aynı.",
+   "madde_istegi": "YENİ (olaylar, işgal senkronu 2i için): t:\"1788-08-26\", k:\"kayip\", b:\"Dubica'nın Avusturya'ya düşüşü\", gun:\"26 Ağustos 1788\", yer:\"Dubica (Una kıyısı, Bosna)\", kisiler:\"Mareşal Laudon\", d:\"1788 baharındaki ilk Avusturya saldırıları geri püskürtülmüştü. Ağustosta Mareşal Laudon kuşatmayı yeniden kurdu; yiyeceği ve cephanesi tükenen kale 26 Ağustos 1788'de teslim oldu. Dubica, ekimde düşen Novi ile birlikte Avusturya'nın o yılki tek askerî başarısıydı. Kale 1791 Ziştovi Antlaşması'yla Osmanlı'ya geri verildi.\", kaynak:\"Korić, Prilozi za orijentalnu filologiju 65 (2016) · Srpska enciklopedija 'Austro-turski ratovi'\", yer_id:\"Bosna Dubiçası (Bosanska Dubica)\"",
+   "durum": "oneri"
+  },
+  {
+   "no": 2,
+   "madde": "H-0003 · H-0008",
+   "karar_agaci": "B1 — eksik işgal dönemi",
+   "dosya": "data/yerlesimler_ek29.js · 'Bosna Novi'si (Bosanski Novi)'",
+   "eski": "(isg alanı yok; d:[{f:\"1556-01-01\",t:\"1908-10-05\",…}] AYNEN KALIR)",
+   "yeni": "isg:[{f:\"1788-10-03\",t:\"1791-08-04\",d:\"avusturya\",kaynak:\"Korić 2016 (3. oktobra 1788) · Srpska enciklopedija (Svištov 4. VIII 1791) · HE Novi Grad (1788–95)\"}]",
+   "gerekce": "KORIC: Laudon 'Dubica'yı 26 Ağustos'ta, Novi'yi 3 Ekim'de' aldı. SE: iki kale de 1788'de alınan Osmanlı sınır kaleleri; Ziştovi'de Avusturya yalnız Drežnik ve Donji Lapac'ı aldı ⇒ Novi iade edildi. HE Novi Grad Avusturya yönetimini 1788–95 verir (fiilî).",
+   "uygula": {"islem": "alan", "ad": "Bosna Novi'si (Bosanski Novi)", "alan": "isg", "deger": [{"f": "1788-10-03", "t": "1791-08-04", "d": "avusturya"}]},
+   "etki_olculen": "sahiplik değişmez (isg taralı örtü) → kopuk parça üretmez.",
+   "madde_istegi": "YENİ: t:\"1788-10-03\", k:\"kayip\", b:\"Novi'nin (Bosna) Avusturya'ya düşüşü\", gun:\"3 Ekim 1788\", yer:\"Novi (Una kıyısı, Bosna)\", kisiler:\"Mareşal Laudon, kapudan Cerić\", d:\"Dubica'dan sonra Laudon Una üzerindeki Novi kalesine yürüdü ve 3 Ekim 1788'de kaleyi aldı; kapudan Cerić ile bütün muhafızlar esir düştü. İki kalenin kaybı üzerine Bosna'da genel seferberlik ilan edildi. Novi 1791 Ziştovi Antlaşması'yla geri verildi.\", kaynak:\"Korić, Prilozi za orijentalnu filologiju 65 (2016)\", yer_id:\"Bosna Novi'si (Bosanski Novi)\"",
+   "durum": "oneri"
+  },
+  {
+   "no": 3,
+   "madde": "H-0003 (ikincil — Karlofça devri ve fiilî iade)",
+   "karar_agaci": "karar bekliyor",
+   "dosya": "yerlesimler_ek29.js · Dubica · Novi · Kostayniçe",
+   "bulgu": "HE yıl hassasiyetinde üç sapma veriyor, hiçbiri 1737-39 görüntülerini etkilemiyor: ① Kozarska Dubica Avusturya'da 1687–1701 (kayıt: 1699'a kadar Osmanlı) ② Novi Grad Avusturya'da 1691–1703 (kayıt: kesintisiz Osmanlı) ve fetih 1557 (kayıt 1556, dayanağı Wikipedia) ③ Hrvatska Kostajnica Osmanlı'da 1687'ye kadar (kayıt: 1556-07-17 → 1699-01-26; 1556 günü Wikipedia). Ayrıca Dubica/Novi fiilî iadesi 1795–1797 (HE), hukukî iade 1791-08-04.",
+   "neden_uygulanmadi": "Günler bulunamadı; YYYY-01-01 ile yazılırsa 1687/1691/1701/1703 Osmanlı kırılmaları açılır ve o günlere madde yok (Değişmez 2). Atlas TASARRUF çizer (D030) ama tarihi yıl başına koymak bir kırılmayı sahte yere taşır.",
+   "istenen": "1.MURAT: şık A — dokunma, bulgu olarak kalsın (ÖNERİ). Şık B — yıl hassasiyetiyle yaz + dört yıl maddesi iste.",
+   "durum": "karar-bekler"
+  },
+  {
+   "no": 4,
+   "madde": "H-0003 (koridorun kalesi)",
+   "karar_agaci": "B1 güçlendirme — ara kale noktası yok",
+   "dosya": "YENİ NOKTA — uygulayıcının Bosna noktalarını tuttuğu dosya (yerlesimler_ek29.js emsal)",
+   "eski": "(yok — normalleştirilmiş ad araması 'krupa' · 'prijedor' · 'cazin' · 'buzim' 0 eşleşme)",
+   "yeni": "{ ad:\"Krupa (Bosanska Krupa)\", tur:\"kale\", lat:44.882, lon:16.158, g:0, k:3, neden:\"1565 öncesi (Hırvat-Macar dönemi) bağlılığı bu pakette araştırılmadı.\", d:[{f:\"1565-01-01\",t:\"1908-10-05\"}], s:[{f:\"1908-10-05\",t:\"1918-11-11\",d:\"avusturya\"},{f:\"1918-11-11\",t:\"1923-10-29\",d:\"yugoslavya\"}], v:[], kaynak:\"HE Bosanska Krupa: 'Osmanlije su zaposjeli Krupu 1565'; Avusturya 1581, 1690, 1692, 1716'da kuşattı (alındığı yazılmıyor) · Korić 2016: 1787-88'de Una üzerinden malzeme gönderilen Osmanlı sınır kalesi · koordinat OSM düğüm 841364318 · 1908 günü Bosna kayıtlarının ortak günü (1878 işgali atlasta ayrı modellenmiyor)\" }",
+   "gerekce": "Bihaç (24 km) ile Novi (25 km) arasında, Una'nın sağ yakasında Osmanlı sınır kalesi. Novi düzeltmesi eksklavı tek noktaya bağlıyor; Krupa ikinci bağ. Zorunlu değil, güçlendirme.",
+   "uygula": {"islem": "yeni_nokta", "kayit": {"ad": "Krupa (Bosanska Krupa)", "tur": "kale", "lat": 44.882, "lon": 16.158, "g": 0, "k": 3, "d": [{"f": "1565-01-01", "t": "1908-10-05"}], "s": [{"f": "1908-10-05", "t": "1918-11-11", "d": "avusturya"}, {"f": "1918-11-11", "t": "1923-10-29", "d": "yugoslavya"}], "v": []}},
+   "etki_olculen": "3 km içinde nokta yok (en yakın Bihaç 24 km). Alet: kopuk parça 0 (önce/sonra).",
+   "madde_istegi": "YENİ (Değişmez 2 — 1565-01-01 çevresinde madde YOK): t:\"1565-01-01\", k:\"fetih\", b:\"Krupa Kalesi'nin Osmanlılarca alınması\", gun:\"1565 (gün bilinmiyor)\", yer:\"Krupa, Una kıyısı\", d:\"Una'nın sağ yakasındaki Krupa kalesi 1565'te Osmanlıların eline geçti. Kale sonraki iki yüzyılda Avusturya kuşatmalarına (1581, 1690, 1692, 1716) karşı Osmanlı'da kaldı ve Bihaç ile Novi arasındaki Una sınır hattının parçası oldu.\", kaynak:\"Hrvatska enciklopedija, 'Bosanska Krupa'\", yer_id:\"Krupa (Bosanska Krupa)\"",
+   "durum": "oneri"
+  },
+  {
+   "no": 5,
+   "madde": "H-0005 · H-0010",
+   "karar_agaci": "B4 — kaynak koridordan söz etmiyor",
+   "dosya": "data/yerlesimler_ek29.js · 'Yagodina (Jagodina)'",
+   "eski": "d:[…,{f:\"1739-09-18\",t:\"1830-11-08\"}], s:[{f:\"1717-08-18\",t:\"1739-09-18\",d:\"avusturya\"}]",
+   "yeni_sik_A": "d:[…,{f:\"1738-08-01\",t:\"1830-11-08\"}], s:[{f:\"1717-08-18\",t:\"1738-08-01\",d:\"avusturya\"}]  — gün komşudan: Semendire (TDV semendire 'Avusturyalılar bu bölgede Ağustos 1738'e kadar kaldılar'; mevcut madde 1738-08-01)",
+   "yeni_sik_B": "dokunma — eksklav 1738-08 → 1739-09 arası (13,5 ay) görünür kalır",
+   "olculen": "alet 1738-08-15: KOPUK Semendire · ana gövdeye Alacahisar · arada YALNIZ Yagodina (avusturya). Kragujevac ve Çaçak yol üzerinde DEĞİL (Belgrad-Böğürdelen hattıyla birlikte Avusturya kalabilir). Kruşevaç zaten Osmanlı ve bu doğru: SE, Pasarofça'yla kurulan Sırbistan Krallığı'nın ilçelerini sayıyor (Beograd · Grocka · Smederevo · Požarevac · Ram · Gradište · Resava · Paraćin · Jagodina · Kragujevac · Rudnik · Valjevo · Šabac · Jadar · Palež) — Kruševac listede YOK.",
+   "bulunamadi": "Jagodina · Paraćin · Ćuprija · Požarevac'ın 1737-39'da Osmanlı'ya geçiş günü: kabul edilebilir kaynakta YOK. SE yalnız 'Türk ordusu 1737 geç sonbaharındaki karşı taarruzda kaybedilen kaleleri geri aldı ve Avusturya idaresindeki Sırp topraklarının bir kısmını yağmaladı' diyor; TDV mahmud-i--osmanli 1738'de Yeğen Mehmed Paşa'nın Niş'ten Belgrad'a akınlarını anıyor. Morava yolunun Osmanlı'ya geçtiğini söyleyen tek kaynak Vikipedi — kullanılmadı.",
+   "uygula_sik_A": [
+    {"islem": "alan", "ad": "Yagodina (Jagodina)", "alan": "d", "deger": [{"f": "1439-08-27", "t": "1444-08-01"}, {"f": "1459-06-20", "t": "1689-09-24"}, {"f": "1690-09-09", "t": "1717-08-18"}, {"f": "1738-08-01", "t": "1830-11-08"}]},
+    {"islem": "alan", "ad": "Yagodina (Jagodina)", "alan": "s", "deger": [{"f": "1281-01-01", "t": "1439-08-27", "d": "sirbistan"}, {"f": "1444-08-01", "t": "1459-06-20", "d": "sirp-despotlugu"}, {"f": "1689-09-24", "t": "1690-09-09", "d": "avusturya"}, {"f": "1717-08-18", "t": "1738-08-01", "d": "avusturya"}, {"f": "1878-07-13", "t": "1882-03-06", "d": "sirbistan-prensligi"}, {"f": "1882-03-06", "t": "1918-12-01", "d": "sirbistan-kralligi"}, {"f": "1918-12-01", "t": "1923-10-29", "d": "yugoslavya"}]}
+   ],
+   "not_sik_A": "Yukarıdaki diziler 2026-09-17 ölçümünün TAM kopyasıdır; değişen yalnız 1739-09-18 → 1738-08-01 (iki yerde). v:[1830-11-08 → 1878-07-13] KORUNUR.",
+   "istenen": "1.MURAT: H-0010 kural metni B4'ü 'birleştir' diye tarif ediyor ⇒ ÖNERİ şık A. Ama gün Semendire'den ödünç (şartlı komşu günü ③ 'aynı süreç' şartı kaynakla KANITLANMADI) — bu yüzden kararı sana bırakıyorum.",
+   "durum": "karar-bekler"
+  },
+  {
+   "no": 6,
+   "madde": "H-0002",
+   "karar_agaci": "A — işgal gerçek; günleri düzelt",
+   "dosya": "data/yerlesimler.js · 'Niş'",
+   "eski": "isg:[{f:\"1737-07-01\",t:\"1737-10-01\",d:\"avusturya\",kaynak:\"nis\"}]",
+   "yeni": "isg:[{f:\"1737-07-27\",t:\"1737-10-16\",d:\"avusturya\",kaynak:\"nis (Temmuz · Ekim 1737) · Srpska enciklopedija 'Austro-turski ratovi' (Niş 27. VII 1737) · bitiş günü olaylar_p0063 1737-10-16 maddesiyle aynı (Hambly)\"}]",
+   "gerekce": "Görüntüdeki taralı şerit (1737-08-04) Niş'in Avusturya işgalidir ve gerçektir: TDV nis 'Temmuz 1737'de Seckendorf Niş'i ele geçirdi; aynı yılın ekiminde … savaşsız geri alındı'. Kayıttaki iki gün ayın 1'ine kodlanmış (§4 ③); SE başlangıcı 27 Temmuz veriyor, bitiş için kronolojide 16 Ekim maddesi zaten var.",
+   "uygula": {"islem": "alan", "ad": "Niş", "alan": "isg", "deger": [{"f": "1737-07-27", "t": "1737-10-16", "d": "avusturya"}]},
+   "etki_olculen": "sahiplik değişmez. İşgal kırılmaları: 1737-07-27 → 1737-07-14 maddesine 13 gün; 1737-10-16 → aynı gün madde.",
+   "madde_istegi": "yok",
+   "durum": "oneri"
+  },
+  {
+   "no": 7,
+   "madde": "H-0008",
+   "karar_agaci": "A — doğru, dokunma",
+   "dosya": "data/yerlesimler_ek.js · 'Knin'",
+   "teyit": "Kayıt: Osmanlı 1522-05-29 → Venedik 1688-09-11 → Avusturya 1797-10-17. HE Knin: '29. V. 1522. osvojio' · Venedik 'pobjede nad Osmanlijama 11. IX. 1688' · 1797'den sonra Habsburg. ⇒ 1739'da Knin AVUSTURYA'DA DEĞİL, VENEDİK'TE; kayıt kaynakla birebir.",
+   "durum": "teyit"
+  },
+  {
+   "no": 8,
+   "madde": "H-0003 · H-0008",
+   "karar_agaci": "A — doğru, dokunma",
+   "dosya": "yerlesimler_ek29.js · Kostayniçe · Jasenovaç",
+   "teyit": "Kostayniçe noktası (45,232 · 16,539) Una'nın SOL yakasındaki Hrvatska Kostajnica'dır; HE: 1687'de kurtarıldı, 1689-1809 Banska krajina. Karlofça metni 'Castanoviz … İmparator'da kalır'. ⇒ 1737-39'da Avusturya doğru. Jasenovaç (sol yaka) 1699 sonrası Avusturya: yön doğru, geçiş günü BULUNAMADI (HE: 'muhtemelen 1716-18 savaşında' yıkılıp terk edildi; fetih 1536 — kayıt 1538 komşu günü).",
+   "durum": "teyit"
+  },
+  {
+   "no": 9,
+   "madde": "H-0005 · H-0008",
+   "karar_agaci": "A — doğru, dokunma",
+   "dosya": "yerlesimler.js · Belgrad · Böğürdelen · Kragujevac · Çaçak · Semendire · Turnu Severin",
+   "teyit": "SE: Pasarofça (1718) ile Belgrad, Smederevo, Kragujevac, Rudnik (Çaçak), Šabac ilçeleri Avusturya'nın Sırbistan Krallığı'na girdi; Belgrad barışı (18. IX 1739) ile 'Sava ve Tuna'nın güneyindeki bütün topraklar' ve Eflak'ta alınanlar geri verildi. TDV semendire: Avusturya bölgede Ağustos 1738'e kadar ⇒ Semendire 1738-08-01 (ay hassasiyeti) doğru. Belgrad 1739'a kadar Avusturya: SE (Grocka 23. VII 1739 sonrası kuşatma). Turnu Severin (Küçük Eflak) 1718-1739 Avusturya: SE.",
+   "durum": "teyit"
+  }
+ ]
+}

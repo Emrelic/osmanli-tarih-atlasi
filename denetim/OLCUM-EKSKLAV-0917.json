@@ -1,0 +1,110 @@
+{
+ "ONCE": [
+  {
+   "gun": "1737-08-04",
+   "devlet": "OSMANLI",
+   "bilesen": 5,
+   "ana_boyut": 763,
+   "kopuk": []
+  },
+  {
+   "gun": "1738-08-15",
+   "devlet": "OSMANLI",
+   "bilesen": 6,
+   "ana_boyut": 764,
+   "kopuk": [
+    {
+     "parca": [
+      "Semendire"
+     ],
+     "parca_isgal": {},
+     "ana_govdeye": "Alacahisar (Kruševac)",
+     "yol_km": 125.2,
+     "aradaki": [
+      {
+       "ad": "Yagodina (Jagodina)",
+       "sahip": "avusturya",
+       "isg": null,
+       "dosya": "yerlesimler_ek29.js"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "gun": "1739-09-20",
+   "devlet": "OSMANLI",
+   "bilesen": 5,
+   "ana_boyut": 773,
+   "kopuk": []
+  },
+  {
+   "gun": "1788-09-15",
+   "devlet": "OSMANLI",
+   "bilesen": 4,
+   "ana_boyut": 751,
+   "kopuk": []
+  },
+  {
+   "gun": "1789-06-15",
+   "devlet": "OSMANLI",
+   "bilesen": 4,
+   "ana_boyut": 750,
+   "kopuk": []
+  }
+ ],
+ "SONRA": [
+  {
+   "gun": "1737-08-04",
+   "devlet": "OSMANLI",
+   "bilesen": 5,
+   "ana_boyut": 764,
+   "kopuk": []
+  },
+  {
+   "gun": "1738-08-15",
+   "devlet": "OSMANLI",
+   "bilesen": 6,
+   "ana_boyut": 765,
+   "kopuk": [
+    {
+     "parca": [
+      "Semendire"
+     ],
+     "parca_isgal": {},
+     "ana_govdeye": "Alacahisar (Kruševac)",
+     "yol_km": 125.2,
+     "aradaki": [
+      {
+       "ad": "Yagodina (Jagodina)",
+       "sahip": "avusturya",
+       "isg": null,
+       "dosya": "yerlesimler_ek29.js"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "gun": "1739-09-20",
+   "devlet": "OSMANLI",
+   "bilesen": 5,
+   "ana_boyut": 774,
+   "kopuk": []
+  },
+  {
+   "gun": "1788-09-15",
+   "devlet": "OSMANLI",
+   "bilesen": 4,
+   "ana_boyut": 753,
+   "kopuk": []
+  },
+  {
+   "gun": "1789-06-15",
+   "devlet": "OSMANLI",
+   "bilesen": 4,
+   "ana_boyut": 752,
+   "kopuk": []
+  }
+ ]
+}
