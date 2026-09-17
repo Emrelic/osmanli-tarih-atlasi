@@ -1,0 +1,1282 @@
+{
+ "maddeler": [
+  {
+   "t": "1287-01-01",
+   "taraflar": [
+    "hanthawaddy",
+    "pagan"
+   ],
+   "b": "Wareru Aşağı Birmanya'da Mon bağımsızlığını yeniden kurdu, Hanthawaddy doğdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Moğollar'ın 1287'de Pagan'ı yağmalaması üzerine, Martaban'a hâkim olan Tay kökenli Wareru ile Peygu'lu Mon beyi Tarabya, Birmanlar'ı Irrawaddy deltasından çıkardı. Wareru sonra ortağını öldürüp Mon topraklarının tek hükümdarı oldu ve Martaban'ı başkent yaptı. Britannica, Wareru'nun hükümdarlığını 1287-1296 yılları arasına tarihliyor. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Wareru' (Britannica Editors) · ayrıca TDV: myanmar (İsmail Hakkı Göksoy) — Pagan'ın 1287'de yıkılışı ve güneyde Pegu krallığının kuruluşu",
+   "kaynak_okundu": true,
+   "alinti": "ruled (1287–96) over the Mon people of Lower Burma",
+   "kunye_id": "hanthawaddy",
+   "kunye_tarihi": "1287",
+   "grup": "C"
+  },
+  {
+   "t": "1292-01-01",
+   "taraflar": [
+    "singhasari"
+   ],
+   "b": "Kertanagara öldürüldü, Singhasari Krallığı sona erdi",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Cava'yı birleştirip nüfuzunu Sumatra'ya yayan Kertanagara, Kubilay Han'a vergi vermeyi reddetmişti. Moğol ordusu gelmeden önce bağlı Kediri hükümdarı Cayakatvang tarafından öldürüldü ve Singhasari'nin son kralı oldu.",
+   "kaynak": "Britannica, 'Kertanagara' (Leo Suryadinata) — imzalı madde gövdesi, YZ özeti değil",
+   "kaynak_okundu": true,
+   "alinti": "was the last king (1268–92) of Tumapel (or Singhasāri) in Java",
+   "kunye_id": "singhasari",
+   "kunye_tarihi": "1292",
+   "grup": "B",
+   "not_birlestirme": "iç not metinden çıkarıldı: Kediri'nin atlasta künyesi yok (karşı taraf null); gün kaynakta yok."
+  },
+  {
+   "t": "1318-01-01",
+   "taraflar": [
+    "yadava",
+    "delhi-sultanligi"
+   ],
+   "b": "Mübârek Şah Halacî Devâgirî'yi ve Marata ülkesini Delhi Sultanlığı'na kattı",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Yadava ülkesi 1296'dan beri Delhi'ye vergi ödüyordu; Ramaçandra'nın damadının bağımsızlık girişimi üzerine Sultan Kutbüddin Mübârek Şah Halacî harekete geçti. Ayaklanma bastırıldı, Marata ülkesi doğrudan Delhi Sultanlığı'na bağlandı ve Devâgirî'nin adı Kutbâbâd yapıldı (gün kaynakta yok). Böylece Yadava hânedanının siyasi varlığı sona erdi.",
+   "kaynak": "TDV: dekken (Khaliq Ahmad Nizami); TDV: devletabad",
+   "kaynak_okundu": true,
+   "alinti": "Marata ülkesini doğrudan Delhi Sultanlığı’na kattı (1318)",
+   "kunye_id": "yadava",
+   "kunye_tarihi": "1318-01-01",
+   "grup": "A2"
+  },
+  {
+   "t": "1323-01-01",
+   "taraflar": [
+    "kakatiya",
+    "delhi-sultanligi"
+   ],
+   "b": "Uluğ Han Varangal'i zaptetti, Kakatiya ülkesi Delhi eyaleti oldu",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Tuğluklu hânedanının kuruluşunu fırsat bilen Varangal racası Prataparudra vergiyi kesince Gıyâseddin Tuğluk oğlu Uluğ Han'ı (Cavna Han) üzerine gönderdi. İlk sefer ordudaki isyan yüzünden yarım kaldı; ikinci seferde Varangal zaptedildi (723/1323, gün kaynakta yok). Şehrin adı Sultanpûr yapıldı ve ülke iktâlara bölünmüş bir eyalet hâline getirildi.",
+   "kaynak": "TDV: tugluklular (Haluk Kortel); TDV: giyaseddin-tugluk (Enver Konukçu)",
+   "kaynak_okundu": true,
+   "alinti": "Cavna Han’ı yeniden Varangal’e gönderdi (723/1323).",
+   "kunye_id": "kakatiya",
+   "kunye_tarihi": "1323-01-01",
+   "grup": "A2"
+  },
+  {
+   "t": "1336-01-01",
+   "taraflar": [
+    "vijayanagara",
+    "delhi-sultanligi"
+   ],
+   "b": "Harihara ve Bukka, Tuğluk yönetimine karşı Vijayanagara devletini kurdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 4,
+   "d": "Dekken'de Tuğluklu hâkimiyetine karşı çıkan isyanlar sırasında Sangama'nın oğulları Harihara ile Bukka, Delhi Sultanlığı'ndan bağımsızlıklarını ilan etti (gün kaynakta yok). Harihara Tungabhadra'nın güneyinde yeni başkent Vijayanagara'yı kurdu. Devlet iki yüzyıldan fazla güney Hindistan'ın baskın gücü olacaktı.",
+   "kaynak": "Britannica, 'India — The Vijayanagar empire, 1336–1646' (Sanjay Subrahmanyam); TDV: hindistan (Vicayanagar racalığının Tuğluklu isyanları sonucu kuruluşu, yılsız)",
+   "kaynak_okundu": true,
+   "alinti": "Founded in 1336 in the wake of the rebellions against Tughluq rule in the Deccan",
+   "kunye_id": "vijayanagara",
+   "kunye_tarihi": "1336-01-01",
+   "grup": "A2"
+  },
+  {
+   "t": "1340-01-01",
+   "taraflar": [
+    "bengal-sultanligi",
+    "delhi-sultanligi"
+   ],
+   "b": "Bengal Delhi Sultanlığı'ndan ayrılarak bağımsız bir devlet oldu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Gıyâseddin Tuğluk Bengal'i Leknevtî ve Sonârgâon merkezli iki valiliğe ayırmıştı. Doğu Bengal'de Fahreddin Mübârek Şah 1337'de, Batı Bengal'de Alâeddin Ali Şah 1340'ta bağımsızlık ilan etti (gün kaynakta yok). TDV Bengal'in 1340'a kadar Delhi'nin eyaleti kaldığını belirtiyor; bölge 1352'de Şemseddin İlyas Şah'ın elinde birleşti.",
+   "kaynak": "TDV: bengal-sultanligi (Enver Konukçu, 1992) · TDV: bengal (Azmi Özcan)",
+   "kaynak_okundu": true,
+   "alinti": "Fahreddin Mübârek Şah 1337’de, Alâeddin Ali Şah da 1340’ta bağımsızlıklarını ilân ettiler.",
+   "kunye_id": "bengal-sultanligi",
+   "kunye_tarihi": "1340",
+   "not": "TDV bengal maddesi: 'bağımsız bir devlet olduğu 1340 yılına kadar Delhi Sultanlığı'nın bir eyaleti olarak kaldı'. Doğu Bengal'in 1337 bağımsızlığı ayrı bir erken adım.",
+   "grup": "A1"
+  },
+  {
+   "t": "1343-01-01",
+   "taraflar": [
+    "hoysala",
+    "madurai-sultanligi"
+   ],
+   "b": "III. Ballala Ma'bar sultanınca öldürüldü, Hoysala krallığı çöküşe girdi",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Ma'bar (Madurai) Sultanlığı ile yeni doğan Vijayanagara arasında sıkışan Hoysala kralı III. Ballala, Ma'bar sultanı tarafından öldürüldü (kaynak 1343-44 diyor; gün yok). Ondan sonraki iki yıl içinde krallık Harihara'nın kardeşi Bukka tarafından fethedilip Vijayanagara'ya katıldı.",
+   "kaynak": "Britannica, 'India — The Vijayanagar empire, 1336–1646' (Sanjay Subrahmanyam); Britannica, 'Hoysala dynasty' (Britannica Editors)",
+   "kaynak_okundu": true,
+   "alinti": "within two years after Ballala was killed by the sultan in 1343–44",
+   "kunye_id": "hoysala",
+   "kunye_tarihi": "1343-01-01",
+   "not": "Yıl kaynakta 1343-44 aralığı olarak veriliyor; 1343 alt uç. Hânedanın asıl sonu (Bukka'nın ilhakı) ~1345-46. Bkz. celiski.",
+   "grup": "A2"
+  },
+  {
+   "t": "1351-01-01",
+   "taraflar": [
+    "ayutthaya",
+    "sukhothai"
+   ],
+   "b": "Ayutthaya Krallığı kuruldu, Sukhothai'nin bölgesel üstünlüğü sarsıldı",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 3,
+   "d": "I. Ramathibodi, Chao Phraya, Lop Buri ve Pa Sak nehirlerinin birleştiği adada Ayutthaya'yı başkent yaparak yeni bir Tay krallığı kurdu. Saray kültürünü Angkor örneğine göre biçimlendiren bu devlet, zamanla Sukhothai'yi, kuzeydeki Lan Na'yı ve Tenasserim kıyılarını nüfuzu altına aldı. Kaynaklar yılı 1350 ile 1351 arasında veriyor. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Cambodia — The decline of Angkor' (David P. Chandler) · Britannica, 'Sukhothai' (Britannica Editors) · TDV: tayland (İsmail Hakkı Göksoy) 1350 veriyor",
+   "kaynak_okundu": true,
+   "alinti": "In 1351 a Tai kingdom … was founded at Ayutthaya",
+   "kunye_id": "ayutthaya",
+   "kunye_tarihi": "1351",
+   "grup": "C"
+  },
+  {
+   "t": "1354-01-01",
+   "taraflar": [
+    "tibet",
+    "yuan-hanedani"
+   ],
+   "b": "Phagmodrupa mezhebi iç savaşı kazanıp Tibet'in idaresini ele geçirdi",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Tibet bir asır boyunca Yuan (Kubilay) hânedanının denetiminde yönetilmişti. Yuan gücü zayıflayınca Budist mezhepleri arasında iç savaş yeniden başladı ve merkezi dBus bölgesinde olan Phagmodrupa mezhebi galip gelerek idareyi üstlendi (gün kaynakta yok). Yeni yönetim Nêdong şehrini başkent yaptı.",
+   "kaynak": "TDV: tibet (Chun Lin)",
+   "kaynak_okundu": true,
+   "alinti": "Phag Mo Gru Pa mezhebi galip geldi ve idarenin başına geçti (1354).",
+   "kunye_id": "tibet",
+   "kunye_tarihi": "1354-01-01",
+   "not": "TDV kurucunun adını (Cangçub Gyaltsen) vermiyor; metne konmadı.",
+   "grup": "A2"
+  },
+  {
+   "t": "1370-01-01",
+   "taraflar": [
+    "farukiler",
+    "delhi-sultanligi"
+   ],
+   "b": "Melik Ahmed Handeş'te bağımsızlığını ilan ederek Fârûkî hânedanını kurdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Handeş'i Tuğluklu Sultanı III. Fîrûz Şah adına yöneten Melik Raca (Melik Ahmed), merkezî idarenin zayıflamasından yararlanarak bağımsızlığını ilan etti. TDV kuruluşu 772/1370 diye tarihliyor (gün kaynakta yok). Hânedan, Hz. Ömer el-Fârûk soyundan geldiği iddiasıyla Fârûkîler adını aldı ve 231 yıl hüküm sürdü.",
+   "kaynak": "TDV: farukiler (Enver Konukçu, 1995)",
+   "kaynak_okundu": true,
+   "alinti": "istiklâlini ilân ederek Fârûkīler hânedanını kurmuştur (772/1370).",
+   "kunye_id": "farukiler",
+   "kunye_tarihi": "1370",
+   "grup": "A1"
+  },
+  {
+   "t": "1394-01-01",
+   "taraflar": [
+    "cavnpur-sultanligi",
+    "delhi-sultanligi"
+   ],
+   "b": "Jaunpûr valisi Delhi'den bağımsızlaştı, Şarkî Sultanlığı doğdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Tuğluklu Delhi Sultanlığı'nda taht kavgaları sürerken Melik Server 1394'te 'sultânü'ş-şark' unvanıyla Jaunpûr (Kanpûr) valiliğine getirildi. TDV, Jaunpûr'un 1394'te Delhi'den bağımsızlaşan eyaletlerin ilki olduğunu kaydediyor (gün kaynakta yok). Kurulan Şarkî hânedanı döneminde Jaunpûr Kuzey Hindistan'ın önemli kültür merkezlerinden biri oldu.",
+   "kaynak": "TDV: delhi-sultanligi (Naimur Rahman Farooqi) · TDV: tugluklular (S. Haluk Kortel) · TDV: hace-i-cihan (Enver Konukçu, 1996) · TDV: jaunpur (S. A. A. Rizvî, 2001)",
+   "kaynak_okundu": true,
+   "alinti": "Jaunpûr (1394), Mâlvâ (1401) ve Gucerât (1407) valileri bağımsızlıklarını ilân ettiler.",
+   "kunye_id": "cavnpur-sultanligi",
+   "kunye_tarihi": "1394",
+   "not": "Nüans: hace-i-cihan maddesine göre Melik Server 1394'te vali olarak atandı, kendi adına hutbeyi ise Nâsırüddin Mahmûd'un Timur önünden kaçmasından (1398) sonra okuttu. delhi-sultanligi ve tugluklular 1394'ü bağımsızlık yılı olarak veriyor.",
+   "grup": "A1"
+  },
+  {
+   "t": "1396-01-01",
+   "taraflar": [
+    "malaka-sultanligi"
+   ],
+   "b": "Prens Parameşvara Malaka nehri ağzında Malaka şehrini kurdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Palembang'dan kaçıp bir süre Tumasik'te (Singapur) hüküm süren Srivijaya soylusu Parameşvara, Malay Yarımadası'na geçti ve boğazın en dar yerinde Malaka'yı kurdu. Şehir kısa sürede güçlenip bir devlete dönüştü. TDV yılları farklı veriyor: malezya '1396 [?]', malaka '1390'lı yılların ortaları', endonezya '1402'. Gün kaynakta yok.",
+   "kaynak": "TDV: malezya (İsmail Hakkı Göksoy); ayrıca TDV: malaka, TDV: endonezya",
+   "kaynak_okundu": true,
+   "alinti": "Parameşvara bu defa da Malay yarımadasına kaçmak zorunda kaldı (1396 [?]) ve",
+   "kunye_id": "malaka-sultanligi",
+   "kunye_tarihi": "1400",
+   "grup": "B"
+  },
+  {
+   "t": "1400-01-01",
+   "taraflar": [
+    "ho-hanedani",
+    "tran-hanedani"
+   ],
+   "b": "Trần hanedanı devrildi, Hồ Quý Ly Đại Việt tahtını ele geçirdi",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Champa ve Khmer savaşlarının yıprattığı Đại Việt'te derinleşen ekonomik ve toplumsal buhran, 1225'ten beri hüküm süren Trần hanedanının devrilmesine yol açtı; iktidar Hồ ailesine geçti. Tahttan indirilen Trần tarafının Çin'den yardım istemesi, Ming'e 1407'de ülkeyi işgal etme fırsatı verdi. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Vietnam — The Tran dynasty' (Joseph Buttinger)",
+   "kaynak_okundu": true,
+   "alinti": "led to the overthrow of the Tran dynasty in 1400",
+   "kunye_id": "ho-hanedani",
+   "kunye_tarihi": "1400-03-01",
+   "grup": "C"
+  },
+  {
+   "t": "1405-01-01",
+   "taraflar": [
+    "brunei-sultanligi",
+    "poni"
+   ],
+   "b": "Awang Alak Betatar Müslüman olup Brunei Sultanlığı'nı kurdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Borneo'nun kuzeyindeki yerli önder Awang Betatar İslâm'ı kabul edip Muhammed Şah adını aldı ve bir sultanlık kurdu; Borneo'da kurulan ilk İslâm devleti budur. (Gün kaynakta yok.)",
+   "kaynak": "TDV: borneo (Muhammad Abdul Jabbar Beg); ayrıca TDV: bruney",
+   "kaynak_okundu": true,
+   "alinti": "Borneo’da kurulan ilk İslâm devleti Bruney Sultanlığı’dır (1405).",
+   "kunye_id": "brunei-sultanligi",
+   "kunye_tarihi": "1368",
+   "grup": "B",
+   "not_birlestirme": "iç not metinden çıkarıldı: Atlastaki Po-ni kimliği bu dönüşümle Brunei Sultanlığı'na geçer."
+  },
+  {
+   "t": "1431-01-01",
+   "taraflar": [
+    "angkor-kmer",
+    "ayutthaya"
+   ],
+   "b": "Ayutthaya ordusu Angkor'u yağmaladı, Kmer İmparatorluğu'nun Angkor devri kapandı",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 4,
+   "d": "1369 ve 1389'daki saldırıların ardından Tay kuvvetleri 1431'de Kmer başkenti Angkor'u yağmaladı. Bu darbe, 9. yüzyıldan beri Hindiçini'ye hâkim olan Angkor merkezli imparatorluğun sonu sayılır; Kmer krallığı bundan sonra merkezini güneye, Mekong kıyısına taşıyarak sürdü. TDV olayı 1432'ye tarihliyor. (Gün kaynakta yok.) Angkor sonrası Kamboçya krallığı (Lovek/Phnom Penh merkezli) bu olaydan sonra sürdü.",
+   "kaynak": "Britannica, 'Thailand — The Ayutthayan period' (E. Jane Keyes) · Britannica, 'Cambodia — The decline of Angkor' (David P. Chandler) · karşı görüş: TDV: tayland (İsmail Hakkı Göksoy), TDV: kambocya (Rıza Kurtuluş) — 1432",
+   "kaynak_okundu": true,
+   "alinti": "in 1431 they sacked their great capital of Angkor",
+   "kunye_id": "angkor-kmer",
+   "kunye_tarihi": "1431",
+   "grup": "C"
+  },
+  {
+   "t": "1438-01-01",
+   "taraflar": [
+    "sukhothai",
+    "ayutthaya"
+   ],
+   "b": "Zayıflayan Sukhothai, Ayutthaya Krallığı'nın bir eyaletine dönüştürüldü",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Ayutthaya'nın 1351'de kurulmasından sonra nüfuzu gerileyen Sukhothai, 1438'de Ayutthaya'ya bağlanarak bağımsız krallık olmaktan çıktı. Böylece Chao Phraya havzasındaki ilk birleşik Tay devleti, rakibinin bir eyaleti hâline geldi. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Thailand — The Ayutthayan period' (E. Jane Keyes) · Britannica, 'Sukhothai' (Britannica Editors)",
+   "kaynak_okundu": true,
+   "alinti": "In 1438 a greatly weakened Sukhothai was made a province of Ayutthaya.",
+   "kunye_id": "sukhothai",
+   "kunye_tarihi": "1438",
+   "grup": "C"
+  },
+  {
+   "t": "1450-01-01",
+   "taraflar": [
+    "sulu-sultanligi"
+   ],
+   "b": "Şerif Ebû Bekir, merkezi Jolo olan Sulu Sultanlığı'nı kurdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 1,
+   "d": "Sulu soy kütüklerine göre adalarda İslâm'ı yayan davetçilerin ardından Arap asıllı Şerif Ebû Bekir yönetimi üstlendi ve başkenti Jolo olan Sulu Sultanlığı'nı kurdu. TDV yılı soru işaretiyle veriyor; yıl kesin değil, gün kaynakta yok.",
+   "kaynak": "TDV: filipinler (Cesar Adib Majul / İsmail Hakkı Göksoy)",
+   "kaynak_okundu": true,
+   "alinti": "başşehri Jolo olan Sulu Sultanlığı’nı kurmuştur (1450 [?]).",
+   "kunye_id": "sulu-sultanligi",
+   "kunye_tarihi": "1457",
+   "grup": "B"
+  },
+  {
+   "t": "1451-01-01",
+   "taraflar": [
+    "multan-langah"
+   ],
+   "b": "Lengâh kabilesinden Rai Sahra Mültan'a hâkim oldu, Lengâh hânedanı başladı",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Mültan 1437'de Delhi Sultanlığı'ndan kopmuş ve on beş yıl kadar kendi seçtiği bir kumandanın yönetiminde kalmıştı. Belûcî Lengâh kabilesinden Rai Sahra muhtemelen 1451'de şehrin idaresini ele geçirdi (gün kaynakta yok; TDV yılı 'muhtemelen' kaydıyla veriyor). Böylece yaklaşık seksen yıl sürecek bağımsız Lengâh hânedanı dönemi açıldı.",
+   "kaynak": "TDV: multan (Azmi Özcan, 2020)",
+   "kaynak_okundu": true,
+   "alinti": "Muhtemelen 855’te (1451) Belûcîler’in Lengâh kabilesinden Rai Sahra adında bir kişi Mültan’a hâkim oldu",
+   "kunye_id": "multan-langah",
+   "kunye_tarihi": "1451",
+   "not": "Karşı taraf: Şeyh Muhammed Yûsuf Kureyşî'nin yerel idaresi (1437-1451) — künyesi yok. Delhi'den ayrılış 1437'de gerçekleşmişti.",
+   "grup": "A1"
+  },
+  {
+   "t": "1492-01-01",
+   "taraflar": [
+    "bidar",
+    "behmeni"
+   ],
+   "b": "Kāsım Berîd Bîder'de bağımsızlığını ilan etti, Berîdşâhî hânedanı kuruldu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Kafkas Türklerinden Emîr Kāsım, Behmenî sarayında berîd-i memâlik ve ardından başvezir olmuştu. Behmenîler zayıflayınca Bîder'de Berîdşâhîler de bağımsızlıklarını ilan etti; TDV bunu 1492 (897) diye tarihliyor (gün kaynakta yok). Behmenî sultanları bir süre daha Berîd vezirlerinin vesayetinde adıyla hüküm sürdü.",
+   "kaynak": "TDV: beridsahiler (Enver Konukçu, 1992)",
+   "kaynak_okundu": true,
+   "alinti": "Bîder’de Berîdşâhîler bağımsızlıklarını ilân etmişlerdir (1492).",
+   "kunye_id": "bidar",
+   "kunye_tarihi": "1489",
+   "not": "TDV içi çelişki: behmeniler maddesi (aynı müellif) Berîdşâhîler için 1487-1619 veriyor; beridsahiler maddesi bağımsızlığı ve ilk hükümdarı 897/1492'ye koyuyor. Dar ve özel madde esas alındı; bkz. celiski.",
+   "grup": "A1"
+  },
+  {
+   "t": "1503-01-01",
+   "taraflar": [
+    "kocin",
+    "portekiz"
+   ],
+   "b": "Albuquerque Koçin'de Asya'daki ilk Portekiz kalesini kurdu, raca Portekiz himayesine girdi",
+   "tur": "antlasma",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Kalikut Zamorini'ne tâbi olan Koçin racası Portekizlileri hoş karşılamıştı. Afonso de Albuquerque 1503'te kuzeni Francisco ile Koçin'e gelip racayı korumaya aldı, burada Asya'daki ilk Portekiz kalesini yaptırıp garnizon yerleştirdi (gün kaynakta yok). Böylece Koçin, Avrupa himayesine giren ilk Hint krallığı oldu.",
+   "kaynak": "Britannica, 'Afonso de Albuquerque' (Harold V. Livermore); Britannica, 'Kochi' (Britannica Editors)",
+   "kaynak_okundu": true,
+   "alinti": "In 1503 Albuquerque arrived with his cousin Francisco to protect the ruler of Cochin",
+   "kunye_id": "kocin",
+   "kunye_tarihi": "1503-01-01",
+   "not": "Künyenin kendi kronolojisinde (devletler.js) 1503-09-27 günlü bir kalem var; dayanağı 'çevrimiçi ikincil kaynaklar'. Okunan kaynaklar yalnız YIL veriyor, gün yazılmadı.",
+   "grup": "A2"
+  },
+  {
+   "t": "1521-01-01",
+   "taraflar": [
+    "ace-sultanligi",
+    "portekiz"
+   ],
+   "b": "Ali Mugâyet Şah Portekizlilere karşı Açe Sultanlığı'nı kurdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Portekizlilerin Pasai'yi alması üzerine Kuzey Sumatra'da Ali Mugâyet Şah'ın önderliğindeki direniş Açe İslâm Sultanlığı'nın doğuşuyla sonuçlandı. Açe kısa sürede Malaka Boğazı'ndaki Müslüman ticaretinin başlıca limanı oldu. TDV sumatra maddesi bağımsızlığı yalnız Ali Mugâyet Şah döneminde (1514-1530) diye veriyor; gün kaynakta yok.",
+   "kaynak": "TDV: ace (Numan Kurtulmuş); ayrıca TDV: sumatra",
+   "kaynak_okundu": true,
+   "alinti": "1521 yılında Açe bölgesinde Açe İslâm Sultanlığı kuruldu.",
+   "kunye_id": "ace-sultanligi",
+   "kunye_tarihi": "1496",
+   "grup": "B"
+  },
+  {
+   "t": "1521-01-01",
+   "taraflar": [
+    "samudra-pasai",
+    "portekiz"
+   ],
+   "b": "Portekizliler Pasai'yi aldı, Samudra-Pasai Sultanlığı sona erdi",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "XIII. yüzyıldan beri Kuzey Sumatra'da hüküm süren Samudra-Pasai, bölgenin bilinen ilk Müslüman devletiydi. 1511'de Malaka'yı alan Portekizliler 1521'de Pasai'yi de ele geçirdi ve sultanlık yıkıldı; bölgedeki önderlik Açe'ye geçti. (Gün kaynakta yok.)",
+   "kaynak": "TDV: ace (Numan Kurtulmuş)",
+   "kaynak_okundu": true,
+   "alinti": "Portekiz kuvvetlerinin 1521’de Pasai’yi ele geçirmeleri üzerine bu sultanlık yıkıldı.",
+   "kunye_id": "samudra-pasai",
+   "kunye_tarihi": "1521",
+   "grup": "B"
+  },
+  {
+   "t": "1522-01-01",
+   "taraflar": [
+    "demak",
+    "sunda-pajajaran"
+   ],
+   "b": "Sunan Gunung Jati Bentem'i Pajajaran'dan alarak Demak'a bağladı",
+   "tur": "fetih",
+   "onem": 4,
+   "dunya": 2,
+   "d": "Demak'a bağlı âlim ve kumandan Sunan Gunung Jati (Şeyh İbn Mevlânâ), Batı Cava'da ticaret ve üs merkezi kurmak için Bentem'e yürüdü. Pajajaran'ın buradaki idarecisini çıkarıp limanı ele geçirdi; Bentem onun ölümüne kadar Demak'a bağlı kaldı. (Gün kaynakta yok.)",
+   "kaynak": "TDV: bentem (Rıza Kurtuluş)",
+   "kaynak_okundu": true,
+   "alinti": "Jati 1522’de Bentem’den Pajajaran Devleti’nin yöneticisini kovarak bölgeyi ele geçirdi.",
+   "kunye_id": "banten-sultanligi",
+   "kunye_tarihi": "1527-06-22",
+   "grup": "B"
+  },
+  {
+   "t": "1527-01-01",
+   "taraflar": [
+    "behmeni",
+    "bidar"
+   ],
+   "b": "Behmenî Sultanlığı sona erdi, Dekken beş sultanlık arasında paylaşıldı",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Son Behmenî sultanları uzun süre Berîd ailesinden vezirlerin elinde birer kukla olarak kaldı. Hânedan 1527'de ortadan kalktı (gün kaynakta yok). Toprakları Bîcâpûr'da Âdilşâhîler, Ahmednagar'da Nizamşâhîler, Berâr'da İmâdşâhîler, Golkonda'da Kutubşâhîler ve Bîder'de Berîdşâhîler arasında bölündü.",
+   "kaynak": "TDV: behmeniler (Enver Konukçu, 1992)",
+   "kaynak_okundu": true,
+   "alinti": "Behmenî hânedanı 1527’de tarihe karıştı ve ülke beş mahallî hânedan arasında paylaşıldı.",
+   "kunye_id": "behmeni",
+   "kunye_tarihi": "1527",
+   "not": "Karşı taraf olarak son dönemde fiilî iktidarı elinde tutan Berîdşâhîler (bidar) seçildi; TDV yıkılışı tek bir fetih olayına bağlamıyor.",
+   "grup": "A1"
+  },
+  {
+   "t": "1527-01-01",
+   "taraflar": [
+    "multan-langah",
+    "sind"
+   ],
+   "b": "Sind hâkimi Hüseyin Şah Argun Mültan'daki Lengâh hânedanına son verdi",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Yaklaşık seksen yıl bağımsız kalan Mültan Lengâh hânedanı, Sind'e hâkim Argun hânedanından Hüseyin Şah tarafından ortadan kaldırıldı. TDV olayı Rebîülâhir 933 / Ocak 1527 diye tarihliyor (ay kaynakta var, gün yok). Şehir bundan sonra Bâbürlülere bağlı bir eyalet merkezi oldu.",
+   "kaynak": "TDV: multan (Azmi Özcan, 2020)",
+   "kaynak_okundu": true,
+   "alinti": "Bu hânedana, Sind bölgesinin hâkimi Hüseyin Şah Argun son verdi (Rebîülâhir 933 / Ocak 1527)",
+   "kunye_id": "multan-langah",
+   "kunye_tarihi": "1527",
+   "not": "Tarih alanı §4 gereği yıl düzeyinde (1527-01-01); ay (Ocak) metinde. Ergunlu hânedanı devletler.js'te `sind` künyesi altında toplu. kronoloji_guney_asya.js 1522 maddesi Şah Beg'in halefini 'Şah Hasan' diye anıyor; TDV adı 'Hüseyin Şah Argun' — yazım farkı, aynı kişi olabilir, doğrulanmadı.",
+   "grup": "A1"
+  },
+  {
+   "t": "1527-01-01",
+   "taraflar": [
+    "banten-sultanligi",
+    "sunda-pajajaran"
+   ],
+   "b": "Sunda Kalapa limanı Bentem'in eline geçti, adı Cayakarta oldu",
+   "tur": "fetih",
+   "onem": 4,
+   "dunya": 2,
+   "d": "Portekizliler 1522'de Pajajaran Krallığı ile Sunda Kalapa'da yerleşme anlaşması yapmıştı. Beş yıl sonra döndüklerinde limanın Müslüman Bentem kuvvetlerince alınıp Cayakarta adını almış olduğunu gördüler. Yıl, kaynağın '1522' ve 'beş yıl sonra' ifadelerinden çıkarılmıştır; gün kaynakta yok.",
+   "kaynak": "TDV: cakarta (tarih bölümü)",
+   "kaynak_okundu": true,
+   "alinti": "Sunda Kalapa’nın müslüman Bentem Sultanlığı tarafından işgal edildiğini ve Jajakarta adını aldığını gördüler.",
+   "kunye_id": "banten-sultanligi",
+   "kunye_tarihi": "1527-06-22",
+   "grup": "B"
+  },
+  {
+   "t": "1527-01-01",
+   "taraflar": [
+    "mac-hanedani",
+    "le-hanedani"
+   ],
+   "b": "Mạc Đăng Dung Lê tahtını gasbederek Mạc hanedanını kurdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Thăng Long (Hanoi) valisi Mạc Đăng Dung, iktidarı zayıflamış Lê hükümdarlarını tahttan indirerek Đại Việt'in hâkimi oldu. Lê yanlıları 1545'te Kızıl Nehir deltasının güneyini geri aldıysa da kuzeyi ancak yaklaşık elli yıllık iç savaştan sonra geri alabildiler; böylece ülke ilk kez ikiye bölündü. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Vietnam — Two divisions of Dai Viet' (Joseph Buttinger)",
+   "kaynak_okundu": true,
+   "alinti": "made themselves masters of Dai Viet in 1527",
+   "kunye_id": "mac-hanedani",
+   "kunye_tarihi": "1527-06-15",
+   "grup": "C"
+  },
+  {
+   "t": "1530-01-01",
+   "taraflar": [
+    "cohor-sultanligi",
+    "malaka-sultanligi"
+   ],
+   "b": "Alâeddin Riâyet Şah Johor nehri kıyısında Cohor Sultanlığı'nı kurdu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Portekizlilerin Malaka'yı almasından sonra kaçan son Malaka sultanı Mahmud Şah 1528'de öldü. Oğullarından Alâeddin Riâyet Şah iki yıl sonra Johor nehri üzerindeki Pekan Tua'da Cohor Sultanlığı'nı kurarak Malaka hanedanının mirasını sürdürdü. Yıl, kaynağın '1528' ve 'iki yıl sonra' ifadelerinden çıkarılmıştır; gün kaynakta yok.",
+   "kaynak": "TDV: malezya (İsmail Hakkı Göksoy)",
+   "kaynak_okundu": true,
+   "alinti": "iki yıl sonra Johor nehri üzerindeki Pekan Tua’da Johor Sultanlığı’nı kurdu.",
+   "kunye_id": "cohor-sultanligi",
+   "kunye_tarihi": "1528",
+   "grup": "B"
+  },
+  {
+   "t": "1552-01-01",
+   "taraflar": [
+    "banten-sultanligi",
+    "demak"
+   ],
+   "b": "Hasanüddin Demak'tan ayrıldı, Bentem bağımsız sultanlık oldu",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Sunan Gunung Jati 1552'de ölünce Bentem'in başına oğlu Hasanüddin geçti. Hasanüddin Demak'a bağlılığı sona erdirip Bentem'i bağımsız bir devlet yaptı ve sınırlarını Güney Sumatra'nın biber bölgesi Lampung'a kadar genişletti. (Gün kaynakta yok.)",
+   "kaynak": "TDV: bentem (Rıza Kurtuluş)",
+   "kaynak_okundu": true,
+   "alinti": "Ardından tahta geçen oğlu Hassanüddin (1552-1570) Demak Sultanlığı’ndan ayrılarak Bentem’i bağımsız",
+   "kunye_id": "banten-sultanligi",
+   "kunye_tarihi": "1527-06-22",
+   "grup": "B"
+  },
+  {
+   "t": "1555-01-01",
+   "taraflar": [
+    "ava",
+    "toungoo"
+   ],
+   "b": "Bayinnaung Ava'yı Şan beylerinden alarak Yukarı Birmanya'yı Toungoo'ya bağladı",
+   "tur": "fetih",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Toungoo hükümdarı Bayinnaung, 1554'te eski Birman başkenti Ava'yı elinde tutan Şan beylerine karşı sefere çıktı ve şehri ertesi yıl aldı. Şanlar Birman üstünlüğünü tanımak zorunda kaldı; bu zafer, Bayinnaung'a Siyam'a yürüme imkânı verdi. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Bayinnaung' (Britannica Editors)",
+   "kaynak_okundu": true,
+   "alinti": "set out against Shan chiefs, who occupied … Ava. He captured it the following year.",
+   "kunye_id": "ava",
+   "kunye_tarihi": "1555",
+   "grup": "C"
+  },
+  {
+   "t": "1558-01-01",
+   "taraflar": [
+    "lan-na",
+    "toungoo"
+   ],
+   "b": "Lan Na başkenti Chiang Mai Birmanlar'ın eline geçti",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 3,
+   "d": "1296'dan beri Lan Na Tay krallığının başkenti olan Chiang Mai, 1558'de Bayinnaung komutasındaki Toungoo Birmanlarınca alındı ve krallık bağımsızlığını yitirdi. Birman hâkimiyeti, Siyam kralı Taksin'in 1774'te şehri geri almasına dek sürdü. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Chiang Mai' (Britannica Editors) · Britannica, 'Toungoo Dynasty' (Britannica Editors) — Bayinnaung fetihlerinin Chieng Mai'ye uzanması",
+   "kaynak_okundu": true,
+   "alinti": "capital of the Lanna Thai kingdom until 1558, when it fell to the Myanmar",
+   "kunye_id": "lan-na",
+   "kunye_tarihi": "1558-04-02",
+   "grup": "C"
+  },
+  {
+   "t": "1558-01-01",
+   "taraflar": [
+    "nguyen-beyligi",
+    "le-hanedani"
+   ],
+   "b": "Nguyễn ailesi Huế merkezli güney eyaletlerinin idaresini üstlendi",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Nguyễn ailesi 1558'den itibaren Đại Việt'in güneye doğru genişleyen eyaletlerini Huế'den yönetmeye başladı. Başlangıçta Lê tahtına bağlı kalan bu idare, yaklaşık 1620'de Thăng Long'un üstünlüğünü reddederek ülkenin ikinci ve uzun süreli bölünmesini başlattı. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Vietnam — Two divisions of Dai Viet' (Joseph Buttinger)",
+   "kaynak_okundu": true,
+   "alinti": "who had governed the country's growing southern provinces from Hue since 1558",
+   "kunye_id": "nguyen-beyligi",
+   "kunye_tarihi": "1558",
+   "grup": "C"
+  },
+  {
+   "t": "1562-01-01",
+   "taraflar": [
+    "malva-sultanligi",
+    "babur-imparatorlugu"
+   ],
+   "b": "Mâlvâ, Ekber Şah döneminde kesin olarak Bâbürlü topraklarına katıldı",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Mâlvâ'daki Halacî hânedanı 1531'de Gucerât'ın ilhakıyla bitmiş, bölge sonraki yıllarda el değiştirmeye devam etmişti. Ekber Şah döneminde Mâlvâ nihaî olarak Bâbürlü İmparatorluğu'na dahil edildi ve imparatorluğun en çok gelir getiren eyaletlerinden biri oldu. TDV bu ilhakı 1561-1562 aralığıyla veriyor, maddenin başlığında sultanlığın bitişi 1562 (gün kaynakta yok).",
+   "kaynak": "TDV: malva (Iqtidar Husain Siddiqui, 2003)",
+   "kaynak_okundu": true,
+   "alinti": "Mâlvâ’nın Bâbürlü topraklarına nihaî olarak dahil edilmesi 1561-1562’de Ekber Şah zamanında gerçekleşti.",
+   "kunye_id": "malva-sultanligi",
+   "kunye_tarihi": "1562",
+   "not": "Hassasiyet: kaynak gövdesi yıl ARALIĞI (1561-1562) veriyor; 1562 maddenin başlığındaki '(1392 [?]-1562)' ifadesinden. TDV son hükümdarın (Bâz Bahadır) adını vermiyor, o yüzden başlıkta anılmadı. Mevcut 1531 maddesi (Bahadır Şah'ın ilhakı) ayrı olaydır.",
+   "grup": "A1"
+  },
+  {
+   "t": "1564-01-01",
+   "taraflar": [
+    "sur-hanedani"
+   ],
+   "b": "Sûrî hânedanının Bengal'deki son kolu 1564'te sona erdi",
+   "tur": "yikilis",
+   "onem": 4,
+   "dunya": 2,
+   "d": "Sûrîlerin Delhi'deki hâkimiyeti Hümâyun'un 23 Temmuz 1555'te Delhi'ye girmesiyle bitmişti. Hânedanın Bengal'deki kolu ise Hızır Han, Muhammed Han, Hızır Han Bahadır ve Gıyâseddin Celâl Şah ile bir süre daha yaşadı. TDV bu egemenliğin 971 (1564) yılına kadar sürdüğünü bildiriyor (gün kaynakta yok).",
+   "kaynak": "TDV: suriler (Azmi Özcan, 2009)",
+   "kaynak_okundu": true,
+   "alinti": "hânedanın Bengal’deki egemenliği 971 (1564) yılına kadar devam etti",
+   "kunye_id": "sur-hanedani",
+   "kunye_tarihi": "1564",
+   "not": "Karşı taraf (Bengal'de Sûrîlerin yerine geçen yönetim) TDV'de adlandırılmıyor; devletler.js'te Kerrânî künyesi de yok. Delhi'nin kaybı (1555-07-23) ayrı bir olay olarak değerlendirilebilir; mevcut 1555-07-23 maddesi (kronoloji_hindistan.js) onu kapsıyor.",
+   "grup": "A1"
+  },
+  {
+   "t": "1568-01-01",
+   "taraflar": [
+    "orissa",
+    "bengal-sultanligi"
+   ],
+   "b": "Kral Mukunda öldürüldü, Orissa bağımsızlığını Bengal'in Afgan hükümdarlarına kaptırdı",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Son büyük Gacapati kralı Prataparudra'nın 1540'taki ölümünden sonra zayıflayan Orissa krallığında Kral Mukunda kendi uyruklarınca öldürüldü. Bu kargaşadan yararlanan Bengal'in Afgan hükümdarları ülkeyi ele geçirdi ve Hindu krallığın bağımsızlığı sona erdi (gün kaynakta yok). Bölge 1590-92'de Ekber Şah'ın eline geçecekti.",
+   "kaynak": "Britannica, 'Odisha — History' (Manmath Nath Das)",
+   "kaynak_okundu": true,
+   "alinti": "in 1568, when King Mukunda was killed by his own countrymen, it lost its independence",
+   "kunye_id": "orissa",
+   "kunye_tarihi": "1568-01-01",
+   "not": "Kaynak 'Afghan rulers of Bengal' diyor, hanedan adını vermiyor; 'Kerrânî' adı künye özetinden. bengal-sultanligi künyesi 1576'ya kadar sürdüğü için karşı taraf olarak o seçildi.",
+   "grup": "A2",
+   "not_birlestirme": "Kerrânî adı atlas özetinden geldiği için metinden çıkarıldı (kaynak hanedan adını vermiyor)"
+  },
+  {
+   "t": "1571-01-01",
+   "taraflar": [
+    "filipin-racaliklari",
+    "ispanya"
+   ],
+   "b": "Legazpi Manila'yı aldı, Luzon racalıkları İspanyol hâkimiyetine girdi",
+   "tur": "fetih",
+   "onem": 5,
+   "dunya": 3,
+   "d": "Brunei hanedanına akraba Raca Süleyman'ın yönettiği Manila, Luzon'un başlıca Müslüman liman prensliğiydi. Miguel López de Legazpi 1571'de Raca Süleyman'ı yenip Manila'yı aldı ve burayı İspanyol idaresinin merkezi yaptı; Müslümanlar kuzey ve orta adalardan çekilmek zorunda kaldı. (Gün kaynakta yok.)",
+   "kaynak": "TDV: filipinler (Cesar Adib Majul / İsmail Hakkı Göksoy)",
+   "kaynak_okundu": true,
+   "alinti": "Legazpi, 1571’de Raca Süleyman’la giriştiği savaşta müslümanları Kuzey ve Orta Filipin adalarından atarak",
+   "kunye_id": "filipin-racaliklari",
+   "kunye_tarihi": "1571-06-24",
+   "grup": "B"
+  },
+  {
+   "t": "1572-01-01",
+   "taraflar": [
+    "berar",
+    "ahmednagar"
+   ],
+   "b": "Nizamşâhîler Berâr'ı işgal etti, İmâdşâhî hânedanlığı sona erdi",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Çocuk yaştaki Burhan İmâdülmülk döneminde fiilî yönetim vezir Tufâl Han'daydı. Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen 1572'de Berâr'a girdi ve İmâdşâhî hânedanlığı böylece sona erdi (gün kaynakta yok). Tufâl Han ile sultan daha sonra hapsedildikleri kalede öldürüldü (1574).",
+   "kaynak": "TDV: imadsahiler (A. S. Bazmee Ansari, 2000)",
+   "kaynak_okundu": true,
+   "alinti": "Berâr, 1572’de bir defa daha Nizamşâhîler tarafından ilhak edilmek istendi.",
+   "kunye_id": "berar",
+   "kunye_tarihi": "1574",
+   "not": "Künye 1574 sultanın kalede öldürülme yılına denk düşüyor; hânedanlığın sonu TDV'ye göre 1572 — bkz. celiski.",
+   "grup": "A1"
+  },
+  {
+   "t": "1573-01-01",
+   "taraflar": [
+    "muromachi",
+    "azuchi-momoyama"
+   ],
+   "b": "Oda Nobunaga son Ashikaga şogunu Yoshiaki'yi Kyoto'dan sürdü, Muromachi devri kapandı",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "1568'de Nobunaga'nın desteğiyle şogun olan Ashikaga Yoshiaki, zamanla hamisiyle çatışmaya düştü. Nobunaga onu 1573'te tahttan indirip Kyoto'dan sürdü; böylece 1338'den beri süren Ashikaga (Muromachi) şogunluğu sona erdi. (Gün kaynakta yok.)",
+   "kaynak": "Britannica, 'Ashikaga Yoshiaki' (Britannica Editors) · Britannica, 'Muromachi period' (Britannica Editors) · TDV: japonya (Ahmet Kavas)",
+   "kaynak_okundu": true,
+   "alinti": "the latter deposed Yoshiaki and banished him from Kyōto in 1573",
+   "kunye_id": "muromachi",
+   "kunye_tarihi": "1573-09-01",
+   "grup": "C"
+  },
+  {
+   "t": "1578-01-01",
+   "taraflar": [
+    "demak"
+   ],
+   "b": "Parçalanan Demak, bölgedeki yeni güçlerin hâkimiyetine girdi",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Sultan Trenggana 1546'da Panarukan seferinde öldürülünce Demak iç karışıklıklarla parçalandı ve Sunan Prawata'nın gücü şehrin dışına taşmaz oldu. Kısa süre sonra Demak, bölgede güçlenen başka devletlerin egemenliğine girdi. Kaynak bu devletlerin adını vermiyor (karşı taraf null); gün kaynakta yok.",
+   "kaynak": "TDV: demak (Rıza Kurtuluş)",
+   "kaynak_okundu": true,
+   "alinti": "Kısa bir süre sonra da Demak bölgede güçlenen diğer devletlerin hâkimiyetine girdi (1578).",
+   "kunye_id": "demak",
+   "kunye_tarihi": "1587",
+   "grup": "B"
+  },
+  {
+   "t": "1585-01-01",
+   "taraflar": [
+    "mataram-sultanligi"
+   ],
+   "b": "Orta Cava'da Mataram Sultanlığı güçlü bir devlet olarak ortaya çıktı",
+   "tur": "kurulus",
+   "onem": 5,
+   "dunya": 2,
+   "d": "XVI. yüzyılın sonlarında Orta Cava'da Mataram Sultanlığı geniş bir siyasi güç olarak belirdi. Hükümdarları Müslüman olsa da yönetiminde eski Majapahit geleneğinin izleri sürdü; devlet sonraki yüzyılda Batavya dışında Cava'nın tamamına hâkim oldu. Karşı taraf olarak Pajang anılmıyor; gün kaynakta yok.",
+   "kaynak": "TDV: cava (Mustafa L. Bilge)",
+   "kaynak_okundu": true,
+   "alinti": "Orta Cava bölgesinde Mataram Sultanlığı adıyla geniş bir politik güç ortaya çıktı (1585).",
+   "kunye_id": "mataram-sultanligi",
+   "kunye_tarihi": "1587",
+   "grup": "B"
+  },
+  {
+   "t": "1601-01-01",
+   "taraflar": [
+    "farukiler",
+    "babur-imparatorlugu"
+   ],
+   "b": "Ekber Şah Asîrgarh'ı aldı, Handeş Bâbürlü eyaleti oldu ve Fârûkîler sona erdi",
+   "tur": "yikilis",
+   "onem": 5,
+   "dunya": 2,
+   "d": "Son Fârûkî hükümdarı Bahadır Şah'ın Bâbürlü şehzadeleri meselesine karışması Ekber Şah'ı harekete geçirdi. Bâbürlü ordusu 1601'de Handeş'i istilâ edip Asîrgarh'ı kuşatarak aldı (gün kaynakta yok). Handeş Bâbürlülere bağlı bir eyalete dönüştürüldü, Bahadır Şah Lahor Kalesi'ne kapatıldı.",
+   "kaynak": "TDV: farukiler (Enver Konukçu, 1995)",
+   "kaynak_okundu": true,
+   "alinti": "Handeş Bâbürlüler’e bağlı eyalet haline getirildi (1009/1601).",
+   "kunye_id": "farukiler",
+   "kunye_tarihi": "1601",
+   "grup": "A1"
+  }
+ ],
+ "mukerrer": [
+  {
+   "kunye_id": "sur-hanedani",
+   "dosya": "data/kronoloji_hindistan.js",
+   "t": "1540-05-17",
+   "b": "Kannauc Savaşı: Şîr Şah Sûrî Hindistan'a hâkim oldu, Hümâyun sürgüne gitti",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "malva-sultanligi",
+   "dosya": "data/kronoloji_hindistan.js",
+   "t": "1401-01-01",
+   "b": "Dilâver Han, Mâlvâ Sultanlığı'nı kurdu",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "golkonda",
+   "dosya": "data/kronoloji_hindistan.js",
+   "t": "1518-01-01",
+   "b": "Kutbülmülk, Golkonda Kutubşâhî Sultanlığı'nı kurdu",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "cagatay",
+   "dosya": "data/kronoloji_iran.js",
+   "t": "1370-04-09",
+   "b": "Timur, Mâverâünnehir'de tek hâkim oldu",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "sibir-hanligi",
+   "dosya": "data/kronoloji_orta_asya.js",
+   "t": "1420-01-02",
+   "b": "Şeybânî Hacı Muhammed Tura'da hanlığı kurdu",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "sibir-hanligi",
+   "dosya": "data/kronoloji_orta_asya.js",
+   "t": "1445-09-01",
+   "b": "Mahmud (Mahmutek) tahta çıktı — hanlığın kuruluş süreci tamamlandı",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "hollanda-dogu-hint",
+   "dosya": "data/kronoloji_hollanda.js",
+   "t": "1602-03-20",
+   "b": "VOC'nin kurulması — dünyanın ilk anonim şirketi",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "tran-hanedani",
+   "dosya": "(bu dosya) maddeler[1400-01-01]",
+   "t": "1400-01-01",
+   "b": "Trần hanedanı devrildi, Hồ Quý Ly Đại Việt tahtını ele geçirdi — aynı olay (ho-hanedani kuruluşu)",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "kamboc-kralligi",
+   "dosya": "(bu dosya) maddeler[1431-01-01]",
+   "t": "1431-01-01",
+   "b": "Ayutthaya ordusu Angkor'u yağmaladı — aynı olay (angkor-kmer yıkılışı = Angkor sonrası Kamboçya'nın başlangıcı)",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "kenmu",
+   "dosya": "data/kronoloji_japonya.js",
+   "t": "1333-07-04",
+   "b": "Kamakura Şogunluğu yıkıldı, İmparator Go-Daigo doğrudan iktidara döndü (kenmu kuruluşu)",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "kenmu",
+   "dosya": "data/kronoloji_japonya.js",
+   "t": "1336-11-07",
+   "b": "Ashikaga Takauji, Muromachi Şogunluğu'nu kurdu — Nanboku-chō bölünmesi başladı (kenmu yıkılışı)",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "azuchi-momoyama",
+   "dosya": "data/kronoloji_japonya.js",
+   "t": "1568-10-18",
+   "b": "Oda Nobunaga Kyoto'ya girdi, birleşme süreci başladı",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "pagan",
+   "dosya": "data/kronoloji_cin.js",
+   "t": "1287-01-01",
+   "b": "Pagan Krallığı'na (Birmanya) Yuan seferi — TDV/Britannica Pagan'ın yıkılışını bu 1287 olayına bağlıyor; 1297 için ayrı kaynak bulunamadı",
+   "grup": "C"
+  }
+ ],
+ "bulunamadi": [
+  {
+   "kunye_id": "madurai-sultanligi",
+   "neden": "yıkılış 1378: TDV'de Ma'bar/Madura müstakil maddesi yok (mabar, madura, madurai, mabar--hindistan 302); tugluklular, delhi-sultanligi, hace-i-cihan yalnız kuruluş/1344'ü anıyor, sonu tarihlemiyor. Britannica (place/Madurai) curl ve WebFetch ile 403 — okunamadı.",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "cavnpur-sultanligi",
+   "neden": "yıkılış 1483: TDV kendi içinde üç farklı yıl veriyor (bkz. celiski); taraf seçilmedi, madde yazılmadı. Üçüncü bağımsız akademik kaynak okunamadı.",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "kandy",
+   "neden": "Okunan kaynaklarda 1469 yok. Britannica 'Kandy (historical kingdom)' künye kutusunda krallık için 1476-1818 veriyor, ama bunu taşıyan bir anlatı cümlesi sayfada okunamadı (yalnız 'Quick Facts' alanı). TDV sri-lanka Kandy Krallığı'nı tarihsiz anıyor. Madde yazılmadı; bkz. celiski.",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "nayak-devletleri",
+   "neden": "Künyenin 1336 kaydı Musunuri/Kapaya Nayaka'nın Telingana'yı geri almasına dayanıyor. Britannica 'India — The Tughluqs' (J. E. Schwartzberg) Varangal isyanını 1345-46 diye veriyor; 1336 için kaynak bulunamadı. Ayrıca künye iki ayrı şeyi birleştiriyor: 14. yy Musunuri (Andhra) nâyakları ile 16. yy Madurai/Tancûr/Cinci/Keladi nâyak beylikleri. Madde yazılmadı.",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "pandya",
+   "neden": "Okunan kaynaklarda 1323'te yıkılış yok. Britannica 'Pandya dynasty': 1311'den itibaren Müslüman akınları ve Madura sultanlığının kuruluşu Pandya nüfuzunu zayıflattı, bütün topraklar ancak 16. yüzyıl ortasında başka ellere geçti. TDV tugluklular Ma'ber'i yalnız 1334-35 ayrılışıyla anıyor. Madde yazılmadı.",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "sunda-pajajaran",
+   "neden": "Yıkılış yılı kaynakta yok. TDV bentem: Pajajaran'ı Pangeran Yûsuf yıktı, saltanatı 1570-1580 arası. Atlastaki 1527-06-22 Pajajaran'ın sonu değil; 1527 yılı Sunda Kalapa'nın kaybıdır ve o olay ayrı madde olarak yazıldı.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "kutai",
+   "neden": "TDV borneo yalnız 'XVI. yüzyıldan sonra' Kutei sultanlığı ortaya çıktı diyor, yıl vermiyor. kutai/kutay sluglarının ikisi de ölü (302). Britannica 403 verdi.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "demak",
+   "neden": "Kuruluş (1478): TDV demak yalnız 'XV. yüzyılın son çeyreği' diyor. TDV endonezya'daki 1478 yılı Cava vekâyinâmelerine göre Majapahit'in yıkılışına ait, Demak'ın kuruluşuna değil. Majapahit'in Demak eliyle yıkılışı olaylar_ek16.js'te 1527-01-01 tarihli maddede zaten var.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "bali-kralliklari",
+   "neden": "Kuruluş (1478, Gelgel): TDV bali maddesi Habeşistan'daki Bâlî'yi anlatıyor (yanlış madde). Britannica Bali sayfası 403 verdi; kaynak bulunamadı.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "banjar-sultanligi",
+   "neden": "TDV borneo 'Bancermasin' sultanlığı için yıl vermiyor. bancar, banjar ve bancarmasin sluglarının üçü de ölü; Britannica Banjarmasin 403 verdi.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "bali-kralliklari-pejeng",
+   "neden": "1292 kuruluş ve 1343 yıkılış (Gajah Mada) için okunabilen kaynak yok. Britannica Gajah Mada ve Bali sayfaları 403 verdi. Not: Britannica 'Kertanagara' gövdesi Bali'nin 1284'te Singhasari'ce fethedildiğini yazıyor.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "majapahit",
+   "neden": "Kuruluş (1293): Britannica 'Majapahit empire' Vijaya'yı kurucu olarak veriyor, 1292 Moğol seferini anlatıyor ama kuruluş yılını vermiyor. Britannica Kertarajasa/Vijaya sayfaları 403 verdi; majapahit slugu ölü. TDV cava 'Macapahitler (1300-1525)' diyor; bu bir dönem aralığı, kuruluş tarihi değil.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "bugis-kralliklari",
+   "neden": "1330 kuruluş: Britannica 'Bugis' maddesinde tarih yok; TDV bone kısa bir yönlendirme maddesi, bugis slugu ölü.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "poni",
+   "neden": "Ayrı madde yazılmadı: Po-ni'nin 1405'teki sonu, Brunei Sultanlığı'nın kuruluşuyla aynı olay. brunei-sultanligi maddesinde taraflar [brunei-sultanligi, poni] olarak işlendi.",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "ava",
+   "neden": "kuruluş 1313: Britannica ('Myanmar', Maung Htin Aung) yalnız '14. yy'ın ilk on yılında küçük güç merkezleri doğdu' ve 'Ava 1364'te iktidar merkezi oldu' diyor; TDV myanmar tarih vermiyor. 1313 (Pinya) için kaynak okunamadı.",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "toungoo",
+   "neden": "kuruluş 1510: Britannica kurucu Minkyinyo için 1486 (Tabinshwehti maddesi) ya da 1531 veriyor, TDV myanmar 1531. 1510 (Ava'dan bağımsızlık) için kaynak okunamadı; 1486 künye penceresinin dışında kaldığı için madde yazılmadı.",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "sanzan",
+   "neden": "kuruluş 1322: TDV'de madde yok (okinava 302), Britannica 'Ryukyu Islands' / 'Okinawa' / 'Shuri' sayfaları tarih vermiyor; 'Sho Hashi' ve 'Ryukyu kingdom' Britannica'da 404.",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "ryukyu",
+   "neden": "kuruluş 1429 (Şo Haşi'nin birleştirmesi): aynı sebep — erişilebilen akademik kaynakta tarih okunamadı.",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "pagan",
+   "neden": "yıkılış 1297: okunan kaynaklar 1287 (TDV myanmar, Britannica 'Toungoo Dynasty') ya da 'c. 1300' (Britannica 'Myanmar') veriyor; 1297 (Kyawswa'nın tahttan indirilişi) için kaynak okunamadı. 1287 olayı kronoloji_cin.js'te zaten var.",
+   "grup": "C"
+  }
+ ],
+ "celiski": [
+  {
+   "kunye_id": "berar",
+   "kunye_tarihi": "1574",
+   "kaynak_tarihi": "1572 (hânedanlığın sonu, Nizamşâhî işgali); 1574 = son sultan ve vezirin kalede öldürülmesi",
+   "kaynak": "TDV: imadsahiler",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "bidar",
+   "kunye_tarihi": "1489",
+   "kaynak_tarihi": "1492 (beridsahiler: bağımsızlık ve Kāsım Berîd Şah 897/1492); 1487 (behmeniler: Berîdşâhîler 1487-1619)",
+   "kaynak": "TDV: beridsahiler · TDV: behmeniler",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "cavnpur-sultanligi",
+   "kunye_tarihi": "1483",
+   "kaynak_tarihi": "1483 (jaunpur: Şarkî sultanları 1394-1483) · 1482 (delhi-sultanligi: Behlûl 1482'de Jaunpûr'u zaptetti) · 1487 (ludiler: son Şarkî sultanı Hüseyin Şah 1487'de bozguna uğratıldı, Jaunpûr alındı)",
+   "kaynak": "TDV: jaunpur · TDV: delhi-sultanligi · TDV: ludiler (Iqtidar Husain Siddiqui)",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "sibir-hanligi",
+   "kunye_tarihi": "1430",
+   "kaynak_tarihi": "kurucu Hacı Muhammed 1420-1430; yarı bağımsızlık '1420'li yılların sonlarından itibaren' (tek yıl yok)",
+   "kaynak": "TDV: sibir-hanligi (İlyas Kemaloğlu, 2019)",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "golkonda",
+   "kunye_tarihi": "1512",
+   "kaynak_tarihi": "1512 (künye ile UYUMLU) — ama mevcut madde kronoloji_hindistan.js 1518-01-01 kuruluşu 1518'e koyuyor; TDV kutubsahiler bağımsızlığı 1512 diye veriyor",
+   "kaynak": "TDV: kutubsahiler (Enver Konukçu, 2002)",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "cagatay",
+   "kunye_tarihi": "1370",
+   "kaynak_tarihi": "'1370'lerde' (Timur Mâverâünnehir'e fiilen hâkim oldu; tek yıl yok) — mevcut madde 1370-04-09",
+   "kaynak": "TDV: cagatay-hanligi (Abdülkadir Yuvalı)",
+   "grup": "A1"
+  },
+  {
+   "kunye_id": "hoysala",
+   "kunye_tarihi": "1343-01-01",
+   "kaynak_tarihi": "1343-44 (Ballala'nın ölümü); ilhak 2 yıl içinde; hânedan 'about 1346'ya kadar; TDV hindistan kronoloji tablosu 'Hoysalar 1110-1327'",
+   "kaynak": "Britannica 'India — The Vijayanagar empire' (S. Subrahmanyam); Britannica 'Hoysala dynasty'; TDV: hindistan (tablo)",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "kandy",
+   "kunye_tarihi": "1469-01-01",
+   "kaynak_tarihi": "1476 (Britannica Quick Facts, 'Date: 1476-1818')",
+   "kaynak": "Britannica, 'Kandy (historical kingdom, Sri Lanka)'",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "nayak-devletleri",
+   "kunye_tarihi": "1336-01-01",
+   "kaynak_tarihi": "1345-46 (Varangal isyanı)",
+   "kaynak": "Britannica, 'India — The Tughluqs' (Joseph E. Schwartzberg)",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "pandya",
+   "kunye_tarihi": "1323-01-01",
+   "kaynak_tarihi": "Kesin bitiş yok: 1311'den itibaren zayıflama, toprakların tamamı 16. yy ortasına kadar el değiştirdi",
+   "kaynak": "Britannica, 'Pandya dynasty'",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "yadava",
+   "kunye_tarihi": "1318-01-01",
+   "kaynak_tarihi": "1318 (TDV dekken, ilhak) — ama TDV hindistan tablosu 'Devâgirî Yadavaları 1190-1294' diyor (bağımsızlığın sonu sayılmış olabilir); TDV dekken 1294, TDV devletabad 695/1296 diyor ilk sefer için",
+   "kaynak": "TDV: dekken · TDV: hindistan · TDV: devletabad",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "kocin",
+   "kunye_tarihi": "1503-01-01",
+   "kaynak_tarihi": "1503 kale; ama Britannica 'Kochi' ilk Avrupa yerleşimini 1500'e koyuyor (künyedeki 1500-12-24 kalemiyle uyumlu). Künye 'Portekiz öncesi' dönemi 1503'te bitiriyor; himaye/vasallığın 1500'de mi 1503'te mi başladığı yoruma açık",
+   "kaynak": "Britannica 'Kochi'; Britannica 'Afonso de Albuquerque'",
+   "grup": "A2"
+  },
+  {
+   "kunye_id": "banten-sultanligi",
+   "kunye_tarihi": "1527-06-22",
+   "kaynak_tarihi": "1522 (Bentem'in fethi, Demak'a bağlı); 1552 (bağımsızlık)",
+   "kaynak": "TDV: bentem",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "sunda-pajajaran",
+   "kunye_tarihi": "1527-06-22",
+   "kaynak_tarihi": "1570-1580 arası (Pangeran Yûsuf'un saltanatı; kesin yıl yok)",
+   "kaynak": "TDV: bentem",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "cohor-sultanligi",
+   "kunye_tarihi": "1528",
+   "kaynak_tarihi": "1530 (1528 + 'iki yıl sonra')",
+   "kaynak": "TDV: malezya",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "mataram-sultanligi",
+   "kunye_tarihi": "1587",
+   "kaynak_tarihi": "1585",
+   "kaynak": "TDV: cava",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "demak",
+   "kunye_tarihi": "1587 (yıkılış)",
+   "kaynak_tarihi": "1578",
+   "kaynak": "TDV: demak",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "sulu-sultanligi",
+   "kunye_tarihi": "1457",
+   "kaynak_tarihi": "1450 [?]",
+   "kaynak": "TDV: filipinler",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "ace-sultanligi",
+   "kunye_tarihi": "1496",
+   "kaynak_tarihi": "1521 (TDV ace); Ali Mugâyet Şah dönemi 1514-1530 (TDV sumatra)",
+   "kaynak": "TDV: ace; TDV: sumatra",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "brunei-sultanligi",
+   "kunye_tarihi": "1368",
+   "kaynak_tarihi": "1405",
+   "kaynak": "TDV: borneo; TDV: bruney",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "malaka-sultanligi",
+   "kunye_tarihi": "1400",
+   "kaynak_tarihi": "1396 [?] (malezya) · 1390'ların ortası (malaka) · 1402 (endonezya); TDV kendi içinde tutarsız",
+   "kaynak": "TDV: malezya; TDV: malaka; TDV: endonezya",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "filipin-racaliklari",
+   "kunye_tarihi": "1571-06-24",
+   "kaynak_tarihi": "1571 (gün yok)",
+   "kaynak": "TDV: filipinler",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "poni",
+   "kunye_tarihi": "1405 (yıkılış)",
+   "kaynak_tarihi": "1405: yıl tutuyor; ama brunei-sultanligi künyesi 1368'de başlıyor, yani iki künye 1368-1405 arasında üst üste biniyor",
+   "kaynak": "TDV: borneo",
+   "grup": "B"
+  },
+  {
+   "kunye_id": "ayutthaya",
+   "kunye_tarihi": "1351",
+   "kaynak_tarihi": "1350 (TDV) / 1351 (Britannica Chandler) / 'about 1350' (Britannica 'Ayutthaya')",
+   "kaynak": "TDV: tayland · Britannica",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "angkor-kmer",
+   "kunye_tarihi": "1431",
+   "kaynak_tarihi": "1432 (TDV tayland ve kambocya) / 1431 (Britannica Keyes, Chandler)",
+   "kaynak": "TDV: tayland, kambocya · Britannica 'Thailand', 'Cambodia'. Madde Britannica'nın 1431'iyle yazıldı; TDV farkı bildiriliyor.",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "kamboc-kralligi",
+   "kunye_tarihi": "1431",
+   "kaynak_tarihi": "1432 (TDV kambocya)",
+   "kaynak": "TDV: kambocya (Rıza Kurtuluş)",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "ho-hanedani",
+   "kunye_tarihi": "1400-03-01",
+   "kaynak_tarihi": "1400 (yalnız yıl)",
+   "kaynak": "Britannica 'Vietnam' — künyenin gün/ay değeri (03-01) kaynaksız; madde 1400-01-01 olarak künye başlangıcından önce düşüyor",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "tran-hanedani",
+   "kunye_tarihi": "1400-03-01",
+   "kaynak_tarihi": "1400 (yalnız yıl)",
+   "kaynak": "Britannica 'Vietnam' — aynı not",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "mac-hanedani",
+   "kunye_tarihi": "1527-06-15",
+   "kaynak_tarihi": "1527 (yalnız yıl)",
+   "kaynak": "Britannica 'Vietnam', 'Mac Dang Dung' — künye günü kaynaksız; madde 1527-01-01 künye başlangıcından önce düşüyor",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "lan-na",
+   "kunye_tarihi": "1558-04-02",
+   "kaynak_tarihi": "1558 (yalnız yıl)",
+   "kaynak": "Britannica 'Chiang Mai' — künye günü okunan kaynakta yok",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "muromachi",
+   "kunye_tarihi": "1573-09-01",
+   "kaynak_tarihi": "1573 (yalnız yıl)",
+   "kaynak": "Britannica 'Ashikaga Yoshiaki', TDV japonya — künyenin ay değeri kaynakta yok",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "pagan",
+   "kunye_tarihi": "1297",
+   "kaynak_tarihi": "1287 (TDV myanmar: 'Kubilay Han tarafından yıkıldı'; Britannica 'Toungoo Dynasty': 'demise of the Pagan dynasty (1287)')",
+   "kaynak": "TDV: myanmar (İsmail Hakkı Göksoy) · Britannica",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "toungoo",
+   "kunye_tarihi": "1510",
+   "kaynak_tarihi": "1486 veya 1531",
+   "kaynak": "Britannica 'Toungoo Dynasty', 'Tabinshwehti' · TDV: myanmar (1531)",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "ava",
+   "kunye_tarihi": "1313",
+   "kaynak_tarihi": "Ava merkezi 1364 (Britannica); Pinya 1313 okunamadı",
+   "kaynak": "Britannica 'Myanmar' (Maung Htin Aung)",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "azuchi-momoyama",
+   "kunye_tarihi": "1568",
+   "kaynak_tarihi": "dönem başlangıcı 1573 (TDV japonya) / 1574 (Britannica); 1568 Nobunaga'nın Kyoto'ya girişi (TDV)",
+   "kaynak": "TDV: japonya (Ahmet Kavas) · Britannica 'Azuchi-Momoyama period'",
+   "grup": "C"
+  },
+  {
+   "kunye_id": "kenmu",
+   "kunye_tarihi": "1333-07-04",
+   "kaynak_tarihi": "Kemmu dönemi 1334'te başladı (TDV japonya: 'Ertesi yıl')",
+   "kaynak": "TDV: japonya (Ahmet Kavas)",
+   "grup": "C"
+  }
+ ],
+ "olu_slug": [
+  "behmenisahlar",
+  "langahlar",
+  "sur-hanedani",
+  "seyh-sah-suri",
+  "sir-sah-suri",
+  "malva-sultanligi",
+  "imad-sahiler",
+  "sarkiler",
+  "cavnpur",
+  "berid-sahiler",
+  "kutub-sahiler",
+  "mabar",
+  "madura",
+  "madurai",
+  "cagataylilar",
+  "cagatay-hani",
+  "sibir",
+  "asirgarh",
+  "bidar",
+  "berar",
+  "lutiler",
+  "behlul-ludi",
+  "behlul-lodi",
+  "vicayanagar",
+  "vijayanagar",
+  "mabar--hindistan",
+  "kumara",
+  "hace-cihan",
+  "sultan-husayn-sarki",
+  "bidar--hindistan",
+  "vicayanagar",
+  "vijayanagar",
+  "vicayanagara",
+  "muhammed-b-tugluk",
+  "srilanka",
+  "madura",
+  "mabar",
+  "maber",
+  "kerraniler",
+  "kerrani",
+  "urisa",
+  "orissa",
+  "kocin",
+  "kalikut",
+  "behmeni",
+  "varangel",
+  "hoysala",
+  "banten",
+  "bantam",
+  "cohor",
+  "johor",
+  "malakka",
+  "mataram",
+  "aceh",
+  "acehliler",
+  "pasai",
+  "samudra-pasai",
+  "samudra",
+  "bancar",
+  "banjar",
+  "banjarmasin",
+  "bancarmasin",
+  "brunei",
+  "kutai",
+  "kutay",
+  "bugis",
+  "makassar",
+  "makasar",
+  "majapahit",
+  "mindanao",
+  "celebes",
+  "selebes",
+  "selebes-adasi",
+  "sunda",
+  "gowa",
+  "batavya",
+  "jolo",
+  "magindanao",
+  "palembang",
+  "ternate",
+  "vietnam",
+  "birmanya",
+  "laos",
+  "okinava"
+ ],
+ "_aciklama": "D5-ASYA · GERİYE SARMA G8–G10 künye kronolojisi · dört araştırma çıktısının (A1 Güney Asya sultanlıkları · A2 Güney Asya krallıkları · B adalar GD Asya · C kıta GD ve Doğu Asya) süzülmüş birleşimi. Üretici denetim/ARAC-D5-ASYA-KRONOLOJI-0916.py bu dosyayı okur. 'celiski' = kaynak ile atlas künye tarihi ayrışması (künyeler D-KUNYE/UYGULA'nındır; bu oturum devletler.js'e yazmadı)."
+}

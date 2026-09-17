@@ -31,8 +31,11 @@ for (const L of Object.values(G)) { L.sort((a, b) => pad(a.f) < pad(b.f) ? -1 : 
   for (let i = 1; i < L.length; i++) if (pad(L[i].f) < pad(L[i - 1].t)) hata('çakışma', L[i - 1].id, L[i].id, L[i - 1].t, L[i].f); }
 // kronoloji
 const ids = new Set(A.map(k => k.id));
-for (const m of K) { if (!ids.has(m.sinir_kaydi)) hata('bağ', m.t, m.sinir_kaydi);
-  if (!m.taraflar || m.taraflar.length !== 2) hata('taraflar', m.t, m.b);
+// künye kronolojisi maddeleri (G8–G10) sınır kaydına bağlı değildir; taraflar 1-2 id olabilir (karşı tarafın künyesi yoksa)
+for (const m of K) {
+  const kunye = m.sinir_kaydi === undefined;
+  if (!kunye && !ids.has(m.sinir_kaydi)) hata('bağ', m.t, m.sinir_kaydi);
+  if (!m.taraflar || !(kunye ? m.taraflar.length >= 1 && m.taraflar.length <= 2 : m.taraflar.length === 2)) hata('taraflar', m.t, m.b);
   for (const x of (m.taraflar || [])) if (!KN[x]) hata('madde künye', m.t, x); }
 // künye sınırı günleri: 1917 Rusya · 1911 Çin/Moğolistan · 1910 Kore · 1846 Cammu-Keşmir (Sih'ten Dogra'ya)
 const GECIS = new Set(['1917-03-15', '1917-11-07', '1911-10-10', '1911-12-29', '1910-08-29', '1923-10-29', '1846-03-16', '1876-02-19']);   // 1876 Hokand'ın Rusya'ya katılması

@@ -208,14 +208,26 @@ BAS = """// ====================================================================
 
 window.KRONOLOJI_SINIR_ASYA = [
 """
+# ---------------- G8–G10: KÜNYE KRONOLOJİSİ (hat kaydı YOK — kaynakta sınır yok) ----------------
+# Onaylanmış maddeler denetim/D5-ASYA-KUNYE-MADDE-0917.json'dan gelir (araştırma çıktıları elle süzüldü).
+KM = os.path.join("denetim", "D5-ASYA-KUNYE-MADDE-0917.json")
+if os.path.exists(KM):
+    for k in json.load(io.open(KM, encoding="utf-8"))["maddeler"]:
+        tr = [x for x in k["taraflar"] if x]
+        M.append((k["t"], tr, k["b"], k["tur"], k["onem"], k["dunya"], "YOK", k["d"], k["kaynak"], "", ""))
+
 satir = []
 for t, tr, b, tur, onem, dunya, sinif, d, kaynak, kayit, yer in sorted(M, key=lambda m: m[0]):
     o = {"t": t, "devlet": tr[0], "taraflar": tr, "devletler": tr, "b": b, "tur": tur, "onem": onem, "dunya": dunya,
          "kapsam": "dis", "yer_id": yer}
     if not yer:
         o["kapsam_genis"] = True
-    o["etiket"] = ["sinir", "diplomasi" if tur != "isgal" else "isgal"] + tr + ["konu-siyasi", "sinif-" + sinif]
-    o.update({"d": d, "kaynak": kaynak, "sinif": sinif, "sinir_kaydi": kayit})
+    if kayit:
+        o["etiket"] = ["sinir", "diplomasi" if tur != "isgal" else "isgal"] + tr + ["konu-siyasi", "sinif-" + sinif]
+        o.update({"d": d, "kaynak": kaynak, "sinif": sinif, "sinir_kaydi": kayit})
+    else:   # künye kronolojisi: sınır değişikliği değil, devletin doğuşu/sonu
+        o["etiket"] = ["kunye", tur] + tr + ["konu-siyasi"]
+        o.update({"d": d, "kaynak": kaynak})
     satir.append(json.dumps(o, ensure_ascii=False, separators=(",", ":")))
 with io.open("data/kronoloji_sinir_asya.js", "w", encoding="utf-8", newline="\n") as f:
     f.write(BAS + ",\n".join(satir) + "\n];\n")
