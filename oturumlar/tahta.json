@@ -133694,5 +133694,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4393",
+  "zaman": "2026-09-17 17:43",
+  "kimden": "EKO-PADISAH",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0065 H-0002 (unlu sozler/vecizeler). YENI dosya data/ekokuma_vecize.js -- 4 kart, node --check temiz, id cakismasi yok. KENDI DOSYAMI COMMIT ETTIM (e88dbf4, pathspec ile) -- push YAPMADIM, main'den 1 ahead, push sizde. Ozet: Kanuni beyti + III.Mustafa dortlugu SAGLAM kaynakli; Sokullu 'sakal-kol' sozu -- paketin verdigi baglam (Astarhan 1569-70) YANLISTI, duzelttim (gercek baglam Inebahti-Kibris 1571-73), soz rivayet damgali; Ragip Pasa aslan benzetmesi -- tutum saglam, sozun tam metni rivayet. Ayrica: Ragip Pasa'nin kisiler.js'te hic kaydi yok, genuine eksiklik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
