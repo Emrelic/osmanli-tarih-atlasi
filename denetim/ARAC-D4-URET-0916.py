@@ -423,9 +423,11 @@ KRON = [
      "b": "Uşi Antlaşması — Libya'nın Tunus ve Cezayir sınırları Osmanlı'dan İtalya'ya geçti",
      "tur": "antlasma", "onem": 4, "dunya": 3, "kapsam": "dis", "yer_id": "",
      "etiket": ["antlasma", "sinir", "italya", "osmanli", TUN, CEZ, "konu-siyasi", "konu-diplomasi"],
-     "d": "Trablusgarp Savaşı'nı bitiren Uşi Antlaşması ile Trablusgarp ve Bingazi'deki Osmanlı idaresi sona erdi. "
+     "d": "Trablusgarp Savaşı'nı bitiren nihaî barış antlaşması 18 Ekim 1912'de Lozan yakınlarındaki Uşi'de imzalandı ve Trablusgarp ile Bingazi'deki Osmanlı idaresi sona erdi. "
+          "Aynı süreçte, Müslüman kamuoyuna yönelik olarak 15 Ekim tarihiyle düzenlenen ayrı bir padişah fermanı iki vilâyete muhtariyet verip bir saltanat nâibi ve kadı tayin etti; "
+          "bu yüzden kaynaklarda iki gün birlikte geçer. "
           "1910 sözleşmesiyle çizilip taşlarla işaretlenen Tunus ve Cezayir sınırları aynı hat üzerinde kaldı; hattın doğu yakasındaki taraf artık İtalya'ydı.",
-     "kaynak": "TDV trablusgarp-savasi ('18 Ekim'de … Uşi (Ouchy) kasabasında … nihaî bir barış antlaşması') · IBS 121 s.2 ('October 12, 1912' — TDV esas)",
+     "kaynak": "TDV trablusgarp-savasi ('18 Ekim'de … Uşi (Ouchy) kasabasında … nihaî bir barış antlaşması imzalandı' · '15 Ekim tarihli olarak düzenlenen diğer bir belgeyle … muhtariyet veren … padişah emri') · IBS 121 s.2 ('October 12, 1912' — TDV esas)",
      "sinir_id": ["d1910-libya-tunus-osmanli", "d1910-libya-cezayir-gadames-osmanli", "d1923-libya-tunus", "d1923-libya-cezayir-gadames"],
      "sinif": "E"},
     {"t": "1917-10-31", "devlet": "ingiltere", "taraflar": ["ingiltere", "misir-sultanligi"],
