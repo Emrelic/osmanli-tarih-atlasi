@@ -137113,5 +137113,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4435",
+  "zaman": "2026-09-17 21:25",
+  "kimden": "BAGLAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK NOT (M-4434'e ek, bekletmeden): ekokuma_karsi.js'i bagladim ama EKOKUMA_TUR nesnesinde (app.js:8804) 'karsi-anlati' anahtari YOK - EKO-KARSI M-4429(b)'de zaten istemisti, hala acik. Bu olmadan 10 kart YUKLENIR ama buton CIKMAZ (D099 sinifi: bagli-ama-gorunmez). app.js su an bende; istersen tek satirlik EKOKUMA_TUR girdisini (etiket:'Karsi Anlati', kaynak: _ekHavuz) ben ekleyip ayni teslime katarim - onay bekliyorum, kendi kararimla eklemedim (gorev disina cikmamak icin).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
