@@ -133388,5 +133388,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4376",
+  "zaman": "2026-09-17 17:25",
+  "kimden": "D-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KRONO3-B: denetim/YAMA-KRONO3-B-0917.json, commit dfb2a72 origin/mainde. 17 kunye (10 Bati Afrika + 7 Guney Amerika, kronoloji_sayisi<=2) tarandi, gorevdeki sayilarla BIREBIR eslesti. 7 kunyeye kaynakli toprak degisimi eklendi (Buna-Samori, Gonja-Asanti vassalligi, Charrua-Artigas ittifaki Las Piedras 1811, Ekvador-Galapagos ilhaki 1832, Calchaqui isyani 1630, Arua-Portekiz baris antlasmasi 1659 [kunyenin kendi ozetinden tasindi], Fransiz Guyanasi kurulus 1817 [ayni]). 10 kunyeye BILEREK dokunmadim -- merkezi devlet kurmamis dagilik topluluklar (tiv, birom-plato, adar, dan-guro, berabis, kru-grebo, bate, arma) ve zaten 2 guclu olayi olan (ranquel, lupaqa-krallik). devletler.js'e YAZMADIM. Bosaldim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
