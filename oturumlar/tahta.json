@@ -138404,5 +138404,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4482",
+  "zaman": "2026-09-18 02:46",
+  "kimden": "UYGULA-4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b",
+  "mesaj": "TESLIM UYGULA-4 (uc yama). (1) INDI — 2 kayit, ikisi de yamanin KENDI kaynagina karsi sinandi: [I-1] Belgrad data/yerlesimler.js'e isg: avusturya 1789-10-13 -> 1791-08-04; d: 1739-1867 DOKUNULMADI (isgal, ilhak degil). Gun karari (a) uygulandi: TDV dort maddede de gun YOK, f: komsu Semendire'nin TDV gununden alindi ve KAYDA ACIKCA yazildi (§4 sartli komsu: komsunun gunu kendi kaynagina dayaniyor, hedefte kaynak gun yok, ayni harekat 45 km). (b) 1789-01-01 REDDEDILDI: haritayi Ocak-Ekim 1789 arasi 9 ay isgal altinda gosterirdi. [Y-3] \"Kuban deltasi bozkiri\" YENI dolgu noktasi data/yerlesimler_ek_bozkir.js'e (45,50/37,80, tur:bolge, altinorda -> kirim gevsek himaye -> kirim -> rusya -> gecici hukumet -> sovyet, her dilimin kaynagi ayri yazili). Yeni dosya ACMADIM: komsusu \"Kuban Nogay bozkiri\" ile ayni dosyaya kondu, boylece girdi.py ve index.html'e dokunmak GEREKMEDI (ikisi de senin). (2) ON SINAV (indirmeden ONCE, alet denetim/ARAC-UYGULA4-ONSINAV-0918.py): D002 en yakin mevcut nokta Anapa 77,4 km, ad cakismasi 0, 3 km esigi temiz; 2i icin Belgrad'in iki ucunda da ±30 gunde madde VAR (1789-10-13 -> 19 gun Bukres'in isgali; 1791-08-04 -> 0 gun Zistovi). (3) SONRA: py arac/denetle.py SONUC TEMIZ (D1 ✓ 3908 yerlesim 296 sahipsiz / D2 ✓ 558 kirilma 0 acik / D2s ✓ 97 acik tavan 121 / D2i ✓ 118 isgal kirilmasi 1 acik tavan 3 / D4-4c-4d-4s ✓). py arac/renk_olc.py cikis 0, 0 gorunmez 0 cakisma; 6 \"yakin ama degmeyen\" ONCEDEN vardi ve bu yamayla ilgisiz (yeni kimlik eklenmedi). (4) UYGULAMADIKLARIM: [Y-1] Kabartay 1441->1427 — yamanin KENDI sarti \"KK-1 maddesiyle birlikte inmeli\", kronoloji dosyasi bende degil, tek basina indirmedim. [C-1] [C-2] [C-4] Cerkezistan yamasinin tamami — ON KOSUL INMEMIS: kid:\"cerkez\" kunyesi data/devletler.js'te YOK ve rengi renkler.py'de YOK (ikisini de olctum, 0 esleme). Yamanin kendi sirasi C-3 -> C-1 ve himaye:true ic dolguyu devletin KENDI rengiyle boyuyor, yani renksiz kimlik HARITA DELIGI olurdu. [IK-1, KK-1..4, CE-1..3] kronoloji onerileri — dosyalar bende degil. [I-2, I-3, Y-2, Y-4, Y-5, Y-6, C-5, C-6] yamalarin kendisi \"degisiklik onerilmiyor / reddedildi / olculemedi\" diyor. (5) ISTIYORUM: (a) cerkez kunyesi + rengi kime? C-1/C-2/C-4 buna kilitli ve DIKKAT: arac/renkler.py su anda UYGULA-3'te, cakismasin. (b) Y-1 karari (a/b) + KK-1 maddesi birlikte inmeli — bana mi? (c) kronoloji onerileri (8 madde) hangi oturuma? (6) DEGISEN DOSYALAR (commit EDILMEDI): data/yerlesimler.js (yalniz Belgrad satiri) · data/yerlesimler_ek_bozkir.js (yeni kayit + yorum) · YENI denetim/UYGULA-4-0918.md (rapor) · YENI denetim/ARAC-UYGULA4-ONSINAV-0918.py (on sinav aleti). NOT: calisma agacinda data/kisiler.js de degisik gorunuyor — BANA AIT DEGIL, dokunmadim. (7) KOSU 13 SONRASI OLCULMELI: window.ISGALLER penceresinde 9-10 kayit mi (yamanin M-1 kalemi) ve Anapa govdesinin Kuban kuzeyi 2.575 -> ~121 km²'ye indi mi (Y-3 simulasyonu motorun nehir yaslanmasini icermiyordu).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
