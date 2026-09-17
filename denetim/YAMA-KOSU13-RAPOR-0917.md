@@ -129,6 +129,72 @@ Haritası koşu 13'e kalan 7 gün şunlar: 1723-01-01 · 1725-01-01 · 1732-09-0
 - `ekokuma_rusiran.js` iki anahtarı da zaten taşıyor ✓
 - `yer_kron_dogu.js:86/110` (Bakü/Derbend `s:` kopyası) hiçbir aletin glob'una girmiyor; bayatlar ama geri almaz (D099)
 
+## 6b. UYGULAMA — 17 Eylül öğleden sonra (1.MURAT M-4322 · M-4328 · M-4331)
+
+**Verilen kararlar ve uygulanan biçimleri:**
+
+| # | Karar | Uygulanan |
+|---|---|---|
+| K1 | A | Derbend ve Bakü'nün Rus dönemi 1722-09-03 / 1723-08-06 → **1735-03-21** |
+| K2 | B | Ağraham burnu 1722-08-08 → **1735-08-23** |
+| K3 | Başlangıç DOKUNULMAZ (Kurukin), bitiş K1 ile aynı | Salyan: `rusya` 1723-09-23 → **1735-03-21** (ara dönemler yazılmadı) |
+| K4 | B | Nahçıvan · Ordubad · Culfa **1724-08-11** → 1730-08-12. A6C inmediği için bitiş BUGÜNKÜ gün. |
+| K5 | Emre kuralı | **Gümrü** = doğudaki Revan'ın kaynaklı penceresi (1724-10-03→1735-10-03; batıda Kars kesintisiz Osmanlı), kayda "örtülü — Emre 17 Eylül kararı · dayanak: Revan". **Meşkinşehr**: doğudaki Erdebil'in K11-B penceresi (1725-09-09→1730-08-12) ölçüldü ve kaynaklı, o günden itibaren boyandı. **Kotur BEKLER**: doğusundaki Hoy'un günü kaynaksız (K10), zincirleme devralma yasak. |
+| K6 | — | Tarku BEKLER |
+| K7 | — | Dubica DOKUNULMADI |
+| K8 | — | Brod ve Novi'de 1908 günü mevcut Bosna kayıtlarıyla aynı (**1908-10-05**); TDV'nin 10-07'si ayrı kalem |
+| K9 | — | Kliçatak ve Norapat UYGULANMADI (iki cep kalır) |
+| K10 | — | Ahar · Kotur BEKLER |
+| K11 | B | Erdebil · Halhâl · Meşkin · Sarâb · Miyâne **1725-09-09** → 1730-08-12 · madde M13 |
+
+**A6C veride İNMEMİŞTİ** (Tebriz 1725-08-04). Anchor kuralına göre BUGÜNKÜ günler kopyalandı:
+- Merend · Mîyandoab · Mahabad: 1725-08-04 → 1730-08-12
+- Urmiye · Selmâs: 1724-01-01 → 1730-08-12
+- Erdelan dörtlüsü: 1723-11-10 → 1732-01-10
+- Merâga'ya dokunulmadı; M15 yazılmadı; Merend'e ikinci pencere eklenmedi.
+
+⇒ **A6C inerken bu 10 kayıt da aynı günlerle taşınmalı.**
+
+**1DUNYA:**
+- **A #1 Lüksemburg `isg:`** uygulandı.
+- **B A1–A9** uygulandı: Erzurum · Erzincan · Trabzon · Bitlis Rus işgali (`s:` rusya → rusya-gecici-hukumet → transkafkasya) · Kût 1915–16 İngiliz · Tâif 1916-09-17 · Halep 10-26→10-27 · Bakü 1918–20 Azerbaycan · Bağdat 1921 Irak Krallığı.
+- **KARAR'da kalanlar:** A10 Batum ve A12 Tiflis (günsüz) · A11 Duala (kaynak metinden okunmadı).
+- **A #2–8:** karar / bloke, aynen kaldı.
+
+**Aletler:**
+- `denetim/ARAC-KOSU13-UYGULA-0917.py`: hedefli uygulayıcı. Kuru koşu varsayılan; eskiyi birebir doğrular; tekrar koşunca her işlemi reddeder (ölçüldü: 48 engel, 1 zararsız konum).
+- `ARAC-KOSU13-KOPYA-JSON-0917.py`: JSON üslubundaki kopyalar.
+- `ARAC-KOSU13-FARK-0917.js`: HEAD ile çalışma kopyası arasında JS'in OKUDUĞU değer düzeyinde fark.
+
+**`_sahiplik_uygula.py --yaz` KULLANILMADI.** Kuru koşusu 56 ilgisiz kaydı indirecekti. Bunların ~30'u Libya'daki bayat 1711-03-01 kopyalarıydı ve bugünkü Karamanlı 1711-07-29 düzeltmesini GERİ ALACAKTI (M-4333).
+- Yazımdan sonra kuru koşu **başlangıçla birebir aynı**: 56 kayıt, İNEN listesinde fark 0.
+- ⇒ Bu paketin yazılan 49 kaydı uygulayıcıya karşı kararlı: ne geri alınıyor, ne yeniden uygulanıyor.
+
+**🔴 Yolda yakalanan iki alet kusuru** (ikisi de düzeltildi, ikisi de doğrulandı):
+1. **Mükerrer anahtar:** `yer_yama_ferhatpasa.js` (Culfa, Urmiye) ve `yer_yama_iran.js` (Mîyandoab) kayıtlarında `{` bir satırda, `ad:` sonraki satırda duruyor. Kayıt sınırı yalnız `ad:` satırı sanıldı, mevcut `d:` görülmedi ve **ikinci bir `d:` EKLENDİ**. JS sonuncuyu okuduğu için kopya fiilen güncellenmemişti; `ARAC-FARK` "fark 0" diyerek yakaladı. Düzeltildi.
+2. **Yorum içinde eşleşme:** Düzeltme sırasında iran.js'te bir **yorumdaki** `d:[]` değiştirildi. Yorum geri alındı, alan elle yazıldı.
+
+Son durumda üç kopya da veriyle AYNI.
+
+**Denetim:**
+- **`py arac/denetle.py` → SONUÇ: temiz (çıkış 0):**
+  - D1 324/324 · 1b 0 · 1c 4/4
+  - **D2 554 kırılma / 0 açık**
+  - 2s 95 (tavan 121) · 2i 2 (tavan 3) · 2t 16 (tavan 42)
+  - 4 · 4c · 4d · 4s · 5 · 7 beklenenin altında
+  - İlk koşuda "mükerrer madde 2 çift" çıktı: Bitlis işgal↔kurtuluş ve Yenbu↔Tâif, ikisi de ayrı olay. `arac/denetle.py` BILINEN_AYRI'ya 2 çift gerekçesiyle yazıldı.
+- **`py arac/renk_olc.py` → çıkış 0:**
+  - 2 çakışma: indor↔maratha 3.7 · bharatpur-cat↔gvalyar 4.3. İkisi de **Hindistan'da**, bu pakette Hindistan kaydı yok. Paketin doğurmadığı **çıkarımdır**; taban koşusu yapılmadı.
+  - 6 yakın-ama-değmeyen · 0 görünmez · 0 aynı-hex.
+
+**Değişen dosyalar (commit EDİLMEDİ, 1.MURAT'a):**
+- **Yerleşim:** `data/yerlesimler.js` · `_ek26` · `_ek29` · `_kalite4` · `_avrupa`
+- **Kopyalar:** `data/yer_yama_zend_kacar.js` · `_kafkas_rusya` · `_ferhatpasa` · `_iran` · `_vassal_kid_0906` · `_tbmm_1920_0905` · `_manda_0906`
+- **Madde bağları:** `data/yer_yama.js` (4 satırın `t`'si)
+- **Mevcut maddeler:** `data/olaylar_ek5.js` · `_ek6` · `_ek7` · `data/kronoloji_rusya.js`
+- **YENİ:** `data/olaylar_p0917kosu13.js` (5 madde) · `data/olaylar_p0917dunya.js` (11 madde). **index.html'e iki `<script>` satırı gerekiyor.**
+- **Denetim aleti:** `arac/denetle.py` (BILINEN_AYRI +2)
+
 ## 7. Bulunamayan / yapılmayan
 
 - **BIRINCI-DUNYA yamaları:** henüz yok.
