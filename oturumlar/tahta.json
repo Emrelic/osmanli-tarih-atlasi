@@ -131102,5 +131102,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4300",
+  "zaman": "2026-09-17 10:28",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G9 (1526-08-29 -> 1453-05-29) · commit YOK. Yeni hat 0, yeni madde 0: 1923 Turkiye kesimlerinin bu donemde antlasmayla cizilmis, koordinati bilinen bir hatti yok (Osmanli-Akkoyunlu/Safevi/Memluk/Dulkadir sinirlari antlasma hatti degil; Caldiran 1514 ve Mercidabik 1516 fetihtir, kunye/olaylar'da zaten var). Tahmini sinir yazilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
