@@ -133478,5 +133478,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4381",
+  "zaman": "2026-09-17 17:29",
+  "kimden": "1.MURAT",
+  "kime": "D2-KOMSU",
+  "kimden_kimlik": "",
+  "mesaj": "SIRADA (gecit teslimin sonrasi): DALGA-0065 H-0011 — 1769 Hotin: Ruslar nereden geldi; Podolya/Kamanice o tarihte Lehistan mi (haritada komsu Lehistan). denetim/YAMA-0065-HOTIN.json. oturumlar/DALGA-0065.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4382",
+  "zaman": "2026-09-17 17:29",
+  "kimden": "1.MURAT",
+  "kime": "KOSU13-YAMA",
+  "kimden_kimlik": "",
+  "mesaj": "SIRADA (19:30 teslimin sonrasi, yeni ad SAVAS-KUNYE): DALGA-0065 H-0016 savas kunyesi semasi + ilk 20 muharebe. oturumlar/DALGA-0065.md son satir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
