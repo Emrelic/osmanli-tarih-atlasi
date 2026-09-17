@@ -1,0 +1,827 @@
+{
+ "_ne": "KUR-DENETIM (D3-AVRUPA-BATI) — Amerika · Sibirya · Okyanusya · Güney Afrika'da kur: alanı olmayan yerleşimler için kaynaklı kuruluş günleri + Okyanusya noktasızlık önerileri. 1.MURAT uygular; mevcut dosyalara YAZILMADI.",
+ "tarih": "2026-09-17",
+ "olcum": {
+  "evren": "arac/girdi.py GIRDI_DOSYALARI (82 dosya, 3859 nokta)",
+  "bolge_kutulari": "AMERIKA lon<-25 · SIBIRYA lat>48&lon>58 · OKYANUSYA (lon>110&lat<-8)|lon>150|(lon>128&lat<0) · GUNEY-AFRIKA lat<-15&10<lon<42",
+  "dort_bolgede_nokta": 1063,
+  "kursuz": 253,
+  "kursuz_bolge": {
+   "AMERIKA": 104,
+   "SIBIRYA": 74,
+   "OKYANUSYA": 71,
+   "GUNEY-AFRIKA": 4
+  },
+  "hedef_aday": 146,
+  "eleme": "Amerika'nın kursuzları büyük ölçüde sömürge öncesi kentler (İnka/Maya/Aztek, 1281'de var) ve \"Beyan\" ızgara noktaları; Okyanusya/Güney Afrika kursuzları bölge dolgu noktaları ve eski Svahili/Endonezya limanları — kur konusu DEĞİL. Avustralya/YZ sömürge kentlerinin kur: alanı ZATEN var. Gerçek hedef: Sibirya/Kazak bozkırı Rus kaleleri + Amur/Sahalin postları + Grytviken.",
+  "yan_etki": "🔴 kur eklenince bu noktalar kuruluş öncesinde Değişmez 1 sahipsiz sayımından çıkar (ilk dönemi kuruluşla başlayanlar bugün 1281-kuruluş arası sahipsiz sayılıyor olabilir) → denetle.py beklenen 314 değişebilir. 🟡 DİKKAT işaretli kayıtlar bozkır/Cungar bölge dolgusu işlevi görüyor olabilir — kur onları kuruluş öncesinden siler ve boşluk açabilir."
+ },
+ "kur_yamalari": [
+  {
+   "dosya": "data/yerlesimler_ek8.js",
+   "ad": "Mangazeya",
+   "kur": "1601-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Büyük Rus Ansiklopedisi 'Мангазея' (old.bigenc.ru/domestic_history/text/2156295, Wayback kopyası)",
+   "alinti": "рус. город в Сибири (1601–72)",
+   "mevcut_ilk_donem": "1601-01-01 rusya",
+   "en_yakin_komsu_km": 271,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "Şehir 1672'de sona erdi — kaydın bitişi ayrıca denetlenmeli (atlas 1672 sonrasını boyuyorsa)"
+  },
+  {
+   "dosya": "data/yerlesimler_ek8.js",
+   "ad": "Turuhansk",
+   "kur": "1607-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Historical Encyclopedia of Siberia (RAS SB) 'Туруханск' (bsk.nios.ru/enciklodediya/turuhansk, Wayback) · BRE 'Красноярский край'",
+   "alinti": "В 1607 ... было поставлено Туруханское зимовье",
+   "mevcut_ilk_donem": "1607-01-01 rusya",
+   "en_yakin_komsu_km": 271,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "Tarihî Turuhansk bugünkü Staroturuhansk'ta; atlas koordinatı kontrol edilmeli"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Yeniseysk",
+   "kur": "1619-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Енисейск' (old.bigenc.ru/domestic_history/text/1977750)",
+   "alinti": "Основан в 1619 тобольскими служилыми людьми",
+   "mevcut_ilk_donem": "1619-01-01 rusya",
+   "en_yakin_komsu_km": 262,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": ""
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Krasnoyarsk",
+   "kur": "1628-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Красноярск' (old.bigenc.ru/geography/text/2107402)",
+   "alinti": "Основан в 1628 воеводой А. А. Дубенским",
+   "mevcut_ilk_donem": "1628-01-01 rusya",
+   "en_yakin_komsu_km": 149,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": ""
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Essey",
+   "kur": "1628-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Krasnoyarsk Krayı İnternet Ansiklopedisi 'Поселок Ессей' (my.krskstate.ru, bölge yönetimi — ikincil; Dolgih'e dayanıyor)",
+   "alinti": "острог на месте поселка был построен в 1628 г.",
+   "mevcut_ilk_donem": "1630-01-01 rusya",
+   "en_yakin_komsu_km": 389,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "Atlas ilk dönemi 1630 — 1628'e çekilmeli; bugünkü köy sonradan gelen Essey Yakutlarının"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Bratsk ostrogu",
+   "kur": "1631-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Братск' (old.bigenc.ru/geography/text/1882329)",
+   "alinti": "В 1631 у порога Падуна на р. Ангара построен Братский острог",
+   "mevcut_ilk_donem": "1631-01-01 rusya",
+   "en_yakin_komsu_km": 232,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "Yeri 1636 ve 1654'te değişti"
+  },
+  {
+   "dosya": "data/yerlesimler_ek8.js",
+   "ad": "Jigansk",
+   "kur": "1632-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Historical Encyclopedia of Siberia 'Жиганск'",
+   "alinti": "Жиганское зимовье основано казаками в 1632 как острожек",
+   "mevcut_ilk_donem": "1632-01-01 rusya",
+   "en_yakin_komsu_km": 198,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "1714'te taşındı"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Yakutsk",
+   "kur": "1632-10-05",
+   "hassasiyet": "gun",
+   "kaynak": "BRE 'Якутск' (old.bigenc.ru/geography/text/5768359)",
+   "alinti": "Основан 25.9(5.10).1632 в 70 км ниже по течению Лены",
+   "mevcut_ilk_donem": "1632-01-01 rusya",
+   "en_yakin_komsu_km": 313,
+   "ilk_donem_uyarisi": "ilk dönem 1632-01-01 kuruluştan (1632-10-05) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "Jülyen 25 Eylül = Gregoryen 5 Ekim; yeri 1634 ve 1643'te değişti (bugünkü koordinat 1643 sonrası). Atlas ilk dönemi 1632-01-01 → 1632-10-05'e çekilmeli"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Vilyuysk",
+   "kur": "1634-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Historical Encyclopedia of Siberia 'Вилюйск'",
+   "alinti": "С 1634 – Верхневилюйское (Тюканское) зимовье",
+   "mevcut_ilk_donem": "1634-01-01 rusya",
+   "en_yakin_komsu_km": 154,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "yeri/adı değişti"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Olyokminsk",
+   "kur": "1635-07-27",
+   "hassasiyet": "gun",
+   "kaynak": "BRE 'Олёкминск' (old.bigenc.ru/geography/text/5768280)",
+   "alinti": "17(27).7.1635 ... основал Олёкминский острог",
+   "mevcut_ilk_donem": "1635-01-01 rusya",
+   "en_yakin_komsu_km": 247,
+   "ilk_donem_uyarisi": "ilk dönem 1635-01-01 kuruluştan (1635-07-27) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "Jülyen 17 Temmuz = Gregoryen 27 Temmuz; öncülü 1633 zimovyesi (14 km öte)"
+  },
+  {
+   "dosya": "data/yerlesimler_ek8.js",
+   "ad": "Verhoyansk",
+   "kur": "1638-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Верхоянск' (old.bigenc.ru/domestic_history/text/5768111)",
+   "alinti": "Основан как Верхоянское зимовье (острог) в 1638",
+   "mevcut_ilk_donem": "1638-01-01 rusya",
+   "en_yakin_komsu_km": 393,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "1775'te taşındı"
+  },
+  {
+   "dosya": "data/yerlesimler_ek8.js",
+   "ad": "Zaşiversk",
+   "kur": "1639-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Historical Encyclopedia of Siberia 'Зашиверск'",
+   "alinti": "Основан казачьим отрядом ... в 1639 как зимовье",
+   "mevcut_ilk_donem": "1639-01-01 rusya",
+   "en_yakin_komsu_km": 91,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "19. yy ikinci yarısında ortadan kalktı — bitiş denetlenmeli (kaynak gün vermiyor)"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Ohotsk",
+   "kur": "1647-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Historical Encyclopedia of Siberia 'Охотск' (Mayıs 1647) · BRE 'Хабаровский край' (Haziran 1647)",
+   "alinti": "Основан как зимовье в мае 1647",
+   "mevcut_ilk_donem": "1647-01-01 rusya",
+   "en_yakin_komsu_km": 336,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "Ay ÇELİŞKİLİ (Mayıs/Haziran) → YIL yazıldı"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Nerçinsk",
+   "kur": "1653-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Нерчинск' (old.bigenc.ru/domestic_history/text/5292416)",
+   "alinti": "Основан в 1653 ... как Шилкский острожек",
+   "mevcut_ilk_donem": "1653-01-01 rusya",
+   "en_yakin_komsu_km": 84,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "1656'da yakıldı, 1658'de başka kıyıda yeniden kuruldu"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "İrkutsk",
+   "kur": "1661-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Historical Encyclopedia of Siberia 'Иркутск'",
+   "alinti": "В 1661 ... Яковом Похабовым заложен острог",
+   "mevcut_ilk_donem": "1661-01-01 rusya",
+   "en_yakin_komsu_km": 164,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "öncülü 1652 zimovyesi; kaynak kuruluşu tartışmalı sayıyor"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Selenginsk",
+   "kur": "1665-09-27",
+   "hassasiyet": "gun",
+   "kaynak": "Historical Encyclopedia of Siberia 'Селенгинский острог'",
+   "alinti": "основан 27 сент. 1665 пятидесятником Г. Ловцовым",
+   "mevcut_ilk_donem": "1665-01-01 rusya",
+   "en_yakin_komsu_km": 103,
+   "ilk_donem_uyarisi": "ilk dönem 1665-01-01 kuruluştan (1665-09-27) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "takvim belirtilmemiş (muhtemelen Jülyen) — koordinatör YIL'a indirebilir; Eski Selenginsk yeri"
+  },
+  {
+   "dosya": "data/yerlesimler_ek8.js",
+   "ad": "Dudinka",
+   "kur": "1667-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Дудинка' (old.bigenc.ru/geography/text/1969887)",
+   "alinti": "Основан в 1667 как «ясачное зимовье»",
+   "mevcut_ilk_donem": "1667-01-01 rusya",
+   "en_yakin_komsu_km": 225,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "ilk anılma — kuruluş en geç bu yıl"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Udskoy ostrogu",
+   "kur": "1679-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Historical Encyclopedia of Siberia 'Удский острог'",
+   "alinti": "Окончательно рус. поселение здесь основано в 1679",
+   "mevcut_ilk_donem": "1679-01-01 rusya",
+   "en_yakin_komsu_km": 315,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "öncülleri 1639 ve 1653 (terk edildi)"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Yerbogaçen",
+   "kur": "1786-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "RAS Dilbilim Enstitüsü 'Siberian Lang' projesi (siberian-lang.iling-ran.ru/naselennyy-punkt/erbogachyon)",
+   "alinti": "основано то ли в 1786, то ли в 1860 году",
+   "mevcut_ilk_donem": "1668-01-01 rusya",
+   "en_yakin_komsu_km": 389,
+   "ilk_donem_uyarisi": "ilk dönem 1668-01-01 kuruluştan (1786-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "🔴 Kaynak 1786 YA DA 1860 diyor — çelişki; erken olan yazıldı, atlasın 1668'i desteklenmiyor → ilk dönem de düzeltilmeli"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Habarovka",
+   "kur": "1858-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Büyük Sovyet Ansiklopedisi 3. baskı 'Хабаровск' (booksite.ru/fulltext/1/001/008/118/041.htm)",
+   "alinti": "Основан в 1858 как военный пост Хабаровка",
+   "mevcut_ilk_donem": "1653-01-01 qing-hanedani",
+   "en_yakin_komsu_km": 382,
+   "ilk_donem_uyarisi": "ilk dönem 1653-01-01 kuruluştan (1858-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "🔴 Atlas ilk dönemi 1653 (qing) — yerleşim 1858 öncesinde yok; gün (31 Mayıs/3 Haziran 1858) okunamadı"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Blagoveşçensk",
+   "kur": "1856-06-02",
+   "hassasiyet": "gun",
+   "kaynak": "Blagoveşçensk şehir idaresi 'История' (admblag.ru/o-gorode/istoriya/) — ikincil",
+   "alinti": "1856 Образован Усть-Зейский пост. 21 мая (2 июня)",
+   "mevcut_ilk_donem": "1651-01-01 rusya",
+   "en_yakin_komsu_km": 7,
+   "ilk_donem_uyarisi": "ilk dönem 1651-01-01 kuruluştan (1856-06-02) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "Jülyen 21 Mayıs; atlas 1651 ile başlatıyor (qing/rusya) — yerleşim 1856 öncesinde yok"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Nikolayevsk (Amur ağzı)",
+   "kur": "1850-08-13",
+   "hassasiyet": "gun",
+   "kaynak": "Başkanlık Kütüphanesi (prlib.ru/history/619453)",
+   "alinti": "1 (13) августа 1850 г. ... основано ... Николаевский пост",
+   "mevcut_ilk_donem": "1689-09-06 qing-hanedani",
+   "en_yakin_komsu_km": 268,
+   "ilk_donem_uyarisi": "ilk dönem 1689-09-06 kuruluştan (1850-08-13) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "Jülyen 1 Ağustos; atlas 1689-09-06 ile başlatıyor — kuruluş değil"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "İmperator limanı",
+   "kur": "1853-05-23",
+   "hassasiyet": "gun",
+   "kaynak": "Rus Coğrafya Kurumu 'Край Невельского' (rgo.ru/ru/article/kray-nevelskogo)",
+   "alinti": "23 мая 1853 года основал лейтенант русского флота Николай Бошняк",
+   "mevcut_ilk_donem": "1653-01-01 qing-hanedani",
+   "en_yakin_komsu_km": 250,
+   "ilk_donem_uyarisi": "ilk dönem 1653-01-01 kuruluştan (1853-05-23) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "ÇELİŞKİ: arama özetleri postun 4(16) Ağustos 1853'te kurulduğunu söylüyor (okunmadı). Post 1856 baharında boşaltıldı, İngilizler yaktı — kesinti denetlenmeli. Takvim belirtilmemiş"
+  },
+  {
+   "dosya": "data/yerlesimler_ek13.js",
+   "ad": "Aleksandrovsk (Kuzey Sahalin)",
+   "kur": "1862-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Aleksandrovsk-Sahalinski ilçe yönetimi (aleks-sakh.ru) — ikincil",
+   "alinti": "В 1881 г. был основан пост Александровский",
+   "mevcut_ilk_donem": "1875-05-07 rusya",
+   "en_yakin_komsu_km": 250,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "Kaynak: 1862 köy, 1869 çiftlik, 1881 post. Atlasın 1875-05-07'si kaynakta YOK (muhtemelen St. Petersburg Antlaşması günü). Öneri kur 1862 (köy); koordinatör 1881 (post) seçebilir"
+  },
+  {
+   "dosya": "data/yerlesimler_gamerika.js",
+   "ad": "Güney Georgia (Grytviken)",
+   "kur": "1904-11-16",
+   "hassasiyet": "gun",
+   "kaynak": "Friends of South Georgia Island (fosgi.org/about-south-georgia/history/whaling/) — dernek sitesi · Güney Georgia hükümeti gov.gs (yalnız yıl)",
+   "alinti": "On 16 November 1904 a Norwegian, C. A. Larsen ... established",
+   "mevcut_ilk_donem": "1904-11-16 ingiltere",
+   "en_yakin_komsu_km": 2007,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "Gün dernek sitesinden — ZAYIF; resmî kaynak yalnız 1904 diyor"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Berezov",
+   "kur": "1593-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Yugra Devlet Kütüphanesi (okrlib.ru/history-events/5436) — ikincil",
+   "alinti": "(1593) на месте остяцкого поселения Сумгут-ваш основан город Березов",
+   "mevcut_ilk_donem": "1592-01-01 rusya",
+   "en_yakin_komsu_km": 297,
+   "ilk_donem_uyarisi": "ilk dönem 1592-01-01 kuruluştan (1593-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "Atlas ilk dönemi 1592 — 1593'e çekilmeli. Yerinde önceden Hantı köyü vardı (atlasta yerli dönemi yok)"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Surgut",
+   "kur": "1594-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Сургут' (old.bigenc.ru/geography/text/4174172)",
+   "alinti": "Заложен летом 1594 под рук. жильца В. В. Аничкова",
+   "mevcut_ilk_donem": "1592-01-01 rusya",
+   "en_yakin_komsu_km": 238,
+   "ilk_donem_uyarisi": "ilk dönem 1592-01-01 kuruluştan (1594-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": false,
+   "not": "Kaynak 'yaz 1594' → YIL. Atlas ilk dönemi 1592 — 1594'e çekilmeli"
+  },
+  {
+   "dosya": "data/yerlesimler_ek18.js",
+   "ad": "Tara",
+   "kur": "1594-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Тара' (old.bigenc.ru/geography/text/4182463)",
+   "alinti": "Основан в 1594 по наказу царя Фёдора Ивановича",
+   "mevcut_ilk_donem": "1594-01-01 rusya",
+   "en_yakin_komsu_km": 212,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": ""
+  },
+  {
+   "dosya": "data/yerlesimler_ek8.js",
+   "ad": "Obdorsk (Salehard)",
+   "kur": "1595-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Салехард' (old.bigenc.ru/geography/text/3528963)",
+   "alinti": "В 1595 ... возведён Обдорский острог",
+   "mevcut_ilk_donem": "1595-01-01 rusya",
+   "en_yakin_komsu_km": 297,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "BRE 'Обдорская земля' ikinci görüş 1596 veriyor ve ostrogun eski Ostyak başkenti yerinde kurulduğunu yazıyor — yerli öncül dönem ayrıca düşünülmeli"
+  },
+  {
+   "dosya": "data/yerlesimler_ek9.js",
+   "ad": "Tomsk",
+   "kur": "1604-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Томск' (old.bigenc.ru/geography/text/4196538)",
+   "alinti": "Основан по наказу царя ... от 25.3(4.4).1604 на землях томских татар",
+   "mevcut_ilk_donem": "1604-01-01 rusya",
+   "en_yakin_komsu_km": 190,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "4 Nisan 1604 EMİR günü, ostrog 7 Ekim 1604'te (Gregoryen) bitti → YIL yazıldı"
+  },
+  {
+   "dosya": "data/yerlesimler_ek18.js",
+   "ad": "Kuznetsk",
+   "kur": "1618-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Новокузнецк' (old.bigenc.ru/geography/text/2667811)",
+   "alinti": "в апр. – мае 1618 ... основано небольшое зимовье",
+   "mevcut_ilk_donem": "1618-01-01 rusya",
+   "en_yakin_komsu_km": 186,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "Nisan–Mayıs aralığı → YIL"
+  },
+  {
+   "dosya": "data/yerlesimler_ek18.js",
+   "ad": "Omsk",
+   "kur": "1716-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Омск' (old.bigenc.ru/geography/text/2688923)",
+   "alinti": "Основан в 1716 на левом берегу р. Омь",
+   "mevcut_ilk_donem": "1716-01-01 rusya",
+   "en_yakin_komsu_km": 223,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": "kale 1760'larda karşı kıyıya taşındı"
+  },
+  {
+   "dosya": "data/yerlesimler_ek18.js",
+   "ad": "Kainsk (Baraba)",
+   "kur": "1722-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Куйбышев' (old.bigenc.ru/geography/text/2119802)",
+   "alinti": "Основан в 1722 как воен. укрепление Каинский Пас",
+   "mevcut_ilk_donem": "1722-01-01 rusya",
+   "en_yakin_komsu_km": 20,
+   "ilk_donem_uyarisi": "",
+   "dikkat": false,
+   "not": ""
+  },
+  {
+   "dosya": "data/yerlesimler_ek18.js",
+   "ad": "Ust-Kamenogorsk",
+   "kur": "1720-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Doğu Kazakistan Devlet Arşivi (e-arhiv.vko.gov.kz/ru/Page/Index/1513) · Britannica Editors",
+   "alinti": "К устью реки Ульбы отряд Лихарева возвратился 12-17 августа 1720 года",
+   "mevcut_ilk_donem": "1635-01-01 cungar",
+   "en_yakin_komsu_km": 138,
+   "ilk_donem_uyarisi": "ilk dönem 1635-01-01 kuruluştan (1720-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": true,
+   "not": "🟡 DİKKAT: atlas ilk dönemi cungar 1635 — kur eklenirse 1720 öncesi bu nokta kalkar, Cungar bölgesinde boşluk açılabilir"
+  },
+  {
+   "dosya": "data/yerlesimler_ek18.js",
+   "ad": "Semipalatinsk",
+   "kur": "1718-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "BRE 'Семей' (bigenc.ru/c/semei-8745e2)",
+   "alinti": "заложен весной 1718 г. ... Семиполатная крепость",
+   "mevcut_ilk_donem": "1635-01-01 cungar",
+   "en_yakin_komsu_km": 161,
+   "ilk_donem_uyarisi": "ilk dönem 1635-01-01 kuruluştan (1718-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": true,
+   "not": "🟡 DİKKAT (cungar 1635 ilk dönemi, aynı risk). Kuruluş yeri bugünkünden ~16 km uzakta, 1776-78'de taşındı"
+  },
+  {
+   "dosya": "data/yerlesimler_ek18.js",
+   "ad": "Pavlodar (Koryakov)",
+   "kur": "1720-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Pavlodar Şehir Kütüphanesi PDF (cbspvl.kz) · e-history.kz — ikincil",
+   "alinti": "в 1720 году ... казаки основали форпост Коряковский",
+   "mevcut_ilk_donem": "1635-01-01 cungar",
+   "en_yakin_komsu_km": 308,
+   "ilk_donem_uyarisi": "ilk dönem 1635-01-01 kuruluştan (1720-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": true,
+   "not": "🟡 DİKKAT (cungar 1635 ilk dönemi)"
+  },
+  {
+   "dosya": "data/yerlesimler_ortaasya3.js",
+   "ad": "Petropavlovsk (Kızılcar)",
+   "kur": "1752-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Güney Ural Devlet Üniversitesi müzesi (natu.susu.ru, 'Крепость Святого Петра')",
+   "alinti": "Крепость Святого Петра была основана в 1752 году",
+   "mevcut_ilk_donem": "1281-01-01 altinorda",
+   "en_yakin_komsu_km": 177,
+   "ilk_donem_uyarisi": "ilk dönem 1281-01-01 kuruluştan (1752-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": true,
+   "not": "🟡 DİKKAT: atlas 1281'den altinorda>kazak-hanligi ile başlatıyor — nokta bozkır bölge dolgusu işlevi görüyorsa kur eklemek önce başka bir bölge noktası gerektirir"
+  },
+  {
+   "dosya": "data/yerlesimler_ortaasya3.js",
+   "ad": "Akmola (Akmolinsk)",
+   "kur": "1830-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "e-history.kz (devlet portalı — ikincil)",
+   "alinti": "Центром округа стало заложенное двумя годами ранее ... Акмолинское укрепление",
+   "mevcut_ilk_donem": "1281-01-01 altinorda",
+   "en_yakin_komsu_km": 277,
+   "ilk_donem_uyarisi": "ilk dönem 1281-01-01 kuruluştan (1830-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": true,
+   "not": "🟡 DİKKAT (bozkır dolgusu, en yakın komşu 277 km). ÇELİŞKİ: Britannica Editors 1824 diyor. Dış okrug 1832-08-22"
+  },
+  {
+   "dosya": "data/yerlesimler_ortaasya3.js",
+   "ad": "Kökçetav (Kokçetav)",
+   "kur": "1824-04-29",
+   "hassasiyet": "gun",
+   "kaynak": "Aubakirova 2021, Karaganda Üniversitesi Bülteni (hakemli), DOI 10.31489/2021HPh4/6-13 · İrkutsk Devlet Üniv. Bülteni 2022",
+   "alinti": "29 апреля этого же года — Кокчетавского",
+   "mevcut_ilk_donem": "1281-01-01 altinorda",
+   "en_yakin_komsu_km": 127,
+   "ilk_donem_uyarisi": "ilk dönem 1281-01-01 kuruluştan (1824-04-29) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": true,
+   "not": "🟡 DİKKAT (bozkır dolgusu). Takvim belirtilmemiş (muhtemelen Jülyen) — YIL'a indirilebilir"
+  },
+  {
+   "dosya": "data/yerlesimler_ortaasya3.js",
+   "ad": "Karkaralinsk (Karkaralı)",
+   "kur": "1824-04-08",
+   "hassasiyet": "gun",
+   "kaynak": "Aubakirova 2021 (hakemli)",
+   "alinti": "8 апреля 1824 г. ... Каркаралинского",
+   "mevcut_ilk_donem": "1281-01-01 altinorda",
+   "en_yakin_komsu_km": 336,
+   "ilk_donem_uyarisi": "ilk dönem 1281-01-01 kuruluştan (1824-04-08) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": true,
+   "not": "🟡 DİKKAT (bozkır dolgusu, en yakın komşu 336 km). Takvim belirtilmemiş"
+  },
+  {
+   "dosya": "data/yerlesimler_ortaasya3.js",
+   "ad": "Irgiz (Irgız)",
+   "kur": "1845-01-01",
+   "hassasiyet": "yil",
+   "kaynak": "Başkurdistan Bilimler Akademisi Bülteni 2021 (hakemli, cyberleninka)",
+   "alinti": "в 1845 г. ... Уральское -на реке Иргиз",
+   "mevcut_ilk_donem": "1281-01-01 altinorda",
+   "en_yakin_komsu_km": 158,
+   "ilk_donem_uyarisi": "ilk dönem 1281-01-01 kuruluştan (1845-01-01) ÖNCE başlıyor — dönem başı da kur'a çekilmeli",
+   "dikkat": true,
+   "not": "🟡 DİKKAT (bozkır dolgusu)"
+  }
+ ],
+ "karar_bekleyen": [
+  {
+   "ad": "Barnaul",
+   "dosya": "data/yerlesimler_ek18.js",
+   "mevcut_ilk_donem": "1635-01-01 cungar",
+   "not": "ÇELİŞKİ: 1730 (geleneksel) / 1738 (Britannica Editors) / 1739 (güncel araştırma, AKUNB) / 1744 (BRE, bakır izabe fabrikası). Atlas ilk dönemi cungar 1635 — bozkır dolgusu riski"
+  },
+  {
+   "ad": "Biysk",
+   "dosya": "data/yerlesimler_ek18.js",
+   "mevcut_ilk_donem": "1635-01-01 cungar",
+   "not": "ÇELİŞKİ: 1709 (Britannica Editors, kale) / 1708-09 ostrog, 1716 Cungarlar yıktı, 1718 Bikatun kalesi (BRE Алтайский край); Bikatun ile bugünkü yerin aynılığı kaynakta yok"
+  },
+  {
+   "ad": "Zmeinogorsk",
+   "dosya": "data/yerlesimler_ek18.js",
+   "mevcut_ilk_donem": "1635-01-01 cungar",
+   "not": "1736 maden ocağı / 1744 kale (AKUNB, ikincil) — hangisi kuruluş, koordinatör kararı"
+  },
+  {
+   "ad": "Kirensk",
+   "dosya": "data/yerlesimler_ek13.js",
+   "mevcut_ilk_donem": "1630-01-01 rusya",
+   "not": "BRE: 1640'lar pogost (on yıl — kur olarak yazılamaz) / 1681 ostrog (old.bigenc.ru/geography/text/2066485). Atlasın 1630'u desteklenmiyor. Öneri: kur 1681-01-01 (ostrog) ya da 1640'lar kararı koordinatörün"
+  },
+  {
+   "ad": "Tobolsk (İsker)",
+   "dosya": "data/yerlesimler_ek10.js",
+   "mevcut_ilk_donem": "1281-01-01 altinorda",
+   "not": "🔴 İKİ AYRI YER TEK NOKTADA: İsker (Sibir, ~1495, Tobolsk'un 16 km GD'su) ve Tobolsk (1587 ostrog, BRE). Kur yazılmadı; nokta ayrılmalı"
+  },
+  {
+   "ad": "Tümen (Çimgi-Tura)",
+   "dosya": "data/yerlesimler_ek10.js",
+   "mevcut_ilk_donem": "1281-01-01 altinorda",
+   "not": "Tatar şehri en geç 14. yy ortası (BRE) — 1281'de var olup olmadığı kaynakta yok; Rus ostrogu aynı yerde 1586-08-08. Kur yazılmadı"
+  },
+  {
+   "ad": "Ayan",
+   "dosya": "data/yerlesimler_ek13.js",
+   "mevcut_ilk_donem": "1679-01-01 rusya",
+   "not": "🔴 Atlas 1679 muhtemelen Udskoy ile karışmış; işaretçiler 1843-44 Rus-Amerikan Şirketi diyor (akademik kaynak okunamadı). Kayıt ADI kursuz listesinde yok, ayrıca bakılmalı"
+  },
+  {
+   "ad": "Hatanga",
+   "dosya": "data/yerlesimler_ek8.js",
+   "mevcut_ilk_donem": "1626-01-01 rusya",
+   "not": "bulunamadı (1626 yalnız turizm sitelerinde; bölge ansiklopedisi bugünkü yerdeki zimovyeyi 1660-70'lere koyuyor)"
+  },
+  {
+   "ad": "Bulun",
+   "dosya": "data/yerlesimler_ek8.js",
+   "mevcut_ilk_donem": "1632-01-01 rusya",
+   "not": "bulunamadı"
+  },
+  {
+   "ad": "Ust-Yansk",
+   "dosya": "data/yerlesimler_ek8.js",
+   "mevcut_ilk_donem": "1638-01-01 rusya",
+   "not": "bulunamadı — işaretçi 1780 (Sannikov), atlas 1638: ciddi çelişki"
+  },
+  {
+   "ad": "Vaygaç",
+   "dosya": "data/yerlesimler_ek8.js",
+   "mevcut_ilk_donem": "1877-01-01 rusya",
+   "not": "bulunamadı — 1877 için kaynak yok, sürekli yerleşim olduğu da doğrulanamadı"
+  },
+  {
+   "ad": "Albazin",
+   "dosya": "data/yerlesimler_ek9.js",
+   "mevcut_ilk_donem": "1651-01-01 rusya",
+   "not": "atlasın 1651'i kuruluş değil YAKILMA (Habarov Eylül 1650'de aldı, 1651'de yaktırdı); kale 1665-66 (Zabaykalye Ansiklopedisi). 1685 Qing kuşatması, 1689 Nerçinsk (27 Ağu/6 Eyl ya da 29 Ağu — ÇELİŞKİ) ile yıkım. Kur 1665 yazılabilir ama dönemler yeniden kurulmalı"
+  },
+  {
+   "ad": "Yamal ucu",
+   "dosya": "data/yerlesimler_ek8.js",
+   "mevcut_ilk_donem": "1595-01-01 rusya",
+   "not": "yerleşim değil bölge noktası — kur konusu değil"
+  }
+ ],
+ "okyanusya_nokta_onerileri": {
+  "sema": "data/yerlesimler_okyanusya.js ile aynı (Moree emsali: s: ingiltere → 1901-01-01 avustralya)",
+  "uygulanabilir": [
+   {
+    "merkez": "-28.09,150.27",
+    "ad": "Goondiwindi",
+    "tur": "sehir",
+    "lat": -28.5461,
+    "lon": 150.3097,
+    "kur": "1858-01-01",
+    "s": [
+     {
+      "f": "1858-01-01",
+      "t": "1901-01-01",
+      "d": "ingiltere"
+     },
+     {
+      "f": "1901-01-01",
+      "t": "1923-10-29",
+      "d": "avustralya"
+     }
+    ],
+    "kaynak": "Queensland Places (Queensland Üniversitesi), 'Goondiwindi' (queenslandplaces.com.au/goondiwindi): \"in 1858 a township was surveyed\" — YIL. Koordinat: Geoscience Australia Composite Gazetteer",
+    "okundu": "evet",
+    "en_yakin_mevcut": "Moree 111.4 km",
+    "uc_km_kurali": "geçti"
+   },
+   {
+    "merkez": "-36.57,148.07",
+    "ad": "Corryong",
+    "tur": "sehir",
+    "lat": -36.1954,
+    "lon": 147.9046,
+    "kur": "1879-01-01",
+    "s": [
+     {
+      "f": "1879-01-01",
+      "t": "1901-01-01",
+      "d": "ingiltere"
+     },
+     {
+      "f": "1901-01-01",
+      "t": "1923-10-29",
+      "d": "avustralya"
+     }
+    ],
+    "kaynak": "Victorian Places (Monash Üniv./Melbourne Üniv.), 'Corryong': \"In 1879 the township was surveyed.\" — YIL (çiftlik yerleşimi ~1867). Koordinat: GA Composite Gazetteer (postane)",
+    "okundu": "evet",
+    "en_yakin_mevcut": "Wagga Wagga 130.0 km",
+    "uc_km_kurali": "geçti"
+   },
+   {
+    "merkez": "-39.70,175.51",
+    "ad": "Taihape",
+    "tur": "sehir",
+    "lat": -39.678,
+    "lon": 175.797,
+    "kur": "1894-01-01",
+    "s": [
+     {
+      "f": "1894-01-01",
+      "t": "1923-10-29",
+      "d": "yeni-zelanda"
+     }
+    ],
+    "kaynak": "Heritage New Zealand, kayıt 9843 (J. Barnes-Wylie 2022): \"In September 1894, 12 colonial settlers and their families arrived\" — AY (Eylül 1894) ⇒ YIL yazıldı. Koordinat: LINZ NZGB Gazetteer (3 ondalık)",
+    "okundu": "evet",
+    "en_yakin_mevcut": "Aotearoa Māori Yerleşimi (Kuzey Adası içi) 178.9 km",
+    "uc_km_kurali": "geçti"
+   },
+   {
+    "merkez": "-16.04,144.23",
+    "ad": "Maytown (Palmer altın sahası)",
+    "tur": "sehir",
+    "lat": -16.0492,
+    "lon": 144.2878,
+    "kur": "1874-01-01",
+    "s": [
+     {
+      "f": "1874-01-01",
+      "t": "1901-01-01",
+      "d": "ingiltere"
+     },
+     {
+      "f": "1901-01-01",
+      "t": "1923-10-29",
+      "d": "avustralya"
+     }
+    ],
+    "kaynak": "Queensland Places, 'Palmer River': \"renamed Maytown by the local mining warden, Phillip Sellheim in 1874\" — kamp Eylül 1873, kasaba 1874 (YIL). Terk edilmiş maden kasabası — bitiş tarihi kaynakta yok. Koordinat: GA",
+    "okundu": "evet",
+    "en_yakin_mevcut": "Cairns 183.7 km",
+    "uc_km_kurali": "geçti"
+   },
+   {
+    "merkez": "-21.82,147.72",
+    "ad": "Mount Coolon (Koala)",
+    "tur": "sehir",
+    "lat": -21.3839,
+    "lon": 147.3414,
+    "kur": "1917-01-01",
+    "s": [
+     {
+      "f": "1917-01-01",
+      "t": "1901-01-01",
+      "d": "ingiltere"
+     },
+     {
+      "f": "1901-01-01",
+      "t": "1923-10-29",
+      "d": "avustralya"
+     }
+    ],
+    "kaynak": "Queensland Heritage Register 602242 (Barclay's Battery): \"A township called Koala (now Mount Coolon) was surveyed on Police Creek in 1917.\" — ZAYIF: QHR metni Vikipedi'deki CC-BY kopyasından okundu",
+    "okundu": "kısmen",
+    "en_yakin_mevcut": "Bowen 179.6 km",
+    "uc_km_kurali": "geçti"
+   },
+   {
+    "merkez": "-28.37,141.78",
+    "ad": "Noccundra",
+    "tur": "sehir",
+    "lat": -27.8161,
+    "lon": 142.5883,
+    "kur": "1885-01-01",
+    "s": [
+     {
+      "f": "1885-01-01",
+      "t": "1901-01-01",
+      "d": "ingiltere"
+     },
+     {
+      "f": "1901-01-01",
+      "t": "1923-10-29",
+      "d": "avustralya"
+     }
+    ],
+    "kaynak": "Queensland Heritage Register 600361 (Noccundra Hotel): \"A town reserve was created in 1885\" — ZAYIF: QHR metni CC-BY kopyadan okundu",
+    "okundu": "kısmen",
+    "en_yakin_mevcut": "Thargomindah 122.6 km",
+    "uc_km_kurali": "geçti"
+   }
+  ],
+  "dogrulama_bekleyen": [
+   {
+    "merkez": "-31.46,143.02",
+    "ad": "Wilcannia",
+    "lat": -31.5651,
+    "lon": 143.3679,
+    "not": "kuruluş 1866-06 (NSW Government Gazette 29 Haz 1866 No.127) — gazete OKUNMADI, yalnız Vikipedi atfı"
+   },
+   {
+    "merkez": "-28.56,140.24",
+    "ad": "Innamincka (Hopetoun)",
+    "lat": -27.7451,
+    "lon": 140.7393,
+    "not": "kasaba ilanı 1890-04-17 (SA Government Gazette) — OKUNMADI (austlii 403)"
+   },
+   {
+    "merkez": "-33.35,139.90",
+    "ad": "Morgan",
+    "lat": -34.0331,
+    "lon": 139.669,
+    "not": "kasaba ilanı 1878-04-25 (SA Government Gazette) — OKUNMADI"
+   },
+   {
+    "merkez": "-32.04,151.50",
+    "ad": "Gloucester",
+    "lat": -31.9984,
+    "lon": 151.9678,
+    "not": "kuruluş tarihi bulunamadı (1826 yalnız adlandırma)"
+   }
+  ],
+  "oneri_yok": [
+   {
+    "merkez": "-3.55,137.92",
+    "not": "Baliem: 1923 öncesi sömürge yerleşimi yok (vadi dış dünyaca 1938'de görüldü — yalnız Vikipedi, doğrulanmadı). Nokta YAZILMAZ; yerli yerleşim noktası için ayrı kaynak gerekir"
+   },
+   {
+    "merkez": "-1.34,132.50",
+    "not": "Vogelkop: Teminabuan'ın kuruluşu bulunamadı; en yakın 1923 öncesi karakol Sorong (~149 km, doğrulanmadı)"
+   },
+   {
+    "merkez": "-22.73,118.13",
+    "not": "Pilbara: 1923 öncesi kasaba yok; çiftlik istasyonlarının kuruluşu bulunamadı"
+   },
+   {
+    "merkez": "-19.65,121.82",
+    "not": "Eighty Mile Beach: Anna Plains istasyonunun kuruluş yılı bulunamadı"
+   }
+  ]
+ },
+ "kaynak_erisim_notu": "Büyük Rus Ansiklopedisi (bigenc.ru) bugün bre.ruwiki.ru'ya yönleniyor ve 401 veriyor; maddeler Wayback Machine kopyalarından okundu. Historical Encyclopedia of Siberia (bsk.nios.ru) 503 — Wayback. Te Ara, Britannica, austlii 403."
+}
