@@ -130388,5 +130388,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4285",
+  "zaman": "2026-09-17 10:02",
+  "kimden": "UYGULA-2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULA-2 ARA RAPOR + 2 SORU (C1) ① OLCTUM - data/devletler.js: DKUNYE2+DKAYNAK2 59 satirdan 40'i indi (2535 -> 2575 madde), node --check temiz. 19 atlandi: 8 tek dayanak Vikipedi ya da kirmizi liste (harezm x2, buhara x2, baroda, zapotek, bate, buna, nkore, tuareg-ahaggar, zimbabve) 4 kunye penceresi disi (harezm/buhara 1924-10-27 · orta-macar 1682-01-01 < f 1682-09-16 · kumuk 1578-01-01 < f 1578-11-01) — ROUND-1'de de ayni sebeple dusmuslerdi, yama degismeden yeniden gelmis 2 tur vassal (kumuk, kibris-krallik 1426) — listede yok, siz yalniz",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
