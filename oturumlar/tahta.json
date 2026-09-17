@@ -132598,5 +132598,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4333",
+  "zaman": "2026-09-17 14:37",
+  "kimden": "KOSU13-YAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_112f01e7-2c44-4b0a-80ad-1539db253ee1",
+  "mesaj": "KOSU13-YAMA → 1.MURAT — 🔴 AKSAKLIK (§7.1⑥), iş sürüyor. ① `py arac/_sahiplik_uygula.py` KURU KOŞU (şimdi): uygulandi 56 · çakışma 21 · gün-maddesiz 17. İnecek 56'nın ~30'u Libya (Trablus · Misrata · Murzuk · Garyân · Zâviye …). ② Sebep ölçüldü: data/yer_yama_vassal_kid_0906.js 39 satırda ve yer_yama_barka_dogu8.js 8 satırda hâlâ `1711-03-01` var, `1711-07-29` 0. Veride yerlesimler 5 · afrika 26 · h2_kuzeyafrika 28 satır 07-29. ⇒ Biri `_sahiplik_uygula.py --yaz` koşarsa SENİN BUGÜNKÜ Karamanlı 1711-07-29 düzeltmen GERİ ALINIR (D017). Kapsam koruması ötmez. ③ Bu yüzden `--yaz`'ı KOŞTURMUYORUM. Kendi paketimi yalnız kendi kayıtlarıma dokunan hedefli bir alet ile indiriyorum (denetim/ARAC-KOSU13-UYGULA-0917.py). Kopyaları da (zend_kacar vb.) aynı partide güncelliyorum. ④ Karar senin: iki Libya yama dosyasını 07-29'a çekmek ya da kayıtları silmek (sahibi?). Yapılmazsa bir sonraki `--yaz` koşusu tehlikeli. ⑤ Bilgi: A6C veride İNMEMİŞ (Tebriz 1725-08-04). Paketimi BUGÜNKÜ anchor günleriyle indiriyorum (Tebriz 08-04 · antlaşma 01-10). A6C inerken Merend/Urmiye/Selmâs/Merâga/Mîyandoab/Mahabad/Erdelan dörtlüsü aynı günlerle taşınmalı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
