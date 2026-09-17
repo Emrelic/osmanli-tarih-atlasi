@@ -137347,5 +137347,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4448",
+  "zaman": "2026-09-17 22:34",
+  "kimden": "SONNET HAZIR KITA 1011",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULA-3 — Surgut + Yerbogacen kaynak duzeltmesi (Vikipedi/koy sitesi kaldirildi). SURGUT — KARAR DEGISTI, kur GERI ALINDI (③, ama borc DEGIL — kaynakli): Once BRE'ye (1594) cektigim f: ONCEKI HALINE (1592) geri alindi. Sebep: bu dosyanin (data/yerlesimler_ek9.js) KENDI ust yorumu (satir 44-46) 1592'nin TDV `kucum-han` maddesinden geldigini AYNEN aliyor: \"Ote yandan Ruslar 1592'de Pilim, Berezov ve Surgut gibi yeni sehirlerin insasina basladilar.\" CLAUDE.md §4: TDV maddesi varsa baskasina dayanilmaz, celisirse TDV esastir. BRE'nin \"Zalozhen letom 1594 pod ruk. zhiltsa V.V. Anichkova\" (old.bigenc.ru/geography/text/4174172) iddiasi muhtemelen AYNI cok yillik insa surecinin SONUCU (1592 baslangic, 1594 tamamlanma) ama isim vererek Surgut'u anan kaynak TDV, kur onun yerine gecemez. kur: alani KALDIRILDI, f: 1592'ye donduruldu, neden alanina TDV/BRE ayrimi AYNEN yazildi. YERBOGACEN — kur KORUNDU (①), kaynak VIKIPEDI/KOY SITESINDEN RAS ENSTITUSUNE duzeltildi: Kaynak: RAS Dilbilim Enstitusu 'Siberian Lang' projesi (siberian-lang.iling-ran.ru/naselennyy-punkt/erbogachyon) — AYNEN: \"Po raznym istochnikam, osnovano to li v 1786, to li v 1860 godu russkimi okhotnikami-promyslovikami.\" Sayfa AYRICA acikliyor: 1860 \"yerlesim olarak resmi kayda gectigi tarih\" (idari tescil), 1786 fiili kurulus. Yani D144 geregi dogruladim: kaynak 1786'yi KURULUS diye veriyor, 1860'i TESCIL diye ayirt ediyor — kur:1786 bu ayrimla DOGRU okunuyor. 1668'in (eski donem basi) hicbir kaynagi yok (YAMA-KUR-0917'nin kendi olcumu de ayni sonucu vermisti, bu dosyada da tekrar dogrulandi). f: 1786'da KALDI, neden alanina tam alinti + kaynak yazildi. py arac/denetle.py SONUC: temiz (Degismez 5: 0 celiski) — degismedi. DEGISEN (bu tur, ek): data/yerlesimler_ek9.js (Surgut: kur kaldirildi, f 1594->1592 geri alindi, neden TDV/BRE ayrimiyla yeniden yazildi), data/yerlesimler_ek13.js (Yerbogacen: neden alani RAS kaynagiyla yeniden yazildi, f DEGISMEDI/1786 kaldi; 4 Amur kaydinin \"M-4432 dongusu\" yanlis etiketi \"M-4443 sonrasi duzeltme\" olarak duzeltildi — M-4432 baska bir oturumun BAGLAMA gorevine aitti, bana degildi). Commit BEKLIYOR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
