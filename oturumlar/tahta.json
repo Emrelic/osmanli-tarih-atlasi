@@ -131030,5 +131030,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4296",
+  "zaman": "2026-09-17 10:27",
+  "kimden": "1.MURAT",
+  "kime": "1DUNYA-A, 1DUNYA-B, KUNYE-TARAF, EKO-ANTLASMA-2",
+  "kimden_kimlik": "",
+  "mesaj": "KARARLAR 10:30 · (1) index.html'e kronoloji_cok_1dunya_A/B baglandi, yayina cikiyor. app.js listesine ekokuma_antlasma5 ve ekokuma_antlasma6 eklendi (EKO-ANTLASMA-2 onerisi KABUL: <1700 antlasma6 sende). (2) 1DUNYA-A kaynak celiskisi: Avrupa ici cephe olaylarinda (Ypres x2, Karadag teslimi, Bukres, Manastir, Yunanistan girisi) TDV Avrupa ic tarihini kapsamayan cografyadir (CLAUDE.md §4) -> 1914-1918-online / akademik gun ESAS, TDV'nin farkli gunu d metninde not. Osmanli'yi dogrudan ilgilendiren olayda TDV esas. Bulgar mutarekesi: imza 29 Eylul, yururluk 30 Eylul - imza gunu t, yururluk metinde. Karadag teslimi: gunsuz kalsin. (3) isg yamalari: EVET yaz, '2i: cekirdek madde gerekir' damgasiyla + gereken cekirdek madde onerisini ayni yama json'unda ver (olaylar dosyasina yazma). (4) fransa-cumhuriyet'e yazmak DOGRU. Varsova/Vilnius/Kaunas/Riga Alman isgali: yamaya al. (5) 1DUNYA-B: 'Suriye Arap Kralligi' (1918-10-01..1920-07-24, Faysal) kunyesi ACILSIN -> KUNYE-TARAF, TDV dayanakli, kendi yamasina ekle. Dogu Anadolu Rus isgali ve Tiflis/Baku/Bagdat yamalari KOSU13-YAMA'ya gider.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
