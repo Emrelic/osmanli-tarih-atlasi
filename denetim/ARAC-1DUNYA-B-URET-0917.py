@@ -189,7 +189,7 @@ ekle("1918-09-02", "2-5 Eylül 1918", ["kacar", "ingiltere"],
      "Osmanlı kuvvetleri Tebriz'e girdi ve İngiliz birliklerini püskürttü", "isgal", 3, 2, "Tebriz", OSM + ["iran-cephesi"],
      "16 Ağustos 1918'de Tebriz'e sevk edilen Osmanlı tümeni 2 Eylül'de şehre ulaştı ve 5 Eylül'de İngilizleri püskürttü. Ekim 1918'de az bir kuvvet bırakılarak şehirden çekilindi. Ruslar Şubat 1918'de Tebriz'den ayrılmıştı. TDV'nin \"azerbaycan\" maddesi Osmanlıların Tebriz'e girişini \"Haziran 1918\" diye veriyor; burada şehrin kendi maddesinin günü kullanıldı.",
      tdv("tebriz") + " · çelişen ay: " + tdv("azerbaycan"))
-ekle("1918-09-15", "15 Eylül 1918", ["azerbaycan-demokratik-cumhuriyeti", "ingiltere"],
+ekle("1918-09-15", "15 Eylül 1918", ["ingiltere"],
      "Kafkas İslâm Ordusu Bakü'yü aldı", "toprak-kazanc", 4, 3, "Bakü", OSM + ["kafkas-cephesi"],
      "Nûri Paşa kumandasındaki Kafkas İslâm Ordusu 15 Eylül 1918'de Bakü'yü ele geçirdi ve şehir Azerbaycan Demokratik Cumhuriyeti'nin başkenti oldu. Şehri savunan kuvvetler arasında İngiliz birlikleri de vardı. TDV \"baku\" maddesi Bakü'nün önce İngilizlerce işgal edildiğini yazıyor.",
      tdv("azerbaycan") + " · " + tdv("baku"))
@@ -225,6 +225,203 @@ ekle("1921-02-26", "26 Şubat 1921", ["kacar", "sovyet-rusya"],
      "İran-Sovyet Rusya Antlaşması", "antlasma", 3, 3, "Tebriz", [],
      "26 Şubat 1921'de İran ile Sovyet Rusya arasında bir antlaşma yapıldı. TDV'ye göre Tebriz bu antlaşmayla İran'a bırakıldı.",
      tdv("tebriz"))
+
+# ===================== PARTİ 2 — Afrika · Asya-Pasifik · Latin Amerika · dominyonlar
+AFR = ["afrika-cephesi"]
+PAS = ["asya-pasifik-cephesi"]
+LAT = ["latin-amerika"]
+DOM = ["dominyonlar"]
+DENIZ = ["deniz-savasi"]
+F17 = "FRUS 1917, Supplement 1, The World War"
+F18 = "FRUS 1918, Supplement 1, The World War, Volume I"
+
+# ---- Afrika
+ekle("1914-08-26", "26 Ağustos 1914", ["ingiltere", "fransa-cumhuriyet", "almanya"],
+     "Togo'daki Alman kuvvetleri Kamina'da teslim oldu", "isgal", 3, 3, "", AFR,
+     "İngiliz ve Fransız kuvvetleri karşısında tutunamayan Alman birlikleri Kamina kasabası önünde son kez direndi. Durumun umutsuz olduğunu gören Binbaşı von Döring kısa dalga telsiz istasyonunu tahrip ettirip 26 Ağustos 1914'te teslim oldu. Togo'daki çarpışmalar üç haftadan kısa sürdü.",
+     ol("Colonial Warfare and Occupation (Africa)"))
+ekle("1914-09-27", "27 Eylül 1914", ["ingiltere", "fransa-cumhuriyet", "almanya"],
+     "İngiliz-Fransız kuvvetleri Kamerun'da Duala'yı aldı", "isgal", 3, 3, "Duala", AFR,
+     "Tuğgeneral Dobell komutasındaki İngiliz-Fransız seferî kuvveti 27 Eylül 1914'ten itibaren kıyıdaki Duala'yı fazla direnişle karşılaşmadan ele geçirdi. Almanlar uzun sürecek bir savunma stratejisiyle iç bölgelere çekildi. Müttefikler Kamerun'daki Alman direnişini ancak Şubat 1916'da kırabildi.",
+     ol("Colonial Warfare and Occupation (Africa)"))
+ekle("1914-10-09", "9 Ekim 1914", ["guney-afrika-birligi", "almanya"],
+     "Maritz isyanı — Güney Afrikalı subay birlikleriyle Almanların yanına geçti", "isyan", 3, 2, "", AFR + DOM,
+     "Güney Afrika Birliği'nin Alman Güneybatı Afrikası'nı işgal kararına karşı çıkan Maritz, 9 Ekim 1914'te açıkça isyan etti ve en az 500 askeriyle Almanların safına geçti. 22 Ekim'de Alman birliklerinin desteğiyle Keimoes kasabasına saldırdı ama geri püskürtüldü. Güney Afrika Birliği'nin atlasta künyesi yoktur.",
+     ol("Afrikaner (Boer) Rebellion (Union of South Africa)"))
+ekle("1914-11-04", "4 Kasım 1914", ["ingiltere", "ingiliz-hindistani", "almanya"],
+     "Tanga Muharebesi — İngiliz-Hint çıkarması Doğu Afrika'da püskürtüldü", "savas", 3, 3, "Tanga", AFR,
+     "Doğu Afrika'daki ilk büyük çarpışmada General Aitken komutasındaki İngiliz-Hint \"B\" seferî kuvveti Tanga'nın üç km güneyine çıktı ve 4 Kasım 1914'te şehre ilerlemeye başladı. Taarruz Alman Schutztruppe'si karşısında başarısız oldu. Zafer, Alman komutanı Lettow-Vorbeck'in Vali Schnee karşısındaki ağırlığını pekiştirdi.",
+     ol("Tanga, Battle of"))
+ekle("1915-01-01", "Mayıs 1915 (gün kaynakta yok)", ["guney-afrika-birligi", "almanya"],
+     "Botha komutasındaki Güney Afrika kuvvetleri Windhoek'i aldı (Mayıs 1915)", "isgal", 3, 2, "Vindhuk (Windhoek)", AFR + DOM,
+     "Güney Afrika kuvvetleri Louis Botha komutasında ancak Mayıs 1915'te Windhoek'i ve telsiz istasyonunu ele geçirebildi. Almanlar ülkenin geri kalanını bir süre daha elde tuttu, ama Temmuz 1915'te teslim olmak zorunda kaldı. Kaynak yalnız ayı verdiği için tarih yıl başına yazıldı.",
+     ol("Colonial Warfare and Occupation (Africa)"))
+ekle("1916-11-06", "6 Kasım 1916", ["ingiliz-sudani"],
+     "Ali Dînâr öldürüldü — Dârfûr İngiliz Sudanı'na bağlandı", "toprak-kazanc", 3, 2, "Darfur", AFR + ["osmanli"],
+     "Savaşta Osmanlı Devleti'ne yaklaşan ve Bâbıâli ile yakın ilişki kuran Dârfûr Sultanı Ali Dînâr, Sudan hükümetinin gönderdiği kuvvetlerce 6 Kasım 1916'da öldürüldü. Bir süre sonra Dârfûr toprakları bir eyalet olarak İngiliz Sudanı'na bağlandı.",
+     tdv("darfur"))
+ekle("1916-12-01", "1 Aralık 1916", ["agadez-sultanligi", "fransa-cumhuriyet"],
+     "Senûsî ve Tevârik kuvvetleri Agadez'i Fransız işgalinden kurtardı", "isyan", 3, 2, "Agadez", AFR + ["senusiyye"],
+     "Senûsîlerin Büyük Sahra'daki mücadelesi bu dönemde en üst seviyeye çıktı. Nijer'in kuzeyindeki önemli yerel sultanlıklardan Agadez, 1 Aralık 1916 - 3 Mart 1917 arasında Fransız işgalinden kurtarıldı. Aynı gün papaz Charles de Foucauld Tevâriklerce öldürüldü.",
+     tdv("senusiyye"))
+ekle("1917-03-03", "3 Mart 1917", ["agadez-sultanligi", "fransa-cumhuriyet"],
+     "Fransız kuvvetleri Agadez'i yeniden aldı", "isgal", 3, 2, "Agadez", AFR + ["senusiyye"],
+     "TDV'ye göre Agadez'in Fransız işgalinden kurtulması 1 Aralık 1916 - 3 Mart 1917 arasında sürdü; 3 Mart 1917'de Fransız denetimi yeniden kuruldu.",
+     tdv("senusiyye"))
+ekle("1917-05-08", "8 Mayıs 1917", ["liberya", "almanya"],
+     "Liberya Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 2, "", AFR,
+     "ABD Dışişleri belge neşrinde Liberya bölümü, Almanya ile ilişkilerin 8 Mayıs 1917'de kesildiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany, May 8 (Liberya)"))
+ekle("1917-08-04", "4 Ağustos 1917", ["liberya", "almanya"],
+     "Liberya Almanya'ya savaş ilan etti", "savas", 3, 3, "", AFR,
+     "Liberya, ABD'nin savaşa girişinden dört ay sonra, 4 Ağustos 1917'de Almanya'ya savaş ilan etti.",
+     frus(F17, "Liberia's declaration of war against Germany, August 4"))
+ekle("1918-11-25", "25 Kasım 1918", ["ingiltere", "almanya"],
+     "Lettow-Vorbeck Kuzey Rodezya'da teslim oldu — Doğu Afrika'da savaş bitti", "son", 3, 3, "", AFR,
+     "Doğu Afrika'da dört yıl boyunca yakalanamayan Alman komutan Lettow-Vorbeck, Eylül 1918'de koloniye yeniden girip batıya, Kuzey Rodezya'ya yöneldi. Avrupa'daki ateşkesi öğrenince 25 Kasım 1918'de teslim oldu. Güney Afrikalı birlikler bu tarihe kadar cephede kaldı.",
+     ol("South Africa and the German East Africa Campaign (Union of South Africa)"))
+
+# ---- Asya-Pasifik ve denizler
+ekle("1914-08-23", "23 Ağustos 1914", ["almanya"],
+     "Japonya Almanya'ya savaş ilan etti", "savas", 4, 4, "", PAS,
+     "Almanya'nın cevapsız bıraktığı ültimatomun ardından Japonya 23 Ağustos 1914'te Almanya'ya savaş ilan etti ve Tsingtao'daki Alman üssünü almak üzere asker gönderdi.",
+     tdv("japonya") + " · " + ol("Qingdao, Siege of/German-Japanese War"))
+ekle("1914-08-29", "29 Ağustos 1914", ["yeni-zelanda", "almanya"],
+     "Yeni Zelanda kuvvetleri Alman Samoası'nı direnişsiz aldı", "isgal", 3, 2, "", PAS + DOM,
+     "İngiltere'nin çağrısıyla aceleyle toplanan 1.374 kişilik Yeni Zelanda seferî kuvveti 29 Ağustos 1914'te Apia'ya çıktı ve Alman Samoası'nın teslimini kabul etti. Samoa, Togo'dan sonra müttefiklere geçen ikinci Alman sömürgesiydi.",
+     ol("Pacific Islands") + " · " + ol("Warfare 1914-1918 (New Zealand)"))
+ekle("1914-10-03", "3 Ekim 1914", ["meiji-japonya", "almanya"],
+     "Japon donanması Jaluit'i işgal etti — Alman Mikronezyası'nın işgali başladı", "isgal", 3, 3, "", PAS,
+     "Japon deniz kurmay başkanlığı 3 Ekim 1914'te \"geçici\" işgal emrini verdi ve Amiral Yamaya aynı gün Marshall Adaları'nda Jaluit'i işgal etti. 12 Ekim'e kadar Doğu Karolin adalarından Kusaie, Ponape ve Truk alındı. Aynı dönemde ikinci filo Yap ile Palau'yu denetime aldı.",
+     ol("Micronesia"))
+ekle("1914-10-14", "14 Ekim 1914", ["meiji-japonya", "almanya"],
+     "Saipan'ın alınmasıyla Alman Mikronezyası'nın Japon işgali tamamlandı", "isgal", 2, 2, "", PAS,
+     "Japon kuvvetleri 14 Ekim 1914'te Mariana Adaları'ndaki Saipan'ı aldı ve böylece Alman Mikronezyası'nın işgali tamamlandı.",
+     ol("Micronesia"))
+ekle("1914-11-01", "1 Kasım 1914", ["ingiltere", "almanya"],
+     "Coronel Deniz Muharebesi — Alman Doğu Asya filosu İngiliz filosunu yendi", "savas", 3, 3, "", DENIZ,
+     "Alman Doğu Asya Kruvazör Filosu 1 Kasım 1914'te Şili'deki Coronel limanı açıklarında İngiliz 4. Kruvazör Filosu'nu yendi. 1.700'den fazla İngiliz denizci öldü; Alman tarafında üç yaralı vardı.",
+     ol("Coronel, Battle of"))
+ekle("1914-11-07", "7 Kasım 1914", ["meiji-japonya", "almanya"],
+     "Tsingtao'daki Alman garnizonu Japonlara teslim oldu", "isgal", 4, 3, "Qingdao (Tsingtau)", PAS,
+     "Japon ordusu Şantung'daki Kiaochow körfezinde Tsingtao'yu kuşattı ve ağustos sonunda yarımadayı iç bölgeden kesti. Son taarruz 29 Ekim'de başladı. Topçusunun çoğunu yitiren ve ikmali tükenen Alman garnizonu 7 Kasım 1914'te teslim oldu.",
+     ol("Qingdao, Siege of/German-Japanese War"))
+ekle("1914-11-09", "9 Kasım 1914", ["avustralya", "almanya"],
+     "Avustralya kruvazörü Sydney, Emden'i Cocos Adaları'nda imha etti", "savas", 3, 2, "", DENIZ + DOM,
+     "Alman kruvazörü Emden 9 Kasım 1914'te Direction Adası'ndaki haberleşme istasyonunu tahrip etmek üzere Cocos Takımadaları'na geldi. Orada Avustralya kruvazörü HMAS Sydney tarafından sıkıştırılıp imha edildi. Çıkarma birliği kabloları kesip telsiz istasyonunu yok etti ve bir yelkenliyle kaçarak Haziran 1915'te Almanya'ya ulaştı.",
+     ol("Emden, SMS"))
+ekle("1914-12-08", "8 Aralık 1914", ["ingiltere", "almanya"],
+     "Falkland Deniz Muharebesi — von Spee filosu batırıldı", "savas", 3, 3, "", DENIZ,
+     "Amiral Sturdee komutasındaki İngiliz filosu 8 Aralık 1914'te Falkland Adaları açıklarında Amiral von Spee'nin Alman filosunu yendi. Günün sonunda Alman gemilerinden biri dışında hepsi batırılmıştı.",
+     ol("Falklands, Battle of the"))
+ekle("1915-01-18", "18 Ocak 1915", ["meiji-japonya", "cin-cumhuriyeti"],
+     "Japonya Yuan Shikai'ye \"Yirmi Bir Talep\"i sundu", "antlasma", 4, 3, "", PAS,
+     "Japonya 18 Ocak 1915'te Cumhurbaşkanı Yuan Shikai'ye ekonomik, toprak, diplomatik ve siyasî nüfuz öngören gruplara ayrılmış \"Yirmi Bir Talep\"i sundu. Talepler bütünüyle kabul edilseydi Çin fiilen Japonya'nın vasalı konumuna düşecekti.",
+     ol("China"))
+ekle("1915-05-25", "25 Mayıs 1915", ["meiji-japonya", "cin-cumhuriyeti"],
+     "Çin, Yirmi Bir Talep'e dayanan antlaşmaları imzaladı", "antlasma", 4, 3, "", PAS,
+     "Japon elçisi Hioki 7 Mayıs 1915'te beşinci grup dışındaki bütün taleplerin kabulünü isteyen bir ültimatom verdi. Yuan Shikai ültimatomu ertesi gün kabul etti ve Çin 25 Mayıs'ta anlaşmayı imzaladı.",
+     ol("China"))
+ekle("1917-03-14", "14 Mart 1917", ["cin-cumhuriyeti", "almanya"],
+     "Çin Almanya ile diplomatik ilişkilerini kesti", "savas", 3, 2, "", PAS,
+     "ABD Dışişleri belge neşri, Çin'in Almanya ile ilişkilerini 14 Mart 1917'de kestiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany by China, March 14"))
+ekle("1917-07-22", "22 Temmuz 1917", ["siyam-chakri", "almanya", "habsburg"],
+     "Siyam Almanya ve Avusturya-Macaristan'a savaş ilan etti", "savas", 3, 3, "", PAS,
+     "Kral Vajiravudh 22 Temmuz 1917'de Almanya ve Avusturya-Macaristan'a savaş ilan etti. ABD'nin Nisan 1917'de savaşa girip tarafsız ülkeleri kendi safına çağırması üzerine Siyam bu fırsatla kendini modern bir devlet olarak göstermek istedi. Müttefiklerin artan baskısı da etkiliydi. Ertesi yıl 1.284 gönüllüden oluşan bir seferî kuvvet Fransa'ya gönderildi.",
+     ol("Siam"))
+ekle("1917-08-14", "14 Ağustos 1917", ["cin-cumhuriyeti", "almanya"],
+     "Çin Almanya'ya savaş ilan etti", "savas", 4, 3, "", PAS,
+     "Çin Cumhuriyeti, ilişkileri kesmesinden beş ay sonra, 14 Ağustos 1917'de savaş ilan etti.",
+     frus(F17, "Declaration of war by China, August 14"))
+
+# ---- Latin Amerika (FRUS bölüm başlıkları — günler başlıklarda)
+ekle("1917-04-07", "7 Nisan 1917", ["kuba-cumhuriyeti", "almanya"],
+     "Küba Almanya'ya savaş ilan etti", "savas", 3, 3, "", LAT,
+     "Küba, ABD'nin Almanya'ya savaş ilanının ertesi günü, 7 Nisan 1917'de Almanya'ya savaş ilan etti.",
+     frus(F17, "Declaration of war with Germany by Cuba, April 7"))
+ekle("1917-04-07", "7 Nisan 1917", ["panama-cumhuriyeti", "almanya"],
+     "Panama Almanya ile ilişkilerini kesti ve ABD'nin yanında yer aldı", "savas", 3, 3, "", LAT,
+     "ABD Dışişleri belge neşri, Panama'nın Almanya ile ilişkilerini 7 Nisan 1917'de kestiğini kaydediyor. Panama Avusturya-Macaristan'a 10 Aralık 1917'de savaş ilan etti.",
+     frus(F17, "Severance of relations with Germany by Panama, April 7"))
+ekle("1917-04-11", "11 Nisan 1917", ["brezilya-cumhuriyeti", "almanya"],
+     "Brezilya Almanya ile diplomatik ilişkilerini kesti", "savas", 3, 2, "", LAT,
+     "ABD Dışişleri belge neşri, Brezilya'nın Almanya ile ilişkilerini 11 Nisan 1917'de kestiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany by Brazil, April 11"))
+ekle("1917-04-13", "13 Nisan 1917", ["bolivya-cumhuriyeti", "almanya"],
+     "Bolivya Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 2, "", LAT,
+     "ABD Dışişleri belge neşri, Bolivya'nın Almanya ile ilişkilerini 13 Nisan 1917'de kestiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany by Bolivia, April 13"))
+ekle("1917-04-27", "27 Nisan 1917", ["guatemala", "almanya"],
+     "Guatemala Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 2, "", LAT,
+     "ABD Dışişleri belge neşri, Guatemala'nın Almanya ile ilişkilerini 27 Nisan 1917'de kestiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany by Guatemala, April 27"))
+ekle("1917-05-17", "17 Mayıs 1917", ["honduras", "almanya"],
+     "Honduras Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 1, "", LAT,
+     "ABD Dışişleri belge neşri, Honduras'ın Almanya ile ilişkilerini 17 Mayıs 1917'de kestiğini kaydediyor. Honduras'ın atlasta künyesi yoktur.",
+     frus(F17, "Severance of relations with Germany by Honduras May 17; by Nicaragua, May 19"))
+ekle("1917-05-19", "19 Mayıs 1917", ["nikaragua", "almanya"],
+     "Nikaragua Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 1, "", LAT,
+     "ABD Dışişleri belge neşri, Nikaragua'nın Almanya ile ilişkilerini 19 Mayıs 1917'de kestiğini kaydediyor. Nikaragua'nın atlasta künyesi yoktur.",
+     frus(F17, "Severance of relations with Germany by Honduras May 17; by Nicaragua, May 19"))
+ekle("1917-06-17", "17 Haziran 1917", ["haiti", "almanya"],
+     "Haiti Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 1, "", LAT,
+     "ABD Dışişleri belge neşri, Haiti'nin Almanya ile ilişkilerini 17 Haziran 1917'de kestiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany by Haiti, June 17"))
+ekle("1917-10-06", "6 Ekim 1917", ["peru-cumhuriyeti", "almanya"],
+     "Peru Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 2, "", LAT,
+     "ABD Dışişleri belge neşri, Peru'nun Almanya ile ilişkilerini 6 Ekim 1917'de kestiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany by Peru, October 6; by Uruguay, October 7"))
+ekle("1917-10-07", "7 Ekim 1917", ["uruguay-cumhuriyeti", "almanya"],
+     "Uruguay Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 2, "", LAT,
+     "ABD Dışişleri belge neşri, Uruguay'ın Almanya ile ilişkilerini 7 Ekim 1917'de kestiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany by Peru, October 6; by Uruguay, October 7"))
+ekle("1917-10-26", "26 Ekim 1917", ["brezilya-cumhuriyeti", "almanya"],
+     "Brezilya ile Almanya arasında savaş hali ilan edildi", "savas", 4, 3, "", LAT,
+     "Brezilya, ilişkileri kesmesinden altı ay sonra, 26 Ekim 1917'de Almanya ile savaş halinde olduğunu ilan etti. Brezilya savaşa giren tek Güney Amerika ülkesiydi.",
+     frus(F17, "Declaration of a state of war between Brazil and Germany, October 26"))
+ekle("1917-12-07", "7 Aralık 1917", ["ekvador-cumhuriyeti", "almanya"],
+     "Ekvador Almanya ile diplomatik ilişkilerini kesti", "savas", 2, 1, "", LAT,
+     "ABD Dışişleri belge neşri, Ekvador'un Almanya ile ilişkilerini 7 Aralık 1917'de kestiğini kaydediyor.",
+     frus(F17, "Severance of relations with Germany by Ecuador, December 7"))
+ekle("1917-12-10", "10 Aralık 1917", ["panama-cumhuriyeti", "habsburg"],
+     "Panama Avusturya-Macaristan'a savaş ilan etti", "savas", 2, 2, "", LAT,
+     "Panama 10 Aralık 1917'de Avusturya-Macaristan'a savaş ilan etti; Küba aynı adımı 16 Aralık'ta attı.",
+     frus(F17, "Declaration of war on Austria-Hungary by Panama, December 10; by Cuba, December 16"))
+ekle("1917-12-16", "16 Aralık 1917", ["kuba-cumhuriyeti", "habsburg"],
+     "Küba Avusturya-Macaristan'a savaş ilan etti", "savas", 2, 2, "", LAT,
+     "Küba 16 Aralık 1917'de Avusturya-Macaristan'a savaş ilan etti.",
+     frus(F17, "Declaration of war on Austria-Hungary by Panama, December 10; by Cuba, December 16"))
+ekle("1918-04-21", "21 Nisan 1918", ["guatemala", "almanya"],
+     "Guatemala Almanya ile savaş halinde olduğunu ilan etti", "savas", 2, 2, "", LAT,
+     "Guatemala 21 Nisan 1918'de Almanya ile savaş halini ilan etti; onu 8 Mayıs'ta Nikaragua, 23 Mayıs'ta Kosta Rika izledi.",
+     frus(F18, "Declaration of a state of war with Germany by Guatemala, April 21, Nicaragua, May 8, and Costa Rica, May 23"))
+ekle("1918-05-08", "8 Mayıs 1918", ["nikaragua", "almanya"],
+     "Nikaragua Almanya ile savaş halinde olduğunu ilan etti", "savas", 2, 1, "", LAT,
+     "Nikaragua 8 Mayıs 1918'de Almanya ile savaş halini ilan etti. Nikaragua'nın atlasta künyesi yoktur.",
+     frus(F18, "Declaration of a state of war with Germany by Guatemala, April 21, Nicaragua, May 8, and Costa Rica, May 23"))
+ekle("1918-05-23", "23 Mayıs 1918", ["kosta-rika", "almanya"],
+     "Kosta Rika Almanya ile savaş halinde olduğunu ilan etti", "savas", 2, 1, "", LAT,
+     "Kosta Rika 23 Mayıs 1918'de Almanya ile savaş halini ilan etti. Kosta Rika'nın atlasta künyesi yoktur.",
+     frus(F18, "Declaration of a state of war with Germany by Guatemala, April 21, Nicaragua, May 8, and Costa Rica, May 23"))
+ekle("1918-07-12", "12 Temmuz 1918", ["haiti", "almanya"],
+     "Haiti Almanya ile savaş halinde olduğunu ilan etti", "savas", 2, 2, "", LAT,
+     "ABD işgali altındaki Haiti 12 Temmuz 1918'de Almanya ile savaş halini ilan etti; onu 19 Temmuz'da Honduras izledi.",
+     frus(F18, "Declaration of a state of war with Germany by Haiti, July 12, and by Honduras, July 19"))
+ekle("1918-07-19", "19 Temmuz 1918", ["honduras", "almanya"],
+     "Honduras Almanya ile savaş halinde olduğunu ilan etti", "savas", 2, 1, "", LAT,
+     "Honduras 19 Temmuz 1918'de Almanya ile savaş halini ilan etti. Honduras'ın atlasta künyesi yoktur.",
+     frus(F18, "Declaration of a state of war with Germany by Haiti, July 12, and by Honduras, July 19"))
+
+# ---- dominyonlar
+ekle("1914-08-04", "Ağustos 1914 (İngiltere'nin ilan günü: 4 Ağustos)", ["kanada"],
+     "Kanada, İngiltere'nin savaş ilanıyla kendiliğinden savaşa girdi", "savas", 4, 3, "", DOM,
+     "Kanada Dominyonu, İngiltere Ağustos 1914'te savaşa girdiği anda kendiliğinden savaş haline geçti; ayrı bir savaş ilanı yapmadı. İngiltere'nin Almanya'ya savaş ilanı 4 Ağustos 1914'tür (TDV).",
+     ol("Canada") + " · gün: " + TDV_BDS)
+ekle("1917-04-09", "9-12 Nisan 1917", ["kanada"],
+     "Vimy Sırtı Muharebesi — Kanada kolordusu sırtı aldı", "savas", 4, 3, "", DOM,
+     "Vimy Sırtı Muharebesi'nin ilk günü, 9 Nisan 1917, Kanada askerî tarihinin tek günde en kanlı günü oldu: 2.500'den fazla ölü. Sırtın alınması müttefik basınında büyük övgüyle karşılandı.",
+     ol("Canada"))
 
 # ---- üretim ----------------------------------------------------------------
 def madde(m):
