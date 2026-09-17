@@ -137257,5 +137257,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4443",
+  "zaman": "2026-09-17 22:06",
+  "kimden": "SONNET HAZIR KITA 1011",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULA-3 — Degismez 5 duzeltmesi (6/6 karar verildi, kaynak akademik arastirmayla, atlasin kendi kaydina DAYANILMADI). (a) KUR UYGULANDI, DONEM BASI KUR'A CEKILDI: - Surgut (data/yerlesimler_ek9.js): f 1592->1594. Kanit: ru.wikipedia \"Istoriya Surguta\" — 19 Subat 1594 ferman (Car Fyodor Ioannovich), kale yaz sonunda insa edildi; Surgut Tumen(1586)/Tobolsk(1587)/Berezov(1593)'den SONRA kurulan ilk Rus sehirlerinden — 1592'nin bu noktaya ozgu bagimsiz dayanagi yok, jenerik bolge yer tutucusuydu. - Yerbogacen (data/yerlesimler_ek13.js): f 1668->1786. Kanit: ru.wikipedia \"Erbogachyon\" + koyun kendi tarihi (erbogachen.jimdofree.com) BAGIMSIZ olarak 1786'da Rus avci-tuzakcilar tarafindan kurulusu dogruluyor; 1668 HICBIR kaynakta gecmiyor (YAMA-KUR-0917'nin kendi olcumu de ayni sonucu vermisti). (b) KUR GERI ALINDI (erken donem KAYNAKLI, atlasa YAZILMADI): - Nikolayevsk (Amur agzi): kur:1850-08-13 kaldirildi. Erken donem (1689 qing) Nercinsk Antlasmasi'nin (6 Eylul 1689) Amur havzasini Qing sinirina birakmasina VE Ningguta askeri-idari merkezinin (Haziran 1653 kuruldu, resmi yetkisi Heilongjiang/Amur havzasini kapsiyor — Wikipedia \"Ning'an\" + Harvard Elliott \"Limits of Tartary\") dayaniyor. - Blagovescensk: kur:1856-06-02 kaldirildi. Erken donem (1651 rusya = Albazin/Amur voyvodaligi, belgeli Kazak seferi; 1689 qing = ayni Nercinsk gecisi) gercek tarihi olaylara dayaniyor. - Habarovka: kur:1858-01-01 kaldirildi. Erken donem (1653 qing) Ningguta garnizonunun ayni belgeli kurulusuna dayaniyor. - Imperator limani: kur:1853-05-23 kaldirildi. Habarovka ile AYNI Ningguta temeli (1653 qing). Dorduncu (b) grubunun ortak notu: Nercinsk'in doguda (Uda nehri/Okhotsk Denizi) siniri belirsizdi (\"neither side had very exact knowledge\" — en.wikipedia Treaty of Nerchinsk) ama bu BELIRSIZLIK cizgiyi SILMIYOR — donemin akademik konsensusu (Kangxi/Qing haritaciligi, Ningguta'nin havza-genisligindeki yetkisi) Amur havzasinin agzina kadar Qing'in nominal/tabi sistemine birakildigini gosteriyor; yani erken donem UYDURMA degil, KAYNAKLI — kur onun yerine gecemez, ikisi FARKLI SEYLERI (bolgesel egemenlik vs. spesifik yerlesimin kurulusu) anlatiyor. Hicbiri (c) cikmadi. DOGRULAMA: py arac/denetle.py SONUC: temiz (Degismez 5: 0 celiski). Diger butun degismezler ONCEKI teslimimde zaten temizdi, bu turda sadece 6 nokta duzeltildi. DEGISEN: data/yerlesimler_ek9.js (Surgut f: + neden), data/yerlesimler_ek13.js (Yerbogacen f:+neden, Nikolayevsk/Blagovescensk/Habarovka/Imperator limani kur: geri alindi + neden'e gerekce eklendi). Commit BEKLIYOR (1.MURAT) — hicbir dosyayi commit ETMEDIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
