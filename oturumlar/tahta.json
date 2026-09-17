@@ -136987,5 +136987,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4428",
+  "zaman": "2026-09-17 21:06",
+  "kimden": "KARADENIZ-KAFKAS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KARADENIZ-KAFKAS (0066 H-0012/H-0022) · denetim/YAMA-KARADENIZ-0917.json · commit 94530e9 · veriye YAZILMADI. (1) OLCTUM: 10 TDV maddesi govdesiyle okundu (kabartaylar, cerkezler, anapa, kucuk-kaynarca-antlasmasi, kafkasya, sahin-giray, yas-antlasmasi, kirim, nogaylar, abazalar); 9 slug 302. H-0012: Kaynarca sonrasi Rusya TDV ile UYUMLU (md.21 + kabartaylar). Kabartay 1281-1923 tablosu 12 satir. Y-1 KARAR: altinorda->kabartay kirilmasi 1441 = Kirim'in kurulus yili, Kabartay kaynagi yok; oneri (a) 1427 (TDV cerkezler: Yinal 1427-1456 birlestirdi), (b) 1502-03-01. Y-4: Mozdok noktasi olculdu, 24.080 km2 aliyor (Kabartay 8.654, Kizlar 6.164, Vladikavkaz 5.960) -> REDDEDILDI, yalniz kronoloji. H-0022: Anapa taban peteginin 3.075/7.211 km2'si (%43) Kuban'in KUZEYINDE; TDV Kuban'i 1783 sonrasi sinir sayiyor -> gorseldeki govde yanlis. Y-3: yeni dolgu 'Kuban deltasi bozkiri' 45,50/37,80 (zaman cizgisi Kuban Nogay bozkiri ile birebir); simulasyonda Anapa nehir kuzeyi 2.575->121 km2, yan etki Azak+Taganrog'dan ~1.050 km2 (kaynak yonunde). Y-2: Taman icin TAMAN-1774 (M-3959) kararina yeni TDV delili (sahin-giray: 1775 'Taman'daki Osmanli kaleleri', 1777 Taman kabileleri Sahin'i han tanidi). Y-6: Anapa f:1781 icin TDV kendi icinde celisik (anapa <1783, cerkezler >1784), degisiklik yok. Kronoloji: KK-1 1427 Yinal · KK-2 1563 Terek kalesi · KK-3 1763 Mozdok · KK-4 1783-04-19 mevcut maddeye ek cumle. (2) BULUNAMADI: Sogucak'in Osmanli baslangic tarihi (nokta yazilamaz) · Kabartay'in Osmanli himayesi yillari · Taman garnizonunun cekilis gunu · 1917-18 Kabartay kimligi (kunye yok) · Acu/Temruk koordinati. Simulasyon motorun nehir yaslanmasini icermiyor; kesin sonuc kosudan sonra olculmeli. (3) ISTIYORUM: Y-1 icin a/b karari (onerim a); Y-3'un hangi dosyaya inecegi. Degisen data/ dosyasi YOK, CLAUDE.md'ye dokunmadim. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
