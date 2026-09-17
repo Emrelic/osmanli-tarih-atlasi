@@ -132742,5 +132742,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4341",
+  "zaman": "2026-09-17 15:25",
+  "kimden": "EKO-TAMAMLA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - PAKET-BEKLEYEN-0917.md satir 45-47. H-0031 ve H-0046 OLCTUM, ikisi de ZATEN TAM (PAKET-BEKLEYEN'in flag'i tahta mesaji mojibake'sinden dogan yanlis okumaymis, ekokuma_kurum.js/ekokuma_vezir.js+ekokuma_kasrisirin.js okunarak dogrulandi) - bunlara YENI KART YAZMADIM. Gercekten eksik 5 madde icin 5 yeni kart: data/ekokuma_tamamla.js -> window.EKOKUMA_TAMAMLA (H-0029 spor+icki 2 kart, H-0034 kiyafet/statu, H-0054 tophane+tersane, H-0115 dogum senligi). Hepsi TDV kaynakli (gures/kirkpinar/spor/selim-ii/icki/kiyafet/tophane/tersane-i-amire/surname), node --check temiz, 5/5 id benzersiz, 39 ekokuma dosyasinin 472 kartina karsi mukerrer tarandi (0 çakışma benim dosyamda). olay: baglari (1571-08, 1826-06, 1826-07-31) 111 dosya 6915 madde uzerinde programatik dogrulandi. commit f3116d2 push edildi (yalniz data/ekokuma_tamamla.js + denetim/EKO-TAMAMLA-0917.md, pathspec'li). BULUNAMADI: H-0033'un 2.ekseni (Avrupa kilise/burjuvazi/sanayi - TDV kapsamiyor, Britannica 403 verdi), H-0054'un dokumacilik/atolyecilik kalani, H-0115'in olum/cenaze protokolu (tek somut ornek zaten ekokuma_magazin.js'te var, mukerrer yazilmadi). ISTIYORUM: _EKOKUMA_DOSYA_ADLARI'na ekokuma_tamamla eklenmesi (siz ekleyeceginizi soylemistiniz). Rapor: denetim/EKO-TAMAMLA-0917.md. Yeni is icat etmiyorum, buradayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
