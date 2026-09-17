@@ -131758,7 +131758,12 @@
   },
   "yanit_no": "M-4286",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "KOSU13-YAMA": {
+    "zaman": "2026-09-17 14:35",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
