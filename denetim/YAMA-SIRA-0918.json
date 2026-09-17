@@ -1,0 +1,77 @@
+{
+  "yama": "YAMA-SIRA-0918",
+  "yazan": "SAVAS-ANLATI (OPUS HAZIR KITA 1014)",
+  "tarih": "2026-09-18",
+  "sartname": "oturumlar/DALGA-0068.md · B tablosu · H-0004 (gun ici sira)",
+  "uygulayan": "1.MURAT (js/app.js BAGLAMA'da, data/olaylar*.js koordinatorde)",
+
+  "olcum": {
+    "ekrandaki_madde": 1503,
+    "benzersiz_gun": 1401,
+    "iki_artik_maddeli_gun": 85,
+    "bu_gunlerdeki_madde": 187,
+    "grup_boyutu_dagilimi": { "2": 71, "3": 11, "4": 3 },
+    "uyeleri_FARKLI_dosyalardan_gelen_grup": 77,
+    "o_gruplardaki_madde": 169,
+    "sira_alani": "YOK — kronolojide kullanilan 33 alan tarandi (t b k gun yer kisiler d kaynak etiket kesinlik onem ... ), sira/order/saat benzeri alan YOK",
+    "olcum_araci": "app.js sıralamasinin birebir kopyasi (gunIdx + gunMetniIdx + olaylarAnahtarSiraNo + kararli sort)"
+  },
+
+  "kok_sebep": {
+    "mekanizma": "js/app.js:5300-5311 — maddeler once `gi` (gun indeksi) ile siralanir; JS sort KARARLI oldugu icin ayni `gi`li maddelerin sirasi DIZIYE GIRIS SIRASIDIR. Giris sirasi da `olaylarAnahtarSiraNo` ile belirlenir: OLAYLAR=0, OLAYLAR_EK=1, _EK7=7, _EK17=17, oteki anahtarlar 999 (ad alfabetik).",
+    "sonuc": "Ayni gunun ic sirasi TARIHSEL degil, maddenin HANGI DOSYADA oldugu ile belirleniyor. 77 grup (169 madde) uyelerini farkli dosyalardan aliyor ⇒ bu gruplarin sirasi veri disi bir artefakt.",
+    "gorunurluk": "js/app.js:5328 ayni gune `_agSira` verir, 5384-5386 bunu ①②③ ROZETI olarak basar ve 8057 'Bu gunde N olay var — k/N' seridini yazar ⇒ yanlis sira kullaniciya NUMARALI olarak gosteriliyor."
+  },
+
+  "vaka_H0004": {
+    "dogru_sira_Emre": ["Ozi'nin dusuu", "I. Abdulhamid'in olumu", "III. Selim'in culusu", "Nizam-i Cedid"],
+    "ekrandaki_mevcut_sira": [
+      { "sira": 956, "t": "1788-12-17", "kaynak_dosya_anahtari": "OLAYLAR_EK", "b": "Ozi'nin dusuu" },
+      { "sira": 957, "t": "1789-04", "gun": "7 Nisan 1789", "kaynak_dosya_anahtari": "OLAYLAR", "b": "III. Selim ve Nizam-i Cedid" },
+      { "sira": 958, "t": "1789-04-07", "kaynak_dosya_anahtari": "OLAYLAR_EK7", "b": "III. Selim tahta cikti" },
+      { "sira": 959, "t": "1789-04-07", "kaynak_dosya_anahtari": "OLAYLAR_EK17", "b": "I. Abdulhamid Ozi'nin dusuu haberini okurken felc gecirip oldu" }
+    ],
+    "teshis": "Ozi (1788-12-17) zaten dogru yerde. Bozuk olan yalniz 7 Nisan 1789'un UC maddesi ve sira TAM TERS: once reform, sonra culus, en sonda olum. Sebep dosya anahtari sirasi (OLAYLAR=0 < EK7=7 < EK17=17), tarihsel mantik degil.",
+    "ek_bulgu_1": "OLAYLAR'daki 'III. Selim ve Nizam-i Cedid' maddesi t:'1789-04' (AY hassasiyeti) tasiyor ama gun:'7 Nisan 1789' diyor; app.js `gunMetniIdx` yuzunden 7 Nisan'a oturuyor. Alan ile metin ayni hassasiyeti beyan etmiyor (CLAUDE.md §4 hassasiyet kurali).",
+    "ek_bulgu_2": "Ayni madde hem culusu hem Nizam-i Cedid'i anlatiyor; culus icin OLAYLAR_EK7'de ayri madde, Nizam-i Cedid icin 1792-06-01'de ayri madde var ⇒ MUKERRER SUPHESI. Karar 1.MURAT'in: (a) OLAYLAR maddesi 'culus' olarak daraltilir, (b) ya da EK7 maddesi kaldirilir. SAVAS-ANLATI hicbirini uygulamadi."
+  },
+
+  "oneri_A_alan": {
+    "ad": "gs",
+    "anlam": "gun sirasi — AYNI GUNE dusen maddelerin anlati sirasi",
+    "tur": "tamsayi, kucukten buyuge",
+    "varsayilan": 50,
+    "yazim_kurali": "Yalniz 2+ maddeli gunlerde yazilir; tek maddeli 1316 gun DOKUNULMAZ. Araliklarla yazilir (10, 20, 30) ki sonradan araya madde girebilsin.",
+    "nicin_saat_degil": "saat: alani uydurma kesinlik uretir (CLAUDE.md §4: kaynak saat vermiyor). gs bir KAYNAK IDDIASI DEGIL, bir ANLATI SIRASIDIR — sahte hassasiyet dogurmaz.",
+    "nicin_dosya_sirasi_degil": "Maddeleri dosya icinde tasimak bugun calisir, yarin yeni bir olaylar_*.js baglaninca bozulur (bugunku kusurun kok sebebi tam budur).",
+    "nicin_t_ye_saat_eklenmez": "t uzerinde gunIdx, Degismez 2 (±30 gun) ve butun senkron olcumleri kosuyor; bicimini degistirmek o zincirin tamamini baglar."
+  },
+
+  "oneri_B_kod": {
+    "dosya": "js/app.js",
+    "yer": "5311 — `.sort(function (a, b) { return a.gi - b.gi; });`",
+    "yeni": ".sort(function (a, b) { var f = a.gi - b.gi; if (f) return f; var x = (a.gs == null ? 50 : a.gs), y = (b.gs == null ? 50 : b.gs); return x - y; });",
+    "not": "ES5 yazimi korundu (app.js `var`/`function` kullaniyor, `??` YOK). Sort kararli oldugu icin gs esit olan maddeler bugunku sirasini korur ⇒ 85 gunun yalniz gs yazilanlari degisir, otekiler AYNEN kalir (geri uyumlu).",
+    "sahiplik": "js/app.js su an BAGLAMA oturumunda (DALGA-0068 B tablosu). Uygulamadan once ondan devir alinmali."
+  },
+
+  "oneri_C_veri": {
+    "aciklama": "H-0004'un dogru sirasi icin yazilacak gs degerleri. Maddeler ADIYLA verildi; uygulayan dosyada `b` alanindan bulur.",
+    "kayitlar": [
+      { "dosya_anahtari": "OLAYLAR_EK17", "t": "1789-04-07", "b_ile_bul": "I. Abdulhamid Ozi'nin dusuu haberini okurken felc gecirip oldu", "gs": 10, "gerekce": "Padisahin olumu culustan ONCE gelir — culus olumun sonucudur." },
+      { "dosya_anahtari": "OLAYLAR_EK7", "t": "1789-04-07", "b_ile_bul": "III. Selim tahta cikti", "gs": 20, "gerekce": "Culus, olumden sonra ayni gun." },
+      { "dosya_anahtari": "OLAYLAR", "t": "1789-04", "b_ile_bul": "III. Selim ve Nizam-i Cedid", "gs": 30, "gerekce": "Reform programi culustan sonra anlatilir. (Bu maddenin mukerrer/hassasiyet sorunu ayri: ek_bulgu_1 ve ek_bulgu_2.)" }
+    ]
+  },
+
+  "oneri_D_denetim": {
+    "ad": "gun ici sira beyansiz grup",
+    "soru": "2+ maddeli bir gunun uyeleri FARKLI dosyalardan geliyor VE hicbirinde gs yok",
+    "bugunku_sayi": 77,
+    "esik_onerisi": "Once tavan 77 ile TAVAN olarak girer (kusur degil, BORC kaydi); gs yazildikca dusurulur.",
+    "nicin_hata_degil": "Bir gunun ic sirasi cogu zaman onemsizdir (iki ayri cephede ayni gun iki olay). Denetim 'yanlis' demez, 'sirasi beyan EDILMEMIS' der — CLAUDE.md §11: olculemedi ≠ yanlis.",
+    "uyari": "Bu denetim yazilirsa IKI YONDE sinanmali (D010): gs yazili bir gun temiz cikmali, gs'siz cok dosyali bir gun otmeli."
+  },
+
+  "uygulanmadi": "SAVAS-ANLATI hicbir dosyaya yazmadi: js/app.js BAGLAMA'da, data/olaylar*.js koordinatorde. Bu dosya ONERIDIR."
+}
