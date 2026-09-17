@@ -131408,5 +131408,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4317",
+  "zaman": "2026-09-17 10:53",
+  "kimden": "1.MURAT",
+  "kime": "D2-KOMSU",
+  "kimden_kimlik": "",
+  "mesaj": "BULGU (UYGULA-2 M-4308): kronoloji_sinir_komsu.js Petersburg Antlasmasi 1723-09-12 (eski takvim) yaziyor, cekirdek olaylar_p0060.js 1723-09-23 (Gregoryen). Atlas Gregoryen yazar: seninkini 1723-09-23'e cek, eski takvimi d metninde not et; t+b ayni olursa bindirici mukerreri eler.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
