@@ -850,6 +850,699 @@ def gun(s):
     y, a, g = s.split("-")
     return int(y) * 10000 + int(a) * 100 + int(g)
 
+# ═══════════════════════════════════════════════════════════════════════════
+# 🚶 MOTOR_YURUYUS — KARA-KARA SINIRINI YÜRÜYÜŞ SÜRESİ ÇİZSİN
+#    (MOTOR-YURUYUS · 17 Eylül 2026 · oturumlar/MOTOR-YURUYUS-0917.md)
+# ═══════════════════════════════════════════════════════════════════════════
+# EMRE, 17 Eylül: *"Haritadaki bir nokta, kendisine askerî yürüyüşle EN YAKIN
+# yerleşim yerine ait olur. Bu sahiplik 5 günlük yoldan fazlasını içermez. Bir
+# noktada 5 günlük yürüyüşten yakın yerleşim yoksa o bölge SAHİPSİZ kalır."*
+# Bütçe kararı `MENZIL-KARARLARI-0912.md` ②: tek yön 40 saat × 5,04 km/saat.
+#
+# BAYRAK KAPALIYKEN (varsayılan) HİÇBİR ŞEY DEĞİŞMEZ. Açıkken üç şey olur:
+#   ① Voronoi hücreleri, ızgaradaki Dijkstra SAHİPLİĞİNDEN kurulan hücrelerle
+#      YER DEĞİŞTİRİR (kara hücresi = en ucuz yürüyüşlü tohum). Izgaranın karar
+#      vermediği hücrede (deniz · tohumsuz kara) Voronoi sahibi kalır.
+#      Hücreler örtü boru hattına AYNEN girer: yaslama · Chaikin · sadeleştirme
+#      ızgaranın basamağını yumuşatır ("IZGARA SINIR ÇİZMEZ" kuralının gerekçesi
+#      ham ızgaranın cetvel/basamak üretmesiydi; burada ham ızgara hattı haritaya
+#      değil, boru hattına girer).
+#   ② A1 tavanı (200 km · 16 sektör) kıyı kesiminde, ızgaranın karar verdiği
+#      karada 40 SAATLİK EŞYÜKSELTİYLE yer değiştirir: bütçenin ötesi SAHİPSİZ.
+#      Eşyükselti (contourpy, doğrusal ara değer) basamak çizmez.
+#   ③ Izgaranın karar VERMEDİĞİ parça (hücreden küçük ada · tohumsuz kara ·
+#      kıyıdan ≥ YURUYUS_SACAK hücre uzak deniz hücresindeki kara) ESKİ kurala
+#      kalır: A1 tavanı. Bu bir boşluk değil bir BEYANDIR — orada yürüyüş
+#      hesaplanamıyor, ve "hesaplanamıyor" ile "40 saatten uzak" aynı şey değil.
+# DOKUNULMAYAN: ada kuralı · ana parça · bileşen kilidi · kara-kısıtlı devir ·
+#   çöl tavanı · puan kapısı · varlık epokları (petek_epok mini-Voronoi'si —
+#   bkz. tahta M-4326, "zaman" sorusu). Hepsi eski hâliyle koşar.
+# ⚠️ BU YÜZDEN ızgara bloğu (aşağıda) VORONOI'NİN ÖNÜNE TAŞINDI: bayrak kapalıyken
+#   yalnız aşama SIRASI değişir; hesap aynı girdilerden, aynı kodla yapılır
+#   (bağımlılık AST ile tarandı: blok yalnız Voronoi'den ÖNCE atanan adları okur).
+MOTOR_YURUYUS = os.environ.get("MOTOR_YURUYUS") == "1"
+YURUYUS_SAAT = float(os.environ.get("MOTOR_YURUYUS_SAAT", "40"))
+YURUYUS_SACAK = 2          # hücre — kıyı saçağı: bu kadar yakın deniz hücresi ızgaraya sayılır
+YURUYUS_KARO = 5.0         # derece — eşyükselti ve karar bölgesi bu karolarla kurulur
+YURUYUS_SADE = 0.05        # derece — ızgara hücrelerinin örtü sadeleştirmesi (1 hücre)
+# 16 KOMŞU (at hamlesi, 22,5° çözünürlük) — AYRI bayrak. 8 komşulu ızgara düz
+# arazide yönüne göre %8'e kadar uzun ölçer (oktil); 16 komşu bunu ~%3'e indirir
+# (şartname §2 · Emre'nin "16 yön" sezgisinin ızgaradaki karşılığı). Bedeli: Dijkstra
+# kenar sayısı iki katı. Bu bayrak YALNIZ Dijkstra'yı değiştirir; MOTOR_YURUYUS
+# kapalıysa da açılabilir (o zaman yalnız deniz aşırı devrin ızgarası değişir).
+YURUYUS_16 = os.environ.get("MOTOR_YURUYUS_16") == "1"
+if MOTOR_YURUYUS:
+    print(f"  🚶 MOTOR_YURUYUS=1 — kara-kara sınırı yürüyüş süresiyle "
+          f"(bütçe {YURUYUS_SAAT:g} saat). Bu koşunun damgasına yazılır.")
+if YURUYUS_16:
+    print("  🚶 MOTOR_YURUYUS_16=1 — Dijkstra 16 komşulu (at hamlesi).")
+
+# ---------------- KARA-KISITLI SAHİPLİK ----------------
+# Ada kuralı KARA BİLEŞENİ bazlıdır ve Afrika ile Avrasya Sina üzerinden TEK
+# bileşendir; bu yüzden Oran'ın peteği İspanya anakarasına geçebiliyordu. Kural
+# "ihlal yok" diyor, sonuç saçma. Kullanıcının cümlesi (hatalar 15 md.19):
+# "PETEK BÖLGESİ DENİZAŞIRI OLAMAZ… binlerce kilometre karadan geçiş ile bu
+# bölgenin Oran'a ait olması mantıksız."
+#
+# Çare: sahipliği DÜZ mesafeyle değil KARA ÜZERİNDEN mesafeyle sormak. Kara
+# maskesi ızgaraya dökülür, bütün tohumlardan çok kaynaklı Dijkstra koşar, her
+# hücre "kara yolundan en yakın tohum"unu öğrenir.
+#
+# ⚠️ IZGARA YALNIZ SAHİPLİĞE KARAR VERİR, SINIR ÇİZMEZ. Sınır yine Voronoi'den
+#    gelir; bu yüzden ızgaranın kabalığı haritaya YANSIMAZ. Aksi hâlde çözümün
+#    kendisi yeni bir "cetvel" kusuru üretirdi — çaresi derdinden beter olurdu.
+#
+# ⚠️ KAPSAM — prototipin İLK sürümündeki hata ve düzeltmesi.
+#    İlk sürüm ızgarayı BÜTÜN parçalara sordu ve saçmaladı: en büyük iki
+#    değişiklik Nijniy Novgorod→Vologda (243.191 km²) ve Moskova→Vologda
+#    (124.467 km²) çıktı; ikisi de iç karada, denizle ilgisi yok. Sebep:
+#    0,05° ızgara mesafeyi ~%8 hatayla ölçer (oktil yaklaşımı + tohum
+#    yuvarlaması) ve KARADA bu, Voronoi'nin KESİN cevabından kötüdür.
+#    Doğru kapsam, yaklaşık yöntemi kesin yöntemin YANILDIĞI yere kısıtlamaktır:
+#      · tohum→parça düz hattı tamamen karadaysa → düz mesafe geçerli, VORONOI KALIR
+#      · hat denizden geçiyorsa                  → düz mesafe anlamsız, IZGARA KARAR VERİR
+#    Eşik yok; ölçüt "hat denizi kesiyor mu", bir sayı değil.
+#
+# GEÇME ÖLÇÜTÜ (prototipte ölçüldü, 32/32 parça kabul edildi): Oslo, Königsberg
+# ve Azak dar su geçişli MEŞRU parçalardır ve 0 km² kaybetmelidir. Kural onları
+# bozuyorsa kural yanlıştır.
+KV_ADIM = 0.05                   # ≈5,5 km enlemde
+KV_MIN_KM2 = 200.0               # ızgara çözünürlüğünün güvenilir olduğu taban
+asama(f"Kara-kısıtlı sahiplik: ızgara {KV_ADIM}° kuruluyor")
+_kvx0, _kvy0, _kvx1, _kvy1 = BOLGE.bounds
+_kvnx = int(round((_kvx1 - _kvx0) / KV_ADIM))
+_kvny = int(round((_kvy1 - _kvy0) / KV_ADIM))
+_kvkp = prep(KARA)          # aşağıda LineString sınamasında da kullanılıyor
+# ⚠️ VEKTÖRLEŞTİRİLDİ — MOTOR 3, 3 Ağustos 2026.
+# Eski hâli 4,74 milyon ayrı `_kvkp.contains(Point(...))` çağrısıydı ve aşama
+# bilançosunda 3dk 20sn tutuyordu (koşunun %4,4'ü) — ızgara kurulumu, faz-1'in
+# çöl tavanından sonraki en pahalı kalemiydi. `shapely.contains_xy` AYNI GEOS
+# yüklemini dizi üzerinde koşturur.
+# ÖLÇÜLDÜ (scratchpad, 60 satır × 3.160 = 189.600 hücre): FARKLI HÜCRE = 0,
+# yani birebir aynı maske; hız 25,7× (6,78 sn → 0,26 sn), tam ızgara ~170 sn → ~7 sn.
+# 📌 Satır satır çağrılıyor: 4,74M'lik tek dizi ~76 MB ara bellek isterdi,
+# satır başına 3.160 nokta hem hızın tamamını verir hem belleği düz tutar.
+import numpy as _np
+shapely.prepare(KARA)
+_kvxs = _kvx0 + (_np.arange(_kvnx) + 0.5) * KV_ADIM
+_kvkara = bytearray(_kvnx * _kvny)
+for _j in range(_kvny):
+    _lat = _kvy0 + (_j + 0.5) * KV_ADIM
+    _kvkara[_j * _kvnx:(_j + 1) * _kvnx] = shapely.contains_xy(
+        KARA, _kvxs, _np.full(_kvnx, _lat)).astype(_np.uint8).tobytes()
+print(f"  ızgara {_kvnx}×{_kvny} = {_kvnx*_kvny:,} hücre, "
+      f"kara {sum(_kvkara):,}")
+
+# Tohumları ızgaraya oturt. ⚠️ Kıyıdaki tohum su hücresine düşebilir (0,002°
+# maske vs 0,05° ızgara); en yakın kara hücresine kaydırılmazsa ulaşılmaz olur.
+# ═══ 🔴 PENCERE DIŞI TOHUM IZGARAYA ALINMAZ — 16 Ağustos 2026 ═══════════════
+# Eski hâl `min()/max()` ile KISTIRIYORDU: pencerenin dışındaki bir nokta hata
+# vermeden ızgaranın KENAR SÜTUNUNA oturuyor, sonra Dijkstra'da oradan
+# yayılıyordu. Yani 2.555 km ötedeki bir yerleşim, kenardaki toprak için
+# YARIŞIYORDU.
+#
+# ⚠️ ÖLÇÜLDÜ, VARSAYILMADI (M-0247 · M-0502):
+#     bağlı veride kıstırılan            144 nokta
+#       ızgarada yer BULAN                 8   ← bunların peteği BOŞTU, zararsız
+#     bağlanacak dosyalarda kıstırılacak  36 nokta
+#       kıstırıldığı yerde KARA olan       9   ← ve BUNLAR SAHİPLİ
+#         Kap (Cape Town)   18,4 · −33,9 → −11,0   2.555 km
+#         Oranj · Ulundi · Transvaal · Mapungubwe · Büyük Zimbabve
+#         + Doğu Sibirya · Penjina · Kolıma
+# Güney Afrika'nın altı gövdesi lat −11'e, yani KONGO/TANZANYA kuşağına
+# oturuyordu. Bileşen kilidi bunu engellemez: alıcının gerçek noktası maskenin
+# dışında olduğu için `_kv_bilesen()` −1 döner ve kilit HİÇ KURULMAZ.
+#
+# 🟢 ÇARE — DARALTMA, yeni davranış EKLEMEK değil: pencere dışındaki bir
+#    noktanın maliyet ızgarasına tohum ekmesi HİÇBİR HÂLDE doğru değil.
+#    O noktalar için Voronoi kalır — `_kverisilmez` ile aynı yol.
+# 📌 Ve bu, `§11`in "pencere dışı ≠ yanlış konum" dersiyle tutarlı: nokta
+#    DOĞRU yerdedir, atlas penceresi oraya HENÜZ açılmamıştır. Kaydı silmiyoruz,
+#    yalnız IZGARAYA sokmuyoruz. Pencere büyüyünce kendiliğinden girer.
+_kvpencere_disi = []
+_kvtohum, _kvkaydi, _kverisilmez = {}, 0, []
+for _idx, _y in enumerate(YERLER):
+    if not (_kvx0 <= _y["lon"] < _kvx0 + _kvnx * KV_ADIM
+            and _kvy0 <= _y["lat"] < _kvy0 + _kvny * KV_ADIM):
+        _kvpencere_disi.append((_y["ad"], _y["lon"], _y["lat"]))
+        continue                      # KISTIRMA YOK — Voronoi'de kalır
+    _i = min(_kvnx - 1, max(0, int((_y["lon"] - _kvx0) / KV_ADIM)))
+    _j = min(_kvny - 1, max(0, int((_y["lat"] - _kvy0) / KV_ADIM)))
+    if not _kvkara[_j * _kvnx + _i]:
+        _en, _ed = None, 9e9
+        for _dj in range(-3, 4):
+            for _di in range(-3, 4):
+                _a, _b = _i + _di, _j + _dj
+                if 0 <= _a < _kvnx and 0 <= _b < _kvny and _kvkara[_b * _kvnx + _a]:
+                    _d = _di * _di + _dj * _dj
+                    if _d < _ed: _ed, _en = _d, (_a, _b)
+        if _en is None:
+            _kverisilmez.append(_y["ad"]); continue
+        _i, _j = _en; _kvkaydi += 1
+    _kvtohum.setdefault(_j * _kvnx + _i, []).append(_idx)
+print(f"  {sum(len(v) for v in _kvtohum.values())} tohum yerleşti "
+      f"({_kvkaydi} tanesi en yakın kara hücresine kaydırıldı)")
+if _kverisilmez:
+    print(f"  ⚠️ ızgarada yer bulunamayan {len(_kverisilmez)} tohum "
+          f"(bu noktalar için Voronoi kalır): {', '.join(_kverisilmez[:8])}")
+# 🔴 PENCERE DIŞI TOHUMLAR — İSİM İSİM basılır, çünkü sessiz eleme YASAK.
+# Koordinatörün şartı (M-0509 ②): "17 tohumu İSİM İSİM yaz: hangisi düştü,
+# düşmesi DOĞRU mu." Liste basılmazsa bir sonraki oturum bunu ölçemez ve
+# "kıstırma düzeltildi" cümlesi DOĞRULANAMAZ bir iddia olarak kalır.
+if _kvpencere_disi:
+    _kvpd = sorted(_kvpencere_disi,
+                   key=lambda t: -girdi.km(t[2], t[1],
+                                           max(_kvy0, min(t[2], _kvy0 + _kvny * KV_ADIM)),
+                                           max(_kvx0, min(t[1], _kvx0 + _kvnx * KV_ADIM))))
+    print(f"  🔒 PENCERE DIŞI, ızgaraya ALINMADI: {len(_kvpd)} tohum "
+          f"(kıstırma YOK — Voronoi kalır)")
+    for _ad, _lo, _la in _kvpd[:12]:
+        _sl = max(_kvx0, min(_lo, _kvx0 + _kvnx * KV_ADIM))
+        _sb = max(_kvy0, min(_la, _kvy0 + _kvny * KV_ADIM))
+        print(f"       {_ad[:38]:<38} {_lo:8.2f},{_la:7.2f}   "
+              f"kenara {girdi.km(_la, _lo, _sb, _sl):>6,.0f} km olurdu")
+    if len(_kvpd) > 12:
+        print(f"       … ve {len(_kvpd)-12} tohum daha")
+
+# ---------------- ① EĞİM SÜRTÜNMESİ — ızgaranın kendi çözünürlüğünde --------
+# DEM aynı ızgaraya (BOLGE.bounds × KV_ADIM) indirgenir ve hücre başına
+# sürtünme çarpanı üretilir:  surt = 1 + EGIM_CARPANI × |∇z|
+#
+# ⚠️ ÇÖZÜNÜRLÜK KALİBRASYONLA AYNI OLMAK ZORUNDA — ve ölçüldü, ŞANS DEĞİL.
+# `|∇z|` birimi METRE / HÜCRE'dir, yani hücre boyuyla ÖLÇEKLENİR: 0,02°lik bir
+# ızgarada aynı yamaç 2,5 kat küçük bir eğim değeri verir ve 0,005 çarpanı
+# sessizce başka bir şeye dönüşürdü. `egim_olc.py:62` → `ADIM = 0.05`;
+# buradaki `KV_ADIM` de 0,05. İkisi aynı, o yüzden çarpan taşınabilir.
+# 📌 Bu, `§11`in "bir aletin evreni değişince alet sessizce yanılır" dersinin
+#    önlenmiş hâli: aynı sayı, farklı ızgarada AYNI SAYI DEĞİLDİR.
+#
+# 🔴 `np.flipud` ŞART VE SEBEBİ ÖLÇÜLDÜ (maliyet.py:262-282'nin aynısı):
+#    rasterio dizisinde SATIR 0 KUZEY'dir; bu ızgara `_kvy0 + (_j+0,5)*KV_ADIM`
+#    ile kurulur, yani **_j=0 GÜNEY'dir.** İkisi TERS ve fark SESSİZDİR —
+#    toplam kara oranı neredeyse değişmediği için hiçbir toplam ölçüm ötmez.
+#    Bağlanmasaydı motor Karadeniz kıyısını Akdeniz'in eğimiyle hesaplardı.
+# 🟢 VE DOĞRULUĞU BAĞIMSIZ TANIKLA SINANDI, varsayılmadı: çevirmeden sonra
+#    en pahalı hücreler 84,1°D/28,5°K (Annapurna, sürt 11,03) ve 74,7°D/36,4°K
+#    (Karakurum, 9,10) çıkıyor. Ters olsaydı bunlar Hint Okyanusu'na düşerdi.
+#    ⇒ Coğrafya, dizinin doğru yönde olduğunun tanığıdır.
+_kvsurt = None
+if EGIM_CARPANI > 0 and EGIM_DEM:
+    asama("Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)")
+    import rasterio as _rio
+    from rasterio.windows import from_bounds as _from_bounds
+    # 🔴🔴 DEM İZGARADAN KISA — VE KIRPILMAZSA GERİLİR. 12 Eylül 2026'da
+    #    ölçüldü (KITA 11 buldu, koordinatör bağımsız yeniden üretti).
+    #    ```
+    #    istenen ızgara   -60 → +85   (2900 satır × 0,05°)
+    #    etopo2022_30s    -60 → +84   (17280 satır × 30s)   ⇒ 1,0° EKSİK
+    #    ```
+    #    Eski kod pencereyi 85'e kadar istiyordu; rasterio pencereyi dosyaya
+    #    kırpıyor ama `out_shape=(2900, 7200)` verildiği için **144°'lik
+    #    veriyi 145°'lik ızgaraya YENİDEN ÖRNEKLİYOR** — yani DEM KUZEYE
+    #    DOĞRU GERİLİYOR. Ölçülen kayma (bilinen zirvelerin enlemi):
+    #    ```
+    #    Everest   +0,637°   Mont Blanc +0,742°   Elbruz +0,720°
+    #    K2        +0,544°   Kilimanjaro +0,392°  Aconcagua +0,878°
+    #    Ağrı Dağı +0,673°  ≈ 75 km KUZEY          ← Anadolu'daki bedel
+    #    ```
+    #    KONTROL: pencere 84,0'a kırpılıp çıktı 2880 satır yapılınca kayma
+    #    ÇÖKÜYOR (Everest −0,013 · Elbruz −0,030 · Kilimanjaro −0,008 ·
+    #    Ağrı +0,023) ⇒ sebep KESİN, başka bir şey değil.
+    # 🔴 BEDELİ: sürtünme yüzeyi YANLIŞ ENLEMDE. Koşu 8 ve 9 bu kodla koştu,
+    #    yani o çıktıların eğim yüzeyi de kaymış. Dijkstra dağ bedelini
+    #    75 km kuzeyde ödemiş.
+    # 📌 Ve kusur SESSİZDİ: hiçbir toplam ölçüm ötmez (kara oranı, eğim
+    #    medyanı, en pahalı hücre — hepsi makul kalır). `§11`in "bir aletin
+    #    evreni değişince alet sessizce yanılır" dersinin DEM yüzü; ve
+    #    hemen üstteki `np.flipud` yorumu "kayma SESSİZ olurdu" diye
+    #    UYARIYORDU — uyarı doğruydu, yalnız BAŞKA BİR EKSENDE gerçekleşti.
+    with _rio.open(EGIM_DEM) as _ds:
+        # Izgaranın GERÇEK kutusu: _kvnx/_kvny yuvarlanarak bulundu, o yüzden
+        # BOLGE.bounds'un üst ucu değil ızgaranın kendi üst ucu kullanılır.
+        # Aksi hâlde DEM yarım hücre kayardı ve kayma SESSİZ olurdu.
+        _dem_ust = float(_ds.bounds.top)
+        _ist_ust = _kvy0 + _kvny * KV_ADIM
+        # Pencereyi DEM'in KENDİ üst ucuna kırp — gerilmeyi böyle keseriz.
+        _ust = min(_ist_ust, _dem_ust)
+        _sat = int(round((_ust - _kvy0) / KV_ADIM))
+        _win = _from_bounds(_kvx0, _kvy0,
+                            _kvx0 + _kvnx * KV_ADIM, _ust,
+                            transform=_ds.transform)
+        _zp = _ds.read(1, window=_win, out_shape=(_sat, _kvnx),
+                       resampling=_rio.enums.Resampling.average).astype("float32")
+    _zp = _np.flipud(_zp)          # artık satır 0 = GÜNEY (ızgarayla aynı yön)
+    if _sat == _kvny:
+        _z = _zp
+    else:
+        # Eksik kuşak ızgaranın KUZEY ucundadır (84°-85°K) ve orası
+        # neredeyse tamamen okyanus: en kuzeydeki kara Grönland'ın kuzey
+        # kıyısı (~83,6°K) ve Ellesmere (~83,1°K), ikisi de 84°'nin ALTINDA.
+        # Deniz seviyesi (0) ile doldurmak eğimi bozmaz ve `_kvkara` maskesi
+        # o hücreleri zaten dışarıda bırakır.
+        _z = _np.zeros((_kvny, _kvnx), dtype="float32")
+        _z[:_sat] = _zp
+        print(f"  ⚠️ DEM ızgaradan KISA: üst uç {_dem_ust:.2f}° < istenen "
+              f"{_ist_ust:.2f}° — {_kvny - _sat} satır (kuzey kuşağı) deniz "
+              f"seviyesiyle dolduruldu. GERİLME YOK (kırpıldı).")
+    del _zp
+    _gy, _gx = _np.gradient(_z)
+    _kvegim = _np.hypot(_gx, _gy)
+    # array('f') — düz liste 6,4 M ayrı Python float'ı olurdu (~200 MB);
+    # array 4 bayt/öğe ile 25 MB'ta kalır ve indeksleme yine Python float verir.
+    import array as _array
+    _kvsurt = _array.array("f", (1.0 + EGIM_CARPANI * _kvegim).ravel().tolist())
+    _kvsm = _kvegim.ravel()[_np.frombuffer(bytes(_kvkara), dtype=_np.uint8) > 0]
+    print(f"  eğim çarpanı {EGIM_CARPANI} · kara hücresinde eğim medyanı "
+          f"{float(_np.median(_kvsm)):,.0f} m/hücre → sürtünme medyanı "
+          f"{1.0 + EGIM_CARPANI * float(_np.median(_kvsm)):.3f}")
+    print(f"  en pahalı hücre: sürtünme {1.0 + EGIM_CARPANI * float(_kvsm.max()):.2f} "
+          f"(eğim {float(_kvsm.max()):,.0f} m/hücre)")
+    del _z, _gy, _gx, _kvegim, _kvsm
+else:
+    print("  🔴 EĞİM YOK — Dijkstra ağırlıksız koşuyor (çarpan 0,000).")
+
+# ---------------- ② NEHİR GEÇİŞ BEDELİ — KENARA yazılır, HÜCREYE değil -----
+# MOTOR · DALGA-0052 · 16 Eylül 2026. Araştırma: `denetim/NEHIR-GECIS-SURE-0915.md`
+# (commit 9151774) · öncülü `denetim/ARASTIRMA-NEHIR-0912.md`.
+#
+# 🔴 NİÇİN KENAR — 0912 ④'ün bulgusu: sürtünme HÜCREYE ait bir çarpan; nehir
+#    geçişi ise bir KENAR olayıdır. Hücreye yazılsaydı (a) nehir BOYUNCA
+#    yürümek ile nehri GEÇMEK aynı bedeli öderdi — oysa tarihte nehir boyu bir
+#    YOLDUR; (b) 5,5 km'lik hücrenin %80-95'i kara iken bütünü cezalanırdı.
+#    ⇒ Bir ızgara adımı (hücre merkezi → komşu merkezi) nehir HATTINI KESİYORSA
+#    o adıma ek bedel yazılır. Nehre paralel adım kesmez, bedel ödemez.
+#
+# BİRİM: saat → km-eşdeğeri, × 5,04 km/saat (Tobler düz hız —
+#    `oturumlar/MENZIL-KARARLARI-0912.md` ②: 40 saat ≈ 201 km). Sürtünme
+#    çarpanı bu ek bedele UYGULANMAZ — bekleme ve tekne süresi eğime bağlı değil.
+#
+# TABLO — her sayı `denetim/NEHIR-GECIS-SURE-0915.json` `onerilen_adim_bedeli`nden:
+#   İDARE (varsayılan, bağlayıcı özne — MENZIL ① · D030)
+#     geçitsiz sınıf-1   16 s  Musul 1737 (2 gün) · Misis 1737 (6 gün): köprü/tekne
+#                              YOKKEN kafilenin kaybı, kaynaklı aralığın ALT ucu
+#     geçitsiz sınıf-2    4 s  fiilî kafile geçişi (Teixeira 1604 · Buckingham 1816)
+#                              ⚠️ TÜRETİLDİ — küçük nehirde kurumsal gün kaybı
+#                              varsayılmadı; KAYNAKSIZ bir ayrım, KARAR BEKLİYOR
+#     kopru               0 s  Evliya: 3,5 km Ösek köprüsü 2 saat ≈ yürüme süresi
+#     feribot/kale-cifti  8 s  5/5 kafile kaydında günün kalanı gitti
+#     sig-gecit           4 s  0912 Herzog oranı geçitli:geçitsiz = 1:4 → 16/4
+#                              ⚠️ TÜRETİLDİ — sığ geçit süresi için kayıt BULUNAMADI
+#   ORDU (KAPALI — Emre özneyi seçmedi; MOTOR_NEHIR_OZNE=ordu ile açılır)
+#     kopru 16 s (hazır köprü medyanı 2 gün × 8) · köprü kurarak 72 s (kurma
+#     medyanı 7 gün + geçiş 2 gün) · sig-gecit için kayıt BULUNAMADI → geçitsiz
+#
+# GEÇİT: `data/gecitler.js` (63 kayıt) — motor BU DOSYAYI YALNIZ OKUR.
+#   Bir kesen adımın orta noktası bir geçidin `etki_km`si içindeyse bedel
+#   min(geçitsiz, tür bedeli) olur. `f`/`t` OKUNMAZ: Emre'nin 22 Ağu kararı
+#   (gecitler.js başlığı) — "geçit köprüden eskidir", ilk turda HEP VAR.
+#   ⚠️ Geçit NEHİR ADIYLA eşlenmiyor, YAKINLIKLA eşleniyor: iki nehrin
+#      kavşağındaki geçit (Belgrad) ikisine de bedel indirimi verir. Ad eşleme
+#      Türkçe/NE yazımları yüzünden ayrı bir iş; sınırı burada kayıtlı.
+#   ⚠️ `etki_km` (30/20/15/10) gecitler.js'in KENDİ beyanıyla kalibre EDİLMEDİ.
+#
+# 🔴 KAPSAM — ve bu, ölçümün ilk cümlesi olmalı: bu Dijkstra'nın cevabı
+#    haritaya YALNIZ düz hattı DENİZİ kesen parçalar için iner (aşağıda
+#    `_kvkp.contains(LineString(...))` süzgeci). Kara-kara sınırı hâlâ
+#    Voronoi + 200 km tavan çiziyor. Yani nehir bedeli bugün ızgarayı
+#    değiştirir, haritayı ancak dar bir kapıdan etkiler — `GORUNUM-ABC-0910.md`
+#    ③ "kara-kara sürtünmeli Dijkstra" bir MOTOR DEĞİŞİKLİĞİDİR, bu değil.
+NEHIR_OZNE = os.environ.get("MOTOR_NEHIR_OZNE", "idare")
+NEHIR_KAPALI = (os.environ.get("MOTOR_NEHIR_KAPALI") == "1"
+                or NEHIR_SINIFI is None or not NEHIRLER)
+NEHIR_KM_SAAT = 5.04
+NEHIR_BEDEL_SAAT = {
+    "idare": {"gecitsiz": {1: 16.0, 2: 4.0},
+              "kopru": 0.0, "feribot": 8.0, "kale-cifti": 8.0, "sig-gecit": 4.0},
+    "ordu":  {"gecitsiz": {1: 72.0, 2: 72.0},      # sınıf-2 BULUNAMADI → en kötü hâl
+              "kopru": 16.0, "feribot": 72.0, "kale-cifti": 72.0, "sig-gecit": None},
+}
+# Dijkstra'nın komşu sırası — kenar anahtarı `h * _KV_YS + yön` bu sıraya bağlı,
+# o yüzden kurucu ile Dijkstra AYNI sabiti okur.
+_KV_YON = ((1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (1, -1), (-1, 1), (-1, -1))
+if YURUYUS_16:
+    # Sıra KORUNUR: ilk sekiz eski anahtarlarla aynı yönü taşır.
+    _KV_YON = _KV_YON + ((2, 1), (1, 2), (-1, 2), (-2, 1),
+                         (-2, -1), (-1, -2), (1, -2), (2, -1))
+_KV_YS = len(_KV_YON)                  # 8 (bayrak kapalı) ya da 16
+_KV_YARI = 2 if YURUYUS_16 else 1      # nehir kenarı aday komşuluğu yarıçapı
+
+
+def _kv_ara_kara(i, j, di, dj):
+    """At hamlesi merkezden merkeze İKİ ara hücreden geçer; ikisi de KARA
+    olmalı — yoksa adım bir hücrelik boğazı/körfezi atlardı."""
+    if abs(di) + abs(dj) < 3:
+        return True
+    si = 1 if di > 0 else -1
+    sj = 1 if dj > 0 else -1
+    if abs(di) == 2:
+        ara = ((i + si, j), (i + si, j + sj))
+    else:
+        ara = ((i, j + sj), (i + si, j + sj))
+    for a, b in ara:
+        if not (0 <= a < _kvnx and 0 <= b < _kvny) or not _kvkara[b * _kvnx + a]:
+            return False
+    return True
+
+
+def _nehir_kenar_kur(parcalar, siniflar, gecitler, tablo):
+    """Nehir hattını KESEN ızgara adımlarının ek bedelini kurar.
+
+    Döner: (bedel, bayrak, olcum)
+      bedel   {h*_KV_YS+yön: km-eşdeğeri}  — yalnız bedeli > 0 olan adımlar
+      bayrak  bytearray: h'den çıkan en az bir bedelli adım varsa 1
+      olcum   sayım sözlüğü (rapor için)
+    """
+    import numpy as _npn
+    # ① nehir hücreleri — her hat yarım ızgara adımıyla örneklenir
+    _hs = {}
+    _hatlar, _hsinif = [], []
+    for g, s in zip(parcalar, siniflar):
+        for ln in shapely.get_parts(g):
+            if ln.geom_type not in ("LineString", "LinearRing") or ln.is_empty:
+                continue
+            _hatlar.append(ln); _hsinif.append(s)
+            L = ln.length
+            n = max(2, int(L / (KV_ADIM * 0.5)) + 1)
+            pt = shapely.line_interpolate_point(ln, _npn.linspace(0.0, L, n))
+            ii = _npn.clip(((shapely.get_x(pt) - _kvx0) / KV_ADIM).astype(int), 0, _kvnx - 1)
+            jj = _npn.clip(((shapely.get_y(pt) - _kvy0) / KV_ADIM).astype(int), 0, _kvny - 1)
+            for h in set((jj * _kvnx + ii).tolist()):
+                _hs[h] = min(s, _hs.get(h, 9))
+    # ② aday kaynak hücreler: nehir hücresi ∪ 8 komşusu, yalnız KARA
+    _aday = set()
+    for h in _hs:
+        j, i = divmod(h, _kvnx)
+        for dj in range(-_KV_YARI, _KV_YARI + 1):
+            for di in range(-_KV_YARI, _KV_YARI + 1):
+                a, b = i + di, j + dj
+                if 0 <= a < _kvnx and 0 <= b < _kvny and _kvkara[b * _kvnx + a]:
+                    _aday.add(b * _kvnx + a)
+    # ③ aday adımlar (merkez → merkez) ve nehirle kesişim — vektörel
+    _anah, _x0s, _y0s, _x1s, _y1s = [], [], [], [], []
+    for h in _aday:
+        j, i = divmod(h, _kvnx)
+        cx = _kvx0 + (i + 0.5) * KV_ADIM
+        cy = _kvy0 + (j + 0.5) * KV_ADIM
+        for yi, (di, dj) in enumerate(_KV_YON):
+            a, b = i + di, j + dj
+            if not (0 <= a < _kvnx and 0 <= b < _kvny) or not _kvkara[b * _kvnx + a]:
+                continue
+            if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj):
+                continue
+            _anah.append(h * _KV_YS + yi)
+            _x0s.append(cx); _y0s.append(cy)
+            _x1s.append(cx + di * KV_ADIM); _y1s.append(cy + dj * KV_ADIM)
+    olcum = {"nehir_hucre": len(_hs), "aday_hucre": len(_aday),
+             "aday_adim": len(_anah), "kesen_adim": 0,
+             "sinif1_adim": 0, "sinif2_adim": 0,
+             "gecit_indirimli": 0, "kopru_adim": 0, "gecit": len(gecitler)}
+    bedel, bayrak = {}, bytearray(_kvnx * _kvny)
+    if not _anah:
+        return bedel, bayrak, olcum
+    _seg = shapely.linestrings(
+        _npn.stack([_npn.column_stack([_x0s, _y0s]),
+                    _npn.column_stack([_x1s, _y1s])], axis=1))
+    _agac = STRtree(_hatlar)
+    _si, _hi = _agac.query(_seg, predicate="intersects")
+    _kes = {}                                   # seg → en pahalı sınıf (1 < 2)
+    for s_, h_ in zip(_si.tolist(), _hi.tolist()):
+        _kes[s_] = min(_hsinif[h_], _kes.get(s_, 9))
+    olcum["kesen_adim"] = len(_kes)
+    # ④ geçit indirimi — orta nokta, 0,5° (≈55 km) içindeki geçitler taranır;
+    #    en büyük `etki_km` 30 olduğu için pencere yeterli.
+    _gidx = sorted(_kes)
+    _mid = shapely.points(
+        (_npn.array([_x0s[k] for k in _gidx]) + _npn.array([_x1s[k] for k in _gidx])) / 2.0,
+        (_npn.array([_y0s[k] for k in _gidx]) + _npn.array([_y1s[k] for k in _gidx])) / 2.0)
+    _gbedel = {}
+    if gecitler:
+        _gpt = shapely.points([g[0] for g in gecitler], [g[1] for g in gecitler])
+        _mi, _gi = STRtree(_gpt).query(_mid, predicate="dwithin", distance=0.5)
+        for m_, g_ in zip(_mi.tolist(), _gi.tolist()):
+            glo, gla, tur, etki, _ = gecitler[g_]
+            tb = tablo.get(tur)
+            if tb is None:
+                continue
+            mx, my = shapely.get_x(_mid[m_]), shapely.get_y(_mid[m_])
+            if girdi.km(my, mx, gla, glo) <= etki:
+                _gbedel[m_] = min(tb, _gbedel.get(m_, float("inf")))
+    for m_, s_ in enumerate(_gidx):
+        sinif = _kes[s_]
+        saat = tablo["gecitsiz"][sinif]
+        olcum["sinif1_adim" if sinif == 1 else "sinif2_adim"] += 1
+        if m_ in _gbedel and _gbedel[m_] < saat:
+            saat = _gbedel[m_]
+            olcum["gecit_indirimli"] += 1
+            if saat == 0.0:
+                olcum["kopru_adim"] += 1
+        if saat > 0.0:
+            k = _anah[s_]
+            bedel[k] = saat * NEHIR_KM_SAAT
+            bayrak[k // _KV_YS] = 1
+    return bedel, bayrak, olcum
+
+
+_KVNEHIR = None
+if not NEHIR_KAPALI:
+    asama("Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)")
+    _nb_tablo = NEHIR_BEDEL_SAAT[NEHIR_OZNE]      # bilinmeyen özne → KeyError, sessiz değil
+    _nb_bedel, _nb_bayrak, _nb_olcum = _nehir_kenar_kur(
+        NEHIRLER, NEHIR_SINIFI, GECIT_KAYIT, _nb_tablo)
+    _KVNEHIR = (_nb_bedel, _nb_bayrak)
+    print(f"  özne {NEHIR_OZNE} · nehir hücresi {_nb_olcum['nehir_hucre']:,} · "
+          f"nehri KESEN adım {_nb_olcum['kesen_adim']:,} / {_nb_olcum['aday_adim']:,} aday")
+    print(f"  sınıf-1 {_nb_olcum['sinif1_adim']:,} · sınıf-2 {_nb_olcum['sinif2_adim']:,} · "
+          f"geçit indirimli {_nb_olcum['gecit_indirimli']:,} (köprü, bedelsiz "
+          f"{_nb_olcum['kopru_adim']:,}) · geçit kaydı {_nb_olcum['gecit']}")
+    print(f"  bedelli adım {len(_nb_bedel):,} · tablo {_nb_tablo}")
+else:
+    print(f"  🔴 NEHİR GEÇİŞ BEDELİ KAPALI (MOTOR_NEHIR_KAPALI="
+          f"{os.environ.get('MOTOR_NEHIR_KAPALI')} · sınıf listesi "
+          f"{'YOK' if NEHIR_SINIFI is None else 'var'}) — nehir bedeli 0")
+
+# Çok kaynaklı Dijkstra, YALNIZ kara hücreleri üzerinden. Adım maliyeti gerçek
+# km: boylam adımı cos(enlem) ile daralır, yoksa kuzeyde mesafeler şişer ve
+# Baltık/Norveç vakaları yanlış tarafa düşer.
+# ⚠️ VE ARTIK km DEĞİL, km × SÜRTÜNME + NEHİR BEDELİ (km-eşdeğeri).
+#    `_kvuzak` bu aşamadan sonra "kilometre" değil "yürüme bedeli" taşır;
+#    başka bir yerde mesafe diye OKUNMAMALIDIR. Birimi km-eşdeğeridir:
+#    ÷ 5,04 ile yürüyüş SAATİNE döner (MENZIL ②).
+#    (Bu aşamada yalnız KARŞILAŞTIRMA için kullanılıyor — hangi tohum daha
+#    ucuz — ve karşılaştırma için birim önemsizdir.)
+import heapq as _heapq
+asama("Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)")
+_KVDY = KV_ADIM * 111.32
+
+
+def _kv_dijkstra(surt, nehir=None):
+    """Çok kaynaklı Dijkstra. surt=None ise ağırlıksız (eski davranış);
+    nehir=None ise nehir geçişi bedelsiz (eski davranış).
+
+    ⚠️ İŞLEV HÂLİNE GETİRİLDİ ki AYNI KOD birden çok kez koşabilsin — eğimli
+    / eğimsiz, nehirli / nehirsiz. Kopyala-yapıştır ikinci bir gövde yazmak
+    daha kolaydı ve YANLIŞ olurdu: iki kopya zamanla ayrışır, ve ayrıştıkları
+    an A/B ölçümü sessizce anlamını yitirir. Karşılaştırmanın geçerliliği,
+    iki tarafın AYNI KOD olmasına bağlıdır. (`denetim/ARAC-MOTOR-NEHIR-0916.py`
+    bu işlevi dosyadan AST ile ÇEKİP koşturur — ayrı bir kopya yazmaz.)
+    """
+    uzak = [float("inf")] * (_kvnx * _kvny)
+    sahip = [-1] * (_kvnx * _kvny)
+    nbedel, nbayrak = nehir if nehir is not None else ({}, None)
+    q = []
+    for h, idxs in _kvtohum.items():
+        uzak[h] = 0.0
+        sahip[h] = idxs[0]
+        _heapq.heappush(q, (0.0, h))
+    while q:
+        d, h = _heapq.heappop(q)
+        if d > uzak[h]: continue
+        j, i = divmod(h, _kvnx)
+        dx = _KVDY * math.cos(math.radians(_kvy0 + (j + 0.5) * KV_ADIM))
+        nh = nbayrak is not None and nbayrak[h]
+        for yi, (di, dj) in enumerate(_KV_YON):
+            a, b = i + di, j + dj
+            if not (0 <= a < _kvnx and 0 <= b < _kvny): continue
+            k = b * _kvnx + a
+            if not _kvkara[k]: continue
+            if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj): continue
+            # Sürtünme HEDEF hücreden okunur — `egim_olc.py:136` (`f = fr[jj][ii]`)
+            # kalibrasyonu birebir böyle yaptı. Kaynak hücreden ya da iki
+            # hücrenin ortalamasından okumak BAŞKA bir yüzeydir ve 0,005 orada
+            # ölçülmedi.
+            nd = d + math.hypot(dx * di, _KVDY * dj) * (surt[k] if surt else 1.0)
+            if nh:
+                nd += nbedel.get(h * _KV_YS + yi, 0.0)   # ② nehir: KENAR bedeli
+            if nd < uzak[k]:
+                uzak[k] = nd; sahip[k] = sahip[h]
+                _heapq.heappush(q, (nd, k))
+    return uzak, sahip
+
+
+_kvuzak, _kvsahip = _kv_dijkstra(_kvsurt, _KVNEHIR)
+print(f"  kara yolu çözüldü, erişilen hücre {sum(1 for s in _kvsahip if s >= 0):,}")
+
+# ---------------- ① A/B — EĞİMİN ETKİSİ, AYNI KOŞUNUN İÇİNDE ----------------
+# 🔴 NİÇİN VAR: `A1 tavanı` vakasının dersi *"bir düzeltme doğru çalışabilir ve
+# SONRAKİ AŞAMA onu geri alabilir, ve ikisi arasındaki boşluk hiçbir denetimin
+# sorusu değildir."* Eğim çarpanı için aynı soruyu sorabilmenin normal yolu iki
+# tam koşudur (eğimli + eğimsiz) — 160 dakika. Oysa ölçülmek istenen şey
+# aşamanın KENDİ içinde: aynı ızgara, aynı tohumlar, tek fark sürtünme.
+# ⇒ İkinci Dijkstra burada koşar (ölçülen maliyet: 1dk 38sn, koşunun %2,1'i) ve
+#   sonucu ÜRETİME HİÇ KARIŞMAZ; yalnız `_kvsahip0` olarak okunur.
+#
+# ⚠️ VE BU, ÖNGÖRÜNÜN MAZERETİNİ ORTADAN KALDIRIYOR. Öngörüyü yazarken tek
+# ölçemediğim şey *"ızgaradaki değişimin kaçı HARİTAYA iniyor"*du, çünkü o soru
+# PETEK_D'yi gerektiriyor ve PETEK_D koşuda doğuyor. Şimdi koşunun kendisi
+# cevaplıyor. `§11`: sonradan yazılan mazeret bulguya benzer — en iyisi mazeret
+# ihtiyacını KALDIRMAK.
+#
+# 📌 ÖLÇTÜĞÜM ile ÇIKARDIĞIM ayrı (B10): aşağıdaki sayı *"eğim yüzünden alıcısı
+# değişen parça"*dır. *"Haritanın eğim yüzünden ne kadar düzeldiği"* DEĞİLDİR —
+# onu ancak Emre'nin gözü ve kronoloji söyler.
+_kvsahip0 = None
+if _kvsurt is not None and not os.environ.get("MOTOR_EGIM_AB_KAPALI"):
+    asama("Kara-kısıtlı sahiplik: A/B ölçümü (eğimsiz ikinci Dijkstra)")
+    # ⚠️ Nehir bedeli İKİ TARAFTA DA aynı (`_KVNEHIR`) — fark yalnız EĞİM.
+    #    16 Eylül'den önce bu çağrı `_kv_dijkstra(None)` idi; nehir eklenince
+    #    öyle kalsaydı bu satır eğim + nehir farkını birlikte sayardı ve
+    #    ÖNGÖRÜ (166.966) ile karşılaştırması sessizce anlamını yitirirdi.
+    _kvuzak0, _kvsahip0 = _kv_dijkstra(None, _KVNEHIR)
+    _ab_hucre = sum(1 for _k in range(_kvnx * _kvny)
+                    if _kvsahip[_k] != _kvsahip0[_k])
+    _ab_er0 = sum(1 for s in _kvsahip0 if s >= 0)
+    _ab_er1 = sum(1 for s in _kvsahip if s >= 0)
+    print(f"  eğimsiz erişilen {_ab_er0:,} · eğimli erişilen {_ab_er1:,} "
+          + ("✓ AYNI" if _ab_er0 == _ab_er1 else
+             f"🔴 FARK {_ab_er1 - _ab_er0:+,} — eğim erişilebilirliği "
+             "DEĞİŞTİRMEMELİ, sürtünme sonludur"))
+    print(f"  ızgarada sahibi değişen hücre: {_ab_hucre:,} "
+          f"({100.0 * _ab_hucre / max(1, _ab_er1):.2f}% · ÖNGÖRÜ ~166.966 / %4,97)")
+    del _kvuzak0
+
+# ---------------- ② A/B — NEHİR BEDELİNİN ETKİSİ, AYNI KOŞUNUN İÇİNDE --------
+# Eğim A/B'sinin birebir aynası: aynı ızgara, aynı tohum, aynı sürtünme; tek
+# fark nehir kenar bedeli. Sonuç ÜRETİME KARIŞMAZ, yalnız `_kvsahipN` okunur.
+# Ölçülen maliyet: bir Dijkstra daha (eğim A/B'si ile aynı mertebe).
+# ÖNGÖRÜ koşudan ÖNCE ölçüm betiğiyle yazıldı: `denetim/MOTOR-0916.md` ②.
+_kvsahipN = None
+if _KVNEHIR is not None and not os.environ.get("MOTOR_NEHIR_AB_KAPALI"):
+    asama("Kara-kısıtlı sahiplik: A/B ölçümü (nehirsiz ikinci Dijkstra)")
+    _kvuzakN, _kvsahipN = _kv_dijkstra(_kvsurt, None)
+    _abn_hucre = sum(1 for _k in range(_kvnx * _kvny)
+                     if _kvsahip[_k] != _kvsahipN[_k])
+    _abn_er = sum(1 for s in _kvsahip if s >= 0)
+    print(f"  ② nehir bedeli yüzünden ızgarada sahibi değişen hücre: "
+          f"{_abn_hucre:,} ({100.0 * _abn_hucre / max(1, _abn_er):.2f}% · "
+          f"ÖNGÖRÜ: denetim/MOTOR-0916.md ②)")
+    del _kvuzakN
+
+# ---------------- 🚶 YÜRÜYÜŞ: bütçe bölgesi ve ızgara sahipliği ----------------
+_YR_UZAK, _YR_IZGARA = [], []       # 40 saatten UZAK eşyükselti parçaları · ızgaranın KARAR verdiği bölge
+_YR_UZAK_AGAC = _YR_IZGARA_AGAC = None
+_YR_SAHIP = None                    # ny×nx int32, Dijkstra sahibi (−1: karar yok)
+_YR_KARAR = None                    # ny×nx bool, ızgaranın karar verdiği hücre
+_YR_KORUMA = []                     # bütçe kesimi tohumun kendi yerini kesseydi → korunan adlar
+if MOTOR_YURUYUS:
+    asama(f"YÜRÜYÜŞ: {YURUYUS_SAAT:g} saatlik bütçe bölgesi (eşyükselti)")
+    import contourpy as _cp
+    from scipy import ndimage as _ndi
+    import rasterio.features as _rfe
+    from rasterio.transform import Affine as _Aff
+    _yr_n = _kvnx * _kvny
+    _YR_BUTCE = YURUYUS_SAAT * NEHIR_KM_SAAT          # km-eşdeğeri (MENZIL ②)
+    _yr_u = _np.fromiter(_kvuzak, dtype=_np.float32, count=_yr_n).reshape(_kvny, _kvnx)
+    _YR_SAHIP = _np.fromiter(_kvsahip, dtype=_np.int32, count=_yr_n).reshape(_kvny, _kvnx)
+    _yr_kara = _np.frombuffer(bytes(_kvkara), dtype=_np.uint8).reshape(_kvny, _kvnx) > 0
+    _yr_R = _yr_kara & (_YR_SAHIP >= 0)               # ızgaranın ERİŞTİĞİ kara
+    _yr_U = _yr_kara & ~_yr_R                         # tohumsuz bileşen / kaydırılamamış tohum
+    _yr_st = _np.ones((3, 3), dtype=bool)
+    # Karar bölgesi: erişilen kara + kıyı saçağı; tohumsuz karanın saçağı HARİÇ.
+    _YR_KARAR = _yr_R | (_ndi.binary_dilation(_yr_R, _yr_st, iterations=YURUYUS_SACAK)
+                         & ~_ndi.binary_dilation(_yr_U, _yr_st, iterations=YURUYUS_SACAK))
+    # Maliyet alanı: erişilen karada Dijkstra bedeli; saçakta en yakın erişilen
+    # hücreninki (komşu minimumu); karar dışında 0 (orada bütçe SORULMAZ, ③).
+    _yr_F = _np.where(_yr_R, _yr_u, _np.inf).astype(_np.float32)
+    for _ in range(YURUYUS_SACAK):
+        _yr_F = _np.where(_yr_R, _yr_F,
+                          _np.minimum(_yr_F, _ndi.minimum_filter(_yr_F, size=3, mode="nearest")))
+    _yr_F = _np.where(_YR_KARAR, _yr_F, 0.0).astype(_np.float32)
+    _yr_F[~_np.isfinite(_yr_F)] = 0.0
+    _yr_km2 = ((KV_ADIM * 111.32) ** 2
+               * _np.cos(_np.radians(_kvy0 + (_np.arange(_kvny) + 0.5) * KV_ADIM)))[:, None]
+    print(f"  bütçe {_YR_BUTCE:.1f} km-eşdeğeri · erişilen kara "
+          f"{float((_yr_km2 * _yr_R).sum()):,.0f} km² · bunun bütçe DIŞI "
+          f"{float((_yr_km2 * (_yr_R & (_yr_u > _YR_BUTCE))).sum()):,.0f} km² · "
+          f"tohumsuz kara {float((_yr_km2 * _yr_U).sum()):,.0f} km² (eski kurala kalır)")
+    # Karolar — eşyükselti ve karar bölgesi 5°'lik parçalar hâlinde kurulur ki
+    # kıyı kesiminde her petek yalnız kendi çevresindeki parçalarla kesilsin.
+    # Dolgu: çerçevede yarım hücre eksik kalmasın diye alan bir hücre genişletilir.
+    _yr_px = _np.concatenate([[_kvx0], _kvx0 + (_np.arange(_kvnx) + 0.5) * KV_ADIM,
+                              [_kvx0 + _kvnx * KV_ADIM]])
+    _yr_py = _np.concatenate([[_kvy0], _kvy0 + (_np.arange(_kvny) + 0.5) * KV_ADIM,
+                              [_kvy0 + _kvny * KV_ADIM]])
+    _yr_pF = _np.pad(_yr_F, 1, mode="edge")
+    _yr_ust = float(_yr_pF.max()) + 1.0
+    _yr_T = int(round(YURUYUS_KARO / KV_ADIM))
+    for _j0 in range(0, _kvny + 1, _yr_T):
+        _j1 = min(_j0 + _yr_T, _kvny + 1)
+        for _i0 in range(0, _kvnx + 1, _yr_T):
+            _i1 = min(_i0 + _yr_T, _kvnx + 1)
+            _sub = _yr_pF[_j0:_j1 + 1, _i0:_i1 + 1]
+            if float(_sub.max()) <= _YR_BUTCE:
+                continue
+            _gen = _cp.contour_generator(_yr_px[_i0:_i1 + 1], _yr_py[_j0:_j1 + 1], _sub,
+                                         fill_type=_cp.FillType.OuterOffset)
+            _pl, _ol = _gen.filled(_YR_BUTCE, _yr_ust)
+            for _pts, _ofs in zip(_pl, _ol):
+                _hl = [_pts[_ofs[_k]:_ofs[_k + 1]] for _k in range(len(_ofs) - 1)]
+                _hl = [_h for _h in _hl if len(_h) >= 4]
+                if not _hl:
+                    continue
+                _pg = Polygon(_hl[0], _hl[1:]).buffer(0)
+                if not _pg.is_empty:
+                    _YR_UZAK.append(_pg)
+    # Karar bölgesi — raster (kıyı saçağı ve tohumsuz kara sınırı; ikisi de
+    # kıyı kesimi ve A1 tavanı tarafından ayrıca çizilen yerler).
+    _yr_Kf = _np.flipud(_YR_KARAR).astype(_np.uint8)          # satır 0 = KUZEY
+    for _j0 in range(0, _kvny, _yr_T):
+        for _i0 in range(0, _kvnx, _yr_T):
+            _w = _yr_Kf[_j0:_j0 + _yr_T, _i0:_i0 + _yr_T]
+            if not _w.any():
+                continue
+            _tr = _Aff(KV_ADIM, 0.0, _kvx0 + _i0 * KV_ADIM,
+                       0.0, -KV_ADIM, _kvy0 + (_kvny - _j0) * KV_ADIM)
+            for _gj, _v in _rfe.shapes(_w, mask=_w > 0, transform=_tr, connectivity=8):
+                _pg = shape(_gj).buffer(0)
+                if not _pg.is_empty:
+                    _YR_IZGARA.append(_pg)
+    _YR_UZAK_AGAC = STRtree(_YR_UZAK)
+    _YR_IZGARA_AGAC = STRtree(_YR_IZGARA)
+    print(f"  40 saatten uzak eşyükselti parçası {len(_YR_UZAK):,} · "
+          f"karar bölgesi parçası {len(_YR_IZGARA):,}")
+    del _yr_u, _yr_F, _yr_pF, _yr_Kf, _yr_R, _yr_U
+
+
+def _yr_kes(geo, i):
+    """🚶 A1 tavanının yerine: `geo`dan 40 saatten uzak olanı çıkar; ızgaranın
+    karar vermediği payda ESKİ tavanı (TAVAN_DAIRE[i]) uygula. Tohumun kendi
+    yeri asla kesilmez (Değişmez 1) — keserse korunur ve ADIYLA sayılır."""
+    kes = geo
+    for _q in _YR_UZAK_AGAC.query(geo):
+        kes = kes.difference(_YR_UZAK[int(_q)])
+    if not kes.is_empty:
+        dis = kes
+        for _q in _YR_IZGARA_AGAC.query(kes):
+            dis = dis.difference(_YR_IZGARA[int(_q)])
+        if not dis.is_empty and dis.area > 0:
+            kes = kes.difference(dis.difference(TAVAN_DAIRE[i]))
+    kes = poligonal(kes)
+    _p = noktalar[i]
+    if geo.intersects(_p) and not kes.intersects(_p):
+        kes = poligonal(unary_union([kes, geo.intersection(_p.buffer(KV_ADIM))]))
+        _YR_KORUMA.append(YERLER[i]["ad"])
+    return kes
+
+
 # ---------------- Petekler (Voronoi) ----------------
 asama("Petekler üretiliyor (Voronoi)")
 noktalar = [Point(y["lon"], y["lat"]) for y in YERLER]
@@ -866,6 +1559,75 @@ eksik = [i for i, p in enumerate(PETEK) if p is None]
 for i in eksik:                              # nadiren eşleşmezse en yakın hücre
     PETEK[i] = min(hucreler, key=lambda h: h.distance(noktalar[i])).intersection(BOLGE)
 print(f"  {len(PETEK)} petek ({len(eksik)} yedek eşleşme)")
+if MOTOR_YURUYUS:
+    asama("YÜRÜYÜŞ: petekler ızgaradan (Dijkstra sahibi; karar dışında Voronoi)")
+    _yr_tr = _Aff(KV_ADIM, 0.0, _kvx0, 0.0, -KV_ADIM, _kvy0 + _kvny * KV_ADIM)
+    # Voronoi sahibi hücre MERKEZİNDEN (rasterize: merkez kuralı) — satır 0 KUZEY
+    _yr_V = _rfe.rasterize(((PETEK[i], i) for i in range(len(PETEK))
+                            if PETEK[i] is not None and not PETEK[i].is_empty),
+                           out_shape=(_kvny, _kvnx), transform=_yr_tr,
+                           fill=-1, dtype="int32")
+    for _ in range(3):                    # sınırın tam üstüne düşen merkez (nadir)
+        _yr_bos = _yr_V < 0
+        if not _yr_bos.any():
+            break
+        _yr_V = _np.where(_yr_bos, _ndi.maximum_filter(_yr_V, size=3), _yr_V)
+    if (_yr_V < 0).any():
+        raise SystemExit(f"YÜRÜYÜŞ: {int((_yr_V < 0).sum())} hücrenin Voronoi sahibi "
+                         "bulunamadı — örtü eksik kurulurdu. Koşu durduruldu.")
+    _yr_G = _np.where(_np.flipud(_YR_SAHIP >= 0) & _np.flipud(_YR_KARAR),
+                      _np.flipud(_YR_SAHIP), _yr_V).astype(_np.int32)
+    del _yr_V
+    # 🔴 DÜĞÜMLEME ŞART — ölçüldü (sınav, 17 Eylül): rasterio'nun parçaları ortak
+    #    kenarda AYNI köşeleri taşımıyor (T-kavşağı: A'nın uzun kenarında B ile
+    #    C'nin köşesi yok). GEOS böyle bir örtüyü GEÇERSİZ sayar ve
+    #    coverage_simplify basamağı SESSİZCE sadeleştiremez (434/434 bozuk kenar).
+    #    Bütün halkalar TEK ağda düğümlenip yeniden poligonlaştırılır; yüzler
+    #    parçalarla birebirdir (sınav: 11.344 = 11.344), örtü geçerli çıkar.
+    _yr_parca, _yr_sahip = [], []
+    for _gj, _v in _rfe.shapes(_yr_G, transform=_yr_tr, connectivity=4):
+        _yr_parca.append(shape(_gj))
+        _yr_sahip.append(int(_v))
+    del _yr_G
+    _yr_yuz = list(polygonize(unary_union(
+        [_r for _p in _yr_parca for _r in [_p.exterior, *_p.interiors]])))
+    _yr_pagac = STRtree(_yr_parca)
+    _yr_grup = {}
+    for _f in _yr_yuz:
+        _q = _yr_pagac.query(_f.representative_point(), predicate="within")
+        if len(_q) != 1:
+            raise SystemExit(f"YÜRÜYÜŞ: düğümlenmiş yüz {len(_q)} parçaya düştü — "
+                             "örtü kurulamadı. Koşu durduruldu.")
+        _yr_grup.setdefault(_yr_sahip[int(_q[0])], []).append(_f)
+    print(f"  ızgara parçası {len(_yr_parca):,} · düğümlenmiş yüz {len(_yr_yuz):,} "
+          + ("✓" if len(_yr_parca) == len(_yr_yuz) else "✗ SAYI FARKLI"))
+    del _yr_parca, _yr_sahip, _yr_yuz, _yr_pagac
+    _yr_eski = PETEK
+    PETEK = [Polygon() for _ in YERLER]
+    for _v, _ps in _yr_grup.items():
+        PETEK[_v] = (shapely.coverage_union_all(_ps) if len(_ps) > 1 else _ps[0])
+    _yr_bos_n = sum(1 for g in PETEK if g.is_empty)
+    # boş (hücresiz) tohumlar sadeleştirmeye VERİLMEZ — GEOS örtüsü boş öğe istemez
+    _yr_dolu = [i for i, g in enumerate(PETEK) if not g.is_empty]
+    for i, g in zip(_yr_dolu, shapely.coverage_simplify(
+            [PETEK[i] for i in _yr_dolu], YURUYUS_SADE)):
+        PETEK[i] = g
+    _yr_gecersiz = sum(1 for x in shapely.coverage_invalid_edges(
+        [g for g in PETEK if not g.is_empty]) if x is not None and not x.is_empty)
+    _yr_disari = [YERLER[i]["ad"] for i in range(len(PETEK))
+                  if not PETEK[i].is_empty and not PETEK[i].intersects(noktalar[i])]
+    print(f"  {len(_yr_grup)} sahipli tohum · hücresiz tohum {_yr_bos_n} "
+          f"(aynı ızgara hücresini paylaşan — örtüde mini-Voronoi böler) · "
+          f"örtü bozuk kenar {_yr_gecersiz} "
+          + ("✓" if _yr_gecersiz == 0 else "✗"))
+    print(f"  tohumu kendi hücresinin DIŞINDA kalan {len(_yr_disari)}"
+          + (f": {', '.join(_yr_disari[:10])}" if _yr_disari else " ✓"))
+    _yr_deg = sum(1 for i in range(len(PETEK))
+                  if not _yr_eski[i].is_empty and not PETEK[i].is_empty
+                  and _yr_eski[i].symmetric_difference(PETEK[i]).area
+                  > 0.25 * _yr_eski[i].area)
+    print(f"  Voronoi hücresinden %25'ten fazla ayrışan petek: {_yr_deg}")
+    del _yr_eski, _yr_grup
 
 # ---------------- A1: YARIÇAP TAVANI ----------------
 # 🔴 EMRE, 8 Ağustos 2026: "Bir yerleşim yerinin idarî, askerî, sosyal,
@@ -2001,7 +2763,8 @@ for i, g in enumerate(PETEK_TAM):
     kara_kesik = g.intersection(KARA)
     a0 = kara_kesik.area
     if a0 > 0:
-        kes = kara_kesik.intersection(TAVAN_DAIRE[i])
+        kes = (_yr_kes(kara_kesik, i) if MOTOR_YURUYUS
+               else kara_kesik.intersection(TAVAN_DAIRE[i]))
         if not kes.is_empty:
             _tv_once += a0
             _tv_sonra += kes.area
@@ -2013,6 +2776,11 @@ for i, g in enumerate(PETEK_TAM):
 print(f"  yarıçap tavanı: {len(_TV_BAGLI)} petek bağlandı "
       f"({100*len(_TV_BAGLI)/len(YERLER):.1f}%) · "
       f"KARA alanının {100*(_tv_once-_tv_sonra)/max(_tv_once,1e-9):.1f}%'i kesildi")
+
+if MOTOR_YURUYUS:
+    print(f"  🚶 yukarıdaki 'yarıçap tavanı' satırı BÜTÇE kesimidir "
+          f"({YURUYUS_SAAT:g} saat; ızgara dışı payda A1) · tohum yeri korunan "
+          f"{len(_YR_KORUMA)}" + (f": {', '.join(_YR_KORUMA[:10])}" if _YR_KORUMA else ""))
 
 # ═══ 🔴 KOVA GENİŞLETİLDİ — koşu 5'in öngörü ①'i BUNU ÇÜRÜTTÜ ═══
 # İlk sürüm yalnız tavanın BAĞLADIĞI hücreyi kasıtlı sayıyordu. Öngörü
@@ -2098,7 +2866,8 @@ for _k in _komp:
             if _pp.is_empty:
                 continue
             _en = min(_ic, key=lambda i: _ptl[i].distance(_pp))
-            _pay = _pp.intersection(TAVAN_DAIRE[_en])
+            _pay = (_yr_kes(_pp, _en) if MOTOR_YURUYUS
+                    else _pp.intersection(TAVAN_DAIRE[_en]))
             if _pay.is_empty or _pay.area <= 1e-12:
                 _tavan_tuttu += _pp.area          # tavan sahipsiz bıraktı
                 continue
@@ -2135,519 +2904,6 @@ def _ham_km2(g):
             T += sg * abs(s * R_DUNYA * R_DUNYA / 2)
     return T
 
-
-# ---------------- KARA-KISITLI SAHİPLİK ----------------
-# Ada kuralı KARA BİLEŞENİ bazlıdır ve Afrika ile Avrasya Sina üzerinden TEK
-# bileşendir; bu yüzden Oran'ın peteği İspanya anakarasına geçebiliyordu. Kural
-# "ihlal yok" diyor, sonuç saçma. Kullanıcının cümlesi (hatalar 15 md.19):
-# "PETEK BÖLGESİ DENİZAŞIRI OLAMAZ… binlerce kilometre karadan geçiş ile bu
-# bölgenin Oran'a ait olması mantıksız."
-#
-# Çare: sahipliği DÜZ mesafeyle değil KARA ÜZERİNDEN mesafeyle sormak. Kara
-# maskesi ızgaraya dökülür, bütün tohumlardan çok kaynaklı Dijkstra koşar, her
-# hücre "kara yolundan en yakın tohum"unu öğrenir.
-#
-# ⚠️ IZGARA YALNIZ SAHİPLİĞE KARAR VERİR, SINIR ÇİZMEZ. Sınır yine Voronoi'den
-#    gelir; bu yüzden ızgaranın kabalığı haritaya YANSIMAZ. Aksi hâlde çözümün
-#    kendisi yeni bir "cetvel" kusuru üretirdi — çaresi derdinden beter olurdu.
-#
-# ⚠️ KAPSAM — prototipin İLK sürümündeki hata ve düzeltmesi.
-#    İlk sürüm ızgarayı BÜTÜN parçalara sordu ve saçmaladı: en büyük iki
-#    değişiklik Nijniy Novgorod→Vologda (243.191 km²) ve Moskova→Vologda
-#    (124.467 km²) çıktı; ikisi de iç karada, denizle ilgisi yok. Sebep:
-#    0,05° ızgara mesafeyi ~%8 hatayla ölçer (oktil yaklaşımı + tohum
-#    yuvarlaması) ve KARADA bu, Voronoi'nin KESİN cevabından kötüdür.
-#    Doğru kapsam, yaklaşık yöntemi kesin yöntemin YANILDIĞI yere kısıtlamaktır:
-#      · tohum→parça düz hattı tamamen karadaysa → düz mesafe geçerli, VORONOI KALIR
-#      · hat denizden geçiyorsa                  → düz mesafe anlamsız, IZGARA KARAR VERİR
-#    Eşik yok; ölçüt "hat denizi kesiyor mu", bir sayı değil.
-#
-# GEÇME ÖLÇÜTÜ (prototipte ölçüldü, 32/32 parça kabul edildi): Oslo, Königsberg
-# ve Azak dar su geçişli MEŞRU parçalardır ve 0 km² kaybetmelidir. Kural onları
-# bozuyorsa kural yanlıştır.
-KV_ADIM = 0.05                   # ≈5,5 km enlemde
-KV_MIN_KM2 = 200.0               # ızgara çözünürlüğünün güvenilir olduğu taban
-asama(f"Kara-kısıtlı sahiplik: ızgara {KV_ADIM}° kuruluyor")
-_kvx0, _kvy0, _kvx1, _kvy1 = BOLGE.bounds
-_kvnx = int(round((_kvx1 - _kvx0) / KV_ADIM))
-_kvny = int(round((_kvy1 - _kvy0) / KV_ADIM))
-_kvkp = prep(KARA)          # aşağıda LineString sınamasında da kullanılıyor
-# ⚠️ VEKTÖRLEŞTİRİLDİ — MOTOR 3, 3 Ağustos 2026.
-# Eski hâli 4,74 milyon ayrı `_kvkp.contains(Point(...))` çağrısıydı ve aşama
-# bilançosunda 3dk 20sn tutuyordu (koşunun %4,4'ü) — ızgara kurulumu, faz-1'in
-# çöl tavanından sonraki en pahalı kalemiydi. `shapely.contains_xy` AYNI GEOS
-# yüklemini dizi üzerinde koşturur.
-# ÖLÇÜLDÜ (scratchpad, 60 satır × 3.160 = 189.600 hücre): FARKLI HÜCRE = 0,
-# yani birebir aynı maske; hız 25,7× (6,78 sn → 0,26 sn), tam ızgara ~170 sn → ~7 sn.
-# 📌 Satır satır çağrılıyor: 4,74M'lik tek dizi ~76 MB ara bellek isterdi,
-# satır başına 3.160 nokta hem hızın tamamını verir hem belleği düz tutar.
-import numpy as _np
-shapely.prepare(KARA)
-_kvxs = _kvx0 + (_np.arange(_kvnx) + 0.5) * KV_ADIM
-_kvkara = bytearray(_kvnx * _kvny)
-for _j in range(_kvny):
-    _lat = _kvy0 + (_j + 0.5) * KV_ADIM
-    _kvkara[_j * _kvnx:(_j + 1) * _kvnx] = shapely.contains_xy(
-        KARA, _kvxs, _np.full(_kvnx, _lat)).astype(_np.uint8).tobytes()
-print(f"  ızgara {_kvnx}×{_kvny} = {_kvnx*_kvny:,} hücre, "
-      f"kara {sum(_kvkara):,}")
-
-# Tohumları ızgaraya oturt. ⚠️ Kıyıdaki tohum su hücresine düşebilir (0,002°
-# maske vs 0,05° ızgara); en yakın kara hücresine kaydırılmazsa ulaşılmaz olur.
-# ═══ 🔴 PENCERE DIŞI TOHUM IZGARAYA ALINMAZ — 16 Ağustos 2026 ═══════════════
-# Eski hâl `min()/max()` ile KISTIRIYORDU: pencerenin dışındaki bir nokta hata
-# vermeden ızgaranın KENAR SÜTUNUNA oturuyor, sonra Dijkstra'da oradan
-# yayılıyordu. Yani 2.555 km ötedeki bir yerleşim, kenardaki toprak için
-# YARIŞIYORDU.
-#
-# ⚠️ ÖLÇÜLDÜ, VARSAYILMADI (M-0247 · M-0502):
-#     bağlı veride kıstırılan            144 nokta
-#       ızgarada yer BULAN                 8   ← bunların peteği BOŞTU, zararsız
-#     bağlanacak dosyalarda kıstırılacak  36 nokta
-#       kıstırıldığı yerde KARA olan       9   ← ve BUNLAR SAHİPLİ
-#         Kap (Cape Town)   18,4 · −33,9 → −11,0   2.555 km
-#         Oranj · Ulundi · Transvaal · Mapungubwe · Büyük Zimbabve
-#         + Doğu Sibirya · Penjina · Kolıma
-# Güney Afrika'nın altı gövdesi lat −11'e, yani KONGO/TANZANYA kuşağına
-# oturuyordu. Bileşen kilidi bunu engellemez: alıcının gerçek noktası maskenin
-# dışında olduğu için `_kv_bilesen()` −1 döner ve kilit HİÇ KURULMAZ.
-#
-# 🟢 ÇARE — DARALTMA, yeni davranış EKLEMEK değil: pencere dışındaki bir
-#    noktanın maliyet ızgarasına tohum ekmesi HİÇBİR HÂLDE doğru değil.
-#    O noktalar için Voronoi kalır — `_kverisilmez` ile aynı yol.
-# 📌 Ve bu, `§11`in "pencere dışı ≠ yanlış konum" dersiyle tutarlı: nokta
-#    DOĞRU yerdedir, atlas penceresi oraya HENÜZ açılmamıştır. Kaydı silmiyoruz,
-#    yalnız IZGARAYA sokmuyoruz. Pencere büyüyünce kendiliğinden girer.
-_kvpencere_disi = []
-_kvtohum, _kvkaydi, _kverisilmez = {}, 0, []
-for _idx, _y in enumerate(YERLER):
-    if not (_kvx0 <= _y["lon"] < _kvx0 + _kvnx * KV_ADIM
-            and _kvy0 <= _y["lat"] < _kvy0 + _kvny * KV_ADIM):
-        _kvpencere_disi.append((_y["ad"], _y["lon"], _y["lat"]))
-        continue                      # KISTIRMA YOK — Voronoi'de kalır
-    _i = min(_kvnx - 1, max(0, int((_y["lon"] - _kvx0) / KV_ADIM)))
-    _j = min(_kvny - 1, max(0, int((_y["lat"] - _kvy0) / KV_ADIM)))
-    if not _kvkara[_j * _kvnx + _i]:
-        _en, _ed = None, 9e9
-        for _dj in range(-3, 4):
-            for _di in range(-3, 4):
-                _a, _b = _i + _di, _j + _dj
-                if 0 <= _a < _kvnx and 0 <= _b < _kvny and _kvkara[_b * _kvnx + _a]:
-                    _d = _di * _di + _dj * _dj
-                    if _d < _ed: _ed, _en = _d, (_a, _b)
-        if _en is None:
-            _kverisilmez.append(_y["ad"]); continue
-        _i, _j = _en; _kvkaydi += 1
-    _kvtohum.setdefault(_j * _kvnx + _i, []).append(_idx)
-print(f"  {sum(len(v) for v in _kvtohum.values())} tohum yerleşti "
-      f"({_kvkaydi} tanesi en yakın kara hücresine kaydırıldı)")
-if _kverisilmez:
-    print(f"  ⚠️ ızgarada yer bulunamayan {len(_kverisilmez)} tohum "
-          f"(bu noktalar için Voronoi kalır): {', '.join(_kverisilmez[:8])}")
-# 🔴 PENCERE DIŞI TOHUMLAR — İSİM İSİM basılır, çünkü sessiz eleme YASAK.
-# Koordinatörün şartı (M-0509 ②): "17 tohumu İSİM İSİM yaz: hangisi düştü,
-# düşmesi DOĞRU mu." Liste basılmazsa bir sonraki oturum bunu ölçemez ve
-# "kıstırma düzeltildi" cümlesi DOĞRULANAMAZ bir iddia olarak kalır.
-if _kvpencere_disi:
-    _kvpd = sorted(_kvpencere_disi,
-                   key=lambda t: -girdi.km(t[2], t[1],
-                                           max(_kvy0, min(t[2], _kvy0 + _kvny * KV_ADIM)),
-                                           max(_kvx0, min(t[1], _kvx0 + _kvnx * KV_ADIM))))
-    print(f"  🔒 PENCERE DIŞI, ızgaraya ALINMADI: {len(_kvpd)} tohum "
-          f"(kıstırma YOK — Voronoi kalır)")
-    for _ad, _lo, _la in _kvpd[:12]:
-        _sl = max(_kvx0, min(_lo, _kvx0 + _kvnx * KV_ADIM))
-        _sb = max(_kvy0, min(_la, _kvy0 + _kvny * KV_ADIM))
-        print(f"       {_ad[:38]:<38} {_lo:8.2f},{_la:7.2f}   "
-              f"kenara {girdi.km(_la, _lo, _sb, _sl):>6,.0f} km olurdu")
-    if len(_kvpd) > 12:
-        print(f"       … ve {len(_kvpd)-12} tohum daha")
-
-# ---------------- ① EĞİM SÜRTÜNMESİ — ızgaranın kendi çözünürlüğünde --------
-# DEM aynı ızgaraya (BOLGE.bounds × KV_ADIM) indirgenir ve hücre başına
-# sürtünme çarpanı üretilir:  surt = 1 + EGIM_CARPANI × |∇z|
-#
-# ⚠️ ÇÖZÜNÜRLÜK KALİBRASYONLA AYNI OLMAK ZORUNDA — ve ölçüldü, ŞANS DEĞİL.
-# `|∇z|` birimi METRE / HÜCRE'dir, yani hücre boyuyla ÖLÇEKLENİR: 0,02°lik bir
-# ızgarada aynı yamaç 2,5 kat küçük bir eğim değeri verir ve 0,005 çarpanı
-# sessizce başka bir şeye dönüşürdü. `egim_olc.py:62` → `ADIM = 0.05`;
-# buradaki `KV_ADIM` de 0,05. İkisi aynı, o yüzden çarpan taşınabilir.
-# 📌 Bu, `§11`in "bir aletin evreni değişince alet sessizce yanılır" dersinin
-#    önlenmiş hâli: aynı sayı, farklı ızgarada AYNI SAYI DEĞİLDİR.
-#
-# 🔴 `np.flipud` ŞART VE SEBEBİ ÖLÇÜLDÜ (maliyet.py:262-282'nin aynısı):
-#    rasterio dizisinde SATIR 0 KUZEY'dir; bu ızgara `_kvy0 + (_j+0,5)*KV_ADIM`
-#    ile kurulur, yani **_j=0 GÜNEY'dir.** İkisi TERS ve fark SESSİZDİR —
-#    toplam kara oranı neredeyse değişmediği için hiçbir toplam ölçüm ötmez.
-#    Bağlanmasaydı motor Karadeniz kıyısını Akdeniz'in eğimiyle hesaplardı.
-# 🟢 VE DOĞRULUĞU BAĞIMSIZ TANIKLA SINANDI, varsayılmadı: çevirmeden sonra
-#    en pahalı hücreler 84,1°D/28,5°K (Annapurna, sürt 11,03) ve 74,7°D/36,4°K
-#    (Karakurum, 9,10) çıkıyor. Ters olsaydı bunlar Hint Okyanusu'na düşerdi.
-#    ⇒ Coğrafya, dizinin doğru yönde olduğunun tanığıdır.
-_kvsurt = None
-if EGIM_CARPANI > 0 and EGIM_DEM:
-    asama("Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)")
-    import rasterio as _rio
-    from rasterio.windows import from_bounds as _from_bounds
-    # 🔴🔴 DEM İZGARADAN KISA — VE KIRPILMAZSA GERİLİR. 12 Eylül 2026'da
-    #    ölçüldü (KITA 11 buldu, koordinatör bağımsız yeniden üretti).
-    #    ```
-    #    istenen ızgara   -60 → +85   (2900 satır × 0,05°)
-    #    etopo2022_30s    -60 → +84   (17280 satır × 30s)   ⇒ 1,0° EKSİK
-    #    ```
-    #    Eski kod pencereyi 85'e kadar istiyordu; rasterio pencereyi dosyaya
-    #    kırpıyor ama `out_shape=(2900, 7200)` verildiği için **144°'lik
-    #    veriyi 145°'lik ızgaraya YENİDEN ÖRNEKLİYOR** — yani DEM KUZEYE
-    #    DOĞRU GERİLİYOR. Ölçülen kayma (bilinen zirvelerin enlemi):
-    #    ```
-    #    Everest   +0,637°   Mont Blanc +0,742°   Elbruz +0,720°
-    #    K2        +0,544°   Kilimanjaro +0,392°  Aconcagua +0,878°
-    #    Ağrı Dağı +0,673°  ≈ 75 km KUZEY          ← Anadolu'daki bedel
-    #    ```
-    #    KONTROL: pencere 84,0'a kırpılıp çıktı 2880 satır yapılınca kayma
-    #    ÇÖKÜYOR (Everest −0,013 · Elbruz −0,030 · Kilimanjaro −0,008 ·
-    #    Ağrı +0,023) ⇒ sebep KESİN, başka bir şey değil.
-    # 🔴 BEDELİ: sürtünme yüzeyi YANLIŞ ENLEMDE. Koşu 8 ve 9 bu kodla koştu,
-    #    yani o çıktıların eğim yüzeyi de kaymış. Dijkstra dağ bedelini
-    #    75 km kuzeyde ödemiş.
-    # 📌 Ve kusur SESSİZDİ: hiçbir toplam ölçüm ötmez (kara oranı, eğim
-    #    medyanı, en pahalı hücre — hepsi makul kalır). `§11`in "bir aletin
-    #    evreni değişince alet sessizce yanılır" dersinin DEM yüzü; ve
-    #    hemen üstteki `np.flipud` yorumu "kayma SESSİZ olurdu" diye
-    #    UYARIYORDU — uyarı doğruydu, yalnız BAŞKA BİR EKSENDE gerçekleşti.
-    with _rio.open(EGIM_DEM) as _ds:
-        # Izgaranın GERÇEK kutusu: _kvnx/_kvny yuvarlanarak bulundu, o yüzden
-        # BOLGE.bounds'un üst ucu değil ızgaranın kendi üst ucu kullanılır.
-        # Aksi hâlde DEM yarım hücre kayardı ve kayma SESSİZ olurdu.
-        _dem_ust = float(_ds.bounds.top)
-        _ist_ust = _kvy0 + _kvny * KV_ADIM
-        # Pencereyi DEM'in KENDİ üst ucuna kırp — gerilmeyi böyle keseriz.
-        _ust = min(_ist_ust, _dem_ust)
-        _sat = int(round((_ust - _kvy0) / KV_ADIM))
-        _win = _from_bounds(_kvx0, _kvy0,
-                            _kvx0 + _kvnx * KV_ADIM, _ust,
-                            transform=_ds.transform)
-        _zp = _ds.read(1, window=_win, out_shape=(_sat, _kvnx),
-                       resampling=_rio.enums.Resampling.average).astype("float32")
-    _zp = _np.flipud(_zp)          # artık satır 0 = GÜNEY (ızgarayla aynı yön)
-    if _sat == _kvny:
-        _z = _zp
-    else:
-        # Eksik kuşak ızgaranın KUZEY ucundadır (84°-85°K) ve orası
-        # neredeyse tamamen okyanus: en kuzeydeki kara Grönland'ın kuzey
-        # kıyısı (~83,6°K) ve Ellesmere (~83,1°K), ikisi de 84°'nin ALTINDA.
-        # Deniz seviyesi (0) ile doldurmak eğimi bozmaz ve `_kvkara` maskesi
-        # o hücreleri zaten dışarıda bırakır.
-        _z = _np.zeros((_kvny, _kvnx), dtype="float32")
-        _z[:_sat] = _zp
-        print(f"  ⚠️ DEM ızgaradan KISA: üst uç {_dem_ust:.2f}° < istenen "
-              f"{_ist_ust:.2f}° — {_kvny - _sat} satır (kuzey kuşağı) deniz "
-              f"seviyesiyle dolduruldu. GERİLME YOK (kırpıldı).")
-    del _zp
-    _gy, _gx = _np.gradient(_z)
-    _kvegim = _np.hypot(_gx, _gy)
-    # array('f') — düz liste 6,4 M ayrı Python float'ı olurdu (~200 MB);
-    # array 4 bayt/öğe ile 25 MB'ta kalır ve indeksleme yine Python float verir.
-    import array as _array
-    _kvsurt = _array.array("f", (1.0 + EGIM_CARPANI * _kvegim).ravel().tolist())
-    _kvsm = _kvegim.ravel()[_np.frombuffer(bytes(_kvkara), dtype=_np.uint8) > 0]
-    print(f"  eğim çarpanı {EGIM_CARPANI} · kara hücresinde eğim medyanı "
-          f"{float(_np.median(_kvsm)):,.0f} m/hücre → sürtünme medyanı "
-          f"{1.0 + EGIM_CARPANI * float(_np.median(_kvsm)):.3f}")
-    print(f"  en pahalı hücre: sürtünme {1.0 + EGIM_CARPANI * float(_kvsm.max()):.2f} "
-          f"(eğim {float(_kvsm.max()):,.0f} m/hücre)")
-    del _z, _gy, _gx, _kvegim, _kvsm
-else:
-    print("  🔴 EĞİM YOK — Dijkstra ağırlıksız koşuyor (çarpan 0,000).")
-
-# ---------------- ② NEHİR GEÇİŞ BEDELİ — KENARA yazılır, HÜCREYE değil -----
-# MOTOR · DALGA-0052 · 16 Eylül 2026. Araştırma: `denetim/NEHIR-GECIS-SURE-0915.md`
-# (commit 9151774) · öncülü `denetim/ARASTIRMA-NEHIR-0912.md`.
-#
-# 🔴 NİÇİN KENAR — 0912 ④'ün bulgusu: sürtünme HÜCREYE ait bir çarpan; nehir
-#    geçişi ise bir KENAR olayıdır. Hücreye yazılsaydı (a) nehir BOYUNCA
-#    yürümek ile nehri GEÇMEK aynı bedeli öderdi — oysa tarihte nehir boyu bir
-#    YOLDUR; (b) 5,5 km'lik hücrenin %80-95'i kara iken bütünü cezalanırdı.
-#    ⇒ Bir ızgara adımı (hücre merkezi → komşu merkezi) nehir HATTINI KESİYORSA
-#    o adıma ek bedel yazılır. Nehre paralel adım kesmez, bedel ödemez.
-#
-# BİRİM: saat → km-eşdeğeri, × 5,04 km/saat (Tobler düz hız —
-#    `oturumlar/MENZIL-KARARLARI-0912.md` ②: 40 saat ≈ 201 km). Sürtünme
-#    çarpanı bu ek bedele UYGULANMAZ — bekleme ve tekne süresi eğime bağlı değil.
-#
-# TABLO — her sayı `denetim/NEHIR-GECIS-SURE-0915.json` `onerilen_adim_bedeli`nden:
-#   İDARE (varsayılan, bağlayıcı özne — MENZIL ① · D030)
-#     geçitsiz sınıf-1   16 s  Musul 1737 (2 gün) · Misis 1737 (6 gün): köprü/tekne
-#                              YOKKEN kafilenin kaybı, kaynaklı aralığın ALT ucu
-#     geçitsiz sınıf-2    4 s  fiilî kafile geçişi (Teixeira 1604 · Buckingham 1816)
-#                              ⚠️ TÜRETİLDİ — küçük nehirde kurumsal gün kaybı
-#                              varsayılmadı; KAYNAKSIZ bir ayrım, KARAR BEKLİYOR
-#     kopru               0 s  Evliya: 3,5 km Ösek köprüsü 2 saat ≈ yürüme süresi
-#     feribot/kale-cifti  8 s  5/5 kafile kaydında günün kalanı gitti
-#     sig-gecit           4 s  0912 Herzog oranı geçitli:geçitsiz = 1:4 → 16/4
-#                              ⚠️ TÜRETİLDİ — sığ geçit süresi için kayıt BULUNAMADI
-#   ORDU (KAPALI — Emre özneyi seçmedi; MOTOR_NEHIR_OZNE=ordu ile açılır)
-#     kopru 16 s (hazır köprü medyanı 2 gün × 8) · köprü kurarak 72 s (kurma
-#     medyanı 7 gün + geçiş 2 gün) · sig-gecit için kayıt BULUNAMADI → geçitsiz
-#
-# GEÇİT: `data/gecitler.js` (63 kayıt) — motor BU DOSYAYI YALNIZ OKUR.
-#   Bir kesen adımın orta noktası bir geçidin `etki_km`si içindeyse bedel
-#   min(geçitsiz, tür bedeli) olur. `f`/`t` OKUNMAZ: Emre'nin 22 Ağu kararı
-#   (gecitler.js başlığı) — "geçit köprüden eskidir", ilk turda HEP VAR.
-#   ⚠️ Geçit NEHİR ADIYLA eşlenmiyor, YAKINLIKLA eşleniyor: iki nehrin
-#      kavşağındaki geçit (Belgrad) ikisine de bedel indirimi verir. Ad eşleme
-#      Türkçe/NE yazımları yüzünden ayrı bir iş; sınırı burada kayıtlı.
-#   ⚠️ `etki_km` (30/20/15/10) gecitler.js'in KENDİ beyanıyla kalibre EDİLMEDİ.
-#
-# 🔴 KAPSAM — ve bu, ölçümün ilk cümlesi olmalı: bu Dijkstra'nın cevabı
-#    haritaya YALNIZ düz hattı DENİZİ kesen parçalar için iner (aşağıda
-#    `_kvkp.contains(LineString(...))` süzgeci). Kara-kara sınırı hâlâ
-#    Voronoi + 200 km tavan çiziyor. Yani nehir bedeli bugün ızgarayı
-#    değiştirir, haritayı ancak dar bir kapıdan etkiler — `GORUNUM-ABC-0910.md`
-#    ③ "kara-kara sürtünmeli Dijkstra" bir MOTOR DEĞİŞİKLİĞİDİR, bu değil.
-NEHIR_OZNE = os.environ.get("MOTOR_NEHIR_OZNE", "idare")
-NEHIR_KAPALI = (os.environ.get("MOTOR_NEHIR_KAPALI") == "1"
-                or NEHIR_SINIFI is None or not NEHIRLER)
-NEHIR_KM_SAAT = 5.04
-NEHIR_BEDEL_SAAT = {
-    "idare": {"gecitsiz": {1: 16.0, 2: 4.0},
-              "kopru": 0.0, "feribot": 8.0, "kale-cifti": 8.0, "sig-gecit": 4.0},
-    "ordu":  {"gecitsiz": {1: 72.0, 2: 72.0},      # sınıf-2 BULUNAMADI → en kötü hâl
-              "kopru": 16.0, "feribot": 72.0, "kale-cifti": 72.0, "sig-gecit": None},
-}
-# Dijkstra'nın komşu sırası — kenar anahtarı `h * 8 + yön` bu sıraya bağlı,
-# o yüzden kurucu ile Dijkstra AYNI sabiti okur.
-_KV_YON = ((1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (1, -1), (-1, 1), (-1, -1))
-
-
-def _nehir_kenar_kur(parcalar, siniflar, gecitler, tablo):
-    """Nehir hattını KESEN ızgara adımlarının ek bedelini kurar.
-
-    Döner: (bedel, bayrak, olcum)
-      bedel   {h*8+yön: km-eşdeğeri}  — yalnız bedeli > 0 olan adımlar
-      bayrak  bytearray: h'den çıkan en az bir bedelli adım varsa 1
-      olcum   sayım sözlüğü (rapor için)
-    """
-    import numpy as _npn
-    # ① nehir hücreleri — her hat yarım ızgara adımıyla örneklenir
-    _hs = {}
-    _hatlar, _hsinif = [], []
-    for g, s in zip(parcalar, siniflar):
-        for ln in shapely.get_parts(g):
-            if ln.geom_type not in ("LineString", "LinearRing") or ln.is_empty:
-                continue
-            _hatlar.append(ln); _hsinif.append(s)
-            L = ln.length
-            n = max(2, int(L / (KV_ADIM * 0.5)) + 1)
-            pt = shapely.line_interpolate_point(ln, _npn.linspace(0.0, L, n))
-            ii = _npn.clip(((shapely.get_x(pt) - _kvx0) / KV_ADIM).astype(int), 0, _kvnx - 1)
-            jj = _npn.clip(((shapely.get_y(pt) - _kvy0) / KV_ADIM).astype(int), 0, _kvny - 1)
-            for h in set((jj * _kvnx + ii).tolist()):
-                _hs[h] = min(s, _hs.get(h, 9))
-    # ② aday kaynak hücreler: nehir hücresi ∪ 8 komşusu, yalnız KARA
-    _aday = set()
-    for h in _hs:
-        j, i = divmod(h, _kvnx)
-        for dj in (-1, 0, 1):
-            for di in (-1, 0, 1):
-                a, b = i + di, j + dj
-                if 0 <= a < _kvnx and 0 <= b < _kvny and _kvkara[b * _kvnx + a]:
-                    _aday.add(b * _kvnx + a)
-    # ③ aday adımlar (merkez → merkez) ve nehirle kesişim — vektörel
-    _anah, _x0s, _y0s, _x1s, _y1s = [], [], [], [], []
-    for h in _aday:
-        j, i = divmod(h, _kvnx)
-        cx = _kvx0 + (i + 0.5) * KV_ADIM
-        cy = _kvy0 + (j + 0.5) * KV_ADIM
-        for yi, (di, dj) in enumerate(_KV_YON):
-            a, b = i + di, j + dj
-            if not (0 <= a < _kvnx and 0 <= b < _kvny) or not _kvkara[b * _kvnx + a]:
-                continue
-            _anah.append(h * 8 + yi)
-            _x0s.append(cx); _y0s.append(cy)
-            _x1s.append(cx + di * KV_ADIM); _y1s.append(cy + dj * KV_ADIM)
-    olcum = {"nehir_hucre": len(_hs), "aday_hucre": len(_aday),
-             "aday_adim": len(_anah), "kesen_adim": 0,
-             "sinif1_adim": 0, "sinif2_adim": 0,
-             "gecit_indirimli": 0, "kopru_adim": 0, "gecit": len(gecitler)}
-    bedel, bayrak = {}, bytearray(_kvnx * _kvny)
-    if not _anah:
-        return bedel, bayrak, olcum
-    _seg = shapely.linestrings(
-        _npn.stack([_npn.column_stack([_x0s, _y0s]),
-                    _npn.column_stack([_x1s, _y1s])], axis=1))
-    _agac = STRtree(_hatlar)
-    _si, _hi = _agac.query(_seg, predicate="intersects")
-    _kes = {}                                   # seg → en pahalı sınıf (1 < 2)
-    for s_, h_ in zip(_si.tolist(), _hi.tolist()):
-        _kes[s_] = min(_hsinif[h_], _kes.get(s_, 9))
-    olcum["kesen_adim"] = len(_kes)
-    # ④ geçit indirimi — orta nokta, 0,5° (≈55 km) içindeki geçitler taranır;
-    #    en büyük `etki_km` 30 olduğu için pencere yeterli.
-    _gidx = sorted(_kes)
-    _mid = shapely.points(
-        (_npn.array([_x0s[k] for k in _gidx]) + _npn.array([_x1s[k] for k in _gidx])) / 2.0,
-        (_npn.array([_y0s[k] for k in _gidx]) + _npn.array([_y1s[k] for k in _gidx])) / 2.0)
-    _gbedel = {}
-    if gecitler:
-        _gpt = shapely.points([g[0] for g in gecitler], [g[1] for g in gecitler])
-        _mi, _gi = STRtree(_gpt).query(_mid, predicate="dwithin", distance=0.5)
-        for m_, g_ in zip(_mi.tolist(), _gi.tolist()):
-            glo, gla, tur, etki, _ = gecitler[g_]
-            tb = tablo.get(tur)
-            if tb is None:
-                continue
-            mx, my = shapely.get_x(_mid[m_]), shapely.get_y(_mid[m_])
-            if girdi.km(my, mx, gla, glo) <= etki:
-                _gbedel[m_] = min(tb, _gbedel.get(m_, float("inf")))
-    for m_, s_ in enumerate(_gidx):
-        sinif = _kes[s_]
-        saat = tablo["gecitsiz"][sinif]
-        olcum["sinif1_adim" if sinif == 1 else "sinif2_adim"] += 1
-        if m_ in _gbedel and _gbedel[m_] < saat:
-            saat = _gbedel[m_]
-            olcum["gecit_indirimli"] += 1
-            if saat == 0.0:
-                olcum["kopru_adim"] += 1
-        if saat > 0.0:
-            k = _anah[s_]
-            bedel[k] = saat * NEHIR_KM_SAAT
-            bayrak[k // 8] = 1
-    return bedel, bayrak, olcum
-
-
-_KVNEHIR = None
-if not NEHIR_KAPALI:
-    asama("Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)")
-    _nb_tablo = NEHIR_BEDEL_SAAT[NEHIR_OZNE]      # bilinmeyen özne → KeyError, sessiz değil
-    _nb_bedel, _nb_bayrak, _nb_olcum = _nehir_kenar_kur(
-        NEHIRLER, NEHIR_SINIFI, GECIT_KAYIT, _nb_tablo)
-    _KVNEHIR = (_nb_bedel, _nb_bayrak)
-    print(f"  özne {NEHIR_OZNE} · nehir hücresi {_nb_olcum['nehir_hucre']:,} · "
-          f"nehri KESEN adım {_nb_olcum['kesen_adim']:,} / {_nb_olcum['aday_adim']:,} aday")
-    print(f"  sınıf-1 {_nb_olcum['sinif1_adim']:,} · sınıf-2 {_nb_olcum['sinif2_adim']:,} · "
-          f"geçit indirimli {_nb_olcum['gecit_indirimli']:,} (köprü, bedelsiz "
-          f"{_nb_olcum['kopru_adim']:,}) · geçit kaydı {_nb_olcum['gecit']}")
-    print(f"  bedelli adım {len(_nb_bedel):,} · tablo {_nb_tablo}")
-else:
-    print(f"  🔴 NEHİR GEÇİŞ BEDELİ KAPALI (MOTOR_NEHIR_KAPALI="
-          f"{os.environ.get('MOTOR_NEHIR_KAPALI')} · sınıf listesi "
-          f"{'YOK' if NEHIR_SINIFI is None else 'var'}) — nehir bedeli 0")
-
-# Çok kaynaklı Dijkstra, YALNIZ kara hücreleri üzerinden. Adım maliyeti gerçek
-# km: boylam adımı cos(enlem) ile daralır, yoksa kuzeyde mesafeler şişer ve
-# Baltık/Norveç vakaları yanlış tarafa düşer.
-# ⚠️ VE ARTIK km DEĞİL, km × SÜRTÜNME + NEHİR BEDELİ (km-eşdeğeri).
-#    `_kvuzak` bu aşamadan sonra "kilometre" değil "yürüme bedeli" taşır;
-#    başka bir yerde mesafe diye OKUNMAMALIDIR. Birimi km-eşdeğeridir:
-#    ÷ 5,04 ile yürüyüş SAATİNE döner (MENZIL ②).
-#    (Bu aşamada yalnız KARŞILAŞTIRMA için kullanılıyor — hangi tohum daha
-#    ucuz — ve karşılaştırma için birim önemsizdir.)
-import heapq as _heapq
-asama("Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)")
-_KVDY = KV_ADIM * 111.32
-
-
-def _kv_dijkstra(surt, nehir=None):
-    """Çok kaynaklı Dijkstra. surt=None ise ağırlıksız (eski davranış);
-    nehir=None ise nehir geçişi bedelsiz (eski davranış).
-
-    ⚠️ İŞLEV HÂLİNE GETİRİLDİ ki AYNI KOD birden çok kez koşabilsin — eğimli
-    / eğimsiz, nehirli / nehirsiz. Kopyala-yapıştır ikinci bir gövde yazmak
-    daha kolaydı ve YANLIŞ olurdu: iki kopya zamanla ayrışır, ve ayrıştıkları
-    an A/B ölçümü sessizce anlamını yitirir. Karşılaştırmanın geçerliliği,
-    iki tarafın AYNI KOD olmasına bağlıdır. (`denetim/ARAC-MOTOR-NEHIR-0916.py`
-    bu işlevi dosyadan AST ile ÇEKİP koşturur — ayrı bir kopya yazmaz.)
-    """
-    uzak = [float("inf")] * (_kvnx * _kvny)
-    sahip = [-1] * (_kvnx * _kvny)
-    nbedel, nbayrak = nehir if nehir is not None else ({}, None)
-    q = []
-    for h, idxs in _kvtohum.items():
-        uzak[h] = 0.0
-        sahip[h] = idxs[0]
-        _heapq.heappush(q, (0.0, h))
-    while q:
-        d, h = _heapq.heappop(q)
-        if d > uzak[h]: continue
-        j, i = divmod(h, _kvnx)
-        dx = _KVDY * math.cos(math.radians(_kvy0 + (j + 0.5) * KV_ADIM))
-        nh = nbayrak is not None and nbayrak[h]
-        for yi, (di, dj) in enumerate(_KV_YON):
-            a, b = i + di, j + dj
-            if not (0 <= a < _kvnx and 0 <= b < _kvny): continue
-            k = b * _kvnx + a
-            if not _kvkara[k]: continue
-            # Sürtünme HEDEF hücreden okunur — `egim_olc.py:136` (`f = fr[jj][ii]`)
-            # kalibrasyonu birebir böyle yaptı. Kaynak hücreden ya da iki
-            # hücrenin ortalamasından okumak BAŞKA bir yüzeydir ve 0,005 orada
-            # ölçülmedi.
-            nd = d + math.hypot(dx * di, _KVDY * dj) * (surt[k] if surt else 1.0)
-            if nh:
-                nd += nbedel.get(h * 8 + yi, 0.0)   # ② nehir: KENAR bedeli
-            if nd < uzak[k]:
-                uzak[k] = nd; sahip[k] = sahip[h]
-                _heapq.heappush(q, (nd, k))
-    return uzak, sahip
-
-
-_kvuzak, _kvsahip = _kv_dijkstra(_kvsurt, _KVNEHIR)
-print(f"  kara yolu çözüldü, erişilen hücre {sum(1 for s in _kvsahip if s >= 0):,}")
-
-# ---------------- ① A/B — EĞİMİN ETKİSİ, AYNI KOŞUNUN İÇİNDE ----------------
-# 🔴 NİÇİN VAR: `A1 tavanı` vakasının dersi *"bir düzeltme doğru çalışabilir ve
-# SONRAKİ AŞAMA onu geri alabilir, ve ikisi arasındaki boşluk hiçbir denetimin
-# sorusu değildir."* Eğim çarpanı için aynı soruyu sorabilmenin normal yolu iki
-# tam koşudur (eğimli + eğimsiz) — 160 dakika. Oysa ölçülmek istenen şey
-# aşamanın KENDİ içinde: aynı ızgara, aynı tohumlar, tek fark sürtünme.
-# ⇒ İkinci Dijkstra burada koşar (ölçülen maliyet: 1dk 38sn, koşunun %2,1'i) ve
-#   sonucu ÜRETİME HİÇ KARIŞMAZ; yalnız `_kvsahip0` olarak okunur.
-#
-# ⚠️ VE BU, ÖNGÖRÜNÜN MAZERETİNİ ORTADAN KALDIRIYOR. Öngörüyü yazarken tek
-# ölçemediğim şey *"ızgaradaki değişimin kaçı HARİTAYA iniyor"*du, çünkü o soru
-# PETEK_D'yi gerektiriyor ve PETEK_D koşuda doğuyor. Şimdi koşunun kendisi
-# cevaplıyor. `§11`: sonradan yazılan mazeret bulguya benzer — en iyisi mazeret
-# ihtiyacını KALDIRMAK.
-#
-# 📌 ÖLÇTÜĞÜM ile ÇIKARDIĞIM ayrı (B10): aşağıdaki sayı *"eğim yüzünden alıcısı
-# değişen parça"*dır. *"Haritanın eğim yüzünden ne kadar düzeldiği"* DEĞİLDİR —
-# onu ancak Emre'nin gözü ve kronoloji söyler.
-_kvsahip0 = None
-if _kvsurt is not None and not os.environ.get("MOTOR_EGIM_AB_KAPALI"):
-    asama("Kara-kısıtlı sahiplik: A/B ölçümü (eğimsiz ikinci Dijkstra)")
-    # ⚠️ Nehir bedeli İKİ TARAFTA DA aynı (`_KVNEHIR`) — fark yalnız EĞİM.
-    #    16 Eylül'den önce bu çağrı `_kv_dijkstra(None)` idi; nehir eklenince
-    #    öyle kalsaydı bu satır eğim + nehir farkını birlikte sayardı ve
-    #    ÖNGÖRÜ (166.966) ile karşılaştırması sessizce anlamını yitirirdi.
-    _kvuzak0, _kvsahip0 = _kv_dijkstra(None, _KVNEHIR)
-    _ab_hucre = sum(1 for _k in range(_kvnx * _kvny)
-                    if _kvsahip[_k] != _kvsahip0[_k])
-    _ab_er0 = sum(1 for s in _kvsahip0 if s >= 0)
-    _ab_er1 = sum(1 for s in _kvsahip if s >= 0)
-    print(f"  eğimsiz erişilen {_ab_er0:,} · eğimli erişilen {_ab_er1:,} "
-          + ("✓ AYNI" if _ab_er0 == _ab_er1 else
-             f"🔴 FARK {_ab_er1 - _ab_er0:+,} — eğim erişilebilirliği "
-             "DEĞİŞTİRMEMELİ, sürtünme sonludur"))
-    print(f"  ızgarada sahibi değişen hücre: {_ab_hucre:,} "
-          f"({100.0 * _ab_hucre / max(1, _ab_er1):.2f}% · ÖNGÖRÜ ~166.966 / %4,97)")
-    del _kvuzak0
-
-# ---------------- ② A/B — NEHİR BEDELİNİN ETKİSİ, AYNI KOŞUNUN İÇİNDE --------
-# Eğim A/B'sinin birebir aynası: aynı ızgara, aynı tohum, aynı sürtünme; tek
-# fark nehir kenar bedeli. Sonuç ÜRETİME KARIŞMAZ, yalnız `_kvsahipN` okunur.
-# Ölçülen maliyet: bir Dijkstra daha (eğim A/B'si ile aynı mertebe).
-# ÖNGÖRÜ koşudan ÖNCE ölçüm betiğiyle yazıldı: `denetim/MOTOR-0916.md` ②.
-_kvsahipN = None
-if _KVNEHIR is not None and not os.environ.get("MOTOR_NEHIR_AB_KAPALI"):
-    asama("Kara-kısıtlı sahiplik: A/B ölçümü (nehirsiz ikinci Dijkstra)")
-    _kvuzakN, _kvsahipN = _kv_dijkstra(_kvsurt, None)
-    _abn_hucre = sum(1 for _k in range(_kvnx * _kvny)
-                     if _kvsahip[_k] != _kvsahipN[_k])
-    _abn_er = sum(1 for s in _kvsahip if s >= 0)
-    print(f"  ② nehir bedeli yüzünden ızgarada sahibi değişen hücre: "
-          f"{_abn_hucre:,} ({100.0 * _abn_hucre / max(1, _abn_er):.2f}% · "
-          f"ÖNGÖRÜ: denetim/MOTOR-0916.md ②)")
-    del _kvuzakN
 
 asama("Kara-kısıtlı sahiplik: parçaları sına ve devret")
 
