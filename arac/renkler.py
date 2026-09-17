@@ -3105,6 +3105,9 @@ BOYALAR = {
     #   ⇒ Bir rengi tek komşuya karşı seçmek, öteki komşulara karşı
     #     ölçmemektir. Ölçüm YENİDEN koşuldu: çakışma 1 → 0.
     "suriye-lubnan-mandasi": ("Fransız Suriye-Lübnan Manda İdaresi", "#d24824"),
+    # 17 Eylül 2026 · KUNYE-TARAF önerisi: komşulara (hicaz · suriye-lubnan-mandasi ·
+    # irak-kralligi · Osmanlı) en küçük ΔE 49,5; paletteki en yakın `sind` 11,5 (komşu değil).
+    "suriye-arap-kralligi": ("Suriye Arap Krallığı (Faysal, 1918-1920)", "#9fa619"),
     "sutayogullari": ("Sutayogullari", "#5ad224"),
     "tannu-tuva": ("Tannu Tuva Halk Cumhuriyeti", "#6024d2"),
     "topia": ("Topia (Thopia) Beyliği", "#60d224"),
