@@ -13,6 +13,8 @@
     "olaylar_dosyalari_sonuc": "0 doğrudan b:/d: alanında — bulunan tüm geçişler ic_not_d/ic_not_kaynak/ic_not_gun alanlarında (dokunulmadı, görev tanımı gereği)"
   },
 
+  "A_durum": "1.MURAT onayladı, EKO-TEMIZ kendi indirdi (17 Eylül) — 13 kalemin 13'ü de data/ekokuma_*.js dosyalarına UYGULANDI, node --check 7/7 dosya temiz. Commit edilmedi (talimat gereği), değişiklik listesi tahtaya yazıldı.",
+
   "A_gorev_kapsaminda": [
     {
       "dosya": "data/ekokuma_baslik_oneri.js", "id": "tartisma-en-basarili-sadrazamlar", "alan": "(başlık sözlüğü değeri)",
@@ -78,6 +80,17 @@
       "dosya": "data/ekokuma_statu.js", "id": "statu-iki-tarihyazimi", "alan": "metin",
       "eski": "Emre'nin sorusu 1594'teki üç voyvodalık ayaklanmasından doğdu: yabancı kaynaklarda Erdel, Eflak ve Boğdan ayrı devletler gibi,",
       "yeni": "Bu soru 1594'teki üç voyvodalık ayaklanmasından doğar: yabancı kaynaklarda Erdel, Eflak ve Boğdan ayrı devletler gibi,"
+    }
+  ],
+
+  "C_ikinci_tarama_kronoloji_b_d": [
+    {
+      "not": "1.MURAT talimatıyla (17 Eylül) kronoloji b/d alanlarında İKİNCİ, daha derin bir tarama yapıldı: 111 dosya (data/olaylar*.js + data/kronoloji*.js) tek tek. Sonuç: b:/d: alanlarının kendisinde YENİ bir 'Emre' bulunamadı (ilk taramadaki hüküm doğrulandı) — ama komşu bir görünür alanda (`gun:`) BİR yeni kalem çıktı, taramanın kapsamı genişletilerek eklendi. HENÜZ VERİYE YAZILMADI, onay bekliyor."
+    },
+    {
+      "dosya": "data/olaylar_ek8.js", "id": "(t:1586-01-01, b:\"Nahçıvan ve Ordubad'ın Osmanlı idaresine girmesi\")", "alan": "gun",
+      "eski": "1586 (Bilge 2017, Vakanüvis 2 s.51-52; TDV nahcivan yıl vermiyor) — Emre kararı 14 Eylül 2026",
+      "yeni": "1586 (Bilge 2017, Vakanüvis 2 s.51-52; TDV nahcivan yıl vermiyor)"
     }
   ],
 
