@@ -1024,6 +1024,109 @@ dyok("d1820-ah-mn-dalmacya", [HA, MN], "1820-11-23", [18.4, 42.0, 19.15, 42.55],
      "1815-1820 arası hattın durumu BULUNAMADI. Hersek-Karadağ kesimi 1878'e kadar Osmanlı-Karadağ (D1).", t=G3)
 
 
+# ================================================================ G8-G10 — 1606-11-11 → 1281-01-01 (zincirli)
+# Yalnız ANTLAŞMAYA DAYANAN hatlar kayda girdi; belgesi olmayan örfî hatlar (Macaristan-Avusturya, Macaristan-Bohemya,
+# Polonya-Litvanya 1569 öncesi, Balkan beylikleri arası) YAZILMADI — boş kayıt uydurulmadı.
+# Bütün kayıtlar YOK: 1606 öncesinde bu bölgede koordinatla belgelenmiş hat yok.
+K.update({
+    "ht_erdel": dict(ad="History of Transylvania I (Macar Bilimler Akademisi; mek.oszk.hu)", madde="s. 99-104, 118-119: Szapolyai 1526-11-10/11; Nagyvárad 1538-02-24; Speyer onayı 1571-03-10; Viyana barışı 1606-06-23", tarih="—", tur="akademik",
+                     url="https://mek.oszk.hu/03400/03407/html/99.html", not_="Speyer'in imza günü BULUNAMADI"),
+    "vle_lublin": dict(ad="VLE — Liublino unija (J. Kiaupienė)", madde="vilayetlerin katılışı 1569 03-06; imza 1569-07-01; onay 1569-07-04", tarih="1569", tur="ansiklopedi-akademik",
+                       url="https://www.vle.lt/straipsnis/liublino-unija/"),
+    "vle_lt_mos": dict(ad="VLE — LDK ve Moskova savaşları · Livonijos karas · Zapolskij Jamo paliaubos · Glinskio maištas", madde="1494 barışı; 1508-10-08 barışı; 1537 ateşkesi; 1563-1579 Polotsk; 1571 ateşkesi; 1582-01-15 ateşkesi", tarih="—", tur="ansiklopedi-akademik",
+                       url="https://www.vle.lt/straipsnis/lietuvos-didziosios-kunigaikstystes-maskvos-didziosios-kunigaikstystes-karai/"),
+    "bre_1503": dict(ad="Büyük Rus Ansiklopedisi (BRE; histrf.ru) — Moskova ateşkesi 1503 · Pskov Cumhuriyeti · Rus-Litvanya savaşları (M. M. Krom)", madde="1503-04-02 ateşkes (onay Vilnius 08-27); Pskov 1510-01-13; Smolensk 1514 Temmuz sonu; ateşkes 1522-09-14", tarih="—", tur="ansiklopedi-akademik",
+                     url="https://w.histrf.ru/articles/moskovskoe-peremirie-1503", not_="takvim stili belirtilmemiş (muhtemelen Jülyen)"),
+    "vle_ugra": dict(ad="VLE — Ugros taika · Kazimieras Jogailaitis", madde="Ugra barışı Eylül 1408 (sınır Ugra ırmağı); 1449-08-31 barışı (nüfuz alanı)", tarih="1408", tur="ansiklopedi-akademik",
+                     url="https://www.vle.lt/straipsnis/ugros-taika/"),
+    "vle_ordu": dict(ad="VLE — Salyno sutartis · Racionžo sutartis · Torunės taika · Melno taika", madde="Salynas 1398-10-12; Raciąż 1404-05-23; Toruń 1411-02-01; Melno 1422-09-27 (onay 1423-03-30)", tarih="—", tur="ansiklopedi-akademik",
+                     url="https://www.vle.lt/straipsnis/salyno-sutartis/"),
+    "muzhp": dict(ad="Muzeum Historii Polski — kalendarium (Kalisz 1343; I. Toruń 1411; Horodło 1413) · dzieje.pl", madde="Kalisz 1343 (8 Temmuz dzieje.pl ↔ 8 Ağustos muzhp — ÇELİŞKİ)", tarih="—", tur="resmi-kurum",
+                  url="https://muzhp.pl/kalendarium/pokoj-kaliski"),
+    "umk_1435": dict(ad="UMK Yayınevi — Dokumenty pokoju brzeskiego … z 31 grudnia 1435 roku", madde="Brześć Kujawski barışı 1435-12-31", tarih="1435-12-31", tur="akademik-edisyon",
+                     url="https://wydawnictwo.umk.pl/produkt/dokumenty-pokoju-brzeskiego-miedzy-polska-i-litwa-a-zakonem-krzyzackim-z-31-grudnia-1435-roku"),
+    "adb_thorn": dict(ad="ADB (Lohmeyer 1877) ve NDB (Jähnig 1987) — Töton Tarikatı; NDB (Hubatsch 1953) — Albrecht", madde="II. Toruń 1466-10-19: Pomerelia, Kulm, Marienburg, Elbing Polonya'ya; Kraków 1525-04-08", tarih="—", tur="biyografi-sözlüğü",
+                      url="https://www.deutsche-biographie.de/sfz53464.html",
+                      not_="Tarikatın Polonya'ya bağımlılığı TARTIŞMALI: Jähnig 'lenn ilişkisi kurmadı' der, ADB ve VLE vasallık der"),
+    "zpe_slezya": dict(ad="Zintegrowana Platforma Edukacyjna (Polonya Eğitim Bakanlığı) · dzieje.pl", madde="Visegrád 1335; Silezya'dan vazgeçiş Şubat 1339; Namysłów barışı 1348 (Polonya Silezya'daki Çek egemenliğini tanıdı)", tarih="1348", tur="resmi",
+                       url="https://zpe.gov.pl/a/przeczytaj/DYY1OHGw4", not_="Trenčín/Visegrád ve Namysłów günleri BULUNAMADI"),
+    "adb_olmutz": dict(ad="ADB (Priebatsch 1898) — II. Wladislaw", madde="Olmütz şartları 1478-09-30, onay Temmuz 1479: Moravya, Silezya, Lusatyalar Matthias'a", tarih="1479", tur="biyografi-sözlüğü",
+                       url="https://www.deutsche-biographie.de/sfz60669.html"),
+    "ieu_pokutia": dict(ad="Encyclopedia of Ukraine — Pokutia · Chernihiv", madde="Boğdan'ın Pokutya girişimleri 1498, 1502, 1509-10, 1531, 1535, 1572 — sınır değişmedi", tarih="—", tur="ansiklopedi-akademik",
+                        url="https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CO%5CPokutia.htm"),
+})
+PL0, LT0, MS = "polonya-erken", "litvanya-buyuk-dukalik", "moskova"
+BH, HU0 = "bohemya", "macaristan"
+POL_W = [(PL0, "1320-01-20", "1569-07-01"), (LH, "1569-07-01", "1795-10-24")]
+LIT_W = [(LT0, "1253-07-06", "1569-07-01"), (LH, "1569-07-01", "1795-10-24")]
+MOS_W = [(MS, "1325-01-01", "1547-01-16"), (RU, "1547-01-16", "1917-03-15")]
+KISA.update({PL0: "pl", LT0: "lt", MS: "mos", BH: "boh", HU0: "hu", RU: "rus"})
+G8, G9, G10 = "1526-08-29", "1453-05-29", "1281-01-01"
+ORDU_NOT = ("Töton Tarikatı devletinin ve 1525'ten sonra Dukalık Prusya'nın künyesi YOK — taraf `almanya` ile yazıldı (D-KUNYE'ye). ")
+
+# ---------- Litvanya/Polonya ↔ Moskova/Rusya
+yokp("d1408-lt-mos", [LIT_W, MOS_W], None, [33.0, 53.5, 36.5, 55.8], "1408-01-01", "1494-01-01", dy("vle_ugra"),
+     "G10-G9. Ugra barışı (Eylül 1408; gün BULUNAMADI → YYYY-01-01): sınır Ugra ırmağı (VLE). 1449 barışı yalnız nüfuz alanlarını ayırdı (Novgorod, Pskov, Tver). "
+     "1408 öncesinde antlaşma BULUNAMADI — kayıt yok.")
+yokp("d1494-lt-mos", [LIT_W, MOS_W], None, [30.0, 51.0, 36.5, 56.8], "1494-01-01", "1508-10-08", dy("vle_lt_mos", "bre_1503"),
+     "G9. 1494 'ebedî' barışı: Vyazma ve Yukarı Oka knezliklerinin çoğu Moskova'ya (BRE, Krom). Gün BULUNAMADI (4 Şubat 1494 nişanından sonra). "
+     "1503 Moskova ATEŞKESİ (2 Nisan; BRE) Çernigov-Seversk topraklarını Moskova'ya bıraktı — mütareke = fiilî (D), koordinatsız.")
+yokp("d1508-lt-mos", [LIT_W, MOS_W], None, [30.0, 51.0, 36.5, 56.8], "1508-10-08", "1634-01-01", dy("vle_lt_mos", "bre_1503"),
+     "G9-G7. 1508 'ebedî' barışı (8 Ekim; VLE) 1503 kazançlarını tanıdı. Sonraki değişikliklerin hepsi MÜTAREKE ya da işgal (D, koordinatsız): Smolensk 1514 (Temmuz sonu, BRE), "
+     "ateşkes 1522-09-14 (Smolensk Moskova'da), 1537 (Gomel Litvanya'ya), Polotsk 1563-1579, ateşkes 1571, Jam Zapolski 1582-01-15, Karışıklık Dönemi, Deulino 1618. "
+     "Sonraki barış Polyanovka (1634) — `d1634-lh-ru`. Bu kayıt HUKUKÎ E'nin 1508 hattında kaldığını söyler; fiilî görünüm bu aralıkta çok kez farklıdır.")
+# ---------- Polonya ↔ Töton Tarikatı / Prusya
+PL_ORD = [15.5, 52.6, 20.5, 54.6]
+dyok("d1343-pl-ord", [PL0, A], "1343-01-01", PL_ORD, degis(True, None, "1466"), dy("muzhp"), None,
+     "G10. Kalisz 'ebedî barışı': Kuyavya ve Dobrzyń Polonya'ya döndü; Pomerelia, Chełmno, Michałów Tarikat'ta kaldı. Gün ÇELİŞKİLİ (8 Temmuz / 8 Ağustos) → YYYY-01-01. "
+     + ORDU_NOT + "Raciąż 1404 ve Brześć 1435 (UMK edisyonu) bu kesimde ayrıntılı değişiklik göstermiyor (BULUNAMADI).", t="1411-02-01")
+dyok("d1411-pl-ord", [PL0, A], "1411-02-01", PL_ORD, degis(True, None, "1422"), dy("muzhp", "vle_ordu"), None,
+     "G10. I. Toruń barışı: Dobrzyń Polonya'ya döndü, Pomerelia Tarikat'ta kaldı (muzhp: 'daha çok ateşkes niteliğinde'). " + ORDU_NOT, t="1422-09-27")
+dyok("d1422-pl-ord", [PL0, A], "1422-09-27", PL_ORD, degis(True, None, "1466"), dy("vle_ordu", "umk_1435"), None,
+     "G10-G9. Melno: Polonya Nieszawa topraklarını ve Vistül yatağının yarısını aldı. Brześć Kujawski barışı 1435-12-31 kuzey sınırını 'kalıcı güvenceye' aldı (ayrıntı BULUNAMADI). " + ORDU_NOT,
+     t="1466-10-19")
+yokp("d1466-pl-pr", [POL_W], A, [15.5, 53.0, 22.9, 55.0], "1466-10-19", G7, dy("adb_thorn", "vle_ordu"),
+     "G9-G8. II. Toruń: Pomerelia, Kulm, Marienburg, Elbing ve Warmia (Kraliyet Prusyası) Polonya'ya; kalan Tarikat toprakları Doğu Prusya. "
+     "Kraków 1525-04-08: Doğu Prusya laik Dukalık Prusya oldu, Leh metbuluğunda. " + ORDU_NOT + "Tarikatın 1466-1525 bağımlılığı TARTIŞMALI (NDB ↔ ADB/VLE).",
+     onde=False)
+# ---------- Litvanya ↔ Töton Tarikatı / Prusya (Melno hattı)
+LT_ORD = [20.9, 53.8, 24.0, 56.1]
+dyok("d1398-lt-ord", [LT0, A], "1398-10-12", LT_ORD, degis(True, None, "1411"), dy("vle_ordu"), None,
+     "G10. Salynas: Samogitya Nevėžis'e kadar ve Sudovya'nın yarısı Tarikat'a; hat Šešupė-Neta-Bebra-Narew (VLE). Raciąż 1404-05-23 aynı hattı yeniledi. " + ORDU_NOT,
+     t="1411-02-01")
+dyok("d1411-lt-ord", [LT0, A], "1411-02-01", LT_ORD, degis(True, None, "1422"), dy("vle_ordu"), None,
+     "G10. I. Toruń: Samogitya yalnız Jogaila ve Vytautas'ın ömürleri boyunca Litvanya'ya. " + ORDU_NOT, t="1422-09-27")
+yokp("d1422-lt-ord", [LIT_W], A, LT_ORD, "1422-09-27", G7, dy("vle_ordu", "melno"),
+     "G10-G8. Melno: Tarikat Sudovya'dan ve Samogitya'dan kesin olarak vazgeçti; Neman'ın sağ kıyısında iki millik şerit (sonraki Memel bölgesi) Tarikat'ta kaldı. "
+     "Onay 1423-03-30. Bu hat 1919'a kadar korundu (VLE). " + ORDU_NOT, onde=False)
+# ---------- Polonya ↔ Bohemya/Habsburg (Silezya)
+dyok("d1348-pl-boh", [PL0, BH], "1348-01-01", [14.8, 49.9, 19.4, 52.2], degis(True, None, "1742 Prusya"), dy("zpe_slezya", "adb_olmutz"), None,
+     "G10-G9. Namysłów barışı (1348; gün BULUNAMADI): Polonya Silezya'daki Çek egemenliğini tanıdı (zpe); Kazimierz 1339 Şubat'ında Silezya dükalıklarından vazgeçmişti (dzieje.pl). "
+     "Olmütz (1478 şartları, onay Temmuz 1479) ile Silezya 1490'a kadar Matthias Corvinus'un elindeydi — o aralıkta karşı taraf fiilen Macaristan (ayrı kayıt yazılmadı).",
+     t=G8)
+yokp("d1526-pl-ah", [POL_W], HA, [14.8, 48.8, 24.5, 52.2], G8, G7, dy("zpe_slezya", "ht_erdel"),
+     "G8. Mohaç'tan sonra Bohemya tacı (Silezya) ve Kuzey Macaristan Habsburg'a geçti; Polonya ile hat aynı kaldı (değişiklik belgesi BULUNAMADI).", onde=False)
+# ---------- Habsburg Macaristan ↔ Erdel (Speyer)
+dyok("d1571-hm-er", [HM, ER], "1571-03-10", [20.5, 45.5, 24.0, 48.5], degis(True, None, "1606 Viyana barışı"), dy("ht_erdel"), None,
+     "G8. Speyer antlaşması (1570; imza günü BULUNAMADI) — Erdel beyleri 1571-03-10'da onayladı; János Zsigmond kral unvanını bırakıp prens oldu. "
+     "Máramaros, Kraszna, Közép-Szolnok ve Bihar prensliğe (Nagybánya ve Erdőd hariç). 1526-1570 Szapolyai krallığının künyesi YOK — o dönem yazılmadı "
+     "(Nagyvárad 1538-02-24 bölüşme hattını vermiyor). 1595-1606 Habsburg-Erdel çekişmesi (1598-1599 imparatorluk idaresi) fiilî, koordinatsız.",
+     t="1606-06-23")
+for k in KAYIT:
+    if k["id"] == "d1606-hm-er":
+        k["f"] = "1606-06-23"
+        k["dayanak"] += dy("ht_erdel")
+        k["not_"] += " G8: f = Viyana barışı 1606-06-23 — Erdel prensliğini yeniden kurdu, Partium'a Szatmár, Szabolcs, Ugocsa, Bereg ve Tokaj eklendi (HT)."
+# Erdel'in Eflak/Boğdan hatları: künye `erdel` 1570'te başlıyor → 1570-1606 dilimi
+yokp("d1570-er-ef", [EFL_W], ER, [22.0, 44.6, 26.0, 45.9], "1570-01-01", G7, dy("ht_erdel"),
+     "G8. Erdel prensliği – Eflak Karpat sınırı; 1598 Prag antlaşması Eflak'ı imparatorun vasalı yaptı (sınır değişikliği değil). 1570 öncesi Erdel, künyesi olmayan Szapolyai krallığının parçası.")
+yokp("d1570-er-bg", [BOG_W], ER, [25.3, 45.4, 26.6, 47.3], "1570-01-01", G7, dy("ht_erdel"),
+     "G8. Erdel – Boğdan Doğu Karpat sınırı. Boğdan voyvodası Petru 1529'dan sonra Csicsó, Bálványos ve Beszterce'yi almıştı (HT; dönüş günü BULUNAMADI).")
+# ---------- Polonya ↔ Boğdan (Pokutya)
+yokp("d1569-lh-bg", [BOG_W], LH, [24.5, 47.9, 27.5, 48.8], "1569-07-01", G7, dy("ieu_pokutia", "polishhistory"),
+     "G8. Birlik sonrası Leh-Boğdan hattı; Boğdan'ın Pokutya girişimleri (1531, 1535, 1572) hattı değiştirmedi (IEU).", onde=False)
+
+
 # Finlandiya fiilî hattı G2'ye uzar: Sovyet tanıması 1918-01-04 (◐; belgede sınır tarifi YOK)
 for k in KAYIT:
     if k["id"].startswith("d1918-fi-su-fiili"):
@@ -1375,6 +1478,78 @@ KRON += [
       ["hertslet2", "ibs43"], "E", "d1856-bes-guney"),
 ]
 
+# ---- G8-G10 maddeleri — YALNIZ EKSİK olanlar (ARAC-D3ORTA-KRON-VAR/YIL-0917.js)
+# Var olduğu için YAZILMAYANLAR: Szapolyai/Ferdinand 1526 · Nagyvárad 1538 · Kraków 1525 · Lublin 1569 · Jam Zapolski 1582 ·
+# II. Toruń 1466 · Novgorod 1478 · Kalisz 1343 · I. Toruń 1411 · Melno 1422 · Krewo 1385 · Vilnius-Radom 1401 · Horodło 1413 ·
+# Visegrád 1335 · Viyana barışı 1606 · Bosna'nın yıkılışı 1463.
+KRON += [
+    m("1348-01-01", PL0, [PL0, BH], "Namysłów barışı: Polonya Silezya'daki Çek egemenliğini tanıdı", "antlasma", 4, 2, [51.075, 17.717],
+      "Kazimierz III, Şubat 1339'da Silezya dükalıkları üzerindeki iddialarından vazgeçmişti; 1348 Namysłów barışıyla Polonya, Silezya'nın Bohemya tacına ait olduğunu tanıdı. "
+      "Barışın günü kaynaklarda bulunamadı (yıl kesin).",
+      ["zpe_slezya"], "E", "d1348-pl-boh"),
+    m("1398-10-12", LT0, [LT0, A], "Salynas antlaşması: Samogitya Töton Tarikatı'na bırakıldı", "antlasma", 4, 2, [55.3, 22.9],
+      "Vytautas, Polonya'ya karşı güç kazanmak için Tarikat'la anlaşarak Nevėžis ırmağına kadar Samogitya'yı ve Sudovya'nın yarısını bıraktı. "
+      "Litvanya böylece Baltık kıyısından itildi; hat 1404 Raciąż antlaşmasıyla yenilendi, 1411 ve 1422'de geri çevrildi.",
+      ["vle_ordu"], "E", "d1398-lt-ord"),
+    m("1404-05-23", PL0, [PL0, LT0, A], "Raciąż antlaşması: Samogitya yine Tarikat'ta kaldı", "antlasma", 3, 1, [52.78, 20.12],
+      "Jogaila ve Vytautas ile Töton Tarikatı arasındaki antlaşma, Litvanya-Tarikat sınırını Salynas'taki gibi bıraktı; Tarikat Samogitya'yı ve Sudovya'nın büyük kısmını geri aldı, "
+      "Novgorod ve öteki Litvanya toprakları üzerindeki iddialarından vazgeçti.",
+      ["vle_ordu"], "E", "d1398-lt-ord"),
+    m("1408-01-01", LT0, [LT0, MS], "Ugra barışı: Litvanya-Moskova sınırı Ugra ırmağı oldu", "antlasma", 4, 2, [54.8, 35.8],
+      "1406-1408 savaşının sonunda Ugra ırmağı kıyısında karşılaşan ordular çarpışmadan barış yaptı; Ugra, VLE'ye göre 16. yüzyıla kadar iki devletin sınırı kaldı. "
+      "Barış Eylül 1408'de yapıldı, gün kaynakta yok.",
+      ["vle_ugra"], "E", "d1408-lt-mos"),
+    m("1435-12-31", PL0, [PL0, LT0, A], "Brześć Kujawski barışı", "antlasma", 3, 2, [52.60, 18.90],
+      "Polonya ve Litvanya ile Töton Tarikatı arasında yapılan kalıcı barışla Tarikat, Litvanya iç savaşında Švitrigaila ile ittifakını bozdu ve Polonya'nın kuzey sınırı kalıcı güvenceye alındı. "
+      "Sınırın ayrıntıda nasıl değiştiği bu çalışmada bulunamadı.",
+      ["umk_1435", "muzhp"], "E", "d1422-pl-ord"),
+    m("1479-01-01", HU0, [HU0, BH, PL0], "Olmütz antlaşmaları: Moravya, Silezya ve Lusatya Matthias Corvinus'a", "antlasma", 4, 3, [49.594, 17.251],
+      "1478 sonbaharında belirlenen ve Temmuz 1479'da Olmütz'de iki kralın onayladığı antlaşmalarla Bohemya tacına bağlı Moravya, Silezya ve iki Lusatya, Macar kralı Matthias Corvinus'ta kaldı; "
+      "II. Wladislaw bunları Matthias'ın ölümünden sonra 400.000 duka karşılığında geri alabilecekti. Aynı sırada Polonya ile kalıcı barış yapıldı.",
+      ["adb_olmutz"], "E", "d1348-pl-boh"),
+    m("1485-01-01", MS, [MS, "tver"], "Tver Büyük Knezliği Moskova'ya katıldı", "toprak-kazanc", 4, 2, [56.859, 35.912],
+      "III. İvan'ın ordusu Eylül 1485'te Tver'e yürüdü ve Litvanya ile ittifak arayan Tver knezliği Moskova'ya katıldı. Böylece Litvanya'nın kuzeydoğu komşusu doğrudan Moskova oldu. "
+      "Gün kaynakta yok (Eylül 1485).",
+      ["vle_lt_mos"], "E", "d1408-lt-mos"),
+    m("1494-01-01", MS, [MS, LT0], "Litvanya-Moskova 'ebedî' barışı: Vyazma Moskova'ya", "antlasma", 4, 2, [55.21, 34.29],
+      "1487-1494 savaşını bitiren barışla Vyazma ve Yukarı Oka knezliklerinin çoğu Moskova'ya geçti; barış, III. İvan'ın kızı Yelena'nın Litvanya büyük dükü Aleksandr ile nişanından hemen sonra imzalandı "
+      "(nişan 4 Şubat 1494). Barışın kendi günü kabul edilebilir kaynakta bulunamadı.",
+      ["vle_lt_mos", "bre_1503"], "E", "d1494-lt-mos"),
+    m("1503-04-02", MS, [MS, LT0], "Moskova ateşkesi: Çernigov-Seversk toprakları Moskova'ya", "antlasma", 4, 3, [51.49, 31.29],
+      "1500-1503 savaşının sonunda altı yıllık ateşkes yapıldı; Çernigov, Gomel, Starodub, Novgorod-Seversk, Putivl, Rilsk, Bryansk ve Toropets dahil geniş bir bölge Moskova'da kaldı. "
+      "Ateşkes Vilnius'ta 27 Ağustos'ta onaylandı. Bu bir mütarekeydi; kazançlar 1508 barışıyla tanındı. Büyük Rus Ansiklopedisi günü 2 Nisan verir (yaygın 25 Mart tarihi kabul edilebilir kaynakta yok).",
+      ["bre_1503"], "D", "d1494-lt-mos"),
+    m("1508-10-08", LT0, [LT0, MS], "Litvanya-Moskova barışı: 1503 kazançları tanındı", "antlasma", 3, 2, [54.687, 25.280],
+      "Glinski ayaklanmasıyla başlayan savaşın sonunda I. Sigismund, Moskova'nın 1503'te elde ettiği toprakları barışla tanıdı; sınır değişmedi.",
+      ["vle_lt_mos", "bre_1503"], "E", "d1508-lt-mos"),
+    m("1510-01-13", MS, [MS, "pskov"], "Pskov Cumhuriyeti Moskova'ya katıldı", "toprak-kazanc", 4, 2, "Pskov",
+      "III. Vasili döneminde Pskov'un veçe çanı indirildi ve cumhuriyetin kurumları kaldırıldı; Pskov Moskova'ya bağlandı ve Litvanya'nın kuzeydoğu komşusu doğrudan Moskova oldu.",
+      ["bre_1503"], "E", "d1508-lt-mos"),
+    m("1514-01-01", MS, [MS, LT0], "Moskova Smolensk'i aldı", "toprak-kazanc", 5, 3, "Smolensk",
+      "Üçüncü kuşatmada Smolensk garnizonu Temmuz 1514 sonunda teslim oldu; ardından Mstislavl ve Kriçev de Moskova'ya bağlandı. Litvanya aynı yıl Orşa'da zafer kazansa da şehri geri alamadı. "
+      "Gün kaynakta yok (Temmuz sonu 1514). Bu bir işgaldi; hukukî tanıma ancak 1634'te geldi.",
+      ["bre_1503"], "D", "d1508-lt-mos"),
+    m("1521-01-01", MS, [MS, "ryazan"], "Ryazan Knezliği Moskova'ya katıldı", "toprak-kazanc", 3, 1, [54.629, 39.736],
+      "Ryazan knezliği 1521'de Moskova'ya bağlandı ve son bağımsız Rus knezliklerinden biri daha ortadan kalktı. Gün kaynakta yok.",
+      ["vle_lt_mos"], "E", "d1508-lt-mos"),
+    m("1522-09-14", MS, [MS, LT0], "Moskova ateşkesi: Smolensk Moskova'da kaldı", "antlasma", 3, 2, "Smolensk",
+      "1512-1522 savaşını bitiren ateşkes Smolensk'i Moskova'ya bıraktı; ateşkes 1526 ve 1532'de uzatıldı. Barış değil mütarekeydi.",
+      ["bre_1503"], "D", "d1508-lt-mos"),
+    m("1537-01-01", LT0, [LT0, MS], "Litvanya-Moskova ateşkesi: Gomel Litvanya'ya döndü", "antlasma", 3, 1, [52.43, 30.99],
+      "Starodub savaşı olarak da bilinen 1534-1537 savaşının sonunda yapılan ateşkesle Gomel Litvanya'ya geri döndü. Gün ve öteki hükümler kaynakta bulunamadı.",
+      ["vle_lt_mos"], "D", "d1508-lt-mos"),
+    m("1563-01-01", RU, [RU, LT0], "Rus ordusu Polotsk'u aldı", "toprak-kazanc", 4, 2, [55.486, 28.768],
+      "Livonya Savaşı sırasında IV. İvan'ın ordusu Polotsk'u ele geçirdi; şehir 1579'a kadar Rus işgalinde kaldı. Gün kabul edilebilir kaynakta bulunamadı.",
+      ["vle_lt_mos"], "D", "d1508-lt-mos"),
+    m("1571-03-10", ER, [ER, HM], "Erdel beyleri Speyer antlaşmasını onayladı: Erdel prensliği", "antlasma", 4, 3, "Varad (Oradea)",
+      "Speyer antlaşmasıyla János Zsigmond Macar kralı unvanını bırakıp Erdel prensi oldu; Máramaros, Kraszna, Közép-Szolnok ve Bihar prensliğe bırakıldı. "
+      "Gizli tutulan antlaşmayı İmparator II. Maximilian, Erdel beylerine 10 Mart 1571'de onaylattı. Antlaşmanın imza günü bulunamadı.",
+      ["ht_erdel"], "E", "d1571-hm-er"),
+    m("1579-01-01", LH, [LH, RU], "Lehistan-Litvanya Polotsk'u geri aldı", "toprak-kazanc", 4, 2, [55.486, 28.768],
+      "Lehistan-Litvanya'nın 1579 seferinde Polotsk Rus işgalinden kurtarıldı; şehir 1582 Jam Zapolski ateşkesiyle Lehistan-Litvanya'da kaldı. Gün kaynakta yok.",
+      ["vle_lt_mos"], "D", "d1508-lt-mos"),
+]
+
 ids = [k["id"] for k in KAYIT]
 for x in KRON:
     assert any(i == x["sinir_id"] or i.startswith(x["sinir_id"] + "-") or i.startswith(x["sinir_id"]) for i in ids), x["sinir_id"]
@@ -1382,7 +1557,7 @@ for x in KRON:
 KRON.sort(key=lambda x: (x["t"], x["b"]))
 with open(KRON_CIKTI, "w", encoding="utf-8", newline="\n") as f:
     f.write("""// -*- coding: utf-8 -*-
-// data/kronoloji_sinir_avrupa_orta.js — SINIR KRONOLOJİSİ · ORTA/DOĞU AVRUPA · 1606-11-11 → 1923-10-29 (G1-G7)
+// data/kronoloji_sinir_avrupa_orta.js — SINIR KRONOLOJİSİ · ORTA/DOĞU AVRUPA · 1281-01-01 → 1923-10-29 (G1-G10)
 // window.KRONOLOJI_SINIR_AVRUPA_ORTA — D3-AVRUPA-ORTA · 16 Eylül 2026 · 🔴 ELLE DÜZENLEME
 // Üretici: denetim/ARAC-D3ORTA-URET-0916.py (hat kayıtlarıyla AYNI betik — `sinir_id` data/d_sinirlar_avrupa_orta.js'e bağlanır)
 // Şema: oturumlar/KRONOLOJI-SARTNAME.md §3 + `taraflar` (ilgili devletler) · `sinif` (E hukukî / D fiilî) · `sinir_id` (kayıt öneki)

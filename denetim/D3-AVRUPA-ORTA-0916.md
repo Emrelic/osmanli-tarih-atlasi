@@ -239,6 +239,50 @@ G7      12  (YOK 12)          2   Linz 1645 · Ebedî Barış 1686
 **Çakışma:** Kendi tarafımda 0. BATI'nın `dg3-hab-ch-1893-oncesi` kutusu (9,49-10,50 D · 46,51-47,57 K) şimdi AUT-DEU E kayıtlarımın dördünü örtüyor (47-89 nokta). Öneri M-4173'te BATI'ya iletildi.
 **Kaynaklar:** Hertslet c. 1-4 (archive.org) · Noradounghian c. I-II · IBS 43 · Stauber 2015 · Avusturya Parlamentosu · Britannica (Partitions, Tilsit/Schönbrunn/Pressburg, Teschen, Silesian Wars, Belgrade 1739, Hungary, Deulino/Andrusovo, Wehlau/Oliva — çoğu "Britannica Editors") · DDB (Berlin 1742 basılı metni) · IEG Mainz · Kreuter 2019 · TDV (pasarofca-antlasmasi, erdel, hotin, kamanice, bogdan, sirbistan, yas-antlasmasi) · Encyclopedia of Ukraine · Sejm Kançılaryası · CANU · polishhistory.pl (Wasiucionek) · dzieje.pl (◐).
 
+## 4f. 🆕 G8-G10 — 1606-11-11 → 1281-01-01 (zincirli, 17 Eylül)
+
+```
+kayıt 184 → 205  ·  kronoloji 59 → 77 madde
+dalga   başlayan kayıt    yeni madde
+G8      11 (YOK 11)       4   Speyer onayı 1571 · Gomel 1537 · Polotsk 1563 / 1579
+G9       3 (YOK 3)        9   Olmütz 1479 · Tver 1485 · 1494 barışı · 1503 ateşkesi · 1508 barışı · Pskov 1510 · Smolensk 1514 · Ryazan 1521 · 1522 ateşkesi
+G10      8 (YOK 8)        5   Namysłów 1348 · Salynas 1398 · Raciąż 1404 · Ugra 1408 · Brześć 1435
+```
+- **Kural:** Yalnız ANTLAŞMAYA dayanan hatlar kayda girdi. Belgesi olmayan örfî hatlar yazılmadı; boş kayıt uydurulmadı:
+  - Macaristan-Avusturya
+  - Macaristan-Bohemya
+  - 1569 öncesi Polonya-Litvanya
+  - Balkan beylikleri arası
+  - Macaristan-Eflak/Boğdan vasallığı
+
+  1606 öncesinde bu bölgede koordinatla belgelenmiş hat yok; bütün kayıtlar YOK.
+- **Litvanya-Moskova:**
+  - Ugra 1408 → 1494 → 1508 barışları E.
+  - 1503, 1522, 1537, 1571 ve 1582 MÜTAREKEdir; Smolensk 1514 ve Polotsk 1563-79 işgaldir. Bunlar D sınıfı ama koordinatsız, yalnız kronolojide yer aldı.
+  - Hukukî hat 1508'den Polyanovka'ya (1634) kadar sürdü.
+- **Töton Tarikatı:**
+  - Polonya kesimi: Kalisz 1343 → Toruń 1411 → Melno 1422 → II. Toruń 1466.
+  - Litvanya kesimi: Salynas 1398 → Toruń 1411 → Melno 1422.
+  - Tarikat ve Dukalık Prusya künyesi YOK; taraf `almanya` ile yazıldı. 1466 sonrası bağımlılık TARTIŞMALI (NDB ↔ ADB/VLE).
+- **Silezya:** Namysłów 1348 → 1526 (Bohemya), sonra Habsburg. 1479-90 arasında Matthias Corvinus'un elinde (Olmütz).
+- **Erdel:**
+  - Speyer: onay 1571-03-10, imza günü BULUNAMADI.
+  - `d1606-hm-er` f → Viyana barışı 1606-06-23.
+  - Szapolyai krallığının (1526-70) künyesi YOK; o dönem yazılmadı.
+- **Çelişkiler ve bulunamayanlar:**
+  - Kalisz günü: 8 Temmuz ↔ 8 Ağustos 1343.
+  - 1503 ateşkesi: BRE 2 Nisan; yaygın 25 Mart kabul edilebilir kaynakta yok.
+  - Takvim stili: kaynakların hiçbiri Eski/Yeni Stil belirtmiyor.
+  - BULUNAMADI: Namysłów, Ugra, 1494 ve Smolensk günleri.
+- **Kaynaklar:**
+  - Macar Bilimler Akademisi, *History of Transylvania*.
+  - VLE (Litvanya ansiklopedisi).
+  - Büyük Rus Ansiklopedisi (histrf.ru; bir sayfa Wayback kopyası).
+  - ADB/NDB (deutsche-biographie.de).
+  - muzhp.pl, dzieje.pl, zpe.gov.pl, UMK yayınevi.
+  - Encyclopedia of Ukraine; TDV `bosna-hersek`, `erdel`, `bogdan`, `eflak`.
+  - Britannica ve PWN bu turda erişilemedi.
+
 ## 6. 🆕 EK OKUMA — paket 0057 H-0001 / H-0002 (`DALGA-0057.md`)
 
 `data/ekokuma_venedik.js` → `window.EKOKUMA_VENEDIK` — **2 kart**, ikisinde de `baslik` var.
