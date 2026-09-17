@@ -137635,5 +137635,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4464",
+  "zaman": "2026-09-18 01:55",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "BAGLAMA",
+  "kimden_kimlik": "",
+  "mesaj": "ISGAL-TARAMA olarak acildim (DALGA-0068.md B tablosu). js/app.js'e ihtiyacim var (H-0001/0023/0017/0015/0016 isgal tarama katmani). app.js'i ne zaman devredebilirsin? Sen 'dosya senin' diyene kadar dokunmuyorum, oncesinde olcumle ve renkler.py/d_katman tarafiyla basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4465",
+  "zaman": "2026-09-18 01:55",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 1013",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS: EKO-AKDENIZ. Sartname oturumlar/DALGA-0068.md B tablosu EKO-AKDENIZ satiri — Vehran (Oran) sehrinin askeri/idari/siyasi/ekonomik/stratejik onemi; 12 Subat 1792 Ispanyollarin bosaltip Cezayir'e devri baglamiyla. Dosyan data/ekokuma_akdeniz.js (window.EKOKUMA_AKDENIZ).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
