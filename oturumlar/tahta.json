@@ -137725,5 +137725,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4469",
+  "zaman": "2026-09-18 02:10",
+  "kimden": "ISGAL-1787",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM ISGAL-1787 (0068: H-0002·0003·0005·0007·0008·0009·0011·0026) · denetim/YAMA-ISGAL-1787-0918.json · commit 77f4835 · veriye YAZILMADI. (1) OLCTUM — dort katman ayri okundu: bugunku veri (86 girdi dosyasi) · kosu 12'nin GIRDISI (710b3ad) · kosu 12'nin CIKTISI (donemler.js + devirler.js, 14:54) · kosu 13'un girdi anlik goruntusu (C:/atlas-kosu13, 19:47, yalniz OKUMA). MANSET: sekiz maddenin YEDISINDE veri DOGRU ve kaynakli — eksik olan YAYIN. Dubica (1788-08-26) · Novi (1788-10-03) · Hotin (1788-09-01) · Bukres (1789-11-01) · Bender (1789-11-14) · Kili (1790-10-24) · El-Aris (1799-02-18): yedisi de kosu 12'nin girdisinde YOKTU, kosu 13'un girdisinde VAR ⇒ kosu 13 yayinlaninca haritada gorunecekler. YAMA GEREKMIYOR. ISMAIL'IN YESILI: sebep olculdu — kosu 12 tabaninda Ismail'in Rus donemi `s:` (kalici sahiplik) idi ({f:1790-12-22,t:1792-01-10,d:rusya}), donemler.js'te 'Kayip: Ismail' segmenti olarak duruyor; 17 Eylul 19:46'da `isg:`e cevrilmis. Kosu 13'te oteki kaleler gibi TARALI olacak. GORSELDEKI IKI TARALI LEKE (H-0005/H-0007, 1789-11-01): Bogurdelen (1788-04-24) ve Semendire (1789-10-13) — ikisi de dogru ve kaynakli (TDV semendire GUN veriyor). Savas o tarihte suruyordu (Zistovi 4 Agustos 1791). 🔴 TEK GERCEK BOSLUK — BELGRAD: sehir 1789'da Avusturya'nin eline gecti ve Zistovi ile iade edildi (TDV belgrad + zistovi-antlasmasi: II. Joseph 'elinde tuttugu Belgrad'i iade etmeye hazirdi'), atlasta isg KAYDI YOK. Yani gorsel 'isgal fazla' degil TERSI: isgalin ortasindaki sehir isgalsiz. Oneri I-1: isg avusturya → t:1791-08-04; GUN icin karar gerekiyor. GUN: TDV'de YOK (dort madde tarandi: belgrad · zistovi-antlasmasi · semendire · koca-yusuf-pasa). (a) ONERIM 1789-10-13, 'gun komsudan: Semendire · TDV semendire' — §4'un dort sarti da karsilaniyor, yeni maddesiz kirilma ACMAZ (o gun Semendire'nin kirilmasi zaten var) ve isgali erken gostermez. (b) 1789-01-01 yil hassasiyeti ZARARLI: Belgrad'i 9 ay fazladan isgal altinda gosterir ve maddesiz yeni kirilma acar. KRONOLOJI: IK-1 1789-10-13 'Belgrad ve Semendire Avusturya'nin eline gecti' — bugun o gunun maddesi YOK, Semendire'nin kirilmasi da karsiliksiz; tek madde ikisini birden karsilar. MOTORA DEVIR (M-1): kosu 13 bitince ISGALLER pencerede 9-10 kayit mi diye OLCULMELI; girmeyen olursa sebep uret_devirler.py'nin 'govde kurulamadi / peteni bulunamadi' uyarilarindadir. app.js ve motora DOKUNMADIM. (2) BULUNAMADI: Belgrad'in teslim gunu · Orsova · Yeni Orsova · Berbir/Gradiska · Kladova — bu dort kalenin atlasta NOKTASI YOK, isgalleri olculemedi (nokta acmak sartname disi) · kosu 13'un bitis saati. (3) ISTIYORUM: Belgrad gun karari (a/b); I-1 + IK-1'in hangi kosuya binecegi. Degisen data/ dosyasi YOK. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
