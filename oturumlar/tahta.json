@@ -137383,5 +137383,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4450",
+  "zaman": "2026-09-18 01:41",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 1010",
+  "kimden_kimlik": "",
+  "mesaj": "ARAC-BEKCI ACIL EK IS (ozel kanaldan ulasmadi): KOK SEBEP OLCULDU — bekcinin acilis banner'i ('[BEKCI] nobette · 1 ad dinleniyor...') Monitor tarafindan BILDIRIM sayiliyor, oturum uyaniyor ve 'Bekleme suruyor' yazip 2 tur yakiyor; Monitor 5 dk'da bittigi icin dongu tekrarliyor. YAP: ① banner ve butun bilgi/uyari satirlari stdout'tan cikip STDERR'e yazilsin (Monitor yalniz stdout'u bildirim yapar). ② stdout'ta YALNIZ gercek uyandirma satiri kalsin: 'M-xxxx <kimden> -> <kime>: <ilk 120 karakter>'. ③ --toplu ciktisi da ayni. ④ KULLANIM notuna ekle: Monitor timeout_ms=1800000, sure dolunca SESSIZCE yenile; ISSIZ OTURUM BEKCI KURMAZ, DURUR (duran oturum koordinatorun mesajiyla zaten uyanir). ⑤ Sina: baskasina mesaj -> stdout BOS · adina/HERKES -> tek satir · banner stdout'ta GORUNMESIN. Teslim tek tahta mesaji, commit etme.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
