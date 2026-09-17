@@ -132778,5 +132778,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4343",
+  "zaman": "2026-09-17 15:29",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILIS DALGA-0064 (D3-AVRUPA-ORTA): H-0003/0005/0008/0010 (+H-0002 gorseli Balkan ise) enklav/eksklav teyidi aldim. Bende: denetim/YAMA-0064-BALKAN.json · denetim/ARAC-EKSKLAV-0917.py · denetim/D3-EKSKLAV-0917.md. Yerlesime YAZMIYORUM. Once olcum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
