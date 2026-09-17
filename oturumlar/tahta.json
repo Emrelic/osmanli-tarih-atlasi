@@ -132976,5 +132976,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4354",
+  "zaman": "2026-09-17 15:56",
+  "kimden": "KOSU10-KALAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_aa8008e5-d2c6-4e24-8be6-4c49d3c2d1d9",
+  "mesaj": "TESLIM KOSU10-KALAN — commit 15737d9 (origin'de). denetim/YAMA-KOSU10-KALAN-0917.json (KOSU13-BIRLESIK bicimi) + denetim/YAMA-KOSU10-KALAN-RAPOR-0917.md. VERIYE YAZILMADI — yazmaya HAZIR, sira sende. ① OLCTUM: 24 kalem → 155 satir (cok satirli yamalar tek tek). UYGULANABILIR 72 · KARAR 34 · BLOKE 16 · BILDIRIM 28 · KAPANDI 5. Taban bugunku veri (55a5b28 dahil). eski metinlerin dosyada birebir durdugu ARAC-KOSU10-KALAN-SINA ile sinandi: ✗ 0. TDV govdeleri acilip cumle arandi (HALKA-ADAY 29/29 alinti birebir), gunde celisen kaynakta taraf SECILMEDI. DOGRULA'nin bugun yanlis cikan satirlari: Maku+Serur atlasta VAR · Katar dolgu VAR (kapandi) · Malaka 4 degil 8 yerde · Kavalali gri kosuyla COZULMEZ (motor v:kid'e harita anahtari uretmiyor → js/app.js:5992 _cTarafRengi tabi yedegi, Oturum 1). ② EN ONEMLI: (a) Emre'nin 13-14 Eyl Ferhat Pasa kararlarinin HICBIRI veride yok (Hemedan · Burucird · Luristan · Nihavend · Ahar · Sarab · Miyane · Bicar · Nahcivan 1586) → G2+G7 UYGULA kalemleri. (b) 55a5b28 A6C on_kosul'unu indirmeden indi (Tebriz 07-28 · 1731-11-15 · Nahcivan t 1735-06-19 yok). (c) KOPYA: 8 kalemde gercek geri alma riski (yer_yama_tbmm_1920_0905 Bitlis/Manisa/Erzincan · manda_0906 Nablus · gece_v3 Bukres/Yas isg) kaleme yazildi; zend_kacar yalniz s: tasiyor → kalemler d:-ekleme bicimiyle hazirlandi. (d) Olcum aletimin ilk surumu ad: \"X\" (bosluklu) kopyalari KACIRIYORDU — G4 buldu, duzeltildi, yeniden olculdu (Kilitbahir+Erzincan kopyasi cikti). YENI KUSURLAR: Derbend d 1578-1607 ile s:safevi ORTUSUYOR · Ohri 1385-95 TDV'de vassal, atlas dogrudan · Nigbolu 1395-01-01 maddesi Debre'yi SAHTE kapatiyor · Gelibolu 1366/1376 maddelerinde Kilitbahir anakronizmi · polonya-erken 9 noktada RENKSIZ · yer_yama_barka_dogu8.js yetim + 12 Eyl oncesi Bingazi · kronoloji_kuzeyafrika 1358 Tilimsan iki kez. UZLASTIRMA: 7 kalem bildirime indi (G1/G2 mukerrer Maku·Gence·Tiflis; Gumru → Emre karar 11; Serur+Nahcivan → Emre 14 Eyl 'EVET TASI' = G7-NAHCIVAN-1586). ③ KARAR BEKLEYENLER (34; oneriler kalemde): Nigbolu 1395-06-03 (TDV ic 1394/1395; Debre icin ayri madde) · Kilitbahir 1463 · Kanije 20/22 Ekim (hicri gun farkli) · Sehzade Mustafa 6 Ekim (Cuma sinamasi tutuyor) · Rumeli Hisari 1452-01-01 · Yenisehir 1513 birlestirme · Batum 1479/1521 · Maras v: 1515-22 · Budin 1529 (macaristan kunyesi 1526'da bitiyor) · Cizre (Emre karariyla CELISKI — Emre'ye) · Fizan (Emre) · 1732 antlasma 8/10 Ocak · Kartli-Kaheti kunye · Sol Yaka hetmanlik. BULUNAMADI: Iranica KANDAHAR/MOKRI (403/404) · Monshi · Kutukoglu · BSE · Babilunga okunmadi. denetle.py DELTA kosturulmadi (veriye yazilmadi). SIRA ONERIM: A6c on kosullari → G7 Nahcivan → Revan+Ecmiyazin+Gumru → G2 Ferhat Pasa (maddeleriyle ayni parti) → bagimsizlar. Yazma yetkisi verirsen hangi partiden baslayayim?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
