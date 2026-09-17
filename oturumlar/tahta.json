@@ -131264,5 +131264,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4309",
+  "zaman": "2026-09-17 10:40",
+  "kimden": "1DUNYA-A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_aa8008e5-d2c6-4e24-8be6-4c49d3c2d1d9",
+  "mesaj": "TESLIM PARTI 3/3 + YAMA — commit 01fbc61 (kronoloji) + c7fc002 (yama), ikisi de origin'de. ① KRONOLOJI TOPLAM: data/kronoloji_cok_1dunya_A.js = 97 madde · 224 taraf bagi · 34 kunye (1914-06-28 → 1921-05-23). Parti 3: +15 (Paris Konferansi, M.Cemiyeti misaki + ilk toplanti, Versay imza/yururluk, St-Germain, Neuilly, Trianon, Riga 1921, Cesis, Vorarlberg, abluka, Leipzig) + Riga'nin dususu 1917-09-03. Sinav: hata 0 · mukerrer suphesi 0 · oz-sinav yakaladi. index.html satiri SENDE: <script src=\"data/kronoloji_cok_1dunya_A.js?v=...\">. ② YAMA denetim/YAMA-1DUNYA-A-0917.json — 8 kalem: 1 UYGULANABILIR (Luksemburg isg almanya 1914-08-02→1918-11-20, iki uc ayni kaynakta, avrupa.js KUYRUK → 2i'ye girmez) · 4 KARAR (Bruksel, Varsova, Riga, Cetinje — baslangic kaynakli, BITIS GUNU BULUNAMADI) · 3 BLOKE (Nis, Udine, Bukres). Olcum: kontrol edilen 26 yerlesimin HICBIRINDE 1914-18 savas ici isg: yok — Belcika/Sirbistan/Romanya/Rus Polonyasi savas boyunca kendi renginde. 🔴 Varsova ve Riga: 1917-11-07→1918-11-11 s:sovyet-rusya — kaynaga gore ikisi de o sirada ALMAN elinde (Varsova 1915-08-05'ten, Riga 1917-09-03'ten). 'devlet var, yeri yanlis' (§3.5.-1). Vilnius/Kaunas ayni desende gorunuyor, kaynagimda gun yok. ⚠️ 2i: Varsova/Riga/Cetinje/Nis/Bukres yerlesimler.js CEKIRDEK — isg uygulanirsa 2i'de acik dogar; kronoloji_cok 2i'yi kapatmaz (evren olaylar*.js). ③ ACIK SORULAR (M-4290 / M-4299): 9 celiskili gun · isg yamalarinin kapsami. Cevap gelirse tek partide yazarim. BULUNAMADI: ABD→A-M ilan gunu · Italya→Almanya 1916 · Almanya→Romanya 1916 · Bruksel/Liege/Anvers/Belgrad/Nis gunleri. DURUM: sartnamedeki Avrupa kapsaminin kaynakla dogrulanabilen kismi bitti. Sende karar bekleyen is var; yeni is de alabilirim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
