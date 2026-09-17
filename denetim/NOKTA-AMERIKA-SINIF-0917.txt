@@ -1,0 +1,94 @@
+NOKTA          219231 km²  -19.23   -65.40  Cochabamba (Villa de Oropesa) (1571-08-15, 220 km) · Oruro (Villa de San Felipe de Austria) (1606-01-01, 229 km)
+NOKTA           84839 km²    8.54   -70.50  Barinas (Altamira de Cáceres) (1577-06-30, 33 km) · Guanare (1591-11-03, 100 km)
+ACIK            82349 km²  -21.27   -55.38  kaynaklı nokta bulunamadı — A_sahipleri: Fuerte Olimpo (Borbón) · Ciudad Real del Guairá
+BOSLUK-DOGRU    72179 km²    3.54   -64.52  tropikal orman içi
+BOSLUK-DOGRU    68073 km²   -1.19   -56.05  tropikal orman içi
+BOSLUK-DOGRU    66055 km²   -5.16   -69.85  tropikal orman içi
+KARAR           58082 km²  -15.91   -55.98  Diamantino 174 km
+BOSLUK-DOGRU    51794 km²   67.42   -95.10  kutup/subarktik
+BOSLUK-DOGRU    46086 km²   -1.19   -66.93  tropikal orman içi
+NOKTA           45480 km²  -31.92   -64.90  Río Cuarto (Villa de la Concepción del Río Cuarto) (1786-11-11, 143 km)
+NOKTA           45369 km²  -19.33   -43.52  Serro (Vila do Príncipe) (1714-01-29, 82 km) · Diamantina (Arraial do Tijuco) (1734-01-01, 121 km)
+NOKTA           44511 km²  -13.86   -42.08  Rio de Contas (Minas do Rio de Contas) (1723-11-27, 43 km) · Caetité (Vila Nova do Príncipe) (1754-01-01, 50 km)
+BOSLUK-DOGRU    44085 km²   63.46  -124.11  kutup/subarktik
+BOSLUK-DOGRU    42153 km²   69.65   -71.05  kutup/subarktik
+KARAR           40250 km²  -22.57   -50.09  Bauru 107 km
+NOKTA           39515 km²  -28.96   -51.88  Caxias do Sul (Colônia de Caxias) (1875-01-01, 72 km)
+NOKTA           37688 km²  -16.19   -49.60  Pirenópolis (Meia Ponte) (1754-08-10, 78 km)
+KARAR           37110 km²    8.43   -63.53  Maturín 151 km
+BOSLUK-DOGRU    35442 km²   -4.02   -61.15  tropikal orman içi
+BOSLUK-DOGRU    35322 km²   51.05   -67.54  kutup/subarktik
+ACIK            35100 km²   -9.27   -47.22  kaynaklı nokta bulunamadı — A_sahipleri: Beyan G7.5 B47.5
+BOSLUK-DOGRU    34967 km²   69.60  -113.39  kutup/subarktik
+BOSLUK-DOGRU    34327 km²   66.07   -50.93  kutup/subarktik
+BOSLUK-DOGRU    33802 km²   -5.40   -54.75  tropikal orman içi
+KARAR           33658 km²   41.43   -79.78  Franklin (Venango) 6 km
+ACIK            33258 km²  -31.03   -59.01  kaynaklı nokta bulunamadı — A_sahipleri: Santa Fe (Arjantin) · San Jerónimo (Reconquista)
+NOKTA           33123 km²    9.16   -66.88  Calabozo (Villa de Nuestra Señora de la Candelaria) (1724-02-01, 66 km)
+BOSLUK-DOGRU    32677 km²   69.32   -50.44  kutup/subarktik
+BOSLUK-DOGRU    30524 km²   -6.64   -63.21  tropikal orman içi
+BOSLUK-DOGRU    30516 km²   57.13  -110.70  kutup/subarktik
+BOSLUK-DOGRU    29356 km²   65.53  -161.53  kutup/subarktik
+BOSLUK-DOGRU    29053 km²  -11.48   -57.34  tropikal orman içi
+KARAR           28033 km²   46.64  -109.85  Lewistown (Montana) 57 km
+BOSLUK-DOGRU    27920 km²   -3.46   -72.14  tropikal orman içi
+BOSLUK-DOGRU    27854 km²   -7.57   -65.92  tropikal orman içi
+BOSLUK-DOGRU    27721 km²   64.87   -89.66  kutup/subarktik
+BOSLUK-DOGRU    27512 km²   70.62   -82.38  kutup/subarktik
+BOSLUK-DOGRU    26507 km²  -11.44   -52.89  tropikal orman içi
+BOSLUK-DOGRU    25065 km²   58.67  -117.65  kutup/subarktik
+BOSLUK-DOGRU    24937 km²   -0.56   -61.37  tropikal orman içi
+KARAR           24475 km²    9.90   -62.43  Maturín 84 km
+BOSLUK-DOGRU    24255 km²   66.28  -130.35  kutup/subarktik
+BOSLUK-DOGRU    24043 km²   67.92  -105.42  kutup/subarktik
+NOKTA           23936 km²   41.01  -107.21  Rawlins (1868-01-01, 87 km)
+NOKTA           23334 km²   35.39   -81.73  Morganton (1784-01-01, 40 km)
+BOSLUK-DOGRU    22739 km²   -8.92   -69.28  tropikal orman içi
+NOKTA           22424 km²  -21.88   -47.22  Casa Branca (1814-10-25, 18 km)
+BOSLUK-DOGRU    21202 km²    2.42   -68.65  tropikal orman içi
+BOSLUK-DOGRU    20830 km²   -7.37   -52.30  tropikal orman içi
+BOSLUK-DOGRU    20695 km²   -0.07   -58.46  tropikal orman içi
+ACIK            20653 km²  -12.51   -39.56  kaynaklı nokta bulunamadı — A_sahipleri: Salvador (Bahia)
+ACIK            20562 km²   41.34  -116.99  kaynaklı nokta bulunamadı — A_sahipleri: Ruby Vadisi (Batı Şoşoni) · Kuzey Payut (Kara Kaya Çölü)
+ACIK            20508 km²  -30.33   -55.48  kaynaklı nokta bulunamadı — A_sahipleri: Beyan G31.5 B56.5
+ACIK            18842 km²  -29.23   -62.54  kaynaklı nokta bulunamadı — A_sahipleri: Santiago del Estero · San Jerónimo (Reconquista)
+KARAR           18682 km²   45.34   -99.25  Aberdeen (South Dakota) 61 km
+BOSLUK-DOGRU    17654 km²   63.54  -111.97  kutup/subarktik
+BOSLUK-DOGRU    17265 km²  -12.11   -61.61  tropikal orman içi
+BOSLUK-DOGRU    16611 km²   -4.67   -65.79  tropikal orman içi
+KARAR           16533 km²   -4.03   -49.54  Tucuruí (Alcobaça) 33 km
+ACIK            15919 km²   -9.50   -37.90  kaynaklı nokta bulunamadı — A_sahipleri: São Cristóvão (Sergipe)
+BOSLUK-DOGRU    15415 km²   56.38   -75.37  kutup/subarktik
+BOSLUK-DOGRU    15387 km²   59.99  -118.54  kutup/subarktik
+NOKTA           15142 km²  -34.49   -61.73  Junín (Fuerte Federación) (1827-12-27, 71 km)
+NOKTA           14783 km²  -33.76   -54.13  Treinta y Tres (1853-03-10, 63 km) · Minas (Villa de la Concepción de las Minas) (1783-01-01, 123 km)
+NOKTA           14624 km²   44.95   -85.11  Traverse City (1847-06-13, 45 km)
+NOKTA           14527 km²   -0.93   -50.80  Chaves (Marajó) (1758-01-01, 124 km)
+BOSLUK-DOGRU    14019 km²   -8.00   -54.92  tropikal orman içi
+BOSLUK-DOGRU    13976 km²    5.11   -60.79  tropikal orman içi
+BOSLUK-DOGRU    13947 km²   65.27  -118.52  kutup/subarktik
+NOKTA           13904 km²  -27.05   -56.49  San Ignacio Guazú (1609-01-01, 56 km) · Encarnación (Itapúa) (1615-03-25, 69 km)
+BOSLUK-DOGRU    13817 km²   -7.63   -60.56  tropikal orman içi
+BOSLUK-DOGRU    13206 km²  -22.96   -60.65  Kuzey Chaco
+BOSLUK-DOGRU    12812 km²   57.51  -103.98  kutup/subarktik
+BOSLUK-DOGRU    12586 km²   68.37  -156.24  kutup/subarktik
+NOKTA           12457 km²   39.35   -92.22  Columbia (Missouri) (1821-04-07, 45 km)
+BOSLUK-DOGRU    12264 km²   -7.18   -58.24  tropikal orman içi
+BOSLUK-DOGRU    12153 km²   -8.80   -72.71  tropikal orman içi
+BOSLUK-DOGRU    12125 km²   50.78   -56.59  kutup/subarktik
+NOKTA           12058 km²  -33.17   -61.16  Junín (Fuerte Federación) (1827-12-27, 158 km)
+BOSLUK-DOGRU    11980 km²   65.79  -139.93  kutup/subarktik
+BOSLUK-DOGRU    11935 km²   -3.55   -63.36  tropikal orman içi
+BOSLUK-DOGRU    11764 km²  -13.78   -58.98  tropikal orman içi
+NOKTA           11363 km²   -1.95   -45.13  Viana (Maranhão) (1757-07-08, 142 km)
+BOSLUK-DOGRU    11146 km²   64.08  -103.67  kutup/subarktik
+KARAR           11033 km²   -5.85   -49.84  Tucuruí (Alcobaça) 232 km
+BOSLUK-DOGRU    10471 km²   -0.47   -72.09  tropikal orman içi
+BOSLUK-DOGRU    10451 km²   63.72  -106.56  kutup/subarktik
+NOKTA           10444 km²  -35.67   -67.35  San Rafael (Fuerte San Rafael del Diamante) (1805-04-02, 147 km)
+
+ÖZET (88 küme · 2572474 km²)
+  ACIK            8 küme    247191 km²
+  BOSLUK-DOGRU   51 küme   1318675 km²
+  KARAR           9 küme    267856 km²
+  NOKTA          20 küme    738752 km²
