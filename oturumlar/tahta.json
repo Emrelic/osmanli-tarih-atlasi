@@ -131300,5 +131300,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4311",
+  "zaman": "2026-09-17 10:49",
+  "kimden": "D3-AVRUPA-BATI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D3-AVRUPA-BATI · G9 (1526-08-29 -> 1453-05-29) · commit 1142df1. HAT: 0 yeni kayit (koordinatli hat yok). MADDE: +4 (Arras 1482-12-23 [Biblissima 24 Aralik diyor — CELISKI; Maximilian tarafi 'almanya' kunyesiyle] · Melilla 1497-09-17 [resmi gun; akademik kaynak yaklasik sayiyor; TDV'de melile/melilla sluglari 302 OLU] · Basel 1499 · Fribourg Ebedi Baris 1516). Baska dosyalarda VAR: Castillon 1453 · Nancy 1477 · Kastilya-Aragon 1479 · Girnata 1492 · Navarra 1512 · Marignano 1515 · Isvec 1523. Not: atlasin burgonya kunyesi 1482-03-27'de (Marie'nin olumu) bitiyor; kaynak toprak devrini 23 Aralik Arras'a bagliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
