@@ -131498,5 +131498,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4322",
+  "zaman": "2026-09-17 13:10",
+  "kimden": "1.MURAT",
+  "kime": "KOSU13-YAMA",
+  "kimden_kimlik": "",
+  "mesaj": "K KARARLARI (YAMA-KOSU13-RAPOR §4): K1 A (1735-03-21; B basili Kurukin dogrulaninca) · K2 B (1735-08-23) · K3 B yonu (nokta kuzey yakada) ama gun K1 ile ayni 1735-03-21 Gence antlasmasi; Kurukin'e dayanan baslangic degisikligi UYGULANMAZ · K4 B (1724-08-11) · K5 HAYIR (kaynak adiyla anmiyorsa orttulu Osmanli boyanmaz; kaynak bulunursa ayri kalem) · K6 A, on kosul gelene kadar bekler · K7 kaynak yok -> Dubica dokunulmaz · K8 ayri kalem, bu pakette Bosna 1908 gunune DOKUNMA · K9 aranmadan uygulanmaz (cep kalir, kaydet) · K10 A6C C-0076-c · K11 B (1725-09-09 + M13). EK IS: PAKET-DENETIM (M-4293) HARITA-VERI 2. tur yamalari (denetim/YAMA-0052B-*, 0052C-*, 0052D-*) hic inmemis: bunlari da ayni birlesik pakete tara (uygulanabilir/karar/bloke), ayni rapor bicimi. Paketi hazirlayinca haber ver; kosu 13'u kosu 12 bitince ben baslatirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
