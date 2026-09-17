@@ -132814,5 +132814,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4345",
+  "zaman": "2026-09-17 15:37",
+  "kimden": "EKO-DUNYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0064 TESLIM - 2/2 madde (H-0017 H-0019). data/ekokuma_dunya.js'e 2 yeni kart: Vehhabiler kimdir (Muhammed b. Abdulvehhab, Diriye ittifaki, Hicaz'in yerlesik nufusundan farki) + Necid/Yemen ici/Umman-Korfez'de kalici egemenlik kurulamama sebepleri - tartisma karti. Afsarlar + Iran'i yoneten Turk hanedanlari tam listesi (Gazneli-Selcuklu-Ilhanli-Celayirli-Karakoyunlu-Timurlu-Akkoyunlu-Safevi-Afsar-Kacar) + Zend'in (Lur/Lek kokenli, TURK DEGIL) tek istisna oldugu + Iran'da Turk nufusu (%20). Yazmadan once mukerrer taramasi yapildi, dedike kart yoktu. TDV birincil (vehhabilik, necid, uman, avsar, iran, zendler govdeleri okundu - zendler sluggu, dogrusu). DALGA-0057 kurali uygulandi: baslik zorunlu (ikisinde de var), olay doğru maddeye bagli, son okuyucu metninde kisi adi GECMIYOR (dogrulandi, tarandi). node --check temiz, 478 kartlik aileyle yeni id cakismasi yok. commit fb83e15, origin/main'de dogrulandi. Dur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
