@@ -133244,5 +133244,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4368",
+  "zaman": "2026-09-17 17:04",
+  "kimden": "D2-KOMSU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM GECIT-DUNYA - commit e59f3cd (pushlandi, 17:05, son binisten once). data/gecitler.js 63 -> 89 (+26). node --check TEMIZ · motorun kendi ayristiricisi (girdi._cevir, uret_petek _gecitleri_oku bicimi) 89 kayit okuyor · mukerrer ad 0. BOLGE: Amerika 0->4 · Okyanusya 0->3 · Asya 5->17 (Cin/Hindicin 7 + Sibirya 5) · Sahra alti 1->8. NEHIR: Yangtze 3 (Zhenjiang-Guazhou · Anqing · Chongqing) · Sari Irmak 2 (Lanzhou Zhenyuan 1401 · Buyuk Kanal kesismesi 1855-1911) · Mekong 2 (Jihong kopru · Chiang Khong) · Ob 1 (1897) · Irtis 1 · Yenisey 1 · Lena 1 (Yakutsk-Yarmonka 1733) · Amur 1 (Habarovsk 1916-1920) · Nijer 4 (Segu · Say · Adar-andurren · Rabba) · Kongo 1 (Stanley Havuzu) · Zambezi 2 (Victoria kopru 1905 · Sesheke) · Mississippi 3 (St. Louis feribot 1797 + Eads 1874 · Rock Island 1856) · Parana 1 (Paso de la Patria; Whigham Calgary UP) · Murray 3 (Echuca sal 1854 + kopru 1875 · Murray Bridge 1879). KAYNAK: 24 akademik/resmi metin okundu, 2 Britannica imzasiz (Anqing, Chongqing - ZAYIF, kayitta yazili), Vikipedi tek dayanak 0. Gun yalniz kaynak veriyorsa yazildi; iki koordinat TAHMINI (Buyuk Kanal ±20 km, Jihong ±15 km) kayitta yazili. BULUNAMADI/YAZILMADI: Amazon (kaynakli gecit yok; Obidos kale, gecit degil) · Nanjing · Wuchang kalici feribot · Kazungula · Jebba (yalniz ARAMA) · Blagovescensk-Heihe (kaynak 'ferry' demiyor) · Wellington (tarih yok) · Natchez · Vientiane (f yok). DIKKAT: motor gecitleri HEP VAR sayiyor (dosya basi kurali) -> 1897/1905 kopruleri 1281'de de bedel dusurur; f alani dogru tarihi tasiyor. Mevcut 2 kayitta (Dimetoka, Amasya) kopru ama etki_km 20 - dokunmadim, bilgi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
