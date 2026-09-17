@@ -1522,6 +1522,109 @@ if MOTOR_YURUYUS:
     del _yr_u, _yr_F, _yr_pF, _yr_Kf, _yr_R, _yr_U
 
 
+def _yr_yerel_dijkstra(kaynak, izinli, tavan):
+    """🚶 Kısıtlı çok kaynaklı Dijkstra — üretim Dijkstra'sının (`_kv_dijkstra`)
+    AYNI adım bedeliyle (hedef hücre sürtünmesi · nehir kenarı · 16 komşuda ara
+    hücre şartı). `kaynak` [(bedel, hücre, sahip)] · `izinli` gevşetilebilir hücre
+    kümesi (None = bütün kara) · `tavan` km-eşdeğeri üst sınır (ötesi YAZILMAZ).
+    Döner {hücre: (bedel, sahip)} — kaynak hücreler dahil.
+    Paylaşılan hiçbir durumu değiştirmez (iş parçacığı güvenli)."""
+    nbedel, nbayrak = _KVNEHIR if _KVNEHIR is not None else ({}, None)
+    surt = _kvsurt
+    en = {}
+    q = []
+    for d, h, sa in kaynak:
+        if d <= tavan and (h not in en or d < en[h][0]):
+            en[h] = (d, sa)
+            _heapq.heappush(q, (d, h))
+    while q:
+        d, h = _heapq.heappop(q)
+        if d > en[h][0]:
+            continue
+        sa = en[h][1]
+        j, i = divmod(h, _kvnx)
+        dx = _KVDY * math.cos(math.radians(_kvy0 + (j + 0.5) * KV_ADIM))
+        nh = nbayrak is not None and nbayrak[h]
+        for yi, (di, dj) in enumerate(_KV_YON):
+            a, b = i + di, j + dj
+            if not (0 <= a < _kvnx and 0 <= b < _kvny):
+                continue
+            k = b * _kvnx + a
+            if not _kvkara[k]:
+                continue
+            if izinli is not None and k not in izinli:
+                continue
+            if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj):
+                continue
+            nd = d + math.hypot(dx * di, _KVDY * dj) * (surt[k] if surt else 1.0)
+            if nh:
+                nd += nbedel.get(h * _KV_YS + yi, 0.0)
+            if nd > tavan:
+                continue
+            if k not in en or nd < en[k][0]:
+                en[k] = (nd, sa)
+                _heapq.heappush(q, (nd, k))
+    return en
+
+
+def _yr_etiket_poligon(L, i0, j0):
+    """🚶 Etiket penceresi (satır 0 = GÜNEY, −1/−2 = etiketsiz) → {etiket: poligon}.
+    Petek kurulumundaki yolun aynısı: rasterio parçaları tek ağda düğümlenir,
+    örtü birleşir ve sadeleşir (ızgara basamağı kalmasın)."""
+    _tr = _Aff(KV_ADIM, 0.0, _kvx0 + i0 * KV_ADIM,
+               0.0, -KV_ADIM, _kvy0 + (j0 + L.shape[0]) * KV_ADIM)
+    _Lf = _np.ascontiguousarray(_np.flipud(L)).astype(_np.int32)
+    _pa, _sa = [], []
+    for _gj, _v in _rfe.shapes(_Lf, mask=_Lf >= 0, transform=_tr, connectivity=4):
+        _pa.append(shape(_gj))
+        _sa.append(int(_v))
+    if not _pa:
+        return {}
+    _ag = STRtree(_pa)
+    _gr = {}
+    for _f in polygonize(unary_union(
+            [_r for _p in _pa for _r in [_p.exterior, *_p.interiors]])):
+        _q = _ag.query(_f.representative_point(), predicate="within")
+        if len(_q) != 1:
+            continue                      # maske dışı delik yüzü
+        _gr.setdefault(_sa[int(_q[0])], []).append(_f)
+    _ids = sorted(_gr)
+    _ps = [shapely.coverage_union_all(_gr[k]) if len(_gr[k]) > 1 else _gr[k][0]
+           for k in _ids]
+    return dict(zip(_ids, shapely.coverage_simplify(_ps, YURUYUS_SADE)))
+
+
+def _yr_epok_onar(olu):
+    """🚶 EPOK DEVRİ (b) — `olu` tohumlarının ızgara hücreleri, CANLI komşu
+    hücrelerden (kendi üretim bedelleriyle) tohumlanan kısıtlı Dijkstra ile
+    yeniden dağıtılır. Canlı bir hücrenin mesafesi ölü tohumun silinmesinden
+    ETKİLENMEZ (en yakın tohumu zaten canlı) ⇒ sonuç, epok başına tam Dijkstra
+    koşmakla AYNIDIR. Bütçe (40 saat) aşılırsa hücre sahipsiz kalır (−2).
+    Döner (D, yeni): D ölülerin hücreleri (düz indis), yeni sahip ya da −2."""
+    _ol = _np.fromiter(olu, dtype=_np.int32)
+    _Dm = _np.isin(_YR_SAHIP, _ol)
+    D = _np.flatnonzero(_Dm.ravel())
+    if D.size == 0:
+        return D, _np.zeros(0, dtype=_np.int32)
+    Dset = set(D.tolist())
+    kaynak = []
+    for h in D.tolist():                  # aynı hücreyi paylaşan CANLI tohum
+        for idx in _kvtohum.get(h, ()):
+            if idx not in olu:
+                kaynak.append((0.0, h, idx))
+                break
+    # sınır halkası: ölü bölgeye bitişik (16 komşuda 2 hücre) canlı kara hücreleri
+    _hl = _ndi.binary_dilation(_Dm, _np.ones((5, 5), dtype=bool)) & ~_Dm
+    _hl &= _YR_SAHIP >= 0
+    for k in _np.flatnonzero(_hl.ravel()).tolist():
+        d = _kvuzak[k]
+        if d <= _YR_BUTCE:
+            kaynak.append((d, k, int(_YR_SAHIP.flat[k])))
+    en = _yr_yerel_dijkstra(kaynak, Dset | {k for _, k, _ in kaynak}, _YR_BUTCE)
+    yeni = _np.array([en[h][1] if h in en else -2 for h in D.tolist()], dtype=_np.int32)
+    return D, yeni
+
+
 def _yr_kes(geo, i):
     """🚶 A1 tavanının yerine: `geo`dan 40 saatten uzak olanı çıkar; ızgaranın
     karar vermediği payda ESKİ tavanı (TAVAN_DAIRE[i]) uygula. Tohumun kendi
@@ -4112,11 +4215,59 @@ def petek_epok(g):
     _pay = {"paylastirilan": 0, "tek_komsu": 0, "komsusuz": 0,
             "artik_km2": 0.0, "alici": 0}
 
+    _yr_D = _yr_Y = None
+    if MOTOR_YURUYUS and _YR_SAHIP is not None:
+        _pay["yuruyus"] = 0
+        _pay["butce_disi_km2"] = 0.0
+        _yr_D, _yr_Y = _yr_epok_onar(frozenset(devir))
     olu = [i for i in sorted(devir) if not hucre[i].is_empty]
     for grup in _olu_bilesenler(olu, hucre):
         alan = poligonal(unary_union([hucre[i] for i in grup]))
         if alan.is_empty:
             continue
+        # ── 🚶 MOTOR_YURUYUS: ölü peteğin payı YÜRÜYÜŞLE dağıtılır ─────────
+        # Izgarada hücresi olmayan grup (pencere dışı / erişilmez tohum) eski
+        # yoldan geçer. Bütçenin ötesi kimseye verilmez (sahipsiz) — sayılır.
+        if _yr_D is not None:
+            _gm = _np.isin(_YR_SAHIP.flat[_yr_D], _np.array(grup, dtype=_np.int32))
+            if _gm.any():
+                _gD, _gY = _yr_D[_gm], _yr_Y[_gm]
+                _gj, _gi = _np.divmod(_gD, _kvnx)
+                _j0 = max(0, int(_gj.min()) - 3)
+                _j1 = min(_kvny, int(_gj.max()) + 4)
+                _i0 = max(0, int(_gi.min()) - 3)
+                _i1 = min(_kvnx, int(_gi.max()) + 4)
+                _L = _np.full((_j1 - _j0, _i1 - _i0), -1, dtype=_np.int32)
+                _L[_gj - _j0, _gi - _i0] = _gY
+                for _ in range(3):        # kıyı hücresine taş: gerçek kıyıyı alan keser
+                    _bos = _L == -1
+                    if not _bos.any():
+                        break
+                    _L = _np.where(_bos, _ndi.maximum_filter(_L, size=3), _L)
+                _verildi = {}
+                for j, _pg in _yr_etiket_poligon(_L, _i0, _j0).items():
+                    if j in devir:
+                        continue
+                    _pay_geo = poligonal(_pg.intersection(alan))
+                    if not _pay_geo.is_empty and _pay_geo.area > _EPOK_PAY_TOL:
+                        _verildi[j] = _pay_geo
+                _dis = alan.area - sum(_g.area for _g in _verildi.values())
+                if _dis > _EPOK_PAY_TOL:
+                    try:
+                        _pay["butce_disi_km2"] += _ham_km2(poligonal(alan.difference(
+                            unary_union(list(_verildi.values()))))) if _verildi else _ham_km2(alan)
+                    except Exception:
+                        pass
+                for j, _geo in _verildi.items():
+                    hucre[j] = poligonal(unary_union([hucre[j], _geo]))
+                for i in grup:
+                    kayit.append((YERLER[i]["ad"],
+                                  " + ".join(YERLER[j]["ad"] for j in sorted(_verildi))[:80],
+                                  _ham_km2(hucre[i]), "YÜRÜYÜŞ %d" % len(_verildi)))
+                    hucre[i] = Polygon()
+                    _pay["yuruyus"] += 1
+                _pay["alici"] += len(_verildi)
+                continue
         komsu = _canli_komsular(alan, sahne_kume)
         # ── ① hiç canlı komşu yok → ESKİ YOL (küresel en yakın) ──────────
         if not komsu:
@@ -4997,10 +5148,33 @@ def _dolgu_kumesi(a):
     _dx = (slo[None, :] - blo[:, None]) * 111.320 * _co
     _m = _np3.sqrt(_dx ** 2 + _dy ** 2)
     _k = _np3.zeros(_m.shape, dtype="int16")
+    # 🚶 MOTOR_YURUYUS: saat matrisi olan satırlar yürüyüş saatiyle puanlanır
+    _yr_satir = None
+    if MOTOR_YURUYUS and _YR_PUAN_SAAT:
+        _yr_sa = _np3.full(_m.shape, _np3.inf)
+        _yr_satir = _np3.zeros(len(bos_ix), dtype=bool)
+        _yr_sut = {j: c for c, j in enumerate(sahip_ix)}
+        for _r, _j in enumerate(bos_ix):
+            _W = _YR_PUAN_SAAT.get(_j)
+            if _W is None:
+                continue
+            _yr_satir[_r] = True
+            for _sx, _hh in _W.items():
+                _c = _yr_sut.get(_sx)
+                if _c is not None:
+                    _yr_sa[_r, _c] = _hh
     _once = 0.0
     for _e, _pu in PUAN_HALKA:
         _k[(_m >= _once) & (_m < _e)] = _pu
         _once = _e
+    if _yr_satir is not None and _yr_satir.any():
+        _yr_ks = _np3.zeros(_m.shape, dtype="int16")
+        _once = 0.0
+        for _e, _pu in YURUYUS_PUAN_HALKA:
+            _yr_ks[(_yr_sa >= _once) & (_yr_sa < _e)] = _pu
+            _once = _e
+        _k = _np3.where(_yr_satir[:, None], _yr_ks, _k)
+        _m = _np3.where(_yr_satir[:, None], _yr_sa, _m)     # örtmede "yakın" = saat
     # 🔴 ÖRTME (occlusion, Emre 20-21 Ağustos 2026 — bkz ORTME_DILIM_SAYISI
     # tanımı yukarıda). Çevre dilimlere bölünür, her dilimde YALNIZ EN YAKIN
     # sahip nokta puan verir — devleti ne olursa olsun. Ölçüldü
@@ -5053,6 +5227,45 @@ def _dolgu_kumesi(a):
     _DOLGU_ONBELLEK[a] = out
     return out
 
+
+# ═══ 🚶 EKLEYİCİ KAPI YÜRÜYÜŞ SAATİNE — MOTOR_YURUYUS (KOSU13-OTOBUS) ══════
+# Şartname taslağı: denetim/TASLAK-PUAN-KAPISI-YURUYUS-0917.md (K2).
+# Düz km yerine YÜRÜYÜŞ SAATİ: 0-40 s = 4p · 40-60 s = 2p · 60-80 s = 1p —
+# PUAN_HALKA'nın (200/300/400 km) MENZIL ② çevirimiyle karşılığı.
+# ⚠️ 60 ve 80 saat BİR KARAR SAYISIDIR; Emre'ye sorulu (taslak §6 soru 1).
+# Örtmede "yakın" = yürüyüş saati (taslak §6 soru 2, öneri); yön hâlâ düz açı.
+# Matris TARİHTEN BAĞIMSIZ, bir kez kurulur: her aday sahipsiz noktadan 80
+# saatte duran yerel Dijkstra. Izgarada hücresi olmayan nokta ESKİ (km) kurala kalır.
+YURUYUS_PUAN_HALKA = ((40.0, 4), (60.0, 2), (80.0, 1))
+_YR_PUAN_SAAT = {}
+if MOTOR_YURUYUS and _YR_SAHIP is not None:
+    asama("YÜRÜYÜŞ: ekleyici kapı saat matrisi (yerel Dijkstra, 80 saat)")
+    _t_yp = time.time()
+    _yr_th = {}
+    for _h, _idxs in _kvtohum.items():
+        for _ix in _idxs:
+            _yr_th[_ix] = _h
+    _yr_aday = [j for j, y in enumerate(YERLER)
+                if (y.get("bos") in DOLDURULABILIR_BOS
+                    or (y.get("tur") == "bolge" and y.get("bos") in (None, "", "devletsiz"))
+                    or y.get("kur") or y.get("bit"))]
+    _yr_tav = YURUYUS_PUAN_HALKA[-1][0] * NEHIR_KM_SAAT
+    _yr_disari = 0
+    for _j in _yr_aday:
+        _h = _yr_th.get(_j)
+        if _h is None:
+            _yr_disari += 1
+            continue
+        _W = {}
+        for _c, (_d, _) in _yr_yerel_dijkstra([(0.0, _h, _j)], None, _yr_tav).items():
+            for _ix in _kvtohum.get(_c, ()):
+                if _ix != _j:
+                    _W[_ix] = _d / NEHIR_KM_SAAT
+        _YR_PUAN_SAAT[_j] = _W
+    print(f"  aday {len(_yr_aday)} · saat matrisi kurulan {len(_YR_PUAN_SAAT)} · "
+          f"ızgarada hücresi yok (km kuralına kalır) {_yr_disari} · "
+          f"ortalama erişilen tohum {sum(len(v) for v in _YR_PUAN_SAAT.values()) / max(1, len(_YR_PUAN_SAAT)):.1f} · "
+          f"{time.time() - _t_yp:,.0f} sn")
 
 asama("Yabancı devlet gövdeleri")
 def _osm_aktif(y, a):
