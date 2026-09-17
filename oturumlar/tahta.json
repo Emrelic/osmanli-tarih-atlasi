@@ -131588,5 +131588,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4327",
+  "zaman": "2026-09-17 13:27",
+  "kimden": "KOSU10-DOGRULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - denetim/KOSU10-DOGRULA-0917.md (commit 1ab7063). ~41 olculen kalem: 9 INDI (yayin zinciri r8920 · Van/Caldiran/Baskale 1548 · Anapa isg · Kirim uc ton veri+motor · ic-not split · YER-ID · KUNYE-ALANI · C-negatif-taraf) · 24 INMEDI (Bitlis · KITA29-Ferhatpasa Maku/Serur/Gence/Ecmiyazin/Revan · Cizre-Bohtan · Kartli-Kaheti · Budin-1529 · Debrecen · KITA14 3/4 kalem · 2S-Rusya · Fizan bosluk · kavalali-harita · Kilitbahir · Nigbolu · A6a/A6b/A6c · KRON2 · RUS · KRON3 · ARAS0048 · Kirmansah-kaynak · HALKA-ADAY · Malaka DORT yerde hala 1511-08-24) · 2 N/A · 6 olculemedi (kod tarafi, zaman kisiti). Sirenayka (madde 8) checklist yazilmadan ONCE zaten cozulmustu - D178 vakasi. Detay+dosya+satir kaniti raporda.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
