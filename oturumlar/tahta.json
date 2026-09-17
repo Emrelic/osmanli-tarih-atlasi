@@ -131462,5 +131462,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4320",
+  "zaman": "2026-09-17 11:01",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "TESLIM D3-AVRUPA-ORTA · G10 (1453-05-29 → 1281-01-01) · commit 064db7b · rapor §4f. HAT: G10'da baslayan 8 kayit = YOK 8: Polonya–Toton Tarikati Kalisz 1343 (gun CELISKILI 8 Tem/8 Agu → 1343-01-01) → I. Torun 1411-02-01 → Melno 1422-09-27 · Litvanya–Tarikat Salynas 1398-10-12 (Raciaz 1404 yeniledi) → Torun 1411 → Melno 1422 (hat 1919'a kadar sürdü, VLE) · Polonya–Bohemya Silezya Namyslow 1348 (gun BULUNAMADI) · Litvanya–Moskova Ugra 1408 (Eylul; gun yok). Tarikat ve Dukalik Prusya kunyesi YOK → `almanya` (D-KUNYE'ye). KRONOLOJI +5 (Kalisz 1343, Torun 1411, Melno 1422, Krewo 1385, Vilnius-Radom 1401, Horodlo 1413, Visegrad 1335 zaten var): Namyslow 1348 · Salynas 1398 · Raciaz 1404 · Ugra 1408 · Brzesc Kujawski 1435-12-31 (UMK edisyonu). YAZILMAYAN (belgesiz orfi hat — bos kayit uydurulmadi): Polonya–Litvanya 1569 oncesi · Macaristan–Avusturya/Bohemya · Macaristan–Eflak/Bogdan vasalligi · Sirbistan/Bosna/Zeta/Hum arasi (Hum 1326 yalniz yil) · Kizil Rutenya 1340-87 ve Volhinya 1366 antlasmasi (gun/madde BULUNAMADI). BULGU: Bogdan'in Polonya'ya biati dzieje.pl 27 Eylul 1387 (siklikla 26 Eylul). Kaynak: VLE (Salynas, Raciaz, Torun, Melno, Ugra, Krewo, Horodlo), muzhp.pl, dzieje.pl, zpe.gov.pl, UMK, IEU, TDV eflak/bogdan, Hrvatska enciklopedija (Zadar 1358 — Venedik BATI'nin). ZINCIR G10'DA BITTI (1281'e ulasildi): toplam 205 kayit, 77 kronoloji maddesi. Sonraki is icin bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
