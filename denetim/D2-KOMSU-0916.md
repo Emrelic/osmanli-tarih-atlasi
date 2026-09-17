@@ -269,6 +269,25 @@ G7  0 — bölgede Türkiye DIŞI hukukî sınır yok (Rus-İran teması 1722'de
 ```
 Toplam **53 kayıt: E 16 · D 1 · C 7 · YOK 29** · **22 kronoloji maddesi**, bağ sorunu 0.
 
+## 14. GERİYE SARMA G8 (→1526) · G9 (→1453) · G10 (→1281)
+
+Önce SAYILDI: `data/` altındaki 104 `olaylar*`/`kronoloji*` dosyası, 6698 madde (ölçüm aracı scratchpad
+`g8_say.js`, yıl + anahtar kelime). Bölgede Türkiye dışı ÇİZGİSEL hukukî sınır yok ⇒ **hat kaydı 0**.
+```
+G8   aday 7 · mevcut 7 · eksik 0   Kandehar 1595/1622 · Herat 1588 · Horasan 1598 · Amasya 1555 ·
+                                   Ferhad Paşa 1590 · Nasuh Paşa 1612 (son üçü D1 kapsamı, zaten maddeli)
+G9   aday 11 · mevcut 10 · eksik 0 Safevî 1501 · Hemedan 1503 · Herat 1507 · Bağdat 1508 · Merv 1510 ·
+                                   Semendire 1459 · Bosna 1463 · Bingöl 1467 · Akkoyunlu/Timurlu 1469 ·
+                                   Tata/Belgrad 1427 (1426 imza, madde 1427'de) · Kandehar 1522 Bâbür
+                                   (sınır olayı değil — Ergun iç meselesi, yazılmadı)
+G10  aday 9 · mevcut 8 · eksik 1   Ebû Saîd sonrası 1335 · Timur 1370/1381/1393/1405 · Celâyir 1410 ·
+                                   Duşan 1346 · Çirmen 1371 · Timur Gürcistan 1386 · Vidin/Niğbolu 1396
+                                   🆕 Velbujd 1330-07-28 (TDV kostendil) — Sırp-Bulgar, atlasta YOKTU
+```
+⚠️ Sayım anahtar-kelime tabanlı: yazımı farklı bir mükerrer kaçmış olabilir (D064). Velbujd için
+yıl bazlı ikinci tarama (1330'un bütün maddeleri) yapıldı — 5 madde, hiçbiri Velbujd değil.
+Toplam **53 hat kaydı (değişmedi)** · **23 kronoloji maddesi** (Velbujd `sinir_id:null`).
+
 ## 7. OKUNAN KAYNAKLAR (HTTP 200, metin okundu)
 
 ```

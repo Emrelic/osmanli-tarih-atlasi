@@ -164,4 +164,15 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"Osmanlı ve Kırım'ın Dağıstan'daki faaliyetleri ve İran'da merkezî idarenin güçlenmesi Rusya'yı 1735 Gence Antlaşması'na zorladı. TDV derbend--dagistan'a göre Derbend, Bakü ve Hazar kıyısındaki öteki bölgeler İran'a geri verildi. TDV dagistan ise bu antlaşmaya Sulak ile Kura arasındaki bazı toprakları bağlıyor. Tarih yalnız YIL düzeyindedir.",
   kaynak:"TDV derbend--dagistan ('1735 Gence Antlaşması’nı imzalamaya zorladı') · TDV dagistan ('1735 tarihli antlaşma ile de Sulak ve Kura')" },
 
+// ── GERİYE SARMA G8–G10 (1606 → 1281) ────────────────────────────────
+// Bölgede Türkiye dışı ÇİZGİSEL hukukî sınır yok ⇒ hat kaydı YOK (kapsam notu). Aday
+// olaylar mevcut 104 olaylar*/kronoloji* dosyasında sayıldı (6698 madde); yalnız EKSİK
+// olan yazıldı. sinir_id: null — hat kaydına bağlı değil (kapsam notu: "madde yine yazılabilir").
+
+{ t:"1330-07-28", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bulgar-carligi"], sinir_id:null,
+  b:"Velbujd Savaşı: Bulgar Çarı Mihail öldü, Köstendil çevresi Sırp hâkimiyetine geçti", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Köstendil",
+  etiket:["sinir","savas","konu-askeri","sirbistan-nemanjic","bulgar-carligi"],
+  d:"28 Temmuz 1330'da Köstendil (Velbujd) yakınında Bulgar Çarı Mihail ile Sırp Kralı Stefan Deçanski karşılaştı. Mihail tahtını ve hayatını kaybetti. TDV'ye göre bu tarihten Osmanlı dönemine kadar şehir ve çevresi Sırp hâkimiyetinde kalmış olmalıdır. Kaynak ihtiyatlı konuşuyor; bir antlaşma ya da çizgi yok, harita burada A/B'de kalır.",
+  kaynak:"TDV kostendil ('28 Temmuz 1330’da Bulgar Çarı Michael’in Sırp Kralı Stefan Deçanski ile çarpışarak'; 'Sırp hâkimiyetinde kalmış olmalıdır')" },
+
 ];
