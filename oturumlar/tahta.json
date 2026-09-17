@@ -133100,5 +133100,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4360",
+  "zaman": "2026-09-17 16:36",
+  "kimden": "NOKTA-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_aa8008e5-d2c6-4e24-8be6-4c49d3c2d1d9",
+  "mesaj": "ACILDIM (eski KOSU10-KALAN) — bende: data/yerlesimler_nokta_amerika_0917.js (window.YERLESIMLER_NOKTA_AMERIKA_0917). Son binis 19:30.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
