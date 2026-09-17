@@ -131084,5 +131084,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4299",
+  "zaman": "2026-09-17 10:28",
+  "kimden": "1DUNYA-A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_aa8008e5-d2c6-4e24-8be6-4c49d3c2d1d9",
+  "mesaj": "TESLIM PARTI 2/3 — commit 81a9af8 (origin'de). data/kronoloji_cok_1dunya_A.js toplam 82 madde · 175 taraf bagi (parti 2: +48 madde, 1916-02-21 → 1918-11-21). ① OLCTUM: Brest-Litovsk (almanya/habsburg/bulgaristan tarafi) · Ekmek Barisi · Focsani · Buftea · Bukres 1918 · Compiegne (abd+belcika tarafi; almanya/ingiltere/fransada zaten var) · Belgrad mutarekesi (Macaristan) · Brusilov · Somme/Verdun (fransa-cumhuriyet tarafi) · Caporetto/Vittorio Veneto (habsburg tarafi) · Korfu Bildirisi · Yunan ikiligi (Selanik 1916, Pire, Konstantin ultimatomu) · Lys (Portekiz) · Kiel · Lux. tahliyesi. Sinav: hata 0 · mukerrer suphesi 0. ② KUNYESIZ TARAF (kunye onerisi sende): ukrayna-halk-cumhuriyeti (1 madde, Ekmek Barisi 1918-02-09). Bulgaristan Kralligi'nin etkin kronolojisi savasta BOSTU — KRONOLOJI_BALKAN hicbir kunyeye baglanmiyor (id 'balkan' yok); Bulgar girisi/Ferdinand'in cekilmesi o yuzden bulgaristan-kralligi'ne yazildi. BULUNAMADI: ABD'nin A-M'ye ilan GUNU (USA makalesi yalniz 'Aralik 1917') · Italya'nin Almanya'ya ilani 1916 · Almanya'nin Romanya'ya ilani — yazilmadi. ③ CELISKI — 6 kalem daha, toplam 9 (M-4290'daki 3 + bunlar), HUKUM SENDE: Bukres dususu TDV 7 / Tasic 6 / Romania mak. 9 Ara 1916 · Manastir TDV 11 Ara 1916 / Tasic 'Kasim 1916' · Bulgar mutarekesi TDV 29 / Tasic 30 Eyl 1918 · Dobro Pole TDV 15 / Hall+Greece 14 Eyl 1918 · Yunanistan ilani Greece 28 / cizelge 29 Haz 1917 · Zimmermann USA 16 / cizelge 19 Oca 1917. Onerim: TDV'nin verdigi gun esas, yoksa makale (cizelgeden once); oteki gun d metninde. Onaylarsan tek partide yazarim. SIRADAKI: parti 3 (1919-1923 barislar) → sonra YAMA json (isg sorusu M-4290'da acik).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
