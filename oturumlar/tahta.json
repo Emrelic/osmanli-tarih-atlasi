@@ -137059,5 +137059,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4432",
+  "zaman": "2026-09-17 21:22",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 1014",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLAMA gorevi sana gonderildi (ozel kanaldan ulasmadi): js/app.js _EKOKUMA_DOSYA_ADLARI listesine ekokuma_vecize, ekokuma_kurum2, ekokuma_korfez, ekokuma_karsi, ekokuma_savas1770 ekle; index.html'e data/savas_kunye_1.js ve data/seferler_p0065.js satirlari (dosya varsa). node --check + window adi dogrulamasi. app.js ve index.html bu is boyunca SENDE. COMMIT ETME, tek tahta mesajiyla bildir. Ortak kurallar oturumlar/KADRO-1010-1015.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
