@@ -1,0 +1,30 @@
+{
+  "yazan": "EKO-AKDENIZ (Sonnet 1013)",
+  "tarih": "2026-09-18",
+  "paket": "0068 H-0013",
+  "bulgu": "data/olaylar_ek5.js:525 kaydinin tarihi kendi gosterdigi TDV kaynagiyla celisiyor",
+  "kayitlar": [
+    {
+      "dosya": "data/olaylar_ek5.js",
+      "satir_yakini": 525,
+      "mevcut": { "t": "1792-02-12", "gun": "12 Şubat 1792", "b": "Vehrân'ın (Oran) İspanyollarca boşaltılması ve Cezayir'e devri", "kaynak": "vehran" },
+      "onerilen": { "t": "1792-09-12", "gun": "12 Eylül 1792" },
+      "gerekce": "TDV vehran maddesi (DİA 42, 2012, s. 618-619, Ahmet Kavas), ham HTML'den okunan gövde, birebir cümle: \"12 Eylül 1792 tarihinde Muasker'deki Osmanlı idarecisi Kuloğlu Mehmed b. Osman, Vehrân'ı İspanyollar'dan geri almayı başardı.\" Maddenin kendisi 'Şubat' hiç anmıyor. Mevcut atlas kaydı kaynak:'vehran' diyor ama kaynagin verdigi gunden 7 ay farkli bir gun tasiyor.",
+      "olcum": "TDV https://islamansiklopedisi.org.tr/vehran HTTP 200, <title>VEHRÂN, ham HTML curl ile cekildi ve gövde (id=m-body) py ile duz metne cevrilip okundu — WebFetch kucuk-model ozetine degil dogrudan cekilen metne dayanildi.",
+      "yan_etki": "Bu kaydin t: alani degisirse Degismez 2 (±30 gun) ve komsu yerlesim kirilma senkronlari YENIDEN denetlenmeli — bu oturum yerlesimler.js'e dokunmadi, yalniz olaylar_ek5.js'teki bu tek kaydi olcup bildiriyor."
+    }
+  ],
+  "dokunulmayan_ama_dogrulanmamis": [
+    {
+      "dosya": "data/olaylar_ek5.js",
+      "kayit": "t:'1708-04-04' b:'Vahran (Oran) ve Mersalkebîr'in İspanyollardan alınışı' kaynak:'osmanlilar'",
+      "not": "TDV vehran maddesi 1708 fethi icin yalniz YIL veriyor ('1708'de'), gun vermiyor. Atlasin '4 Nisan' gunu farkli bir kaynaga ('osmanlilar' maddesi) dayaniyor; bu oturumda o kaynak OKUNMADI, celiski yok ama dogrulanmadi da."
+    },
+    {
+      "dosya": "data/olaylar_ek5.js",
+      "kayit": "t:'1732-07-01' b:\"Vahran'ın (Oran) yeniden İspanya'ya kaybı\" kaynak:'osmanlilar'",
+      "not": "Ayni durum: TDV vehran yalniz '1732'de geri alindi' diyor, gun vermiyor; '1732-07-01' baska kaynaga dayaniyor, dogrulanmadi."
+    }
+  ],
+  "istek": "1.MURAT karar versin: (a) t:'1792-02-12' -> '1792-09-12' + gun alani duzeltilsin mi (Degismez 2 etkisiyle birlikte), (b) 1708/1732 gunleri ayrica 'osmanlilar' maddesinden dogrulansin mi."
+}
