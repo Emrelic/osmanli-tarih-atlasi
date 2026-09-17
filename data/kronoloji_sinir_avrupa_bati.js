@@ -28,6 +28,92 @@
 
 window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 
+// ── G8-G10 (1281-01-01 → 1606-11-11) ────────────────────────────────
+// Bu dönemde bölgede koordinatı bilinen hat YOK ⇒ hat kaydı yazılmadı (harita A/B). Maddeler
+// GERIYE-SARMA §0 KAPSAM notu gereği antlaşma/fetih/katılma maddeleridir; bağlanacak hat kaydı
+// olmayanlarda `sinir_id` BOŞTUR. Başka dosyada ZATEN bulunanlar yazılmadı: Cambrai 1529 · Calais
+// 1558 · Cateau-Cambrésis 1559 · Feragat 1581 · Castillon 1453 · Nancy 1477 · Kastilya-Aragon 1479 ·
+// Gırnata 1492 · Navarra 1512 · Marignano 1515 · İsveç 1523 · Edinburgh-Northampton 1328 ·
+// Brétigny 1360 · Sebte 1415 · Troyes 1420 · Arras 1435 · Kalmar 1397.
+
+{ t:"1291-08-01", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"",
+  b:"Federal Belge — Uri, Schwyz ve Nidwalden'in birliği", tur:"kurulus", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["konu-siyasi","isvicre","almanya"],
+  d:"Uri, Schwyz ve Nidwalden birbirlerine yardım etmeyi ve anlaşmazlıklarını hakem yoluyla çözmeyi belgeyle taahhüt etti; İsviçre Konfederasyonu'nun başlangıcı sayılan bu birlik bir toprak değişikliği içermiyordu. Kaynak yalnız ayı veriyor (Ağustos 1291); gün isvicre künyesinden devralındı.",
+  kaynak:"Historisches Lexikon der Schweiz 'Eidgenossenschaft'" },
+
+{ t:"1297-09-12", devlet:"portekiz", devletler:["portekiz","kastilya"], sinir_id:"",
+  b:"Alcañices Antlaşması — Portekiz–Kastilya sınırının temeli", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["antlasma","konu-siyasi","portekiz","kastilya","ispanya"],
+  d:"Kastilya ile Portekiz Alcañices'te imzaladıkları antlaşmayla Riba-Côa topraklarını ve kalelerini, Olivença, Campo Maior ve San Felices de los Gallegos'u Portekiz'e bıraktı. Antlaşma Portekiz'in askerî olarak zaten tuttuğu durumu tescil etti. Olivença 1801'de yeniden el değiştirdi; bu dönemin sınır hattının koordinatı haritada yoktur.",
+  kaynak:"M. V. Magro, Porto Üniversitesi yüksek lisans tezi (2011)" },
+
+{ t:"1415-01-01", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"",
+  b:"İsviçrelilerin Aargau'yu fethi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["konu-siyasi","isvicre","almanya"],
+  d:"İmparatorluktan sürgün edilen Habsburg Dükü IV. Friedrich'in Aargau'daki topraklarını İsviçreliler (Uri hariç) Nisan 1415'te ele geçirdi. Bern iki haftada Aarburg, Aarau, Zofingen, Lenzburg ve Brugg'u aldı; Luzern ve Zürih de birer pay aldı. Tarih YIL düzeyindedir: kaynak ayı veriyor, günü vermiyor.",
+  kaynak:"Historisches Lexikon der Schweiz 'Aargau'" },
+
+{ t:"1482-12-23", devlet:"fransa", devletler:["fransa","almanya"], sinir_id:"",
+  b:"Arras Antlaşması — Burgonya mirasının paylaşılması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["antlasma","konu-siyasi","fransa","almanya","burgonya"],
+  d:"Burgonya Düşesi Marie'nin 27 Mart 1482'deki ölümünün ardından Fransa ile Maximilian arasında imzalanan Arras Antlaşması, Franş-Konte, Artois, Mâconnais ve Auxerrois'yı Marguerite'in çeyizi olarak Fransa'ya bağladı; Pikardiya ile Burgonya dükalığı zımnen XI. Louis'ye bırakıldı. Bir katalog kaydı antlaşmayı 24 Aralık diye tarihliyor. Maximilian'ın tarafı atlasta 'almanya' künyesiyle gösterildi.",
+  kaynak:"Larousse, Dictionnaire de l'Histoire de France · Britannica 'Mary, duchess of Burgundy' · Biblissima kaydı (24 Aralık — ÇELİŞKİ)" },
+
+{ t:"1497-09-17", devlet:"ispanya", devletler:["ispanya","merini"], sinir_id:"dg5-es-ma-melilla",
+  b:"Melilla'nın alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["konu-siyasi","ispanya","merini","fas"],
+  d:"Terk edilmiş ve yıkılmış Melilla, Medina Sidonia Dükü adına Pedro de Estopiñán tarafından çatışmasız alındı. Resmî gün 17 Eylül'dür, ancak bir akademik çalışma bu günün 18. yüzyıl yazarlarından gelen bir yaklaşım olduğunu, çağdaş kronikçinin yalnız 'eylül' dediğini belirtir. TDV'de Melilla'nın müstakil maddesi yoktur.",
+  kaynak:"İspanya Kara Kuvvetleri Müzesi (resmî) · E. Gozalbes Cravioto, 'La conquista cristiana de Melilla', Estudios de Frontera VI" },
+
+{ t:"1499-09-22", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"",
+  b:"Basel Barışı — Svabya Savaşı'nın sonu", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["antlasma","konu-siyasi","isvicre","almanya"],
+  d:"Kral Maximilian ile İsviçre Konfederasyonu arasında Basel'de imzalanan barış savaş öncesi durumu geri getirdi. İki istisna vardı: Prättigau'daki sekiz mahkeme Maximilian'da kaldı, Konstanz'a ait Thurgau bölge mahkemesi Ekim 1499'da İsviçrelilere verildi.",
+  kaynak:"Historisches Lexikon der Schweiz 'Basel, Frieden von (1499)'" },
+
+{ t:"1516-11-29", devlet:"isvicre", devletler:["isvicre","fransa"], sinir_id:"dg5-it-ch-1",
+  b:"Fribourg Ebedî Barışı — Ticino vogtlukları İsviçre'de kaldı", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["antlasma","konu-siyasi","isvicre","fransa","milano-dukaligi"],
+  d:"Marignano yenilgisinden sonra İsviçre Konfederasyonu ile Fransa Fribourg'da ebedî barış imzaladı. İsviçreliler Milano üzerindeki himaye iddiasından vazgeçti; Alpler ötesindeki vogtlukları satın almak için yapılan Fransız teklifini reddedip bu toprakları ellerinde tuttu. Sonraki Ticino böylece kesin olarak İsviçre'de kaldı; Mendrisio 1521'den itibaren.",
+  kaynak:"Historisches Lexikon der Schweiz 'Ewiger Frieden'" },
+
+{ t:"1532-01-01", devlet:"fransa", devletler:["fransa","bretanya"], sinir_id:"",
+  b:"Bretanya'nın Fransa tacına bağlanması (Birleşme Fermanı)", tur:"bolunme", onem:3, dunya:2, kapsam:"ic", yer_id:"",
+  etiket:["konu-siyasi","fransa","bretanya"],
+  d:"Nantes'ta çıkarılan Birleşme Fermanı Bretanya dükalığını Fransa tacına ebediyen bağladı; Bretanya'nın vergi rızası ve adalet düzeni gibi hakları korundu. Kaynak ayı veriyor (Ağustos 1532), günü vermiyor; tarih YIL düzeyindedir.",
+  kaynak:"Loire-Atlantique Departman Arşivleri 'Édit d'union 1532' (asıl belge: Archives nationales AE/II/587)" },
+
+{ t:"1536-01-22", devlet:"isvicre", devletler:["isvicre","savoya"], sinir_id:"dg5-sa-ch-1",
+  b:"Bern'in Savoy'a ait Vaud'yu fethi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["konu-siyasi","isvicre","savoya"],
+  d:"Bern 22 Ocak 1536'da Savoy'a ait Vaud'ya sefer başlattı; 26 Şubat'a kadar Moudon, Nyon, Gex, Morges, Orbe ve Yverdon alındı, Cenevre kuşatması kaldırıldı. 20 Mart – 21 Nisan arasındaki ikinci seferde Chillon ve Lausanne düştü. Vaud Bern'e geçti; bazı bölgeler Bern ile Fribourg arasında paylaşıldı.",
+  kaynak:"Historisches Lexikon der Schweiz 'Nägeli, Hans Franz' ve 'Waadt'" },
+
+{ t:"1564-10-30", devlet:"isvicre", devletler:["isvicre","savoya"], sinir_id:"dg5-sa-ch-1",
+  b:"Lausanne Antlaşması — Savoy Vaud'dan vazgeçti, Gex ve Chablais geri verildi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["antlasma","konu-siyasi","isvicre","savoya"],
+  d:"Bern ile Savoy Dükü arasında Lausanne'da imzalanan antlaşmayla dük Vaud'dan kesin olarak vazgeçti. Karşılığında Gex, Chablais, Ternier ve Gaillard'ın 1 Mart 1565'te Savoy'a geri verilmesi kararlaştırıldı; Bern bu toprakları fiilen ancak Ağustos 1567'de boşalttı.",
+  kaynak:"Historisches Lexikon der Schweiz 'Lausanner Vertrag'" },
+
+{ t:"1570-12-13", devlet:"danimarka", devletler:["danimarka","isvec"], sinir_id:"dg6-dk-se-1751-oncesi",
+  b:"Stettin Barışı — Kuzey Yedi Yıl Savaşı'nın sonu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["antlasma","konu-siyasi","danimarka","isvec","norvec-kralligi"],
+  d:"Danimarka-Norveç ile İsveç Stettin'de barış imzaladı. İsveç işgal ettiği Jämtland ve Härjedalen'i geri verdi ve Gotland'dan resmen vazgeçti; Älvsborg için 150.000 taler fidye ödemeyi üstlendi. Aynı kaynak barışı savaş öncesi sınıra dönüş olarak da nitelendiriyor.",
+  kaynak:"Store norske leksikon 'Den nordiske sjuårskrigen'" },
+
+{ t:"1598-05-02", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"dg5-guneyhol-fr-1",
+  b:"Vervins Barışı — İspanya Pikardiya'daki kaleleri Fransa'ya geri verdi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["antlasma","konu-siyasi","fransa","ispanya"],
+  d:"Fransa ile İspanya Vervins'te barış imzaladı. II. Felipe Pikardiya'daki bir dizi kaleyi Fransa'ya geri verdi ve antlaşma Cateau-Cambrésis düzenini teyit etti. Geri verilen kalelerin adları okunabilir bir kaynakta bulunamadı.",
+  kaynak:"BnF katalog kaydı cb11978828t · Larousse Encyclopédie 'traité de Vervins'" },
+
+{ t:"1601-01-17", devlet:"fransa", devletler:["fransa","savoya"], sinir_id:"dg5-fr-ch-jura-1",
+  b:"Lyon Antlaşması — Bresse, Bugey ve Gex Fransa'ya geçti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["antlasma","konu-siyasi","fransa","savoya","isvicre"],
+  d:"Savoy, Lyon Antlaşması'yla Bresse, Bugey ve Gex'i Fransa'ya bıraktı. Böylece Gex bölgesi Fransa'nın oldu; bugünkü Fransa–İsviçre sınırının Cenevre'nin kuzeybatısındaki kesimi bu bölgenin sınırıdır. Savoy'un karşılığında ne aldığı okunabilir bir kaynakta doğrulanamadı.",
+  kaynak:"BnF katalog kaydı cb13750190w" },
+
 // ── G5-G7 (1606-11-11 → 1815-06-09) ─────────────────────────────────
 // Başka dosyada ZATEN bulunan maddeler yazılmadı: 1609 On İki Yıl Ateşkesi · Vestfalya 1648 ·
 // Roskilde 1658 · Pireneler 1659 · Kopenhag 1660 · Lizbon 1668 · Utrecht 1713 · Rastatt 1714 ·
