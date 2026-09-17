@@ -421,3 +421,20 @@ Kural (GERIYE-SARMA §0): hat yalnız koordinatı kaynaktan kurulabiliyorsa yaz�
 
 TDV `fas` · `cezayir` · `tunus` gövdeleri "sınır/hudut/Mülûye/Tâfne" için tarandı (17 Eyl): yalnız XIX. yüzyıl Fransız yayılması ve 1881 Bardo anlatısı geçiyor.
 ⚠️ Bu "yok" bir **arama sonucudur**: Brownlie *African Boundaries* ve Trout *Morocco's Saharan Frontiers* açılamadı (envanter §9) — Osmanlı Cezayir'i–Fas sınırının erken dönemi için bakılacak yer onlar.
+
+---
+
+## 19. G8 → G10 (1606 → 1281) — geri çağrıldıktan sonra (17 Eylül, 1.MURAT)
+
+Sayım aleti `denetim/ARAC-D4-G8G10-SAYIM-0917.js` (52 aday · çekirdek + kuyruk · yıl penceresi + anahtar kelime) + dar arama.
+```
+G8  22 aday → 19 VAR · 3 aday YOK: 1529 Cezayir Peñón (DAR ARAMADA VAR, kuyruk) · 1536 Irakeyn dönüşü (VAR: 1535-06-01 ek6) ·
+             1553-54 NAHÇIVAN SEFERİ → GERÇEKTEN YOK
+G9  13 aday → 13 VAR (Otlukbeli · Karakoyunlu sonu · Safevî kuruluşu · Çaldıran · Tebriz · Mercidabık · Ridaniye · Hicaz · Cezayir 1516-19 · Portekiz …)
+G10 17 aday → 15 VAR · 2 'YOK' sorgu kusuruydu (dar aramada VAR: Karakoyunlu/Şahruh 9 madde · Merînî-Hafsî-Zeyyânî 12 madde);
+             Kilikya/Sis 1375 VAR (ilk sorgu 'Sisodiya'ya takılmıştı)
+```
+**Yazılan (kronoloji_sinir_ortadogu.js → 12 madde):** 1553-08-28 Nahçıvan seferine çıkış (TDV suleyman-i) · 1554-09-26 Erzurum mütarekesi (TDV amasya-antlasmasi).
+**Hat kaydı: 0** — Amasya 1555 · Ferhat Paşa 1590 · (1639) metinleri kaba (C) ve geometri kaynağı yok; Osmanlı–İran hatları ilk dağıtımda D2-KOMSU'ndu.
+**🔴 Bulgu — Amasya günü:** atlas her yerde 1555-05-29; TDV (müstakil madde + suleyman-i) **1 Haziran 1555 (11 Receb 962)**. `yer_yama_kafkas.js` 29 Mayıs'ı
+bir kez "külliyatta böyle" diye yaymış (atlas kendine dayanmış). Öneri + etkilenen 15+ kayıt: `denetim/YAMA-D4-AMASYA-0917.json` — KARAR KOORDİNATÖRÜN.

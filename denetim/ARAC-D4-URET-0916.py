@@ -364,6 +364,24 @@ KRON = [
           "sonraki üç yıl bu hat bir cephe hattına dönüştü ve Osmanlı kuvvetleri Sina'ya ilerleyip iki kez Süveyş Kanalı'nı geçmeye çalıştı.",
      "kaynak": "TDV misir ('18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp' · Cemal Paşa'nın iki kanal harekâtı) · RIAA XX §54-59",
      "sinir_id": ["d1906-filistin-misir-hidivlik"], "sinif": "E→YOK"},
+    # ── G8 (1606-11-11 → 1526-08-29) — sayım: 22 adayın 19'u atlasta VAR (denetim/ARAC-D4-G8G10-SAYIM-0917.js); EKSİK: Nahçıvan seferi ──
+    {"t": "1553-08-28", "devlet": "osmanli", "taraflar": ["osmanli", "safevi"],
+     "b": "Kanunî'nin üçüncü İran (Nahçıvan) seferine çıkışı",
+     "tur": "sefer", "onem": 3, "dunya": 1, "kapsam": "dis", "yer_id": "",
+     "etiket": ["askeri", "sefer", "osmanli", "safevi", "konu-askeri"],
+     "d": "Safevîlerin Doğu Anadolu'daki akınlarının öcünü almak ve Şah Tahmasb'ı barışa zorlamak için Kanunî Sultan Süleyman İstanbul'dan ayrıldı. "
+          "Halep'te kışlayan ordu Nisan 1554'te yeniden yola çıktı ve Nahçıvan'a kadar ilerledi; şehir alınıp tahrip edildi. "
+          "Tahmasb meydan savaşına girmedi, yolları yakıp suları kirleterek ordunun ikmalini kesti. Osmanlı kaynaklarında bu harekât 'Nahcıvan seferi' diye anılır.",
+     "kaynak": "TDV suleyman-i ('18 Ramazan 960'ta (28 Ağustos 1553) İstanbul'dan ayrılan' · Halep'ten 9 Nisan 1554'te hareket) · TDV nahcivan ('Nahcıvan seferi … şehir ele geçirildi ve yağmalanıp tahrip edildi') · TDV amasya-antlasmasi (pasif direniş)",
+     "sinir_id": [], "sinif": None, "not": "sınır değişikliği değil — Amasya 1555'in öncülü; hat kaydı yok"},
+    {"t": "1554-09-26", "devlet": "osmanli", "taraflar": ["osmanli", "safevi"],
+     "b": "Osmanlı–Safevî mütarekesi — Kanunî, Tahmasb'ın ateşkes isteğini Erzurum'da kabul etti",
+     "tur": "diplomasi", "onem": 3, "dunya": 1, "kapsam": "dis", "yer_id": "Erzurum",
+     "etiket": ["diplomasi", "osmanli", "safevi", "konu-diplomasi"],
+     "d": "Yiyecek sıkıntısı ve yaklaşan kış yüzünden Nahçıvan'dan çekilen Osmanlı ordusu Erzurum'dayken Safevî elçisi Kaçar Şahkulu geldi ve Şah Tahmasb'ın mütareke isteğini iletti; "
+          "padişah isteği kabul etti. Kanunî kışı Amasya'da geçirdi; buradaki görüşmeler ertesi yıl Amasya Antlaşması'yla sonuçlandı.",
+     "kaynak": "TDV amasya-antlasmasi ('Kanûnî Erzurum'da iken Safevî elçisi Kaçar Şahkulu … Bu istek Kanûnî tarafından kabul edildi (26 Eylül 1554)') · TDV suleyman-i (Amasya'ya dönüş 30 Ekim 1554)",
+     "sinir_id": [], "sinif": None, "not": "ateşkes; kesin hat yok ⇒ D kaydı yok"},
     # ── G3 EKİ (G3 teslimi M-4161'de KAÇMIŞTI): 1886 ve 1892 — hukukî (E) ama hat geometrisi yok ⇒ yalnız madde ──
     {"t": "1886-01-01", "devlet": "osmanli", "taraflar": ["osmanli", TUN],
      "b": "Fransız–Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",

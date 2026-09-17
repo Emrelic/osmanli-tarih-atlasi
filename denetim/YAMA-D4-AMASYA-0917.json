@@ -1,0 +1,25 @@
+{
+  "paket": "GERİYE SARMA G8 — Amasya Antlaşması'nın günü",
+  "tarih": "2026-09-17",
+  "yazan": "D4-ORTADOGU (1.MURAT sevki, GERIYE-SARMA-0916 G8)",
+  "durum": "ONERI — KARAR KOORDİNATÖRÜN. Hiçbir dosyaya yazılmadı.",
+  "bulgu": "Atlas Amasya Antlaşması'nı her yerde 1555-05-29 (29 Mayıs 1555) günüyle taşıyor. TDV'nin müstakil maddesi başlığında ve gövdesinde 1 Haziran 1555 diyor; TDV suleyman-i de aynı günü veriyor. Hicrî gün (11 Receb 962) 1 Haziran 1555'e düşer (Receb 962'nin başı ≈ 22 Mayıs 1555).",
+  "kaynak": [
+    "TDV amasya-antlasmasi (İ. Şahin – F. Emecen, 1991; 200, gövde okundu): 'Osmanlı Devleti ile İran arasında yapılan ilk antlaşma (11 Receb 962 / 1 Haziran 1555)'",
+    "TDV suleyman-i (200, gövde okundu): '11 Receb 962'de (1 Haziran 1555) sulh yapıldı'",
+    "TDV amasya-antlasmasi: Safevî elçisi 17 Mayıs 1555'te Amasya'ya geldi, 22 Mayıs'ta divanda kabul edildi — 29 Mayıs'ın kaynağı bu turda BULUNAMADI"
+  ],
+  "etkilenen_kayitlar_olculdu": [
+    "data/olaylar.js:74 (çekirdek madde, gun:'29 Mayıs 1555')",
+    "data/kronoloji_iran.js:152 · data/kronoloji_gurcistan.js:147 (kuyruk)",
+    "data/devletler.js:131 · :1048 (künye kronoloji satırları)",
+    "data/savaslar.js:429 (antlaşma kaydı)",
+    "data/ekokuma_antlasma2.js:39 · :54 · :60 (olay bağı ve t) · data/merak.js:116 (baglanti)",
+    "data/yer_yama.js:617 (madde bağı)",
+    "yerleşim kırılmaları: data/yerlesimler.js:1074 · data/yer_yama_vassal_kid_0906.js:120 · data/yer_yama_ferhatpasa.js:100/116 · data/yer_yama_kafkas.js:166-180 · data/yer_yama_kid20_0907.js:118 (Kutaisi/İmereti tâbiiyeti ve diğerleri)",
+    "üretilmiş: data/bolgeler.js · data/donemler.js · data/devletler_harita.js (koşuyla yenilenir)"
+  ],
+  "oneri": "Hepsi birlikte 1555-05-29 → 1555-06-01; çekirdek maddenin gun alanı '1 Haziran 1555 (11 Receb 962)'. Üç günlük kayma Değişmez 2'yi bozmaz (madde ile kırılmalar birlikte kayar).",
+  "dikkat": "yer_yama_kafkas.js:178 notu 1555-07-23 → 1555-05-29 düzeltmesini 'külliyatta Amasya 1555-05-29'dadır' gerekçesiyle yapmış — yani 29 Mayıs bir kez ATLASIN KENDİSİNE dayanılarak yayılmış (CLAUDE.md §4: atlas referans değildir). 29 Mayıs'ı destekleyen akademik bir kaynak bulunursa bu öneri düşer; bulunmazsa TDV esastır.",
+  "yazilmadi": "Hicrî→miladî çevirisi burada yalnız TDV'nin kendi eşlemesinin kontrolüdür; ayrı bir takvim aracıyla yapılmadı."
+}
