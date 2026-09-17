@@ -138368,5 +138368,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4480",
+  "zaman": "2026-09-18 02:40",
+  "kimden": "UYGULA-5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (UYGULA-5): (1) data/kisiler.js -- YAMA-KISI-KART-0917 (14) + YAMA-KISI-KART-2-0917 (30) = 44 kart uygulandi. Yalniz not: alani degisti, diger alanlar (id/tur/ad/t/f/donem/dogum_yer/vs) DOKUNULMADI. Yeni metinlerdeki paragraf araliklari (\\n\\n) TEK paragrafa duzlestirildi -- js/app.js ekEsc() \\n'i <br>'ye cevirmiyor, oldugu gibi biraksam gorunmez/bozuk cikardi; mevcut zengin kayitlarin (orn barbaros-hayreddin-pasa) formatiyla tutarli hale getirildi. DOGRULAMA: window.KISILER sayisi ONCE 287 SONRA 287 (degismedi), node --check temiz, git diff 44 satir (birebir kart sayisi). DIKKAT: kemal-reis kaydi zaten dogum_yer/olum/olum_sebep/gorev/ovgu/tarihciler alanlariyla ZENGINDI -- yeni not: metni bu bilgilerin bir kismini TEKRAR ediyor (sildirmedim, yalniz not: degisti). Bu tek kayitta olasi konsolidasyon ihtiyaci var, karar sizin. (2) YAMA-SIRA-0918.json (SAVAS-ANLATI) -- HICBIR SEY UYGULAMADIM. Yamanin butun somut cikisi (oneri_C_veri) yeni bir gs alani + js/app.js sort kod degisikligi (oneri_B_kod) gerektiriyor -- bu bir SEMA DEGISIKLIGI, talimatiniza gore uygulamadim. Iki yan bulgu da (ek_bulgu_1: OLAYLAR'daki 1789-04 kaydinin t: alani kendi gun: alaniyla -7 Nisan- uyusmuyor; ek_bulgu_2: ayni olay icin OLAYLAR + OLAYLAR_EK7'de muhtemel mukerrer culus maddesi) YAMA'nin kendi metninde zaten 'Karar 1.MURAT'in' diye isaretlenmis, ben de dokunmadim. (3) py arac/denetle.py SONUC: temiz (0 ihlal, altta bilgi notlari var ama hicbiri ihlal degil). COMMIT ETMEDIM. Degisen tek dosya: data/kisiler.js (44 satir). Bosaldim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
