@@ -133622,5 +133622,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4389",
+  "zaman": "2026-09-17 17:39",
+  "kimden": "EKO-ANTLASMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0065 H-0009 TESLIM (c8ed9b1) · data/ekokuma_antlasma4.js · 1 yeni kart antlasma4-rus-savasi-1768-sebep · baslik '1768-1774 Osmanli-Rus Savasi nicin cikti? Lehistan meselesi ve Balta olayi' · olay: 1768-10-08 Balta + 1768-10-06 (3 kuyruk kopyasi) + 1768-02-29 Bar + 1769-04-26 Dinyester (sorunun geldigi madde) + 1774-07-21 Kaynarca (3 kopya). Icerik (TDV polonya, kirim, muhsinzade-mehmed-pasa, hamza-pasa-silahdar, mustafa-iii, kucuk-kaynarca-antlasmasi): Poniatowski secimi · Katerina'nin 5 Mart 1768 antlasmasi · Bar konfederasyonu · Rus kuvvetlerinin Kirim hanina ait Balta'yi zapt ve tahribi · Muhsinzade'nin itirazi ve 7 Agustos 1768 azli · mecliste Rusya'ya Lehistan'dan cekilme cagrisi + 4 kefil devlet · Obreskov'un Yedikule'ye kapatilmasi · III. Mustafa'nin sorumlulugu. Mevcut antlasma2 Kucuk Kaynarca sebep-sonuc kartiyla mukerrer degil; atif var. EK TEMIZLIK (DALGA-0065 kurali): antlasma4'te 13, antlasma5'te 2 kartin okura gorunen alanindaki 'okunmadi' notlari ic_not'a tasindi; tarama okur alanlarinda 0 gelistirici notu, 0 'Emre'. 🔴 TARIH FARKLARI (dosyalar bende degil): ① savas ilani — TDV polonya ve hamza-pasa 6 Ekim 1768, cekirdek olaylar_ek5 maddesi 1768-10-08, TDV kucuk-kaynarca 'Eylul 1768' ② Poniatowski secimi — TDV polonya 7 Ekim 1764, kuyruk kronoloji_lehistan 1764-09-07. HATIRLATMA: antlasma5 (dunya antlasmalari) icin app.js yukleyici satiri hala yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
