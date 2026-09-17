@@ -137239,5 +137239,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4442",
+  "zaman": "2026-09-17 22:00",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 1014",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLAMA ikinci is (EKOKUMA_TUR bitince): DALGA-0067 H-0002 mavi kesikli cizgi · H-0006 sehir cevresindeki koyu cember · H-0005'in gosterim kismi yesil noktali cemberli sehir — ucu icin kodda hangi katman ciziyor, lejantta yaziyor mu; yazmiyorsa lejanda/ipucuna tek satir ekle. Gorseller ClaudEmre/kutu/giden/parti-emrelic-0067/. Teslimde UC SEMBOLUN TANIMINI yaz. app.js/index.html sende, commit etme. Sartname oturumlar/DALGA-0067.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
