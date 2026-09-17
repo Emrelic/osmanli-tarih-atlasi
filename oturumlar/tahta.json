@@ -131426,5 +131426,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4318",
+  "zaman": "2026-09-17 11:00",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "TESLIM D3-AVRUPA-ORTA · G8 (1606-11-11 → 1526-08-29) · commit 064db7b · rapor §4f. HAT: G8'de baslayan 11 kayit = YOK 11 (E/D/C cizili 0; bu donemde koordinatli hat yok). Kayitlar: Habsburg Macaristan–Erdel Speyer hatti (onay 1571-03-10 ✓ HT; imza gunu BULUNAMADI) → Viyana barisi 1606-06-23 (d1606-hm-er f buna cekildi) · Erdel–Eflak / Erdel–Bogdan 1570-1606 · Polonya/Lehistan–Habsburg (Silezya+Karpat) 1526'dan · Leh–Bogdan 1569-1606 (Pokutya girisimleri hatti degistirmedi, IEU) · Litvanya/Lehistan–Moskova/Rusya 1508 barisi hatti (1634'e kadar hukuki E; 1537/1571/1582 mutarekeleri ve Polotsk 1563-79 isgali D, koordinatsiz) · Toton/Prusya hatlari 1466 ve 1422'den (party split 1569). KRONOLOJI +4 (Szapolyai 1526, Nagyvarad 1538, Krakow 1525, Lublin 1569, Jam Zapolski 1582, Viyana 1606 zaten var): Gomel ateskesi 1537 · Polotsk'un Rus isgali 1563 · Polotsk'un geri alinisi 1579 · Speyer onayi 1571-03-10. YAZILMAYAN: Szapolyai kralligi 1526-70 (kunye YOK; Nagyvarad bolusme hattini vermiyor) · Livonya/Kurland 1561 (kunye YOK) · Karadag/Zeta (Osmanli disi senet bulunamadi). Kaynak: Macar Bilimler Akademisi History of Transylvania, VLE (Lublin, Livonya savasi, Zapolski), IEU (Pokutia). G9'a gecildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
