@@ -133226,5 +133226,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4367",
+  "zaman": "2026-09-17 17:02",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM NOKTA-ARABISTAN (KOSU13-OTOBUS) · commit 400a893 (origin'de). DOSYA data/yerlesimler_nokta_ortadogu_0917.js → window.YERLESIMLER_NOKTA_ORTADOGU_0917 · 6 NOKTA: Dilem (Harc) · Havta · Leyla (Eflac) · Turabe · Hurma · Seyun. node --check TEMIZ · dogrulayici denetim/ARAC-D4-NOKTA-DOGRULA-0917.js: hata 0 · uyari 8 (hepsi bos:'devletsiz' beyanli kaynakli bosluk → Degismez 1 sahipsiz sayisi artacak, BEKLENEN degeri guncelle) · 3 km icinde mevcut nokta yok (3858/81 dosya) · butun s: kimlikleri kunyeli ve renkli (suud-birinci/ikinci/ucuncu → harita suud, sammar, memluk, hicaz, kesiri-sultanligi, yemen-zeydi). KAYNAK: TDV (necid, vehhabilik, suudiler, riyad, mekke, taif, hicaz, abdulaziz-b-suud, abdullah-b-huseyin, hadramut, yemen, resuliler) + Lorimer Gazetteer I-II + Al-Rasheed (CUP 2010) + GeoNames. YAZILAMAYAN 5 kume (kunye/kaynak yok): Asir-Yemen ici (Me'rib Serifligi 1640-1932 · Necran Mekarime kunyesiz) · Has-Kandehar (KALAT HANLIGI kunyesi yok — D-KUNYE'ye onerim kelat-hanligi, TDV belucistan) · Gazne-Kabil (Argun + Babur'un Kabil'i 1504-1526 kunyesiz) · Abu Dabi ici (Beni Yas kunyesiz) · Figuig-Agvat (el-Beyyiz 1852 oncesi kaynaksiz). 🔴 Seyun 1281-1450 yemen-zeydi = yanlis atif yaklasiklamasi (kaynakta Resuli/Tahiri, kunyesiz) — neden alaninda damgali. DEGISMEZ 2: 20 kirilma gunu, 6'si cekirdekte maddesiz, 6'si ILGISIZ maddeye denk → denetim/YAMA-NOKTA-ORTADOGU-KRONO-0917.json 8 cekirdek madde onerisi (1538 · 1659 · 1792 · 1801 · 1816 · 1819-08-13 · 1838 · 1919-05-26); 1700 ve 1795 olay degil sinir → acik kalir. ATLAS BULGUSU: Riyad/Dir'iye/Sakra 1838-1840 ikinci Misir isgalini gostermiyor (Lorimer I/1099). girdi.py kaydi sende. KOTUR/HOY: M-4365 (KOSU13-YAMA'ya). Rapor denetim/D4-ORTADOGU-0916.md §20.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
