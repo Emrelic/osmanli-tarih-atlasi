@@ -1,0 +1,59 @@
+öncelik: BELOW_NORMAL
+BOLGE [-180.0, -60.0, -117.0, -7.0] · iç (-180.0, -60.0, -120.0, -10.0) · k00
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.5 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    5.3 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  0 büyük göl kara maskesinden çıkarıldı
+  0 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+[    6.3 sn] Nehir yatakları
+  0 nehir parçası — 0 adlı akarsu: 
+  bedel sınıfı: sınıf-1 0 parça · sınıf-2 0 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[    6.9 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[    7.8 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.0
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 3 peteğe şekil verildi · 3852 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0000 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   55.6 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1260×1060 = 1,335,600 hücre, kara 322
+  1 tohum yerleşti (0 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3854 tohum (kıstırma YOK — Voronoi kalır)
+       Levuka                                   178.83, -17.68   kenara 31,376 km olurdu
+       Bau (Fiji Konfederasyonları)             178.57, -18.01   kenara 31,291 km olurdu
+       Suva                                     178.44, -18.14   kenara 31,254 km olurdu
+       Tulagi                                   160.15,  -9.09   kenara 30,465 km olurdu
+       Gizo                                     156.84,  -8.10   kenara 30,179 km olurdu
+       Herbertshöhe (Kokopo) — Rabaul           152.26,  -4.35   kenara 29,829 km olurdu
+       Anadır (Anadyrsk)                        177.48,  64.75   kenara 29,796 km olurdu
+       Yeni Britanya iç kesimi                  150.50,  -5.50   kenara 29,602 km olurdu
+       Louisiade-Milne takımadası               153.50, -11.50   kenara 29,508 km olurdu
+       Yeni Kaledonya iç kesimi                 164.50, -20.50   kenara 29,352 km olurdu
+       Samarai                                  150.68, -10.61   kenara 29,289 km olurdu
+       Finschhafen                              147.84,  -6.60   kenara 29,275 km olurdu
+       … ve 3842 tohum daha
+[   55.9 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 329 m/hücre → sürtünme medyanı 2.645
+  en pahalı hücre: sürtünme 7.19 (eğim 1,237 m/hücre)
+  🔴 NEHİR GEÇİŞ BEDELİ KAPALI (MOTOR_NEHIR_KAPALI=None · sınıf listesi var) — nehir bedeli 0
+[   57.6 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[   57.6 sn] Dijkstra (eğim + nehir, üretim)
+  0.0 sn · erişilen 10 · bütçe içi 10
+[   57.8 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 19 kara hücresi
+  ızgaranın erişmediği kara hücresi 312 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 8331, 'A_sahipli_km2': 550, 'B_sahipli_km2': 550, 'sahibi_degisen_km2': 0, 'yeni_sahipsiz_km2': 0, 'yeni_sahipli_km2': 0, 'A_sahipsiz_km2': 7780, 'B_sahipsiz_km2': 7780}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917-16.json · k00 · toplam 58 sn
+
+--- stderr ---

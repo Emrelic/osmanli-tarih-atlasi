@@ -1,0 +1,84 @@
+öncelik: BELOW_NORMAL
+BOLGE [117.0, -60.0, 180.0, -7.0] · iç (120.0, -60.0, 180.0, -10.0) · k05
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.2 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    5.4 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  29 büyük göl kara maskesinden çıkarıldı
+  4 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+      Burrendong Reservoir (1967)
+      Lake Argyle (1972)
+      Lake Gordon (1974)
+      Lake Pedder (1972)
+[    6.6 sn] Nehir yatakları
+  7 nehir parçası — 5 adlı akarsu: Barwon, Darling, Murray, Tongariro, Weir
+  bedel sınıfı: sınıf-1 5 parça · sınıf-2 2 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[    7.2 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[    8.2 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.2
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 115 peteğe şekil verildi · 3740 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0001 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   59.7 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1260×1060 = 1,335,600 hücre, kara 287,678
+  133 tohum yerleşti (14 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3722 tohum (kıstırma YOK — Voronoi kalır)
+       Honolulu                                -157.86,  21.31   kenara 30,522 km olurdu
+       Lapaha (Muʻa)                           -175.12, -21.18   kenara 30,322 km olurdu
+       Hawaii Adaları (Birleşme Öncesi — moku  -155.50,  19.60   kenara 30,297 km olurdu
+       Unalaska (Iliuliuk)                     -166.53,  53.87   kenara 29,741 km olurdu
+       Hooper Bay (Naparyarmiut)               -166.10,  61.53   kenara 29,033 km olurdu
+       Kiŋigin (Wales)                         -168.09,  65.61   kenara 28,831 km olurdu
+       Chignik (Alaska Yarımadası)             -158.40,  56.30   kenara 28,741 km olurdu
+       Nome                                    -165.41,  64.51   kenara 28,688 km olurdu
+       Bethel (Mumtrekhlagamute)               -161.76,  60.79   kenara 28,685 km olurdu
+       Aleksandrovski Redut (Nushagak)         -158.51,  58.89   kenara 28,537 km olurdu
+       Mihaylovskiy Redut (St. Michael)        -162.03,  63.49   kenara 28,467 km olurdu
+       Tikiġaq (Point Hope)                    -166.80,  68.35   kenara 28,438 km olurdu
+       … ve 3710 tohum daha
+[   60.0 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 14 m/hücre → sürtünme medyanı 1.067
+  en pahalı hücre: sürtünme 8.25 (eğim 1,449 m/hücre)
+[   62.1 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 669 · nehri KESEN adım 10,040 / 54,743 aday
+  sınıf-1 6,878 · sınıf-2 3,162 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 10,040 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[   63.5 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[   63.5 sn] Dijkstra (eğim + nehir, üretim)
+  14.1 sn · erişilen 284,601 · bütçe içi 253,030
+[   77.9 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 274,488 kara hücresi
+  ızgaranın erişmediği kara hücresi 3,077 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 7185789, 'A_sahipli_km2': 6867293, 'B_sahipli_km2': 6466365, 'sahibi_degisen_km2': 156568, 'yeni_sahipsiz_km2': 488295, 'yeni_sahipli_km2': 87367, 'A_sahipsiz_km2': 318495, 'B_sahipsiz_km2': 719423}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+  kume {'km2': 72704, 'merkez_lat': -28.09, 'merkez_lon': 150.27, 'A_sahipleri': ['Moree', 'Brisbane', 'Roma (Queensland)'], 'surtunme_medyan': 1.062, 'en_yakin_tohum_km_medyan': 177.0, 'yuruyus_saat_medyan': 43.7, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 28721, 'merkez_lat': -31.46, 'merkez_lon': 143.02, 'A_sahipleri': ['Broken Hill', 'Cobar', 'Hay'], 'surtunme_medyan': 1.026, 'en_yakin_tohum_km_medyan': 193.3, 'yuruyus_saat_medyan': 43.7, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 27509, 'merkez_lat': -41.79, 'merkez_lon': 172.77, 'A_sahipleri': ['Wellington', 'Christchurch', 'Te Waipounamu Māori Yerleşimi (Güney Ada içi)'], 'surtunme_medyan': 1.859, 'en_yakin_tohum_km_medyan': 150.4, 'yuruyus_saat_medyan': 56.5, 'sinif': 'DAG'}
+  kume {'km2': 25502, 'merkez_lat': -36.57, 'merkez_lon': 148.07, 'A_sahipleri': ['Bairnsdale', 'Goulburn', 'Wagga Wagga'], 'surtunme_medyan': 1.352, 'en_yakin_tohum_km_medyan': 172.9, 'yuruyus_saat_medyan': 43.4, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 22933, 'merkez_lat': -28.56, 'merkez_lon': 140.24, 'A_sahipleri': ['Marree (Hergott Springs)', 'Birdsville', 'Windorah'], 'surtunme_medyan': 1.021, 'en_yakin_tohum_km_medyan': 209.9, 'yuruyus_saat_medyan': 43.9, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 19952, 'merkez_lat': -39.7, 'merkez_lon': 175.51, 'A_sahipleri': ['Aotearoa Māori Yerleşimi (Kuzey Adası içi)', 'Wellington'], 'surtunme_medyan': 1.339, 'en_yakin_tohum_km_medyan': 176.8, 'yuruyus_saat_medyan': 46.4, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 19816, 'merkez_lat': -21.82, 'merkez_lon': 147.72, 'A_sahipleri': ['Bowen', 'Emerald', 'Charters Towers'], 'surtunme_medyan': 1.104, 'en_yakin_tohum_km_medyan': 192.9, 'yuruyus_saat_medyan': 42.6, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 19794, 'merkez_lat': -33.35, 'merkez_lon': 139.9, 'A_sahipleri': ['Adelaide', 'Port Augusta', 'Mildura'], 'surtunme_medyan': 1.046, 'en_yakin_tohum_km_medyan': 168.2, 'yuruyus_saat_medyan': 43.1, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 19486, 'merkez_lat': -44.84, 'merkez_lon': 168.9, 'A_sahipleri': ['Te Waipounamu Māori Yerleşimi (Güney Ada içi)'], 'surtunme_medyan': 2.22, 'en_yakin_tohum_km_medyan': 167.2, 'yuruyus_saat_medyan': 54.8, 'sinif': 'DAG'}
+  kume {'km2': 16622, 'merkez_lat': -18.85, 'merkez_lon': 125.76, 'A_sahipleri': ['Büyük Kum Çölü 4', 'Halls Creek', 'Avustralya İç Kesimi (Kuzeybatı — Kimberley)'], 'surtunme_medyan': 1.065, 'en_yakin_tohum_km_medyan': 198.4, 'yuruyus_saat_medyan': 42.5, 'sinif': 'NOKTASIZ'}
+   {'ad': 'Moree', 'A_km2': 92084, 'B_km2': 61486, 'net_km2': -30599}
+   {'ad': 'Wellington', 'A_km2': 37628, 'B_km2': 13119, 'net_km2': -24509}
+   {'ad': 'Te Waipounamu Māori Yerleşimi (Güney Ada içi)', 'A_km2': 57645, 'B_km2': 33768, 'net_km2': -23876}
+   {'ad': 'Armidale', 'A_km2': 84090, 'B_km2': 64762, 'net_km2': -19328}
+   {'ad': 'Aotearoa Māori Yerleşimi (Kuzey Adası içi)', 'A_km2': 61835, 'B_km2': 45251, 'net_km2': -16584}
+   {'ad': 'Mildura', 'A_km2': 77325, 'B_km2': 63556, 'net_km2': -13768}
+   {'ad': 'Brisbane', 'A_km2': 63860, 'B_km2': 50522, 'net_km2': -13338}
+   {'ad': 'Cairns', 'A_km2': 46620, 'B_km2': 33323, 'net_km2': -13297}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917-16.json · k05 · toplam 79 sn
+
+--- stderr ---

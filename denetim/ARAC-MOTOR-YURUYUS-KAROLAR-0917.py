@@ -14,8 +14,13 @@ import io, json, os, subprocess, sys, time
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", line_buffering=True)
 ARAC = os.path.join(KOK, "denetim", "ARAC-MOTOR-YURUYUS-ONGORU-0917.py")
-HAM = os.path.join(KOK, "denetim", "ARAC-MOTOR-YURUYUS-ONGORU-0917.json")
-CIKTI = os.path.join(KOK, "denetim", "ONGORU-MOTOR-YURUYUS-0917.json")
+# --yon16: B tarafı 16 komşulu Dijkstra, motor dal worktree'sinden (1.MURAT M-4332).
+#   Çıktılar AYRI dosyalara gider — 8 komşulu öngörü kaydı ezilmez.
+YON16 = "--yon16" in sys.argv
+EK = "-16" if YON16 else ""
+DAL_MOTOR = r"C:\atlas-yuruyus\arac\uret_petek.py"
+HAM = os.path.join(KOK, "denetim", f"ARAC-MOTOR-YURUYUS-ONGORU-0917{EK}.json")
+CIKTI = os.path.join(KOK, "denetim", f"ONGORU-MOTOR-YURUYUS-0917{'-16YON' if YON16 else ''}.json")
 
 BOY = (-180, -120, -60, 0, 60, 120, 180)
 EN = (-60, -10, 40, 85)
@@ -36,9 +41,12 @@ if "--yalniz-topla" not in sys.argv:
         print(f"=== {ad} {k}", flush=True)
         # 🔴 "--karo=" BİTİŞİK: "-180,…" ayrı verilirse argparse onu SEÇENEK sanıyor
         #    (ilk koşuda batı karolarının üçü böyle düştü, çıkış 2).
-        r = subprocess.run([sys.executable, ARAC, "--karo=" + ",".join(str(v) for v in k),
-                            "--ad", ad], capture_output=True, text=True, encoding="utf-8")
-        with io.open(os.path.join(KOK, "denetim", f"ARAC-MOTOR-YURUYUS-ONGORU-0917.{ad}.log"),
+        komut = [sys.executable, ARAC, "--karo=" + ",".join(str(v) for v in k),
+                 "--ad", ad, "--cikti", os.path.basename(HAM)]
+        if YON16:
+            komut += ["--yon16", "--motor", DAL_MOTOR]
+        r = subprocess.run(komut, capture_output=True, text=True, encoding="utf-8")
+        with io.open(os.path.join(KOK, "denetim", f"ARAC-MOTOR-YURUYUS-ONGORU-0917{EK}.{ad}.log"),
                      "w", encoding="utf-8") as f:
             f.write(r.stdout + "\n--- stderr ---\n" + r.stderr)
         print(f"    çıkış {r.returncode} · {time.time() - t:,.0f} sn", flush=True)
@@ -71,6 +79,18 @@ for g in ("1520-06-15", "1683-06-15", "1800-06-15"):
     osm[g] = {"A_km2": a, "B_km2": b, "fark_km2": b - a,
               "fark_yuzde": round(100.0 * (b - a) / a, 2) if a else None}
 hucresiz = sum(H[ad]["B_hucresiz_tohum"]["sayi"] for ad, _ in KAROLAR if ad in H)
+# NOKTASIZLIK — sınıflanmış kümeler (karo aracı eşikleri ölçümden ÖNCE yazdı)
+sinif = sorted((dict(k, karo=ad) for ad, _ in KAROLAR if ad in H
+                for k in H[ad]["yeni_sahipsiz_kume"].get("siniflanan", [])),
+               key=lambda x: -x["km2"])
+noktasiz = [k for k in sinif if k["sinif"] == "NOKTASIZ"]
+dag = [k for k in sinif if k["sinif"] == "DAG"]
+nk = {"siniflanan_min_km2": 10000, "surt_esik": 1.5,
+      "kume": len(sinif), "km2": sum(k["km2"] for k in sinif),
+      "NOKTASIZ": {"kume": len(noktasiz), "km2": sum(k["km2"] for k in noktasiz),
+                   "liste": noktasiz},
+      "DAG": {"kume": len(dag), "km2": sum(k["km2"] for k in dag), "liste": dag},
+      "en_buyuk_20_icinde_noktasiz": sum(1 for k in sinif[:20] if k["sinif"] == "NOKTASIZ")}
 SON = {
     "_ne": "MOTOR-YURUYUS öngörüsü — KOŞUDAN ÖNCE, koşusuz ölçümle (D022). "
            "A = bugün (Voronoi + A1 tavanı, ham sahiplik), B = yarın (40 saatlik "
@@ -86,7 +106,9 @@ SON = {
         "osmanli_dogrudan": osm,
         "en_cok_etkilenen_20_yerlesim": etk20,
         "B_izgarada_hucresi_olmayan_tohum": hucresiz,
+        "noktasizlik": nk,
     },
+    "yon16": YON16,
     "toplam": T,
     "karolar": {ad: {"karo": k, "alan": H[ad]["alan"], "sure_sn": H[ad]["meta"]["sure_sn"]}
                 for ad, k in KAROLAR if ad in H},
@@ -94,4 +116,8 @@ SON = {
 with io.open(CIKTI, "w", encoding="utf-8") as f:
     json.dump(SON, f, ensure_ascii=False, indent=1)
 print("YAZILDI", CIKTI, "· eksik karo:", eksik)
-print(json.dumps(SON["ongoru"], ensure_ascii=False, indent=1)[:4000])
+_oz = dict(SON["ongoru"])
+_oz["noktasizlik"] = {k: v for k, v in nk.items() if k not in ("NOKTASIZ", "DAG")}
+_oz["noktasizlik"]["NOKTASIZ"] = {"kume": nk["NOKTASIZ"]["kume"], "km2": nk["NOKTASIZ"]["km2"]}
+_oz["noktasizlik"]["DAG"] = {"kume": nk["DAG"]["kume"], "km2": nk["DAG"]["km2"]}
+print(json.dumps(_oz, ensure_ascii=False, indent=1)[:5000])

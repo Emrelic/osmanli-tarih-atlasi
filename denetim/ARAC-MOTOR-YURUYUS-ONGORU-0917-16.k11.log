@@ -1,0 +1,98 @@
+öncelik: BELOW_NORMAL
+BOLGE [-123.0, -13.0, -57.0, 43.0] · iç (-120.0, -10.0, -60.0, 40.0) · k11
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.5 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    9.3 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  30 büyük göl kara maskesinden çıkarıldı
+  18 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+      American Falls Reservoir (1978)
+      Amistad Reservoir (1968)
+      Falcon Lake (1954)
+      Hartwell Lake (1960)
+      J. Strom Thurmond Lake (1953)
+      John H. Kerr Reservoir (1953)
+      Kentucky Lake (1944)
+      Lago Gatun (1913)
+      Lake Barkley (1963)
+      Lake Mead (1936)
+      Lake Novillo (1964)
+      Lake Powell (1966)
+      Lake Sidney Lanier (1958)
+      Lake Texoma (1944)
+      Presa Nezahualcyotl (1964)
+      Presa de la Angostura (1974)
+      Toledo Bend Reservoir (1968)
+      Wheeler Lake (1980)
+[   11.4 sn] Nehir yatakları
+  37 nehir parçası — 30 adlı akarsu: Allegheny, Amazonas, Arkansas, Caquetá, Chixoy, Colorado, Columbia, Guaporé, Holston, Japurá, Juruena, Klamath, Madeira, Magdalena, Mamoré, Marañón, Mississippi, Missouri, Negro, Ohio, Orinoco, Rio Grande, Sacramento, San Juan, Snake, Sprague, St. Clair, Tapajós, Tennessee, Ucayali
+  bedel sınıfı: sınıf-1 12 parça · sınıf-2 25 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[   12.0 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[   13.0 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.4
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 175 peteğe şekil verildi · 3680 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0003 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   70.8 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1320×1120 = 1,478,400 hücre, kara 525,079
+  271 tohum yerleşti (17 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3584 tohum (kıstırma YOK — Voronoi kalır)
+       Levuka                                   178.83, -17.68   kenara 25,323 km olurdu
+       Bau (Fiji Konfederasyonları)             178.57, -18.01   kenara 25,275 km olurdu
+       Suva                                     178.44, -18.14   kenara 25,254 km olurdu
+       Tulagi                                   160.15,  -9.09   kenara 23,869 km olurdu
+       Noumea (Yeni Kaledonya)                  166.44, -22.27   kenara 23,727 km olurdu
+       Yeni Kaledonya iç kesimi                 164.50, -20.50   kenara 23,626 km olurdu
+       Aotearoa Māori Yerleşimi (Kuzey Adası    176.20, -38.10   kenara 23,587 km olurdu
+       Gizo                                     156.84,  -8.10   kenara 23,567 km olurdu
+       Auckland                                 174.76, -36.85   kenara 23,547 km olurdu
+       Herbertshöhe (Kokopo) — Rabaul           152.26,  -4.35   kenara 23,228 km olurdu
+       Wellington                               174.78, -41.29   kenara 23,175 km olurdu
+       Yeni Britanya iç kesimi                  150.50,  -5.50   kenara 22,993 km olurdu
+       … ve 3572 tohum daha
+[   71.8 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 20 m/hücre → sürtünme medyanı 1.100
+  en pahalı hücre: sürtünme 9.32 (eğim 1,664 m/hücre)
+[   74.2 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 6,326 · nehri KESEN adım 95,708 / 513,792 aday
+  sınıf-1 46,128 · sınıf-2 49,580 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 95,708 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[   86.9 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[   86.9 sn] Dijkstra (eğim + nehir, üretim)
+  25.4 sn · erişilen 523,436 · bütçe içi 370,955
+[  112.5 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 447,476 kara hücresi
+  ızgaranın erişmediği kara hücresi 1,643 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 11708153, 'A_sahipli_km2': 9691332, 'B_sahipli_km2': 8030211, 'sahibi_degisen_km2': 553454, 'yeni_sahipsiz_km2': 1807953, 'yeni_sahipli_km2': 146832, 'A_sahipsiz_km2': 2016821, 'B_sahipsiz_km2': 3677942}
+B'de ızgara hücresi olmayan tohum (iç kutu): 1
+  kume {'km2': 245506, 'merkez_lat': 3.34, 'merkez_lon': -75.44, 'A_sahipleri': ['Hunza (Tunja)', 'Popayán', 'Bacatá (Bogotá)'], 'surtunme_medyan': 1.504, 'en_yakin_tohum_km_medyan': 160.5, 'yuruyus_saat_medyan': 53.3, 'sinif': 'DAG'}
+  kume {'km2': 143375, 'merkez_lat': 26.65, 'merkez_lon': -105.28, 'A_sahipleri': ['Durango (Victoria de Durango)', 'Álamos', 'Múzquiz (Santa Rosa)'], 'surtunme_medyan': 1.628, 'en_yakin_tohum_km_medyan': 157.9, 'yuruyus_saat_medyan': 45.1, 'sinif': 'DAG'}
+  kume {'km2': 86977, 'merkez_lat': 38.12, 'merkez_lon': -108.74, 'A_sahipleri': ['Uncompahgre (Ute)', 'Parowan', 'Fort Robidoux (Uinta Havzası)'], 'surtunme_medyan': 1.698, 'en_yakin_tohum_km_medyan': 149.2, 'yuruyus_saat_medyan': 45.7, 'sinif': 'DAG'}
+  kume {'km2': 84839, 'merkez_lat': 8.54, 'merkez_lon': -70.5, 'A_sahipleri': ['Mérida (Venezuela)'], 'surtunme_medyan': 1.03, 'en_yakin_tohum_km_medyan': 176.3, 'yuruyus_saat_medyan': 58.7, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 72179, 'merkez_lat': 3.54, 'merkez_lon': -64.52, 'A_sahipleri': ['Beyan K4.5 B62.5', 'Beyan K1.5 B63.5'], 'surtunme_medyan': 1.344, 'en_yakin_tohum_km_medyan': 204.3, 'yuruyus_saat_medyan': 52.1, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 66055, 'merkez_lat': -5.16, 'merkez_lon': -69.85, 'A_sahipleri': ['Tabatinga'], 'surtunme_medyan': 1.045, 'en_yakin_tohum_km_medyan': 172.8, 'yuruyus_saat_medyan': 51.7, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 63247, 'merkez_lat': 38.64, 'merkez_lon': -115.94, 'A_sahipleri': ['Ruby Vadisi (Batı Şoşoni)', 'Bishop (Owens Vadisi Payutları)', 'Timbisha (Ölüm Vadisi)'], 'surtunme_medyan': 1.705, 'en_yakin_tohum_km_medyan': 163.5, 'yuruyus_saat_medyan': 46.9, 'sinif': 'DAG'}
+  kume {'km2': 61524, 'merkez_lat': -8.04, 'merkez_lon': -77.51, 'A_sahipleri': ['Cajamarca', 'Huánuco Pampa (Huánuco Viejo)', 'Trujillo (Peru)'], 'surtunme_medyan': 2.951, 'en_yakin_tohum_km_medyan': 136.5, 'yuruyus_saat_medyan': 51.0, 'sinif': 'DAG'}
+  kume {'km2': 55927, 'merkez_lat': 35.58, 'merkez_lon': -118.01, 'A_sahipleri': ['Bishop (Owens Vadisi Payutları)', 'Timbisha (Ölüm Vadisi)', 'Fort Mohave (Kolorado geçidi)'], 'surtunme_medyan': 1.679, 'en_yakin_tohum_km_medyan': 141.8, 'yuruyus_saat_medyan': 46.4, 'sinif': 'DAG'}
+  kume {'km2': 50702, 'merkez_lat': -3.52, 'merkez_lon': -79.08, 'A_sahipleri': ['Tumbes', 'Guayaquil (Santiago de Guayaquil)', 'Borja (Maynas)'], 'surtunme_medyan': 2.664, 'en_yakin_tohum_km_medyan': 137.0, 'yuruyus_saat_medyan': 47.4, 'sinif': 'DAG'}
+   {'ad': 'Mérida (Venezuela)', 'A_km2': 113850, 'B_km2': 27884, 'net_km2': -85966}
+   {'ad': 'Tabatinga', 'A_km2': 124712, 'B_km2': 66390, 'net_km2': -58322}
+   {'ad': 'Hunza (Tunja)', 'A_km2': 86521, 'B_km2': 29440, 'net_km2': -57081}
+   {'ad': 'Panoré (São Gabriel da Cachoeira)', 'A_km2': 109066, 'B_km2': 55111, 'net_km2': -53955}
+   {'ad': 'Popayán', 'A_km2': 77929, 'B_km2': 26929, 'net_km2': -51000}
+   {'ad': 'Bacatá (Bogotá)', 'A_km2': 78227, 'B_km2': 30198, 'net_km2': -48029}
+   {'ad': 'Quito', 'A_km2': 69050, 'B_km2': 24195, 'net_km2': -44855}
+   {'ad': 'Beyan G7.5 B62.5', 'A_km2': 122248, 'B_km2': 85256, 'net_km2': -36993}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917-16.json · k11 · toplam 113 sn
+
+--- stderr ---

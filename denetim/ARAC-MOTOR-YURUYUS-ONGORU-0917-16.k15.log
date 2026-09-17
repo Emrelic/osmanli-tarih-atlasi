@@ -1,0 +1,76 @@
+öncelik: BELOW_NORMAL
+BOLGE [117.0, -13.0, 180.0, 43.0] · iç (120.0, -10.0, 180.0, 40.0) · k15
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.6 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[   11.2 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  10 büyük göl kara maskesinden çıkarıldı
+  0 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+[   12.8 sn] Nehir yatakları
+  2 nehir parçası — 2 adlı akarsu: Huang, Yangtze
+  bedel sınıfı: sınıf-1 2 parça · sınıf-2 0 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[   13.3 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[   14.7 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.2
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 80 peteğe şekil verildi · 3775 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0002 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   88.4 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1260×1120 = 1,411,200 hücre, kara 113,706
+  143 tohum yerleşti (15 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3712 tohum (kıstırma YOK — Voronoi kalır)
+       Lapaha (Muʻa)                           -175.12, -21.18   kenara 31,096 km olurdu
+       Hawaii Adaları (Birleşme Öncesi — moku  -155.50,  19.60   kenara 28,577 km olurdu
+       Honolulu                                -157.86,  21.31   kenara 28,506 km olurdu
+       Rapa Nui (Paskalya Adası)               -109.35, -27.11   kenara 23,721 km olurdu
+       Colima (San Sebastián de Colima)        -103.72,  19.24   kenara 23,198 km olurdu
+       Acapulco                                 -99.88,  16.86   kenara 23,105 km olurdu
+       La Paz (Baja California Sur)            -110.31,  24.14   kenara 23,091 km olurdu
+       Compostela                              -104.90,  21.23   kenara 23,025 km olurdu
+       Chilpancingo (Guerrero)                  -99.50,  17.55   kenara 22,979 km olurdu
+       Guadalajara                             -103.35,  20.66   kenara 22,952 km olurdu
+       Tututepec (Yucu Dzaa)                    -97.62,  16.15   kenara 22,948 km olurdu
+       Pátzcuaro                               -101.61,  19.51   kenara 22,938 km olurdu
+       … ve 3700 tohum daha
+[   88.9 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 74 m/hücre → sürtünme medyanı 1.370
+  en pahalı hücre: sürtünme 8.31 (eğim 1,462 m/hücre)
+[   90.6 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 140 · nehri KESEN adım 2,172 / 11,925 aday
+  sınıf-1 2,172 · sınıf-2 0 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 2,172 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[   91.1 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[   91.1 sn] Dijkstra (eğim + nehir, üretim)
+  6.6 sn · erişilen 106,671 · bütçe içi 80,079
+[   98.0 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 104,312 kara hücresi
+  ızgaranın erişmediği kara hücresi 7,035 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 2038862, 'A_sahipli_km2': 1881672, 'B_sahipli_km2': 1548746, 'sahibi_degisen_km2': 92087, 'yeni_sahipsiz_km2': 347022, 'yeni_sahipli_km2': 14096, 'A_sahipsiz_km2': 157190, 'B_sahipsiz_km2': 490116}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+  kume {'km2': 69116, 'merkez_lat': -5.28, 'merkez_lon': 141.98, 'A_sahipleri': ['Yeni Gine Merkezî Yaylaları 4', 'Yeni Gine İç Yaylaları (Merkez — Mount Hagen)', 'Yeni Gine İç Kesimi (Kuzey — Sepik Havzası)'], 'surtunme_medyan': 1.858, 'en_yakin_tohum_km_medyan': 155.9, 'yuruyus_saat_medyan': 46.2, 'sinif': 'DAG'}
+  kume {'km2': 61956, 'merkez_lat': -3.55, 'merkez_lon': 137.92, 'A_sahipleri': ['Yeni Gine İç Yaylaları (Batı — Baliem Vadisi)', 'Yeni Gine Merkezî Yaylaları 5', 'Jayapura (Hollandia)'], 'surtunme_medyan': 1.272, 'en_yakin_tohum_km_medyan': 141.9, 'yuruyus_saat_medyan': 48.8, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 52433, 'merkez_lat': -7.64, 'merkez_lon': 147.21, 'A_sahipleri': ['Port Moresby', 'Finschhafen', 'Madang'], 'surtunme_medyan': 2.514, 'en_yakin_tohum_km_medyan': 129.6, 'yuruyus_saat_medyan': 51.5, 'sinif': 'DAG'}
+  kume {'km2': 36298, 'merkez_lat': -1.34, 'merkez_lon': 132.5, 'A_sahipleri': ['Manokwari', 'Yeni Gine Batı (Kuş Başı / Vogelkop) 2', 'Yeni Gine Batı (Kuş Başı / Vogelkop)'], 'surtunme_medyan': 1.268, 'en_yakin_tohum_km_medyan': 150.5, 'yuruyus_saat_medyan': 56.8, 'sinif': 'NOKTASIZ'}
+  kume {'km2': 19541, 'merkez_lat': -3.54, 'merkez_lon': 121.26, 'A_sahipleri': ['Watampone (Bone)', 'Sengkang (Wajo)'], 'surtunme_medyan': 1.907, 'en_yakin_tohum_km_medyan': 170.7, 'yuruyus_saat_medyan': 107.0, 'sinif': 'DAG'}
+  kume {'km2': 13117, 'merkez_lat': 10.03, 'merkez_lon': 123.02, 'A_sahipleri': ['Iloilo', 'Cebu'], 'surtunme_medyan': 1.742, 'en_yakin_tohum_km_medyan': 89.5, 'yuruyus_saat_medyan': 72.7, 'sinif': 'DAG'}
+   {'ad': 'Yeni Gine İç Yaylaları (Batı — Baliem Vadisi)', 'A_km2': 76328, 'B_km2': 25127, 'net_km2': -51201}
+   {'ad': 'Yeni Gine Merkezî Yaylaları 5', 'A_km2': 58660, 'B_km2': 31048, 'net_km2': -27612}
+   {'ad': 'Yeni Gine İç Yaylaları (Merkez — Mount Hagen)', 'A_km2': 58083, 'B_km2': 32811, 'net_km2': -25272}
+   {'ad': 'Port Moresby', 'A_km2': 42528, 'B_km2': 21565, 'net_km2': -20963}
+   {'ad': 'Manokwari', 'A_km2': 34688, 'B_km2': 14837, 'net_km2': -19852}
+   {'ad': 'Yeni Gine Merkezî Yaylaları 4', 'A_km2': 67330, 'B_km2': 48500, 'net_km2': -18830}
+   {'ad': 'Finschhafen', 'A_km2': 23817, 'B_km2': 6343, 'net_km2': -17473}
+   {'ad': 'Kotabato (Magindanao)', 'A_km2': 50131, 'B_km2': 34579, 'net_km2': -15552}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917-16.json · k15 · toplam 99 sn
+
+--- stderr ---

@@ -1,0 +1,70 @@
+öncelik: BELOW_NORMAL
+BOLGE [-180.0, -13.0, -117.0, 43.0] · iç (-180.0, -10.0, -120.0, 40.0) · k10
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.5 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    4.1 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  4 büyük göl kara maskesinden çıkarıldı
+  0 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+[    5.3 sn] Nehir yatakları
+  5 nehir parçası — 4 adlı akarsu: Columbia, Klamath, Sacramento, Sprague
+  bedel sınıfı: sınıf-1 0 parça · sınıf-2 5 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[    5.8 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[    6.8 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.0
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 11 peteğe şekil verildi · 3844 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0000 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   58.4 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1260×1120 = 1,411,200 hücre, kara 21,845
+  16 tohum yerleşti (1 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3839 tohum (kıstırma YOK — Voronoi kalır)
+       Levuka                                   178.83, -17.68   kenara 31,763 km olurdu
+       Bau (Fiji Konfederasyonları)             178.57, -18.01   kenara 31,710 km olurdu
+       Suva                                     178.44, -18.14   kenara 31,687 km olurdu
+       Tulagi                                   160.15,  -9.09   kenara 30,465 km olurdu
+       Gizo                                     156.84,  -8.10   kenara 30,179 km olurdu
+       Noumea (Yeni Kaledonya)                  166.44, -22.27   kenara 30,087 km olurdu
+       Yeni Kaledonya iç kesimi                 164.50, -20.50   kenara 30,019 km olurdu
+       Herbertshöhe (Kokopo) — Rabaul           152.26,  -4.35   kenara 29,888 km olurdu
+       Yeni Britanya iç kesimi                  150.50,  -5.50   kenara 29,641 km olurdu
+       Aotearoa Māori Yerleşimi (Kuzey Adası    176.20, -38.10   kenara 29,579 km olurdu
+       Auckland                                 174.76, -36.85   kenara 29,574 km olurdu
+       Louisiade-Milne takımadası               153.50, -11.50   kenara 29,508 km olurdu
+       … ve 3827 tohum daha
+[   58.6 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 125 m/hücre → sürtünme medyanı 1.627
+  en pahalı hücre: sürtünme 9.11 (eğim 1,622 m/hücre)
+[   59.8 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 197 · nehri KESEN adım 2,986 / 16,276 aday
+  sınıf-1 0 · sınıf-2 2,986 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 2,986 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[   59.9 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[   59.9 sn] Dijkstra (eğim + nehir, üretim)
+  0.5 sn · erişilen 21,579 · bütçe içi 15,771
+[   60.7 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 21,644 kara hücresi
+  ızgaranın erişmediği kara hücresi 266 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 142053, 'A_sahipli_km2': 139663, 'B_sahipli_km2': 129836, 'sahibi_degisen_km2': 15729, 'yeni_sahipsiz_km2': 9851, 'yeni_sahipli_km2': 24, 'A_sahipsiz_km2': 2390, 'B_sahipsiz_km2': 12217}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+   {'ad': "Sutter's Fort (Sacramento)", 'A_km2': 29283, 'B_km2': 37628, 'net_km2': 8345}
+   {'ad': 'Genoa (Nevada)', 'A_km2': 12284, 'B_km2': 4494, 'net_km2': -7790}
+   {'ad': 'Monterey (Alta California)', 'A_km2': 20058, 'B_km2': 15171, 'net_km2': -4888}
+   {'ad': 'Santa Bárbara', 'A_km2': 10983, 'B_km2': 7134, 'net_km2': -3849}
+   {'ad': 'San Francisco (Misyon San Francisco de Asís)', 'A_km2': 5685, 'B_km2': 2831, 'net_km2': -2854}
+   {'ad': 'Virginia City (Nevada)', 'A_km2': 3405, 'B_km2': 5749, 'net_km2': 2344}
+   {'ad': 'San José de Guadalupe', 'A_km2': 15836, 'B_km2': 16879, 'net_km2': 1043}
+   {'ad': 'Bishop (Owens Vadisi Payutları)', 'A_km2': 1015, 'B_km2': 0, 'net_km2': -1015}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917-16.json · k10 · toplam 61 sn
+
+--- stderr ---

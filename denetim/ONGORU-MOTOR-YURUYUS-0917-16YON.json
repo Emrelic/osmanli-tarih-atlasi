@@ -1,0 +1,5661 @@
+{
+ "_ne": "MOTOR-YURUYUS öngörüsü — KOŞUDAN ÖNCE, koşusuz ölçümle (D022). A = bugün (Voronoi + A1 tavanı, ham sahiplik), B = yarın (40 saatlik sürtünmeli+nehirli Dijkstra, ızgaranın erişmediği karada eski kural).",
+ "arac": "denetim/ARAC-MOTOR-YURUYUS-ONGORU-0917.py + -KAROLAR-0917.py",
+ "karo_sayisi": 18,
+ "eksik_karo": [],
+ "motor_sha_ilk12": [
+  "e4f558042a67"
+ ],
+ "ongoru": {
+  "karada_sahibi_degisen": {
+   "km2": 8058820,
+   "yuzde_kara": 6.03
+  },
+  "yeni_sahipsiz": {
+   "km2": 14194929,
+   "yuzde_kara": 10.62,
+   "en_buyuk_10_kume": [
+    {
+     "km2": 253976,
+     "merkez_lat": 36.61,
+     "merkez_lon": 71.87,
+     "A_sahipleri": [
+      "Külâb (Kulob)",
+      "Srinagar (Keşmir)",
+      "Oş"
+     ],
+     "surtunme_medyan": 2.748,
+     "en_yakin_tohum_km_medyan": 157.7,
+     "yuruyus_saat_medyan": 57.5,
+     "sinif": "DAG",
+     "karo": "k14"
+    },
+    {
+     "km2": 245506,
+     "merkez_lat": 3.34,
+     "merkez_lon": -75.44,
+     "A_sahipleri": [
+      "Hunza (Tunja)",
+      "Popayán",
+      "Bacatá (Bogotá)"
+     ],
+     "surtunme_medyan": 1.504,
+     "en_yakin_tohum_km_medyan": 160.5,
+     "yuruyus_saat_medyan": 53.3,
+     "sinif": "DAG",
+     "karo": "k11"
+    },
+    {
+     "km2": 219231,
+     "merkez_lat": -19.23,
+     "merkez_lon": -65.4,
+     "A_sahipleri": [
+      "Sucre (La Plata / Chuquisaca)",
+      "La Paz",
+      "Rinconada (Puna)"
+     ],
+     "surtunme_medyan": 1.452,
+     "en_yakin_tohum_km_medyan": 168.8,
+     "yuruyus_saat_medyan": 49.4,
+     "sinif": "NOKTASIZ",
+     "karo": "k01"
+    },
+    {
+     "km2": 207573,
+     "merkez_lat": -12.81,
+     "merkez_lon": -72.74,
+     "A_sahipleri": [
+      "Cusco (Qosqo)",
+      "Vilcashuamán",
+      "Vilcabamba (Espíritu Pampa)"
+     ],
+     "surtunme_medyan": 1.828,
+     "en_yakin_tohum_km_medyan": 146.5,
+     "yuruyus_saat_medyan": 51.1,
+     "sinif": "DAG",
+     "karo": "k01"
+    },
+    {
+     "km2": 190084,
+     "merkez_lat": 48.93,
+     "merkez_lon": -116.38,
+     "A_sahipleri": [
+      "Fort Colvile",
+      "Jasper House",
+      "Lapwai (Nez Perce)"
+     ],
+     "surtunme_medyan": 1.962,
+     "en_yakin_tohum_km_medyan": 147.2,
+     "yuruyus_saat_medyan": 47.8,
+     "sinif": "DAG",
+     "karo": "k21"
+    },
+    {
+     "km2": 161373,
+     "merkez_lat": -47.23,
+     "merkez_lon": -71.85,
+     "A_sahipleri": [
+      "Beyan G49.5 B72.5",
+      "Beyan G46.5 B71.5",
+      "Beyan G44.5 B72.5"
+     ],
+     "surtunme_medyan": 1.713,
+     "en_yakin_tohum_km_medyan": 145.1,
+     "yuruyus_saat_medyan": 46.8,
+     "sinif": "DAG",
+     "karo": "k01"
+    },
+    {
+     "km2": 145889,
+     "merkez_lat": 26.89,
+     "merkez_lon": 97.74,
+     "A_sahipleri": [
+      "Dali",
+      "Sibsâgar (Rangpûr)",
+      "Myitkyina"
+     ],
+     "surtunme_medyan": 2.535,
+     "en_yakin_tohum_km_medyan": 160.4,
+     "yuruyus_saat_medyan": 58.3,
+     "sinif": "DAG",
+     "karo": "k14"
+    },
+    {
+     "km2": 145083,
+     "merkez_lat": 26.78,
+     "merkez_lon": 114.35,
+     "A_sahipleri": [
+      "Guilin",
+      "Şaoguan",
+      "Fuzhou"
+     ],
+     "surtunme_medyan": 1.527,
+     "en_yakin_tohum_km_medyan": 172.5,
+     "yuruyus_saat_medyan": 46.4,
+     "sinif": "DAG",
+     "karo": "k14"
+    },
+    {
+     "km2": 143375,
+     "merkez_lat": 26.65,
+     "merkez_lon": -105.28,
+     "A_sahipleri": [
+      "Durango (Victoria de Durango)",
+      "Álamos",
+      "Múzquiz (Santa Rosa)"
+     ],
+     "surtunme_medyan": 1.628,
+     "en_yakin_tohum_km_medyan": 157.9,
+     "yuruyus_saat_medyan": 45.1,
+     "sinif": "DAG",
+     "karo": "k11"
+    },
+    {
+     "km2": 139150,
+     "merkez_lat": 50.11,
+     "merkez_lon": 102.14,
+     "A_sahipleri": [
+      "Uliastay",
+      "Mörön (Hövsgöl)",
+      "Bulgan"
+     ],
+     "surtunme_medyan": 1.54,
+     "en_yakin_tohum_km_medyan": 166.0,
+     "yuruyus_saat_medyan": 48.8,
+     "sinif": "DAG",
+     "karo": "k24"
+    }
+   ]
+  },
+  "yeni_sahipli_km2": 2525765,
+  "osmanli_dogrudan": {
+   "1520-06-15": {
+    "A_km2": 2579804,
+    "B_km2": 2535500,
+    "fark_km2": -44304,
+    "fark_yuzde": -1.72
+   },
+   "1683-06-15": {
+    "A_km2": 4295532,
+    "B_km2": 4199012,
+    "fark_km2": -96520,
+    "fark_yuzde": -2.25
+   },
+   "1800-06-15": {
+    "A_km2": 3088687,
+    "B_km2": 3014353,
+    "fark_km2": -74334,
+    "fark_yuzde": -2.41
+   }
+  },
+  "en_cok_etkilenen_20_yerlesim": [
+   {
+    "ad": "Çamdo (Chamdo)",
+    "A_km2": 125086,
+    "B_km2": 27233,
+    "net_km2": -97853
+   },
+   {
+    "ad": "Leh (Ladakh)",
+    "A_km2": 108015,
+    "B_km2": 19117,
+    "net_km2": -88898
+   },
+   {
+    "ad": "Mérida (Venezuela)",
+    "A_km2": 113850,
+    "B_km2": 27884,
+    "net_km2": -85966
+   },
+   {
+    "ad": "Lhasa",
+    "A_km2": 92035,
+    "B_km2": 27726,
+    "net_km2": -64309
+   },
+   {
+    "ad": "Quilmes (Calchaquí Vadisi — Diaguita)",
+    "A_km2": 92977,
+    "B_km2": 29048,
+    "net_km2": -63930
+   },
+   {
+    "ad": "Dunhuang",
+    "A_km2": 82431,
+    "B_km2": 20014,
+    "net_km2": -62416
+   },
+   {
+    "ad": "Dali",
+    "A_km2": 98757,
+    "B_km2": 37542,
+    "net_km2": -61214
+   },
+   {
+    "ad": "Katmandu",
+    "A_km2": 87168,
+    "B_km2": 28570,
+    "net_km2": -58598
+   },
+   {
+    "ad": "Tabatinga",
+    "A_km2": 124712,
+    "B_km2": 66390,
+    "net_km2": -58322
+   },
+   {
+    "ad": "Cuiabá",
+    "A_km2": 125228,
+    "B_km2": 67146,
+    "net_km2": -58082
+   },
+   {
+    "ad": "Hunza (Tunja)",
+    "A_km2": 86521,
+    "B_km2": 29440,
+    "net_km2": -57081
+   },
+   {
+    "ad": "Şigatse",
+    "A_km2": 76542,
+    "B_km2": 21397,
+    "net_km2": -55145
+   },
+   {
+    "ad": "Kobdo (Hovd)",
+    "A_km2": 106553,
+    "B_km2": 51684,
+    "net_km2": -54869
+   },
+   {
+    "ad": "Lanzhou",
+    "A_km2": 96082,
+    "B_km2": 42048,
+    "net_km2": -54034
+   },
+   {
+    "ad": "Panoré (São Gabriel da Cachoeira)",
+    "A_km2": 109066,
+    "B_km2": 55111,
+    "net_km2": -53955
+   },
+   {
+    "ad": "Sucre (La Plata / Chuquisaca)",
+    "A_km2": 76661,
+    "B_km2": 23675,
+    "net_km2": -52986
+   },
+   {
+    "ad": "Yinchuan (Ningxia)",
+    "A_km2": 110118,
+    "B_km2": 57252,
+    "net_km2": -52866
+   },
+   {
+    "ad": "Çongqing (Chongqing)",
+    "A_km2": 105560,
+    "B_km2": 52773,
+    "net_km2": -52787
+   },
+   {
+    "ad": "Yakutsk",
+    "A_km2": 113692,
+    "B_km2": 61556,
+    "net_km2": -52135
+   },
+   {
+    "ad": "Kunming",
+    "A_km2": 109726,
+    "B_km2": 57779,
+    "net_km2": -51947
+   }
+  ],
+  "B_izgarada_hucresi_olmayan_tohum": 8,
+  "noktasizlik": {
+   "siniflanan_min_km2": 10000,
+   "surt_esik": 1.5,
+   "kume": 355,
+   "km2": 12086907,
+   "NOKTASIZ": {
+    "kume": 264,
+    "km2": 7006657,
+    "liste": [
+     {
+      "km2": 219231,
+      "merkez_lat": -19.23,
+      "merkez_lon": -65.4,
+      "A_sahipleri": [
+       "Sucre (La Plata / Chuquisaca)",
+       "La Paz",
+       "Rinconada (Puna)"
+      ],
+      "surtunme_medyan": 1.452,
+      "en_yakin_tohum_km_medyan": 168.8,
+      "yuruyus_saat_medyan": 49.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k01"
+     },
+     {
+      "km2": 118578,
+      "merkez_lat": 57.36,
+      "merkez_lon": 111.99,
+      "A_sahipleri": [
+       "Bodaybo",
+       "Kirensk",
+       "Bauntovsk"
+      ],
+      "surtunme_medyan": 1.44,
+      "en_yakin_tohum_km_medyan": 167.9,
+      "yuruyus_saat_medyan": 46.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 90439,
+      "merkez_lat": 43.83,
+      "merkez_lon": 92.24,
+      "A_sahipleri": [
+       "Hâmi (Kumul)",
+       "Turfan",
+       "Ürümçi (Dihua)"
+      ],
+      "surtunme_medyan": 1.351,
+      "en_yakin_tohum_km_medyan": 172.1,
+      "yuruyus_saat_medyan": 51.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 84839,
+      "merkez_lat": 8.54,
+      "merkez_lon": -70.5,
+      "A_sahipleri": [
+       "Mérida (Venezuela)"
+      ],
+      "surtunme_medyan": 1.03,
+      "en_yakin_tohum_km_medyan": 176.3,
+      "yuruyus_saat_medyan": 58.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 82349,
+      "merkez_lat": -21.27,
+      "merkez_lon": -55.38,
+      "A_sahipleri": [
+       "Fuerte Olimpo (Borbón)",
+       "Ciudad Real del Guairá",
+       "Tacuatí (Ypané)"
+      ],
+      "surtunme_medyan": 1.113,
+      "en_yakin_tohum_km_medyan": 195.1,
+      "yuruyus_saat_medyan": 51.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 76477,
+      "merkez_lat": 55.04,
+      "merkez_lon": 125.68,
+      "A_sahipleri": [
+       "Albazin",
+       "Zeya (Zeyskiy Sklad)"
+      ],
+      "surtunme_medyan": 1.321,
+      "en_yakin_tohum_km_medyan": 195.8,
+      "yuruyus_saat_medyan": 53.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 72704,
+      "merkez_lat": -28.09,
+      "merkez_lon": 150.27,
+      "A_sahipleri": [
+       "Moree",
+       "Brisbane",
+       "Roma (Queensland)"
+      ],
+      "surtunme_medyan": 1.062,
+      "en_yakin_tohum_km_medyan": 177.0,
+      "yuruyus_saat_medyan": 43.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 72179,
+      "merkez_lat": 3.54,
+      "merkez_lon": -64.52,
+      "A_sahipleri": [
+       "Beyan K4.5 B62.5",
+       "Beyan K1.5 B63.5"
+      ],
+      "surtunme_medyan": 1.344,
+      "en_yakin_tohum_km_medyan": 204.3,
+      "yuruyus_saat_medyan": 52.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 68815,
+      "merkez_lat": 20.85,
+      "merkez_lon": 81.42,
+      "A_sahipleri": [
+       "Cabalpûr (Jabalpur)",
+       "Vişâkapatnam",
+       "Varangal (Warangal)"
+      ],
+      "surtunme_medyan": 1.135,
+      "en_yakin_tohum_km_medyan": 190.8,
+      "yuruyus_saat_medyan": 45.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 68073,
+      "merkez_lat": -1.19,
+      "merkez_lon": -56.05,
+      "A_sahipleri": [
+       "Tupinambarana (Parintins)",
+       "Santarém (Tapajós)",
+       "Beyan K1.5 B54.5"
+      ],
+      "surtunme_medyan": 1.102,
+      "en_yakin_tohum_km_medyan": 188.5,
+      "yuruyus_saat_medyan": 45.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 66806,
+      "merkez_lat": 16.85,
+      "merkez_lon": 44.83,
+      "A_sahipleri": [
+       "Ebha (Asir)",
+       "Sa'de",
+       "Aden"
+      ],
+      "surtunme_medyan": 1.2,
+      "en_yakin_tohum_km_medyan": 179.9,
+      "yuruyus_saat_medyan": 47.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 66055,
+      "merkez_lat": -5.16,
+      "merkez_lon": -69.85,
+      "A_sahipleri": [
+       "Tabatinga"
+      ],
+      "surtunme_medyan": 1.045,
+      "en_yakin_tohum_km_medyan": 172.8,
+      "yuruyus_saat_medyan": 51.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 63272,
+      "merkez_lat": 38.67,
+      "merkez_lon": 93.99,
+      "A_sahipleri": [
+       "Dunhuang"
+      ],
+      "surtunme_medyan": 1.478,
+      "en_yakin_tohum_km_medyan": 204.6,
+      "yuruyus_saat_medyan": 63.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 61956,
+      "merkez_lat": -3.55,
+      "merkez_lon": 137.92,
+      "A_sahipleri": [
+       "Yeni Gine İç Yaylaları (Batı — Baliem Vadisi)",
+       "Yeni Gine Merkezî Yaylaları 5",
+       "Jayapura (Hollandia)"
+      ],
+      "surtunme_medyan": 1.272,
+      "en_yakin_tohum_km_medyan": 141.9,
+      "yuruyus_saat_medyan": 48.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k15"
+     },
+     {
+      "km2": 58797,
+      "merkez_lat": 28.58,
+      "merkez_lon": 63.78,
+      "A_sahipleri": [
+       "Hâş",
+       "Kandehar",
+       "Çâhbahâr"
+      ],
+      "surtunme_medyan": 1.216,
+      "en_yakin_tohum_km_medyan": 192.6,
+      "yuruyus_saat_medyan": 46.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 58691,
+      "merkez_lat": 15.26,
+      "merkez_lon": -5.93,
+      "A_sahipleri": [
+       "Mopti",
+       "Segu (Ségou)",
+       "Bamako"
+      ],
+      "surtunme_medyan": 1.022,
+      "en_yakin_tohum_km_medyan": 162.6,
+      "yuruyus_saat_medyan": 44.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 58280,
+      "merkez_lat": 45.81,
+      "merkez_lon": 102.43,
+      "A_sahipleri": [
+       "Bayanhongor",
+       "Urga (Ulan Batur)",
+       "Karakurum"
+      ],
+      "surtunme_medyan": 1.279,
+      "en_yakin_tohum_km_medyan": 179.0,
+      "yuruyus_saat_medyan": 45.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 58082,
+      "merkez_lat": -15.91,
+      "merkez_lon": -55.98,
+      "A_sahipleri": [
+       "Cuiabá"
+      ],
+      "surtunme_medyan": 1.079,
+      "en_yakin_tohum_km_medyan": 179.4,
+      "yuruyus_saat_medyan": 47.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 54642,
+      "merkez_lat": 4.76,
+      "merkez_lon": 117.03,
+      "A_sahipleri": [
+       "Tarakan",
+       "Brunei"
+      ],
+      "surtunme_medyan": 1.467,
+      "en_yakin_tohum_km_medyan": 163.8,
+      "yuruyus_saat_medyan": 58.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 53536,
+      "merkez_lat": 48.7,
+      "merkez_lon": 134.78,
+      "A_sahipleri": [
+       "Habarovka"
+      ],
+      "surtunme_medyan": 1.301,
+      "en_yakin_tohum_km_medyan": 177.8,
+      "yuruyus_saat_medyan": 49.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 51794,
+      "merkez_lat": 67.42,
+      "merkez_lon": -95.1,
+      "A_sahipleri": [
+       "Uqsuqtuuq (Gjoa Haven)",
+       "Kugaaruk (Pelly Bay)"
+      ],
+      "surtunme_medyan": 1.063,
+      "en_yakin_tohum_km_medyan": 166.7,
+      "yuruyus_saat_medyan": 56.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 48403,
+      "merkez_lat": 66.86,
+      "merkez_lon": 101.06,
+      "A_sahipleri": [
+       "Essey"
+      ],
+      "surtunme_medyan": 1.245,
+      "en_yakin_tohum_km_medyan": 219.6,
+      "yuruyus_saat_medyan": 50.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 46975,
+      "merkez_lat": 20.42,
+      "merkez_lon": -10.47,
+      "A_sahipleri": [
+       "Râşid (Tagant)",
+       "Tişît (Tichitt)"
+      ],
+      "surtunme_medyan": 1.014,
+      "en_yakin_tohum_km_medyan": 223.4,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 46086,
+      "merkez_lat": -1.19,
+      "merkez_lon": -66.93,
+      "A_sahipleri": [
+       "Panoré (São Gabriel da Cachoeira)"
+      ],
+      "surtunme_medyan": 1.022,
+      "en_yakin_tohum_km_medyan": 176.5,
+      "yuruyus_saat_medyan": 50.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 45480,
+      "merkez_lat": -31.92,
+      "merkez_lon": -64.9,
+      "A_sahipleri": [
+       "Córdoba (Arjantin)",
+       "Beyan G34.5 B65.5"
+      ],
+      "surtunme_medyan": 1.089,
+      "en_yakin_tohum_km_medyan": 181.1,
+      "yuruyus_saat_medyan": 45.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k01"
+     },
+     {
+      "km2": 45369,
+      "merkez_lat": -19.33,
+      "merkez_lon": -43.52,
+      "A_sahipleri": [
+       "Ouro Preto (Vila Rica)",
+       "São Fidélis (Paraíba do Sul)"
+      ],
+      "surtunme_medyan": 1.221,
+      "en_yakin_tohum_km_medyan": 193.0,
+      "yuruyus_saat_medyan": 47.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 45353,
+      "merkez_lat": 66.53,
+      "merkez_lon": 125.3,
+      "A_sahipleri": [
+       "Jigansk",
+       "Yakut toprakları (Orta Lena)"
+      ],
+      "surtunme_medyan": 1.183,
+      "en_yakin_tohum_km_medyan": 157.6,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 45198,
+      "merkez_lat": 42.43,
+      "merkez_lon": 98.66,
+      "A_sahipleri": [
+       "Ciyayuguan (Jiayuguan)",
+       "Ejin (Hara-Hoto)"
+      ],
+      "surtunme_medyan": 1.286,
+      "en_yakin_tohum_km_medyan": 207.0,
+      "yuruyus_saat_medyan": 49.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 44511,
+      "merkez_lat": -13.86,
+      "merkez_lon": -42.08,
+      "A_sahipleri": [
+       "Jiboya (Camacan aldeası)"
+      ],
+      "surtunme_medyan": 1.347,
+      "en_yakin_tohum_km_medyan": 212.0,
+      "yuruyus_saat_medyan": 52.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 44140,
+      "merkez_lat": 31.44,
+      "merkez_lon": 58.08,
+      "A_sahipleri": [
+       "Kirman",
+       "Bîrcend",
+       "Bem"
+      ],
+      "surtunme_medyan": 1.289,
+      "en_yakin_tohum_km_medyan": 165.6,
+      "yuruyus_saat_medyan": 45.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 44085,
+      "merkez_lat": 63.46,
+      "merkez_lon": -124.11,
+      "A_sahipleri": [
+       "Fort Norman (Tulita)",
+       "Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)",
+       "Déline (Fort Franklin, Büyük Ayı Gölü)"
+      ],
+      "surtunme_medyan": 1.322,
+      "en_yakin_tohum_km_medyan": 157.0,
+      "yuruyus_saat_medyan": 49.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k20"
+     },
+     {
+      "km2": 44065,
+      "merkez_lat": 42.46,
+      "merkez_lon": 111.69,
+      "A_sahipleri": [
+       "Baotou",
+       "Hohhot (Kuku-hoto)",
+       "Kalgan (Zhangjiakou)"
+      ],
+      "surtunme_medyan": 1.159,
+      "en_yakin_tohum_km_medyan": 196.1,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 44013,
+      "merkez_lat": -2.39,
+      "merkez_lon": 17.84,
+      "A_sahipleri": [
+       "Bandundu",
+       "Ovando",
+       "Monkoto"
+      ],
+      "surtunme_medyan": 1.035,
+      "en_yakin_tohum_km_medyan": 160.1,
+      "yuruyus_saat_medyan": 45.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 42546,
+      "merkez_lat": 62.64,
+      "merkez_lon": 108.9,
+      "A_sahipleri": [
+       "Yerbogaçen"
+      ],
+      "surtunme_medyan": 1.088,
+      "en_yakin_tohum_km_medyan": 210.8,
+      "yuruyus_saat_medyan": 47.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 42500,
+      "merkez_lat": -2.29,
+      "merkez_lon": 34.87,
+      "A_sahipleri": [
+       "Mvanza",
+       "Babati",
+       "Arusa (Arusha)"
+      ],
+      "surtunme_medyan": 1.253,
+      "en_yakin_tohum_km_medyan": 164.7,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 42153,
+      "merkez_lat": 69.65,
+      "merkez_lon": -71.05,
+      "A_sahipleri": [
+       "Kanngiqtugaapik (Clyde River)"
+      ],
+      "surtunme_medyan": 1.37,
+      "en_yakin_tohum_km_medyan": 154.9,
+      "yuruyus_saat_medyan": 60.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 40728,
+      "merkez_lat": 21.79,
+      "merkez_lon": 17.57,
+      "A_sahipleri": [
+       "Tibesti",
+       "Vûr",
+       "Bardaî"
+      ],
+      "surtunme_medyan": 1.208,
+      "en_yakin_tohum_km_medyan": 185.8,
+      "yuruyus_saat_medyan": 45.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 40250,
+      "merkez_lat": -22.57,
+      "merkez_lon": -50.09,
+      "A_sahipleri": [
+       "São Pedro de Alcântara (Tibagi)"
+      ],
+      "surtunme_medyan": 1.128,
+      "en_yakin_tohum_km_medyan": 219.7,
+      "yuruyus_saat_medyan": 50.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 39516,
+      "merkez_lat": -7.97,
+      "merkez_lon": 29.33,
+      "A_sahipleri": [
+       "Kalemie",
+       "Sumbavanga",
+       "Mvansabombve (Kazembe)"
+      ],
+      "surtunme_medyan": 1.379,
+      "en_yakin_tohum_km_medyan": 179.2,
+      "yuruyus_saat_medyan": 47.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 39515,
+      "merkez_lat": -28.96,
+      "merkez_lon": -51.88,
+      "A_sahipleri": [
+       "Nonohay (Yukarı Uruguay)"
+      ],
+      "surtunme_medyan": 1.225,
+      "en_yakin_tohum_km_medyan": 210.4,
+      "yuruyus_saat_medyan": 49.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 39452,
+      "merkez_lat": 4.77,
+      "merkez_lon": 36.1,
+      "A_sahipleri": [
+       "Lodvar",
+       "Mizan Teferi",
+       "Arba Minç"
+      ],
+      "surtunme_medyan": 1.333,
+      "en_yakin_tohum_km_medyan": 157.6,
+      "yuruyus_saat_medyan": 46.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 39121,
+      "merkez_lat": -16.34,
+      "merkez_lon": 28.95,
+      "A_sahipleri": [
+       "Zumbo",
+       "Binga",
+       "Mumbva"
+      ],
+      "surtunme_medyan": 1.273,
+      "en_yakin_tohum_km_medyan": 170.6,
+      "yuruyus_saat_medyan": 44.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k03"
+     },
+     {
+      "km2": 37688,
+      "merkez_lat": -16.19,
+      "merkez_lon": -49.6,
+      "A_sahipleri": [
+       "Vila Boa de Goiás"
+      ],
+      "surtunme_medyan": 1.183,
+      "en_yakin_tohum_km_medyan": 193.3,
+      "yuruyus_saat_medyan": 45.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 37575,
+      "merkez_lat": 37.98,
+      "merkez_lon": 107.0,
+      "A_sahipleri": [
+       "Yinchuan (Ningxia)"
+      ],
+      "surtunme_medyan": 1.211,
+      "en_yakin_tohum_km_medyan": 151.0,
+      "yuruyus_saat_medyan": 49.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 37332,
+      "merkez_lat": 60.52,
+      "merkez_lon": 128.64,
+      "A_sahipleri": [
+       "Yakutsk"
+      ],
+      "surtunme_medyan": 1.139,
+      "en_yakin_tohum_km_medyan": 192.0,
+      "yuruyus_saat_medyan": 56.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 37110,
+      "merkez_lat": 8.43,
+      "merkez_lon": -63.53,
+      "A_sahipleri": [
+       "Beyan K7.5 B62.5"
+      ],
+      "surtunme_medyan": 1.073,
+      "en_yakin_tohum_km_medyan": 185.1,
+      "yuruyus_saat_medyan": 52.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 37037,
+      "merkez_lat": 23.33,
+      "merkez_lon": 45.76,
+      "A_sahipleri": [
+       "Riyad",
+       "Dir'iye (Necid)",
+       "Necid içi"
+      ],
+      "surtunme_medyan": 1.101,
+      "en_yakin_tohum_km_medyan": 204.6,
+      "yuruyus_saat_medyan": 45.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 36657,
+      "merkez_lat": 19.45,
+      "merkez_lon": 23.33,
+      "A_sahipleri": [
+       "Vâdî Hovâr",
+       "Ma'tan es-Sarra",
+       "Cebel Ûveynât"
+      ],
+      "surtunme_medyan": 1.083,
+      "en_yakin_tohum_km_medyan": 203.5,
+      "yuruyus_saat_medyan": 44.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 36586,
+      "merkez_lat": 66.59,
+      "merkez_lon": 164.17,
+      "A_sahipleri": [
+       "Ostrovnoye (Anyuy panayırı)",
+       "Nijnekolımsk"
+      ],
+      "surtunme_medyan": 1.387,
+      "en_yakin_tohum_km_medyan": 198.2,
+      "yuruyus_saat_medyan": 47.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 36298,
+      "merkez_lat": -1.34,
+      "merkez_lon": 132.5,
+      "A_sahipleri": [
+       "Manokwari",
+       "Yeni Gine Batı (Kuş Başı / Vogelkop) 2",
+       "Yeni Gine Batı (Kuş Başı / Vogelkop)"
+      ],
+      "surtunme_medyan": 1.268,
+      "en_yakin_tohum_km_medyan": 150.5,
+      "yuruyus_saat_medyan": 56.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k15"
+     },
+     {
+      "km2": 35442,
+      "merkez_lat": -4.02,
+      "merkez_lon": -61.15,
+      "A_sahipleri": [
+       "Manaus (Forte de São José do Rio Negro)",
+       "Borba (Madeira)"
+      ],
+      "surtunme_medyan": 1.016,
+      "en_yakin_tohum_km_medyan": 164.7,
+      "yuruyus_saat_medyan": 48.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 35334,
+      "merkez_lat": 47.74,
+      "merkez_lon": 74.48,
+      "A_sahipleri": [
+       "Karkaralinsk (Karkaralı)"
+      ],
+      "surtunme_medyan": 1.112,
+      "en_yakin_tohum_km_medyan": 219.7,
+      "yuruyus_saat_medyan": 50.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 35322,
+      "merkez_lat": 51.05,
+      "merkez_lon": -67.54,
+      "A_sahipleri": [
+       "Sept-Îles",
+       "Mingan",
+       "Tadoussac"
+      ],
+      "surtunme_medyan": 1.182,
+      "en_yakin_tohum_km_medyan": 186.1,
+      "yuruyus_saat_medyan": 44.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 35226,
+      "merkez_lat": 66.11,
+      "merkez_lon": 132.8,
+      "A_sahipleri": [
+       "Verhoyansk"
+      ],
+      "surtunme_medyan": 1.371,
+      "en_yakin_tohum_km_medyan": 196.7,
+      "yuruyus_saat_medyan": 48.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 35100,
+      "merkez_lat": -9.27,
+      "merkez_lon": -47.22,
+      "A_sahipleri": [
+       "Beyan G7.5 B47.5"
+      ],
+      "surtunme_medyan": 1.128,
+      "en_yakin_tohum_km_medyan": 223.4,
+      "yuruyus_saat_medyan": 49.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 34967,
+      "merkez_lat": 69.6,
+      "merkez_lon": -113.39,
+      "A_sahipleri": [
+       "Bernard Harbour (Bakır İnuit)",
+       "Minto Inlet (Kangiryuarmiut)"
+      ],
+      "surtunme_medyan": 1.098,
+      "en_yakin_tohum_km_medyan": 129.0,
+      "yuruyus_saat_medyan": 64.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 34499,
+      "merkez_lat": 18.67,
+      "merkez_lon": 50.69,
+      "A_sahipleri": [
+       "Rub'ul Hâlî doğusu",
+       "Rahbût",
+       "Rub'ul Hâlî güneybatısı"
+      ],
+      "surtunme_medyan": 1.024,
+      "en_yakin_tohum_km_medyan": 205.0,
+      "yuruyus_saat_medyan": 45.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 34327,
+      "merkez_lat": 66.07,
+      "merkez_lon": -50.93,
+      "A_sahipleri": [
+       "Sisimiut (Holsteinsborg)"
+      ],
+      "surtunme_medyan": 1.463,
+      "en_yakin_tohum_km_medyan": 169.5,
+      "yuruyus_saat_medyan": 61.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k22"
+     },
+     {
+      "km2": 33892,
+      "merkez_lat": 32.34,
+      "merkez_lon": 69.34,
+      "A_sahipleri": [
+       "Gazne",
+       "Peşâver",
+       "Kâbil"
+      ],
+      "surtunme_medyan": 1.49,
+      "en_yakin_tohum_km_medyan": 177.6,
+      "yuruyus_saat_medyan": 47.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 33802,
+      "merkez_lat": -5.4,
+      "merkez_lon": -54.75,
+      "A_sahipleri": [
+       "Itaituba",
+       "Beyan G4.5 B52.5"
+      ],
+      "surtunme_medyan": 1.097,
+      "en_yakin_tohum_km_medyan": 185.7,
+      "yuruyus_saat_medyan": 43.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 33658,
+      "merkez_lat": 41.43,
+      "merkez_lon": -79.78,
+      "A_sahipleri": [
+       "Fort Duquesne (Pittsburgh)",
+       "Seneca (Ganondagan)",
+       "Detroit (Fort Pontchartrain du Détroit)"
+      ],
+      "surtunme_medyan": 1.133,
+      "en_yakin_tohum_km_medyan": 160.0,
+      "yuruyus_saat_medyan": 44.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 33258,
+      "merkez_lat": -31.03,
+      "merkez_lon": -59.01,
+      "A_sahipleri": [
+       "Santa Fe (Arjantin)",
+       "San Jerónimo (Reconquista)"
+      ],
+      "surtunme_medyan": 1.026,
+      "en_yakin_tohum_km_medyan": 151.7,
+      "yuruyus_saat_medyan": 46.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 33123,
+      "merkez_lat": 9.16,
+      "merkez_lon": -66.88,
+      "A_sahipleri": [
+       "Caracas (Santiago de León de Caracas)",
+       "Nuestra Señora de Caraballeda"
+      ],
+      "surtunme_medyan": 1.068,
+      "en_yakin_tohum_km_medyan": 179.4,
+      "yuruyus_saat_medyan": 48.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 32905,
+      "merkez_lat": -3.39,
+      "merkez_lon": -42.04,
+      "A_sahipleri": [
+       "São Luís"
+      ],
+      "surtunme_medyan": 1.068,
+      "en_yakin_tohum_km_medyan": 270.9,
+      "yuruyus_saat_medyan": 61.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 32677,
+      "merkez_lat": 69.32,
+      "merkez_lon": -50.44,
+      "A_sahipleri": [
+       "Qeqertarsuaq (Godhavn)"
+      ],
+      "surtunme_medyan": 1.333,
+      "en_yakin_tohum_km_medyan": 156.1,
+      "yuruyus_saat_medyan": 92.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k22"
+     },
+     {
+      "km2": 31917,
+      "merkez_lat": 52.53,
+      "merkez_lon": 75.55,
+      "A_sahipleri": [
+       "Pavlodar (Koryakov)",
+       "Omsk"
+      ],
+      "surtunme_medyan": 1.031,
+      "en_yakin_tohum_km_medyan": 146.7,
+      "yuruyus_saat_medyan": 44.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 31289,
+      "merkez_lat": 43.86,
+      "merkez_lon": 106.73,
+      "A_sahipleri": [
+       "Alaşa kuzeyi",
+       "Ömnögovi (Dalanzadgad)"
+      ],
+      "surtunme_medyan": 1.159,
+      "en_yakin_tohum_km_medyan": 196.3,
+      "yuruyus_saat_medyan": 45.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 31190,
+      "merkez_lat": 11.38,
+      "merkez_lon": 3.71,
+      "A_sahipleri": [
+       "Busa (Borgu)",
+       "Say",
+       "Nikki (Borgu)"
+      ],
+      "surtunme_medyan": 1.085,
+      "en_yakin_tohum_km_medyan": 161.5,
+      "yuruyus_saat_medyan": 42.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 30896,
+      "merkez_lat": -7.91,
+      "merkez_lon": -41.56,
+      "A_sahipleri": [
+       "Oeiras (Piauí)"
+      ],
+      "surtunme_medyan": 1.183,
+      "en_yakin_tohum_km_medyan": 198.3,
+      "yuruyus_saat_medyan": 45.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 30524,
+      "merkez_lat": -6.64,
+      "merkez_lon": -63.21,
+      "A_sahipleri": [
+       "Beyan G7.5 B62.5"
+      ],
+      "surtunme_medyan": 1.013,
+      "en_yakin_tohum_km_medyan": 159.5,
+      "yuruyus_saat_medyan": 48.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 30516,
+      "merkez_lat": 57.13,
+      "merkez_lon": -110.7,
+      "A_sahipleri": [
+       "Fort Chipewyan",
+       "Fort Vermilion güneyi — Peace Point",
+       "Lac La Biche"
+      ],
+      "surtunme_medyan": 1.086,
+      "en_yakin_tohum_km_medyan": 190.7,
+      "yuruyus_saat_medyan": 43.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 30486,
+      "merkez_lat": 76.88,
+      "merkez_lon": -23.57,
+      "A_sahipleri": [
+       "Kuzeydoğu Grönland"
+      ],
+      "surtunme_medyan": 1.277,
+      "en_yakin_tohum_km_medyan": 161.8,
+      "yuruyus_saat_medyan": 54.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k22"
+     },
+     {
+      "km2": 30312,
+      "merkez_lat": 39.39,
+      "merkez_lon": 109.52,
+      "A_sahipleri": [
+       "Baotou",
+       "Hohhot (Kuku-hoto)"
+      ],
+      "surtunme_medyan": 1.145,
+      "en_yakin_tohum_km_medyan": 162.5,
+      "yuruyus_saat_medyan": 53.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 29923,
+      "merkez_lat": 20.77,
+      "merkez_lon": -3.48,
+      "A_sahipleri": [
+       "Aravan"
+      ],
+      "surtunme_medyan": 1.014,
+      "en_yakin_tohum_km_medyan": 229.1,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 29524,
+      "merkez_lat": 70.42,
+      "merkez_lon": 75.14,
+      "A_sahipleri": [
+       "Yamal ucu"
+      ],
+      "surtunme_medyan": 1.034,
+      "en_yakin_tohum_km_medyan": 133.7,
+      "yuruyus_saat_medyan": 100.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 29356,
+      "merkez_lat": 65.53,
+      "merkez_lon": -161.53,
+      "A_sahipleri": [
+       "Qikiqtaġruk (Kotzebue)",
+       "Mihaylovskiy Redut (St. Michael)",
+       "Nulato"
+      ],
+      "surtunme_medyan": 1.216,
+      "en_yakin_tohum_km_medyan": 127.3,
+      "yuruyus_saat_medyan": 46.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k20"
+     },
+     {
+      "km2": 29093,
+      "merkez_lat": -15.35,
+      "merkez_lon": 48.44,
+      "A_sahipleri": [
+       "Maroantsetra",
+       "Sambava",
+       "Maevatanana"
+      ],
+      "surtunme_medyan": 1.404,
+      "en_yakin_tohum_km_medyan": 164.6,
+      "yuruyus_saat_medyan": 44.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k03"
+     },
+     {
+      "km2": 29053,
+      "merkez_lat": -11.48,
+      "merkez_lon": -57.34,
+      "A_sahipleri": [
+       "Beyan G10.5 B58.5"
+      ],
+      "surtunme_medyan": 1.077,
+      "en_yakin_tohum_km_medyan": 200.5,
+      "yuruyus_saat_medyan": 47.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 28721,
+      "merkez_lat": -31.46,
+      "merkez_lon": 143.02,
+      "A_sahipleri": [
+       "Broken Hill",
+       "Cobar",
+       "Hay"
+      ],
+      "surtunme_medyan": 1.026,
+      "en_yakin_tohum_km_medyan": 193.3,
+      "yuruyus_saat_medyan": 43.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 28388,
+      "merkez_lat": 64.08,
+      "merkez_lon": 87.93,
+      "A_sahipleri": [
+       "Turuhansk"
+      ],
+      "surtunme_medyan": 1.062,
+      "en_yakin_tohum_km_medyan": 214.1,
+      "yuruyus_saat_medyan": 47.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 28361,
+      "merkez_lat": 30.72,
+      "merkez_lon": 70.23,
+      "A_sahipleri": [
+       "Multan",
+       "Bahâvelpûr"
+      ],
+      "surtunme_medyan": 1.354,
+      "en_yakin_tohum_km_medyan": 163.4,
+      "yuruyus_saat_medyan": 52.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 28190,
+      "merkez_lat": 45.88,
+      "merkez_lon": 118.21,
+      "A_sahipleri": [
+       "Halhın Gol (Buir Nur)"
+      ],
+      "surtunme_medyan": 1.159,
+      "en_yakin_tohum_km_medyan": 225.5,
+      "yuruyus_saat_medyan": 49.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 28130,
+      "merkez_lat": 23.34,
+      "merkez_lon": 1.24,
+      "A_sahipleri": [
+       "Hoggar"
+      ],
+      "surtunme_medyan": 1.013,
+      "en_yakin_tohum_km_medyan": 218.6,
+      "yuruyus_saat_medyan": 46.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 28100,
+      "merkez_lat": 49.44,
+      "merkez_lon": 124.56,
+      "A_sahipleri": [
+       "Qiqihar",
+       "Aigun"
+      ],
+      "surtunme_medyan": 1.16,
+      "en_yakin_tohum_km_medyan": 199.5,
+      "yuruyus_saat_medyan": 43.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 28033,
+      "merkez_lat": 46.64,
+      "merkez_lon": -109.85,
+      "A_sahipleri": [
+       "Fort Benton",
+       "Fort Belknap (Assiniboine-Gros Ventre)",
+       "Tukudeka (Koyun Yiyen Şoşoniler, Yellowstone)"
+      ],
+      "surtunme_medyan": 1.377,
+      "en_yakin_tohum_km_medyan": 127.8,
+      "yuruyus_saat_medyan": 44.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 27920,
+      "merkez_lat": -3.46,
+      "merkez_lon": -72.14,
+      "A_sahipleri": [
+       "San Joaquín de Omaguas (Fritz)"
+      ],
+      "surtunme_medyan": 1.036,
+      "en_yakin_tohum_km_medyan": 181.0,
+      "yuruyus_saat_medyan": 45.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 27854,
+      "merkez_lat": -7.57,
+      "merkez_lon": -65.92,
+      "A_sahipleri": [
+       "Beyan G9.5 B65.5"
+      ],
+      "surtunme_medyan": 1.018,
+      "en_yakin_tohum_km_medyan": 234.4,
+      "yuruyus_saat_medyan": 48.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 27721,
+      "merkez_lat": 64.87,
+      "merkez_lon": -89.66,
+      "A_sahipleri": [
+       "Wager Körfezi (Ukkusiksalik)",
+       "Igluligaarjuk (Chesterfield Inlet)",
+       "Naujaat (Repulse Bay)"
+      ],
+      "surtunme_medyan": 1.099,
+      "en_yakin_tohum_km_medyan": 105.1,
+      "yuruyus_saat_medyan": 50.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 27700,
+      "merkez_lat": 64.03,
+      "merkez_lon": 150.33,
+      "A_sahipleri": [
+       "Verhnekolımsk",
+       "Kolıma havzası (Yukagir toprakları)"
+      ],
+      "surtunme_medyan": 1.433,
+      "en_yakin_tohum_km_medyan": 197.9,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 27512,
+      "merkez_lat": 70.62,
+      "merkez_lon": -82.38,
+      "A_sahipleri": [
+       "Iglulik",
+       "Sanirajak (Hall Beach)"
+      ],
+      "surtunme_medyan": 1.122,
+      "en_yakin_tohum_km_medyan": 156.3,
+      "yuruyus_saat_medyan": 145.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 27372,
+      "merkez_lat": 50.29,
+      "merkez_lon": 113.53,
+      "A_sahipleri": [
+       "Irgen",
+       "Nerçinsk",
+       "Çita"
+      ],
+      "surtunme_medyan": 1.31,
+      "en_yakin_tohum_km_medyan": 189.5,
+      "yuruyus_saat_medyan": 46.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 27218,
+      "merkez_lat": 44.08,
+      "merkez_lon": 114.49,
+      "A_sahipleri": [
+       "Dariganga"
+      ],
+      "surtunme_medyan": 1.145,
+      "en_yakin_tohum_km_medyan": 197.6,
+      "yuruyus_saat_medyan": 44.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 27027,
+      "merkez_lat": 61.73,
+      "merkez_lon": 136.52,
+      "A_sahipleri": [
+       "Ust-Maya"
+      ],
+      "surtunme_medyan": 1.289,
+      "en_yakin_tohum_km_medyan": 202.5,
+      "yuruyus_saat_medyan": 50.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 26515,
+      "merkez_lat": 24.81,
+      "merkez_lon": 6.5,
+      "A_sahipleri": [
+       "İdeles",
+       "Cânet (Djanet)",
+       "Tâsîlî n'Accer"
+      ],
+      "surtunme_medyan": 1.163,
+      "en_yakin_tohum_km_medyan": 188.8,
+      "yuruyus_saat_medyan": 43.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 26507,
+      "merkez_lat": -11.44,
+      "merkez_lon": -52.89,
+      "A_sahipleri": [
+       "Beyan G10.5 B52.5"
+      ],
+      "surtunme_medyan": 1.056,
+      "en_yakin_tohum_km_medyan": 200.5,
+      "yuruyus_saat_medyan": 44.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 26339,
+      "merkez_lat": 62.96,
+      "merkez_lon": 176.48,
+      "A_sahipleri": [
+       "Anadır (Anadyrsk)"
+      ],
+      "surtunme_medyan": 1.422,
+      "en_yakin_tohum_km_medyan": 218.4,
+      "yuruyus_saat_medyan": 51.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 25623,
+      "merkez_lat": 67.45,
+      "merkez_lon": 66.21,
+      "A_sahipleri": [
+       "Obdorsk (Salehard)"
+      ],
+      "surtunme_medyan": 1.14,
+      "en_yakin_tohum_km_medyan": 141.4,
+      "yuruyus_saat_medyan": 48.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 25502,
+      "merkez_lat": -36.57,
+      "merkez_lon": 148.07,
+      "A_sahipleri": [
+       "Bairnsdale",
+       "Goulburn",
+       "Wagga Wagga"
+      ],
+      "surtunme_medyan": 1.352,
+      "en_yakin_tohum_km_medyan": 172.9,
+      "yuruyus_saat_medyan": 43.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 25065,
+      "merkez_lat": 58.67,
+      "merkez_lon": -117.65,
+      "A_sahipleri": [
+       "Fort Vermilion",
+       "Fort Dunvegan"
+      ],
+      "surtunme_medyan": 1.095,
+      "en_yakin_tohum_km_medyan": 141.3,
+      "yuruyus_saat_medyan": 44.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 25028,
+      "merkez_lat": 27.63,
+      "merkez_lon": 4.1,
+      "A_sahipleri": [
+       "Aynı Sâlih (Tîdîkelt)"
+      ],
+      "surtunme_medyan": 1.074,
+      "en_yakin_tohum_km_medyan": 208.8,
+      "yuruyus_saat_medyan": 45.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 24937,
+      "merkez_lat": -0.56,
+      "merkez_lon": -61.37,
+      "A_sahipleri": [
+       "Barcelos (Mariuá)",
+       "Beyan K1.5 B60.5"
+      ],
+      "surtunme_medyan": 1.013,
+      "en_yakin_tohum_km_medyan": 175.7,
+      "yuruyus_saat_medyan": 45.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 24475,
+      "merkez_lat": 9.9,
+      "merkez_lon": -62.43,
+      "A_sahipleri": [
+       "Port of Spain (Puerto de España)",
+       "San José de Oruña (St. Joseph)",
+       "Beyan K7.5 B60.5"
+      ],
+      "surtunme_medyan": 1.016,
+      "en_yakin_tohum_km_medyan": 158.1,
+      "yuruyus_saat_medyan": 72.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 24429,
+      "merkez_lat": 65.32,
+      "merkez_lon": 79.61,
+      "A_sahipleri": [
+       "Mangazeya"
+      ],
+      "surtunme_medyan": 1.023,
+      "en_yakin_tohum_km_medyan": 219.4,
+      "yuruyus_saat_medyan": 45.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 24255,
+      "merkez_lat": 66.28,
+      "merkez_lon": -130.35,
+      "A_sahipleri": [
+       "Fort Good Hope (Rádeyı̨lı̨kóé)",
+       "Tulít'a Dağ Denesi (Nahanni)",
+       "Kittigazuit (Mackenzie İnuitleri)"
+      ],
+      "surtunme_medyan": 1.296,
+      "en_yakin_tohum_km_medyan": 150.2,
+      "yuruyus_saat_medyan": 43.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k20"
+     },
+     {
+      "km2": 24230,
+      "merkez_lat": 57.93,
+      "merkez_lon": 102.01,
+      "A_sahipleri": [
+       "Bratsk ostrogu"
+      ],
+      "surtunme_medyan": 1.131,
+      "en_yakin_tohum_km_medyan": 206.3,
+      "yuruyus_saat_medyan": 47.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 24043,
+      "merkez_lat": 67.92,
+      "merkez_lon": -105.42,
+      "A_sahipleri": [
+       "Iqaluktuuttiaq (Cambridge Bay)",
+       "Kugluktuk doğusu — Bathurst Inlet (Kingaunmiut)"
+      ],
+      "surtunme_medyan": 1.054,
+      "en_yakin_tohum_km_medyan": 137.9,
+      "yuruyus_saat_medyan": 53.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 24017,
+      "merkez_lat": 59.93,
+      "merkez_lon": 93.83,
+      "A_sahipleri": [
+       "Yeniseysk"
+      ],
+      "surtunme_medyan": 1.229,
+      "en_yakin_tohum_km_medyan": 197.5,
+      "yuruyus_saat_medyan": 50.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 23936,
+      "merkez_lat": 41.01,
+      "merkez_lon": -107.21,
+      "A_sahipleri": [
+       "Fort Washakie (Wind River)",
+       "Cheyenne (Wyoming)",
+       "Denver"
+      ],
+      "surtunme_medyan": 1.412,
+      "en_yakin_tohum_km_medyan": 171.0,
+      "yuruyus_saat_medyan": 45.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 23934,
+      "merkez_lat": 41.72,
+      "merkez_lon": 65.57,
+      "A_sahipleri": [
+       "Buhara",
+       "Sığnak (Sunak Kurgan)",
+       "Cizzah"
+      ],
+      "surtunme_medyan": 1.033,
+      "en_yakin_tohum_km_medyan": 196.1,
+      "yuruyus_saat_medyan": 44.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 23512,
+      "merkez_lat": -6.55,
+      "merkez_lon": 16.59,
+      "A_sahipleri": [
+       "Fesi (Feshi)",
+       "Uije (Uíge)",
+       "Malebo Havuzu (Teke)"
+      ],
+      "surtunme_medyan": 1.215,
+      "en_yakin_tohum_km_medyan": 183.7,
+      "yuruyus_saat_medyan": 43.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 23334,
+      "merkez_lat": 35.39,
+      "merkez_lon": -81.73,
+      "A_sahipleri": [
+       "Kituwa (Çeroki ana kasabası)",
+       "Occaneechi (Hillsborough)",
+       "Draper's Meadow (Blacksburg)"
+      ],
+      "surtunme_medyan": 1.098,
+      "en_yakin_tohum_km_medyan": 174.7,
+      "yuruyus_saat_medyan": 43.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 23116,
+      "merkez_lat": 66.73,
+      "merkez_lon": 92.84,
+      "A_sahipleri": [
+       "Hantayka zimovyesi"
+      ],
+      "surtunme_medyan": 1.402,
+      "en_yakin_tohum_km_medyan": 184.0,
+      "yuruyus_saat_medyan": 51.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 22933,
+      "merkez_lat": -28.56,
+      "merkez_lon": 140.24,
+      "A_sahipleri": [
+       "Marree (Hergott Springs)",
+       "Birdsville",
+       "Windorah"
+      ],
+      "surtunme_medyan": 1.021,
+      "en_yakin_tohum_km_medyan": 209.9,
+      "yuruyus_saat_medyan": 43.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 22739,
+      "merkez_lat": -8.92,
+      "merkez_lon": -69.28,
+      "A_sahipleri": [
+       "Beyan G10.5 B68.5"
+      ],
+      "surtunme_medyan": 1.054,
+      "en_yakin_tohum_km_medyan": 220.4,
+      "yuruyus_saat_medyan": 46.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 22550,
+      "merkez_lat": 16.71,
+      "merkez_lon": 48.51,
+      "A_sahipleri": [
+       "Hadramut"
+      ],
+      "surtunme_medyan": 1.135,
+      "en_yakin_tohum_km_medyan": 192.2,
+      "yuruyus_saat_medyan": 44.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 22424,
+      "merkez_lat": -21.88,
+      "merkez_lon": -47.22,
+      "A_sahipleri": [
+       "São Paulo"
+      ],
+      "surtunme_medyan": 1.25,
+      "en_yakin_tohum_km_medyan": 205.4,
+      "yuruyus_saat_medyan": 49.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 22370,
+      "merkez_lat": 58.8,
+      "merkez_lon": 122.05,
+      "A_sahipleri": [
+       "Olyokminsk"
+      ],
+      "surtunme_medyan": 1.233,
+      "en_yakin_tohum_km_medyan": 210.8,
+      "yuruyus_saat_medyan": 48.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 22124,
+      "merkez_lat": 63.4,
+      "merkez_lon": 130.54,
+      "A_sahipleri": [
+       "Yakutsk"
+      ],
+      "surtunme_medyan": 1.09,
+      "en_yakin_tohum_km_medyan": 169.8,
+      "yuruyus_saat_medyan": 53.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 21741,
+      "merkez_lat": 62.08,
+      "merkez_lon": 155.08,
+      "A_sahipleri": [
+       "Penjina havzası (kuzey Koryak)",
+       "Yama zimovyesi"
+      ],
+      "surtunme_medyan": 1.462,
+      "en_yakin_tohum_km_medyan": 167.2,
+      "yuruyus_saat_medyan": 46.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 21543,
+      "merkez_lat": 45.55,
+      "merkez_lon": 109.88,
+      "A_sahipleri": [
+       "Öndörhaan (Hentiy)"
+      ],
+      "surtunme_medyan": 1.126,
+      "en_yakin_tohum_km_medyan": 214.4,
+      "yuruyus_saat_medyan": 48.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 21520,
+      "merkez_lat": 62.86,
+      "merkez_lon": 74.87,
+      "A_sahipleri": [
+       "Surgut"
+      ],
+      "surtunme_medyan": 1.022,
+      "en_yakin_tohum_km_medyan": 222.0,
+      "yuruyus_saat_medyan": 45.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 21325,
+      "merkez_lat": 23.39,
+      "merkez_lon": 53.56,
+      "A_sahipleri": [
+       "Abu Dabi"
+      ],
+      "surtunme_medyan": 1.027,
+      "en_yakin_tohum_km_medyan": 161.2,
+      "yuruyus_saat_medyan": 52.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 21202,
+      "merkez_lat": 2.42,
+      "merkez_lon": -68.65,
+      "A_sahipleri": [
+       "Yavaraté (Vaupés)"
+      ],
+      "surtunme_medyan": 1.034,
+      "en_yakin_tohum_km_medyan": 224.5,
+      "yuruyus_saat_medyan": 54.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 21112,
+      "merkez_lat": 55.1,
+      "merkez_lon": 106.17,
+      "A_sahipleri": [
+       "Verholensk",
+       "Balagansk"
+      ],
+      "surtunme_medyan": 1.354,
+      "en_yakin_tohum_km_medyan": 149.3,
+      "yuruyus_saat_medyan": 46.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 21020,
+      "merkez_lat": 31.86,
+      "merkez_lon": -104.16,
+      "A_sahipleri": [
+       "Fort Stockton (Comanche Geçidi)",
+       "La Junta de los Ríos (Presidio)",
+       "Meskalero Apaçi (Pecos vadisi)"
+      ],
+      "surtunme_medyan": 1.163,
+      "en_yakin_tohum_km_medyan": 177.3,
+      "yuruyus_saat_medyan": 42.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 20930,
+      "merkez_lat": 52.27,
+      "merkez_lon": 138.65,
+      "A_sahipleri": [
+       "Nikolayevsk (Amur ağzı)"
+      ],
+      "surtunme_medyan": 1.368,
+      "en_yakin_tohum_km_medyan": 181.9,
+      "yuruyus_saat_medyan": 50.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 20830,
+      "merkez_lat": -7.37,
+      "merkez_lon": -52.3,
+      "A_sahipleri": [
+       "Beyan G7.5 B50.5"
+      ],
+      "surtunme_medyan": 1.183,
+      "en_yakin_tohum_km_medyan": 207.9,
+      "yuruyus_saat_medyan": 49.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 20783,
+      "merkez_lat": 42.51,
+      "merkez_lon": 118.26,
+      "A_sahipleri": [
+       "Cehol (Chengde)"
+      ],
+      "surtunme_medyan": 1.315,
+      "en_yakin_tohum_km_medyan": 188.9,
+      "yuruyus_saat_medyan": 48.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 20695,
+      "merkez_lat": -0.07,
+      "merkez_lon": -58.46,
+      "A_sahipleri": [
+       "Beyan K1.5 B57.5",
+       "Beyan K1.5 B60.5"
+      ],
+      "surtunme_medyan": 1.113,
+      "en_yakin_tohum_km_medyan": 202.8,
+      "yuruyus_saat_medyan": 45.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 20653,
+      "merkez_lat": -12.51,
+      "merkez_lon": -39.56,
+      "A_sahipleri": [
+       "Salvador (Bahia)"
+      ],
+      "surtunme_medyan": 1.133,
+      "en_yakin_tohum_km_medyan": 176.7,
+      "yuruyus_saat_medyan": 45.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 20562,
+      "merkez_lat": 41.34,
+      "merkez_lon": -116.99,
+      "A_sahipleri": [
+       "Ruby Vadisi (Batı Şoşoni)",
+       "Kuzey Payut (Kara Kaya Çölü)",
+       "Boise (Fort Boise)"
+      ],
+      "surtunme_medyan": 1.427,
+      "en_yakin_tohum_km_medyan": 158.8,
+      "yuruyus_saat_medyan": 43.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 20508,
+      "merkez_lat": -30.33,
+      "merkez_lon": -55.48,
+      "A_sahipleri": [
+       "Beyan G31.5 B56.5"
+      ],
+      "surtunme_medyan": 1.063,
+      "en_yakin_tohum_km_medyan": 204.9,
+      "yuruyus_saat_medyan": 44.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 20507,
+      "merkez_lat": -7.06,
+      "merkez_lon": 33.52,
+      "A_sahipleri": [
+       "Mbeya",
+       "Sumbavanga",
+       "Tabora (Kazeh)"
+      ],
+      "surtunme_medyan": 1.133,
+      "en_yakin_tohum_km_medyan": 178.0,
+      "yuruyus_saat_medyan": 43.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 20368,
+      "merkez_lat": 64.74,
+      "merkez_lon": 61.89,
+      "A_sahipleri": [
+       "Berezov"
+      ],
+      "surtunme_medyan": 1.13,
+      "en_yakin_tohum_km_medyan": 199.6,
+      "yuruyus_saat_medyan": 45.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 20353,
+      "merkez_lat": 53.13,
+      "merkez_lon": 134.07,
+      "A_sahipleri": [
+       "Udskoy ostrogu"
+      ],
+      "surtunme_medyan": 1.492,
+      "en_yakin_tohum_km_medyan": 183.3,
+      "yuruyus_saat_medyan": 46.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 20169,
+      "merkez_lat": 61.19,
+      "merkez_lon": 148.76,
+      "A_sahipleri": [
+       "Tauysk"
+      ],
+      "surtunme_medyan": 1.499,
+      "en_yakin_tohum_km_medyan": 188.7,
+      "yuruyus_saat_medyan": 47.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 20137,
+      "merkez_lat": -20.72,
+      "merkez_lon": 14.23,
+      "A_sahipleri": [
+       "Valvis Körfezi",
+       "Outjo",
+       "Otjimbingve"
+      ],
+      "surtunme_medyan": 1.291,
+      "en_yakin_tohum_km_medyan": 196.6,
+      "yuruyus_saat_medyan": 46.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k03"
+     },
+     {
+      "km2": 20032,
+      "merkez_lat": 38.3,
+      "merkez_lon": 109.91,
+      "A_sahipleri": [
+       "Yan'an",
+       "Taiyuan",
+       "Pingyao"
+      ],
+      "surtunme_medyan": 1.2,
+      "en_yakin_tohum_km_medyan": 179.1,
+      "yuruyus_saat_medyan": 44.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 19952,
+      "merkez_lat": -39.7,
+      "merkez_lon": 175.51,
+      "A_sahipleri": [
+       "Aotearoa Māori Yerleşimi (Kuzey Adası içi)",
+       "Wellington"
+      ],
+      "surtunme_medyan": 1.339,
+      "en_yakin_tohum_km_medyan": 176.8,
+      "yuruyus_saat_medyan": 46.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 19834,
+      "merkez_lat": 27.53,
+      "merkez_lon": 7.12,
+      "A_sahipleri": [
+       "İllîzî"
+      ],
+      "surtunme_medyan": 1.088,
+      "en_yakin_tohum_km_medyan": 206.7,
+      "yuruyus_saat_medyan": 45.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 19822,
+      "merkez_lat": 63.93,
+      "merkez_lon": 115.97,
+      "A_sahipleri": [
+       "Suntar"
+      ],
+      "surtunme_medyan": 1.078,
+      "en_yakin_tohum_km_medyan": 216.3,
+      "yuruyus_saat_medyan": 46.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 19816,
+      "merkez_lat": -21.82,
+      "merkez_lon": 147.72,
+      "A_sahipleri": [
+       "Bowen",
+       "Emerald",
+       "Charters Towers"
+      ],
+      "surtunme_medyan": 1.104,
+      "en_yakin_tohum_km_medyan": 192.9,
+      "yuruyus_saat_medyan": 42.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 19815,
+      "merkez_lat": 70.62,
+      "merkez_lon": 106.15,
+      "A_sahipleri": [
+       "Hatanga"
+      ],
+      "surtunme_medyan": 1.203,
+      "en_yakin_tohum_km_medyan": 204.4,
+      "yuruyus_saat_medyan": 47.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 19794,
+      "merkez_lat": -33.35,
+      "merkez_lon": 139.9,
+      "A_sahipleri": [
+       "Adelaide",
+       "Port Augusta",
+       "Mildura"
+      ],
+      "surtunme_medyan": 1.046,
+      "en_yakin_tohum_km_medyan": 168.2,
+      "yuruyus_saat_medyan": 43.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 19677,
+      "merkez_lat": 44.0,
+      "merkez_lon": 142.9,
+      "A_sahipleri": [
+       "Sapporo",
+       "Korsakov (Güney Sahalin)"
+      ],
+      "surtunme_medyan": 1.404,
+      "en_yakin_tohum_km_medyan": 179.0,
+      "yuruyus_saat_medyan": 48.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 19645,
+      "merkez_lat": 49.23,
+      "merkez_lon": 70.53,
+      "A_sahipleri": [
+       "Akmola (Akmolinsk)"
+      ],
+      "surtunme_medyan": 1.077,
+      "en_yakin_tohum_km_medyan": 227.8,
+      "yuruyus_saat_medyan": 47.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 19521,
+      "merkez_lat": 21.65,
+      "merkez_lon": 42.04,
+      "A_sahipleri": [
+       "Tâif"
+      ],
+      "surtunme_medyan": 1.108,
+      "en_yakin_tohum_km_medyan": 195.2,
+      "yuruyus_saat_medyan": 44.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 19448,
+      "merkez_lat": -12.05,
+      "merkez_lon": 21.83,
+      "A_sahipleri": [
+       "Kazombo",
+       "Zambezi (Balovale)",
+       "Sandoa"
+      ],
+      "surtunme_medyan": 1.018,
+      "en_yakin_tohum_km_medyan": 142.8,
+      "yuruyus_saat_medyan": 42.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k03"
+     },
+     {
+      "km2": 19264,
+      "merkez_lat": 72.93,
+      "merkez_lon": 94.52,
+      "A_sahipleri": [
+       "Voloçanka (Voloçanı zimovyesi)"
+      ],
+      "surtunme_medyan": 1.066,
+      "en_yakin_tohum_km_medyan": 220.2,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 19201,
+      "merkez_lat": -22.73,
+      "merkez_lon": 118.13,
+      "A_sahipleri": [
+       "Küçük Kum Çölü 2",
+       "Marble Bar",
+       "Roebourne"
+      ],
+      "surtunme_medyan": 1.215,
+      "en_yakin_tohum_km_medyan": 192.4,
+      "yuruyus_saat_medyan": 43.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k04"
+     },
+     {
+      "km2": 18976,
+      "merkez_lat": 46.69,
+      "merkez_lon": 88.22,
+      "A_sahipleri": [
+       "Altay (Şara Sume)"
+      ],
+      "surtunme_medyan": 1.178,
+      "en_yakin_tohum_km_medyan": 144.4,
+      "yuruyus_saat_medyan": 48.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 18924,
+      "merkez_lat": 19.49,
+      "merkez_lon": 2.34,
+      "A_sahipleri": [
+       "Kidal"
+      ],
+      "surtunme_medyan": 1.064,
+      "en_yakin_tohum_km_medyan": 204.1,
+      "yuruyus_saat_medyan": 43.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 18842,
+      "merkez_lat": -29.23,
+      "merkez_lon": -62.54,
+      "A_sahipleri": [
+       "Santiago del Estero",
+       "San Jerónimo (Reconquista)",
+       "Santa Fe (Arjantin)"
+      ],
+      "surtunme_medyan": 1.008,
+      "en_yakin_tohum_km_medyan": 210.0,
+      "yuruyus_saat_medyan": 43.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k01"
+     },
+     {
+      "km2": 18841,
+      "merkez_lat": 31.19,
+      "merkez_lon": -112.72,
+      "A_sahipleri": [
+       "Tubac",
+       "Yuma geçidi (La Purísima Concepción)",
+       "Misión San Francisco de Borja"
+      ],
+      "surtunme_medyan": 1.248,
+      "en_yakin_tohum_km_medyan": 176.4,
+      "yuruyus_saat_medyan": 43.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 18818,
+      "merkez_lat": -8.99,
+      "merkez_lon": 37.15,
+      "A_sahipleri": [
+       "Kalenga (Hehe)",
+       "Tunduru",
+       "Kilva Kivince"
+      ],
+      "surtunme_medyan": 1.22,
+      "en_yakin_tohum_km_medyan": 181.5,
+      "yuruyus_saat_medyan": 44.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 18726,
+      "merkez_lat": 64.71,
+      "merkez_lon": 68.79,
+      "A_sahipleri": [
+       "Obdorsk (Salehard)",
+       "Berezov"
+      ],
+      "surtunme_medyan": 1.04,
+      "en_yakin_tohum_km_medyan": 189.9,
+      "yuruyus_saat_medyan": 44.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 18682,
+      "merkez_lat": 45.34,
+      "merkez_lon": -99.25,
+      "A_sahipleri": [
+       "Fort Pierre (Arikara/Lakota)",
+       "On-A-Slant (Mandan köyü)",
+       "Büyük Ovalar (orta kesim)"
+      ],
+      "surtunme_medyan": 1.059,
+      "en_yakin_tohum_km_medyan": 136.5,
+      "yuruyus_saat_medyan": 43.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 18473,
+      "merkez_lat": 21.26,
+      "merkez_lon": 84.8,
+      "A_sahipleri": [
+       "Kattak (Cuttack)",
+       "Puri",
+       "Bâlâsor (Balasore)"
+      ],
+      "surtunme_medyan": 1.289,
+      "en_yakin_tohum_km_medyan": 187.4,
+      "yuruyus_saat_medyan": 43.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 18383,
+      "merkez_lat": 16.53,
+      "merkez_lon": 30.18,
+      "A_sahipleri": [
+       "Debbe",
+       "Sodirî",
+       "Kerreri"
+      ],
+      "surtunme_medyan": 1.1,
+      "en_yakin_tohum_km_medyan": 184.3,
+      "yuruyus_saat_medyan": 43.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 18334,
+      "merkez_lat": 71.31,
+      "merkez_lon": 125.58,
+      "A_sahipleri": [
+       "Bulun"
+      ],
+      "surtunme_medyan": 1.111,
+      "en_yakin_tohum_km_medyan": 135.3,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 18138,
+      "merkez_lat": 63.63,
+      "merkez_lon": 53.8,
+      "A_sahipleri": [
+       "Ust-Tsilma",
+       "Ust-Sısolsk (Sıktıvkar)"
+      ],
+      "surtunme_medyan": 1.049,
+      "en_yakin_tohum_km_medyan": 202.4,
+      "yuruyus_saat_medyan": 43.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k23"
+     },
+     {
+      "km2": 18071,
+      "merkez_lat": 25.45,
+      "merkez_lon": -1.38,
+      "A_sahipleri": [
+       "Reggân"
+      ],
+      "surtunme_medyan": 1.014,
+      "en_yakin_tohum_km_medyan": 224.4,
+      "yuruyus_saat_medyan": 46.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 17975,
+      "merkez_lat": 39.32,
+      "merkez_lon": 80.02,
+      "A_sahipleri": [
+       "Aksu (Tarım)",
+       "Hotan",
+       "Uçturfan (Uç Turfan)"
+      ],
+      "surtunme_medyan": 1.023,
+      "en_yakin_tohum_km_medyan": 201.3,
+      "yuruyus_saat_medyan": 43.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 17797,
+      "merkez_lat": 70.05,
+      "merkez_lon": 146.56,
+      "A_sahipleri": [
+       "Uyandina (Nijneindigirsk) zimovyesi"
+      ],
+      "surtunme_medyan": 1.049,
+      "en_yakin_tohum_km_medyan": 209.9,
+      "yuruyus_saat_medyan": 46.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 17654,
+      "merkez_lat": 63.54,
+      "merkez_lon": -111.97,
+      "A_sahipleri": [
+       "Łutsël K'é (Snowdrift, Büyük Köle Gölü doğusu)",
+       "Fort Resolution (Deninu Kų́ę́)"
+      ],
+      "surtunme_medyan": 1.051,
+      "en_yakin_tohum_km_medyan": 161.3,
+      "yuruyus_saat_medyan": 44.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 17622,
+      "merkez_lat": 1.22,
+      "merkez_lon": 100.12,
+      "A_sahipleri": [
+       "Sibolga",
+       "Padang",
+       "Klang"
+      ],
+      "surtunme_medyan": 1.122,
+      "en_yakin_tohum_km_medyan": 159.6,
+      "yuruyus_saat_medyan": 43.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 17395,
+      "merkez_lat": 45.98,
+      "merkez_lon": 130.25,
+      "A_sahipleri": [
+       "Ningguta"
+      ],
+      "surtunme_medyan": 1.155,
+      "en_yakin_tohum_km_medyan": 201.8,
+      "yuruyus_saat_medyan": 46.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 17280,
+      "merkez_lat": 60.45,
+      "merkez_lon": 82.65,
+      "A_sahipleri": [
+       "Ket Ostrogu (Ketsk)"
+      ],
+      "surtunme_medyan": 1.028,
+      "en_yakin_tohum_km_medyan": 215.6,
+      "yuruyus_saat_medyan": 47.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 17265,
+      "merkez_lat": -12.11,
+      "merkez_lon": -61.61,
+      "A_sahipleri": [
+       "Beyan G10.5 B61.5",
+       "Forte Príncipe da Beira"
+      ],
+      "surtunme_medyan": 1.125,
+      "en_yakin_tohum_km_medyan": 199.4,
+      "yuruyus_saat_medyan": 44.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k01"
+     },
+     {
+      "km2": 17048,
+      "merkez_lat": 31.87,
+      "merkez_lon": 114.75,
+      "A_sahipleri": [
+       "Wuchang (Wuhan)",
+       "Jiujiang"
+      ],
+      "surtunme_medyan": 1.113,
+      "en_yakin_tohum_km_medyan": 155.0,
+      "yuruyus_saat_medyan": 44.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 16869,
+      "merkez_lat": 44.54,
+      "merkez_lon": 74.99,
+      "A_sahipleri": [
+       "Balasagun (Ak-Beşim)",
+       "Almatı (Vernıy)"
+      ],
+      "surtunme_medyan": 1.07,
+      "en_yakin_tohum_km_medyan": 193.6,
+      "yuruyus_saat_medyan": 45.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 16622,
+      "merkez_lat": -18.85,
+      "merkez_lon": 125.76,
+      "A_sahipleri": [
+       "Büyük Kum Çölü 4",
+       "Halls Creek",
+       "Avustralya İç Kesimi (Kuzeybatı — Kimberley)"
+      ],
+      "surtunme_medyan": 1.065,
+      "en_yakin_tohum_km_medyan": 198.4,
+      "yuruyus_saat_medyan": 42.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 16611,
+      "merkez_lat": -4.67,
+      "merkez_lon": -65.79,
+      "A_sahipleri": [
+       "Tefé (Teffé de Aisuaris)"
+      ],
+      "surtunme_medyan": 1.018,
+      "en_yakin_tohum_km_medyan": 213.1,
+      "yuruyus_saat_medyan": 44.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 16533,
+      "merkez_lat": -4.03,
+      "merkez_lon": -49.54,
+      "A_sahipleri": [
+       "Cametá (Tocantins)"
+      ],
+      "surtunme_medyan": 1.053,
+      "en_yakin_tohum_km_medyan": 210.5,
+      "yuruyus_saat_medyan": 45.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 16520,
+      "merkez_lat": -3.08,
+      "merkez_lon": 23.01,
+      "A_sahipleri": [
+       "Ikela",
+       "Lusambo",
+       "Kasai havzası"
+      ],
+      "surtunme_medyan": 1.095,
+      "en_yakin_tohum_km_medyan": 197.0,
+      "yuruyus_saat_medyan": 42.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 16496,
+      "merkez_lat": 48.33,
+      "merkez_lon": 68.61,
+      "A_sahipleri": [
+       "Kazak bozkırı (Sarısu)"
+      ],
+      "surtunme_medyan": 1.063,
+      "en_yakin_tohum_km_medyan": 211.6,
+      "yuruyus_saat_medyan": 44.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 16486,
+      "merkez_lat": 32.78,
+      "merkez_lon": 0.74,
+      "A_sahipleri": [
+       "Fîgîg (Figuig)",
+       "Ağvât",
+       "Muaskar"
+      ],
+      "surtunme_medyan": 1.107,
+      "en_yakin_tohum_km_medyan": 191.2,
+      "yuruyus_saat_medyan": 43.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 16297,
+      "merkez_lat": 24.02,
+      "merkez_lon": 27.65,
+      "A_sahipleri": [
+       "Gilf el-Kebîr",
+       "Dâhile",
+       "Zolat el-Hammâd"
+      ],
+      "surtunme_medyan": 1.047,
+      "en_yakin_tohum_km_medyan": 194.0,
+      "yuruyus_saat_medyan": 42.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 16079,
+      "merkez_lat": -15.64,
+      "merkez_lon": 32.23,
+      "A_sahipleri": [
+       "Tete",
+       "Zumbo",
+       "Çipata (Fort Jameson)"
+      ],
+      "surtunme_medyan": 1.236,
+      "en_yakin_tohum_km_medyan": 144.4,
+      "yuruyus_saat_medyan": 43.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k03"
+     },
+     {
+      "km2": 16037,
+      "merkez_lat": 71.35,
+      "merkez_lon": 116.11,
+      "A_sahipleri": [
+       "Ust-Olenyok zimovyesi"
+      ],
+      "surtunme_medyan": 1.067,
+      "en_yakin_tohum_km_medyan": 218.1,
+      "yuruyus_saat_medyan": 47.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 16019,
+      "merkez_lat": -32.04,
+      "merkez_lon": 151.5,
+      "A_sahipleri": [
+       "Armidale",
+       "Sydney",
+       "Dubbo"
+      ],
+      "surtunme_medyan": 1.338,
+      "en_yakin_tohum_km_medyan": 176.6,
+      "yuruyus_saat_medyan": 43.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 15968,
+      "merkez_lat": 53.81,
+      "merkez_lon": 119.01,
+      "A_sahipleri": [
+       "Sretensk"
+      ],
+      "surtunme_medyan": 1.449,
+      "en_yakin_tohum_km_medyan": 200.5,
+      "yuruyus_saat_medyan": 48.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 15919,
+      "merkez_lat": -9.5,
+      "merkez_lon": -37.9,
+      "A_sahipleri": [
+       "São Cristóvão (Sergipe)"
+      ],
+      "surtunme_medyan": 1.181,
+      "en_yakin_tohum_km_medyan": 198.2,
+      "yuruyus_saat_medyan": 47.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 15917,
+      "merkez_lat": 49.8,
+      "merkez_lon": 129.71,
+      "A_sahipleri": [
+       "Blagoveşçensk"
+      ],
+      "surtunme_medyan": 1.105,
+      "en_yakin_tohum_km_medyan": 199.6,
+      "yuruyus_saat_medyan": 44.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 15782,
+      "merkez_lat": 39.26,
+      "merkez_lon": 104.53,
+      "A_sahipleri": [
+       "Yinchuan (Ningxia)"
+      ],
+      "surtunme_medyan": 1.091,
+      "en_yakin_tohum_km_medyan": 183.9,
+      "yuruyus_saat_medyan": 46.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 15677,
+      "merkez_lat": 13.76,
+      "merkez_lon": 41.1,
+      "A_sahipleri": [
+       "Vukro",
+       "Aseb",
+       "Dahlak"
+      ],
+      "surtunme_medyan": 1.487,
+      "en_yakin_tohum_km_medyan": 158.6,
+      "yuruyus_saat_medyan": 45.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 15415,
+      "merkez_lat": 56.38,
+      "merkez_lon": -75.37,
+      "A_sahipleri": [
+       "Kuujjuarapik (Great Whale River)",
+       "Inukjuak (Port Harrison)",
+       "Puvirnituq"
+      ],
+      "surtunme_medyan": 1.065,
+      "en_yakin_tohum_km_medyan": 192.8,
+      "yuruyus_saat_medyan": 42.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 15387,
+      "merkez_lat": 59.99,
+      "merkez_lon": -118.54,
+      "A_sahipleri": [
+       "Fort Providence"
+      ],
+      "surtunme_medyan": 1.126,
+      "en_yakin_tohum_km_medyan": 157.7,
+      "yuruyus_saat_medyan": 47.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 15339,
+      "merkez_lat": -6.16,
+      "merkez_lon": -35.67,
+      "A_sahipleri": [
+       "Olinda"
+      ],
+      "surtunme_medyan": 1.12,
+      "en_yakin_tohum_km_medyan": 224.3,
+      "yuruyus_saat_medyan": 50.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 15271,
+      "merkez_lat": 39.3,
+      "merkez_lon": 102.6,
+      "A_sahipleri": [
+       "Zhangye (Ganzhou)"
+      ],
+      "surtunme_medyan": 1.199,
+      "en_yakin_tohum_km_medyan": 192.9,
+      "yuruyus_saat_medyan": 50.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 15261,
+      "merkez_lat": 16.94,
+      "merkez_lon": 17.68,
+      "A_sahipleri": [
+       "Faya-Largeau"
+      ],
+      "surtunme_medyan": 1.029,
+      "en_yakin_tohum_km_medyan": 206.3,
+      "yuruyus_saat_medyan": 43.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 15237,
+      "merkez_lat": 58.11,
+      "merkez_lon": 86.58,
+      "A_sahipleri": [
+       "Tomsk",
+       "Açinsk"
+      ],
+      "surtunme_medyan": 1.038,
+      "en_yakin_tohum_km_medyan": 208.2,
+      "yuruyus_saat_medyan": 44.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 15142,
+      "merkez_lat": -34.49,
+      "merkez_lon": -61.73,
+      "A_sahipleri": [
+       "Beyan G36.5 B61.5",
+       "Buenos Aires",
+       "Beyan G36.5 B64.5"
+      ],
+      "surtunme_medyan": 1.013,
+      "en_yakin_tohum_km_medyan": 223.8,
+      "yuruyus_saat_medyan": 45.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k01"
+     },
+     {
+      "km2": 15130,
+      "merkez_lat": -15.56,
+      "merkez_lon": 38.11,
+      "A_sahipleri": [
+       "Kuamba",
+       "Angoche",
+       "Montepuez"
+      ],
+      "surtunme_medyan": 1.175,
+      "en_yakin_tohum_km_medyan": 186.8,
+      "yuruyus_saat_medyan": 42.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k03"
+     },
+     {
+      "km2": 15055,
+      "merkez_lat": 64.01,
+      "merkez_lon": 165.01,
+      "A_sahipleri": [
+       "Penjinsk ostrogu",
+       "Koryak toprakları"
+      ],
+      "surtunme_medyan": 1.423,
+      "en_yakin_tohum_km_medyan": 181.1,
+      "yuruyus_saat_medyan": 45.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 14928,
+      "merkez_lat": 58.07,
+      "merkez_lon": 96.79,
+      "A_sahipleri": [
+       "Kansk"
+      ],
+      "surtunme_medyan": 1.161,
+      "en_yakin_tohum_km_medyan": 216.8,
+      "yuruyus_saat_medyan": 48.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 14783,
+      "merkez_lat": -33.76,
+      "merkez_lon": -54.13,
+      "A_sahipleri": [
+       "Montevideo"
+      ],
+      "surtunme_medyan": 1.052,
+      "en_yakin_tohum_km_medyan": 227.1,
+      "yuruyus_saat_medyan": 50.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 14624,
+      "merkez_lat": 44.95,
+      "merkez_lon": -85.11,
+      "A_sahipleri": [
+       "Michilimackinac",
+       "La Baye (Green Bay)",
+       "Chicago (Fort Dearborn)"
+      ],
+      "surtunme_medyan": 1.096,
+      "en_yakin_tohum_km_medyan": 98.9,
+      "yuruyus_saat_medyan": 44.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 14556,
+      "merkez_lat": 68.25,
+      "merkez_lon": 58.18,
+      "A_sahipleri": [
+       "Vaygaç"
+      ],
+      "surtunme_medyan": 1.052,
+      "en_yakin_tohum_km_medyan": 188.8,
+      "yuruyus_saat_medyan": 55.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k23"
+     },
+     {
+      "km2": 14527,
+      "merkez_lat": -0.93,
+      "merkez_lon": -50.8,
+      "A_sahipleri": [
+       "Macapá"
+      ],
+      "surtunme_medyan": 1.008,
+      "en_yakin_tohum_km_medyan": 129.6,
+      "yuruyus_saat_medyan": 45.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 14392,
+      "merkez_lat": -28.37,
+      "merkez_lon": 141.78,
+      "A_sahipleri": [
+       "Thargomindah"
+      ],
+      "surtunme_medyan": 1.041,
+      "en_yakin_tohum_km_medyan": 215.3,
+      "yuruyus_saat_medyan": 45.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 14323,
+      "merkez_lat": 27.46,
+      "merkez_lon": -10.39,
+      "A_sahipleri": [
+       "Ğulmîm (Vâdî Nûn)"
+      ],
+      "surtunme_medyan": 1.11,
+      "en_yakin_tohum_km_medyan": 189.6,
+      "yuruyus_saat_medyan": 44.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 14314,
+      "merkez_lat": 55.8,
+      "merkez_lon": 156.5,
+      "A_sahipleri": [
+       "Kamçatka (İtelmen toprakları)"
+      ],
+      "surtunme_medyan": 1.108,
+      "en_yakin_tohum_km_medyan": 163.5,
+      "yuruyus_saat_medyan": 44.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 14148,
+      "merkez_lat": 58.66,
+      "merkez_lon": 118.79,
+      "A_sahipleri": [
+       "Olyokminsk"
+      ],
+      "surtunme_medyan": 1.338,
+      "en_yakin_tohum_km_medyan": 215.2,
+      "yuruyus_saat_medyan": 50.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 14088,
+      "merkez_lat": 12.04,
+      "merkez_lon": -13.8,
+      "A_sahipleri": [
+       "Labe",
+       "Bissav (Bissau)",
+       "Bulebane (Bundu)"
+      ],
+      "surtunme_medyan": 1.086,
+      "en_yakin_tohum_km_medyan": 178.3,
+      "yuruyus_saat_medyan": 41.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 14019,
+      "merkez_lat": -8.0,
+      "merkez_lon": -54.92,
+      "A_sahipleri": [
+       "Beyan G7.5 B56.5"
+      ],
+      "surtunme_medyan": 1.09,
+      "en_yakin_tohum_km_medyan": 202.9,
+      "yuruyus_saat_medyan": 43.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 13987,
+      "merkez_lat": 12.23,
+      "merkez_lon": -10.95,
+      "A_sahipleri": [
+       "Labe",
+       "Kita",
+       "Kayes"
+      ],
+      "surtunme_medyan": 1.123,
+      "en_yakin_tohum_km_medyan": 169.1,
+      "yuruyus_saat_medyan": 42.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 13976,
+      "merkez_lat": 5.11,
+      "merkez_lon": -60.79,
+      "A_sahipleri": [
+       "Beyan K4.5 B59.5",
+       "Beyan K7.5 B60.5",
+       "Kyk-over-al (Essequibo)"
+      ],
+      "surtunme_medyan": 1.496,
+      "en_yakin_tohum_km_medyan": 175.0,
+      "yuruyus_saat_medyan": 43.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 13976,
+      "merkez_lat": 63.58,
+      "merkez_lon": 159.94,
+      "A_sahipleri": [
+       "Gijiga"
+      ],
+      "surtunme_medyan": 1.465,
+      "en_yakin_tohum_km_medyan": 190.5,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 13947,
+      "merkez_lat": 65.27,
+      "merkez_lon": -118.52,
+      "A_sahipleri": [
+       "Fort Confidence (Büyük Ayı Gölü)"
+      ],
+      "surtunme_medyan": 1.104,
+      "en_yakin_tohum_km_medyan": 145.6,
+      "yuruyus_saat_medyan": 52.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 13919,
+      "merkez_lat": -6.27,
+      "merkez_lon": 30.79,
+      "A_sahipleri": [
+       "Sumbavanga",
+       "Kalemie",
+       "Ucici (Ujiji)"
+      ],
+      "surtunme_medyan": 1.291,
+      "en_yakin_tohum_km_medyan": 166.5,
+      "yuruyus_saat_medyan": 44.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 13904,
+      "merkez_lat": -27.05,
+      "merkez_lon": -56.49,
+      "A_sahipleri": [
+       "Asunción",
+       "Corrientes"
+      ],
+      "surtunme_medyan": 1.04,
+      "en_yakin_tohum_km_medyan": 202.9,
+      "yuruyus_saat_medyan": 43.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 13817,
+      "merkez_lat": -7.63,
+      "merkez_lon": -60.56,
+      "A_sahipleri": [
+       "Beyan G7.5 B62.5"
+      ],
+      "surtunme_medyan": 1.05,
+      "en_yakin_tohum_km_medyan": 222.8,
+      "yuruyus_saat_medyan": 45.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 13390,
+      "merkez_lat": 67.62,
+      "merkez_lon": 172.08,
+      "A_sahipleri": [
+       "Çukotka merkezi"
+      ],
+      "surtunme_medyan": 1.342,
+      "en_yakin_tohum_km_medyan": 195.5,
+      "yuruyus_saat_medyan": 46.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 13360,
+      "merkez_lat": -11.45,
+      "merkez_lon": 33.48,
+      "A_sahipleri": [
+       "Mbande (Ngonde)",
+       "Nkhotakota (Cumbe)",
+       "Mpika"
+      ],
+      "surtunme_medyan": 1.264,
+      "en_yakin_tohum_km_medyan": 161.7,
+      "yuruyus_saat_medyan": 43.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k03"
+     },
+     {
+      "km2": 13302,
+      "merkez_lat": 53.09,
+      "merkez_lon": 142.61,
+      "A_sahipleri": [
+       "Nikolayevsk (Amur ağzı)",
+       "Aleksandrovsk (Kuzey Sahalin)"
+      ],
+      "surtunme_medyan": 1.066,
+      "en_yakin_tohum_km_medyan": 139.7,
+      "yuruyus_saat_medyan": 55.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 13206,
+      "merkez_lat": -22.96,
+      "merkez_lon": -60.65,
+      "A_sahipleri": [
+       "Lengua misyonu (Paraguay Chaco)",
+       "Lacangayé"
+      ],
+      "surtunme_medyan": 1.011,
+      "en_yakin_tohum_km_medyan": 212.9,
+      "yuruyus_saat_medyan": 43.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k01"
+     },
+     {
+      "km2": 13103,
+      "merkez_lat": 62.04,
+      "merkez_lon": 57.27,
+      "A_sahipleri": [
+       "Çerdın"
+      ],
+      "surtunme_medyan": 1.082,
+      "en_yakin_tohum_km_medyan": 203.1,
+      "yuruyus_saat_medyan": 45.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k23"
+     },
+     {
+      "km2": 13011,
+      "merkez_lat": -16.04,
+      "merkez_lon": 144.23,
+      "A_sahipleri": [
+       "Cairns",
+       "Avustralya İç Kesimi (Kuzeydoğu — Cape York)",
+       "Georgetown"
+      ],
+      "surtunme_medyan": 1.108,
+      "en_yakin_tohum_km_medyan": 186.5,
+      "yuruyus_saat_medyan": 42.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 12812,
+      "merkez_lat": 57.51,
+      "merkez_lon": -103.98,
+      "A_sahipleri": [
+       "Brochet (Ren Geyiği Gölü)",
+       "Lac la Ronge",
+       "Pukatawagan"
+      ],
+      "surtunme_medyan": 1.048,
+      "en_yakin_tohum_km_medyan": 163.5,
+      "yuruyus_saat_medyan": 42.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 12629,
+      "merkez_lat": 69.2,
+      "merkez_lon": 61.56,
+      "A_sahipleri": [
+       "Vaygaç"
+      ],
+      "surtunme_medyan": 1.084,
+      "en_yakin_tohum_km_medyan": 131.7,
+      "yuruyus_saat_medyan": 98.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 12600,
+      "merkez_lat": 23.65,
+      "merkez_lon": 50.48,
+      "A_sahipleri": [
+       "Lahsa",
+       "Doha (Katar)",
+       "Katar Yarımadası (iç, dolgu)"
+      ],
+      "surtunme_medyan": 1.027,
+      "en_yakin_tohum_km_medyan": 198.3,
+      "yuruyus_saat_medyan": 43.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 12599,
+      "merkez_lat": 49.72,
+      "merkez_lon": 114.61,
+      "A_sahipleri": [
+       "Kerulen (Çoybalsan)"
+      ],
+      "surtunme_medyan": 1.145,
+      "en_yakin_tohum_km_medyan": 200.2,
+      "yuruyus_saat_medyan": 44.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 12586,
+      "merkez_lat": 68.37,
+      "merkez_lon": -156.24,
+      "A_sahipleri": [
+       "Kobuk (Kuuvaŋmiit)",
+       "Alatna / Allakaket"
+      ],
+      "surtunme_medyan": 1.39,
+      "en_yakin_tohum_km_medyan": 160.3,
+      "yuruyus_saat_medyan": 45.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k20"
+     },
+     {
+      "km2": 12457,
+      "merkez_lat": 39.35,
+      "merkez_lon": -92.22,
+      "A_sahipleri": [
+       "St. Louis",
+       "Westport (Kansas City)",
+       "Springfield (Missouri, Ozark)"
+      ],
+      "surtunme_medyan": 1.045,
+      "en_yakin_tohum_km_medyan": 176.2,
+      "yuruyus_saat_medyan": 43.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 12433,
+      "merkez_lat": 23.9,
+      "merkez_lon": 17.95,
+      "A_sahipleri": [
+       "Vâv el-Kebîr",
+       "Tâzirbû",
+       "Ramletü Zellâf"
+      ],
+      "surtunme_medyan": 1.033,
+      "en_yakin_tohum_km_medyan": 206.2,
+      "yuruyus_saat_medyan": 42.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 12264,
+      "merkez_lat": -7.18,
+      "merkez_lon": -58.24,
+      "A_sahipleri": [
+       "Beyan G7.5 B56.5"
+      ],
+      "surtunme_medyan": 1.092,
+      "en_yakin_tohum_km_medyan": 203.9,
+      "yuruyus_saat_medyan": 47.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 12237,
+      "merkez_lat": 71.32,
+      "merkez_lon": 86.23,
+      "A_sahipleri": [
+       "Dudinka"
+      ],
+      "surtunme_medyan": 1.051,
+      "en_yakin_tohum_km_medyan": 219.3,
+      "yuruyus_saat_medyan": 45.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 12232,
+      "merkez_lat": 27.22,
+      "merkez_lon": 24.53,
+      "A_sahipleri": [
+       "Sîva (Siwa)",
+       "Serîr"
+      ],
+      "surtunme_medyan": 1.023,
+      "en_yakin_tohum_km_medyan": 209.3,
+      "yuruyus_saat_medyan": 43.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 12153,
+      "merkez_lat": -8.8,
+      "merkez_lon": -72.71,
+      "A_sahipleri": [
+       "San Miguel (Pachitea)"
+      ],
+      "surtunme_medyan": 1.045,
+      "en_yakin_tohum_km_medyan": 215.5,
+      "yuruyus_saat_medyan": 44.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 12134,
+      "merkez_lat": 15.76,
+      "merkez_lon": -1.74,
+      "A_sahipleri": [
+       "Timbuktu",
+       "Gao",
+       "Vahiguya (Yatenga)"
+      ],
+      "surtunme_medyan": 1.045,
+      "en_yakin_tohum_km_medyan": 167.7,
+      "yuruyus_saat_medyan": 42.0,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 12125,
+      "merkez_lat": 50.78,
+      "merkez_lon": -56.59,
+      "A_sahipleri": [
+       "Blanc-Sablon",
+       "Kızıl Kızılderili Gölü (Beothuk)"
+      ],
+      "surtunme_medyan": 1.219,
+      "en_yakin_tohum_km_medyan": 94.7,
+      "yuruyus_saat_medyan": 59.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k22"
+     },
+     {
+      "km2": 12117,
+      "merkez_lat": -3.72,
+      "merkez_lon": 28.04,
+      "A_sahipleri": [
+       "Ucici (Ujiji)",
+       "Uvira",
+       "Kindu"
+      ],
+      "surtunme_medyan": 1.447,
+      "en_yakin_tohum_km_medyan": 130.1,
+      "yuruyus_saat_medyan": 41.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 12058,
+      "merkez_lat": -33.17,
+      "merkez_lon": -61.16,
+      "A_sahipleri": [
+       "Santa Fe (Arjantin)"
+      ],
+      "surtunme_medyan": 1.015,
+      "en_yakin_tohum_km_medyan": 202.3,
+      "yuruyus_saat_medyan": 44.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k01"
+     },
+     {
+      "km2": 12025,
+      "merkez_lat": 16.59,
+      "merkez_lon": 10.07,
+      "A_sahipleri": [
+       "Agadez",
+       "Fachi",
+       "Zinder"
+      ],
+      "surtunme_medyan": 1.05,
+      "en_yakin_tohum_km_medyan": 199.1,
+      "yuruyus_saat_medyan": 42.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 11980,
+      "merkez_lat": 65.79,
+      "merkez_lon": -139.93,
+      "A_sahipleri": [
+       "Eagle (Fort Egbert)",
+       "Dawson City",
+       "Old Crow (Vuntut Gwitchin)"
+      ],
+      "surtunme_medyan": 1.406,
+      "en_yakin_tohum_km_medyan": 132.7,
+      "yuruyus_saat_medyan": 43.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k20"
+     },
+     {
+      "km2": 11961,
+      "merkez_lat": 15.68,
+      "merkez_lon": 15.8,
+      "A_sahipleri": [
+       "Mao (Kanem)"
+      ],
+      "surtunme_medyan": 1.018,
+      "en_yakin_tohum_km_medyan": 212.5,
+      "yuruyus_saat_medyan": 43.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 11935,
+      "merkez_lat": -3.55,
+      "merkez_lon": -63.36,
+      "A_sahipleri": [
+       "Tefé (Teffé de Aisuaris)"
+      ],
+      "surtunme_medyan": 1.011,
+      "en_yakin_tohum_km_medyan": 159.3,
+      "yuruyus_saat_medyan": 45.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 11896,
+      "merkez_lat": 50.83,
+      "merkez_lon": 66.81,
+      "A_sahipleri": [
+       "Kazak bozkırı (İşim)"
+      ],
+      "surtunme_medyan": 1.058,
+      "en_yakin_tohum_km_medyan": 209.5,
+      "yuruyus_saat_medyan": 44.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 11815,
+      "merkez_lat": 27.25,
+      "merkez_lon": 116.25,
+      "A_sahipleri": [
+       "Nanchang"
+      ],
+      "surtunme_medyan": 1.408,
+      "en_yakin_tohum_km_medyan": 193.1,
+      "yuruyus_saat_medyan": 43.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k14"
+     },
+     {
+      "km2": 11810,
+      "merkez_lat": 42.61,
+      "merkez_lon": 62.54,
+      "A_sahipleri": [
+       "Hazârasp",
+       "Yeni Ürgenç"
+      ],
+      "surtunme_medyan": 1.039,
+      "en_yakin_tohum_km_medyan": 195.3,
+      "yuruyus_saat_medyan": 44.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k24"
+     },
+     {
+      "km2": 11764,
+      "merkez_lat": -13.78,
+      "merkez_lon": -58.98,
+      "A_sahipleri": [
+       "Vila Bela da Santíssima Trindade"
+      ],
+      "surtunme_medyan": 1.138,
+      "en_yakin_tohum_km_medyan": 188.0,
+      "yuruyus_saat_medyan": 44.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k02"
+     },
+     {
+      "km2": 11758,
+      "merkez_lat": -19.65,
+      "merkez_lon": 121.82,
+      "A_sahipleri": [
+       "Broome",
+       "Marble Bar",
+       "Büyük Kum Çölü 7"
+      ],
+      "surtunme_medyan": 1.064,
+      "en_yakin_tohum_km_medyan": 192.0,
+      "yuruyus_saat_medyan": 42.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k05"
+     },
+     {
+      "km2": 11717,
+      "merkez_lat": 34.33,
+      "merkez_lon": 55.09,
+      "A_sahipleri": [
+       "Erdekân",
+       "Tebbes",
+       "Bistâm"
+      ],
+      "surtunme_medyan": 1.15,
+      "en_yakin_tohum_km_medyan": 175.3,
+      "yuruyus_saat_medyan": 41.9,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 11494,
+      "merkez_lat": 48.42,
+      "merkez_lon": 54.81,
+      "A_sahipleri": [
+       "Aktöbe",
+       "Guryev (Atyrau)",
+       "Emba (Cem)"
+      ],
+      "surtunme_medyan": 1.082,
+      "en_yakin_tohum_km_medyan": 203.0,
+      "yuruyus_saat_medyan": 43.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k23"
+     },
+     {
+      "km2": 11490,
+      "merkez_lat": 21.63,
+      "merkez_lon": 9.59,
+      "A_sahipleri": [
+       "Vâdî Tanezzûft"
+      ],
+      "surtunme_medyan": 1.052,
+      "en_yakin_tohum_km_medyan": 208.1,
+      "yuruyus_saat_medyan": 44.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 11363,
+      "merkez_lat": -1.95,
+      "merkez_lon": -45.13,
+      "A_sahipleri": [
+       "São Luís"
+      ],
+      "surtunme_medyan": 1.038,
+      "en_yakin_tohum_km_medyan": 116.9,
+      "yuruyus_saat_medyan": 49.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 11277,
+      "merkez_lat": 41.63,
+      "merkez_lon": 55.86,
+      "A_sahipleri": [
+       "Uzboy",
+       "Üstyurt platosu (doğu)"
+      ],
+      "surtunme_medyan": 1.064,
+      "en_yakin_tohum_km_medyan": 192.1,
+      "yuruyus_saat_medyan": 42.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k23"
+     },
+     {
+      "km2": 11146,
+      "merkez_lat": 64.08,
+      "merkez_lon": -103.67,
+      "A_sahipleri": [
+       "Beverly Gölü (Thelon, Karayer İnuit)"
+      ],
+      "surtunme_medyan": 1.083,
+      "en_yakin_tohum_km_medyan": 182.2,
+      "yuruyus_saat_medyan": 43.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 11033,
+      "merkez_lat": -5.85,
+      "merkez_lon": -49.84,
+      "A_sahipleri": [
+       "Beyan G7.5 B50.5"
+      ],
+      "surtunme_medyan": 1.099,
+      "en_yakin_tohum_km_medyan": 203.4,
+      "yuruyus_saat_medyan": 45.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k12"
+     },
+     {
+      "km2": 10910,
+      "merkez_lat": 3.9,
+      "merkez_lon": 16.84,
+      "A_sahipleri": [
+       "Bangi (Bangui)",
+       "Yokadouma",
+       "Buar (Bouar)"
+      ],
+      "surtunme_medyan": 1.168,
+      "en_yakin_tohum_km_medyan": 191.4,
+      "yuruyus_saat_medyan": 42.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 10883,
+      "merkez_lat": 60.75,
+      "merkez_lon": 169.46,
+      "A_sahipleri": [
+       "Olyutorsk (Arhangelsk)"
+      ],
+      "surtunme_medyan": 1.456,
+      "en_yakin_tohum_km_medyan": 190.0,
+      "yuruyus_saat_medyan": 57.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k25"
+     },
+     {
+      "km2": 10815,
+      "merkez_lat": 21.8,
+      "merkez_lon": 6.86,
+      "A_sahipleri": [
+       "Tamanrasset"
+      ],
+      "surtunme_medyan": 1.094,
+      "en_yakin_tohum_km_medyan": 189.5,
+      "yuruyus_saat_medyan": 44.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 10656,
+      "merkez_lat": 0.97,
+      "merkez_lon": 23.39,
+      "A_sahipleri": [
+       "Bumba",
+       "Kisangani (Stanleyville)",
+       "Lisala"
+      ],
+      "surtunme_medyan": 1.073,
+      "en_yakin_tohum_km_medyan": 141.0,
+      "yuruyus_saat_medyan": 42.7,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 10471,
+      "merkez_lat": -0.47,
+      "merkez_lon": -72.09,
+      "A_sahipleri": [
+       "Caruru (Vaupés)"
+      ],
+      "surtunme_medyan": 1.07,
+      "en_yakin_tohum_km_medyan": 206.1,
+      "yuruyus_saat_medyan": 43.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k11"
+     },
+     {
+      "km2": 10451,
+      "merkez_lat": 63.72,
+      "merkez_lon": -106.56,
+      "A_sahipleri": [
+       "Fort Reliance (Büyük Köle Gölü)"
+      ],
+      "surtunme_medyan": 1.033,
+      "en_yakin_tohum_km_medyan": 190.8,
+      "yuruyus_saat_medyan": 44.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     },
+     {
+      "km2": 10444,
+      "merkez_lat": -35.67,
+      "merkez_lon": -67.35,
+      "A_sahipleri": [
+       "Beyan G37.5 B68.5",
+       "Beyan G35.5 B69.5",
+       "Beyan G34.5 B65.5"
+      ],
+      "surtunme_medyan": 1.032,
+      "en_yakin_tohum_km_medyan": 187.2,
+      "yuruyus_saat_medyan": 42.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k01"
+     },
+     {
+      "km2": 10357,
+      "merkez_lat": 17.21,
+      "merkez_lon": 14.03,
+      "A_sahipleri": [
+       "Bilma"
+      ],
+      "surtunme_medyan": 1.03,
+      "en_yakin_tohum_km_medyan": 213.4,
+      "yuruyus_saat_medyan": 43.6,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 10316,
+      "merkez_lat": 25.84,
+      "merkez_lon": 24.42,
+      "A_sahipleri": [
+       "Kufra (el-Cûf)"
+      ],
+      "surtunme_medyan": 1.093,
+      "en_yakin_tohum_km_medyan": 218.1,
+      "yuruyus_saat_medyan": 46.2,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 10165,
+      "merkez_lat": 10.78,
+      "merkez_lon": 11.99,
+      "A_sahipleri": [
+       "Yola",
+       "Birni N'gazargamu",
+       "Bauci (Bauchi)"
+      ],
+      "surtunme_medyan": 1.154,
+      "en_yakin_tohum_km_medyan": 182.7,
+      "yuruyus_saat_medyan": 42.8,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 10144,
+      "merkez_lat": 7.15,
+      "merkez_lon": 24.07,
+      "A_sahipleri": [
+       "Bria",
+       "Rağa",
+       "Uanda-Calle"
+      ],
+      "surtunme_medyan": 1.098,
+      "en_yakin_tohum_km_medyan": 193.9,
+      "yuruyus_saat_medyan": 42.3,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 10131,
+      "merkez_lat": -28.18,
+      "merkez_lon": 16.63,
+      "A_sahipleri": [
+       "Bethanie",
+       "Springbok",
+       "Lüderitz"
+      ],
+      "surtunme_medyan": 1.373,
+      "en_yakin_tohum_km_medyan": 171.9,
+      "yuruyus_saat_medyan": 45.1,
+      "sinif": "NOKTASIZ",
+      "karo": "k03"
+     },
+     {
+      "km2": 10107,
+      "merkez_lat": 26.95,
+      "merkez_lon": 19.04,
+      "A_sahipleri": [
+       "Tâzirbû",
+       "Zilla (Zella)",
+       "Merâde"
+      ],
+      "surtunme_medyan": 1.03,
+      "en_yakin_tohum_km_medyan": 202.3,
+      "yuruyus_saat_medyan": 42.5,
+      "sinif": "NOKTASIZ",
+      "karo": "k13"
+     },
+     {
+      "km2": 10083,
+      "merkez_lat": 41.11,
+      "merkez_lon": -113.7,
+      "A_sahipleri": [
+       "Salt Lake City",
+       "Camas Ovası (Kuzey Şoşoni)",
+       "Ruby Vadisi (Batı Şoşoni)"
+      ],
+      "surtunme_medyan": 1.266,
+      "en_yakin_tohum_km_medyan": 153.7,
+      "yuruyus_saat_medyan": 42.4,
+      "sinif": "NOKTASIZ",
+      "karo": "k21"
+     }
+    ]
+   },
+   "DAG": {
+    "kume": 91,
+    "km2": 5080250,
+    "liste": [
+     {
+      "km2": 253976,
+      "merkez_lat": 36.61,
+      "merkez_lon": 71.87,
+      "A_sahipleri": [
+       "Külâb (Kulob)",
+       "Srinagar (Keşmir)",
+       "Oş"
+      ],
+      "surtunme_medyan": 2.748,
+      "en_yakin_tohum_km_medyan": 157.7,
+      "yuruyus_saat_medyan": 57.5,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 245506,
+      "merkez_lat": 3.34,
+      "merkez_lon": -75.44,
+      "A_sahipleri": [
+       "Hunza (Tunja)",
+       "Popayán",
+       "Bacatá (Bogotá)"
+      ],
+      "surtunme_medyan": 1.504,
+      "en_yakin_tohum_km_medyan": 160.5,
+      "yuruyus_saat_medyan": 53.3,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 207573,
+      "merkez_lat": -12.81,
+      "merkez_lon": -72.74,
+      "A_sahipleri": [
+       "Cusco (Qosqo)",
+       "Vilcashuamán",
+       "Vilcabamba (Espíritu Pampa)"
+      ],
+      "surtunme_medyan": 1.828,
+      "en_yakin_tohum_km_medyan": 146.5,
+      "yuruyus_saat_medyan": 51.1,
+      "sinif": "DAG",
+      "karo": "k01"
+     },
+     {
+      "km2": 190084,
+      "merkez_lat": 48.93,
+      "merkez_lon": -116.38,
+      "A_sahipleri": [
+       "Fort Colvile",
+       "Jasper House",
+       "Lapwai (Nez Perce)"
+      ],
+      "surtunme_medyan": 1.962,
+      "en_yakin_tohum_km_medyan": 147.2,
+      "yuruyus_saat_medyan": 47.8,
+      "sinif": "DAG",
+      "karo": "k21"
+     },
+     {
+      "km2": 161373,
+      "merkez_lat": -47.23,
+      "merkez_lon": -71.85,
+      "A_sahipleri": [
+       "Beyan G49.5 B72.5",
+       "Beyan G46.5 B71.5",
+       "Beyan G44.5 B72.5"
+      ],
+      "surtunme_medyan": 1.713,
+      "en_yakin_tohum_km_medyan": 145.1,
+      "yuruyus_saat_medyan": 46.8,
+      "sinif": "DAG",
+      "karo": "k01"
+     },
+     {
+      "km2": 145889,
+      "merkez_lat": 26.89,
+      "merkez_lon": 97.74,
+      "A_sahipleri": [
+       "Dali",
+       "Sibsâgar (Rangpûr)",
+       "Myitkyina"
+      ],
+      "surtunme_medyan": 2.535,
+      "en_yakin_tohum_km_medyan": 160.4,
+      "yuruyus_saat_medyan": 58.3,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 145083,
+      "merkez_lat": 26.78,
+      "merkez_lon": 114.35,
+      "A_sahipleri": [
+       "Guilin",
+       "Şaoguan",
+       "Fuzhou"
+      ],
+      "surtunme_medyan": 1.527,
+      "en_yakin_tohum_km_medyan": 172.5,
+      "yuruyus_saat_medyan": 46.4,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 143375,
+      "merkez_lat": 26.65,
+      "merkez_lon": -105.28,
+      "A_sahipleri": [
+       "Durango (Victoria de Durango)",
+       "Álamos",
+       "Múzquiz (Santa Rosa)"
+      ],
+      "surtunme_medyan": 1.628,
+      "en_yakin_tohum_km_medyan": 157.9,
+      "yuruyus_saat_medyan": 45.1,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 139150,
+      "merkez_lat": 50.11,
+      "merkez_lon": 102.14,
+      "A_sahipleri": [
+       "Uliastay",
+       "Mörön (Hövsgöl)",
+       "Bulgan"
+      ],
+      "surtunme_medyan": 1.54,
+      "en_yakin_tohum_km_medyan": 166.0,
+      "yuruyus_saat_medyan": 48.8,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 138676,
+      "merkez_lat": 32.56,
+      "merkez_lon": 78.32,
+      "A_sahipleri": [
+       "Leh (Ladakh)",
+       "Mîrat (Meerut)",
+       "Sirhind"
+      ],
+      "surtunme_medyan": 2.273,
+      "en_yakin_tohum_km_medyan": 154.6,
+      "yuruyus_saat_medyan": 58.8,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 119681,
+      "merkez_lat": 30.55,
+      "merkez_lon": 90.17,
+      "A_sahipleri": [
+       "Lhasa",
+       "Şigatse",
+       "Gyantse"
+      ],
+      "surtunme_medyan": 1.658,
+      "en_yakin_tohum_km_medyan": 169.3,
+      "yuruyus_saat_medyan": 63.0,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 113245,
+      "merkez_lat": 37.17,
+      "merkez_lon": 87.47,
+      "A_sahipleri": [
+       "Çarklık (Ruoqiang)",
+       "Çerçen (Qiemo)"
+      ],
+      "surtunme_medyan": 1.576,
+      "en_yakin_tohum_km_medyan": 192.8,
+      "yuruyus_saat_medyan": 63.8,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 105502,
+      "merkez_lat": 22.21,
+      "merkez_lon": 100.59,
+      "A_sahipleri": [
+       "Kengtung",
+       "Muang Sing",
+       "Bhamo"
+      ],
+      "surtunme_medyan": 1.82,
+      "en_yakin_tohum_km_medyan": 162.0,
+      "yuruyus_saat_medyan": 48.8,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 99074,
+      "merkez_lat": 35.26,
+      "merkez_lon": 102.66,
+      "A_sahipleri": [
+       "Lanzhou",
+       "Xining"
+      ],
+      "surtunme_medyan": 1.701,
+      "en_yakin_tohum_km_medyan": 174.8,
+      "yuruyus_saat_medyan": 56.8,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 97853,
+      "merkez_lat": 31.7,
+      "merkez_lon": 97.35,
+      "A_sahipleri": [
+       "Çamdo (Chamdo)"
+      ],
+      "surtunme_medyan": 1.877,
+      "en_yakin_tohum_km_medyan": 156.9,
+      "yuruyus_saat_medyan": 62.6,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 97396,
+      "merkez_lat": 49.92,
+      "merkez_lon": 86.61,
+      "A_sahipleri": [
+       "Altay (Şara Sume)",
+       "Zaysan",
+       "Biysk"
+      ],
+      "surtunme_medyan": 1.812,
+      "en_yakin_tohum_km_medyan": 169.5,
+      "yuruyus_saat_medyan": 52.4,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 86977,
+      "merkez_lat": 38.12,
+      "merkez_lon": -108.74,
+      "A_sahipleri": [
+       "Uncompahgre (Ute)",
+       "Parowan",
+       "Fort Robidoux (Uinta Havzası)"
+      ],
+      "surtunme_medyan": 1.698,
+      "en_yakin_tohum_km_medyan": 149.2,
+      "yuruyus_saat_medyan": 45.7,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 83382,
+      "merkez_lat": 32.06,
+      "merkez_lon": 109.46,
+      "A_sahipleri": [
+       "Xi'an (Chang'an)",
+       "Jingzhou",
+       "Xiangyang"
+      ],
+      "surtunme_medyan": 1.807,
+      "en_yakin_tohum_km_medyan": 171.6,
+      "yuruyus_saat_medyan": 51.5,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 77201,
+      "merkez_lat": -25.83,
+      "merkez_lon": -67.18,
+      "A_sahipleri": [
+       "Quilmes (Calchaquí Vadisi — Diaguita)",
+       "Pucará de Tilcara"
+      ],
+      "surtunme_medyan": 2.249,
+      "en_yakin_tohum_km_medyan": 165.1,
+      "yuruyus_saat_medyan": 59.1,
+      "sinif": "DAG",
+      "karo": "k01"
+     },
+     {
+      "km2": 69803,
+      "merkez_lat": 35.62,
+      "merkez_lon": 81.34,
+      "A_sahipleri": [
+       "Keriya (Yutian)",
+       "Hotan"
+      ],
+      "surtunme_medyan": 1.806,
+      "en_yakin_tohum_km_medyan": 170.4,
+      "yuruyus_saat_medyan": 61.5,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 69116,
+      "merkez_lat": -5.28,
+      "merkez_lon": 141.98,
+      "A_sahipleri": [
+       "Yeni Gine Merkezî Yaylaları 4",
+       "Yeni Gine İç Yaylaları (Merkez — Mount Hagen)",
+       "Yeni Gine İç Kesimi (Kuzey — Sepik Havzası)"
+      ],
+      "surtunme_medyan": 1.858,
+      "en_yakin_tohum_km_medyan": 155.9,
+      "yuruyus_saat_medyan": 46.2,
+      "sinif": "DAG",
+      "karo": "k15"
+     },
+     {
+      "km2": 68421,
+      "merkez_lat": 55.3,
+      "merkez_lon": -128.89,
+      "A_sahipleri": [
+       "Lax Kw'alaams (Fort Simpson BC)",
+       "Bella Bella (Fort McLoughlin)",
+       "Fort Connolly (Bear Lake)"
+      ],
+      "surtunme_medyan": 1.979,
+      "en_yakin_tohum_km_medyan": 130.5,
+      "yuruyus_saat_medyan": 47.8,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 68327,
+      "merkez_lat": 28.8,
+      "merkez_lon": 85.03,
+      "A_sahipleri": [
+       "Katmandu",
+       "Gorakhpûr",
+       "Feyzâbâd (Ayodhya)"
+      ],
+      "surtunme_medyan": 2.308,
+      "en_yakin_tohum_km_medyan": 169.6,
+      "yuruyus_saat_medyan": 68.6,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 64958,
+      "merkez_lat": 62.33,
+      "merkez_lon": -149.55,
+      "A_sahipleri": [
+       "Anchorage",
+       "Kenai (Nikolayevskiy Redut)",
+       "Fairbanks"
+      ],
+      "surtunme_medyan": 1.811,
+      "en_yakin_tohum_km_medyan": 146.8,
+      "yuruyus_saat_medyan": 46.5,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 64228,
+      "merkez_lat": 27.29,
+      "merkez_lon": 90.68,
+      "A_sahipleri": [
+       "Gauhâtî (Guwahati)",
+       "Gyantse",
+       "Pandua (Hazret Pandua)"
+      ],
+      "surtunme_medyan": 2.727,
+      "en_yakin_tohum_km_medyan": 161.4,
+      "yuruyus_saat_medyan": 57.8,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 63675,
+      "merkez_lat": -31.66,
+      "merkez_lon": -69.54,
+      "A_sahipleri": [
+       "Mendoza",
+       "Santiago (Şili)"
+      ],
+      "surtunme_medyan": 2.215,
+      "en_yakin_tohum_km_medyan": 196.0,
+      "yuruyus_saat_medyan": 53.8,
+      "sinif": "DAG",
+      "karo": "k01"
+     },
+     {
+      "km2": 63555,
+      "merkez_lat": 44.05,
+      "merkez_lon": 83.31,
+      "A_sahipleri": [
+       "Kuça (Kuqa)",
+       "Gulca (Yining)",
+       "Manas (Cungarya)"
+      ],
+      "surtunme_medyan": 2.299,
+      "en_yakin_tohum_km_medyan": 147.5,
+      "yuruyus_saat_medyan": 47.7,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 63247,
+      "merkez_lat": 38.64,
+      "merkez_lon": -115.94,
+      "A_sahipleri": [
+       "Ruby Vadisi (Batı Şoşoni)",
+       "Bishop (Owens Vadisi Payutları)",
+       "Timbisha (Ölüm Vadisi)"
+      ],
+      "surtunme_medyan": 1.705,
+      "en_yakin_tohum_km_medyan": 163.5,
+      "yuruyus_saat_medyan": 46.9,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 61524,
+      "merkez_lat": -8.04,
+      "merkez_lon": -77.51,
+      "A_sahipleri": [
+       "Cajamarca",
+       "Huánuco Pampa (Huánuco Viejo)",
+       "Trujillo (Peru)"
+      ],
+      "surtunme_medyan": 2.951,
+      "en_yakin_tohum_km_medyan": 136.5,
+      "yuruyus_saat_medyan": 51.0,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 59747,
+      "merkez_lat": 29.5,
+      "merkez_lon": 107.83,
+      "A_sahipleri": [
+       "Çongqing (Chongqing)"
+      ],
+      "surtunme_medyan": 1.687,
+      "en_yakin_tohum_km_medyan": 176.7,
+      "yuruyus_saat_medyan": 56.9,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 55927,
+      "merkez_lat": 35.58,
+      "merkez_lon": -118.01,
+      "A_sahipleri": [
+       "Bishop (Owens Vadisi Payutları)",
+       "Timbisha (Ölüm Vadisi)",
+       "Fort Mohave (Kolorado geçidi)"
+      ],
+      "surtunme_medyan": 1.679,
+      "en_yakin_tohum_km_medyan": 141.8,
+      "yuruyus_saat_medyan": 46.4,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 54869,
+      "merkez_lat": 47.64,
+      "merkez_lon": 91.87,
+      "A_sahipleri": [
+       "Kobdo (Hovd)"
+      ],
+      "surtunme_medyan": 1.703,
+      "en_yakin_tohum_km_medyan": 168.9,
+      "yuruyus_saat_medyan": 50.1,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 53471,
+      "merkez_lat": 50.59,
+      "merkez_lon": -124.63,
+      "A_sahipleri": [
+       "Yuquot (Nootka Sound)",
+       "Fort Langley",
+       "Tsilhqot'in (Çilkotin platosu)"
+      ],
+      "surtunme_medyan": 2.326,
+      "en_yakin_tohum_km_medyan": 135.7,
+      "yuruyus_saat_medyan": 49.1,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 53320,
+      "merkez_lat": 25.29,
+      "merkez_lon": 103.22,
+      "A_sahipleri": [
+       "Kunming"
+      ],
+      "surtunme_medyan": 1.859,
+      "en_yakin_tohum_km_medyan": 171.1,
+      "yuruyus_saat_medyan": 52.3,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 52433,
+      "merkez_lat": -7.64,
+      "merkez_lon": 147.21,
+      "A_sahipleri": [
+       "Port Moresby",
+       "Finschhafen",
+       "Madang"
+      ],
+      "surtunme_medyan": 2.514,
+      "en_yakin_tohum_km_medyan": 129.6,
+      "yuruyus_saat_medyan": 51.5,
+      "sinif": "DAG",
+      "karo": "k15"
+     },
+     {
+      "km2": 51964,
+      "merkez_lat": -36.65,
+      "merkez_lon": -70.9,
+      "A_sahipleri": [
+       "Beyan G35.5 B69.5",
+       "Concepción (Şili)",
+       "Beyan G39.5 B70.5"
+      ],
+      "surtunme_medyan": 1.964,
+      "en_yakin_tohum_km_medyan": 154.6,
+      "yuruyus_saat_medyan": 48.9,
+      "sinif": "DAG",
+      "karo": "k01"
+     },
+     {
+      "km2": 50702,
+      "merkez_lat": -3.52,
+      "merkez_lon": -79.08,
+      "A_sahipleri": [
+       "Tumbes",
+       "Guayaquil (Santiago de Guayaquil)",
+       "Borja (Maynas)"
+      ],
+      "surtunme_medyan": 2.664,
+      "en_yakin_tohum_km_medyan": 137.0,
+      "yuruyus_saat_medyan": 47.4,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 50663,
+      "merkez_lat": 60.89,
+      "merkez_lon": -140.58,
+      "A_sahipleri": [
+       "Yakutat (Novorossiysk)",
+       "Batzulnetas (Ahtna)",
+       "Fort Selkirk"
+      ],
+      "surtunme_medyan": 2.266,
+      "en_yakin_tohum_km_medyan": 145.9,
+      "yuruyus_saat_medyan": 50.8,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 50212,
+      "merkez_lat": 14.35,
+      "merkez_lon": -88.1,
+      "A_sahipleri": [
+       "Omoa (San Fernando de Omoa)",
+       "Antigua Guatemala (Santiago de los Caballeros)",
+       "Trujillo (Honduras)"
+      ],
+      "surtunme_medyan": 1.924,
+      "en_yakin_tohum_km_medyan": 165.1,
+      "yuruyus_saat_medyan": 51.1,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 48431,
+      "merkez_lat": 45.1,
+      "merkez_lon": 96.0,
+      "A_sahipleri": [
+       "Gobi-Altay (Yösönbulag)"
+      ],
+      "surtunme_medyan": 1.578,
+      "en_yakin_tohum_km_medyan": 173.6,
+      "yuruyus_saat_medyan": 55.6,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 47467,
+      "merkez_lat": 54.83,
+      "merkez_lon": -121.21,
+      "A_sahipleri": [
+       "Fort McLeod (Britanya Kolumbiyası)",
+       "Fort George (Prince George)",
+       "Fort Dunvegan"
+      ],
+      "surtunme_medyan": 1.517,
+      "en_yakin_tohum_km_medyan": 150.6,
+      "yuruyus_saat_medyan": 48.5,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 44249,
+      "merkez_lat": 30.91,
+      "merkez_lon": 103.05,
+      "A_sahipleri": [
+       "Çengdu (Chengdu)"
+      ],
+      "surtunme_medyan": 2.825,
+      "en_yakin_tohum_km_medyan": 177.4,
+      "yuruyus_saat_medyan": 55.2,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 44036,
+      "merkez_lat": 51.91,
+      "merkez_lon": 92.36,
+      "A_sahipleri": [
+       "Sayansk ostrogu",
+       "Abakan ostrogu"
+      ],
+      "surtunme_medyan": 1.805,
+      "en_yakin_tohum_km_medyan": 165.6,
+      "yuruyus_saat_medyan": 53.5,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 43990,
+      "merkez_lat": 26.29,
+      "merkez_lon": 106.09,
+      "A_sahipleri": [
+       "Guiyang"
+      ],
+      "surtunme_medyan": 1.598,
+      "en_yakin_tohum_km_medyan": 180.4,
+      "yuruyus_saat_medyan": 47.2,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 39388,
+      "merkez_lat": 65.71,
+      "merkez_lon": 140.9,
+      "A_sahipleri": [
+       "Podşiversk",
+       "Zaşiversk"
+      ],
+      "surtunme_medyan": 1.781,
+      "en_yakin_tohum_km_medyan": 174.1,
+      "yuruyus_saat_medyan": 53.6,
+      "sinif": "DAG",
+      "karo": "k25"
+     },
+     {
+      "km2": 39368,
+      "merkez_lat": 42.65,
+      "merkez_lon": -123.34,
+      "A_sahipleri": [
+       "Fort Klamath / Klamath Bataklığı",
+       "Wintu (Yukarı Sacramento)",
+       "Wayám (Celilo Şelâleleri)"
+      ],
+      "surtunme_medyan": 1.643,
+      "en_yakin_tohum_km_medyan": 156.8,
+      "yuruyus_saat_medyan": 45.7,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 38130,
+      "merkez_lat": 38.47,
+      "merkez_lon": 97.43,
+      "A_sahipleri": [
+       "Ciyayuguan (Jiayuguan)"
+      ],
+      "surtunme_medyan": 1.772,
+      "en_yakin_tohum_km_medyan": 174.9,
+      "yuruyus_saat_medyan": 61.4,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 37758,
+      "merkez_lat": 34.1,
+      "merkez_lon": 63.61,
+      "A_sahipleri": [
+       "Herat"
+      ],
+      "surtunme_medyan": 1.784,
+      "en_yakin_tohum_km_medyan": 174.6,
+      "yuruyus_saat_medyan": 51.9,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 33768,
+      "merkez_lat": 18.29,
+      "merkez_lon": -101.26,
+      "A_sahipleri": [
+       "Pátzcuaro",
+       "Chilpancingo (Guerrero)",
+       "Acapulco"
+      ],
+      "surtunme_medyan": 1.983,
+      "en_yakin_tohum_km_medyan": 139.5,
+      "yuruyus_saat_medyan": 47.8,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 33296,
+      "merkez_lat": 24.05,
+      "merkez_lon": 106.47,
+      "A_sahipleri": [
+       "Cao Bằng",
+       "Nanning"
+      ],
+      "surtunme_medyan": 1.541,
+      "en_yakin_tohum_km_medyan": 177.8,
+      "yuruyus_saat_medyan": 47.5,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 32894,
+      "merkez_lat": 42.62,
+      "merkez_lon": 79.73,
+      "A_sahipleri": [
+       "Uçturfan (Uç Turfan)",
+       "Issık Göl havzası",
+       "Gulca (Yining)"
+      ],
+      "surtunme_medyan": 2.358,
+      "en_yakin_tohum_km_medyan": 130.1,
+      "yuruyus_saat_medyan": 48.5,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 30765,
+      "merkez_lat": 56.13,
+      "merkez_lon": 133.28,
+      "A_sahipleri": [
+       "Udskoy ostrogu",
+       "Nelkan"
+      ],
+      "surtunme_medyan": 1.547,
+      "en_yakin_tohum_km_medyan": 173.3,
+      "yuruyus_saat_medyan": 47.6,
+      "sinif": "DAG",
+      "karo": "k25"
+     },
+     {
+      "km2": 30462,
+      "merkez_lat": 53.21,
+      "merkez_lon": 98.28,
+      "A_sahipleri": [
+       "Nijneudinsk"
+      ],
+      "surtunme_medyan": 1.745,
+      "en_yakin_tohum_km_medyan": 205.6,
+      "yuruyus_saat_medyan": 55.5,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 29310,
+      "merkez_lat": 21.23,
+      "merkez_lon": -100.47,
+      "A_sahipleri": [
+       "Tula (Tamaulipas)",
+       "Tzintzuntzan",
+       "Tlacopan (Tacuba)"
+      ],
+      "surtunme_medyan": 1.665,
+      "en_yakin_tohum_km_medyan": 174.0,
+      "yuruyus_saat_medyan": 45.6,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 27602,
+      "merkez_lat": 19.11,
+      "merkez_lon": -71.71,
+      "A_sahipleri": [
+       "Jaragua (Taino cacicazgosu)",
+       "Santo Domingo"
+      ],
+      "surtunme_medyan": 1.804,
+      "en_yakin_tohum_km_medyan": 136.5,
+      "yuruyus_saat_medyan": 48.8,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 27509,
+      "merkez_lat": -41.79,
+      "merkez_lon": 172.77,
+      "A_sahipleri": [
+       "Wellington",
+       "Christchurch",
+       "Te Waipounamu Māori Yerleşimi (Güney Ada içi)"
+      ],
+      "surtunme_medyan": 1.859,
+      "en_yakin_tohum_km_medyan": 150.4,
+      "yuruyus_saat_medyan": 56.5,
+      "sinif": "DAG",
+      "karo": "k05"
+     },
+     {
+      "km2": 26325,
+      "merkez_lat": 60.82,
+      "merkez_lon": 143.67,
+      "A_sahipleri": [
+       "Ohotsk"
+      ],
+      "surtunme_medyan": 1.601,
+      "en_yakin_tohum_km_medyan": 190.6,
+      "yuruyus_saat_medyan": 48.6,
+      "sinif": "DAG",
+      "karo": "k25"
+     },
+     {
+      "km2": 25593,
+      "merkez_lat": 48.9,
+      "merkez_lon": 138.62,
+      "A_sahipleri": [
+       "İmperator limanı"
+      ],
+      "surtunme_medyan": 1.581,
+      "en_yakin_tohum_km_medyan": 172.8,
+      "yuruyus_saat_medyan": 47.6,
+      "sinif": "DAG",
+      "karo": "k25"
+     },
+     {
+      "km2": 25046,
+      "merkez_lat": 23.1,
+      "merkez_lon": 93.38,
+      "A_sahipleri": [
+       "İmphâl (Manipûr)",
+       "Çatgam (Chittagong)",
+       "Pagan"
+      ],
+      "surtunme_medyan": 1.887,
+      "en_yakin_tohum_km_medyan": 166.6,
+      "yuruyus_saat_medyan": 44.2,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 24533,
+      "merkez_lat": 35.6,
+      "merkez_lon": 65.78,
+      "A_sahipleri": [
+       "Belh"
+      ],
+      "surtunme_medyan": 1.957,
+      "en_yakin_tohum_km_medyan": 183.5,
+      "yuruyus_saat_medyan": 52.4,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 23298,
+      "merkez_lat": 41.81,
+      "merkez_lon": 127.77,
+      "A_sahipleri": [
+       "Hamhung",
+       "Kyongsong (Gyeongseong)",
+       "Vladivostok"
+      ],
+      "surtunme_medyan": 1.552,
+      "en_yakin_tohum_km_medyan": 151.2,
+      "yuruyus_saat_medyan": 45.3,
+      "sinif": "DAG",
+      "karo": "k25"
+     },
+     {
+      "km2": 21832,
+      "merkez_lat": 1.32,
+      "merkez_lon": 115.59,
+      "A_sahipleri": [
+       "Tenggarong (Kutai)",
+       "Berau"
+      ],
+      "surtunme_medyan": 1.742,
+      "en_yakin_tohum_km_medyan": 187.8,
+      "yuruyus_saat_medyan": 47.8,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 21108,
+      "merkez_lat": -15.78,
+      "merkez_lon": -72.74,
+      "A_sahipleri": [
+       "Arequipa"
+      ],
+      "surtunme_medyan": 2.725,
+      "en_yakin_tohum_km_medyan": 155.7,
+      "yuruyus_saat_medyan": 62.3,
+      "sinif": "DAG",
+      "karo": "k01"
+     },
+     {
+      "km2": 21072,
+      "merkez_lat": 28.5,
+      "merkez_lon": 66.72,
+      "A_sahipleri": [
+       "Şikârpûr"
+      ],
+      "surtunme_medyan": 1.612,
+      "en_yakin_tohum_km_medyan": 207.9,
+      "yuruyus_saat_medyan": 51.5,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 20960,
+      "merkez_lat": 47.73,
+      "merkez_lon": -120.62,
+      "A_sahipleri": [
+       "Wayám (Celilo Şelâleleri)",
+       "Seattle (Duwamish)",
+       "Fort Kamloops"
+      ],
+      "surtunme_medyan": 1.955,
+      "en_yakin_tohum_km_medyan": 141.1,
+      "yuruyus_saat_medyan": 44.9,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 20490,
+      "merkez_lat": 8.06,
+      "merkez_lon": -81.05,
+      "A_sahipleri": [
+       "Panamá (Panama City)"
+      ],
+      "surtunme_medyan": 1.522,
+      "en_yakin_tohum_km_medyan": 205.4,
+      "yuruyus_saat_medyan": 54.7,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 20427,
+      "merkez_lat": 33.64,
+      "merkez_lon": -110.26,
+      "A_sahipleri": [
+       "Tucson (San Agustín del Tucsón)",
+       "Halona:wa (Zuni)",
+       "Prescott / Yavapai"
+      ],
+      "surtunme_medyan": 1.698,
+      "en_yakin_tohum_km_medyan": 154.9,
+      "yuruyus_saat_medyan": 45.3,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 20292,
+      "merkez_lat": 60.25,
+      "merkez_lon": -131.08,
+      "A_sahipleri": [
+       "Dease Lake",
+       "Pelly Banks / Ross River",
+       "Atlin"
+      ],
+      "surtunme_medyan": 1.552,
+      "en_yakin_tohum_km_medyan": 153.6,
+      "yuruyus_saat_medyan": 45.0,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 19795,
+      "merkez_lat": 61.5,
+      "merkez_lon": -126.64,
+      "A_sahipleri": [
+       "Fort Halkett (Liard)",
+       "Fort Liard"
+      ],
+      "surtunme_medyan": 1.84,
+      "en_yakin_tohum_km_medyan": 184.0,
+      "yuruyus_saat_medyan": 49.0,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 19541,
+      "merkez_lat": -3.54,
+      "merkez_lon": 121.26,
+      "A_sahipleri": [
+       "Watampone (Bone)",
+       "Sengkang (Wajo)"
+      ],
+      "surtunme_medyan": 1.907,
+      "en_yakin_tohum_km_medyan": 170.7,
+      "yuruyus_saat_medyan": 107.0,
+      "sinif": "DAG",
+      "karo": "k15"
+     },
+     {
+      "km2": 19486,
+      "merkez_lat": -44.84,
+      "merkez_lon": 168.9,
+      "A_sahipleri": [
+       "Te Waipounamu Māori Yerleşimi (Güney Ada içi)"
+      ],
+      "surtunme_medyan": 2.22,
+      "en_yakin_tohum_km_medyan": 167.2,
+      "yuruyus_saat_medyan": 54.8,
+      "sinif": "DAG",
+      "karo": "k05"
+     },
+     {
+      "km2": 19111,
+      "merkez_lat": 63.4,
+      "merkez_lon": -135.36,
+      "A_sahipleri": [
+       "Tetlit Gwich'in (Peel havzası)",
+       "Fort Selkirk",
+       "Whitehorse"
+      ],
+      "surtunme_medyan": 1.705,
+      "en_yakin_tohum_km_medyan": 132.6,
+      "yuruyus_saat_medyan": 45.1,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 18937,
+      "merkez_lat": 35.62,
+      "merkez_lon": 111.43,
+      "A_sahipleri": [
+       "Luoyang",
+       "Tongguan",
+       "Yan'an"
+      ],
+      "surtunme_medyan": 1.555,
+      "en_yakin_tohum_km_medyan": 118.9,
+      "yuruyus_saat_medyan": 44.6,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 18791,
+      "merkez_lat": 64.5,
+      "merkez_lon": -16.28,
+      "A_sahipleri": [
+       "Akureyri"
+      ],
+      "surtunme_medyan": 1.579,
+      "en_yakin_tohum_km_medyan": 174.5,
+      "yuruyus_saat_medyan": 47.5,
+      "sinif": "DAG",
+      "karo": "k22"
+     },
+     {
+      "km2": 17821,
+      "merkez_lat": -17.45,
+      "merkez_lon": -70.47,
+      "A_sahipleri": [
+       "Arequipa",
+       "Chucuito"
+      ],
+      "surtunme_medyan": 2.27,
+      "en_yakin_tohum_km_medyan": 157.4,
+      "yuruyus_saat_medyan": 51.7,
+      "sinif": "DAG",
+      "karo": "k01"
+     },
+     {
+      "km2": 16848,
+      "merkez_lat": 16.39,
+      "merkez_lon": -93.5,
+      "A_sahipleri": [
+       "San Cristóbal de las Casas (Ciudad Real)",
+       "Zaculeu",
+       "Tehuantepec"
+      ],
+      "surtunme_medyan": 1.636,
+      "en_yakin_tohum_km_medyan": 134.5,
+      "yuruyus_saat_medyan": 43.7,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 16586,
+      "merkez_lat": 43.82,
+      "merkez_lon": 133.84,
+      "A_sahipleri": [
+       "Vladivostok"
+      ],
+      "surtunme_medyan": 1.538,
+      "en_yakin_tohum_km_medyan": 186.1,
+      "yuruyus_saat_medyan": 49.7,
+      "sinif": "DAG",
+      "karo": "k25"
+     },
+     {
+      "km2": 15050,
+      "merkez_lat": 47.27,
+      "merkez_lon": 13.54,
+      "A_sahipleri": [
+       "Udine",
+       "Graz",
+       "Ljubljana"
+      ],
+      "surtunme_medyan": 2.318,
+      "en_yakin_tohum_km_medyan": 115.7,
+      "yuruyus_saat_medyan": 45.7,
+      "sinif": "DAG",
+      "karo": "k23"
+     },
+     {
+      "km2": 14081,
+      "merkez_lat": 68.78,
+      "merkez_lon": 127.51,
+      "A_sahipleri": [
+       "Bulun"
+      ],
+      "surtunme_medyan": 1.518,
+      "en_yakin_tohum_km_medyan": 210.7,
+      "yuruyus_saat_medyan": 51.2,
+      "sinif": "DAG",
+      "karo": "k25"
+     },
+     {
+      "km2": 13873,
+      "merkez_lat": 66.09,
+      "merkez_lon": -63.27,
+      "A_sahipleri": [
+       "Qikiqtarjuaq (Broughton Adası)",
+       "Panniqtuuq (Pangnirtung / Kekerten)"
+      ],
+      "surtunme_medyan": 1.787,
+      "en_yakin_tohum_km_medyan": 115.2,
+      "yuruyus_saat_medyan": 51.8,
+      "sinif": "DAG",
+      "karo": "k21"
+     },
+     {
+      "km2": 13170,
+      "merkez_lat": 48.69,
+      "merkez_lon": 100.39,
+      "A_sahipleri": [
+       "Mörön (Hövsgöl)"
+      ],
+      "surtunme_medyan": 1.606,
+      "en_yakin_tohum_km_medyan": 120.3,
+      "yuruyus_saat_medyan": 49.5,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 13117,
+      "merkez_lat": 10.03,
+      "merkez_lon": 123.02,
+      "A_sahipleri": [
+       "Iloilo",
+       "Cebu"
+      ],
+      "surtunme_medyan": 1.742,
+      "en_yakin_tohum_km_medyan": 89.5,
+      "yuruyus_saat_medyan": 72.7,
+      "sinif": "DAG",
+      "karo": "k15"
+     },
+     {
+      "km2": 13031,
+      "merkez_lat": 69.88,
+      "merkez_lon": -25.08,
+      "A_sahipleri": [
+       "Doğu Grönland"
+      ],
+      "surtunme_medyan": 2.071,
+      "en_yakin_tohum_km_medyan": 141.4,
+      "yuruyus_saat_medyan": 238.1,
+      "sinif": "DAG",
+      "karo": "k22"
+     },
+     {
+      "km2": 12671,
+      "merkez_lat": -54.71,
+      "merkez_lon": -70.0,
+      "A_sahipleri": [
+       "Fuerte Bulnes",
+       "Beyan G54.5 B67.5",
+       "Porvenir"
+      ],
+      "surtunme_medyan": 1.783,
+      "en_yakin_tohum_km_medyan": 119.0,
+      "yuruyus_saat_medyan": 70.3,
+      "sinif": "DAG",
+      "karo": "k01"
+     },
+     {
+      "km2": 12273,
+      "merkez_lat": 10.57,
+      "merkez_lon": -73.83,
+      "A_sahipleri": [
+       "Cartagena de Indias"
+      ],
+      "surtunme_medyan": 2.589,
+      "en_yakin_tohum_km_medyan": 188.0,
+      "yuruyus_saat_medyan": 54.5,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 11731,
+      "merkez_lat": 57.92,
+      "merkez_lon": -133.79,
+      "A_sahipleri": [
+       "Atlin",
+       "Novoarkhangelsk (Sitka)",
+       "Wrangell (Redut Sv. Dionisiy)"
+      ],
+      "surtunme_medyan": 2.084,
+      "en_yakin_tohum_km_medyan": 120.4,
+      "yuruyus_saat_medyan": 49.7,
+      "sinif": "DAG",
+      "karo": "k20"
+     },
+     {
+      "km2": 11538,
+      "merkez_lat": 79.11,
+      "merkez_lon": 13.36,
+      "A_sahipleri": [
+       "Svalbard"
+      ],
+      "surtunme_medyan": 1.589,
+      "en_yakin_tohum_km_medyan": 114.1,
+      "yuruyus_saat_medyan": 57.7,
+      "sinif": "DAG",
+      "karo": "k23"
+     },
+     {
+      "km2": 11009,
+      "merkez_lat": 30.16,
+      "merkez_lon": -115.06,
+      "A_sahipleri": [
+       "Misión San Vicente Ferrer",
+       "Misión San Francisco de Borja"
+      ],
+      "surtunme_medyan": 1.503,
+      "en_yakin_tohum_km_medyan": 165.8,
+      "yuruyus_saat_medyan": 45.7,
+      "sinif": "DAG",
+      "karo": "k11"
+     },
+     {
+      "km2": 10729,
+      "merkez_lat": 40.58,
+      "merkez_lon": 77.71,
+      "A_sahipleri": [
+       "Uçturfan (Uç Turfan)",
+       "Issık Göl havzası",
+       "Narın (Naryn)"
+      ],
+      "surtunme_medyan": 2.153,
+      "en_yakin_tohum_km_medyan": 130.1,
+      "yuruyus_saat_medyan": 44.0,
+      "sinif": "DAG",
+      "karo": "k24"
+     },
+     {
+      "km2": 10334,
+      "merkez_lat": -2.85,
+      "merkez_lon": 119.38,
+      "A_sahipleri": [
+       "Sengkang (Wajo)"
+      ],
+      "surtunme_medyan": 2.394,
+      "en_yakin_tohum_km_medyan": 164.4,
+      "yuruyus_saat_medyan": 52.7,
+      "sinif": "DAG",
+      "karo": "k14"
+     },
+     {
+      "km2": 10170,
+      "merkez_lat": 37.9,
+      "merkez_lon": 99.95,
+      "A_sahipleri": [
+       "Zhangye (Ganzhou)"
+      ],
+      "surtunme_medyan": 1.615,
+      "en_yakin_tohum_km_medyan": 135.0,
+      "yuruyus_saat_medyan": 45.2,
+      "sinif": "DAG",
+      "karo": "k14"
+     }
+    ]
+   },
+   "en_buyuk_20_icinde_noktasiz": 3
+  }
+ },
+ "yon16": true,
+ "toplam": {
+  "kara_ic_km2": 133651409,
+  "A_sahipli_km2": 107744132,
+  "B_sahipli_km2": 96074966,
+  "sahibi_degisen_km2": 8058820,
+  "yeni_sahipsiz_km2": 14194929,
+  "yeni_sahipli_km2": 2525765,
+  "A_sahipsiz_km2": 25907275,
+  "B_sahipsiz_km2": 37576442,
+  "sahibi_degisen_yuzde_kara": 6.03,
+  "yeni_sahipsiz_yuzde_kara": 10.62
+ },
+ "karolar": {
+  "k00": {
+   "karo": [
+    -180,
+    -60,
+    -120,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 8331,
+    "A_sahipli_km2": 550,
+    "B_sahipli_km2": 550,
+    "sahibi_degisen_km2": 0,
+    "yeni_sahipsiz_km2": 0,
+    "yeni_sahipli_km2": 0,
+    "A_sahipsiz_km2": 7780,
+    "B_sahipsiz_km2": 7780
+   },
+   "sure_sn": 58
+  },
+  "k01": {
+   "karo": [
+    -120,
+    -60,
+    -60,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 5064625,
+    "A_sahipli_km2": 4064966,
+    "B_sahipli_km2": 3132581,
+    "sahibi_degisen_km2": 143306,
+    "yeni_sahipsiz_km2": 1036258,
+    "yeni_sahipli_km2": 103874,
+    "A_sahipsiz_km2": 999660,
+    "B_sahipsiz_km2": 1932044
+   },
+   "sure_sn": 78
+  },
+  "k02": {
+   "karo": [
+    -60,
+    -60,
+    0,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 4624356,
+    "A_sahipli_km2": 2172625,
+    "B_sahipli_km2": 1714690,
+    "sahibi_degisen_km2": 38703,
+    "yeni_sahipsiz_km2": 581718,
+    "yeni_sahipli_km2": 123783,
+    "A_sahipsiz_km2": 2451731,
+    "B_sahipsiz_km2": 2909667
+   },
+   "sure_sn": 75
+  },
+  "k03": {
+   "karo": [
+    0,
+    -60,
+    60,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 6366737,
+    "A_sahipli_km2": 6199206,
+    "B_sahipli_km2": 5955555,
+    "sahibi_degisen_km2": 353483,
+    "yeni_sahipsiz_km2": 274820,
+    "yeni_sahipli_km2": 31169,
+    "A_sahipsiz_km2": 167531,
+    "B_sahipsiz_km2": 411182
+   },
+   "sure_sn": 70
+  },
+  "k04": {
+   "karo": [
+    60,
+    -60,
+    120,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 845927,
+    "A_sahipli_km2": 820077,
+    "B_sahipli_km2": 787924,
+    "sahibi_degisen_km2": 19951,
+    "yeni_sahipsiz_km2": 40687,
+    "yeni_sahipli_km2": 8534,
+    "A_sahipsiz_km2": 25849,
+    "B_sahipsiz_km2": 58003
+   },
+   "sure_sn": 57
+  },
+  "k05": {
+   "karo": [
+    120,
+    -60,
+    180,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 7185789,
+    "A_sahipli_km2": 6867293,
+    "B_sahipli_km2": 6466365,
+    "sahibi_degisen_km2": 156568,
+    "yeni_sahipsiz_km2": 488295,
+    "yeni_sahipli_km2": 87367,
+    "A_sahipsiz_km2": 318495,
+    "B_sahipsiz_km2": 719423
+   },
+   "sure_sn": 79
+  },
+  "k10": {
+   "karo": [
+    -180,
+    -10,
+    -120,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 142053,
+    "A_sahipli_km2": 139663,
+    "B_sahipli_km2": 129836,
+    "sahibi_degisen_km2": 15729,
+    "yeni_sahipsiz_km2": 9851,
+    "yeni_sahipli_km2": 24,
+    "A_sahipsiz_km2": 2390,
+    "B_sahipsiz_km2": 12217
+   },
+   "sure_sn": 61
+  },
+  "k11": {
+   "karo": [
+    -120,
+    -10,
+    -60,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 11708153,
+    "A_sahipli_km2": 9691332,
+    "B_sahipli_km2": 8030211,
+    "sahibi_degisen_km2": 553454,
+    "yeni_sahipsiz_km2": 1807953,
+    "yeni_sahipli_km2": 146832,
+    "A_sahipsiz_km2": 2016821,
+    "B_sahipsiz_km2": 3677942
+   },
+   "sure_sn": 113
+  },
+  "k12": {
+   "karo": [
+    -60,
+    -10,
+    0,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 8332501,
+    "A_sahipli_km2": 5706603,
+    "B_sahipli_km2": 5265724,
+    "sahibi_degisen_km2": 260827,
+    "yeni_sahipsiz_km2": 646237,
+    "yeni_sahipli_km2": 205357,
+    "A_sahipsiz_km2": 2625898,
+    "B_sahipsiz_km2": 3066778
+   },
+   "sure_sn": 89
+  },
+  "k13": {
+   "karo": [
+    0,
+    -10,
+    60,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 24616026,
+    "A_sahipli_km2": 22602313,
+    "B_sahipli_km2": 21620316,
+    "sahibi_degisen_km2": 1776046,
+    "yeni_sahipsiz_km2": 1287677,
+    "yeni_sahipli_km2": 305681,
+    "A_sahipsiz_km2": 2013713,
+    "B_sahipsiz_km2": 2995709
+   },
+   "sure_sn": 152
+  },
+  "k14": {
+   "karo": [
+    60,
+    -10,
+    120,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 15527470,
+    "A_sahipli_km2": 12157185,
+    "B_sahipli_km2": 9721783,
+    "sahibi_degisen_km2": 772583,
+    "yeni_sahipsiz_km2": 2636184,
+    "yeni_sahipli_km2": 200782,
+    "A_sahipsiz_km2": 3370285,
+    "B_sahipsiz_km2": 5805687
+   },
+   "sure_sn": 204
+  },
+  "k15": {
+   "karo": [
+    120,
+    -10,
+    180,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 2038862,
+    "A_sahipli_km2": 1881672,
+    "B_sahipli_km2": 1548746,
+    "sahibi_degisen_km2": 92087,
+    "yeni_sahipsiz_km2": 347022,
+    "yeni_sahipli_km2": 14096,
+    "A_sahipsiz_km2": 157190,
+    "B_sahipsiz_km2": 490116
+   },
+   "sure_sn": 99
+  },
+  "k20": {
+   "karo": [
+    -180,
+    40,
+    -120,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 3825824,
+    "A_sahipli_km2": 3384099,
+    "B_sahipli_km2": 2856690,
+    "sahibi_degisen_km2": 425105,
+    "yeni_sahipsiz_km2": 620444,
+    "yeni_sahipli_km2": 93035,
+    "A_sahipsiz_km2": 441725,
+    "B_sahipsiz_km2": 969133
+   },
+   "sure_sn": 108
+  },
+  "k21": {
+   "karo": [
+    -120,
+    40,
+    -60,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 10710365,
+    "A_sahipli_km2": 8969857,
+    "B_sahipli_km2": 8205754,
+    "sahibi_degisen_km2": 923180,
+    "yeni_sahipsiz_km2": 1004005,
+    "yeni_sahipli_km2": 239902,
+    "A_sahipsiz_km2": 1740508,
+    "B_sahipsiz_km2": 2504612
+   },
+   "sure_sn": 148
+  },
+  "k22": {
+   "karo": [
+    -60,
+    40,
+    0,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 3024677,
+    "A_sahipli_km2": 1137786,
+    "B_sahipli_km2": 968725,
+    "sahibi_degisen_km2": 125772,
+    "yeni_sahipsiz_km2": 176432,
+    "yeni_sahipli_km2": 7372,
+    "A_sahipsiz_km2": 1886891,
+    "B_sahipsiz_km2": 2055952
+   },
+   "sure_sn": 91
+  },
+  "k23": {
+   "karo": [
+    0,
+    40,
+    60,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 9754763,
+    "A_sahipli_km2": 9387196,
+    "B_sahipli_km2": 9309617,
+    "sahibi_degisen_km2": 1726193,
+    "yeni_sahipsiz_km2": 192035,
+    "yeni_sahipli_km2": 114456,
+    "A_sahipsiz_km2": 367567,
+    "B_sahipsiz_km2": 445146
+   },
+   "sure_sn": 159
+  },
+  "k24": {
+   "karo": [
+    60,
+    40,
+    120,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 13391394,
+    "A_sahipli_km2": 8832620,
+    "B_sahipli_km2": 7346503,
+    "sahibi_degisen_km2": 503130,
+    "yeni_sahipsiz_km2": 2035473,
+    "yeni_sahipli_km2": 549356,
+    "A_sahipsiz_km2": 4558774,
+    "B_sahipsiz_km2": 6044891
+   },
+   "sure_sn": 259
+  },
+  "k25": {
+   "karo": [
+    120,
+    40,
+    180,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 6483556,
+    "A_sahipli_km2": 3729089,
+    "B_sahipli_km2": 3013396,
+    "sahibi_degisen_km2": 172703,
+    "yeni_sahipsiz_km2": 1009838,
+    "yeni_sahipli_km2": 294145,
+    "A_sahipsiz_km2": 2754467,
+    "B_sahipsiz_km2": 3470160
+   },
+   "sure_sn": 203
+  }
+ }
+}

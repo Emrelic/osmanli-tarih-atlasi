@@ -174,3 +174,80 @@ En çok kaybedenler:
 - `denetim/ARAC-MOTOR-YURUYUS-SINAV-0917.py` · `…SINAV-0917.json`
 - `denetim/ARAC-MOTOR-YURUYUS-16YON-0917.py` · `…16YON-0917.json`
 - dal `motor-yuruyus` · commit `04a9e65` (`arac/uret_petek.py`)
+
+---
+
+# EK — 1.MURAT M-4332 kararlarından sonra (17 Eylül, öğleden sonra)
+
+**Kararlar:**
+- Zaman sorusunda **(c)**: `petek_epok` değişmiyor; (b) ayrı kalem.
+- **16 komşu açık.** Koşu 14 = `MOTOR_YURUYUS=1` + `MOTOR_YURUYUS_16=1`.
+- Dal, koşu 13 başladıktan sonra 1.MURAT tarafından birleştirilecek.
+
+## E1 — Dünya öngörüsü 16 komşuyla yeniden ölçüldü
+Dosya: `denetim/ONGORU-MOTOR-YURUYUS-0917-16YON.json` (18/18 karo).
+B tarafı 16 komşulu Dijkstra; motor dilimleri dal motorundan (`e4f558042a67`). A tarafı değişmedi.
+```
+                             8 komşu              16 komşu
+karada sahibi değişen      %5,67  (7,58 mn)     %6,03  (8,06 mn km²)
+yeni sahipsiz              %12,99 (17,37 mn)    %10,62 (14,19 mn km²)   ← §3 mazeret ① TUTTU
+yeni sahipli                2,06 mn              2,53 mn km²
+Osmanlı doğrudan (ham)
+   1520                    −%2,34               −%1,72  (2.579.804 → 2.535.500)
+   1683                    −%3,15               −%2,25  (4.295.532 → 4.199.012)
+   1800                    −%3,04               −%2,41  (3.088.687 → 3.014.353)
+```
+- 8 komşunun şişirdiği sahipsizlik dünyada **3,17 mn km²**. Kutu sınavındaki %61'lik payın dünya karşılığı %18.
+- En çok kaybedenler değişmedi: Çamdo −98 bin km² · Leh −89 bin · Mérida (Venezuela) −86 bin · Lhasa −64 bin · Quilmes · Dunhuang · Dali · Katmandu · Tabatinga · Cuiabá.
+
+## E2 — Noktasızlık listesi
+Aletler: `denetim/ARAC-MOTOR-YURUYUS-ONGORU-0917.py` (küme sınıfı) ve `…-NOKTASIZLIK-0917.py` (çöl ayrımı).
+Liste: `denetim/NOKTASIZLIK-ADAY-0917.json`.
+
+**Eşikler ölçümden ÖNCE yazıldı:**
+- Küme ≥ 10.000 km².
+- Medyan sürtünme > 1,5 ise **DAĞ**, değilse düz.
+- Düz kümenin merkezi motorun çöl poligonundaysa **ÇÖL**, değilse **ADAY**.
+```
+355 küme · 12,09 mn km²  (yeni sahipsizin %85'i)
+  DAĞ             91 küme   5,08 mn km²   Hindukuş · And · Tibet · Rockies · Yunnan · Sayan …
+  NOKTASIZ-ÇÖL    52 küme   1,19 mn km²   Sahra · Rub'ul Hâlî … — sahipsizlik büyük ihtimalle BEKLENEN
+  NOKTASIZ-ADAY  212 küme   5,81 mn km²   ← NOKTA oturumlarına asıl aday
+en büyük 20 kümenin 3'ü düz (17'si DAĞ)
+```
+Adaylardan en büyükleri:
+
+| Bölge | Alan | Bugünkü sahipler |
+|---|---|---|
+| Bolivya altiplanosu | 219 bin km² | Sucre · La Paz |
+| Vitim–Lena | 119 bin km² | Bodaybo · Kirensk |
+| Kumul–Turfan | 90 bin km² | |
+| Venezuela Llanos'u | 85 bin km² | Mérida |
+| Paraguay Chaco'su | 82 bin km² | |
+| Amur | 76 bin km² | Albazin · Zeya |
+| Queensland | 73 bin km² | |
+| Orta Hindistan / Dekken kuzeyi | 69 bin km² | Cabalpûr |
+| Aşağı Amazon | 68 bin km² | Santarém |
+| **Asir–Yemen yaylaları** | 67 bin km² | Ebha · Sa'de · Aden |
+| **Hâş–Kandehar** | 59 bin km² | |
+| Moğol bozkırı | 58 bin km² | |
+| Mato Grosso | 58 bin km² | |
+
+⚠️ **Sınırlar:**
+- **"Aday" bir kusur hükmü değildir.** Orada tarihte yerleşim olup olmadığını ancak kaynak söyler (§2, §4). Liste nereye bakılacağını gösterir, ne yazılacağını değil.
+- **Çöl testi yalnız küme merkezine sorulur.** Ayrıca NE çöl poligonu bazı çölleri kapsamıyor olabilir; Osmanlı çevresindeki 39 kümenin çoğu çöl ya da yarı çöl.
+- **Eşik duyarlılığı:** 1,3–1,5 bandında 50 düz küme, 1,5–1,7 bandında 32 dağ kümesi var.
+  - Güney Çin iç yaylaları (Guilin–Şaoguan, 145 bin km²) sürtünme **1,527** ile eşiğin hemen üstünde, DAĞ sayıldı.
+  - İlk raporda (§3 ④) *"noktasızlık adayı"* dediğim bu kümeyi ölçüm **sınıflayamıyor**: iki kategorinin sınırında.
+- **Hepsi ham sahipliktir:** çöl tavanı, puan kapısı ve B1–B3 yok.
+
+## E3 — Puan kapısı şartname taslağı
+`denetim/TASLAK-PUAN-KAPISI-YURUYUS-0917.md` (kodlama yok).
+
+**Özet:**
+- **Kesici kapı:** yürüyüş altında yalnız 200–205 km bandında kesebiliyor. Bu koddan çıkarım; ölçülmesi istendi. Sıfıra yakınsa atlanması önerildi.
+- **Ekleyici kapı:** düz km yerine yürüyüş saati kullanması önerildi.
+  - Halkalar 40/60/80 s.
+  - Aday noktalardan 80 saatlik yerel Dijkstra; kaba tahmin ~6–12 dk.
+  - 1.448 aday nokta (7 `hata` · 100 `bolge` · 1.347 `kur:`/`bit:`).
+- **Emre'ye iki soru:** 40/60/80 saat halkaları · örtmede "yakın" düz mesafeyle mi, yürüyüşle mi ölçülsün.

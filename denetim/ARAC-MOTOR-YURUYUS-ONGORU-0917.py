@@ -64,8 +64,26 @@ def asama(ad=None):
         print(f"[{time.time() - T0:7.1f} sn] {ad}")
 
 
-KAYNAK_YOL = os.path.join(KOK, "arac", "uret_petek.py")
-KAYNAK = io.open(KAYNAK_YOL, encoding="utf-8").read()
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--karo", required=True,
+                 help="lon0,lat0,lon1,lat1 — istatistiğin sayıldığı KARO (dünya karoları örtüşmez)")
+_ap.add_argument("--ad", required=True)
+_ap.add_argument("--pay", type=float, default=3.0,
+                 help="karo her yöne bu kadar (derece) genişletilip ızgara ORADA kurulur; "
+                      "40 saatlik yol ≤ ~1,8° olduğu için 3° kenar etkisini karonun dışında tutar")
+_ap.add_argument("--saat", type=float, default=40.0)
+_ap.add_argument("--motor", default=os.path.join(KOK, "arac", "uret_petek.py"),
+                 help="dilimlerin alınacağı motor (vars. ana klasör)")
+_ap.add_argument("--yon16", action="store_true",
+                 help="B tarafı 16 komşulu Dijkstra (yalnız motor-yuruyus dalının motorunda var)")
+_ap.add_argument("--cikti", default="ARAC-MOTOR-YURUYUS-ONGORU-0917.json",
+                 help="denetim/ altındaki ham çıktı dosyası")
+ARG = _ap.parse_args()
+
+KAYNAK_YOL = ARG.motor
+KAYNAK = io.open(KAYNAK_YOL, encoding="utf-8").read().replace("\r\n", "\n")
+if ARG.yon16 and "YURUYUS_16" not in KAYNAK:
+    raise SystemExit("--yon16 istendi ama motor 16 komşuyu tanımıyor — dal motorunu verin")
 
 
 def dilim(bas, son):
@@ -77,15 +95,6 @@ def dilim(bas, son):
     return KAYNAK[i:j]
 
 
-_ap = argparse.ArgumentParser()
-_ap.add_argument("--karo", required=True,
-                 help="lon0,lat0,lon1,lat1 — istatistiğin sayıldığı KARO (dünya karoları örtüşmez)")
-_ap.add_argument("--ad", required=True)
-_ap.add_argument("--pay", type=float, default=3.0,
-                 help="karo her yöne bu kadar (derece) genişletilip ızgara ORADA kurulur; "
-                      "40 saatlik yol ≤ ~1,8° olduğu için 3° kenar etkisini karonun dışında tutar")
-_ap.add_argument("--saat", type=float, default=40.0)
-ARG = _ap.parse_args()
 IC = tuple(float(v) for v in ARG.karo.split(","))
 K = [max(-180.0, IC[0] - ARG.pay), max(-60.0, IC[1] - ARG.pay),
      min(180.0, IC[2] + ARG.pay), min(85.0, IC[3] + ARG.pay)]
@@ -99,6 +108,11 @@ NS = dict(json=json, os=os, sys=sys, io=io, math=math, re=re, time=time,
           STRtree=STRtree, prep=prep, girdi=girdi, asama=asama, KOK=KOK,
           BASEMAPS=os.path.join(KOK, "veri-kaynak"), __name__="uret_petek_dilim")
 NS["BOLGE"] = box(*K)
+# Dal motorunun dilimleri bayrak adlarını okur; A tarafı (Voronoi + A1) bayraksız
+# hâlidir, B tarafının tek farkı 16 komşudur. MOTOR_YURUYUS'un petek değişimi
+# burada KOŞMAZ — ölçülen şey hâlâ ızgara düzeyinde ham sahiplik.
+NS["MOTOR_YURUYUS"] = False
+NS["YURUYUS_16"] = bool(ARG.yon16)
 print("BOLGE", K, "· iç", IC, "·", ARG.ad)
 
 exec(dilim("EGIM_CARPANI = 0.005\n", "# ---------------- Nehir yatakları"), NS)
@@ -167,6 +181,7 @@ yeni_dolu = ~kA & kB
 km = lambda msk: round(float(hkm2[msk].sum()))
 SON = {"meta": {"tarih": "2026-09-17", "oturum": "MOTOR-YURUYUS",
                 "motor_sha_ilk12": hashlib.sha256(KAYNAK.encode("utf-8")).hexdigest()[:12],
+                "motor": KAYNAK_YOL, "yon16": bool(ARG.yon16),
                 "kutu": K, "ic_kutu": IC, "izgara": [nx, ny], "saat": ARG.saat,
                 "butce_km_esdeger": BUTCE, "dijkstra_sn": t_dijk,
                 "erisilmez_kara_hucre_karo": int((ERISILMEZ & ic).sum()),
@@ -195,21 +210,53 @@ for h, idxs in NS["_kvtohum"].items():
 SON["B_hucresiz_tohum"] = {"sayi": len(hucresiz), "ornek": hucresiz[:25]}
 print("B'de ızgara hücresi olmayan tohum (iç kutu):", len(hucresiz))
 
-# ② yeni sahipsiz kümeler — en büyük 10
+# ② yeni sahipsiz kümeler — en büyük 10 + NOKTASIZLIK sınıflaması (≥ KUME_MIN km²)
+# 🔴 SINIF EŞİKLERİ ÖLÇÜMDEN ÖNCE YAZILDI (17 Eylül, 1.MURAT M-4332 sevki):
+#    DAĞ        kümenin medyan sürtünmesi > 1,5 — yürüyüş gerçekten yavaş;
+#               sahipsizlik ARAZİNİN sonucu, nokta eklemek ancak kısmen çözer
+#    NOKTASIZ   medyan sürtünme ≤ 1,5 — arazi düz sayılır (kara medyanı 1,204);
+#               40 saatin aşılmasının asıl sebebi YAKINDA NOKTA OLMAMASI
+#               (ya da nehir bedeli) ⇒ NOKTA oturumlarına aday
+#    Ek ölçüt (yalnız bilgi): kümenin medyan DÜZ mesafesi en yakın tohuma (km).
+KUME_MIN = 10000.0
+SURT_ESIK = 1.5
+_surt = (np.frombuffer(NS["_kvsurt"], dtype=np.float32).reshape(ny, nx)
+         if NS["_kvsurt"] is not None else np.ones((ny, nx), np.float32))
+_xyz = lambda la, lo: np.column_stack([np.cos(np.radians(la)) * np.cos(np.radians(lo)),
+                                       np.cos(np.radians(la)) * np.sin(np.radians(lo)),
+                                       np.sin(np.radians(la))])
+_tagac = cKDTree(_xyz(np.array([y["lat"] for y in YER]), np.array([y["lon"] for y in YER])))
 lab, n = ndimage.label(yeni_bos, structure=np.ones((3, 3)))
-kume = []
+kume, siniflanan = [], []
 if n:
     alan_k = ndimage.sum(hkm2, lab, index=np.arange(1, n + 1))
-    for k in np.argsort(alan_k)[::-1][:10]:
-        msk = lab == (k + 1)
+    buyuk = [k for k in np.argsort(alan_k)[::-1] if alan_k[k] >= KUME_MIN]
+    nesne = ndimage.find_objects(lab)
+    for k in buyuk:
+        sl = nesne[k]
+        msk = lab[sl] == (k + 1)
         jj2, ii2 = np.nonzero(msk)
-        sah = np.bincount(A[msk], minlength=len(YER))
+        jj2 = jj2 + sl[0].start
+        ii2 = ii2 + sl[1].start
+        la2, lo2 = lat_sat[jj2], lon_sut[ii2]
+        sah = np.bincount(A[jj2, ii2], minlength=len(YER))
         es = [YER[int(o)]["ad"] for o in np.argsort(sah)[::-1][:3] if sah[o] > 0]
-        kume.append({"km2": round(float(alan_k[k])),
-                     "merkez_lat": round(float(lat_sat[jj2].mean()), 2),
-                     "merkez_lon": round(float(lon_sut[ii2].mean()), 2),
-                     "A_sahipleri": es})
-SON["yeni_sahipsiz_kume"] = {"kume_sayisi": int(n), "en_buyuk_10": kume}
+        d_ch, _ = _tagac.query(_xyz(la2, lo2))
+        d_km = 2 * 6371.0088 * np.arcsin(np.clip(d_ch / 2, 0, 1))
+        ms = float(np.median(_surt[jj2, ii2]))
+        kayit = {"km2": round(float(alan_k[k])),
+                 "merkez_lat": round(float(la2.mean()), 2),
+                 "merkez_lon": round(float(lo2.mean()), 2),
+                 "A_sahipleri": es,
+                 "surtunme_medyan": round(ms, 3),
+                 "en_yakin_tohum_km_medyan": round(float(np.median(d_km)), 1),
+                 "yuruyus_saat_medyan": round(float(np.median(u[jj2, ii2])) / KM_SAAT, 1),
+                 "sinif": "DAG" if ms > SURT_ESIK else "NOKTASIZ"}
+        siniflanan.append(kayit)
+    kume = siniflanan[:10]
+SON["yeni_sahipsiz_kume"] = {"kume_sayisi": int(n), "en_buyuk_10": kume,
+                             "siniflanan_min_km2": KUME_MIN, "surt_esik": SURT_ESIK,
+                             "siniflanan": siniflanan}
 for kk in kume:
     print("  kume", kk)
 
@@ -240,7 +287,7 @@ dis = m & (s >= 0) & (u > BUTCE)
 SON["butce_disi_erisilen_km2"] = km(dis)
 
 SON["meta"]["sure_sn"] = round(time.time() - T0)
-cikti = os.path.join(KOK, "denetim", "ARAC-MOTOR-YURUYUS-ONGORU-0917.json")
+cikti = os.path.join(KOK, "denetim", ARG.cikti)
 hepsi = json.load(io.open(cikti, encoding="utf-8")) if os.path.exists(cikti) else {}
 hepsi[ARG.ad] = SON
 with io.open(cikti, "w", encoding="utf-8") as f:
