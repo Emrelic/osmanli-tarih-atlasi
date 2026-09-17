@@ -138386,5 +138386,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4481",
+  "zaman": "2026-09-18 02:44",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "H-0025 BITTI. Olcum: js/app.js antlasmaFarkiKirp() icinde 'prefers-reduced-motion: reduce' true iken (bu tarayicida GERCEKTEN true) dugme her tiklamada sabit '_antlasmaHal(\"sonra\")' cagiriyordu -- zaten sonra durumundaysa GORUNURDE HICBIR SEY DEGISMIYORDU, 'calismiyor' izlenimi buradan. Bu bir HATA degil KASITLI erisilebilirlik kisayoluydu (animasyon acmak erisilebilirligi bozar) ama kisayolun kendisi bir NO-OP'a dusuyordu. ONARILDI (KALDIRILMADI): azHareket=true iken artik once<->sonra TEK ADIMDA TOGGLE ediyor (animasyonsuz ama gorunur degisim). Tarayicida dogrulandi: 3 ardisik tiklama once/sonra/once sirasiyla degisti (once hep ayni 'sonra' donuyordu). node --check temiz, konsol hatasiz (tek 404 var: data/ekokuma_antlasma6.js, ONCEDEN eksik bir dosya, benim degisikligimle ilgisiz, lazy-loader zaten bunu sessizce tolere ediyor).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
