@@ -1,0 +1,216 @@
+{
+  "paket": "0066-KARADENIZ-KAFKAS",
+  "maddeler": "DALGA-0066 · H-0012 (Kabartay/Nalçik baştan sona kime bağlı; Kaynarca sonrası Rus mu) · H-0022 (Anapa'nın etki alanı; görseldeki gövde doğru mu)",
+  "tarih": "2026-09-17",
+  "yazan": "KARADENIZ-KAFKAS (Opus 1011) · koordinatör 1.MURAT · şartname oturumlar/KADRO-1010-1015.md",
+  "durum": "ÖNERİ — yerleşim, künye ve kronoloji dosyalarına YAZILMADI; indirme 1.MURAT'ın",
+  "on_is": {
+    "okundu": "denetim/YAMA-0064-KARADENIZ.json (D2-KOMSU; H-1 Çerkez kıyısı, H-2 Anapa, H-4 Kabartay) · denetim/YAMA-KARADENIZ-0914.json (P08; TAMAN-1774 KARAR, tahta M-3959)",
+    "tekrarlanmadi": "Kabartay 1774 hukukî/fiilî seçenekleri (0064 H-4), Çerkez kıyısında d/v sınıfı (0064 H-1), Anapa işgal dönemleri (0064 H-2; veriye zaten inmiş: isg 1791-07-26→1792-01-09 ve 1828-06-24→1829-09-14), Taman 1774-1783 (0914 TAMAN-1774). Bu yama bunlara YALNIZ yeni delil ekliyor."
+  },
+  "olcum": {
+    "atlas": "arac/girdi.py GIRDI_DOSYALARI (86 dosya) okundu; 42,5-46,5°K / 36,3-46,5°D kutusunda 14 yerleşim. Taban petekler data/petek_govde.js + data/donemler.js PETEKLER sırasıyla çıkarıldı (14:54 üretimi).",
+    "anapa_petegi": "taban gövde 7.211 km² · enlem 44,42-46,06 · boylam 37,04-38,19. Natural Earth Kuban çizgisi 37,44-38,04°D arasında 45,13-45,18°K'de geçiyor ⇒ gövdenin 3.075 km²'si (%43) NEHRİN KUZEYİNDE (nehrin boylam kapsamındaki sütunlarla ölçüldü; delta batısı hariç, yani alt sınır).",
+    "kabartay_petegi": "taban gövde 28.034 km² · enlem 42,38-45,12 · boylam 42,27-44,84.",
+    "simulasyon": "En-yakın-nokta yaklaşığı (0,02° ızgara, ne_10m_land; motorun yaslanma/tavan/Chaikin adımları YOK — yalnız yön ve mertebe). Taban doğrulaması: Anapa 6.964 km² (motor 7.211), nehir kuzeyi 2.575 km² (motor 3.075).",
+    "yontem_notu": "Alan için eşdeğer-alan projeksiyonu yok (pyproj kurulu değil); 45°K'de sabit km/derece çarpanı kullanıldı — ±%3 mertebesinde."
+  },
+  "kaynak_kumesi": {
+    "TDV_canli_okundu": ["kabartaylar", "cerkezler", "anapa", "kucuk-kaynarca-antlasmasi", "kafkasya", "sahin-giray", "yas-antlasmasi", "kirim", "nogaylar", "abazalar"],
+    "TDV_olu_302": ["taman", "kuban", "nalcik", "kaynarca-antlasmasi", "abhazya", "ferah-ali-pasa", "aynalikavak-tenkihnamesi", "temruk", "sucuk-kale"],
+    "slug_notu": "cerkezler bu turda bir kez 302, bir kez 200 döndü; gövde 22.193 karakter olarak okundu ⇒ CANLI. İlk 302 geçici taşıma arızası sayıldı (§4 tuzak ⑤).",
+    "akademik": ["Cengiz Fedakâr, Anapa Kalesi: Karadeniz'in Kuzeyinde Son Osmanlı İstihkâmı: 1781-1801 (doktora tezi, MSGSÜ 2010) — YALNIZ BAŞLIĞI, TDV anapa bibliyografyasından; tez OKUNMADI"],
+    "dayanak_YAPILMADI": ["Vikipedi", "atlasın kendi dönem kayıtları (atlas referans değildir)"]
+  },
+
+  "H0012_cevap": {
+    "soru": "Kabartay (Nalçik) Küçük Kaynarca'dan sonra Rusya'ya mı geçti? Bölgenin baştan sona kime bağlı olduğu.",
+    "kisa_cevap": "EVET — TDV iki maddede açık: Küçük Kaynarca md. 21 ile 'Küçük ve Büyük Kabartaylar Rusya'ya bırakılmaktaydı' (kucuk-kaynarca-antlasmasi) · 'Küçük Kaynarca Antlaşması (1774) Kabartaylar'ı Rusya ile birleştirdi' (kabartaylar). Haritadaki 1774-07-21 yeşili KAYNAKLA UYUMLU. Fiilî Rus yerleşmesi daha uzun sürdü (0064 H-4); bu yama o kararı yeniden açmıyor.",
+    "kronoloji_tablosu": [
+      {"donem": "XIII-XIV. yy", "durum": "Moğol-Tatar istilâsı; Çerkezlerin Kabartay kolu doğuya çekilip bugünkü yurduna yerleşti", "kaynak": "TDV cerkezler ('Moğol-Tatar istilâları XIII-XIV. yüzyıllarda … Kabartay denilen kolu ortaya çıktı') · TDV kabartaylar ('XIII. yüzyılda başlayan Moğol saldırıları üzerine bugün bulundukları bölgeye gelerek yerleştiler')", "atlas": "altinorda 1281→1441"},
+      {"donem": "1427-1456", "durum": "Prens Yinal halkın büyük kısmını kendi yönetiminde birleştirdi — Kabartay'a özgü ilk tarihli siyasî birlik", "kaynak": "TDV cerkezler ('Kabartay, Besleney ve Çemguy prenslerinin atası olan Prens Yinal (1427-1456) halkın büyük kısmını yönetimi altında birleştirdi')", "atlas": "1441'de kırılma var — 1441 KIRIM HANLIĞI'NIN kuruluş yılı, Kabartay kaynağı değil (Y-1)"},
+      {"donem": "XV-XVI. yy", "durum": "Kırım hanlarının iddia alanı; Çerkezler 'hukuken Kırım Hanlığı'na tâbi, gerçekte ise serbest' — her yeni hana 300 köle, yıllık hediye, sefere asker", "kaynak": "TDV kirim (Hacı Giray yarlığı Taman ve Kabartay'ı hâkimiyet sahasında gösteriyor) · TDV cerkezler", "atlas": "kabartay (bağımsız) — gevşek himaye olarak GÖSTERİLMİYOR (Y-1 notu, karar)"},
+      {"donem": "1557 · 1559 · 1563 · 1574", "durum": "Prens Temrük Moskova'ya elçi yolladı (1557, 1559), kızını IV. İvan'la evlendirdi; Ruslar Kafkasya'daki ilk kaleleri Terek'i kurdu (1563); Terek Kalesi 1574'te yıkıldı", "kaynak": "TDV cerkezler · TDV kabartaylar ('Ruslar 1563 ve 1567'de Terek nehrinin kıyısında iki ayrı kale inşa ederek') · TDV kirim (1570 padişah nâmesi Kabartay'daki Rus kalelerinin yıkılmasını istiyor)", "atlas": "kabartay — ittifak ve kale, tasarruf değil (D030); kronoloji önerisi KK-2"},
+      {"donem": "1711 sonrası", "durum": "Prut'tan sonra Osmanlı Kabartay üzerinde hâkimiyet girişimlerini arttırdı; kabartaylar maddesi 'önce himaye, sonra doğrudan yönetim' diyor ama TARİH VERMİYOR", "kaynak": "TDV cerkezler · TDV kabartaylar", "atlas": "boyanmıyor — tarih bulunamadı, uydurulmadı"},
+      {"donem": "1720", "durum": "Ruslar Terek boyunda beş Rus-Kazak kasabası kurdu", "kaynak": "TDV cerkezler", "atlas": "Terek deltası noktalarının işi — bu yama dokunmuyor"},
+      {"donem": "1739", "durum": "Belgrad Antlaşması: Kabartay tarafsız, iki devlete de bağlı değil; ardından Osmanlı ve Rus taraftarı prensler arasında mücadele", "kaynak": "TDV kabartaylar · TDV cerkezler · 0064 KR-2 (ahidname 1739-12-12)", "atlas": "kabartay — UYUMLU"},
+      {"donem": "1763", "durum": "Ruslar Osmanlı'nın ve Kabartay prenslerinin itirazına rağmen Mozdok Kalesi'ni yaptırdı", "kaynak": "TDV cerkezler", "atlas": "Mozdok noktası YOK — nokta ÖNERİLMİYOR (Y-4), kronoloji önerisi KK-3"},
+      {"donem": "1774-07-21", "durum": "Küçük Kaynarca md. 21: Küçük ve Büyük Kabartaylar Rusya'ya", "kaynak": "TDV kucuk-kaynarca-antlasmasi · TDV kabartaylar. ⚠️ Aynı TDV maddesi Bükreş ön görüşmesinde konunun 'Kırım hanı ve Tatarlar'ın re'y ve iradesine bırakılması' üzerinde uzlaşıldığını da yazıyor (0064 H-4)", "atlas": "rusya — UYUMLU"},
+      {"donem": "1770-1796", "durum": "Kabartay Rusya'nın hâkimiyetine girdi (fiilî süreç); Azak-Mozdok müstahkem hattı; Vladikafkas 1784", "kaynak": "TDV kafkasya · TDV cerkezler", "atlas": "rusya · Vladikavkaz kur 1784 — UYUMLU"},
+      {"donem": "1917-1918", "durum": "İhtilâl sonrası milliyetçiler, Bolşevikler, Menşevikler ve Kızıl Ordu arasında mücadele; 1918'de Sovyet idaresi", "kaynak": "TDV kabartaylar", "atlas": "sovyet-rusya 1917-11-07'den — TDV 1918 diyor, ara dönemin kimliği (Dağlı Cumhuriyeti vb.) atlasta KÜNYE YOK ⇒ bulunamadı, öneri yok"},
+      {"donem": "1922-01-16", "durum": "Kabarda-Balkar Özerk Bölgesi kuruldu", "kaynak": "TDV kabartaylar", "atlas": "idarî kademe — harita kırılması değil"}
+    ]
+  },
+
+  "H0022_cevap": {
+    "soru": "Anapa kalesinin etki alanı görseldeki gibi mi olmalı? (görsel: 1781-01-01, z6.5)",
+    "kisa_cevap": "HAYIR — gövdenin kuzey yarısı yanlış. TDV'ye göre Kuban nehri 1783'ten sonra Osmanlı-Rus sınırıdır ('Kuban nehri Osmanlı-Rus sınırı olarak belirlendi' — cerkezler; Bükreş 1812 ile 'hudut yine Kuban nehri oldu' — anapa) ve Anapa 'Osmanlı topraklarının başlangıç noktası'dır. Anapa'nın taban peteği ise Kuban'ın KUZEYİNE 46,06°K'ye kadar taşıyor: 3.075 km² (%43). Sebep §2'deki emilme: Kuban deltası ile Azak'ın doğu kıyısı arasında hiç nokta yok.",
+    "govde_parca_parca": {
+      "Kuban'ın kuzeyi (delta + Azak doğu kıyısı)": "YANLIŞ — 1781'de Kırım Hanlığı (Kaynarca md. 3, Kuban müstakil hanın), 1783'ten sonra Rusya. Görselde Osmanlı doğrudan boyanıyor ⇒ Y-3",
+      "güney kıyı (Soğucak · Gelincik tarafı)": "DOĞRU TARAF — TDV anapa ve sahin-giray Soğucak'ta Osmanlı gücünü 1781 Nisanında gösteriyor. Ama Soğucak'ın kendi noktası YOK (Y-5, bulunamadı)",
+      "doğu sınırı (~38,1-38,2°D, Kuban/Yekaterinodar peteğiyle)": "bir kaynağa değil iki noktanın orta çizgisine dayanıyor; güneyde Çerkez içerisi — doğrudan/tâbi sınıfı 0064 H-1 kararında açık",
+      "Taman (görselde RUSYA)": "1774-1783 için TDV ile ÇELİŞİYOR — mevcut KARAR TAMAN-1774'e yeni delil (Y-2)",
+      "başlangıç 1781-01-01": "TDV'nin kendi içinde çelişki (Y-6) — değişiklik önerilmiyor"
+    }
+  },
+
+  "yerlesim_yamalari": [
+    {
+      "no": "Y-1",
+      "kayit": "Kabartay (Nalçik)",
+      "dosya": "data/yerlesimler.js",
+      "tur": "DAYANAKSIZ KIRILMA — KARAR",
+      "simdi": {"s": [{"f": "1281-01-01", "t": "1441-01-01", "d": "altinorda"}, {"f": "1441-01-01", "t": "1774-07-21", "d": "kabartay"}]},
+      "sorun": "1441 Kırım Hanlığı'nın kuruluş yılıdır (kayıt eskiden 'kirim 1441→1739' taşıyordu; kimlik değişti, kırılma yılı kaldı). Kabartay için 1441'e dayanan kaynak YOK.",
+      "secenekler": {
+        "a (ÖNERİM)": {"s": [{"f": "1281-01-01", "t": "1427-01-01", "d": "altinorda"}, {"f": "1427-01-01", "t": "1774-07-21", "d": "kabartay"}], "gerekce": "TDV cerkezler: Prens Yinal (1427-1456) halkın büyük kısmını birleştirdi — Kabartay'a özgü tek tarihli siyasî birlik. Yıl hassasiyeti ⇒ YYYY-01-01.", "kosul": "yeni 1427 kırılması Değişmez 2s evrenine girer ⇒ KK-1 maddesiyle birlikte inmeli"},
+        "b": {"s": [{"f": "1281-01-01", "t": "1502-03-01", "d": "altinorda"}, {"f": "1502-03-01", "t": "1774-07-21", "d": "kabartay"}], "gerekce": "TDV kabartaylar: 'Altın Orda Devleti'nin çökmesinin ardından' birinci derecede etkili oldular; komşu bozkır kayıtları altinorda'yı 1502-03-01'de bitiriyor. ⚠️ Günü komşudan devralmak §4 şartlarından ①'i zayıf karşılıyor (komşunun günü çekirdek maddeden, kaynağı yıl)."},
+        "c (yalnız not)": "TDV cerkezler Çerkezleri 'hukuken Kırım Hanlığı'na tâbi, gerçekte serbest' diye tarif ediyor ⇒ Emre kararı D (gevşek himaye) Kabartay'a da uzatılabilir. Başlangıç günü BULUNAMADI; bitişi 1739 Belgrad olurdu. Karar Emre'nin — önerilmiyor."
+      },
+      "kunye_notu": "kabartay künyesi f:1281-01-01 (atlas ufku, künyenin kendi beyanı). (a) seçilirse künye f: değişmeden kalabilir; künye sahibi isterse f:1427-01-01 + kronoloji KK-1."
+    },
+    {
+      "no": "Y-2",
+      "kayit": "Taman",
+      "dosya": "data/yerlesimler.js",
+      "tur": "MEVCUT KARARA EK DELİL — yeni yama DEĞİL",
+      "bagli_karar": "denetim/YAMA-KARADENIZ-0914.json TAMAN-1774 (tahta M-3959): s kirim 1774-07-21→1783-04-19, rusya 1783-04-19'dan",
+      "yeni_delil_lehine": [
+        "TDV sahin-giray: 1775'te Şâhin Giray 'önce Taman'daki Osmanlı kalelerine saldırdı' ⇒ 1775'te Taman'da Rus değil Osmanlı kaleleri var",
+        "TDV sahin-giray: 1777 Ocak 'Taman'daki kabileler ve Nogaylar onu resmen han olarak tanıdı' ⇒ Taman hanlığın parçası",
+        "TDV cerkezler: Kırım 1783'te ilhak edildi, 'Kuban nehri Osmanlı-Rus sınırı olarak belirlendi'"
+      ],
+      "acik": "1774-1783 arasında Taman'daki Osmanlı garnizonunun ne zaman çekildiği BULUNAMADI (TDV anapa, 1783 sonrasında Taman ve Temrük askerlerinin Anapa'ya geçtiğini yazıyor). Bu yüzden 'd devam' seçeneği gün uydurmadan yazılamaz ⇒ TAMAN-1774'ün önerisi (kirim) güvenli asgari.",
+      "degismez2": "yeni kırılma 1783-04-19 — çekirdekte madde VAR ('Kırım'ın Rusya'ya ilhakı')"
+    },
+    {
+      "no": "Y-3",
+      "kayit": "YENİ — Kuban deltası bozkırı",
+      "dosya": "data/yerlesimler_ek_bozkir.js (window.YERLESIMLER_EK_BOZKIR) — dosya sahibi 1.MURAT'ın belirleyeceği",
+      "tur": "EMİLME DOLGUSU (§2)",
+      "kayit_onerisi": {
+        "ad": "Kuban deltası bozkırı",
+        "tur": "bolge",
+        "lat": 45.50,
+        "lon": 37.80,
+        "g": 0,
+        "k": 0,
+        "d": [],
+        "s": [
+          {"f": "1281-01-01", "t": "1502-03-01", "d": "altinorda", "kaynak": "gün komşudan: Kuban Nogay bozkırı · onun kaynağı TDV altin-orda-hanligi + TDV kirim (yıl 1502; gün çekirdek madde olaylar_ek5.js)"},
+          {"f": "1774-07-21", "t": "1783-04-19", "d": "kirim", "kaynak": "TDV kucuk-kaynarca-antlasmasi md. 3 (Kuban müstakil hanın idaresinde; Rusya'ya bırakılanlar yalnız Kılburun, Kerç, Yenikale) · TDV sahin-giray (1777 Taman ve Kuban kabileleri Şâhin Giray'ı han tanıdı)"},
+          {"f": "1783-04-19", "t": "1917-03-15", "d": "rusya", "kaynak": "TDV cerkezler ('Kırım Hanlığı 1783'te Rusya'ya ilhak edildi. Kuban nehri Osmanlı-Rus sınırı olarak belirlendi') · TDV anapa ('Taman, Temrük, Açe ve Açu kalelerinin Kuban nehrinin kuzeyinde Rusya'da kalması') · gün: çekirdek madde 1783-04-19 (Jülyen 8 Nisan)"},
+          {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"},
+          {"f": "1917-11-07", "t": "1923-10-29", "d": "sovyet-rusya"}
+        ],
+        "v": [
+          {"f": "1502-03-01", "t": "1774-07-21", "k": "Kırım Hanlığı", "kid": "kirim", "statu": "gevsek", "himaye": true, "kaynak": "Emre kararı D (13 Eyl 2026) — komşu Kuban Nogay bozkırı ve Kuban (Yekaterinodar) ile aynı dönem ve aynı gerekçe (TDV kirim, TDV nogaylar)"}
+        ],
+        "neden": "KARADENIZ-KAFKAS 17 Eyl 2026 (DALGA-0066 H-0022): Kuban deltası ile Azak'ın doğu kıyısında nokta yoktu; bu toprak Anapa'nın peteğine emiliyor ve 1781'den itibaren Osmanlı doğrudan boyanıyordu (taban gövdenin 3.075 km²'si nehrin kuzeyinde). Zaman çizgisi komşu 'Kuban Nogay bozkırı' ve 'Kuban (Yekaterinodar)' ile BİREBİR; kaynaklar TDV kucuk-kaynarca-antlasmasi md. 3, cerkezler, anapa. Konum bir yer adına değil DOLGUYA aittir (Açu/Temrük kalelerinin koordinatı doğrulanmadı)."
+      },
+      "olculen_etki": {
+        "anapa": "6.964 → 4.174 km² · nehir kuzeyi 2.575 → 121 km² (yaklaşık simülasyon)",
+        "kimden_alir": {"Anapa": 2790, "Kuban (Yekaterinodar)": 5181, "Taganrog": 817, "Azak": 232, "Yenikale": 154, "Camboyluk bozkırı": 54, "Taman": 10},
+        "yan_etki": "Kuban (Yekaterinodar)'dan alınan 5.181 km²'nin zaman çizgisi AYNI ⇒ görünür değişiklik yok. Azak (232) ve Taganrog (817) kıyı parçası 1739-1783 arasında bugün RUSYA boyanıyor; yamadan sonra 1502-1774 kirim gevşek, 1774-1783 kirim olur. Bu kaynak YÖNÜNDE bir değişiklik (Kaynarca md. 3 Kuban'ı hanlığa sayıyor) ama Azak'ın 1739 sonrası çevresi ayrıca ölçülmedi. Yenikale (154): Kerç'in peteği boğazın öte yakasına taşıyor — ayrı ve küçük bir kusur, bu yama dokunmuyor.",
+        "denenen_konumlar": {"45,50/37,80 (SEÇİLEN)": "Anapa nehir kuzeyi 121 km²", "45,60/38,00": "444 km²", "45,65/37,90": "482 km²", "ikinci nokta 45,90/38,30 (REDDEDİLDİ)": "Taganrog'dan 2.522, Azak'tan 2.368 km² alıyordu"},
+        "sinir": "Simülasyon motorun nehir yaslanmasını içermiyor; motor Kuban'a yaslanırsa kalan 121 km² de düzelir, yaslanmazsa kalır. Kesin sonuç ancak koşudan sonra ölçülür."
+      },
+      "denetim": "Değişmez 1: 1281→1923 kesintisiz (s + v). Değişmez 2: d:/v: kırılmaları 1502-03-01 · 1774-07-21 — ikisinin de maddesi VAR (komşularla aynı günler). Yeni s: günleri 1783-04-19 · 1917 — maddeli. Konum: ne_10m_land içinde (ölçüldü); en yakın mevcut nokta Kuban (Yekaterinodar), ~100 km."
+    },
+    {
+      "no": "Y-4",
+      "kayit": "Mozdok (YENİ nokta)",
+      "tur": "REDDEDİLDİ — nokta önerilmiyor",
+      "olcum": "43,735/44,653'e konan bir nokta 24.080 km² alıyor: Kabartay 8.654 · Terek deltası (Kızlar) 6.164 · Vladikavkaz 5.960 · Stavropol–Kuma bozkırı 2.329 · Kalmuk bozkırı 974.",
+      "gerekce": "TDV cerkezler Mozdok'u 'Kabartay prenslerinin itirazına rağmen' yapılmış bir kale olarak anıyor; çevresi Kabartay toprağı. 1763'ten itibaren 24 bin km²'yi Rus boyamak kaleyi değil çevresini boyamak olur (D030). Olay kronolojiye girsin (KK-3), haritaya girmesin."
+    },
+    {
+      "no": "Y-5",
+      "kayit": "Soğucak (Sucuk Kale, bugünkü Novorossiysk)",
+      "tur": "BULUNAMADI — nokta yazılamaz",
+      "bilinen": "TDV anapa: 'önemli bir askerî üs haline getirilmiş olan Soğucak Kalesi' · TDV sahin-giray: Nisan 1781'de Nogaylar 'Soğucak'taki Osmanlı güçlerinden' yardım istedi; 'Soğucak Valisi Ferah Ali Paşa' · TDV cerkezler: 'Soğucak muhafızı Ferah Ali Paşa'",
+      "eksik": "Osmanlı idaresinin başlangıç yılı ve kalenin yapılış tarihi — okunan on TDV maddesinin hiçbirinde yok; sucuk-kale slugu 302. Başlangıç uydurulmadı. Nokta yazılırsa Anapa peteğinin güney yarısını 1781'den önce de boyar ⇒ tarih bulunmadan yazılmamalı."
+    },
+    {
+      "no": "Y-6",
+      "kayit": "Anapa — d f:1781-01-01",
+      "tur": "KAYNAK KENDİ İÇİNDE ÇELİŞİYOR (§4 ⑥) — değişiklik önerilmiyor",
+      "delil": [
+        "TDV anapa: kale kararı 'Ruslar'ın Kırım Hanlığı'nı ilhakı' bağlamında anlatılıyor (1783), ama '1783-1786 yıllarında malî sıkıntı yüzünden zaman zaman duraklasa da' ⇒ inşaat 1783'ten önce başlamış",
+        "TDV cerkezler: Vladikafkas'ın yapılması (1784) 'üzerine … Ferah Ali Paşa da Anapa Kalesi'ni inşa ettirdi' ⇒ 1784 sonrası okunuyor",
+        "TDV anapa bibliyografyası: Fedakâr'ın tezi '1781-1801' başlığını taşıyor (tez okunmadı)"
+      ],
+      "hukum": "1781 yılı tez başlığıyla destekleniyor, iki TDV cümlesi farklı sıralama veriyor. Tez okunmadan gün değiştirilmemeli; 0064 H-2'nin 'f 1781 KAYNAKSIZ' notu bu delille 'tek akademik başlıkla destekli, TDV çelişik' diye güncellenmeli."
+    }
+  ],
+
+  "kronoloji_onerileri": [
+    {
+      "no": "KK-1",
+      "t": "1427-01-01",
+      "b": "Prens Yinal Kabartayları tek yönetim altında birleştirdi",
+      "devletler": ["kabartay"],
+      "tur": "kurulus",
+      "onem": 3,
+      "dunya": 1,
+      "kapsam": "dis",
+      "yer_id": "Kabartay (Nalçik)",
+      "d": "Moğol-Tatar istilâlarından sonra doğuya çekilen Çerkezlerin Kabartay kolunda Prens Yinal, halkın büyük kısmını kendi yönetimi altında birleştirdi. Kabartay, Besleney ve Çemguy prensleri soylarını ona dayandırır. Tarih, Yinal'in hüküm yıllarının (1427-1456) başlangıcıdır; birleşmenin günü bilinmiyor.",
+      "kaynak": "TDV cerkezler",
+      "sart": "Y-1 (a) ile birlikte iner; (b) seçilirse bu madde harita kırılmasına bağlanmaz, künye kronolojisine girer"
+    },
+    {
+      "no": "KK-2",
+      "t": "1563-01-01",
+      "b": "Ruslar Kafkasya'daki ilk kaleleri Terek'i kurdu",
+      "devletler": ["rusya", "kabartay"],
+      "tur": "diplomasi",
+      "onem": 3,
+      "dunya": 2,
+      "kapsam": "dis",
+      "yer_id": "Kabartay (Nalçik)",
+      "d": "Kırım akınlarından bunalan Kabartay prensi Temrük 1557 ve 1559'da Moskova'ya elçiler yolladı ve kızını Çar IV. İvan ile evlendirdi. Bazı Kabartay prensleriyle antlaşma yapan Ruslar 1563'te Terek Kalesi'ni kurdu. Osmanlı padişahı 1570'te Kabartay'daki Rus kalelerinin yıkılmasını istedi; Terek Kalesi 1574'te yıkıldı.",
+      "kaynak": "TDV cerkezler · TDV kabartaylar · TDV kirim (1570 nâmesi)",
+      "not": "harita kırılması DEĞİL — ittifak ve kale; Kabartay kabartay kalır"
+    },
+    {
+      "no": "KK-3",
+      "t": "1763-01-01",
+      "b": "Ruslar Kabartay'da Mozdok Kalesi'ni yaptı",
+      "devletler": ["rusya", "kabartay", "osmanli"],
+      "tur": "diplomasi",
+      "onem": 3,
+      "dunya": 2,
+      "kapsam": "dis",
+      "yer_id": "Kabartay (Nalçik)",
+      "d": "Belgrad Antlaşması'nın (1739) tarafsız bıraktığı Kabartay'da Osmanlı ve Rus taraftarı prensler arasındaki çekişmeden yararlanan Rusya, Osmanlı Devleti'nin ve Kabartay prenslerinin itirazına rağmen 1763'te Terek kıyısında Mozdok Kalesi'ni yaptırdı. Kale, sonraki yıllarda Azak'tan Mozdok'a uzanan Rus müstahkem hattının doğu ucu oldu.",
+      "kaynak": "TDV cerkezler",
+      "not": "harita kırılması DEĞİL (Y-4)"
+    },
+    {
+      "no": "KK-4",
+      "t": "1783-04-19",
+      "b": "(MEVCUT madde 'Kırım'ın Rusya'ya ilhakı' — metnine EK öneri)",
+      "ek_cumle": "İlhakla birlikte Kuban nehri Osmanlı-Rus sınırı oldu; Taman ve Temrük gibi nehrin kuzeyinde kalan kalelerin askerleri ve halkı Osmanlı tarafındaki Anapa'ya geçti.",
+      "kaynak": "TDV cerkezler · TDV anapa",
+      "not": "Y-2 ve Y-3 kırılmalarını bu madde karşılıyor; yeni madde gerekmiyor"
+    }
+  ],
+
+  "bulunamadi": [
+    "Kabartay'ın Osmanlı himayesine ve doğrudan yönetimine girdiği yıllar (TDV kabartaylar tarihsiz anıyor)",
+    "Kabartay'ın Kırım'a 'hukuken tâbi' döneminin başlangıcı",
+    "1917-11-07 ile 1918 arasında Kabartay'ın kimliği (Dağlı Cumhuriyeti künyesi atlasta yok)",
+    "Soğucak Kalesi'nin yapılış ve Osmanlı idaresine giriş tarihi",
+    "Taman'daki Osmanlı garnizonunun 1774-1783 arasında çekildiği gün",
+    "Anapa inşaatının başlangıç yılı için okunmuş akademik metin (Fedakâr 2010 yalnız başlığıyla)",
+    "Açu, Açe ve Temrük kalelerinin doğrulanmış koordinatı (bu yüzden Y-3 bir yer adı değil dolgu)"
+  ],
+
+  "indirme_sirasi_onerisi": [
+    "Y-1: önce karar (a/b), sonra kayıt + KK-1",
+    "Y-2: TAMAN-1774 kararı verilirse — ek delil bu dosyada",
+    "Y-3: kayıt + KK-4 metin eki; koşudan sonra Anapa gövdesi yeniden ölçülmeli (hedef: nehrin kuzeyinde ~0 km²)",
+    "KK-2, KK-3: harita etkisi yok, bağımsız inebilir"
+  ]
+}
