@@ -2155,6 +2155,14 @@ Notlar:
 - Yayından önce sürüm damgasını yükselt, yoksa kullanıcı tarayıcı önbelleğinden
   eski dosyaları görür ve "değişmemiş" der.
 - Yayın gecikmesi: push'tan sonra GitHub Pages'in yeni sürümü sunması ~40-60 sn.
+- 🟢 **KOŞU ÇIKTISI HER ZAMAN BAYATTIR — YİNE DE YAYINLANIR** (Emre, 17 Eylül 2026):
+  > *"Koşular uzun sürdüğü için zaten bayat olmak zorunda … 20 saat boyunca çalışıp bir sürü
+  > ekleme yapıyoruz … bayat mayat deme, yayınla gitsin."*
+  ~20 saatlik koşu sürerken veri ilerler; `denetle_yayin.py`nin **"YAYIN BAYAT"** hükmü bu yüzden
+  **yayını durdurmaz**, bilgi olarak commit mesajına yazılır (hangi girdi değişiklikleri sonraki
+  koşuya kaldı). Durduran yalnız koşunun **kendi** zincirindeki `denetle.py` ihlalidir.
+  Koşular ayrı worktree'de (`C:/atlas-kosuNN`) koşar; ana klasör koşu sırasında serbesttir.
+  Koşu gerekirse durdurulup yeni tabanla yeniden başlatılır — beklemek yerine yol alınır.
 
 ---
 
