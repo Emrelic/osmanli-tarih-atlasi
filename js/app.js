@@ -8659,6 +8659,12 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_rusiran",    // window.EKOKUMA_RUSIRAN — Rusya-İran ilişkileri, 0059/7
   "ekokuma_baslik_oneri", // window.EKOBASLIK_ONERI — {id: başlık}, DİZİ DEĞİL, havuza girmez (0057/6)
   "ekokuma_bag_oneri",   // window.EKOBAG_ONERI — {id: olay[]}, DİZİ DEĞİL (0057/6 ilgililik)
+  // 🆕 17 Eylül 2026 — BAGLAMA (koordinatör 1.MURAT), diskte hazır bekleyen 5 teslim
+  "ekokuma_vecize",      // window.EKOKUMA_VECIZE (4 kart)
+  "ekokuma_kurum2",      // window.EKOKUMA_KURUM2 — EKO-KURUM2 teslimi, M-4409 (2 kart)
+  "ekokuma_korfez",      // window.EKOKUMA_KORFEZ (4 kart)
+  "ekokuma_karsi",       // window.EKOKUMA_KARSI — tür karsi-anlati (10 kart)
+  "ekokuma_savas1770",   // window.EKOKUMA_SAVAS1770 (1 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -8865,7 +8871,11 @@ var EKOKUMA_TUR = {
   // ve `k.tur === tur` süzgeci (ekOkumaButonlariGuncelle) zaten yalnız
   // kendi türünü seçer — YİNELENME riski yok, tek havuz yeter.
   "edebiyat":        { etiket: "🖋️ Edebiyat",         kaynak: function () { return _ekHavuz(); } },
-  "savas-hikayesi":  { etiket: "⚔️ Savaşın Hikâyesi", kaynak: function () { return _ekHavuz(); } }
+  "savas-hikayesi":  { etiket: "⚔️ Savaşın Hikâyesi", kaynak: function () { return _ekHavuz(); } },
+  // 🆕 17 Eylül 2026 — BAGLAMA (M-4435, 1.MURAT onayı). ekokuma_karsi.js
+  // (EKO-KARSI, 10 kart) `tur:"karsi-anlati"` taşıyor ama bu anahtar hiç
+  // tanımlı değildi — D099: kayıt bağlıydı, buton HİÇ çıkmıyordu.
+  "karsi-anlati":    { etiket: "🔄 Karşı Anlatı",      kaynak: function () { return _ekHavuz(); } }
 };
 
 function ekOkumaButonlariGuncelle(o) {

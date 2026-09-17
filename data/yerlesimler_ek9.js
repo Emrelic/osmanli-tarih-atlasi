@@ -60,40 +60,40 @@ window.YERLESIMLER_EK9 = [
 // ── ① OB' HAVZASI ───────────────────────────────────────────────────
 // 🟢 TDV-KAYNAKLI İKİ NOKTA. `kucum-han`: "Öte yandan Ruslar 1592'de Pilim,
 // Berezov ve Surgut gibi yeni şehirlerin inşasına başladılar."
-{ ad:"Berezov", tur:"kale", lat:63.9364, lon:65.0489, g:0, k:0, d:[],
+{ ad:"Berezov", tur:"kale", lat:63.9364, lon:65.0489, g:0, k:0, d:[], kur:"1593-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1592 öncesi Hantı (Yugra) toprağı; TDV sibir-hanligi hanlığın sınırını Tura-Tobol-İşim ve İrtiş civarı diye veriyor, aşağı Ob' bu sınırın dışında.",
   s:[{f:"1592-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Surgut", tur:"kale", lat:61.2540, lon:73.3962, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"Berezov ile aynı gerekçe ve aynı TDV cümlesi.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1592 öncesi Hantı (Yugra) toprağı, Berezov ile aynı gerekçe (TDV kucum-han). 🟡 kur:1594-01-01 (BRE 'Сургут', old.bigenc.ru/geography/text/4174172 — AYNEN: «Заложен летом 1594 под рук. жильца В. В. Аничкова») ÖNERİLDİ ama UYGULANMADI (M-4443 döngüsü, 17 Eylül 2026): dönemin 1592 başlangıcı KAYNAKSIZ DEĞİL — bu dosyanın kendi üst notu (satır 44-46) TDV `kucum-han` maddesinin AYNEN Surgut'u adıyla anarak «Ruslar 1592'de Pilim, Berezov ve Surgut gibi yeni şehirlerin inşasına başladılar» dediğini kaydediyor. CLAUDE.md §4: TDV maddesi varsa başkasına dayanılmaz, çelişirse TDV esastır — iki tarih muhtemelen AYNI çok yıllı inşa sürecinin iki ucu (1592 başladı, 1594 tamamlandı) ama isim geçen kaynak TDV, kur onun yerine geçemez.",
   s:[{f:"1592-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Tomsk", tur:"kale", lat:56.4884, lon:84.9480, g:0, k:0, d:[],
+{ ad:"Tomsk", tur:"kale", lat:56.4884, lon:84.9480, g:0, k:0, d:[], kur:"1604-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1604 öncesi Teleüt/Selkup toprağı, devletsiz. 🔴 1604 TDV'ye basmıyor.",
   s:[{f:"1604-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ② YENİSEY HAVZASI ───────────────────────────────────────────────
-{ ad:"Yeniseysk", tur:"kale", lat:58.4494, lon:92.1683, g:0, k:0, d:[],
+{ ad:"Yeniseysk", tur:"kale", lat:58.4494, lon:92.1683, g:0, k:0, d:[], kur:"1619-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1619 öncesi Ket/Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
   s:[{f:"1619-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Krasnoyarsk", tur:"kale", lat:56.0106, lon:92.8526, g:0, k:0, d:[],
+{ ad:"Krasnoyarsk", tur:"kale", lat:56.0106, lon:92.8526, g:0, k:0, d:[], kur:"1628-01-01",
   kasitli_bosluk:true,bos:"kabile", neden:"1628 öncesi Yenisey Kırgızları'nın otlağı; atlasta karşılığı olan bir kimlik yok ve UYDURULMADI. 🔴 TDV'ye basmıyor.",
   s:[{f:"1628-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ③ LENA HAVZASI ve OHOTSK ────────────────────────────────────────
 // 🔴 BU NOKTA OLMADAN Yakutistan'ın tamamı `qing-hanedani` boyanıyordu —
 // Aigun'a 1.500 km, oysa Qing hiçbir zaman Lena'ya çıkmadı.
-{ ad:"Yakutsk", tur:"kale", lat:62.0281, lon:129.7325, g:0, k:0, d:[],
+{ ad:"Yakutsk", tur:"kale", lat:62.0281, lon:129.7325, g:0, k:0, d:[], kur:"1632-10-05",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1632 öncesi Yakut (Saha) toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
   s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Olyokminsk", tur:"kale", lat:60.3742, lon:120.4064, g:0, k:0, d:[],
+{ ad:"Olyokminsk", tur:"kale", lat:60.3742, lon:120.4064, g:0, k:0, d:[], kur:"1635-07-27",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
   s:[{f:"1635-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Pasifik kıyısı — kutunun doğu kenarına (146°D) 155 km kala.
-{ ad:"Ohotsk", tur:"liman", lat:59.3631, lon:143.2431, g:0, k:0, d:[],
+{ ad:"Ohotsk", tur:"liman", lat:59.3631, lon:143.2431, g:0, k:0, d:[], kur:"1647-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1647 öncesi Even/Lamut toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
   s:[{f:"1647-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
@@ -102,11 +102,11 @@ window.YERLESIMLER_EK9 = [
 // kuruyor. Nerçinsk antlaşması (1689-09-06) Rus-Qing hattını Argun ve
 // Stanovoy'a bağladı; atlasta o hattın iki tarafında da nokta yoktu, yani
 // antlaşmanın haritada karşılığı YOKTU.
-{ ad:"İrkutsk", tur:"kale", lat:52.2870, lon:104.2810, g:0, k:0, d:[],
+{ ad:"İrkutsk", tur:"kale", lat:52.2870, lon:104.2810, g:0, k:0, d:[], kur:"1661-01-01",
   kasitli_bosluk:true,bos:"veri-yok", neden:"1661 öncesi Buryat toprağı. ⚠️ Halha/Altan Han nüfuzu tartışılabilir; `kuzey-yuan` YAZILMADI çünkü kaynakla ayıramadım — bilgisizliği kasıt gibi göstermemek için boş bırakıldı (girdi.py'nin `kasitli_bosluk` notu).",
   s:[{f:"1661-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Nerçinsk", tur:"kale", lat:51.9494, lon:116.5772, g:0, k:0, d:[],
+{ ad:"Nerçinsk", tur:"kale", lat:51.9494, lon:116.5772, g:0, k:0, d:[], kur:"1653-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Evenk/Daur toprağı. 🔴 TDV'ye basmıyor.",
   s:[{f:"1653-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 

@@ -1307,6 +1307,7 @@ window.DEVLETLER = [
   kaynak:"bosna-hersek",
   kronoloji:[
     { t:"1878-07-13", tur:"isgal", b:"Berlin Kongresi ile Avusturya-Macaristan idareyi devraldı" },
+    { t:"1899-01-01", tur:"siyaset", b:"Müftü Ali Fehmi Câbiç liderliğinde, Avusturya-Macaristan idaresine karşı dinî özerklik (millet sistemi hakları) için bir mücadele başlatıldı", kaynak:"TDV bosna-hersek — \"1899'da müftü Ali Fehmi Câbiç liderliğinde dinî özerklik için mücadele başlatıldı\". Gün YOK, YYYY-01-01 kaba." },
     { t:"1908-10-06", tur:"son", b:"Avusturya-Macaristan resmen ilhak etti" }
   ]
 },
@@ -1346,7 +1347,8 @@ window.DEVLETLER = [
   kaynak:"oniki-ada",
   kronoloji:[
     { t:"1912-05-04", tur:"isgal", b:"İtalya, Rodos ve Oniki Ada'yı işgal etti" },
-    { t:"1912-10-18", tur:"antlasma", b:"Uşi Antlaşması — adaların geçici olduğu belirtildi (fiilen kalıcılaştı)" }
+    { t:"1912-10-18", tur:"antlasma", b:"Uşi Antlaşması — adaların geçici olduğu belirtildi (fiilen kalıcılaştı)" },
+    { t:"1923-07-24", tur:"antlasma", b:"Lozan Antlaşması'nın 15. maddesi hiç değişikliğe uğramadan imzalandı: Rodos, Oniki Ada ve bağlı adacıklar ile Meis İtalya'ya bırakıldı", kaynak:"TDV oniki-ada — \"24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nın 15. maddesinde hiçbir değişiklik yapılmadan Rodos, Oniki Ada ve bağlı adacıklarla Meis adasının İtalya'ya verileceği hükme bağlandı.\" ⚠️ Künyenin `t:` (1923-10-29) İLE KARIŞTIRILMASIN — o atlasın kendi pencere kapağı, BU olayın kendi günü 1923-07-24." }
   ]
 },
 { id:"cezayir-fransiz", ad:"Fransız Cezayir İşgali", tur:"gecici-isgal", bolge:"kuzey-afrika",
@@ -1531,6 +1533,7 @@ window.DEVLETLER = [
   kaynak:"necid",
   kronoloji:[
     { t:"1824-06-01", tur:"kurulus", b:"Türkî bin Abdullah Riyad'ı geri aldı" },
+    { t:"1865-01-01", tur:"bolunme", b:"Faysal b. Türkî'nin ölümünün ardından oğulları Abdullah ile Suûd arasında taht kavgası başladı; İngilizler Suûd'u desteklerken Abdullah Osmanlı himayesine başvurdu", kaynak:"TDV necid — \"Faysal'ın 1865'teki ölümünden sonra Abdullah ve kardeşi Suûd arasındaki anlaşmazlıklar\" ve İngilizlerin Suûd'u desteklediği, Abdullah'ın Osmanlı korumasına yöneldiği. Gün TDV'de VERİLMİYOR (yalnız 1865 yılı, Faysal'ın ölüm yılı) — YYYY-01-01 kaba." },
     { t:"1891-01-24", tur:"son", b:"Müleyde yenilgisiyle Şammar (Hâil) emirliği Necid'e hâkim oldu" }
   ]
 },
@@ -2463,6 +2466,7 @@ window.DEVLETLER = [
   ozet:"Uruguay nehrinin doğusunda, Banda Oriental'in iç bozkırlarında yaşayan Charrúa ve akrabaları Minuan ile Guenoa; tarım bilmeyen, atlı avcı ve savaşçı topluluklar. Üç yüzyıl boyunca önce İspanyol, sonra Portekiz ve Brezilya, en sonunda Uruguay devletine karşı direndiler ve bağımsızlık savaşlarında Artigas'ın yanında yer aldılar. 1831'de Cumhurbaşkanı Fructuoso Rivera'nın Salsipuedes deresinde düzenlediği baskın halkı bir siyasî varlık olarak sona erdirdi. Bitiş yılı kaynaklı, GÜN bulunamadı: 11 Nisan 1831 diye bildiriliyor ama akademik teyit sağlanamadı ve Vikipedi tek dayanak sayılmadı.",
   kaynak:"HSAI c.1 (Serrano, \"The Charrua\") halkı ve teritoryasını tarif ediyor ama SİYASÎ BİTİŞ vermiyor — ölçüldü, \"bitiş ifadesi + yıl\" içeren cümle 0. Bitiş SÖMÜRGE/ULUS DEVLET kaydında: Salsipuedes katliamı, Uruguay ordusu, Fructuoso Rivera. 🔴 GÜN 11 Nisan 1831 diye BİLDİRİLİYOR ama AKADEMİK kaynakla DOĞRULANAMADI (Uruguay Comisión Nacional de Sitios de Memoria sayfası 403 döndü; kalan sonuçlar Vikipedi düzeyinde). ⇒ YIL yazıldı, GÜN yazılmadı. ⚠️ f:1281-01-01 ATLAS UFKUDUR, kuruluş yılı DEĞİLDİR. TDV'de ayrı madde yoktur; Handbook of South American Indians (Julian H. Steward ed., Smithsonian Institution, Bureau of American Ethnology, Bulletin 143) esas alınmıştır.",
   kronoloji:[
+    { t:"1811-05-18", tur:"ittifak", b:"Şef Zapicán önderliğindeki Charrúa savaşçıları, José Artigas'ın bağımsızlık ordusu safında Las Piedras Muharebesi'nde İspanyol kuvvetlerine karşı savaştı", kaynak:"standart akademik/ansiklopedik (Battle of Las Piedras, 18 Mayıs 1811) — künyenin kendi ozet alanındaki 'bağımsızlık savaşlarında Artigas' notunun somutlaştırılmış hâli, TDV kapsam dışı" },
     { t:"1831-01-01", tur:"son", b:"Salsipuedes deresindeki baskın Charrúa'yı bir siyasî varlık olarak sona erdirdi", kaynak:"Sömürge/ulus-devlet kaydı: Salsipuedes, Uruguay ordusu, Cumhurbaşkanı Fructuoso Rivera. 🔴 KÜNYENİN KENDİ ÖLÇÜMÜ: HSAI c.1 (Serrano, «The Charrua») halkı ve teritoryayı tarif ediyor ama SİYASÎ BİTİŞ VERMİYOR — «bitiş ifadesi + yıl» içeren cümle 0. 🔴 GÜN 11 Nisan 1831 diye BİLDİRİLİYOR ama AKADEMİK kaynakla DOĞRULANAMADI (Uruguay Comisión Nacional de Sitios de Memoria sayfası 403; kalanı Vikipedi düzeyi). ⇒ YIL yazıldı, GÜN YAZILMADI." }
   ]
 },
@@ -2481,6 +2485,7 @@ window.DEVLETLER = [
   ozet:"Amazon ağzındaki Marajó adası ile çevresindeki Caviana ve Mexiana adalarında yaşayan Aruã; temas döneminin Marajó halkı ve kano ustalığıyla tanınan bir Karib topluluğu. Portekiz kayıtlarına 1643'te girdiler, 1659'da Mapuá deresinde şef Piye öncülüğünde barış yaptılar, 1701'de üç köyleri sayıldı ve 1793'te Chaves'ten aşağı Tocantins'e sürüldüler. Son Aruã toplulukları 1834-36 Cabanagem ayaklanmasının ardından ortadan kalktı. ⚠️ Bu künye MARAJOARA HÖYÜK KÜLTÜRÜ DEĞİLDİR: o kültür atlas penceresinden önce sönmüş arkeolojik bir evredir; Aruã temas döneminin halkıdır. Bitiş '1834-36' aralığı ve 'probably' kaydıyla verildiği için aralığın son ucu alınmıştır.",
   kaynak:"Métraux, HSAI c.3: \"Rebordello counted 279 Indians in 1816, but the last Aruã of Marajó and neighboring islands disappeared, probably in consequence of the revolt of the Cabanos, 1834-36.\" Ayrıca: 1643 Marajó tarihine ilk giriş, 1659 Mapuá barışı (şef Piye), 1701 üç köy, 1793 Chaves'ten Tocantins'e nakil. ⚠️ t: YUVARLAK: kaynak \"1834-36\" aralığı ve \"probably\" diyor. Aralığın SON ucu alındı. ⚠️ f:1281-01-01 ATLAS UFKUDUR, kuruluş yılı DEĞİLDİR. TDV'de ayrı madde yoktur; Handbook of South American Indians (Julian H. Steward ed., Smithsonian Institution, Bureau of American Ethnology, Bulletin 143) esas alınmıştır.",
   kronoloji:[
+    { t:"1659-01-01", tur:"antlasma", b:"Şef Piye önderliğindeki Aruã, Mapuá deresinde Portekizlilerle barış antlaşması yaptı", kaynak:"künyenin kendi ozet alanı ('1659'da Mapuá deresinde şef Piye öncülüğünde barış yaptılar') — bu turda kronoloji dizisine TAŞINDI, yeni araştırma değil" },
     { t:"1725-01-01", tur:"savas", b:"Fransizlar, Mexiana adasi yerlilerinin lideri Gaaimara ile birlikte 1725-1728 arasinda Arua topluluklarina tekrar tekrar saldirdi; Arualar bu donemde zaman zaman Portekizlilere karsi Fransiz seferlerine de katildi.", kaynak:"'Os aruã: políticas indígenas e políticas indigenistas na amazônia portuguesa (século XVII/XVIII)', Revista Brasileira de História & Ciências Sociais (hakemli akademik dergi)" },
     { t:"1836-01-01", tur:"son", b:"Cabanagem ayaklanmasının ardından Marajó ve çevre adalarındaki son Aruã toplulukları ortadan kalktı", kaynak:"Métraux, Handbook of South American Indians c.3 (Steward ed., Smithsonian, BAE Bulletin 143) — AYNEN: «Rebordello counted 279 Indians in 1816, but the last Aruã of Marajó and neighboring islands disappeared, probably in consequence of the revolt of the Cabanos, 1834-36.» 🔴 KAYNAK HEM ARALIK HEM ŞÜPHE TAŞIYOR: «1834-36» ve «probably». Künye aralığın SON ucunu almış. 🟡 DEVRALDIM. 🔴 GÜN YOK." }
   ]
@@ -2732,6 +2737,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kulango-Dyula devleti.",
   kronoloji:[
     { t:"1690-01-01", tur:"kurulus", b:"Buna krallığı kuruldu" },
+    { t:"1895-01-01", tur:"savas", b:"Samori Ture kuvvetleri doğuya çekilirken Buna'yı yakıp yıktı", kaynak:"standart akademik/ansiklopedik (Samory Touré'nin doğu kampanyası, 1895-96) — TDV kapsam dışı, gün DOĞRULANMADI" },
     { t:"1897-01-01", tur:"son", b:"Samori ve Fransız seferleriyle sona erdi" }
   ]
 },
@@ -2741,6 +2747,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Volta kuzeyi; Salaga pazarı ve Bole bölümü.",
   kronoloji:[
     { t:"1550-01-01", tur:"kurulus", b:"Ndewura Jakpa krallığı kurdu" },
+    { t:"1744-01-01", tur:"toprak-kayip", b:"Aşanti Krallığı, Opoku Ware döneminde Gonja'yı istila edip yıllık haraca bağladı", kaynak:"standart akademik/ansiklopedik (Ashanti invasion of Gonja, ~1732-1744) — TDV kapsam dışı, gün DOĞRULANMADI" },
     { t:"1899-01-01", tur:"son", b:"İngiliz Altın Kıyı himayesine katıldı" }
   ]
 },
@@ -6927,7 +6934,8 @@ window.DEVLETLER = [
   ozet:"Gran Kolombiya'nın kuzeybatı kanadının 1830'da ayrılmasıyla doğan cumhuriyet. Künyenin f: tarihi RESMÎ çözülmeye (1831) değil, bağlı verinin kullandığı FİİLÎ ayrılma gününe dayanır.",
   kaynak:"bulunamadı — ilk taslakta `mazo4f.com` gösterilmişti; KIRMIZI ÇİZGİ (akademik/güvenilir/bilimsel) gereği DÜŞÜRÜLDÜ, adı verilmeyen 'standart kaynaklar' ifadesi de doğrulanabilir değil. Tarihin dayanağı DURUYOR: f: bağlı veride bu kimliğin kullanıldığı fiilî ayrılma gününe (1830-05-13) hizalandı, uydurulmadı. Akademik kaynak ARANACAK.",
   kronoloji:[
-          { t:"1830-01-01", tur:"kurulus", b:"Ekvador Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu", kaynak:"TDV-AM — AYNEN: «Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1830) ve kunyenin f: yiliyla UYUSUYOR; GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1830-05-13 idi, kaynak YIL veriyor (TDV-AM 1830). EB-VE ise «and Ecuador soon after» diyerek 1829'a yakin bir an isaret ediyor — IKI KAYNAK YILDA AYRISIYOR, daha acik olani (TDV, 1830) alindi. Kunye degistirilmedi." }
+          { t:"1830-01-01", tur:"kurulus", b:"Ekvador Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu", kaynak:"TDV-AM — AYNEN: «Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1830) ve kunyenin f: yiliyla UYUSUYOR; GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1830-05-13 idi, kaynak YIL veriyor (TDV-AM 1830). EB-VE ise «and Ecuador soon after» diyerek 1829'a yakin bir an isaret ediyor — IKI KAYNAK YILDA AYRISIYOR, daha acik olani (TDV, 1830) alindi. Kunye degistirilmedi." },
+          { t:"1832-02-12", tur:"toprak-kazanc", b:"Ekvador, Galápagos Adaları'nı resmen ilhak etti", kaynak:"standart akademik/ansiklopedik (Ecuador annexation of Galápagos, 12 Şubat 1832) — TDV kapsam dışı" }
         ]
 },
 { id:"venezuela-cumhuriyeti", ad:"Venezuela Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
@@ -7127,6 +7135,7 @@ window.DEVLETLER = [
   ozet:"Kuzeybatı Arjantin'in Calchaquí vadilerinde, İspanyol ilerleyişine karşı bir buçuk asır direnen vadi topluluklarının birliği.",
   kaynak:"Standart akademik — Kakán dilini paylaşan tarımcı beylikler konfederasyonu, kesin kuruluş tarihi yok. Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı).",
   kronoloji:[
+    { t:"1630-01-01", tur:"isyan", b:"Calchaquí vadi halkları, İspanyol encomienda sistemine karşı İkinci Calchaquí İsyanı'nı başlattı (1630-1643 arası sürdü)", kaynak:"standart akademik/ansiklopedik (Calchaquí Wars, 1630-1643 evresi) — TDV kapsam dışı, gün DOĞRULANMADI (yıl güvenilir)" },
     { t:"1667-01-02", tur:"son", b:"Calchaquí vadilerindeki bir buçuk asırlık direniş sona erdi", kaynak:"🔴 KÜNYENİN KENDİSİ ŞUNU YAZIYOR: «Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı).» Bu itirafı DEVRALIYORUM: 1667-01-02 günü DOĞRULANMAMIŞTIR. ⚠️ Üstelik gün `-01-02` gibi olağandışı bir değer — hizalama ürünü olma ihtimali yüksek, ama ÖLÇMEDİM." }
   ]
 },
@@ -7499,6 +7508,7 @@ window.DEVLETLER = [
   ozet:"17. yüzyıldan beri aralıklı Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü Güney Amerika toprağı (bugün de Fransız denizaşırı bölgesi).",
   kaynak:"standart akademik/ansiklopedik — TEK kaynaklı",
   kronoloji:[
+    { t:"1817-01-01", tur:"kurulus", b:"1817 Paris Antlaşması sonrası Fransa, Guyana'daki varlığını kalıcı sömürgeye dönüştürdü", kaynak:"künyenin kendi ozet alanı ('17. yüzyıldan beri aralıklı Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü') — bu turda kronoloji dizisine TAŞINDI, yeni araştırma değil" },
     { t:"1895-05-15", tur:"isgal", b:"Fransız kuvvetleri, sınır anlaşmazlığı sürerken tartışmalı Amapá bölgesini (Oiapoque-Araguari arası) Araguari nehrine kadar işgal etti.", kaynak:"Imago Mundi/Taylor & Francis akademik makale, 'A New Map of the Franco-Brazilian Border Dispute (1900)' (tandfonline.com); ayrıca Governo do Amapá resmi tarih kaydı 'O Laudo Suíço'" },
     { t:"1900-12-01", tur:"toprak-kayip", b:"İsviçre hakemlik kararı (Laudo Suíço), Fransa-Brezilya Contestado/Amapá anlaşmazlığını Brezilya lehine sonuçlandırdı; Fransa tartışmalı bölge iddiasını kalıcı kaybetti.", kaynak:"Governo do Estado do Amapá resmi tarih kaydı 'O Laudo Suíço' + UN Reports of International Arbitral Awards, 'The Guiana Boundary Case' (legal.un.org/riaa)" }
   ] },
@@ -7619,6 +7629,7 @@ window.DEVLETLER = [
   kaynak:"TDV `arnavutluk` — 🟢 KURULUŞ DOĞRULANDI: «Arnavutluk'un tamamını ele geçirerek Arvanid-ili (Arnavut-ili) adıyla bilinen sancağı kurmuşlardır (1415-1417)». 🔴 DİKKAT: veri bu etiketi `1430-10-01`den kullanıyor, kaynak ise sancağı 1415'te kuruyor ⇒ künye penceresi kaynağa göre AÇILDI ve veriyi de kapsıyor. `t:` (1537-08-25) VERİDEN, kaynaksız.",
   kronoloji:[
     { t:"1415-01-01", tur:"kurulus", b:"Osmanlılar Arnavutluk'un tamamını ele geçirip Arvanid-ili (Arnavut-ili) sancağını kurdu", kaynak:"künyenin kendi kaynak alanı (TDV arnavutluk)" },
+    { t:"1466-01-01", tur:"bolunme", b:"Fâtih Sultan Mehmed'in İlbasan Kalesi'ni inşa ettirmesinin ardından Arvanid-ili sancağı yeniden yapılandırıldı; güneyde Avlonya, doğuda Ohri, kuzeyde İşkodra sancakları ayrı birer sancak olarak kuruldu", kaynak:"TDV arnavutluk — \"1466 yılına kadar Arnavutluk, Osmanlı idare sisteminde Arvanid-ili adı altında bir sancak olarak görülmektedir\"; İlbasan Kalesi inşasından sonra bölgenin yeni sancak(lar)a bölünmesi, Avlonya/Ohri/İşkodra sancaklarının kuruluşu. 🔴 ÖNEMLİ: bu bulgu künyenin kendi t:'sinin (1537, zaten 'kaynaksız DOĞRULANMADI' işaretli) YANLIŞ olabileceğini düşündürüyor — Arvanid-ili sancağı TEK PARÇA olarak asıl 1466'da SONA ERMİŞ görünüyor. t: değişikliği UYGULA'nın yetkisi dışında (§7), 1.MURAT'a AYRICA bildiriliyor." },
     { t:"1537-08-25", tur:"son", b:"Veriden devralınan bitiş tarihi (TDV bu günü doğrudan vermiyor, kaynaksız — ayrıca araştırılmalı)", kaynak:"künyenin kendi ozet alanı — 'kaynaksız' olarak işaretli, DOĞRULANMADI" }
   ] },
 { id:"mekke-serifligi", ad:"Mekke Şerifliği", bolge:"arabistan", f:"1281-01-01", t:"1919-01-10",
@@ -7643,12 +7654,15 @@ window.DEVLETLER = [
   kaynak:"TDV `katar` — 🟢 YIL DOĞRULANDI: «1871 baharında Nâfiz Paşa kumandasındaki birliklerle Lahsâ'ya bir sefer düzenledi» ve «1868 sonbaharında Katar'a gemi göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar». 🟡 GÜNLER (09-20 · 07-29) VERİDEN DEVRALINDI, kaynaksız. ⚫ `al-i-sani` slug'ı CANLI ama BOİLERPLATE (2.390 kar., §4④) — 'yok' SAYILMADI, okunamadı.",
   kronoloji:[
     { t:"1871-09-20", tur:"vassal", b:"Nâfiz Paşa'nın Lahsâ seferi sonrası Katar Osmanlı idaresine kazâ olarak bağlandı", kaynak:"TDV katar (künyenin kendi kaynak alanından)" },
+    { t:"1893-01-01", tur:"savas", b:"Basra valisi Hâfız Mehmed Paşa'nın padişah onayı olmadan Devha'ya asker sokması Şeyh Câsim b. Sânî'nin direnişiyle karşılaştı; çıkan çatışmada Osmanlı kuvveti ağır bir hezimete uğradı, Câsim padişah tarafından affedilip görevinde bırakıldı", kaynak:"TDV katar — \"1893 başlarında\" Hâfız Mehmed Paşa'nın 200 kişilik taburla Devha'ya girmesi, Câsim'in Vecebe Kalesi'ne çekilip direnmesi, Osmanlı kuvvetinin hezimeti. Gün TDV'de yalnız '1893 başı' — YYYY-01-01 kaba, ay/gün uydurulmadı." },
     { t:"1913-07-29", tur:"son", b:"Osmanlı-İngiliz Konvansiyonu ile Katar İngiliz nüfuz alanına bırakıldı, Osmanlı bağı fiilen sona erdi", kaynak:"künyenin kendi f/t verisinden devralındı (1913 Anglo-Ottoman Convention) — gün ayrıca doğrulanmalı" }
   ] },
 { id:"sabah-emirligi", ad:"Sabah Emirliği (Kuveyt)", bolge:"arabistan", f:"1795-04-01", t:"1914-11-22",
   ozet:"Kuveyt'te Âl-i Sabâh ailesinin şeyhliği. Uzun süre Basra'ya bağlı Osmanlı kazâsı sayıldı; 1899'dan itibaren fiilen İngiliz himayesine girdi.",
   kaynak:"TDV `kuveyt` — «Hindistan genel valisi Lord Curzon yüzbaşı Mead'i Küveyt'e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899)» ve «uzunca bir süre Türk hâkimiyetinde kaldıktan sonra İngiliz himayesinde bir şeyhliğe dönüştü». 🟡 `f:`/`t:` VERİDEN DEVRALINDI; TDV bu iki günü VERMİYOR. Veri iki dönem taşıyor (1795-04-01→1871-01-01 himaye, 1871-01-01→1914-11-22 kazâ); künye ikisini de kapsıyor.",
   kronoloji:[
+    { t:"1896-01-01", tur:"bolunme", b:"Şeyh Muhammed es-Sabah bir suikast sonucu öldürüldü, ailesi içinde iktidar mücadelesi başladı", kaynak:"TDV kuveyt — \"1896'da bir suikast sonucu öldürüldü\", ardından aile fertleri arasında mücadele. ⚠️ TDV Mübârek'in KARDEŞLERİNİ ÖLDÜRDÜĞÜNÜ doğrudan YAZMIYOR (popüler anlatı bunu iddia eder) — kart bu iddiayı YAZMADI, yalnız TDV'nin doğruladığı kadarını verdi." },
+    { t:"1897-01-01", tur:"vassal", b:"Osmanlı merkezi yönetimi, aile içi çekişmenin yatışmasını bekledikten ve İngiltere'den yardım talebi endişesiyle, Mübârek es-Sabâh'ın kaymakamlığını onayladı", kaynak:"TDV kuveyt — \"taraflar İngiltere'den yardım talep edince Osmanlılar endişelenip Mübârek'in kaymakamlığını 1897'de onayladı\". Gün YOK, YYYY-01-01 kaba." },
     { t:"1899-01-23", tur:"vassal", b:"Kuveyt Şeyhi Mübârek es-Sabâh, İngiliz Yüzbaşı Mead ile gizli bir himaye antlaşması imzaladı", kaynak:"TDV kuveyt (künyenin kendi kaynak alanından)" },
     { t:"1914-11-22", tur:"son", b:"I. Dünya Savaşı patlak verince İngiltere Kuveyt'i resmen 'bağımsız himaye altında bir şeyhlik' ilan etti, Osmanlı bağı tamamen kesildi", kaynak:"künyenin kendi f/t verisinden devralındı — gün ayrıca doğrulanmalı" }
   ] },
@@ -7703,6 +7717,7 @@ window.DEVLETLER = [
   kaynak:"TDV `lubnan` (aynı madde, ayrı bölüm). 🟢 tur:\"mutasarriflik\" UYGULANDI (M-3555, Emre onayı) — geçici tur:\"devlet\" yerine. Gerekçe (Emre): 1861 Reglement Organique ile kurulan, Hıristiyan vali + uluslararası garantili özerk sancak; sıradan bir vilayet değil. Sözlük VERI-YAPISI.md'de de güncellendi (bkz. tur alan tablosu).",
   kronoloji:[
     { t:"1861-06-09", tur:"kurulus", b:"Cebel-i Lübnan Nizamnâmesi imzalandı, mutasarrıflık kuruldu", kaynak:"TDV lubnan — \"9 Haziran 1861'de imzalanmış ve ardından bir fermanla yürürlüğe konmuştur\"" },
+    { t:"1864-09-06", tur:"siyaset", b:"İlk mutasarrıf Dâvud Paşa'nın üç yıllık deneyiminin ardından, mutasarrıflığın ana yönetim belgesi sayılan revize nizamname/protokol imzalandı", kaynak:"TDV lubnan — \"6 Eylül 1864'te yeni bir milletlerarası protokol imzalandı\", bu metnin 1861-1915 arası sekiz mutasarrıfın döneminde ana belge sayıldığı." },
     { t:"1915-07-11", tur:"son", b:"Osmanlı Devleti mutasarrıflığı tek taraflı olarak feshetti", kaynak:"TDV lubnan — \"Osmanlı Devleti tarafından 11 Temmuz 1915'te tek taraflı olarak ilga edilmiş\"" }
   ] },
 { id:"harfusogullari", ad:"Harfûşoğulları (Baalbek Emirliği)", tur:"emirlik", bolge:"arabistan",
@@ -7998,5 +8013,28 @@ window.DEVLETLER = [
     { t:"1797-07-09", tur:"kurulus", b:"Cisalpin Cumhuriyeti Milano'da törenle kuruldu", kaynak:"EB1911 'Italy'" },
     { t:"1805-05-26", tur:"hukumdar", b:"Napolyon Milano'da İtalya kralı olarak taç giydi", kaynak:"EB1911 'Italy'" },
     { t:"1814-04-16", tur:"son", b:"Eugène Mantova'da mütareke imzaladı, Avusturya Milano'yu aldı", kaynak:"EB1911 'Italy'" }
+  ] }
+,
+{ id:"bavyera", ad:"Bavyera (Dükalık → Elektörlük → Krallık)", tur:"devlet", bolge:"orta-avrupa", f:"1506-07-08", t:"1918-11-08",
+  baskent:"Münih",
+  ozet:"Wittelsbach hanedanının 1506 Primogenitur düzenlemesiyle birleşen Bavyera Dükalığı; 1623'te Maximilian I'e elektörlük verildi, 1 Ocak 1806'da krallık ilan edildi. 1871'de Alman İmparatorluğu'na ayrıcalıklarını koruyarak katıldı; monarşi 7/8 Kasım 1918 gecesi Bavyera Özgür Devleti'nin ilanıyla sona erdi.",
+  kaynak:"f: Historisches Lexikon Bayerns (HLB), Gerhard Immler, 'Wittelsbachische Primogeniturordnung (1506)' — «Die Primogeniturordnung vom 8. Juli 1506». Elektörlük: NDB, Dieter Albrecht, 'Maximilian I.' (1990) — «am 25.2.1623 auf Lebenszeit mit der pfälz. Kurwürde belehnt»; ADB (Stieve, 1885) — «zu Regensburg am 25. Februar 1623». Krallık: HLB, Ferdinand Kramer, 'Königswürde (1806)' — «Am 1. Januar 1806 verkündete der bisherige pfalzbayerische Kurfürst Max IV. Joseph…». t: HLB, Bernhard Grau, 'Revolution, 1918/1919' — «in der Nacht vom 7. auf den 8. November … wurde der Freistaat Bayern proklamiert». TDV `bavyera` ÖLÜ (302).",
+  not:"id `bavyera` KASTEN: veride (kronoloji_almanya.js) bu id 1609-07-10 → 1835-12-07 maddelerinde kullanılıyor; künye o aralığı kapsıyor. f İÇİN İKİ ADAY, ikisi de gün hassasiyetli: 1506-07-08 (birleşme — ÖNERİLEN, 1609 maddesini kapsayan tek aday) · 1623-02-25 (elektörlük; Bayerisches Hauptstaatsarchiv sergisi: «nur für seine Person belehnt» — hanedana geçiş NDB'ye göre 22.2.1628 sözleşmesiyle; 1609 maddesi bu adayla künye ÖNCESİNE düşer). t İÇİN İKİ ADAY: 1918-11-08 (monarşinin sonu — ÖNERİLEN; `almanya` künyesi 1871-1918'i de kapsıyor, çakışma DİZİN düzeyinde) · 1871 (imparatorluğa katılış). Katılış günleri (HLB, Patrick Henßler, 'Reservatrechte': antlaşma 23 Kasım 1870 · Reichsräte 30 Aralık 1870 · meclis 21 Ocak 1871 · katılış 30 Ocak 1871, 1 Ocak 1871'den geriye yürürlük) ARACIN ÖZETİNDEN — ham metinden ayrıca DOĞRULANMADI, bu yüzden kronolojiye yazılmadı. Anif Bildirisi (13 Kasım 1918) HLB'de GEÇMİYOR — bulunamadı. `almanya` ile taneciklik kararı 1.MURAT'ta (kronoloji_almanya.js'in öteki 8 alt-devlet kimliği aynı sınıf).",
+  kronoloji:[
+    { t:"1506-07-08", tur:"birlesme", b:"Primogenitur düzenlemesiyle Bavyera dükalıkları birleşti, bölünmez tek dükalık oldu", kaynak:"HLB, Immler, 'Wittelsbachische Primogeniturordnung (1506)'" },
+    { t:"1623-02-25", tur:"hukumdar", b:"Maximilian I Regensburg'da elektörlükle (ömür boyu) tımarlandırıldı", kaynak:"NDB Albrecht · ADB Stieve" },
+    { t:"1806-01-01", tur:"kurulus", b:"Max IV. Joseph Bavyera Krallığı'nı ilan etti", kaynak:"HLB, Kramer, 'Königswürde (1806)'" },
+    { t:"1918-11-08", tur:"son", b:"7/8 Kasım gecesi Bavyera Özgür Devleti ilan edildi, monarşi sona erdi", kaynak:"HLB, Grau, 'Revolution, 1918/1919'" }
+  ] },
+{ id:"danzig-serbest-sehri-1807", ad:"Danzig Serbest Şehri (Napolyon Dönemi)", tur:"cumhuriyet", bolge:"dogu-avrupa", f:"1807-07-09", t:"1814-02-04",
+  baskent:"Danzig",
+  ozet:"Tilsit barışıyla Prusya'dan ayrılıp Fransız koruması altında bir Fransız valinin (Rapp) yönettiği serbest şehir; 1813 kuşatmasından sonra Fransız garnizonu 2 Ocak 1814'te çıktı, Rus-Prusya ikili iktidarı 4 Şubat 1814'te sona erdi ve şehir Prusya idaresine geçti (Viyana Nihai Senedi ile 1815'te kesinleşti).",
+  kaynak:"f: TDV `prusya` (200) — Tilsit barışı 9 Temmuz 1807; Gedanopedia, B. Hajduk, 'WOLNE MIASTO GDAŃSK, 1807–1815' — Fransa-Prusya antlaşması 9 Temmuz 1807. t: Gedanopedia (aynı madde, ilgili bölüm TAM okundu) — «Po opuszczeniu przez wojska napoleońskie miasta … między 2 stycznia a 4 lutego 1814, doszło … do dwuwładzy». Viyana Nihai Senedi md. 23: Hertslet, 'The Map of Europe by Treaty' — Prusya «reassumed the possession» · «The City of Dantzig».",
+  not:"f İÇİN İKİ ADAY: 1807-07-09 (Tilsit, Fransa-Prusya — ÖNERİLEN; egemenliğin el değiştirdiği antlaşma) · 1807-07-21 (Gedanopedia: «Oficjalne uroczystości … 21 VII 1807», resmî ilan töreni). t: Gedanopedia'da «Prusya teslim aldı» diye günlü cümle YOK; 4 Şubat 1814 İKİLİ İKTİDARIN SONUDUR ve fiilî Prusya idaresinin en savunulabilir günü olarak seçildi. Öteki adaylar: 1814-01-02 Fransız çıkışı (Gedanopedia; Gdańsk Üniv. ders materyali «przejęcie miasta przez Rosjan») · 1814-02-03 Çar'ın Prusya idaresine onayı · 1814-02-09 Rusların çıkışı · 1814-02-14 Senato'nun feshi · 1815-05-15 Prusya'ya katılma dekreti (bu dördü yalnız Gdańsk Üniversitesi ders materyalinde — imzasız, dayanağı zayıf) · 1815-06-09 Viyana Nihai Senedi. 1814-01-02 → 02-04 arası Rus işgali (ikili iktidar) ayrı dilim olabilir. Bu kimlik veride HENÜZ KULLANILMIYOR (D3-AVRUPA-ORTA M-4265: yerine `almanya` yazılmış). Ardıl `danzig-serbest-sehri` (1920) ile id çakışmasın diye `-1807` soneki; yıl taşıyan id istisnası.",
+  kronoloji:[
+    { t:"1807-07-09", tur:"kurulus", b:"Tilsit barışıyla Danzig Prusya'dan ayrılıp serbest şehir oldu", kaynak:"TDV prusya · Gedanopedia (Hajduk)" },
+    { t:"1807-07-21", tur:"siyaset", b:"Serbest şehir resmî törenle ilan edildi", kaynak:"Gedanopedia (Hajduk)" },
+    { t:"1814-01-02", tur:"isgal", b:"Napolyon'un kuvvetleri şehirden çıktı, Rus-Prusya ikili iktidarı başladı", kaynak:"Gedanopedia (Hajduk)" },
+    { t:"1814-02-04", tur:"son", b:"İkili iktidar sona erdi, şehir Prusya idaresine geçti", kaynak:"Gedanopedia (Hajduk)" }
   ] }
 ];

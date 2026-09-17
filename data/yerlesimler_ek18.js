@@ -109,19 +109,19 @@ window.YERLESIMLER_EK18 = [
 
 // ── ① SİBİRYA HATTI — Sibir Hanlığı'nın ardılı, Cungar'ın kuzeyi ────
 // `_ek9`in Tomsk deseni birebir: fetihten önce kasten sahipsiz, sonra Rus.
-{ ad:"Tara", tur:"kale", lat:56.9021, lon:74.3714, g:0, k:0, d:[],
+{ ad:"Tara", tur:"kale", lat:56.9021, lon:74.3714, g:0, k:0, d:[], kur:"1594-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1594 öncesi Sibir Hanlığı'nın çevresi; hanlığın çekirdeği Tura-Tobol-İşim'di ve Tara İrtiş'in aşağısında, sınırın dışında. 🔴 1594 TDV'ye basmıyor.",
   s:[{f:"1594-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Omsk", tur:"kale", lat:54.9885, lon:73.3242, g:0, k:0, d:[],
+{ ad:"Omsk", tur:"kale", lat:54.9885, lon:73.3242, g:0, k:0, d:[], kur:"1716-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1716 öncesi Baraba/İrtiş bozkırı, devletsiz. 🔴 TDV'ye basmıyor.",
   s:[{f:"1716-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Kainsk (Baraba)", tur:"kale", lat:55.3600, lon:78.3600, g:0, k:0, d:[],
+{ ad:"Kainsk (Baraba)", tur:"kale", lat:55.3600, lon:78.3600, g:0, k:0, d:[], kur:"1722-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1722 öncesi Baraba bozkırı. ⚠️ `cungar` YAZILMADI: Baraba Cungar'ın değil Sibir Hanlığı'nın çevresiydi (`_ek9` gerekçesi) ve Cungar'ı buraya yazmak onu 600 km kuzeye taşırdı. 🔴 TDV'ye basmıyor.",
   s:[{f:"1722-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Kuznetsk", tur:"kale", lat:53.7570, lon:87.1360, g:0, k:0, d:[],
+{ ad:"Kuznetsk", tur:"kale", lat:53.7570, lon:87.1360, g:0, k:0, d:[], kur:"1618-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1618 öncesi Şor/Teleüt toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
   s:[{f:"1618-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 

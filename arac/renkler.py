@@ -521,7 +521,10 @@ BOYALAR = {
     "yogyakarta":              ("Yogyakarta Sultanlığı",              "#187020"),
     "multan-langah":           ("Multan (Langâh) Sultanlığı",         "#1b51e1"),
     "bahavelpur":              ("Bahâvelpûr Nevablığı",               "#3c5415"),
-    "bharatpur-cat":           ("Bharatpur (Cat) Krallığı",           "#1e54e4"),
+    # bharatpur-cat: eski #1e54e4 ↔ gvalyar #3050d2 çakışıyordu (ΔE 4.3) —
+    # RENK-ONERI (YAMA-RENK-0917), en yakın engelle ΔE 12.4 (5 komşu, 40
+    # evren, indor/maratha/gvalyar dörtlüsüyle birlikte çözüldü).
+    "bharatpur-cat":           ("Bharatpur (Cat) Krallığı",           "#d82472"),
     "cunagadh":                ("Cûnagadh Nevablığı",                 "#3c1515"),
     "bhopal":                  ("Bhopal Nevablığı",                   "#451539"),
     "kocin":                   ("Koçin Krallığı",                     "#183c1b"),
@@ -2268,7 +2271,10 @@ BOYALAR = {
     "ayutthaya":               ("Ayutthaya Krallığı (Siyam)",        "#a828d8"),
     "edo-bakufu":              ("Edo (Tokugawa) Şogunluğu",          "#a828d8"),
     "kamakura":                ("Kamakura Şogunluğu (Japonya)",      "#a828d8"),
-    "maratha":                 ("Maratha Konfederasyonu",            "#a828d8"),
+    # maratha: eski #a828d8 ↔ indor #ba24d2 çakışıyordu (ΔE 3.7) — ayrıca
+    # bharatpur-cat/gvalyar ile de komşu. RENK-ONERI (YAMA-RENK-0917), en
+    # yakın engelle ΔE 12.5 (28 komşu, 73 evren).
+    "maratha":                 ("Maratha Konfederasyonu",            "#1ed884"),
     "muromachi":               ("Muromachi (Ashikaga) Şogunluğu",    "#a828d8"),
     "siyam-chakri":            ("Siyam Krallığı (Rattanakosin / Chakri Hanedanı)", "#a828d8"),
     # ── #636f03  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli] · 4 kimlik
@@ -3144,8 +3150,13 @@ BOYALAR = {
     #             kaydırıldı, yeni min. margin 30,3 (indor'a karşı)
     #   indor·kolhapur·baroda  `--oner`in kendi önerisi kullanıldı, tüm
     #             gerçek-komşu çiftlerinde ΔE≥25
-    "gvalyar":                 ("Gvalyar Devleti (Sindiya Hanedanı)", "#3050d2"),
-    "indor":                   ("İndor Devleti (Holkar Hanedanı)",    "#ba24d2"),
+    # gvalyar: eski #3050d2 ↔ bharatpur-cat çakışıyordu (ΔE 4.3) —
+    # RENK-ONERI (YAMA-RENK-0917), en yakın engelle ΔE 12.0 (6 komşu, 41
+    # evren; eşiğe en yakın öneri ama geçerli).
+    "gvalyar":                 ("Gvalyar Devleti (Sindiya Hanedanı)", "#2472d8"),
+    # indor: eski #ba24d2 ↔ maratha çakışıyordu (ΔE 3.7) — RENK-ONERI
+    # (YAMA-RENK-0917), en yakın engelle ΔE 12.4 (4 komşu, 38 evren).
+    "indor":                   ("İndor Devleti (Holkar Hanedanı)",    "#d28424"),
     "kolhapur":                ("Kolhapur Devleti (Şivâcî'nin İkinci Kolu)", "#bad224"),
     # baroda: yerleşim NOKTASI YOK (sevk teyitli) — boyanacak hiçbir
     # gövde bugün yok, ama §8 gereği künye renksiz bırakılmaz.
@@ -3169,6 +3180,19 @@ BOYALAR = {
     # kuralı: "renk kimlik taşımaz, ayırma işi görür, komşu değillerse
     # paylaşım/yakınlık sorun değildir.")
     "bali-kralliklari-pejeng": ("Bali Pejeng Krallığı",                "#7224d2"),
+    # polonya-erken: devletler.js:707 künyesi (f:1320-01-20 t:1569-07-01)
+    # BOYALAR'da hiç tanımlı değildi — HARİTA DELİĞİ. data/*.js içinde
+    # d:"polonya-erken" 9 kez kullanılıyor. Öneri 8 Voronoi komşusuna göre
+    # (99 evren), en yakın engelle ΔE 12.1 (RENK-ONERI, YAMA-RENK-0917).
+    "polonya-erken":           ("Polonya (Erken Krallık/Prenslik)",    "#6cea0c"),
+    # kumuk-samhalligi: devletler.js:7655 künyesi (f:1578-11-01 t:1607-01-01,
+    # KOSU13-YAMA'nın notuna göre t: ayrıca gözden geçirilecek) — BOYALAR'da
+    # 'kumuk-samhalligi' ve kısaltma 'kumuk' hiç tanımlı değildi. 🟡 DÜŞÜK
+    # GÜVEN: komşu verisi YOK (girdi.py'nin okuduğu yerleşim dosyalarında
+    # henüz veri yok), öneri yalnız altlık+Osmanlı ikilisine karşı ΔE 12+
+    # (RENK-ONERI, YAMA-RENK-0917) — yerleşim verisi indikten sonra
+    # renk_olc.py --dogrula ile YENİDEN ölçülmeden güvenilmemeli.
+    "kumuk-samhalligi":        ("Kumuk Şamhallığı",                    "#6c24d2"),
 
 }
 
@@ -3219,9 +3243,14 @@ PAYLASIM = {
     #   AYNI hex'i taşıdığı için tek satır değişince hepsi değişti). Bağ
     #   KORUNDU: komşuluk yok gerekçesi bugün de geçerli, ölçülmedi ama
     #   grup zaten hiç değişmedi (yalnız hex kaydı).
+    # 🟢 BEYAN GÜNCELLENDİ — `maratha` ayrıldı (RENK-ONERI, YAMA-RENK-0917,
+    #   17 Eylül 2026). Sebep RENKTE DEĞİL VERİDEYDİ: indor/bharatpur-cat/
+    #   gvalyar ile GERÇEK Hint alt kıtası komşuluğu (ΔE 3.7 çakışma) —
+    #   `cungar`ın #7b1fa2'den ayrılmasıyla AYNI sınıf. İzleyen YOK — kalan
+    #   yedisi #a828d8'de kaldı; çakışma grubun değil tek üyenin sorunuydu.
     "#a828d8": ("Asya partisi — zeyyani ile paylaşımlı, komşuluk yok",
                 ["zeyyani", "abd", "ayutthaya", "edo-bakufu", "kamakura",
-                 "maratha", "muromachi", "siyam-chakri"]),
+                 "muromachi", "siyam-chakri"]),
     "#00695c": ("2026-07-30 denetimi (yugoslavya/hive) + Asya partisi",
                 ["yugoslavya", "hive", "goryeo", "hollanda-dogu-hint",
                  "joseon", "majapahit", "sih-imparatorlugu"]),

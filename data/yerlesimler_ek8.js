@@ -226,7 +226,7 @@ window.YERLESIMLER_EK8 = [
 // 📌 Ve bu, Değişmez 1'in sahipsiz tavanını yükseltir: aşağıdaki 17 kayıt
 //    1281-fetih arasında sahipsiz görünecek. SAYIYI GİZLEMİYORUM —
 //    ILERLEME.md'de tek tek yazılı ve hepsi kasıtlıdır.
-{ ad:"Obdorsk (Salehard)", tur:"kale", lat:66.5300, lon:66.6019, g:0, k:0, d:[],
+{ ad:"Obdorsk (Salehard)", tur:"kale", lat:66.5300, lon:66.6019, g:0, k:0, d:[], kur:"1595-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1595 öncesi Yugra/Nenets toprağı — TDV sibir-hanligi hanlığın sınırını Tura-Tobol-İşim ve İrtiş civarı diye veriyor, Ob' ağzı bu sınırın DIŞINDA. Devletsiz dönem uydurma devletle doldurulmadı.",
   s:[{f:"1595-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
@@ -238,16 +238,16 @@ window.YERLESIMLER_EK8 = [
 // terk edildi. `bit:` YAZILMADI: yerini Yeni Mangazeya (Turuhansk) aldı ve
 // bölge idaresi kesintiye uğramadı; `bit:` yazsam petek komşuya devrolur ve
 // aynı toprak iki kez sahiplendirilirdi.
-{ ad:"Mangazeya", tur:"kale", lat:66.6900, lon:82.3300, g:0, k:0, d:[],
+{ ad:"Mangazeya", tur:"kale", lat:66.6900, lon:82.3300, g:0, k:0, d:[], kur:"1601-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1601 öncesi Nenets/Selkup toprağı, devletsiz.",
   s:[{f:"1601-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ⑥ YENİSEY · TAYMIR ──────────────────────────────────────────────
-{ ad:"Turuhansk", tur:"kale", lat:65.7972, lon:87.9553, g:0, k:0, d:[],
+{ ad:"Turuhansk", tur:"kale", lat:65.7972, lon:87.9553, g:0, k:0, d:[], kur:"1607-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1607 öncesi Evenk/Ket toprağı, devletsiz.",
   s:[{f:"1607-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Dudinka", tur:"sehir", lat:69.4058, lon:86.1778, g:0, k:0, d:[],
+{ ad:"Dudinka", tur:"sehir", lat:69.4058, lon:86.1778, g:0, k:0, d:[], kur:"1667-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1667 öncesi Nganasan/Enets toprağı, devletsiz.",
   s:[{f:"1667-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
@@ -258,7 +258,7 @@ window.YERLESIMLER_EK8 = [
   s:[{f:"1626-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ⑦ LENA · YANA · İNDİGİRKA ───────────────────────────────────────
-{ ad:"Jigansk", tur:"kale", lat:66.7697, lon:123.3708, g:0, k:0, d:[],
+{ ad:"Jigansk", tur:"kale", lat:66.7697, lon:123.3708, g:0, k:0, d:[], kur:"1632-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1632 öncesi Evenk/Yakut toprağı, devletsiz.",
   s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
@@ -266,7 +266,7 @@ window.YERLESIMLER_EK8 = [
   kasitli_bosluk:true,bos:"devletsiz", neden:"Lena deltası; 1632 öncesi devletsiz. Tarih Jigansk'la aynı çünkü ikisi de Lena havzasının aynı yılki Rus ilerlemesiyle bağlandı.",
   s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Verhoyansk", tur:"kale", lat:67.5500, lon:133.3833, g:0, k:0, d:[],
+{ ad:"Verhoyansk", tur:"kale", lat:67.5500, lon:133.3833, g:0, k:0, d:[], kur:"1638-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1638 öncesi Yakut/Even toprağı, devletsiz.",
   s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
@@ -274,7 +274,7 @@ window.YERLESIMLER_EK8 = [
   kasitli_bosluk:true,bos:"devletsiz", neden:"Yana ağzı; Verhoyansk ile aynı 1638 ilerlemesi.",
   s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Zaşiversk", tur:"kale", lat:67.2500, lon:142.8500, g:0, k:0, d:[],
+{ ad:"Zaşiversk", tur:"kale", lat:67.2500, lon:142.8500, g:0, k:0, d:[], kur:"1639-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"İndigirka; 1639 öncesi Yukagir/Even toprağı, devletsiz.",
   s:[{f:"1639-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 

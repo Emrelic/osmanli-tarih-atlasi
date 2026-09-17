@@ -136,7 +136,7 @@ window.YERLESIMLER_EK13 = [
 // SINIRLANDIRMADAN bıraktı** — iki tarafın da yazılamadığı bir aralık.
 // Rus ostrogu 1679'dan beri orada duruyor ve hiç el değiştirmiyor;
 // o yüzden tek kesintisiz `rusya` dönemi taşıyor.
-{ ad:"Udskoy ostrogu", tur:"kale", lat:54.5500, lon:134.4500, g:0, k:0, d:[],
+{ ad:"Udskoy ostrogu", tur:"kale", lat:54.5500, lon:134.4500, g:0, k:0, d:[], kur:"1679-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1679 öncesi Evenk/Negidal toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
   s:[{f:"1679-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
@@ -160,7 +160,7 @@ window.YERLESIMLER_EK13 = [
 //    artefakt (Sapporo'nun Amur ağzını boyaması) beş yüz yıl geri gelir.
 //    Kayıt bir KASABAYI değil, ağzın hukukî sahibini modelliyor.
 { ad:"Nikolayevsk (Amur ağzı)", tur:"liman", lat:53.1400, lon:140.7300, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"1689-09-06 öncesi Nivh (Gilyak) toprağı; Qing idaresi Amur ağzına inmedi, Rusya da Nerçinsk'e kadar iddia etmedi. 🔴 TDV'ye basmıyor.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1689-09-06 öncesi Nivh (Gilyak) toprağı; Qing idaresi Amur ağzına inmedi, Rusya da Nerçinsk'e kadar iddia etmedi. 🔴 TDV'ye basmıyor. 🟡 kur:1850-08-13 (Başkanlık Kütüphanesi, Nikolayevski post) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1689 qing-hanedani) Nerçinsk Antlaşması'nın Amur havzasını Qing sınırına bıraktığı ve Ningguta askerî-idarî merkezinin (1653, resmî yetkisi Heilongjiang/Amur havzasını kapsıyor) tarihî temeline dayanıyor — kaynaksız DEĞİL, nokta zaten belgeli bölgesel egemenliği taşıyor.",
   s:[{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ⚠️ AIGUN'A 6,6 km — VE BU KASITLI.
@@ -176,18 +176,18 @@ window.YERLESIMLER_EK13 = [
 // 1651-1689 arası RUS ve 240 km ötede — boşluk yazmak Amur'un solunda
 // 38 yıllık delik açıyordu. Aynı voyvodalık, aynı zincir.
 { ad:"Blagoveşçensk", tur:"sehir", lat:50.2800, lon:127.5350, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"1651 öncesi Daur toprağı, devletsiz. Zincir Albazin'den birebir: aynı Amur voyvodalığı, aynı üç gün. 🔴 TDV'ye basmıyor.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1651 öncesi Daur toprağı, devletsiz. Zincir Albazin'den birebir: aynı Amur voyvodalığı, aynı üç gün. 🔴 TDV'ye basmıyor. 🟡 kur:1856-06-02 (Blagoveşçensk şehir idaresi) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1651 rusya — Albazin/Amur voyvodalığı, belgeli Kazak seferi; 1689 qing — Nerçinsk Antlaşması) gerçek tarihî olaylara dayanıyor, kaynaksız DEĞİL.",
   s:[{f:"1651-01-01",t:"1689-09-06",d:"rusya"},{f:"1689-09-06",t:"1858-05-28",d:"qing-hanedani"},{f:"1858-05-28",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ③ USSURİ'NİN DOĞUSU — Pekin antlaşması (1860-11-14) ──────────────
 // Üçü de 1858 DEĞİL 1860 taşıyor. Aygun Ussuri-deniz arasını "ortak"
 // bıraktı, Pekin bölüştürdü. Aradaki iki buçuk yıl kasten Qing yazıldı.
 { ad:"Habarovka", tur:"kale", lat:48.4800, lon:135.0800, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Nanay/Daur toprağı; 1653 Ningguta kaydının Qing başlangıcı, aynı idarî çevre. 🔴 TDV'ye basmıyor.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Nanay/Daur toprağı; 1653 Ningguta kaydının Qing başlangıcı, aynı idarî çevre. 🔴 TDV'ye basmıyor. 🟡 kur:1858-01-01 (Büyük Sovyet Ansiklopedisi, Habarovka askerî postu) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1653 qing-hanedani) Ningguta askerî-idarî merkezinin (Haziran 1653 kuruldu, resmî yetkisi Heilongjiang/Amur ve Ussuri havzalarını kapsıyor) belgeli tarihine dayanıyor, kaynaksız DEĞİL.",
   s:[{f:"1653-01-01",t:"1860-11-14",d:"qing-hanedani"},{f:"1860-11-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"İmperator limanı", tur:"liman", lat:49.0300, lon:140.2300, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Orok/Udege kıyısı, devletsiz. ⚠️ Kasaba noktası maskede 0,5 km denizde kaldığı için 8,4 km kuzeybatıya kaydırıldı. 🔴 TDV'ye basmıyor.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1653 öncesi Orok/Udege kıyısı, devletsiz. ⚠️ Kasaba noktası maskede 0,5 km denizde kaldığı için 8,4 km kuzeybatıya kaydırıldı. 🔴 TDV'ye basmıyor. 🟡 kur:1853-05-23 (Rus Coğrafya Kurumu, Nevelskoy seferi) ÖNERİLDİ ama UYGULANMADI (M-4443 sonrası duzeltme, 17 Eylül 2026): erken dönem (1653 qing-hanedani) Habarovka ile AYNI Ningguta askerî-idarî merkezi temeline dayanıyor (Heilongjiang/Amur havzası resmî Qing yetkisi), kaynaksız DEĞİL.",
   s:[{f:"1653-01-01",t:"1860-11-14",d:"qing-hanedani"},{f:"1860-11-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // 🔴 KUTUNUN BU KÖŞESİNDEKİ TEK RUS NOKTASI OLACAK.
@@ -201,7 +201,7 @@ window.YERLESIMLER_EK13 = [
 // İki nokta, ve zincirleri 1905'te AYRILIYOR. Portsmouth 50. paraleli
 // sınır yaptı: Aleksandrovsk (50,9°K) kuzeyde kaldı → Rus; Korsakov
 // (46,6°K) güneyde kaldı → Japon. Ada haritada ilk kez ikiye bölünecek.
-{ ad:"Aleksandrovsk (Kuzey Sahalin)", tur:"sehir", lat:50.9000, lon:142.1600, g:0, k:0, d:[],
+{ ad:"Aleksandrovsk (Kuzey Sahalin)", tur:"sehir", lat:50.9000, lon:142.1600, g:0, k:0, d:[], kur:"1862-01-01",
   kasitli_bosluk:true,bos:"hata", neden:"1875-05-07 öncesi Nivh/Ainu toprağı. Shimoda antlaşması (1855-02-07) adayı BÖLMEDİ, 'ortak mülkiyet, sınır yok' dedi ve `s:` bir dönemde iki sahip yazamıyor — boşluk ŞEMA sınırından, bilgisizlikten değil. 🔴 TDV'ye basmıyor.",
   s:[{f:"1875-05-07",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
@@ -224,14 +224,14 @@ window.YERLESIMLER_EK13 = [
 //    maskesi baraj göllerini KARA sayıyor (`uret_petek.py` baraj süzgeci),
 //    o yüzden nokta geçerli. Ham göl katmanıyla ölçen bir denetim bunu
 //    "göl içinde" diye eler — ölçüldü, motorun ölçütü kullanıldı.
-{ ad:"Bratsk ostrogu", tur:"kale", lat:56.2800, lon:101.7900, g:0, k:0, d:[],
+{ ad:"Bratsk ostrogu", tur:"kale", lat:56.2800, lon:101.7900, g:0, k:0, d:[], kur:"1631-01-01",
   kasitli_bosluk:true,bos:"veri-yok", neden:"1631 öncesi Buryat toprağı. ⚠️ İrkutsk kaydındaki Halha/Altan Han nüfuzu çekincesi burada da geçerli; `kuzey-yuan` YAZILMADI, aynı sebeple. 🔴 TDV'ye basmıyor.",
   s:[{f:"1631-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ⑥ AŞAĞI TUNGUSKA ve VİLYUY — ölçümün EN AÇ hücreleri ────────────
-{ ad:"Yerbogaçen", tur:"kale", lat:61.2800, lon:108.0100, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"1668 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1668-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Yerbogaçen", tur:"kale", lat:61.2800, lon:108.0100, g:0, k:0, d:[], kur:"1786-01-01",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1786 öncesi Evenk toprağı, devletsiz. 🔴 TDV'ye basmıyor. 🔴 DÜZELTİLDİ (M-4443 döngüsü, 17 Eylül 2026): dönem başı 1668→1786'ya çekildi. Kaynak RAS Dilbilim Enstitüsü 'Siberian Lang' projesi (siberian-lang.iling-ran.ru/naselennyy-punkt/erbogachyon) — AYNEN: «По разным источникам, основано то ли в 1786, то ли в 1860 году русскими охотниками-промысловиками» (değişik kaynaklara göre 1786 ya da 1860'ta Rus avcı-tuzakçılar tarafından kuruldu), VE sayfa 1860'ı AYRIYETEN «yerleşim olarak resmî kayda geçtiği tarih» diye açıklığa kavuşturuyor — yani 1860 KURULUŞ değil İDARÎ TESCİL, 1786 fiilî kuruluş. 1668'in bu noktaya özgü hiçbir dayanağı yok (YAMA-KUR-0917'nin kendi ölçümü de aynı sonuca varmıştı).",
+  s:[{f:"1786-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // 🔴 BU KAYIT BİR YERLEŞİM DEĞİL, COĞRAFÎ DOLGUDUR — ve öyle işaretli.
 // 63,5°K/105,5°D ölçümün en aç hücresiydi (855 km, Olyokminsk boyuyordu).
@@ -252,11 +252,11 @@ window.YERLESIMLER_EK13 = [
 //   kasitli_bosluk:true,bos:"devletsiz", neden:"1630 öncesi Evenk toprağı, devletsiz. ⚠️ Bu bir COĞRAFÎ DOLGUDUR, kasaba değil: pencerede kurulmuş yerleşim yok (Tura 1924 · Vanavara 1932 · Baykit 1927 — üçü de 1923 sonrası), o yüzden yerleşim UYDURULMADI. 🔴 TDV'ye basmıyor.",
 //   s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Vilyuysk", tur:"kale", lat:63.7500, lon:121.6300, g:0, k:0, d:[],
+{ ad:"Vilyuysk", tur:"kale", lat:63.7500, lon:121.6300, g:0, k:0, d:[], kur:"1634-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1634 öncesi Yakut (Saha) toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
   s:[{f:"1634-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
-{ ad:"Essey", tur:"bolge", lat:68.4800, lon:102.1800, g:0, k:0, d:[],
+{ ad:"Essey", tur:"bolge", lat:68.4800, lon:102.1800, g:0, k:0, d:[], kur:"1628-01-01",
   kasitli_bosluk:true,bos:"devletsiz", neden:"1630 öncesi Evenk/Saha toprağı, devletsiz. Aşağı Tunguska platosu ile aynı sınıf: yasak zimovyesi, kasaba değil. 🔴 TDV'ye basmıyor.",
   s:[{f:"1630-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
@@ -279,7 +279,7 @@ window.YERLESIMLER_EK13 = [
 //    ~50,3°K. Hata 2,5°'den ~0,8°'ye iniyor, SIFIRLANMIYOR. Sıfırlamak
 //    için Moğolistan yakasına da nokta gerek (Altanbulag / Darhan) ve o
 //    ayrı bir parti — `qing-hanedani` ile yazılabilir ama ölçmeden yazmam.
-{ ad:"Selenginsk", tur:"kale", lat:51.1000, lon:106.6000, g:0, k:0, d:[],
+{ ad:"Selenginsk", tur:"kale", lat:51.1000, lon:106.6000, g:0, k:0, d:[], kur:"1665-09-27",
   kasitli_bosluk:true,bos:"veri-yok", neden:"1665 öncesi Buryat/Halha sınır bozkırı; hangi tarafta olduğu tanımsızdı ve tanımsızlık uydurulmadı. Sınır 1727-10-21 Kyahta antlaşmasıyla çizildi ama Rus ostrogu 1665'ten beri orada. 🔴 TDV'ye basmıyor.",
   s:[{f:"1665-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
