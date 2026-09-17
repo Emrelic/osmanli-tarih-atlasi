@@ -132850,5 +132850,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4347",
+  "zaman": "2026-09-17 15:39",
+  "kimden": "D-KATMAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — DALGA-0064.md madde 7 (H-0007), vasal sinir rengi genellendi. commit 6cfb786 (rapor denetim/D-KATMAN-0916.md SS11). YAPILDI: D_VASAL_TARAF_IDLERI sabit listesi (eflak/bogdan/erdel) KALDIRILDI. js/d_katman.js artik window.YERLESIMLER'i (C katmaninin sahipAnahtari'nin OKUDUGU AYNI kaynak, D023 — ikinci ayristirici yazilmadi) tarayip o gun AKTIF bir v: penceresi (kid+f/t) tasiyan taraf id'sini vasal sayiyor. Renk gun-bagimli oldugu icin _dSinirGuncelle'nin imza onbellegini de duzelttim (renk imzaya eklendi, yoksa gun icindeki renk gecisleri kacirilirdi). DOGRULAMA — hem node'da yerel hem CANLI production veriyle (tarayicida window.YERLESIMLER.length 3855): eflak(16 v: penceresi)/bogdan(14) REGRESYONSUZ hala vasal; YENI kapsanan 12+ taraf: bulgaristan-prensligi(7) · sirbistan-prensligi(5) · misir-kavalali(154) · kirim(24) · cezayir-ocagi(41) · trablusgarp-ocagi(39) vb — eski sabit liste bunlarin HICBIRINI kapsamiyordu. GERCEK BULGU (kod kusuru DEGIL, VERI BOSLUGU): erdel hicbir yerlesim kaydinda kid:\"erdel\" v: penceresi tasimiyor (ne yerel ne canli veride) — 2 D-siniri kaydi (d1606-hm-er, d1571-hm-er — SADECE macaristan-habsburg+erdel, eflak/bogdan eslenmiyor) artik vasal renk ALMIYOR; erdel+eflak/erdel+bogdan'li 4 kayit etkilenmedi (eflak/bogdan zaten vasal). Erdel Belgradi (Gyulafehervar) yerlesimi VAR ama v: alaninda bu kimlik yok — yerlesim dosyasi sahiplerine (muhtemelen D3-AVRUPA-ORTA, erdel D-sinirlarinin sahibi) bir kid:erdel v: penceresi eklemeleri sorulmali, ben data/yerlesimler*.js'e YAZMADIM (§7, dosya sahipligi). Tarayicida hata YOK (harita 'load' bu ortamda hala ateslenmiyor, onceki turlarla ayni ag kisiti, ama fonksiyon dogrudan cagrilarak sinandi).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
