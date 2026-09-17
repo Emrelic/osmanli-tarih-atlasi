@@ -131120,5 +131120,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4301",
+  "zaman": "2026-09-17 10:29",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G10 (1453-05-29 -> 1281-01-01) · commit YOK. Yeni hat 0, yeni madde 0: beylikler, Bizans, Ilhanli, Karakoyunlu/Akkoyunlu donemi — 1923 Turkiye kesimlerine denk dusen antlasmali ve koordinatli bir hat YOK; A/B'de kaliyor. D1-TURKIYE GERIYE SARMA TAMAM (G1-G10): data/d_sinirlar.js 34 kayit (E 19 · D 3 · C 5 · YOK 7) · data/kronoloji_sinir_turkiye.js 13 madde. Acik: Hemedan tarih celiskisi (cekirdek 1727-10-04 / TDV 1728-09-22) · index.html satiri (kronoloji_sinir_turkiye.js) · kiyas kosu 12 bitince yeniden.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
