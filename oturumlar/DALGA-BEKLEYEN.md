@@ -26,6 +26,15 @@ Her iş verilince satırın başına oturum adını yaz (✅ bitince). Görevlen
 **C2 KOSU13-YAMA:** `YAMA-0057-SAVA` · `YAMA-0059-HAZAR` · `YAMA-0060-IRAN1723` · `YAMA-0063-IRAN` · `YAMA-0063-HAZAR` + BIRINCI-DUNYA yamaları geldikçe: çakışma/mükerrer/zincir kontrolü, kaynak kontrolü, tek uygulanabilir paket `denetim/YAMA-KOSU13-BIRLESIK-0917.json` + rapor. Koşu 12 bitene kadar `data/yerlesimler*.js`e YAZMA.
 **C3 OSMANLI-TARAF:** `data/kronoloji_sinir_*.js`de `taraflar` içinde `osmanli` geçen 11 madde Osmanlı kronolojisinde (`data/olaylar*.js`) görünmüyor (Osmanlı künye değil). Her biri için çekirdek olaylarda aynı olay var mı; yoksa kaynaklı madde önerisi `denetim/YAMA-OSMANLI-TARAF-0917.json` (şema olaylar_ek dosyalarıyla aynı).
 
+## A3. 17 EYLÜL AKŞAM — KOŞU 13 YENİDEN BAŞLATMA PLANI (1.MURAT, 17:40)
+- Koşu 13 (eski ayar, yürüyüş KAPALI) C:/atlas-kosu13'te 15:05'ten beri koşuyor (bash görevi byf4nsor7, py PID 24356). Taban 55a5b28.
+- Emre kararı: yürüyüş bölgesi AÇIK olarak YENİDEN başlat → betik `scratchpad/kosu13b.sh` (MOTOR_YURUYUS=1, MOTOR_YURUYUS_16=1). DEM .tif ve viabundus git-ignored → worktree'ye elle kopyalandı (yeniden kurulursa tekrar kopyala).
+- **19:30 SON BİNİŞ** (oturumlar/KOSU13-OTOBUS.md). O saatte sırayla:
+  1. Tahtadan teslimleri topla: KOSU13-YAMA (yerleşim yamaları), MOTOR-YURUYUS (epok b + puan kapısı, arac/uret_petek.py), NOKTA-AMERIKA/ASYA/ARABISTAN/SIBIRYA/AFRIKA (yeni `data/yerlesimler_nokta_*_0917.js` → `arac/girdi.py` GIRDI_DOSYALARI'na EKLE), GECIT-DUNYA (data/gecitler.js), KUR-DENETIM (YAMA-KUR → kur alanı uygula), RENK-ONERI (YAMA-RENK → arac/renkler.py + renk_olc), KUNYE-TARAF (künye önerileri → devletler.js; Suriye Arap Krallığı + renk).
+  2. `py arac/denetle.py` + `py arac/renk_olc.py` → temizse adla commit + push (+ surum_damgala).
+  3. Koşu 13'ü durdur (TaskStop byf4nsor7 + py süreçleri), `git -C C:/atlas-kosu13 checkout --detach <yeni HEAD>`, `bash scratchpad/kosu13b.sh` arka planda; ilk dakikada DEM/kilit hatası yok mu bak.
+- 19:30 sonrası sırada: DALGA-0065 🕢 satırları (D1-TURKIYE sefer 1768-74 · D2-KOMSU Hotin · KOSU13-YAMA→SAVAS-KUNYE); KRONO3-A/B yamalarını indir; EKO-TEMIZ editör yaması (olaylar* kısmı bende); UI-HARITA panel öneri raporunu Emre'ye sun; Cizre/Fizan kararları Emre'ye.
+
 ## B. Sıradaki işler (boşa çıkana ya da yeni kıtaya)
 | # | İş | Model | Dosya |
 |---|---|---|---|
