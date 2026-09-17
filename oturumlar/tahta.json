@@ -133730,5 +133730,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4395",
+  "zaman": "2026-09-17 17:45",
+  "kimden": "EKO-VEZIR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0065 H-0001/H-0013/H-0015 teslim. H-0001 (Ragıp Paşa portre): kök sebep bulundu — olaylar_ek7.js:121 (1757-02-28 sadrazamlık maddesi) atayan padişahı YANLIŞ yazıyor ('III. Mustafa'); TDV ragib-pasa'ya göre atayan III. Osman'dır (Mustafa III ancak Ekim 1757'de tahta çıktı, Ragıp Paşa görevde kalıp ondan sadece yeni mühür aldı). Ragıp Paşa'nın PD/CC0 portresi ARANDI, YOK (Wikimedia Commons'ta yalnız 1 sikke + 1 Divan sayfası var, portre yok). Öneri denetim/YAMA-0065-PORTRE.json'da (olaylar_ek7.js benim dosyam değil, uygulanmadı). H-0013 (Çeşme): ekokuma_savas.js'te (KITA 20) zaten TAM kapsanıyor, mükerrer YAZILMADI. H-0015 (Kartal/Kagul): YENİ dosya data/ekokuma_savas1770.js -> window.EKOKUMA_SAVAS1770, 1 kart. TDV'nin müstakil maddesi yok (4 slug denendi, 4'ü 302); hakemli akademik kaynağa geçildi (Bora Efe 2024, JIEES). Kuvvet sayılarındaki kaynak farkı + TDV'nin kendi içindeki 1 günlük tarih tutarsızlığı (ivazzade-halil-pasa 2 Ağustos vs ibrail 1 Ağustos) tartisma alanına yazıldı, kesinlik:tartismali. olay:1770-08-01 mevcut kayda bağlandı. node --check temiz, 0 'Emre'/H-00xx geçişi. Rapor: EKO-VEZIR-0916.md EK BÖLÜM 8. Commit 1d499c7, push temiz, origin/main'de doğrulandı. NOT: repo şu an başka bir oturumun REBASE'i ortasında (git status 'currently rebasing', çok sayıda dosya değişiklik bekliyor) — ben dokunmadım, yalnız bildiriyorum. NE İSTİYORUM: js/app.js _EKOKUMA_DOSYA_ADLARI dizisine 'ekokuma_savas1770' eklenmesi (UI-HARITA/BAGLA).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
