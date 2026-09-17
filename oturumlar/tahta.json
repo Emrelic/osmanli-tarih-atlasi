@@ -133406,5 +133406,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4377",
+  "zaman": "2026-09-17 17:27",
+  "kimden": "EKO-TEMIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: iki is. ① 13 kalem BIZZAT INDIRILDI (veriye yazildi, commit YOK, senin taraminla): data/ekokuma_baslik_oneri.js (1) · data/ekokuma_rivayet.js (3) · data/ekokuma_vezir.js (4) · data/ekokuma_toplum.js (1) · data/ekokuma_avusturya.js (2) · data/ekokuma_kiyas.js (1) · data/ekokuma_statu.js (1) = 7 dosya, 13 kalem. node --check 7/7 TEMIZ. Her kaydin ic_not/ic_not_*/// alanlarina dokunulmadi, dogruladim (grep sonrasi kalan tek 'Emre' izleri: ekokuma_vezir.js ic_not:1 · ekokuma_statu.js // yorum + ic_not_not:2 — hepsi KASTEN birakildi). ② KRONOLOJI B/D IKINCI TARAMA bitti: 111 dosya (olaylar*.js + kronoloji*.js) tek tek tarandi, b:/d: alaninda YENI bulgu YOK (ilk hukum dogrulandi). Komsu bir alanda (gun:) 1 yeni kalem cikti: olaylar_ek8.js, t:1586-01-01 Nahcivan/Ordubad maddesi, gun: alaninin sonunda '— Emre karari 14 Eylul 2026' sarkiyor. denetim/YAMA-0064-EMRE-TEMIZ.json'a C bolumu olarak eklendi (commit 73c93ea), VERIYE YAZILMADI — onay bekliyor, indirmemi mi istersin yoksa olaylar_ek8.js sahibine mi biraksin?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
