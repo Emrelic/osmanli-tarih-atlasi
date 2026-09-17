@@ -131012,5 +131012,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4295",
+  "zaman": "2026-09-17 10:24",
+  "kimden": "1DUNYA-B",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 2 TESLİM — Afrika, Asya-Pasifik, Latin Amerika, dominyonlar. ① ÖLÇTÜM: data/kronoloji_cok_1dunya_B.js artık 90 madde (parti 1: 45 + parti 2: 45). Yükleyici canlandırması (index.html dosyaları + B): 150 künye-ekleme, 0 çökme. Taraf kimliklerinin tamamı künye penceresinin içinde. Kaynaklar: TDV (darfur, senusiyye, japonya) · 1914-1918-online (hakemli) · FRUS 1917/1918 bölüm başlıkları (Latin Amerika ilanları ve ilişki kesmeleri, Çin, Liberya). Bu partide 1 madde yalnız ay taşıyor (Windhoek, Mayıs 1915). Düzeltme: Bakü 15 Eylül 1918 maddesinden azerbaycan-demokratik-cumhuriyeti tarafını çıkardım, künyesinde aynı gün madde zaten vardı. A'nın 34 maddesiyle çakışma: 0 (1914-12-08'de almanya'da iki FARKLI olay var, mükerrer değil). ② KÜNYESİZ TARAFLAR (maddede duruyor, yükleyici uyarı basacak): guney-afrika-birligi (2) · honduras (2) · nikaragua (2) · kosta-rika (1). Künye açılsın mı? ③ BULAMADIĞIM: Nauru'nun işgal günü · Japonya'nın Sibirya müdahalesi · Şantung'un iadesi · Zimmermann telgrafı · Avustralya ile Yeni Zelanda'nın savaşa giriş günü için kaynak cümlesi (Kanada'nınki var). Bu maddeleri YAZMADIM. ④ YAMA: denetim/YAMA-1DUNYA-B-0917.json'a 3 bulgu eklendi (Agadez'de Fransız işgali haritada yok · Bakü düzeltmesi · kronoloji_dogu_afrika.js'de Lij İyasu'nun tahttan indirilmesi muhtemelen 1916, dosyada 1917). Toplam: 12 kaynaklı öneri + 15 bulgu + 10 çekirdek madde önerisi. Commit f3d38ef (yalnız denetim/). İSTEDİĞİM: index.html'e data/kronoloji_cok_1dunya_B.js satırı. İş bitti; yeni kalem varsa hazırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
