@@ -1,0 +1,143 @@
+{
+ "paket": "SEFER-1768",
+ "maddeler": "DALGA-0065 D1-TURKIYE (H-0010 sefer okları devlet rengiyle · Dinyester geçişi 1769 · Baltık filosunun Çeşme rotası) + D2-KOMSU (H-0011 Hotin 1769, Podolya/Kamaniçe kimde) · DALGA-0066 H-0001 (Bender'e güzergâh) · H-0002 (Kırım istilası güzergâhı, Zaporojye, Kızıkermen/Canboyluk/Yedisan)",
+ "tarih": "2026-09-17",
+ "yazan": "SEFER-1768 (Opus 1010) · koordinatör 1.MURAT · şartname oturumlar/KADRO-1010-1015.md",
+ "durum": "ÖNERİ — yerleşim, kronoloji ve savaslar.js dosyalarına YAZILMADI; indirme 1.MURAT'ın. Yeni veri dosyası data/seferler_p0065.js yazıldı (index.html satırı UI'nin).",
+ "olcum": {
+  "atlas": "arac/girdi.py GIRDI_DOSYALARI 86 dosya · 3907 kayıt okundu; 44,3-49,0°K / 28,5-39,5°D kutusunda 1772-06-15 kesiti alındı",
+  "mevcut_seferler": "data/savaslar.js SEFERLER'de 1768-74 için ZATEN VAR: a4-rus-filosu-cesme-1770 (tur:deniz = kesik çizgi, Baltık→Çeşme, 53 istasyon) · rus-golitsin-hotin-1769 (Minkivtsi→Hotin, f 1769-04-25 = Dinyester harekâtının başı) · rus-elmpt-yas-1769 · rus-rumyantsev-kagul-1770 · rus-panin-bender-akkerman-1770. ⇒ Çeşme rotası ve Dinyester geçişi İÇİN YENİ OK YAZILMADI (mükerrer olurdu).",
+  "yeni_oklar": "data/seferler_p0065.js — 6 kayıt: Golitsın Kiev→Starokostiantyniv→Minkivtsi (1769) · Panin Yelisavetgrad→Bender (1770) · Berg Moloçna→Orkapı (1770) · Dolgorukov Orkapı→Kefe (1771) · Şçerbatov Geniçesk→Arabat oku→Arabat (1771) · Şçerbatov Arabat→Kerç→Yenikale→Taman (1771). Sınav: 6/6 alan tam, tarih sırası doğru, 101 mevcut sefer kaydıyla id/çıkış çakışması 0.",
+  "renk_kurali": "app.js:4084-4086 ok rengini yalnız s.renk ya da taraf'tan alıyor (dusman #1b7a3f, osmanlı #2b1006); DEVLET RENGİ KURALI YOK. Mevcut 11 Rus oku #0d7d8a (camgöbeği) taşıyor; rusya dolgusu #4f7d4f (renkler.py:723)."
+ },
+ "kaynak_kumesi": {
+  "TDV_canli_okundu": ["kirim", "hotin", "kamanice", "nogaylar", "bucak", "ukrayna", "sahin-giray", "mustafa-iii", "kucuk-kaynarca-antlasmasi", "ozu", "kefe", "akkirman"],
+  "TDV_olu_302": ["kirim-hanligi", "bender", "yedisan", "kilburun", "orkapi", "balta", "selim-giray-iii", "kaplan-giray-ii", "devlet-giray-iv", "kirim-giray"],
+  "TDV_olculemedi": ["podolya (503 — sunucu hatası, ölü DEĞİL)", "kazaklar (200 ama madde Kazakistan Kazakları — Zaporojye değil, §4② yanlış madde)", "lehistan (200 ama gövde 'bk.' yönlendirmesi)"],
+  "akademik": [
+   "ЭСБЕ «Турецкие войны России» (т. XXXIV) — ru.wikisource ham metin",
+   "ЭСБЕ «Нагаи» (Н. В. Василенко) · «Балта, город» · «Кодыма, река» · «Барская конфедерация» · «Запорожская Сечь» · «Панин» · «Бендеры» · «Долгоруковы» · «Керчь» · «Феодосия, город» · «Евпатория» · «Кинбурн» · «Берислав»",
+   "Военная энциклопедия (Сытин): «Панин, Петр Иванович, граф» · «Перекоп» · «Арабатская коса» · «Керчь» · «Евпатория» · «Запорожская Сечь» · «Кодыма» · «Елисаветград»",
+   "Русский биографический словарь: «Долгоруков-Крымский, Василий Михайлович» · «Щербатов, Федор Федорович» · «Берг, Максим Васильевич»",
+   "Руссев Н. Д., «Татары как-то совсем исчезли…» (последние месяцы истории Буджакской орды), Русин 2012 (cyberleninka) — tarihler Jülyen",
+   "Грибовский В. В., «Ногайское казачье войско», Средневековые тюрко-татарские государства 2016 (cyberleninka)",
+   "Kashirin V. B., Славяноведение 2024/1 (savaslar.js'teki alıntı üzerinden)"
+  ],
+  "kullanilmayan": "Vikipedi ve history.mk.ua (Едисанская орда) — arama sonucu çıktı, dayanak yapılmadı"
+ },
+ "cevaplar": {
+  "H-0010_ok_rengi": "Kural app.js'te YOK (UI-HARITA'nın işi). Veri tarafı hazırlandı: yeni 6 kayıt `devlet:\"rusya\"` alanı + `renk:\"#276727\"` (rusya dolgusu #4f7d4f'nin aynı tonunun koyusu — dolgu rengini birebir kullanmak ok'u Rus gövdesinin üstünde görünmez kılar; data/seferler_p0064.js başındaki not aynı gerekçeyi yazıyor). Öneri: app.js `s.devlet` varsa BOYALAR[s.devlet]'in koyulaştırılmış tonunu kullansın; `renk` elle yazılmışsa öncelik yine onda kalsın.",
+  "H-0010_dinyester": "Zaten veride: rus-golitsin-hotin-1769 f 1769-04-25 (ESBE 15 Nisan J'de Dinyester'i geçti ⇒ 26 Nisan G; ok harekâtın başladığı 14 Nisan J = 25 Nisan G'de başlıyor). Yeni kayıt p0065-golitsin-toplanma-1769 bu oka Kiev'den gelen yolu ekliyor.",
+  "H-0012_cesme_rotasi": "Zaten veride: a4-rus-filosu-cesme-1770, tur:\"deniz\" ⇒ app.js HAREKET.deniz deseni [4,3] = kesik çizgi. Yeni ok yazılmadı. Çıkış günü akademik kaynakta hâlâ bulunamadı (kayıttaki not geçerli).",
+  "H-0011_hotin": {
+   "hukum": "HARİTA DOĞRU — hata yok.",
+   "gerekce": [
+    "kamanice (TDV): 'Karlofça Antlaşması'ndan sonra Kamaniçe 1793'e kadar Polonya-Litvanya ittifakında kaldı. Bu tarihte Rus topraklarına dahil edildi.' ⇒ 1769'da Podolya ve Kamaniçe LEHİSTAN'ındı; atlas (Kamaniçe · Bar · Braslav s:lehistan 1699-01-26→1793-01-23) bununla uyumlu.",
+    "Ruslar Lehistan toprağından geldi: ESBE-TVR 'главная, под начальством кн. Голицына (ок. 65 тыс.), собиралась у Киева' · 'В конце марта войска главной армия стали сосредоточиваться у Старо-Константинова' (Volhynia, Lehistan) · Kashirin 2024: ordu 'у деревень Минковцы и Антоновка в 40 км к северо-востоку от Каменца-Подольского' toplandı.",
+    "Niçin Lehistan'dan geçebildiler: Lehistan müttefik ya da savaşan taraf değildi; Rus elçisi Repnin 'получил решающий голос в делах внутреннего управления' ve Bar konfederelerine karşı 'гетман Ксаверий Браницкий с польским войском и генералы Апраксин и Кречетников двинулись' (ЭСБЕ «Барская конфедерация») ⇒ Rus birlikleri kralın tarafında, Lehistan içinde zaten savaşıyordu. Osmanlı'nın müttefiki Bar konfederasyonuydu, Lehistan tacı değil.",
+    "Savaşın çıkışı da buradan: ЭСБЕ «Балта»: 'часть барских конфедератов, преследуемых русским отрядом, скрылась в турецкой Балте, русские перешли границу и сожгли город' · kirim (TDV): 'Kırım hanına ait Balta şehrine sığınmış olan Leh konfederelerini takiple bu şehri zapt ve tahrip etmeleri yeni bir Osmanlı-Rus savaşına sebep oldu.'"
+   ],
+   "yama": "YOK. Haritada gösterim önerisi: p0065-golitsin-toplanma-1769 oku yolu görünür kılıyor."
+  },
+  "H-0001_bender": {
+   "hukum": "Panin ordusu Lehistan'dan DEĞİL, Rus Yeni Sırbistan/Yelisavetgrad ilinden, YEDİSAN BOZKIRI üzerinden geldi.",
+   "gerekce": [
+    "VE-PAN: 'поход армии из Елисаветград. провинции к Бендерам через степи, со множеством опас. переправ' · 'в мрт. 1770 г. выступает с армией к Бендерам, в мае сосредоточивает ее у Выси' · 'Только в сер. июля наша армия подошла к Бендерам'",
+    "ESBE-TVR: 'главные силы 2-й армии в начале июня перешли через Буг и расположились на р. Кодыме'",
+    "Kodıma'nın güney yakası Osmanlı-Kırım bozkırıydı: ЭСБЕ «Кодыма»: 'Некогда К. вместе с рекой Мокрым Ягорлыком составляли северную границу пустынной Очаковской степи' · ЭСБЕ «Балта»: Kodıma'nın öbür yakasındaki Balta 'принадлежала Турции'.",
+    "Müttefiklik sorusu: Bender kuşatması sırasında Nogaylar Rus tarafına geçti — ESBE «Панин»: 'Во время осады этой крепости он успел переговорами склонить татар буджакских, белгородских и едисанских признать над собой власть России' · Руссев 2012: 'в августе 1770 г. граф П.И. Панин подписал договор с едисанскими и буджакскими татарами … «Мы от Порты Оттоманской отщепились и отдаемся под протекцию императрицы»' (Jülyen)."
+   ],
+   "cizim": "p0065-panin-bender-1770 (Yelisavetgrad→Bender düz hat; Vıs, Bug geçişi ve Kodıma konağı kaynakta adlı ama noktasız). Mevcut rus-panin-bender-akkerman-1770 oku Bender'den devam ediyor."
+  },
+  "H-0002_kirim": {
+   "guzergah": [
+    "1770 denemesi: Berg kolu Orkapı önüne iki kez geldi, hattı alamadı (VE-PER) → p0065-berg-orkapi-1770",
+    "1771 ana ordu: Dolgorukov 25 Mayıs J 'на речке Маячке' toplandı (yer belirsiz, çizilmedi), 14 Haziran J Orkapı hattını aldı, 15 Haziran J garnizon teslim oldu, 17 Haziran J Kırım'a yürüdü, Kefe önünde Kırım-Osmanlı ordusunu yendi (RBS-DOL · VE-PER) → p0065-dolgorukov-kirim-1771",
+    "1771 ikinci kol: Şçerbatov 13 Haziran J Geniçesk boğazını köprüyle geçti, Arabat okundan yürüyüp 18 Haziran J Arabat'ı aldı, Temmuz J'de Kerç, Yenikale ve Taman'ı aldı; Azak filosu (Senyavin) destek verdi (VE-ARA · RBS-SCH · ESBE-TVR) → p0065-scherbatov-arabat-1771 · p0065-scherbatov-kerc-1771"
+   ],
+   "zaporojye": "ЭСБЕ ve VE «Запорожская Сечь»: Sech 1733'ten beri Rus tâbiiyetindeydi ('грамоту Имп-цы Анны Иоанновны о помиловании и принятии в рус. подданство') ve 1769-74 savaşına RUS TARAFINDA katıldı ('деятельное участие их в войнах с Турцией в 1736—39 гг. и 1769—74 гг.'). Savaştan sonra gereksiz görüldü: 'После полного разгрома последнего [Kırım Hanlığı] … этой необходимости более не существовало'; Sech 5 Haziran 1775 J'de Tekeli tarafından işgal edildi (atlas zaporojye t:1775-06-16 = +11 ✓). Kırım seferinde AYRI bir Zaporojye kolu ya da güzergâhı: BULUNAMADI.",
+   "bozkirlar": {
+    "Yedisan": "Ağustos 1770 (J) Panin antlaşmasıyla Rus himayesine geçti (Руссев 2012 · ESBE «Нагаи»: 'в 1770 г. изъявили готовность принять русское подданство орды едисанская и буджацкая'); 1771-72'de Kuban'ın sağ yakasına göçürüldü (Грибовский 2016). ⇒ YAMA Y-4.",
+    "Bucak": "Aynı antlaşma; Руссев 2012: 12 bin Nogay Bucak'tan göçtü, Rumyantsev 'Буджакская степь осталась «землей обнаженной»' dedi. Atlasta Bucak bozkırı noktası YOK (yalnız Osmanlı kaleleri) ⇒ yama yok.",
+    "Yediçkul_Camboyluk": "Грибовский 2016: 'Во время русско-турецкой войны 1768-1774 гг. лидеры этих ногайских ответвлений [едисанцы, едичкульцы, джембуйлуковцы], как и Буджацкой орды … заключили союз с российским командованием' — GÜN ve YIL YOK ⇒ yama YAZILAMADI (tarih uydurulmaz). Rota Dolgorukov'un yolu üstünde; ittifak tarihi bulunamadı.",
+    "Kizikermen": "1768-74 savaşındaki durumu BULUNAMADI (ЭСБЕ «Берислав» yalnız 1696 ve 1784'ü veriyor; TDV'de müstakil madde yok). Atlas d→1774-07-21, s:rusya 1774'ten — Kaynarca 'Кинбургом, прилегавшею к нему степью между Днепром и Бугом' Rusya'ya verdi (ESBE-TVR) ⇒ 1774 kırılması kaynakla UYUMLU; savaş içi işgal günü yok, yama yok."
+   },
+   "tarama_tutarsizligi": "Emre'nin gördüğü 'Kırım düz yeşil, Osmanlı doğrudan yerler taralı' farkı VERİDEN geliyor: Kırım içindeki 6 kayıt 1771-07-01→1774-07-21 arasını `s:rusya` (sahiplik) olarak taşıyor, kıyıdaki Osmanlı kaleleri (Kefe · Sudak · Balaklava · Yalta · Aluşta · Mankup · İnkirman) aynı pencereyi `isg:rusya` (işgal) olarak taşıyor. Kırım 1783'e kadar Rusya'ya katılmadı (ESBE-TVR 'Крым был объявлен независимым от Турции' 1774; ilhak manifestosu 8 Nisan 1783) ⇒ 1771-74 bir İŞGALDİR. Y-1 bunu düzeltir; gösterim kuralı (tarama her gövdede aynı) UI-HARITA'nın 0066/H-0003 kalemi."
+  }
+ },
+ "yerlesim_yamalari": [
+  {
+   "no": "Y-1",
+   "kayitlar": [
+    {"ad": "Bahçesaray", "dosya": "data/yerlesimler.js", "isg_f": "1771-07-01"},
+    {"ad": "Gözleve (Kezlev)", "dosya": "data/yerlesimler_kirim.js", "isg_f": "1771-07-01"},
+    {"ad": "Or Kapı (Ferahkirman)", "dosya": "data/yerlesimler_kirim.js", "isg_f": "1771-06-26"},
+    {"ad": "Akmescid", "dosya": "data/yerlesimler_kirim.js", "isg_f": "1771-07-01"},
+    {"ad": "Karasubazar", "dosya": "data/yerlesimler_kirim.js", "isg_f": "1771-07-01"},
+    {"ad": "Eski Kırım (Solhat)", "dosya": "data/yerlesimler_kirim.js", "isg_f": "1771-07-01"}
+   ],
+   "eski": {
+    "v_ham": "v:[{f:\"1475-06-06\",t:\"1771-07-01\",k:\"Kırım Hanlığı\",statu:",
+    "s_silinecek_ham": "{f:\"1771-07-01\",t:\"1774-07-21\",d:\"rusya\"},",
+    "not": "ham metin dosyadaki JS nesne yazımıdır (tırnaksız anahtar); parçalar dosyada birebir sayıldı — yerlesimler_kirim.js'te 5'er kez (satır 139/143/147/151/158, beşi de hedef kayıtların içinde; kayıtlar çok satırlı), yerlesimler.js'te 1'er kez (Bahçesaray). ⚠️ _kirim.js'te aynı metin 5 kez geçtiği için indirme dosya düzeyinde tek replace ile değil KAYIT düzeyinde yapılmalı (D001)"
+   },
+   "yeni": {
+    "v_ham": "v:[{f:\"1475-06-06\",t:\"1774-07-21\",k:\"Kırım Hanlığı\",statu:",
+    "s_silinecek_ham": "(silinir)",
+    "isg_eklenecek_ham": "isg:[{f:\"<isg_f>\",t:\"1774-07-21\",d:\"rusya\",kaynak:\"kirim · mustafa-iii\"}]"
+   },
+   "gerekce": "Kırım 1771-74 arasında Rus İŞGALİ altındaydı, ilhak 1783'tür (TDV kirim: '1771'de Prens Dolgorukov idaresinde Kırım yarımadasını istilâ ettiler' · '1772'de Rus işgali altında toplanan kurultay'). Hukukî bağ (Osmanlı'ya tâbi hanlık) Küçük Kaynarca'ya kadar sürdü. Kıyı kalelerinin mevcut `isg` biçimiyle aynı model.",
+   "gun": "Or Kapı 1771-06-26 = VE-PER '15 июня г-зон крепостцы сдался' (Jülyen +11). Ötekiler 1771-07-01 = TDV mustafa-iii 'Temmuz 1771' AY kodu (Kefe'nin mevcut isg günüyle aynı; gün kaynakta YOK).",
+   "degismez2": "v bitişi 1771-07-01'den 1774-07-21'e taşınıyor — 1774-07-21'de çekirdek madde VAR (Küçük Kaynarca). isg başlangıçları 1771-06-26 ve 1771-07-01: çekirdek madde 1771-07-01 'Kırım yarımadasının Rus işgali' (5 ve 0 gün) ⇒ 2i açık doğurmaz.",
+   "dikkat": false
+  },
+  {
+   "no": "Y-2",
+   "kayitlar": [
+    {"ad": "Kerç", "dosya": "data/yerlesimler.js"},
+    {"ad": "Yenikale", "dosya": "data/yerlesimler_ok106.js"},
+    {"ad": "Taman", "dosya": "data/yerlesimler.js"}
+   ],
+   "eski": "isg YOK (d: 1475-06-06/1703-01-01/1482-06-01 → 1774-07-21 kesintisiz Osmanlı)",
+   "yeni": {"isg_eklenecek": "{\"f\":\"1771-07-12\",\"t\":\"1774-07-21\",\"d\":\"rusya\",\"kaynak\":\"RBS Щербатов, Федор Федорович\"}"},
+   "gerekce": "RBS-SCH: 'В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань' · ЭСБЕ «Керчь»: 'Русские вновь овладели К. в 1771 г.' · VE «Керчь»: 'В 1771 г. К. завоевали русские'. Atlas bu üç yeri 1771-74 boyunca işgalsiz Osmanlı gösteriyor.",
+   "gun": "ALT SINIR — kaynak yalnız 'В июле' (Jülyen) diyor ⇒ Gregoryen 12 Temmuz–11 Ağustos. 1771-07-12 bu aralığın ilk günüdür, bir olayın günü DEĞİLDİR. Seçenekler: (a) 1771-07-12 alt sınır [öneri] · (b) komşu günü (Kefe 1771-07-01) — CLAUDE.md §4 şartı ① tutmuyor, Kefe'nin günü de AY kodu · (c) yazma, borç olarak kalsın.",
+   "sira": "⚠️ Taman kaydına KARADENIZ-KAFKAS (denetim/YAMA-KARADENIZ-0917.json Y-2) 1774-1783 için dokunuyor. Pencereler ÖRTÜŞMÜYOR (bu yama yalnız 1771-07-12→1774-07-21 isg ekler) ama aynı satır — sırayla indirilmeli.",
+   "degismez2": "yeni isg kırılması 1771-07-12: çekirdek madde 1771-07-01 (11 gün) VAR ama Kırım içi işgali anlatıyor, Kerç'i adıyla anmıyor ⇒ K-3 madde önerisi.",
+   "dikkat": true
+  },
+  {
+   "no": "Y-3",
+   "kayit": "Yedisan bozkırı",
+   "dosya": "data/yerlesimler_ek_bozkir.js",
+   "eski": "isg YOK (v gevşek himaye kid:kirim 1502-03-01→1774-07-21)",
+   "yeni": {"isg_eklenecek": "{\"f\":\"1770-08-12\",\"t\":\"1774-07-21\",\"d\":\"rusya\",\"kaynak\":\"Руссев 2012 · ЭСБЕ Нагаи\"}"},
+   "gerekce": "Yedisan ordası Ağustos 1770'te (J) Panin'le antlaşıp 'от Порты Оттоманской отщепились и отдаемся под протекцию императрицы' (Руссев 2012); 1771-72'de Kuban'a göçürüldü (Грибовский 2016). Hukukî bağ (hanlığa gevşek tâbilik) Kaynarca'ya kadar ⇒ v korunur, isg eklenir. Alternatif model: isg yerine 'himaye' (Rusya) — veri şemasında Rus himayesi için alan yoksa isg en yakın gösterim.",
+   "gun": "ALT SINIR — 'в августе 1770 г.' (Jülyen, makale 'по старому стилю' diyor) ⇒ Gregoryen 12 Ağustos–11 Eylül. Bu bir olay günü DEĞİL.",
+   "degismez2": "yeni isg kırılması 1770-08-12: en yakın çekirdek madde 1770-08-01 Kartal bozgunu (11 gün) — İLGİSİZ ⇒ K-1 madde önerisi şart (§3 Değişmez 2: 'alakasız bir maddenin altında belirir').",
+   "dikkat": true
+  }
+ ],
+ "kronoloji_onerileri": [
+  {"no": "K-1", "t": "1770-08-12", "gun": "Ağustos 1770 (Jülyen; gün kaynakta yok)", "b": "Yedisan ve Bucak Nogaylarının Rus himayesine geçmesi", "yer": "Yedisan ve Bucak bozkırları", "d": "Bender kuşatması sürerken Rus komutanı Panin, Yedisan ve Bucak Nogay ordalarının ileri gelenleriyle bir antlaşma imzaladı. Nogaylar Osmanlı'dan ayrıldıklarını ve Rus imparatoriçesinin himayesine girdiklerini bildirdiler. Binlerce aile Bucak'tan göç etti; ordalar 1771-72'de Kuban'ın sağ yakasına yerleştirildi. Böylece Kırım'a giden kara yolu Rus ordusuna açıldı.", "kaynak": "Руссев Н. Д., Русин 2012 · ЭСБЕ «Нагаи» · ЭСБЕ «Панин» · Грибовский В. В. 2016", "dikkat": "gün yok — t ALT SINIR; Y-3 ile birlikte iner"},
+  {"no": "K-2", "t": "1771-06-26", "gun": "14-15 Haziran 1771 (Jülyen) = 25-26 Haziran", "b": "Orkapı hattının Ruslara geçmesi", "yer": "Orkapı (Perekop), Kırım berzahı", "d": "Dolgorukov komutasındaki Rus ordusu gece baskınıyla Orkapı hattının sol kanadına tırmandı; Prozorovski'nin süvarileri Sivaş'ın sığlıklarından geçip hattın arkasına çıktı. Ertesi gün kale garnizonu teslim oldu ve Rus ordusu yarımadaya yürüdü.", "kaynak": "Военная энциклопедия «Перекоп» · РБС «Долгоруков-Крымский» · kirim (TDV)", "not": "mevcut çekirdek madde 1771-07-01 'Kırım yarımadasının Rus işgali' gun:'1771' taşıyor — t gün iddia ediyor, gun yıl diyor (CLAUDE.md §4 ay-kodlu madde ekseni); K-2 o maddenin yanına ayrı olay olarak konur, o madde silinmez"},
+  {"no": "K-3", "t": "1771-06-29", "gun": "18 Haziran 1771 (Jülyen) = 29 Haziran", "b": "Arabat Kalesi'nin düşmesi; Kerç, Yenikale ve Taman'ın Rus eline geçmesi", "yer": "Arabat oku ve Kerç boğazı", "d": "Şçerbatov komutasındaki Rus kolu Geniçesk boğazını tekneden kurulmuş bir köprüyle geçti, Arabat oku boyunca yürüyüp Arabat Kalesi'ni aldı. Temmuz ayında Kerç, Yenikale ve Taman da bu kolun eline geçti.", "kaynak": "Военная энциклопедия «Арабатская коса» · РБС «Щербатов, Федор Федорович» · ЭСБЕ «Керчь»", "dikkat": "Kerç/Yenikale/Taman'ın günü yok (Y-2 alt sınırı 1771-07-12 bu maddeye 13 gün)"}
+ ],
+ "savaslar_js_onerisi": {
+  "no": "S-1",
+  "hedef": "data/savaslar.js SEFERLER — taraf:'dusman' ve renk '#0d7d8a' taşıyan Rus okları (a4-rus-filosu-cesme-1770 · rus-prut-1711 · rus-munih-hotin-yas-1739 · rus-golitsin-hotin-1769 · rus-elmpt-yas-1769 · rus-rumyantsev-kagul-1770 · rus-panin-bender-akkerman-1770 · rus-ozi-1788 · rus-potemkin-bender-1789 …) + data/seferler_p0064.js 6 kaydı",
+  "oneri": "H-0010 kuralı app.js'e girince `devlet:\"rusya\"` alanı eklensin, `renk` silinsin ya da #276727'ye çekilsin. Karar ve dosya sahibi 1.MURAT / UI-HARITA; bu yama dosyaya DOKUNMADI.",
+  "dikkat": true
+ },
+ "ui_istekleri": [
+  "index.html: <script src=\"data/seferler_p0065.js?v=…\"></script> (seferler_p0064.js satırının altına)",
+  "app.js (UI-HARITA, H-0010): ok rengi `s.devlet` → BOYALAR tonu kuralı; bugün alan okunmuyor, kayıtlar `renk` ile de çalışır"
+ ],
+ "celiskiler": [
+  "Orkapı 1771: VE-PER ve RBS-DOL 14 Haziran J (hat) / 15 Haziran J (garnizon) — ESBE «Долгоруковы» '4 июля'; ESBE-TVR 'в конце июня'. İki kaynak 14-15 Haziran'da birleşiyor, o kullanıldı.",
+  "Kefe 1771: ESBE «Долгоруковы» '29 июля' (bu maddenin Orkapı günü de ötekilerden 20 gün sapıyor) — başka kaynakta gün yok; TDV 'Temmuz 1771' AY kullanıldı.",
+  "Bender 1770: ESBE 16 Eylül J · VE-PAN 15 Eylül J (mevcut atlas ve SEFERLER ESBE'yi kullanıyor, değiştirilmedi).",
+  "Küçük Kaynarca: TDV kucuk-kaynarca-antlasmasi '26 Temmuz 1774'te yapılan' · TDV kirim '(21 Temmuz 1774)' — atlas 1774-07-21 kullanıyor; bu yama o güne dokunmadı, yalnız kaydediyor.",
+  "VE «Перекоп» maddesinde '1777' dizgi hatası (bağlam 1771)."
+ ]
+}
