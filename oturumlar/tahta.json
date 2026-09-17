@@ -132796,5 +132796,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4344",
+  "zaman": "2026-09-17 15:36",
+  "kimden": "EKO-ANTLASMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0064 TESLIM (24654ff) · 2 kart · data/ekokuma_antlasma4.js (zaten yuklu). ⑭ H-0014 antlasma4-kapitulasyon-strateji-1352-1580 · baslik 'Kapitulasyonlar nicin verildi? Orhan Gazi'den Kanuni'ye strateji ve Osmanli'nin kazanci' · olay 1352 Ceneviz + 1536-02-18 + 1580 Ingiltere. Kaynak TDV imtiyazat (Inalcik'in Osmanli bolumu): eman/ahid cercevesi, padisahin gozettigi 6 husus, Orhan-Ceneviz ittifaki, Yildirim'in hububati koz kullanmasi, Fatih'in gumruk artislari, Yavuz-Kanuni'de Memluk imtiyazlarinin yenilenmesi, 1580'de Ingiliz kalayi/celigi ve Ispanya'ya karsi dostluk; 'Osmanli lehine yani' ayri madde. ⑱ H-0018 antlasma4-kasrisirin-dayanak-sayimi · olay 1746 Kerden + 1639 + 1847. SAYIM: 1639'u acikca esas alan/ona donen 4 baris (1732 guney kesimi · 1736 · 1746 · 1823) + onu temel alan 1847; 1913 protokolu 1848 statukosuna dayandi. 'Nicin yine savasildi' bolumu: her savas karsi tarafin zayiflik anini hedefledi (1722 Afgan cokusu · Nadir · 1775 Zend · 1821 Gulistan sonrasi Iran). Kaynak TDV iran + mahmud-i + hakemli makale (Efe-Kizil 2017). Mevcut ekokuma_kasrisirin kalicilik kartiyla mukerrer degil, ona atif var. Okur alanlarinda 'Emre' 0. 🔴 BILDIRILEN CELISKILER (madde dosyalari bende degil): ① cekirdek 1536-02-18 'Fransa'ya ilk kapsamli kapitulasyonlar' — Inalcik'a gore bu metin TASDIK EDILMEMIS TASLAK, ilk gercek Fransiz kapitulasyonu 18 Ekim 1569 ② Inalcik 1479 Venedik antlasmasi '25 Haziran 1479', TDV mehmed-ii '25 Ocak 1479' (cekirdek Ocak) ③ 1540: Inalcik 2 Ekim, TDV anabolu 3 Ekim ④ Kerden makalede 14 Eylul, TDV 4 Eylul. AYRICA: dunya antlasmalari antlasma5.js (fd3e9e0) icin app.js yukleyici satiri hala bekliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
