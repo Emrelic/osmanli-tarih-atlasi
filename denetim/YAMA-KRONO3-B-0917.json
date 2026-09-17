@@ -1,0 +1,70 @@
+{
+ "olusturan": "D-KUNYE (Sonnet Hazır Kıta 1002) · 17 Eylül 2026, KOSU13-OTOBUS.md",
+ "amac": "1-2 maddeli kunyelere (Bati Afrika 10 + Guney Amerika 7) kaynakli toprak degisimi maddesi.",
+ "yontem": "devletler.js'ten bolge=bati-afrika ve bolge=guney-amerika kunyeleri cekildi, kronoloji_sayisi<=2 olan tam olarak 10+7=17 kunye bulundu (gorevdeki sayilarla BIREBIR eslesti). Her biri tek tek incelendi: merkezi devlet kurmamis / dagilik topluluklarda (tiv, birom-plato, adar, dan-guro, berabis, kru-grebo, bate, arma -- 8 BATI AFRIKA kunyesi) guvenilir, tarihli bir ARA olay BULUNAMADI -- uydurulmadi, dokunulmadi. Guclu/tarihli ara olayi olan 2 BATI AFRIKA + 5 GUNEY AMERIKA kunyesine toplam 7 satir eklendi.",
+ "durum": "TASLAK YAMA -- devletler.js'e YAZILMADI. 1.MURAT/UYGULA indirir.",
+ "dokunulmayan_10_kunye": [
+  "berabis",
+  "tiv",
+  "birom-plato",
+  "adar",
+  "dan-guro",
+  "kru-grebo",
+  "bate",
+  "arma",
+  "ranquel",
+  "lupaqa-krallik"
+ ],
+ "dokunulmayan_gerekce": "ranquel ve lupaqa-krallik zaten 2 GUCLU olay tasiyordu (biri antlasma+son, oteki savas+son) ve ucuncu bir olay eklemek dusuk guvenle olurdu; 8 Bati Afrika kunyesi ise merkezi devlet kurmamis/kaynagin sessiz kaldigi topluluklar (TDV'de madde yok, standart akademik kaynak da ozel bir olay vermiyor).",
+ "satirlar": [
+  {
+   "id": "buna",
+   "t": "1895-01-01",
+   "tur": "savas",
+   "b": "Samori Ture kuvvetleri doğuya çekilirken Buna'yı yakıp yıktı",
+   "kaynak": "standart akademik/ansiklopedik (Samory Touré'nin doğu kampanyası, 1895-96) — TDV kapsam dışı, gün DOĞRULANMADI"
+  },
+  {
+   "id": "gonja",
+   "t": "1744-01-01",
+   "tur": "toprak-kayip",
+   "b": "Aşanti Krallığı, Opoku Ware döneminde Gonja'yı istila edip yıllık haraca bağladı",
+   "kaynak": "standart akademik/ansiklopedik (Ashanti invasion of Gonja, ~1732-1744) — TDV kapsam dışı, gün DOĞRULANMADI"
+  },
+  {
+   "id": "charrua",
+   "t": "1811-05-18",
+   "tur": "ittifak",
+   "b": "Şef Zapicán önderliğindeki Charrúa savaşçıları, José Artigas'ın bağımsızlık ordusu safında Las Piedras Muharebesi'nde İspanyol kuvvetlerine karşı savaştı",
+   "kaynak": "standart akademik/ansiklopedik (Battle of Las Piedras, 18 Mayıs 1811) — künyenin kendi ozet alanındaki 'bağımsızlık savaşlarında Artigas' notunun somutlaştırılmış hâli, TDV kapsam dışı"
+  },
+  {
+   "id": "ekvador-cumhuriyeti",
+   "t": "1832-02-12",
+   "tur": "toprak-kazanc",
+   "b": "Ekvador, Galápagos Adaları'nı resmen ilhak etti",
+   "kaynak": "standart akademik/ansiklopedik (Ecuador annexation of Galápagos, 12 Şubat 1832) — TDV kapsam dışı"
+  },
+  {
+   "id": "diaguita-calchaqui-konfederasyonu",
+   "t": "1630-01-01",
+   "tur": "isyan",
+   "b": "Calchaquí vadi halkları, İspanyol encomienda sistemine karşı İkinci Calchaquí İsyanı'nı başlattı (1630-1643 arası sürdü)",
+   "kaynak": "standart akademik/ansiklopedik (Calchaquí Wars, 1630-1643 evresi) — TDV kapsam dışı, gün DOĞRULANMADI (yıl güvenilir)"
+  },
+  {
+   "id": "arua",
+   "t": "1659-01-01",
+   "tur": "antlasma",
+   "b": "Şef Piye önderliğindeki Aruã, Mapuá deresinde Portekizlilerle barış antlaşması yaptı",
+   "kaynak": "künyenin kendi ozet alanı ('1659'da Mapuá deresinde şef Piye öncülüğünde barış yaptılar') — bu turda kronoloji dizisine TAŞINDI, yeni araştırma değil"
+  },
+  {
+   "id": "fransiz-guyanasi",
+   "t": "1817-01-01",
+   "tur": "kurulus",
+   "b": "1817 Paris Antlaşması sonrası Fransa, Guyana'daki varlığını kalıcı sömürgeye dönüştürdü",
+   "kaynak": "künyenin kendi ozet alanı ('17. yüzyıldan beri aralıklı Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü') — bu turda kronoloji dizisine TAŞINDI, yeni araştırma değil"
+  }
+ ]
+}
