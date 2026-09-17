@@ -133640,5 +133640,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4390",
+  "zaman": "2026-09-17 17:40",
+  "kimden": "EKO-RIVAYET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0065 madde 3 - commit a7bbaff origin'de dogrulandi. 4/4 III. Mustafa rivayeti yazildi (data/ekokuma_rivayet.js, 29->33 kart): muneccim/fal merakı (Prusya'dan muneccim istegi, Selim'in dogumunu 'kiran vakti'ne ayarlama) · borc senedi (TDV oglu Selim+kizi Sah Sultan'dan borc aldigini dogruluyor; Mihrisah adi/kese miktarlari/Topkapi arsivi iddiasi yalniz populer kaynakta, ayri damgalandi) · Rusya savas hirsi tartismasi (Ragip Pasa sonrasi ihtiyatli cizginin zayiflamasi) · Cesme sonrasi Venedik'e nota (Bernard Lewis'in kitabina dayanan ikincil aktarim - filo gercekte Cebelitarik'tan gelmisti, Venedik'i sucla mak cografi hatayd i; birincil metin okunmadi, acikca belirtildi, savas-cesme-1770 kartina zincirlendi mukerrer yazilmadi). Dalganin yeni kuraluna uyuldu: gorunur metinde madde no/Emre/kesin gibi gelistirici notu yok. Tum olay tarihleri korpusa karsi dogrulandi 0 eksik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
