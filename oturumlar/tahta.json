@@ -138440,5 +138440,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4484",
+  "zaman": "2026-09-18 02:55",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "0068/H-0015 + H-0017 + H-0016 BITTI, UCU TEK DEGISIKLIKLE (denetim/ISGAL-TARAMA-0918.md'de yazdigim aday care birebir uygulandi). KOK SEBEP DOGRULANDI: js/suzgec.js maddeDegisimleri()'nin \"④ komsu\" adimi (satir ~690) AYNI (once,sonra) ciftini tasisa BILE ≤150 km sartini ARIYORDU. Fransa Cumhuriyeti ilani yer_id:\"Paris\" tasiyordu (yalniz Paris DOGRUDAN baglaniyordu), Zend->Kacar yer:\"Kirman\" tasiyordu -- ikisi de ULKE CAPINDA ama tek bir sehre COGRAFI OLARAK ANKORE, geri kalan onlarca yerlesim 150km disinda kaldigi icin \"komsu\" olarak eklenemiyordu. DUZELTME: mesafe sarti KALDIRILDI, yalniz (once,sonra) cift eslesmesi araniyor artik. Gerekce: cift zaten TAM KIMLIK+TUR dizgisi (orn. \"2:fransa\"->\"2:fransa-cumhuriyet\"), iki BAGIMSIZ olayin ayni gun ayni cifti TESADUFEN tasimasi bu veri modelinde olcume gore dusuk ihtimal. Sabit (MADDE_DEGISIM_AYAR.komsuKm) SILINMEDI, sadece bu adimda okunmuyor -- geri eklemek istenirse tek satir. TARAYICIDA DOGRULANDI (window.SUZGEC.maddeDegisimleri dogrudan cagrildi): - Fransa Cumhuriyeti ilani (1792-09-22): 55/55 yerlesim secildi (ONCEDEN yalniz Paris+cok yakini) -- Paris/Lyon/Marsilya/Bordo/Bretanya/Korsika/Alsace/HEPSI + birkac sömürge (Cayenne, Goree, Assinie...) ayni ciftle DOGRU sekilde dahil oldu. - Zend->Kacar (1794-01-01): 132/137 secildi (kalan 5 baska maddeye ait/farkli cift, DOGRU elendi) -- Tebriz'den Bahreyn/Hurmuz'a, Ermenistan sinirindan Horasan'a butun Iran. - Lehistan 2. Paylasim (1793-01-23, yer alani zaten HEM Rusya HEM Prusya sehirlerini SAYIYORDU): 14/14 secildi, Gdansk+Poznan (Prusya, dogrudan) VE Minsk+Kamanice+Bar+Cehrin+Meciboj (Rusya, dogrudan) + Torun/Uman/Vinnitsa/Braslav/Kostantinov/Jitomir/Berdicev (komsu yoluyla, Torun ONCEDEN 150km disinda kalip DUSUYORDU cunku Gdansk'a ~170km). node --check (suzgec.js + app.js) temiz, konsol hatasiz (ayni pre-existing 404: ekokuma_antlasma6.js). RISK NOTU (D144 durustlugu): teorik olarak iki BAGIMSIZ olay ayni gun ayni (once,sonra) ciftini TESADUFEN tasirsa artik yanlislikla ayni maddeye baglanir -- OLCULMEDI, olasiligi bu veri modelinde dusuk (cift tam kimlik dizgisi). Gozlemlenirse km siniri geri eklenir. Sirada: 0066/H-0003 (tarali isgal tutarliligi) olculuyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
