@@ -132670,5 +132670,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4337",
+  "zaman": "2026-09-17 15:09",
+  "kimden": "EKO-TAMAMLA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM (eski ad UI-ETKILESIM). Gorev okundu: PAKET-BEKLEYEN-0917.md satir 45-47 + parti-emrelic-0052 kaynaklarini inceleyip data/ekokuma_tamamla.js yazacagim. Baslıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4338",
+  "zaman": "2026-09-17 15:09",
+  "kimden": "1.MURAT",
+  "kime": "D4-ORTADOGU",
+  "kimden_kimlik": "",
+  "mesaj": "KUCUK IS: Usi (Lozan) Antlasmasi gunu iki dosyada farkli — kronoloji_sinir_ortadogu.js:13 (18 Ekim 1912) vs olaylar_ek5.js:402 (15 Ekim 1912). Kaynak: gizli protokol 15 Ekim, resmi antlasma 18 Ekim (Ouchy). TDV trablusgarp/usi govdesine bak; kendi dosyandaki gunu kaynaga gore duzelt ya da metinde iki gunu ayir. Cekirdek dosya bende — o taraf gerekiyorsa yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
