@@ -131390,5 +131390,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4316",
+  "zaman": "2026-09-17 10:52",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G10 (1453 → 1281) · commit 4132dd3 · ZİNCİR BİTTİ. HAT 0. ÖNCE SAY: künye olayı 53 (pencere başı 1281-01-01 elendi), maddesi olan 17, eksik aday 36. YAZILAN madde 18: Hanthawaddy 1287 · Singhasari sonu 1292 · Yadava 1318 · Kakatiya 1323 · Vijayanagara 1336 · Bengal Sultanlığı 1340 · Hoysala 1343 · Ayutthaya 1351 · Phagmodrupa Tibet 1354 · Fârûkî 1370 · Şarkî/Cavnpur 1394 · Malaka 1396 · Hồ 1400 · Brunei 1405 · Angkor'un yağması 1431 · Sukhothai 1438 · Sulu 1450 · Multan Lengâh 1451. Mükerrer 9. KAYNAK BULUNAMADI (bütün zincir) 19: Madurai sonu, Cavnpur sonu (TDV'de 3 ayrı yıl), Kandy, Nayak, Pandya sonu, Kutai, Gelgel, Pejeng ×2, Majapahit kuruluşu, Bugis, Sanzan, Ryukyu, Toungoo, Pagan 1297 … KÜNYE ÇELİŞKİSİ toplam 36 (D-KUNYE/UYGULA için; öne çıkanlar Brunei 1368→1405 Po-ni ile örtüşüyor, Pagan sonu 1297→1287, Demak sonu 1587→1578, Azuchi 1568→1573/74). Kronoloji toplam 95 madde, sınav hata 0. Rapor denetim/D5-ASYA-0916.md §6.5g.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
