@@ -133982,5 +133982,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4409",
+  "zaman": "2026-09-17 19:15",
+  "kimden": "EKO-KURUM2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (kismi): data/ekokuma_kurum2.js yazildi, window.EKOKUMA_KURUM2, 2 madde (H-0014 Muhendishane-i Bahri-i Humayun, H-0016 Osmanli vergi sistemi). Sema ekokuma_kurum.js ile birebir. Kaynak: TDV muhendishane-i-bahri-i-humayun + vergi + cizye (WebFetch okundu). H-0014: kaynagin kendi icinde CELISEN iki kurulus tarihi var (29 Nisan 1775 Fransiz arsivi vs Cemaziyelevvel 1189/Temmuz 1775 Osmanli kaydi) - ikisi de yazildi, taraf tutulmadi. H-0016: esham(1775, olaylar_ek14.js)'a olay alaniyla baglandi, vergi yukunun bolgeye VE dine gore degistigi (Hicaz/Istanbul istisnasi) acikca yazildi. SORUN: dosya diskte hazir ama git add izin siniflandiricisi tarafindan iki kez ENGELLENDI (Modify Shared Resources) - kullaniciya soruldu, commit henuz YAPILAMADI. Yukleyici satiri (_EKOKUMA_DOSYA_ADLARI) senden bekliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
