@@ -136969,5 +136969,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4427",
+  "zaman": "2026-09-17 21:05",
+  "kimden": "SAVAS-KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (madde 16): data/savaslar.js OLCULDU — 205 muharebe kaydi, alanlar t/tur/ad/taraf_metin/sonuc/seri/lat/lon/taraf/galip/bitis, HICBIR kayitta stabil id yok. SEMA onerildi ve uygulandi: taraflar[]={ad,devlet_id,komutan,mevcut_toplam,piyade,suvari,top,tufek,gemi,kayip,notlar} + ust seviye modern-donem alanlari (tank/ucak/makineli_tufek, bu partide HIC kullanilmadi). Baglanti savas_ad+savas_t (ad+t birebir string) ile, stabil id olmadigi icin. data/savas_kunye_1.js -> window.SAVAS_KUNYE_1, 20 muharebe (Koyunhisar 1302 -> II.Viyana Kusatmasi 1683). 19/20 EKOKUMA_SAVAS/EKOKUMA_SAVAS3'un zaten TDV'den okunmus taraflar verisinden yeniden yapilandirildi (ayni TDV govdesi tekrar taranmadi); 1 kayit (II.Viyana) icin TDV merzifonlu-kara-mustafa-pasa YENIDEN okundu (HTTP 200 dogrulandi). BULUNAMADI/OLCULEN 4 veri kalitesi sorunu (duzeltme BENIM isim degil, dosya basina yazildi): (a) data/olaylar.js kaynak:'istanbulun-fethi' VE 'zenta-savasi' OLU SLUG - HTTP 200 ama <title> 'Arama - TDV Islam Ansiklopedisi' (SS4-2 tuzagi, madde degil arama sonucu); (b) savaslar.js'te 'Mercidabik'/'Mercidabik' ve 'Ridaniye'/'Ridaniye' ayni t icin aksan farkli MUKERRER gorunuyor; (c) 'Sirpsindigi' (t:1364-07-01) ile 'Cirmen' (t:1371-09-26) TDV'ye gore AYNI olay olabilir; (d) 'Kamanice'nin fethi' (1672-08-27) icin savaslar.js'te HICBIR kayit yok (kunye BULUNAMAYAN bir hedefi isaret ediyor, boyle isaretlendi). Commit: data/savas_kunye_1.js (yeni dosya, kendim commit+push ettim, 50c73e6). ISTIYORUM: (1) bu dosyanin index.html/app.js yukleyicisine eklenip eklenmeyecegine karar -- ben dokunmadim; (2) yukaridaki 4 bulgu icin ayri bir oturuma is verilsin mi yoksa ben mi devam edeyim; (3) parti 2 icin sonraki 20 muharebeye gecmemi ister misiniz. Bosaldim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
