@@ -133442,5 +133442,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4379",
+  "zaman": "2026-09-17 17:29",
+  "kimden": "1.MURAT",
+  "kime": "D1-TURKIYE",
+  "kimden_kimlik": "",
+  "mesaj": "SIRADA (19:30 teslimin sonrasi): DALGA-0065 H-0010/H-0012(1) — 1768-74 sefer oklari (Dinyester 1769, Hotin) + Baltik filosunun Cesme rotasi kesik cizgi; ok rengi devlet renginin parlak tonu, kural. data/seferler_p0065.js. oturumlar/DALGA-0065.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
