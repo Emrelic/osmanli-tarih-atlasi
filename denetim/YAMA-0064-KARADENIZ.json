@@ -1,0 +1,189 @@
+{
+  "paket": "0064-KARADENIZ",
+  "maddeler": "DALGA-0064 · H-0001 · H-0021 (H-0002 görseli Balkan'da — 1737 Banaluka, 21-25°D — D3-AVRUPA-ORTA kapsamı, burada işlenmedi)",
+  "tarih": "2026-09-17",
+  "yazan": "D2-KOMSU",
+  "durum": "ÖNERİ — yerleşim dosyalarına YAZILMADI (DALGA-0064: yalnız KOSU13-YAMA yazar); indirme sırası 1.MURAT'ın",
+  "olcum": "Atlas: girdi.yukle() ile 43-49,5°K / 28,5-45,5°D kutusunda 1680-1800'e değen 59 kayıt okundu (karadeniz_olc.py, scratchpad). Kronoloji: 104 olaylar*/kronoloji* dosyası anahtar kelimeyle tarandı.",
+  "kaynak_kumesi": {
+    "TDV_canli_okundu": ["mahmud-i--osmanli", "ozu", "azak", "kirim", "rusya", "hotin", "nogaylar", "bucak", "anapa", "seyh-mansur", "cerkezler", "abazalar", "kabartaylar", "kafkasya", "kucuk-kaynarca-antlasmasi", "yas-antlasmasi", "edirne-antlasmasi", "kipcaklar", "sahin-giray"],
+    "TDV_olu_302": ["ozi", "kirim-hanligi", "zaporojye", "kilburun", "kizkermen", "gazikermen", "orkapi", "munnich", "yedisan", "cambuyluk", "camboyluk", "yedickul", "kuban", "cerkesler", "desti-kipcak", "kabartay", "nalcik", "belgrad-antlasmasi", "taman", "sogucak", "yeni-sirbistan", "elizavetgrad", "mozdok"],
+    "akademik": [
+      "Manstein, Contemporary Memoirs of Russia 1727-1744 (İng. 1856; archive.org contemporarymem00mansgoog) — çağdaş birincil kaynak neşri; tarihler editöre göre Gregoryen",
+      "Güler, Tarih İncelemeleri Dergisi 23 (2008) — dergipark article-file/58665",
+      "Gümüş, KTÜEFAD 1 (2021) — dergipark article-file/2265345",
+      "Bülbül, Türk Tarihi Araştırmaları Dergisi 1 (2016) — article-file/263558",
+      "Bülbül, Vakanüvis 2 (2017) — article-file/368080",
+      "Polat, Artvin Çoruh Üniv. USBD 10 (2024) — article-file/4028898",
+      "Kurtaran, Tarih İncelemeleri Dergisi 29/1 (2014) — article-file/58899 (Belgrad 1739 ahidnamesi BOA DVE 83/1'den)",
+      "Shapira, Kafkasya Çalışmaları 5/10 (2020) — article-file/1129473",
+      "Karımov, Kafkasya Çalışmaları 5/10 (2020) — article-file/1129409",
+      "Belleten 85/304 (2021) — article-file/2125273",
+      "Encyclopedia of Ukraine (CIUS, Toronto) — New Serbia, Kropyvnytskyi (imzalı maddeler)"
+    ],
+    "dayanak_YAPILMADI": ["Vikipedi", "kupi.com", "yerel turizm siteleri", "Pollock 2004 atölye taslağı (yalnız karşılaştırma için anıldı — 'Not intended for citation')", "Columbia/World Encyclopedia özetleri (ARAMA düzeyi)"]
+  },
+
+  "H0001_cevap": {
+    "soru": "Ruslar Özi'ye hangi yoldan indi — Lehistan mı, Zaporojye mi, Yedisan mı? Savaşın başlangıç maddesi var mı?",
+    "guzergah_1737": [
+      "Karargâh Kiev; Nisan başında piyade Dinyeper'den teknelerle Perevoloçna yakınına indi [Manstein s.148-152]",
+      "Dinyeper üç yerden geçildi: Kremençuk · Orlik · Perevoloçna ('bridge of boats of 503 toises'); geçiş 6 Mayıs 1737'de tamam [Manstein]",
+      "12 Mayıs yürüyüş; kollar 3 Haziran'da Omelnik'te birleşti; Dinyeper'e yakın kalarak 25 Haziran'da Bug (editöre göre muhtemelen İngül) — geçiş yeri 'near the site of the present Vosnesensk' [Manstein]",
+      "önce Bender yönü, 6 Temmuz'dan sonra Bug boyunca güneye Özi'ye [Manstein]; Güler s.148: Münnich 7 Temmuz'da kale karşısında, 10 Temmuz taarruz"
+    ],
+    "hukum": {
+      "Lehistan": "1737'de Lehistan'dan GEÇİŞ YOK (Manstein metninde yok). Lehistan geçişi 1739 Hotin seferinde: 'On June 7th … entered Poland near to Wasilikow' [Manstein s.218-221]",
+      "Zaporojye": "Rota Dinyeper'in Zaporog tarafından geçiyor ama metin bunu adıyla söylemiyor — BULUNAMADI. Zaporoglar 1734'te Rus himayesine döndü ('it was only in the year 1734 that they resumed their submission to Russia', Manstein s.18, yazar kendi emin değil); 1736 ordusunda 3000 Zaporog [s.101]",
+      "Yedisan": "Dinyeper–Bug arasından Özi'ye inen yolun Yedisan/Camboyluk bozkırından geçtiği COĞRAFÎ ÇIKARIM — kaynak ifadesi değil. Bozkır bir kale değil; 'işgal' ile değil yürüyüşle geçildi, o yüzden harita yaması ÖNERİLMİYOR (bozkır Kırım'a tâbi kalmaya devam etti)",
+      "D1'e_aktarma": "Güzergâh noktaları D1-TURKIYE'nin sefer oku işine (data/seferler_p0064.js) tahtadan iletildi"
+    },
+    "baslangic_maddesi": "ZATEN VAR (bu sabah 10:52 olaylar_p0063.js ile geldi): 1735-01-01 Kırım kuvvetlerinin Kabartay'dan geçişi — savaşın bahanesi · 1736-05-02 Rusya ile savaş kararı. Ayrıca 1736-07-13 Azak'ın düşüşü ve kronoloji_kirim.js'te 1736 Kırım istilası var. EKSİK olan tek halka: Rus saldırısının başladığı gün → aşağıda KR-1"
+  },
+
+  "kronoloji_onerileri": [
+    {
+      "no": "KR-1",
+      "t": "1736-03-24",
+      "b": "Rusya Azak ve Kırım üzerine yürüdü — Osmanlı-Rus Savaşı fiilen başladı",
+      "devletler": ["rusya", "osmanli"],
+      "tur": "savas", "onem": 5, "dunya": 3, "kapsam": "dis", "yer_id": "Azak",
+      "d": "Kırım kuvvetlerinin İran cephesine giderken Kabartay'dan geçmesini topraklarına tecavüz sayan Rusya, bunu bahane ederek savaş ilan etmeden Azak ve Kırım üzerine iki koldan yürüdü. Münnich Don'u geçip Azak önündeki kaleleri aldı. Osmanlı divanı ancak 2 Mayıs 1736'da savaş kararı aldı.",
+      "kaynak": "Güler, Tarih İncelemeleri Dergisi 23 (2008) s.141 ('11 Zilkade 1148/24 Mart 1736'da 90 bin kişiyle'; hicrî gün tablo çevirimiyle tutuyor) · TDV mahmud-i--osmanli ('1148 Zilkadesinde (Mart 1736) Azak Kalesi'ne saldırdılar')",
+      "celiski": "Gümüş (KTÜEFAD 2021) 10 Nisan 1736 veriyor — ÇÖZÜLMEDİ; TDV yalnız ay veriyor. Seçim Güler'in hicrî tarihinin çevrimle tutması üzerine."
+    },
+    {
+      "no": "KR-2",
+      "t": "1739-12-12",
+      "b": "Belgrad Antlaşması'nın Rusya ile ahidnamesi: Kabartay tarafsız, Azak yıkılacak",
+      "devletler": ["rusya", "osmanli"],
+      "tur": "antlasma", "onem": 4, "dunya": 3, "kapsam": "dis", "yer_id": "Azak",
+      "d": "Rusya ile barışın ahidnamesi 12 Aralık 1739'da düzenlendi. Azak'ın istihkâmları yıkılıp iki devlet arasında boş bir ara bölge bırakılacak, Kabartay ne Rusya'ya ne Osmanlı'ya bağlı olacaktı (md. 6). Özi ve Kılburun Osmanlı'ya kaldı.",
+      "kaynak": "TDV mahmud-i--osmanli ('11 Ramazan 1152 / 12 Aralık 1739'; 'Kabartay bölgesi tarafsız olacaktı') · Kurtaran 2014 (BOA DVE 83/1; md. 6 'ne Rusya'ya ne de Osmanlı Devleti'ne bağlı kalacaklar') · TDV azak · Manstein s.246 (Özi ve Kılburun Osmanlı'ya bırakıldı)",
+      "not_mevcut_madde": "🔴 Atlastaki 1739-10-03 'Niş Antlaşması' maddesinin günü için belgeli kaynak BULUNAMADI (yalnız Vikipedi'de). Rusya barışı için kaynaklar 18 Eylül (Gümüş) / 29 Eylül (TDV rusya) / 12 Aralık ahidname (TDV) veriyor — mevcut maddenin günü gözden geçirilmeli, bu yama ona DOKUNMUYOR."
+    },
+    {
+      "no": "KR-3",
+      "t": "1791-01-01",
+      "b": "Anapa Rus işgaline geçti",
+      "devletler": ["osmanli", "rusya"],
+      "tur": "toprak-kayip", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "Anapa",
+      "d": "1787-1792 savaşında Ruslar Anapa'yı ele geçirdi. Kale 1792 Yaş Antlaşması ile Osmanlı'ya iade edildi. Gün iki TDV maddesinde farklı olduğu için tarih YIL düzeyindedir.",
+      "kaynak": "TDV anapa ('26 Temmuz 1791') · TDV seyh-mansur ('22 Haziran 1791') · TDV yas-antlasmasi (iade)",
+      "celiski": "26 Temmuz ↔ 22 Haziran 1791; Jülyen farkı (+11) ikisini birleştirmiyor ⇒ ÇÖZÜLMEDİ, yıl düzeyi"
+    },
+    {
+      "no": "KR-4",
+      "t": "1828-06-24",
+      "b": "Anapa Ruslara teslim oldu",
+      "devletler": ["osmanli", "rusya"],
+      "tur": "toprak-kayip", "onem": 4, "dunya": 2, "kapsam": "dis", "yer_id": "Anapa",
+      "d": "1828-1829 savaşında Anapa kalesi Ruslara teslim oldu. Edirne Antlaşması (14 Eylül 1829) Anapa ve Poti'yi hukuken Rusya'ya bıraktı; Faş'tan Anapa'ya kadar kıyı da Rusya'ya terk edildi.",
+      "kaynak": "TDV anapa ('1828-06-24' teslim) · TDV edirne-antlasmasi · TDV abazalar ('Faş'tan Anapa'ya kadar bütün yerler Ruslar'a terkedil[di]')"
+    },
+    {
+      "no": "KR-5",
+      "t": "1838-01-01",
+      "b": "Ruslar Çerkez kıyısında Soçi ve Tuapse limanlarını aldı",
+      "devletler": ["rusya"],
+      "tur": "isgal", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Soçi (Sâşe)",
+      "d": "Edirne Antlaşması'nı tanımayan ve fiilen bağımsız kalan Çerkezlerin kıyısında Ruslar 1838'de Soçi ve Tuapse limanlarını ele geçirdi. Çerkez içerisinin işgali 1861-1864'te tamamlandı.",
+      "kaynak": "TDV cerkezler ('1838' Soçi ve Tuapse; 1861-1864 Abzeh, Şapsığ, Ubıh) · TDV abazalar (Çerkezlerin Edirne'yi tanımaması)",
+      "not": "Tuapse'nin 1838 kale kuruluşu ve Maykop'un 1857 kuruluşu yalnız Columbia Encyclopedia özetinde [ARAMA] — dayanak yapılmadı"
+    },
+    {
+      "no": "KR-6",
+      "t": "1822-01-01",
+      "b": "Rusya Kabardey'i ele geçirdi",
+      "devletler": ["kabartay", "rusya"],
+      "tur": "isgal", "onem": 3, "dunya": 2, "kapsam": "dis", "yer_id": "Kabartay (Nalçik)",
+      "d": "Terek boyundaki kalelerle (Mozdok 1763) başlayan ve 1818'de Nalçik'te bir kaleyle ilerleyen Rus baskısı 1822'de Kabardey bölgesinin ele geçirilmesiyle sonuçlandı. Tarih YIL düzeyindedir.",
+      "kaynak": "Belleten 85/304 (2021) ('1822'de Kabardey bölgesini … ele geçirmiştir') · TDV cerkezler (Mozdok 1763) · Britannica Kabardino-Balkaria gövdesi (Nalçik 1818)",
+      "sart": "KİMLİK: kabartay künyesi 1774-07-21'de bitiyor — H-4 kararı verilmeden bu madde künye penceresi DIŞINDA kalır"
+    }
+  ],
+
+  "harita_yamalari": [
+    {
+      "no": "H-1",
+      "kayit": "Maykop (Çerkezya) · Tuapse · Soçi (Sâşe)",
+      "tur": "YANLIŞ SINIF — karar gerekiyor",
+      "simdi": "d (DOĞRUDAN Osmanlı) 1783-04-19 → 1829-09-14; 1829 sonrasında hiç dönem yok (sahipsiz)",
+      "kaynak_diyor": "TDV cerkezler: Çerkezler 'hukuken Kırım Hanlığı'na tâbi, gerçekte ise serbest'; Osmanlı'nın fiilen tuttuğu yerler kıyı kaleleri (Anapa, Soğucak, Gelincik, Sohum, Faş). Soçi ve Tuapse'de 1838'e kadar Osmanlı kalesi YOK (1838'de Ruslar aldı). Maykop Abzeh içerisi — kaynakta hiçbir Osmanlı idaresi yok.",
+      "oneri": {
+        "1783-04-19→1829-09-14": "d → v (tâbi, hukukî iddia) — doğrudan yönetim iddiası kaynaksız",
+        "1829-09-14→1838 (Soçi, Tuapse) / →1864 (Maykop)": "Çerkez (fiilen bağımsız) — ⚠️ ATLASTA ÇERKEZ KÜNYESİ YOK; önce künye + renk (D-KUNYE/UYGULA). Künye yazılamazsa dönem YAZILMAZ, sahipsiz kalır (kasıtlı)",
+        "1838→ (Soçi, Tuapse)": "rusya, f=1838-01-01 (TDV cerkezler, yalnız yıl)",
+        "1864→ (Maykop)": "rusya, f=1864-01-01 (TDV cerkezler '1861-1864', yıl — gün bulunamadı)"
+      }
+    },
+    {
+      "no": "H-2",
+      "kayit": "Anapa",
+      "tur": "EKSİK İŞGAL + DAYANAKSIZ BAŞLANGIÇ",
+      "simdi": "d 1781-01-01 → 1829-09-14",
+      "oneri": {
+        "1791 → 1792-01-10": "s rusya (işgal) — başlangıç günü ÇELİŞKİLİ (TDV anapa 26 Temmuz / seyh-mansur 22 Haziran 1791) ⇒ karar gerekiyor; Yaş 10 Ocak 1792 iade (TDV yas-antlasmasi, TDV imza gününü 10 Ocak veriyor)",
+        "1828-06-24 → 1829-09-14": "s rusya (işgal, TDV anapa) — Edirne'ye kadar hukuken Osmanlı, fiilen Rus",
+        "1829-09-14 →": "rusya (Edirne md. 4 — TDV edirne-antlasmasi) — şu an 1829 sonrası dönem YOK",
+        "f 1781-01-01": "KAYNAKSIZ: TDV anapa kaleyi Ferah Ali Paşa'nın 1783-86'da yaptırdığını yazıyor; 1781 için kaynak BULUNAMADI. Mevcut 1781 kronoloji maddesiyle birlikte gözden geçirilmeli — bu yama değiştirmiyor"
+      }
+    },
+    {
+      "no": "H-3",
+      "kayit": "Özi",
+      "tur": "GÜN ÇELİŞKİSİ — karar gerekiyor, değişiklik önerilmiyor",
+      "simdi": "d → 1737-07-13 · s rusya 1737-07-13 → 1738-08-01 · d 1738-08-01 →",
+      "kaynak_diyor": {
+        "dusus": "13 Temmuz 1737: Güler (hicrî 15 Rebiulevvel 1150 çevrimle tutuyor) · Gümüş · Manstein · çağdaş plan 'le 2 Juillet' (Jülyen = 13 Temmuz). TDV ozu ve mahmud-i--osmanli ise 11 Temmuz 1737. ⇒ atlas 13'ü kullanıyor (mevcut madde farkı zaten notlu)",
+        "iade": "Gümüş 'Ekim 1738 … savaş yapmadan Osmanlı'ya geçti' · Manstein yıkıp boşaltma emrinin 'in the month of September 1739' geldiğini yazıyor · TDV ozu '1739 antlaşmasıyla bütün istihkâmlarını yıktıktan sonra … teslim etti'. ⇒ mevcut 1738-08-01 İÇİN KAYNAK BULUNAMADI; akademik Ekim 1738 ↔ TDV 1739"
+      },
+      "oneri": "iade gününü ya Ekim 1738'e (Gümüş; yıl-ay: 1738-01-01 kuralı pencereyi bozar → karar) ya da 1739 barışına (TDV esas) çek. §4 'TDV esas' ⇒ öneri: 1739, ama gün için TDV'nin kendi Rusya barışı tarihleri de çelişik (29 Eylül / 12 Aralık)"
+    },
+    {
+      "no": "H-4",
+      "kayit": "Kabartay (Nalçik)",
+      "tur": "HUKUKÎ ≠ FİİLÎ — karar gerekiyor",
+      "simdi": "s kabartay 1441 → 1774-07-21 · rusya 1774-07-21 →",
+      "kaynak_diyor": [
+        "1739 Belgrad (Rusya ahidnamesi) md. 6: Kabartay tarafsız, iki devlete de bağlı değil [Kurtaran 2014; TDV mahmud-i--osmanli] — mevcut 'kabartay' kaydıyla UYUMLU",
+        "1774 Küçük Kaynarca md. 21: TDV kucuk-kaynarca-antlasmasi 'Kabartaylar Rusya'ya bırakılmaktaydı'; ama aynı madde Bükreş ön görüşmesinde konunun 'Kırım hanı ve Tatarlar'ın re'y ve iradesine bırakılması' üzerinde anlaşıldığını yazıyor ⇒ TDV kendi içinde iki okuma taşıyor",
+        "fiilî: pristavlık 1769 (Karımov 2020) · Mozdok 1763 (TDV cerkezler) · 'Kabartay 1770-1796 arasında Rusya'nın hâkimiyetine girdi' (TDV kafkasya) · 1804 isyan (Karımov) · Nalçik kalesi 1818 · Kabardey'in ele geçirilmesi 1822 (Belleten 2021)"
+      ],
+      "oneri": "Mevcut 1774-07-21 kırılması HUKUKÎ (Rus yorumu) bir tarih; atlas tasarruf boyar (D030). İki seçenek: (a) DOKUNMA — 1774 TDV kucuk-kaynarca'nın ana cümlesine dayanıyor; (b) fiilî tasarrufa çek: kabartay → 1822-01-01, künye t: de uzatılır (devletler.js, UYGULA). ÖNERİM (a) + KR-6 maddesi künye uzatılırsa yazılsın; (b) yalnız 1774-1822 arası için tarihli bir 'Rus idaresi' kaynağı bulunursa değil, tersine 'bağımsız' kaynağı bulunursa. Şu an iki yönde de tarihli kesin kaynak yok ⇒ bulunamadı."
+    },
+    {
+      "no": "H-5",
+      "kayit": "Yelisavetgrad (Aziz Yelizaveta Kalesi)",
+      "tur": "DEĞİŞİKLİK YOK — bağlam",
+      "kaynak_diyor": "Kale 1754'te 'founded … on Zaporozhian Cossack territory', Türk-Tatar akınlarına karşı (Encyclopedia of Ukraine, Senkus/Zhukovsky); Yeni Sırbistan Ocak 1752'de kuruldu (aynı kaynak). Kesin kuruluş günü (18/29 Haziran 1754) ve Osmanlı'nın itirazı (Ekim 1754 inşaatın durması) yalnız ARAMA düzeyinde — dayanak yapılmadı.",
+      "oneri": "s rusya f=1754-01-01 (yıl) doğru hassasiyette; DOKUNMA. 1754 öncesinde nokta sahipsiz görünüyorsa Zaporojye toprağıydı — ama 1734-1775 Zaporojye'nin Rus himayesi kaynağı yalnız Manstein (yazar kendi emin değil) ⇒ künye ilişkisi (zaporojye tâbi mi) bulunamadı"
+    },
+    {
+      "no": "H-6",
+      "kayit": "Yedisan bozkırı · Camboyluk bozkırı · Yediçkul bozkırı · Kuban Nogay bozkırı · Bozkır (Deşt-i Kıpçak)",
+      "tur": "UYUMLU, iki açık kalem",
+      "kaynak_diyor": "18. yy: Yedisan, Camboyluk, Bucak ve Kuban Nogayları 'Kırım Hanlığı'nın hâkimiyeti altındaydı' (TDV nogaylar) ⇒ v (Osmanlı'ya tâbi Kırım üzerinden) UYUMLU. 1774-07-21 Küçük Kaynarca md. 3: 'Kırım, Bucak, Kuban, Yedisan, Camboyluk ve Yediçkul' müstakil hanın idaresinde (TDV kirim, kucuk-kaynarca) ⇒ 1774-1783 'kirim' UYUMLU. 1783 ilhakı (TDV: 8 Nisan, Jülyen ⇒ Gregoryen 19 Nisan) UYUMLU. Yaş 10 Ocak 1792: Turla sol kıyısı Rusya'ya (TDV yas-antlasmasi) — atlas 1792-01-09 kullanıyor.",
+      "acik": [
+        "v f=1502-03-01 (Altın Orda'nın sonu) — Nogayların bu bozkırlara yerleşmesi daha geç: Yedisan ve Camboyluk Nogayları ~1728'de Kuban'dan göçtü (Bülbül 2016 s.82-83, yıl dolaylı). 1502-1728 arası bu bozkırlarda kimin 'tasarrufu' olduğu BULUNAMADI — değişiklik önerilmiyor",
+        "Yedisan 1783-04-19 → 1792-01-09 'd' (doğrudan Osmanlı): Özi eyaleti mi, bağımsız mı — kaynak BULUNAMADI",
+        "Yaş günü: TDV 10 Ocak 1792 (9 Ocak yalnız karar günü) — atlas 1792-01-09; Hacıbey, İsmail vb. de 01-09/01-10 karışık ⇒ ayrı küçük yama gerekebilir, bu yama dokunmuyor"
+      ]
+    }
+  ],
+
+  "bulunamadi": [
+    "Rus savaş ilanının (Osterman mektubu) günü",
+    "1737 rotasının Zaporog toprağından geçtiğini adıyla söyleyen kaynak",
+    "Kızıkermen / Gazikermen'in 1737 durumu; Kılburun'un 1736 teslim günü",
+    "Niş/Belgrad (Rusya) barışının belgeli imza günü (18/29 Eylül, 12 Aralık çelişik)",
+    "Özi iadesinin günü (Ekim 1738 / Eylül 1739 / 1739 antlaşması)",
+    "Kanjal savaşının günü (1707-08)",
+    "Aziz Yelizaveta Kalesi'nin akademik kaynaklı günü ve Osmanlı itirazının metni",
+    "Belgrad 1739 sınırının Dinyeper batısındaki güzergâhı",
+    "Yedisan'ın 1783-1792 statüsü",
+    "Anapa'nın inşa başlangıç yılı (1781/1782) ve Sucuk Kale",
+    "Edirne md. 4'ün tam metni",
+    "Çerkez künyesi (atlasta yok)"
+  ]
+}
