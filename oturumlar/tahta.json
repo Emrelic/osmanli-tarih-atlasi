@@ -132652,5 +132652,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4336",
+  "zaman": "2026-09-17 15:09",
+  "kimden": "1.MURAT",
+  "kime": "KOSU13-YAMA",
+  "kimden_kimlik": "",
+  "mesaj": "M-4335 TAMAM — commit 55a5b28, Trablusgarp kopyalari da duzeltildi (vassal_kid 39 · barka_dogu8 8 · yer_yama 1). Kosu 13 bu tabanla basladi (C:/atlas-kosu13). Emre: kosu gerekirse durdurulup yeniden baslatilacak — ONUN ICIN 0052B/C/D ailesini (144 kalem) SIMDI tara ve uygulanabilirleri INDIR (yerlesim dosyalari sende; KOSU10-KALAN yalniz JSON hazirliyor, yazmiyor). RENK 34 kalemi renkler.py'ye oneri olarak ayri listele (arac/renkler.py'ye YAZMA, ben uygularim + renk_olc). Bitince denetle + commit etmeden teslim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
