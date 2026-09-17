@@ -2425,25 +2425,8 @@ window.YER_YAMA_TBMM_1920_0905 = [
  },
  {
   "ad": "Trabzon",
-  "d": [
-   {
-    "f": "1461-08-15",
-    "t": "1920-04-23",
-    "y": "kusatma"
-   }
-  ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1461-08-15",
-    "d": "trabzon-rum"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
+  "d": [{"f": "1461-08-15", "t": "1916-04-18", "y": "kusatma"}, {"f": "1918-02-24", "t": "1920-04-23", "kaynak": "TDV trabzon (Rus işgali 18 Nisan 1916 - 24 Şubat 1918)"}],
+  "s": [{"f": "1281-01-01", "t": "1461-08-15", "d": "trabzon-rum"}, {"f": "1916-04-18", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-02-24", "d": "transkafkasya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  },
  {
   "ad": "Giresun",
@@ -2541,110 +2524,13 @@ window.YER_YAMA_TBMM_1920_0905 = [
  },
  {
   "ad": "Erzincan",
-  "d": [
-   {
-    "f": "1401-02-01",
-    "t": "1402-07-28"
-   },
-   {
-    "f": "1514-09-06",
-    "t": "1920-04-23"
-   }
-  ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1348-01-01",
-    "d": "ilhanli"
-   },
-   {
-    "f": "1348-01-01",
-    "t": "1379-01-01",
-    "d": "akkoyunlu"
-   },
-   {
-    "f": "1379-01-01",
-    "t": "1401-02-01",
-    "d": "mutahharten"
-   },
-   {
-    "f": "1402-07-28",
-    "t": "1410-01-01",
-    "d": "mutahharten"
-   },
-   {
-    "f": "1410-01-01",
-    "t": "1502-01-01",
-    "d": "akkoyunlu"
-   },
-   {
-    "f": "1502-01-01",
-    "t": "1514-09-06",
-    "d": "safevi"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
+  "d": [{"f": "1401-02-01", "t": "1402-07-28"}, {"f": "1514-09-06", "t": "1916-07-24"}, {"f": "1918-02-26", "t": "1920-04-23", "kaynak": "TDV erzincan (26 Şubat 1918)"}],
+  "s": [{"f": "1281-01-01", "t": "1348-01-01", "d": "ilhanli"}, {"f": "1348-01-01", "t": "1379-01-01", "d": "akkoyunlu"}, {"f": "1379-01-01", "t": "1401-02-01", "d": "mutahharten"}, {"f": "1402-07-28", "t": "1410-01-01", "d": "mutahharten"}, {"f": "1410-01-01", "t": "1502-01-01", "d": "akkoyunlu"}, {"f": "1502-01-01", "t": "1514-09-06", "d": "safevi"}, {"f": "1916-07-24", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-02-26", "d": "transkafkasya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  , "kaynak": "TDV `erzincan` — govde okundu: \"Otlukbeli Savasi'ndan (1473) SONRA DA Erzincan AKKOYUNLU sinirlari icinde kaldi\" · \"Akkoyunlu Devleti'nin dagilmasi ile Erzincan SAFEVILER'in kontrolu altina girdi\" · \"Erzincan ve yoresi 1514'te ... savassiz olarak Osmanli hakimiyetine girdi\" · \"Erzincan, Bayburt ile birlikte 23 EKIM 1514'te Biyikli Mehmed Bey'e beylerbeyilik olarak verilmisti\" ⚠️ KIRILMA GUNU 1514-10-23'ten 1514-09-06'ya ALINDI: TDV'nin 23 Ekim'i BEYLERBEYILIK ATAMASIDIR (devirden sonraki idari islem); toprak Caldiran SEFERI sirasinda el degistirdi ve 1514-09-06 kulliyatta VAR OLAN bir gun (\"Yavuz Sultan Selim'in Tebriz'e girisi\"). 47 gunluk kaydirma, ayni seferin icinde.", "neden": "p0004/H-0006. Kayit IKI YERDE yanlisti: (1) 1473-08-11 Otlukbeli'yi Osmanli devri sayiyordu — TDV acikca 'sonra DA Akkoyunlu sinirlari icinde kaldi' diyor; (2) 1502-1514 SAFEVI donemi HIC YOKTU, oysa komsulari Erzurum/Van/Ercis/Kemah'in dordunde de var. Iki kusur birbirini gizliyordu: 1473'ten itibaren Osmanli yazilinca arada Safevi'ye yer kalmiyordu. 🔴 Degismez 2 tavani 0 ve DOLU; 1514-10-23'e ±30 gun madde YOK (en yakin 47 gun). Kaydirma bir odun degil daha dogru modelleme."},
  {
   "ad": "Erzurum",
-  "d": [
-   {
-    "f": "1518-01-01",
-    "t": "1920-04-23",
-    "y": "antlasma"
-   }
-  ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1360-01-01",
-    "d": "ilhanli"
-   },
-   {
-    "f": "1360-01-01",
-    "t": "1385-01-01",
-    "d": "eretna"
-   },
-   {
-    "f": "1385-01-01",
-    "t": "1387-01-01",
-    "d": "karakoyunlu"
-   },
-   {
-    "f": "1387-01-01",
-    "t": "1403-01-01",
-    "d": "timurlu"
-   },
-   {
-    "f": "1403-01-01",
-    "t": "1408-01-01",
-    "d": "mutahharten"
-   },
-   {
-    "f": "1408-01-01",
-    "t": "1467-01-01",
-    "d": "karakoyunlu"
-   },
-   {
-    "f": "1467-01-01",
-    "t": "1502-01-01",
-    "d": "akkoyunlu"
-   },
-   {
-    "f": "1502-01-01",
-    "t": "1518-01-01",
-    "d": "safevi"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
+  "d": [{"f": "1518-01-01", "t": "1916-02-16", "y": "antlasma"}, {"f": "1918-03-12", "t": "1920-04-23", "kaynak": "TDV erzurum (12 Mart 1918)"}],
+  "s": [{"f": "1281-01-01", "t": "1360-01-01", "d": "ilhanli"}, {"f": "1360-01-01", "t": "1385-01-01", "d": "eretna"}, {"f": "1385-01-01", "t": "1387-01-01", "d": "karakoyunlu"}, {"f": "1387-01-01", "t": "1403-01-01", "d": "timurlu"}, {"f": "1403-01-01", "t": "1408-01-01", "d": "mutahharten"}, {"f": "1408-01-01", "t": "1467-01-01", "d": "karakoyunlu"}, {"f": "1467-01-01", "t": "1502-01-01", "d": "akkoyunlu"}, {"f": "1502-01-01", "t": "1518-01-01", "d": "safevi"}, {"f": "1916-02-16", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-03-12", "d": "transkafkasya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  },
  {
   "ad": "Kars",
@@ -2817,39 +2703,8 @@ window.YER_YAMA_TBMM_1920_0905 = [
  },
  {
   "ad": "Bitlis",
-  "d": [
-   {
-    "f": "1515-09-15",
-    "t": "1920-04-23"
-   }
-  ],
-  "s": [
-   {
-    "f": "1281-01-01",
-    "t": "1351-01-01",
-    "d": "ilhanli"
-   },
-   {
-    "f": "1351-01-01",
-    "t": "1467-01-01",
-    "d": "karakoyunlu"
-   },
-   {
-    "f": "1467-01-01",
-    "t": "1502-01-01",
-    "d": "akkoyunlu"
-   },
-   {
-    "f": "1502-01-01",
-    "t": "1515-09-15",
-    "d": "safevi"
-   },
-   {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye"
-   }
-  ]
+  "d": [{"f": "1515-09-15", "t": "1916-03-01"}, {"f": "1916-08-08", "t": "1920-04-23", "kaynak": "TDV bitlis (Rus işgali 1 Mart - 8 Ağustos 1916)"}],
+  "s": [{"f": "1281-01-01", "t": "1351-01-01", "d": "ilhanli"}, {"f": "1351-01-01", "t": "1467-01-01", "d": "karakoyunlu"}, {"f": "1467-01-01", "t": "1502-01-01", "d": "akkoyunlu"}, {"f": "1502-01-01", "t": "1515-09-15", "d": "safevi"}, {"f": "1916-03-01", "t": "1916-08-08", "d": "rusya"}, {"f": "1920-04-23", "t": "1923-10-29", "d": "tbmm-turkiye"}]
  , "kaynak": "ankraj Van (72 km) · Erciş — akkoyunlu'nun bitişi külliyatta 1501-07-01/1502-01-01; TDV `akkoyunlular`: Elvend 1501'de yenildi", "neden": "BU KAYITTA AÇILIŞ DOĞRUYDU, kusur KUYRUKTAYDI: akkoyunlu 1515-09-15'e kadar sürüyordu, oysa künye 1514-01-01'de, TDV 1501'de bitiriyor. 1502-1515 arası bölge Safevî'nin elindeydi (Van'ın kendi kaydı bunu söylüyor). Osmanlı günü 1515-09-15 DEĞİŞMEDİ."},
  {
   "ad": "Diyarbakır",

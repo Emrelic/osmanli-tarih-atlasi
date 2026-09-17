@@ -172,23 +172,7 @@ window.YER_YAMA_MANDA_0906 = [
   },
   {
     "ad": "Halep",
-    "s": [
-      {
-        "f": "1281-01-01",
-        "t": "1516-08-28",
-        "d": "memluk"
-      },
-      {
-        "f": "1918-10-26",
-        "t": "1920-07-24",
-        "d": "fransa-cumhuriyet"
-      },
-      {
-        "f": "1920-07-24",
-        "t": "1923-10-29",
-        "d": "suriye-lubnan-mandasi"
-      }
-    ],
+    "s": [{"f": "1281-01-01", "t": "1516-08-28", "d": "memluk"}, {"f": "1918-10-27", "t": "1920-07-24", "d": "fransa-cumhuriyet"}, {"f": "1920-07-24", "t": "1923-10-29", "d": "suriye-lubnan-mandasi"}],
     "kaynak": "TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır."
   },
   {

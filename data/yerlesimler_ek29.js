@@ -258,7 +258,7 @@ window.YERLESIMLER_EK29 = [
 //   coğrafi bilgi, GPS/harita ile birebir doğrulanmadı (`dogrulanmadi:true`
 //   damgası orijinal kayıtta duruyor).
 
-{ ad:"Kostayniçe (Kostajnica)", tur:"kale", lat:45.183, lon:16.683, g:0, k:3,
+{ ad:"Kostayniçe (Kostajnica)", tur:"kale", lat:45.232, lon:16.539, g:0, k:3,
   neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
   d:[{f:"1556-07-17",t:"1699-01-26"}],
   s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
@@ -276,9 +276,8 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Bosna Novi'si (Bosanski Novi)", tur:"kale", lat:45.048, lon:16.377, g:0, k:3,
   neden:"1281-1556 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı.",
-  d:[{f:"1556-01-01",t:"1699-01-26"}],
-  s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1556-01-01",t:"1908-10-05",kaynak:"Karlofça metni ('Novi … on the part of Bosnia') · TDV karlofca · TDV bosna-hersek (Novi kadısı Ömer Efendi · 1872 demiryolu) · 1908 günü K8'e bağlı"}],
+  s:[{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"...Novi...shall be drawn out...left entirely free\". Fetih: aynı kaynak (Kostajnica ile birlikte), 1556 — Herseknovi (Herceg Novi) ile KARIŞTIRILMASIN, ayrı yer." },
 
@@ -292,9 +291,8 @@ window.YERLESIMLER_EK29 = [
 
 { ad:"Bosna Brod'u (Bosanski Brod)", tur:"kale", lat:45.138, lon:17.988, g:0, k:3,
   neden:"1281-1538 arası (Osmanlı fethinden önce) idari bağlılığı bu paket kapsamında araştırılmadı — Ortaçağ Hırvat/Macar sınır bölgesi, kesin kayıt bulunamadı; 1538 tarihi de komşu emsali (Dubiça) olup KENDİ kaynağı yok.",
-  d:[{f:"1538-01-01",t:"1699-01-26"}],
-  s:[{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1538-01-01",t:"1718-07-21"},{f:"1739-09-28",t:"1908-10-05",kaynak:"Karlofça metni ('Bred on the part of Bosnia … shall be drawn out') · TDV karlofca · TDV bosna-hersek (1718 Sava şeridi · 1739 iade) · TDV mahmud-i--osmanli (28 Eylül 1739) · 1908 günü mevcut Bosna kayıtlarıyla aynı (K8 ayrı kalem)"}],
+  s:[{f:"1718-07-21",t:"1739-09-28",d:"avusturya"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   v:[],
   kaynak:"Karlofça Antlaşması birincil metni: \"...Bred...shall be drawn out...left entirely free\" — bu, SEMA-C-0911.md §3.1'deki Sava HAT segmentinin bitiş noktasıyla (TDV 'Brot Kalesi') aynı yer olabilir. Fetih tarihi bulunamadı — komşu emsali (Bosna Dubiçası, 1538) kullanıldı, dogrulanmadi. Slavonski Brod (Sava'nın karşı/Hırvat yakası) ile KARIŞTIRILMASIN." },
 

@@ -55,7 +55,7 @@ window.YER_YAMA_FERHATPASA = [
   // Oysa 34 km'deki Nahçıvan ve Ordubad 1585-01-01→1603-10-21 Osmanlı.
   {
     ad: "Culfa",
-    d: [{ f: "1585-01-01", t: "1603-10-21", y: "savas" }],
+    d: [{f:"1585-01-01",t:"1603-10-21",y:"savas"},{f:"1724-08-11",t:"1730-08-12",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.117-118 (TD 905: Culha 39 hane) · gün komşudan: Nahçıvan · Aktepe 1970"}],
     kaynak: "Encyclopaedia Iranica, \"JULFA i. SAFAVID PERIOD\" — BİREBİR: " +
       "\"the taxes of Old Julfa, when under Ottoman occupation in the last " +
       "decade of the 16th century, had been the property of the sultan's " +
@@ -76,7 +76,7 @@ window.YER_YAMA_FERHATPASA = [
   // ── ② URMİYE — GÜVEN: olay KESİN, gün ÇIKARIM ──────────────────────
   {
     ad: "Urmiye",
-    d: [{ f: "1585-09-25", t: "1603-10-21", y: "savas" }],
+    d: [{f:"1585-09-25",t:"1603-10-21",y:"savas"},{f:"1724-01-01",t:"1730-08-12",kaynak:"TDV urmiye ('1724 yılında bir defa daha Osmanlı hâkimiyetine girdi') · Emre kararı 17 Eyl şık A · ayrışma: Bilgili 2016 'Aralık 1725'"}],
     kaynak: "TDV İslâm Ansiklopedisi, \"Urmiye\" (Osman Gazi Özgüdenli, c. 42 " +
       "[2012], 179-180) — BİREBİR: \"XVI. yüzyılın sonlarında kısa bir süre " +
       "Osmanlı egemenliğine geçtiyse de Şah I. Abbas tarafından yeniden " +

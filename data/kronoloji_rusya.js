@@ -376,7 +376,7 @@ window.KRONOLOJI_RUSYA = [
   kapsam_genis:true,
   d:"I. Petro, askerî, sivil ve saray hizmetlerinde 14 kademeli yeni bir hiyerarşi kurdu; belirli bir rütbeye ulaşan sıradan biri kalıtsal soyluluk kazanabiliyordu. Bu reform, doğuma dayalı eski boyar aristokrasisini devlete hizmete dayalı yeni bir soylular sınıfıyla değiştirdi ve imparatorluğun idari omurgasını iki yüzyıl boyunca biçimlendirdi.",
   kaynak:"Riasanovsky & Steinberg, A History of Russia", yer_id:"St. Petersburg" },
-{ t:"1722-07-18", b:"İran (Hazar) seferi başladı", tur:"sefer", onem:2, dunya:2, kapsam:"dis",
+{ t:"1722-07-29", b:"İran (Hazar) seferi başladı", tur:"sefer", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","sefer","konu-askeri"],
   yer_id:"Derbend",
   d:"I. Petro, çökmekte olan Safevî Devleti'nin zayıflığından yararlanarak Hazar Denizi kıyısındaki Derbend ve Bakü gibi şehirleri ele geçirdi; kazanımlar 1735'te Nadir Şah'ın İran'ıyla imzalanan antlaşmayla geri verildi.",

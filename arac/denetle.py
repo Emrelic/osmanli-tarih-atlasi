@@ -2570,6 +2570,13 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "İŞGAL ile KURTULUŞ · AYNI İSYANIN İKİ ŞEHRİ" — 17 Eylül 2026, KOSU13-YAMA.
+    # `olaylar_p0917dunya.js` inince iki çift doğdu (başlık kalıbı + aynı yıl):
+    #   Bitlis 1916-03-01 Rus İŞGALİ  ↔  1916-08-08 işgalden KURTULUŞ (TDV bitlis:
+    #          "Rus işgali (1 Mart 1916 - 8 Ağustos 1916)") — bir dönemin İKİ UCU
+    #   Yenbu 1916-07-27 ↔ Tâif 1916-09-17 — Arap isyanında AYRI şehirler (TDV taif)
+    ("Bitlis'in Rus işgali", "Bitlis'in Rus işgalinden kurtarılması"),
+    ("Yenbu'nun Şerif Hüseyin kuvvetlerine kaybı", "Tâif'in Şerif Hüseyin kuvvetlerine geçmesi"),
     # ⭐ "AYNI YIL YUVARLAMASI, AYRI KARAKOL" SINIFI — 3 Eylül 2026.
     # `DUNYA-KAMERIKA-0903`un 11 maddesi inince ALTI şüpheli çift doğdu.
     # Altısı da yanlış pozitif ve sebebi tek: gün bilinmediği için `§4`e

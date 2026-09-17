@@ -86,11 +86,11 @@ window.YERLESIMLER_EK26 = [
 // Ermenistan yakası
 { ad:"Gümrü (Aleksandropol)",kaynak:"ankraj Revan (86 km) — aynı zincir", tur:"sehir", lat:40.789, lon:43.847, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[], v:[] },
+  d:[{f:"1724-10-03",t:"1735-10-03",kaynak:"örtülü — Emre 17 Eylül karari · dayanak: Revan · Bilgili 2016 (Ermeni Araştırmaları 53) (3 Ekim 1724) / TDV nadir-sah--iran (3 Ekim 1735) · batıda Kars kesintisiz Osmanlı · Alandağlı 2024 (Arpaçay doğusu Revan eyaleti)"}], v:[] },
 
 { ad:"Eçmiyadzin",kaynak:"ankraj Revan (19 km — en yakın ankraj) — aynı zincir", tur:"sehir", lat:40.162, lon:44.293, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[], v:[] },
+  d:[{f:"1724-10-03",t:"1735-10-03",kaynak:"Bilgili 2016 (Ermeni Araştırmaları 53) s.107 (TD 901 Karpi nahiyesi) · gün komşudan: Revan"}], v:[] },
 
 // ───────── İRAN HATTI · Kasr-ı Şirin (1639) çizgisi ─────────
 // 🔴 KAYNAK DÜZELTİLDİ — KITA 13, 12 Eylül 2026 (paket 0043 / H-0018).

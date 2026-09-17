@@ -359,7 +359,7 @@ window.YERLESIMLER_AVRUPA = [
 // Liège piskoposluğu 1795 Fransız ilhakına kadar imparatorluk prensliği
 { ad:"Liège", tur:"sehir", lat:50.633, lon:5.567, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1795-10-01",d:"almanya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 // Lüksemburg 1443 Burgonya; 1815-1890 Hollanda kralıyla kişisel birlik, sonra ayrı hanedan
-{ ad:"Lüksemburg", tur:"kale", lat:49.611, lon:6.132, g:0, k:1, d:[], s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1890-11-23",d:"hollanda"},{f:"1890-11-23",t:"1923-10-29",d:"luksemburg"}] },
+{ ad:"Lüksemburg",isg:[{f:"1914-08-02",t:"1918-11-20",d:"almanya",kaynak:"1914-1918-online, Majerus/Roemer «Luxembourg» — 2 Ağustos 1914 işgal · Alman işgal ordusu 20 Kasım 1918'de ayrıldı"}], tur:"kale", lat:49.611, lon:6.132, g:0, k:1, d:[], s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1890-11-23",d:"hollanda"},{f:"1890-11-23",t:"1923-10-29",d:"luksemburg"}] },
 
 // ── BATI ve KUZEY ALMANYA (Kutsal Roma = almanya, mevcut kullanım) ─────────
 { ad:"Bremen", tur:"liman", lat:53.076, lon:8.807, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
