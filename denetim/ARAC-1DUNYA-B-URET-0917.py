@@ -1,0 +1,259 @@
+# -*- coding: utf-8 -*-
+"""1DUNYA-B · I. Dünya Savaşı — AVRUPA DIŞI çok taraflı kronoloji üreticisi.
+
+Şartname: oturumlar/BIRINCI-DUNYA-SAVASI-0917.md ("1DUNYA-B (Avrupa dışı)")
+Çıktı:    data/kronoloji_cok_1dunya_B.js  →  window.KRONOLOJI_COK_1DUNYA_B
+Kullanım: py denetim/ARAC-1DUNYA-B-URET-0917.py
+
+Kurallar (CLAUDE.md §4):
+  · Osmanlı cephelerinde birincil kaynak TDV; gün TDV gövdesinden okundu
+    (denetim/_govde_1dunyab/<slug>.txt, ARAC-1DUNYA-B-GOVDE-0917.py çeker).
+  · TDV dışı: 1914-1918-online (FU Berlin, hakemli) · FRUS (ABD Dışişleri
+    belge neşri, birincil). Kaynak ADIYLA yazılır.
+  · Kaynak yalnız ay/yıl veriyorsa t = YYYY-01-01 ve ay metinde durur
+    (`gun` alanı hassasiyeti söyler).
+  · Osmanlı tarafı `taraflar`a YAZILMAZ; `etiket`e "osmanli" eklenir.
+  · Aynı künyede aynı gün zaten bir madde varsa (çekirdek/künye/KRONOLOJI_*)
+    o künye `taraflar`dan çıkarıldı — yükleyici yalnız t+b ile eler, anlamca
+    mükerrer madde doğmasın.
+"""
+import sys, os, json
+
+sys.stdout.reconfigure(encoding="utf-8")
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CIKTI = os.path.join(KOK, "data", "kronoloji_cok_1dunya_B.js")
+
+# ---- kaynak kısaltmaları -------------------------------------------------
+def tdv(slug, bolum=""):
+    return "TDV İslâm Ansiklopedisi, \"%s\" maddesi%s — islamansiklopedisi.org.tr/%s" % (
+        slug, (" (" + bolum + ")") if bolum else "", slug)
+
+TDV_BDS = tdv("birinci-dunya-savasi", "Ercüment Kuran, 1992")
+OL = "1914-1918-online. International Encyclopedia of the First World War (Freie Universität Berlin, hakemli)"
+def ol(madde):
+    return OL + ", \"%s\" maddesi" % madde
+def frus(cilt, bolum):
+    return "Papers Relating to the Foreign Relations of the United States (FRUS), %s, bölüm başlığı: \"%s\" — history.state.gov" % (cilt, bolum)
+
+# ---- maddeler ------------------------------------------------------------
+# (t, gun, taraflar, b, tur, onem, dunya, yer_id, etiket_ek, d, kaynak)
+M = []
+def ekle(t, gun, taraflar, b, tur, onem, dunya, yer, ek, d, kaynak):
+    M.append(dict(t=t, gun=gun, taraflar=taraflar, b=b, tur=tur, onem=onem,
+                  dunya=dunya, yer=yer, ek=ek, d=d, kaynak=kaynak))
+
+OSM = ["osmanli"]
+
+# ===================== PARTİ 1 — Osmanlı cephelerinin karşı tarafı ========
+ekle("1914-11-01", "1 Kasım 1914", ["rusya"],
+     "Rus Kafkas ordusu sınırı aşıp Erzurum yönünde taarruza geçti", "savas", 3, 3, "", OSM + ["kafkas-cephesi"],
+     "TDV'ye göre Kafkas cephesindeki çarpışmalar Rusların 1 Kasım 1914'te saldırıya geçerek Erzurum istikametine ilerlemesiyle başladı. Rusya'nın resmî savaş ilanı ertesi gün geldi.",
+     tdv("sarikamis-harekati"))
+ekle("1914-11-02", "2 Kasım 1914", ["rusya"],
+     "Rusya Osmanlı Devleti'ne savaş ilan etti", "savas", 4, 4, "", OSM,
+     "Osmanlı donanmasının 27 Ekim'de Karadeniz'e açılıp Rus gemilerini batırması ve Sivastopol ile Novorossiysk'i topa tutması üzerine Rusya 2 Kasım 1914'te Osmanlı Devleti'ne savaş ilan etti. TDV'ye göre Osmanlı Devleti böylece bir oldubitti sonucunda Almanya ve Avusturya-Macaristan'ın müttefiki olarak savaşa girdi.",
+     TDV_BDS)
+ekle("1914-11-06", "6-9 Kasım 1914", ["rusya"],
+     "Köprüköy Muharebesi — Rus taarruzu geri püskürtüldü", "savas", 3, 2, "", OSM + ["kafkas-cephesi"],
+     "Sarıkamış-Erzurum istikametinde ilerleyen Rus kuvvetleri 6-9 Kasım 1914'teki Köprüköy Muharebesi'nde 3. Osmanlı Ordusu'na yenilerek sınır yakınlarına çekildi.",
+     TDV_BDS)
+ekle("1914-11-22", "22 Kasım 1914", ["ingiltere", "ingiliz-hindistani"],
+     "İngiliz-Hint kuvvetleri Basra'yı işgal etti", "isgal", 4, 3, "Basra", OSM + ["irak-cephesi"],
+     "Hindistan'dan gelen İngiliz seferî kuvveti Şattülarap'tan ilerleyerek Basra'yı işgal etti; Irak cephesi böyle açıldı. TDV kendi içinde çelişiyor: \"basra\" ve \"kuveyt\" maddeleri 22 Kasım 1914, \"birinci-dunya-savasi\" maddesi 23 Kasım 1914 diyor. Burada şehrin kendi maddesinin günü kullanıldı.",
+     tdv("basra") + " · " + tdv("kuveyt") + " · çelişen gün: " + TDV_BDS)
+ekle("1915-01-04", "22 Aralık 1914 - 4 Ocak 1915", ["rusya"],
+     "Sarıkamış'ta Rus Kafkas Ordusu'nun zaferi — Osmanlı taarruzu çöktü", "savas", 4, 3, "", OSM + ["kafkas-cephesi"],
+     "Osmanlı 3. Ordusu'nun 22 Aralık 1914'te başlattığı Sarıkamış taarruzu 4 Ocak 1915'te sona erdi. Rus kumandanlığı Türk taarruz gücünün kırılmasını bekleyip 1 Ocak 1915'te Bardız-Sarıkamış-Eşekmeydanı üçgeninde kuşatma harekâtına geçti. TDV'ye göre 112.000 mevcudun 60.000'i kaybedildi; askerin çoğu soğuktan donmuştu.",
+     tdv("sarikamis-harekati") + " · " + TDV_BDS)
+ekle("1915-02-03", "3 Şubat 1915", ["ingiltere", "misir-sultanligi"],
+     "Süveyş Kanalı savunması — Osmanlı kanal geçişi püskürtüldü", "savas", 3, 3, "", OSM + ["sina-filistin-cephesi"],
+     "Cemal Paşa kumandasındaki 4. Ordu kuvvetleri 3 Şubat 1915'te Süveyş Kanalı'nı geçmeye girişti. İngiliz savunması karşısında başarısız olan kuvvetler 15 Şubat'ta Birüssebi'ye döndü.",
+     TDV_BDS)
+ekle("1915-02-19", "19 Şubat 1915", ["ingiltere", "fransa-cumhuriyet"],
+     "İtilaf donanması Çanakkale Boğazı'nın dış tabyalarını topa tuttu", "savas", 3, 3, "", OSM + ["canakkale-cephesi"],
+     "İngiliz savaş kabinesi Deniz Bakanı Churchill'in ısrarıyla Boğaz'ı denizden zorlama kararı almıştı. Hazırlıklar tamamlanınca 19 Şubat 1915'te Boğaz'ın dış tabyaları topa tutuldu. Amaç İstanbul'u işgal edip Rusya'ya en kısa yoldan yardım ulaştırmaktı.",
+     TDV_BDS)
+ekle("1915-03-18", "18 Mart 1915", ["ingiltere", "fransa-cumhuriyet"],
+     "İtilaf donanmasının Boğaz'ı geçme teşebbüsü başarısız oldu — üç zırhlı battı", "savas", 4, 4, "", OSM + ["canakkale-cephesi"],
+     "İngiliz-Fransız donanması 18 Mart 1915'te Çanakkale Boğazı'nı geçmeye teşebbüs etti. Türk topçularının ve denizcilerinin direnişi karşısında üç zırhlısını kaybedip geri çekildi. Bunun üzerine İngiliz savaş kabinesi Boğaz'ı karadan ve denizden ortak harekâtla almayı kararlaştırdı.",
+     TDV_BDS)
+ekle("1915-04-25", "25 Nisan 1915", ["yeni-zelanda"],
+     "Anzak birlikleri Gelibolu'da Arıburnu'na çıktı", "savas", 4, 3, "", OSM + ["canakkale-cephesi"],
+     "İngilizlerle birlikte Anzak denilen Avustralya ve Yeni Zelanda birlikleri 25 Nisan 1915'te Gelibolu yarımadasının Arıburnu kıyısına çıktı. 19. Tümen kumandanı Yarbay Mustafa Kemal'in Conkbayırı'nda düşmanı geri atması üzerine çıkarma hedefine ulaşamadı ve dar bir kıyı şeridinde siper savaşına döndü.",
+     TDV_BDS)
+ekle("1915-08-06", "6-7 Ağustos 1915 gecesi", ["ingiltere", "avustralya", "yeni-zelanda"],
+     "Anafartalar taarruzu — İngiliz ve Anzak kuvvetleri yeni çıkarma yaptı", "savas", 4, 3, "", OSM + ["canakkale-cephesi"],
+     "Takviye alan İngiliz ve Anzak kuvvetleri 6-7 Ağustos gecesi yarımadanın Anafartalar bölgesinde taarruza geçti. İlerleyişi Anafartalar Grubu kumandanı Albay Mustafa Kemal 9-10 Ağustos'ta durdurdu. 20-27 Ağustos'taki 2. Anafartalar taarruzu da sonuç vermedi.",
+     TDV_BDS)
+ekle("1915-07-14", "14 Temmuz 1915 - 30 Ocak 1916", ["ingiltere", "mekke-serifligi"],
+     "Hüseyin-McMahon yazışmaları başladı", "ittifak", 4, 3, "", OSM + ["arap-isyani"],
+     "Şerif Hüseyin oğlu Abdullah aracılığıyla İngilizlerle McMahon-Şerif Hüseyin mektupları adıyla bilinen müzakereleri başlattı (14 Temmuz 1915 - 30 Ocak 1916). TDV'ye göre İngiltere bu müzakereleri Fransızlara ancak Kasım 1915'te bildirdi.",
+     tdv("serif-huseyin"))
+ekle("1915-09-26", "26 Eylül 1915", ["ingiltere", "ingiliz-hindistani"],
+     "General Townshend Kûtülamâre'yi işgal etti", "isgal", 3, 2, "Kût el-Amâre", OSM + ["irak-cephesi"],
+     "Bağdat'ı hedefleyen General Townshend Dicle boyunca ilerleyerek yol üzerindeki Kûtülamâre'yi 26 Eylül 1915'te işgal etti. TDV'nin \"birinci-dunya-savasi\" maddesi aynı olayı yalnız \"1915 Eylülü sonunda\" diye tarihliyor.",
+     tdv("kutulamare"))
+ekle("1915-11-22", "22-26 Kasım 1915", ["ingiltere", "ingiliz-hindistani"],
+     "Selmanıpak Muharebesi — Townshend'in Bağdat yürüyüşü durduruldu", "savas", 3, 3, "", OSM + ["irak-cephesi"],
+     "General Townshend 22-26 Kasım 1915'te Bağdat'a 30 km mesafedeki Selmanıpak'ta taarruz etti. Çok sayıda kayıp veren İngiliz kuvvetleri Kûtülamâre'ye çekilmek zorunda kaldı.",
+     tdv("kutulamare"))
+ekle("1915-12-05", "5 Aralık 1915", ["ingiltere", "ingiliz-hindistani"],
+     "Osmanlı kuvvetleri Townshend'i Kûtülamâre'de kuşattı", "savas", 3, 2, "Kût el-Amâre", OSM + ["irak-cephesi"],
+     "Selmanıpak'tan çekilen İngiliz kuvvetleri Kûtülamâre'de 5 Aralık 1915'ten itibaren kuşatma altına alındı. Basra'dan gönderilen kurtarma kuvvetlerinin 1916 başındaki teşebbüsleri kuşatmayı yaramadı.",
+     tdv("kutulamare"))
+ekle("1915-01-01", "Aralık 1915 (gün kaynakta yok)", ["ingiltere", "suud-ucuncu"],
+     "İngiltere ile İbn Suûd arasında gizli anlaşma (Aralık 1915)", "antlasma", 3, 2, "", OSM + ["arap-isyani"],
+     "TDV'ye göre Aralık 1915'te varılan gizli anlaşmayla İngiltere, Necid toprakları ile Basra körfezinin güney kıyılarında (Küveyt hariç) İbn Suûd'un bağımsızlığını ve egemenliğini tanıdı. TDV, aynı toprakların Şerif Hüseyin'e de vaat edildiğini belirtiyor. Kaynak yalnız ayı verdiği için tarih yıl başına yazıldı; olay Aralık 1915'tir.",
+     TDV_BDS + " · " + tdv("serif-huseyin"))
+ekle("1916-02-16", "16 Şubat 1916", ["rusya"],
+     "Rus ordusu Erzurum'a girdi", "isgal", 4, 3, "Erzurum", OSM + ["kafkas-cephesi"],
+     "Savaşın başından beri Erzurum'u başlıca hedef seçen Rus ordusu şehre 16 Şubat 1916'da girdi. İşgal 12 Mart 1918'e kadar sürdü.",
+     tdv("erzurum"))
+ekle("1916-02-18", "18 Şubat 1916", ["rusya"],
+     "Rus kuvvetleri Muş'u işgal etti", "isgal", 2, 1, "", OSM + ["kafkas-cephesi"],
+     "TDV'ye göre Muş 18 Şubat 1916'da işgal edildi. Bu işgal kısa sürdü; şehir aynı yılın 26 Temmuz'unda geri alındı.",
+     tdv("mus"))
+ekle("1916-03-01", "1 Mart 1916", ["rusya"],
+     "Rus kuvvetleri Bitlis'i işgal etti", "isgal", 2, 1, "Bitlis", OSM + ["kafkas-cephesi"],
+     "Bitlis'teki Rus işgali 1 Mart 1916'da başladı ve 8 Ağustos 1916'ya kadar sürdü.",
+     tdv("bitlis"))
+ekle("1916-04-18", "18 Nisan 1916", ["rusya"],
+     "Rus ordusu Trabzon'a girdi", "isgal", 3, 2, "Trabzon", OSM + ["kafkas-cephesi"],
+     "Rus birlikleri 14 Nisan 1916'da Karadere savunma hattını yarıp 16 Nisan'da Yomra'ya ulaştı. Aynı gece Türk nüfus şehri boşalttı; Ruslar 18 Nisan'da şehre girdi ve 24 Şubat 1918'e kadar Trabzon'u elde tuttu.",
+     tdv("trabzon"))
+ekle("1916-04-29", "29 Nisan 1916", ["ingiltere", "ingiliz-hindistani"],
+     "Townshend Kûtülamâre'de teslim oldu — 13.309 kişilik İngiliz ordusu esir", "savas", 4, 3, "Kût el-Amâre", OSM + ["irak-cephesi"],
+     "Kurtarma kuvvetlerinin Felâhiye (5 Nisan) ve 21-22 Nisan taarruzları sonuç vermeyince General Lake, Townshend'e teslim müzakerelerini başlatmasını bildirdi. 29 Nisan 1916'da protokol imzalandı ve Türk kuvvetleri 13.309 kişilik İngiliz ordusunu teslim aldı. TDV'nin \"birinci-dunya-savasi\" maddesi teslimi 28 Nisan 1916 diye tarihliyor; olayın kendi maddesi olan \"kutulamare\" 29 Nisan diyor.",
+     tdv("kutulamare") + " · çelişen gün: " + TDV_BDS)
+ekle("1916-05-16", "16 Mayıs 1916", ["ingiltere"],
+     "Sykes-Picot Antlaşması — Osmanlı Arap toprakları nüfuz bölgelerine ayrıldı", "antlasma", 5, 4, "", OSM + ["paylasim"],
+     "İngiltere ile Fransa arasındaki gizli antlaşmaya göre Akkâ'nın kuzeyinde kalan Suriye kıyısı, Adana ve Mersin Fransa'ya; Bağdat-Basra arasındaki Dicle-Fırat bölgesi İngiltere'ye düşüyordu. Kalan topraklarda Akkâ-Kerkük çizgisinin kuzeyi Fransız, güneyi İngiliz nüfuzunda bir Arap devleti ya da federasyonu kurulacak, Filistin milletlerarası bölge olacaktı. Savaştan çekilen Bolşevikler 1917'de antlaşmayı ifşa etti (TDV \"serif-huseyin\"). TDV \"birinci-dunya-savasi\" antlaşmayı \"9 ve 16 Mayıs 1916\" diye tarihliyor.",
+     tdv("serif-huseyin") + " · " + TDV_BDS)
+ekle("1916-06-27", "27 Haziran 1916", ["hicaz-kralligi", "ingiltere"],
+     "Şerif Hüseyin isyan bildirisini yayımladı — İngiliz destekli Arap İsyanı", "isyan", 4, 3, "Mekke", OSM + ["arap-isyani"],
+     "Şerif Hüseyin Haziran 1916'da Mekke'de isyanı başlattı ve 27 Haziran tarihli bildirisinde İttihat ve Terakki yönetimini dinsizlikle suçlayarak isyanını meşrulaştırmaya çalıştı. TDV \"fahreddin-pasa\" maddesine göre Hüseyin ve dört oğlu 3 Haziran 1916'da Medine çevresindeki demiryolu ve telgraf hatlarını tahrip etmişti. Medine dışındaki önemli Hicaz şehirleri isyancıların eline geçti.",
+     tdv("serif-huseyin") + " · " + tdv("fahreddin-pasa"))
+ekle("1916-07-24", "24 Temmuz 1916", ["rusya"],
+     "Rus ordusu Erzincan'ı işgal etti", "isgal", 3, 2, "Erzincan", OSM + ["kafkas-cephesi"],
+     "Erzincan 24 Temmuz 1916'da Rus kuvvetlerince işgal edildi ve 26 Şubat 1918'de geri alındı.",
+     tdv("erzincan"))
+ekle("1916-07-26", "26 Temmuz 1916", ["rusya"],
+     "Muş Rus işgalinden geri alındı", "toprak-kayip", 2, 1, "", OSM + ["kafkas-cephesi"],
+     "TDV'ye göre 18 Şubat 1916'daki Muş işgali kısa sürdü ve şehir 26 Temmuz'da geri alındı. Aynı madde şehrin 1 Mayıs 1917'de \"kesin olarak\" kurtarıldığını da yazıyor; arada ikinci bir Rus işgali olduğu anlaşılıyor ama TDV onun başlangıç gününü vermiyor.",
+     tdv("mus"))
+ekle("1916-08-08", "8 Ağustos 1916", ["rusya"],
+     "Rus kuvvetleri Bitlis'ten çekildi", "toprak-kayip", 2, 1, "Bitlis", OSM + ["kafkas-cephesi"],
+     "Bitlis'teki Rus işgali 1 Mart - 8 Ağustos 1916 arasında sürdü.",
+     tdv("bitlis"))
+ekle("1916-09-17", "17 Eylül 1916", ["hicaz-kralligi"],
+     "Tâif Şerif Hüseyin'in kuvvetlerine geçti", "toprak-kazanc", 3, 2, "Tâif", OSM + ["arap-isyani"],
+     "TDV'ye göre Tâif, Osmanlı yönetimine karşı ayaklanan ve İngilizlerin desteklediği Şerif Hüseyin'in eline 17 Eylül 1916'da geçti.",
+     tdv("taif"))
+ekle("1917-01-01", "Şubat 1917 (gün kaynakta yok)", ["ingiltere", "ingiliz-hindistani"],
+     "İngiliz kuvvetleri Kûtülamâre'yi geri aldı (Şubat 1917)", "isgal", 3, 2, "Kût el-Amâre", OSM + ["irak-cephesi"],
+     "TDV'ye göre Kûtülamâre Şubat 1917'de, Bağdat Mart 1917'de İngilizlerin eline geçti. Kaynak yalnız ayı verdiği için tarih yıl başına yazıldı; olay Şubat 1917'dir.",
+     tdv("kutulamare"))
+ekle("1917-03-11", "11 Mart 1917", ["ingiliz-hindistani"],
+     "İngiliz-Hint kuvvetleri Bağdat'ı işgal etti", "isgal", 4, 3, "Bağdat", OSM + ["irak-cephesi"],
+     "İngiliz kuvvetlerinin 11 Mart 1917'de Bağdat'ı işgali, TDV'ye göre Irak'ın Türklerin elinden çıkmakta olduğunu gösteriyordu. Irak cephesindeki İngiliz kuvvetlerinin büyük kısmı Hindistan'dan gönderilmişti.",
+     TDV_BDS + " · " + tdv("kutulamare"))
+ekle("1917-01-01", "1916-Mart 1917 (gün kaynakta yok)", ["kacar"],
+     "Osmanlı kuvvetleri Kirmanşah'ı boşalttı (Mart 1917)", "isgal", 2, 1, "Kirmanşah", OSM + ["iran-cephesi"],
+     "TDV'ye göre Kirmanşah 1916'da Osmanlıların eline geçti ve 1917 Mart'ında tahliye edildi. İran savaşta tarafsızlığını ilan etmişti ama toprakları Osmanlı, Rus ve İngiliz kuvvetlerinin çarpışma alanı oldu. Kaynak yalnız ayı verdiği için tarih yıl başına yazıldı.",
+     tdv("kirmansah"))
+ekle("1917-11-16", "16 Kasım 1917", ["ingiltere"],
+     "İngiliz kuvvetleri Yafa'ya girdi", "isgal", 3, 2, "Yafa", OSM + ["sina-filistin-cephesi"],
+     "Gazze'nin düşmesinin ardından ilerleyen İngiliz kuvvetleri 16 Kasım 1917'de Yafa'ya girdi; TDV'ye göre bunun üzerine şehirden çıkarılmış yahudiler geri dönmeye başladı.",
+     tdv("yafa"))
+ekle("1918-02-24", "24 Şubat 1918", ["transkafkasya"],
+     "Rus kuvvetleri Trabzon'dan çekildi — iki yıllık işgal sona erdi", "toprak-kayip", 3, 2, "Trabzon", OSM + ["kafkas-cephesi"],
+     "Trabzon'daki Rus işgali 18 Nisan 1916 - 24 Şubat 1918 arasında sürdü. İhtilal sonrası dağılan Rus Kafkas ordusunun bıraktığı bölge o sırada Kafkasötesi Komiserliği'nin idaresindeydi.",
+     tdv("trabzon"))
+ekle("1918-02-26", "26 Şubat 1918", ["transkafkasya"],
+     "Erzincan geri alındı", "toprak-kayip", 3, 2, "Erzincan", OSM + ["kafkas-cephesi"],
+     "24 Temmuz 1916'dan beri Rus işgalinde bulunan Erzincan 26 Şubat 1918'de kurtarıldı.",
+     tdv("erzincan"))
+ekle("1918-03-12", "12 Mart 1918", ["transkafkasya"],
+     "Kâzım Karabekir kumandasındaki kuvvetler Erzurum'u geri aldı", "toprak-kayip", 4, 2, "Erzurum", OSM + ["kafkas-cephesi"],
+     "Rus ihtilali Erzurum için kurtuluşun başlangıcı oldu. Rus ordusu çekilirken yerini Ermeni birliklerine bıraktı; Kâzım Karabekir Paşa kumandasındaki Türk birlikleri 12 Mart 1918'de Erzurum'u geri aldı.",
+     tdv("erzurum"))
+ekle("1918-04-02", "2 Nisan 1918", ["transkafkasya"],
+     "Van işgalden kurtarıldı", "toprak-kayip", 3, 2, "Van", OSM + ["kafkas-cephesi"],
+     "TDV'ye göre Van 2 Nisan 1918'de düşman işgalinden kurtarıldı. Aynı madde Rus işgalinin 1915-1917 yıllarında şehirde büyük tahribata yol açtığını yazıyor; işgalin başlangıç gününü vermiyor.",
+     tdv("van"))
+ekle("1918-06-04", "4 Haziran 1918", ["gurcistan-demokratik-cumhuriyeti", "ermenistan-demokratik-cumhuriyeti", "azerbaycan-demokratik-cumhuriyeti"],
+     "Batum Antlaşması — Osmanlı Devleti ile Kafkasya cumhuriyetleri arasında barış", "antlasma", 4, 3, "Batum", OSM + ["kafkas-cephesi"],
+     "Feth Ali Han başkanlığındaki ilk Azerbaycan hükümeti 4 Haziran 1918'de Batum'da Osmanlı Devleti ile bir antlaşma yaptı. Aynı gün Gürcistan ve Ermenistan ile de antlaşma imzalandığı akademik kaynaklarda yer alır; TDV'nin burada okunan maddesi yalnız Azerbaycan'ınkini anıyor.",
+     tdv("azerbaycan") + " · Gürcistan ve Ermenistan antlaşmaları için: F. Kazemzadeh, The Struggle for Transcaucasia 1917-1921 (New York 1951) — bu turda metinden okunmadı")
+ekle("1918-09-02", "2-5 Eylül 1918", ["kacar", "ingiltere"],
+     "Osmanlı kuvvetleri Tebriz'e girdi ve İngiliz birliklerini püskürttü", "isgal", 3, 2, "Tebriz", OSM + ["iran-cephesi"],
+     "16 Ağustos 1918'de Tebriz'e sevk edilen Osmanlı tümeni 2 Eylül'de şehre ulaştı ve 5 Eylül'de İngilizleri püskürttü. Ekim 1918'de az bir kuvvet bırakılarak şehirden çekilindi. Ruslar Şubat 1918'de Tebriz'den ayrılmıştı. TDV'nin \"azerbaycan\" maddesi Osmanlıların Tebriz'e girişini \"Haziran 1918\" diye veriyor; burada şehrin kendi maddesinin günü kullanıldı.",
+     tdv("tebriz") + " · çelişen ay: " + tdv("azerbaycan"))
+ekle("1918-09-15", "15 Eylül 1918", ["azerbaycan-demokratik-cumhuriyeti", "ingiltere"],
+     "Kafkas İslâm Ordusu Bakü'yü aldı", "toprak-kazanc", 4, 3, "Bakü", OSM + ["kafkas-cephesi"],
+     "Nûri Paşa kumandasındaki Kafkas İslâm Ordusu 15 Eylül 1918'de Bakü'yü ele geçirdi ve şehir Azerbaycan Demokratik Cumhuriyeti'nin başkenti oldu. Şehri savunan kuvvetler arasında İngiliz birlikleri de vardı. TDV \"baku\" maddesi Bakü'nün önce İngilizlerce işgal edildiğini yazıyor.",
+     tdv("azerbaycan") + " · " + tdv("baku"))
+ekle("1918-09-23", "23 Eylül 1918", ["ingiltere"],
+     "İngiliz kuvvetleri Hayfa'yı aldı", "isgal", 3, 2, "", OSM + ["sina-filistin-cephesi"],
+     "31 Ekim 1917'de başlayan Filistin işgal harekâtı 23 Eylül 1918'de Hayfa'yı da içine aldı.",
+     tdv("hayfa"))
+ekle("1918-10-01", "1 Ekim 1918", ["ingiltere", "hicaz-kralligi"],
+     "İngiliz ve Arap kuvvetleri Şam'a girdi", "isgal", 4, 3, "Şam", OSM + ["sina-filistin-cephesi", "arap-isyani"],
+     "General Allenby kumandasındaki İngiliz ordusunun Arapların da katıldığı harekâtı sonunda Türk kuvvetleri Suriye'yi boşalttı ve 1 Ekim 1918'de Şam'ı terk etti. TDV \"halep\" maddesine göre İngiliz ve Arap kuvvetleri Osmanlı kuvvetlerini Şam'dan Halep'e doğru geri çekilmeye zorladı.",
+     TDV_BDS + " · " + tdv("halep"))
+ekle("1918-10-27", "27 Ekim 1918", ["ingiltere", "hicaz-kralligi"],
+     "Halep önce Arap, ardından İngiliz kuvvetlerince işgal edildi", "isgal", 3, 2, "Halep", OSM + ["sina-filistin-cephesi", "arap-isyani"],
+     "Dördüncü Ordu Kumandanı Cemal Paşa başarısız savunma teşebbüslerinden vazgeçip çekilince Halep önce Arap kuvvetleri, ardından İngilizler tarafından 27 Ekim 1918'de işgal edildi.",
+     tdv("halep"))
+ekle("1918-12-24", "24 Aralık 1918", ["ingiltere"],
+     "İngiliz kuvvetleri Batum'u işgal etti", "isgal", 3, 2, "Batum", OSM + ["kafkas-cephesi"],
+     "Mondros Mütarekesi ile Osmanlı Devleti Batum'dan çekilmek zorunda kalınca şehir 24 Aralık 1918'de İngilizlerce işgal edildi. İngilizler Temmuz 1920'de Kafkasya'dan çekilirken Batum'u boşalttı ve şehre Gürcistan hükümeti el koydu.",
+     tdv("batum"))
+ekle("1919-01-13", "13 Ocak 1919", ["hicaz-kralligi"],
+     "Şerif Abdullah'ın kuvvetleri Medine'ye girdi", "toprak-kazanc", 3, 2, "Medine", OSM + ["arap-isyani"],
+     "Fahreddin Paşa 10 Ocak 1919'da subaylarının baskısıyla Medine'den çıkarıldı. Şerif Abdullah'ın kuvvetleri teslim antlaşması gereğince 13 Ocak 1919'da şehre girdi.",
+     tdv("fahreddin-pasa") + " · " + tdv("medine"))
+ekle("1920-01-01", "Temmuz 1920 (gün kaynakta yok)", ["ingiltere", "gurcistan-demokratik-cumhuriyeti"],
+     "İngilizler Batum'u boşalttı, şehre Gürcistan el koydu (Temmuz 1920)", "toprak-kazanc", 2, 2, "Batum", ["kafkas-cephesi"],
+     "İngilizler Kafkasya'dan Temmuz 1920'de çekilirken Batum'u da boşalttı ve şehre Gürcistan hükümeti el koydu. Kaynak yalnız ayı verdiği için tarih yıl başına yazıldı.",
+     tdv("batum"))
+ekle("1920-04-25", "25 Nisan 1920", ["ingiltere"],
+     "San Remo Konferansı — Irak ve Filistin mandası İngiltere'ye verildi", "antlasma", 5, 4, "", OSM + ["paylasim"],
+     "San Remo Konferansı Şam'da ilan edilen Büyük Suriye Krallığı'nı tanımadı ve Filistin'i Suriye'den ayırdı. Suriye ile Lübnan Fransız, Irak ile Filistin İngiliz mandasına verildi. 1916 antlaşması değiştirilerek Musul bölgesi İngiliz nüfuz alanına bırakıldı; karşılığında Fransa'ya Musul petrollerinden hisse verildi. TDV konferansı yalnız \"Nisan 1920\" diye tarihliyor; 25 Nisan günü konferans kararının tarihidir.",
+     TDV_BDS + " · gün: San Remo Konferansı kararı, 25 Nisan 1920 (Great Britain, Cmd. 1176, 1921) — bu turda metinden okunmadı")
+ekle("1921-02-26", "26 Şubat 1921", ["kacar", "sovyet-rusya"],
+     "İran-Sovyet Rusya Antlaşması", "antlasma", 3, 3, "Tebriz", [],
+     "26 Şubat 1921'de İran ile Sovyet Rusya arasında bir antlaşma yapıldı. TDV'ye göre Tebriz bu antlaşmayla İran'a bırakıldı.",
+     tdv("tebriz"))
+
+# ---- üretim ----------------------------------------------------------------
+def madde(m):
+    taraflar = m["taraflar"]
+    etiket = ["1-dunya-savasi"] + m["ek"] + [x for x in taraflar] + ["konu-siyasi"]
+    tekil = []
+    for e in etiket:
+        if e not in tekil:
+            tekil.append(e)
+    return {
+        "t": m["t"], "gun": m["gun"],
+        "devlet": taraflar[0], "taraflar": taraflar, "devletler": taraflar,
+        "b": m["b"], "tur": m["tur"], "onem": m["onem"], "dunya": m["dunya"],
+        "kapsam": "dis", "yer_id": m["yer"], "kapsam_genis": not m["yer"],
+        "etiket": tekil, "d": m["d"], "kaynak": m["kaynak"],
+    }
+
+cikti = sorted((madde(m) for m in M), key=lambda x: (x["t"], x["b"]))
+bas = """// =====================================================================
+// I. DÜNYA SAVAŞI — AVRUPA DIŞI çok taraflı kronoloji (1DUNYA-B)
+// =====================================================================
+// 🔴 ÜRETİLMİŞ DOSYA — elle düzenleme; üretici denetim/ARAC-1DUNYA-B-URET-0917.py
+// window.KRONOLOJI_COK_1DUNYA_B — şartname oturumlar/BIRINCI-DUNYA-SAVASI-0917.md
+// Her madde `taraflar[]`daki HER künyeye eklenir (js/app.js cokTarafliKronolojiEkle).
+// Osmanlı tarafı çekirdek olaylarda; burada `taraflar`a yazılmadı, `etiket`te "osmanli".
+// `gun`: kaynağın verdiği hassasiyet. "gün kaynakta yok" yazan maddelerde t = YYYY-01-01.
+"""
+with open(CIKTI, "w", encoding="utf-8", newline="\n") as f:
+    f.write(bas + "\nwindow.KRONOLOJI_COK_1DUNYA_B = [\n")
+    f.write(",\n".join(json.dumps(x, ensure_ascii=False) for x in cikti))
+    f.write("\n];\n")
+print("madde:", len(cikti), "→", CIKTI)

@@ -1,0 +1,144 @@
+{
+  "yazan": "1DUNYA-B (Opus 5)",
+  "tarih": "2026-09-17",
+  "sartname": "oturumlar/BIRINCI-DUNYA-SAVASI-0917.md — Harita senkronu",
+  "durum": "ÖNERİ — UYGULANMADI. Yerleşim dosyalarına yazılmadı; koşu 13'e koordinatör indirir (D098).",
+  "alet": {
+    "harita_bakisi": "node denetim/ARAC-1DUNYA-B-HARITA-0917.js <ad...>  (evren: arac/girdi.py GIRDI_DOSYALARI)",
+    "tdv_govde": "py denetim/ARAC-1DUNYA-B-GOVDE-0917.py <slug...>  → denetim/_govde_1dunyab/",
+    "tdv_cumle": "py denetim/ARAC-1DUNYA-B-CUMLE-0917.py <slug...>"
+  },
+  "on_kosul": [
+    "Koşu yayınlandıktan sonra uygulanır (§7: girdi donuk).",
+    "🔴 Değişmez 2: A bölümündeki yeni d:/v: kırılmalarının bir kısmı ±30 gün içinde ÇEKİRDEK (data/olaylar*.js) madde ister. data/kronoloji_cok_1dunya_B.js Değişmez 2 evreninde DEĞİL. Gereken çekirdek maddeler 'cekirdek_madde_onerisi' altında, TDV kaynaklarıyla.",
+    "Uygulama sonrası: py arac/denetle.py · py arac/renk_olc.py (§9)."
+  ],
+
+  "A_kaynakli": [
+    {
+      "kod": "B-A1", "ad": "Erzurum", "dosya": "data/yerlesimler.js",
+      "mevcut": "d: 1518-01-01→1920-04-23 | s:tbmm-turkiye 1920-04-23→1923-10-29",
+      "oneri": "d: 1518-01-01→1916-02-16 | s:rusya 1916-02-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:transkafkasya 1917-11-07→1918-03-12 | d: 1918-03-12→1920-04-23 | (s:tbmm-turkiye değişmez)",
+      "gerekce": "Rus işgali haritada hiç yok.",
+      "kaynak": "TDV erzurum: 'Ruslar … Erzurum'a … 16 Şubat 1916'da girdiler' · 'Kâzım Karabekir Paşa kumandasındaki Türk birlikleri … 12 Mart 1918'de Erzurum'u Ermeniler'den kurtardılar'",
+      "not": "1917 ara uçları (03-15, 11-07) künye pencereleri — Bakü/Kars kayıtlarındaki mevcut zincirle aynı konvansiyon; kaynak iddiası değil."
+    },
+    {
+      "kod": "B-A2", "ad": "Erzincan", "dosya": "data/yerlesimler.js",
+      "mevcut": "d: 1514-09-06→1920-04-23 | s:tbmm-turkiye 1920-04-23→",
+      "oneri": "d: 1514-09-06→1916-07-24 | s:rusya 1916-07-24→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:transkafkasya 1917-11-07→1918-02-26 | d: 1918-02-26→1920-04-23",
+      "kaynak": "TDV erzincan: 'Rus kuvvetleri tarafından 24 Temmuz 1916 tarihinde işgal edilen Erzincan 26 Şubat 1918'de kurtarıldı.'"
+    },
+    {
+      "kod": "B-A3", "ad": "Trabzon", "dosya": "data/yerlesimler.js",
+      "mevcut": "d: 1461-08-15→1920-04-23 | s:tbmm-turkiye 1920-04-23→",
+      "oneri": "d: 1461-08-15→1916-04-18 | s:rusya 1916-04-18→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:transkafkasya 1917-11-07→1918-02-24 | d: 1918-02-24→1920-04-23",
+      "kaynak": "TDV trabzon: 'Rus işgalinin (18 Nisan 1916 - 24 Şubat 1918)'"
+    },
+    {
+      "kod": "B-A4", "ad": "Bitlis", "dosya": "data/yerlesimler.js",
+      "mevcut": "d: 1515-09-15→1920-04-23",
+      "oneri": "d: 1515-09-15→1916-03-01 | s:rusya 1916-03-01→1916-08-08 | d: 1916-08-08→1920-04-23",
+      "kaynak": "TDV bitlis: 'Rus işgali (1 Mart 1916 - 8 Ağustos 1916)'"
+    },
+    {
+      "kod": "B-A5", "ad": "Kût el-Amâre", "dosya": "data/yerlesimler.js",
+      "mevcut": "d: 1638-12-24→1917-03-11 | s:ingiltere 1917-03-11→1921-08-23 | s:irak-kralligi 1921-08-23→",
+      "oneri": "d: 1638-12-24→1915-09-26 | s:ingiltere 1915-09-26→1916-04-29 | d: 1916-04-29→1917-03-11 | (geri kalan değişmez)",
+      "kaynak": "TDV kutulamare: 'Kûtül‘amâre’yi işgal ettiler (26 Eylül 1915)' · '29 Nisan 1916 günü protokol imzalanmasının ardından … Türk kuvvetleri Kûtül‘amâre’ye girdi'",
+      "acik": "İkinci İngiliz girişi TDV'de yalnız 'Şubat 1917' — mevcut 1917-03-11 (Bağdat günü) KAYNAKSIZ; gün bulunamadı, DOKUNULMADI."
+    },
+    {
+      "kod": "B-A6", "ad": "Tâif", "dosya": "data/yerlesimler.js",
+      "mevcut": "v: 1813-05-02→1916-06-10 | s:hicaz 1916-06-10→",
+      "oneri": "v: 1813-05-02→1916-09-17 | s:hicaz 1916-09-17→1923-10-29",
+      "kaynak": "TDV taif: 'Şerîf Hüseyin’in eline geçti (17 Eylül 1916)'",
+      "not": "1916-06-10 isyanın genel günü; şehrin kendi günü değil."
+    },
+    {
+      "kod": "B-A7", "ad": "Halep", "dosya": "data/yerlesimler.js",
+      "mevcut": "d: 1516-08-28→1918-10-26 | s:fransa-cumhuriyet 1918-10-26→1920-07-24 | …",
+      "oneri": "gün 1918-10-26 → 1918-10-27 (iki uçta)",
+      "kaynak": "TDV halep: 'şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)'",
+      "bkz": "B-B2 — s:fransa-cumhuriyet kimliği de sorunlu"
+    },
+    {
+      "kod": "B-A8", "ad": "Bakü", "dosya": "data/yerlesimler.js",
+      "mevcut": "s:rusya →1917-03-15 | s:rusya-gecici-hukumet →1917-11-07 | s:sovyet-rusya 1917-11-07→1923-10-29",
+      "oneri": "… s:sovyet-rusya 1917-11-07→1918-09-15 | s:azerbaycan-demokratik-cumhuriyeti 1918-09-15→1920-04-27 | s:sovyet-rusya 1920-04-27→1923-10-29",
+      "gerekce": "Azerbaycan Demokratik Cumhuriyeti'nin başkenti haritada hiç Azerbaycan'a geçmiyor (Gence geçiyor).",
+      "kaynak": "TDV azerbaycan: 'Kafkasya İslâm Ordusu Ruslar’ın elindeki Bakü’yü ele geçirdi (15 Eylül 1918)' · '27 Nisan 1920’de Azerbaycan’ı işgal eden Kızıl Ordu … son verdi'",
+      "not": "1918-11 → 1919 İngiliz garnizonu dönemi yazılmadı: TDV 'Kasım 1919' diyor ve bu kendi içinde tutarsız (Mondros sonrası olarak anlatılıyor) — ölçülemedi."
+    },
+    {
+      "kod": "B-A9", "ad": "Bağdat", "dosya": "data/yerlesimler.js",
+      "mevcut": "d: 1638-12-24→1917-03-11 | s:ingiltere 1917-03-11→1923-10-29",
+      "oneri": "s:ingiltere 1917-03-11→1921-08-23 | s:irak-kralligi 1921-08-23→1923-10-29",
+      "gerekce": "Irak Krallığı'nın başkenti krallığa hiç geçmiyor; Basra, Musul, Kût geçiyor.",
+      "kaynak": "TDV bagdat: 'Irak’ın 23 Ağustos 1921’de bir krallık haline gelmesi üzerine ise bu devletin merkezi yapıldı.'"
+    },
+    {
+      "kod": "B-A10", "ad": "Batum", "dosya": "data/yerlesimler.js",
+      "mevcut": "d: 1918-04-14→1918-12-01 | s:gurcistan-demokratik-cumhuriyeti 1918-12-01→1921-03-16 | …",
+      "oneri": "d: 1918-04-14→1918-12-24 | s:ingiltere 1918-12-24→<Temmuz 1920> | s:gurcistan-demokratik-cumhuriyeti <Temmuz 1920>→1921-03-16",
+      "kaynak": "TDV batum: 'şehir İngilizler tarafından işgal edildi (24 Aralık 1918)' · 'İngilizler … Temmuz 1920’de çekildiklerinde Batum’u da boşalttılar ve buraya Gürcistan hükümeti el koydu.'",
+      "acik": "🟡 Temmuz 1920'nin GÜNÜ kaynakta yok — koordinatör kararı: gün bulununcaya kadar İngiliz dönemi yalnız başlangıcıyla inebilir mi, yoksa bekler mi? 1918-12-01 başlangıcının kaynağı da bulunamadı."
+    },
+    {
+      "kod": "B-A11", "ad": "Duala", "dosya": "data/yerlesimler_afrika2.js",
+      "mevcut": "s:almanya 1884-07-14→1916-02-16 | s:fransa-cumhuriyet 1916-02-16→1923-10-29",
+      "oneri": "s:almanya 1884-07-14→1914-09-27 | s:ingiltere 1914-09-27→1916-02-16 | (fransa-cumhuriyet değişmez)",
+      "kaynak": "1914-1918-online, 'Colonial Warfare and Occupation (Africa)': 'Beginning on 27 September 1914, the Allies seized the important coastal town of Douala' · Dobell komutasındaki İngiliz-Fransız kuvveti",
+      "acik": "1914-1916 arası Duala'nın İngiliz idaresinde olduğu bu turda metinden okunmadı (yaygın akademik kabul: Strachan, The First World War in Africa, 2004). Kimlik 'ingiltere' yerine ortak işgal olarak da yazılabilir — koordinatör kararı. Bitiş günü 1916-02-16 atlasın mevcut günü, kaynakla sınanmadı."
+    },
+    {
+      "kod": "B-A12", "ad": "Tiflis", "dosya": "data/yerlesimler.js",
+      "mevcut": "s:rusya →1917-03-15 | s:rusya-gecici-hukumet →1917-11-07 | s:sovyet-rusya 1917-11-07→1923-10-29",
+      "oneri": "s:transkafkasya 1917-11-07→1918-05-26 | s:gurcistan-demokratik-cumhuriyeti 1918-05-26→<Şubat 1921> | s:sovyet-rusya <Şubat 1921>→1923-10-29",
+      "gerekce": "Gürcistan Demokratik Cumhuriyeti'nin başkenti haritada hiç Gürcistan'a geçmiyor; Batum geçiyor.",
+      "kaynak": "TDV gurcistan: 'Gürcistan … 26 Mayıs 1918 tarihinde bağımsızlığını ilân etti' · 'Sovyet Rusyası, Şubat 1921’de Gürcistan’ı da işgal ederek'",
+      "acik": "🟡 Şubat 1921 günü TDV'de yok. data/kronoloji_gurcistan.js 1921-02-25 diyor ama o ATLAS verisi (§4: dayanak olamaz). Kaynak aranacak."
+    }
+  ],
+
+  "B_bulgu_kaynak_eksik_ya_da_nokta_yok": [
+    {"kod": "B-B1", "ad": "Nâsıriye", "sorun": "d:→1914-11-22 / s:ingiltere 1914-11-22 — Basra'nın günü. Nâsıriye İngilizlerce 1915 yazında alındı (Moberly, Official History, Mesopotamia; bu turda metinden okunmadı). Gün kaynağı bulunmadan yazılmadı."},
+    {"kod": "B-B2", "ad": "Şam · Halep (ve Humus/Hama varsa)", "sorun": "s:fransa-cumhuriyet 1918-10→1920-07-24. TDV halep ve birinci-dunya-savasi: şehirleri Arap ve İngiliz kuvvetleri aldı, Mart 1920'de Şam'da Faysal'ın Büyük Suriye Krallığı ilan edildi, Fransızlar ancak Meysalun'dan (Temmuz 1920) sonra Şam ve Halep'e girdi. ⇒ 1918-10 → 1920-07-24 arası Fransız DEĞİL, Faysal'ın Arap hükûmeti. KÜNYE YOK — öneri: 'Suriye Arap Krallığı / Faysal'ın Şam hükûmeti' (1918-10-01 → 1920-07-24). Künye açılınca yama yazılır."},
+    {"kod": "B-B3", "ad": "Şamahı · Şuşa · Lenkeran", "sorun": "1917-1920 hiç Azerbaycan'a geçmiyor (s:sovyet-rusya kesintisiz). Gence geçiyor. Şehir bazında gün kaynağı bu turda aranmadı."},
+    {"kod": "B-B4", "ad": "Gümrü (Aleksandropol)", "sorun": "yerlesimler_ek26.js: 1917-1923 kesintisiz sovyet-rusya; Ermenistan Demokratik Cumhuriyeti (1918-05-28→1920-12-02) ve Türk-Ermeni savaşı haritada yok. Gün kaynağı aranmadı."},
+    {"kod": "B-B5", "ad": "Van", "sorun": "Rus işgali haritada yok. Bitiş TDV van: 2 Nisan 1918. Başlangıç günü TDV'de yok ('1915' ve 'Rus işgali 1915-1917'). Başlangıç bulununca yazılır."},
+    {"kod": "B-B6", "ad": "Rize · Muş", "sorun": "Rize: Rus işgali (1916-1918) haritada yok, TDV rize bu turda okunmadı. Muş: haritada NOKTA YOK (araç bulamadı) — TDV mus: 18 Şubat 1916 işgal, 26 Temmuz 1916 kurtuluş, 1 Mayıs 1917 kesin kurtuluş."},
+    {"kod": "B-B7", "ad": "Tebriz", "sorun": "İran tarafsızdı; Osmanlı işgalleri (Ocak 1915 civarı; 2 Eylül → Ekim 1918) ve 1909'dan beri süren Rus işgali haritada yok. isg: katmanıyla yazılabilir ama Ekim 1918 günü TDV'de yok."},
+    {"kod": "B-B8", "ad": "Tanga · Bagamoyo", "sorun": "yerlesimler_emilme.js: s:umman-zengibar 1698→1923 kesintisiz. İkisi de Alman Doğu Afrikası'ndaydı (Tanga Muharebesi Kasım 1914 — 1914-1918-online 'Tanga, Battle of'). Savaş öncesi dönem de yanlış; §2 emilme vakası. Gün kaynağı bu turda aranmadı."},
+    {"kod": "B-B9", "ad": "Alman Doğu Afrikası noktaları (Tabora · Moşi · Dodoma · Morogoro · Lindi · Kilva · Bukoba) · Garua", "sorun": "Hepsi TOPLU 1916-09-01'de el değiştiriyor — yuvarlak gün. 1914-1918-online: Doğu Afrika'nın önemli bölgeleri 'by autumn 1916' işgal edildi; şehir günleri bu turda bulunamadı. Darüsselam'ın haritada NOKTASI YOK."},
+    {"kod": "B-B10", "ad": "Vindhuk (Windhoek)", "sorun": "s:almanya→1915-07-09. 1914-1918-online: Botha Windhoek'i 'May 1915'te aldı; Temmuz 1915 bütün koloninin teslimi. Gün bulunamadı."},
+    {"kod": "B-B11", "ad": "Yaunde", "sorun": "s:almanya→1916-02-16 — Duala ile aynı gün. 1914-1918-online: Kamerun'daki Alman direnişi 'by February 1916' kırıldı. Şehrin kendi günü bulunamadı."},
+    {"kod": "B-B12", "ad": "Togo · Samoa · Alman Mikronezyası · Nauru", "sorun": "NOKTASIZ (araç Lomé, Apia, Jaluit, Saipan, Ponape, Truk, Palau, Nauru için kayıt bulamadı; Yap kaydı 1912-1925'te dönem taşımıyor). Kaynaklı günler hazır: Togo teslimi 26 Ağustos 1914 (Kamina) · Samoa 29 Ağustos 1914 · Jaluit 3 Ekim 1914 · Saipan 14 Ekim 1914 (1914-1918-online). Kronoloji maddeleri 2. partide; harita için önce nokta gerekir (§2)."}
+  ],
+
+  "cekirdek_madde_onerisi": {
+    "not": "Osmanlı çekirdeğinde (data/olaylar*.js) BULUNAMAYAN, A bölümü inerse Değişmez 2 için gerekecek maddeler. Yazılmadı — çekirdek dosyalar bu oturumun değil.",
+    "maddeler": [
+      {"t": "1916-02-16", "b": "Erzurum'un Rus işgaline düşmesi", "kaynak": "TDV erzurum"},
+      {"t": "1916-03-01", "b": "Bitlis'in Rus işgali", "kaynak": "TDV bitlis"},
+      {"t": "1916-04-18", "b": "Trabzon'un Rus işgali", "kaynak": "TDV trabzon"},
+      {"t": "1916-07-24", "b": "Erzincan'ın Rus işgali", "kaynak": "TDV erzincan"},
+      {"t": "1916-08-08", "b": "Bitlis'in geri alınışı", "kaynak": "TDV bitlis"},
+      {"t": "1916-09-17", "b": "Tâif'in Şerif Hüseyin kuvvetlerine geçmesi", "kaynak": "TDV taif"},
+      {"t": "1915-09-26", "b": "Kûtülamâre'nin İngiliz işgali", "kaynak": "TDV kutulamare"},
+      {"t": "1918-02-24", "b": "Trabzon'un Rus işgalinden kurtuluşu", "kaynak": "TDV trabzon"},
+      {"t": "1918-02-26", "b": "Erzincan'ın kurtuluşu", "kaynak": "TDV erzincan"},
+      {"t": "1918-03-12", "b": "Erzurum'un kurtuluşu", "kaynak": "TDV erzurum"}
+    ],
+    "olculmedi": "Hangisinin mevcut bir çekirdek maddenin ±30 gününe zaten düştüğü denetle.py ile ölçülmedi (yama inmeden ölçülemez)."
+  },
+
+  "tdv_celiskileri": [
+    "Basra işgali: TDV basra ve kuveyt 22 Kasım 1914 · TDV birinci-dunya-savasi 23 Kasım 1914 (harita 22'yi kullanıyor).",
+    "Kût teslimi: TDV kutulamare 29 Nisan 1916 · TDV birinci-dunya-savasi 28 Nisan 1916 (çekirdek 29).",
+    "Şerif Hüseyin'in krallık ilanı: TDV serif-huseyin 'Kasım 1916' · TDV birinci-dunya-savasi '1916 Ekiminde' — madde yazılmadı.",
+    "Osmanlı'nın Tebriz'e girişi: TDV tebriz 2 Eylül 1918 · TDV azerbaycan 'Haziran 1918'.",
+    "İngiliz-İran antlaşması: TDV kacarlar '9 Nisan 1919' · data/kronoloji_iran.js 1919-08-09 — madde yazılmadı, kaynak çelişkisi 1.MURAT'a.",
+    "Rus Ekim İhtilali: TDV birinci-dunya-savasi '14 Kasım 1917' (Miladî 7 Kasım olmalı) — B kapsamı dışı, A'ya bilgi."
+  ]
+}
