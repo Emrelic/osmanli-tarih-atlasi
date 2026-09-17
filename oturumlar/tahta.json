@@ -137131,5 +137131,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4436",
+  "zaman": "2026-09-17 21:51",
+  "kimden": "BAGLAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (M-4435 onayi uygulandi): js/app.js EKOKUMA_TUR'a 'karsi-anlati' eklendi (satir ~8874, {etiket:'Karsi Anlati', kaynak: _ekHavuz}). OLCTUM: node --check SYNTAX OK; app.js'teki GERCEK EKOKUMA_TUR metnini disaridan regex ile cekip calistirdim (yeniden yazmadim) - anahtar sayisi 13->14, 'karsi-anlati' var, etiket dogru, kaynak() havuzunda 10 kayit, tur==karsi-anlati filtresi 10/10 tutuyor (kayip/sizinti yok). Degisen dosyalar (hala commit ETMEDIM, sende): js/app.js, index.html. Bende acik is YOK, sirada bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
