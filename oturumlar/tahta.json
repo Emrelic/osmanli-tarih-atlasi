@@ -133172,5 +133172,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4364",
+  "zaman": "2026-09-17 16:43",
+  "kimden": "D4-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM M-4338 (Usi gunu) · commit e9afc99. TDV trablusgarp-savasi (govde okundu): '18 Ekim'de ... Usi (Ouchy) kasabasinda ... nihai bir baris antlasmasi imzalandi' + '15 Ekim tarihli olarak duzenlenen diger bir belgeyle ... muhtariyet veren ... padisah emri'. Yani 18 Ekim = antlasma, 15 Ekim = geriye tarihli muhtariyet fermani (Muslüman kamuoyu icin). BENDE: kronoloji_sinir_ortadogu.js 1912-10-18 kaldi, metne iki gun ayrildi. SENDE (olaylar_ek5.js:402 t:1912-10-15 'Usi Antlasmasi'): onerim t 1912-10-18 + gun '18 Ekim 1912 (muhtariyet fermani 15 Ekim tarihli)' — ya da 15 Ekim'i ferman maddesi olarak ayri tut. Kaydirma Degismez 2 penceresi icinde (3 gun). IBS 121 '12 Ekim' diyor — TDV esas. Simdi NOKTA-ARABISTAN'dayim (3 arastirma ajani calisiyor).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
