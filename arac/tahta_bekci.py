@@ -91,9 +91,40 @@ BAĞLI bir SÜZGEÇ ekliyor:
 bir HAVUZ'da biriktirir ve en çok SANİYE'de bir TEK özet satırı basar:
     [BEKCI] 3 yeni: M-4422 SONNET HAZIR KITA 1012 · M-4423 ... · M-4424 ...
 Pencere kapanırken havuz BOŞSA hiçbir şey basılmaz (sessiz) — "mesaj
-yoksa hiç basmaz" kuralı `--toplu`ya da uygulanır. ADRES-TUZAĞI uyarısı
-bu modda da anında basılır, havuza girmez (bir yanlış adresleme 30
-dakika beklemeyi hak etmez).
+yoksa hiç basmaz" kuralı `--toplu`ya da uygulanır.
+
+────────────────────────────────────────────────────────────────────────
+🔴🔴 KULLANIM — 18 EYLÜL 2026 STDOUT/STDERR AYRIMI (1.MURAT'ın ARAC-BEKCI
+ek işi, kök sebep Emre'nin şikâyeti). ÖLÇÜLEN KUSUR: Monitor SADECE
+stdout'u bildirim yapıyor, ve bekçinin AÇILIŞ BANNER'I ("[BEKCI]
+nöbette…") da stdout'a basıyordu — yani her ilk kurulumda süreç HİÇBİR
+gerçek mesaj gelmemişken bile bir bildirim üretiyordu, oturum uyanıp
+"bekliyorum" yazıyor, Monitor 30 dakikada bir zaman aşımına uğrayıp
+yeniden kuruluyor ve döngü SÜREKLİ tekrarlıyordu. Bekçinin TEK görevi
+gerçek bir mesaj gelince uyandırmaktı; banner bunu ihlal ediyordu.
+
+🟢 ÇÖZÜM — İKİ KANAL AYRILDI:
+    STDOUT   YALNIZ gerçek mesaj içeriği — Monitor bunu bildirim yapar.
+             Mesaj yoksa stdout TAMAMEN SESSİZDİR (banner da dahil hiç
+             satır yok).
+    STDERR   açılış banner'ı, defter okunamadı uyarısı, ADRES-TUZAĞI
+             uyarısı, "tur bitti"/"çıkıyorum" durum satırları — hepsi
+             BİLGİ/TEŞHİS, gerçek mesaj DEĞİL. Monitor'ün kendi belgesi:
+             "Stderr goes to the output file (readable via Read) but
+             does not trigger notifications." Kaybolmuyor, sadece
+             UYANDIRMIYOR.
+Uyandırma satırı artık TEK SATIR ve kısa: `M-xxxx <kimden> → <kime>:
+<ilk 120 karakter>` — eski `🔔 [TAHTA] … \n   …` iki satırlı biçimi
+kaldırıldı (Monitor'ün "tek stdout satırı = tek bildirim" modeliyle daha
+uyumlu, ve ekran/log daha kısa).
+
+⚠️ **Monitor `timeout_ms` en çok 1.800.000 ms (30 dk); süre dolunca
+SESSİZCE yenilenir** — bu bir arıza değil, aracın kendi tavanı. İŞSİZ
+BİR OTURUM BEKÇİ KURMAZ, DURUR: koordinatör bir mesaj yazdığında oturum
+zaten (cross-session mesajıyla ya da bir sonraki göreve atanarak)
+uyanır; boşta beklerken 30 dakikada bir "nöbetçi kuruldu, bekliyorum"
+yazıp yeniden Monitor kurmak, tam bu belgenin düzelttiği döngüyü BAŞKA
+BİR KATMANDA yeniden üretir.
 """
 import io
 import json
@@ -112,10 +143,15 @@ try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 except Exception:
     pass
+try:
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
 
 def _bas(s):
-    """🔴 İKİ SAVUNMA: nöbetçi kendi çıktısında ÖLEMEZ."""
+    """🔴 GERÇEK MESAJ — STDOUT. Monitor bunu bildirim yapar; İKİ SAVUNMA:
+    nöbetçi kendi çıktısında ÖLEMEZ (bkz. dosya başı KULLANIM, vaka ②)."""
     try:
         print(s, flush=True)
     except Exception:
@@ -123,6 +159,20 @@ def _bas(s):
             print(s.encode("ascii", "replace").decode("ascii"), flush=True)
         except Exception:
             print("[BEKCI] mesaj basilamadi ama VAR", flush=True)
+
+
+def _diag(s):
+    """🔴 BİLGİ/TEŞHİS — STDERR. Banner, uyarı, durum satırları buradan
+    geçer: Monitor stderr'i bildirime çevirmez (dosya başı KULLANIM,
+    18 Eylül 2026 ayrımı) — kaybolmaz, sadece UYANDIRMAZ."""
+    try:
+        print(s, file=sys.stderr, flush=True)
+    except Exception:
+        try:
+            print(s.encode("ascii", "replace").decode("ascii"),
+                  file=sys.stderr, flush=True)
+        except Exception:
+            pass
 
 
 def _sade(s):
@@ -184,9 +234,9 @@ def _defter_adlari(benler):
 
 def main(argv):
     if "--kim" not in argv:
-        _bas("kullanim: py arac/tahta_bekci.py --kim \"<TAM ADIN>\"")
-        _bas("  --kim birden cok kez verilebilir; virgulle de ayrilabilir.")
-        _bas("  🔴 TAM anahtarini yaz — tahta TAM ESITLIK ariyor.")
+        _diag("kullanim: py arac/tahta_bekci.py --kim \"<TAM ADIN>\"")
+        _diag("  --kim birden cok kez verilebilir; virgulle de ayrilabilir.")
+        _diag("  🔴 TAM anahtarini yaz — tahta TAM ESITLIK ariyor.")
         return 2
     # 🔴 ÇOKLU AD — `--kim` birden çok kez ya da virgüllü verilebilir.
     ham = [argv[i + 1] for i, a in enumerate(argv)
@@ -227,13 +277,16 @@ def main(argv):
     if "--defter-yok" not in argv:
         benler, okundu = _defter_adlari(benler)
         if not okundu:
-            _bas("[BEKCI] ⚠️ defter.json okunamadı — YALNIZ elle verilen "
-                 "adlar dinleniyor. Adın değiştiyse mesaj KAÇAR.")
+            _diag("[BEKCI] ⚠️ defter.json okunamadı — YALNIZ elle verilen "
+                  "adlar dinleniyor. Adın değiştiyse mesaj KAÇAR.")
 
     gorulen = {m.get("no") for m in _oku()}
-    _bas("[BEKCI] nöbette · %d ad dinleniyor: %s · %d mesaj görüldü · %.0f sn%s"
-         % (len(benler), " | ".join(sorted(benler)), len(gorulen), ara,
-            (" · toplu:%.0f sn" % toplu) if toplu > 0 else ""))
+    # 🔴 BANNER — STDERR (18 Eylül 2026, bkz. dosya başı KULLANIM). Bu
+    # satır gerçek bir mesaj DEĞİL; stdout'ta durursa Monitor onu her
+    # kurulumda bir bildirim sayar ve boş nöbeti bile uyandırır.
+    _diag("[BEKCI] nöbette · %d ad dinleniyor: %s · %d mesaj görüldü · %.0f sn%s"
+          % (len(benler), " | ".join(sorted(benler)), len(gorulen), ara,
+             (" · toplu:%.0f sn" % toplu) if toplu > 0 else ""))
     n = 0
     havuz = []
     son_toplu = time.time()
@@ -279,9 +332,12 @@ def main(argv):
                 # (toplu dahil) anında bildirilir.
                 tuzak.append(m)
         for m in tuzak:
-            _bas("⚠️ [ADRES-TUZAGI] %s KIME='%s' — benim tam anahtarım '%s'. "
-                 "Mesaj bana ULAŞMADI, yazan 'yazıldı' cevabı aldı."
-                 % (m.get("no"), m.get("kime"), kim))
+            # 🔴 ADRES TUZAĞI da STDERR'e taşındı (18 Eylül 2026) — bu bir
+            # BANA gelen mesaj değil, bana gelMEYEN bir mesajın teşhisi;
+            # Monitor'ü uyandırmaya değmez, ama log'da (Read ile) durur.
+            _diag("⚠️ [ADRES-TUZAGI] %s KIME='%s' — benim tam anahtarım '%s'. "
+                  "Mesaj bana ULAŞMADI, yazan 'yazıldı' cevabı aldı."
+                  % (m.get("no"), m.get("kime"), kim))
         if toplu > 0:
             # TOPLU MOD — anlık 🔔 yerine havuzda biriktir, pencere
             # kapanınca TEK özet satırı bas; havuz boşsa hiç basma.
@@ -296,13 +352,14 @@ def main(argv):
                 son_toplu = time.time()
         else:
             for m in yeni:
-                _bas("🔔 [TAHTA] %s · %s → %s · %s\n   %s"
-                     # 🔴 27 Ağu 2026 — `kim` DEĞİL `kimden`. Kayıtta öyle
-                     # bir alan yok, `.get()` sessizce None döndürüyordu
-                     # ve HER bildirim "M-1311 · None → …" diye basıyordu.
-                     # Bulan DEĞİŞMEZ 7 ENKLAV oturumu (M-1313).
+                # 🔴 TEK SATIR, KISA — 18 Eylül 2026 (`kim` DEĞİL `kimden`;
+                # bkz. eski not, DEĞİŞMEZ 7 ENKLAV/M-1313). Gövde 120
+                # karaktere kırpılır ki stdout'ta ASLA ikinci satıra
+                # taşmasın — Monitor'ün "1 stdout satırı = 1 bildirim"
+                # modeliyle uyumlu kalması bunu gerektiriyor.
+                _bas("%s %s → %s: %s"
                      % (m.get("no"), m.get("kimden"), m.get("kime"),
-                        m.get("cins") or "", (m.get("mesaj") or "")[:400]))
+                        (m.get("mesaj") or "")[:120]))
         # 🔴 HAVUZ KAÇAĞI — SINAMADA BULUNDU (17 Eylül 2026, ARAC-BEKCI).
         # Pencere kapanmadan süreç ÇIKARSA (`--tur` ya da `--cik`), o ana
         # kadar havuzda biriken eşleşmiş mesajlar hiç basılmadan gider —
@@ -317,12 +374,13 @@ def main(argv):
             havuz = []
         # 🔴🔴 ÇIKMAK YALNIZ Monitor DIŞINDA (kabuk arka planı) ANLAMLI —
         # bkz. dosya başı KULLANIM (Monitor'de çıkış = boşlukta mesaj kaçar).
+        # Bu durum satırları da STDERR — gerçek mesaj değil, teşhis.
         if (yeni or tuzak) and cik:
-            _bas("[BEKCI] mesaj var — ÇIKIYORUM ki oturum UYANSIN. "
-                 "Yeniden kur: py arac/tahta_bekci.py --kim \"%s\"" % kim)
+            _diag("[BEKCI] mesaj var — ÇIKIYORUM ki oturum UYANSIN. "
+                  "Yeniden kur: py arac/tahta_bekci.py --kim \"%s\"" % kim)
             return 0
         if tur and n >= tur:
-            _bas("[BEKCI] %d tur bitti, çıkıyorum." % tur)
+            _diag("[BEKCI] %d tur bitti, çıkıyorum." % tur)
             return 0
 
 
