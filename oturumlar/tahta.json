@@ -137077,5 +137077,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4433",
+  "zaman": "2026-09-17 21:23",
+  "kimden": "SONNET HAZIR KITA 1011",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULA-3 TESLIM. ① KUR: YAMA-KUR-0917 kur_yamalari 41'in 33'u uygulandi (data/yerlesimler_ek8/ek9/ek13/ek18/gamerika.js). 8 dikkat:true LISTELENDI-UYGULANMADI: Ust-Kamenogorsk, Semipalatinsk, Pavlodar (Koryakov), Petropavlovsk (Kizilcar), Akmola (Akmolinsk), Kokcetav (Kokcetav), Karkaralinsk (Karkarali), Irgiz (Irgiz) — hepsi cungar/altinorda bozkir dolgusu riski tasiyor. ② RENK: YAMA-RENK-0917'nin 7 kimliginin 6'si arac/renkler.py'ye indi — indor/maratha/bharatpur-cat/gvalyar renk degisti (komsu cakismasi cozuldu), polonya-erken + kumuk-samhalligi YENI eklendi (ikisi de HARITA DELIGIydi, kunyeleri var renkleri yoktu). ispanya HARIC tutuldu (Emre onayi bekliyor — oneri parlak macenta, estetik tartismali). Yan-duzeltme: maratha eski hex #a828d8'in 8 uyeli KASITLI PAYLASIM grubundan cikarildi (7 uyeye dustu), PAYLASIM beyani guncellendi — renk_olc.py'nin \"BEYAN EDILEN PAYLASIM BOZULDU\" uyarisi bu duzeltmeyle kapandi. ③ KRONO3-A+B: 15 kronoloji satiri 14 kunyeye indi — suud-ikinci, sani-emirligi, sabah-emirligi(x2), cebel-i-lubnan-mutasarrifligi, oniki-ada-italyan, arvanid-sancagi, bosna-isgal, buna, gonja, charrua, ekvador-cumhuriyeti, diaguita-calchaqui-konfederasyonu, arua, fransiz-guyanasi. ④ KUNYE-TARAF-BEKLEYEN: 2 kunye yazildi (bavyera, danzig-serbest-sehri-1807) — devletler.js 660 -> 662, dogrulandi, yedek silindi. kuba-hanligi BILEREK atlandi (f: icin okunmus kaynak yok, kendi dosyasinda \"hala_bekleyen\" olarak duruyor). denetle.py SONUC: IHLAL VAR — YALNIZ Degismez 5, 6 celiski: Surgut (2.0 yil), Nikolayevsk Amur agzi (160.9 yil), Blagovescensk (205.4 yil), Habarovka (205.0 yil), Imperator limani (200.4 yil), Yerbogacen (118.0 yil) — hepsi bu turda ekledigim kur: alanlarindan, ve YAMA-KUR-0917'nin KENDI ilk_donem_uyarisi metniyle BIREBIR ortusuyor (o alan dikkat:true DEGILDI ama ayni sinif risk tasiyor: bu 6 nokta Amur/Sibirya sinirinda YUZYILLARCA bolgesel dolgu islevi goruyor, s: donem baslangicini kur'a cekmek CLAUDE.md §2 emilme riski acar — dikkat:true 8 ile AYNI sinif ama yamada isaretlenmemis). DUZELTMEDIM — bu bir cografi/arastirma karari, YETKIM DISINDA (§7). ISTEDIGIM: bu 6 nokta icin karar — ya dikkat listesine eklenip kur GERI ALINSIN, ya da donem baslangici arastirilip kur'a cekilsin (ikisi de harita sonucu doguruyor, tek basina mekanik uygulanamaz). Oteki her sey temiz: 1/1b/1c/2/2s/2i/2t/3/4/4c/4d/4s/6/7/konum hepsi ✓ (mevcut toleranslar icinde). renk_olc.py: 0 gorunmez, 0 cakisma, 0 ayni-anahtar ortusmesi, 0 ayni-hex cakismasi (6 yakin-ama-degmeyen ONCEDEN VARDI: dukagin/macaristan, ingiliz-sudani/nkore, hurmuz-sultanligi/portekiz, floransa/isvicre, agadez-sultanligi/sokoto, bizans/bosna — benim degisikliklerimle ILGISIZ). Ek bulgu (YETKIM DISI, kronoloji yorumuna yazildi, veri DEGISTIRILMEDI): arvanid-sancagi kunyesinin t: degeri (1537, zaten \"kaynaksiz\" isaretliydi) YANLIS olabilir — TDV 1466'da sancagin Avlonya/Ohri/Iskodra olarak PARCALANDIGINI yaziyor. DEGISEN DOSYALAR (commit BEKLIYOR, 1.MURAT): data/yerlesimler_ek8.js, data/yerlesimler_ek9.js, data/yerlesimler_ek13.js, data/yerlesimler_ek18.js, data/yerlesimler_gamerika.js (kur:), arac/renkler.py (renk + paylasim beyani), data/devletler.js (15 kronoloji satiri + 2 yeni kunye, 660->662). Hicbir dosyayi commit ETMEDIM (gorev geregi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
