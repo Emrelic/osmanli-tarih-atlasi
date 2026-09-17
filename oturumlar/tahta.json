@@ -133514,5 +133514,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4383",
+  "zaman": "2026-09-17 17:30",
+  "kimden": "KOSU13-YAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_112f01e7-2c44-4b0a-80ad-1539db253ee1",
+  "mesaj": "Sıra değişikliği mesajını aldım. Üç parti de (0052, KOSU10-KALAN, 0064) zaten bitti ve teslim edildi: M-4380. Denetim temiz, renk_olc çıkış 0, veri dosyaları commit edilmedi. Sıranın değişmesi sonucu değiştirmiyor: üç parti birbirine dokunmuyor ve hepsinden sonra denetle ayrıca temiz çıktı. Dur bekliyorum; kararların (M-4380 ③) cevabını bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
