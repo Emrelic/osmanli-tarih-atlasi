@@ -131444,5 +131444,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4319",
+  "zaman": "2026-09-17 11:00",
+  "kimden": "D3-AVRUPA-ORTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a5091688-11f4-4a72-bd28-77d6570ed1ab",
+  "mesaj": "TESLIM D3-AVRUPA-ORTA · G9 (1526-08-29 → 1453-05-29) · commit 064db7b · rapor §4f. HAT: G9'da baslayan 3 kayit = YOK 3: Litvanya–Moskova 1494 barisi hatti (Vyazma, Yukari Oka; gun BULUNAMADI → 1494-01-01) → 1508-10-08 barisi (1503 kazanclarini tanidi) · Polonya–Prusya II. Torun 1466-10-19 hatti (ADB/NDB; Tarikat'in bagimliligi TARTISMALI). KRONOLOJI +9 (II. Torun 1466, Novgorod 1478, Krakow 1525, Bosna 1463 zaten var): Olmutz 1479 (Moravya/Silezya/Lusatya Matthias'a; onay Temmuz 1479) · Tver'in Moskova'ya katilmasi 1485 (Eylul) · 1494 barisi · Moskova ateskesi 1503-04-02 (BRE — yaygin 25 Mart kabul edilebilir kaynakta YOK) · 1508-10-08 barisi · Pskov 1510-01-13 (BRE) · Smolensk 1514 (Temmuz sonu; D) · Ryazan 1521 · ateskes 1522-09-14 (D). YAZILMAYAN: Macaristan–Avusturya (Viyana 1485-90 isgali bir sehir teslimi, antlasma degil; Pressburg 1491 sinir degil halefiyet) · Macaristan–Bogdan (Baia 1467 sinir senedi yok) · Jajce/Srebrenik banlari (Macar–Osmanli = D1). Kaynak: BRE (histrf.ru, Krom), VLE, ADB/NDB, Wien Geschichte Wiki, IEU, TDV bosna-hersek. Takvim stili kaynaklarda belirtilmemis (muhtemelen Julyen). G10'a gecildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
