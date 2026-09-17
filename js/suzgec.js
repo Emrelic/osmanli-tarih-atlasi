@@ -681,13 +681,27 @@ function maddeDegisimleri(o, gs, Y, ix, kardesler) {
     if (yol) { secilen.push({ i: deg[n].i, once: deg[n].once, sonra: deg[n].sonra, yol: yol }); alindi[deg[n].i] = true; }
   }
   var dogrudan = secilen.slice();
+  // 🔴 DÜZELTİLDİ (DALGA-0068 H-0015/H-0017/H-0016, ISGAL-TARAMA, 18 Eylül
+  // 2026): "④ komşu" adımı AYNI (once,sonra) çiftini taşısa bile ≤150 km
+  // şartı arıyordu. Bu, YEREL bir olayı (bir kuşatmanın komşu köyleri) doğru
+  // ayırt ediyordu ama ÜLKE ÇAPINDA TEK bir olayı (hanedan değişimi, cumhuriyet
+  // ilanı, toprak paylaşımı) `yer_id`ye yakın bir avuç peteğe KIRPIYORDU —
+  // İran'ın Zend→Kaçar geçişi (25+ yerleşim, tek gün) yalnız 1-2 "leke",
+  // Fransa Cumhuriyeti ilanı (13+ yerleşim, tek gün) yalnız Paris çevresi 5-6
+  // bölge olarak görünüyordu; veri ÖLÇÜLDÜ, hepsi aynı gün aynı çifti
+  // taşıyordu (denetim/ISGAL-TARAMA-0918.md). ⇒ Mesafe şartı KALDIRILDI —
+  // aynı çift zaten güçlü bir bağdır (tam kimlik+tür dizgisi, örn.
+  // "2:fransa"→"2:fransa-cumhuriyet"); iki BAĞIMSIZ olayın aynı gün aynı
+  // çifti TESADÜFEN taşıması bu veri modelinde ölçülmedi ve ihtimali düşük.
+  // ⚠️ Kalıntı risk: teorik olarak böyle bir tesadüf olursa madde YANLIŞ bir
+  // yerleşimi de kardeş sayar — ölçülmedi, gözlem istenirse `komsuKm` geri
+  // eklenebilir (sabit hâlâ burada duruyor, okunmuyor).
   for (n = 0; n < deg.length; n++) {
     var d = deg[n];
     if (alindi[d.i] || kardesAl[d.i]) continue;
     for (k = 0; k < dogrudan.length; k++) {
       var s = dogrudan[k];
-      if (s.once === d.once && s.sonra === d.sonra &&
-          _ydKm(Y[s.i], Y[d.i]) <= MADDE_DEGISIM_AYAR.komsuKm) {
+      if (s.once === d.once && s.sonra === d.sonra) {
         secilen.push({ i: d.i, once: d.once, sonra: d.sonra, yol: "komsu" }); alindi[d.i] = true; break;
       }
     }

@@ -1986,7 +1986,10 @@ harita.on("load", function () {
     'outline-offset:0;box-sizing:border-box;margin-left:2px"></i> Gevşek himaye (Nogay bozkırı gibi)</span>' +
     // Üçüncü gösterim. Tarama SOLA yatık — antlaşma devirlerinin SAĞA yatık
     // taramasıyla karışmasın diye ayna simetrisi seçildi.
-    '<span><i style="background:linear-gradient(-45deg,#8e0b22 0 62%,#555 62% 100%);background-size:8px 8px"></i> İşgal altında (nominal sahibi değişmemiş)</span>' +
+    // 🔴 ORAN ÇEVRİLDİ (DALGA-0068 H-0001, 18 Eylül 2026): işgalci (#555 örnek
+    // renk) BASKIN %62, nominal sahip (#8e0b22) ince şerit %38 — isgalDesenleriKur
+    // ile AYNI oran (eskiden tersti).
+    '<span><i style="background:linear-gradient(-45deg,#555 0 62%,#8e0b22 62% 100%);background-size:8px 8px"></i> İşgal altında (nominal sahibi değişmemiş)</span>' +
     '<span><i style="background:none;border-top:3px solid #6d0d1c;height:0;align-self:center"></i> İmparatorluk sınırı (ikisini birlikte)</span>' +
     // 🔴 SÖNEN KENAR — ÖLÇÜLMÜŞ BİR ŞİKÂYETİ KAPATIYOR.
     // Kullanıcı 1326 ve 1331'de "iki ayrı kırmızı" gördü ve kusur sandı; ayrıca
@@ -3623,9 +3626,12 @@ function isgalDesenleriKur() {
         // Devir deseni (x+y) ile SAĞA yatık; işgal (x-y) ile SOLA yatık.
         // Ayna simetrisi bilerek: iki tarama yan yana düştüğünde hangisinin
         // "antlaşmayla gitti" hangisinin "işgal edildi" olduğu tek bakışta
-        // ayrılıyor. Ayrıca işgalci şeridi 8'de 3 — daha ince, çünkü işgal
-        // hukuken geçici; düz mülkiyet gibi ağır okunmamalı.
-        var isgalci = ((x - y + K) % K) < 3;
+        // ayrılıyor. 🔴 ORAN ÇEVRİLDİ (DALGA-0068 H-0001, Emre — ISGAL-TARAMA
+        // M-4468/M-4470): işgalci şeridi 8'de 5 — BASKIN, çünkü fiilî denetim
+        // işgalcide; sahip (nominal) şeridi 8'de 3'e düştü, ince kalsın diye.
+        // Eski hal ("işgalci ince, hukuken geçici" gerekçesiyle) Emre'nin
+        // kuralının TAM TERSİYDİ — bu artık bir tercih değil düzeltme.
+        var isgalci = ((x - y + K) % K) < 5;
         var r = isgalci ? c : s;
         var i = (y * K + x) * 4;
         veri[i] = r[0]; veri[i + 1] = r[1]; veri[i + 2] = r[2]; veri[i + 3] = 255;
@@ -3664,9 +3670,13 @@ function isgalLejanti(fs) {
   }
   if (!fs.length) { el.style.display = "none"; lejantYerlestir(); return; }
   el.style.display = "";
+  // 🔴 ORAN ÇEVRİLDİ (DALGA-0068 H-0001): işgalci rengi artık BASKIN (%62),
+  // sahip (Osmanlı kırmızısı — bkz. isgalDesenleriKur'daki not, sahipRenk her
+  // zaman #8e0b22 olmayabilir ama bu lejant şablonu şimdilik onu varsayıyor,
+  // ölçüldü/DEĞİŞTİRİLMEDİ) ince şerit (%38) — isgalDesenleriKur ile AYNI oran.
   el.innerHTML = "<b>İşgal altında</b>" + fs.map(function (f) {
-    return '<span><i style="background:linear-gradient(-45deg,#8e0b22 0 62%,' +
-           f.properties.renk + ' 62% 100%);background-size:8px 8px"></i> ' +
+    return '<span><i style="background:linear-gradient(-45deg,' +
+           f.properties.renk + ' 0 62%,#8e0b22 62% 100%);background-size:8px 8px"></i> ' +
            f.properties.isgalci + "</span>";
   }).join("");
   lejantYerlestir();
@@ -8290,7 +8300,18 @@ function antlasmaFarkiKirp(gecikme) {
   ANT_FARK.zaman = [];
   var azHareket = false;
   try { azHareket = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { }
-  if (azHareket) { _antlasmaHal("sonra"); return; }   // hareket istemeyene sabit "sonrası"
+  // 🔴 DÜZELTİLDİ (DALGA-0068 H-0025, ISGAL-TARAMA): `prefers-reduced-motion`
+  // açıkken düğme HER TIKLAMADA sabit "sonra"ya dönüyordu — zaten "sonra"
+  // durumundaysa hiçbir şey DEĞİŞMİYORDU, kullanıcıya "düğme çalışmıyor"
+  // olarak görünüyordu. Ölçüldü: bu tarayıcıda `matchMedia(...).matches`
+  // GERÇEKTEN true (azHareket=true), yani bu bir uydurma senaryo değil.
+  // Animasyonu geri açmak erişilebilirliği bozar; çare TEK ADIMDA TOGGLE —
+  // hareket yok ama düğme yine de bir şey yapıyor (önce↔sonra).
+  if (azHareket) {
+    var suSonraMi = !!(ANT_FARK.dugmeler && ANT_FARK.dugmeler.sonra.classList.contains("secili"));
+    _antlasmaHal(suSonraMi ? "once" : "sonra");
+    return;
+  }
   var MS = 520, sira = ["once", "sonra", "once", "sonra", "once", "sonra", "yok"];
   sira.forEach(function (h, i) {
     ANT_FARK.zaman.push(setTimeout(function () { _antlasmaHal(h); }, (gecikme || 0) + i * MS));
@@ -8665,6 +8686,9 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_korfez",      // window.EKOKUMA_KORFEZ (4 kart)
   "ekokuma_karsi",       // window.EKOKUMA_KARSI — tür karsi-anlati (10 kart)
   "ekokuma_savas1770",   // window.EKOKUMA_SAVAS1770 (1 kart)
+  // 🆕 18 Eylül 2026 — ISGAL-TARAMA (koordinatör 1.MURAT, M-4478)
+  "ekokuma_ihtilal",     // window.EKOKUMA_IHTILAL — EKO-IHTILAL teslimi
+  "ekokuma_akdeniz",     // window.EKOKUMA_AKDENIZ — EKO-AKDENIZ teslimi, tür 'tartisma'
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -8972,11 +8996,24 @@ var _DAIRE_RAKAM_VAR = /[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱�
 var _DAIRE_RAKAM_ONCESI = /(?=[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳](?:-[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳])?\s)/;
 function _maddeliMetniHtmle(metin) {
   if (!metin) return "";
-  if (!_DAIRE_RAKAM_VAR.test(metin)) return "<p>" + ekEsc(metin) + "</p>";
-  return metin.split(_DAIRE_RAKAM_ONCESI).map(function (parca) {
-    parca = parca.trim();
-    return parca ? "<p>" + ekEsc(parca) + "</p>" : "";
-  }).join("");
+  // 🔴 DÜZELTİLDİ (DALGA-0068 H-0018, ISGAL-TARAMA, 18 Eylül 2026): kaynak
+  // metinlerinde `\n\n` bir PARAGRAF/BÖLÜM ayracıdır (ör. "ekokuma.js"
+  // "hukum-alani-mesafe" kaydı "…\n\n■ MENZİL: …" gibi alt başlıklar taşıyor)
+  // ama HTML boşluğu normalde YUTAR; tek `<p>`ye konunca bölümler görünürde
+  // ÜST ÜSTE BİNİYORDU. Önce çift satır sonuna göre böl, SONRA her parçanın
+  // içinde daire rakamı varsa (eski H-0089 davranışı) AYRICA böl. Ne `\n\n`
+  // ne daire varsa davranış eskisiyle birebir (tek `<p>`).
+  var h = "";
+  metin.split(/\n{2,}/).forEach(function (blok) {
+    blok = blok.trim();
+    if (!blok) return;
+    if (!_DAIRE_RAKAM_VAR.test(blok)) { h += "<p>" + ekEsc(blok) + "</p>"; return; }
+    blok.split(_DAIRE_RAKAM_ONCESI).forEach(function (parca) {
+      parca = parca.trim();
+      if (parca) h += "<p>" + ekEsc(parca) + "</p>";
+    });
+  });
+  return h;
 }
 
 // ── DALGA-0052 · UI (16 Eylül) — H-0096: bazı `tartisma` alanları TDV'de
@@ -9114,6 +9151,12 @@ function ekKartHtml(k) {
   if (k.tur === "sebep-sonuc") {
     h += "<h4>" + ekEsc(k.sebep && k.sebep.b) + " → " + ekEsc(k.sonuc && k.sonuc.b) + "</h4>";
     if (k.bag) h += '<p class="ek-alt">' + ekEsc(k.bag) + "</p>";
+    // 🔴 EKLENDİ (DALGA-0068 H-0018, ISGAL-TARAMA, 18 Eylül 2026): `surec`
+    // alanı (EKOKUMA_ANTLASMA4'ün 56 kaydının HEPSİNDE dolu, genelde `metin`den
+    // UZUN — sebebe giden olaylar) HİÇ OKUNMUYORDU, sessizce görünmez kalıyordu
+    // (D099 sınıfı: bağlı olmayan alan okuyucuya görünmez). `surec` süreci,
+    // `metin` imza/antlaşma ayrıntılarını anlatıyor — kronolojik olarak önce.
+    if (k.surec) h += _maddeliMetniHtmle(k.surec);
     if (k.metin) h += _maddeliMetniHtmle(k.metin);
     if (k.zincir && k.zincir.length) {
       h += '<p class="ek-alt">İlgili: ' + k.zincir.map(function (id) {
