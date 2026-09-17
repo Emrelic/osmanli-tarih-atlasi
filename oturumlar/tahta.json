@@ -133055,7 +133055,12 @@
   },
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "KOSU13-YAMA": {
+    "zaman": "2026-09-17 16:16",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
