@@ -1896,6 +1896,18 @@ Yeni bir oturum başlatılacaksa görev tanımı `oturumlar/` altına yazılır
 
 ## 7.1 HABERLEŞME PROTOKOLÜ — her şartnameye AYNEN kopyalanır
 
+### 🔴 TOKEN KURALI (Emre, 17 Eylül 2026) — ①'nin önüne geçer
+```
+İŞÇİ        rapor · veri · teslim · soru → YALNIZ TAHTA (py arac/tahta.py yaz).
+            Koordinatörün ekranına send_message YAZILMAZ; satır satır mesaj atılmaz,
+            bir teslim TEK mesajdır. (Tahta çalışmıyorsa ⑤b istisnası geçerli.)
+KOORDİNATÖR iş YAPMAZ, dağıtır — bağlamını uygulama işiyle doldurmaz.
+OTURUM SEÇİMİ  doğruluk > tasarruf > hız · doğruluktan hiçbir şey için taviz yok.
+            Varsayılan TAZE oturum (her tur bütün bağlamı yeniden okur: maliyet ≈
+            bağlam × tur). Tecrübeli/emekli oturum yalnız işin doğrudan devamıysa ve
+            doğruluk kazancı varsa. Alakasız dolu işçiye iş VERİLMEZ.
+```
+
 🔴 **Bu bölüm 7 Ağustos 2026'da doğdu ve sebebi ölçülmüş bir kayıptır.**
 Beş araştırma oturumu açıldı; dördü işini yaptı, cevabını yazdı ve
 **hiçbiri koordinatöre ulaşmadı** — çünkü cevaplarını **kendi sohbet
