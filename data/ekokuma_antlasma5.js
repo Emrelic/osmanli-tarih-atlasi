@@ -63,15 +63,14 @@ window.EKOKUMA_ANTLASMA5 = [
   surec:"Richard II'nin tahttan indirilmesinden sonra yeniden başlayan savaşta V. Henry, 1413 ateşkesinin süresi dolunca Normandiya'ya çıktı, 25 Ekim 1415'te Agincourt'ta kazandı, Caen'ı ve Normandiya'nın bir kısmını aldı. Fransa bu sırada Armagnac ve Burgonya partileri arasındaki kan davasıyla tükeniyordu. 1419-1425 arasında Troyes şehri kraliyet hükümetinin merkeziydi ve antlaşma orada imzalandı.",
   hukumler:[
     "V. Henry, VI. Charles'ın kızı Catherine ile evlenecekti.",
-    "V. Henry Fransa krallığının naibi (regent) ve tahtın vârisi olacaktı.",
-    "(Veliaht Charles'ın haklarının düşürülmesine ve öteki maddelere dair metin bu turda OKUNMADI.)"
+    "V. Henry Fransa krallığının naibi (regent) ve tahtın vârisi olacaktı."
   ],
   metin:"Antlaşmanın imzasını Troyes'daki Saint-Jean kilisesinde V. Henry ile Catherine'in düğünü izledi. V. Henry 1422'de Vincennes'de öldü ve tahtı oğlu VI. Henry'ye bıraktı; Fransa'daki naiplik Bedford dükünün eline geçti. VI. Charles da aynı yıl öldü. Kendini VII. Charles ilan eden veliaht başta art arda yenildi (Cravant 1423, Verneuil 1424), ama 1429'da Jeanne d'Arc Orléans'ı kurtardı ve Charles Reims'te taç giydi. 1435'te Arras antlaşmasıyla VII. Charles ile Burgonya dükü İyi Philippe arasında iyi ilişkiler kuruldu; 1911 Britannica bunu İngilizlere 'son darbe' olarak niteler. Savaş 1453'te Castillon'da bitti.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1420-05-21|Troyes"],
   kaynak:"1911 Encyclopædia Britannica, 'Hundred Years' War' (Agincourt, Normandiya, Armagnac-Burgonya, Troyes hükümleri, V. Henry'nin ölümü, Bedford, Jeanne d'Arc, Arras, Castillon) · 1911 Encyclopædia Britannica, 'Troyes' (1419-1425 kraliyet hükümetinin merkezi, 1420 antlaşması ve Saint-Jean kilisesindeki düğün) — Wikisource neşri, kamu malı",
-  ic_not:"🔴 KAYNAKTA DİZGİ HATALARI: 1911 Britannica 'Hundred Years' War' Troyes antlaşmasını 'May 21, 1415' diye yazıyor (aynı eserin 'Troyes' maddesi 1420 diyor; Agincourt 1415 sonrasında anlatılıyor) ve V. Henry'nin Meaux'yu alışını '2 May 1429' diye veriyor (bağlam 1422). Kart 1420'yi ve 'V. Henry 1422'de öldü' bilgisini kullandı; gün (21 Mayıs) iki madde de aynı. Arras'ın günü aynı eserde '20 Mart 1435' — çekirdek madde 1435-09-21; bu yüzden kartta yalnız yıl yazıldı. Hüküm listesi bilerek kısa." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Veliaht Charles'ın haklarının düşürülmesine ve öteki maddelere dair metin bu turda OKUNMADI.. 🔴 KAYNAKTA DİZGİ HATALARI: 1911 Britannica 'Hundred Years' War' Troyes antlaşmasını 'May 21, 1415' diye yazıyor (aynı eserin 'Troyes' maddesi 1420 diyor; Agincourt 1415 sonrasında anlatılıyor) ve V. Henry'nin Meaux'yu alışını '2 May 1429' diye veriyor (bağlam 1422). Kart 1420'yi ve 'V. Henry 1422'de öldü' bilgisini kullandı; gün (21 Mayıs) iki madde de aynı. Arras'ın günü aynı eserde '20 Mart 1435' — çekirdek madde 1435-09-21; bu yüzden kartta yalnız yıl yazıldı. Hüküm listesi bilerek kısa." },
 
 // ── 1713 UTRECHT ANTLAŞMALARI ──────────────────────────────────────────────
 { id:"antlasma5-utrecht-1713", tur:"sebep-sonuc",
@@ -131,15 +130,14 @@ window.EKOKUMA_ANTLASMA5 = [
     "Newfoundland açıklarındaki balıkçılık hakları çözüme bağlandı.",
     "Savaş öncesinden Britanyalı alacaklılara olan borçlar meselesi düzenlendi.",
     "Britanya'ya sadık kalan Amerikalıların savaşta kaybettikleri mülklerin iadesi vaat edildi.",
-    "İngiliz kuvvetleri on üç devletten çekilecekti.",
-    "(Britanya'nın Fransa ve İspanya ile aynı gün yaptığı barışların toprak maddeleri bu turda OKUNMADI.)"
+    "İngiliz kuvvetleri on üç devletten çekilecekti."
   ],
   metin:"Kesin barış 3 Eylül 1783'te imzalandı. Charleston 1782 sonunda, New York 25 Kasım 1783'te boşaltıldı. Resmî ABD tarih yazımının hatırlattığı bir ayrıntı: Benjamin West atölyesinin barış görüşmecilerini gösteren tablosu yarım kaldı, çünkü İngiliz görüşmeciler tablo için poz vermeyi reddetti — iki taraf arasındaki ayrılığın simgesi.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1783-09-03|Paris"],
   kaynak:"Office of the Historian (ABD Dışişleri Bakanlığı), 'Treaty of Paris, 1783' (Franklin'in tutumu, heyet, 27 Eylül 1782, 30 Kasım 1782 ön maddeleri ve içerikleri, Vergennes, 20 Ocak 1783, 3 Eylül 1783, West tablosu) · 1911 Encyclopædia Britannica, 'American War of Independence' (Yorktown, deniz savaşının yayılması, tahliye günleri; Wikisource neşri) · TDV: ingiltere · antlaşma metni: The Avalon Project, 'Treaty of Paris 1783' (çekildi)",
-  ic_not:"Çekirdekte üç kopya (kronoloji_fransa/ingiltere/ispanya) aynı günde; ispanya kopyası 'Paris/Versailles Antlaşması' diyor. Britanya'nın Fransa ve İspanya ile barışlarının imza yeri ve maddeleri bu turda kaynaktan OKUNMADI; kart bu ayrıntıya girmedi." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Britanya'nın Fransa ve İspanya ile aynı gün yaptığı barışların toprak maddeleri bu turda OKUNMADI.. Çekirdekte üç kopya (kronoloji_fransa/ingiltere/ispanya) aynı günde; ispanya kopyası 'Paris/Versailles Antlaşması' diyor. Britanya'nın Fransa ve İspanya ile barışlarının imza yeri ve maddeleri bu turda kaynaktan OKUNMADI; kart bu ayrıntıya girmedi." },
 
 // ── 1802 AMİENS BARIŞI ─────────────────────────────────────────────────────
 { id:"antlasma5-amiens-1802", tur:"sebep-sonuc",

@@ -307,15 +307,14 @@ window.EKOKUMA_ANTLASMA4 = [
   surec:"Barbaros'un Preveze'de Andrea Doria'yı yendiği haber 1538 Ekim'inde orduya ulaştı. Kanûnî 27 Kasım'da İstanbul'a döndükten sonra Venedik ile çatışmalara son veren antlaşma imzalandı. Nauplion (Napoli di Romania) 1389'dan beri Venedik'in elinde, Venedik-İstanbul yolu üzerinde müstahkem bir ticaret limanıydı; antlaşmayla Osmanlılara bırakılmasına rağmen Mora sancak beyi Güzelce Kasım Paşa şehri ancak uzun bir muhasaradan sonra teslim alabildi.",
   hukumler:[
     "Barbaros tarafından ele geçirilen Ege adalarının statüsü (Osmanlı'da kalması) belirlendi.",
-    "Anabolu (Nauplion) şehir ve kalesi Osmanlılara bırakıldı.",
-    "(Batı kaynaklarına göre Menekşe/Monemvasia da bırakıldı ve Venedik savaş tazminatı ödedi — TDV'de okunmadı.)"
+    "Anabolu (Nauplion) şehir ve kalesi Osmanlılara bırakıldı."
   ],
   metin:"TDV anabolu maddesi antlaşmanın gününü 3 Ekim 1540 verir. Anabolu'nun teslimiyle halkına dokunulmadı, hatta bazı vergilerden muafiyet tanındı; kaçanların malları satıldı, kalanların emlâkı korundu, kaledeki kilise camiye çevrildi (Fethiye / Sultan Süleyman Camii) ve bir tophane kuruldu. Şehir 1686'da Venedik'e geçti ve 1715'te yeniden Osmanlı idaresine alındı.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1540-11-01|Anabolu"],
   kaynak:"TDV: anabolu (3 Ekim 1540 antlaşması, Güzelce Kasım Paşa'nın muhasarası, teslim şartları) · TDV: suleyman-i (Preveze sonrası antlaşma, Ege adalarının statüsü) · TDV: kibris (1540 barışı ve Venedik'in korsanlara kayıtsızlığı)",
-  ic_not:"Madde t:1540-11-01 'Anabolu'nun antlaşmayla devralınması' — antlaşmanın kendisi 3 Ekim 1540 (TDV anabolu); teslim günü kaynakta yok. Monemvasia ve tazminat bilgisi TDV'de OKUNMADI, parantez içinde kaynaksız olduğu belirtildi — istenirse kaldırılsın." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Batı kaynaklarına göre Menekşe/Monemvasia da bırakıldı ve Venedik savaş tazminatı ödedi — TDV'de okunmadı.. Madde t:1540-11-01 'Anabolu'nun antlaşmayla devralınması' — antlaşmanın kendisi 3 Ekim 1540 (TDV anabolu); teslim günü kaynakta yok. Monemvasia ve tazminat bilgisi TDV'de OKUNMADI, parantez içinde kaynaksız olduğu belirtildi — istenirse kaldırılsın." },
 
 // ── 1547 İSTANBUL ANTLAŞMASI (HABSBURG) ────────────────────────────────────
 { id:"antlasma4-istanbul-habsburg-1547", tur:"sebep-sonuc",
@@ -485,15 +484,14 @@ window.EKOKUMA_ANTLASMA4 = [
   surec:"Prut'taki temessük asıl barışın İstanbul'da yapılacağını söylüyordu ve TDV'ye göre hükümlerin yerine getirilmesi sürüncemede kaldı. Osmanlı Devleti Rusya'ya iki kez daha savaş ilân etti; İsveç Kralı XII. Karl'ın Osmanlı topraklarındaki faaliyetleri de gerginliği besliyordu. 27 Nisan 1713'te sadrazam olan Silâhdar (Şehid) Ali Paşa'nın ilk işi, Prut Antlaşması'nın Rusya ve Lehistan'la ilgili bazı maddelerini açıklığa kavuşturmak ve Rusya'yı şartlara uymaya zorlamak oldu. Çarın imzasının gereği, TDV'nin ifadesiyle ancak yine tehditle, Edirne'de yapılan antlaşmayla sağlandı.",
   hukumler:[
     "Prut Antlaşması'nın Rusya ve Lehistan'la ilgili bazı maddeleri açıklığa kavuşturuldu.",
-    "Rusya Prut'ta verdiği taahhütleri yerine getirecekti; Azak ve çevresi Osmanlı'ya bırakıldı.",
-    "(Sınır düzenlemesinin ayrıntıları TDV'de okunmadı.)"
+    "Rusya Prut'ta verdiği taahhütleri yerine getirecekti; Azak ve çevresi Osmanlı'ya bırakıldı."
   ],
   metin:"Antlaşma 24 Haziran 1713 tarihlidir. Azak 1736'da yeniden Rus eline geçti ve 1739 Belgrad Antlaşması'yla istihkâmları yıkılmak şartıyla Rusya'ya bırakıldı. Silâhdar Ali Paşa, Rus meselesi kapandıktan sonra Venediklilerin Karlofça'ya aykırı davranışlarını gerekçe gösterip 1714'te Venedik'e savaş açtı; Mora kısa sürede geri alındı (1715) ve bu savaş 1718 Pasarofça'ya uzandı.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1713-06-24|Edirne Antlaşması"],
   kaynak:"TDV: ahmed-iii (24 Haziran 1713 Edirne antlaşması, Azak'ın geri alınması, Mora hedefi) · TDV: prut-antlasmasi (hükümlerin sürüncemesi, iki savaş ilânı, 1713 Edirne) · TDV: sehid-ali-pasa (27 Nisan 1713 sadâret, Prut maddelerinin açıklığa kavuşturulması) · TDV: azak (1713'te Osmanlı'ya bırakılış, 1736, 1739)",
-  ic_not:"TDV sehid-ali-pasa Ali Paşa'nın bu işini 'Temmuz 1713' diye tarihliyor; ahmed-iii ve prut-antlasmasi antlaşmayı 24 Haziran 1713 veriyor. Madde 24 Haziran'da; fark muhtemelen tasdik/uygulama aşamasıdır, hüküm verilmedi. Hüküm listesi bilerek kısa — antlaşmanın madde metni okunmadı." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Sınır düzenlemesinin ayrıntıları TDV'de okunmadı.. TDV sehid-ali-pasa Ali Paşa'nın bu işini 'Temmuz 1713' diye tarihliyor; ahmed-iii ve prut-antlasmasi antlaşmayı 24 Haziran 1713 veriyor. Madde 24 Haziran'da; fark muhtemelen tasdik/uygulama aşamasıdır, hüküm verilmedi. Hüküm listesi bilerek kısa — antlaşmanın madde metni okunmadı." },
 
 // ── 1724 İSTANBUL (İRAN) MUKĀSEMENÂMESİ ────────────────────────────────────
 { id:"antlasma4-iran-mukasemenamesi-1724", tur:"sebep-sonuc",
@@ -567,12 +565,12 @@ window.EKOKUMA_ANTLASMA4 = [
     "Caferîliğin beşinci mezhep olarak kabulü teklifi reddedildi.",
     "Nâdir'in şahlığı tanındı; buna karşılık İran'da Sünnîliğin resmen ilânı şart koşuldu."
   ],
-  metin:"TDV antlaşmayı 1149 (1736) yılına koyar. Gence, Tiflis ve Revan 1733-1735'te zaten Nâdir'in eline geçmişti; antlaşmanın bu yerlere dair bir hükmü TDV'de okunmadı. Aynı yıl Ruslar Azak'a saldırdı (Mart 1736) ve Osmanlı 2 Mayıs 1736'da Rusya'ya savaş kararı aldı; Avusturya da savaşa katıldı. Doğudaki barış kısa sürdü: Nâdir 1743'te Kerkük'ü aldı ve Bağdat'ı kuşattı, son Osmanlı-İran savaşı 1746 Kerden Antlaşması'yla bitti.",
+  metin:"TDV antlaşmayı 1149 (1736) yılına koyar. Aynı yıl Ruslar Azak'a saldırdı (Mart 1736) ve Osmanlı 2 Mayıs 1736'da Rusya'ya savaş kararı aldı; Avusturya da savaşa katıldı. Doğudaki barış kısa sürdü: Nâdir 1743'te Kerkük'ü aldı ve Bağdat'ı kuşattı, son Osmanlı-İran savaşı 1746 Kerden Antlaşması'yla bitti.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1736-09-01|Güney Kafkasya"],
   kaynak:"TDV: mahmud-i--osmanli (anlaşma zemini, Abdülbâki Han'ın teklifleri, Mustafa Ağa, 1149/1736 anlaşması ve şartları, 1736 Rus savaşı) · TDV: iran (1733-1735 kazanımları, 1735 Gence Antlaşması, 1736 Mugan kurultayı) · TDV: avsarlilar",
-  ic_not:"TDV yalnız YIL veriyor (1149/1736); madde t:1736-09-01 ay/gün kaynaksız (maddenin kendi gun alanı da '1736'). 1149 hicrî yılı 1736 Mayıs'ında başlar." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Gence, Tiflis ve Revan 1733-1735'te zaten Nâdir'in eline geçmişti; antlaşmanın bu yerlere dair bir hükmü TDV'de okunmadı.. TDV yalnız YIL veriyor (1149/1736); madde t:1736-09-01 ay/gün kaynaksız (maddenin kendi gun alanı da '1736'). 1149 hicrî yılı 1736 Mayıs'ında başlar." },
 
 // ── 1740 FRANSA KAPİTÜLASYONLARI ───────────────────────────────────────────
 { id:"antlasma4-fransa-kapitulasyon-1740", tur:"sebep-sonuc",
@@ -691,15 +689,14 @@ window.EKOKUMA_ANTLASMA4 = [
   bag:"Önemi: Osmanlı'nın İngiltere ve Rusya ile birlikte Fransa'ya karşı savaştığı dönemi kapattı ve Fransa ile ilişkileri yeniden kurdu. Fransa'ya yakınlaşma, ileride İngiltere ve Rusya ile ittifaktan çıkış ve 1806-1807 savaşları anlamına gelecekti.",
   surec:"Napolyon Bonapart İtalya'yı aldı, Venedik Cumhuriyeti'nin yıkılıp paylaşılmasıyla (Ekim 1797) Fransa Adriyatik'te Osmanlı'ya komşu oldu ve 1 Temmuz 1798'de Mısır'ı işgal etti. Osmanlı Devleti Rusya'nın da içinde olduğu bir ittifaka katılarak Fransa ile savaştı (TDV selim-iii: Ocak 1799; TDV fransa: işgalden iki ay sonra). İngiliz ve Rus müttefiklerin yardımıyla Fransa Mısır'ı terk etmek zorunda kaldı. Barış, Paris büyükelçisi (Seyyid) Ali Efendi'nin gayretleriyle yapıldı.",
   hukumler:[
-    "Osmanlı ile Fransa arasındaki savaş hali sona erdi ve ilişkiler yeniden kuruldu.",
-    "(Kapitülasyonların yenilenmesi ve öteki maddeler TDV'de okunmadı.)"
+    "Osmanlı ile Fransa arasındaki savaş hali sona erdi ve ilişkiler yeniden kuruldu."
   ],
   metin:"III. Selim için barış bir iç kazanım da getirdi: Mısır'a sevk edilen az sayıdaki nizamlı askerin başarıları Nizâm-ı Cedîd'i haklı çıkarıyor görünüyordu. Aynı yıl Napolyon Avusturya'yı yendi ve İngiltere'yi de anlaşmaya zorladı. Fransa'nın güçlenmesi ve Napolyon'un imparatorluğunun Avrupa'da tanınması Osmanlı'yı da Fransa yanlısı bir siyasete itti; bu, 1806'da İngiltere ve Rusya ile savaş durumu doğurdu ve İngiliz filosu Şubat 1807'de İstanbul önlerine geldi.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1802-06-25|Paris"],
   kaynak:"TDV: fransa (Mısır işgali, İngiltere-Rusya ittifakı, 1802'de Ali Efendi'nin gayretiyle barış) · TDV: selim-iii (Venedik'in yıkılışı, Ocak 1799 ittifakı, 1802 barışı ve nizamlı askerin başarısı, 1806 savaşı, Şubat 1807)",
-  ic_not:"TDV yalnız YIL veriyor (1802); madde t:1802-06-25 gün kaynaksız. Kart `sonuc.t` '1802'. İttifakın tarihi TDV içinde iki biçimde (Eylül 1798 civarı / Ocak 1799); ikisi de yazıldı." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Kapitülasyonların yenilenmesi ve öteki maddeler TDV'de okunmadı.. TDV yalnız YIL veriyor (1802); madde t:1802-06-25 gün kaynaksız. Kart `sonuc.t` '1802'. İttifakın tarihi TDV içinde iki biçimde (Eylül 1798 civarı / Ocak 1799); ikisi de yazıldı." },
 
 // ── 1808 SENED-İ İTTİFAK ───────────────────────────────────────────────────
 { id:"antlasma4-sened-i-ittifak-1808", tur:"sebep-sonuc",
@@ -736,15 +733,14 @@ window.EKOKUMA_ANTLASMA4 = [
   surec:"Fransa'ya yakınlaşan Osmanlı, İngiltere ve Rusya ile ittifaktan çıktı ve 1806'da savaş durumu doğdu. Rusya Eflak ve Boğdan'ı işgal etti; İngiltere bu işgali destekleyip donanmanın ve Çanakkale istihkâmlarının teslimini istedi. Bâbıâli reddedince İngiliz filosu Şubat 1807'de İstanbul önlerine geldi, ama direniş kararı karşısında bir şey yapamadan çekildi. Mart 1807'de İskenderiye ve Ebûkīr'e yapılan İngiliz çıkarması da Mehmed Ali Paşa'nın kuşatmasıyla sonuçsuz kaldı. II. Mahmud döneminde İngiliz elçisi Robert Adair ile Osmanlı temsilcisi Vâhid Efendi Çanakkale'de antlaşmayı imzaladı.",
   hukumler:[
     "İngiltere ile savaş hali sona erdi.",
-    "İstanbul ve Çanakkale boğazlarından savaş gemilerinin geçişi yeniden düzenlendi.",
-    "(Ticarî imtiyazlara dair maddeler ve hükümlerin metni TDV'de okunmadı.)"
+    "İstanbul ve Çanakkale boğazlarından savaş gemilerinin geçişi yeniden düzenlendi."
   ],
   metin:"Antlaşmaya imzalandığı şehrin eski adıyla Kal'a-i Sultâniyye ya da Çanakkale Antlaşması denir. İngiltere ile savaş bitmiş olsa da Rus savaşı 28 Mayıs 1812 Bükreş Antlaşması'na kadar sürdü; Bükreş'le Besarabya kaybedildi ve Sırplara özerklik yolu açıldı.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1809-01-05|Sultâniyye"],
   kaynak:"TDV: canakkale (5 Ocak 1809, Adair ve Vâhid Efendi, savaş gemilerinin geçişi, antlaşmanın adı) · TDV: mahmud-ii--osmanli (9 Ocak 1809 Kal'a-i Sultâniyye Antlaşması'yla İngiltere savaşının sonu, Bükreş 1812) · TDV: ingiltere (1806-1807 olayları, Şubat 1807, İskenderiye çıkarması) · TDV: selim-iii (1806 savaş durumu)",
-  ic_not:"🔴 GÜN FARKI, TDV içinde: canakkale '5 Ocak 1809', mahmud-ii--osmanli '9 Ocak 1809'. Madde t:1809-01-05; kartın `sonuc.t` bilerek ay hassasiyetinde. Maddenin kisiler alanı Osmanlı imzacısını 'Mustafa Reşid' diye veriyor; TDV canakkale 'Vâhid Efendi' diyor — madde dosyası bende değil, bildirildi." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Ticarî imtiyazlara dair maddeler ve hükümlerin metni TDV'de okunmadı.. 🔴 GÜN FARKI, TDV içinde: canakkale '5 Ocak 1809', mahmud-ii--osmanli '9 Ocak 1809'. Madde t:1809-01-05; kartın `sonuc.t` bilerek ay hassasiyetinde. Maddenin kisiler alanı Osmanlı imzacısını 'Mustafa Reşid' diye veriyor; TDV canakkale 'Vâhid Efendi' diyor — madde dosyası bende değil, bildirildi." },
 
 // ── 1826 AKKİRMAN ANTLAŞMASI ───────────────────────────────────────────────
 { id:"antlasma4-akkirman-1826", tur:"sebep-sonuc",
@@ -756,15 +752,14 @@ window.EKOKUMA_ANTLASMA4 = [
   surec:"1812 Bükreş Antlaşması'yla Akkirman Rusya'ya geçmişti. 1820'lerde Yunan isyanı ve Memleketeyn meseleleriyle Osmanlı-Rus sürtüşmeleri yeniden şiddetlendi. Bu sırada II. Mahmud, 15 Haziran 1826'da son yeniçeri isyanını bahane ederek Yeniçeri Ocağı'nı kaldırdı. Antlaşma Rus tarafında M. S. Vorontsov ve Ribeaupierre (TDV'de 'A. I. Ripob'), Osmanlı tarafında Hâdi Paşa ve Köse İbrâhim Paşa tarafından Akkirman'da imzalandı.",
   hukumler:[
     "Sırbistan'ın muhtariyeti kabul edildi; Osmanlı Devleti Sırplara tanınacak hakların genişletileceğini garanti etti.",
-    "Balkanlardaki Rus nüfuzu kabul edildi.",
-    "(Eflak-Boğdan ve öteki maddeler TDV'de okunmadı.)"
+    "Balkanlardaki Rus nüfuzu kabul edildi."
   ],
   metin:"TDV'ye göre Rusya, Akkirman'da önemli haklar elde etmesine rağmen Rum meselesini bahane ederek savaş açtı; bu arada Navarin'de Osmanlı-Mısır donanması yakıldı (20 Ekim 1827). Rus orduları Edirne'ye kadar geldi ve 1829 Edirne Antlaşması'yla Sırplara bir fermanla yeni haklar tanındı; 17 Ekim 1830 imtiyaz fermanıyla Sırbistan muhtar bir prenslik oldu.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1826-10-07|Akkirman"],
   kaynak:"TDV: akkirman (1812, 1820'ler sürtüşmesi, imzacılar, Sırp muhtariyeti ve Rus nüfuzu, 7 Ekim 1826) · TDV: mahmud-ii--osmanli (15 Haziran 1826, Akkirman'ın Rusya'ya kazandırdıkları, sonraki savaş) · TDV: sirbistan (hakların genişletilmesi garantisi, 1829, 17 Ekim 1830)",
-  ic_not:"TDV akkirman Rus imzacıyı 'A. I. Ripob' diye yazıyor; madde 'Ribeaupierre'. Aynı kişi olduğu kabul edildi (yazım farkı), ayrıca doğrulanmadı." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Eflak-Boğdan ve öteki maddeler TDV'de okunmadı.. TDV akkirman Rus imzacıyı 'A. I. Ripob' diye yazıyor; madde 'Ribeaupierre'. Aynı kişi olduğu kabul edildi (yazım farkı), ayrıca doğrulanmadı." },
 
 // ── 1827 LONDRA ANTLAŞMASI → 1830 LONDRA PROTOKOLÜ ─────────────────────────
 { id:"antlasma4-londra-yunan-1827-1830", tur:"sebep-sonuc",
@@ -777,14 +772,14 @@ window.EKOKUMA_ANTLASMA4 = [
   hukumler:[
     "1827 Londra: Osmanlı Devleti'ne yıllık vergi veren bir Yunan beyliği kurulacaktı.",
     "1827 Londra (ve 1826 Petersburg): Müslümanlar bu beylikten ve adalardan çıkarılacak, mülklerini Rumlara satacaklardı.",
-    "1830 Londra Protokolü: Yunanistan bağımsız bir devlet olarak tanındı (protokolün öteki maddeleri TDV'de okunmadı)."
+    "1830 Londra Protokolü: Yunanistan bağımsız bir devlet olarak tanındı."
   ],
   metin:"Karar 1829-1832 arasındaki görüşme ve protokollerle uygulamaya kondu. Yeni devletin merkezi 1833'e kadar Anabolu'ydu, sonra Atina'ya taşındı ve eski Yunanistan'a atıfla Hellas adını aldı. TDV'ye göre bağımsız Yunan devleti, Osmanlı idaresindeki yaklaşık 2 milyonluk Rum nüfusun yarısından azını içeriyordu. Mora'daki Müslümanlar isyanın başında büyük kayıplar vermiş (Tripoliçe), İbrâhim Paşa'nın çekilmesinden sonra geride kalanlar da yok edilmişti.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1827-07-06|Londra Antlaşması","1830-02-03|Londra Protokolü"],
   kaynak:"TDV: yunanistan (Sakız yankısı, 4 Nisan 1826 Petersburg, 6 Temmuz 1827 Londra, Müslümanların çıkarılması maddesi ve değerlendirmesi, Navarin, 1828-1830, Anabolu-Atina, nüfus, Tripoliçe) · TDV: navarin (20 Ekim 1827 baskını, kayıplar) · TDV: mahmud-ii--osmanli (Navarin, Rus savaşı)",
-  ic_not:"Osmanlı iki metnin de TARAFI DEĞİL (D111 yazılı madde için geçerli; burada var olan iki çekirdek maddeye kart bağlandı, yeni madde yazılmadı). TDV yunanistan 1827 metnine de 'Londra Protokolü' diyor; çekirdek 1827 maddesi 'Londra Antlaşması', 1830 maddesi 'Londra Protokolü'. 1830 protokolünün gününü (3 Şubat) TDV vermiyor; yalnız 'Osmanlı 1830'da tanımak zorunda kaldı'. Kartın `sonuc.t`i maddenin gününü taşıyor — kaynağı madde dosyası." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: protokolün öteki maddeleri TDV'de okunmadı. Osmanlı iki metnin de TARAFI DEĞİL (D111 yazılı madde için geçerli; burada var olan iki çekirdek maddeye kart bağlandı, yeni madde yazılmadı). TDV yunanistan 1827 metnine de 'Londra Protokolü' diyor; çekirdek 1827 maddesi 'Londra Antlaşması', 1830 maddesi 'Londra Protokolü'. 1830 protokolünün gününü (3 Şubat) TDV vermiyor; yalnız 'Osmanlı 1830'da tanımak zorunda kaldı'. Kartın `sonuc.t`i maddenin gününü taşıyor — kaynağı madde dosyası." },
 
 // ── 1828 İSKENDERİYE SÖZLEŞMESİ ────────────────────────────────────────────
 { id:"antlasma4-iskenderiye-1828", tur:"sebep-sonuc",
@@ -844,15 +839,14 @@ window.EKOKUMA_ANTLASMA4 = [
   surec:"1833 Hünkâr İskelesi Antlaşması sekiz yıl için yapılmıştı. Gizli maddesiyle Rusya, askerî yardım yükünden Osmanlı'yı kurtarmak karşılığında Çanakkale Boğazı'nın kendi lehine kapatılmasını ve hiçbir yabancı savaş gemisinin geçirilmemesini kabul ettirmişti. Maddenin varlığı ve içeriği açığa çıkınca İngiltere ve Fransa Petersburg ve Bâbıâli nezdinde protestolara başladı ve donanmalarını Çanakkale önlerine gönderdi; gizli madde Mısır meselesinin sonuna kadar Avrupa'nın gündeminde kaldı. Mısır meselesi 1840 Londra Antlaşması ve 1841 fermanıyla çözülünce aynı devletler Londra'da yeniden bir araya geldi.",
   hukumler:[
     "Osmanlı Devleti'nin Boğazlar üzerindeki hâkimiyeti kabul edildi.",
-    "Yabancı savaş gemilerinin Boğazlardan geçemeyeceği esası kabul edildi.",
-    "(Barış zamanına dair istisnalar ve maddelerin tam metni TDV'de okunmadı.)"
+    "Yabancı savaş gemilerinin Boğazlardan geçemeyeceği esası kabul edildi."
   ],
   metin:"Sözleşme 13 Temmuz 1841'de Londra'da imzalandı. Kırım Savaşı sırasında 1854'te Viyana'da belirlenen dört maddelik barış programının üçüncü maddesi, 1841 Londra Boğazlar Mukavelenâmesi'nin Avrupa güçler dengesine göre değiştirilmesini öngördü; 1856 Paris Antlaşması Karadeniz'i tarafsız ve silahsız hâle getirdi.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1841-07-13|Boğazlar"],
   kaynak:"TDV: abdulmecid (13 Temmuz 1841, Boğazlar üzerindeki hâkimiyet ve savaş gemisi esası) · TDV: hunkar-iskelesi-antlasmasi (sekiz yıllık süre, gizli madde, İngiliz-Fransız protestoları) · TDV: paris-antlasmasi (1854 Viyana programının 3. maddesi)",
-  ic_not:"TDV abdulmecid imzacıları 'yine aynı devletler' diye veriyor (İngiltere, Rusya, Avusturya, Prusya); Fransa'nın 1841 sözleşmesine katılıp katılmadığı bu turda OKUNMADI — kartta imzacı listesi bilerek yazılmadı." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Barış zamanına dair istisnalar ve maddelerin tam metni TDV'de okunmadı.. TDV abdulmecid imzacıları 'yine aynı devletler' diye veriyor (İngiltere, Rusya, Avusturya, Prusya); Fransa'nın 1841 sözleşmesine katılıp katılmadığı bu turda OKUNMADI — kartta imzacı listesi bilerek yazılmadı." },
 
 // ── 1847 İKİNCİ ERZURUM ANTLAŞMASI ─────────────────────────────────────────
 { id:"antlasma4-erzurum-1847", tur:"sebep-sonuc",
@@ -888,15 +882,14 @@ window.EKOKUMA_ANTLASMA4 = [
   surec:"1848'de Eflak'ta Nicolae Bălcescu'nun önderliğinde aydınlar, Rusya'nın etkisini artırmak için kullandığı 'regulamentul organik'i kaldırıp yerine millî bir yasa koymak istediler; Rusya harekete karşı Eflak'a müdahale etti. Boğdan'da da 1848'de Yaş'ta çıkan ayaklanma Rus ordularının işgaliyle sonuçlandı. Aynı dönemde Osmanlı, Avusturya'ya karşı savaşan ve Türkiye'ye sığınan Macar mültecileri Avusturya ve Rusya'nın savaş tehditlerine rağmen iade etmedi. İki metbû devlet, Osmanlı ve Rusya, prenslikler meselesini İstanbul'da Baltalimanı'nda bir sözleşmeye bağladı.",
   hukumler:[
     "Memleketeyn meselesi Osmanlı ile Rusya arasında (geçici olarak) düzenlendi.",
-    "Boğdan mebusan meclisi lağvedildi ve prensliğe Grigore Ghica getirildi (TDV boğdan).",
-    "(Sözleşmenin süre, işgal kuvvetleri ve beylerin tayin usulüne dair maddeleri TDV'de okunmadı.)"
+    "Boğdan mebusan meclisi lağvedildi ve prensliğe Grigore Ghica getirildi (TDV boğdan)."
   ],
   metin:"TDV boğdan maddesine göre bu dönemde Memleketeyn'de millî uyanış gün geçtikçe güçleniyor ve iki prensliğin birleşmesini hedefliyordu; Boğdan'da birçok aydın bunun için çalışıyordu. Birkaç yıl sonra Kudüs'teki kutsal yerler meselesi Osmanlı ile Rusya'yı karşı karşıya getirdi; Rusya'nın isteklerini Osmanlı reddedince Rusya Eflak-Boğdan'ı işgal etti ve 4 Ekim 1853'te savaş ilân edildi.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1849-05-01|Baltalimanı"],
   kaynak:"TDV: abdulmecid (Macar mülteciler, 1 Mayıs 1849 Baltalimanı Antlaşması'yla geçici sonuç, sonraki kriz) · TDV: eflak (1848 hareketi, regulamentul organik, Rus müdahalesi) · TDV: bogdan (Yaş ayaklanması, iki metbû devlet, mebusan meclisinin lağvı, Grigore Ghica, birleşme arzusu)",
-  ic_not:"Hüküm listesi bilerek kısa — sözleşme metni okunmadı. 'Bălcescu' TDV'de 'Balçesku'." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Sözleşmenin süre, işgal kuvvetleri ve beylerin tayin usulüne dair maddeleri TDV'de okunmadı.. Hüküm listesi bilerek kısa — sözleşme metni okunmadı. 'Bălcescu' TDV'de 'Balçesku'." },
 
 // ── 1854 İNGİLTERE VE FRANSA İLE İTTİFAK ────────────────────────────────────
 { id:"antlasma4-ittifak-1854", tur:"sebep-sonuc",
@@ -907,15 +900,14 @@ window.EKOKUMA_ANTLASMA4 = [
   bag:"Önemi: Osmanlı Devleti Kırım Savaşı'nda İngiltere, Fransa ve Piyemonte ile aynı safta yer aldı. Savaş Paris Antlaşması (1856) ile bitti; müttefiklerin yardımının bedeli olarak Islahat Fermanı da (18 Şubat 1856) onların hazırlığıyla ilân edildi.",
   surec:"Kudüs'teki Katolikleri himaye için başvuran Fransa'ya karşı Rusya da Ortodoksların haklarını koruma iddiasıyla harekete geçti ve bir notayla Ortodoks Osmanlı tebaasına geniş haklar ve bunların himaye hakkının kendisine verilmesini istedi. Osmanlı reddedince Rusya Eflak-Boğdan'ı işgal etti ve Osmanlı 4 Ekim 1853'te Rusya'ya savaş ilân etti. TDV paris-antlasmasi maddesine göre çekişme bir fırsat olarak görüldü ve özellikle İngiltere'nin İstanbul'daki kıdemli elçisi Stratford de Redcliffe tarafından savaşa varacak ölçüde kullanıldı. İstanbul'da ittifak antlaşması imzalandı; İngiltere ve Fransa 27-28 Mart 1854'te Rusya'ya savaş ilân etti.",
   hukumler:[
-    "İngiltere ve Fransa, Rusya'ya karşı savaşta Osmanlı Devleti'nin yanında yer alacaktı.",
-    "(Antlaşmanın maddeleri — kuvvetlerin çekilme şartı vb. — TDV'de okunmadı.)"
+    "İngiltere ve Fransa, Rusya'ya karşı savaşta Osmanlı Devleti'nin yanında yer alacaktı."
   ],
   metin:"Eylül 1854'te müttefik kuvvetler Kırım'a çıktı ve savaşın asıl cephesi orada kuruldu; ağır kayıplı çarpışmalar ve uzun kuşatmadan sonra Sivastopol 8 Eylül 1855'te düştü. Avusturya ve Prusya tarafsız kaldı. Savaş 30 Mart 1856 Paris Antlaşması'yla sona erdi.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1854-03-12|ittifak"],
   kaynak:"TDV: abdulmecid (mukaddes makamlar, Rus notası, Eflak-Boğdan işgali, 4 Ekim 1853, müttefikler, Islahat Fermanı) · TDV: paris-antlasmasi (Stratford de Redcliffe, 27-28 Mart 1854 savaş ilânları, Eylül 1854 çıkarma, Sivastopol)",
-  ic_not:"TDV'de 12 Mart 1854 ittifak antlaşmasının kendisini anlatan bir cümle BULUNAMADI; kart savaşın bağlamını veriyor, madde günü madde dosyasından. Hüküm listesi bilerek tek madde." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Antlaşmanın maddeleri — kuvvetlerin çekilme şartı vb. — TDV'de okunmadı.. TDV'de 12 Mart 1854 ittifak antlaşmasının kendisini anlatan bir cümle BULUNAMADI; kart savaşın bağlamını veriyor, madde günü madde dosyasından. Hüküm listesi bilerek tek madde." },
 
 // ── 1913 LONDRA ANTLAŞMASI ─────────────────────────────────────────────────
 { id:"antlasma4-londra-1913", tur:"sebep-sonuc",
@@ -1013,15 +1005,14 @@ window.EKOKUMA_ANTLASMA4 = [
   surec:"İttihat ve Terakkî liderlerinin tamamı, hiçbir büyük devletin ittifak sistemine dahil edilmeyen Osmanlı'nın Alman ittifakını sağlaması gerektiğine inanıyordu; Enver Paşa bunun için görevlendirildi. İlk teklifleri Almanya'nın İstanbul büyükelçisi Hans von Wangenheim tarafından reddedildi. Avusturya-Macaristan yetkililerinin baskısıyla, Wangenheim'ın ve Şansölye Bethmann-Hollweg'in itirazlarına rağmen Kayzer II. Wilhelm'in şahsî emriyle antlaşma, Almanya'nın Rusya'ya savaş açmasının ertesi günü, Sadrazam Said Halim Paşa'nın yalısında imzalandı. Aynı gün Osmanlı genel seferberlik ilân etti.",
   hukumler:[
     "Osmanlı Devleti ile Almanya arasında gizli ittifak.",
-    "TDV'ye göre antlaşma Osmanlı'yı savaşa girmek zorunda bırakmıyordu.",
-    "(Madde metni TDV'de okunmadı.)"
+    "TDV'ye göre antlaşma Osmanlı'yı savaşa girmek zorunda bırakmıyordu."
   ],
   metin:"Osmanlı hükümeti aslında tarafsız kalmak niyetindeydi. 10 Ağustos 1914'te İngiliz donanmasından kaçan Goeben ve Breslau kruvazörleri Çanakkale'ye girip sığındı; tarafsızlık gereği Türk sularını terk etmeleri gerekiyordu ve sorun gemilerin satın alınmasıyla çözüldü. Enver Paşa'nın arkadaşlarından ayrıldığı nokta, ittifakın zorunlu kılmadığı savaşa girmeyi istemesiydi. Yavuz ve Midilli adını alan kruvazörlerle birlikte Osmanlı donanması Alman Amirali Souchon komutasında 27 Ekim'de Karadeniz'e açılıp Rus gemilerini batırdı ve Sivastopol ile Novorossiysk'i topa tuttu; Rusya 2 Kasım 1914'te savaş ilân etti. TDV said-halim-paşa maddesine göre bu saldırı sadrazamın onayı alınmadan yapıldı ve bundan sonra sadâreti göstermelik hâle geldi.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1914-08-02|ittifak"],
   kaynak:"TDV: enver-pasa (ittifak talebinin kaynağı, Wangenheim'ın reddi, Bethmann-Hollweg, II. Wilhelm'in emri, oldubitti tezinin reddi, savaşa girme meselesi) · TDV: birinci-dunya-savasi (2 Ağustos 1914, seferberlik, tarafsızlık niyeti, Goeben-Breslau, 27 Ekim, 2 Kasım 1914) · TDV: said-halim-pasa (yalıda imza, onaysız saldırı)",
-  ic_not:"TDV enver-pasa şansölyeyi 'Betmann-Hollweg' diye yazıyor; kartta yaygın yazım 'Bethmann-Hollweg' kullanıldı." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Madde metni TDV'de okunmadı.. TDV enver-pasa şansölyeyi 'Betmann-Hollweg' diye yazıyor; kartta yaygın yazım 'Bethmann-Hollweg' kullanıldı." },
 
 // ── 1918 BREST-LİTOVSK ANTLAŞMASI ───────────────────────────────────────────
 { id:"antlasma4-brest-litovsk-1918", tur:"sebep-sonuc",
@@ -1032,15 +1023,14 @@ window.EKOKUMA_ANTLASMA4 = [
   bag:"Önemi: Elviye-i Selâse meselesi kırk yıl sonra Osmanlı lehine çözüldü ve 1918 Haziranı'ndaki halk oylamasıyla katılım kesinleşti. Mondros'un 1914 sınırlarına çekilme hükmü bu kazanımı bozdu, ama Kars ve Ardahan'ın Türkiye'de kalması 1921 Moskova ve Kars antlaşmalarıyla yeniden sağlandı.",
   surec:"Ayastefanos'ta (md. 19) savaş tazminatına karşılık Rusya'ya bırakılan Kars, Ardahan ve Batum, Berlin'de (md. 58) de Rusya'ya terk edilmiş; üç yılda 120.000 kişi bölgeden göç etmişti. I. Dünya Savaşı'nda bölge Rus ordusunun ve Ermeni komitacılarının saldırılarına sahne oldu. Bolşevik İhtilâli'nden sonra Rusya savaştan çekildi ve Brest-Litovsk'ta imzaladığı antlaşmayla üç sancağı Osmanlı'ya iade etti. Ruslar çekilirken yerlerini Ermenilere bıraktığından Türk ordusu ileri harekâta geçti: Kars 25 Nisan 1918'de alındı (TDV kars: harekât 23 Nisan'da başladı), Gümrü 15 Mayıs'ta.",
   hukumler:[
-    "Rusya Kars, Ardahan ve Batum sancaklarını (Elviye-i Selâse) Osmanlı Devleti'ne iade etti.",
-    "(Antlaşmanın Osmanlı'yı ilgilendiren öteki maddeleri ve halk oylaması hükmünün metni TDV'de okunmadı; TDV oylamanın sonradan 'kararlaştırıldığını' yazıyor.)"
+    "Rusya Kars, Ardahan ve Batum sancaklarını (Elviye-i Selâse) Osmanlı Devleti'ne iade etti."
   ],
   metin:"İadeye en çok Ermeniler tepki gösterdi; Türk ordusunun duruma hâkim olmasıyla bölgede halkın serbest oyuna başvurulmasına karar verildi ve 1918 Haziranı'ndaki oylamayla katılım kesinleşti. Mondros Mütarekesi'yle (30 Ekim 1918) Osmanlı ordusu 1914 sınırlarına çekilmek ve sancakları 25 Ocak 1919'a kadar boşaltmak zorunda kaldı. Halk 5-6 Kasım 1918'de Kars İslâm Şûrası'nı kurdu, bu 1919'da Cenûb-i Garbî Kafkas Hükümeti adını aldı; İngilizler 12 Nisan 1919'da Kars'ı basıp hükümeti dağıttı ve bölgeyi Ermenilere bıraktı, Ardahan Gürcü işgaline uğradı.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1918-03-03|Brest","1918-05-25|Elviye"],
   kaynak:"TDV: elviye-i-selase (1878 terki ve maddeleri, göç, 3 Mart 1918 iadesi, Ermeni tepkisi, Haziran 1918 plebisiti, Mondros, Kars İslâm Şûrası, 12 Nisan 1919) · TDV: kazim-karabekir (25 Nisan 1918 Kars, 15 Mayıs Gümrü) · TDV: kars (23 Nisan 1918 harekât, 5 Kasım 1918 şûra)",
-  ic_not:"TDV içinde gün farkları: Kars'ın alınışı kazim-karabekir'de 25 Nisan, kars maddesinde 'ileri harekâta geçerek 23 Nisan'; Kars İslâm Şûrası elviye'de 6 Kasım, kars'ta 5 Kasım 1918. Kartta ikisi de verildi. 1918-05-25 maddesinin günü TDV'de OKUNMADI." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Antlaşmanın Osmanlı'yı ilgilendiren öteki maddeleri ve halk oylaması hükmünün metni TDV'de okunmadı; TDV oylamanın sonradan 'kararlaştırıldığını' yazıyor.. TDV içinde gün farkları: Kars'ın alınışı kazim-karabekir'de 25 Nisan, kars maddesinde 'ileri harekâta geçerek 23 Nisan'; Kars İslâm Şûrası elviye'de 6 Kasım, kars'ta 5 Kasım 1918. Kartta ikisi de verildi. 1918-05-25 maddesinin günü TDV'de OKUNMADI." },
 
 // ── 1919 AMASYA PROTOKOLÜ ──────────────────────────────────────────────────
 { id:"antlasma4-amasya-1919", tur:"sebep-sonuc",
@@ -1051,15 +1041,14 @@ window.EKOKUMA_ANTLASMA4 = [
   bag:"Önemi: TDV'ye göre bu görüşmelerde Sivas Kongresi kararları merkezî hükümetçe de tanındı. Böylece Anadolu'daki hareket, İstanbul'un karşısında bir isyan değil, devletin muhatap aldığı bir temsil organı olarak kabul görmüş oldu.",
   surec:"Sivas Kongresi bütün direniş örgütlerini Anadolu ve Rumeli Müdâfaa-i Hukuk Cemiyeti çatısında birleştirdi ve ülkeyi yönetmeye yetkili bir organ olduğunu ortaya koydu. Padişah 2 Ekim 1919'da Ali Rızâ Paşa'yı sadrazam yaparak Anadolu ile İstanbul arasındaki anlaşmazlığın giderilmesini istedi. Bahriye Nâzırı Sâlih Paşa ile Temsil Heyeti 20-22 Ekim tarihlerinde Amasya'da görüştü.",
   hukumler:[
-    "Sivas Kongresi kararları merkezî hükümetçe de tanındı.",
-    "(Protokolün maddeleri — meclisin toplanma yeri, seçimler vb. — TDV milli-mucadele maddesinde okunmadı.)"
+    "Sivas Kongresi kararları merkezî hükümetçe de tanındı."
   ],
   metin:"Aynı günlerde müttefikler Yunan işgal bölgesini 7 Ekim'de Milne hattıyla sınırladı ve 3 Kasım'da Kuvâ-yi Milliye'nin bu hattın 3 km gerisine çekilmesini istedi; Harbiye Nezareti, Kuvâ-yi Milliye'nin hükümetin emrini dinlemeyeceğini ileri sürerek teklifi reddetti.",
   kesinlik:"kesin",
   zincir:[],
   olay:["1919-10-22|Amasya"],
   kaynak:"TDV: milli-mucadele (Sivas Kongresi'nin niteliği, 2 Ekim 1919, 20-22 Ekim Amasya görüşmeleri, Sivas kararlarının tanınması, Milne hattı)",
-  ic_not:"Bir devletlerarası antlaşma değil, iç protokol; madde envanterde antlaşma etiketiyle geldi. Hüküm listesi bilerek kısa." },
+  ic_not:"OKUR METNİNDEN TAŞINDI: Protokolün maddeleri — meclisin toplanma yeri, seçimler vb. — TDV milli-mucadele maddesinde okunmadı.. Bir devletlerarası antlaşma değil, iç protokol; madde envanterde antlaşma etiketiyle geldi. Hüküm listesi bilerek kısa." },
 
 // ── 1920 GÜMRÜ ANTLAŞMASI ──────────────────────────────────────────────────
 { id:"antlasma4-gumru-1920", tur:"sebep-sonuc",
@@ -1141,6 +1130,28 @@ window.EKOKUMA_ANTLASMA4 = [
   olay:["1921-10-20|Ankara"],
   kaynak:"TDV: milli-mucadele (Sakarya, 19 Eylül, 20 Ekim 1921 Ankara Antlaşması ve hükümleri, diplomatik zafer değerlendirmesi, Ermenilerin göçü, birliklerin kaydırılması, 23 Ekim esir mübadelesi)",
   ic_not:"Hatay maddesi (TDV hatay) bir yönlendirme kütüğü döndü (0 karakter), okunmadı. Fransız imzacı Franklin-Bouillon adı TDV'nin okunan parçasında yok; kartta yazılmadı." },
+
+// ═══ DALGA-0065 · H-0009 ═════════════════════════════════════════════════
+
+// ── 1768-1774 OSMANLI-RUS SAVAŞI NİÇİN ÇIKTI? ──────────────────────────────
+{ id:"antlasma4-rus-savasi-1768-sebep", tur:"sebep-sonuc",
+  baslik:"1768-1774 Osmanlı-Rus Savaşı niçin çıktı? Lehistan meselesi ve Balta olayı",
+  kisa:"Savaş Karadeniz'de değil Lehistan'da başladı: Rusya'nın kendi adayını tahta çıkardığı bir ülkede muhalifler Osmanlı sınırına sığındı, onları kovalayan Rus kuvvetleri Kırım hanının Balta şehrini yaktı, İstanbul da Rus elçisini Yedikule'ye kapatıp savaş ilan etti.",
+  sebep:{ b:"Rusya'nın Lehistan'a müdahalesi ve Rus kuvvetlerinin Kırım hanına ait Balta şehrini zapt ve tahrip etmesi", t:"1768" },
+  sonuc:{ b:"Osmanlı Devleti'nin Rusya'ya savaş ilanı", t:"1768-10-06" },
+  bag:"Önemi: TDV'ye göre savaş haklı sebeplere dayansa da hiçbir hazırlık yapılmadan ilan edildi; sonunda Osmanlı zafiyetini bütün açıklığıyla gösterdi ve Rusya'nın büyük güç olarak ortaya çıktığını belgeledi. Küçük Kaynarca Antlaşması (1774) bu savaşın ürünüdür; savaşın sürdüğü yıllarda Lehistan da ilk kez paylaşıldı (1772).",
+  surec:"LEHİSTAN'DA RUS NÜFUZU. Lehistan'da Rusya taraftarı büyük aileler (Czartoryski) ile karşıtları (Potocki, Branicki, Krasiński, Radziwiłł) arasındaki mücadele, Stanisław August Poniatowski'nin kral seçilmesiyle sonuçlandı (TDV'ye göre 7 Ekim 1764). Çariçe II. Katerina 5 Mart 1768 antlaşmasıyla Lehistan'daki Ortodoksları himayesine aldı ve ülkenin toprak bütünlüğü ile mevcut anayasal düzenini garanti etti; TDV bunu, Katerina'nın Lehistan'ı güçlendirecek reformlara yardım etmeye niyetli olmadığının göstergesi sayar.\n\nBAR KONFEDERASYONU. Yeni kralı tanımayan muhalifler ('Patriotlar'), Osmanlı sınırına yakınlığı yüzünden özellikle seçilen Bar kasabasında 29 Şubat 1768'de konfederasyon ilan etti; Rus kuvvetlerinin müdahale ettiği bir iç savaş başladı.\n\nBALTA OLAYI. Ruslar Patriotları Osmanlı topraklarına kadar kovaladı. TDV Kırım maddesine göre Rus kuvvetleri, Leh konfederelerinin sığındığı ve Kırım hanına ait olan Balta şehrini zaptedip tahrip etti; bu, yeni bir Osmanlı-Rus savaşının sebebi oldu. Kırım hanlığı zaten tehdit altındaydı: 1760'ta Rus Kazaklarının saldırısı, Kabartay'da yeni Rus kalelerinin yapılması.\n\nİSTANBUL'DA KARAR. Sadrazam Muhsinzâde Mehmed Paşa, Rumeli kalelerinin savunmasının iyi durumda olmadığını bildiği için savaşı tehlikeli buluyor, ihtiyat istiyordu; III. Mustafa ve bazı devlet adamları ise savaş taraftarıydı. Sadrazamın karşı çıkışı acizlik sayıldı ve 7 Ağustos 1768'de görevden alındı. Yerine gelen Silâhdar Hamza Paşa, padişahın başkanlığındaki mecliste Lehistan işlerinin görüşüldüğü toplantıya katıldı: Rusya'ya Lehistan'ın iç işlerine karışmaktan vazgeçip ülkeden çıkması çağrısı yapılmasına, kabul ederse İngiltere, Danimarka, İsveç ve Prusya'nın kefil gösterilmesine, aksi hâlde savaş ilanına karar verildi. Rus elçisi Obreşkov kararın yetkisini aştığını söyleyip iki ay süre istedi; vakit kazanmak istediği düşünülerek on kişilik maiyetiyle Yedikule'ye kapatıldı ve 6 Ekim 1768'de Rusya'ya resmen savaş ilan edildi.",
+  hukumler:[
+    "Osmanlı'nın talebi: Rusya Lehistan'ın iç işlerine karışmayacak ve ülkeden askerlerini çekecekti.",
+    "Güvence önerisi: Rusya kabul ederse İngiltere, Danimarka, İsveç ve Prusya kefil olacaktı.",
+    "Ret hâlinde savaş ilan edilecekti."
+  ],
+  metin:"TDV III. Mustafa maddesine göre padişah savaşın açılmasında büyük bir sorumluluk taşır: savaştan yanaydı, ama devlet adamları ve ulema karşı çıksaydı muhtemelen ısrar etmeyecekti; son sözü söyleyen hükümdar olarak belirleyici rolünü iyi oynayamadı. Savaşın başında Kırım Giray 1769 başında Rus topraklarına başarılı bir akın yaptı; ama Rus orduları 1769'da Dinyester'i geçip Boğdan'a girdi, 1770'te Bucak'ı, 1771'de Kırım yarımadasını istila etti. Savaş sürerken Rusya, Avusturya ve Prusya Lehistan'ı ilk kez paylaştı (1772); TDV'ye göre Osmanlı'nın savaşı kötü yönetmesi bu paylaşıma imkân verdi. Savaşın sonu ve barışın şartları için Küçük Kaynarca kartlarına bakınız.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1768-10-08|Balta","1768-10-06|Rus","1768-02-29|Bar","1769-04-26|Dinyester","1774-07-21|Kaynarca"],
+  kaynak:"TDV: polonya (Rus taraftarları ve karşıtları, Poniatowski'nin seçimi, 5 Mart 1768 antlaşması, 29 Şubat 1768 Bar konfederasyonu, Rus kuvvetlerinin Osmanlı topraklarına girmesi, 6 Ekim 1768 savaş ilanı, 1772 paylaşımı) · TDV: kirim (Balta olayı, 1760 Kazak saldırısı, Kabartay kaleleri, Kırım Giray'ın 1769 akını, 1770-1771 istilalar) · TDV: muhsinzade-mehmed-pasa (sadrazamın ihtiyatı, 7 Ağustos 1768 azli) · TDV: hamza-pasa-silahdar (meclis kararı, kefil devletler, Obreşkov'un Yedikule'ye kapatılması, 6 Ekim 1768) · TDV: mustafa-iii (padişahın sorumluluğu) · TDV: kucuk-kaynarca-antlasmasi (haklı ama hazırlıksız savaş, önemi) · ilgili kartlar: ekokuma_antlasma2 sebep-sonuc-kucuk-kaynarca-1774, ekokuma antlasma-kucuk-kaynarca-1774",
+  ic_not:"DALGA-0065 H-0009. 🔴 TARİH FARKLARI, bildirildi (madde dosyaları bende değil): ① savaş ilanı — TDV polonya ve hamza-pasa-silahdar 6 Ekim 1768; çekirdek olaylar_ek5 maddesi 1768-10-08 (gun 'Ekim 1768'), kuyrukta 1768-10-06 maddeleri de var; kartın sonuc.t'si TDV'yi izliyor ve iki güne de bağlandı. TDV kucuk-kaynarca-antlasmasi ise 'Cemâziyelevvel 1182 / Eylül 1768' diyor. ② Poniatowski'nin seçimi — TDV polonya 7 Ekim 1764, kuyruk maddesi 1764-09-07; karta bağlanmadı, bildirildi. ③ Balta olayının günü TDV kirim'de YOK; sebep.t bilerek yıl hassasiyetinde." },
 
 // ═══ DALGA-0064 · H-0014 · H-0018 ════════════════════════════════════════
 
