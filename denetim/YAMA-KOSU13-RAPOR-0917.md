@@ -195,6 +195,183 @@ Son durumda üç kopya da veriyle AYNI.
 - **YENİ:** `data/olaylar_p0917kosu13.js` (5 madde) · `data/olaylar_p0917dunya.js` (11 madde). **index.html'e iki `<script>` satırı gerekiyor.**
 - **Denetim aleti:** `arac/denetle.py` (BILINEN_AYRI +2)
 
+## 8. İKİNCİ UYGULAMA — 0052 → KOSU10-KALAN → 0064 (1.MURAT M-4336 · M-4357, 17 Eylül akşamı)
+
+Hepsi tek elden, sırayla uygulandı ve her partiden sonra denetle koşuldu. Commit edilmedi.
+
+**Aletler:**
+- Uygulayıcı: `denetim/ARAC-KOSU13-UYGULA2-0917.py`
+  - Birinci neslin çok satırlı kayıt hatası giderildi: artık kaydı saran `{…}` bulunuyor.
+  - Yeni işlemler: `s~` · `isg=` · METİN kipleri `hepsi` ve `("kayit", ad)` · `KOPYA_ATLA`.
+  - Yazımdan sonra **genel kopya eşitleme** yapıyor: yazımdan önce veriyle aynı olan yer_yama kopyası yeni değere çekiliyor. Önceden farklı olan kopyaya dokunmuyor, raporluyor.
+- Paketler:
+  - `denetim/PAKET-KOSU13-0052-0917.py`
+  - `denetim/PAKET-KOSU13-KOSU10-0917.py`
+  - `denetim/PAKET-KOSU13-KOSU10B-0917.py` (Kuba)
+  - `denetim/PAKET-KOSU13-0064-0917.py`
+
+### 8.1 0052B/C/D ailesi (144 kalem)
+
+**Uygulanan kalemler:**
+- **DEVIR #1-2-3:** Kilitbahir `kur`/`d` 1463 (yıl) · madde p0036 1463 · olaylar_ek'teki anakronik iki anış çıkarıldı.
+- **DEVIR #11:** Tartu (almanya→1558 · rusya 1558-1582 · lehistan).
+- **NOKTA #1-2-7:** Göksun · Gürün · Reşadiye yeni noktaları `yerlesimler_anadolu_0914.js`'e eklendi.
+- **NOKTA #5:** Elbistan zinciri.
+- **RENK (veri) #2-12 ve #15:** Aşkale, Sarıkamış ve 9 Kars kaydının zinciri · Zigetvar 1526.
+- **Künye izni:** Aşkale ve Sarıkamış çapanın kendi künye aşımını kopyaladı, bu yüzden paket izniyle `4c` 129→130 oldu.
+
+**Karar bekleyen:**
+- **DEVIR #14:** Van 1467-11-10 mi, 1468-07-01 mi (Bitlis ile birlikte).
+
+**Devredilenler:**
+- DEVIR'in kalanı ve NOKTA'nın kalanı: KOSU10 partisine ya da 0914 paketlerine (TRAKYA · ANADOLU · ARAP · KUZEY · UZAK · KARTLI-KAHETI). Bu partide yok.
+- **C (EKODUNYA) ve D (VEZIR):** araştırma notu ya da ilgili paketlere gösterge. Somut yama yok.
+
+**RENK — `arac/renkler.py`'ye yazılmadı, 1.MURAT'a:**
+
+| Kalem | Kimlik |
+|---|---|
+| #1 · #40 | karakoyunlu |
+| #16 | novgorod |
+| #18 | sirbistan |
+| #19 | prusya |
+| #20 | gilan-kiya |
+| #21 | estonya |
+| #22 | ingiliz-kuzey-amerika |
+| #23 | komanci |
+| #24 | herero |
+| #25 | bundu |
+| #26 | aro-konfederasyonu |
+| #27 | fipa-nyakyusa |
+| #28 | svazi |
+| #29 | maliseet |
+| #30 | betsileo |
+| #31 | etowah |
+| #32 | vasulu |
+| #33 | bambara |
+| #34 | sahaptin |
+| #35 | zuni |
+| #36 | adamava |
+| #37 | bemba |
+| #38 | solima-yalunka |
+| #39 | almanya |
+
+- #17 bir UI kalemi (`js/app.js` SU_RENGI) → Oturum 1'e.
+- #13 ve #14 ölçüm/not kalemi, yazılacak bir şey yok.
+
+**Denetle:** temiz. D1 3858/324 · D2 0 açık · 2s 98 · 4c 130.
+
+### 8.2 YAMA-KOSU10-KALAN (72 uygulanabilir)
+
+**Uygulanan kalemler:**
+- **K2-BITLIS:** yer + M1/M2 maddeleri.
+- **K29-A1/A3/B1/C1:** Mâku · Gence · Berde · Eçmiyadzin · Revan.
+- **G2:** Hemedan · Burûcird · Luristan · Nihâvend (+1589 maddesi) · Kirmanşah kaynağı · Bîcâr · Sarâb · Miyâne · Selmâs · Tiflis (+1578-08-24 maddesi) · Şerur · Gümrü · Merend + Ahar (+1588-09-01 maddesi) · Mahabad · EK2 Tebriz metni.
+- **G3-A6C:**
+  - P0058B · P0076A · C0020 (+1722-11 Hacı Dâvud maddesi).
+  - **Tebriz 1725-07-28 ve 1731-11-15→1732-01-08** (+Hekimoğlu maddesi; ek5 Tebriz maddesi ve yer_yama bağı 07-28'e çekildi).
+- **Tebriz'e bağlı kayıtlar (D166 çapa kuralı):** Tebriz 07-28'e çekilince 1725-08-04 günü veride 5 kayıtta kalıyordu. Beşinin de 1725 günü "gün komşudan: Tebriz/Merâga" olduğu için **Merend · Merâga · Ahar · Mîyandoab · Mahabad aynı gün 07-28'e çekildi.** Yamada bu kalem açıkça yok.
+- **G4:**
+  - Kostayniçe 1556-07-16 · Dubrovnik · Erzincan (Y1b eretna + HALKA zinciri 1410/1422/1450/1457) · Vodina 1387 · Üsküp 1392-01-06 · Köstendil (Dejanović tâbi) · Dejanović künye kaynağı · Manisa 1415 · Zencan Timur dilimi.
+  - Yergöğü (Y7 + G5): eflak→1450, s:rusya→isg, d 1450→1829.
+  - Filistin: Nablus/Yafa/Sayda/Akkâ 1516-09-27, gün komşudan Şam. Akkâ'nın kendi kaynağı **bulunamadı**. Kudüs 1516-10-01 (ay). ek5 maddeleri yeniden yazıldı: 12-28 Amman'a daraltıldı, 12-29 padişahın gelişi oldu. Yeni 1516-10-01 maddesi eklendi.
+- **G5-RUS:**
+  - Hotin (s→isg; 1739 · 1769 · 1788 avusturya · 1806).
+  - Bender ve İsmail (s→isg + kd tek parça).
+  - Kili · Akkirman.
+  - Bükreş (1789 avusturya · 1806-12-25 · 1828-05-07).
+  - Yaş (1739 · 1828-05-07).
+  - Eflak beşi (1806 + 1828) · Roman · Birlad · Kalas (1828).
+  - Özi 1737-07-11.
+  - Maddeler: 1788 Hotin · 1789 Bükreş · 1789 Bender · 1790 Kili · 1809 İsmail · 1770 Akkirman.
+- **G6:**
+  - Malaka 1511-08-10 (asya · kademe · devletler · kronoloji_portekiz).
+  - KRON2-02/04/09/10/11/12/13: maddeler ekokuma ve savaslar bağlarıyla birlikte taşındı; eski "t KORUNDU" notlarına tarih önekli açıklama eklendi.
+  - Trablus/Bingazi/Derne işgali ve Uşi 1912-10-18.
+  - Tilimsan Merînî dilimleri ve iki kuyruk maddesi 1352.
+  - Kandiye 1669-09-06 · Derbend 1578-10-05 (madde yeniden yazıldı).
+- **G7:** Nahçıvan · Ordubad · Culfa 1586 · ek8 maddesi.
+- **Yeni maddeler (`olaylar_p0917kosu13.js`, +18):** 1387 · 1415 · 1427 · 1450 · 1516-10 · 1532 · 1534 · 1578-08-24 · 1588-09 · 1589 · 1722-11 · 1731-11-15 · 1770-10-09 · 1788-09 · 1789-11-01 · 1789-11-14 · 1790-10-24 · 1809-09-26.
+
+**Ek kalem — Kuba (KARAR İÇİN İŞARETLİ):**
+- Derbend maddesi 1578'e taşınınca Kuba'nın 1583-01-01 kazancı maddesiz kaldı (D2: 1 açık).
+- Kuba'nın kendi kaynağı yok, `m:"Derbend"`, 1583 günü Derbend'in eski gününden gelmişti. Derbend'in kaynaklı gününe, **1578-10-05'e çekildi** (`PAKET-KOSU13-KOSU10B`).
+- Seçenek: Şamahı'nın 1578-11-01 günü de olabilirdi.
+
+**Ertelenenler:**
+- **G5-KAVALALI:** `js/app.js` dosyası Oturum 1'in.
+- **G5-RUS-KUNYE:** renk ve ad kararı gerekiyor.
+- **G4-A6A-HALKA · G5-A6B-HALKA · G6-HALKA-HALKALAR:** yeni halka dosyaları ile app.js/index.html işi.
+- **Merend 1731 penceresi:** kaynak yok, yazılmadı.
+- **Hotin/Yaş 1806-01-01 ve 1806-11-30 · Roman/Birlad 1806:** G5-RUS-1806-BOGDAN kararını bekliyor.
+- Bender'in 1806-11-30'u yamanın kendi önerisi (gün komşudan: Akkirman).
+
+**Karar bekleyenler — yamanın `karar` kovası (34):**
+- **G2:** KIRMANSAH-BITIS · KURT-BANE-MERIVAN-SAKKIZ-SERDEST · KASRISIRIN · HOY · HANEKIN
+- **G3:**
+  - CIZRE-1 · KARTLI-1 · 0048-Y3
+  - **A6C-ANTLASMA:** Tebriz'in bitişi yamanın önerisiyle 1732-01-08 yazıldı; karar B çıkarsa 01-10 olur.
+- **G4:** BUDIN-1529 · DEBRECEN-K · KITA14-2-NOVI · KITA14-4-NIKARYA · A6A-Y1-KEMAH
+- **G5:** 2S-IZMIR · RUS-CEHRIN · RUS-SOLYAKA · **RUS-1806-BOGDAN** · RUS-1711-YAS · RUS-1769-BUK · RUS-1853 · FIZAN
+- **G6:**
+  - NIGBOLU · KRON2-01/08/14/15/16 · HALKA-KAYSERI-MADDE · HALKA-MARAS · HALKA-BATUM · HALKA-KANDEHAR · OHRI
+  - **KILITBAHIR:** 0052 ile 1463 (A şıkkı) uygulandı; B şıkkı 1465 olurdu.
+
+**Yamanın öteki kovaları:** bloke 16 · bildirim 28 · kapandı 5. Bunlar olduğu gibi kaldı.
+
+**Denetle:** temiz. D2 557/0 · 2s 99 · 2i 1 (Bihaç 1878, önceden vardı) · 2t 15 · 4c 130 · mükerrer 0. Akkirman maddesinin başlığı mükerrer ölçütü yüzünden ayırt edici yapıldı.
+
+**Kopya eşitleme:**
+- Paket kopyaları güncellendi: iran · tbmm · romanya · balkan_1923 · erken · gece_v3 · manda.
+- Genel eşitleme 12 alana dokundu: erken · ferhatpasa · tbmm · vassal_kid · yunananakara · zend_kacar.
+- p0035'teki Yergöğü kopyası elle eşitlendi.
+- ⚪ **`yer_yama_barka_dogu8.js`'teki Bingazi/Derne kopyası** (memlûk 1517-05-19 · Uşi 1912-10-15) önceden de veriden farklıydı, dokunulmadı.
+  - `_sahiplik_uygula` bu dosyayı OKUYOR: kuru koşuda Bingazi ve Derne "inen" listesinde.
+  - **`--yaz` ile koşarsa Sirenayka düzeltmesini ve bugünkü 10-18 gününü geri alır.** Yama bu dosyaya emekli damgası öneriyor → 1.MURAT.
+  - `_sahiplik_uygula` kuru koşusunda inen kayıt: **32** (önceki taban 56).
+
+### 8.3 DALGA-0064
+
+**BALKAN — uygulananlar:**
+- **#1 Dubica:** d 1538→1718-07-21 · 1739-09-28→1908-10-05 · s avusturya 1718-1739 · isg 1788-08-26→1791-08-04. Maddesi eklendi.
+  - ⚠️ **M-4322 K7 "Dubica dokunma" dedi.** M-4357 bu paketin 4 önerisini istedi ve 0064 yeni kaynak getiriyor (Korić 2016 · HE · Karlofça metni) → uygulandı. K7 bunu kapsıyorsa geri alınabilir: tek kayıt ve tek madde.
+- **#2 Novi:** isg 1788-10-03→1791-08-04. Maddesi eklendi.
+- **#4 Krupa:** yeni nokta (`yerlesimler_ek29.js`, `kur` 1565). 1565 maddesi eklendi.
+- **#6 Niş:** isg 1737-07-27→1737-10-16. METİN ile yazıldı; kaydın `s:` dizisi sırasız.
+
+**BALKAN — kararlar:**
+- **#3:** HE'nin yıl sapmaları. Öneri A: dokunma.
+- **#5:** Yagodina şık A (1738-08-01, gün komşudan Semendire) mı, şık B mi.
+- **#7-9:** teyit, dokunulmadı.
+
+**KARADENİZ:**
+- **Eklenen maddeler:** KR-1 1736-03-24 · KR-2 1739-12-12 · KR-5 1838 (Soçi/Tuapse).
+  - KR-2 ve KR-5 kırılmasız madde.
+- **Zaten vardı:**
+  - KR-3 ve KR-4: `olaylar_p0043kirim.js`.
+  - H-2 Anapa değişiklikleri veride: isg 1791-07-26 ve 1828-06-24 · rusya 1829→.
+- **Kararlar:**
+  - **H-1:** Maykop, Tuapse ve Soçi 1829 sonrası sahipsiz; Çerkez künyesi yok.
+  - **H-2:** 1791 günü (26 Temmuz mu, 22 Haziran mı); veride 26 Temmuz var.
+  - **H-3:** Özi'nin iadesi (1738-08-01 kaynaksız).
+  - **H-4 ve KR-6:** Kabartay künyesinin uzatılması.
+- **Değişiklik yok:** H-5 · H-6.
+
+**Son denetimler:**
+- **Denetle:** temiz. D1 3859/324 · 1b 0 · 1c 4 · D2 558/0 · 2s 98 · 2i 1 · 2t 15 · 4c 130 · 4d 356 · 7 656 · mükerrer 0. Novi maddesinin başlığı mükerrer ölçütü yüzünden ayırt edici yapıldı.
+- **renk_olc:** çıkış 0. Çakışma yalnız indor↔maratha ve bharatpur-cat↔gvalyar (Hindistan; birinci partideki ölçümle aynı). 6 yakın-ama-değmeyen · 0 görünmez.
+
+### 8.4 Değişen dosyalar — bu iki parti (commit EDİLMEDİ)
+
+- **Yerleşim:** `yerlesimler.js` · `_anadolu_0914` · `_asya` · `_ek11` · `_ek26` · `_ek28` · `_ek29` · `_kalite4` · `_ok107` · `_sinir_kuzey`
+- **Kopyalar:** `yer_yama.js` · `_balkan_1923` · `_erken` · `_ferhatpasa` · `_gece_v3` · `_iran` · `_manda_0906` · `_p0035` · `_romanya` · `_tbmm_1920_0905` · `_vassal_kid_0906` · `_yunananakara` · `_zend_kacar`
+- **Kronoloji (çekirdek):** `olaylar.js` · `_ek` · `_ek2` · `_ek5` · `_ek8` · `_ek14` · `_p0036` · `_p0917kosu13` (+26 madde)
+- **Başka oturumların dosyaları (bağ taşıma):**
+  - `savaslar.js` · `devletler.js` · `kademe_f5c9a5.js`
+  - `kronoloji_habsburg.js` · `_kuzeyafrika` · `_portekiz`
+  - `ekokuma_antlasma2.js` · `_celali` · `_ekonomi` · `_mimari` · `_savas` · `_savas3`
+- **Benim olmayan değişiklikler:** `git status`'ta görünen `arac/uret_petek.py` · `data/d_sinirlar_ortadogu.js` · `ekokuma_avusturya/baslik_oneri/kiyas/padisah/rivayet/statu/toplum/vezir` · `yerlesimler_nokta_afrika_0917.js`. Bunlara dokunmadım.
+
 ## 7. Bulunamayan / yapılmayan
 
 - **BIRINCI-DUNYA yamaları:** henüz yok.
