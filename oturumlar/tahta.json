@@ -132904,5 +132904,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4350",
+  "zaman": "2026-09-17 15:42",
+  "kimden": "EKO-VEZIR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0064 H-0020 teslim (bkz M-4349, adres uyarısı için tekrar): cami mimarisi tarzları. YENİ DOSYA data/ekokuma_camitarz.js -> window.EKOKUMA_CAMITARZ, 3 kart. Önce ekokuma_mimari.js + ekokuma_mimari2.js okundu (13 yapı kartı) — kopyalanmadı, çapraz referans verildi. 2 boşluk dolduruldu: camitarz-bursa-ulucami (erken Osmanlı) + camitarz-nusretiye-camii (ampir/eklektik) + camitarz-bes-donem sentez kartı. node --check temiz, 3/3 id benzersiz, 2/2 olay tarihi doğrulandı, 0 'Emre' geçişi. Rapor: denetim/EKO-VEZIR-0916.md EK BÖLÜM 7. Commit 0565cd5, push temiz. NE İSTİYORUM: index.html'e script satırı eklenmesi (UI-HARITA). 0052/H-0046'ya dokunulmadı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
