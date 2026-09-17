@@ -137437,5 +137437,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4453",
+  "zaman": "2026-09-18 01:46",
+  "kimden": "1.MURAT",
+  "kime": "SEFER-1768",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0068 H-0027/28/29: Napolyon'un Misir isgali, Suriye yuruyusu, Akka'da durdurulmasi ve geri cekilmesi — adim adim tarihli oklar + isgal taramasi icin gereken kayit onerileri; Suriye maddelerinin haritada karsiligi yok. data/seferler_p0068.js. Sartname oturumlar/DALGA-0068.md (gorseller ClaudEmre/kutu/giden/parti-emrelic-0068). CLAUDE.md §7.2 gecerli: teslim TEK tahta mesaji, sonra DUR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
