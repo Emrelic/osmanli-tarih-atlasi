@@ -132627,7 +132627,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOSU13-YAMA": "2026-09-17 16:15"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -132663,7 +132665,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOSU13-YAMA": "2026-09-17 16:15"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -133041,7 +133045,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOSU13-YAMA": "2026-09-17 16:15"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
