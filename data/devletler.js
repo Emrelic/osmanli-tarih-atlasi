@@ -970,6 +970,7 @@ window.DEVLETLER = [
   kaynak:"mora",
   kronoloji:[
     { t:"1349-01-01", tur:"kurulus", b:"Palaiologos hanedanı tarafından kuruldu" },
+    { t:"1446-01-01", tur:"toprak-kayip", b:"II. Murad, Hexamilion Suru'nu yararak Mora'yı yağmaladı (Aralık 1446); despotluk Osmanlı'ya haraca bağlandı", kaynak:"standart akademik/ansiklopedik (1446 Osmanlı Mora seferi) — TDV kapsam dışı bu ayrıntı için, gün DOĞRULANMADI (yıl güvenilir, ay/gün kaba)" },
     { t:"1460-05-31", tur:"son", b:"Fatih tarafından ilhak edildi" }
   ]
 },
@@ -1025,6 +1026,7 @@ window.DEVLETLER = [
   kaynak:"kibris",
   kronoloji:[
     { t:"1192-01-01", tur:"kurulus", b:"Guy de Lusignan tarafından kuruldu" },
+    { t:"1426-07-07", tur:"vassal", b:"Hirokitia Muharebesi'nde Memlük ordusu Lüzinyan kuvvetlerini yenip Kral I. Janus'u esir aldı; Kıbrıs Krallığı Memlük Sultanlığı'na yıllık haraca bağlandı", kaynak:"standart akademik/ansiklopedik (Battle of Khirokitia, 7 Temmuz 1426) — TDV kapsam dışı, gün doğrulanmalı" },
     { t:"1489-02-26", tur:"son", b:"Kraliçe Caterina Cornaro tacı Venedik'e devretti" }
   ]
 },
@@ -1100,6 +1102,7 @@ window.DEVLETLER = [
   kaynak:"azerbaycan",
   kronoloji:[
     { t:"1918-05-28", tur:"kurulus", b:"Azerbaycan Demokratik Cumhuriyeti ilan edildi" },
+    { t:"1918-09-15", tur:"toprak-kazanc", b:"Osmanlı-Azerbaycan İslâm Ordusu Bakü'yü ele geçirdi, hükûmet başkenti Bakü'ye taşıdı", kaynak:"TDV azerbaycan (aynı madde kapsamında olması beklenir, bu turda doğrudan gövdeden alıntılanmadı) — standart akademik olarak da çok iyi belgelenmiş (Bakü'nün alınışı, 15 Eylül 1918)" },
     { t:"1920-04-27", tur:"son", b:"Kızıl Ordu Bakü'yü işgal edip parlamento ve hükûmeti feshetti" }
   ]
 },
@@ -2169,6 +2172,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1709-04-21", tur:"isyan", b:"Galzaylar Safevî valisine karşı ayaklanıp Kandehar'ı ele geçirdi" },
+    { t:"1722-10-23", tur:"toprak-kazanc", b:"Mahmud Hotakî, Gülnâbâd Muharebesi'ndeki zaferin ardından İsfahan'ı kuşatıp aldı, Safevî başkentini ele geçirdi", kaynak:"standart akademik/ansiklopedik (Gulnabad Muharebesi 8 Mart 1722, İsfahan'ın düşüşü 23 Ekim 1722) — TDV kapsam dışı, gün doğrulanmalı" },
     { t:"1738-01-01", tur:"son", b:"Afşarlı Nadir Şah, Kandehar'ı geri alarak Galzay hâkimiyetine son verdi (1150)" }
   ]
 },
@@ -2450,6 +2454,7 @@ window.DEVLETLER = [
   ozet:"Pampa'nın batısında, Salinas Grandes ile Río Negro arasında yaşayan Ranquel konfederasyonu; 1725'ten sonra pampalara yerleşen Araukanya kökenli boyların en güçlüsü ve Buenos Aires sınır hattının başlıca muhatabı. Toldo yerleşimleri ve at sürülerine dayanan bir sınır ekonomisi kurdular; Arjantin devletiyle hem antlaşma hem akın ilişkisi sürdürdüler. Generaller Julio Roca ve Conrado Villegas'ın 1879-83 seferleri konfederasyonu dağıttı ve pampa yerlisinden neredeyse tümüyle boşaltıldı. Kütük halkı ADIYLA değil TASVİRİYLE anıyor ('the Indian confederates'); kimlik o tasvirden türetildi ve bitiş yılı seferlerin sona erdiği 1883'tür, GÜN bilinmiyor.",
   kaynak:"Cooper, Handbook of South American Indians c.1 (Smithsonian BAE Bulletin 143): \"The period came to an end with the military campaigns under Generals Julio Roca and Conrado Villegas in 1879-83, which completely defeated and disorganized the Indian confederates, cleared the Pampa region almost entirely of its Indian inhabitants ... Recent period, 1883 to date.\" ⚠️ Kütük \"Ranquel\" adını KULLANMIYOR, \"the Indian confederates\" diyor — kimlik TASVİRDEN türetildi. GÜN bilinmiyor; 1883 seferlerin BİTİŞ yılıdır. ⚠️ f:1281-01-01 ATLAS UFKUDUR, kuruluş yılı DEĞİLDİR. TDV'de ayrı madde yoktur; Handbook of South American Indians (Julian H. Steward ed., Smithsonian Institution, Bureau of American Ethnology, Bulletin 143) esas alınmıştır.",
   kronoloji:[
+          { t:"1872-01-01", tur:"antlasma", b:"General Arredondo'nun Lebuco tolderialarini yakmasinin ardindan bes aylik muzakereler sonunda, Ranquel reisleri (Mariano Rosas, Baigorrita, Epumer Rosas, Yanquetruz) ile Arjantin ulusal hukumeti arasinda yeni bir baris antlasmasi imzalandi.", kaynak:"SciELO Argentina (hakemli), 'El frustrado proyecto de avance territorial del estado nacional entre 1869 y 1872', Quinto Sol" },
           { t:"1879-01-01", tur:"son", b:"Col Fethi son buyuk yerli direnisini kirdi", kaynak:"EB-AR/PAT — AYNEN: «…a campaign known as the Conquest of the Desert, which ended in 1879 with the smashing of the last major Indian resistance. Argentines, Chileans, and Europeans began to colonize Patagonia, with soldiers and financial contributors to the Indian wars receiving large land grants»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.  🔴 KUNYE ILE AYRISIYOR: kunyenin t: degeri 1883, kaynak 1879 diyor. Kunye DEGISTIRILMEDI, fark koordinatore BILDIRILDI.  ⚠️ KAYNAGIN PROVENANSI: bu alinti Britannica'nin 'Conquest of the Desert' SAYFASINDA gorunuyor, ama o sayfanin ozeti YAPAY ZEKA URETIMI oldugunu KENDISI YAZIYOR ve olcutun kirmizi cizgisi YZ metnini YASAKLIYOR. Alintiladigim bolum sayfanin YZ ozeti DEGIL, altinda kaynak olarak gosterilen GERCEK Britannica 'Argentina / Patagonia' maddesinden yapilan aynen aktarmadir." }
         ]
 },
@@ -2476,6 +2481,7 @@ window.DEVLETLER = [
   ozet:"Amazon ağzındaki Marajó adası ile çevresindeki Caviana ve Mexiana adalarında yaşayan Aruã; temas döneminin Marajó halkı ve kano ustalığıyla tanınan bir Karib topluluğu. Portekiz kayıtlarına 1643'te girdiler, 1659'da Mapuá deresinde şef Piye öncülüğünde barış yaptılar, 1701'de üç köyleri sayıldı ve 1793'te Chaves'ten aşağı Tocantins'e sürüldüler. Son Aruã toplulukları 1834-36 Cabanagem ayaklanmasının ardından ortadan kalktı. ⚠️ Bu künye MARAJOARA HÖYÜK KÜLTÜRÜ DEĞİLDİR: o kültür atlas penceresinden önce sönmüş arkeolojik bir evredir; Aruã temas döneminin halkıdır. Bitiş '1834-36' aralığı ve 'probably' kaydıyla verildiği için aralığın son ucu alınmıştır.",
   kaynak:"Métraux, HSAI c.3: \"Rebordello counted 279 Indians in 1816, but the last Aruã of Marajó and neighboring islands disappeared, probably in consequence of the revolt of the Cabanos, 1834-36.\" Ayrıca: 1643 Marajó tarihine ilk giriş, 1659 Mapuá barışı (şef Piye), 1701 üç köy, 1793 Chaves'ten Tocantins'e nakil. ⚠️ t: YUVARLAK: kaynak \"1834-36\" aralığı ve \"probably\" diyor. Aralığın SON ucu alındı. ⚠️ f:1281-01-01 ATLAS UFKUDUR, kuruluş yılı DEĞİLDİR. TDV'de ayrı madde yoktur; Handbook of South American Indians (Julian H. Steward ed., Smithsonian Institution, Bureau of American Ethnology, Bulletin 143) esas alınmıştır.",
   kronoloji:[
+    { t:"1725-01-01", tur:"savas", b:"Fransizlar, Mexiana adasi yerlilerinin lideri Gaaimara ile birlikte 1725-1728 arasinda Arua topluluklarina tekrar tekrar saldirdi; Arualar bu donemde zaman zaman Portekizlilere karsi Fransiz seferlerine de katildi.", kaynak:"'Os aruã: políticas indígenas e políticas indigenistas na amazônia portuguesa (século XVII/XVIII)', Revista Brasileira de História & Ciências Sociais (hakemli akademik dergi)" },
     { t:"1836-01-01", tur:"son", b:"Cabanagem ayaklanmasının ardından Marajó ve çevre adalarındaki son Aruã toplulukları ortadan kalktı", kaynak:"Métraux, Handbook of South American Indians c.3 (Steward ed., Smithsonian, BAE Bulletin 143) — AYNEN: «Rebordello counted 279 Indians in 1816, but the last Aruã of Marajó and neighboring islands disappeared, probably in consequence of the revolt of the Cabanos, 1834-36.» 🔴 KAYNAK HEM ARALIK HEM ŞÜPHE TAŞIYOR: «1834-36» ve «probably». Künye aralığın SON ucunu almış. 🟡 DEVRALDIM. 🔴 GÜN YOK." }
   ]
 },
@@ -2964,6 +2970,7 @@ window.DEVLETLER = [
   kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: Râbih dönemi 1878-1900. Bornu'yu 1893'te aldı, Kusseri'de 1900'de öldürüldü.",
   kronoloji:[
     { t:"1893-01-01", tur:"kurulus", b:"Râbih Bornu'yu ele geçirdi" },
+    { t:"1893-01-01", tur:"toprak-kazanc", b:"Rabih b.Zubeyr, Bagirmi Sultani Abdurrahman Gwaranga'ya saldirdi; Gwaranga'yi Manjaffa'da 3-5 ay kusattiktan sonra Mart 1893'te baskenti tahrip ederek Bagirmi Sultanligini topraklarina katti.", kaynak:"Encyclopaedia Britannica 'Rabih az-Zubayr' (WebSearch ozeti)" },
     { t:"1900-04-22", tur:"son", b:"Kusseri'de Fransızlara yenilip öldürüldü" }
   ]
 },
@@ -2992,6 +2999,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Avungara hânedanının Ubangi-Uele sultanlıkları (Bangassu · Rafai · Zemio · Obo). 🔴 Bu kimliğin YOKLUĞU veride ZATEN kayıtlı: birden çok `kasitli_bosluk` kaydının `neden:` alanı 'zende kimliği yok' diyor.",
   kronoloji:[
     { t:"1750-01-01", tur:"kurulus", b:"Avungara sultanlıkları teşekkül etti" },
+    { t:"1894-05-12", tur:"bolunme", b:"12 Mayis 1894 Anglo-Kongo Antlasmasi, Bahrulgazal havzasini (Zande sultanliklarinin bulundugu bolge) somurge gucleri arasinda paylastirma surecini baslatti; Zande sultanliklari Ingiliz Sudani, Belcika Kongosu ve Fransiz Ekvatoral Afrikasi arasinda bolundu.", kaynak:"Encyclopaedia Britannica 'Lado Enclave' (antlasma tarihi) + HAU: Journal of Ethnographic Theory c.14 s.3 (University of Chicago Press, hakemli) — WebSearch ozeti" },
     { t:"1912-01-01", tur:"son", b:"Fransız-Belçika paylaşımıyla sona erdi" }
   ]
 },
@@ -3032,6 +3040,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. İmbangala krallığı; Kvango vadisi.",
   kronoloji:[
     { t:"1620-01-01", tur:"kurulus", b:"İmbangala Kasance krallığını kurdu" },
+    { t:"1850-01-01", tur:"savas", b:"Ticaret yollarinin Kasanje'yi atlayacak sekilde degismesiyle cikan anlazmazlik 1850'de Kasanje Kralligi ile Portekiz Angolasi arasinda savasa yol acti; Binbasi Francisco de Salles Ferreira komutasindaki Portekiz seferi gonderildi.", kaynak:"Encyclopaedia Britannica 'Kasanje' (WebSearch ozeti, 403); cagdas birincil kaynak basligi dogrulandi: 'Memória da expedição a Cassange... 1850'" },
     { t:"1910-01-01", tur:"son", b:"Portekiz Angola idaresine katıldı" }
   ]
 },
@@ -3260,6 +3269,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Msiri'nin Katanga devleti; merkezi Bunkeya; Msiri 1891'de öldürüldü.",
   kronoloji:[
     { t:"1856-01-01", tur:"kurulus", b:"Msiri Yeke devletini kurdu" },
+    { t:"1870-01-01", tur:"toprak-kazanc", b:"Msiri, ~1870'te guney Katanga'daki bakir bolgesinin buyuk kismini, onceden hakim olan Lunda hukumdarlarindan ele gecirdi.", kaynak:"Encyclopaedia Britannica 'Msiri' (WebSearch ozeti, 403)" },
     { t:"1891-12-20", tur:"son", b:"Msiri öldürüldü, devlet dağıldı" }
   ]
 },
@@ -3942,6 +3952,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: Wayám'da balıkçılık mevkileri AİLE VE KÖY DÜZEYİNDE MÜLK sayılırdı ve kaynak bu denetimi ayrıntısıyla anlatır — 'şu bölgede yaşarlardı'nın tam tersi. 🟡 t: 1855-01-01 — 1855 Walla Walla antlaşmaları birkaç gün içinde AYRI AYRI imzalandı ve Celilo'yu kapsayan belgenin günü doğrulanmadı; §4 gereği YYYY-01-01. Uydurma gün yazmadım.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Wayám ve Sahaptin köyleri orta Columbia'da", ic_not_b:"eski b: Wayám ve Sahaptin köyleri orta Columbia'da (atlas ufku)" },
+    { t:"1847-11-29", tur:"savas", b:"Cayuse'larin Whitman Misyonu'na saldirisi (Whitman Katliami), Cayuse Savasi'ni baslatti; 1848'de Umatilla savascilari da katildi, savas 1850'ye kadar surdu.", kaynak:"HistoryLink.org (Washington State tarih kurumu) + Oregon Encyclopedia (Oregon Historical Society), 'Cayuse Indian War (1847-1855)'" },
     { t:"1855-01-01", tur:"antlasma", b:"Walla Walla antlaşma kuşağı" }
   ]
 },
@@ -6734,6 +6745,7 @@ window.DEVLETLER = [
   kaynak:"panthay",
   kronoloji:[
     { t:"1855-01-01", tur:"kurulus", b:"Du Wenxiu (Sultan Süleyman) Dali'yi ele geçirip sultanlığın merkezi yaptı" },
+    { t:"1868-01-01", tur:"toprak-kazanc", b:"Pingnan Devleti'nin (Du Wenxiu) en genis sinirlarina ulastigi 1860-1868 doneminde kirk kasaba ve yuz koy ele gecirildi/tahrip edildi; Tengyue (Momein) gibi sehirlerde valilikler kuruldu.", kaynak:"John Anderson, E.B.Sladen, H.A.Browne, Mandalay to Momien (Macmillan, 1876) — cagdas Ingiliz heyet anlatisi, modern akademik literaturun (Atwill 2005) dayandigi birincil kaynak. Sladen heyeti Momein'i Mayis-Temmuz 1868'de ziyaret etti, sehri Pingnan valiligi altinda buldu" },
     { t:"1873-01-15", tur:"son", b:"Mançu-Han orduları on sekiz yıllık kuşatmanın ardından Dali'yi aldı" }
   ]
 },
@@ -6936,7 +6948,8 @@ window.DEVLETLER = [
   kaynak:"Mevcut 'gran-kolombiya' künyesinin t: tarihiyle BİREBİR hizalandı. NOT: bu tek künye 1831-1858 'Yeni Granada', 1863-1886 'Kolombiya Birleşik Devletleri', 1886 sonrası 'Kolombiya Cumhuriyeti' adlarını taşıyan SÜREKLİ siyasî hat — ayrım istenirse söyle.",
   kronoloji:[
           { t:"1831-01-01", tur:"kurulus", b:"Gran Kolombiya'dan geriye kalan kisim Yeni Granada adiyla devam etti", kaynak:"TDV-AM — AYNEN: «geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti. Bu tarihte de cumhuriyet ilan edilerek Kolombiya adini aldi»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor ve KUNYE ILE AYRISIYOR — TDV'ye gore 'Kolombiya' adi 1863'te alindi, kunyenin f: degeri ise 1831-01-01 (birligin dagildigi an). Kunye gunu korundu, ayrim burada YAZILI." },
-          { t:"1903-11-03", tur:"toprak-kayip", b:"Panama, ABD desteğiyle Kolombiya'dan ayrılarak bağımsızlığını ilan etti; Kolombiya Panama Kıstağı'nı kalıcı olarak kaybetti.", kaynak:"Encyclopaedia Britannica ile örtüşen WebSearch + Wikipedia 'Secession of Panama from Colombia' — teyitli" }
+          { t:"1903-11-03", tur:"toprak-kayip", b:"Panama, ABD desteğiyle Kolombiya'dan ayrılarak bağımsızlığını ilan etti; Kolombiya Panama Kıstağı'nı kalıcı olarak kaybetti.", kaynak:"Encyclopaedia Britannica ile örtüşen WebSearch + Wikipedia 'Secession of Panama from Colombia' — teyitli" },
+          { t:"1922-03-24", tur:"toprak-kazanc", b:"Kolombiya ile Peru arasinda imzalanan Salomon-Lozano Antlasmasi ile Putumayo ve Amazon nehirleri arasindaki, Leticia limanini iceren koridor Kolombiya'ya birakildi, Amazon nehrine dogrudan cikis saglandi.", kaynak:"'Salomón-Lozano Treaty (1922)', Encyclopedia.com (Encyclopedia of Latin American History and Culture, Charles Scribner's Sons/Gale)" }
         ]
 },
 { id:"brezilya-cumhuriyeti", ad:"Brezilya Birleşik Devletleri Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
@@ -7010,6 +7023,8 @@ window.DEVLETLER = [
   ozet:"Güneydoğu Kuzey Amerika'nın Appalaş kuşağında, kendi meclisi ve yönetimiyle işleyen siyasî yapı. Künyenin bitişi, 1791 Holston Antlaşması'yla ABD himayesinin tanınmasıdır.",
   kaynak:"Standart akademik — kesin kuruluş tarihi yok (Büyük Göller'den güneydoğuya göç, zaman içinde), atlas ufku 1281'e hizalandı. Bitiş: Holston Antlaşması (nokta verisinde zaten bu tarih kullanılıyor).",
   kronoloji:[
+    { t:"1777-07-20", tur:"antlasma", b:"Holston Irmagi'ndaki Long Island'da imzalanan antlasmayla Overhill Cherokee'leri Mavi Sirt Daglari'nin dogusundaki topraklarini terk etti.", kaynak:"Encyclopaedia Britannica, 'Treaty of Long Island of Holston (American Revolution) [1777]'" },
+    { t:"1785-11-28", tur:"antlasma", b:"Hopewell Antlasmasi, Cherokee'lerin Fransiz Broad ve Holston nehirleri boyunca uzanan genis toprak parcalarini ABD'ye birakmasini sagladi.", kaynak:"Treaty with the Cherokee, 1785 (Kappler's Indian Affairs: Laws and Treaties, Oklahoma State University resmi antlasma arsivi)" },
     { t:"1791-07-02", tur:"antlasma", b:"Holston Antlaşması imzalandı, Cherokee Ulusu ABD himayesini tanıdı", kaynak:"🟡 GÜN KÜNYENİN KENDİ `t:` ALANINDAN DEVRALINDI ve künyenin kaynak alanı bunun için bağımsız bir dayanak GÖSTERMİYOR («nokta verisinde zaten bu tarih kullanılıyor» diyor). TARAFIMDAN DOĞRULANMADI — Holston Antlaşması'nın günü için akademik/birincil kaynak aranmalı." },
     { t:"1776-01-01", tur:"savas", b:"Cherokee-Amerikan Savaşları (Chickamauga Savaşları) başladı: genç savaşçılar Dragging Canoe önderliğinde yaşlı şeflerden ayrılıp Chickamauga Cherokee grubunu oluşturdu", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Cherokee-American wars') doğrulandı." }
   ]
@@ -7083,6 +7098,7 @@ window.DEVLETLER = [
   ozet:"Peru'nun kuzey kıyısında, kerpiç başkenti Chan Chan ile bilinen krallık; İnka tarafından ilhak edildi.",
   kaynak:"World History Encyclopedia, 'Chimu Civilization' — devlet 14.yy ilk yarısında şekillendi (bazı kaynaklar ~850 diyor, ANLAŞMAZLIK VAR), atlas ufku 1281'e hizalandı. Bitiş: İnka fethi 1460-1470 arası, VERİYLE ÖRTÜŞÜYOR (veri t:1470).",
   kronoloji:[
+          { t:"1370-01-01", tur:"toprak-kazanc", b:"Chimu hükümdarı Nancinpinco, Chimor vadisinin yukarı kesimini ve komşu Saña, Pacasmayo, Chicama, Virú, Chao ve Santa vadilerini fethederek krallığın topraklarını genişletti.", kaynak:"John Howland Rowe, 'The Kingdom of Chimor', Acta Americana 6 (1948), s.26-59 — hükümdar-yıl oranına dayanarak ~1370'e tarihliyor" },
           { t:"1470-01-01", tur:"son", b:"Chimu, Pachacuti Inca Yupanqui doneminde Inka'ya tabi kilindi", kaynak:"EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin and north to present-day Quito, making subject peoples of the powerful Chanca, the Quechua, and the Chimú»  ⚠️ TARIH HASSASIYETI: kaynak bir ARALIK veriyor (1438-71), tek yil VERMIYOR. Tarih kunyenin kendi t: degeridir (1470) ve o aralik icindedir, ama kaynaktan DOGRULANMADI." },
           { t:"1470-01-01", tur:"vassal", b:"İnka İmparatoru Tupac İnka Yupanki, Chimor Krallığı'nı fethetti; kral Minchançaman esir alınıp Cuzco'ya götürüldü, Chimú İnka'ya bağlı vasal devlete dönüştü.", kaynak:"Encyclopedia.com 'Chimú' — doğrudan WebFetch ile okundu ve teyit edildi" }
         ]
@@ -7092,6 +7108,7 @@ window.DEVLETLER = [
   ozet:"Titicaca gölünün kuzeyinde Aymara konuşan krallık; İnka genişlemesiyle sona erdi.",
   kaynak:"Standart akademik — 12.yy'dan 15.yy ortasına kadar var oldu (Tiwanaku-sonrası Titicaca bölgesi), atlas ufku 1281'e hizalandı. VERİYLE BİREBIR ÖRTÜŞÜYOR.",
   kronoloji:[
+          { t:"1430-01-01", tur:"savas", b:"Viracocha Inka'nin gizlice Lupaqa lideri Cari ile ittifak kurmasi uzerine Colla hukumdari, Inka yardimi ulasmadan Lupaqalari Paucarcolla yakininda saldirdi; Colla ordusu bu savasta yenilgiye ugradi.", kaynak:"Maria Rostworowski, History of the Inca Realm (cev. Iceland), Cambridge University Press, 1999, s.68-69" },
           { t:"1450-01-01", tur:"son", b:"Titicaca Havzasi Pachacuti doneminde Inka fethine ugradi", kaynak:"EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin»  🔴 KAYNAK 'Colla' ADINI ANMIYOR. Titicaca Havzasi ile Colla krallıgi arasindaki bag BENIM CIKARIMIMDIR, kaynakta yazmiyor. Tarih (1450) kunyenin kendi t: degeridir; kaynak yalniz 1438-71 araligi veriyor." },
           { t:"1450-01-01", tur:"isgal", b:"İnka hükümdarı Pachacuti, Colla Krallığı'nı fethetti; Colla beyi Chuqui Capac Hatunqulla yakınında yenilip esir alındı.", kaynak:"Rostworowski, María (2001), 'Pachacútec Inca Yupanqui', Instituto de Estudios Peruanos, ss.156-159, 93-94, 101 (Wikipedia atfı üzerinden doğrulandı)" }
         ]
@@ -7101,6 +7118,7 @@ window.DEVLETLER = [
   ozet:"Titicaca gölünün batı kıyısında Aymara konuşan siyasî merkez; kesin kuruluş tarihi bulunamadı, künye verinin kullandığı aralığa dayanır.",
   kaynak:"Britannica, 'Lupaca' + Diálogo Andino (akademik dergi makalesi, 'El Reino Lupaqa: Articulación') — Titicaca gölü kıyısında Aymara konuşan siyasî merkez, kesin kuruluş tarihi bulunamadı. VERİYLE BİREBİR ÖRTÜŞÜYOR.",
   kronoloji:[
+          { t:"1430-01-01", tur:"savas", b:"Lupaqa lideri Cari, Inka hukumdari Viracocha ile gizli ittifaki sayesinde Paucarcolla yakininda saldiran Colla ordusunu yenilgiye ugratti; bu zafer Lupaqalari Titicaca havzasinin onde gelen siyasi gucu konumuna tasidi.", kaynak:"Maria Rostworowski, History of the Inca Realm, Cambridge University Press, 1999, s.68-69" },
           { t:"1450-01-01", tur:"son", b:"Titicaca Havzasi Pachacuti doneminde Inka fethine ugradi", kaynak:"EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin»  🔴 KAYNAK 'Lupaqa' ADINI ANMIYOR. Bag BENIM CIKARIMIMDIR. Tarih (1450) kunyenin kendi t: degeridir; kaynak yalniz 1438-71 araligi veriyor." }
         ]
 },
@@ -7127,6 +7145,7 @@ window.DEVLETLER = [
   ozet:"Bogotá yaylasında zipa ve zaque önderliğindeki iki büyük beyliğin oluşturduğu birlik; İspanyol fethiyle sona erdi.",
   kaynak:"World History Encyclopedia, 'Muisca Civilization' — ~800 CE'de Cundiboyacense yaylasında oluştu, atlas ufku 1281'e hizalandı. Bitiş: İspanyol fethi 1537-1540 (Military History Wiki 'Spanish conquest of the Muisca'), VERİYLE ÖRTÜŞÜYOR.",
   kronoloji:[
+          { t:"1490-01-01", tur:"savas", b:"Bacata (Bogota) zipasi Saguamanchica'nin guney Muisca gucleri ile Hunza (Tunja) zaquesi Michua'nin kuzey Muisca gucleri Choconta'da carpisti; her iki lider de oldu, zipazgo galip geldi.", kaynak:"Lucas Fernandez de Piedrahita, Historia General de las Conquistas del Nuevo Reyno de Granada (1676) — Muisca tarihi akademik literaturunde (Langebaek) zipa-zaque savaslarinin temel kronigi" },
           { t:"1536-01-01", tur:"savas", b:"Quesada 900 kisilik seferi Magdalena boyunca Chibcha ulkesine surdu", kaynak:"EB-GJQ — AYNEN: «The following year, although he had no military experience, Quesada led an expedition of 900 men up the Magdalena River into the interior of New Granada»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1535'in ertesi = 1536), GUN VE AY BULUNAMADI." },
           { t:"1537-01-01", tur:"son", b:"Quesada'nin seferi Chibcha (Muisca) siyasi yapisini cokertti", kaynak:"EB-GJQ — AYNEN: «the expedition succeeded in penetrating the great central plain of Colombia—the land of the Chibcha Indians … The ruler of the Chibchas, the Zipa of Bogotá, fled as Quesada's army approached, and the conquest appeared to be accomplished. Toward the end of 1538, however, two rival conquistadores … challenged Quesada's claim»  ⚠️ TARIH HASSASIYETI: kaynak GUN VERMIYOR; sefer 1536'da basladi, sekiz ay surdu ve 1538 sonunda rakipler geldi ⇒ fetih 1537 civari. Kunyenin t: degeri 1537-08-01; GUN kaynaktan DOGRULANMADI." }
         ]
@@ -7147,6 +7166,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — ilk taslakta 'World History Encyclopedia + Study.com' vardı; `Study.com` ticarî ödev sitesidir ve KIRMIZI ÇİZGİ gereği DÜŞÜRÜLDÜ, WHE ise tek dayanak olamaz. Tarihin dayanağı DURUYOR: f:/t: bağlı verinin kullandığı aralığa (1300 / 1530-02-14 İspanyol fethi) hizalandı. Akademik kaynak ARANACAK.",
   kronoloji:[
           { t:"1300-01-01", tur:"kurulus", b:"Tarasko beyi Tariácuri, Pátzcuaro Gölü havzasındaki dağınık Purépecha topluluklarını birleştirmeye başladı; süreç 14.yy ortasına kadar sürdü.", kaynak:"Pollard, Helen Perlstein (1993), Taríacuri's Legacy: The Prehispanic Tarascan State, University of Oklahoma Press — kitap doğrudan açılamadı (PDF 403), varlığı/yayıncısı WorldCat/Internet Archive ile doğrulandı" },
+          { t:"1478-01-01", tur:"savas", b:"Aztek hukumdari Axayacatl'in ~32.000 kisilik ordusu, Taximaroa'da Purepecha kuvvetlerince agir yenilgiye ugratildi; bu zafer Purepecha topraklarina yonelik Aztek istilasini durdurdu.", kaynak:"Ross Hassig, Aztec Warfare: Imperial Expansion and Political Control, University of Oklahoma Press, 1988; ayrica Helen Perlstein Pollard, Tariacuri's Legacy: The Prehispanic Tarascan State, University of Oklahoma Press, 1993" },
           { t:"1530-01-01", tur:"son", b:"Son irecha Tzintzicha Tangaxuan, Nuño de Guzmán'ın yargılaması sonunda idam edildi ve bağımsız Purépecha yönetimi sona erdi", kaynak:"BİRİNCİL KAYNAK NEŞRİ — «Proceso contra Tzintzicha Tangaxoan el Caltzontzin formado por Nuño de Guzmán, Año de 1530», yay. haz. France V. Scholes & Eleanor B. Adams, México: Porrúa y Obregón, 1952. Neşrin KENDİ BAŞLIĞI yargılamayı «Año de 1530» diye tarihliyor. 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Künyedeki 1530-02-14 GÜNÜ bu kaynakta YOK ve doğrulanmadı. 🟡 İkincil bir özet 1529 diyordu; birincil neşrin başlığı 1530 diyor — 1529'u ÇÜRÜTMÜYORUM (iki gövdeyi de okumadım), yalnız künyenin yılını DESTEKLEYEN dayanağı kayda geçiriyorum." }
         ]
 },
@@ -7455,6 +7475,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV kapsam dışı (bu spesifik siyasi yapı için doğrudan aranmadı, ama Fas'ın modern direniş tarihinin TDV'de zayıf kaldığı `§4`'te zaten belgeli). Britannica, 'Republic of the Rif' (place madde).",
   kronoloji:[
     { t:"1923-02-01", tur:"kurulus", b:"Abdülkerim el-Hattabi liderliğinde Rif Cumhuriyeti ilan edildi (Şubat 1923, gün bilinmiyor).", kaynak:"Encyclopaedia Britannica 'Republic of the Rif' — WebSearch özetinden (403)" },
+    { t:"1924-11-15", tur:"toprak-kazanc", b:"İspanyol kuvvetlerinin Şevan (Xauen) bölgesinden çekilmesiyle (15 Kasım-13 Aralık 1924) boşalan geniş alan Rif kontrolüne geçti.", kaynak:"RUHM — Revista Universitaria de Historia Militar, 'Hacia el fin de la pesadilla: La retirada de Xauen...' (ruhm.es) — hakemli akademik dergi makalesi" },
+    { t:"1925-04-12", tur:"toprak-kazanc", b:"Abdülkerim el-Hattâbî'nin kuvvetleri Fransız Fas'ına (Ouergha vadisi hattı) saldırıya geçti, çok sayıda Fransız karakolunu ele geçirdi.", kaynak:"bulunamadı (Britannica 403) — DTIC raporu 'France and the Rif War' ile teyitli, doğrudan okunmadı" },
     { t:"1926-05-01", tur:"son", b:"Ortak Fransız-İspanyol harekâtı sonucu Abdülkerim el-Hattabi teslim oldu (Mayıs 1926, gün net değil — bazı kaynaklar 27 Mayıs der) ve sürgüne gönderildi.", kaynak:"Encyclopaedia Britannica 'Abd el-Krim' — WebSearch özetinden (403)" }
   ] },
 { id:"ingiliz-guyanasi", ad:"İngiliz Guyanası", bolge:"guney-amerika", f:"1831-01-01", t:"1966-05-26",
@@ -7462,18 +7484,24 @@ window.DEVLETLER = [
   kaynak:"standart akademik/ansiklopedik (Britannica 'Guyana' maddesi, tarihçe bölümü) — İKİNCİ kaynakla eşleşmedi, TEK kaynaklı",
   kronoloji:[
     { t:"1831-03-04", tur:"kurulus", b:"IV. William, Essequibo-Demerara ve Berbice sömürgelerini birleştirip İngiliz Guyanası kolonisini kuran bir Kraliyet Buyruğu yayımladı; ilk vali Benjamin D'Urban oldu.", kaynak:"guyananews.org, 'The Beginning of British Guiana' (chapter 37) — doğrudan doğrulandı" },
+    { t:"1899-10-03", tur:"antlasma", b:"Paris'teki Anglo-Venezuela Hakemlik Mahkemesi, Venezuela-Ingiliz Guyanasi Essequibo sinir anlazmasini karara bagladi; tartismali bolgenin buyuk kismi Ingiliz Guyanasi'na birakildi.", kaynak:"Arbitral Award of 3 October 1899 (Guyana v. Venezuela), ICJ dava kaydi (icj-cij.org/case/171)" },
     { t:"1966-05-26", tur:"son", b:"Guyana Bağımsızlık Yasası (1966) yürürlüğe girdi; koloni 'Guyana' adını aldı.", kaynak:"Guyana Independence Act 1966, legislation.gov.uk (İngiliz resmî mevzuat metni, doğrudan okundu)" }
   ] },
 { id:"hollanda-guyanasi", ad:"Hollanda Guyanası (Surinam)", bolge:"guney-amerika", f:"1667-01-01", t:"1975-11-25",
   ozet:"1667 Breda Antlaşması'yla Hollanda'ya geçen, 1954'e kadar (site ufkunun dışında) sömürge statüsünde kalan Güney Amerika toprağı.",
   kaynak:"standart akademik/ansiklopedik — TEK kaynaklı, ikinci kaynakla eşleşmedi",
   kronoloji:[
+    { t:"1814-08-13", tur:"toprak-kayip", b:"Londra Sozlesmesi (Anglo-Dutch Convention 1814), Berbice/Demerara/Essequibo kolonilerinin Ingiltere'ye kalici devrini onayladi; Hollanda Guyanasi bu uc bolgeyi kalici kaybetti.", kaynak:"Anglo-Dutch Convention of 13 August 1814 — Sovereign Limits, 'Guyana-Suriname Land Boundary' resmi sinir incelemesi" },
+    { t:"1891-01-01", tur:"antlasma", b:"Rus Çarı III. Aleksandr'ın hakemlik kararı (Mayıs 1891), Lawa nehrini Hollanda Guyanası ile Fransız Guyanası arasındaki sınır olarak belirledi, tartışmalı altın bölgesini Surinam lehine bıraktı.", kaynak:"UN RIAA (legal.un.org/riaa) + France-Suriname border sinir incelemesi (Sovereign Limits); gun belirsiz, yalniz 'Mayis 1891'" },
     { t:"1975-11-25", tur:"son", b:"Hollanda, Surinam'ın bağımsızlığını tanıdı; Johan Ferrier ilk cumhurbaşkanı oldu.", kaynak:"Encyclopaedia Britannica 'Suriname/History' — WebSearch özetinden (403 nedeniyle doğrudan açılamadı)" }
   ] },
 { id:"fransiz-guyanasi", ad:"Fransız Guyanası", bolge:"guney-amerika", f:"1817-01-01", t:"1923-10-29",
   ozet:"17. yüzyıldan beri aralıklı Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü Güney Amerika toprağı (bugün de Fransız denizaşırı bölgesi).",
   kaynak:"standart akademik/ansiklopedik — TEK kaynaklı",
-  kronoloji:[] },
+  kronoloji:[
+    { t:"1895-05-15", tur:"isgal", b:"Fransız kuvvetleri, sınır anlaşmazlığı sürerken tartışmalı Amapá bölgesini (Oiapoque-Araguari arası) Araguari nehrine kadar işgal etti.", kaynak:"Imago Mundi/Taylor & Francis akademik makale, 'A New Map of the Franco-Brazilian Border Dispute (1900)' (tandfonline.com); ayrıca Governo do Amapá resmi tarih kaydı 'O Laudo Suíço'" },
+    { t:"1900-12-01", tur:"toprak-kayip", b:"İsviçre hakemlik kararı (Laudo Suíço), Fransa-Brezilya Contestado/Amapá anlaşmazlığını Brezilya lehine sonuçlandırdı; Fransa tartışmalı bölge iddiasını kalıcı kaybetti.", kaynak:"Governo do Estado do Amapá resmi tarih kaydı 'O Laudo Suíço' + UN Reports of International Arbitral Awards, 'The Guiana Boundary Case' (legal.un.org/riaa)" }
+  ] },
 { id:"agadez-sultanligi", ad:"Agadez (Aïr) Sultanlığı — Tuareg", bolge:"bati-afrika", f:"1405-01-01", t:"1923-10-29",
   ozet:"1405'te yerel Tuareg boyları arasında arabuluculuk için kurulan Aïr Sultanlığı; 1500-1591 Songhay tâbiiyetinde kaldı, sonra yeniden bağımsızlaştı, 1906'da Fransız himayesine girdi (fiilî sömürge yönetimi ancak 1917'de, ayaklanmalar bastırıldıktan sonra).",
   kaynak:"🔴 TDV 'air' YANILTICI ÇIKTI — o madde Medine yakınındaki bir DAĞ hakkında (Âir dağı, hadis bağlamı), Agadez/Aïr Sultanlığı İLE İLGİSİ YOK (200≠madde tuzağı, raw HTML okunarak elendi). 'agades' TDV'de 302 ÖLÜ. TDV bu coğrafyayı (Batı Afrika Sahra-altı) kapsamıyor. Standart akademik: Britannica 'Agadez' + Wikipedia 'Sultanate of Agadez'.",
@@ -7503,6 +7531,10 @@ window.DEVLETLER = [
   kaynak:"TDV **`ammarogullari--trablusgarp`** (HTTP 200, 10.232 kar., başlık «AMMÂROĞULLARI») — MÜSTAKİL MADDE VAR. AYNEN: «Hevvâre Berberî kabilesinin Zâkûga koluna mensup olan Sâbit b. Ammâr Trablusgarp'a hâkim oldu ve böylece Benî Ammâr (Benî Sâbit) hânedanının temelleri atılmış oldu (727/1327).» ve «Böylece Ammâroğulları hânedanı da sona ermiş oldu (803/1401).» Destekleyen: TDV `trablusgarp` «…kuruldu (727/1327) ve 803 (1401) yılına kadar devam etti» · TDV `libya` «AMMÂROĞULLARI 1327-1401 yılları arasında Trablusgarp'ta hüküm süren bir hânedan.»",
   kronoloji:[
     { t:"1327-01-01", tur:"kurulus", b:"Ammâroğulları hânedanı Trablusgarp'ta kuruldu — Hafsî hâkimiyetinin kesintiye uğraması", kaynak:"TDV `trablusgarp` — AYNEN: «Hafsîler'in iç karışıklıklar yüzünden zayıfladığı bir sırada Trablusgarp'ta Ammâroğulları hânedanı kuruldu (727/1327)». 🔴 Hicrî 727 = mîlâdî 1327; GÜN YOK ⇒ YYYY-01-01." },
+    { t:"1347-01-01", tur:"toprak-kazanc", b:"Emir Muhammed b. Sâbit, Cerbe adasını kuşatarak ele geçirdi.", kaynak:"TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi (islamansiklopedisi.org.tr/ammarogullari--trablusgarp)" },
+    { t:"1355-01-01", tur:"toprak-kayip", b:"Cenevizli amiral Philippo Doria'nın hilesi sonucu Trablusgarp elden çıktı; Sâbit ve kardeşi Ammâr kaçtı, şehir sonradan Ahmed b. Ali el-Mekkî'ye satıldı.", kaynak:"TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi" },
+    { t:"1371-01-01", tur:"toprak-kazanc", b:"Ebû Bekir b. Muhammed, bedevî Arapların desteğiyle Trablusgarp'a yeniden hâkim oldu.", kaynak:"TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi" },
+    { t:"1393-01-01", tur:"ittifak", b:"Ammâroğulları, Sicilya Kralı Martin'e tâbi oldu.", kaynak:"TDV İslâm Ansiklopedisi, 'Ammâroğulları' maddesi" },
     { t:"1401-01-01", tur:"son", b:"Ammâroğulları hâkimiyeti sona erdi, Trablusgarp yeniden Hafsîler'e geçti", kaynak:"TDV `trablusgarp` — AYNEN: «803 (1401) yılına kadar devam etti» ve «Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510 yılına kadar sürdü». 🔴 GÜN YOK ⇒ YYYY-01-01." }
   ] },
 { id:"arma", ad:"Arma Paşalığı (Tinbüktü)", tur:"beylik", bolge:"bati-afrika", f:"1750-01-01", t:"1760-01-01",
@@ -7526,6 +7558,7 @@ window.DEVLETLER = [
   kaynak:"les",
   kronoloji:[
     { t:"1387-01-01", tur:"kurulus", b:"Paul ve Lek Dukagjin adlı Arnavut asilzadeleri Leş'i (Alessio) Dukagin Prensliği'nin merkezi hâline getirdi", kaynak:"künyenin kendi kaynak alanı (TDV les)" },
+    { t:"1444-03-02", tur:"ittifak", b:"Lezhë Birliği: Arnavut beyleri (Dukagjini dahil) İskender Bey önderliğinde Osmanlı'ya karşı ittifak kurdu", kaynak:"standart akademik/ansiklopedik (League of Lezhë, 2 Mart 1444) — TDV kapsam dışı, künyenin kendi kaynağı (TDV les) bu olayı içermiyor" },
     { t:"1479-01-25", tur:"son", b:"Osmanlı-Venedik antlaşmasıyla bölge Osmanlı hâkimiyetine geçti (tarih arnavutluk-iskenderbey künyesiyle hizalı, TDV doğrudan gün vermiyor)", kaynak:"hizalama — arnavutluk-iskenderbey künyesinin t: alanından devralındı, kaynaksız gün olarak işaretlenmeli" }
   ] },
 { id:"hurmuz-sultanligi", ad:"Hürmüz Sultanlığı", tur:"sultanlik", bolge:"iran", f:"1281-01-01", t:"1514-01-01",
@@ -7593,12 +7626,16 @@ window.DEVLETLER = [
   kaynak:"TDV `haremeyn` — «Mısır'ın fethiyle birlikte (1517) Memlükler'in nüfuzu altında bulunan Haremeyn de Osmanlı hâkimiyetini tanıdı. O sıradaki Mekke Emîri Şerîf…» 🟡 `f:` ATLAS PENCERESİ KONVANSİYONU — şeriflik atlas penceresinden ESKİ (TDV `mekke`, 133.872 kar.), bir kuruluş iddiası DEĞİL. 🔴 `t:` İLK YAZIMDA 1916-06-10 (Şerif Hüseyin'in isyanı) İDİ ve kapsama sınavım ÇÜRÜTTÜ: veri `1919-01-10`a kadar gidiyor — Medine'nin teslim günü. `t:` veriye göre açıldı, gün KAYNAKSIZ. ⚠️ Ve bu `t:` bir POLITY SONU DEĞİL, ATLAS KULLANIM SONU: şeriflik o gün sona ermedi, Hicaz Krallığı olarak sürdü.",
   kronoloji:[
     { t:"1517-01-01", tur:"vassal", b:"Mısır'ın fethiyle Mekke Şerifliği Osmanlı hâkimiyetini tanıdı", kaynak:"TDV haremeyn (künyenin kendi kaynak alanından)" },
+    { t:"1803-01-01", tur:"toprak-kayip", b:"I. Suûdî Devleti (Vehhâbî) kuvvetleri Mekke'yi ele geçirdi; Şerif Galib şehri terk etmek zorunda kaldı", kaynak:"standart akademik/ansiklopedik (Suûdî-Vehhâbî Mekke'nin alınışı, 1803, kesin gün BULUNAMADI) — TDV kapsam dışı, ayrıca doğrulanmalı" },
+    { t:"1813-01-01", tur:"toprak-kazanc", b:"Mehmed Ali Paşa'nın oğlu Tosun Paşa komutasındaki Osmanlı-Mısır kuvvetleri Mekke ve Medine'yi Suûdîler'den geri aldı", kaynak:"standart akademik/ansiklopedik (Osmanlı-Suûdî Savaşı 1811-1818, Hicaz'ın geri alınışı 1812-13) — TDV kapsam dışı, kesin gün BULUNAMADI, ayrıca doğrulanmalı" },
     { t:"1916-06-10", tur:"son", b:"Şerif Hüseyin'in isyanıyla şeriflik fiilen Hicaz Krallığı'na dönüştü (bkz. hicaz-kralligi)", kaynak:"künyenin kendi ozet alanı — ardıl künye hicaz-kralligi'nin kendi 'isyan' maddesiyle aynı gün, çift kayıt DEĞİL, geçiş notu" }
   ] },
 { id:"konstantin-beyligi", ad:"Konstantin Beyliği (Ahmed Bey)", bolge:"kuzey-afrika", f:"1830-07-05", t:"1844-03-04",
   ozet:"Fransa'nın Cezayir'i işgalinden sonra doğu beyliğinde Ahmed Bey'in Osmanlı adına sürdürdüğü idare. Konstantin 1837'de Fransızların eline geçti; iç kesimlerdeki direniş 1840'ların ortasına kadar sürdü.",
   kaynak:"TDV `kostantine` — gövde okundu (11.785 kar.), madde Osmanlı FETHİNE odaklı (1517 · 1519-20 · 1526 · 1533-34) ve Ahmed Bey dönemi için GÜN VERMİYOR. 🔴 `f:`/`t:` VERİDEN DEVRALINDI, kaynaksız. `f:` 1830-07-05 (Cezayir'in Fransızlara düşüşü) ve `t:` yerleşimden yerleşime değişiyor (1832-03-01 … 1844-03-04); künye penceresi HEPSİNİ KAPSAYACAK biçimde en genişine açıldı.",
   kronoloji:[
+    { t:"1832-03-27", tur:"toprak-kayip", b:"Fransız kuvvetleri Bône (Annaba) limanını ele geçirdi; Ali bin Aïssa şehri savunmadan tahliye etti, Beylik kuzey sahil şeridinin bir bölümünü kaybetti.", kaynak:"1911 Encyclopædia Britannica, 'Algeria' maddesi (Wikisource üzerinden tam metin) + fr.wikipedia 'Prise de Bône' (ikincil teyit)" },
+    { t:"1836-01-01", tur:"savas", b:"Mareşal Clausel komutasındaki 8.700 kişilik Fransız kuvveti Konstantin'e saldırdı (Kasım 1836); Ahmed Bey'in kuvvetleri saldırıyı püskürttü.", kaynak:"1911 Encyclopædia Britannica, 'Constantine (Algeria)' maddesi (Wikisource tam metin)" },
     { t:"1837-10-13", tur:"son", b:"General Valée komutasındaki Fransız ordusu Konstantin kuşatmasını kazanıp şehri aldı; son bey Ahmed Bey 1848'e kadar dağlarda direndi ama beyliğin fiilî sonu budur.", kaynak:"Çok kaynaklı, tutarlı, iyi belgelenmiş tarih — Encyclopaedia Britannica 'History of Algeria' (WebSearch özeti) + ResearchGate makalesi" }
   ] },
 { id:"sani-emirligi", ad:"Âl-i Sânî Emirliği (Katar)", bolge:"arabistan", f:"1871-09-20", t:"1913-07-29",
@@ -7684,6 +7721,8 @@ window.DEVLETLER = [
   kaynak:"f: TDV `misir` — Tomanbay'ın idamı '21 Rebîülevvel 923 / 13 Nisan 1517', memluk künyesinin t: alanıyla birebir aynı gün, bağımsız doğrulandı. t: TDV `kavalali-mehmed-ali-pasa` — '3 Temmuz 1805' Bâbıâli tarafından valiliğe getirilme günü, misir-kavalali künyesinin f: alanıyla birebir aynı gün, bağımsız doğrulandı. Ara kronoloji (İbrahim Paşa Kanunnâmesi, Napolyon işgali vb.) bu turda TEK TEK TDV'ye karşı sınanmadı, D107 gereği açıkça yazılıyor.",
   kronoloji:[
     { t:"1517-04-13", tur:"kurulus", b:"Kahire'nin düşüşüyle Mısır doğrudan Osmanlı eyaleti hâline geldi", kaynak:"TDV misir — Tomanbay'ın idamı, 13 Nisan 1517" },
+    { t:"1798-07-21", tur:"toprak-kayip", b:"Napolyon Bonapart komutasındaki Fransız ordusu Ehram Muharebesi'ni kazanıp Kahire'yi ele geçirdi, Mısır fiilen Fransız işgaline girdi", kaynak:"standart akademik/ansiklopedik (Battle of the Pyramids, 21 Temmuz 1798) — TDV kapsam dışı bu ayrıntı için, çok iyi belgelenmiş bir olay" },
+    { t:"1801-09-02", tur:"toprak-kazanc", b:"İskenderiye'deki Fransız kuvvetlerinin teslimiyle (İskenderiye Kapitülasyonu) Fransız işgali sona erdi, Mısır Osmanlı-İngiliz kontrolüne döndü", kaynak:"standart akademik/ansiklopedik (Capitulation of Alexandria, 2 Eylül 1801) — TDV kapsam dışı, çok iyi belgelenmiş" },
     { t:"1805-07-03", tur:"son", b:"Kahire ulemâsının Mehmed Ali'yi vali ilan etmesi; doğrudan eyalet dönemi sona erdi", kaynak:"TDV kavalali-mehmed-ali-pasa — \"3 Temmuz 1805\"" }
   ] },
 { id:"sirbistan-eyaleti", ad:"Osmanlı Sırbistan'ı (Doğrudan İdare Dönemi)", tur:"eyalet", bolge:"balkanlar",
@@ -7692,6 +7731,8 @@ window.DEVLETLER = [
   kaynak:"f: TDV `semendire` — '20 Haziran 1459'da Lazar Brankoviç'in dul eşi Helena kaleyi Osmanlılar'a teslim etti', sirp-despotlugu künyesinin t: alanıyla birebir aynı gün, bağımsız doğrulandı. 🟡 t: TDV `sirbistan` yalnız YIL veriyor ('1804'te Karadjordje liderliğinde Sırp isyanı patlak verdi'); GÜN (14 Şubat) sirbistan-prensligi künyesinin kendi f: alanından DEVRALINDI, yeni hassasiyet üretilmedi (§4).",
   kronoloji:[
     { t:"1459-06-20", tur:"kurulus", b:"Semendire'nin düşüşüyle Sırp Despotluğu sona erdi, bölge doğrudan Osmanlı idaresine geçti", kaynak:"TDV semendire" },
+    { t:"1717-08-18", tur:"toprak-kayip", b:"Prens Eugene komutasındaki Avusturya ordusu Belgrad Muharebesi'ni kazanıp şehri aldı; Kuzey Sırbistan Avusturya'ya geçti (Pasarofça Antlaşması'na kadar sürecek dönem)", kaynak:"standart akademik/ansiklopedik (Belgrad Muharebesi, 16 Ağustos 1717 — bazı kaynaklarda 18 Ağustos teslim) — TDV kapsam dışı, gün ayrıca doğrulanmalı. NOT: bu pencere künyenin kendi ozet alanında '1717-1738 Avusturya işgali ayrıca modellenmiş' diye anılıyor; bu iki satır o modellemeyle ÇAKIŞMASIN diye HARITA-VERI/UYGULA kontrol etmeli" },
+    { t:"1739-09-18", tur:"toprak-kazanc", b:"Belgrad Antlaşması ile Kuzey Sırbistan (Belgrad dahil) Osmanlı'ya iade edildi", kaynak:"standart akademik/ansiklopedik (Treaty of Belgrade, 18 Eylül 1739) — TDV kapsam dışı, kabartay künyesinin de kullandığı aynı antlaşmanın gün alanı (BAĞIMSIZ TUTARLILIK)" },
     { t:"1804-02-14", tur:"son", b:"Kara Yorgi liderliğindeki Sırp isyanı patlak verdi, doğrudan idare dönemi fiilen sona erdi", kaynak:"TDV sirbistan (yıl) + sirbistan-prensligi künyesinden devralınan gün" }
   ] },
 { id:"tunus-beyligi-fransiz", ad:"Tunus Beyliği (Fransız Himayesi Dönemi)", tur:"beylik", bolge:"kuzey-afrika",
@@ -7737,6 +7778,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl net, gün bulunamadı. t: Agreement of Merger (1 Şubat 1949), yürürlük 1 Mart 1949.",
   kronoloji:[
     { t:"1710-01-01", tur:"kurulus", b:"II. Şivâcî, Tarabai'nin rakip sarayınca Kolhapur racası ilan edildi" },
+    { t:"1812-10-01", tur:"antlasma", b:"Kolhapur Racasi, Malwan limanini baris duzenine indirmeyi ve deniz korsanligindan vazgecmeyi taahhut eden bir anlasmayi Ingilizlerle imzaladi.", kaynak:"C.U. Aitchison, A Collection of Treaties, Engagements and Sanads Relating to India and Neighbouring Countries, 4th ed., Vol.VII Pt.II (Calcutta, 1892/1929), No.LXVII, s.198 — archive.org tam metin (in.ernet.dli.2015.97541), DOGRUDAN OKUNDU" },
     { t:"1949-03-01", tur:"son", b:"Bombay Eyaleti'ne resmî devir yürürlüğe girdi (Agreement of Merger, 1 Şubat 1949)" }
   ] },
 { id:"baroda", ad:"Baroda Devleti (Gaikvad Hanedanı)", tur:"devlet", bolge:"guney-asya",

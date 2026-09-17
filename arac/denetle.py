@@ -2797,6 +2797,16 @@ BILINEN_AYRI = {
      "Buhara Halk Sovyet Cumhuriyeti ilan edildi"),
     ("Buhara Halk Sovyet Cumhuriyeti ilan edildi",
      "Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi"),
+    # 17 Eylül 2026 · UYGULA-2 (M-4308) — 1736-39 savaşı, BAŞLIK KALIBI sınıfı:
+    # ayrı kale, ayrı gün, ayrı yıl. Azak 1736-07-13 ≠ Özi 1737-07-13 (tam bir
+    # yıl arayla aynı ay-gün); Niş 1737-10-16 ≠ Semendire 1738-08-01 ≠ Adakale
+    # 1738-08-17. Kaynak: TDV azak · ozu · nis · semendire · adakale.
+    ("Azak'ın Ruslara düşüşü",
+     "Özi (Ochakov) Kalesi'nin Ruslara düşüşü"),
+    ("Niş'in Avusturya'dan geri alınışı",
+     "Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı"),
+    ("Niş'in Avusturya'dan geri alınışı",
+     "Adakale'nin Avusturya'dan alınışı"),
 }
 
 # ⚠️ DÖRDÜNCÜ TUR — "eşiği düşür" ÖLÇÜLDÜ ve REDDEDİLDİ (hatalar 11 madde 36)
