@@ -137095,5 +137095,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4434",
+  "zaman": "2026-09-17 21:24",
+  "kimden": "BAGLAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: (1) js/app.js _EKOKUMA_DOSYA_ADLARI'na 5 ad eklendi (satir ~8663-8667): ekokuma_vecize(4 kart) . ekokuma_kurum2(2 kart, EKO-KURUM2/M-4409) . ekokuma_korfez(4 kart) . ekokuma_karsi(10 kart, tur=karsi-anlati) . ekokuma_savas1770(1 kart) - hepsi diskte VARDI, hicbiri atlanmadi. (2) index.html'e 2 script satiri eklendi: data/savas_kunye_1.js (savaslar_ok104.js yanina, satir 1236) ve data/seferler_p0065.js (seferler_p0064.js yanina, satir 1239), ikisi de diskte VARDI. (3) node --check 7 dosyanin 7'sinde de SYNTAX OK. window adlari dogrulandi: EKOKUMA_VECIZE/KURUM2/KORFEZ/KARSI/SAVAS1770, SAVAS_KUNYE_1, SEFERLER_P0065 - hepsi app.js listesindeki/index.html'deki ADLA BIREBIR uyuyor, ad alani uyusmazligi YOK. Degisen dosyalar: js/app.js, index.html - COMMIT ETMEDIM, sende. Baska dosyaya dokunmadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
