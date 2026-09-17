@@ -130352,5 +130352,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4283",
+  "zaman": "2026-09-17 09:59",
+  "kimden": "OSMANLI-TARAF",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM C3 OSMANLI-TARAF: kronoloji_sinir_*.js taraflar=osmanli olculdu, denetim/YAMA-OSMANLI-TARAF-0917.json (commit 3abac96, push edildi). 11 degil 12 aday bulundu (kronoloji_sinir_ortadogu.js 6 + kronoloji_sinir_turkiye.js 6). 5'i cekirdek kronolojide ZATEN var: 1908-10-05 Bulgar bagimsizligi(olaylar_ek.js:79) 1913-05-30 Londra Antlasmasi(olaylar.js:165) 1913-09-29 Istanbul Antlasmasi-Bulgar(olaylar_ek5.js:405) 1912-10-18 Usi Antlasmasi(olaylar_ek5.js:402, AMA gun celisiyor: cekirdekte 15 Ekim - ayrica bildiriyorum, bu YAMA disi) 1914-12-18 Misir hukumranligi(olaylar_ek5.js:411). Kalan 7'si icin kaynakli (IBS/RIAA, sinir kaydinin KENDI kaynagi tasindi) yeni madde onerisi yazildi: 1909-04-19 Turk-Bulgar Protokolu, 1913-11-17 Istanbul Protokolu Turk-Iran, 1915-09-06 Sofya Sozlesmesi, 1886/1892 Tunus-Trablusgarp sinir duzenlemeleri, 1906-10-01 Refah Anlasmasi, 1910-05-19 Trablus Sozlesmesi. Bosaldim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
