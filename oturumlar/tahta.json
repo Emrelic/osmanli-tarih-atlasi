@@ -137275,5 +137275,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4444",
+  "zaman": "2026-09-17 22:09",
+  "kimden": "KARADENIZ-KAFKAS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KARADENIZ-KAFKAS (0067 H-0001) · denetim/YAMA-CERKEZISTAN-0917.json · commit 158aa09 · veriye YAZILMADI. (1) OLCTUM: TDV cerkezler + anapa + edirne-antlasmasi + kucuk-kaynarca + kirim + sahin-giray + abazalar govdeleriyle okundu; soci/tuapse/maykop/ubihlar/abzehler/sapsiglar ALTI SLUG DA 302 -> hukum kapsayici cerkezler maddesinden. CEVAP: Anapa Cerkezistan'i Osmanli'ya DAHIL ETMEDI — TDV kalenin gerekcesini 'Kuzey Kafkasya savunma hatti' diyor, kiyidaki hakimiyet iddiasi ise 1475/1479'a dayaniyor ('Asagira Cerkezleri Osmanli hakimiyetini tanidi; kiyilar uc asir Osmanli hakimiyetinde kaldi'). Kabileler 'hukuken Kirim'a tabi, gercekte serbest'; Osmanli'nin fiilen tuttugu yer KALELER (Anapa, Sogucak, Gelincik, Sohum, Fas). Maykop TDV govdesinde tarihi olarak HIC gecmiyor (yalniz gorsel altyazisi). Soci ile Sase AYNI yer (kayit adi 'Soci (Sase)') -> dort degil UC kayit. EN GUCLU DELIL: uc kaydin KENDI neden alani zaten yaziyor — '1783-1829 arasi bos birakilmadi, komsu Anapa'nin deseniyle d:OSMANLI konuldu (Edirne 1829'a kadar Osmanli iddiasi)'. Iddia atlasin kendi semasinda v:, d: degil. YAMALAR: C-1 Soci/Tuapse/Maykop 1783-04-19->1829-09-14 d -> v (himaye, kid cerkez) = 24.757 km2 (5.405+5.239+14.113, taban petek olcumu). C-2 1829 sonrasi rusya ERKEN: Edirne HAK devri; Soci/Tuapse rusya 1838-01-01'den, Maykop 1864-07-01'den, arasi cerkez. C-3 ON KOSUL: cerkez KUNYESI ve RENGI atlasta YOK (bolge kafkasya kunyeleri tarandi, renkler.py'de de yok) — kunye taslagi + kaynak cumleleri yamada; emsal kabartay (ayni bolge, 13-14 Eyl). C-4 __BOSLUK__ 1441-1475: 1441 Kirim'in kurulus yili, kunye gelince cerkez olmali (onerim 1427, 0066/Y-1 ile ayni gun). C-5 kiyinin 1475-1783 bagini TDV KIRIM'a degil OSMANLI'ya veriyor — Emre karari D kapsaminda, DEGISTIRMEDIM. C-6 Anapa ve Sohum d: KALIR (Sohum kaydinin kendi notu: kale dogrudan, cevre tabi). KRONOLOJI: CE-1 1475-06-06 kiyinin hakimiyeti tanimasi · CE-2 1861-06-13 Soci toplantisi (TDV GUN veriyor) · CE-3 mevcut Edirne maddesine ek cumle. 1838 ve 1864 kirilmalari icin madde ZATEN VAR (olaylar_p0917kosu13.js · olaylar_ek14.js). (2) BULUNAMADI: 1864'un gunu — mevcut surgun maddesinin gunu (1864-07-01) DEVRALINDI ve kaynak gunu OLMADIGI yamada bildirildi; alternatif 1864-01-01 + yeni madde. Ayrica: Ubih yurdu icin ayri nokta (Soci petegi ic kesimi 1838-1864 yanlis tarafta), Sogucak'in tarihi, 'Sase' yaziminin kaynagi, 1918 Kuzey Kafkasya Dagliari kunyesi. (3) ISTIYORUM: C-3 kunye+renk kararini D-KUNYE'ye ve renk sahibine sevk (onsuz C-1 inerse himaye ic dolgusu RENKSIZ kalir); C-4 icin a/b; C-5 Emre'ye. Yeni kimlik inerse renk_olc.py SART. Degisen data/ dosyasi YOK. Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
