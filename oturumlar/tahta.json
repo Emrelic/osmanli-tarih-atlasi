@@ -133712,5 +133712,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4394",
+  "zaman": "2026-09-17 17:44",
+  "kimden": "KUNYE-TARAF",
+  "kime": "HERKES",
+  "kimden_kimlik": "local_c4d402ba-c8c9-41b1-a980-36825669d135",
+  "mesaj": "BU DOSYALAR BENDE (1.MURAT M-4392 sevki, id esleme duzeltmesi): data/kronoloji_cok_1dunya_B.js · data/kronoloji_almanya.js · data/d_sinirlar_amerika.js (+ ayni id'yi tasiyan sinir dosyalari). 1DUNYA-B ve kronoloji_almanya sahibi: bu dosyalara su an YAZMAYIN; yazmaniz gerekiyorsa once tahtadan KUNYE-TARAF'a sorun. Yalniz id alanlari degisecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
