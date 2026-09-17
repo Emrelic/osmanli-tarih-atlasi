@@ -408,7 +408,158 @@ window.GECITLER = [
 { ad:"Kurtuba (Córdoba) Roma Köprüsü", nehir:"Vâdilkebîr (Guadalquivir)", lat:37.888, lon:-4.779,
   tur:"kopru", f:"1281-01-01", t:"1923-10-29", etki_km:30,
   kaynak:"bulunamadı — `kurtuba` slugu SINANMADI (eksiğim); dayanak: Endülüs kent tarihi standart literatürü",
-  not:"⚠️ Toledo kaydıyla aynı çekince: TDV'nin İberya kapsaması %80'dir ve `kurtuba` maddesi büyük ihtimalle VARDIR — denemedim. Kaydı yazdım ama kaynağı 'bulunamadı' değil 'SINANMADI' diye işaretliyorum; ikisi aynı şey değildir ve karıştırmak `§7.1 ④`ün ihlali olur." }
+  not:"⚠️ Toledo kaydıyla aynı çekince: TDV'nin İberya kapsaması %80'dir ve `kurtuba` maddesi büyük ihtimalle VARDIR — denemedim. Kaydı yazdım ama kaynağı 'bulunamadı' değil 'SINANMADI' diye işaretliyorum; ikisi aynı şey değildir ve karıştırmak `§7.1 ④`ün ihlali olur." },
+
+// ═══════════════════════════════════════════════════════════════════════════
+// 🌍 GECIT-DUNYA — 17 Eylül 2026 · D2-KOMSU (şartname: oturumlar/KOSU13-OTOBUS.md)
+//   Amerika · Asya (Çin, Hindiçin, Sibirya) · Sahra altı Afrika · Okyanusya.
+//   Koordinatlar GeoNames (bölge kutusuyla; adaşlar elendi) — iki yakalı
+//   geçitlerde iki yerleşimin ORTASI. `f` kaynağın belgelediği EN ERKEN yıldır;
+//   GÜN yalnız kaynak gün veriyorsa yazıldı, yoksa YYYY-01-01.
+//   ⚠️ Motor geçitleri HEP VAR sayar (dosya başı §f/t): 19-20. yüzyıl köprüleri
+//   bu yüzden 1281'de de bedel düşürür. Bu, dosyanın mevcut tasarım kararıdır;
+//   `f` alanı veri olarak doğru tarihi taşır.
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ─────────────── YANGTZE (Çang Ciang) ───────────────
+{ ad:"Zhenjiang–Guazhou Geçidi", nehir:"Yangtze", lat:32.232, lon:119.419,
+  tur:"feribot", f:"1281-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"J. Needham, Science and Civilisation in China 4/3 (Cambridge UP 1971), Şek. 901 altyazısı — metin okundu (archive.org tam metin); destek: Britannica 'Zhenjiang' (imzasız)",
+  not:"Needham: 'Crossing of the Yangtze at Kuachow, Chen-chiang'. Britannica: tahıl 'shipped across the Yangtze and north via the Grand Canal'. Büyük Kanal'ın Yangtze geçişi; kanalın Guazhou'ya uzatılması Tang dönemi ⇒ geçit atlas penceresinden ESKİ, f=1281 pencere başı. 1923'e kadar sürdüğü kaynakta açık değil. Koordinat: Zhenjiang (32,211/119,455) ile Guazhou (32,253/119,383) ortası." },
+
+{ ad:"Anqing Geçidi", nehir:"Yangtze", lat:30.514, lon:117.047,
+  tur:"feribot", f:"1281-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"Britannica 'Anqing' — imzasız editör maddesi, ZAYIF dayanak",
+  not:"Britannica: 'Situated at a crossing place on the Yangtze'. Karşı yakanın adı ve ilk belge yılı BULUNAMADI; f=1281 pencere başı (şehrin geçit konumu eski). Koordinat: Anqing (GeoNames)." },
+
+{ ad:"Chongqing Geçidi", nehir:"Yangtze", lat:29.560, lon:106.558,
+  tur:"feribot", f:"1281-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"Britannica 'Chongqing' — imzasız editör maddesi, ZAYIF dayanak",
+  not:"Britannica: 'In former times, ferries were the only means by which the rivers could be crossed'. Yangtze–Jialing kavşağı. İlk belge yılı BULUNAMADI; f=1281 pencere başı. Koordinat: Chongqing (GeoNames)." },
+
+// ─────────────── SARI IRMAK (Huang He) ───────────────
+{ ad:"Lanzhou Zhenyuan Duba Köprüsü", nehir:"Sarı Irmak", lat:36.057, lon:103.840,
+  tur:"kopru", f:"1401-01-01", t:"1923-10-29", etki_km:30,
+  kaynak:"J. Needham, Science and Civilisation in China 4/3 (Cambridge UP 1971) s.161-162 — metin okundu",
+  not:"Needham: 'In the +15th century there was another at Lanchow'; 'Chen-Yuan C., composed of 24 pontoons secured by iron chains'. Dayanağı Timurlu Şahruh elçilerinin kaydı. f: yalnız '15. yüzyıl' ⇒ 1401-01-01; yaygın 1372 kuruluş yılı yalnız devlet/turizm sitelerinde, KULLANILMADI. 1909 demir köprüsü (yalnız arama özeti) geçidin sürdüğünü gösterir. Koordinat: Lanzhou." },
+
+{ ad:"Büyük Kanal–Sarı Irmak Kesişmesi (Dong'e–Shouzhang)", nehir:"Sarı Irmak", lat:36.180, lon:116.040,
+  tur:"feribot", f:"1855-01-01", t:"1911-01-01", etki_km:15,
+  kaynak:"J. Needham, Science and Civilisation in China 4/3 (Cambridge UP 1971), Şek. 902 ve nehir yatakları tablosu — metin okundu",
+  not:"Needham: 'The crossing-point of the Grand Canal and the Yellow River'. Irmak 1855 yazında bu yatağa geçti (gün kaynakta YOK ⇒ f yıl düzeyi, olaydan önceye düşer); t: 'After 1911 only the sections south of Huai-yin were utilisable' ⇒ yıl. Koordinat TAHMİNİ (±20 km): GeoNames Dong'e/Tongcheng (36,330/116,240) ile Shouzhang (36,027/115,831) ortası; kesin kavşak noktası okunmadı." },
+
+// ─────────────── MEKONG (Lancang) ───────────────
+{ ad:"Jihong Köprüsü (Yongping–Baoshan)", nehir:"Mekong (Lancang)", lat:25.290, lon:99.346,
+  tur:"kopru", f:"1281-01-01", t:"1923-10-29", etki_km:30,
+  kaynak:"J. Needham, Science and Civilisation in China 4/3 (Cambridge UP 1971) s.197 — metin okundu",
+  not:"Needham: 'bridged since ancient times, and with iron chains since about +1470'. Demir zincir ~1470, geçit daha eski ⇒ f=1281 pencere başı. Koordinat TAHMİNİ (±15 km): Yongping (25,463/99,528) ile Baoshan (25,116/99,164) ortası; köprünün kendi koordinatı okunmadı. Needham'ın Lan-Chin köprüsü (s.196) aynı geçit olabilir — mükerrer riski yüzünden AYRI KAYIT YAZILMADI." },
+
+{ ad:"Chiang Khong–Houayxay Geçidi", nehir:"Mekong", lat:20.266, lon:100.411,
+  tur:"feribot", f:"1894-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"A. Walker, 'Borders in Motion on the Upper Mekong' (New Mandala PDF, akademik çalışma) — metin okundu",
+  not:"Walker: 'residents of either bank could cross the river'; Aralık 1894'te 'the passage of 30 trading boats' kaydı. f: en erken belge yılı, geçit daha eski. Karşı yakanın Houayxay olduğu ÇIKARIM (kaynak adını vermiyor). Koordinat: Chiang Khong (20,261/100,405) ile Ban Houayxay (20,270/100,418) ortası." },
+
+// ─────────────── SİBİRYA: OB · İRTİŞ · YENİSEY · LENA · AMUR ───────────────
+{ ad:"Ob Demiryolu Köprüsü (Krivoşçekovo–Novonikolayevsk)", nehir:"Ob", lat:55.023, lon:82.932,
+  tur:"kopru", f:"1897-01-01", t:"1923-10-29", etki_km:30,
+  kaynak:"Guide to the Great Siberian Railway (Rusya Ulaştırma Bakanlığı, St. Petersburg 1900; archive.org guidetogreatsibe00russuoft) — metin okundu; destek: S. G. Marks, Road to Power (Cornell UP 1991)",
+  not:"Guide: 'Bridge over the Ob.' ve istasyonun 'on the lofty and picturesque right bank of the river Ob'. Marks: 'Novonikolaevsk, lying at the junction of the railroad and the Ob' River'. Açılış günü (5 Nisan 1897, muhtemelen Jülyen) yalnız Novosibirsk bölge kütüphanesi takviminde — hakemli değil ⇒ f YIL düzeyi. Köprüden önceki Krivoşçekovo feribotu için kaynak BULUNAMADI. Koordinat: Novosibirsk." },
+
+{ ad:"Omsk İrtiş Demiryolu Köprüsü", nehir:"İrtiş (Ob havzası)", lat:54.992, lon:73.369,
+  tur:"kopru", f:"1900-01-01", t:"1923-10-29", etki_km:30,
+  kaynak:"Guide to the Great Siberian Railway (St. Petersburg 1900) — metin okundu",
+  not:"Guide: granit 'brought from here to Omsk for the construction of a railway bridge over the Irtysh'. Açılış yılı BULUNAMADI (taramada '189.' bozuk) ⇒ f = köprünün en geç VAR olduğu belge yılı (1900), uydurma yıl YAZILMADI. Koordinat: Omsk." },
+
+{ ad:"Krasnoyarsk Yenisey Demiryolu Köprüsü", nehir:"Yenisey", lat:56.037, lon:92.931,
+  tur:"kopru", f:"1900-01-01", t:"1923-10-29", etki_km:30,
+  kaynak:"Guide to the Great Siberian Railway (St. Petersburg 1900) — metin okundu; destek: Marks, Road to Power (Cornell UP 1991)",
+  not:"Guide: 'The bridge over the Yenisei … is composed of six principal spans'. Marks: 'the steel bridge across the Enisei was more than half a mile long'. Açılış günü (28 Mart 1899) yalnız arama özetinde ⇒ f = en geç var olduğu belge yılı (1900). Köprüden önceki feribot (Guide: 'from the landing-place on the Yenisei by barges and steamers') yalnız inşaat dönemi için belgeli, AYRI KAYIT YAZILMADI. Koordinat: Krasnoyarsk." },
+
+{ ad:"Yakutsk–Yarmonka Lena Geçidi", nehir:"Lena", lat:62.031, lon:129.723,
+  tur:"feribot", f:"1733-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"P. L. Kazaryan, 'Первый тракт на Северо-Востоке России', Наука и техника в Якутии (2006) — cyberleninka, metin okundu",
+  not:"Kazaryan: 'От города Якутска плавают до урочища называемого Ярмонка' — Yakutsk-Ohotsk yolunun Lena geçişi, karşı yaka Yarmonka (10 verst). f: makalenin ele aldığı 1733 talimatı dönemi (yıl yalnız araç özetinden okundu, cümlesi okunmadı ⇒ ZAYIF); geçit muhtemelen 1640'lardan eski. Koordinat: Yakutsk (sol yaka)." },
+
+{ ad:"Habarovsk Amur Demiryolu Köprüsü", nehir:"Amur", lat:48.462, lon:135.097,
+  tur:"kopru", f:"1916-01-01", t:"1920-01-01", etki_km:30,
+  kaynak:"S. G. Marks, Road to Power (Cornell UP 1991) — 'until the Amur Railroad was completed in 1916'; CIA belgesi CIA-RDP83-00423R000200580001-5 (1953, archive.org) — 'Two spans of this bridge were blown up by the Reds when retreating'",
+  not:"f/t YIL düzeyi: açılış (5 Ekim 1916) ve yıkım (5 Nisan 1920) günleri yalnız arama özetinde. 1925 onarımı pencere dışında ⇒ 1920-1923 arası köprü KESİK. Koordinat: Habarovsk (köprü şehrin birkaç km yukarısında)." },
+
+// ─────────────── NİJER ───────────────
+{ ad:"Segu Feribotu", nehir:"Nijer", lat:13.440, lon:-6.260,
+  tur:"feribot", f:"1796-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"Mungo Park, Travels in the Interior Districts of Africa (1799), c.1 — birincil kaynak neşri, Gutenberg #5266, metin okundu",
+  not:"Park: 'When we arrived at this ferry, with a view to pass over'. Kralın kayıkçıları, kişi başı 10 kauri, üç biniş yeri; şehir iki yakaya yayılmış (Sego Korro/Boo kuzey, Sego Soo Korro/See Korro güney). f: Park'ın geçişi Temmuz 1796 — en erken belge, geçit daha eski. TDV `segu` 302 ölü. Koordinat: Ségou." },
+
+{ ad:"Say Geçidi", nehir:"Nijer", lat:13.101, lon:2.369,
+  tur:"feribot", f:"1853-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"H. Barth, Travels and Discoveries in North and Central Africa c.4 — birincil kaynak neşri, Gutenberg #76319, metin okundu",
+  not:"Barth: 'This is the river-town, or \"ford,\" the name Say meaning … \"the river.\"' ve 'the spot where the river is generally crossed'; liman müfettişi (serkí-n-jirgí) büyük kanolar sağlıyor. f: Barth'ın geçişi Haziran 1853 — en erken belge. Koordinat: Say." },
+
+{ ad:"Ádar-andúrren Geçidi (Ansongo)", nehir:"Nijer", lat:15.660, lon:0.502,
+  tur:"feribot", f:"1854-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"H. Barth, Travels and Discoveries c.5 — Gutenberg #76320, metin okundu (dizin: 'usual ferry on the Niger, v. 247')",
+  not:"Barth: 'forms the general place of embarkation, called Ádar-andúrren'. Ansongo adasının yukarısı, Tabáliat köyü yakını. Koordinat TAHMİNİ (±15 km): Ansongo (GeoNames); geçit biraz kuzeyinde. f: Temmuz 1854 — en erken belge." },
+
+{ ad:"Rabba–Zagozhi Feribotu", nehir:"Nijer", lat:9.211, lon:5.030,
+  tur:"feribot", f:"1830-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"R. ve J. Lander, Journal of an Expedition to Explore the Course and Termination of the Niger c.2 (1832) — Gutenberg #78792, metin okundu",
+  not:"Lander: 'they are proprietors of the ferry to and from Rabba' (Zagozhi adası halkı). Nupe'nin Nijer geçidi. f: Ekim 1830 — en erken belge. Bussa'daki 'King's Ferry' (aynı kaynak) yazılmadı: eski Bussa Kainji baraj gölü altında, konum belirsiz. Jebba köprüsü (1916) yalnız arama düzeyinde, yazılmadı. Koordinat: Rabba." },
+
+// ─────────────── KONGO ───────────────
+{ ad:"Stanley Havuzu Geçidi (Léopoldville–Brazzaville)", nehir:"Kongo", lat:-4.297, lon:15.298,
+  tur:"feribot", f:"1904-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"M. R. Dorman, A Journal of a Tour in the Congo Free State (1905) — birincil kaynak, Gutenberg #15240, metin okundu",
+  not:"Dorman: 'In the afternoon we cross the neck of Stanley Pool and visit Brazzaville'. f: 1904 — en erken belgelenen geçiş; 1898 feribot seferi iddiası yalnız bir blogda, KULLANILMADI. Koordinat: Kinshasa (-4,328/15,314) ile Brazzaville (-4,266/15,283) ortası." },
+
+// ─────────────── ZAMBEZİ ───────────────
+{ ad:"Victoria Şelalesi Köprüsü", nehir:"Zambezi", lat:-17.887, lon:25.843,
+  tur:"kopru", f:"1905-01-01", t:"1923-10-29", etki_km:30,
+  kaynak:"ASCE Historic Civil Engineering Landmark sayfası ve T. R. Witcher, Civil Engineering (ASCE) Temmuz 2021 — metin okundu",
+  not:"ASCE: 'Built to carry two railway lines'; 'Completed in just 14 months'. Açılış günü (12 Eylül 1905) yalnız araç özetinde ⇒ f YIL düzeyi. Koordinat: Livingstone (-17,842/25,854) ile Victoria Falls (-17,933/25,831) ortası." },
+
+{ ad:"Sesheke Geçidi", nehir:"Zambezi", lat:-17.490, lon:24.286,
+  tur:"feribot", f:"1860-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"D. ve C. Livingstone, Popular Account of … an Expedition to the Zambesi (1875) — Gutenberg #2519, metin okundu",
+  not:"Livingstone: 'crossed over to receive orders from the chief' — kasaba sol yakada, Sekeletu'nun kampı sağ yakada. f: Ağustos 1860 — en erken belgelenen geçiş (Livingstone 1851'de de bölgedeydi). Kazungula feribotu yalnız Vikipedi/basında, YAZILMADI. Koordinat: Sesheke (-17,476/24,297) ile Katima Mulilo (-17,505/24,276) ortası." },
+
+// ─────────────── MISSISSIPPI ───────────────
+{ ad:"St. Louis Feribotu", nehir:"Mississippi", lat:38.626, lon:-90.174,
+  tur:"feribot", f:"1797-01-01", t:"1874-07-04", etki_km:15,
+  kaynak:"HAER MO-12 'The Eads Bridge' (US National Park Service / Library of Congress) — metin okundu",
+  not:"HAER: 'Ferries crossed the Mississippi River at St. Louis from 1797'. f: yalnız yıl. t: Eads Köprüsü'nün açılışı (ayrı kayıt). Koordinat: St. Louis (38,627/-90,198) ile East St. Louis (38,625/-90,151) ortası." },
+
+{ ad:"Eads Köprüsü", nehir:"Mississippi", lat:38.626, lon:-90.174,
+  tur:"kopru", f:"1874-07-04", t:"1923-10-29", etki_km:30,
+  kaynak:"HAER MO-12 'The Eads Bridge' (US National Park Service / Library of Congress) — metin okundu",
+  not:"HAER: 'formal dedication took place on July 4, 1874'. Feribotun yerine geçti (önceki kayıt). Koordinat: St. Louis–East St. Louis ortası." },
+
+{ ad:"Rock Island Demiryolu Köprüsü", nehir:"Mississippi", lat:41.516, lon:-90.578,
+  tur:"kopru", f:"1856-04-22", t:"1923-10-29", etki_km:30,
+  kaynak:"US National Archives, Prologue dergisi (Yaz 2004) — metin okundu",
+  not:"Prologue: 'On April 22, 1856, the citizens of Rock Island, Illinois, and Davenport, Iowa, cheered'. Mississippi'nin ilk köprüsü; 1866 ve 1872 köprüleri yerine geçti, geçit sürekli. Koordinat: Rock Island (41,510/-90,579) ile Davenport (41,524/-90,578) ortası." },
+
+// ─────────────── PARANÁ ───────────────
+{ ad:"Paso de la Patria Geçidi", nehir:"Paraná", lat:-27.280, lon:-58.558,
+  tur:"feribot", f:"1803-01-01", t:"1923-10-29", etki_km:15,
+  kaynak:"T. Whigham, The Road to Armageddon (University of Calgary Press 2017) bölüm 1 — metin okundu; f için Corrientes Eyalet Meclisi Expte 19065 (2024, resmî belge, akademik değil)",
+  not:"Whigham: 'the Allies' main objective of crossing the Paraná' ve 'The one permanent road through this morass linked Itapirú to Paso de la Patria'; Müttefik çıkarması 16 Nisan 1866. Corrientes belgesi geçidin 1803'te kiraya verildiğini yazıyor (belgelenen en erken yıl; eski adı Paso del Rey) — f bu ZAYIF dayanakta. Karşı yaka Itapirú / Paso de Patria (Paraguay). Koordinat: Paso de la Patria (-27,317/-58,573) ile Paso de Patria (-27,243/-58,544) ortası." },
+
+// ─────────────── MURRAY (Avustralya) ───────────────
+{ ad:"Echuca–Moama Salı", nehir:"Murray", lat:-36.122, lon:144.756,
+  tur:"feribot", f:"1854-01-01", t:"1875-01-01", etki_km:15,
+  kaynak:"Victorian Heritage Database, Echuca Wharf (yer no. 6077) — metin okundu",
+  not:"VHD: 'established in 1854 at a prominent river crossing with transport by punts to Moama'. Britannica'nın imzasız 'Echuca' maddesi 1847'yi veriyor ('Founded in 1847 as a ferrying point') — ikincil, f'e alınmadı. t: köprünün yılı (ayrı kayıt). Koordinat: Echuca (-36,141/144,752) ile Moama (-36,104/144,761) ortası." },
+
+{ ad:"Echuca–Moama Köprüsü", nehir:"Murray", lat:-36.122, lon:144.756,
+  tur:"kopru", f:"1875-01-01", t:"1923-10-29", etki_km:30,
+  kaynak:"Victorian Heritage Database, Echuca Wharf (yer no. 6077) — metin okundu",
+  not:"VHD: 'high level road/rail bridge was built in 1875' — yalnız yıl. Koordinat: Echuca–Moama ortası." },
+
+{ ad:"Murray Bridge Köprüsü", nehir:"Murray", lat:-35.120, lon:139.273,
+  tur:"kopru", f:"1879-01-01", t:"1923-10-29", etki_km:30,
+  kaynak:"South Australia Heritage Council, State Heritage Place 26373 (Summary + Assessment) — metin okundu",
+  not:"SA Heritage: 'first bridge crossing of the River Murray in South Australia; constructed between 1874 and 1879'; kronoloji '1879 Bridge opened' (gün yok). 1885'te demiryoluna uyarlandı. Wellington salları aynı belgede geçit olarak anılıyor ama tarihi YOK ⇒ YAZILMADI. Koordinat: Murray Bridge." },
 
 ];
 
@@ -455,6 +606,12 @@ window.GECITLER = [
 //    *"bir sayı bir kabul ölçütüne giriyorsa veriyi kendi dilinde ayrıştır"* —
 //    kural yazılıydı, ihlal eden onu okuyan taraftı. Kayıt burada duruyor.
 //
+//   🔴 AŞAĞIDAKİ SAYIM 22 AĞUSTOS HÂLİDİR (63). GÜNCEL — 17 Eylül 2026, GECIT-DUNYA
+//      sonrası, motorun kendi ayrıştırıcısıyla (girdi._cevir) ölçüldü:
+//      KAYIT 89 · kopru 40 · feribot 37 · kale-cifti 10 · sig-gecit 2 · ayrı nehir 51
+//      bölge: Avrupa/Orta Doğu/K.Afrika 57 · Asya 17 · Sahra altı 8 · Amerika 4 · Okyanusya 3
+//      GECIT-DUNYA'nın 26 kaydının kaynağı: akademik/resmî metin okundu 24 ·
+//      Britannica imzasız (ZAYIF, kayıtta yazılı) 2 · Vikipedi tek dayanak 0
 //   KAYIT                                          : 63
 //   tur:  kopru 29 · feribot 22 · kale-cifti 10 · sig-gecit 2
 //   ayrı nehir                                     : 37
