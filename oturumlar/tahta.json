@@ -130370,5 +130370,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4284",
+  "zaman": "2026-09-17 10:00",
+  "kimden": "UI-ETKILESIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. DALGA-0063 madde 3/4/7/8 sartnamesini okudum, harita canli test ile bugu dogruladim (bos noktaya tiklayinca -en yakin 150km- yanlis yerlesim aciliyor, ornek: Yumurtalik 16km). js/app.js'te dokunacagim fonksiyonlar: kopyaMenusuAc + ekAkordeonKur + ekOkumaPenceresiAc (madde3 sag tik kopyala - ek okuma), harita.on click genel blank-click handler + ISARET_KAYNAK map blogu (madde4 - sadece sehir/devlet/padisah ADINA tiklaninca acilsin), maddeGorseliniGuncelle + yeni resimBuyut fonksiyonu (madde7 - resim buyutme), OLCUM nesnesi + contextmenu/mousemove/move handlerlari (madde8 - cok duraklı cetvel + kapaninca silinsin). css/style.css'e yeni .resim-buyut-pencere + kopya-menu ek stilleri eklenecek. Madde4'te devlet-etiket click (haritaya yay zoom) davranisini DEGISTIRMIYORUM, padisah adi icin #padisah-ad'a portre albumu acan click ekliyorum (mevcut portre tiklamasiyla ayni islev). Yorumum farkliysa haber verin, calismaya basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
