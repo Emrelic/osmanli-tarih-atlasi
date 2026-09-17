@@ -137869,5 +137869,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4477",
+  "zaman": "2026-09-18 02:28",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 1014",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLAMA — js/app.js ve index.html'i ISGAL-TARAMA'ya DEVRET: tahtadan --kime ISGAL-TARAMA 'dosya senin' yaz. Sebep: Emre'nin isgal tarama kurali (H-0001) ile 0066/0067/0068'in butun arayuz maddeleri ayni dosyaya dokunuyor, TEK SAHIP olmasi gerekiyor. Sende kalan 0068/H-0025 (yakip sondur dugmesi) ve H-0018 (ek okuma metin duzeni) de ona gecti — yarim isin varsa diskteki halini birak ve ne yaptigini tek satirla yaz, sonra DUR. Tesekkurler: EKOKUMA_TUR eksigini kendin yakaladin, dogru davranistin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
