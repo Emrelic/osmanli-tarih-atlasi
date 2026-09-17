@@ -1,4 +1,75 @@
-# EKO-PADISAH — teslim raporu, 16 Eylül 2026 (DALGA-0052 + DALGA-0053 eki)
+# EKO-PADISAH — teslim raporu, 16-17 Eylül 2026 (DALGA-0052..0065 ekleri)
+
+## DALGA-0065 (17 Eylül, yeni dosya — madde H-0002)
+
+Madde: ünlü sözler/vecizeler. Yeni dosya `data/ekokuma_vecize.js` →
+`window.EKOKUMA_VECIZE`, **4 kart** (magazin şeması, `baslik` zorunlu — DALGA-0064
+kuralına uyuldu). node --check temiz, id çakışması yok.
+
+- **Kanûnî'nin beyti** — TDV'nin kendi maddesinde birebir alıntı, sağlam.
+- **III. Mustafa dörtlüğü** — hakemli bir akademik makaleyle (İsmail Avcı, 2021,
+  İÜ Türk Dili ve Edebiyatı Dergisi) doğrudan doğrulandı; başka padişaha
+  karıştırılma ihtimali arandı, bulunamadı.
+- **Sokullu'nun "sakal-kol" sözü** — 🔴 paketin verdiği bağlam (1569-70 Astarhan/
+  Don-Volga) YANLIŞ çıktı, araştırmayla düzeltildi: gerçek bağlam 1571-73
+  İnebahtı-Kıbrıs. Sözün kendisi hiçbir kaynakta (TDV dahil) birincil kaynağa
+  dayanmıyor — "rivayet" diye damgalandı.
+- **Koca Ragıp Paşa'nın aslan benzetmesi** — tutumu (Rusya'ya karşı ihtiyat) TDV'de
+  sağlam, ama sözün TAM METNİ hiçbir kaynakta kaynaklı değil — "rivayet".
+  Ayrıca not: Ragıp Paşa'nın `data/kisiler.js`'te hiç kaydı yok — genuine bir
+  eksiklik, koordinatöre bildirilir (EKO-VEZIR'in aynı dalgada Ragıp Paşa
+  portresiyle ilgilenen maddesiyle örtüşüyor olabilir).
+
+## DALGA-0056 eki (aynı oturum, yeni açılış yok — madde 2b + 3)
+
+Maddeler: 2b (Prut rivayetleri: Katerina-Baltacı "aşkı"/rüşvet, aslı var mı) · 3 (I. Petro
+kişi kartı → `denetim/YAMA-0056-KISI.json`). `data/ekokuma_padisah.js`'e 1 kart eklendi
+(toplam **35 kart**).
+
+- **2b** — Önce atlasın kendi 'sebep-sonuc-prut-1711' kartını (data/ekokuma_rivayet.js)
+  bulup okudum, mükerrer yazmadım; yalnız RİVAYETİN kendisini derinlemesine sınadım.
+  Sonuç üç katmanlı: aşk/cinsel ilişki iddiası hiçbir kaynakta yok; hediye/rüşvet
+  hikâyesinin kendisini TDV'nin KENDİSİ 'efsane' diye damgalıyor; izlenebilen en eski
+  yazılı iz (Voltaire, 18. yy) bile yalnız ikna/hediye anlatıyor, romantik unsur içermiyor.
+- **3** — TDV'de I. Petro'nun müstakil maddesi yok (302 ölü); kapsayıcı 'rusya' maddesi
+  denendi ve "Deli Petro" lakabının TDV'nin kendi terminolojisinde geçtiğini doğruladı.
+  Detaylar (doğum/ölüm/Poltava/Prut/St. Petersburg) TDV'de bulunamadığı için Britannica'dan.
+
+## DALGA-0055 eki (aynı oturum, yeni açılış yok — 0055 madde 6)
+
+Maddeler: A.6 (Edirne Vakası 1703, Feyzullah Efendi, darbe etiketleri + genel darbe ek
+okuması). `data/ekokuma_padisah.js`'e 2 kart eklendi (toplam **34 kart**). Konu atlasta
+aranmış, çakışma bulunmadı (yeni).
+
+- Feyzullah Efendi'nin oğluna şeyhülislamlığı miras bıraktıran fermanı TDV'nin kendi
+  ifadesiyle 'emsalsiz' — tepkinin kaynağı buydu.
+- Üç ayrı evre olduğu netleştirildi (17 Temmuz ayaklanma başlangıcı → 22 Ağustos hal' →
+  3 Eylül Feyzullah'ın linci) — atlasın ana kaydı bunu tek gün gibi (1703-08-22) veriyor,
+  bu kart üç günü de ayrı ayrı verdi.
+- İkinci kart dokuz Osmanlı darbe/hal' vakasını (1622-1909) TDV'den tek tek doğrulayıp
+  "siyasi darbe / askeri darbe" ayrımının TDV'nin KENDİ terminolojisinde olmadığını,
+  akademik literatürde VAR ama standartlaşmamış olduğunu gösterdi; dokuz vaka saf
+  askerî-tabandan ↔ karma ↔ saf siyasi-bürokratik diye bir spektrume yerleştirildi.
+
+## DALGA-0054 eki (aynı oturum, yeni açılış yok)
+
+Maddeler: H-0003 H-0008 H-0018. `data/ekokuma_padisah.js`'e 3 kart daha eklendi (toplam
+**32 kart**). Talimata uyuldu: yazmadan önce her üç konuyu da atlasta arandı.
+
+- **H-0003** (mâlikâne, diğer devletlerle kıyas) — mekanizma zaten `ekokuma_ekonomi.js` ve
+  `ekokuma_kurum.js`'te vardı (ikisi de "uluslararası kıyas bulunamadı" diye not düşmüştü).
+  Kart YALNIZ o boşluğu (Fransa Ferme Générale, İngiltere) hakemli bir iktisat tarihi
+  makalesiyle (Johnson & Koyama, 2014) doldurdu, mekanizmayı tekrarlamadı.
+- **H-0008** (II. Mustafa bizzat sefer) — TAM. Devlet ricalinin karara KARŞI ÇIKTIĞI, padişahın
+  onları ikna etmek zorunda kaldığı TDV'den doğrulandı. 🔴 ÇAPRAZ BULGU: atlasın kendi
+  `olaylar_ek7.js` kaydı "Osmanlı tarihinin bizzat sefere çıkan son sultanı" cümlesini TDV'ye
+  atfediyor; bu oturumun bağımsız TDV okuması bu cümleyi BULAMADI (ve harici kaynaklarla da
+  doğrulayamadı — Britannica 403, akademik kaynak yok). Taraf tutulmadı, ikisi de kayıtlı,
+  `olaylar_ek7.js` sahibine bildirilir gerekiyor.
+- **H-0018** ("alâ hâlihî" ilkesi — DALGA-0054'ün kendi H-0018'i, 0053'ün kafes maddesiyle
+  KARIŞTIRILMASIN, iki ayrı pakette aynı numara) — TAM. Vasvar/Karlofça/Pasarofça'da tekrarlanan
+  bir usul olduğu, Ziştovi'de ise TAM TERSİ mantığın (eski sınırlara dönüş) kullanıldığı
+  doğrulandı; "uti possidetis" karşılığı akademik kaynaktan eklendi.
 
 ## DALGA-0053 eki (aynı oturum, yeni açılış yok — koordinatör talimatı)
 
