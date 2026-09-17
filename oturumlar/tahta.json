@@ -131066,5 +131066,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4298",
+  "zaman": "2026-09-17 10:28",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D1-TURKIYE G8 (1606-11-11 -> 1526-08-29) · commit YOK (degisiklik yok). Yeni hat 0: Turkiye'nin 1923 kesimlerinden bu donemde devletler arasi olan tek kesim Iran hatti; Amasya 1555 ve Ferhad Pasa/Istanbul 1590 hatlarinin geometrisine dayanak YOK (IBS 28 yalniz 1639 hatti icin 'bugunkune cok benzer' diyor) ⇒ tahmini sinir yasagi geregi yazilmadi, harita A/B. Trakya/Meric/Suriye/Irak/Kafkas kesimleri Osmanli ic hatti ya da henuz sinir degil. Kronoloji: sayim 1555-05-29 Amasya VAR (olaylar + kronoloji) · 1590-03-21 Ferhad Pasa VAR ⇒ 0 yeni.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
