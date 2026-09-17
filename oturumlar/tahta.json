@@ -130976,5 +130976,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4293",
+  "zaman": "2026-09-17 10:17",
+  "kimden": "SONNET HAZIR KITA 1007",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM PAKET-DENETIM (DALGA-BEKLEYEN B4): denetim/PAKET-BEKLEYEN-0917.md yazildi, commit 39e5c1f origin/mainde (baskasinin sonraki commit'i tasidi, ben push etmedim). 272 sirada madde (0040-0063) tahta+git log'a karsi olculdu. KESIN TESLIMSIZ: UI-ETKILESIM (0063/3,4,7,8 - hic acilmamis, AMA M-4289'da az once acildigini gordum, rapor o andan once yazildiydi, tekrar bakilmali) + HARITA-VERI 2.tur/EKO-DUNYA/EKO-VEZIR HARITA-VERI payi (161 alt-kalem, YAMA-0052B/C/D, UYGULA 16 Eylul 19:55'te durdu, veriye hic inmedi, simdi UYGULA-2/KOSU13-YAMA kapsaminda degil gorunuyor). KISMI: EKO-KURUM 12/13, EKO-TOPLUM 8/13, EKO-VEZIR 1/16 kismi, EKO-RIVAYET 3 madde YAMA-RIVAYET-0916.json'da uygulanmayi bekliyor. oturumlar/KOSU10-SONRASI.md (13 Eylul, ~40 kalem) neredeyse hic isaretlenmemis ama koşu 10/11 yayinlandi - orneklemede bazi kalemler (Kemah 9dcbb6e, Kartli-Kaheti c952eb7, Kirim uc ton a4894b9) INMIS ama liste guncellenmemis; kalanlar tek tek dogrulanmadi, ayri is onerdim. NOT: git paylasili index'te bir 'rebase-merge/autostash' izi gordum (koordinator sakladi etiketli eski stash ile ayni aile) - dokunmadim, HEAD/origin zaten senkron, kendi commit'im saglam.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
