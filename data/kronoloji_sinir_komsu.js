@@ -118,10 +118,10 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"1804–1813 Rus-İran savaşının sonunda imzalanan Gülistan Antlaşması (md. II) ile İran Gence, Şeki, Şirvan, Bakü, Karabağ, Derbend, Kuba ve Talış hanlıklarını Rusya'ya bıraktı (TDV azerbaycan ve feth-ali-sah birlikte). Revan ve Nahçıvan hanlıkları İran'da kaldı. Tarih yalnız YIL düzeyindedir: IBS 25 imzayı 12 Ekim 1813 (onay 15 Eylül 1814, Tiflis), TDV 24 Kasım 1813 veriyor. Fark çözülmedi; 12 Ekim Jülyen takvimine göre olabilir. Hattın koordinatı elde yok.",
   kaynak:"IBS No. 25 Iran–U.S.S.R. s.4, 11 (BFSP 5:1109) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan ve iran (1813)" },
 
-{ t:"1828-02-10", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-aras-talis",
+{ t:"1828-02-22", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-aras-talis",
   b:"Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
-  d:"1826–1828 savaşını bitiren Türkmençay Antlaşması (md. IV) ile Revan ve Nahçıvan hanlıkları Rusya'ya geçti. Aras nehri Hazar'ın batısında iki devletin sınırı oldu. Rusya'ya Abbasabad karşısında Aras'ın sağ kıyısında bir köprübaşı bırakıldı; burası 1893'e kadar Rusya'da kaldı. Gün TDV ile IBS'te aynıdır; Jülyen takvimine göre olabilir. Bugünkü hat 1954–1970 değişiklikleri yüzünden 1828 hattını göstermez.",
+  d:"1826–1828 savaşını bitiren Türkmençay Antlaşması (md. IV) ile Revan ve Nahçıvan hanlıkları Rusya'ya geçti. Aras nehri Hazar'ın batısında iki devletin sınırı oldu. Rusya'ya Abbasabad karşısında Aras'ın sağ kıyısında bir köprübaşı bırakıldı; burası 1893'e kadar Rusya'da kaldı. TDV ve IBS 10 Şubat 1828 veriyor; bu Rus (Jülyen) takvimidir, 19. yüzyılda +12 gün ile Gregoryen 22 Şubat 1828 eder. Bugünkü hat 1954–1970 değişiklikleri yüzünden 1828 hattını göstermez.",
   kaynak:"TDV feth-ali-sah ('Türkmençay Antlaşması imzalandı (10 Şubat 1828)') · TDV revan · IBS No. 25 s.4, 11 (BFSP 15:669)" },
 
 { t:"1869-12-13", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-atrek",
@@ -146,10 +146,10 @@ window.KRONOLOJI_SINIR_KOMSU = [
 // İki TDV maddesi çelişiyor (yıl 1723/1724; Derbend-Bakü'nün iadesi Reşt 1732 / Gence 1735).
 // Taraf seçilmedi, çelişki metinde.
 
-{ t:"1723-09-12", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1723",
+{ t:"1723-09-23", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1723",
   b:"Petersburg Antlaşması: Derbend, Bakü ve Hazar'ın güney kıyıları Rusya'ya bırakıldı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","safevi","rusya"],
-  d:"İran'daki karışıklıktan yararlanan I. Petro Ağustos 1722'de Derbend'i işgal etti. 12 Eylül 1723'te Petersburg'da imzalanan antlaşma ile Derbend, Bakü ve Hazar'ın güney kıyılarının büyük bölümü Rusya'ya bırakıldı. TDV'nin dagistan maddesi bu antlaşmayı 1724'e koyuyor; gün derbend--dagistan maddesinden alındı. Hattın koordinatı yok.",
+  d:"İran'daki karışıklıktan yararlanan I. Petro Ağustos 1722'de Derbend'i işgal etti. 12 Eylül 1723'te Petersburg'da imzalanan antlaşma ile Derbend, Bakü ve Hazar'ın güney kıyılarının büyük bölümü Rusya'ya bırakıldı. TDV'nin dagistan maddesi bu antlaşmayı 1724'e koyuyor. Gün: TDV derbend--dagistan '12 Eylül 1723' veriyor; bu Rus (Jülyen) takvimidir, 18. yüzyılda +11 gün ile Gregoryen 23 Eylül 1723 eder. Hattın koordinatı yok.",
   kaynak:"TDV derbend--dagistan ('12 Eylül 1723’te Petersburg’da imzalanan antlaşma') · TDV baku ('1723’te I. Petro tarafından Rus topraklarına katıldı') · TDV dagistan (1724 — çelişki)" },
 
 { t:"1732-01-01", devlet:"safevi", devletler:["safevi","rusya"], sinir_id:"g6-rus-safevi-DEGISTI-hazar-kiyisi-1732",

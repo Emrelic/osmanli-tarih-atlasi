@@ -363,7 +363,7 @@ yok("d1923-bg-ro-DEGISTI-dobruca", BG, RO, "1920-01-01", dob_kutu.bounds,
 # ================= İRAN · KAFKASYA =================
 yok("d1923-sscb-ir-DEGISTI-aras-talis", SV, IR, "1921-02-26", (44.75, 38.35, 48.95, 39.75),
     {"deger": True, "kaynak": "IBS 25", "not": "2 Ara 1954 Tahran anl. (Mugan · Dyman · Yedi Evlar ↔ Namin; Aras'ta talveg); 11 Nis 1957 işaret; 7 May 1970 baraj gölleri"},
-    [{"ad": "Türkmençay Antlaşması", "madde": "md. IV", "tarih": "1828-02-10", "tur": "antlaşma"},
+    [{"ad": "Türkmençay Antlaşması", "madde": "md. IV", "tarih": "1828-02-22", "tur": "antlaşma"},
      {"ad": "IBS No. 25 Iran–U.S.S.R.", "tur": "resmî sınır çalışması", "url": IBS % 25,
       "alinti": "By 1957, the boundary west of the Caspian had been demarcated"}],
     "Envanter K6 · sınıf C (1828 metni var, yerinde işaret yok). f: 1921 Sovyet-İran antlaşması (sınır hükmü getirmedi). Kutu TAHMİNİ")
@@ -381,8 +381,8 @@ yok("d1923-sscb-ir-DEGISTI-hazar-serahs", SV, IR, "1921-02-26", (53.85, 35.55, 6
 # IBS 25 s.4-5, 11-12. Rus tarihleri IBS'te tek (1813, 1828, 1869) ya da çift (1881 "9-21 Ara", 1893 "27 May-8 Haz")
 # yazılmış; tek yazılanlar Jülyen olabilir (D110) — TDV feth-ali-sah Türkmençay'ı da 10 Şubat 1828 veriyor.
 IBS25 = {"ad": "IBS No. 25 Iran–U.S.S.R.", "tur": "resmî sınır çalışması", "url": IBS % 25, "sayfa": "s.4-5, 11-12"}
-TURKMENCAY = {"ad": "Türkmençay Antlaşması", "madde": "md. IV", "tarih": "1828-02-10", "tur": "antlaşma",
-              "kaynak": "IBS 25 (BFSP 15:669) · TDV feth-ali-sah ('10 Şubat 1828')",
+TURKMENCAY = {"ad": "Türkmençay Antlaşması", "madde": "md. IV", "tarih": "1828-02-22", "tur": "antlaşma",
+              "kaynak": "IBS 25 (BFSP 15:669) · TDV feth-ali-sah ('10 Şubat 1828' = Jülyen; Gregoryen 22 Şubat, +12 gün)",
               "alinti": "delimited, with minor exceptions, the present boundary west of the Caspian"}
 RUS_DONEM = [("rusya", None, "1893-06-08"), ("rusya", "1893-06-08", "1917-03-15"),
              ("rusya-gecici-hukumet", "1917-03-15", "1917-11-07")]
@@ -393,7 +393,7 @@ KUTU_GULISTAN = (43.40, 38.30, 49.00, 41.60)
 for kim, f0, t0 in RUS_DONEM:
     etk = "G2" if kim != "rusya" else ("G3" if f0 else "G4")
     ek = "-1893" if (kim == "rusya" and f0) else ""
-    yok(f"{etk.lower()}-rus-ir-DEGISTI-aras-talis{ek}", kim, IR, f0 or "1828-02-10", KUTU_ARAS,
+    yok(f"{etk.lower()}-rus-ir-DEGISTI-aras-talis{ek}", kim, IR, f0 or "1828-02-22", KUTU_ARAS,
         {"deger": True, "kaynak": "IBS 25", "not": "Türkmençay hattı; 1893 Abbasabad köprübaşı İran'a döndü; 1954/1957/1970 değişiklikleri"},
         [TURKMENCAY, IBS25], f"GERİYE SARMA {etk}: Türkmençay'dan beri Aras/Talış hattı; koordinatı yok", t=t0)
     yok(f"{etk.lower()}-rus-ir-DEGISTI-hazar-serahs{ek}", kim, IR, f0 or "1881-12-21", KUTU_HAZAR,
@@ -419,7 +419,7 @@ yok("g5-rus-ir-DEGISTI-gulistan", "rusya", IR, "1813-01-01", KUTU_GULISTAN,
       "kaynak": "IBS 25 (BFSP 5:1109; '12 October, 1813', onay 15 Eylül 1814 Tiflis) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan",
       "not": "GÜN ÇELİŞİK: IBS 12 Ekim (muhtemelen Jülyen = 24 Ekim) ↔ TDV 24 Kasım ⇒ YIL düzeyinde yazıldı"}, IBS25],
     "GERİYE SARMA G5: Gülistan'dan Türkmençay'a; kutu Revan–Gürcistan ve Talış kesimlerini kaba kaplar (TAHMİNİ). 1804-1813 savaş/işgal hatları yazılmadı",
-    t="1828-02-10")
+    t="1828-02-22")
 
 # G6: Rus–Safevî Hazar kıyısı (1723 Petersburg → 1732 Reşt → 1735 Gence). Koordinatsız ⇒ YOK.
 TDV_DERBEND = {"ad": "TDV derbend--dagistan", "tur": "TDV", "kaynak": "islamansiklopedisi.org.tr/derbend--dagistan",
@@ -427,7 +427,7 @@ TDV_DERBEND = {"ad": "TDV derbend--dagistan", "tur": "TDV", "kaynak": "islamansi
 TDV_DAGISTAN = {"ad": "TDV dagistan", "tur": "TDV", "kaynak": "islamansiklopedisi.org.tr/dagistan",
                 "not": "ÇELİŞKİ: antlaşmayı 1724'e koyuyor ve Derbend-Bakü'nün 1732 Reşt ile geri alındığını söylüyor; derbend--dagistan 1735 Gence diyor"}
 KUTU_HAZAR_KIYI = (47.00, 36.30, 55.00, 42.20)
-yok("g6-rus-safevi-DEGISTI-hazar-kiyisi-1723", "rusya", "safevi", "1723-09-12", KUTU_HAZAR_KIYI,
+yok("g6-rus-safevi-DEGISTI-hazar-kiyisi-1723", "rusya", "safevi", "1723-09-23", KUTU_HAZAR_KIYI,  # TDV 12 Eylül = Jülyen
     {"deger": True, "kaynak": "TDV derbend--dagistan", "not": "Derbend, Bakü ve Hazar'ın güney kıyılarının büyük bölümü Rusya'ya"},
     [TDV_DERBEND, TDV_DAGISTAN],
     "GERİYE SARMA G6: taraf 'safevi' (II. Tahmasb'ın elçisi imzaladı; İsfahan 1722'den beri Afgan elinde). Hat koordinatsız, kutu TAHMİNİ",
