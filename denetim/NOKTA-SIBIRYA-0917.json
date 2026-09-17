@@ -1,0 +1,1202 @@
+{
+ "_ne": "NOKTA-SIBIRYA (D1-TURKIYE) · 17 Eylül 2026 · denetim/NOKTASIZLIK-ADAY-0917.json Sibirya-Orta Asya 68 kümesi",
+ "yontem": [
+  "GeoNames allCountries: küme merkezine max(120 km, 1,2 × eşdeğer yarıçap) içindeki P sınıfı yerleşimler — 12.114 aday",
+  "küme başına en yakın 30 Rusça adlı aday (1.357) ЭСБЕ/МЭСБЕ başlıklarında arandı — 56 başlık, çoğu eşsesli (Кана · Итака · Бони ...)",
+  "ESBE bölge kategorileri (21 kategori, 2.321 madde) tam çekildi; 'основан/построен/заложен … YYYY' cümlesi olan yerleşimler küme adaylarıyla ad eşlemesi — 6 eşleşme, 2'si gerçek (Akşa · Verholensk), 4'ü eşsesli Раздольное",
+  "hedefli ad listesi (≈60 tarihî ostrog/stanitsa/Qing kalesi) tek tek sorgulandı",
+  "yazma şartı: kaynak KURULUŞ YILINI veriyor + atlas noktasına > 3 km + küme içinde/kenarında"
+ ],
+ "sayilar": {
+  "kume": 68,
+  "nokta_yazilan_kume": 4,
+  "nokta": 4
+ },
+ "bulunamadi_kaynak_var_yil_yok": [
+  {
+   "ad": "Jelezinskaya (Железинская станица)",
+   "kaynak": "ЭСБЕ/МЭСБЕ «Железинская»: 'упраздненная крепость; до 1807 г. здесь находилась таможенная застава' — kuruluş yılı YOK",
+   "kume": "52.53/75.55 (Pavlodar | Omsk)"
+  },
+  {
+   "ad": "Uil tahkimatı (Уильское укрепление)",
+   "kaynak": "ЭСБЕ: kuruluş yılı YOK",
+   "kume": "48.42/54.81 (Aktöbe | Guryev | Emba)"
+  },
+  {
+   "ad": "Habarovo pogostu (Югорский Шар)",
+   "kaynak": "ЭСБЕ/МЭСБЕ «Хабарово»: 1893 Nansen ziyareti; kuruluş yılı YOK",
+   "kume": "69.2/61.56 (Vaygaç)"
+  },
+  {
+   "ad": "Mergen (Nenjiang)",
+   "kaynak": "ЭСБЕ «Мерген»: Qing duvarlı şehir; kuruluş yılı YOK",
+   "kume": "49.44/124.56 (Qiqihar | Aigun)"
+  },
+  {
+   "ad": "Kejma (Кежма)",
+   "kaynak": "МЭСБЕ: 'при устье с. К., место сбора ясака' — yıl YOK",
+   "kume": "58.07/96.79 (Kansk)"
+  },
+  {
+   "ad": "Temir",
+   "kaynak": "МЭСБЕ «Темир»: 'Основ. 1879' — AMA küme 48.42/54.81 merkezine 187 km (yarıçap 60) ⇒ kümeyi kapatmaz, yazılmadı"
+  }
+ ],
+ "yama_onerisi": [
+  {
+   "dosya": "data/yerlesimler_sibirya2.js",
+   "ad": "Verholensk",
+   "alan": "lat/lon",
+   "eski": [
+    53.94,
+    107.28
+   ],
+   "yeni": [
+    54.09305,
+    105.56946
+   ],
+   "kaynak": "ЭСБЕ «Верхоленск»: 'на правом берегу р. Лены, против впадения в нее р. Куленги' · 'основание ему положено в 1641 г. постройкой острога' · 'в 1647 г. острог перенесен выше по р. Лене, к устью р. Куленги' · GeoNames 2013470 Verkholensk",
+   "olcum": "eski nokta gerçek yerden 113 km (Baykal kıyısına yakın); küme 55.1/106.17 (Verholensk | Balagansk) bu kaymayla şişiyor olabilir"
+  },
+  {
+   "dosya": "data/yerlesimler_sibirya2.js",
+   "ad": "Irgen",
+   "alan": "kur + lat/lon + son",
+   "kaynak": "ЭСБЕ «Ирген» (göl maddesi, imza Л. В.): 'В 1653 г. Бекетов основал здесь Иргенский острог, который впоследствии был уничтожен' · göl 'в вершинах р. Хилока'",
+   "olcum": "kayıt kur:1654 (cyberleninka) — ESBE 1653: ÇELİŞKİ. Nokta 51.8/112.3, GeoNames Irgen' köyü (2023478, 51.985/112.579) 28 km; kaydın kendi notu 'koordinat yaklaşık'. Kayıt 1923'e kadar sürüyor, ESBE 'sonradan yıkıldı' diyor — bitiş günü BULUNAMADI. Öneri: kaynak bulunana kadar dokunma, çelişkiyi kayda yaz."
+  }
+ ],
+ "cakisma": [
+  {
+   "kayitlar": [
+    "Habarovka (yerlesimler_ek13.js)",
+    "Kazakevičevo (bu dosya)"
+   ],
+   "konu": "Habarovka qing-hanedani'yi 1860-11-14'e kadar sürdürüyor; Kazakevičevo ESBE'ye göre 1858'de Rus stanitsası olarak kuruldu ve rusya 1858'den boyandı. Habarovka da 1858 Rus karakoludur. Fiilî/hukukî seçimi 1.MURAT'ın."
+  }
+ ],
+ "kumeler": [
+  {
+   "merkez": [
+    57.36,
+    111.99
+   ],
+   "km2": 118578,
+   "komsular": [
+    "Bodaybo",
+    "Kirensk",
+    "Bauntovsk"
+   ],
+   "geonames_aday": 186,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    43.83,
+    92.24
+   ],
+   "km2": 90439,
+   "komsular": [
+    "Hâmi (Kumul)",
+    "Turfan",
+    "Ürümçi (Dihua)"
+   ],
+   "geonames_aday": 963,
+   "esbe_sorgulanan": 10,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    55.04,
+    125.68
+   ],
+   "km2": 76477,
+   "komsular": [
+    "Albazin",
+    "Zeya (Zeyskiy Sklad)"
+   ],
+   "geonames_aday": 235,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    45.81,
+    102.43
+   ],
+   "km2": 58280,
+   "komsular": [
+    "Bayanhongor",
+    "Urga (Ulan Batur)",
+    "Karakurum"
+   ],
+   "geonames_aday": 76,
+   "esbe_sorgulanan": 6,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    48.7,
+    134.78
+   ],
+   "km2": 53536,
+   "komsular": [
+    "Habarovka"
+   ],
+   "geonames_aday": 699,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 3,
+   "bolge": "rus-sibirya",
+   "yazilan": [
+    "Kazakevičevo (Kazakevičeva stanitsası)"
+   ],
+   "hukum": "NOKTA YAZILDI"
+  },
+  {
+   "merkez": [
+    66.86,
+    101.06
+   ],
+   "km2": 48403,
+   "komsular": [
+    "Essey"
+   ],
+   "geonames_aday": 4,
+   "esbe_sorgulanan": 3,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    66.53,
+    125.3
+   ],
+   "km2": 45353,
+   "komsular": [
+    "Jigansk",
+    "Yakut toprakları (Orta Lena)"
+   ],
+   "geonames_aday": 26,
+   "esbe_sorgulanan": 21,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    62.64,
+    108.9
+   ],
+   "km2": 42546,
+   "komsular": [
+    "Yerbogaçen"
+   ],
+   "geonames_aday": 21,
+   "esbe_sorgulanan": 15,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    60.52,
+    128.64
+   ],
+   "km2": 37332,
+   "komsular": [
+    "Yakutsk"
+   ],
+   "geonames_aday": 80,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    66.59,
+    164.17
+   ],
+   "km2": 36586,
+   "komsular": [
+    "Ostrovnoye (Anyuy panayırı)",
+    "Nijnekolımsk"
+   ],
+   "geonames_aday": 8,
+   "esbe_sorgulanan": 4,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    47.74,
+    74.48
+   ],
+   "km2": 35334,
+   "komsular": [
+    "Karkaralinsk (Karkaralı)"
+   ],
+   "geonames_aday": 97,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    66.11,
+    132.8
+   ],
+   "km2": 35226,
+   "komsular": [
+    "Verhoyansk"
+   ],
+   "geonames_aday": 59,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    52.53,
+    75.55
+   ],
+   "km2": 31917,
+   "komsular": [
+    "Pavlodar (Koryakov)",
+    "Omsk"
+   ],
+   "geonames_aday": 279,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    70.42,
+    75.14
+   ],
+   "km2": 29524,
+   "komsular": [
+    "Yamal ucu"
+   ],
+   "geonames_aday": 8,
+   "esbe_sorgulanan": 5,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    64.08,
+    87.93
+   ],
+   "km2": 28388,
+   "komsular": [
+    "Turuhansk"
+   ],
+   "geonames_aday": 17,
+   "esbe_sorgulanan": 17,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    45.88,
+    118.21
+   ],
+   "km2": 28190,
+   "komsular": [
+    "Halhın Gol (Buir Nur)"
+   ],
+   "geonames_aday": 24,
+   "esbe_sorgulanan": 0,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    49.44,
+    124.56
+   ],
+   "km2": 28100,
+   "komsular": [
+    "Qiqihar",
+    "Aigun"
+   ],
+   "geonames_aday": 1532,
+   "esbe_sorgulanan": 15,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    64.03,
+    150.33
+   ],
+   "km2": 27700,
+   "komsular": [
+    "Verhnekolımsk",
+    "Kolıma havzası (Yukagir toprakları)"
+   ],
+   "geonames_aday": 12,
+   "esbe_sorgulanan": 11,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    50.29,
+    113.53
+   ],
+   "km2": 27372,
+   "komsular": [
+    "Irgen",
+    "Nerçinsk",
+    "Çita"
+   ],
+   "geonames_aday": 139,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-sibirya",
+   "yazilan": [
+    "Akşa (Akşinsk kalesi)"
+   ],
+   "hukum": "NOKTA YAZILDI"
+  },
+  {
+   "merkez": [
+    61.73,
+    136.52
+   ],
+   "km2": 27027,
+   "komsular": [
+    "Ust-Maya"
+   ],
+   "geonames_aday": 69,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    62.96,
+    176.48
+   ],
+   "km2": 26339,
+   "komsular": [
+    "Anadır (Anadyrsk)"
+   ],
+   "geonames_aday": 9,
+   "esbe_sorgulanan": 6,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    67.45,
+    66.21
+   ],
+   "km2": 25623,
+   "komsular": [
+    "Obdorsk (Salehard)"
+   ],
+   "geonames_aday": 47,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    65.32,
+    79.61
+   ],
+   "km2": 24429,
+   "komsular": [
+    "Mangazeya"
+   ],
+   "geonames_aday": 12,
+   "esbe_sorgulanan": 7,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    57.93,
+    102.01
+   ],
+   "km2": 24230,
+   "komsular": [
+    "Bratsk ostrogu"
+   ],
+   "geonames_aday": 72,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    59.93,
+    93.83
+   ],
+   "km2": 24017,
+   "komsular": [
+    "Yeniseysk"
+   ],
+   "geonames_aday": 31,
+   "esbe_sorgulanan": 23,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    66.73,
+    92.84
+   ],
+   "km2": 23116,
+   "komsular": [
+    "Hantayka zimovyesi"
+   ],
+   "geonames_aday": 2,
+   "esbe_sorgulanan": 1,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    58.8,
+    122.05
+   ],
+   "km2": 22370,
+   "komsular": [
+    "Olyokminsk"
+   ],
+   "geonames_aday": 18,
+   "esbe_sorgulanan": 15,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    63.4,
+    130.54
+   ],
+   "km2": 22124,
+   "komsular": [
+    "Yakutsk"
+   ],
+   "geonames_aday": 103,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    62.08,
+    155.08
+   ],
+   "km2": 21741,
+   "komsular": [
+    "Penjina havzası (kuzey Koryak)",
+    "Yama zimovyesi"
+   ],
+   "geonames_aday": 29,
+   "esbe_sorgulanan": 26,
+   "esbe_madde_bulunan": 3,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    62.86,
+    74.87
+   ],
+   "km2": 21520,
+   "komsular": [
+    "Surgut"
+   ],
+   "geonames_aday": 32,
+   "esbe_sorgulanan": 23,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    55.1,
+    106.17
+   ],
+   "km2": 21112,
+   "komsular": [
+    "Verholensk",
+    "Balagansk"
+   ],
+   "geonames_aday": 103,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    52.27,
+    138.65
+   ],
+   "km2": 20930,
+   "komsular": [
+    "Nikolayevsk (Amur ağzı)"
+   ],
+   "geonames_aday": 83,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 3,
+   "bolge": "rus-sibirya",
+   "yazilan": [
+    "Sofiysk (Amur)"
+   ],
+   "hukum": "NOKTA YAZILDI"
+  },
+  {
+   "merkez": [
+    64.74,
+    61.89
+   ],
+   "km2": 20368,
+   "komsular": [
+    "Berezov"
+   ],
+   "geonames_aday": 37,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    53.13,
+    134.07
+   ],
+   "km2": 20353,
+   "komsular": [
+    "Udskoy ostrogu"
+   ],
+   "geonames_aday": 39,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 3,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    61.19,
+    148.76
+   ],
+   "km2": 20169,
+   "komsular": [
+    "Tauysk"
+   ],
+   "geonames_aday": 67,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    63.93,
+    115.97
+   ],
+   "km2": 19822,
+   "komsular": [
+    "Suntar"
+   ],
+   "geonames_aday": 25,
+   "esbe_sorgulanan": 23,
+   "esbe_madde_bulunan": 5,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    70.62,
+    106.15
+   ],
+   "km2": 19815,
+   "komsular": [
+    "Hatanga"
+   ],
+   "geonames_aday": 0,
+   "esbe_sorgulanan": 0,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    44,
+    142.9
+   ],
+   "km2": 19677,
+   "komsular": [
+    "Sapporo",
+    "Korsakov (Güney Sahalin)"
+   ],
+   "geonames_aday": 1128,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    49.23,
+    70.53
+   ],
+   "km2": 19645,
+   "komsular": [
+    "Akmola (Akmolinsk)"
+   ],
+   "geonames_aday": 96,
+   "esbe_sorgulanan": 19,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    72.93,
+    94.52
+   ],
+   "km2": 19264,
+   "komsular": [
+    "Voloçanka (Voloçanı zimovyesi)"
+   ],
+   "geonames_aday": 0,
+   "esbe_sorgulanan": 0,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    46.69,
+    88.22
+   ],
+   "km2": 18976,
+   "komsular": [
+    "Altay (Şara Sume)"
+   ],
+   "geonames_aday": 276,
+   "esbe_sorgulanan": 10,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    64.71,
+    68.79
+   ],
+   "km2": 18726,
+   "komsular": [
+    "Obdorsk (Salehard)",
+    "Berezov"
+   ],
+   "geonames_aday": 21,
+   "esbe_sorgulanan": 15,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    71.31,
+    125.58
+   ],
+   "km2": 18334,
+   "komsular": [
+    "Bulun"
+   ],
+   "geonames_aday": 19,
+   "esbe_sorgulanan": 17,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    63.63,
+    53.8
+   ],
+   "km2": 18138,
+   "komsular": [
+    "Ust-Tsilma",
+    "Ust-Sısolsk (Sıktıvkar)"
+   ],
+   "geonames_aday": 99,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    70.05,
+    146.56
+   ],
+   "km2": 17797,
+   "komsular": [
+    "Uyandina (Nijneindigirsk) zimovyesi"
+   ],
+   "geonames_aday": 64,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    45.98,
+    130.25
+   ],
+   "km2": 17395,
+   "komsular": [
+    "Ningguta"
+   ],
+   "geonames_aday": 3262,
+   "esbe_sorgulanan": 7,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    60.45,
+    82.65
+   ],
+   "km2": 17280,
+   "komsular": [
+    "Ket Ostrogu (Ketsk)"
+   ],
+   "geonames_aday": 18,
+   "esbe_sorgulanan": 16,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    44.54,
+    74.99
+   ],
+   "km2": 16869,
+   "komsular": [
+    "Balasagun (Ak-Beşim)",
+    "Almatı (Vernıy)"
+   ],
+   "geonames_aday": 140,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    48.33,
+    68.61
+   ],
+   "km2": 16496,
+   "komsular": [
+    "Kazak bozkırı (Sarısu)"
+   ],
+   "geonames_aday": 56,
+   "esbe_sorgulanan": 29,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    71.35,
+    116.11
+   ],
+   "km2": 16037,
+   "komsular": [
+    "Ust-Olenyok zimovyesi"
+   ],
+   "geonames_aday": 10,
+   "esbe_sorgulanan": 9,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    53.81,
+    119.01
+   ],
+   "km2": 15968,
+   "komsular": [
+    "Sretensk"
+   ],
+   "geonames_aday": 105,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 6,
+   "bolge": "rus-sibirya",
+   "yazilan": [
+    "Gorbitsa (Gorbiçenskaya)"
+   ],
+   "hukum": "NOKTA YAZILDI"
+  },
+  {
+   "merkez": [
+    49.8,
+    129.71
+   ],
+   "km2": 15917,
+   "komsular": [
+    "Blagoveşçensk"
+   ],
+   "geonames_aday": 605,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    58.11,
+    86.58
+   ],
+   "km2": 15237,
+   "komsular": [
+    "Tomsk",
+    "Açinsk"
+   ],
+   "geonames_aday": 160,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 3,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    64.01,
+    165.01
+   ],
+   "km2": 15055,
+   "komsular": [
+    "Penjinsk ostrogu",
+    "Koryak toprakları"
+   ],
+   "geonames_aday": 2,
+   "esbe_sorgulanan": 2,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    58.07,
+    96.79
+   ],
+   "km2": 14928,
+   "komsular": [
+    "Kansk"
+   ],
+   "geonames_aday": 89,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    68.25,
+    58.18
+   ],
+   "km2": 14556,
+   "komsular": [
+    "Vaygaç"
+   ],
+   "geonames_aday": 12,
+   "esbe_sorgulanan": 10,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    55.8,
+    156.5
+   ],
+   "km2": 14314,
+   "komsular": [
+    "Kamçatka (İtelmen toprakları)"
+   ],
+   "geonames_aday": 19,
+   "esbe_sorgulanan": 14,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    58.66,
+    118.79
+   ],
+   "km2": 14148,
+   "komsular": [
+    "Olyokminsk"
+   ],
+   "geonames_aday": 30,
+   "esbe_sorgulanan": 24,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    63.58,
+    159.94
+   ],
+   "km2": 13976,
+   "komsular": [
+    "Gijiga"
+   ],
+   "geonames_aday": 20,
+   "esbe_sorgulanan": 12,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    67.62,
+    172.08
+   ],
+   "km2": 13390,
+   "komsular": [
+    "Çukotka merkezi"
+   ],
+   "geonames_aday": 5,
+   "esbe_sorgulanan": 5,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    53.09,
+    142.61
+   ],
+   "km2": 13302,
+   "komsular": [
+    "Nikolayevsk (Amur ağzı)",
+    "Aleksandrovsk (Kuzey Sahalin)"
+   ],
+   "geonames_aday": 118,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    62.04,
+    57.27
+   ],
+   "km2": 13103,
+   "komsular": [
+    "Çerdın"
+   ],
+   "geonames_aday": 88,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 5,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    69.2,
+    61.56
+   ],
+   "km2": 12629,
+   "komsular": [
+    "Vaygaç"
+   ],
+   "geonames_aday": 15,
+   "esbe_sorgulanan": 12,
+   "esbe_madde_bulunan": 2,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    49.72,
+    114.61
+   ],
+   "km2": 12599,
+   "komsular": [
+    "Kerulen (Çoybalsan)"
+   ],
+   "geonames_aday": 87,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    71.32,
+    86.23
+   ],
+   "km2": 12237,
+   "komsular": [
+    "Dudinka"
+   ],
+   "geonames_aday": 17,
+   "esbe_sorgulanan": 14,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    50.83,
+    66.81
+   ],
+   "km2": 11896,
+   "komsular": [
+    "Kazak bozkırı (İşim)"
+   ],
+   "geonames_aday": 187,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    48.42,
+    54.81
+   ],
+   "km2": 11494,
+   "komsular": [
+    "Aktöbe",
+    "Guryev (Atyrau)",
+    "Emba (Cem)"
+   ],
+   "geonames_aday": 108,
+   "esbe_sorgulanan": 30,
+   "esbe_madde_bulunan": 1,
+   "bolge": "rus-disi-ya-da-karma (Kazak bozkırı / Moğolistan / Mançurya / Sincan / Hokkaido)",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  },
+  {
+   "merkez": [
+    60.75,
+    169.46
+   ],
+   "km2": 10883,
+   "komsular": [
+    "Olyutorsk (Arhangelsk)"
+   ],
+   "geonames_aday": 15,
+   "esbe_sorgulanan": 11,
+   "esbe_madde_bulunan": 0,
+   "bolge": "rus-sibirya",
+   "yazilan": [],
+   "hukum": "KAYNAKLI KURULUŞ YILI BULUNAMADI — boşluk ŞİMDİLİK kalır (tahmini nokta yazılmadı)"
+  }
+ ]
+}
