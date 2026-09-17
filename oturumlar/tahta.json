@@ -137455,5 +137455,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4454",
+  "zaman": "2026-09-18 01:46",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR-YURUYUS",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0068 H-0010/H-0012 OLCUM ISI: (10) iki ulke arasindaki sahipsiz serit veri kusuru mu motorun tavan/yuruyus hesabi mi — olc, hukum ver. (12) Anapa'nin kuzey etki alani nehri gecemeyip nehre yasliyor mu (yuruyus acik). KOSU 13 SURUYOR — arac/uret_petek.py'yi DEGISTIRME, yalniz olc ve oner. Sartname oturumlar/DALGA-0068.md (gorseller ClaudEmre/kutu/giden/parti-emrelic-0068). CLAUDE.md §7.2 gecerli: teslim TEK tahta mesaji, sonra DUR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
