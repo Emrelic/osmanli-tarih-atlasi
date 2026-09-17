@@ -1,0 +1,180 @@
+{
+  "paket": "0067-CERKEZISTAN",
+  "madde": "DALGA-0067 · H-0001 — 'Anapa Kalesi inşa edilince Çerkezistan Osmanlı'ya mı dahil olmuş oldu; Soçi, Şaşe, Tuapse, Maykop gibi yerler Osmanlı egemenliğine mi geçmiş oldu — kronolojiyi teyit edelim'",
+  "tarih": "2026-09-17",
+  "yazan": "KARADENIZ-KAFKAS (Opus 1011) · koordinatör 1.MURAT · sevk tahta M-4440 · şartname oturumlar/DALGA-0067.md",
+  "durum": "ÖNERİ — veri dosyalarına YAZILMADI; indirme 1.MURAT'ın",
+  "on_is": "0066/H-0022 (denetim/YAMA-KARADENIZ-0917.json) bu oturumun kendi ölçümü. denetim/YAMA-0064-KARADENIZ.json H-1 (D2-KOMSU) aynı üç kaydı zaten 'd → v' diye önermişti; bu yama onu TEKRARLAMIYOR, DELİLLENDİRİYOR ve eksik kalan iki ucu (künye + 1829 sonrası) kapatıyor.",
+
+  "kisa_cevap": {
+    "soru_1": "Anapa kurulunca Çerkezistan Osmanlı'ya dahil mi oldu?",
+    "cevap_1": "HAYIR. Anapa (1781-1784) bir DAHİL ETME değil bir SAVUNMA tahkimatıdır: TDV anapa kalenin gerekçesini 'Ruslar'ın Kuban yöresine asker yığmaları ve Osmanlı idaresi altındaki Çerkezler'le Abazalar üzerinde baskı uygulamaları üzerine … Kuzey Kafkasya savunma hattını kuvvetlendirme planı' diye veriyor. Osmanlı'nın kıyıdaki hâkimiyet iddiası Anapa'dan ÜÇ ASIR ÖNCEYE dayanıyor (1475/1479), yani Anapa yeni bir egemenlik doğurmadı.",
+    "soru_2": "Soçi · Şaşe · Tuapse · Maykop Osmanlı egemenliğine mi geçti?",
+    "cevap_2": "Kıyı ile iç kesim AYRI (D030: sefer/iddia ≠ tasarruf). ① Kıyı (Taman-Soçi arası): TDV 'Aşağıra Çerkezleri Osmanlı hâkimiyetini tanıdı … Karadeniz kıyıları bu tarihten itibaren üç asır boyunca Osmanlı hâkimiyetinde kaldı' — bu bir TANIMA/hâkimiyet bağıdır, doğrudan idare değil; Osmanlı'nın fiilen tuttuğu yer KALELERDİR (Anapa, Soğucak, Gelincik, Sohum, Faş). ② İç kesim (Maykop = Abzeh yurdu): TDV gövdesinde Maykop tarihî olarak HİÇ geçmiyor (yalnız görsel altyazısında); Osmanlı idaresine dair tek cümle yok. ③ Çerkezlerin kendi statüsü: 'hukuken Kırım Hanlığı'na tâbi, gerçekte ise serbest'. ⇒ Atlasın 1783-1829 arası DOĞRUDAN OSMANLI (d) boyaması kaynaksızdır.",
+    "soru_3": "Ad notu",
+    "cevap_3": "Şaşe ile Soçi AYNI yerdir — atlas kaydının adı zaten 'Soçi (Sâşe)'. Dolayısıyla soru dört değil ÜÇ yerleşim kaydını ilgilendiriyor (Soçi/Şaşe · Tuapse · Maykop). 'Sâşe' yazımı okunan on TDV maddesinin hiçbirinde geçmiyor; atlas adıdır, kaynak adı değil."
+  },
+
+  "en_guclu_delil": "Kayıtların KENDİ `neden` alanı 1783-1829 dolgusunun kaynaksız olduğunu zaten yazıyor: \"1783-1829 arasi bos birakilmadi, komsu Anapa'nin deseniyle `d:OSMANLI` konuldu (Edirne 1829'a kadar Osmanli iddiasi)\" (Soçi · Tuapse · Maykop, üçünde de aynı cümle). ⇒ Bu bir KOMŞU DESENİ kopyası ve bir İDDİA; atlasın kendi şemasında iddia/tâbilik `v:`dir, `d:` değil.",
+
+  "olcum": {
+    "etkilenen_alan": "taban petek gövdeleri (data/petek_govde.js, 14:54 üretimi): Soçi (Sâşe) 5.405 km² · Tuapse 5.239 km² · Maykop (Çerkezya) 14.113 km² = 24.757 km². Anapa 7.211 km² AYRI (d kalıyor).",
+    "sure": "d:OSMANLI 1783-04-19 → 1829-09-14 = 46,4 yıl · rusya 1829-09-14'ten = TDV'ye göre Soçi/Tuapse'de 8,3 yıl, Maykop'ta 34,3 yıl ERKEN",
+    "kaynak_taramasi": "10 TDV maddesi gövdesiyle okundu; soci · tuapse · maykop · ubihlar · abzehler · sapsiglar sluglarının ALTISI DA 302 (ölü) ⇒ yer düzeyinde madde yok, kapsayıcı madde `cerkezler` kullanıldı (§4: kapsayıcı madde genellikle YER ya da KİŞİ maddesidir).",
+    "kunye": "data/devletler.js'te Çerkez kimliği YOK (cerkez · cerkes · adige · abzeh · sapsig · natuhay · ubih arandı; bolge:\"kafkasya\" künyelerinin tamamı listelendi: gurcistan · imereti · sirvansah · kabartay · kumuk-samhalligi · kaheti-kralligi · transkafkasya · üç 1918 cumhuriyeti). arac/renkler.py'de de yok."
+  },
+
+  "kronoloji_teyidi": [
+    {"tarih": "X-XII. yy", "olay": "Çerkezlerin etnik oluşumu tamamlandı", "kaynak": "TDV cerkezler", "atlas": "—"},
+    {"tarih": "XIII-XIV. yy", "olay": "Moğol-Tatar istilâları; Cenevizliler Kefe, Azak, Taman, Temrük, Anapa kolonilerini kurdu (Soçi/Tuapse ANILMIYOR)", "kaynak": "TDV cerkezler", "atlas": "altinorda 1281→1441 (1441 KIRIM'ın kuruluş yılı — Çerkez kaynağı yok, C-4)"},
+    {"tarih": "1427-1456", "olay": "Prens Yinal Çerkezlerin büyük kısmını yönetimi altında birleştirdi", "kaynak": "TDV cerkezler", "atlas": "__BOSLUK__ 1441→1475 (künye olmadığı için ARA ÇÖZÜM — C-4)"},
+    {"tarih": "1475 · 1479", "olay": "Gedik Ahmed Paşa (1475) ve Kasım Paşa (1479) kolonileri Osmanlı idaresine aldı; 'Taman ile Soçi arasında sahilde yaşayan … Aşağıra Çerkezleri Osmanlı hâkimiyetini tanıdı. Kafkasya'nın Karadeniz kıyıları bu tarihten itibaren üç asır boyunca Osmanlı hâkimiyetinde kaldı'", "kaynak": "TDV cerkezler", "atlas": "v: kirim gevşek himaye 1475-06-06→1774-07-21 (Emre kararı D). ⚠️ TDV bu cümlede bağı KIRIM'a değil OSMANLI'ya veriyor — C-5"},
+    {"tarih": "XVI-XVIII. yy", "olay": "Çerkezler 'hukuken Kırım Hanlığı'na tâbi, gerçekte ise serbest'; her yeni hana 300 köle, yıllık hediye, sefere asker", "kaynak": "TDV cerkezler", "atlas": "v: gevşek himaye — UYUMLU"},
+    {"tarih": "1774-07-21", "olay": "Kaynarca: Kırım bağımsız", "kaynak": "TDV kucuk-kaynarca-antlasmasi", "atlas": "s: kirim 1774→1783 — kıyı için C-5'te açık"},
+    {"tarih": "1781-1784", "olay": "Soğucak muhafızı Ferah Ali Paşa Anapa Kalesi'ni inşa etti; gerekçe Rus baskısına karşı 'Kuzey Kafkasya savunma hattı'", "kaynak": "TDV anapa · TDV cerkezler", "atlas": "Anapa d: 1781-01-01'den — yıl için 0066/Y-6'da açık kalem"},
+    {"tarih": "1783", "olay": "Kırım ilhak edildi; 'Kuban nehri Osmanlı-Rus sınırı olarak belirlendi'", "kaynak": "TDV cerkezler", "atlas": "1783-04-19 — UYUMLU (kuzey tarafı için 0066/Y-3)"},
+    {"tarih": "1787-1792 · 1806-1812", "olay": "Çerkezler Osmanlı'nın yanında savaştı; Şeyh Mansûr'a destek verdiler", "kaynak": "TDV cerkezler", "atlas": "ittifak — tasarruf değil (D030)"},
+    {"tarih": "1829-09-14", "olay": "Edirne Antlaşması: Osmanlı 'Kafkasya'daki topraklarını' kaybetti ve 'Çerkezler üzerindeki HAKLARINDAN Rusya lehine VAZGEÇTİ'; md. 4 ile Anapa ve Poti Rusya'ya", "kaynak": "TDV cerkezler · TDV edirne-antlasmasi · TDV anapa", "atlas": "üç kayıtta da s: rusya 1829-09-14'ten — 🔴 HAK DEVRİ, TASARRUF DEVRİ DEĞİL (C-2)"},
+    {"tarih": "1838", "olay": "Ruslar Soçi ve Tuapse limanlarını ele geçirdi; iç kesimlerde yeni kale ve karakollar", "kaynak": "TDV cerkezler (yalnız yıl)", "atlas": "kronoloji maddesi VAR (data/olaylar_p0917kosu13.js, t:1838-01-01, kesinlik:yil) ama HARİTA kırılması YOK"},
+    {"tarih": "1853-1856 · 1859", "olay": "Kırım Savaşı'nda Çerkezler Taman'ın bir kısmını aldı; Şâmil'in teslimi (1859) sonrası savaşa devam", "kaynak": "TDV cerkezler", "atlas": "—"},
+    {"tarih": "1861-06-13", "olay": "Çerkezler Soçi'de toplandı; Osmanlı, İngiltere ve Fransa'dan yardım istediler", "kaynak": "TDV cerkezler (GÜN veriyor)", "atlas": "madde YOK — CE-2"},
+    {"tarih": "1861-1864", "olay": "Ruslar Abzeh, Şapsığ ve Ubıh topraklarını işgal etti; halka bir ay içinde Kuban boyuna yerleşme ya da Osmanlı'ya göç şartı bildirildi", "kaynak": "TDV cerkezler", "atlas": "sürgün maddesi VAR (data/olaylar_ek14.js, t:1864-07-01); HARİTA kırılması YOK (C-2)"},
+    {"tarih": "1858-1878", "olay": "Sürgün ve göç: 1.200.000-1.500.000 kişi", "kaynak": "TDV cerkezler", "atlas": "nüfus — harita dışı"},
+    {"tarih": "1918-05-11", "olay": "Kuzey Kafkasya Dağlıları Birliği Cumhuriyeti kuruldu; Batum antlaşması gereği Osmanlı ordusu bölgeye girdi, 6 Ekim 1918'de Derbend'i aldı, Kasım 1918'de çekildi", "kaynak": "TDV cerkezler", "atlas": "künye YOK — bu yamanın kapsamı dışında, kayda geçiriliyor"}
+  ],
+
+  "yerlesim_yamalari": [
+    {
+      "no": "C-1",
+      "kayit": "Soçi (Sâşe) · Tuapse · Maykop (Çerkezya)",
+      "dosya": "data/yerlesimler.js",
+      "tur": "YANLIŞ KADEME — d (doğrudan) yerine v (tâbi/himaye)",
+      "simdi": {"d": [{"f": "1783-04-19", "t": "1829-09-14"}]},
+      "oneri": {
+        "d": "kaldırılır",
+        "v": [{"f": "1783-04-19", "t": "1829-09-14", "k": "Çerkez kabileleri (Osmanlı hâkimiyet iddiası)", "kid": "cerkez", "statu": "gevsek", "himaye": true, "kaynak": "TDV cerkezler: Çerkezler 'hukuken … tâbi, gerçekte ise serbest'; Osmanlı'nın fiilen tuttuğu yerler kıyı kaleleridir; 1829'da Osmanlı 'Çerkezler üzerindeki haklarından' vazgeçti ⇒ 1783-1829 arası bir HAK/İDDİA bağıdır, doğrudan idare değil"}]
+      },
+      "emsal": "Sohum kaydının kendi `neden` alanı: '⚠️ TDV kale ile iç bölgeyi AYIRIYOR: kale doğrudan idare, çevredeki Abaza beyleri tâbi.' Aynı ayrım burada da geçerli — Anapa (kale) d kalır, kabile toprağı v olur.",
+      "on_kosul": "`himaye:true` iç dolguyu DEVLETİN KENDİ RENGİYLE boyar (VERI-YAPISI.md §himaye ②) ⇒ C-3 (künye + renk) İNMEDEN bu yama inerse iç dolgu renksiz kalır. SIRA: C-3 → C-1.",
+      "gorsel_sonuc": "1783-04-19 kesitinde (Emre'nin görseli) 24.757 km² koyu kırmızı gövde, kendi rengi + ince Osmanlı kırmızısı şeride döner; Anapa ve Sohum koyu kalır."
+    },
+    {
+      "no": "C-2",
+      "kayit": "Soçi (Sâşe) · Tuapse · Maykop (Çerkezya)",
+      "dosya": "data/yerlesimler.js",
+      "tur": "HUKUKÎ ≠ FİİLÎ — Rus dönemi erken başlıyor",
+      "simdi": {"s": [{"f": "1829-09-14", "t": "1923-10-29", "d": "rusya"}]},
+      "kaynak_diyor": "Edirne bir HAK DEVRİDİR ('Çerkezler üzerindeki haklarından Rusya lehine vazgeçti'); Rusya toprağı ancak sonra aldı: Soçi ve Tuapse limanları 1838, Abzeh-Şapsığ-Ubıh toprakları 1861-1864 (TDV cerkezler).",
+      "oneri": {
+        "Soçi (Sâşe) · Tuapse": [{"f": "1829-09-14", "t": "1838-01-01", "d": "cerkez"}, {"f": "1838-01-01", "t": "1917-03-15", "d": "rusya"}],
+        "Maykop (Çerkezya)": [{"f": "1829-09-14", "t": "1864-07-01", "d": "cerkez"}, {"f": "1864-07-01", "t": "1917-03-15", "d": "rusya"}]
+      },
+      "tarih_notu": "1838: TDV yalnız YIL veriyor ⇒ 1838-01-01 (§4). Kırılma karşılıksız kalmaz: madde ZATEN VAR (data/olaylar_p0917kosu13.js 't:1838-01-01, kesinlik:yil — Ruslar Çerkez kıyısında Soçi ve Tuapse limanlarını aldı'). 1864: TDV '1861-1864' diyor, GÜN YOK. Kaba tarih 1864-01-01 yazılırsa ±30 günde madde YOK ⇒ Değişmez 2 açılır. Bu yüzden mevcut maddenin günü DEVRALINDI (data/olaylar_ek14.js t:1864-07-01 'Büyük Çerkes Sürgünü'nün doruk noktası', kendi içinde 'TDV kesin gün vermiyor' diye damgalı) ve DEVRALINDIĞI BURADA BİLDİRİLİYOR — 1864-07-01 bir kaynak günü DEĞİLDİR. Alternatif: 1864-01-01 + yeni madde.",
+      "sinir": "Nokta LİMANI modelliyor ama petek bütün iç kesimi taşıyor: Soçi'nin ardındaki Ubıh yurdu 1838'de değil 1864'te düştü. Bu kusur nokta çözünürlüğünün sonucudur; ayrı bir Ubıh noktası olmadan giderilemez (BULUNAMADI: koordinat ve tarih)."
+    },
+    {
+      "no": "C-3",
+      "tur": "KÜNYE + RENK ÖNERİSİ — ön koşul",
+      "dosya": "data/devletler.js (D-KUNYE) · arac/renkler.py (RENK/UYGULA)",
+      "kunye_onerisi": {
+        "id": "cerkez",
+        "ad": "Çerkez Kabile Birlikleri (Adige)",
+        "tur": "beylik",
+        "tur_notu": "`kabile-birligi` diye bir tür YOK (devletler.js'teki 20 tür sayıldı); komşu ve emsal künye `kabartay` da `beylik` kullanıyor ⇒ aynı tür seçildi.",
+        "bolge": "kafkasya",
+        "f": "1281-01-01",
+        "t": "1864-07-01",
+        "baskent": "(kabile birlikleri hâlinde, sabit merkez yok)",
+        "ozet": "Kuzeybatı Kafkasya'da Adige (Çerkez) kabilelerinin oluşturduğu, tek merkeze bağlanmayan siyasî yapı: batıda Abzeh, Bjeduğ, Çemguy, Hatukay, Şapsığ, Mahoş, Natuhay ve Ubıhlar; doğuda Kabartay ve Besleneyler. Prens Yinal (1427-1456) kabilelerin büyük kısmını bir süre tek yönetimde birleştirdi. Kıyı 1475-1479'dan sonra Osmanlı hâkimiyetini tanıdı, kabileler hukuken Kırım Hanlığı'na tâbi sayıldı, gerçekte serbest yaşadı. 1829 Edirne Antlaşması'yla Osmanlı Çerkezler üzerindeki haklarından Rusya lehine vazgeçti; Rus işgali 1838'de kıyı limanlarında, 1861-1864'te iç kesimde tamamlandı ve bunu büyük sürgün izledi. ⚠️ BAŞLANGIÇ TARİHİ ATLAS UFKUDUR (1281), kuruluş tarihi DEĞİLDİR: TDV kuruluş tarihi vermiyor ve uydurulmadı. ⚠️ BİTİŞ, işgalin tamamlandığı 1861-1864 aralığının atlastaki mevcut sürgün maddesinden devralınan günüdür; TDV gün vermiyor.",
+        "kaynak": "TDV `cerkezler` md. (gövdesi okundu) — yük taşıyan cümleler: \"Kabartay, Besleney ve Çemguy prenslerinin atası olan Prens Yinal (1427-1456) halkın büyük kısmını yönetimi altında birleştirdi\" · \"hukuken Kırım Hanlığı'na tâbi, gerçekte ise serbest yaşayan Çerkezler\" · \"Kafkasya'nın Karadeniz kıyıları bu tarihten itibaren üç asır boyunca Osmanlı hâkimiyetinde kaldı\" · \"Edirne Antlaşması ile Kafkasya'daki topraklarını kaybeden Osmanlı Devleti, Çerkezler üzerindeki haklarından Rusya lehine vazgeçti\" · \"1838'de Soçi ve Tuapse limanlarını ele geçiren Ruslar\" · \"Ruslar 1861-1864'te Abzeh, Şapsığ ve Ubıhlar'ın topraklarını işgal ettiler\". ⚠️ BULUNAMADI ve UYDURULMADI: kuruluş tarihi · başkent · kabileler arası siyasî sınırlar · 1864'ün günü. Ölü sluglar: soci · tuapse · maykop · ubihlar · abzehler · sapsiglar (altısı da 302).",
+        "kronoloji": [
+          {"t": "1475-06-06", "tur": "antlasma", "b": "Aşağıra Çerkezleri Osmanlı hâkimiyetini tanıdı — Karadeniz kıyısı Osmanlı hâkimiyetine girdi"},
+          {"t": "1829-09-14", "tur": "toprak-kayip", "b": "Edirne Antlaşması: Osmanlı, Çerkezler üzerindeki haklarından Rusya lehine vazgeçti"},
+          {"t": "1838-01-01", "tur": "toprak-kayip", "b": "Ruslar Soçi ve Tuapse limanlarını aldı (yıl)"},
+          {"t": "1864-07-01", "tur": "son", "b": "Abzeh, Şapsığ ve Ubıh toprakları işgal edildi; Büyük Çerkes Sürgünü (gün devralınmıştır)"}
+        ]
+      },
+      "renk": "arac/renkler.py BOYALAR'a `cerkez` eklenmeli; komşuları kabartay · rusya · osmanli · kirim · gurcistan ile ΔE ölçülmeli (py arac/renk_olc.py). Emsal: `kabartay` künyesi ve rengi bu bölge için 13-14 Eylül'de aynı gerekçeyle açıldı.",
+      "uyari": "Künye açılınca C-4'ü de sorar hâle gelir: __BOSLUK__ 1441-1475 artık `cerkez` yazılabilir. İkisi AYNI turda kararlaştırılmalı, yoksa künye var ama boşluk duruyor olur."
+    },
+    {
+      "no": "C-4",
+      "kayit": "Soçi (Sâşe) · Tuapse · Maykop (Çerkezya) · Anapa",
+      "tur": "AÇIK KALEM — künyeye bağlı",
+      "simdi": "s: altinorda 1281-01-01→1441-01-01 · __BOSLUK__ 1441-01-01→1475-06-06",
+      "sorun": "1441 Kırım Hanlığı'nın kuruluş yılıdır; kaydın kendi kaynak alanı da '1441'de Çerkes kıyısına Kırım yazan kaynak YOK' diyor. __BOSLUK__ dürüst bir ara çözümdü ÇÜNKÜ künye yoktu.",
+      "oneri": "C-3 inerse: __BOSLUK__ → `cerkez`. Başlangıç için iki aday — (a) 1427-01-01 (TDV cerkezler, Yinal; 0066/Y-1 ile AYNI gerekçe ve aynı gün, Kabartay'la tutarlı olur) · (b) 1441 olduğu gibi bırakılır (yalnız kimlik değişir). ÖNERİM (a): iki kayıt ailesi tek kaynaktan hizalanır.",
+      "not": "Anapa'da __BOSLUK__ 1441-1475 aynı sorunu taşıyor ama Anapa bir Ceneviz kolonisiydi (TDV cerkezler: Kefe, Azak, Taman, Temrük, Anapa) — Anapa için ayrı ölçüm gerekir, bu yama DOKUNMUYOR."
+    },
+    {
+      "no": "C-5",
+      "kayit": "Soçi (Sâşe) · Tuapse (KIYI kayıtları)",
+      "tur": "KAYNAK İLE ATLAS AYRIŞIYOR — karar, değişiklik önerilmiyor",
+      "simdi": "v: kirim (gevşek himaye) 1475-1774 · s: kirim 1774-1783",
+      "kaynak_diyor": "TDV cerkezler kıyı için bağı KIRIM'a değil OSMANLI'ya veriyor: 'Taman ile Soçi arasında sahilde yaşayan … Çerkezler Osmanlı hâkimiyetini tanıdı. Kafkasya'nın Karadeniz kıyıları bu tarihten itibaren ÜÇ ASIR boyunca Osmanlı hâkimiyetinde kaldı' (1475 + üç asır ≈ 1775-1829). Aynı madde kabileleri 'hukuken Kırım Hanlığı'na tâbi' de sayıyor ⇒ iki bağ ÜST ÜSTE (Kırım zaten Osmanlı'ya tâbi).",
+      "sonuc": "Çelişki değil KADEME farkı; ama 1774-1783 arası s:`kirim` kıyı için tartışmalı: Kırım bağımsızlaşınca kıyının da hanlığa geçtiğini söyleyen cümle YOK, buna karşılık Soğucak'ta Osmanlı gücü 1781'de duruyor (TDV sahin-giray). Emre kararı D'nin (gevşek himaye) kapsamına girdiği için TEK BAŞIMA DEĞİŞTİRMİYORUM — karar kalemi."
+    },
+    {
+      "no": "C-6",
+      "kayit": "Anapa · Sohum",
+      "tur": "DEĞİŞİKLİK YOK — doğrulama",
+      "gerekce": "İkisi de KALE/idare merkezi: Anapa'da Ferah Ali Paşa ve halefleri muhafız, Sohum'da vali. TDV kale ile iç bölgeyi ayırıyor ⇒ `d:` doğru. Bu yama yalnız kabile toprağını (Soçi, Tuapse, Maykop) v'ye çekiyor."
+    }
+  ],
+
+  "kronoloji_onerileri": [
+    {
+      "no": "CE-1",
+      "t": "1475-06-06",
+      "b": "Çerkez kıyısı Osmanlı hâkimiyetini tanıdı",
+      "devletler": ["osmanli", "cerkez"],
+      "tur": "toprak-kazanc",
+      "onem": 3,
+      "dunya": 2,
+      "kapsam": "dis",
+      "yer_id": "Tuapse",
+      "d": "Fâtih Sultan Mehmed'in emriyle Gedik Ahmed Paşa 1475'te, Kasım Paşa 1479'da Karadeniz'in kuzey ve doğu kıyısındaki Ceneviz kolonilerini Osmanlı idaresine aldı. Taman ile Soçi arasındaki sahilde yaşayan, Osmanlı kaynaklarının 'Aşağıra Çerkezleri' dediği topluluklar Osmanlı hâkimiyetini tanıdı; kıyı bu tarihten sonra üç asır boyunca Osmanlı hâkimiyetinde kaldı. Bu bir hâkimiyetin tanınmasıdır — kabileler kendi düzenlerini sürdürdü.",
+      "kaynak": "TDV cerkezler",
+      "not": "gün: Kefe'nin fethi günü (atlasın 1475-06-06 kırılması) devralındı; TDV bu tanıma için gün vermiyor — DEVRALINDIĞI bildirilir"
+    },
+    {
+      "no": "CE-2",
+      "t": "1861-06-13",
+      "b": "Çerkezler Soçi'de toplanıp Osmanlı, İngiltere ve Fransa'dan yardım istedi",
+      "devletler": ["cerkez", "rusya", "osmanli"],
+      "tur": "diplomasi",
+      "onem": 3,
+      "dunya": 2,
+      "kapsam": "dis",
+      "yer_id": "Soçi (Sâşe)",
+      "d": "Şeyh Şâmil'in teslim olmasından (1859) sonra da Ruslarla savaşmayı sürdüren Çerkezler 13 Haziran 1861'de Soçi'de toplandı ve Osmanlı Devleti ile İngiltere ve Fransa'dan yardım istedi. Aynı yıl çarın onayıyla Çerkezlerin sürgünü resmen kararlaştırıldı; 1861-1864'te Abzeh, Şapsığ ve Ubıh toprakları işgal edildi.",
+      "kaynak": "TDV cerkezler (GÜN veriyor: '13 Haziran 1861')"
+    },
+    {
+      "no": "CE-3",
+      "t": "1829-09-14",
+      "b": "(MEVCUT 'Edirne Antlaşması' maddesine EK öneri)",
+      "ek_cumle": "Antlaşmayla Osmanlı Devleti, Kafkasya'daki topraklarının yanı sıra Çerkezler üzerindeki haklarından da Rusya lehine vazgeçti. Bu bir hak devriydi: Rusya kıyı limanlarını 1838'de, iç kesimi 1861-1864'te işgal edebildi.",
+      "kaynak": "TDV cerkezler · TDV edirne-antlasmasi (md. 4: Anapa ve Poti)",
+      "not": "C-2'nin 1829 kırılmasını bu madde karşılıyor; yeni madde gerekmiyor"
+    }
+  ],
+
+  "bulunamadi": [
+    "Soçi, Tuapse, Maykop için TDV'de müstakil madde (altı slug da 302) — hüküm kapsayıcı `cerkezler` maddesinden çıkarıldı",
+    "Maykop'un tarihî anlatısı: TDV gövdesinde yalnız görsel altyazısında geçiyor (Maykop Merkez Camii); bölge Abzeh yurdu olarak anılıyor",
+    "1864 işgalinin günü (TDV yalnız '1861-1864') — atlasın mevcut sürgün maddesinin günü devralındı, kaynak günü değildir",
+    "Soğucak'ın Osmanlı idaresine giriş tarihi (0066/Y-5'ten devam eden açık kalem)",
+    "Ubıh yurdunun ayrı noktası için koordinat ve tarih (Soçi peteğinin iç kesimi 1838-1864 arasında yanlış tarafta kalıyor)",
+    "'Sâşe' yazımının kaynağı — okunan on TDV maddesinin hiçbirinde geçmiyor",
+    "1918 Kuzey Kafkasya Dağlıları Birliği Cumhuriyeti künyesi (atlasta yok; kapsam dışı, kayda geçirildi)"
+  ],
+
+  "indirme_sirasi": [
+    "C-3 künye + renk (D-KUNYE ve renk sahibi) — ÖN KOŞUL",
+    "C-4 kararı (a/b) aynı turda",
+    "C-1 (d → v himaye) ve C-2 (cerkez dönemleri) birlikte",
+    "CE-1 · CE-2 maddeleri; CE-3 mevcut maddeye ek cümle",
+    "sonra: py arac/denetle.py + py arac/renk_olc.py (yeni kimlik ⇒ palet ölçümü ŞART, §9)"
+  ]
+}
