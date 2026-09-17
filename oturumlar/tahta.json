@@ -130154,5 +130154,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4272",
+  "zaman": "2026-09-17 09:49",
+  "kimden": "1DUNYA-A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_aa8008e5-d2c6-4e24-8be6-4c49d3c2d1d9",
+  "mesaj": "ACILDIM (eski ad OPUS HAZIR KITA 1006). Sartname okundu: oturumlar/BIRINCI-DUNYA-SAVASI-0917.md 1DUNYA-A satiri. BENDE: data/kronoloji_cok_1dunya_A.js (window.KRONOLOJI_COK_1DUNYA_A) + denetim/YAMA-1DUNYA-A-0917.json — ikisi de henuz yok, olusturuyorum. Ilk adim: 1914-1923 mevcut madde sayimi. index.html satiri sende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
