@@ -1,0 +1,80 @@
+öncelik: BELOW_NORMAL
+BOLGE [-123.0, -60.0, -57.0, -7.0] · iç (-120.0, -60.0, -60.0, -10.0) · k01
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.7 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    8.4 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  19 büyük göl kara maskesinden çıkarıldı
+  0 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+[   10.0 sn] Nehir yatakları
+  15 nehir parçası — 14 adlı akarsu: Bío-Bío, Colorado, Grande, Guaporé, Juruena, Madeira, Mamoré, Marañón, Negro, Neuquén, Paraná, Santa Cruz, Tapajós, Ucayali
+  bedel sınıfı: sınıf-1 6 parça · sınıf-2 9 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[   10.8 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[   12.2 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.1
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 85 peteğe şekil verildi · 3770 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0002 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   94.2 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1320×1060 = 1,399,200 hücre, kara 252,211
+  95 tohum yerleşti (7 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3760 tohum (kıstırma YOK — Voronoi kalır)
+       Levuka                                   178.83, -17.68   kenara 25,013 km olurdu
+       Bau (Fiji Konfederasyonları)             178.57, -18.01   kenara 24,939 km olurdu
+       Suva                                     178.44, -18.14   kenara 24,907 km olurdu
+       Anadır (Anadyrsk)                        177.48,  64.75   kenara 24,212 km olurdu
+       Tulagi                                   160.15,  -9.09   kenara 23,869 km olurdu
+       Çukotka merkezi                          172.00,  66.00   kenara 23,629 km olurdu
+       Markovo                                  170.42,  64.68   kenara 23,568 km olurdu
+       Gizo                                     156.84,  -8.10   kenara 23,567 km olurdu
+       Olyutorsk (Arhangelsk)                   166.50,  60.00   kenara 23,482 km olurdu
+       Koryak toprakları                        166.00,  62.00   kenara 23,321 km olurdu
+       Nijnekamçatsk                            162.00,  56.28   kenara 23,252 km olurdu
+       Penjinsk ostrogu                         165.50,  62.50   kenara 23,245 km olurdu
+       … ve 3748 tohum daha
+[   95.4 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 23 m/hücre → sürtünme medyanı 1.116
+  en pahalı hücre: sürtünme 9.13 (eğim 1,626 m/hücre)
+[   98.4 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 2,281 · nehri KESEN adım 12,510 / 56,818 aday
+  sınıf-1 7,290 · sınıf-2 5,220 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 12,510 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[  100.8 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[  100.9 sn] Dijkstra (eğim + nehir, üretim)
+  8.2 sn · erişilen 250,727 · bütçe içi 143,993
+[  109.6 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 201,339 kara hücresi
+  ızgaranın erişmediği kara hücresi 1,484 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 5064625, 'A_sahipli_km2': 4064966, 'B_sahipli_km2': 2902837, 'sahibi_degisen_km2': 117082, 'yeni_sahipsiz_km2': 1246177, 'yeni_sahipli_km2': 84048, 'A_sahipsiz_km2': 999660, 'B_sahipsiz_km2': 2161789}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+  kume {'km2': 371339, 'merkez_lat': -20.89, 'merkez_lon': -66.06, 'A_sahipleri': ['Quilmes (Calchaquí Vadisi — Diaguita)', 'Sucre (La Plata / Chuquisaca)', 'La Paz']}
+  kume {'km2': 251460, 'merkez_lat': -12.78, 'merkez_lon': -72.5, 'A_sahipleri': ['Cusco (Qosqo)', 'Vilcashuamán', 'Vilcabamba (Espíritu Pampa)']}
+  kume {'km2': 213913, 'merkez_lat': -46.71, 'merkez_lon': -71.45, 'A_sahipleri': ['Beyan G49.5 B72.5', 'Beyan G46.5 B71.5', 'Beyan G44.5 B72.5']}
+  kume {'km2': 69677, 'merkez_lat': -31.75, 'merkez_lon': -69.52, 'A_sahipleri': ['Mendoza', 'Santiago (Şili)']}
+  kume {'km2': 63031, 'merkez_lat': -36.7, 'merkez_lon': -70.86, 'A_sahipleri': ['Beyan G35.5 B69.5', 'Concepción (Şili)', 'Beyan G39.5 B70.5']}
+  kume {'km2': 54482, 'merkez_lat': -31.99, 'merkez_lon': -64.89, 'A_sahipleri': ['Córdoba (Arjantin)', 'Beyan G34.5 B65.5']}
+  kume {'km2': 26249, 'merkez_lat': -29.13, 'merkez_lon': -62.71, 'A_sahipleri': ['Santiago del Estero', 'San Jerónimo (Reconquista)', 'Santa Fe (Arjantin)']}
+  kume {'km2': 24742, 'merkez_lat': -11.83, 'merkez_lon': -61.88, 'A_sahipleri': ['Beyan G10.5 B61.5', 'Forte Príncipe da Beira']}
+  kume {'km2': 22359, 'merkez_lat': -15.78, 'merkez_lon': -72.7, 'A_sahipleri': ['Arequipa']}
+  kume {'km2': 17976, 'merkez_lat': -34.49, 'merkez_lon': -61.61, 'A_sahipleri': ['Beyan G36.5 B61.5', 'Buenos Aires', 'Beyan G36.5 B64.5']}
+   {'ad': 'Quilmes (Calchaquí Vadisi — Diaguita)', 'A_km2': 92977, 'B_km2': 21749, 'net_km2': -71229}
+   {'ad': 'Sucre (La Plata / Chuquisaca)', 'A_km2': 76661, 'B_km2': 21299, 'net_km2': -55362}
+   {'ad': 'Beyan G49.5 B72.5', 'A_km2': 80211, 'B_km2': 28376, 'net_km2': -51834}
+   {'ad': 'Cusco (Qosqo)', 'A_km2': 56244, 'B_km2': 12767, 'net_km2': -43476}
+   {'ad': 'Córdoba (Arjantin)', 'A_km2': 116715, 'B_km2': 73607, 'net_km2': -43108}
+   {'ad': 'La Paz', 'A_km2': 77130, 'B_km2': 35278, 'net_km2': -41852}
+   {'ad': 'Arequipa', 'A_km2': 65199, 'B_km2': 25940, 'net_km2': -39259}
+   {'ad': 'Pucará de Tilcara', 'A_km2': 56081, 'B_km2': 19211, 'net_km2': -36870}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917.json · k01 · toplam 111 sn
+
+--- stderr ---

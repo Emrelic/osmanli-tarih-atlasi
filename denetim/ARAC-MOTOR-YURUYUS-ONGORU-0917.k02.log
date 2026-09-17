@@ -1,0 +1,96 @@
+öncelik: BELOW_NORMAL
+BOLGE [-63.0, -60.0, 3.0, -7.0] · iç (-60.0, -60.0, 0.0, -10.0) · k02
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.6 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    8.5 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  6 büyük göl kara maskesinden çıkarıldı
+  16 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+      (adsız) (1981)
+      (adsız) (1999)
+      Bariri (1982)
+      Barra Bonita (1962)
+      Barragem Itumbiara (1980)
+      Lago Rincón del Bonete (1945)
+      Represa Agua Vermetha (1979)
+      Represa Furnas (1963)
+      Represa Iepe (1976)
+      Represa Itaipu (1984)
+      Represa Itarare (yıl?)
+      Represa Três Marias (1960)
+      Represa de Sobradinho (1982)
+      Represa de São Simão (1978)
+      Repressa de Jupia (yıl?)
+      Tiete (1963)
+[   10.4 sn] Nehir yatakları
+  20 nehir parçası — 14 adlı akarsu: Araguaia, Braco Menor, Colorado, Culuene, Grande, Indaiá, Juruena, Madeira, Negro, Paranaíba, Paraná, São  Francisco, Tapajós, Xingu
+  bedel sınıfı: sınıf-1 3 parça · sınıf-2 17 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[   11.4 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[   12.8 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.1
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 57 peteğe şekil verildi · 3798 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0003 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   97.6 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1320×1060 = 1,399,200 hücre, kara 229,431
+  45 tohum yerleşti (3 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3810 tohum (kıstırma YOK — Voronoi kalır)
+       Anadır (Anadyrsk)                        177.48,  64.75   kenara 18,790 km olurdu
+       Levuka                                   178.83, -17.68   kenara 18,649 km olurdu
+       Bau (Fiji Konfederasyonları)             178.57, -18.01   kenara 18,587 km olurdu
+       Suva                                     178.44, -18.14   kenara 18,559 km olurdu
+       Çukotka merkezi                          172.00,  66.00   kenara 18,280 km olurdu
+       Markovo                                  170.42,  64.68   kenara 18,171 km olurdu
+       Olyutorsk (Arhangelsk)                   166.50,  60.00   kenara 17,915 km olurdu
+       Koryak toprakları                        166.00,  62.00   kenara 17,834 km olurdu
+       Penjinsk ostrogu                         165.50,  62.50   kenara 17,780 km olurdu
+       Nijnekamçatsk                            162.00,  56.28   kenara 17,563 km olurdu
+       Ostrovnoye (Anyuy panayırı)              164.10,  68.10   kenara 17,562 km olurdu
+       Gijiga                                   160.35,  61.98   kenara 17,332 km olurdu
+       … ve 3798 tohum daha
+[   98.4 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 19 m/hücre → sürtünme medyanı 1.095
+  en pahalı hücre: sürtünme 8.62 (eğim 1,523 m/hücre)
+[  100.7 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 2,784 · nehri KESEN adım 14,938 / 68,968 aday
+  sınıf-1 3,992 · sınıf-2 10,946 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 14,938 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[  103.0 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[  103.0 sn] Dijkstra (eğim + nehir, üretim)
+  6.3 sn · erişilen 228,755 · bütçe içi 91,586
+[  109.8 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 120,910 kara hücresi
+  ızgaranın erişmediği kara hücresi 676 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 4624356, 'A_sahipli_km2': 2172625, 'B_sahipli_km2': 1609661, 'sahibi_degisen_km2': 34259, 'yeni_sahipsiz_km2': 663459, 'yeni_sahipli_km2': 100495, 'A_sahipsiz_km2': 2451731, 'B_sahipsiz_km2': 3014696}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+  kume {'km2': 89181, 'merkez_lat': -21.33, 'merkez_lon': -55.38, 'A_sahipleri': ['Fuerte Olimpo (Borbón)', 'Ciudad Real del Guairá', 'Tacuatí (Ypané)']}
+  kume {'km2': 64007, 'merkez_lat': -15.92, 'merkez_lon': -55.93, 'A_sahipleri': ['Cuiabá']}
+  kume {'km2': 53050, 'merkez_lat': -14.12, 'merkez_lon': -41.96, 'A_sahipleri': ['Jiboya (Camacan aldeası)']}
+  kume {'km2': 51458, 'merkez_lat': -19.39, 'merkez_lon': -43.5, 'A_sahipleri': ['Ouro Preto (Vila Rica)', 'São Fidélis (Paraíba do Sul)']}
+  kume {'km2': 45035, 'merkez_lat': -16.19, 'merkez_lon': -49.63, 'A_sahipleri': ['Vila Boa de Goiás']}
+  kume {'km2': 44348, 'merkez_lat': -22.63, 'merkez_lon': -50.1, 'A_sahipleri': ['São Pedro de Alcântara (Tibagi)']}
+  kume {'km2': 43267, 'merkez_lat': -28.93, 'merkez_lon': -51.9, 'A_sahipleri': ['Nonohay (Yukarı Uruguay)']}
+  kume {'km2': 35316, 'merkez_lat': -30.99, 'merkez_lon': -59.01, 'A_sahipleri': ['San Jerónimo (Reconquista)', 'Santa Fe (Arjantin)']}
+  kume {'km2': 31967, 'merkez_lat': -11.48, 'merkez_lon': -57.39, 'A_sahipleri': ['Beyan G10.5 B58.5']}
+  kume {'km2': 31032, 'merkez_lat': -11.42, 'merkez_lon': -52.81, 'A_sahipleri': ['Beyan G10.5 B52.5']}
+   {'ad': 'Cuiabá', 'A_km2': 125228, 'B_km2': 61221, 'net_km2': -64007}
+   {'ad': 'São Pedro de Alcântara (Tibagi)', 'A_km2': 124884, 'B_km2': 78300, 'net_km2': -46584}
+   {'ad': 'Jiboya (Camacan aldeası)', 'A_km2': 119564, 'B_km2': 75558, 'net_km2': -44006}
+   {'ad': 'Vila Boa de Goiás', 'A_km2': 125304, 'B_km2': 84188, 'net_km2': -41116}
+   {'ad': 'Nonohay (Yukarı Uruguay)', 'A_km2': 125199, 'B_km2': 85004, 'net_km2': -40195}
+   {'ad': 'Ouro Preto (Vila Rica)', 'A_km2': 100676, 'B_km2': 65905, 'net_km2': -34771}
+   {'ad': 'Fuerte Olimpo (Borbón)', 'A_km2': 89982, 'B_km2': 55746, 'net_km2': -34236}
+   {'ad': 'Beyan G10.5 B52.5', 'A_km2': 98770, 'B_km2': 67738, 'net_km2': -31032}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917.json · k02 · toplam 111 sn
+
+--- stderr ---

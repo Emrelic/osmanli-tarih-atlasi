@@ -1,0 +1,42 @@
+{
+ "bozkir": {
+  "kutu": "55,45,70,53",
+  "motor": "C:\\atlas-yuruyus\\arac\\uret_petek.py",
+  "8": {
+   "sure_sn": 1.24,
+   "hucre": 44410,
+   "sapma_medyan_yuzde": 5.98,
+   "sapma_p95_yuzde": 14.35,
+   "sapma_maks_yuzde": 32.67
+  },
+  "16": {
+   "sure_sn": 3.45,
+   "hucre": 44410,
+   "sapma_medyan_yuzde": 1.91,
+   "sapma_p95_yuzde": 6.79,
+   "sapma_maks_yuzde": 29.3
+  },
+  "sahibi_degisen_hucre_yuzde": 3.18,
+  "sure_orani": 2.78
+ },
+ "anadolu": {
+  "kutu": "28,36,42,42",
+  "motor": "C:\\atlas-yuruyus\\arac\\uret_petek.py",
+  "8": {
+   "sure_sn": 0.66,
+   "hucre": 16060,
+   "sapma_medyan_yuzde": 5.06,
+   "sapma_p95_yuzde": 13.34,
+   "sapma_maks_yuzde": 61.97
+  },
+  "16": {
+   "sure_sn": 2.23,
+   "hucre": 16051,
+   "sapma_medyan_yuzde": 1.34,
+   "sapma_p95_yuzde": 7.61,
+   "sapma_maks_yuzde": 56.53
+  },
+  "sahibi_degisen_hucre_yuzde": 2.56,
+  "sure_orani": 3.38
+ }
+}

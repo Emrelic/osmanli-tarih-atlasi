@@ -1,0 +1,92 @@
+öncelik: BELOW_NORMAL
+BOLGE [57.0, 37.0, 123.0, 85.0] · iç (60.0, 40.0, 120.0, 85.0) · k24
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.2 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    4.4 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  86 büyük göl kara maskesinden çıkarıldı
+  11 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+      Bratsk Reservoir (1964)
+      Kama Reservoir (1954)
+      Kapchagay Reservoir (1970)
+      Khantayskoye Reservoir (1970)
+      Krasnoyarsk Reservoir (1967)
+      Lake Zaysan (1960)
+      Novosibirsk Reservoir (1957)
+      Obanbori Qayroqum (1957)
+      Shardara Bgeni (1965)
+      Toktogul Suu Saktagychy (1978)
+      Ust-Ilimsk Reservoir (1977)
+[    5.9 sn] Nehir yatakları
+  37 nehir parçası — 28 adlı akarsu: Aksu, Amu  Darya, Angara, Argun’, Ertis, Ertix, Hailar, Heilong Jiang, Huang, Ideriyn, Irtysh, Kyzyl-Khem, Lena, Lower Tunguska, Malyy Yenisey, Naryn, Ob, Olenekskaya Protoka, Pamir, Panj, Pechora, Selenga, Shishhid Gol, Syr  Darya, Tobol, Ural, Verkhniy Yenisey, Yenisey
+  bedel sınıfı: sınıf-1 15 parça · sınıf-2 22 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[    6.5 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[    7.4 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.3
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 166 peteğe şekil verildi · 3689 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0003 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   73.3 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1320×960 = 1,267,200 hücre, kara 962,423
+  189 tohum yerleşti (2 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3666 tohum (kıstırma YOK — Voronoi kalır)
+       Lapaha (Muʻa)                           -175.12, -21.18   kenara 26,400 km olurdu
+       Honolulu                                -157.86,  21.31   kenara 20,961 km olurdu
+       Hawaii Adaları (Birleşme Öncesi — moku  -155.50,  19.60   kenara 20,918 km olurdu
+       Rapa Nui (Paskalya Adası)               -109.35, -27.11   kenara 19,782 km olurdu
+       Beyan G52.5 B74.5                        -74.50, -52.50   kenara 17,597 km olurdu
+       Beyan G48.5 B75.5                        -75.50, -48.50   kenara 17,492 km olurdu
+       Fuerte Bulnes                            -70.94, -53.62   kenara 17,332 km olurdu
+       Punta Arenas                             -70.92, -53.16   kenara 17,307 km olurdu
+       Beyan G46.5 B74.5                        -74.50, -46.50   kenara 17,298 km olurdu
+       Beyan G49.5 B72.5                        -72.50, -49.50   kenara 17,265 km olurdu
+       Porvenir                                 -70.37, -53.30   kenara 17,264 km olurdu
+       Beyan G51.5 B69.5                        -69.50, -51.50   kenara 17,094 km olurdu
+       … ve 3654 tohum daha
+[   73.6 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  ⚠️ DEM ızgaradan KISA: üst uç 84.00° < istenen 85.00° — 20 satır (kuzey kuşağı) deniz seviyesiyle dolduruldu. GERİLME YOK (kırpıldı).
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 23 m/hücre → sürtünme medyanı 1.115
+  en pahalı hücre: sürtünme 8.17 (eğim 1,434 m/hücre)
+[   75.4 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 7,493 · nehri KESEN adım 40,850 / 182,687 aday
+  sınıf-1 18,062 · sınıf-2 22,788 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 40,850 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[   82.0 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[   82.0 sn] Dijkstra (eğim + nehir, üretim)
+  21.7 sn · erişilen 955,507 · bütçe içi 456,155
+[  104.1 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 604,588 kara hücresi
+  ızgaranın erişmediği kara hücresi 6,916 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 13391394, 'A_sahipli_km2': 8832620, 'B_sahipli_km2': 6864258, 'sahibi_degisen_km2': 446478, 'yeni_sahipsiz_km2': 2411741, 'yeni_sahipli_km2': 443379, 'A_sahipsiz_km2': 4558774, 'B_sahipsiz_km2': 6527136}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+  kume {'km2': 218990, 'merkez_lat': 50.61, 'merkez_lon': 101.51, 'A_sahipleri': ['Mörön (Hövsgöl)', 'Uliastay', 'Nijneudinsk']}
+  kume {'km2': 147235, 'merkez_lat': 57.29, 'merkez_lon': 112.0, 'A_sahipleri': ['Bodaybo', 'Kirensk', 'Bauntovsk']}
+  kume {'km2': 132300, 'merkez_lat': 49.42, 'merkez_lon': 86.79, 'A_sahipleri': ['Altay (Şara Sume)', 'Zaysan', 'Biysk']}
+  kume {'km2': 119123, 'merkez_lat': 43.36, 'merkez_lon': 91.49, 'A_sahipleri': ['Hâmi (Kumul)', 'Turfan', 'Karaşar (Yanqi)']}
+  kume {'km2': 85507, 'merkez_lat': 42.22, 'merkez_lon': 113.52, 'A_sahipleri': ['Baotou', 'Cehol (Chengde)', 'Hohhot (Kuku-hoto)']}
+  kume {'km2': 76073, 'merkez_lat': 44.0, 'merkez_lon': 83.36, 'A_sahipleri': ['Kuça (Kuqa)', 'Gulca (Yining)', 'Manas (Cungarya)']}
+  kume {'km2': 70476, 'merkez_lat': 45.91, 'merkez_lon': 102.54, 'A_sahipleri': ['Bayanhongor', 'Urga (Ulan Batur)', 'Karakurum']}
+  kume {'km2': 61943, 'merkez_lat': 47.67, 'merkez_lon': 91.85, 'A_sahipleri': ['Kobdo (Hovd)']}
+  kume {'km2': 53705, 'merkez_lat': 42.43, 'merkez_lon': 98.85, 'A_sahipleri': ['Ciyayuguan (Jiayuguan)', 'Ejin (Hara-Hoto)', 'Gaşun Gobi']}
+  kume {'km2': 53402, 'merkez_lat': 66.92, 'merkez_lon': 101.22, 'A_sahipleri': ['Essey']}
+   {'ad': 'Kobdo (Hovd)', 'A_km2': 106553, 'B_km2': 44610, 'net_km2': -61943}
+   {'ad': 'Bodaybo', 'A_km2': 109903, 'B_km2': 50642, 'net_km2': -59261}
+   {'ad': 'Altay (Şara Sume)', 'A_km2': 93278, 'B_km2': 35715, 'net_km2': -57563}
+   {'ad': 'Hâmi (Kumul)', 'A_km2': 113903, 'B_km2': 56785, 'net_km2': -57118}
+   {'ad': 'Sayansk ostrogu', 'A_km2': 76026, 'B_km2': 23648, 'net_km2': -52378}
+   {'ad': 'Gobi-Altay (Yösönbulag)', 'A_km2': 91989, 'B_km2': 41089, 'net_km2': -50900}
+   {'ad': 'Mörön (Hövsgöl)', 'A_km2': 95287, 'B_km2': 45879, 'net_km2': -49408}
+   {'ad': 'Kirensk', 'A_km2': 100068, 'B_km2': 52608, 'net_km2': -47460}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917.json · k24 · toplam 107 sn
+
+--- stderr ---

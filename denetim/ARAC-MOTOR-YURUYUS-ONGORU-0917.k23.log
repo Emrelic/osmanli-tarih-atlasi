@@ -1,0 +1,113 @@
+öncelik: BELOW_NORMAL
+BOLGE [-3.0, 37.0, 63.0, 85.0] · iç (0.0, 40.0, 60.0, 85.0) · k23
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.2 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    7.5 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  124 büyük göl kara maskesinden çıkarıldı
+  32 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+      (adsız) (1964)
+      Akkajaure (1966)
+      Ataturk Barajt (1992)
+      Cheboksary Reservoir (1986)
+      Gorky Reservoir (1955)
+      Ivankovo Reservoir (1937)
+      Kakhovka Reservoir (1956)
+      Kama Reservoir (1954)
+      Keban Baraji (1974)
+      Kemijärvi (1968)
+      Kiev Reservoir (1964)
+      Koitere (1958)
+      Kremenchuk Reservoir (1959)
+      Lake Imandra (1963)
+      Lake Kovdozero (1965)
+      Lokan Tekojarvi (1967)
+      Mingevir Reservoir (1953)
+      Nizhnekamsk Reservoir (1978)
+      Ondozero (1956)
+      Oulujärvi (1950)
+      Paduskoye More (1955)
+      Porttipahta Reservoir (1970)
+      Rikkavesi (1957)
+      Rybinsk Reservoir (1941)
+      Saksak Dagi (1987)
+      Samara Reservoir (1955)
+      Saratov Reservoir (1967)
+      Stora Lulevatten (1972)
+      Tsimlyansk Reservoir (1952)
+      Umbozero Lake (1960)
+      Volgograd Reservoir (1961)
+      Votkinsk Reservoir (1963)
+[   10.2 sn] Nehir yatakları
+  75 nehir parçası — 57 adlı akarsu: Amu  Darya, Aras, Borcea, Bratul Chillia, Bratul Sfintu Gheorghe, Bratul Sulina, Byk Menderes, Ceyhan, Danube, Daugava, Dicle, Dnepre, Dniester, Dnipro, Don, Donau, Drau, Drava, Ebro, Elbe, Evros, Firat, IJssel, Kelkit, Kiz?lirmak, Kuban, Kura, Lek, Loire, Morava, Murat, Nederrijn, Neva, Oder, Pechora, Prut, Rhein, Rhin, Rhine, Sakarya, Sava, Seine, Severnaya Dvina, Simav, Southern Bug, Sukhona, Svir, Syr  Darya, Tajo, Tigris, Tisa, Tobol, Ural, Vistula, Volga, Vychegda, Waal
+  bedel sınıfı: sınıf-1 27 parça · sınıf-2 48 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[   10.7 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[   11.7 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 1.8
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 98 peteğe şekil verildi · 3757 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0007 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   64.4 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1320×960 = 1,267,200 hücre, kara 655,393
+  1114 tohum yerleşti (68 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 2741 tohum (kıstırma YOK — Voronoi kalır)
+       Lapaha (Muʻa)                           -175.12, -21.18   kenara 20,052 km olurdu
+       Wellington                               174.78, -41.29   kenara 15,184 km olurdu
+       Honolulu                                -157.86,  21.31   kenara 15,156 km olurdu
+       Christchurch                             172.64, -43.53   kenara 15,127 km olurdu
+       Aotearoa Māori Yerleşimi (Kuzey Adası    176.20, -38.10   kenara 15,122 km olurdu
+       Hawaii Adaları (Birleşme Öncesi — moku  -155.50,  19.60   kenara 15,072 km olurdu
+       Te Waipounamu Māori Yerleşimi (Güney A   170.50, -44.00   kenara 14,966 km olurdu
+       Auckland                                 174.76, -36.85   kenara 14,912 km olurdu
+       Levuka                                   178.83, -17.68   kenara 14,094 km olurdu
+       Bau (Fiji Konfederasyonları)             178.57, -18.01   kenara 14,089 km olurdu
+       Suva                                     178.44, -18.14   kenara 14,085 km olurdu
+       Rapa Nui (Paskalya Adası)               -109.35, -27.11   kenara 13,786 km olurdu
+       … ve 2729 tohum daha
+[   64.9 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  ⚠️ DEM ızgaradan KISA: üst uç 84.00° < istenen 85.00° — 20 satır (kuzey kuşağı) deniz seviyesiyle dolduruldu. GERİLME YOK (kırpıldı).
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 17 m/hücre → sürtünme medyanı 1.087
+  en pahalı hücre: sürtünme 6.91 (eğim 1,183 m/hücre)
+[   65.8 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 9,196 · nehri KESEN adım 49,644 / 223,379 aday
+  sınıf-1 22,536 · sınıf-2 27,108 · geçit indirimli 2,220 (köprü, bedelsiz 1,366) · geçit kaydı 63
+  bedelli adım 48,278 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[   71.0 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[   71.0 sn] Dijkstra (eğim + nehir, üretim)
+  10.2 sn · erişilen 648,104 · bütçe içi 592,275
+[   81.5 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 617,339 kara hücresi
+  ızgaranın erişmediği kara hücresi 7,289 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 9754763, 'A_sahipli_km2': 9387196, 'B_sahipli_km2': 9186487, 'sahibi_degisen_km2': 1634329, 'yeni_sahipsiz_km2': 289424, 'yeni_sahipli_km2': 88715, 'A_sahipsiz_km2': 367567, 'B_sahipsiz_km2': 568276}
+B'de ızgara hücresi olmayan tohum (iç kutu): 4
+  kume {'km2': 35074, 'merkez_lat': 47.32, 'merkez_lon': 12.64, 'A_sahipleri': ['Udine', 'Graz', 'Trento']}
+  kume {'km2': 24132, 'merkez_lat': 63.63, 'merkez_lon': 53.76, 'A_sahipleri': ['Ust-Tsilma', 'Ust-Sısolsk (Sıktıvkar)']}
+  kume {'km2': 18992, 'merkez_lat': 41.69, 'merkez_lon': 55.48, 'A_sahipleri': ['Uzboy', 'Üstyurt platosu (doğu)', 'Garabogaz (Bekdaş)']}
+  kume {'km2': 16405, 'merkez_lat': 48.43, 'merkez_lon': 54.83, 'A_sahipleri': ['Guryev (Atyrau)', 'Aktöbe', 'Emba (Cem)']}
+  kume {'km2': 15259, 'merkez_lat': 61.97, 'merkez_lon': 57.37, 'A_sahipleri': ['Çerdın', 'Solikamsk']}
+  kume {'km2': 15079, 'merkez_lat': 68.24, 'merkez_lon': 58.13, 'A_sahipleri': ['Vaygaç']}
+  kume {'km2': 12083, 'merkez_lat': 78.71, 'merkez_lon': 19.87, 'A_sahipleri': ['Svalbard']}
+  kume {'km2': 11801, 'merkez_lat': 68.25, 'merkez_lon': 16.55, 'A_sahipleri': ['Bodø', 'Tromsø', 'Jokkmokk']}
+  kume {'km2': 11787, 'merkez_lat': 79.11, 'merkez_lon': 13.41, 'A_sahipleri': ['Svalbard']}
+  kume {'km2': 11644, 'merkez_lat': 50.51, 'merkez_lon': 16.87, 'A_sahipleri': ['Poznan', 'Trencsén (Trenčín)', 'Prag']}
+   {'ad': 'Svalbard', 'A_km2': 46658, 'B_km2': 18659, 'net_km2': -27999}
+   {'ad': 'Bodø', 'A_km2': 36073, 'B_km2': 17053, 'net_km2': -19020}
+   {'ad': 'Regensburg', 'A_km2': 29026, 'B_km2': 12351, 'net_km2': -16674}
+   {'ad': 'Vaygaç', 'A_km2': 18750, 'B_km2': 2863, 'net_km2': -15887}
+   {'ad': 'Graz', 'A_km2': 26160, 'B_km2': 11332, 'net_km2': -14828}
+   {'ad': 'Jukkasjärvi', 'A_km2': 29290, 'B_km2': 42940, 'net_km2': 13651}
+   {'ad': 'Galiç (Kostroma)', 'A_km2': 22270, 'B_km2': 35627, 'net_km2': 13358}
+   {'ad': 'Hvalınsk', 'A_km2': 21703, 'B_km2': 9930, 'net_km2': -11773}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 565516, 'B_km2': 562191, 'fark_km2': -3325, 'fark_yuzde': -0.59}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 918762, 'B_km2': 899479, 'fark_km2': -19283, 'fark_yuzde': -2.1}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 687784, 'B_km2': 664247, 'fark_km2': -23537, 'fark_yuzde': -3.42}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917.json · k23 · toplam 83 sn
+
+--- stderr ---

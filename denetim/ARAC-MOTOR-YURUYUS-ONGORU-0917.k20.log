@@ -1,0 +1,86 @@
+öncelik: BELOW_NORMAL
+BOLGE [-180.0, 37.0, -117.0, 85.0] · iç (-180.0, 40.0, -120.0, 85.0) · k20
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.5 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    6.5 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  52 büyük göl kara maskesinden çıkarıldı
+  5 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+      Kinbasket Lake (1973)
+      Lake Chelan (1927)
+      Lower Arrow Lake (1960)
+      Upper Arrow Lake (1960)
+      Williston Lake (1967)
+[    7.1 sn] Nehir yatakları
+  19 nehir parçası — 12 adlı akarsu: Athabasca, Columbia, Fraser, Klamath, Mackenzie, North Saskatchewan, Peace, Sacramento, Sprague, Stikine, Teslin, Yukon
+  bedel sınıfı: sınıf-1 9 parça · sınıf-2 10 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[    7.4 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[    8.1 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.2
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 82 peteğe şekil verildi · 3773 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0001 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[   56.8 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1260×960 = 1,209,600 hücre, kara 311,291
+  105 tohum yerleşti (12 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3750 tohum (kıstırma YOK — Voronoi kalır)
+       Aotearoa Māori Yerleşimi (Kuzey Adası    176.20, -38.10   kenara 33,691 km olurdu
+       Wellington                               174.78, -41.29   kenara 33,607 km olurdu
+       Auckland                                 174.76, -36.85   kenara 33,503 km olurdu
+       Christchurch                             172.64, -43.53   kenara 33,415 km olurdu
+       Te Waipounamu Māori Yerleşimi (Güney A   170.50, -44.00   kenara 33,193 km olurdu
+       Levuka                                   178.83, -17.68   kenara 33,031 km olurdu
+       Bau (Fiji Konfederasyonları)             178.57, -18.01   kenara 33,024 km olurdu
+       Suva                                     178.44, -18.14   kenara 33,020 km olurdu
+       Noumea (Yeni Kaledonya)                  166.44, -22.27   kenara 31,980 km olurdu
+       Yeni Kaledonya iç kesimi                 164.50, -20.50   kenara 31,666 km olurdu
+       Sydney                                   151.21, -33.87   kenara 30,871 km olurdu
+       Brisbane                                 153.03, -27.47   kenara 30,803 km olurdu
+       … ve 3738 tohum daha
+[   57.3 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  ⚠️ DEM ızgaradan KISA: üst uç 84.00° < istenen 85.00° — 20 satır (kuzey kuşağı) deniz seviyesiyle dolduruldu. GERİLME YOK (kırpıldı).
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 68 m/hücre → sürtünme medyanı 1.340
+  en pahalı hücre: sürtünme 10.44 (eğim 1,889 m/hücre)
+[   58.1 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 3,036 · nehri KESEN adım 16,750 / 75,272 aday
+  sınıf-1 12,410 · sınıf-2 4,340 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 16,750 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[   59.7 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[   59.7 sn] Dijkstra (eğim + nehir, üretim)
+  3.9 sn · erişilen 288,646 · bütçe içi 205,724
+[   63.7 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 268,910 kara hücresi
+  ızgaranın erişmediği kara hücresi 22,645 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 3825824, 'A_sahipli_km2': 3384099, 'B_sahipli_km2': 2632946, 'sahibi_degisen_km2': 364347, 'yeni_sahipsiz_km2': 820461, 'yeni_sahipli_km2': 69308, 'A_sahipsiz_km2': 441725, 'B_sahipsiz_km2': 1192878}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+  kume {'km2': 109011, 'merkez_lat': 55.89, 'merkez_lon': -129.5, 'A_sahipleri': ["Lax Kw'alaams (Fort Simpson BC)", 'Bella Bella (Fort McLoughlin)', 'Fort Connolly (Bear Lake)']}
+  kume {'km2': 103369, 'merkez_lat': 63.51, 'merkez_lon': -131.74, 'A_sahipleri': ['Fort Good Hope (Rádeyı̨lı̨kóé)', "Tulít'a Dağ Denesi (Nahanni)", 'Pelly Banks / Ross River']}
+  kume {'km2': 95840, 'merkez_lat': 49.81, 'merkez_lon': -123.44, 'A_sahipleri': ['Fort Langley', 'Yuquot (Nootka Sound)', "Tsilhqot'in (Çilkotin platosu)"]}
+  kume {'km2': 81023, 'merkez_lat': 62.39, 'merkez_lon': -149.38, 'A_sahipleri': ['Anchorage', 'Kenai (Nikolayevskiy Redut)', 'Fairbanks']}
+  kume {'km2': 70331, 'merkez_lat': 42.34, 'merkez_lon': -122.53, 'A_sahipleri': ['Fort Klamath / Klamath Bataklığı', 'Wintu (Yukarı Sacramento)', 'Kuzey Payut (Kara Kaya Çölü)']}
+  kume {'km2': 69723, 'merkez_lat': 60.73, 'merkez_lon': -140.21, 'A_sahipleri': ['Yakutat (Novorossiysk)', 'Batzulnetas (Ahtna)', 'Klukwan (Tlingit)']}
+  kume {'km2': 54770, 'merkez_lat': 54.76, 'merkez_lon': -121.18, 'A_sahipleri': ['Fort McLeod (Britanya Kolumbiyası)', 'Fort George (Prince George)', 'Fort Dunvegan']}
+  kume {'km2': 46649, 'merkez_lat': 63.46, 'merkez_lon': -124.1, 'A_sahipleri': ['Fort Norman (Tulita)', 'Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)', 'Déline (Fort Franklin, Büyük Ayı Gölü)']}
+  kume {'km2': 36606, 'merkez_lat': 65.5, 'merkez_lon': -161.48, 'A_sahipleri': ['Qikiqtaġruk (Kotzebue)', 'Nulato', 'Mihaylovskiy Redut (St. Michael)']}
+  kume {'km2': 23389, 'merkez_lat': 61.44, 'merkez_lon': -126.6, 'A_sahipleri': ['Fort Halkett (Liard)', 'Fort Liard']}
+   {'ad': 'Qikiqtaġruk (Kotzebue)', 'A_km2': 35338, 'B_km2': 488, 'net_km2': -34850}
+   {'ad': 'Fort Klamath / Klamath Bataklığı', 'A_km2': 82176, 'B_km2': 51119, 'net_km2': -31057}
+   {'ad': "Lax Kw'alaams (Fort Simpson BC)", 'A_km2': 40780, 'B_km2': 13351, 'net_km2': -27429}
+   {'ad': 'Yakutat (Novorossiysk)', 'A_km2': 40735, 'B_km2': 13430, 'net_km2': -27305}
+   {'ad': 'Anchorage', 'A_km2': 43734, 'B_km2': 16446, 'net_km2': -27287}
+   {'ad': 'Fort Good Hope (Rádeyı̨lı̨kóé)', 'A_km2': 62208, 'B_km2': 35821, 'net_km2': -26387}
+   {'ad': "Tulít'a Dağ Denesi (Nahanni)", 'A_km2': 66027, 'B_km2': 41651, 'net_km2': -24376}
+   {'ad': 'Fort Selkirk', 'A_km2': 55041, 'B_km2': 30777, 'net_km2': -24264}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917.json · k20 · toplam 64 sn
+
+--- stderr ---

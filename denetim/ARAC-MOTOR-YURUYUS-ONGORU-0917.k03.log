@@ -1,0 +1,84 @@
+öncelik: BELOW_NORMAL
+BOLGE [-3.0, -60.0, 63.0, -7.0] · iç (0.0, -60.0, 60.0, -10.0) · k03
+  eğim DEM: etopo2022_30s_dunya.tif · 43200x17280 · son şeritte 8192 geçerli hücre
+[    0.3 sn] Kara maskesi (Natural Earth 10m, tolerans 0.002)
+  tamam
+[    8.1 sn] Göller
+  goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+  10 büyük göl kara maskesinden çıkarıldı
+  4 MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):
+      Bloemhof Dam (1970)
+      Gariep Dam (1971)
+      Lago de Cahora Bassa (1974)
+      Lake Kariba (1959)
+[   10.2 sn] Nehir yatakları
+  10 nehir parçası — 7 adlı akarsu: Congo, Kasai, Lualaba, Orange, Shire, Vaal, Zambezi
+  bedel sınıfı: sınıf-1 7 parça · sınıf-2 3 parça
+  geçit: 63 kayıt · data/gecitler.js sha256 86104fbf32de
+[   11.3 sn] Yerleşimler
+  UYARI alan: 'dogrulanmadi' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek29.js:Deyrülkamer (Dayr al-Kamer)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  3855 yerleşim
+[   12.7 sn] Petekler üretiliyor (Voronoi)
+  3855 petek (0 yedek eşleşme)
+     Voronoi komşuluğu kuruldu · ortalama komşu 0.3
+     tavan (km): k0=200 · k1=200 · k2=200 · k3=200 · k4=200
+     ALAN KORUYAN anizotropi: 75 peteğe şekil verildi · 3780 daire AYNEN korundu · 0 çözülemedi
+     şekil oranı sınırı ×1.75 · 16 sektör · 128 köşe · 24 ikiye bölme adımı
+     alan koruma sapması: medyan %0.0000 · azamî %0.0001 ✓
+     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)
+[  122.3 sn] Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor
+  ızgara 1320×1060 = 1,399,200 hücre, kara 251,101
+  188 tohum yerleşti (11 tanesi en yakın kara hücresine kaydırıldı)
+  🔒 PENCERE DIŞI, ızgaraya ALINMADI: 3667 tohum (kıstırma YOK — Voronoi kalır)
+       Unalaska (Iliuliuk)                     -166.53,  53.87   kenara 18,025 km olurdu
+       Kiŋigin (Wales)                         -168.09,  65.61   kenara 17,949 km olurdu
+       Lapaha (Muʻa)                           -175.12, -21.18   kenara 17,866 km olurdu
+       Hooper Bay (Naparyarmiut)               -166.10,  61.53   kenara 17,851 km olurdu
+       Tikiġaq (Point Hope)                    -166.80,  68.35   kenara 17,785 km olurdu
+       Nome                                    -165.41,  64.51   kenara 17,736 km olurdu
+       Anaktuvuk batısı — Noatak (Nautaaġmiut  -162.97,  67.57   kenara 17,475 km olurdu
+       Bethel (Mumtrekhlagamute)               -161.76,  60.79   kenara 17,475 km olurdu
+       Mihaylovskiy Redut (St. Michael)        -162.03,  63.49   kenara 17,458 km olurdu
+       Qikiqtaġruk (Kotzebue)                  -162.60,  66.90   kenara 17,454 km olurdu
+       Honolulu                                -157.86,  21.31   kenara 17,392 km olurdu
+       Chignik (Alaska Yarımadası)             -158.40,  56.30   kenara 17,230 km olurdu
+       … ve 3655 tohum daha
+[  123.8 sn] Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)
+  eğim çarpanı 0.005 · kara hücresinde eğim medyanı 28 m/hücre → sürtünme medyanı 1.138
+  en pahalı hücre: sürtünme 9.70 (eğim 1,741 m/hücre)
+[  128.1 sn] Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)
+  özne idare · nehir hücresi 1,347 · nehri KESEN adım 7,330 / 34,095 aday
+  sınıf-1 4,942 · sınıf-2 2,388 · geçit indirimli 0 (köprü, bedelsiz 0) · geçit kaydı 63
+  bedelli adım 7,330 · tablo {'gecitsiz': {1: 16.0, 2: 4.0}, 'kopru': 0.0, 'feribot': 8.0, 'kale-cifti': 8.0, 'sig-gecit': 4.0}
+[  129.8 sn] Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)
+[  129.8 sn] Dijkstra (eğim + nehir, üretim)
+  7.8 sn · erişilen 250,799 · bütçe içi 226,856
+[  137.8 sn] A: Voronoi sahibi + A1 tavanı (ızgarada)
+  A sahipli 244,823 kara hücresi
+  ızgaranın erişmediği kara hücresi 302 (B'de eski kurala kaldı)
+ALAN: {'kara_ic_km2': 6366737, 'A_sahipli_km2': 6199206, 'B_sahipli_km2': 5817824, 'sahibi_degisen_km2': 344194, 'yeni_sahipsiz_km2': 409882, 'yeni_sahipli_km2': 28500, 'A_sahipsiz_km2': 167531, 'B_sahipsiz_km2': 548913}
+B'de ızgara hücresi olmayan tohum (iç kutu): 0
+  kume {'km2': 76731, 'merkez_lat': -16.24, 'merkez_lon': 30.25, 'A_sahipleri': ['Zumbo', 'Binga', 'Tete']}
+  kume {'km2': 37825, 'merkez_lat': -15.46, 'merkez_lon': 48.48, 'A_sahipleri': ['Maroantsetra', 'Sambava', 'Maevatanana']}
+  kume {'km2': 25444, 'merkez_lat': -12.07, 'merkez_lon': 21.8, 'A_sahipleri': ['Kazombo', 'Zambezi (Balovale)', 'Sandoa']}
+  kume {'km2': 22835, 'merkez_lat': -20.7, 'merkez_lon': 14.28, 'A_sahipleri': ['Valvis Körfezi', 'Outjo', 'Otjimbingve']}
+  kume {'km2': 21777, 'merkez_lat': -15.64, 'merkez_lon': 38.03, 'A_sahipleri': ['Kuamba', 'Angoche', 'Montepuez']}
+  kume {'km2': 19588, 'merkez_lat': -11.4, 'merkez_lon': 33.38, 'A_sahipleri': ['Mbande (Ngonde)', 'Nkhotakota (Cumbe)', 'Mpika']}
+  kume {'km2': 14534, 'merkez_lat': -16.77, 'merkez_lon': 13.14, 'A_sahipleri': ['Lubango', 'Mosamedes (Namibe)', 'Ondjiva (Ovambo)']}
+  kume {'km2': 13427, 'merkez_lat': -20.25, 'merkez_lon': 25.73, 'A_sahipleri': ['Serove (Serowe)', 'Hvange', 'Khami']}
+  kume {'km2': 12139, 'merkez_lat': -20.38, 'merkez_lon': 20.24, 'A_sahipleri': ['Ganzi (Ghanzi)', 'Grutfontein', 'Gobabis']}
+  kume {'km2': 12017, 'merkez_lat': -28.17, 'merkez_lon': 16.65, 'A_sahipleri': ['Bethanie', 'Springbok', 'Lüderitz']}
+   {'ad': 'Zumbo', 'A_km2': 86720, 'B_km2': 49472, 'net_km2': -37247}
+   {'ad': 'Binga', 'A_km2': 63094, 'B_km2': 36163, 'net_km2': -26931}
+   {'ad': 'Kazombo', 'A_km2': 65961, 'B_km2': 42474, 'net_km2': -23487}
+   {'ad': 'Katima Mulilo', 'A_km2': 35835, 'B_km2': 17203, 'net_km2': -18632}
+   {'ad': 'Maroantsetra', 'A_km2': 49905, 'B_km2': 31910, 'net_km2': -17995}
+   {'ad': 'Zambezi (Balovale)', 'A_km2': 36154, 'B_km2': 22245, 'net_km2': -13909}
+   {'ad': 'Lubango', 'A_km2': 58087, 'B_km2': 45090, 'net_km2': -12997}
+   {'ad': 'Umtali (Mutare)', 'A_km2': 60284, 'B_km2': 47349, 'net_km2': -12935}
+  Osmanlı doğrudan 1520-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1683-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+  Osmanlı doğrudan 1800-06-15 {'A_km2': 0, 'B_km2': 0, 'fark_km2': 0, 'fark_yuzde': None}
+YAZILDI C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\ARAC-MOTOR-YURUYUS-ONGORU-0917.json · k03 · toplam 138 sn
+
+--- stderr ---

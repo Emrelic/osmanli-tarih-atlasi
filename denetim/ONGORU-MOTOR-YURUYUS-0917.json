@@ -1,0 +1,631 @@
+{
+ "_ne": "MOTOR-YURUYUS öngörüsü — KOŞUDAN ÖNCE, koşusuz ölçümle (D022). A = bugün (Voronoi + A1 tavanı, ham sahiplik), B = yarın (40 saatlik sürtünmeli+nehirli Dijkstra, ızgaranın erişmediği karada eski kural).",
+ "arac": "denetim/ARAC-MOTOR-YURUYUS-ONGORU-0917.py + -KAROLAR-0917.py",
+ "karo_sayisi": 18,
+ "eksik_karo": [],
+ "motor_sha_ilk12": [
+  "772ec0ceb3d9"
+ ],
+ "ongoru": {
+  "karada_sahibi_degisen": {
+   "km2": 7575798,
+   "yuzde_kara": 5.67
+  },
+  "yeni_sahipsiz": {
+   "km2": 17367286,
+   "yuzde_kara": 12.99,
+   "en_buyuk_10_kume": [
+    {
+     "km2": 371339,
+     "merkez_lat": -20.89,
+     "merkez_lon": -66.06,
+     "A_sahipleri": [
+      "Quilmes (Calchaquí Vadisi — Diaguita)",
+      "Sucre (La Plata / Chuquisaca)",
+      "La Paz"
+     ],
+     "karo": "k01"
+    },
+    {
+     "km2": 338184,
+     "merkez_lat": 2.06,
+     "merkez_lon": -76.12,
+     "A_sahipleri": [
+      "Hunza (Tunja)",
+      "Popayán",
+      "Bacatá (Bogotá)"
+     ],
+     "karo": "k11"
+    },
+    {
+     "km2": 324072,
+     "merkez_lat": 36.1,
+     "merkez_lon": 71.49,
+     "A_sahipleri": [
+      "Külâb (Kulob)",
+      "Gazne",
+      "Kâbil"
+     ],
+     "karo": "k14"
+    },
+    {
+     "km2": 299919,
+     "merkez_lat": 29.61,
+     "merkez_lon": 112.37,
+     "A_sahipleri": [
+      "Guilin",
+      "Xi'an (Chang'an)",
+      "Şaoguan"
+     ],
+     "karo": "k14"
+    },
+    {
+     "km2": 271059,
+     "merkez_lat": 48.57,
+     "merkez_lon": -115.58,
+     "A_sahipleri": [
+      "Fort Colvile",
+      "Jasper House",
+      "Lapwai (Nez Perce)"
+     ],
+     "karo": "k21"
+    },
+    {
+     "km2": 251460,
+     "merkez_lat": -12.78,
+     "merkez_lon": -72.5,
+     "A_sahipleri": [
+      "Cusco (Qosqo)",
+      "Vilcashuamán",
+      "Vilcabamba (Espíritu Pampa)"
+     ],
+     "karo": "k01"
+    },
+    {
+     "km2": 223409,
+     "merkez_lat": 31.35,
+     "merkez_lon": 80.42,
+     "A_sahipleri": [
+      "Leh (Ladakh)",
+      "Katmandu",
+      "Mîrat (Meerut)"
+     ],
+     "karo": "k14"
+    },
+    {
+     "km2": 218990,
+     "merkez_lat": 50.61,
+     "merkez_lon": 101.51,
+     "A_sahipleri": [
+      "Mörön (Hövsgöl)",
+      "Uliastay",
+      "Nijneudinsk"
+     ],
+     "karo": "k24"
+    },
+    {
+     "km2": 213913,
+     "merkez_lat": -46.71,
+     "merkez_lon": -71.45,
+     "A_sahipleri": [
+      "Beyan G49.5 B72.5",
+      "Beyan G46.5 B71.5",
+      "Beyan G44.5 B72.5"
+     ],
+     "karo": "k01"
+    },
+    {
+     "km2": 184343,
+     "merkez_lat": 26.57,
+     "merkez_lon": -105.27,
+     "A_sahipleri": [
+      "Durango (Victoria de Durango)",
+      "Álamos",
+      "Múzquiz (Santa Rosa)"
+     ],
+     "karo": "k11"
+    }
+   ]
+  },
+  "yeni_sahipli_km2": 2060184,
+  "osmanli_dogrudan": {
+   "1520-06-15": {
+    "A_km2": 2579804,
+    "B_km2": 2519560,
+    "fark_km2": -60244,
+    "fark_yuzde": -2.34
+   },
+   "1683-06-15": {
+    "A_km2": 4295336,
+    "B_km2": 4159997,
+    "fark_km2": -135339,
+    "fark_yuzde": -3.15
+   },
+   "1800-06-15": {
+    "A_km2": 3079958,
+    "B_km2": 2986328,
+    "fark_km2": -93630,
+    "fark_yuzde": -3.04
+   }
+  },
+  "en_cok_etkilenen_20_yerlesim": [
+   {
+    "ad": "Çamdo (Chamdo)",
+    "A_km2": 125086,
+    "B_km2": 20815,
+    "net_km2": -104271
+   },
+   {
+    "ad": "Mérida (Venezuela)",
+    "A_km2": 113850,
+    "B_km2": 15840,
+    "net_km2": -98010
+   },
+   {
+    "ad": "Leh (Ladakh)",
+    "A_km2": 108015,
+    "B_km2": 12753,
+    "net_km2": -95262
+   },
+   {
+    "ad": "Lhasa",
+    "A_km2": 92035,
+    "B_km2": 20676,
+    "net_km2": -71360
+   },
+   {
+    "ad": "Quilmes (Calchaquí Vadisi — Diaguita)",
+    "A_km2": 92977,
+    "B_km2": 21749,
+    "net_km2": -71229
+   },
+   {
+    "ad": "Dali",
+    "A_km2": 98757,
+    "B_km2": 32915,
+    "net_km2": -65842
+   },
+   {
+    "ad": "Dunhuang",
+    "A_km2": 82431,
+    "B_km2": 17956,
+    "net_km2": -64475
+   },
+   {
+    "ad": "Cuiabá",
+    "A_km2": 125228,
+    "B_km2": 61221,
+    "net_km2": -64007
+   },
+   {
+    "ad": "Hunza (Tunja)",
+    "A_km2": 86521,
+    "B_km2": 22936,
+    "net_km2": -63585
+   },
+   {
+    "ad": "Tabatinga",
+    "A_km2": 124712,
+    "B_km2": 61382,
+    "net_km2": -63330
+   },
+   {
+    "ad": "Katmandu",
+    "A_km2": 87168,
+    "B_km2": 24613,
+    "net_km2": -62555
+   },
+   {
+    "ad": "Kobdo (Hovd)",
+    "A_km2": 106553,
+    "B_km2": 44610,
+    "net_km2": -61943
+   },
+   {
+    "ad": "Yeni Gine İç Yaylaları (Batı — Baliem Vadisi)",
+    "A_km2": 76328,
+    "B_km2": 16688,
+    "net_km2": -59640
+   },
+   {
+    "ad": "Lanzhou",
+    "A_km2": 96082,
+    "B_km2": 36539,
+    "net_km2": -59544
+   },
+   {
+    "ad": "Bodaybo",
+    "A_km2": 109903,
+    "B_km2": 50642,
+    "net_km2": -59261
+   },
+   {
+    "ad": "Kunming",
+    "A_km2": 109726,
+    "B_km2": 50839,
+    "net_km2": -58887
+   },
+   {
+    "ad": "Yinchuan (Ningxia)",
+    "A_km2": 110118,
+    "B_km2": 51657,
+    "net_km2": -58461
+   },
+   {
+    "ad": "Şigatse",
+    "A_km2": 76542,
+    "B_km2": 18201,
+    "net_km2": -58341
+   },
+   {
+    "ad": "Yakutsk",
+    "A_km2": 113692,
+    "B_km2": 55746,
+    "net_km2": -57946
+   },
+   {
+    "ad": "Altay (Şara Sume)",
+    "A_km2": 93278,
+    "B_km2": 35715,
+    "net_km2": -57563
+   }
+  ],
+  "B_izgarada_hucresi_olmayan_tohum": 8
+ },
+ "toplam": {
+  "kara_ic_km2": 133651409,
+  "A_sahipli_km2": 107744132,
+  "B_sahipli_km2": 92437030,
+  "sahibi_degisen_km2": 7575798,
+  "yeni_sahipsiz_km2": 17367286,
+  "yeni_sahipli_km2": 2060184,
+  "A_sahipsiz_km2": 25907275,
+  "B_sahipsiz_km2": 41214378,
+  "sahibi_degisen_yuzde_kara": 5.67,
+  "yeni_sahipsiz_yuzde_kara": 12.99
+ },
+ "karolar": {
+  "k00": {
+   "karo": [
+    -180,
+    -60,
+    -120,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 8331,
+    "A_sahipli_km2": 550,
+    "B_sahipli_km2": 550,
+    "sahibi_degisen_km2": 0,
+    "yeni_sahipsiz_km2": 0,
+    "yeni_sahipli_km2": 0,
+    "A_sahipsiz_km2": 7780,
+    "B_sahipsiz_km2": 7780
+   },
+   "sure_sn": 92
+  },
+  "k01": {
+   "karo": [
+    -120,
+    -60,
+    -60,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 5064625,
+    "A_sahipli_km2": 4064966,
+    "B_sahipli_km2": 2902837,
+    "sahibi_degisen_km2": 117082,
+    "yeni_sahipsiz_km2": 1246177,
+    "yeni_sahipli_km2": 84048,
+    "A_sahipsiz_km2": 999660,
+    "B_sahipsiz_km2": 2161789
+   },
+   "sure_sn": 111
+  },
+  "k02": {
+   "karo": [
+    -60,
+    -60,
+    0,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 4624356,
+    "A_sahipli_km2": 2172625,
+    "B_sahipli_km2": 1609661,
+    "sahibi_degisen_km2": 34259,
+    "yeni_sahipsiz_km2": 663459,
+    "yeni_sahipli_km2": 100495,
+    "A_sahipsiz_km2": 2451731,
+    "B_sahipsiz_km2": 3014696
+   },
+   "sure_sn": 111
+  },
+  "k03": {
+   "karo": [
+    0,
+    -60,
+    60,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 6366737,
+    "A_sahipli_km2": 6199206,
+    "B_sahipli_km2": 5817824,
+    "sahibi_degisen_km2": 344194,
+    "yeni_sahipsiz_km2": 409882,
+    "yeni_sahipli_km2": 28500,
+    "A_sahipsiz_km2": 167531,
+    "B_sahipsiz_km2": 548913
+   },
+   "sure_sn": 138
+  },
+  "k04": {
+   "karo": [
+    60,
+    -60,
+    120,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 845927,
+    "A_sahipli_km2": 820077,
+    "B_sahipli_km2": 771724,
+    "sahibi_degisen_km2": 17323,
+    "yeni_sahipsiz_km2": 55952,
+    "yeni_sahipli_km2": 7599,
+    "A_sahipsiz_km2": 25849,
+    "B_sahipsiz_km2": 74203
+   },
+   "sure_sn": 115
+  },
+  "k05": {
+   "karo": [
+    120,
+    -60,
+    180,
+    -10
+   ],
+   "alan": {
+    "kara_ic_km2": 7185789,
+    "A_sahipli_km2": 6867293,
+    "B_sahipli_km2": 6259894,
+    "sahibi_degisen_km2": 140571,
+    "yeni_sahipsiz_km2": 678313,
+    "yeni_sahipli_km2": 70913,
+    "A_sahipsiz_km2": 318495,
+    "B_sahipsiz_km2": 925895
+   },
+   "sure_sn": 91
+  },
+  "k10": {
+   "karo": [
+    -180,
+    -10,
+    -120,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 142053,
+    "A_sahipli_km2": 139663,
+    "B_sahipli_km2": 124878,
+    "sahibi_degisen_km2": 15844,
+    "yeni_sahipsiz_km2": 14809,
+    "yeni_sahipli_km2": 24,
+    "A_sahipsiz_km2": 2390,
+    "B_sahipsiz_km2": 17175
+   },
+   "sure_sn": 64
+  },
+  "k11": {
+   "karo": [
+    -120,
+    -10,
+    -60,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 11708153,
+    "A_sahipli_km2": 9691332,
+    "B_sahipli_km2": 7608686,
+    "sahibi_degisen_km2": 503557,
+    "yeni_sahipsiz_km2": 2197741,
+    "yeni_sahipli_km2": 115095,
+    "A_sahipsiz_km2": 2016821,
+    "B_sahipsiz_km2": 4099467
+   },
+   "sure_sn": 95
+  },
+  "k12": {
+   "karo": [
+    -60,
+    -10,
+    0,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 8332501,
+    "A_sahipli_km2": 5706603,
+    "B_sahipli_km2": 5096431,
+    "sahibi_degisen_km2": 261980,
+    "yeni_sahipsiz_km2": 782398,
+    "yeni_sahipli_km2": 172225,
+    "A_sahipsiz_km2": 2625898,
+    "B_sahipsiz_km2": 3236070
+   },
+   "sure_sn": 86
+  },
+  "k13": {
+   "karo": [
+    0,
+    -10,
+    60,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 24616026,
+    "A_sahipli_km2": 22602313,
+    "B_sahipli_km2": 21195922,
+    "sahibi_degisen_km2": 1784856,
+    "yeni_sahipsiz_km2": 1677829,
+    "yeni_sahipli_km2": 271439,
+    "A_sahipsiz_km2": 2013713,
+    "B_sahipsiz_km2": 3420104
+   },
+   "sure_sn": 107
+  },
+  "k14": {
+   "karo": [
+    60,
+    -10,
+    120,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 15527470,
+    "A_sahipli_km2": 12157185,
+    "B_sahipli_km2": 9298327,
+    "sahibi_degisen_km2": 748825,
+    "yeni_sahipsiz_km2": 3027831,
+    "yeni_sahipli_km2": 168974,
+    "A_sahipsiz_km2": 3370285,
+    "B_sahipsiz_km2": 6229142
+   },
+   "sure_sn": 97
+  },
+  "k15": {
+   "karo": [
+    120,
+    -10,
+    180,
+    40
+   ],
+   "alan": {
+    "kara_ic_km2": 2038862,
+    "A_sahipli_km2": 1881672,
+    "B_sahipli_km2": 1481603,
+    "sahibi_degisen_km2": 86817,
+    "yeni_sahipsiz_km2": 412501,
+    "yeni_sahipli_km2": 12433,
+    "A_sahipsiz_km2": 157190,
+    "B_sahipsiz_km2": 557258
+   },
+   "sure_sn": 73
+  },
+  "k20": {
+   "karo": [
+    -180,
+    40,
+    -120,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 3825824,
+    "A_sahipli_km2": 3384099,
+    "B_sahipli_km2": 2632946,
+    "sahibi_degisen_km2": 364347,
+    "yeni_sahipsiz_km2": 820461,
+    "yeni_sahipli_km2": 69308,
+    "A_sahipsiz_km2": 441725,
+    "B_sahipsiz_km2": 1192878
+   },
+   "sure_sn": 64
+  },
+  "k21": {
+   "karo": [
+    -120,
+    40,
+    -60,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 10710365,
+    "A_sahipli_km2": 8969857,
+    "B_sahipli_km2": 7870322,
+    "sahibi_degisen_km2": 796795,
+    "yeni_sahipsiz_km2": 1292808,
+    "yeni_sahipli_km2": 193272,
+    "A_sahipsiz_km2": 1740508,
+    "B_sahipsiz_km2": 2840043
+   },
+   "sure_sn": 85
+  },
+  "k22": {
+   "karo": [
+    -60,
+    40,
+    0,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 3024677,
+    "A_sahipli_km2": 1137786,
+    "B_sahipli_km2": 949072,
+    "sahibi_degisen_km2": 120539,
+    "yeni_sahipsiz_km2": 193896,
+    "yeni_sahipli_km2": 5182,
+    "A_sahipsiz_km2": 1886891,
+    "B_sahipsiz_km2": 2075605
+   },
+   "sure_sn": 64
+  },
+  "k23": {
+   "karo": [
+    0,
+    40,
+    60,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 9754763,
+    "A_sahipli_km2": 9387196,
+    "B_sahipli_km2": 9186487,
+    "sahibi_degisen_km2": 1634329,
+    "yeni_sahipsiz_km2": 289424,
+    "yeni_sahipli_km2": 88715,
+    "A_sahipsiz_km2": 367567,
+    "B_sahipsiz_km2": 568276
+   },
+   "sure_sn": 83
+  },
+  "k24": {
+   "karo": [
+    60,
+    40,
+    120,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 13391394,
+    "A_sahipli_km2": 8832620,
+    "B_sahipli_km2": 6864258,
+    "sahibi_degisen_km2": 446478,
+    "yeni_sahipsiz_km2": 2411741,
+    "yeni_sahipli_km2": 443379,
+    "A_sahipsiz_km2": 4558774,
+    "B_sahipsiz_km2": 6527136
+   },
+   "sure_sn": 107
+  },
+  "k25": {
+   "karo": [
+    120,
+    40,
+    180,
+    85
+   ],
+   "alan": {
+    "kara_ic_km2": 6483556,
+    "A_sahipli_km2": 3729089,
+    "B_sahipli_km2": 2765608,
+    "sahibi_degisen_km2": 158002,
+    "yeni_sahipsiz_km2": 1192064,
+    "yeni_sahipli_km2": 228583,
+    "A_sahipsiz_km2": 2754467,
+    "B_sahipsiz_km2": 3717948
+   },
+   "sure_sn": 77
+  }
+ }
+}
