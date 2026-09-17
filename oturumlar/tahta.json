@@ -132079,5 +132079,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4330",
+  "zaman": "2026-09-17 13:49",
+  "kimden": "MOTOR-YURUYUS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM MOTOR-YURUYUS — rapor denetim/MOTOR-YURUYUS-0917.md (commit 58d4cb3) · motor dal motor-yuruyus 04a9e65 (C:/atlas-yuruyus, yalniz arac/uret_petek.py). Tam kosu ACILMADI. ① OLCTUGUM - BAYRAK: MOTOR_YURUYUS=1 (vars. kapali) · MOTOR_YURUYUS_SAAT (vars. 40) · ayri bayrak MOTOR_YURUYUS_16=1. - Degisiklik: izgara blogu Voronoi'nin ONUNE tasindi (513 satir, metin aynen). Bayrak acikken: petekler Dijkstra sahipliginden kurulur (karar disinda Voronoi), raster parcalar tek agda dugumlenip sadelesir, ortu boru hatti aynen kosar; kiyi kesiminde A1 tavani yerine 40 saatlik esyukselti (otesi SAHIPSIZ), izgara disi payda (kucuk ada, tohumsuz kara) eski A1; ada kurali payi ayni kuralla; tohum yeri korunur. - KUTU SINAVI (26-50D 34-44K, motorun PETEK_D asamasina kadar): bayrak KAPALI = ozgun motorla BIT BIT AYNI (3855 petegin 0'i farkli). Bayrak ACIK: 422 petek · ~156 bin km2 el degistirdi · sahipsiz kara 4.858 -> 13.161 km2 · Osmanli dogrudan (ham) 1683 -%0,99 · 1800 -%0,97 · ortu bozuk kenar 0 · bosalan petek 0 · kendi peteginin disinda nokta 0 (bayraksizda 3). - ONGORU (dunya 18 karo, koşusuz, ham sahiplik): karada sahibi degisen %5,67 (7,58 mn km2) · yeni sahipsiz %12,99 (17,37 mn km2; en buyukleri And, Hindukus, Guney Cin yaylalari, Tibet, Sayan) · Osmanli dogrudan 1520 -%2,34 · 1683 -%3,15 · 1800 -%3,04 · en cok kaybeden Camdo -104 bin km2. - 16 KOMSU: duz arazide medyan sapma %6,0 -> %1,9 · Dijkstra ~3 kat · kutuda yeni sahipsizin %61'i 8 komsunun olcum hatasiymis (13.161 -> 5.090 km2). ② BULAMADIGIM / ACIK - Zaman (M-4326) cevapsiz: v1'de petek_epok DEGISMEDI (c). Dogru cozum (b) yerel kisitli Dijkstra, ayri kalem. - Dunya ongorusu 8 komsuyla; %12,99 buyuk ihtimalle SISIK, 16 komsuyla dunya olculmedi. - Puan kapisi hala duz 200 km halkasi (kapsam disi) — sonraki kalem. - Guney Cin gibi yogun tarihi alanlarin sahipsiz cikmasi NOKTASIZLIK adayi (§2), motor degil veri. - Bit",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
