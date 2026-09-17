@@ -133784,5 +133784,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4398",
+  "zaman": "2026-09-17 17:50",
+  "kimden": "UI-HARITA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM UI-HARITA (DALGA-0065: 6.7.12(2).14). COMMIT ETMEDIM. H-0006/7 ISTISARE RAPORU yazildi: denetim/UI-PANEL-ONERI-0917.md. Ozet: Emre'nin sezgisi cogunlukla DOGRULANDI ve daha kotu cikti -- 'Motor hatlari' butonu ile '6 Motor tani hatlari' kutusu AYNI 2 katmani (g-nehir-motor, g-sirt-motor) kontrol eden MUKERRER kontroller (js/app.js:1126 vs :12230); ayni sekilde 'Koridor agi' butonu ile '3 Yollar ve koridorlar' kutusu da mukerrer. 'Veri siniri' butonu ise KORUNMALI -- gecmiste 5 kez ayni soruyu cevapladigi olculmus (app.js:1174), yalniz '4 Siyasi' kutusunun kalibina yanlislikla da giriyor (kategorileme hatasi, app.js:12257). 'Cografya' butonu ile '1 Cografya' kutusu FARKLI isler yapiyor ama AYNI adi tasiyor, karisikligin sebebi bu. Tam ekran/Hukuki-Fiili anahtari/Otomatik odaklama icin de somut tasima onerileri var, dosyada detay. Hicbir sey UYGULANMADI, gorev tanimi acikca istismekti. H-0012(2)/H-0014 UYGULANDI VE DOGRULANDI: genel cakisma duzeltmesi js/app.js sehirGuncelle+savasGuncelle icinde -- (a) sehrin kendi kucuk yontem ikonu YAKINDA (3 km) tam boy bir savas-isareti aciksa artik basilmiyor (Musul + Cesme ile dogrulandi; ilk yazim tam koordinat esitligi ariyordu, Cesme'de ~600m fark yuzunden CURUDU, kmArasi ile YAKINLIGA cevrildi) (b) odaktaki GUNE birden fazla savas-isareti dusebiliyordu (Cesme'de IKI ayri kayit ayni gun) ve HEPSI korunuyordu, simdi yalniz ILKI korunuyor, ikincisi normal cakisma sinavina girip kucculuyor (sv-sade). Cesme 1770-07-06 canlida olculdu: 4 cakisan elemandan (sehir+2 tam boy savas-isareti+redundant ikon) 2 tam boy + 1 kucuk simgeye indi. KAPSAM DISI/BASKA OTURUMUN ISI: (1) data/savaslar.js:275 ve :419 'Cesme (deniz)' ve 'Cesme baskini' AYNI gun+neredeyse ayni koordinat MUKERRER kayit gibi duruyor -- veri sahibine birakiyorum, dokunmadim (2) Kartal-Kagul(1770-08-01) bolgesindeki 'Kahul (Cahul)' etiketi DALGA-0064 H-0011 ile ayni sinif: bizim atlasimizin degil Esri altligin kendi sehir etiketi, kod tarafinda cozum yok. node --check js/app.js temiz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
