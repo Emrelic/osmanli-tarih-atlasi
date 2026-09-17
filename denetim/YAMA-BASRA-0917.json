@@ -1,0 +1,189 @@
+{
+  "paket": "DALGA-0066 BASRA-KORFEZ — H-0020 Basra·Abâdân·Fâv kronolojik sahiplik (+ H-0017/H-0021 yan bulguları)",
+  "tarih": "2026-09-17",
+  "yazan": "BASRA-KORFEZ (Opus 1012, 1.MURAT sevki — oturumlar/KADRO-1010-1015.md)",
+  "durum": "ÖNERİ — KARAR KOORDİNATÖRÜN. data/ yerleşim ve kronoloji dosyalarına YAZILMADI. Tek yeni veri dosyası: data/ekokuma_korfez.js (window.EKOKUMA_KORFEZ, 4 kart).",
+  "uygulama_notu": "Bu beş yerleşimin (Basra · Fâv · Kürne · Abâdân · Kuveyt) HER BİRİ için data/yer_yama_*.js içinde ZATEN d/s dizisi taşıyan yamalar var (yer_yama_manda_0906 · yer_yama_ok109_fetret · yer_yama_ok106 · yer_yama_zend_kacar · yer_yama_vassal_kid_0906 · yer_yama_kid20_0907 · yer_yama_1923_duzeltme). arac/_sahiplik_uygula.py aynı ad için farklı çekirdekli iki dizi görürse BLOKE eder. ⇒ Aşağıdaki 'hedef' dizileri yeni bir yer_yama dosyası olarak DEĞİL, doğrudan yerlesimler.js kaydına (ve varsa çakışan eski yamaya) işlenmelidir. Hedef diziler, girdi.yukle() ile 17 Eylül 21:00'de okunan CANLI kayıttan türetildi.",
+
+  "kaynaklar_okunan": {
+    "TDV_200_govde_okundu": ["basra", "kuveyt", "abadan", "sattularap", "huzistan", "kerim-han-zend", "zendler", "abdulhamid-i", "sunbulzade-vehbi", "uman", "bagdat", "daltaban-mustafa-pasa", "irak--ulke", "birinci-dunya-savasi", "midhat-pasa", "katar", "bahreyn", "lahsa", "kacarlar", "safeviler", "necid", "vehhabilik", "kutulamare", "amare", "hasan-pasa", "suleyman-pasa", "kolemenler", "ahsa", "hark", "mubarek-es-sabah", "ali-riza-pasa"],
+    "TDV_200_yanlis_ya_da_bos": {
+      "efrasiyab": "mitolojik Efrâsiyâb (Şâhnâme) — Basra'nın Efrâsiyâb Paşa'sı DEĞİL (§4② tuzağı)",
+      "mubarek-es-sabah": "gövde yok, yalnız başlık/iletişim formu (yönlendirme kütüğü, D109 sınıfı)",
+      "hasan-pasa · suleyman-pasa · kolemenler": "Basra/1776 geçmiyor — ilgisiz ya da kütük madde"
+    },
+    "TDV_302_olu": ["fav", "zend", "zendiler", "kerim-han", "muntefik", "muntefikler", "sabah", "mubarek-b-sabah", "benu-halid", "beni-halid", "benu-kab", "kab", "muhammere", "muhammere--sehir", "kurna", "kut-ul-amare", "kutulammare", "omer-pasa", "omer-pasa-bagdat", "sadik-han", "sadik-han-zend", "suleyman-pasa-buyuk", "buyuk-suleyman-pasa", "bagdat-memlukleri", "irak", "irak-cephesi", "kerbela-vakasi", "el-ahsa", "bender-bushehr", "busehr", "efrasiyabogullari", "efrasiyab-ogullari", "seyyid-talib-pasa", "afsarlar", "erzurum-antlasmalari", "hasan-pasa-hemedan", "bagdat-valisi-hasan-pasa", "nadir-sah", "babanogullari", "kerden-antlasmasi", "utub", "benu-utbe", "muntefik-asireti", "kab-asireti", "huveyze", "havize", "dirse", "suud-bin-abdulaziz", "abdullah-b-sabah", "uceyr", "benu-halid-emirligi", "ali-riza-pasa-laz", "kurna"],
+    "Iranica": {
+      "karim-khan-zand (J. R. Perry)": "[80] 1775'te Sâdık Han Basra'yı kuşattı, bir yıllık kuşatmadan sonra alındı ve Kerim Han'ın 1779'daki ölümüne kadar işgal edildi · [81] casus belli: Ömer Paşa'nın 1773 vebasında ölen İranlı hacıların mallarına el koyması + Erdelân'a müdahale · [82] Müntefik pususu Haziran 1778 · [83-84] Sâdık Han Aralık 1778'de döndü, üç ay sonra Kerim Han'ın ölüm haberini aldı",
+      "basra": "[111] 'blockaded and finally forced to surrender in 1190/1776' · [112] 1193/1779'da Sâdık Han şehirden çekildi · [113] kısa bir Müntefik doğrudan yönetiminden sonra Osmanlı'ya döndü",
+      "iraq-v-afsharids-to-the-end-of-the-qajars": "[60] 'occupied Basra in Rabiʿ I 1190/April 1776 after a long siege' · [63] Osmanlılar Basra'yı geri almak için ancak 1778'de seferber oldu",
+      "abadan-i (ĀBĀDĀN i. History)": "[71] 'From the 11th/17th century onward, the island was part of the lands of the Arab Kaʿb tribe'",
+      "khorramshahr": "gövde 1.780 karakter — tarih bölümü YOK (ölçülemedi)",
+      "kuwait · persian-gulf-history": "404 (madde bu adreste yok)"
+    },
+    "birincil_kamu_mali": {
+      "Lorimer, Gazetteer of the Persian Gulf, Oman and Central Arabia, vol. I (Calcutta 1915)": "archive.org in.ernet.dli.2015.206962 + .206963 OCR metni (denetim/_govde_basra/ek/). GÖVDE okunan: Persian Coast bölümü — 'Basrah was invested by the Persians on the 7th of April 1775 … until the 16th of April 1776, when it surrendered' · 'Arabistan bölümü — 'the evacuation of the town by the Persians in the spring of 1779' · 'In July 1780 the Ka'ab tribe were at war with the 'Utub'. YALNIZ İÇİNDEKİLER okunan (gövde OCR'da bulunamadı): 'Foundation of Kuwait in 1716 by the 'Utub' · 'Kuwait a dependency of Basrah in 1775' · 'The Desert Mail despatched from Kuwait instead of Basrah, 1778' · 'Temporary location of the British Basrah Factory at Kuwait, 1793-1795' · 'Wahhabi aggressions on Kuwait, 1793-1795' · 'Capture and evacuation of Muhammareh by the Turks, 1837' · 'Shaikh of the Ka'ab pledges his allegiance to Basrah but not so the Shaikh of the Muhaisin'.",
+      "Moberly, The Campaign in Mesopotamia 1914-1918, vol. I (London 1923)": "archive.org in.ernet.dli.2015.227118 OCR. Gövde: 'Capture of Fao, 6th November' · 'British reach Basra, 21st November' · 22 Kasım öğleden sonra askerî vali atandı · 'Ceremonial entry into Basra on 23rd' · 'surrender of Qurna, 9th December' (Kürne heyeti 8/9 gece geldi, teslim 9 Aralık sabahı) · Kuveyt şeyhi 1871'de 'then independent', savaş çıktığında 'definitely under our protection'."
+    }
+  },
+
+  "yerlesim_onerileri": [
+    {
+      "no": "Y1", "ad": "Basra", "oncelik": "🔴",
+      "canli": {
+        "s": [{"f":"1776-04-16","t":"1779-04-01","d":"zend"},{"f":"1281-01-01","t":"1340-01-01","d":"ilhanli"},{"f":"1340-01-01","t":"1411-01-01","d":"celayirli"},{"f":"1411-01-01","t":"1469-01-01","d":"karakoyunlu"},{"f":"1469-01-01","t":"1508-01-01","d":"akkoyunlu"},{"f":"1508-01-01","t":"1546-01-01","d":"safevi"},{"f":"1914-11-22","t":"1921-08-23","d":"ingiltere"},{"f":"1921-08-23","t":"1923-10-29","d":"irak-kralligi"}],
+        "d": [{"f":"1546-01-01","t":"1776-04-16","y":"vassal"},{"f":"1779-04-01","t":"1914-11-22"}]
+      },
+      "hedef": {
+        "s": [{"f":"1281-01-01","t":"1340-01-01","d":"ilhanli"},{"f":"1340-01-01","t":"1411-01-01","d":"celayirli"},{"f":"1411-01-01","t":"1469-01-01","d":"karakoyunlu"},{"f":"1469-01-01","t":"1508-01-01","d":"akkoyunlu"},{"f":"1508-01-01","t":"1545-12-26","d":"safevi"},
+              {"f":"1696-01-01","t":"1701-01-01","d":"safevi","kaynak":"TDV basra: 'Bu karışık durumdan faydalanan İranlılar 1696'da Basra'yı ele geçirdiler.' · TDV daltaban-mustafa-pasa: '1701 yılında Kurna ve Basra'yı kurtardı.' · TDV bagdat: 'bir süre sonra ise İranlılar'ın eline geçti … Daltaban Mustafa Paşa'nın seraskerliğinde düzenlenen seferle Kurna ve Basra yeniden Osmanlı idaresine girdi.'","kesinlik":"yil"},
+              {"f":"1776-04-16","t":"1779-04-01","d":"zend","kaynak":"Lorimer I (1915), Persian Coast: invested 7 Apr 1775, surrendered 16 Apr 1776 · Iranica BASRA: 1190/1776 teslim, 1193/1779 Sâdık Han çekildi · Lorimer 'Arabistan: 'evacuation … in the spring of 1779' — 04-01 GÜNÜ KAYNAKSIZ (bahar 1779)"},
+              {"f":"1914-11-22","t":"1921-08-23","d":"ingiltere"},{"f":"1921-08-23","t":"1923-10-29","d":"irak-kralligi"}],
+        "d": [{"f":"1545-12-26","t":"1696-01-01","y":"savas","kaynak":"TDV basra: 'Ayas Paşa … müdafileri tesirsiz hale getirdi ve 26 Aralık 1545'te Basra'ya girdi.'"},
+              {"f":"1701-01-01","t":"1776-04-16","kaynak":"TDV daltaban-mustafa-pasa · TDV basra"},
+              {"f":"1779-04-01","t":"1914-11-22","kaynak":"TDV basra/kuveyt/irak--ulke: 22 Kasım 1914"}]
+      },
+      "degisiklik": [
+        "① d başı 1546-01-01 → 1545-12-26 (TDV, GÜN). safevi s sonu aynı güne. 6 gün.",
+        "② YENİ s safevi 1696→1701 (TDV, YIL) ve d ikiye bölünür. 🔴 Değişmez 2: 1696-01-01'in ±30 gününde ÇEKİRDEK MADDE YOK; 1701-01-01'in yanında yalnız ilgisiz 'Prusya Krallığı' (olaylar_ek20). ⇒ K1 + K2 maddeleri İNMEDEN bu kalem UYGULANMAZ.",
+        "③ y:'vassal' → y:'savas' (🟡 isteğe bağlı): VERI-YAPISI 'vassal = anahtar teslimi' diyor ve Basra'yı ÖRNEK veriyor; ama 1538 anahtar teslimi (TDV) ile 1545 doğrudan idare AYRI olaylar — 26 Aralık 1545'te Ayas Paşa şehre savaşla girdi. Kural 'bilinmiyorsa yazma' — tereddüt varsa y alanı kaldırılabilir.",
+        "④ 1776-04-16 KORUNDU (Lorimer). Iranica IRAQ v 'Rabiʿ I 1190' diyor; tabular hicrî takvimle Rebîülevvel 1190 = 1776-04-20…05-19, yani 16 Nisan Safer 1190'a düşer — 4 günlük ÇELİŞKİ, bildiriliyor, çözülmedi.",
+        "⑤ 1779-04-01 KORUNDU ama kaynak AY vermiyor ('spring of 1779'); olaylar_ek8'in kendi gun alanı da '1779'. §4 ③ ay-kodlu sınıfı. Kaynaklı bir gün bulunamadı.",
+        "⑥ Kanıtlanıp YAZILAMAYANLAR (künye yok): 1690-1696 Müntefik şeyhi Mâni' ve Huveyze Hanı Ferecullah hâkimiyeti (TDV basra/bagdat, yıl yok) · 1779 baharındaki kısa Müntefik yönetimi (Iranica). devletler.js'te Müntefik / Huveyze (Müşa'şa') / Kâ'b kimliği YOK. Bu dilimler bugün safevi/Osmanlı'ya emiliyor.",
+        "⑦ 1538-1545 arası: TDV 'Râşid b. Megāmis 1538'de anahtarları teslim etti, hutbe-sikke şartıyla iltizam' + 'yerine geçen Şeyh Yahyâ Osmanlı yönetimine karşı tavır aldı' (gün yok). Atlas bu arayı SAFEVÎ boyuyor; TDV Basra'yı Safevî saymıyor. ÖNERİLMEDİ (tâbiyetin bitişi kaynaksız, Âl-i Megāmis künyesi yok) — BORÇ."
+      ],
+      "kronoloji_gerek": ["K1", "K2", "D1"]
+    },
+    {
+      "no": "Y2", "ad": "Fâv", "oncelik": "🔴",
+      "canli": {"d": [{"f":"1546-01-01","t":"1914-11-22","y":"antlasma"}], "s_son": [{"f":"1914-11-22","t":"1921-08-23","d":"ingiltere"},{"f":"1921-08-23","t":"1923-10-29","d":"irak-kralligi"}]},
+      "hedef": {"d": [{"f":"1545-12-26","t":"1914-11-06","y":"antlasma","kaynak":"gün komşudan: Basra (TDV basra, 26 Aralık 1545) — aynı sefer, aynı beylerbeyilik · bitiş: TDV irak--ulke 'savaş ilân ettikleri günün (5 Kasım 1914) ertesi sabahı İngiliz askerlerinin Şattülarap'ın ağzındaki Fâv mevkiini ele geçirmesi' + Moberly I 'Capture of Fao, 6th November'"}],
+                "s_son": [{"f":"1914-11-06","t":"1921-08-23","d":"ingiltere"},{"f":"1921-08-23","t":"1923-10-29","d":"irak-kralligi"}],
+                "s_safevi_sonu": "1508-01-01 → 1545-12-26"},
+      "degisiklik": ["① d sonu / ingiltere başı 1914-11-22 → 1914-11-06 (İKİ bağımsız kaynak, GÜN). 16 gün.", "② d başı 1546-01-01 → 1545-12-26 (§4 şartlı komşu günü — dört şart da sağlanıyor, not kayda yazıldı).", "③ 🔴 Değişmez 2: 1914-11-06'nın ±30 gününde çekirdekte yalnız ilgisiz maddeler var (I. Dünya Savaşı'na giriş · Karadeniz Baskını · Cihâd-ı Ekber). Fâv'ın değişimi bunların altında belirir ⇒ K3.", "④ 1696-1701 ve 1776-1779: Fâv için kaynak YOK (TDV daltaban yalnız 'Kurna ve Basra' diyor; denetim/ARASTIRMA-A6C-0913 §2 hükmü teyit) — değişiklik ÖNERİLMEDİ."],
+      "kronoloji_gerek": ["K3", "D4"]
+    },
+    {
+      "no": "Y3", "ad": "Kürne", "oncelik": "🔴",
+      "canli": {"d": [{"f":"1546-01-01","t":"1914-11-22","y":"antlasma"}], "s_son": [{"f":"1914-11-22","t":"1921-08-23","d":"ingiltere"}]},
+      "hedef": {"d": [{"f":"1545-12-26","t":"1914-12-09","y":"antlasma","kaynak":"başlangıç gün komşudan: Basra (TDV basra) · bitiş: Moberly I, bölüm VII 'surrender of Qurna, 9th December' (teslim heyeti 8/9 Aralık gecesi, teslim 9 Aralık 1914 sabahı)"}],
+                "s_son": [{"f":"1914-12-09","t":"1921-08-23","d":"ingiltere"}],
+                "s_safevi_sonu": "1508-01-01 → 1545-12-26"},
+      "degisiklik": ["① d sonu / ingiltere başı 1914-11-22 → 1914-12-09 (Moberly, GÜN). 17 gün. Bugün Kürne Basra'yla AYNI GÜN düşüyor; oysa Basra'dan 17 gün SONRA ayrı bir muharebeyle alındı (Muzaira'a 4-8 Aralık).", "② 🔴 Değişmez 2: 1914-12-09'un ±30 gününde çekirdekte yalnız ilgisiz maddeler ⇒ K4.", "③ 🟡 1696/1701: TDV daltaban '1701 yılında Kurna ve Basra'yı KURTARDI' ⇒ Kürne de işgaldeydi, ama KİMİN işgalinde olduğu (İran mı, Müntefik mi) ve NE ZAMAN düştüğü kaynakta YOK. Basra'nın 1696'sını devralmak §4 şart ③'ü (aynı süreç) karşılar ama şart ②'yi 'işgalci' için karşılamaz ⇒ ÖNERİLMEDİ, borç."],
+      "kronoloji_gerek": ["K4"]
+    },
+    {
+      "no": "Y4", "ad": "Abâdân", "oncelik": "🟠 KAYNAK ÇELİŞKİSİ — hüküm koordinatörün",
+      "canli": {"d": [{"f":"1546-01-01","t":"1847-05-31"}], "s": "ilhanli … safevi 1508-1736 · afsar 1736-1747 · zend 1747-1794 · kacar 1794-1923 (d ile örtüşüyor; v→d→s sırasıyla d kazanıyor)"},
+      "celiski": [
+        "TDV abadan: 'Uzun süre Osmanlı hâkimiyetinde kalan Abadan, 1847 Erzurum Antlaşması ile İran'a geçmiştir.' (başlangıç VERMİYOR)",
+        "Iranica ĀBĀDĀN i [71]: 'From the 11th/17th century onward, the island was part of the lands of the Arab Kaʿb tribe'",
+        "TDV huzistan: 'Sınır boylarındaki Arap aşiretleri … bazan Osmanlı hükümetine, bazan da İran hükümetine vergi vermek suretiyle …' ve 'İranlılar 1837'de Herat'ı muhasara edince Osmanlılar da Hûzistan'a girdiler ve Muhammere ile Abadan'ı ELE GEÇİRDİLER' — 1837'den ÖNCE Osmanlı'nın elinde OLMADIĞINI ima ediyor",
+        "Lorimer I içindekiler: 'Capture and evacuation of Muhammareh by the Turks, 1837' · 'Shaikh of the Ka'ab pledges his allegiance to Basrah but not so the Shaikh of the Muhaisin'"
+      ],
+      "secenekler": [
+        "A (öneri DEĞİL, bugünkü hâl) — d 1546→1847 kalır; yalnız başı 1545-12-26'ya (Basra ile birlikte) çekilir. TDV abadan'a dayanır; öteki üç tanıklığı yok sayar.",
+        "B — 1546→1847 d yerine v (tâbi, k:'Benî Kâ'b — Osmanlı'ya bağlılığı dönem dönem') — TDV huzistan + Iranica'yı yansıtır; ama v'nin başı ve kesintileri de kaynaksız.",
+        "C (ÖNERİM) — geometriye DOKUNMA, kararı Emre'ye taşı; Kâ'b künyesi (devletler.js'te YOK) açılmadan doğru çizim mümkün değil. Bu arada ek okuma kartı (tartisma-korfez-basra-abadan-fav-sahiplik ⑦) çelişkiyi okuyucuya açıkça gösteriyor."
+      ],
+      "not": "TDV huzistan ayrıca '1913'te Abadan ve Basra'yı işgal eden İngilizler' diyor — Basra'nın işgali TDV'nin kendi basra/kuveyt/irak maddelerinde 22 Kasım 1914. Cümle yanlış ya da başka bir olayı (1909-1913 rafineri) kastediyor; hiçbir yere taşınmadı."
+    },
+    {
+      "no": "Y5", "ad": "Muhammere", "oncelik": "🟡",
+      "canli": {"kur":"1812-01-01", "s":[{"f":"1812-01-01","t":"1923-10-29","d":"kacar"}]},
+      "bulgu": "TDV huzistan ve Lorimer 1837'de Osmanlı'nın Muhammere'yi aldığını; Lorimer aynı yıl BOŞALTTIĞINI kaydediyor ⇒ kalıcı bir dönem DEĞİL, dönem ÖNERİLMEDİ. 1812-1847 arası Muhaysin/Kâ'b şeyhliği Osmanlı-İran arasında tartışmalıydı (Lorimer içindekiler); atlas bunu düz 'kacar' çiziyor — Kâ'b künyesi yok, borç. kur:1812 bu turda kaynakla ÖLÇÜLMEDİ.",
+      "kronoloji_gerek": ["K5 (🟡)"]
+    },
+    {
+      "no": "Y6", "ad": "Kuveyt", "oncelik": "🟠 kaynaksız kırılma — hüküm koordinatörün",
+      "canli": {"kur":"1716-01-01", "s":[{"f":"1716-01-01","t":"1795-04-01","d":"benihalid"},{"f":"1914-11-22","t":"1923-10-29","d":"kuveyt"}], "v":[{"f":"1795-04-01","t":"1871-01-01","k":"Sabah emirliği (Osmanlı himayesinde)","kid":"kuveyt","statu":"vassal"},{"f":"1871-01-01","t":"1914-11-22","k":"Sabah emirliği (Osmanlı kazâsı)","kid":"kuveyt","statu":"vassal"}], "isg":[{"f":"1914-11-22","t":"1923-10-29","d":"ingiltere"}]},
+      "bulgu": [
+        "🔴 1795-04-01 kırılmasının KAYNAĞI YOK. `kaynak:\"kuveyt\"` beyan ediliyor ama TDV kuveyt 1795'te bir himaye olayı ANLATMIYOR; 1795'i yalnız şu cümlede anıyor: '1793'te İngilizler, Basra'daki Osmanlı idarecileriyle olan problem yüzünden ticarî merkezlerini 1795'e kadar Küveyt'e taşıdılar.' Lorimer'in Kuveyt tarihinin I. dönemi de '1716-1795 … temporary location of British Factory there from 1793 to 1795' diye bitiyor. ⇒ 1716 ve 1795, Lorimer'in DÖNEM SINIRLARI; 1795 bir İNGİLİZ ticaret merkezinin ayrılışı, Osmanlı himayesinin başlangıcı DEĞİL. (dersler D196 'yanlış olay seçilmiş' + D144 'beyan edilen kaynak iddiayı taşımıyor')",
+        "🔴 benihalid 1716-1795 ile iki kaynak ÇELİŞİYOR: TDV kuveyt 'Osmanlılar bu bölgeye de hâkim oldular ve burayı Basra beylerbeyiliği sınırları içerisine kattılar … XVIII. yüzyılda bir liman şehri olarak ortaya çıkışından itibaren bir kaza merkezi haline gelmiş olduğu söylenebilir' · Lorimer içindekiler 'Kuwait a dependency of Basrah in 1775'. Benî Hâlid'in Kuveyt üzerindeki hâkimiyetini söyleyen bir kaynak bu turda BULUNAMADI (TDV lahsa Benî Hâlid'i Lahsâ'nın hâkimi olarak anlatıyor, Kuveyt'i anmıyor).",
+        "🟡 KARŞI TANIK: Moberly I, 1871 için Kuveyt şeyhini 'then independent' diye niteliyor. Yani 1871 öncesini 'Osmanlı himayesi' diye çizmek İngiliz resmî tarihine, 'bağımsız/Benî Hâlid' diye çizmek TDV'ye ters düşüyor. Ek okuma kartı (tartisma-korfez-kuveyt-kimin) iki anlatıyı da veriyor.",
+        "🟢 1914-11-22 DOĞRU (TDV kuveyt: 'İngiltere savaşta Basra'yı ele geçirince (22 Kasım 1914) Küveyt'in kendi himayesinde olduğunu ilân etti')."
+      ],
+      "secenekler": [
+        "A — geometriye dokunma, yalnız D3 (madde metni) düzelt — ama madde 1795 kırılmasının Değişmez 2 çapası; metni gerçeğe çekince kırılma 'İngiliz ticaret merkezi Basra'ya döndü' başlığı altında belirir (D-2 kusuru).",
+        "B (ÖNERİM) — benihalid→Osmanlı geçişini kaynaksız bir güne bağlamak yerine KARARI Emre'ye taşı: TDV'ye göre bütün dönem Osmanlı'ya bağlı (v), Moberly'ye göre 1871'e kadar bağımsız. İki kaynağın dayanağı farklı gelenek (TR / EN). Karar verilene kadar 1795 maddesi 'kaynak: bulunamadı — kırılma günü Lorimer'in dönem sınırı' diye DAMGALANSIN."
+      ],
+      "kronoloji_gerek": ["D3"]
+    }
+  ],
+
+  "kronoloji_yeni_madde_onerileri": [
+    {"no":"K1","hedef_dosya":"çekirdek (olaylar_*)","t":"1696-01-01","gun":"1696","k":"kayip","yer_id":"Basra","etiket":["toprak-kayip","konu-askeri"],
+     "b":"Basra'nın İranlılarca ele geçirilmesi",
+     "d":"Osmanlı Devleti batıda Kutsal İttifak savaşlarıyla uğraşırken Basra, 1690'daki veba salgınının ardından önce Müntefik şeyhi Mâni'in, sonra Huveyze Hanı Ferecullah'ın yağmasına uğramıştı. Bu karışıklıktan yararlanan İranlılar 1696'da şehri ele geçirdi ve Basra'ya bir muhafız bıraktı.",
+     "kaynak":"basra","duygu":["😔"],"not":"TDV basra (yıl); TDV bagdat sırayı veriyor (Müntefik → Huveyze → İran). Gün bilinmiyor ⇒ YYYY-01-01."},
+    {"no":"K2","hedef_dosya":"çekirdek (olaylar_*)","t":"1701-01-01","gun":"1701","k":"fetih","yer_id":"Basra","etiket":["toprak-kazanc","konu-askeri"],
+     "b":"Daltaban Mustafa Paşa'nın Kürne ve Basra'yı geri alması",
+     "d":"Karlofça Antlaşması'ndan sonra Bağdat valiliğine ve Basra seraskerliğine getirilen Daltaban Mustafa Paşa, Halep, Rakka, Sivas ve Karaman kuvvetleriyle ve Birecik'ten inen bir nehir donanmasıyla güneye yürüdü. Çevredeki kabile şeyhleri birer birer itaat etti, İran'ın Basra muhafızı Dâvud Han şehri terk etti ve Kürne ile Basra yeniden Osmanlı idaresine girdi.",
+     "kaynak":"daltaban-mustafa-pasa","duygu":["🎉"],"not":"TDV daltaban-mustafa-pasa '1701 yılında Kurna ve Basra'yı kurtardı' · TDV basra (Dâvud Han'ın çekilişi, yıl yok). Gün bilinmiyor."},
+    {"no":"K3","hedef_dosya":"çekirdek (olaylar_*)","t":"1914-11-06","gun":"6 Kasım 1914","k":"kayip","yer_id":"Fâv","etiket":["savas","toprak-kayip","konu-askeri"],
+     "b":"İngiliz-Hint kuvvetlerinin Fâv'ı ele geçirmesi — Irak cephesinin açılışı",
+     "d":"İtilaf devletlerinin Osmanlı Devleti'ne savaş ilan ettiği günün ertesi sabahı, Bahreyn'de bekleyen İngiliz-Hint tugayı Şattülarap'ın ağzındaki Fâv'a çıktı. Harap Fâv kalesindeki küçük Osmanlı birliği savaş gemilerinin ateşi altında çekildi ve Hindistan telgraf hattının istasyonu İngilizlerin eline geçti. Irak cephesi böylece açıldı.",
+     "kaynak":"irak--ulke","duygu":["😔"],"not":"TDV irak--ulke (gün) · Moberly I 'Capture of Fao, 6th November' (gün + ayrıntı)."},
+    {"no":"K4","hedef_dosya":"çekirdek (olaylar_*)","t":"1914-12-09","gun":"9 Aralık 1914","k":"kayip","yer_id":"Kürne","etiket":["savas","toprak-kayip","konu-askeri"],
+     "b":"Kürne'nin İngilizlere teslim olması",
+     "d":"Basra'nın düşüşünden sonra Dicle ile Fırat'ın birleştiği Kürne'ye çekilen Basra Valisi Subhi Bey'in kuvvetleri, 4-8 Aralık'taki çarpışmalardan sonra 9 Aralık 1914 sabahı teslim oldu.",
+     "kaynak":"Moberly, The Campaign in Mesopotamia 1914-1918, I (1923), bölüm VII","duygu":["😔"],"not":"TDV'de Kürne maddesi yok (kurna 302). Tek dayanak Moberly (İngiliz resmî tarihi, gelenek EN) — kaynak: alanına ADIYLA yazıldı; §4 'TDV diye gösterilmez'."},
+    {"no":"K4b","hedef_dosya":"çekirdek (olaylar_*)","t":"1914-11-22","gun":"22 Kasım 1914","k":"kayip","yer_id":"Basra","etiket":["savas","toprak-kayip","konu-askeri"],
+     "b":"Basra'nın İngilizlerce işgali",
+     "d":"Saihan (15 Kasım) ve Sahil (17 Kasım) çarpışmalarından sonra Osmanlı kuvvetleri Basra'yı boşalttı ve İngilizler 21 Kasım'da şehre ulaştı. 22 Kasım'da askerî vali atandı, 23 Kasım'da törenle girilerek işgal bildirisi okundu. Basra'yı alan İngiltere, Kuveyt'in de kendi himayesinde olduğunu ilan etti.",
+     "kaynak":"basra","duygu":["😔"],"not":"🔴 GEREKÇE: Basra'nın bugünkü d sonu 1914-11-22 Değişmez 2'yi yalnız İLGİSİZ çekirdek maddelerle geçiyor (I. Dünya Savaşı'na giriş · Cihâd-ı Ekber · Mısır himayesi); Basra işgalinin maddesi yalnız KUYRUKTA (kronoloji_cok_1dunya_B). TDV basra/kuveyt/irak 22 Kasım; TDV birinci-dunya-savasi 23 Kasım; Moberly ikisini açıklıyor."},
+    {"no":"K5","hedef_dosya":"çekirdek ya da kronoloji_iran","oncelik":"🟡","t":"1837-01-01","gun":"1837","k":"diger","yer_id":"Muhammere","etiket":["konu-askeri"],
+     "b":"Osmanlı kuvvetlerinin Muhammere'yi ele geçirip boşaltması",
+     "d":"İran'ın Herat'ı kuşatmasıyla uğraştığı sırada Osmanlı kuvvetleri Hûzistan'a girerek Muhammere'yi ve Abâdân'ı ele geçirdi, ancak Muhammere aynı yıl yeniden boşaltıldı. Olay, Şattülarap'ın doğu yakası üzerindeki anlaşmazlığı büyüttü ve 1847 Erzurum Antlaşması'na giden görüşmelerin sebeplerinden biri oldu.",
+     "kaynak":"huzistan","duygu":[],"not":"TDV huzistan (yıl, 'ele geçirdiler') · Lorimer I içindekiler 'Capture and evacuation of Muhammareh by the Turks, 1837'. 'Erzurum'a giden görüşmelerin sebeplerinden biri' cümlesi TDV huzistan'ın 'Daha sonra Rus ve İngilizler'in baskısıyla 1847'de yapılan Erzurum Antlaşması' sırasına dayanıyor — 🟡 nedensellik kaynakta AÇIK değil, istenirse son cümle çıkarılsın."}
+  ],
+
+  "kronoloji_duzeltme_onerileri": [
+    {"no":"D1","dosya":"data/olaylar_ek5.js","t_canli":"1546-01-01","b_canli":"Basra'nın ilhakı ve Basra Körfezi'ne çıkış",
+     "oneri":{"t":"1545-12-26","gun":"26 Aralık 1545",
+       "d":"Bağdat'ın fethi sırasında (1534) Basra hâkimi Râşid b. Megāmis Kanûnî'ye itaatini bildirmiş, 1538'de şehrin anahtarlarını göndermişti. Yerine geçen Şeyh Yahyâ Osmanlılara cephe alınca Bağdat Beylerbeyi Ayas Paşa karadan, Musul sancak beyi de 120 gemiyle Fırat'tan yürüdü; Ayas Paşa 26 Aralık 1545'te Basra'ya girdi ve şehir bir beylerbeyilik merkezi oldu. Şattülarab'ın ağzındaki bu liman, Portekiz'in Hürmüz'den kontrol ettiği körfeze Osmanlı'nın açıldığı kapıydı; 1555 Amasya Antlaşması'yla İran da bu durumu tanıdı.",
+       "kisiler":"Ayas Paşa, Râşid b. Megāmis, Şeyh Yahyâ, Bilâl Mehmed Paşa"},
+     "gerekce":"TDV basra GÜN veriyor. Canlı metin 'Müşa'şa' ve Muntafık emirlerinin bağlılığı' diyor — TDV basra bu adları bu olayda ANMIYOR (Râşid b. Megāmis ve Benû Amman şeyhi Yahyâ). 'Kısa süre sonra kurulan Basra tersanesi … bütün harekâtların üssü' cümlesi basra maddesinde bu biçimde yok — öneride çıkarıldı. Kırılma da (Y1) aynı güne taşınırsa Değişmez 2 bozulmaz."},
+    {"no":"D2","dosya":"data/olaylar_ek8.js","t_canli":"1779-04-01","b_canli":"Basra'nın İran işgalinden geri alınışı",
+     "oneri":{"d":"Kerim Han Zend'in kardeşi Sâdık Han'ın 1776'da ele geçirdiği Basra, Kerim Han'ın 2 Mart 1779'daki ölümünden sonra İran'da taht kavgası başlayınca boşaltıldı; Sâdık Han saltanat iddiasıyla İran'a döndü. Şehir kısa bir süre Müntefik aşiretinin elinde kaldıktan sonra yeniden Osmanlı idaresine girdi. Şiraz'dan dönen eski mütesellim Süleyman Ağa, Basra valiliğini istedi ve Büyük Süleyman Paşa adıyla Basra, Bağdat ve Şehrizor'un valisi oldu. İşgal yıllarında Körfez ticaretinin bir bölümü Kuveyt'e kaymıştı.",
+       "kaynak":"basra"},
+     "gerekce":"🔴 OLGU HATASI: canlı metin 'işgal boyunca İngiliz Doğu Hindistan Şirketi acentesi Basra'dan Kuveyt'e taşınmış' diyor. Lorimer: ajanlık 11-16 Nisan 1775'te BUŞEHR'e çekildi ve Mayıs 1776'da BASRA'ya döndü; Kuveyt'e taşınma 1793-1795'tir (TDV kuveyt + Lorimer). İşgal yıllarında Kuveyt'e kayan şey ticaret ve 1778'den itibaren çöl postasıdır. · 'esir düşen Süleyman Ağa' — kaynak (Lorimer içindekiler) yalnız 'Return of Sulaiman from Shiraz' diyor; esaret sözü çıkarıldı. · t '1779-04-01' ↔ gun '1779' (§4 ay-kodlu sınıfı) — kaynaklı gün bulunamadı; Lorimer 'spring of 1779'. Kırılma çapası olduğu için t DEĞİŞTİRİLMEDİ."},
+    {"no":"D3","dosya":"data/olaylar_ek6.js","t_canli":"1795-04-01","b_canli":"Kuveyt'te Sabah emirliğinin Osmanlı himayesine girmesi",
+     "oneri":"Y6 kararına bağlı. Karar gelene kadar en az: kaynak alanı 'bulunamadı — TDV kuveyt 1795'te bir himaye olayı anlatmıyor; kırılma günü Lorimer'in Kuveyt tarihindeki dönem sınırı (İngiliz ticaret merkezinin 1793-1795 Kuveyt'te kalışının sonu)'. Metindeki 'Lahsa'nın Suûdîlerin eline geçtiği aynı yıllarda … Osmanlı himayesine girdi' cümlesi TDV kuveyt'te YOK.",
+     "gerekce":"D144 (beyan edilen kaynak iddiayı taşımıyor) + D196 (komşu olayın günü)."},
+    {"no":"D4","dosya":"data/kronoloji_ingiltere.js","t_canli":"1914-11-06","b_canli":"Britanya Hint Seferi Kuvveti Basra'ya çıktı",
+     "oneri":{"b":"Britanya Hint Seferi Kuvveti Fâv'a çıktı","yer_id":"Fâv",
+       "d":"Petrol sahalarını ve Basra Körfezi'ni güvence altına almak için gönderilen Britanya Hint Seferi Kuvveti, Şattülarap'ın ağzındaki Fâv'a çıkarak Mezopotamya Cephesi'ni açtı; Basra 22 Kasım'da işgal edildi. Cephe, sonraki yıllarda Bağdat'ın alınmasına kadar uzanacaktı.",
+       "kaynak":"TDV irak--ulke · Moberly, The Campaign in Mesopotamia 1914-1918, I (1923)"},
+     "gerekce":"6 Kasım'da çıkarma BASRA'ya değil FÂV'a yapıldı (TDV irak--ulke; Moberly). kaynak 'el-kitabi' hiçbir tanımlı kaynağa karşılık gelmiyor."},
+    {"no":"D5","dosya":"data/kronoloji_iran.js","t_canli":"1775-04-16","b_canli":"Zend, Basra'yı kuşattı ve ele geçirdi",
+     "oneri":{"t":"1775-04-07","b":"Zend ordusu Basra'yı kuşattı",
+       "d":"[Zend] Kerim Han'ın kardeşi Sâdık Han komutasındaki Zend ordusu, Osmanlı'ya ait Basra'yı kuşattı. Şehir, mütesellim Süleyman Ağa'nın idaresinde bir yıl dayandı ve 16 Nisan 1776'da teslim oldu; Zend işgali Kerim Han'ın 1779'daki ölümüne kadar sürdü.",
+       "kaynak":"Encyclopaedia Iranica, madde: KARIM KHAN ZAND · Lorimer, Gazetteer of the Persian Gulf, I (1915)"},
+     "gerekce":"Canlı madde kuşatmanın başlangıcı ile teslimi TEK güne topluyor ve 'dört yıl' diyor (1776-1779 = üç yıl). 16 Nisan 1775 günü kaynaksız — Lorimer'de 16 Nisan 1775, İngiliz AJANLIĞININ Buşehr'e varış günü ('Withdrawal of the British Agency from Basrah to Bushehr, 11th to 16th April 1775'); kuşatma 7 Nisan 1775. D196 sınıfı. Kuyruk dosyası olduğu için Değişmez 2'yi etkilemez."},
+    {"no":"D6","dosya":"data/kronoloji_arabistan.js","t_canli":"1775-01-01","b_canli":"Kerim Han Zend'in Basra kuşatmasında Osmanlı'ya yardım",
+     "oneri":{"b":"Umman'ın Basra kuşatmasında Osmanlı'ya yardımı",
+       "kaynak":"TDV `uman` (özet): 1775-1776 Basra kuşatmasında Bağdat Valisi Ömer Paşa ile İmam Ahmed b. Saîd anlaştı; Uman gemileri Şattülarap'ın girişini tuttu."},
+     "gerekce":"Canlı başlık 'Kerim Han Zend'in … Osmanlı'ya yardım' diye okunuyor (yardım eden Kerim Han sanılıyor). kaynak alanındaki tırnaklı cümle TDV uman'ın KENDİ cümlesi DEĞİL (İngilizce 'Kerim Khan' yazımı taşıyor) — özet olduğu belirtilmeli (VERI-YAPISI alinti_ozet kuralının ruhu)."}
+  ],
+
+  "degismez2_olcumu": {
+    "yontem": "olaylar_*.js çekirdeği, ±30 gün",
+    "1545-12-26": "1546-01-01 olaylar_ek5 (Basra'nın ilhakı) — D1 ile aynı güne iner",
+    "1696-01-01": "YOK → K1 ŞART",
+    "1701-01-01": "yalnız ilgisiz 1701-01-18 Prusya Krallığı → K2 ŞART",
+    "1914-11-06": "yalnız ilgisiz (I. Dünya Savaşı'na giriş · Karadeniz Baskını · Cihâd-ı Ekber) → K3",
+    "1914-11-22": "yalnız ilgisiz → K4b (bugünkü hâl de bu kusuru taşıyor)",
+    "1914-12-09": "yalnız ilgisiz → K4",
+    "1779-04-01": "olaylar_ek8 kendi maddesi ✓",
+    "1795-04-01": "olaylar_ek6 kendi maddesi ✓ (ama içeriği kaynaksız, D3)"
+  },
+
+  "borclar": [
+    "devletler.js'te Müntefik · Huveyze (Müşa'şa') · Benî Kâ'b · Âl-i Megāmis künyesi YOK — Basra 1538-1545, 1690-1696, 1779 ara dönemi ve Abâdân/Muhammere'nin aşiret dönemleri doğru çizilemiyor.",
+    "Kuveyt: Benî Hâlid'in Kuveyt üzerindeki hâkimiyetini söyleyen akademik kaynak bu turda bulunamadı (Abu-Hakima, History of Eastern Arabia 1750-1800 ve B. J. Slot, The Origins of Kuwait erişilemedi).",
+    "Lorimer'in Kuveyt (s. 1000-1005) ve Türk Irak'ı (s. 1244-1271) bölüm GÖVDELERİ archive.org OCR dosyalarında bulunamadı; yalnız içindekiler okundu. Başka bir tarama (ör. Qatar Digital Library) Basra'nın 1779 geri alınış GÜNÜNÜ verebilir.",
+    "Matthee, 'Between Arabs, Turks and Iranians: The town of Basra, 1600-1700', BSOAS 69/1 (2006) 53-78 (doi 10.1017/s0041977x06000036) — 1696-1701 işgalinin gününü verebilir; erişilemedi (Cambridge 302).",
+    "js/app.js `_EKOKUMA_DOSYA_ADLARI` dizisine 'ekokuma_korfez' eklenmeden kartlar GÖRÜNMEZ; arac/denetle_yayin.py listesine de eklenmeli (yoksa 'yetim' öter)."
+  ]
+}
