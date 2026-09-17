@@ -49,7 +49,8 @@ bu yüzden varsayılan ÇIKMAMAKTIR.
 **① ADRES TUZAĞI.** `tahta.py:331` TAM EŞİTLİK arar. "HAZIR KITA 6" diye
 yazılan mesaj, tam anahtarı "OPUS HAZIR KITA 6" olan oturuma ULAŞMAZ —
 ve yazan taraf *"yazıldı"* cevabı alır. Bekçi bunu ayrı bir kovada
-bağırır: `[ADRES-TUZAGI]`. Tuzak artık SESSİZ değil.
+bağırır: `[ADRES-TUZAGI]`. Tuzak artık SESSİZ değil — bu uyarı `--toplu`
+dahil HER MODDA ANINDA basılır, biriktirilmez.
 
 **② NÖBETÇİNİN KENDİ ÖLÜMÜ.** O bekçi İLK GERÇEK MESAJINDA öldü:
 Windows konsolu cp1254, gövdedeki `①` karakteri `UnicodeEncodeError`
@@ -61,6 +62,38 @@ gerçek işinde öldü — çünkü sınadığım şey SESSİZ yoldu."*
 ⇒ Burada iki savunma var: stdout utf-8'e çevriliyor **ve** her basım
 `_bas()` içinden geçiyor; utf-8 tutmazsa ASCII'ye düşerek yine basıyor.
 **Alarm SUSMAZ.**
+
+────────────────────────────────────────────────────────────────────────
+🔴🔴 KULLANIM — 17 EYLÜL 2026 SADELEŞTİRME (`KADRO-1010-1015.md` ARAC-BEKCI,
+Sonnet hazır kıta 1010). Eski `--genis`/`--herkes-acil`/`--durdurucu-da`
+katmanı (dar-varsayılan + broşürlü açma bayrakları) ölçüldü ve gereksiz
+karmaşıklık çıktı: kimse `--genis` vermeden HERKES'i hiç görmüyordu, ve
+`--durdurucu-da` yalnız o dar hâlin bir deliğiydi.
+
+🟢 YENİ VARSAYILAN (bayraksız):
+    UYANDIRIR   `kime` == ADIN (defter takma adları dahil)  VEYA  `HERKES`
+    UYANDIRMAZ  başka bir ada yazılmış her mesaj — satır BASMAZ
+
+    py arac/tahta_bekci.py --kim "SONNET HAZIR KITA 1010"
+
+Eski bayraklar hâlâ KABUL EDİLİR (argv'de bulunmaları hata vermez) ama
+anlamları değişti — artık VARSAYILANI genişletmiyor, onun üstüne İSTEĞE
+BAĞLI bir SÜZGEÇ ekliyor:
+    --herkes-acil   HERKES yayınlarını yalnız ACİL/DURDURUCU'ya daraltır
+    --dosyam <yol>  HERKES yayınının GÖVDESİNDE bu yol geçmiyorsa süzer
+                    (ACİL/DURDURUCU yine geçer) · `kime` alanında bu yol
+                    geçen mesaj HER ZAMAN doğrudan adres sayılır
+    --genis         🔴 artık NO-OP — varsayılan zaten HERKES'i kapsıyor
+    --durdurucu-da  🔴 artık NO-OP — DURDURUCU zaten `_acil` içinde geçiyor
+
+🟢 `--toplu <SANİYE>` — KOORDİNATÖR İÇİN TOPLU MOD (M-4419 türü kullanım:
+`--kim 1.MURAT --toplu 1800`). Anlık `🔔` satırı basmaz; eşleşen mesajları
+bir HAVUZ'da biriktirir ve en çok SANİYE'de bir TEK özet satırı basar:
+    [BEKCI] 3 yeni: M-4422 SONNET HAZIR KITA 1012 · M-4423 ... · M-4424 ...
+Pencere kapanırken havuz BOŞSA hiçbir şey basılmaz (sessiz) — "mesaj
+yoksa hiç basmaz" kuralı `--toplu`ya da uygulanır. ADRES-TUZAĞI uyarısı
+bu modda da anında basılır, havuza girmez (bir yanlış adresleme 30
+dakika beklemeyi hak etmez).
 """
 import io
 import json
@@ -171,49 +204,25 @@ def main(argv):
     # yeniden kurma arasındaki boşlukta mesaj KAÇAR.
     # `--surekli` eski adıyla kabul ediliyor ki eski çağrılar bozulmasın.
     cik = "--cik" in argv and "--surekli" not in argv
-    # `--herkes-acil`: HERKES yayınlarında yalnız ACIL/DURDURUCU olanlar
-    # uyandırsın. Adına yazılan mesaj her hâlükârda uyandırır.
+    # 🔴 17 Eylül 2026 SADELEŞTİRME (bkz. dosya başı KULLANIM notu):
+    #   VARSAYILAN artık `kime`==ADIN (defter dahil) VEYA `kime`==HERKES.
+    #   Eskiden HERKES'i görmek için `--genis` gerekiyordu; `--genis` ve
+    #   `--durdurucu-da` artık NO-OP (kabul edilir, hatasız geçer, ama
+    #   davranışı değiştirmez) — çünkü varsayılan zaten onların eski
+    #   işini yapıyor. `--herkes-acil` ve `--dosyam` hâlâ ANLAMLI: ikisi
+    #   de HERKES yayınını daha da DARALTAN isteğe bağlı süzgeçlerdir.
     herkes_acil = "--herkes-acil" in argv
-    # --dosyam <yol>: HERKES yayınlarında yalnız GÖVDESİNDE bu yol
-    # geçenler uyandırsın. ACİL olanlar yine geçer.
+    # --dosyam <yol>: (a) `kime` alanında bu yol geçen mesaj DOĞRUDAN
+    #   adres sayılır (her hâlde uyandırır) — (b) verilmişse HERKES
+    #   yayınları GÖVDESİNDE bu yol geçmiyorsa süzülür (ACİL/DURDURUCU
+    #   yine geçer). Tarihçe: dosya başı KULLANIM notu · eski satır içi
+    #   gerekçe M-0503 vakasıydı (adres tuzağının yedincisi).
     dosyam = (argv[argv.index("--dosyam") + 1]
               if "--dosyam" in argv else "")
-
-    # 🔴🔴 `--sadece-bana` — EMRE'NİN EMRİ, 16 Ağustos 2026 gece.
-    #   *"Bekçi Python çalıştıracak ve sadece JSON okuyacak. Gerekli ise
-    #    seni uyandıracak, sana atılmış mesaj var ise uyandıracak,
-    #    yoksa seni HİÇ uyandırmayacak."*
-    #
-    # UYANDIRIR : `kime` TAM EŞİT adın  ·  DURDURUCU yayın
-    # UYANDIRMAZ: ACIL ve NORMAL genel yayınlar
-    #
-    # 🔴 VE ÖN ŞARTI VAR — ÖLÇÜLDÜ, YOKSA EKİP SAĞIR KALIR:
-    #   749 mesaj tarandı; 10 oturumun adına BUGÜNE KADAR HİÇ mesaj
-    #   gelmemiş (HAZIR KITA 21 · NOKTA-AMERIKA · OPUS HAZIR KITA 25 ·
-    #   Sonnet hazır kıta 22 · Opus hazır kıta 23 …). Herkes `HERKES`e
-    #   yazdığı için adres alanı kullanılmamış.
-    # ⇒ Bu bayrak TEK BAŞINA inerse o oturumlar hiç uyanmaz VE BUNU
-    #   KİMSE FARK ETMEZ — sessizlik "işim yok" ile "duymadım"ı ayırt
-    #   ettirmez. O yüzden `tahta.py` aynı anda ADRES DENETİMİ aldı:
-    #   `kime` tam ada eşit değilse yazan UYARILIYOR.
-    # 🟢 Ve `DURDURUCU` her hâlde geçer: kilit/arıza duyurusunu
-    #   kaçırmak, kazanılan turdan pahalıdır.
-    #
-    # 🔴🔴 VE ARTIK VARSAYILAN BU — 16 Ağustos 2026, Emre ikinci kez
-    # ve daha sert emretti:
-    #   *"Onlarca oturum sürekli 'bana değil, benimle alakalı değil,
-    #    susuyorum' diye sayıklayıp duruyorlar ve DELİ GİBİ BAĞLAMI
-    #    yeniden token olarak yakıyorlar."*
-    #
-    # İlk sürümü BAYRAK yaptım ve ölçtüm: 12 bekçinin yalnız 8'i
-    # daralttı, 4'ü geniş kaldı. ⇒ Bir tasarrufu her oturumun kendi
-    # eylemine bağlamak, tasarrufun bir kısmını KAYBETMEK demek.
-    # 📌 Ve bu, bu gecenin `<ADIN>` dersinin kardeşi: doğru davranışı
-    # OPSİYON yapmak, yanlış davranışı VARSAYILAN bırakır.
-    #
-    # ⇒ Varsayılan artık DAR. Geniş dinlemek isteyen `--genis` verir.
-    # `--sadece-bana` eski çağrılar bozulmasın diye kabul ediliyor.
-    sadece_bana = "--genis" not in argv
+    # --toplu <SANİYE>: anlık 🔔 yerine tek özet satırı, en çok bu kadar
+    # sıklıkla; havuz boşsa hiç basmaz. Bkz. dosya başı KULLANIM notu.
+    toplu = (float(argv[argv.index("--toplu") + 1])
+             if "--toplu" in argv else 0.0)
 
     if "--defter-yok" not in argv:
         benler, okundu = _defter_adlari(benler)
@@ -222,9 +231,12 @@ def main(argv):
                  "adlar dinleniyor. Adın değiştiyse mesaj KAÇAR.")
 
     gorulen = {m.get("no") for m in _oku()}
-    _bas("[BEKCI] nöbette · %d ad dinleniyor: %s · %d mesaj görüldü · %.0f sn"
-         % (len(benler), " | ".join(sorted(benler)), len(gorulen), ara))
+    _bas("[BEKCI] nöbette · %d ad dinleniyor: %s · %d mesaj görüldü · %.0f sn%s"
+         % (len(benler), " | ".join(sorted(benler)), len(gorulen), ara,
+            (" · toplu:%.0f sn" % toplu) if toplu > 0 else ""))
     n = 0
+    havuz = []
+    son_toplu = time.time()
     while True:
         time.sleep(ara)
         n += 1
@@ -235,146 +247,76 @@ def main(argv):
                 continue
             gorulen.add(m.get("no"))
             k = _sade(m.get("kime"))
-            # 🔴 HERKES SÜZGECİ — 16 Ağustos, Emre ölçtü:
-            #   "Bir oturum sürekli 'bana değil, bekliyorum' diyor. Bu
-            #    token yiyor mu? Nöbetçi bakması yemiyor demiştin ama
-            #    her yazışta bütün bağlamı yeniden yakmıyor mu?"
-            # 🟢 HAKLI, ve önceki cevabım EKSİKTİ:
-            #   YOKLAMA (mesaj yok)  → hiçbir şey basmaz → 0 token   ✓
-            #   MESAJ DÜŞTÜ          → TUR → BÜTÜN BAĞLAM yeniden okunur
-            # ⇒ Bir `HERKES` yayını 18 oturumu birden uyandırıyor: biri
-            #   gereğini yapıyor, on yedisi "bana değil" deyip uyuyor.
-            #   YAYIN BAŞINA ≈ 18 BAĞLAM TURU.
-            # ⇒ `--herkes-acil` verilirse HERKES yayınlarının yalnız
-            #   ACIL olanları uyandırır. Adına yazılan mesaj HER ZAMAN
-            #   uyandırır — süzgeç yalnız yayınları eler.
-            # ⚠️ Varsayılan AÇIK DEĞİL: bir oturumun neyi kaçıracağına
-            #   koordinatör değil KENDİSİ karar verir. Ölçülmemiş bir
-            #   tasarrufu herkese dayatmak, kaçırılan mesaj pahasına
-            #   token kazanmaktır.
+            # 🔴 YENİ VARSAYILAN (17 Eylül 2026, bkz. dosya başı KULLANIM):
+            #   `kime`==ADIN (defter dahil) VEYA `kime`==HERKES → uyandırır.
+            #   Başka bir ada yazılmış hiçbir mesaj ne uyandırır ne basar.
             if k in benler:
                 yeni.append(m)
             elif dosyam and dosyam.lower() in (m.get("kime") or "").lower():
-                # 🔴 DOSYA ADRESİ — ADRES TUZAĞININ YEDİNCİ VAKASI,
-                #    16 Ağustos 2026, ve bu sefer KOORDİNATÖR AÇTI.
-                #
-                # Koordinatör `HERKES` yayınlarını azaltmak için hedefli
-                # adreslemeye geçti ve `kime` alanına DOSYA YOLU yazdı:
-                #     "DOSYASI data/yerlesimler_e9353f.js OLAN OTURUM"
-                # Ama bekçi yalnız `--kim` ADLARINA bakıyordu ve o dize
-                # hiçbir adla eşleşmiyordu ⇒ mesaj NE `yeni`ye NE `tuzak`a
-                # girdi: SESSİZCE DÜŞTÜ.
-                #
-                # ÖLÇÜLDÜ — kanıt işçinin kendi cümlesi: kapsam kararını
-                # M-0503'te vermiştim, iki tur sonra o oturum hâlâ
-                # *"kapsam kararını bekliyordum"* yazıyordu. Karar
-                # yazılmıştı, ulaşmamıştı.
-                #
-                # ⇒ Artık `--dosyam` yalnız HERKES yayınlarını SÜZMÜYOR,
-                #   DOĞRUDAN ADRES olarak da çalışıyor: `kime` alanında
-                #   senin dosyan geçiyorsa mesaj SENİNDİR.
-                # 📌 Ve ders: bir adresleme biçimi değiştirilirken
-                #   TESLİMATIN sınanması gerekiyor — "gönderildi" ile
-                #   "ulaştı" bu projede altı kez ayrışmıştı, bu yedincisi.
+                # DOSYA ADRESİ — `kime` alanında benim dosyam geçiyorsa
+                # mesaj DOĞRUDAN bana yazılmış sayılır (adres tuzağının
+                # yedinci vakası, M-0503; bkz. dosya başı KULLANIM notu).
                 yeni.append(m)
-            elif k == "HERKES" and sadece_bana:
-                # 🔴🔴 EMRE, ÜÇÜNCÜ VE EN AÇIK HÂLİ (16 Ağustos gece):
-                #   *"Bekçi kendine gelen mesajı okumalı ve ona göre
-                #    oturumunu uyandırmalı. Eğer herkese atılmışsa
-                #    BAKABİLİR ve uyandırabilir, ama SADECE KENDİNE
-                #    ATILAN mesajları süzüp ona göre oturumunu
-                #    ateşlemeli, ÖBÜR TÜRLÜ SUSMALI."*
-                #
-                # ⇒ ATEŞLEME ÖLÇÜTÜ TEK: mesaj BANA yazılmış mı.
-                # `HERKES` yayınları — ACİL de DURDURUCU da — ARTIK
-                # UYANDIRMIYOR.
-                #
-                # 🔴 VE BU, BENİM `DURDURUCU` İSTİSNAMI KALDIRIYOR.
-                # O istisnayı ben eklemiştim (kilit/arıza duyurusunu
-                # kaçırmak pahalı diye) ve gerekçesi hâlâ geçerli —
-                # ama çaresi bekçiyi gevşetmek DEĞİL:
-                #   ⇒ KOORDİNATÖR kilit duyurusunu artık HER OTURUMA
-                #     ADIYLA yazacak. N mesaj yazmak, N oturumu boşuna
-                #     uyandırmaktan ucuz — ve doğru kişiye doğru
-                #     sebeple ulaşır.
-                # 📌 Yani "herkese duyurma" ihtiyacı ortadan kalkmıyor,
-                #   ADRESLENİYOR. Yayın bir kolaylıktı; bedeli ölçüldü
-                #   ve kolaylık pahalı çıktı.
-                #
-                # `--durdurucu-da` : isteyen oturum DURDURUCU'ları
-                #   yine alabilir (kendi kararı, varsayılan DEĞİL).
-                if "--durdurucu-da" in argv and \
-                        _sade(m.get("aciliyet")) == "DURDURUCU":
-                    yeni.append(m)
             elif k == "HERKES":
-                # 🔴 EMRE'NİN SORUSU (16 Ağustos) VE ONUN CEVABI:
-                #   "Her oturum sadece belli bir dakikada bir tahtaya
-                #    baksa ama hiçbir şey yazmasa, uyanmış olma
-                #    gerçekleşmez mi? İlgilendirmeyen bir durum varsa
-                #    hiç metin eklemesin. Bu mümkün mü?"
-                # 🟢 MÜMKÜN — ama karar OTURUMDA DEĞİL BURADA verilmeli.
-                #   Oturum "bana değil" dediğinde MASRAF ÖDENMİŞTİR:
-                #   uyanmak = bir TUR = bütün bağlamın yeniden okunması.
-                #   Cevap yazmamak yalnız İKİNCİ masrafı keser.
-                # ⇒ Asıl kazanç HİÇ UYANMAMAK, ve onu ancak bekçi sağlar.
-                #
-                # ÜÇ SÜZGEÇ, en dardan en genişe:
-                #   --dosyam  : yayının GÖVDESİNDE dosyam geçiyor mu
-                #   --herkes-acil : yalnız ACIL/DURDURUCU yayınlar
-                #   (hiçbiri) : bütün yayınlar — varsayılan
+                # HERKES artık VARSAYILAN OLARAK uyandırır. `--herkes-acil`
+                # ve `--dosyam` bunu daha da DARALTAN isteğe bağlı
+                # süzgeçlerdir — hiçbiri verilmemişse her HERKES geçer.
                 _t = m.get("mesaj") or ""
                 _acil = _sade(m.get("aciliyet")) in ("ACIL", "DURDURUCU")
                 if dosyam:
-                    # Gövdede dosyam anılıyorsa BENİ ilgilendiriyor.
-                    # ⚠️ ACİL yayınlar dosya anılmasa da geçer — bir
-                    # kilit ya da arıza duyurusu herkesi bağlar ve onu
-                    # kaçırmak, kazanılan turdan pahalıdır.
                     if dosyam in _t or _acil:
                         yeni.append(m)
-                elif not herkes_acil or _acil:
+                elif herkes_acil:
+                    if _acil:
+                        yeni.append(m)
+                else:
                     yeni.append(m)
             elif k and any(b and (k in b or b in k) for b in benler):
-                # ① ADRES TUZAĞI — kısmen tutuyor ama TAM eşit değil
+                # ① ADRES TUZAĞI — kısmen tutuyor ama TAM eşit değil.
+                # Başka bir ada yazılmış mesaj DEĞİL; bana yazılmaya
+                # ÇALIŞILMIŞ bir mesaj — bu yüzden "başka hiçbir mesaj
+                # uyandırmaz" kuralının dışında tutulur ve HER MODDA
+                # (toplu dahil) anında bildirilir.
                 tuzak.append(m)
-        for m in yeni:
-            _bas("🔔 [TAHTA] %s · %s → %s · %s\n   %s"
-                 # 🔴 27 Ağu 2026 — `kim` DEĞİL `kimden`. Kayıtta öyle bir
-                 # alan yok, `.get()` sessizce None döndürüyordu ve HER
-                 # bildirim "M-1311 · None → …" diye basıyordu. Gönderen
-                 # adı, bir bekçi bildiriminin en çok işe yarayan parçası:
-                 # onsuz "kim ne dedi" ancak tahtayı açarak öğreniliyor.
-                 # Bulan DEĞİŞMEZ 7 ENKLAV oturumu (M-1313); ölçüldü:
-                 # tahta.json alanları kimden · kimden_kimlik · kime · …
-                 % (m.get("no"), m.get("kimden"), m.get("kime"),
-                    m.get("cins") or "", (m.get("mesaj") or "")[:400]))
         for m in tuzak:
             _bas("⚠️ [ADRES-TUZAGI] %s KIME='%s' — benim tam anahtarım '%s'. "
                  "Mesaj bana ULAŞMADI, yazan 'yazıldı' cevabı aldı."
                  % (m.get("no"), m.get("kime"), kim))
-        # 🔴🔴 BU BLOK BİR GÜNDE İKİ KEZ YAZILDI — ve ikinci yazım
-        # birincisini ÇÜRÜTTÜ. İkisi de kalsın, çünkü ders ikisinin
-        # ARASINDA. (16 Ağustos 2026)
-        #
-        # ① KOORDİNATÖRÜN ÖLÇÜMÜ — doğruydu:
-        #    Nöbetçi M-0089…M-0094'ü buldu ve bastı (7.861 bayt, altı 🔔).
-        #    Emre deneme mesajı attı, KOORDİNATÖR UYANMADI.
-        #    ⇒ hüküm: "mesaj bulunca ÇIK ki oturum uyansın"  🔴 YANLIŞ ÇARE
-        #
-        # ② NOKTA MENZİL'İN ÖLÇÜMÜ (M-0107) — aynı gün, TERSİ:
-        #    Kendi bekçisi ÜÇ KEZ (M-0082 · M-0099 · M-0106) uyandırdı ve
-        #    süreç HİÇ ÇIKMADI. Arada Emre'den tek dürtme yok.
-        #
-        # 🟢 İKİSİ DE DOĞRU, ÇÜNKÜ KAPILAR FARKLIYDI:
-        #    Monitor aracı        → her stdout SATIRI bir bildirim
-        #    Bash run_in_background → YALNIZ süreç bitince bildirim
-        #    Koordinatör kabuğa attı, NOKTA MENZİL Monitor'e verdi.
-        #    ⇒ Alet aynı, KAPI farklı. Ve doğrusu Monitor'ün kendi
-        #      belgesinde YAZILIYDI; koordinatör yayın yapmadan önce
-        #      okumadı.
-        #
-        # 📌 Ders: *"alet çalıştı ama iş olmadı"* teşhisi konurken, aletin
-        #    HANGİ KAPIDAN çağrıldığı da ölçülür. Aynı betik iki kapıdan
-        #    iki farklı şey yapar ve ikisi de "çalışıyor" görünür.
+        if toplu > 0:
+            # TOPLU MOD — anlık 🔔 yerine havuzda biriktir, pencere
+            # kapanınca TEK özet satırı bas; havuz boşsa hiç basma.
+            havuz.extend(yeni)
+            if time.time() - son_toplu >= toplu:
+                if havuz:
+                    ozet = " · ".join(
+                        "%s %s" % (mm.get("no"), mm.get("kimden"))
+                        for mm in havuz)
+                    _bas("[BEKCI] %d yeni: %s" % (len(havuz), ozet))
+                havuz = []
+                son_toplu = time.time()
+        else:
+            for m in yeni:
+                _bas("🔔 [TAHTA] %s · %s → %s · %s\n   %s"
+                     # 🔴 27 Ağu 2026 — `kim` DEĞİL `kimden`. Kayıtta öyle
+                     # bir alan yok, `.get()` sessizce None döndürüyordu
+                     # ve HER bildirim "M-1311 · None → …" diye basıyordu.
+                     # Bulan DEĞİŞMEZ 7 ENKLAV oturumu (M-1313).
+                     % (m.get("no"), m.get("kimden"), m.get("kime"),
+                        m.get("cins") or "", (m.get("mesaj") or "")[:400]))
+        # 🔴 HAVUZ KAÇAĞI — SINAMADA BULUNDU (17 Eylül 2026, ARAC-BEKCI).
+        # Pencere kapanmadan süreç ÇIKARSA (`--tur` ya da `--cik`), o ana
+        # kadar havuzda biriken eşleşmiş mesajlar hiç basılmadan gider —
+        # ve yeniden kurulan bir bekçi onları "zaten görülmüş" sayıp bir
+        # daha HİÇ bildirmez (`gorulen` dosyadan yeniden dolar). Her çıkış
+        # yolundan önce havuzu BOŞALTIYORUZ, boşsa zaten hiçbir şey basmaz.
+        if toplu > 0 and havuz and ((yeni or tuzak) and cik or (tur and n >= tur)):
+            ozet = " · ".join("%s %s" % (mm.get("no"), mm.get("kimden"))
+                               for mm in havuz)
+            _bas("[BEKCI] %d yeni (çıkış öncesi boşaltma): %s"
+                 % (len(havuz), ozet))
+            havuz = []
+        # 🔴🔴 ÇIKMAK YALNIZ Monitor DIŞINDA (kabuk arka planı) ANLAMLI —
+        # bkz. dosya başı KULLANIM (Monitor'de çıkış = boşlukta mesaj kaçar).
         if (yeni or tuzak) and cik:
             _bas("[BEKCI] mesaj var — ÇIKIYORUM ki oturum UYANSIN. "
                  "Yeniden kur: py arac/tahta_bekci.py --kim \"%s\"" % kim)
