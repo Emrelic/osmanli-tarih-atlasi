@@ -137023,5 +137023,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4430",
+  "zaman": "2026-09-17 21:14",
+  "kimden": "SEFER-1768",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · SEFER-1768 (Opus 1010) · commit 443fd13 (yalnız 2 yeni dosya, pathspec'li; push YOK) ① ÖLÇTÜM - savaslar.js'te 1768-74 okları ZATEN VAR: Baltık→Çeşme (tur:deniz = kesik çizgi, 53 istasyon) · Golitsın Minkivtsi→Hotin (f 1769-04-25 = Dinyester harekâtı) · Elmpt · Rumyantsev · Panin Bender→Akkirman ⇒ H-0012 Çeşme rotası ve Dinyester için mükerrer ok YAZILMADI. - YENİ data/seferler_p0065.js (window.SEFERLER_P0065) 6 ok: Golitsın Kiev→Starokostiantyniv→Minkivtsi 1769 · Panin Yelisavetgrad→Bender 1770 · Berg Moloçna→Orkapı 1770 · Dolgorukov Orkapı→Kefe 1771 · Şçerbatov Geniçesk→Arabat oku→Arabat 1771 · Şçerbatov Arabat→Kerç→Yenikale→Taman 1771. Sınav: 6/6 alan tam, 101 mevcut sefer kaydıyla çakışma 0. Kaynak: ESBE · Voennaya Entsiklopediya (Panin, Perekop, Arabatskaya kosa) · RBS (Dolgorukov, Şçerbatov) · TDV · Russev 2012 · Gribovskiy 2016. Koordinat GeoNames/OSM. - H-0010 renk: app.js ok rengini yalnız renk/taraf'tan alıyor, DEVLET RENGİ KURALI YOK. Kayıtlara devlet:\"rusya\" + renk #276727 (rusya #4f7d4f tonunun koyusu) yazıldı. - H-0011 Hotin: HARİTA DOĞRU. TDV kamanice: Kamaniçe 1793'e kadar Lehistan'da. Ruslar Kiev→Starokonstantinov→Minkovtsı yoluyla Lehistan toprağından geldi. Lehistan müttefik değildi, Rus nüfuzu altındaydı: Rus birlikleri kralın yanında Bar konfederelerine karşı zaten Lehistan içinde savaşıyordu (ESBE Barskaya konf.). Savaşın sebebi de bu takip (Balta). Yama YOK. - H-0001 Bender: Panin Lehistan'dan DEĞİL, Yelisavetgrad ilinden Yedisan bozkırı üzerinden geldi (Vıs → Bug geçişi → Kodıma → Bender, VE+ESBE). Kuşatma sırasında Ağustos 1770'te (Jülyen) Yedisan ve Bucak Nogayları Panin'le antlaşıp Rus himayesine geçti. - H-0002 Kırım: Emre'nin gördüğü tarama farkı VERİDEN geliyor. Kırım içindeki 6 kayıt (Bahçesaray, Gözleve, Or Kapı, Akmescid, Karasubazar, Eski Kırım) 1771-74'ü düz s:rusya taşıyor; kıyıdaki 7 Osmanlı kalesi aynı pencereyi isg:rusya taşıyor. Zaporojye: 1733'ten beri Rus tâbiiydi ve 1769-74'te Rus tarafında savaştı (ESBE, VE); Sech 1775'te kaldırıldı. - denetim/YAMA-SEFER1768-0917.json: Y-1: 6 kayıtta v→1774-07-21 uzar, s:rusya silinir, isg:rusya eklenir (Or Kapı 1771-06-26 = VE günü; ötekiler 1771-07-01 = TDV \"Temmuz 1771\"). dikkat YOK. _kirim.js'te aynı metin 5 kez geçiyor ⇒ kayıt düzeyinde uygula (D001). Y-2: Kerç, Yenikale, Taman'a isg 1771-07-12 (dikkat: ALT SINIR; kaynak yalnız \"Temmuz\" J diyor). Y-3: Yedisan bozkırı isg 1770-08-12 (dikkat: ALT SINIR, Ağustos J). K-1 maddesi olmadan inerse Değişmez 2 Kartal maddesine yapışır. 3 kronoloji önerisi: K-1 Nogayların Rus himayesi · K-2 Orkapı'nın düşüşü 1771-06-26 · K-3 Arabat/Kerç. S-1: savaslar.js'teki #0d7d8a Rus okları renk kuralına çekilsin (öneri, dokunulmadı). ② BULUNAMADI Dolgorukov'un toplanma yeri \"Mayaçka\" (3 yer + 2 ırmak, belirsiz) · Kefe'nin düşüş günü · Kerç/Yenikale/Taman günü · Yediçkul/Camboyluk ittifak tarihi (Gribovskiy yalnız \"savaş sırasında\" diyor ⇒ yama yazılamadı) · Kızıkermen'in 1768-74 durumu · Zaporojye'nin Kırım seferindeki ayrı kolu · Baltık filosunun çıkış günü (akademik). TDV ölü: bender, yedisan, kilburun, orkapi, balta, kirim-hanligi. TDV podolya 503 (ölçülemedi). ÇELİŞKİLER: ESBE \"Dolgorukovy\" Orkapı \"4 июля\", Kefe \"29 июля\" (VE ve RBS ile 20 gün sapıyor, kullanılmadı) · Bender 16 Eylül J (ESBE) / 15 Eylül J (VE) · Küçük Kaynarca TDV'de iki gün: 21 Temmuz (kirim) ve 26 Temmuz (kucuk-kaynarca) · VE \"Perekop\" maddesinde \"1777\" dizgi hatası. ③ İSTİYORUM (a) index.html'e seferler_p0065.js satırı (UI). (b) app.js'e s.devlet → BOYALAR tonu kuralı (UI-HARITA, H-0010). (c) Y-1'in inmesi (öneri: evet). Y-2 ve Y-3 için alt sınır günü kabul mü? Öneri: kabul, K-1 ve K-3 ile birlikte. (d) SIRA: Taman kaydına KARADENIZ-KAFKAS da dokunuyor (Y-2, 1774-83). Pencereler örtüşmüyor ama satır aynı, sırayla indirilmeli. Değişen mevcut dosya YOK. Yeni dosyalar: data/seferler_p0065.js · denetim/YAMA-SEFER1768-0917.json.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
