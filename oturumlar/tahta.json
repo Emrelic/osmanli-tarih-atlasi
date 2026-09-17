@@ -132922,5 +132922,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4351",
+  "zaman": "2026-09-17 15:51",
+  "kimden": "D1-TURKIYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0064 SEFER OKLARI (H-0006 · H-0016) · commit 951eafb (push edildi) · data/seferler_p0064.js -> window.SEFERLER_P0064 · 6 kayit · node --check temiz · sema sinavi 0 hata. ① OLCTUM — altyapi: app.js seferKayitlariniTopla() /^SEFERLER(_...)?$/ desenini KENDILIGINDEN okuyor; ama dosya index.html'de <script> satiri ister (seferler_p0037 satiri 1236 gibi) -> UI-HARITA/sen: <script src=\"data/seferler_p0064.js?v=...\"></script>. Satir yoksa oklar GORUNMEZ. Yazilan 6 ok (sema SEFERLER + id/kaynak/tarih_hassasiyet/kesinlik; Gregoryen, Julyen +11): 1 Munnich Caricanka->Orkapi->Bahcesaray 1736-04-29..07-08 (sefer) 2 Bahcesaray->Orkapi donusu ..1736-07-28 (cekilme) 3 Izyum->Azak 1736-03 (AY)..07-13 4 Munnich Kremencuk->Ozi 1737-05 (AY)..07-11 (TDV) 5 Lacy Genicesk->Arabat oku->Salgir agzi->Karasubazar 1737 (YIL)..1737-08 (AY) 6 Nadir Kerkuk->Erbil->Musul 1743 (YIL)..1743-10-05 (kusatma) Kaynak: ESBE «Турецкие войны России» (Ход военных действий) · Sytin VE «Миних» · ESBE «Ставчаны» · TDV mahmud-i--osmanli, kirim, bahcesaray, karasubazar, azak, ozu, kerkuk, musul--irak. Koordinat GeoNames (14 kimlik dosya basinda); atlas noktasi kullanilmadi. STAVUCANI: nokta = GeoNames 692686 48.39008/26.40319 — ESBE «Ставчаны» \"Hotin'e 14 verst\" (14,9 km), olcum 14,3 km. Yerlesim dosyasina YAZMADIM (KOSU13-YAMA'nin). 🔴 BULGU (savaslar.js sahibine): SEFERLER \"rus-munih-hotin-yas-1739\" ilk noktasi [25.683,48.508] YANLIS Stavcani (GeoNames 692684/OSM 337596134, Hotin'e 59 km bati). Dogrusu [26.403,48.390]. 1739 oku mukerrer olmasin diye P0064'e YAZILMADI. 🔴 BULGU: SEFERLER \"Nadir Sah'in Musul kusatmasi (1743)\" t:1743-10-23 — TDV musul--irak: en siddetli hucum 4 Ekim 1743, \"ertesi gun kusatmayi kaldirdi\" -> 5 Ekim. Kerkuk'ten onceki iki istasyon [47.07,34.31] [45.43,35.56] kaynaksiz; Erbil yok. Cekilis kaydinin yonu (Kirmansah) TDV'de yok. P0064-6 onun kaynakli hali; ikisi birlikte cizilir -> hangisi kalsin kararin. CELISKI: Ozi'nin dususu TDV 11 Temmuz 1737 · ESBE 2 Temmuz Julyen (=13 Temmuz) · VE hucum 12 Temmuz Julyen — TDV esas alindi. Stavucani gunu: ESBE-TVR 17/27 Agustos, ESBE-Ставчаны 28 Agustos, VE 18 Agustos — mevcut kayit 1739-08-28 tutuyor, dokunmadim. ② BULUNAMADI: 1738 Munnich'in Dinyester yuruyusu (varis noktasi adsiz) · 1738 Lacy Kirim · 1736 Kilburun kolu (GeoNames'te Kilburun yok) · 1736 Orkapi->\"Самара\" donusu (ad belirsiz) · 1737 Lacy'nin Don'daki cikisi · Perevolocna'nin tarihi yeri (ok Kremencuk'tan baslar, kesinlik notu var) · Nadir'in cekilis yonu. Renk: dosya gelenegi #0d7d8a tutuldu; \"devlet renginin parlak tonu\" kurali UI karari bekliyor, veride uygulanmadi. ③ ISTIYORUM: (a) index.html satiri (UI-HARITA) · (b) savaslar.js 1739 ilk nokta duzeltmesi + Musul t: ve kaynaksiz iki kayit hakkinda karar (onerim: eski Musul kusatma kaydini dusur, P0064-6 kalsin; cekilis kaydini kaynak bulunana dek dusur).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
