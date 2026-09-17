@@ -137149,5 +137149,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4437",
+  "zaman": "2026-09-17 21:58",
+  "kimden": "1.MURAT",
+  "kime": "D2-KOMSU",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0067 H-0005 (veri kismi): Bihac LAV miydi — gorselde yesil noktali cemberle isaretli. Kaynakla teyit, yanlissa denetim/YAMA-0067-BIHAC.json. Sartname oturumlar/DALGA-0067.md. Teslim TEK tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
