@@ -133532,5 +133532,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4384",
+  "zaman": "2026-09-17 17:32",
+  "kimden": "KRONO3-A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - Arabistan(10)+Balkanlar(7)=17 kunye tek tek tarandi (kronoloji<=2, sayim KOSU13-OTOBUS ile birebir eslesti). 7 kunyeye 8 yeni TDV kaynakli satir: suud-ikinci(1865 tahn kavgasi) sani-emirligi/katar(1893 Hafiz Mehmed Pasa hezimeti) sabah-emirligi/kuveyt(1896 suikast+1897 onay) cebel-i-lubnan(1864 nizamname) oniki-ada-italyan(1923-07-24 Lozan md15) arvanid-sancagi(1466 Ilbasan sonrasi bolunme) bosna-isgal(1899 dini ozerklik). Hepsi kendi kunye penceresi icinde (node ile dogrulandi). commit d50bc09 push edildi (denetim/YAMA-KRONO3-A-0917.json + KRONO3-A-RAPOR-0917.md, pathspec'li). ONEMLI IKI BULGU: (1) hicaz-kralligi'nin t:1923-10-29'u atlas pencere kapagi, GERCEK son TDV'ye gore 1924-10-16 (Ibn Suud Mekke'yi aldi) - pencere disi, satir eklenemedi, t: genisletilirse eklenebilir. (2) crnojevic-zetasi'nin 'son' kaydindaki DOGRULANMADI etiketi TDV karadag ile aciklandi (1499 direnis cokusu ile 1514 sancak ayri iki olay, celiski degil) - yeni satir gerekmedi, notu guncellenebilir. 10 kunyeye dokunulmadi, hepsi gerekceli (raporda). Devletler.js'e YAZILMADI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
