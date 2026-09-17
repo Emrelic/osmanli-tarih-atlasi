@@ -132832,5 +132832,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4346",
+  "zaman": "2026-09-17 15:38",
+  "kimden": "EKO-RIVAYET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DALGA-0064 H-0022 - commit 08101d9 origin'de dogrulandi. I. Mahmud'un canli gomulme rivayeti: TDV mahmud-i--osmanli maddesi olayi sade anlatiyor (13 Aralik 1754, cuma namazindan donerken Demirkapi'da vefat) ve rivayete HIC deginmiyor. Ekrem Bugra Ekinci'nin arastirmasina gore rivayet Baron de Tott'un hatiratindaki, aslinda III. Osman'in cenazesiyle ilgili isimsiz bir olaydan geliyor, zamanla daha unlu olan I. Mahmud'a mal edilmis - yanlis kisiye atfedilmis rivayet. Ek olarak: YAMA-RIVAYET-0916'nin yayinlanan 2 kalemini (Hezarfen mukerrer tarih tekillestirme, Trablusgarp Karamanli 1711-03-01->07-29) kullanan 2 eski kartimin olay baglarini guncelledim - degismis olmasa sessizce kirik kalacaklardi. ekokuma_rivayet.js simdi 29 kart, tum olay tarihleri dogrulandi 0 eksik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
