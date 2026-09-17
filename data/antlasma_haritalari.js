@@ -99,5 +99,39 @@ window.ANTLASMA_HARITALARI = [
        "(data/olaylar_ek5.js:515) ama Pasarofça'daki (1718) akıbetini AÇIKÇA belirtmiyor — bu " +
        "yüzden Ayamavra bu kayda EKLENMEDİ (D107: bulunamadı, uydurulmadı). Çuha doğrulandı ve " +
        "eklendi. Vonitsa da metinde geçiyor (data/olaylar_ek6.js:60) ve koordinatı VAR — eklendi."
+},
+{
+  // 🆕 DALGA-BEKLEYEN.md B5 (17 Eylül) — D-GEOARAC'ın 504'lük genel taramasından
+  // (denetim/_ANTLASMA-HARITA-GENIS-CIKTI-0917.json) TEK sağlam eşleşme taşındı.
+  // Aynı taramanın öteki iki adayı ELENDİ, gerekçe aşağıda `not` alanında —
+  // ikisi de Pasarofça'daki Ayamavra deseninin (D107) tekrarıydı.
+  id: "ankara-itilafnamesi-1921",
+  antlasma_ad: "Ankara İtilâfnâmesi",
+  tarih: "1921-10-20",
+  bolgeler: [
+    { taraf: "tbmm-turkiye", etiket: "Fransa'dan TBMM'ye geri dönen", noktalar: [
+        { ad: "Mersin", lat: 36.8, lon: 34.633,
+          kaynak: "data/olaylar_ek5.js (kaynak: milli-mucadele): \"Sakarya zaferinin ardından " +
+                  "Fransa ile Ankara'da imzalanan itilâfnâme ile güney cephesindeki savaş sona " +
+                  "erdi; Fransız kuvvetleri Adana, Antep, Maraş ve Urfa dahil Çukurova ve " +
+                  "Güneydoğu'yu boşaltarak Suriye sınırına çekildi.\" Yerleşim kaydı (Mersin) " +
+                  "sahiplik değişimini TAM O GÜN (1921-10-20) taşıyor — 0 gün fark, D-GEOARAC'ın " +
+                  "504'lük taramasındaki en güçlü tek eşleşme." }
+    ] }
+  ],
+  not: "D-GEOARAC'ın 504'lük genel taramasında bu antlaşmaya iki ADAY daha çıkmıştı, İKİSİ DE " +
+       "elendi: ① Ayastefanos/1878-03-03 → Sofya (osmanli→bulgaristan-prensligi, -58 gün) — " +
+       "MİSNİSBET RİSKİ ölçüldü: `data/devletler.js`teki `bulgaristan-prensligi` kaydının KENDİ " +
+       "f: tarihi 1878-07-13 (BERLİN Kongresi), Ayastefanos DEĞİL; Sofya'nın devri (1878-01-04) " +
+       "gerçekte Rus İŞGALİ tarihi, Ayastefanos'un imzalanmasından 58 gün ÖNCE — pencere " +
+       "çakışması yüzünden yanlış antlaşmaya sızmış olabilir (Berlin zaten ANTLASMALAR'da VAR " +
+       "ve `bulgaristan-prensligi`nin GERÇEK kuruluş antlaşması odur; Berlin'in kendi harita " +
+       "kaydı bu turda YAPILMADI, çok daha geniş — Sırbistan/Romanya/Karadağ bağımsızlığı + " +
+       "Bosna + Kars/Ardahan/Batum — bir sonraki tur işi). ② II. Murad-Bizans barışı/1424-02-22 " +
+       "→ Aynaroz/Athos (bizans→osmanli, -52 gün) — kaynak zinciri ZAYIF: yerleşim kaydının " +
+       "KENDİ `kaynak:` alanı \"atina-antlasmasi\" (1913 Yunanistan devrini belgeliyor), 1424 " +
+       "tarihi için AYRI bir kaynak YOK — muhtemelen yuvarlak/genel bir tarih, bu antlaşmaya " +
+       "ÖZGÜ bir kanıt değil. İkisi de D107 (\"bulunamadı, uydurulmadı\") gerekçesiyle " +
+       "eklenmedi — Pasarofça'daki Ayamavra dersinin (bu dosyanın kendi kaydı) AYNI tekrarı."
 }
 ];
