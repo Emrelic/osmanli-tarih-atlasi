@@ -2131,18 +2131,39 @@ harita.on("load", function () {
       filter: ["==", ["geometry-type"], "Point"],
       paint: { "circle-radius": 4.5, "circle-color": "#ffd700",
                "circle-stroke-width": 1.5, "circle-stroke-color": "#4d3419" } });
-    var OLCUM = { a: null, b: null, aktif: false };
+    // 🔴 UI-ETKILESIM (DALGA-0063 madde ⑧, Emre): "sağ tık cetvel: etiket
+    // kalıcı kalıyor → kapanınca silinsin; birden çok durak desteklensin."
+    // Eskiden yalnız İKİ nokta vardı (A/B) ve kapatma `hidden=true` yapıyordu
+    // — element DOM'da asılı KALIYORDU. Şimdi:
+    //  ① `duraklar` bir DİZİ — her sağ tık ZİNCİRE yeni bir durak ekler
+    //     (ölçüm A→B→C…, toplam = ardışık parçaların toplamı). Bitirmek için
+    //     ayrı bir "son tık" YOK; kullanıcı istediği kadar durak ekler,
+    //     ✕/Esc ile kapatana kadar zincir açık kalır.
+    //  ② kapatma etiketi/durumu GERÇEKTEN SİLİYOR (`.remove()`), yalnız
+    //     gizlemiyor — bir sonraki ölçüm sıfırdan, asılı kalan eski bir
+    //     DOM düğümü olmadan kuruluyor.
+    var OLCUM = { duraklar: [], aktif: false };
     function _olcumCiz(gecici) {
       var fs = [];
-      if (OLCUM.a) fs.push({ type: "Feature", geometry: { type: "Point", coordinates: OLCUM.a } });
-      if (OLCUM.b) fs.push({ type: "Feature", geometry: { type: "Point", coordinates: OLCUM.b } });
-      var b2 = OLCUM.b || gecici;
-      if (OLCUM.a && b2) fs.push({ type: "Feature", geometry: { type: "LineString", coordinates: [OLCUM.a, b2] } });
+      OLCUM.duraklar.forEach(function (nk) {
+        fs.push({ type: "Feature", geometry: { type: "Point", coordinates: nk } });
+      });
+      var hat = OLCUM.duraklar.slice();
+      if (gecici) hat.push(gecici);
+      if (hat.length >= 2) fs.push({ type: "Feature", geometry: { type: "LineString", coordinates: hat } });
       harita.getSource("olcum").setData({ type: "FeatureCollection", features: fs });
     }
-    function _olcumMesafeYazi(a, b) {
-      var km = kmArasi(a[1], a[0], b[1], b[0]);
+    function _olcumMesafeYazi(km) {
       return (km < 10 ? km.toFixed(2) : km < 100 ? km.toFixed(1) : Math.round(km).toLocaleString("tr-TR")) + " km";
+    }
+    // Zincirin TOPLAM uzunluğu — ardışık durak çiftlerinin büyük daire
+    // mesafelerinin toplamı. `kmArasi` YENİDEN YAZILMADI (D023).
+    function _olcumToplamKm(duraklar) {
+      var t = 0;
+      for (var i = 1; i < duraklar.length; i++) {
+        t += kmArasi(duraklar[i - 1][1], duraklar[i - 1][0], duraklar[i][1], duraklar[i][0]);
+      }
+      return t;
     }
     function _olcumEtiketKur() {
       var el = document.getElementById("olcum-etiket");
@@ -2158,11 +2179,15 @@ harita.on("load", function () {
       return el;
     }
     function _olcumEtiketYerlestir() {
-      if (!OLCUM.a || !OLCUM.b) return;
+      if (OLCUM.duraklar.length < 2) return;
       var el = _olcumEtiketKur();
-      el.firstChild.textContent = _olcumMesafeYazi(OLCUM.a, OLCUM.b);
-      var orta = [(OLCUM.a[0] + OLCUM.b[0]) / 2, (OLCUM.a[1] + OLCUM.b[1]) / 2];
-      var p = harita.project(orta);
+      var toplam = _olcumToplamKm(OLCUM.duraklar);
+      el.firstChild.textContent = _olcumMesafeYazi(toplam) +
+        (OLCUM.duraklar.length > 2 ? " · " + OLCUM.duraklar.length + " durak" : "");
+      // Etiket ZİNCİRİN SON durağına oturur — ortanoktası çok duraklıda
+      // anlamsızlaşırdı (hangi ikisinin ortası?).
+      var son = OLCUM.duraklar[OLCUM.duraklar.length - 1];
+      var p = harita.project(son);
       el.style.left = p.x + "px"; el.style.top = p.y + "px";
       el.hidden = false;
     }
@@ -2176,39 +2201,37 @@ harita.on("load", function () {
       el.textContent = metin;
     }
     function _olcumTemizle() {
-      OLCUM.a = null; OLCUM.b = null; OLCUM.aktif = false;
+      OLCUM.duraklar = []; OLCUM.aktif = false;
       _olcumCiz();
-      var etiket = document.getElementById("olcum-etiket"); if (etiket) etiket.hidden = true;
+      var etiket = document.getElementById("olcum-etiket"); if (etiket) etiket.remove();
       var durum = document.getElementById("olcum-durum"); if (durum) durum.remove();
     }
-    // Tek `contextmenu` işleyicisi, DURUMA göre dallanır: `OLCUM.aktif`
-    // yoksa bu tık A'yı kurar, varsa bu tık B'yi kurup ölçümü BİTİRİR. İki
-    // ayrı olay türü İCAT edilmedi — sağ tık zaten doğru olay, ikinci
-    // tıklamayı ayırt eden şey OLAY değil DURUM.
+    // Tek `contextmenu` işleyicisi: her sağ tık zincire bir durak EKLER.
+    // İlk tık başlatır, sonraki her tık uzatır — "bitiş" diye ayrı bir hâl
+    // yok, kullanıcı ✕/Esc'e basana kadar zincir açık kalır.
     harita.on("contextmenu", function (e) {
       if (e.originalEvent && e.originalEvent.preventDefault) e.originalEvent.preventDefault();
       var nokta = [e.lngLat.lng, e.lngLat.lat];
-      if (!OLCUM.aktif) {
-        OLCUM.a = nokta; OLCUM.b = null; OLCUM.aktif = true;
-        var etiket = document.getElementById("olcum-etiket"); if (etiket) etiket.hidden = true;
-        _olcumCiz(OLCUM.a);
-        _olcumDurumGoster("📏 Mesafe ölç — bitiş noktası için tekrar sağ tıklayın (Esc: iptal)");
-      } else {
-        OLCUM.b = nokta; OLCUM.aktif = false;
-        _olcumCiz();
-        _olcumEtiketYerlestir();
-        var durum = document.getElementById("olcum-durum"); if (durum) durum.remove();
-      }
+      OLCUM.duraklar.push(nokta);
+      OLCUM.aktif = true;
+      _olcumCiz(nokta);
+      _olcumEtiketYerlestir();
+      _olcumDurumGoster(OLCUM.duraklar.length === 1
+        ? "📏 Mesafe ölç — bir sonraki durak için sağ tıklayın (Esc: iptal)"
+        : "📏 " + _olcumMesafeYazi(_olcumToplamKm(OLCUM.duraklar)) + " · " + OLCUM.duraklar.length +
+          " durak — yeni durak için sağ tıklayın, bitirince ✕ ile kapatın (Esc: iptal)");
     });
     harita.on("mousemove", function (e) {
-      if (!OLCUM.aktif || !OLCUM.a) return;
-      _olcumCiz([e.lngLat.lng, e.lngLat.lat]);
-      _olcumDurumGoster("📏 " + _olcumMesafeYazi(OLCUM.a, [e.lngLat.lng, e.lngLat.lat]) +
-        " — bitiş için tekrar sağ tıklayın (Esc: iptal)");
+      if (!OLCUM.aktif || !OLCUM.duraklar.length) return;
+      var gecici = [e.lngLat.lng, e.lngLat.lat];
+      _olcumCiz(gecici);
+      var toplam = _olcumToplamKm(OLCUM.duraklar.concat([gecici]));
+      _olcumDurumGoster("📏 " + _olcumMesafeYazi(toplam) +
+        " — yeni durak için sağ tıklayın, bitirince ✕ ile kapatın (Esc: iptal)");
     });
-    harita.on("move", function () { if (OLCUM.a && OLCUM.b) _olcumEtiketYerlestir(); });
+    harita.on("move", function () { if (OLCUM.duraklar.length >= 2) _olcumEtiketYerlestir(); });
     document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && (OLCUM.aktif || OLCUM.a)) _olcumTemizle();
+      if (e.key === "Escape" && OLCUM.duraklar.length) _olcumTemizle();
     });
   } catch (eOlcum) { console.error("[mesafe ölç] kurulamadı", eOlcum); }
 
@@ -2530,7 +2553,12 @@ var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
                  // İstanbul ile Timbuktu aynı kovaya düşerdi.
                  g: y.g || 0,
                  go: y.go,   // önemin söndüğü gün (isteğe bağlı)
-                 k: pencereler };
+                 k: pencereler,
+                 // 🆕 UI-ETKILESIM (DALGA-0063 madde ④) — asıl YERLESIMLER
+                 // kaydına doğrudan referans. Şehir ADINA tıklanınca AÇILAN
+                 // yerleşim `_enYakinYerlesim`in "en yakın 150 km" tahminiyle
+                 // DEĞİL, tam bu kayıtla bulunsun diye taşınıyor.
+                 _orij: y };
       })
   : (window.SEHIRLER || []);
 
@@ -4446,22 +4474,51 @@ function koridorKur() {
   // ⚠️ Katman tıklayıcılarından (koridor düğümü/kenarı) SONRA kaydediliyor;
   //    MapLibre katman tıklayıcılarını önce çalıştırır, o yüzden bir
   //    koridor düğümüne tıklamak yerleşim panelini AÇMAZ.
+  //
+  // 🔴🔴 UI-ETKILESIM (DALGA-0063 madde ④, Emre): "Haritada boş bir noktaya
+  // tıklayınca yer sayfası AÇILMASIN; yalnız şehir adına tıklanınca açılsın."
+  // ÖLÇÜLDÜ (canlı tarayıcı, 17 Eylül): aşağıdaki eski satır `_enYakinYerlesim`
+  // ile "150 km içindeki EN YAKIN nokta"yı açıyordu — boş bir çayıra tıklamak
+  // "Yumurtalık"ı (16 km öteden) açtı; "İstanbul" yazısının TAM ÜSTÜNE
+  // tıklamak bile "Aydos Kalesi"ni açtı. Sebep: `.sehir { pointer-events:
+  // none; }` (CSS) — şehir işaretleri tıklamayı YUTMUYOR, her tıklama
+  // doğrudan canvas'a düşüyor ve isme mi boşluğa mı basıldığı hiç
+  // sorulmuyordu. ⇒ Çare CSS'i açmak DEĞİL (o zaman marker `contextmenu`/
+  // `mousemove` gibi haritanın kendi olaylarını da yutardı) — piksel
+  // düzeyinde GÖRÜNEN `.s-ad` kutucuklarına karşı ELLE hit-test.
+  function _sehirAdiTiklandiMi(ev) {
+    var ce = ev && ev.originalEvent;
+    if (!ce) return null;
+    for (var i = 0; i < sehirler.length; i++) {
+      var kayit = sehirler[i];
+      if (!kayit.ekli) continue;              // haritada şu an yok
+      var adEl = kayit.ic.querySelector(".s-ad");
+      if (!adEl) continue;
+      var r = adEl.getBoundingClientRect();
+      // Genişlik/yükseklik 0 ⇒ CSS onu gizlemiş (uzak zoom'da `.d1 .s-ad`,
+      // ya da nokta ekranda değil) — görünmeyen bir isme "tıklanamaz".
+      if (r.width === 0 || r.height === 0) continue;
+      if (ce.clientX >= r.left && ce.clientX <= r.right &&
+          ce.clientY >= r.top && ce.clientY <= r.bottom) {
+        return kayit;
+      }
+    }
+    return null;
+  }
   harita.on("click", function (ev) {
     if (ev.originalEvent && ev.originalEvent._koridor) return;   // katman yuttu
-    var b = _enYakinYerlesim(ev.lngLat.lat, ev.lngLat.lng);
-    if (!b) return;
-    // 🔴 EŞİK: 150 km'den uzaksa AÇMA. Boş okyanusa tıklayınca 900 km
-    //    öteki bir şehri açmak, cevap değil GÜRÜLTÜdür.
-    if (b.km > 150) return;
+    var kayit = _sehirAdiTiklandiMi(ev);
+    if (!kayit) return;                       // boş nokta — artık hiçbir şey açılmaz
+    var y = kayit.s._orij;
+    if (!y) return;
     // HALKA-TIKLAMA: halka katmanının tıklayıcısı aynı yerin popup'ını
     // AÇMASIN — kaynak bloğu şehir görünümüne basılıyor (kaynakliHalkaSehirBlogu).
-    if (ev.originalEvent) ev.originalEvent._khYerlesim = b.y.ad;
+    if (ev.originalEvent) ev.originalEvent._khYerlesim = y.ad;
     dizinPencere.classList.remove("gizli");
     dizinDoldur("yerlesimler");        // `_yerlesimAc`ı atar
-    if (_yerlesimAc) _yerlesimAc(b.y);
+    if (_yerlesimAc) _yerlesimAc(y);
     var not = document.querySelector(".yer-cubuk-sarmal");
-    if (not) not.setAttribute("data-mesafe",
-      "tıklanan noktaya " + b.km.toFixed(0) + " km — EN YAKIN yerleşim, petek sahibi değil");
+    if (not) not.setAttribute("data-mesafe", "şehrin ADINA tıklandı — tam bu yerleşim");
   });
 
   harita.on("click", "koridor-dugum-daire", function (ev) {
@@ -5102,11 +5159,45 @@ function portreAlbumuAc(p) {
   pencere.classList.remove("gizli");
 }
 portreKutu.addEventListener("click", function () { portreAlbumuAc(_aktifPadisah); });
+// 🆕 UI-ETKILESIM (DALGA-0063 madde ④) — yalnız PORTRE tıklanınca albüm
+// açılıyordu, yanındaki AD METNİ (`adKutu`) tıklamaya tepki vermiyordu.
+// Aynı işlev, aynı kapı (`portreAlbumuAc`) — ikinci bir mekanizma YOK.
+adKutu.style.cursor = "pointer";
+adKutu.addEventListener("click", function () { portreAlbumuAc(_aktifPadisah); });
 document.getElementById("portre-albumu-kapat").addEventListener("click", function () {
   document.getElementById("portre-albumu-pencere").classList.add("gizli");
 });
 document.getElementById("portre-albumu-pencere").addEventListener("click", function (e) {
   if (e.target === this) this.classList.add("gizli");
+});
+
+// 🆕 UI-ETKILESIM (DALGA-0063 madde ⑦, Emre): "Maddedeki resme tıklayınca
+// büyüsün (makul boyut)." Bugün `ob-madde-gorsel-kart` içindeki resimler
+// (maddeGorseliniGuncelle) küçük kart boyutunda sabit — büyütme YOK.
+// `resimBuyut` genel bir kapı: url/alt/altyazı alır, `#resim-buyut-pencere`yi
+// doldurup açar. `portreAlbumuAc` ile AYNI overlay-kapatma deseni.
+function resimBuyut(url, alt, altyaziMetin) {
+  if (!url) return;
+  var pencere = document.getElementById("resim-buyut-pencere");
+  var img = document.getElementById("resim-buyut-img");
+  var alty = document.getElementById("resim-buyut-altyazi");
+  if (!pencere || !img) return;
+  img.src = url;
+  img.alt = alt || "";
+  alty.textContent = altyaziMetin || "";
+  alty.hidden = !altyaziMetin;
+  pencere.classList.remove("gizli");
+}
+document.getElementById("resim-buyut-kapat").addEventListener("click", function () {
+  document.getElementById("resim-buyut-pencere").classList.add("gizli");
+});
+document.getElementById("resim-buyut-pencere").addEventListener("click", function (e) {
+  if (e.target === this) this.classList.add("gizli");
+});
+document.addEventListener("keydown", function (e) {
+  if (e.key !== "Escape") return;
+  var p = document.getElementById("resim-buyut-pencere");
+  if (p && !p.classList.contains("gizli")) p.classList.add("gizli");
 });
 
 // ---------- Olay akışı (ana + ek liste birleşik, gün sıralı) ----------
@@ -5352,6 +5443,34 @@ function kopyaMenusuAc(e, o, kaynakEl) {
     var t = (kaynakEl.innerText || kaynakEl.textContent || "").trim();
     if (t) secenekler.push(["Bu bölümü kopyala", t]);
   }
+  _kopyaMenuGoster(e, secenekler);
+}
+
+// 🆕 UI-ETKILESIM (DALGA-0063 madde ③) — EK OKUMA satırları için "Başlığı
+// kopyala" / "Maddeyi kopyala". `kopyaMenusuAc`nin sunum yarısı (`o` bir
+// kronoloji maddesi biçimini bekliyor) buraya UYMUYOR — ek okuma kartları
+// tür başına farklı alanlar taşıyor (bkz. `ekKartHtml`). Ayrı içerik yolu,
+// AYNI menü/kopyalama altyapısı (`_kopyaMenuGoster` · `_panoyaYaz`).
+function ekKopyaMenusuAc(e, baslikMetni, icerikMetni) {
+  if (e.shiftKey) return;
+  e.preventDefault();
+  // ⚠️ ZORUNLU: ek okuma satırları `#olay-bilgi` İÇİNDE duruyor ve o panelin
+  // KENDİ genel `contextmenu` işleyicisi var (aşağıda, "Detay paneli"). Bunu
+  // durdurmazsak olay bu satırdan #olay-bilgi'ye KABARCIKLANIR, o işleyici
+  // `kopyaMenusuAc`yi TEKRAR çağırır ve BİZİM menümüzü SESSİZCE ezer —
+  // canlı testte ölçüldü: "Maddeyi kopyala" yerine "Maddenin tamamını
+  // kopyala" çıktı, çünkü ikinci çağrı ekran metnini değil `aktifOlay`ı aldı.
+  e.stopPropagation();
+  _kopyaMenusuKapat();
+  var secili = String(window.getSelection ? window.getSelection() : "").trim();
+  var secenekler = [];
+  if (secili) secenekler.push(["Seçili metni kopyala", secili]);
+  if (baslikMetni) secenekler.push(["Başlığı kopyala", baslikMetni]);
+  if (icerikMetni && icerikMetni !== baslikMetni) secenekler.push(["Maddeyi kopyala", icerikMetni]);
+  _kopyaMenuGoster(e, secenekler);
+}
+
+function _kopyaMenuGoster(e, secenekler) {
   if (!secenekler.length) return;
 
   var m = document.createElement("div");
@@ -8382,9 +8501,15 @@ function maddeGorseliniGuncelle(o) {
     var img = document.createElement("img");
     img.src = r.url; img.alt = r.gorsel_alt; img.loading = "lazy";
     img.onerror = function () { fig.remove(); };   // dosya henüz yoksa sessiz — kırık ikon YOK
+    var ust = [r.eser, r.sanatci, r.yil].filter(Boolean).join(" · ");
+    // 🆕 UI-ETKILESIM (DALGA-0063 madde ⑦) — resme tıklayınca büyüsün.
+    // Altyazı da taşınır ki büyütülmüş görselde kaynak/eser bilgisi kaybolmasın.
+    img.style.cursor = "zoom-in";
+    img.addEventListener("click", function () {
+      resimBuyut(r.url, r.gorsel_alt, [ust, "kaynak" + (r.lisans ? " · " + r.lisans : "")].filter(Boolean).join(" — "));
+    });
     fig.appendChild(img);
     var alt = document.createElement("figcaption");
-    var ust = [r.eser, r.sanatci, r.yil].filter(Boolean).join(" · ");
     if (ust) alt.appendChild(document.createTextNode(ust));
     // ZORUNLU ②: kaynak HER ZAMAN görünür — link varsa tıklanabilir,
     // yoksa (bu kayıt setinde hiç yok ama D107 disiplini) düz metin.
@@ -8475,6 +8600,8 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_yenilesme",  // window.EKOKUMA_YENILESME — matbaa/tulumba/kağıt gecikmesi, 0059/2-3
   "ekokuma_diplomasi",  // window.EKOKUMA_DIPLOMASI — elçilik/konsolosluk tarihi, 0059/5
   "ekokuma_kiyas",      // window.EKOKUMA_KIYAS — yeniliğe tepki ayaklanmaları kıyası, 0059/6
+  "ekokuma_antlasma5",  // window.EKOKUMA_ANTLASMA5 — Osmanli disi antlasmalar >=1700 (EKO-ANTLASMA)
+  "ekokuma_antlasma6",  // window.EKOKUMA_ANTLASMA6 — Osmanli disi antlasmalar <1700 (EKO-ANTLASMA-2)
   "ekokuma_rusiran",    // window.EKOKUMA_RUSIRAN — Rusya-İran ilişkileri, 0059/7
   "ekokuma_baslik_oneri", // window.EKOBASLIK_ONERI — {id: başlık}, DİZİ DEĞİL, havuza girmez (0057/6)
   "ekokuma_bag_oneri",   // window.EKOBAG_ONERI — {id: olay[]}, DİZİ DEĞİL (0057/6 ilgililik)
@@ -8867,6 +8994,14 @@ function ekAkordeonKur(kutu, satirlar) {
     sat.appendChild(gov);
     sat._kart = s.kart;
     sat._html = s.html;                // kartvizit/kişi satırı: gövde hazır (ekKartHtml'e gitmez)
+    // 🆕 UI-ETKILESIM (DALGA-0063 madde ③) — ek okuma satırının başlığına/
+    // gövdesine sağ tık: "Başlığı kopyala" / "Maddeyi kopyala". `kaynakEl`
+    // yolundaki gibi ekrandaki metne bağlı KALMIYOR — gövde henüz TEMBEL
+    // çizilmemiş olabilir (yalnız o an açık satır dolduruluyor, bkz.
+    // _ekAkordeonAc), o yüzden içerik gerekirse burada üretiliyor.
+    sat.addEventListener("contextmenu", function (e) {
+      ekKopyaMenusuAc(e, bas.tam, _ekIcerikMetni(sat._kart, sat._html));
+    });
     kutu.appendChild(sat);
   });
   _ekAkordeonAc(-1);
@@ -9000,11 +9135,35 @@ function ekKartHtml(k) {
   return h;
 }
 
+// 🆕 UI-ETKILESIM (DALGA-0063 madde ③) — bir ek okuma kartının DÜZ METNİ.
+// `html` zaten çizilmişse (akordeon gövdesi) onu kullanır, yoksa `ekKartHtml`
+// ile üretir; ikisinde de geçici bir DOM'a basıp `textContent` okunur — HTML
+// etiketleri olmadan, panoya yapıştırılabilir biçimde.
+function _ekIcerikMetni(kart, html) {
+  var h = html != null ? html : (kart ? ekKartHtml(kart) : "");
+  if (!h) return "";
+  var gecici = document.createElement("div");
+  gecici.innerHTML = h;
+  return (gecici.textContent || "").replace(/\n{3,}/g, "\n\n").trim();
+}
+
 var ekokumaPencere = document.getElementById("ekokuma-pencere");
 function ekOkumaPenceresiAc(tur, kartlar) {
   document.getElementById("ekokuma-baslik").textContent = EKOKUMA_TUR[tur].etiket;
   var el = document.getElementById("ekokuma-icerik");
   el.innerHTML = kartlar.map(ekKartHtml).join("");
+  // 🆕 UI-ETKILESIM (madde ③) — pencerede her kart kendi başlığını/metnini
+  // kopyalatabilsin. `kartlar[i]` ile basılan `.ek-kart` DOM'u AYNI SIRADA.
+  var kartElleri = el.querySelectorAll(".ek-kart");
+  for (var ki = 0; ki < kartElleri.length; ki++) {
+    (function (kartEl, kart) {
+      kartEl.addEventListener("contextmenu", function (e) {
+        var h4 = kartEl.querySelector("h4");
+        var baslik = h4 ? h4.textContent.trim() : (kart.baslik || kart.ad || kart.soru || "");
+        ekKopyaMenusuAc(e, baslik, _ekIcerikMetni(null, kartEl.innerHTML));
+      });
+    })(kartElleri[ki], kartlar[ki]);
+  }
   // Zincir bağlantıları: sebep-sonuç kartları birbirine `zincir:` ile atıfta
   // bulunuyor; tıklanınca AYNI pencerede o karta atlanıyor ("bu neyin
   // sonucu, neye sebep oldu" gezinmesi — EK-OKUMA.md).

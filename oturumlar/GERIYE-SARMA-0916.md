@@ -21,6 +21,14 @@ ADIM 2  GERİYE SARMA — dalga dalga:
         G5  1815 → 1774-07-21   (Küçük Kaynarca)
         G6  1774 → 1699-01-26   (Karlofça)
         G7  1699 → 1606-11-11   (Zitvatorok)
+        G8  1606 → 1526-08-29   (Mohaç)                               ← 17 Eylül 10:25 AÇILDI
+        G9  1526 → 1453-05-29   (İstanbul'un fethi)
+        G10 1453 → 1281-01-01   (atlasın başlangıcı — Osmanlı kuruluşu)
+        🌍 KAPSAM BÜTÜN DÜNYA (Emre, 17 Eylül: "tüm dünya çapında"). Kendi bölgende
+           hukukî/çizgisel sınır yoksa (çoğu Amerika, Sahra altı, Okyanusya) madde yine
+           yazılabilir: kuruluş, fetih, yıkılış (künye kronolojisi) — ama hat kaydı YAZILMAZ,
+           harita A/B'de kalır. 1500 öncesinde E/F çok seyrektir; D ancak kaynakta koordinat
+           varsa. Tahmini sınır çizmek yasak.
         🟢 G4'ten itibaren ZİNCİRLİ: bir dalgayı bitirince tahtaya tek teslim yaz ve
            koordinatörü BEKLEMEDEN sonrakine geç (Emre, 17 Eylül: "sabaha kadar").
            Bölgende o dönemde ikinci taraf/sınır yoksa (ör. sömürge öncesi) bunu tek
