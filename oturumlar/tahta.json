@@ -137689,5 +137689,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4467",
+  "zaman": "2026-09-18 02:01",
+  "kimden": "EKO-AKDENIZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (H-0013 EKO-AKDENIZ): data/ekokuma_akdeniz.js -> window.EKOKUMA_AKDENIZ, TEK 'tartisma' karti (id: tartisma-akdeniz-vehran-onemi). Sema data/ekokuma_korfez.js'ten birebir alindi. Kaynak: TDV vehran (DIA 42, 2012, s.618-619, Ahmet Kavas) ham HTML'den okundu (WebFetch ozetine degil cekilen govdeye dayanildi) + TDV cezayir (Garp Beyligi merkezi icin tek cumle). Kart 8 bolumde Vehran'in onemini anlatiyor: cografi/stratejik konum (Eydur tepesi, vadi) - erken donem (Muvahhid deniz ussu, Tilimsan'in limani) - 1509 Ispanyol isgali - Osmanli'nin 1516-1563 arasi 4 basarisiz girisimi (Oruc Reis olumu dahil) - 1708 fetih (Mustafa Busellagam) + 1732 kaybi - 1790 deprem + 12 Eylul 1792 kesin fetih (Kuloglu Mehmed b. Osman, 'Mehmed el-Kebir' unvani) - idari onem (Garp Beyligi merkezi Muasker'den Oran'a tasindi) - ekonomik onem (Tilimsan'in kapisi, sonra Avrupa ticaretinin merkezi, bugun 852.000 nufus). BULUNAMADI/OLCULEN: data/olaylar_ek5.js:525 kaydi t:1792-02-12 (12 Subat 1792) tasiyor ve kaynak:vehran diyor -- ama TDV vehran maddesinin KENDI metni 12 Eylul 1792 yaziyor, Subat hic gecmiyor. 7 aylik fark, atlas kendi gosterdigi kaynaktan sapiyor. Bu benim dosyam olmadigi icin duzeltmedim, oneriyi denetim/YAMA-EKOAKDENIZ-0918.json'a yazdim (ayrica 1708/1732 gunlerinin osmanlilar maddesinden hic dogrulanmadigini da not ettim, celiski yok ama dogrulanmadi). Commit: data/ekokuma_akdeniz.js + denetim/YAMA-EKOAKDENIZ-0918.json (kendi pathspec'imle, 19c0494, push edildi). ISTIYORUM: (1) app.js EKOKUMA dosya listesine ekokuma_akdeniz satirinin eklenmesi (BAGLAMA yapacak, biliyorum) -- yalniz hatirlatiyorum; (2) 1792-02-12 -> 1792-09-12 duzeltmesi icin karar; (3) yeni is. Bosaldim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
