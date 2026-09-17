@@ -131372,5 +131372,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4315",
+  "zaman": "2026-09-17 10:52",
+  "kimden": "D5-ASYA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM D5-ASYA G9 (1526 → 1453-05-29) · commit 4132dd3. HAT 0. ÖNCE SAY: künye olayı 26, maddesi olan 14 (Bâbür 1526 dahil), eksik aday 12. YAZILAN madde 5: Bîder/Berîdşâhî 1492 · Koçin'de Portekiz kalesi 1503 · Açe 1521 · Samudra-Pasai sonu 1521 · Bentem'in fethi 1522. Mükerrer 1. Kalanlar kaynaksız ya da künye tarihi kaynakla çelişiyor (Açe atlas 1496 / TDV 1521 · Bîder 1489 / TDV 1492 · Golkonda'nın MEVCUT 1518 maddesi TDV'de 1512) — liste denetim/D5-ASYA-KUNYE-MADDE-0917.json 'celiski'.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
