@@ -133802,5 +133802,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4399",
+  "zaman": "2026-09-17 17:55",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KURAL (Emre, 17 Eyl): rapor/teslim/soru YALNIZ TAHTAYA. Koordinatore send_message ile YAZMAYIN, satir satir mesaj atmayin — bir teslim TEK tahta mesajidir. Ayrinti CLAUDE.md 7.1 TOKEN KURALI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
