@@ -1,0 +1,21 @@
+{
+  "_aciklama": "EKO-VEZIR · DALGA-0065 madde 1 (H-0001) · 'Koca Ragıp Paşa sadrazamlık maddesinde III. Mustafa portresi çıkıyor' şikâyetinin ölçümü ve düzeltme önerisi. data/olaylar_ek7.js BU OTURUMUN DOSYASI DEĞİL (CLAUDE.md §7 — kronoloji kuyruk dosyası, muhtemelen Oturum 7'nin), bu yüzden UYGULANMADI, yalnız önerildi.",
+  "olcum": {
+    "mekanizma": "js/app.js (satır ~8070-8098): bir kronoloji maddesi açıldığında panel üstündeki padişah portresi, o maddenin `kisiler:` alanında adı geçen BELİRLİ bir padişah varsa onun portresini gösterir (bkz. app.js yorum satırı: 'Görsel: olayda adı geçen BELİRLİ bir padişah varsa onun portresi'). Koca Ragıp Paşa bir padişah olmadığı için kendi portresi yok; mekanizma `kisiler:` alanındaki İKİNCİ adı (III. Mustafa) eşleştirip onun portresini gösteriyor.",
+    "kok_sebep": "Sorun görsel/portre altyapısında değil, VERİDE: data/olaylar_ek7.js:121 satırındaki 1757-02-28 tarihli 'Koca Ragıp Mehmed Paşa'nın sadrazamlığı' maddesi hem `kisiler:` alanında hem `d:` (anlatı) metninde onu sadrazamlığa getiren padişahı YANLIŞ veriyor: 'III. Mustafa' yazıyor. TDV'nin kendi 'ragib-pasa' maddesi bu atamayı AÇIKÇA III. Osman'a bağlıyor (bu oturumda TDV tekrar okunarak doğrulandı): 'III. Ahmed'in oğullarından Şehzade Mehmed'in vefatı ve bunun halk arasında sadrazama mal edilmesi üzerine padişah tarafından vezîriâzamlık makamına getirildi (8 Cemâziyelâhir 1170 / 28 Şubat 1757).' — bu cümledeki 'padişah' o tarihte tahtta olan III. Osman'dır (III. Osman f:1754-12, t:1757-10 — data/padisahlar.js). III. Mustafa ancak Ekim 1757'de III. Osman'ın ölümüyle tahta çıktı; TDV'nin aynı maddesi Ragıp Paşa'nın bu geçişte GÖREVDE KALIP III. Mustafa'dan yeni mühür aldığını anlatıyor — yani III. Mustafa'nın adı olayda geçebilir, ama ATAYAN o değil, III. Osman'dır.",
+    "dogrulama_yontemi": "TDV 'ragib-pasa' maddesi bu oturumda tekrar WebFetch ile okundu; III. Osman'ın 1754-12→1757-10 saltanat tarihleri data/padisahlar.js'ten doğrulandı. Ayrıca aynı dosyada (olaylar_ek7.js, satır 120 üstündeki yorum) bu TÜR bir hatanın (III. Osman'ın ölüm tarihinin yanlış yazılması) daha önce bir kez fark edilip düzeltildiği görüldü — bu, ikinci, farklı bir III. Osman/III. Mustafa karışıklığı vakası."
+  },
+  "portre_arastirmasi": {
+    "soru": "Koca Ragıp Paşa'nın kendi PD/CC0 portresi var mı — varsa doğrudan onu bağlamak, sultanın portresini düzeltmekten daha iyi bir çözüm olurdu.",
+    "sonuc": "BULUNAMADI. Wikimedia Commons'daki 'Category:Koca Ragıp Pasha' kategorisi yalnız 2 dosya taşıyor: (1) 1730 tarihli Mısır valiliği dönemine ait bir SİKKE (coin) — bir portre değil, (2) 1717 tarihli bir Divan (şiir koleksiyonu) el yazması sayfası — yine bir portre değil. Kategoride hiçbir çizilmiş/boyanmış PORTRE yok. Bu yüzden 'varsa bağla' şıkkı uygulanamıyor; çözüm aşağıdaki öneri.",
+    "arama_yontemi": "WebSearch + WebFetch ile Wikimedia Commons kategori sayfası (commons.wikimedia.org/wiki/Category:Koca_Rağıp_Pasha) tarandı."
+  },
+  "onerilen_degisiklik": {
+    "dosya": "data/olaylar_ek7.js",
+    "satir": 121,
+    "eski": "kisiler:\"Koca Ragıp Mehmed Paşa, III. Mustafa\", d:\"TDV'nin \\\"Râgıb Paşa\\\" maddesine göre, şair ve diplomat kimliğiyle tanınan devlet adamı III. Mustafa tarafından sadrazamlık makamına getirildi. ...\"",
+    "yeni": "kisiler:\"Koca Ragıp Mehmed Paşa, III. Osman\", d:\"TDV'nin \\\"Râgıb Paşa\\\" maddesine göre, şair ve diplomat kimliğiyle tanınan devlet adamı III. Osman tarafından sadrazamlık makamına getirildi (III. Osman'ın Ekim 1757'deki ölümünde göreve devam edip III. Mustafa'dan yeni mühür aldı). ...\"",
+    "etki": "Bu değişiklikten sonra app.js'nin portre mekanizması otomatik olarak III. Osman'ın portresini gösterecek (assets/portreler/osman3.jpg zaten mevcut, data/padisahlar.js'te 36 padişahtan biri) — YANLIŞ portre yerine DOĞRU portre çıkacak. Portreyi tamamen kaldırmak yerine bu, hem daha bilgilendirici hem tek satırlık bir düzeltme."
+  },
+  "ne_istiyorum": "data/olaylar_ek7.js sahibi oturum (ya da Oturum 0) yukarıdaki tek satırı uygulasın. Aciliyet düşük — görsel yanlışlık bir veri hatasının yan etkisi, harita/kronoloji doğruluğunu etkilemiyor."
+}

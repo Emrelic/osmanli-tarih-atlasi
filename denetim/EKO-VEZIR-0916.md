@@ -383,3 +383,52 @@ tekrar yazılmadı).
 YENİ     data/ekokuma_camitarz.js   3 kart, node --check temiz, 3/3 id benzersiz,
                                     2/2 olay tarihi doğrulandı, 0 "Emre" geçişi
 ```
+
+---
+
+# EK BÖLÜM 8 — DALGA-0065, H-0001 · H-0013 · H-0015 (17 Eylül akşam)
+
+Kaynak: `oturumlar/DALGA-0065.md` satır 13. Üç ayrı madde, üç ayrı sonuç.
+
+**H-0001 — Ragıp Paşa maddesinde III. Mustafa portresi:** Ölçüldü — kök sebep
+görsel altyapısında değil, VERİDE: `data/olaylar_ek7.js:121` (1757-02-28,
+"Koca Ragıp Mehmed Paşa'nın sadrazamlığı") `kisiler:` alanında onu atayan
+padişahı YANLIŞ yazıyor ("III. Mustafa"). TDV'nin `ragib-pasa` maddesi bu
+oturumda tekrar okunarak doğrulandı: atayan **III. Osman**'dır (III. Mustafa
+ancak Ekim 1757'de tahta çıktı, Ragıp Paşa görevde kalıp ondan yalnız yeni
+mühür aldı). `js/app.js`'in portre mekanizması `kisiler:`deki İLK padişah
+adını gösteriyor — veri düzelirse portre de kendiliğinden düzelir. Ayrıca
+Ragıp Paşa'nın kendi PD/CC0 portresi arandı: Wikimedia Commons kategorisinde
+yalnız bir sikke (1730) ve bir Divan sayfası (1717) var, GERÇEK BİR PORTRE
+YOK. `data/olaylar_ek7.js` bu oturumun dosyası değil — önerinin tamamı
+`denetim/YAMA-0065-PORTRE.json`'da, dosyaya hiçbir şey yazılmadı.
+
+**H-0013 — Çeşme Baskını:** `data/ekokuma_savas.js` (KITA 20'nin dosyası,
+id:`savas-cesme-1770`) zaten oncesi/akis/sonuc/tartisma dörtlüsüyle TAM
+kapsıyor — sebep, nasıl yakıldığı ve "beceriksizlik mi teknik üstünlük mü"
+sorusu (TDV'nin cevabı: Hasan Bey'in karşı çıkmasına rağmen donanmayı dar
+limana sokan bir KOMUTA kararı, yani beceriksizlik) zaten sourced biçimde
+orada. Mükerrer kart YAZILMADI (DALGA-0054'ten beri geçerli kural).
+
+**H-0015 — Kartal (Kagul) Bozgunu:** Hiçbir ekokuma dosyasında yoktu, YENİ
+DOSYA `data/ekokuma_savas1770.js` → `window.EKOKUMA_SAVAS1770`'e tek kart
+olarak yazıldı (tur:"savas-hikayesi", KITA 20'nin şemasıyla birebir aynı
+alan seti). TDV'nin müstakil maddesi yok (4 aday slug, 4'ü de 302); hakemli
+akademik kaynağa geçildi (Bora Efe, "Osmanlı Tarihinde Bir Felaket: Kartal
+Sahrası (Kagul) Muharebesi", Journal of International Eastern European
+Studies 6/1, 2024). Kart, kuvvet sayılarındaki geniş kaynak farkını VE
+TDV'nin kendi içindeki bir günlük tarih tutarsızlığını (`ivazzade-halil-pasa`
+2 Ağustos derken `ibrail` 1 Ağustos diyor) `tartisma:` alanına açıkça yazdı,
+taraf seçmedi; `kesinlik:"tartismali"` işaretlendi. `olay:["1770-08-01"]`
+mevcut `olaylar_ek5.js:291` kaydına bağlandı (tek eşleşme).
+
+**Standart doğrulama:** `node --check` temiz, 1/1 id benzersiz, `baslik:`
+mevcut, `olay:` tarihi kronoloji havuzunda doğrulandı, metinde "Emre" ya da
+paket no (H-00xx) GEÇMİYOR (DALGA-0065'in yeni kuralı — bu turdan itibaren
+geçerli).
+
+## Dosyalar
+```
+YENİ     data/ekokuma_savas1770.js       1 kart (Kartal/Kagul), node --check temiz
+YENİ     denetim/YAMA-0065-PORTRE.json   olaylar_ek7.js için düzeltme önerisi (uygulanmadı)
+```
