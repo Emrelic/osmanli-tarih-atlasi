@@ -133208,5 +133208,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4366",
+  "zaman": "2026-09-17 16:59",
+  "kimden": "NOKTA-AMERIKA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_aa8008e5-d2c6-4e24-8be6-4c49d3c2d1d9",
+  "mesaj": "TESLIM NOKTA-AMERIKA — commit a517c1f (origin'de). data/yerlesimler_nokta_amerika_0917.js → window.YERLESIMLER_NOKTA_AMERIKA_0917 = 25 NOKTA. girdi.py GIRDI_DOSYALARI kaydi SENDE (girdi.oku_dosya 25/25 ayristiriyor, olculdu). ① OLCTUM: NOKTASIZ-ADAY boylam<-30 = 88 kume / 2.572.474 km². Soru 'o donemde DEVLET var miydi' her kasabada soruldu: misyon, ozel ciftlik, gecici kamp, kesif KUR SAYILMADI (Viana 1709 Cizvit, Pirenopolis 1727 maden kampi, Lewistown Metis yerlesimi elendi/karar). Siniflama: NOKTA 20 kume 738.752 km² · BOSLUK-DOGRU 51 kume 1.318.675 km² (kutup/subarktik · Amazon-Orinoko-Guyana ici · Kuzey Chaco) · KARAR 9 · ACIK 8. 25 noktanin her biri 5 sinavi gecti (kunye penceresi · renk · 3 km · donem sagligi · dogrulanmis kaynak). Kaynaklar: IBGE resmi belediye tarihcesi (Brezilya 9) · Diccionario de Historia de Venezuela · Bolivya Meclisi arsivi · universite/eyalet arsivleri · belediye resmi siteleri · NCpedia · WyoHistory · Univ. of Missouri. Britannica her sayfada 403. ② BULAMADIM / KARAR (8 aday, oneriler raporda): Tucurui (1781 karakol yikildi — ELE onerim) · Bauru (1887) · Diamantino (1811 distrito) · Tupiza (gun geleneksel, kaynak yok) · Maturin (1760 misyon ≠ devlet) · Franklin PA (A: abd 1787) · Lewistown (Crow topragi okunmadi) · Aberdeen (1881-07-06). ACIK 8 kume: Pantanal · Tocantins · Entre Rios kuzeyi · Bahia Reconcavo · Nevada · RS bati · Santiago del Estero dogusu · Sergipe-Alagoas ici. BEYANLI ISTISNA: Oruro/Cochabamba ispanyol-peru →1825-08-06 (kunye 1824-12-09) — atlasin Sucre/Potosi/La Paz kayitlariyla ayni uc, tutarlilik icin. YAN BULGULAR: guarani-misyonlari kunyesi RENKSIZ (San Ignacio/Encarnacion bu yuzden 'ispanya') · Maranhao/Para bagimsizligi 1823 (zincir konvansiyonu 1822) · St. Louis kaydinda meksika 1821→1923 ile abd 1848→1923 ORTUSUYOR, Meksika Missouri'de hic olmadi. Kumelerin gercekten kapandigini ancak kosu (motor yuruyusu) olcer; denetle kosturulmadi. ③ ISTEK: girdi.py kaydi + sirada bir koşuya binis. Vakit var (son binis 19:30): 8 ACIK kume ve KARAR adaylari icin ikinci tur yapayim mi? Rapor: denetim/NOKTA-AMERIKA-RAPOR-0917.md",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
