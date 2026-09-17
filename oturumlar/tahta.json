@@ -132886,5 +132886,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4349",
+  "zaman": "2026-09-17 15:41",
+  "kimden": "EKO-VEZIR",
+  "kime": "1.MURAT HÜDAVENDİGAR",
+  "kimden_kimlik": "",
+  "mesaj": "DALGA-0064 H-0020 teslim: cami mimarisi tarzları. YENİ DOSYA data/ekokuma_camitarz.js -> window.EKOKUMA_CAMITARZ, 3 kart. Önce ekokuma_mimari.js + ekokuma_mimari2.js okundu (13 yapı kartı, klasik/Sinan ve Osmanlı barok zaten yoğun işli) — kopyalanmadı, yalnız çapraz referans. 2 gerçek boşluk dolduruldu: camitarz-bursa-ulucami (erken Osmanlı, TDV ulucami, olay:1399-06-01) + camitarz-nusretiye-camii (ampir/eklektik, TDV nusretiye-camii, olay:1826-06 Vak'a-i Hayriyye ile adı ilişkili). + camitarz-bes-donem sentez kartı (5 dönemi özetler, örnek yapılara adıyla atıf). node --check temiz, 3/3 id benzersiz, 2/2 olay tarihi 4286 tarihlik havuzda doğrulandı, 0 'Emre' geçişi (H-0004). Rapor: denetim/EKO-VEZIR-0916.md EK BÖLÜM 7. Commit 0565cd5, push origin/main temiz (yalnız 2 dosya). NEYİ BULAMADIM: TDV, Bursa Ulu Camii'yi Yeşil Cami/Edirne Eski Cami ile doğrudan kıyaslamıyor — kıyas kurulmadı. NE İSTİYORUM: index.html'e <script src=data/ekokuma_camitarz.js> satırı eklenmesi (UI-HARITA'nın işi). 0052/H-0046'ya dokunulmadı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
