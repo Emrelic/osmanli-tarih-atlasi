@@ -1,0 +1,4986 @@
+{
+ "paket": "KOSU13-BIRLESIK-0917",
+ "tarih": "2026-09-17",
+ "yazan": "KOSU13-YAMA (Opus hazır kıta 1010) · 1.MURAT sevki DALGA-BEKLEYEN C2",
+ "durum": "ÖNERİ — VERİYE YAZILMADI (koşu 12 sürüyor, data/ donuk). Uygulayıcı: Oturum 0 / UYGULA, KOŞU 12 BİTTİKTEN SONRA, koşu 13'ten ÖNCE.",
+ "rapor": "denetim/YAMA-KOSU13-RAPOR-0917.md",
+ "arac": "denetim/ARAC-KOSU13-BIRLESTIR-0917.py (bu dosyayı ÜRETİR) · ARAC-KOSU13-OLCUM-0917.py · ARAC-KOSU13-KURA-YAKA-0917.py",
+ "birlestirilen": [
+  "denetim/YAMA-0057-SAVA.json",
+  "denetim/YAMA-0059-HAZAR.json",
+  "denetim/YAMA-0060-IRAN1723.json",
+  "denetim/YAMA-0063-IRAN.json",
+  "denetim/YAMA-0063-HAZAR.json",
+  "denetim/YAMA-0060-KRONO.json (yalnız harita_yamalari H1-H4)"
+ ],
+ "henuz_gelmeyen": "YAMA-1DUNYA-A-0917 / YAMA-1DUNYA-B-0917 — 17 Eyl ölçümünde diskte YOK; gelince bu araca kalem olarak eklenir",
+ "on_kosul": [
+  "0 · A6C hükmü (KOSU10-SONRASI §A6c) ÖNCE iner: Tebriz d 1725-08-04→1725-07-28 · Tebriz +1731-11-15→1732-01-08 · antlaşma günü 1732-01-08 (veri/madde/devirler) · Nahçıvan t 1735-06-19 (P-0076-a). Bu paket o SONRAKİ durumu varsayar (D166).",
+  "1 · Koşu 12 bitmiş ve 'dosya senin' denmiş olmalı (§7).",
+  "2 · C1 (UYGULA-2) kronoloji maddeleri inmiş olmalı: 0060-KRONO #1 #3 #5 · 0063-KRONO #1 #4 #5 #6."
+ ],
+ "uygulama_sirasi": [
+  "A · Bosna (B1-B4) — bağımsız",
+  "B · Rus yanı (R5-R6, R10-R18) + K1/K2/K3/K6 kararlarına göre R1-R4, R7",
+  "C · Osmanlı anahtarları: O1 Revan · O8 Nahçıvan (K4) · O14 Merâga · O17 Senendec  [Tebriz A6C'de]",
+  "D · bağlılar: O2-O4 (K-REVAN) · O9-O10 (K-NAHCIVAN) · O11 (K-TEBRIZ) · O12→O13 · O15-O16 (K-MERAGA) · O18-O20 (K-ERDELAN) · O23-O27 (K11)",
+  "E · Emre onayı gelirse: O5 Gümrü · O25 Meşkinşehr (K5) · K9 gelirse O6-O7",
+  "F · MADDE M1-M14 AYNI PARTİDE (Değişmez 2 — maddesiz d: günü uygulayıcıda ENGEL)",
+  "G · yer_yama kopyaları (aşağıda) AYNI PARTİDE güncellenir — yoksa sonraki _sahiplik_uygula GERİ ALIR",
+  "H · py arac/denetle.py · py arac/renk_olc.py · koşu 13",
+  "I · koşu 13 sonrası göz: Brod peteği Sava'nın kuzeyine taşıyor mu (Slavonski Brod/Stara Gradiška noktası YOK — 0057 iki uç uyarısı)"
+ ],
+ "kararlar": {
+  "K1": {
+   "soru": "Derbend/Bakü Rus döneminin sonu: antlaşma günü mü, teslim günü mü?",
+   "A": "1735-03-21 (BRE — doğrulanmış)",
+   "B": "Derbend 1735-05-08 · Bakü 1735-05-01 (Kurukin AYNASI, basılı nüsha ile KARŞILAŞTIRILMADI)",
+   "oneri": "A şimdi; B yalnız Kurukin basılı nüshada doğrulanırsa (D030 tasarruf ilkesi B'yi destekliyor ama §4 kaynak şartı henüz yok). 0063-KRONO #4/#5 maddeleri iki varyantta da doğru OLAY — yalnız A'da kırılmasız kalır (2t)"
+  },
+  "K2": {
+   "soru": "Ağraham burnu Rus döneminin sonu (Sulak mı Terek mi)?",
+   "A": "1735-03-21",
+   "B": "1735-08-23 (Garunova 2016 + Asvarov-Magaramov 2022: fiilî hat Terek, Kutsal Haç yıkımı)",
+   "oneri": "B — iki akademik kaynak, madde 0063-KRONO #6'da hazır"
+  },
+  "K3": {
+   "soru": "Salyan: Kura'nın hangi yakası? (2. Rus döneminin sonu)",
+   "A": "1732-09-02 (güney yaka / Iranica MOḠĀN)",
+   "B": "1735-05-01 (kuzey yaka — 1734 buyruğu 'Kura'dan itibaren')",
+   "olcum": "atlas noktası SOL/kuzey yakada, en yakın NE10m Kura parçasına 3,0 km — genelleme payı içinde, KESİN DEĞİL",
+   "oneri": "koordinatör; ayrıca iki dönemin başlangıç bilgisi yalnız Kurukin AYNASINA dayanıyor"
+  },
+  "K4": {
+   "soru": "Nahçıvan/Ordubad/Culfa başlangıcı",
+   "A": "1724-01-01 (TDV yıl)",
+   "B": "1724-08-11 (Aktepe 1970 via Yörük-Valiyev 2016 — TDV yılıyla UYUMLU, Ordubad'ı adıyla anıyor)",
+   "oneri": "B — TDV ile çelişmiyor, onu inceltiyor; Bilgili 1723 ayrışma notu olarak kalır. B'de M9 (1724-01-01) yalnız Urmiye/Selmâs'ı taşır"
+  },
+  "K5": {
+   "soru": "ÖRTÜLÜ OSMANLI — Gümrü (O5) · Meşkinşehr (O25) · Kotur (O29)",
+   "oneri": "EMRE'nin onayı; yazarlar üçünü de öneriyor"
+  },
+  "K6": {
+   "soru": "Tarku 1722-1726 tâbiiyeti",
+   "A": "kumuk-samhalligi (künye t ≥1726 + RENK gerekir — devletler.js ve renkler.py SAHİPLERİNE)",
+   "B": "rusya 1722-08-24→1735-03-21 tek dönem (D089: tâbiiyet doğrudan idare görünür)",
+   "oneri": "A (yazar); ön koşullar gelene kadar kalem BEKLER. B ancak koordinatör açıkça seçerse"
+  },
+  "K7": {
+   "soru": "Bosna Dubiçası 1718-1739 Pasarofça şeridinde mi?",
+   "oneri": "kaynak gerekiyor — B2 bundan bağımsız uygulanır"
+  },
+  "K8": {
+   "soru": "Bosna ilhakı günü: bu paket 1908-10-07 (TDV bosna-hersek); öteki Bosna kayıtları 1908-10-05",
+   "oneri": "atlas referans DEĞİL: bütün Bosna kayıtları TDV'ye (10-07) çekilmeli ya da 10-05 için ayrı kaynak gösterilmeli — ayrı kalem. Çekirdek madde 1908-10-05 iki günü de kapsar"
+  },
+  "K9": {
+   "soru": "Kliçatak/Norapat — komşu kaydın BİREBİR kopyası; doğrudan Revan'a bağlanabilir mi?",
+   "oneri": "köylerin 1724-35 durumu ARANMADI; aranmadan zincir uygulanmaz (§4). İnmezse iki küçük safevi cebi"
+  },
+  "K10": {
+   "soru": "Hoy başlangıcı (Bilgili 'Mayıs 1724') ve bitişi (TDV hoy '1739')",
+   "oneri": "A6C C-0076-c ile birlikte; Ahar (O28) ve Kotur (O29) buna bağlı"
+  },
+  "K11": {
+   "soru": "Erdebil (ve bağlıları Halhâl · Meşkin · Sarâb · Miyâne) başlangıcı",
+   "A": "Tebriz günü (A6C sonrası 1725-07-28) — madde gerekmez, ama kaynakların ÜÇÜNDEN de ERKEN",
+   "B": "1725-09-09 (1 Muharrem 1138 — kaynaklarla çelişmeyen en erken gün; madde M13 gerekir)",
+   "oneri": "yazar A; ben A'nın 'kaynaktan erken boyar' kusurunu kayda geçiriyorum, seçim koordinatörün"
+  }
+ },
+ "kaynak_sinavi": {
+  "arac": "denetim/ARAC-KOSU13-KAYNAK-0917.py → denetim/OLCUM-KOSU13-KAYNAK-0917.json",
+  "tdv_http": "24 slug ölçüldü: 24 × 200 (karlofca · bosna-hersek · pasarofca-antlasmasi · mahmud-i--osmanli · derbend--dagistan · dagistan · baku · kumuklar · talis-hanligi · revan · nadir-sah--iran · nahcivan · tebriz · urmiye · hekimoglu-ali-pasa · erdebil · van · maku · iran · hemedan · gilan · sirvan · ahmed-iii · hoy) · belgrad-antlasmalari 302 ÖLÜ (bilinen)",
+  "tdv_govde": "19 kilit alıntı 14 madde gövdesinde arandı: 19/19 BULUNDU, bağlam okundu (§4②/⑧). M15'in günü İKİ TDV maddesinde: hekimoglu-ali-pasa VE tebriz ('15 Cemâziyelevvel 1144 (15 Kasım 1731) yeniden ele…')",
+  "iranica": "7 adres (ardabil · khalkhal · baku-i · boundaries-ii · russia-i-relations · mogan · ahar) → 403 — bot engeli: ÖLÇÜLEMEDİ (yok DEĞİL); alıntılar yazar oturumların beyanıdır",
+  "dogrulanmamis": "Kurukin 2010 ÇEVRİMİÇİ AYNA — basılı nüshayla karşılaştırılmadı. Yalnız ona dayanan: K1-B (Derbend 05-08 · Bakü 05-01) · R7 Salyan 1724 garnizonu + 1724-09-11 · R5/R6/R10/R17/R18 bitişinin Levaşov günü (Iranica '1732' yılı ayrıca destekliyor)",
+  "bre": "BRE (Большая российская энциклопедия) — bu oturumda ÖLÇÜLMEDİ; yazar oturum çift tarihleri alıntılamış"
+ },
+ "kopya_riski_olculdu": "arac/_sahiplik_uygula.py:916-925 kapsam koruması d+s+v BİRLEŞİK kapsama bakar: bayat s: kopyası (hep bitişik) ve s:'nin zaten kapsadığı yerde eksik d: penceresi kapsamı DARALTMAZ ⇒ koruma ötmez, kopya düzeltmenin ÜSTÜNE YAZAR. 20 kopya 'GÜNCELLENMELİ' işaretli.",
+ "kalemler": {
+  "uygulanabilir": [
+   {
+    "kod": "B1",
+    "ad": "Bosna Brod'u (Bosanski Brod)",
+    "kaynak_yama": "0057-SAVA #1",
+    "kova": "UYGULA",
+    "kaynak": "Karlofça metni ('Bred on the part of Bosnia … shall be drawn out') · TDV karlofca · TDV bosna-hersek (1718 şerit · 1739 iade · 7 Ekim 1908) · TDV pasarofca-antlasmasi (21 Temmuz 1718) · TDV mahmud-i--osmanli (28 Eylül 1739)",
+    "not": "1739-09-28 TDV; çekirdek Belgrad maddesi 1739-09-18 (10 gün, ölü slug belgrad-antlasmalari) — K8'e bak",
+    "dosya": "data/yerlesimler_ek29.js",
+    "yer_yama_kopyasi": [],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1699-01-26",
+          "t": "1918-11-11",
+          "d": "avusturya"
+         },
+         {
+          "f": "1918-11-11",
+          "t": "1923-10-29",
+          "d": "yugoslavya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1718-07-21",
+          "t": "1739-09-28",
+          "d": "avusturya"
+         },
+         {
+          "f": "1908-10-07",
+          "t": "1918-11-11",
+          "d": "avusturya"
+         },
+         {
+          "f": "1918-11-11",
+          "t": "1923-10-29",
+          "d": "yugoslavya"
+         }
+        ]
+       },
+       "d": {
+        "eski": [
+         {
+          "f": "1538-01-01",
+          "t": "1699-01-26"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1538-01-01",
+          "t": "1718-07-21"
+         },
+         {
+          "f": "1739-09-28",
+          "t": "1908-10-07"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1718-07-21",
+       "1739-09-28",
+       "1908-10-07"
+      ],
+      "kalkan_gun": [
+       "1699-01-26"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "B2",
+    "ad": "Bosna Dubiçası (Bosanska Dubica)",
+    "kaynak_yama": "0057-SAVA #2",
+    "kova": "UYGULA",
+    "kaynak": "Karlofça metni · TDV karlofca · TDV bosna-hersek (7 Ekim 1908)",
+    "not": "1718-1739 Pasarofça şeridine girip girmediği BULUNAMADI (K7) — girerse Brod gibi pencere EKLENİR (ekleyici değişiklik, bu kalemi bozmaz)",
+    "dosya": "data/yerlesimler_ek29.js",
+    "yer_yama_kopyasi": [],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1699-01-26",
+          "t": "1918-11-11",
+          "d": "avusturya"
+         },
+         {
+          "f": "1918-11-11",
+          "t": "1923-10-29",
+          "d": "yugoslavya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1908-10-07",
+          "t": "1918-11-11",
+          "d": "avusturya"
+         },
+         {
+          "f": "1918-11-11",
+          "t": "1923-10-29",
+          "d": "yugoslavya"
+         }
+        ]
+       },
+       "d": {
+        "eski": [
+         {
+          "f": "1538-01-01",
+          "t": "1699-01-26"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1538-01-01",
+          "t": "1908-10-07"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1908-10-07"
+      ],
+      "kalkan_gun": [
+       "1699-01-26"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "B3",
+    "ad": "Bosna Novi'si (Bosanski Novi)",
+    "kaynak_yama": "0057-SAVA #3",
+    "kova": "UYGULA",
+    "kaynak": "Karlofça metni · TDV karlofca · TDV bosna-hersek (Novi kadısı Ömer Efendi · 1872 demiryolu · 7 Ekim 1908)",
+    "dosya": "data/yerlesimler_ek29.js",
+    "yer_yama_kopyasi": [],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1699-01-26",
+          "t": "1918-11-11",
+          "d": "avusturya"
+         },
+         {
+          "f": "1918-11-11",
+          "t": "1923-10-29",
+          "d": "yugoslavya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1908-10-07",
+          "t": "1918-11-11",
+          "d": "avusturya"
+         },
+         {
+          "f": "1918-11-11",
+          "t": "1923-10-29",
+          "d": "yugoslavya"
+         }
+        ]
+       },
+       "d": {
+        "eski": [
+         {
+          "f": "1556-01-01",
+          "t": "1699-01-26"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1556-01-01",
+          "t": "1908-10-07"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1908-10-07"
+      ],
+      "kalkan_gun": [
+       "1699-01-26"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "B4",
+    "ad": "Kostayniçe (Kostajnica)",
+    "kaynak_yama": "0057-SAVA #4",
+    "kova": "UYGULA",
+    "kaynak": "GeoNames 3197594 (Hrvatska Kostajnica) · Karlofça metni ('farthermost Bank of the said River Unna')",
+    "not": "dönem DOĞRU, yalnız nokta Una'nın Hırvat yakasına taşınır (~12,5 km)",
+    "dosya": "data/yerlesimler_ek29.js",
+    "yer_yama_kopyasi": [],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "lat": {
+        "eski": 45.183,
+        "yeni": 45.232
+       },
+       "lon": {
+        "eski": 16.683,
+        "yeni": 16.539
+       }
+      },
+      "dogan_gun": [],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R5",
+    "ad": "Lenkeran",
+    "kaynak_yama": "0063-HAZAR T1",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii ('abandoned Gīlān and Ṭāleš') · TDV talis-hanligi · Özdamirova 2024 (arşiv) · bitiş Kurukin 2010 (AYNA) + Iranica 1732",
+    "not": "başlangıç yalnız YIL (1723) — Reşt/Enzeli ile aynı tarih kararı",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1340-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1340-01-01",
+          "t": "1386-01-01",
+          "d": "celayirli"
+         },
+         {
+          "f": "1386-01-01",
+          "t": "1406-10-21",
+          "d": "timurlu"
+         },
+         {
+          "f": "1406-10-21",
+          "t": "1468-04-01",
+          "d": "karakoyunlu"
+         },
+         {
+          "f": "1468-04-01",
+          "t": "1501-07-01",
+          "d": "akkoyunlu"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1828-02-22",
+          "d": "kacar"
+         },
+         {
+          "f": "1828-02-22",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1340-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1340-01-01",
+          "t": "1386-01-01",
+          "d": "celayirli"
+         },
+         {
+          "f": "1386-01-01",
+          "t": "1406-10-21",
+          "d": "timurlu"
+         },
+         {
+          "f": "1406-10-21",
+          "t": "1468-04-01",
+          "d": "karakoyunlu"
+         },
+         {
+          "f": "1468-04-01",
+          "t": "1501-07-01",
+          "d": "akkoyunlu"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1723-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-01-01",
+          "t": "1732-09-02",
+          "d": "rusya"
+         },
+         {
+          "f": "1732-09-02",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1828-02-22",
+          "d": "kacar"
+         },
+         {
+          "f": "1828-02-22",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-01-01",
+       "1732-09-02"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R6",
+    "ad": "Astara",
+    "kaynak_yama": "0063-HAZAR T1",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii ('abandoned Gīlān and Ṭāleš') · TDV talis-hanligi · Özdamirova 2024 (arşiv) · bitiş Kurukin 2010 (AYNA) + Iranica 1732",
+    "not": "başlangıç yalnız YIL (1723) — Reşt/Enzeli ile aynı tarih kararı",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1340-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1340-01-01",
+          "t": "1386-01-01",
+          "d": "celayirli"
+         },
+         {
+          "f": "1386-01-01",
+          "t": "1406-10-21",
+          "d": "timurlu"
+         },
+         {
+          "f": "1406-10-21",
+          "t": "1468-04-01",
+          "d": "karakoyunlu"
+         },
+         {
+          "f": "1468-04-01",
+          "t": "1501-07-01",
+          "d": "akkoyunlu"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1828-02-22",
+          "d": "kacar"
+         },
+         {
+          "f": "1828-02-22",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1340-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1340-01-01",
+          "t": "1386-01-01",
+          "d": "celayirli"
+         },
+         {
+          "f": "1386-01-01",
+          "t": "1406-10-21",
+          "d": "timurlu"
+         },
+         {
+          "f": "1406-10-21",
+          "t": "1468-04-01",
+          "d": "karakoyunlu"
+         },
+         {
+          "f": "1468-04-01",
+          "t": "1501-07-01",
+          "d": "akkoyunlu"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1723-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-01-01",
+          "t": "1732-09-02",
+          "d": "rusya"
+         },
+         {
+          "f": "1732-09-02",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1828-02-22",
+          "d": "kacar"
+         },
+         {
+          "f": "1828-02-22",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-01-01",
+       "1732-09-02"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R10",
+    "ad": "Reşt",
+    "kaynak_yama": "0060-KRONO H1",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii · BRE Персидский поход · Garunova 2016 (Reşt'te redut ve Yeni kale) · bitiş Iranica 1732 + Kurukin 2010 (AYNA)",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1371-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1371-01-01",
+          "t": "1501-07-01",
+          "d": "gilan-kiya"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1371-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1371-01-01",
+          "t": "1501-07-01",
+          "d": "gilan-kiya"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1723-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-01-01",
+          "t": "1732-09-02",
+          "d": "rusya"
+         },
+         {
+          "f": "1732-09-02",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-01-01",
+       "1732-09-02"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R11",
+    "ad": "Sârî",
+    "kaynak_yama": "0060-KRONO H2",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii ('never effectively occupied by the Russians') · Iranica RUSSIA i ('no attempts were made to send garrisons')",
+    "not": "D030: atlas antlaşmayı değil TASARRUFU boyar — Rus boyası kalkar",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1359-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1359-01-01",
+          "t": "1596-01-01",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1596-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1734-01-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1734-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1359-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1359-01-01",
+          "t": "1596-01-01",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1596-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1734-01-01"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R12",
+    "ad": "Âmül",
+    "kaynak_yama": "0060-KRONO H2",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii ('never effectively occupied by the Russians') · Iranica RUSSIA i ('no attempts were made to send garrisons')",
+    "not": "D030: atlas antlaşmayı değil TASARRUFU boyar — Rus boyası kalkar",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1359-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1359-01-01",
+          "t": "1596-01-01",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1596-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1734-01-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1734-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1359-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1359-01-01",
+          "t": "1596-01-01",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1596-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1734-01-01"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R13",
+    "ad": "Bârfurûş (Bâbil)",
+    "kaynak_yama": "0060-KRONO H2",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii ('never effectively occupied by the Russians') · Iranica RUSSIA i ('no attempts were made to send garrisons')",
+    "not": "D030: atlas antlaşmayı değil TASARRUFU boyar — Rus boyası kalkar",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1359-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1359-01-01",
+          "t": "1596-01-01",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1596-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1734-01-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1734-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1359-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1359-01-01",
+          "t": "1596-01-01",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1596-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1734-01-01"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R14",
+    "ad": "Ferahâbâd",
+    "kaynak_yama": "0060-KRONO H2",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii ('never effectively occupied by the Russians') · Iranica RUSSIA i ('no attempts were made to send garrisons')",
+    "not": "D030: atlas antlaşmayı değil TASARRUFU boyar — Rus boyası kalkar",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1611-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1734-01-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1734-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1611-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1734-01-01"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R15",
+    "ad": "Eşref (Behşehr)",
+    "kaynak_yama": "0060-KRONO H2",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii ('never effectively occupied by the Russians') · Iranica RUSSIA i ('no attempts were made to send garrisons')",
+    "not": "D030: atlas antlaşmayı değil TASARRUFU boyar — Rus boyası kalkar",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1359-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1359-01-01",
+          "t": "1596-01-01",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1596-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1734-01-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1734-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1359-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1359-01-01",
+          "t": "1596-01-01",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1596-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1734-01-01"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R16",
+    "ad": "Esterâbâd (Gürgân)",
+    "kaynak_yama": "0060-KRONO H2",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii ('never effectively occupied by the Russians') · Iranica RUSSIA i ('no attempts were made to send garrisons')",
+    "not": "D030: atlas antlaşmayı değil TASARRUFU boyar — Rus boyası kalkar",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1337-09-09",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1337-09-09",
+          "t": "1386-01-01",
+          "d": "serbedariler"
+         },
+         {
+          "f": "1386-01-01",
+          "t": "1507-05-01",
+          "d": "timurlu"
+         },
+         {
+          "f": "1507-05-01",
+          "t": "1510-12-02",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1510-12-02",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1734-01-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1734-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1337-09-09",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1337-09-09",
+          "t": "1386-01-01",
+          "d": "serbedariler"
+         },
+         {
+          "f": "1386-01-01",
+          "t": "1507-05-01",
+          "d": "timurlu"
+         },
+         {
+          "f": "1507-05-01",
+          "t": "1510-12-02",
+          "d": "mazenderan-marasi"
+         },
+         {
+          "f": "1510-12-02",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1734-01-01"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R17",
+    "ad": "Lâhîcan",
+    "kaynak_yama": "0060-KRONO H3",
+    "kova": "UYGULA",
+    "kaynak": "Iranica BOUNDARIES ii (1725 işgal) · bitiş Iranica 1732 + Kurukin 2010 (AYNA)",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1371-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1371-01-01",
+          "t": "1592-01-01",
+          "d": "gilan-kiya"
+         },
+         {
+          "f": "1592-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1734-01-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1734-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1371-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1371-01-01",
+          "t": "1592-01-01",
+          "d": "gilan-kiya"
+         },
+         {
+          "f": "1592-01-01",
+          "t": "1725-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1725-01-01",
+          "t": "1732-09-02",
+          "d": "rusya"
+         },
+         {
+          "f": "1732-09-02",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-01-01",
+       "1732-09-02"
+      ],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1734-01-01"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R18",
+    "ad": "Bender Enzeli",
+    "kaynak_yama": "0060-KRONO H4",
+    "kova": "UYGULA",
+    "kaynak": "BRE Персидский поход · Iranica BOUNDARIES ii",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1371-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1371-01-01",
+          "t": "1592-01-01",
+          "d": "gilan-kiya"
+         },
+         {
+          "f": "1592-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1734-01-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1734-01-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1371-01-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1371-01-01",
+          "t": "1592-01-01",
+          "d": "gilan-kiya"
+         },
+         {
+          "f": "1592-01-01",
+          "t": "1723-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-01-01",
+          "t": "1732-09-02",
+          "d": "rusya"
+         },
+         {
+          "f": "1732-09-02",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1923-10-29",
+          "d": "kacar"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-01-01",
+       "1732-09-02"
+      ],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1734-01-01"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O1",
+    "ad": "Revan",
+    "kaynak_yama": "0060-IRAN1723 #1-2",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 (Ermeni Araştırmaları 53, s.107; BOA MD 132) 'Köprülü-zâde Abdullah Paşa'nın 3 Ekim 1724'de' · TDV nadir-sah--iran '15 Cemâziyelevvel'de (3 Ekim) Revan'ı' · TDV revan",
+    "anahtar": "K-REVAN",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1583-06-01",
+          "t": "1604-06-08"
+         },
+         {
+          "f": "1635-08-08",
+          "t": "1636-04-01"
+         },
+         {
+          "f": "1724-09-28",
+          "t": "1735-06-19"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1583-06-01",
+          "t": "1604-06-08"
+         },
+         {
+          "f": "1635-08-08",
+          "t": "1636-04-01"
+         },
+         {
+          "f": "1724-10-03",
+          "t": "1735-10-03"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-10-03",
+       "1735-10-03"
+      ],
+      "kalkan_gun": [
+       "1724-09-28",
+       "1735-06-19"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O2",
+    "ad": "Eçmiyadzin",
+    "kaynak_yama": "0060-IRAN1723 #3 = 0063-IRAN #15 (devir, AYNI hüküm)",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.107 (TD 901, 1727 Revan eyaleti tahriri nahiye listesi)",
+    "gun_komsudan": "Revan · Bilgili 2016 / TDV nadir-sah--iran — şart ①②③④ ✓ (O1 ile AYNI ADIMDA)",
+    "bagli": "K-REVAN",
+    "dosya": "data/yerlesimler_ek26.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1724-10-03",
+          "t": "1735-10-03"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-10-03",
+       "1735-10-03"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O3",
+    "ad": "Şerur (Sharur)",
+    "kaynak_yama": "0060-IRAN1723 #4 = 0063-IRAN #14 (devir, AYNI hüküm)",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.107 (TD 901, 1727 Revan eyaleti tahriri nahiye listesi)",
+    "gun_komsudan": "Revan · Bilgili 2016 / TDV nadir-sah--iran — şart ①②③④ ✓ (O1 ile AYNI ADIMDA)",
+    "bagli": "K-REVAN",
+    "dosya": "data/yerlesimler_kalite4.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1724-10-03",
+          "t": "1735-10-03"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-10-03",
+       "1735-10-03"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O4",
+    "ad": "Mâku",
+    "kaynak_yama": "0060-IRAN1723 #5 = 0063-IRAN #13 (devir, AYNI hüküm)",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.107 (TD 901, 1727 Revan eyaleti tahriri nahiye listesi)",
+    "gun_komsudan": "Revan · Bilgili 2016 / TDV nadir-sah--iran — şart ①②③④ ✓ (O1 ile AYNI ADIMDA)",
+    "bagli": "K-REVAN",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1724-10-03",
+          "t": "1735-10-03"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-10-03",
+       "1735-10-03"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O11",
+    "ad": "Merend",
+    "kaynak_yama": "0060-IRAN1723 #10 = 0063-IRAN #11",
+    "kova": "UYGULA",
+    "kaynak": "TDV tebriz ('1728'de eyalete … Merend … bağlıydı' · 28 Temmuz 1725)",
+    "gun_komsudan": "Tebriz · TDV tebriz — ① f ✓ (A6C sonrası 07-28) t kaynaksız (TDV '1730') · ② ✓ · ③ aynı eyalet 65 km ✓",
+    "bagli": "K-TEBRIZ",
+    "not": "ikinci pencere 0060 #10'un kendi şartı ('A6C eklerse Merend de almalı')",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         },
+         {
+          "f": "1731-11-15",
+          "t": "1732-01-08"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28",
+       "1730-08-12",
+       "1731-11-15",
+       "1732-01-08"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O12",
+    "ad": "Urmiye",
+    "kaynak_yama": "0060-IRAN1723 #11 = 0063-IRAN #17 · EMRE 17 Eyl şık A",
+    "kova": "UYGULA",
+    "kaynak": "TDV urmiye ('1724 yılında bir defa daha Osmanlı hâkimiyetine girdi') · Bilgili 2016 s.120 (TD 910) — ayrışma: 'Aralık 1725'",
+    "not": "1731 ikinci pencere BULUNAMADI (Hekimoğlu Urmiye'yi aldı ama bitiş yok) — yazılmadı",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_ferhatpasa.js (YER_YAMA_FERHATPASA: d) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)",
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21",
+          "y": "savas"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21",
+          "y": "savas"
+         },
+         {
+          "f": "1724-01-01",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-01-01",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O13",
+    "ad": "Selmâs (Dilman)",
+    "kaynak_yama": "0060-IRAN1723 #12 = 0063-IRAN #16",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.120 (TD 910 Selmâs livası)",
+    "gun_komsudan": "Urmiye · TDV urmiye (Emre kararı A)",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1724-01-01",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-01-01",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O14",
+    "ad": "Merâga",
+    "kaynak_yama": "0060-IRAN1723 #13 (EMRE: Tebriz ile aynı gün) + A6C sonucu",
+    "kova": "UYGULA",
+    "kaynak": "Emre kararı 17 Eyl · TDV tebriz (28 Temmuz 1725) · ayrışma: Bilgili 2016 s.119 'Mart 1724'",
+    "anahtar": "K-MERAGA",
+    "not": "A6C Tebriz'i 07-28'e çekince Merâga İZLER; izlemezse 7 günlük safevi cebi",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-08-04",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28"
+      ],
+      "kalkan_gun": [
+       "1725-08-04"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O15",
+    "ad": "Mîyandoab",
+    "kaynak_yama": "0060-IRAN1723 #14",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.119 (TD 909 Meraga livası: Miyan-duvâb nahiyesi)",
+    "gun_komsudan": "Merâga (O14) · aynı liva tahriri",
+    "bagli": "K-MERAGA",
+    "not": "`neden:` alanı 'kaynaksız olacağı için YAZILMADI' diyor — güncellenmeli",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_iran.js (YER_YAMA_IRAN: d) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)",
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O16",
+    "ad": "Mahabad (Sâvücbulak)",
+    "kaynak_yama": "0060-IRAN1723 #15 · EMRE: Kürt beylikleri d:",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.119 (TD 909) · TDV tebriz (1728 Sovukbulak) · Özcoşar-Açar 2024 (1727 'Mukri'; 1730 Nâdir 'Mahabad, Merağa ve Mukri')",
+    "gun_komsudan": "Merâga (O14) · aynı liva tahriri",
+    "bagli": "K-MERAGA",
+    "not": "v: DEĞİL d: (Emre 17 Eyl); 1585-1603 v: yazımı DEĞİŞMEZ",
+    "dosya": "data/yerlesimler_kalite4.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O17",
+    "ad": "Senendec (Sine)",
+    "kaynak_yama": "0060-IRAN1723 #16 · EMRE: d:",
+    "kova": "UYGULA",
+    "kaynak": "Özcoşar-Açar 2024 s.221 '11 Safer 1136 (10 Kasım 1723)' · TDV mahmud-i--osmanli + TDV hemedan (antlaşma; A6C günü 1732-01-08) · Bilgili 2016 dn.88 (TD 1066)",
+    "anahtar": "K-ERDELAN",
+    "not": "1730-1731 Safevî ara dilimi GÜNSÜZ — yazılmadı",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1723-11-10",
+          "t": "1732-01-08"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-11-10",
+       "1732-01-08"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O18",
+    "ad": "Merîvan",
+    "kaynak_yama": "0060-IRAN1723 #17 · EMRE: d:",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.124 dn.88 (BOA TD 1066, 1727 Erdelân Eyâleti mufassal)",
+    "gun_komsudan": "Senendec · Özcoşar-Açar 2024 / A6C antlaşma günü — aynı eyalet tahriri, ~88 km",
+    "bagli": "K-ERDELAN",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1723-11-10",
+          "t": "1732-01-08"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-11-10",
+       "1732-01-08"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O19",
+    "ad": "Bâne",
+    "kaynak_yama": "0060-IRAN1723 #18 · EMRE: d:",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.124 dn.88 (BOA TD 1066, 1727 Erdelân Eyâleti mufassal)",
+    "gun_komsudan": "Senendec · Özcoşar-Açar 2024 / A6C antlaşma günü — aynı eyalet tahriri, ~120 km",
+    "bagli": "K-ERDELAN",
+    "dosya": "data/yerlesimler_kalite4.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1723-11-10",
+          "t": "1732-01-08"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-11-10",
+       "1732-01-08"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O20",
+    "ad": "Sakkız",
+    "kaynak_yama": "0060-IRAN1723 #19 · EMRE: d:",
+    "kova": "UYGULA",
+    "kaynak": "Bilgili 2016 s.124 dn.88 (BOA TD 1066, 1727 Erdelân Eyâleti mufassal)",
+    "gun_komsudan": "Senendec · Özcoşar-Açar 2024 / A6C antlaşma günü — aynı eyalet tahriri, ~110 km",
+    "bagli": "K-ERDELAN",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "TEK": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1723-11-10",
+          "t": "1732-01-08"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-11-10",
+       "1732-01-08"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   }
+  ],
+  "karar": [
+   {
+    "kod": "R1",
+    "ad": "Derbend",
+    "kaynak_yama": "0059-HAZAR #1 + 0063-HAZAR inceltme 1",
+    "kova": "KARAR",
+    "karar": "K1",
+    "kaynak": "BRE 'Персидский поход 1722–23' (23 авг. (3 сент.)) · BRE 'Гянджинский трактат 1735' 10(21) Mart · TDV derbend--dagistan · B: Kurukin 2010 (ÇEVRİMİÇİ AYNA, basılı nüshayla karşılaştırılmadı)",
+    "not": "Başlangıç 1722-09-03 (J→G) iki varyantta da aynı",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_kafkas_rusya.js (YER_YAMA_KAFKAS_RUSYA: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)",
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1509-01-01",
+          "d": "iran"
+         },
+         {
+          "f": "1509-01-01",
+          "t": "1722-08-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1722-08-23",
+          "t": "1735-03-10",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-10",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1923-10-29",
+          "d": "rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1509-01-01",
+          "d": "iran"
+         },
+         {
+          "f": "1509-01-01",
+          "t": "1722-09-03",
+          "d": "safevi"
+         },
+         {
+          "f": "1722-09-03",
+          "t": "1735-03-21",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-21",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1923-10-29",
+          "d": "rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1722-09-03",
+       "1735-03-21"
+      ],
+      "kalkan_gun": [
+       "1722-08-23",
+       "1735-03-10"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1509-01-01",
+          "d": "iran"
+         },
+         {
+          "f": "1509-01-01",
+          "t": "1722-08-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1722-08-23",
+          "t": "1735-03-10",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-10",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1923-10-29",
+          "d": "rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1509-01-01",
+          "d": "iran"
+         },
+         {
+          "f": "1509-01-01",
+          "t": "1722-09-03",
+          "d": "safevi"
+         },
+         {
+          "f": "1722-09-03",
+          "t": "1735-05-08",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-05-08",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1923-10-29",
+          "d": "rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1722-09-03",
+       "1735-05-08"
+      ],
+      "kalkan_gun": [
+       "1722-08-23",
+       "1735-03-10"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R2",
+    "ad": "Bakü",
+    "kaynak_yama": "0059-HAZAR #2 + 0063-HAZAR inceltme 2",
+    "kova": "KARAR",
+    "karar": "K1",
+    "kaynak": "BRE 'Персидский поход' (26 июля (6 авг.)) · Iranica BAKU i · B: Kurukin 2010 (AYNA, doğrulanmadı) · ⚠️ TDV baku '1734' çelişki",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1501-07-01",
+          "d": "sirvansah"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1723-07-26",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-07-26",
+          "t": "1735-03-10",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-10",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1501-07-01",
+          "d": "sirvansah"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1723-08-06",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-08-06",
+          "t": "1735-03-21",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-21",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-08-06",
+       "1735-03-21"
+      ],
+      "kalkan_gun": [
+       "1723-07-26",
+       "1735-03-10"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1501-07-01",
+          "d": "sirvansah"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1723-07-26",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-07-26",
+          "t": "1735-03-10",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-10",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1501-07-01",
+          "d": "sirvansah"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1723-08-06",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-08-06",
+          "t": "1735-05-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-05-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1723-08-06",
+       "1735-05-01"
+      ],
+      "kalkan_gun": [
+       "1723-07-26",
+       "1735-03-10"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R3",
+    "ad": "Tarki (Tarku)",
+    "kaynak_yama": "0059-HAZAR #3",
+    "kova": "KARAR",
+    "karar": "K6",
+    "kaynak": "Bukanova & Abdusalamov (CyberLeninka; Butkov'dan) · Abdusalamov, Vestnik AGU 2011 · TDV kumuklar ('1725')",
+    "not": "A ÖN KOŞULLU: devletler.js `kumuk-samhalligi` t 1607-01-01 → ≥1726-01-01 VE renkler.py BOYALAR'a renk (bugün YOK → HARİTA DELİĞİ). B tâbiiyeti doğrudan idare gibi gösterir (D089) — kayda not şart",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_vassal_kid_0906.js (YER_YAMA_VASSAL_KID_0906: v) — etkilenmez (değişmeyen alan)",
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1501-07-01",
+          "d": "iran"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1501-07-01",
+          "d": "iran"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1722-08-24",
+          "d": "safevi"
+         },
+         {
+          "f": "1722-08-24",
+          "t": "1726-01-01",
+          "d": "kumuk-samhalligi"
+         },
+         {
+          "f": "1726-01-01",
+          "t": "1735-03-21",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-21",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1722-08-24",
+       "1726-01-01",
+       "1735-03-21"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "🔴 künye penceresi aşılıyor: kumuk-samhalligi 1722-08-24→1726-01-01 (künye kumuk-samhalligi 1578-11-01→1607-01-01)",
+       "🔴 RENK YOK: kumuk-samhalligi (HARİTA DELİĞİ)"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1501-07-01",
+          "d": "iran"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1501-07-01",
+          "d": "iran"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1722-08-24",
+          "d": "safevi"
+         },
+         {
+          "f": "1722-08-24",
+          "t": "1735-03-21",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-21",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1722-08-24",
+       "1735-03-21"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R4",
+    "ad": "Ağraham burnu",
+    "kaynak_yama": "0059-HAZAR #4 + 0063-HAZAR inceltme 4",
+    "kova": "KARAR",
+    "karar": "K2",
+    "kaynak": "BRE (28 июля высадка) · Abdusalamov 2011 · Salamova 2007 (Sulak) · B: Garunova, Vestnik DGU 2016 + Asvarov–Magaramov 2022 (Kutsal Haç 12 Ağu 1735 J yıkımı, fiilî hat Terek)",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1501-07-01",
+          "d": "iran"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1501-07-01",
+          "d": "iran"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1722-08-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1722-08-08",
+          "t": "1735-03-21",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-03-21",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1722-08-08",
+       "1735-03-21"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1501-07-01",
+          "d": "iran"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1501-07-01",
+          "d": "iran"
+         },
+         {
+          "f": "1501-07-01",
+          "t": "1722-08-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1722-08-08",
+          "t": "1735-08-23",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-08-23",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1722-08-08",
+       "1735-08-23"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "R7",
+    "ad": "Salyan",
+    "kaynak_yama": "0063-HAZAR S1",
+    "kova": "KARAR",
+    "karar": "K3",
+    "kaynak": "Kurukin 2010 (AYNA, doğrulanmadı — 1724 garnizonu ve 11 Eyl 1724 baskını YALNIZ buna dayanıyor) · Özdamirova 2024 · Iranica MOḠĀN",
+    "not": "ÖLÇÜLDÜ (ARAC-KOSU13-KURA-YAKA): atlas noktası Kura'nın SOL/kuzey yakasında, 3,0 km — NE 10m genelleme payı içinde, KESİN DEĞİL",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1538-01-01",
+          "d": "sirvansah"
+         },
+         {
+          "f": "1538-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1732-01-21",
+          "d": "rusya"
+         },
+         {
+          "f": "1732-01-21",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1538-01-01",
+          "d": "sirvansah"
+         },
+         {
+          "f": "1538-01-01",
+          "t": "1724-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1724-01-01",
+          "t": "1724-09-11",
+          "d": "rusya"
+         },
+         {
+          "f": "1724-09-11",
+          "t": "1727-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1727-01-01",
+          "t": "1732-09-02",
+          "d": "rusya"
+         },
+         {
+          "f": "1732-09-02",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-01-01",
+       "1724-09-11",
+       "1727-01-01",
+       "1732-09-02"
+      ],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1732-01-21"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "s": {
+        "eski": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1538-01-01",
+          "d": "sirvansah"
+         },
+         {
+          "f": "1538-01-01",
+          "t": "1723-09-23",
+          "d": "safevi"
+         },
+         {
+          "f": "1723-09-23",
+          "t": "1732-01-21",
+          "d": "rusya"
+         },
+         {
+          "f": "1732-01-21",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1281-01-01",
+          "t": "1335-12-01",
+          "d": "ilhanli"
+         },
+         {
+          "f": "1335-12-01",
+          "t": "1538-01-01",
+          "d": "sirvansah"
+         },
+         {
+          "f": "1538-01-01",
+          "t": "1724-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1724-01-01",
+          "t": "1724-09-11",
+          "d": "rusya"
+         },
+         {
+          "f": "1724-09-11",
+          "t": "1727-01-01",
+          "d": "safevi"
+         },
+         {
+          "f": "1727-01-01",
+          "t": "1735-05-01",
+          "d": "rusya"
+         },
+         {
+          "f": "1735-05-01",
+          "t": "1736-03-08",
+          "d": "safevi"
+         },
+         {
+          "f": "1736-03-08",
+          "t": "1747-06-20",
+          "d": "afsar"
+         },
+         {
+          "f": "1747-06-20",
+          "t": "1794-01-01",
+          "d": "zend"
+         },
+         {
+          "f": "1794-01-01",
+          "t": "1813-10-24",
+          "d": "kacar"
+         },
+         {
+          "f": "1813-10-24",
+          "t": "1917-03-15",
+          "d": "rusya"
+         },
+         {
+          "f": "1917-03-15",
+          "t": "1917-11-07",
+          "d": "rusya-gecici-hukumet"
+         },
+         {
+          "f": "1917-11-07",
+          "t": "1923-10-29",
+          "d": "sovyet-rusya"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-01-01",
+       "1724-09-11",
+       "1727-01-01",
+       "1735-05-01"
+      ],
+      "kalkan_gun": [
+       "1723-09-23",
+       "1732-01-21"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O5",
+    "ad": "Gümrü (Aleksandropol)",
+    "kaynak_yama": "0063-IRAN #6 (0060 #6 'bulunamadı'yı yeniden ölçtü)",
+    "kova": "KARAR",
+    "karar": "K5",
+    "kaynak": "Alandağlı 2024 (Külliyat) · Bilgili 2016 (TD 901 Şüregel nahiyesi — Arpaçay doğusu ÇIKARIMDIR) · Yörük & Valiyev 2016 (SUTAD 40)",
+    "bagli": "K-REVAN",
+    "not": "ÖRTÜLÜ OSMANLI — Emre onayı. Adıyla anan kaynak YOK",
+    "dosya": "data/yerlesimler_ek26.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "EVET": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1724-10-03",
+          "t": "1735-10-03"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-10-03",
+       "1735-10-03"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O6",
+    "ad": "Kliçatak (Suser)",
+    "kaynak_yama": "0063-IRAN #7",
+    "kova": "KARAR",
+    "karar": "K9",
+    "not": "Kaydın kendi kaynak alanı 'Gümrü kaydından BİREBİR' — §4 ZİNCİRLEME/atlas-referans yasağı; köyün kendi tarihi ARANMADI. O5 inip bu inmezse Revan eyaleti içinde safevi cebi kalır",
+    "dosya": "data/yerlesimler_sinir_kuzey.js",
+    "yer_yama_kopyasi": [],
+    "sonuc": {
+     "EVET": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1724-10-03",
+          "t": "1735-10-03"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-10-03",
+       "1735-10-03"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O7",
+    "ad": "Norapat",
+    "kaynak_yama": "0063-IRAN #7",
+    "kova": "KARAR",
+    "karar": "K9",
+    "not": "'Eçmiyadzin kaydından BİREBİR' — O6 ile aynı yasak ve aynı risk",
+    "dosya": "data/yerlesimler_sinir_kuzey.js",
+    "yer_yama_kopyasi": [],
+    "sonuc": {
+     "EVET": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1724-10-03",
+          "t": "1735-10-03"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-10-03",
+       "1735-10-03"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O8",
+    "ad": "Nahçıvan",
+    "kaynak_yama": "0060-IRAN1723 #7 + 0063-IRAN #10 + A6C P-0076-a",
+    "kova": "KARAR",
+    "karar": "K4",
+    "kaynak": "A: TDV nahcivan ('1724-1735 yıllarında Osmanlı idaresinde') · B: Yörük & Valiyev 2016 s.20 (Aktepe 1970 s.53-58) '11 Ağustos 1724' · ayrışma: Bilgili 2016 'Nisan 1723'ten biraz önce' · t: A6C P-0076-a hükmü",
+    "anahtar": "K-NAHCIVAN",
+    "not": "t 1735-06-19 A6C P-0076-a ile AYNI değişiklik — iki pakette de varsa BİR KEZ uygula",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-01-01",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1724-01-01",
+          "t": "1735-06-19"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-01-01",
+       "1735-06-19"
+      ],
+      "kalkan_gun": [
+       "1725-01-01",
+       "1730-08-12"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-01-01",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1724-08-11",
+          "t": "1735-06-19"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-08-11",
+       "1735-06-19"
+      ],
+      "kalkan_gun": [
+       "1725-01-01",
+       "1730-08-12"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O9",
+    "ad": "Ordubad",
+    "kaynak_yama": "0060-IRAN1723 #8",
+    "kova": "KARAR",
+    "karar": "K4",
+    "kaynak": "Bilgili 2016 s.117 (TD 905 Nahçıvan livası nahiyesi) · Özcoşar-Açar 2024 · B'de Yörük & Valiyev 2016 Ordubad'ı ADIYLA 11 Ağustos 1724'e koyuyor (komşu günü değil, KENDİ günü)",
+    "bagli": "K-NAHCIVAN",
+    "not": "A6C C-0076-b kapanır",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-01-01",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1724-01-01",
+          "t": "1735-06-19"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-01-01",
+       "1735-06-19"
+      ],
+      "kalkan_gun": [
+       "1725-01-01",
+       "1730-08-12"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-01-01",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1724-08-11",
+          "t": "1735-06-19"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-08-11",
+       "1735-06-19"
+      ],
+      "kalkan_gun": [
+       "1725-01-01",
+       "1730-08-12"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O10",
+    "ad": "Culfa",
+    "kaynak_yama": "0060-IRAN1723 #9 = 0063-IRAN #12",
+    "kova": "KARAR",
+    "karar": "K4",
+    "kaynak": "Bilgili 2016 s.117-118 (TD 905: Culha 39 hane, Sisyan nahiyesi)",
+    "gun_komsudan": "Nahçıvan · TDV nahcivan (A) / Aktepe (B) — 34 km, aynı liva tahriri",
+    "bagli": "K-NAHCIVAN",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_ferhatpasa.js (YER_YAMA_FERHATPASA: d) — 🔴 GÜNCELLENMELİ (tam dizi yeni değerle)",
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21",
+          "y": "savas"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21",
+          "y": "savas"
+         },
+         {
+          "f": "1724-01-01",
+          "t": "1735-06-19"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-01-01",
+       "1735-06-19"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21",
+          "y": "savas"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-01-01",
+          "t": "1603-10-21",
+          "y": "savas"
+         },
+         {
+          "f": "1724-08-11",
+          "t": "1735-06-19"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1724-08-11",
+       "1735-06-19"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O23",
+    "ad": "Erdebil",
+    "kaynak_yama": "0063-IRAN #1",
+    "kova": "KARAR",
+    "karar": "K11",
+    "kaynak": "TDV erdebil ('1725 sonbaharında' · '1730'da Nâdir geri aldı') · Iranica ARDABĪL (1138/1725-1142/1730) · Bilgili 2016 s.110 (TD 902) 'Ağustos 1725'den az sonra'",
+    "anahtar": "K-ERDEBIL",
+    "not": "A: Tebriz günü (A6C sonrası 07-28) — kaynakların ÜÇÜ de alınışı Tebriz'den SONRAYA koyuyor ⇒ A birkaç hafta ERKEN boyar. B: 1 Muharrem 1138 — kaynaklarla çelişmeyen EN ERKEN gün, ama bir SINIR, olay günü değil; madde ister",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1725-09-09",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-09-09",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O24",
+    "ad": "Halhâl",
+    "kaynak_yama": "0063-IRAN #2",
+    "kova": "KARAR",
+    "karar": "K11",
+    "kaynak": "Bilgili 2016 s.120 (TD 910 Halhâl livası nahiyeleri) · Iranica KHALKHAL (aynı alt bölge adları) · Iranica ARDABĪL ('the whole of Azarbaijan … 1137/1725')",
+    "gun_komsudan": "Tebriz'e DOĞRUDAN (Erdebil üzerinden değil — zincir yasağı); A/B Erdebil ile aynı",
+    "not": "Bilgili 'Aralık 1725' cümlesi Urmiye teslimini anlatıyor — Halhâl'e taşınmadı",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1725-09-09",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-09-09",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O25",
+    "ad": "Meşkinşehr (Hiyav)",
+    "kaynak_yama": "0063-IRAN #3",
+    "kova": "KARAR",
+    "karar": "K5+K11",
+    "kaynak": "Iranica ARDABĪL ('the whole of Azarbaijan fell into Turkish hands (1137/1725)') · TD 902/910/911 listelerinde YOK",
+    "not": "ÖRTÜLÜ OSMANLI — Emre onayı; Ahar·Sarâb·Erdebil ile çevrili",
+    "dosya": "data/yerlesimler_kalite4.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "d": {
+        "eski": [],
+        "yeni": [
+         {
+          "f": "1725-09-09",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-09-09",
+       "1730-08-12"
+      ],
+      "kalkan_gun": [],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O26",
+    "ad": "Sarâb",
+    "kaynak_yama": "0063-IRAN #4 + A6C sonucu",
+    "kova": "KARAR",
+    "karar": "K11",
+    "kaynak": "Bilgili 2016 s.111 (TD 902: Erdebil kazası Serab / Germ-rûd kazası Miyane) · TDV tebriz 1728 listesinde YOK",
+    "bagli": "K-ERDEBIL",
+    "not": "bugünkü 1725-08-04 Tebriz'den DEVRALINMIŞ; doğru anahtar K-ERDEBIL. `m:\"Tebriz\"` 1725-30 için Erdebil olmalı — kd: borcu (yama yok)",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-08-04",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28"
+      ],
+      "kalkan_gun": [
+       "1725-08-04"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-08-04",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-09-09",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-09-09"
+      ],
+      "kalkan_gun": [
+       "1725-08-04"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   },
+   {
+    "kod": "O27",
+    "ad": "Miyâne",
+    "kaynak_yama": "0063-IRAN #4 + A6C sonucu",
+    "kova": "KARAR",
+    "karar": "K11",
+    "kaynak": "Bilgili 2016 s.111 (TD 902: Erdebil kazası Serab / Germ-rûd kazası Miyane) · TDV tebriz 1728 listesinde YOK",
+    "bagli": "K-ERDEBIL",
+    "not": "bugünkü 1725-08-04 Tebriz'den DEVRALINMIŞ; doğru anahtar K-ERDEBIL. `m:\"Tebriz\"` 1725-30 için Erdebil olmalı — kd: borcu (yama yok)",
+    "dosya": "data/yerlesimler.js",
+    "yer_yama_kopyasi": [
+     "data/yer_yama_zend_kacar.js (YER_YAMA_ZEND_KACAR: s) — etkilenmez (değişmeyen alan)"
+    ],
+    "sonuc": {
+     "A": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-08-04",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-07-28",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-07-28"
+      ],
+      "kalkan_gun": [
+       "1725-08-04"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     },
+     "B": {
+      "degisen": {
+       "d": {
+        "eski": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-08-04",
+          "t": "1730-08-12"
+         }
+        ],
+        "yeni": [
+         {
+          "f": "1585-09-25",
+          "t": "1603-10-21"
+         },
+         {
+          "f": "1725-09-09",
+          "t": "1730-08-12"
+         }
+        ]
+       }
+      },
+      "dogan_gun": [
+       "1725-09-09"
+      ],
+      "kalkan_gun": [
+       "1725-08-04"
+      ],
+      "bulgu": [
+       "✓ temiz"
+      ]
+     }
+    }
+   }
+  ],
+  "bloke": [
+   {
+    "kod": "R8",
+    "ad": "Kuba",
+    "kaynak_yama": "0063-HAZAR K1",
+    "kova": "BLOKE",
+    "not": "`kuba-hanligi` künyesi YOK (devletler.js `kuba` = Kongo Kuba Krallığı!) + renk YOK. Yazar: künye gelene kadar DOKUNMA; B (s:rusya) garnizonsuz bölgeyi Rus ordusu gibi boyar"
+   },
+   {
+    "kod": "R9",
+    "ad": "Şâbüran",
+    "kaynak_yama": "0063-HAZAR K1",
+    "kova": "BLOKE",
+    "not": "R8 ile aynı karar"
+   },
+   {
+    "kod": "O28",
+    "ad": "Ahar (Karadağ)",
+    "kaynak_yama": "0063-IRAN #5",
+    "kova": "BLOKE",
+    "karar": "K10",
+    "kaynak": "Bilgili 2016 s.121 (TD 911 Hoy, Karadağ ve Kapan livaları, Mayıs 1724) · Iranica AHAR",
+    "not": "K-HOY bekliyor (A6C C-0076-c + 0060 #23: Bilgili 'Mayıs 1724'). Hoy kararı inmeden uygulanmaz (D166). Geçici risk: Tebriz 07-28'e çekilince Ahar'ın 08-04'ü 7 günlük safevi cebi bırakır"
+   },
+   {
+    "kod": "O29",
+    "ad": "Kotur",
+    "kaynak_yama": "0063-IRAN #8 (0060 #22 'bulunamadı'yı yeniden ölçtü)",
+    "kova": "BLOKE",
+    "karar": "K5+K10",
+    "kaynak": "TDV van · Uluerler 2015 · TDV maku · Bilgili 2016 s.121",
+    "not": "ÖRTÜLÜ (Emre onayı) VE K-HOY bekliyor. 1639-1923 kaynak çelişkisi ayrıca (0063-IRAN #9, Uluerler 2015 ↔ TDV maku)"
+   }
+  ],
+  "bildirim": [
+   {
+    "kod": "B5",
+    "ad": "Jasenovaç (Jasenovac)",
+    "kaynak_yama": "0057-SAVA #5",
+    "kova": "BILDIRIM",
+    "not": "DOKUNULMADI — metin 'on the part of Bosnia' sayıyor ama nokta Una-Sava'nın Hırvat yakasında; Karlofça sınır komisyonu (1699-1703) akademik çalışması gerekiyor"
+   },
+   {
+    "kod": "R19",
+    "ad": "Mahmudâbâd",
+    "kaynak_yama": "0060-KRONO yazilmayanlar · 0063-HAZAR",
+    "kova": "BILDIRIM",
+    "not": "1723-09-23 → 1732-01-21 Rus dönemi KAYNAKSIZ (Petersburg + zayıf Reşt günü); dokunulmadı. Salyan'dan bu iki gün kalkınca bu kayıt onları TEK BAŞINA taşır"
+   },
+   {
+    "kod": "O21",
+    "ad": "Serdeşt (Sardasht)",
+    "kaynak_yama": "0060-IRAN1723 #20",
+    "kova": "BILDIRIM",
+    "not": "BULUNAMADI — TD 1066/909 listelerinde yok; O16+O19 inince Bâne–Mahabad arasında safevi cebi KALIR (kaynak kararı, §2 emilmesi değil)"
+   },
+   {
+    "kod": "O22",
+    "ad": "Bîcâr",
+    "kaynak_yama": "0060-IRAN1723 #21",
+    "kova": "BILDIRIM",
+    "not": "FERHATPASA-BIRLESIK kur:1801-01-01 bekliyor — o inince soru kalkar"
+   },
+   {
+    "kod": "O30",
+    "ad": "Hoy",
+    "kaynak_yama": "0060-IRAN1723 #23 · A6C C-0076-c",
+    "kova": "BILDIRIM",
+    "karar": "K10",
+    "not": "d f 1724-09-28 Revan maddesinden devralınmış (kaynaksız); Bilgili 'Mayıs 1724' · TDV hoy yıl '1724' · bitiş TDV hoy '1739' ↔ 1730. Ahar ve Kotur buna bağlı"
+   },
+   {
+    "kod": "O31",
+    "ad": "Kazvin · Zencan · Sultâniye",
+    "kaynak_yama": "0063-IRAN #18",
+    "kova": "BILDIRIM",
+    "not": "TDV iran 1727 antlaşması bu eyaletleri Osmanlı'ya bırakıyor, atlas safevi; fiilî alınış ARANMADI. TDV'nin kendi 1727 günü tutarsız (hemedan 22 Eyl 1728 ↔ ahmed-iii 4 Eki 1727)"
+   }
+  ]
+ },
+ "madde": [
+  {
+   "kod": "M1",
+   "t": "1722-09-03",
+   "tur": "düzeltme",
+   "yer": "olaylar_ek7.js:208 'Rus kuvvetlerinin Derbend'i alması'",
+   "kaynak_yama": "0059-HAZAR #5",
+   "degisiklik": "t 1722-08-23→1722-09-03 · gun '3 Eylül 1722 (Rus takvimiyle 23 Ağustos)' · d'ye deniz+kara yürüyüşü cümlesi · kaynak 'dagistan · derbend--dagistan · BRE Персидский поход 1722–23'",
+   "bag": "yer_yama.js:132 t 1722-08-23→1722-09-03 (anahtar dosya+t+b) · ekokuma_rusiran iki anahtarı da TAŞIYOR ✓"
+  },
+  {
+   "kod": "M2",
+   "t": "1735-03-21",
+   "tur": "düzeltme",
+   "yer": "olaylar_ek7.js:209 'Gence Antlaşması'",
+   "kaynak_yama": "0059-HAZAR #6",
+   "degisiklik": "t 1735-03-10→1735-03-21 · gun '21 Mart 1735 (Rus takvimiyle 10 Mart)' · kaynak '+ BRE Гянджинский трактат 1735'",
+   "bag": "yer_yama.js:133 t güncellenir · ekokuma_rusiran iki anahtar ✓"
+  },
+  {
+   "kod": "M3",
+   "t": "1723-08-06",
+   "tur": "yeni",
+   "yer": "çekirdek olaylar (UYGULA seçer)",
+   "kaynak_yama": "0059-HAZAR #7",
+   "degisiklik": "'Rus kuvvetlerinin Bakü'yü alması' — metin 0059-HAZAR #7'de HAZIR"
+  },
+  {
+   "kod": "M4",
+   "t": "1726-01-01",
+   "tur": "yeni",
+   "yer": "çekirdek olaylar",
+   "kaynak_yama": "0059-HAZAR #8",
+   "degisiklik": "'Tarku şamhallığının Ruslarca kaldırılması' — YALNIZ K6=A seçilirse kırılması olur; B'de kırılmasız madde (2t) olur"
+  },
+  {
+   "kod": "M5",
+   "t": "1722-07-29",
+   "tur": "düzeltme (kuyruk)",
+   "yer": "kronoloji_rusya.js 'İran (Hazar) seferi başladı'",
+   "kaynak_yama": "0059-HAZAR #9",
+   "degisiklik": "t 1722-07-18→1722-07-29 (J→G)"
+  },
+  {
+   "kod": "M6",
+   "t": "1724-10-03",
+   "tur": "düzeltme",
+   "yer": "olaylar_ek5.js:521 'Revan'ın yeniden fethi'",
+   "kaynak_yama": "0060-IRAN1723 #1",
+   "degisiklik": "t 1724-09-28→1724-10-03 · gun '3 Ekim 1724' · kisiler 'Köprülüzâde Abdullah Paşa' · metne gün kaynağı (Bilgili 2016, BOA MD 132) + 'Karpi (Üçkilise), Şerür, Makû ve Şüregel nahiyeleri de Revan eyaletine bağlandı' (D147)",
+   "bag": "yer_yama.js:187 t güncellenir · 1724-09-28 kırılması (Hoy, Ahar-sonrası) 5 gün içinde maddeli KALIR"
+  },
+  {
+   "kod": "M7",
+   "t": "1735-10-03",
+   "tur": "yeni",
+   "yer": "çekirdek olaylar",
+   "kaynak_yama": "0060-IRAN1723 #2",
+   "degisiklik": "'Revan'ın Nâdir Han'a teslimi' — metin 0060 #2 madde_istegi'nde HAZIR (kaynak nadir-sah--iran)"
+  },
+  {
+   "kod": "M8",
+   "t": "K4",
+   "tur": "düzeltme",
+   "yer": "olaylar_ek5.js:522 'Nahçıvan'ın alınışı'",
+   "kaynak_yama": "0060-IRAN1723 #7 / 0063-IRAN #10",
+   "degisiklik": "A: t 1724-01-01 · gun '1724 (gün/ay kaynakta yok; Bilgili 'Nisan 1723'ten biraz önce')' — B: t 1724-08-11 · gun '11 Ağustos 1724' · kaynak + 'Aktepe 1970 s.53-58 (Yörük-Valiyev 2016)'. İkisinde de: 'Revan'ın düşmesinden sonra' ÇIKAR, Ordubad ve Culfa adları GİRER",
+   "bag": "yer_yama.js:89 t 1725-01-01→(K4) · ekokuma_lale '1725-01-01|heyeti' AYRI madde (Nahçıvan değil) — dokunulmaz"
+  },
+  {
+   "kod": "M9",
+   "t": "1724-01-01",
+   "tur": "yeni",
+   "yer": "çekirdek olaylar",
+   "kaynak_yama": "0060-IRAN1723 #11 (A)",
+   "degisiklik": "'Urmiye ve Selmâs'ın Osmanlı idaresine geçişi' · gun '1724 (TDV; Bilgili 2016 Aralık 1725 der)' · kaynak urmiye"
+  },
+  {
+   "kod": "M10",
+   "t": "1723-11-10",
+   "tur": "yeni",
+   "yer": "çekirdek olaylar",
+   "kaynak_yama": "0060-IRAN1723 #16",
+   "degisiklik": "'Erdelan'ın merkezi Senendec'in (Sine) teslimi' — metin HAZIR · kaynak Özcoşar-Açar 2024 (doi 10.29029/busbed.1518775)"
+  },
+  {
+   "kod": "M11",
+   "t": "1732-01-08",
+   "tur": "metin",
+   "yer": "olaylar_ek5.js:275 (Ahmed Paşa antlaşması; A6C günü 01-10→01-08)",
+   "kaynak_yama": "0060-IRAN1723 #16",
+   "degisiklik": "metne 'Erdelan' eklenir (D147)"
+  },
+  {
+   "kod": "M12",
+   "t": "1730-08-12",
+   "tur": "metin",
+   "yer": "olaylar_ek6.js:25 (Nâdir'in taarruzu)",
+   "kaynak_yama": "0063-IRAN #1-2 (A)",
+   "degisiklik": "metne 'Erdebil ve Halhal' + kaynağa 'erdebil' (D147)"
+  },
+  {
+   "kod": "M13",
+   "t": "1725-09-09",
+   "tur": "yeni — YALNIZ K11=B",
+   "yer": "çekirdek olaylar",
+   "kaynak_yama": "0063-IRAN #1 (B)",
+   "degisiklik": "'Erdebil'in alınışı' — metin 0063-IRAN #1'de HAZIR"
+  },
+  {
+   "kod": "M14",
+   "t": "1725-07-28",
+   "tur": "metin",
+   "yer": "olaylar_ek5.js:273 (Tebriz; A6C 08-04→07-28)",
+   "kaynak_yama": "0060-IRAN1723 #10",
+   "degisiklik": "metne 'Merend' eklenebilir (D147) — gün değişikliği A6C'nin"
+  },
+  {
+   "kod": "M15",
+   "t": "1731-11-15",
+   "tur": "yeni — A6C hükmünün EKSİĞİ",
+   "yer": "çekirdek olaylar",
+   "kaynak_yama": "A6C hükmü 'Tebriz 1731-11-15 geri alınışı eklenir' · 0060-IRAN1723 #11 kaynak alıntısı",
+   "degisiklik": "TASLAK: t:'1731-11-15', k:'fetih', b:'Hekimoğlu Ali Paşa'nın Tebriz'i geri alması', gun:'15 Kasım 1731', yer_id:'Tebriz', d:'Hemedan ve Kirmanşah'ı kurtaran Hekimoğlu Ali Paşa önce Urmiye'yi, ardından Tebriz'i Nâdir'in kuvvetlerinden geri aldı; şehir 1732 antlaşmasıyla yeniden İran'a bırakıldı.', kaynak:'hekimoglu-ali-pasa' — TDV alıntısı (0060 #11'den): «Önce Rûmiye'yi (Urmiye), ardından da … (15 Kasım 1731) … Tebriz'i alan». ÖLÇÜLDÜ: çekirdek+kuyrukta bu günde madde YOK, A6C'de metin YOK ⇒ inmezse Tebriz VE Merend'in 1731-11-15 kırılması MADDESİZ (uygulayıcıda ENGEL)"
+  }
+ ],
+ "degismez2_gunler": [
+  {
+   "gun": "1718-07-21",
+   "kimde": [
+    "Bosna Brod'u (Bosanski Brod)"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1718-07-21 (0 gün) Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve "
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🟡 sayaç kapanır, İLGİSİ ÖLÇÜLMEDİ (D147) — en yakın: 1718-07-21 Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve "
+  },
+  {
+   "gun": "1722-08-08",
+   "kimde": [
+    "Ağraham burnu[A]",
+    "Ağraham burnu[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [
+    "1722-08-23 (15 gün) Rus kuvvetlerinin Derbend'i alması: I. Petro'nun H"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🟡 sayaç kapanır, İLGİSİ ÖLÇÜLMEDİ (D147) — en yakın: 1722-08-23 Rus kuvvetlerinin Derbend'i alması: I. Petro'nun H"
+  },
+  {
+   "gun": "1722-08-24",
+   "kimde": [
+    "Tarki (Tarku)[A]",
+    "Tarki (Tarku)[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [
+    "1722-08-23 (1 gün) Rus kuvvetlerinin Derbend'i alması: I. Petro'nun H"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🟡 sayaç kapanır, İLGİSİ ÖLÇÜLMEDİ (D147) — en yakın: 1722-08-23 Rus kuvvetlerinin Derbend'i alması: I. Petro'nun H"
+  },
+  {
+   "gun": "1722-09-03",
+   "kimde": [
+    "Derbend[A]",
+    "Derbend[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [
+    "1722-08-23 (11 gün) Rus kuvvetlerinin Derbend'i alması: I. Petro'nun H"
+   ],
+   "paket_maddesi": "M1",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M1)"
+  },
+  {
+   "gun": "1723-01-01",
+   "kimde": [
+    "Astara",
+    "Bender Enzeli",
+    "Lenkeran",
+    "Reşt"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": null,
+   "c1_maddesi": "0060-KRONO #1",
+   "hukum": "✓ ilgili madde C1'de (0060-KRONO #1) — UYGULA-2"
+  },
+  {
+   "gun": "1723-08-06",
+   "kimde": [
+    "Bakü[A]",
+    "Bakü[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [
+    "1723-08-01 (5 gün) 1723 İran Seferi: Şirvan ve Gürcistan'a giriş"
+   ],
+   "paket_maddesi": "M3",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M3)"
+  },
+  {
+   "gun": "1723-11-10",
+   "kimde": [
+    "Bâne",
+    "Merîvan",
+    "Sakkız",
+    "Senendec (Sine)"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": "M10",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M10)"
+  },
+  {
+   "gun": "1724-01-01",
+   "kimde": [
+    "Culfa[A]",
+    "Nahçıvan[A]",
+    "Ordubad[A]",
+    "Salyan[A]",
+    "Salyan[B]",
+    "Selmâs (Dilman)",
+    "Urmiye"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": "M9",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M9)"
+  },
+  {
+   "gun": "1724-08-11",
+   "kimde": [
+    "Culfa[B]",
+    "Nahçıvan[B]",
+    "Ordubad[B]"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1724-08-31 (20 gün) Hemedan'ın fethi"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🟡 sayaç kapanır, İLGİSİ ÖLÇÜLMEDİ (D147) — en yakın: 1724-08-31 Hemedan'ın fethi"
+  },
+  {
+   "gun": "1724-09-11",
+   "kimde": [
+    "Salyan[A]",
+    "Salyan[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [
+    "1724-08-31 (11 gün) Hemedan'ın fethi",
+    "1724-09-28 (17 gün) Revan'ın yeniden fethi"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": "0063-KRONO #1",
+   "hukum": "✓ ilgili madde C1'de (0063-KRONO #1) — UYGULA-2"
+  },
+  {
+   "gun": "1724-10-03",
+   "kimde": [
+    "Eçmiyadzin",
+    "Gümrü (Aleksandropol)[EVET]",
+    "Kliçatak (Suser)[EVET]",
+    "Mâku",
+    "Norapat[EVET]",
+    "Revan",
+    "Şerur (Sharur)"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1724-09-28 (5 gün) Revan'ın yeniden fethi"
+   ],
+   "paket_maddesi": "M6",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M6)"
+  },
+  {
+   "gun": "1725-01-01",
+   "kimde": [
+    "Lâhîcan"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [
+    "1725-01-01 (0 gün) Nahçıvan'ın alınışı",
+    "1725-01-01 (0 gün) Otuz iki kişilik ilim/tercüme heyeti kuruldu"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": "0060-KRONO #3",
+   "hukum": "✓ ilgili madde C1'de (0060-KRONO #3) — UYGULA-2"
+  },
+  {
+   "gun": "1725-07-28",
+   "kimde": [
+    "Erdebil[A]",
+    "Halhâl[A]",
+    "Mahabad (Sâvücbulak)",
+    "Merend",
+    "Merâga",
+    "Meşkinşehr (Hiyav)[A]",
+    "Miyâne[A]",
+    "Mîyandoab",
+    "Sarâb[A]"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1725-08-04 (7 gün) Tebriz'in zaptı — Azerbaycan'ın ele geçirilmesi"
+   ],
+   "paket_maddesi": "M14",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M14)"
+  },
+  {
+   "gun": "1725-09-09",
+   "kimde": [
+    "Erdebil[B]",
+    "Halhâl[B]",
+    "Meşkinşehr (Hiyav)[B]",
+    "Miyâne[B]",
+    "Sarâb[B]"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1725-09-12 (3 gün) Gence'nin fethi — Kafkasya seferinin sonu"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🟡 sayaç kapanır, İLGİSİ ÖLÇÜLMEDİ (D147) — en yakın: 1725-09-12 Gence'nin fethi — Kafkasya seferinin sonu"
+  },
+  {
+   "gun": "1726-01-01",
+   "kimde": [
+    "Tarki (Tarku)[A]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": "M4",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M4)"
+  },
+  {
+   "gun": "1727-01-01",
+   "kimde": [
+    "Salyan[A]",
+    "Salyan[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🔴 MADDESİZ"
+  },
+  {
+   "gun": "1730-08-12",
+   "kimde": [
+    "Erdebil[A]",
+    "Erdebil[B]",
+    "Halhâl[A]",
+    "Halhâl[B]",
+    "Mahabad (Sâvücbulak)",
+    "Merend",
+    "Meşkinşehr (Hiyav)[A]",
+    "Meşkinşehr (Hiyav)[B]",
+    "Mîyandoab",
+    "Selmâs (Dilman)",
+    "Urmiye"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1730-08-12 (0 gün) Nâdir'in taarruzu: Tebriz, Nahçıvan, Hemedan, Kirm"
+   ],
+   "paket_maddesi": "M12",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M12)"
+  },
+  {
+   "gun": "1731-11-15",
+   "kimde": [
+    "Merend"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": "M15",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M15)"
+  },
+  {
+   "gun": "1732-01-08",
+   "kimde": [
+    "Bâne",
+    "Merend",
+    "Merîvan",
+    "Sakkız",
+    "Senendec (Sine)"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1732-01-10 (2 gün) Ahmed Paşa Antlaşması — Batı İran'ın büyük bölümün",
+    "1732-01-01 (7 gün) Levnî'nin vefatı"
+   ],
+   "paket_maddesi": "M11",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M11)"
+  },
+  {
+   "gun": "1732-09-02",
+   "kimde": [
+    "Astara",
+    "Bender Enzeli",
+    "Lenkeran",
+    "Lâhîcan",
+    "Reşt",
+    "Salyan[A]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": null,
+   "c1_maddesi": "0060-KRONO #5",
+   "hukum": "✓ ilgili madde C1'de (0060-KRONO #5) — UYGULA-2"
+  },
+  {
+   "gun": "1735-03-21",
+   "kimde": [
+    "Ağraham burnu[A]",
+    "Bakü[A]",
+    "Derbend[A]",
+    "Tarki (Tarku)[A]",
+    "Tarki (Tarku)[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [
+    "1735-03-10 (11 gün) Gence Antlaşması: Derbend ve Bakü'nün İran'a iades"
+   ],
+   "paket_maddesi": "M2",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M2)"
+  },
+  {
+   "gun": "1735-05-01",
+   "kimde": [
+    "Bakü[B]",
+    "Salyan[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": null,
+   "c1_maddesi": "0063-KRONO #4",
+   "hukum": "✓ ilgili madde C1'de (0063-KRONO #4) — UYGULA-2"
+  },
+  {
+   "gun": "1735-05-08",
+   "kimde": [
+    "Derbend[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": null,
+   "c1_maddesi": "0063-KRONO #5",
+   "hukum": "✓ ilgili madde C1'de (0063-KRONO #5) — UYGULA-2"
+  },
+  {
+   "gun": "1735-06-19",
+   "kimde": [
+    "Culfa[A]",
+    "Culfa[B]",
+    "Nahçıvan[A]",
+    "Nahçıvan[B]",
+    "Ordubad[A]",
+    "Ordubad[B]"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1735-06-19 (0 gün) Baghavard (Arpaçay) bozgunu — Kafkasya'nın Nâdir H"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🟡 sayaç kapanır, İLGİSİ ÖLÇÜLMEDİ (D147) — en yakın: 1735-06-19 Baghavard (Arpaçay) bozgunu — Kafkasya'nın Nâdir H"
+  },
+  {
+   "gun": "1735-08-23",
+   "kimde": [
+    "Ağraham burnu[B]"
+   ],
+   "eksen": "Değişmez 2s (yabancı s:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": null,
+   "c1_maddesi": "0063-KRONO #6",
+   "hukum": "✓ ilgili madde C1'de (0063-KRONO #6) — UYGULA-2"
+  },
+  {
+   "gun": "1735-10-03",
+   "kimde": [
+    "Eçmiyadzin",
+    "Gümrü (Aleksandropol)[EVET]",
+    "Kliçatak (Suser)[EVET]",
+    "Mâku",
+    "Norapat[EVET]",
+    "Revan",
+    "Şerur (Sharur)"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [],
+   "paket_maddesi": "M7",
+   "c1_maddesi": null,
+   "hukum": "✓ ilgili madde BU pakette (M7)"
+  },
+  {
+   "gun": "1739-09-28",
+   "kimde": [
+    "Bosna Brod'u (Bosanski Brod)"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1739-10-03 (5 gün) Niş Antlaşması — Rusya ile barış, Azak'ın tarafsız",
+    "1739-09-18 (10 gün) Belgrad Antlaşması — Belgrad, Semendire ve kuzey S"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🟡 sayaç kapanır, İLGİSİ ÖLÇÜLMEDİ (D147) — en yakın: 1739-10-03 Niş Antlaşması — Rusya ile barış, Azak'ın tarafsız"
+  },
+  {
+   "gun": "1908-10-07",
+   "kimde": [
+    "Bosna Brod'u (Bosanski Brod)",
+    "Bosna Dubiçası (Bosanska Dubica)",
+    "Bosna Novi'si (Bosanski Novi)"
+   ],
+   "eksen": "Değişmez 2 (Osmanlı d:)",
+   "cekirdek_30gun": [
+    "1908-10-05 (2 gün) Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı"
+   ],
+   "paket_maddesi": null,
+   "c1_maddesi": null,
+   "hukum": "🟡 sayaç kapanır, İLGİSİ ÖLÇÜLMEDİ (D147) — en yakın: 1908-10-05 Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı"
+  }
+ ],
+ "kalkan_gunler": [
+  {
+   "gun": "1699-01-26",
+   "kalktigi": [
+    "Bosna Brod'u (Bosanski Brod)",
+    "Bosna Dubiçası (Bosanska Dubica)",
+    "Bosna Novi'si (Bosanski Novi)"
+   ],
+   "baska_kayitta_suruyor": [
+    "Kamaniçe",
+    "Çehrin (Çigirin)",
+    "Bar (Podolya)",
+    "Meciboj (Mejibuji)",
+    "Yazlofça (Yazlovets)",
+    "Gyula (Göle)"
+   ],
+   "tam_eslesen_madde": [
+    "1699-01-26 Karlofça Antlaşması — ilk büyük toprak kaybı"
+   ],
+   "hukum": "kırılma SÜRÜYOR"
+  },
+  {
+   "gun": "1722-08-23",
+   "kalktigi": [
+    "Derbend"
+   ],
+   "baska_kayitta_suruyor": [],
+   "tam_eslesen_madde": [
+    "1722-08-23 Rus kuvvetlerinin Derbend'i alması: I. Petro'nun H"
+   ],
+   "hukum": "⚠️ kırılma TAMAMEN kalkar — aynı günlü madde 2t'ye düşebilir"
+  },
+  {
+   "gun": "1723-07-26",
+   "kalktigi": [
+    "Bakü"
+   ],
+   "baska_kayitta_suruyor": [],
+   "tam_eslesen_madde": [],
+   "hukum": "kırılma kalkar, madde yok"
+  },
+  {
+   "gun": "1723-09-23",
+   "kalktigi": [
+    "Bender Enzeli",
+    "Bârfurûş (Bâbil)",
+    "Esterâbâd (Gürgân)",
+    "Eşref (Behşehr)",
+    "Ferahâbâd",
+    "Lâhîcan",
+    "Salyan",
+    "Sârî",
+    "Âmül"
+   ],
+   "baska_kayitta_suruyor": [
+    "Mahmudâbâd"
+   ],
+   "tam_eslesen_madde": [],
+   "hukum": "kırılma SÜRÜYOR"
+  },
+  {
+   "gun": "1724-09-28",
+   "kalktigi": [
+    "Revan"
+   ],
+   "baska_kayitta_suruyor": [
+    "Hoy"
+   ],
+   "tam_eslesen_madde": [
+    "1724-09-28 Revan'ın yeniden fethi"
+   ],
+   "hukum": "kırılma SÜRÜYOR"
+  },
+  {
+   "gun": "1725-01-01",
+   "kalktigi": [
+    "Nahçıvan",
+    "Ordubad"
+   ],
+   "baska_kayitta_suruyor": [
+    "Beyan G34.5 B65.5",
+    "Beyan G35.5 B69.5",
+    "Beyan G36.5 B64.5",
+    "Beyan G36.5 B61.5",
+    "Beyan G37.5 B68.5",
+    "Beyan G38.5 B66.5"
+   ],
+   "tam_eslesen_madde": [
+    "1725-01-01 Otuz iki kişilik ilim/tercüme heyeti kuruldu",
+    "1725-01-01 Nahçıvan'ın alınışı"
+   ],
+   "hukum": "kırılma SÜRÜYOR"
+  },
+  {
+   "gun": "1725-08-04",
+   "kalktigi": [
+    "Merâga",
+    "Miyâne",
+    "Sarâb"
+   ],
+   "baska_kayitta_suruyor": [
+    "Tebriz",
+    "Ahar (Karadağ)"
+   ],
+   "tam_eslesen_madde": [
+    "1725-08-04 Tebriz'in zaptı — Azerbaycan'ın ele geçirilmesi"
+   ],
+   "hukum": "kırılma SÜRÜYOR"
+  },
+  {
+   "gun": "1730-08-12",
+   "kalktigi": [
+    "Nahçıvan",
+    "Ordubad"
+   ],
+   "baska_kayitta_suruyor": [
+    "Tebriz",
+    "Hemedan",
+    "Kirmanşah",
+    "Merâga",
+    "Hoy",
+    "Ahar (Karadağ)"
+   ],
+   "tam_eslesen_madde": [
+    "1730-08-12 Nâdir'in taarruzu: Tebriz, Nahçıvan, Hemedan, Kirm"
+   ],
+   "hukum": "kırılma SÜRÜYOR"
+  },
+  {
+   "gun": "1732-01-21",
+   "kalktigi": [
+    "Salyan"
+   ],
+   "baska_kayitta_suruyor": [
+    "Mahmudâbâd"
+   ],
+   "tam_eslesen_madde": [],
+   "hukum": "kırılma SÜRÜYOR"
+  },
+  {
+   "gun": "1734-01-01",
+   "kalktigi": [
+    "Bender Enzeli",
+    "Bârfurûş (Bâbil)",
+    "Esterâbâd (Gürgân)",
+    "Eşref (Behşehr)",
+    "Ferahâbâd",
+    "Lâhîcan",
+    "Sârî",
+    "Âmül"
+   ],
+   "baska_kayitta_suruyor": [
+    "Buşehr"
+   ],
+   "tam_eslesen_madde": [],
+   "hukum": "kırılma SÜRÜYOR"
+  },
+  {
+   "gun": "1735-03-10",
+   "kalktigi": [
+    "Bakü",
+    "Derbend"
+   ],
+   "baska_kayitta_suruyor": [],
+   "tam_eslesen_madde": [
+    "1735-03-10 Gence Antlaşması: Derbend ve Bakü'nün İran'a iades"
+   ],
+   "hukum": "⚠️ kırılma TAMAMEN kalkar — aynı günlü madde 2t'ye düşebilir"
+  },
+  {
+   "gun": "1735-06-19",
+   "kalktigi": [
+    "Revan"
+   ],
+   "baska_kayitta_suruyor": [
+    "Tiflis",
+    "Gence",
+    "Şamahı",
+    "Kabala",
+    "Ereş",
+    "Şeki (Nuha)"
+   ],
+   "tam_eslesen_madde": [
+    "1735-06-19 Baghavard (Arpaçay) bozgunu — Kafkasya'nın Nâdir H"
+   ],
+   "hukum": "kırılma SÜRÜYOR"
+  }
+ ],
+ "yakinlik_15km": []
+}
