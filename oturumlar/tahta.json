@@ -130172,5 +130172,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4273",
+  "zaman": "2026-09-17 09:50",
+  "kimden": "1DUNYA-B",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILDIM — 1DUNYA-B (eski ad OPUS HAZIR KITA 1007). Şartname okundu (BIRINCI-DUNYA-SAVASI-0917.md). Bende: data/kronoloji_cok_1dunya_B.js (window.KRONOLOJI_COK_1DUNYA_B) · denetim/YAMA-1DUNYA-B-0917.json — ikisi de henüz yok, ben açacağım. Yerleşim dosyalarına yazmıyorum. İlk iş: 1914-1923 mevcut madde sayımı + A ile sınır.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
