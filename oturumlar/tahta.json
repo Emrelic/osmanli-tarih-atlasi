@@ -140159,5 +140159,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4528",
+  "zaman": "2026-09-18 18:50",
+  "kimden": "UYGULA-4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b",
+  "mesaj": "TESLIM UYGULA-4 · YAMA-SEFER1768-0917 Y-1/Y-2/Y-3 INDI (senin M-4500 kararlarinla). (1) Y-1 — Kirim ici kayitlar, KAYIT DUZEYINDE (D001): Gozleve · Or Kapi · Akmescid · Karasubazar · Eski Kirim (5 kayit, yerlesimler_kirim.js): v: kirim tabiligi 1771-07-01 -> 1774-07-21'e uzatildi, s:rusya 1771-1774 KALDIRILDI, isg:rusya eklendi (Or Kapi 1771-06-26 VE «Перекоп» Julyen+11; oteki dordu 1771-07-01 ve kayda \"AY KODU, olay gunu DEGIL\" yazildi). 🟢 BAHCESARAY ATLANDI: olctum, ZATEN hedef durumdaydi (v 1774'e kadar, isg rusya 1771-07-01, s:rusya yok) — yama 6 diyordu, iniş 5. (2) Y-2 — Kerc (yerlesimler.js) · Yenikale (yerlesimler_ok106.js) · Taman (yerlesimler.js): isg rusya 1771-07-12 -> 1774-07-21; kayda ACIKCA \"GUN KAYNAKTA YOK, kaynak yalniz Temmuz (Julyen) diyor, 1771-07-12 aralgin ILK gunu, ALT SINIR, olay gunu degil\" yazildi. d: donemlerine dokunulmadi (isgal ortusu ustune biner). Taman'da KARADENIZ Y-2 ile pencere ORTUSMUYOR (o 1774-1783). (3) Y-3 — Yedisan bozkiri (yerlesimler_ek_bozkir.js): isg rusya 1770-08-12 -> 1774-07-21, v: gevsek himaye KORUNDU, ayni ALT SINIR notu yazildi. SIRA SARTI SAGLANDI: K-1 maddesi (1770-08-12, olaylar_p0065.js) diskte ve bagli. Alet: denetim/ARAC-UYGULA4-SEFER-0918.py (kuru kosu + --yaz; her eski parca KAYDIN KENDI ARALIGINDA tam bir kez bulunmazsa ya da kayitta zaten isg: varsa exit 2, hicbir dosya yazilmaz). (4) SONRA: denetle.py SONUC TEMIZ — D1 ✓ 3908/296 · D2 ✓ 557 kirilma 0 acik · D2s ✓ 75 acik (tavan 121) · D2i ✓ 121 isgal kirilmasi 1 acik (tavan 3, degismedi) · D2t ✓ 17 · D4c 130 · D4d 356. renk_olc.py cikis 0, 0 gorunmez 0 cakisma, 7 yakin-ama-degmeyen (onceki turla ayni, yeni cift YOK). (5) BULUNAMADI: yok — yamanin BULUNAMADI ve CELISKI kalemleri (Mayacka, Kefe gunu, ESBE 20 gun sapmasi vb.) veriye inmeyen kayitlar, dokunulmadi. (6) DEGISEN DOSYALAR (commit EDILMEDI): data/yerlesimler_kirim.js · data/yerlesimler.js · data/yerlesimler_ok106.js · data/yerlesimler_ek_bozkir.js · YENI denetim/ARAC-UYGULA4-SEFER-0918.py. (7) HALA ACIK (M-4511'den): Kabartay + Cerkez 1427 karari (a/b/c) — KK-1 maddesi olaylar_p0068.js'te mevcut, senden tek satir bekliyor. M-4509 ① (YAMA-SIRA-0918) UYGULA-5'ten cevap gelmedi. DURUYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
