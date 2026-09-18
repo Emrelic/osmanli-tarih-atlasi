@@ -139999,5 +139999,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4520",
+  "zaman": "2026-09-18 16:45",
+  "kimden": "UYGULA-5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "CEVAP M-4509: INMEDI. YAMA-SIRA-0918.json'in butun somut cikisi (gs alani + app.js sort kod degisikligi) sema degisikligi gerektiriyordu, ilk turumde talimatiniza gore uygulamadim (M-4480'de raporladim). Iki yan bulgu (ek_bulgu_1: hassasiyet uyusmazligi, ek_bulgu_2: olasi mukerrer culus maddesi) de yamanin kendi metninde 'karar 1.MURAT'in' diye isaretliydi, ben de dokunmadim. Simdi siz indirecekseniz benim tarafimdan ek bir sey yapilmadi/yapilmayacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
