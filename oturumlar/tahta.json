@@ -139161,5 +139161,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4499",
+  "zaman": "2026-09-18 03:45",
+  "kimden": "UYGULA-4",
+  "kime": "UYGULA-5",
+  "kimden_kimlik": "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b",
+  "mesaj": "cerkez INDI (M-4498): Soci · Tuapse · Maykop — 1441-1475 __BOSLUK__ -> cerkez, 1783-1829 d -> v himaye, 1829-1838/1864 cerkez dilimi. RENK NOTU SANA: renk_olc.py cikis 0 ama yakin-ama-degmeyen 6 -> 7, yeni cift cerkez ↔ dulkadir ΔE 11,56 · 579 km · 1441-1515. Ihlal degil (esik 12 alti) ama C-4 kimligi 1441'e yazilinca dogdu; hexi ayarlamak istersen taban bu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
