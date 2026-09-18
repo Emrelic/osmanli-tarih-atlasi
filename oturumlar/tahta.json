@@ -139125,5 +139125,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4497",
+  "zaman": "2026-09-18 03:38",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "0067/H-0002 BITTI, H-0005/H-0006 OLCULDU AMA KESINLESTIRILEMEDI. H-0002 (mavi kesikli cizgi) COZULDU VE DUZELTILDI: bu js/app.js:1132 \"g-nehir-motor\" katmani (#00bcd4 camgobegi, dashArray[3,2]) -- motorun NEHRE YASLANDIGI hatlari GERCEK fotografla karsilastirmak icin var, \"bu bir hata ayiklama katmani, atlasin kendisi degil\" diye ZATEN yorumlanmis (COGRAFYA-HATLAR.md). Emre bunu DAHA ONCE de sordu (4 Eylul, H-0008) ve \"⑥ Motor tani hatlari (kesikli)\" diye VARSAYILAN KAPALI bir checkbox eklendi -- ama checkbox'in ACIKLAMASI yalniz MENUDE, HARITADA hicbir iz yoktu; checkbox isaretlenip menu kapaninca kullanici cizgiyi tekrar gorunce ne oldugunu unutuyordu (H-0002 bunun IKINCI sorulusu). DUZELTME: katman acikken haritada da \"Motor tani hatlari: nehre/sirta yaslanma (gelistirici katmani)\" diye kucuk bir lejant satiri EKLENDI (devir/isgal-lejant ile ayni desen, katman kapaliyken hic yer kaplamiyor). Fonksiyon (tanilejantiGuncelle) DOGRUDAN CAGRILARAK dogrulandi (element dogru html ile olusuyor). ⚠️ checkbox'in KENDI degisim olayi uzerinden UCTAN UCA test EDEMEDIM -- bu oturumda harita.getStyle() belirli bir noktadan sonra (hatta bazen TEMIZ sayfa acilisinda BILE) \"Cannot read properties of undefined (reading layers)\" hatasi atip TUM katman secici menusunu (yalniz benim eklentimi degil, COGRAFYA/SIYASI/YERLESIM dahil TUM checkbox'lari) uygulama fonksiyonundan ERKEN DONDURUYOR (kova.hazir=false). BU AYRI VE ONEMLI BIR BULGU, benim degisikligimle ILGISIZ (katmanSinifla/getStyle kodu dokunulmadi) -- ayrintili arastirilmasi gerekiyor, katman secici menusunun GUVENILIRLIGINI etkiliyor olabilir. Simdilik kod DOGRU yazildi ve dogrudan cagriyla dogrulandi, checkbox uzerinden gorsel dogrulama BU OTURUMDA mumkun olmadi. H-0005 (Bosna, iki sari/yesilimsi noktali cember) + H-0006 (Moldova/Bukovina, koyu mor cember) -- AYNI maddeye (\"Avusturya'nin savasa girmesi — iki cepheli mucadele\", 1788-02-09) ait, IKI FARKLI COGRAFI BOLGEYI (Bosna cephesi + Bukovina/Moldova cephesi) gosteriyor, \"iki cepheli\" ile ORTUSUYOR. Denedigim adaylar VE elendi: - isgal-dolgu (H-0001/H-0003'te calistigim katman): bu tarihte/yerde ISGALLER kaydinda eslesme YOK - hukuki-sinir-nokta/dolgu/hat (C CIZIM KATMANI, HUKUKI_SINIRLAR): 9 kayit tarandi, HICBIRI 1788'i KAPSAMIYOR (en yakini 1590-1603 ve 1699-1918 pencereleri) -- bu tarihte ELENMIS DURUMDA, KESIN DEGIL - halka-kaynakli (⑧ kaynakli sahiplik): mumkun ama toggle KAPALI varsayilan, ekran goruntusunde ⑧'in acik oldugunu gosteren bir isaret yok - odak-parlama (altin/gold pulsing halka, maddeFarkiGoster'in \"aynı gun degisimi\" gorsel vurgusu): EN GUCLU ADAY -- ayni sinif bir sikayet DAHA ONCE de gelmis (paket 0046 H-0006, css/style.css:2216-2222 yorumu) ve mekanizma TAM OLARAK \"iki ayri cephede degisen yerlesimleri isaretle\" isini yapiyor, ama KESIN dogrulama (renk/desen pixel-eslesmesi) BU OTURUMDA YAPILAMADI -- zaman kisitindan tam sahneyi (1788-02-09, madde acik, iki cephe ayni anda) reprodukte edip ekran goruntusuyle piksel piksel karsilastiramadim. ISTEDIGIM: (a) D2-KOMSU zaten H-0005'in VERI tarafinda (Bihac) calisiyor -- onlarin ekrani AYNI ANDA gorup \"bu hangi katman\" diye BENZER bir gozlemi paylasip paylasmadigini sormak ister misiniz (b) yoksa ben devam edip odak-parlama hipotezini tam reprodükte edip kesinlestireyim mi (ek sure gerekir) (c) yoksa bu iki kalem \"olculemedi, ekran goruntusu + koordinatorle birlikte canli inceleme gerekiyor\" diye KAPATILSIN mi. Simdilik KOD DEGISIKLIGI YAPMADIM (yanlis tani uzerine yanlis \"duzeltme\" riski). Bu paketteki digerleri (0068 H-0001/0018/0025/0015/0016/0017/0003, M-4478 ekokuma) TAMAMLANDI VE TESLIM EDILDI (ayri mesajlarda). node --check (app.js + suzgec.js) her adimda temiz calisti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
