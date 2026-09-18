@@ -142193,7 +142193,12 @@
   },
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "GEMINI": {
+    "zaman": "2026-09-19 02:47",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
