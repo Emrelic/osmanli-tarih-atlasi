@@ -6,6 +6,9 @@
 
 ## Belge seti ve açılış
 **AÇILIŞTA YALNIZ İKİ BELGE OKUNUR: bu dosya + kendi şartnamen** (`oturumlar/<ADIN>.md`).
+🔴 **Görevsiz açıldıysan (adın "… hazır kıta …"): şartnamen [`oturumlar/HAZIR-KITA.md`](oturumlar/HAZIR-KITA.md)dir
+— şimdi oku ve harfiyen uygula** (tek "HAZIRIM" tahta mesajı, bekçi, sessizlik, tek teslim,
+iş bitince bekçiyi öldür).
 Aşağıdakiler **yalnız iş gerektirirse, adıyla ve gerekli bölümüyle** açılır — hiçbiri "her
 oturumda" değildir (4 belge = 440 KB/oturumdu; 17 Eylül 2026 token kararı, Emre).
 
@@ -270,7 +273,8 @@ BEKLEME     ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kont
 ② GÖREVLENDİRME Koordinatör tahtaya (ya da ilk mesaj olarak) yazar; mesajın İLK SATIRI
                 oturumun ADIDIR = tahta anahtarı, TAM yazılır (tahta TAM EŞİTLİK arar).
                 Şartname oturumlar/<dosya>.md. Dosya sahipliği görev tablosunda yazılıysa
-                AÇILIŞ MESAJI YOK; değilse tek satır "şu dosyalar bende".
+                AÇILIŞ MESAJI YOK; değilse tek satır "şu dosyalar bende". Hazır kıta
+                açılışta tahtaya TEK "HAZIRIM" yazar (oturumlar/HAZIR-KITA.md).
 ③ TAHTA         Tek kanal: py arac/tahta.py yaz --kim "<AD>" --kime "<ALICI>" --mesaj "…"
                 send_message yalnız tahta arızasında (§7.1 ⑤b).
 ④ BEKÇİ         Monitor + py arac/tahta_bekci.py --kim "<AD>". Uyandıran YALNIZ `kime`
@@ -281,7 +285,8 @@ BEKLEME     ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kont
 ⑦ TESLİM        İş bitince TEK mesaj: ölçtüm · bulamadım · istiyorum + değişen dosya
                 listesi; kritikse tahta.json'dan geri okunur. Paylaşılan dosyayı (data/,
                 CLAUDE.md) koordinatör commitler; devralınan dosya için "dosya senin" denir.
-⑧ EMEKLİLİK     Teslimden sonra DUR. Bekçi açık kalır; yeni iş gelirse uyandırır. Emekli
+⑧ EMEKLİLİK     Teslimden sonra DUR. Devamı varsa bekçi açık kalır; iş BİTTİYSE işçi
+                bekçisini kendisi öldürür (TaskStop). Emekli
                 oturuma yalnız işin doğrudan devamı verilir (varsayılan taze oturum).
                 🔴 İşi biten ve devamı beklenmeyen oturumu koordinatör EMEKLİYE AYIRIR:
                 "Atlas — emekli oturumlar" grubuna taşır (move_sessions) — Emre, 19 Eyl.
