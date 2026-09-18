@@ -72,6 +72,49 @@ window.EKOKUMA_KURUM2 = [
     +"Esham, bir vergi TÜRÜ değildi — mukātaa (vergi kaynağı) gelirinin hisselere bölünüp satıldığı bir BORÇLANMA yöntemiydi; Küçük Kaynarca'nın 7,5 milyon kuruşluk tazminat yükü karşısında 1775'te ihdas edildi (bk. data/olaylar_ek14.js, 1775-06-01). Yani devlet doğrudan vergiyi artırmak yerine, gelecekteki vergi/mukātaa gelirini bugünden nakde çevirdi — bu, klasik tekâlîf sisteminin dışında, ona EK bir mali araçtı.",
   kesinlik:"kesin",
   olay:["1775-06-01|Esham sisteminin ihdası","1856-01-01|Islahat Fermanı (cizyenin kaldırılışı)"],
-  kaynak:"TDV: vergi · cizye" }
+  kaynak:"TDV: vergi · cizye" },
+
+// ============================================================================
+// EK — DALGA-0068 turu (17-18 Eylül 2026), maddeler H-0020 · H-0014
+// Sluglar: muhendishane-i-berri-i-humayun · nizam-i-cedid (ikisi de WebFetch
+// ile okundu, kopyalanmadı). H-0014 numarası DALGA-0066'daki H-0014'ten
+// FARKLI bir maddedir — her dalga kendi H-numarasını sıfırdan verir.
+// ============================================================================
+
+// ── H-0020 · Mühendishânelerin sonraki hayatı ───────────────────────────────
+{ id:"teknik-muhendishane-ardil-okullar", tur:"teknik-bilimsel",
+  kisa:"İki mühendishaneden biri bugünkü bir üniversitenin, öteki bugünkü bir harp okulunun ilk çekirdeği oldu — ve ikisi de aynı Nizâm-ı Cedîd rüzgârından doğdu.",
+  metin:"■ MÜHENDİSHÂNE-İ BERRÎ-İ HÜMÂYUN (1795) — İTÜ'NÜN VE HARBİYE'NİN ORTAK KÖKÜ\n"
+    +"Deniz mühendishanesinden yirmi yıl sonra, 1210'da (1795) Hasköy'de kara mühendisleri yetiştirmek için kuruldu; TDV'nin kendi ifadesiyle 'Nizâm-ı Cedîd'in en önemli kurumlarından biri'ydi. İlk hocalar tamamen Türk'tü — başlarında Abdurrahman Efendi vardı, yabancı öğretmen YOKTU; 1801'de ihtida etmiş bir İngiliz mühendis (Selim/Bailey adıyla anılan) kadroya katıldı. Müfredat istihkâm, harita/arazi ölçümü (kadastro), topçuluk ve diferansiyel-integral hesaba kadar uzanan ileri matematik, ayrıca Fransızca ve Arapça dersleriydi.\n\n"
+    +"■ BERRÎ'NİN ZİKZAKLI YOLU\n"
+    +"1806'da Eyüp'e taşındı ve bağlı olduğu askerî birlikten ayrıldı; 1808'de eski Hasköy binasına döndü. 1826-1839 arası ihmal edilen bir dönem yaşadı, II. Mahmud'un ıslahatlarıyla yeniden canlandırıldı. 1883'te ona bağlı olarak Hendese-i Mülkiyye Mektebi (sivil mühendislik okulu) açıldı, 1908'de ayrı bir sivil mühendislik mektebi kuruldu. 1928-1944 arası çeşitli eğitim reformlarından geçti.\n\n"
+    +"■ İKİ AYRI SONUÇ, TEK KÖK\n"
+    +"TDV bu kurumu 'İstanbul Teknik Üniversitesi'nin ilk çekirdeği' olarak tanımlıyor — İTÜ resmen 1944'te bu miras üzerine kuruldu. Aynı madde ayrıca Mühendishâne-i Berrî'nin 'Harp Okulu'nun da ilk çekirdeğini oluşturduğunu' belirtiyor — yani TEK bir 1795 kurumu, biri sivil (İTÜ) biri askerî (Harbiye/Kara Harp Okulu) iki ayrı köke dallandı.\n\n"
+    +"■ MÜHENDİSHÂNE-İ BAHRÎ-İ HÜMÂYUN (1775) — DENİZ HARP OKULU'NUN KÖKÜ\n"
+    +"1775'te kurulan deniz mühendishanesi (bk. ayrı kart: H-0014/DALGA-0066) 1195'te (1781) Mühendishâne-i Tersâne-i Âmire adını aldı, 1210'da (1795) Berrî'den ayrılıp yalnız deniz eğitimine odaklandı, 1830'da Heybeliada'ya taşındı ve 1846'da bu taşınma kalıcı oldu. TDV bu kurumu bugünkü Deniz Harp Okulu'nun temeli sayıyor.\n\n"
+    +"■ ORTAK DESEN\n"
+    +"İki mühendishane de aynı krizden (1768-1774 Rus savaşı, 1770 Çeşme) doğdu, aynı reform paketinin (Nizâm-ı Cedîd, bk. ayrı kart H-0014/DALGA-0068) parçasıydı ve ikisi de defalarca ad/bina değiştirerek 19. yüzyılı aştı — kesintisiz değil, ama KOPMADAN 20. yüzyıla ulaştı.",
+  kesinlik:"kesin",
+  olay:["1795-01-01|Mühendishâne-i Berrî-i Hümâyun kuruldu","1883-01-01|Hendese-i Mülkiyye Mektebi açıldı","1944-01-01|İstanbul Teknik Üniversitesi kuruldu"],
+  kaynak:"TDV: muhendishane-i-berri-i-humayun · muhendishane-i-bahri-i-humayun" },
+
+// ── H-0014 (DALGA-0068) · Nizâm-ı Cedîd ─────────────────────────────────────
+{ id:"teknik-nizam-i-cedid", tur:"teknik-bilimsel",
+  kisa:"Bir ordu savaş meydanında değil, oy birliğiyle ateşkes isteyerek yenildiğini kabul etti — ve o toplantıdan bütün bir reform çağı doğdu.",
+  metin:"■ SEBEP — ŞUMNU'DAKİ OY BİRLİĞİ\n"
+    +"1787-1792 Osmanlı-Rus/Avusturya savaşındaki ağır yenilgiler ve Ziştovi (Avusturya ile) Antlaşması, ordunun ve devlet erkânının kurumsal zaafını açıkça ortaya koydu. Ordu ve idare üst kademesi 11 Ağustos 1791'de Şumnu'da toplanıp savaşa devam edilemeyeceğine OY BİRLİĞİYLE karar verdi — III. Selim'i kapsamlı bir ıslahat programına iten doğrudan dönüm noktası budur.\n\n"
+    +"■ İÇERİK — SİVİL VE ASKERÎ HER ŞEYİN YENİDEN DÜZENLENMESİ\n"
+    +"Nizâm-ı Cedîd (1792-1807) Avrupa disiplininde eğitilmiş yeni bir ordunun kurulmasını, bu ordunun masrafını karşılamak için ayrı bir hazine olan İrâd-ı Cedîd'in açılmasını, Mühendishâne-i Berrî-i Hümâyun'un (1795) kurulup Mühendishâne-i Bahrî-i Hümâyun'un (1775) ıslah edilmesini, mühendishaneye bağlı bir matbaanın (1797) açılmasını, İstanbul ve Anadolu'da yeni kışlalar inşasını ve zahire nezaretinin (tahıl idaresi) suistimali önleyecek biçimde yeniden düzenlenmesini kapsadı. Reform kadrosunun başında Sadrazam Koca Yûsuf Paşa ve Mustafa Reşid gibi bürokratlar vardı; ulema tarafında Tatarcık Abdullah Efendi gibi isimler sürece destek verdi.\n\n"
+    +"■ DİRENİŞ — 'BİD'AT' VE VERGİ YÜKÜ\n"
+    +"Yeniçeriler, geleneksel askerî zümreler ve muhafazakâr çevreler reformu bid'at (dine aykırı yenilik) ve 'Avrupalılaşma' olarak gördü; taşrada ise yeni orduyu finanse eden ağır vergiler halk tepkisine yol açtı.\n\n"
+    +"■ SONUÇ — KABAKÇI İSYANI\n"
+    +"25-29 Mayıs 1807'de Kabakçı Mustafa önderliğinde, Şeyhülislâm Topal Atâullah'ın desteğiyle patlak veren isyan Nizâm-ı Cedîd'i lağvetti, III. Selim'i tahttan indirdi ve reform liderlerinin idamıyla sonuçlandı.\n\n"
+    +"■ ÖNEM VE ETKİ — YENİLGİ, AMA KALICI ETKİ\n"
+    +"Kurumsal olarak çökmesine rağmen Nizâm-ı Cedîd sonraki Tanzimat reformlarına ve II. Mahmud'un kendi yeniden yapılanmasına, özellikle 1826 Vaka-i Hayriye'de (Yeniçeri Ocağı'nın kaldırılışı) zemin hazırladı — II. Mahmud, aynı direnişi bu kez askerî güçle ezerek III. Selim'in yarım kalan programını tamamladı.\n\n"
+    +"■ İLGİNÇ AYRINTI — VERGİDEN DEĞİL YENİ BİR HAZİNEDEN\n"
+    +"Reformun finansmanı mevcut tekâlif sistemine (bk. ayrı kart: Osmanlı vergi sistemi) ek yük bindirmek yerine AYRI bir hazine (İrâd-ı Cedîd) kurularak sağlandı — yani III. Selim, yeni orduyu eski vergi düzenine dokunmadan, kendi kendine yetecek bir mali yapı içinde finanse etmeye çalıştı.",
+  kesinlik:"kesin",
+  olay:["1791-08-11|Şumnu kararı","1807-05-25|Kabakçı İsyanı başladı"],
+  kaynak:"TDV: nizam-i-cedid" }
 
 ];
