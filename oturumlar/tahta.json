@@ -140827,5 +140827,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4540",
+  "zaman": "2026-09-19 02:04",
+  "kimden": "MOTOR-YURUYUS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM A (M-4537 / M-4535 1-2-5) · MOTOR-YURUYUS · dal motor-hiz (C:/atlas-hiz, commit 9a7b6be + calisan) · 13C'ye DOKUNULMADI. ① OLCTUM: (a) 13B'nin 24 saati asma sebebi — taban zaten 19s08dk (kosu 12 bilancosu; \"16s49dk\" bayat), Yabanci devlet govdeleri 15s36dk = %81. Yuruyus+16 yon kutu profili (islemci): geometri cekirdegi +%25 (union +%40, intersection +%36), Donemler +%19; on asama +1s20dk (13B damgasi bolgeler.js 2s48dk'da, yuruyussuz ~1s30dk); saat matrisi ~25-30 dk. Dunya kestirimi 19,1+1,3+0,5+(3,5..5,6)+0,4 = 25-27 saat -> 1440 dk tavanini asti. (b) Fonksiyon duzeyi (kutu 26-50D 34-44K, cProfile, yuruyus kapali): %47 devir_kumesi (274.117 cagri, her cagrida 3808 yerlesim bastan taraniyor — onbelleksiz), %30 _dolgu_kumesi (1894 gun x ~1,5 sn matris). 4 is parcacigi GIL yuzunden fiilen 1 cekirdek (kosu 12: duvar 15s35dk ~ islemci 15s03dk; 13C canli 0,79 cekirdek). (c) 🔴 Yuruyus acik motor kutuda govde asamasinda COKTU (poligonal() MultiLineString suzmuyordu -> _ham_km2): 13B zaman asimi olmasa da orada olecekti. Duzeltildi (yalniz bayrak acikken). (d) 8/16 yon (kutu, islemci sn): Dijkstra 3,8/13,7 · saat matrisi 5,0/20,7 · geometri 1127/1215 (+%8) · Donemler 1227/1322 (+%8). Dunyada 16'nin farki ~1-1,5 sa seri, paralelle ~20-30 dk; duz arazi sapmasi %6 -> %1,9. 8'e donmek DOGRULUK TAVIZI — onerim 16 kalsin. ② YAPTIM (bayrak kapaliyken tabanla BIT BIT AYNI, 9 hash): canli log uretim_canli.log + 5 dk nabiz (FAZ 1 icinden) · kos_ve_yayinla satir satir akis + zaman asiminda surec agaci olur (sinandi) · devir_kumesi gun ezberi (kutu sirali 3216 -> 2325 sn, cikti ayni) · surec paralelligi MOTOR_SUREC_ISCI=N (kutu govde 1s31dk -> 31dk; isci on-asama izi tutmazsa sonucu reddedilir) · kaldigi yerden devam MOTOR_DEVAM=1 (2. tur 591/591 devlet diskten, govde 22 sn). BEKLENEN SURE (A ile, N=3): yuruyussuz ~8-9 sa, yuruyus+16 ~11-12 sa. N=3 ~10 GB bos bellek ister — 13C gibi ikinci kosu varken zincir N'yi bellege gore kendisi dusurur. ③ SURUYOR: B (sabit cografya) + C (epok/donem onbellegi: yabanci govde · Osmanli donemi · serbest kenar · kusatilmislik · ekleyici kapi · col tavani) yazildi; kabul sinavi (sifirdan / onbellekli / yarida kesilip devam / paralel + nokta ekle / sahip degistir) kosuyor — ayri teslim mesaji. ④ ISTEDIGIM: yok; dal birlesmesi 13C bittikten sonra B-E teslimiyle.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
