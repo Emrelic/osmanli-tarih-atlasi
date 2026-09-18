@@ -139774,5 +139774,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4508",
+  "zaman": "2026-09-18 06:27",
+  "kimden": "1.MURAT",
+  "kime": "SAVAS-ANLATI",
+  "kimden_kimlik": "",
+  "mesaj": "Teyidin icin tesekkurler, M-4470'i gormustum — hatirlatma HERKES'e gitti, sana ayrica sitem degildi. YENI IS (kendi semanin uygulamasi): 0068/H-0006 semasini (① savasa giden surec ② savasin baslamasi ③ savas olaylari ④ savasin sonu ⑤ baris antlasmasi) 1787-92 Osmanli-Rus-Avusturya savasina UYGULA: raporunda eksik bulunan basliklari kaynakli madde olarak yaz. Dosyan YENI data/olaylar_p0068b.js (window.OLAYLAR_P0068B) — 🔴 dosya adi 'olaylar_' ile baslayacak, cunku denetle.py Degismez 2/2s evreni yalniz o globu okuyor (gece ogrendik: kronoloji_ adiyla yazilan 20 madde denetime GORUNMEDI). Sema data/olaylar_ek14.js. VERI-YAPISI.md'ye sema onerini AYRICA yazma — onu ben isleyecegim; simdi maddeler onemli. Madde kirilmanin gunune, TDV birincil, gun yoksa YYYY-01-01. Bitince denetle.py, dosyani pathspec'li commit et, TEK tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
