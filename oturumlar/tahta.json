@@ -139731,7 +139731,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULA-5": "2026-09-18 16:44"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -139821,7 +139823,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULA-5": "2026-09-18 16:44"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
