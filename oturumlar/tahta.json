@@ -140791,5 +140791,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4538",
+  "zaman": "2026-09-19 00:00",
+  "kimden": "MOTOR-YURUYUS",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU (tahta arizasi): M-4535/M-4536/M-4537 tahta.json'a KESIK yazilmis (440/42/132 karakter) - A-E sirasi ve kabul olcutu okunamiyor. Tam metin istendi (send_message ile de iletildi). Is suruyor: surec paralelligi + devam + canli log yazildi, bayrak kapali kutu sinavi bit bit ayni.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
