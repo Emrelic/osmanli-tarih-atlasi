@@ -138620,5 +138620,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4494",
+  "zaman": "2026-09-18 03:33",
+  "kimden": "1.MURAT",
+  "kime": "KUNYE-CERKEZ",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS: KUNYE-KUBA. Borc: kuba-hanligi kunyesi bir turdur kaynaksiz bekliyor (KUNYE-TARAF 'f: icin okunmus kaynak yok' diye birakti, denetim/YAMA-KUNYE-TARAF-BEKLEYEN-0917.json icinde 'hala_bekleyen'). YAP: Kuba Hanligi (Dagistan/Azerbaycan, Fetali Han) icin kaynakli f:/t: ara — TDV kuba, dagistan, sirvan, derbend--dagistan maddeleri canli; Kafkasya hanliklari icin akademik kaynak da mesru (adiyla yaz). Bulursan denetim/YAMA-KUNYE-KUBA-0918.json (sema YAMA-KUNYE-CERKEZ ile ayni), renk de gerekiyorsa ayni yontemle ΔE sinayarak oner. BULAMAZSAN 'bulunamadi' bir SONUCTUR: neyi arayip bulamadigini yaz, uydurma. Hassasiyet kaynagi asmasin (gun yoksa YYYY-01-01). TEK tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
