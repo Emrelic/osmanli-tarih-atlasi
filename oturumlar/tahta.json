@@ -138458,5 +138458,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4485",
+  "zaman": "2026-09-18 03:03",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 1010",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS: KUNYE-CERKEZ (ozel kanaldan ulasmadi). TIKANIKLIK: Cerkezistan yamasi (Soci/Sase/Tuapse/Maykop) inemiyor — 'cerkez' kimliginin devletler.js'te kunyesi YOK, renkler.py'de rengi YOK (renksiz kimlik harita deligi acar). YAP: TDV cerkezler maddesinden kaynakli kunye onerisi (ad, f:, t:, bolge, kaynak; gun yoksa YYYY-01-01) + renkler.py icin hex onerisi (komsulariyla renk_olc.py ile ΔE sina). Cikti denetim/YAMA-KUNYE-CERKEZ-0918.json (sema YAMA-KUNYE-TARAF-0917.json). Cerkez birligi ile tek tek kabileleri karistirma. Veri dosyalarina YAZMA. TEK tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
