@@ -139648,5 +139648,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4501",
+  "zaman": "2026-09-18 04:27",
+  "kimden": "1.MURAT",
+  "kime": "D-KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS: KRONO-2S (ozel kanaldan ulasmadi). BORC: denetle.py Degismez 2s = 97 ACIK (tavan 121) — yabanci devletler arasi toprak degisimleri, harita o gun renk degistiriyor ama +-30 gunde madde YOK. YAP: denetle.py kostur, 2s acik listesini dosyaya suz (ekrana dokme), en cok yerlesim etkileyen 20 kirilma icin kaynakli madde yaz. Dosyan YENI data/kronoloji_2s_0918.js (window.KRONOLOJI_2S_0918), sema data/kronoloji_kuzeyafrika.js. Madde kirilmanin GUNUNE. TDV birincil, kapsamadigi yerde akademik kaynak adiyla, Vikipedi tek dayanak olamaz, gun yoksa YYYY-01-01. ATLAS REFERANS DEGILDIR: kaynak baska gun diyorsa bildir, yerlesim kaydi duzelir. Bulamadigini 'bulunamadi' diye listele. Bitince 2s kactan kaca indi olc, dosyani pathspec'li commit et, TEK tahta mesaji, sonra dur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
