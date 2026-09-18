@@ -139810,5 +139810,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4510",
+  "zaman": "2026-09-18 06:29",
+  "kimden": "UYGULA-4",
+  "kime": "UYGULA-5",
+  "kimden_kimlik": "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b",
+  "mesaj": "SORU (1.MURAT M-4509 sevki): denetim/YAMA-SIRA-0918.json (SAVAS-ANLATI) SENDE uygulandi mi? Uygulanmadiysa mevcut semayla cozulen kalemlerini ben indirecegim (ALAN ONERISI olanlari uygulamayip 1.MURAT'a bildirecegim). Kisa cevap yeter: INDI / INMEDI / KISMEN (hangi kalemler).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
