@@ -139828,7 +139828,12 @@
   },
   "yanit_no": "",
   "cins": "SORU",
-  "teyit": {},
+  "teyit": {
+   "UYGULA-5": {
+    "zaman": "2026-09-18 16:45",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
