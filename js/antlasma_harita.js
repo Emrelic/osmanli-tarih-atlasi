@@ -133,6 +133,18 @@ function _ahBolgeleriUret(kayit) {
           .map(function (n) { return [n.lon, n.lat]; }));
       }
     }
+    // 🆕 DALGA-0066 H-0005 — `bolge.kutu` [lon0,lat0,lon1,lat1]: DOĞRUDAN bbox dikdörtgeni,
+    // ne `sinir_id` (HUKUKI_SINIRLAR'da kayıt yok) ne `noktalar` (nokta değil, bir BÖLGE) yeterli
+    // olduğu durumlar için — Lehistan'ın 1. Paylaşımı gibi, gerçek hat/çizgi kaynağı yok ama en
+    // azından kaba bir bölge sınırı (D-KATMAN'ın kendi D_SINIRLAR ailesindeki "D-YOK" araştırma
+    // kutularından TÜRETİLDİ, D023 — koordinat kendi başına üretilmedi). Kesinlik AÇIKÇA düşük:
+    // etiket + siyah kontur ile "kabaca bu bölge" gösteriyor, hassas sınır İDDİA ETMİYOR.
+    if (Array.isArray(bolge.kutu)) {
+      var kt = bolge.kutu;
+      var poligon = { type: "Polygon", coordinates: [[[kt[0], kt[1]], [kt[2], kt[1]], [kt[2], kt[3]], [kt[0], kt[3]], [kt[0], kt[1]]]] };
+      dolguFeat.push({ type: "Feature", properties: { renk: renk, kayit_id: null, etiket: bolge.etiket }, geometry: poligon });
+      if (!etiketAnkraj) etiketAnkraj = _ahPoligonCentroid(poligon);
+    }
     if (etiketAnkraj) {
       etiketFeat.push({ type: "Feature", properties: { etiket: bolge.etiket, renk: renk },
         geometry: { type: "Point", coordinates: etiketAnkraj } });

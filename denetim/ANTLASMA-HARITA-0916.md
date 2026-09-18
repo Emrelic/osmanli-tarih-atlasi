@@ -192,3 +192,62 @@ aletlerini gözden geçirmek isterlerse diye.
   eşleşme EKLENMEZ) elenecek.
 - 🟢 Yeni antlaşma kayıtları (D-GEOARAC'tan) `ANTLASMA_HARITALARI`ye eklendikçe `js/antlasma_harita.js`
   DEĞİŞMEZ — tasarım zaten antlaşma sayısından bağımsız (§6).
+
+## 12. DALGA-0066 H-0004 — "Rus yeşili üstünde pembe Lehistan" TEŞHİSİ (kod DEĞİŞMEDİ)
+
+Emre'nin gördüğü ekran görüntüsü: 1769-09-19, "Hotin Kalesi'nin Ruslara kaybı" maddesi, Rus yeşili
+zemin üstünde pembe (Lehistan) dolgu + iç diyagonal şerit (taralı görünüm). **Üç dosyamın da (js/
+d_katman.js, js/antlasma_harita.js, data/antlasma_haritalari.js) bu şeklin KAYNAĞI OLMADIĞI ölçüldü:**
+```
+js/d_katman.js         1769-09-19'da aktif TÜM Lehistan-taraflı D_SINIRLAR kayıtları (4 tanesi)
+                        kategori:"D-YOK" + hat:null — sinif "YOK", hem izinliSiniflar'da hem
+                        hat-varlık kontrolünde ELENİYOR. Çizilebilecek HİÇBİR kayıt yok.
+js/antlasma_harita.js   "Hotin kaybı" bir antlaşma (k:"antlasma") DEĞİL, k:"kayip" — ANTLASMA_
+                        HARITALARI'nda eşleşen hiçbir kayıt yok, düğme bile çıkmaz. Karlofça'nın
+                        kendi Lehistan bölgesi (aktif pencere 1699-1795, bu tarihi kapsıyor) yalnız
+                        kullanıcı O MADDEYİ açıp "Haritada gör"e TIKLARSA görünür — nokta/circle
+                        olarak (Suçava/Bar/Kamaniçe/Roman), POLİGON DEĞİL; görüntüdeki şekil poligon.
+data/hukuki_sinirlar.js 1769-09-19'da aktif TEK Lehistan kaydı `karlofca-lehistan-1699`, "nokta-
+(okunan, sahibi değil) kümesi" hat_tur — `_cKayitGeometrisi` bunun için dolgu ÜRETMEZ (nd.length<2).
+```
+**Renk eşleşmesi teşhisi güçlendiriyor:** `arac/renkler.py` — lehistan `#fc87c9` (PEMBE) · rusya
+`#4f7d4f` (YEŞİL) · habsburg→avusturya `#bdab3f` (HARDAL — görüntüdeki iç şeridin tonu). Görüntüdeki
+şeklin (opak DEĞİL, yarı saydam blend + iç diyagonal şerit = TARAMA deseni) DALGA-0066 H-0003'ün
+kendi tarifiyle ("taralı işgal gösterimi") BİREBİR örtüşüyor — H-0003 UI-HARITA'ya (app.js sahibi)
+verilmiş bir madde ve "Rus işgali taralı, Kırım düz" diyor, yani işgal/taralı mekanizması ZATEN
+Rusya için biliniyor. **Sonuç: bu şekil muhtemelen `data/yerlesimler*.js`nin `isg:` (işgal) alanına
+bağlı, app.js'in kendi taralı-örtü mekanizmasıyla çiziliyor — benim üç dosyamda değil.**
+🔴 Bu bir TEŞHİS, kesin TEYİT değil — app.js'e dokunmuyorum (§7, dosya bende değil) ve
+`isg:`in tam mekanizmasını kod okuyarak doğrulamadım (zaman/kapsam sınırı). **1.MURAT'a
+ISGAL-TARAMA'ya (koordinatörün adlandırdığı sahip) devredilmesi önerildi** — spesifik soru:
+Lehistan'ın bu bölgede (47-50°K, 30-35°D) 1769'da `isg:` kaydı var mı, varsa penceresi doğru mu.
+
+## 13. DALGA-0066 H-0005 — Lehistan'ın 1. Paylaşımı (1772), üç pay da AYIRT EDİLEBİLİR yapıldı
+
+Emre: Prusya'nın payı "koyu mavi" ile belirgin görünüyor ama Habsburg/Rusya'nınki kendi devlet
+rengine bürünüp kayboluyor. **TEŞHİS (yine kod kusuru DEĞİL):** üçü de yalnız normal petek dolgusu
+— Prusya'nın rengi (#2478d2 mavi) komşularından TESADÜFEN ayırt edilebiliyor, Rusya (#4f7d4f yeşil)
+ve Habsburg (#bdab3f hardal) KENDİ eski topraklarıyla AYNI renkte olduğu için "kaybolıyor". **Önceden
+hiçbir antlaşma haritası kaydı YOKTU** (`data/hukuki_sinirlar.js` ve `data/antlasma_haritalari.js`
+bu antlaşmayı hiç kapsamıyordu) — ÇÖZÜM burada, MADDE `lehistan-1-paylasim-1772` eklendi.
+
+**Şema genişletildi:** `bolgeler[].kutu` — `[lon0,lat0,lon1,lat1]` doğrudan bbox dikdörtgeni (ne
+`sinir_id` ne `noktalar` yeterliydi: `hukuki_sinirlar.js`de 0 kayıt, "bölge" bir nokta değil).
+`js/antlasma_harita.js`e üçüncü bir geometri yolu eklendi (`_ahBolgeleriUret`, sinir_id/noktalar'ın
+AYNI dolgu+etiket üretimine katılıyor).
+
+**Geometri kaynağı — kendi başına ÜRETİLMEDİ (D023):** `js/d_katman.js`nin kendi D_SINIRLAR
+ailesindeki, GERİYE-SARMA'nın G6-G7 dalgasında araştırılmış ama koordinatsız "D-YOK" kayıtlarından
+(`d1742-lh-ah` · `d1686-lh-ru` · `d1606-lh-alm-pr`) TÜRETİLDİ — dayanakları (Britannica Partitions
+of Poland/Silesian Wars/Wehlau-Oliva, Encyclopedia of Ukraine) o kayıtlarda ZATEN vardı.
+🔴 **Kesinlik AÇIKÇA düşük, kayıtta gizlenmiyor:** Rusya ve Prusya'nın kutuları o devletin
+Lehistan'la TÜM tarihî sınır bölgesini (1772+1793+1795 paylaşmalarının toplamını) kapsıyor, YALNIZ
+1772 payını değil — gerçek 1772 sınırı muhtemelen bu kutuların bir ALT kümesi. Habsburg'unki
+("1772 Galiçya" notlu d1742-lh-ah) daha dar/isabetli. Bu, H-0005'in ASIL şikâyetini (üç payın da
+görünür/ayırt edilebilir olması) ÇÖZÜYOR ama "kesin 1772 sınırı" iddia ETMİYOR — isabetli sınır
+istenirse ayrı bir araştırma turu (D-GEOARAC/D2-KOMSU) gerekir, kayıtta AÇIKÇA not edildi.
+
+**Doğrulama — gerçek `obGoster` ile, gerçek "BİRİNCİ TAKSİM" maddesiyle** (`devletler.js`nin
+`lehistan.kronoloji`sinden, `t:"1772-08-05"`): eşleşme bulundu, 3 dolgu + 3 etiket üretildi, "Haritada
+gör" düğmesi doğru çıktı, tıklanınca hata yok (harita "load" bu ortamda hâlâ ateşlenmiyor — önceki
+turlarla AYNI ağ kısıtı). Karlofça/Pasarofça/Ankara İtilafnâmesi kayıtlarında regresyon YOK.

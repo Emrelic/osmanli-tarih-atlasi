@@ -27,7 +27,12 @@
 //                       🆕 DALGA-0058 md.3b, Pasarofça: HUKUKI_SINIRLAR bu antlaşmayı hiç
 //                       kapsamıyor, noktalar doğrudan data/yerlesimler*.js'teki GERÇEK
 //                       koordinatlardan ve ilgili kronoloji maddesinin `kaynak:` alanından
-//                       kuruldu — her noktanın KENDİ `kaynak` metni ZORUNLU, uydurma yok) }
+//                       kuruldu — her noktanın KENDİ `kaynak` metni ZORUNLU, uydurma yok)
+//                    kutu: [lon0,lat0,lon1,lat1]  (🆕 DALGA-0066 H-0005 — ne sinir_id ne
+//                       noktalar yeterliyse: kaba bbox dikdörtgeni, D-KATMAN'ın kendi
+//                       D_SINIRLAR ailesindeki araştırılmış-ama-koordinatsız "D-YOK"
+//                       kayıtlarından TÜRETİLDİ, D023. Kesinlik AÇIKÇA düşük — kayıtta
+//                       `not` alanına yazılır, hassas sınır İDDİA EDİLMEZ) }
 //   not            KAPSAM DIŞI bırakılan bir tarafın ya da veri kalitesi bulgusunun gerekçesi
 
 window.ANTLASMA_HARITALARI = [
@@ -133,5 +138,48 @@ window.ANTLASMA_HARITALARI = [
        "tarihi için AYRI bir kaynak YOK — muhtemelen yuvarlak/genel bir tarih, bu antlaşmaya " +
        "ÖZGÜ bir kanıt değil. İkisi de D107 (\"bulunamadı, uydurulmadı\") gerekçesiyle " +
        "eklenmedi — Pasarofça'daki Ayamavra dersinin (bu dosyanın kendi kaydı) AYNI tekrarı."
+},
+{
+  // 🆕 DALGA-0066 H-0005 (1.MURAT/Emre, 18 Eylül) — "Lehistan'ın 1. paylaşımı haritasında
+  // Prusya'nın aldığı topraklar koyu mavi ile görünüyor ama Habsburg/Rusya'nınki hemen o
+  // devletlerin rengine bürünüyor, kimin nereleri aldığı belli olmuyor." TEŞHİS: bu bir kod
+  // kusuru DEĞİL — üçünün de kaba petek dolgusu KENDİ normal devlet rengiyle boyanıyor
+  // (Prusya #2478d2 mavi tesadüfen komşularından ayırt edilebiliyor, Rusya #4f7d4f yeşil VE
+  // Habsburg #bdab3f hardal KENDİ eski topraklarıyla aynı renkte, o yüzden "görünmüyor").
+  // BU KAYIT o sorunu ÇÖZÜYOR: üç payı da ayrı bir dolgu+siyah kontur+etiketle vurguluyor —
+  // "kimin nereleri aldığı" artık etiketten okunuyor, renk çakışması ne olursa olsun.
+  //
+  // GEOMETRİ — data/hukuki_sinirlar.js bu antlaşmayı HİÇ kapsamıyor (0 kayıt); js/d_katman.js
+  // 'ın kendi D_SINIRLAR ailesinde ÜÇ araştırılmış-ama-koordinatsız "D-YOK" kutusu VAR
+  // (d1742-lh-ah · d1686-lh-ru · d1606-lh-alm-pr) — kaynaklı ama KABA (±10-20 km, "TAHMİNİ"
+  // diye işaretli) sınır-bölgesi ipuçları. `bolge.kutu` bunlardan TÜRETİLDİ (D023 — koordinat
+  // kendi başına üretilmedi), dayanak alıntıları o kayıtların KENDİ `dayanak[]`inden.
+  // ⚠️ ÜÇÜ DE "kesinlik DÜŞÜK" — Rusya ve Prusya'nın kutuları o devletin Lehistan'la olan
+  // TÜM tarihî sınır bölgesini kapsıyor (1772/1793/1795 paylaşmalarının TOPLAMI, yalnız 1772
+  // DEĞİL); bu yüzden gerçek 1772 payından BÜYÜK gösterebilir. Habsburg'unki (d1742-lh-ah,
+  // "1772 Galiçya" notlu) daha dar/isabetli. Bu kayıtta AÇIKÇA yazılı, gizlenmiyor.
+  id: "lehistan-1-paylasim-1772",
+  antlasma_ad: "BİRİNCİ TAKSİM",
+  tarih: "1772-08-05",
+  bolgeler: [
+    { taraf: "habsburg", etiket: "Avusturya'ya bırakılan (Galiçya)", kutu: [18.8, 48.8, 24.5, 49.7],
+      not: "d1606-lh-ah/d1742-lh-ah (js/d_katman.js D_SINIRLAR) — dayanak: Britannica \"Partitions of Poland\" " +
+           "(1772-08-05 sözleşme, Sejm onayı 1773-09-30) + Britannica \"Silesian Wars\". Kutunun kendi notu: " +
+           "\"1772 Galiçya\" — üçünün en dar/isabetlisi." },
+    { taraf: "rusya", etiket: "Rusya'ya bırakılan", kutu: [23, 49.5, 36.5, 56.5],
+      not: "d1686-lh-ru (js/d_katman.js D_SINIRLAR) — dayanak: Encyclopedia of Ukraine (CIUS). ⚠️ Bu kutu " +
+           "kaydın KENDİ notuna göre \"1772-1795 paylaşmaları\"nın TOPLAMI, yalnız 1772 payı DEĞİL — " +
+           "1772'de gerçekte alınan pay bu kutunun bir ALT kümesidir, tam sınırı bu turda ölçülmedi." },
+    { taraf: "prusya", etiket: "Prusya'ya bırakılan (Kraliyet Prusyası)", kutu: [14.5, 51.5, 22.9, 55],
+      not: "d1606-lh-alm-pr (js/d_katman.js D_SINIRLAR) — dayanak: Britannica \"Treaty of Wehlau/Oliva\" + " +
+           "\"Partitions of Poland\". ⚠️ Bu kutu da Prusya-Lehistan'ın 1701'den beri TÜM sınır bölgesi, " +
+           "yalnız 1772 payı DEĞİL — aynı sınırlama Rusya'nınkiyle aynı." }
+  ],
+  not: "Üç `kutu` da D-KATMAN'ın G6-G7 dalgasında (GERİYE-SARMA-0916.md) araştırılmış ama KASITLI D-YOK " +
+       "işaretli bölge ipuçlarından türetildi — o oturumların kendi kesinlik notu \"kutu TAHMİNİ (±10-20 km); " +
+       "hat 1923 haritasından okunmadı\". 1772'ye ÖZGÜ isabetli sınır (özellikle Rusya/Prusya için, ki " +
+       "kutuları sonraki paylaşmaları da kapsıyor) İSTENİRSE ayrı bir araştırma turu gerekir — bu kayıt o " +
+       "turu BEKLEMEDEN, mevcut kaynaklı-ama-kaba veriyle, H-0005'in ASIL şikâyetini (üç payın da AYIRT " +
+       "EDİLEBİLİR olması) şimdi çözüyor."
 }
 ];
