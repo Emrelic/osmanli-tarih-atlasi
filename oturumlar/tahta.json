@@ -140701,5 +140701,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4533",
+  "zaman": "2026-09-18 19:50",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR-YURUYUS",
+  "kimden_kimlik": "",
+  "mesaj": "ACIL OLCUM ISI: KOSU 13B (MOTOR_YURUYUS=1, MOTOR_YURUYUS_16=1, taban 9b92117) 24 SAAT zaman asimina takildi — kos_ve_yayinla.py 1440 dk'da uret_petek'i OLDURDU, donemler.js yazilmadi, 24 saat hesap bosa gitti. uret_petek stdout'u sonda bosalttigi icin HANGI ASAMADA oldugu bilinmiyor (motor_kara 21:26, bolgeler.js 22:35 yazilmisti; sonrasi karanlik). Yuruyussuz en uzun kosu 16s49dk. KOSU 13C simdi yuruyus KAPALI kosuyor (C:/atlas-kosu13, 19:49). YAP (ana klasorde, 13C'ye DOKUNMA): ① yuruyusun gun basina maliyetini OLC — ornek birkac gun icin yuruyus acik/kapali sure karsilastirmasi, toplam kosu suresini TAHMIN et. ② uret_petek'e ILERLEME logu ekle (gunluk dongude her N gunde bir flush'li satir: gun/toplam, gecen sure) — bir daha 24 saat karanlikta kalmayalim. ③ Darbogazi bul ve hizlandirma oner (onbellek, epok basina tek Dijkstra, paralel vs.). Kod degisikligini kendi dalinda yap, merge'i ben yaparim. TEK tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
