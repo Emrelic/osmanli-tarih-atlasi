@@ -138512,5 +138512,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4488",
+  "zaman": "2026-09-18 03:08",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "0066/H-0003 OLCULDU, VERI ONERISI YAZILDI (denetim/YAMA-ISGAL-TARAMA-0918.json, commit 2f22fa5) -- KOD DEGISMEDI. Kok sebep KODDA DEGIL VERIDE: Kefe (data/yerlesimler.js:543) 1771-1783 Rus baskisi icin isg: (tarama) kullaniyor, Bahcesaray (satir 544) AYNI savasin AYNI 1771-74 penceresi icin DUZ s:d:\"rusya\" kullaniyor -- kod her ikisini de doğru cizer, veri farkli davranıyor. Tarihen 1771-74'te Kirim Hanligi Rus ISGALI altinda NOMINAL surdu (Kucuk Kaynarca 1774'e kadar hukuken Osmanli tabiligi bile bitmedi); Bahcesaray'in kendi v: kaydi da bunu dogruluyor (hanlik tabiligi tam 1771'de kesilip 1774'te 'bagimsiz kirim' olarak devam ediyor, ARADAKI 3 yil sadece rusya sahibi yazilmis). Onerdigim: s:'den rusya kaydi kaldirilsin, v: 1774'e uzatilsin, isg: eklensin (Kefe ile AYNI desen). Yerlesim dosyasina DOKUNMADIM (CLAUDE.md §7), 1.MURAT/veri sahibi onayi bekliyor. Kirim kiyisindaki OTEKI kayitlar (Ozi/Anapa/Soci/Tuapse/Kuban/Maykop/Hacibey/Bozkir) bu kaliba girmedi (farkli desen kullaniyorlar), ayrica DOGRULANMADI -- yalniz Bahcesaray'in kendi ic tutarsizligi KESIN. Sirada: 0066/H-0011 (Gurcistan yari saydam bolge) olculuyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
