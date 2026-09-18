@@ -264,8 +264,9 @@ BEKLEME     ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kont
                 get_session("self") ile ölçer (scratchpad UUID'si DEĞİL).
                 MODEL koordinatörün işidir: kıta hangi modelle açılmış olursa olsun, göreve
                 göre set_session_model ile çevrilir (pahalıya çevirmek Emre onayı ister).
-                "Hazır kıta" adı boşluk kanıtı değildir — list_events mesaj sayısı ölçülür;
-                iş alan kıtanın adı görev adına çevrilir (set_session_title).
+                "Hazır kıta" adı boşluk kanıtı değildir — list_events mesaj sayısı ölçülür.
+                🔴 GÖREV VERİLDİĞİ AN oturumun adı görev adına çevrilir (set_session_title,
+                ör. "MOTOR-SINAV · artımlı motor sınavı (Opus)") — Emre, 19 Eylül 2026.
 ② GÖREVLENDİRME Koordinatör tahtaya (ya da ilk mesaj olarak) yazar; mesajın İLK SATIRI
                 oturumun ADIDIR = tahta anahtarı, TAM yazılır (tahta TAM EŞİTLİK arar).
                 Şartname oturumlar/<dosya>.md. Dosya sahipliği görev tablosunda yazılıysa
@@ -282,6 +283,9 @@ BEKLEME     ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kont
                 CLAUDE.md) koordinatör commitler; devralınan dosya için "dosya senin" denir.
 ⑧ EMEKLİLİK     Teslimden sonra DUR. Bekçi açık kalır; yeni iş gelirse uyandırır. Emekli
                 oturuma yalnız işin doğrudan devamı verilir (varsayılan taze oturum).
+                🔴 İşi biten ve devamı beklenmeyen oturumu koordinatör EMEKLİYE AYIRIR:
+                "Atlas — emekli oturumlar" grubuna taşır (move_sessions) — Emre, 19 Eyl.
+                Açık teslimi/sorusu olan emekliye ayrılmaz; geri dönüş: gruptan çıkar.
 ⚠️ UYANDIRMA    TAHTA MESAJI DURAN OTURUMU UYANDIRMAZ — yalnız bekçisi açık olanı uyandırır.
                 Duran/bekçisiz oturuma görev, send_message ile gider (tahtaya da kayıt için
                 yazılır). 18 Eylül gecesi tahtaya yazılan görevler ~9 saat cevapsız kaldı.
