@@ -3063,6 +3063,7 @@ BOYALAR = {
     "zerma":                   ("Zerma (Djerma) Devletçikleri",        "#6c1290"),
     "zuni":                    ("Zuni (A:shiwi)",                      "#1e78c0"),
     "kabartay":                ("Kabartay (Kabardey) Beylikleri",    "#0c5a84"),
+    "cerkez":                  ("Çerkez Kabile Birlikleri (Batı)",   "#36cdd8"),
     # ================================================================
     # MERGE 5 EYLUL 2026 — 29 KIMLIK, TEK TURDA COZULDU
     # `renk_olc.py --oner` · artefakt: oneri-20260905-224505.txt

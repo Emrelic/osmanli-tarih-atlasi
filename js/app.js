@@ -1791,8 +1791,17 @@ harita.on("load", function () {
   // alan düz işgalci rengine döner (madde 54: Bosna 1908'de bu geçişi yapmalı).
   isgalDesenleriKur();
   harita.addSource("isgal", agirKaynak());
+  // 🔴 DÜZELTİLDİ (DALGA-0066 H-0011, ISGAL-TARAMA, 18 Eylül 2026):
+  // opaklık 0.85'e çıkarıldı (devir-dolgu ile AYNI, önceden 0.8 daha
+  // soluktu). Asıl sebep isgalDesenleriKur()'daki K=8 desen çözünürlüğü —
+  // büyük bir poligon uzaktan (düşük zoom) gösterilince WebGL deseni
+  // KÜÇÜLTÜR (minification) ve 8x8'lik ince çapraz şerit ORTALAMA bir
+  // solgun tona bulanıyor; kullanıcı "Gürcistan'da yarı saydam bir bölge"
+  // diye bildirdi (H-0011-1.png: Kabarday-Gürcistan arası Küçük Kaynarca
+  // "İşgal altında: rusya" katmanı). Çare uydurma değil — H-0001'de zaten
+  // "isgalci" oranı büyütüldü, burada da K büyütülüyor (bkz. isgalDesenleriKur).
   harita.addLayer({ id: "isgal-dolgu", type: "fill", source: "isgal",
-    paint: { "fill-pattern": ["get", "desen"], "fill-opacity": 0.8 } });
+    paint: { "fill-pattern": ["get", "desen"], "fill-opacity": 0.85 } });
   harita.addLayer({ id: "isgal-cizgi", type: "line", source: "isgal",
     layout: { "line-join": "round" },
     paint: { "line-color": ["get", "renk"], "line-width": 1.4,
@@ -3679,6 +3688,31 @@ function isgalLejanti(fs) {
            f.properties.renk + ' 0 62%,#8e0b22 62% 100%);background-size:8px 8px"></i> ' +
            f.properties.isgalci + "</span>";
   }).join("");
+  lejantYerlestir();
+}
+
+// 🆕 EKLENDİ (DALGA-0067 H-0002, ISGAL-TARAMA, 18 Eylül 2026) — "⑥ Motor tanı
+// hatları" katmanı AÇIKKEN haritada kısa bir açıklama göstersin. Katman
+// kendisi index.html'de zaten "VARSAYILAN KAPALI — son kullanıcı için değil,
+// tanı içindir" diye tarif ediliyordu (Emre'nin H-0008 kararı) ama bu açıklama
+// yalnız menüdeki checkbox etiketindeydi; kutuyu işaretleyip menüyü kapatan
+// biri çizgiyi haritada tekrar görünce ne olduğunu unutabiliyordu (H-0002
+// bunun ikinci sorulusu). devir/isgal-lejant ile AYNI desen: katman kapalıyken
+// hiç yer kaplamaz.
+function tanilejantiGuncelle(acik) {
+  var el = document.getElementById("tani-lejant");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "tani-lejant";
+    el.className = "devir-lejant isgal-lejant";
+    document.getElementById("harita").appendChild(el);
+  }
+  if (!acik) { el.style.display = "none"; lejantYerlestir(); return; }
+  el.style.display = "";
+  el.innerHTML = "<b>Motor tanı hatları</b>" +
+    '<span><i style="background:none;border-top:2px dashed #00bcd4"></i> nehre yaslanma</span>' +
+    '<span><i style="background:none;border-top:2px dashed #e65100"></i> sırta yaslanma</span>' +
+    '<span class="ek-alt">— geliştirici katmanı, son kullanıcı için değil</span>';
   lejantYerlestir();
 }
 
@@ -9804,9 +9838,11 @@ var obYerYokEl = document.getElementById("ob-yer-yok");
   if (localStorage.getItem("ucusKip")) ucusKipEl.value = localStorage.getItem("ucusKip");
   ucusKipEl.addEventListener("change", function () {
     localStorage.setItem("ucusKip", ucusKipEl.value);
-    // Pasife geçilince ekranda duran "pasif" uyarısı bayatlamasın.
-    if (ucusAcik() && obYerYokEl && /Pasif kip/.test(obYerYokEl.textContent))
-      obYerYokEl.textContent = "";
+    // 🔴 H-0013 sonrası SADELEŞTİRİLDİ: "Pasif kip" metni artık hiç
+    // basılmıyor (yukarıda kaldırıldı), o yüzden belirli bir dizgi aramaya
+    // gerek yok — pasiften aktif kipe geçilince kalan her türlü eski notu
+    // koşulsuz temizle.
+    if (ucusAcik() && obYerYokEl) obYerYokEl.textContent = "";
   });
 })();
 
@@ -9897,10 +9933,16 @@ function haritayiOlayaGotur(o, zorla) {
   // çünkü çağıranların niyetini ("bu bir ELLE tıklama") anlatıyor ve
   // ileride pasif dışında bir ayrım gerekirse yeri hazır.
   if (!ucusAcik()) {
-    // Sessiz kalınmaz: hiçbir şey yapmamak, kusurdan ayırt edilemez.
-    if (obYerYokEl) obYerYokEl.textContent =
-      "🛩 Pasif kip — harita bıraktığınız yerde duruyor. Geçiş biçimini " +
-      "kronoloji başlığındaki kutudan değiştirebilirsiniz.";
+    // 🔴 KALDIRILDI (DALGA-0066 H-0013, ISGAL-TARAMA, 18 Eylül 2026): bu
+    // hatirlatma HER TEK maddede tekrar basiliyordu — kullanici Pasif kipi
+    // kronoloji basligindaki kutudan ZATEN bilerek secti, her tiklamada
+    // ayni cumleyi tekrar tekrar gormek "kronoloji listesine karisan arayuz
+    // ipucu" olarak sikayet edildi. Eski yorumun gerekcesi ("sessiz
+    // kalinmaz") hala gecerli AMA konusu FARKLI: konum COZULEMEDIGINDE
+    // (asagidaki "📍 yer isaretlenmemis" dallari) sessiz kalinmaz, kipin
+    // KENDISI hakkinda degil. `obYerYokEl` burada TEMIZLENIR ki onceki
+    // maddenin "yer yok" notu yanlislikla asili KALMASIN.
+    if (obYerYokEl) obYerYokEl.textContent = "";
     return;
   }
   var hedef = olayKonumu(o);
@@ -11981,8 +12023,9 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
       // Kardeşi `haritayiOlayaGotur` ana kapıdan geçiyor; burası tek
       // başına kalmıştı. Aynı kip, aynı kural: harita bırakıldığı yerde.
       if (!ucusAcik()) {
-        if (obYerYokEl) obYerYokEl.textContent =
-          "🛩 Pasif kip — harita bıraktığınız yerde duruyor.";
+        // 🔴 KALDIRILDI (DALGA-0066 H-0013) — yukarıdaki `haritayiOlayaGotur`
+        // ile AYNI gerekçe: her maddede tekrarlanan kip hatırlatması gürültü.
+        if (obYerYokEl) obYerYokEl.textContent = "";
       } else {
         try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
       }
@@ -12432,6 +12475,14 @@ function katmanSeciciKur() {
           catch (e) { /* katman henüz yoksa sessiz geç — stil geç yüklenebilir */ }
         });
       }
+      // 🔴 EKLENDİ (DALGA-0067 H-0002, ISGAL-TARAMA, 18 Eylül 2026): "⑥ Motor
+      // tanı hatları" düğmesinin kendi etiketi menüde duruyor ama harita
+      // ÜZERİNDE hiçbir açıklama yoktu — düğme kapatılıp menü kapanınca
+      // kullanıcı çizgiyi tekrar gördüğünde ne olduğunu unutuyordu (H-0008'in
+      // aynısı, ikinci kez soruldu). Katman açıkken haritada da KISA bir not
+      // görünsün diye ayrı, küçük bir lejant eklendi (devir/isgal-lejant ile
+      // AYNI desen — yalnız katman açıkken var, `:empty` ile gizli).
+      if (a === "tani") tanilejantiGuncelle(acik);
 
       var say = document.getElementById("kat-sayi-" + a);
       if (say) {
