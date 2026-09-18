@@ -262,6 +262,10 @@ BEKLEME     ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kont
 ```
 ① AÇILIŞ        Emre oturumu açar ve adlandırır. Oturum CLAUDE.md'yi okur, kimliğini
                 get_session("self") ile ölçer (scratchpad UUID'si DEĞİL).
+                MODEL koordinatörün işidir: kıta hangi modelle açılmış olursa olsun, göreve
+                göre set_session_model ile çevrilir (pahalıya çevirmek Emre onayı ister).
+                "Hazır kıta" adı boşluk kanıtı değildir — list_events mesaj sayısı ölçülür;
+                iş alan kıtanın adı görev adına çevrilir (set_session_title).
 ② GÖREVLENDİRME Koordinatör tahtaya (ya da ilk mesaj olarak) yazar; mesajın İLK SATIRI
                 oturumun ADIDIR = tahta anahtarı, TAM yazılır (tahta TAM EŞİTLİK arar).
                 Şartname oturumlar/<dosya>.md. Dosya sahipliği görev tablosunda yazılıysa
