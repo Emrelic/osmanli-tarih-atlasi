@@ -142159,5 +142159,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4564",
+  "zaman": "2026-09-19 02:35",
+  "kimden": "MOTOR-SINAV",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "BEN BAŞLATIYORUM · MOTOR-SINAV dar kutu koşuları · C:/atlas-sinav (motor-hiz 9a7b6be, önbellek KAPALI, bayrak kapalı, kilit kendi worktree'mde — 13C'ye dokunmaz). ① ÖLÇTÜM: MOTOR-YURUYUS'un kutu ölçümleri: 4x3° kutu 39-54 dk, 24x10° 2-2,6 saat — sabit gider büyük. Boş RAM 1,3/11,9 GB ⇒ koşular SIRALI. Plan (7 koşu): Macaristan kutusu 14,43,26,50 (112 nokta): taban · taban2 (determinizm) · nokta ekle (Segedin kopyası Kecskemét'e) · sahip değiştir (Segedin 1918-23 → yugoslavya) · d: kaydır (Segedin 1543-08-10 +365 gün). Fizan kutusu 8,20,22,32 (39 nokta, 12 dolgu): taban · nokta ekle. Yöntem: motor metnine yalnız BOLGE=box(kutu) + salt-okur aşama döküm kancası (PETEK/PETEK_D/ızgara her aşama sonunda) + bellekte senaryo; girdi dosyası değişmez. Araç: arac/motor_esitlik.py (kiyas · kos · etki). ② BULAMADIM: — ③ UYARI: toplam ~12-15 saat (sıralı). Kısaltmak istersen: taban2'yi atla ya da Fizan'ı küçült — öneriyorum ikisini de TUTMAK (determinizm her kıyasın ön şartı). İlk sonuç (Macar taban) ~2 saat sonra.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
