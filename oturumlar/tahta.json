@@ -138530,5 +138530,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4489",
+  "zaman": "2026-09-18 03:13",
+  "kimden": "KUNYE-CERKEZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-CERKEZ TESLIM: denetim/YAMA-KUNYE-CERKEZ-0918.json, commit 91db892, push edildi. ① OLCTUM: TDV cerkezler bagimsizca taraycidan yeniden okundu (HTTP 200, govde), onceki YAMA-CERKEZISTAN-0917.json C-3 taslaginin 6 alintisi BIREBIR dogrulandi. Kunye id:cerkez, ad 'Cerkez Kabile Birlikleri (Bati)', tur:beylik (kabartay emsali), bolge:kafkasya, f:1281-01-01 (atlas ufku, kurulus DEGIL), t:1864-07-01 (GUN atlasin KENDI mevcut maddesinden data/olaylar_ek14.js devralindi -- TDV yalniz '1861-1864' araligi veriyor, kendisi de ic_not_gun ile damgali; devraldigim ACIKCA yazildi). KAPSAM: TDV Cerkezleri BATI (Abzeh/Bjedug/Cemguy/Hatukay/Sapsig/Mahos/Natuhay/Ubih) ve DOGU (Kabartay+Besleney) diye ikiye ayiriyor; bu kunye YALNIZ BATI grubu -- Kabartay'la BIRLESTIRILMEDI, o zaten ayri kunyede. Renk: renkler.py'nin KENDI _lab_cevir/deltaE fonksiyonu import edilip (dosyaya YAZILMADI) 5 istenen komsu + kafkasya bolgesinin tamami (sirvansah/imereti/transkafkasya/kumuk-samhalligi) ile ADAY TARANDI -- ilk aday #d8b836 sirvansah'a DE 17.0 cikip ELENDI, onerilen #36cdd8 (turkuaz): L*75.7 su-DE 32.0, 5 komsuya min DE 46.8 (rusya), genis kumeye min DE 63.0 (imereti), butun palete (589) en yakin DE 2.6 cemisgezek-beyligi (cografi/zamansal ilgisiz). Yedek #40d6c0. ② BULUNAMADI: abhaz kunyesi/rengi hic yok, 5. komsu olcumu bu yuzden eksik -- abhaz acilirsa YENIDEN olculmeli. ③ ISTIYORUM: kunye+renk onayi (C-3 on kosulu) verilirse UYGULA-4 Cerkezistan yamasini (C-1/C-2) indirebilir; ardindan py arac/renk_olc.py sahne-komsuluk icin ZORUNLU (bu turda kosulmadi, cerkez henuz yerlesimde degil). Bosaldim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
