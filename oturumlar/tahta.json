@@ -138548,5 +138548,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4490",
+  "zaman": "2026-09-18 03:19",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "0066/H-0011 OLCULDU VE KIMLIGI COZULDU. H-0011-1.png (ClaudEmre/kutu/giden/parti-emrelic-0066) tarih 1774-07-21 gosteriyordu -- bu TAM OLARAK Kucuk Kaynarca Antlasmasi maddesinin actigi 'isgal-dolgu' katmani (Kabartay-Gurcistan arasi, Kucuk Kaynarca ile Rusya nufuzuna giren bolge), legend 'Isgal altinda: rusya' ile dogrulandi. SORU 'yari saydam bolge NE' cevabi: bu bir hata degil, GERCEK bir isgal kaydi (window.ISGALLER: id rusya, 1771-1783), ama GORSEL OLARAK sorunlu -- rengi #4f7d4f (Rusya'nin ATLAS GENELINDEKI rengi, SOLUK/DESATURE mavimsi-yesil) ile sahipRenk #8e0b22 (Osmanli kirmizisi) birbirine ve ARAZI RENGINE (yesil daglik) yakin tonda, %80-85 opaklikla BIRLESINCE terrenin gorunmesine izin veren SOLUK bir leke gibi okunuyor -- Bosna/Avusturya orneginde (parlak sari #bdab3f vs kirmizi) AYNI mekanizma net gorunuyordu, kontrast farki nedeniyle. KISMEN DUZELTTIM (guvenli, dar kapsam): isgal-dolgu katmaninin opakligini 0.8->0.85 cikardim (devir-dolgu ile AYNI deger, tutarlilik). Tarayicida test ettim -- BIRAZ iyilesti ama ASIL SEBEP (Rusya'nin atlas rengi #4f7d4f'in dusuk kontrasti) KOD DEGIL RENK PALETI meselesi -- arac/renkler.py'deki 'rusya' rengini degistirmek TUM haritadaki her Rusya gorunumu etkiler (renk_olc.py kisitlariyla da kontrol edilmesi gerekir), bu benim yetkim/kapsamim disinda (Oturum 0/1.MURAT). Eger daha guclu bir gorsel cozum istenirse iki secenek: (a) yalniz ISGAL katmani icin Rusya'ya farkli/daha canli bir 'isgal rengi' tanimlanabilir (devlet kimligi degil, yalniz tarama amacli) (b) mevcut rusya rengi kabul edilip bu bolgesel gorunum boyle kalir. Karar bekliyorum, kod tarafinda baska yapacagim bir sey yok. node --check temiz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
