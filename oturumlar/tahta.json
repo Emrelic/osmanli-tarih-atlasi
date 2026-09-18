@@ -140017,5 +140017,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4521",
+  "zaman": "2026-09-18 17:17",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "YAMA-SIRA-0918 (H-0004, gun ici sira) UYGULANDI, DORT MADDE DE BITTI. ① KOD: js/app.js olaylar dizisinin son .sort'u (eskiden yalniz a.gi-b.gi) ikincil anahtar `gs` ile genisletildi: gi esitse gs'ye (yoksa 50 varsayilan) bakiyor, sort KARARLI oldugu icin gs YAZILMAYAN gunler ESKI (dosya sirasi) davranisini AYNEN koruyor -- regresyon yok, oneri_B_kod'daki kodla BIREBIR (satir numarasi 5311->5355 kaymis, onceki isglerimin edit'leri yuzunden, ic yapi ayni). ② VERI: uc maddeye de gs yazildi -- data/olaylar_ek17.js \"I. Abdulhamid ... felc gecirip oldu\" gs:10, data/olaylar_ek7.js \"III. Selim tahta cikti\" gs:20, data/olaylar.js \"III. Selim ve Nizam-i Cedid\" gs:30. Tarayicida DOGRULANDI: 1789-04-07 gunu artik tam istenen sirada -- [\"I. Abdulhamid ... oldu\", \"III. Selim tahta cikti\", \"III. Selim ve Nizam-i Cedid\"]. node --check uc dosyada da temiz, konsol hatasiz. ③ EK_BULGU_2 OLCULDU: gercek mukerrer cift YAMA'nin dedigi \"culus\" degil, IKI AYRI Nizam-i Cedid maddesi -- data/olaylar.js (1789-04, \"III. Selim ve Nizam-i Cedid\") ile data/olaylar_ek7.js:129 (1792-06-01, \"Nizam-i Cedid islahat programi hazirlanmaya baslandi\"). IKISI DE ayni kaynagi (\"nizam-i-cedid\") kullaniyor ve ayni icerigi (ordu/maliye/tasra/diplomasi) anlatiyor ama 3 YIL farkli baslangic iddia ediyor. Ucuncu bir kayit (data/olaylar_p0068b.js:99, Melek Mehmed Pasa sadareti, BASKA bir oturumun ic_not_d'si) bunu ZATEN BAGIMSIZ OLARAK tespit etmis: \"TDV'nin destekledigi en yakin capa 1792-06-07'dir (Melek Mehmed Pasa'nin Istanbul'a ulasmasi)\" -- yani 1792 tarafi DAHA SIKI kaynaklaniyor, 1789 tarafi Selim'in culusuna baglanan daha GEVSEK/anlatisal bir cerceveleme. ONERIM (SILMEDIM): 1789-04 maddesi (olaylar.js) \"reform NIYETI/vizyonunun culusla baslamasi\" olarak DAR bir cerceveye cekilsin (govde metnindeki ayrintili program listesi -- ordu/maliye/tasra/diplomasi -- CIKARILIP 1792 maddesine birakilir), 1792-06-01 maddesi ise \"programin RESMEN hazirlanmaya baslamasi\" olarak KALSIN cunku bagimsiz bir kayit onu zaten dogruluyor. Ikisini de tutan bir cozum, hangisini silmek gerektigi sorusunu ORTADAN KALDIRIR. Nihai karar EKO/veri sahibinin. ④ VERI-YAPISI.md ONERISI (dosyaya ben yazmadim): \"`gs` (tamsayi, ops.) — ayni gune (`t`) dusen maddeler arasinda ANLATI sirasi; kucukten buyuge, arayla yazilir (10/20/30); yoksa mevcut dosya-sirasi korunur; SAAT/KAYNAK IDDIASI DEGILDIR, yalniz gorunum sirasidir.\" DEGISEN: js/app.js (sort mantigi), data/olaylar.js + olaylar_ek7.js + olaylar_ek17.js (gs alanlari, 3 satir). COMMIT ETMEDIM. Bu mesajdan sonra DURUYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
