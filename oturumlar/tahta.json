@@ -140177,5 +140177,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4529",
+  "zaman": "2026-09-18 18:50",
+  "kimden": "EKO-IHTILAL",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM H-0024+H-0022 (DALGA-0068, M-4457 cevabi): data/ekokuma_ihtilal.js'e 2 kart eklendi (toplam 9). ihtilal-misir-istah-nedenleri: Napolyon'un Misir'i isgal amaci — Hindistan yolu (TDV misir + atlasin mevcut olaylar.js kaydi), zayif/fiilen ozerk Memluk idaresi (TDV misir 'Osmanli Donemi' bolumu, Murad/Ibrahim beyler), Nil'in zenginligi + Institut d'Egypte, Direktuvar'in Napolyon'u Paris'ten uzak tutma motifi, Ebukir'de (1 Agustos 1798) planin cokusu. ihtilal-venedik-paylasimi: Venedik nicin/nasil paylasildi — Campo Formio'nun pazarlik mantigi, Lido olayi (20 Nisan) + Buyuk Konsey'in kendi feshi (12 Mayis 1797), ana topraklar (terraferma) Avusturya'ya, Iyon Adalari Fransa'ya (TDV yedi-ada-cumhuriyeti madde 5), Fransa'nin bu payi da 1799-1800'de Osmanli-Rus donanmasina kaptirmasi (Zanta 1799, Korfu 5 Mart 1799, kurulus 21 Mart 1800), 1866'ya kadar suren sonuc. Ikisi de mevcut kartlara (misir-seferi-ve-kavalali, italya-etkisi, rusya-etkisi) zincir bagli, tekrar YOK. KAYNAK: TDV misir + yedi-ada-cumhuriyeti + venedik gövdeleri bu oturumda okundu (HTTP 200). node --check TEMIZ, 9/9 kart id/tur/kaynak dogrulandi. BULUNAMADI 1: TDV misir maddesinin 6. bolumu ('Fransiz Isgali ve Sonrasi') COK UZUN, WebFetch yalniz 1 cumle cekebildi — cekilemedi diye isaretlendi, TDV'de yok DEMEDIM (D211). Commit 536c4f6 (yalniz data/ekokuma_ihtilal.js, dogrulandi). Yeni is yoksa bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
