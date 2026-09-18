@@ -1,0 +1,36 @@
+{
+  "paket": "0067-BIHAC",
+  "madde": "DALGA-0067 · H-0005 (veri kısmı): 'Bihaç liva mıydı' — 1788-02-09 görselinde sancak merkezi işaretiyle görünüyor",
+  "tarih": "2026-09-18",
+  "yazan": "D2-KOMSU",
+  "durum": "ÖNERİ — yerleşim dosyasına YAZILMADI; uygulayıcı KOSU13-YAMA / 1.MURAT",
+  "dosya": "data/yerlesimler_ek.js · kayıt 'Bihaç (Bihać)' (satır ~360)",
+  "hukum": "1788'de Bihaç LİVA (sancak) MERKEZİ DEĞİLDİ. Kayıt 1592-06-19 → 1908-10-05 arasını kesintisiz k:2 (sancak merkezi) gösteriyor; TDV'ye göre 1699-1865 arası sancak kaldırılmış, Bihaç Bosna sancağına bağlıydı.",
+  "kaynak": {
+    "ad": "TDV İslâm Ansiklopedisi, 'Bihaç' (slug bihac, HTTP 200, gövde okundu 18 Eylül 2026)",
+    "alintilar": [
+      "Bihaç ve ona bağlı topraklar Osmanlı Devleti'nin en batıdaki sancağı durumundaydı.",
+      "Bihke sancağı kaldırılarak Bosna sancağına bağlandı.",
+      "1865'te yeniden sancak merkezi haline getirildi."
+    ],
+    "baglam": "İkinci cümle 'Karlofça Antlaşması'nın (1699) ardından Bihaç ve çevresi Osmanlılar'ın elinde kaldı, ancak …' diye başlıyor — kaldırılış Karlofça'ya bağlı, GÜN verilmiyor. 1865 için yalnız YIL."
+  },
+  "eski": { "kd": [{ "f": "1592-06-19", "t": "1908-10-05", "k": 2, "m": null }] },
+  "yeni": {
+    "kd": [
+      { "f": "1592-06-19", "t": "1699-01-26", "k": 2, "m": null },
+      { "f": "1699-01-26", "t": "1865-01-01", "k": 3, "m": null },
+      { "f": "1865-01-01", "t": "1908-10-05", "k": 2, "m": null }
+    ]
+  },
+  "gerekce_tarih": {
+    "1699-01-26": "Karlofça'nın imza günü — TDV kaldırılışı 'Karlofça Antlaşması'nın (1699) ardından' diye bağlıyor, kendi günü yok. Gün antlaşmadan devralındı (aynı olay/süreç; kayıt bunu yazar). Gerçek kaldırılış birkaç ay sonra olabilir — BULUNAMADI.",
+    "1865-01-01": "TDV yalnız yıl veriyor ⇒ YYYY-01-01."
+  },
+  "m_alani": "1699-1865 arası bağlı olduğu merkez: TDV 'Bosna sancağına bağlandı' diyor; Bosna sancağının o dönemdeki merkezi (Saraybosna / Travnik — TDV bosna-hersek eyalet merkezinin Travnik'e taşındığını yazıyor, sancak merkezini ayrıca vermiyor) BULUNAMADI ⇒ m:null bırakıldı; k:3 'alt kademe' demek için yeterli.",
+  "acik": [
+    "1878-09-18 (Avusturya-Macaristan işgali, kayıtta isg:) → 1908-10-05 arası idarî kademe TDV'de YOK; önerilen son dilim mevcut k:2'yi aynen sürdürüyor — değiştirilmedi, bilinmiyor.",
+    "Görseldeki İKİNCİ yeşil noktalı çember ve sembolün kendisinin anlamı BAĞLAMA'nın işi (DALGA-0067 H-0005 gösterim kısmı); bu yama yalnız Bihaç'ın veri kaydını kapsar.",
+    "kd dilimlerinin arayüzde 1788 tarihine doğru yansıdığı, uygulamadan sonra BAĞLAMA/UI tarafından gözle doğrulanmalı."
+  ]
+}
