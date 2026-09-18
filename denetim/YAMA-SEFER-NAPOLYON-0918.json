@@ -1,0 +1,709 @@
+{
+ "paket": "SEFER-NAPOLYON (DALGA-0068 H-0027 · H-0028 · H-0029)",
+ "tarih": "2026-09-18",
+ "yazan": "SEFER-1768 (Opus 1010) · sevk 1.MURAT M-4453",
+ "durum": "ÖNERİ — yerleşim ve kronoloji dosyalarına YAZILMADI. Yeni veri dosyası data/seferler_p0068.js yazıldı (index.html satırı UI'nin).",
+ "olcum": {
+  "atlas": "arac/girdi.py GIRDI_DOSYALARI 86 dosya; 22-34°K / 25-37°D kutusu 1799-04-01 kesiti",
+  "bulgu_H0027_H0029": "Fransız işgali yalnız 8 noktada: 7 kayıt (Kahire · İskenderiye · Dimyat · Asyut · Süveyş · Sina güneyi · Reşîd) TEK blok {f:1798-07-01, t:1801-10-09, kaynak:'kahire'} — TDV kahire bu iki günü VERMİYOR; El-Arîş ayrı (1799-02-18→1799-11-17, TDV aris). Delta ve Yukarı Mısır'daki 35 nokta (yerlesimler_afrika.js) + Asvan işgalsiz ⇒ harita Mısır'ı yamalı gösteriyor. Filistin'de (Gazze · Han Yûnus · Yafa) HİÇ işgal kaydı yok ⇒ Suriye maddeleri akarken harita değişmiyor (H-0029'un sebebi).",
+  "mevcut_oklar": "Kahire→Arîş→Gazze→Yafa→Akkâ yürüyüşü ve çekilişi İKİ KEZ kayıtlı: data/savaslar.js (a4-napolyon-akka-yuruyus-1799 · a4-napolyon-akka-cekilis-1799) ve data/seferler_ok103.js (id'siz iki kayıt). İkisi de index.html'e bağlı ⇒ harita aynı yolu iki kez çiziyor. Öneri: ok103 kopyaları silinsin (a4 kayıtları daha çok kaynaklı ve id'li). Sahibi 1.MURAT.",
+  "yeni_oklar": "data/seferler_p0068.js — 7 kayıt: Fransız filosu Toulon→Malta→İskenderiye (deniz, kesik çizgi) · İskenderiye→Damanhur→Rahmaniye→İmbabe→Kahire · Kahire→Hanka→Bilbîs→Salihiye · Desaix Kahire→Sediman→Tahta→Semhud→Asvan · Celile Akkâ→Nâsıra→Tabor · Osmanlı: Arîş→Hanka (Heliopolis 1800) · Osmanlı: Hanka→Kahire (1801). Sınav: 7/7 alan tam, 107 mevcut sefer kaydıyla çakışma 0; deniz geometrisi ne_10m_land ile sınandı (karada kalan yalnız liman uçları, ≤0,02°)."
+ },
+ "kaynak_kumesi": {
+  "akademik": [
+   "Fondation Napoléon, Chronologie de la Correspondance générale de Napoléon Bonaparte t.2 (1798-1799) ve t.3 (1800-1802) — napoleon.org (seferler_ok103.js ve savaslar.js a4 kayıtlarının da dayanağı)"
+  ],
+  "TDV_canli_okundu": [
+   "misir",
+   "kahire",
+   "iskenderiye",
+   "dimyat",
+   "asyut",
+   "suveys",
+   "aris",
+   "gazze",
+   "yafa",
+   "hayfa",
+   "akka",
+   "cezzar-ahmed-pasa",
+   "ebukir",
+   "yusuf-ziya-pasa",
+   "selim-iii",
+   "fransa",
+   "asvan",
+   "nablus",
+   "safed",
+   "malta",
+   "ibrahim-bey"
+  ],
+  "TDV_olu_302": [
+   "misir--ulke",
+   "resid",
+   "el-aris-antlasmasi",
+   "ceberti-abdurrahman",
+   "esna",
+   "kusayr",
+   "murad-bey"
+  ]
+ },
+ "yerlesim_yamalari": [
+  {
+   "ad": "Demenhûr (Damanhur)",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-08\",t:\"1801-05-09\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-08",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"8 JUILLET … Napoléon arrive à Damanhour\"",
+   "t": "1801-05-09",
+   "t_dayanak": "KOMŞU: Rahmaniye · NAPO-3 (napoleon.org, Chronologie CG t.3) \"9 mai 1801 … Lagrange et ses hommes abandonnent Ramanieh pour se réfugier au Caire\"",
+   "dikkat": true
+  },
+  {
+   "ad": "Dessûk",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-10\",t:\"1801-05-09\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-10",
+   "f_dayanak": "KOMŞU: Rahmaniye · NAPO-2 (napoleon.org, Chronologie CG t.2) \"10 JUILLET … Napoléon arrive à El-Rahmânieh sur le Nil\"",
+   "t": "1801-05-09",
+   "t_dayanak": "KOMŞU: Rahmaniye · NAPO-3 (napoleon.org, Chronologie CG t.3)",
+   "dikkat": true
+  },
+  {
+   "ad": "Kafrüşşeyh",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2) \"24 JUILLET … Napoléon entre au Caire\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Bürüllüs (Baltîm)",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Tanta",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Mahalletülkübrâ",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Şibînülkûm (Menûfiye)",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Benhâ (Kalyûbiye)",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Mansûre",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-08-10\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-08-10",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"10 AOÛT … Un petit détachement français réussit une retraite héroïque à Mansourah\" — Fransız varlığının İLK kaynaklı günü (alt sınır değil, tanıklık)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Mît Gamr",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Menzile",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Bilbîs (Şarkiye)",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-08-09\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-08-09",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"Napoléon passe à El-Khanqah, puis à Belbeis le 9\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": false
+  },
+  {
+   "ad": "Fâkûs",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-08-11\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-08-11",
+   "f_dayanak": "KOMŞU: Salihiye · NAPO-2 (napoleon.org, Chronologie CG t.2) \"11 AOÛT … Combat de Salheyeh\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Sâlihiyye",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-08-11\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-08-11",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"11 AOÛT … Combat de Salheyeh (nord-est du Caire, région de Chawkieh) : Ibrahim-Bey est refoulé vers Gaza\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": false
+  },
+  {
+   "ad": "Feyyûm",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-10-07\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-10-07",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"7 OCTOBRE … Victoire de Desaix sur Mourad-Bey à Sediman : les Français maîtrisent le Fayoum\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": false
+  },
+  {
+   "ad": "Atfîh",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-10-07\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-10-07",
+   "f_dayanak": "KOMŞU: Feyyum/Sediman · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Benî Süveyf",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-10-07\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-10-07",
+   "f_dayanak": "KOMŞU: Feyyum/Sediman · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Behnesâ",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1798-10-07\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-10-07",
+   "f_dayanak": "KOMŞU: Feyyum/Sediman · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Minye",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-08\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-08",
+   "f_dayanak": "KOMŞU: Tahta · NAPO-2 (napoleon.org, Chronologie CG t.2) \"8 JANVIER … Victoire de Davout à Tahtah (sud de Siout)\" — Desaix bu kasabalardan Tahta'dan ÖNCE geçti; komşu günü GEÇ tarafta kalır (fazla göstermez)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Mellevî",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-08\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-08",
+   "f_dayanak": "KOMŞU: Tahta · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Deyrût",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-08\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-08",
+   "f_dayanak": "KOMŞU: Tahta · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Tahtâ",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-08\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-08",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"8 JANVIER … Victoire de Davout à Tahtah\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": false
+  },
+  {
+   "ad": "Ahmîm",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-08\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-08",
+   "f_dayanak": "KOMŞU: Tahta · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Cirge (Girga)",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-08\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-08",
+   "f_dayanak": "KOMŞU: Tahta · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Ferşût",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-22\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-22",
+   "f_dayanak": "KOMŞU: Semhud · NAPO-2 (napoleon.org, Chronologie CG t.2) \"22 JANVIER … Grande victoire de Desaix à Samhoud\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Kına",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-22\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-22",
+   "f_dayanak": "KOMŞU: Semhud · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Kûs",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-22\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-22",
+   "f_dayanak": "KOMŞU: Semhud · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Uksur (Luksor)",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-01-22\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-22",
+   "f_dayanak": "KOMŞU: Semhud · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Esna",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-02-01\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-02-01",
+   "f_dayanak": "KOMŞU: Asvan · NAPO-2 (napoleon.org, Chronologie CG t.2) \"1er FÉVRIER … Victoire de Desaix à Assouan\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Edfû",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-02-01\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-02-01",
+   "f_dayanak": "KOMŞU: Asvan · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Kûm Ombo",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-02-01\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-02-01",
+   "f_dayanak": "KOMŞU: Asvan · NAPO-2 (napoleon.org, Chronologie CG t.2)",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Asvan",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-02-01\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-02-01",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"1er FÉVRIER … Victoire de Desaix à Assouan\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": false
+  },
+  {
+   "ad": "Kusayr",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-05-29\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-05-29",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"29 MAI … Belliard entre dans le port de Kosseir\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Gazze",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-02-25\",t:\"1799-05-24\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-02-25",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"25 FÉVRIER … Napoléon entre à Gaza\"",
+   "t": "1799-05-24",
+   "t_dayanak": "ALT SINIR — NAPO-2 (napoleon.org, Chronologie CG t.2) \"24 MAI … En route pour Le Caire, Napoléon arrive à Jaffa\"; Gazze Yafa'nın güneyinde, dönüşte SONRA geçildi (gazze TDV: \"Kahire'ye dönüşte Gazze'ye uğrayan Napolyon\"); çıkış günü bulunamadı",
+   "dikkat": true
+  },
+  {
+   "ad": "Han Yûnus",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-02-25\",t:\"1799-05-24\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-02-25",
+   "f_dayanak": "KOMŞU: Gazze · NAPO-2 (napoleon.org, Chronologie CG t.2) (Han Yunus Arîş-Gazze yolunda; kendi günü bulunamadı)",
+   "t": "1799-05-24",
+   "t_dayanak": "KOMŞU: Gazze (ALT SINIR, yukarıda)",
+   "dikkat": true
+  },
+  {
+   "ad": "Yafa",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg EKLE (kayıtta Fransız isg yok)",
+   "yeni_ham": "{f:\"1799-03-07\",t:\"1799-05-24\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-03-07",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"7 MARS … Prise et pillage de Jaffa\" — ÇELİŞKİ: yafa (TDV) \"6 Mayıs 1799\" diyor; o gün Akkâ kuşatması sürerken, kronolojik olarak imkânsız (seferler_ok103.js aynı çelişkiyi 2 Eylül'de bildirmiş)",
+   "t": "1799-05-24",
+   "t_dayanak": "ALT SINIR — NAPO-2 (napoleon.org, Chronologie CG t.2) \"24 MAI … Napoléon arrive à Jaffa\" (dönüşte); ayrılış günü bulunamadı",
+   "dikkat": true
+  },
+  {
+   "ad": "Kahire",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg DEĞİŞTİR (kayıt düzeyinde; aynı ham metin 7 kayıtta geçiyor — D001)",
+   "eski_ham": "{f:\"1798-07-01\",t:\"1801-10-09\",d:\"fransa-cumhuriyet\",kaynak:\"kahire\"}",
+   "yeni_ham": "{f:\"1798-07-24\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-24",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"24 JUILLET … Napoléon entre au Caire\" (22 Temmuz kapitülasyon)",
+   "t": "1801-07-17",
+   "t_dayanak": "yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\"",
+   "dikkat": false
+  },
+  {
+   "ad": "İskenderiye",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg DEĞİŞTİR (kayıt düzeyinde; aynı ham metin 7 kayıtta geçiyor — D001)",
+   "eski_ham": "{f:\"1798-07-01\",t:\"1801-10-09\",d:\"fransa-cumhuriyet\",kaynak:\"kahire\"}",
+   "yeni_ham": "{f:\"1798-07-01\",t:\"1801-08-31\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-01",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"1er JUILLET … Débarquement … près du port d'Alexandrie\" (f DEĞİŞMİYOR; alınış 2 Temmuz · iskenderiye TDV \"30 Haziran\" — çelişki bildirildi)",
+   "t": "1801-08-31",
+   "t_dayanak": "NAPO-3 (napoleon.org, Chronologie CG t.3) \"31 août 1801 … À Alexandrie, Menou signe la capitulation de l'armée d'Orient\" · misir (TDV) \"Ağustos 1801'de Mısır'ı terketmek zorunda kaldılar\"",
+   "dikkat": false
+  },
+  {
+   "ad": "Reşîd (Rosetta)",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg DEĞİŞTİR (kayıt düzeyinde; aynı ham metin 7 kayıtta geçiyor — D001)",
+   "eski_ham": "{f:\"1798-07-01\",t:\"1801-10-09\",d:\"fransa-cumhuriyet\",kaynak:\"kahire\"}",
+   "yeni_ham": "{f:\"1798-07-01\",t:\"1801-04-19\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-01",
+   "f_dayanak": "DEĞİŞMİYOR — Reşid'in alınış günü okunan kaynaklarda BULUNAMADI (mevcut gün kaynaksız)",
+   "t": "1801-04-19",
+   "t_dayanak": "NAPO-3 (napoleon.org, Chronologie CG t.3) \"19 avril 1801 … Capitulation de la garnison française du Fort Julien (Rosette)\"",
+   "dikkat": true
+  },
+  {
+   "ad": "Asyut",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg DEĞİŞTİR (kayıt düzeyinde; aynı ham metin 7 kayıtta geçiyor — D001)",
+   "eski_ham": "{f:\"1798-07-01\",t:\"1801-10-09\",d:\"fransa-cumhuriyet\",kaynak:\"kahire\"}",
+   "yeni_ham": "{f:\"1799-01-08\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-01-08",
+   "f_dayanak": "KOMŞU: Tahta · NAPO-2 (napoleon.org, Chronologie CG t.2) \"Tahtah (sud de Siout)\" — mevcut 1798-07-01 KAYNAKSIZ ve Desaix Kahire'den ancak 25 Ağustos 1798'de çıktı",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Süveyş",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg DEĞİŞTİR (kayıt düzeyinde; aynı ham metin 7 kayıtta geçiyor — D001)",
+   "eski_ham": "{f:\"1798-07-01\",t:\"1801-10-09\",d:\"fransa-cumhuriyet\",kaynak:\"kahire\"}",
+   "yeni_ham": "{f:\"1798-11-08\",t:\"1801-07-17\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-11-08",
+   "f_dayanak": "NAPO-2 (napoleon.org, Chronologie CG t.2) \"8 NOVEMBRE … Eugène de Beauharnais … occupe le port de Suez\"",
+   "t": "1801-07-17",
+   "t_dayanak": "KOMŞU: Kahire · yusuf-ziya-pasa (TDV) \"Sadrazam 17 Temmuz 1801'de merasimle Kahire'ye girerek\" — NAPO-3 Belliard kapitülasyonu 27 Haziran 1801 \"des troupes françaises en Égypte\" (İskenderiye hariç)",
+   "dikkat": true
+  },
+  {
+   "ad": "Dimyat",
+   "dosya": "data/yerlesimler.js",
+   "islem": "isg DEĞİŞTİR (kayıt düzeyinde; aynı ham metin 7 kayıtta geçiyor — D001)",
+   "eski_ham": "{f:\"1798-07-01\",t:\"1801-10-09\",d:\"fransa-cumhuriyet\",kaynak:\"kahire\"}",
+   "yeni_ham": "{f:\"1798-07-01\",t:\"1801-10-09\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1798-07-01",
+   "f_dayanak": "DEĞİŞMİYOR — dimyat (TDV) yalnız \"Fransızlar aynı yıl Dimyat'ı alarak\" diyor (gün yok)",
+   "t": "1801-10-09",
+   "t_dayanak": "DEĞİŞMİYOR — dimyat (TDV) \"İngilizler Dimyat'ı işgal edip Osmanlılar'a geri verdiler\" (gün yok)",
+   "dikkat": true
+  },
+  {
+   "ad": "El-Arîş",
+   "dosya": "data/yerlesimler_afrika.js",
+   "islem": "isg DEĞİŞTİR (kayıt düzeyinde; aynı ham metin 7 kayıtta geçiyor — D001)",
+   "eski_ham": "{f:\"1799-02-18\",t:\"1799-11-17\",d:\"fransa-cumhuriyet\",kaynak:\"aris\"}",
+   "yeni_ham": "{f:\"1799-02-18\",t:\"1799-12-28\",d:\"fransa-cumhuriyet\",kaynak:\"SEFER-1768 NAPOLYON-0918\"}",
+   "f": "1799-02-18",
+   "f_dayanak": "aris (TDV) \"18 Şubat 1799'da Napolyon tarafından işgal edilen\" (DEĞİŞMİYOR; NAPO-2 20 Şubat)",
+   "t": "1799-12-28",
+   "t_dayanak": "yusuf-ziya-pasa (TDV) \"sadrazam 28 Aralık 1799'da Arîş'in muhasarasını zaferle sonuçlandırdı\" · NAPO-2 (napoleon.org, Chronologie CG t.2) \"29-30 DÉCEMBRE … Les Turcs prennent le fort d'El-Arich\" — ÇELİŞKİ: aris (TDV) \"aynı yılın 17 Kasımında … geri aldılar\". İki kaynak Aralık sonu diyor; TDV kendi içinde çelişiyor, taraf seçimi 1.MURAT'ın",
+   "dikkat": true
+  }
+ ],
+ "yama_ozeti": {
+  "isg_ekle": 36,
+  "isg_degistir": 7,
+  "dikkat_false_kaynakli": [
+   "Bilbîs (Şarkiye)",
+   "Sâlihiyye",
+   "Feyyûm",
+   "Tahtâ",
+   "Asvan",
+   "Kahire",
+   "İskenderiye"
+  ],
+  "dikkat_true": "komşu günü (CLAUDE.md §4 şartlı serbest: komşunun günü KENDİ kaynağına dayanıyor · hedefte gün yok · aynı sefer · yakın konum · kayda 'KOMŞU: <yer> · <kaynak>' yazıldı; zincirleme devralma YOK — her komşu kaynaklı bir istasyondur) ya da ALT SINIR. İstenirse yalnız dikkat:false olanlar indirilir; o zaman Mısır yamalı kalır.",
+  "gerekce_komsu": "Emre H-0027: 'işgal ettiği tüm toprakları da aynı renge taramalı'. Delta/Nil kasabalarının kendi günü kaynakta yok; taranmazsa harita Fransız bölgesinin ortasında Osmanlı adacıkları gösterir (bugünkü hâl)."
+ },
+ "ayrica_karar": [
+  {
+   "kayit": "Sina güneyi (data/yerlesimler.js)",
+   "durum": "mevcut isg 1798-07-01→1801-10-09 (kaynak:'kahire')",
+   "bulgu": "Güney Sina'da Fransız varlığı okunan hiçbir kaynakta YOK (NAPO-2 yalnız Süveyş ve Musa pınarlarını anıyor, 28 Aralık 1798)",
+   "oneri": "isg SİLİNSİN ya da Süveyş'e bağlansın — karar 1.MURAT; bu yama dokunmadı",
+   "dikkat": true
+  },
+  {
+   "kayit": "Ebûkîr (data/yerlesimler_afrika.js)",
+   "durum": "isg yok",
+   "bulgu": "Fransız kalesi; Osmanlı çıkarması Temmuz 1799'da kaleyi kısa süre tuttu (NAPO-2: 2 Ağustos 1799 'Reddition du fort d'Aboukir'); İngilizler 8 Mart 1801'de çıktı (TDV ebukir). Başlangıç günü bulunamadı ⇒ yazılmadı",
+   "dikkat": true
+  },
+  {
+   "kayit": "Katye (data/yerlesimler_afrika.js)",
+   "durum": "isg yok",
+   "bulgu": "Arîş yolundaki Fransız karakolu; gün bulunamadı ⇒ yazılmadı"
+  },
+  {
+   "kayit": "Celile — Hayfa · Nâsıra · Safed",
+   "durum": "atlasta NOKTA YOK",
+   "bulgu": "TDV hayfa: 'Hayfa 1799'da Fransızlar tarafından alındıysa da Akkâ kuşatmasının başarısızlıkla sonuçlanması üzerine terkedildi' · TDV safed: 'Akkâ muhasarasından önce Safed'e girdi' · NAPO-2 Nâsıra/Tabor Nisan 1799. Noktasız bölge Akkâ peteğine emiliyor (CLAUDE.md §2) ⇒ işgal çizilemez.",
+   "oneri": "NOKTA oturumuna: Hayfa · Nâsıra · Safed noktaları (Osmanlı dönemi kaynaklı) + isg fransa-cumhuriyet Mart-Mayıs 1799"
+  },
+  {
+   "kayit": "Nablus",
+   "bulgu": "Fransızlar Nablus'a girmedi (NAPO-2: yalnız 'Kakoun (ouest de Naplouse)' çarpışması) ⇒ işgal YOK, doğru"
+  },
+  {
+   "kayit": "Vâhât (Hârice · Dâhile · Ferâfire · Bahriye · Sîva) · Mersâ Matruh · Sellûm · Tûr · Sefâce · Ebû Ramâd · Halâib",
+   "bulgu": "Fransız işgali kaynakta yok ⇒ isg yazılmadı (doğru)"
+  }
+ ],
+ "kronoloji_onerileri": [
+  {
+   "no": "KN-1",
+   "t": "1798-07-24",
+   "b": "Piramitler Muharebesi ve Napolyon'un Kahire'ye girişi",
+   "gun": "21 Temmuz 1798 (Piramitler/İmbabe) · 22 Temmuz Kahire'nin teslimi · 24 Temmuz giriş",
+   "yer_id": "Kahire",
+   "kaynak": "NAPO-2 · kahire (TDV)",
+   "baglar": "Kahire isg f + Delta komşu günleri + Damanhur (16 gün) + Dessûk (14 gün)"
+  },
+  {
+   "no": "KN-2",
+   "t": "1798-08-11",
+   "b": "Salihiye çarpışması — İbrahim Bey'in Gazze'ye çekilmesi",
+   "gun": "11 Ağustos 1798",
+   "yer_id": "Sâlihiyye",
+   "kaynak": "NAPO-2 · gazze (TDV)",
+   "baglar": "Bilbîs 08-09 · Mansûre 08-10 · Fâkûs · Salihiye"
+  },
+  {
+   "no": "KN-3",
+   "t": "1798-10-07",
+   "b": "Sediman muharebesi — Feyyum'un Fransız eline geçmesi",
+   "gun": "7 Ekim 1798",
+   "yer_id": "Feyyûm",
+   "kaynak": "NAPO-2",
+   "baglar": "Feyyum · Atfîh · Benî Süveyf · Behnesâ"
+  },
+  {
+   "no": "KN-4",
+   "t": "1798-11-08",
+   "b": "Süveyş'in Fransızlarca işgali",
+   "gun": "8 Kasım 1798",
+   "yer_id": "Süveyş",
+   "kaynak": "NAPO-2",
+   "baglar": "Süveyş"
+  },
+  {
+   "no": "KN-5",
+   "t": "1799-01-22",
+   "b": "Semhud muharebesi — Desaix'nin Yukarı Mısır'ı ele geçirmesi",
+   "gun": "8 Ocak 1799 Tahta · 22 Ocak Semhud · 1 Şubat Asvan",
+   "yer_id": "Kına",
+   "kaynak": "NAPO-2",
+   "baglar": "Tahta/Asyut/Minye/Mellevî/Deyrût/Ahmîm/Cirge (14 gün) · Ferşût/Kına/Kûs/Luksor · Asvan/Esna/Edfû/Kûm Ombo (10 gün)"
+  },
+  {
+   "no": "KN-6",
+   "t": "1799-02-25",
+   "b": "Napolyon'un Gazze'ye girişi",
+   "gun": "25 Şubat 1799",
+   "yer_id": "Gazze",
+   "kaynak": "NAPO-2 · gazze (TDV)",
+   "not": "mevcut 1799-02-18 Arîş maddesi pencereyi zaten kapatıyor; bu madde H-0029 için haritada adım göstermek amacıyla",
+   "istege_bagli": true
+  },
+  {
+   "no": "KN-7",
+   "t": "1799-03-07",
+   "b": "Yafa'nın Fransızlarca alınması ve esirlerin katli",
+   "gun": "7 Mart 1799 (katil 9 Mart)",
+   "yer_id": "Yafa",
+   "kaynak": "NAPO-2 · yafa (TDV; TDV'nin '6 Mayıs 1799' günü kronolojik olarak imkânsız, kullanılmadı)",
+   "baglar": "Yafa isg f"
+  },
+  {
+   "no": "KN-8",
+   "t": "1799-05-29",
+   "b": "Belliard'ın Kusayr limanını alması",
+   "gun": "29 Mayıs 1799",
+   "yer_id": "Kusayr",
+   "kaynak": "NAPO-2",
+   "baglar": "Kusayr isg f (en yakın mevcut madde 1799-05-20 Akkâ — ilgisiz)"
+  },
+  {
+   "no": "KN-9",
+   "t": "1799-12-28",
+   "b": "El-Ariş'in Osmanlılarca geri alınması",
+   "gun": "28 Aralık 1799 (TDV yusuf-ziya-pasa; NAPO-2 29-30 Aralık)",
+   "yer_id": "El-Arîş",
+   "kaynak": "yusuf-ziya-pasa (TDV) · NAPO-2",
+   "dikkat": "El-Arîş t yaması kabul edilirse"
+  },
+  {
+   "no": "KN-10",
+   "t": "1800-03-20",
+   "b": "Heliopolis (Hanka) muharebesi — sadrazam ordusunun bozgunu",
+   "gun": "20 Mart 1800",
+   "yer_id": "Kahire",
+   "kaynak": "yusuf-ziya-pasa (TDV) · NAPO-3",
+   "istege_bagli": true,
+   "not": "harita değişmez; p0068-yusuf-ziya-heliopolis-1800 okunun maddesi"
+  },
+  {
+   "no": "KN-11",
+   "t": "1801-04-19",
+   "b": "Reşid'de Julien kalesinin teslimi; Fransızların Rahmaniye'den çekilmesi",
+   "gun": "19 Nisan 1801 · Rahmaniye 9 Mayıs 1801",
+   "yer_id": "Reşîd (Rosetta)",
+   "kaynak": "NAPO-3",
+   "baglar": "Reşîd t · Damanhur/Dessûk t (20 gün)"
+  },
+  {
+   "no": "KN-12",
+   "t": "1801-07-17",
+   "b": "Sadrazam Yûsuf Ziyâ Paşa'nın Kahire'ye girişi",
+   "gun": "31 Mayıs 1801 Müneyyer · 27 Haziran Belliard'ın kapitülasyonu · 17 Temmuz giriş",
+   "yer_id": "Kahire",
+   "kaynak": "yusuf-ziya-pasa (TDV) · NAPO-3",
+   "baglar": "Kahire ve bütün iç Mısır isg t"
+  },
+  {
+   "no": "KN-13",
+   "t": "1801-08-31",
+   "b": "Menou'nun İskenderiye'de teslim olması — Fransız ordusunun Mısır'dan çıkışı",
+   "gun": "31 Ağustos 1801",
+   "yer_id": "İskenderiye",
+   "kaynak": "NAPO-3 · misir (TDV 'Ağustos 1801')",
+   "baglar": "İskenderiye isg t"
+  }
+ ],
+ "celiskiler_ve_notlar": [
+  "Mevcut madde 1801-10-09 'Mısır'ın Fransızlardan tahliyesi' kaynak:'misir' — TDV misir 'Ağustos 1801' diyor, 9 Ekim günü o maddede YOK (hassasiyet kaynağı aşıyor, CLAUDE.md §4). Kahire (17 Temmuz) ve İskenderiye (31 Ağustos) günleri ayrı maddelere (KN-12 · KN-13) alınırsa bu madde ya silinir ya kaynağı düzeltilir — karar 1.MURAT.",
+  "El-Ariş geri alınışı: TDV aris 17 Kasım 1799 · TDV yusuf-ziya-pasa 28 Aralık 1799 · NAPO-2 29-30 Aralık 1799 — TDV kendi içinde çelişiyor.",
+  "Yafa: TDV yafa '6 Mayıs 1799' (imkânsız; Akkâ kuşatması 19 Mart'ta başladı) · NAPO-2 7 Mart 1799 — seferler_ok103.js 2 Eylül'de aynı çelişkiyi bildirmiş.",
+  "İskenderiye: TDV iskenderiye '30 Haziran 1798'de … ele geçirdiler' · NAPO-2 çıkarma 1 Temmuz, alınış 2 Temmuz. Mevcut f 1798-07-01 (çıkarma günü) korundu.",
+  "TDV iskenderiye 'donanmalarının 1 Ağustos 1798'de … mağlûp olmasının ardından … şehri terkettiler' cümlesi Fransızların 1798'de İskenderiye'yi terkettiği gibi okunabiliyor; NAPO-3 1801'e kadar Fransız varlığını belgeliyor — cümle 1801'i anlatıyor olmalı (yan cümle ayrıştırma riski, CLAUDE.md §4 ⑥).",
+  "Mısır'daki 7 kaydın mevcut kaynak:'kahire' damgası iki günü de taşımıyor — bu yama o damgayı kayıt bazında gerçek dayanakla değiştiriyor."
+ ]
+}
