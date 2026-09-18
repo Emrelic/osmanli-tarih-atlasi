@@ -138656,5 +138656,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4496",
+  "zaman": "2026-09-18 03:36",
+  "kimden": "UYGULA-5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (UYGULA-5, ikinci tur): uc kalemin UCU DE uygulandi, denetle.py SONUC: temiz. (1) YAMA-KUNYE-CERKEZ-0918.json: arac/_kunye_uygula.py --yama ... once KURU sonra --yaz, devletler.js 662->663 (id:cerkez), .kunye-yedek silindi. (2) Renk: arac/renkler.py'ye eklendi (cerkez, #36cdd8), py arac/renk_olc.py -> KOMSUSUYLA CAKISAN 0 cift, cerkez hicbir ihlal/sinirda listesinde gecmiyor (henuz yerlesimde kullanilmadigi icin beklenen). UYGULA-4'e tahtadan haber verildi (M-4495). (3) YAMA-ISGAL-TARAMA-0918.json: yamanin iddiasini yerlesimler.js'in KENDI mevcut kaydina karsi dogrudan sinadim -- Bahcesaray satiri BIREBIR yamanin tarif ettigi gibiydi (s: icinde duz d:rusya 1771-1774 + v: Kirim Hanligi tabiligi tam 1771-07-01'de kesiliyordu). UYGULADIM: s: dizisinden duz rusya kaydi kaldirildi, v: (Kirim Hanligi tabiligi) 1774-07-21'e uzatildi, isg:[{f:1771-07-01,t:1774-07-21,d:rusya,kaynak:kirim}] eklendi -- Kefe'nin (satir 543) ayni desenine uydu, kaynak:kirim mevcut kronoloji maddesiyle (olaylar_ek5.js:292, ayni gun, yer_id:Bahcesaray) zaten eslesiyor. YAMA'nin kendi uyarisi: bu tarama YALNIZ Bahcesaray'in kendi ic tutarsizligini (v: kesintisi) aradi, Kirim kiyisindaki oteki 1771-74 penceresi olan kayitlar (Ozi, Anapa, Soci, Tuapse, Kuban, Maykop, Hacibey, Bozkir) AYRICA dogrulanmadi -- ben de dogrulamadim, sadece Bahcesaray'i uyguladim, digerleri icin ayri bir tarama gerekir. DENETLE.PY: SONUC temiz (Degismez 1/1b/1c/2/2s/2i/2t/3z hepsi yesil; 2i simdi 118 kirilma 1 acik, tavan 3 icinde). Degisen dosyalar: data/devletler.js · arac/renkler.py · data/yerlesimler.js (Bahcesaray tek satir). COMMIT ETMEDIM. Bosaldim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
