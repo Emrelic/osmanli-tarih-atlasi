@@ -383,6 +383,17 @@ window.EKOKUMA_RIVAYET = [
   olay:["1770-07-06"],
   kaynak:"Bernard Lewis, The Emergence of Modern Turkey, Oxford University Press, 1961 (ikincil aktarım, birincil metin okunmadı)" },
 
+// ── 34 · DALGA-0068 madde 4 — I. Abdülhamid'in ölümüne yol açan haber ───────
+{ id:"tartisma-i-abdulhamid-ozi-haberi-gizlenmesi", tur:"tartisma",
+  baslik:"Bir kâime okunurken gelen felç — ama gizlenen bir haber mi, yoksa doğrudan mı ulaştı?",
+  kisa:"Belgeli olan: haberi okurken felç geçirdi. Belgesiz olan: bu haberi ondan kim, ne kadar süre sakladı.",
+  metin:"TDV İslâm Ansiklopedisi'nin `abdulhamid-i` maddesine göre, Rus-Avusturya savaşının ağır gidişiyle sağlığı iyice bozulmuş olan I. Abdülhamid, Özi Kalesi'nin (17 Aralık 1788) Ruslar tarafından işgal edildiğini bildiren sadrazam kâimesini okurken ânî bir felç geçirdi ve 7 Nisan 1789'da (11 Receb 1203) vefat etti; aynı gün yeğeni III. Selim tahta çıktı. Bu iskelet — kötü sağlık durumu, kâimenin okunması, ânî felç, ertesi gün ölüm — TDV'de açıkça yazılıdır.\n\nHalk arasında bu çekirdeğe eklenen bir katman daha var: Özi'nin düşüşü haberinin önce padişahtan bilerek saklandığı, kendisini gizleyenlerin hasta yatağının yanına yaklaştırılmadığı ve III. Selim'in cülusundan sonra bu kişileri cezalandırdığı (bazı anlatılarda idam ettirdiği) rivayet edilir. Bu ayrıntılar ne TDV'nin okunan maddesinde ne de konuyu ayrıca araştıran popüler tarih yazılarında (Ekrem Buğra Ekinci'nin ilgili yazısı dahil) bulunabildi — ikisi de yalnız kâimenin okunması ve felç anını anlatıyor, bir gizleme sürecinden söz etmiyor.",
+  bag:"Kalenin düşüşü ile padişahın ölümü arasında yaklaşık üç buçuk ay var (17 Aralık 1788 → 7 Nisan 1789); bu süre, haberin bir süre gizlenmiş olabileceği fikrine zemin hazırlamış olabilir. Ama okunan kaynaklarda haberin İstanbul'a ne zaman ulaştığı ile padişaha ne zaman okunduğu arasındaki fark ayrıca belirtilmiyor — üç buçuk aylık boşluk bir gizleme kanıtı değil, yalnız bir gözlem.",
+  not:"Haberin bilerek gizlendiği, gizleyenlerin cezalandırıldığı kısmı bulunamadı; yalnız kâimenin okunduğu anda gelen felç ve ertesi güne kadar süren ölüm süreci kaynaklıdır.",
+  kesinlik:"tartismali",
+  olay:["1789-04-07"],
+  kaynak:"TDV: abdulhamid-i · Ekrem Buğra Ekinci, \"Felaketlerle Gelen Ölüm — Sultan I. Abdülhamid\" (gizleme/cezalandırma ayrıntısı bu kaynakta da YOK)" },
+
 { id:"sebep-sonuc-rakoczi-erdel-seferi-1658-1664", tur:"sebep-sonuc",
   kisa:"Bir prens izinsiz Lehistan'a girdi — ve iki yıl sonra kendi ölümünü, altı yıl sonra da yeni bir Osmanlı-Avusturya savaşını doğurdu.",
   sebep:{ b:"Erdel Prensi II. György Rákóczi'nin Osmanlı himayesini çiğneyerek izinsiz Lehistan seferine çıkması", t:"1657-01-01" },

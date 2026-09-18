@@ -64,6 +64,16 @@
       "yeni_oneri": "t:\"1711-07-29\", gun:\"29 Temmuz 1711\" (TDV karamanli: Ahmed Bey'in idareyi fiilen ele geçirdiği gün; III. Ahmed'in beylerbeyilik beratı sonradan geldi, o berat gününün ayrıca kaynakta verilip verilmediği bu turda araştırılmadı).",
       "kaynak": "TDV: trablusgarp · karamanli (WebFetch, 16 Eylül 2026, HTTP 200, gövde okundu)",
       "oncelik": "düşük — üç aylık bir kayma, veri kaybı yok, yalnız hassasiyet artırımı"
+    },
+    {
+      "madde_kimligi": "DALGA-0066 madde 8 — data/ekokuma_padisah.js, III. Mustafa padişah/magazin kartı (kart bu turda bulunamadı ya da henüz yazılmamış — EKO-PADISAH'ın dosyası)",
+      "sikayet": "Koordinatör (1.MURAT): III. Mustafa'nın borç senedi hikâyesinin padişah kartına öneri olarak bağlanması isteniyor.",
+      "olcum": "Bu hikâye (oğlu Selim ve kızı Şah Sultan'dan borç alıp karşılığında mühürlü bir senet vermesi, savaşın sonucunu göremeden 1774'te ölmesi) EKO-RIVAYET tarafından DALGA-0065'te zaten yazıldı: `tartisma-iii-mustafa-borc-senedi` (data/ekokuma_rivayet.js). Mükerrer yazılmaması için, EKO-PADISAH'ın III. Mustafa kartına yeni içerik EKLEMEK yerine bu karta bir çapraz bağlantı (zincir/bağlantı alanı, dosyanın kendi şemasına göre) konması öneriliyor.",
+      "alan": "zincir / baglanti (EKO-PADISAH'ın şemasına göre; bu alanın tam adı bu turda ölçülmedi)",
+      "eski": "yok",
+      "yeni_oneri": "III. Mustafa padişah kartına `data/ekokuma_rivayet.js`'teki `tartisma-iii-mustafa-borc-senedi` kartına bir çapraz atıf eklensin. İçerik ÖZETİ: TDV `mustafa-iii` maddesi oğlu Selim ile kızı Şah Sultan'dan borç alındığını doğruluyor; Mihrişah'ın adı, kese miktarları (237 kese 55 kuruş / 340 kese) ve senedin Topkapı Sarayı Arşivi'nde saklandığı iddiası yalnız popüler tarih yazınında bulunabildi, akademik kaynakla ayrıca doğrulanamadı — kartın kendisi bu ayrımı zaten `not` alanında taşıyor.",
+      "kaynak": "data/ekokuma_rivayet.js: tartisma-iii-mustafa-borc-senedi (TDV mustafa-iii + popüler tarih yazını, ayrı damgalı)",
+      "oncelik": "düşük — mükerrer yazımı önlemek için bağlantı önerisi, veri kaybı yok"
     }
   ]
 }
