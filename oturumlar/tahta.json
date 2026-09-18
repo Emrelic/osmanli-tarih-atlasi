@@ -139954,5 +139954,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4518",
+  "zaman": "2026-09-18 16:29",
+  "kimden": "SEFER-1768",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · SEFER-1768 · M-4500 + M-4453 · commit 5ac1dcd + 86df45a (yalnız yeni dosyalar, pathspec'li; push YOK) ① ÖLÇTÜM A) M-4500 K-1/K-2/K-3 → data/olaylar_p0065.js (window.OLAYLAR_P0065), 3 madde: 1770-08-12 Yedisan/Bucak Nogayları · 1771-06-26 Orkapı · 1771-06-29 Arabat/Kerç. Yükleme sınandı; 3 yer_id de gerçek kayıt. UYGULA-4'e M-4513 ile yazıldı: \"maddeler indi, YAMA-SEFER1768 uygulanabilir; Y-3 ancak dosya bağlandıktan sonra; Y-1 kayıt düzeyinde; Y-2/Y-3'e alt sınır notu\". B) M-4500 S-1 → data/savaslar.js: 14 Rus okunda renk:\"#0d7d8a\" → devlet:\"rusya\", renk:\"#276727\". Satır düzeyinde, her satır ayrıca doğrulandı; diff 14+14 satır. 883. satırdaki açıklama güncellendi. Kalan 4 #0d7d8a kaydı Nâdir Şah ×2, Memlük ve Portekiz: Rus değil, dokunulmadı. SAVAS-KUNYE'ye önce haber verildi (M-4514). Dosya yükleniyor: SEFERLER 85 kayıt, devlet:rusya 14. COMMIT EDİLMEDİ (mevcut data dosyası → sende). C) M-4453 Napolyon (H-0027/28/29): - data/seferler_p0068.js (window.SEFERLER_P0068), 7 ok: Fransız filosu Toulon→Malta→İskenderiye (deniz; kara maskesiyle sınandı) · İskenderiye→Damanhur→Rahmaniye→İmbabe→Kahire (2-24 Tem 1798) · Kahire→Hanka→Bilbîs→Salihiye (8-11 Ağu) · Desaix Kahire→Sediman→Tahta→Semhud→Asvan (25 Ağu 1798-1 Şub 1799) · Celile Akkâ→Nâsıra→Tabor (8-16 Nis 1799) · Osmanlı Arîş→Hanka/Heliopolis (28 Ara 1799-20 Mar 1800) · Osmanlı Hanka→Kahire (31 May-17 Tem 1801). Fransız okları devlet:\"fransa-cumhuriyet\" + kendi rengi #09095a. 7/7 temiz, 107 kayıtla çakışma 0. Kaynak: Fondation Napoléon Correspondance générale kronolojisi t.2-3 + TDV. - H-0029'un SEBEBİ ÖLÇÜLDÜ: Mısır'da 7 kayıt tek kaynaksız blok taşıyor {1798-07-01→1801-10-09, kaynak:'kahire'}; TDV kahire bu günleri vermiyor. Delta ve Yukarı Mısır'daki 35 nokta + Asvan işgalsiz. Filistin'de (Gazze, Han Yûnus, Yafa) HİÇ işgal kaydı yok ⇒ Suriye maddeleri akarken harita değişmiyor. - denetim/YAMA-SEFER-NAPOLYON-0918.json: 36 isg ekle + 7 isg değiştir, hepsi kayıt adı ve eski metinle dosyada doğrulandı. Doğrudan kaynaklı (dikkat:false) 7 kayıt: Kahire 1798-07-24→1801-07-17 · İskenderiye →1801-08-31 · Bilbîs · Salihiye · Feyyum · Tahta · Asvan. Kalan 36 dikkat:true: komşu günü (§4 şartlı; komşu kaynaklı bir istasyon, zincir yok, kayda yazıldı) ya da ALT SINIR (Gazze/Yafa çıkışı 1799-05-24). 13 kronoloji önerisi (KN-1..13). - MÜKERRER: Suriye yürüyüşü ve çekilişi hem savaslar.js a4 hem seferler_ok103.js'te var, ikisi de bağlı ⇒ harita aynı oku iki kez çiziyor. Öneri: ok103 kopyaları silinsin. ② BULUNAMADI Reşid ve Dimyat'ın alınış günleri · Dimyat'ın geri alınış günü · Ebukır ve Katye'nin gün aralığı · Güney Sina'da Fransız varlığı (mevcut isg kaynaksız → silinsin mi?) · Bon'un Süveyş yolu · Belliard'ın Kusayr çıkışı · Osmanlı 1799 Ebukır çıkarmasının limanı ve günü · Napolyon'un dönüş varışı. Celile'de NOKTA YOK (Hayfa, Nâsıra, Safed) ⇒ işgal çizilemez; NOKTA işi. ÇELİŞKİLER (taraf seçilmedi): - El-Ariş'in geri alınışı: TDV aris 17 Kas 1799, TDV yusuf-ziya-pasa 28 Ara 1799, napoleon.org 29-30 Ara 1799. - Yafa: TDV \"6 Mayıs 1799\" imkânsız; napoleon.org 7 Mart. - İskenderiye'nin alınışı: TDV 30 Haziran, napoleon.org 2 Temmuz. - Mevcut 1801-10-09 \"Mısır'ın tahliyesi\" maddesi kaynağı misir'e dayanıyor, ama o madde \"Ağustos 1801\" diyor; 9 Ekim günü kaynaksız. ③ İSTİYORUM (a) index.html: seferler_p0068.js + olaylar_p0065.js satırları. (b) data/savaslar.js commit (S-1). (c) YAMA-SEFER-NAPOLYON: dikkat:false 7 kayıt → öneri: KABUL. dikkat:true 36 kayıt → öneri: KABUL, KN-1..13 ile birlikte (yoksa Mısır yamalı kalır). (d) Karar gerekenler: El-Ariş t (17 Kas mı, 28 Ara mı) · Sina güneyi isg (sil mi, bırak mı) · ok103 mükerrerleri sil mi · 1801-10-09 maddesinin kaynağı. Kronoloji maddelerini yazmamı istersen: data/olaylar_p0068n.js. Değişen mevcut dosya: data/savaslar.js. Yeni dosyalar: data/olaylar_p0065.js · data/seferler_p0068.js · denetim/YAMA-SEFER-NAPOLYON-0918.json.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
