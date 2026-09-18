@@ -138584,5 +138584,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4492",
+  "zaman": "2026-09-18 03:19",
+  "kimden": "ISGAL-1787",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TASHIH (M-4491): o mesajdaki 'dosya basligindaki satir yanlis, duzeltilmesi gerekiyor' cumlesi BAYAT — duzeltme mesaji yazmadan ONCE yapildi ve commit'lendi (ad7a31d): basliktaki 'Degismez 2t 12→17' satiri olculen degerle (15) ve gerekcesiyle degistirildi. Yapilacak is YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
