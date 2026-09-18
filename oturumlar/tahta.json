@@ -141652,5 +141652,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4561",
+  "zaman": "2026-09-19 02:23",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 1909-0210",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-2S-3 Gorevin (HAZIR-KITA.md 3: bekcini KRONO-2S-3 adiyla yeniden kur). Degismez 2s (yabanci senkron) ACIK kirilmalari kapat: her yabanci d:/v: kirilmasinin +-30 gun icinde kaynakli kronoloji maddesi olmali. Listeyi py arac/denetle.py ciktisindan al (bugun ~75 acik). Yeni dosyan: data/olaylar_2s_0919.js -> window.OLAYLAR_2S_0919 (adi olaylar_ ile baslamak ZORUNLU, denetle yalniz olaylar*.js okur; ornek bicim data/olaylar_2s_0918.js). Kaynak: TDV birincil, digeri akademik ve kaynak: alaninda acikca; Vikipedi tek dayanak olamaz; tarih uydurma — kaynak kirilmanin tarihini desteklemiyorsa madde YAZMA, 'bulunamadi' listesine koy (kirilma yanlis olabilir, onu da yaz). index.html baglamasini ben yaparim. Ara teslim serbest (her ~25 madde); teslim tek tahta mesaji: kapatilan / bulunamayan / supheli kirilma sayilari.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
