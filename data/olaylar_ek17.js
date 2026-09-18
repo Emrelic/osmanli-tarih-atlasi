@@ -159,6 +159,7 @@ window.OLAYLAR_EK17 = [
 // SAHİBİ (koordinatör) iki kaydın birleştirilip birleştirilmeyeceğine
 // karar vermeli; ben olaylar_ek7.js'e dokunmadım (§7 dosya sahipliği).
 { t:"1789-04-07", b:"I. Abdülhamid Özi'nin düşüş haberini okurken felç geçirip öldü", tur:"vefat",
+  gs:10, // YAMA-SIRA-0918 (H-0004): ölüm cülûstan ÖNCE gelir — ölüm cülûsun sebebi
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","vefat","serhat","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"İstanbul",
   d:"TDV İslâm Ansiklopedisi'nin abdulhamid-i maddesine göre, Rus-Avusturya savaşının ağır seyriyle sağlığı iyice bozulan I. Abdülhamid, Özi Kalesi'nin Ruslar tarafından işgal edildiğini bildiren sadrazam kâimesini okurken ânîden gelen bir felç sonucu vefat etti (11 Receb 1203 / 7 Nisan 1789). Naaşı İstanbul Bahçekapı'da kendi yaptırdığı türbeye defnedildi. Aynı gün yeğeni III. Selim tahta çıktı.",

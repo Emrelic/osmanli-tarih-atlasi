@@ -246,6 +246,7 @@ partileri. Toplam 799 madde. Hepsi `js/app.js`'te tek listede birleştirilir.
 | `d` | Detay paragrafı, 2-4 cümle |
 | `kaynak` | TDV slug'ı — `CLAUDE.md` §4'e göre `<title>` ile **doğrulanmış** olmalı |
 | `ic_not_d` · `ic_not_gun` · `ic_not_b` | 🆕 13 Eylül 2026 · **İÇ NOT — kullanıcıya GÖSTERİLMEZ.** Kaynak çelişkisi, "atlas verisinde şu yok", dosya/oturum atfı gibi editoryal notlar `d`/`gun`/`b` metninden buraya **taşınır, silinmez** (Emre 0045 H-0006 · 0046 H-0001). Alan adı hangi metinden taşındığını söyler; tek `ic_not` değil çünkü aynı maddede iki alan taşınınca JS nesnesinde yinelenen anahtar ilk notu SESSİZCE yok eder. Uygulayıcı: `arac/ic_not_uygula.py`. 🔴 Yeni madde yazan: süreç notunu `d`ye DEĞİL doğrudan buraya yaz |
+| `gs` | 🆕 18 Eylül 2026 · **Gün içi sıra** (tamsayı, isteğe bağlı). Aynı `t` gününe düşen maddelerin sırası: `app.js` önce tarihe, eşitse `gs`'ye göre sıralar; `gs` yoksa eski sıra AYNEN korunur. 10'ar aralıkla yaz (10 · 20 · 30) ki araya madde girebilsin. Doğuran: Emre 0068/H-0004 — 1789-04-07'de I. Abdülhamid'in ölümü → III. Selim'in cülûsu → Nizâm-ı Cedîd sırası bozuktu |
 
 ### `k:` — tam sözlük (31 Temmuz ölçümü, 985 madde)
 

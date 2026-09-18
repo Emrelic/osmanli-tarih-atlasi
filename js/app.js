@@ -5352,7 +5352,23 @@ var olaylar = Object.keys(window)
   .map(function (o) {
   var kaba = gunIdx(o.t);
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
-}).sort(function (a, b) { return a.gi - b.gi; });
+}).sort(function (a, b) {
+  // 🔴 EKLENDİ (DALGA-0068 H-0004, YAMA-SIRA-0918, ISGAL-TARAMA, 18 Eylül
+  // 2026): aynı güne (`gi` eşit) düşen maddelerin sırası bugüne kadar TARİHSEL
+  // değil, maddenin HANGİ DOSYADA olduğuyla (`olaylarAnahtarSiraNo`, OLAYLAR=0
+  // < _EK7=7 < _EK17=17) belirleniyordu — 77 grup (169 madde), üyeleri farklı
+  // dosyalardan geldiği için, anlatı sırası VERİ DIŞI bir artefakttı (örnek:
+  // Özi'nin düşüşü → reform → cülûs → ölüm, DOĞRUSU: → ölüm → cülûs → reform).
+  // `gs` (gün sırası, isteğe bağlı tam sayı) artık İKİNCİL anahtar: `gi` eşitse
+  // `gs`ye bakılır, yoksa 50 varsayılır. Sort KARARLI olduğu için `gs` YAZILMAYAN
+  // 76 grup (eski `gs`siz durumdaki gibi 50=50 eşleşince) AYNEN eski (dosya
+  // sırası) davranışını korur — regresyon yok, yalnız `gs` yazılan maddeler
+  // değişir.
+  var f = a.gi - b.gi;
+  if (f) return f;
+  var x = (a.gs == null ? 50 : a.gs), y = (b.gs == null ? 50 : b.gs);
+  return x - y;
+});
 
 // ARAYÜZ AYNI GÜN (10 Ağustos) — "aynı gün iki madde" ile "mükerrer madde"
 // kullanıcı için AYNI GÖRÜNÜYOR (`DOCX-TEMA-ESLEME.md ⑤`, Patrona vakası:
