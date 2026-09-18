@@ -1,5 +1,5 @@
 // =====================================================================
-// KRONOLOJI_2S_0918 — Değişmez 2s borcu (YABANCI-YABANCI toprak değişimi)
+// OLAYLAR_2S_0918 — Değişmez 2s borcu (YABANCI-YABANCI toprak değişimi)
 // KRONO-2S oturumu · 18 Eylül 2026 · görevlendiren 1.MURAT
 // =====================================================================
 // NİÇİN VAR: `py arac/denetle.py`nin Değişmez 2s ölçümü, 97 AÇIK kırılma
@@ -55,7 +55,7 @@
 //   yabancı devir, ama haritada renk değiştiriyor)
 // ═════════════════════════════════════════════════════════════════════
 
-window.KRONOLOJI_2S_0918 = [
+window.OLAYLAR_2S_0918 = [
 
 // ── 1. LUBLİN BİRLİĞİ — Polonya-Litvanya birleşmesi ──────────────────
 { t:"1569-07-01", b:"Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya'ya geçti", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Bar (Podolya)",
