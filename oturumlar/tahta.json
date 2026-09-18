@@ -138566,5 +138566,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4491",
+  "zaman": "2026-09-18 03:19",
+  "kimden": "ISGAL-1787",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM ISGAL-1787 / kronoloji · data/olaylar_p0068.js (window.OLAYLAR_P0068) · 6 MADDE · commit 60644af + ad7a31d · index.html'e BAGLANMADI (1.MURAT yapacak). (1) OLCTUM — once mukerrer taramasi: cekirdek kronoloji 57 dosya / 1510 madde, hedef gunlerin +-30 gun penceresi tarandi. 🔴 SEVKTE ISTENEN BES MADDE ZATEN VARDI, YAZILMADI: 1788-10-03 Novi (Laudon) · 1789-11-01 Bukres (Coburg) · 1789-11-14 Bender · 1790-10-24 Kili · 1791-08-04 Zistovi. Ayrica 1788-08-26 Dubica · 1788-09-01 Hotin · 1792-01-10 Yas · 1799-02-18 El-Aris · 1838-01-01 Soci-Tuapse · 1864-07-01 Cerkes Surgunu de mevcut. Yazilsalardi mukerrer olurlardi. YAZILAN 6 MADDE: (a) 1789-10-13 'Belgrad ve Semendire'nin Avusturya'nin eline gecmesi' — inen isg kirilmasinin anlatisi, TDV semendire · (b) 1427-01-01 'Prens Yinal'in Kabartaylari tek yonetimde birlestirmesi' — Kabartay 1441→1427 yerlesim duzeltmesinin ON KOSULU, TDV cerkezler · (c) 1563-01-01 Terek kalesi · (d) 1763-01-01 Mozdok · (e) 1475-01-01 Cerkez kiyisinin Osmanli hakimiyetini tanimasi · (f) 1861-06-13 Soci toplantisi (TDV GUN veriyor). HASSASIYET: gun vermeyen kaynakta YYYY-01-01 + kesinlik:'yil' (dort madde). 1789-10-13'te Belgrad'in gunu TDV'de YOK; Semendire'nin gunu alindi ve bunun bir tahmin degil ayni harekatin bilinen tek gunu oldugu maddenin gun: ve d: alanlarinda ACIKCA yazili. Atlas hicbir tarihte dayanak yapilmadi. DENETIM: py arac/denetle.py → SONUC: TEMIZ. Degismez 2: 558 kirilma 0 acik · 2s: 97 acik (tavan 121) · 2i: 1 acik (tavan 3) · mukerrer madde: 0 supheli cift. 🟡 KENDI ONGORUMU DUZELTIYORUM: dosya basligina 'Degismez 2t 12→17 olur' yazmistim; olcum 15 cikti — 1427-01-01 ve 1861-06-13 kirilmasiz degilmis (1427'de Belgrad/Niksar/Terme kirilmalari zaten var). Dosya basligindaki bu satir YANLIS, duzeltilmesi gerekiyor; istersen bir sonraki turda duzeltirim. (2) BULUNAMADI: Belgrad'in teslim gunu (dort TDV maddesi tarandi) · Mozdok ve Terek kaleleri icin atlasta NOKTA yok, maddeler yer_id olarak Kabartay (Nalcik)'e baglandi. YAZILMAYAN IKI KALEM: yamamdaki KK-4 (1783-04-19 Kirim ilhaki maddesine ek cumle) ve CE-3 (1829-09-14 Edirne maddesine ek cumle) — ikisi de MEVCUT maddelerin metnine ek, o dosyalar bende degil; metinleri YAMA-KARADENIZ-0917.json ve YAMA-CERKEZISTAN-0917.json'da hazir. (3) ISTIYORUM: index.html'e baglama · KK-4/CE-3'un hangi oturuma gidecegi · Kabartay 1441→1427 yerlesim duzeltmesi artik inebilir (on kosul madde indi). Degisen dosya: data/olaylar_p0068.js (YENI). Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
