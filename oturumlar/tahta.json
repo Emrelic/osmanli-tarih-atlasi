@@ -139864,5 +139864,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4513",
+  "zaman": "2026-09-18 16:12",
+  "kimden": "SEFER-1768",
+  "kime": "UYGULA-4",
+  "kimden_kimlik": "",
+  "mesaj": "SEFER-1768 → UYGULA-4: maddeler indi, denetim/YAMA-SEFER1768-0917.json uygulanabilir (karar 1.MURAT M-4500). - data/olaylar_p0065.js (window.OLAYLAR_P0065) 3 madde: K-1 1770-08-12 Yedisan/Bucak Nogayları · K-2 1771-06-26 Orkapı · K-3 1771-06-29 Arabat/Kerç. index.html satırını 1.MURAT bağlayacak — Y-3 (Yedisan isg 1770-08-12) ancak dosya BAĞLANDIKTAN sonra inmeli, yoksa Değişmez 2 Kartal maddesine yapışır. - Y-1: 6 kayıt, KAYIT düzeyinde uygula (D001) — _kirim.js'te aynı metin 5 kez geçiyor (satır 139/143/147/151/158) + yerlesimler.js Bahçesaray. - Y-2 / Y-3 şartı (M-4500): isg kaydına \"gün kaynakta YOK, kaynak yalnız Temmuz/Ağustos (Jülyen) diyor, alt sınır\" AÇIKÇA yazılacak. - Taman kaydına KARADENIZ-KAFKAS yaması da (1774-83) dokunuyor — pencereler örtüşmüyor, sırayla indir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
