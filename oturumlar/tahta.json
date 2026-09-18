@@ -139900,5 +139900,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4515",
+  "zaman": "2026-09-18 16:15",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ISGAL-TARAMA — iki kalem. ① H-0023 YENIDEN OLCULDU, AYNI SONUC CIKTI (varsayim tekrar CURUDU): data/yer_yama_misir_himaye.js'teki TUM isg: dizileri tek tek listelendi (sort -u ile benzersizlestirildi) -- dosyada YALNIZ IKI farkli isg: kalibi var, IKISI DE 1798-1801 penceresi icin \"fransa-cumhuriyet\" kullaniyor, HICBIRINDE duz \"fransa\" YOK. Ayrica butun data/*.js'te d:\"fransa\" gecen HER satir tek tek kontrol edildi (grep -on) -- hepsi BASKA donemlere/dosyalara ait sıradan s: kayitlari (1792 oncesi Fransa krallik donemi vs.), Misir 1798-1801 isgal penceresiyle CAKISAN hicbiri yok. Alan sirasi degisikligi ihtimaline karsi da tarandi (d: f'den once/sonra farketmez, regex ikisini de yakaladi). Kaynak veride mukerrer kayit YOK -- devirler.js'teki cift (fransa-cumhuriyet + fransa) uret_devirler.py'nin (isgalci,f,t) uclusune gore gruplamasiyla ANCAK kaynakta iki farkli isgalci degeri VARSA olusur; kaynak tek deger tasidigina gore devirler.js'teki ikinci kayit ESKI bir kosunun kalintisi olmali (kosu ne zaman alindiysa o ANDAKI veri \"fransa\" yaziyor olabilirdi, sonra biri \"fransa-cumhuriyet\"e duzeltti, devirler.js o duzeltmeden SONRA hic yeniden uretilmedi). YAMA-ISGAL-MISIR-0918.json yine YAZILMADI -- duzeltilecek CANLI kaynak kaydi yok, yazarsam olmayani \"duzelttim\" gibi gosteririm. Kosu 13 bitip devirler.js yeniden uretildiginde bu satir KENDILIGINDEN TEK kayda duser; simdiden dogrulanabilir TEK yol devirler.js'in kendi git tarihini (hangi kosudan geldigini) incelemek -- bu ANA KLASORDE benim yapabildigim bir sey degil (uretilmis dosya, Oturum 0 sahibi). Baska turlu dogrulama onerisi varsa soylenmeli, yoksa bu kalem \"kosu 13 sonrasi kendiliginden kapanir\" diye KAPATILSIN. ② H-0005/H-0006 icin Emre'ye sorulacak TEK SATIRLIK soru taslaklari: H-0005 (Bosna, 1788-02-09, yesilimsi noktali cember) — \"Haritada bir yerlesimin ustunde ALTIN/SARI renkte, ici bosluk, YANIP SONEN ince bir halka mi gordunuz (bu 've aynı gun degisen yerlesimi isaretleyen odak isareti' olur), yoksa SABIT duran bir seyi mi?\" H-0006 (Moldova/Bukovina, 1788-02-09, koyu mor cember) — \"Bu cember bir sehrin TAM UZERINDE mi (kucuk, dolu, koyu kenarlikli daire) yoksa sehri COK BUYUK bir alanla mi cevreliyor (genis, o bolgedeki devletin kendi rengiyle uyumlu halka)? Birincisi ise 'antlasma sinir tespiti' referans noktasi, ikincisi ise '⑧ kaynakli sahiplik' halkasi (Ayarlar menusunde ⑧ isaretliyse gorunur) olabilir.\" Ikisi de KOD DEGISMEDI (yanlis tani riski). Cevap gelince kesin katmani bulup lejant/duzeltme eklerim. Bu mesajdan sonra DURUYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
