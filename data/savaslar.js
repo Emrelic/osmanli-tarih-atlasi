@@ -849,7 +849,7 @@ window.SEFERLER = [
 // 🔴 f: Baltık'tan ÇIKIŞ GÜNÜ akademik kaynakta BULUNAMADI (Vikipedi "18/29 Temmuz
 // 1769" — tek dayanak olamaz). f = TDV'nin ilk tarihi "1770 yılı başlarında … Akdeniz'e
 // açılmış" ⇒ 1770-01-01 (YIL hassasiyeti; ok 1769 yolculuğunu tarihlemiyor).
-{ id:"a4-rus-filosu-cesme-1770", ad:"Rus filosunun Baltık'tan Çeşme'ye yolu (1769-70)", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"a4-rus-filosu-cesme-1770", ad:"Rus filosunun Baltık'tan Çeşme'ye yolu (1769-70)", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1770-01-01", t:"1770-07-07", tarih_hassasiyet:"f: YIL (TDV '1770 yılı başlarında') · t: GÜN",
   kaynak:"kucuk-kaynarca-antlasmasi (TDV): \"Baltık'tan hareket eden gemilerini İngilizler'in yardımıyla Akdeniz'e sokmuş ve Çeşme'de Osmanlı donanmasına ağır bir darbe indirmiş\" · cesme-vakasi (TDV): \"1770 yılı başlarında Mora Rumları'nı ayaklandırmak için Rus Amirali Spiridov ve İngiliz Amirali Elphinston kumandasındaki Rus donanması İngilizler'in de desteğiyle Akdeniz'e açılmış ve Mora yarımadası açıklarında faaliyet göstermeye başlamıştı\" · \"Anabolu'ya (Nauplia) gönderilen … Osmanlı donanmasını, Anabolu Limanı ağzında ve Suluca (Hydra) adası önlerinde başarısızlığa uğrattı\" · \"Çeşme'nin kuzeyinde bulunan Koyun adaları önüne geldiğinde burada tekrar Amiral Spiridov idaresindeki Rus donanması ile karşılaştı\" · \"11 Rebîülevvel 1184 (5 Temmuz 1770)\" · \"7 Temmuz sabahı Osmanlı donanmasından yalnızca Kaptanıderyâ Hüsâmeddin Paşa'nın baştardası … kurtulabildi\" · mustafa-iii (TDV): \"Çeşme'deki Osmanlı filosunu yakması (6-7 Temmuz 1770)\"",
   yol:[[29.775,59.991],[27.0,59.95],[23.0,59.6],[21.0,58.2],[20.0,57.2],[18.0,55.8],[14.3,55.25],[13.3,55.1],
@@ -880,8 +880,10 @@ window.SEFERLER = [
 // PAKET-RUS (13 Eylül 2026) — Emre kararı: "Rusların Eflak ve Boğdan üzerinden yaptıkları …
 // harekât ve savaşlarda … ilerleyen ordular için KESİKLİ ÇİZGİ ve OK gösterimi kullanılsın."
 // ⇒ tur:"sefer" (app.js HAREKET.sefer: desen [1.5,1.5] + glif ➤). sonuc Osmanlı gözünden (dosya geleneği).
-// Renk #0d7d8a: SEFERLER'deki öteki Rus kayıtlarıyla aynı (Yeşilköy 1878 · a4-rus-filosu-cesme-1770);
-//   harita dolgusu rusya #4f7d4f üstünde okunabilsin diye dolgu rengi KULLANILMADI.
+// Renk: 18 Eylül 2026'dan beri devlet:"rusya" + renk #276727 = rusya dolgusunun (#4f7d4f) aynı tonunun
+//   koyusu (Emre kuralı 0065/H-0010 "sefer okları devlet rengiyle"; karar M-4500 S-1). Önceki #0d7d8a
+//   SEFERLER'deki 14 Rus okunun hepsinde değiştirildi. Dolgu rengi birebir KULLANILMADI — ok Rus gövdesi
+//   üstünde görünmez olurdu.
 // İstasyonlar yalnız kaynakta ADI GEÇEN yerler. Koordinatlar OpenStreetMap Nominatim (gazetteer) —
 //   atlas yerleşim noktası koordinat kaynağı olarak KULLANILMADI. OSM kimlikleri:
 //   Zagarancea way/1324622967 · Țuțora rel/11321072 · Stănilești rel/12593679 · Stavçani node/337596134 ·
@@ -892,47 +894,47 @@ window.SEFERLER = [
 // Tarihler GREGORYEN. Rus kaynaklarının (ESBE, Kashirin, Babilunga, BSE) Jülyen günleri çevrildi
 //   (18. yy +11 · 19. yy +12 gün) — çevirme PAKET-RUS'undur (D110 takvim tuzağı). Rapor: denetim/PAKET-RUS-0913.md
 // Yazılmayanlar (başlangıç noktası kaynakta ADSIZ): 1737 Özi (A6B TASLAK) · 1828 Prut geçişi · 1853 Prut geçişi.
-{ id:"rus-prut-1711", ad:"I. Petro'nun Prut seferi — Rus ordusunun Stănilești'ye inişi (1711)", tur:"sefer", sonuc:"zafer", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-prut-1711", ad:"I. Petro'nun Prut seferi — Rus ordusunun Stănilești'ye inişi (1711)", tur:"sefer", sonuc:"zafer", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1711-07-05", t:"1711-07-20", tarih_hassasiyet:"f: GÜN (ordunun Prut kıyısında Zagarancea'ya varışı, 24 Haziran Jülyen) · t: GÜN (kolorduların Stănilești'de birleşmesi, 9 Temmuz Jülyen)",
   kaynak:"ЭСБЕ, «Прутский поход Петра Великого в 1711 г.»: \"войска были двинуты вперед и 24 июня прибыли к Загаранче, на берегу Прута, а затем спустились левым берегом реки до Чечоры, где соединились с отрядом Шереметева\" · \"Петр, между тем, съездил в Яссы\" · \"Петр перевел свои войска на правый берег Прута\" · \"9 июля, ранним утром, все корпуса наши соединились у деревни Станилешти\" · baltaci-mehmed-pasa (TDV): \"18 Temmuz 1711 günü Prut nehri bataklıkları civarında Rus kuvvetleriyle karşılaştı\" — ÇELİŞKİ: bogdan (TDV) çevrilme gününü \"11 Temmuz 1711\" veriyor",
   yol:[[27.768,47.243],[27.759,47.144],[28.197,46.666]] },
-{ id:"rus-munih-hotin-yas-1739", ad:"Münnich'in Hotin ve Yaş harekâtı (1739)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-munih-hotin-yas-1739", ad:"Münnich'in Hotin ve Yaş harekâtı (1739)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1739-08-28", t:"1739-09-12", tarih_hassasiyet:"f: GÜN (Stavuçani muharebesi, 17 Ağustos Jülyen) · t: GÜN (Yaş'a giriş, 1 Eylül Jülyen)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (т. XXXIV, 1901, с. 122—159): \"у мст. Ставучан, возле Хотина, 17 августа русское войско встретилось с Т. 90-тысячным отрядом\" · \"Вслед за ставучанской битвой пал и Хотин, а 1 сентября русские войска вступили в Яссы\" · ЭСБЕ, «Ставчаны» (XXXI, 396): \"Следствием победы при С. было овладение крепостью Хотином, сдавшейся через два дня после сражения\" · hotin (TDV): \"kale 1739'da Mareşal Münnich idaresindeki Rus ordusunun eline geçti\" — ÇELİŞKİ ESBE içinde: muharebe «Турецкие войны»da bir yerde 17, bir yerde 27 Ağustos; «Ставчаны»da 28 Ağustos (17 J = 28 G ile uyumlu)",
   yol:[[25.683,48.508],[26.486,48.507],[27.584,47.162]] },
-{ id:"rus-golitsin-hotin-1769", ad:"Golitsın'ın Hotin seferi — Podolya'dan Dinyester'e (1769)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-golitsin-hotin-1769", ad:"Golitsın'ın Hotin seferi — Podolya'dan Dinyester'e (1769)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1769-04-25", t:"1769-09-19", tarih_hassasiyet:"f: GÜN (harekât başı, 14 Nisan Jülyen) · t: GÜN (Hotin'in terki, 8/9 Eylül Jülyen gecesi)",
   kaynak:"Kashirin V. B., «Днестровский поход генерала князя А. М. Голицына в 1769 г.», Славяноведение 2024/1, с. 5-30 (DOI 10.31857/S0869544X24010012): \"главные силы 1-й армии А. М. Голицына сосредотачивались в лагере у деревень Минковцы и Антоновка в 40 км к северо-востоку от Каменца-Подольского\" · \"В ночь с 8 на 9 сентября 1769 г. турки оставили Хотин без боя\" · ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"15 апреля он перешел Днестр, но перед движением в Яссы попытался овладеть Хотиным\" · \"9 сентября Хотин был занят русскими войсками\" — PAKET-A6B SEF-HOT-1769 önerisi; Kalus köprüsünün koordinatı bulunamadı, yola konmadı",
   yol:[[27.106,48.853],[26.486,48.507]] },
-{ id:"rus-elmpt-yas-1769", ad:"Elmpt kolunun Hotin'den Yaş'a yürüyüşü (1769)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-elmpt-yas-1769", ad:"Elmpt kolunun Hotin'den Yaş'a yürüyüşü (1769)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1769-09-19", t:"1769-10-07", tarih_hassasiyet:"f: GÜN (Hotin'in terki) · t: GÜN (Yaş'a giriş, 26 Eylül Jülyen)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"9 сентября Хотин был занят русскими войсками, после чего Голицын отошел к Меджибожу … выслав в то же время отряд ген. Эльмпта к Яссам, которые и были заняты 26 сентября\" · Kashirin 2024 (Славяноведение 2024/1, с. 5-30): \"26 сентября (7 октября) 1769 г. сам генерал-поручик Эльмпт с главными силами вверенного ему корпуса торжественно вступил в Яссы\"",
   yol:[[26.486,48.507],[27.584,47.162]] },
-{ id:"rus-rumyantsev-kagul-1770", ad:"Rumyantsev'in Prut boyunca Kartal'a (Kagul) ilerleyişi (1770)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-rumyantsev-kagul-1770", ad:"Rumyantsev'in Prut boyunca Kartal'a (Kagul) ilerleyişi (1770)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1770-06-13", t:"1770-08-01", tarih_hassasiyet:"f: GÜN (Țuțora'ya varış, 2 Haziran Jülyen) · t: GÜN (Kartal/Kagul muharebesi)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"двигаясь левым берегом Прута, только 2 июня подошел к с. Цицора (30 вер. от Ясс)\" · \"ознаменовались победами при Рябой Могиле, Ларге и Кагуле\" · ibrail (TDV): \"1 Ağustos 1770 tarihindeki Kartal bozgunundan sonra Kili ve Akkirman gibi İbrâil de elden çıktı\" — Ryabaya Mogila ve Larga istasyonları (tepe/nehir) gazetteer'de tek noktaya indirgenemedi, yola KONMADI; Kagul ucu Cahul şehri (temsilî)",
   yol:[[27.759,47.144],[28.195,45.904]] },
-{ id:"rus-panin-bender-akkerman-1770", ad:"Panin'in Bender'den Akkirman'a harekâtı (1770)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-panin-bender-akkerman-1770", ad:"Panin'in Bender'den Akkirman'a harekâtı (1770)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1770-09-27", t:"1770-10-09", tarih_hassasiyet:"f: GÜN (Bender'in alınışı, 16 Eylül Jülyen) · t: GÜN (Akkirman'ın alınışı, 28 Eylül Jülyen)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"Действия гр. Панина тоже шли успешно: 16 сентября он овладел Бендерами, а 28 был взят Аккерман\" · ЭСБЕ, «Бендеры»: \"В 1770 г. … Б. были взяты штурмом русск. войсками под начальством графа Панина\" · akkirman (TDV): \"1770 ve 1789 yıllarında iki defa Ruslar tarafından kuşatılarak ele geçirildi ise de önce Küçük Kaynarca (1774) … ile tekrar Osmanlı idaresine girdi\"",
   yol:[[29.482,46.822],[30.346,46.191]] },
-{ id:"rus-ozi-1788", ad:"Potemkin ordusunun Olviopol'den Özi'ye yürüyüşü ve kuşatma (1788)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-ozi-1788", ad:"Potemkin ordusunun Olviopol'den Özi'ye yürüyüşü ve kuşatma (1788)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1788-06-04", t:"1788-12-17", tarih_hassasiyet:"f: GÜN (Olviopol'den hareket, 24 Mayıs Jülyen) · t: GÜN (hücum, 6 Aralık Jülyen)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"24 мая часть русской главной армии (40 тыс.) двинулась от Ольвиополя к Очакову, правым берегом Буга\" · Президентская библиотека, «Русскими войсками взят Очаков» (prlib.ru/history/619816): \"6 (17) декабря 1788 г. в 7 ч. утра при 23°мороза начался штурм Очакова\" · ozu (TDV): \"1788 Aralığında Rus Mareşali Suvarov, Özü Kalesi'ne saldırdı\" — ÇELİŞKİ: aynı ESBE maddesi \"6 октября пал Очаков\" diyor (prlib ve TDV ile uyuşmuyor; yazılmadı) · PAKET-A6B SEF-OZI-1788 önerisi; Olviopol toplanma yeri artık ESBE ile kaynaklı. tur A6B'de kusatma idi — Emre kararı gereği ilerleyen ordu sefer (kesikli + ok)",
   yol:[[30.848,48.046],[31.545,46.615]] },
-{ id:"rus-potemkin-bender-1789", ad:"Potemkin'in Olviopol'den Bender'e harekâtı (1789)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-potemkin-bender-1789", ad:"Potemkin'in Olviopol'den Bender'e harekâtı (1789)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1789-07-22", t:"1789-11-14", tarih_hassasiyet:"f: GÜN (Bender'e ilerleyişin başı, 11 Temmuz Jülyen) · t: GÜN (Bender'in teslimi, 3 Kasım Jülyen) · başlangıç noktası: ESBE iki tümenin Olviopol'de toplandığını yazıyor, hareketin oradan başladığını AÇIKÇA yazmıyor (çıkarım)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"из них 1-я и 2-я только в конце июня собрались у Ольвиополя\" · \"11 июля Потемкин с двумя дивизиями начал наступление к Бендерам\" · \"только около 20 августа подошел к Бендерам\" · \"3 ноября наконец сдались и Бендеры, чем кампания была закончена\" · ЭСБЕ, «Бендеры»: \"В 1789 году во 2-ую турецкую войну Б. сдались на капитуляцию князю Потемкину\"",
   yol:[[30.848,48.046],[29.482,46.822]] },
-{ id:"rus-suvorov-foksani-rimnik-1789", ad:"Suvorov ve Coburg'un Fokşani'den Rimnik'e harekâtı (1789)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-suvorov-foksani-rimnik-1789", ad:"Suvorov ve Coburg'un Fokşani'den Rimnik'e harekâtı (1789)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1789-08-01", t:"1789-09-22", tarih_hassasiyet:"f: GÜN (Fokşani muharebesi, 21 Temmuz Jülyen) · t: GÜN (Rimnik muharebesi, 11 Eylül Jülyen)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"Суворов, соединившись с пр. Кобургским, 21 июля атаковал и разбил турок под Фокшанами\" · \"он в конце авг. перешел Дунай и двинулся к р. Рымник, но здесь 11 сент. потерпел совершенный разгром от войск Суворова и пр. Кобургского\" — Rus-Avusturya ortak kuvveti; Rimnik ucu nehrin adını taşıyan Râmnicu Sărat şehri (temsilî)",
   yol:[[27.186,45.697],[27.042,45.385]] },
-{ id:"rus-mihelson-yas-bukres-1806", ad:"Mihelson ordusunun Yaş'tan Bükreş'e ilerleyişi (1806)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-mihelson-yas-bukres-1806", ad:"Mihelson ordusunun Yaş'tan Bükreş'e ilerleyişi (1806)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1806-11-24", t:"1806-12-25", tarih_hassasiyet:"f: GÜN (Mihelson'un Yaş'a girişi, 12 Kasım Jülyen) · t: GÜN (Miloradoviç'in Bükreş'e girişi, 13 Aralık Jülyen)",
   kaynak:"Н. В. Бабилунга, «Русско-турецкая война 1806-1812 гг.: освобождение Бессарабии от османского ига», Русин 2012 (makale eski stili kullanıyor: \"16 мая 1812 г. (по новому стилю - 28 мая)\"): \"Михельсон 12 ноября вступил в столицу Молдавии - Яссы\" · \"генерал Милорадович вступил в столицу Валахии - Бухарест\" · ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"11 ноября русские войска начали переходить Днестр\" · \"рущукский комендант Мустафа-паша выслал отряд войск к Букаресту, заняв который … 13 декабря были вытеснены отрядом генерала Милорадовича и ушли в Журжу\" — Babilunga alıntıları WebFetch özetinden; makale sayı/sayfa ölçülemedi",
   yol:[[27.584,47.162],[26.103,44.436]] },
-{ id:"rus-kisinev-zimnitsa-1877", ad:"Rus ordusunun Kişinev'den Zimniça'ya ilerleyişi (1877)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ id:"rus-kisinev-zimnitsa-1877", ad:"Rus ordusunun Kişinev'den Zimniça'ya ilerleyişi (1877)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1877-04-24", t:"1877-06-27", tarih_hassasiyet:"f: GÜN (Kişinev'de savaş manifestosu; kolordular derhal Romanya'ya girdi, 12 Nisan Jülyen) · t: GÜN (Zimniça'da Tuna geçişi, 15 Haziran Jülyen gecesi)",
   kaynak:"ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"12 апреля в Кишиневе император Александр II подписал манифест об объявлении войны Турции\" · \"Немедленно по объявлении войны 4 русских корпуса (8-й, 9-й, 11-й и 12-й) вступили в Румынию\" · \"В ночь на 15 июня совершилась переправа части главных сил у Зимницы\" · romanya (TDV): \"9 Mayıs 1877 tarihinde bağımsızlığını ilân etti\" · \"1877-1878 Osmanlı-Rus Savaşı'na katılan\" — Romanya MÜTTEFİK: bu ok bir geçiştir, işgal DEĞİL (Emre kararı: taralı desen yalnız işgal) · ara istasyon kaynakta yok ⇒ düz hat · devamı: \"Rus ordusunun Yeşilköy'e gelişi (1878)\"",
   yol:[[28.832,47.025],[25.366,43.654]] },
@@ -979,7 +981,7 @@ window.SEFERLER = [
 // dar; aynı sınır Büyükdere gibi bütün Boğaz içi kayıtlar için geçerli (bkz.
 // CLAUDE.md §2). Gerçek düzeltme motor tarafında, savaslar.js'in yapabileceği
 // bir şey değil.
-{ ad:"Rus donanmasının Büyükdere'ye gelişi (1833)", tur:"deniz", sonuc:"belirsiz", taraf:"dusman", renk:"#0d7d8a",
+{ ad:"Rus donanmasının Büyükdere'ye gelişi (1833)", tur:"deniz", sonuc:"belirsiz", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1833-02-20", t:"1833-02-20", yol:[[29.15,41.24],[29.10,41.20],[29.06,41.10]] },
 { ad:"Osmanlı donanmasının İskenderiye'ye teslimi (1839)", tur:"teslim", sonuc:"yenilgi",
   f:"1839-07-14", t:"1839-07-14", yol:[[26.4,38.5],[29.92,31.20]] },
@@ -996,7 +998,7 @@ window.SEFERLER = [
 // Uçlar kronolojiden: Edirne Mütarekesi (1878-01-31, Edirne) → Ayastefanos
 // Antlaşması (1878-03-03, Ayastefanos/Yeşilköy). Aradaki yürüyüş güzergâhı
 // ayrıca belgelenmediği için iki nokta arası düz hat kullanıldı.
-{ ad:"Rus ordusunun Yeşilköy'e gelişi (1878)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+{ ad:"Rus ordusunun Yeşilköy'e gelişi (1878)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
   f:"1878-01-31", t:"1878-03-03", yol:[[26.56,41.68],[28.82,40.96]] },
 { ad:"Arnavutluk İsyanı (1910)", tur:"isyan", sonuc:"zafer", renk:"#6b2d8a",
   f:"1910-04-01", t:"1910-04-01", yol:[[21.12,42.63],[19.51,42.07]] },
