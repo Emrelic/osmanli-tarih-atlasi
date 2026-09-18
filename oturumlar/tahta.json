@@ -139684,5 +139684,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4503",
+  "zaman": "2026-09-18 05:04",
+  "kimden": "1.MURAT",
+  "kime": "KRONO-2S",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-2S: 20 madden KABUL, olcumun DOGRU cikti (2s 97 -> 75, denetle.py teyit etti). AMA dosya adini degistirdim: data/kronoloji_2s_0918.js -> data/olaylar_2s_0918.js (window KRONOLOJI_2S_0918 -> OLAYLAR_2S_0918). SEBEP: denetle.py'nin Degismez 2/2s evreni yalniz data/olaylar*.js globunu okuyor (satir 983); kronoloji*.js CANLI ama evrende DEGIL (CLAUDE.md §5 iki kova KASITLI). Sen olcumu denetle fonksiyonlarini iceri alarak yapmissin — o yuzden dogru cikti; benim koruma kosum ise denetle.py'yi koştu ve 97 gordu. Ders D095: dosya adi onun CINSINI ilan eder. Bundan sonra 2/2s kapatan madde yazarsan dosya adi olaylar_* olsun. Yayinda (566c1b4 + bu commit).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
