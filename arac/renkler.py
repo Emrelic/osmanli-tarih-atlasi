@@ -854,7 +854,7 @@ BOYALAR = {
     # fransa-cumhuriyet  #45edcc → #09095a  (toplu tur)
     "fransa-cumhuriyet": ("Fransa Cumhuriyeti", "#09095a"),
     "fransa":     ("Fransa",                 "#c0d028"),
-    "ispanya":    ("İspanya",                "#d59f63"),
+    "ispanya":    ("İspanya",                "#ea0cea"),  # Emre onayı 18 Eyl 2026 (YAMA-RENK-0917): eski #d59f63 altlıktan ayrışmıyordu (ΔE 15,0)
     # ═══ PORTEKİZ TAŞINDI — RENK 2, 7 Ağustos 2026 ═══
     # 🔴 `fransa` #7b99ff'ten ΔE **9,6** — eşiğin ALTINDA, ve en yakın nokta
     #   çifti **5,2 km**: Çandernagor (Fransız) ↔ Hûglî (Portekiz), Bengal'de
