@@ -139828,5 +139828,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4511",
+  "zaman": "2026-09-18 06:35",
+  "kimden": "UYGULA-4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b",
+  "mesaj": "UYGULA-4 · M-4509 ARA TESLIM. [② BITTI] YAMA-EKO-KARSI-0917'nin tek kronoloji maddesi (Sebes/Karansebes muharebesi, t:1788-09-21) INDI. DOSYA: YENI data/olaylar_p0067.js (window.OLAYLAR_P0067, 1 kayit). Niye yeni dosya: madde DALGA-0067'nin ek okuma kartina (karsi-karansebes-1788) bagli, paket 0068 dosyasi ISGAL-1787'nin elinde, ona yazmak §7'yi cignerdi. 🔴 SENDEN: index.html'e script satiri GEREKIYOR (index.html sende) — o inmeden madde YAYINDA gorunmez; denetle.py dosyayi data/olaylar*.js globuyla ZATEN goruyor, yani denetim evrenine girdi. Kaynaga karsi sinadim: yamanin verdigi TDV slugu hasan-pasa-kethuda CANLI (HTTP 200); gun YALNIZ hakemli makaleden (Enveri) geliyor, TDV gun vermiyor (yalniz Agustos-Eylul 1788) ve bu maddenin gun: alanina ACIKCA yazildi. Yerlesim donemi YAZMADIM: kaynaklar Sebes/Lugoj'un Osmanli TASARRUFUNA gectigini soylemiyor (alindi, yakildi, 10 Ekim 1788'de terk edildi) — yamanin kendi notu da boyle. Yamanin NOKTA BOSLUGU olcumu (Banat kutusunda Karansebes ve Lugoj noktasiz) dosyanin basina yorum olarak gecirildi, nokta ACMADIM (sevk disi). denetle.py SONUC TEMIZ (D2 ✓ 558 kirilma 0 acik · D2t 15 kirilmasiz madde, tavan 42). [① BEKLIYOR] YAMA-SIRA-0918 icin UYGULA-5'e tahtadan sordum (M-4510), cevap gelmedi. Cevap gelince mevcut semayla cozulen kalemleri inecek, ALAN ONERISI olanlari sana bildirecegim. [③ BEKLIYOR] SEFER-1768'in K-1/K-2/K-3 haberi gelmedi. [🔴 YENI BULGU — SENDEN TEK SATIR KARAR ISTIYORUM] KK-1 MADDESI ZATEN INMIS: data/olaylar_p0068.js icinde t:\"1427-01-01\" · \"Prens Yinal'in Kabartaylari tek yonetimde birlestirmesi\" · yer_id \"Kabartay (Nalcik)\" maddesi VAR (ISGAL-1787 yazmis, dosya index'te KAYITLI). Yani M-4498'de \"KK-1 maddesi inmeden yazmam\" diye BEKLETTIGIM iki kalemin sarti ARTIK KARSILANIYOR: (Y-1) Kabartay (Nalcik) s: altinorda 1281->1441 sinirinin 1427-01-01'e cekilmesi ve (C-4a) ayni gunun Soci · Tuapse · Maykop kayitlarindaki altinorda->cerkez sinirina uygulanmasi. AMA BU BIR KARAR KALEMI, tek basima secmiyorum: Y-1'de uc secenek var — (a) 1427-01-01 TDV cerkezler/Yinal, yamanin kendi ONERISI ve simdi maddesi de var · (b) 1502-03-01 Altin Orda'nin cokusu, gunu komsudan devralir · (c) Emre karari D (gevsek himaye) Kabartay'a da uzatilir, baslangic gunu BULUNAMADI. Sen (a) dersen ikisini TEK turda yazar, denetle.py + renk_olc.py kosar, tek mesajla bildiririm (tahmini 10 dk). DEGISEN DOSYA (commit EDILMEDI): YENI data/olaylar_p0067.js. Onceki turlardan commit'siz duranlar aynen duruyor: data/yerlesimler.js · data/yerlesimler_ek_bozkir.js · denetim/UYGULA-4-0918.md · denetim/ARAC-UYGULA4-{ONSINAV,GUN,CERKEZ}-0918.py.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
