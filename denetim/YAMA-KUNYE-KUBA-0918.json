@@ -1,0 +1,61 @@
+{
+  "_NOT": "KUNYE-KUBA (SONNET HAZIR KITA 1010, önceki işler ARAC-BEKCI · KUNYE-CERKEZ) · 18 Eylül 2026 · koordinatör 1.MURAT (M-4494). Borç: `kuba-hanligi` künyesi bir turdur kaynaksız bekliyor — `denetim/YAMA-KUNYE-TARAF-BEKLEYEN-0917.json` (KUNYE-TARAF, Opus 1009) `hala_bekleyen`de `f İÇİN OKUNMUŞ KAYNAK YOK` diye bırakmıştı. Şema `denetim/YAMA-KUNYE-CERKEZ-0918.json` ile AYNI. devletler.js'e ve renkler.py'ye YAZILMADI, öneri.",
+  "durum": "KISMİ SONUÇ — t: (bitiş) KAYNAKLI VE ÇÖZÜLDÜ. f: (başlangıç) HÂLÂ BULUNAMADI — iki aday var, karar 1.MURAT'ta. Bu, görevin izin verdiği bir SONUÇTUR ('bulunamadı' geçerli çıktı), uydurma yapılmadı.",
+  "t_cozumu": {
+    "sonuc": "1813-10-24 — GÜLİSTAN ANTLAŞMASI, madde 3.",
+    "kaynak_zinciri": "Encyclopaedia Iranica, 'GOLESTĀN TREATY' (Elton L. Daniel, Vol. XI/1, s.86-90 — https://www.iranicaonline.org/articles/golestan-treaty, HTTP 200, gövde tarayıcıyla okundu). AYNEN: '[Madde 3] The Persian shah was obliged to recognize the sovereignty of the tsar over Georgia, Mingrelia, Abkhazia, Ganja, Qarābāḡ, Qobba, Darband, Baku, Dāḡestān, Šakki, and other territories.' ⇒ KUBA (Qobba) VE DERBEND antlaşmanın METNİNDE AÇIKÇA ADIYLA geçiyor — TDV'nin 'ilga edilerek' özetinin doğrudan doğrulaması. Gün: 'The Treaty of Golestān was concluded on 29 Šawwāl 1228/24 October 1813 (12 October according to Hurewitz, I, p. 197; 21 October in Pakravan, p. 156)' — Iranica KENDİSİ üç rakam arasında en olası olanı (Hicrî çevrimle uyumlu 24 Ekim) esas alıyor, farkı gizlemiyor.",
+    "atlasla_uyum": "Atlasın KENDİ mevcut kronoloji maddesi (`data/kronoloji_iran.js` satır 286) ZATEN `t:\"1813-10-24\"` taşıyor, kaynağı 'azerbaycan (TDV, doğrulanmış) + Encyclopaedia Iranica, madde: GOLESTAN TREATY' — bu turda BAĞIMSIZCA aynı Iranica maddesi okunarak DOĞRULANDI. Künyenin bitiş günü bu YENİ ölçümle, atlasın mevcut günüyle ve Değişmez 2'nin ihtiyacıyla ÜÇÜ BİRDEN uyumlu.",
+    "onceki_celiskinin_cozumu": "KUNYE-TARAF-BEKLEYEN'in bıraktığı çelişki (TDV `feth-ali-sah`: 24 KASIM ↔ Rusya Devlet Kütüphanesi: 12/24 EKİM) bu turda Iranica'nın uzman makalesiyle EKİM tarafına kesin olarak çözüldü — TDV'nin `feth-ali-sah` biyografi maddesindeki 'Kasım' muhtemelen bir çeviri/aktarım hatasıdır (Iranica'nın kendi üç adayı da EKİM içinde, KASIM hiç geçmiyor)."
+  },
+  "f_bulunamadi": {
+    "arananlar": "Encyclopaedia Iranica'da 'Quba'/'Qoba'/'Qobba' başlıklı MÜSTAKİL bir madde YOK (iranicaonline.org/articles/qoba → 404). Büyük Rus Ansiklopedisi 'КУБИНСКОЕ ХАНСТВО' (bigenc.ru) bu turda da AÇILAMADI (önceki turda 401; bu turda erişim denenmedi, aynı domain sorunu sürüyor kabul edildi). V. Minorsky'nin EI2 'Ḳubba' maddesi (TDV `kuba--azerbaycan`'ın kendi bibliyografyasında listeli) çevrimiçi AÇIK ERİŞİMDE bulunamadı (Brill EI2 abonelik gerektiriyor). Google taramasında akademik-görünümlü tek sonuç (asesyayinevi.com PDF, 'Continuity of State Formation in Azerbaijan') yayınevinin güvenilirliği ÖLÇÜLEMEDİ, açılıp OKUNMADI — kırmızı çizgi netleşmeden dayanak yapılmadı.",
+    "yeni_bulgu_TDV_kuba_azerbaycan": "Önceki yama f: için 'okunmuş kaynak YOK' diyordu, ama TDV'nin CANLI `kuba--azerbaycan` maddesinin gövdesi bu turda BAŞTAN SONA okundu ve gerçekte bir kuruluş anlatısı VAR — sadece rakamsız: «Babası Karakaytak hâkimleri (usmi) neslinden, annesi Kaçar Türkleri'nden olan … Hüseyin Han adlı bir toprak ağası XVII. yüzyılın SONLARINA DOĞRU Salyan, Kuba ve Kulhan dahil bölgenin idaresini eline aldı. ONUN KURDUĞU HANLIK Safevî Devleti'ne bağlıydı.» ⇒ kurucu ADIYLA biliniyor (Hüseyin Han), ama YIL yok — 'yüzyılın sonlarına doğru' bir ONYIL değil bir YÜZYIL ÇEYREĞİ ifadesi.",
+    "neden_uydurulmadi": "Önceki yamanın kararı ('XVII. yüzyıl sonu → 1700-01-01 bir YIL UYDURMASI sayılır') bu turda BAĞIMSIZCA aynı sonuca varılarak DOĞRULANDI: TDV'nin kendisi bir onyıl bile taahhüt etmiyor, 1700 gibi tek bir yıl yazmak kaynağın verdiğinden FAZLA kesinlik iddia eder (§4 hassasiyet kuralı)."
+  },
+  "f_icin_iki_aday_karar_bekliyor": [
+    {
+      "secenek": "A — YAZILMASIN",
+      "aciklama": "f: alanı boş/işaretsiz kalır ya da künye bu turda hiç açılmaz; `t:` biliniyor ama `f:` bilinmiyor durumu `denetle.py`nin nasıl işlediği KARAR gerektirir (kabartay/cerkez emsalinde `f:` hep dolduruldu, ATLAS UFKU 1281-01-01 ile — ama oradaki TDV durumu FARKLI: kabartay/cerkez için TDV HİÇBİR yıl/yüzyıl vermiyordu; burada TDV en azından 'XVII. yüzyıl sonu' diyor, yani BOŞ bırakmak eldeki bilgiyi de gömer)."
+    },
+    {
+      "secenek": "B — 1735-01-01 (BENİM ÖNERİM, ama künyenin KURULUŞU değil bir SÜREKLİLİK/TANINMA noktası)",
+      "aciklama": "TDV: Hudad Kalesi'nin Lezgi isyancılarca yıkılıp Sultan Ahmed Han'ın öldürülmesinden sonra oğlu Hüseyin Ali Han hanlık merkezini Kuba'ya taşıdı VE 'Kuba hâkimi olarak hem İran Şahlığı hem de Rus Çarlığı tarafından RESMEN TANINMIŞTI' — bu, TDV'nin VERDİĞİ, gün değilse de YIL düzeyinde kesin ve İKİ imparatorluk tarafından resmî tanınmaya bağlı tek nokta. ⚠️ AÇIKÇA ETİKETLENMELİ: 'kuruluş' değil 'devamlılığın resmî tanınması' — kurucu Hüseyin Han'dan bu yana hanlık zaten vardı, yalnız bu tarih BELGELİ/kesin.",
+      "risk": "Bu tarihten önceki ~40-50 yıllık (Hüseyin Han'ın kuruluşundan 1735'e) dönem künyeye GİRMEZ; kabartay/cerkez emsalinin '__BOSLUK__ → künye' dönüşümünde olduğu gibi bir ARA BOŞLUK doğar (künye açılmadan önce bu bölgedeki yerleşimler zaten büyük olasılıkla ya sahipsiz ya da başka bir kimlikte — bu turda ÖLÇÜLMEDİ, yerleşim verisine dokunulmadı)."
+    }
+  ],
+  "kunyeler": [],
+  "_kunyeler_notu": "BİLEREK BOŞ. Kuba Hanlığı `f:` KARARSIZ olduğu için `kunyeler`e (arac/_kunye_uygula.py'nin varsayılan glob'unun OKUDUĞU liste) konmadı; aşağıdaki `hala_bekleyen`e KASTEN `id` değil `kimlik` alanıyla yazıldı — KUNYE-TARAF-BEKLEYEN-0917.json'un kendi konvansiyonu (D095: bir glob bir ad sözleşmesidir).",
+  "hala_bekleyen": [
+    {
+      "kimlik": "kuba-hanligi",
+      "ad": "Kuba Hanlığı",
+      "tur": "hanlik",
+      "tur_notu": "`kirim` de `hanlik` kullanıyor — aynı tür, doğrudan emsal.",
+      "bolge": "kafkasya",
+      "f": "KARARSIZ — bkz. f_icin_iki_aday_karar_bekliyor (A: yazılmasın · B: 1735-01-01, 'kuruluş' değil 'tanınma')",
+      "t": "1813-10-24",
+      "baskent": "Hudad Kalesi (1735'e kadar) → Kuba şehri (1735'ten)",
+      "harita": "kuba-hanligi",
+      "ozet": "Kuzeydoğu Azerbaycan'da (Derbend ile Bakü arasında) Hüseyin Han'ın XVII. yüzyılın sonlarına doğru kurduğu, başlangıçta Safevî Devleti'ne bağlı hanlık. 1734-1735'te Nâdir Şah'ın seferleri ve Lezgi isyanlarıyla merkez kalesi Hudad yıkıldı, hanlık merkezi Kuba şehrine taşındı; Hüseyin Ali Han hem İran hem Rusya tarafından resmen tanındı. Oğlu Feth Ali Han'ın 1758-1789 hâkimiyetinde Kuba, Salyan, Bakü, Derbend ve Şamahı'yı da kontrolüne alarak Kafkasya'nın en önemli yarı-müstakil hanlıklarından biri oldu. Feth Ali Han'ın ölümünden (1789) sonra zayıfladı; Rusya 1796'da ve kesin olarak 1806'da Derbend ve Kuba'yı işgal etti, 1813 Gülistan Antlaşması'nın 3. maddesiyle hanlık resmen Rusya'ya bırakıldı.",
+      "kaynak": "TDV `kuba--azerbaycan` md. (Saleh Muhammedoğlu Aliev; HTTP 200, gövde tarayıcıyla bağımsızca okundu) — yük taşıyan cümleler AYNEN: (1) kuruluş — «Babası Karakaytak hâkimleri (usmi) neslinden, annesi Kaçar Türkleri'nden olan … Hüseyin Han adlı bir toprak ağası XVII. yüzyılın sonlarına doğru Salyan, Kuba ve Kulhan dahil bölgenin idaresini eline aldı. Onun kurduğu hanlık Safevî Devleti'ne bağlıydı.» (2) merkez taşınması/tanınma — «Hudad'da isyancı Lezgiler'in öldürdüğü Sultan Ahmed Han'ın oğlu Hüseyin Ali Han, Kuba hâkimi olarak hem İran Şahlığı hem de Rus Çarlığı tarafından resmen tanınmıştı.» (3) zirve — «1758'de onun yerine geçen oğlu Feth Ali Han'ın hâkimiyeti yıllarında Kuba Hanlığı … en önemli yarı müstakil devletlerinden biri haline geldi … Feth Ali Han on yıllık bir süre içinde Kuba, Salyan, Bakü, Derbend ve Şamahı hanlıklarını … kendi kontrolü altına aldı.» (4) çöküş/işgal — «Çariçe II. Katerina'nın … ordusu 1796 Mayısında Derbend'i, az sonra da Kuba'yı işgal etti … Rusya'nın İran'a karşı 1805'te ilân ettiği savaşlar döneminde Derbend ve Kuba bir daha istilâ edildi (1806). 1813'te imzalanan Gülistan Antlaşması ile Kuba ve Derbend hanlıkları ilga edilerek arazileri Rus Çarlığı'na bırakıldı.» t GÜNÜ İÇİN: Encyclopaedia Iranica, 'GOLESTĀN TREATY' (Elton L. Daniel) — bkz. `t_cozumu`. BULUNAMADI: f GÜNÜ/YILI (bkz. `f_bulunamadi`).",
+      "not": "🔴 Bu künye TEK bir kabile/hânedan DEĞİL, TDV'nin kendi anlattığı bir HANEDAN ZİNCİRİ: Hüseyin Han → (torunu?) Sultan Ahmed Han → oğlu Hüseyin Ali Han → oğlu Feth Ali Han (1758-1789) → oğulları Ahmed Han ve Şeyh Ali Han (1789-1806/1813). Görev uyarısına paralel: farklı hanlar birbirine KARIŞTIRILMADI, TDV'nin kendi soy zinciri AYNEN aktarıldı.",
+      "kronoloji": [
+        {"t": "1735-01-01", "tur": "siyaset", "b": "Hudad Kalesi Lezgi isyanında yıkıldı; Hüseyin Ali Han Kuba'ya taşınıp İran ve Rusya tarafından resmen tanındı (gün bilinmiyor)", "kaynak": "TDV kuba--azerbaycan"},
+        {"t": "1758-01-01", "tur": "hukumdar", "b": "Feth Ali Han hanlığın başına geçti; on yıl içinde Kuba, Salyan, Bakü, Derbend ve Şamahı'yı kontrolüne aldı (gün bilinmiyor)", "kaynak": "TDV kuba--azerbaycan"},
+        {"t": "1806-10-03", "tur": "isgal", "b": "Rus kuvvetleri Derbend ve Kuba'yı istila etti (gün ÇIKARIMDIR: Dubrovin'in Bakü 3 Ekim 1806 / Bulgakov raporu 10 Kasım 1806 arası verdiği aralıktan; KUNYE-TARAF-BEKLEYEN'den devralınan ölçüm, bu turda tekrarlanmadı)", "kaynak": "N. F. Dubrovin (vostlit.info) — KUNYE-TARAF-BEKLEYEN'in ölçümü, doğrulanmadı"},
+        {"t": "1813-10-24", "tur": "son", "b": "Gülistan Antlaşması madde 3: Kuba ve Derbend hanlıkları Rusya'ya bırakıldı", "kaynak": "Encyclopaedia Iranica, GOLESTĀN TREATY (Hurewitz çevirisi) · TDV kuba--azerbaycan"}
+      ]
+    }
+  ],
+  "renk": {
+    "yontem": "arac/renkler.py'nin `_lab_cevir`/ΔE76'sı import edilerek (dosyaya YAZILMADI). Komşu kümesi: coğrafî/siyasî en yakın olanlar — kacar, safevi, iran (Kuba'nın nominal üst egemenleri) · sirvansah, kabartay, transkafkasya, kumuk-samhalligi (Kafkasya bölgesinin öteki künyeleri) · rusya, kirim, OSMANLI (bölgesel güçler) · `cerkez` (KUNYE-CERKEZ'in bu turda önerdiği, henüz uygulanmamış renk — aynı bölgede iki yeni kimliğin çakışmaması için dahil edildi).",
+    "eleme_notu": "İlk aday (#d8b836, altın-sarı — Çerkez turunda da denenmiş ve elenmişti) burada da `sirvansah`a (#d2cc24) çok yakın çıkacağı için baştan denenmedi; doygunluğu düşürülmüş bir ton (#ccb070) test edildi ve GÜVENLİ çıktı.",
+    "oneri": {
+      "kimlik": "kuba-hanligi",
+      "satir": "\"kuba-hanligi\":            (\"Kuba Hanlığı\",                       \"#ccb070\"),",
+      "olcum": "#ccb070 (mat bal-sarısı/kum tonu) — L*=72,9 (eşik 59'un üstünde) · su ΔE=48,4 (eşik 18'in üstünde). Komşulara ΔE: rusya 40,3 · kirim 41,4 · sirvansah 42,9 · cerkez(öneri) 64,1 · OSMANLI 66,5 · safevi 71,4 · kabartay 75,9 · transkafkasya 76,8 · iran 79,5 · kacar 92,2 · gurcistan 104,2 · kumuk-samhalligi 133,7 (min 40,3). Persian-suzeren üçlüsünden (kacar/safevi/iran) ÇOK uzak — bu üçü kendileri birbirine de yakın bir aile (mor-magenta), Kuba'nın onlardan görsel olarak ayrışması önemliydi. Bütün palete (589) en yakın: ΔE 12,4 `ispanya` (coğrafî/zamansal ilgisiz).",
+      "yedek_aday": "#33cc7f (yeşil) — min ΔE aynı (40,3) ama rusya VE transkafkasya'yla AYNI anda sınırda (ikisi de 40,3) ve görsel aile olarak 'yeşil' kümesine giriyor; birincil öneri bu yüzden tercih edildi."
+    },
+    "uyari": "Sahne-komşuluk denetimi (py arac/renk_olc.py) bu turda KOŞULMADI — kimlik henüz yerleşim verisinde yok. Künye+renk uygulanıp bir yerleşim kaydına bağlandıktan SONRA ZORUNLU (CLAUDE.md §9). Ayrıca: `cerkez` (KUNYE-CERKEZ-0918) DE henüz uygulanmadı; ikisi BİRLİKTE uygulanırsa `renk_olc.py` ikisini de yeniden ölçmeli."
+  }
+}
