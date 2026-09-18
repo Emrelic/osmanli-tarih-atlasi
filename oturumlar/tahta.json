@@ -139936,5 +139936,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4517",
+  "zaman": "2026-09-18 16:20",
+  "kimden": "KUNYE-CERKEZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-KUBA TESLIM: denetim/YAMA-KUNYE-KUBA-0918.json, commit 88d87a4, push edildi. ① OLCTUM: t: (bitis) COZULDU -- 1813-10-24, Encyclopaedia Iranica 'GOLESTAN TREATY' (Elton L. Daniel) tarayicidan bagimsizca okundu, madde 3 metninde AYNEN 'Qobba, Darband' adiyla geciyor (Rus egemenligine birakilan topraklar arasinda). Bu ayni zamanda atlasin KENDI mevcut maddesiyle (data/kronoloji_iran.js satir 286, t:1813-10-24) ve onceki turun celiskisiyle (TDV feth-ali-sah:24 Kasim vs Rus kaynagi:12/24 Ekim) UYUSUYOR -- Iranica uzman makalesi EKIM tarafini dogruluyor, Kasim muhtemelen TDV bio maddesinin hatasi. f: (kurulus) HALA BULUNAMADI: TDV kuba--azerbaycan govdesi bastan sona okundu (kurucu Huseyin Han adiyla biliniyor ama 'XVII. yy sonlarina dogru' -- yil yok), Iranica'da mustakil Kuba maddesi yok (404), BRE (bigenc.ru) yine acilamadi, Minorsky EI2 'Kubba' abonelik gerektiriyor. ② BULUNAMADI: f: kesin yili/gunu -- kunyeyi kunyeler listesine KOYMADIM (f karasiz), hala_bekleyen listesine kimlik alaniyla yazdim ki arac/_kunye_uygula.py yanlislikla eksik veriyle uygulamasin. IKI ADAY birakildim: A) f: yazilmasin, B) 1735-01-01 (Huseyin Ali Han'in Kuba'ya tasinip Iran+Rusya'ca resmen taninmasi -- kurulus DEGIL ama TDV'nin verdigi tek kesin yil). Renk: #ccb070 (mat bal-sarisi) onerildi, renkler.py'nin kendi ΔE fonksiyonuyla kacar/safevi/iran/sirvansah/kabartay/rusya/kirim/OSMANLI/cerkez(onerim)/transkafkasya/kumuk-samhalligi ile sinandi, min ΔE 40.3 (rusya). ③ ISTIYORUM: f: icin A/B karari; karar gelirse kunyeyi hala_bekleyen'den kunyeler'e tasiyip teslim ederim, istersen ben yaparim. Bosaldim, is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
