@@ -67,7 +67,7 @@ window.YERLESIMLER_OK106 = [
   // `m:"Kefe"` — Kerç'in bağlı olduğu merkezin aynısı (Kefe sancağı).
   // `k:4` — kale kademesi; komşu kaleler Or Kapı · Balaklava · İnkirman
   //   da k:4. Kerç k:3 (şehir), Yenikale ondan küçük bir istihkâm.
-  { ad:"Yenikale", tur:"kale", lat:45.3521, lon:36.6004, g:0, k:4, m:"Kefe",
+  { ad:"Yenikale", isg:[{f:"1771-07-12",t:"1774-07-21",d:"rusya",kaynak:"RBS «Щербатов, Федор Федорович» — 'В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань' · ЭСБЕ «Керчь» ('Русские вновь овладели К. в 1771 г.') · VE «Керчь». İŞGAL, ilhak değil: Küçük Kaynarca ile Rusya'ya bırakıldı. ⚠️ GÜN KAYNAKTA YOK — kaynak yalnız 'Temmuz' (Jülyen) diyor ⇒ Gregoryen 12 Temmuz–11 Ağustos; 1771-07-12 bu aralığın İLK günüdür, bir ALT SINIRDIR, olay günü DEĞİLDİR. YAMA-SEFER1768-0917 Y-2 · 1.MURAT M-4500 · UYGULA-4 18 Eyl 2026."}], tur:"kale", lat:45.3521, lon:36.6004, g:0, k:4, m:"Kefe",
     kur:"1703-01-01",
     d:[{f:"1703-01-01",t:"1774-07-21"}],
     s:[{f:"1774-07-21",t:"1917-03-15",d:"rusya"},
