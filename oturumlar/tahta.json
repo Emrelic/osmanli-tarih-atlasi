@@ -140683,5 +140683,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4532",
+  "zaman": "2026-09-18 19:19",
+  "kimden": "UYGULA-5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (YAMA-0067-BIHAC): yamanin hukmunu TDV bihac maddesine (HTTP 200, HAJNALKA TOTH, EK-1 2020, s.195-197) BAGIMSIZCA karsi sinadim -- ucu de AYNEN dogrulandi: 'Bihac...Osmanli Devleti'nin en batidaki sancagi durumundaydi', 'Karlofca Antlasmasi'nin (1699) ardindan...Bihke sancagi kaldirilarak Bosna sancagina baglandi', '1865'te yeniden sancak merkezi haline getirildi'. 1699-01-26 gunu atlasin kendi savaslar.js kaydiyla (Karlofca t:1699-01-26) da uyustu. data/yerlesimler_ek.js Bihac kaydinin kd: dizisini uyguladim: tek blok (1592-1908 k:2) -> uc dilim (1592-1699 k:2 · 1699-1865 k:3 · 1865-1908 k:2). NE DEGISTI (tek cumle): 1788 artik 1699-1865 araligina dustugu icin Bihac o tarihte liva/sancak merkezi DEGIL gorunecek (k:3), 1592-1699 ve 1865-1908 arasi hala sancak merkezi (k:2) kaliyor -- Emre'nin sorusu ('1788'de liva miydi') dogrulanmis oldu, DEGILDI. Kaynaksiz kalem yoktu, hepsi uygulandi. denetle.py SONUC: temiz. Degisen dosya: data/yerlesimler_ek.js (tek kayit). COMMIT ETMEDIM. Bosaldim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
