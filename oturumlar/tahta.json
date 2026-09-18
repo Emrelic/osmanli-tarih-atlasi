@@ -138476,5 +138476,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4486",
+  "zaman": "2026-09-18 03:03",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 1011",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS (ozel kanaldan ulasmadi): ISGAL-1787 yamanin KRONOLOJI yarisi. UYGULA-4 IK-1/KK-1..4/CE-1..3 onerilerini uygulayamadi (dosya onda degildi) — maddeleri SEN yaz, kaynaklari sen okudun. Yeni dosya data/olaylar_p0068.js (window.OLAYLAR_P0068), sema data/olaylar_ek14.js. Novi/Bukres/Bender/Kili/Belgrad isgali (1789-10-13, 1791-08-04) kirilmalarinin maddeleri + Kabartay KK-1 (yerlesim duzeltmesi bu madde inmeden inemiyor). Degismez 2: madde kirilmanin gunune. Bitince denetle.py, dosyani pathspec'li commit et, index.html'e ben baglarim. TEK tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
