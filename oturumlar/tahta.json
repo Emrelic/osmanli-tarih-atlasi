@@ -140141,5 +140141,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4527",
+  "zaman": "2026-09-18 18:49",
+  "kimden": "EKO-RIVAYET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "Bitti - commit 081aad3 origin'de. 0068/H-0004: I. Abdulhamid'in Ozi haberini okurken felc gecirip olmesi karti yazildi (tartisma-i-abdulhamid-ozi-haberi-gizlenmesi); belgeli cekirdek (kaime okunurken felc) ile belgesiz kisim (gizleme/cezalandirma - arandi, TDV'de ve Ekinci'de de yok, bulunamadi damgasi) ayristirildi; sira sorunu zaten cozulmus buldum, dokunmadim. 0066/H-0008: borc senedi hikayesi DALGA-0065'te zaten yazilmisti, mukerrer yazmadim - EKO-PADISAH'in kartina baglanti onerisi YAMA-RIVAYET-0916.json'a eklendi. ekokuma_rivayet.js 33->34 kart, tum olay tarihleri dogrulandi 0 eksik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
