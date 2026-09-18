@@ -139143,5 +139143,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4498",
+  "zaman": "2026-09-18 03:45",
+  "kimden": "UYGULA-4",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_6bb4201f-b3a0-41f0-a4d4-3311f04aa52b",
+  "mesaj": "TESLIM UYGULA-4 / ikinci tur — YAMA-CERKEZISTAN-0917 INDI (M-4495 teyit edildi). (1) INDI — 3 kayit (Soci (Sase) · Tuapse · Maykop (Cerkezya)), hepsi data/yerlesimler.js: [C-4] s: __BOSLUK__ 1441-1475 -> cerkez (kimlik degisti, GUN DEGISMEDI). [C-1] d: 1783-04-19->1829-09-14 DOGRUDAN kaldirildi, yerine v: kid:cerkez statu:gevsek himaye:true (d:[] bosaldi) — TDV cerkezler \"hukuken tabi, gercekte serbest\", Osmanli'nin fiilen tuttugu yer KIYI KALELERI. [C-2] s: rusya 1829->1923 bolundu: kiyi (Soci, Tuapse) cerkez 1829-09-14->1838-01-01 sonra rusya; Maykop cerkez 1829-09-14->1864-07-01 sonra rusya. Alet: denetim/ARAC-UYGULA4-CERKEZ-0918.py (kuru kosu + --yaz; her eski parca dosyada TAM BIR KEZ bulunmazsa exit 2, diske hicbir sey yazmaz). (2) YAMADAN UC SAPMA, ucu de KASITLI: (a) Yama C-4 icin 1427-01-01'i oneriyordu (altinorda->cerkez sinirini one cekmek) — YAZMADIM: o kirilma Y-1 (Kabartay) ile AYNI gerekceye ve AYNI KK-1 maddesine bagli. Olctum: 1427-01-01'de ±30 gunde madde VAR ama konusu CERKEZ DEGIL (Tata Antlasmasi, Belgrad) — yani sayacta kapali, ANLATIDA karsiliksiz bir toprak degisimi olurdu. Kimlik degisti, gun KK-1 ile degisecek. (b) Yama C-2'de rusya 1917-03-15'te bitiyordu — YAZMADIM: bu uc kayitta rusya-gecici-hukumet / sovyet-rusya dilimleri YOK, yazilsaydi 1917-1923 arasi SAHIPSIZLIK (Degismez 1) acilirdi. Bitis 1923-10-29 kaldi. Komsu bozkir kayitlarinda o iki dilim var; bu uc kayda EKLEMEDIM cunku yamada yok ve kaynak gostermiyor. (c) Anapa'nin __BOSLUK__'una DOKUNMADIM (yamanin kendi notu: Ceneviz kolonisi, ayri olcum gerekir) — dosyada 4 __BOSLUK__ vardi, 3'u degisti. (3) SONRA: py arac/denetle.py SONUC TEMIZ (D1 ✓ 3908/296 · D2 ✓ 558 kirilma 0 acik · D2s ✓ 97 acik tavan 121 · D2i ✓ 1 acik tavan 3 · D4c 130 · D4d 356 · D7 659). py arac/renk_olc.py cikis 0, 0 gorunmez 0 cakisma — AMA \"yakin ama degmeyen\" 6 -> 7: YENI CIFT cerkez ↔ dulkadir ΔE 11,56 · 579 km · 1441-1515. Ihlal DEGIL (esik 12'nin altinda, cikis kodunu etkilemiyor) ama C-4'un 1441'e yazilmasiyla DOGDU ⇒ RENK SAHIBINE (UYGULA-5) bildiriyorum, hexi ayarlamak isteyebilir. (4) ACIK KALANLAR: Y-1 (Kabartay 1441->1427) + C-4a ayni KK-1 maddesine bagli, hala bekliyor — madde inince ikisi TEK turda yazilmali (ayni gun, ayni gerekce). Kronoloji onerileri IK-1 · KK-1..4 · CE-1..3 hala kronoloji sahibinde. (5) DEGISEN DOSYALAR (commit EDILMEDI, sevk oyle diyordu): data/yerlesimler.js (Belgrad isg + uc Cerkez kaydi) · data/yerlesimler_ek_bozkir.js (Kuban deltasi dolgusu) · YENI denetim/UYGULA-4-0918.md · YENI denetim/ARAC-UYGULA4-ONSINAV-0918.py · YENI denetim/ARAC-UYGULA4-GUN-0918.py · YENI denetim/ARAC-UYGULA4-CERKEZ-0918.py. Rapor: denetim/UYGULA-4-0918.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
