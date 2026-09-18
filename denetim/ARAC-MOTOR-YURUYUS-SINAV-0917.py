@@ -59,8 +59,13 @@ def kos(a):
         src = src.replace(eski, yeni)
 
     degis("BOLGE = box(-180, -60, 180, 85)\n", f"BOLGE = box({a.kutu})\n")
-    degis('if not _KILIT.al("petek"):\n    sys.exit(1)\natexit.register(_KILIT.birak, "petek")\n',
-          "pass  # SINAV: kilit atlandı\n")
+    _k_yeni = ('    if not _KILIT.al("petek"):\n        sys.exit(1)\n'
+               '    atexit.register(_KILIT.birak, "petek")\n')      # M-4533 sonrası motor
+    if _k_yeni in src:
+        degis(_k_yeni, "    pass  # SINAV: kilit atlandı\n")
+    else:
+        degis('if not _KILIT.al("petek"):\n    sys.exit(1)\natexit.register(_KILIT.birak, "petek")\n',
+              "pass  # SINAV: kilit atlandı\n")
     i = src.index('io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",')
     j = src.index('+ "\\n")\n', i) + len('+ "\\n")\n')
     if '".uretim-basladi"' not in src[i:j]:

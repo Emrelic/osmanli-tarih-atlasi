@@ -52,19 +52,47 @@ def kos(ad, argv, olumcul=True, dk=200):
     yaz("ADIM: %s   (%s)" % (ad, time.strftime("%H:%M:%S")))
     yaz("=" * 66)
     t0 = time.time()
+    # 📡 SATIR SATIR AKIŞ — M-4535 (18 Eylül 2026). Eskiden `subprocess.run(
+    # capture_output=True)` çıktıyı adım BİTİNCE log'a yazıyordu; koşu 13B
+    # 1440. dakikada zaman aşımıyla öldürülünce 24 saatlik log'un TAMAMI
+    # kayboldu ("hangi aşamada kaldı" cevapsız). Şimdi her satır geldiği an
+    # log'a eklenir (flush'lı); ekrana yine son 25 satır basılır.
+    # Zaman aşımında SÜREÇ AĞACI öldürülür (motorun işçi süreçleri dahil).
+    import threading, collections
+    son = collections.deque(maxlen=25)
+    env = dict(os.environ, PYTHONUNBUFFERED="1")
+    p = subprocess.Popen(argv, cwd=KOK, stdin=subprocess.DEVNULL,
+                         stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                         text=True, encoding="utf-8", errors="replace", env=env)
+
+    def _akit():
+        with io.open(LOG, "a", encoding="utf-8") as f:
+            for satir in p.stdout:
+                f.write(satir)
+                f.flush()
+                son.append(satir.rstrip("\n"))
+    okuyucu = threading.Thread(target=_akit, daemon=True)
+    okuyucu.start()
     try:
-        r = subprocess.run(argv, cwd=KOK, capture_output=True, text=True,
-                           encoding="utf-8", errors="replace", timeout=dk * 60)
+        p.wait(timeout=dk * 60)
     except subprocess.TimeoutExpired:
-        yaz("🔴 ZAMAN AŞIMI (%d dk) — ZİNCİR DURDU" % dk)
+        try:
+            subprocess.run(["taskkill", "/PID", str(p.pid), "/T", "/F"],
+                           capture_output=True, timeout=60)
+        except Exception:
+            p.kill()
+        okuyucu.join(timeout=30)
+        yaz("🔴 ZAMAN AŞIMI (%d dk) — ZİNCİR DURDU (son satırlar yukarıda, log'da TAM)" % dk)
+        for s in son:
+            print("   " + s, flush=True)
         return None
+    okuyucu.join(timeout=60)
     sure = (time.time() - t0) / 60.0
-    cikti = (r.stdout or "") + (r.stderr or "")
-    # log'a TAMAMI, ekrana son 25 satır
-    with io.open(LOG, "a", encoding="utf-8") as f:
-        f.write(cikti + "\n")
-    for s in cikti.strip().split("\n")[-25:]:
+    for s in son:
         print("   " + s, flush=True)
+
+    class r:                     # eski `subprocess.run` sonucunun kullanılan alanı
+        returncode = p.returncode
     yaz("→ kod=%d · %.1f dk" % (r.returncode, sure))
     if r.returncode != 0 and olumcul:
         yaz("🔴 BU ADIM İHLAL VERDİ — ZİNCİR DURDU, YAYIN YAPILMADI.")

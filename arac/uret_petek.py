@@ -52,6 +52,55 @@ import json, os, sys, io, math, re, time
 # aktığında bilançodur.
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8",
                               errors="replace", line_buffering=True)
+# 📡 CANLI LOG — M-4533 (18 Eylül 2026). Koşu 13B 24 saatlik zaman aşımına
+# takıldı ve KAÇTA KALDIĞI BİLİNMEDİ: `kos_ve_yayinla.py` motoru
+# `subprocess.run(capture_output=True)` ile koşturuyor ⇒ stdout bir BORUYA
+# gider ve zincir onu ancak süreç BİTİNCE log'a yazar. Yukarıdaki
+# line_buffering boruyu anında boşaltır ama boruyu okuyan yok — zaman aşımında
+# süreç öldürülünce bütün satırlar kayboldu (motor_kara 21:26 · bolgeler.js
+# 22:35 dosya damgalarından okundu, sonrası karanlık).
+# ⇒ Her satır AYRICA kök klasördeki `uretim_canli.log`a SATIR SATIR yazılır
+#   (stderr de — çöküş izi görünsün). Yol `MOTOR_CANLI_LOG` ile değişir.
+#   Çıktı dosyalarına DOKUNMAZ; yalnız görünürlük.
+import threading as _th
+
+
+class _Catal:
+    """Yazılanı iki akışa birden verir; ikincisi (dosya) bozulursa sessizce düşer."""
+    def __init__(self, ana, yan, kilit):
+        self._ana, self._yan, self._k = ana, yan, kilit
+
+    def write(self, s):
+        with self._k:
+            self._ana.write(s)
+            if self._yan is not None:
+                try:
+                    self._yan.write(s)
+                except Exception:
+                    self._yan = None
+        return len(s)
+
+    def flush(self):
+        self._ana.flush()
+        if self._yan is not None:
+            try:
+                self._yan.flush()
+            except Exception:
+                self._yan = None
+
+    def __getattr__(self, ad):
+        return getattr(self._ana, ad)
+
+
+try:
+    _CANLI_YOL = os.environ.get("MOTOR_CANLI_LOG") or os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "uretim_canli.log")
+    _CANLI_F = io.open(_CANLI_YOL, "w", encoding="utf-8", errors="replace", buffering=1)
+except Exception:
+    _CANLI_F = None
+_CANLI_KILIT = _th.RLock()
+sys.stdout = _Catal(sys.stdout, _CANLI_F, _CANLI_KILIT)
+sys.stderr = _Catal(sys.stderr, _CANLI_F, _CANLI_KILIT)
 
 # ══════════════════════════════════════════════════════════════════════
 # 🔒 ÇİFT KOŞU KİLİDİ — A2 (`denetim/BULGU-GEOMETRI-0904.md`)
@@ -70,9 +119,39 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8",
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import atexit
 import kosu_kilit as _KILIT
-if not _KILIT.al("petek"):
-    sys.exit(1)
-atexit.register(_KILIT.birak, "petek")
+# ⚙️ SÜREÇ İŞÇİSİ (M-4533) — `MOTOR_SUREC_ISCI=N` (N>1) ile ana süreç başta N-1
+# işçi süreç başlatır (aşağıda, anlık görüntüden hemen sonra). İşçi bu dosyanın
+# AYNISIDIR, `MOTOR_SUREC_ISCI_NO` ile tanınır: kilit almaz, damga/çıktı
+# yazmaz, gövde aşamasında kendi payını diske yazıp ÇIKAR.
+_ISCI_NO = os.environ.get("MOTOR_SUREC_ISCI_NO")
+if _ISCI_NO is None:
+    if not _KILIT.al("petek"):
+        sys.exit(1)
+    atexit.register(_KILIT.birak, "petek")
+else:
+    # Ebeveyn ölürse (zaman aşımı `subprocess.run` yalnız ANA süreci öldürür)
+    # işçi yetim kalmasın. ⚠️ Windows'ta os.kill(pid, 0) SÜRECİ ÖLDÜRÜR —
+    # canlılık OpenProcess/GetExitCodeProcess ile sorulur.
+    def _ebeveyn_nobet(pid):
+        import ctypes
+        k32 = ctypes.windll.kernel32
+        while True:
+            time.sleep(30)
+            try:
+                h = k32.OpenProcess(0x1000, False, pid)
+                if not h:
+                    os._exit(3)
+                kod = ctypes.c_ulong()
+                k32.GetExitCodeProcess(h, ctypes.byref(kod))
+                k32.CloseHandle(h)
+                if kod.value != 259:          # STILL_ACTIVE
+                    os._exit(3)
+            except Exception:
+                pass
+    if os.name == "nt" and os.environ.get("MOTOR_SUREC_EBEVEYN"):
+        import threading as _th0
+        _th0.Thread(target=_ebeveyn_nobet, args=(int(os.environ["MOTOR_SUREC_EBEVEYN"]),),
+                    daemon=True).start()
 
 import shapely
 from shapely.geometry import (shape, box, Polygon, MultiPolygon, Point, MultiPoint,
@@ -200,7 +279,7 @@ R_DUNYA = 6371.0088
 # kilit süresini hesaplayamıyordu.
 import datetime as _dt
 _BASLADI = _dt.datetime.now()
-io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
+if _ISCI_NO is None: io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
                      ".uretim-basladi"), "w", encoding="utf-8").write(
     _BASLADI.strftime("%Y-%m-%d %H:%M:%S") + "\n")
 
@@ -323,6 +402,29 @@ def ilerleme(i, n, her, etiket, kum=None):
               f"{_sure(kalan)} ⚠️doğrusal")
 
 
+# 💓 NABIZ — M-4533. Uzun iç döngülerde (devlet başına gövde günleri, Osmanlı
+# kırılmaları, saat matrisi) en çok `MOTOR_NABIZ_SN` saniyede (varsayılan
+# 300) bir satır: saat · koşu süresi · aşama süresi · nerede olduğu.
+# 📌 `ilerleme()` FAZ 2'de devlet BİTİNCE basar; tek bir devlet (rusya,
+#    aşamanın ~%22'si) saatlerce sürebildiği için o arada log susuyordu.
+#    Nabız FAZ 1'in İÇİNDEN (iş parçacıklarından) atar; kilitli, en çok bir satır.
+_NABIZ_ARALIK = float(os.environ.get("MOTOR_NABIZ_SN", "300"))
+_NABIZ_SON = [time.time()]
+_NABIZ_KILIT = _th.Lock()
+
+
+def nabiz(etiket):
+    simdi = time.time()
+    if simdi - _NABIZ_SON[0] < _NABIZ_ARALIK:
+        return
+    with _NABIZ_KILIT:
+        if simdi - _NABIZ_SON[0] < _NABIZ_ARALIK:
+            return
+        _NABIZ_SON[0] = simdi
+    print(f"    💓 [{_dt.datetime.now():%H:%M:%S}] koşu {_sure(simdi - _T0)} · "
+          f"{_ASAMA_AD} {_sure(simdi - _ASAMA_T)} · {etiket}", flush=True)
+
+
 def asama_ozet():
     """Sonda ÖZET TABLO: aşama · süre · toplam içindeki payı."""
     asama(None)
@@ -379,6 +481,61 @@ except BaseException as _e:
 
 asama("Girdi anlık görüntüsü")
 girdi.anlik_goruntu()
+# ⚙️ SÜREÇ PARALELLİĞİ — M-4533 (18 Eylül 2026). NİÇİN: "Yabancı devlet
+# gövdeleri" koşunun %81'i (koşu 12: 15s36dk / 19s08dk) ve iş parçacığı
+# paralelliği ORADA ÇALIŞMIYOR — bilançoda duvar 15s35dk ≈ işlemci 15s03dk,
+# yani 4 iş parçacığı ortalama TEK çekirdek kullanıyor (GIL; ölçüm koşu 13C
+# canlı: 0,79 çekirdek). Süreç GIL'i paylaşmaz. Windows'ta fork yok ⇒ işçi
+# motoru BAŞTAN koşar (ön aşamalar ~1,5-3 saat, AYNI ANDA, başka çekirdekte —
+# duvar saatine eklenmez) ve gövde aşamasına varınca kendi payını hesaplar.
+# 🔴 BELLEK: her işçi ana süreç kadar bellek ister (~2-3 GB). N'yi boş RAM'e
+#    göre seç (12 GB makinede N=3).
+# 🔴 BİT DENKLİĞİ: işçinin sonucu, ÖN AŞAMA PARMAK İZİ (YERLER · BOYALAR ·
+#    PETEK_D WKB · ızgara sahipliği · bayraklar · motor izi) ana süreçle
+#    AYNIYSA kabul edilir; değilse ya da işçi ölmüşse o devleti ana süreç
+#    KENDİSİ hesaplar ⇒ en kötü hâl eski hız, yanlış çıktı değil.
+_SUREC_ISCI = max(1, int(os.environ.get("MOTOR_SUREC_ISCI", "1") or "1"))
+# ♻️ KALDIĞI YERDEN DEVAM — M-4535 (Emre, 18 Eyl: "hiçbir koşu bir daha çöpe
+# gitmeyecek"). `MOTOR_DEVAM=1` ile gövde aşamasının devlet başına FAZ 1 sonucu
+# `<kök>/_petek_devam/<ön aşama izi>/` altında KALICI tutulur (dizin
+# `MOTOR_DEVAM_DIZIN` ile değişir). Ölen koşu aynı girdi + aynı kodla yeniden
+# başlatılınca iz AYNI çıkar ve hazır devletler diskten okunur; girdi ya da kod
+# değiştiyse iz de değişir ⇒ eski sonuç ASLA karışmaz. Dizin koşu başarıyla
+# bitince silinir. ⚠️ Ön aşamalar (~1,5-3 saat) yine koşar — devam eden yalnız
+# koşunun %81'i olan gövde aşamasıdır.
+_DEVAM = os.environ.get("MOTOR_DEVAM") == "1"
+if os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
+    _SUREC_ISCI = 1
+    _DEVAM = False
+_SUREC_YOLU = _SUREC_ISCI > 1 or _DEVAM
+_SUREC_DIZIN = os.environ.get("MOTOR_SUREC_DIZIN")
+_SUREC_COCUK = []
+if _ISCI_NO is None and _SUREC_ISCI > 1:
+    import subprocess as _sp, tempfile as _tf
+    _SUREC_DIZIN = _tf.mkdtemp(prefix="petek_surec_")
+    _sr_betik = os.environ.get("MOTOR_ISCI_BETIK") or os.path.abspath(__file__)
+    _sr_kok = os.path.dirname(os.path.abspath(
+        globals().get("_CANLI_YOL") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "x")))
+    for _k in range(1, _SUREC_ISCI):
+        _env = dict(os.environ, MOTOR_SUREC_ISCI_NO=str(_k), MOTOR_SUREC_DIZIN=_SUREC_DIZIN,
+                    MOTOR_SUREC_EBEVEYN=str(os.getpid()),
+                    MOTOR_CANLI_LOG=os.path.join(_sr_kok, f"uretim_isci_{_k}.log"))
+        _SUREC_COCUK.append(_sp.Popen([sys.executable, _sr_betik], env=_env, cwd=os.getcwd(),
+                                      stdin=_sp.DEVNULL, stdout=_sp.DEVNULL, stderr=_sp.DEVNULL))
+
+    def _sr_temizle():
+        for _c in _SUREC_COCUK:
+            if _c.poll() is None:
+                try:
+                    _c.kill()
+                except Exception:
+                    pass
+    atexit.register(_sr_temizle)
+    print(f"  ⚙️ SÜREÇ PARALELLİĞİ: {_SUREC_ISCI - 1} işçi süreç başlatıldı "
+          f"(pid {[c.pid for c in _SUREC_COCUK]}) · ara dizin {_SUREC_DIZIN} · "
+          f"işçi logları uretim_isci_<k>.log")
+elif _ISCI_NO is not None:
+    print(f"  ⚙️ SÜREÇ İŞÇİSİ {_ISCI_NO}/{_SUREC_ISCI - 1} — ara dizin {_SUREC_DIZIN}")
 
 # ⚠️ KOŞU BEKÇİSİ — parmak izi anlık görüntüden SONRA, kopyadan alınır.
 # Sıra kritik: göller (goller.js) yerleşimlerden ÖNCE okunuyor, bu yüzden iz
@@ -2208,6 +2365,17 @@ def poligonal(g):
     """intersection/difference çıktısı geçerli ama karışık bir GeometryCollection
     olabilir (kıyıda çizgi artığı); poligonal olmayan parçaları süz."""
     if g.geom_type == "GeometryCollection" or not g.is_valid: return temiz(g)
+    # 🔴 M-4535 (18 Eylül 2026) — YÜRÜYÜŞ AÇIKKEN ÇÖKÜŞ, kutu sınavında yakalandı
+    # (26-50D 34-44K, MOTOR_YURUYUS=1 + 16 komşu, devlet ~100/591):
+    #     g.intersection(KARA) → MultiLineString → _ham_km2: 'no attribute exterior'
+    # Izgaradan gelen epok payı KARA'ya yalnız bir ÇİZGİ boyunca değebiliyor; kesişim
+    # o zaman saf çizgi döner ve bu işlev onu süzmüyordu (yalnız KARIŞIK koleksiyonu
+    # süzüyordu). Koşu 13B zaman aşımına takılmasaydı büyük olasılıkla BURADA ölecekti.
+    # Bayrağa bağlı: bayrak kapalıyken davranış bit-bit aynı kalsın (kapalı yolda
+    # bugüne kadar bu durum hiç ölümcül olmadı — 19 saatlik koşular tamamlandı).
+    if MOTOR_YURUYUS and g.geom_type in ("LineString", "MultiLineString", "LinearRing",
+                                         "Point", "MultiPoint"):
+        return Polygon()
     return g
 
 # ═══ 🔴 KASITLI BOŞLUK MUAFİYETİ — MOTOR ENKLAV, 11 Ağustos 2026 ═══════════
@@ -3526,6 +3694,7 @@ if COL is not None:
 asama("Motorun çizdiği kara (motor_kara.geojson)")
 _mkara = unary_union([g for g in PETEK_D if g is not None and not g.is_empty])
 _mkyol = os.path.join(BASEMAPS, "motor_kara.geojson")
+if _ISCI_NO is not None: _mkyol = os.path.join(_SUREC_DIZIN, f"mk_{_ISCI_NO}.geojson")
 io.open(_mkyol, "w", encoding="utf-8").write(json.dumps(
     {"type": "FeatureCollection", "features": [
         {"type": "Feature", "properties": {"kaynak": "uret_petek.py",
@@ -4723,6 +4892,7 @@ _bj += ("window.URETIM_IZI = "
                      separators=(",", ":"), sort_keys=True) + ";\n")
 _muhru_dogrula("data/bolgeler.js")
 girdi.izi_dogrula(_GIRDI_IZI, "data/bolgeler.js")
+if _ISCI_NO is not None: _byol = os.path.join(_SUREC_DIZIN, f"bolgeler_{_ISCI_NO}.js")
 open(_byol, "w", encoding="utf-8").write(_bj)
 print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//1024} KB)")
 
@@ -5251,7 +5421,8 @@ if MOTOR_YURUYUS and _YR_SAHIP is not None:
                     or y.get("kur") or y.get("bit"))]
     _yr_tav = YURUYUS_PUAN_HALKA[-1][0] * NEHIR_KM_SAAT
     _yr_disari = 0
-    for _j in _yr_aday:
+    for _yk, _j in enumerate(_yr_aday, 1):
+        nabiz(f"saat matrisi aday {_yk}/{len(_yr_aday)}")
         _h = _yr_th.get(_j)
         if _h is None:
             _yr_disari += 1
@@ -5378,6 +5549,7 @@ def _yabanci_devlet_faz1(_arg):
     ham = []; tani = []; onceki = None
     for i in range(len(ts) - 1):
         a, b = ts[i], ts[i+1]
+        nabiz(f"devlet {_i}/{len(BOYALAR)} {did} · gün {i+1}/{len(ts)-1} ({a})")
         # kur:/bit: — henüz kurulmamış (ya da yok olmuş) nokta o tarihte devletin
         # gövdesine KATILMAZ; peteği de petek_epok() ile komşusuna devredilmiştir.
         _dv = devir_kumesi(a)
@@ -5438,7 +5610,177 @@ def _yabanci_devlet_faz1(_arg):
 
 
 _MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))
-if os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
+_SR_SONUC_DIZIN = None
+if _SUREC_YOLU:
+    # ---- SÜREÇ YOLU (M-4533) — FAZ 1 süreçlere bölünür, FAZ 2 AYNEN ------
+    # Her süreç KENDİ payının FAZ 1 sonucunu `s_<sıra>.pkl` olarak diske
+    # yazar (bellekte biriktirmez — B2). Ana süreç FAZ 2'yi ÖZGÜN devlet
+    # sırasıyla, aşağıdaki paralel yolla BİREBİR aynı gövdeyle yürütür ⇒
+    # `havuza()` çağrı dizisi DEĞİŞMEZ.
+    import pickle as _pk, hashlib as _hl
+    from concurrent.futures import ThreadPoolExecutor as _TPE
+
+    def _sr_iz():
+        _h = _hl.sha256()
+        _h.update(json.dumps([YERLER, list(BOYALAR.items())], sort_keys=True, ensure_ascii=False,
+                             default=lambda o: sorted(o) if isinstance(o, (set, frozenset)) else str(o)
+                             ).encode("utf-8"))
+        for _g in PETEK_D:
+            _h.update(b"|" if _g is None else shapely.to_wkb(_g, output_dimension=2))
+        if MOTOR_YURUYUS and _YR_SAHIP is not None:
+            _h.update(_YR_SAHIP.tobytes())
+        _h.update(repr((DOLGU_ACIK, PUAN_KAPALI, MOTOR_YURUYUS, YURUYUS_16,
+                        sorted(_YR_PUAN_SAAT.items()) if _YR_PUAN_SAAT else None,
+                        _MOTOR_IZI)).encode("utf-8"))
+        return _h.hexdigest()
+    _SR_IZ = _sr_iz()
+    _sr_is = list(enumerate(BOYALAR.items(), 1))
+    # LPT: en ağır devlet en hafif kovaya (ağırlık = ETA'nın hücre-birleşimi)
+    _sr_yuk = [0] * _SUREC_ISCI
+    _sr_sahip = {}
+    for _k in sorted(range(len(_sr_is)),
+                     key=lambda k: (-(_DV_KUM[k + 1] - _DV_KUM[k]), k)):
+        _b = min(range(_SUREC_ISCI), key=lambda b: (_sr_yuk[b], b))
+        _sr_sahip[_sr_is[_k][0]] = _b
+        _sr_yuk[_b] += (_DV_KUM[_k + 1] - _DV_KUM[_k]) + 1
+
+    if _DEVAM:
+        _SR_SONUC_DIZIN = os.path.join(
+            os.environ.get("MOTOR_DEVAM_DIZIN")
+            or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "_petek_devam"),
+            _SR_IZ[:16])
+        os.makedirs(_SR_SONUC_DIZIN, exist_ok=True)
+    else:
+        _SR_SONUC_DIZIN = _SUREC_DIZIN
+
+    def _sr_yol(idx):
+        return os.path.join(_SR_SONUC_DIZIN, f"s_{idx:05d}.pkl")
+    if _DEVAM and _ISCI_NO is None:
+        _sr_hazir = sum(1 for a in _sr_is if os.path.exists(_sr_yol(a[0])))
+        print(f"  ♻️ DEVAM: {_SR_SONUC_DIZIN} · diskte HAZIR devlet {_sr_hazir}/{len(_sr_is)}")
+
+    def _sr_yaz(arg):
+        if _DEVAM and os.path.exists(_sr_yol(arg[0])):
+            return                    # önceki koşudan hazır (iz-anahtarlı dizin)
+        _r = _yabanci_devlet_faz1(arg)
+        _y = _sr_yol(arg[0])
+        with open(_y + ".tmp", "wb") as _f:
+            _pk.dump((_SR_IZ, _r), _f, protocol=4)
+        os.replace(_y + ".tmp", _y)
+
+    def _sr_sayac_al():
+        return {"b23": dict(_B23_SAYAC), "kb": dict(_KB_MUAF), "b3": len(_B3_KALAN_IHLAL),
+                "b1": {k: (set(v) if isinstance(v, set) else v) for k, v in _B1_SAYAC.items()},
+                "vp": set(_VARLIK_PAY), "sy": {k: list(v) for k, v in _SAYAC.items()}}
+    _sr_benim = [a for a in _sr_is if _sr_sahip[a[0]] == int(_ISCI_NO or 0)]
+    print(f"  [SÜREÇ] {len(_sr_benim)}/{len(_sr_is)} devlet bu süreçte · "
+          f"yük payı %{100.0 * _sr_yuk[int(_ISCI_NO or 0)] / max(1, sum(_sr_yuk)):.0f} · "
+          f"iz {_SR_IZ[:12]}")
+    if _ISCI_NO is not None:
+        # ---- İŞÇİ: payını yaz, sayaç farkını bırak, ÇIK --------------------
+        _sr_once = _sr_sayac_al()
+        with _TPE(max_workers=_MOTOR_PARALEL_ISCI) as _ex:
+            for _f in [_ex.submit(_sr_yaz, a) for a in _sr_benim]:
+                _f.result()
+        _sr_son = _sr_sayac_al()
+        _fark = {"b23": {k: v - _sr_once["b23"].get(k, 0) for k, v in _sr_son["b23"].items()},
+                 "kb": {k: v - _sr_once["kb"].get(k, 0) for k, v in _sr_son["kb"].items()
+                        if v - _sr_once["kb"].get(k, 0)},
+                 "b3": list(_B3_KALAN_IHLAL[_sr_once["b3"]:]),
+                 "b1": {k: (v - _sr_once["b1"][k] if not isinstance(v, set) else v - _sr_once["b1"][k])
+                        for k, v in _sr_son["b1"].items()},
+                 "vp": {k: _VARLIK_PAY[k] for k in set(_VARLIK_PAY) - _sr_once["vp"]},
+                 "sy": {k: [v[0] - _sr_once["sy"].get(k, [0, 0.0])[0],
+                            v[1] - _sr_once["sy"].get(k, [0, 0.0])[1]]
+                        for k, v in _sr_son["sy"].items()}}
+        _y = os.path.join(_SUREC_DIZIN, f"sayac_{_ISCI_NO}.pkl")
+        with open(_y + ".tmp", "wb") as _f:
+            _pk.dump(_fark, _f, protocol=4)
+        os.replace(_y + ".tmp", _y)
+        print(f"  [SÜREÇ] işçi {_ISCI_NO} payını bitirdi — çıkıyor")
+        sys.stdout.flush()
+        os._exit(0)
+    # ---- ANA SÜREÇ: kendi payı arka planda, FAZ 2 özgün sırayla ------------
+    _sr_ex = _TPE(max_workers=_MOTOR_PARALEL_ISCI)
+    _sr_fut = {a[0]: _sr_ex.submit(_sr_yaz, a) for a in _sr_benim}
+    _sr_yerel = 0
+    for _sr_idx, (did, (dad, renk)) in _sr_is:
+        _y = _sr_yol(_sr_idx)
+        _s = _sr_sahip[_sr_idx]
+        if _s == 0:
+            try:
+                _sr_fut.pop(_sr_idx).result()
+            except Exception as _e:
+                print(f"  ⚠️ SÜREÇ: devlet {did} ana payında düştü ({type(_e).__name__}) — yeniden")
+        else:
+            while not os.path.exists(_y):
+                if _SUREC_COCUK[_s - 1].poll() is not None:
+                    break
+                nabiz(f"FAZ 2 bekliyor: devlet {_sr_idx}/{len(_sr_is)} {did} (işçi {_s})")
+                time.sleep(1.0)
+        _r = None
+        if os.path.exists(_y):
+            with open(_y, "rb") as _f:
+                _iz, _r = _pk.load(_f)
+            if not _DEVAM:
+                os.remove(_y)
+            if _iz != _SR_IZ:
+                print(f"  ⚠️ SÜREÇ: devlet {did} — işçi {_s} ön aşama izi FARKLI "
+                      f"({_iz[:12]} ≠ {_SR_IZ[:12]}) — sonucu REDDEDİLDİ")
+                _r = None
+        if _r is None:
+            print(f"  ⚠️ SÜREÇ: devlet {did} işçi {_s}'den gelmedi — ana süreç hesaplıyor")
+            _r = _yabanci_devlet_faz1((_sr_idx, (did, (dad, renk))))
+            _sr_yerel += 1
+        did, dad, renk, ham, tani = _r
+        _dv_i = _sr_idx
+        ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
+        for _ts_sure, _kesilen, _tamamen in tani:
+            _PUAN_KESILEN[0] += _kesilen
+            _PUAN_TAMAMEN[0] += _tamamen
+            sayac("yabancı gövde geometrisi", _ts_sure)
+        dnm = []
+        for h in ham:
+            dnm.append({"f": h["f"], "t": h["t"],
+                        "g": havuza(h["mp"], DEV_HALKA, DEV_HALKA_IX,
+                                    DEV_PARCA, DEV_PARCA_IX),
+                        "c": h["c"]})
+        if dnm:
+            DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
+    _sr_ex.shutdown()
+    # işçilerin sayaç farkları (yalnız RAPOR — çıktıya girmez)
+    for _k in range(1, _SUREC_ISCI):
+        _c = _SUREC_COCUK[_k - 1]
+        try:
+            _c.wait(timeout=600)
+        except Exception:
+            pass
+        _y = os.path.join(_SUREC_DIZIN, f"sayac_{_k}.pkl")
+        if not os.path.exists(_y):
+            print(f"  ⚠️ SÜREÇ: işçi {_k} sayaç farkı yok (kod {_c.poll()}) — rapor sayaçları EKSİK")
+            continue
+        with open(_y, "rb") as _f:
+            _fk = _pk.load(_f)
+        for k, v in _fk["b23"].items():
+            _B23_SAYAC[k] = _B23_SAYAC.get(k, 0) + v
+        for k, v in _fk["kb"].items():
+            _KB_MUAF[k] = _KB_MUAF.get(k, 0) + v
+        _B3_KALAN_IHLAL.extend(_fk["b3"])
+        for k, v in _fk["b1"].items():
+            if isinstance(v, set):
+                _B1_SAYAC[k] |= v
+            else:
+                _B1_SAYAC[k] += v
+        for k, v in _fk["vp"].items():
+            _VARLIK_PAY.setdefault(k, v)
+        for k, v in _fk["sy"].items():
+            if v[0] or v[1]:
+                sayac(k, v[1], v[0])
+    print(f"  [SÜREÇ] FAZ 2 bitti · işçiden gelmeyip ana süreçte hesaplanan devlet {_sr_yerel} · "
+          f"işçi çıkış kodları {[c.poll() for c in _SUREC_COCUK]}")
+    print("  ⚠️ SÜREÇ: EKLEYİCİ KAPI gün sayaçları (_DOLGU_SAYAC) yalnız ANA sürecin "
+          "hesapladığı günleri sayar — rapor sayısıdır, çıktıya girmez")
+elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
     # ---- ESKİ YOL — bilerek DOKUNULMADI, bit-denkliğin SINAMA TABANI ------
     # `MOTOR_PARALEL_KAPALI=1` ile açılır. Aşağıdaki gövde, PARALEL
     # UYGULAMA'dan önceki tek-geçişli döngünün BİREBİR AYNISIDIR — ayrı bir
@@ -5460,6 +5802,7 @@ if os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
         dnm = []; onceki = None
         for i in range(len(ts) - 1):
             a, b = ts[i], ts[i+1]
+            nabiz(f"devlet {_dv_i}/{len(BOYALAR)} {did} · gün {i+1}/{len(ts)-1} ({a})")
             _dv = devir_kumesi(a)
             aktif = frozenset(j for j in hj
                               if j not in _dv
@@ -5785,6 +6128,7 @@ for _i in range(len(tarihler) - 1):
 for i in range(len(tarihler) - 1):
     ilerleme(i + 1, len(tarihler) - 1, 50, "kırılma", _DN_KUM)
     a, b = tarihler[i], tarihler[i+1]
+    nabiz(f"kırılma {i+1}/{len(tarihler)-1} ({a})")
     # kur:/bit: — kurulmamış nokta Osmanlı gövdesine de katılmaz. Örnek:
     # St. Petersburg'un s: alanı 1281'den rusya diyor ve kur:1703; Kesela'nın
     # d: penceresi kur: gününde başlıyor. Devredilen petekler petek_epok()
@@ -6484,3 +6828,9 @@ for d in donemler:
 # 📌 KOŞU KENDİ BİLANÇOSUNU YAZAR — bu satırdan sonra "nerede yanıyor" sorusu
 # bir daha dosya damgasından TAHMİN edilmez.
 asama_ozet()
+
+# ♻️ DEVAM dizini yalnız koşu BAŞARIYLA sonuna vardıysa silinir.
+if _DEVAM and _ISCI_NO is None and _SR_SONUC_DIZIN:
+    import shutil as _shd
+    _shd.rmtree(_SR_SONUC_DIZIN, ignore_errors=True)
+    print(f"  ♻️ DEVAM dizini silindi: {_SR_SONUC_DIZIN}")
