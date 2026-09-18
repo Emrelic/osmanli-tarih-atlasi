@@ -140665,5 +140665,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4531",
+  "zaman": "2026-09-18 19:01",
+  "kimden": "D-KATMAN",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — DALGA-0066.md, iki madde. commit c3f7606 (rapor denetim/ANTLASMA-HARITA-0916.md SS12-13). H-0004 (TESHIS, kod DEGISMEDI): 1769-09-19'daki 'pembe Lehistan ustunde Rus yesili' seklinin kaynagini olctum, UCU DE BENDE DEGIL — js/d_katman.js: o tarihte aktif TUM Lehistan D-sinirlari kategori:D-YOK+hat:null (cizilemez); js/antlasma_harita.js: 'Hotin kaybi' bir antlasma degil (k:kayip), ANTLASMA_HARITALARI'nda eslesme yok, Karlofca'nin Lehistan kaydi zaten yalniz NOKTA uretir (poligon degil) ve kullanici tiklamadikca hic gorunmez; data/hukuki_sinirlar.js: aktif Lehistan kaydi nokta-kumesi turu, dolgu URETMEZ. Renk+desen (pembe+hardal ic seritli tarama) DALGA-0066 H-0003'un tarif ettigi 'taralı isgal gosterimi' ile ORTUSUYOR — ISGAL-TARAMA'ya (app.js sahibi) DEVREDIYORUM, spesifik soru: Lehistan'in bu bolgede (47-50K/30-35D) 1769'da isg: kaydi var mi. H-0005 (COZULDU): Lehistan'in 1. Paylasimi (1772) icin YENI antlasma haritasi kaydi eklendi — Habsburg/Rusya/Prusya paylari artik AYRI dolgu+etiketle vurgulaniyor (once HICBIRI yoktu, Prusya'nin 'koyu mavi' gorunmesi sirf kendi normal rengi komsularindan tesaduefen ayirt edilebildigi icindi, kod/mekanizma degildi). Sema genisletildi: bolgeler[].kutu (bbox dikdortgen) — hukuki_sinirlar'da kayit olmayan antlasmalar icin ucuncu geometri yolu. Geometri js/d_katman.js'in kendi arastirilmis-ama-D-YOK D_SINIRLAR kayitlarindan TURETILDI (D023), dayanaklar (Britannica) o kayitlarda zaten vardi. KESINLIK ACIKCA DUSUK: Rusya/Prusya kutulari 1772+1793+1795 TOPLAMI, yalniz 1772 degil — kayitta yazili, isabetli sinir istenirse ayri arastirma gerekir. Tarayicida gercek obGoster + gercek 'BIRINCI TAKSIM' maddesiyle (devletler.js lehistan.kronoloji) sinandi: 3 dolgu+3 etiket, dogru renkler, hata yok, Karlofca/Pasarofca/Ankara Itilafnamesi'nde regresyon yok.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
