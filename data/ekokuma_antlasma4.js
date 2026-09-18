@@ -1131,6 +1131,28 @@ window.EKOKUMA_ANTLASMA4 = [
   kaynak:"TDV: milli-mucadele (Sakarya, 19 Eylül, 20 Ekim 1921 Ankara Antlaşması ve hükümleri, diplomatik zafer değerlendirmesi, Ermenilerin göçü, birliklerin kaydırılması, 23 Ekim esir mübadelesi)",
   ic_not:"Hatay maddesi (TDV hatay) bir yönlendirme kütüğü döndü (0 karakter), okunmadı. Fransız imzacı Franklin-Bouillon adı TDV'nin okunan parçasında yok; kartta yazılmadı." },
 
+// ═══ DALGA-0066 · H-0015 ═════════════════════════════════════════════════
+
+// ── 1775 BUKOVİNA'NIN AVUSTURYA'YA TERKİ ───────────────────────────────────
+{ id:"antlasma4-bukovina-1775", tur:"sebep-sonuc",
+  baslik:"Bukovina (1775): savaşmadan kaybedilen toprak — gerçekten karşılıksız mıydı?",
+  kisa:"Avusturya 1768-1774 savaşına girmedi; ama savaş biterken Boğdan'ın kuzeyini işgal etti ve bir senetle kendine bıraktırdı. Osmanlı bunu hiçbir zaman adil saymadı ve on beş yıl sonra geri istedi.",
+  sebep:{ b:"Rusya'nın Boğdan'ı işgali ve Avusturya'nın 1771 ittifakına rağmen savaşa girmemesi", t:"1771-07-06" },
+  sonuc:{ b:"Bukovina'yı Avusturya'ya bırakan senet", t:"1775" },
+  bag:"Önemi: Osmanlı burada savaşmadığı bir devlete, başka bir devletle yaptığı savaşın ardından toprak bıraktı. Boğdan'ın eski merkezi Suceava bu toprağın içindeydi. Terk Osmanlı açısından kapanmış bir hesap olmadı: 1790-1791 Ziştovi görüşmelerinde Osmanlı delegeleri Bukovina'nın iadesini istedi, Avusturya kabul etmedi.",
+  surec:"1771 İTTİFAKI. TDV III. Mustafa maddesine göre Rusların Eflak ve Boğdan'ı işgalinden tedirgin olan Avusturya ile, nakdî ödemeler dışında Küçük Eflak'ın bırakılmasını öngören bir ittifak antlaşması yapıldı (6 Temmuz 1771). TDV'nin hükmü serttir: bu ittifak Avusturya'ya külliyetli para kaptırmaktan ve Rusya, Avusturya ve Prusya'nın Lehistan'ı paylaşmasını (1772) kolaylaştırmaktan başka bir işe yaramadı.\n\nİŞGAL VE TERK. 1911 Britannica'ya göre Boğdan beyliğinin bir parçası olan ve eski başkent Suceava'yı içine alan bölgeyi 1769'da Ruslar, 1774'te Avusturyalılar işgal etti. Küçük Kaynarca (21 Temmuz 1774) ile Rus savaşı biterken Avusturya bölgeyi elinde tutuyordu. Bab-ı Âli, metbûu olduğu Boğdan'ın bu kesimini bir senetle Avusturya'ya bıraktı.\n\nKARŞILIKSIZ MIYDI? Kaynağın söylediği kadarıyla tam olarak değil. TDV Ziştovi maddesi, Bukovina'yı terk eden 1775 tarihli senedin 4. maddesinde Avusturya'nın Bukovina'ya karşılık Hırsova (Orsova) üzerindeki talebinden vazgeçmeyi kabul ettiğini yazar. Yani senette bir karşılık vardı; ama bu, Osmanlı'nın zaten elinde tuttuğu bir yere dair bir iddiadan vazgeçmekti, yeni bir kazanç değildi. Terkin arkasında 1771'de Avusturya'ya ödenen ama karşılığı alınamayan paralar ve Rus savaşından yeni çıkmış bir devletin ikinci bir cepheyi göze alamaması duruyordu — ikincisi kaynakta açıkça yazılmayan, olayların sırasından çıkan bir değerlendirmedir.",
+  hukumler:[
+    "Boğdan'ın kuzey kesimi (Bukovina) Avusturya'ya bırakıldı.",
+    "Senedin 4. maddesi: Avusturya, Bukovina'ya karşılık Hırsova (Orsova) konusundaki talebinden vazgeçti.",
+    "Sınır ayrıca bir senetle çizildi (kuyruk kronolojisinde 4 Temmuz 1776 'Bukovina sınır senedi')."
+  ],
+  metin:"1787-1791 savaşında Avusturya Rusya'nın yanında Osmanlı'ya savaş açtı. Ziştovi görüşmelerinde Osmanlı tarafı, savaşı ilan eden Avusturya'dan tazminat ve 1775'te terk edilen Bukovina'nın iadesini istedi; Avusturya bunları kabul etmeyeceğini gösterdi ve Rusya'ya karşı barışı bir an önce isteyen Osmanlı bu talepten vazgeçti. Bukovina 1786'da Galiçya ile tek eyalet yapıldı, 1849'da ayrı bir taç ülkesi oldu (1911 Britannica).",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1775-05-07|Bukovina","1776-07-04|Bukovina","1791-08-04|Ziştovi"],
+  kaynak:"TDV: mustafa-iii (6 Temmuz 1771 Osmanlı-Avusturya ittifakı ve değerlendirmesi) · TDV: zistovi-antlasmasi (1775 tarihli senet ve 4. maddesi; Ziştovi'de Bukovina'nın iadesi talebi ve reddi) · 1911 Encyclopædia Britannica, 'Bukovina' (Boğdan'ın parçası, Suceava, 1769 Rus ve 1774 Avusturya işgali, 1786 ve 1849 idarî değişiklikler; Wikisource neşri, kamu malı)",
+  ic_not:"DALGA-0066 H-0015. TDV'de müstakil madde YOK (bukovina, cernovic 302); boğdan, avusturya, kucuk-kaynarca, abdulhamid-i maddeleri Bukovina'yı anmıyor. 🔴 TARİH FARKI, bildirildi: çekirdek olaylar_ek5 1775-05-07 (gun alanı yalnız '1775'); TDV ziştovi '1775 tarihli senet'; 1911 Britannica 'In 1777 the Porte … ceded'; kuyruk kronoloji_sinir_avrupa_orta 1776-07-04 sınır senedi. Kart TDV'nin yılını izledi. 'İkinci cepheyi göze alamama' bir değerlendirmedir, okur metninde öyle işaretlendi." },
+
 // ═══ DALGA-0065 · H-0009 ═════════════════════════════════════════════════
 
 // ── 1768-1774 OSMANLI-RUS SAVAŞI NİÇİN ÇIKTI? ──────────────────────────────
