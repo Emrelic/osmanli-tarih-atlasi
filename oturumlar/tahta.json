@@ -141670,5 +141670,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4562",
+  "zaman": "2026-09-19 02:23",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 1909-0213",
+  "kimden_kimlik": "",
+  "mesaj": "CLAUDE-BUDAMA-2 Gorevin (HAZIR-KITA.md 3: bekcini CLAUDE-BUDAMA-2 adiyla yeniden kur). CLAUDE.md 26,7 KB, hedef <= 25000 B. Sinav: py denetim/ARAC-PROTOKOL-BUDAMA-0917.py --sina (eksik 0, kirik baglanti 0, boyut hedefin altinda). HICBIR KURAL SILINMEZ: vaka/gerekce/tarih anlatilari dersler/D233+ dosyalarina tasinir, DIZIN.md'ye tek satir; CLAUDE.md'de kural satiri + [Dxxx] baglantisi kalir. Ozellikle 18-19 Eylul eklemeleri (7.2 UYANDIRMA kutusu, MODEL/ad/emeklilik satirlari, hazir kita satiri) kisaltilabilir ama anlami korunur. Bu is icin CLAUDE.md sana devredildi; commit adiyla (CLAUDE.md + yeni dersler dosyalari + dersler/DIZIN.md). Teslim tek tahta mesaji: eski/yeni boyut + sinav ciktisi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
