@@ -190,7 +190,10 @@ def _zincir(yayinla=True, uretimsiz=False):
         #   ayrıca ölçülür.
         if kos("üretim (uret_petek.py) — ölçülen en uzun koşu 16s49dk "
                "(koşu 7B, ~2731 petek; bu koşunun tabanı FARKLIYSA süre de farklıdır)",
-               [sys.executable, "arac/uret_petek.py"], dk=1440) is None:
+               [sys.executable, "arac/uret_petek.py"],
+               dk=int(os.environ.get("KOSU_ZAMAN_DK", "1440"))) is None:
+        # KOSU_ZAMAN_DK: yürüyüşlü koşu 24 saate sığmadı (13B, 18 Eyl 2026) —
+        # tavan koşu başına ortamdan verilir; varsayılan 1440 değişmedi.
             return 1
         if kos("devirler (uret_devirler.py)",
                [sys.executable, "arac/uret_devirler.py"], dk=40) is None:
