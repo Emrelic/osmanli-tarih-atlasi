@@ -1,45 +1,39 @@
 # Tarih Atlası — her oturumun önce okuyacağı dosya
 
-Kurallar, değişmezler, dosya sahipliği, haberleşme. **Her satır bir KURAL; gerekçesi ve
-vakası `dersler/D<NNN>-*.md`dedir** (17 Eylül 2026 budaması: 167 KB → ≤30 KB, hiçbir kural
-silinmedi — sınav: `py denetim/ARAC-PROTOKOL-BUDAMA-0917.py --sina`). Bir kural tartışılınca
-vakasını aç; tartışılmıyorsa slogan yeter. Tam dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md).
+**Her satır bir KURAL; gerekçesi ve vakası [`dersler/`](dersler/DIZIN.md)dedir** (17 Eylül
+2026 budaması: 167 → 25 KB, hiçbir kural silinmedi; sınav
+`py denetim/ARAC-PROTOKOL-BUDAMA-0917.py --sina`). Kural tartışılınca vakasını aç.
 
 ## Belge seti ve açılış
+**AÇILIŞTA YALNIZ İKİ BELGE OKUNUR: bu dosya + kendi şartnamen** (`oturumlar/<ADIN>.md`).
+Aşağıdakiler **yalnız iş gerektirirse, adıyla ve gerekli bölümüyle** açılır — hiçbiri "her
+oturumda" değildir (4 belge = 440 KB/oturumdu; 17 Eylül 2026 token kararı, Emre).
+
 | Belge | Ne | Ne zaman |
 |---|---|---|
-| `CLAUDE.md` | nasıl çalışılır | her oturum, baştan sona |
-| `dersler/` | kuralların vakaları | kural tartışılınca — toplu okunmaz |
-| `ONCELIK.md` | neyi önce, neyi hiç (çöl seyyahı) — kapsam isteğinde ÖNCE buraya bak, gerekirse itiraz et | kapsam sorusu |
-| `YOL-HARITASI.md` · `YAPILACAKLAR.md` | nereye · sıradaki işler | her oturum |
+| `dersler/DIZIN.md` + `D*.md` | kuralların vakaları | bir kural TARTIŞILINCA — toplu okunmaz |
+| `ONCELIK.md` | neyi önce, neyi hiç (çöl seyyahı) | kapsam sorusunda ÖNCE buraya bak, gerekirse itiraz et |
+| `YOL-HARITASI.md` · `YAPILACAKLAR.md` | nereye · sıradaki işler | koordinatör; işçi şartnamesi derse |
 | `MIMARI.md` · `VERI-YAPISI.md` | motor · şemalar | motora / veriye dokunacaksan ŞART |
 | `BES-ALTYAPI.md` | beş altyapı unsuru (Emre, 16 Ağu) — `ALTYAPI.md §0`ın yerini alır | altyapı sorusu |
-| `DURUM.md` · `OGRENILENLER.md` · `ETIKETLEME.md` | durum · dersler · etiket | işe başlarken / gerektikçe |
-| `oturumlar/*.md` | görev tanımları | sana ait olan |
+| `DURUM.md` · `OGRENILENLER.md` · `ETIKETLEME.md` | durum · eski dersler · etiket | adıyla sorulursa |
 
-**Açılış sırası:** bu dosya → görev şartnamen → işine göre `MIMARI`/`VERI-YAPISI` →
-`git log --oneline -10` → `py arac/durum_tablosu.py` (sayılar §1.5 ile uyuşmuyorsa önce onu söyle).
-Vaka: [`D231`](dersler/D231-belge-seti-acilis-sirasi.md)
+Veriye/motora dokunacaksan ek olarak `git log --oneline -10` ve `py arac/durum_tablosu.py`
+(sayılar §1.5 ile uyuşmuyorsa önce onu söyle). [`D231`](dersler/D231-belge-seti-acilis-sirasi.md)
 
 ---
 
 ## 1. Proje nedir
 
-Zaman göstergesi ilerledikçe devlet sınırlarının harita üzerinde değiştiği, yanında
-kronolojik olay akışının ve dönemin hükümdarının aktığı **eğitim amaçlı statik web
-sitesi**. Sunucu yok, veritabanı yok, derleme adımı yok — tarayıcı `data/` altındaki
-düz JS dosyalarını okur.
-
-- **Yayın**: https://emrelic.github.io/osmanli-tarih-atlasi/
-- **Depo**: github.com/Emrelic/osmanli-tarih-atlasi — `main`'e her push otomatik yayınlanır
-- **Harita kütüphanesi**: MapLibre GL JS 4.7.1 (CDN'den)
-- **Çekirdek katman**: Osmanlı İmparatorluğu 1281–1923, **gün hassasiyetinde**
-- **Hedef kapsam**: bütün dünya, nihai ufuk MÖ 12000 – MS 2026 (kademeli; bkz. §6)
-
-Ekranda: ortada harita (Osmanlı doğrudan koyu, tâbi açık, yabancı devletler kendi renginde),
-sağda padişah kartı + kronoloji + detay kartı (TDV bağlantılı), altta zaman çubuğu, dizin
-penceresi. **Amaç kronoloji ile haritanın birbirini doğrulaması** — bir madde okunduğunda
-haritada tam o değişim görünmeli; bütün kalite kuralları buradan türer.
+Zaman göstergesi ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve dönemin
+hükümdarının aktığı **eğitim amaçlı statik web sitesi**: sunucu/veritabanı/derleme yok,
+tarayıcı `data/` altındaki düz JS'i okur. Çekirdek katman Osmanlı 1281–1923, **gün
+hassasiyetinde**; hedef bütün dünya (MÖ 12000 – MS 2026, kademeli, §6). MapLibre GL JS 4.7.1.
+Yayın https://emrelic.github.io/osmanli-tarih-atlasi/ · depo Emrelic/osmanli-tarih-atlasi,
+`main`e push = yayın. Ekran: harita (Osmanlı doğrudan koyu, tâbi açık, yabancı kendi
+renginde) · padişah kartı + kronoloji + detay kartı · zaman çubuğu · dizin penceresi.
+**Amaç kronoloji ile haritanın birbirini doğrulaması** — bir madde okunduğunda haritada tam
+o değişim görünmeli; bütün kalite kuralları buradan türer.
 
 ---
 
@@ -65,9 +59,9 @@ haritada tam o değişim görünmeli; bütün kalite kuralları buradan türer.
 | Harita penceresi | `box(-180, -60, 180, 85)` |
 | Yayın | **r7487** · `a00592d` |
 
-**Bu tablo elle yazılmaz, üretilir** (`denetle.py`ye sorar): `py arac/durum_tablosu.py`
-(bas) · `--yaz` (§1.5'i güncelle). Tabloya güvenmeden önce koştur; bayat tabloyla kabul
-ölçütü kurulmaz, kendi tabanını ölç. Vaka: [`D199`](dersler/D199-durum-tablosu-elle-yazilmaz.md)
+**Elle yazılmaz, üretilir** (`denetle.py`ye sorar): `py arac/durum_tablosu.py` · `--yaz`
+(§1.5'i günceller). Güvenmeden önce koştur; bayat tabloyla kabul ölçütü kurulmaz.
+[`D199`](dersler/D199-durum-tablosu-elle-yazilmaz.md)
 
 ## 1.6 Kapsam disiplini
 Yedi boyut: tarih çizgisi · coğrafî kapsam · devletler · devlet kronolojileri · yerleşimler
@@ -79,7 +73,7 @@ Açmayı/kapatmayı yalnız Emre yapar. Vaka: [`D200`](dersler/D200-sekizinci-bo
 ---
 
 ## 2. Petek motoru — tek zayıf nokta
-Her yerleşim çevresindeki toprağın **peteği** (Voronoi) sahibidir; sınırlar kıyı/nehir/sırta
+Her yerleşim çevresindeki toprağın **peteği** (Voronoi) sahibidir; sınır kıyı/nehir/sırta
 yaslanır, kara maskesiyle kesilir, göller çıkarılır. Geometri `data/yerlesimler.js`ten her
 gün için yeniden üretilir.
 - **Noktası olmayan bölge en yakın peteğe emilir ve O PETEĞİN SAHİBİYLE boyanır.** "Harita
@@ -91,29 +85,17 @@ gün için yeniden üretilir.
 ---
 
 ## 3. İhlal edilemez değişmezler
-Her veri değişikliğinden sonra `py arac/denetle.py`. Aşağıdaki komutlar hızlı bakıştır.
-Vakalar ve eski sayılar: [`D202`](dersler/D202-uc-degismez-tam-metin.md)
-
-**Değişmez 1 — sahipsizlik yok.** Var olduğu tarihte sahipsiz yerleşim = haritada delik.
-Sahipsiz sayısı §1.5'teki beklenenin üstüne çıkarsa yeni delik açılmıştır (beklenenler
-kasıtlı çöl/dolgu noktaları). Bu komut 1300'den başlar, kuruluş devrini görmez — gerçek
-denetim `denetle.py`.
-```bash
-node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js','utf8'));const Y=window.YERLESIMLER;const iR=(a,g)=>a&&a.some(p=>p.f<=g&&g<p.t);const b={};for(let y=1300;y<=1920;y+=20){const g=y+'-06-15';for(const t of Y){if(t.kur&&t.kur>g)continue;if(iR(t.d,g)||iR(t.s,g)||iR(t.v,g))continue;(b[t.ad]=b[t.ad]||[]).push(y);}}console.log('yerlesim:',Y.length,'| sahipsiz:',Object.keys(b).length);for(const [a,ys] of Object.entries(b))console.log('  '+a.padEnd(24)+ys.join(','));"
-```
-
-**Değişmez 2 — sessiz toprak değişimi yok.** Her `d:`/`v:` kırılmasının **±30 gün** içinde
-kronoloji maddesi olmalı. **Ölçütü gevşetme.**
-```bash
-node -e "const fs=require('fs'),K='data/';global.window={};for(const f of ['olaylar.js','olaylar_ek.js','olaylar_ek2.js','olaylar_ek3.js','olaylar_ek4.js','olaylar_ek5.js','olaylar_ek6.js'])eval(fs.readFileSync(K+f,'utf8'));const O=Object.keys(window).filter(k=>k.startsWith('OLAYLAR')).flatMap(k=>window[k]);global.window={};eval(fs.readFileSync(K+'yerlesimler.js','utf8'));const Y=window.YERLESIMLER;const tam=s=>s.length===7?s+'-01':s,g=s=>Math.round(Date.UTC(+s.slice(0,4),+s.slice(5,7)-1,+(s.slice(8,10)||1))/864e5);const ol=O.map(o=>({g:g(tam(o.t)),b:o.b}));const kir={};for(const y of Y)for(const p of (y.d||[]).concat(y.v||[]))for(const [d,t] of [[p.f,'kazanc'],[p.t,'kayip']]){if(!d||d<='1281-01-01'||d>='1923-10-29')continue;(kir[d]=kir[d]||{t,ad:new Set()}).ad.add(y.ad);}const H=Object.keys(kir).sort(),ac=[];for(const d of H){const gd=g(d),e=ol.reduce((a,o)=>Math.abs(o.g-gd)<Math.abs(a.g-gd)?o:a,ol[0]);if(Math.abs(e.g-gd)>30)ac.push([d,kir[d].t,[...kir[d].ad].slice(0,4).join(', '),e.b]);}console.log('kirilma:',H.length,'| ACIK:',ac.length);for(const r of ac)console.log('  '+r.join('  |  '));"
-```
-
-**Değişmez 3 — tarih × yerleşim × petek × bölge çelişmez** (henüz sağlanmıyor). Kusurun %93'ü
-`m:` alanının **zaman penceresi** eksikliği (`kd:` çözer); ~%1'i eksen kusuru ve `kd:` onu
-çözmez. `OSMANLI` ile `tâbi` çelişki SAYILMAZ.
-```bash
-node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js','utf8'));const Y=window.YERLESIMLER,ix={};for(const y of Y)ix[y.ad]=y;const S=(y,g)=>{for(const p of (y.d||[]))if(p.f<=g&&g<p.t)return'OSMANLI';for(const p of (y.v||[]))if(p.f<=g&&g<p.t)return'tabi';for(const p of (y.s||[]))if(p.f<=g&&g<p.t)return p.d;return'—';};let n=0;for(const g of ['1300-06-15','1400-06-15','1500-06-15','1600-06-15','1700-06-15','1800-06-15'])for(const y of Y){if(!y.m)continue;const m=ix[y.m];if(!m)continue;const a=S(y,g),b=S(m,g);if(a!=='—'&&b!=='—'&&a!==b&&!(a==='OSMANLI'&&b==='tabi')&&!(a==='tabi'&&b==='OSMANLI'))n++;}console.log('merkezi ile farkli devlette olan yerlesim-tarih cifti:',n);"
-```
+**Her veri değişikliğinden sonra `py arac/denetle.py`** — tek kapı odur. (Eski tek satırlık
+`node -e` denetimleri ve ölçülmüş sayıları [`D202`](dersler/D202-uc-degismez-tam-metin.md)de
+birebir duruyor; `denetle.py` hepsini daha geniş evrende sorar.)
+- **1 — sahipsizlik yok.** Var olduğu tarihte sahipsiz yerleşim = haritada delik. Sahipsiz
+  sayısı §1.5'teki beklenenin üstüne çıkarsa yeni delik açılmıştır (beklenenler kasıtlı
+  çöl/dolgu noktaları).
+- **2 — sessiz toprak değişimi yok.** Her `d:`/`v:` kırılmasının **±30 gün** içinde kronoloji
+  maddesi olmalı. **Ölçütü gevşetme.**
+- **3 — tarih × yerleşim × petek × bölge çelişmez** (henüz sağlanmıyor). Kusurun %93'ü `m:`
+  alanının **zaman penceresi** eksikliği (`kd:` çözer); ~%1'i eksen kusuru ve `kd:` onu
+  çözmez. `OSMANLI` ile `tâbi` çelişki SAYILMAZ.
 
 ## 3.5 Denetimin görmediği sınıflar
 - **Hayalet devlet:** yeni `s:` dönemi yazarken devletin ömrünü `data/devletler.js`
@@ -181,10 +163,7 @@ curl -s -o /dev/null -w "%{http_code}" https://islamansiklopedisi.org.tr/<slug>
   verir, `casefold()` de çözmez → `denetim/ARAC-NORMAL-0903.py` normalleştiricisi; ayrı adlar
   (`Diyarbekir`↔`Diyarbakır`) eşanlam sözlüğü işidir. [`D215`](dersler/D215-turkce-yazim-ekseni-lower.md)
 
-Doğrulanmış slug kümesi:
-```bash
-grep -oh 'kaynak:"[^"]*"' data/olaylar*.js | sed 's/kaynak:"//;s/"//' | sort -u
-```
+Doğrulanmış slug kümesi: `grep -oh 'kaynak:"[^"]*"' data/olaylar*.js | sort -u`
 
 ---
 
@@ -202,9 +181,8 @@ veri-kaynak/             motorun girdi verisi (Natural Earth vb.)
 veri-kaynak/motor_kara.geojson   GİRDİ DEĞİL ÇIKTI (motorun çizdiği kara, ~200 km tavan)
 dersler/ · denetim/ · oturumlar/ · assets/portreler/
 ```
-**Hangi dosyanın canlı olduğu yalnız `GIRDI_DOSYALARI`dan okunur** — bu belgede liste
-tutulmaz (üç kez bayatladı). Ayrıştırıcıyı doğrulamak yetmez, okuduğu dosya kümesi de
-doğrulanır.
+**Hangi dosyanın canlı olduğu yalnız `GIRDI_DOSYALARI`dan okunur** — burada liste tutulmaz
+(üç kez bayatladı). Ayrıştırıcıyı doğrulamak yetmez, okuduğu dosya kümesi de doğrulanır.
 ```bash
 py -c "import sys;sys.path.insert(0,'arac');import girdi;print(len(girdi.GIRDI_DOSYALARI));[print(' ',f) for f in girdi.GIRDI_DOSYALARI]"
 ```
@@ -230,9 +208,9 @@ düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
 - **Koşu nöbetçisi** düzenli canlılık basar (60 dk'da bir); sessizlik "iyi gidiyor" değil
   "nöbetçi ölmüş olabilir"dir. (Tahta bekçisi ise mesaj yoksa sessizdir — §7.2.)
   [`D222`](dersler/D222-nobetci-altyapiyla-olur.md)
-- **Commit:** push ve paylaşılan dosyalar Oturum 0'da. Oturum KENDİ ürettiği dosyaları
+- **Commit:** push ve paylaşılan dosyalar Oturum 0'da. Oturum KENDİ ürettiklerini
   (`oturumlar/<ADI>.md`, `denetim/<ÖNEKİ>…`) **adıyla** commit eder; dizin pathspec'i ve
-  `git add -A` YASAK; pathspec commit'te de tekrarlanır ve `git show --name-only` ile
+  `git add -A` YASAK; pathspec commit'te de tekrarlanır, `git show --name-only` ile
   doğrulanır. Commit teslim değildir. [`D223`](dersler/D223-commit-istisnasi-pathspec.md)
 ```bash
 git add -- <adlar>
@@ -244,7 +222,7 @@ git commit -F <mesaj-dosyası> -- <aynı adlar>
 - **Cevap kendi pencerene yazılmaz; "ne oldu bizim iş?" cevapsız kalmaz** ("iş üstündeyim ·
   aşama · ~kalan"). Koordinatör ölü ilan etmeden önce oturumun gerçekten çalışıp
   çalışmadığına BAKAR. [`D224`](dersler/D224-cevap-kanali-ne-oldu-bizim-is.md)
-- Yeni oturumun görev tanımı `oturumlar/` altına yazılır.
+- Yeni oturumun görev tanımı `oturumlar/` altına yazılır (§7.2 ②).
 
 ---
 
@@ -300,13 +278,17 @@ BEKLEME     ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kont
                 CLAUDE.md) koordinatör commitler; devralınan dosya için "dosya senin" denir.
 ⑧ EMEKLİLİK     Teslimden sonra DUR. Bekçi açık kalır; yeni iş gelirse uyandırır. Emekli
                 oturuma yalnız işin doğrudan devamı verilir (varsayılan taze oturum).
+⚠️ UYANDIRMA    TAHTA MESAJI DURAN OTURUMU UYANDIRMAZ — yalnız bekçisi açık olanı uyandırır.
+                Duran/bekçisiz oturuma görev, send_message ile gider (tahtaya da kayıt için
+                yazılır). 18 Eylül gecesi tahtaya yazılan görevler ~9 saat cevapsız kaldı.
+                send_message "undelivered" diyorsa oturum ONAY PENCERESİNDE takılı olabilir —
+                bunu yalnız Emre açabilir, ona bildirilir.
 ```
 Bu zincire bağlanan eski kurallar: §7 koşu nöbetçisi (≠ tahta bekçisi) · §7.1 ①–⑦ ve TOKEN
 KURALI · `arac/tahta_bekci.py` kullanım notu · `ClaudEmre/SARTNAME.md` ⑤ haberleşme bloğu.
-**Çözülmemiş çelişkiler (hüküm 1.MURAT/Emre'de):** ClaudEmre ⑤ bloğu hâlâ "asıl kanal dosya +
-send_message", "açılınca hemen haber ver" ve "arızayı kendi pencerende kullanıcıya söyle"
-diyor · §7'nin eski "aynı anda en çok 3 oturum" kuralı bugünkü 20+ oturumlu kadroyla çelişiyor
-· ⑥ toplu okumada ACİL mesajın 30 dakika beklemesi için bir istisna tanımlı değil.
+**Çözülmemiş çelişkiler** (hüküm 1.MURAT/Emre'de, ayrıntı `denetim/PROTOKOL-BUDAMA-0917.md`):
+ClaudEmre ⑤ bloğu hâlâ send_message diyor · eski "aynı anda en çok 3 oturum" bugünkü kadroyla
+çelişiyor · ⑥'da ACİL mesaj için istisna yok.
 
 ---
 
@@ -337,24 +319,22 @@ py arac/denetle_yayin.py         # yayın kapısı
 py arac/surum_damgala.py         # index.html'deki ?v=rNN damgasını yükselt
 ```
 - **Palet verinin fonksiyonudur:** veriye dokunan her koşudan sonra `renk_olc.py` (renge
-  dokunmadan yeni çakışma doğabilir).
+  dokunmadan çakışma doğabilir).
 - Ortamda `python` değil **`py`**. Üretim logu koşarken boş görünür (normal); çıktıda
-  "Doğrulama: tüm yerleşimlerin peteği geçerli ✓" satırını gör. Yayından önce sürüm damgası
-  yükseltilir; Pages gecikmesi ~40-60 sn.
+  "Doğrulama: tüm yerleşimlerin peteği geçerli ✓" satırını gör. Yayından önce sürüm
+  damgası yükseltilir; Pages gecikmesi ~40-60 sn.
 - **Koşu çıktısı her zaman bayattır — yine de yayınlanır** (Emre, 17 Eylül): "YAYIN BAYAT"
   yayını durdurmaz, commit mesajına bilgi olarak yazılır; durduran yalnız koşunun kendi
   `denetle.py` ihlalidir. Gerekirse koşu durdurulup yeni tabanla başlatılır.
-- Koşu bittiği an ≠ yayın indiği an: yayın inene kadar motor donuktur (`D198`).
+- Koşu bittiği an ≠ yayın indiği an: yayın inene kadar motor donuk (`D198`).
 [`D229`](dersler/D229-komutlar-palet-bayat-yayin.md)
 
 ## 10. Çalışma protokolü (kullanıcı tercihi)
-- **Onay bekleme**, işlemlere devam et. Kullanıcı hataları numaralı partilerle bildirir —
-  her maddeyi ayrı cevapla. "Ayrı madde ile gösterilmeli" = Değişmez 2 ihlali: kırılmayı
-  bul, maddesini yaz.
+- **Onay bekleme**, devam et. Kullanıcı hataları numaralı partilerle bildirir — her maddeyi
+  ayrı cevapla. "Ayrı madde ile gösterilmeli" = Değişmez 2 ihlali: kırılmayı bul, yaz.
 - Görev bitince / soru sorarken **3 beep**; kullanıcının başında beklemediği uzun iş bitince
-  **9 beep**. Bekçi tahmini süreye değil gerçekleşmiş bir dosya damgasına bağlanır
-  (petek için `data/donemler.js`); zaman aşımında 3 kalın alçak beep. Bitti sanıp erken
-  haber vermek, hiç vermemekten kötüdür.
+  **9 beep**. Bekçi tahmine değil gerçekleşmiş bir dosya damgasına bağlanır (petek için
+  `data/donemler.js`). Bitti sanıp erken haber vermek, hiç vermemekten kötüdür.
 ```bash
 powershell -c "[Console]::Beep(800,300); [Console]::Beep(800,300); [Console]::Beep(800,300)"
 powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Milliseconds 120 }"
@@ -364,16 +344,15 @@ powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Mi
 ---
 
 ## 11. Tekrarlanmaması gereken hatalar
-**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 232 ders, her biri tek satır slogan +
-vaka dosyası. Toplu okunmaz; bir kural tartışılınca açılır. Yeni ders: slogan DIZIN'e tek
-satır, vaka `dersler/D<sıra>-<slug>.md`e (ikisini birden buraya yazmak bu dosyayı yeniden
-şişirir). En sık tekrarlanan aileler:
-- **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; bir raporu kabul etmeden ölç.
+**Dizin: [`dersler/DIZIN.md`](dersler/DIZIN.md)** — 232 ders. Toplu okunmaz, kural
+tartışılınca açılır. Yeni ders: slogan DIZIN'e tek satır, vaka `dersler/D<sıra>-<slug>.md`e
+(ikisini buraya yazmak bu dosyayı yeniden şişirir). En sık aileler:
+- **Ölçüm doğru, çıkarım yanlış** — hüküm ile teşhis ayrıdır; raporu kabul etmeden ölç.
 - **Denetim var ≠ o soruyu soruyor** — temiz rapor, sorulmayan soruda temiz değildir;
   ölçülemedi ≠ yok ≠ temiz; boş küme her öngörüyü doğrular.
-- **Bayatlayan belge/sayı** — bir sayı ölçümün fotoğrafıdır; kaynağını (log, alet) aç.
-- **Toplu düzeltme** — `replace(eski, yeni, 1)` yalnız ilk eşleşmeyi değiştirir; Türkçe/
-  kesme işaretli metinde `sed` kullanma; heredoc yerine `Write` + `py <yol>`.
-- **Yakın mükerrer yerleşim** — yeni noktadan önce ad (normalleştirilmiş) ve 3 km tara.
-- **Öngörü ölçümden önce yazılır**, sınav anı ve evreniyle birlikte.
-- **Yeni denetim iki yönde sınanmadan çalışıyor sayılmaz.**
+- **Bayatlayan belge/sayı** — sayı ölçümün fotoğrafıdır; kaynağını (log, alet) aç.
+- **Toplu düzeltme** — `replace(…, 1)` yalnız ilk eşleşmeyi değiştirir; Türkçe/kesme işaretli
+  metinde `sed` kullanma; heredoc yerine `Write` + `py <yol>`.
+- **Yakın mükerrer yerleşim** — yeni noktadan önce ad (normalleştirilmiş) + 3 km tara.
+- **Öngörü ölçümden önce yazılır** (sınav anı + evreniyle); yeni denetim iki yönde
+  sınanmadan çalışıyor sayılmaz.
