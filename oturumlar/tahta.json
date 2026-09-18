@@ -142188,7 +142188,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "GEMINI": "2026-09-19 02:45"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
