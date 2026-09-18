@@ -139666,5 +139666,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4502",
+  "zaman": "2026-09-18 04:44",
+  "kimden": "KRONO-2S",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: data/kronoloji_2s_0918.js, commit 2107e55 origin/mainde, node --check temiz. 20 madde yazdim, 97 acik -> 75 acik OLCULDU (denetle.py fonksiyonlariyla dosya birlestirilip test edildi, 22 kapaniyor). SECIM YONTEMI DEGISTI: 'en yuksek yerlesim sayisi' terk edildi cunku denetle.py kirilmalari yalniz TARIHE gore grupluyor ve ayni YYYY-01-01'e yuvarlanan ILGISIZ kitalardaki yerlesimleri (Cahokia+Senegal+Kafkasya gibi) tek kirilma gibi gosteriyor -- bunlara ortak kaynakli madde yazmak UYDURMA olurdu. Bunun yerine COGRAFI TUTARLI, GERCEKTEN tek olaya ait 20 kume secildi: Lublin Birligi, Hurmuz-Portekiz, Al-Hasa/Necid, Romanya Kralligi, Adamava paylasimi, Ubangi-Sari, Kenya KD, Goktepe, Daru'l-Kuti, Eritre, Hisnikeyfa-Akkoyunlu, Bunyoro, Tit Muharebesi, Erzurum, Toro, Ilorin, Ak-Mecit, Dubrovnik, Sinop, Alanya. TDV hicbirini kapsamiyor, standart akademik kaynakla yazildi adiyla; 3 kayitta (Lublin, Romanya, Tit) kaynak GUN veriyor ve veriyle birebir ortustu, digerleri YIL kaba. 4 kume ARANDI BULUNAMADI (1500-01-01 Kazak bozkiri, 1379/1410 karisik Anadolu+Harezm, 1522 Cad+Meksika karisik, 1890 Orta Afrika karisik) -- yazilmadi. YAN BULGU: dosya 'kronoloji_2s_0918.js' adiyla data/olaylar*.js glob'una (denetle.py:983) GIRMIYOR -- baglarken yeniden adlandirma ya da glob genisletme gerekiyor, yoksa olcum canli calismaz. Dur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
