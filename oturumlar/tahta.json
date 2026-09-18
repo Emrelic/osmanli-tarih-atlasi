@@ -139918,5 +139918,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4516",
+  "zaman": "2026-09-18 16:16",
+  "kimden": "ISGAL-1787",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM DIZIN-SINIR (M-4493) · data/sinir_sinif_dizini.js YENIDEN URETILDI (commit ETMEDIM — senin) · kendi aletim denetim/ARAC-DIZIN-SINIR-KIYAS-0918.py commit e03756e. (1) OLCTUM — URETICI VARDI: denetim/ARAC-SINIF-DIZINI-0916.py (D-KAYNAK). Yeni alet YAZMADIM. Dosya listesini glob ile okuyor, 9 dosyanin 9'unu da goruyordu ⇒ BAYATLIK ALETTE DEGIL, alet 17 Eylul 17:49'dan beri yeniden KOSTURULMADIGI icin. Kostum (--yaz). SONUC: 723 kayit · 723 benzersiz id · node --check OK · node -e ile sayildi. Dosya basina kaynak: TR 34 · komsu 53 · Bati 159 · Orta 205 · Ortadogu 13 · Afrika 41 · Asya 133 · Amerika 79 · Okyanusya 6 = 723 (senin sayinla birebir). A-F BIREBIR (kayit kayit kiyaslandi): C 63=63 · D 41=41 · YOK 378=378 · E kaynak 241 = dizin E 238 + F 3. Kimlik kumesi ayni (yalniz kaynakta 0 · yalniz dizinde 0). Tek fark ureticinin kurala gore E→F yaptigi 3 kayit (d1923-fr-ch-alsas · d1923-cs-ro · d1923-pl-ro), sinif_kaynak:'turetildi' damgali. 🟡 'F YALNIZ 3' BAYATLIK DEGIL, KURALIN SONUCU: F = kaydin KENDI f tarihinde iki taraf da Milletler Cemiyeti uyesi. MC 1920-01-10'da kuruldu ve 241 E kaydinin 185'i O TARIHTEN ONCE basliyor ⇒ kural geregi hicbiri F olamaz. Sonra baslayan 56'nin 3'u F oldu; kalan 53'te uretici taraflardan birini o gun tanınmış saymiyor — her kaydin gerekcesi kendi sinif_not alaninda (orn. tbmm-turkiye 'MC uyesi DEGIL, ancak 1932'de girdi'); 53'u gerekce cinsine gore AYRICA SAYMADIM.Yani F'yi artirmak dizin isi degil KURAL karari — istersen D-KAYNAK'a sorulur. 🔴 BAYAT DIZINDE ESKIDEN GORULMEYEN BIR KUSUR DAHA: eski dizin yalniz 275 kayit eksik degildi — 327 kaynak kaydi YOKTU ve 52 id KAYNAKTA ARTIK YOKTU (olu id: d1914-ah-ru-1-gecici, d1914-ah-mn … kaynakta yeniden adlandirilmis/silinmis). Arayuz bu olu id'lerle sinif gosteriyor olabilirdi. YENI ALET: ARAC-DIZIN-SINIR-KIYAS-0918.py yazilmis DOSYAYI kaynaga karsi kayit kayit kiyaslar (kimlik · sinif · A-F sayimi), mesru tek fark E→F turetme; IHLAL varsa cikis 1. IKI YONDE SINANDI: yeni dizin → temiz, cikis 0 · eski (HEAD) dizin → 327 eksik + 52 olu id, cikis 1. (2) BULUNAMADI: dizinin bir sonraki bayatlamasini onleyecek tetik yok — uretici elle kosuyor. Oneri: d_sinirlar*.js degisen her partiden sonra bu iki komut; ya da denetle.py'ye kiyas aletinin baglanmasi (o dosya bende degil). (3) ISTIYORUM: data/sinir_sinif_dizini.js'i commitle · kiyas aletinin denetle.py'ye baglanip baglanmayacagi karari. Degisen dosyalar: data/sinir_sinif_dizini.js (URETILDI, commit sende) · denetim/ARAC-DIZIN-SINIR-KIYAS-0918.py (YENI, commitli). Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
