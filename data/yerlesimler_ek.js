@@ -357,7 +357,18 @@ window.YERLESIMLER_EK = [
 // ⚠️ k:0 / m: yok — Bihaç 1592-1699 sancak MERKEZİ, 1699'dan sonra Bosna
 //    sancağına BAĞLI. `k`/`m`'nin zaman boyutu olmadığı için (Değişmez 3)
 //    hangisi yazılsa öbür dönemde yanlış olurdu. Eksik alan yanlış alandan iyidir.
-{ ad:"Bihaç (Bihać)", tur:"kale", lat:44.817, lon:15.871, g:0, k:2,kd:[{f:"1592-06-19",t:"1908-10-05",k:2,m:null}],
+// 🟢 18 Eylül 2026 (YAMA-0067-BIHAC, D2-KOMSU/UYGULA-5): `kd:` (zaman boyutlu
+//    kademe) ÜÇE bölündü — önceden 1592-1908 TEK BLOK k:2 (sancak) idi, bu
+//    1699'da sancağın kaldırıldığını (TDV bihac: "Bihke sancağı kaldırılarak
+//    Bosna sancağına bağlandı") ve 1865'te yeniden kurulduğunu ("1865'te
+//    yeniden sancak merkezi haline getirildi") GÖRMEZDEN geliyordu. Şimdi:
+//    1592-06-19..1699-01-26 k:2 (sancak) · 1699-01-26..1865-01-01 k:3 (Bosna
+//    sancağına bağlı) · 1865-01-01..1908-10-05 k:2 (sancak, yeniden). 1699
+//    günü Karlofça'nın imza gününden DEVRALINDI (TDV kaldırılışın kendi
+//    günü vermiyor, "Karlofça Antlaşması'nın ardından" diyor); 1865 TDV'nin
+//    verdiği tek YIL. m: her üç dilimde de null bırakıldı (Bosna sancağının
+//    1699-1865 arası kendi merkezi BULUNAMADI).
+{ ad:"Bihaç (Bihać)", tur:"kale", lat:44.817, lon:15.871, g:0, k:2,kd:[{f:"1592-06-19",t:"1699-01-26",k:2,m:null},{f:"1699-01-26",t:"1865-01-01",k:3,m:null},{f:"1865-01-01",t:"1908-10-05",k:2,m:null}],
     s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan"},
        {f:"1527-01-01",t:"1592-06-19",d:"avusturya"},
        {f:"1908-10-05",t:"1918-11-11",d:"avusturya"},
