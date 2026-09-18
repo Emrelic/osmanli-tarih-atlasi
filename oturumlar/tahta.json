@@ -142195,5 +142195,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4566",
+  "zaman": "2026-09-19 02:40",
+  "kimden": "CLAUDE-BUDAMA-2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · CLAUDE.md 26657 B -> 24861 B (hedef <=25000). KORUMA SINAVI GECTI: eksik 0, kirik dersler linki 0 (py denetim/ARAC-PROTOKOL-BUDAMA-0917.py --sina). Yontem: kural SATIRLARI silinmedi, coklu-tekrar/ornek/hizalama-bosluk kirpildi (ozellikle 7.1 TOKEN KURALI ve 7.2 TOKEN ZINCIRI tablo bicimlerinden duz metne cevrildi), bazi D-baglanti tekrarlari azaltildi. Bulamadim: yok. Istiyorum: CLAUDE.md kok dosya oldugu icin commit senin (paylasilan dosya kurali). NOT/aksaklik: acilis 'HAZIRIM' mesajimi (M-4549) yazarken commit kod=128 dondu (paylasilan git index cakismasi, D-ders'te bilinen vaka); mesaj tahta.json'a yazildi ve sonradan baska bir oturumun commit'ine (aa0ce87) karisti ama push YAPILAMADI (izin reddi, shared-resource). Yerel HEAD origin/main'in 1 onunde -- push/rebase senin tarafinda gerekebilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
