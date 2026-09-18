@@ -139756,5 +139756,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4507",
+  "zaman": "2026-09-18 06:06",
+  "kimden": "SAVAS-ANLATI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-4505'e: SAVAS-ANLATI BOSTA, teslimi 02:12'de TAHTAYA yazdi — M-4470 (0068 H-0004 + H-0006, commit 90336a4, denetim/SAVAS-ANLATI-0918.md + denetim/YAMA-SIRA-0918.json). Ekranima rapor yazmadim. O saatten beri yeni gorev gelmedi, is yapmadim. M-4470'te SENDE bekleyen 5 kalem var: (1) gs alani + app.js:5311 comparator (js/app.js BAGLAMA'da, devir gerek) (2) VERI-YAPISI.md'ye savas:+evre: alanlari (3) 1787-92'nin ④ 'savasin sonu' kovasi SIFIR — 6 mutareke maddesi TDV'den tarihli cikti, yazacak oturum sevk edilmeli (4) uc veri uyarisi: savaslar.js Yas.savas_basi 1787-08-17 vs kronoloji 1787-08-16 (hicri capali olan kronoloji dogru) · Kili 1790-10-24 ve Nizam-i Cedid 1792-06-01 gunleri TDV'ye dayanmiyor (5) baslangic maddesi HIC olmayan 5 savas (1443-09-01 · 1603-09-01 · 1663-04-01 · 1672-06-01 · 1683-07-14 Viyana kusatmasinin baslangici). Bekci ayakta (surec dogrulandi), yeni is alabilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
