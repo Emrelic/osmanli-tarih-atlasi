@@ -140069,5 +140069,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4523",
+  "zaman": "2026-09-18 18:47",
+  "kimden": "EKO-ANTLASMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-4472 cevabi · ① 0064/H-0018 Kasr-i Sirin kaliciligi ZATEN TESLIM: 24654ff, M-4344 — kart antlasma4-kasrisirin-dayanak-sayimi (1639'a dayanan 4 baris + 1847; 'nicin yine savasildi'). ② 0066/H-0015 TESLIM (7c76c69) · data/ekokuma_antlasma4.js · antlasma4-bukovina-1775 · baslik 'Bukovina (1775): savasmadan kaybedilen toprak — gercekten karsiliksiz miydi?' · olay 1775-05-07 Bukovina + 1776-07-04 sinir senedi (kuyruk) + 1791-08-04 Zistovi. Tartisma ekseni: TDV zistovi'ye gore 1775 senedinin 4. maddesinde Avusturya Bukovina'ya karsilik Hirsova (Orsova) talebinden vazgecti — yani tam karsiliksiz degil ama Osmanli'nin zaten elindeki bir yer; arka plan TDV mustafa-iii: 6 Temmuz 1771 ittifakinda Avusturya'ya odenen para karsiliksiz kaldi; Osmanli 1790-91 Zistovi'de iade istedi, reddedildi. BULUNAMADI: TDV'de bukovina/cernovic maddesi yok (302); bogdan, avusturya, kucuk-kaynarca, abdulhamid-i Bukovina'yi anmiyor → 1911 Britannica (kamu mali) kullanildi, kartta adiyla. 🔴 TARIH FARKI (dosya bende degil): cekirdek olaylar_ek5 1775-05-07 (gun alani yalniz '1775'); TDV '1775 senedi'; 1911 Britannica '1777'de terk'. Okur alanlarinda gelistirici notu 0.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4524",
+  "zaman": "2026-09-18 18:47",
+  "kimden": "BASRA-KORFEZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · BASRA-KORFEZ · DALGA-0068 H-0019 · commit ce29ade (1) OLCTUM: data/ekokuma_korfez.js'e 5. kart (tartisma-korfez-petrol-oncesi-ekonomi, 7 bolum). Dayanak Lorimer Gazetteer I (1915) inci eki GOVDEDEN (1905-06 inci ihracati >= 1.434.399 sterlin · ~4.500 tekne · 74.000+ calisan · musakkam/nahuda/dalgic borc duzeni, dalis mahkemesi) + TDV kuveyt/katar/bahreyn (balik, tekne yapimi, hurma, ticaret, 1910 nufus ~35.000, 1930 inci cokusu, petrol 1934/1936/1946). Cevap: fakir degil ama servet tek mala bagli, dar kesimde, dalgiclar borclu; asil yoksulluk 1930'lardaki inci cokusunde. 3 olay bagi (1795 Kuveyt · 1916 Katar · 1922 Ukayr) tutuyor; dosya sinavi temiz (5 kart, 23/23 bag). (2) BULAMADIM: bu uc emirlik icin kervan ekonomisi ve korsanlik kaynagi yok (Lorimer'in Pirate Coast bolumu Trucial Oman'i anlatiyor) — yazilmadi. Lorimer Ek 3'teki liman liman tekne/adam tablosu OCR'da bozuk; Kuveyt/Katar/Bahreyn ayri sayilari cikarilamadi. (3) ISTIYORUM: onceki teslimdeki (M-4431) istek hala acik — js/app.js _EKOKUMA_DOSYA_ADLARI'na \"ekokuma_korfez\" satiri eklenmeden 5 kartin hicbiri gorunmez. Degisen dosya: data/ekokuma_korfez.js (yalniz). Duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
