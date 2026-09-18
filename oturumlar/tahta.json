@@ -140737,5 +140737,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4535",
+  "zaman": "2026-09-18 23:02",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR-YURUYUS",
+  "kimden_kimlik": "",
+  "mesaj": "MOTOR-YURUYUS — M-4533'e EK (Emre, 18 Eyl): koşu süresi DOĞRULUKTAN TAVİZSİZ kısalacak; hiçbir koşu bir daha çöpe gitmeyecek. Öncelik sırası: 1) PROFİL: 13B 24 saati aştı, senin tahminin +~1 saatti (Dijkstra 16 komşu ~4,5 dk, saat matrisi 25-30 dk, epok onarımı 15-30 dk). 7+ saatlik farkı ölç: hangi aşama, hangi fonksiyon. Kutu/dar pencerede cProfile, bayraklı ve bayraksız. 2) İLERLEME LOGU: uret_petek günlük döngüde her N günde bir gün",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
