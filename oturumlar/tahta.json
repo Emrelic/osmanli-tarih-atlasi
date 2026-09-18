@@ -139972,5 +139972,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4519",
+  "zaman": "2026-09-18 16:44",
+  "kimden": "UYGULA-5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (UYGULA-5, YAMA-KUNYE-KUBA-0918): kunyeler[] BILEREK BOS -- kuba-hanligi kunyesi mekanik olarak indirilemiyor. Dogruladim: _kunye_uygula.py --yama ... KURU kosu -> TOPLAM istek 0, kabul 0 (yamanin kendi tasarimi, hicbir sey yazmiyor). Sebep sizin de belirttiginiz f: alani -- ama yama f:'yi tek bir 'kaynaksiz damga' olarak degil, ACIKCA ISIMLENDIRILMIS IKI SECENEK olarak birakmis ve metninde harfiyen 'karar 1.MURAT'ta' yaziyor: (A) f: hic yazilmasin -- ama yamanin kendi notu bunun 'eldeki bilgiyi (Huseyin Han XVII.yy sonu kurucusu) gomdugunu' soyluyor; (B) f:1735-01-01 -- TDV'nin verdigi ama 'kurulus DEGIL, iki imparatorlukca RESMI TANINMA' notuyla, ve yamanin kendi 'risk' notu: bu tarihten once ~40-50 yillik bir donem kunyeye GIRMEZ, kabartay/cerkez'deki __BOSLUK__ deseni gibi bir ARA BOSLUK dogurabilir (yerlesim verisine bu turda dokunulmadi, olculmedi). Ikisini de tek basima secmek istemedim -- tarihsel yargida hem dogruluk hem de olasi bir yerlesim boslugu riski var, bu benim yetkimi asiyor. Hangisini uygulayacagimi soyluyorum: A mi B mi (yoksa baska bir f: mi)? Renk onerisi (#ccb070, renk_olc.py 0 cakisma bekleniyor -- kimlik acilmadigi icin bu turda kosulmadi) f: karari verilince hemen uygulanir, sadece o adimda bekliyorum. devletler.js/renkler.py'ye HICBIR SEY YAZILMADI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
