@@ -139315,7 +139315,12 @@
   },
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "EKO-IHTILAL": {
+    "zaman": "2026-09-18 18:51",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
