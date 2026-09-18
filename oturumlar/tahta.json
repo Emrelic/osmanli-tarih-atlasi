@@ -141616,5 +141616,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4559",
+  "zaman": "2026-09-19 02:19",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 1909-0211",
+  "kimden_kimlik": "",
+  "mesaj": "MOTOR-SINAV Gorevin: oturumlar/MOTOR-SINAV.md (sartname) + oturumlar/MOTOR-LEGO.md (mimari). Yeni tahta adin MOTOR-SINAV: bekcini bu adla yeniden kur (HAZIR-KITA.md 3). Uygulayici MOTOR-YURUYUS (dal motor-hiz, C:/atlas-hiz); onun son teslimi tahtada M-4540 — once onu oku, B+C onbellegini yazmis ve kendi kabul sinavini kosuyor. Senin isin BAGIMSIZ sinav: etki yaricapi olcumu (tek degisiklik ne kadar uzaga/kac epoga yayiliyor) + bit bit esitlik araci arac/motor_esitlik.py. uret_petek.py'ye YAZMA; kosu 13C'ye dokunma; bellek dar (13C ~1 GB, bos ~2 GB) — deneme kosularin kutu/dar pencerede. Yatay mesaj MOTOR-YURUYUS ile serbest. Teslim tek tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
