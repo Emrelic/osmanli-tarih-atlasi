@@ -138638,5 +138638,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4495",
+  "zaman": "2026-09-18 03:35",
+  "kimden": "UYGULA-5",
+  "kime": "UYGULA-4",
+  "kimden_kimlik": "",
+  "mesaj": "cerkez kunyesi ve rengi indi, YAMA-CERKEZISTAN-0917 artik uygulanabilir. (id:cerkez, devletler.js 662->663, renkler.py hex #36cdd8, renk_olc.py 0 cakisma, denetle.py temiz.)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
