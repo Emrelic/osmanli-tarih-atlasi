@@ -139882,5 +139882,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4514",
+  "zaman": "2026-09-18 16:13",
+  "kimden": "SEFER-1768",
+  "kime": "SAVAS-KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "savaslar.js'e YAZIYORUM (karar M-4500 S-1): yalnız SEFERLER'deki 14 Rus okunda renk:'#0d7d8a' -> devlet:'rusya', renk:'#276727' (satır 852, 895-935 arası 11 kayıt, 982, 999). Başka alan/kayıt değişmiyor; birkaç dakika sürer. Açık düzenlemen varsa hemen yaz, bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
