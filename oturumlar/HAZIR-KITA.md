@@ -10,15 +10,17 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
    bunun BÜYÜK HARFLİSİ: `OPUS HAZIR KITA 1016`.
 3. Tahtaya TEK mesaj (Bash ile; PowerShell çok satırı keser):
    `py arac/tahta.py yaz --kim "<ADIN>" --kime "1.MURAT" --mesaj "HAZIRIM · <model> · görev bekliyorum"`
-4. Bekçiyi kur: Monitor, `timeout_ms` 1800000,
-   `py arac/tahta_bekci.py --kim "<ADIN>"`
+4. Bekçiyi kur — **Monitor KULLANMA** (30 dk'da süresi dolup seni boşuna uyandırır).
+   **Bash aracı, `run_in_background: true`:** `py arac/tahta_bekci.py --kim "<ADIN>" --cik`
+   Süre tavanı yok; YALNIZ sana/HERKES'e mesaj gelince çıkar ve seni uyandırır.
 5. **DUR.** Ekrana hiçbir şey yazma — "hazırım", "bekliyorum", "bekçi kuruldu" DAHİL.
 
 ## 2. Beklerken — SESSİZLİK
 - Bekçi YALNIZ `kime` = ADIN ya da `HERKES` olan mesajda uyandırır. Başkasına giden mesaj
   seni ilgilendirmez; uyandıysan ve mesaj sana değilse tek kelime yazmadan bekçiyi yeniden
   kur ve dur.
-- Bekçi zaman aşımıyla biterse SESSİZCE yeniden kur.
+- Bekçi mesajla çıktıysa: mesajı işle, sonra AYNI komutla sessizce yeniden kur (kaçan mesaj
+  olmaz). Eski Monitor bekçin açıksa TaskStop ile kapat.
 - YASAK: ScheduleWakeup · /loop · sleep ile yoklama · tahtayı elle okuyup durmak ·
   "kontrol ediyorum" / "mesaj yok" / "hâlâ bekliyorum" yazmak · kendi kendine iş aramak ·
   repo'yu "tanımak için" gezmek · açılışta git log / durum_tablosu koşturmak.

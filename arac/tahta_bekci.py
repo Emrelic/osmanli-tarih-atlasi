@@ -129,6 +129,7 @@ BİR KATMANDA yeniden üretir.
 import io
 import json
 import os
+import re
 import sys
 import time
 
@@ -281,6 +282,25 @@ def main(argv):
                   "adlar dinleniyor. Adın değiştiyse mesaj KAÇAR.")
 
     gorulen = {m.get("no") for m in _oku()}
+    # 🔴 19 Eylül 2026 — `--cik` KABUK ARKA PLANINDA (Bash run_in_background)
+    # varsayılan yol oldu: Monitor 30 dk'da bir SÜRESİ DOLUP oturumu boşuna
+    # uyandırıyordu (Emre: "bekçi neden zırt pırt yeniden kuruluyor").
+    # Arka plan kabuğunun süre tavanı yok → oturum YALNIZ mesajla uyanır.
+    # Çıkış↔yeniden kurma arasında mesaj kaçmasın diye son görülen no
+    # dosyada tutulur; yeniden kurulunca ondan SONRAKİLER yeni sayılır.
+    son_dosya = os.path.join(os.path.dirname(os.path.abspath(TAHTA)),
+                             ".bekci_son_" + re.sub(r"[^A-Za-z0-9]+", "_", kim) + ".txt")
+    def _no(x):
+        try:
+            return int(str(x or "M-0").split("-")[-1])
+        except ValueError:
+            return 0
+    if cik and os.path.exists(son_dosya):
+        try:
+            son = int(open(son_dosya).read().strip() or 0)
+            gorulen = {g for g in gorulen if _no(g) <= son}
+        except (OSError, ValueError):
+            pass
     # 🔴 BANNER — STDERR (18 Eylül 2026, bkz. dosya başı KULLANIM). Bu
     # satır gerçek bir mesaj DEĞİL; stdout'ta durursa Monitor onu her
     # kurulumda bir bildirim sayar ve boş nöbeti bile uyandırır.
@@ -375,6 +395,12 @@ def main(argv):
         # 🔴🔴 ÇIKMAK YALNIZ Monitor DIŞINDA (kabuk arka planı) ANLAMLI —
         # bkz. dosya başı KULLANIM (Monitor'de çıkış = boşlukta mesaj kaçar).
         # Bu durum satırları da STDERR — gerçek mesaj değil, teşhis.
+        if cik:
+            try:
+                with open(son_dosya, "w") as f:
+                    f.write(str(max([_no(g) for g in gorulen] or [0])))
+            except OSError:
+                pass
         if (yeni or tuzak) and cik:
             _diag("[BEKCI] mesaj var — ÇIKIYORUM ki oturum UYANSIN. "
                   "Yeniden kur: py arac/tahta_bekci.py --kim \"%s\"" % kim)
