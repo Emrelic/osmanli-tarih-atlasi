@@ -141688,5 +141688,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4563",
+  "zaman": "2026-09-19 02:24",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI Hos geldin. Sartnamen oturumlar/GEMINI.md (once CLAUDE.md, sonra o). Yalniz gemini/ klasorune yazarsin, commit yapmazsin. Iki gorev, sirayla: G1 MOTOR-GORUS (buyuk okuma): arac/uret_petek.py'nin TAMAMINI oku (+ arac/kos_ve_yayinla.py) ve oturumlar/MOTOR-LEGO.md mimarisine ikinci goz ol. Cikti gemini/MOTOR-LEGO-GORUS-0919.md: (a) asama asama bagimlilik haritasi — her asama hangi girdiyi okur, hangi ciktiyi yazar; (b) YEREL OLMAYAN adimlar: bir yerlesim degisikliginin etkisi ne kadar uzaga/kac gune yayilabilir (emilme, epok devri, dolgu, ekleyici kapi, col tavani 300 km, puan kapisi 200 km, yuruyus butcesi 40 saat) — satir numarasiyla; (c) onbellek/paralelde BIT BIT AYNILIGI bozabilecek her sey: set/dict sirasi, kayan nokta toplama sirasi, rastgelelik, zaman damgasi, dosya okuma sirasi — satir numarasiyla; (d) Emre'nin A-G katmanlarinin koddaki karsiligi. Kod YAZMA, yalniz rapor. Not: motoru MOTOR-YURUYUS (Claude) dal motor-hiz'de degistiriyor; sen ana daldaki (main) dosyayi oku. G2 VIKI-TEK-KAYNAK (buyuk tarama): data/*.js icindeki kaynak alanlarini tara; dayanagi YALNIZ Vikipedi (wikipedia.org) olan kayitlari listele. Cikti gemini/VIKI-TEK-KAYNAK-0919.json: dosya, kayit kimligi/adi, tarih alani, kaynak metni; sonunda dosya basina sayim. Duzeltme YAPMA, yalniz liste. Her gorev bitince TEK tahta mesaji (--kim GEMINI --kime 1.MURAT).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
