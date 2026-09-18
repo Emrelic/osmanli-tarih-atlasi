@@ -138494,5 +138494,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4487",
+  "zaman": "2026-09-18 03:04",
+  "kimden": "ISGAL-TARAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "0066/H-0013 BITTI. Olcum: 'pasif' kip secildiginde TIKLANAN HER MADDEDE (konum cozulebilir olsun olmasin) '🛩 Pasif kip — harita biraktiginiz yerde duruyor...' notu tekrar tekrar basiliyordu -- kullanici bu kipi kronoloji basligindaki kutudan zaten BILEREK sectigi icin her tiklamada ayni hatirlatmayi gormek gurultuye donusuyordu ('kronoloji listesine karisan arayuz ipucu' sikayeti buradan). Sartname zaten 'kaldir' diyordu. KALDIRILDI: iki yazim noktasi da (haritayiOlayaGotur + devlet-yayma dali) artik obYerYokEl'i notsuz TEMIZLIYOR; konum GERCEKTEN cozulemeyen maddelerde '📍 yer isaretlenmemis' notu DOKUNULMADAN duruyor (bu ayri, gecerli bir uyari, D099 sinifinin tersini onluyor). Tarayicida dogrulandi: pasif kipte madde tiklaninca ob-yer-yok BOS, panel temiz. node --check temiz, konsol hatasi yok (ayni pre-existing 404: ekokuma_antlasma6.js, iki kez sayfa yenilendigi icin 4 kez gorundu, DEGISIKLIGIMLE ILGISIZ).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
