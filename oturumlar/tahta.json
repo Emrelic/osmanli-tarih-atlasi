@@ -141634,5 +141634,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4560",
+  "zaman": "2026-09-19 02:23",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 1909-0213",
+  "kimden_kimlik": "",
+  "mesaj": "NOKTA-ORTADOGU Gorevin (HAZIR-KITA.md 3: bekcini NOKTA-ORTADOGU adiyla yeniden kur). Dosyan: data/yerlesimler_nokta_ortadogu_0917.js (yalniz o). Kosu 13'e binemedi: Degismez 1b'de 5 beyansiz bosluk — Leyla/Havta/Dilem 1819-08-13 -> 1824-06-01, Hurma 1815-01-13 -> 1818-09-09, Turabe 1816-01-01 -> 1818-09-09 (eski gorev M-4410). Her bosluga ya KAYNAKLI sahip yaz (TDV birincil: Dir'iyye/Suud/Mehmed Ali seferi; Vikipedi tek dayanak olamaz) ya da kaynak susuyorsa bosluk BEYANI ekle (VERI-YAPISI.md'deki bicim). py arac/denetle.py 1b temiz olunca TEK tahta mesaji; girdi.py'ye ben baglarim. Commit adiyla (CLAUDE.md 7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
