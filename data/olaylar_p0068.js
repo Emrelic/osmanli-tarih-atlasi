@@ -21,9 +21,12 @@
 // d: alanlarında AÇIKÇA yazılıdır — Belgrad'ın teslim günü hiçbir TDV
 // maddesinde yok, tarih Semendire'nin TDV'de verilen gününden alınmıştır.
 //
-// HARİTA KARŞILIĞI: yalnız ilk madde (1789-10-13) bir kırılmayı anlatır
-// (Belgrad ve Semendire'nin `isg:` dönemleri). Öteki beşi bağlam maddesidir,
-// kırılmasızdır — Değişmez 2t sayacını 12'den 17'ye çıkarır (tavan 42).
+// HARİTA KARŞILIĞI: ilk madde (1789-10-13) Belgrad ve Semendire'nin `isg:`
+// kırılmalarını anlatır. Öteki maddeler bağlam maddesidir.
+// ⚠️ ÖNGÖRÜ ÇÜRÜDÜ: bu satırda "Değişmez 2t sayacı 12 → 17 olur" yazıyordu;
+// ÖLÇÜM 15 verdi. Sebebi: 1427-01-01 ve 1861-06-13 kırılmasız DEĞİL —
+// 1427-01-01'de Belgrad, Niksar ve Terme'nin kırılmaları zaten duruyor.
+// Yani beş değil üç madde kırılmasız (tavan 42).
 // ============================================================================
 window.OLAYLAR_P0068 = [
 
