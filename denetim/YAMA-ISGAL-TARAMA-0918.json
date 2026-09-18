@@ -1,0 +1,15 @@
+{
+  "_ne": "ISGAL-TARAMA (DALGA-0066 H-0003) — 'Rus işgali taralı, Kırım düz' şikayetinin veri kökü. Uygulanmadı, 1.MURAT/veri sahibi karar versin.",
+  "tarih": "2026-09-18",
+  "olcum": "Kirim yerlesimleri arasinda 1771-07-01 baslangicli bir Rus donemi tasiyan TEK kayit Bahcesaray'dir (node ile tarandi, data/yerlesimler*.js). Kefe (ayni dosya, satir 543) ayni savas donemi (1771-1783) icin isg: kaydi kullaniyor (dogrudan tarama), Bahcesaray ise DUZ s:d:\"rusya\" kaydi kullaniyor (tarama YOK, duz Rus rengi) -- ayni tarihsel olayin (1768-74 Osmanli-Rus Savasi'nda Rus ordusunun Kirim'i isgali) IKI FARKLI temsili. Tarihen 1771-1774 arasi Kirim Hanligi FiILEN sona ermedi -- Rus askeri isgali altinda nominal olarak surdu (Rusya yanlisi hanlar), resmi/hukuki bagimsizlik ancak 21 Temmuz 1774 Kucuk Kaynarca Antlasmasi'yla taninip Osmanli tabiliginden cikti. Bahcesaray'in kendi verisi de bunu ZATEN yariyor: v:(Kirim Hanligi tabiligi) tam 1771-07-01'de kesiliyor ve 1774-07-21'de s:d:\"kirim\" (bagimsiz) olarak devam ediyor -- yani hanlik kimligi ONCESINDE VE SONRASINDA korunuyor, yalniz ARADAKI 3 yillik Rus ISGALI donemi hanligin YERINE Rusya'yi SAHIP gibi yaziyor. Bu, projenin isgal/tabi tarama kuraliyla (nominal sahip degismez, isgalci ustte tarama) DOGRUDAN celisiyor.",
+  "onerilen_duzeltme": {
+    "dosya": "data/yerlesimler.js",
+    "kayit": "Bahçesaray (satır 544)",
+    "adim1": "s: dizisinden {f:\"1771-07-01\",t:\"1774-07-21\",d:\"rusya\"} kaydı KALDIRILIR.",
+    "adim2": "v: dizisindeki Kırım Hanlığı tâbiliği {f:\"1475-06-06\",t:\"1771-07-01\",...} → t: 1774-07-21'e UZATILIR (hanlık tâbiliği 3 yıl daha sürer, Kefe/Anapa'nın komşu kayıtlarıyla aynı desen).",
+    "adim3": "isg: dizisine {f:\"1771-07-01\",t:\"1774-07-21\",d:\"rusya\",kaynak:\"...\"} EKLENİR — Kefe'nin isg: kaydıyla (satır 543) AYNI biçim, tarama Rus rengiyle, alt zemin Kırım Hanlığı tâbi rengi olarak kalır.",
+    "sonuc": "Bahçesaray artık Kefe ile GÖRSEL OLARAK TUTARLI: 1771-1774 Rus taralı işgal (nominal sahip Kırım Hanlığı), 1774-1783 bağımsız Kırım (düz), 1783+ Rusya (düz, ilhak)."
+  },
+  "dikkat": "Bu tek kayıt bulundu (node taramasıyla dogrulandı) ama TARAMA yalnız '1771-07-01 baslangicli s: donemi' kalıbını aradı — Kırım kıyısındaki öteki kayıtların (Özi, Anapa, Soçi, Tuapse, Kuban, Maykop, Hacıbey, Bozkır — hepsi aynı 'Emre kararı D' bloğunu taşıyor) 1771-74 penceresi zaten `v:` (gevşek himaye) ya da başka desenlerle modellendiği için bu kalıba girmedi; ayrı ayrı DOĞRULANMADI, yalnız Bahçesaray'ın kendi iç tutarsızlığı (v: kesintisi + s: sıçraması) kesin.",
+  "commit": "YAZILMADI — CLAUDE.md §7 gereği yerleşim dosyasına doğrudan yazmadım, bu öneri 1.MURAT/veri sahibi onayı bekliyor."
+}
