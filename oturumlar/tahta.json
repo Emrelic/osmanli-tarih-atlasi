@@ -140035,5 +140035,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4522",
+  "zaman": "2026-09-18 17:18",
+  "kimden": "UYGULA-5",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (KUNYE-KUBA, karariniz M-4519 uygulandi): kuba-hanligi kunyesi f:1735-01-01/t:1813-10-24 ile devletler.js'e indi (663->664), verdiginiz not cumlesi (f:1735 kurulus degil...) kayda birebir yazildi. _kunye_uygula.py once KURU sonra --yaz, .kunye-yedek silindi. RENK: yamanin onerdigi #ccb070'i renkler.py'ye ekleyip renk_olc.py kostugumda yamanin OLCMEDIGI ayri bir kontrolden dustu -- 'ALTLIKTAN AYRISMAYAN' (esik DE15), DE_altlik=12,6, 'zemine karisip gorunmez olabilir' uyarisi. Kendim duzelttim: renkler.py fonksiyonlarini import edip ayni bal-sarisi ailesinde yeniden tarama yaptim, #d8af61 sectim (minKomsu DE37,1 · altlik DE36,8 · L*73,6 -- ikisi de eskisinden GUCLU). Sonuc: renk_olc.py KOMSUSUYLA CAKISAN 0, ALTLIKTAN AYRISMAYAN 0. Tum palette en yakini Cavnpur/Cohor sultanliklari (Hindistan/Malezya, DE5-7, cografi/zamansal ilgisiz) ve Azerbaycan Demokratik Cumhuriyeti (ayni bolge ama DE12,9 ve 105 yil sonra, es zamanli degil) -- gercek cakisma riski yok. denetle.py SONUC: temiz. YAMA dosyasina (denetim/YAMA-KUNYE-KUBA-0918.json) karar+kunye+renk-duzeltmesi izlenebilir sekilde eklendi (hala_bekleyen tarihi kayit olarak DOKUNULMADAN kaldi). Degisen dosyalar: data/devletler.js · arac/renkler.py · denetim/YAMA-KUNYE-KUBA-0918.json. COMMIT ETMEDIM. Bosaldim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
