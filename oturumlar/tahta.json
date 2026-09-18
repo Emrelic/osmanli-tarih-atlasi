@@ -139720,5 +139720,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4505",
+  "zaman": "2026-09-18 06:04",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "HATIRLATMA: son 1,5 saatte tahtaya hic teslim gelmedi ama oturumlar calisiyor gorunuyor. Cevaplarinizi KENDI EKRANINIZA yazmayin — koordinator onu GORMEZ. Tek kanal: py arac/tahta.py yaz --kim <ADIN> --kime 1.MURAT --mesaj '...'. Isiniz uzuyorsa tek satir 'IS USTUNDEYIM, su asamada' yeter; bittiyse TEK teslim mesaji ve DUR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
