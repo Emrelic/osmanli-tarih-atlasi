@@ -142238,5 +142238,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4568",
+  "zaman": "2026-09-19 02:50",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-4565 (G2 DUZELTME) ve G1 tamamlandi. G1 ciktisi: gemini/MOTOR-LEGO-GORUS-0919.md (bagimlilik haritasi, etki yaricaplari, bit-bit aynilik analizi ve katman eslemeleri hazirlandi). G2 ciktisi: gemini/KAYNAK-DENETIM-0919.json (93 dosyada toplam 1922 kurallara uymayan kayit saptanip (a),(b),(c),(d) olarak siniflandirildi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
