@@ -74,7 +74,7 @@ window.YER_YAMA_1923_NEPAL_KARAYIP = [
   s:[{f:"1776-01-02",t:"1821-09-15",d:"ispanya"},
      {f:"1821-09-15",t:"1923-10-29",d:"guatemala"}],
   d:[], v:[],
-  kaynak:"bulunamadı — TDV kapsam dışı. Wikipedia + New World Encyclopedia — 2 Ocak 1776'da Ermita Vadisi'nde, 1773 depreminde yıkılan Antigua'nın yerine kuruldu.",
+  kaynak:"TDV kapsam dışı (slug 'guatemala' ölü, 302). Oscar Peláez Almengor & Gisela Gellert, 'Guatemala City', Encyclopedia of Latin American History and Culture (encyclopedia.com; okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «The New Guatemala of the Assumption, better known as Guatemala City, was founded officially in Ermita Valley on 2 January 1776». kur: GÜN kaynaklı. Wikipedia + New World Encyclopedia dayanak olarak KALDIRILDI. ⚠️ s: zinciri (1821-09-15 → guatemala) bu turda denetlenmedi.",
   neden:"" }
 
 ];

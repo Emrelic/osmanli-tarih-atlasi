@@ -212,8 +212,8 @@ window.YERLESIMLER_EK29 = [
 //   Askerî Sınır literatürünün standart bilgisi, gün bilinmediği için
 //   YYYY-01-01 yazıldı
 
-{ ad:"Karlovac", tur:"kale", lat:45.4870, lon:15.5478, g:0, k:3, kur:"1579-01-01",
-  s:[{f:"1579-01-01",t:"1918-11-11",d:"avusturya"},
+{ ad:"Karlovac", tur:"kale", lat:45.4870, lon:15.5478, g:0, k:3, kur:"1579-07-13",
+  s:[{f:"1579-07-13",t:"1918-11-11",d:"avusturya",kaynak:"Hrvatska enciklopedija 'Karlovac': 'Osnovan je 13. VII. 1579. kao tvrđava' — GÜN · KRONO-2S-3 19 Eyl 2026"},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[], v:[] },
 

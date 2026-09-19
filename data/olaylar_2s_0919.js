@@ -299,7 +299,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1880-06-13", b:"Brazza Franceville'i kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Fransvil (Franceville)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Pierre Savorgnan de Brazza, Mpassa ırmağına bakan kayalık bir çıkıntı üzerinde Fransa adına Franceville karakolunu kurdu.",
-  kaynak:"R. Pourtier, 'De Franceville à Masuku, ontogenèse d'une ville centenaire', Bulletin de l'Association de géographes français 57/473 (1980), https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203 — AYNEN: \"C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa.\" · hassasiyet: GÜN · veri 1880-06-01 (12 gün fark; kırılma 06-13'e düzeltilebilir)" },
+  kaynak:"R. Pourtier, 'De Franceville à Masuku, ontogenèse d'une ville centenaire', Bulletin de l'Association de géographes français 57/473 (1980), https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203 — AYNEN: \"C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa.\" · hassasiyet: GÜN · veri kırılması 19 Eyl'de 06-01'den 06-13'e çekildi (M-4591)" },
 
 // ── 1888 ─────────────────────────────────────────────────────────────
 { t:"1888-01-01", b:"Hadramut sahili (Mükellâ) İngiliz himayesine girdi", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Mukalla",
@@ -360,5 +360,86 @@ window.OLAYLAR_2S_0919 = [
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Anchorage, kuzeyde Fairbanks'a uzanan Alaska Demiryolu'nun merkezi olarak kuruldu.",
   kaynak:"Britannica, 'Anchorage', https://www.britannica.com/place/Anchorage-Alaska — AYNEN: \"Anchorage was founded in 1914 as the headquarters of the Alaska Railroad running north to Fairbanks.\" · hassasiyet: YIL" },
+
+// ═════════════════════════════════════════════════════════════════════
+// EK PARTİ — 19 Eyl 2026, M-4591 (veri düzeltmeleri): kırılması kaynağa
+// çekilen kayıtların YENİ günlerine maddeler. Her biri kendi kaynağıyla.
+// ═════════════════════════════════════════════════════════════════════
+
+// ── Diyarbakır zinciri (TDV diyarbakir) ─────────────────────────────
+{ t:"1343-01-01", b:"Sutayoğulları'ndan İbrâhim Şah Diyarbekir'e hâkim oldu", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"İlhanlı Devleti dağıldıktan sonra Celâyirliler ile Çobanlılar arasında mücadelelere sahne olan Diyarbekir yöresine Sutayoğulları'ndan İbrâhim Şah hâkim oldu; hâkimiyeti 1353'e kadar sürdü.",
+  kaynak:"TDV `diyarbakir` — AYNEN: \"İlhanlı Devleti’nin dağılmasından sonra Celâyirliler ve Çobanlılar arasında mücadelelere sahne olan Diyarbekir yöresine 1343-1353 yılları arasında Sutayoğulları’ndan İbrâhim Şah hâkim olduysa da\" · hassasiyet: YIL" },
+{ t:"1353-01-01", b:"İbrâhim Şah'ın ölümüyle Diyarbekir Celâyirlilerin idaresine girdi", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Diyarbekir yöresine 1343'ten beri hâkim olan Sutayoğlu İbrâhim Şah'ın ölümü üzerine bölge Celâyirlilerin idaresine girdi.",
+  kaynak:"TDV `diyarbakir` — AYNEN: \"1343-1353 yılları arasında Sutayoğulları’ndan İbrâhim Şah hâkim olduysa da onun ölümü üzerine bölge Celâyirliler’in idaresine girdi.\" · hassasiyet: YIL (1353 aralığın ucundan)" },
+{ t:"1394-04-25", b:"Timur Diyarbekir'i (Âmid) zaptedip yağmaladı", tur:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Diyarbakır",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Timur 25 veya 26 Nisan 1394'te Diyarbekir'i zaptetti ve şehri yağmaladı.",
+  kaynak:"TDV `diyarbakir` — AYNEN: \"25 veya 26 Nisan 1394’te Timur tarafından zaptedilerek yağma edilen şehir\" · hassasiyet: GÜN (kaynak 25/26 diyor; erken uç yazıldı)" },
+{ t:"1401-01-01", b:"Diyarbekir Karayülük Osman Bey'e verildi — Akkoyunlu hâkimiyeti başladı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Timur'un 1394'te zaptettiği Diyarbekir 1401'de Karayülük Osman Bey'e verildi ve böylece bölgede Akkoyunlu hâkimiyeti başladı.",
+  kaynak:"TDV `diyarbakir` — AYNEN: \"şehir 1401’de Karayülük Osman Bey’e verildi ve böylece bölgede Akkoyunlu hâkimiyeti başlamış oldu\" · hassasiyet: YIL" },
+
+// ── Enez 1355 ────────────────────────────────────────────────────────
+{ t:"1355-01-01", b:"Enez Ceneviz idaresine geçti (Gattilusi ailesi)", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Enez",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Bizans devrinde önemli bir liman şehri olan Enez 1355'te Ceneviz idaresine geçti ve Gattilusi ailesince yönetildi.",
+  kaynak:"TDV `ayasofya-camii--enez` — AYNEN: \"Bizans devrinde önemli bir liman şehri olan Enez 1355’te Cenova idaresine geçmiş ve Gattelusi ailesi tarafından idare edilmişti.\" · hassasiyet: YIL · (`enez` slug'ı 302/ölü)" },
+
+// ── Erzincan-Bayburt 1378 ────────────────────────────────────────────
+{ t:"1378-01-01", b:"Pîr Hüseyin Bey'in ölümüyle Erzincan ve Bayburt Mutahharten'e geçti", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Erzincan",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Erzincan emîri Pîr Hüseyin Bey'in ölümü üzerine Erzincan ve Bayburt, Eretna emîrlerinden Mutahharten'in eline geçti; Mutahharten Erzincan emîri oldu.",
+  kaynak:"TDV `akkoyunlular` — AYNEN: \"Onun da ölümü üzerine (1378), Erzincan ve Bayburt Eretna emîrlerinden Mutahharten’in eline geçti.\" · TDV `erzincan`: \"Pîr Hüseyin Bey’in vefatıyla (1378) Eretna emîrlerinden Mutahharten’in Erzincan emîri olması\" · hassasiyet: YIL" },
+
+// ── Karlovac 13 Temmuz 1579 ──────────────────────────────────────────
+{ t:"1579-07-13", b:"Karlovac kalesi kuruldu", tur:"kurulus", onem:3, dunya:2, kapsam:"dis", yer_id:"Karlovac",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Hırvatistan'ı ve Avusturya veraset topraklarını Osmanlılara karşı korumak için Kupa ile Korana arasındaki taşkın alanında Karlovac kalesi kuruldu; kaleyi Hırvatistan askerî sınırının komutanı Arşidük II. Karl yaptırdı.",
+  kaynak:"Hrvatska enciklopedija (LZMK), 'Karlovac', https://www.enciklopedija.hr/clanak/karlovac — AYNEN: \"Osnovan je 13. VII. 1579. kao tvrđava za obranu Hrvatske i austrijskih nasljednih zemalja od Osmanlija\" · hassasiyet: GÜN" },
+
+// ── Zaria 1806 ───────────────────────────────────────────────────────
+{ t:"1806-01-01", b:"Osman b. Fûdî'nin cihad ordusu Zaria'yı aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Zaria (Zazzau)",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Osman b. Fûdî'nin başlattığı cihad sırasında Gobir başşehri Alkalawa'ya yapılan ilk saldırı başarısız olduysa da 1806'da Zaria ele geçirildi.",
+  kaynak:"TDV `osman-b-fudi` — AYNEN: \"Aynı yıl içinde Gobir’in başşehri Alkalawa’ya düzenlenen ilk saldırı başarısızlıkla sonuçlandıysa da 1806’da Zaria ele geçirildi.\" · hassasiyet: YIL" },
+
+// ── Cenne 1861 · Hamdullahi 16 Mayıs 1862 ────────────────────────────
+{ t:"1861-01-01", b:"El-Hâc Ömer'in Fûlânîleri Cenne'yi aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Cenne (Djenné)",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Mâsînâ Devleti'nin garnizon bulundurduğu Cenne, 1861'de el-Hâc Ömer yönetimindeki Fûlânîlerin eline geçti.",
+  kaynak:"TDV `cenne` — AYNEN: \"Cenne 1861’de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi\" · hassasiyet: YIL · ÇELİŞKİ: TDV `mali` Mâsînâ'nın sonunu 16 Mayıs 1862 verir (Cenne'yi ayrıca tarihlemez)" },
+{ t:"1862-05-16", b:"El-Hâc Ömer Hamdullahi'yi aldı — Mâsînâ Devleti'nin sonu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Hamdullahi",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Segu'dan kaçan Bina Ali'nin sığındığı Mâsînâ'nın müttefik birlikleri yenildi; Mâsînâ'nın merkezi Hamdullahi el-Hâc Ömer'in eline geçti, Bina Ali ve Ahmedü Ahmedü idam edildi.",
+  kaynak:"TDV `mali` — AYNEN: \"Mâsînâ’nın merkezi Hamdallahi 16 Mayıs 1862 tarihinde el-Hâc Ömer’in eline geçti; Bina Ali ve Ahmedü Ahmedü idam edildi.\" · hassasiyet: GÜN" },
+
+// ── Kaffa Ekim 1897 ──────────────────────────────────────────────────
+{ t:"1897-10-01", b:"Kaffa Krallığı Habeşistan'a katıldı — son kral Gaki Şeroço esir düştü", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Bonga (Kaffa)",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"II. Menelik'in Ras Walda Giyorgis komutasındaki kuvvetleri Mart 1897'de Kaffa'ya girdi. Ağır çarpışmalardan sonra Kaffa fethedildi; son kral Gaki Şeroço Ekim 1897'de yakalanıp teslim oldu.",
+  kaynak:"E. Haberland, 'Gaki Sherocho', Encyclopaedia Africana Dictionary of African Biography I (DACB yeniden basımı), https://dacb.org/stories/ethiopia/gaki-sherocho/ — AYNEN: \"After heavy fighting, Kaffa was conquered, and Gaki Sherocho was captured and submitted, in October 1897.\" · hassasiyet: AY (10-01 = Ekim, gün bilinmiyor)" },
+
+// ── Nairobi 1899 ─────────────────────────────────────────────────────
+{ t:"1899-01-01", b:"Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Nairobi",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Bugünkü Nairobi'nin bulunduğu, o zamana kadar büyük ölçüde ıssız bataklık alanda İngilizler Mombasa'yı Uganda'ya bağlayan Uganda Demiryolu'nun ikmal deposunu kurdu.",
+  kaynak:"Nairobi City County, 'History', https://nairobi.go.ke/history — AYNEN: \"The area Nairobi currently occupies was essentially uninhabited swamp until a supply depot of the Uganda Railway was built by the British in 1899 linking Mombasa to Uganda.\" · Kenya Railways Corporation broşürü: \"1899: Rail head reach Nyrobi\" · hassasiyet: YIL" },
+
+// ── Yola 1901 ────────────────────────────────────────────────────────
+{ t:"1901-01-01", b:"Adamava paylaşıldı — Yola İngiliz Kuzey Nijerya'sında kaldı", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Yola",
+  etiket:["antlasma","toprak-kayip","konu-siyasi"],
+  d:"Adamava, İngiltere'ye bağlı Kuzey Nijerya ile Almanya'ya bağlı Kamerun arasında paylaşıldı; Adama'nın dördüncü oğlu Bobbo Ahmedü İngiliz bölgesinde Yola emîri oldu.",
+  kaynak:"TDV `adamava` — AYNEN: \"1901’de Adamava, İngiltere’ye bağlı Kuzey Nijerya ile Almanya’ya bağlı Kamerun arasında paylaşılmış ve Adama’nın dördüncü oğlu Bobbo Ahmedü (Bobo Amadu), İngiliz bölgesinde Yola emîri olmuştur.\" · hassasiyet: YIL" },
+
+// ── Vaday 2 Haziran 1909 ─────────────────────────────────────────────
+{ t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Doğuya ilerlemesini sürdüren Fransızlar Vedây'ın başşehri Abeşe'yi (Ebîşe) ele geçirerek Vedây Sultanlığı'na son verdi; son sultan başşehrini kurtaramadan çekildi.",
+  kaynak:"TDV `veday` (başlık: 1635-1909) — AYNEN: \"Doğuya ilerlemeyi sürdüren Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler.\" · hassasiyet: GÜN" },
 
 ];
