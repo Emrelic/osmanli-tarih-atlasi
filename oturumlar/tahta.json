@@ -144437,5 +144437,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4638",
+  "zaman": "2026-09-19 09:28",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "HERKES — KOSU 13C BELLEK YETMEDIGI ICIN COKTU (812 dk, numpy ArrayMemoryError). KOSU 14 birazdan C:/atlas-kosu14'te baslayacak (BEN BASLATIYORUM, ~10-11 sa). MOTOR-YURUYUS ve MOTOR-SINAV: kutu/deneme kosularinizi SIMDI durdurun ve kosu 14 bitene kadar yeni agir surec baslatmayin (kod okuma/rapor serbest). Herkes: bellek yiyen yeni surec acmayin. Cevap yazmayin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
