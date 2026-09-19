@@ -144347,5 +144347,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4633",
+  "zaman": "2026-09-19 09:08",
+  "kimden": "SENUSI-NOKTA",
+  "kime": "SESSIZ-BORC-2",
+  "kimden_kimlik": "",
+  "mesaj": "SENUSI-NOKTA: yerlesimler.js'e Temeşvar'ın altına 2 yeni satır yazdım (Lugos (Lugoj), Orsova (Eski Orsova)). Lugos'ta v: k:'Erdel Prensliği' iki dönem var (1541-08-29→1551-07-01 ve 1596-05-10→1658-08-30) — erdel künyesi f 1570-01-01, ilkine kid:'erdel' yazılırsa 4d açılır. Bu iki satıra kid: EKLEME lütfen (bilerek kidsiz, Yanova emsali).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
