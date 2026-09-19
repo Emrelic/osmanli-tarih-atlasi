@@ -12,14 +12,14 @@ iş bitince bekçiyi öldür).
 Aşağıdakiler **yalnız iş gerektirirse, adıyla ve gerekli bölümüyle** açılır — hiçbiri "her
 oturumda" değildir (4 belge = 440 KB/oturumdu; 17 Eylül 2026 token kararı, Emre).
 
-| Belge | Ne | Ne zaman |
-|---|---|---|
-| `dersler/DIZIN.md` + `D*.md` | kuralların vakaları | bir kural TARTIŞILINCA — toplu okunmaz |
-| `ONCELIK.md` | neyi önce, neyi hiç (çöl seyyahı) | kapsam sorusunda ÖNCE buraya bak, gerekirse itiraz et |
-| `YOL-HARITASI.md` · `YAPILACAKLAR.md` | nereye · sıradaki işler | koordinatör; işçi şartnamesi derse |
-| `MIMARI.md` · `VERI-YAPISI.md` | motor · şemalar | motora / veriye dokunacaksan ŞART |
-| `BES-ALTYAPI.md` | beş altyapı unsuru (Emre, 16 Ağu) — `ALTYAPI.md §0`ın yerini alır | altyapı sorusu |
-| `DURUM.md` · `OGRENILENLER.md` · `ETIKETLEME.md` | durum · eski dersler · etiket | adıyla sorulursa |
+| Belge | Ne zaman |
+|---|---|
+| `dersler/DIZIN.md` + `D*.md` (kuralların vakaları) | kural TARTIŞILINCA — toplu okunmaz |
+| `ONCELIK.md` (neyi önce/hiç, çöl seyyahı) | kapsam sorusunda ÖNCE bak, gerekirse itiraz et |
+| `YOL-HARITASI.md` · `YAPILACAKLAR.md` (nereye · iş sırası) | koordinatör; işçi şartnamesi derse |
+| `MIMARI.md` · `VERI-YAPISI.md` (motor · şemalar) | motora / veriye dokunacaksan ŞART |
+| `BES-ALTYAPI.md` (5 altyapı unsuru, `ALTYAPI.md §0` yerine) | altyapı sorusu |
+| `DURUM.md` · `OGRENILENLER.md` · `ETIKETLEME.md` | adıyla sorulursa |
 
 Veriye/motora dokunacaksan ek olarak `git log --oneline -10` ve `py arac/durum_tablosu.py`
 (sayılar §1.5 ile uyuşmuyorsa önce onu söyle). [`D231`](dersler/D231-belge-seti-acilis-sirasi.md)
@@ -69,9 +69,9 @@ o değişim görünmeli; bütün kalite kuralları buradan türer.
 ## 1.6 Kapsam disiplini
 Yedi boyut: tarih çizgisi · coğrafî kapsam · devletler · devlet kronolojileri · yerleşimler
 · kişiler · olaylar. **8. boyut (konu başlıkları) Emre'nin 2 Eylül kararıyla AÇIK ama
-SIRALIDIR:** yalnız ① kronoloji maddesine kendi görseli (`gorsel:` · YALNIZ kamu malı/CC0 ·
-`gorsel_kaynak:` açıkça) ve ② ek okuma türlerinin tanımı açıldı; öteki konular sevk bekler.
-Açmayı/kapatmayı yalnız Emre yapar. Vaka: [`D200`](dersler/D200-sekizinci-boyut-acildi.md)
+SIRALIDIR:** yalnız ① kronoloji görseli (`gorsel:` · YALNIZ kamu malı/CC0 · `gorsel_kaynak:`
+açıkça) ve ② ek okuma türü tanımı açıldı; öteki konular sevk bekler. Açmayı/kapatmayı
+yalnız Emre yapar. [`D200`](dersler/D200-sekizinci-boyut-acildi.md)
 
 ---
 
@@ -80,17 +80,16 @@ Her yerleşim çevresindeki toprağın **peteği** (Voronoi) sahibidir; sınır 
 yaslanır, kara maskesiyle kesilir, göller çıkarılır. Geometri `data/yerlesimler.js`ten her
 gün için yeniden üretilir.
 - **Noktası olmayan bölge en yakın peteğe emilir ve O PETEĞİN SAHİBİYLE boyanır.** "Harita
-  yanlış" raporunda ilk soru: *o bölgede yerleşim noktası var mı?* (Sardinya 1533, Kefalonya,
-  Brač/Hvar, Ordu-Ünye.)
+  yanlış" raporunda ilk soru: *o bölgede yerleşim noktası var mı?* (ör. Sardinya 1533.)
 - Motor anlatısındaki sayılar (göl, nehir, dağ, çöl tavanı) **koşunun logundan** okunur,
   yorumdan değil. Vaka: [`D201`](dersler/D201-petek-motoru-sayilar-logdan.md)
 
 ---
 
 ## 3. İhlal edilemez değişmezler
-**Her veri değişikliğinden sonra `py arac/denetle.py`** — tek kapı odur. (Eski tek satırlık
-`node -e` denetimleri ve ölçülmüş sayıları [`D202`](dersler/D202-uc-degismez-tam-metin.md)de
-birebir duruyor; `denetle.py` hepsini daha geniş evrende sorar.)
+**Her veri değişikliğinden sonra `py arac/denetle.py`** — tek kapı odur; eski ölçütler
+[`D202`](dersler/D202-uc-degismez-tam-metin.md)de birebir duruyor, `denetle.py` hepsini
+daha geniş evrende sorar.
 - **1 — sahipsizlik yok.** Var olduğu tarihte sahipsiz yerleşim = haritada delik. Sahipsiz
   sayısı §1.5'teki beklenenin üstüne çıkarsa yeni delik açılmıştır (beklenenler kasıtlı
   çöl/dolgu noktaları).
@@ -111,8 +110,7 @@ birebir duruyor; `denetle.py` hepsini daha geniş evrende sorar.)
   sürüyor → künyeyi GENİŞLET · ③ ardıl yapı geçti, toprak dolu → ardıl künye (kısaltmak delik
   açar; ardıl künyenin penceresi de TUTMALI). **İlk iş düzeltme değil SINIFLANDIRMA;** ölçek
   ve görünürlük sınıfı belirlemez. "Kimlik yok" demeden `devletler.js` TARANIR (tahmin edilen
-  id aranmaz). Üç haneli yıl dizgi karşılaştırmasında `pad()` şart. Aracın çökmesi yanlış
-  cevap vermesinden iyidir. [`D205`](dersler/D205-uc-sinif-careleri-ters.md)
+  id aranmaz). Üç haneli yıl dizgi karşılaştırmasında `pad()` şart. [`D205`](dersler/D205-uc-sinif-careleri-ters.md)
 - **Ters yön:** bir sınır kayması önerildiğinde **iki uç da ölçülür** — düzeltme hatayı öbür
   tarafa taşıyabilir. Noktasızlık iki yöne hata üretir (yön komşunun kimliğine bağlı).
   Devletin yıkılışı ≠ o yerin fethi. [`D206`](dersler/D206-ters-yon-osmanli-fazla.md)
@@ -129,13 +127,13 @@ birebir duruyor; `denetle.py` hepsini daha geniş evrende sorar.)
   aynı olay/süreç ve yakın konum + kayda "gün komşudan: <komşu> · <kaynağı>" yazılır;
   zincirleme devralma yasak. [`D207`](dersler/D207-atlas-referans-degil.md)
 - **Bayrak kuralı:** kaynakta kesin okunan "şu yer, şu tarihte, şu devletin" tanıklığı
-  `data/kaynakli_halka_<kısaltma>.js`e yazılır (şema `VERI-YAPISI.md` son bölüm); örtülü,
-  çıkarım, istisna cümlesi, bölgeden şehre taşınan hüküm, atlas kaydı halka almaz; iki ayrı
-  kaynağın uçları birleştirilmez. [`D208`](dersler/D208-bayrak-kurali.md)
+  `data/kaynakli_halka_<kısaltma>.js`e yazılır (şema `VERI-YAPISI.md`); örtülü, çıkarım,
+  istisna cümlesi, bölgeden şehre taşınan hüküm, atlas kaydı halka almaz; iki ayrı kaynağın
+  uçları birleştirilmez. [`D208`](dersler/D208-bayrak-kurali.md)
 - **Kırmızı çizgi** (Emre, 9 Ağu): dışarıda yalnız akademik/güvenilir kaynak. KULLANILMAZ:
   forum · blog · içerik çiftliği · kaynaksız derleme · YZ üretimi metin · popüler tarih
-  sitesi. Bağlayıcı olan kırmızı listedir; kırmızıya girmeyen kurumsal kaynak adıyla yazılarak
-  kabul edilir. Kaynak gizlenmez; bulunamadıysa `bulunamadı` yazılır. [`D209`](dersler/D209-kirmizi-cizgi-ara-bolge.md)
+  sitesi. Bağlayıcı olan kırmızı liste; girmeyen kurumsal kaynak adıyla kabul edilir.
+  Kaynak gizlenmez; bulunamadıysa `bulunamadı` yazılır. [`D209`](dersler/D209-kirmizi-cizgi-ara-bolge.md)
 - **Tarih uydurma.** Gün bilinmiyorsa `YYYY-01-01`; **yıl bilinmiyorsa yıl yazılmaz**
   ("temsilî" damgası uydurmayı meşrulaştırmaz). Sahte kesinlik de yasak: künyenin `f:`/`t:`
   günü bir KAYNAK DEĞİLDİR; kaynak yıl diyorsa yıl yazılır ve fark bildirilir. Pencere uçları
@@ -145,28 +143,21 @@ birebir duruyor; `denetle.py` hepsini daha geniş evrende sorar.)
   AÇIKLAYAN alandan okunur. Kaba tarih künye penceresi dışına düşüyorsa künyenin günü
   devralınır ve kaynaksızlığı bildirilir. Türetilen sayı alıntıya yazılmaz. [`D213`](dersler/D213-ay-ayin-birine-kodlanmis.md)
 - **TDV tuzakları:** ① ölü slug (HTTP **302**) · ② canlı slug, yanlış madde (`ordu`→
-  `ordu--sehir`, `cin`→`cin--ulke`, `torun`) · ③ boş gövde · ④ boilerplate gövde (çekilemedi ≠
-  yok) · ⑤ `000` taşıma arızasıdır, ölü değil · ⑥ kaynak kendiyle çelişebilir — çelişkiyi
-  bildir; ama **önce cümleyi doğru ayrıştır** (Türkçe yan cümle) · ⑦ çıkarıcının "okuyamadım"ı
-  belge hakkında bir şey söylemez (ikinci çıkarıcı dene) · ⑧ rakamın gövdede geçmesi o değeri
-  desteklediği anlamına gelmez — **rakamı taşıyan cümlenin neyi tarihlediği okunur**; eşleşme
-  sayısı dayanak gücü değildir; gövde ile künye karşılıklı okunur. **Doğru maddeyi yalnız
-  içeriği okumak ele verir.** [`D211`](dersler/D211-tdv-tuzak-5-8-once-ayristir.md) · [`D214`](dersler/D214-tdv-olu-slug-yanlis-madde.md)
-```bash
-curl -s -o /dev/null -w "%{http_code}" https://islamansiklopedisi.org.tr/<slug>
-# 302 → ÖLÜ (arama sayfasına yönleniyor)      200 → madde VAR
-```
+  `ordu--sehir` vb.) · ③ boş gövde · ④ boilerplate gövde (çekilemedi ≠ yok) · ⑤ `000`
+  taşıma arızasıdır, ölü değil · ⑥ kaynak kendiyle çelişebilir — bildir; ama **önce
+  cümleyi doğru ayrıştır** (Türkçe yan cümle) · ⑦ çıkarıcının "okuyamadım"ı belge
+  hakkında bir şey söylemez (ikinci çıkarıcı dene) · ⑧ rakamın gövdede geçmesi o değeri
+  desteklediği anlamına gelmez — **rakamı taşıyan cümlenin neyi tarihlediği okunur**;
+  gövde ile künye karşılıklı okunur. [`D211`](dersler/D211-tdv-tuzak-5-8-once-ayristir.md)
 - **Arama:** `https://islamansiklopedisi.org.tr/arama/?q=<kelime>`. "TDV'de yok" demeden ARA;
   dar slug tutmazsa kapsayıcı maddeyi dene — **TDV olay değil yer-kişi ansiklopedisidir**, olay
   slug'ı ölüyse olayın geçtiği YERE ya da başındaki KİŞİYE bak. Kapsama tablosu künye
   kapsamasıdır, kasaba taneciği için hüküm vermez. Kaynak yoğunluğu komşu bölgeye taşınmaz.
-  [`D212`](dersler/D212-kaynak-yogunlugu-komsuya-tasinmaz.md) · [`D216`](dersler/D216-kapsam-boslugu-iki-cins.md) · [`D217`](dersler/D217-tdv-olay-degil-yer-kisi.md) · [`D218`](dersler/D218-tdv-isabet-orani-81.md)
+  [`D217`](dersler/D217-tdv-olay-degil-yer-kisi.md) · [`D218`](dersler/D218-tdv-isabet-orani-81.md)
 - **Türkçe yazım ekseni:** `d:`e `devletler.js`teki gerçek `id:` yazılır (`aceh`→
   `ace-sultanligi`); "yok" demeden `bolge:` alanı taranır. Kodda `"İ".lower()` iki kod noktası
   verir, `casefold()` de çözmez → `denetim/ARAC-NORMAL-0903.py` normalleştiricisi; ayrı adlar
   (`Diyarbekir`↔`Diyarbakır`) eşanlam sözlüğü işidir. [`D215`](dersler/D215-turkce-yazim-ekseni-lower.md)
-
-Doğrulanmış slug kümesi: `grep -oh 'kaynak:"[^"]*"' data/olaylar*.js | sort -u`
 
 ---
 
@@ -200,25 +191,21 @@ açılmaz** (kenar petekleri dünyaya yayılır). [`D220`](dersler/D220-kapsam-g
 ## 7. Oturum düzeni ve dosya sahipliği — EN ÖNEMLİ KURAL
 Bölme ölçütü **dosyadır**; her dosyanın tek sahibi var. Oturum 0 (koordinatör, 1.MURAT):
 `yerlesimler.js`, `uret_petek.py`, üretilen `data/*.js`, kök `*.md`. Öteki oturumlar
-şartnamelerinin verdiği dosyalara yazar; **emin değilsen sor.** Rapor/denetim oturumları
+şartnamelerinin verdiği dosyalara yazar; **emin değilsen sor**; rapor/denetim oturumları
 düzeltme yapmaz. [`D221`](dersler/D221-dosya-sahipligi-uretim-kilidi.md)
 - **`uret_petek.py`yi yalnız Oturum 0 koşturur.** Koşu sürerken `data/` VE `arac/`
   donmuştur; motorun "girdi dosyaları SERBEST" satırı koşunun sağlığını söyler, çıktının
-  yayınlanabilirliğini değil. Koşular ayrı worktree'de (`C:/atlas-kosuNN`) koşar. Başlatan
-  "girdi kilitli" / bitince "dosya senin" der; devir sözle yapılır.
+  yayınlanabilirliğini değil. Koşular ayrı worktree'de koşar. Başlatan "girdi kilitli" /
+  bitince "dosya senin" der; devir sözle yapılır.
 - **Uzun bir işi (koşu) başlatmadan önce** tahtaya "BEN BAŞLATIYORUM · ne · ~süre" yaz ve
   60 sn bekle; çakışmada beyana değil süreç damgasına bak. [`D225`](dersler/D225-ad-alani-kaynak-sahipligi.md)
-- **Koşu nöbetçisi** düzenli canlılık basar (60 dk'da bir); sessizlik "iyi gidiyor" değil
-  "nöbetçi ölmüş olabilir"dir. (Tahta bekçisi ise mesaj yoksa sessizdir — §7.2.)
-  [`D222`](dersler/D222-nobetci-altyapiyla-olur.md)
+- **Koşu nöbetçisi** düzenli canlılık basar (60 dk'da bir); sessizlik "nöbetçi ölmüş
+  olabilir"dir (tahta bekçisi mesaj yoksa sessizdir — §7.2). [`D222`](dersler/D222-nobetci-altyapiyla-olur.md)
 - **Commit:** push ve paylaşılan dosyalar Oturum 0'da. Oturum KENDİ ürettiklerini
   (`oturumlar/<ADI>.md`, `denetim/<ÖNEKİ>…`) **adıyla** commit eder; dizin pathspec'i ve
   `git add -A` YASAK; pathspec commit'te de tekrarlanır, `git show --name-only` ile
-  doğrulanır. Commit teslim değildir. [`D223`](dersler/D223-commit-istisnasi-pathspec.md)
-```bash
-git add -- <adlar>
-git commit -F <mesaj-dosyası> -- <aynı adlar>
-```
+  doğrulanır (`git add -- <adlar>` · `git commit -F <mesaj-dosyası> -- <aynı adlar>`).
+  Commit teslim değildir. [`D223`](dersler/D223-commit-istisnasi-pathspec.md)
 - **Ayrı dosya ≠ ayrı ad alanı:** `data/<tur>_<kısaltma>.js` → `window.<TUR>_<KISALTMA>`;
   dosya verirken değişken adı da verilir. Süzgeç tanımadığını sessizce elemez, sayıp basar.
   [`D225`](dersler/D225-ad-alani-kaynak-sahipligi.md)
@@ -232,76 +219,68 @@ git commit -F <mesaj-dosyası> -- <aynı adlar>
 ## 7.1 Haberleşme protokolü — her şartnameye AYNEN kopyalanır
 
 ### 🔴 TOKEN KURALI (Emre, 17 Eylül 2026) — ①'nin önüne geçer
-```
-İŞÇİ        rapor · veri · teslim · soru → YALNIZ TAHTA (py arac/tahta.py yaz).
-            Koordinatörün ekranına send_message YAZILMAZ; satır satır mesaj atılmaz,
-            bir teslim TEK mesajdır. (Tahta çalışmıyorsa ⑤b istisnası geçerli.)
-KOORDİNATÖR iş YAPMAZ, dağıtır — bağlamını uygulama işiyle doldurmaz.
-OTURUM SEÇİMİ  doğruluk > tasarruf > hız · doğruluktan hiçbir şey için taviz yok.
-            Varsayılan TAZE oturum (her tur bütün bağlamı yeniden okur: maliyet ≈
-            bağlam × tur). Tecrübeli/emekli oturum yalnız işin doğrudan devamıysa ve
-            doğruluk kazancı varsa. Alakasız dolu işçiye iş VERİLMEZ.
-BEKLEME     ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kontrol
-            ediyorum" yazılmaz. Tek yol: Monitor + `arac/tahta_bekci.py --kim <AD>`
-            (mesaj yoksa sessiz, yalnız adına mesaj gelince uyandırır).
-```
+- **İŞÇİ:** rapor · veri · teslim · soru → YALNIZ TAHTA (`py arac/tahta.py yaz`).
+  Koordinatörün ekranına `send_message` YAZILMAZ; satır satır mesaj atılmaz, bir teslim
+  TEK mesajdır (tahta çalışmıyorsa ⑤b istisnası geçerli).
+- **KOORDİNATÖR** iş YAPMAZ, dağıtır — bağlamını uygulama işiyle doldurmaz.
+- **OTURUM SEÇİMİ:** doğruluk > tasarruf > hız · doğruluktan hiçbir şey için taviz yok.
+  Varsayılan TAZE oturum (her tur bütün bağlamı yeniden okur: maliyet ≈ bağlam × tur).
+  Tecrübeli/emekli oturum yalnız işin doğrudan devamıysa ve doğruluk kazancı varsa.
+  Alakasız dolu işçiye iş VERİLMEZ.
+- **BEKLEME:** ScheduleWakeup · /loop · sleep ile tahta YOKLANMAZ, "tahtayı kontrol
+  ediyorum" yazılmaz. Tek yol: bekçi (§7.2 ④) — mesaj yoksa sessiz, yalnız adına/HERKES'e
+  mesaj gelince uyandırır.
 - **① Kanal = tahta.** Ekrana yazılan rapor koordinatöre ulaşmaz. [`D226`](dersler/D226-haberlesme-dogusu-kanal.md)
-- **② Ne zaman:** soru gelince HEMEN (iş sürse de) · aksaklık BEKLEMEZ · bitince teslim.
-- **③ Yatay mesaj serbest, tahtadan** (`--kime "<ÖTEKİ>"`); atama, öncelik, kaynak çelişkisi
-  hükmü ve yetki gerektiren her şey koordinatöre. Gerekçesi değişen kural yeniden ölçülür.
-  [`D227`](dersler/D227-yatay-mesajlasma-serbest.md)
+- **② Ne zaman:** soru gelince HEMEN · aksaklık BEKLEMEZ · bitince teslim.
+- **③ Yatay mesaj serbest, tahtadan** (`--kime "<ÖTEKİ>"`); atama/öncelik/kaynak hükmü ve
+  yetki gerektiren her şey koordinatöre. [`D227`](dersler/D227-yatay-mesajlasma-serbest.md)
 - **④ Üçlü kural:** ① ne ölçtüm (sayıyla) ② ne bulamadım (`bulunamadı` bir sonuçtur)
   ③ ne istiyorum (seçenekliyse önerinle).
-- **⑤ Commit teslim değildir; teslim mesajdır.** **⑤b** "yazıldı" cevabı teslim kanıtı
-  değildir — kritik mesajı `oturumlar/tahta.json`dan GERİ OKU; tahta çalışmıyorsa kritik
-  raporu özel kanaldan gönder. Paylaşılan `.git` kilidine dokunulmaz.
+- **⑤ Commit teslim değildir; teslim mesajdır.** **⑤b** "yazıldı" teslim kanıtı değildir —
+  kritik mesajı `oturumlar/tahta.json`dan GERİ OKU; tahta çalışmıyorsa özel kanaldan gönder.
 - **⑥ Aksaklık beklemez:** başka oturumun dosyası gerekiyor · kaynaklar çelişiyor · şartname
   yanlış · sayı beklenenden çok farklı · kalem yetkini aşıyor · iş çok uzayacak → hemen yaz.
-  Tahmin etmek sormaktan pahalıdır.
 - **⑦ Çember** ve koordinatörün tarafı: §7.2. Duran oturum ölü değildir, cevabı sıkışmış
   olabilir. [`D228`](dersler/D228-teslim-aksaklik-cember.md)
 
 ## 7.2 TOKEN ZİNCİRİ — bir işin baştan sona yolu (17 Eylül 2026)
-```
-① AÇILIŞ        Emre oturumu açar ve adlandırır. Oturum CLAUDE.md'yi okur, kimliğini
-                get_session("self") ile ölçer (scratchpad UUID'si DEĞİL).
-                MODEL koordinatörün işidir: kıta hangi modelle açılmış olursa olsun, göreve
-                göre set_session_model ile çevrilir (pahalıya çevirmek Emre onayı ister).
-                "Hazır kıta" adı boşluk kanıtı değildir — list_events mesaj sayısı ölçülür.
-                🔴 GÖREV VERİLDİĞİ AN oturumun adı görev adına çevrilir (set_session_title,
-                ör. "MOTOR-SINAV · artımlı motor sınavı (Opus)") — Emre, 19 Eylül 2026.
-② GÖREVLENDİRME Koordinatör tahtaya (ya da ilk mesaj olarak) yazar; mesajın İLK SATIRI
-                oturumun ADIDIR = tahta anahtarı, TAM yazılır (tahta TAM EŞİTLİK arar).
-                Şartname oturumlar/<dosya>.md. Dosya sahipliği görev tablosunda yazılıysa
-                AÇILIŞ MESAJI YOK; değilse tek satır "şu dosyalar bende". Hazır kıta
-                açılışta tahtaya TEK "HAZIRIM" yazar (oturumlar/HAZIR-KITA.md).
-③ TAHTA         Tek kanal: py arac/tahta.py yaz --kim "<AD>" --kime "<ALICI>" --mesaj "…"
-                send_message yalnız tahta arızasında (§7.1 ⑤b).
-④ BEKÇİ         Monitor + py arac/tahta_bekci.py --kim "<AD>". Uyandıran YALNIZ `kime`
-                = ADIN ya da HERKES; gerisi sessiz. İşin yoksa sus, "bekliyorum" yazma.
-⑤ YATAY MESAJ   İşçi→işçi tahtadan (§7.1 ③); atama/öncelik/kaynak hükmü koordinatöre.
-⑥ TOPLU OKUMA   Koordinatör tahtayı olay olay değil, bekçi `--toplu 1800` ile 30 dakikada
-                bir TEK özet satırla okur; işçiler buna göre 30 dk gecikme varsayar.
-⑦ TESLİM        İş bitince TEK mesaj: ölçtüm · bulamadım · istiyorum + değişen dosya
-                listesi; kritikse tahta.json'dan geri okunur. Paylaşılan dosyayı (data/,
-                CLAUDE.md) koordinatör commitler; devralınan dosya için "dosya senin" denir.
-⑧ EMEKLİLİK     Teslimden sonra DUR. Devamı varsa bekçi açık kalır; iş BİTTİYSE işçi
-                bekçisini kendisi öldürür (TaskStop). Emekli
-                oturuma yalnız işin doğrudan devamı verilir (varsayılan taze oturum).
-                🔴 İşi biten ve devamı beklenmeyen oturumu koordinatör EMEKLİYE AYIRIR:
-                "Atlas — emekli oturumlar" grubuna taşır (move_sessions) — Emre, 19 Eyl.
-                Açık teslimi/sorusu olan emekliye ayrılmaz; geri dönüş: gruptan çıkar.
-⚠️ UYANDIRMA    TAHTA MESAJI DURAN OTURUMU UYANDIRMAZ — yalnız bekçisi açık olanı uyandırır.
-                Duran/bekçisiz oturuma görev, send_message ile gider (tahtaya da kayıt için
-                yazılır). 18 Eylül gecesi tahtaya yazılan görevler ~9 saat cevapsız kaldı.
-                send_message "undelivered" diyorsa oturum ONAY PENCERESİNDE takılı olabilir —
-                bunu yalnız Emre açabilir, ona bildirilir.
-```
-Bu zincire bağlanan eski kurallar: §7 koşu nöbetçisi (≠ tahta bekçisi) · §7.1 ①–⑦ ve TOKEN
-KURALI · `arac/tahta_bekci.py` kullanım notu · `ClaudEmre/SARTNAME.md` ⑤ haberleşme bloğu.
+- **① Açılış:** Emre oturumu açar, adlandırır. Oturum CLAUDE.md'yi okur, kimliğini
+  `get_session("self")` ile ölçer (scratchpad UUID'si DEĞİL). MODEL koordinatörün işidir:
+  kıta hangi modelle açılmış olursa olsun göreve göre `set_session_model` ile çevrilir
+  (pahalıya çevirmek Emre onayı ister). "Hazır kıta" adı boşluk kanıtı değildir —
+  `list_events` mesaj sayısı ölçülür. 🔴 Görev verildiği an oturumun adı görev adına
+  çevrilir (`set_session_title`) — Emre, 19 Eylül 2026.
+- **② Görevlendirme:** koordinatör tahtaya (ya da ilk mesaj olarak) yazar; mesajın İLK
+  SATIRI oturumun ADIDIR = tahta anahtarı, TAM yazılır (tahta TAM EŞİTLİK arar). Şartname
+  `oturumlar/<dosya>.md`. Dosya sahipliği görev tablosunda yazılıysa açılış mesajı yok;
+  değilse tek satır "şu dosyalar bende". Hazır kıta açılışta tahtaya TEK "HAZIRIM" yazar
+  (`oturumlar/HAZIR-KITA.md`).
+- **③ Tahta:** tek kanal `py arac/tahta.py yaz --kim "<AD>" --kime "<ALICI>" --mesaj "…"`;
+  `send_message` yalnız tahta arızasında (§7.1 ⑤b).
+- **④ Bekçi:** **Bash `run_in_background`** + `py arac/tahta_bekci.py --kim "<AD>" --cik`
+  (Monitor DEĞİL: 30 dk'da dolup boşuna uyandırır). Yalnız `kime` = ADIN/HERKES mesajında
+  çıkar; mesajı işle, aynı komutla SESSİZCE yeniden kur. "Bekliyorum" YAZILMAZ.
+- **⑤ Yatay mesaj:** işçi→işçi tahtadan (§7.1 ③); atama/öncelik/kaynak hükmü koordinatöre.
+- **⑥ Toplu okuma:** koordinatör tahtayı olay olay değil, bekçi `--toplu 1800` ile 30
+  dakikada bir TEK özet satırla okur; işçiler buna göre 30 dk gecikme varsayar.
+- **⑦ Teslim:** iş bitince TEK mesaj: ölçtüm · bulamadım · istiyorum + değişen dosya
+  listesi; kritikse `tahta.json`dan geri okunur. Paylaşılan dosyayı (`data/`, `CLAUDE.md`)
+  koordinatör commitler; devralınan dosya için "dosya senin" denir.
+- **⑧ Emeklilik:** teslimden sonra DUR. Devamı varsa bekçi açık kalır; iş BİTTİYSE işçi
+  bekçisini kendisi öldürür (TaskStop). Emekli oturuma yalnız işin doğrudan devamı verilir.
+  🔴 İşi biten ve devamı beklenmeyen oturumu koordinatör EMEKLİYE AYIRIR: "Atlas — emekli
+  oturumlar" grubuna taşır (`move_sessions`) — Emre, 19 Eyl. Açık teslimi/sorusu olan
+  emekliye ayrılmaz; geri dönüş: gruptan çıkar.
+- **⚠️ Uyandırma:** tahta mesajı DURAN oturumu uyandırmaz — yalnız bekçisi açık olanı
+  uyandırır. Duran/bekçisiz oturuma görev `send_message` ile gider (tahtaya da kayıt için
+  yazılır; 18 Eylül'de ~9 saat cevapsız kalan görevler oldu). `send_message` "undelivered"
+  diyorsa oturum ONAY PENCERESİNDE olabilir — bunu yalnız Emre açabilir, ona bildirilir.
+
+Bağlı eski kurallar: §7 koşu nöbetçisi (≠ tahta bekçisi) · §7.1 ①–⑦ ve TOKEN KURALI ·
+`arac/tahta_bekci.py` kullanım notu · `ClaudEmre/SARTNAME.md` ⑤ haberleşme bloğu.
 **Çözülmemiş çelişkiler** (hüküm 1.MURAT/Emre'de, ayrıntı `denetim/PROTOKOL-BUDAMA-0917.md`):
-ClaudEmre ⑤ bloğu hâlâ send_message diyor · eski "aynı anda en çok 3 oturum" bugünkü kadroyla
-çelişiyor · ⑥'da ACİL mesaj için istisna yok.
+ClaudEmre ⑤ hâlâ send_message diyor · eski "en çok 3 oturum" bugünkü kadroyla çelişiyor ·
+⑥'da ACİL istisna yok.
 
 ---
 
@@ -324,12 +303,12 @@ Alan alan tam şema, alan sözlüğü ve kaynak seti: **`VERI-YAPISI.md`**. Veri
 ## 9. Komutlar
 
 ```bash
-py arac/uret_petek.py            # harita üretimi (~40 dk, yalnız Oturum 0)
-py arac/uret_devirler.py         # devirler.js — uret_petek'ten SONRA koşar
-py arac/renk_olc.py              # 🔴 VERİ DEĞİŞTİYSE ŞART — aşağıya bak
-py arac/denetle.py               # altı değişmez
-py arac/denetle_yayin.py         # yayın kapısı
-py arac/surum_damgala.py         # index.html'deki ?v=rNN damgasını yükselt
+py arac/uret_petek.py     # harita üretimi (~40 dk, yalnız Oturum 0)
+py arac/uret_devirler.py  # devirler.js — uret_petek'ten SONRA koşar
+py arac/renk_olc.py       # 🔴 VERİ DEĞİŞTİYSE ŞART — aşağıya bak
+py arac/denetle.py        # altı değişmez
+py arac/denetle_yayin.py  # yayın kapısı
+py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
 ```
 - **Palet verinin fonksiyonudur:** veriye dokunan her koşudan sonra `renk_olc.py` (renge
   dokunmadan çakışma doğabilir).
@@ -337,17 +316,15 @@ py arac/surum_damgala.py         # index.html'deki ?v=rNN damgasını yükselt
   "Doğrulama: tüm yerleşimlerin peteği geçerli ✓" satırını gör. Yayından önce sürüm
   damgası yükseltilir; Pages gecikmesi ~40-60 sn.
 - **Koşu çıktısı her zaman bayattır — yine de yayınlanır** (Emre, 17 Eylül): "YAYIN BAYAT"
-  yayını durdurmaz, commit mesajına bilgi olarak yazılır; durduran yalnız koşunun kendi
-  `denetle.py` ihlalidir. Gerekirse koşu durdurulup yeni tabanla başlatılır.
-- Koşu bittiği an ≠ yayın indiği an: yayın inene kadar motor donuk (`D198`).
-[`D229`](dersler/D229-komutlar-palet-bayat-yayin.md)
+  yayını durdurmaz; durduran yalnız koşunun kendi `denetle.py` ihlalidir. Koşu bittiği an
+  ≠ yayın indiği an: yayın inene kadar motor donuk. [`D229`](dersler/D229-komutlar-palet-bayat-yayin.md)
 
 ## 10. Çalışma protokolü (kullanıcı tercihi)
 - **Onay bekleme**, devam et. Kullanıcı hataları numaralı partilerle bildirir — her maddeyi
-  ayrı cevapla. "Ayrı madde ile gösterilmeli" = Değişmez 2 ihlali: kırılmayı bul, yaz.
-- Görev bitince / soru sorarken **3 beep**; kullanıcının başında beklemediği uzun iş bitince
-  **9 beep**. Bekçi tahmine değil gerçekleşmiş bir dosya damgasına bağlanır (petek için
-  `data/donemler.js`). Bitti sanıp erken haber vermek, hiç vermemekten kötüdür.
+  ayrı cevapla; "ayrı madde ile gösterilmeli" = Değişmez 2 ihlali: kırılmayı bul, yaz.
+- Görev bitince / soru sorarken **3 beep**; beklenmedik uzun iş bitince **9 beep**. Bekçi
+  gerçekleşmiş bir dosya damgasına bağlanır (petek için `data/donemler.js`) — bitti sanıp
+  erken haber vermek, hiç vermemekten kötüdür.
 ```bash
 powershell -c "[Console]::Beep(800,300); [Console]::Beep(800,300); [Console]::Beep(800,300)"
 powershell -c "1..9 | ForEach-Object { [Console]::Beep(880,250); Start-Sleep -Milliseconds 120 }"
