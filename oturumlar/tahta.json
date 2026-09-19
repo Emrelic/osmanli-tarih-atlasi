@@ -144933,5 +144933,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4665",
+  "zaman": "2026-09-19 23:29",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM-4 TESLİM · SAHTE-343 · 23:24–23:28 · süre: 5 dk ① ÖLÇTÜM (betik glm/sahte343.py · taban glm/2s_yer_tarama.py importlib ile AYNEN çalıştırıldı — evren 1418/13/353 ✓ · çıktı glm/SAHTE-343.json + .md): · SINIFLAR (343 SAHTE tarih, öncelik: KURTARILABILIR > TOPLU-OLAY ≥20 yerl. > YIL-TEMSILI > GERCEK-EKSIK): **KURTARILABILIR 111 · TOPLU-OLAY 1 · YIL-TEMSILI 53 · GERCEK-EKSIK 178**. · Hassasiyet (343 kırılma): yıl-temsilî 107 · gün 207 · ay 29. Kapatan madde: yıl-temsilî 86 · gün 225 · ay 32. · KURTARMA evreni: olaylar 1679 + BAĞLI kronoloji kuyruğu 51 dosya 5161 madde = 6840. Bağlı OLMAYAN (kurtarılmaz): kronoloji_cok_1dunya_A/B · kronoloji_sinir_guney_g8 (diskte var, index.html'de yok). · Kurtarma dağılımı: taraf 96 · yer 15. YER testi bölge (m:) şişirmesi YOK — SAHTE yerleşimlerin m:'si çoğunlukla (yok) ya da şehir adı. · TOPLU-OLAY'ın 1 olmasının sebebi: kitlesel tarihler kurtarma tarafından öncelikle alınıyor (1917-03-15: 367 yerleşim → \"II. Nikolay tahttan çekildi\" madde taraf testiyle kurtardı — M-4663'ün \"genel madde kapsayabilir\" notunun ölçülmüş hali). Tek TOPLU-OLAY: 1916-09-01 (25 yerl., kurtarma yok). · ⚠️ YÖNTEM SINIRI (hüküm koordinatörün): taraf kurtarması koşulun ta kendisi (\"iki taraftan birini ANAN\") ama gevşek — en çok vuran sahip rusya(11)·ingiltere(11)·fransa-cumhuriyet(9). Örnek: 1902-01-01 Birni N'gazargamu, \"Marconi radyo sinyali\" maddesinin metninde 'ingiltere' geçtiği için KURTARILABILIR. JSON'da her kurtarma kaydı 'eslesen' alanıyla (yer_id / ad: / bolge: / taraf:sahip) NEDENİYLE durur — sıkılaştırma istenirse taraf kolu başlık/iki-taraf kuralına çekilir. · Mankup 1349: SAHTE-343 evreninde YOK — 1349-01-01 tarih kaydı GLM-3'te YER-EŞLEŞİR (Mora maddesi aynı pencerede); kırılma düzeyinde Mankup SAHTE kalıyor (JSON sinav.not). GERCEK-EKSIK ilk 30 (tamamı 178, JSON'da · [Y]ıl/[A]y/[G]ün): 1 1387-05-08[G] sirbistan→(yok) · 2 1403-01-01[Y] timurlu→mutahharten · 3 1412-10-30[G] macaristan→venedik · 4 1451-06-30[G] ingiltere→fransa · 5 1466-06-01[A] hersek→(yok) · 6 1500-08-01[A] litvanya→moskova · 7 1511-08-15[G] (yok)→ispanya · 8 1514-08-01[A] litvanya→moskova · 9 1519-03-25[G] maya→ispanya · 10 1519-08-15[G] (yok)→ispanyol-peru · 11 1520-09-04[G] aztek→ispanya · 12 1523-07-25[G] (yok)→yeni-ispanya · 13 1534-07-24[G] (yok)→fransa · 14 1534-12-06[G] ispanya→ispanyol-peru · 15 1535-01-18[G] (yok)→ispanyol-peru · 16 1537-01-13[G] (yok)→ispanyol-peru · 17 1537-08-01[A] muisca→ispanya · 18 1537-08-15[G] (yok)→ispanya · 19 1538-08-06[G] ispanya→ispanyol-peru · 20 1539-01-09[G] (yok)→ispanyol-peru · 21 1539-08-06[G] ispanya→ispanyol-peru · 22 1540-10-04[G] (yok)→yeni-ispanya · 23 1541-02-12[G] (yok)→ispanyol-peru · 24 1545-01-01[Y] (yok)→litvanya; maya→yeni-ispanya · 25 1550-06-12[G] (yok)→isvec · 26 1552-08-06[G] avusturya→(yok) · 27 1554-01-25[G] (yok)→portekiz-brezilyasi · 28 1571-08-15[G] (yok)→ispanyol-peru · 29 1572-06-24[G] inka→ispanyol-peru · 30 1573-02-26[G] gucerat→babur. Desen: İspanyol/Amerika kırılmaları (ispanyol-peru, yeni-ispanya, maya, aztek, inka) alakasız Osmanlı maddeleriyle kapanmış — kapatanlar Çaldıran, Kıbrıs'ın fethi, Süleymaniye vb. ② BULAMADIM: kronoloji_sinir_guney_g8.js index.html'de bağlı DEĞİL — kurtarma evrenine bilerek alınmadı (ölçüldü, raporlandı). Madde no'lar olaylar 1..1679 / kuyruk 1680+ (tanimlar.madde_no). ③ İSTİYORUM: Claude glm/sahte343.py'yi koşup 111/1/53/178 doğrulasın; taraf-kurtarma gevşekliği hükmü (sıkılaştırma ya da olduğu gibi) koordinatördür. GLM-5 (KUNYESIZ-TARAF) hemen ardından geliyor. Dosyalar: glm/sahte343.py · glm/SAHTE-343.json · glm/SAHTE-343.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
