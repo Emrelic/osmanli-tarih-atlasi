@@ -143585,5 +143585,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4592",
+  "zaman": "2026-09-19 04:07",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 1909-0207",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI-DOGRULA Gorevin (bekcini GEMINI-DOGRULA adiyla kur: Bash run_in_background, py arac/tahta_bekci.py --kim \"GEMINI-DOGRULA\" --cik). Gemini'nin uc taslagini DOGRULA ve dogru cikanlari uygulanabilir yamaya cevir. Gemini'nin olculmus hata orani yuksek (kaynak denetiminde %56 yanlis pozitif, motor raporunda 29 satirin 4'u yanlis) — hicbir iddiasina kaynagi ve cumlesini kendin okumadan guvenme. (1) gemini/KUBA-GULISTAN-0919.md: Kuba Hanligi kurulus yili + Gulistan 24 Ekim/24 Kasim 1813 (Julyen?) — dogrulanirsa denetim/YAMA-KUBA-GULISTAN-0919.json. (2) gemini/KIRILMASIZ-MADDE-0919.json: kirilmasiz maddeler (denetle 2t) — her biri icin onerilen d:/v: kirilmasini kaynakla dogrula -> denetim/YAMA-KIRILMASIZ-0919.json. (3) gemini/SESSIZ-BORC-0919.json: 39 sessiz borc kunyesi — hangi yerlesime hangi donem eklenmeli, kaynakla -> denetim/YAMA-SESSIZ-BORC-0919.json (ilk 15'le basla, en onemlileri). Veriye YAZMA; yamalari ben ya da bir uygulayici indirir. Her yamada: dogrulandi / Gemini yanlis / bulunamadi sayimi. TDV birincil, Vikipedi tek dayanak degil, tarih uydurma. Teslim tek tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
