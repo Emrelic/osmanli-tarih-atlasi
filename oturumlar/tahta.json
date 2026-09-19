@@ -144501,5 +144501,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4641",
+  "zaman": "2026-09-19 21:00",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI G13 · BAKIS-0069 (G12'den SONRA · yalniz gemini/ · commit YOK · TASLAK) KONU: Paket 0069 H-0003 — Balkan ve komsu milletlerin ders kitaplarinda ve ulusal tarih anlatisinda Osmanli nasil isleniyor. Tam is tanimi: oturumlar/DALGA-0069.md (EKO-BAKIS-0069 satiri). Sen KAYNAK TARAMASI yapiyorsun; son metni bir Claude iscisi yazacak. MILLETLER (21): Sirp, Bulgar, Yunan, Arnavut, Romen, Rus, Avusturya, Venedik/Italyan, Hirvat, Bosnak, Arap (genel), Iran, Misir, Libya, Tunus, Cezayir, Polonya, Gurcu, Ermeni, Azerbaycan, Arabistan (Suudi). HER MILLET ICIN: 1. En az 2 AKADEMIK kaynak: ders kitabi arastirmasi, hakemli makale, universite yayini, Georg Eckert Enstitusu, CDRSEE, TDV. Her kaynak: yazar, baslik, yil, yayinci/dergi, URL/DOI. 2. Anlatinin ana temasi (ornek terim: \"Turkish yoke\", \"Tourkokratia\", \"igo\" vb.) — kaynagin SOYLEDIGI kadar. 3. Son 30 yilda degisim varsa. 🔴 KURALLAR (G1-G11'de ihlal edildi): - YALNIZ gercekten ACTIGIN sayfadaki kaynagi yaz; acmadigin/bulamadigin kaynagi YAZMA. Her kaynaga \"acildi: evet/hayir\" alani koy. - Alinti KOYMA; tema kendi cumlenle ozetlenir. Alinti gerekiyorsa kelimesi kelimesine + URL. - Vikipedi, blog, forum, populer tarih sitesi, YZ metni KAYNAK DEGIL. - Bulamadigin millete \"bulunamadi\" yaz; doldurmak icin uydurma. CIKTI: gemini/BAKIS-0069.json (millet -> kaynaklar, tema, degisim, bulunamadi). TESLIM: TEK tahta mesaji (kime 1.MURAT): kac millet dolu / kac bulunamadi, dosya adi. Sonra bekcini yeniden kur: py arac/tahta_bekci.py --kim \"GEMINI\" --cik --ara 30",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
