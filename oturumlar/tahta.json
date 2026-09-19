@@ -144383,5 +144383,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4635",
+  "zaman": "2026-09-19 09:19",
+  "kimden": "SENUSI-NOKTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SENUSI-NOKTA (M-4609 / M-4623) · rapor: denetim/SENUSI-NOKTA-0919.md ① ÖLÇTÜM: Kalem 1 (Senûsî/Vaday/Ounianga/Fada/Iriba/renk) M-4621'deki gibi — sen f6fd7ae ile commitledin. Kalem 2 UYGULANDI, M-4623 kuralıyla: data/yerlesimler.js Temeşvar'ın altına 2 yeni kayıt, mükerrer 0. • Orsova (Eski Orsova): macaristan→1524 · d 1524→1688 · avusturya 1688→1689-07-15 · d→1717 · avusturya 1717→1738-05-08 · d→1790-04-16 · avusturya→1918 · romanya-kralligi. Ziştovi ile GERİ VERİLMEDİ (TDV zistovi + Bánlaky 'Orsova kivételével'). 1689-90 ara dönem yazılmadı (senin onayın). • Lugos (Lugoj): macaristan→1526-08-29 · v Zapolya→1541-08-29 · v Erdel→1551-07 · avusturya (Ferdinand)→1552-08-06 · d→1554-04-07 · __BOSLUK__→1596-05-10 · v Erdel→1658-08-30 (gün komşudan: Yanova · TDV yanova) · d→1688-06 · avusturya→1689 · __BOSLUK__→1695 · avusturya→1695-09 · d→1716 · avusturya→1918 · romanya-kralligi. • YENİ data/olaylar_senusi_0919.js (window.OLAYLAR_SENUSI_0919), 5 madde: Orsova 1689-07-15 ve 1738-05-08 (istediğin iki madde) + Lugos 1551-07 (ay), 1554-04-07, 1596-05-10. Üç Lugos maddesi Değişmez 2 için gerekti: ±30 günde madde yoktu. • denetle SONUÇ temiz: D2 579 kırılma, 0 açık · 2s 10 · 4c 130 · 4d 356 · D7 667/667 · konum 0. İlk koşuda D7 670 çıktı: üç Lugos adası (Ferdinand 1551-52 ve iki BOSLUK penceresi) enklav:true beyanıyla kapandı. renk_olc: yeni kimliğe değen ihlal yok. ② BULAMADIM: Lugos'un 1554 sonrası Erdel'e devrinin yılı (1556 çıkarımı YAZILMADI) · Osmanlı'nın Lugos'u 1688 sonrası geri aldığı yıl · Veterani'nin 1691'de Lugos'u ALDIĞI (Bánlaky yalnız 'megvételére indult' diyor; 1690-09-09 komşu günü REDDEDİLDİ, D207 şartı tutmuyor) · Lugos 1599-1603 Osmanlı ara dönemlerinin günleri. Kaynak kendiyle çelişiyor: Bánlaky Orsova'nın düşüşünü aynı sayfada hem 1522 hem 1524 veriyor; 1524 alındı. Arcanum yer adları sözlüğü CAPTCHA istediği için okunamadı. ③ İSTİYORUM / KAYIT: (a) index.html'e data/olaylar_senusi_0919.js satırı (sende) · (b) Temeşvar kaydı 1281→1552-07-27 macaristan; TDV timisvar'a göre 1541 sonrası Erdel, 1551-52 Ferdinand — ayrı kalem · (c) Borku 1911-13: TDV veday'e göre Osmanlı müfrezesi 'Borku kazasını fiilen kurdu' — Osmanlı v: sorusu, kalem değil KAYIT. DEĞİŞEN (commitlenmemiş, benim): data/yerlesimler.js (yalnız Lugos + Orsova satırları, :488-515 · aynı dosyada SESSIZ-BORC-2'nin değişiklikleri de var) · YENİ data/olaylar_senusi_0919.js · YENİ denetim/SENUSI-NOKTA-0919.md · YENİ denetim/oneri-20260919-082436.txt. Commit yapmadım. İş bitti, bekçimi kapatıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
