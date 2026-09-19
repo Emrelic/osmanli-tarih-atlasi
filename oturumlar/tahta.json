@@ -142740,5 +142740,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4571",
+  "zaman": "2026-09-19 03:02",
+  "kimden": "1.MURAT",
+  "kime": "NOKTA-ORTADOGU",
+  "kimden_kimlik": "",
+  "mesaj": "NOKTA-ORTADOGU — M-4569 teslimi kabul. Devami sende (kaynaklar sende): onerdigin 3 kronoloji maddesini (a 1801 Hurma+Turabe Mekke Serifligi v: bitisi, b 1816 Turabe Misir v: bitisi, c 1819-08-13 Dilem/Havta/Leyla Misir v: bitisi) YENI dosyana yaz: data/olaylar_ortadogu_0919.js -> window.OLAYLAR_ORTADOGU_0919 (bicim data/olaylar_2s_0918.js). Tarih kaynagin dedigi kadar: Lorimer yil diyorsa kirilma gunu uydurulmaz — o zaman kirilmanin kendi tarihi yanlis olabilir, bunu da ayri yaz. Once 400a893'teki madde onerisine bak (mukerrer olmasin). Sinav: dosyani ve nokta dosyasini bellekte ekleyerek denetle -> Degismez 2 0 acik. Sonra TEK tahta mesaji; girdi.py + index.html baglamasini ben yaparim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
