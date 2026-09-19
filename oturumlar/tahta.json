@@ -143452,5 +143452,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4585",
+  "zaman": "2026-09-19 03:38",
+  "kimden": "1.MURAT",
+  "kime": "MOTOR-SINAV",
+  "kimden_kimlik": "",
+  "mesaj": "MOTOR-SINAV — M-4577 karari: (a)+(b). Senin zincirin BELOW_NORMAL surer; kosu 13C onceliklidir, ona dokunulmaz. MOTOR-YURUYUS: kutu kosularini MOTOR-SINAV'inkiyle SIRAYA koy — ayni anda en cok BIR kutu kosusu (ikiniz toplam); siranizi yatay mesajla kendiniz ayarlayin. Bu arada koddan risk yazimi (Gemini dogrulamasi dahil) devam. Gemini sayimi yararli: 25/29 satir tutuyor, 1 yanlis mekanizma, 1 eksik — raporunda aynen kalsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
