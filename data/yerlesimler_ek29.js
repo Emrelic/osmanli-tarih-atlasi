@@ -588,6 +588,71 @@ window.YERLESIMLER_EK29 = [
   kaynak:"HE Bosanska Krupa: 'Osmanlije su zaposjeli Krupu 1565'; Avusturya 1581, 1690, 1692, 1716'da kuşattı (alındığı yazılmıyor) · Korić 2016: 1787-88'de Una üzerinden malzeme gönderilen Osmanlı sınır kalesi · koordinat OSM düğüm 841364318 · 1908 günü Bosna kayıtlarının ortak günü (1878 işgali atlasta ayrı modellenmiyor)",
   kur:"1565-01-01",
   d:[{f:"1565-01-01",t:"1908-10-05",kaynak:"HE Bosanska Krupa (YIL)"}],
-  s:[{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], v:[] }
+  s:[{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], v:[] },
+
+// ─────────────────────────────────────────────────────────────────────
+// BIHAC-NOKTA-0069 (19 Eyl 2026 · yama denetim/YAMA-BIHAC-NOKTA-0919.json ·
+// rapor denetim/BIHAC-ENKLAV-0919.md §4). Bihaç çevresinde NOKTASIZLIK kaynaklı
+// üç sınır kusuru: (a) Knin peteği Una vadisini Avusturya boyuyordu · (b) Lika
+// Bihaç peteğine düşüp Osmanlı boyanıyordu · (c) Ziştovi'de Avusturya'ya geçen
+// Cetin/Drežnik noktasızdı. Koordinatlar OSM. 1281 öncesi/1527 kalıbı Bihaç
+// kaydıyla aynı (macaristan → 1527-01-01 Cetin seçimi → avusturya).
+// ⚠️ BİLİNEN EKSİK (atlas geneli): 1809-1813 Fransız İlirya dönemi Lika/Kordun'da
+//   modellenmedi — komşu Karlovac/Knin/Sisak da modellemiyor; ayrı kalem.
+// ─────────────────────────────────────────────────────────────────────
+
+{ ad:"Ostrovica (Stara Ostrovica, Kulen Vakuf)", tur:"kale", lat:44.558, lon:16.081, g:0, k:3,
+  neden:"BIHAC-NOKTA-0069 (a): Una vadisinin Bihaç ile Knin arası noktasızdı; Knin (avusturya) peteği Kulen Vakuf yöresine kadar Avusturya boyuyordu. Ostrovica Stara Ostrovica kapetanlığının merkezi (Kulen Vakuf = Džisri-Kebir, XVIII. yy başında bu kalenin yanında kuruldu).",
+  kaynak:"Zavod za zaštitu kulturnog naslijeđa USK, 'Ostrovica – stari grad' (kulturnonaslijedjeusk.ba/bs/clanak/ostrovica-stari-grad/68, okundu): 'Prije dolaska pod osmansku vlast nalazio se u rukama Frankopana, Juraja Mikulčića i Ivana Keglevića. Pod osmansku vlast je došao 1523. godine' · 'Od 1523 do 1878 držali su Turci posadu u Ostrovici' · HE Kulen Vakuf (kapetanlık merkezi 1791–1827 sonrası) · koordinat OSM way 360909768 (historic/castle).",
+  s:[{f:"1281-01-01",t:"1523-01-01",d:"macaristan",kaynak:"USK: Frankopan/Mikulčić/Keglević — Hırvat-Macar krallığı soyluları"},
+     {f:"1908-10-05",t:"1918-11-11",d:"avusturya"},
+     {f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"},
+     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1523-01-01",t:"1908-10-05",y:"kusatma",kesinlik:"yil",kaynak:"USK Ostrovica (1523, YIL) · 1908 günü Bosna kayıtlarının ortak günü"}],
+  isg:[{f:"1878-09-18",t:"1908-10-05",d:"avusturya",kaynak:"USK: Osmanlı garnizonu 1878'e dek (YIL) · gün komşudan: Bihaç (Bihać) · TDV bihac (18 Eylül 1878, aynı 1878 Una harekâtı)"}],
+  v:[] },
+
+{ ad:"Udbina", tur:"kale", lat:44.532, lon:15.767, g:0, k:3,
+  neden:"BIHAC-NOKTA-0069 (b): Lika/Krbava noktasızdı; 1689 sonrası Avusturya Askerî Sınırı olan ova Bihaç peteğine düşüp Osmanlı boyanıyordu.",
+  kaynak:"HE Udbina (enciklopedija.hr/clanak/udbina, okundu): 'Posljednju pobjedu nad osmanskom vojskom pod tim gradom Karlović je izvojevao u travnju 1527., a već potkraj svibnja grad je s ostalim krbavskim kaštelima Mrsinjom i Komićem postao plijenom bosanskoga paše' · 'Grad su 1689. oslobodile hrvatske krajiške postrojbe pod zapovjedništvom karlovačkoga generala I. J. Herbersteina' · TDV kirka (Lika, 1527'den Kırka/Obrovac sancağında) · koordinat OSM relation 15834963.",
+  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan"},
+     {f:"1527-01-01",t:"1527-05-01",d:"avusturya",kaynak:"Cetin seçimi 1 Ocak 1527 (olaylar_p0050) · HE: Nisan 1527'de hâlâ Karlović'in"},
+     {f:"1689-01-01",t:"1918-11-11",d:"avusturya",kaynak:"HE Udbina (1689, YIL) · Svištov'a (1791) dek sınır kalesi"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1527-05-01",t:"1689-01-01",y:"kusatma",kesinlik:"ay",kaynak:"HE Udbina: 'potkraj svibnja' 1527 (AY; gün yok) → 1689 (YIL)"}],
+  v:[] },
+
+{ ad:"Gospić", tur:"kale", lat:44.546, lon:15.375, g:0, k:3,
+  neden:"BIHAC-NOKTA-0069 (b): Lika'nın batı yarısı. Osmanlı döneminde Senkovići ağalarının küçük kalesi; 1733'ten Lika alayı karargâhı.",
+  kaynak:"HE Gospić (enciklopedija.hr/clanak/gospic, okundu): 'God. 1527. to su područje dobili age Senkovići, koji su izgradili manju utvrdu' · 'Gospić je do 1689. bio pod osmanskom vlašću' · koordinat OSM relation 15770095.",
+  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan"},
+     {f:"1689-01-01",t:"1918-11-11",d:"avusturya",kaynak:"HE Gospić (1689, YIL)"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1527-01-01",t:"1689-01-01",kesinlik:"yil",kaynak:"HE Gospić: 1527 (YIL) → 1689 (YIL)"}],
+  v:[] },
+
+{ ad:"Cetin (Cetingrad)", tur:"kale", lat:45.138, lon:15.732, g:0, k:3,
+  neden:"BIHAC-NOKTA-0069 (c): TDV zistovi-antlasmasi'nın 'Bosna'nın Unna suyu arkasında yer alan Hırvatlık arazisi' — Ziştovi'nin 4. maddesiyle Habsburg'da kalan iki kaleden biri; noktasızdı, Bihaç peteğinde Osmanlı kalıyordu.",
+  kaynak:"HE Cetingrad (enciklopedija.hr/clanak/cetingrad, okundu): 'pod njihovom vlašću bio je 1636–38. te od 1670. kada ponovno postaje osmanska utvrda' · 'Habsburška vojska zauzima ga 1790., a Osmanlije ga u prepadima nakratko zauzimaju 1809. i 1813.' · Elma Korić, 'Bosnian Borderland during the Dubica War 1788-1791', Prilozi za orijentalnu filologiju 65 (2016), pof.ois.unsa.ba, PDF okundu — n.102 (Bašeskija: 'U ovoj godini (1790) su Austrijanci zauzeli tvrđavu Cetin') ve n.118: 'prema članu 4. Mirovnog ugovora, tvrđave Cetin i Drežnik ostale su pod habsburškom upravom' · TDV zistovi-antlasmasi · koordinat OSM way 1228318623 (Utvrda Cetin).",
+  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"HE: XIV. yy'dan Frankapan mülkü"},
+     {f:"1527-01-01",t:"1636-01-01",d:"avusturya",kaynak:"Cetin Meclisi 1 Ocak 1527 (HE Cetingrad · olaylar_p0050)"},
+     {f:"1638-01-01",t:"1670-01-01",d:"avusturya"},
+     {f:"1791-08-04",t:"1918-11-11",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (TDV zistovi-antlasmasi · Korić 2016 n.118, 4. madde). 1809 ve 1813 Osmanlı baskınları HE'de 'nakratko' — modellenmedi"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1636-01-01",t:"1638-01-01",kesinlik:"yil",kaynak:"HE Cetingrad 1636–38 (YIL)"},
+     {f:"1670-01-01",t:"1791-08-04",kesinlik:"yil",kaynak:"HE Cetingrad 1670 (YIL) → Ziştovi"}],
+  isg:[{f:"1790-01-01",t:"1791-08-04",d:"avusturya",kesinlik:"yil",kaynak:"HE Cetingrad 'zauzima ga 1790.' · Korić 2016 (Bašeskija) — YIL; Ziştovi'ye dek fiilî işgal"}],
+  v:[] },
+
+{ ad:"Drežnik (Drežnik Grad)", tur:"kale", lat:44.943, lon:15.669, g:0, k:3,
+  neden:"BIHAC-NOKTA-0069 (c): Ziştovi'nin 4. maddesiyle Habsburg'da kalan ikinci kale (Korić 2016); Bihaç'ın 21 km batısı, noktasızdı.",
+  kaynak:"HE Drežnik Grad (enciklopedija.hr/clanak/dreznik-grad, okundu): 'do 1578., kada su ga privremeno zaposjeli Osmanlije. Pod osmansku su vlast grad Drežnik i cijelo područje istoimene županije konačno došli 1592. i ostali, uz kratak prekid 1683. i 1697–99., do 1788.' · Korić 2016 (Prilozi za orijentalnu filologiju 65, n.104 ve n.118) · ⚠️ KAYNAK ÇELİŞKİSİ: Korić, Muvekkit'e dayanarak Cetingrad VE Drežnik'in zaptını 1790 bağlamında anlatır; HE Drežnik 1788 der. HE'nin yere özgü maddesi esas alındı, çelişki tahtaya bildirildi · koordinat OSM way 122070312 (Stari grad Drežnik).",
+  s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan",kaynak:"HE: 1323-1578 Frankapan mülkü"},
+     {f:"1527-01-01",t:"1592-01-01",d:"avusturya",kaynak:"Cetin Meclisi 1 Ocak 1527 · 1578 geçici Osmanlı işgali ('privremeno') modellenmedi"},
+     {f:"1791-08-04",t:"1918-11-11",d:"avusturya",kaynak:"Ziştovi 4 Ağustos 1791 (Korić 2016 n.118, 4. madde)"},
+     {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+  d:[{f:"1592-01-01",t:"1791-08-04",kesinlik:"yil",kaynak:"HE Drežnik Grad 1592 (YIL). 1683 ('kratak prekid') ve 1697–99 Habsburg aralıkları gün/ay yok — modellenmedi, rapor §5"}],
+  isg:[{f:"1788-01-01",t:"1791-08-04",d:"avusturya",kesinlik:"yil",kaynak:"HE Drežnik Grad 'do 1788.' (YIL) · Korić 2016 1790 der — çelişki"}],
+  v:[] }
 
 ];
