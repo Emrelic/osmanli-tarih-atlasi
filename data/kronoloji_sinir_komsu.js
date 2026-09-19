@@ -112,11 +112,11 @@ window.KRONOLOJI_SINIR_KOMSU = [
 // kutuları; hukukî değişiklik yine de madde alır. Rus tarihleri IBS'te tek yazıldığında
 // Jülyen olabilir (D110) — metinde belirtildi.
 
-{ t:"1813-01-01", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g5-rus-ir-DEGISTI-gulistan",
+{ t:"1813-10-24", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g5-rus-ir-DEGISTI-gulistan",
   b:"Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'ya bırakıldı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","kacar","rusya"],
-  d:"1804–1813 Rus-İran savaşının sonunda imzalanan Gülistan Antlaşması (md. II) ile İran Gence, Şeki, Şirvan, Bakü, Karabağ, Derbend, Kuba ve Talış hanlıklarını Rusya'ya bıraktı (TDV azerbaycan ve feth-ali-sah birlikte). Revan ve Nahçıvan hanlıkları İran'da kaldı. Tarih yalnız YIL düzeyindedir: IBS 25 imzayı 12 Ekim 1813 (onay 15 Eylül 1814, Tiflis), TDV 24 Kasım 1813 veriyor. Fark çözülmedi; 12 Ekim Jülyen takvimine göre olabilir. Hattın koordinatı elde yok.",
-  kaynak:"IBS No. 25 Iran–U.S.S.R. s.4, 11 (BFSP 5:1109) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan ve iran (1813)" },
+  d:"1804–1813 Rus-İran savaşının sonunda imzalanan Gülistan Antlaşması (md. II) ile İran Gence, Şeki, Şirvan, Bakü, Karabağ, Derbend, Kuba ve Talış hanlıklarını Rusya'ya bıraktı (TDV azerbaycan ve feth-ali-sah birlikte). Revan ve Nahçıvan hanlıkları İran'da kaldı. İmza günü 24 Ekim 1813'tür: Encyclopaedia Iranica 29 Şevval 1228 / 24 Ekim 1813 veriyor ve IBS 25'in 12 Ekim'ini (Hurewitz) ayrıca anıyor — 12 Ekim Jülyen karşılığıdır (onay 15 Eylül 1814, Tiflis). TDV feth-ali-sah 24 Kasım 1813 diyor; bu fark çözülmedi. Hattın koordinatı elde yok.",
+  kaynak:"Encyclopaedia Iranica 'GOLESTĀN TREATY' (E. L. Daniel): 'concluded on 29 Šawwāl 1228/24 October 1813 (12 October according to Hurewitz, I, p. 197; 21 October in Pakravan, p. 156)' · IBS No. 25 Iran–U.S.S.R. s.4, 11 (BFSP 5:1109) · TDV feth-ali-sah ('24 Kasım 1813') · TDV azerbaycan ve iran (1813)" },
 
 { t:"1828-02-22", devlet:"kacar", devletler:["kacar","rusya"], sinir_id:"g4-rus-ir-DEGISTI-aras-talis",
   b:"Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",

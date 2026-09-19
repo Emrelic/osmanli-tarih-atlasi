@@ -1182,9 +1182,9 @@ window.DEVLETLER = [
 // katmanını (Sâdî hanedanı — `fas` künyesinin kendi ilk döneminde zaten
 // anlatılan hanedan, ama harita kimliği AYRI) temsil ediyor.
 { id:"sadi", ad:"Sâdî Hanedanı (Fas)", tur:"hanedanlik", bolge:"kuzey-afrika",
-  f:"1549-01-01", t:"1659-01-01", baskent:"Fas / Marakeş",
+  f:"1511-01-01", t:"1659-01-01", baskent:"Fas / Marakeş",
   ozet:"Sûs bölgesinde cihad emirliğiyle başlayıp (1511) Vattâsîleri yenerek Fas'a hâkim olan (1549), Ahmed el-Mansûr döneminde Tondibi zaferiyle Songhay'ı yıkan şerif hanedanı; iç taht kavgalarıyla 1659'da sona erdi, yerini Alevî (Filalî) hanedanı aldı (bkz. [[fas]] — aynı ülke kimliğinin devamı). HANEDAN ÖMRÜ kimliğidir; `fas` künyesi 1549'dan 1923'e ÜLKE SÜREKLİLİĞİ olarak aynı toprağı kapsıyor, bu ikisi ÇELİŞMEZ — `fas` şemsiye kimlik, `sadi` onun ilk 110 yılının hanedan katmanıdır. ⚠️ `fas`ın kendi kronolojisi Alevî geçişini \"1666\" diye veriyor, TDV `sadiler` maddesi \"1069/1659\" diyor — bu 7 yıllık fark ayrıca not düşülüyor, `fas`a dokunulmadı.",
-  kaynak:"sadiler",
+  kaynak:"sadiler — f: TDV başlık «Fas’ta hüküm süren bir İslâm hânedanı (1511-1659)», gövde «Sûs bölgesinin cihad emîri olarak biat aldı (916/1511)» · «1541’de Agādîr’i ele geçirdi» — YIL. Eski f 1549 = Fas şehrine giriş, hanedanın doğumu değil (§3.5 sınıf ②: aynı polity sürüyor → künye genişletildi) · KUNYE-DORT 19 Eyl 2026",
   kronoloji:[
     { t:"1511-01-01", tur:"kurulus", b:"Muhammed, elli kadar kabile reisinden Sûs bölgesinin cihad emîri olarak biat aldı (916)" },
     { t:"1549-01-01", tur:"toprak-kazanc", b:"Fas şehrine girip Vattâsî hâkimiyetine son verdi (956)" },
@@ -1929,11 +1929,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"mutahharten", ad:"Erzincan-Kemah Beyliği (Mutahharten)", tur:"beylik", bolge:"anadolu",
-  f:"1379-01-01", t:"1410-01-01", baskent:"Erzincan", harita:"mutahharten",
+  f:"1378-01-01", t:"1410-01-01", baskent:"Erzincan", harita:"mutahharten",
   ozet:"Emîr Mutahharten'in Erzincan-Kemah'ta kurduğu küçük uç beyliği (hanedan ömrü, iki dönem); 1401'de Yıldırım Bayezid'e kaybetti, 1402'de Timur'un restorasyonuyla geri aldı, 1410'da öldü — künye dış zarfı verir, arada ~17 aylık Osmanlı kesintisi vardır. TDV'de ayrı maddesi yoktur; tarihler standart akademik kaynaklara göredir.",
-  kaynak:"kemah",
+  kaynak:"kemah · f: TDV erzincan «Pîr Hüseyin Bey’in vefatıyla (1378) Eretna emîrlerinden Mutahharten’in Erzincan emîri olması» + TDV akkoyunlular «Onun da ölümü üzerine (1378), Erzincan ve Bayburt … Mutahharten’in eline geçti» — YIL; eski 1379 = Eretnaoğulları’nın Erzincan kuşatması (§3.5 sınıf ②: aynı polity → künye genişletildi) · t: TDV erzincan «Mutahharten’den sonra Erzincan 1410 yılında Karakoyunlu hâkimiyetine girdi» · KUNYE-DORT 19 Eyl 2026",
   kronoloji:[
-    { t:"1379-01-01", tur:"kurulus", b:"Mutahharten, Erzincan-Kemah beyliğini kurdu" },
+    { t:"1378-01-01", tur:"kurulus", b:"Pîr Hüseyin Bey’in ölümüyle Eretna emîrlerinden Mutahharten Erzincan ve Bayburt’un hâkimi oldu", kaynak:"TDV erzincan · TDV akkoyunlular (1378)" },
     { t:"1401-01-01", tur:"antlasma", b:"Timur'a itaat ederek şehrini tahripten korudu" },
     { t:"1403-01-01", tur:"son", b:"Mutahharten'in ölümüyle beylik Akkoyunlu nüfuzuna girdi" }
   ]
@@ -2956,7 +2956,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1635-01-01", tur:"kurulus", b:"Abdülkerim Vaday sultanlığını kurdu" },
     { t:"1790-01-01", tur:"toprak-kazanc", b:"Uzun süre Darfur'a bağlı olan Vaday Sultanlığı 1790'larda bağımsızlaştı, Bornu aleyhine hızlı toprak genişlemesine girdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — WebSearch üzerinden alıntı, sayfa bizzat ikinci kez açılmadı" },
-    { t:"1909-01-01", tur:"isgal", b:"Fransız kuvvetleri 1909'da başkent Abéché'yi ele geçirdi; sultan Dud Murra 1911'de teslim oldu, sultanlık fiilen sona erdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — aynı kaynak" },
+    { t:"1909-06-02", tur:"isgal", b:"Fransız kuvvetleri 1909'da başkent Abéché'yi ele geçirdi; sultan Dud Murra 1911'de teslim oldu, sultanlık fiilen sona erdi.", kaynak:"GÜN: TDV veday — «Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler» (KUNYE-DORT 19 Eyl 2026) · Encyclopaedia Britannica 'Wadai' — aynı kaynak" },
     { t:"1912-01-01", tur:"son", b:"Fransız fethi tamamlandı" }
   ]
 },
@@ -7394,13 +7394,13 @@ window.DEVLETLER = [
 // Gao'nun boşluğu `kasitli_bosluk` + `veri-yok` ile kapanacak.
 // ===================================================================
 { id:"massina", ad:"Masina Halifeliği (Hamdullahi)", tur:"devlet", bolge:"bati-afrika",
-  f:"1818-01-01", t:"1862-01-01", baskent:"Hamdullahi",
+  f:"1818-01-01", t:"1862-05-16", baskent:"Hamdullahi",
   ozet:"Nijer İç Deltası'nda Seku Amadu (Ahmedu Lobbo) tarafından kurulan Fulani halifeliği; Cenne ve Tinbuktu'yu hâkimiyeti altına aldı. Umar Taal'ın birlikleri yedi günlük savaşın ardından başkent Hamdallahi'ye girince sona erdi. ⚠️ İki uç da YIL BEYANIDIR (gün kaynakta yok); ama kaynak devleti 'kırk dört yıllık' diye niteliyor ve 1818+44=1862 — yani iki tarih birbirini KENDİ İÇİNDE doğruluyor.",
   kaynak:"Cambridge History of Africa / Journal of African History (hakemli). Birebir: '1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU'; 'halifelik Cenne ve Tinbuktu'nun eski şehirlerini hâkimiyeti altına aldı, başkenti HAMDULLAHİ'; '1862'de Umar Taal'ın birlikleri yedi günlük bir savaşın ardından başkent Hamdallahi'ye girdi'. İKİNCİ KAYNAK bağımsız doğruluyor — TDV `mali`: 'Massina Devleti: Ahmedu Lobbo tarafından kurulmuş, sınırları Cenne'den Tinbuktu'ya uzanıyordu'; TDV `cenne` 1830 cami inşasını Ahmedu Lobbo'ya bağlıyor.",
   kronoloji:[
           { t:"1818-01-01", tur:"kurulus", b:"Fulani âlimi Seku Amadu ve taraftarları Nijer içdeltasında bir din devleti kurup Hamdullahi'yi başşehir yaptı", kaynak:"Künyenin kendi `kaynak` alanı Cambridge History of Africa / Journal of African History'yi (hakemli) birebir alıntılıyor: «1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU». History in Africa (Cambridge, hakemli) bağımsız olarak aynı yılı veriyor: «In 1818, a Fulani Muslim scholar of humble origins named Seeku Amadu and his followers created the laamu diina (theocratic state), a caliphate centered around a new capital city they erected, named Ḥamdullāhi»." },
-          { t:"1862-01-01", tur:"savas", b:"El-Hâc Ömer Tal'in kuvvetleri başşehir Hamdullahi'yi ele geçirdi ve Emîr Ahmed muharebede öldü", kaynak:"TDV `el-hac-omer` (200, gövde okundu) — «Hamdallahi: 1862 — Masina başşehri ele geçirildi; Emîr Ahmed muharebede öldü»; History in Africa (Cambridge) bağımsız olarak «In 1862, Umar Taal's troops entered Hamdallahi … following a seven-day battle» diyor." },
-          { t:"1862-01-01", tur:"son", b:"Başşehrin düşmesiyle Masina Halifeliği sona erdi ve toprakları Umarî devletine katıldı", kaynak:"History in Africa (Cambridge, hakemli) — «The caliphate was short-lived: it fell in 1862, invaded by troops led by al-Ḥājj ʿUmar Taal of Fuuta Tooro»; TDV `el-hac-omer` aynı yılı veriyor." }
+          { t:"1862-05-16", tur:"savas", b:"El-Hâc Ömer Tal'in kuvvetleri başşehir Hamdullahi'yi ele geçirdi ve Emîr Ahmed muharebede öldü", kaynak:"GÜN: TDV `mali` — «Mâsînâ’nın merkezi Hamdallahi 16 Mayıs 1862 tarihinde el-Hâc Ömer’in eline geçti» · «Mâsînâ da 16 Mayıs 1862 tarihinde el-Hâc Ömer ile yapılan savaşla tarihe karıştı» (KUNYE-DORT 19 Eyl 2026). TDV `el-hac-omer` (200, gövde okundu) — «Hamdallahi: 1862 — Masina başşehri ele geçirildi; Emîr Ahmed muharebede öldü»; History in Africa (Cambridge) bağımsız olarak «In 1862, Umar Taal's troops entered Hamdallahi … following a seven-day battle» diyor." },
+          { t:"1862-05-16", tur:"son", b:"Başşehrin düşmesiyle Masina Halifeliği sona erdi ve toprakları Umarî devletine katıldı", kaynak:"GÜN: TDV `mali` «16 Mayıs 1862 tarihinde … tarihe karıştı». History in Africa (Cambridge, hakemli) — «The caliphate was short-lived: it fell in 1862, invaded by troops led by al-Ḥājj ʿUmar Taal of Fuuta Tooro»; TDV `el-hac-omer` aynı yılı veriyor." }
         ,
     { t:"1845-01-01", tur:"hukumdar", b:"Kurucu Sekû Ahmedû'nun oğlu Ahmedû II (Amadu Seku), Masina Halifeliği'nin ikinci Almamisi olarak tahta çıktı", kaynak:"Cambridge History of Africa / Journal of African History (hakemli, künyenin mevcut maddelerinde zaten kullanılan aynı kaynak ailesi) + çevrimiçi ikincil kaynaklarla ('Amadu II of Masina') doğrulandı." }
   ]
