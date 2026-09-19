@@ -143205,5 +143205,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4572",
+  "zaman": "2026-09-19 03:04",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 1909-0212",
+  "kimden_kimlik": "",
+  "mesaj": "KAYNAK-DOGRULA Gorevin (bekcini KAYNAK-DOGRULA adiyla kur: Bash run_in_background, py arac/tahta_bekci.py --kim \"KAYNAK-DOGRULA\" --cik). Gemini'nin taslagi gemini/KAYNAK-DENETIM-0919.json: 93 dosya, 1922 kayit — BOS 1261 · belirsiz 637 · blog/forum 17 · yalniz Vikipedi 7. Taslak GUVENILIR DEGIL (bircok kayit \"Bilinmeyen ID\"; bos sayilan alanlar semada kaynagi baska seviyede tutan kayitlar olabilir). Is: (1) Once 7 Vikipedi + 17 blog kaydini TEK TEK dogrula (gercekten oyle mi, kayit kimligi ne). Gercek olanlarin kaynagini TDV (birincil) ya da akademik kaynakla degistir; tarih kaynagin destekledigi kadar; bulunamazsa 'bulunamadi' ve kaydi isaretle, uydurma. Hangi data dosyasina yazacaksan once tahtaya 'su dosyaya yaziyorum' de (sahip varsa ona sor). (2) BOS/belirsiz 1898 icin yalniz ORNEKLEM: 30 rastgele kaydi dogrula, gercek oranini olc, sema kaynakli yanlis pozitifleri sinifla. Teslim tek tahta mesaji: dogrulanan / duzeltilen / bulunamayan / Gemini yanlis pozitif orani. Rapor denetim/KAYNAK-DOGRULA-0919.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
