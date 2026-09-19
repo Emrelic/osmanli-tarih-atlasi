@@ -123,20 +123,38 @@ def renk_kovalari(boyalar, diz, kul):
         (ihlal if kul.get(kid) else olu).append(kid)
     return ihlal, olu
 
-def renksiz_kovalari(boyalar, kunye_ids, harita_map, kul):
-    """RENGİ OLMAYAN kimlikleri İKİ KOVAYA ayırır — `renk_kovalari()`in AYNASI.
+def renksiz_kovalari(boyalar, kunye_ids, harita_map, kul, kul_v=None):
+    """RENGİ OLMAYAN kimlikleri ÜÇ KOVAYA ayırır — `renk_kovalari()`in AYNASI.
 
         boyalar     : `renkler.py` BOYALAR anahtarları
         kunye_ids   : künye `id` kümesi
         harita_map  : {künye id: `harita:` değeri}  — boya anahtarı budur
-        kul         : {kimlik: pencere} — veride kullanım sayacı
+        kul         : {kimlik: pencere} — `s:`/`isg:` kullanım sayacı
+        kul_v       : {kimlik: dönem} — `v:[{kid:…}]` kullanım sayacı
 
-    dönüş: (delik, sessiz)
-        delik   veride KULLANILIYOR · boya anahtarı BOYALAR'da YOK
+    dönüş: (delik, sessiz, tabi)
+        delik   `s:`/`isg:`te KULLANILIYOR · boya anahtarı BOYALAR'da YOK
                 → `§8`: BOYANMIYOR = HARİTA DELİĞİ. Toprak var, renk yok.
-        sessiz  künye var · veride kullanılmıyor · rengi yok
+        sessiz  künye var · veride HİÇ kullanılmıyor · rengi yok
                 → bugün zarar YOK; o kimliği kullanan TEK BİR nokta
                   yazıldığı an sessizce DELİĞE döner
+        tabi    künye var · YALNIZ `v:kid` ile bağlı · rengi yok
+                → toprağı Osmanlı TÂBİ tonuyla çiziliyor; delik DEĞİL
+                  (`app.js` himaye dolgusu BOYALAR[kid] yoksa #b2384a'ya
+                  düşer), sessiz borç da DEĞİL (künye veride gövdeli).
+
+    🔴 ÜÇÜNCÜ KOVA — 19 Eylül 2026 (SESSIZ-BORC-2, M-4619/M-4624).
+      Sayaç `v:` alanını hiç okumuyordu; 2 Eylül ölçümünde `v:` kimlik
+      TAŞIMIYORDU (aşağıda `olc()` yorumu), sonradan `kid:` alanı geldi
+      (19 Eylül: 484 `v:` dönemi · 328'inde `kid` · 17 kimlik, 17'si de
+      künyede). ⇒ `v:kid`li 6 künye "veride yok" diye SESSİZ BORÇ
+      sayılıyordu (cezayir-ocagi 41 · trablusgarp-ocagi 39 · sarki-rumeli 3
+      · cebel-i-lubnan · harfusogullari · lubnan-emirligi 1'er): 58 → 52.
+      ⚠️ `kul` DEĞİŞMEDİ — `v:kid` ayrı parametre. `kul`ü genişletmek
+      `bosluk_kovalari`/`renk_kovalari`nı ve yayın kapısını da
+      (`denetle_yayin` → `kimlik_evreni()`) değiştirirdi; görev yalnız bu
+      kovaydı. Öncelik: `s:`/`isg:` kullanımı VARSA `v:kid` onu delikten
+      KURTARMAZ (o toprak kendi rengiyle çiziliyor, rengi yok = delik).
 
     🔴 NİÇİN VAR — 3 Eylül 2026. Tablonun iki renk satırı da AYNI YÖNDEN
       bakıyordu (*rengi var, künyesi yok*). Ters yön hiç sorulmuyordu ve
@@ -149,14 +167,32 @@ def renksiz_kovalari(boyalar, kunye_ids, harita_map, kul):
       bırakılan dilim BOYANIR.
     🔴 SAF FONKSİYON — dosya okumaz; C13 sahte evrenle çağırabilsin diye.
     """
-    delik, sessiz = [], []
+    kul_v = kul_v or {}
+    delik, sessiz, tabi = [], [], []
     for kid in sorted(set(kunye_ids) | set(kul)):
         if kid == "__BOSLUK__":
             continue
         if (harita_map.get(kid) or kid) in boyalar:
             continue
-        (delik if kul.get(kid) else sessiz).append(kid)
-    return delik, sessiz
+        if kul.get(kid):
+            delik.append(kid)
+        elif kul_v.get(kid):
+            tabi.append(kid)
+        else:
+            sessiz.append(kid)
+    return delik, sessiz, tabi
+
+
+def v_kid_sayaci(Y):
+    """{kimlik: dönem} — `v:[{kid:…}]` kullanımı. `girdi.yukle()` çıktısından
+    (ayrıştırılmış veri; regex değil — `kaynak:` metnindeki `]` diziyi
+    erken kesemesin)."""
+    c = collections.Counter()
+    for y in Y:
+        for p in (y.get("v") or []):
+            if isinstance(p, dict) and p.get("kid"):
+                c[p["kid"]] += 1
+    return c
 
 
 def _sina():
@@ -187,11 +223,12 @@ def _sina():
     dal("4b TAKMA AD (diz'den cikarilinca SAHTE ALARM)", {"a", "hicaz"},
         {"a"}, {"hicaz": 5}, 1, 0)
     print("C13 SINAMASI — renksiz_kovalari()")
-    def rdal(ad, boyalar, kids, hmap, kul, bek_d, bek_s):
-        d, s = renksiz_kovalari(boyalar, kids, hmap, kul)
-        ok = (len(d) == bek_d and len(s) == bek_s)
-        print("   %s %-34s delik %d/%d · sessiz %d/%d"
-              % ("🟢" if ok else "🔴", ad, len(d), bek_d, len(s), bek_s))
+    def rdal(ad, boyalar, kids, hmap, kul, bek_d, bek_s, kul_v=None, bek_t=0):
+        d, s, tb = renksiz_kovalari(boyalar, kids, hmap, kul, kul_v)
+        ok = (len(d) == bek_d and len(s) == bek_s and len(tb) == bek_t)
+        print("   %s %-34s delik %d/%d · sessiz %d/%d · tabi %d/%d"
+              % ("🟢" if ok else "🔴", ad, len(d), bek_d, len(s), bek_s,
+                 len(tb), bek_t))
         return ok
     _t = []
     # ① GEÇME — her kimliğin rengi var
@@ -211,6 +248,19 @@ def _sina():
                    {"__BOSLUK__": 2}, 0, 0))
     # ⑥ künyesi olmayan ama veride kullanılan kimlik de DELİKTİR
     _t.append(rdal("kunyesiz + veride var", set(), set(), {}, {"x": 4}, 1, 0))
+    # ⑦ ATEŞLEME · tabi — künye YALNIZ `v:kid` ile bağlı, rengi yok ⇒ ne
+    #    delik ne sessiz. `kul_v` verilmezse AYNI evren ③ gibi sessiz sayar
+    #    (⑦b) — düzeltmenin tek farkı budur, iddia değil ölçüm.
+    _t.append(rdal("v:kid -> tabi-cizili", {"a"}, {"a", "b"}, {}, {"a": 1},
+                   0, 0, {"b": 3}, 1))
+    _t.append(rdal("v:kid, kul_v YOK -> eski sessiz", {"a"}, {"a", "b"}, {},
+                   {"a": 1}, 0, 1))
+    # ⑧ ÖNCELİK — `s:`te de kullanılan renksiz kimlik v:kid'e rağmen DELİK
+    _t.append(rdal("s: + v:kid renksiz -> delik", set(), {"b"}, {},
+                   {"b": 2}, 1, 0, {"b": 3}, 0))
+    # ⑨ v:kid'li ama RENKLİ künye hiçbir kovaya girmez
+    _t.append(rdal("v:kid renkli -> kovasiz", {"b"}, {"b"}, {}, {},
+                   0, 0, {"b": 3}, 0))
     print("   %s renksiz_kovalari: %d/%d dal"
           % ("🟢" if all(_t) else "🔴", sum(_t), len(_t)))
 
@@ -237,7 +287,9 @@ def _sina():
     #    etiketlenip GÖRÜNMEZ olurdu; tanınan KÜME kullanmanın sebebi bu.
     bdal("8 TIPO (__BOSLK__ -> KIRMIZI kalir)", {"__BOSLK__": 1}, set(), 1, 0)
     print("SINAMA: %d/%d dal beklendigi gibi" % (gecti, t))
-    return 0 if gecti == t else 1
+    # 🔴 19 Eylül 2026: `renksiz_kovalari` dalları (`_t`) bu toplama hiç
+    #   girmiyordu — hepsi 🔴 olsa da çıkış kodu 0 dönüyordu. Artık girer.
+    return 0 if (gecti == t and all(_t)) else 1
 
 
 def olc():
@@ -335,8 +387,9 @@ def olc():
     #    `kimlik_evreni()`nin `diz` kümesi ikisini BİRLEŞTİRİYOR, yani
     #    eşleşmeyi taşımıyor. Kendi regex'imi yazmıyorum (`§11`).
     _kn = {k["id"]: (k.get("harita") or "") for k in girdi.oku_devletler()}
-    o["renksiz_delik"], o["renksiz_sessiz"] = renksiz_kovalari(
-        boyalar, set(_kn), _kn, kul)
+    # 🆕 19 Eylül 2026: `v:kid` ayrı sayılır, üçüncü kova (`renksiz_kovalari`).
+    o["renksiz_delik"], o["renksiz_sessiz"], o["renksiz_tabi"] = \
+        renksiz_kovalari(boyalar, set(_kn), _kn, kul, v_kid_sayaci(Y))
     o["padisah"] = len(re.findall(r'\{\s*id:\s*"', _oku("data/padisahlar.js")))
     o["portre"] = len(glob.glob("assets/portreler/*.jpg"))
     o["kart"] = len(re.findall(r"\bovgu:", _oku("data/padisahlar.js") + _oku("data/kisiler.js")))
@@ -423,12 +476,15 @@ def tablo(o):
     # GÖVDESİ var, rengi YOK" der. İkisi ters yönlerdir ve tablo 3 Eylül
     # 2026'ya kadar YALNIZ birincisini soruyordu.
     s.append("| Renksiz künye — HARİTA DELİĞİ | %s **%d** kimlik veride "
-             "kullanılıyor ama BOYANMIYOR%s · *kapsam: künye `id` ∪ veride "
-             "kullanılan − BOYALAR(`harita:` varsa o) · `__BOSLUK__` muaf* |"
+             "kullanılıyor ama BOYANMIYOR%s%s · *kapsam: künye `id` ∪ veride "
+             "kullanılan (`s:`+`isg:`) − BOYALAR(`harita:` varsa o) · "
+             "`v:kid` ayrı kova · `__BOSLUK__` muaf* |"
              % ("🔴" if o["renksiz_delik"] else "✓",
                 len(o["renksiz_delik"]),
                 (" · 🟡 %d sessiz borç (künye var, veride yok)"
-                 % len(o["renksiz_sessiz"])) if o["renksiz_sessiz"] else ""))
+                 % len(o["renksiz_sessiz"])) if o["renksiz_sessiz"] else "",
+                (" · ⚪ %d tâbi-çizili (yalnız `v:kid`, delik değil)"
+                 % len(o["renksiz_tabi"])) if o["renksiz_tabi"] else ""))
     s.append("| Padişah · kartvizit | %d kayıt · %d portre · **%d** kartvizit dolu |"
              % (o["padisah"], o["portre"], o["kart"]))
     s.append("| Harita penceresi | `%s` |" % o["bolge"])

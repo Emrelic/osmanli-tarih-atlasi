@@ -604,39 +604,39 @@ window.YERLESIMLER_AFRIKA = [
 // Fransızlar 13 Mayıs 1839'da girdi; Fırat geçişi maddesine 22 gün.
 { ad:"Cicel", tur:"liman", lat:36.821, lon:5.766, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1839-05-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1839-05-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1839-05-13",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Kolo", tur:"liman", lat:37.000, lon:6.564, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Sikikde", tur:"liman", lat:36.876, lon:6.909, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Mîle", tur:"sehir", lat:36.450, lon:6.264, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1837-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1837-10-13",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Kalme (Guelma)", tur:"sehir", lat:36.462, lon:7.426, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1837-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1837-10-13",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Sûk Ahrâs", tur:"sehir", lat:36.286, lon:7.951, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Tebesse", tur:"sehir", lat:35.404, lon:8.124, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Batna", tur:"sehir", lat:35.556, lon:6.178, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Berc Bû Areric", tur:"sehir", lat:36.073, lon:4.761, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
 { ad:"Mesîle", tur:"sehir", lat:35.705, lon:4.542, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],

@@ -159,7 +159,7 @@ window.OLAYLAR_P0049 = [
 { t:"1921-06-01", k:"siyaset", etiket:["kurtulus","toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"İtalyanlar Antalya'yı boşaltmaya başladı",
   gun:"1 Haziran 1921",
-  ic_not_gun:"Gün TDV antalya. Atlasta İtalyan işgal dönemi olmadığı için harita kıpırdamaz — yerleşim tarafı B.",
+  ic_not_gun:"Gün TDV antalya. Yerleşim tarafı yazıldı: yerlesimler.js Antalya isg:italya {1919-04-29→1921-06-01} (TDV antalya, GEMINI-DOGRULA 0919) — harita bu gün kıpırdar; 2t isg havuzu bu maddeyi kapatır (KIRILMASIZ-9, 19 Eyl 2026).",
   yer:"Antalya", yer_id:"Antalya", kisiler:"",
   d:"TDV'nin Antalya maddesine göre 29 Nisan 1919'dan beri süren İtalyan işgali, İtalyanların 1 Haziran 1921'de şehri boşaltmaya başlamasıyla sona erdi. Antalya ve çevresi böylece Millî Mücadele'nin askerî sonucunu beklemeden işgalden kurtuldu.",
   kaynak:"antalya" }

@@ -360,7 +360,9 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
                     # ⇒ Tavani 114'ten sekiz yukari cekmek yerine kural
                     #   uygulandi: YENI PARTI kendi sayaciyla raporlanir.
                     # Kronoloji yazilinca satir SILINIR = kulliyata kabul.
-                    "yerlesimler_ek3.js",
+                    # ✅ 19 Eylul 2026 SILINDI (KIRILMASIZ-9, 1.MURAT M-4632):
+                    #   kronoloji olaylar_ek13.js A-3..A-10'da yazildi. Olculdu:
+                    #   2s acik 11->14 (tavan icinde), 2t Safi kapanir.
                     # 6 Agustos 2026: Mogolistan (_ek19) ve Gobi (_ek21).
                     # Olculdu -- her noktanin en yakin 3 komsusunun kovasi:
                     #   ek19  12 kuyruk / 6 cekirdek · ek21  18/18 kuyruk
@@ -1454,7 +1456,15 @@ def kapsam_disi(Y, acik):
     return ici, disi
 
 
-def kirilmasiz_madde(kir_dv, kir_s, O):
+def _isg_yeri_mi(o, adlar):
+    """isg kırılmasının yerleşimleri maddenin KENDİ yeri mi? (yer_id ya da adı)"""
+    if (o.get("yer_id") or "") in adlar:
+        return True
+    return _madde_yeri_aniyor((o.get("b") or "") + " " + (o.get("yer") or ""),
+                              adlar)
+
+
+def kirilmasiz_madde(kir_dv, kir_s, O, kir_isg=None):
     """Toprak/antlaşma maddesi var ama ±30 günde HİÇ kırılma yok.
 
     Değişmez 2 "kırılmanın maddesi var mı" diye sorar; bu onun aynası:
@@ -1465,15 +1475,26 @@ def kirilmasiz_madde(kir_dv, kir_s, O):
 
     Kırılma havuzuna `s:` de dahil — yabancılar arası devir de bir maddeye
     karşılık gelebilir (1797 Campo Formio gibi).
+
+    `isg:` de haritayı kıpırdatır (KIRILMASIZ-9, 19 Eylül 2026, 1.MURAT M-4632)
+    — AMA YALNIZ MADDENİN KENDİ YERİNDE: ölçüldü, yer şartı olmadan İsmâil
+    1789-10-11 maddesini 2 gün ötedeki Semendire/Belgrad Avusturya işgali
+    kapatıyordu (alakasız cephe). Yakınlık alaka değildir; isg kırılması
+    maddeyi ancak `yer_id`'si ya da başlık/yer metninde adı geçen yerleşimse
+    kapatır. d/v/s havuzu eskisi gibi yersiz kalır (davranışı değişmedi).
     """
     gunler = sorted([gun_no(d) for d in kir_dv] + [gun_no(d) for d in kir_s])
+    isg = [(gun_no(d), k["ad"]) for d, k in (kir_isg or {}).items()]
     yok = []
     for o in O:
         if not _toprak_iddiasi(o):
             continue
         g = gun_no(o["t"])
-        if not any(abs(x - g) <= 30 for x in gunler):
-            yok.append(o)
+        if any(abs(x - g) <= 30 for x in gunler):
+            continue
+        if any(abs(x - g) <= 30 and _isg_yeri_mi(o, adlar) for x, adlar in isg):
+            continue
+        yok.append(o)
     return yok
 
 
@@ -3589,7 +3610,8 @@ def main():
         print( "              iner, düşmüyorsa VERİ KRONOLOJİ'ye haber ver.")
 
     # ---- Değişmez 2'nin AYNADAKİ HÂLİ — kırılmasız madde
-    ksiz = kirilmasiz_madde(kir, kir_s, O)
+    kir_isg, _ = degismez2(Y_cekirdek, O, ("isg",))
+    ksiz = kirilmasiz_madde(kir, kir_s, O, kir_isg)
     durum2t = "✓" if len(ksiz) <= BEKLENEN_KIRILMASIZ else "✗"
     if len(ksiz) > BEKLENEN_KIRILMASIZ:
         ihlal = True

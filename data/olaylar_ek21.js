@@ -44,19 +44,9 @@ window.OLAYLAR_EK21 = [
     gun: "Mayıs 1811", ic_not_gun:"TDV yalnız ayı veriyor, gün kaynakta yok",
     kaynak: "silistre", duygu: ["⚔️"] },
 
-  { t: "1811-06-01",
-    b: "Kutuzov Rusçuk'u boşalttı — dokuz aylık tutuş bozgunla bitti",
-    k: "savas",
-    onem: 3,
-    dunya: 0,
-    kapsam: "ic",
-    etiket: ["savas", "toprak-kazanc", "konu-askeri"],
-    yer: "Rusçuk",
-    yer_id: "Rusçuk",
-    kisiler: "Mihail Kutuzov, Kaminski",
-    d:"Rusçuk, 1806-1812 savaşının Tuna cephesindeki en uzun direnişlerinden birini gösterdi: Count Kaminski kumandasındaki Rus orduları kanlı bir kuşatmanın ardından ancak 26 Eylül 1810'da, garnizonun ve sivillerin şehri güven içinde terketmesi karşılığında teslim alabildiler. Ama Rus tutuşu dokuz ay sürdü. 1811 Haziranında alınan ağır yenilgilerin ardından geri çekilmeye zorlandılar; ayrılmadan önce Başkumandan Kutuzov şehir etrafındaki istihkâmın ve ortaçağ kalesinin havaya uçurulmasını emretti. Çıkan yangında 1810'da şehirde bulunan otuz sekiz caminin on ikisi ve sekiz mescidden ikisi bütünüyle yıkıldı. TDV'nin kaydı: \\\"1811 Haziranında alınan ağır yenilgiler ve tersliklerden sonra Ruslar geri çekilmeye zorlandı. Ayrılmadan önce Başkumandan Kutuzov, şehir etrafındaki istihkâmın ve Ortaçağ dönemi kalesinin havaya uçurulmasını emretti.\\\" İstihkâm barış antlaşmasının ardından yeniden yapıldı. Aynı yılın Ekiminde Slobozia'da kuşatılan Tuna ordusunun âkıbeti, bu geri çekilişin ardından gelen kısa Osmanlı üstünlüğünün nasıl tersine döndüğünü gösterir.", ic_not_d:"⚠️ TDV yalnız ayı veriyor — kayıt ayın ilkine yazıldı (CLAUDE.md §8).",
-    gun: "Haziran 1811", ic_not_gun:"TDV yalnız ayı veriyor, gün kaynakta yok",
-    kaynak: "ruscuk", duygu: ["⚔️"] },
+  // 1811-06-01 "Kutuzov Rusçuk'u boşalttı" maddesi KALDIRILDI — içeriği olaylar_p0056.js
+  // 1811-07-04 Rusçuk maddesine BİRLEŞTİRİLDİ (TDV ay kodu muharebeden 33 gün ÖNCEYE düşüyordu).
+  // KIRILMASIZ-9, 19 Eylül 2026, 1.MURAT M-4632.
 
   // ── ④ DERBEND 1509 — bu madde de bir yamadan DOĞDU (Kafkas paketi) ──
   // Derbend'in `iran → safevi` geçişi veride 1509-05-17'ye yazılmıştı ve o gün

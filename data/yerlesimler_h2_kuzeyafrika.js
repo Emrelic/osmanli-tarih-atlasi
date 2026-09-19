@@ -256,13 +256,13 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
        {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
   { ad:"Aynı Beydâ", tur:"sehir", lat:35.796, lon:7.393, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
        {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
   // --- TUVÂT · GÛRÂRE · TÎDÎKELT · SÂVRE -------------------------------
   // 🔴 BU DÖRT VAHA KÜMESİ OSMANLI DEĞİL, FAS EGEMENLİĞİNDEYDİ ve bugün

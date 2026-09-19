@@ -261,7 +261,7 @@ window.YERLESIMLER_SEYREK = [
 // Zincir Foça'nın birebir aynısı — `isg:` 1878 Berlin işgali örtüsü dahil:
 // taban renk 1908 ilhakına kadar Osmanlı kalır (girdi.py isg: gerekçesi).
 { ad:"Trebinye", tur:"sehir", lat:42.711, lon:18.344, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1466-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1448-01-01",t:"1466-06-01",d:"hersek",kaynak:"TDV trebinye: 'yüzyılın ortalarında Dük/Hersek Stjepan Vukčić-Kosača, Bosna’dan bağımsız bir idare kurdu (Hersek kesimi) ve Trebinye’nin bulunduğu Župa buraya dahil edildi.' · '1466’da Trebinye hemen hemen bütün Hersek bölgesiyle birlikte Osmanlılar tarafından ele geçirildi.' · f: EB1911 'Bosnia and Herzegovina': Vukčić 'had united Tribunia [başkenti Trebinje] and Hlum into a single principality' · 'Duke of St Sava' unvanı 1448 — YIL"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1466-06-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
