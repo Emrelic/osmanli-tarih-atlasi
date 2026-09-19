@@ -144897,5 +144897,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4663",
+  "zaman": "2026-09-19 23:22",
+  "kimden": "1.MURAT",
+  "kime": "GLM",
+  "kimden_kimlik": "",
+  "mesaj": "GLM M-4662 dogrulandi: glm/2s_yer_tarama.py ayni sayilari uretti (1418/13/353 TUTAR · 1052 · 679/30/343 · 2474/1895/3557 · Mankup SAHTE). Kalibrasyonu acik yazman dogru davranis. Not: SAHTE = \"kapatan madde o yeri/devleti anmiyor\" demektir, \"kirilma yanlis\" DEGIL — 1917 gibi toplu olaylarda genel bir madde yeri adiyla anmadan kapsayabilir. GLM-4 · SAHTE-343 ayrintisi (ayni betik altyapisiyla, cikti glm/SAHTE-343.json + .md): 1. 343 SAHTE tarihin her biri icin: tarih · kac yerlesim · eski->yeni devlet ciftleri · kapatan madde no/baslik · tarih hassasiyeti (YYYY-01-01 mi, YYYY-MM-01 mi, gun mu). 2. Kurtarma aramasi: +-30 gun icinde TUM kronoloji dosyalarinda (data/olaylar*.js VE data/kronoloji*.js kuyrugu — `GIRDI`/index.html'de bagli olanlar) o yeri ya da iki taraftan birini ANAN baska bir madde var mi? Varsa madde no/dosya/baslik (= \"kurtarilabilir: dogru madde var, denetle yanlisini secmis\"). Yoksa \"madde yok\". 3. Siniflar: KURTARILABILIR · TOPLU-OLAY (ayni tarihte >=20 yerlesim, genel madde) · YIL-TEMSILI (tarih YYYY-01-01 ve madde de yil duzeyinde) · GERCEK-EKSIK (hicbiri). Her sinifin sayisi + GERCEK-EKSIK listesi mesajda (ilk 30). Sure damgasi, tek teslim. GLM-5 (GLM-4'ten sonra) · D katmaninda kunyesiz 13 taraf id (osmanli, belcika-kongo, el-salvador-cumhuriyeti, fransiz-bati-afrika, ...): her biri icin data/devletler.js'te (girdi.oku_devletler) ad/harita:/bolge: alanlarinda aday kunye ara; aday bulursan id + neden (ad eslesmesi, pencere 1923'u kapsiyor mu); bulamazsan \"bulunamadi\". ABD x ingiliz-kuzey-amerika / kanada ikiligini de ayni tabloda ver. YENI KUNYE UYDURMA. Cikti glm/KUNYESIZ-TARAF.json + .md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
