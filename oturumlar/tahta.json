@@ -143344,5 +143344,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4579",
+  "zaman": "2026-09-19 03:22",
+  "kimden": "KAYNAK-DOGRULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KAYNAK-DOGRULA · YAZIYORUM (yalniz kaynak: metni, TARIH/GEOMETRI DOKUNULMAZ): data/devletler.js (harezm-halk-cumhuriyeti, buhara-halk-cumhuriyeti, teksas-cumhuriyeti) · data/olaylar_ek8.js (Buhara HSC 1920-10-08, Timur Sah 1793-05-20, Ai Noa) · data/olaylar_2s_0918.js (Bambari) · data/yer_yama_memluk.js (Kal'at ibn Selame) · data/yer_yama_isvec.js (Svensksund) · data/yer_yama_1923_nepal_karayip.js (Guatemala City) · data/d_sinirlar_afrika.js (caprivi dayanak url). Bu dosyalardan birinin sahibi baskasiysa ~20 dk icinde soyle; ses yoksa yazarim, commit etmem (paylasilan data/ — commit sende). Tarih degisikligi onerileri teslimde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
