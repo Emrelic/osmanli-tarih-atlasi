@@ -16,7 +16,13 @@ Kullanım:
 import io, json, os, sys, time, hashlib, argparse
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ANA = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
+# 🔴 KÖK = BU ALETİN DURDUĞU WORKTREE (19 Eylül 2026). Önceden ANA klasördü; bir
+# sınav koşusu başka bir oturum ana klasördeki arac/girdi.py'yi değiştirince
+# motorun kod nöbetçisi tarafından öldürüldü — ve ana klasörün CANLI verisi
+# koşular arasında değişebildiği için soğuk/sıcak önbellek kıyası da GEÇERSİZ
+# olabilirdi. Donmuş worktree: veri, girdi.py, renkler.py sabit. (Depo dışı DEM
+# worktree'ye elle kopyalanır: veri-kaynak/yukseklik/*.tif, gitignore'da.)
+ANA = KOK
 ANA_MOTOR = os.path.join(ANA, "arac", "uret_petek.py")
 
 
@@ -55,6 +61,55 @@ def main(a):
     src = src.replace("os.path.getsize(_byol)", "0").replace("os.path.getsize(_mkyol)", "0")
     k = src.index('asama("Uzak coğrafya seyreltme (yabancı havuz)")\n')
     src = src[:k] + "asama_ozet()\n"
+    # tuz özeti SENARYO ve KESME yamalarından ÖNCE: "sıcak" koşu soğuğun
+    # önbelleğini görebilsin (senaryo GİRDİYİ değiştirir, kodu değil — girdi
+    # değişikliği anahtarın kendisinde yakalanmalı; sınavın sorusu tam bu).
+    _tuz_src = hashlib.sha256(src.encode("utf-8")).hexdigest()[:16]
+    if a.degistir:
+        # SENARYO (M-4537 kabulü: "tek nokta ekle / sahip değiştir"): YERLER
+        # okunduktan HEMEN sonra JSON'daki işlemler uygulanır.
+        #   {"kopya": "<ad>", "ad": "...", "dlon": .., "dlat": .., "konum": 0}
+        #       → kaydın kopyası kaydırılıp `konum` indeksine eklenir (0 = bütün
+        #         indeksler kayar — frozenset sırası sınanır)
+        #   {"sahip": "<ad>", "d": "<devlet>"} → o kaydın bütün s: dönemleri
+        degis("YERLER = girdi.yukle()\n", "YERLER = girdi.yukle()\n" + (
+            "import json as _js_s, copy as _cp_s\n"
+            f"for _op in _js_s.load(open({os.path.abspath(a.degistir)!r}, encoding='utf-8')):\n"
+            "    if 'kopya' in _op:\n"
+            "        _yn = _cp_s.deepcopy(next(y for y in YERLER if y['ad'] == _op['kopya']))\n"
+            "        _yn['ad'] = _op.get('ad', 'SINAV'); _yn['lon'] += _op.get('dlon', 0.0); _yn['lat'] += _op.get('dlat', 0.0)\n"
+            "        if 'id' in _yn: _yn['id'] = str(_yn['id']) + '-sinav'\n"
+            "        YERLER.insert(_op.get('konum', len(YERLER)), _yn)\n"
+            "    if 'sahip' in _op:\n"
+            "        for _y in YERLER:\n"
+            "            if _y['ad'] == _op['sahip']:\n"
+            "                for _sp in _y['s']: _sp['d'] = _op['d']\n"
+            "print('  SINAV SENARYOSU uygulandı:', open(" + repr(os.path.abspath(a.degistir)) + ", encoding='utf-8').read().strip())\n"))
+    # önbellek: sınav dizini + tuz ek (sınav motorun __file__'ı ANA'yı gösterdiği
+    # için motor izi worktree kodunu görmez ⇒ kesitin kendi özeti tuza eklenir)
+    os.environ["MOTOR_ONBELLEK_DIZIN"] = os.path.join(os.environ.get("TEMP", KOK),
+                                                      "hiz_onbellek_" + (a.onbellek_ad or a.ad))
+    os.environ["MOTOR_ONBELLEK_TUZ_EK"] = _tuz_src
+    if a.dolgu:
+        os.environ["MOTOR_DOLGU_YOL"] = a.dolgu        # satir | tam | sina
+    else:
+        os.environ.pop("MOTOR_DOLGU_YOL", None)
+    if not a.onbellek:
+        os.environ["MOTOR_ONBELLEK_KAPALI"] = "1"
+    else:
+        os.environ.pop("MOTOR_ONBELLEK_KAPALI", None)
+    _arac = os.path.dirname(os.path.abspath(a.motor))
+    if _arac not in sys.path:
+        sys.path.append(_arac)                  # motor_onbellek worktree'den
+    os.environ["PYTHONPATH"] = _arac            # işçi süreçler için
+    if a.kes:
+        # SENARYO "yarıda kesildi": FAZ 2 (iş parçacığı yolu) N'inci devlette süreç
+        # SERT ölür (os._exit — flush yok, atexit yok), elektrik kesilmiş gibi.
+        # ⚠️ Tuz ÖZETİNDEN SONRA uygulanır: devam koşusu (kes'siz) aynı tuzu görsün.
+        _il = '            ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)\n'
+        if src.count(_il) < 1:
+            raise SystemExit("kes işareti yok")
+        src = src.replace(_il, _il + f"            if _dv_i == {a.kes}: print('SINAV: SERT KESİLDİ', flush=True); os._exit(9)\n")
     # canlı ilerleme dosyası (varsa) ana klasörü kirletmesin
     os.environ["MOTOR_CANLI_LOG"] = os.path.join(
         os.environ.get("TEMP", KOK), f"hiz_canli_{a.ad}.log")
@@ -74,9 +129,11 @@ def main(a):
         with io.open(betik, "w", encoding="utf-8") as f:
             f.write(f"__file__ = {ANA_MOTOR!r}\n" + src)
         os.environ["MOTOR_ISCI_BETIK"] = betik
+    elif a.paralel:
+        os.environ.pop("MOTOR_PARALEL_KAPALI", None)   # iş parçacığı yolu (önbellekli FAZ 1)
     else:
         os.environ["MOTOR_PARALEL_KAPALI"] = "1"
-    NS = {"__name__": "__main__", "__file__": ANA_MOTOR}
+    NS ={"__name__": "__main__", "__file__": ANA_MOTOR}
     kod = compile(src, a.motor + " [HIZ kesiti]", "exec")
     t0 = time.time()
     if a.profil:
@@ -100,6 +157,8 @@ def main(a):
            "h_dev_halka": h(NS["DEV_HALKA"]), "h_dev_parca": h(NS["DEV_PARCA"]),
            "devlet": len(NS["DEVLET_KAYIT"]),
            "donem": sum(len(d["dnm"]) for d in NS["DEVLET_KAYIT"])}
+    if "_ONB" in NS:
+        SON["onbellek"] = NS["_ONB"].ozet()
     for ad in ("donemler", "OSM_HALKA", "OSM_PARCA", "SRB_HAVUZ", "SRB_U", "petekler"):
         if ad in NS:
             SON["h_" + ad] = h(NS[ad])
@@ -126,6 +185,18 @@ if __name__ == "__main__":
     ap.add_argument("--bayrak", type=int, default=0)
     ap.add_argument("--yon16", type=int, default=0)
     ap.add_argument("--profil", type=int, default=0)
+    ap.add_argument("--paralel", type=int, default=0,
+                    help="1: iş parçacığı yolu (MOTOR_PARALEL_KAPALI kaldırılır; önbellek bu yolda)")
+    ap.add_argument("--onbellek", type=int, default=0,
+                    help="1: önbellek AÇIK (%%TEMP%%/hiz_onbellek_<onbellek_ad>)")
+    ap.add_argument("--onbellek_ad", default="",
+                    help="önbellek dizininin adı (koşular arası paylaşmak için aynı ad)")
+    ap.add_argument("--degistir", default="",
+                    help="senaryo JSON dosyası (nokta ekle / sahip değiştir)")
+    ap.add_argument("--dolgu", default="",
+                    help="MOTOR_DOLGU_YOL: satir (varsayılan) · tam (eski matris) · sina (ikisi, fark say)")
+    ap.add_argument("--kes", type=int, default=0,
+                    help="N: FAZ 2'de N'inci devlette sert öl (yarıda kesilme senaryosu)")
     ap.add_argument("--devam", type=int, default=0,
                     help="MOTOR_DEVAM=1 (FAZ 1 sonuçları %%TEMP%%/hiz_devam altında kalıcı)")
     ap.add_argument("--surec", type=int, default=1,

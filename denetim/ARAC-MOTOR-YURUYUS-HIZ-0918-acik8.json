@@ -1,0 +1,185 @@
+{
+ "motor": "C:/atlas-hiz/arac/uret_petek.py",
+ "motor_sha_ilk12": "b5c3c7ae04ba",
+ "kutu": "26,34,50,44",
+ "bayrak": 1,
+ "yon16": 0,
+ "sure_sn": 7243,
+ "asama": [
+  [
+   "Girdi anlık görüntüsü",
+   5.8,
+   1.6
+  ],
+  [
+   "Kara maskesi (Natural Earth 10m, tolerans 0.002)",
+   11.8,
+   11.3
+  ],
+  [
+   "Göller",
+   3.0,
+   2.8
+  ],
+  [
+   "Nehir yatakları",
+   1.2,
+   1.2
+  ],
+  [
+   "Dağ sırtları",
+   0.8,
+   0.8
+  ],
+  [
+   "Yerleşimler okunuyor",
+   61.0,
+   56.0
+  ],
+  [
+   "Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor",
+   0.2,
+   0.2
+  ],
+  [
+   "Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)",
+   0.3,
+   0.3
+  ],
+  [
+   "Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)",
+   2.5,
+   2.3
+  ],
+  [
+   "Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)",
+   4.4,
+   3.8
+  ],
+  [
+   "YÜRÜYÜŞ: 40 saatlik bütçe bölgesi (eşyükselti)",
+   4.0,
+   3.2
+  ],
+  [
+   "Petekler üretiliyor (Voronoi)",
+   153.2,
+   145.0
+  ],
+  [
+   "YÜRÜYÜŞ: petekler ızgaradan (Dijkstra sahibi; karar dışında Voronoi)",
+   6.3,
+   6.1
+  ],
+  [
+   "Ortak kenar ağı çıkarılıyor",
+   0.4,
+   0.4
+  ],
+  [
+   "Kenarlar doğal hatlara yaslanıp yumuşatılıyor",
+   2.9,
+   2.8
+  ],
+  [
+   "Hücreler geri kuruluyor (polygonize)",
+   1.9,
+   1.9
+  ],
+  [
+   "Örtü sadeleştirme (coverage_simplify)",
+   0.7,
+   0.7
+  ],
+  [
+   "Kıyı kesimi (her hücre × KARA) + A1 YARIÇAP TAVANI",
+   1.8,
+   1.8
+  ],
+  [
+   "Ada kuralı (petekler kendi kara parçasına)",
+   4.9,
+   4.7
+  ],
+  [
+   "Kara-kısıtlı sahiplik: parçaları sına ve devret",
+   1.4,
+   1.2
+  ],
+  [
+   "Çöl tavanı",
+   14.1,
+   13.7
+  ],
+  [
+   "Motorun çizdiği kara (motor_kara.geojson)",
+   1.3,
+   1.2
+  ],
+  [
+   "Petek alanları (yedinci denetim)",
+   2.9,
+   2.9
+  ],
+  [
+   "Varlık epokları (kur:/bit:) — kuşatılmışlık ön geçişi",
+   36.1,
+   35.2
+  ],
+  [
+   "Bölge sınırları (k1/k2 merkezleri)",
+   2.3,
+   2.0
+  ],
+  [
+   "YÜRÜYÜŞ: ekleyici kapı saat matrisi (yerel Dijkstra, 80 saat)",
+   5.1,
+   5.0
+  ],
+  [
+   "Yabancı devlet gövdeleri",
+   5636.1,
+   5544.1
+  ],
+  [
+   "Dönemler kuruluyor (delta yapısı)",
+   1272.8,
+   1226.8
+  ]
+ ],
+ "sayac": {
+  "kuşatılmışlık (_kusatilmis)": [
+   1904,
+   107.8
+  ],
+  "varlık devri (petek_epok)": [
+   23,
+   5.1
+  ],
+  "yabancı gövde geometrisi": [
+   4056,
+   3121.7
+  ],
+  "Osmanlı gövde geometrisi": [
+   554,
+   1170.5
+  ],
+  "serbest kenar (sahipsiz sınır)": [
+   554,
+   21.4
+  ]
+ },
+ "h_devlet_kayit": "f39201ee32da190f",
+ "h_dev_halka": "09657cb2cbc74099",
+ "h_dev_parca": "fe6ca88bc13f0210",
+ "devlet": 75,
+ "donem": 813,
+ "h_donemler": "8424bf907ec324ed",
+ "h_OSM_HALKA": "e70677fb032be957",
+ "h_OSM_PARCA": "c51765b93106bc1b",
+ "h_SRB_HAVUZ": "1199167e70eafef2",
+ "h_SRB_U": "f938612156b5ba4f",
+ "h_petekler": "b2a7589fe7fc0d1e",
+ "profil_tottime": "         2469465900 function calls (2468903823 primitive calls) in 7172.365 seconds\n\n   Ordered by: internal time\n   List reduced from 3197 to 35 due to restriction <35>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n     5370 2070.108    0.385 2300.592    0.428 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:5216(_dolgu_kumesi)\n  1807723 1596.891    0.001 2889.894    0.002 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4164(<genexpr>)\n2017807660 1024.038    0.000 1024.038    0.000 {method 'get' of 'dict' objects}\n    28903  456.090    0.016  456.784    0.016 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:463(union_all)\n   263937  305.915    0.001  312.918    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\constructive.py:136(buffer)\n159061546  294.159    0.000  294.159    0.000 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:3996(_sahipli)\n   218355  256.936    0.001  256.936    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:112(intersection)\n      814  145.793    0.179  181.198    0.223 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:5049(_puan_bolgesi)\n    29736  108.466    0.004  108.466    0.004 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:39(difference)\n10004682/10004586   90.738    0.000 1452.374    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\decorators.py:73(wrapped)\n    22723   75.988    0.003   75.988    0.003 {method 'argmin' of 'numpy.ndarray' objects}\n  4332836   61.691    0.000   61.691    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:551(contains)\n 35610300   50.390    0.000   82.120    0.000 {built-in method builtins.any}\n   894410   40.076    0.000   40.076    0.000 {method 'reduce' of 'numpy.ufunc' objects}\n   207786   28.578    0.000   35.204    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:429(is_valid)\n  7641161   24.223    0.000   39.324    0.000 C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\arac\\girdi.py:1259(km)\n  7927803   23.771    0.000   48.328    0.000 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:5438(_osm_aktif)\n  2291524   21.671    0.000   21.671    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:181(is_empty)\n   274339   19.596    0.000  108.428    0.000 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4114(_kusatilmis)\n     2290   19.414    0.008   19.414    0.008 {method 'astype' of 'numpy.ndarray' objects}\n        1   19.280   19.280   58.562   58.562 C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\arac\\girdi.py:1524(yakin_ciftler)\n  4626265   16.707    0.000   16.707    0.000 {method 'item' of 'numpy.generic' objects}\n    26720   16.506    0.001   16.506    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\linear.py:205(shortest_line)\n  5235347   14.011    0.000   18.124    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\coords.py:43(__iter__)\n 23021736   13.675    0.000   13.678    0.000 {built-in method builtins.isinstance}\n     1369   13.367    0.010   13.367    0.010 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\constructive.py:1128(simplify)\n     2188   13.230    0.006   13.309    0.006 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\numeric.py:290(full)\n  4332836   12.462    0.000  143.960    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:772(contains)\n   156195   11.893    0.000   11.893    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\measurement.py:199(hausdorff_distance)\n     2534   11.056    0.004   29.579    0.012 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:3788(alan_km2)\n 17117609    9.929    0.000    9.929    0.000 {method 'append' of 'list' objects}\n 19239237    8.891    0.000    8.891    0.000 {built-in method math.radians}\n  4626265    8.025    0.000   24.732    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:72(_maybe_unpack)\n  4562791    7.842    0.000    7.842    0.000 {built-in method builtins.round}\n    23930    7.459    0.000    7.459    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:714(covers)\n\n\n",
+ "profil_cum": "         2469465900 function calls (2468903823 primitive calls) in 7172.365 seconds\n\n   Ordered by: cumulative time\n   List reduced from 3197 to 60 due to restriction <60>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n   273760    6.805    0.000 2970.181    0.011 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4160(devir_kumesi)\n  1807723 1596.891    0.001 2889.894    0.002 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4164(<genexpr>)\n   263634    2.672    0.000 2793.965    0.011 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4360(petek_epok)\n     5370 2070.108    0.385 2300.592    0.428 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:5216(_dolgu_kumesi)\n10004682/10004586   90.738    0.000 1452.374    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\decorators.py:73(wrapped)\n1513047/997676    6.930    0.000 1203.082    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\decorators.py:171(wrapper)\n2017807660 1024.038    0.000 1024.038    0.000 {method 'get' of 'dict' objects}\n     4609    0.220    0.000  614.667    0.133 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:2810(gosterim_duzelt)\n     1367    4.300    0.003  550.737    0.403 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:2712(_b3_koridor_kirp)\n    28903    0.174    0.000  458.509    0.016 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\ops.py:111(unary_union)\n    28903  456.090    0.016  456.784    0.016 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:463(union_all)\n   263937    4.979    0.000  334.996    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:462(buffer)\n     6557    0.288    0.000  323.832    0.049 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:2345(kapat)\n   263937  305.915    0.001  312.918    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\constructive.py:136(buffer)\n159061546  294.159    0.000  294.159    0.000 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:3996(_sahipli)\n   218355    0.714    0.000  262.796    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:668(intersection)\n   218355  256.936    0.001  256.936    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:112(intersection)\n      814  145.793    0.179  181.198    0.223 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:5049(_puan_bolgesi)\n  4332836   12.462    0.000  143.960    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:772(contains)\n   197658    1.288    0.000  112.855    0.001 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:163(temiz)\n    29736    0.121    0.000  109.381    0.004 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:652(difference)\n    29736  108.466    0.004  108.466    0.004 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:39(difference)\n   274339   19.596    0.000  108.428    0.000 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4114(_kusatilmis)\n 35610300   50.390    0.000   82.120    0.000 {built-in method builtins.any}\n    22723   75.988    0.003   75.988    0.003 {method 'argmin' of 'numpy.ndarray' objects}\n     1367    0.802    0.001   63.610    0.047 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:2610(_b2_enklav_birlestir)\n  4332836   61.691    0.000   61.691    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:551(contains)\n        1   19.280   19.280   58.562   58.562 C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\arac\\girdi.py:1524(yakin_ciftler)\n  7927803   23.771    0.000   48.328    0.000 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:5438(_osm_aktif)\n  2281969    5.177    0.000   45.871    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:721(is_empty)\n   894410   40.076    0.000   40.076    0.000 {method 'reduce' of 'numpy.ufunc' objects}\n  7641161   24.223    0.000   39.324    0.000 C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\arac\\girdi.py:1259(km)\n   207786    0.785    0.000   38.857    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:749(is_valid)\n   207786   28.578    0.000   35.204    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:429(is_valid)\n     2081    7.435    0.004   33.724    0.016 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4818(mp_koord)\n     2534   11.056    0.004   29.579    0.012 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:3788(alan_km2)\n   157683    1.049    0.000   29.115    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\polygon.py:227(__new__)\n  4626265    8.025    0.000   24.732    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:72(_maybe_unpack)\n   429960    1.250    0.000   22.517    0.000 {method 'sum' of 'numpy.ndarray' objects}\n  2291524   21.671    0.000   21.671    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:181(is_empty)\n   430077    0.539    0.000   21.271    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\_methods.py:50(_sum)\n     2290   19.414    0.008   19.414    0.008 {method 'astype' of 'numpy.ndarray' objects}\n    26720    0.212    0.000   18.943    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\ops.py:285(nearest_points)\n      554    0.036    0.000   18.808    0.034 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4209(serbest_kenar)\n   150584    3.326    0.000   18.583    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\polygon.py:61(__new__)\n      553    0.620    0.001   18.246    0.033 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:4192(bos_bolge)\n  5235347   14.011    0.000   18.124    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\coords.py:43(__iter__)\n   114259    0.479    0.000   17.865    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\geo.py:46(box)\n  4626265   16.707    0.000   16.707    0.000 {method 'item' of 'numpy.generic' objects}\n    26720   16.506    0.001   16.506    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\linear.py:205(shortest_line)\n   156195    0.568    0.000   15.585    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:347(hausdorff_distance)\n   178747    0.788    0.000   15.241    0.000 {method 'any' of 'numpy.ndarray' objects}\n   197868    0.414    0.000   14.694    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\_methods.py:58(_any)\n 23021736   13.675    0.000   13.678    0.000 {built-in method builtins.isinstance}\n    13623    0.099    0.000   13.439    0.001 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:2360(poligonal)\n     1369    0.007    0.000   13.415    0.010 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:613(simplify)\n     1369   13.367    0.010   13.367    0.010 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\constructive.py:1128(simplify)\n     2188   13.230    0.006   13.309    0.006 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\numeric.py:290(full)\n     4678    0.101    0.000   12.430    0.003 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\geo.py:54(shape)\n     5190    0.510    0.000   12.147    0.002 C:/atlas-hiz/arac/uret_petek.py [HIZ kesiti]:2423(delikleri_doldur)\n\n\n"
+}

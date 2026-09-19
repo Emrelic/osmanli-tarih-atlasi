@@ -42,3 +42,11 @@ denetim/_kaynak_govde/
 denetim/_sinav_json/
 denetim/_kid_*.json
 denetim/_kaynak_denetim_*.json
+
+# ── MOTOR — ARTIMLI ÖNBELLEK + CANLI LOG (M-4537, 19 Eylül 2026) ─────────
+# Koşunun YAN ÜRÜNLERİ: önbellek (içerik adresli, yeniden üretilebilir),
+# kaldığı yerden devam dizini, canlı log ve işçi süreç logları.
+_motor_onbellek/
+_petek_devam/
+uretim_canli.log
+uretim_isci_*.log

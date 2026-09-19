@@ -102,6 +102,49 @@ def kos(ad, argv, olumcul=True, dk=200):
     return r.returncode
 
 
+def _bos_bellek_gb():
+    """Boş fiziksel bellek (GB) — Windows GlobalMemoryStatusEx; ölçülemezse None."""
+    try:
+        import ctypes
+
+        class _MS(ctypes.Structure):
+            _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong),
+                        ("ullTotalPhys", ctypes.c_ulonglong), ("ullAvailPhys", ctypes.c_ulonglong),
+                        ("ullTotalPageFile", ctypes.c_ulonglong), ("ullAvailPageFile", ctypes.c_ulonglong),
+                        ("ullTotalVirtual", ctypes.c_ulonglong), ("ullAvailVirtual", ctypes.c_ulonglong),
+                        ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
+        m = _MS()
+        m.dwLength = ctypes.sizeof(_MS)
+        ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m))
+        return m.ullAvailPhys / 1024.0 ** 3
+    except Exception:
+        return None
+
+
+# ⚙️ MOTOR ORTAMI — M-4537 (19 Eylül 2026). Elle verilmişse DOKUNULMAZ.
+#   MOTOR_ONBELLEK_DIZIN : koşular ARASI önbellek (artımlı motor). Koşu
+#       worktree'leri (C:/atlas-kosuNN) aynı önbelleği paylaşsın diye SABİT bir
+#       yol: <sistem sürücüsü>/atlas-onbellek. OneDrive altına KONMAZ (büyük
+#       sqlite dosyası eşitlemeye girer).
+#   MOTOR_SUREC_ISCI     : gövde aşamasının süreç sayısı. Her süreç ana süreç
+#       kadar bellek ister (yürüyüş açıkken ~3-3,5 GB) ⇒ boş belleğe göre
+#       1..3. Ölçülemezse 1 (eski davranış).
+SUREC_BASINA_GB = 3.5
+
+
+def _motor_ortami():
+    if not os.environ.get("MOTOR_ONBELLEK_DIZIN"):
+        os.environ["MOTOR_ONBELLEK_DIZIN"] = os.path.join(
+            os.environ.get("SystemDrive", "C:") + os.sep, "atlas-onbellek")
+    if not os.environ.get("MOTOR_SUREC_ISCI"):
+        bos = _bos_bellek_gb()
+        n = 1 if bos is None else max(1, min(3, int(bos // SUREC_BASINA_GB)))
+        os.environ["MOTOR_SUREC_ISCI"] = str(n)
+        yaz("⚙️ MOTOR_SUREC_ISCI=%d (boş bellek %s GB, süreç başına %.1f GB)"
+            % (n, "?" if bos is None else "%.1f" % bos, SUREC_BASINA_GB))
+    yaz("⚙️ MOTOR_ONBELLEK_DIZIN=%s" % os.environ["MOTOR_ONBELLEK_DIZIN"])
+
+
 def beep(n=9):
     ps = ("1..%d | ForEach-Object { [Console]::Beep(880,250); "
           "Start-Sleep -Milliseconds 120 }" % n)
@@ -216,6 +259,7 @@ def _zincir(yayinla=True, uretimsiz=False):
         #   o kayıt bir sonraki koşuda YANLIŞ ALARM üretir. Ve "tahmini
         #   aştı" ile "takıldı" AYRI hükümlerdir: ikincisi CPU deltasıyla
         #   ayrıca ölçülür.
+        _motor_ortami()
         if kos("üretim (uret_petek.py) — ölçülen en uzun koşu 16s49dk "
                "(koşu 7B, ~2731 petek; bu koşunun tabanı FARKLIYSA süre de farklıdır)",
                [sys.executable, "arac/uret_petek.py"], dk=1440) is None:

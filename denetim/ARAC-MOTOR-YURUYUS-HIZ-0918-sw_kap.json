@@ -1,0 +1,184 @@
+{
+ "motor": "C:/atlas-hiz-gel2/arac/uret_petek.py",
+ "motor_sha_ilk12": "d6867ad7f01e",
+ "kutu": "36,30,46,36",
+ "bayrak": 1,
+ "yon16": 1,
+ "sure_sn": 1571,
+ "asama": [
+  [
+   "Girdi anlık görüntüsü",
+   3.9,
+   1.2
+  ],
+  [
+   "Kara maskesi (Natural Earth 10m, tolerans 0.002)",
+   5.6,
+   5.5
+  ],
+  [
+   "Göller",
+   1.3,
+   1.3
+  ],
+  [
+   "Nehir yatakları",
+   0.7,
+   0.7
+  ],
+  [
+   "Dağ sırtları",
+   0.6,
+   0.6
+  ],
+  [
+   "Yerleşimler okunuyor",
+   12.6,
+   12.3
+  ],
+  [
+   "Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor",
+   0.0,
+   0.0
+  ],
+  [
+   "Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)",
+   0.1,
+   0.1
+  ],
+  [
+   "Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)",
+   1.2,
+   1.2
+  ],
+  [
+   "Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)",
+   1.5,
+   1.4
+  ],
+  [
+   "YÜRÜYÜŞ: 40 saatlik bütçe bölgesi (eşyükselti)",
+   9.3,
+   1.7
+  ],
+  [
+   "Petekler üretiliyor (Voronoi)",
+   58.1,
+   57.1
+  ],
+  [
+   "YÜRÜYÜŞ: petekler ızgaradan (Dijkstra sahibi; karar dışında Voronoi)",
+   2.2,
+   2.2
+  ],
+  [
+   "Ortak kenar ağı çıkarılıyor",
+   0.1,
+   0.1
+  ],
+  [
+   "Kenarlar doğal hatlara yaslanıp yumuşatılıyor",
+   0.2,
+   0.2
+  ],
+  [
+   "Hücreler geri kuruluyor (polygonize)",
+   0.5,
+   0.5
+  ],
+  [
+   "Örtü sadeleştirme (coverage_simplify)",
+   0.1,
+   0.1
+  ],
+  [
+   "Kıyı kesimi (her hücre × KARA) + A1 YARIÇAP TAVANI",
+   0.3,
+   0.3
+  ],
+  [
+   "Ada kuralı (petekler kendi kara parçasına)",
+   0.2,
+   0.2
+  ],
+  [
+   "Kara-kısıtlı sahiplik: parçaları sına ve devret",
+   0.2,
+   0.2
+  ],
+  [
+   "Çöl tavanı",
+   2.8,
+   2.8
+  ],
+  [
+   "Motorun çizdiği kara (motor_kara.geojson)",
+   0.2,
+   0.2
+  ],
+  [
+   "Petek alanları (yedinci denetim)",
+   0.6,
+   0.6
+  ],
+  [
+   "Varlık epokları (kur:/bit:) — kuşatılmışlık ön geçişi",
+   9.1,
+   8.9
+  ],
+  [
+   "Bölge sınırları (k1/k2 merkezleri)",
+   0.8,
+   0.7
+  ],
+  [
+   "YÜRÜYÜŞ: ekleyici kapı saat matrisi (yerel Dijkstra, 80 saat)",
+   1.4,
+   1.4
+  ],
+  [
+   "Yabancı devlet gövdeleri",
+   1389.9,
+   3352.3
+  ],
+  [
+   "Dönemler kuruluyor (delta yapısı)",
+   66.2,
+   65.6
+  ]
+ ],
+ "sayac": {
+  "kuşatılmışlık (_kusatilmis)": [
+   1907,
+   112.4
+  ],
+  "varlık devri (petek_epok)": [
+   13,
+   0.5
+  ],
+  "yabancı gövde geometrisi": [
+   4225,
+   170.4
+  ],
+  "Osmanlı gövde geometrisi": [
+   551,
+   29.5
+  ],
+  "serbest kenar (sahipsiz sınır)": [
+   551,
+   5.5
+  ]
+ },
+ "h_devlet_kayit": "ba3243b700ae0b8f",
+ "h_dev_halka": "caa3316f70c4da6d",
+ "h_dev_parca": "c9928d14c8250616",
+ "devlet": 14,
+ "donem": 208,
+ "onbellek": [],
+ "h_donemler": "b67b02b6a30d9edf",
+ "h_OSM_HALKA": "9098be0b018d2338",
+ "h_OSM_PARCA": "2c47b894e12fe2d8",
+ "h_SRB_HAVUZ": "e0d7c390e7b56f02",
+ "h_SRB_U": "2e5c5015777a092e",
+ "h_petekler": "b2a7589fe7fc0d1e"
+}

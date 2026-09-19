@@ -1,0 +1,175 @@
+{
+ "motor": "C:/atlas-hiz-gel/arac/uret_petek.py",
+ "motor_sha_ilk12": "04375df63ffd",
+ "kutu": "30,37.5,34,40.5",
+ "bayrak": 0,
+ "yon16": 0,
+ "sure_sn": 969,
+ "asama": [
+  [
+   "Girdi anlık görüntüsü",
+   3.7,
+   1.2
+  ],
+  [
+   "Kara maskesi (Natural Earth 10m, tolerans 0.002)",
+   4.6,
+   4.5
+  ],
+  [
+   "Göller",
+   0.6,
+   0.6
+  ],
+  [
+   "Nehir yatakları",
+   0.3,
+   0.3
+  ],
+  [
+   "Dağ sırtları",
+   0.2,
+   0.2
+  ],
+  [
+   "Yerleşimler okunuyor",
+   9.3,
+   9.2
+  ],
+  [
+   "Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor",
+   0.0,
+   0.0
+  ],
+  [
+   "Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)",
+   0.0,
+   0.0
+  ],
+  [
+   "Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)",
+   0.0,
+   0.0
+  ],
+  [
+   "Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)",
+   0.1,
+   0.1
+  ],
+  [
+   "Petekler üretiliyor (Voronoi)",
+   51.5,
+   50.8
+  ],
+  [
+   "Ortak kenar ağı çıkarılıyor",
+   0.0,
+   0.0
+  ],
+  [
+   "Kenarlar doğal hatlara yaslanıp yumuşatılıyor",
+   0.0,
+   0.0
+  ],
+  [
+   "Hücreler geri kuruluyor (polygonize)",
+   0.2,
+   0.2
+  ],
+  [
+   "Örtü sadeleştirme (coverage_simplify)",
+   0.0,
+   0.0
+  ],
+  [
+   "Kıyı kesimi (her hücre × KARA) + A1 YARIÇAP TAVANI",
+   0.1,
+   0.1
+  ],
+  [
+   "Ada kuralı (petekler kendi kara parçasına)",
+   0.1,
+   0.1
+  ],
+  [
+   "Kara-kısıtlı sahiplik: parçaları sına ve devret",
+   0.1,
+   0.1
+  ],
+  [
+   "Çöl tavanı",
+   0.7,
+   0.6
+  ],
+  [
+   "Motorun çizdiği kara (motor_kara.geojson)",
+   0.0,
+   0.0
+  ],
+  [
+   "Petek alanları (yedinci denetim)",
+   0.2,
+   0.2
+  ],
+  [
+   "Varlık epokları (kur:/bit:) — kuşatılmışlık ön geçişi",
+   3.9,
+   3.8
+  ],
+  [
+   "Bölge sınırları (k1/k2 merkezleri)",
+   0.4,
+   0.4
+  ],
+  [
+   "Yabancı devlet gövdeleri",
+   845.0,
+   2408.2
+  ],
+  [
+   "Dönemler kuruluyor (delta yapısı)",
+   46.4,
+   45.9
+  ]
+ ],
+ "sayac": {
+  "kuşatılmışlık (_kusatilmis)": [
+   1907,
+   65.3
+  ],
+  "varlık devri (petek_epok)": [
+   11,
+   0.1
+  ],
+  "yabancı gövde geometrisi": [
+   4221,
+   54.6
+  ],
+  "Osmanlı gövde geometrisi": [
+   551,
+   14.6
+  ],
+  "serbest kenar (sahipsiz sınır)": [
+   551,
+   4.7
+  ]
+ },
+ "h_devlet_kayit": "cd4bddb9de93796c",
+ "h_dev_halka": "b56c4cbae14271ea",
+ "h_dev_parca": "c3dfcbbe0067f5a2",
+ "devlet": 15,
+ "donem": 70,
+ "onbellek": [
+  "dolgu: isabet 8 · ıska 1,932 · yazılan 1,932 · okuma 2 sn · yazma 5 sn",
+  "govde: isabet 768 · ıska 3,453 · yazılan 3,453 · okuma 5 sn · yazma 4 sn",
+  "k1: isabet 0 · ıska 4 · yazılan 3 · okuma 0 sn · yazma 0 sn",
+  "osm: isabet 8 · ıska 543 · yazılan 543 · okuma 0 sn · yazma 0 sn",
+  "sb: isabet 533 · ıska 16 · yazılan 16 · okuma 0 sn · yazma 0 sn"
+ ],
+ "h_donemler": "4652e69f34d50ebb",
+ "h_OSM_HALKA": "aca7f4efd0dc5f6b",
+ "h_OSM_PARCA": "e7ec5e931d3abdff",
+ "h_SRB_HAVUZ": "97d170e1550eee4a",
+ "h_SRB_U": "97d170e1550eee4a",
+ "h_petekler": "b2a7589fe7fc0d1e"
+}

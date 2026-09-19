@@ -1,0 +1,170 @@
+{
+ "motor": "C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py",
+ "motor_sha_ilk12": "c138b0b53e3f",
+ "kutu": "26,34,50,44",
+ "bayrak": 0,
+ "yon16": 0,
+ "sure_sn": 9440,
+ "asama": [
+  [
+   "Girdi anlık görüntüsü",
+   9.6,
+   1.6
+  ],
+  [
+   "Kara maskesi (Natural Earth 10m, tolerans 0.002)",
+   7.8,
+   7.7
+  ],
+  [
+   "Göller",
+   1.7,
+   1.7
+  ],
+  [
+   "Nehir yatakları",
+   0.5,
+   0.5
+  ],
+  [
+   "Dağ sırtları",
+   0.3,
+   0.3
+  ],
+  [
+   "Yerleşimler okunuyor",
+   34.2,
+   33.9
+  ],
+  [
+   "Kara-kısıtlı sahiplik: ızgara 0.05° kuruluyor",
+   0.1,
+   0.0
+  ],
+  [
+   "Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)",
+   0.1,
+   0.1
+  ],
+  [
+   "Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)",
+   1.3,
+   1.3
+  ],
+  [
+   "Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)",
+   2.1,
+   2.1
+  ],
+  [
+   "Petekler üretiliyor (Voronoi)",
+   105.7,
+   104.6
+  ],
+  [
+   "Ortak kenar ağı çıkarılıyor",
+   0.3,
+   0.3
+  ],
+  [
+   "Kenarlar doğal hatlara yaslanıp yumuşatılıyor",
+   1.6,
+   1.6
+  ],
+  [
+   "Hücreler geri kuruluyor (polygonize)",
+   0.6,
+   0.6
+  ],
+  [
+   "Örtü sadeleştirme (coverage_simplify)",
+   0.2,
+   0.2
+  ],
+  [
+   "Kıyı kesimi (her hücre × KARA) + A1 YARIÇAP TAVANI",
+   0.6,
+   0.5
+  ],
+  [
+   "Ada kuralı (petekler kendi kara parçasına)",
+   3.2,
+   3.2
+  ],
+  [
+   "Kara-kısıtlı sahiplik: parçaları sına ve devret",
+   0.6,
+   0.6
+  ],
+  [
+   "Çöl tavanı",
+   11.7,
+   11.6
+  ],
+  [
+   "Motorun çizdiği kara (motor_kara.geojson)",
+   0.8,
+   0.8
+  ],
+  [
+   "Petek alanları (yedinci denetim)",
+   2.4,
+   2.4
+  ],
+  [
+   "Varlık epokları (kur:/bit:) — kuşatılmışlık ön geçişi",
+   24.0,
+   23.6
+  ],
+  [
+   "Bölge sınırları (k1/k2 merkezleri)",
+   3.3,
+   1.5
+  ],
+  [
+   "Yabancı devlet gövdeleri",
+   8096.3,
+   6360.5
+  ],
+  [
+   "Dönemler kuruluyor (delta yapısı)",
+   1127.6,
+   1110.7
+  ]
+ ],
+ "sayac": {
+  "kuşatılmışlık (_kusatilmis)": [
+   1904,
+   96.0
+  ],
+  "varlık devri (petek_epok)": [
+   25,
+   1.6
+  ],
+  "yabancı gövde geometrisi": [
+   4059,
+   4704.0
+  ],
+  "Osmanlı gövde geometrisi": [
+   554,
+   1028.1
+  ],
+  "serbest kenar (sahipsiz sınır)": [
+   554,
+   18.9
+  ]
+ },
+ "h_devlet_kayit": "077d6c7af9da96b9",
+ "h_dev_halka": "7293e6cd516ca91e",
+ "h_dev_parca": "c7de9243b59b1b04",
+ "devlet": 74,
+ "donem": 809,
+ "h_donemler": "aba3a7ae7cfd5ae1",
+ "h_OSM_HALKA": "4558e7af83f57849",
+ "h_OSM_PARCA": "42903f2cd26022cd",
+ "h_SRB_HAVUZ": "ac2b52f294c3e4c9",
+ "h_SRB_U": "bd31508b36b818de",
+ "h_petekler": "b2a7589fe7fc0d1e",
+ "profil_tottime": "         2458029711 function calls (2457557120 primitive calls) in 9440.291 seconds\n\n   Ordered by: internal time\n   List reduced from 2346 to 35 due to restriction <35>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n     5370 2842.492    0.529 3136.294    0.584 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:5046(_dolgu_kumesi)\n  1808626 2436.905    0.001 4428.709    0.002 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3995(<genexpr>)\n2018538765 1552.888    0.000 1552.888    0.000 {method 'get' of 'dict' objects}\n159447445  469.500    0.000  469.500    0.000 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3827(_sahipli)\n    28467  338.591    0.012  339.467    0.012 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:463(union_all)\n   227264  292.605    0.001  298.537    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\constructive.py:136(buffer)\n      809  222.082    0.275  272.217    0.336 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:4879(_puan_bolgesi)\n   198410  221.665    0.001  221.665    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:112(intersection)\n    23090  116.957    0.005  116.957    0.005 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:39(difference)\n    22723   98.774    0.004   98.774    0.004 {method 'argmin' of 'numpy.ndarray' objects}\n        1   78.382   78.382 9440.290 9440.290 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:1(<module>)\n9506777/9506776   76.136    0.000 1243.316    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\decorators.py:73(wrapped)\n 35610388   57.292    0.000   92.287    0.000 {built-in method builtins.any}\n   850399   52.606    0.000   52.606    0.000 {method 'reduce' of 'numpy.ufunc' objects}\n  4333547   40.160    0.000   40.160    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:551(contains)\n  7927816   32.435    0.000   65.481    0.000 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:5267(_osm_aktif)\n     2192   28.101    0.013   28.101    0.013 {method 'astype' of 'numpy.ndarray' objects}\n   172412   24.900    0.000   30.379    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:429(is_valid)\n   274696   23.202    0.000   98.084    0.000 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3945(_kusatilmis)\n  2203737   22.427    0.000   22.427    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:181(is_empty)\n    25113   15.659    0.001   15.659    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\linear.py:205(shortest_line)\n  7640898   13.765    0.000   22.569    0.000 C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\arac\\girdi.py:1259(km)\n  4601538   13.082    0.000   16.794    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\coords.py:43(__iter__)\n 16775120   12.216    0.000   12.216    0.000 {method 'append' of 'list' objects}\n  4567570   11.990    0.000   11.990    0.000 {method 'item' of 'numpy.generic' objects}\n     1364   11.769    0.009   11.769    0.009 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\constructive.py:1128(simplify)\n 21673340   11.402    0.000   11.402    0.000 {built-in method builtins.isinstance}\n   274117   10.963    0.000 4514.428    0.016 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3991(devir_kumesi)\n   127662   10.345    0.000   10.345    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\measurement.py:199(hausdorff_distance)\n     2651    9.976    0.004   26.968    0.010 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3619(alan_km2)\n        1    9.569    9.569   32.116   32.116 C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\arac\\girdi.py:1524(yakin_ciftler)\n  4333547    8.766    0.000   96.996    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:772(contains)\n      524    7.875    0.015    7.875    0.015 {built-in method _io.open}\n    26928    7.454    0.000    7.454    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:714(covers)\n  4099498    7.125    0.000    7.125    0.000 {built-in method builtins.round}\n\n\n",
+ "profil_cum": "         2458029711 function calls (2457557120 primitive calls) in 9440.291 seconds\n\n   Ordered by: cumulative time\n   List reduced from 2346 to 60 due to restriction <60>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n    234/1    0.005    0.000 9440.291 9440.291 {built-in method builtins.exec}\n        1   78.382   78.382 9440.290 9440.290 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:1(<module>)\n   274117   10.963    0.000 4514.428    0.016 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3991(devir_kumesi)\n  1808626 2436.905    0.001 4428.709    0.002 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3995(<genexpr>)\n   263991    4.520    0.000 4301.994    0.016 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:4191(petek_epok)\n     5370 2842.492    0.529 3136.294    0.584 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:5046(_dolgu_kumesi)\n2018538765 1552.888    0.000 1552.888    0.000 {method 'get' of 'dict' objects}\n9506777/9506776   76.136    0.000 1243.316    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\decorators.py:73(wrapped)\n1369147/918581    6.436    0.000 1041.750    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\decorators.py:171(wrapper)\n     4612    0.202    0.000  518.957    0.113 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:2642(gosterim_duzelt)\n     1362    3.519    0.003  481.588    0.354 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:2544(_b3_koridor_kirp)\n159447445  469.500    0.000  469.500    0.000 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3827(_sahipli)\n    28467    0.199    0.000  341.359    0.012 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\ops.py:111(unary_union)\n    28467  338.591    0.012  339.467    0.012 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:463(union_all)\n   227264    4.290    0.000  317.864    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:462(buffer)\n   227264  292.605    0.001  298.537    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\constructive.py:136(buffer)\n     6555    0.186    0.000  290.580    0.044 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:2188(kapat)\n      809  222.082    0.275  272.217    0.336 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:4879(_puan_bolgesi)\n   198410    0.622    0.000  226.967    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:668(intersection)\n   198410  221.665    0.001  221.665    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:112(intersection)\n    23090    0.097    0.000  117.702    0.005 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:652(difference)\n    23090  116.957    0.005  116.957    0.005 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\set_operations.py:39(difference)\n    22723   98.774    0.004   98.774    0.004 {method 'argmin' of 'numpy.ndarray' objects}\n   274696   23.202    0.000   98.084    0.000 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3945(_kusatilmis)\n  4333547    8.766    0.000   96.996    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:772(contains)\n   162785    1.076    0.000   94.933    0.001 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:84(temiz)\n 35610388   57.292    0.000   92.287    0.000 {built-in method builtins.any}\n  7927816   32.435    0.000   65.481    0.000 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:5267(_osm_aktif)\n   850399   52.606    0.000   52.606    0.000 {method 'reduce' of 'numpy.ufunc' objects}\n  2196277    5.226    0.000   47.021    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:721(is_empty)\n  4333547   40.160    0.000   40.160    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:551(contains)\n     1362    0.675    0.000   37.045    0.027 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:2442(_b2_enklav_birlestir)\n   172412    0.675    0.000   33.533    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:749(is_valid)\n        1    9.569    9.569   32.116   32.116 C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\arac\\girdi.py:1524(yakin_ciftler)\n   150614    1.186    0.000   31.777    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\polygon.py:227(__new__)\n     2077    6.786    0.003   31.361    0.015 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:4649(mp_koord)\n   429957    1.847    0.000   31.108    0.000 {method 'sum' of 'numpy.ndarray' objects}\n   172412   24.900    0.000   30.379    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:429(is_valid)\n   429979    0.702    0.000   29.261    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\_methods.py:50(_sum)\n     2192   28.101    0.013   28.101    0.013 {method 'astype' of 'numpy.ndarray' objects}\n     2651    9.976    0.004   26.968    0.010 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:3619(alan_km2)\n   114248    0.678    0.000   25.253    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\geo.py:46(box)\n  7640898   13.765    0.000   22.569    0.000 C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\arac\\girdi.py:1259(km)\n  2203737   22.427    0.000   22.427    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\predicates.py:181(is_empty)\n   176336    1.093    0.000   21.016    0.000 {method 'any' of 'numpy.ndarray' objects}\n   191258    0.517    0.000   20.104    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\_methods.py:58(_any)\n   146776    3.227    0.000   19.378    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\polygon.py:61(__new__)\n      554    0.036    0.000   18.088    0.033 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:4040(serbest_kenar)\n    25113    0.175    0.000   17.810    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\ops.py:285(nearest_points)\n      553    0.611    0.001   17.695    0.032 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:4023(bos_bolge)\n  4567570    5.466    0.000   17.457    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:72(_maybe_unpack)\n  4601538   13.082    0.000   16.794    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\coords.py:43(__iter__)\n    25113   15.659    0.001   15.659    0.001 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\linear.py:205(shortest_line)\n   276615    2.989    0.000   13.738    0.000 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:5460(<genexpr>)\n   127662    0.461    0.000   13.382    0.000 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:347(hausdorff_distance)\n    13213    0.067    0.000   13.162    0.001 C:/Users/emrem/AppData/Local/Temp/claude/C--Users-emrem-OneDrive-Desktop-TAR-H-CO-RAFYA-S-TES-/5b50fb78-d5a8-419e-b30b-b18cdc70c388/scratchpad/uret_petek_TABAN0918.py [HIZ kesiti]:2203(poligonal)\n 16775120   12.216    0.000   12.216    0.000 {method 'append' of 'list' objects}\n  4567570   11.990    0.000   11.990    0.000 {method 'item' of 'numpy.generic' objects}\n     1364    0.007    0.000   11.823    0.009 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\geometry\\base.py:613(simplify)\n     1364   11.769    0.009   11.769    0.009 C:\\Users\\emrem\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shapely\\constructive.py:1128(simplify)\n\n\n"
+}
