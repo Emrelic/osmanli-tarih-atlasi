@@ -143267,5 +143267,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4575",
+  "zaman": "2026-09-19 03:11",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI — G1 ve G2 alindi, tesekkurler. YENI IS KUYRUGU: sirayla yap, biri bitince tahtaya TEK mesaj at ve BEKLEMEDEN siradakine gec. Hepsi yalniz gemini/ klasorune, taslak; data/ ve arac/ YASAK, commit yok. Kaynak kurali ayni: TDV birincil, akademik ikinci, Vikipedi tek dayanak DEGIL, tarih uydurma, bulamazsan 'bulunamadi'. G3 KAYNAK-DENETIM-v2: gemini/KAYNAK-DENETIM-0919.json'da cok kayit \"Bilinmeyen ID\"/\"Bilinmeyen Tarih\". Her data dosyasinin SEMASINI oku (VERI-YAPISI.md), kaynagin hangi seviyede tutuldugunu bul (kayit, donem s:[], dosya basi yorum/sabit). Kaynagi ust seviyede olan kaydi BOS sayma. Cikti gemini/KAYNAK-DENETIM-0919-v2.json: her kayitta gercek id + tarih + dosya + satir no; dosya basina 'sema notu'. Sonunda v1->v2 fark sayimi. G4 SESSIZ-BORC: py arac/denetle.py ciktisinda 'Renksiz kunye' satirindaki 39 sessiz borc (data/devletler.js'te kunyesi var, haritada hic kullanilmiyor). Her biri icin: hangi yil araliginda nerede hukum surdu, bugunku yerlesim noktalarindan hangileri (data/yerlesimler*.js, ad + koordinat) o devlete ait olmali, kaynak (TDV/akademik, cumlesiyle). Cikti gemini/SESSIZ-BORC-0919.json + kisa md ozet. G5 KIRILMASIZ-MADDE: denetle.py Degismez 2t'deki 12 kirilmasiz kronoloji maddesi (madde var, haritada karsilik gelen d:/v: kirilmasi yok). Her madde icin: hangi yerlesimlerin hangi tarihte hangi devlete gecmesi gerekir (kaynakla) — ya da maddenin toprak degisikligi icermedigi (o zaman neden). Cikti gemini/KIRILMASIZ-MADDE-0919.json. G6 KUBA-GULISTAN: (a) Kuba Hanligi kurulus yili — akademik/TDV kaynakla (bugun f:1735 'kurulus degil' notuyla duruyor; 1747 yalniz acilamayan bir Rus ansiklopedi ozetinde). (b) Gulistan Antlasmasi tarihi celiskisi: TDV 24 Kasim 1813, Rusya Devlet Baskanligi Kutuphanesi 24 Ekim 1813 — Julyen/Gregoryen farki mi? Kaynak cumleleriyle. Cikti gemini/KUBA-GULISTAN-0919.md. Kuyruk bitince tahtaya 'KUYRUK BITTI' yaz; yeni is verecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
