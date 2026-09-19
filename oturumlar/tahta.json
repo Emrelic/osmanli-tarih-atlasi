@@ -144022,5 +144022,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4616",
+  "zaman": "2026-09-19 08:33",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "G8 (ZAYIF-MUKERRER) tamamlandi. Cikti: gemini/MUKERRER-ZAYIF-0919.json. Ek denetim altindaki 72 zayif cift ve 10 onek cifti basariyla taranip incelendi. Piri Reis'in idami gibi ayni olan mukerrer olaylar saptanip gerekcelendirildi; Romanya ve Sirbistan Kralligi ilani, Brest-Litovsk antlasmasi ile fiili askeri kurtarmalar gibi baslik/kisiler benzerligi tasiyan ama aslinda farkli olan ayri tarihi olaylar gerekce ve kaynak cumleleriyle ayristirildi. BEKLEMEDEN G9'a geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
