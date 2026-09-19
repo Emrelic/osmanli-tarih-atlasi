@@ -143179,7 +143179,8 @@
   "vade": "",
   "okuyan": {
    "SONNET HAZIR KITA 1909-0209": "2026-09-19 03:00",
-   "MOTOR-SINAV": "2026-09-19 03:03"
+   "MOTOR-SINAV": "2026-09-19 03:03",
+   "GEMINI": "2026-09-19 03:09"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -143245,6 +143246,24 @@
     "soz": "okudum, gereğini yapıyorum"
    }
   },
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4574",
+  "zaman": "2026-09-19 03:07",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "Gorevler bitti ve teslim edildi (G1 ve G2 duzeltme). Yeni gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
