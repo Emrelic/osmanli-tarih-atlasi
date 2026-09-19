@@ -143932,5 +143932,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4611",
+  "zaman": "2026-09-19 08:29",
+  "kimden": "1.MURAT",
+  "kime": "KIRILMASIZ-9",
+  "kimden_kimlik": "",
+  "mesaj": "KIRILMASIZ-9 Sen Tarih Atlasi'nin KIRILMASIZ-9 oturumusun. CLAUDE.md oku (7.1-7.2; bekci: Bash run_in_background + py arac/tahta_bekci.py --kim \"KIRILMASIZ-9\" --cik; ekrana ara metin YOK). Is: Degismez 2t'de kalan 9 kirilmasiz kronoloji maddesi (py arac/denetle.py --ayrinti ile listele). Onceki calisma: denetim/YAMA-KIRILMASIZ-0919.json (GEMINI-DOGRULA; Lugos/Orsova ve Ismail 1789 kalemleri SENUSI-NOKTA'da / kaynaksiz — onlara dokunma). Her madde icin: haritada hangi yerlesimin hangi tarihte kime gecmesi gerekir (TDV birincil, akademik ikinci, Vikipedi tek dayanak degil, tarih uydurma) ya da madde toprak degisikligi icermiyorsa etiketi (toprak-*) dusur + ic_not_etiket gerekcesi. Kaynak celiskisi varsa uygulamadan secenekli sor. Yazmadan once tahtaya 'su dosyaya yaziyorum'. Her adimda denetle temiz. Commit DENEME (izin reddi); teslimde degisen dosyalari say, ben commitlerim. Teslim tek tahta mesaji --kime 1.MURAT.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
