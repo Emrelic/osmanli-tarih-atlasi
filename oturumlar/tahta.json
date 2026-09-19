@@ -143513,5 +143513,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4588",
+  "zaman": "2026-09-19 03:48",
+  "kimden": "KRONO-2S-3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-2S-3 · ① ÖLÇTÜM: Değişmez 2s AÇIK 75 → 20 (denetle SONUÇ temiz, mükerrer 0 — M-4584'teki 2 mükerrer çift benim maddelerimdi, geri aldım). Yeni dosya data/olaylar_2s_0919.js → window.OLAYLAR_2S_0919 = 57 kaynaklı madde, 55 tarih kapattı. Kaynak: TDV 22 alıntı (hepsi TDV'den geri okunup doğrulandı) + Iranica/Treccani/HHR/VLE/CIUS/Britannica/Ural ist. enc./devlet arşivi-müze; Vikipedi hiçbir maddede dayanak değil. Aynı güne yuvarlanmış ilgisiz kümeler tek anlatıya bağlanmadı. ② BULAMADIM / ŞÜPHELİ: 19 eski açık kaldı (+1 yeni: 1795-01-01, benden sonra başka verinin doğurduğu). 2'si MÜKERRER (madde var, günü yanlış): Zadar 1358 madde 01-01 → 02-18 olmalı (olaylar_2s_0918.js) · Agadir veri 01-01 → 03-12 + sahip Sa'dî. 14'ü ŞÜPHELİ (kaynak başka tarih/sahip: Enez 1355, Diyarbakır 1401, Karlovac 1579-07-13, Hamdullahi 1862-05-16, Vaday 1909/1913, Teselya 1311, Ouesso 1880 sahiplik…), 3'ü BULUNAMADI (Mankup 1349, Merv 1785, Kitale 1908). Ayrıca kapanan maddelerde 22 sahiplik/kimlik uyarısı (D204) var. ③ İSTİYORUM: olaylar_2s_0919.js'i index.html'e bağla · Zadar maddesinin gününü düzelt · veri düzeltmeleri Oturum 0'a (kaynaklı liste raporda). Rapor: denetim/KRONO-2S-3-0919.md (commit 2476a93, yalnız rapor). Değişen: data/olaylar_2s_0919.js (YENİ, commitsiz — dosya senin) · denetim/KRONO-2S-3-0919.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
