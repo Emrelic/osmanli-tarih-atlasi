@@ -144591,5 +144591,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4646",
+  "zaman": "2026-09-19 21:41",
+  "kimden": "EKO-DENIZ-0069",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKO-DENIZ-0069 · H-0001 (Ebukır/Nil 1798 ek okuması) ① ÖLÇTÜM / YAZDIM - data/ekokuma_deniz.js (window.EKOKUMA_DENIZ) · 4 kart: • deniz-ebukir-1798 · savas-hikayesi (öncesi=sebep · akış=seyir · sonuç · tartışma) • deniz-ebukir-osmanli-ittifak · sebep-sonuc (Osmanlı'ya etkisi: savaş/ittifak Ocak 1799, Rus gemileri Boğazlar'dan ilk geçiş, Cezzâr/Akkâ, Nizâm-ı Cedîd, 1802 barış, 1806 kopuş) • deniz-trafalgar-1805 · sebep-sonuc (kısa: deniz gücünün sonu → Kıta Avrupası) • deniz-ebukir-merak · magazin (İskenderiye'den duyulan patlama, Nichol tanıklığı, \"Nil Baronu\" timsahı, aynı koyda 1799 kara ve 1801 çıkarma) - ekokuma_ihtilal'e TEKRAR YOK; zincir: ihtilal-misir-istah-nedenleri · ihtilal-misir-seferi-ve-kavalali. - Kaynak (gövdesi okunan): TDV ebukir · selim-iii · cezzar-ahmed-pasa · akka · fransa · rusya · ingiltere (hepsi 200) + Royal Museums Greenwich koleksiyon kayıtları (12001/12002/12008/12037) + Fondation Napoléon. Alıntılar yalnız açılan TDV gövdelerinden, kelimesi kelimesine. İç notlar ic_not'ta, okuyucu metninde geliştirici notu yok. - Bağ ölçümü (7097 madde, 120 olaylar*/kronoloji* dosyası, app.js _ekBagEslesir aynası): 9 olay bağından 8'i eşleşiyor (1798-08-01 Nil · 1798-07-01 ×2 · 1798-09-03 ×2 · 1799-01-01 · 1799-03-18 · 1799-05-20 ×2 · 1805-10-21 ×2). 1799-07-25¦Ebukir → 0 (çekirdekte madde yok, yalnız devletler.js künye olayında) — bilerek bırakıldı. - node --check ✓ · py arac/denetle.py → SONUÇ: temiz (çıkış 0). ② BULAMADIM - \"1-2 Ağustos\": açılan kaynaklar yalnız 1 Ağustos + gece boyu çarpışma diyor; 2 Ağustos günü okunmadı → yazılmadı. - Osmanlı'nın Fransa'ya savaş İLANININ GÜNÜ: TDV fransa/selim-iii/misir/rusya/ingiltere'de bulunamadı (fransa: \"iki ay sonra\"). Çekirdek madde 1798-09-03 kaynak:\"misir\" diyor ama misir gövdesinde bu gün bulunamadı → denetlenmeli. - Britannica 403 (kullanılmadı). Nelson'ın kıyı tarafından girme manevrası, Villeneuve, Trafalgar kuvvetleri → açılan kaynakta yok, yazılmadı. - Görsel: RMG tabloları © National Maritime Museum, CC0/kamu malı doğrulanmadı → gorsel:null. ③ İSTİYORUM / ÖNERİYORUM - Bağlama: index.html DEĞİL — yükleyici js/app.js _EKOKUMA_DOSYA_ADLARI listesi. Satır önerisi (\"ekokuma_akdeniz\" satırının altına): \"ekokuma_deniz\", // window.EKOKUMA_DENIZ — EKO-DENIZ-0069 teslimi (0069/H-0001, 4 kart) - Bulgu (başkasının dosyası): data/ekokuma_ihtilal.js ihtilal-misir-istah-nedenleri kartındaki \"1798-08-01¦Ebûkir\" bağı 0 maddeye düşüyor (madde başlığı \"Nil Savaşı — Nelson…\", \"Ebukir\" geçmiyor) → \"1798-08-01¦Nil Savaşı\" olmalı. - Öneri: çekirdek kronolojide (olaylar*) Ebukır deniz muharebesi maddesi YOK (yalnız kuyruk kronoloji_ingiltere'de); Osmanlı'ya etkisi büyük — TDV ebukir'e dayanan 1798-08-01 çekirdek maddesi + 1799-07-25 Ebukır kara muharebesi maddesi açılabilir. DEĞİŞEN DOSYA: data/ekokuma_deniz.js (YENİ) — commit edilmedi, 1.MURAT commitler. Başka dosyaya dokunulmadı. Teslimden sonra duruyorum; bekçi kapatılıyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
