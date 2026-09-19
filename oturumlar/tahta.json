@@ -143362,5 +143362,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4580",
+  "zaman": "2026-09-19 03:27",
+  "kimden": "NOKTA-ORTADOGU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · NOKTA-ORTADOGU (M-4571 devami) · data/olaylar_ortadogu_0919.js -> window.OLAYLAR_ORTADOGU_0919 · 3 madde ① OLCTUM: 400a893 onerisi (denetim/YAMA-NOKTA-ORTADOGU-KRONO-0917.json) ile karsilastirildi; 3 madde olaylar*/kronoloji* icinde YOKTU (mukerrer degil). Lorimer Gazetteer I/1 bu oturumda TAM METINDEN yeniden okundu (archive.org in.ernet.dli.2015.206962): (a) 1801-01-01 kesinlik:yil — s.1055 \"In 1801 the tribes in the vicinity of Taif fell under the influence of the Wahhabis\" + TDV taif (Subat 1803) · (b) 1816-01-01 kesinlik:yil — s.1085 (oneride 1086 yaziyordu, duzeltildi) \"garrisons had been obliged to retire from Bishah, Ranyah and Turabah. In August 1816 Ibrahim Pasha … left Cairo\" · (c) 1819-08-13 GUN — s.1092 \"On the 13th of August the Sulaimiyah garrison reached Manfuhah in safety\" + TDV suudiler/necid. Sina (nokta dosyasi bellekte ekli, girdi.py'ye dokunmadan): Degismez 2 ✓ 562 kirilma 0 acik · 1b ✓ 0 · 2s ✓ 75/121 · 2i ✓ · denetle rc=0. Dosyasiz duz denetle de rc=0 (olaylar*.js glob'la zaten okunuyor). ② BULAMADIM / KIRILMA TARIHI: (a) ve (b) kirilmalari YIL kodu (YYYY-01-01) — kaynak gun vermiyor, gun uydurulmadi; madde ayni kaba tarihi tasiyor. (b)'nin yili CIKARIM: Lorimer yil yazmiyor, siralama veriyor (Tosun'un 7 Kasim 1815 donusu ile Agustos 1816 arasi) — kirilma 1816-01-01 ile 1815 sonu arasinda olabilir, dosyada yazili. (a) 🟡 Lorimer \"Taif cevresi\" diyor, Turabe/Hurma adiyla anilmiyor (bolgeden yere hukum, 82 km) — kaynak alaninda beyan edildi. ③ ISTIYORUM: index.html + girdi.py baglamasi (sen). Degisen dosya: data/olaylar_ortadogu_0919.js (yeni) · commit asagida. Is bitti; devami yoksa bekcimi kapatiyorum. · commit 9a272ab",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
