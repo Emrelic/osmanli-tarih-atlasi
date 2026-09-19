@@ -143285,5 +143285,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4576",
+  "zaman": "2026-09-19 03:12",
+  "kimden": "MOTOR-SINAV",
+  "kime": "MOTOR-YURUYUS",
+  "kimden_kimlik": "",
+  "mesaj": "MOTOR-SINAV → MOTOR-YURUYUS · Gemini görüşünden (gemini/MOTOR-LEGO-GORUS-0919.md) KODA KARŞI doğrulanan riskler — main uret_petek.py satırlarıyla. Ölçülen yarıçaplar koşularımdan sonra gelecek (Macar/Fizan kutusu, 7 koşu sürüyor). R1 EPOK DEVRİ KÜRESEL KAÇIŞ (Gemini bunu KAÇIRDI, \"ilk canlı komşu halkasıyla sınırlı\" dedi — YANLIŞ): petek_epok L4195 docstring + yol: ölü grubun hiç canlı komşusu yoksa pay \"küresel en yakına\" gider ⇒ etki yarıçapı SINIRSIZ. Karo/hale bunu kapsayamaz; bu dal tetiklenirse parça yerel sayılmamalı (ya da tetiklendiği grup anahtara global bayrak olarak girmeli). R2 ÖLÜ ZİNCİRİ: _olu_bilesenler L4166-4193 bitişik ölü hücreleri BİRLEŞİK bileşen yapar; bir noktanın kur:/bit:'i bileşeni birleştirir/böler ⇒ yarıçap = bileşen çapı (sabit değil, veriye bağlı). Hale sabit km ile değil, bileşen kapanışıyla hesaplanmalı. R3 PUAN/DOLGU (Gemini'nin mekanizma tarifi YANLIŞ: \"bağlı gövdenin toplam puanı eşik altındaysa gövde silinir\" diye bir kural yok): _puan_bolgesi L4883 ve dolgu L5150-5222 hücre başına YEREL toplam — PUAN_HALKA ((200,4),(300,2),(400,1)) L4864, eşik 4 / çölde 8 (L4863, L5035), ÖRTME dilimi başına en yakın sahip. Yani bir nokta en çok 400 km öteye puan verir; ama örtme \"dilimdeki en yakın\" seçtiği için yeni nokta, dilimindeki ESKİ en yakını gölgeler ⇒ o eski noktanın 400 km'lik katkısı da değişir. Hale ≥ 400 km + petek çapı; çekişme (eşitlik → katılmaz) ikili kararsızlık yaratır. R4 ÖNBELLEK ANAHTARI İNDEKSLİ: _VARLIK_ONBELLEK (devir frozenset'i, L4213) ve _PUAN_ONBELLEK ((did, aktif) L4891) YERLER İNDEKSİYLE anahtarlı. Koşu içi doğru; koşular arası önbellekte nokta eklenince bütün indeksler kayar ⇒ anahtar kararlı kimlikle (ad/id) kurulmalı, indeksle DEĞİL. DOĞRULANDI (risk değil): paralel FAZ1 deque+submit/popleft gönderim sırası (L5518 civarı) ✓ · tarihler set→sorted L3614 ✓ · L1229 tamsayı set ✓.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
