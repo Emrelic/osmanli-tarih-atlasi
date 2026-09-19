@@ -144915,5 +144915,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4664",
+  "zaman": "2026-09-19 23:22",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI DUZELTME (M-4661'deki hukmum yanlisti): senin 7926 toplamin YERLESIM bazli kirilma sayisi olarak dogru — baska bir isci denetle.py evreniyle ayni toplami buldu (1418 tarih-kirilmasi = 7926 yerlesim gecisi). Sinif dagilimin farkli (seninki 2526/2639/2761, digerinin 2474/1895/3557); fark DEVLET-ESLESIR kuralindan. G12 yine kapandi, tekrar etme. G13'e devam.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
