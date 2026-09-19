@@ -1,0 +1,318 @@
+[
+  {
+    "tarih": "1426-01-01",
+    "kategori": "fetih",
+    "baslik": "Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu",
+    "aciklama": "Cüneyd Bey'in idam edilmesiyle Aydınoğulları Beyliği kesin ve kalıcı olarak sona ermiş, toprakları doğrudan Osmanlı idaresine geçmiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "İzmir",
+        "koordinat": "38.418, 27.128",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "yer_adi": "Selçuk (Ayasuluk)",
+        "koordinat": "37.950, 27.366",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "yer_adi": "Tire",
+        "koordinat": "38.089, 27.734",
+        "dosya": "yerlesimler_anadolu.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Aydınoğulları» (Cilt 4, s. 231-234)",
+    "kaynak_cumlesi": "Cüneyd Bey'in ortadan kaldırılmasıyla Aydın ili kesin olarak Osmanlı topraklarına katılmış ve bir sancak haline getirilmiştir."
+  },
+  {
+    "tarih": "1560-07-30",
+    "kategori": "fetih",
+    "baslik": "Cerbe kalesinin düşüşü — adanın Osmanlı idaresine geçişi",
+    "aciklama": "Cerbe Deniz Zaferi sonrasında kuşatılan İspanyol kalesinin düşmesiyle Cerbe adası tamamen ve doğrudan Osmanlı idaresine katılmıştır.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Cerbe (Djerba)",
+        "koordinat": "33.807, 10.848",
+        "dosya": "yerlesimler_afrika2.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Cerbe» (Cilt 7, s. 394-396)",
+    "kaynak_cumlesi": "Piyale Paşa komutasındaki donanmanın Cerbe Kalesi'ni ele geçirmesiyle adadaki Hristiyan varlığı son bulmuş ve Cerbe doğrudan Trablusgarp beylerbeyliğine bağlanmıştır."
+  },
+  {
+    "tarih": "1488-01-01",
+    "kategori": "vassal",
+    "baslik": "Safi'nin Portekiz nüfuzuna girmesi",
+    "aciklama": "Fas'ın Atlantik kıyısındaki Safi şehri yerel yöneticilerinin Portekiz ile yaptığı antlaşma sonucunda Portekiz vassalığı/himayesi altına girmiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Safi (Asfi)",
+        "koordinat": "32.299, -9.237",
+        "dosya": "yerlesimler_afrika.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Safi» (Cilt 35, s. 484-486)",
+    "kaynak_cumlesi": "1488 yılında Safi'deki yerel idareciler Portekiz krallığına bağlılık sözü vererek şehri fiili bir Portekiz vassal limanı haline getirmişlerdir."
+  },
+  {
+    "tarih": "1513-09-01",
+    "kategori": "fetih",
+    "baslik": "Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi",
+    "aciklama": "Portekiz dükü komutasındaki büyük bir donanma Fas'ın stratejik Azemmûr kentini ele geçirmiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Azemmûr",
+        "koordinat": "33.287, -8.300",
+        "dosya": "yerlesimler_afrika.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Azemmûr» (Cilt 4, s. 327-328)",
+    "kaynak_cumlesi": "1513 Eylül başında Portekiz kuvvetleri nehirden girerek Azemmûr'u ele geçirmiş ve şehri kalın surlarla tahkim etmiştir."
+  },
+  {
+    "tarih": "1695-09-22",
+    "kategori": "savas",
+    "baslik": "Lugoş zaferi — II. Him seferi",
+    "aciklama": "II. Mustafa'nın ilk Avusturya seferinde Lugos Muharebesi kazanılmış ve General Veterani mağlup edilmiştir. Ancak bu zafer kalıcı bir sınır değişimi getirmemiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Lugos (Lugoj)",
+        "koordinat": "45.688, 21.903",
+        "dosya": "yerlesimler_avrupa.js"
+      }
+    ],
+    "toprak_degisikligi_mi": false,
+    "gerekce_toprak_degisikligi_yok": "Lugoş zaferi taktiksel bir meydan savaşı zaferi olup, o gün kalıcı sınır genişlemesi getirmemiştir; kaleler (Lippa, Lugos) geçici ele geçirilip ordu geri çekilirken yıkılmıştır (statüko korunmuştur).",
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Mustafa II» (Cilt 31, s. 250-254)",
+    "kaynak_cumlesi": "Lugoş önünde Veterani ordusu bozguna uğratılmış, ancak sefer mevsimi sonu yaklaştığı için bölgede kalıcı garnizon bırakılmadan Belgrad'a dönülmüştür."
+  },
+  {
+    "tarih": "1416-09-01",
+    "kategori": "isyan",
+    "baslik": "Torlak Kemal'in idamı — Saruhan kesin olarak Osmanlı'nın",
+    "aciklama": "Şeyh Bedreddin isyanının Saruhan (Manisa) kolunu yöneten Torlak Kemal yakalanarak idam edilmiş, beylik topraklarında doğrudan ve kesin Osmanlı idaresi kurulmuştur.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Manisa",
+        "koordinat": "38.612, 27.426",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Saruhanoğulları» (Cilt 36, s. 169-172)",
+    "kaynak_cumlesi": "Torlak Kemal isyanının bastırılması ve idamı ile Saruhan topraklarında beylik idaresi kalıntıları tamamen temizlenmiş, doğrudan merkeze bağlı sancak idaresi pekişmiştir."
+  },
+  {
+    "tarih": "1415-03-01",
+    "kategori": "antlasma",
+    "baslik": "Konya kuşatması ve Karamanoğulları ile antlaşma",
+    "aciklama": "Çelebi Mehmed'in Konya kuşatması sonrasında Karamanoğlu Mehmed Bey af dilemiş ve Osmanlı hâmiliğini (vassal statüsü) kabul eden bir antlaşma imzalanmıştır.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Konya",
+        "koordinat": "37.872, 32.492",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "toprak_degisikligi_mi": false,
+    "gerekce_toprak_degisikligi_yok": "Antlaşma diplomatik bir itaat ve vassal bağı kurmuş, ancak doğrudan bir sınır değişimi veya şehir ilhakı getirmemiştir.",
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Mehmed I» (Cilt 28, s. 391-396)",
+    "kaynak_cumlesi": "Karamanoğlu Mehmed Bey, Konya kuşatmasından sonra Çelebi Mehmed'e bağlılık andı içmiş ve beylik toprakları kendisine bırakılmıştır."
+  },
+  {
+    "tarih": "1529-09-08",
+    "kategori": "fetih",
+    "baslik": "Budin'in alınıp Zapolya'ya verilmesi",
+    "aciklama": "Viyana Seferi sırasında Budin kalesi Avusturyalıların elinden kurtarılarak Osmanlı vassal kralı Yanoş Zapolya'ya devredilmiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Budin (Buda)",
+        "koordinat": "47.500, 19.040",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Budin» (Cilt 6, s. 343-349)",
+    "kaynak_cumlesi": "1529 Eylül'ünde Budin Kalesi alınarak tacı bizzat padişah tarafından Yanoş Zapolya'ya verilmiş ve şehir Osmanlı himayesinde vassal Macar krallığı merkezi olmuştur."
+  },
+  {
+    "tarih": "1724-06-24",
+    "kategori": "antlasma",
+    "baslik": "İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması",
+    "aciklama": "Osmanlı Devleti ile Rusya İmparatorluğu arasında imzalanan mukasemenâme ile çöken Safevî Devleti'nin Kafkasya ve Batı İran toprakları iki güç arasında bölüşülmüştür.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Derbend",
+        "koordinat": "42.068, 48.290",
+        "dosya": "yerlesimler_asya.js"
+      },
+      {
+        "yer_adi": "Bakü",
+        "koordinat": "40.378, 49.892",
+        "dosya": "yerlesimler_asya.js"
+      },
+      {
+        "yer_adi": "Tebriz",
+        "koordinat": "38.080, 46.291",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "yer_adi": "Hemedan",
+        "koordinat": "34.798, 48.515",
+        "dosya": "yerlesimler_asya.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «İstanbul Antlaşması (1724)» (Cilt 23, s. 200-202)",
+    "kaynak_cumlesi": "1724 tarihli antlaşma uyarınca Derbend, Bakü ve Dağıstan sahilleri Rusya'ya bırakılırken; Tebriz, Gence, Revan ve Hemedan bölgeleri Osmanlı payına düşmüştür."
+  },
+  {
+    "tarih": "1727-10-04",
+    "kategori": "antlasma",
+    "baslik": "Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması",
+    "aciklama": "Afgan hükümdarı Eşref Şah ile yapılan antlaşma ile Osmanlı Devleti'nin batı İran'daki kazanımları resmen onaylanmıştır.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Hemedan",
+        "koordinat": "34.798, 48.515",
+        "dosya": "yerlesimler_asya.js"
+      }
+    ],
+    "toprak_degisikligi_mi": false,
+    "gerekce_toprak_degisikligi_yok": "Bu antlaşma mevcut fiili Osmanlı askeri fethini ve statükosunu hukuken onaylayan bir teyit belgesidir; yeni bir toprak kırılması yaratmamıştır.",
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Hemedan Antlaşması»",
+    "kaynak_cumlesi": "Eşref Şah, Hemedan Antlaşması ile Osmanlı padişahını bütün Müslümanların halifesi olarak tanımış ve batı İran'daki Osmanlı hakimiyetini kabullenmiştir."
+  },
+  {
+    "tarih": "1515-01-01",
+    "kategori": "None",
+    "baslik": "Nusaybin ve Cizre-Mardin çevresinin İdrîs-i Bitlisî eliyle Osmanlı'ya katılması",
+    "aciklama": "İdrîs-i Bitlisî'nin yürüttüğü başarılı diplomasiyle Doğu ve Güneydoğu Anadolu Kürt beylikleri savaşsız olarak Osmanlı Devleti'ne ilhak edilmiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Mardin",
+        "koordinat": "37.313, 40.733",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "yer_adi": "Cizre",
+        "koordinat": "37.324, 42.189",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "yer_adi": "Nusaybin",
+        "koordinat": "37.078, 41.217",
+        "dosya": "yerlesimler_asya.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «İdrîs-i Bitlisî» (Cilt 21, s. 485-488)",
+    "kaynak_cumlesi": "İdrîs-i Bitlisî'nin Kürt beylerini ikna etmesiyle Nusaybin, Cizre, Mardin ve İmadiye gibi yirmiye yakın stratejik bölge savaş yapılmadan Osmanlı idaresine geçmiştir."
+  },
+  {
+    "tarih": "1919-11-27",
+    "kategori": "antlasma",
+    "baslik": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+    "aciklama": "Bulgaristan, İtilaf Devletleri ile imzaladığı Neuilly Antlaşması gereğince Batı Trakya ve Ege kıyılarını (Gümülcine, Dedeağaç) müttefiklere devretmiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Gümülcine",
+        "koordinat": "41.119, 25.405",
+        "dosya": "yerlesimler.js"
+      },
+      {
+        "yer_adi": "Dedeağaç",
+        "koordinat": "40.846, 25.874",
+        "dosya": "yerlesimler_avrupa.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Batı Trakya» (Cilt 5, s. 144-148)",
+    "kaynak_cumlesi": "1919 Neuilly Antlaşması ile Bulgaristan Batı Trakya'yı müttefik devletlerin ortak idaresine bırakmış, bölge daha sonra Yunanistan tarafından işgal edilmiştir."
+  },
+  {
+    "tarih": "1921-06-01",
+    "kategori": "siyaset",
+    "baslik": "İtalyanlar Antalya'yı boşaltmaya başladı",
+    "aciklama": "İtalya kuvvetleri Millî Mücadele cephesindeki gelişmeler ışığında Antalya ve Güneybatı Anadolu'daki işgal bölgelerini tahliye etmeye başlamıştır.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Antalya",
+        "koordinat": "36.884, 30.702",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Antalya» (Cilt 3, s. 220-224)",
+    "kaynak_cumlesi": "İtalyan askeri birlikleri 1 Haziran 1921 tarihinden itibaren Antalya ve çevresindeki işgal kuvvetlerini sessizce tahliye etmeye başlamış ve çekilme tamamlanmıştır."
+  },
+  {
+    "tarih": "1811-07-04",
+    "kategori": "savas",
+    "baslik": "Rusçuk Muharebesi ve Kutuzov'un Rusçuk'u yıkıp Tuna'nın sol yakasına çekilmesi",
+    "aciklama": "Osmanlı ordusu Rusçuk önünde Ruslara yenilmiş, fakat Rus general Kutuzov şehri tahkim edemeyeceğini görerek kaleyi yıkıp Tuna'nın kuzeyine çekilmiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Rusçuk",
+        "koordinat": "43.856, 25.952",
+        "dosya": "yerlesimler_avrupa.js"
+      }
+    ],
+    "toprak_degisikligi_mi": false,
+    "gerekce_toprak_degisikligi_yok": "Kutuzov taktiksel olarak kaleyi yıkıp Tuna'nın sol yakasına çekilmiş ve Osmanlılar şehri hemen geri almıştır; kalıcı bir sınır değişimi yaşanmamıştır.",
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Rusçuk» (Cilt 35, s. 250-254)",
+    "kaynak_cumlesi": "Kutuzov, Rusçuk zaferine rağmen kaleyi yıkarak nehrin sol yakasına çekilmiş, Osmanlı kuvvetleri de tahrip edilmiş şehri hemen tekrar işgal etmiştir."
+  },
+  {
+    "tarih": "1737-10-16",
+    "kategori": "fetih",
+    "baslik": "Niş'in Avusturya'dan geri alınışı",
+    "aciklama": "Sadrazam Yeğen Mehmed Paşa komutasındaki Osmanlı kuvvetleri Avusturya işgali altındaki Niş kalesini geri almıştır.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Niş",
+        "koordinat": "43.321, 21.895",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Niş» (Cilt 33, s. 144-147)",
+    "kaynak_cumlesi": "1737 Ekim ortasında Osmanlı kuvvetleri Niş Kalesi'ni Avusturyalılardan geri alarak şehri tekrar doğrudan Osmanlı sancağı haline getirmiştir."
+  },
+  {
+    "tarih": "1789-10-11",
+    "kategori": "kayip",
+    "baslik": "İsmâil Kalesi'nin teslimi (1789)",
+    "aciklama": "1787-1792 Osmanlı-Rus Savaşı sırasında Tuna ağzındaki stratejik İsmail kalesi Rus kuşatması sonucu teslim olmuştur.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "İsmail",
+        "koordinat": "45.350, 28.833",
+        "dosya": "yerlesimler.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «İsmail» (Cilt 23, s. 110-112)",
+    "kaynak_cumlesi": "İsmail Kalesi, 1789 Ekim ayında Rus kuşatma ordusuna teslim olmuş ve Kilia-İsmail hattındaki Osmanlı savunması çökmüştür."
+  },
+  {
+    "tarih": "1790-04-16",
+    "kategori": "kayip",
+    "baslik": "Eski Hırsova'nın düşüşü — kış boyu süren muhasaranın sonu",
+    "aciklama": "Osmanlı-Rus savaşı sırasında Tuna nehri kıyısındaki Hırsova (Hârşova) kalesi Rus ordusuna boyun eğmiştir.",
+    "etki_eden_yerlesimler": [
+      {
+        "yer_adi": "Hırsova",
+        "koordinat": "44.685, 27.954",
+        "dosya": "yerlesimler_avrupa.js"
+      }
+    ],
+    "toprak_degisikligi_mi": true,
+    "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Hırsova» / Dobruca fethi",
+    "kaynak_cumlesi": "Hırsova kalesi 1790 Nisan ayında Rus kuvvetleri tarafından düşürülmüş ve garnizon teslim alınmıştır."
+  }
+]
