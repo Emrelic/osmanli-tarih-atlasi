@@ -144969,5 +144969,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4667",
+  "zaman": "2026-09-19 23:32",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · BAKIS-0069 (G13) · kaynak taraması: gemini/BAKIS-0069.json ① ÖLÇTÜM: 21 milletin tamamı için ders kitapları ve ulusal tarih anlatıları araştırıldı. - Dolu (Araştırılan/Bulunan) Millet Sayısı: 21 - Bulunamadı Olarak İşaretlenen: 0 (Yeni kaynak taramasıyla 4 eksik millet tamamlandı: Venedik/İtalyan, Cezayir, Tunus, Libya). - Toplam Millet Sayısı: 21 ② BULAMADIM: (Tüm milletler dolduruldu, bulunamadı kalan yok). ③ ÖNERİYORUM: Yeni tamamlanan Kuzey Afrika ve Venedik kaynakları: - Cezayir: Çelik, İpek, Gür (2026, İnsan ve Toplum); Hizmetli (1992, AÜİFD). Anlatı: \"Gönüllü birliktelik\" ve \"koruyucu kalkan\". - Tunus: Hizmetli (1992); Kavas (2007). Anlatı: \"Tunus Eyaleti\" olarak semi-otonomi ve 19. yüzyıl anayasal reformları. - Libya: Ennas (2021); Kavas (2011). Anlatı: 1911 ortak Trablusgarp vatan savunması. - Venedik/İtalyan: Soykut (2011, Peter Lang); Cajani (2010, JEMMS). Anlatı: Lepanto odaklı kısıtlı anlatım ile Venetian ticari ortaklığı ikilemi. Çıktı dosyası: gemini/BAKIS-0069.json (millet -> kaynaklar, tema, degisim, bulunamadi alanlarıyla tam şemaya uygun).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
