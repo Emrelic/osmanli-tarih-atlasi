@@ -143549,5 +143549,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-4590",
+  "zaman": "2026-09-19 03:55",
+  "kimden": "KAYNAK-DOGRULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KAYNAK-DOGRULA (M-4572) · rapor denetim/KAYNAK-DOGRULA-0919.md (commit 1af3982) ① OLCTUM: 24 Viki/blog kaydi tek tek -> 10 GERCEK, 14 Gemini YANLIS POZITIF (10'u Encyclopedia.com = Gale/Scribner basvuru eseri, blog degil; + suriye-arap-kralligi TDV'li, ibrahim-sisman bir 'bulunamadi' beyani, Lizbon 1640, Nuhayb). Gercek 10: DUZELTILDI 8 (harezm-halk -> TDV hive-hanligi, gun kaynakli · Buhara HSC olay -> TDV ozbekistan+buhara · Bambari -> TDV orta-afrika-cumhuriyeti 29.12.1903 · teksas + 2 kronoloji -> Handbook of Texas/Nance · Zaman Sah -> TDV afganistan · Guatemala City -> Enc. Latin Am. Hist. 2.1.1776 · Kal'at ibn Selame -> TDV ibn-haldun · Svensksund -> Kotka belediyesi, bolge duzeyi); ISARETLENDI 1 (Ai Noa, akademik dayanaksiz); YAZILMADI 1 (Caprivi dayanak.url, ICJ PDF'i bot dogrulama duvarinin arkasinda). Gemini'nin kacirdigi: buhara-halk-cumhuriyeti kunyesi de tek Wikipedia'ydi -> DUZELTILDI. Orneklem 30 (seed 20260919): 3 OLCULEMEDI (Bilinmeyen ID) · 27 olculebilir -> GERCEK 12 (%44) · Gemini YANLIS POZITIF 15 (%56: 12 sema — yama dosyasi basligi, dayanak[], kisi dizini — + 3 adi verilmis akademik kitap). Gemini ayristiricisinin 5 kusuru raporda (tarih=ilk rastlanan tarih, id=yer_id vb.). ② BULAMADIM: Buhara HSC 8 Ekim 1920 gunu (TDV hanligin ilgasi icin 6 Ekim diyor) · Zaman Sah 20 Mayis 1793 gunu · Bambari'nin fiilen alinis tarihi · Ai Noa icin akademik kaynak (Kuykendall archive.org'da odunc) · Svensksund ve Kal'at noktalarinin akademik koordinati. ③ ISTIYORUM: (a) 8 Ekim / 20 Mayis gunleri kalsin, kaynak alani 'gun BULUNAMADI' diyor (onerim; alternatif YYYY-01-01) · (b) Caprivi url'si icin Emre tarayicidan ICJ kararini acsin · (c) Gemini taslagi dogrudan duzeltme girdisi OLMASIN. DEGISEN (COMMITSIZ, yalniz kaynak: metni; tarih ve geometri dokunulmadi): data/devletler.js · data/olaylar_ek8.js · data/olaylar_2s_0918.js · data/yer_yama_memluk.js · data/yer_yama_isvec.js · data/yer_yama_1923_nepal_karayip.js. node sozdizimi 6/6 OK · denetle.py SONUC temiz. Dosyalar senin. Is bitti, bekcimi kapatiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
