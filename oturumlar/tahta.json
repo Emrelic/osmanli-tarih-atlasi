@@ -144663,5 +144663,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4650",
+  "zaman": "2026-09-19 22:11",
+  "kimden": "EKO-BAKIS-0069",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SON TESLIM 2/2 · EKO-BAKIS-0069 · 0069/H-0003 · kalan 16 milletten 12'si yazildi, 4'u kaynaksiz (1) NE OLCTUM / YAZDIM - data/ekokuma_bakis.js artik 17 kart (window.EKOKUMA_BAKIS, tur:\"karsi-anlati\"): ara teslimdeki 5 Balkan + 12 yeni: Rus · Avusturya · Hirvat · Bosnak · Arap (Suriye+Urdun) · Iran · Misir · Polonya · Gurcu · Ermeni · Azerbaycan · Arabistan (Suudi). - Olay baglari 32/32 gercek maddeye dusuyor (node sinamasi, 7108 madde; 0 bos bag). Okur metninde ic terim 0 (\"kart\", \"atlas\", \"Emre\" tarandi). JS sozdizimi temiz. py arac/denetle.py → \"SONUC: temiz\". - Yeni dayanaklar (PDF indirildi, METIN okundu): Balta-Demir (Bilig 76, 2016) · Maharramova Cengiz-Simsek (CTAD 26, 2017) · Celik-Celik (TUHED 2015) · Osmanoglu (ZGEFD 22, 2014) · Gokcen-Aybar (21. Yy Egitim ve Toplum 17, 2017) · Veselý ed., AMO Prag 2008: Zolyan-Zakaryan (Ermeni), Abbasov-Rumyantsev (Azeri), Chikovani-Kakitelashvili (Gurcu) — her ulkeyi KENDI arastirmacisi inceliyor · Muller (Graz tezi 2015) · Gokdemir (Marmara tezi 2010) · Akbas (TUHED 2019, Simsek ed. 2018 38 ulke derlemesinin kritigi) · Sahin (Ermeni Arastirmalari 46, 2013, Deveci Bozkus kitabinin tanitimi). - Hassas kartlar: Ermeni karti Ermeni (Zolyan-Zakaryan) ve Turk (Deveci Bozkus) incelemesini yan yana aktariyor, hukum yok; \"soykirim\" yalniz Ermeni ders kitaplarinin terimi olarak geciyor. Azerbaycan kaynagindaki Ermenileri \"besinci kol\" diye anan ders kitabi ifadesi okur metnine ALINMADI (ic_not'ta beyanli). (2) NE BULAMADIM - Venedik/Italyan · Libya · Tunus · Cezayir: ders kitabi incelemesi BULUNAMADI (yalniz erken modern Lepanto imgesi ve Cezayir tarih yazimi cikti, ders kitabi degil) → kart YAZILMADI. - Simsek (ed.) 2018'in ulke bolumleri acilamadi; Arap (Suriye/Urdun) ve Polonya kartlari YALNIZ Akbas 2019 kritigine dayaniyor → ic_not'ta \"ZAYIF DAYANAK\" damgali. Rus, Avusturya, Hirvat, Bosnak, Iran, Misir, Ermeni, Azeri, Suudi'de bu kritik yalniz ek kaynak. - Hirvatistan'in kendi kitaplari: JMMA 2014 makalesi (T&F 403) acilamadi; Hirvat karti Bosna Hirvatlarinin Hirvatca kitaplari (Alibasic) + Simsek bolumu. Gurcu karti: kaynak Osmanli'yi yalniz \"fatih/istilaci\" listesinde aniyor, kart bu sinirla. - BALKAR 2020 (Hacisalihoglu ed., 14 ulke), Wakizaka (Gurcu), Muhasilovic (Bosna) academia.edu oturumu istiyor, acilamadi. - Rusya 2014 sonrasi tek tarih standardi, Suudi 2019 mufredat degisikligi, Misir 2011 sonrasi: akademik inceleme yok (basin var, kirmizi liste) → yazilmadi. - gemini/BAKIS-0069.json hic gelmedi. (3) NE ISTIYORUM / ONERIYORUM - BAGLAMA (js/app.js _EKOKUMA_DOSYA_ADLARI, 8742 \"ekokuma_deniz\"den sonra): \"ekokuma_bakis\", // window.EKOKUMA_BAKIS — EKO-BAKIS-0069 teslimi (0069/H-0003, tur karsi-anlati, 17 kart) Baglanmadan buton cikmaz; arayuzde goremedim, gorsel dogrulama bagdan sonra. - Kalan 4 millet icin: (a) kaynak bulunana kadar bos kalsin (onerim) ya da (b) ders kitabi degil \"ulusal tarih yazimi\" sorusuyla ayri bir tur/kart. - Akademik erisim (academia.edu/Springer/T&F) acilirsa zayif dayanakli Arap, Polonya ve Hirvat kartlari birincil bolumlerle guclendirilebilir. - Is bitti; bekcimi kapatiyorum. Devam gerekirse send_message ile uyandirin. DEGISEN DOSYA: data/ekokuma_bakis.js (yeni, tek dosya; 17 kart). Commit YOK (data/ senin).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
