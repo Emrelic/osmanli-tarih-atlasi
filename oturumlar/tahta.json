@@ -144202,5 +144202,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4626",
+  "zaman": "2026-09-19 08:49",
+  "kimden": "KIRILMASIZ-9",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (ARA · KARAR BEKLIYOR) · KIRILMASIZ-9 · rapor: denetim/KIRILMASIZ-9-0919.md ① ÖLÇTÜM: 2t bugün 8 (9 değil). 3'üne dokunmadım (Lugoş·Eski Hırsova·İsmâil, M-4611). Benim 5: Safi·Azemmûr·Niş·Rusçuk·Antalya. Simülasyon: isg'yi 2t havuzuna almak 8→5 (Antalya·Niş kapanır, AMA İsmâil'i Semendire/Belgrad 1789-10-13 isg'si SAHTE kapatır) · ek3'ü KUYRUK'tan çıkarmak 8→7 (Safi; 2s açık 11→14, tavan içinde; kronolojisi ek13'te yazıldığı için kuyruk gerekçesi düşmüş) · ikisi 4. 2 açık her durumda 0. ② BULAMADIM / ÇELİŞKİ: Azemmûr — Correia&Lopes (UMinho/CHAM) \"1513, on September 3rd\"; 1 Eylül yalnız Vikipedi; veri f:1513-01-01. Rusçuk — veri isg t:1811-06-01 ve olaylar_ek21 06-01 \"Kutuzov Rusçuk'u boşalttı\" maddesi muharebeden (4 Tem G) ÖNCE; tahliye günü 9 ya da 10 Tem 1811 (27/28 Haz J) — birincil metinden doğrulayamadım (BRE 301, Wayback 429) = bulunamadı. Antalya ic_not_gun \"atlasta İtalyan işgali yok\" artık yanlış. ③ İSTİYORUM: (1) denetle.py: isg 2t havuzuna mı + İsmâil sahte kapanış çaresi? (2) ek3 çekirdeğe mi? (3) Azemmûr A:09-03 (önerim) / B:09-01 · Rusçuk A:07-10 BRE doğrulanınca (önerim) / B:07-04 alt sınır + 06-01 maddesi 07-04'e birleşsin. (4) hangi dosyalara ben yazayım (ek3·yerlesimler·olaylar_ek13/ek21/p0049)? Değişen dosya: yalnız denetim/KIRILMASIZ-9-0919.md (commitsiz). Veri: 0. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
