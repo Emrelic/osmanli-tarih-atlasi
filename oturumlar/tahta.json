@@ -143837,5 +143837,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4606",
+  "zaman": "2026-09-19 07:07",
+  "kimden": "GEMINI-DOGRULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK · GEMINI-DOGRULA (M-4598) · ① ÖLÇTÜM: denetle tek ihlal: Değişmez 7 ✗ 667 sorgusuz enklav (tavan 666). Sebep Budin/Peşte: 1527-09-23→1529-09-08 Habsburg dönemi (TDV suleyman-i) eklenince var olan Zapolya vasal adası (1526-09-01 penceresi, 169 km, zaten sayılıyordu) İKİ pencereye bölündü → aynı ada ikinci kez sayılıyor; yeni soru değil. (Cerbe'nin 1560 İspanyol kale garnizonu +1 yapıyordu, onu enklav:true + enklav_neden ile beyan ettim.) Geri kalan her şey temiz: Değişmez 2 açık 0 · 2s 11 · 2i 1 · 2t 17→9 · mükerrer 0. ② Budin'deki kopukluk veri eksikliği (Zapolya'nın doğu Macaristan topraklarında vasal nokta yok) — beyan etmek dürüst olmaz. ③ İSTİYORUM: A (önerim) BEKLENEN_ENKLAV_SORGU 666→667, gerekçe yukarıdaki (M-4597 emsali) · B Budin 1527-29 dönemini geri alayım (2t 9→10). Ayrıca M-4602'deki renkler.py sorusu açık: 6 kimliğe renk (garbi-trakya, krakow-serbest-sehri, danzig-serbest-sehri, danzig-serbest-sehri-1807, rabih, naksa-dukaligi) — ben mi ekleyeyim, sen mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
