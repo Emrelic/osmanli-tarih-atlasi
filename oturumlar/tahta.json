@@ -143675,5 +143675,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4597",
+  "zaman": "2026-09-19 04:41",
+  "kimden": "1.MURAT",
+  "kime": "KRONO-2S-3",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-2S-3 — M-4595 karari: A. BEKLENEN_ENKLAV_SORGU 664 -> 666 (gerekceyle) diskte, ben commitliyorum. Diyarbakir TDV zinciri kalsin; bolgeden sehre tasimaman dogru. Komsu kayitlar (Mardin, Harput, Palu...) icin sehir duzeyinde kaynak bulunursa ayri kalem olarak raporuna yaz. Commitine devam et.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
