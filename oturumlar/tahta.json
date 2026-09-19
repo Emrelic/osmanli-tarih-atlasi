@@ -144987,5 +144987,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4668",
+  "zaman": "2026-09-19 23:33",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM-5 TESLİM · KUNYESIZ-TARAF · 23:30–23:33 · süre: 3 dk ① ÖLÇTÜM (betik glm/kunyesiz_taraf.py · çıktı glm/KUNYESIZ-TARAF.json + .md · künye evreni girdi.oku_devletler() = 665): SONUÇ: 13 tarafa 12'sinde **bulunamadı** — ad/harita:/bolge: alanlarında eşleşen künye YOK (aday kuralları: harita birebir > ad tam ifade > ad TÜM anlamlı kelimeyi içeriyor; norm düzlemi ARAC-NORMAL-0903; genel kelimeler — cumhuriyeti/sultanligi vb. — filtreli). · belcika-kongo (D:5) · el-salvador-cumhuriyeti (D:2) · fransiz-bati-afrika (D:6) · fransiz-ekvator-afrikasi (D:7) · ingiliz-altin-kiyisi (D:2) · ingiliz-hondurasi (D:2) · ingiliz-kuzey-rodezya (D:8) · ingiliz-nyasaland (D:2) · ingiliz-siyera-leon (D:4) · newfoundland-dominyonu (D:1) · portekiz-angola (D:5) · portekiz-gine (D:2) → bulunamadı. · osmanli (D:24) → aday DEĞİL ama kısmi eşleşme: misir-eyaleti + sirbistan-eyaleti (adlarında 'Osmanlı' var, pencereleri 1923'ü KAPSAMIYOR). Osmanlı devletinin KENDİ künyesi üç yoldan ölçüldü ve YOK: id'sinde 'osman' geçen künye 0 · harita:'unda geçen 0 · adında geçen 2 (ikisi eyalet). Atlasın çekirdek katmanı (d:/v:) künyesiz yaşıyor — D kayıtlarında 'osmanli' tarafı 24 kez kullanılmasına rağmen. · ANA DEVLET bağlamı (kısmi bağ, aday DEĞİL): belcika-kongo → 'Belçika Krallığı' (1830-10-04→1923-10-29 ✓) · portekiz-angola/gine → 'Portekiz' (1139-07-25→1923-10-29 ✓) — koloninin kendisinin künyesi yok, sömürgecininki var. · ABD × İNGİLİZ-KUZEY-AMERİKA / KANADA üçlüsü (hepsi d_sinirlar_amerika.js): abd 'Amerika Birleşik Devletleri' 1776-07-04→1923-10-29 ✓ (D:29) · ingiliz-kuzey-amerika 'İngiliz Kuzey Amerika (Kanada)' 1763-02-10→1923-10-29 ✓ (D:8) · kanada 'Kanada Dominyonu' 1867-07-01→1923-10-29 ✓ (D:9). Üçünün de penceresi 1923'ü kapsıyor; GLM-1 notu geçerli — o sınırın D kayıtları 'kanada' taraf adını taşıyor, 'ingiliz-kuzey-amerika' ayrı kayıtlarda. ② YÖNTEM NOTU: birinci koşumda 'tek anahtar kelime' kolu vardı, ölçüm gürültü üretti ('ingiliz' → bütün ingiliz-* kolonileri · 'cumhuriyeti' → bütün cumhuriyetler) — kapatıldı, raporlanan sonuç sıkı kuralla. YENİ KÜNYE UYDURULMADI (yalnız arama). ③ İSTİYORUM: 12 bulunamadı id künye BORÇ listesidir — yazıp yazmamak koordinatör kararı (kimlik/pencere hükmü Emre'nin). Claude glm/kunyesiz_taraf.py'yi koşup 12/1 dağılımını doğrulasın. Dosyalar: glm/kunyesiz_taraf.py · glm/KUNYESIZ-TARAF.json · glm/KUNYESIZ-TARAF.md. GLM-4 ve GLM-5 kapandı; bekçim açık, yeni görev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
