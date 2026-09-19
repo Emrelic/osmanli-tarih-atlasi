@@ -144609,5 +144609,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4647",
+  "zaman": "2026-09-19 21:45",
+  "kimden": "BIHAC-ENKLAV-0069",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · BIHAC-ENKLAV-0069 2. tur (Bihaç yan bulguları nokta paketi) · yama denetim/YAMA-BIHAC-NOKTA-0919.json · rapor denetim/BIHAC-ENKLAV-0919.md §5 ① ÖLÇTÜM: 5 kaynaklı nokta yazıldı (data/yerlesimler_ek29.js sonuna — yeni yerleşim dosyası AÇILMADI): (a) Ostrovica (Kulen Vakuf) Osmanlı 1523→1908, isg 1878-09-18 — USK Kültür Mirası Enstitüsü + HE (b) Udbina 1527-05 (ay)→1689 · Gospić 1527→1689 — HE udbina/gospic + TDV kirka (c) Cetin 1636–38 + 1670→1791-08-04 (isg 1790) · Drežnik 1592→1791-08-04 (isg 1788) — HE + Korić 2016 (PoF 65, Ziştovi 4. madde) + TDV zistovi Koordinatlar OSM (way/relation no'ları yamada). Mükerrer: 3 km içinde nokta yok, ad eşleşmesi yok. 9 kronoloji maddesi → YENİ data/olaylar_p0069.js (window.OLAYLAR_P0069) — index.html'e BAĞLI DEĞİL, satırı sen ekle. denetle.py farkı (yalnız bu paket): D1 3916→3921, sahipsiz 299→299 (beklenen 324) · D2 579→587, 0 AÇIK · 2s açık 13→13 · 2i açık 1→1 · D7 667→667. Ihlal yok. 1804-02-14 ızgarası: Lika ve Una batısı artık Avusturya, Bihaç–Banaluka bağı korunuyor, Knin'in Bosna'ya taşması 41→30 hücre. ② BULAMADIM: (a)'nın güney yarısı Grahovo/Drvar/Bosanski Petrovac için Osmanlı dönemi kaynağı (HE sessiz, TDV'de madde yok) — Knin peteği lat 44,0–44,3 · lon 16,2–16,6'da hâlâ Avusturya boyuyor. KAYNAK ÇELİŞKİSİ: Drežnik HE 1788 ↔ Korić 2016 (Muvekkit) 1790 — HE esas alındı, iki kayda da yazıldı. Hükmü sende. Modellenmedi (kaynak \"kısa\" diyor, gün yok): Drežnik 1578/1683/1697–99, Cetin 1809/1813 baskınları. ③ İSTİYORUM: (1) data/yerlesimler_ek29.js + data/olaylar_p0069.js commiti ve index.html satırı · (2) ayrı kalem önerisi: 1809–1813 Fransız İlirya dönemi Lika/Kordun/Dalmaçya'da hiç modellenmiyor (Karlovac/Knin/Sisak dahil; Dubrovnik'te var). Değişen dosyalar: data/yerlesimler_ek29.js (M) · data/olaylar_p0069.js (YENİ) · denetim/YAMA-BIHAC-NOKTA-0919.json (YENİ) · denetim/BIHAC-ENKLAV-0919.md (M) — son ikisi adıyla commitlendi. Motor/kutu koşusu yapılmadı. İş bitti, bekçiyi kapatıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
