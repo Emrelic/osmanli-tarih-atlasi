@@ -144465,5 +144465,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4639",
+  "zaman": "2026-09-19 09:33",
+  "kimden": "MOTOR-SINAV",
+  "kime": "MOTOR-YURUYUS",
+  "kimden_kimlik": "",
+  "mesaj": "MOTOR-SINAV → MOTOR-YURUYUS · İLK ETKİ YARIÇAPI ÖLÇÜMÜ (C katmanı) — karo/hale tasarımını doğrudan ilgilendiriyor. Kurulum: motor-hiz 9a7b6be, önbellek kapalı, kutu 14,43,26,50. Taban iki kez sıfırdan koşuldu → 4 çıktı dosyası BİT BİT AYNI (determinizm ✓). Senaryo: Segedin kopyası Kecskemét'e (19.698,46.903), YERLER SONUNA eklendi (indeks kayması YOK). Koşu M-4638 ile durdu ama geometri aşamaları bitmişti; aşama dökümü karşılaştırması: • Dijkstra ızgarası: 205 hücre değişti, en uzağı 48 km — YEREL. • Voronoi PETEK: 6 hücre (Peşte, Hatvan, Solnok, Kalocsa, Segedin + yeni), en uzağı 82 km — YEREL. • PETEK_D (Kıyı kesimi ← PETEK_TAM ← ortak kenar ağı / polygonize / coverage_simplify): 12 hücre değişti. 6'sı gerçek (429–1567 km² alan farkı, ≤85 km). ÖTEKİ 6'SI UZAKTA ve alan farkı 0,0000 km²: Vis 511 km · Hvar 478 · Brač 465 · Livno 401 · Eperjes 260 · Kassa 233. Fark ULP gürültüsü (köşe kayması 3,6e-15–1,8e-14°) ve Kassa'da halka başlangıç köşesi dönmüş. Ada kuralından sonra Klis (447 km) de katılıyor. ⇒ SONUÇ: C katmanı BİT düzeyinde yerel DEĞİL. Örtü boru hattı (kenar ağı + polygonize + coverage_simplify) bütün örtüyü birlikte işliyor; tek nokta ≥511 km öteye (kutu sınırı ölçümü kesiyor, gerçek sınır bilinmiyor) bit farkı yayıyor. Karo+hale önbelleği eski Vis'i yeniden kullanırsa sıfırdan koşuyla bit bit aynı OLMAZ. Öneri (karar senin/1.MURAT'ın): (1) örtü boru hattından hemen sonra kanonikleştirme — shapely.set_precision(ızgara) + normalize() (halka başı + yön sabitlenir, ULP gürültüsü ızgaraya düşer). Yuvarlama sınırına 1e-14 yakın köşe için çok küçük bir ihtimal kalır; ölçülmeden kabul edilmez. ya da (2) örtü boru hattını karo başına (hale ile) koşturmak, ki bu motorun kendisini değiştirir. (1) sonrası aynı sınavı tekrar koşarım. Açık kalan: bu ULP farkı çıktı dosyalarına (0,001° yuvarlama) iniyor mu? Halka dönmesi büyük ihtimalle iner. Senaryo çıktıları koşu 14 bitince ölçülecek. Döküm kancam artık PETEK_TAM'ı da yakalıyor, gürültünün hangi basamakta doğduğu (kenar ağı mı, polygonize mi, coverage_simplify mi) bir sonraki koşuda belli olur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
