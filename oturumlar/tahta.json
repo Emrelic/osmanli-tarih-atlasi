@@ -144645,5 +144645,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4649",
+  "zaman": "2026-09-19 22:05",
+  "kimden": "EKO-DENIZ-0069",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKO-DENIZ-0069 · devam (üç kalem) — M-4646'nın devamı ① ÖLÇTÜM / YAPTIM 1. data/ekokuma_ihtilal.js · ihtilal-misir-istah-nedenleri: ölü \"1798-08-01¦Ebûkir\" → \"1798-08-01¦Nil Savaşı\" (kuyruk, 1 eşleşme) + \"1798-08-01¦Ebukır\" (yeni çekirdek, 1 eşleşme). Başka satıra dokunulmadı. 2. YENİ data/olaylar_ebukir_0919.js (window.OLAYLAR_EBUKIR0919) · 2 çekirdek madde, ikisi de TDV `ebukir` gövdesinden gün: • 1798-08-01 \"Ebukır (Nil) deniz muharebesi — Napolyon'un donanmasının imhası\" · kesinlik gun · yer_id \"Ebûkîr\" · kaynak ebukir (+ Belleten 1983 aynı günü veriyor) • 1799-07-25 \"Ebukır kara muharebesi — Köse Mustafa Paşa'nın yenilgisi\" · kesinlik gun · yer_id \"Ebûkîr\" · kaynak ebukir Mükerrer yok: çekirdekte bu günlerde başka madde yok; kuyruk kronoloji_ingiltere 1798-08-01 İngiltere sekmesinde, metin kopyalanmadı. İkisinde de toprak-* etiketi yok (yerleşim sahipliği değişmiyor) → 2t'ye girmez. 3. data/olaylar_ek5.js savaş ilanı maddesi: TDV `misir`te gün YOK (gövde tarandı). TDV `yusuf-ziya-pasa`: \"savaş ilânı üzerine (Eylül 1798)\" (ay). Gün akademik kaynaktan bulundu: Azmi Süslü, \"Osmanlı-Fransız Diplomatik İlişkileri, 1798-1807\", TTK Belleten XLVII/185 (1983) — gövde okundu: \"9 Eylülde Fransa'ya resmen savaş ilân ederek, Fransız Maslahatgüzarı Rulfin'i Yedikule zindanlarına attırdı (12 Eylül)\"; makale TDV `fransa` kaynakçasında. ⇒ t 1798-09-03 → 1798-09-09, kesinlik:\"gun\", gun metnine Belleten künyesi, kaynak \"misir\" → \"yusuf-ziya-pasa\" (arayüz kaynak alanını TDV linkine çeviriyor, akademik künye link olamaz), ic_not_gun'a eski değer + alıntılar. Bu güne bağlı yerleşim kırılması YOK (grep: data/*.js'te 1798-09-0x yalnız bu madde + kuyruk + ek okuma) → D2 etkilenmedi. - data/ekokuma_deniz.js: kart metnine \"9 Eylül 1798 savaş ilanı + 12 Eylül Yedikule\" (Belleten) eklendi; bağlar yeni çekirdek maddelere uzatıldı. - Bağ ölçümü (7108 madde, 122 dosya): EKOKUMA_DENIZ 4 kart / 13 bağ → 13'ü eşleşiyor, 0 boş (1799-07-25 artık [ÇEK] Ebukır kara muharebesi'ne düşüyor). - node --check 4 dosya ✓ · py arac/denetle.py → SONUÇ temiz (çıkış 0): D1 ✓ 3921 yerleşim/299 sahipsiz (beklenen 324) · D2 ✓ 587 kırılma, 0 açık · D2s ✓ 1418 yabancı, 13 AÇIK (tavan 121), 353 kapsam dışı · D2i ✓ 125, 1 açık (tavan 3) · D2t ✓ kırılmasız 1 (tavan 42) · mükerrer madde 0 · 1679 kronoloji maddesi (yeni dosya glob'da ✓). ② BULAMADIM - 1798-08-02 (muharebenin ikinci günü) hiçbir açılan kaynakta yok → yazılmadı. - Osmanlı-Rus ve Osmanlı-İngiliz ittifak GÜNLERİ: TDV yalnız \"Ocak 1799\" veriyor; kuyruk kronoloji_ingiltere 1799-01-01 bu yüzden ay-temsilî (dokunmadım). ③ İSTİYORUM / ÖNERİYORUM - index.html satırı (olaylar_p0055 satırının, :1057, yanına): <script src=\"data/olaylar_ebukir_0919.js?v=rNNNN\"></script> — bağlanmadan canlı değil (denetle okuyor, tarayıcı okumuyor). - Kuyruk tutarsızlığı (dokunmadım, sahibine): data/kronoloji_misir.js:93 hâlâ t:\"1798-09-03\" \"Osmanlı'nın Fransa'ya savaş ilanı\" → 1798-09-09 olmalı (aynı Belleten dayanağı). - ekokuma_ihtilal.js'te görev dışı 11 ÖLÜ bağ daha var (0 eşleşme): 1789-07-14¦Paris · 1798-07-01¦Kahire · 1798-07-01¦İskenderiye · 1801-09-02¦İskenderiye · 1805-07-03¦Kahire · 1804-02-14¦Belgrad · 1821-03-25¦Mora ve Eflak · 1804-08-11¦Viyana · 1806-08-06¦Viyana · 1797-07-09¦Milano · 1797-04-20¦Venedik. Ayrı iş olarak verilebilir (ben dokunmadım). - Veri gözlemi (sahibi 1.MURAT): yerlesimler_afrika.js \"Ebûkîr\" kaydında s: 1517-05-19 → 1914-12-18 arası boş, Fransız işgali (1798-1801) isg: penceresi yok. 1799-07-25'te kale Fransızlara geçtiği halde haritada kıpırtı yok — madde toprak iddia etmediği için denetim ötmüyor, ama \"Devlet var, yeri yanlış\" sınıfına aday. DEĞİŞEN DOSYALAR (commit YOK, 1.MURAT commitler): data/olaylar_ebukir_0919.js (YENİ) · data/olaylar_ek5.js · data/ekokuma_ihtilal.js · data/ekokuma_deniz.js İş bitti; bekçi kapatılıyor, köşeye çekiliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
