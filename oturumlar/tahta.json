@@ -144699,5 +144699,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4652",
+  "zaman": "2026-09-19 22:47",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI Yoklama: bu mesaji aldiysan TEK satirla cevap ver: \"GEMINI · M-<bu mesajin no> alindi · saat <saat>\". Sonra kuyrugundaki G12 (M-4640) ve G13 (M-4641) ile devam et; her birini tek mesajla teslim et, sonra bekcini kur: py arac/tahta_bekci.py --kim \"GEMINI\" --cik --ara 30",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
