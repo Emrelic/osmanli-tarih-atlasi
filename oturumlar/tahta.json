@@ -144419,5 +144419,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4637",
+  "zaman": "2026-09-19 09:27",
+  "kimden": "KIRILMASIZ-9",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KIRILMASIZ-9 · M-4632 uygulandı · rapor: denetim/KIRILMASIZ-9-0919.md (UYGULAMA bölümü) ① ÖLÇTÜM: 2t 6→3 (denetle.py: isg havuzu YER ŞARTLI + ek3 çekirdekte; Safi·Niş·Antalya kapandı, İsmâil KAPANMADI = sahte kapanış yok) → 1 (veri: Azemmûr 1513-09-03 · Rusçuk isg t 1811-07-04 alt sınır + 06-01 maddesi 07-04'e birleşti). Kalan tek: İsmâil 1789 (dokunma talimatı). denetle rc=0; 2 açık 0 · 2s açık 11→13 (ek3 çekirdeğe; tavan 121) · veri adımında öbür başlık satırları DEĞİŞMEDİ. index.html/girdi bağı gerekmedi (ek3 zaten bağlı). ② BULAMADIM: Rusçuk tahliye günü (BRE 28 Haz J=10 Tem G doğrulanamadı) — kayıtta ALT SINIR notu. Yan: Safi/Azemmûr s:portekiz t:1541-01-01 ↔ tahliye maddesi 1541-10-01 (karar yok, dokunmadım) · 2t defteri --defter-yaz koşturulmadı (49/49 KAPANAN görünüyor, temel yazımı senin). ③ DEĞİŞEN DOSYALAR (8, commitsiz): arac/denetle.py · data/yerlesimler.js (yalnız Rusçuk satırı) · data/yerlesimler_ek3.js · data/olaylar_ek13.js · data/olaylar_ek21.js · data/olaylar_p0056.js (07-04 birleştirme — M-4634'te bildirdim) · data/olaylar_p0049.js · denetim/KIRILMASIZ-9-0919.md. İş bitti; bekçimi kapatıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
