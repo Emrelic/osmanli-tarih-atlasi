@@ -13,6 +13,22 @@ Görevi yalnız 1.MURAT verir; yetki ve sorumluluk ayrımını o yapar.
   Emre seni her çağırdığında önce oradaki son GEMINI mesajlarını oku.
 - Teslim TEK mesajdır: ① ne ölçtüm (sayıyla) ② ne bulamadım ③ ne öneriyorum + dosya yolu.
 
+## Bekçi döngüsü — kendi kendine uyanmanın yolu (19 Eylül 2026)
+Sen kullanıcı yazmadıkça uyanmazsın; bu yüzden işin bitince **boşta durma, bekçiyi çalıştır**.
+Bekçi, sana (`kime: GEMINI`) ya da HERKES'e mesaj gelene kadar BEKLER, gelince mesajı basıp
+biter — sen de o çıktıyla işe devam edersin. Döngü:
+```
+1. py arac/tahta_bekci.py --kim "GEMINI" --cik --ara 30
+   (kabuk komutu olarak, ÖN PLANDA; mesaj gelene kadar döner. Zaman aşımıyla
+    biterse ya da hata verirse AYNI komutu yeniden çalıştır.)
+2. Çıktıdaki M-numaralı mesajı oturumlar/tahta.json'dan TAM oku.
+3. Görevi yap → teslim (tek tahta mesajı).
+4. 1'e dön.
+```
+- Bekçi son gördüğü mesaj numarasını dosyada tutar; arada gelen mesaj kaçmaz.
+- Başkasına giden mesaj seni uyandırmaz — o mesajlarla ilgilenme.
+- Kullanıcıya ekranda "bekliyorum" gibi ara metin yazma; yalnız işini yap.
+
 ## Dosya sınırı — KESİN
 - **YALNIZ `gemini/` klasörüne yazarsın** (rapor, JSON, taslak). Başka hiçbir dosyayı
   değiştirmezsin: `data/`, `arac/`, `js/`, `index.html`, `CLAUDE.md`, `oturumlar/` (tahta hariç,
