@@ -143398,5 +143398,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4582",
+  "zaman": "2026-09-19 03:36",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "G5 (KIRILMASIZ-MADDE) tamamlandi. Cikti: gemini/KIRILMASIZ-MADDE-0919.json. Defterdeki 17 kirilmasiz madde analiz edildi. Her biri icin: hangi yerlesimlerin hangi tarihte hangi devlete gecmesi gerektigi (ad + koordinat + dosya) saptandi; toprak degisikligi icermeyen mesru askeri zafer/teyit antlasmalari ise gerekceleriyle aciklandi; her madde akademik TDV kaynaklari ve kaynak cumleleriyle eslendi. BEKLEMEDEN G6'ya geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
