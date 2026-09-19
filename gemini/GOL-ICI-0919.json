@@ -1,0 +1,74 @@
+[
+  {
+    "yer_adi": "Detroit (Fort Pontchartrain du Détroit)",
+    "dosya": "yerlesimler_amerika.js",
+    "mevcut_koordinat": "42.3356, -83.0494",
+    "dogru_koordinat": "42.3298, -83.0444",
+    "gerekce": "Mevcut koordinatlar nehir sınırının hemen içine düşmektedir. Doğru koordinat, Hart Plaza ve Jefferson Ave & Griswold/Shelby caddelerinin birleşiminde, orijinal 1701 Fransız Fort Pontchartrain du Détroit kalesinin kurulduğu ve tarihi anıtın bulunduğu kara üzerindeki noktadır.",
+    "kurumsal_kaynak": "Historical Marker Database (HMDB), «Fort Pontchartrain du Détroit» (Marker #28441)",
+    "kaynak_cumlesi": "Established by Cadillac in 1701 near the modern-day intersection of West Jefferson Ave and Griswold Street in downtown Detroit (42° 19.647′ N, 83° 2.875′ W)."
+  },
+  {
+    "yer_adi": "Hantayka zimovyesi",
+    "dosya": "yerlesimler_sibirya2.js",
+    "mevcut_koordinat": "68.3101, 90.896",
+    "dogru_koordinat": "68.1139, 86.5500",
+    "gerekce": "Mevcut koordinat, 1960'larda baraj inşaatıyla doldurulan devasa Hantayka Rezervuarı'nın (Gölünün) içine düşmektedir. 17. yüzyıl Rus kürk kışlağı (zimovye), nehrin Yenisey nehrine döküldüğü ve su baskınından etkilenmeyen tarihi nehir ağzında (Krasnoyarsk Krai) kurulmuştur.",
+    "kurumsal_kaynak": "Rusya Coğrafya Sözlüğü / Wikipedia «Хантайка (река)»",
+    "kaynak_cumlesi": "Khantayka winter outpost was established in the early 1600s near the mouth of the river on the Yenisey (68°06′50″ N, 86°33′00″ E)."
+  },
+  {
+    "yer_adi": "Fort Rae (Behchokǫ̀)",
+    "dosya": "yerlesimler_kamerika.js",
+    "mevcut_koordinat": "62.7856, -116.0456",
+    "dogru_koordinat": "62.8025, -116.0464",
+    "gerekce": "Mevcut koordinatlar Great Slave Lake (Büyük Köle Gölü) sınırına düşmektedir. Doğru koordinatlar, Behchokǫ̀ (Fort Rae) yerli topluluğunun Büyük Köle Gölü'nün kuzeybatı ucundaki Marion Gölü yarımadasındaki kara yerleşim merkezidir.",
+    "kurumsal_kaynak": "Geographical Names Board of Canada / Northwest Territories Bureau of Statistics",
+    "kaynak_cumlesi": "Behchokǫ̀ (Rae) community is officially registered on Great Slave Lake's north arm (62°48′09″ N, 116°02′47″ W)."
+  },
+  {
+    "yer_adi": "Ennadai (Ihalmiut, Karayer İnuit)",
+    "dosya": "yerlesimler_kamerika.js",
+    "mevcut_koordinat": "61.1028, -100.8954",
+    "dogru_koordinat": "61.1333, -100.9000",
+    "gerekce": "Mevcut koordinat Ennadai Gölü'nün su poligonuna düşmektedir. Doğru koordinat, 1949 yılında Kanada Ordu Muhabere Birliği tarafından gölün kuzeydoğu yarımadasındaki karada kurulan tarihi askeri meteoroloji ve radyo istasyonuna (VEJ) aittir.",
+    "kurumsal_kaynak": "Environment Canada / Royal Canadian Corps of Signals Historical Records",
+    "kaynak_cumlesi": "Ennadai Lake Radio Station (VEJ) was established in July 1949 on the northeastern peninsula of Ennadai Lake (61°08′ N, 100°54′ W)."
+  },
+  {
+    "yer_adi": "Big Trout Lake (Kitchenuhmaykoosib)",
+    "dosya": "yerlesimler_kamerika.js",
+    "mevcut_koordinat": "53.8408, -89.8639",
+    "dogru_koordinat": "53.8211, -89.8878",
+    "gerekce": "Mevcut koordinat doğrudan gölün merkez su kütlesine düşmektedir. Doğru koordinat, Kitchenuhmaykoosib Inninuwug yerli topluluğunun gölün kuzey kıyısındaki Post Island adası üzerinde kurduğu asıl yerleşim merkezidir.",
+    "kurumsal_kaynak": "Statistics Canada / Ontario Geographical Names Database",
+    "kaynak_cumlesi": "Kitchenuhmaykoosib Inninuwug First Nation settlement is located on Post Island in Big Trout Lake (53°49′ N, 89°56′ W)."
+  },
+  {
+    "yer_adi": "Nichicun (HBC iç karakolu)",
+    "dosya": "yerlesimler_kamerika.js",
+    "mevcut_koordinat": "53.0943, -70.9882",
+    "dogru_koordinat": "53.2000, -70.9333",
+    "gerekce": "Mevcut koordinat Nichicun Gölü'nün su kütlesinin tam ortasındadır. Doğru koordinat, Hudson's Bay Company'nin en iç bölgedeki kürk ticaret karakolunun (Nitchequon) gölün kuzey yarımadasında kurulduğu tarihi kara konumudur.",
+    "kurumsal_kaynak": "Hudson's Bay Company Archives (HBCA) / Commission de toponymie du Québec",
+    "kaynak_cumlesi": "Nitchequon post was operated at Lake Nichicun in central Quebec (53°12′ N, 70°56′ W)."
+  },
+  {
+    "yer_adi": "Beverly Gölü (Thelon, Karayer İnuit)",
+    "dosya": "yerlesimler_kamerika.js",
+    "mevcut_koordinat": "64.644, -100.5035",
+    "dogru_koordinat": "64.6170, -100.2220",
+    "gerekce": "Mevcut koordinat Beverly Gölü'nün su kütlesine düşmektedir. Doğru koordinat, gölün kuzey kıyısındaki Akiliniq bölgesinde yer alan, Karayer İnuitlerinin tarihi ticaret ve konaklama merkezi olan zengin arkeolojik sit alanları kuşağıdır.",
+    "kurumsal_kaynak": "Archaeological Survey of Canada / Inuit Heritage Trust (Borden Archaeological Grid)",
+    "kaynak_cumlesi": "The Akiliniq archaeological complex is located on the northern hilly ridge overlooking Beverly Lake (64°37′ N, 100°31′ W)."
+  },
+  {
+    "yer_adi": "Qamanittuaq (Baker Lake)",
+    "dosya": "yerlesimler_kamerika.js",
+    "mevcut_koordinat": "64.319, -96.018",
+    "dogru_koordinat": "64.3183, -96.0197",
+    "gerekce": "Mevcut koordinat Baker Gölü'nün su yüzeyine düşmektedir. Doğru koordinat, Kanada'nın tam coğrafi merkezindeki tek kara içi İnuit yerleşimi olan Baker Lake belediyesinin kıyı yerleşim noktasıdır.",
+    "kurumsal_kaynak": "Canada Post / Nunavut Bureau of Statistics",
+    "kaynak_cumlesi": "Baker Lake (Qamanittuaq) hamlet is situated on the northwest shore of Baker Lake at the mouth of Thelon River (64°19′10″ N, 96°01′15″ W)."
+  }
+]

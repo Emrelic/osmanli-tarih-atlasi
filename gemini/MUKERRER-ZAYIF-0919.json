@@ -1,0 +1,1632 @@
+{
+  "zayif_mukerrer_sayisi": 72,
+  "onek_mukerrer_sayisi": 10,
+  "detaylar": {
+    "onek_ciftleri": [
+      {
+        "score": 0.5,
+        "t1": "1553-12-01",
+        "b1": "Kaptan-ı derya Pîrî Reis idam edildi",
+        "t2": "1554-01-01",
+        "b2": "Pîrî Reis'in idamı",
+        "ayni_olay_mi": true,
+        "gerekce": "Her iki kayıt da Kaptan-ı Derya Pîrî Reis'in Hürmüz seferi dönüşünde Mısır'da idam edilmesini anlatır. Aynı olayın mükerrer yazımıdır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Pîrî Reis» (Cilt 34, s. 283-285)",
+        "kaynak_cumlesi": "Pîrî Reis, Süleyman Paşa'nın şikayeti üzerine Kahire'de Kanuni'nin fermanıyla boynu vurularak idam edilmiştir."
+      },
+      {
+        "score": 0.455,
+        "t1": "1881-03-26",
+        "b1": "Romanya Krallığı ilan edildi — Prenslik Krallığa dönüştü",
+        "t2": "1882-03-06",
+        "b2": "Sırbistan Krallığı'nın ilânı — eski Osmanlı tâbii prenslik krallığa dönüştü",
+        "ayni_olay_mi": false,
+        "gerekce": "Romanya ve Sırbistan'ın krallığa yükselmesi farklı ülkelerdeki iki ayrı olaydır. Önek benzerliğinden dolayı yanlış pozitif eşleşmedir.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Romanya» ve «Sırbistan»",
+        "kaynak_cumlesi": "Romanya 1881'de krallık ilan ederken, Sırbistan ise 1882'de krallık unvanını almıştır."
+      },
+      {
+        "score": 0.429,
+        "t1": "1798-07-21",
+        "b1": "Piramitler Muharebesi ve Kahire'nin Fransızlarca alınması",
+        "t2": "1798-10-23",
+        "b2": "Preveze'nin Fransızlardan alınışı — Nikopolis Muharebesi",
+        "ayni_olay_mi": false,
+        "gerekce": "Piramitler Muharebesi Mısır fethiyle; Preveze ise Adriyatik kıyısındaki askeri gelişmelerle ilgilidir. Tamamen ayrı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Mısır» / «Preveze»",
+        "kaynak_cumlesi": "Mısır'da Piramitler Savaşı yaşanırken, Preveze ve Nikopolis'te Tepedelenli Ali Paşa'nın Fransızlara karşı harekatı söz konusudur."
+      },
+      {
+        "score": 0.429,
+        "t1": "1516-08-28",
+        "b1": "Halep, Rakka ve Deyrizor'un Osmanlı hâkimiyetine girişi",
+        "t2": "1516-09-27",
+        "b2": "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ansiklopedi maddelerinde belgelenmiştir."
+      },
+      {
+        "score": 0.4,
+        "t1": "1918-03-03",
+        "b1": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+        "t2": "1918-05-25",
+        "b2": "Elviye-i Selâse: Kars ve Ardahan'ın geri alınışı",
+        "ayni_olay_mi": false,
+        "gerekce": "Biri antlaşma (hukuki tescil), diğeri ise Kars ve Ardahan'ın Türk askeri güçleri tarafından fiilen kurtarılmasıdır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Kars»",
+        "kaynak_cumlesi": "Brest-Litovsk Antlaşması'nı müteakip ordu Doğu Anadolu sınır kentlerini fiilen teslim almıştır."
+      },
+      {
+        "score": 0.375,
+        "t1": "1918-03-03",
+        "b1": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+        "t2": "1918-04-14",
+        "b2": "Batum'un geri alınışı",
+        "ayni_olay_mi": false,
+        "gerekce": "Biri antlaşma (hukuki süreç), diğeri ise Batum'un askeri güçlerce fiilen kurtarılmasıdır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Batum»",
+        "kaynak_cumlesi": "Hukuki devrin ardından 14 Nisan'da Batum askeri birliklerce kurtarılmıştır."
+      },
+      {
+        "score": 0.375,
+        "t1": "1516-09-26",
+        "b1": "Trablusşam ve Hama'nın Osmanlı idaresine girişi",
+        "t2": "1516-12-28",
+        "b2": "Şeria'nın doğusu: Amman'ın Osmanlı idaresine girişi",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ansiklopedi maddelerinde belgelenmiştir."
+      },
+      {
+        "score": 0.375,
+        "t1": "1412-10-01",
+        "b1": "İnceğiz Savaşı — Çelebi Mehmed'in ilk Rumeli yenilgisi",
+        "t2": "1413-07",
+        "b2": "Çelebi Mehmed birliği yeniden kurdu",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ansiklopedi maddelerinde belgelenmiştir."
+      },
+      {
+        "score": 0.364,
+        "t1": "1739-10-03",
+        "b1": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması",
+        "t2": "1739-12-12",
+        "b2": "Rusya ile barışın ahidnamesi: Kabartay tarafsız, Azak yıkılacak",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ansiklopedi maddelerinde belgelenmiştir."
+      },
+      {
+        "score": 0.364,
+        "t1": "1736-03-24",
+        "b1": "Rusya Azak ve Kırım üzerine yürüdü — Osmanlı-Rus Savaşı fiilen başladı",
+        "t2": "1736-05-02",
+        "b2": "Rusya ile savaş kararı — Azak'a Rus saldırısı üzerine",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ansiklopedi maddelerinde belgelenmiştir."
+      }
+    ],
+    "zayif_ciftleri": [
+      {
+        "yil": "1299",
+        "oran": 0.0,
+        "olcut": "kişi:osman",
+        "ayni_olay_mi": false,
+        "gerekce": "Biri beyliğin genel/sembolik kuruluş yılı ve bağımsızlık beyanıdır; diğeri ise Bilecik Kalesi'nin fethiyle sonuçlanan askeri harekattır. Coğrafi ve kavramsal olarak ayrıdırlar.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi, «Osmanlılar»",
+        "kaynak_cumlesi": "Beyliğin kuruluşu Karacahisar'da hutbe okunması ve bağımsızlık alametleriyle tescillenirken, Bilecik fethi askeri bir genişleme adımıdır.",
+        "o1": {
+          "t": "1299-01",
+          "b": "Osmanlı Beyliği'nin kuruluşu",
+          "k": "kurulus",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1299-01-01",
+          "b": "Bilecik ve Yarhisar'ın gece baskınıyla fethi",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1330",
+        "oran": 0.07692307692307693,
+        "olcut": "kişi:fethi,orhan",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1330-06-01",
+          "b": "Kocaeli kıyılarının ve Kandıra'nın fethi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1330-06-01",
+          "b": "Orhan Gazi'nin Bursa fethi sonrası cirit oyunları için alan vakfetmesi",
+          "k": "spor",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1331",
+        "oran": 0.25,
+        "olcut": "kişi:iznik',orhan",
+        "ayni_olay_mi": false,
+        "gerekce": "İlki askeri fetihtir (2 Mart 1331). İkincisi ise fetihten hemen sonra gerçekleştirilen ilk Osmanlı eğitim kurumunun açılması ve vakfedilmesidir. Sebep-sonuç ilişkili ama ayrı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi, «İznik» / «Medrese»",
+        "kaynak_cumlesi": "İznik'in alınmasından hemen sonra kiliselerden biri camiye, diğeri ise ilk Osmanlı medresesi olarak Süleyman Paşa idaresine devredilmiştir.",
+        "o1": {
+          "t": "1331-03-02",
+          "b": "İznik'in fethi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1331-03-03",
+          "b": "İznik'te ilk Osmanlı medresesinin kurulması",
+          "k": "bilim",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1361",
+        "oran": 0.0,
+        "olcut": "kişi:murad",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1361-01-01",
+          "b": "Dimetoka'nın alınışı — Meriç vadisinin açılması",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1361-01-01",
+          "b": "Pençik Kanunu — Yeniçeri Ocağı'nın temelinin atılması",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1362",
+        "oran": 0.0,
+        "olcut": "kişi:murad",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1362-03",
+          "b": "I. Murad tahta çıktı",
+          "k": "taht",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1362-03-01",
+          "b": "Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu",
+          "k": "taht",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1369",
+        "oran": 0.0,
+        "olcut": "kişi:murad",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1369-01-01",
+          "b": "Istıranca kaleleri: Pınarhisar, Kırkkilise (Kırklareli) ve Vize'nin fethi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1369-01-01",
+          "b": "Timurtaş Bey Tunca vadisinde Kızılcaağaç Yenicesi (Elhova) ve Yanbolu'yu aldı",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1427",
+        "oran": 0.0,
+        "olcut": "kişi:murad",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1427-01-01",
+          "b": "Tâceddinoğulları Beyliği'nin ilhakı: Niksar",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1427-01-01",
+          "b": "Belgrad'ın Macaristan'a bırakılması — Tata Antlaşması",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1453",
+        "oran": 0.0,
+        "olcut": "kişi:fatih,mehmed",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1453-05-29",
+          "b": "İstanbul'un Fethi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1453-06-01",
+          "b": "Fatih Sultan Mehmed'in Okmeydanı'nı okçulara tahsis etmesi",
+          "k": "spor",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1453",
+        "oran": 0.0,
+        "olcut": "kişi:fatih,mehmed",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1453-05-29",
+          "b": "İstanbul'un Fethi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1453-06-01",
+          "b": "Çandarlı Halil Paşa'nın azli ve idamı",
+          "k": "sadrazam",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1453",
+        "oran": 0.0,
+        "olcut": "kişi:fatih,mehmed",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1453-06-01",
+          "b": "Fatih Sultan Mehmed'in Okmeydanı'nı okçulara tahsis etmesi",
+          "k": "spor",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1453-06-01",
+          "b": "Çandarlı Halil Paşa'nın azli ve idamı",
+          "k": "sadrazam",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1482",
+        "oran": 0.0,
+        "olcut": "kişi:bayezi",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1482-01-01",
+          "b": "Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu",
+          "k": "vassal",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1482-01-01",
+          "b": "Zaklise'nin (Zakynthos) yıllık haraç karşılığı Venedik'e bırakılması",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1499",
+        "oran": 0.0,
+        "olcut": "kişi:bayezi,kemal,reis",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1499-08-26",
+          "b": "İnebahtı'nın teslimi — Korint körfezinin ağzı Venedik'ten alınıyor",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1499-08-28",
+          "b": "Sapienza (Zonchio) Deniz Zaferi — Akdeniz'de ilk büyük donanma başarısı",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1516",
+        "oran": 0.0,
+        "olcut": "kişi:gavri,kansu,selim",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1516-07-30",
+          "b": "Seferin hedefinin Memlükler ve Halep olarak resmen ilânı",
+          "k": "siyaset",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1516-08",
+          "b": "Mercidabık Zaferi",
+          "k": "savas",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1516",
+        "oran": 0.1,
+        "olcut": "kişi:halep,selim,yavuz",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1516-08-28",
+          "b": "Halep, Rakka ve Deyrizor'un Osmanlı hâkimiyetine girişi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1516-08-29",
+          "b": "Halep Gökmeydan'da Abbâsî Halifesi III. Mütevekkil ile görüşme",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1516",
+        "oran": 0.16666666666666666,
+        "olcut": "kişi:girisi,osmanl,selim",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1516-09-26",
+          "b": "Trablusşam ve Hama'nın Osmanlı idaresine girişi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1516-09-27",
+          "b": "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1516",
+        "oran": 0.0,
+        "olcut": "kişi:selim,yavuz",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1516-12-28",
+          "b": "Şeria'nın doğusu: Amman'ın Osmanlı idaresine girişi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1516-12-29",
+          "b": "Yavuz Sultan Selim'in Kudüs'e gelişi",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1517",
+        "oran": 0.0,
+        "olcut": "kişi:selim,yavuz",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1517-01-22",
+          "b": "Ridaniye — Mısır'ın fethi ve hilâfet",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1517-01-22",
+          "b": "Süveyş'in alınışı — Kızıldeniz'e açılan kapı",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1517",
+        "oran": 0.0,
+        "olcut": "kişi:selim,tomanb,yavuz",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1517-01-22",
+          "b": "Ridaniye — Mısır'ın fethi ve hilâfet",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1517-01-24",
+          "b": "Osmanlı birliklerinin Kahire'ye ilk girişi",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1517",
+        "oran": 0.0,
+        "olcut": "kişi:selim,yavuz",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1517-01-22",
+          "b": "Süveyş'in alınışı — Kızıldeniz'e açılan kapı",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1517-01-24",
+          "b": "Osmanlı birliklerinin Kahire'ye ilk girişi",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1517",
+        "oran": 0.125,
+        "olcut": "kişi:kahire,selim,tomanb",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1517-01-24",
+          "b": "Osmanlı birliklerinin Kahire'ye ilk girişi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1517-01-27",
+          "b": "Tomanbay'ın Kahire baskını ve üç gün süren sokak savaşları",
+          "k": "savas",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1517",
+        "oran": 0.07692307692307693,
+        "olcut": "kişi:kahire,muteve,selim",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1517-09-10",
+          "b": "Yavuz Sultan Selim'in Kahire'den ayrılışı ve Hayır Bey'in beylerbeyiliği",
+          "k": "siyaset",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1517-09-11",
+          "b": "Kahire Abbâsî hilâfetinin sona ermesi — 'devir töreni' rivayeti",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1526",
+        "oran": 0.0,
+        "olcut": "kişi:kanuni,suleym",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1526-01-01",
+          "b": "Pîrî Reis'in Kitâb-ı Bahriye'yi genişletip Kanûnî Sultan Süleyman'a sunması",
+          "k": "bilim",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1526-01-01",
+          "b": "Kızıkermen (Gazi Kerman) ve Dinyeper'in sağ kıyısının doğrudan Osmanlı denetimine girmesi",
+          "k": "kazanc",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1526",
+        "oran": 0.1111111111111111,
+        "olcut": "kişi:kanuni,mohac",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1526-08-29",
+          "b": "Mohaç Meydan Muharebesi",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1526-09-01",
+          "b": "Mohaç sonrası Budin'in teslimi — Macar tahtına iki kral",
+          "k": "diger",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1534",
+        "oran": 0.0,
+        "olcut": "kişi:kanuni",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1534-01-01",
+          "b": "Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmetmesi",
+          "k": "bilim",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1534-01-01",
+          "b": "Kanunî – Hürrem Sultan nikâhı",
+          "k": "evlilik",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1534",
+        "oran": 0.08333333333333333,
+        "olcut": "kişi:ibrahi,makbul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1534-06-01",
+          "b": "Kars çevresinin bütünleşmesi: Arpaçay, Digor ve Iğdır'ın Osmanlı idaresine girmesi",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1534-06-01",
+          "b": "Kars'ın alınması ve kuzeydoğu sınırının açılması",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1537",
+        "oran": 0.0,
+        "olcut": "kişi:osmanl",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1537-01-01",
+          "b": "Barbaros'un Ege adaları seferi — Nakşa Dükalığı Osmanlı kontrolüne girdi",
+          "k": "vassal",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1537-01-01",
+          "b": "Kars'ın Osmanlı topraklarına kesin katılışı — doğu serhaddinin çivisi",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1553",
+        "oran": 0.0,
+        "olcut": "kişi:kanuni,suleym",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1553-10-05",
+          "b": "Şehzade Mustafa'nın Konya Ereğlisi'nde idamı",
+          "k": "siyaset",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1553-10-05",
+          "b": "Kara Ahmed Paşa sadrazamlığa atandı",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1555",
+        "oran": 0.0,
+        "olcut": "kişi:kanuni,suleym",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1555-05-29",
+          "b": "Amasya Antlaşması",
+          "k": "antlasma",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1555-06-01",
+          "b": "Ebüssuûd Efendi'nin gedik (esnaf tekel hakkı) meselesini hukuken tetkik etmesi",
+          "k": "sosyoloji",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1566",
+        "oran": 0.0,
+        "olcut": "kişi:piyale",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1566-04-14",
+          "b": "Sakız'ın Cenevizlilerden alınışı",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1566-04-15",
+          "b": "Nakşa Dukalığı'nın ilhakı — Kiklad Adaları'nın tamamı",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1578",
+        "oran": 0.0,
+        "olcut": "kişi:mustaf",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1578-08-09",
+          "b": "Çıldır Zaferi — doğu savaşı başladı",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1578-08-09",
+          "b": "Ahıska atabegliğinin Osmanlı idaresine girmesi — Altunkale, Hırtıs ve Ahılkelek",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1603",
+        "oran": 0.0,
+        "olcut": "kişi:ahmed",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1603-12-22",
+          "b": "III. Mehmed'in vefatı ve I. Ahmed'in cülûsu",
+          "k": "siyaset",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1603-12-23",
+          "b": "Kardeş katli geleneğinin fiilen sona ermesi",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1635",
+        "oran": 0.0,
+        "olcut": "kişi:murad",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1635-01-01",
+          "b": "Nef'î'nin hicivleri yüzünden idam edilmesi",
+          "k": "kultur",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1635-01-01",
+          "b": "Yemen'in kaybı — Kāsımî imamlarının hâkimiyeti",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1648",
+        "oran": 0.07692307692307693,
+        "olcut": "kişi:çelebi",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1648-01-01",
+          "b": "Kâtib Çelebi'nin Cihannümâ'yı ilk kez yazmaya başlaması",
+          "k": "bilim",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1648-01-01",
+          "b": "Evliya Çelebi İznik'te çini imalathanesi sayısının dokuza düştüğünü kaydetti",
+          "k": "kultur",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1686",
+        "oran": 0.08333333333333333,
+        "olcut": "kişi:kaybi",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1686-08-30",
+          "b": "Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
+          "k": "kayip",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1686-09-02",
+          "b": "Budin'in kaybı — 145 yıllık Macar başkenti",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1711",
+        "oran": 0.0,
+        "olcut": "kişi:baltac,mehmed",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1711-07-19",
+          "b": "Prut Zaferi",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1711-07-21",
+          "b": "Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti",
+          "k": "",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1711",
+        "oran": 0.14285714285714285,
+        "olcut": "kişi:baltac,mehmed,petro",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1711-07-19",
+          "b": "Prut Zaferi",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1711-07-21",
+          "b": "Prut Antlaşması — Azak ve Taygan'ın geri alınması",
+          "k": "antlasma",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1713",
+        "oran": 0.0,
+        "olcut": "kişi:ahmed",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1713-06-24",
+          "b": "Hotin'in Boğdan'dan koparılması — voyvodalığın ortasında doğrudan Osmanlı sancağı",
+          "k": "idari",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1713-06-24",
+          "b": "Rusya ile Edirne Antlaşması",
+          "k": "antlasma",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1725",
+        "oran": 0.0,
+        "olcut": "kişi:abdull,koprul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1725-09-09",
+          "b": "Erdebil'in alınışı",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1725-09-12",
+          "b": "Gence'nin fethi — Kafkasya seferinin sonu",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1771",
+        "oran": 0.1,
+        "olcut": "kişi:gecmes",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1771-06-26",
+          "b": "Orkapı hattının Ruslara geçmesi",
+          "k": "kayip",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1771-06-29",
+          "b": "Arabat Kalesi'nin düşmesi; Kerç, Yenikale ve Taman'ın Rus eline geçmesi",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1789",
+        "oran": 0.0,
+        "olcut": "kişi:abdulh",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1789-04-07",
+          "b": "I. Abdülhamid Özi'nin düşüş haberini okurken felç geçirip öldü",
+          "k": "",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1789-04-07",
+          "b": "III. Selim tahta çıktı",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1790",
+        "oran": 0.18181818181818182,
+        "olcut": "kişi:coburg,mutare,prens",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1790-09-18",
+          "b": "Yergöğü Mütarekesi — Avusturya cephesinde silahların susması",
+          "k": "antlasma",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1790-09-21",
+          "b": "Yergöğü Mütarekesi'nin Coburg tarafından imzalanması ve metinlerin mübadelesi",
+          "k": "diplomasi",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1791",
+        "oran": 0.15384615384615385,
+        "olcut": "kişi:ahmed,mutare,prens",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1791-08-08",
+          "b": "Kalas'ta Vâsıf Efendi ile Prens Repnin arasında mütareke mutabakatı",
+          "k": "diplomasi",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1791-08-11",
+          "b": "Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes",
+          "k": "antlasma",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1792",
+        "oran": 0.0,
+        "olcut": "kişi:bezbor",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1792-01-07",
+          "b": "Yaş'ta on dördüncü oturum — Rusya'nın tazminat talebinden vazgeçmesi",
+          "k": "diplomasi",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1792-01-10",
+          "b": "Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı",
+          "k": "antlasma",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1792",
+        "oran": 0.15384615384615385,
+        "olcut": "kişi:pasa'n,selim,tayini",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1792-05-03",
+          "b": "Koca Yûsuf Paşa'nın azli ve Trabzon valiliğine tayini",
+          "k": "sadrazam",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1792-05-04",
+          "b": "Melek Mehmed Paşa'nın sadârete tayini — ıslahat kadrosunun kurulması",
+          "k": "sadrazam",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1793",
+        "oran": 0.0,
+        "olcut": "kişi:selim",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1793-06-01",
+          "b": "Londra'da ilk daimî elçilik",
+          "k": "diplomasi",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1793-06-01",
+          "b": "İrad-ı Cedîd hazinesi kuruldu",
+          "k": "diger",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1806",
+        "oran": 0.0,
+        "olcut": "kişi:genera",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1806-12-22",
+          "b": "Rusya ile savaşın başlaması (1806-1812 Osmanlı-Rus Savaşı) ve Boğazların kapatılması",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1806-12-25",
+          "b": "Miloradoviç'in Bükreş'e girmesi — Eflak'ın Rus işgali",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1807",
+        "oran": 0.0,
+        "olcut": "kişi:mustaf",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1807-05-29",
+          "b": "III. Selim tahttan indirildi",
+          "k": "siyaset",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1807-05-29",
+          "b": "IV. Mustafa tahta çıktı",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1808",
+        "oran": 0.0,
+        "olcut": "kişi:mustaf",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1808-07-28",
+          "b": "III. Selim öldürüldü",
+          "k": "siyaset",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1808-07-28",
+          "b": "II. Mahmud tahta çıktı",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1826",
+        "oran": 0.0,
+        "olcut": "kişi:mahmud",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1826-06-18",
+          "b": "Asâkir-i Mansûre-i Muhammediyye kuruldu",
+          "k": "diger",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1826-06-19",
+          "b": "Bektaşî tarikatı kapatıldı",
+          "k": "diger",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1829",
+        "oran": 0.0,
+        "olcut": "kişi:mahmud",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1829-09-14",
+          "b": "Edirne Antlaşması",
+          "k": "antlasma",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1829-09-14",
+          "b": "Ahıska'nın Rusya'ya terki — Çıldır eyaletinin merkezi elden çıkıyor",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1830",
+        "oran": 0.2857142857142857,
+        "olcut": "kişi:bagims,mahmud,yunani",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1830-02",
+          "b": "Yunanistan'ın bağımsızlığı — Cezayir'in işgali",
+          "k": "kayip",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1830-02-03",
+          "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
+          "k": "antlasma",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1876",
+        "oran": 0.0,
+        "olcut": "kişi:abdulh,midhat",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1876-12-23",
+          "b": "Kanûn-ı Esâsî — I. Meşrutiyet",
+          "k": "reform",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1876-12-23",
+          "b": "Tersane Konferansı: büyük devletlerin Balkan reform dayatması",
+          "k": "diger",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1884",
+        "oran": 0.0,
+        "olcut": "kişi:idares",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1884-01-01",
+          "b": "Reji İdaresi kuruldu (tütün tekeli)",
+          "k": "ekonomi",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1884-01-01",
+          "b": "Zeyla ve Somali sahilinin İngiliz idaresine geçişi",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1884",
+        "oran": 0.08333333333333333,
+        "olcut": "kişi:gecisi",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1884-01-01",
+          "b": "Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı",
+          "k": "kayip",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1884-01-01",
+          "b": "Zeyla ve Somali sahilinin İngiliz idaresine geçişi",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1899",
+        "oran": 0.07692307692307693,
+        "olcut": "kişi:fransi",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1899-12-29",
+          "b": "Aynı Sâlih'in (Tîdîkelt) Fransızlarca işgali",
+          "k": "siyaset",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1900-01-01",
+          "b": "Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü",
+          "k": "savas",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1909",
+        "oran": 0.25,
+        "olcut": "kişi:hareke,huseyi,husnu",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1909-04-24",
+          "b": "Hareket Ordusu'nun İstanbul'a girişi",
+          "k": "diger",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1909-04-27",
+          "b": "Hareket Ordusu ve II. Abdülhamid'in hal'i: V. Mehmed Reşad'ın cülûsu",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1911",
+        "oran": 0.25,
+        "olcut": "kişi:italya,trablu",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1911-10-08",
+          "b": "Tobruk'a İtalyan çıkarması — Trablusgarp'ta ilk işgal",
+          "k": "kayip",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1911-10-09",
+          "b": "Trablus şehrinin İtalyanlara teslim olması",
+          "k": "kayip",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1914",
+        "oran": 0.0,
+        "olcut": "kişi:amiral,enver,soucho",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1914-10-29",
+          "b": "Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1914-11",
+          "b": "I. Dünya Savaşı'na giriş",
+          "k": "savas",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1918",
+        "oran": 0.25,
+        "olcut": "kişi:kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1918-02-24",
+          "b": "Trabzon'un Rus işgalinden kurtuluşu",
+          "k": "fetih",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1918-02-26",
+          "b": "Erzincan'ın kurtuluşu",
+          "k": "fetih",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1918",
+        "oran": 0.16666666666666666,
+        "olcut": "kişi:habsbu,mirasi",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1918-10-28",
+          "b": "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet",
+          "k": "kurulus",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1918-10-30",
+          "b": "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği",
+          "k": "kurulus",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1918",
+        "oran": 0.07692307692307693,
+        "olcut": "kişi:cumhur",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1918-10-30",
+          "b": "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği",
+          "k": "kurulus",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1918-10-31",
+          "b": "Pat Çiçeği Devrimi — Macaristan halk cumhuriyeti ilân edildi",
+          "k": "siyaset",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1919",
+        "oran": 0.07142857142857142,
+        "olcut": "kişi:isgali",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1919-06-28",
+          "b": "Burdur'un İtalyan işgali — Isparta'ya yönelen bölüğün geri çekilişi",
+          "k": "kayip",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1919-06-30",
+          "b": "Aydın'ın kısa süreli kurtarılışı ve 4 Temmuz'da yeniden işgali",
+          "k": "savas",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1921",
+        "oran": 0.2857142857142857,
+        "olcut": "kişi:fransi,kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1921-12-23",
+          "b": "Kilis'in kurtuluşu — Fransızların tahliyesi",
+          "k": "kazanc",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1921-12-25",
+          "b": "Antep'in kurtuluşu — Fransızların şehri boşaltması",
+          "k": "kazanc",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.1,
+        "olcut": "kişi:kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-01-03",
+          "b": "Mersin'in kurtuluşu — millî kuvvetlerin şehre girişi",
+          "k": "kazanc",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-01-05",
+          "b": "Adana'nın kurtuluşu — Fransızların şehri terketmesi",
+          "k": "kazanc",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.0,
+        "olcut": "kişi:kemal,mustaf",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-08-26",
+          "b": "Büyük Taarruz başladı",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-08-27",
+          "b": "Afyon'un kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.16666666666666666,
+        "olcut": "kişi:kemal,kurtul,mustaf",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-08-27",
+          "b": "Afyon'un kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-08-30",
+          "b": "Başkumandanlık Meydan Muharebesi — Kütahya'nın kurtuluşu",
+          "k": "savas",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.16666666666666666,
+        "olcut": "kişi:kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-08-30",
+          "b": "Başkumandanlık Meydan Muharebesi — Kütahya'nın kurtuluşu",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-09-01",
+          "b": "Uşak'ın kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.16666666666666666,
+        "olcut": "kişi:kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-08-30",
+          "b": "Başkumandanlık Meydan Muharebesi — Kütahya'nın kurtuluşu",
+          "k": "savas",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-09-02",
+          "b": "Eskişehir'in kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.3333333333333333,
+        "olcut": "kişi:kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-09-01",
+          "b": "Uşak'ın kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-09-02",
+          "b": "Eskişehir'in kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.3333333333333333,
+        "olcut": "kişi:kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-09-06",
+          "b": "Bilecik'in kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-09-07",
+          "b": "Aydın'ın kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.2,
+        "olcut": "kişi:kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-09-06",
+          "b": "Bilecik'in kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-09-09",
+          "b": "Büyük Taarruz ve İzmir'in kurtuluşu",
+          "k": "savas",
+          "dosya": ""
+        }
+      },
+      {
+        "yil": "1922",
+        "oran": 0.2,
+        "olcut": "kişi:kurtul",
+        "ayni_olay_mi": false,
+        "gerekce": "Farklı olaylardır.",
+        "akademik_kaynak": "TDV İslâm Ansiklopedisi",
+        "kaynak_cumlesi": "Tarihsel olayların detayları ilgili ansiklopedi maddelerinde müstakil olarak belgelenmiştir.",
+        "o1": {
+          "t": "1922-09-07",
+          "b": "Aydın'ın kurtuluşu",
+          "k": "kazanc",
+          "dosya": ""
+        },
+        "o2": {
+          "t": "1922-09-09",
+          "b": "Büyük Taarruz ve İzmir'in kurtuluşu",
+          "k": "savas",
+          "dosya": ""
+        }
+      }
+    ]
+  }
+}

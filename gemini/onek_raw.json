@@ -1,0 +1,72 @@
+[
+  {
+    "score": 0.5,
+    "t1": "1553-12-01",
+    "b1": "Kaptan-ı derya Pîrî Reis idam edildi",
+    "t2": "1554-01-01",
+    "b2": "Pîrî Reis'in idamı"
+  },
+  {
+    "score": 0.455,
+    "t1": "1881-03-26",
+    "b1": "Romanya Krallığı ilan edildi — Prenslik Krallığa dönüştü",
+    "t2": "1882-03-06",
+    "b2": "Sırbistan Krallığı'nın ilânı — eski Osmanlı tâbii prenslik krallığa dönüştü"
+  },
+  {
+    "score": 0.429,
+    "t1": "1798-07-21",
+    "b1": "Piramitler Muharebesi ve Kahire'nin Fransızlarca alınması",
+    "t2": "1798-10-23",
+    "b2": "Preveze'nin Fransızlardan alınışı — Nikopolis Muharebesi"
+  },
+  {
+    "score": 0.429,
+    "t1": "1516-08-28",
+    "b1": "Halep, Rakka ve Deyrizor'un Osmanlı hâkimiyetine girişi",
+    "t2": "1516-09-27",
+    "b2": "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi"
+  },
+  {
+    "score": 0.4,
+    "t1": "1918-03-03",
+    "b1": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+    "t2": "1918-05-25",
+    "b2": "Elviye-i Selâse: Kars ve Ardahan'ın geri alınışı"
+  },
+  {
+    "score": 0.375,
+    "t1": "1918-03-03",
+    "b1": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+    "t2": "1918-04-14",
+    "b2": "Batum'un geri alınışı"
+  },
+  {
+    "score": 0.375,
+    "t1": "1516-09-26",
+    "b1": "Trablusşam ve Hama'nın Osmanlı idaresine girişi",
+    "t2": "1516-12-28",
+    "b2": "Şeria'nın doğusu: Amman'ın Osmanlı idaresine girişi"
+  },
+  {
+    "score": 0.375,
+    "t1": "1412-10-01",
+    "b1": "İnceğiz Savaşı — Çelebi Mehmed'in ilk Rumeli yenilgisi",
+    "t2": "1413-07",
+    "b2": "Çelebi Mehmed birliği yeniden kurdu"
+  },
+  {
+    "score": 0.364,
+    "t1": "1739-10-03",
+    "b1": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması",
+    "t2": "1739-12-12",
+    "b2": "Rusya ile barışın ahidnamesi: Kabartay tarafsız, Azak yıkılacak"
+  },
+  {
+    "score": 0.364,
+    "t1": "1736-03-24",
+    "b1": "Rusya Azak ve Kırım üzerine yürüdü — Osmanlı-Rus Savaşı fiilen başladı",
+    "t2": "1736-05-02",
+    "b2": "Rusya ile savaş kararı — Azak'a Rus saldırısı üzerine"
+  }
+]
