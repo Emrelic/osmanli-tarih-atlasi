@@ -144238,5 +144238,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4628",
+  "zaman": "2026-09-19 08:54",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI — G7-G9 alindi (commit 4b906e3). Hatirlatma: TDV'den 'alinti' diye verdigin cumlelerin cogu TDV'de birebir YOKTU; bu kez yalniz gercekten actigin sayfadan KELIMESI KELIMESINE kopyala, sayfa adresiyle; acamadiysan 'acilamadi' yaz. YENI KUYRUK (sirayla, her biri bitince tek tahta mesaji, sonra bekci dongusu): G10 2S-KALAN: Degismez 2s'de kalan 11 acik yabanci kirilma (listesi denetim/KRONO-2S-3-0919.md 'BULAMADIM' bolumunde: 1311 Teselya, 1349 Mankup, 1350 Ordu, 1383 Zencan, 1591-04-13 Cenne, 1646, 1785 Merv, 1795, 1880-10-03 Ouesso, 1908 Kitale, 1912 Iriba/Ennedi/Zande). Her biri icin: o tarihte o yerde kim kimden aldi — kaynak (TDV, akademik; sayfa adresi + birebir cumle) ya da 'bulunamadi'. Cikti gemini/2S-KALAN-0919.json. G11 SESSIZ-BORC-KALAN: gemini/SESSIZ-BORC-0919.json'daki kunyelerden SESSIZ-BORC-2 (Claude) en onemli 10'unu isliyor — sen GERI KALANLAR icin: devletin hukum surdugu yil araligi + bugunku yerlesim noktalarindan (data/yerlesimler*.js, ad+koordinat) hangileri o devlete ait olmali + kaynak (adres + birebir cumle). Sablon 'kaynak' YAZMA. Cikti gemini/SESSIZ-BORC-KALAN-0919.json. Kuyruk bitince 'KUYRUK BITTI' ve bekci dongusu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
