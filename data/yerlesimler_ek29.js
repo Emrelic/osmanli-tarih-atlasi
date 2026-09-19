@@ -349,8 +349,8 @@ window.YERLESIMLER_EK29 = [
 // Karaman → 1414 kesin Osmanlı.
 // kaynak: bulunamadı (TDV bu taneciği kapsamıyor) — çizgi kardeş kayıt Akşehir'den
 { ad:"İshaklı", tur:"kasaba", lat:38.5439, lon:31.2447, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1297-01-01",d:"selcuklu"},{f:"1297-01-01",t:"1381-06-01",d:"hamid"},{f:"1402-07-28",t:"1414-06-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1381-06-01",t:"1402-07-28"},{f:"1414-06-01",t:"1920-04-23"}], v:[] },
+  s:[{f:"1281-01-01",t:"1297-01-01",d:"selcuklu"},{f:"1297-01-01",t:"1381-06-01",d:"hamid"},{f:"1402-07-28",t:"1415-03-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1381-06-01",t:"1402-07-28"},{f:"1415-03-01",t:"1920-04-23"}], v:[] },
 
 // ILGIN — Karaman beyliği toprağı, Konya (68 km) çizgisiyle aynı.
 // ⚠️ Konya kaydındaki 1832-11-21 → 1833-06-30 Mısır (Kavalalı) dönemi

@@ -3029,6 +3029,9 @@ BOYALAR = {
     "sauk":                    ("Sauk (Asakiwaki)",                    "#24a842"),
     "savni":                   ("Şavni (Shawnee)",                     "#6624a8"),
     "secwepemc":               ("Secwépemc (Shuswap)",                 "#d2a824"),
+    # SENUSI-NOKTA 19 Eyl 2026: renk_olc --oner senusi → 4 komşu, 27 engel,
+    # en yakın engel ΔE 14.2 (denetim/oneri-20260919-082436.txt)
+    "senusi":                  ("Senûsî Tarikatı (Senûsiyye)",         "#d27e24"),
     "sine-salum":              ("Sine ve Salum Krallıkları (Serer)",   "#cca224"),
     "solima-yalunka":          ("Solima Yalunka Krallığı",             "#5a78d8"),
     "sosoni":                  ("Şoşoni",                              "#7224ae"),
@@ -3124,7 +3127,7 @@ BOYALAR = {
     # 17 Eylül 2026 · KUNYE-TARAF önerisi: komşulara (hicaz · suriye-lubnan-mandasi ·
     # irak-kralligi · Osmanlı) en küçük ΔE 49,5; paletteki en yakın `sind` 11,5 (komşu değil).
     "suriye-arap-kralligi": ("Suriye Arap Krallığı (Faysal, 1918-1920)", "#9fa619"),
-    "sutayogullari": ("Sutayogullari", "#5ad224"),
+    "sutayogullari": ("Sutayogullari", "#de4866"),
     "tannu-tuva": ("Tannu Tuva Halk Cumhuriyeti", "#6024d2"),
     "topia": ("Topia (Thopia) Beyliği", "#60d224"),
     "urdun-emirligi": ("Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)", "#d2249c"),

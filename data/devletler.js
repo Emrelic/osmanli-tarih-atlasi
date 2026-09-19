@@ -2950,14 +2950,23 @@ window.DEVLETLER = [
   ]
 },
 { id:"vaday", ad:"Vaday Sultanlığı", tur:"sultanlik", bolge:"orta-afrika",
-  f:"1635-01-01", t:"1912-01-01", baskent:"Abeşe",
-  ozet:"Tunciler'in ardından Abdülkerim'in kurduğu, Vara'dan sonra Abeşe'yi başşehir yapan Sahra-altı sultanlığı. TDV cad maddesine dayanır.",
-  kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: 'Vara ve Abeşe başlıca merkezler'; 'Râbih b. Zübeyr döneminde (1878-1900) bölgenin en güçlü devleti'. Fransız fethi 1909-1912.",
+  f:"1635-01-01", t:"1909-06-02", baskent:"Abeşe",
+  ozet:"Tunciler'in ardından Abdülkerim'in kurduğu, Vara'dan sonra Abeşe'yi başşehir yapan Sahra-altı sultanlığı. TDV cad ve veday maddelerine dayanır.",
+  kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: 'Vara ve Abeşe başlıca merkezler'; 'Râbih b. Zübeyr döneminde (1878-1900) bölgenin en güçlü devleti'. · t: TDV veday başlığı 'Çad’da hüküm süren bir sultanlık (1635-1909)' ve gövdesi 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler' (SENUSI-NOKTA 19 Eyl 2026; eski t 1912-01-01 kaynaksızdı). Sınıf ③: Borku-Ennedi'de ardıl sahip Senûsîler (bkz. senusi künyesi), 1913'te Fransa.",
   kronoloji:[
     { t:"1635-01-01", tur:"kurulus", b:"Abdülkerim Vaday sultanlığını kurdu" },
     { t:"1790-01-01", tur:"toprak-kazanc", b:"Uzun süre Darfur'a bağlı olan Vaday Sultanlığı 1790'larda bağımsızlaştı, Bornu aleyhine hızlı toprak genişlemesine girdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — WebSearch üzerinden alıntı, sayfa bizzat ikinci kez açılmadı" },
-    { t:"1909-06-02", tur:"isgal", b:"Fransız kuvvetleri 1909'da başkent Abéché'yi ele geçirdi; sultan Dud Murra 1911'de teslim oldu, sultanlık fiilen sona erdi.", kaynak:"GÜN: TDV veday — «Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler» (KUNYE-DORT 19 Eyl 2026) · Encyclopaedia Britannica 'Wadai' — aynı kaynak" },
-    { t:"1912-01-01", tur:"son", b:"Fransız fethi tamamlandı" }
+    { t:"1909-06-02", tur:"son", b:"Fransız kuvvetleri başkent Ebîşe'yi (Abeşe) ele geçirip sultanlığa son verdi; son sultan Dâvûd Murra Vaday ile Kufra arasında bir mevkie çekildi.", kaynak:"GÜN: TDV veday — «Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler» (KUNYE-DORT 19 Eyl 2026) · TDV veday 'Başşehrini işgalden kurtaramayan Vedây’ın son sultanı … Vedây ile Kufra arasındaki bir mevkiye çekildi' (SENUSI-NOKTA)" }
+  ]
+},
+{ id:"senusi", ad:"Senûsî Tarikatı (Senûsiyye)", tur:"devlet", bolge:"kuzey-afrika",
+  f:"1837-01-01", t:"1923-10-29", baskent:"Cağbûb · Kufra (ana zâviye)",
+  ozet:"Muhammed b. Ali es-Senûsî'nin kurduğu, zâviye ağıyla Libya'dan Büyük Sahrâ'nın güneyine yayılan tarikat; XX. yüzyıl başında Borku ve Ennedi'yi hâkimiyetinde tutan siyasî-askerî bir yapıya dönüştü. Atlasta YALNIZ bu hâkimiyet (Borku-Ennedi 1909-1913) çizilir. f = tarikatın 1837'de Mekke'de ilk zâviyeyi açması (YIL hassasiyeti). t = pencere ucu, ölçüm değil: yapı 1923 sonrası sürdü (1951 Libya Krallığı).",
+  kaynak:"TDV senusiyye (gövdesi okundu, HTTP 200): '1837 yılında Mekke’de Ebûkubeys dağında açtığı zâviyede irşad faaliyetine başlayan Muhammed b. Ali es-Senûsî' · TDV cad: 'kuzeydeki Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913)' · TDV veday: 'Borku ve diğer bazı yerleri hâkimiyetlerinde tutan Senûsîler’i buradan çıkarıp Çad’ın tamamını nüfuzları altına aldılar (1913)'. ⚠️ Hâkimiyetin BAŞLANGIÇ yılı kaynakta yok (tarikat zâviyeleri 1860'lardan beri bölgede); atlas bu kimliği yalnız Vaday'ın düştüğü 1909-06-02'den itibaren kullanır.",
+  kronoloji:[
+    { t:"1837-01-01", tur:"kurulus", b:"Muhammed b. Ali es-Senûsî Mekke'de ilk zâviyeyi açtı", kaynak:"TDV senusiyye" },
+    { t:"1902-01-20", tur:"toprak-kayip", b:"Fransızlar Çad gölüne 100 km mesafedeki Senûsî zâviyesini ele geçirip yıktı", kaynak:"TDV senusiyye — «Fransızlar’ın 20 Ocak 1902’de Çad gölüne 100 km. mesafedeki Senûsî Zâviyesi’ni ele geçirip yıkmaları»" },
+    { t:"1913-11-27", tur:"toprak-kayip", b:"Borku'nun merkezi Ayn Kelek zâviyesi Fransızlarca ele geçirilip yıkıldı; Senûsîler Borku ve Ennedi'den çıkarıldı", kaynak:"TDV senusiyye — «Bu zâviye 27 Kasım 1913’te işgal ordusunca ele geçirilip yıktırıldı» · TDV cad (yalnız yıl: 1913)" }
   ]
 },
 { id:"bagirmi", ad:"Bagirmi Sultanlığı", tur:"sultanlik", bolge:"orta-afrika",

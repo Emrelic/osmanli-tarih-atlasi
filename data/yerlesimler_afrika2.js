@@ -107,8 +107,9 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Ounianga", tur:"sehir", lat:19.0700, lon:20.5100, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday",kaynak:"TDV veday (başlık 1635-1909; 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler') — t: sultanlığın sonu · SENUSI-NOKTA 19 Eyl 2026"},
+     {f:"1909-06-02",t:"1913-01-01",d:"senusi",kaynak:"TDV cad: 'Fransızlar Ebîşe’yi ve Vedây’ı ele geçirdikten sonra kuzeydeki Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913)' · TDV veday aynı hüküm — t YIL hassasiyeti (kaynak yıl veriyor; Borku merkezi Ayn Kelek'in günü 1913-11-27, TDV senusiyye, bu noktaya taşınmadı) · SENUSI-NOKTA"},
+     {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday: 'Çad’ın tamamını nüfuzları altına aldılar (1913)' — YIL · SENUSI-NOKTA"}],
   kaynak:"cad" },
 
 { ad:"Aravan", tur:"sehir", lat:18.9000, lon:-3.5300, g:0, k:0,
@@ -161,8 +162,9 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Fada (Ennedi)", tur:"sehir", lat:17.1800, lon:21.5800, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday",kaynak:"TDV veday (başlık 1635-1909; 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler') — t: sultanlığın sonu · SENUSI-NOKTA 19 Eyl 2026"},
+     {f:"1909-06-02",t:"1913-01-01",d:"senusi",kaynak:"TDV cad: 'kuzeydeki Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913)' — Fada Ennedi'nin merkezi · t YIL hassasiyeti · SENUSI-NOKTA"},
+     {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday: 'Çad’ın tamamını nüfuzları altına aldılar (1913)' — YIL · SENUSI-NOKTA"}],
   kaynak:"cad" },
 
 { ad:"In Gall", tur:"sehir", lat:16.7900, lon:6.9300, g:0, k:0,
@@ -233,8 +235,9 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Iriba", tur:"sehir", lat:15.1300, lon:22.2500, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday",kaynak:"TDV veday (başlık 1635-1909; 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler') — t: sultanlığın sonu · SENUSI-NOKTA 19 Eyl 2026"},
+     {f:"1909-06-02",t:"1913-01-01",d:"__BOSLUK__",kaynak:"BEYAN — 1909-06-02..1913 sahibi BULUNAMADI: TDV cad/veday Senûsî hâkimiyetini yalnız 'Borku ve Ennîdî' için söylüyor, Iriba (Dâr Zagâve, Ennedi'nin güneyi) adı geçmiyor; Fransız fiilî denetiminin Iriba'ya ulaştığı yıl da yok. Komşuya itilmedi (VERI-YAPISI __BOSLUK__) · SENUSI-NOKTA"},
+     {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday: 'Çad’ın tamamını nüfuzları altına aldılar (1913)' — YIL, üst sınır · SENUSI-NOKTA"}],
   kaynak:"cad" },
 
 { ad:"Bakel", tur:"sehir", lat:14.9000, lon:-12.4600, g:0, k:0,
