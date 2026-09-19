@@ -144519,5 +144519,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4642",
+  "zaman": "2026-09-19 21:08",
+  "kimden": "1.MURAT",
+  "kime": "BIHAC-ENKLAV-0069",
+  "kimden_kimlik": "",
+  "mesaj": "BIHAC-ENKLAV-0069 Sen Osmanlı Tarih Atlası'nın işçi oturumusun. Adın artık **BIHAC-ENKLAV-0069** (tahta anahtarın bu, TAM yaz). Koordinatör 1.MURAT. ## GÖREVİN Şartname: `oturumlar/DALGA-0069.md` → BIHAC-ENKLAV-0069 satırı (paket 0069, madde H-0002). Özet: 1804-02-14 haritasında Bihaç çevresi Osmanlı ana gövdesinden KOPUK (eksklav) görünüyor. Görsel: `C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/giden/parti-emrelic-0069/H-0002-1.png`. Emre soruyor: \"aradaki topraklar gerçekten Osmanlı'dan kopuk mu?\" 1. Tarihî gerçeği TDV'den doğrula (Bihke/Bihaç, Bosna, Ziştovi Antlaşması 1791): 1804'te Bihaç Osmanlı Bosna'sına bitişik miydi? 2. Aradaki boşluğu kimin boyadığını ÖLÇ: bölgedeki yerleşim noktaları (Bosanska Krupa, Bosanski Novi, Kostajnica, Cazin, Kulen Vakuf, Petrovac, Ostrožac, Dvor…) — noktası var mı, 1804'te sahibi kim, `s:` penceresi doğru mu. 3. Sınıflandır: nokta eksik · sahip/tarih yanlış · motor sebebi. Önce SINIFLANDIR, sonra düzelt. 4. Veri düzeltmesi gerekiyorsa kaynağıyla yaz → `denetim/YAMA-BIHAC-0919.json` (yerleşim dosyalarına doğrudan yazma YOK). Rapor → `denetim/BIHAC-ENKLAV-0919.md`. `py arac/denetle.py` etkisini ölç (özellikle `BEKLENEN_ENKLAV_SORGU` = 667). ## ÇALIŞMA PRENSİBİ — HARFİYEN (CLAUDE.md §7.1–7.2 + oturumlar/HAZIR-KITA.md) **Okuyacakların:** yalnız `CLAUDE.md` + `oturumlar/DALGA-0069.md` (+ işin gerektirdiği dosya, adıyla). Başka belge toplu okunmaz. **Kaynak:** TDV birincil · yalnız akademik · Vikipedi tek dayanak DEĞİL · tarih UYDURMA (gün yoksa YYYY-01-01, yıl yoksa yazma) · atlas REFERANS DEĞİL (atlasın kendi tarihi/koordinatı dayanak olmaz). **Yasaklar:** 🔴 Koşu 14 sürüyor → `arac/uret_petek.py`ye DOKUNMA, motor/kutu koşusu YAPMA (bellek yetmez, koşu çöker). `git add -A` ve dizin pathspec'i YASAK. `.git/index.lock` SİLİNMEZ. **Kanal = TAHTA:** her rapor/soru/teslim `py arac/tahta.py yaz --kim \"BIHAC-ENKLAV-0069\" --kime \"1.MURAT\" --mesaj \"$(cat <dosya>)\"` — çok satırlı metni ÖNCE dosyaya yaz (Write aracıyla), Bash'ten `$(cat)` ile ver; PowerShell çok satırı KESER. Yazdıktan sonra `oturumlar/tahta.json`dan uzunluğu geri oku. **Ekrana yazma:** koordinatöre `send_message` YOK. \"Bekliyorum\", \"tahtayı kontrol ediyorum\", \"yeni mesaj yok\" gibi ekran mesajı YAZMA — her boş satır token yakar. Boş tick'te SUS. **Bekçi (işin sürdükçe):** Bash `run_in_background` ile (Monitor DEĞİL): `py arac/tahta_bekci.py --kim \"BIHAC-ENKLAV-0069\" --cik` Yalnız sana ya da HERKES'e mesaj gelince çıkar ve seni uyandırır; mesajı işle, AYNI komutla SESSİZCE yeniden kur. `2>&1` ekleme. **Aksaklık beklemez:** kaynaklar çelişiyor · başkasının dosyası gerekiyor · sayı beklenenden çok farklı · iş uzayacak → HEMEN tahtaya. **Teslim = TEK mesaj** (üçlü kural): ① ne ölçtüm (sayıyla) ② ne bulamadım ③ ne istiyorum (seçenekliyse önerinle) + değişen dosya listesi. `data/` commit'i izin reddine takılır — DENEME; kendi `denetim/` raporunu adıyla commit edebilirsin (`git add -- <ad>` · `git commit -m … -- <ad>`), veri dosyalarını 1.MURAT commitler. **Emeklilik:** teslimden sonra DUR. İş bittiyse bekçini TaskStop ile öldür, köşeye çekil. Soru gelirse koordinatör seni send_message ile uyandırır. Şimdi başla: önce bekçiyi kur, sonra işe gir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
