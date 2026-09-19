@@ -144401,5 +144401,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4636",
+  "zaman": "2026-09-19 09:23",
+  "kimden": "SESSIZ-BORC-2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SESSIZ-BORC-2 (M-4612/M-4624) · denetle SONUÇ: temiz · commit YOK · rapor: denetim/SESSIZ-BORC-2-0919.md ① ÖLÇTÜM: (1) SAYAÇ durum_tablosu.py'de (denetle.py'de değil). v:kid'i saymıyordu → 58'in 6'sı sayaç hatası (~20 değil; kalan 14 veride künyeye bağlı değildi). Düzeltme: 3. kova 'tâbi-çizili' (yalnız v:kid, delik değil), kul DEĞİŞMEDİ (kapı/öteki kovalar aynen). Aynı veri+aynı denetle çıktısıyla eski/yeni modül yan yana: değişen tek anahtar renksiz_sessiz 58→52 + yeni renksiz_tabi 6; 19 tablo satırından yalnız 'Renksiz künye' satırı değişti. C13 10/10; yan kusur: renksiz dalları --sina çıkış koduna girmiyordu, artık giriyor (iki yönde sınandı). (2) BORÇ ilk 10: UYGULANDI 4 — hersek (Mostar 1448→1483, Trebinye 1448→1466; eski 'bosna' 1463 sonrası HAYALETTİ; TDV mostar/trebinye/bosna-hersek + EB1911 1448) · mora-despotlugu (Tripoliçe 1349→1460, Balyabadra 1430→1458; TDV mora) · avusturya-cumhuriyet (Viyana, Graz 1918-11-12→; eski 'avusturya' 1918-11-11 sonrası HAYALETTİ; Parlament Österreich) · prusya-dukaligi (Königsberg 1525-04-08→1701; NDB Albrecht). 4 renk renk_olc --oner/--dogrula ✓ 0 fark. 5 madde YENİ data/olaylar_sessiz_borc_0919.js (window.OLAYLAR_SESSIZBORC0919). KARAR 6: bosna-isgal (önerim dokunma, isg:avusturya anlamca doğru) · kibris-ingiliz (A s:kibris-ingiliz 1878-1914 / B d:+isg:ingiltere) · italya-napolyon (ayrı sevk, çok gün) · kasim (TDV kendiyle çelişiyor 1445 / 1452-56; Moskova vasalı boyama politikası) · bavyera · bohemya (almanya çatısı kaba). (3) kid: 44 v: dönemi, 7 künye (mekke 13, konstantin 16, dejanovic 5, orta-macar 6, dubrovnik 1, arvanid 2, kaheti 1); v:kid 328→372 dönem, 17→24 kimlik. SONUÇ sessiz borç 58→41, tâbi-çizili 13, delik 0. (4) GEMINI KUNYESIZ-23: DOĞRU — denetle _devletler_yukle yalnız id okuyor, harita: takma adlı 22 kimliğin ~990 dönemi 4/4c/4d/4s'den HİÇ geçmiyor; takma ad çözülünce 40 gizli dilim/6 kimlik (bosna 19, avusturya 8, milanoduka 6, sardinya 3, arnavutluk 2, kaffa 2). 🔴 ACİL YAN BULGU: app.js:5345 süzgeci /^OLAYLAR(_[A-Za-z0-9]+)?$/ TEK altçizgi segmenti kabul ediyor; OLAYLAR_2S_0918 (20) · OLAYLAR_2S_0919 (71) · OLAYLAR_CUKUROVA_0907 (6) · OLAYLAR_ORTADOGU_0919 (3) = 100 madde index.html'e bağlı ama SİTEDE YÜKLENMİYOR, denetle.py (OLAYLAR\\w*) onları SAYIYOR → Değişmez 2/2s görünmeyen maddelerle kapanıyor. SENUSI_0919 (5) de bağlanınca aynı. Kendi değişkenimi tek segmente çevirdim. ② BULAMADIM: Herseknovi/Foça/Konjic/Memel şehir tanıklığı (yazılmadı) · Akha ve Cermen tarikatı künyesi (Balyabadra 1281-1430 'bizans' ve Königsberg 1281-1525 'almanya' YANLIŞ, dokunulmadı) · erdel 4 dönem 1541-1570 künye öncesi (Lugos SENUSI isteğiyle hariç) · 7 etiketsiz künye (sabah, sani, girit-devleti, tunus-ocagi, misir-eyaleti, sirbistan-eyaleti, crnojevic) kid yazılamaz. ③ İSTİYORUM: (a) index.html'e data/olaylar_sessiz_borc_0919.js satırı · (b) app.js süzgeci düzeltmesi ya da 4 değişkenin yeniden adlandırılması (acil, sahibine) · (c) 6 KARAR · (d) denetle.py'de takma ad → künye birleşimi (düzeltmeyi ayrı soracağını yazmıştın) · (e) §1.5 yeniden üretilmeli (py arac/durum_tablosu.py --yaz). Yan etki: 1349 Mankup/İnkirman 2s kırılması benim Mora maddemle SAHTE kapandı (±30 gün yer bakmıyor). DOSYALAR (15): arac/durum_tablosu.py · arac/renkler.py · data/yerlesimler.js · yerlesimler_seyrek.js · yerlesimler_afrika.js · yerlesimler_ek.js · yerlesimler_ek_macaristan.js · yerlesimler_epir.js · yerlesimler_h2_kuzeyafrika.js · yerlesimler_ok101.js · yerlesimler_ok107.js · yerlesimler_nokta_ortadogu_0917.js · YENİ data/olaylar_sessiz_borc_0919.js · YENİ denetim/oneri-20260919-090639.txt · YENİ denetim/SESSIZ-BORC-2-0919.md. durum_tablosu.py dosya senin. Bekçim açık (karar/devam için).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
