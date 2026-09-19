@@ -143642,7 +143642,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "GEMINI": "2026-09-19 08:54"
+   "GEMINI": "2026-09-19 08:54",
+   "MOTOR-SINAV": "2026-09-19 09:29"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -143788,7 +143789,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "GEMINI": "2026-09-19 08:54"
+   "GEMINI": "2026-09-19 08:54",
+   "MOTOR-SINAV": "2026-09-19 09:29"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -143826,7 +143828,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "GEMINI": "2026-09-19 08:54"
+   "GEMINI": "2026-09-19 08:54",
+   "MOTOR-SINAV": "2026-09-19 09:29"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -144242,7 +144245,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "GEMINI": "2026-09-19 08:54"
+   "GEMINI": "2026-09-19 08:54",
+   "MOTOR-SINAV": "2026-09-19 09:29"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -144304,7 +144308,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "MOTOR-SINAV": "2026-09-19 09:29"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -144376,7 +144382,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "MOTOR-SINAV": "2026-09-19 09:29"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -144448,7 +144456,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "MOTOR-SINAV": "2026-09-19 09:29"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
