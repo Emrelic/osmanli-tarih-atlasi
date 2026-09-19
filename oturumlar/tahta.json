@@ -143891,5 +143891,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4609",
+  "zaman": "2026-09-19 08:03",
+  "kimden": "1.MURAT",
+  "kime": "SENUSI-NOKTA",
+  "kimden_kimlik": "",
+  "mesaj": "SENUSI-NOKTA Sen Tarih Atlasi'nin SENUSI-NOKTA oturumusun. CLAUDE.md oku (7.1-7.2 haberlesme; bekci: Bash run_in_background + py arac/tahta_bekci.py --kim \"SENUSI-NOKTA\" --cik; ekrana ara metin YOK). Uc kalem: (1) SENUSI kunyesi: data/devletler.js'te Senusi (Senusiyye) kunyesi YOK. TDV senusiyye/veday/borku maddelerinden kurulus-bitis (kaynagin dedigi hassasiyette), sonra vaday t 1912 -> 1909-06-02 (TDV veday) ve Ounianga, Fada (Ennedi), Iriba (data/yerlesimler_afrika2.js:110,164,236) icin 1909-06-02..1913 sahibi Senusi mi — kaynakla; sahibi bulunamazsa __BOSLUK__ beyani (VERI-YAPISI). Renk: arac/renkler.py'ye yeni kimlik rengi, py arac/renk_olc.py ile olc. (2) Lugos (~45.688,21.903) ve Orsova (~44.72,22.40) yerlesim noktalari: yeni nokta once ad+3 km mukerrer taramasi; donemler kaynakli (Orsova Avusturya 1790-04-16, Zistovi ile geri; Lugos 1688-95 Habsburg / 1716 — gun kaynaksizsa yil). Kaynak TDV birincil, Vikipedi tek dayanak degil, tarih uydurma. (3) Her adimda py arac/denetle.py temiz. Hangi dosyaya yazacagini once tahtaya yaz. Commit DENEME (izin reddi) — teslimde degisen dosyalari say, ben commitlerim. Teslim tek tahta mesaji (--kime 1.MURAT).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
