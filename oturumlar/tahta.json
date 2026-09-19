@@ -145005,5 +145005,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4669",
+  "zaman": "2026-09-19 23:44",
+  "kimden": "EKO-BAKIS-0069",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKO-BAKIS-0069 · Gemini G13 (gemini/BAKIS-0069.json) dogrulamasi · 4 millet (1) NE OLCTUM - CEZAYIR → GECTI. Celik-Ipek-Gur, \"The Ottoman Legacy in Algerian Textbooks\", Insan & Toplum 16/3 (2026) 88-108, doi:10.12658/M0805: DOI calisiyor, kunye birebir tutuyor, PDF (21 s.) indirilip okundu; gercekten Cezayir'in 29 ders kitabini inceliyor. → data/ekokuma_bakis.js'e \"bakis-cezayir\" karti yazildi (18. kart). Baglar 2/2 dusuyor (1519-09-01 Cezayir'in baglanmasi · 1830-07-05 Fransiz isgali); denetle.py \"SONUC: temiz\". Gemini'nin iki iddiasi makalede YOK, karta alinmadi: \"asimilasyon/Turklestirme yapilmadigi ozellikle belirtilir\" ve \"son 30 yilda olumlu vurgular pekistirildi\". Ikinci kaynak Hizmetli 1992 (AUIFD 32, 1-21) gercek ama Osmanli donemi egitim-kultur tarihi, ders kitabi incelemesi DEGIL. - VENEDIK/ITALYAN → GECMEDI. (a) Cajani 2010 \"The Image of the Other in History Textbooks: Italy and Turkey\", doi 10.3167/jemms.2010.020104: Crossref'e gore bu DOI Neveen Eid'in \"The Inner Conflict\" makalesi (JEMMS 2/1, 55-77) → kunye UYDURMA. (b) Soykut 2011: kitap gercek ama alt basligi yanlis (dogrusu \"Conflict and Politics through Pontifical and Venetian Sources\", Peter Lang, Italien in Geschichte und Gegenwart 33), verilen URL 404; konusu Ronesans'tan 19. yy'a papalik/Venedik kaynaklari, ders kitabi degil. - TUNUS → GECMEDI. (a) Hizmetli 1992: yukaridaki gibi, ders kitabi degil. (b) Kavas 2007 \"Kuzey Afrika'da Osmanli Egemenligi ve Garp Ocaklari\", IT Univ. Sosyal Bilimler Dergisi: kunye BULUNAMADI; URL derginin ana sayfasi (makale degil); en yakin eslesme baska yazar/yil (Seydi Toprak, Turkiyat Mecmuasi 22/1, 2012). Not: bu dosyada Tunus \"tema\"si Cezayir'inkiyle birebir AYNI DEGIL (ikisi farkli metin); ama Tunus temasi hicbir kaynaga dayanmiyor. - LIBYA → GECMEDI. (a) Ennas \"The Birth of the Ottoman Colonial Space – The Libyan Case (1835-1918)\": yazar ve baslik gercek, ama arama sonucuna gore 2016 Proposte e Ricerche'de; Gemini \"Kervan 2021\" diyor, verilen URL 404; konusu Osmanli yonetim tarihi, ders kitabi degil. (b) Kavas 2011 ORSAM: URL 404, dogrulanamadi. - DIGER 17 MILLET: Gemini'nin listeledigi kaynaklarin HEPSI benim kartlarimin kaynak: alanindan kopyalanmis (Todorovic, Alibasic, Simsek/Akbas, AMO vb.). YENI kaynak 0. Ayristirma bozuk: or. Deveci Bozkus kesme isaretinden bolunmus, yayinci alanina sayfa girmis. (2) NE BULAMADIM - Venedik/Italyan, Tunus, Libya icin ders kitabi incelemesi yine yok → \"bulunamadi\" kaliyor (Emre'nin karari). Libya icin yalniz Ingilizce dil ders kitaplarinda Arap/Turk temsili uzerine bir academia.edu calismasi goruldu; tarih degil, acilmadi. (3) ISTIYORUM - js/app.js baglama satirindaki sayi 17 → 18 kart: \"ekokuma_bakis\", // window.EKOKUMA_BAKIS — EKO-BAKIS-0069 (0069/H-0003, tur karsi-anlati, 18 kart) - Gemini taslaklarinda kaynak basina DOI/Crossref kontrolu sart; bu turda 7 kaynaktan 1'i gecti. DEGISEN DOSYA: data/ekokuma_bakis.js (18 kart). Commit YOK. Bekcimi kapatiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
