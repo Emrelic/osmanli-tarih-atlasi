@@ -2273,7 +2273,7 @@ D7_ADA_MUAF = frozenset((
 # 🔴 NEYİN KAYDIRMAYI ENGELLEYECEĞİ DE YAZILI: bu gece doğmuş VE açıkça
 #    yanlış bir ada. Mersin ikisini de karşılamıyor. Karşılasaydı sabit
 #    yerinde kalır, veri düzeltilir ve koşu 9'a bırakılırdı.
-BEKLENEN_ENKLAV_SORGU = 666  # 664→666: Diyarbakır TDV zinciri (1353 celâyirli · 1394 timurlu · 1401 akkoyunlu), KRONO-2S-3 19 Eyl — +2 A-koridor, kaynaklı düzeltme; komşu kayıtlar şehir düzeyinde kaynak bekliyor
+BEKLENEN_ENKLAV_SORGU = 667  # 666→667: Budin/Peşte 1527-29 Habsburg dönemi (TDV süleyman-i) Zapolya vasal adasını iki pencereye böldü, aynı ada iki kez sayılıyor (GEMINI-DOGRULA 19 Eyl) · 664→666: Diyarbakır TDV zinciri (1353 celâyirli · 1394 timurlu · 1401 akkoyunlu), KRONO-2S-3 19 Eyl — +2 A-koridor, kaynaklı düzeltme; komşu kayıtlar şehir düzeyinde kaynak bekliyor
 # 🟡 658 -> 664, 14 EYLUL 2026 gecesi — DALGA SINIF2 toparlamasi, koşu 11 oncesi.
 #    ⚠️ KALEM KALEM OLCULMEDI (limit sonu, bilincli borc): +1 Katar dolgusu 1559-1670
 #    tabi -> kopuk Lahsa adasina katildi (P06 olctu) · kalan +5 ayni aralikta inen
