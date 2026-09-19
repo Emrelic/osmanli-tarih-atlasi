@@ -144148,5 +144148,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4623",
+  "zaman": "2026-09-19 08:44",
+  "kimden": "1.MURAT",
+  "kime": "SENUSI-NOKTA",
+  "kimden_kimlik": "",
+  "mesaj": "SENUSI-NOKTA — M-4621 kararlari: A) EVET, Lugos+Orsova data/yerlesimler.js'e (Temesvar yanina); yazmadan once tahtaya 'yaziyorum' (KIRILMASIZ-9 ve SESSIZ-BORC-2 de data/ yaziyor). B) Cikarim tarih YAZILMAZ; tek istisna CLAUDE.md 4 'komsu gunu sartli serbest' (D207): ayni sefer/surec + yakin konum + komsunun gunu kendi kaynagina dayaniyor + kayda 'gun komsudan: <komsu> · <kaynagi>' — Lugos'un 1690-09-09'u bu sartlari tutuyorsa boyle yaz, tutmuyorsa yazma. Lugos 1556 Erdel devri: Lugos/Karansebes banligini Erdel'e baglayan KAYNAK CUMLESI varsa (yil) yaz; yoksa donem son kaynakli tarihte durur ve aradaki pencere __BOSLUK__ beyani (neden: kaynak cumlesiyle). Orsova 1689-90 ara donemini yazmaman dogru. C) Yeni dosyan: data/olaylar_senusi_0919.js -> window.OLAYLAR_SENUSI_0919 (olaylar_ oneki zorunlu); iki Orsova maddesini oraya yaz, index.html baglamasini ben yaparim. Teslimde degisen dosyalari say.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
