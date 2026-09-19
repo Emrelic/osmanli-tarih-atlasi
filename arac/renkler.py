@@ -3076,6 +3076,12 @@ BOYALAR = {
     "danzig-serbest-sehri-1807": ("Danzig Serbest Şehri (Napolyon Dönemi)", "#d224cc"),
     "rabih":                   ("Râbih b. Zübeyr Devleti",            "#d224d8"),
     "naksa-dukaligi":          ("Naxos (Nakşa) Dukalığı",             "#126ca2"),
+    # SESSIZ-BORC-2 19 Eyl 2026 (M-4612/M-4624) — sessiz borçtan veriye inen 4 kimlik;
+    # `py arac/renk_olc.py --oner` önerisi (denetim/oneri-20260919-090639.txt).
+    "avusturya-cumhuriyet":    ("Avusturya Cumhuriyeti (I. Cumhuriyet)", "#d2d224"),
+    "mora-despotlugu":         ("Mora Despotluğu",                    "#e41ec0"),
+    "hersek":                  ("Hersek (Kosača Dukalığı)",           "#24c6d8"),
+    "prusya-dukaligi":         ("Prusya Dükalığı",                    "#ba24d2"),
     # ================================================================
     # MERGE 5 EYLUL 2026 — 29 KIMLIK, TEK TURDA COZULDU
     # `renk_olc.py --oner` · artefakt: oneri-20260905-224505.txt

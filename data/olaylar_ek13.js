@@ -145,11 +145,12 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-6 — Azemmûr'un alınışı
 // ---------------------------------------------------------------------------
-{ t:"1513-09-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ t:"1513-09-03", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   kapsam:"dis", b:"Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi",
-  gun:"1 Eylül 1513", yer:"Azemmûr — Ümmürrebî' nehri ağzı, Fas", yer_id:"Azemmûr",
+  gun:"3 Eylül 1513", ic_not_gun:"Correia & Lopes, 'Azemmour, Morocco: Early Sixteenth-century Portuguese Defences' (EAUM Univ. of Minho / CHAM): '…in 1513, on September 3rd.' Önceki '1 Eylül' yalnız Vikipedi'ye dayanıyordu (KIRILMASIZ-9, 19 Eyl 2026, 1.MURAT M-4632).",
+  yer:"Azemmûr — Ümmürrebî' nehri ağzı, Fas", yer_id:"Azemmûr",
   kisiler:"Jaime (Braganza Dükü)",
-  d:"Braganza Dükü Jaime kumandasındaki Portekiz ordusu Ümmürrebî' nehrinin ağzındaki Azemmûr'a 1 Eylül 1513'te direnişle karşılaşmadan girdi. Şehrin alınması hem nehir ağzının hem de iç bölgeye açılan tahıl yolunun denetimini verdi ve ertesi yıl 12 km güneybatısında Mazagan kalesinin kurulmasının önünü açtı. Azemmûr yirmi sekiz yıl Portekiz elinde kaldı.", duygu:["🎉"] },
+  d:"Braganza Dükü Jaime kumandasındaki Portekiz ordusu Ümmürrebî' nehrinin ağzındaki Azemmûr'a 3 Eylül 1513'te direnişle karşılaşmadan girdi. Şehrin alınması hem nehir ağzının hem de iç bölgeye açılan tahıl yolunun denetimini verdi ve ertesi yıl 12 km güneybatısında Mazagan kalesinin kurulmasının önünü açtı. Azemmûr yirmi sekiz yıl Portekiz elinde kaldı.", duygu:["🎉"] },
 
 // ---------------------------------------------------------------------------
 // A-7 — Mazagan kalesinin kurulması

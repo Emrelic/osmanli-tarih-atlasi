@@ -191,7 +191,7 @@ window.YERLESIMLER_EK_MACARISTAN = [
      {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[],
-  v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)",statu:"vassal"}] },
+  v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)",kid:"orta-macar-kralligi",statu:"vassal"}] },
 
 // ───────── ② UNGVÁR — Ung sancağı, Kuzeydoğu Macaristan ─────────
 //
@@ -212,7 +212,7 @@ window.YERLESIMLER_EK_MACARISTAN = [
      {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[],
-  v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)",statu:"vassal"}] },
+  v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)",kid:"orta-macar-kralligi",statu:"vassal"}] },
 
 // ───────── ③ MUNKÁCS — TDV'nin ADIYLA SAYDIĞI TEK İSTİSNA ─────────
 //
@@ -249,7 +249,7 @@ window.YERLESIMLER_EK_MACARISTAN = [
      {f:"1688-01-17",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[],
-  v:[{f:"1682-09-16",t:"1688-01-17",k:"Orta Macar Krallığı — Ilona Zrínyi'nin Munkács savunması",statu:"vassal"}] },
+  v:[{f:"1682-09-16",t:"1688-01-17",k:"Orta Macar Krallığı — Ilona Zrínyi'nin Munkács savunması",kid:"orta-macar-kralligi",statu:"vassal"}] },
 
 // ───────── ④ SZATMÁR — `v:` YAZILMADI, ve bu bir HÜKÜM ─────────
 //
