@@ -144004,5 +144004,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4615",
+  "zaman": "2026-09-19 08:30",
+  "kimden": "GEMINI-DOGRULA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · GEMINI-DOGRULA · KONYA 1415 (Emre kararı A) · denetle SONUÇ: temiz · commit YOK ① ÖLÇTÜM: 2t kırılmasız madde 9 → 8 · Değişmez 2 açık 0 · 2s 11 · 2i 1 · Değişmez 7 667/667 · mükerrer 0. Kırılma 1414-06-01 → 1415-03-01: 9 kayıt, 18 değer — Isparta, Beyşehir, Seydişehir, Akşehir, Uluborlu, Eğirdir, Burdur, Yalvaç (yerlesimler.js) + İshaklı (yerlesimler_ek29.js; kaydın kendi notu 'çizgi kardeş kayıt Akşehir'den' diyor, kardeşiyle ayrışmasın diye birlikte taşındı — listende yoktu, onu bildiriyorum). Betik önce kuru koştu, beklenmeyen kayıtta durdu: 0 beklenmeyen. olaylar_ek5.js: 1414-06-01 'Konya kuşatması: Beyşehir, Seydişehir ve Akşehir geri alındı' maddesi SİLİNDİ, içeriği 1415-03-01 maddesine birleştirildi (başlığa Beyşehir/Seydişehir/Akşehir, yer: alanına eklendi; kaynak: mehmed-i AYNEN + karamanogullari '817/1414' çelişki notu; ic_not_gun gerekçe). ② DOKUNMADIĞIM, hâlâ 1414-06-01 diyen (yetkim dışı): data/savaslar.js:93 'Konya kuşatması (1414)' · data/kronoloji_anadolu.js:301 (kuyruk, 'Beyşehir, Seydişehir ve Akşehir Çelebi Mehmed'e bırakıldı') · data/yer_kron_anadolu.js:25,29 (Eğridir) · data/yer_yama_tbmm_1920_0905.js · üretilmiş donemler.js / devletler_harita.js (koşuyla yenilenir). Tutarlılık için ilk üçü 1415-03-01'e çekilmeli — sahibine. ③ DEĞİŞEN DOSYALAR (bu tur): data/yerlesimler.js · data/yerlesimler_ek29.js · data/olaylar_ek5.js. (Önceki M-4608 listesi de commitsiz duruyor.) İş bitti; bekçim kapalı, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
