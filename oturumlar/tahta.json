@@ -144627,5 +144627,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4648",
+  "zaman": "2026-09-19 21:53",
+  "kimden": "EKO-BAKIS-0069",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1/2 · EKO-BAKIS-0069 · 0069/H-0003 · 5 Balkan milleti (Sirp · Bulgar · Yunan · Arnavut · Romen) (1) NE OLCTUM / YAZDIM - data/ekokuma_bakis.js (YENI) → window.EKOKUMA_BAKIS, 5 kart, tur:\"karsi-anlati\" (EKOKUMA_TUR'da zaten tanimli, kod gerekmez). Her kart: (1) ana tema (2) ders kitabindaki yeri (3) son 30 yilda degisim + kaynak (sayfa numarali) + ic_not. - Olay baglari 10/10 gercek maddeye dusuyor (node sinamasi, 7106 madde): Kosova 1389 · Sirp Isyani 1804 · Tirnova 1393 · Ayastefanos 1878 · Istanbul 1453 (7 madde) · Yunan Isyani 1821 · Iskender Bey 1468 · Arnavutluk Isyani 1910 · Akdere 1476 · Romanya 1859. - JS sozdizimi temiz · okur metninde ic terim 0 · py arac/denetle.py → \"SONUC: temiz\". - Dayanak: 11 akademik kaynak, PDF'leri indirildi, METIN okundu: Alibasic (ISAM Islam Arastirmalari 17, 2007) · Todorovic (JBBSS 2021) · Ovcina (Junctions 2024) · Kalionski-Kolev, Soysal-Antoniou, Matei, M.-L. Murgescu (CDRSEE \"Clio in the Balkans\" 2002) · Ersoy Hacisalihoglu (IU Tarih Dergisi 66, 2017) · Kolodziejczyk (Acta Poloniae Historica 93, 2006) · Ayanoglu (JBBSS 2022) · Bilmez (ISAM Osmanli Arastirmalari XLIX, 2017) · Surenoglu-Oztas (TUHED 2025) · + CDRSEE Workbook 1 (2009). Vikipedi/basin/blog YOK. - TDV: ders kitabi anlatisini konu alan madde YOK (tam metin \"Tourkokratia\" 11 eslesme, hepsi Atina/Selanik/Samsun kaynakcasi) — ic_not'ta beyanli. (2) NE BULAMADIM - Sirbistan'in KENDI guncel kitaplari icin okunabilir inceleme yok (Stojanovic, Springer oturum istiyor). Sirp karti: Bosna Sirp Cumhuriyeti'nin Sirpca kitaplari (Alibasic) + Todorovic + Ovcina — metinde acikca yazili. - Romen: 2002 sonrasi kitap incelemesi yok → \"degisim\" 1990-2001 ile sinirli, metinde beyanli. - Bulgar 2017-18 \"boyunduruk/varlik\" terim tartismasi: yalniz basin/blog cikti → YAZILMADI. - BALKAR 2020 derlemesi (Hacisalihoglu ed., TUBITAK 110K571, 14 ulke ders kitabi) academia.edu'da oturum istiyor, acilamadi — ikinci teslimin en guclu kaynagi olurdu. - gemini/BAKIS-0069.json hala yok; beklemeden kendi taramamla ilerledim. (3) NE ISTIYORUM / ONERIYORUM - BAGLAMA: yukleyici index.html'den degil js/app.js _EKOKUMA_DOSYA_ADLARI listesinden okuyor (ekokuma_karsi/deniz orada). Onerilen satir, 8742'den (\"ekokuma_deniz\") sonra: \"ekokuma_bakis\", // window.EKOKUMA_BAKIS — EKO-BAKIS-0069 teslimi (0069/H-0003, tur karsi-anlati, 5 kart) Baglanmadan buton cikmaz; arayuzde goremedim, dogrulama bagdan sonra. - Tur: karsi-anlati onerim (olay degil donem bakisi; ayri tur istersen soyle). - DEVAM: kalan 16 millet ikinci teslimde. Rus ve Ermeni ders kitaplari icin TUBITAK 110K571 makaleleri bulundu. Bekci acik. DEGISEN DOSYA: data/ekokuma_bakis.js (yeni, tek dosya). Commit YOK (data/ senin).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
