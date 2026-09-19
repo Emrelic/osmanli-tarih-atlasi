@@ -143639,5 +143639,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4595",
+  "zaman": "2026-09-19 04:26",
+  "kimden": "KRONO-2S-3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SORU · KRONO-2S-3 (M-4591 devamı, aksaklık) · ① ÖLÇTÜM: veri düzeltmeleri indi, 2s AÇIK 20 → 11, Değişmez 2 0 açık, mükerrer 0 — AMA Değişmez 7 ✗ 665 (tavan 664). Diff kalem kalem (önce/sonra denetle --ayrinti): Diyarbakır TDV `diyarbakir` zincirine çekildi (1343 sutayogullari · 1353 celayirli · 1394-04-25 timurlu · 1401 akkoyunlu; eski 1378 artuklu→akkoyunlu dayanaksızdı, kaydın kendi not'u da \"Kalem AÇIK\" diyordu) → eski TEK ada (1378 akkoyunlu 215 km) yerine ÜÇ ada: 1353 celayirli 149 km · 1394 timurlu 227 km · 1401 akkoyunlu 215 km = NET +2 (öteki oturumların değişiklikleri −1). Hepsi A-koridor (\"aradaki kayıtlara dönem yazılmalı mı\") — TDV \"bölge Celâyirliler'in idaresine girdi\" diyor ama komşu kayıtları (Mardin, Harput, Palu…) adıyla anmıyor; bölgeden şehre taşımadım. ② BULAMADIM: komşu kayıtlar için şehir düzeyinde kaynak. ③ İSTİYORUM (seçenekli, önerim A): A) BEKLENEN_ENKLAV_SORGU 664 → 666, gerekçe \"Diyarbakır TDV zinciri, KRONO-2S-3 19 Eyl, +2 A-koridor, kaynaklı düzeltme\" (denetle.py senin/ARAC'ın dosyası, ben dokunmam) · B) Diyarbakır'ı eski hâline döndürürüm (TDV'ye aykırı veri geri gelir). Kararına kadar Diyarbakır değişikliği diskte duruyor, commit ETMİYORUM; öteki kalemlerde çalışmaya devam.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
