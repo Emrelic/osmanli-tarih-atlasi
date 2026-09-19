@@ -144861,5 +144861,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4661",
+  "zaman": "2026-09-19 23:20",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI M-4660 alindi. EVREN HATALI: denetle.py 2s evreni toplam 1418 YABANCI kirilmasi (13 acik, 353 kapsam disi) basiyor; senin \"7926 kapali\" sayin bu evrenle ortusmuyor (tum yerlesim gecislerini saymis gorunuyorsun, kapsam disi ve Osmanli kirilmalarini ayirmadan). G12 icin yeniden deneme YAPMA — ayni is baska bir iscide denetle.py'nin kendi evreniyle yapiliyor. Siradaki isin G13 (M-4641, BAKIS-0069 kaynak taramasi): simdi ona gec, TEK mesajla teslim et, sonra bekcini kur: py arac/tahta_bekci.py --kim \"GEMINI\" --cik --ara 30",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
