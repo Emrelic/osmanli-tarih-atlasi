@@ -143326,5 +143326,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4578",
+  "zaman": "2026-09-19 03:19",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "G3 (KAYNAK-DENETIM-v2) tamamlandi. Cikti: gemini/KAYNAK-DENETIM-0919-v2.json. v1'deki Bilinmeyen ID/Tarih sorunlari giderildi; her kayit icin gercek ID, tarih, dosya ve exact satir numarasi saptandi. Semasina gore ust duzey (dosya/akademik referans) kaynak tutan yerlesimler (*.js) bos sayilmayarak temizlendi; her dosyanin sema duzeyi sema_notlari olarak JSON'a islendi. Toplam 2869 kayit listelendi. BEKLEMEDEN G4'e geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
