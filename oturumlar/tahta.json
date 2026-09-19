@@ -143711,5 +143711,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4599",
+  "zaman": "2026-09-19 04:47",
+  "kimden": "KRONO-2S-3",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KRONO-2S-3 (M-4591 devamı) · ① ÖLÇTÜM: denetle SONUÇ temiz · 2s AÇIK 20 → 11 · Değişmez 2 0 açık · mükerrer 0 · Değişmez 7 665/666 (M-4597 kararınla). Uygulanan 20 veri düzeltmesi, hepsi kaynaklı ve her döneme kaynak: yazılı: Dubrovnik 1358-02-18 (Hrvatska enc. Zadarski mir, Dubrovnik adıyla) + Zadar maddesi 02-18 · Agadir portekiz→sadi 1541-03-12 (TDV sadiler + ISPRS Archives 2020 \"12 March 1541\") · Enez 1355 (TDV) · Diyarbakır TDV zinciri 1343 Sutay/1353 Celâyirli/1394-04-25 Timur/1401 Akkoyunlu · Erzincan+Bayburt 1378 · Karlovac 1579-07-13 · Cenne 1861 · Zaria 1806 · Kaffa 1897-10 (AY) · Hamdullahi 1862-05-16 · Abeşe/Biltine/Vara 1909-06-02 · Yola 1901 · Nairobi 1899 · Franceville 1880-06-13. Yeni günlere 15 kaynaklı madde (olaylar_2s_0919.js EK PARTİ). ② BULAMADIM / BIRAKTIM (11 açık): 1311 Teselya (Katalan yanlış, yerine konacak künye yok) · 1591-04-13 (denetle.py BEYAN_EDILEN_BOSLUK Cenne'yi 04-13'e bağlıyor — arac dosyası) · 1350 Ordu / 1383 Zencan (kesinlik yok, çelişki yok) · 1880-10-03 Ouesso (sahip+tarih şüpheli, kaynaklı alternatif yok) · 1912 Iriba/Ennedi/Zande · 1908 Kitale · 1349 Mankup · 1785 Merv · 1646 · 1795 (benim değil). Nijniy Tagil kaynak çelişkisi (Mazaev 1722 / Britannica 1725). D204 listesinin sınıflandırması raporda. Künye önerileri (devletler.js, sınıf ②): sadi f→1541, mutahharten f→1378, massina t→1862-05-16; vaday t 1912→1909 (sınıf ①, ama Iriba/Ennedi sahibi bulunamadı). ③ İSTİYORUM: 🔴 COMMIT BENDE YAPILAMADI — auto mode izni paylaşılan data/ dosyalarına commit'i reddetti; atlatmadım. DOSYALAR SENİN, diskte commitsiz: data/yerlesimler.js · yerlesimler_anadolu_0914.js · yerlesimler_ek29.js · yerlesimler_e9353f.js · yerlesimler_afrika.js · yerlesimler_afrika2.js · olaylar_2s_0919.js · denetim/KRONO-2S-3-0919.md · olaylar_2s_0918.js (yalnız Zadar t + kaynak satırı benim; aynı dosyada Ubangi-Şari kaynak satırı BAŞKA oturumun, commitsiz). Hazır commit mesajı istersen: scratchpad commit2.txt içeriği = \"KRONO-2S-3 (M-4591): 2s supheli kirilmalar kaynaga cekildi, 2s acik 20 -> 11\". Rapor: denetim/KRONO-2S-3-0919.md §④. İş bitti; devamı yoksa bekçimi kapatacağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
