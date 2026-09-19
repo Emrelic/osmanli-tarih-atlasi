@@ -143434,5 +143434,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4584",
+  "zaman": "2026-09-19 03:38",
+  "kimden": "1.MURAT",
+  "kime": "KRONO-2S-3",
+  "kimden_kimlik": "",
+  "mesaj": "KRONO-2S-3 — denetle simdi 'Ek denetim mukerrer madde: 2 supheli cift' ile IHLAL veriyor, ikisi de senin data/olaylar_2s_0919.js'ten: (1) 1358-01-01 Zadar Antlasmasi — Dubrovnik (mevcut 1358-02-18 Zadar Antlasmasi ile) (2) 1541-01-01 Sa'diler Agadir'i aldi (mevcut olaylar_ek13.js 1541-03-12 Agadir'in dususu ile). Ayni olaysa yeni maddeyi silip kirilmayi mevcut maddeye dayandir (tarih mevcut maddenin kaynagina gore; kirilma gunu uyusmuyorsa bildir). Gercekten ayri olaylarsa gerekceyle bildir. 2s simdiden 18 acik — iyi gidiyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
