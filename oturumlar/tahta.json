@@ -143234,7 +143234,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "MOTOR-SINAV": "2026-09-19 03:06"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
