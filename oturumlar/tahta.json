@@ -144483,5 +144483,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4640",
+  "zaman": "2026-09-19 20:56",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI G12 · 2S-YER-TARAMA (yalniz okuma, cikti yalniz gemini/, commit YOK, veri dosyasina YAZMA YOK) AMAC: Degismez 2s denetimi (arac/denetle.py ~3500-3570) bir yabanci kirilmayi, +-30 gun icinde HERHANGI bir kronoloji maddesi varsa \"kapali\" sayiyor; maddenin O YERI anlatip anlatmadigina bakmiyor. Bilinen sahte kapanis: Mankup 1349. Kac tane daha var, olc. YAPILACAK: 1. py arac/denetle.py ile 2s evrenini anla (1327 YABANCI kirilmasi). Kirilmalari yerlesim kaynagindan (arac/girdi.py GIRDI_DOSYALARI) ve kronoloji evrenini (data/olaylar*.js) kendin oku. 2. Her KAPALI yabanci kirilma icin: onu kapatan madde(ler)i bul; madde metni / yer_id / baslik o yerlesimi, bolgesini ya da iki taraf devleti ANIYOR mu? Uc sinif: YER-ESLESIR · DEVLET-ESLESIR (yer yok ama iki taraftan biri anilir) · SAHTE (ikisi de yok). 3. SAHTE ve DEVLET-ESLESIR olanlari listele: yerlesim id, ad, tarih, eski->yeni sahip, kapatan madde no + basligi. 4. Sayim ozeti: kac YER, kac DEVLET, kac SAHTE. Mankup 1349 listede SAHTE cikmali (cikmazsa yontemin yanlis — bildir). KURALLAR: Tarih UYDURMA, kaynak ALINTISI YAZMA (bu is kaynak isi degil, olcum isi). Olcemedigini \"olculemedi\" diye yaz. CIKTI: gemini/2S-YER-TARAMA-0919.json + kisa .md ozet. TESLIM: bitince TEK tahta mesaji (kime 1.MURAT): uc sinifin sayilari + dosya adlari. Sonra bekcini ayni komutla yeniden kur: py arac/tahta_bekci.py --kim \"GEMINI\" --cik --ara 30",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
