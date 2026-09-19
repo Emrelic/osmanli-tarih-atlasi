@@ -1,0 +1,17 @@
+# DALGA-0069 — paket 0069 (3 madde) · 19 Eylül 2026 · 1.MURAT
+
+Görsel: `ClaudEmre/kutu/giden/parti-emrelic-0069/H-0002-1.png` · metin: aynı klasör `PARTI.json`.
+Açılış ve haberleşme: **CLAUDE.md §7.2 TOKEN ZİNCİRİ** (tahta tek kanal · bekçi `--cik` · işin yoksa sus ·
+teslim TEK mesaj · teslimden sonra dur, iş bittiyse bekçiyi öldür).
+Kaynak: TDV birincil · yalnız akademik · Vikipedi tek dayanak olamaz · tarih uydurma · atlas referans değildir.
+Görsel: yalnız kamu malı / CC0, `gorsel_kaynak:` açıkça.
+🔴 KOŞU 14 SÜRÜYOR (C:/atlas-kosu14) — `arac/uret_petek.py` DEĞİŞMEZ, motor kutu koşusu YAPILMAZ (bellek).
+Commit: `data/` işçide izin reddine takılır — DENEME; teslimde değişen dosyaları tek tek say, 1.MURAT commitler.
+
+| Oturum | Madde | İş | Çıktı |
+|---|---|---|---|
+| **EKO-DENIZ-0069** (Opus) | H-0001 | "Amiral Nelson ve Napolyon'un gemilerinin batması" ek okuması. Çekirdek: **Ebukır (Nil) deniz muharebesi, 1-2 Ağustos 1798** — Nelson'ın Brueys filosunu Ebukır koyunda yok etmesi, amiral gemisi *L'Orient*'in infilakı; sonuç: Fransız ordusunun Mısır'da kapana kısılması, Osmanlı'nın Fransa'ya savaş ilanı, Osmanlı-Rus-İngiliz ittifakı, Akkâ. Bağlam olarak Trafalgar (1805) YALNIZ Napolyon'un deniz gücünün sonu olarak ve kısaca. Türler: sebep · seyir · sonuç · Osmanlı'ya etkisi · merak. Tarihleri TDV ("Ebukır", "Mısır" maddeleri, "Cezzâr Ahmed Paşa") ve akademik kaynaktan; gün kaynaktan okunur. Mevcut `data/ekokuma_ihtilal.js`i ÖNCE oku (Napolyon'un Mısır'ı maddesi var) — tekrar yazma, ona bağla. | `data/ekokuma_deniz.js` (window.EKOKUMA_DENIZ) + index.html satırı ÖNERİSİ (teslimde) |
+| **BIHAC-ENKLAV-0069** (Opus) | H-0002 | 1804-02-14 haritasında **Bihaç çevresi Osmanlı ana gövdesinden kopuk** (eksklav) görünüyor. Tarihen: Ziştovi 1791 sonrası Bihaç–Cazin–Krupa hattı Osmanlı Bosna'sına bitişikti (DOĞRULA — TDV "Bihke/Bihaç", "Bosna", "Ziştovi Antlaşması"). ① Aradaki boşluğu kimin boyadığını ÖLÇ: hangi yerleşim noktaları (Bosanska Krupa, Bosanski Novi, Kostajnica, Cazin, Kulen Vakuf, Petrovac, Ostrožac, Dvor…) o tarihte kimin, noktası var mı, `s:` penceresi doğru mu. ② Sınıflandır: nokta eksik · sahip/tarih yanlış · motor (petek/yürüyüş) sebebi. ③ Veri düzeltmesi gerekiyorsa kaynağıyla YAMA yaz. Denetle ile `BEKLENEN_ENKLAV_SORGU` (667) etkisini de raporla. | `denetim/YAMA-BIHAC-0919.json` + `denetim/BIHAC-ENKLAV-0919.md` |
+| **EKO-BAKIS-0069** (Opus) | H-0003 | "Balkan ve komşu milletlerin Osmanlı'ya bakışı" ek okuma DİZİSİ: ders kitaplarında ve ulusal tarih anlatısında Osmanlı nasıl işleniyor. Milletler: Sırp · Bulgar · Yunan · Arnavut · Romen · Rus · Avusturya · Venedik/İtalyan · Hırvat · Boşnak · Arap · İran · Mısır · Libya · Tunus · Cezayir · Polonya · Gürcü · Ermeni · Azerbaycan · Arabistan. Dayanak: **akademik ders kitabı araştırmaları** (ör. Georg Eckert Enstitüsü yayınları, CDRSEE "Teaching Modern Southeast European History", hakemli makaleler; Türkçe: TDV + üniversite yayınları). Her millet için: ① anlatının ana teması ("boyunduruk", "yoke", "Türkokratia" vb.) ② ders kitabındaki yeri ③ son 30 yılda değişim ④ kaynak. 🔴 Hassas konu: taraf tutma YOK, her anlatıyı kendi kaynağından aktar, değer hükmünü okuyucuya bırak. Gemini'nin taslağı `gemini/BAKIS-0069.json` gelirse ÖNCE doğrula (Gemini alıntı uyduruyor — her kaynağı aç, künyesi yoksa AT). Önce 5 Balkan milleti, teslim, sonra devam. | `data/ekokuma_bakis.js` (window.EKOKUMA_BAKIS) |
+
+Yeni `data/*.js` dosyaları index.html'e 1.MURAT tarafından bağlanır.
