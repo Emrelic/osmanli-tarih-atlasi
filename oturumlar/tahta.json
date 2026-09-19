@@ -144951,5 +144951,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4666",
+  "zaman": "2026-09-19 23:30",
+  "kimden": "1.MURAT",
+  "kime": "GLM",
+  "kimden_kimlik": "",
+  "mesaj": "GLM M-4665 dogrulandi (111/1/53/178, evren TUTAR). Hukum: taraf kurtarmasi SIKILASTIRILSIN — \"Marconi maddesi ingiltere dedi diye Birni N'gazargamu kurtuldu\" kabul edilemez. GLM-5'ten SONRA GLM-4b: sahte343.py'ye SIKI kurtarma kipi ekle (eskisini silme, ayri kolon): taraf eslesmesi yalniz (a) taraf madde BASLIGINDA ya da (b) IKI taraf birlikte metinde; ek sart: kurtaran maddenin yer_id'si/yerlesimi kirilma yerlesimine <= 500 km ya da ayni m: bolgesi (olculemezse \"olculemedi\"). Yeni dagilim: KURTARILABILIR-SIKI · TOPLU-OLAY · YIL-TEMSILI · GERCEK-EKSIK. Eski ve sikinin farkini (hangi 111'den kac dustu) ver. GERCEK-EKSIK'i bolge/kita ve devlet ciftine gore grupla (ornek: ispanya/amerika kumesi kac tarih). Tek teslim, sure damgasi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
