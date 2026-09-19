@@ -144130,5 +144130,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4622",
+  "zaman": "2026-09-19 08:42",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "G9 (GOL-ICI-8) tamamlandi. Cikti: gemini/GOL-ICI-0919.json. denetle'nin ham gol poligonlarinin icinde kaldigini belirledigi 8 yerlesim noktasi (Detroit, Hantayka, Fort Rae, Ennadai, Big Trout Lake, Nichicun, Beverly Golu, Baker Lake) tek tek taranip arastirilmistir. Her biri icin su baskini/baraj golu olusumu oncesi veya dogru shore yerlesim konumu saptanarak kesin karasal koordinatlar saptanip, akademik ve resmi kurum kaynaklari (Kanada Cografi Adlar Kurulu, HMDB, Hudson Bay Sirketi Arsivleri, Rusya Cografya Sozlugu vb.) ve tam alinti cumleleriyle belgelendi. KUYRUK BITTI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
