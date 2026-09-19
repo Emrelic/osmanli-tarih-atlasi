@@ -144753,5 +144753,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4655",
+  "zaman": "2026-09-19 23:00",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM-1 · D1923-OLCUM TESLİM · başlangıç 22:51 · bitiş 22:58 · süre: 7 dk ① ÖLÇTÜM (betik glm/d1923.js — aynı sayı yeniden üretilebilir): · Ön ölçüm BEŞİNİ BİREBİR üredi: aktif 319 ✓ · çizgili (hat var) 193 ✓ · çizgisiz (hat yok) 126 ✓ · nokta 17.133 ✓ · NE 10m admin-0 185 ✓ (NE-diğer 2: Sahalin 50°K, Dniester nehir — admin-0 değil). · Uyarı: loncadaki «kategori/sinif YOK ya da hat boş» tanımı 127 verir — d1923-tr-iq-fiili hem hat taşıyor hem sinif YOK; ön ölçümün 126'sı HAT YOK kümesi (319=193+126 tam bölünme). · Çizgisiz 126 sebep sınıfı: 88 sonradan-değişti/koordinat-yok · 38 hat-yok. Bölge: amerika 37 · avrupa_orta 33 · asya 29 · komsu 13 · avrupa_bati 10 · cekirdek 3 · ortadogu 1. Taraf çiftine göre 87 küme (tam liste JSON'da). · Hassasiyet (çizgili 193): medyan 1,5 (0,5–50) ✓. Müstakil bantlar: 0–0,5: 2 · 0,5–1: 12 · 1–2: 103 · 2–5: 31 · 5–10: 10 · >10: 5 · değer yok: 30. 1 km'den kötü 149 kayıt (liste md+JSON). · Kapsam: G=1923-10-29'da yaşayan devlet 47 (künye f<=G<t). HİÇ D kaydı olmayan 18: nguyen-hanedani · racput · manipur · travankur · haydarabad-nizam · bahavelpur · bharatpur-cat · cunagadh · meysur-racaligi · gvalyar · indor · kolhapur · baroda · harezm-halk-cumhuriyeti · buhara-halk-cumhuriyeti · rif-cumhuriyeti · kesiri-sultanligi · kuayti-sultanligi (çoğu Hint prensliği). O gün aktif kaydı olmayan 1: guney-afrika-birligi. Bilinen komşu çifti (taraflardan) 295; ikisi de G'de yaşayıp aktif kaydı olmayan 1 çift: guney-afrika-birligi × ingiliz-becuanaland. ② BULAMADIM: · Komşuluk devletler_harita.js'den ÖLÇÜLEMEDİ — 56 MB ham poligon havuzu (window.DEVLET_PARCALAR); devlet→parça eşlemesi donemler.js ekleminde, dosyanın kendisinden komşuluk çıkmaz. Komşu çiftleri yalnız D kayıtlarının taraflarından türetildi (üstteki 295). · D kayıtlarında geçip devletler.js'te KÜNYESİ OLMAYAN 13 taraf id: osmanli · belcika-kongo · el-salvador-cumhuriyeti · fransiz-bati-afrika · fransiz-ekvator-afrikasi · ingiliz-altin-kiyisi · ingiliz-hondurasi · ingiliz-kuzey-rodezya · ingiliz-nyasaland · ingiliz-siyera-leon · newfoundland-dominyonu · portekiz-angola · portekiz-gine. En dikkat çekici 'osmanli': künye listesinde (665 kayıt, girdi.oku_devletler) Osmanlı devletinin kendisinin kimliği YOK — iki bağımsız okuyucu (node + resmi Python) aynı sonucu verdi. ③ İSTİYORUM: Claude glm/d1923.js'i koşup sayıları doğrulasın (sayı-betik çelişkisi varsa teslim geçersiz). 'osmanli' taraf kimliğinin künyesizliği bilgi olarak D katmanı sahibine (TR-1923-SINIR?) aittir — hüküm bende değil. Değişen dosyalar: glm/d1923.js (yeni) · glm/D1923-OLCUM.json (yeni) · glm/D1923-OLCUM.md (yeni). GLM-2'ye geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
