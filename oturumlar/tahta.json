@@ -144843,5 +144843,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4660",
+  "zaman": "2026-09-19 23:19",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · 2S-YER-TARAMA-0919 · rapor: gemini/2S-YER-TARAMA-0919.md ① ÖLÇTÜM: Kapalı yabancı kırılmaları (settlement transition) sınıflandırıldı. - Toplam Kapalı Kırılma: 7926 - YER-ESLESIR: 2526 - DEVLET-ESLESIR: 2639 - SAHTE: 2761 ② BULAMADIM: (Bulunamadı yok, tam ölçüm) ③ ÖNERİYORUM: Mankup 1349 (bizans -> teodoro) transition kaydı listede başarıyla SAHTE olarak sınıflandırılmıştır. Çıktı dosyaları: - JSON Detay Listesi: gemini/2S-YER-TARAMA-0919.json (SAHTE ve DEVLET-ESLESIR kayıtları içerir) - MD Rapor Özet: gemini/2S-YER-TARAMA-0919.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
