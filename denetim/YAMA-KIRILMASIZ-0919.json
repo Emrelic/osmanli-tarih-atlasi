@@ -1,0 +1,141 @@
+{
+  "_NOT": "GEMINI-DOGRULA (Opus) · 19 Eylül 2026 · görev M-4592. Girdi: gemini/KIRILMASIZ-MADDE-0919.json (17 madde). VERİYE YAZILMADI — öneri. Evren denetle.kirilmasiz_madde() ile BU TURDA ölçüldü: 17 madde (tavan 42 ✓). ⚠️ CLAUDE.md §1.5 '12' diyor → tablo bayat. Gemini'nin 17'si ölçülen 17 ile BİREBİR aynı küme. Her madde için TDV gövdesi curl ile çekilip cümle cümle okundu.",
+  "sayim": {
+    "gemini_hukmu_dogru": 7, "gemini_hukmu_yanlis": 9, "suphe_kaynak_celiskili": 1,
+    "gemini_alintisi_TDVde_birebir": 0,
+    "not": "Okunan 13 TDV maddesinde Gemini'nin 'kaynak_cumlesi' hiçbirinde BİREBİR yok; 3'ünde içerik de TDV'de yok (idris-i-bitlisi 'Nusaybin … Mardin', antalya 'çekilme tamamlanmıştır', bati-trakya 'müttefiklerin ortak idaresi'). 3 atıf ölü slug: azemmur, ismail, hemedan-antlasmasi (302); 'safi' slug'ı başka madde (SAFÎ)."
+  },
+  "siniflar": {
+    "A_VERI_YAMASI_2t_kapatir": "[1] Cerbe · [6] Konya 1415 (+mükerrer 1414 maddesi) · [7] Budin",
+    "B_ISG_SINIFI_denetim_gormuyor": "[14] Niş · [12] Antalya · [13] Rusçuk — 2t havuzu yalnız d/v/s kırılması sayıyor (denetle.py:1469, kir+kir_s); isg: kırılmaları 2t'ye hiç girmiyor",
+    "C_KUYRUK_SINIFI": "[2] Safi · [3] Azemmûr — kırılma yerlesimler_ek3.js'te var ama o dosya KUYRUK_DOSYALARI'nda (denetle.py:352)",
+    "D_ETIKET_MUKERRER_SINIFI": "[0] Cüneyd 1426 · [5] Torlak Kemal 1416 · [10] Nusaybin 1515-01-01 · [8] 1724 Mukāsemenâme · [9] 1727 Hemedan · [11] Neuilly — veri doğru; madde toprak-* etiketi taşıyor ama toprak başka maddenin gününde el değiştiriyor",
+    "E_NOKTA_GEREKIR": "[4] Lugoş · [16] Eski Hırsova (=Orşova)",
+    "F_KAYNAK_SUPHELI": "[15] İsmâil 1789"
+  },
+  "maddeler": [
+    {
+      "no": 1, "t": "1560-07-30", "b": "Cerbe kalesinin düşüşü", "sinif": "A", "gemini": "DOĞRU (yön ve gün); alıntı birebir değil",
+      "kaynak": "TDV cerbe AYNEN: «Fırtınalar ve bulaşıcı hastalıklar yüzünden güç belâ 1560 yılı başlarında Cerbe önlerine gelen Haçlı donanmasının kumandanı … adayı hâkimi olan Arap şeyhinden kolayca teslim alarak orada çok muhkem bir kale inşa ettirdi.» · «İki ay kadar süren kuşatmadan sonra … kale 30 Temmuz 1560 günü alındı ve böylece fethi tamamlanan ada Trablusgarp Beylerbeyiliği'ne bağlandı». İşgal günü: olaylar_ek12.js:62 maddesinin kaynağı TDV piyale-pasa «14 Cemâziyelâhir 967'de (12 Mart 1560) Cerbe adasını işgal etti».",
+      "yama": {"dosya": "data/yerlesimler.js", "kayit": "Cerbe (Djerba) (satır ~1381)",
+        "s": "hafsi {f:1281-01-01,t:1560-05-14} → {f:1281-01-01,t:1560-03-12} ; EKLE {f:1560-03-12,t:1560-07-30,d:\"ispanya\"}",
+        "d": "{f:1560-05-14,t:1705-07-17,y:savas} → {f:1560-07-30,t:1705-07-17,y:savas}"},
+      "etki": "Değişmez 2: 1560-05-14 kırılması kalkar (o maddenin etiketi toprak-* taşımıyor → 2t'ye düşmez), 1560-07-30 kırılması bu maddeyle kapanır → 2t −1. 2s: 1560-03-12 hafsi→ispanya kırılması 1560-03-12 maddesiyle KAPALI. `ispanya` BOYALAR'da var (Tunus 1573 kullanıyor). yerlesimler_ek3.js:168-181 notunun istediği iki düzeltmenin ikisi de budur."
+    },
+    {
+      "no": 6, "t": "1415-03-01", "b": "Konya kuşatması ve Karamanoğulları ile antlaşma", "sinif": "A — KARAR 1.MURAT (TDV kendi içinde çelişiyor, CLAUDE §4 tuzak ⑥)",
+      "gemini": "YANLIŞ — 'toprak değişikliği yok' dedi; TDV açıkça toprak katıldığını söylüyor",
+      "kaynak": "TDV mehmed-i AYNEN: «Mehmed bu seferde Karamanlılar'ı yendi ve Konya'yı kuşatma altına aldı (Muharrem 818 / Mart 1415).» · «Karamanoğlu barış istedi, Hamîd-ili (Isparta yöresi), Said-ili toprakları Osmanlı ülkesine katıldı.» Aynı maddede sefer öncesi mektup «evâsıt-ı Zilhicce 817 [Şubat 1415 ortaları]». ↔ TDV karamanogullari AYNEN: «Mehmed Bey Beyşehir, Seydişehir ve Akşehir'i Osmanlılar'a geri vermek zorunda kaldı (817/1414).»",
+      "cozumleme": "817 H = 23 Mart 1414 – 12 Mart 1415; iki madde aynı barışı anlatıyor, mehmed-i ay veriyor ve sıralamayı (Şubat 1415 mektup → Mart 1415 kuşatma) kuruyor. '817/1414' yalnız hicrî yılın miladî karşılığının başı. Atlastaki 1414-06-01 günü bu yıl-kodundan üretilmiş görünüyor (olaylar_ek5.js:59 gun:\"817 (1414)\").",
+      "yama_onerisi": {
+        "veri": "data/yerlesimler.js — Isparta, Eğirdir, Burdur, Uluborlu, Yalvaç, Beyşehir, Seydişehir, Akşehir: karaman s: t ve Osmanlı d: f  1414-06-01 → 1415-03-01 (8 kayıt; hepsinde bugün aynı 1414-06-01 kırılması)",
+        "kronoloji": "olaylar_ek5.js:59 '1414-06-01 Konya kuşatması: Beyşehir, Seydişehir ve Akşehir geri alındı' maddesi 1415-03-01 maddesiyle MÜKERRER → birleştir (içeriğini 1415-03-01 maddesine taşı, kendisini kaldır) ya da toprak-kazanc etiketini düşür. Yalnız veri kaydırılıp madde kalırsa 2t'ye YENİ kırılmasız madde eklenir.",
+        "hassasiyet": "1415-03-01 'Mart 1415' ay kodudur (gun: alanı açıklıyor); CLAUDE §4 YYYY-MM-01 uyarısı geçerli."
+      },
+      "secenekler": "A (önerim): TDV mehmed-i — 1415-03-01. B: bugünkü 1414-06-01 kalır, 1415-03-01 maddesi 1414 maddesine birleştirilir (TDV karamanogullari yıl kodu). Hüküm 1.MURAT.",
+      "etki": "A: 2t −1, Değişmez 2 açık değişmez (1415-03-01 maddesi kırılmayı kapatır)."
+    },
+    {
+      "no": 7, "t": "1529-09-08", "b": "Budin'in alınıp Zapolya'ya verilmesi", "sinif": "A — gün KARAR",
+      "gemini": "DOĞRU yön, EKSİK: aradaki Habsburg dönemi veride yok, kırılma bu yüzden doğmuyor",
+      "kaynak": "TDV suleyman-i AYNEN: «23 Eylül 1527'de Ferdinand, Szapolyai'yi Budin'den çıkarınca …» · «Kuşatma altına alınan Budin'i savunan Ferdinand'a bağlı Alman ve Macar kuvvetleri 8 Eylül'de teslim oldu.» · «… Szapolyai'ye … krallık tacını giydirdi (14 Eylül).» ↔ TDV budin AYNEN: «1527 Ağustosunda Buda'yı ele geçiren Ferdinand'a karşı János Szapolyai Sultan Süleyman'dan yardım istedi.» → TDV içinde Ağustos / 23 Eylül çelişkisi.",
+      "yama_onerisi": {
+        "veri": "data/yerlesimler.js — Budin ve Peşte: v:vassal {1526-09-01→1541-08-29} üçe bölünür: v {1526-09-01→<G>} · s:avusturya {<G>→1529-09-08} · v {1529-09-08→1541-08-29}. (Budin kaydı girdide İKİ kez görünüyor — ikisine de.) `avusturya` Habsburg Macaristanı için zaten kullanılıyor (Yanıkkale/Győr 1526-08-29).",
+        "G_secenekleri": "A (önerim): 1527-09-23 — TDV'de günü veren tek cümle (suleyman-i). B: 1527-08-01 — TDV budin 'Ağustos' (ay kodu, §4 uyarısı).",
+        "kronoloji": "ÇEKİRDEKTE 1527 Ağustos/Eylül maddesi YOK (grep: olaylar*.js 1527-08/09 boş; en yakın 1527-01-01 maddeleri). v→s kırılması d/v havuzunda → yeni madde yazılmadan uygulanırsa Değişmez 2 açık 0→1 = İHLAL. ÖNCE madde: 'Ferdinand Budin'i ele geçirdi, Szapolyai çekildi' (kaynak TDV suleyman-i + budin, çelişki metinde)."
+      },
+      "etki": "Madde + veri birlikte: 2t −1 (1529-09-08 kırılması doğar ve bu maddeyle kapanır), Değişmez 2 açık 0 kalır."
+    },
+    {
+      "no": 12, "t": "1921-06-01", "b": "İtalyanlar Antalya'yı boşaltmaya başladı", "sinif": "B",
+      "gemini": "DOĞRU yön; alıntı TDV'de yok ('çekilme tamamlanmıştır' uydurma)",
+      "kaynak": "TDV antalya AYNEN: «Şehir ve civarı 29 Nisan 1919'da Mondros Mütarekesi uyarınca İtalyanlar tarafından işgal edildi.» · «İki yıl kadar süren bu işgal, 1 Haziran 1921'de İtalyanlar'ın şehri boşaltmaya başlamasıyla sona erdi.»",
+      "yama": {"dosya": "data/yerlesimler.js", "kayit": "Antalya (satır 187)", "isg": "EKLE [{f:\"1919-04-29\",t:\"1921-06-01\",d:\"italya\",kaynak:\"TDV antalya\"}]"},
+      "etki": "Veride İtalyan işgali HİÇ yok (olaylar_p0049.js:99 maddesi ic_not_gun'da bunu zaten söylüyor: 'yerleşim tarafı B'). İki uçta madde var (1919-04-29 p0049, 1921-06-01 p0049) → 2i açık artmaz. ⚠️ 2t'yi KAPATMAZ: 2t havuzu isg saymıyor (bkz. B sınıfı önerisi)."
+    },
+    {
+      "no": 14, "t": "1737-10-16", "b": "Niş'in Avusturya'dan geri alınışı", "sinif": "B — veri DOĞRU, denetim görmüyor",
+      "gemini": "DOĞRU",
+      "kaynak": "TDV nis AYNEN: «Rebîülevvel 1150'de (Temmuz 1737) … Seckendorf Niş'i ele geçirdi; fakat aynı yılın ekim ayında Rumeli Beylerbeyi Köprülüzâde Hâfız Ahmed Paşa tarafından savaşsız geri alındı.»",
+      "atlas": "Niş isg:avusturya {1737-07-27→1737-10-16} — bitiş TAM madde gününde. ⚠️ TDV yalnız 'ekim ayında' diyor; 16 günü hem veride hem maddede kaynaksız (madde kaynak: nis) → sahte kesinlik adayı, ikinci kaynak aranmalı.",
+      "yama": "yok"
+    },
+    {
+      "no": 13, "t": "1811-07-04", "b": "Rusçuk Muharebesi ve Kutuzov'un çekilmesi", "sinif": "B",
+      "gemini": "YANLIŞ — 'toprak değişikliği yok' dedi; oysa Rus işgali (isg) o günlerde BİTİYOR",
+      "kaynak": "TDV ruscuk AYNEN: «1811 Haziranında alınan ağır yenilgiler ve tersliklerden sonra Ruslar geri çekilmeye zorlandı. Ayrılmadan önce Başkumandan Kutuzov, şehir etrafındaki istihkâmın ve Ortaçağ dönemi kalesinin havaya uçurulmasını emretti.»",
+      "atlas": "Rusçuk isg:rusya {1810-09-26→1811-06-01} — bitiş 'Haziran' AY KODU; madde 4 Temmuz (maddenin kaynağı ESBE, Jülyen/Gregoryen notu yok). Çekilme günü TDV'de YOK → BULUNAMADI. Öneri: isg t: gün kaynağı bulununca düzeltilsin; o zamana dek dokunulmasın (ay kodunu başka bir tahminle değiştirmek sahte kesinlik)."
+    },
+    {
+      "no": 2, "t": "1488-01-01", "b": "Safi'nin Portekiz nüfuzuna girmesi", "sinif": "C — veri DOĞRU",
+      "gemini": "DOĞRU yön; atıf YANLIŞ (TDV 'safi' slug'ı SAFÎ başlıklı başka madde, 1488/Portekiz geçmiyor)",
+      "atlas": "yerlesimler_ek3.js:123 s:portekiz f:1488-01-01 — madde günüyle aynı. ek3 KUYRUK dosyası → kırılma Değişmez 2 evreninde değil. Yama yok; karar denetim sahibinde (kuyruk↔çekirdek)."
+    },
+    {
+      "no": 3, "t": "1513-09-01", "b": "Azemmûr'un alınışı", "sinif": "C",
+      "gemini": "DOĞRU yön; atıf ÖLÜ (TDV azemmur 302)",
+      "atlas": "yerlesimler_ek3.js:126 s:portekiz f:1513-01-01 ↔ madde gun:\"1 Eylül 1513\". Madde gününün kaynağı YOK (olaylar_ek13.js'te kaynak alanı yok). Öneri: gün için kaynak bulunursa veri 1513-09-01'e çekilsin; bulunamadı."
+    },
+    {
+      "no": 0, "t": "1426-01-01", "b": "Cüneyd Bey ve ailesinin idamı", "sinif": "D",
+      "gemini": "YANLIŞ mekanizma — İzmir/Selçuk/Tire'ye 1426 kırılması önerdi; üçü de veride 1425-06-01'den beri Osmanlı",
+      "kaynak": "TDV cuneyd-bey AYNEN: «… bir süre sonra da bütün soyu sopu ile birlikte yok edildi (1426).» · TDV aydinogullari AYNEN: «… onu yakalattı ve ailesiyle birlikte idam ettirdi (829/1425-26).»",
+      "atlas": "Toprak değişimi olaylar_ek.js:45 '1425-06-01 Batı Anadolu beyliklerinin yeniden ilhakı: Menteşe ve Aydın' (gun:\"1424-1426\") maddesinde. 1426 maddesi olayın SONU.",
+      "oneri": "Madde etiketinden toprak-kazanc düşürülsün (kronoloji sahibinin kararı) ya da 2t defterinde meşru kalsın. Veri yaması YOK."
+    },
+    {
+      "no": 5, "t": "1416-09-01", "b": "Torlak Kemal'in idamı — Saruhan kesin Osmanlı'nın", "sinif": "D",
+      "gemini": "YANLIŞ — Manisa'ya 1416 kırılması önerdi; TDV toprağın 1415'ten ÖNCE geçtiğini söylüyor",
+      "kaynak": "TDV saruhanogullari AYNEN: «… 1411'den sonra ve 1415'ten önce Saruhan ülkesinin Çelebi Mehmed'in idaresi altına girdiği … anlaşılmaktadır.» · «Torlak Kemal'in yenilgiye uğratılıp Manisa'da idam edildiği tarih 819 (1416) olup bu durum Saruhan bölgesindeki kesin Osmanlı idaresinin tarihini de belirler.»",
+      "atlas": "Manisa d: 1415-01-01'den beri — TDV'nin '1415'ten önce'siyle uyumlu. Madde t:1416-09-01: TDV yalnız 819 (1416) diyor → '09-01' kaynaksız (sahte kesinlik adayı; §4 → 1416-01-01).",
+      "oneri": "toprak-kazanc etiketi düşürülsün; t: 1416-01-01'e çekilsin. Veri yaması YOK."
+    },
+    {
+      "no": 10, "t": "1515-01-01", "b": "Nusaybin ve Cizre-Mardin çevresinin İdrîs-i Bitlisî eliyle katılması", "sinif": "D — MÜKERRER",
+      "gemini": "YANLIŞ — Mardin'i 1515'e bağladı (TDV: kesin olarak 1517 sonrası); İdris alıntısı TDV'de yok",
+      "kaynak": "TDV nusaybin AYNEN: «… 921 (1515) yılı sonlarında Osmanlı topraklarına katıldı.» · TDV idris-i-bitlisi: listede Cizre, İmadiye var, Nusaybin YOK; «… kesin olarak Mardin ile öteki şehir ve kasabaların Osmanlı idaresine girmesini sağladı» — Mısır seferinden DÖNÜŞTE.",
+      "atlas": "olaylar_ok107.js:46 '1515-09-19 Nusaybin, Derik ve Silopi'nin Osmanlı'ya katılması' aynı olayı GÜNLÜ anlatıyor ve Nusaybin/Cizre kırılmasını kapatıyor. Mardin 1517-05-01 TDV ile uyumlu.",
+      "oneri": "1515-01-01 maddesi 1515-09-19 maddesine birleştirilsin ya da toprak-kazanc düşürülsün. Veri yaması YOK."
+    },
+    {
+      "no": 8, "t": "1724-06-24", "b": "İstanbul Mukāsemenâmesi", "sinif": "D",
+      "gemini": "YANLIŞ eşleme — Derbend/Bakü (veride 1722-09-03 / 1723-08-06'dan beri Rus) ve Tebriz (1725) için 1724 kırılması önerdi",
+      "atlas": "Antlaşma günü hiçbir nokta el değiştirmiyor; Osmanlı kazanımları fetih günlerinde (Hemedan 1724-08-31, Tebriz 1725-07-28) kendi maddeleriyle. Taksim antlaşması = 'statüko/iddia' sınıfı.",
+      "oneri": "toprak-kazanc düşürülsün ya da defterde meşru kalsın. Veri yaması YOK."
+    },
+    {
+      "no": 9, "t": "1727-10-04", "b": "Hemedan Antlaşması", "sinif": "D", "gemini": "DOĞRU (toprak değişimi yok, teyit belgesi); atıf ÖLÜ (hemedan-antlasmasi 302)",
+      "oneri": "toprak-kazanc düşürülsün. Veri yaması YOK."
+    },
+    {
+      "no": 11, "t": "1919-11-27", "b": "Neuilly Antlaşması", "sinif": "D",
+      "gemini": "YANLIŞ — Gümülcine/Dedeağaç'a 1919-11-27 kırılması önerdi; madde metni haritanın Mayıs 1920'de değiştiğini BİLEREK söylüyor; Gemini'nin TDV cümlesi TDV'de yok",
+      "kaynak": "TDV bati-trakya AYNEN: «… İtilâf devletleri adına Fransız kuvvetlerinin Batı Trakya'yı işgali (15 Ekim 1919) sıralarında …» · «Batı Trakya'nın Yunanlılar tarafından işgali günlerinde de (22 Mayıs 1920) …».",
+      "oneri": "toprak-kaybi etiketi 1920 Mayıs maddelerinde kalsın, Neuilly'den düşürülsün. Veri yaması YOK.",
+      "yan_bulgu": "Veride Gümülcine/Dedeağaç'ta 15 Ekim 1919 Fransız işgali (isg) YOK — TDV bati-trakya veriyor, bitiş günü bu maddede yok. Ayrı iş."
+    },
+    {
+      "no": 4, "t": "1695-09-22", "b": "Lugoş zaferi — II. Him seferi", "sinif": "E",
+      "gemini": "YANLIŞ — 'kaleler geçici alındı, statüko korundu' dedi; TDV Lippa'nın yıkıldığını ama Lugoş'un ALINDIĞINI söylüyor",
+      "kaynak": "TDV mustafa-ii AYNEN: «Önce Lippa fethedildi …» · «Muhafazası zor olduğundan Lippa Kalesi yıktırıldı.» · «Bu zaferin ardından Lugoş alındı.»",
+      "atlas": "Lugoş/Lippa NOKTASI YOK; bölge 52.9 km'deki Temeşvar peteğine düşüyor (1694 ve 1696'da d:) → harita zaten hep Osmanlı, kırılma doğamaz. Gün: TDV'de yok → BULUNAMADI.",
+      "oneri": "Nokta ekleme işi (Oturum 0, §6): Lugoj 45.688,21.903 — ama 1688-1695 Habsburg ve 1716 sonrası dönemlerin günleri kaynakta aranmadan yazılmasın. O zamana dek madde 2t defterinde."
+    },
+    {
+      "no": 16, "t": "1790-04-16", "b": "Eski Hırsova'nın düşüşü", "sinif": "E",
+      "gemini": "YANLIŞ YER — Dobruca'daki Hırsova'ya (44.685,27.954) bağladı. TDV bağlamı Çerna suyu ve Bosna sınırı: Eski Hırsova = ORŞOVA (Tuna, Demirkapı)",
+      "kaynak": "TDV zistovi-antlasmasi AYNEN: «16 Nisan'da eski Hırsova kış boyunca süren zorlu bir muhasaradan sonra Avusturya kuvvetlerinin eline geçti.» · «… Çerna suyunun sağ yakasına kadar uzanan araziyle beraber Eski Hırsova'nın buralarda istihkâm inşa etmemek kaydıyla Avusturya'ya bırakılması …» · «… Eski Hırsova ve Unna bölgesindeki toprak kazançları …».",
+      "atlas": "Orşova'da NOKTA YOK; bölge 22.9 km'deki Turnu Severin (Eflak, v:vassal) peteğine düşüyor. Dobruca Hırsova'sına yama YAZILMAMALI.",
+      "oneri": "Nokta ekleme işi: Orşova ~44.72,22.40 — d: → s:avusturya 1790-04-16 (Ziştovi 1791-08-04 ile kalıcı). Önce ad+3 km mükerrer taraması."
+    },
+    {
+      "no": 15, "t": "1789-10-11", "b": "İsmâil Kalesi'nin teslimi (1789)", "sinif": "F — VERİ YAZILMASIN",
+      "gemini": "Yalnız maddeyi tekrarladı",
+      "kaynak": "TDV yusuf-pasa-koca AYNEN: «… 11 Ekim'de İsmâil ve 14 Kasım'da Bender Kalesi'nin teslimi …». TDV'de İsmail maddesi YOK (ismail 302, çapraz kontrol yapılamadı). TDV akkirman: «Akkirman 1770 ve 1789 yıllarında iki defa Ruslar tarafından kuşatılarak ele geçirildi» (gün yok).",
+      "suphe": "Madde 'kale 1789'da teslim edilmiş, sonra yeniden Osmanlı eline geçmiştir' diyor; geri alınışın ne zaman/nasıl olduğu KAYNAKSIZ. 1790-12-22 büyük kuşatması veride var. Tek TDV cümlesine dayanan, geri dönüşü anlatılamayan bir işgal = §4 tuzak ⑥ adayı (yan cümlede 11 Ekim'in başka bir kaleye ait olması). İkinci kaynak bulunmadan isg eklenmesin.",
+      "yan_bulgu": "Veride Akkirman'ın 1789 Rus işgali YOK (d: 1484-08-04→1812-05-28 kesintisiz) — TDV akkirman yıl veriyor. Ayrı iş."
+    }
+  ],
+  "denetim_onerisi_B": "denetle.py kirilmasiz_madde() havuzuna isg kırılmaları (degismez2(Yc,O,('isg',))) eklenirse Niş bugün, Antalya yamadan sonra kapanır; 2t'nin sorusu 'madde toprak iddia ediyor ama harita kıpırdamıyor' — isg de haritayı kıpırdatıyor. Karar denetle.py sahibinde; iki yönde sınanmadan uygulanmasın (§11).",
+  "net_etki_hepsi_uygulanirsa": "A (3 yama) −3 · D (6 etiket) −6 · B (denetim değişirse) −2 → 17 → ~6. Değişmez 2 açık 0 kalır ANCAK Budin 1527 maddesi veriden ÖNCE yazılırsa."
+}

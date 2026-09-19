@@ -1,0 +1,51 @@
+{
+  "_NOT": "GEMINI-DOGRULA (Opus, eski ad OPUS HAZIR KITA 1909-0207) · 19 Eylül 2026 · görev M-4592 (1.MURAT). Girdi: gemini/KUBA-GULISTAN-0919.md (G6). VERİYE YAZILMADI — öneri. Kaynaklar bu turda BAĞIMSIZ okundu: TDV kuba--azerbaycan (200), feth-ali-sah (200), azerbaycan (200); TDV kuba / kuba-hanligi / gulistan-antlasmasi → 302 ÖLÜ; Encyclopaedia Iranica 'GOLESTĀN TREATY' (curl 403, tarayıcıyla okundu).",
+  "sayim": {"dogrulandi": 2, "gemini_yanlis": 3, "bulunamadi": 2},
+  "iddialar": [
+    {
+      "no": "a1", "gemini": "Kuba Hanlığı 17. yy sonunda Hüseyin Han'la, Safevî'ye bağlı kuruldu",
+      "hukum": "DOĞRULANDI (içerik) — Gemini'nin alıntısı BİREBİR DEĞİL",
+      "kaynak": "TDV kuba--azerbaycan — içerik 18 Eylül'de YAMA-KUNYE-KUBA-0918'de okunmuş; künye not: alanında zaten var. Yeni iş yok."
+    },
+    {
+      "no": "a2", "gemini": "1735: merkez Hudad'dan Kuba'ya taşındı, Hüseyin Ali Han İran ve Rusya'ca tanındı",
+      "hukum": "DOĞRULANDI (içerik) — alıntı birebir değil ('Nadir Şah ve Rusya nezdinde' TDV'de 'İran Şahlığı hem de Rus Çarlığı')",
+      "kaynak": "TDV kuba--azerbaycan AYNEN: «Lezgi hareketlerinden olan 1735 olayları sırasında Kuba hanının ikametgâhı Hudad Kalesi tamamıyla yıkıldığından hanlık merkezi Kuba'ya nakledildi.» · «Hudad'da isyancı Lezgiler'in öldürdüğü Sultan Ahmed Han'ın oğlu Hüseyin Ali Han, Kuba hâkimi olarak hem İran Şahlığı hem de Rus Çarlığı tarafından resmen tanınmıştı.»",
+      "atlas": "Künye `kuba-hanligi` f:1735-01-01 ZATEN bu kararla yazılmış (devletler.js:8054, M-4519). Değişiklik yok."
+    },
+    {
+      "no": "a3", "gemini": "1747: Nadir Şah'ın ölümüyle tam bağımsızlık; künye başlangıcı 1747-06-20 olmalı; kaynak TDV «Kuba Hanlığı»",
+      "hukum": "GEMİNİ YANLIŞ (kaynak) — ÖNERİ REDDEDİLİR",
+      "gerekce": "TDV'de «Kuba Hanlığı» maddesi YOK (kuba-hanligi ve kuba slugları 302). Canlı madde kuba--azerbaycan'da 1747 GEÇMİYOR (gövde tarandı: 1734, 1735, 1758 var; 1747 yok). Gemini'nin tırnak içindeki cümlesi TDV'de YOK → uydurma alıntı. Olgu (Nadir 1747'de öldü) doğru olabilir ama Kuba'nın o gün bağımsızlaştığını söyleyen okunmuş kaynak bulunamadı. Künye f:1735 kalır."
+    },
+    {
+      "no": "b1", "gemini": "Gülistan imza günü Gregoryen 24 Ekim 1813 (Jülyen 12 Ekim)",
+      "hukum": "DOĞRULANDI",
+      "kaynak": "Encyclopaedia Iranica, 'GOLESTĀN TREATY' (E. L. Daniel) AYNEN: «The Treaty of Golestān was concluded on 29 Šawwāl 1228/24 October 1813 (12 October according to Hurewitz, I, p. 197; 21 October in Pakravan, p. 156).»",
+      "atlas": "kronoloji_iran.js:286 ve künye kuba-hanligi t: ZATEN 1813-10-24."
+    },
+    {
+      "no": "b2", "gemini": "TDV «Gülistan Antlaşması» maddesi (c.14 s.245) 24 Kasım 1813 diyor",
+      "hukum": "GEMİNİ YANLIŞ (atıf)",
+      "gerekce": "gulistan-antlasmasi slug'ı 302 ÖLÜ; gulistan (200) Sa'dî'nin eseri, 1813 geçmiyor. 24 Kasım'ı veren TDV maddesi feth-ali-sah AYNEN: «24 Kasım 1813'te Rusya ile Gülistan Antlaşması'nı imzalamak zorunda kalan İran …». TDV azerbaycan yalnız YIL: «Gülistan Antlaşması ile (1813) …». Gemini'nin TDV cümlesi (Karabağ, Gence, Şeki … hanlıkları) o haliyle TDV'de YOK."
+    },
+    {
+      "no": "b3", "gemini": "24 Kasım, Jülyen 12.10'un 12.11 okunmasından doğan ay kayması",
+      "hukum": "BULUNAMADI — spekülasyon, hiçbir kaynakta okunmadı",
+      "gerekce": "Iranica üç tarih veriyor (24/12/21 Ekim), Kasım'ı hiç anmıyor; hatanın MEKANİZMASINI söyleyen kaynak yok. Kayda 'TDV feth-ali-sah 24 Kasım diyor, Iranica 24 Ekim; fark çözülmedi (muhtemel aktarım hatası)' yazılır, sebep yazılmaz."
+    },
+    {
+      "no": "b4", "gemini": "Rusya Başkanlık Kütüphanesi cümlesi «On October 12 (24), 1813 …»",
+      "hukum": "BULUNAMADI — bu turda açılıp okunmadı (Iranica yeterli dayanak)"
+    }
+  ],
+  "yama": [
+    {
+      "dosya": "data/kronoloji_sinir_komsu.js", "satir": 115, "kayit": "sinir_id g5-rus-ir-DEGISTI-gulistan",
+      "alan": "t", "eski": "1813-01-01", "yeni": "1813-10-24",
+      "d_metni_eki": "Gün: Encyclopaedia Iranica 'GOLESTĀN TREATY' — 29 Şevval 1228 / 24 Ekim 1813 (Hurewitz 12 Ekim = Jülyen; Pakravan 21 Ekim). TDV feth-ali-sah 24 Kasım diyor; fark çözülmedi.",
+      "gerekce": "Maddenin kendi metni 'Fark çözülmedi; 12 Ekim Jülyen takvimine göre olabilir' diyor — Iranica bunu çözüyor; atlasın öteki iki kaydı (kronoloji_iran.js:286, künye kuba-hanligi t:) zaten 1813-10-24. Dosya kronoloji KUYRUĞU (Değişmez 2 evreni dışı) — denetle sayılarını değiştirmez.",
+      "risk": "yok"
+    }
+  ]
+}
