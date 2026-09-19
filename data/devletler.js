@@ -1182,9 +1182,9 @@ window.DEVLETLER = [
 // katmanını (Sâdî hanedanı — `fas` künyesinin kendi ilk döneminde zaten
 // anlatılan hanedan, ama harita kimliği AYRI) temsil ediyor.
 { id:"sadi", ad:"Sâdî Hanedanı (Fas)", tur:"hanedanlik", bolge:"kuzey-afrika",
-  f:"1549-01-01", t:"1659-01-01", baskent:"Fas / Marakeş",
+  f:"1511-01-01", t:"1659-01-01", baskent:"Fas / Marakeş",
   ozet:"Sûs bölgesinde cihad emirliğiyle başlayıp (1511) Vattâsîleri yenerek Fas'a hâkim olan (1549), Ahmed el-Mansûr döneminde Tondibi zaferiyle Songhay'ı yıkan şerif hanedanı; iç taht kavgalarıyla 1659'da sona erdi, yerini Alevî (Filalî) hanedanı aldı (bkz. [[fas]] — aynı ülke kimliğinin devamı). HANEDAN ÖMRÜ kimliğidir; `fas` künyesi 1549'dan 1923'e ÜLKE SÜREKLİLİĞİ olarak aynı toprağı kapsıyor, bu ikisi ÇELİŞMEZ — `fas` şemsiye kimlik, `sadi` onun ilk 110 yılının hanedan katmanıdır. ⚠️ `fas`ın kendi kronolojisi Alevî geçişini \"1666\" diye veriyor, TDV `sadiler` maddesi \"1069/1659\" diyor — bu 7 yıllık fark ayrıca not düşülüyor, `fas`a dokunulmadı.",
-  kaynak:"sadiler",
+  kaynak:"sadiler — f: TDV başlık «Fas’ta hüküm süren bir İslâm hânedanı (1511-1659)», gövde «Sûs bölgesinin cihad emîri olarak biat aldı (916/1511)» · «1541’de Agādîr’i ele geçirdi» — YIL. Eski f 1549 = Fas şehrine giriş, hanedanın doğumu değil (§3.5 sınıf ②: aynı polity sürüyor → künye genişletildi) · KUNYE-DORT 19 Eyl 2026",
   kronoloji:[
     { t:"1511-01-01", tur:"kurulus", b:"Muhammed, elli kadar kabile reisinden Sûs bölgesinin cihad emîri olarak biat aldı (916)" },
     { t:"1549-01-01", tur:"toprak-kazanc", b:"Fas şehrine girip Vattâsî hâkimiyetine son verdi (956)" },
@@ -1929,11 +1929,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"mutahharten", ad:"Erzincan-Kemah Beyliği (Mutahharten)", tur:"beylik", bolge:"anadolu",
-  f:"1379-01-01", t:"1410-01-01", baskent:"Erzincan", harita:"mutahharten",
+  f:"1378-01-01", t:"1410-01-01", baskent:"Erzincan", harita:"mutahharten",
   ozet:"Emîr Mutahharten'in Erzincan-Kemah'ta kurduğu küçük uç beyliği (hanedan ömrü, iki dönem); 1401'de Yıldırım Bayezid'e kaybetti, 1402'de Timur'un restorasyonuyla geri aldı, 1410'da öldü — künye dış zarfı verir, arada ~17 aylık Osmanlı kesintisi vardır. TDV'de ayrı maddesi yoktur; tarihler standart akademik kaynaklara göredir.",
-  kaynak:"kemah",
+  kaynak:"kemah · f: TDV erzincan «Pîr Hüseyin Bey’in vefatıyla (1378) Eretna emîrlerinden Mutahharten’in Erzincan emîri olması» + TDV akkoyunlular «Onun da ölümü üzerine (1378), Erzincan ve Bayburt … Mutahharten’in eline geçti» — YIL; eski 1379 = Eretnaoğulları’nın Erzincan kuşatması (§3.5 sınıf ②: aynı polity → künye genişletildi) · t: TDV erzincan «Mutahharten’den sonra Erzincan 1410 yılında Karakoyunlu hâkimiyetine girdi» · KUNYE-DORT 19 Eyl 2026",
   kronoloji:[
-    { t:"1379-01-01", tur:"kurulus", b:"Mutahharten, Erzincan-Kemah beyliğini kurdu" },
+    { t:"1378-01-01", tur:"kurulus", b:"Pîr Hüseyin Bey’in ölümüyle Eretna emîrlerinden Mutahharten Erzincan ve Bayburt’un hâkimi oldu", kaynak:"TDV erzincan · TDV akkoyunlular (1378)" },
     { t:"1401-01-01", tur:"antlasma", b:"Timur'a itaat ederek şehrini tahripten korudu" },
     { t:"1403-01-01", tur:"son", b:"Mutahharten'in ölümüyle beylik Akkoyunlu nüfuzuna girdi" }
   ]
@@ -2950,14 +2950,23 @@ window.DEVLETLER = [
   ]
 },
 { id:"vaday", ad:"Vaday Sultanlığı", tur:"sultanlik", bolge:"orta-afrika",
-  f:"1635-01-01", t:"1912-01-01", baskent:"Abeşe",
-  ozet:"Tunciler'in ardından Abdülkerim'in kurduğu, Vara'dan sonra Abeşe'yi başşehir yapan Sahra-altı sultanlığı. TDV cad maddesine dayanır.",
-  kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: 'Vara ve Abeşe başlıca merkezler'; 'Râbih b. Zübeyr döneminde (1878-1900) bölgenin en güçlü devleti'. Fransız fethi 1909-1912.",
+  f:"1635-01-01", t:"1909-06-02", baskent:"Abeşe",
+  ozet:"Tunciler'in ardından Abdülkerim'in kurduğu, Vara'dan sonra Abeşe'yi başşehir yapan Sahra-altı sultanlığı. TDV cad ve veday maddelerine dayanır.",
+  kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: 'Vara ve Abeşe başlıca merkezler'; 'Râbih b. Zübeyr döneminde (1878-1900) bölgenin en güçlü devleti'. · t: TDV veday başlığı 'Çad’da hüküm süren bir sultanlık (1635-1909)' ve gövdesi 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler' (SENUSI-NOKTA 19 Eyl 2026; eski t 1912-01-01 kaynaksızdı). Sınıf ③: Borku-Ennedi'de ardıl sahip Senûsîler (bkz. senusi künyesi), 1913'te Fransa.",
   kronoloji:[
     { t:"1635-01-01", tur:"kurulus", b:"Abdülkerim Vaday sultanlığını kurdu" },
     { t:"1790-01-01", tur:"toprak-kazanc", b:"Uzun süre Darfur'a bağlı olan Vaday Sultanlığı 1790'larda bağımsızlaştı, Bornu aleyhine hızlı toprak genişlemesine girdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — WebSearch üzerinden alıntı, sayfa bizzat ikinci kez açılmadı" },
-    { t:"1909-01-01", tur:"isgal", b:"Fransız kuvvetleri 1909'da başkent Abéché'yi ele geçirdi; sultan Dud Murra 1911'de teslim oldu, sultanlık fiilen sona erdi.", kaynak:"Encyclopaedia Britannica 'Wadai' — aynı kaynak" },
-    { t:"1912-01-01", tur:"son", b:"Fransız fethi tamamlandı" }
+    { t:"1909-06-02", tur:"son", b:"Fransız kuvvetleri başkent Ebîşe'yi (Abeşe) ele geçirip sultanlığa son verdi; son sultan Dâvûd Murra Vaday ile Kufra arasında bir mevkie çekildi.", kaynak:"GÜN: TDV veday — «Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler» (KUNYE-DORT 19 Eyl 2026) · TDV veday 'Başşehrini işgalden kurtaramayan Vedây’ın son sultanı … Vedây ile Kufra arasındaki bir mevkiye çekildi' (SENUSI-NOKTA)" }
+  ]
+},
+{ id:"senusi", ad:"Senûsî Tarikatı (Senûsiyye)", tur:"devlet", bolge:"kuzey-afrika",
+  f:"1837-01-01", t:"1923-10-29", baskent:"Cağbûb · Kufra (ana zâviye)",
+  ozet:"Muhammed b. Ali es-Senûsî'nin kurduğu, zâviye ağıyla Libya'dan Büyük Sahrâ'nın güneyine yayılan tarikat; XX. yüzyıl başında Borku ve Ennedi'yi hâkimiyetinde tutan siyasî-askerî bir yapıya dönüştü. Atlasta YALNIZ bu hâkimiyet (Borku-Ennedi 1909-1913) çizilir. f = tarikatın 1837'de Mekke'de ilk zâviyeyi açması (YIL hassasiyeti). t = pencere ucu, ölçüm değil: yapı 1923 sonrası sürdü (1951 Libya Krallığı).",
+  kaynak:"TDV senusiyye (gövdesi okundu, HTTP 200): '1837 yılında Mekke’de Ebûkubeys dağında açtığı zâviyede irşad faaliyetine başlayan Muhammed b. Ali es-Senûsî' · TDV cad: 'kuzeydeki Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913)' · TDV veday: 'Borku ve diğer bazı yerleri hâkimiyetlerinde tutan Senûsîler’i buradan çıkarıp Çad’ın tamamını nüfuzları altına aldılar (1913)'. ⚠️ Hâkimiyetin BAŞLANGIÇ yılı kaynakta yok (tarikat zâviyeleri 1860'lardan beri bölgede); atlas bu kimliği yalnız Vaday'ın düştüğü 1909-06-02'den itibaren kullanır.",
+  kronoloji:[
+    { t:"1837-01-01", tur:"kurulus", b:"Muhammed b. Ali es-Senûsî Mekke'de ilk zâviyeyi açtı", kaynak:"TDV senusiyye" },
+    { t:"1902-01-20", tur:"toprak-kayip", b:"Fransızlar Çad gölüne 100 km mesafedeki Senûsî zâviyesini ele geçirip yıktı", kaynak:"TDV senusiyye — «Fransızlar’ın 20 Ocak 1902’de Çad gölüne 100 km. mesafedeki Senûsî Zâviyesi’ni ele geçirip yıkmaları»" },
+    { t:"1913-11-27", tur:"toprak-kayip", b:"Borku'nun merkezi Ayn Kelek zâviyesi Fransızlarca ele geçirilip yıkıldı; Senûsîler Borku ve Ennedi'den çıkarıldı", kaynak:"TDV senusiyye — «Bu zâviye 27 Kasım 1913’te işgal ordusunca ele geçirilip yıktırıldı» · TDV cad (yalnız yıl: 1913)" }
   ]
 },
 { id:"bagirmi", ad:"Bagirmi Sultanlığı", tur:"sultanlik", bolge:"orta-afrika",
@@ -7008,10 +7017,10 @@ window.DEVLETLER = [
 { id:"teksas-cumhuriyeti", ad:"Teksas Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-amerika",
   f:"1836-03-02", t:"1845-12-29", baskent:"Austin",
   ozet:"Meksika'dan ayrılarak 1836'da bağımsızlığını ilan eden, 1845'te ABD'ye katılmasıyla sona eren kısa ömürlü cumhuriyet. İlk yıllarda başkent Columbia ve Houston'dı; Austin 1839'da seçildi.",
-  kaynak:"Encyclopedia.com, 'Central America, Independence of' bağlamında çapraz doğrulanmış standart tarih — Meksika'dan bağımsızlık ilanı (1836-03-02), ABD'ye ilhak (1845-12-29). DİKKAT: bu künyenin t:'si 1923 DEĞİL, kısa ömürlü.",
+  kaynak:"Joseph M. Nance, 'Republic of Texas', Handbook of Texas Online (Texas State Historical Association, tshaonline.org/handbook/entries/republic-of-texas; okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «The next day, March 2, the delegates unanimously adopted Childress's suggestion for independence» · «Polk signed the act admitting Texas as a state on December 29, 1845» · (hükümet devri) «The First Legislature convened in Austin on February 19, 1846». t: 1845-12-29 = ABD'nin kabul yasası; fiilî devir 19 Şubat 1846 — fark BİLDİRİLDİ. Eski dayanak (Encyclopedia.com 'Central America, Independence of' — Teksas'la ilgisiz madde) KALDIRILDI. DİKKAT: bu künyenin t:'si 1923 DEĞİL, kısa ömürlü.",
   kronoloji:[
-    { t:"1836-03-02", tur:"kurulus", b:"Teksas Meksika'dan bağımsızlığını ilan etti", kaynak:"🟡 Künyenin `f:` alanından DEVRALINDI; künye dayanağı «Encyclopedia.com bağlamında çapraz doğrulanmış standart tarih» diye niteliyor — yani ikincil ve dolaylı. TARAFIMDAN DOĞRULANMADI." },
-    { t:"1845-12-29", tur:"son", b:"Teksas ABD'ye katıldı, cumhuriyet sona erdi", kaynak:"🟡 Aynı künye alanından DEVRALINDI, aynı damga: ikincil, dolaylı, TARAFIMDAN DOĞRULANMADI." },
+    { t:"1836-03-02", tur:"kurulus", b:"Teksas Meksika'dan bağımsızlığını ilan etti", kaynak:"Nance, 'Republic of Texas', Handbook of Texas Online (TSHA) — AYNEN: «The next day, March 2, the delegates unanimously adopted Childress's suggestion for independence» (KAYNAK-DOGRULA 19 Eyl 2026)" },
+    { t:"1845-12-29", tur:"son", b:"Teksas ABD'ye katıldı, cumhuriyet sona erdi", kaynak:"Nance, 'Republic of Texas', Handbook of Texas Online (TSHA) — AYNEN: «Polk signed the act admitting Texas as a state on December 29, 1845»; yetki devri «The First Legislature convened in Austin on February 19, 1846» (KAYNAK-DOGRULA 19 Eyl 2026)" },
     { t:"1836-04-21", tur:"savas", b:"San Jacinto Muharebesi'nde Sam Houston komutasındaki Teksas ordusu General Santa Anna'yı kesin biçimde yendi; fiilî bağımsızlık kazanıldı", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı." },
     { t:"1836-10-01", tur:"hukumdar", b:"Sam Houston, Cumhuriyet'in ilk başkanı seçildi", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı." }
   ]
@@ -7394,13 +7403,13 @@ window.DEVLETLER = [
 // Gao'nun boşluğu `kasitli_bosluk` + `veri-yok` ile kapanacak.
 // ===================================================================
 { id:"massina", ad:"Masina Halifeliği (Hamdullahi)", tur:"devlet", bolge:"bati-afrika",
-  f:"1818-01-01", t:"1862-01-01", baskent:"Hamdullahi",
+  f:"1818-01-01", t:"1862-05-16", baskent:"Hamdullahi",
   ozet:"Nijer İç Deltası'nda Seku Amadu (Ahmedu Lobbo) tarafından kurulan Fulani halifeliği; Cenne ve Tinbuktu'yu hâkimiyeti altına aldı. Umar Taal'ın birlikleri yedi günlük savaşın ardından başkent Hamdallahi'ye girince sona erdi. ⚠️ İki uç da YIL BEYANIDIR (gün kaynakta yok); ama kaynak devleti 'kırk dört yıllık' diye niteliyor ve 1818+44=1862 — yani iki tarih birbirini KENDİ İÇİNDE doğruluyor.",
   kaynak:"Cambridge History of Africa / Journal of African History (hakemli). Birebir: '1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU'; 'halifelik Cenne ve Tinbuktu'nun eski şehirlerini hâkimiyeti altına aldı, başkenti HAMDULLAHİ'; '1862'de Umar Taal'ın birlikleri yedi günlük bir savaşın ardından başkent Hamdallahi'ye girdi'. İKİNCİ KAYNAK bağımsız doğruluyor — TDV `mali`: 'Massina Devleti: Ahmedu Lobbo tarafından kurulmuş, sınırları Cenne'den Tinbuktu'ya uzanıyordu'; TDV `cenne` 1830 cami inşasını Ahmedu Lobbo'ya bağlıyor.",
   kronoloji:[
           { t:"1818-01-01", tur:"kurulus", b:"Fulani âlimi Seku Amadu ve taraftarları Nijer içdeltasında bir din devleti kurup Hamdullahi'yi başşehir yaptı", kaynak:"Künyenin kendi `kaynak` alanı Cambridge History of Africa / Journal of African History'yi (hakemli) birebir alıntılıyor: «1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU». History in Africa (Cambridge, hakemli) bağımsız olarak aynı yılı veriyor: «In 1818, a Fulani Muslim scholar of humble origins named Seeku Amadu and his followers created the laamu diina (theocratic state), a caliphate centered around a new capital city they erected, named Ḥamdullāhi»." },
-          { t:"1862-01-01", tur:"savas", b:"El-Hâc Ömer Tal'in kuvvetleri başşehir Hamdullahi'yi ele geçirdi ve Emîr Ahmed muharebede öldü", kaynak:"TDV `el-hac-omer` (200, gövde okundu) — «Hamdallahi: 1862 — Masina başşehri ele geçirildi; Emîr Ahmed muharebede öldü»; History in Africa (Cambridge) bağımsız olarak «In 1862, Umar Taal's troops entered Hamdallahi … following a seven-day battle» diyor." },
-          { t:"1862-01-01", tur:"son", b:"Başşehrin düşmesiyle Masina Halifeliği sona erdi ve toprakları Umarî devletine katıldı", kaynak:"History in Africa (Cambridge, hakemli) — «The caliphate was short-lived: it fell in 1862, invaded by troops led by al-Ḥājj ʿUmar Taal of Fuuta Tooro»; TDV `el-hac-omer` aynı yılı veriyor." }
+          { t:"1862-05-16", tur:"savas", b:"El-Hâc Ömer Tal'in kuvvetleri başşehir Hamdullahi'yi ele geçirdi ve Emîr Ahmed muharebede öldü", kaynak:"GÜN: TDV `mali` — «Mâsînâ’nın merkezi Hamdallahi 16 Mayıs 1862 tarihinde el-Hâc Ömer’in eline geçti» · «Mâsînâ da 16 Mayıs 1862 tarihinde el-Hâc Ömer ile yapılan savaşla tarihe karıştı» (KUNYE-DORT 19 Eyl 2026). TDV `el-hac-omer` (200, gövde okundu) — «Hamdallahi: 1862 — Masina başşehri ele geçirildi; Emîr Ahmed muharebede öldü»; History in Africa (Cambridge) bağımsız olarak «In 1862, Umar Taal's troops entered Hamdallahi … following a seven-day battle» diyor." },
+          { t:"1862-05-16", tur:"son", b:"Başşehrin düşmesiyle Masina Halifeliği sona erdi ve toprakları Umarî devletine katıldı", kaynak:"GÜN: TDV `mali` «16 Mayıs 1862 tarihinde … tarihe karıştı». History in Africa (Cambridge, hakemli) — «The caliphate was short-lived: it fell in 1862, invaded by troops led by al-Ḥājj ʿUmar Taal of Fuuta Tooro»; TDV `el-hac-omer` aynı yılı veriyor." }
         ,
     { t:"1845-01-01", tur:"hukumdar", b:"Kurucu Sekû Ahmedû'nun oğlu Ahmedû II (Amadu Seku), Masina Halifeliği'nin ikinci Almamisi olarak tahta çıktı", kaynak:"Cambridge History of Africa / Journal of African History (hakemli, künyenin mevcut maddelerinde zaten kullanılan aynı kaynak ailesi) + çevrimiçi ikincil kaynaklarla ('Amadu II of Masina') doğrulandı." }
   ]
@@ -7473,11 +7482,11 @@ window.DEVLETLER = [
   ] },
 { id:"harezm-halk-cumhuriyeti", ad:"Harezm Halk Sovyet Cumhuriyeti", bolge:"orta-asya", f:"1920-04-26", t:"1924-01-01",
   ozet:"Hive Hanlığı'nın Şubat 1920'de yıkılmasının ardından I. Harezm Kurultayı'nca 26 Nisan 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
-  kaynak:"bulunamadı — TDV kapsam dışı (Sovyet dönemi Orta Asya, `§4`). Standart akademik/ansiklopedik (Wikipedia 'Khorezm People's Soviet Republic') — TEK kaynaklı.",
+  kaynak:"TDV, hive-hanligi (Mehmet Saray; gövde okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «2 Şubat 1920'de son Kongirat Hanı Seyyid Abdullah'ın tahttan çekilmesi üzerine 26 Nisan 1920'de Hârizm Halk Cumhuriyeti ilân edildi. Ardından da 1924'te bu cumhuriyete son verilip topraklar Hârizm, Özbekistan, Türkmenistan, Kara Kalpakistan arasında paylaşıldı». f: GÜN kaynaklı; t: kaynak YIL veriyor (1924), gün bulunamadı. Destek: TDV ozbekistan «1920'de … Hîve'de Hârizm Halk Cumhuriyeti teşkil edildi» (YIL). Eski dayanak (Wikipedia 'Khorezm People's Soviet Republic', tek kaynak) KALDIRILDI.",
   kronoloji:[] },
 { id:"buhara-halk-cumhuriyeti", ad:"Buhara Halk Sovyet Cumhuriyeti", bolge:"orta-asya", f:"1920-10-08", t:"1924-01-01",
   ozet:"2 Eylül 1920'de Kızıl Ordu'nun Buhara Emirliği'ni yıkmasının ardından 8 Ekim 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
-  kaynak:"bulunamadı — mevcut `buhara` künyesinin kaynağı (TDV, madde: buhara-hanligi) yalnız EMİRLİĞİ kapsıyor, halefini DEĞİL (doğrulandı, TDV maddesi 'Kızıl Ordu tarafından yıkıldı' diyip bitiyor). Standart akademik/ansiklopedik (Wikipedia 'Bukharan People's Soviet Republic') — TEK kaynaklı.",
+  kaynak:"TDV, ozbekistan (gövde okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «1920'de Buhara Halk Sovyet Cumhuriyeti ile Hîve'de Hârizm Halk Cumhuriyeti teşkil edildi» (YIL) · TDV, buhara — AYNEN: «1920 yılı Ağustos sonunda son emîr Âlim Han Kızılordu'nun şehri işgali sonunda tahtından uzaklaştırıldı ve 6 Ekim 1920'de Buhara Hanlığı ilga edildi». ⚠️ f: 8 Ekim 1920 GÜNÜ TDV'de YOK (TDV hanlığın ilgası için 6 Ekim diyor, cumhuriyetin ilanına gün vermiyor); akademik kaynakta da BULUNAMADI — gün yalnız Wikipedia'da; t: 1924 YIL. Eski tek dayanak (Wikipedia 'Bukharan People's Soviet Republic') kaynak olarak KALDIRILDI.",
   kronoloji:[] },
 { id:"rif-cumhuriyeti", ad:"Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", bolge:"kuzey-afrika", f:"1921-09-18", t:"1926-05-27",
   ozet:"22 Temmuz 1921 Annual zaferinin ardından 18 Eylül 1921'de Kuzey Fas'ta ilan edilen, İspanya'ya (ve sonradan Fransa'ya) karşı direnen dağlık cumhuriyet; 1926'da (site ufkunun dışında) yenildi.",

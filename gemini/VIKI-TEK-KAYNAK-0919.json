@@ -1,0 +1,84 @@
+{
+  "dosya_sayisi": 7,
+  "toplam_kayit": 11,
+  "dosya_bazli_sayim": {
+    "d_sinirlar_afrika.js": 1,
+    "devletler.js": 3,
+    "ekokuma_yenilesme.js": 1,
+    "olaylar_2s_0918.js": 1,
+    "olaylar_ek8.js": 3,
+    "yer_yama_isvec.js": 1,
+    "yerlesimler_ek4.js": 1
+  },
+  "kayitlar": {
+    "d_sinirlar_afrika.js": [
+      {
+        "id": "d1923-becuanaland-guneybati-afrika-caprivi",
+        "tarih": "1923-10-29",
+        "kaynak": "Wikipedia Caprivi Strip (genel tarihyazımı) — bağımsız ikinci kaynakla doğrulanmadı"
+      }
+    ],
+    "devletler.js": [
+      {
+        "id": "bharatpur-cat",
+        "tarih": "1948-03-18",
+        "kaynak": "🟢 DÜZELTİLDİ (eski 'bulunamadı' + doğrulanamayan 1948-03-30) — Wikipedia \\\"Matsya States Union\\\": \\\"formed on 18 March 1948 by the merger of four erstwhile princely states, Alwar, Bharatpur, Dholpur, and Karauli\\\". ⚠️ TDV'de müstakil maddesi yok, Wikipedia burada TEK dayanak — ikinci akademik kaynakla TEYİT EDİLMEDİ, açıkça damgalanıyor."
+      },
+      {
+        "id": "harezm-halk-cumhuriyeti",
+        "tarih": "1924-01-01",
+        "kaynak": "bulunamadı — TDV kapsam dışı (Sovyet dönemi Orta Asya, `§4`). Standart akademik/ansiklopedik (Wikipedia 'Khorezm People's Soviet Republic') — TEK kaynaklı."
+      },
+      {
+        "id": "buhara-halk-cumhuriyeti",
+        "tarih": "1924-01-01",
+        "kaynak": "bulunamadı — mevcut `buhara` künyesinin kaynağı (TDV, madde: buhara-hanligi) yalnız EMİRLİĞİ kapsıyor, halefini DEĞİL (doğrulandı, TDV maddesi 'Kızıl Ordu tarafından yıkıldı' diyip bitiyor). Standart akademik/ansiklopedik (Wikipedia 'Bukharan People's Soviet Republic') — TEK kaynaklı."
+      }
+    ],
+    "ekokuma_yenilesme.js": [
+      {
+        "id": "yenilesme-uc-kurum-gecikme-kiyasi",
+        "tarih": "1741 Yalova için atlasta henüz bir kronoloji kaydı YOK (yalnız 1720 ve 1727 mevcut); `olay` alanı bu yüzden yalnız o iki tarihi taşıyor. Yalova'nın kronoloji maddesi olarak eklenmesi ayrı bir karar/iştir (bu oturumun dosya kapsamı dışında).",
+        "kaynak": "TDV: kagit (gövde okundu — Çin/Semerkant/Bağdat kronolojisi, Yalova/Kâğıthane/Beykoz fabrikaları, İtalyan kâğıt ithalatı), tulumbaci (atlasın kendi 1720-06-01 kaydının kaynağı) · İtfaiye kıyası (TDV kapsamıyor, §4 coğrafî boşluk — standart akademik/ansiklopedik kaynak, çapraz kontrol): Roma Vigiles (MS 6, Augustus) — World History Encyclopedia; Paris Compagnie des gardes-pompes (1716); Edo machi-bikeshi resmî statüsü (1718) — Wikipedia \\\"Hikeshi\\\" (TEK kaynak, ikincil doğrulama YAPILAMADI, düşük güvenilirlikle işaretlendi); Londra'nın özel sigorta itfaiyeleri (1666 sonrası) ve London Fire Engine Establishment (1832)."
+      }
+    ],
+    "olaylar_2s_0918.js": [
+      {
+        "id": "Bambari",
+        "tarih": "1903-01-01",
+        "kaynak": "standart akademik/ansiklopedik (Ubangi-Shari colony organized 29 Aralık 1903 — Wikipedia 'Ubangi-Shari', Coquery-Vidrovitch, Le Congo au temps des grandes compagnies concessionnaires) — TDV kapsam dışı, GÜN KABA"
+      }
+    ],
+    "olaylar_ek8.js": [
+      {
+        "id": "ʻAi Noa — Hawaii'de geleneksel kapu sisteminin sona erdirilmesi",
+        "tarih": "1819-11-01",
+        "kaynak": "bulunamadı — TDV kapsamı dışı (Pasifik); Wikipedia + Punahou School/UH Hilo ders notu çapraz kontrol edildi, ay doğrulandı, gün hiçbir kaynakta yok"
+      },
+      {
+        "id": "Buhara Halk Sovyet Cumhuriyeti ilan edildi",
+        "tarih": "1920-10-08",
+        "kaynak": "bulunamadı — akademik kaynak: soviethistory.msu.edu (Michigan State Üniversitesi) + Wikipedia çapraz"
+      },
+      {
+        "id": "Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi",
+        "tarih": "1921-09-01",
+        "kaynak": "bulunamadı — akademik kaynak: soviethistory.msu.edu (Buhara Halk Sovyet Cumhuriyeti Anayasası metni, MSU arşivi) + Wikipedia çapraz"
+      }
+    ],
+    "yer_yama_isvec.js": [
+      {
+        "id": "Svensksund (Ruotsinsalmi)",
+        "tarih": "1790-07-09",
+        "kaynak": "Kotka açıklarında deniz savaşı — WebSearch ile doğrulandı (Wikipedia/latitude.to); nokta havuzunda yok"
+      }
+    ],
+    "yerlesimler_ek4.js": [
+      {
+        "id": "Nuhayb (Nukhayb)",
+        "tarih": "32",
+        "kaynak": "coğrafi konum: 32°02'28\\\"K 42°15'17\\\"D (genel coğrafi bilgi, tartışmasız) + Darb Zübeyde hac güzergâhı akademik literatürü (UNESCO Dünya Mirası aday listesi, whc.unesco.org) — Nuhayb bölgesi tarihen Şammar/Aneze aşiret denetimindeydi (en.wikipedia.org/wiki/Nukhayb, TEK BAŞINA dayanak SAYILMADI, yalnız tarafları doğrulamak için kullanıldı); Osmanlı dönemine ÖZGÜ doğrudan akademik kaynak BULUNAMADI"
+      }
+    ]
+  }
+}

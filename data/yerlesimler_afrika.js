@@ -1019,7 +1019,7 @@ window.YERLESIMLER_AFRIKA = [
 // ===========================================================================
 
 { ad:"Bonga (Kaffa)", tur:"sehir", lat:7.283, lon:36.233, g:0, k:1,
-  s:[{f:"1281-01-01",t:"1897-09-10",d:"kaffa"},{f:"1897-09-10",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1281-01-01",t:"1897-10-01",d:"kaffa"},{f:"1897-10-01",t:"1923-10-29",d:"habesistan",kaynak:"E. Haberland, 'Gaki Sherocho', Encyclopaedia Africana DAB I (DACB): 'Kaffa was conquered, and Gaki Sherocho was captured and submitted, in October 1897' — AY hassasiyeti (10-01 = Ekim, gün bilinmiyor; eski 09-10 dayanaksızdı) · KRONO-2S-3 19 Eyl 2026"}], d:[] },
 
 { ad:"Cimma (Jiren)", tur:"sehir", lat:7.673, lon:36.834, g:0, k:3,
   s:[{f:"1281-01-01",t:"1830-01-01",d:"kaffa"},{f:"1830-01-01",t:"1923-10-29",d:"cimma"}], d:[] },

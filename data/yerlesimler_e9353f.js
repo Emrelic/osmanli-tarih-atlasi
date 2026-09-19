@@ -189,8 +189,8 @@ window.YERLESIMLER_E9353F = [
 { ad:"Cenne (Djenné)", tur:"sehir", lat:13.906, lon:-4.555, g:1, k:1,
   s:[{f:"1473-01-01", t:"1591-04-13", d:"songhay-imparatorlugu", kaynak:"cenne"},
      {f:"1596-01-01", t:"1700-01-01", d:"fas", kaynak:"cenne"},
-     {f:"1818-01-01", t:"1862-01-01", d:"massina", kaynak:"mali"},
-     {f:"1862-01-01", t:"1893-01-01", d:"tekrur", kaynak:"el-hac-omer"},
+     {f:"1818-01-01", t:"1861-01-01", d:"massina", kaynak:"mali"},
+     {f:"1861-01-01", t:"1893-01-01", d:"tekrur", kaynak:"TDV cenne: 'Cenne 1861’de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi' — YIL · ÇELİŞKİ: TDV mali Mâsînâ'nın sonunu 16 Mayıs 1862 verir · KRONO-2S-3 19 Eyl 2026"},
      {f:"1893-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"cenne"}],
   d:[], v:[],
   kasitli_bosluk:true,
@@ -258,8 +258,8 @@ window.YERLESIMLER_E9353F = [
 // ZARİA (Zazzau) — Hausa'nın güney ucu, Sokoto emirliği.
 // Katsina ile aynı kaynak ve aynı çapa; slug'ı da aynı şekilde ÖLÜ (302).
 { ad:"Zaria (Zazzau)", tur:"sehir", lat:11.086, lon:7.720, g:0, k:2, m:"Kano",
-  s:[{f:"1281-01-01", t:"1808-01-01", d:"hausa-sehir-devletleri", kaynak:"sokoto"},
-     {f:"1808-01-01", t:"1903-01-01", d:"sokoto", kaynak:"sokoto"},
+  s:[{f:"1281-01-01", t:"1806-01-01", d:"hausa-sehir-devletleri", kaynak:"sokoto"},
+     {f:"1806-01-01", t:"1903-01-01", d:"sokoto", kaynak:"TDV osman-b-fudi: '1806’da Zaria ele geçirildi' — YIL · KRONO-2S-3 19 Eyl 2026"},
      {f:"1903-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"sokoto"}],
   d:[], v:[] },
 

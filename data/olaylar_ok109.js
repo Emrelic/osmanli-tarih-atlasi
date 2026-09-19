@@ -216,7 +216,8 @@ window.OLAYLAR_OK109 = [
   },
 
   {
-    t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
+    t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "konu-askeri", "konu-diplomasi"],
+    ic_not_etiket: "toprak-kaybi KALDIRILDI (GEMINI-DOGRULA 0919): maddenin kendi metni haritadaki devrin Mayıs 1920'de olduğunu söylüyor (Dedeağaç 14, Gümülcine 27 Mayıs) — toprak kaybı o günlerin maddelerinde.",
     kapsam:"dis", onem:4, b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti", kapsam_genis:true,
     gun: "27 Kasım 1919",
     yer: "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",

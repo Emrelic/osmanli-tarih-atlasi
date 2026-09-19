@@ -1,0 +1,343 @@
+[
+  {
+    "t": "1426-01-01",
+    "k": "fetih",
+    "etiket": [
+      "toprak-kazanc",
+      "siyaset",
+      "konu-askeri",
+      "konu-siyasi",
+      "konu-kisiler"
+    ],
+    "b": "Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu",
+    "gun": "1426",
+    "ic_not_gun": "(829 h.; TDV iki maddede 1425-26 ve 1426 diyor, gün yok)",
+    "yer": "İpsili (Sisam karşısı), Aydın-ili",
+    "yer_id": "Sisam",
+    "kisiler": "Aydınoğlu Cüneyd Bey, II. Murad, Anadolu Beylerbeyi Hamza Bey",
+    "d": "Aydın-ili'ne yeniden hâkim olan Cüneyd Bey'in Anadolu beylerini kışkırtması ve Venedik ile temas araması üzerine II. Murad, Anadolu Beylerbeyi Hamza Bey'i onun üzerine gönderdi. Oğlu Kurd Hasan Akhisar yakınlarında yenilip esir düşünce Sisam adası karşısındaki İpsili'ye çekilen Cüneyd, Karamanoğlu'ndan beklediği yardım gelmeyince ve Osmanlı ile birlikte hareket eden Cenevizliler onu denizden ablukaya alınca teslim olmak zorunda kaldı; bütün soyuyla birlikte ortadan kaldırıldı. Aydınoğulları toprakları böylece tamamıyla Osmanlı idaresine girdi.",
+    "ic_not_d": "⚠️ Tarihte TDV kendi içinde ayrışıyor: `aydinogullari` maddesi 829 (1425-26), `cuneyd-bey` maddesi 1426 veriyor; haritadaki 1425-06-01 kırılması ikisinden de erkendir (bkz. OTURUM-13-ANADOLU.md §4).",
+    "kaynak": "cuneyd-bey",
+    "duygu": [
+      "🎉",
+      "😔"
+    ]
+  },
+  {
+    "t": "1560-07-30",
+    "k": "fetih",
+    "etiket": [
+      "toprak-kazanc",
+      "konu-askeri"
+    ],
+    "b": "Cerbe kalesinin düşüşü — adanın Osmanlı idaresine geçişi",
+    "gun": "30 Temmuz 1560",
+    "yer": "Cerbe (Djerba)",
+    "yer_id": "Cerbe (Djerba)",
+    "kisiler": "Piyâle Paşa, Turgut Paşa",
+    "d": "Piyâle Paşa'nın 14 Mayıs 1560'taki deniz zaferinden sonra Haçlı kuvvetleri adada inşa ettikleri kaleye kapandı; Trablusgarp beylerbeyi Turgut Paşa'nın kuvvetleri karadan kuşattı. İki ay süren muhasara 30 Temmuz 1560'ta kalenin düşmesiyle bitti ve ada Trablusgarp beylerbeyiliğine bağlandı. Deniz zaferi ile kalenin fethi arasında yetmiş yedi gün vardır; ada 14 Mayıs'ta değil 30 Temmuz'da fiilen el değiştirmiştir.",
+    "ic_not_d": "haritada toprak değişimi ikincisine (30 Temmuz) bağlanmalıdır",
+    "kaynak": "cerbe",
+    "duygu": [
+      "🎉",
+      "😔"
+    ]
+  },
+  {
+    "t": "1488-01-01",
+    "k": "vassal",
+    "etiket": [
+      "toprak-kazanc",
+      "konu-askeri",
+      "konu-siyasi"
+    ],
+    "kapsam": "dis",
+    "b": "Safi'nin Portekiz nüfuzuna girmesi",
+    "gun": "1488",
+    "ic_not_gun": "(kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal. Gün hiçbirinde yok)",
+    "yer": "Safi (Asfi) — Fas Atlas kıyısı",
+    "yer_id": "Safi (Asfi)",
+    "d": "Atlas kıyısının en işlek tahıl ve balıkçılık limanı olan Safi, 1488'de Portekiz nüfuzuna girdi; şehir bir süre yerli yöneticiler eliyle Portekiz himayesinde yönetildi ve 1508'de doğrudan işgal edildi. Kaynaklar bu iki aşamayı farklı ağırlıklandırdığı için başlangıç tarihi 1488 ile 1508 arasında değişir; ikisi de aynı sürecin uçlarıdır. Safi elli üç yıl Portekiz elinde kaldı ve 1541'de Agadir'in düşüşünün ardından boşaltıldı.",
+    "duygu": [
+      "🎌"
+    ]
+  },
+  {
+    "t": "1513-09-01",
+    "k": "fetih",
+    "etiket": [
+      "toprak-kazanc",
+      "konu-askeri"
+    ],
+    "kapsam": "dis",
+    "b": "Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi",
+    "gun": "1 Eylül 1513",
+    "yer": "Azemmûr — Ümmürrebî' nehri ağzı, Fas",
+    "yer_id": "Azemmûr",
+    "kisiler": "Jaime (Braganza Dükü)",
+    "d": "Braganza Dükü Jaime kumandasındaki Portekiz ordusu Ümmürrebî' nehrinin ağzındaki Azemmûr'a 1 Eylül 1513'te direnişle karşılaşmadan girdi. Şehrin alınması hem nehir ağzının hem de iç bölgeye açılan tahıl yolunun denetimini verdi ve ertesi yıl 12 km güneybatısında Mazagan kalesinin kurulmasının önünü açtı. Azemmûr yirmi sekiz yıl Portekiz elinde kaldı.",
+    "duygu": [
+      "🎉"
+    ]
+  },
+  {
+    "t": "1695-09-22",
+    "k": "savas",
+    "etiket": [
+      "savas",
+      "toprak-kazanc",
+      "konu-askeri"
+    ],
+    "b": "Lugoş zaferi — II. Him seferi",
+    "gun": "22 Eylül 1695",
+    "yer": "Lugoş, Banat",
+    "kisiler": "II. Mustafa",
+    "d": "Padişahın bizzat katıldığı ilk seferde Lipova geri alındı ve Lugoş'ta Avusturya kuvvetleri yenildi; yıllardır süren yenilgi zincirinde ilk kırılma yaşandı.",
+    "kaynak": "mustafa-ii",
+    "duygu": [
+      "⚔️"
+    ],
+    "yer_kon": [
+      45.6833,
+      21.95
+    ]
+  },
+  {
+    "t": "1416-09-01",
+    "k": "isyan",
+    "etiket": [
+      "isyan",
+      "toprak-kazanc",
+      "konu-askeri",
+      "konu-kisiler",
+      "konu-isyan"
+    ],
+    "b": "Torlak Kemal'in idamı — Saruhan kesin olarak Osmanlı'nın",
+    "gun": "819 (1416)",
+    "yer": "Manisa",
+    "yer_id": "Manisa",
+    "kisiler": "Çelebi Mehmed, Torlak Kemal",
+    "d": "Şeyh Bedreddin hareketinin Batı Anadolu ayağını yürüten Torlak Kemal, Manisa yöresinde yenilgiye uğratılarak idam edildi. Bu tarihten sonra Saruhan bölgesi kesin olarak Osmanlı kontrolüne girdi ve 1402'de Timur'un dirilttiği beylik tarihe karıştı. Fetret Devri'nin Batı Anadolu'daki son siyasî kalıntıları böylece temizlendi.",
+    "kaynak": "saruhanogullari",
+    "duygu": [
+      "✊",
+      "😔"
+    ]
+  },
+  {
+    "t": "1415-03-01",
+    "k": "antlasma",
+    "etiket": [
+      "antlasma",
+      "savas",
+      "toprak-kazanc",
+      "konu-askeri",
+      "konu-diplomasi"
+    ],
+    "b": "Konya kuşatması ve Karamanoğulları ile antlaşma",
+    "gun": "Muharrem 818 / Mart 1415",
+    "yer": "Konya",
+    "yer_id": "Konya",
+    "kisiler": "Çelebi Mehmed, Karamanoğlu II. Mehmed Bey",
+    "d": "Fetret Devri'nde Osmanlı topraklarına saldıran ve Bursa'yı kuşatan Karamanoğulları'na karşı Çelebi Mehmed büyük bir sefer düzenleyerek Muharrem 818'de Konya'yı kuşattı. Karamanoğlu hükümdarı barış istemek zorunda kaldı; antlaşma sonucunda Hamîd-ili ve Said-ili gibi bölgeler yeniden Osmanlı topraklarına katıldı. Ankara Savaşı'yla dağılan Anadolu birliğinin yamanmaya başladığı bu sefer, Çelebi Mehmed'in 'ikinci kurucu' sayılmasının somut gerekçelerindendir.",
+    "kaynak": "mehmed-i",
+    "duygu": [
+      "🤝"
+    ]
+  },
+  {
+    "t": "1529-09-08",
+    "k": "fetih",
+    "etiket": [
+      "toprak-kazanc",
+      "savas",
+      "diplomasi",
+      "konu-askeri",
+      "konu-diplomasi"
+    ],
+    "b": "Budin'in alınıp Zapolya'ya verilmesi",
+    "gun": "Eylül 1529",
+    "yer": "Budin (Buda)",
+    "yer_id": "Budin",
+    "kisiler": "Kanunî Sultan Süleyman, János Szapolyai, Ferdinand",
+    "d": "Viyana seferi yolunda Osmanlı ordusu, Ferdinand'ın eline geçmiş olan Budin'i kuşatarak geri aldı ve şehri Osmanlı himayesindeki Macar kralı János Szapolyai'ye teslim etti. Böylece Macaristan üzerinde Habsburg–Osmanlı rekabetinde tampon bir vasal krallık modeli kuruldu. Bu düzen 1541'e kadar sürecek, Zapolya'nın ölümünden sonra Budin doğrudan Osmanlı eyaleti hâline getirilecekti.",
+    "kaynak": "budin",
+    "duygu": [
+      "🎉"
+    ]
+  },
+  {
+    "t": "1724-06-24",
+    "k": "antlasma",
+    "etiket": [
+      "antlasma",
+      "diplomasi",
+      "toprak-kazanc",
+      "konu-askeri",
+      "konu-diplomasi"
+    ],
+    "b": "İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması",
+    "gun": "24 Haziran 1724",
+    "yer": "İstanbul",
+    "yer_id": "İstanbul",
+    "kisiler": "III. Ahmed, Nevşehirli Damad İbrâhim Paşa, I. Petro",
+    "d": "Çöken Safevî ülkesi üzerinde Osmanlı ile Rusya'nın karşı karşıya gelmesini önlemek için Fransız elçisinin arabuluculuğuyla bir taksim antlaşması imzalandı. Hazar denizinin batı ve güney kıyıları Rusya'ya, Gürcistan, Şirvan, Azerbaycan ve Batı İran şehirleri Osmanlı Devleti'ne bırakıldı. Kâğıt üzerinde büyük bir kazanç gibi görünen bu paylaşım, kısa süre sonra Nâdir Şah'ın yükselişiyle fiilen geçersiz kalacaktı.",
+    "kaynak": "ahmed-iii",
+    "duygu": [
+      "🤝"
+    ]
+  },
+  {
+    "t": "1727-10-04",
+    "k": "antlasma",
+    "etiket": [
+      "antlasma",
+      "toprak-kazanc",
+      "diplomasi",
+      "konu-askeri",
+      "konu-diplomasi"
+    ],
+    "b": "Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması",
+    "gun": "4 Ekim 1727",
+    "yer": "Hemedan",
+    "yer_id": "Hemedan",
+    "kisiler": "III. Ahmed, Nevşehirli Damad İbrâhim Paşa, Eşref Şah",
+    "d": "Afgan hükümdarı Eşref Şah ile imzalanan antlaşmayla dört yıl süren savaş sona erdi ve Osmanlı Devleti'nin işgal ettiği Batı İran toprakları hukuken tanındı. Eşref Şah karşılığında Osmanlı padişahının halifeliğini kabul etti ve İran'da hutbenin padişah adına okunmasını üstlendi. Bu diplomatik zafer kısa ömürlü oldu; Nâdir Şah'ın 1730'da başlattığı karşı taarruz antlaşmanın kazanımlarını birkaç yıl içinde silip süpürecekti.",
+    "kaynak": "ahmed-iii",
+    "duygu": [
+      "🤝"
+    ]
+  },
+  {
+    "t": "1515-01-01",
+    "b": "Nusaybin ve Cizre-Mardin çevresinin İdrîs-i Bitlisî eliyle Osmanlı'ya katılması",
+    "gun": "921 (1515) yılı sonları",
+    "tur": "fetih",
+    "onem": 2,
+    "dunya": 2,
+    "kapsam": "ic",
+    "etiket": [
+      "askeri",
+      "toprak-kazanc",
+      "konu-askeri"
+    ],
+    "yer_id": "Nusaybin",
+    "d": "Çaldıran seferi (1514) sonrasında Doğu Anadolu'da yürütülen ilhak sürecinde İdrîs-i Bitlisî'nin bölgedeki Sünnî Kürt beyleriyle kurduğu ilişkiler sayesinde Nusaybin, 921 (1515) yılı sonlarında savaşsız biçimde Osmanlı topraklarına katıldı.",
+    "ic_not_d": "TDV kesin ay/gün vermiyor, yalnız 'yılın sonlarında' diyor.  Komşu kasabalar Derik (Malikiye) ve Silopi aynı bölgesel teslim dalgasının parçası olabilir ama TDV'de müstakil maddeleri yok — bulunamadı, tarihleri buraya dayandırılmadı.",
+    "kaynak": "nusaybin"
+  },
+  {
+    "t": "1919-11-27",
+    "k": "antlasma",
+    "etiket": [
+      "antlasma",
+      "toprak-kaybi",
+      "konu-askeri",
+      "konu-diplomasi"
+    ],
+    "kapsam": "dis",
+    "onem": 4,
+    "b": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+    "kapsam_genis": true,
+    "gun": "27 Kasım 1919",
+    "yer": "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
+    "kisiler": "Çar Ferdinand, Boris",
+    "d": "Savaşın yenilgiyle bitmesi üzerine Çar Ferdinand mütareke istemek ve oğlu Boris lehine tahttan çekilmek zorunda kalmıştı (29 Eylül 1918). Savaşı sona erdiren Neuilly Antlaşması'yla Bulgaristan Sırplar lehine stratejik toprak kaybına uğradı, Batı Trakya'nın tamamını kaybetti, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kaldı ve Güney Dobruca'yı Romanya'ya veren Bükreş Antlaşması hükümlerini onayladı. Haritada bu devrin karşılığı antlaşma gününde değil, idarenin fiilen el değiştirdiği 1920 Mayıs'ındadır: Dedeağaç, Sofulu, Orestiada ve Çirmen 14 Mayıs'ta, Gümülcine, İskeçe, Dimetoka ve Ferecik 27 Mayıs'ta Yunanistan'a geçer.",
+    "ic_not_d": "eski ifade: Atlasta bu devrin karşılığı",
+    "kaynak": "bulgaristan — gövde okundu: \"Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.\" ⚠️ TDV antlaşmanın adını \"Neully\" diye yazıyor; \"Neuilly\" aramasi bu maddede 0 sonuç verir. `neuilly` slugu 302 (ÖLÜ)."
+  },
+  {
+    "t": "1921-06-01",
+    "k": "siyaset",
+    "etiket": [
+      "kurtulus",
+      "toprak-kazanc",
+      "konu-askeri",
+      "konu-siyasi"
+    ],
+    "b": "İtalyanlar Antalya'yı boşaltmaya başladı",
+    "gun": "1 Haziran 1921",
+    "ic_not_gun": "Gün TDV antalya. Atlasta İtalyan işgal dönemi olmadığı için harita kıpırdamaz — yerleşim tarafı B.",
+    "yer": "Antalya",
+    "yer_id": "Antalya",
+    "kisiler": "",
+    "d": "TDV'nin Antalya maddesine göre 29 Nisan 1919'dan beri süren İtalyan işgali, İtalyanların 1 Haziran 1921'de şehri boşaltmaya başlamasıyla sona erdi. Antalya ve çevresi böylece Millî Mücadele'nin askerî sonucunu beklemeden işgalden kurtuldu.",
+    "kaynak": "antalya"
+  },
+  {
+    "t": "1811-07-04",
+    "k": "savas",
+    "kapsam": "ic",
+    "etiket": [
+      "savas",
+      "toprak-kazanc",
+      "konu-askeri"
+    ],
+    "b": "Rusçuk Muharebesi ve Kutuzov'un Rusçuk'u yıkıp Tuna'nın sol yakasına çekilmesi",
+    "gun": "4 Temmuz 1811 (Jülyen 22 Haziran) — muharebe; çekilişin günü kaynakta yok",
+    "yer": "Rusçuk, Tuna'nın sağ yakası",
+    "yer_id": "Rusçuk",
+    "kisiler": "General Kutuzov, Sadrazam Ahmed Paşa",
+    "d": "Haziran başında Şumnu'dan çıkan sadrazam Rusçuk önünde Rus ordusuna saldırdı, yenilerek güneydeki tahkimli mevziine çekildi. Kutuzov kazandığı bu muharebeye rağmen Rusçuk'ta kalmayı tehlikeli buldu; kalenin istihkâmlarını yıktırdı ve bütün kuvvetlerini Tuna'nın sol yakasına geçirdi. Sadrazam boşaltılan Rusçuk'u yeniden aldı. Aynı yılın sonbaharında Osmanlı ordusunun Tuna'yı geçmesi Slobozia kuşatmasıyla sonuçlanacaktı.",
+    "ic_not_gun": "ESBE-TV 'а 22 атаковал русских у Рущука' (Haziran, Jülyen, +12 ⇒ 4 Temmuz 1811 G). Çekiliş günü yok. 🔴 D110 çelişkisi: TDV ruscuk '1811 Haziranında alınan ağır yenilgiler … sonra Ruslar geri çekilmeye zorlandı' diyor — TDV'nin 'Haziran'ı ESBE'nin Jülyen Haziranı olabilir; Gregoryen'de muharebe TEMMUZ'dadır. Veride Rusçuk isg t:1811-06-01 ve olaylar_ek21.js 1811-06-01 maddesi muharebeden 33 gün ÖNCE bitiyor — YAMA-KARADENIZ RUS-1811 (KARAR).",
+    "kaynak": "ESBE «Турецкие войны России» (ru.wikisource): 'Кутузов … разрушив его укрепления, переправил все войска на левый берег' · 'По отступлении Кутузова на левый берег визирь занял Рущук' · TDV ruscuk",
+    "duygu": [
+      "⚔️"
+    ]
+  },
+  {
+    "t": "1737-10-16",
+    "k": "fetih",
+    "etiket": [
+      "savas",
+      "toprak-kazanc",
+      "konu-askeri"
+    ],
+    "b": "Niş'in Avusturya'dan geri alınışı",
+    "gun": "16 Ekim 1737",
+    "yer": "Niş",
+    "kisiler": "Köprülüzâde Hâfız Ahmed Paşa, Seckendorf",
+    "d": "Rebîülevvel 1150'de (Temmuz 1737) Seckendorf komutasındaki Avusturya ordusunun aldığı Niş, aynı yılın ekiminde Rumeli Beylerbeyi Köprülüzâde Hâfız Ahmed Paşa tarafından geri alındı. Bu, Banaluka'dan sonra Avusturya'nın 1737 harekâtını boşa çıkaran ikinci gelişmeydi.",
+    "kaynak": "nis",
+    "ic_not_gun": "TDV yalnız ayı veriyor (ekim); gün Hambly 'surrender on October 16, 1737' · YAMA-0063-KRONO-1736 #6",
+    "duygu": [
+      "🎉"
+    ],
+    "yer_id": "Niş"
+  },
+  {
+    "t": "1789-10-11",
+    "k": "kayip",
+    "etiket": [
+      "savas",
+      "toprak-kaybi"
+    ],
+    "b": "İsmâil Kalesi'nin teslimi (1789)",
+    "gun": "11 Ekim 1789",
+    "yer": "İsmâil, Tuna ağzı",
+    "kisiler": "Kethüdâ Hasan Paşa",
+    "d": "Rimnik bozgununun ardından İsmâil Kalesi 11 Ekim 1789'da teslim oldu; bir ay sonra Bender de aynı âkıbete uğradı. Bu teslim, 22 Aralık 1790'daki ünlü İsmâil kuşatması ve katliamından AYRI bir olaydır: kale 1789'da savaşsız teslim edilmiş, sonra yeniden Osmanlı eline geçmiştir.",
+    "ic_not_d": "Atlasta 1790-12-22 'İsmâil Kalesi'nin düşüşü ve katliamı' maddesi zaten var; bu madde onun mükerreri DEĞİL, bir yıl önceki teslimdir (TDV yusuf-pasa-koca: '11 Ekim'de İsmâil ve 14 Kasım'da Bender Kalesi'nin teslimi'). Kalenin arada nasıl geri alındığı TDV'de açıklanmıyor — ölçülemedi.",
+    "kaynak": "yusuf-pasa-koca",
+    "duygu": [
+      "😔"
+    ]
+  },
+  {
+    "t": "1790-04-16",
+    "k": "kayip",
+    "etiket": [
+      "savas",
+      "toprak-kaybi"
+    ],
+    "b": "Eski Hırsova'nın düşüşü — kış boyu süren muhasaranın sonu",
+    "gun": "16 Nisan 1790",
+    "yer": "Eski Hırsova, Tuna",
+    "kisiler": "—",
+    "d": "Kış boyunca süren zorlu bir muhasaranın ardından Eski Hırsova 16 Nisan 1790'da Avusturya kuvvetlerinin eline geçti. Aynı günlerde Osmanlı tarafının Vidin'den Tuna'yı geçerek Kalafat'a yaptığı çıkarma da püskürtüldü.",
+    "kaynak": "zistovi-antlasmasi",
+    "duygu": [
+      "😔"
+    ]
+  }
+]

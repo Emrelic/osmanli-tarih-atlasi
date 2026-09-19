@@ -107,8 +107,9 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Ounianga", tur:"sehir", lat:19.0700, lon:20.5100, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday",kaynak:"TDV veday (başlık 1635-1909; 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler') — t: sultanlığın sonu · SENUSI-NOKTA 19 Eyl 2026"},
+     {f:"1909-06-02",t:"1913-01-01",d:"senusi",kaynak:"TDV cad: 'Fransızlar Ebîşe’yi ve Vedây’ı ele geçirdikten sonra kuzeydeki Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913)' · TDV veday aynı hüküm — t YIL hassasiyeti (kaynak yıl veriyor; Borku merkezi Ayn Kelek'in günü 1913-11-27, TDV senusiyye, bu noktaya taşınmadı) · SENUSI-NOKTA"},
+     {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday: 'Çad’ın tamamını nüfuzları altına aldılar (1913)' — YIL · SENUSI-NOKTA"}],
   kaynak:"cad" },
 
 { ad:"Aravan", tur:"sehir", lat:18.9000, lon:-3.5300, g:0, k:0,
@@ -161,8 +162,9 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Fada (Ennedi)", tur:"sehir", lat:17.1800, lon:21.5800, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday",kaynak:"TDV veday (başlık 1635-1909; 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler') — t: sultanlığın sonu · SENUSI-NOKTA 19 Eyl 2026"},
+     {f:"1909-06-02",t:"1913-01-01",d:"senusi",kaynak:"TDV cad: 'kuzeydeki Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913)' — Fada Ennedi'nin merkezi · t YIL hassasiyeti · SENUSI-NOKTA"},
+     {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday: 'Çad’ın tamamını nüfuzları altına aldılar (1913)' — YIL · SENUSI-NOKTA"}],
   kaynak:"cad" },
 
 { ad:"In Gall", tur:"sehir", lat:16.7900, lon:6.9300, g:0, k:0,
@@ -233,8 +235,9 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Iriba", tur:"sehir", lat:15.1300, lon:22.2500, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday",kaynak:"TDV veday (başlık 1635-1909; 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler') — t: sultanlığın sonu · SENUSI-NOKTA 19 Eyl 2026"},
+     {f:"1909-06-02",t:"1913-01-01",d:"__BOSLUK__",kaynak:"BEYAN — 1909-06-02..1913 sahibi BULUNAMADI: TDV cad/veday Senûsî hâkimiyetini yalnız 'Borku ve Ennîdî' için söylüyor, Iriba (Dâr Zagâve, Ennedi'nin güneyi) adı geçmiyor; Fransız fiilî denetiminin Iriba'ya ulaştığı yıl da yok. Komşuya itilmedi (VERI-YAPISI __BOSLUK__) · SENUSI-NOKTA"},
+     {f:"1913-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday: 'Çad’ın tamamını nüfuzları altına aldılar (1913)' — YIL, üst sınır · SENUSI-NOKTA"}],
   kaynak:"cad" },
 
 { ad:"Bakel", tur:"sehir", lat:14.9000, lon:-12.4600, g:0, k:0,
@@ -269,8 +272,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Biltine", tur:"sehir", lat:14.5300, lon:20.9200, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday"},
+     {f:"1909-06-02",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday (başlık: 1635-1909): 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler' — GÜN (Abeşe için doğrudan; Biltine/Vara sultanlığın sonuna bağlandı) · KRONO-2S-3 19 Eyl 2026"}],
   kaynak:"cad" },
 
 { ad:"Mopti", tur:"sehir", lat:14.4900, lon:-4.1900, g:0, k:0,
@@ -317,8 +320,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Hamdullahi", tur:"sehir", lat:14.1500, lon:-4.1500, g:0, k:0,
   kur:"1820-01-01",
-  s:[{f:"1820-01-01",t:"1862-01-01",d:"massina"},
-     {f:"1862-01-01",t:"1893-01-01",d:"tekrur"},
+  s:[{f:"1820-01-01",t:"1862-05-16",d:"massina"},
+     {f:"1862-05-16",t:"1893-01-01",d:"tekrur",kaynak:"TDV mali: 'Mâsînâ’nın merkezi Hamdallahi 16 Mayıs 1862 tarihinde el-Hâc Ömer’in eline geçti' — GÜN · KRONO-2S-3 19 Eyl 2026"},
      {f:"1893-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
@@ -330,8 +333,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Vara (Wara)", tur:"sehir", lat:14.0500, lon:21.0000, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday"},
+     {f:"1909-06-02",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday (başlık: 1635-1909): 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler' — GÜN (Abeşe için doğrudan; Biltine/Vara sultanlığın sonuna bağlandı) · KRONO-2S-3 19 Eyl 2026"}],
   kaynak:"cad" },
 
 { ad:"Dori", tur:"sehir", lat:14.0300, lon:-0.0300, g:0, k:0,
@@ -360,8 +363,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Abeşe (Abéché)", tur:"sehir", lat:13.8300, lon:20.8300, g:0, k:0,
   kur:"1635-01-01",
-  s:[{f:"1635-01-01",t:"1912-01-01",d:"vaday"},
-     {f:"1912-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1635-01-01",t:"1909-06-02",d:"vaday"},
+     {f:"1909-06-02",t:"1923-10-29",d:"fransa-cumhuriyet",kaynak:"TDV veday (başlık: 1635-1909): 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler' — GÜN (Abeşe için doğrudan; Biltine/Vara sultanlığın sonuna bağlandı) · KRONO-2S-3 19 Eyl 2026"}],
   kaynak:"cad" },
 
 { ad:"Birni-N'Konni", tur:"sehir", lat:13.8000, lon:5.2500, g:0, k:0,
@@ -574,8 +577,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Yola", tur:"sehir", lat:9.2000, lon:12.4800, g:0, k:0,
   kur:"1841-01-01",
-  s:[{f:"1841-01-01",t:"1903-07-27",d:"sokoto"},
-     {f:"1903-07-27",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1841-01-01",t:"1901-01-01",d:"sokoto"},
+     {f:"1901-01-01",t:"1923-10-29",d:"ingiltere",kaynak:"TDV adamava: '1901’de Adamava, İngiltere’ye bağlı Kuzey Nijerya ile Almanya’ya bağlı Kamerun arasında paylaşılmış ve … İngiliz bölgesinde Yola emîri olmuştur' — YIL · KRONO-2S-3 19 Eyl 2026"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kong", tur:"sehir", lat:9.1500, lon:-4.6100, g:0, k:0,
@@ -1149,9 +1152,9 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Nairobi", tur:"sehir", lat:-1.2900, lon:36.8200, g:0, k:0,
-  kur:"1899-05-30",
-  s:[{f:"1899-05-30",t:"1923-10-29",d:"ingiltere"}],
-  kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
+  kur:"1899-01-01",
+  s:[{f:"1899-01-01",t:"1923-10-29",d:"ingiltere"}],
+  kaynak:"Nairobi City County 'History' (nairobi.go.ke): 'a supply depot of the Uganda Railway was built by the British in 1899' — YIL (eski 1899-05-30 dayanaksızdı; 30 Mayıs yalnız Vikipedi) · KRONO-2S-3 19 Eyl 2026" },
 
 { ad:"Bveranyange (Karagve)", tur:"sehir", lat:-1.3000, lon:31.1000, g:0, k:0,
   kur:"1450-01-01",
@@ -1187,9 +1190,9 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Fransvil (Franceville)", tur:"sehir", lat:-1.6300, lon:13.5800, g:0, k:0,
-  kur:"1880-06-01",
-  s:[{f:"1880-06-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
+  kur:"1880-06-13",
+  s:[{f:"1880-06-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  kaynak:"R. Pourtier, Bull. Assoc. géogr. français 57/473 (1980, Persée): 'C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa' — GÜN · KRONO-2S-3 19 Eyl 2026" },
 
 { ad:"Muila (Mouila)", tur:"sehir", lat:-1.8700, lon:11.0600, g:0, k:0,
   kur:"1899-01-01",

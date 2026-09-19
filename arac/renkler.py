@@ -3029,6 +3029,9 @@ BOYALAR = {
     "sauk":                    ("Sauk (Asakiwaki)",                    "#24a842"),
     "savni":                   ("Şavni (Shawnee)",                     "#6624a8"),
     "secwepemc":               ("Secwépemc (Shuswap)",                 "#d2a824"),
+    # SENUSI-NOKTA 19 Eyl 2026: renk_olc --oner senusi → 4 komşu, 27 engel,
+    # en yakın engel ΔE 14.2 (denetim/oneri-20260919-082436.txt)
+    "senusi":                  ("Senûsî Tarikatı (Senûsiyye)",         "#d27e24"),
     "sine-salum":              ("Sine ve Salum Krallıkları (Serer)",   "#cca224"),
     "solima-yalunka":          ("Solima Yalunka Krallığı",             "#5a78d8"),
     "sosoni":                  ("Şoşoni",                              "#7224ae"),
@@ -3065,6 +3068,14 @@ BOYALAR = {
     "kabartay":                ("Kabartay (Kabardey) Beylikleri",    "#0c5a84"),
     "cerkez":                  ("Çerkez Kabile Birlikleri (Batı)",   "#36cdd8"),
     "kuba-hanligi":            ("Kuba Hanlığı",                       "#d8af61"),
+    # GEMINI-DOGRULA 19 Eyl 2026 (M-4607) — sessiz borçtan veriye inen 6 kimlik;
+    # renkler `py arac/renk_olc.py --oner` önerisi (denetim/oneri-20260919-072539.txt).
+    "garbi-trakya":            ("Garbî Trakya Hükûmet-i Müstakillesi", "#9c24d2"),
+    "krakow-serbest-sehri":    ("Krakov Serbest Şehri",               "#d224ba"),
+    "danzig-serbest-sehri":    ("Danzig Serbest Şehri",               "#b424d2"),
+    "danzig-serbest-sehri-1807": ("Danzig Serbest Şehri (Napolyon Dönemi)", "#d224cc"),
+    "rabih":                   ("Râbih b. Zübeyr Devleti",            "#d224d8"),
+    "naksa-dukaligi":          ("Naxos (Nakşa) Dukalığı",             "#126ca2"),
     # ================================================================
     # MERGE 5 EYLUL 2026 — 29 KIMLIK, TEK TURDA COZULDU
     # `renk_olc.py --oner` · artefakt: oneri-20260905-224505.txt
@@ -3116,7 +3127,7 @@ BOYALAR = {
     # 17 Eylül 2026 · KUNYE-TARAF önerisi: komşulara (hicaz · suriye-lubnan-mandasi ·
     # irak-kralligi · Osmanlı) en küçük ΔE 49,5; paletteki en yakın `sind` 11,5 (komşu değil).
     "suriye-arap-kralligi": ("Suriye Arap Krallığı (Faysal, 1918-1920)", "#9fa619"),
-    "sutayogullari": ("Sutayogullari", "#5ad224"),
+    "sutayogullari": ("Sutayogullari", "#de4866"),
     "tannu-tuva": ("Tannu Tuva Halk Cumhuriyeti", "#6024d2"),
     "topia": ("Topia (Thopia) Beyliği", "#60d224"),
     "urdun-emirligi": ("Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)", "#d2249c"),

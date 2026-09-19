@@ -91,7 +91,7 @@ window.OLAYLAR_2S_0918 = [
 { t:"1903-01-01", b:"Fransız kuvvetleri Ubangi-Şari'nin iç kesimlerini (Bambari-Bria hattı) ele geçirdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Bambari",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Fransız Kongo'sunun kuzey seferleri, 1900'lerin başında Bambari, Batangafo, Bossangoa ve Bria'yı kapsayan Ubangi-Şari iç bölgesini fiilen denetim altına aldı; bölge 29 Aralık 1903'te resmen Ubangi-Şari kolonisi olarak örgütlendi (Fransız Ekvator Afrikası'nın parçası).",
-  kaynak:"standart akademik/ansiklopedik (Ubangi-Shari colony organized 29 Aralık 1903 — Wikipedia 'Ubangi-Shari', Coquery-Vidrovitch, Le Congo au temps des grandes compagnies concessionnaires) — TDV kapsam dışı, GÜN KABA" },
+  kaynak:"TDV, orta-afrika-cumhuriyeti (tarih bölümü: Ahmet Kavas; gövde okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «Fransa 29 Aralık 1903'te Ubangi-Şari sömürgesini kurduğunu ilân ederek Fort-de-Possel'i yönetim merkezi yaptı» (TDV kapsamıyor değil — önceki 'kapsam dışı' notu YANLIŞTI). ⚠️ Bambari-Bria hattının fiilen ele geçirildiği tarih TDV'de YOK, BULUNAMADI; t: yalnız YIL (1903). Coquery-Vidrovitch, Le Congo au temps des grandes compagnies concessionnaires adı geçiyor ama bu turda OKUNMADI. Wikipedia dayanak olarak KALDIRILDI." },
 
 // ── 7. KENYA KUZEYDOĞUSUNUN İNGİLİZ İDARESİNE GİRİŞİ ─────────────────
 { t:"1895-07-01", b:"Kenya'nın kuzeydoğu bölgesi (Garissa-Marsabit hattı) İngiliz Doğu Afrika Protektorası'na katıldı", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Garissa",
@@ -160,10 +160,10 @@ window.OLAYLAR_2S_0918 = [
   kaynak:"standart akademik/ansiklopedik (Fall of Ak-Mechet/Perovsk, Temmuz 1853 — Britannica 'Kyzylorda', MacKenzie, The Lion of Tashkent) — TDV kapsam dışı; veri 1853-07-28 taşıyor, ay/yıl kaynakla uyumlu, gün ayrıca doğrulanmadı" },
 
 // ── 18. DUBROVNIK'İN MACARİSTAN'A BAĞLANMASI ──────────────────────────
-{ t:"1358-01-01", b:"Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Dubrovnik",
+{ t:"1358-02-18", b:"Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Dubrovnik",
   etiket:["antlasma","konu-siyasi"],
   d:"18 Şubat 1358'de imzalanan Zadar Antlaşması, Venedik'in Dalmaçya üzerindeki 150 yıllık hâkimiyetine son verdi; Dubrovnik (Ragusa) böylece Venedik idaresinden çıkıp Macar Kralı I. Layoş'un himayesi altına giren yarı özerk bir cumhuriyet statüsü kazandı.",
-  kaynak:"standart akademik/ansiklopedik (Peace of Zadar, 18 Şubat 1358 — Encyclopaedia Britannica 'Dubrovnik/History', Fine, The Late Medieval Balkans) — TDV kapsam dışı; veri 1358-01-01 taşıyor (yıl doğru, GÜN farklı — kaynak 18 Şubat diyor, bildiriliyor)" },
+  kaynak:"standart akademik/ansiklopedik (Peace of Zadar, 18 Şubat 1358 — Encyclopaedia Britannica 'Dubrovnik/History', Fine, The Late Medieval Balkans) — TDV kapsam dışı; veri 1358-01-01 taşıyor (yıl doğru, GÜN farklı — kaynak 18 Şubat diyor, bildiriliyor) · 19 Eyl 2026 KRONO-2S-3: madde ve Dubrovnik/Zadar kırılması 18 Şubat'a çekildi — Hrvatska enciklopedija 'Zadarski mir' AYNEN: \"mirovni ugovor … dana 18. II. 1358.\" / \"Mlečani su se odrekli »prava na Dalmaciju od polovice Kvarnera do područja Drača« uključujući gradove … Dubrovnik\"" },
 
 // ── 19. SİNOP'UN CANDAROĞULLARI'NA GEÇİŞİ ─────────────────────────────
 { t:"1322-01-01", b:"Sinop, Gazi Çelebi tarafından ele geçirilip Candaroğulları nüfuzuna girdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Sinop",

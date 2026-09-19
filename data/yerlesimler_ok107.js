@@ -258,7 +258,12 @@ window.YERLESIMLER_OK107 = [
   //   Kukava'nın kuruluşu da bu yıla düşüyor. Gün bilinmiyor ⇒ YYYY-01-01.
   // ⚠️ Râbih ez-Zübeyr'in 1893-1900 hâkimiyetini YAZMADIM: künyesi yok ve
   //   Birni N'gazargamu da yazmıyor — iki kayıt ayrışmasın diye.
-  s:[{f:"1814-01-01",t:"1902-01-01",d:"kanem-bornu"},
+  // ✅ GEMINI-DOGRULA 0919: künye `rabih` artık var; Kukava ve Dikeo'ya
+  //   yazıldı (TDV bornu, YIL düzeyi). Birni N'gazargamu 1808'den beri
+  //   harabe ve TDV 1893'te adını anmıyor — ona yazılmadı.
+  s:[{f:"1814-01-01",t:"1893-01-01",d:"kanem-bornu"},
+     {f:"1893-01-01",t:"1900-01-01",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce' — YIL düzeyi (GEMINI-DOGRULA 0919)"},
+     {f:"1900-01-01",t:"1902-01-01",d:"kanem-bornu"},
      {f:"1902-01-01",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[], kaynak:"bornu"
 },
@@ -271,7 +276,9 @@ window.YERLESIMLER_OK107 = [
   //   bölge de İngiltere'nin hâkimiyetine geçti."
   // 1919-06-28 (Versailles) seçildi: Almanya'nın sömürge haklarının hukuken
   // sona erdiği gün ve külliyatta zaten kullanılan bir gün. TDV gün vermiyor.
-  s:[{f:"1281-01-01",t:"1902-01-01",d:"kanem-bornu"},
+  s:[{f:"1281-01-01",t:"1893-01-01",d:"kanem-bornu"},
+     {f:"1893-01-01",t:"1900-01-01",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Dikeo'yu merkez edinen Râbih 1900'de … öldürülünce' — iki uç da YIL düzeyi (GEMINI-DOGRULA 0919)"},
+     {f:"1900-01-01",t:"1902-01-01",d:"kanem-bornu"},
      {f:"1902-01-01",t:"1919-06-28",d:"almanya"},
      {f:"1919-06-28",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[], kaynak:"bornu"

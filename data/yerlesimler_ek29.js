@@ -212,8 +212,8 @@ window.YERLESIMLER_EK29 = [
 //   Askerî Sınır literatürünün standart bilgisi, gün bilinmediği için
 //   YYYY-01-01 yazıldı
 
-{ ad:"Karlovac", tur:"kale", lat:45.4870, lon:15.5478, g:0, k:3, kur:"1579-01-01",
-  s:[{f:"1579-01-01",t:"1918-11-11",d:"avusturya"},
+{ ad:"Karlovac", tur:"kale", lat:45.4870, lon:15.5478, g:0, k:3, kur:"1579-07-13",
+  s:[{f:"1579-07-13",t:"1918-11-11",d:"avusturya",kaynak:"Hrvatska enciklopedija 'Karlovac': 'Osnovan je 13. VII. 1579. kao tvrđava' — GÜN · KRONO-2S-3 19 Eyl 2026"},
      {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
   d:[], v:[] },
 
@@ -349,8 +349,8 @@ window.YERLESIMLER_EK29 = [
 // Karaman → 1414 kesin Osmanlı.
 // kaynak: bulunamadı (TDV bu taneciği kapsamıyor) — çizgi kardeş kayıt Akşehir'den
 { ad:"İshaklı", tur:"kasaba", lat:38.5439, lon:31.2447, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1297-01-01",d:"selcuklu"},{f:"1297-01-01",t:"1381-06-01",d:"hamid"},{f:"1402-07-28",t:"1414-06-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1381-06-01",t:"1402-07-28"},{f:"1414-06-01",t:"1920-04-23"}], v:[] },
+  s:[{f:"1281-01-01",t:"1297-01-01",d:"selcuklu"},{f:"1297-01-01",t:"1381-06-01",d:"hamid"},{f:"1402-07-28",t:"1415-03-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1381-06-01",t:"1402-07-28"},{f:"1415-03-01",t:"1920-04-23"}], v:[] },
 
 // ILGIN — Karaman beyliği toprağı, Konya (68 km) çizgisiyle aynı.
 // ⚠️ Konya kaydındaki 1832-11-21 → 1833-06-30 Mısır (Kavalalı) dönemi

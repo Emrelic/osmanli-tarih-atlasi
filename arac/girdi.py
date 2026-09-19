@@ -779,7 +779,7 @@ GIRDI_DOSYALARI = [
     # KOSU13-OTOBUS (17 Eylül 2026) — NOKTASIZLIK-ADAY kümelerine kaynaklı noktalar
     "yerlesimler_nokta_amerika_0917.js",
     "yerlesimler_nokta_asya_0917.js",
-    # "yerlesimler_nokta_ortadogu_0917.js",  # 1b boşluğu (Leylâ·Havta·Dilem·Hurma·Türabe) — D4-ORTADOGU düzeltince bağlanır
+    "yerlesimler_nokta_ortadogu_0917.js",  # 1b boşlukları kaynaklı __BOSLUK__ beyanı (NOKTA-ORTADOGU fbe53ef, 19 Eyl)
     "yerlesimler_nokta_sibirya_0917.js",
     "yerlesimler_nokta_afrika_0917.js",
 ]

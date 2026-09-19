@@ -1,0 +1,103 @@
+{
+  "_NOT": "GEMINI-DOGRULA (Opus) · 19 Eylül 2026 · görev M-4592. Girdi: gemini/SESSIZ-BORC-0919.json. VERİYE YAZILMADI — öneri. Evren durum_tablosu.olc()['renksiz_sessiz'] ile BU TURDA ölçüldü: 64 künye (§1.5 '39' BAYAT). Gemini'nin 64'ü ölçülen küme ile aynı. Her künyenin başkenti + Gemini'nin gösterdiği noktalar için veri zaman çizelgesi künye penceresinde döküldü.",
+  "gemini_taslaginin_durumu": {
+    "kaynaksiz": "64 kaydın 43'ünde akademik_kaynak = 'TDV İslâm Ansiklopedisi veya akademik coğrafya referansları', kaynak_cumlesi = 'Tarihsel sınırlar … belgelenmiştir' — ŞABLON, kaynak değil.",
+    "oneri_yok": "Taslak 'hangi yerleşime hangi dönem' SORUSUNA cevap vermiyor: 23 kayıtta yalnız mevcut noktaları listeliyor, dönem/tarih önermiyor; 41 kayıtta nokta yok. Doğrulanacak somut iddia yok denecek kadar az → aşağıdaki sınıflama ve yamalar BU TURUN KENDİ ÖLÇÜMÜ.",
+    "sayim": {"dogrulandi": 0, "gemini_yanlis_veya_kaynaksiz": 43, "iddiasiz_nokta_listesi": 21}
+  },
+  "siniflama_64": {
+    "K1_YAMA_YOK_osmanli_tabi_veya_idari_birim_zaten_v_d_ile_cizili": ["arvanid-sancagi", "cebel-i-lubnan-mutasarrifligi", "cezayir-ocagi", "crnojevic-zetasi", "dejanovic-prensligi", "dubrovnik", "erdel", "girit-devleti", "harfusogullari", "konstantin-beyligi", "lubnan-emirligi", "mekke-serifligi", "misir-eyaleti", "orta-macar-kralligi", "sabah-emirligi", "sani-emirligi", "sarki-rumeli", "sirbistan-eyaleti", "trablusgarp-ocagi", "tunus-ocagi"],
+    "K1_not": "Bu 20 künyenin toprağı veride v:vassal/v:özerk ya da d: olarak ZATEN boyanıyor; v:/d: dönemi devlet kimliği taşımadığı için künye 'kullanılmıyor' görünüyor. Bunlara s: yazmak Osmanlı tâbi rengini SİLER. Kusur değil, sayaç yapısı: kova bunları sessiz borçtan ayırmalı (öneri durum_tablosu sahibine). ⚠️ dubrovnik kaydına şu an KRONO-2S-3 yazıyor (M-4594).",
+    "K2_ATLAS_UFKU_ONCESI": ["jin-hanedani", "mogol-imparatorlugu", "song"],
+    "K3_NOKTA_YOK_bolge_yogunlugu_isi_§6": ["aleut", "arua", "charrua", "guarani-misyonlari", "honduras-cumhuriyeti", "kosta-rika-cumhuriyeti", "nikaragua-cumhuriyeti", "ranquel", "fransiz-kamerun-mandasi", "ingiliz-becuanaland", "ingiliz-tanganika-mandasi", "ruanda-urundi-mandasi", "saar-havzasi-mandasi"],
+    "K3_not": "Gemini 'nikaragua'ya León gösterdi — o İspanya'daki León (yerlesimler_avrupa.js). Yanlış eşleme.",
+    "K4_TASARIM_KARARI_ust_kimlikle_ciziliyor": ["avusturya-cumhuriyet (Viyana s:avusturya)", "bavyera (Münih/Nürnberg/Regensburg s:almanya)", "bohemya (Prag s:almanya; künye kaynağı 'bulunamadı')", "bosna-isgal (isg:avusturya)", "cezayir-fransiz (s:fransa-cumhuriyet)", "fransiz-misir-seferi (isg:fransa-cumhuriyet)", "kibris-ingiliz (s:ingiltere)", "oniki-ada-italyan (isg:italya)", "portekiz-mozambik (s:portekiz)", "guney-afrika-birligi (Kap s:ingiltere)", "guneybati-afrika-mandasi (Vindhuk s:ingiltere)", "ingiliz-guney-rodezya (Salisbury s:ingiltere)", "ingiliz-kenya-kolonisi (Nairobi s:ingiltere · Mombasa s:umman-zengibar)", "ingiliz-nijerya (Lagos s:ingiltere)", "kaheti-kralligi (Zagem s:gurcistan+v:vassal)", "mora-despotlugu (Tripoliçe s:bizans)"],
+    "K4_not": "Yanlış değil, KABA. Alt kimliğe geçmek tek tek değil politika olarak karar ister (1.MURAT). Yan bulgu: Kahire isg:fransa f:1798-07-01 — Kahire'ye giriş 24 Temmuz; ayrı iş, kaynak aranmadı.",
+    "K5_YANLIS_SAHIP_YAMA": ["garbi-trakya", "danzig-serbest-sehri", "danzig-serbest-sehri-1807", "krakow-serbest-sehri", "italya-napolyon", "rabih", "hersek", "naksa-dukaligi", "prusya-dukaligi", "norvec-isvec-birligi", "luksemburg-hollanda-birligi", "kasim"]
+  },
+  "ON_KOSUL_her_K5_yamasi_icin": "① Yeni kullanılan her kimliğe arac/renkler.py BOYALAR'a renk (yoksa 'Renksiz künye — HARİTA DELİĞİ' 0→n) + py arac/renk_olc.py. ② Her yeni s: kırılması Değişmez 2s evrenine girer (açık 104 / tavan 121); çekirdek olaylar*.js'te madde yoksa açık artar — her yamada ayrıca yazıldı. ③ `harita:` alanı olan künyede boya anahtarı o alandır.",
+  "yamalar_oncelik_sirasiyla": [
+    {
+      "sira": 1, "kunye": "garbi-trakya", "dosya": "data/yerlesimler.js", "kayit": "Gümülcine",
+      "bugun": "s:bulgaristan-kralligi {1913-05-30→1920-05-27}",
+      "yeni": "bulgaristan-kralligi {1913-05-30→1913-08-31} · garbi-trakya {1913-08-31→1913-10-25} · bulgaristan-kralligi {1913-10-25→1920-05-27}",
+      "kaynak": "TDV bati-trakya AYNEN (bu turda okundu): «31 Ağustos 1913'te merkezi Gümülcine olmak üzere Garbî Trakya Hükûmet-i Muvakkatesi ilân edildi.» · «25 Ekim 1913'e kadar Bulgaristan'a teslimi şart koşulan Batı Trakya'da Garbî Trakya Hükûmet-i Müstakillesi varlığını ancak elli yedi gün sürdürebildi.»",
+      "bulunamadi": "İskeçe ve Dedeağaç: TDV 'Dedeağaç'ın alınmasından sonra' diyor, GÜN YOK → yazılmadı.",
+      "2s": "1913-08-31 ve 1913-10-25 çekirdekte madde YOK (en yakın 1913-09-29 İstanbul Antlaşması: 29 ve 26 gün → ±30 İÇİNDE, ikisi de kapanır — ama madde başka olayı anlatıyor; ayrı 1913-08-31 maddesi önerilir)."
+    },
+    {
+      "sira": 2, "kunye": "danzig-serbest-sehri", "dosya": "data/yerlesimler.js", "kayit": "Gdansk",
+      "bugun": "1921'de s:polonya", "yeni": "s:danzig-serbest-sehri {1920-11-15→1923-10-29} (atlas ufku)",
+      "kaynak": "Künye kaynağı (FRUS 1919 c. XIII; Gedanopedia) — BU TURDA YENİDEN OKUNMADI. Serbest şehrin Polonya olmadığı tartışmasız; yalnız gün künyeden.",
+      "2s": "1920-11-15 çekirdek madde aranmadı → muhtemelen açık +1.",
+      "not": "Gdansk kaydının 1920-01-10→1920-11-15 dilimi künye notuna göre Müttefik geçiş idaresi; ayrı karar."
+    },
+    {
+      "sira": 3, "kunye": "danzig-serbest-sehri-1807", "dosya": "data/yerlesimler.js", "kayit": "Gdansk",
+      "bugun": "1810'da s:prusya", "yeni": "s:danzig-serbest-sehri-1807 {1807-07-09→1814-02-04}",
+      "kaynak": "Künye kaynağı TDV prusya (Tilsit 9 Temmuz 1807) + Gedanopedia — BU TURDA YENİDEN OKUNMADI.",
+      "2s": "1807-07-09 çekirdekte madde VAR (grep). 1814-02-04 yok (1814-01-28 var: 7 gün → kapanır, olay farklı)."
+    },
+    {
+      "sira": 4, "kunye": "krakow-serbest-sehri", "dosya": "data/yerlesimler.js", "kayit": "Krakov",
+      "bugun": "s:avusturya {1795-10-24→1918-11-11} kesintisiz", "yeni": "avusturya {1795-10-24→1815-05-03} · krakow-serbest-sehri {1815-05-03→1846-11-11} · avusturya {1846-11-11→1918-11-11}",
+      "kaynak": "EB1911 'Cracow' (Wikisource, BU TURDA okundu) AYNEN: «… “the town of Cracow, with its territory, is declared to be for ever a free, independent and strictly neutral city, under the protection of Russia, Austria and Prussia.”» · «… decided to extinguish the state of Cracow and to incorporate it with the dominions of Austria.» Günler (3 Mayıs 1815 · 11 Kasım 1846) künyeden (Hertslet) — yeniden okunmadı.",
+      "yan_bulgu": "1809-1815 Varşova Dükalığı dönemi de veride yok (Krakov 1809'da Varşova Dükalığı'na katıldı) — gün kaynağı aranmadı, ayrı iş.",
+      "2s": "1815-05-03 ve 1846-11-11 çekirdekte madde YOK → açık +2 (tavan içinde)."
+    },
+    {
+      "sira": 5, "kunye": "italya-napolyon", "dosya": "data/yerlesimler.js", "kayit": "Milano",
+      "bugun": "s:avusturya {1714-03-07→1859-06-04} kesintisiz — Napolyon İtalyası hiç yok",
+      "yeni": "avusturya {→1797-07-09} · italya-napolyon {1797-07-09→<A>} · avusturya {<A>→<B>} · italya-napolyon {<B>→1814-04-16} · avusturya {1814-04-16→1859-06-04}",
+      "kaynak": "EB1911 'Italy' (Wikisource, BU TURDA okundu) AYNEN: «The Transpadane Republic, or, as it was soon called, the Cisalpine Republic, began its organized life on the 9th of July 1797, with a brilliant festival at Milan.» · «The Cisalpine and Ligurian Republics (reconstituted soon after Marengo) …» · «On the 16th of April 1814 Eugène … signed an armistice at Mantua …»",
+      "bulunamadi": "<A>/<B> = 1799 Avusturya-Rus işgali ve Marengo sonrası dönüş GÜNLERİ: EB1911 Italy ve Milan maddelerinde yok. KARAR: ya gün kaynağı bulunur ya da ara dönem yazılmaz (o zaman 1797-1814 kesintisiz italya-napolyon = 13 ay fazla).",
+      "2s": "1797-07-09 ve 1814-04-16 çekirdekte YOK → açık +2."
+    },
+    {
+      "sira": 6, "kunye": "rabih", "dosya": "data/yerlesimler_ok107.js", "kayit": "Dikva (Dikeo) · Kukava (Kukawa)",
+      "bugun": "s:kanem-bornu {…→1902-01-01}", "yeni": "kanem-bornu {→1893-01-01} · rabih {1893-01-01→1900-04-22} · kanem-bornu {1900-04-22→1902-01-01}",
+      "kaynak": "TDV bornu (BU TURDA okundu) AYNEN: «… Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).» · «1896'ya kadar ülkenin tamamını ele geçiren ve Dikeo'yu merkez edinen Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce …». TDV bornu: Vedây ordusu Kukava'yı tahrip etti.",
+      "uyari": "1900-04-22 GÜNÜ TDV'de YOK (künyeden). Künye kaynak alanı TDV cad'a 'Kusseri'de 1900'de öldürüldü' diyor; TDV cad gövdesi AYNEN «Dikoa'daki (Dikwa) savaşta esir düştü ve öldürüldü (1900)» — künye TDV'yi yanlış aktarıyor (ayrı düzeltme). 1893: yalnız yıl."
+    },
+    {
+      "sira": 7, "kunye": "hersek", "dosya": "data/yerlesimler.js", "kayit": "Mostar",
+      "bugun": "s:bosna {1281-01-01→1483-01-01} · d: 1483'ten",
+      "kaynak": "TDV hersek = BOŞ GÖVDE (tuzak ③, yalnız başlık). TDV mostar AYNEN: «… Sava Dükü Stjepan Vukčić-Kosača'ya tâbi Gost Radivoj tarafından kuruldu.» · «1466-1468'de Blagaj, Osmanlılar tarafından fethedildikten az önce Mostar da zaptedilmiş olmalıdır.» · «Bosna vilâyetine ait 872-873 (1468-1469) tarihli kayıtları ihtiva eden bir icmal tahrir defterinde bu yer Mostar (Köprülü Hisar) adıyla zikredilir.» · «Hersek bölgesinin fethi 888'de (1483) tamamlandıktan sonra …». TDV bosna-hersek: «Hersek sancağı 1470'te teşkil edilmiş, … diğer bir kısım toprakları ise 1482 başlarında fethedilerek sancağa katılmıştı.»",
+      "secenekler": "A: bosna {→1435-01-01} · hersek {1435-01-01→1483-01-01} · d: aynı (en az çıkarım; ama 1469 tahririyle çelişir). B (önerim): bosna {→1435-01-01} · hersek {1435-01-01→1468-01-01} · d: {1468-01-01→} — tahrir kaydı Mostar'ı 1468-69'da Osmanlı gösteriyor; 'olmalıdır' hedge'i nedeniyle YIL hassasiyeti. Hüküm 1.MURAT.",
+      "2s_2": "B'de d: 1468-01-01 kırılması çekirdekteki 1468-01-01 'fetih' maddesiyle formel olarak kapanır AMA o madde Karaman'ı anlatıyor → gerçek madde yazılmalı."
+    },
+    {
+      "sira": 8, "kunye": "naksa-dukaligi", "dosya": "data/yerlesimler.js", "kayit": "Nakşa · Paros",
+      "bugun": "s:venedik {1281-01-01→1566-04-15} · d: 1566-04-15'ten",
+      "yeni": "naksa-dukaligi {1281-01-01→1537-01-01} · v:vassal {1537-01-01→1566-04-15} · d: aynı",
+      "kaynak": "TDV naksa (BU TURDA okundu) AYNEN: «… Venedikli Marco Sanudo 1205'te … adayı … ele geçirdi, 1207'de İstanbul'daki Latin imparatorundan Nakşa dükü unvanını aldı.» · «Venedik'in Nakşa üzerindeki vesâyeti …» · «Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa'nın adalar seferiyle Osmanlı kontrolü altına girdi.» · «1540'taki Osmanlı-Venedik antlaşmasıyla hâkimiyet hakkı resmen Osmanlılar'a devredildi.» · «Ancak adanın statüsüne dokunulmadı ve düklük Yasef Nasi'ye verildi (974/1566).»",
+      "uyari": "1537-01-01 = 944 H'nin başı değil (944 H Haziran 1537'de başlar) — yalnız yıl; künye kronolojisi de 1537-01-01. v: kırılması d/v havuzunda → çekirdekte ±30 günde madde gerekir; 1537-01-01 maddesi VAR ama Kars'ı anlatıyor → Barbaros Ege seferi maddesi yazılmalı. 1566-04-15 günü TDV'de yok (TDV yalnız 974/1566) — mevcut veri, dokunulmadı.",
+      "risk": "Venedik'ten dükalığa geçiş Ege'de komşu Venedik adalarının peteğini etkilemez; yalnız Nakşa/Paros."
+    },
+    {
+      "sira": 9, "kunye": "prusya-dukaligi", "dosya": "data/yerlesimler.js · data/yerlesimler_ek7.js", "kayit": "Königsberg · Klaipėda (Memel)",
+      "bugun": "s:almanya {1281-01-01→1701-01-18}", "yeni": "almanya {→1525-04-08} · prusya-dukaligi {1525-04-08→1701-01-18}",
+      "kaynak": "Künye kaynağı (NDB/ADB 'Albrecht' f:; TDV prusya t: «18 Ocak 1701'de Königsberg'de taç giydi») — BU TURDA YENİDEN OKUNMADI.",
+      "not": "1525 öncesi Cermen Şövalyeleri devleti için künye YOK (devletler.js tarandı: yalnız prusya, prusya-dukaligi) — 'almanya' kovası kalır.",
+      "2s": "1701-01-18 çekirdekte VAR; 1525-04-08 YOK → +1."
+    },
+    {
+      "sira": 10, "kunye": "norvec-isvec-birligi", "kayit": "Oslo (yerlesimler.js) · Bergen (yerlesimler_avrupa.js — KUYRUK)",
+      "bugun": "s:isvec {1814-01-14→1905-06-07}", "yeni": "isvec {1814-01-14→1814-11-04} · norvec-isvec-birligi {1814-11-04→1905-06-07}",
+      "kaynak": "Künye kaynağı EB1911 (Kiel 14 Ocak 1814, Storting 4 Kasım 1814, fesih 7 Haziran 1905) — BU TURDA YENİDEN OKUNMADI.",
+      "karar": "14 Ocak–4 Kasım 1814 Norveç fiilen bağımsız (Eidsvold 17 Mayıs) — 'isvec' de yanlış; ayrı dilim ister. 1.MURAT."
+    },
+    {
+      "sira": 11, "kunye": "luksemburg-hollanda-birligi", "kayit": "Lüksemburg (yerlesimler_avrupa.js — KUYRUK)",
+      "bugun": "s:hollanda {1815-06-09→1890-11-23}", "yeni": "s:luksemburg-hollanda-birligi aynı pencere",
+      "uyari": "Künyenin kendi t: alanı 'KAYNAK BULUNAMADI' diyor — veri de aynı günü taşıyor; yama t:'yi DOĞRULAMAZ, yalnız sahibi düzeltir. Düşük öncelik."
+    },
+    {
+      "sira": 12, "kunye": "kasim", "kayit": "Kasimov (yerlesimler_h2_rusya.js)",
+      "bugun": "s:moskova {1325→1547-01-16} · s:rusya {1547-01-16→1917}", "yeni": "moskova {→1452-01-01} · kasim {1452-01-01→1681-01-01} · rusya {1681-01-01→…}",
+      "kaynak": "TDV kasim-hanligi (BU TURDA okundu) AYNEN: «… Fâtıma Sultan Bike geçti ve bunun 1681 yılında ölümüyle de Kāsım Hanlığı tarihe karıştı.» · «… dış işlerinde Moskova'ya tâbi oldular ve öteki Rus beyleri seviyesine düştüler.» Kuruluş: «bazılarına göre ise 1452-1456 yıllarında» — hedge'li.",
+      "karar": "TDV hanlığı Moskova'ya TÂBİ sayıyor; yabancı tâbi için atlasta v: karşılığı yok → ya ayrı renk ya bugünkü hâl. K4'e de konabilir. En düşük öncelik."
+    }
+  ],
+  "ozet": "64 künyenin 20'si yama İSTEMEZ (tâbi, zaten v:/d:), 3'ü ufuk öncesi, 13'ünde nokta yok, 16'sı üst kimlikle kaba çiziliyor (politika kararı), 12'sinde veri YANLIŞ SAHİP gösteriyor — ilk 8'i (Gümülcine 1913, Danzig ×2, Krakov, Milano, Râbih, Mostar, Nakşa) kaynaklı yama olarak hazır, 4'ü karar/kaynak bekliyor."
+}

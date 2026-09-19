@@ -70,7 +70,8 @@ window.OLAYLAR_EK11 = [
   d:"Çelebi Mehmed 1414-15'te İzmir'i alıp Cüneyd Bey'i Niğbolu sancak beyliğine göndererek Aydın-ili'ni Osmanlı idaresine bağlamıştı. Cüneyd, Çelebi Mehmed'in ölümünden sonra Bizans'ın taht iddiacısı olarak öne sürdüğü Mustafa Çelebi'nin yanında yeniden sahneye çıktı ve ona vezirlik dahi yaptı. II. Murad, eski beyliğini geri vereceği vaadiyle onu bu ittifaktan ayırdı; Cüneyd de İzmir'e dönüp Ayasuluk'u ele geçirdi ve Aydınoğlu Mustafa Bey'i öldürerek beyliğin başına geçti. Böylece Aydın-ili, Düzmece Mustafa buhranının içinden Osmanlı idaresinden çıkmış olarak doğdu.", ic_not_d:"Yılın ayı ve günü kaynakta bulunmadığı için tarih yıl hassasiyetinde yazılmıştır.",
   kaynak:"aydinogullari", duygu:["😔"] },
 
-{ t:"1426-01-01", k:"fetih", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
+{ t:"1426-01-01", k:"fetih", etiket:["siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
+  ic_not_etiket:"toprak-kazanc KALDIRILDI (GEMINI-DOGRULA 0919): Aydın-ili'nin el değiştirmesi olaylar_ek.js '1425-06-01 Batı Anadolu beyliklerinin yeniden ilhakı' maddesinin kırılmasında; bu madde olayın SONU (TDV aydinogullari 829/1425-26, cuneyd-bey 1426).",
   b:"Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu",
   gun:"1426", ic_not_gun:"(829 h.; TDV iki maddede 1425-26 ve 1426 diyor, gün yok)",
   yer:"İpsili (Sisam karşısı), Aydın-ili", yer_id:"Sisam", kisiler:"Aydınoğlu Cüneyd Bey, II. Murad, Anadolu Beylerbeyi Hamza Bey",

@@ -1,0 +1,373 @@
+{
+  "suleyman-celebi": {
+    "id": "suleyman-celebi",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "fetret-suleyman",
+    "eslesen_tum_ids": [
+      "fetret-suleyman"
+    ],
+    "ad": "Emîr Süleyman Çelebi Saltanatı (Rumeli)",
+    "f": "1402-07-28",
+    "t": "1411-02-17",
+    "baskent": "Edirne",
+    "bolge": "balkanlar",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('fetret-suleyman') değil, 'harita:' alanı ('suleyman-celebi') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "emir-suleyman",
+    "kaynak_cumlesi": "Yıldırım Bayezid'in Ankara'da esir düşmesinin ardından Rumeli'de saltanatını ilan eden en büyük şehzade; kardeşi Musa Çelebi'ye yenilip öldürüldü."
+  },
+  "musa-celebi": {
+    "id": "musa-celebi",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "fetret-musa",
+    "eslesen_tum_ids": [
+      "fetret-musa"
+    ],
+    "ad": "Musa Çelebi Saltanatı (Rumeli)",
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "baskent": "Edirne",
+    "bolge": "balkanlar",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('fetret-musa') değil, 'harita:' alanı ('musa-celebi') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "musa-celebi",
+    "kaynak_cumlesi": "Ağabeyi Süleyman'ı yenerek Rumeli'ye hâkim olan şehzade; İstanbul kuşatması başarısız kaldı, kardeşi Çelebi Mehmed'e Çamurlu'da yenilip öldürüldü."
+  },
+  "avusturya": {
+    "id": "avusturya",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "habsburg",
+    "eslesen_tum_ids": [
+      "habsburg"
+    ],
+    "ad": "Habsburg Avusturya",
+    "f": "1526-08-29",
+    "t": "1918-11-11",
+    "baskent": "Viyana",
+    "bolge": "orta-avrupa",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('habsburg') değil, 'harita:' alanı ('avusturya') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "avusturya",
+    "kaynak_cumlesi": "Mohaç sonrası Macar tacını alan Habsburg hanedanı; üç asır boyunca Osmanlı'nın Orta Avrupa'daki ana rakibi, sonunda Avusturya-Macaristan olarak I. Dünya Savaşı'nda dağıldı."
+  },
+  "mehmed-celebi": {
+    "id": "mehmed-celebi",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "fetret-mehmed",
+    "eslesen_tum_ids": [
+      "fetret-mehmed"
+    ],
+    "ad": "Çelebi Mehmed Saltanatı (Amasya/Anadolu)",
+    "f": "1402-07-28",
+    "t": "1413-07-05",
+    "baskent": "Amasya → Bursa",
+    "bolge": "anadolu",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('fetret-mehmed') değil, 'harita:' alanı ('mehmed-celebi') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "mehmed-i",
+    "kaynak_cumlesi": "Ankara Savaşı sonrası Anadolu'da tutunan, sırayla kardeşleri İsa ve Musa'yı saf dışı bırakarak Fetret Devri'ni kapatan şehzade; 1413'te I. Mehmed olarak tek padişah oldu."
+  },
+  "isa-celebi": {
+    "id": "isa-celebi",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "fetret-isa",
+    "eslesen_tum_ids": [
+      "fetret-isa"
+    ],
+    "ad": "İsa Çelebi Saltanatı (Bursa)",
+    "f": "1403-01-01",
+    "t": "1403-09-01",
+    "baskent": "Bursa",
+    "bolge": "anadolu",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('fetret-isa') değil, 'harita:' alanı ('isa-celebi') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "isa-celebi",
+    "kaynak_cumlesi": "Ankara Savaşı sonrası Anadolu'da hükümdarlığını ilan eden şehzade; kardeşi Çelebi Mehmed'e yenilip Eskişehir'de öldürüldü."
+  },
+  "sirbistan": {
+    "id": "sirbistan",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "sirbistan-nemanjic",
+    "eslesen_tum_ids": [
+      "sirbistan-nemanjic",
+      "sirp-despotlugu",
+      "sirbistan-prensligi",
+      "sirbistan-kralligi"
+    ],
+    "ad": "Sırbistan Krallığı (Nemanjić Hanedanı)",
+    "f": "1217-01-01",
+    "t": "1402-01-01",
+    "baskent": "Ras → Skopje → Serez (Duşan döneminde)",
+    "bolge": "balkanlar",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('sirbistan-nemanjic') değil, 'harita:' alanı ('sirbistan') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "sirbistan",
+    "kaynak_cumlesi": "Stefan Nemanja'nın kurduğu hanedanın krallığa, Stefan Duşan döneminde kısa süreliğine imparatorluğa dönüştüğü ortaçağ Sırp devleti; Duşan'ın ölümüyle parçalandı, Osmanlı karşısındaki yenilgilerle (Çirmen, Kosova) vasallığa düştü. Devam: bkz. [[sirp-despotlugu]]. (kaynak: TDV, madde: sirbistan)"
+  },
+  "yemen": {
+    "id": "yemen",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "yemen-zeydi",
+    "eslesen_tum_ids": [
+      "yemen-zeydi"
+    ],
+    "ad": "Yemen Zeydî İmamlığı",
+    "f": "897-01-01",
+    "t": "1923-10-29",
+    "baskent": "Sa'da → San'a",
+    "bolge": "arabistan",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('yemen-zeydi') değil, 'harita:' alanı ('yemen') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "yemen",
+    "kaynak_cumlesi": "Osmanlı hâkimiyeti iki kesik dönemde yaşandı (1517-1636, 1849-1918); aradaki 200 yıl fiilen bağımsız imamlık."
+  },
+  "__BOSLUK__": {
+    "id": "__BOSLUK__",
+    "harita_alani_ile_eslesti": false,
+    "durum": "muaf (beyanlı boşluk)",
+    "ad": "Beyanlı Boşluk (Egemenlik dışı alanlar)",
+    "f": "1281-01-01",
+    "t": "1923-10-29",
+    "gerekce": "CLAUDE.md §1.5 uyarınca egemenlik dışı, kasten boş bırakılan coğrafi koridorları boyamak amacıyla kullanılan özel sabit tanımlayıcıdır. Künyesi bulunmaz.",
+    "kaynak": "CLAUDE.md §1.5",
+    "kaynak_cumlesi": "__BOSLUK__ bir egemenlik/devlet kimliği olmayıp, boyama muafiyetini ve sahipsiz koridorları beyan etmek için kullanılan özel bir tanımdır."
+  },
+  "ceneviz": {
+    "id": "ceneviz",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "cenova",
+    "eslesen_tum_ids": [
+      "cenova"
+    ],
+    "ad": "Cenova Cumhuriyeti",
+    "f": "1005-01-01",
+    "t": "1797-06-14",
+    "baskent": "Cenova",
+    "bolge": "italya",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('cenova') değil, 'harita:' alanı ('ceneviz') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+    "kaynak_cumlesi": "Kefe, Sakız ve Sinop'ta kolonileri olan İtalyan deniz cumhuriyeti; kolonilerini sırayla Osmanlı'ya kaptırdı."
+  },
+  "bulgaristan": {
+    "id": "bulgaristan",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "bulgar-carligi",
+    "eslesen_tum_ids": [
+      "bulgar-carligi",
+      "bulgaristan-prensligi",
+      "bulgaristan-kralligi"
+    ],
+    "ad": "İkinci Bulgar İmparatorluğu",
+    "f": "1185-01-01",
+    "t": "1396-01-01",
+    "baskent": "Tırnova → Vidin",
+    "bolge": "balkanlar",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('bulgar-carligi') değil, 'harita:' alanı ('bulgaristan') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "bulgaristan",
+    "kaynak_cumlesi": "Asen hanedanının imparatorluğu (hanedan ömrü); 1185'te Asen kardeşlerin isyanıyla doğdu. TDV Tırnova'nın düşüşünü 1393 verir; 1396 Vidin'in düşüşüdür — devletin son parçası, Niğbolu Haçlı Seferi sonrası ortadan kalktı."
+  },
+  "suud": {
+    "id": "suud",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "suud-birinci",
+    "eslesen_tum_ids": [
+      "suud-birinci",
+      "suud-ikinci",
+      "suud-ucuncu"
+    ],
+    "ad": "I. Suûdî Devleti (Vehhâbî Emirliği)",
+    "f": "1744-01-01",
+    "t": "1818-09-09",
+    "baskent": "Dir'iye",
+    "bolge": "arabistan",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('suud-birinci') değil, 'harita:' alanı ('suud') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "suudiler",
+    "kaynak_cumlesi": "Vehhâbî hareketiyle Necid'de kurulan, Haremeyn'i ele geçiren emirlik; Kavalalı Mehmed Ali'nin ordusuyla ortadan kaldırıldı (bkz. [[misir-kavalali]])."
+  },
+  "sardinya": {
+    "id": "sardinya",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "sardinya-piyemonte",
+    "eslesen_tum_ids": [
+      "sardinya-piyemonte"
+    ],
+    "ad": "Sardinya-Piyemonte Krallığı (Savoya)",
+    "f": "1720-08-02",
+    "t": "1861-03-17",
+    "baskent": "Torino",
+    "bolge": "italya",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('sardinya-piyemonte') değil, 'harita:' alanı ('sardinya') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "sardinya",
+    "kaynak_cumlesi": "Savoya hanedanının Sicilya'yı Sardinya ile takas ederek kazandığı kraliyet unvanı; İtalya birleşme hareketinin öncüsü oldu, 1861'de İtalya Krallığı'na dönüştü."
+  },
+  "sovalye": {
+    "id": "sovalye",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "rodos-sovalyeleri",
+    "eslesen_tum_ids": [
+      "rodos-sovalyeleri"
+    ],
+    "ad": "Rodos (Saint Jean/Malta Şövalyeleri)",
+    "f": "1310-01-01",
+    "t": "1798-06-12",
+    "baskent": "Rodos → (1522-1530 topraksız) → Birgu/Valletta (Malta)",
+    "bolge": "balkanlar",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('rodos-sovalyeleri') değil, 'harita:' alanı ('sovalye') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "rodos",
+    "kaynak_cumlesi": "Haçlı şövalye tarikatının Ege üssü; Kanunî'nin kuşatmasıyla adayı terk edip 1530'da Malta'ya yerleşti, Napolyon'un 1798'de adayı işgaliyle tarikat topraksız kaldı. 1522-1530 arası tarikat topraksızdı, haritada karşılığı yok."
+  },
+  "bosna": {
+    "id": "bosna",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "bosna-kralligi",
+    "eslesen_tum_ids": [
+      "bosna-kralligi"
+    ],
+    "ad": "Bosna Krallığı",
+    "f": "1377-01-01",
+    "t": "1463-05-01",
+    "baskent": "Jajce",
+    "bolge": "balkanlar",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('bosna-kralligi') değil, 'harita:' alanı ('bosna') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "bosna-hersek",
+    "kaynak_cumlesi": "Kotromanić hanedanının krallığı (hanedan ömrü); Tvrtko I'in 1377 taç giymesiyle doğdu, son kral Tomašević'in haraç reddiyle Fâtih'in seferini davet etti, 1463'te hızla ilhak edildi."
+  },
+  "hicaz": {
+    "id": "hicaz",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "hicaz-kralligi",
+    "eslesen_tum_ids": [
+      "hicaz-kralligi"
+    ],
+    "ad": "Hicaz Krallığı (Şerif Hüseyin)",
+    "f": "1916-06-10",
+    "t": "1923-10-29",
+    "baskent": "Mekke",
+    "bolge": "arabistan",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('hicaz-kralligi') değil, 'harita:' alanı ('hicaz') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "serif-huseyin",
+    "kaynak_cumlesi": "Şerîf Hüseyin 10 Haziran 1916'da isyanı başlattı ve Hicaz'da fiilî hâkimiyet o gün el değiştirdi; \"Hicaz Kralı\" unvanı Kasım 1916'da ilân edildi. Künye fiilî hâkimiyeti ölçer, unvanı değil. 1925'te (site ufkunun dışında) Suûdîlerce yıkıldı."
+  },
+  "lusignan": {
+    "id": "lusignan",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "kibris-krallik",
+    "eslesen_tum_ids": [
+      "kibris-krallik"
+    ],
+    "ad": "Kıbrıs Krallığı (Lüzinyan)",
+    "f": "1192-01-01",
+    "t": "1489-02-26",
+    "baskent": "Lefkoşa",
+    "bolge": "anadolu",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('kibris-krallik') değil, 'harita:' alanı ('lusignan') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "kibris",
+    "kaynak_cumlesi": "Haçlı kökenli Lüzinyan hanedanının krallığı (hanedan ömrü); 1192'de kuruldu, son kraliçe Katerina Cornaro'nun 26 Şubat 1489'da feragatiyle Venedik'e devredildi — Osmanlı fethi (1571) bundan 82 yıl sonradır."
+  },
+  "milanoduka": {
+    "id": "milanoduka",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "milano-dukaligi",
+    "eslesen_tum_ids": [
+      "milano-dukaligi"
+    ],
+    "ad": "Milano Dükalığı",
+    "f": "1395-05-11",
+    "t": "1859-11-10",
+    "baskent": "Milano",
+    "bolge": "italya",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('milano-dukaligi') değil, 'harita:' alanı ('milanoduka') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+    "kaynak_cumlesi": "Visconti ve Sforza hanedanlarının İtalya'nın en zengin dükalığı; Sforza hattının sönmesiyle önce İspanyol, sonra Avusturya Habsburglarının eline geçti, İtalya birliğinde Sardinya-Piyemonte'ye katıldı."
+  },
+  "atinadukaligi": {
+    "id": "atinadukaligi",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "atina-dukaligi",
+    "eslesen_tum_ids": [
+      "atina-dukaligi"
+    ],
+    "ad": "Atina Dukalığı",
+    "f": "1205-01-01",
+    "t": "1458-06-04",
+    "baskent": "Atina",
+    "bolge": "balkanlar",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('atina-dukaligi') değil, 'harita:' alanı ('atinadukaligi') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "atina",
+    "kaynak_cumlesi": "IV. Haçlı Seferi sonrası kurulan Latin dukalığı; aradaki Katalan dönemi ayrı kayıt (bkz. [[katalan]]), Floransalı Acciaiuoli hanedanı devraldıktan sonra Fatih döneminde ilhak edildi."
+  },
+  "arnavutluk": {
+    "id": "arnavutluk",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "arnavutluk-iskenderbey",
+    "eslesen_tum_ids": [
+      "arnavutluk-iskenderbey",
+      "arnavutluk-bagimsiz"
+    ],
+    "ad": "Arnavutluk (Kastriota Direnişi)",
+    "f": "1443-01-01",
+    "t": "1479-01-25",
+    "baskent": "Krujë",
+    "bolge": "balkanlar",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('arnavutluk-iskenderbey') değil, 'harita:' alanı ('arnavutluk') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "iskender-bey",
+    "kaynak_cumlesi": "Arnavut direniş birliğinin ömrü (ülke sürekliliği, tek hanedan değil); İskender Bey (Skanderbeg) 1443'te isyan başlattı, 17 Ocak 1468'de öldü — direniş Kruja (1478) ve İşkodra'nın (1479) düşmesine kadar sürdü."
+  },
+  "kaffa": {
+    "id": "kaffa",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "kaffa-kralligi",
+    "eslesen_tum_ids": [
+      "kaffa-kralligi"
+    ],
+    "ad": "Kaffa Krallığı",
+    "f": "1390-01-01",
+    "t": "1897-09-10",
+    "baskent": "Bonga",
+    "bolge": "dogu-afrika",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('kaffa-kralligi') değil, 'harita:' alanı ('kaffa') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+    "kaynak_cumlesi": "Güneybatı Habeşistan'da Gomara/Minjo hanedanınca kurulan, kahve bitkisinin adını aldığı söylenen krallık; Habeş İmparatoru II. Menelik'in seferiyle ilhak edildi. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük."
+  },
+  "cimma": {
+    "id": "cimma",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "cimma-sultanligi",
+    "eslesen_tum_ids": [
+      "cimma-sultanligi"
+    ],
+    "ad": "Cimma (Jimma) Sultanlığı",
+    "f": "1830-01-01",
+    "t": "1923-10-29",
+    "baskent": "Cirén (Jiren)",
+    "bolge": "dogu-afrika",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('cimma-sultanligi') değil, 'harita:' alanı ('cimma') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+    "kaynak_cumlesi": "Gibe bölgesindeki Oromo krallıklarından, Kaffa'ya bağlılıktan koparak İslâm'a geçen hanedanınca kurulan sultanlık; Habeşistan'a haraca bağlandıktan sonra da iç özerkliğini uzun süre korudu (1923 sonrasında da sürdü). TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir."
+  },
+  "vollayta": {
+    "id": "vollayta",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "vollayta-kralligi",
+    "eslesen_tum_ids": [
+      "vollayta-kralligi"
+    ],
+    "ad": "Vollayta (Wolaita) Krallığı",
+    "f": "1281-01-01",
+    "t": "1894-01-17",
+    "baskent": "Dalgaç (Damot Sore)",
+    "bolge": "dogu-afrika",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('vollayta-kralligi') değil, 'harita:' alanı ('vollayta') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+    "kaynak_cumlesi": "Güney Habeşistan'da eski ve köklü bir krallık (Kawo hanedanı); kuruluşu efsanevi Motolomi dönemine dayanır, II. Menelik'in fetih seferiyle 1894'te sona erdi. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük."
+  },
+  "sidamo": {
+    "id": "sidamo",
+    "harita_alani_ile_eslesti": true,
+    "devletler_js_id": "sidamo-kralliklari",
+    "eslesen_tum_ids": [
+      "sidamo-kralliklari"
+    ],
+    "ad": "Sidamo Krallıkları",
+    "f": "1281-01-01",
+    "t": "1897-01-01",
+    "baskent": "çeşitli merkezler",
+    "bolge": "dogu-afrika",
+    "gerekce": "Bu kimlik devletler.js'te mevcuttur. Ancak, haritada boyama yapmak için kullanılan değer 'id' anahtarı ('sidamo-kralliklari') değil, 'harita:' alanı ('sidamo') değeridir. denetle.py'deki degismez4() kontrolü ise 'harita:' alanı yerine doğrudan 'id' anahtarını eşleştirmeye çalıştığı için bu kimliği künyesiz (bulunamadı) saymaktadır. Bu durum bir veri hatası değil, denetle.py'nin eşleştirme metodolojisindeki yapısal bir uyumsuzluktur.",
+    "kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+    "kaynak_cumlesi": "Güney Habeşistan'da birden fazla küçük Sidama krallığından oluşan gevşek topluluk; tek bir kuruluş tarihi yok, II. Menelik'in seferleriyle 1890'ların ortasında Habeşistan'a katıldı. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük."
+  }
+}
