@@ -143747,5 +143747,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4601",
+  "zaman": "2026-09-19 05:21",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 1909-0209",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-DORT Gorevin (bekcini KUNYE-DORT adiyla kur: Bash run_in_background, py arac/tahta_bekci.py --kim \"KUNYE-DORT\" --cik). KRONO-2S-3 raporu (denetim/KRONO-2S-3-0919.md, kunye onerileri bolumu) dort kunye duzeltmesi oneriyor: sadi f -> 1541 · mutahharten f -> 1378 · massina t -> 1862-05-16 · vaday t 1912 -> 1909 (Iriba/Ennedi sahibi bulunamadi). Her birini CLAUDE.md 3.5 uc sinifla SINIFLANDIR (devlet oldu / ayni polity suruyor / ardil yapi), kaynagi kendin oku (TDV birincil; kunyenin f/t gunu kaynak degildir; kaynak yil diyorsa yil), data/devletler.js'te uygula ve kimligi kullanan yerlesim donemlerinin pencereye sigdigini denetle.py ile olc (4c/4d). Yazmadan once tahtaya 'devletler.js'e yaziyorum'. Commit DENEME (izin reddi) — teslim mesajinda degisen dosyalari say, ben commitlerim. Teslim tek tahta mesaji.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
