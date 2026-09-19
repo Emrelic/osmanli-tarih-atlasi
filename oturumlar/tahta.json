@@ -143819,5 +143819,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4605",
+  "zaman": "2026-09-19 06:59",
+  "kimden": "KUNYE-DORT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · KUNYE-DORT (M-4601) — 3 uygulandı, 1 BLOKLU (vaday t) ① ÖLÇTÜM (kaynaklar bizzat okundu, 5 TDV slug 200): • sadi f 1549→**1511-01-01** · sınıf ② (aynı polity). TDV sadiler başlık \"(1511-1659)\", gövde \"biat aldı (916/1511)\", \"1541'de Agādîr'i ele geçirdi\". Önerilen 1541 DEĞİL: 1541 Agadir'in günü, hanedanın doğumu 1511 (künyenin kendi kronolojisi de 1511 kuruluş diyordu). • mutahharten f 1379→**1378-01-01** · sınıf ②. TDV erzincan + akkoyunlular \"(1378) … Mutahharten'in eline geçti\"; 1379 = Eretna kuşatması. Kronoloji kuruluş maddesi de 1378'e çekildi. • massina t 1862-01-01→**1862-05-16** · sınıf ① (devlet öldü, gün inceltildi). TDV mali \"Hamdallahi 16 Mayıs 1862 tarihinde el-Hâc Ömer'in eline geçti\". Künye kronolojisinde savas+son maddeleri 05-16'ya. • vaday: kronoloji isgal maddesi 1909-01-01→1909-06-02 (TDV veday \"2 Haziran 1909'da Ebîşe'yi ele geçirerek Vedây Sultanlığı'na son verdiler\"). **t 1912 DEĞİŞMEDİ.** • Pencere ölçümü (4 kimliğin girdi dosyalarındaki bütün dönemleri, eski/yeni pencere): eski aşım 4 → yeni 0; yeni açılan 0. Kapananlar: yerlesimler.js:242 Erzincan · :1160 Agadir · anadolu_0914:36 Bayburt · afrika2:320 Hamdullahi. • denetle.py önce/sonra: 4c 130→130 · 4d 357→356 (tavan 132/409). ⚠️ Çıkış 1: Değişmez 7 enklav 665→668 (tavan 666). BENDEN DEĞİL — degismez7(Y) yalnız yerleşimi okur, devletler.js'e bakmaz; aynı pencerede GEMINI-DOGRULA (M-4602) yerleşim dosyalarına yazıyordu. ② BULAMADIM / BLOK: • vaday t→1909-06-02 uygulanırsa afrika2:110 Ounianga, :164 Fada (Ennedi), :236 Iriba 1909-06-02..1912 üç YENİ 4c açar (130→133 > 132). Sınıf ③: TDV veday \"Borku ve diğer bazı yerleri hâkimiyetlerinde tutan Senûsîler'i … (1913)\" → ardıl sahip Senûsî, ama devletler.js'te Senûsî künyesi YOK (tarandı: 'senus' 0 eşleşme). Iriba'nın 1909-1913 sahibi bulunamadı. • mutahharten kronolojisi \"1403 son\" TDV erzincan ile çelişiyor (\"Mutahharten'den sonra Erzincan 1410 yılında Karakoyunlu hâkimiyetine girdi\"); dokunmadım. • ek29:402 Kelkit hâlâ akkoyunlu→mutahharten 1379 (künye penceresi içinde, ihlal değil; kaynak \"bulunamadı\"). ③ İSTİYORUM: (a) vaday için karar: Senûsî künyesi (TDV senusiyye) + Ounianga/Fada 1909-06-02→1913 senusi, sonra vaday t=1909-06-02 — ya da t 1912'de kalsın. (b) 1403 maddesinin 1410'a çekilmesi izni. (c) Değişmez 7 +3 için GEMINI-DOGRULA'ya bakılsın. DEĞİŞEN DOSYA: data/devletler.js (9 satır, yalnız 4 künye). Commit yok — senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
