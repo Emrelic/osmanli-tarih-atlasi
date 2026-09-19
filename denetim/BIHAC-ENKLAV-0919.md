@@ -55,5 +55,29 @@ Ters yön kuralı gereği iki uç da ölçüldü; ikisi de NOKTASIZLIK kaynaklı
 - **Una batısı:** Ziştovi ile Avusturya'ya geçen Cetin/Drežnik noktasız → Bihaç peteğinde kalıyor.
 Üçü için de koordinat + kaynaklı yeni nokta paketi gerekir (§6: önce yoğunluk).
 
-## Değişen dosya
+## Değişen dosya (1. tur)
 Yalnız bu rapor. Veri dosyasına dokunulmadı.
+
+## 5. İkinci tur — §4'ün kaynaklı nokta paketi (1.MURAT sevki)
+Yama: `denetim/YAMA-BIHAC-NOKTA-0919.json` · uygulandı: `data/yerlesimler_ek29.js` (+5 nokta),
+YENİ `data/olaylar_p0069.js` (`window.OLAYLAR_P0069`, 9 madde, index.html'e bağlı DEĞİL).
+
+| Nokta | Kalem | Osmanlı | Kaynak |
+|---|---|---|---|
+| Ostrovica (Kulen Vakuf) | a | 1523 → 1908 (isg 1878-09-18) | USK Kültür Mirası Enstitüsü · HE |
+| Udbina | b | 1527-05 (ay) → 1689 | HE udbina · TDV kirka |
+| Gospić | b | 1527 → 1689 | HE gospic |
+| Cetin (Cetingrad) | c | 1636–38 · 1670 → 1791-08-04 (isg 1790) | HE cetingrad · Korić 2016 · TDV zistovi |
+| Drežnik (Drežnik Grad) | c | 1592 → 1791-08-04 (isg 1788) | HE dreznik-grad · Korić 2016 |
+
+1804-02-14 ızgarası (düz Voronoi): Lika (lon 15,5–15,9 · lat 44,3–44,6) ve Una batısı
+(Cetin/Drežnik) artık Avusturya; Bihaç–Banaluka bağı korunuyor; Knin'in Bosna'ya taşan
+payı 41 → 30 hücre.
+
+`denetle.py` farkı (yalnız bu paket): Değişmez 1 3916→3921, sahipsiz 299→299 · Değişmez 2
+579→587, **0 açık** · 2s açık 13→13 · 2i açık 1→1 · Değişmez 7 **667→667**.
+
+Açık kalanlar: (a)'nın güney yarısı (Grahovo/Drvar/Petrovac) — Osmanlı dönemi için kaynak
+**bulunamadı** (HE maddeleri sessiz, TDV'de madde yok) · Drežnik HE 1788 ↔ Korić 1790
+çelişkisi · modellenmeyen kısa aralıklar (Drežnik 1578/1683/1697–99, Cetin 1809/1813) ·
+1809–1813 Fransız İlirya dönemi atlasın bu kesiminde hiç yok.

@@ -1,0 +1,49 @@
+{
+  "yama": "YAMA-BIHAC-NOKTA-0919",
+  "isci": "BIHAC-ENKLAV-0069",
+  "tarih": "2026-09-19",
+  "sevk": "1.MURAT send_message (M-4645 devamı): BIHAC-ENKLAV-0919.md §4 yan bulguları (a)(b)(c) kaynaklı nokta paketi",
+  "durum": "UYGULANDI — diskte, commitsiz (data/ dosyalarını 1.MURAT commitler)",
+  "dosyalar": {
+    "data/yerlesimler_ek29.js": "5 yeni nokta dosya sonuna eklendi (window.YERLESIMLER_EK29, girdi.py GIRDI_DOSYALARI içinde — yeni dosya AÇILMADI)",
+    "data/olaylar_p0069.js": "YENİ dosya · window.OLAYLAR_P0069 · 9 kronoloji maddesi · index.html satırı BAĞLI DEĞİL (koordinatör ekler); denetle.py glob ile okur"
+  },
+  "noktalar": [
+    {"ad": "Ostrovica (Stara Ostrovica, Kulen Vakuf)", "kalem": "a", "lat": 44.558, "lon": 16.081,
+     "koordinat": "OSM way 360909768 (historic/castle)",
+     "donemler": "macaristan 1281→1523 · OSMANLI 1523→1908-10-05 (isg avusturya 1878-09-18→) · avusturya 1908→1918-11-11 · sirbistan-kralligi →1918-12-01 · yugoslavya",
+     "kaynak": "Zavod za zaštitu kulturnog naslijeđa USK 'Ostrovica – stari grad' (1523 · 1523-1878 garnizon) · HE kulen-vakuf · 1878 günü komşudan: Bihaç · TDV bihac"},
+    {"ad": "Udbina", "kalem": "b", "lat": 44.532, "lon": 15.767,
+     "koordinat": "OSM relation 15834963",
+     "donemler": "macaristan →1527-01-01 · avusturya →1527-05-01 · OSMANLI 1527-05-01 (AY) →1689-01-01 (YIL) · avusturya →1918-11-11 · yugoslavya",
+     "kaynak": "HE udbina ('potkraj svibnja' 1527 · 1689 Herberstein) · TDV kirka"},
+    {"ad": "Gospić", "kalem": "b", "lat": 44.546, "lon": 15.375,
+     "koordinat": "OSM relation 15770095",
+     "donemler": "macaristan →1527-01-01 · OSMANLI 1527 (YIL) →1689 (YIL) · avusturya →1918-11-11 · yugoslavya",
+     "kaynak": "HE gospic"},
+    {"ad": "Cetin (Cetingrad)", "kalem": "c", "lat": 45.138, "lon": 15.732,
+     "koordinat": "OSM way 1228318623 (Utvrda Cetin)",
+     "donemler": "macaristan →1527-01-01 · avusturya →1636 · OSMANLI 1636→1638 · avusturya →1670 · OSMANLI 1670→1791-08-04 (isg avusturya 1790→) · avusturya →1918-11-11 · yugoslavya",
+     "kaynak": "HE cetingrad · Korić 2016 PoF 65 n.102, n.118 (Ziştovi 4. madde) · TDV zistovi-antlasmasi"},
+    {"ad": "Drežnik (Drežnik Grad)", "kalem": "c", "lat": 44.943, "lon": 15.669,
+     "koordinat": "OSM way 122070312 (Stari grad Drežnik)",
+     "donemler": "macaristan →1527-01-01 · avusturya →1592 · OSMANLI 1592→1791-08-04 (isg avusturya 1788→) · avusturya →1918-11-11 · yugoslavya",
+     "kaynak": "HE dreznik-grad · Korić 2016 PoF 65 n.104, n.118"}
+  ],
+  "kronoloji": ["1523-01-01 Ostrovica fethi", "1527-05-01 Udbina/Krbava fethi", "1592-01-01 Drežnik", "1636-01-01 Cetin", "1638-01-01 Cetin kaybı", "1670-01-01 Cetin yeniden", "1689-01-01 Lika kaybı", "1788-01-01 Drežnik kaybı", "1790-01-01 Cetin kaybı"],
+  "mukerrer_taramasi": "ad (NFKD+İ/ı normalleştirilmiş) + koordinat: 5 noktanın hiçbirinde 3 km içinde nokta yok (en yakın Bihaç 21,2 km); ad eşleşmesi yok (Cetinje/Solikamsk yanlış pozitif)",
+  "denetle_farki": {
+    "Degismez_1": "3916→3921 yerleşim, sahipsiz 299→299 (beklenen 324)",
+    "Degismez_2": "579→587 kırılma, 0 açık",
+    "Degismez_2s": "1416→1418, açık 13→13 (tavan 121)",
+    "Degismez_2i": "123→125, açık 1→1 (1878-09-18 Bihaç kırılmasına Ostrovica katıldı, aynı gün)",
+    "Degismez_7": "667→667",
+    "Degismez_5c": "2163→2168 (bilgi satırı)"
+  },
+  "bilinen_eksikler": [
+    "(a) kısmen: Bosansko Grahovo/Drvar/Bosanski Petrovac (lat 44,0-44,3 · lon 16,2-16,6) Knin peteğinde kalıyor — HE maddeleri Osmanlı dönemi vermiyor, TDV'de madde yok: bulunamadı",
+    "Drežnik: HE 1788 ↔ Korić 2016 (Muvekkit) 1790 çelişkisi — HE esas alındı",
+    "Modellenmedi (gün/ay yok, kaynak 'kısa' diyor): Drežnik 1578 geçici Osmanlı, 1683 ve 1697-99 Habsburg aralıkları · Cetin 1809 ve 1813 Osmanlı baskınları",
+    "1809-1813 Fransız İlirya dönemi Lika/Kordun'da modellenmedi — komşu Karlovac/Knin/Sisak da modellemiyor (atlas geneli ayrı kalem)"
+  ]
+}
