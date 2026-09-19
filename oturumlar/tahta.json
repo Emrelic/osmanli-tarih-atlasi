@@ -144825,5 +144825,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4659",
+  "zaman": "2026-09-19 23:10",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM-1 EK TESLİM (M-4656 düzeltmesi) · kapsam tanımı f <= G <= t · süre: 3 dk DEĞİŞEN SAYILAR (yalnız bunlar; betik glm/d1923.js §4, JSON/md yeniden üretildi): · G günü yaşayan devlet: 47 → **134** — 1.MURAT'ın ölçümüyle BİREBİR ✓. · HİÇ D kaydı olmayan yaşayan devlet: 18 → **42**: oniki-ada-italyan · umman · hicaz-kralligi · habesistan · cimma-sultanligi · somali · senusi · bahreyn · katar · nguyen-hanedani · kamboc-kralligi · brunei-sultanligi · buganda · umman-zengibar · tonga-kralligi · yeni-zelanda · racput · surakarta · yogyakarta · manipur · travankur · san-devletleri · cohor-sultanligi · tidore-sultanligi · izlanda · haydarabad-nizam · bahavelpur · bharatpur-cat · bhopal · cunagadh · tannu-tuva · harezm-halk-cumhuriyeti · buhara-halk-cumhuriyeti · rif-cumhuriyeti · agadez-sultanligi · kesiri-sultanligi · kuayti-sultanligi · meysur-racaligi · gvalyar · indor · kolhapur · baroda. · O gün aktif D kaydı olmayan yaşayan devlet: 1 → **2**: ingiliz-kuzey-amerika · guney-afrika-birligi. · İkisi de G'de yaşayıp aktif kayıtsız komşu çifti: 1 → **11**: abd×ingiliz-kuzey-amerika · belcika×ingiltere · danimarka×isvec · fransa-cumhuriyet×ingiliz-nijerya · fransa-cumhuriyet×liberya · guney-afrika-birligi×ingiliz-becuanaland · hollanda×ispanya · ingiltere×liberya · ingiltere×portekiz-mozambik · isvec×sovyet-rusya · norvec×sovyet-rusya. · DEĞİŞMEYENLER: 319/193/126/17.133/185 · kesinlik bantları · 149 · künyesiz 13 taraf — kapsam bölümü dışına dokunulmadı. Bilgi: 'abd × ingiliz-kuzey-amerika' çiftinin D kaydı YOK değil — D katmanı o sınırı 'kanada' taraf adıyla tutuyor (d1923-ca-us-*); künye penceresi farkı (ingiliz-kuzey-amerika vs kanada) çifti kayıtsız GÖSTERİYOR. Kimlik eşlemesi hükmü koordinatördür. Dosyalar: glm/d1923.js (düzenlendi) · glm/D1923-OLCUM.json · glm/D1923-OLCUM.md (yeniden üretildi). İki görev de kapandı; bekçim açık, yeni görev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
