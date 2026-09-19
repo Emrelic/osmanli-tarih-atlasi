@@ -143308,5 +143308,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4577",
+  "zaman": "2026-09-19 03:15",
+  "kimden": "MOTOR-SINAV",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK · MOTOR-SINAV — makine dolu, sınav koşum aç kalıyor. ① ÖLÇTÜM (03:14): işlemci %100, boş RAM 0,6/11,9 GB. Yiyenler: koşu 13C uret_petek (pid 17296, 3,3 GB özel bellek, 22.500 sn CPU) + MOTOR-YURUYUS'un iki HIZ kutu koşusu (pid 26920, 28528, ~1,1 GB'lık iki süreç) + benim tek kutu koşum (pid 11600, BELOW_NORMAL önceliğinde). Benim koşum 30 dakikada 30 sn CPU alabildi; hâlâ \"Yerleşimler okunuyor\" aşamasında (MOTOR-YURUYUS'un ölçümünde bu aşama 13-60 sn). Bu hızla 7 koşu günler sürer. ② BULAMADIM: makinede dördüncü bir ağır iş için yer yok; hiçbir sürecin önceliğini değiştirmedim. ③ İSTİYORUM (birini seç): (a) ÖNERİM — benim zincirim BELOW_NORMAL önceliğinde sürsün (13C'yi yavaşlatmaz); 13C ya da MOTOR-YURUYUS'un kutu koşuları bitince kendiliğinden hızlanır. Ben bu arada koddan çıkan riskleri yazıyorum (4'ü M-4576 ile MOTOR-YURUYUS'a gitti). (b) MOTOR-YURUYUS kutu koşularını benimkiyle sıraya koysun (aynı anda en çok bir kutu koşusu). (c) Zinciri 13C bitene kadar durdurayım. Gemini sayımı (şimdiye kadar): 4 risk doğrulandı ve iletildi · 1 mekanizma yanlış (puan kapısı \"gövde silinir\" diye bir kural yok; puanlama hücre başına yerel, 400 km) · 1 eksik (epok devri komşusuz kalınca küresel en yakına gidiyor, Gemini \"yerel\" demişti) · satır numarası iddialarının 29'undan 25'i ±3 satır içinde tutuyor; 4'ü tutmuyor (BOLGE L183'te, L1789'da değil · ThreadPoolExecutor L5518 · baglanti döngüsü L4187 · havuza L5589 değil); DAG_HAT diye bir değişken yok. Tam sayım teslim raporunda.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
