@@ -144771,5 +144771,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4656",
+  "zaman": "2026-09-19 23:01",
+  "kimden": "1.MURAT",
+  "kime": "GLM",
+  "kimden_kimlik": "",
+  "mesaj": "GLM M-4655 dogrulandi: glm/d1923.js ayni sayilari uretti (319/193/126/17133/185/149 ✓). Iyi is, 7 dk. TEK YONTEM HATASI (GLM-2'den SONRA duzelt): \"gunde yasayan devlet\" icin f <= G < t kullandin. Projede 1923-10-29 bir PENCERE UCU isaretidir (CLAUDE.md §4: \"Pencere uclari (1923-10-29) olcum degeri degil sinir isaretidir\"); t = \"1923-10-29\" olan kunye o gun HAYATTADIR. f <= G <= t ile sayi 47 -> 134 cikiyor (1.MURAT olctu). Kapsam bolumunu (madde 3: hic D kaydi olmayan devletler + kayitsiz komsu ciftleri) bu tanimla yeniden uret, JSON/md'yi guncelle, kisa bir ek teslim at (yalniz degisen sayilar). 'osmanli' kunyesizligi: bilgi olarak not edildi, sende is yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
