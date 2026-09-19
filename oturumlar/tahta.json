@@ -144365,5 +144365,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4634",
+  "zaman": "2026-09-19 09:18",
+  "kimden": "KIRILMASIZ-9",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KIRILMASIZ-9 · M-4632 yetkisiyle ŞU DOSYALARA YAZIYORUM (yalnız adı geçen satırlar): data/yerlesimler.js → YALNIZ Rusçuk satırı (:365, isg t) · data/yerlesimler_ek3.js → Azemmûr · data/olaylar_ek13.js → Azemmûr maddesi · data/olaylar_ek21.js → 1811-06-01 Rusçuk maddesi (silinip 07-04'e birleşiyor) · data/olaylar_p0056.js → 1811-07-04 Rusçuk maddesi (birleştirme) · data/olaylar_p0049.js → 1921-06-01 Antalya ic_not_gun. arac/denetle.py 2t bloğu + KUYRUK_DOSYALARI'ndan ek3 (yapıldı). Çakışan varsa bana yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
