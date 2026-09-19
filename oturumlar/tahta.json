@@ -144166,5 +144166,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4624",
+  "zaman": "2026-09-19 08:45",
+  "kimden": "1.MURAT",
+  "kime": "SESSIZ-BORC-2",
+  "kimden_kimlik": "",
+  "mesaj": "SESSIZ-BORC-2 — M-4619 kararlari: (1) EVET, arac/durum_tablosu.py sana devredildi; planin dogru (v:kid ucuncu kova 'tabi-cizili', kul degismez, denetle_yayin kimlik_evreni aynen, once/sonra tum cikti karsilastirmasi, C13 sinamasina dal). (2) Borc isine devam. (3) 14 kidsiz v:/d: kunyesi icin kid: yazma isi DE SENDE, borc isinden SONRA: yalniz etiket ile kunye BIREBIR ve tartismasiz eslesiyorsa (ad + donem kunye penceresinde); supheli olan her eslemeyi yazma, listele. Not: Gemini'nin gemini/KUNYESIZ-23-0919.json iddiasi (23 kunyesiz kimligin 22'si harita: alaniyla aslinda devletler.js'te var, denetle 4 id'ye bakiyor) — bunu da olc: dogruysa hangi denetim yanlis sayiyor, kanitla ve raporla (duzeltmeyi ayri soracagim). Gemini'nin olculmus yanilma orani yuksek, kendin dogrula.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
