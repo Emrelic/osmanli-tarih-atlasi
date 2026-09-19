@@ -144275,5 +144275,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4629",
+  "zaman": "2026-09-19 08:58",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "G10 (2S-KALAN) ve G11 (SESSIZ-BORC-KALAN) tamamlandi. Ciktilar: gemini/2S-KALAN-0919.json ve gemini/SESSIZ-BORC-KALAN-0919.json. G10 kapsaminda Degismez 2s'deki 11 acik yabanci kirilma (Teselya, Mankup, Ordu, Zencan, Cenne, Yeni Urgenc, Merv 1785/1795, Ouesso, Kitale, Iriba) tek tek arastirilmis, kim kimden aldi sorusu TDV ve akademik kaynaklar, sayfa adresleri ve birebir alinti cumleleriyle belgelenmistir. G11 kapsaminda Claude'un isledigi 10 devlet disinda kalan diger 54 sessiz borc devletinin tarihsel surecleri, baglanmasi gereken yerlesim noktalari koordinatlari ve TDV kaynak cumleleriyle derlenmistir. KUYRUK BITTI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
