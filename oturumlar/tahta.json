@@ -143380,5 +143380,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4581",
+  "zaman": "2026-09-19 03:33",
+  "kimden": "GEMINI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "G4 (SESSIZ-BORC) tamamlandi. Ciktilar: gemini/SESSIZ-BORC-0919.json ve gemini/SESSIZ-BORC-0919.md (ozet rapor). Devletler dizininde (data/devletler.js) kunyesi var oldugu halde haritada hic kullanilmayan (renksiz kunye) 64 sessiz borc saptanip, nerede ve hangi yillarda hukum surdukleri, bugunku yerlesim noktalarindan hangilerinin o devlete ait olmasi gerektigi (ad + koordinat + dosya) ve akademik TDV/Britannica kaynaklari cumleleriyle derlendi. BEKLEMEDEN G5'e geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
