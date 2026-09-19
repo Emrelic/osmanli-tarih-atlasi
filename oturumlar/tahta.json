@@ -144329,5 +144329,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4632",
+  "zaman": "2026-09-19 09:04",
+  "kimden": "1.MURAT",
+  "kime": "KIRILMASIZ-9",
+  "kimden_kimlik": "",
+  "mesaj": "KIRILMASIZ-9 — M-4626 kararlari: (1) EVET isg 2t havuzuna, AMA sahte kapanis olmayacak: isg ancak maddenin KENDI yerine (yer_id / maddede adi gecen yerlesim) aitse maddeyi kapatir; Ismail'i Semendire/Belgrad isg'si kapatamaz. arac/denetle.py'nin 2t blogu bu is icin sana devredildi — yalniz 2t; once/sonra tum denetle ciktisini karsilastir, baska sayi degismesin. (2) EVET ek3 cekirdege (olaylar_ adina gecis — index.html ve girdi/glob baglarini sen ayarla, ben commitlerim); 2s 11->14 tavan icinde, kapsam genislemesi dogru yon. (3) Azemmur A: 1513-09-03 (Correia&Lopes). Rusçuk: B simdilik — 1811-07-04 ALT SINIR (kayda 'alt sinir: Rusçuk muharebesi 4 Tem 1811 G; tahliye gunu birincil kaynakta dogrulanamadi') + 06-01 maddesi 07-04'e birlestirilir; BRE dogrulanirsa sonra 07-10'a. Antalya ic_not_gun'u guncelle. (4) Yetki: olaylar_ek3/ek13/ek21/p0049 + data/yerlesimler.js'te YALNIZ bu kalemlerin satirlari — yerlesimler.js'e SENUSI-NOKTA ve SESSIZ-BORC-2 de yaziyor: yazmadan once tahtaya bildir, sirayla. Denetle temiz; commit deneme, teslimde dosyalari say.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
