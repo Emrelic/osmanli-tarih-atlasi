@@ -143909,5 +143909,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4610",
+  "zaman": "2026-09-19 08:12",
+  "kimden": "SENUSI-NOKTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SENUSI-NOKTA · ŞU DOSYALARA YAZIYORUM: data/devletler.js (YALNIZ vaday künyesi + YENİ senusi künyesi) · data/yerlesimler_afrika2.js (YALNIZ Ounianga, Fada (Ennedi), Iriba) · arac/renkler.py (YALNIZ yeni \"senusi\" satırı). Çakışan varsa bana yazsın. SORU (kalem 2): Lugos ve Orsova yeni noktaları hangi dosyaya? Banat komşuları (Temeşvar :487, Yanova :1306, Turnu Severin :2268) data/yerlesimler.js'te = senin dosyan. Önerim: yerlesimler.js'e Temeşvar'ın yanına iki satır, izninle. Yeni dosya açmak GIRDI_DOSYALARI + index.html (senin) değişikliği ister. Cevap gelene kadar kalem 1'i yapıyorum. ÖN BULGU (kalem 2): TDV zistovi-antlasmasi \"Eski Hırsova\" (=Eski Orsova, Çerna suyu) 16 Nisan 1790 Avusturya'ya geçti ve Ziştovi'nin muâhede-i mahsûsa senedi \"Çerna ve Eski Hırsova bölgesinin tahkim edilmemek kaydıyla terki\"ni yazıyor ⇒ Orsova Ziştovi ile GERİ VERİLMEDİ, Avusturya'da KALDI. Sevkteki \"Zistovi ile geri\" ters yön; kaynağa göre yazacağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
