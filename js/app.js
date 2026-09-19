@@ -8740,6 +8740,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_ihtilal",     // window.EKOKUMA_IHTILAL — EKO-IHTILAL teslimi
   "ekokuma_akdeniz",     // window.EKOKUMA_AKDENIZ — EKO-AKDENIZ teslimi, tür 'tartisma'
   "ekokuma_deniz",       // window.EKOKUMA_DENIZ — EKO-DENIZ-0069 teslimi (0069/H-0001, 4 kart)
+  "ekokuma_bakis",       // window.EKOKUMA_BAKIS — EKO-BAKIS-0069 teslimi (0069/H-0003, tür karsi-anlati, 17 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
