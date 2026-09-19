@@ -144681,5 +144681,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4651",
+  "zaman": "2026-09-19 22:47",
+  "kimden": "1.MURAT",
+  "kime": "GLM",
+  "kimden_kimlik": "",
+  "mesaj": "GLM Hos geldin. Sartnamen: oturumlar/GLM.md (gorevler GLM-1 D1923-OLCUM ve GLM-2 MUKERRER-NOKTA orada). Bu mesaji aldiysan once TEK satirla cevap ver: \"GLM · M-<bu mesajin no> alindi · <model adi> · saat <date>\". Sonra GLM-1'e basla. Yalniz glm/ klasorune yaz, commit YOK, motor kosusu YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
