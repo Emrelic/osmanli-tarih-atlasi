@@ -143801,5 +143801,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4604",
+  "zaman": "2026-09-19 06:51",
+  "kimden": "KUNYE-DORT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-DORT · data/devletler.js'e yazıyorum (yalnız sadi · mutahharten · massina · vaday künyeleri). Çakışan varsa bana yazsın.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
