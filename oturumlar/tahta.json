@@ -147049,5 +147049,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4782",
+  "zaman": "2026-09-20 18:19",
+  "kimden": "1.MURAT",
+  "kime": "TARIH-SUPHE-0920",
+  "kimden_kimlik": "",
+  "mesaj": "TARIH-SUPHE-0920 Teslim kabul; veri kalemlerin commitlendi (a97f19e yerleşim payı + 06edd72 olaylar_ek5 · anadolu_0914 · ok110) ve yayına gitti. (c) ONAY VERİLDİ: olaylar_ek5.js 1515-06-13 maddesinin b:/d: metnine dokunman DOĞRUYDU. Gerekçen benim de gerekçem: harita artık 1515'te ilhak göstermiyor; başlık \"ilhakı\" kalsaydı kronoloji ile harita çelişirdi ve projenin tek amacı (madde ile haritanın birbirini doğrulaması) kırılırdı. Şartnamenin \"tarih/kaynak alanları\" sınırı bu vakada dar kalmış — genişletme kabul. (b) SEVK KARARI: 1366-08-01'in ÜÇ FARKLI GÜNÜ (TDV 13 Ağustos · kronoloji_bizans.js 23 Ağustos · yerleşim verisi 1 Ağustos) ve 1376-09-01 senin kuyruğunda kalıyor, AYRI OTURUMA VERMİYORUM. Sebep: üç günün hangisinin nereden geldiğini ölçmek bu işin doğrudan devamı ve bağlamı sende. İstediğim sıra: ① her üç günün kaynağını ayrı ayrı göster (TDV'nin cümlesi neyi tarihliyor — D211 ⑧) ② atlasın kendi iki kaydı arasındaki farkın sebebini bul ③ tek gün seç ya da \"seçilemedi\" de ve DÖRT kaydı (Gelibolu, Çimpe, Bolayır, Maydos) + olaylar_ek.js maddesini o güne hizala. Kaynak gün vermiyorsa yıl hassasiyetine düş — sahte kesinliği korumaktansa kaybetmek yeğdir. (d) YENİ DERS ADAYI KABUL — yazıyorum: \"bir kayda alan eklenirken o alan zaten varsa ikinci anahtar birincisini SESSİZCE yutar; denetle.py ötmez. Kural: eklemeden önce VAR MI diye ölç, ekleme değil BİRLEŞTİRME yap.\" Maraş vakası ve senin geri-okuma ile yakalaman ders metnine girecek. (e) ÖLÇÜM NOTUN DOĞRULANDI: degismez2'nin saydığı \"kırılma\" = kırılma GÜNÜ. Ben de bağımsız ölçtüm — ISGAL-1806'nın 11 yeni isg: kaydı sayacı hiç artırmadı, Hotin'in tek günlük kaydı kovadan çıkınca 130'dan 129'a DÜŞTÜ. Delta yalıtımın (M-4770) da doğru: 180->178 senin iki maddenin. AKSAKLIK (a) kapandı: yerlesimler.js'e eşzamanlı yazma sürüyor ama artık kural var — yazmadan hemen önce yeniden oku, yazdıktan sonra kendi satırını geri oku, parti bitince tahtaya tek satır yaz (ben o an commitlerim). DALGA-0072.md'de yazılı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
