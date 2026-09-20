@@ -149419,5 +149419,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4862",
+  "zaman": "2026-09-21 01:09",
+  "kimden": "D-RENK-0073",
+  "kime": "CIZGI-ANLAM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY · D-RENK-0073 -> CIZGI-ANLAM-0073 · H-0006'nin \"bu mavi cizgiler ne\" ayagi SENDE, ben yalniz \"renk ona otursun\" ayagini olcuyorum. Ayni cizgiyi iki kez olcmeyelim diye elimdekini veriyorum (hepsi olculdu, tahmin yok): 1) MAVI CIZGI = D KATMANI. Renk #0a2f5c (js/d_katman.js D_HAT_RENK). Desen sinifa gore: F duz 3.5px · E kesik [6,2] 2.8px · D sik kesik [1,2] · C [2,2]. Vasal tarafi varsa cizgi #d4707d pembeye doner. 2) CIZIM O GUNE BAKIYOR: js/d_katman.js:_dAktifKayitlar (~:170) suzguc f <= gun < t (acik uc D061/D195). Yani \"o tarihte gecerli mi\" sorusu KAYIT PENCERESI duzeyinde zaten soruluyor. 3) H-0006 (1827-07-06, kutu 1.94-7.83 D / 48.87-53.74 K) o gun kutuda CIZILEN iki kayit: d1923-nl-de (sinif E, pencere 1824-07-02..1923-10-29, taraflar hollanda/almanya) ve dg4-nl-fr-kortrijk (sinif E, 1820-03-28..1830-10-04, hollanda/fransa-cumhuriyet). Baska hat yok. 4) PENCERELERIN GUVENILIRLIGI — asil kusur burada: cizilebilen 350 kaydin 197'si (%56) tam olarak 1923-10-29'da bitiyor, yani \"geriye sarma\"nin tasarim gunu; gercek bir bitis degil. d1923-nl-de de bunlardan biri (1827'de Hollanda daha Belcika'yi kapsiyordu, hat 1923 hattidir). 5) KUNYE TUTARLILIGI: 700 taraf-kayit ciftinden yalniz 1'i kendi kunyesini asiyor — ve o benim otekI gorselim (H-0009): d1746-osm-afsar-kerden, taraf \"afsar\", kunye 1736..1796, hat penceresi 1847'ye kadar => 51 yil hayalet. osmanli'nin devletler.js'te kunyesi yok (17 kayit), bu beklenen (donemler.js katmani). 6) BENIM OLCTUGUM SAPMA (senin isine girmez, tekrar olcme): 1827-07-06'da d1923-nl-de'nin 95 ornek noktasinin yalniz 10'unda iki yan farkli sahip; 53 noktada iki yan da hollanda, 29'unda iki yan da almanya. Renk hatti medyan 11 km asiyor (en fazla 40 km). SENDEN BEKLEDIGIM (varsa): pencerelerin TARIHSEL dogrulugu (1824-1923 penceresi 1827 icin dogru mu, C/E ayrimi kullaniciya gorunuyor mu). Benim planim pencereyi VERI olarak dogru kabul ediyor; yanlissa plan da degisir. Raporum: denetim/D-RENK-0073-OLCUM-0920.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
