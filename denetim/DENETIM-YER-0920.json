@@ -1,0 +1,522 @@
+{
+ "gorev": "DENETIM-YER-0920 · 2s yer/taraf şartı",
+ "once": {
+  "kirilma": 1418,
+  "acik_ham": 363,
+  "kapsam_ici": 13,
+  "kapsam_disi": 350
+ },
+ "sonra": {
+  "kirilma": 1418,
+  "acik_ham": 952,
+  "kapsam_ici": 350,
+  "kapsam_disi": 602,
+  "yil_temsili_borc": 149,
+  "gun_hassas_acik": 201
+ },
+ "yeni_acilan_tarih": 589,
+ "sinav_1_sahte_kapanis": {
+  "vaka": "Mankup 1349",
+  "tarihler": [
+   "1349-01-01"
+  ],
+  "once_acik": [],
+  "sonra_acik": [
+   "1349-01-01"
+  ],
+  "gecti": true
+ },
+ "sinav_2_dogru_kapanis": {
+  "birim": "yerleşim (tarih değil — bkz. betikteki not)",
+  "ornek": 616,
+  "en_az_beklenen": 10,
+  "bozulan": 0,
+  "bozulan_ornek": [],
+  "tarihi_acilan_ama_kendisi_kapali": 223,
+  "tarihi_acilan_ornek": [
+   {
+    "tarih": "1402-07-28",
+    "yerlesim": "Ankara",
+    "madde": "Ankara Savaşı — Fetret Devri başladı",
+    "madde_t": "1402-07-28",
+    "yerlesim_susuyor_sayildi": false,
+    "tarih_acildi": true,
+    "tarihi_acan_baskalari": [
+     "Anadolu Hisarı",
+     "Ayasuluk (Selçuk)",
+     "Babadağı (Babadag)",
+     "Beykoz"
+    ]
+   },
+   {
+    "tarih": "1404-03-01",
+    "yerlesim": "Bursa",
+    "madde": "Emîr Süleyman Anadolu'ya geçti: Bursa ve Ankara onun eline geçti",
+    "madde_t": "1404-03-01",
+    "yerlesim_susuyor_sayildi": false,
+    "tarih_acildi": true,
+    "tarihi_acan_baskalari": [
+     "Akyazı",
+     "Anadolu Hisarı",
+     "Bergama",
+     "Beykoz"
+    ]
+   },
+   {
+    "tarih": "1411-02-17",
+    "yerlesim": "Edirne",
+    "madde": "Emîr Süleyman'ın ölümü — Musa Rumeli'ye hâkim",
+    "madde_t": "1411-02-17",
+    "yerlesim_susuyor_sayildi": false,
+    "tarih_acildi": true,
+    "tarihi_acan_baskalari": [
+     "Absu (Hypsu)",
+     "Adranos (Orhaneli)",
+     "Akhisar (Pamukova)",
+     "Akyazı"
+    ]
+   },
+   {
+    "tarih": "1413-07-05",
+    "yerlesim": "Sofya",
+    "madde": "Çamurlu Savaşı — birliğin yeniden kurulması",
+    "madde_t": "1413-07-05",
+    "yerlesim_susuyor_sayildi": false,
+    "tarih_acildi": true,
+    "tarihi_acan_baskalari": [
+     "Absu (Hypsu)",
+     "Adranos (Orhaneli)",
+     "Ahtapolu (Ahtopol)",
+     "Akhisar (Pamukova)"
+    ]
+   },
+   {
+    "tarih": "1329-06-01",
+    "yerlesim": "Gebze",
+    "madde": "Pelekanon (Maltepe) Savaşı ve Kocaeli'nin tamamının alınması",
+    "madde_t": "1329-06-01",
+    "yerlesim_susuyor_sayildi": false,
+    "tarih_acildi": true,
+    "tarihi_acan_baskalari": [
+     "Aydos Kalesi"
+    ]
+   }
+  ],
+  "gecti": true
+ },
+ "yeni_acilan_ilk_40": [
+  {
+   "tarih": "1300-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Alaşehir",
+    "Antalya",
+    "Elmalı",
+    "Emet (Eğrigöz)"
+   ],
+   "en_yakin_madde": "Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık",
+   "gun": 31
+  },
+  {
+   "tarih": "1304-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Baroda (Vadodara)"
+   ],
+   "en_yakin_madde": "Sakarya seferi: Leblebicihisar, Lefke, Mekece ve Geyve'nin alınması",
+   "gun": 31
+  },
+  {
+   "tarih": "1305-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Sultâniye"
+   ],
+   "en_yakin_madde": "Geyve Boğazı kalelerinin fethi: Karaçepüş, Karatigin ve Absu",
+   "gun": 31
+  },
+  {
+   "tarih": "1313-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Manisa"
+   ],
+   "en_yakin_madde": "Köse Mihal'in Müslüman olup Osmanlı'ya katılışı",
+   "gun": 31
+  },
+  {
+   "tarih": "1320-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Jitomir (Zhytomyr)"
+   ],
+   "en_yakin_madde": "Orhan Bey'in fiilî yönetimi devralması",
+   "gun": 31
+  },
+  {
+   "tarih": "1321-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Antalya",
+    "Elmalı",
+    "Finike",
+    "Kaş (Antiphellos)"
+   ],
+   "en_yakin_madde": "Mudanya limanının abluka altına alınışı",
+   "gun": 31
+  },
+  {
+   "tarih": "1324-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Gao",
+    "Kalyari (Cagliari)",
+    "Sasari (Sassari)"
+   ],
+   "en_yakin_madde": "Akyazı ve İmralı Adası'nın fethi",
+   "gun": 31
+  },
+  {
+   "tarih": "1325-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Ihuatzio",
+    "Moskova",
+    "Nijniy Novgorod",
+    "Pátzcuaro"
+   ],
+   "en_yakin_madde": "Konuralp'in Bolu yöresini fethi — Mudurnu, Konurapa ve Bolu",
+   "gun": 31
+  },
+  {
+   "tarih": "1327-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Karahisâr-ı Sâhib (Afyon)"
+   ],
+   "en_yakin_madde": "İlk Osmanlı akçesinin basılması",
+   "gun": 31
+  },
+  {
+   "tarih": "1329-06-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Aydos Kalesi"
+   ],
+   "en_yakin_madde": "Pelekanon (Maltepe) Savaşı ve Kocaeli'nin tamamının alınması",
+   "gun": 31
+  },
+  {
+   "tarih": "1337-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Elbistan",
+    "Göksun",
+    "Maraş",
+    "Tilimsan"
+   ],
+   "en_yakin_madde": "İzmit'in fethi",
+   "gun": 31
+  },
+  {
+   "tarih": "1338-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Darende",
+    "Gürün"
+   ],
+   "en_yakin_madde": "Malatya yeniden Memlük hâkimiyetine girdi — Eretnaoğulları idaresinin sonu",
+   "gun": 31
+  },
+  {
+   "tarih": "1345-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Drama",
+    "Gevgili (Gevgelija)",
+    "Karaferye (Veria)",
+    "Kılkış (Avrathisar)"
+   ],
+   "en_yakin_madde": "Karesi Beyliği'nin ilhakı: Balıkesir, Bergama, Biga, Edremit ve Erdek",
+   "gun": 31
+  },
+  {
+   "tarih": "1348-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Erzincan",
+    "Kelkit"
+   ],
+   "en_yakin_madde": "Abdülvâdîler (Zeyyânîler) Tilimsan'da Merînî hâkimiyetinden kurtuldu",
+   "gun": 31
+  },
+  {
+   "tarih": "1349-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Mankup",
+    "İnkirman (Kalamita)"
+   ],
+   "en_yakin_madde": "Mora Despotluğu'nun kuruluşu — Manuel Kantakuzenos Mezistre'de",
+   "gun": 31
+  },
+  {
+   "tarih": "1351-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Xinyang"
+   ],
+   "en_yakin_madde": "Bayram Hoca bağımsızlığını kazandı — Karakoyunlu Beyliği'nin doğuşu",
+   "gun": 31
+  },
+  {
+   "tarih": "1352-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Adana",
+    "Tarsus",
+    "Tilimsan"
+   ],
+   "en_yakin_madde": "Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu",
+   "gun": 31
+  },
+  {
+   "tarih": "1353-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Burûcird",
+    "Cibri (Güçlü)",
+    "Cizre",
+    "Luristan"
+   ],
+   "en_yakin_madde": "İbrâhim Şah'ın ölümüyle Diyarbekir Celâyirlilerin idaresine girdi",
+   "gun": 31
+  },
+  {
+   "tarih": "1354-03-02",
+   "tip": "kayip",
+   "yerlesim": [
+    "Bolayır",
+    "Maydos (Eceabat)"
+   ],
+   "en_yakin_madde": "Gelibolu'nun alınışı — Rumeli'de kalıcı köprübaşı",
+   "gun": 31
+  },
+  {
+   "tarih": "1356-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Leş (Alessio)"
+   ],
+   "en_yakin_madde": "Litvanya Büyük Dükü Algirdas (Olgerd) Bryansk'ı aldı",
+   "gun": 31
+  },
+  {
+   "tarih": "1357-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Erdekân",
+    "Erdistan",
+    "Gulpâygân",
+    "Isfahan"
+   ],
+   "en_yakin_madde": "Süleyman Paşa döneminde Trakya ilerleyişi: Malkara, İpsala ve Tekirdağ",
+   "gun": 31
+  },
+  {
+   "tarih": "1359-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Tilimsan"
+   ],
+   "en_yakin_madde": "Mar'aşî Seyyidleri Âmül'ü aldı — Mazenderan'da seyyid hâkimiyeti",
+   "gun": 31
+  },
+  {
+   "tarih": "1360-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Aşkale",
+    "Erzurum"
+   ],
+   "en_yakin_madde": "Edirne'nin yardım yollarının kesilmesi: Çorlu, Lüleburgaz, Babaeski ve Keşan kaleleri",
+   "gun": 31
+  },
+  {
+   "tarih": "1361-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Küfkaynapınarı (Azatlı)",
+    "Stérna"
+   ],
+   "en_yakin_madde": "Dimetoka'nın alınışı — Meriç vadisinin açılması",
+   "gun": 31
+  },
+  {
+   "tarih": "1362-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Nikarya (İkarya)"
+   ],
+   "en_yakin_madde": "Kiev Prensliği Litvanya egemenliğine geçti",
+   "gun": 31
+  },
+  {
+   "tarih": "1363-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Vinnitsa (Vinnytsia)"
+   ],
+   "en_yakin_madde": "Batı Trakya'ya iniş: Gümülcine'nin fethi",
+   "gun": 31
+  },
+  {
+   "tarih": "1366-08-01",
+   "tip": "kazanc",
+   "yerlesim": [
+    "Bolayır",
+    "Maydos (Eceabat)"
+   ],
+   "en_yakin_madde": "Gelibolu'nun kaybı (Savoy Haçlı seferi)",
+   "gun": 31
+  },
+  {
+   "tarih": "1368-01-23",
+   "tip": "kayip",
+   "yerlesim": [
+    "Ganzhou",
+    "Hengyang (Hengzhou)",
+    "Ji'an (Jizhou)"
+   ],
+   "en_yakin_madde": "İnançoğulları Germiyanoğullarının hâkimiyetini tanıdı",
+   "gun": 31
+  },
+  {
+   "tarih": "1371-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Kotor (Cattaro)"
+   ],
+   "en_yakin_madde": "Kârkiyâ hânedanı Gîlân'da kuruldu — Hazar kıyısının son bağımsız hâkimleri",
+   "gun": 31
+  },
+  {
+   "tarih": "1371-09-26",
+   "tip": "kayip",
+   "yerlesim": [
+    "Malak Dervent (Lalkovo)",
+    "Uluköy (Akçadam)",
+    "Umur Fakih (Fakia)"
+   ],
+   "en_yakin_madde": "Çirmen Savaşı — Meriç vadisinin denetimi",
+   "gun": 31
+  },
+  {
+   "tarih": "1373-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "İskeçe"
+   ],
+   "en_yakin_madde": "Filibe'nin batısı: Tatarpazarcığı ve İhtiman'ın katılışı",
+   "gun": 31
+  },
+  {
+   "tarih": "1376-09-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Bolayır",
+    "Maydos (Eceabat)"
+   ],
+   "en_yakin_madde": "Gelibolu'nun geri alınışı",
+   "gun": 31
+  },
+  {
+   "tarih": "1379-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Hazârasp",
+    "Hîve",
+    "Kelkit",
+    "Küngrat"
+   ],
+   "en_yakin_madde": "Tâceddin Bey Eretna ordusunu Niksar'da bozdu, bağımsız hareket etti",
+   "gun": 31
+  },
+  {
+   "tarih": "1381-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Amasya",
+    "Bocnûrd",
+    "Bîrcend",
+    "Dihistan ovası (Meşhed-i Misriyân)"
+   ],
+   "en_yakin_madde": "Germiyan çeyizi: Kütahya'nın katılışı",
+   "gun": 31
+  },
+  {
+   "tarih": "1381-06-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Seydişehir",
+    "Yalvaç",
+    "İshaklı"
+   ],
+   "en_yakin_madde": "Hamîd ilinin satın alınışı: Isparta'nın katılışı",
+   "gun": 31
+  },
+  {
+   "tarih": "1383-09-19",
+   "tip": "kayip",
+   "yerlesim": [
+    "Gevgili (Gevgelija)",
+    "Kılkış (Avrathisar)"
+   ],
+   "en_yakin_madde": "Serez'in fethi",
+   "gun": 31
+  },
+  {
+   "tarih": "1385-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Aşkale",
+    "Erzurum"
+   ],
+   "en_yakin_madde": "Makedonya'nın içine ilerleyiş: Manastır ve Ohri'nin fethi",
+   "gun": 31
+  },
+  {
+   "tarih": "1386-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Ardahan",
+    "Arpaçay (Akyaka)",
+    "Astara",
+    "Berde (Karabağ)"
+   ],
+   "en_yakin_madde": "Niş'in fethi",
+   "gun": 31
+  },
+  {
+   "tarih": "1387-01-01",
+   "tip": "kayip",
+   "yerlesim": [
+    "Aşkale",
+    "Erzurum",
+    "Leş (Alessio)"
+   ],
+   "en_yakin_madde": "Vodina'nın fethi (1386-1387 kışı)",
+   "gun": 31
+  },
+  {
+   "tarih": "1387-04-09",
+   "tip": "kayip",
+   "yerlesim": [
+    "Lanzaka (Lagkadas)",
+    "Praviște (Eleftheroupoli)"
+   ],
+   "en_yakin_madde": "Selanik'in ilk teslimi",
+   "gun": 31
+  }
+ ]
+}
