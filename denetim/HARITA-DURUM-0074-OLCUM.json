@@ -1,0 +1,422 @@
+{
+ "H-0007": {
+  "kutu": {
+   "la0": 49.84,
+   "la1": 51.1,
+   "lo0": 15.73,
+   "lo1": 18.09
+  },
+  "gun": "1827-07-06",
+  "kutudaki_nokta": 0,
+  "noktalar": [],
+  "genis_kutu_nokta": 27,
+  "genis_kutu_o_gun_sahipli": 27
+ },
+ "H-0014": {
+  "kutu": {
+   "la0": 41.82,
+   "la1": 42.64,
+   "lo0": 41.35,
+   "lo1": 42.7
+  },
+  "gun": "1829-09-14",
+  "kutudaki_nokta": 1,
+  "noktalar": [
+   {
+    "ad": "Kutaisi",
+    "lat": 42.268,
+    "lon": 42.695,
+    "kaynak_dosya": "yerlesimler.js",
+    "o_gun_sahipli": true,
+    "gecerli": {
+     "s": [
+      {
+       "f": "1810-02-20",
+       "t": "1917-03-15",
+       "d": "rusya"
+      }
+     ],
+     "v": [],
+     "isg": [],
+     "d": []
+    }
+   }
+  ],
+  "genis_kutu_nokta": 42,
+  "genis_kutu_o_gun_sahipli": 15
+ },
+ "H-0015": {
+  "kutu": {
+   "la0": 43.14,
+   "la1": 48.21,
+   "lo0": 22.91,
+   "lo1": 29.42
+  },
+  "gun": "1830-05-07",
+  "kutudaki_nokta": 37,
+  "o_gun_isgalli": [
+   {
+    "ad": "Silistre",
+    "isg": [
+     {
+      "f": "1829-06-30",
+      "t": "1836-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE-TV (18 Haziran J 1829 teslim) · TDV silistre ('Ruslar 1836'ya kadar Silistre'yi ellerinde tuttular')"
+     }
+    ],
+    "s": [],
+    "v": []
+   },
+   {
+    "ad": "Bükreş",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "eflak · edirne-antlasmasi · ESBE (25 Nisan J)"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1462-06-01",
+      "t": "1878-07-13",
+      "kid": "eflak"
+     }
+    ]
+   },
+   {
+    "ad": "Yaş",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "bogdan · edirne-antlasmasi · ESBE (25 Nisan J)"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1456-06-01",
+      "t": "1878-07-13",
+      "kid": "bogdan"
+     }
+    ]
+   },
+   {
+    "ad": "Roman",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1456-06-01",
+      "t": "1878-07-13",
+      "kid": "bogdan"
+     }
+    ]
+   },
+   {
+    "ad": "Birlad (Bârlad)",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1456-06-01",
+      "t": "1878-07-13",
+      "kid": "bogdan"
+     }
+    ]
+   },
+   {
+    "ad": "Kalas (Galatz)",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1456-06-01",
+      "t": "1878-07-13",
+      "kid": "bogdan"
+     }
+    ]
+   },
+   {
+    "ad": "Tırgovişte",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1462-06-01",
+      "t": "1878-07-13",
+      "kid": "eflak"
+     }
+    ]
+   },
+   {
+    "ad": "Piteşti",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1462-06-01",
+      "t": "1878-07-13",
+      "kid": "eflak"
+     }
+    ]
+   },
+   {
+    "ad": "Buzău",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1462-06-01",
+      "t": "1878-07-13",
+      "kid": "eflak"
+     }
+    ]
+   },
+   {
+    "ad": "Rimnik-i Sârat (Râmnicu Sărat)",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1462-06-01",
+      "t": "1878-07-13",
+      "kid": "eflak"
+     }
+    ]
+   },
+   {
+    "ad": "Kımpulung (Câmpulung)",
+    "isg": [
+     {
+      "f": "1828-05-07",
+      "t": "1834-01-01",
+      "d": "rusya",
+      "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak"
+     }
+    ],
+    "s": [],
+    "v": [
+     {
+      "f": "1462-06-01",
+      "t": "1878-07-13",
+      "kid": "eflak"
+     }
+    ]
+   }
+  ],
+  "o_gun_sahipsiz": [
+   {
+    "ad": "Varna",
+    "lat": 43.214,
+    "lon": 27.915,
+    "kaynak_dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Şumnu",
+    "lat": 43.271,
+    "lon": 26.936,
+    "kaynak_dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Silistre",
+    "lat": 44.117,
+    "lon": 27.26,
+    "kaynak_dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Niğbolu",
+    "lat": 43.706,
+    "lon": 24.892,
+    "kaynak_dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Rusçuk",
+    "lat": 43.856,
+    "lon": 25.971,
+    "kaynak_dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Plevne",
+    "lat": 43.417,
+    "lon": 24.617,
+    "kaynak_dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Köstence",
+    "lat": 44.173,
+    "lon": 28.639,
+    "kaynak_dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Prevadi (Provadia)",
+    "lat": 43.1789,
+    "lon": 27.4331,
+    "kaynak_dosya": "yerlesimler_ek29.js"
+   },
+   {
+    "ad": "Babadağı (Babadag)",
+    "lat": 44.8917,
+    "lon": 28.7169,
+    "kaynak_dosya": "yerlesimler_ek29.js"
+   },
+   {
+    "ad": "İshakçı (Isaccea)",
+    "lat": 45.2736,
+    "lon": 28.46,
+    "kaynak_dosya": "yerlesimler_ek29.js"
+   }
+  ],
+  "isg_penceresi_dagilimi": {
+   "1829-06-30..1836-01-01 -> rusya": 1,
+   "1828-05-07..1834-01-01 -> rusya": 10
+  },
+  "atlas_geneli_1828_rus_isgali": [
+   {
+    "ad": "Silistre",
+    "f": "1829-06-30",
+    "t": "1836-01-01",
+    "kaynak": "ESBE-TV (18 Haziran J 1829 teslim) · TDV silistre ('Ruslar 1836'ya kadar Silistre'yi ellerinde tuttular')",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Bükreş",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "eflak · edirne-antlasmasi · ESBE (25 Nisan J)",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Yaş",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "bogdan · edirne-antlasmasi · ESBE (25 Nisan J)",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Roman",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Birlad (Bârlad)",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Kalas (Galatz)",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · bogdan",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "İbrail",
+    "f": "1828-06-23",
+    "t": "1829-09-14",
+    "kaynak": null,
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Anapa",
+    "f": "1828-06-24",
+    "t": "1829-09-14",
+    "kaynak": "TDV `anapa` — kaynaklı: Osman Paşa 24 Haziran 1828'de Ruslar'a teslim oldu; 1829 Edirne ile Osmanlı hâkimiyetinden çıktı. d: dokunulmadı, isg: üstüne biniyor (Kefe emsali) — YAMA-ANAPA-0913 (KITA 18)",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Tırgovişte",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Piteşti",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Buzău",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Rimnik-i Sârat (Râmnicu Sărat)",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak",
+    "dosya": "yerlesimler.js"
+   },
+   {
+    "ad": "Kımpulung (Câmpulung)",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "ESBE (25 Nisan J) · edirne-antlasmasi · eflak",
+    "dosya": "yerlesimler.js"
+   }
+  ]
+ }
+}

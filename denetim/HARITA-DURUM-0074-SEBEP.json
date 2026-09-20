@@ -1,0 +1,103 @@
+{
+ "1850-01-01": {
+  "gun": "1850-01-01",
+  "nokta_evreni": 3921,
+  "ayni_anda_BIRDEN_COK_sahiplik": 0,
+  "farkli_kimlik_cifti": 0,
+  "cift_dagilimi": {},
+  "ornek": []
+ },
+ "1828-02-22": {
+  "gun": "1828-02-22",
+  "nokta_evreni": 3921,
+  "ayni_anda_BIRDEN_COK_sahiplik": 4,
+  "farkli_kimlik_cifti": 3,
+  "cift_dagilimi": {
+   "misir-kavalali + yunanistan": 2,
+   "OSMANLI + yunanistan": 1,
+   "OSMANLI + kacar": 1
+  },
+  "ornek": [
+   {
+    "ad": "Atina",
+    "lat": 37.976,
+    "lon": 23.734,
+    "dosya": "yerlesimler.js",
+    "aktif": [
+     "d:OSMANLI 1827-06-05..1833-03-31",
+     "s:yunanistan 1821-03-25..1923-10-29"
+    ]
+   },
+   {
+    "ad": "Mora (Tripoliçe)",
+    "lat": 37.51,
+    "lon": 22.379,
+    "dosya": "yerlesimler.js",
+    "aktif": [
+     "v:misir-kavalali 1825-06-22..1828-10-05",
+     "s:yunanistan 1821-03-25..1923-10-29"
+    ]
+   },
+   {
+    "ad": "Modon",
+    "lat": 36.8207,
+    "lon": 21.7075,
+    "dosya": "yerlesimler.js",
+    "aktif": [
+     "v:misir-kavalali 1825-02-24..1828-10-05",
+     "s:yunanistan 1821-03-25..1923-10-29"
+    ]
+   },
+   {
+    "ad": "Abâdân",
+    "lat": 30.3392,
+    "lon": 48.3042,
+    "dosya": "yerlesimler.js",
+    "aktif": [
+     "d:OSMANLI 1546-01-01..1847-05-31",
+     "s:kacar 1794-01-01..1923-10-29"
+    ]
+   }
+  ]
+ },
+ "1700-01-01": {
+  "gun": "1700-01-01",
+  "nokta_evreni": 3921,
+  "ayni_anda_BIRDEN_COK_sahiplik": 2,
+  "farkli_kimlik_cifti": 2,
+  "cift_dagilimi": {
+   "OSMANLI + imereti": 1,
+   "OSMANLI + safevi": 1
+  },
+  "ornek": [
+   {
+    "ad": "Kutaisi",
+    "lat": 42.268,
+    "lon": 42.695,
+    "dosya": "yerlesimler.js",
+    "aktif": [
+     "v:OSMANLI 1555-05-29..1810-02-20",
+     "s:imereti 1490-01-01..1810-02-20"
+    ]
+   },
+   {
+    "ad": "Abâdân",
+    "lat": 30.3392,
+    "lon": 48.3042,
+    "dosya": "yerlesimler.js",
+    "aktif": [
+     "d:OSMANLI 1546-01-01..1847-05-31",
+     "s:safevi 1508-01-01..1736-03-08"
+    ]
+   }
+  ]
+ },
+ "1300-01-01": {
+  "gun": "1300-01-01",
+  "nokta_evreni": 3921,
+  "ayni_anda_BIRDEN_COK_sahiplik": 0,
+  "farkli_kimlik_cifti": 0,
+  "cift_dagilimi": {},
+  "ornek": []
+ }
+}

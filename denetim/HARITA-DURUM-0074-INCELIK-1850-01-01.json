@@ -1,0 +1,4191 @@
+{
+ "ozet": {
+  "gun": "1850-01-01",
+  "cift": 379,
+  "toplam_km2": 2430773.6,
+  "SIZINTI_<1km": {
+   "cift": 175,
+   "km2": 11305.4
+  },
+  "ARA_1-5km": {
+   "cift": 126,
+   "km2": 93162.3
+  },
+  "GOVDE_>=5km": {
+   "cift": 78,
+   "km2": 2326305.9
+  },
+  "sure_sn": 79.5
+ },
+ "ciftler": [
+  {
+   "cift": "dene + ingiliz-kuzey-amerika",
+   "km2": 306382.8,
+   "cevre_km": 16649.6,
+   "ort_genislik_km": 36.804,
+   "parca": 1,
+   "merkez": [
+    63.809,
+    -125.828
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + kri",
+   "km2": 143934.1,
+   "cevre_km": 6695.9,
+   "ort_genislik_km": 42.991,
+   "parca": 1,
+   "merkez": [
+    54.335,
+    -90.104
+   ]
+  },
+  {
+   "cift": "abd + wicita",
+   "km2": 85559.8,
+   "cevre_km": 2016.2,
+   "ort_genislik_km": 84.873,
+   "parca": 1,
+   "merkez": [
+    34.082,
+    -96.966
+   ]
+  },
+  {
+   "cift": "kaonde-ila + lozi",
+   "km2": 84149.2,
+   "cevre_km": 1641.6,
+   "ort_genislik_km": 102.518,
+   "parca": 1,
+   "merkez": [
+    -14.331,
+    24.584
+   ]
+  },
+  {
+   "cift": "dan-guro + liberya",
+   "km2": 71405.8,
+   "cevre_km": 1336.7,
+   "ort_genislik_km": 106.839,
+   "parca": 1,
+   "merkez": [
+    6.492,
+    -8.855
+   ]
+  },
+  {
+   "cift": "bambara + bundu",
+   "km2": 60279.9,
+   "cevre_km": 1005.9,
+   "ort_genislik_km": 119.849,
+   "parca": 1,
+   "merkez": [
+    13.728,
+    -12.969
+   ]
+  },
+  {
+   "cift": "adar + sokoto",
+   "km2": 57778.6,
+   "cevre_km": 1268.8,
+   "ort_genislik_km": 91.076,
+   "parca": 1,
+   "merkez": [
+    12.449,
+    5.093
+   ]
+  },
+  {
+   "cift": "transvaal + tsvana",
+   "km2": 57292.2,
+   "cevre_km": 1323.1,
+   "ort_genislik_km": 86.604,
+   "parca": 1,
+   "merkez": [
+    -25.666,
+    28.361
+   ]
+  },
+  {
+   "cift": "mossi-vagadugu + yatenga",
+   "km2": 57207.8,
+   "cevre_km": 1045.5,
+   "ort_genislik_km": 109.435,
+   "parca": 2,
+   "merkez": [
+    13.84,
+    -2.413
+   ]
+  },
+  {
+   "cift": "kenedugu + mossi-vagadugu",
+   "km2": 56666.0,
+   "cevre_km": 982.4,
+   "ort_genislik_km": 115.365,
+   "parca": 1,
+   "merkez": [
+    11.327,
+    -5.915
+   ]
+  },
+  {
+   "cift": "futa-callon + solima-yalunka",
+   "km2": 54025.0,
+   "cevre_km": 1282.9,
+   "ort_genislik_km": 84.222,
+   "parca": 1,
+   "merkez": [
+    11.083,
+    -10.988
+   ]
+  },
+  {
+   "cift": "abd + ojibwe",
+   "km2": 53999.5,
+   "cevre_km": 3025.5,
+   "ort_genislik_km": 35.696,
+   "parca": 1,
+   "merkez": [
+    43.031,
+    -83.704
+   ]
+  },
+  {
+   "cift": "adamava + sokoto",
+   "km2": 49853.3,
+   "cevre_km": 996.5,
+   "ort_genislik_km": 100.053,
+   "parca": 1,
+   "merkez": [
+    9.255,
+    12.095
+   ]
+  },
+  {
+   "cift": "arjantin-cumhuriyeti + mapuche-araukanya",
+   "km2": 49771.5,
+   "cevre_km": 2016.1,
+   "ort_genislik_km": 49.374,
+   "parca": 1,
+   "merkez": [
+    -34.683,
+    -67.869
+   ]
+  },
+  {
+   "cift": "bemba + kaonde-ila",
+   "km2": 47493.8,
+   "cevre_km": 1244.2,
+   "ort_genislik_km": 76.345,
+   "parca": 1,
+   "merkez": [
+    -12.132,
+    26.435
+   ]
+  },
+  {
+   "cift": "dan-guro + kong-vattara",
+   "km2": 45345.5,
+   "cevre_km": 846.4,
+   "ort_genislik_km": 107.143,
+   "parca": 1,
+   "merkez": [
+    9.292,
+    -4.822
+   ]
+  },
+  {
+   "cift": "liptako + zerma",
+   "km2": 44322.1,
+   "cevre_km": 852.9,
+   "ort_genislik_km": 103.934,
+   "parca": 1,
+   "merkez": [
+    14.25,
+    -0.454
+   ]
+  },
+  {
+   "cift": "lozi + ovimbundu",
+   "km2": 42961.2,
+   "cevre_km": 1589.7,
+   "ort_genislik_km": 54.051,
+   "parca": 1,
+   "merkez": [
+    -11.903,
+    23.155
+   ]
+  },
+  {
+   "cift": "ingiltere + transvaal",
+   "km2": 42390.0,
+   "cevre_km": 1082.2,
+   "ort_genislik_km": 78.343,
+   "parca": 1,
+   "merkez": [
+    -27.027,
+    27.174
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + secwepemc",
+   "km2": 41272.7,
+   "cevre_km": 1342.2,
+   "ort_genislik_km": 61.501,
+   "parca": 3,
+   "merkez": [
+    50.67,
+    -120.425
+   ]
+  },
+  {
+   "cift": "asanti + gonja",
+   "km2": 40168.8,
+   "cevre_km": 832.7,
+   "ort_genislik_km": 96.48,
+   "parca": 1,
+   "merkez": [
+    6.673,
+    -1.53
+   ]
+  },
+  {
+   "cift": "dagbon + gonja",
+   "km2": 39562.3,
+   "cevre_km": 926.6,
+   "ort_genislik_km": 85.391,
+   "parca": 1,
+   "merkez": [
+    8.294,
+    -0.482
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + sosoni",
+   "km2": 39508.6,
+   "cevre_km": 1503.7,
+   "ort_genislik_km": 52.549,
+   "parca": 1,
+   "merkez": [
+    43.811,
+    -116.244
+   ]
+  },
+  {
+   "cift": "gambiya-mandinka + sine-salum",
+   "km2": 37285.0,
+   "cevre_km": 1725.0,
+   "ort_genislik_km": 43.229,
+   "parca": 4,
+   "merkez": [
+    13.96,
+    -15.854
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + lakota",
+   "km2": 36433.9,
+   "cevre_km": 1411.9,
+   "ort_genislik_km": 51.609,
+   "parca": 1,
+   "merkez": [
+    48.681,
+    -96.798
+   ]
+  },
+  {
+   "cift": "banda-gbaya + zende",
+   "km2": 35724.1,
+   "cevre_km": 902.4,
+   "ort_genislik_km": 79.18,
+   "parca": 1,
+   "merkez": [
+    4.779,
+    22.584
+   ]
+  },
+  {
+   "cift": "griqua + ingiltere",
+   "km2": 35615.9,
+   "cevre_km": 1236.3,
+   "ort_genislik_km": 57.618,
+   "parca": 1,
+   "merkez": [
+    -31.049,
+    25.083
+   ]
+  },
+  {
+   "cift": "burundi + ruanda",
+   "km2": 31972.9,
+   "cevre_km": 1036.5,
+   "ort_genislik_km": 61.694,
+   "parca": 1,
+   "merkez": [
+    -3.565,
+    30.516
+   ]
+  },
+  {
+   "cift": "griqua + oranj",
+   "km2": 31243.8,
+   "cevre_km": 761.7,
+   "ort_genislik_km": 82.032,
+   "parca": 1,
+   "merkez": [
+    -28.886,
+    26.28
+   ]
+  },
+  {
+   "cift": "abd + pavni",
+   "km2": 30867.6,
+   "cevre_km": 1002.4,
+   "ort_genislik_km": 61.584,
+   "parca": 1,
+   "merkez": [
+    41.365,
+    -96.205
+   ]
+  },
+  {
+   "cift": "abd + meksika",
+   "km2": 29949.8,
+   "cevre_km": 7958.2,
+   "ort_genislik_km": 7.527,
+   "parca": 1,
+   "merkez": [
+    29.111,
+    -97.817
+   ]
+  },
+  {
+   "cift": "adamava + bamum",
+   "km2": 29499.3,
+   "cevre_km": 877.7,
+   "ort_genislik_km": 67.217,
+   "parca": 1,
+   "merkez": [
+    7.04,
+    11.632
+   ]
+  },
+  {
+   "cift": "buna + gonja",
+   "km2": 27161.2,
+   "cevre_km": 766.4,
+   "ort_genislik_km": 70.878,
+   "parca": 1,
+   "merkez": [
+    9.608,
+    -3.187
+   ]
+  },
+  {
+   "cift": "gonja + gyaaman",
+   "km2": 26318.2,
+   "cevre_km": 679.0,
+   "ort_genislik_km": 77.525,
+   "parca": 1,
+   "merkez": [
+    7.814,
+    -3.239
+   ]
+  },
+  {
+   "cift": "OSM-tabi + habesistan",
+   "km2": 24867.4,
+   "cevre_km": 1310.0,
+   "ort_genislik_km": 37.966,
+   "parca": 1,
+   "merkez": [
+    15.686,
+    36.119
+   ]
+  },
+  {
+   "cift": "sakalava-boina + sakalava-menabe",
+   "km2": 23124.3,
+   "cevre_km": 680.1,
+   "ort_genislik_km": 68.003,
+   "parca": 1,
+   "merkez": [
+    -16.881,
+    44.997
+   ]
+  },
+  {
+   "cift": "benin-kralligi + ibadan",
+   "km2": 22907.5,
+   "cevre_km": 651.8,
+   "ort_genislik_km": 70.286,
+   "parca": 1,
+   "merkez": [
+    7.59,
+    3.587
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + inuit",
+   "km2": 21363.0,
+   "cevre_km": 5744.5,
+   "ort_genislik_km": 7.438,
+   "parca": 1,
+   "merkez": [
+    59.6,
+    -69.211
+   ]
+  },
+  {
+   "cift": "buganda + bunyoro",
+   "km2": 20715.4,
+   "cevre_km": 1234.9,
+   "ort_genislik_km": 33.551,
+   "parca": 7,
+   "merkez": [
+    0.478,
+    32.316
+   ]
+  },
+  {
+   "cift": "borgu + sokoto",
+   "km2": 20426.9,
+   "cevre_km": 663.4,
+   "ort_genislik_km": 61.582,
+   "parca": 1,
+   "merkez": [
+    8.466,
+    4.851
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + racput",
+   "km2": 20212.6,
+   "cevre_km": 3813.3,
+   "ort_genislik_km": 10.601,
+   "parca": 1,
+   "merkez": [
+    25.399,
+    70.392
+   ]
+  },
+  {
+   "cift": "kongo-kralligi + portekiz",
+   "km2": 20163.9,
+   "cevre_km": 1094.5,
+   "ort_genislik_km": 36.847,
+   "parca": 1,
+   "merkez": [
+    -8.401,
+    13.588
+   ]
+  },
+  {
+   "cift": "antemoro + merina",
+   "km2": 18588.3,
+   "cevre_km": 652.6,
+   "ort_genislik_km": 56.963,
+   "parca": 1,
+   "merkez": [
+    -21.398,
+    46.835
+   ]
+  },
+  {
+   "cift": "aro-konfederasyonu + nijer-deltasi",
+   "km2": 17441.6,
+   "cevre_km": 982.1,
+   "ort_genislik_km": 35.521,
+   "parca": 2,
+   "merkez": [
+    5.256,
+    7.354
+   ]
+  },
+  {
+   "cift": "bunyoro + toro",
+   "km2": 16962.3,
+   "cevre_km": 717.8,
+   "ort_genislik_km": 47.26,
+   "parca": 1,
+   "merkez": [
+    0.548,
+    30.371
+   ]
+  },
+  {
+   "cift": "ingiltere + xhosa",
+   "km2": 16954.3,
+   "cevre_km": 841.3,
+   "ort_genislik_km": 40.303,
+   "parca": 1,
+   "merkez": [
+    -32.533,
+    27.177
+   ]
+  },
+  {
+   "cift": "bahavelpur + racput",
+   "km2": 14713.8,
+   "cevre_km": 926.8,
+   "ort_genislik_km": 31.751,
+   "parca": 1,
+   "merkez": [
+    28.657,
+    71.843
+   ]
+  },
+  {
+   "cift": "kayor + valo",
+   "km2": 12618.8,
+   "cevre_km": 460.3,
+   "ort_genislik_km": 54.832,
+   "parca": 1,
+   "merkez": [
+    15.203,
+    -16.284
+   ]
+  },
+  {
+   "cift": "ingiltere + qing-hanedani",
+   "km2": 12261.2,
+   "cevre_km": 1238.3,
+   "ort_genislik_km": 19.803,
+   "parca": 13,
+   "merkez": [
+    22.962,
+    114.58
+   ]
+  },
+  {
+   "cift": "gambiya-mandinka + portekiz",
+   "km2": 11406.2,
+   "cevre_km": 1261.2,
+   "ort_genislik_km": 18.088,
+   "parca": 1,
+   "merkez": [
+    12.512,
+    -16.071
+   ]
+  },
+  {
+   "cift": "kongo-kralligi + loango",
+   "km2": 11041.5,
+   "cevre_km": 488.2,
+   "ort_genislik_km": 45.232,
+   "parca": 1,
+   "merkez": [
+    -4.074,
+    11.834
+   ]
+  },
+  {
+   "cift": "antandroy + fransa-cumhuriyet",
+   "km2": 10457.1,
+   "cevre_km": 466.6,
+   "ort_genislik_km": 44.823,
+   "parca": 1,
+   "merkez": [
+    -24.398,
+    46.972
+   ]
+  },
+  {
+   "cift": "aro-konfederasyonu + benin-kralligi",
+   "km2": 9229.3,
+   "cevre_km": 682.2,
+   "ort_genislik_km": 27.058,
+   "parca": 1,
+   "merkez": [
+    5.749,
+    7.246
+   ]
+  },
+  {
+   "cift": "abd + ingiliz-kuzey-amerika",
+   "km2": 7515.4,
+   "cevre_km": 5491.5,
+   "ort_genislik_km": 2.737,
+   "parca": 1,
+   "merkez": [
+    45.684,
+    -77.113
+   ]
+  },
+  {
+   "cift": "liptako + yatenga",
+   "km2": 6084.3,
+   "cevre_km": 427.7,
+   "ort_genislik_km": 28.451,
+   "parca": 1,
+   "merkez": [
+    14.266,
+    -1.132
+   ]
+  },
+  {
+   "cift": "yatenga + zerma",
+   "km2": 6084.3,
+   "cevre_km": 427.7,
+   "ort_genislik_km": 28.451,
+   "parca": 1,
+   "merkez": [
+    14.266,
+    -1.132
+   ]
+  },
+  {
+   "cift": "dene + inuit",
+   "km2": 5079.6,
+   "cevre_km": 2251.3,
+   "ort_genislik_km": 4.513,
+   "parca": 1,
+   "merkez": [
+    69.394,
+    -143.111
+   ]
+  },
+  {
+   "cift": "bambara + massina",
+   "km2": 5054.4,
+   "cevre_km": 449.4,
+   "ort_genislik_km": 22.494,
+   "parca": 1,
+   "merkez": [
+    14.074,
+    -3.797
+   ]
+  },
+  {
+   "cift": "kamboc-kralligi + siyam-chakri",
+   "km2": 4852.4,
+   "cevre_km": 1749.2,
+   "ort_genislik_km": 5.548,
+   "parca": 1,
+   "merkez": [
+    14.235,
+    105.434
+   ]
+  },
+  {
+   "cift": "ingiltere + zulu-kralligi",
+   "km2": 4715.1,
+   "cevre_km": 667.5,
+   "ort_genislik_km": 14.128,
+   "parca": 1,
+   "merkez": [
+    -28.445,
+    29.48
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + futa-toro",
+   "km2": 4663.9,
+   "cevre_km": 454.1,
+   "ort_genislik_km": 20.542,
+   "parca": 1,
+   "merkez": [
+    15.482,
+    -12.814
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + meysur",
+   "km2": 4519.8,
+   "cevre_km": 1647.6,
+   "ort_genislik_km": 5.487,
+   "parca": 1,
+   "merkez": [
+    13.123,
+    77.496
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + rusya",
+   "km2": 4369.4,
+   "cevre_km": 1843.5,
+   "ort_genislik_km": 4.74,
+   "parca": 1,
+   "merkez": [
+    57.089,
+    -135.679
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + avusturya",
+   "km2": 4158.2,
+   "cevre_km": 2246.6,
+   "ort_genislik_km": 3.702,
+   "parca": 1,
+   "merkez": [
+    44.879,
+    17.952
+   ]
+  },
+  {
+   "cift": "san-devletleri + siyam-chakri",
+   "km2": 4087.2,
+   "cevre_km": 945.2,
+   "ort_genislik_km": 8.648,
+   "parca": 1,
+   "merkez": [
+    19.818,
+    98.902
+   ]
+  },
+  {
+   "cift": "gambiya-mandinka + ingiltere",
+   "km2": 3810.7,
+   "cevre_km": 493.0,
+   "ort_genislik_km": 15.46,
+   "parca": 6,
+   "merkez": [
+    13.128,
+    -16.551
+   ]
+  },
+  {
+   "cift": "ingiltere + sine-salum",
+   "km2": 3810.7,
+   "cevre_km": 493.0,
+   "ort_genislik_km": 15.459,
+   "parca": 6,
+   "merkez": [
+    13.128,
+    -16.551
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + kacar",
+   "km2": 3752.9,
+   "cevre_km": 2536.6,
+   "ort_genislik_km": 2.959,
+   "parca": 1,
+   "merkez": [
+    32.524,
+    47.241
+   ]
+  },
+  {
+   "cift": "gambiya-mandinka + kayor",
+   "km2": 3153.8,
+   "cevre_km": 381.0,
+   "ort_genislik_km": 16.554,
+   "parca": 1,
+   "merkez": [
+    14.74,
+    -16.992
+   ]
+  },
+  {
+   "cift": "kayor + sine-salum",
+   "km2": 3153.6,
+   "cevre_km": 381.0,
+   "ort_genislik_km": 16.555,
+   "parca": 1,
+   "merkez": [
+    14.74,
+    -16.992
+   ]
+  },
+  {
+   "cift": "isvec + rusya",
+   "km2": 3094.5,
+   "cevre_km": 1306.1,
+   "ort_genislik_km": 4.739,
+   "parca": 1,
+   "merkez": [
+    70.032,
+    25.709
+   ]
+  },
+  {
+   "cift": "kamboc-kralligi + nguyen-hanedani",
+   "km2": 2974.5,
+   "cevre_km": 1257.5,
+   "ort_genislik_km": 4.731,
+   "parca": 1,
+   "merkez": [
+    11.672,
+    106.012
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + valo",
+   "km2": 2751.6,
+   "cevre_km": 370.1,
+   "ort_genislik_km": 14.871,
+   "parca": 1,
+   "merkez": [
+    16.387,
+    -16.369
+   ]
+  },
+  {
+   "cift": "kanem-tubu + vaday",
+   "km2": 2614.7,
+   "cevre_km": 946.2,
+   "ort_genislik_km": 5.527,
+   "parca": 1,
+   "merkez": [
+    15.318,
+    19.572
+   ]
+  },
+  {
+   "cift": "habesistan + vollayta",
+   "km2": 2603.5,
+   "cevre_km": 348.1,
+   "ort_genislik_km": 14.958,
+   "parca": 1,
+   "merkez": [
+    6.638,
+    37.447
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + ingiliz-hindistani",
+   "km2": 2422.6,
+   "cevre_km": 909.3,
+   "ort_genislik_km": 5.328,
+   "parca": 1,
+   "merkez": [
+    13.642,
+    80.623
+   ]
+  },
+  {
+   "cift": "bharatpur-cat + racput",
+   "km2": 2362.8,
+   "cevre_km": 403.5,
+   "ort_genislik_km": 11.713,
+   "parca": 1,
+   "merkez": [
+    26.853,
+    76.717
+   ]
+  },
+  {
+   "cift": "almanya + fransa-cumhuriyet",
+   "km2": 2224.7,
+   "cevre_km": 556.1,
+   "ort_genislik_km": 8.001,
+   "parca": 1,
+   "merkez": [
+    48.942,
+    8.04
+   ]
+  },
+  {
+   "cift": "ispanya + portekiz",
+   "km2": 2052.9,
+   "cevre_km": 1463.6,
+   "ort_genislik_km": 2.805,
+   "parca": 1,
+   "merkez": [
+    39.989,
+    -7.29
+   ]
+  },
+  {
+   "cift": "kacar + rusya",
+   "km2": 1938.6,
+   "cevre_km": 846.0,
+   "ort_genislik_km": 4.583,
+   "parca": 1,
+   "merkez": [
+    39.075,
+    45.812
+   ]
+  },
+  {
+   "cift": "portekiz + umman-zengibar",
+   "km2": 1912.3,
+   "cevre_km": 652.6,
+   "ort_genislik_km": 5.86,
+   "parca": 1,
+   "merkez": [
+    -14.556,
+    32.302
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + rusya",
+   "km2": 1833.4,
+   "cevre_km": 1227.7,
+   "ort_genislik_km": 2.987,
+   "parca": 1,
+   "merkez": [
+    41.92,
+    41.915
+   ]
+  },
+  {
+   "cift": "fas + ispanya",
+   "km2": 1814.0,
+   "cevre_km": 639.2,
+   "ort_genislik_km": 5.676,
+   "parca": 1,
+   "merkez": [
+    34.662,
+    -4.205
+   ]
+  },
+  {
+   "cift": "guatemala + meksika",
+   "km2": 1813.4,
+   "cevre_km": 768.4,
+   "ort_genislik_km": 4.72,
+   "parca": 1,
+   "merkez": [
+    16.393,
+    -91.176
+   ]
+  },
+  {
+   "cift": "haydarabad-nizam + ingiliz-hindistani",
+   "km2": 1774.1,
+   "cevre_km": 2132.0,
+   "ort_genislik_km": 1.664,
+   "parca": 1,
+   "merkez": [
+    17.022,
+    79.176
+   ]
+  },
+  {
+   "cift": "hokand + rusya",
+   "km2": 1586.7,
+   "cevre_km": 1610.7,
+   "ort_genislik_km": 1.97,
+   "parca": 1,
+   "merkez": [
+    43.714,
+    70.309
+   ]
+  },
+  {
+   "cift": "cerkez + rusya",
+   "km2": 1525.3,
+   "cevre_km": 901.0,
+   "ort_genislik_km": 3.386,
+   "parca": 1,
+   "merkez": [
+    44.311,
+    39.64
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + isvicre",
+   "km2": 1517.8,
+   "cevre_km": 405.1,
+   "ort_genislik_km": 7.494,
+   "parca": 1,
+   "merkez": [
+    46.479,
+    5.63
+   ]
+  },
+  {
+   "cift": "bolivya-cumhuriyeti + brezilya-imparatorlugu",
+   "km2": 1505.0,
+   "cevre_km": 935.2,
+   "ort_genislik_km": 3.218,
+   "parca": 1,
+   "merkez": [
+    -16.424,
+    -59.823
+   ]
+  },
+  {
+   "cift": "nguyen-hanedani + siyam-chakri",
+   "km2": 1388.8,
+   "cevre_km": 640.8,
+   "ort_genislik_km": 4.334,
+   "parca": 1,
+   "merkez": [
+    14.996,
+    107.737
+   ]
+  },
+  {
+   "cift": "babur-imparatorlugu + haydarabad-nizam",
+   "km2": 1358.8,
+   "cevre_km": 658.3,
+   "ort_genislik_km": 4.128,
+   "parca": 1,
+   "merkez": [
+    20.053,
+    76.519
+   ]
+  },
+  {
+   "cift": "OSM-tabi + fransa-cumhuriyet",
+   "km2": 1353.3,
+   "cevre_km": 2099.3,
+   "ort_genislik_km": 1.289,
+   "parca": 1,
+   "merkez": [
+    35.56,
+    4.868
+   ]
+  },
+  {
+   "cift": "laos-kralliklari + siyam-chakri",
+   "km2": 1349.2,
+   "cevre_km": 1296.0,
+   "ort_genislik_km": 2.082,
+   "parca": 1,
+   "merkez": [
+    17.462,
+    103.969
+   ]
+  },
+  {
+   "cift": "adal + somali",
+   "km2": 1303.4,
+   "cevre_km": 788.7,
+   "ort_genislik_km": 3.305,
+   "parca": 1,
+   "merkez": [
+    9.843,
+    42.622
+   ]
+  },
+  {
+   "cift": "OSM-tabi + avusturya",
+   "km2": 1294.6,
+   "cevre_km": 1245.1,
+   "ort_genislik_km": 2.08,
+   "parca": 1,
+   "merkez": [
+    45.68,
+    24.485
+   ]
+  },
+  {
+   "cift": "bambara + futa-callon",
+   "km2": 1080.1,
+   "cevre_km": 628.4,
+   "ort_genislik_km": 3.438,
+   "parca": 1,
+   "merkez": [
+    12.288,
+    -10.657
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + karadag",
+   "km2": 1032.9,
+   "cevre_km": 248.1,
+   "ort_genislik_km": 8.328,
+   "parca": 1,
+   "merkez": [
+    42.764,
+    19.091
+   ]
+  },
+  {
+   "cift": "cohor-sultanligi + ingiliz-malaya",
+   "km2": 1020.3,
+   "cevre_km": 370.0,
+   "ort_genislik_km": 5.515,
+   "parca": 1,
+   "merkez": [
+    1.212,
+    103.906
+   ]
+  },
+  {
+   "cift": "konbaung + san-devletleri",
+   "km2": 1007.7,
+   "cevre_km": 693.4,
+   "ort_genislik_km": 2.907,
+   "parca": 1,
+   "merkez": [
+    20.291,
+    96.814
+   ]
+  },
+  {
+   "cift": "benin-kralligi + nijer-deltasi",
+   "km2": 988.3,
+   "cevre_km": 401.3,
+   "ort_genislik_km": 4.925,
+   "parca": 1,
+   "merkez": [
+    5.298,
+    6.572
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + habesistan",
+   "km2": 972.1,
+   "cevre_km": 637.9,
+   "ort_genislik_km": 3.048,
+   "parca": 1,
+   "merkez": [
+    16.287,
+    38.922
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + manipur",
+   "km2": 958.8,
+   "cevre_km": 509.2,
+   "ort_genislik_km": 3.766,
+   "parca": 1,
+   "merkez": [
+    25.712,
+    93.502
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + konbaung",
+   "km2": 881.9,
+   "cevre_km": 1030.1,
+   "ort_genislik_km": 1.712,
+   "parca": 1,
+   "merkez": [
+    19.837,
+    94.291
+   ]
+  },
+  {
+   "cift": "almanya + prusya",
+   "km2": 877.7,
+   "cevre_km": 1415.8,
+   "ort_genislik_km": 1.24,
+   "parca": 1,
+   "merkez": [
+    52.36,
+    11.948
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + sahaptin",
+   "km2": 872.6,
+   "cevre_km": 707.4,
+   "ort_genislik_km": 2.467,
+   "parca": 1,
+   "merkez": [
+    46.572,
+    -120.823
+   ]
+  },
+  {
+   "cift": "indor + maratha",
+   "km2": 766.9,
+   "cevre_km": 339.0,
+   "ort_genislik_km": 4.524,
+   "parca": 1,
+   "merkez": [
+    22.475,
+    75.6
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + nuu-cah-nulth",
+   "km2": 742.8,
+   "cevre_km": 287.4,
+   "ort_genislik_km": 5.168,
+   "parca": 7,
+   "merkez": [
+    50.035,
+    -126.422
+   ]
+  },
+  {
+   "cift": "avusturya + isvicre",
+   "km2": 739.6,
+   "cevre_km": 381.1,
+   "ort_genislik_km": 3.881,
+   "parca": 1,
+   "merkez": [
+    46.453,
+    8.865
+   ]
+  },
+  {
+   "cift": "belcika + hollanda",
+   "km2": 733.3,
+   "cevre_km": 640.7,
+   "ort_genislik_km": 2.289,
+   "parca": 1,
+   "merkez": [
+    50.731,
+    5.2
+   ]
+  },
+  {
+   "cift": "ingiltere + tsvana",
+   "km2": 732.2,
+   "cevre_km": 900.4,
+   "ort_genislik_km": 1.626,
+   "parca": 1,
+   "merkez": [
+    -26.002,
+    27.276
+   ]
+  },
+  {
+   "cift": "avusturya + rusya",
+   "km2": 720.8,
+   "cevre_km": 541.3,
+   "ort_genislik_km": 2.663,
+   "parca": 1,
+   "merkez": [
+    48.57,
+    25.745
+   ]
+  },
+  {
+   "cift": "avad + ingiliz-hindistani",
+   "km2": 718.3,
+   "cevre_km": 761.2,
+   "ort_genislik_km": 1.887,
+   "parca": 1,
+   "merkez": [
+    26.635,
+    82.683
+   ]
+  },
+  {
+   "cift": "bambara + solima-yalunka",
+   "km2": 710.3,
+   "cevre_km": 467.6,
+   "ort_genislik_km": 3.038,
+   "parca": 1,
+   "merkez": [
+    12.267,
+    -10.636
+   ]
+  },
+  {
+   "cift": "napoli + papalik",
+   "km2": 704.6,
+   "cevre_km": 524.8,
+   "ort_genislik_km": 2.685,
+   "parca": 1,
+   "merkez": [
+    42.646,
+    13.366
+   ]
+  },
+  {
+   "cift": "futa-toro + moritanya-emirlikleri",
+   "km2": 689.1,
+   "cevre_km": 767.2,
+   "ort_genislik_km": 1.797,
+   "parca": 1,
+   "merkez": [
+    16.917,
+    -13.249
+   ]
+  },
+  {
+   "cift": "ingiltere + matabele",
+   "km2": 656.2,
+   "cevre_km": 457.5,
+   "ort_genislik_km": 2.869,
+   "parca": 1,
+   "merkez": [
+    -19.844,
+    28.814
+   ]
+  },
+  {
+   "cift": "bambara + fransa-cumhuriyet",
+   "km2": 652.6,
+   "cevre_km": 508.0,
+   "ort_genislik_km": 2.569,
+   "parca": 1,
+   "merkez": [
+    15.055,
+    -11.939
+   ]
+  },
+  {
+   "cift": "bamum + nijer-deltasi",
+   "km2": 643.1,
+   "cevre_km": 381.7,
+   "ort_genislik_km": 3.37,
+   "parca": 1,
+   "merkez": [
+    4.916,
+    10.133
+   ]
+  },
+  {
+   "cift": "isvicre + sardinya",
+   "km2": 626.1,
+   "cevre_km": 438.8,
+   "ort_genislik_km": 2.853,
+   "parca": 1,
+   "merkez": [
+    45.872,
+    7.623
+   ]
+  },
+  {
+   "cift": "qing-hanedani + rusya",
+   "km2": 619.2,
+   "cevre_km": 1116.4,
+   "ort_genislik_km": 1.109,
+   "parca": 1,
+   "merkez": [
+    47.707,
+    85.956
+   ]
+  },
+  {
+   "cift": "almanya + avusturya",
+   "km2": 618.7,
+   "cevre_km": 914.8,
+   "ort_genislik_km": 1.353,
+   "parca": 1,
+   "merkez": [
+    49.592,
+    13.68
+   ]
+  },
+  {
+   "cift": "kacar + turkmen",
+   "km2": 618.5,
+   "cevre_km": 548.0,
+   "ort_genislik_km": 2.257,
+   "parca": 1,
+   "merkez": [
+    38.676,
+    55.786
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + nez-perce",
+   "km2": 580.5,
+   "cevre_km": 437.4,
+   "ort_genislik_km": 2.654,
+   "parca": 1,
+   "merkez": [
+    46.629,
+    -117.167
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + nuxalk",
+   "km2": 573.9,
+   "cevre_km": 437.6,
+   "ort_genislik_km": 2.623,
+   "parca": 1,
+   "merkez": [
+    52.23,
+    -127.864
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + sardinya",
+   "km2": 537.2,
+   "cevre_km": 552.1,
+   "ort_genislik_km": 1.946,
+   "parca": 1,
+   "merkez": [
+    44.733,
+    6.315
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + maratha",
+   "km2": 524.7,
+   "cevre_km": 618.2,
+   "ort_genislik_km": 1.697,
+   "parca": 1,
+   "merkez": [
+    22.386,
+    78.832
+   ]
+  },
+  {
+   "cift": "cunagadh + racput",
+   "km2": 519.6,
+   "cevre_km": 339.0,
+   "ort_genislik_km": 3.065,
+   "parca": 1,
+   "merkez": [
+    22.38,
+    69.335
+   ]
+  },
+  {
+   "cift": "ovimbundu + portekiz",
+   "km2": 517.5,
+   "cevre_km": 1838.8,
+   "ort_genislik_km": 0.563,
+   "parca": 1,
+   "merkez": [
+    -11.569,
+    15.124
+   ]
+  },
+  {
+   "cift": "almanya + hollanda",
+   "km2": 505.3,
+   "cevre_km": 698.4,
+   "ort_genislik_km": 1.447,
+   "parca": 1,
+   "merkez": [
+    52.073,
+    6.595
+   ]
+  },
+  {
+   "cift": "herero + nama-orlam",
+   "km2": 504.0,
+   "cevre_km": 349.3,
+   "ort_genislik_km": 2.886,
+   "parca": 1,
+   "merkez": [
+    -23.013,
+    16.563
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + hollanda",
+   "km2": 490.1,
+   "cevre_km": 390.3,
+   "ort_genislik_km": 2.512,
+   "parca": 1,
+   "merkez": [
+    48.57,
+    5.204
+   ]
+  },
+  {
+   "cift": "bambara + moritanya-emirlikleri",
+   "km2": 478.2,
+   "cevre_km": 777.8,
+   "ort_genislik_km": 1.23,
+   "parca": 1,
+   "merkez": [
+    16.536,
+    -9.864
+   ]
+  },
+  {
+   "cift": "malay-sultanliklari + siyam-chakri",
+   "km2": 470.5,
+   "cevre_km": 398.8,
+   "ort_genislik_km": 2.36,
+   "parca": 1,
+   "merkez": [
+    6.065,
+    101.237
+   ]
+  },
+  {
+   "cift": "adal + habesistan",
+   "km2": 469.6,
+   "cevre_km": 642.6,
+   "ort_genislik_km": 1.462,
+   "parca": 1,
+   "merkez": [
+    9.72,
+    41.12
+   ]
+  },
+  {
+   "cift": "afganistan + buhara",
+   "km2": 465.6,
+   "cevre_km": 460.1,
+   "ort_genislik_km": 2.024,
+   "parca": 1,
+   "merkez": [
+    36.782,
+    67.736
+   ]
+  },
+  {
+   "cift": "merina + sakalava-menabe",
+   "km2": 454.1,
+   "cevre_km": 464.9,
+   "ort_genislik_km": 1.953,
+   "parca": 1,
+   "merkez": [
+    -20.827,
+    45.976
+   ]
+  },
+  {
+   "cift": "antemoro + sakalava-menabe",
+   "km2": 438.1,
+   "cevre_km": 129.9,
+   "ort_genislik_km": 6.746,
+   "parca": 1,
+   "merkez": [
+    -20.879,
+    45.993
+   ]
+  },
+  {
+   "cift": "adamava + banda-gbaya",
+   "km2": 430.6,
+   "cevre_km": 797.3,
+   "ort_genislik_km": 1.08,
+   "parca": 1,
+   "merkez": [
+    6.551,
+    14.619
+   ]
+  },
+  {
+   "cift": "banda-gbaya + tio",
+   "km2": 428.8,
+   "cevre_km": 211.7,
+   "ort_genislik_km": 4.052,
+   "parca": 1,
+   "merkez": [
+    2.797,
+    18.321
+   ]
+  },
+  {
+   "cift": "nkore + toro",
+   "km2": 428.0,
+   "cevre_km": 358.7,
+   "ort_genislik_km": 2.386,
+   "parca": 1,
+   "merkez": [
+    -0.596,
+    29.524
+   ]
+  },
+  {
+   "cift": "joseon + qing-hanedani",
+   "km2": 427.6,
+   "cevre_km": 774.6,
+   "ort_genislik_km": 1.104,
+   "parca": 1,
+   "merkez": [
+    41.788,
+    128.321
+   ]
+  },
+  {
+   "cift": "kasance + ovimbundu",
+   "km2": 405.1,
+   "cevre_km": 518.0,
+   "ort_genislik_km": 1.564,
+   "parca": 1,
+   "merkez": [
+    -10.656,
+    17.465
+   ]
+  },
+  {
+   "cift": "bhopal + indor",
+   "km2": 403.8,
+   "cevre_km": 192.9,
+   "ort_genislik_km": 4.188,
+   "parca": 1,
+   "merkez": [
+    22.756,
+    76.695
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + siyam-chakri",
+   "km2": 390.3,
+   "cevre_km": 889.0,
+   "ort_genislik_km": 0.878,
+   "parca": 1,
+   "merkez": [
+    13.285,
+    99.178
+   ]
+  },
+  {
+   "cift": "dogu-sumatra-sultanliklari + ingiliz-malaya",
+   "km2": 388.8,
+   "cevre_km": 207.1,
+   "ort_genislik_km": 3.756,
+   "parca": 1,
+   "merkez": [
+    0.694,
+    103.138
+   ]
+  },
+  {
+   "cift": "bemba + umman-zengibar",
+   "km2": 367.6,
+   "cevre_km": 388.0,
+   "ort_genislik_km": 1.895,
+   "parca": 1,
+   "merkez": [
+    -13.709,
+    31.228
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + travankur",
+   "km2": 356.5,
+   "cevre_km": 297.1,
+   "ort_genislik_km": 2.4,
+   "parca": 1,
+   "merkez": [
+    8.907,
+    77.41
+   ]
+  },
+  {
+   "cift": "ekvador-cumhuriyeti + peru-cumhuriyeti",
+   "km2": 355.6,
+   "cevre_km": 844.4,
+   "ort_genislik_km": 0.842,
+   "parca": 1,
+   "merkez": [
+    -2.753,
+    -77.303
+   ]
+  },
+  {
+   "cift": "kazak-hanligi + rusya",
+   "km2": 342.0,
+   "cevre_km": 1933.8,
+   "ort_genislik_km": 0.354,
+   "parca": 1,
+   "merkez": [
+    51.093,
+    68.57
+   ]
+  },
+  {
+   "cift": "parma + sardinya",
+   "km2": 340.9,
+   "cevre_km": 139.2,
+   "ort_genislik_km": 4.899,
+   "parca": 1,
+   "merkez": [
+    44.638,
+    9.585
+   ]
+  },
+  {
+   "cift": "belcika + fransa-cumhuriyet",
+   "km2": 335.3,
+   "cevre_km": 559.6,
+   "ort_genislik_km": 1.198,
+   "parca": 1,
+   "merkez": [
+    50.297,
+    3.628
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + portekiz",
+   "km2": 333.1,
+   "cevre_km": 364.2,
+   "ort_genislik_km": 1.829,
+   "parca": 1,
+   "merkez": [
+    17.872,
+    73.641
+   ]
+  },
+  {
+   "cift": "ace-sultanligi + dogu-sumatra-sultanliklari",
+   "km2": 332.9,
+   "cevre_km": 396.4,
+   "ort_genislik_km": 1.68,
+   "parca": 1,
+   "merkez": [
+    2.584,
+    99.358
+   ]
+  },
+  {
+   "cift": "haydarabad-nizam + maratha",
+   "km2": 324.7,
+   "cevre_km": 583.9,
+   "ort_genislik_km": 1.112,
+   "parca": 1,
+   "merkez": [
+    20.023,
+    78.355
+   ]
+  },
+  {
+   "cift": "lunda-imparatorlugu + ovimbundu",
+   "km2": 321.6,
+   "cevre_km": 552.0,
+   "ort_genislik_km": 1.165,
+   "parca": 1,
+   "merkez": [
+    -10.859,
+    20.084
+   ]
+  },
+  {
+   "cift": "damagaram + kanem-bornu",
+   "km2": 318.6,
+   "cevre_km": 565.6,
+   "ort_genislik_km": 1.127,
+   "parca": 1,
+   "merkez": [
+    13.11,
+    9.791
+   ]
+  },
+  {
+   "cift": "massina + yatenga",
+   "km2": 316.8,
+   "cevre_km": 287.3,
+   "ort_genislik_km": 2.206,
+   "parca": 1,
+   "merkez": [
+    12.706,
+    -3.635
+   ]
+  },
+  {
+   "cift": "bunyoro + nkore",
+   "km2": 315.0,
+   "cevre_km": 351.5,
+   "ort_genislik_km": 1.793,
+   "parca": 1,
+   "merkez": [
+    0.162,
+    30.946
+   ]
+  },
+  {
+   "cift": "dene + nuxalk",
+   "km2": 306.1,
+   "cevre_km": 224.6,
+   "ort_genislik_km": 2.726,
+   "parca": 1,
+   "merkez": [
+    52.063,
+    -125.273
+   ]
+  },
+  {
+   "cift": "dene + rusya",
+   "km2": 302.2,
+   "cevre_km": 800.4,
+   "ort_genislik_km": 0.755,
+   "parca": 1,
+   "merkez": [
+    59.762,
+    -155.332
+   ]
+  },
+  {
+   "cift": "nguyen-hanedani + qing-hanedani",
+   "km2": 300.4,
+   "cevre_km": 407.1,
+   "ort_genislik_km": 1.476,
+   "parca": 1,
+   "merkez": [
+    21.597,
+    107.856
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + kolhapur",
+   "km2": 294.4,
+   "cevre_km": 423.8,
+   "ort_genislik_km": 1.389,
+   "parca": 1,
+   "merkez": [
+    17.289,
+    74.765
+   ]
+  },
+  {
+   "cift": "hokand + qing-hanedani",
+   "km2": 292.5,
+   "cevre_km": 305.6,
+   "ort_genislik_km": 1.915,
+   "parca": 1,
+   "merkez": [
+    41.452,
+    77.771
+   ]
+  },
+  {
+   "cift": "fipa-nyakyusa + ngoni",
+   "km2": 277.3,
+   "cevre_km": 371.3,
+   "ort_genislik_km": 1.494,
+   "parca": 1,
+   "merkez": [
+    -9.648,
+    34.27
+   ]
+  },
+  {
+   "cift": "lozi + tsvana",
+   "km2": 266.7,
+   "cevre_km": 398.5,
+   "ort_genislik_km": 1.338,
+   "parca": 1,
+   "merkez": [
+    -18.373,
+    23.438
+   ]
+  },
+  {
+   "cift": "baroda + ingiliz-hindistani",
+   "km2": 260.7,
+   "cevre_km": 437.0,
+   "ort_genislik_km": 1.193,
+   "parca": 1,
+   "merkez": [
+    22.325,
+    73.347
+   ]
+  },
+  {
+   "cift": "meksika + meskalero-apaci",
+   "km2": 257.0,
+   "cevre_km": 749.9,
+   "ort_genislik_km": 0.686,
+   "parca": 1,
+   "merkez": [
+    33.458,
+    -106.852
+   ]
+  },
+  {
+   "cift": "dan-guro + mossi-vagadugu",
+   "km2": 251.3,
+   "cevre_km": 588.7,
+   "ort_genislik_km": 0.854,
+   "parca": 1,
+   "merkez": [
+    10.104,
+    -5.696
+   ]
+  },
+  {
+   "cift": "svazi + zulu-kralligi",
+   "km2": 249.3,
+   "cevre_km": 396.0,
+   "ort_genislik_km": 1.259,
+   "parca": 1,
+   "merkez": [
+    -26.823,
+    30.179
+   ]
+  },
+  {
+   "cift": "cammu-kesmir + ingiliz-hindistani",
+   "km2": 248.4,
+   "cevre_km": 600.7,
+   "ort_genislik_km": 0.827,
+   "parca": 1,
+   "merkez": [
+    33.441,
+    74.277
+   ]
+  },
+  {
+   "cift": "OSM-tabi + rusya",
+   "km2": 246.2,
+   "cevre_km": 382.9,
+   "ort_genislik_km": 1.286,
+   "parca": 1,
+   "merkez": [
+    46.911,
+    28.184
+   ]
+  },
+  {
+   "cift": "ingiltere + ispanya",
+   "km2": 246.2,
+   "cevre_km": 164.8,
+   "ort_genislik_km": 2.988,
+   "parca": 1,
+   "merkez": [
+    36.188,
+    -5.778
+   ]
+  },
+  {
+   "cift": "dogu-sumatra-sultanliklari + hollanda-dogu-hint",
+   "km2": 245.0,
+   "cevre_km": 776.5,
+   "ort_genislik_km": 0.631,
+   "parca": 1,
+   "merkez": [
+    -1.895,
+    101.962
+   ]
+  },
+  {
+   "cift": "aro-konfederasyonu + tiv",
+   "km2": 239.2,
+   "cevre_km": 104.1,
+   "ort_genislik_km": 4.597,
+   "parca": 1,
+   "merkez": [
+    6.402,
+    8.149
+   ]
+  },
+  {
+   "cift": "birom-plato + sokoto",
+   "km2": 233.3,
+   "cevre_km": 518.9,
+   "ort_genislik_km": 0.899,
+   "parca": 1,
+   "merkez": [
+    10.831,
+    8.91
+   ]
+  },
+  {
+   "cift": "portekiz + qing-hanedani",
+   "km2": 232.2,
+   "cevre_km": 142.3,
+   "ort_genislik_km": 3.263,
+   "parca": 7,
+   "merkez": [
+    22.15,
+    113.309
+   ]
+  },
+  {
+   "cift": "ferrara + papalik",
+   "km2": 230.2,
+   "cevre_km": 173.5,
+   "ort_genislik_km": 2.654,
+   "parca": 1,
+   "merkez": [
+    44.612,
+    11.163
+   ]
+  },
+  {
+   "cift": "kanem-bornu + kanem-tubu",
+   "km2": 227.6,
+   "cevre_km": 741.3,
+   "ort_genislik_km": 0.614,
+   "parca": 1,
+   "merkez": [
+    13.74,
+    13.721
+   ]
+  },
+  {
+   "cift": "arjantin-cumhuriyeti + bolivya-cumhuriyeti",
+   "km2": 219.9,
+   "cevre_km": 301.2,
+   "ort_genislik_km": 1.46,
+   "parca": 1,
+   "merkez": [
+    -22.47,
+    -65.116
+   ]
+  },
+  {
+   "cift": "bemba + fipa-nyakyusa",
+   "km2": 219.7,
+   "cevre_km": 271.4,
+   "ort_genislik_km": 1.619,
+   "parca": 1,
+   "merkez": [
+    -9.31,
+    32.239
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + sammar",
+   "km2": 216.8,
+   "cevre_km": 549.3,
+   "ort_genislik_km": 0.79,
+   "parca": 1,
+   "merkez": [
+    28.086,
+    38.054
+   ]
+  },
+  {
+   "cift": "afganistan + kacar",
+   "km2": 215.3,
+   "cevre_km": 406.4,
+   "ort_genislik_km": 1.059,
+   "parca": 1,
+   "merkez": [
+    34.637,
+    61.38
+   ]
+  },
+  {
+   "cift": "portekiz + zulu-kralligi",
+   "km2": 213.9,
+   "cevre_km": 161.4,
+   "ort_genislik_km": 2.651,
+   "parca": 1,
+   "merkez": [
+    -27.541,
+    32.38
+   ]
+  },
+  {
+   "cift": "abd + rusya",
+   "km2": 211.4,
+   "cevre_km": 217.8,
+   "ort_genislik_km": 1.941,
+   "parca": 1,
+   "merkez": [
+    38.132,
+    -122.668
+   ]
+  },
+  {
+   "cift": "kuba + lunda-imparatorlugu",
+   "km2": 202.2,
+   "cevre_km": 634.8,
+   "ort_genislik_km": 0.637,
+   "parca": 1,
+   "merkez": [
+    -6.871,
+    21.482
+   ]
+  },
+  {
+   "cift": "ingiltere + yemen",
+   "km2": 198.5,
+   "cevre_km": 142.5,
+   "ort_genislik_km": 2.785,
+   "parca": 1,
+   "merkez": [
+    12.854,
+    44.878
+   ]
+  },
+  {
+   "cift": "ingiltere + umman",
+   "km2": 197.8,
+   "cevre_km": 370.7,
+   "ort_genislik_km": 1.067,
+   "parca": 1,
+   "merkez": [
+    24.803,
+    55.55
+   ]
+  },
+  {
+   "cift": "pavni + wicita",
+   "km2": 196.0,
+   "cevre_km": 392.6,
+   "ort_genislik_km": 0.998,
+   "parca": 1,
+   "merkez": [
+    40.161,
+    -96.663
+   ]
+  },
+  {
+   "cift": "cimma + habesistan",
+   "km2": 194.2,
+   "cevre_km": 244.5,
+   "ort_genislik_km": 1.589,
+   "parca": 1,
+   "merkez": [
+    8.203,
+    37.48
+   ]
+  },
+  {
+   "cift": "papalik + toskana",
+   "km2": 193.4,
+   "cevre_km": 366.5,
+   "ort_genislik_km": 1.055,
+   "parca": 1,
+   "merkez": [
+    43.416,
+    11.89
+   ]
+  },
+  {
+   "cift": "bolivya-cumhuriyeti + peru-cumhuriyeti",
+   "km2": 191.3,
+   "cevre_km": 331.9,
+   "ort_genislik_km": 1.153,
+   "parca": 1,
+   "merkez": [
+    -16.077,
+    -69.043
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + gonja",
+   "km2": 188.4,
+   "cevre_km": 286.5,
+   "ort_genislik_km": 1.315,
+   "parca": 1,
+   "merkez": [
+    6.369,
+    -2.957
+   ]
+  },
+  {
+   "cift": "ingiliz-malaya + malay-sultanliklari",
+   "km2": 181.3,
+   "cevre_km": 178.7,
+   "ort_genislik_km": 2.03,
+   "parca": 1,
+   "merkez": [
+    2.914,
+    102.647
+   ]
+  },
+  {
+   "cift": "karga + sosoni",
+   "km2": 179.0,
+   "cevre_km": 154.1,
+   "ort_genislik_km": 2.323,
+   "parca": 1,
+   "merkez": [
+    44.91,
+    -109.033
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + kayor",
+   "km2": 172.0,
+   "cevre_km": 109.4,
+   "ort_genislik_km": 3.145,
+   "parca": 1,
+   "merkez": [
+    15.769,
+    -16.469
+   ]
+  },
+  {
+   "cift": "rusya + tlingit",
+   "km2": 168.5,
+   "cevre_km": 163.0,
+   "ort_genislik_km": 2.068,
+   "parca": 1,
+   "merkez": [
+    58.143,
+    -136.058
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + merina",
+   "km2": 165.9,
+   "cevre_km": 480.8,
+   "ort_genislik_km": 0.69,
+   "parca": 1,
+   "merkez": [
+    -20.16,
+    46.508
+   ]
+  },
+  {
+   "cift": "nijer-deltasi + tiv",
+   "km2": 163.3,
+   "cevre_km": 189.7,
+   "ort_genislik_km": 1.721,
+   "parca": 1,
+   "merkez": [
+    6.276,
+    8.855
+   ]
+  },
+  {
+   "cift": "guatemala + ingiltere",
+   "km2": 162.5,
+   "cevre_km": 365.4,
+   "ort_genislik_km": 0.89,
+   "parca": 1,
+   "merkez": [
+    16.77,
+    -88.916
+   ]
+  },
+  {
+   "cift": "dan-guro + kenedugu",
+   "km2": 161.5,
+   "cevre_km": 407.0,
+   "ort_genislik_km": 0.793,
+   "parca": 1,
+   "merkez": [
+    10.027,
+    -6.01
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + ispanya",
+   "km2": 161.3,
+   "cevre_km": 651.0,
+   "ort_genislik_km": 0.496,
+   "parca": 1,
+   "merkez": [
+    42.333,
+    0.828
+   ]
+  },
+  {
+   "cift": "adar + zerma",
+   "km2": 158.5,
+   "cevre_km": 490.9,
+   "ort_genislik_km": 0.646,
+   "parca": 1,
+   "merkez": [
+    12.718,
+    3.79
+   ]
+  },
+  {
+   "cift": "pedi + venda",
+   "km2": 157.9,
+   "cevre_km": 306.3,
+   "ort_genislik_km": 1.031,
+   "parca": 1,
+   "merkez": [
+    -23.901,
+    29.888
+   ]
+  },
+  {
+   "cift": "ingiliz-kuzey-amerika + ojibwe",
+   "km2": 155.5,
+   "cevre_km": 376.9,
+   "ort_genislik_km": 0.825,
+   "parca": 1,
+   "merkez": [
+    46.112,
+    -87.613
+   ]
+  },
+  {
+   "cift": "eve-notse + gonja",
+   "km2": 154.1,
+   "cevre_km": 232.0,
+   "ort_genislik_km": 1.328,
+   "parca": 1,
+   "merkez": [
+    7.188,
+    -0.023
+   ]
+  },
+  {
+   "cift": "basuto + zulu-kralligi",
+   "km2": 153.1,
+   "cevre_km": 186.7,
+   "ort_genislik_km": 1.64,
+   "parca": 1,
+   "merkez": [
+    -28.44,
+    28.683
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + adal",
+   "km2": 149.1,
+   "cevre_km": 179.1,
+   "ort_genislik_km": 1.665,
+   "parca": 1,
+   "merkez": [
+    11.502,
+    42.978
+   ]
+  },
+  {
+   "cift": "abd + mandan",
+   "km2": 147.9,
+   "cevre_km": 227.9,
+   "ort_genislik_km": 1.298,
+   "parca": 1,
+   "merkez": [
+    45.558,
+    -100.587
+   ]
+  },
+  {
+   "cift": "abd + karga",
+   "km2": 146.8,
+   "cevre_km": 621.3,
+   "ort_genislik_km": 0.473,
+   "parca": 1,
+   "merkez": [
+    47.87,
+    -106.285
+   ]
+  },
+  {
+   "cift": "antandroy + antemoro",
+   "km2": 139.7,
+   "cevre_km": 482.2,
+   "ort_genislik_km": 0.58,
+   "parca": 1,
+   "merkez": [
+    -22.643,
+    46.911
+   ]
+  },
+  {
+   "cift": "fipa-nyakyusa + ngonde",
+   "km2": 133.8,
+   "cevre_km": 275.0,
+   "ort_genislik_km": 0.973,
+   "parca": 1,
+   "merkez": [
+    -9.6,
+    33.527
+   ]
+  },
+  {
+   "cift": "mapuche-araukanya + sili-cumhuriyeti",
+   "km2": 132.4,
+   "cevre_km": 413.4,
+   "ort_genislik_km": 0.641,
+   "parca": 1,
+   "merkez": [
+    -38.511,
+    -72.003
+   ]
+  },
+  {
+   "cift": "jukun-kvararafa + sokoto",
+   "km2": 123.2,
+   "cevre_km": 372.4,
+   "ort_genislik_km": 0.662,
+   "parca": 1,
+   "merkez": [
+    8.803,
+    10.711
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + yemen",
+   "km2": 121.7,
+   "cevre_km": 541.2,
+   "ort_genislik_km": 0.45,
+   "parca": 1,
+   "merkez": [
+    13.757,
+    43.92
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + sine-salum",
+   "km2": 121.3,
+   "cevre_km": 58.7,
+   "ort_genislik_km": 4.135,
+   "parca": 1,
+   "merkez": [
+    14.736,
+    -17.449
+   ]
+  },
+  {
+   "cift": "kanem-bornu + sokoto",
+   "km2": 118.8,
+   "cevre_km": 724.8,
+   "ort_genislik_km": 0.328,
+   "parca": 1,
+   "merkez": [
+    12.184,
+    9.197
+   ]
+  },
+  {
+   "cift": "bagirmi + vaday",
+   "km2": 117.1,
+   "cevre_km": 244.5,
+   "ort_genislik_km": 0.958,
+   "parca": 1,
+   "merkez": [
+    12.534,
+    20.141
+   ]
+  },
+  {
+   "cift": "massina + mossi-vagadugu",
+   "km2": 117.0,
+   "cevre_km": 405.5,
+   "ort_genislik_km": 0.577,
+   "parca": 1,
+   "merkez": [
+    12.615,
+    -3.859
+   ]
+  },
+  {
+   "cift": "tsvana + zulu-kralligi",
+   "km2": 113.3,
+   "cevre_km": 174.2,
+   "ort_genislik_km": 1.301,
+   "parca": 1,
+   "merkez": [
+    -27.015,
+    28.67
+   ]
+  },
+  {
+   "cift": "gvalyar + ingiliz-hindistani",
+   "km2": 111.3,
+   "cevre_km": 343.2,
+   "ort_genislik_km": 0.649,
+   "parca": 1,
+   "merkez": [
+    26.402,
+    78.586
+   ]
+  },
+  {
+   "cift": "almanya + belcika",
+   "km2": 106.7,
+   "cevre_km": 114.7,
+   "ort_genislik_km": 1.86,
+   "parca": 1,
+   "merkez": [
+    50.203,
+    6.039
+   ]
+  },
+  {
+   "cift": "kongre-polonyasi + rusya",
+   "km2": 106.2,
+   "cevre_km": 545.3,
+   "ort_genislik_km": 0.39,
+   "parca": 1,
+   "merkez": [
+    52.126,
+    22.364
+   ]
+  },
+  {
+   "cift": "bhopal + maratha",
+   "km2": 105.9,
+   "cevre_km": 298.5,
+   "ort_genislik_km": 0.71,
+   "parca": 1,
+   "merkez": [
+    22.576,
+    78.648
+   ]
+  },
+  {
+   "cift": "karagve + ruanda",
+   "km2": 105.0,
+   "cevre_km": 246.5,
+   "ort_genislik_km": 0.852,
+   "parca": 1,
+   "merkez": [
+    -2.334,
+    30.812
+   ]
+  },
+  {
+   "cift": "inuit + rusya",
+   "km2": 104.1,
+   "cevre_km": 312.8,
+   "ort_genislik_km": 0.665,
+   "parca": 1,
+   "merkez": [
+    65.567,
+    -158.107
+   ]
+  },
+  {
+   "cift": "bahavelpur + ingiliz-hindistani",
+   "km2": 102.3,
+   "cevre_km": 559.0,
+   "ort_genislik_km": 0.366,
+   "parca": 1,
+   "merkez": [
+    29.864,
+    71.975
+   ]
+  },
+  {
+   "cift": "meksika + mohave",
+   "km2": 101.1,
+   "cevre_km": 234.0,
+   "ort_genislik_km": 0.864,
+   "parca": 1,
+   "merkez": [
+    34.058,
+    -114.365
+   ]
+  },
+  {
+   "cift": "asanti + ingiltere",
+   "km2": 94.6,
+   "cevre_km": 237.8,
+   "ort_genislik_km": 0.796,
+   "parca": 1,
+   "merkez": [
+    5.966,
+    -1.152
+   ]
+  },
+  {
+   "cift": "asanti + fransa-cumhuriyet",
+   "km2": 93.6,
+   "cevre_km": 161.4,
+   "ort_genislik_km": 1.159,
+   "parca": 1,
+   "merkez": [
+    6.172,
+    -2.729
+   ]
+  },
+  {
+   "cift": "cohor-sultanligi + malay-sultanliklari",
+   "km2": 92.3,
+   "cevre_km": 160.7,
+   "ort_genislik_km": 1.148,
+   "parca": 1,
+   "merkez": [
+    2.541,
+    103.356
+   ]
+  },
+  {
+   "cift": "prusya + rusya",
+   "km2": 92.2,
+   "cevre_km": 496.9,
+   "ort_genislik_km": 0.371,
+   "parca": 1,
+   "merkez": [
+    54.331,
+    21.783
+   ]
+  },
+  {
+   "cift": "OSM-tabi + darfur",
+   "km2": 91.7,
+   "cevre_km": 797.3,
+   "ort_genislik_km": 0.23,
+   "parca": 1,
+   "merkez": [
+    13.201,
+    27.171
+   ]
+  },
+  {
+   "cift": "kong-vattara + mossi-vagadugu",
+   "km2": 89.9,
+   "cevre_km": 306.7,
+   "ort_genislik_km": 0.586,
+   "parca": 1,
+   "merkez": [
+    10.243,
+    -5.131
+   ]
+  },
+  {
+   "cift": "mohave + yavapai",
+   "km2": 88.8,
+   "cevre_km": 283.8,
+   "ort_genislik_km": 0.626,
+   "parca": 1,
+   "merkez": [
+    35.28,
+    -113.502
+   ]
+  },
+  {
+   "cift": "ispanya + magindanao-sultanligi",
+   "km2": 87.9,
+   "cevre_km": 136.2,
+   "ort_genislik_km": 1.291,
+   "parca": 1,
+   "merkez": [
+    7.871,
+    125.239
+   ]
+  },
+  {
+   "cift": "abd + ponka",
+   "km2": 85.6,
+   "cevre_km": 382.0,
+   "ort_genislik_km": 0.448,
+   "parca": 1,
+   "merkez": [
+    37.111,
+    -95.502
+   ]
+  },
+  {
+   "cift": "ovambo + ovimbundu",
+   "km2": 84.0,
+   "cevre_km": 579.1,
+   "ort_genislik_km": 0.29,
+   "parca": 1,
+   "merkez": [
+    -16.251,
+    17.24
+   ]
+  },
+  {
+   "cift": "babur-imparatorlugu + maratha",
+   "km2": 83.7,
+   "cevre_km": 251.2,
+   "ort_genislik_km": 0.667,
+   "parca": 1,
+   "merkez": [
+    21.637,
+    75.577
+   ]
+  },
+  {
+   "cift": "transvaal + zulu-kralligi",
+   "km2": 82.7,
+   "cevre_km": 284.8,
+   "ort_genislik_km": 0.581,
+   "parca": 1,
+   "merkez": [
+    -27.063,
+    28.604
+   ]
+  },
+  {
+   "cift": "laos-kralliklari + san-devletleri",
+   "km2": 82.0,
+   "cevre_km": 159.0,
+   "ort_genislik_km": 1.032,
+   "parca": 1,
+   "merkez": [
+    20.88,
+    100.53
+   ]
+  },
+  {
+   "cift": "mangbetu + zende",
+   "km2": 82.0,
+   "cevre_km": 144.0,
+   "ort_genislik_km": 1.139,
+   "parca": 1,
+   "merkez": [
+    3.922,
+    26.547
+   ]
+  },
+  {
+   "cift": "bamum + jukun-kvararafa",
+   "km2": 79.3,
+   "cevre_km": 288.6,
+   "ort_genislik_km": 0.549,
+   "parca": 1,
+   "merkez": [
+    6.521,
+    10.044
+   ]
+  },
+  {
+   "cift": "almanya + danimarka",
+   "km2": 77.7,
+   "cevre_km": 209.1,
+   "ort_genislik_km": 0.743,
+   "parca": 1,
+   "merkez": [
+    54.708,
+    9.959
+   ]
+  },
+  {
+   "cift": "bugis-kralliklari + hollanda-dogu-hint",
+   "km2": 76.2,
+   "cevre_km": 154.8,
+   "ort_genislik_km": 0.984,
+   "parca": 1,
+   "merkez": [
+    -4.571,
+    119.722
+   ]
+  },
+  {
+   "cift": "buhara + hive",
+   "km2": 74.4,
+   "cevre_km": 234.6,
+   "ort_genislik_km": 0.635,
+   "parca": 1,
+   "merkez": [
+    40.221,
+    62.552
+   ]
+  },
+  {
+   "cift": "umman-zengibar + yao",
+   "km2": 74.2,
+   "cevre_km": 534.6,
+   "ort_genislik_km": 0.277,
+   "parca": 1,
+   "merkez": [
+    -11.458,
+    37.652
+   ]
+  },
+  {
+   "cift": "buhara + hokand",
+   "km2": 73.3,
+   "cevre_km": 371.8,
+   "ort_genislik_km": 0.394,
+   "parca": 1,
+   "merkez": [
+    40.436,
+    68.93
+   ]
+  },
+  {
+   "cift": "cunagadh + ingiliz-hindistani",
+   "km2": 72.8,
+   "cevre_km": 188.7,
+   "ort_genislik_km": 0.772,
+   "parca": 1,
+   "merkez": [
+    22.636,
+    71.175
+   ]
+  },
+  {
+   "cift": "komanci + meksika",
+   "km2": 72.6,
+   "cevre_km": 348.3,
+   "ort_genislik_km": 0.417,
+   "parca": 1,
+   "merkez": [
+    35.042,
+    -103.082
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + yunanistan",
+   "km2": 69.7,
+   "cevre_km": 302.6,
+   "ort_genislik_km": 0.461,
+   "parca": 1,
+   "merkez": [
+    38.746,
+    21.978
+   ]
+  },
+  {
+   "cift": "avusturya + karadag",
+   "km2": 69.2,
+   "cevre_km": 138.6,
+   "ort_genislik_km": 1.0,
+   "parca": 1,
+   "merkez": [
+    42.513,
+    18.871
+   ]
+  },
+  {
+   "cift": "kasance + lunda-imparatorlugu",
+   "km2": 67.0,
+   "cevre_km": 507.7,
+   "ort_genislik_km": 0.264,
+   "parca": 1,
+   "merkez": [
+    -8.599,
+    19.055
+   ]
+  },
+  {
+   "cift": "OSM-tabi + sammar",
+   "km2": 66.9,
+   "cevre_km": 256.6,
+   "ort_genislik_km": 0.521,
+   "parca": 1,
+   "merkez": [
+    26.713,
+    40.33
+   ]
+  },
+  {
+   "cift": "kolhapur + portekiz",
+   "km2": 66.2,
+   "cevre_km": 232.3,
+   "ort_genislik_km": 0.57,
+   "parca": 1,
+   "merkez": [
+    16.253,
+    73.673
+   ]
+  },
+  {
+   "cift": "jukun-kvararafa + tiv",
+   "km2": 66.0,
+   "cevre_km": 435.4,
+   "ort_genislik_km": 0.303,
+   "parca": 1,
+   "merkez": [
+    6.676,
+    9.224
+   ]
+  },
+  {
+   "cift": "meksika + yavapai",
+   "km2": 65.6,
+   "cevre_km": 268.7,
+   "ort_genislik_km": 0.488,
+   "parca": 1,
+   "merkez": [
+    33.567,
+    -113.151
+   ]
+  },
+  {
+   "cift": "ingiliz-hindistani + nepal",
+   "km2": 64.3,
+   "cevre_km": 386.4,
+   "ort_genislik_km": 0.333,
+   "parca": 1,
+   "merkez": [
+    27.592,
+    84.447
+   ]
+  },
+  {
+   "cift": "konbaung + siyam-chakri",
+   "km2": 63.1,
+   "cevre_km": 168.0,
+   "ort_genislik_km": 0.752,
+   "parca": 1,
+   "merkez": [
+    17.525,
+    98.403
+   ]
+  },
+  {
+   "cift": "fas + fransa-cumhuriyet",
+   "km2": 62.0,
+   "cevre_km": 375.2,
+   "ort_genislik_km": 0.33,
+   "parca": 1,
+   "merkez": [
+    34.839,
+    -1.917
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + moritanya-emirlikleri",
+   "km2": 61.2,
+   "cevre_km": 109.5,
+   "ort_genislik_km": 1.119,
+   "parca": 1,
+   "merkez": [
+    15.734,
+    -11.89
+   ]
+  },
+  {
+   "cift": "hollanda-dogu-hint + kutai",
+   "km2": 60.9,
+   "cevre_km": 347.1,
+   "ort_genislik_km": 0.351,
+   "parca": 1,
+   "merkez": [
+    1.234,
+    117.653
+   ]
+  },
+  {
+   "cift": "dagbon + eve-notse",
+   "km2": 58.8,
+   "cevre_km": 255.2,
+   "ort_genislik_km": 0.461,
+   "parca": 1,
+   "merkez": [
+    8.234,
+    0.805
+   ]
+  },
+  {
+   "cift": "ispanya + meksika",
+   "km2": 58.3,
+   "cevre_km": 175.5,
+   "ort_genislik_km": 0.664,
+   "parca": 1,
+   "merkez": [
+    22.792,
+    -80.996
+   ]
+  },
+  {
+   "cift": "gambiya-mandinka + valo",
+   "km2": 54.8,
+   "cevre_km": 218.8,
+   "ort_genislik_km": 0.501,
+   "parca": 1,
+   "merkez": [
+    14.852,
+    -16.788
+   ]
+  },
+  {
+   "cift": "sine-salum + valo",
+   "km2": 54.8,
+   "cevre_km": 218.8,
+   "ort_genislik_km": 0.501,
+   "parca": 1,
+   "merkez": [
+    14.852,
+    -16.788
+   ]
+  },
+  {
+   "cift": "borgu + ibadan",
+   "km2": 53.9,
+   "cevre_km": 213.8,
+   "ort_genislik_km": 0.504,
+   "parca": 1,
+   "merkez": [
+    8.441,
+    3.114
+   ]
+  },
+  {
+   "cift": "benin-kralligi + borgu",
+   "km2": 53.7,
+   "cevre_km": 206.5,
+   "ort_genislik_km": 0.52,
+   "parca": 1,
+   "merkez": [
+    8.441,
+    3.113
+   ]
+  },
+  {
+   "cift": "pedi + svazi",
+   "km2": 53.1,
+   "cevre_km": 209.6,
+   "ort_genislik_km": 0.506,
+   "parca": 1,
+   "merkez": [
+    -25.599,
+    30.572
+   ]
+  },
+  {
+   "cift": "dogu-sumatra-sultanliklari + malay-sultanliklari",
+   "km2": 50.3,
+   "cevre_km": 80.6,
+   "ort_genislik_km": 1.248,
+   "parca": 4,
+   "merkez": [
+    2.108,
+    101.21
+   ]
+  },
+  {
+   "cift": "adamava + jukun-kvararafa",
+   "km2": 48.6,
+   "cevre_km": 320.3,
+   "ort_genislik_km": 0.303,
+   "parca": 1,
+   "merkez": [
+    8.495,
+    11.197
+   ]
+  },
+  {
+   "cift": "basuto + griqua",
+   "km2": 45.9,
+   "cevre_km": 325.5,
+   "ort_genislik_km": 0.282,
+   "parca": 1,
+   "merkez": [
+    -29.902,
+    26.747
+   ]
+  },
+  {
+   "cift": "maratha + racput",
+   "km2": 45.0,
+   "cevre_km": 278.9,
+   "ort_genislik_km": 0.323,
+   "parca": 1,
+   "merkez": [
+    23.757,
+    74.748
+   ]
+  },
+  {
+   "cift": "ruanda + toro",
+   "km2": 44.9,
+   "cevre_km": 38.1,
+   "ort_genislik_km": 2.36,
+   "parca": 1,
+   "merkez": [
+    -0.968,
+    29.379
+   ]
+  },
+  {
+   "cift": "hidatsa + mandan",
+   "km2": 44.8,
+   "cevre_km": 347.5,
+   "ort_genislik_km": 0.258,
+   "parca": 1,
+   "merkez": [
+    47.186,
+    -100.93
+   ]
+  },
+  {
+   "cift": "ponka + wicita",
+   "km2": 44.4,
+   "cevre_km": 526.6,
+   "ort_genislik_km": 0.169,
+   "parca": 1,
+   "merkez": [
+    37.767,
+    -96.327
+   ]
+  },
+  {
+   "cift": "laos-kralliklari + nguyen-hanedani",
+   "km2": 43.9,
+   "cevre_km": 493.1,
+   "ort_genislik_km": 0.178,
+   "parca": 1,
+   "merkez": [
+    17.351,
+    105.775
+   ]
+  },
+  {
+   "cift": "payut + sosoni",
+   "km2": 41.5,
+   "cevre_km": 192.5,
+   "ort_genislik_km": 0.431,
+   "parca": 1,
+   "merkez": [
+    36.644,
+    -117.794
+   ]
+  },
+  {
+   "cift": "manica + portekiz",
+   "km2": 40.6,
+   "cevre_km": 391.9,
+   "ort_genislik_km": 0.207,
+   "parca": 1,
+   "merkez": [
+    -18.3,
+    33.573
+   ]
+  },
+  {
+   "cift": "avusturya + papalik",
+   "km2": 39.9,
+   "cevre_km": 185.9,
+   "ort_genislik_km": 0.43,
+   "parca": 1,
+   "merkez": [
+    45.009,
+    12.275
+   ]
+  },
+  {
+   "cift": "ferrara + parma",
+   "km2": 39.8,
+   "cevre_km": 93.5,
+   "ort_genislik_km": 0.852,
+   "parca": 1,
+   "merkez": [
+    44.508,
+    10.459
+   ]
+  },
+  {
+   "cift": "bharatpur-cat + gvalyar",
+   "km2": 38.6,
+   "cevre_km": 160.6,
+   "ort_genislik_km": 0.481,
+   "parca": 1,
+   "merkez": [
+    26.218,
+    77.005
+   ]
+  },
+  {
+   "cift": "adamava + kanem-bornu",
+   "km2": 38.0,
+   "cevre_km": 291.6,
+   "ort_genislik_km": 0.26,
+   "parca": 1,
+   "merkez": [
+    11.367,
+    14.508
+   ]
+  },
+  {
+   "cift": "bhopal + haydarabad-nizam",
+   "km2": 35.8,
+   "cevre_km": 172.5,
+   "ort_genislik_km": 0.415,
+   "parca": 1,
+   "merkez": [
+    22.232,
+    77.169
+   ]
+  },
+  {
+   "cift": "portekiz + sine-salum",
+   "km2": 35.8,
+   "cevre_km": 189.4,
+   "ort_genislik_km": 0.378,
+   "parca": 1,
+   "merkez": [
+    12.928,
+    -15.923
+   ]
+  },
+  {
+   "cift": "adar + borgu",
+   "km2": 35.2,
+   "cevre_km": 87.3,
+   "ort_genislik_km": 0.807,
+   "parca": 1,
+   "merkez": [
+    11.508,
+    3.918
+   ]
+  },
+  {
+   "cift": "hollanda-guyanasi + ingiliz-guyanasi",
+   "km2": 34.8,
+   "cevre_km": 143.2,
+   "ort_genislik_km": 0.486,
+   "parca": 1,
+   "merkez": [
+    5.66,
+    -56.424
+   ]
+  },
+  {
+   "cift": "kenya-kuzey-halklari + somali",
+   "km2": 34.3,
+   "cevre_km": 446.8,
+   "ort_genislik_km": 0.154,
+   "parca": 1,
+   "merkez": [
+    1.699,
+    41.132
+   ]
+  },
+  {
+   "cift": "kongre-polonyasi + prusya",
+   "km2": 34.2,
+   "cevre_km": 318.0,
+   "ort_genislik_km": 0.215,
+   "parca": 1,
+   "merkez": [
+    52.46,
+    19.401
+   ]
+  },
+  {
+   "cift": "OSM-tabi + eflak",
+   "km2": 33.8,
+   "cevre_km": 262.0,
+   "ort_genislik_km": 0.258,
+   "parca": 1,
+   "merkez": [
+    44.264,
+    25.507
+   ]
+  },
+  {
+   "cift": "nkore + ruanda",
+   "km2": 33.1,
+   "cevre_km": 148.3,
+   "ort_genislik_km": 0.446,
+   "parca": 1,
+   "merkez": [
+    -0.984,
+    29.496
+   ]
+  },
+  {
+   "cift": "buhara + kacar",
+   "km2": 32.6,
+   "cevre_km": 498.1,
+   "ort_genislik_km": 0.131,
+   "parca": 1,
+   "merkez": [
+    37.378,
+    60.708
+   ]
+  },
+  {
+   "cift": "hollanda + ingiltere",
+   "km2": 32.6,
+   "cevre_km": 120.7,
+   "ort_genislik_km": 0.541,
+   "parca": 1,
+   "merkez": [
+    5.562,
+    -1.489
+   ]
+  },
+  {
+   "cift": "karagve + nkore",
+   "km2": 32.3,
+   "cevre_km": 209.5,
+   "ort_genislik_km": 0.309,
+   "parca": 1,
+   "merkez": [
+    -1.127,
+    31.58
+   ]
+  },
+  {
+   "cift": "bagirmi + kanem-bornu",
+   "km2": 31.6,
+   "cevre_km": 57.5,
+   "ort_genislik_km": 1.099,
+   "parca": 1,
+   "merkez": [
+    12.882,
+    16.368
+   ]
+  },
+  {
+   "cift": "bagirmi + kanem-tubu",
+   "km2": 31.5,
+   "cevre_km": 424.7,
+   "ort_genislik_km": 0.148,
+   "parca": 1,
+   "merkez": [
+    12.444,
+    17.868
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + tuareg-accer",
+   "km2": 31.0,
+   "cevre_km": 401.6,
+   "ort_genislik_km": 0.155,
+   "parca": 1,
+   "merkez": [
+    26.256,
+    9.938
+   ]
+  },
+  {
+   "cift": "dene + secwepemc",
+   "km2": 30.3,
+   "cevre_km": 119.1,
+   "ort_genislik_km": 0.509,
+   "parca": 1,
+   "merkez": [
+    51.544,
+    -121.752
+   ]
+  },
+  {
+   "cift": "avusturya + kongre-polonyasi",
+   "km2": 30.0,
+   "cevre_km": 652.0,
+   "ort_genislik_km": 0.092,
+   "parca": 1,
+   "merkez": [
+    50.62,
+    20.97
+   ]
+  },
+  {
+   "cift": "komanci + wicita",
+   "km2": 29.1,
+   "cevre_km": 152.1,
+   "ort_genislik_km": 0.383,
+   "parca": 1,
+   "merkez": [
+    34.693,
+    -100.111
+   ]
+  },
+  {
+   "cift": "gonja + ingiltere",
+   "km2": 28.7,
+   "cevre_km": 97.0,
+   "ort_genislik_km": 0.592,
+   "parca": 1,
+   "merkez": [
+    5.943,
+    -1.297
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + ingiltere",
+   "km2": 28.4,
+   "cevre_km": 41.8,
+   "ort_genislik_km": 1.361,
+   "parca": 1,
+   "merkez": [
+    38.614,
+    20.909
+   ]
+  },
+  {
+   "cift": "ingiltere + meksika",
+   "km2": 28.1,
+   "cevre_km": 288.8,
+   "ort_genislik_km": 0.195,
+   "parca": 1,
+   "merkez": [
+    17.193,
+    -89.016
+   ]
+  },
+  {
+   "cift": "afganistan + ingiliz-hindistani",
+   "km2": 27.8,
+   "cevre_km": 293.1,
+   "ort_genislik_km": 0.19,
+   "parca": 1,
+   "merkez": [
+    33.65,
+    69.668
+   ]
+  },
+  {
+   "cift": "avusturya + sardinya",
+   "km2": 27.5,
+   "cevre_km": 230.6,
+   "ort_genislik_km": 0.238,
+   "parca": 1,
+   "merkez": [
+    44.888,
+    9.275
+   ]
+  },
+  {
+   "cift": "pedi + transvaal",
+   "km2": 26.7,
+   "cevre_km": 229.7,
+   "ort_genislik_km": 0.233,
+   "parca": 1,
+   "merkez": [
+    -24.869,
+    29.001
+   ]
+  },
+  {
+   "cift": "pedi + tsvana",
+   "km2": 26.7,
+   "cevre_km": 229.7,
+   "ort_genislik_km": 0.233,
+   "parca": 1,
+   "merkez": [
+    -24.869,
+    29.001
+   ]
+  },
+  {
+   "cift": "bemba + lozi",
+   "km2": 26.5,
+   "cevre_km": 78.1,
+   "ort_genislik_km": 0.68,
+   "parca": 1,
+   "merkez": [
+    -12.314,
+    24.755
+   ]
+  },
+  {
+   "cift": "bate + solima-yalunka",
+   "km2": 26.4,
+   "cevre_km": 363.8,
+   "ort_genislik_km": 0.145,
+   "parca": 1,
+   "merkez": [
+    10.572,
+    -9.999
+   ]
+  },
+  {
+   "cift": "bate + futa-callon",
+   "km2": 26.4,
+   "cevre_km": 221.9,
+   "ort_genislik_km": 0.238,
+   "parca": 1,
+   "merkez": [
+    10.572,
+    -9.999
+   ]
+  },
+  {
+   "cift": "antandroy + merina",
+   "km2": 26.2,
+   "cevre_km": 199.9,
+   "ort_genislik_km": 0.263,
+   "parca": 1,
+   "merkez": [
+    -21.905,
+    46.582
+   ]
+  },
+  {
+   "cift": "basuto + oranj",
+   "km2": 25.0,
+   "cevre_km": 251.4,
+   "ort_genislik_km": 0.199,
+   "parca": 1,
+   "merkez": [
+    -29.557,
+    26.803
+   ]
+  },
+  {
+   "cift": "gvalyar + racput",
+   "km2": 24.6,
+   "cevre_km": 109.0,
+   "ort_genislik_km": 0.451,
+   "parca": 1,
+   "merkez": [
+    26.035,
+    76.81
+   ]
+  },
+  {
+   "cift": "bambara + bate",
+   "km2": 24.1,
+   "cevre_km": 50.4,
+   "ort_genislik_km": 0.954,
+   "parca": 1,
+   "merkez": [
+    11.067,
+    -9.348
+   ]
+  },
+  {
+   "cift": "merina + sakalava-boina",
+   "km2": 23.9,
+   "cevre_km": 360.5,
+   "ort_genislik_km": 0.133,
+   "parca": 1,
+   "merkez": [
+    -17.969,
+    46.706
+   ]
+  },
+  {
+   "cift": "habesistan + kaffa",
+   "km2": 21.9,
+   "cevre_km": 102.1,
+   "ort_genislik_km": 0.429,
+   "parca": 1,
+   "merkez": [
+    7.072,
+    36.502
+   ]
+  },
+  {
+   "cift": "cohor-sultanligi + dogu-sumatra-sultanliklari",
+   "km2": 21.0,
+   "cevre_km": 127.6,
+   "ort_genislik_km": 0.33,
+   "parca": 1,
+   "merkez": [
+    -0.235,
+    104.137
+   ]
+  },
+  {
+   "cift": "ingiltere + portekiz",
+   "km2": 21.0,
+   "cevre_km": 97.7,
+   "ort_genislik_km": 0.43,
+   "parca": 1,
+   "merkez": [
+    12.761,
+    -16.621
+   ]
+  },
+  {
+   "cift": "dagbon + mossi-vagadugu",
+   "km2": 20.5,
+   "cevre_km": 276.2,
+   "ort_genislik_km": 0.148,
+   "parca": 1,
+   "merkez": [
+    10.547,
+    -0.644
+   ]
+  },
+  {
+   "cift": "griqua + transvaal",
+   "km2": 19.8,
+   "cevre_km": 149.6,
+   "ort_genislik_km": 0.264,
+   "parca": 1,
+   "merkez": [
+    -27.811,
+    26.504
+   ]
+  },
+  {
+   "cift": "darfur + vaday",
+   "km2": 19.7,
+   "cevre_km": 560.7,
+   "ort_genislik_km": 0.07,
+   "parca": 1,
+   "merkez": [
+    14.221,
+    21.929
+   ]
+  },
+  {
+   "cift": "asanti + hollanda",
+   "km2": 19.3,
+   "cevre_km": 104.4,
+   "ort_genislik_km": 0.37,
+   "parca": 1,
+   "merkez": [
+    5.774,
+    -2.05
+   ]
+  },
+  {
+   "cift": "gonja + hollanda",
+   "km2": 19.3,
+   "cevre_km": 104.4,
+   "ort_genislik_km": 0.37,
+   "parca": 1,
+   "merkez": [
+    5.774,
+    -2.05
+   ]
+  },
+  {
+   "cift": "nuu-cah-nulth + nuxalk",
+   "km2": 18.5,
+   "cevre_km": 34.9,
+   "ort_genislik_km": 1.061,
+   "parca": 2,
+   "merkez": [
+    50.673,
+    -126.211
+   ]
+  },
+  {
+   "cift": "gurma + zerma",
+   "km2": 17.4,
+   "cevre_km": 370.1,
+   "ort_genislik_km": 0.094,
+   "parca": 1,
+   "merkez": [
+    13.079,
+    0.39
+   ]
+  },
+  {
+   "cift": "damagaram + kanem-tubu",
+   "km2": 17.2,
+   "cevre_km": 209.7,
+   "ort_genislik_km": 0.164,
+   "parca": 1,
+   "merkez": [
+    14.995,
+    11.588
+   ]
+  },
+  {
+   "cift": "benin-kralligi + jukun-kvararafa",
+   "km2": 16.9,
+   "cevre_km": 277.7,
+   "ort_genislik_km": 0.121,
+   "parca": 1,
+   "merkez": [
+    6.797,
+    6.656
+   ]
+  },
+  {
+   "cift": "benin-kralligi + dahomey",
+   "km2": 16.9,
+   "cevre_km": 259.6,
+   "ort_genislik_km": 0.13,
+   "parca": 1,
+   "merkez": [
+    6.989,
+    2.767
+   ]
+  },
+  {
+   "cift": "bemba + ngonde",
+   "km2": 16.4,
+   "cevre_km": 150.5,
+   "ort_genislik_km": 0.218,
+   "parca": 1,
+   "merkez": [
+    -11.076,
+    32.597
+   ]
+  },
+  {
+   "cift": "bharatpur-cat + ingiliz-hindistani",
+   "km2": 15.5,
+   "cevre_km": 220.2,
+   "ort_genislik_km": 0.14,
+   "parca": 1,
+   "merkez": [
+    27.551,
+    77.195
+   ]
+  },
+  {
+   "cift": "birom-plato + jukun-kvararafa",
+   "km2": 15.4,
+   "cevre_km": 115.9,
+   "ort_genislik_km": 0.266,
+   "parca": 1,
+   "merkez": [
+    9.133,
+    9.661
+   ]
+  },
+  {
+   "cift": "lakota + mandan",
+   "km2": 15.1,
+   "cevre_km": 138.7,
+   "ort_genislik_km": 0.217,
+   "parca": 1,
+   "merkez": [
+    46.765,
+    -99.737
+   ]
+  },
+  {
+   "cift": "liptako + mossi-vagadugu",
+   "km2": 14.5,
+   "cevre_km": 309.5,
+   "ort_genislik_km": 0.094,
+   "parca": 1,
+   "merkez": [
+    13.837,
+    -1.097
+   ]
+  },
+  {
+   "cift": "mossi-vagadugu + zerma",
+   "km2": 14.5,
+   "cevre_km": 309.5,
+   "ort_genislik_km": 0.094,
+   "parca": 1,
+   "merkez": [
+    13.837,
+    -1.097
+   ]
+  },
+  {
+   "cift": "hollanda-dogu-hint + tidore-sultanligi",
+   "km2": 14.4,
+   "cevre_km": 90.3,
+   "ort_genislik_km": 0.318,
+   "parca": 1,
+   "merkez": [
+    0.878,
+    127.81
+   ]
+  },
+  {
+   "cift": "avusturya + parma",
+   "km2": 14.3,
+   "cevre_km": 179.5,
+   "ort_genislik_km": 0.159,
+   "parca": 1,
+   "merkez": [
+    45.162,
+    10.271
+   ]
+  },
+  {
+   "cift": "hidatsa + lakota",
+   "km2": 14.0,
+   "cevre_km": 121.4,
+   "ort_genislik_km": 0.23,
+   "parca": 1,
+   "merkez": [
+    47.967,
+    -100.984
+   ]
+  },
+  {
+   "cift": "babur-imparatorlugu + indor",
+   "km2": 13.5,
+   "cevre_km": 115.2,
+   "ort_genislik_km": 0.235,
+   "parca": 1,
+   "merkez": [
+    22.086,
+    76.114
+   ]
+  },
+  {
+   "cift": "sammar + suud",
+   "km2": 13.3,
+   "cevre_km": 287.0,
+   "ort_genislik_km": 0.093,
+   "parca": 1,
+   "merkez": [
+    26.169,
+    42.315
+   ]
+  },
+  {
+   "cift": "babur-imparatorlugu + bhopal",
+   "km2": 12.9,
+   "cevre_km": 32.4,
+   "ort_genislik_km": 0.795,
+   "parca": 1,
+   "merkez": [
+    22.237,
+    76.969
+   ]
+  },
+  {
+   "cift": "avusturya + prusya",
+   "km2": 12.7,
+   "cevre_km": 144.4,
+   "ort_genislik_km": 0.176,
+   "parca": 1,
+   "merkez": [
+    51.125,
+    18.358
+   ]
+  },
+  {
+   "cift": "hollanda-dogu-hint + yogyakarta",
+   "km2": 11.7,
+   "cevre_km": 133.3,
+   "ort_genislik_km": 0.175,
+   "parca": 1,
+   "merkez": [
+    -7.383,
+    109.896
+   ]
+  },
+  {
+   "cift": "bundu + fransa-cumhuriyet",
+   "km2": 10.9,
+   "cevre_km": 222.2,
+   "ort_genislik_km": 0.098,
+   "parca": 1,
+   "merkez": [
+    14.883,
+    -13.326
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + gyaaman",
+   "km2": 10.4,
+   "cevre_km": 64.8,
+   "ort_genislik_km": 0.32,
+   "parca": 1,
+   "merkez": [
+    6.653,
+    -3.456
+   ]
+  },
+  {
+   "cift": "ingiltere + oranj",
+   "km2": 10.0,
+   "cevre_km": 139.8,
+   "ort_genislik_km": 0.143,
+   "parca": 1,
+   "merkez": [
+    -27.788,
+    26.433
+   ]
+  },
+  {
+   "cift": "oranj + transvaal",
+   "km2": 10.0,
+   "cevre_km": 139.8,
+   "ort_genislik_km": 0.143,
+   "parca": 1,
+   "merkez": [
+    -27.788,
+    26.433
+   ]
+  },
+  {
+   "cift": "meksika + wicita",
+   "km2": 9.9,
+   "cevre_km": 241.6,
+   "ort_genislik_km": 0.082,
+   "parca": 1,
+   "merkez": [
+    32.318,
+    -95.918
+   ]
+  },
+  {
+   "cift": "OSM-dogrudan + OSM-tabi",
+   "km2": 9.3,
+   "cevre_km": 4281.7,
+   "ort_genislik_km": 0.004,
+   "parca": 1,
+   "merkez": [
+    30.846,
+    31.044
+   ]
+  },
+  {
+   "cift": "colof + gambiya-mandinka",
+   "km2": 9.2,
+   "cevre_km": 186.8,
+   "ort_genislik_km": 0.098,
+   "parca": 1,
+   "merkez": [
+    14.186,
+    -14.92
+   ]
+  },
+  {
+   "cift": "colof + sine-salum",
+   "km2": 9.2,
+   "cevre_km": 186.8,
+   "ort_genislik_km": 0.098,
+   "parca": 1,
+   "merkez": [
+    14.186,
+    -14.92
+   ]
+  },
+  {
+   "cift": "fransa-cumhuriyet + gambiya-mandinka",
+   "km2": 8.0,
+   "cevre_km": 15.7,
+   "ort_genislik_km": 1.019,
+   "parca": 1,
+   "merkez": [
+    14.764,
+    -17.39
+   ]
+  },
+  {
+   "cift": "agadez-sultanligi + tuareg-air",
+   "km2": 7.9,
+   "cevre_km": 463.8,
+   "ort_genislik_km": 0.034,
+   "parca": 1,
+   "merkez": [
+    17.824,
+    9.342
+   ]
+  },
+  {
+   "cift": "burundi + umman-zengibar",
+   "km2": 7.9,
+   "cevre_km": 196.0,
+   "ort_genislik_km": 0.081,
+   "parca": 1,
+   "merkez": [
+    -4.237,
+    29.721
+   ]
+  },
+  {
+   "cift": "ruanda + umman-zengibar",
+   "km2": 7.9,
+   "cevre_km": 196.0,
+   "ort_genislik_km": 0.081,
+   "parca": 1,
+   "merkez": [
+    -4.237,
+    29.721
+   ]
+  },
+  {
+   "cift": "nyamvezi + umman-zengibar",
+   "km2": 7.8,
+   "cevre_km": 412.7,
+   "ort_genislik_km": 0.038,
+   "parca": 1,
+   "merkez": [
+    -7.571,
+    38.506
+   ]
+  },
+  {
+   "cift": "buganda + nkore",
+   "km2": 6.4,
+   "cevre_km": 106.2,
+   "ort_genislik_km": 0.121,
+   "parca": 1,
+   "merkez": [
+    -0.236,
+    31.666
+   ]
+  },
+  {
+   "cift": "portekiz + yao",
+   "km2": 6.4,
+   "cevre_km": 411.5,
+   "ort_genislik_km": 0.031,
+   "parca": 1,
+   "merkez": [
+    -13.016,
+    37.547
+   ]
+  },
+  {
+   "cift": "lozi + lunda-imparatorlugu",
+   "km2": 6.2,
+   "cevre_km": 210.0,
+   "ort_genislik_km": 0.059,
+   "parca": 1,
+   "merkez": [
+    -11.136,
+    22.282
+   ]
+  },
+  {
+   "cift": "konbaung + manipur",
+   "km2": 6.0,
+   "cevre_km": 201.6,
+   "ort_genislik_km": 0.059,
+   "parca": 1,
+   "merkez": [
+    23.695,
+    94.588
+   ]
+  },
+  {
+   "cift": "bambara + mossi-vagadugu",
+   "km2": 5.9,
+   "cevre_km": 133.2,
+   "ort_genislik_km": 0.088,
+   "parca": 1,
+   "merkez": [
+    15.068,
+    -2.83
+   ]
+  },
+  {
+   "cift": "bambara + yatenga",
+   "km2": 5.9,
+   "cevre_km": 133.2,
+   "ort_genislik_km": 0.088,
+   "parca": 1,
+   "merkez": [
+    15.068,
+    -2.83
+   ]
+  },
+  {
+   "cift": "kenedugu + massina",
+   "km2": 5.9,
+   "cevre_km": 61.4,
+   "ort_genislik_km": 0.192,
+   "parca": 1,
+   "merkez": [
+    12.443,
+    -4.691
+   ]
+  },
+  {
+   "cift": "portekiz + svazi",
+   "km2": 5.8,
+   "cevre_km": 282.4,
+   "ort_genislik_km": 0.041,
+   "parca": 1,
+   "merkez": [
+    -25.982,
+    31.824
+   ]
+  },
+  {
+   "cift": "bhopal + ingiliz-hindistani",
+   "km2": 4.7,
+   "cevre_km": 182.2,
+   "ort_genislik_km": 0.051,
+   "parca": 1,
+   "merkez": [
+    23.842,
+    78.737
+   ]
+  },
+  {
+   "cift": "isvec + prusya",
+   "km2": 4.5,
+   "cevre_km": 17.1,
+   "ort_genislik_km": 0.523,
+   "parca": 1,
+   "merkez": [
+    54.556,
+    16.602
+   ]
+  },
+  {
+   "cift": "dan-guro + fransa-cumhuriyet",
+   "km2": 3.8,
+   "cevre_km": 169.3,
+   "ort_genislik_km": 0.045,
+   "parca": 1,
+   "merkez": [
+    6.105,
+    -4.63
+   ]
+  },
+  {
+   "cift": "OSM-tabi + suud",
+   "km2": 3.4,
+   "cevre_km": 48.1,
+   "ort_genislik_km": 0.142,
+   "parca": 1,
+   "merkez": [
+    27.962,
+    48.334
+   ]
+  },
+  {
+   "cift": "svazi + transvaal",
+   "km2": 3.1,
+   "cevre_km": 93.3,
+   "ort_genislik_km": 0.067,
+   "parca": 1,
+   "merkez": [
+    -26.406,
+    29.651
+   ]
+  },
+  {
+   "cift": "cunagadh + portekiz",
+   "km2": 2.8,
+   "cevre_km": 152.0,
+   "ort_genislik_km": 0.037,
+   "parca": 1,
+   "merkez": [
+    21.412,
+    71.223
+   ]
+  },
+  {
+   "cift": "colof + futa-toro",
+   "km2": 2.6,
+   "cevre_km": 230.6,
+   "ort_genislik_km": 0.022,
+   "parca": 1,
+   "merkez": [
+    15.692,
+    -14.14
+   ]
+  },
+  {
+   "cift": "hollanda-dogu-hint + surakarta",
+   "km2": 2.5,
+   "cevre_km": 196.2,
+   "ort_genislik_km": 0.025,
+   "parca": 1,
+   "merkez": [
+    -7.352,
+    110.476
+   ]
+  },
+  {
+   "cift": "bagirmi + darfur",
+   "km2": 2.4,
+   "cevre_km": 76.6,
+   "ort_genislik_km": 0.064,
+   "parca": 1,
+   "merkez": [
+    12.009,
+    21.734
+   ]
+  },
+  {
+   "cift": "antandroy + sakalava-menabe",
+   "km2": 1.8,
+   "cevre_km": 546.8,
+   "ort_genislik_km": 0.006,
+   "parca": 1,
+   "merkez": [
+    -21.742,
+    44.98
+   ]
+  },
+  {
+   "cift": "burundi + karagve",
+   "km2": 1.8,
+   "cevre_km": 74.8,
+   "ort_genislik_km": 0.048,
+   "parca": 1,
+   "merkez": [
+    -2.649,
+    31.095
+   ]
+  },
+  {
+   "cift": "bambara + colof",
+   "km2": 1.5,
+   "cevre_km": 154.6,
+   "ort_genislik_km": 0.02,
+   "parca": 1,
+   "merkez": [
+    14.632,
+    -14.004
+   ]
+  },
+  {
+   "cift": "bundu + colof",
+   "km2": 1.5,
+   "cevre_km": 154.6,
+   "ort_genislik_km": 0.02,
+   "parca": 1,
+   "merkez": [
+    14.632,
+    -14.004
+   ]
+  },
+  {
+   "cift": "rusya + yupik",
+   "km2": 1.5,
+   "cevre_km": 168.5,
+   "ort_genislik_km": 0.017,
+   "parca": 1,
+   "merkez": [
+    62.817,
+    -164.806
+   ]
+  },
+  {
+   "cift": "adamava + bagirmi",
+   "km2": 1.4,
+   "cevre_km": 288.9,
+   "ort_genislik_km": 0.01,
+   "parca": 1,
+   "merkez": [
+    11.099,
+    15.224
+   ]
+  },
+  {
+   "cift": "arjantin-cumhuriyeti + paraguay-cumhuriyeti",
+   "km2": 1.3,
+   "cevre_km": 575.0,
+   "ort_genislik_km": 0.004,
+   "parca": 1,
+   "merkez": [
+    -28.378,
+    -57.266
+   ]
+  },
+  {
+   "cift": "borgu + jukun-kvararafa",
+   "km2": 1.2,
+   "cevre_km": 53.1,
+   "ort_genislik_km": 0.043,
+   "parca": 1,
+   "merkez": [
+    8.524,
+    5.805
+   ]
+  }
+ ]
+}

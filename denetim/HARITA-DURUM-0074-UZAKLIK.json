@@ -1,0 +1,282 @@
+[
+ {
+  "cift": "dene + ingiliz-kuzey-amerika",
+  "km2": 306382.8,
+  "merkez": [
+   63.809,
+   -125.828
+  ],
+  "en_yakin_nokta": "Fort Norman (Tulita)",
+  "en_yakin_km": 122.5,
+  "dene_nokta": 13,
+  "dene_km": 282.3,
+  "ingiliz-kuzey-amerika_nokta": 119,
+  "ingiliz-kuzey-amerika_km": 122.5
+ },
+ {
+  "cift": "ingiliz-kuzey-amerika + kri",
+  "km2": 143934.1,
+  "merkez": [
+   54.335,
+   -90.104
+  ],
+  "en_yakin_nokta": "Big Trout Lake (Kitchenuhmaykoosib)",
+  "en_yakin_km": 57.2,
+  "ingiliz-kuzey-amerika_nokta": 119,
+  "ingiliz-kuzey-amerika_km": 57.2,
+  "kri_nokta": 4,
+  "kri_km": 255.6
+ },
+ {
+  "cift": "abd + wicita",
+  "km2": 85559.8,
+  "merkez": [
+   34.082,
+   -96.966
+  ],
+  "en_yakin_nokta": "Taovaya (İspanyol Kalesi, Kızıl Irmak)",
+  "en_yakin_km": 76.1,
+  "abd_nokta": 93,
+  "abd_km": 151.6,
+  "wicita_nokta": 2,
+  "wicita_km": 76.1
+ },
+ {
+  "cift": "kaonde-ila + lozi",
+  "km2": 84149.2,
+  "merkez": [
+   -14.331,
+   24.584
+  ],
+  "en_yakin_nokta": "Kaoma (Mankoya)",
+  "en_yakin_km": 57.2,
+  "kaonde-ila_nokta": 2,
+  "kaonde-ila_km": 165.9,
+  "lozi_nokta": 7,
+  "lozi_km": 57.2
+ },
+ {
+  "cift": "dan-guro + liberya",
+  "km2": 71405.8,
+  "merkez": [
+   6.492,
+   -8.855
+  ],
+  "en_yakin_nokta": "Gbarnga",
+  "en_yakin_km": 90.1,
+  "dan-guro_nokta": 5,
+  "dan-guro_km": 141.2,
+  "liberya_nokta": 5,
+  "liberya_km": 90.1
+ },
+ {
+  "cift": "bambara + bundu",
+  "km2": 60279.9,
+  "merkez": [
+   13.728,
+   -12.969
+  ],
+  "en_yakin_nokta": "Bulebane (Bundu)",
+  "en_yakin_km": 72.0,
+  "bambara_nokta": 5,
+  "bambara_km": 183.6,
+  "bundu_nokta": 1,
+  "bundu_km": 72.0
+ },
+ {
+  "cift": "adar + sokoto",
+  "km2": 57778.6,
+  "merkez": [
+   12.449,
+   5.093
+  ],
+  "en_yakin_nokta": "Sokoto",
+  "en_yakin_km": 69.9,
+  "adar_nokta": 4,
+  "adar_km": 151.4,
+  "sokoto_nokta": 7,
+  "sokoto_km": 69.9
+ },
+ {
+  "cift": "transvaal + tsvana",
+  "km2": 57292.2,
+  "merkez": [
+   -25.666,
+   28.361
+  ],
+  "en_yakin_nokta": "Transvaal (Bur cumhuriyeti)",
+  "en_yakin_km": 19.5,
+  "transvaal_nokta": 1,
+  "transvaal_km": 19.5,
+  "tsvana_nokta": 13,
+  "tsvana_km": 262.6
+ },
+ {
+  "cift": "mossi-vagadugu + yatenga",
+  "km2": 57207.8,
+  "merkez": [
+   13.84,
+   -2.413
+  ],
+  "en_yakin_nokta": "Vahiguya (Yatenga)",
+  "en_yakin_km": 29.0,
+  "mossi-vagadugu_nokta": 3,
+  "mossi-vagadugu_km": 189.6,
+  "yatenga_nokta": 1,
+  "yatenga_km": 29.0
+ },
+ {
+  "cift": "kenedugu + mossi-vagadugu",
+  "km2": 56666.0,
+  "merkez": [
+   11.327,
+   -5.915
+  ],
+  "en_yakin_nokta": "Sikasso (Kenedugu)",
+  "en_yakin_km": 26.8,
+  "kenedugu_nokta": 1,
+  "kenedugu_km": 26.8,
+  "mossi-vagadugu_nokta": 3,
+  "mossi-vagadugu_km": 177.1
+ },
+ {
+  "cift": "futa-callon + solima-yalunka",
+  "km2": 54025.0,
+  "merkez": [
+   11.083,
+   -10.988
+  ],
+  "en_yakin_nokta": "Dingiray (Dinguiraye)",
+  "en_yakin_km": 38.1,
+  "futa-callon_nokta": 2,
+  "futa-callon_km": 105.8,
+  "solima-yalunka_nokta": 1,
+  "solima-yalunka_km": 141.4
+ },
+ {
+  "cift": "abd + ojibwe",
+  "km2": 53999.5,
+  "merkez": [
+   43.031,
+   -83.704
+  ],
+  "en_yakin_nokta": "Saginaw (Ojibwe)",
+  "en_yakin_km": 47.6,
+  "abd_nokta": 93,
+  "abd_km": 94.1,
+  "ojibwe_nokta": 2,
+  "ojibwe_km": 47.6
+ },
+ {
+  "cift": "adamava + sokoto",
+  "km2": 49853.3,
+  "merkez": [
+   9.255,
+   12.095
+  ],
+  "en_yakin_nokta": "Yola",
+  "en_yakin_km": 42.7,
+  "adamava_nokta": 6,
+  "adamava_km": 143.5,
+  "sokoto_nokta": 7,
+  "sokoto_km": 42.7
+ },
+ {
+  "cift": "arjantin-cumhuriyeti + mapuche-araukanya",
+  "km2": 49771.5,
+  "merkez": [
+   -34.683,
+   -67.869
+  ],
+  "en_yakin_nokta": "San Rafael (Fuerte San Rafael del Diamante)",
+  "en_yakin_km": 42.8,
+  "arjantin-cumhuriyeti_nokta": 18,
+  "arjantin-cumhuriyeti_km": 42.8,
+  "mapuche-araukanya_nokta": 12,
+  "mapuche-araukanya_km": 174.2
+ },
+ {
+  "cift": "bemba + kaonde-ila",
+  "km2": 47493.8,
+  "merkez": [
+   -12.132,
+   26.435
+  ],
+  "en_yakin_nokta": "Solwezi",
+  "en_yakin_km": 7.3,
+  "bemba_nokta": 5,
+  "bemba_km": 7.3,
+  "kaonde-ila_nokta": 2,
+  "kaonde-ila_km": 161.8
+ },
+ {
+  "cift": "dan-guro + kong-vattara",
+  "km2": 45345.5,
+  "merkez": [
+   9.292,
+   -4.822
+  ],
+  "en_yakin_nokta": "Kong",
+  "en_yakin_km": 28.2,
+  "dan-guro_nokta": 5,
+  "dan-guro_km": 179.8,
+  "kong-vattara_nokta": 1,
+  "kong-vattara_km": 28.2
+ },
+ {
+  "cift": "liptako + zerma",
+  "km2": 44322.1,
+  "merkez": [
+   14.25,
+   -0.454
+  ],
+  "en_yakin_nokta": "Dori",
+  "en_yakin_km": 51.9,
+  "liptako_nokta": 1,
+  "liptako_km": 51.9,
+  "zerma_nokta": 3,
+  "zerma_km": 132.7
+ },
+ {
+  "cift": "lozi + ovimbundu",
+  "km2": 42961.2,
+  "merkez": [
+   -11.903,
+   23.155
+  ],
+  "en_yakin_nokta": "Kazombo",
+  "en_yakin_km": 25.6,
+  "lozi_nokta": 7,
+  "lozi_km": 183.4,
+  "ovimbundu_nokta": 12,
+  "ovimbundu_km": 25.6
+ },
+ {
+  "cift": "ingiltere + transvaal",
+  "km2": 42390.0,
+  "merkez": [
+   -27.027,
+   27.174
+  ],
+  "en_yakin_nokta": "Potchefstroom",
+  "en_yakin_km": 35.0,
+  "ingiltere_nokta": 105,
+  "ingiltere_km": 35.0,
+  "transvaal_nokta": 1,
+  "transvaal_km": 174.8
+ },
+ {
+  "cift": "ingiliz-kuzey-amerika + secwepemc",
+  "km2": 41272.7,
+  "merkez": [
+   50.67,
+   -120.425
+  ],
+  "en_yakin_nokta": "Fort Kamloops",
+  "en_yakin_km": 6.7,
+  "ingiliz-kuzey-amerika_nokta": 119,
+  "ingiliz-kuzey-amerika_km": 6.7,
+  "secwepemc_nokta": 1,
+  "secwepemc_km": 74.7
+ }
+]

@@ -1,0 +1,68 @@
+{
+ "H-0007 Bohemya": {
+  "gun": "1827-07-06",
+  "kutu": [
+   49.84,
+   51.1,
+   15.73,
+   18.09
+  ],
+  "kutuda_o_gun_var_olan_nokta": 0,
+  "bunlardan_sahipli": 0,
+  "bunlardan_SAHIPSIZ": 0,
+  "sahipsiz_adlar": [],
+  "izgara_hucre": 60,
+  "en_yakin_sahipli_nokta_km": {
+   "ortanca": 149.3,
+   "en_buyuk": 197.6,
+   "200km_ustu_hucre": 0,
+   "200km_ustu_oran_yuzde": 0.0
+  },
+  "200km_ustu_ornek": [],
+  "SINIF": "A-NOKTA-YOKLUGU"
+ },
+ "H-0014 Poti": {
+  "gun": "1829-09-14",
+  "kutu": [
+   41.82,
+   42.64,
+   41.35,
+   42.7
+  ],
+  "kutuda_o_gun_var_olan_nokta": 1,
+  "bunlardan_sahipli": 1,
+  "bunlardan_SAHIPSIZ": 0,
+  "sahipsiz_adlar": [],
+  "izgara_hucre": 24,
+  "en_yakin_sahipli_nokta_km": {
+   "ortanca": 47.6,
+   "en_buyuk": 79.0,
+   "200km_ustu_hucre": 0,
+   "200km_ustu_oran_yuzde": 0.0
+  },
+  "200km_ustu_ornek": [],
+  "SINIF": "D-BOS-DEGIL"
+ },
+ "H-0015 EflakBogdan": {
+  "gun": "1830-05-07",
+  "kutu": [
+   43.14,
+   48.21,
+   22.91,
+   29.42
+  ],
+  "kutuda_o_gun_var_olan_nokta": 37,
+  "bunlardan_sahipli": 37,
+  "bunlardan_SAHIPSIZ": 0,
+  "sahipsiz_adlar": [],
+  "izgara_hucre": 567,
+  "en_yakin_sahipli_nokta_km": {
+   "ortanca": 39.6,
+   "en_buyuk": 121.6,
+   "200km_ustu_hucre": 0,
+   "200km_ustu_oran_yuzde": 0.0
+  },
+  "200km_ustu_ornek": [],
+  "SINIF": "D-BOS-DEGIL"
+ }
+}

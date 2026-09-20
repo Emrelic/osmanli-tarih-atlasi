@@ -1,0 +1,135 @@
+{
+ "H-0007 Bohemya": {
+  "kutu": [
+   49.84,
+   51.1,
+   15.73,
+   18.09
+  ],
+  "deniz_hucre": 0,
+  "kara_hucre": 312,
+  "motor_CIZIYOR": 205,
+  "motor_CIZMIYOR": 107,
+  "cizilmeyen_yuzde": 34.3,
+  "cizilmeyen_ornek": [
+   {
+    "lat": 49.94,
+    "lon": 16.73,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 150.4
+   },
+   {
+    "lat": 50.04,
+    "lon": 16.83,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 154.9
+   },
+   {
+    "lat": 50.14,
+    "lon": 16.73,
+    "en_yakin_nokta": "Prag",
+    "km": 164.9
+   },
+   {
+    "lat": 50.14,
+    "lon": 16.83,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 164.1
+   },
+   {
+    "lat": 50.14,
+    "lon": 17.03,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 156.8
+   },
+   {
+    "lat": 50.24,
+    "lon": 16.63,
+    "en_yakin_nokta": "Prag",
+    "km": 158.4
+   },
+   {
+    "lat": 50.24,
+    "lon": 16.73,
+    "en_yakin_nokta": "Prag",
+    "km": 165.5
+   },
+   {
+    "lat": 50.24,
+    "lon": 16.83,
+    "en_yakin_nokta": "Prag",
+    "km": 172.6
+   },
+   {
+    "lat": 50.24,
+    "lon": 16.93,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 170.0
+   },
+   {
+    "lat": 50.24,
+    "lon": 17.03,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 166.7
+   },
+   {
+    "lat": 50.24,
+    "lon": 17.13,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 163.7
+   },
+   {
+    "lat": 50.24,
+    "lon": 17.23,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 160.9
+   },
+   {
+    "lat": 50.24,
+    "lon": 17.33,
+    "en_yakin_nokta": "Trencsén (Trenčín)",
+    "km": 158.4
+   },
+   {
+    "lat": 50.34,
+    "lon": 16.53,
+    "en_yakin_nokta": "Prag",
+    "km": 152.8
+   },
+   {
+    "lat": 50.34,
+    "lon": 16.63,
+    "en_yakin_nokta": "Prag",
+    "km": 159.8
+   }
+  ]
+ },
+ "H-0014 Poti": {
+  "kutu": [
+   41.82,
+   42.64,
+   41.35,
+   42.7
+  ],
+  "deniz_hucre": 30,
+  "kara_hucre": 96,
+  "motor_CIZIYOR": 96,
+  "motor_CIZMIYOR": 0,
+  "cizilmeyen_yuzde": 0.0,
+  "cizilmeyen_ornek": []
+ },
+ "H-0015 EflakBogdan": {
+  "kutu": [
+   43.14,
+   48.21,
+   22.91,
+   29.42
+  ],
+  "deniz_hucre": 157,
+  "kara_hucre": 3209,
+  "motor_CIZIYOR": 3209,
+  "motor_CIZMIYOR": 0,
+  "cizilmeyen_yuzde": 0.0,
+  "cizilmeyen_ornek": []
+ }
+}

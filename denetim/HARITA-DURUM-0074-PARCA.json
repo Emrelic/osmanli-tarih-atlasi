@@ -1,0 +1,37 @@
+{
+ "1850-01-01": {
+  "gun": "1850-01-01",
+  "o_gun_kullanilan_parca": 4383,
+  "IKI_DEVLETE_BIRDEN_verilen_parca": 9,
+  "cift": {
+   "buganda + bunyoro": 4,
+   "ingiltere + qing-hanedani": 1,
+   "ingiltere + sine-salum": 1,
+   "abd + ingiliz-kuzey-amerika": 1,
+   "abd + ojibwe": 1,
+   "cohor-sultanligi + ingiliz-malaya": 1
+  }
+ },
+ "1828-02-22": {
+  "gun": "1828-02-22",
+  "o_gun_kullanilan_parca": 4074,
+  "IKI_DEVLETE_BIRDEN_verilen_parca": 7,
+  "cift": {
+   "buganda + bunyoro": 4,
+   "dene + ingiliz-kuzey-amerika": 1,
+   "abd + ojibwe": 1,
+   "cohor-sultanligi + ingiliz-malaya": 1
+  }
+ },
+ "1700-01-01": {
+  "gun": "1700-01-01",
+  "o_gun_kullanilan_parca": 3735,
+  "IKI_DEVLETE_BIRDEN_verilen_parca": 10,
+  "cift": {
+   "fransa + haudenosaunee": 4,
+   "buganda + bunyoro": 4,
+   "danimarka + isvec": 1,
+   "haudenosaunee + ingiltere": 1
+  }
+ }
+}

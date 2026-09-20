@@ -1,0 +1,156 @@
+[
+ {
+  "ad": "Ahar (Karadağ)",
+  "lat": 38.4772,
+  "lon": 47.07,
+  "dosya": "yerlesimler.js",
+  "m": "Tebriz",
+  "kd_var": false,
+  "aktif": [
+   "s:kacar 1794-01-01..1923-10-29"
+  ]
+ },
+ {
+  "ad": "Astara",
+  "lat": 38.4292,
+  "lon": 48.8728,
+  "dosya": "yerlesimler.js",
+  "m": null,
+  "kd_var": false,
+  "aktif": [
+   "s:rusya 1828-02-22..1917-03-15"
+  ]
+ },
+ {
+  "ad": "Culfa",
+  "lat": 38.955,
+  "lon": 45.63,
+  "dosya": "yerlesimler.js",
+  "m": null,
+  "kd_var": false,
+  "aktif": [
+   "s:kacar 1794-01-01..1923-10-29"
+  ]
+ },
+ {
+  "ad": "Erdebil",
+  "lat": 38.249,
+  "lon": 48.294,
+  "dosya": "yerlesimler.js",
+  "m": null,
+  "kd_var": false,
+  "aktif": [
+   "s:kacar 1794-01-01..1923-10-29"
+  ]
+ },
+ {
+  "ad": "Hoy",
+  "lat": 38.5503,
+  "lon": 44.9521,
+  "dosya": "yerlesimler.js",
+  "m": "Tebriz",
+  "kd_var": true,
+  "aktif": [
+   "s:kacar 1794-01-01..1923-10-29"
+  ]
+ },
+ {
+  "ad": "Lenkeran",
+  "lat": 38.7539,
+  "lon": 48.8508,
+  "dosya": "yerlesimler.js",
+  "m": null,
+  "kd_var": false,
+  "aktif": [
+   "s:rusya 1828-02-22..1917-03-15"
+  ]
+ },
+ {
+  "ad": "Merend",
+  "lat": 38.4328,
+  "lon": 45.775,
+  "dosya": "yerlesimler.js",
+  "m": null,
+  "kd_var": false,
+  "aktif": [
+   "s:kacar 1794-01-01..1923-10-29"
+  ]
+ },
+ {
+  "ad": "Meşkinşehr (Hiyav)",
+  "lat": 38.4,
+  "lon": 47.68,
+  "dosya": "yerlesimler_kalite4.js",
+  "m": null,
+  "kd_var": false,
+  "aktif": [
+   "s:kacar 1794-01-01..1923-10-29"
+  ]
+ },
+ {
+  "ad": "Nahçıvan",
+  "lat": 39.209,
+  "lon": 45.412,
+  "dosya": "yerlesimler.js",
+  "m": "Revan",
+  "kd_var": false,
+  "aktif": [
+   "s:rusya 1828-02-22..1917-03-15"
+  ]
+ },
+ {
+  "ad": "Ordubad",
+  "lat": 38.9053,
+  "lon": 46.0242,
+  "dosya": "yerlesimler.js",
+  "m": "Nahçıvan",
+  "kd_var": false,
+  "aktif": [
+   "s:rusya 1828-02-22..1917-03-15"
+  ]
+ },
+ {
+  "ad": "Salyan",
+  "lat": 39.5958,
+  "lon": 48.98,
+  "dosya": "yerlesimler.js",
+  "m": "Şamahı",
+  "kd_var": false,
+  "aktif": [
+   "s:rusya 1813-10-24..1917-03-15"
+  ]
+ },
+ {
+  "ad": "Sarâb",
+  "lat": 37.9408,
+  "lon": 47.5364,
+  "dosya": "yerlesimler.js",
+  "m": "Tebriz",
+  "kd_var": false,
+  "aktif": [
+   "s:kacar 1794-01-01..1923-10-29"
+  ]
+ },
+ {
+  "ad": "Tebriz",
+  "lat": 38.08,
+  "lon": 46.292,
+  "dosya": "yerlesimler.js",
+  "m": null,
+  "kd_var": false,
+  "aktif": [
+   "s:kacar 1794-01-01..1923-10-29"
+  ]
+ },
+ {
+  "ad": "Şerur (Sharur)",
+  "lat": 39.55,
+  "lon": 44.95,
+  "dosya": "yerlesimler_kalite4.js",
+  "m": null,
+  "kd_var": false,
+  "aktif": [
+   "s:rusya 1828-02-22..1917-03-15"
+  ]
+ }
+]

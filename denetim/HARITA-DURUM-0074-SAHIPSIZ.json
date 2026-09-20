@@ -1,0 +1,95 @@
+{
+ "H-0007 Bohemya": {
+  "gun": "1827-07-06",
+  "kutu": [
+   49.84,
+   51.1,
+   15.73,
+   18.09
+  ],
+  "hucre_sayisi": {
+   "deniz": 0,
+   "C-UFUK": 107,
+   "B-KAYIT": 0,
+   "OK": 205
+  },
+  "sahipsiz_petek_sahipleri": {},
+  "sahip_dagilimi": {
+   "s:avusturya": 146,
+   "s:prusya": 34,
+   "s:krakow-serbest-sehri": 24,
+   "s:almanya": 1
+  },
+  "cizilen_hucre_km": {
+   "ortanca": 139.4,
+   "azami": 179.1
+  },
+  "cizilmeyen_hucre_km": {
+   "asgari": 141.3,
+   "ortanca": 172.7,
+   "azami": 198.0
+  }
+ },
+ "H-0014 Poti": {
+  "gun": "1829-09-14",
+  "kutu": [
+   41.82,
+   42.64,
+   41.35,
+   42.7
+  ],
+  "hucre_sayisi": {
+   "deniz": 30,
+   "C-UFUK": 0,
+   "B-KAYIT": 0,
+   "OK": 96
+  },
+  "sahipsiz_petek_sahipleri": {},
+  "sahip_dagilimi": {
+   "s:rusya": 67,
+   "d:OSMANLI": 29
+  },
+  "cizilen_hucre_km": {
+   "ortanca": 42.0,
+   "azami": 82.5
+  },
+  "cizilmeyen_hucre_km": {
+   "asgari": null,
+   "ortanca": null,
+   "azami": null
+  }
+ },
+ "H-0015 EflakBogdan": {
+  "gun": "1830-05-07",
+  "kutu": [
+   43.14,
+   48.21,
+   22.91,
+   29.42
+  ],
+  "hucre_sayisi": {
+   "deniz": 157,
+   "C-UFUK": 0,
+   "B-KAYIT": 0,
+   "OK": 3209
+  },
+  "sahipsiz_petek_sahipleri": {},
+  "sahip_dagilimi": {
+   "s:avusturya": 956,
+   "d:OSMANLI": 694,
+   "v:eflak": 666,
+   "s:rusya": 435,
+   "v:bogdan": 374,
+   "s:eflak": 84
+  },
+  "cizilen_hucre_km": {
+   "ortanca": 38.9,
+   "azami": 122.6
+  },
+  "cizilmeyen_hucre_km": {
+   "asgari": null,
+   "ortanca": null,
+   "azami": null
+  }
+ }
+}
