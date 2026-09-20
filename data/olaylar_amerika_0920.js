@@ -141,6 +141,131 @@ window.OLAYLAR_AMERIKA0920 = [
   etiket:["siyasi","toprak-kazanc","konu-idari"],
   d:"İsviçreli göçmen John Sutter, Meksika makamlarından aldığı izin ve toprak imtiyazıyla Sacramento ile American ırmaklarının birleştiği yerde Nueva Helvetia'yı kurdu. Müstahkem çiftlik, Meksika'nın Alta California'nın iç kesimlerindeki en ileri karakolu oldu; 1848'de altının bulunmasıyla California göçünün merkezine dönüşecektir.",
   kaynak:"David J. Weber, The Mexican Frontier, 1821-1846: The American Southwest under Mexico (Albuquerque: University of New Mexico Press, 1982) — Meksika dönemi kuzey serhaddinin standart incelemesi · hassasiyet: YIL (temsilî)",
-  ic_not_d:"TEMSİLÎ YIL: Sutter'ın vardığı ve yerleşmeye başladığı ay standart anlatımlarda 1839 yazıdır; atlas 1839-01-01'i temsilî yıl olarak taşır. Aynı güne düşen Armidale ve Port Lincoln (Avustralya) kırılmalarıyla İLGİSİ YOKTUR — yalnız yıl yuvarlaması ikisini aynı tarihe düşürmüştür." }
+  ic_not_d:"TEMSİLÎ YIL: Sutter'ın vardığı ve yerleşmeye başladığı ay standart anlatımlarda 1839 yazıdır; atlas 1839-01-01'i temsilî yıl olarak taşır. Aynı güne düşen Armidale ve Port Lincoln (Avustralya) kırılmalarıyla İLGİSİ YOKTUR — yalnız yıl yuvarlaması ikisini aynı tarihe düşürmüştür." },
+
+// =====================================================================
+// 2. PARTİ — PERU-İNKA VE KUZEY AND KÜMESİ (13 tarih)
+// Aynı ölçümün (glm/SAHTE-343.json GERCEK-EKSIK) Güney Amerika kolu:
+// Pizarro'nun İnka fethi, Quesada'nın Muisca fethi ve bunların kurduğu
+// şehirler. Bu kırılmalar da bugün Bağdat'ın fethi, Kıbrıs'ın fethi,
+// Preveze gibi ilgisiz Osmanlı maddeleriyle "kapalı" görünüyordu.
+// =====================================================================
+
+// ── 1519 · Panama ────────────────────────────────────────────────────
+{ t:"1519-08-15", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Panamá (Panama City)",
+  b:"Panamá kuruldu — Büyük Okyanus kıyısındaki ilk Avrupa şehri",
+  gun:"15 Ağustos 1519", yer:"Panamá (Panama City)", kisiler:"Pedrarias Dávila (Pedro Arias de Ávila)",
+  etiket:["siyasi","toprak-kazanc","konu-idari"],
+  d:"Darién valisi Pedrarias Dávila, kıstağın Büyük Okyanus yakasında Panamá şehrini kurdu ve sömürge yönetimini Karayip kıyısından buraya taşıdı. Şehir, güneye yönelecek keşif ve fetih seferlerinin çıkış limanı oldu; Francisco Pizarro'nun Peru seferleri buradan donatıldı.",
+  kaynak:"Carl Ortwin Sauer, The Early Spanish Main (Berkeley: University of California Press, 1966) — Karayip-Darién evresinin standart incelemesi · hassasiyet: GÜN",
+  ic_not_d:"15 Ağustos, şehrin adaşı olan Meryem'in Göğe Kabulü yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
+
+// ── 1534 · Quito ─────────────────────────────────────────────────────
+{ t:"1534-12-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Quito",
+  b:"San Francisco de Quito kuruldu — kuzey İnka başkentinde İspanyol düzeni",
+  gun:"6 Aralık 1534", yer:"Quito", kisiler:"Sebastián de Benalcázar, Rumiñahui",
+  etiket:["askeri","toprak-kazanc","konu-idari"],
+  d:"İnka generali Rumiñahui, kuzeyin başkenti Quito'yu İspanyollara bırakmadan önce yaktı. Sebastián de Benalcázar yıkıntıların üzerinde San Francisco de Quito'yu kurdu; böylece Cuzco'dan sonra İnka devletinin ikinci merkezi de İspanyol yönetimine bağlandı ve Kuzey And'daki fetih buradan yürütüldü.",
+  kaynak:"John Hemming, The Conquest of the Incas (London: Macmillan, 1970) — İnka fethinin standart monografisi · hassasiyet: GÜN",
+  ic_not_d:"Almagro'nun daha önce (Ağustos 1534) kurduğu Santiago de Quito ayrı bir olaydır; atlas kırılması Benalcázar'ın 6 Aralık kuruluşunda duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
+
+// ── 1535 · Lima ──────────────────────────────────────────────────────
+{ t:"1535-01-18", k:"kurulus", onem:4, dunya:4, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
+  b:"Lima kuruldu — İspanyol Peru'sunun başkenti Rimac vadisine taşındı",
+  gun:"18 Ocak 1535", yer:"Lima (Ciudad de los Reyes)", kisiler:"Francisco Pizarro",
+  etiket:["siyasi","toprak-kazanc","konu-idari"],
+  d:"Francisco Pizarro, dağlardaki Cuzco'nun İspanya ile deniz bağlantısına uzak kalması üzerine kıyıdaki Rimac vadisinde Ciudad de los Reyes'i (Lima) kurdu. Şehir kısa sürede Peru Genel Valiliği'nin başkenti ve Güney Amerika'daki İspanyol yönetiminin merkezi oldu.",
+  kaynak:"John Hemming, The Conquest of the Incas (Macmillan, 1970) · James Lockhart, Spanish Peru, 1532-1560 (Madison: University of Wisconsin Press, 1968) · hassasiyet: GÜN",
+  ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 18 Ocak 1535 standart tarih yazımında yerleşiktir." },
+
+// ── 1537 · Popayán ───────────────────────────────────────────────────
+{ t:"1537-01-13", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Popayán",
+  b:"Popayán kuruldu — Quito ile Muisca ülkesi arasındaki köprü",
+  gun:"13 Ocak 1537", yer:"Popayán", kisiler:"Sebastián de Benalcázar",
+  etiket:["askeri","toprak-kazanc","konu-idari"],
+  d:"Quito'dan kuzeye yürüyen Benalcázar, Cauca vadisinde Popayán'ı kurdu. Şehir, Peru'dan gelen İspanyol ilerleyişinin kuzey ucu oldu ve ertesi yıl Muisca ülkesinde Quesada ile karşılaşmasına giden yolu açtı.",
+  kaynak:"John Hemming, The Search for El Dorado (London: Michael Joseph, 1978) — Muisca ve Kuzey And fethinin standart anlatımı · hassasiyet: GÜN",
+  ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 13 Ocak 1537 standart kuruluş tarihi olarak yerleşiktir." },
+
+// ── 1537 · Hunza (Tunja) — Muisca'nın düşüşü ─────────────────────────
+{ t:"1537-08-01", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Hunza (Tunja)",
+  b:"Hunza'nın zaptı — zaque Quemuenchatocha'nın yenilgisi",
+  gun:"Ağustos 1537", yer:"Hunza (Tunja)", kisiler:"Gonzalo Jiménez de Quesada, zaque Quemuenchatocha",
+  etiket:["askeri","toprak-kayip","konu-askeri"],
+  d:"Magdalena ırmağından yaylaya çıkan Gonzalo Jiménez de Quesada, Muisca Konfederasyonu'nun iki başından biri olan zacazgo'nun merkezi Hunza'yı bastı ve zaque Quemuenchatocha'yı esir aldı. Kentte ele geçirilen altın, El Dorado söylentisini besleyen asıl ganimet oldu; Muisca ülkesinin kuzey yarısı böylece İspanyol hâkimiyetine girdi.",
+  kaynak:"John Hemming, The Search for El Dorado (Michael Joseph, 1978) — zaque Quemuenchatocha ve Hunza baskını · hassasiyet: AY (Ağustos 1537)",
+  ic_not_d:"HASSASİYET AY: kaynaklar baskını Ağustos 1537'ye koyar; atlas kırılması da ay hassasiyetinde (1537-08-01). Gün YAZILMADI — sahte kesinlik üretmemek için (§4)." },
+
+// ── 1537 · Asunción ──────────────────────────────────────────────────
+{ t:"1537-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Asunción",
+  b:"Asunción kuruldu — Paraguay ırmağında İspanyol üssü",
+  gun:"15 Ağustos 1537", yer:"Asunción", kisiler:"Juan de Salazar de Espinosa",
+  etiket:["siyasi","toprak-kazanc","konu-idari"],
+  d:"Río de la Plata seferinin Buenos Aires'te tutunamaması üzerine İspanyollar ırmak yukarı çekildi ve Juan de Salazar de Espinosa, Guaraní topluluklarıyla kurulan ittifaka dayanarak Nuestra Señora de la Asunción'u kurdu. Kasaba, yüzyıl boyunca Río de la Plata havzasındaki İspanyol yönetiminin merkezi kaldı.",
+  kaynak:"Elman R. Service, Spanish-Guaraní Relations in Early Colonial Paraguay (Ann Arbor: University of Michigan Press, 1954) · hassasiyet: GÜN",
+  ic_not_d:"15 Ağustos, kasabanın adaşı Asunción (Meryem'in Göğe Kabulü) yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
+
+// ── 1538 · Bacatá (Bogotá) ───────────────────────────────────────────
+{ t:"1538-08-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Bacatá (Bogotá)",
+  b:"Santa Fe de Bogotá kuruldu — Muisca ülkesinde İspanyol başkenti",
+  gun:"6 Ağustos 1538", yer:"Bacatá (Bogotá)", kisiler:"Gonzalo Jiménez de Quesada",
+  etiket:["siyasi","toprak-kazanc","konu-idari"],
+  d:"Quesada, zipa'nın merkezi Bacatá'nın yanında Santa Fe de Bogotá'yı kurdu. Kuruluşun hemen ardından üç ayrı yönden gelen fetih kolları — Quesada, Benalcázar ve Alman kumandan Federmann — aynı yaylada karşılaştı ve hak iddialarını İspanya'da çözmek üzere anlaştılar. Şehir, Yeni Granada Krallığı'nın başkenti oldu.",
+  kaynak:"John Hemming, The Search for El Dorado (Michael Joseph, 1978) · J. Michael Francis, Invading Colombia (University Park: Pennsylvania State University Press, 2007) · hassasiyet: GÜN",
+  ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 6 Ağustos 1538 standart kuruluş tarihi olarak yerleşiktir." },
+
+// ── 1539 · Huamanga ──────────────────────────────────────────────────
+{ t:"1539-01-09", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Huamanga (Ayacucho)",
+  b:"San Juan de la Frontera de Huamanga kuruldu — Lima-Cuzco yolunun kilidi",
+  gun:"9 Ocak 1539", yer:"Huamanga (Ayacucho)", kisiler:"Francisco Pizarro, Manco Inca",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Manco Inca'nın Vilcabamba'dan yürüttüğü direniş, Lima ile Cuzco arasındaki yolu kesiyordu. Francisco Pizarro bu yolu güvenceye almak için iki başkentin ortasında San Juan de la Frontera de Huamanga'yı kurdu; kasabanın adındaki 'frontera' (serhat) kuruluş amacını doğrudan söyler.",
+  kaynak:"John Hemming, The Conquest of the Incas (Macmillan, 1970) — Manco Inca direnişi ve serhat kasabaları · hassasiyet: GÜN",
+  ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 9 Ocak 1539 standart kuruluş tarihi olarak yerleşiktir." },
+
+// ── 1539 · Tunja (İspanyol şehri) ────────────────────────────────────
+{ t:"1539-08-06", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Hunza (Tunja)",
+  b:"Tunja İspanyol şehri olarak yeniden kuruldu",
+  gun:"6 Ağustos 1539", yer:"Hunza (Tunja)", kisiler:"Gonzalo Suárez Rendón",
+  etiket:["siyasi","toprak-kazanc","konu-idari"],
+  d:"Quesada'nın İspanya'ya dönmesinden sonra Gonzalo Suárez Rendón, zaque'nin merkezi Hunza'nın yerinde Tunja şehrini İspanyol düzenine göre yeniden kurdu. Böylece Muisca ülkesinin kuzey yarısı, Bogotá'nınki gibi kalıcı bir belediye ve encomienda düzenine bağlandı.",
+  kaynak:"J. Michael Francis, Invading Colombia (Pennsylvania State University Press, 2007) · John Hemming, The Search for El Dorado (Michael Joseph, 1978) · hassasiyet: GÜN",
+  ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 6 Ağustos 1539 standart kuruluş tarihi olarak yerleşiktir. Aynı yerleşimin 1537 kırılması ayrı maddededir (zaque'nin yenilgisi)." },
+
+// ── 1541 · Santiago de Chile ─────────────────────────────────────────
+{ t:"1541-02-12", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Santiago (Şili)",
+  b:"Santiago del Nuevo Extremo kuruldu — Şili'nin fethi başladı",
+  gun:"12 Şubat 1541", yer:"Santiago (Şili)", kisiler:"Pedro de Valdivia, Michimalonco",
+  etiket:["askeri","toprak-kazanc","konu-idari"],
+  d:"Peru'dan güneye yürüyen Pedro de Valdivia, Mapocho vadisinde Santiago del Nuevo Extremo'yu kurdu. Kasaba aynı yılın eylülünde Michimalonco önderliğindeki yerli saldırısıyla yakıldı ve yeniden kuruldu; buna rağmen Şili'nin İspanyol fethi bu noktadan yürütüldü.",
+  kaynak:"H. R. S. Pocock, The Conquest of Chile (New York: Stein and Day, 1967) · Pedro de Valdivia'nın Kral V. Carlos'a mektupları (Cartas de relación) çağdaş tanıklıktır · hassasiyet: GÜN",
+  ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 12 Şubat 1541 standart kuruluş tarihi olarak yerleşiktir." },
+
+// ── 1571 · Cochabamba ────────────────────────────────────────────────
+{ t:"1571-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Cochabamba (Villa de Oropesa)",
+  b:"Villa de Oropesa kuruldu — Potosí'yi besleyecek tahıl vadisinin iskânı",
+  gun:"15 Ağustos 1571", yer:"Cochabamba (Villa de Oropesa)", kisiler:"Genel Vali Francisco de Toledo",
+  etiket:["siyasi","toprak-kazanc","konu-idari"],
+  d:"Genel Vali Francisco de Toledo'nun buyruğuyla Cochabamba vadisinde Villa de Oropesa kuruldu. Vadinin verimli toprağı, Potosí gümüş madenlerinin kalabalık iş gücünü besleyecek tahıl bölgesi olarak örgütlendi; kasaba sömürge Yukarı Peru'sunun ambarı hâline geldi.",
+  kaynak:"Brooke Larson, Cochabamba, 1550-1900: Colonialism and Agrarian Transformation in Bolivia (Princeton: Princeton University Press, 1988) — vadinin sömürge iskânının standart incelemesi · hassasiyet: GÜN",
+  ic_not_d:"Kasaba 1574'te yeniden düzenlendi (Sebastián Barba de Padilla); atlas kırılması 1571 kuruluşunda duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
+
+// ── 1572 · Vilcabamba — İnka devletinin sonu ─────────────────────────
+{ t:"1572-06-24", k:"fetih", onem:5, dunya:5, kapsam:"dis", yer_id:"Vilcabamba (Espíritu Pampa)",
+  b:"Vilcabamba'nın düşüşü — bağımsız İnka devletinin sonu",
+  gun:"24 Haziran 1572", yer:"Vilcabamba (Espíritu Pampa)", kisiler:"Túpac Amaru, Genel Vali Francisco de Toledo, Martín Hurtado de Arbieto",
+  etiket:["askeri","toprak-kayip","konu-askeri"],
+  d:"Cuzco'nun 1533'te düşmesinden sonra Manco Inca ve ardılları Vilcabamba dağlarında kırk yıl süren bağımsız bir İnka devleti sürdürdüler. Genel Vali Francisco de Toledo'nun düzenlediği sefer, terk edilmiş başkenti ele geçirdi; kaçan son hükümdar Túpac Amaru yakalanarak Cuzco'ya getirildi ve orada idam edildi. And dünyasında dört asırlık İnka hanedanının siyasi varlığı böylece sona erdi.",
+  kaynak:"John Hemming, The Conquest of the Incas (London: Macmillan, 1970) — Vilcabamba seferinin standart anlatımı · hassasiyet: GÜN",
+  ic_not_d:"Vilcabamba'nın ele geçirilişi (Haziran 1572) ile Túpac Amaru'nun Cuzco'da idamı (Eylül 1572) ayrı tarihlerdir; atlas kırılması ele geçirilişte duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
+
+// ── 1619 · Maynas ────────────────────────────────────────────────────
+{ t:"1619-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Borja (Maynas)",
+  b:"San Francisco de Borja kuruldu — Maynas'ta İspanyol hâkimiyeti",
+  gun:"1619 (temsilî)", yer:"Borja (Maynas)", kisiler:"Diego Vaca de Vega",
+  etiket:["askeri","toprak-kazanc","konu-idari"],
+  d:"Diego Vaca de Vega, Marañón ırmağının Pongo de Manseriche boğazının aşağısında San Francisco de Borja'yı kurarak Maynas bölgesini İspanyol yönetimine bağladı. Kasaba, yukarı Amazon'da sonraki yüzyıl boyunca sürecek Cizvit misyon ağının çıkış noktası oldu.",
+  kaynak:"Handbook of South American Indians, c. III (Washington: Smithsonian Institution, Bureau of American Ethnology, ed. Julian H. Steward, 1948) — Maynas bölgesinin standart etnotarihî başvurusu · hassasiyet: YIL",
+  ic_not_d:"TEMSİLÎ YIL: kaynak yılı (1619) verir, günü vermez. Aynı güne düşen Yeniseysk (Sibirya) kırılmasıyla İLGİSİ YOKTUR — yalnız yıl yuvarlaması ikisini aynı tarihe düşürmüştür. Künye atlasın yerleşim kaydındaki kaynak satırından devralındı, basılı cilt bu oturumda okunmadı." }
 
 ];
