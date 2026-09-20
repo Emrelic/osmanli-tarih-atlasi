@@ -9422,11 +9422,37 @@ function _petekGovdeYukle(cb) {
   };
   document.head.appendChild(sc);
 }
+// 🔴 21 Eylül 2026 — DALGA-0074/H-0012 (Emre), KURAL İHLALİ DÜZELTMESİ.
+// Emre'nin birebir sözü: *"maddelerin içinde bu tür notlar bulunması son
+// kullanıcıyı ilgilendirmiyor, bu tip uyarı notlarını kaldıralım."* Gösterdiği
+// örnek TAM BU KUTUNUN boş hâliydi ("…taraflar arasında haritada el değiştiren
+// toprak yok. Antlaşma var olan durumu tanımış olabilir ya da toprak değişimi
+// bu güne işlenmemiş olabilir." — ikinci cümle bizim VERİ BORCUMUZUN itirafı).
+// ÖLÇÜLDÜ (denetim/UI-BUTON-0074-0921.md §3, tarayıcıda, evren = 1621 madde):
+// 137 antlaşma maddesinin 71'i (%52) bu notu basıyordu.
+// ⇒ DESEN H-0047'NİN AYNISI (16 Eylül, `maddeFarkiGoster`): gösterilecek bir
+//    fark YOKSA kutu HİÇ BASILMAZ, teşhis `console.debug`a gider — "sessizce
+//    atlama" değil, geliştirici F12'den görebilir (ölçülemedi ≠ yok ailesi).
+// ⚠️ Kutu hiç basılmadığında madde SESSİZ kalır; `maddeFarkiGoster` antlaşma
+//    maddesini zaten atlıyor (kendi başlığındaki not) — o davranış DEĞİŞMEDİ,
+//    bu oturumun kalemi yalnız NOTUN KALDIRILMASIYDI.
 function antlasmaFarkiGoster(o, ozelEl) {
   antlasmaFarkiTemizle();
   ANT_FARK.dugmeler = null;
   if (!antlasmaMaddesiMi(o) || !ozelEl) return;
   var r = antlasmaFarkiHesapla(o);
+  // H-0012 ①: arıza da (eski süzgeç) iç teşhistir — okura dosya adı gitmez.
+  if (r.hata) {
+    console.debug("[antlaşma farkı] " + (o.b || "") + ": kutu çizilmedi — " + r.hata);
+    return;
+  }
+  // H-0012 ②: el değiştiren toprak yoksa GÖSTERİLECEK BİR ŞEY YOK.
+  if (!r.f) {
+    console.debug("[antlaşma farkı] " + (o.b || "") + " · pencere " + _khGunYazi(o.gi) +
+      " → " + _khGunYazi(r.sonIx) + ": taraflar arasında el değiştiren toprak yok " +
+      "(antlaşma var olan durumu tanımış olabilir ya da toprak değişimi bu güne işlenmemiş).");
+    return;
+  }
   var kutuEl = document.createElement("div");
   kutuEl.className = "ob-kutu ob-antlasma";
   var bas = document.createElement("b");
@@ -9435,13 +9461,6 @@ function antlasmaFarkiGoster(o, ozelEl) {
   var yazi = document.createElement("span");
   kutuEl.appendChild(yazi);
   ozelEl.appendChild(kutuEl);
-  if (r.hata) { yazi.textContent = "Görünüm kurulamadı — sayfayı yenileyin (" + r.hata + ")."; return; }
-  if (!r.f) {
-    yazi.textContent = "Bu maddenin penceresinde (" + _khGunYazi(o.gi) + " → " + _khGunYazi(r.sonIx) +
-      ") taraflar arasında haritada el değiştiren toprak yok. Antlaşma var olan durumu tanımış " +
-      "olabilir ya da toprak değişimi bu güne işlenmemiş olabilir.";
-    return;
-  }
   var kirilma = gunIdx(r.f.gun);
   var anaMetin = (kirilma === o.gi ? "Aynı gün" : "Haritadaki kırılma " + (kirilma - o.gi) + " gün sonra (" + _khGunYazi(kirilma) + ")") +
     " · " + r.f.degisim.length + " yerleşim bölgesi el değiştirdi: " + _farkOzeti(r.f.degisim);
@@ -9471,7 +9490,13 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
   function ozellikleriKur() {
     var G = window.PETEK_GOVDE, P = window.PETEK_GOVDE_PARCA, eksik = 0;
     fsYerel = [];
-    if (!G || !P) { yazi.textContent = anaMetin + " · bölge sınırları yüklenemedi (data/petek_govde.js)"; return; }
+    // H-0012 ③: dosya adı okura gitmez — ana metin (kim kimden ne aldı) DOĞRU
+    // ve okura değerli; eksik olan yalnız haritadaki vurgu. Teşhis konsola.
+    if (!G || !P) {
+      yazi.textContent = anaMetin;
+      console.debug("[fark kutusu] bölge sınırları yüklenemedi (data/petek_govde.js) — vurgu çizilmedi.");
+      return;
+    }
     liste.forEach(function (x) {
       var ix = (x.pi === undefined) ? null : G[x.pi];
       if (!ix || !ix.length) { eksik++; return; }
@@ -9482,13 +9507,17 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
       fsYerel.push({ type: "Feature", properties: { once: x.once, sonra: x.sonra, koyu: koyuTon(x.sonra), ad: x.ad },
                      geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return P[j]; }) } });
     });
-    yazi.textContent = anaMetin + (eksik ? " · " + eksik + " bölgenin peteği yok, çizilmedi" : "");
+    // H-0012 ④: "N bölgenin peteği yok" bizim veri borcumuz, okurun işi değil.
+    yazi.textContent = anaMetin;
+    if (eksik) console.debug("[fark kutusu] " + eksik + " bölgenin peteği yok, çizilmedi.");
   }
   kutuEl.title = degisim.map(function (d) { return Y[d.i].ad; }).join(", ");
   if (window.PETEK_GOVDE) {
     ozellikleriKur();
   } else {
-    yazi.textContent = anaMetin + " · bölge sınırları yükleniyor…";
+    // H-0012 ⑤: "bölge sınırları yükleniyor…" iç terim + geçici durum; ana
+    // metin zaten okunur ve yükleme bitince kutu kendini tazeliyor.
+    yazi.textContent = anaMetin;
     _petekGovdeYukle(function () {
       if (!kutuEl.isConnected) return;               // bu arada başka madde açıldı
       ozellikleriKur();
@@ -9646,9 +9675,13 @@ function maddeFarkiGoster(o, ozelEl) {
   kutuEl.appendChild(yazi);
   ozelEl.appendChild(kutuEl);
   var kalan = r.degisim.length - r.secilen.length;
+  // H-0012 ⑥: "o günün öteki N değişimi bu maddeye ait değil, yanıp sönmez"
+  // bir GÖSTERİM TEŞHİSİDİR (neyin yanıp sönmediğini anlatır), tarihî bilgi
+  // değil — okura gitmez, konsola gider.
+  if (kalan) console.debug("[aynı gün farkı] " + gunYazi + " · o günün öteki " + kalan +
+    " değişimi bu maddeye bağlanmadı, yanıp sönmüyor.");
   var anaMetin = "Aynı gün · bu maddeye bağlı " + r.secilen.length + " yerleşim bölgesi el değiştirdi: " +
-    _farkOzeti(r.secilen) +
-    (kalan ? " · o günün öteki " + kalan + " değişimi bu maddeye ait değil, yanıp sönmez" : "");
+    _farkOzeti(r.secilen);
   _farkKutusuCiz(o, kutuEl, yazi, r.secilen, anaMetin, SG.gunKaydir(gs, -1), o.gi, o.gi);
 }
 
@@ -9902,12 +9935,18 @@ function _ekHavuz() {
 // kartı, 1 Eylül'den beri) ne yükleniyordu ne okunuyordu — HİÇ görünmüyordu
 // (D099). `window.MERAK` ÖNCE gelir: Object.keys ekleme sırasını korur ve
 // MERAK, MERAK_* dosyalarından önce yüklenir ama o sıraya GÜVENİLMEZ — açıkça
-// başa alınır. Havuzdaki (EKOKUMA*) tur:"merak" kartlar bugün de görünmez.
+// başa alınır.
+// 🔴 21 Eylül 2026 — EKO-YENICERI-0073 bu satırın altındaki tuzağı ÖLÇTÜ ve
+// bildirdi (M-4866): `data/ekokuma_*.js` içine `tur:"merak"` yazılan kart HİÇ
+// görünmüyordu, çünkü havuz yalnız MERAK/MERAK_* okuyordu. Oturum kartı bu
+// yüzden "sebep-sonuç" yazmak zorunda kaldı — yani tuzak, veriyi de bozuyordu.
+// Çare: EKOKUMA* havuzu da buraya katılır. Süzgeç zaten tür başına çalışıyor
+// (`k.tur === tur`, satır ~10114), o yüzden yalnız tur:"merak" kartlar geçer.
 function _merakHavuz() {
   var ekler = Object.keys(window)
     .filter(function (k) { return /^MERAK_[A-Z0-9]+$/.test(k) && Array.isArray(window[k]); })
     .reduce(function (acc, k) { return acc.concat(window[k]); }, []);
-  return (Array.isArray(window.MERAK) ? window.MERAK : []).concat(ekler);
+  return (Array.isArray(window.MERAK) ? window.MERAK : []).concat(ekler).concat(_ekHavuz());
 }
 // AYNI DESEN — görsel havuzu. Bugün TEK kullanıcısı yok (madde görseli
 // gösterimi ayrı bir karar, M-3651); dosya yalnız BELLEĞE alınıyor. Karar
@@ -11113,6 +11152,52 @@ function maddeOdakKutusu(o) {
     var ok = hk && hk.kapsama && hk.kapsama.odak_kutu;
     if (ok) return { kutu: [ok.lon_min, ok.lat_min, ok.lon_max, ok.lat_max], anahtar: "odak:" + o.odak_kutu_kaynak };
   }
+  // 🆕 KRONO-YER-0072 · DALGA-0074 (H-0004 · H-0010 · H-0017) — `odak_yer`
+  // Emre: *"haritada noktası olmayan tüm maddeler taranmalı ve noktaları
+  // yerleştirilmeli"* · *"sanırım İstanbul koymak lazım bunun odak noktasına"*.
+  //
+  // 🔴 NİÇİN `yer_id` DEĞİL — ve bu ayrım kuralın KENDİSİDİR:
+  //   `yer_id` "olay BURADA oldu" demektir; `olayKonumu` onu öyle okur, kart da
+  //   öyle sunar. 1827 tımar tasfiyesi Rumeli ve Anadolu'daki 53 sancakta oldu,
+  //   İstanbul'da DEĞİL. `yer_id:"İstanbul"` yazmak kameraya yarar ama VERİYE
+  //   YALAN yazar. Ölçüldü: TDV `timar` ve TDV `nufus` maddelerinin ikisi de
+  //   kararın NEREDE alındığını SÖYLEMİYOR ("metinde yok") — yani "İstanbul"
+  //   kaynaklı bir OLAY YERİ değildir, bir GÖSTERİM tercihidir.
+  // ⇒ `odak_yer` yalnız KAMERANIN bakacağı yeri söyler, olayın yerini değil.
+  //   `kapsam_genis:true` YERİNDE KALIR — olay gerçekten ülke çapındadır, beyan
+  //   doğrudur; yalnız kamera artık imparatorluk kutusuna değil odak yerine gider.
+  //   İki alan çelişmiyor, iki AYRI şey söylüyorlar.
+  //
+  // Ad çözümü `olayKonumu` ile AYNI: `sehirler` içinde BİREBİR ad ya da " ("
+  // öncesi. Bulanık eşleşme YOK (aynı sebeple — bugüne kadar beş kez yanlış çıktı).
+  // Tek ad verilirse 0,35°'lik pay şehir kademesinde bir kutu kurar (app.js'in
+  // kendi ölçümü: "bir şehir ~66 km"); birden çok ad verilirse hepsinin kutusu.
+  // Çözülemeyen ad SESSİZCE ELENMEZ, konsola sayılarak basılır.
+  var oyer = o.odak_yer;
+  if (oyer && !Array.isArray(oyer)) oyer = [oyer];
+  if (oyer && oyer.length) {
+    var ox0 = 180, oy0 = 90, ox1 = -180, oy1 = -90, oyn = 0, oyYok = [];
+    oyer.forEach(function (ad) {
+      var bul = null;
+      for (var i = 0; i < sehirler.length; i++) {
+        var sad = sehirler[i].s.ad;
+        if (sad === ad || sad.split(" (")[0] === ad) { bul = sehirler[i].s; break; }
+      }
+      if (!bul) { oyYok.push(ad); return; }
+      oyn++;
+      if (bul.lon < ox0) ox0 = bul.lon; if (bul.lon > ox1) ox1 = bul.lon;
+      if (bul.lat < oy0) oy0 = bul.lat; if (bul.lat > oy1) oy1 = bul.lat;
+    });
+    if (oyYok.length) {
+      console.warn("[odak_yer] " + o.t + " çözülemeyen ad: " + oyYok.join(", ") +
+                   " (sessiz geçilmedi — atlasta o adda yerleşim yok)");
+    }
+    if (oyn >= 1) {
+      var oypay = 0.35;
+      return { kutu: [ox0 - oypay, oy0 - oypay, ox1 + oypay, oy1 + oypay],
+               anahtar: "odaky:" + oyer.join(","), n: oyn, yer: true };
+    }
+  }
   var ids = o.odak_kimlik;
   if (ids && !Array.isArray(ids)) ids = [ids];
   if (ids && ids.length && window.SUZGEC && SUZGEC.sahipKimlikte) {
@@ -11283,9 +11368,16 @@ function haritayiOlayaGotur(o, zorla) {
       // tamamen sessiz kalırdı ve Emre onu "pas geçildi" diye okuyordu.
       var _kirptiIG = false;
       try { _kirptiIG = oncesiSonrasiKirp(o.gi); } catch (eKirp) { }
-      if (obYerYokEl) obYerYokEl.textContent = _odakKG
-        ? "📍 Bu olayın tek bir nokta yeri yok — ilgili bölgeye odaklanıldı."
-        : "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
+      // 🆕 KRONO-YER-0072 · DALGA-0074 — `odak_yer` dalının notu AYRI yazılır.
+      // Sebebi ayrımın kendisi: "bölgeye odaklanıldı" (odak_kimlik) o günün
+      // SAHİPLİK verisinden türer; `odak_yer` ise bizim GÖSTERİM tercihimizdir
+      // ve kullanıcı ikisini karıştırmamalı — olay orada geçmedi, kamera oraya
+      // BAKTIRILDI. Not bunu açıkça söylemezse harita bir iddia uydurmuş olur.
+      if (obYerYokEl) obYerYokEl.textContent = (_odakKG && _odakKG.yer)
+        ? "📍 Bu olay tek bir yerde geçmedi — kamera olayın odak yerine getirildi."
+        : _odakKG
+          ? "📍 Bu olayın tek bir nokta yeri yok — ilgili bölgeye odaklanıldı."
+          : "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
       if (!_kirptiIG) panelSinyali();
     } else if (obYerYokEl) {
       obYerYokEl.textContent = "📍 Bu olayın haritada yeri işaretlenmemiş.";

@@ -106,6 +106,27 @@
       <label><input type="checkbox" data-katman="kure" checked> <span>⑦ Küre görünüm (dünya yuvarlak)</span><em id="kat-sayi-kure"></em></label>
       <div id="katman-not"></div>
     </div>
+    <!-- 🔴 DALGA-0074/H-0001 (21 Eylül 2026) — zaman barından BURAYA taşındı.
+         Emre'nin tarifi: "otomatik odaklama olay play olay hızı ayarı
+         yanındaki ayar butonu oto butonu".
+         ⚠️ KATMAN KUTUSUNDAN SONRA konuldu, öncesine DEĞİL: `#menu-butonlar`
+         `flex-wrap` ile sarıyor ve `#katman-grup` geniş bir blok — düğme
+         kutudan ÖNCE dururken kutu onun SAĞINA sarıyor, altında boş bir
+         sütun kalıyordu (ekranda ölçüldü). Burada ⛶ ve bölge seçiciyle aynı
+         son satıra düşüyor. -->
+    <button id="btn-zoom" title="Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş">🔍 Oto</button>
+    <!-- 🔴 DALGA-0074/H-0003 (21 Eylül 2026) — D sınırları görünüm anahtarı
+         (Hukukî / Fiilî) haritanın SAĞ ÜST köşesinden BURAYA taşındı. Emre:
+         "fiili D görünümü ile C görünümü ayarı haritadan butonlar alanına
+         kaldırılsın. zaten üstüste binmiş yapı var."
+         ÖRTÜŞME ÖLÇÜLDÜ (1440×900, denetim/UI-BUTON-0074-0921.md §2):
+         `#harita-ust-sag` (z-index 9) ile MapLibre `top-right` denetimi
+         (z-index 2) 68×24 = 1632 px² kesişiyordu; "D: Hukukî" düğmesinin
+         %75'i örtülüydü ve MERKEZİNDEN TIKLANAMIYORDU (elementFromPoint →
+         #btn-panel). Yani kusur kozmetik değil, İŞLEVSELDİ.
+         Yuva BURADA, düğmeleri js/d_katman.js dolduruyor (aynı `_dGorunum`
+         değişkeni, aynı `_dSinirGuncelle` çağrısı — yeni mekanizma YOK). -->
+    <div id="d-gorunum-grup"></div>
     <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
     <!-- 🔴 EMRE, 18 Ağustos 2026: "tüm imparatorluk combobox'ını butonlar
          içine koyabiliriz." p2/H-0010'da üst çubuğa alınmıştı; üst çubuk
@@ -258,7 +279,12 @@
       <option value="30000">30 sn/olay</option>
       <option value="60000">60 sn/olay</option>
     </select>
-    <button id="btn-zoom" title="Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş">🔍 Oto</button>
+    <!-- 🔴 21 Eylül 2026 — DALGA-0074/H-0001, Emre: "otomatik odaklama olay
+         play olay hızı ayarı yanındaki oto butonu. bu butonu butonlar alanına
+         taşıyalım." `#btn-zoom` BURADAN `#menu-butonlar` içine TAŞINDI (id
+         AYNI kaldı — js/app.js düğmeye 6 yerde `getElementById("btn-zoom")`
+         ile bağlanıyor, TEK SATIR JS değişmedi; emsal: `#bolge`in 18 Ağustos
+         taşınması). -->
     <!-- 🔴 11 Eylül 2026 — Emre: "tarihe git diye bir buton olsun ve bir tarih
          yazıldığı zaman o tarihe en yakın kronolojik maddeye götürsün tarih
          çizgimizi." Mevcut olay-atlama altyapısı (`olayaGit`, `suankiOlayI`,
@@ -1267,6 +1293,7 @@
 <script src="data/olaylar_p0067.js?v=r9454"></script>
 <script src="data/olaylar_p0068b.js?v=r9454"></script>
 <script src="data/olaylar_p0065.js?v=r9454"></script>
+<script src="data/olaylar_kronoeksik_0921.js?v=r9454"></script>
     <script src="data/olaylar_kamerika.js?v=r9454"></script>
 <script src="data/savaslar_ok104.js?v=r9454"></script>
 <script src="data/savas_kunye_1.js?v=r9454"></script>

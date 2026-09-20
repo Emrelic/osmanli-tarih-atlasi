@@ -135,6 +135,58 @@ body {
 }
 #btn-tamekran { padding: 3px 8px; font-size: 14px; }
 
+/* 🔴 DALGA-0074 / H-0001 · H-0003 (21 Eylül 2026) — BUTONLAR alanına taşınan
+   iki denetim. `#btn-zoom` zaman barından, `#d-gorunum-grup` haritanın sağ üst
+   köşesinden geldi; ikisi de menünün üslûbuna uyuyor.
+   ⚠️ `#btn-zoom`un eski kuralı `width:auto !important; font-size:13px
+   !important` idi; o iki `!important` YALNIZ `#zamanbar button { width:32px;
+   font-size:13px }`ı yenmek içindi. Düğme zaman barından çıkınca o kural
+   uygulanmıyor, dolayısıyla `!important` da gereksiz kaldı — dosyanın
+   ilerisindeki satırdan çıkarıldı, yalnız `.pasif` hâli orada bırakıldı. */
+#btn-zoom {
+  background: #f3e6c8;
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 12.5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#btn-zoom:hover { background: #ffe9a8; }
+
+/* D sınırı görünüm anahtarı — iki hâlli bir DURUM düğmesi çifti, komut değil:
+   hangi hâlin açık olduğu `.etkin` ile görünür (katman düğmeleriyle aynı dil). */
+#d-gorunum-grup {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 0 0 auto;
+}
+#d-gorunum-grup:empty { display: none; }
+.d-gorunum-baslik {
+  color: #e7d3a8;
+  font-size: 10.5px;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+}
+.d-gorunum-dugme {
+  background: #f3e6c8;
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 3px 9px;
+  font-size: 12.5px;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.d-gorunum-dugme:hover { background: #ffe9a8; }
+.d-gorunum-dugme.etkin {
+  background: var(--altin);
+  color: #2a0a10;
+  font-weight: 600;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.25);
+}
+
 /* Orta: tarih + dönem/kronoloji başlığı — geri kalan alanı paylaşıyor.
    🔴 21 Ağustos — Emre: "Osmanlı Tarih Atlası" başlığı gidince çubuğun sağ
    ucunu artık `#ustbar-yil` TEK BAŞINA tutuyor; tarih bloğunu SOLA
@@ -1580,8 +1632,9 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 .sefer-rozet.rozet-zafer   { color: #1a6b33; }
 .sefer-rozet.rozet-yenilgi { color: #9c1f14; }
 
-/* zaman barındaki oto-zoom düğmesi */
-#btn-zoom { width: auto !important; padding: 0 10px; font-size: 13px !important; }
+/* oto-zoom düğmesi — 21 Eylül 2026'da zaman barından BUTONLAR alanına taşındı
+   (DALGA-0074/H-0001); asıl görünüm kuralı artık `#menu-butonlar` bloğunda.
+   Buradaki satır yalnız PASİF hâli taşır: düğme bir DURUM gösterir. */
 #btn-zoom.pasif { opacity: 0.45; }
 
 /* ---------- EK OKUMA / MERAK — buton şeridi ve pencere ---------- */

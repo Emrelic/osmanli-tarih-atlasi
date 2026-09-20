@@ -35,6 +35,16 @@
 //   ② canlı güncelleme — app.js'in global `guncelle()`u monkey-patch ile sarılıyor.
 // Görünüm anahtarı (HUKUKÎ/FİİLÎ) de kendi MapLibre `addControl`ıyla kendi
 // ekliyor — app.js/index.html'e satır eklemek GEREKMEDİ.
+// 🔴 BU SON CÜMLE 21 EYLÜL 2026'DA DEĞİŞTİ — DALGA-0074/H-0003 (UI-BUTON-0074).
+// `addControl(..., "top-right")` haritanın sağ üst köşesini `#harita-ust-sag`
+// ile PAYLAŞIYORDU ve ölçüldü (1440×900): kesişim 68×24 = 1632 px²,
+// "D: Hukukî" düğmesinin %75'i örtülü, MERKEZİNDEN TIKLANAMIYOR
+// (`elementFromPoint` → `#btn-panel`, z-index 9 > 2). Emre: "haritadan
+// butonlar alanına kaldırılsın. zaten üstüste binmiş yapı var."
+// ⇒ Anahtar artık `index.html`teki `#d-gorunum-grup` yuvasına kuruluyor.
+// index.html'e eklenen TEK satır o boş `<div>`tür; `_dGorunum`,
+// `_dAktifKayitlar`, `_dSinirGuncelle` ve düğme gövdesi AYNEN duruyor
+// (D045: var olan mekanizma, ikinci bir anahtar açılmadı).
 // index.html'e TEK gereken satır: bu dosyanın <script> etiketi, js/app.js'ten
 // SONRA (+ data/d_sinirlar*.js dosyalarının kendi <script> etiketleri —
 // henüz index.html'e hiçbiri bağlı değil, tahtadan istendi).
@@ -198,14 +208,79 @@ function _dDayanakSatirlari(kayit) {
   if (d.length > GOSTER) satirlar.push("+" + (d.length - GOSTER) + " kaynak daha");
   return satirlar.join("<br>");
 }
+// 🆕 21 Eylül 2026 — CIZGI-ANLAM-0072, DALGA-0074 H-0006. Emre: *"buradaki mavi
+// çizgiler sınır çizgileri sanırım ama bu çizgiler o sene için geçerli ise…"*
+// Yani kullanıcı çizgiye TIKLIYOR ve hâlâ ne olduğunu anlamıyor. ÖLÇÜLDÜ
+// (denetim/ARAC-CIZGI-ANLAM-0074-ANLAM.js, 349 çizilebilir kayıt):
+//   · başlık `kayit.id` idi — şemada `ad`/`baslik` alanı **%0,0**, yani balonun
+//     başlığı HER ZAMAN "d1923-nl-de" gibi bir iç slug'dı.
+//   · `dayanak` doluluk **%100** ve ilkinde `ad` **%100** ⇒ insan okunur bir
+//     başlık ZATEN vardı, yalnız üçüncü satıra gömülüydü.
+//   · pencere (`f`/`t`) HİÇ gösterilmiyordu — oysa Emre'nin sorusu tam buydu.
+// 🔴 VE `taraflar[]` ADI BAŞLIĞA BASILAMAZ (bu ölçüm sırasında çıktı, öngörüde
+//    yoktu): `taraflar` atlasın HARİTA KİMLİĞİdir, o günün devleti değil —
+//    taraf atıflarının **%25,8'i 300 yıldan geniş** bir künyeye düşüyor (en
+//    geniş 962 yıl). 1827'de `hollanda` künyesi "Hollanda Cumhuriyeti" (1581–
+//    1923) der ama o tarihte Birleşik Hollanda Krallığı vardır; `almanya`
+//    "Kutsal Roma / Almanya" der ama sınırı imzalayan Prusya ve Hannover'dir.
+//    Antlaşmanın KENDİ adı ("Meppen Sınır Antlaşması (Hollanda–Hannover)") hem
+//    insan okunur hem DÖNEME DOĞRU — o yüzden başlık ondan geliyor.
+// 🔴 `t` ASLA çıplak "bitiş" diye yazılmaz: çizilebilir 349 kaydın **196'sı
+//    (%56,2)** tam `1923-10-29`da biter ve bu tarihî bir bitiş değil, geriye
+//    sarmanın TASARIM GÜNÜdür (D-RENK-0073 ölçtü, M-4862). Çıplak yazmak
+//    "bu sınır 1923'te bitti" diye bir iddia UYDURURDU.
+var _D_PENCERE_SONU = "1923-10-29";
+function _dGunYazi(s) {
+  // app.js'in `idxYazi`si "29 Mayıs 1453" verir; YALNIZ tam gün varsa kullan —
+  // "1824-07" gibi ay hassasiyetli bir değeri "1 Temmuz" diye yazmak CLAUDE.md
+  // §4'ün yasakladığı UYDURMA KESİNLİKTİR. Ham değer o durumda olduğu gibi kalır.
+  if (!s) return "";
+  if (typeof idxYazi !== "function" || typeof gunIdx !== "function") return String(s);
+  return (/^\d{3,4}-\d{2}-\d{2}$/.test(String(s))) ? idxYazi(gunIdx(s)) : String(s);
+}
+function _dPencereSatiri(kayit) {
+  var bas = _dGunYazi(kayit.f);
+  if (kayit.t == null) return "Geçerli: " + ekEsc(bas) + "’ten itibaren (açık uç)";
+  if (kayit.t === _D_PENCERE_SONU) {
+    return "Geçerli: " + ekEsc(bas) + "’ten itibaren — bu hat 1923 sınırından " +
+      "geriye sarıldı; <b>29 Ekim 1923 atlasın pencere sonudur, sınırın sonu değildir.</b>";
+  }
+  return "Geçerli: " + ekEsc(bas) + " – " + ekEsc(_dGunYazi(kayit.t));
+}
+// Başlık hangi dayanaktan gelmeli? `dayanak[0]` HER ZAMAN doğru değil: kaydın
+// `f`si bazen LİSTEDEKİ İKİNCİ/ÜÇÜNCÜ belgenin günüdür. Emre'nin görselindeki
+// kayıt tam bu: `d1923-nl-de` `f:"1824-07-02"` (Meppen) ama `dayanak[0]`
+// Aachen 1816. ÖLÇÜLDÜ (349 çizilebilir kayıt): 48'inde tek dayanak var (soru
+// yok) · 131'inde `tarih`i `f` ile BİREBİR eşleşen bir dayanak var, bunların
+// **36'sında o dayanak ilk sırada DEĞİL** · 170'inde hiçbiri eşleşmiyor.
+// ⇒ Eşleşen varsa O, yoksa ilki. Kural tek yönlü güvenli: 170 kayıtta bugünkü
+// davranış AYNEN korunuyor, 36 kayıtta başlık `f`yi doğrulayan belgeye döner.
+function _dBaslikDayanagi(kayit) {
+  var d = kayit.dayanak || [];
+  if (!d.length) return {};
+  for (var i = 0; i < d.length; i++)
+    if (d[i].tarih && String(d[i].tarih).slice(0, 10) === kayit.f) return d[i];
+  return d[0];
+}
 function _dPopupHtml(kayit, sinif) {
-  var ust = "<b>" + ekEsc(kayit.id || "D sınırı") + "</b>";
+  var d0 = _dBaslikDayanagi(kayit);
+  var baslik = d0.ad || d0.kaynak || kayit.id || "D sınırı";
+  var ust = "<b>" + ekEsc(baslik) + "</b>";
   var alt = [D_SINIF_ETIKET[sinif] || sinif || ""];
   if (kayit.uzunluk_km != null) alt.push(kayit.uzunluk_km + " km");
   if (kayit.kesinlik_km != null) alt.push("kesinlik ±" + kayit.kesinlik_km + " km");
   var dayanakHtml = _dDayanakSatirlari(kayit);
-  return ust + "<br><small>" + alt.filter(Boolean).join(" · ") + "</small>" +
-    (dayanakHtml ? "<br><small>" + dayanakHtml + "</small>" : "");
+  return ust +
+    "<br><small>" + alt.filter(Boolean).join(" · ") + "</small>" +
+    "<br><small>" + _dPencereSatiri(kayit) + "</small>" +
+    (dayanakHtml ? "<br><small>Dayanak: " + dayanakHtml + "</small>" : "") +
+    // Emre'nin asıl cümlesi ("renkler bu sınırlara birebir oturmuyor") burada
+    // cevaplanıyor: hat ile dolgu AYRI İKİ İDDİADIR, ve ayrışma bir kusur değil
+    // bir ÖLÇÜdür. Sapmayı D-RENK-0073 sayıya döktü (medyan 11 km, en çok 40 km).
+    "<br><small>⚠️ Bu hat <b>antlaşmanın</b> çizgisidir; altındaki renk " +
+    "<b>yerleşim peteğinden</b> gelir. İkisi ayrışabilir — ayrıştığı yerde " +
+    "henüz o hattı tutacak yerleşim noktası yoktur.</small>" +
+    "<br><small style=\"opacity:.55\">" + ekEsc(kayit.id || "") + "</small>";
 }
 
 // ---- GEOMETRİ / GÜNCELLEME ---------------------------------------------------
@@ -231,32 +306,28 @@ function _dSinirGuncelle(gun) {
   harita.getSource("d-sinir-hat").setData({ type: "FeatureCollection", features: feat });
 }
 
-// ---- GÖRÜNÜM KONTROLÜ (MapLibre custom control, top-right — boşta) -----------
-function _DGorunumKontrolu() {}
-_DGorunumKontrolu.prototype.onAdd = function () {
-  var el = document.createElement("div");
-  el.className = "maplibregl-ctrl maplibregl-ctrl-group";
-  el.style.background = "#fff";
-  el.style.fontSize = "11px";
-  el.style.fontFamily = "inherit";
+// ---- GÖRÜNÜM ANAHTARI (BUTONLAR alanı — `#d-gorunum-grup`) -------------------
+// 🔴 DALGA-0074/H-0003: eskiden MapLibre `addControl(..., "top-right")` idi ve
+// `#harita-ust-sag` ile ÖRTÜŞÜYORDU (ölçüm dosyanın başındaki nota işlendi).
+// Gövde aynı; değişen YALNIZ nereye asıldığı ve üslubun menüye uyması.
+// ⚠️ Kurulum haritanın `load`una BAĞLI DEĞİL: `_dKatmaniKur` "Style is not done
+//    loading" ile düşerse bile (ölçüldü — altlık rasteri inmediğinde oluyor)
+//    anahtar ekranda kalmalı, yoksa kullanıcı ayarı büsbütün kaybeder.
+function _dGorunumAnahtariKur() {
+  var yuva = document.getElementById("d-gorunum-grup");
+  if (!yuva || yuva.childNodes.length) return;      // yuva yok ya da zaten kurulu
   var dugmeler = {};
   function boyaDugmeler() {
     Object.keys(dugmeler).forEach(function (deger) {
-      var aktif = (_dGorunum === deger);
-      dugmeler[deger].style.background = aktif ? D_HAT_RENK : "#fff";
-      dugmeler[deger].style.color = aktif ? "#fff" : "#222";
+      dugmeler[deger].classList.toggle("etkin", _dGorunum === deger);
     });
   }
   function dugmeYap(etiket, deger, aciklama) {
     var b = document.createElement("button");
     b.type = "button";
+    b.className = "d-gorunum-dugme";
     b.textContent = etiket;
     b.title = "D sınırları görünümü: " + aciklama;
-    b.style.display = "block";
-    b.style.width = "100%";
-    b.style.border = "none";
-    b.style.padding = "4px 8px";
-    b.style.cursor = "pointer";
     b.addEventListener("click", function () {
       if (_dGorunum === deger) return;
       _dGorunum = deger;
@@ -268,15 +339,14 @@ _DGorunumKontrolu.prototype.onAdd = function () {
     dugmeler[deger] = b;
     return b;
   }
-  el.appendChild(dugmeYap("D: Hukukî", "hukuki", "F > E > C — yalnız barış antlaşması/protokolle kararlaştırılmış sınırlar; fiilî hat gösterilmez"));
-  el.appendChild(dugmeYap("D: Fiilî", "fiili", "D > F > E > C — hukuken geçersiz olsa da fiilî/de facto hat varsa O gösterilir"));
+  var bas = document.createElement("span");
+  bas.className = "d-gorunum-baslik";
+  bas.textContent = "D SINIRI";
+  yuva.appendChild(bas);
+  yuva.appendChild(dugmeYap("Hukukî", "hukuki", "F > E > C — yalnız barış antlaşması/protokolle kararlaştırılmış sınırlar; fiilî hat gösterilmez"));
+  yuva.appendChild(dugmeYap("Fiilî", "fiili", "D > F > E > C — hukuken geçersiz olsa da fiilî/de facto hat varsa O gösterilir"));
   boyaDugmeler();
-  this._el = el;
-  return el;
-};
-_DGorunumKontrolu.prototype.onRemove = function () {
-  if (this._el && this._el.parentNode) this._el.parentNode.removeChild(this._el);
-};
+}
 
 // ---- KATMAN KURULUMU (şemadan bağımsız, kalıcı) -------------------------------
 function _dKatmaniKur() {
@@ -314,7 +384,6 @@ function _dKatmaniKur() {
       harita.on("mouseenter", lyr, function () { harita.getCanvas().style.cursor = "pointer"; });
       harita.on("mouseleave", lyr, function () { harita.getCanvas().style.cursor = ""; });
     });
-    harita.addControl(new _DGorunumKontrolu(), "top-right");
   } catch (e) {
     console.error("D KATMANI kurulamadı:", e);
   }
@@ -323,6 +392,14 @@ function _dKatmaniKur() {
 // Kendi "load" dinleyicisi — app.js'in load işleyicisinden bağımsız.
 if (typeof harita !== "undefined" && harita && typeof harita.on === "function") {
   harita.on("load", _dKatmaniKur);
+}
+// 🔴 DALGA-0074/H-0003 — görünüm anahtarı ARTIK haritaya bağlı değil: yuva
+// (`#d-gorunum-grup`) DOM'da hazırsa hemen, değilse DOMContentLoaded'da kurulur.
+// Katman kurulumundan AYRILMASININ ölçülmüş sebebi yukarıdaki nottadır.
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", _dGorunumAnahtariKur);
+} else {
+  _dGorunumAnahtariKur();
 }
 
 // guncelle() SARMALAMA — app.js'e dokunmadan canlı güncelleme.
