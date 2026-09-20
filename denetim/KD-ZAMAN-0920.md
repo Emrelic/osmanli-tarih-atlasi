@@ -364,6 +364,85 @@ maddesi (`cezayir-i-bahr-i-sefid`, `derya-beyi`, `cildir-eyaleti`,
 
 ---
 
+---
+
+# PARTİ 5 — Kafkas/Çoruh + Çukurova (11 kayıt, 33 çelişki)
+
+## 15. ÖNCE: ALET KUSURU DÜZELTİLDİ — "slug ayrıştırılamadı" YANLIŞTI
+
+Parti 4'te Derbend ve Kuba'yı "TDV'de maddesi var ama slugu ayrıştıramadım" diye
+`ölçülemedi` kovasına koymuştum. **Sebep TDV değil, benim çıkarıcımdı:** TDV arama
+sonuçlarının bağlantıları **TIRNAKSIZ** yazılıyor — `<a href=/artvin>` — ve regex'im
+yalnız `href="/..."` arıyordu. Düzeltilince slug anında çıktı:
+`/derbend--dagistan` · `/kuba--azerbaycan` · `/artvin`.
+
+Alet kalıcı: **`denetim/ARAC-KD-ZAMAN-SLUG-0920.py`** — arama kelimesinden madde
+başlığı/içerik sayısını ve bütün madde sluglarını basar; eşadlı maddelerin `--` ekini
+(TDV tuzağı ②) görünür kılar.
+📌 Ders ailesi: *"ölçülemedi ≠ yok"* — ve bu kez ölçülemezliğin sebebi aletti.
+Parti 4'ün §12b'sindeki Derbend/Kuba satırı bu partide **kapandı**.
+
+Aynı aletle kapanmayanlar da netleşti: **Tarki** (madde başlığı 0) · **Kerene**
+(0 başlık / 0 içerik) · **Karistos, Sokna, Amorgos, Psara** (0/0) — bunlar gerçekten
+TDV'de yok. **Hacıbey (Odessa)**: "Odesa" aramasının tek maddesi `/akkirman`, onun
+gövdesinde de "Hacıbey" GEÇMİYOR ⇒ `bulunamadı` kalıyor.
+
+## 16. ÖNGÖRÜ (parti 5) — ölçümden ÖNCE
+
+**Küme:** Derbend · Kuba · Artvin · Hopa · Sarp · Borçka · Hulo (Acara) · Hanak ·
+Dörtyol · Erzin · Yumurtalık = **33 çelişki** (hepsi 1300/1400/1500 kesitlerinde,
+yani Osmanlı öncesinde). **ÖNGÖRÜ: 323 → 290 (−33).**
+
+## 17. PARTİ 5 KAYNAKLARI
+
+| Kayıt | TDV kaynağı | Yazılan `kd:` |
+|---|---|---|
+| **Derbend** | `derbend--dagistan`: "**1538**'de Şirvan doğrudan Safevî hâkimiyetine girince Müskür ile birlikte **Derbend Şirvan'a bağlı bir idarî bölge** haline getirildi" · "**5 Ekim 1578**'de … bağlılık arzettiler" | 1538 öncesi `k:0 m:null` · 1538→1578 `k:3 m:"Şamahı"` (Şirvan merkezi) · 1578→1607 **`k:1 m:null`** (Derbend eyaleti) · sonrası `k:0 m:null` |
+| **Kuba** | `kuba--azerbaycan`: "Osmanlı belgelerinden Kuba'nın **XVI. yüzyılda Derbend eyaletine bağlı sancaklardan biri** olduğu anlaşılmaktadır" | 1578 öncesi `k:0 m:null` · 1578→1607 `k:2 m:"Derbend"` — **`m:` DOĞRUYMUŞ, yalnız penceresi yoktu** · sonrası `k:0 m:null` |
+| **Artvin** | `artvin`: "1536-1537 harekâtı sırasında … **Livâne sancağı kurularak Erzurum beylerbeyiliğine bağlandı**" · "**1579**'da Çıldır eyaletinin teşkilinden sonra da Artvin, bu eyalete bağlanan **Livâne sancağının merkezi** oldu" · "Edirne Muahedesi ile Ahıska Ruslar'a terkedilince … Artvin, **Trabzon eyaletinin Batum sancağına bağlı** bir kazanın (Livâne kazası) merkezi oldu" | 1551 öncesi `k:0 m:null` · 1551→1579 `k:2 m:"Erzurum"` · 1579→1829-09-14 `k:2 m:"Ahıska"` · 1829→1878 `k:3 m:"Batum"` · sonrası `k:0 m:null` — **dört pencereli, `kd:`nin tasarlandığı vaka** |
+| **Hopa · Sarp · Borçka · Hanak · Hulo** | `cildir-eyaleti` + `artvin`: bölgenin fethi 1536-37 / 1549-1551 / 1578 | yalnız Osmanlı öncesi + 1878 sonrası `k:0 m:null`; Osmanlı penceresi BOŞ (TDV bu kasabaları adıyla anmıyor) |
+| **Dörtyol · Erzin · Yumurtalık** | `cebelibereket`: "daha **1568 yılından itibaren Halep eyaletine bağlı, merkezi Payas olan Üzeyr sancağı** bulunuyordu" · "**1890 yılında Adana vilâyetine bağlanan** ve Cebelibereket adı verilen sancak…" | 1516 öncesi + 1920 sonrası `k:0 m:null`; Osmanlı penceresi BOŞ |
+
+🔴 **Çukurova bulgusu (eksen değil, KADEME):** üçünün de `m:`i **`Adana`**; oysa kaynak
+bu yöreyi 1568'den 1890'a kadar **Üzeyr/Cebelibereket sancağında (merkez Payas, Halep
+eyaleti)** gösteriyor. Yani `m:"Adana"` ancak **1890 sonrası** için doğru olabilir.
+`m:"Payas"` yazamadım: atlasta **Payas kaydı yok** (`m:` bir yerleşim adına birebir
+eşleşmek zorunda). Nokta açılırsa üç kayıt birden bağlanmalı — açık borç.
+
+## 18. PARTİ 5 SONUCU
+
+| Ölçü | Önce | Sonra | Öngörü |
+|---|---|---|---|
+| ZAMANLI çelişki | 323 | **290** | 290 ✓ **TUTTU** |
+| ZAMANSIZ çelişki | 489 | **489** | değişmemeli ✓ |
+| `kd:` taşıyan kayıt | 236 | **247** | +11 ✓ |
+| çelişki üreten ayrı yerleşim | 218 | **207** | −11 ✓ |
+
+`py arac/denetle.py`: **SONUÇ temiz**.
+
+### BEŞ PARTİNİN TOPLAMI
+**483 → 290 · −193 çelişki (%40,0)** · 55 kayda `kd:` yazıldı (192 → 247) ·
+çelişen ayrı yerleşim 262 → 207 · ZAMANSIZ 489'da sabit.
+**Beş partinin beşinde de öngörü ölçümden önce yazıldı ve beşi de birebir tuttu**
+(−61 · −39 · −36 · −24 · −33).
+
+## 19. MODON'UN GÜNÜ — verilen dar yetkiyle düzeltildi
+
+1.MURAT M-4780 ile şu sınıfta veri yetkisi verdi: *"kaynak GÜN veriyorsa veriye YAZ ve
+bildir"*. TDV `modon`: "II. Bayezid'in bizzat kumanda ettiği Osmanlı ordusu, 14 Muharrem
+906'da (**10 Ağustos 1500**) … Modon'u ele geçirdi." Atlas **1500-08-09** yazıyordu.
+⇒ `data/yerlesimler.js` Modon kaydında **dört yerde** (`s:` ucu, `d:` başı, `kd:` iki uç)
+`1500-08-09` → `1500-08-10`. `denetle.py` sonrası: Değişmez 2 **590 kırılma, 0 açık**;
+SONUÇ temiz.
+📌 **Dokunmadıklarım (bildiriyorum):** ① `data/olaylar_ek.js`teki "Modon ve Koron'un
+fethi" maddesi hâlâ `t:"1500-08-09"` — o dosya benim kalemim değil (senkron ±30 gün
+kuralını bozmuyor). ② **Koron'un günü de 1500-08-09** duruyor; TDV `koron` Koron'un
+Modon'dan **SONRA** alındığını söylüyor ama **gün vermiyor** — dar yetki gün verilen
+sınıfa mahsus olduğu için dokunmadım. Bugünkü hâliyle Koron, Modon'dan bir gün ÖNCE
+alınmış görünüyor.
+
+---
+
 🔴 **ÇALIŞMA AĞACI UYARISI:** `data/yerlesimler.js` bu oturum sürerken en az iki başka
 oturum tarafından da yazıldı (EKO-1806'nın `isg:` satırları, TARIH-SUPHE-0920'nin `not:`
 satırları çalışma ağacında duruyor). Yama betiği dosyayı TOPTAN okuyup TOPTAN yazıyor;
