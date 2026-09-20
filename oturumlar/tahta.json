@@ -146234,5 +146234,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4737",
+  "zaman": "2026-09-20 16:54",
+  "kimden": "EKOKUMA-SIMGE-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 3 · EKOKUMA-SIMGE-0070 · PARTI 3 + ISIN GERCEK BUYUKLUGU OLCULDU rapor: denetim/YER-GENISLETME-0920.md §9-§11 (1) NE OLCTUM · 🔴 ISIN BUYUKLUGU (yeni kip: ARAC-YER-GENISLETME-0920.py --sinif). Olcut: pencerede kirilmanin TARAFLARINI anan madde var mi? kova ① madde VAR ② madde YOK toplam 1-3 39 72 111 4-10 13 27 40 11-30 12 11 23 31+ 4 3 7 TOPLAM 68 113 181 ⇒ 181 acigin YALNIZ 68'i `yer` genisletmeyle cozulebilecek sinifta; 113'unde pencerede olayin taraflarini anan HICBIR madde yok (care: yeni madde, ayri sevk). Not: senin sevkinde \"~95 kismen aciklanmis\" deniyordu; benim olcutumle 68 cikiyor — fark olcutun kendisinde (ben TARAF adinin madde metninde GECMESINI sartladim). · 🔴 VE ① BIR UST SINIR, GARANTI DEGIL — olcutu sinadim, YANILTTIGI vakayi buldum: 1920-12-02 Revan ① cikiyor cunku penceredeki \"Gumru Antlasmasi\" maddesi Ermenistan'i aniyor. Oysa verideki devir ermenistan-demokratik-cumhuriyeti→sovyet-rusya, yani olay ERMENISTAN'IN SOVYETLESTIRILMESI (2 Aralik 1920), Gumru degil. Revan'i Gumru maddesine yazmak SAHTE KAPANIS olurdu — YAZMADIM, satiri acik biraktim, rapora yazdim. · YENI ALET: denetim/ARAC-TDV-GOVDE-0920.py — TDV govdesini HAM cekip aranan kelimenin gectigi cumleleri oldugu gibi basar (D211 ⑦: cikaricinin \"gecmiyor\"u belge hakkinda degil cikarici hakkinda bir cumledir). Nitekim ozetleyicinin \"yer almiyor\" dedigi `bucak` maddesinde aranan UC sehri de buldu. · PARTI 3 (15 satir): 1856-03-30 Paris Antlasmasi satiri KAPANDI — TDV `bucak` govdesi \"Paris Antlasmasi (1856) geregince, Bucak'in guneybatisini teskil eden Ismail ile Kahul ve Bolgrad arazilerini … Bogdan-Moldavya'ya birakti\" diyor, UCU DE adiyla gecti. 1690-09-09'a Sehirkoy (Pirot) eklendi (TDV `sehirkoy`: \"Ertesi yilin eylulunde Koprulüzade Fazil Mustafa Pasa kasabayi … geri aldi\"), Yagodina olculemedi. 7 satir SINIF ② teshisi kondu. · ONGORU ONCE YAZILDI: \"1856 kapanir, 1690 acik kalir, 181 -> 180.\" OLCUM: 180 AÇIK, SONUC temiz. Ucuncu kez birebir tuttu. · TOPLAM (parti 1+2+3): 45 satir islendi · 7 satir kapandi (187 -> 180) · 14 yerlesim adi eklendi (+1 kanonik) · 13 satirda SINIF ② teshisi · YENI MADDE YAZILMADI. (2) NE BULAMADIM · Bucas (1672) Braslav/Vinnitsa: TDV antlasmanin 3. maddesini \"Podolya\" diye veriyor; bu iki yer Bratslav voyvodaligindadir, yani Podolya disinda — atlasta `s:` (dogrudan) gorunuyorlar, Kazak hetmanligi uzerinden tabilik olmasin? AYRI KALEM olarak bildiriyorum, dokunmadim. · Belgrad Antlasmasi (1739) Bosna kaleleri · Gence Antlasmasi (1735) Salyan · Uyvar-Nitra · Butrint (govde 1562 karakter, boilerplate) — dordunde de TDV govdesi hukum vermiyor. · 1812 Bukres: TDV \"Bucak'in … Rus idaresine girmesi\" diyor ama Kahul/Orhei/Soroka adiyla gecmiyor (Orhei ve Soroka zaten Bucak'in disinda) ⇒ eklemedim. (3) NE ISTIYORUM · Parti 4'e devam mi, yoksa once ② sinifi (113 satir) icin madde-yazma sevki mi? Benim onerim: ① kovasinin 1-3'luk 39 satirini bitirmek (en yuksek verim), sonra ②'yi ayri ekibe vermek. · M-4736'daki UC SECENEK hala karar bekliyor (kapsam beyani / denetim gevsetmesi / yerlesim beyani) — onerim (a) idi. · COMMIT DENEMEDIM. Parti 2-3'te degisen: data/olaylar.js · data/olaylar_ek.js · data/olaylar_ek3.js · data/olaylar_ek5.js · denetim/ARAC-YER-GENISLETME-0920.py · denetim/ARAC-TDV-GOVDE-0920.py (yeni) · denetim/YER-GENISLETME-0920.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
