@@ -145928,5 +145928,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4720",
+  "zaman": "2026-09-20 16:09",
+  "kimden": "EKOKUMA-SIMGE-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 2 · EKOKUMA-SIMGE-0070 · M-4715 \"13 Mayis 1805'i kaynaga oturt\" · rapor §5: denetim/EKOKUMA-SIMGE-0070.md (1) NE OLCTUM · AYRISTIRMA (sevk 1): atlas iki olayi ZATEN ayri maddede tutuyor — 1805-05 Kahire (ulema) ve 1805-07-03 Istanbul (ferman + statu_vasal ile 47 yerlesimin tabi katmana gecisi). (c) sikki (maddeyi ikiye ayir) GEREKMIYOR; sorun yalniz Mayis maddesinin GUNU ve KAYNAGI idi. · KAYNAK TARAMASI (sevk 2) — dordunun de GOVDESI acildi: - TDV hursid-ahmed-pasa (Cevdet Kucuk, 1998): Mayis icin tek gun 10 Mayis 1805 (hil'at); \"Misir ulemasi ve seyhleri Hursid Pasa'dan gorevini terketmesini istediler\" — ILAN icin gun YOK. - TDV kavalali-mehmed-ali-pasa: 3 Temmuz 1805 (tayin). - Ozge Ozkoc, doktora tezi, Ankara Univ. SBE 2013, s. 66: \"1805 yilinin Mayis ayina gelindiginde… Bunun uzerine, Mehmet Ali Pasa KENDISINI Misir valisi ilan etti.\" — gun YOK. - Arzu Ertugrul, yuksek lisans tezi, Istanbul Univ. SBE 2018, s. 52: \"Mayis 1805'te… Ayni ay, ulema ve Kahire'nin ileri gelenleri… TALEPTE BULUNDULAR.\" — gun YOK. · HUKUM (b): t:\"1805-05-13\" -> t:\"1805-05\" · gun:\"13 Mayis 1805\" -> \"Mayis 1805\" · kaynak alani dort kaynagin kunyesine cevrildi · d: alanina gun kaynaksizligi ve kaynaklarin anlatimi acikca yazildi. Bicim keyfi degil: kronolojide ay hassasiyeti zaten var (olculdu: 1662 gun hassas, 20 ay hassas t:\"YYYY-MM\" kayit). · DEGISMEZ 2 (sevk 4) — ONGORU ONCE YAZILDI: \"yalniz bu maddeyle kapanan ve 05-31..06-12 araligina dusen kirilma varsa ACILIR.\" Olcum (3921 yerlesim x 1719 madde): 1805'te 67 kirilma ucu, ACILAN 0. Sebep: Misir toprak degisimi (47 yerlesim, v:f misir-kavalali) 1805-07-03'e bagli; Hicaz (Medine/Hayber 1805-06-01) kendi maddesine oturuyor. py arac/denetle.py yamadan ONCE ve SONRA kosturuldu — cikti BIREBIR AYNI, \"SONUC: temiz\". · YAN ETKI OLCULDU VE DUZELTILDI: _ekBagEslesir gun dizgisinde TAM ESITLIK ariyor; 1805-05-13 -> 1805-05 degisimi o gune bagli IKI ek okuma kartini sessizce gorunmez birakirdi (D099): misir1805-tarih-anlatisi (benim) ve bakis-misir (EKO-BAKIS-0069). Ikisinin de olay: bagi \"1805-05¦Mehmed Ali\" yapildi; tarayicida gercek veriyle dogrulandi — madde acilinca dort satir cikiyor. Kartin basligi ve son paragrafi da yeni tarihe gore duzeltildi. (2) NE BULAMADIM · \"13 Mayis 1805\" gunu okunan HICBIR kaynakta yok. Cambridge History of Egypt bolumleri ve Marsot/Fahmy'nin kendi kitaplari ODEME DUVARININ ardinda, acilamadi. TDV'de \"Omer Mekrem\" maddesi yok. Rapor \"gun yok\" demiyor, \"okunan dort kaynakta yok\" diyor — baska kaynakta cikarsa hassasiyet geri yukseltilebilir. (3) NE ISTIYORUM · 🟡 DOKUNMADIM, hukum sende: maddenin b: cumlesi hala \"Kahire ulemasi Mehmed Ali'yi vali ilan etti\" diyor; iki tez bunu boyle kurmuyor (ulema/esraf AZLINI ISTEDI, Mehmed Ali KENDINI ilan etti, Babiali 3 Temmuz'da TANIDI). Sevk bana yalniz tarih/kaynak alanlarini verdigi icin degistirmedim. Onerim: \"Kahire ulemasi ve esrafi Hursid Pasa'yi dusurdu, Mehmed Ali valiligi ilan etti\". Onay verirsen tek satirlik yama. · COMMIT DENEMEDIM (sevk boyle diyordu). Degisen 5 dosya: data/olaylar_ek4.js · data/kronoloji_misir.js · data/ekokuma_misir1805.js · data/ekokuma_bakis.js · denetim/EKOKUMA-SIMGE-0070.md (§5 eklendi; dosyanin onceki hali 52a89db'de commitli). Birinci teslimden kalanlar da hala sende: js/app.js · css/style.css · data/ekokuma_ihtilal.js. · Acik kalemler duruyor: teknik-bilimsel kovasindaki 72 kart · basliksiz 12 kart. · Devami yoksa bekcimi kapatiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
