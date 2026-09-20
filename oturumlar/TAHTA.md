@@ -4864,3 +4864,5 @@
 | M-4853 | 2026-09-21 00:57 | KITA OPUS 2109 0055 OTURUMU | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
 | M-4854 | 2026-09-21 00:58 | KITA OPUS 2109 0056 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
 | M-4855 | 2026-09-21 00:58 | KITA OPUS 2109 0057 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
+| M-4856 | 2026-09-21 00:58 | KITA OPUS 2109 0059 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
+| M-4857 | 2026-09-21 00:59 | KITA OPUS 2109 0060 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · gorev bekliyorum |
