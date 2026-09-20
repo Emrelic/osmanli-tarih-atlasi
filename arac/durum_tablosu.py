@@ -81,6 +81,80 @@ def kimlik_evreni():
     return kul, diz
 
 
+# 🔴 KATMAN EVRENİ — 20 Eylül 2026 (SAYAC-EVREN-0920 · ölçüm: KUNYE-BORC-0920 B.0).
+# `kimlik_evreni()` YALNIZ `yerlesimler*.js`in `s:`/`isg:`ini okur ve DOKUNULMADI:
+# yayın kapısı (`denetle_yayin`) ile `bosluk_kovalari`/`renk_kovalari` onu kullanır;
+# genişletmek "dizinsiz kimlik" hükmünü de sessizce değiştirirdi. Sessiz-borç sayacı
+# için AYRI bir evren kuruldu. Ölçülen sorun: künyesi olup yalnız sınır/kronoloji/
+# savaş/kişi katmanında geçen devlet "veride hiç yok" diye borç sayılıyordu
+# (53 sessiz borcun 38'i öyle çıktı — 20 Eylül ölçümü).
+#
+# HANGİ DOSYA HANGİ ALANDAN OKUNUR (kimlik taşıyan alanlar; ANLATI metni DEĞİL):
+#   sinir      d_sinirlar*.js   taraflar:[..] · sol_taraf · sag_taraf
+#              (`ortak_alan` DEĞİL: değeri bölge etiketi — `necid-kuveyt-tarafsiz-bolge`)
+#   kronoloji  olaylar*.js +    devletler:[..] · kunye:[..] · taraflar:[..] · devlet
+#              kronoloji*.js
+#   savas      savaslar*.js     taraf:[..] · galip · devlet
+#   kisi       kisiler.js       devlet
+# ⚠️ `olaylar*`/`kronoloji*`te `d:` ANLATI metnidir (`d:"Horasan 1380'de …"`), kimlik
+#   DEĞİL — sayılmaz (yerlesimler'deki `d:` de {f,t,y} dönemidir, kimlik taşımaz).
+# ⚠️ `etiket:[..]` SAYILMAZ: konu etiketleriyle karışık liste. Ölçüldü (20 Eylül):
+#   etiketle kurtulan ama yukarıdaki alanlarda bulunmayan sessiz borç kimliği 0.
+# ⚠️ Metin taraması YOK: `kasim` gibi bir kimlik anlatıda geçip alanda geçmiyorsa
+#   sayılmaz (KUNYE-BORC "9 metin" derken 1'ini bu yüzden fazla saymıştı).
+# 📌 Dosya kümesi `glob`dan DEĞİL `index.html`den alınır — sitede YÜKLENEN dosya
+#   canlıdır (`girdi.py` ilkesi). Yüklenmeyen `kronoloji_sinir_guney_g8.js` dışarıda.
+KATMAN_ALANLARI = (
+    ("sinir", ("d_sinirlar",), ("taraflar",), ("sol_taraf", "sag_taraf")),
+    ("kronoloji", ("olaylar", "kronoloji"), ("devletler", "kunye", "taraflar"), ("devlet",)),
+    ("savas", ("savaslar",), ("taraf",), ("galip", "devlet")),
+    ("kisi", ("kisiler",), (), ("devlet",)),
+)
+
+
+def katman_evreni():
+    """({katman: Counter(kimlik → geçiş)}, {katman: dosya sayısı}). `denetle.py` KOŞMAZ.
+
+    Anahtar tırnaklı (`"taraflar":`, JSON) ya da tırnaksız (`taraf:`) olabilir.
+    `(?<![\\w"])` + `"?ad"?\\s*:` — `devlet` alanı `devletler:` ile karışmaz
+    (ad'dan hemen sonra `:` şart)."""
+    canli = set(re.findall(r'src="data/([^"?]+\.js)', _oku("index.html")))
+    kat, dosya = {}, {}
+    for ad, onekler, dizi, dize in KATMAN_ALANLARI:
+        c = collections.Counter()
+        dl = sorted(f for f in canli if f.startswith(onekler))
+        for f in dl:
+            t = _oku(os.path.join("data", f))
+            t = "\n".join(l for l in t.split("\n") if not l.lstrip().startswith("//"))
+            for a in dizi:
+                for m in re.finditer(r'(?<![\w"])"?%s"?\s*:\s*\[(.*?)\]' % a, t, re.S):
+                    for s in re.findall(r'"([^"]+)"', m.group(1)):
+                        c[s] += 1
+            for a in dize:
+                for m in re.finditer(r'(?<![\w"])"?%s"?\s*:\s*"([^"]+)"' % a, t):
+                    c[m.group(1)] += 1
+        kat[ad], dosya[ad] = c, len(dl)
+    return kat, dosya
+
+
+def sessiz_bol(sessiz, kat):
+    """Sessiz borç adaylarını İKİYE böler: (baska, gercek).
+
+        baska   {kimlik: [katman, …]} — `s:`/`isg:`/`v:kid`te yok ama ≥1 katmanda
+                kimlik alanında geçiyor → dizin kaydı olarak ÇALIŞIYOR, borç DEĞİL
+        gercek  [kimlik]              — hiçbir katmanda geçmiyor → asıl sessiz borç
+
+    🔴 SAF FONKSİYON — dosya okumaz; C13 sahte evrenle çağırabilsin diye."""
+    baska, gercek = {}, []
+    for kid in sessiz:
+        yer = [k for k, c in kat.items() if c.get(kid)]
+        if yer:
+            baska[kid] = yer
+        else:
+            gercek.append(kid)
+    return baska, gercek
+
+
 def bosluk_kovalari(kul, diz):
     """Dizinde olmayan kimlikleri İKİ KOVAYA ayırır: (eksik, kasitli).
 
@@ -264,6 +338,33 @@ def _sina():
     print("   %s renksiz_kovalari: %d/%d dal"
           % ("🟢" if all(_t) else "🔴", sum(_t), len(_t)))
 
+    print("C13 SINAMASI — sessiz_bol()")
+    _b = []
+
+    def sdal(ad, sessiz, kat, bek_b, bek_g):
+        b, g = sessiz_bol(sessiz, kat)
+        ok = (len(b) == bek_b and len(g) == bek_g)
+        print("   %s %-38s baska %d/%d · gercek %d/%d"
+              % ("🟢" if ok else "🔴", ad, len(b), bek_b, len(g), bek_g))
+        return ok
+    C = collections.Counter
+    # ① katman boş ⇒ hepsi GERÇEK borç (boş küme her öngörüyü doğrulamasın diye ayrı dal)
+    _b.append(sdal("katman bos -> hepsi gercek", ["a", "b"], {"sinir": C()}, 0, 2))
+    # ② yalnız sınırda geçen ⇒ başka-katman
+    _b.append(sdal("yalniz sinirda -> baska", ["a"], {"sinir": C({"a": 3})}, 1, 0))
+    # ③ karışık: biri kronolojide, biri kişide, biri hiçbir yerde
+    _b.append(sdal("karisik 1/1/1", ["a", "b", "c"],
+                   {"kronoloji": C({"a": 1}), "kisi": C({"b": 2})}, 2, 1))
+    # ④ kimlik iki katmanda ⇒ TEK kez sayılır, iki katman listelenir
+    b, _g = sessiz_bol(["a"], {"sinir": C({"a": 1}), "savas": C({"a": 1})})
+    _ok = (len(b) == 1 and sorted(b["a"]) == ["savas", "sinir"] and not _g)
+    print("   %s %-38s katman listesi %s" % ("🟢" if _ok else "🔴",
+          "iki katmanda -> tek kayit", sorted(b.get("a", []))))
+    _b.append(_ok)
+    print("   %s sessiz_bol: %d/%d dal"
+          % ("🟢" if all(_b) else "🔴", sum(_b), len(_b)))
+    _t.extend(_b)
+
     print("C13 SINAMASI — bosluk_kovalari()")
 
     def bdal(ad, kul, diz, bek_e, bek_k):
@@ -390,6 +491,10 @@ def olc():
     # 🆕 19 Eylül 2026: `v:kid` ayrı sayılır, üçüncü kova (`renksiz_kovalari`).
     o["renksiz_delik"], o["renksiz_sessiz"], o["renksiz_tabi"] = \
         renksiz_kovalari(boyalar, set(_kn), _kn, kul, v_kid_sayaci(Y))
+    # 🆕 20 Eylül 2026 (SAYAC-EVREN-0920): sessiz kova ikiye bölünür — `katman_evreni()`
+    #    (sınır/kronoloji/savaş/kişi). `kul` DEĞİŞMEDİ; `o["renksiz_sessiz"]` toplam kalır.
+    _kat, o["katman_dosya"] = katman_evreni()
+    o["renksiz_baska"], o["renksiz_gercek"] = sessiz_bol(o["renksiz_sessiz"], _kat)
     o["padisah"] = len(re.findall(r'\{\s*id:\s*"', _oku("data/padisahlar.js")))
     o["portre"] = len(glob.glob("assets/portreler/*.jpg"))
     o["kart"] = len(re.findall(r"\bovgu:", _oku("data/padisahlar.js") + _oku("data/kisiler.js")))
@@ -475,16 +580,24 @@ def tablo(o):
     # 🆕 AYNA: üstteki satır "rengi VAR, künyesi YOK" der; bu "künyesi ve
     # GÖVDESİ var, rengi YOK" der. İkisi ters yönlerdir ve tablo 3 Eylül
     # 2026'ya kadar YALNIZ birincisini soruyordu.
-    s.append("| Renksiz künye — HARİTA DELİĞİ | %s **%d** kimlik veride "
-             "kullanılıyor ama BOYANMIYOR%s%s · *kapsam: künye `id` ∪ veride "
-             "kullanılan (`s:`+`isg:`) − BOYALAR(`harita:` varsa o) · "
-             "`v:kid` ayrı kova · `__BOSLUK__` muaf* |"
+    # 🆕 20 Eylül 2026: sessiz kova ÜÇ sayıyla — haritada kullanılıyor (delik) ·
+    # yalnız başka katmanda · hiçbir yerde (gerçek borç). Toplanmaz, ayrı okunur.
+    kd = o["katman_dosya"]
+    s.append("| Renksiz künye — HARİTA DELİĞİ | %s **%d** kimlik haritada "
+             "(`s:`/`isg:`) kullanılıyor ama BOYANMIYOR%s%s%s · *kapsam: künye `id` ∪ "
+             "veride kullanılan − BOYALAR(`harita:` varsa o) · `v:kid` ayrı kova · "
+             "katman evreni: `index.html`in yüklediği %d sınır · %d kronoloji/olay · "
+             "%d savaş · %d kişi dosyası (kimlik alanları `durum_tablosu.py`de) · "
+             "`__BOSLUK__` muaf* |"
              % ("🔴" if o["renksiz_delik"] else "✓",
                 len(o["renksiz_delik"]),
-                (" · 🟡 %d sessiz borç (künye var, veride yok)"
-                 % len(o["renksiz_sessiz"])) if o["renksiz_sessiz"] else "",
+                (" · 🟡 **%d** hiçbir yerde (gerçek sessiz borç)"
+                 % len(o["renksiz_gercek"])) if o["renksiz_gercek"] else "",
+                (" · ⚪ %d yalnız sınır/kronoloji/savaş/kişi katmanında (borç değil)"
+                 % len(o["renksiz_baska"])) if o["renksiz_baska"] else "",
                 (" · ⚪ %d tâbi-çizili (yalnız `v:kid`, delik değil)"
-                 % len(o["renksiz_tabi"])) if o["renksiz_tabi"] else ""))
+                 % len(o["renksiz_tabi"])) if o["renksiz_tabi"] else "",
+                kd["sinir"], kd["kronoloji"], kd["savas"], kd["kisi"]))
     s.append("| Padişah · kartvizit | %d kayıt · %d portre · **%d** kartvizit dolu |"
              % (o["padisah"], o["portre"], o["kart"]))
     s.append("| Harita penceresi | `%s` |" % o["bolge"])
@@ -506,6 +619,9 @@ if __name__ == "__main__":
     if o["renk_olu"]:
         print("🟡 ÖLÜ RENK (dizinsiz ama veride kullanılmıyor): %s"
               % ", ".join(o["renk_olu"][:20]))
+    if o["renksiz_gercek"]:
+        print("🟡 GERÇEK SESSİZ BORÇ (künye var, hiçbir katmanda yok): %s"
+              % ", ".join(o["renksiz_gercek"]))
     if "--yaz" in sys.argv:
         y = "CLAUDE.md"
         h = _oku(y)
