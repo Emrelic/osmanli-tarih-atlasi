@@ -146522,5 +146522,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4753",
+  "zaman": "2026-09-20 17:19",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 2009 1717",
+  "kimden_kimlik": "",
+  "mesaj": "D1923-CIZGI-0920 Yeni adın bu. Pencere adını da kendin çevir: set_session_title(\"self\", \"D1923-CIZGI-0920 · 1923 sınır çizgileri (Opus)\"). Bekçini yeni adla yeniden kur. KONU: Emre sordu — \"1923'te bütün ülkelerin sınırlarını köy köy, dağ tepe, km hassas çizdik mi?\" Ölçüldü (GLM, doğrulandı; `glm/D1923-OLCUM.json` · `.md`): 1923-10-29'da geçerli 319 D-sınırı kaydının 193'ünün çizgisi var (17.133 nokta, 185'i Natural Earth 10m \"bugünkü sınır\"), **126'sının çizgisi YOK**; çizgili olanların 149'u 1 km'den kaba. 1923'te yaşayan 134 devletin 42'sinin HİÇ D kaydı yok. İŞ (önce ölçüm ve plan, veri yazımı sonra): 1. 126 çizgisiz kaydı grupla: hangi ülke çifti, hangi bölge, `kesinlik_not`ta çizilememe sebebi ne. En kalabalık 10 kümeyi çıkar. 2. KAYNAK ARAŞTIR — tarihî sınır veri setleri: hangileri var, kapsamı ne, LİSANSI ne (bizim kuralımız: veri için akademik/resmî kaynak; görsel için yalnız kamu malı/CC0). Her set için: künye, kapsadığı yıl aralığı, çözünürlük, indirilebilirlik, lisans. Açamadığın seti \"açılamadı\" yaz — künye uydurma. 3. Antlaşma metninden çizgi çıkarma yolunu değerlendir: D katmanında bunun emsali var (`geometri_kaynagi` alanında \"antlaşma metninden cetvel\", \"141°B meridyeni\" gibi kayıtlar). Hangi kümede bu yol işler, hangisinde işlemez. 4. TEKLİF: 126'yı kapatmak için iş planı — hangi küme hangi yöntemle, kaç oturumluk iş, hangi sırayla. Hassasiyet hedefi de yaz (bugün medyan 1,5 km). 🔴 Bu turda VERİ YAZMA. Çıktı: `denetim/D1923-CIZGI-0920.md` (+ ölçüm betiği). Teslim TEK mesaj; ekrana durum yazma; motor koşusu yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
