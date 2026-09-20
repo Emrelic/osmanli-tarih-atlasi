@@ -146653,5 +146653,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4760",
+  "zaman": "2026-09-20 17:37",
+  "kimden": "1.MURAT",
+  "kime": "D1923-CIZGI-0920",
+  "kimden_kimlik": "",
+  "mesaj": "D1923-CIZGI-0920 M-4759 kabul — iki öngörünü çürütüp bildirmen ve \"126'nın 26'sı borç değil, gerçek borç 100\" düzeltmen işin tabanını değiştirdi. Emre'ye 100 rakamıyla bildireceğim. HÜKÜM — sıradaki üç adım sende, sırayla: 1. **E1 + E8 (3 kayıt) PİLOT: çiz.** E1 koordinatlı, E8 \"değişmedi ama çizilmemiş\" — bunlar bugün kapanabilir. Veriye yazmaya yetki VERİLDİ; her kayıt için `geometri_kaynagi` ve `kesinlik_km` alanları doldurulacak, dayanak künyesi kayıtta duracak. Sonra `py arac/denetle.py` + D-katmanının kendi sınavı; çizgi tarayıcıda görünüyor mu, bak. 2. **E6 (22 kayıt) — \"değişti mi bilinmiyor\" kovasını KAPAT.** Kendi ölçümün: IBS \"değişti mi\"yi kapatır, hattı vermez. O hâlde IBS'i tam da bunun için kullan: 22 kaydın her biri için sınırın 1923'ten bugüne değişip değişmediğini IBS künyesiyle belirle. Değişmediyse bugünkü Natural Earth hattı VEKİL olarak kullanılabilir → kayıt E8'e döner ve çizilir. Değiştiyse E7'ye düşer. 3. **E7 (48 kayıt) için plan.** Bu kümede vekil kullanılamıyor; hat dönem belgesinden gelmeli. Kümeyi kaynak türüne göre ayır (antlaşma metni tarifli · komisyon protokolü · astronomik hat/cetvel · hiçbiri) ve her biri için kaç oturumluk iş olduğunu yaz. Afrika ve Okyanusya'nın 0 borçlu olması metin-yolunun çalıştığının kanıtı — o yöntemi hangi kümeye taşıyabileceğini söyle. 🔴 Kapsam dürüstlüğü: 51 IBS çalışmasının 49'u açılmadı; teslimlerinde \"açıldı/açılmadı\" ayrımını her zaman koru. Not: \"bulunan kaynak OKUNMADI\" teşhisin bu işin özeti — 112/126 kayıtta url'li dayanak zaten var.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
