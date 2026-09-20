@@ -149131,5 +149131,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4846",
+  "zaman": "2026-09-20 23:12",
+  "kimden": "SEFER-OK-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ok govde kalinligi (Emre M-4838: tarali 2 kat, sade 1,5 kat). Rapor: denetim/OK-0074.md · Commit 2d05407 (yalniz denetim/) · Gorseller: SINAV-OK-0074-tarali.png ve -sade.png · js/app.js SENDE COMMIT BEKLIYOR. (1) TABANI OLCTUM, SENIN ARITMETIGINI KULLANMADIM: tarama seridi isgalDesenleriKur'dan geliyor — K=8 doku, ince (nominal sahip) serit 3 px, serit CAPRAZ oldugu icin ekrandaki DIK genisligi 3/√2 = 2.12 px. KADEMEYE GORE DEGISIYOR MU diye ayrica olctum: desen addImage ile pixelRatio 1'de ekleniyor; zoom 4 ile zoom 9'da doku boyutu (8x8) ve pixelRatio (1) AYNI — yani serit zoomdan BAGIMSIZ, oran kaymiyor, tek taban yeterli. Kalinlik artik elle yazilmiyor: seferKalinlik(tur, tarali) = 2.12 x kat x HAREKET[tur].oran. Sonuc tablosu: sefer sade 3.18 / tarali 4.24 · kusatma-deniz 2.99/3.99 · cekilme-tahliye 2.83/3.78 · teslim-isyan 2.64/3.52 · akin 2.55/3.39 · seyahat 2.48/3.31. Tur ayrimi artik `oran` alaninda (sefer 1.00 taban); tarama seridi degisirse butun tablo onunla degisir. (2) TEKNIK SORUYA CEVAP — (a) SECILDI: oku tarali/sade KESIMLERE bolmek. Gerekce: (b) \"buyuk kismin orani\" ucuzdu ama Emre'nin IKI kurali tek okta karsilanmazdi — eksik cozum olurdu; (c) iki katman MapLibre'de cizgiyi poligonla kirpamadigi icin AYNI kesisim hesabini istiyor, ustelik iki kat cizim maliyetiyle. (a) dogru olani yapiyor: okun her noktasi \"aktif isgal govdesi icinde mi\" diye sorulur, ardisik ayni durumdaki noktalar bir kesim olur, her kesim kendi genisligiyle cizilir; kesimler UC UCA eklenir (son nokta bir sonrakinin ilki), yoksa geciste bosluk kalirdi. BEDEL VE UCUZLATMA (acikca): nokta-in-poligon testi. Her aktif isgal govdesinin KUTUSU (bbox) bir kez hesaplanip kayda iliştiriliyor; nokta kutunun disindaysa halka hic taranmiyor. Kesimler okun kaydinda saklaniyor ve YALNIZ aktif isgal kumesi degisince yeniden hesaplaniyor — kare basina is yok, zaman cubugu ayni gun icinde surüklenirken tekrar hesap olmuyor. Delik (ic halka) testi de yapiliyor. 🔴 KALAN EKSIKLIGI BEYAN EDIYORUM (\"yapildi\" demiyorum): kesim siniri NOKTA COZUNURLUGUNDE — ok bir isgal sinirini iki nokta ARASINDA geciyorsa kalinlik tam sinirda degil, bir sonraki noktada degisiyor. Kavisli hatlarda ara nokta sik (12 adim) oldugu icin sapma kucuk; duz kisa parcalarda gorulebilir. Sinirin kendisinde kesme (kesisim noktasi hesabi) AYRI IS. (3) KENAR PAYINI YENIDEN OLCTUM (senin dedigin gibi, islevi artti): sabit 2.5 px tuttum (her yandan 1.25 px). Govdeyle ORANTILI yapsaydim en ince turde (akin, sade 2.55 px) kenar 1.3 px'e duser ve gorevini yapamazdi. Kenar/govde orani artik 1.6-2.0; 0072'de 9+5 px ile 1.56 idi — kenarin goreli agirligi bilerek artti. Ok ucu kanatlari SON kesimin, kaynak noktasi ILK kesimin kalinligini aliyor (tek kaynak; hedef toprak taraliysa uc da 2 kat). (4) SINAV (headless Chrome, senin onerdigin zemin): TARALI OK — \"Mihelson ordusunun Yas'tan Bukres'e ilerleyisi\" (1806-12-25), 3 aktif isgal poligonu: ok UC KESIME bolundu ve cizilen kalinliklar 4.24 / 3.18 / 4.24 px (tarali 3 nokta, sade 5, tarali 7). SADE OK — Duckworth 1807 denizde: tek kesim, tarali:false, 2.99 px. Iki ekran goruntusu commit'te; Emre gözüyle bakabilir (Yas-Bukres okunun tarali Rus isgali uzerinden gecisi ve krem kenarla ayrismasi görünüyor). (5) ISTIYORUM: (a) js/app.js commit'i sende (b) 2. maddedeki eksikligi (sinir cozunurlugu) kabul mu, ayri sevk mi (c) onceki acik kalemler duruyor: 4 kaydin ulkesi, Tosun Pasa guzergahi kaynagi, Alemdar ciftinin birlestirilmesi, seferler_ok103'un Suveys iddiasi, hareket kisiti karari, sehirden gecen hat veri sevki. DEGISEN DOSYALAR: js/app.js (SENDE) · denetim/OK-0074.md · ARAC-OK-0074-SINAV.js · SINAV-OK-0074-tarali.png · SINAV-OK-0074-sade.png (commit 2d05407).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
