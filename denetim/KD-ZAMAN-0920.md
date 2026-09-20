@@ -815,6 +815,76 @@ Dokuz partinin **sekizinde** öngörü ölçümden önce yazıldı ve tuttu; **b
 
 ---
 
+---
+
+# PARTİ 10 — İZMİR KÜMESİ: **YAZILMADI**, ölçüldü · 21 Eylül 2026
+
+1.MURAT M-4925: *"Bu kümede de tuzak var… (ii) sınıfı parti 9'dakinden BÜYÜK çıkabilir
+— çıkarsa YAZMA, sayıyla getir."* **Çıktı. Yazmadım.**
+
+## 35. ÖLÇÜM — `m:"İzmir"` bağı 1841'den önce HİÇBİR kayıt için doğru olamaz
+
+**Kümenin kendisi:** Ayasuluk (Selçuk) · Aydın · Birgi · Manisa · Söke · Tire —
+altısı da 1400 kesitinde `OSMANLI / sovalye` (kendileri 1390'da Osmanlı, İzmir ise
+1344-1402 arası **şövalyelerde**).
+
+### 35a. Belirleyici cümle
+TDV `izmir`: "**İzmir, Osmanlılar'ın idaresine geçtikten sonra Aydın sancağına bağlı
+bir KAZANIN MERKEZİ haline geldi.**" · "Başlangıçta Aydın sancağına bağlı olan İzmir,
+yaklaşık **1573**'te … **Sığla sancağına** katıldı." · "**XIX. yüzyılda** Aydın
+eyaletine bağlandı ve **1841**'den itibaren zaman zaman eyaletin merkezi oldu."
+
+⇒ İzmir, atlasın ufkunun neredeyse tamamında **üst merkez DEĞİL, kendisi bağlı bir
+kaza**dır. Yani `m:"İzmir"` yalnız 1400'de zamansız değil; **1841 öncesinin tamamında
+yanlış yönde bir bağdır.** Bu, Bergama vakasının (parti 6) aynısı — `m:` modern il
+merkezini geriye taşıyor.
+
+### 35b. İki kayıt AYRICA sancak MERKEZİ
+- TDV `tire`: "Murad burada yeniden hâkimiyet kurdu ve kasaba **Anadolu
+  beylerbeyiliğine bağlı AYDIN SANCAĞININ MERKEZİ** oldu." ⇒ **Tire**, İzmir'e bağlı
+  değil; İzmir'in bağlı olduğu sancağın merkezidir. **Bağ TERS YÖNDE.**
+- TDV `manisa`: "**Saruhanoğulları'nın merkezi** olarak gelişme gösteren Manisa ilk
+  defa … (1389-1390) kışındaki askerî harekâtı sırasında Osmanlı idaresi altına
+  alındı." (Saruhan **sancağı** merkezi; `derya-beyi` maddesi de Saruhan'ı sancaklar
+  arasında sayıyor.) ⇒ Söğüt · Eskişehir · İzmit ile aynı şema sınıfı.
+
+### 35c. Sınıflandırma — sayıyla
+| sınıf | kayıt | not |
+|---|---|---|
+| (i) bağ doğru, yalnız penceresi yok | **0** | — |
+| (ii) bağ YANLIŞ (hüküm ister) | **6 / 6** | altısının da `m:`i 1841 öncesinde yanlış yönde; ikisi (Tire, Manisa) ayrıca sancak MERKEZİ |
+| (iii) ölçülemedi | **0** kümenin kendisi için; **4 kayıt için "doğru merkez ne" ölçülemedi** | Aydın · Birgi · Ayasuluk · Söke'nin Aydın sancağının kazası olduğunu ADIYLA söyleyen cümle bulamadım |
+
+### 35d. Kapsam ölçümü — sorun 6 kayıttan büyük
+| ölçü | değer |
+|---|---|
+| `m:`i **İzmir** olan kayıt | **18** |
+| bunlardan `kd:` penceresinde de İzmir taşıyan | **7** (Fornoz · Kuşadası · Midilli · Molova · Nikarya · Sisam · İpsara) |
+| hâlâ çelişki üreten | 6 |
+
+🔴 **Şunu açıkça yazıyorum:** o 7 kayda `kd:`yi BEN yazdım (A sınıfı ve önceki
+partiler) ve yamanın kuralı gereği **bugünkü `m:`i AYNEN taşıdım — doğrulamadım.**
+Yama hiçbir zaman "bu bağ doğru mu" diye sormadı, yalnız "ne zaman geçerli" diye
+sordu. İzmir vakası bu ikisinin **ayrı sorular** olduğunu gösteriyor: A sınıfı
+listesi (`KD-ZAMAN-EKSEN-BEKLIYOR-0921.md`) `d:` başlangıcının kaynaksızlığını
+taşıyor, ama **`m:`in kendisinin yanlış olabileceğini taşımıyor.**
+
+### 35e. Ne yapılabilir (hüküm senin)
+1. **En dar seçenek:** altısına `{1841-01-01 → 1923-10-29, …, m:"İzmir"}` yazmak —
+   çelişki kalkar ama Tire ve Manisa için 1841 sonrası bile şüpheli (sancak merkezi).
+2. **Doğru seçenek, kaynak işi:** Aydın sancağı (merkez **Tire**, sonra Güzelhisar)
+   ve Saruhan sancağı (merkez **Manisa**) kurulup `m:` yeniden bağlanmalı; bu **`m:`
+   düzeltmesidir, senin hükmün.**
+3. **Kapsamı genişleten seçenek:** 18 kaydın tamamı için aynı soru bir kerede
+   sorulmalı; ada kayıtları (Midilli, Sisam, Nikarya, İpsara, Fornoz) zaten
+   Cezâyir-i Bahr-i Sefîd eyaletine aitti (parti 2-3'te ölçüldü), yani onların
+   `m:"İzmir"`i de büyük ihtimalle yanlış yönde.
+
+**VERİYE DOKUNULMADI** — ölçüm 50'de duruyor, `denetle.py` koşturulmadı (veri
+değişmedi; son temiz koşu parti 9 sonrasıdır).
+
+---
+
 ### Parti 8'in yol boyunca çıkan iki sorusu (benim kalemim değil, bildiriyorum)
 1. **Söğüt'ün `k:`si 1** — yani "eyalet merkezi" kademesi — ama `m:"Bursa"`.
    `kd:`ye kaydın kendi değerini taşıdım (uydurmamak için), ama k:1 bir yerleşimin
