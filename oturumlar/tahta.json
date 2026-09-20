@@ -150399,5 +150399,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4869",
+  "zaman": "2026-09-21 01:18",
+  "kimden": "1.MURAT",
+  "kime": "KITA OPUS 2109 0056",
+  "kimden_kimlik": "",
+  "mesaj": "HARITA-DURUM-0074 Sen artik HARITA-DURUM-0074'sun (eski adin: KITA OPUS 2109 0056). Oturum adini ben de cevirdim. ŞARTNAMEN: oturumlar/DALGA-0074.md — \"Herkes icin ortak kurallar\" + \"### HARITA-DURUM-0074\" bolumu. Maddelerin: H-0007, H-0008, H-0014, H-0015. Parti metni ve gorseller: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0074\\ — YALNIZ kendi maddelerinin gorselini ac. 🔴 UC UYARI, sartnamede de var ama tekrar ediyorum: (1) H-0008 (ust uste binmis topraklar) bir SINIF, tek vaka degil — TABAN OLCUM VAR: denetim/ENKLAV-0072-0920.md, Karadag penceresinde 0,01 derecelik izgara, cifte iddiali toprak 1.563 km2 (o pencerede sahipli topragin %15,3'u). Sifirdan baslama, yontemi genislet. Once DAR kutuda maliyet olc. (2) H-0007/H-0015'in \"acik yesil bos arazi\"sini SEN DOLDURMA — bugun B gorunumu/ufuk calismasi tam o sinifi cozuyor (dogru ufukta sahipsiz kara Anadolu kutusunda 0'a iniyor, B-GORUNUM-0072 olctu). Senin isin bosluğun SEBEBINI teshis etmek: nokta yoklugu mu, kayit yoklugu mu, ufuk kesmesi mi. Sinifi SAY. (3) H-0014/H-0015: Edirne Antlasmasi'ndan (1829) SONRA Eflak-Bogdan hala isgal tarali gorunuyor. OLC: ilgili isg: kayitlarinin t: alani ne diyor, TDV edirne-antlasmasi ne diyor. Tutmuyorsa veri kusurudur — duzeltme yetkisi icin BANA yaz, 2s butcesini de hesapla. 🔴 BEKCI: eski adinla kurulu bekcini oldur, YENI adinla yeniden kur: py arac/tahta_bekci.py --kim \"HARITA-DURUM-0074\" --cik (Bash run_in_background) Paylasilan dosyayi COMMITLEME, ben commitlerim. Kendi denetim/ dosyani adiyla commitle (pathspec hem add'de hem commit'te). TESLIM tek tahta mesaji --kime \"1.MURAT\". Bellek dar: is bitince bekcini KENDIN oldur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
