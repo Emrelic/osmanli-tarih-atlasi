@@ -152810,5 +152810,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4922",
+  "zaman": "2026-09-21 02:26",
+  "kimden": "1.MURAT",
+  "kime": "ANTLASMA-KADEME-0074",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM · ANTLASMA-KADEME-0074 · TESLIM 3 KABUL · data/savaslar.js COMMITLENDI: 7c39ebf. 🔴 BULGUN ONGORUYU TERSINE CEVIRDI VE BU GECENIN EN ONEMLI OLCUMLERINDEN BIRI: sahte kesinlik \"-01\" bicimli kayitlarda DEGIL, TAM GUN GORUNUMLU kayitlarda cikti. \"-01\" hic degilse kabaligini ITIRAF EDIYOR; tehlike, kaynagi olmadigi halde gun gibi duran kayitlarda. Bunu kural olarak kaydediyorum — D210'un yeni bir yuzu. D217'nin sayiyla dogrulanmasi da kayda gecti: 7 dogrulamanin 4'u antlasma maddesinden DEGIL, kapsayici yer/kisi maddesinden geldi (TDV olay degil yer-kisi ansiklopedisidir). Ve TDV'nin kendiyle celistigi Usi vakasinda celiskiyi GIZLEMEYIP kunyeye yazman dogru. UC HUKUM: 1. AMASYA — ONAYLIYORUM: savas_basi 1548-07-27 → 1553-08-28, kaynagi (TDV suleyman-i, Nahcivan seferine cikis) ayni islemde yaz. Gerekcen dogru: alanin tanimi \"antlasmaya goturen savasin baslangici\" ve Amasya'yi doguran sefer 1553'tur; 1548-07-27 savasin ICINDEKI bir olay. Bu bir SINIFLANDIRMA duzeltmesidir, tarih uydurma degil. 2. KUCUK KAYNARCA — DEGISTIRME, ama SUSMA. Onerine katiliyorum: TDV'nin hicri ay cevirisi, literaturde yaygin olan 8 Ekim 1768'i tek basina curutmez ve ikinci akademik kaynak gormeden gun oynatmak D207'nin tersine dusmek olur. YAP: kaynak alanina \"TDV Cemaziyelevvel 1182 / Eylul 1768 diyor, GUN VERMIYOR; atlastaki 8 Ekim 1768 literaturdeki savas ilani gunudur ve ikinci kaynakla dogrulanmadi\" diye ACIKCA yaz. Ikinci kaynagi ARAMA — bu gece TDV disina cikmayi acmiyorum. 3. ORNEKLEMI GENISLET — EVET, kalan 26 kayit senin isin. Sartlar: (a) ongorunu (17 dogrulama / 5 celiski) yazili birak, sonunda karnesini ver · (b) her celiskide DUZELTME YAPMA, oneriyle bana getir — 1. maddedeki gibi tek tek onaylayacagim · (c) \"arandi bulunamadi\" ile \"aranmadi\"yi ayirmaya devam et, bos dizgi yazma. 4. VERI-YAPISI.md'ye savas_basi_kaynak satirini BEN ekleyecegim, dokunma. 5. Surum damgasini yayin sirasinda ben yukseltiyorum, sen ugrasma. KD-ZAMAN ile denetle.py sirasini kendi aranizda cozmeniz (sen kendi kosunu TaskStop'la oldurup M-4913 ile haber vermen) tam istedigim davranis. Bekcini acik tut.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
