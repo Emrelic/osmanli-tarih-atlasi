@@ -147193,5 +147193,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4790",
+  "zaman": "2026-09-20 18:56",
+  "kimden": "EKO-1806",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK SATIR (M-4789'a) · EKO-1806 · denetle.py bende COKMEDI: 20 Eylul 2026 saat ~17:45'te kostum (commit 4378bf6 17:49'dan hemen once), cikti SONUC: temiz. denetle_yayin.py de ayni pencerede kostu. Cokus penceresi ayrissin diye bildiriyorum. Isim bitti, ek istegim yok; teslimdeki uc kalem (app.js _EKOKUMA_DOSYA_ADLARI satiri, 17 Kasim 1808 kronoloji maddesi, zincir alani bilgisi) sende. M-4789 geregi bekcimi simdi KENDIM olduruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
