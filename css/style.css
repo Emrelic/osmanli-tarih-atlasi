@@ -748,6 +748,14 @@ body {
    Aynı rengi veriyorum; veri tarafındaki birleştirme YAPILACAKLAR'da. */
 .olay.k-ayaklanma{ border-left-color: #7b1fa2; }
 .olay.k-ittifak  { border-left-color: #5c6bc0; }
+/* 🆕 21 Eylül 2026 — KRONO-EKSIK-0921 ölçtü: veride 27 madde `k:"mimari"`
+   kullanıyor ama bu dosyada `k-mimari` sınıfı HİÇ YOKTU (0 eşleşme), yani 27
+   madde nötr bej kenara düşüyor ve "kategorisiz" ile aynı görünüyordu — 31
+   Temmuz'daki aynı kusurun tekrarı, yalnız daha küçük evrende.
+   Renk `kultur`la AYNI veriliyor: mimari bu atlasta kültür-sanat ailesinin
+   üyesi ve ayrı bir renk açmak paleti bölmekten başka bir şey söylemezdi
+   (aynı desen: `ayaklanma`=`isyan`, `antlasma`=`diplomasi`=`ittifak`). */
+.olay.k-mimari   { border-left-color: #ad1457; }
 /* ⚠️ `diger` (45) BİLEREK renksiz: gerçek bir kategori değil, karışık torba
    (Millî Mücadele · Germiyan çeyizi · şehzade kaçırılması aynı kovada).
    Nötr kenar onun için DOĞRU gösterim — eksik değil, kasıt. */
@@ -1344,7 +1352,7 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 .ob-kat.k-isyan, .ob-kat.k-darbe, .ob-kat.k-ayaklanma { background: #7b1fa2; }
 .ob-kat.k-reform, .ob-kat.k-kanun { background: #00838f; }
 .ob-kat.k-ekonomi { background: #ef6c00; }
-.ob-kat.k-kultur, .ob-kat.k-bilim, .ob-kat.k-kesif { background: #ad1457; }
+.ob-kat.k-kultur, .ob-kat.k-bilim, .ob-kat.k-kesif, .ob-kat.k-mimari { background: #ad1457; }
 .ob-kat.k-kayip  { background: #616161; }
 /* Rozet listeden DAHA çok geride kalmıştı: 261 madde (%26,5) nötr kahveye
    düşüyordu. Dördü (`idari` `sefer` `vassal` `evlilik`) listede renkliydi ama
