@@ -285,6 +285,85 @@ burada duruyor.
 çelişen ayrı yerleşim 262 → 226 · ZAMANSIZ sayı 489'da sabit (m:'ye hiç dokunulmadı).
 Üç partinin üçünde de öngörü ölçümden önce yazıldı ve **üçü de birebir tuttu**.
 
+---
+
+# PARTİ 4 — dağınık küme (8 kayıt, 24 çelişki)
+
+## 11. ÖNGÖRÜ (parti 4) — ölçümden ÖNCE
+
+**Küme:** Zeyla · Koron · Şavşat · Posof · Anapa · Çehrin (Çigirin) · Egina (Aegina) ·
+Kaşot (Kasos) = **24 çelişki**. **ÖNGÖRÜ: 347 → 323 (−24).**
+
+Parti 4 **8 kayıtla kapandı, 10-15 bandının altında** — çünkü bandı doldurmak için
+kaynaksız kayıt yazmak gerekiyordu. Sıradaki adaylar (Hanak, Hacıbey/Odessa, Tarki,
+Derbend, Kuba, Yamurgi, İstanbulya, Fornoz, İpsara, Karistos, Sokna) **kaynak
+bulunamadığı için dışarıda bırakıldı**, §12b'de tek tek sebebiyle.
+
+## 12. PARTİ 4 KAYNAKLARI
+
+| Kayıt | TDV kaynağı | Yazılan |
+|---|---|---|
+| **Zeyla** | `zeyla`: "iskelesini **966'da (1559)** Osmanlı Devleti'ne bağlandı ve … **Habeş beylerbeyiliğinin bir sancak merkezi** haline getirildi" | 1559 öncesi + 1884 sonrası `k:0 m:null` |
+| **Koron** | `koron`: "Bayezid kumandasındaki Osmanlı ordusu … Modon Kalesi'ni fethedip … **Koron ve Navarin'i de teslim aldı**" (1500) | 1500 öncesi · 1685-1715 Venedik arası · 1828 sonrası `k:0 m:null` |
+| **Şavşat** · **Posof** | `cildir-eyaleti`: "**1551**'de … Erzurum Beylerbeyi İskender Paşa … Böylece Atabeglik toprakları Çıldır bölgesine kadar **Osmanlı hâkimiyetine girmiş oldu**" · "**9 Ağustos 1578** … Çıldır Savaşı'nın hemen ardından … fethi tamamlanmış oldu"; madde başlığı Çıldır eyaletini "bugünkü Çıldır, Ardanuç, **Şavşat**, Oltu yöresiyle … Ahıska ve civarı" diye tanımlıyor, 1574 cümlesi **Posof**'u anıyor | 1551 öncesi + 1878 sonrası `k:0 m:null` |
+| **Anapa** | `anapa`: Ceneviz iskelesi → "Kırım Hanlığı'nın Osmanlı himayesi altına girmesinin ardından … **Kırım hanlarının nüfuz alanı**" → XVIII. yy son çeyreğinde Osmanlı istihkâmı | 1781 öncesi + 1829 sonrası `k:0 m:null` |
+| **Çehrin** | `cehrin-seferi`: "Beyliğin **merkezi Çehrin'di**" · 1672 Kamaniçe sonrası Doroşenko'ya geçti · 1678 seferi | 1678 öncesi + 1699 sonrası `k:0 m:null` |
+| **Egina** · **Kaşot** | `barbaros-hayreddin-pasa`: "1538 baharında … **Paros, Antiparos, Skyros, Egina (Ekin), Naksos (Nakşa), Andros, Scarpanthos (Kerpe) ve Kasos (Kaşot)** adaları ile … yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı" | fetih öncesi + Osmanlı sonrası `k:0 m:null` |
+
+🟢 **Bu maddede adalar TEK TEK anılıyor** — grup hükmü değil. Parti 3'te `m:"Nakşa"`
+yazmama gerekçem (grup hükmü) burada geçerli değil, ama **hangi sancağa bağlandıkları**
+yine söylenmiyor; bu yüzden Osmanlı pencereleri yine BOŞ.
+
+### 12b. Kaynak bulunamayanlar (kd: yazılmadı)
+- **Hacıbey (Odessa)**: TDV aramasında "Hacıbey" yalnız besteci **Üzeyir Hacıbeyli**
+  maddesine götürüyor — şehir maddesi YOK.
+- **Tarki (Tarku)**: kaydın kendi `kaynak:` alanı zaten "`tarki` slugu ÖLÜ; TDV `dagistan`
+  maddesinde Tarki adı ARANDI, GEÇMİYOR" diyor.
+- **Derbend** ve **Kuba**: TDV'de maddeleri VAR (Derbend 3 madde başlığı, Kuba 10) ama
+  **sluglar ayrıştırılamadı** — `derbend`, `derbend--sehir`, `derbent`, `kuba`,
+  `kuba--sehir` hepsi 302; arama sayfasının bağlantıları JS ile geliyor, çıkarıcı
+  okuyamıyor. **Ölçülemedi ≠ yok** — sıradaki oturuma açık kalem.
+- **Hanak** (Çıldır bölgesi), **Yamurgi (Amorgos)**, **İstanbulya (Astipalya)**,
+  **Fornoz (Fourni)**, **İpsara (Psara)**, **Karistos**, **Sokna**: hiçbir TDV maddesi
+  adlarını anmıyor (Barbaros maddesinin ada listesinde de yoklar).
+
+## 13. PARTİ 4 SONUCU
+
+| Ölçü | Önce | Sonra | Öngörü |
+|---|---|---|---|
+| ZAMANLI çelişki | 347 | **323** | 323 ✓ **TUTTU** |
+| ZAMANSIZ çelişki | 489 | **489** | değişmemeli ✓ |
+| `kd:` taşıyan kayıt | 228 | **236** | +8 ✓ |
+| çelişki üreten ayrı yerleşim | 226 | **218** | −8 ✓ |
+
+`py arac/denetle.py`: **SONUÇ temiz**.
+
+## 14. DÖRT PARTİNİN TOPLAMI
+
+| | taban | bugün |
+|---|---|---|
+| ZAMANLI çelişki (`kd_gun`) | 483 | **323** — **−160 (%33,1)** |
+| ZAMANSIZ çelişki (`m:`) | 489 | 489 (değişmedi, `m:`ye dokunulmadı) |
+| `kd:` taşıyan kayıt | 192 | **236** (+44 kayıt) |
+| çelişki üreten ayrı yerleşim | 262 | **218** |
+
+**Dört partinin dördünde de öngörü ölçümden önce yazıldı ve dördü de birebir tuttu**
+(−61 · −39 · −36 · −24). Dördünde de `denetle.py` tam koşusu temiz.
+
+**Değişen veri dosyaları:** `data/yerlesimler.js` (41 kayıt) · `data/yerlesimler_ek26.js` (2) ·
+`data/yerlesimler_epir.js` (1) · `data/yerlesimler_ek_adalar.js` (1) — **hepsinde yalnız
+`kd:` alanı eklendi**, `data/` commit EDİLMEDİ (Oturum 0'ın).
+
+### Kalan borcun şekli
+Kalan 323 çelişkinin üreticileri artık **uzun kuyruk**: en büyüğü Kerene 6, sonra Ukayr 5
+ve Cübeyl 5 — üçü de kaynak bulunamadığı için boş; gerisi 3'er ve 2'şer. Yani kolay
+kümeler bitti; bundan sonrası **kayıt başına ayrı kaynak araması** demektir. Verimli
+devam yolu, parti 3-4'te işe yarayan **kapsayıcı madde** tekniğidir: tek bir eyalet/kurum
+maddesi (`cezayir-i-bahr-i-sefid`, `derya-beyi`, `cildir-eyaleti`,
+`barbaros-hayreddin-pasa`) bir düzine kaydı birden karşılıyor.
+
+---
+
 🔴 **ÇALIŞMA AĞACI UYARISI:** `data/yerlesimler.js` bu oturum sürerken en az iki başka
 oturum tarafından da yazıldı (EKO-1806'nın `isg:` satırları, TARIH-SUPHE-0920'nin `not:`
 satırları çalışma ağacında duruyor). Yama betiği dosyayı TOPTAN okuyup TOPTAN yazıyor;
