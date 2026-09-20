@@ -52,19 +52,47 @@ def kos(ad, argv, olumcul=True, dk=200):
     yaz("ADIM: %s   (%s)" % (ad, time.strftime("%H:%M:%S")))
     yaz("=" * 66)
     t0 = time.time()
+    # 📡 SATIR SATIR AKIŞ — M-4535 (18 Eylül 2026). Eskiden `subprocess.run(
+    # capture_output=True)` çıktıyı adım BİTİNCE log'a yazıyordu; koşu 13B
+    # 1440. dakikada zaman aşımıyla öldürülünce 24 saatlik log'un TAMAMI
+    # kayboldu ("hangi aşamada kaldı" cevapsız). Şimdi her satır geldiği an
+    # log'a eklenir (flush'lı); ekrana yine son 25 satır basılır.
+    # Zaman aşımında SÜREÇ AĞACI öldürülür (motorun işçi süreçleri dahil).
+    import threading, collections
+    son = collections.deque(maxlen=25)
+    env = dict(os.environ, PYTHONUNBUFFERED="1")
+    p = subprocess.Popen(argv, cwd=KOK, stdin=subprocess.DEVNULL,
+                         stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                         text=True, encoding="utf-8", errors="replace", env=env)
+
+    def _akit():
+        with io.open(LOG, "a", encoding="utf-8") as f:
+            for satir in p.stdout:
+                f.write(satir)
+                f.flush()
+                son.append(satir.rstrip("\n"))
+    okuyucu = threading.Thread(target=_akit, daemon=True)
+    okuyucu.start()
     try:
-        r = subprocess.run(argv, cwd=KOK, capture_output=True, text=True,
-                           encoding="utf-8", errors="replace", timeout=dk * 60)
+        p.wait(timeout=dk * 60)
     except subprocess.TimeoutExpired:
-        yaz("🔴 ZAMAN AŞIMI (%d dk) — ZİNCİR DURDU" % dk)
+        try:
+            subprocess.run(["taskkill", "/PID", str(p.pid), "/T", "/F"],
+                           capture_output=True, timeout=60)
+        except Exception:
+            p.kill()
+        okuyucu.join(timeout=30)
+        yaz("🔴 ZAMAN AŞIMI (%d dk) — ZİNCİR DURDU (son satırlar yukarıda, log'da TAM)" % dk)
+        for s in son:
+            print("   " + s, flush=True)
         return None
+    okuyucu.join(timeout=60)
     sure = (time.time() - t0) / 60.0
-    cikti = (r.stdout or "") + (r.stderr or "")
-    # log'a TAMAMI, ekrana son 25 satır
-    with io.open(LOG, "a", encoding="utf-8") as f:
-        f.write(cikti + "\n")
-    for s in cikti.strip().split("\n")[-25:]:
+    for s in son:
         print("   " + s, flush=True)
+
+    class r:                     # eski `subprocess.run` sonucunun kullanılan alanı
+        returncode = p.returncode
     yaz("→ kod=%d · %.1f dk" % (r.returncode, sure))
     if r.returncode != 0 and olumcul:
         yaz("🔴 BU ADIM İHLAL VERDİ — ZİNCİR DURDU, YAYIN YAPILMADI.")
@@ -72,6 +100,49 @@ def kos(ad, argv, olumcul=True, dk=200):
         yaz("   düzeltmeden kat kat pahalıdır.")
         return None
     return r.returncode
+
+
+def _bos_bellek_gb():
+    """Boş fiziksel bellek (GB) — Windows GlobalMemoryStatusEx; ölçülemezse None."""
+    try:
+        import ctypes
+
+        class _MS(ctypes.Structure):
+            _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong),
+                        ("ullTotalPhys", ctypes.c_ulonglong), ("ullAvailPhys", ctypes.c_ulonglong),
+                        ("ullTotalPageFile", ctypes.c_ulonglong), ("ullAvailPageFile", ctypes.c_ulonglong),
+                        ("ullTotalVirtual", ctypes.c_ulonglong), ("ullAvailVirtual", ctypes.c_ulonglong),
+                        ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
+        m = _MS()
+        m.dwLength = ctypes.sizeof(_MS)
+        ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m))
+        return m.ullAvailPhys / 1024.0 ** 3
+    except Exception:
+        return None
+
+
+# ⚙️ MOTOR ORTAMI — M-4537 (19 Eylül 2026). Elle verilmişse DOKUNULMAZ.
+#   MOTOR_ONBELLEK_DIZIN : koşular ARASI önbellek (artımlı motor). Koşu
+#       worktree'leri (C:/atlas-kosuNN) aynı önbelleği paylaşsın diye SABİT bir
+#       yol: <sistem sürücüsü>/atlas-onbellek. OneDrive altına KONMAZ (büyük
+#       sqlite dosyası eşitlemeye girer).
+#   MOTOR_SUREC_ISCI     : gövde aşamasının süreç sayısı. Her süreç ana süreç
+#       kadar bellek ister (yürüyüş açıkken ~3-3,5 GB) ⇒ boş belleğe göre
+#       1..3. Ölçülemezse 1 (eski davranış).
+SUREC_BASINA_GB = 3.5
+
+
+def _motor_ortami():
+    if not os.environ.get("MOTOR_ONBELLEK_DIZIN"):
+        os.environ["MOTOR_ONBELLEK_DIZIN"] = os.path.join(
+            os.environ.get("SystemDrive", "C:") + os.sep, "atlas-onbellek")
+    if not os.environ.get("MOTOR_SUREC_ISCI"):
+        bos = _bos_bellek_gb()
+        n = 1 if bos is None else max(1, min(3, int(bos // SUREC_BASINA_GB)))
+        os.environ["MOTOR_SUREC_ISCI"] = str(n)
+        yaz("⚙️ MOTOR_SUREC_ISCI=%d (boş bellek %s GB, süreç başına %.1f GB)"
+            % (n, "?" if bos is None else "%.1f" % bos, SUREC_BASINA_GB))
+    yaz("⚙️ MOTOR_ONBELLEK_DIZIN=%s" % os.environ["MOTOR_ONBELLEK_DIZIN"])
 
 
 def beep(n=9):
@@ -188,6 +259,7 @@ def _zincir(yayinla=True, uretimsiz=False):
         #   o kayıt bir sonraki koşuda YANLIŞ ALARM üretir. Ve "tahmini
         #   aştı" ile "takıldı" AYRI hükümlerdir: ikincisi CPU deltasıyla
         #   ayrıca ölçülür.
+        _motor_ortami()
         if kos("üretim (uret_petek.py) — ölçülen en uzun koşu 16s49dk "
                "(koşu 7B, ~2731 petek; bu koşunun tabanı FARKLIYSA süre de farklıdır)",
                [sys.executable, "arac/uret_petek.py"],

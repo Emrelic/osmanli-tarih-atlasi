@@ -52,6 +52,55 @@ import json, os, sys, io, math, re, time
 # aktığında bilançodur.
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8",
                               errors="replace", line_buffering=True)
+# 📡 CANLI LOG — M-4533 (18 Eylül 2026). Koşu 13B 24 saatlik zaman aşımına
+# takıldı ve KAÇTA KALDIĞI BİLİNMEDİ: `kos_ve_yayinla.py` motoru
+# `subprocess.run(capture_output=True)` ile koşturuyor ⇒ stdout bir BORUYA
+# gider ve zincir onu ancak süreç BİTİNCE log'a yazar. Yukarıdaki
+# line_buffering boruyu anında boşaltır ama boruyu okuyan yok — zaman aşımında
+# süreç öldürülünce bütün satırlar kayboldu (motor_kara 21:26 · bolgeler.js
+# 22:35 dosya damgalarından okundu, sonrası karanlık).
+# ⇒ Her satır AYRICA kök klasördeki `uretim_canli.log`a SATIR SATIR yazılır
+#   (stderr de — çöküş izi görünsün). Yol `MOTOR_CANLI_LOG` ile değişir.
+#   Çıktı dosyalarına DOKUNMAZ; yalnız görünürlük.
+import threading as _th
+
+
+class _Catal:
+    """Yazılanı iki akışa birden verir; ikincisi (dosya) bozulursa sessizce düşer."""
+    def __init__(self, ana, yan, kilit):
+        self._ana, self._yan, self._k = ana, yan, kilit
+
+    def write(self, s):
+        with self._k:
+            self._ana.write(s)
+            if self._yan is not None:
+                try:
+                    self._yan.write(s)
+                except Exception:
+                    self._yan = None
+        return len(s)
+
+    def flush(self):
+        self._ana.flush()
+        if self._yan is not None:
+            try:
+                self._yan.flush()
+            except Exception:
+                self._yan = None
+
+    def __getattr__(self, ad):
+        return getattr(self._ana, ad)
+
+
+try:
+    _CANLI_YOL = os.environ.get("MOTOR_CANLI_LOG") or os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "uretim_canli.log")
+    _CANLI_F = io.open(_CANLI_YOL, "w", encoding="utf-8", errors="replace", buffering=1)
+except Exception:
+    _CANLI_F = None
+_CANLI_KILIT = _th.RLock()
+sys.stdout = _Catal(sys.stdout, _CANLI_F, _CANLI_KILIT)
+sys.stderr = _Catal(sys.stderr, _CANLI_F, _CANLI_KILIT)
 
 # ══════════════════════════════════════════════════════════════════════
 # 🔒 ÇİFT KOŞU KİLİDİ — A2 (`denetim/BULGU-GEOMETRI-0904.md`)
@@ -70,9 +119,39 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8",
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import atexit
 import kosu_kilit as _KILIT
-if not _KILIT.al("petek"):
-    sys.exit(1)
-atexit.register(_KILIT.birak, "petek")
+# ⚙️ SÜREÇ İŞÇİSİ (M-4533) — `MOTOR_SUREC_ISCI=N` (N>1) ile ana süreç başta N-1
+# işçi süreç başlatır (aşağıda, anlık görüntüden hemen sonra). İşçi bu dosyanın
+# AYNISIDIR, `MOTOR_SUREC_ISCI_NO` ile tanınır: kilit almaz, damga/çıktı
+# yazmaz, gövde aşamasında kendi payını diske yazıp ÇIKAR.
+_ISCI_NO = os.environ.get("MOTOR_SUREC_ISCI_NO")
+if _ISCI_NO is None:
+    if not _KILIT.al("petek"):
+        sys.exit(1)
+    atexit.register(_KILIT.birak, "petek")
+else:
+    # Ebeveyn ölürse (zaman aşımı `subprocess.run` yalnız ANA süreci öldürür)
+    # işçi yetim kalmasın. ⚠️ Windows'ta os.kill(pid, 0) SÜRECİ ÖLDÜRÜR —
+    # canlılık OpenProcess/GetExitCodeProcess ile sorulur.
+    def _ebeveyn_nobet(pid):
+        import ctypes
+        k32 = ctypes.windll.kernel32
+        while True:
+            time.sleep(30)
+            try:
+                h = k32.OpenProcess(0x1000, False, pid)
+                if not h:
+                    os._exit(3)
+                kod = ctypes.c_ulong()
+                k32.GetExitCodeProcess(h, ctypes.byref(kod))
+                k32.CloseHandle(h)
+                if kod.value != 259:          # STILL_ACTIVE
+                    os._exit(3)
+            except Exception:
+                pass
+    if os.name == "nt" and os.environ.get("MOTOR_SUREC_EBEVEYN"):
+        import threading as _th0
+        _th0.Thread(target=_ebeveyn_nobet, args=(int(os.environ["MOTOR_SUREC_EBEVEYN"]),),
+                    daemon=True).start()
 
 import shapely
 from shapely.geometry import (shape, box, Polygon, MultiPolygon, Point, MultiPoint,
@@ -200,7 +279,7 @@ R_DUNYA = 6371.0088
 # kilit süresini hesaplayamıyordu.
 import datetime as _dt
 _BASLADI = _dt.datetime.now()
-io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
+if _ISCI_NO is None: io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
                      ".uretim-basladi"), "w", encoding="utf-8").write(
     _BASLADI.strftime("%Y-%m-%d %H:%M:%S") + "\n")
 
@@ -323,9 +402,37 @@ def ilerleme(i, n, her, etiket, kum=None):
               f"{_sure(kalan)} ⚠️doğrusal")
 
 
+# 💓 NABIZ — M-4533. Uzun iç döngülerde (devlet başına gövde günleri, Osmanlı
+# kırılmaları, saat matrisi) en çok `MOTOR_NABIZ_SN` saniyede (varsayılan
+# 300) bir satır: saat · koşu süresi · aşama süresi · nerede olduğu.
+# 📌 `ilerleme()` FAZ 2'de devlet BİTİNCE basar; tek bir devlet (rusya,
+#    aşamanın ~%22'si) saatlerce sürebildiği için o arada log susuyordu.
+#    Nabız FAZ 1'in İÇİNDEN (iş parçacıklarından) atar; kilitli, en çok bir satır.
+_NABIZ_ARALIK = float(os.environ.get("MOTOR_NABIZ_SN", "300"))
+_NABIZ_SON = [time.time()]
+_NABIZ_KILIT = _th.Lock()
+
+
+def nabiz(etiket):
+    simdi = time.time()
+    if simdi - _NABIZ_SON[0] < _NABIZ_ARALIK:
+        return
+    with _NABIZ_KILIT:
+        if simdi - _NABIZ_SON[0] < _NABIZ_ARALIK:
+            return
+        _NABIZ_SON[0] = simdi
+    print(f"    💓 [{_dt.datetime.now():%H:%M:%S}] koşu {_sure(simdi - _T0)} · "
+          f"{_ASAMA_AD} {_sure(simdi - _ASAMA_T)} · {etiket}", flush=True)
+
+
 def asama_ozet():
     """Sonda ÖZET TABLO: aşama · süre · toplam içindeki payı."""
     asama(None)
+    try:
+        for _s in _ONB.ozet():
+            print(f"  🧱 ÖNBELLEK {_s}")
+    except NameError:
+        pass
     top = time.time() - _T0
     print("\n" + "=" * 64)
     print(f"AŞAMA BİLANÇOSU — koşu {_sure(top)} "
@@ -379,6 +486,61 @@ except BaseException as _e:
 
 asama("Girdi anlık görüntüsü")
 girdi.anlik_goruntu()
+# ⚙️ SÜREÇ PARALELLİĞİ — M-4533 (18 Eylül 2026). NİÇİN: "Yabancı devlet
+# gövdeleri" koşunun %81'i (koşu 12: 15s36dk / 19s08dk) ve iş parçacığı
+# paralelliği ORADA ÇALIŞMIYOR — bilançoda duvar 15s35dk ≈ işlemci 15s03dk,
+# yani 4 iş parçacığı ortalama TEK çekirdek kullanıyor (GIL; ölçüm koşu 13C
+# canlı: 0,79 çekirdek). Süreç GIL'i paylaşmaz. Windows'ta fork yok ⇒ işçi
+# motoru BAŞTAN koşar (ön aşamalar ~1,5-3 saat, AYNI ANDA, başka çekirdekte —
+# duvar saatine eklenmez) ve gövde aşamasına varınca kendi payını hesaplar.
+# 🔴 BELLEK: her işçi ana süreç kadar bellek ister (~2-3 GB). N'yi boş RAM'e
+#    göre seç (12 GB makinede N=3).
+# 🔴 BİT DENKLİĞİ: işçinin sonucu, ÖN AŞAMA PARMAK İZİ (YERLER · BOYALAR ·
+#    PETEK_D WKB · ızgara sahipliği · bayraklar · motor izi) ana süreçle
+#    AYNIYSA kabul edilir; değilse ya da işçi ölmüşse o devleti ana süreç
+#    KENDİSİ hesaplar ⇒ en kötü hâl eski hız, yanlış çıktı değil.
+_SUREC_ISCI = max(1, int(os.environ.get("MOTOR_SUREC_ISCI", "1") or "1"))
+# ♻️ KALDIĞI YERDEN DEVAM — M-4535 (Emre, 18 Eyl: "hiçbir koşu bir daha çöpe
+# gitmeyecek"). `MOTOR_DEVAM=1` ile gövde aşamasının devlet başına FAZ 1 sonucu
+# `<kök>/_petek_devam/<ön aşama izi>/` altında KALICI tutulur (dizin
+# `MOTOR_DEVAM_DIZIN` ile değişir). Ölen koşu aynı girdi + aynı kodla yeniden
+# başlatılınca iz AYNI çıkar ve hazır devletler diskten okunur; girdi ya da kod
+# değiştiyse iz de değişir ⇒ eski sonuç ASLA karışmaz. Dizin koşu başarıyla
+# bitince silinir. ⚠️ Ön aşamalar (~1,5-3 saat) yine koşar — devam eden yalnız
+# koşunun %81'i olan gövde aşamasıdır.
+_DEVAM = os.environ.get("MOTOR_DEVAM") == "1"
+if os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
+    _SUREC_ISCI = 1
+    _DEVAM = False
+_SUREC_YOLU = _SUREC_ISCI > 1 or _DEVAM
+_SUREC_DIZIN = os.environ.get("MOTOR_SUREC_DIZIN")
+_SUREC_COCUK = []
+if _ISCI_NO is None and _SUREC_ISCI > 1:
+    import subprocess as _sp, tempfile as _tf
+    _SUREC_DIZIN = _tf.mkdtemp(prefix="petek_surec_")
+    _sr_betik = os.environ.get("MOTOR_ISCI_BETIK") or os.path.abspath(__file__)
+    _sr_kok = os.path.dirname(os.path.abspath(
+        globals().get("_CANLI_YOL") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "x")))
+    for _k in range(1, _SUREC_ISCI):
+        _env = dict(os.environ, MOTOR_SUREC_ISCI_NO=str(_k), MOTOR_SUREC_DIZIN=_SUREC_DIZIN,
+                    MOTOR_SUREC_EBEVEYN=str(os.getpid()),
+                    MOTOR_CANLI_LOG=os.path.join(_sr_kok, f"uretim_isci_{_k}.log"))
+        _SUREC_COCUK.append(_sp.Popen([sys.executable, _sr_betik], env=_env, cwd=os.getcwd(),
+                                      stdin=_sp.DEVNULL, stdout=_sp.DEVNULL, stderr=_sp.DEVNULL))
+
+    def _sr_temizle():
+        for _c in _SUREC_COCUK:
+            if _c.poll() is None:
+                try:
+                    _c.kill()
+                except Exception:
+                    pass
+    atexit.register(_sr_temizle)
+    print(f"  ⚙️ SÜREÇ PARALELLİĞİ: {_SUREC_ISCI - 1} işçi süreç başlatıldı "
+          f"(pid {[c.pid for c in _SUREC_COCUK]}) · ara dizin {_SUREC_DIZIN} · "
+          f"işçi logları uretim_isci_<k>.log")
+elif _ISCI_NO is not None:
+    print(f"  ⚙️ SÜREÇ İŞÇİSİ {_ISCI_NO}/{_SUREC_ISCI - 1} — ara dizin {_SUREC_DIZIN}")
 
 # ⚠️ KOŞU BEKÇİSİ — parmak izi anlık görüntüden SONRA, kopyadan alınır.
 # Sıra kritik: göller (goller.js) yerleşimlerden ÖNCE okunuyor, bu yüzden iz
@@ -396,6 +558,49 @@ _GIRDI_IZI = girdi.parmak_izi()
 # kodun özeti yazılırdı. Aşağıda GİRDİ için yazılmış olan gerekçe, koda
 # uygulanmamıştı.
 _MOTOR_IZI = girdi.motor_izi()
+
+# ══ 🧱 ARTIMLI MOTOR — KOŞULAR ARASI ÖNBELLEK (M-4537, Emre 18 Eylül 2026) ══════
+# "Bir ampul için bina yıkılmaz." Ayrıntı ve ilke: arac/motor_onbellek.py.
+# TUZ = KÖKLÜ DEĞİŞİKLİK: motor kodu (uret_petek · renkler · girdi · motor_onbellek)
+# ve sonucu etkileyebilecek bütün MOTOR_* ortam değişkenleri + harita penceresi.
+# Tuz değişirse bütün anahtarlar değişir ⇒ tam yeniden inşa — elle karar yok.
+# Yalnız İŞLETİM değişkenleri (süreç sayısı, log yolu, devam/önbellek dizini…)
+# tuza girmez: sonucu değiştirmezler (bit denkliği sınandı).
+import hashlib as _hlo
+import motor_onbellek as _mob
+_ONB_ISLETIM = {"MOTOR_SUREC_ISCI", "MOTOR_SUREC_ISCI_NO", "MOTOR_SUREC_DIZIN",
+                "MOTOR_SUREC_EBEVEYN", "MOTOR_CANLI_LOG", "MOTOR_DEVAM",
+                "MOTOR_DEVAM_DIZIN", "MOTOR_PARALEL_ISCI", "MOTOR_PARALEL_KAPALI",
+                "MOTOR_NABIZ_SN", "MOTOR_ISCI_BETIK", "MOTOR_ONBELLEK_DIZIN",
+                "MOTOR_ONBELLEK_KAPALI", "MOTOR_ONBELLEK_BUDA_GUN"}
+_ONB_TUZ = json.dumps({
+    "surum": "onbellek-1",
+    "motor": _MOTOR_IZI,
+    "onbellek_modulu": _mob.dosya_ozeti(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                                     "motor_onbellek.py")),
+    "ortam": sorted((k, v) for k, v in os.environ.items()
+                    if k.startswith("MOTOR_") and k not in _ONB_ISLETIM),
+}, sort_keys=True, ensure_ascii=False)
+_ONB = _mob.Onbellek(
+    os.path.join(os.environ.get("MOTOR_ONBELLEK_DIZIN")
+                 or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "_motor_onbellek"),
+                 "motor_onbellek.sqlite"),
+    _ONB_TUZ, acik=os.environ.get("MOTOR_ONBELLEK_KAPALI") != "1")
+print(f"  🧱 ÖNBELLEK: {'AÇIK — ' + _ONB.yol if _ONB.acik else 'KAPALI (MOTOR_ONBELLEK_KAPALI=1)'}"
+      f" · tuz {_hlo.sha256(_ONB_TUZ.encode('utf-8')).hexdigest()[:12]}")
+_ONB_OZ = {}
+
+
+def _onb_oz(g):
+    """Geometrinin içerik özeti (WKB sha256). Nesne başına bir kez hesaplanır;
+    nesne sözlükte CANLI tutulur ⇒ id() yeniden kullanılıp yanlış özet dönemez."""
+    k = id(g)
+    v = _ONB_OZ.get(k)
+    if v is None or v[0] is not g:
+        v = (g, _hlo.sha256(b"BOS" if g is None or g.is_empty
+                            else shapely.to_wkb(g, output_dimension=2)).digest())
+        _ONB_OZ[k] = v
+    return v[1]
 
 # ---------------- ① EĞİM ÇARPANI — DEM'in ERKEN SINAVI ----------------
 # `ALTYAPI ①` · ölçüm: denetim/EGIM-CARPANI-OLCUM.md (`T-0112`, 15 Ağustos 2026)
@@ -481,10 +686,20 @@ elif EGIM_CARPANI > 0:
 # ve parça havuzu sayesinde dosya bütçesine sığar — ölçüm: denetim/OTURUM-8 raporu.
 KARA_TOL = 0.002
 asama(f"Kara maskesi (Natural Earth 10m, tolerans {KARA_TOL})")
-_ne = json.load(open(os.path.join(BASEMAPS, "ne_10m_land.geojson"), encoding="utf-8"))
-KARA = unary_union([shape(f["geometry"]).buffer(0).intersection(BOLGE)
-                    for f in _ne["features"] if shape(f["geometry"]).envelope.intersects(BOLGE)])
-KARA = KARA.buffer(0).simplify(KARA_TOL, preserve_topology=True).buffer(0)
+# 🧱 KATMAN 1 (M-4537): kara maskesi yerleşimden BAĞIMSIZ — girdi dosyası +
+# pencere aynıysa diskten. (Pickle WKB taşır: koordinatlar birebir döner.)
+_K1_KARA = _ONB.anahtar("k1_kara", _mob.dosya_ozeti(os.path.join(BASEMAPS, "ne_10m_land.geojson")),
+                        repr(BOLGE.bounds))
+_k1v, _k1 = _ONB.oku("k1", _K1_KARA)
+if _k1v:
+    KARA = _k1
+    print("  🧱 önbellekten")
+else:
+    _ne = json.load(open(os.path.join(BASEMAPS, "ne_10m_land.geojson"), encoding="utf-8"))
+    KARA = unary_union([shape(f["geometry"]).buffer(0).intersection(BOLGE)
+                        for f in _ne["features"] if shape(f["geometry"]).envelope.intersects(BOLGE)])
+    KARA = KARA.buffer(0).simplify(KARA_TOL, preserve_topology=True).buffer(0)
+    _ONB.yaz("k1", _K1_KARA, KARA)
 print("  tamam")
 
 # ---------------- Göller ----------------
@@ -510,44 +725,59 @@ print("  tamam")
 DOGAL_GOL = {"Lake Il'Men'", "Ozero Kubenskoye", "Mjøsa", "Kostroma Reservoir"}
 asama("Göller")
 GOLLER = None
-try:
-    _gl = json.load(open(os.path.join(BASEMAPS, "ne_10m_lakes.geojson"), encoding="utf-8"))
-    _gs, _baraj = [], []
-    for f in _gl["features"]:
-        p = f["properties"]
-        g = shape(f["geometry"]).buffer(0)
-        if not (g.envelope.intersects(BOLGE) and g.area > 0.02):
-            continue
-        _ad = p.get("name") or "(adsız)"
-        _yil = p.get("year") or -99
-        if (p.get("featurecla") == "Reservoir" and _ad not in DOGAL_GOL
-                and (_yil >= 1900 or p.get("dam_name"))):
-            _baraj.append(f"{_ad} ({_yil if _yil > 0 else 'yıl?'})")
-            continue
-        g = g.intersection(BOLGE)
-        if not g.is_empty: _gs.append(g)
-    # ⚠️ TARİHÎ GÖL DÜZELTMELERİ — baraj kuralının AYNADAKİ HÂLİ
-    # Yukarıdaki baraj kuralı maskeye FAZLA su girmesini engeller (1960'ta
-    # yapılmış göl 1500 haritasında delik açmasın). Buradaki düzeltme EKSİK
-    # suyu tamamlar: tarihte var olan ama modern katmanda kurumuş göller.
-    # Ölçüldü (2026-07-30, Oturum 16): Natural Earth Aral'ı kuruma sonrası üç
-    # artık parça olarak taşıyor (South Aral 3.392 + North Aral 2.952 +
-    # Barsakelmes 235 = 6.579 km²); tarihî göl 73.666 km². Aradaki
-    # 67.087 km² bugün KARA sayılıyor ve tamamını TEK petek yutuyor: KÜNGRAT.
-    # Yani Hîve Hanlığı haritada gölün üstüne taşıyor. Oturum 11'in bulgusu,
-    # Oturum 15'in poligonu (data/goller.js), ölçüm bu oturumda doğrulandı.
-    for _eg in girdi.oku_goller():
-        _g = shape(_eg["geometry"]).buffer(0).intersection(BOLGE)
-        if not _g.is_empty: _gs.append(_g)
-    GOLLER = unary_union(_gs).buffer(0).simplify(0.01, preserve_topology=True).buffer(0)
-    KARA = KARA.difference(GOLLER).buffer(0)
-    print(f"  {len(_gs)} büyük göl kara maskesinden çıkarıldı")
+# 🧱 KATMAN 1 (M-4537): göller de yerleşimden bağımsız. Hata yolunda
+# (göl verisi yok) KAYIT YAZILMAZ — bir sonraki koşu yeniden dener.
+_K1_GOL = _ONB.anahtar("k1_goller", _onb_oz(KARA),
+                       _mob.dosya_ozeti(os.path.join(BASEMAPS, "ne_10m_lakes.geojson")),
+                       json.dumps(girdi.oku_goller(), sort_keys=True, ensure_ascii=False),
+                       repr(BOLGE.bounds))
+_k1v, _k1 = _ONB.oku("k1", _K1_GOL)
+if _k1v:
+    GOLLER, KARA, _k1n, _baraj = _k1
+    print(f"  🧱 önbellekten · {_k1n} büyük göl kara maskesinden çıkarıldı")
     print(f"  {len(_baraj)} MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):")
     for _b in sorted(_baraj): print(f"      {_b}")
-except Exception as e:
-    print("  göl verisi yok:", e)
-
-# ---------------- Nehir yatakları ----------------
+else:
+    try:
+        _gl = json.load(open(os.path.join(BASEMAPS, "ne_10m_lakes.geojson"), encoding="utf-8"))
+        _gs, _baraj = [], []
+        for f in _gl["features"]:
+            p = f["properties"]
+            g = shape(f["geometry"]).buffer(0)
+            if not (g.envelope.intersects(BOLGE) and g.area > 0.02):
+                continue
+            _ad = p.get("name") or "(adsız)"
+            _yil = p.get("year") or -99
+            if (p.get("featurecla") == "Reservoir" and _ad not in DOGAL_GOL
+                    and (_yil >= 1900 or p.get("dam_name"))):
+                _baraj.append(f"{_ad} ({_yil if _yil > 0 else 'yıl?'})")
+                continue
+            g = g.intersection(BOLGE)
+            if not g.is_empty: _gs.append(g)
+        # ⚠️ TARİHÎ GÖL DÜZELTMELERİ — baraj kuralının AYNADAKİ HÂLİ
+        # Yukarıdaki baraj kuralı maskeye FAZLA su girmesini engeller (1960'ta
+        # yapılmış göl 1500 haritasında delik açmasın). Buradaki düzeltme EKSİK
+        # suyu tamamlar: tarihte var olan ama modern katmanda kurumuş göller.
+        # Ölçüldü (2026-07-30, Oturum 16): Natural Earth Aral'ı kuruma sonrası üç
+        # artık parça olarak taşıyor (South Aral 3.392 + North Aral 2.952 +
+        # Barsakelmes 235 = 6.579 km²); tarihî göl 73.666 km². Aradaki
+        # 67.087 km² bugün KARA sayılıyor ve tamamını TEK petek yutuyor: KÜNGRAT.
+        # Yani Hîve Hanlığı haritada gölün üstüne taşıyor. Oturum 11'in bulgusu,
+        # Oturum 15'in poligonu (data/goller.js), ölçüm bu oturumda doğrulandı.
+        for _eg in girdi.oku_goller():
+            _g = shape(_eg["geometry"]).buffer(0).intersection(BOLGE)
+            if not _g.is_empty: _gs.append(_g)
+        GOLLER = unary_union(_gs).buffer(0).simplify(0.01, preserve_topology=True).buffer(0)
+        KARA = KARA.difference(GOLLER).buffer(0)
+        print(f"  {len(_gs)} büyük göl kara maskesinden çıkarıldı")
+        print(f"  {len(_baraj)} MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):")
+        for _b in sorted(_baraj): print(f"      {_b}")
+    except Exception as e:
+        print("  göl verisi yok:", e)
+    
+    # ---------------- Nehir yatakları ----------------
+    if GOLLER is not None:
+        _ONB.yaz("k1", _K1_GOL, (GOLLER, KARA, len(_gs), _baraj))
 asama("Nehir yatakları")
 BUYUK = {"Danube","Duna","Dunav","Sava","Drava","Tisza","Tisa","Morava","Dniester",
          "Dnipro","Dnieper","Prut","Southern Bug","Don","Kuban","Firat","Al Furat",
@@ -1594,6 +1824,9 @@ def _yr_etiket_poligon(L, i0, j0):
     return dict(zip(_ids, shapely.coverage_simplify(_ps, YURUYUS_SADE)))
 
 
+_YR_SAHIP_SIRA = None
+
+
 def _yr_epok_onar(olu):
     """🚶 EPOK DEVRİ (b) — `olu` tohumlarının ızgara hücreleri, CANLI komşu
     hücrelerden (kendi üretim bedelleriyle) tohumlanan kısıtlı Dijkstra ile
@@ -1601,11 +1834,34 @@ def _yr_epok_onar(olu):
     ETKİLENMEZ (en yakın tohumu zaten canlı) ⇒ sonuç, epok başına tam Dijkstra
     koşmakla AYNIDIR. Bütçe (40 saat) aşılırsa hücre sahipsiz kalır (−2).
     Döner (D, yeni): D ölülerin hücreleri (düz indis), yeni sahip ya da −2."""
-    _ol = _np.fromiter(olu, dtype=_np.int32)
-    _Dm = _np.isin(_YR_SAHIP, _ol)
-    D = _np.flatnonzero(_Dm.ravel())
+    # ⚡ M-4537: eskiden her devir kümesinde TAM ızgarada (7200×2900 = 20,9 M
+    # hücre) `np.isin` + 5×5 `binary_dilation` koşuyordu. Şimdi: sahip başına
+    # hücre listesi BİR KEZ sıralanır (`_YR_SAHIP_SIRA`), genişletme yalnız ölü
+    # hücrelerin kutusu ±2 hücrelik PENCEREDE yapılır. Sonuç KESİN aynı:
+    # D artan düz indis (eskisi flatnonzero = artan); genişletme yarıçapı 2
+    # olduğundan pencere dışına taşan hücre olamaz; ızgara kenarında iki yol da
+    # dışarıyı False sayar; pencerenin satır-sütun sırası global artan sıradır.
+    global _YR_SAHIP_SIRA
+    if _YR_SAHIP_SIRA is None:
+        _dz = _YR_SAHIP.ravel()
+        _sr = _np.argsort(_dz, kind="stable")
+        _YR_SAHIP_SIRA = (_sr, _dz[_sr])
+    _sr, _sv = _YR_SAHIP_SIRA
+    _parca = []
+    for _o in olu:
+        _l = _np.searchsorted(_sv, _o, side="left")
+        _r = _np.searchsorted(_sv, _o, side="right")
+        if _r > _l:
+            _parca.append(_sr[_l:_r])
+    D = _np.sort(_np.concatenate(_parca)) if _parca else _np.zeros(0, dtype=_np.intp)
     if D.size == 0:
         return D, _np.zeros(0, dtype=_np.int32)
+    _nyy, _nxx = _YR_SAHIP.shape
+    _ri, _ci = D // _nxx, D % _nxx
+    _r0, _r1 = max(0, int(_ri.min()) - 2), min(_nyy, int(_ri.max()) + 3)
+    _c0, _c1 = max(0, int(_ci.min()) - 2), min(_nxx, int(_ci.max()) + 3)
+    _Dm = _np.zeros((_r1 - _r0, _c1 - _c0), dtype=bool)
+    _Dm[_ri - _r0, _ci - _c0] = True
     Dset = set(D.tolist())
     kaynak = []
     for h in D.tolist():                  # aynı hücreyi paylaşan CANLI tohum
@@ -1615,8 +1871,9 @@ def _yr_epok_onar(olu):
                 break
     # sınır halkası: ölü bölgeye bitişik (16 komşuda 2 hücre) canlı kara hücreleri
     _hl = _ndi.binary_dilation(_Dm, _np.ones((5, 5), dtype=bool)) & ~_Dm
-    _hl &= _YR_SAHIP >= 0
-    for k in _np.flatnonzero(_hl.ravel()).tolist():
+    _hl &= _YR_SAHIP[_r0:_r1, _c0:_c1] >= 0
+    _hr, _hc = _np.nonzero(_hl)                       # satır-sütun sırası = artan
+    for k in ((_hr + _r0) * _nxx + (_hc + _c0)).tolist():
         d = _kvuzak[k]
         if d <= _YR_BUTCE:
             kaynak.append((d, k, int(_YR_SAHIP.flat[k])))
@@ -2208,6 +2465,17 @@ def poligonal(g):
     """intersection/difference çıktısı geçerli ama karışık bir GeometryCollection
     olabilir (kıyıda çizgi artığı); poligonal olmayan parçaları süz."""
     if g.geom_type == "GeometryCollection" or not g.is_valid: return temiz(g)
+    # 🔴 M-4535 (18 Eylül 2026) — YÜRÜYÜŞ AÇIKKEN ÇÖKÜŞ, kutu sınavında yakalandı
+    # (26-50D 34-44K, MOTOR_YURUYUS=1 + 16 komşu, devlet ~100/591):
+    #     g.intersection(KARA) → MultiLineString → _ham_km2: 'no attribute exterior'
+    # Izgaradan gelen epok payı KARA'ya yalnız bir ÇİZGİ boyunca değebiliyor; kesişim
+    # o zaman saf çizgi döner ve bu işlev onu süzmüyordu (yalnız KARIŞIK koleksiyonu
+    # süzüyordu). Koşu 13B zaman aşımına takılmasaydı büyük olasılıkla BURADA ölecekti.
+    # Bayrağa bağlı: bayrak kapalıyken davranış bit-bit aynı kalsın (kapalı yolda
+    # bugüne kadar bu durum hiç ölümcül olmadı — 19 saatlik koşular tamamlandı).
+    if MOTOR_YURUYUS and g.geom_type in ("LineString", "MultiLineString", "LinearRing",
+                                         "Point", "MultiPoint"):
+        return Polygon()
     return g
 
 # ═══ 🔴 KASITLI BOŞLUK MUAFİYETİ — MOTOR ENKLAV, 11 Ağustos 2026 ═══════════
@@ -2253,6 +2521,15 @@ print(f"     delik doldurma muafiyeti: {len(_KB_IX)} kasıtlı boşluk noktası 
 # ⚠️ Her devlet için ayrı ağaç kurmak 320 devlet × ~500 dönem demekti;
 #    tek ağaç + küme sorgusu aynı işi görür ve kurulum maliyeti SIFIRA yakın.
 _TUM_AGAC = STRtree(noktalar) if noktalar else None
+# 🧱 ÖNBELLEK — gövde anahtarının "çevre" parçası: gövde hesabı yerleşimlerden
+# YALNIZ şunları okur: konum (noktalar · _TUM_AGAC · _KB_*), `kasitli_bosluk`,
+# `bos` (_yasakli_mi) ve "bu devletin mi" (sahip_ix). Başka alan OKUNMAZ
+# (delikleri_doldur · _b2 · _b3 · _yasakli_mi · _bant_… · _puan_bolgesi tarandı,
+# 19 Eylül 2026). Komşunun s:/d: sahibi değişince bu gövde YENİDEN HESAPLANMAZ —
+# çünkü o bilgiyi okumuyor; petek geometrisi değişirse WKB özeti yakalar.
+_ONB_KIM = [f"{y['lon']!r},{y['lat']!r};".encode("ascii") for y in YERLER]
+_ONB_KB = [1 if y.get("kasitli_bosluk") else 0 for y in YERLER]
+_ONB_BOS = [1 if y.get("bos") else 0 for y in YERLER]
 _B1_SAYAC = {"dolduruldu": 0, "yabanci_yerlesim": 0, "yabanci_ad": set()}
 
 
@@ -3376,65 +3653,112 @@ COL_SU_MUAF_KM = 30.0
 # Ndjamena (Şari) 1.450 km ile ikinci. Alan bazlıda ikisi de kesiliyor
 # (Timbuktu tek başına 812.532 km²).
 COL_MUAF_YERLESIM_BAZLI = False
+def _col_kes_hesap(_g, _y):
+    """Çöl tavanının tek petek kararı (M-4537'de işleve alındı, gövdesi aynı).
+    Döner: ('gec',) · ('yok_etti',) · ('kes', yeni_petek, km2)."""
+    _co = max(math.cos(math.radians(_y["lat"])), 0.05)
+    _rx = COL_TAVAN_KM / 111.32 / _co
+    _ry = COL_TAVAN_KM / 111.32
+    # Elips doğrudan kuruluyor — `shapely.affinity` içeri alınmamış ve
+    # `import shapely` alt modülü açmıyor; derleme temiz geçer, koşu
+    # 20. dakikada patlardı.
+    _disk = Polygon([(_y["lon"] + _rx * math.cos(_t * math.pi / 32.0),
+                      _y["lat"] + _ry * math.sin(_t * math.pi / 32.0))
+                     for _t in range(64)])
+    # kesilecek = peteğin ÇÖLDE olan, SUYA uzak olan ve DİSK DIŞINDA kalan payı
+    _kes = _g.intersection(COL).difference(_disk)
+    if _SU_TAMPON is not None and not _kes.is_empty:
+        _kes = _kes.difference(_SU_TAMPON)
+    if _kes.is_empty:
+        return ('gec',)
+    _a = _ham_km2(_kes)
+    if _a < 1.0:
+        return ('gec',)                # kırıntı
+    _yeni = poligonal(_g.difference(_kes))
+    if _yeni.is_empty:
+        # ⚠️ ANA PARÇA DEĞİŞMEZİ: bir yerleşim kendi altındaki toprağı
+        # kaybedemez. Tavan bunu üretemez (nokta kendi diskinin
+        # merkezindedir) ama sessiz kalmasın diye sınanıyor.
+        return ('yok_etti',)
+    return ('kes', _yeni, _a)
+
+
 asama("Çöl tavanı")
-_col_parca = []
-try:
-    _gr = json.load(open(os.path.join(BASEMAPS,
-                                      "ne_10m_geography_regions_polys.geojson"),
-                         encoding="utf-8"))
-    for f in _gr["features"]:
-        # ⚠️ ANAHTARLAR BÜYÜK HARF. Küçük harfle sorulunca sessizce None döner
-        # ve "pencerede çöl yok" gibi sakin bir yanlış üretir.
-        if (f["properties"].get("FEATURECLA") or "") != "Desert":
-            continue
-        _g = shape(f["geometry"])
-        if not _g.envelope.intersects(BOLGE):
-            continue
-        _g = _g.buffer(0).intersection(BOLGE)
-        if not _g.is_empty:
-            _col_parca.append(_g)
-except Exception as _e:
-    print("  UYARI çöl verisi okunamadı, tavan UYGULANMIYOR:", _e)
-COL = unary_union(_col_parca) if _col_parca else None
-print(f"  {len(_col_parca)} çöl poligonu birleşti")
-
-# Su koridoru muafiyeti (§3.1): Natural Earth'ün çöl lekeleri Nil vadisinin
-# ÜSTÜNDEN geçiyor, vadiyi oymuyor. Ham tavan Mısır'ı keserdi — çöl poligonu
-# içinde ve Nil'e 55 km'den yakın 35 yerleşim ölçülmüş.
-# ⚠️ Muafiyet ALAN bazlı yazıldı, kuralın lafzına uyarak ("30 km'den yakın
-#    ALANDA tavan uygulanmaz"). Yerleşim bazlı okuma da mümkündü ve Mısır'da
-#    fark üretiyor; ikisi ölçülüp koordinatöre sayıyla getirildi.
-# ⚠️ SU KÜMESİ, MOTORUN YASLAMA KÜMESİ DEĞİLDİR — ölçülerek ayrıldı.
-# İlk yazımda `NEHIR_HAT`ı (41 adlı akarsu parçası) kullandım ve muaf/tâbi
-# ayrımı 46/74 çıktı; şartname 55/61 diyordu. Fark 9 kayıt, yani tavana girip
-# girmeyeceği belirsiz 9 yerleşim.
-# Dosyanın TAMAMIYLA ölçtüm: 57/63 — şartnameye 2 kayıt uzaklıkta.
-# 📌 Kavramsal olarak da doğrusu bu: muafiyet *"burada su var mı"* diye soruyor,
-# *"motor buraya yaslanıyor mu"* diye değil. Adsız bir vadi kenarındaki
-# yerleşim de su kenarındadır.
-_tum_nehir = []
-try:
-    for _f in json.load(open(os.path.join(BASEMAPS, "ne_10m_rivers.geojson"),
-                             encoding="utf-8"))["features"]:
-        _g = shape(_f["geometry"])
-        if _g.envelope.intersects(BOLGE):
-            _g = _g.intersection(BOLGE)
+# 🧱 KATMAN 1 (M-4537): çöl poligonu ve su koridoru tamponu (bütün akarsular +
+# kıyı, 30 km) yerleşimden BAĞIMSIZ. Okuma hatası yolunda kayıt YAZILMAZ.
+_K1_COL = _ONB.anahtar("k1_col", _onb_oz(KARA), repr(BOLGE.bounds),
+                       _mob.dosya_ozeti(os.path.join(BASEMAPS, "ne_10m_geography_regions_polys.geojson")),
+                       _mob.dosya_ozeti(os.path.join(BASEMAPS, "ne_10m_rivers.geojson")))
+_k1v, _k1 = _ONB.oku("k1", _K1_COL)
+if _k1v:
+    COL, _SU_TAMPON, _k1a, _k1b = _k1
+    print(f"  🧱 önbellekten · {_k1a} çöl poligonu · su koridoru {_k1b} akarsu parçası + kıyı")
+else:
+    _k1_hata = False
+    _col_parca = []
+    try:
+        _gr = json.load(open(os.path.join(BASEMAPS,
+                                          "ne_10m_geography_regions_polys.geojson"),
+                             encoding="utf-8"))
+        for f in _gr["features"]:
+            # ⚠️ ANAHTARLAR BÜYÜK HARF. Küçük harfle sorulunca sessizce None döner
+            # ve "pencerede çöl yok" gibi sakin bir yanlış üretir.
+            if (f["properties"].get("FEATURECLA") or "") != "Desert":
+                continue
+            _g = shape(f["geometry"])
+            if not _g.envelope.intersects(BOLGE):
+                continue
+            _g = _g.buffer(0).intersection(BOLGE)
             if not _g.is_empty:
-                _tum_nehir.append(_g)
-except Exception as _e:
-    print("  UYARI tam nehir kümesi okunamadı, yaslama kümesine düşülüyor:", _e)
-    _tum_nehir = [NEHIR_HAT] if NEHIR_HAT is not None else []
-print(f"  su koridoru: {len(_tum_nehir)} akarsu parçası + kıyı")
-_su_hat = [x for x in (unary_union(_tum_nehir) if _tum_nehir else None,
-                       KARA.boundary) if x is not None and not x.is_empty]
-_SU = unary_union(_su_hat) if _su_hat else None
-# ⚠️ Tampon da derece uzayında: çöller 0-40° arasında, cos 1,00-0,77.
-#    Enlem yönünde tam, boylam yönünde en kötü %23 dar kalır — muafiyeti
-#    DARALTAN yönde hata, yani Nil'i kesme riskine karşı GÜVENLİ taraf değil.
-#    Bu yüzden tampon cos(enlem) EN KÖTÜ hâline göre genişletiliyor.
-_SU_TAMPON = (_SU.buffer(COL_SU_MUAF_KM / 111.32 / math.cos(math.radians(40.0)))
-              if _SU is not None else None)
-
+                _col_parca.append(_g)
+    except Exception as _e:
+        print("  UYARI çöl verisi okunamadı, tavan UYGULANMIYOR:", _e)
+        _k1_hata = True
+    COL = unary_union(_col_parca) if _col_parca else None
+    print(f"  {len(_col_parca)} çöl poligonu birleşti")
+    
+    # Su koridoru muafiyeti (§3.1): Natural Earth'ün çöl lekeleri Nil vadisinin
+    # ÜSTÜNDEN geçiyor, vadiyi oymuyor. Ham tavan Mısır'ı keserdi — çöl poligonu
+    # içinde ve Nil'e 55 km'den yakın 35 yerleşim ölçülmüş.
+    # ⚠️ Muafiyet ALAN bazlı yazıldı, kuralın lafzına uyarak ("30 km'den yakın
+    #    ALANDA tavan uygulanmaz"). Yerleşim bazlı okuma da mümkündü ve Mısır'da
+    #    fark üretiyor; ikisi ölçülüp koordinatöre sayıyla getirildi.
+    # ⚠️ SU KÜMESİ, MOTORUN YASLAMA KÜMESİ DEĞİLDİR — ölçülerek ayrıldı.
+    # İlk yazımda `NEHIR_HAT`ı (41 adlı akarsu parçası) kullandım ve muaf/tâbi
+    # ayrımı 46/74 çıktı; şartname 55/61 diyordu. Fark 9 kayıt, yani tavana girip
+    # girmeyeceği belirsiz 9 yerleşim.
+    # Dosyanın TAMAMIYLA ölçtüm: 57/63 — şartnameye 2 kayıt uzaklıkta.
+    # 📌 Kavramsal olarak da doğrusu bu: muafiyet *"burada su var mı"* diye soruyor,
+    # *"motor buraya yaslanıyor mu"* diye değil. Adsız bir vadi kenarındaki
+    # yerleşim de su kenarındadır.
+    _tum_nehir = []
+    try:
+        for _f in json.load(open(os.path.join(BASEMAPS, "ne_10m_rivers.geojson"),
+                                 encoding="utf-8"))["features"]:
+            _g = shape(_f["geometry"])
+            if _g.envelope.intersects(BOLGE):
+                _g = _g.intersection(BOLGE)
+                if not _g.is_empty:
+                    _tum_nehir.append(_g)
+    except Exception as _e:
+        print("  UYARI tam nehir kümesi okunamadı, yaslama kümesine düşülüyor:", _e)
+        _k1_hata = True
+        _tum_nehir = [NEHIR_HAT] if NEHIR_HAT is not None else []
+    print(f"  su koridoru: {len(_tum_nehir)} akarsu parçası + kıyı")
+    _su_hat = [x for x in (unary_union(_tum_nehir) if _tum_nehir else None,
+                           KARA.boundary) if x is not None and not x.is_empty]
+    _SU = unary_union(_su_hat) if _su_hat else None
+    # ⚠️ Tampon da derece uzayında: çöller 0-40° arasında, cos 1,00-0,77.
+    #    Enlem yönünde tam, boylam yönünde en kötü %23 dar kalır — muafiyeti
+    #    DARALTAN yönde hata, yani Nil'i kesme riskine karşı GÜVENLİ taraf değil.
+    #    Bu yüzden tampon cos(enlem) EN KÖTÜ hâline göre genişletiliyor.
+    _SU_TAMPON = (_SU.buffer(COL_SU_MUAF_KM / 111.32 / math.cos(math.radians(40.0)))
+                  if _SU is not None else None)
+    
+    if COL is not None and not _k1_hata:
+        _ONB.yaz("k1", _K1_COL, (COL, _SU_TAMPON, len(_col_parca), len(_tum_nehir)))
+_ONB_COL_TUZ = (_onb_oz(COL) if COL is not None else b"-") + \
+    (_onb_oz(_SU_TAMPON) if _SU_TAMPON is not None else b"-")
 if COL is not None:
     _tv_n, _tv_alan, _tv_dok = 0, 0.0, []
     _tv_muaf = 0
@@ -3452,31 +3776,21 @@ if COL is not None:
             _tv_muaf += 1
             continue                      # yerleşim suya yakın → peteği hiç kesilmez
         # 300 km'lik disk: ELİPS, çünkü boylam derecesi enlemle daralıyor.
-        _co = max(math.cos(math.radians(_y["lat"])), 0.05)
-        _rx = COL_TAVAN_KM / 111.32 / _co
-        _ry = COL_TAVAN_KM / 111.32
-        # Elips doğrudan kuruluyor — `shapely.affinity` içeri alınmamış ve
-        # `import shapely` alt modülü açmıyor; derleme temiz geçer, koşu
-        # 20. dakikada patlardı.
-        _disk = Polygon([(_y["lon"] + _rx * math.cos(_t * math.pi / 32.0),
-                          _y["lat"] + _ry * math.sin(_t * math.pi / 32.0))
-                         for _t in range(64)])
-        # kesilecek = peteğin ÇÖLDE olan, SUYA uzak olan ve DİSK DIŞINDA kalan payı
-        _kes = _g.intersection(COL).difference(_disk)
-        if _SU_TAMPON is not None and not _kes.is_empty:
-            _kes = _kes.difference(_SU_TAMPON)
-        if _kes.is_empty:
+        # 🧱 ÖNBELLEK (M-4537): karar yalnız bu peteğe, yerleşimin konumuna ve
+        # (tuzdaki) COL / su tamponuna bağlı.
+        _ck = (_ONB.anahtar("col", _ONB_COL_TUZ, _onb_oz(_g), f"{_y['lon']!r},{_y['lat']!r}")
+               if _ONB.acik else None)
+        _cvar, _cv = _ONB.oku("col", _ck) if _ck else (False, None)
+        if not _cvar:
+            _cv = _col_kes_hesap(_g, _y)
+            if _ck:
+                _ONB.yaz("col", _ck, _cv)
+        if _cv[0] == "gec":
             continue
-        _a = _ham_km2(_kes)
-        if _a < 1.0:
-            continue                      # kırıntı
-        _yeni = poligonal(_g.difference(_kes))
-        if _yeni.is_empty:
-            # ⚠️ ANA PARÇA DEĞİŞMEZİ: bir yerleşim kendi altındaki toprağı
-            # kaybedemez. Tavan bunu üretemez (nokta kendi diskinin
-            # merkezindedir) ama sessiz kalmasın diye sınanıyor.
+        if _cv[0] == "yok_etti":
             print(f"  ✗ TAVAN {_y['ad']} peteğini YOK ETTİ — uygulanmadı")
             continue
+        _yeni, _a = _cv[1], _cv[2]
         PETEK_D[_i] = _yeni
         _tv_n += 1; _tv_alan += _a
         _tv_dok.append((_a, _y["ad"], _y["lat"], _y["lon"]))
@@ -3526,6 +3840,7 @@ if COL is not None:
 asama("Motorun çizdiği kara (motor_kara.geojson)")
 _mkara = unary_union([g for g in PETEK_D if g is not None and not g.is_empty])
 _mkyol = os.path.join(BASEMAPS, "motor_kara.geojson")
+if _ISCI_NO is not None: _mkyol = os.path.join(_SUREC_DIZIN, f"mk_{_ISCI_NO}.geojson")
 io.open(_mkyol, "w", encoding="utf-8").write(json.dumps(
     {"type": "FeatureCollection", "features": [
         {"type": "Feature", "properties": {"kaynak": "uret_petek.py",
@@ -3799,7 +4114,13 @@ _KUS_IX = [i for i in range(len(PETEK_D))
 _KUS_AGAC = STRtree([PETEK_D[i] for i in _KUS_IX])
 # ⚠️ TAMPON BİR KEZ — ölçüm betiğimde bu döngü İÇİNDEYDİ ve 35 epok × 12
 # boşluk = 420 kez tam kıyı çizgisini tamponluyordu: bad allocation.
-_KIYI_TAMPON = KARA.boundary.buffer(0.01)
+_K1_KIYI = _ONB.anahtar("k1_kiyi", _onb_oz(KARA))
+_k1v, _KIYI_TAMPON = _ONB.oku("k1", _K1_KIYI)
+if not _k1v:
+    _KIYI_TAMPON = KARA.boundary.buffer(0.01)
+    _ONB.yaz("k1", _K1_KIYI, _KIYI_TAMPON)
+_ONB_KUS_TUZ = _hlo.sha256(shapely.to_wkb(_KIYI_TAMPON, output_dimension=2)).digest()
+_KUS_KARAR = {}      # 🧱 koşu içi kuşatılmışlık kararları (anahtar → bool)
 
 # 🔴 PETEK_D MÜHRÜ — `_IC_ONBELLEK`in geçerlilik şartının ÖLÇÜLMESİ.
 # Önbellek "PETEK_D bu noktadan sonra değişmez" varsayımına dayanıyor. Bu
@@ -3965,6 +4286,45 @@ def _kusatilmis(g):
         c = PETEK_D[i]
         if c is None or c.is_empty:
             continue
+        if _ONB.acik:
+            # 🧱 ÖNBELLEK (M-4537): karar YALNIZ şunlara bağlı — bu peteğin WKB'si,
+            # o gün CANLI ve SAHİPLİ komşu peteklerin WKB'leri, kıyı tamponu
+            # (KARA'dan) ve KUSATMA_ESIK (kodda ⇒ tuzda). Aynı komşuluk günden güne
+            # tekrarlandığı için koşu İÇİNDE de büyük kısmı tekrar hesaplanmaz.
+            # Birleşim kanonik (WKB özeti) sırayla — anahtarla aynı sıra.
+            _sj = []
+            for q in _KUS_AGAC.query(_cep(i)):
+                j = _KUS_IX[int(q)]
+                if j == i: continue
+                yj = YERLER[j]
+                if (yj.get("kur") and yj["kur"] > g) or (yj.get("bit") and yj["bit"] <= g):
+                    continue
+                if _sahipli(yj, g):
+                    _sj.append(j)
+            if not _sj:
+                continue
+            _sj.sort(key=lambda j: _onb_oz(PETEK_D[j]))
+            _kk = _ONB.anahtar("kusat", _ONB_KUS_TUZ, _onb_oz(c),
+                               *[_onb_oz(PETEK_D[j]) for j in _sj])
+            _kv = _KUS_KARAR.get(_kk)
+            if _kv is None:
+                _kvar, _kv = _ONB.oku("kusat", _kk)
+                if not _kvar:
+                    _kv = False
+                    ic = _ic_kara(i)
+                    if ic.length > 1e-9:
+                        try:
+                            ort = ic.intersection(
+                                unary_union([PETEK_D[j] for j in _sj]).buffer(0.002))
+                            _kv = bool(not ort.is_empty
+                                       and min(ort.length / ic.length, 1.0) >= KUSATMA_ESIK)
+                        except Exception:
+                            _kv = False
+                    _ONB.yaz("kusat", _kk, _kv)
+                _KUS_KARAR[_kk] = _kv
+            if _kv:
+                out.add(i)
+            continue
         ic = _ic_kara(i)
         if ic.length <= 1e-9:
             continue                      # tamamen kıyı — karar verilemez
@@ -3992,15 +4352,30 @@ def _kusatilmis(g):
     return _KUS_ONBELLEK[g]
 
 
+_DEVIR_EZBER = {}
+
+
 def devir_kumesi(g):
     """g tarihinde SAHNEDE OLMAYAN ve peteği devredilecek yerleşimler:
     (a) veride SAHİBİ YAZILI olanlar, (b) sahibi yazılmamış ama kara
     komşuluğunun ≥%90'ı tek bir sahibe ait olanlar (bkz. yukarıdaki blok)."""
+    # 🔴 GÜN BAŞINA EZBER — M-4537 profili (19 Eylül 2026, kutu 26-50D 34-44K,
+    # yürüyüş kapalı, sıralı yol, cProfile): bu işlev 274.117 kez çağrılıyordu
+    # ve her çağrıda 3808 yerleşimin TAMAMINI tarıyordu — aşamanın %47'si
+    # (4.429 sn / 9.440). Sebep: `petek_epok(a)` gövde birleşiminin liste
+    # kavrayışında PARÇA BAŞINA çağrılıyor ve kendi önbelleğine bakmadan önce
+    # bunu hesaplıyor. Sonuç yalnız `g`ye bağlı (YERLER koşu boyunca sabit,
+    # `_kusatilmis` zaten gün başına ezberli) ⇒ ezber KESİN güvenli.
+    v = _DEVIR_EZBER.get(g)
+    if v is not None:
+        return v
     yazili = frozenset(
         i for i, y in enumerate(YERLER)
         if ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g))
         and _sahipli(y, g))
-    return yazili | _kusatilmis(g)
+    v = yazili | _kusatilmis(g)
+    _DEVIR_EZBER[g] = v
+    return v
 
 
 # ---------------- SERBEST KENAR — sahipli ↔ SAHİPSİZ sınırı ----------------
@@ -4723,6 +5098,7 @@ _bj += ("window.URETIM_IZI = "
                      separators=(",", ":"), sort_keys=True) + ";\n")
 _muhru_dogrula("data/bolgeler.js")
 girdi.izi_dogrula(_GIRDI_IZI, "data/bolgeler.js")
+if _ISCI_NO is not None: _byol = os.path.join(_SUREC_DIZIN, f"bolgeler_{_ISCI_NO}.js")
 open(_byol, "w", encoding="utf-8").write(_bj)
 print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//1024} KB)")
 
@@ -5047,6 +5423,79 @@ def _col_icinde(j):
     return v
 
 
+_DOLGU_SINA = [0, 0]      # MOTOR_DOLGU_YOL=sina: [sınanan satır, puanı FARKLI satır]
+
+
+def _dolgu_satir_puan(bos_ix, sahip_ix, sahip_kim):
+    """Her boş aday satırı için {devlet: puan} — tam matrisle KESİN aynı sonuç
+    (gerekçe `_dolgu_kumesi` içindeki SATIR YOLU başlığında)."""
+    import numpy as _np4
+    bla = _np4.array([YERLER[j]["lat"] for j in bos_ix])
+    blo = _np4.array([YERLER[j]["lon"] for j in bos_ix])
+    sla = _np4.array([YERLER[j]["lat"] for j in sahip_ix])
+    slo = _np4.array([YERLER[j]["lon"] for j in sahip_ix])
+    gen = 360.0 / ORTME_DILIM_SAYISI
+    km_sin = PUAN_HALKA[-1][0]
+    yr = bool(MOTOR_YURUYUS and _YR_PUAN_SAAT)
+    yr_sin = YURUYUS_PUAN_HALKA[-1][0]
+    sut = {j: c for c, j in enumerate(sahip_ix)} if yr else None
+    dlat = km_sin / 110.574 * 1.001 + 1e-6
+    out = []
+    for r, j in enumerate(bos_ix):
+        b_la, b_lo = bla[r], blo[r]
+        W = _YR_PUAN_SAAT.get(j) if yr else None
+        if W is not None:
+            ch = {}
+            for sx, hh in W.items():
+                c = sut.get(sx)
+                if c is not None and hh < yr_sin:
+                    ch[c] = hh
+            if not ch:
+                out.append({})
+                continue
+            idx = _np4.array(sorted(ch), dtype=_np4.intp)
+            mm = _np4.array([ch[c] for c in idx.tolist()], dtype=float)
+            co = _np4.cos(_np4.radians((b_la + sla[idx]) / 2))
+            dy = (sla[idx] - b_la) * 110.574
+            dx = (slo[idx] - b_lo) * 111.320 * co
+            halka = YURUYUS_PUAN_HALKA
+        else:
+            cmin = math.cos(math.radians(min(89.999, abs(float(b_la)) + dlat)))
+            lonlim = km_sin / (111.320 * max(cmin, 1e-9)) * 1.001 + 1e-6
+            idx = _np4.flatnonzero((_np4.abs(sla - b_la) <= dlat) & (_np4.abs(slo - b_lo) <= lonlim))
+            if idx.size == 0:
+                out.append({})
+                continue
+            co = _np4.cos(_np4.radians((b_la + sla[idx]) / 2))
+            dy = (sla[idx] - b_la) * 110.574
+            dx = (slo[idx] - b_lo) * 111.320 * co
+            mm = _np4.sqrt(dx ** 2 + dy ** 2)
+            s = mm < km_sin
+            if not s.any():
+                out.append({})
+                continue
+            idx, dx, dy, mm = idx[s], dx[s], dy[s], mm[s]
+            halka = PUAN_HALKA
+        ang = (_np4.degrees(_np4.arctan2(dx, dy)) + 360.0) % 360.0
+        dil = (ang // gen).astype(int)
+        pu = {}
+        for d in _np4.unique(dil).tolist():
+            ss = _np4.flatnonzero(dil == d)
+            b = int(ss[int(_np4.argmin(mm[ss]))])
+            m = float(mm[b])
+            once, k = 0.0, 0
+            for e, p in halka:
+                if once <= m < e:
+                    k = p
+                    break
+                once = e
+            if k:
+                kk = sahip_kim[int(idx[b])]
+                pu[kk] = pu.get(kk, 0) + k
+        out.append(pu)
+    return out
+
+
 def _dolgu_kumesi(a):
     """`a` gününde sahipsiz peteklerden hangisi hangi devlete katılır.
 
@@ -5139,89 +5588,145 @@ def _dolgu_kumesi(a):
     if not bos_ix or not sahip_ix:
         _DOLGU_ONBELLEK[a] = {}
         return {}
-    bla = _np3.array([YERLER[j]["lat"] for j in bos_ix])
-    blo = _np3.array([YERLER[j]["lon"] for j in bos_ix])
-    sla = _np3.array([YERLER[j]["lat"] for j in sahip_ix])
-    slo = _np3.array([YERLER[j]["lon"] for j in sahip_ix])
-    _co = _np3.cos(_np3.radians((bla[:, None] + sla[None, :]) / 2))
-    _dy = (sla[None, :] - bla[:, None]) * 110.574
-    _dx = (slo[None, :] - blo[:, None]) * 111.320 * _co
-    _m = _np3.sqrt(_dx ** 2 + _dy ** 2)
-    _k = _np3.zeros(_m.shape, dtype="int16")
-    # 🚶 MOTOR_YURUYUS: saat matrisi olan satırlar yürüyüş saatiyle puanlanır
-    _yr_satir = None
-    if MOTOR_YURUYUS and _YR_PUAN_SAAT:
-        _yr_sa = _np3.full(_m.shape, _np3.inf)
-        _yr_satir = _np3.zeros(len(bos_ix), dtype=bool)
-        _yr_sut = {j: c for c, j in enumerate(sahip_ix)}
-        for _r, _j in enumerate(bos_ix):
-            _W = _YR_PUAN_SAAT.get(_j)
-            if _W is None:
-                continue
-            _yr_satir[_r] = True
-            for _sx, _hh in _W.items():
-                _c = _yr_sut.get(_sx)
-                if _c is not None:
-                    _yr_sa[_r, _c] = _hh
-    _once = 0.0
-    for _e, _pu in PUAN_HALKA:
-        _k[(_m >= _once) & (_m < _e)] = _pu
-        _once = _e
-    if _yr_satir is not None and _yr_satir.any():
-        _yr_ks = _np3.zeros(_m.shape, dtype="int16")
+    # 🧱 ÖNBELLEK (M-4537): günün sonucu YALNIZ şunlardan hesaplanır — sahip
+    # listesi (indeks sırasıyla: kim + konum), boş aday listesi (konum + yürüyüş
+    # saat satırı, sütunları sahip SIRASIYLA), aday noktanın çölde olup olmadığı
+    # (COL özeti + konum) ve kodda duran halka/dilim/eşik sabitleri (tuzda).
+    # Değer satır KONUMUYLA saklanır (indeks değil) ⇒ yerleşim eklenip indeksler
+    # kaysa da anahtar aynıysa sonuç doğru indekslere geri çevrilir.
+    # ⚠️ İsabet halinde _DOLGU_SAYAC'ın petek/çekişme/çöl sayaçları ARTMAZ (rapor).
+    _dk = None
+    if _ONB.acik:
+        _sp = {j: c for c, j in enumerate(sahip_ix)}
+        _yrp = []
+        for j in bos_ix:
+            _W = _YR_PUAN_SAAT.get(j) if (MOTOR_YURUYUS and _YR_PUAN_SAAT) else None
+            _yrp.append(b"-" if _W is None else repr(sorted(
+                (_sp[_sx], _hh) for _sx, _hh in _W.items() if _sx in _sp)).encode("ascii"))
+        _dk = _ONB.anahtar("dolgu", _ONB_COL_TUZ,
+                           b"".join(k.encode("utf-8") + b"@" + _ONB_KIM[j]
+                                    for j, k in zip(sahip_ix, sahip_kim)),
+                           b"".join(_ONB_KIM[j] + b"|" + r + b"\n" for j, r in zip(bos_ix, _yrp)))
+        _dvar, _dv2 = _ONB.oku("dolgu", _dk)
+        if _dvar:
+            out = {d: frozenset(bos_ix[r] for r in rs) for d, rs in _dv2.items()}
+            _DOLGU_SAYAC["gun"] += 1
+            _DOLGU_ONBELLEK[a] = out
+            return out
+    # ⚡ SATIR YOLU (M-4537, 19 Eylül 2026). Profil: bu işlev dünya koşusunda
+    # 1836 gün × ~1,5 sn (kutuda 2842 sn, aşamanın %30'u) — her gün bos×sahip
+    # (≈1400×2000) TAM matris üzerinde ~50 geçiş. Artımlı koşuda da darboğaz:
+    # yeni bir nokta her günün küresel listesine girdiği için gün önbelleği ıskalar.
+    # Satır yolu yalnız PUAN VEREBİLECEK sütunları hesaplar: km satırında
+    # m < PUAN_HALKA[-1] (400 km), yürüyüş satırında saat < YURUYUS_PUAN_HALKA[-1]
+    # (80 s). NİÇİN KESİN AYNI: (1) uzak sütun _k'ya 0 katar; (2) bir dilimin en
+    # yakını uzaksa o dilimdeki herkes uzaktır (katkı 0); yakınsa en yakın ve ona
+    # EŞİT olanların hepsi adaydır ⇒ argmin'in "ilk sütun" seçimi aynı kalır
+    # (adaylar sütun sırasını korur); (3) öğe formülleri AYNI ((s-b)·110,574 ·
+    # cos(radyan((b+s)/2)) …) ve numpy öğe işlevlerinin sonucu dizideki konuma
+    # bağlı değil — bu makinede (AVX2) ölçüldü: 0 bit farkı (scratchpad
+    # numpy_konum.py). Yeni makinede `MOTOR_DOLGU_YOL=sina` ile yeniden sınanır:
+    # iki yolu birden hesaplar, satır satır puan farkını SAYAR, eskiyi kullanır.
+    _dolgu_yol = os.environ.get("MOTOR_DOLGU_YOL", "satir")
+    _satir_puan = None
+    if _dolgu_yol != "tam":
+        _satir_puan = _dolgu_satir_puan(bos_ix, sahip_ix, sahip_kim)
+    if _dolgu_yol in ("tam", "sina"):
+        bla = _np3.array([YERLER[j]["lat"] for j in bos_ix])
+        blo = _np3.array([YERLER[j]["lon"] for j in bos_ix])
+        sla = _np3.array([YERLER[j]["lat"] for j in sahip_ix])
+        slo = _np3.array([YERLER[j]["lon"] for j in sahip_ix])
+        _co = _np3.cos(_np3.radians((bla[:, None] + sla[None, :]) / 2))
+        _dy = (sla[None, :] - bla[:, None]) * 110.574
+        _dx = (slo[None, :] - blo[:, None]) * 111.320 * _co
+        _m = _np3.sqrt(_dx ** 2 + _dy ** 2)
+        _k = _np3.zeros(_m.shape, dtype="int16")
+        # 🚶 MOTOR_YURUYUS: saat matrisi olan satırlar yürüyüş saatiyle puanlanır
+        _yr_satir = None
+        if MOTOR_YURUYUS and _YR_PUAN_SAAT:
+            _yr_sa = _np3.full(_m.shape, _np3.inf)
+            _yr_satir = _np3.zeros(len(bos_ix), dtype=bool)
+            _yr_sut = {j: c for c, j in enumerate(sahip_ix)}
+            for _r, _j in enumerate(bos_ix):
+                _W = _YR_PUAN_SAAT.get(_j)
+                if _W is None:
+                    continue
+                _yr_satir[_r] = True
+                for _sx, _hh in _W.items():
+                    _c = _yr_sut.get(_sx)
+                    if _c is not None:
+                        _yr_sa[_r, _c] = _hh
         _once = 0.0
-        for _e, _pu in YURUYUS_PUAN_HALKA:
-            _yr_ks[(_yr_sa >= _once) & (_yr_sa < _e)] = _pu
+        for _e, _pu in PUAN_HALKA:
+            _k[(_m >= _once) & (_m < _e)] = _pu
             _once = _e
-        _k = _np3.where(_yr_satir[:, None], _yr_ks, _k)
-        _m = _np3.where(_yr_satir[:, None], _yr_sa, _m)     # örtmede "yakın" = saat
-    # 🔴 ÖRTME (occlusion, Emre 20-21 Ağustos 2026 — bkz ORTME_DILIM_SAYISI
-    # tanımı yukarıda). Çevre dilimlere bölünür, her dilimde YALNIZ EN YAKIN
-    # sahip nokta puan verir — devleti ne olursa olsun. Ölçüldü
-    # (denetim/ongoru_ortme.py karnesi): dördüncü sınıfta kapanabilir
-    # petek-gün ~%4-7 düşüyor, Nâsıriye vakası (OSMANLI 41 · safevi 18) sonuç
-    # DEĞİŞTİRMİYOR (örtme sonrası 24-4, hâlâ OSMANLI).
-    _ang = (_np3.degrees(_np3.arctan2(_dx, _dy)) + 360.0) % 360.0
-    _genislik = 360.0 / ORTME_DILIM_SAYISI
-    _dilim = (_ang // _genislik).astype(int)
-    _keep = _np3.zeros(_m.shape, dtype=bool)
-    _nrow = _np3.arange(_m.shape[0])
-    for _d in range(ORTME_DILIM_SAYISI):
-        _mask_d = (_dilim == _d)
-        if not _mask_d.any():
-            continue
-        _m_masked = _np3.where(_mask_d, _m, _np3.inf)
-        _best_j = _m_masked.argmin(axis=1)
-        _has_any = _mask_d.any(axis=1)
-        _keep[_nrow[_has_any], _best_j[_has_any]] = True
-    _k = _np3.where(_keep, _k, 0)
-    devletler = sorted(set(sahip_kim))
-    dizin = {d: [i for i, k in enumerate(sahip_kim) if k == d]
-             for d in devletler}
-    puanlar = _np3.zeros((len(bos_ix), len(devletler)), dtype="int32")
-    for di, d in enumerate(devletler):
-        puanlar[:, di] = _k[:, dizin[d]].sum(axis=1)
+        if _yr_satir is not None and _yr_satir.any():
+            _yr_ks = _np3.zeros(_m.shape, dtype="int16")
+            _once = 0.0
+            for _e, _pu in YURUYUS_PUAN_HALKA:
+                _yr_ks[(_yr_sa >= _once) & (_yr_sa < _e)] = _pu
+                _once = _e
+            _k = _np3.where(_yr_satir[:, None], _yr_ks, _k)
+            _m = _np3.where(_yr_satir[:, None], _yr_sa, _m)     # örtmede "yakın" = saat
+        # 🔴 ÖRTME (occlusion, Emre 20-21 Ağustos 2026 — bkz ORTME_DILIM_SAYISI
+        # tanımı yukarıda). Çevre dilimlere bölünür, her dilimde YALNIZ EN YAKIN
+        # sahip nokta puan verir — devleti ne olursa olsun. Ölçüldü
+        # (denetim/ongoru_ortme.py karnesi): dördüncü sınıfta kapanabilir
+        # petek-gün ~%4-7 düşüyor, Nâsıriye vakası (OSMANLI 41 · safevi 18) sonuç
+        # DEĞİŞTİRMİYOR (örtme sonrası 24-4, hâlâ OSMANLI).
+        _ang = (_np3.degrees(_np3.arctan2(_dx, _dy)) + 360.0) % 360.0
+        _genislik = 360.0 / ORTME_DILIM_SAYISI
+        _dilim = (_ang // _genislik).astype(int)
+        _keep = _np3.zeros(_m.shape, dtype=bool)
+        _nrow = _np3.arange(_m.shape[0])
+        for _d in range(ORTME_DILIM_SAYISI):
+            _mask_d = (_dilim == _d)
+            if not _mask_d.any():
+                continue
+            _m_masked = _np3.where(_mask_d, _m, _np3.inf)
+            _best_j = _m_masked.argmin(axis=1)
+            _has_any = _mask_d.any(axis=1)
+            _keep[_nrow[_has_any], _best_j[_has_any]] = True
+        _k = _np3.where(_keep, _k, 0)
+        devletler = sorted(set(sahip_kim))
+        dizin = {d: [i for i, k in enumerate(sahip_kim) if k == d]
+                 for d in devletler}
+        puanlar = _np3.zeros((len(bos_ix), len(devletler)), dtype="int32")
+        for di, d in enumerate(devletler):
+            puanlar[:, di] = _k[:, dizin[d]].sum(axis=1)
+        _tam_puan = [{devletler[di]: int(puanlar[bi, di])
+                      for di in _np3.flatnonzero(puanlar[bi]).tolist()}
+                     for bi in range(len(bos_ix))]
+        if _dolgu_yol == "sina":
+            _DOLGU_SINA[0] += len(bos_ix)
+            _DOLGU_SINA[1] += sum(1 for _x, _y in zip(_tam_puan, _satir_puan) if _x != _y)
+        _satir_puan = _tam_puan
     out = {}
-    en = puanlar.max(axis=1)
     for bi, j in enumerate(bos_ix):
+        _pu = _satir_puan[bi]
+        _en = max(_pu.values()) if _pu else 0
         # ÇÖLDE EŞİK 8, dışarıda 4 — gerekçe COL_PUAN_ESIK başlığında.
         # 🔴 SAYAÇ ŞART: sessizce eleyen bir kural, çalıştığı bilinmeyen
         #    kuraldır. Kaç petek çöl eşiğine takıldığı koşuda BASILIR.
         _colde = _col_icinde(j)
         _esik = COL_PUAN_ESIK if _colde else PUAN_ESIK
-        if en[bi] < _esik:
-            if _colde and en[bi] >= PUAN_ESIK:
+        if _en < _esik:
+            if _colde and _en >= PUAN_ESIK:
                 _DOLGU_SAYAC["col_dusen"] += 1      # 4'ü geçerdi, 8'e takıldı
             continue
         if _colde:
             _DOLGU_SAYAC["col_gecen"] += 1
-        kazananlar = [devletler[di] for di in range(len(devletler))
-                      if puanlar[bi, di] == en[bi]]
+        # eski: devletler (sıralı) içinde puanı en'e eşit olanlar; en ≥ eşik > 0
+        # olduğundan yalnız puanı olanlar aday ⇒ sorted(_pu) aynı sırayı verir
+        kazananlar = [d for d in sorted(_pu) if _pu[d] == _en]
         if len(kazananlar) != 1:            # çekişme → katılmaz
             _DOLGU_SAYAC["cekismeli"] += 1
             continue
         out.setdefault(kazananlar[0], []).append(j)
         _DOLGU_SAYAC["petek"] += 1
+    if _dk is not None:
+        _bpos = {j: r for r, j in enumerate(bos_ix)}
+        _ONB.yaz("dolgu", _dk, {d: [_bpos[j] for j in v] for d, v in out.items()})
     out = {d: frozenset(v) for d, v in out.items()}
     _DOLGU_SAYAC["gun"] += 1
     _DOLGU_ONBELLEK[a] = out
@@ -5251,7 +5756,8 @@ if MOTOR_YURUYUS and _YR_SAHIP is not None:
                     or y.get("kur") or y.get("bit"))]
     _yr_tav = YURUYUS_PUAN_HALKA[-1][0] * NEHIR_KM_SAAT
     _yr_disari = 0
-    for _j in _yr_aday:
+    for _yk, _j in enumerate(_yr_aday, 1):
+        nabiz(f"saat matrisi aday {_yk}/{len(_yr_aday)}")
         _h = _yr_th.get(_j)
         if _h is None:
             _yr_disari += 1
@@ -5361,6 +5867,97 @@ print(f"  ETA ağırlığı hazır: {_DV_KUM[-1]:,} hücre-birleşimi bekleniyor
 # (`PARALEL-BAGIMLILIK-0910.md §①D`, ölçüldü), yani kayıp bir hash
 # farkı YARATMAZ; yine de FAZ 2'de ÖZGÜN sırayla eklemek belirlenimi
 # ucuza garanti eder ve tasarımın §⑥④'ü tam olarak bunu istiyor.
+_ONB_GOVDE_TUZ = _hlo.sha256(shapely.to_wkb(KARA, output_dimension=2)).digest()
+def _yabanci_govde_hesap(did, aktif, a, sira):
+    """Bir devletin bir dönemdeki gövdesi (FAZ 1'in geometri çekirdeği, M-4537'de
+    işleve alındı — gövdesi DEĞİŞMEDİ, yalnız birleşim sırası `sira`dan gelir).
+    Döner: (g, kesilen_km2, tamamen_bosaldi)."""
+    g = unary_union([petek_epok(a)[j] for j in sira])
+    # B1 ikinci yasagi: bu devletin OLMAYAN yerlesimini iceren halka DOLMAZ
+    g = delikleri_doldur(kapat(g), sahip_ix=aktif)
+    g = gosterim_duzelt(g, aktif)      # B2 enklav + B3 koridor
+    # Sadeleştirme örtü üzerinde ÖNCEDEN yapıldı (coverage_simplify); gövde
+    # başına simplify ve "tolerans/2 dışa taşırma" hilesi kaldırıldı — komşu
+    # devletlerin paylaştığı kenar artık birebir aynı koordinatlardan geçer,
+    # kılcal boşluk da bindirme de üretilmez. Kıyı EN SON kesilir: deniz
+    # sınırı doğrudan KARA maskesinden gelir, girinti-çıkıntıya birebir oturur.
+    g = poligonal(g.intersection(KARA))
+    # ---- PUANLAMA KAPISI: "burası kimsenin mi?" --------------------------
+    # Gövde çizildikten SONRA kesiliyor, çünkü kapı sahipliği değil
+    # BOYANMAYI sınırlıyor: petek kime aitse ona ait kalır, yalnız
+    # 4 puana ulaşmayan kısmı boyanmaz.
+    _kesilen, _tamamen = 0.0, 0
+    if not PUAN_KAPALI and not g.is_empty:
+        _pb = _puan_bolgesi(did, aktif, a)
+        _onceki_alan = _ham_km2(g)
+        g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
+        _kesilen = max(0.0, _onceki_alan - _ham_km2(g))
+        if g.is_empty:
+            _tamamen = 1
+    return g, _kesilen, _tamamen
+
+
+def _onb_ozet(g):
+    """Geçici (ezberlenmeyen) geometrinin içerik özeti — büyük, tek kullanımlık
+    nesneler (Osmanlı kaplamı) `_ONB_OZ`'da biriktirilmesin diye."""
+    return _hlo.sha256(b"BOS" if g is None or g.is_empty
+                       else shapely.to_wkb(g, output_dimension=2)).digest()
+
+
+def _onb_parca_anahtar(katman, gruplar, aktif, pe):
+    """Gövde türü hesapların (yabancı gövde · Osmanlı dönemi) önbellek anahtarı.
+
+    Anahtar = tuz · KARA özeti · her parça GRUBU (yerleşim konumu + petek WKB,
+    kanonik sırada) · ÇEVRE: bütün parçaların sınır kutusu R derece
+    genişletilerek içinde kalan BÜTÜN yerleşimler (indeks sırasıyla; konum ·
+    kasitli_bosluk · bos · `aktif`te mi).
+    Döner: (anahtar, [kanonik sıralı grup indeksleri …]).
+    R NİÇİN YETER (hesabın en uzağa uzanan okuması B2'nin `_TUM_AGAC.nearest`):
+      bant ucu n1 gövde sınırında ⇒ bir parçaya ≤0,15° (kapat yarıçapı);
+      bant ≤250 km (B2_ENKLAV_KM) ⇒ derece uzayında ≤ `hat` (en yüksek enlemde);
+      parçanın sahibi noktası parçanın kutusuna ≤ dmax ⇒ en yakın yerleşim
+      ≤ hat + 0,15 + dmax. B2 bandı ≤3° geniş, B3 kapaması 0,45°·4 kutu — hepsi
+      R'nin içinde. Tarih anahtara GİRMEZ: `_puan_bolgesi` günü okumuyor.
+    """
+    x0 = y0 = math.inf
+    x1 = y1 = -math.inf
+    dmax = 0.0
+    parca, siralar = [], []
+    for grup in gruplar:
+        sira = sorted(grup, key=lambda j: (_ONB_KIM[j], _onb_oz(pe[j])))
+        siralar.append(sira)
+        parca.append(b"#GRUP#")
+        for j in sira:
+            gj = pe[j]
+            parca.append(_ONB_KIM[j] + _onb_oz(gj))
+            if gj is None or gj.is_empty:
+                continue
+            bx0, by0, bx1, by1 = gj.bounds
+            x0, y0, x1, y1 = min(x0, bx0), min(y0, by0), max(x1, bx1), max(y1, by1)
+            px, py = YERLER[j]["lon"], YERLER[j]["lat"]
+            for cx in (bx0, bx1):
+                for cy in (by0, by1):
+                    dmax = max(dmax, math.hypot(cx - px, cy - py))
+    if x0 == math.inf:
+        cevre = b"-"
+    else:
+        lat_max = min(89.0, max(abs(y0), abs(y1)) + 1.0)
+        hat = math.hypot(250.0 / (111.32 * max(0.15, math.cos(math.radians(lat_max)))),
+                         250.0 / 110.574)
+        R = max(hat + 0.15 + dmax, hat + 3.15, 0.45 * 4 + 0.15) + 0.5
+        aks = aktif if isinstance(aktif, (set, frozenset)) else set(aktif)
+        q = sorted(int(t) for t in _TUM_AGAC.query(box(x0 - R, y0 - R, x1 + R, y1 + R)))
+        cevre = b"".join(_ONB_KIM[t] + bytes((_ONB_KB[t], _ONB_BOS[t], 1 if t in aks else 0))
+                         for t in q)
+    return _ONB.anahtar(katman, _ONB_GOVDE_TUZ, cevre, *parca), siralar
+
+
+def _govde_anahtar(aktif, a):
+    """Yabancı gövde önbelleğinin anahtarı + kanonik birleşim sırası."""
+    k, (sira,) = _onb_parca_anahtar("govde", [aktif], aktif, petek_epok(a))
+    return k, sira
+
+
 def _yabanci_devlet_faz1(_arg):
     _i, (did, (dad, renk)) = _arg
     hj = [j for j, y in enumerate(YERLER) if any(sp["d"] == did for sp in y["s"])]
@@ -5378,6 +5975,7 @@ def _yabanci_devlet_faz1(_arg):
     ham = []; tani = []; onceki = None
     for i in range(len(ts) - 1):
         a, b = ts[i], ts[i+1]
+        nabiz(f"devlet {_i}/{len(BOYALAR)} {did} · gün {i+1}/{len(ts)-1} ({a})")
         # kur:/bit: — henüz kurulmamış (ya da yok olmuş) nokta o tarihte devletin
         # gövdesine KATILMAZ; peteği de petek_epok() ile komşusuna devredilmiştir.
         _dv = devir_kumesi(a)
@@ -5402,35 +6000,29 @@ def _yabanci_devlet_faz1(_arg):
         onceki = aktif
         if not aktif: continue
         _t_gv = time.time()
-        g = unary_union([petek_epok(a)[j] for j in aktif])
-        # B1 ikinci yasagi: bu devletin OLMAYAN yerlesimini iceren halka DOLMAZ
-        g = delikleri_doldur(kapat(g), sahip_ix=aktif)
-        g = gosterim_duzelt(g, aktif)      # B2 enklav + B3 koridor
-        # Sadeleştirme örtü üzerinde ÖNCEDEN yapıldı (coverage_simplify); gövde
-        # başına simplify ve "tolerans/2 dışa taşırma" hilesi kaldırıldı — komşu
-        # devletlerin paylaştığı kenar artık birebir aynı koordinatlardan geçer,
-        # kılcal boşluk da bindirme de üretilmez. Kıyı EN SON kesilir: deniz
-        # sınırı doğrudan KARA maskesinden gelir, girinti-çıkıntıya birebir oturur.
-        g = poligonal(g.intersection(KARA))
-        # ---- PUANLAMA KAPISI: "burası kimsenin mi?" --------------------------
-        # Gövde çizildikten SONRA kesiliyor, çünkü kapı sahipliği değil
-        # BOYANMAYI sınırlıyor: petek kime aitse ona ait kalır, yalnız
-        # 4 puana ulaşmayan kısmı boyanmaz.
-        _kesilen, _tamamen = 0.0, 0
-        if not PUAN_KAPALI and not g.is_empty:
-            _pb = _puan_bolgesi(did, aktif, a)
-            _onceki_alan = _ham_km2(g)
-            g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
-            _kesilen = max(0.0, _onceki_alan - _ham_km2(g))
+        # 🧱 ÖNBELLEK (M-4537): anahtar = gövde hesabının OKUDUĞU her şey (bkz.
+        # `_govde_anahtar`). Önbellek AÇIKKEN petekler KANONİK sırayla birleşir
+        # (yerleşim konumu + WKB özeti) — frozenset sırası indekse bağlı ve bir
+        # yerleşim eklenince kayar; kanonik sıra "sıfırdan" ile "önbellekten"
+        # sonucun bit-bit aynı olmasını YAPISAL olarak güvenceye alır.
+        _onb_k, _sira = _govde_anahtar(aktif, a) if _ONB.acik else (None, aktif)
+        _onb_var, _onb_v = _ONB.oku("govde", _onb_k) if _onb_k else (False, None)
+        if _onb_var:
+            _mp, _c, _kesilen, _tamamen = _onb_v
+        else:
+            g, _kesilen, _tamamen = _yabanci_govde_hesap(did, aktif, a, _sira)
             if g.is_empty:
-                _tamamen = 1
+                _mp = _c = None
+            else:
+                rp = g.representative_point()
+                _mp, _c = mp_koord(g), [round(rp.x, 2), round(rp.y, 2)]
+            if _onb_k:
+                _ONB.yaz("govde", _onb_k, (_mp, _c, _kesilen, _tamamen))
         _sure = time.time() - _t_gv
-        if g.is_empty:
+        if _mp is None:
             tani.append((_sure, _kesilen, _tamamen))
             continue
-        rp = g.representative_point()
-        ham.append({"f": a, "t": b, "mp": mp_koord(g),
-                    "c": [round(rp.x, 2), round(rp.y, 2)]})
+        ham.append({"f": a, "t": b, "mp": _mp, "c": _c})
         # ⚠️ Alan HER gövde için hesaplanıyor: uzama sonradan olduğu için "bu
         # dönem kesiti kapsıyor mu" sorusu yaratılış anında cevaplanamaz.
         tani.append((_sure, _kesilen, _tamamen))
@@ -5438,7 +6030,177 @@ def _yabanci_devlet_faz1(_arg):
 
 
 _MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))
-if os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
+_SR_SONUC_DIZIN = None
+if _SUREC_YOLU:
+    # ---- SÜREÇ YOLU (M-4533) — FAZ 1 süreçlere bölünür, FAZ 2 AYNEN ------
+    # Her süreç KENDİ payının FAZ 1 sonucunu `s_<sıra>.pkl` olarak diske
+    # yazar (bellekte biriktirmez — B2). Ana süreç FAZ 2'yi ÖZGÜN devlet
+    # sırasıyla, aşağıdaki paralel yolla BİREBİR aynı gövdeyle yürütür ⇒
+    # `havuza()` çağrı dizisi DEĞİŞMEZ.
+    import pickle as _pk, hashlib as _hl
+    from concurrent.futures import ThreadPoolExecutor as _TPE
+
+    def _sr_iz():
+        _h = _hl.sha256()
+        _h.update(json.dumps([YERLER, list(BOYALAR.items())], sort_keys=True, ensure_ascii=False,
+                             default=lambda o: sorted(o) if isinstance(o, (set, frozenset)) else str(o)
+                             ).encode("utf-8"))
+        for _g in PETEK_D:
+            _h.update(b"|" if _g is None else shapely.to_wkb(_g, output_dimension=2))
+        if MOTOR_YURUYUS and _YR_SAHIP is not None:
+            _h.update(_YR_SAHIP.tobytes())
+        _h.update(repr((DOLGU_ACIK, PUAN_KAPALI, MOTOR_YURUYUS, YURUYUS_16,
+                        sorted(_YR_PUAN_SAAT.items()) if _YR_PUAN_SAAT else None,
+                        _MOTOR_IZI)).encode("utf-8"))
+        return _h.hexdigest()
+    _SR_IZ = _sr_iz()
+    _sr_is = list(enumerate(BOYALAR.items(), 1))
+    # LPT: en ağır devlet en hafif kovaya (ağırlık = ETA'nın hücre-birleşimi)
+    _sr_yuk = [0] * _SUREC_ISCI
+    _sr_sahip = {}
+    for _k in sorted(range(len(_sr_is)),
+                     key=lambda k: (-(_DV_KUM[k + 1] - _DV_KUM[k]), k)):
+        _b = min(range(_SUREC_ISCI), key=lambda b: (_sr_yuk[b], b))
+        _sr_sahip[_sr_is[_k][0]] = _b
+        _sr_yuk[_b] += (_DV_KUM[_k + 1] - _DV_KUM[_k]) + 1
+
+    if _DEVAM:
+        _SR_SONUC_DIZIN = os.path.join(
+            os.environ.get("MOTOR_DEVAM_DIZIN")
+            or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "_petek_devam"),
+            _SR_IZ[:16])
+        os.makedirs(_SR_SONUC_DIZIN, exist_ok=True)
+    else:
+        _SR_SONUC_DIZIN = _SUREC_DIZIN
+
+    def _sr_yol(idx):
+        return os.path.join(_SR_SONUC_DIZIN, f"s_{idx:05d}.pkl")
+    if _DEVAM and _ISCI_NO is None:
+        _sr_hazir = sum(1 for a in _sr_is if os.path.exists(_sr_yol(a[0])))
+        print(f"  ♻️ DEVAM: {_SR_SONUC_DIZIN} · diskte HAZIR devlet {_sr_hazir}/{len(_sr_is)}")
+
+    def _sr_yaz(arg):
+        if _DEVAM and os.path.exists(_sr_yol(arg[0])):
+            return                    # önceki koşudan hazır (iz-anahtarlı dizin)
+        _r = _yabanci_devlet_faz1(arg)
+        _y = _sr_yol(arg[0])
+        with open(_y + ".tmp", "wb") as _f:
+            _pk.dump((_SR_IZ, _r), _f, protocol=4)
+        os.replace(_y + ".tmp", _y)
+
+    def _sr_sayac_al():
+        return {"b23": dict(_B23_SAYAC), "kb": dict(_KB_MUAF), "b3": len(_B3_KALAN_IHLAL),
+                "b1": {k: (set(v) if isinstance(v, set) else v) for k, v in _B1_SAYAC.items()},
+                "vp": set(_VARLIK_PAY), "sy": {k: list(v) for k, v in _SAYAC.items()}}
+    _sr_benim = [a for a in _sr_is if _sr_sahip[a[0]] == int(_ISCI_NO or 0)]
+    print(f"  [SÜREÇ] {len(_sr_benim)}/{len(_sr_is)} devlet bu süreçte · "
+          f"yük payı %{100.0 * _sr_yuk[int(_ISCI_NO or 0)] / max(1, sum(_sr_yuk)):.0f} · "
+          f"iz {_SR_IZ[:12]}")
+    if _ISCI_NO is not None:
+        # ---- İŞÇİ: payını yaz, sayaç farkını bırak, ÇIK --------------------
+        _sr_once = _sr_sayac_al()
+        with _TPE(max_workers=_MOTOR_PARALEL_ISCI) as _ex:
+            for _f in [_ex.submit(_sr_yaz, a) for a in _sr_benim]:
+                _f.result()
+        _sr_son = _sr_sayac_al()
+        _fark = {"b23": {k: v - _sr_once["b23"].get(k, 0) for k, v in _sr_son["b23"].items()},
+                 "kb": {k: v - _sr_once["kb"].get(k, 0) for k, v in _sr_son["kb"].items()
+                        if v - _sr_once["kb"].get(k, 0)},
+                 "b3": list(_B3_KALAN_IHLAL[_sr_once["b3"]:]),
+                 "b1": {k: (v - _sr_once["b1"][k] if not isinstance(v, set) else v - _sr_once["b1"][k])
+                        for k, v in _sr_son["b1"].items()},
+                 "vp": {k: _VARLIK_PAY[k] for k in set(_VARLIK_PAY) - _sr_once["vp"]},
+                 "sy": {k: [v[0] - _sr_once["sy"].get(k, [0, 0.0])[0],
+                            v[1] - _sr_once["sy"].get(k, [0, 0.0])[1]]
+                        for k, v in _sr_son["sy"].items()}}
+        _y = os.path.join(_SUREC_DIZIN, f"sayac_{_ISCI_NO}.pkl")
+        with open(_y + ".tmp", "wb") as _f:
+            _pk.dump(_fark, _f, protocol=4)
+        os.replace(_y + ".tmp", _y)
+        print(f"  [SÜREÇ] işçi {_ISCI_NO} payını bitirdi — çıkıyor")
+        sys.stdout.flush()
+        os._exit(0)
+    # ---- ANA SÜREÇ: kendi payı arka planda, FAZ 2 özgün sırayla ------------
+    _sr_ex = _TPE(max_workers=_MOTOR_PARALEL_ISCI)
+    _sr_fut = {a[0]: _sr_ex.submit(_sr_yaz, a) for a in _sr_benim}
+    _sr_yerel = 0
+    for _sr_idx, (did, (dad, renk)) in _sr_is:
+        _y = _sr_yol(_sr_idx)
+        _s = _sr_sahip[_sr_idx]
+        if _s == 0:
+            try:
+                _sr_fut.pop(_sr_idx).result()
+            except Exception as _e:
+                print(f"  ⚠️ SÜREÇ: devlet {did} ana payında düştü ({type(_e).__name__}) — yeniden")
+        else:
+            while not os.path.exists(_y):
+                if _SUREC_COCUK[_s - 1].poll() is not None:
+                    break
+                nabiz(f"FAZ 2 bekliyor: devlet {_sr_idx}/{len(_sr_is)} {did} (işçi {_s})")
+                time.sleep(1.0)
+        _r = None
+        if os.path.exists(_y):
+            with open(_y, "rb") as _f:
+                _iz, _r = _pk.load(_f)
+            if not _DEVAM:
+                os.remove(_y)
+            if _iz != _SR_IZ:
+                print(f"  ⚠️ SÜREÇ: devlet {did} — işçi {_s} ön aşama izi FARKLI "
+                      f"({_iz[:12]} ≠ {_SR_IZ[:12]}) — sonucu REDDEDİLDİ")
+                _r = None
+        if _r is None:
+            print(f"  ⚠️ SÜREÇ: devlet {did} işçi {_s}'den gelmedi — ana süreç hesaplıyor")
+            _r = _yabanci_devlet_faz1((_sr_idx, (did, (dad, renk))))
+            _sr_yerel += 1
+        did, dad, renk, ham, tani = _r
+        _dv_i = _sr_idx
+        ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
+        for _ts_sure, _kesilen, _tamamen in tani:
+            _PUAN_KESILEN[0] += _kesilen
+            _PUAN_TAMAMEN[0] += _tamamen
+            sayac("yabancı gövde geometrisi", _ts_sure)
+        dnm = []
+        for h in ham:
+            dnm.append({"f": h["f"], "t": h["t"],
+                        "g": havuza(h["mp"], DEV_HALKA, DEV_HALKA_IX,
+                                    DEV_PARCA, DEV_PARCA_IX),
+                        "c": h["c"]})
+        if dnm:
+            DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
+    _sr_ex.shutdown()
+    # işçilerin sayaç farkları (yalnız RAPOR — çıktıya girmez)
+    for _k in range(1, _SUREC_ISCI):
+        _c = _SUREC_COCUK[_k - 1]
+        try:
+            _c.wait(timeout=600)
+        except Exception:
+            pass
+        _y = os.path.join(_SUREC_DIZIN, f"sayac_{_k}.pkl")
+        if not os.path.exists(_y):
+            print(f"  ⚠️ SÜREÇ: işçi {_k} sayaç farkı yok (kod {_c.poll()}) — rapor sayaçları EKSİK")
+            continue
+        with open(_y, "rb") as _f:
+            _fk = _pk.load(_f)
+        for k, v in _fk["b23"].items():
+            _B23_SAYAC[k] = _B23_SAYAC.get(k, 0) + v
+        for k, v in _fk["kb"].items():
+            _KB_MUAF[k] = _KB_MUAF.get(k, 0) + v
+        _B3_KALAN_IHLAL.extend(_fk["b3"])
+        for k, v in _fk["b1"].items():
+            if isinstance(v, set):
+                _B1_SAYAC[k] |= v
+            else:
+                _B1_SAYAC[k] += v
+        for k, v in _fk["vp"].items():
+            _VARLIK_PAY.setdefault(k, v)
+        for k, v in _fk["sy"].items():
+            if v[0] or v[1]:
+                sayac(k, v[1], v[0])
+    print(f"  [SÜREÇ] FAZ 2 bitti · işçiden gelmeyip ana süreçte hesaplanan devlet {_sr_yerel} · "
+          f"işçi çıkış kodları {[c.poll() for c in _SUREC_COCUK]}")
+    print("  ⚠️ SÜREÇ: EKLEYİCİ KAPI gün sayaçları (_DOLGU_SAYAC) yalnız ANA sürecin "
+          "hesapladığı günleri sayar — rapor sayısıdır, çıktıya girmez")
+elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
     # ---- ESKİ YOL — bilerek DOKUNULMADI, bit-denkliğin SINAMA TABANI ------
     # `MOTOR_PARALEL_KAPALI=1` ile açılır. Aşağıdaki gövde, PARALEL
     # UYGULAMA'dan önceki tek-geçişli döngünün BİREBİR AYNISIDIR — ayrı bir
@@ -5460,6 +6222,7 @@ if os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
         dnm = []; onceki = None
         for i in range(len(ts) - 1):
             a, b = ts[i], ts[i+1]
+            nabiz(f"devlet {_dv_i}/{len(BOYALAR)} {did} · gün {i+1}/{len(ts)-1} ({a})")
             _dv = devir_kumesi(a)
             aktif = frozenset(j for j in hj
                               if j not in _dv
@@ -5754,6 +6517,70 @@ def himaye_govdeleri(gruplar, pe, tabi, gt, kodla, sayac=None):
     return out
 
 
+def _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t):
+    """Osmanlı döneminin doğrudan (g) ve tâbi (gt) gövdesi — M-4537'de işleve
+    alındı, gövdesi AYNI; yalnız birleşim sırası `_sira_*`dan gelir (önbellek
+    kapalıyken özgün frozenset sırası). Döner: (g, gt)."""
+    _gt_ham = None
+    if tabi:
+        _gt_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_t])),
+                                             sahip_ix=aktif).intersection(KARA))
+    _g_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in _sira_d])),
+                                        sahip_ix=aktif).intersection(KARA))
+
+    # Osmanlı dünyası TEK gövde olarak düzeltilir; Eflak artık "enklav" değil,
+    # çünkü doğrudan toprağa DEĞİYOR.
+    _birlesik = unary_union([x for x in (_g_ham, _gt_ham) if x is not None and not x.is_empty])
+    _duzelt = gosterim_duzelt(_birlesik, aktif) if not _birlesik.is_empty else _birlesik
+    # 🔴 0038/H-0004 — BU SATIR 29 AĞUSTOS'TA DEĞİŞTİ, EMRE İTİRAZ ETTİ VE HAKLI.
+    #
+    # ESKİ HÂLİ: köprüler koşulsuz DOĞRUDAN gövdeye yazılıyordu. Gerekçe
+    # savunulabilirdi — *"bir koridor Osmanlı'nın idare ettiği topraktır,
+    # bir vasalın değil"* — ama SONUCU YANLIŞTI: tâbi bir girintiyi dolduran
+    # köprü KOYU kırmızı çıkıyor ve göze yama gibi görünüyordu.
+    #   Emre: *"Dolgular DOLDURDUKLARI GİRİNTİ İLE AYNI RENKTE olmalı…
+    #          doldurdukları renk ile SENKRONİZE hareket ederler."*
+    #
+    # YENİ ÖLÇÜT: her köprü parçası, EN ÇOK HANGİ GÖVDEYE YASLANIYORSA
+    # onun katmanına yazılır. Yaslanma, parçanın `B2_TEMAS` kadar
+    # tamponunun her iki ham gövdeyle KESİŞİM ALANIYLA ölçülür — köprü
+    # `difference` ile üretildiği için ikisine de değmez, tampon şart.
+    # ⚠️ Beraberlikte DOĞRUDAN kazanır: eski davranış, sessizce
+    #    değişmemesi gereken taraf.
+    # 📌 `İKİ RENK ÜST ÜSTE BİNMEZ` kuralı bozulmuyor: aşağıdaki
+    #    `g = g.difference(gt)` her hâlde koşuyor.
+    try:
+        _kopru = poligonal(_duzelt.difference(_birlesik))
+    except Exception:
+        _kopru = None
+    gt = _gt_ham
+    g = _g_ham
+    if _kopru is not None and not _kopru.is_empty:
+        _par = list(_kopru.geoms) if _kopru.geom_type == "MultiPolygon" else [_kopru]
+        _kg, _kt = [], []
+        for _q in _par:
+            try:
+                _cev = _q.buffer(B2_TEMAS)
+            except Exception:
+                _kg.append(_q); continue
+            _ad = _cev.intersection(_g_ham).area if (_g_ham is not None and not _g_ham.is_empty) else 0.0
+            _at = _cev.intersection(_gt_ham).area if (_gt_ham is not None and not _gt_ham.is_empty) else 0.0
+            if _at > _ad:
+                _kt.append(_q); _B23_SAYAC["b2_kopru_tabi"] += 1
+            else:
+                _kg.append(_q); _B23_SAYAC["b2_kopru_dogrudan"] += 1
+        if _kg:
+            g = poligonal(unary_union([g] + _kg))
+        if _kt:
+            gt = poligonal(unary_union([x for x in ([gt] if gt is not None else []) + _kt
+                                        if x is not None and not x.is_empty]))
+    # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
+    # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
+    if gt is not None and not gt.is_empty:
+        g = poligonal(g.difference(gt))
+    return g, gt
+
+
 asama("Dönemler kuruluyor (delta yapısı)")
 # İki katman:
 #   DOĞRUDAN (o)  : merkezden yönetilen toprak — koyu kırmızı
@@ -5785,6 +6612,7 @@ for _i in range(len(tarihler) - 1):
 for i in range(len(tarihler) - 1):
     ilerleme(i + 1, len(tarihler) - 1, 50, "kırılma", _DN_KUM)
     a, b = tarihler[i], tarihler[i+1]
+    nabiz(f"kırılma {i+1}/{len(tarihler)-1} ({a})")
     # kur:/bit: — kurulmamış nokta Osmanlı gövdesine de katılmaz. Örnek:
     # St. Petersburg'un s: alanı 1281'den rusya diyor ve kur:1703; Kesela'nın
     # d: penceresi kur: gününde başlıyor. Devredilen petekler petek_epok()
@@ -5865,63 +6693,19 @@ for i in range(len(tarihler) - 1):
     #
     # ⚠️ Kusur B2'nin kendisinde değil EVRENİNDEYDİ: alet doğru çalışıyor,
     #   YANLIŞ EVRENDE çalışıyordu. Bu projede ölçülmüş bir sınıf.
-    _gt_ham = None
-    if tabi:
-        _gt_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in tabi])),
-                                             sahip_ix=aktif).intersection(KARA))
-    _g_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in dogrudan])),
-                                        sahip_ix=aktif).intersection(KARA))
-
-    # Osmanlı dünyası TEK gövde olarak düzeltilir; Eflak artık "enklav" değil,
-    # çünkü doğrudan toprağa DEĞİYOR.
-    _birlesik = unary_union([x for x in (_g_ham, _gt_ham) if x is not None and not x.is_empty])
-    _duzelt = gosterim_duzelt(_birlesik, aktif) if not _birlesik.is_empty else _birlesik
-    # 🔴 0038/H-0004 — BU SATIR 29 AĞUSTOS'TA DEĞİŞTİ, EMRE İTİRAZ ETTİ VE HAKLI.
-    #
-    # ESKİ HÂLİ: köprüler koşulsuz DOĞRUDAN gövdeye yazılıyordu. Gerekçe
-    # savunulabilirdi — *"bir koridor Osmanlı'nın idare ettiği topraktır,
-    # bir vasalın değil"* — ama SONUCU YANLIŞTI: tâbi bir girintiyi dolduran
-    # köprü KOYU kırmızı çıkıyor ve göze yama gibi görünüyordu.
-    #   Emre: *"Dolgular DOLDURDUKLARI GİRİNTİ İLE AYNI RENKTE olmalı…
-    #          doldurdukları renk ile SENKRONİZE hareket ederler."*
-    #
-    # YENİ ÖLÇÜT: her köprü parçası, EN ÇOK HANGİ GÖVDEYE YASLANIYORSA
-    # onun katmanına yazılır. Yaslanma, parçanın `B2_TEMAS` kadar
-    # tamponunun her iki ham gövdeyle KESİŞİM ALANIYLA ölçülür — köprü
-    # `difference` ile üretildiği için ikisine de değmez, tampon şart.
-    # ⚠️ Beraberlikte DOĞRUDAN kazanır: eski davranış, sessizce
-    #    değişmemesi gereken taraf.
-    # 📌 `İKİ RENK ÜST ÜSTE BİNMEZ` kuralı bozulmuyor: aşağıdaki
-    #    `g = g.difference(gt)` her hâlde koşuyor.
-    try:
-        _kopru = poligonal(_duzelt.difference(_birlesik))
-    except Exception:
-        _kopru = None
-    gt = _gt_ham
-    g = _g_ham
-    if _kopru is not None and not _kopru.is_empty:
-        _par = list(_kopru.geoms) if _kopru.geom_type == "MultiPolygon" else [_kopru]
-        _kg, _kt = [], []
-        for _q in _par:
-            try:
-                _cev = _q.buffer(B2_TEMAS)
-            except Exception:
-                _kg.append(_q); continue
-            _ad = _cev.intersection(_g_ham).area if (_g_ham is not None and not _g_ham.is_empty) else 0.0
-            _at = _cev.intersection(_gt_ham).area if (_gt_ham is not None and not _gt_ham.is_empty) else 0.0
-            if _at > _ad:
-                _kt.append(_q); _B23_SAYAC["b2_kopru_tabi"] += 1
-            else:
-                _kg.append(_q); _B23_SAYAC["b2_kopru_dogrudan"] += 1
-        if _kg:
-            g = poligonal(unary_union([g] + _kg))
-        if _kt:
-            gt = poligonal(unary_union([x for x in ([gt] if gt is not None else []) + _kt
-                                        if x is not None and not x.is_empty]))
-    # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
-    # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
-    if gt is not None and not gt.is_empty:
-        g = poligonal(g.difference(gt))
+    # 🧱 ÖNBELLEK (M-4537): anahtar = doğrudan + tâbi parçaları + çevre
+    # (`_onb_parca_anahtar`). Değer (g, gt) geometri olarak saklanır (pickle WKB).
+    if _ONB.acik:
+        _ok, (_sira_d, _sira_t) = _onb_parca_anahtar("osm", [dogrudan, tabi], aktif, _pe)
+        _ovar, _ov = _ONB.oku("osm", _ok)
+    else:
+        _ok, _sira_d, _sira_t, _ovar, _ov = None, dogrudan, tabi, False, None
+    if _ovar:
+        g, gt = _ov
+    else:
+        g, gt = _osm_govde_hesap(dogrudan, tabi, aktif, _pe, _sira_d, _sira_t)
+        if _ok:
+            _ONB.yaz("osm", _ok, (g, gt))
     kaplam = unary_union([g, gt]) if gt is not None else g
     x0, y0, x1, y1 = kaplam.bounds
     # Geometri gönderilmez; yalnızca aktif petek indeksleri (delta) ve özetler.
@@ -6003,7 +6787,19 @@ for i in range(len(tarihler) - 1):
     # (çoğu dönemde çölle sınırdaş olunmuyor — kuruluş devri gibi).
     sayac("Osmanlı gövde geometrisi", time.time() - _t_ov)
     _t_sb = time.time()
-    _sb = hat_havuza(hat_koord(serbest_kenar(a, kaplam, _pe)))
+    if _ONB.acik and kaplam is not None and not kaplam.is_empty:
+        # 🧱 ÖNBELLEK (M-4537): serbest kenar = kaplam sınırı ∩ o günün sahipsiz
+        # birleşimi (bos_bolge, gün başına ezberli). Anahtar ikisinin WKB özeti.
+        # Havuzlama (hat_havuza) ve belirsizlik her koşuda yeniden yapılır.
+        _bb = bos_bolge(a, _pe)
+        _sk = _ONB.anahtar("sb", _onb_ozet(kaplam), _onb_oz(_bb) if _bb is not None else b"-")
+        _svar, _hk = _ONB.oku("sb", _sk)
+        if not _svar:
+            _hk = hat_koord(serbest_kenar(a, kaplam, _pe))
+            _ONB.yaz("sb", _sk, _hk)
+        _sb = hat_havuza(_hk)
+    else:
+        _sb = hat_havuza(hat_koord(serbest_kenar(a, kaplam, _pe)))
     sayac("serbest kenar (sahipsiz sınır)", time.time() - _t_sb)
     if _sb:
         kayit["sb"] = _sb
@@ -6097,6 +6893,10 @@ else:
     print(f"  🚪 EKLEYİCİ KAPI: {_DOLGU_SAYAC['petek']} petek-gün katıldı · "
           f"{_DOLGU_SAYAC['cekismeli']} ÇEKİŞMELİ (boş bırakıldı) · "
           f"{_DOLGU_SAYAC['gun']} gün hesaplandı")
+    if _DOLGU_SINA[0]:
+        print(f"  🚪 EKLEYİCİ KAPI SATIR YOLU SINAVI (MOTOR_DOLGU_YOL=sina): "
+              f"{_DOLGU_SINA[0]:,} satır sınandı · puanı FARKLI satır {_DOLGU_SINA[1]:,}"
+              + ("  ✓" if _DOLGU_SINA[1] == 0 else "  🔴 SATIR YOLU TAM MATRİSLE AYNI DEĞİL"))
     # 🔴 B1/B2/B3 KARNESİ — 28 Ağustos 2026'da EKLENDİ, ve sebebi ölçüldü.
     # `_B23_SAYAC` sözlüğü baştan beri DOLUYORDU ama HİÇBİR YERDE
     # BASILMIYORDU. Sonuç: koşudan önce yazılmış iki öngörü
@@ -6484,3 +7284,19 @@ for d in donemler:
 # 📌 KOŞU KENDİ BİLANÇOSUNU YAZAR — bu satırdan sonra "nerede yanıyor" sorusu
 # bir daha dosya damgasından TAHMİN edilmez.
 asama_ozet()
+
+# ♻️ DEVAM dizini yalnız koşu BAŞARIYLA sonuna vardıysa silinir.
+if _DEVAM and _ISCI_NO is None and _SR_SONUC_DIZIN:
+    import shutil as _shd
+    _shd.rmtree(_SR_SONUC_DIZIN, ignore_errors=True)
+    print(f"  ♻️ DEVAM dizini silindi: {_SR_SONUC_DIZIN}")
+
+# 🧱 ÖNBELLEK BUDAMA — yalnız ana süreç, yalnız koşu BAŞARIYLA buraya vardıysa.
+# İçerik adresli anahtarlar bayat sonuç VERMEZ ama yer kaplar (Osmanlı dönem
+# geometrisi kayıt başına MB'lar). `MOTOR_ONBELLEK_BUDA_GUN` (varsayılan 21) gündür
+# ne yazılan ne okunan kayıt silinir; gerekirse yeniden hesaplanır.
+if _ISCI_NO is None and _ONB.acik:
+    _bgun = int(os.environ.get("MOTOR_ONBELLEK_BUDA_GUN", "21"))
+    _bd = _ONB.buda(_bgun)
+    print(f"  🧱 ÖNBELLEK budandı: {_bd:,} kayıt ({_bgun} günden uzun kullanılmayan) · "
+          f"dosya {_ONB.boyut_mb():,.0f} MB")
