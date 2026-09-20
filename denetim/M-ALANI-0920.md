@@ -207,15 +207,72 @@ Babadağı 1878'e kadar Osmanlı kaldı. Hepsi `CLAUDE.md §3`ün tarif ettiği 
 anlatılan çürümenin aynadaki görüntüsü: bölge adı yazmak sayıyı *küçültüp* temiz
 gösterecekti; merkez adı yazmak evreni büyütüp borcu görünür kılıyor.
 
+### 7.4 (B) — 2. parti: 21 kayıt
+
+**Uygulanan — 2:**
+
+| yerleşim | `m:` | zincir | TDV dayanağı |
+|---|---|---|---|
+| Ba'lebek | `Şam` | → Şam(k2) | «Ba‘lebek, Şam eyaletine bağlı bir subaşılık ve 150 akçelik bir kaza idi» (Evliya Çelebi) |
+| Sûr (Tyre) | `Sayda` | → Sayda → Şam(k2) | «Başlangıçta Şam sancağının bir kaza merkezi olan şehir Sayda'nın sancak haline getirilmesiyle buraya bağlandı» |
+
+🔴 **Ba'lebek, GLM önerisinin ne kadar ters olduğunu tek başına gösteriyor.** Öneri
+`Nablus` idi. Veride Nablus `k=3, m:"Kudüs"` — yani öneri, **eyalet merkezi Şam'ı**,
+Kudüs'e bağlı bir kazanın altına sokuyordu. TDV üç ayrı dönemde (Memlük · Evliya Çelebi ·
+1850) aynı merkezi veriyor: Şam.
+
+**TDV slug tuzakları — bu partide ikisi de yaşandı** (`D211` ①②):
+- `/baalbek` **975 karakterlik bir «bk. BA‘LEBEK» yönlendirme kütüğü**; gerçek madde `/balebek`.
+  Gövde boş sanıp "TDV'de yok" demek burada yanlış olurdu.
+- `/sur` arama sayfasına düşüyor; TDV aynı adla **dört** madde tutuyor
+  (`sur--kale` · `sur--kiyamet` · `sur--lubnan` · …). Doğrusu `/sur--lubnan`.
+
+**Ölçülemedi — 19.** Kümeler hâlinde:
+- **Necid kümesi (5):** Dilem · Havta · Leylâ · Hurma · Türabe. TDV `NECİD` bu yerleri
+  **bölge** olarak sayıyor ama sancak bağı vermiyor; tersine **dolaylı** idare tarif ediyor
+  («yakın bulundukları eyaletlerin aracılığı ile», «Bağdat eyaleti, bir kısmı da Lahsâ
+  beylerbeyiliği aracılığı ile»), 1871'de «merkezi Ahsâ olmak üzere Necid mutasarrıflığı».
+  Kayıtların kırılmaları 1818/1824/1891/1902'ye yayılıyor ve yapı bu aralıklarda **değişiyor**
+  ⇒ zamansız `m:` yanlış olur. `kd:` işi.
+- **Bosna kuzeybatı kümesi (7):** Bosna Brod'u · Dubiça · Novi · Krupa · Kostayniçe ·
+  Jasenovaç · Ostrovica. Kendi maddeleri yok; kapsayıcı `BOSNA-HERSEK` maddesi
+  (**55.428 karakter**) tarandı — Bosna sancağı/beylerbeyiliği anlatılıyor ama bu
+  kasabaların hiçbirine sancak bağı verilmiyor. En yakını «Novi kadısı Ömer Efendi»:
+  kadılık, sancak değil.
+- **Tekler (7):** Deyrülkamer · Bedir (madde Bedir Gazvesi'ni anlatıyor, idarî cümle yok) ·
+  Râbiğ · Soçi · Segesvár (yalnız `ERDEL` içinde anılıyor; Erdel tâbi prenslikti, sancak
+  yapısında değildi) · Gyula · **Uman**.
+- 🔴 **Uman — homonim yakalandı:** TDV `UMAN` maddesi Arap yarımadasındaki **Umman
+  ülkesi**; verideki Uman ise **Ukrayna'daki şehir**. Yanlış madde, kullanılmadı. Bu,
+  §3'teki `Modon → Mora` tuzağının kaynak tarafındaki eşi.
+
+### 7.5 2. partinin ölçümü
+
+| | önce | sonra |
+|---|---|---|
+| Değişmez 2s AÇIK | 191 | **191** |
+| Değişmez 3z zamansız | 489 | **489** |
+| ihlal | — | **yok** |
+
+Bu partide 2s'de kapanma **olmadı** ve yeni çelişki **doğmadı**. Beklenen: hedef 2s değil,
+şema borcudur (M-4689: *"2s'de kapanma olursa yan üründür, hedef değil"*).
+
 ## 8. Açık kalemler
-- **2. parti:** kalan 38 kayıt (58 − 20). Gevgili · Kızıkermen · Uman · Bosna dörtlüsü ·
-  Necid kümesi · Ba'lebek · Sûr · Deyrülkamer · Soçi · Tuapse · Kuban · Segesvár · Gyula …
-- **Sevk edilen:** Vize `k:` düzeltmesi · Hoy'un `kd:` içindeki `m:null` kararı · 2s kapısının
+- **3. parti — kalan 17 kayıt** (58 − 41): Gevgili · Kızıkermen · Kuban · Tuapse · Seyûn ·
+  Nadin · Vrana · İshakçı · İshaklı · Zamantı · Kasr-ı Şîrîn · Ordubad · Bacirge ·
+  Şemdinli · Şeyhrumi · Lanzaka · Praviște.
+- **Sevk edilen:** Vize `k:3 → k:2` · Hoy'un `kd:` içindeki `m:null` kararı · 2s kapısının
   `m:` bacağı (taban 244).
+- **Gözlem — kaynak tavanı:** 41 kaydın **10'u** (%24) yazılabildi. Kalanın çoğu TDV'de
+  kendi maddesi olmayan kasabalar; kapsayıcı madde de sancak vermiyor. 58'in tamamının
+  `m:` ile kapanmasını **beklemeyin** — gerçekçi tavan bu oranda.
 
 ## 9. Değişen dosyalar
 - `denetim/ARAC-M-ALANI-0920.py` · `denetim/ARAC-M-ALANI-KAPI-0920.py` (ölçüm aletleri)
 - `denetim/M-ALANI-0920.md` · `denetim/YAMA-M-ALANI-0920.json`
-- `data/yerlesimler.js` (Hoy) · `data/yerlesimler_ek29.js` (Üsküdar · Babadağı) ·
-  `data/yerlesimler_ok107.js` (Siirt · İştip · Ustrumca) — **yalnız `m:` alanı**, 6 kayıt.
-  `data/` commit'i 1.MURAT'ta.
+- **1. parti** — `data/yerlesimler.js` (Hoy) · `data/yerlesimler_ek29.js` (Üsküdar ·
+  Babadağı) · `data/yerlesimler_ok107.js` (Siirt · İştip · Ustrumca). 1.MURAT commitledi: `0f37695`.
+- **2. parti** — `data/yerlesimler_ek29.js` (Ba'lebek · Sûr). **1.MURAT'ı bekliyor.**
+
+Toplam **8 kayıt**, hepsinde **yalnız `m:` alanı** yazıldı; `git diff --word-diff` ile
+doğrulandı (8 satır, 8 ekleme, başka hiçbir alan değişmedi).

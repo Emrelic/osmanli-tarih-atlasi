@@ -20,6 +20,21 @@
         "degismez3z_not": "+7 celiskinin TAMAMI Osmanli donemi DISINDAKI ornek gunlerde (1300/1400) ya da gercek ayrisma (1800 Babadagi/Ozi) — yanlis atama DEGIL, m:'nin zaman penceresi olmamasi (CLAUDE.md §3: kusurun %93'u bu sinif, kd: cozer).",
         "ihlal": "yok — butun degismezler yesil"
       }
+    },
+    {
+      "parti": 2,
+      "tarih": "2026-09-20",
+      "incelenen_kayit": 21,
+      "uygulanan": 2,
+      "olculemedi": 19,
+      "olcum": {
+        "2s_acik_once": 191,
+        "2s_acik_sonra": 191,
+        "degismez3z_zamansiz_once": 489,
+        "degismez3z_zamansiz_sonra": 489,
+        "not": "Bu partide 2s'de kapanma ve yeni celiski OLMADI — beklenen: hedef sema borcu, 2s degil.",
+        "ihlal": "yok"
+      }
     }
   ],
   "uygulanan": [
@@ -88,22 +103,207 @@
       "kaynak_url": "https://islamansiklopedisi.org.tr/hoy",
       "guven": "YUKSEK",
       "not": "🟡 KOORDINATORE: Hoy, bu turda yazilan TEK kd: tasiyan kayit. kd:[{f:1585-01-01,t:1612-01-01,k:3,m:null}] duruyor ve girdi.kd_oku() kd: varsa ust duzey m:'yi HIC OKUMAZ. Dolayisiyla bu yazim yalniz uret_petek.k12_merkez() ve Degismez 3 icin gecerli; kd_gun() hala None doner. kd: icindeki m:null AYRI bir karar ister — benim kalemim degil. Verideki Osmanli donemi 1585-09-25'te basliyor, TDV'nin 1585'iyle ortusuyor."
+    },
+    {
+      "yerlesim": "Ba'lebek (Baalbek)",
+      "parti": 2,
+      "dosya": "data/yerlesimler_ek29.js",
+      "eski_m": null,
+      "yeni_m": "Şam",
+      "zincir": "Ba'lebek(k=3) -> Şam(k=2)",
+      "dayanak": "TDV 'BA‘LEBEK': «Evliya Çelebi'ye göre Ba‘lebek, Şam eyaletine bağlı bir subaşılık ve 150 akçelik bir kaza idi.» · «1850'de Bâbıâli'nin yeni düzenlemesiyle Şam vilâyetine tâbi bir kaza merkezi yapıldı.» · «Böylece Ba‘lebek Dımaşk vilâyetine bağlı önemli bir şehir haline geldi.»",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/balebek",
+      "guven": "YUKSEK",
+      "not": "TDV UC AYRI donemde (Memluk, Evliya Celebi, 1850) ayni merkezi veriyor — Sam. GLM onerisi 'Nablus' idi; veride Nablus k=3 ve m:'Kudus' — yani oneri, eyalet merkezi Sam'i Kudus'e bagli bir kazanin altina sokuyordu. Ters bag reddedildi. Slug tuzagi: /baalbek bir 'bk. BA‘LEBEK' yonlendirme kutugu (975 karakter); gercek madde /balebek."
+    },
+    {
+      "yerlesim": "Sûr (Tyre) — Lübnan",
+      "parti": 2,
+      "dosya": "data/yerlesimler_ek29.js",
+      "eski_m": null,
+      "yeni_m": "Sayda",
+      "zincir": "Sûr(k=3) -> Sayda(k=3) -> Şam(k=2)",
+      "dayanak": "TDV 'SÛR' (Lübnan): «Başlangıçta Şam sancağının bir kaza merkezi olan şehir Sayda'nın sancak haline getirilmesiyle buraya bağlandı.»",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/sur--lubnan",
+      "guven": "ORTA",
+      "not": "UC DONEM var: Sam (1516-1660) -> Sayda (1660-1865) -> «1865 Vilayet Nizamnamesi'nin ardindan ... Sur Beyrut sancagina bagli bir kaza merkezi haline getirildi». m: zamansiz oldugu icin EN UZUN donem (Sayda, ~205 yil) yazildi; dogru ifade kd: ister. Slug tuzagi: /sur arama sayfasina dusuyor, dogru slug /sur--lubnan (TDV ayni adda 4 madde tutuyor: sur--kale, sur--kiyamet, sur--lubnan)."
     }
   ],
   "olculemedi": [
-    {"yerlesim": "Karaferye (Veria)", "sebep": "TDV 'KARAFERYE' maddesinin TAMAMI (15.970 karakter) tarandi; sancak/kaza/eyalet/vilayet gecen TEK idari cumle YOK. Yalniz kaynakcada 1906 Selanik Vilayeti Salnamesi anilyor — bu idari hukum degil (D211 ⑧).", "kaynak_url": "https://islamansiklopedisi.org.tr/karaferye"},
-    {"yerlesim": "Braslav (Bratslav)", "sebep": "TDV 'KAMANİÇE': Kamanice eyaleti DORT sancaktan olusuyor — Kamanice, Bar, Mejibuji, Yazlofca. Bratslav bunlarin arasinda YOK. GLM'in onerdigi 'Podolya' hem sema disi hem kaynaksiz.", "kaynak_url": "https://islamansiklopedisi.org.tr/kamanice"},
-    {"yerlesim": "Vinnitsa (Vinnytsia)", "sebep": "Ayni — Kamanice eyaletinin dort sancagi arasinda yok.", "kaynak_url": "https://islamansiklopedisi.org.tr/kamanice"},
-    {"yerlesim": "Vodina (Edessa)", "sebep": "TDV 'VODİNA': «Vodina, Yenice-i Vardar kazasında bir nahiye merkezi idi» — KAZA veriyor, SANCAK vermiyor. Yenice-i Vardar'in kendi sancagi da olculemedi, zincir kapanmaz.", "kaynak_url": "https://islamansiklopedisi.org.tr/vodina"},
-    {"yerlesim": "Yenice-i Vardar", "sebep": "TDV maddesinde (18.165 karakter) kendi sancagini veren cumle yok; kaza olarak anilyor.", "kaynak_url": "https://islamansiklopedisi.org.tr/yenice-i-vardar"},
-    {"yerlesim": "Doyran", "sebep": "TDV 'DOYRAN' Kostendil sancagi / Ustrumca kazasi baginti veriyor ama ZAMAN kaydiyla («XIV. yüzyıla kadar»); Doyran'in veri kirilmasi 1912. Gec donemde Selanik vilayetindeydi. Hangi donemin yazilacagi belirsiz — m: zamansiz oldugu icin yazilmadi.", "kaynak_url": "https://islamansiklopedisi.org.tr/doyran"},
-    {"yerlesim": "Köprülü (Veles)", "sebep": "TDV 'KÖPRÜLÜ' (Makedonya sehri) maddesinde sancak cumlesi yok; yalniz 1897-98 Selanik Vilayeti Salnamesi'ne atif var — cikarim olur, hukum olmaz.", "kaynak_url": "https://islamansiklopedisi.org.tr/koprulu"},
-    {"yerlesim": "Silivri", "sebep": "TDV'de Silivri'nin kendi maddesi YOK (arama: yalniz Bala Kulliyesi, Piri Mehmed Pasa Kulliyesi, Uzunkopru). Kapsayici madde de sancak vermedi.", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=silivri"},
-    {"yerlesim": "Prevadi (Provadia)", "sebep": "TDV'de kendi maddesi YOK; 4 madde icinde 'Prevadi kazasi' diye geciyor, sancagi verilmiyor.", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=prevadi"},
-    {"yerlesim": "Kılkış (Avrathisar)", "sebep": "TDV'de kendi maddesi YOK.", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=kilkis"},
-    {"yerlesim": "Gürün", "sebep": "TDV'de kendi maddesi YOK (slug arama sayfasina dusuyor).", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=gurun"},
-    {"yerlesim": "Göksun", "sebep": "TDV'de kendi maddesi YOK.", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=goksun"},
-    {"yerlesim": "Gevgili (Gevgelija)", "sebep": "TDV'de kendi maddesi aranmadi/bulunamadi — 2. partiye birakildi.", "kaynak_url": null}
+    {
+      "yerlesim": "Karaferye (Veria)",
+      "sebep": "TDV 'KARAFERYE' maddesinin TAMAMI (15.970 karakter) tarandi; sancak/kaza/eyalet/vilayet gecen TEK idari cumle YOK. Yalniz kaynakcada 1906 Selanik Vilayeti Salnamesi anilyor — bu idari hukum degil (D211 ⑧).",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/karaferye"
+    },
+    {
+      "yerlesim": "Braslav (Bratslav)",
+      "sebep": "TDV 'KAMANİÇE': Kamanice eyaleti DORT sancaktan olusuyor — Kamanice, Bar, Mejibuji, Yazlofca. Bratslav bunlarin arasinda YOK. GLM'in onerdigi 'Podolya' hem sema disi hem kaynaksiz.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/kamanice"
+    },
+    {
+      "yerlesim": "Vinnitsa (Vinnytsia)",
+      "sebep": "Ayni — Kamanice eyaletinin dort sancagi arasinda yok.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/kamanice"
+    },
+    {
+      "yerlesim": "Vodina (Edessa)",
+      "sebep": "TDV 'VODİNA': «Vodina, Yenice-i Vardar kazasında bir nahiye merkezi idi» — KAZA veriyor, SANCAK vermiyor. Yenice-i Vardar'in kendi sancagi da olculemedi, zincir kapanmaz.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/vodina"
+    },
+    {
+      "yerlesim": "Yenice-i Vardar",
+      "sebep": "TDV maddesinde (18.165 karakter) kendi sancagini veren cumle yok; kaza olarak anilyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/yenice-i-vardar"
+    },
+    {
+      "yerlesim": "Doyran",
+      "sebep": "TDV 'DOYRAN' Kostendil sancagi / Ustrumca kazasi baginti veriyor ama ZAMAN kaydiyla («XIV. yüzyıla kadar»); Doyran'in veri kirilmasi 1912. Gec donemde Selanik vilayetindeydi. Hangi donemin yazilacagi belirsiz — m: zamansiz oldugu icin yazilmadi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/doyran"
+    },
+    {
+      "yerlesim": "Köprülü (Veles)",
+      "sebep": "TDV 'KÖPRÜLÜ' (Makedonya sehri) maddesinde sancak cumlesi yok; yalniz 1897-98 Selanik Vilayeti Salnamesi'ne atif var — cikarim olur, hukum olmaz.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/koprulu"
+    },
+    {
+      "yerlesim": "Silivri",
+      "sebep": "TDV'de Silivri'nin kendi maddesi YOK (arama: yalniz Bala Kulliyesi, Piri Mehmed Pasa Kulliyesi, Uzunkopru). Kapsayici madde de sancak vermedi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=silivri"
+    },
+    {
+      "yerlesim": "Prevadi (Provadia)",
+      "sebep": "TDV'de kendi maddesi YOK; 4 madde icinde 'Prevadi kazasi' diye geciyor, sancagi verilmiyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=prevadi"
+    },
+    {
+      "yerlesim": "Kılkış (Avrathisar)",
+      "sebep": "TDV'de kendi maddesi YOK.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=kilkis"
+    },
+    {
+      "yerlesim": "Gürün",
+      "sebep": "TDV'de kendi maddesi YOK (slug arama sayfasina dusuyor).",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=gurun"
+    },
+    {
+      "yerlesim": "Göksun",
+      "sebep": "TDV'de kendi maddesi YOK.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=goksun"
+    },
+    {
+      "yerlesim": "Deyrülkamer (Dayr al-Kamer)",
+      "parti": 2,
+      "sebep": "TDV'de kendi maddesi YOK; iki madde icinde adi geciyor, sancagi verilmiyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=deyrülkamer"
+    },
+    {
+      "yerlesim": "Dilem (Harc)",
+      "parti": 2,
+      "sebep": "NECID kumesi — TDV 'NECİD' bu yerleri bolge olarak sayiyor («Vadihanife, Harc, Eflac ve Vadiddevasir») ama SANCAK bagi vermiyor; tersine DOLAYLI idare tarif ediyor: «Necid kabileleri yakin bulunduklari eyaletlerin araciligi ile ... yonetilir oldu», «Bagdat eyaleti, bir kismi da Lahsa beylerbeyiligi araciligi ile yonetildi». 1871'de «merkezi Ahsa olmak uzere Necid mutasarrifligi teskil edildi». Kayitlarin kirilmalari 1818/1824/1891/1902'ye yayiliyor ve yapi bu araliklarda DEGISIYOR ⇒ zamansiz m: yanlis olur, kd: isi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/necid"
+    },
+    {
+      "yerlesim": "Havta (Havtat Benî Temîm)",
+      "parti": 2,
+      "sebep": "Ayni — NECID kumesi, dolayli idare.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/necid"
+    },
+    {
+      "yerlesim": "Leylâ (Eflâc)",
+      "parti": 2,
+      "sebep": "Ayni — NECID kumesi, dolayli idare.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/necid"
+    },
+    {
+      "yerlesim": "Hurma (Tâif doğusu)",
+      "parti": 2,
+      "sebep": "Ayni — NECID kumesi, dolayli idare.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/necid"
+    },
+    {
+      "yerlesim": "Türabe",
+      "parti": 2,
+      "sebep": "Ayni — NECID kumesi, dolayli idare.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/necid"
+    },
+    {
+      "yerlesim": "Bedir",
+      "parti": 2,
+      "sebep": "TDV 'BEDİR' maddesi Bedir Gazvesi ve kelimenin edebi kullanimi hakkinda; yerlesimin idari bagini veren cumle YOK (9392 karakter tarandi, tek eslesme mecazi bir cumle).",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/bedir"
+    },
+    {
+      "yerlesim": "Râbiğ",
+      "parti": 2,
+      "sebep": "Slug arama sayfasina dusuyor; kendi maddesi bulunamadi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=rabig"
+    },
+    {
+      "yerlesim": "Soçi (Sâşe)",
+      "parti": 2,
+      "sebep": "TDV'de Soci maddesi YOK (arama 2 alakasiz madde donuyor).",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=soçi"
+    },
+    {
+      "yerlesim": "Uman",
+      "parti": 2,
+      "sebep": "🔴 HOMONİM: TDV 'UMAN' maddesi Arap yarimadasindaki UMMAN ulkesi; verideki Uman ise Ukrayna'daki sehir. Yanlis madde — kullanilmadi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=uman"
+    },
+    {
+      "yerlesim": "Segesvár (Sighişoara)",
+      "parti": 2,
+      "sebep": "Kendi maddesi YOK; yalniz ERDEL maddesi icinde adi geciyor. Erdel tabi prenslikti, Osmanli sancak yapisi icinde degildi ⇒ merkez bagi kurulamaz.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=segesvár"
+    },
+    {
+      "yerlesim": "Gyula (Göle)",
+      "parti": 2,
+      "sebep": "TDV'de sehir maddesi YOK (arama yalniz iki Macar tarihcisini donuyor).",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=gyula"
+    },
+    {
+      "yerlesim": "Bosna Brod'u (Bosanski Brod)",
+      "parti": 2,
+      "sebep": "BOSNA KUZEYBATI KUMESI — kendi maddeleri yok. Kapsayici madde TDV 'BOSNA-HERSEK' (55.428 karakter) tarandi: Bosna sancagi/beylerbeyiligi anlatiliyor ama bu kasabalarin HICBIRINE sancak bagi verilmiyor. En yakini «Novi kadisi Omer Efendi» — kadilik, sancak degil.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/bosna-hersek"
+    },
+    {
+      "yerlesim": "Bosna Dubiçası (Bosanska Dubica)",
+      "parti": 2,
+      "sebep": "Ayni — BOSNA kumesi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/bosna-hersek"
+    },
+    {
+      "yerlesim": "Bosna Novi'si (Bosanski Novi)",
+      "parti": 2,
+      "sebep": "Ayni — BOSNA kumesi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/bosna-hersek"
+    },
+    {
+      "yerlesim": "Krupa (Bosanska Krupa)",
+      "parti": 2,
+      "sebep": "Ayni — BOSNA kumesi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/bosna-hersek"
+    },
+    {
+      "yerlesim": "Kostayniçe (Kostajnica)",
+      "parti": 2,
+      "sebep": "Ayni — BOSNA kumesi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/bosna-hersek"
+    },
+    {
+      "yerlesim": "Jasenovaç (Jasenovac)",
+      "parti": 2,
+      "sebep": "Ayni — BOSNA kumesi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/bosna-hersek"
+    },
+    {
+      "yerlesim": "Ostrovica (Stara Ostrovica, Kulen Vakuf)",
+      "parti": 2,
+      "sebep": "Ayni — BOSNA kumesi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/bosna-hersek"
+    }
   ],
   "baska_alan_borcu": [
     {
@@ -113,5 +313,27 @@
       "sonuc": "m: YAZILMADI. Dogru duzeltme k:3 -> k:2; `k:` benim kalemim degil (sartname: yalniz m:). Koordinatore sevk.",
       "etki": "k:2 yazilirsa Vize'nin k12 zinciri m: OLMADAN kapanir ve 86'lik acik zincir listesinden duser."
     }
-  ]
+  ],
+  "kalan": {
+    "not": "58 hedef kaydin 41'i incelendi (parti 1: 20, parti 2: 21). Kalan 17, 3. partiye.",
+    "liste": [
+      "Gevgili (Gevgelija)",
+      "Kızıkermen (Gazi Kerman)",
+      "Kuban (Yekaterinodar)",
+      "Tuapse",
+      "Seyûn (Sayvan)",
+      "Nadin",
+      "Vrana (Urana)",
+      "İshakçı (Isaccea)",
+      "İshaklı",
+      "Zamantı (Pınarbaşı)",
+      "Kasr-ı Şîrîn",
+      "Ordubad",
+      "Bacirge (Esendere)",
+      "Şemdinli (Şemdinni)",
+      "Şeyhrumi (Yücelen)",
+      "Lanzaka (Lagkadas)",
+      "Praviște (Eleftheroupoli)"
+    ]
+  }
 }
