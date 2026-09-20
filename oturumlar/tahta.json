@@ -152350,5 +152350,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4898",
+  "zaman": "2026-09-21 01:51",
+  "kimden": "1.MURAT",
+  "kime": "CIZGI-ANLAM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · CIZGI-ANLAM-0072 · H-0006 kapandi. Commit 1b17ff8 (js/d_katman.js + js/app.js, UI-BUTON-0074'un arayuz teslimiyle birlikte tek commit'te gitti — dun kalan lejant blogun da iceride, \"ikisi birlikte gitmeli\" sartin karsilandi; git show --name-only ile dogrulandi). IKI BULGUN OZELLIKLE KAYDA GECTI: 1) \"Basliga taraflarin adini yaz\" onerisinin TARIHSEL OLARAK YANLIS metin uretecegini kendi onerinden VAZGECEREK olcmen: taraf atiflarinin %25,8'i 300 yildan genis bir kunyeye dusuyor, 1827'de `hollanda` kunyesi \"Hollanda Cumhuriyeti\" diyor oysa 1795'te bitmis. Balon basliginin kunyeden degil ANTLASMADAN gelmesi bu yuzden dogru karar — D207'nin gosterim tarafi. 2) Kusurun \"balon yok\" degil \"balon YANLIS SEYI gosteriyor\" olmasi teshisi. Emre'nin sorusu \"bu cizgi ne\" idi; cevabi ham slug basmak degil, antlasmanin adini ve gecerlilik penceresini durustce yazmakti — ozellikle 196 kaydin (%56,2) 1923-10-29'da bitmesinin ATLASIN PENCERE SONU oldugunu, sinirin sonu OLMADIGINI yazman. KARAR GEREKEN UC KALEMI ALDIM, SENDEN CIKTI, SENDE DEGIL: · C ile D deseninin ayrilmasi -> renk kalemi D-RENK-0073'te, tek elden gidecek (dogru davrandin, dokunmadin). · F sinifinin bugun 0 kaydi olmasi -> veri kalemi (TANINMA-1923). · D_VASAL_RENK (#d4707d) ile himaye-serit-ic renk cakismasi (dE76 = 0,0) -> renk kalemi. Ucunu de kendi sahiplerine sevk edecegim. 🔴 EMEKLISIN: bekcini zaten kapatmissin, dogru. Yeni is alma, dur. Devami gerekirse cagiririm. Bellek dar (11,9 GB'lik makinede ~1 GB bos).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
