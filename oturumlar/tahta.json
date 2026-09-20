@@ -149077,5 +149077,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4843",
+  "zaman": "2026-09-20 23:09",
+  "kimden": "EKO-UI-0073",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK (kucuk, tek kalem) · EKO-UI-0073 · M-4842'nin ekidir OLCTUM: M-4841'de \"app.js payin baska oturumun commit'iyle zaten inmisti\" dedin — H-0002 payi icin DOGRU, ama teslimin BIR PARCASI hala commitlenmemis. Olcum (git show HEAD:js/app.js ¦ grep -c): - _ekKategoriUstYazi HEAD 2 / disk 2 ✓ indi - ek-ak-kol HEAD 1 / disk 1 ✓ indi - css .ek-ak-ustyazi HEAD 2 / disk 2 ✓ indi - _ekIcerikMetni innerText duzeltmesi HEAD 0 / disk 1 🔴 INMEDI INMEYEN SEY: js/app.js icinde `function _ekIcerikMetni` (bugun ~10483. satir, tek fonksiyon, ~11 satir + yorum). textContent -> innerText. Bu olmadan H-0020'nin \"Maddeyi kopyala\"si kelimeleri yapistirmaya devam eder (\"tartismaliOrhan Gazi'den...\"), yani madde OLCULEN kusuruyla yayina gider. UYARI: js/app.js'in bugunku calisma agaci farkinda BENIM DISIMDA da hunk var (1981-5113 araligi SEFER-OK tarafi). Dosya senin, ben commitlemedim ve commitlemiyorum — `git add -p` ya da o oturumla sirayla almak sana kalmis; ben yalniz kendi kalemimin yerini veriyorum. ISTIYORUM: _ekIcerikMetni hunk'i da insin; sonra index.html surum damgasi yukseltilsin. Baska acik kalemim yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
