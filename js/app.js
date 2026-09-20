@@ -1854,13 +1854,20 @@ harita.on("load", function () {
       id: "sefer-cizgi-" + tur, type: "line", source: "seferler",
       filter: ["==", ["coalesce", ["get", "tur"], "sefer"], tur],
       layout: { "line-cap": "round", "line-join": "round" },
-      paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
-               // 🔴 H-0006 ile gövde 1.6–2.6 px'ten 7–9 px'e çıktı (HAREKET'teki
-               // ölçüm notu). 9 px TAM OPAK bir çizgi altındaki sahiplik
-               // renginin okunmasını engelliyordu; 0.92 opaklık, kalınlık
-               // kuralını bozmadan altını sezdiriyor.
-               "line-opacity": 0.92,
-               "line-width": h.kalinlik, "line-dasharray": h.desen }
+      // ⚠️ `desen` NULL OLABİLİR (H-0003: kara harekâtının temel türü DÜZ çizgi).
+      // `line-dasharray: null` vermek MapLibre'de geçersiz bir boya değeridir,
+      // bu yüzden anahtar HİÇ EKLENMİYOR — "yok" ile "boş" ayrı şeylerdir.
+      paint: (function () {
+        var boya = { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
+                     // 🔴 H-0006 ile gövde 1.6–2.6 px'ten 7–9 px'e çıktı
+                     // (HAREKET'teki ölçüm notu). 9 px TAM OPAK bir çizgi
+                     // altındaki sahiplik renginin okunmasını engelliyordu;
+                     // 0.92 opaklık, kalınlık kuralını bozmadan altını sezdiriyor.
+                     "line-opacity": 0.92,
+                     "line-width": h.kalinlik };
+        if (h.desen) boya["line-dasharray"] = h.desen;
+        return boya;
+      })()
     });
   });
   // 🔴 KAYNAK NOKTASI — Emre (H-0006): *"işgal eden ordu bir yuvarlak kalın bir
@@ -4101,13 +4108,21 @@ function _dsn(desen, eskiKalinlik, yeniKalinlik) {
   var o = eskiKalinlik / yeniKalinlik;
   return desen.map(function (d) { return +(d * o).toFixed(3); });
 }
+// 🔴 DENİZ ↔ KARA AYRIMI — Emre (paket 0071 H-0003): *"ingiliz donanmasının
+// güzergahı kesikli çizgi ile gösterilebilir."* ÖLÇÜLDÜ: `deniz` ZATEN kesikliydi
+// ([4,3]), ama `sefer` de kesikliydi ([1.5,1.5]) — 9 px kalınlıkta ikisi de
+// "kesik kesik" görünüyor, ayrım okunmuyordu. Kara harekâtının TEMEL türü artık
+// DÜZ çizgi (desen: null), deniz ise belirgin uzun kesik. Böylece kuralın
+// istediği fark tipolojiyi bozmadan doğuyor: düz = kara yürüyüşü, uzun kesik =
+// deniz harekâtı, öteki desenler (çekilme, akın, kuşatma…) kendi anlamlarını
+// korur. Ekran ölçüsü: deniz kesiği ≈ 16 px çizgi / 9 px boşluk (8.5 px gövde).
 var HAREKET = {
-  sefer:    { glif: "➤", desen: _dsn([1.5, 1.5], 2.6, 9.0), kalinlik: 9.0, ad: "sefer" },
+  sefer:    { glif: "➤", desen: null,                       kalinlik: 9.0, ad: "sefer" },
   cekilme:  { glif: "⇤", desen: _dsn([5, 4],     2.2, 8.0), kalinlik: 8.0, ad: "geri çekilme" },
   tahliye:  { glif: "⇥", desen: _dsn([5, 4],     2.2, 8.0), kalinlik: 8.0, ad: "tahliye" },
   akin:     { glif: "⇢", desen: _dsn([1, 2],     1.8, 7.2), kalinlik: 7.2, ad: "akın" },
   kusatma:  { glif: "⊗", desen: _dsn([0.5, 2],   2.4, 8.5), kalinlik: 8.5, ad: "kuşatma" },
-  deniz:    { glif: "⚓", desen: _dsn([4, 3],     2.4, 8.5), kalinlik: 8.5, ad: "deniz harekâtı" },
+  deniz:    { glif: "⚓", desen: [1.88, 1.06],               kalinlik: 8.5, ad: "deniz harekâtı" },
   teslim:   { glif: "⇲", desen: _dsn([2, 3],     2.0, 7.5), kalinlik: 7.5, ad: "teslim / devir" },
   seyahat:  { glif: "❖", desen: _dsn([1, 3],     1.6, 7.0), kalinlik: 7.0, ad: "seyahat" },
   isyan:    { glif: "✹", desen: _dsn([0.5, 1.5], 2.0, 7.5), kalinlik: 7.5, ad: "isyan" }
@@ -5023,7 +5038,9 @@ function seferLejanti(turler, sonuclar) {
     var h = HAREKET[k];
     // Çizgi deseni haritadakiyle AYNI orandan türetiliyor (h.desen), ayrıca
     // yazılmıyor — iki yerde duran sayı bayatlar (OGRENILENLER §35).
-    var d = h.desen[0] * 2, b = h.desen[1] * 2;
+    // ⚠️ `desen` null ise tür DÜZ çizgiyle çiziliyor (H-0003); lejant örneği de
+    // düz olmalı — boşluk 0 verilerek aynı ifadeyle çözülüyor.
+    var d = h.desen ? h.desen[0] * 2 : 12, b = h.desen ? h.desen[1] * 2 : 0;
     return '<span><i class="sefer-orn" style="background:repeating-linear-gradient(' +
            '90deg,#2b1006 0 ' + d + 'px,transparent ' + d + 'px ' + (d + b) + 'px)"></i>' +
            '<b class="sefer-glif">' + h.glif + '</b> ' + h.ad +
