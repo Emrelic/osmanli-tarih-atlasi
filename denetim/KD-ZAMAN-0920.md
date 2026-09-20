@@ -567,6 +567,58 @@ geçersiz olduğu anlamına gelir: iki ayrı kusur sınıfı, tek cümleyle anı
 
 ---
 
+# 25. KALAN 272'NİN ANATOMİSİ — ve KOORDİNATÖRE BİR YÖNTEM SORUSU
+
+## 25a. Merkeze göre dağılım (sıradaki kapsayıcı kaynağı seçmek için)
+
+Kalan 272 çelişki **49 ayrı merkeze** dağılıyor; ilk onu:
+
+| merkez | çelişki | kayıt | merkez | çelişki | kayıt |
+|---|---|---|---|---|---|
+| İzmir | 21 | 13 | Yanya | 10 | 7 |
+| Ankara | 18 | 16 | Silistre | 9 | 4 |
+| Bursa | 17 | 17 | Trablus | 9 | 3 |
+| Selanik | 14 | 9 | İstanbul | 9 | 9 |
+| Mora (Tripoliçe) | 13 | 9 | Kütahya | 8 | 8 |
+| Diyarbakır | 12 | 10 | Konya | 8 | 7 |
+| Basra | 11 | 3 | İşkodra | 8 | 5 |
+
+## 25b. 🔴 İKİ SINIF — biri kaynak İSTEMİYOR, öteki İSTİYOR
+
+Ölçtüm (`_mekanik_olc`): çelişkinin kesiti, yerleşimin **ilk Osmanlı dönemi
+başlangıcından önce** mi?
+
+| sınıf | çelişki | kayıt | ne gerekir |
+|---|---|---|---|
+| **A** — kesit ilk Osmanlı döneminden ÖNCE | **201** | **143** | tek `{1281-01-01 → ilk `d:`/`v:` başlangıcı, k:0, m:null}` penceresi |
+| **B** — kaydın hiç Osmanlı dönemi yok | 0 | 0 | — |
+| **C** — kesitte yerleşim ZATEN Osmanlı, merkezi değil | **71** | **64** | merkezin penceresi = gerçek tarihî olgu, KAYNAK ister |
+
+**A sınıfı yeni bir tarihî iddia taşımaz:** kaydın kendi `s:`i o tarihte zaten yabancı
+bir devlet gösteriyor; *"yabancı devletteyken Osmanlı kademesinde değildi"* bir iç
+tutarlılık ifadesidir, atlastan devşirilmiş yeni bir TARİH değildir (`D207`in
+yasakladığı şey atlastan tarih/koordinat devşirmektir).
+
+**C sınıfı mekanikleştirilemez** — ve sebebi tek bir örnekte görünüyor: Söğüt 1299'da
+Osmanlı, Bursa 1326'da fethediliyor. Mekanik kural Söğüt'ü 1300'de Bursa'ya bağlı
+sayar ve **çelişki sürer**; doğru `kd:` "1326'ya kadar merkez Bursa DEĞİLDİ" demek
+zorundadır ve bu bir kaynak sorusudur. C'nin tipik kümeleri: Bursa'ya bağlı 12 erken
+Osmanlı kasabası (1300 kesiti), İstanbul'a bağlı 9 kayıt (1400 kesiti, fetihten önce),
+İzmir'e bağlı Aydın/Birgi/Ayasuluk (1400 kesiti, şövalyeler).
+
+## 25c. SORU (1.MURAT'a) — A sınıfı mekanik kapatılsın mı?
+
+**Lehine:** 201 çelişki (%74) tek partide kapanır; hiçbir yeni iddia yazılmaz.
+**Aleyhine — ve bence tartılması gereken asıl şey:** Değişmez 3 bugün kaba bir
+**eksen kusuru dedektörü** olarak da çalışıyor. Bir kaydın `d:` başlangıcı YANLIŞSA
+mekanik `kd:` o yanlışı devralır **ve çelişki sinyalini susturur**. Yani 201'i
+mekanik kapatmak, ölçüyü iyileştirirken bir uyarı ışığını söndürebilir.
+**Ara yol (önerim):** A sınıfı yazılırken her kayıt için `d:` başlangıcının kaynağı
+olup olmadığına bakılır; kaynaksızsa `kd:` YAZILIR ama kayıt "eksen doğrulaması
+bekliyor" listesine alınır — sinyal kaybolmaz, ölçü düzelir.
+
+---
+
 🔴 **ÇALIŞMA AĞACI UYARISI:** `data/yerlesimler.js` bu oturum sürerken en az iki başka
 oturum tarafından da yazıldı (EKO-1806'nın `isg:` satırları, TARIH-SUPHE-0920'nin `not:`
 satırları çalışma ağacında duruyor). Yama betiği dosyayı TOPTAN okuyup TOPTAN yazıyor;
