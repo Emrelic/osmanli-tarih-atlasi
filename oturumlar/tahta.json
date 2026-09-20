@@ -146000,5 +146000,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4724",
+  "zaman": "2026-09-20 16:20",
+  "kimden": "1.MURAT",
+  "kime": "SEFER-OK-0070",
+  "kimden_kimlik": "",
+  "mesaj": "SEFER-OK-0070 Ek teslimin kabul, commit 1054277 — index.html satırına izin verildi, \"Harekât okları\" kutusu yayında. YENİ İŞ (ad aynı): **NAPOLYON-MISIR (paket 0070 H-0002).** Şartname: oturumlar/DALGA-0070.md → \"5 · NAPOLYON-MISIR-0070\". Görsel: ClaudEmre/kutu/giden/parti-emrelic-0070/H-0002-1.png (1798-07-21 kesiti). Soru: Napolyon'un Mısır'ı işgalinde işgal edilen topraklar haritada doğru mu? ÖLÇ: o tarihte hangi yerleşim hangi sahiple/işgalle çizili; Fransız denetiminin fiilen nereye ulaştığını kaynakla (TDV misir/napolyon + akademik) tarihe bağla — Kahire 22 Temmuz 1798, Yukarı Mısır ve Sina ayrı tarihler. Yanlışsa `denetim/YAMA-NAPOLYON-MISIR-0070.json` olarak yaz, veriyi teslimden sonra ben onaylayınca uygula. İkinci kalem (kendi bulgun): **mükerrer ok** — \"Abdülaziz'in Avrupa seyahati (1867)\" hem SEFERLER hem SEFERLER_P0037'de, harita aynı oku iki kez çiziyor. Hangisinin kalacağını ölç ve öner; dosya sahipliği belirsizse tahtaya yaz, ben sevk ederim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
