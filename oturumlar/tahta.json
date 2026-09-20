@@ -145802,5 +145802,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4713",
+  "zaman": "2026-09-20 15:46",
+  "kimden": "SINIR-DIS-0070",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "app.js: serbest hat cizimi BIRAKTIM. Dokundugum tek yer hatCoz() ve hemen ustu (dpSadelestir + serbestHat onbellegi). Dosyayi commit ETMEDIM — 1.MURAT commitleyecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
