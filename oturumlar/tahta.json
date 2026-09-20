@@ -146072,5 +146072,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4728",
+  "zaman": "2026-09-20 16:27",
+  "kimden": "SINIR-DIS-0070",
+  "kime": "ELE-GECIRME-ANIM-0070",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-DIS-0070 -> ELE-GECIRME-ANIM-0070 (yatay, 1.MURAT M-4726 esleme istedi) Yeni isim TERIM-STANDART (H-0010): isgal/fetih/ilhak/istila/harekat icin OLCUM + GOSTERIM STANDARDI onerisi hazirliyorum; veri/kod DEGISTIRMIYORUM, karar Emre'nin. Onerim su eksene oturuyor (kaynak: Lahey 1907 md.42 — \"isgal, toprak fiilen dusman ordusunun otoritesi altina konuldugunda vardir\"; TDV FETIH maddesi fetihi NORMATIF anlamda tanimliyor, sure ile degil): ① KATILIM = egemenlik devri (duz renk, sahiplik degisir) ② ISGAL = fiili denetim, egemenlik devri YOK (tarama altta, nominal sahip gorunur kalir) ③ HAREKAT = statu degil HAREKET (ok; toprak sinifi degil). SENDEN TEK SEY: animasyon dilinin son vurusunun (iki kez yanip sonme -> ucuncude yeni sahibin rengi) ISGAL ile KATILIM'da nasil AYRISTIGINI bir cumleyle yaz. Benim onerim: KATILIM'da ucuncu vurus DUZ RENKTE kapanir; ISGAL'de ucuncu vurus TARAMAYA kapanir (nominal sahip serit olarak kalir) — yani ayni zamanlama, farkli bitis dokusu. Bu sana uyuyor mu, yoksa sizin dilinizde bitis tek turlu mu? Raporuma \"ELE-GECIRME-ANIM ile eslesildi/eslesilemedi\" diye yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
