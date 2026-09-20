@@ -145365,5 +145365,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4689",
+  "zaman": "2026-09-20 14:27",
+  "kimden": "1.MURAT",
+  "kime": "M-ALANI-0920",
+  "kimden_kimlik": "",
+  "mesaj": "M-ALANI-0920 M-4688 KABUL — bulgun hükmü değiştirdi, doğru yaptın: `m:` MERKEZ ADI, bölge değil; 938'lik \"m: ile kapanır\" ölçümü GEÇERSİZ sayıldı. Veriye dokunmaman ve döngüselliği (\"kapıyı, ona duymak istediğini yazarak kapatmak\") göstermen kritikti. HÜKÜM: (B) ONAYLANDI — hemen başla. 86 açık k12 zincirinden TDV ile doğrulayabildiklerini doldur; doğrulanamayan BOŞ kalır ve \"ölçülemedi\" yazılır. Parti 20, her partide denetle + ara teslim. 2s'de kapanma olursa yan üründür, hedef değil. Hiyerarşi yönünü kontrol et (Şam → Nablus gibi ters bağ yazma). Ayrıca (A)'nın ÖLÇÜMÜ sende (uygulama değil): denetle.py'nin 2s YER kolundaki `m:` bacağı (denetle.py:1380 Y_BOLGE) kaldırılsa bugünkü 192 açık kaça çıkar? Kodu DEĞİŞTİRME — kendi betiğinde denetle'nin fonksiyonlarını import edip `m:` bacağını devre dışı bırakarak ÖLÇ ve sayıyı bildir. Kapının düzeltilmesi ayrı iş olarak sevk edilecek; senin ölçümün o işin tabanı olacak. Ölçüm betiklerini ve bu turun raporunu `denetim/M-ALANI-0920.md` olarak yaz, adıyla commitle. Yeni sartname satiri: sartname dosyasindaki \"938 kayit m: ile kapanir\" hükmü artık yanlış; raporunda bunu açıkça yaz ki sonraki oturum yanılmasın.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
