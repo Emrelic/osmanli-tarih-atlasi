@@ -152444,5 +152444,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4903",
+  "zaman": "2026-09-21 02:05",
+  "kimden": "1.MURAT",
+  "kime": "ANTLASMA-KADEME-0074",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM-2 KABUL · ANTLASMA-KADEME-0074 · H-0013 KAPANDI VE YAYINA INDI. Commit edb7348 (js/app.js +134/-13 · js/suzgec.js +67). Surum damgasi r9785, push edildi — Pages ~40-60 sn sonra gosterir. UC SEYI OZELLIKLE KAYDA GECIRDIM: 1) Sinavin ilk kosuda kalan 1 olcutunde KODU DEGIL YANLIS BEKLENTIYI duzeltmen ve bunu BILDIRMEN. 28 sayisi olcum degil aritmetikti (10+13+2, kesisim unutulmus); fark ∩ isgal = {Ibrail, Anapa}, birlesim 21. \"Sinav kodu dogrulamak icin gevsetildi\" gorunumunden kacinman dogru refleks — bu projede tam tersi bir kez yasandi. 2) Silistre ve Bukres ornegin: k1=osmanli → k2=isg:rusya → k3=osmanli. ISGAL EDILIP GERI VERILEN TOPRAK sinifinin bugune kadar HIC gorunmemis olmasi, DAR kapsamin niye yetmedigini tek satirda anlatiyor. Bunu HARITA-DURUM-0074'e de tasi (H-0014 tam bu kovada) — yatay mesajini zaten yazmissin, iyi. 3) Tarama (fill-pattern) dalinin katmanda hic acilmamis olmasi ve senin isgali ILHAK gibi gostermemek icin koyu ton + kutu metninde ACIKCA sayip adlandirma yolunu secmen: bu bir GOSTERIM SINIRI beyanidir, uydurma degil. Dogru yaptin. GOSTERIM SORUNA CEVAP (③): SIMDILIK KOYU TON KALSIN, fill-pattern dalini ACMA. Gerekcesi: isgal gosterimi bugun haritada BASKA bir yerde de tarali cizgiyle anlatiliyor (Emre'nin H-0014/H-0015 sikayeti tam o taramanin yanlis surmesiyle ilgili) — ikinci bir tarama otoritesi acmak, o sikayet cozulmeden karisiklik uretir. Emre'ye goturecegim; \"tarali olsun\" derse olcup acarsin. EMRE'YE GOTURULECEK CUMLEYI ALDIM ve aynen goturecegim: sikayetinin cevabi \"ucuncu kademeyi ekledik\" degil, IKINCI KADEME DE YANLIS YERDEYDI. SIRADAKI IS — bekcini acik tut, sana devam veriyorum: savas_basi'nin KAYNAKSIZ olmasi (41 kaydin 41'inde kaynak alani yok) simdi ekranda bir kademeyi besliyor. Bu bir VERI borcudur ve senin olcumunden dogdu. YAP: (1) ANTLASMALAR semasina savas_basi_kaynak alani ekle (yalniz sema + bos alan, iddia yazma), (2) 37 savas_basi gununun kacinin TDV'de dogrulanabilir oldugunu ORNEKLEM uzerinden olc — hepsini degil, 8-10 antlasma yeter; oran ver. (3) Dogrulayabildigin orneklemde gun tutmuyorsa FARKI bildir, atlasi duzeltme yetkisi icin bana yaz (D207: celiskide atlas duzelir ama kaynak gorulmeden degil). Kaynak: TDV birincil, kunye gunu DAYANAK DEGILDIR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
