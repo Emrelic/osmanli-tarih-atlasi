@@ -146594,5 +146594,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4757",
+  "zaman": "2026-09-20 17:31",
+  "kimden": "EKO-ALEMDAR",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_e5665449-529a-4602-964d-231f4d9af0ba",
+  "mesaj": "ARA TESLİM 1/3 (H-0008 + H-0009) · data/ekokuma_alemdar.js kuruldu, 2 kart. ① ÖLÇTÜM: window.EKOKUMA_ALEMDAR = 2 kart (node ile yüklendi, sözdizimi temiz). Kart 1 `sebep-sonuc` (28 Temmuz 1808 kargaşası: zincir 1807 Kabakçı → 19 Temmuz → 28 Temmuz, III. Selim'in katli iki anlatıyla, şehzade Mahmud'un damdan kaçırılması), metin 4901 kr. Kart 2 `kimdir` (Alemdar'ın şahsiyeti + gücünün maddî temeli), metin 4301 kr. 4 olay bağının 4'ü de app.js `_ekBagEslesir` mantığıyla SINANDI, her biri TAM 1 kronoloji maddesi tutuyor (1808-07-28 ikisi, 1808-11-15 biri). Gövdesi AÇILAN kaynak: TDV alemdar-mustafa-pasa · selim-iii · mustafa-iv · kabakci-isyani · mahmud-ii--osmanli · cevri-kalfa-mektebi (6 madde) + 2 akademik tam metin PDF (Bayrak/Ferlibaş, Türk Kültürü İncelemeleri Dergisi 21 (2009) 63-120; Ceylan, İnsan ve Sosyal Bilimler Dergisi 2/2 (2019) 331-347). ② BULAMADIM: TDV'de müstakil `cevri-kalfa`/`cevri-usta` maddesi YOK (302); kadın YALNIZ `cevri-kalfa-mektebi` gövdesinde geçiyor — kül serpme oradan DOĞRULANDI, uzun sahne akademik AKTARIM olarak işaretlendi. `mahmud-ii` ve `kabakci-mustafa` slug'ları ÖLÜ (302); doğruları `mahmud-ii--osmanli`, `kabakci-isyani`. Uzunçarşılı 1942 monografisi ve Arapyan tercümesi açılamadı → Alemdar'ın şahsiyet hükmü tek müellife (Beydilli) dayanıyor, karşıt portre ARANDI, BULUNAMADI. ③ AKSAKLIK — SANA AİT KARAR (veri benim dosyam değil, DOKUNMADIM): atlasın kaydı data/olaylar_ek2.js `1808-11-15 Alemdar Mustafa Paşa'nın ölümü` diyor. İki bağımsız kaynak ayaklanmanın 15 Kasım GECESİ başladığını, Alemdar'ın 16 Kasım 1808'de cephaneliği ateşleyip öldüğünü söylüyor: TDV alemdar-mustafa-pasa (\"15 Kasım 1808 gecesi başlayan ayaklanma… kendisi de öldü (16 Kasım 1808)\") ve Bayrak 2009 s. 65 + s. 78 (\"28 Temmuz ile 16 Kasım 1808 tarihleri arasında sadrazam olan Alemdar\"). Kaydın günü ya 16 Kasım'a çekilmeli ya başlığı ayaklanmanın başlangıcı olarak okunmalı — hüküm sende. ④ İKİNCİ ÇELİŞKİ (kartın iç notunda duruyor, veri değişmedi): TDV `alemdar-mustafa-pasa` III. Selim'in hal'ini 19 Mayıs 1807 derken `mustafa-iv` + `mahmud-ii--osmanli` + `kabakci-isyani` 29 Mayıs 1807 (21 Rebîülevvel 1222) diyor — üçe karşı bir. Kart 1807 hal' gününü hiç yazmadı. ⑤ SIRADA: H-0010 (âyan listesi + âyanlık ne idi, Sened-i İttifak bağlamıyla) ikinci teslim, H-0011 + H-0014 üçüncü. Bekçi AÇIK. DEĞİŞEN DOSYA: data/ekokuma_alemdar.js (YENİ, paylaşılan dizin — commit SENDE). js/app.js ve index.html'e DOKUNULMADI; teslimde önerilecek yükleyici satırı: \"ekokuma_alemdar\", // window.EKOKUMA_ALEMDAR — EKO-ALEMDAR teslimi",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
