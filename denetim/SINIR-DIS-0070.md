@@ -172,11 +172,90 @@ dişin kaynağı köşe TİPİ değil, genişlik/segment ORANI. (Ölçmedim — 
 · `SERBEST_TOL = 0.02` tamponunun (≈2 km) kısa segmentlere katkısı → ölçülmedi.
 ```
 
-## 7. Dokunduğum dosyalar
+## 7. Dokunduğum dosyalar (ÖLÇÜM aşaması)
 ```
 denetim/ARAC-SINIR-DIS-0070.py     YENİ — ölçüm aleti (yalnız okur)
 denetim/OLCUM-SINIR-DIS-0070.json  YENİ — ham ölçüm
 denetim/SINIR-DIS-0070.md          YENİ — bu rapor
 ```
-`data/`, `js/`, `arac/`, `index.html` **DEĞİŞTİRİLMEDİ**. Tarayıcıdaki katman
-söndürme/sadeleştirme denemeleri yalnız sayfa belleğinde yapıldı, geri alındı.
+Ölçüm aşamasında `data/`, `js/`, `arac/`, `index.html` DEĞİŞTİRİLMEDİ.
+
+---
+
+# 8. UYGULAMA — A şıkkı (1.MURAT hükmü M-4705, 20 Eylül 2026)
+
+Koordinatör A'yı bu oturuma verdi: `js/app.js`te çizimden önce Douglas–Peucker,
+**kıskaç(u/10, 1..5 km)**. `data/` ve `arac/` DEĞİŞMEDİ, motor koşusu YOK.
+
+## 8.1 Değişen tek yer
+`js/app.js` — `hatCoz()`in hemen üstü (SERBEST hat bölümü):
+`dpSadelestir()` + `serbestHat(i, u)` (indekse paralel önbellek) eklendi,
+`hatCoz()` artık `SERBEST[i]` yerine `serbestHat(i, u)` veriyor. Başka hiçbir
+katman, kaynak ya da bölüm elle edilmedi (ELE-GECIRME-ANIM-0070 ve
+EKOKUMA-SIMGE-0070 aynı dosyada çalışıyor; tahtaya "app.js: serbest hat çizimi
+bende" yazıldı — M-4707).
+
+## 8.2 🔴 UYGULARKEN ÇIKAN BULGU — DP "doğru"ya değil "parça"ya ölçmeli
+İlk yazımda klasik anlatımı izleyip noktanın **ab doğrusuna** dik uzaklığını
+kullandım. Havuz geneli ölçüldüğünde sapma **toleransı aştı: 10,11 km**
+(hat 351, u 47,2 km ⇒ tolerans 4,72 km). Sebep serbest kenarın **firkete**
+yapması: zincir b'nin ötesine taşıp geri dönüyor, öyle bir köşe ab DOĞRUSUNA
+yakın ama ab PARÇASINA uzak. Uzaklık parçaya (t∈[0,1] kırpması) çevrildi:
+
+```
+                              havuz en büyük sapma
+doğru uzaklığı (ilk yazım)         10,11 km   ← tolerans TUTMUYOR
+parça uzaklığı (yayınlanan)         4,97 km   ← kıskacın tavanı 5 km ✓
+```
+📌 Ders sınıfı: "denetim var ≠ o soruyu soruyor" — DP'nin *kendi* eşiği
+tutuyordu, tutmayan şey **hattın gerçek sapmasıydı**; ikisi firkete geometride
+ayrışıyor. Alet (`ARAC-SINIR-DIS-0070.py`) da aynı biçimde düzeltildi, bu
+rapordaki bütün sayılar düzeltilmiş hâliyle yeniden ölçüldü.
+
+## 8.3 SINAMA — tarayıcıda, gerçek veriyle, iki yönde
+Ölçüt değişmedi (dönüş ≥25° ∧ genişlik/segment ≥8×). Aynı yapıda, aynı
+oturumda, `serbest` kaynağına önce HAM sonra SADE geometri verilerek:
+
+| ölçüm | önce | sonra |
+|---|---|---|
+| K-A Bağdat–Şam (z5,4) diş | 171 | **4** |
+| K-B Mısır–Sina (z5,2) diş | 50 | **0** |
+| 1798-07-21 dönemi, z2/z3/z4/z5 diş | 370 | **6** |
+| z6 · z7 · z8 diş | 369 · 345 · 168 | **4 · 4 · 2** |
+| havuz geneli (480 hat, z5) dişli köşe | 8 665 | **182** |
+| dişi olan hat | 436 / 480 | **91 / 480** |
+| çizilen köşe (havuz) | 26 070 | **3 648 (−%86,0)** |
+| 2 noktadan az kalan (bozulan) hat | — | **0** |
+| en büyük sapma (havuz · köşe→sadeleşmiş hat) | — | **4,97 km** (K-A 4,57 · K-B 4,16) |
+| bütün havuzun DP maliyeti (bir kez, açılışta) | — | **4,2 ms** |
+
+**Gözle:** 1798-07-21'de aynı görünümde HAM ↔ SADE değiştirilerek bakıldı
+(z6,2): dişler gitti, **sönen hâle yerinde kaldı**. Ayrıca z3,2 (uzak),
+z7,6 (yakın) ve **başka bir dönem** (1550-06-01, z4,6 — Arabistan/Sahra
+kenarı) görüldü: hat kopması, köşe kaybı, kenar kayması YOK.
+⚠️ Bu sınamada haritanın genel görünümü ölçüm anındaki çalışma ağacına aittir;
+aynı dosyada iki oturum daha (animasyon · ek okuma) çalışıyor. HAM↔SADE
+karşılaştırması **aynı yapı içinde** yapıldı, yani fark yalnız benim kuralımdan
+geliyor.
+
+## 8.4 Sınırlar (açıkça)
+```
+· Diş sayıları ölçüttür, göz değil: "diş 4" = ölçütü geçen 4 köşe kaldı,
+  bunların ekranda görünür lob ürettiği AYRICA ölçülmedi (z6,2 görüntüsünde
+  gözle ayırt edilemiyor).
+· Sınanan dönem sayısı: 2 (1798-07-21 tam, 1550-06-01 gözle). Havuz geneli
+  sayısal olarak sınandı (480 hat), her dönemin ekran karşılığı DEĞİL.
+· 4,2 ms tek makinede tek ölçüm; profil dağılımı çıkarılmadı.
+· B şıkkı (motorda kalıcı sadeleştirme) bu oturumda YAPILMADI — sıradaki koşuya.
+```
+
+## 8.5 Değişen dosyalar (uygulama)
+```
+js/app.js                          DEĞİŞTİ — yalnız SERBEST hat bölümü
+                                   (PAYLAŞILAN dosya: commit 1.MURAT'ta)
+denetim/ARAC-SINIR-DIS-0070.py     GÜNCEL — DP parça uzaklığına çevrildi
+denetim/OLCUM-SINIR-DIS-0070.json  GÜNCEL — bütün ölçümler yeniden koşuldu
+denetim/SINIR-DIS-0070.md          GÜNCEL — bu bölüm
+```
+`data/`, `arac/`, `index.html` DEĞİŞMEDİ. Sürüm damgası (`index.html ?v=`)
+yükseltilmedi — yayın kapısı ve damga 1.MURAT'ta.

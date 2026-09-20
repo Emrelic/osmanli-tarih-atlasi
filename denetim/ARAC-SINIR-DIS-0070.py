@@ -251,7 +251,11 @@ def dolgu_mizrak(donem, kutu, esik_aci=20.0, esik_km=5.0):
 
 
 def dp_sadelestir(hat, tol_derece):
-    """Douglas–Peucker (saf python) — köşe atar, sapma tol'u AŞMAZ."""
+    """Douglas–Peucker (saf python) — köşe atar, sapma tol'u AŞMAZ.
+
+    ⚠️ Uzaklık PARÇAYA ölçülür, sonsuz doğruya değil: serbest kenar firkete
+    yapıyor ve doğru-uzaklığı o köşeleri "yakın" sanıp atıyordu (ölçüldü:
+    havuz en büyük sapma 10,11 km / hat 351, parça uzaklığıyla 4,97 km)."""
     if len(hat) < 3:
         return list(hat), 0.0
     tut = [False] * len(hat)
@@ -264,14 +268,13 @@ def dp_sadelestir(hat, tol_derece):
             continue
         (xa, ya), (xb, yb) = hat[a], hat[b]
         dx, dy = xb - xa, yb - ya
-        norm = math.hypot(dx, dy)
+        L = dx * dx + dy * dy
         en, eni = -1.0, None
         for i in range(a + 1, b):
             x, y = hat[i]
-            if norm == 0:
-                d = math.hypot(x - xa, y - ya)
-            else:
-                d = abs(dy * x - dx * y + xb * ya - yb * xa) / norm
+            t = (((x - xa) * dx + (y - ya) * dy) / L) if L > 0 else 0.0
+            t = max(0.0, min(1.0, t))
+            d = math.hypot(x - (xa + t * dx), y - (ya + t * dy))
             if d > en:
                 en, eni = d, i
         if en > tol_derece:

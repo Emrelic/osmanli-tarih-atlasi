@@ -862,6 +862,28 @@
   "u_medyan": 57.5,
   "u_max": 187.2
  },
+ "dolgu": [
+  {
+   "kutu": "K-A Bağdat–Şam çölü",
+   "incelenen_parca": 26,
+   "mizrak_kose": 0,
+   "esik": {
+    "uc_aci_max": 20.0,
+    "boy_min_km": 5.0
+   },
+   "ornek": []
+  },
+  {
+   "kutu": "K-B Mısır–Sina",
+   "incelenen_parca": 21,
+   "mizrak_kose": 0,
+   "esik": {
+    "uc_aci_max": 20.0,
+    "boy_min_km": 5.0
+   },
+   "ornek": []
+  }
+ ],
  "havuz": {
   "segment_sayisi": 25590,
   "seg_min_km": 0.072,
@@ -970,7 +992,7 @@
     ],
     "havuz": {
      "kose_eski": 26070,
-     "kose_yeni": 12259,
+     "kose_yeni": 12264,
      "azalma_yuzde": 53.0
     }
    },
@@ -990,8 +1012,8 @@
     ],
     "havuz": {
      "kose_eski": 26070,
-     "kose_yeni": 7775,
-     "azalma_yuzde": 70.2
+     "kose_yeni": 7785,
+     "azalma_yuzde": 70.1
     }
    },
    {
@@ -1010,7 +1032,7 @@
     ],
     "havuz": {
      "kose_eski": 26070,
-     "kose_yeni": 3204,
+     "kose_yeni": 3217,
      "azalma_yuzde": 87.7
     }
    },
@@ -1030,7 +1052,7 @@
     ],
     "havuz": {
      "kose_eski": 26070,
-     "kose_yeni": 2265,
+     "kose_yeni": 2263,
      "azalma_yuzde": 91.3
     }
    }
