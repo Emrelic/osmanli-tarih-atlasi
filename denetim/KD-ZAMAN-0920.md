@@ -687,6 +687,89 @@ niçin öyle olduğu kodun içine yazıldı — aynı tuzağa ikinci kez düşü
 Bu liste, mekanik `kd:` yüzünden susan "bu kaydın `d:` başlangıcı doğru mu?"
 sorusunun **yeni taşıyıcısıdır**.
 
+---
+
+# PARTİ 8 — C SINIFI / BURSA KÜMESİ (12 kayıt, 12 çelişki) · 21 Eylül 2026
+
+## 30. ÖNGÖRÜ (parti 8) — ölçümden ÖNCE
+
+**Küme = 1300 kesitinde kalan bütün çelişkiler (12):** Bilecik · Bozüyük · Domaniç ·
+Ermeni Derbendi · Kulacahisar · Köprühisar (Yenişehir) · Pazaryeri · Söğüt · Yarhisar ·
+İnegöl (`m:"Bursa"`) + Eskişehir · Karacahisar (`m:"Kütahya"`).
+Hepsi 1300'de **OSMANLI**, merkezleri ise **bizans/germiyan** — yani kusur kaydın
+sahipliğinde değil, **merkez bağının zamansızlığında**.
+
+**ÖNGÖRÜ: 71 → 59 (−12).** Yeni çelişki doğmamalı: yazılan `m:` pencereleri 1400 ve
+sonrasında iki tarafı da Osmanlı bırakıyor (Bursa 1326-1402 ve 1413+, Kütahya
+1381-1402 ve 1429+ — kesitlerde uyuşuyor).
+
+## 31. KAYNAKLAR — iki cümle bütün kümeyi çözüyor
+
+| Kaynak | Cümle | Ne veriyor |
+|---|---|---|
+| TDV `bursa` | "…bu abluka yüzünden şehir Osmanlılar'a teslim edildi (**6 Nisan 1326**)" · "**Bursa Orhan Gazi tarafından Osmanlı Beyliği'nin merkezi yapıldı.**" | `m:"Bursa"` penceresinin BAŞLANGICI — gün hassasiyetinde |
+| TDV `kutahya` | "Süleyman Şah'ın kızının düğünü dolayısıyla **Kütahya**, Simav, Eğrigöz ve Tavşanlı **çeyiz olarak Osmanlılar'a verildi**. **783 (1381)** yılında yapılan düğünden sonra Şehzade Bayezid Kütahya'ya idareci olarak gönderildi." | `m:"Kütahya"` penceresinin başlangıcı — **yıl** hassasiyetinde ⇒ `1381-01-01` |
+
+**Yazılan kalıp:** `{1281-01-01 → kaydın kendi Osmanlı başlangıcı, k:0, m:null}`
+(A kalıbı, yalnız başlangıcı 1281'den sonra olanlarda) → **BOŞLUK** → `{1326-04-06`
+(Kütahya kümesinde `1381-01-01`) `→ 1923-10-29, k:<kaydın k:si>, m:<kaydın m:si>}`.
+
+🔴 **Ortadaki BOŞLUK bir beyandır:** *"bu kasaba Osmanlıydı ama merkezinin ne olduğunu
+kaynaktan okuyamadım."* Aradım: `sogut` maddesi Söğüt'ü "Osmanlı Devleti'nin ilk
+kurulduğu yer" diye tanımlıyor ve Ertuğrul'un kışlağı olduğunu söylüyor, ama
+**"şu kasabaların idarî merkezi Söğüt'tü" diyen bir cümle YOK**. `/yenisehir` slugu
+**TUZAK ②**: canlı ama madde **Teselya'daki Larissa**, Bursa'nın Yenişehir'i değil.
+⇒ 1281/1299 → 1326 arası merkez: **`bulunamadı`**.
+
+📌 **`kaynak:` alanına DOKUNMADIM.** Sevkin "hangi kaynağın hangi cümlesine dayandığını
+kayda yaz" maddesini bu raporun §31 tablosuyla karşıladım; veri kaydına ikinci bir
+`kaynak:` anahtarı eklemek TARIH-SUPHE-0920'nin bulduğu sınıfa girer (aynı alan iki kez
+yazılırsa ikincisi birincisini SESSİZCE yutar, `denetle.py` ötmez). Veri tarafında bir
+alan isteniyorsa `kd_kaynak:` açılmalı ve `girdi.py BILINEN_ALANLAR`a girmeli — ikisi de
+benim kalemim değil.
+
+## 32. PARTİ 8 SONUCU
+
+| Ölçü | Önce | Sonra | Öngörü |
+|---|---|---|---|
+| ZAMANLI çelişki | 71 | **59** | 59 ✓ **TUTTU** |
+| ZAMANSIZ çelişki | 489 | **489** | sabit ✓ |
+| `kd:` taşıyan kayıt | 397 | **409** | +12 ✓ |
+| çelişki üreten ayrı yerleşim | 64 | **52** | −12 ✓ |
+| **1300 kesitinde kalan çelişki** | 12 | **0** | — |
+
+`py arac/denetle.py` (21 Eylül, parti 8'den sonra; koşmadan önce tahtaya M-4912 ile
+"denetle koşturuyorum" yazıldı): **SONUÇ temiz** — Değişmez 1 ✓ 299 sahipsiz ·
+Değişmez 2 ✓ 590 kırılma 0 açık.
+
+### Yazılan kayıtlar
+| kayıt | kendi Osmanlı başlangıcı | `m:` penceresi başlangıcı | k / m |
+|---|---|---|---|
+| Bilecik · Yarhisar · İnegöl | 1299-01-01 | 1326-04-06 | 4 / Bursa |
+| Kulacahisar | 1285-01-01 | 1326-04-06 | 4 / Bursa |
+| Köprühisar (Yenişehir) | 1300-01-01 | 1326-04-06 | 4 / Bursa |
+| Bozüyük · Domaniç · Ermeni Derbendi · Pazaryeri | 1281-01-01 (ufkun başı) | 1326-04-06 | 4 / Bursa |
+| Söğüt | 1281-01-01 | 1326-04-06 | **1** / Bursa |
+| Eskişehir | 1288-01-01 | 1381-01-01 | 3 / Kütahya |
+| Karacahisar | 1288-01-01 | 1381-01-01 | 4 / Kütahya |
+
+### Yol boyunca çıkan iki soru (benim kalemim değil, bildiriyorum)
+1. **Söğüt'ün `k:`si 1** — yani "eyalet merkezi" kademesi — ama `m:"Bursa"`.
+   `kd:`ye kaydın kendi değerini taşıdım (uydurmamak için), ama k:1 bir yerleşimin
+   başka bir merkeze bağlı olması şemanın mantığıyla oturmuyor (`k12_merkez`
+   zinciri k:1/k:2'de DURUR). Ölçmedim, sormuyorum: bildiriyorum.
+2. **Eskişehir aslında bir sancak MERKEZİ.** TDV `eskisehir`: "Eskişehir, adı daha
+   önceki dönemlerde ortaya çıkmış olan **Sultanönü sancağının merkez kazası**
+   durumundaydı. **Anadolu beylerbeyiliğine bağlı** olan sancak…" ve "Osman Bey'in
+   sağlığında oğlu Orhan'ın **Karacahisar (Sultanönü) sancak beyi**… olduğu belirtilir."
+   ⇒ `m:"Kütahya"` bağı, Anadolu beylerbeyiliğinin merkezi Kütahya olduğu için
+   HİYERARŞİK olarak savunulabilir, ama Eskişehir'in kendi kademesi (`k:3`) sancak
+   merkezi olmasıyla uyuşmuyor; Karacahisar da erken dönemde sancak adının kendisi.
+   Anadolu beylerbeyiliğinin kuruluş yılını bu maddede bulamadım, o yüzden pencereyi
+   Kütahya'nın Osmanlı'ya geçtiği yıldan (1381) başlattım.
+
+---
+
 🔴 **Aletin kendi tuzağı — yaşandı ve düzeltildi:** araç A sınıfını ÇELİŞKİLERDEN
 türetiyor; yama uygulandıktan sonra o çelişkiler yok, dolayısıyla araç ikinci kez
 koşturulunca **84 satırlık listeyi BOŞ olarak üzerine yazdı.** Artık liste
