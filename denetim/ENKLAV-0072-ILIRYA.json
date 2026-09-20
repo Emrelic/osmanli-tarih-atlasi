@@ -1,7 +1,35 @@
 {
   "_": "ENKLAV-0072 · C (Napolyon/Illirya) + D (Residi oncesi Hail) ONERI DOSYASI",
   "_tarih": "2026-09-20",
-  "_durum": "ONERI — VERIYE YAZILMADI. Yazma yetkisi kova (b) kesinlesince verilecek (M-4806).",
+  "_durum": "UYGULANDI — 1.MURAT M-4811 ile yazma yetkisi verdi. Asagidaki 'uygulama_sonucu' blokuna bak; ONERIDEN SAPAN UC NOKTA orada yazili.",
+  "uygulama_sonucu": {
+    "_tarih": "2026-09-20",
+    "sira": "M-4811'in dayattigi sira AYNEN izlendi: (1) dort kronoloji maddesi -> (2) denetle, 2s geri okundu -> (3) 29+1 kayit -> (4) denetle.",
+    "adim_1": "data/olaylar_ilirya_0072.js acildi (window.OLAYLAR_ILIRYA0072), dort madde: 1806-02-01, 1806-01-01, 1813-01-01, 1779-01-01. index.html satiri 1.MURAT'ta.",
+    "adim_2_olculen": "Degismez 2s: 178 ACIK / 151 YIL-BORC — taban, degismedi. SONUC temiz. (Maddeler tek basina kirilma URETMEZ, yalniz kapatir.)",
+    "adim_3": "30 kayit yamandi (29 Ilirya + Hail), 4 dosyada 30 satir. Her dosya yazmadan HEMEN ONCE taze okundu, yazdiktan sonra kayit kayit GERI OKUNDU: 30/30 tuttu.",
+    "adim_4_olculen": {
+      "Degismez_1": "3921 yerlesim, 299 sahipsiz — DEGISMEDI (yeni delik yok; yalniz sahipli pencereler bolundu)",
+      "Degismez_2": "590 kirilma, 0 acik",
+      "Degismez_2s": "1419 kirilma · 178 ACIK (tavan 195) · 151 YIL-TEMSILI BORC (tavan 151) — IKISI DE TABAN. Net 2s maliyeti SIFIR, ongorulen gibi.",
+      "Degismez_7": "666 sorgusuz enklav (tavan 667) · muaf beyan 65 -> 67",
+      "SONUC": "temiz",
+      "renk_olc": "cikis kodu 0 — 0 gorunmez · 0 cakisma · 0 ayni-hex. Yeni boya GEREKMEDI: fransa-cumhuriyet, italya-napolyon ve rusya zaten boyali."
+    },
+    "ONERIDEN_SAPAN_UC_NOKTA": [
+      "① SISAK kova (c)'den kova (b3)'e TASINDI. 1.MURAT'in istedigi cografi olcum yapildi: Natural Earth 10m 'Sava' hatti (Avrupa kutusu, 375 nokta) — Sisak nehrin 8,6 km GUNEYINDE, yani 'juzno od rijeke Save' olcutu TUTUYOR. Kostajnica -19,7 km ve Karlovac -50,4 km ile dogrulandi. Kova (b) 28 -> 29.",
+      "② JASENOVAC kova (c)'de KALDI: nehrin TAM UZERINDE (fark 0,0 km), Natural Earth 10m cozunurlugunde yaka AYIRT EDILEMIYOR. 'olculemedi' yazildi, DEGISTIRILMEDI. ⚠️ Ayni olcum ZAGREB'i de +3,0 km ile esikte birakti — kova (a)'daki yeri bu yuzden olcumle DEGIL, olcut + kaynak sessizligiyle duruyor; kumedeki EN ZAYIF siniflandirma odur.",
+      "③ UDINE kapsam DISI birakildi (M-4811 c). Ayri kalem."
+    ],
+    "YENI_BULGU_BOKA_HAKIKI_ENKLAV": {
+      "_": "Yama ilk kosuda Degismez 7'yi IHLAL ETTI: 668 sorgusuz enklav (tavan 667). Sebep bulundu ve HATA DEGILDI.",
+      "olculen": "1806-01-01 Herseknovi -> rusya 932 km · Kotor -> rusya 923 km, govdesiz. denetle.py'nin C-hakiki dali (800 km ustu).",
+      "hukum": "HAKIKI ENKLAV. Boka'nin 1806-07 Rus idaresi Senyavin filosunun tuttugu DENIZ ASIRI bir idareydi; kopukluk veri kusuru degil olgunun kendisi.",
+      "care": "Iki pencereye enklav:true yazildi (denetimin KENDI onerdigi care) + gerekce kaynak: alanina konuldu. 668 -> 666, beyan muafi 65 -> 67.",
+      "not": "Once enklav_not diye YENI bir alan uydurmustum; renk_olc.py 's.enklav_not BILINEN_ALANLAR'da yok' diye uyardi. Alan KALDIRILDI, gerekce Lugos'un emsaline uyularak kaynak: alanina tasindi. girdi.py'ye yeni alan yazilmadi."
+    },
+    "commit": "data/* COMMITLENMEDI — paylasilan dosya, 1.MURAT commitler. Degisen: data/olaylar_ilirya_0072.js (YENI) · data/yerlesimler.js (12 satir) · data/yerlesimler_ek.js (10) · data/yerlesimler_ek29.js (7) · data/yerlesimler_avrupa.js (1)."
+  },
   "_yontem": "Evren olcumu: 1806-06-01 / 1809-06-01 / 1812-06-01 uc gunde de kesintisiz 'avusturya' yazan, lat 42,0-46,9 lon 13,0-20,0 kusagindaki yerlesimler = 42. Ayni kusakta fransa yazan = 1 (Dubrovnik). Tarih anlambilimi f <= gun < t.",
   "_olcut": "1.MURAT'in verdigi olcut (M-4806): 1809 Schonbrunn'un devrettigi alan. Kaynak bu olcutu kelimesi kelimesine veriyor — LZMK 'Vojna krajina': 'Mirom u Schonbrunnu 1809. habsburski posjedi JUZNO OD RIJEKE SAVE usli su u sastav Ilirskih pokrajina'.",
 
@@ -63,8 +91,9 @@
       "_onemli": "Kvarner adalari 1806-1809'da ILIRYA DEGIL, Napolyon ITALYA KRALLIGI. Kunye VAR: italya-napolyon (1797-07-09..1814-04-16), pencereyi tutuyor. Cres ve Rab icin Krk maddesinin hukmu bolgeseldir — kendi maddeleri TARANMADI."
     },
     "b3_sava_guneyi": {
-      "yerlesim": ["Karlovac", "Gospić", "Udbina", "Drežnik (Drežnik Grad)", "Cetin (Cetingrad)", "Kostayniçe (Kostajnica)"],
-      "adet": 6,
+      "yerlesim": ["Karlovac", "Sisak", "Gospić", "Udbina", "Drežnik (Drežnik Grad)", "Cetin (Cetingrad)", "Kostayniçe (Kostajnica)"],
+      "adet": 7,
+      "_sisak": "Sisak kova (c)'den BURAYA tasindi: Natural Earth 10m Sava hattina gore nehrin 8,6 km GUNEYINDE (olcum uygulama_sonucu ①).",
       "eklenecek": [{ "f": "1809-10-14", "t": "1813-01-01", "d": "fransa-cumhuriyet", "kesinlik": { "f": "gun", "t": "yil" } }],
       "dayanak": ["LZMK-vojna-krajina", "LZMK-karlovac"],
       "_not": "Yalniz Karlovac'in KENDI maddesi var; oteki 5'i 'juzno od rijeke Save' olcutuyle."
@@ -91,8 +120,7 @@
   "kova_c_olculemedi": {
     "_hukum": "Kaynak bulunamadi — YAZILMAZ, ikinci tarama ister.",
     "kayitlar": [
-      { "ad": "Sisak", "sebep": "LZMK Sisak maddesi 1809-13 donemine HIC deginmiyor (olculdu). Sava/Kupa kavsaginda, Banska krajina'ya bagliydi — 'juzno od Save' olcutu tek basina hukum vermiyor." },
-      { "ad": "Jasenovaç (Jasenovac)", "sebep": "Sava'nin tam uzerinde; hangi yakada sayildigi kaynaktan okunamadi." },
+      { "ad": "Jasenovaç (Jasenovac)", "sebep": "Sava'nin TAM UZERINDE — Natural Earth 10m'de fark 0,0 km, yaka AYIRT EDILEMIYOR. LZMK maddesi de 1809-13'e deginmiyor. 'olculemedi' — DEGISTIRILMEDI." },
       { "ad": "Udine", "sebep": "Friuli Ilirya'ya DEGIL Napolyon Italya Kralligi'na gitti; ilirske-pokrajine listesinde Goriska var, Udine YOK. Kendi maddesi taranmadi. Not: yerlesimler_avrupa.js = KUYRUK, 2s evreninde degil." }
     ]
   },
