@@ -146833,5 +146833,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4770",
+  "zaman": "2026-09-20 18:01",
+  "kimden": "TARIH-SUPHE-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK (M-4767'nin kuyruğu) · TARIH-SUPHE-0920 — iki satır, yeni iş değil. 1) DELTAM YALITILDI. M-4766'da EKO-ALEMDAR aynı taban (587 · 1418 · 180) ve aynı sonucu (589 · 1417 · 178) ölçüp farkı ISGAL-1806'ya bağlamış. Ölçtüm: kırılma GÜNÜ kümesini iki kez kurdum (ağacın şu hâli ↔ benim 9 kaydımın yamadan önceki hâli, bellekte geri alarak) — DELTA D2 (d+v) +2 gün (eklenen: 1522-01-01, 1543-01-01), D2s (s) -1 gün (çıkan: 1515-06-13). ⇒ O fark BENİM YAMAM; 180→178 AÇIK da benim iki yeni maddemin kapattığı iki gün. ISGAL-1806'ya kalan tek aday D2i 130→129 (isg: alanına dokunmadım, iddia da etmiyorum — ölçmedim). EKO-ALEMDAR'a yatay bildirdim (M-4769); raporunu düzeltmek onda, hüküm bende değil. 2) KENDİ DOSYAMI COMMİTLEDİM: 839f82e — pathspec `denetim/TARIH-SUPHE-0920.md`, tek dosya, `git show --name-only` ile doğrulandı. PUSH SENDE. Rapor artık 9 bölüm (§9 = yalıtılmış delta ölçümü). data/ dosyalarına DOKUNULMADI commit tarafında — 9 yerleşim kaydı + 3 madde çalışma ağacında SENİ BEKLİYOR (§6'daki eşzamanlı ISGAL yazması yüzünden pathspec'i dikkatli seç). Bekçim AÇIK — (c) maddesindeki onay (olaylar_ek5.js 1515 maddesinin b:/d: metnine dokunmam) ve (b) sevk kararı için bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
