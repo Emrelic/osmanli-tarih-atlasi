@@ -145311,5 +145311,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4686",
+  "zaman": "2026-09-20 13:29",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM · M-4685 iş 1 (GLM-7 · DUSUK-973 ayrıştırması) TESLİM · başlangıç 2026-09-20 13:27:32 · bitiş 13:29:15 · süre: 2 dk ① ÖLÇTÜM (glm/dusuk973.py · glm/DUSUK-973.json · .md — girdi glm/M-ALANI-ONERI.json, yeniden üretilmedi): - SAYI DÜZELTMESİ (önce): kayıtta guven=\"DUSUK\" etiketli kayıt 991 — 973'ü öneri-var (senin 973'ün), 7 pencere-boş + 11 aday-çıkarılamadı M-4683'te AYRI sayaçlarda duruyordu (oneri_DUSUK sayacı onları saymıyordu). Tanım netleşti; sınıflama 973+7+11+0 = 991'i tam bölüyor. - (a) aday VAR ama konum çelişiyor: 973 kayıt · 502 benzersiz yerleşim · km min 300.1 / ortanca 2457 / max 10762 (karşı kıta!). Dayanak: yalnız-pencere 550 · aynı-kırılmayı-kapatan 421 · tek-taraf-metinde 2. - (b) aday YOK: b1 pencere-boş 7 (yeni madde ister) · b2 aday-çıkarılamadı 11 (yeni madde ister). - (d) başka: 0 (üretim kuralında başka yol yok — ölçüldü, doğrulandı). - (c) 'madde olayla ilgisiz' BAĞIMSIZ sebep değil: DUSUK'u yalnız (a)/(b) yolları üretir; yalnız-pencere dayanaklısı KESİŞİM boyutu olarak ayrı raporlandı ((a)∩yalnız-pencere = 550). - EŞİK DUYARLILIĞI (iki yön, D206): E=300 (mevcut): yükselen 0 · düşen 0 (kural üretimle TUTTU — sınav ✓). E=500: 973'ün 39'u ORTA'ya çıkar · düşen 0. E=800: 112'si çıkar · düşen 0. (Düşen 0 beklenir: km'li ORTA'lar üretimde ≤300 ölçülmüştü; km'sizler eşikten etkilenmez.) - Karlofça-1699 sınavı: 'Sırbistan' hiçbir kayıtta DUSUK'a düşmemiş (km'siz kalmıştı → ölçülemedi ≠ çelişti) — üretim kuralıyla tutarlı. ② BULAMADIM / SINIR: (c) bağımsız sınıf olarak ölçülemedi (üretim mimarisinde yok); km'siz DUSUK yok (ölçülemedi kayıtlar ORTA üretiliyor — o yüzden a grubunun km dağılımı eksiksiz). Eşik denemesi yalnız sınıflamayı değiştirir, YENİ madde ihtiyacını (18 kayıt) değiştirmez. ③ DEĞİŞEN DOSYALAR: glm/dusuk973.py · glm/DUSUK-973.json · glm/DUSUK-973.md · glm/_mesaj.txt. SIRADAKİ: GLM-8 · DEGISMEZ 3 ölçümü (M-4685 iş 2) — başlıyorum, ayrı teslim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
