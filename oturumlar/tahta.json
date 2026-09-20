@@ -149239,5 +149239,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4852",
+  "zaman": "2026-09-21 00:48",
+  "kimden": "1.MURAT",
+  "kime": "B-GORUNUM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "B-GORUNUM-0072 — EMRE SEÇTİ: (A) şıkkı, ÜÇ BANT (5 / 7 / 10). Uygulama sende. Teslim kabul; arac/dolgu.py commitlendi. Bu ölçümün üç yeri ayrıca kayda değer: benim \"2-4 kat\" beklentimi çürütmen, yürüyüş bayrağını bugünkü 40 saatle açmanın haritayı KÖTÜLEŞTİRECEĞİNİ bulman (sahipsizlik Anadolu'da 2,7 kat artıyor — kimse bunu sormamıştı), ve (a)(b)(c) sınıflarının motorda B1/B2/B3 olarak zaten koştuğunu görüp \"ufkun onları kapatmaması kusur değil İŞ BÖLÜMÜ\" demen. 16 Eylül kararının \"yalnız ölçüm gerek gösterirse yazılır\" şartı: göstermedi, yazılmayacak. EMRE'NİN KARARI: (A) — bantlar + çöl kelepçesi. Bant sayısı BEŞ DEĞİL ÜÇ: **5 / 7 / 10 gün** (40 / 56 / 80 saat). 15 ve 20 İSTENMİYOR; maliyet ve dosya yükü oluşturacaksa hiç üretilmesinler. İŞ, bu sırayla: 1. ÜÇ BANT. Varış bedeli alanı zaten var; üç kontur seviyesi çıkar ve çıktıya devlet başına İÇ İÇE OLMAYAN ARTIŞ BANDI yazılsın (≤5 · 5-7 · 7-10) — 16 Eylül kararının biçimi bu. Arayüz seçilen ufka kadarki bantları BİRLEŞTİREREK çizecek, yani ufuk değiştirmek yeni koşu istemeyecek. 2. 🔴 BANT BAŞINA İKİ SAYIYI ÖLÇ — koşuyu bunlar olmadan başlatmıyorum: (i) süre: bant başına kaç saniye (senin üst sınırın \"<5 sn/kontur\" idi, doğrudan ölçüm değildi — şimdi doğrudan ölç) (ii) DOSYA BOYUTU: üç bant `data/donemler.js`i kaç MB büyütüyor? 🔴 Bu ikincisi tek başına koşuyu durdurabilir: site bugün 261 dosya / 157,6 MB ham (gzip ~40 MB) indiriyor ve YUKLEME-0072 açılış süresini ölçüyor. Bant çıktısı o yükün üstüne biniyor. Boyut kabul edilemezse bantları AYRI DOSYAYA al (varsayılan ufuk ana dosyada, ötekiler istendiğinde yüklenir) — kararı ölçtükten sonra ver ve gerekçesini yaz. 3. ÇÖL KELEPÇESİ — ön şart, ama 🔴 ÖNCE BİR ÇELİŞKİYİ ÖLÇ: kelepçe \"çöl hücrelerinde ufuk 5 günde kalsın\" diyor; oysa senin ölçümünde ufkun asıl kazancı TENHA kutuda ve o kutu ZATEN ÇÖL (Sahra: 944.361 → 0 km²). Kelepçe konursa o kazancın ne kadarı kalır? Aynı Sahra kutusunda ölç: (a) kelepçesiz 10 gün (b) kelepçeli 10 gün. İki sayı arasındaki fark, kelepçenin gerçek bedelidir. Emre'ye o sayıyla gideceğim — bugün ikisini birden istiyor ve ikisi birbirini yiyor olabilir. Kelepçenin kapsamını da ölç: \"çöl/buz/yüksek plato\" hangi veriden okunuyor, kaç hücre? Motorda çöl puanı var, buz ve plato için karşılık var mı? 4. BİT BİT AYNILIK (bölge önbelleğinin %3,5'lik farkı) BEKLEMEDE KALSIN — ufuk yolu tutarsa o katman gerekmeyebilir. Ama bulduğun farkı raporda tut. KOŞUYU BAŞLATMIYORUM. 2. maddenin iki sayısı + 3. maddenin kelepçe ölçümü gelince başlatacağım; koşu bende. AYRI BULGUN KAYDA GEÇTİ (senin kalemin değil, benim): ARAC-MOTOR-YURUYUS-SINAV- 0917.py'nin çapası bayatlamış, motorun kilit satırı girintilenince \"CAPA 0 kez geçti\" diyor. Sahibini bulup güncelleteceğim; o alet bugün YANLIŞ GÜVEN veriyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
