@@ -1,0 +1,117 @@
+{
+  "gorev": "M-ALANI-0920 — yerlesimlere m: (k1/k2 MERKEZ ADI) alani",
+  "hukum": "1.MURAT M-4689 (B): 86 acik k12 zincirinden TDV ile dogrulanabilenler doldurulur; dogrulanamayan BOS kalir ve 'olculemedi' yazilir. 2s'de kapanma YAN URUNDUR.",
+  "sema": "VERI-YAPISI.md:120 — m = Bagli oldugu k1/k2 merkezinin ADI, bir yerlesim adina birebir eslesmeli. BOLGE alani DEGILDIR.",
+  "kaynak_kurali": "TDV birincil. Atlas kendi kaydi dayanak degildir. Onerilen deger degil, TDV'nin soyledigi merkez yazilir.",
+  "not_glm_onerileri": "glm/M-ALANI-ONERI.json onerileri KULLANILMADI — 71 YUKSEK onerinin 50'si sema disi, ad tutan 13'unun 9'u tarihen ters. Ayrinti: denetim/M-ALANI-0920.md",
+  "partiler": [
+    {
+      "parti": 1,
+      "tarih": "2026-09-20",
+      "incelenen_kayit": 20,
+      "uygulanan": 6,
+      "olculemedi": 13,
+      "baska_alan_borcu": 1,
+      "olcum": {
+        "2s_acik_once": 192,
+        "2s_acik_sonra": 191,
+        "degismez3z_zamansiz_once": 482,
+        "degismez3z_zamansiz_sonra": 489,
+        "degismez3z_not": "+7 celiskinin TAMAMI Osmanli donemi DISINDAKI ornek gunlerde (1300/1400) ya da gercek ayrisma (1800 Babadagi/Ozi) — yanlis atama DEGIL, m:'nin zaman penceresi olmamasi (CLAUDE.md §3: kusurun %93'u bu sinif, kd: cozer).",
+        "ihlal": "yok — butun degismezler yesil"
+      }
+    }
+  ],
+  "uygulanan": [
+    {
+      "yerlesim": "Üsküdar",
+      "dosya": "data/yerlesimler_ek29.js",
+      "eski_m": null,
+      "yeni_m": "İzmit",
+      "zincir": "Üsküdar(k=3) -> İzmit(k=3) -> İstanbul(k=1)",
+      "dayanak": "TDV 'ÜSKÜDAR': «Üsküdar, Osmanlı idaresine girdiğinde Koca-ili (İzmit) sancağına bağlı Gebze kazası içinde yer aldı ve bir kadılık merkezi haline getirildi.»",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/uskudar",
+      "guven": "YUKSEK",
+      "not": "Verideki yazim 'İzmit'; TDV 'Koca-ili (İzmit)' diyor. 1871'de mutasarriflik oldu — m: zamansiz oldugu icin erken/uzun donem yazildi."
+    },
+    {
+      "yerlesim": "İştip (Štip)",
+      "dosya": "data/yerlesimler_ok107.js",
+      "eski_m": null,
+      "yeni_m": "Köstendil",
+      "zincir": "İştip(k=3) -> Köstendil(k=4) -> Sofya(k=2)",
+      "dayanak": "TDV 'İŞTİP': «Burası Ilıca-Köstendil sancağının kaza merkezi oldu ve Tanzimat dönemindeki düzenlemeye kadar da bu durumunu korudu.»",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/istip",
+      "guven": "YUKSEK",
+      "not": "Verideki Osmanli donemi 1395-05'te basliyor; TDV Kostadin-ili sancaginin 1395'te intikal ettigini soyluyor — ortusuyor."
+    },
+    {
+      "yerlesim": "Ustrumca (Strumica)",
+      "dosya": "data/yerlesimler_ok107.js",
+      "eski_m": null,
+      "yeni_m": "Köstendil",
+      "zincir": "Ustrumca(k=3) -> Köstendil(k=4) -> Sofya(k=2)",
+      "dayanak": "TDV 'USTRUMCA': «1395'te ... küçük devleti, Ilıca-i Kostandin (daha sonra Köstendil) denilen eski Velbužd şehri dahil Kostadin-ili adıyla bir sancak şeklinde Osmanlılar'a intikal etti. Ustrumca kadılık ikametgâhı yapıldı.»",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/ustrumca",
+      "guven": "ORTA",
+      "not": "TDV 'Ustrumca kazasi Kostendil sancagindadir' cumlesini BIREBIR kurmuyor; sancagin kurulusunu ve Ustrumca'nin icindeki kadilik statusunu anlatiyor. Doyran maddesi bunu teyit ediyor: «Köstendil sancağının bir parçası olan büyük Ustrumca (Strumica) kazası»."
+    },
+    {
+      "yerlesim": "Siirt",
+      "dosya": "data/yerlesimler_ok107.js",
+      "eski_m": null,
+      "yeni_m": "Diyarbakır",
+      "zincir": "Siirt(k=3) -> Diyarbakır(k=2)",
+      "dayanak": "TDV 'SİİRT': «Osmanlı idarî teşkilâtında önceleri Diyarbekir beylerbeyiliğinde bir kaza merkeziydi.» · «Tanzimat'tan sonra ... Diyarbekir vilâyetine bağlı kalan, 1884'te Bitlis vilâyetine nakledilen Siirt...»",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/siirt",
+      "guven": "YUKSEK",
+      "not": "Verideki yazim 'Diyarbakır', TDV 'Diyarbekir' (D215 esanlam ekseni). Siirt sonradan sancak statusu kazandi ama 1884'e kadar Diyarbekir'e bagli kaldi — iki okumada da Diyarbakir dogru."
+    },
+    {
+      "yerlesim": "Babadağı (Babadag)",
+      "dosya": "data/yerlesimler_ek29.js",
+      "eski_m": null,
+      "yeni_m": "Özi",
+      "zincir": "Babadağı(k=3) -> Özi(k=3) -> Silistre(k=2)",
+      "dayanak": "TDV 'BABADAĞI': «...Özü eyaletinde paşa hassı bir voyvodalık olan şehir...» · «Evliya Çelebi'ye göre 300 akçe pâyeli bir kaza olan Babadağı'nın yedi nahiyesi ve 100 köyü vardı.»",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/babadagi",
+      "guven": "ORTA",
+      "not": "Verideki yazim 'Özi', TDV 'Özü'. Ozu eyaleti 1593'te kuruldu; Babadagi'nin Osmanli donemi 1393'te basliyor — m: zamansiz oldugu icin 1300/1400 ornek gunlerinde Degismez 3 celiskisi doguyor (beklenen, kd: isi)."
+    },
+    {
+      "yerlesim": "Hoy",
+      "dosya": "data/yerlesimler.js",
+      "eski_m": null,
+      "yeni_m": "Tebriz",
+      "zincir": "Hoy(k=3) -> Tebriz(k=2)",
+      "dayanak": "TDV 'HOY': «Tebriz'e bağlı bir sancak merkezi haline getirilerek yörenin zaptında yararlılıkları görülen Şahkuluoğulları'na verildi; 1585'te bu sancağın beyi Şahkuluoğulları'ndan Alâeddin Bey idi.»",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/hoy",
+      "guven": "YUKSEK",
+      "not": "🟡 KOORDINATORE: Hoy, bu turda yazilan TEK kd: tasiyan kayit. kd:[{f:1585-01-01,t:1612-01-01,k:3,m:null}] duruyor ve girdi.kd_oku() kd: varsa ust duzey m:'yi HIC OKUMAZ. Dolayisiyla bu yazim yalniz uret_petek.k12_merkez() ve Degismez 3 icin gecerli; kd_gun() hala None doner. kd: icindeki m:null AYRI bir karar ister — benim kalemim degil. Verideki Osmanli donemi 1585-09-25'te basliyor, TDV'nin 1585'iyle ortusuyor."
+    }
+  ],
+  "olculemedi": [
+    {"yerlesim": "Karaferye (Veria)", "sebep": "TDV 'KARAFERYE' maddesinin TAMAMI (15.970 karakter) tarandi; sancak/kaza/eyalet/vilayet gecen TEK idari cumle YOK. Yalniz kaynakcada 1906 Selanik Vilayeti Salnamesi anilyor — bu idari hukum degil (D211 ⑧).", "kaynak_url": "https://islamansiklopedisi.org.tr/karaferye"},
+    {"yerlesim": "Braslav (Bratslav)", "sebep": "TDV 'KAMANİÇE': Kamanice eyaleti DORT sancaktan olusuyor — Kamanice, Bar, Mejibuji, Yazlofca. Bratslav bunlarin arasinda YOK. GLM'in onerdigi 'Podolya' hem sema disi hem kaynaksiz.", "kaynak_url": "https://islamansiklopedisi.org.tr/kamanice"},
+    {"yerlesim": "Vinnitsa (Vinnytsia)", "sebep": "Ayni — Kamanice eyaletinin dort sancagi arasinda yok.", "kaynak_url": "https://islamansiklopedisi.org.tr/kamanice"},
+    {"yerlesim": "Vodina (Edessa)", "sebep": "TDV 'VODİNA': «Vodina, Yenice-i Vardar kazasında bir nahiye merkezi idi» — KAZA veriyor, SANCAK vermiyor. Yenice-i Vardar'in kendi sancagi da olculemedi, zincir kapanmaz.", "kaynak_url": "https://islamansiklopedisi.org.tr/vodina"},
+    {"yerlesim": "Yenice-i Vardar", "sebep": "TDV maddesinde (18.165 karakter) kendi sancagini veren cumle yok; kaza olarak anilyor.", "kaynak_url": "https://islamansiklopedisi.org.tr/yenice-i-vardar"},
+    {"yerlesim": "Doyran", "sebep": "TDV 'DOYRAN' Kostendil sancagi / Ustrumca kazasi baginti veriyor ama ZAMAN kaydiyla («XIV. yüzyıla kadar»); Doyran'in veri kirilmasi 1912. Gec donemde Selanik vilayetindeydi. Hangi donemin yazilacagi belirsiz — m: zamansiz oldugu icin yazilmadi.", "kaynak_url": "https://islamansiklopedisi.org.tr/doyran"},
+    {"yerlesim": "Köprülü (Veles)", "sebep": "TDV 'KÖPRÜLÜ' (Makedonya sehri) maddesinde sancak cumlesi yok; yalniz 1897-98 Selanik Vilayeti Salnamesi'ne atif var — cikarim olur, hukum olmaz.", "kaynak_url": "https://islamansiklopedisi.org.tr/koprulu"},
+    {"yerlesim": "Silivri", "sebep": "TDV'de Silivri'nin kendi maddesi YOK (arama: yalniz Bala Kulliyesi, Piri Mehmed Pasa Kulliyesi, Uzunkopru). Kapsayici madde de sancak vermedi.", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=silivri"},
+    {"yerlesim": "Prevadi (Provadia)", "sebep": "TDV'de kendi maddesi YOK; 4 madde icinde 'Prevadi kazasi' diye geciyor, sancagi verilmiyor.", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=prevadi"},
+    {"yerlesim": "Kılkış (Avrathisar)", "sebep": "TDV'de kendi maddesi YOK.", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=kilkis"},
+    {"yerlesim": "Gürün", "sebep": "TDV'de kendi maddesi YOK (slug arama sayfasina dusuyor).", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=gurun"},
+    {"yerlesim": "Göksun", "sebep": "TDV'de kendi maddesi YOK.", "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=goksun"},
+    {"yerlesim": "Gevgili (Gevgelija)", "sebep": "TDV'de kendi maddesi aranmadi/bulunamadi — 2. partiye birakildi.", "kaynak_url": null}
+  ],
+  "baska_alan_borcu": [
+    {
+      "yerlesim": "Vize",
+      "bulgu": "TDV 'KIRKLARELİ': «Kırkkilise, Osmanlı idaresinde Rumeli eyaletinde VİZE SANCAĞINA bağlı bir kaza merkezi idi.» ⇒ Vize'nin KENDISI sancak merkezidir.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/kirklareli",
+      "sonuc": "m: YAZILMADI. Dogru duzeltme k:3 -> k:2; `k:` benim kalemim degil (sartname: yalniz m:). Koordinatore sevk.",
+      "etki": "k:2 yazilirsa Vize'nin k12 zinciri m: OLMADAN kapanir ve 86'lik acik zincir listesinden duser."
+    }
+  ]
+}
