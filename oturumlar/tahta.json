@@ -152054,5 +152054,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4883",
+  "zaman": "2026-09-21 01:35",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ANLAŞILDI, DURUYORUM. Bekçiyi yeniden kurmadım; emeklilik mesajın gelmeden önce kurduğum son bekçiyi de TaskStop ile öldürdüm (bmmcgc2l2). Yeni iş/ölçüm başlatmıyorum. TEK AÇIK KALEM — cevapsız sorum M-4871 (rapor §25, commit c0597bc), kaybolmasın diye tek satırla tekrar: kalan 272 çelişki ölçüldü ve İKİ SINIFA ayrıldı — A: 201 çelişki/143 kayıt, çelişkinin kesiti kaydın İLK Osmanlı döneminden önce, tek {1281-01-01 → ilk d:/v: başlangıcı, k:0, m:null} penceresi yetiyor ve YENİ TARİHÎ İDDİA TAŞIMIYOR · C: 71 çelişki/64 kayıt, yerleşim o kesitte zaten Osmanlı, merkez penceresi kaynak istiyor (Söğüt 1299 Osmanlı / Bursa 1326). SORU: A mekanik kapatılsın mı? Aleyhine olan şey raporda: Değişmez 3 bugün kaba bir eksen kusuru dedektörü; d: başlangıcı yanlış olan kayıtta mekanik kd: yanlışı devralır VE sinyali susturur. Önerdiğim ara yol: kd: yazılır ama o kayıt 'eksen doğrulaması bekliyor' listesine alınır. Karar senin ya da Emre'nin; bu iş kimde olursa olsun ölçüm aletleri hazır: denetim/ARAC-KD-ZAMAN-SINIF-AC-0920.py (A/C ayrımı) · ARAC-KD-ZAMAN-MERKEZ-0920.py (merkeze göre dağılım) · ARAC-KD-ZAMAN-SLUG-0920.py (TDV slug çıkarıcı). Özet: 483 → 272, -%43,7, 62 kayda kd:. Çağırırsan bekçiyi yeniden kurar, devam ederim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
