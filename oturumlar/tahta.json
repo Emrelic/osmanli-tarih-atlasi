@@ -148330,5 +148330,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4827",
+  "zaman": "2026-09-20 22:17",
+  "kimden": "KIZILDENIZ-0073",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · H-0009 (Masavva · Dahlak · Zeyla + boslugun sebebi) — VERI DEGISMEDI, harita UC SORUDA DA DOGRU cikti. Tam rapor: denetim/KIZILDENIZ-0073-RAPOR.md · ongoru olcumden once: denetim/KIZILDENIZ-0073-ONGORU.md OLCTUM (sinav ani 1822-10-24, evren girdi.py 3921 nokta): [1] Masavva (15.612N 39.472E) · Dahlak (15.692N 40.138E) · Arkiko · Sevakin -> dordu de o gun d:OSMANLI. Veride pencere d:OSMANLI 1557-01-01 -> 1865-01-01. TDV: Masavva \"2 Cemaziyelahir 964'te (2 Nisan 1557) Ozdemir Pasa tarafindan Osmanli topraklarina katildi\", Misir'a salyane devir 1846 (masavva maddesi); Dehlek maddesi ayni devri 1865 diyor. Ikisi de 1822'den SONRA => 1822'de Osmanli, harita DOGRU. 🔴 TDV kendiyle celisiyor (tuzak 6): 1846 vs 1865 — bildiriyorum, duzeltme ONERMIYORUM. Not: `dahlak` slugu OLU, madde `dehlek`. [2] Zeyla (11.355N 43.473E) -> d:OSMANLI 1559-01-01 -> 1884-01-01. TDV: \"iskelesi 966'da (1559) Osmanli Devleti'ne baglandi\" — baslangic gunu BIREBIR tutuyor; Misir'a devir \"1 Haziran 1875 tarihli ferman\". => 1822'de Osmanli, harita DOGRU. [3] BOSLUK — iki ayri sinif, IKISI DE \"veri boslugu\" DEGIL: (A) H-0009-1'deki gri alan BOSLUK DEGIL: K1 kutusunda 16 nokta, SAHIPSIZ 0. Nakfa/Kerene/Asmara/Adi Kayh/Aksum/Adua... hepsi s:habesistan. Sebep RENK GORUNURLUGU — renkler.py'de habesistan = #4e3f39, yukselti altliginin kendi kahve-gri dokusundan ayrismiyor. Emre'nin \"bos\" gordugu alan BOYALI. (B) H-0009-2'deki beyaz alan (K2: 12.20-14.94N · 40.30-41.98E) = Danakil/Afar cukuru, kutuda nokta sayisi 0. 0.2 derece izgara, 126 hucre: motor peteginin orttugu 76 · NE'de kara var motor peteg i yok 33 · deniz 17 · NE golu 0. Ortulen 76 hucrenin Voronoi sahibi adal 40 · habesistan 35 · OSMANLI 1. En yakin nokta: Zula 74,9 km · Kemeran 79,7 · Alamata 85,1 · Asayita 91,7 · merkeze Vukro 168,2. 🔴 HICBIR hucre 200 km'yi ASMIYOR (azami 188,6) => A1 yaricap tavani sebep DEGIL. Bu, uret_petek.py'nin KENDI beyan ettigi R7 \"ORTULMEYEN KARA\" davranisi: \"kusur DEGIL — noktasi olmayan yer boyanmaz\". BULAMADIM: - Kesmeyi _tavan_cokgen'in yone duyarli sekli mi yoksa col dolgu esigi mi (COL_PUAN_ESIK=8) yapiyor — AYIRAMADIM, uret_petek.py kosusu ister (Oturum 0 kalemi). Ikisinin de caresi ayni oldugu icin hukmu degistirmiyor. - K2'ye nokta ONERISI YAZAMADIM: kaynak bulunamadi. TDV'de `dankali` aramasi 0 sonuc; `afar` aramasi yalniz CIBUTI/ERITRE/ETIYOPYA ulke maddelerine cikiyor, Danakil cukuru yerlesim taneciginde madde YOK. Kutunun ici dunyanin en corak alanlarindan biri — 1822'de kalici yerlesim olmamasi tarihen de beklenen. Atlas referans olamayacagi icin (D207) komsu kayitlardan koordinat TURETMEDIM. ISTIYORUM (hicbirini yapmadim, yetki senin): - K1 gun duzeltmesi: Masavva/Dahlak/Arkiko/Sevakin fethi veride 1557-01-01 (yil hassasiyeti), TDV 2 Nisan 1557 gunu veriyor. 0 yeni kirilma, 4 kaydin gunu kayar — ama mevcut +-30 gun eslesmelerini bozabilir, tek basina olculmeden yapilmamali. Yetki ister misin? - K2 eksik kirilma: Zeyla'nin Misir'a devri (1875-06-01) veride YOK, d:OSMANLI 1559->1884 kesintisiz. +1 kirilma + 1 kronoloji maddesi. - K3 (Zeyla'da 1884-1888 Osmanli donusu, +2 kirilma) ve K4 (Masavva/Sevakin salyane yili 1846 vs 1865) bence ERTELENMELI: K3 kisa omurlu, K4'te kaynak kendiyle celisik. - Butce: K2+K3 toplam 3 yeni kirilma = 3 madde. Bugunku 178 ACIK/195 ve YIL-TEMSILI BORC 151/151 ile ikinci kovada sifir pay var. Madde yazma yetkisini ayrica istiyorum. - GORUNURLUK kalemi (A): habesistan #4e3f39 tonunun altliktan ayrismamasi D-RENK-0073'un isi mi, yoksa ayri kalem mi? Karar senin. DEGISEN DOSYALAR (data/* DOKUNULMADI, denetle.py kosturulmadi — veri degismedi): denetim/KIZILDENIZ-0073-ONGORU.md · denetim/KIZILDENIZ-0073-RAPOR.md · denetim/ARAC-KIZILDENIZ-0073{,B,C,D}.py · denetim/OLCUM-KIZILDENIZ-0073{,B,C,D}.json commit 3d3a7c2 (yalniz kendi dosyalarim, pathspec ile)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
