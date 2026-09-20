@@ -1,0 +1,468 @@
+{
+ "olcut": "teknik-bilimsel = tekniğin/bilimin KENDİSİ (EKOKUMA-SIMGE-0070)",
+ "yeni_tur": {
+  "anahtar": "kultur-sanat",
+  "etiket": "🎨 Kültür Sanat",
+  "kaynak": "_ekHavuz()"
+ },
+ "toplam_teknik_bilimsel": 72,
+ "tasinacak": 44,
+ "dagilim": {
+  "kultur-sanat": 22,
+  "tartisma": 17,
+  "dis-yankilar": 2,
+  "sok-haberler": 3
+ },
+ "plan": [
+  {
+   "id": "mimari-sultanahmet",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-suleymaniye",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-selimiye",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-mostar-koprusu",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-mihrimah-edirnekapi",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-nuruosmaniye",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-topkapi-sarayi",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-dolmabahce-sarayi",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-fatih-camii",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-rumelihisari",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-sehzade-camii",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-yeni-cami",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-beyazit-camii",
+   "dosya": "data/ekokuma_mimari.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-uc-serefeli-camii",
+   "dosya": "data/ekokuma_mimari2.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-drina-koprusu",
+   "dosya": "data/ekokuma_mimari2.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "mimari-sadabad",
+   "dosya": "data/ekokuma_mimari2.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "mimari yapi"
+  },
+  {
+   "id": "dunya-yemende-osmanli-hakimiyeti",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya-hurmuz-bogazi-onemi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya-ipek-yolu-tarihi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya-cografi-kesifler",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "dis-yankilar",
+   "gerekce": "bir dunya olayinin Osmanli'ya yankisi"
+  },
+  {
+   "id": "dunya-kuzey-karadeniz-halklari-kazak-karisikligi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya-girit-seferinin-bedeli",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya-donanmanin-talihsiz-anlari",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya-donanmanin-buyuk-zaferleri",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya-donanma-avrupa-kiyaslama",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya-otuz-yil-savaslari-vestfalya",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "dis-yankilar",
+   "gerekce": "Osmanli'nin asker gondermedigi bir Avrupa savasinin yankisi"
+  },
+  {
+   "id": "dunya2-kutsal-ittifak-sark-meselesi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya2-venedik-osmanli-gidip-gelen-yerler-listesi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya2-venedigin-mora-talani",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya3-giritin-gec-dusen-kaleleri",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya3-kutsal-ittifakin-dort-cephesi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya3-osmanli-venedik-deniz-savaslari",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya3-karadag-osmanli-iliskisi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya4-vahran-mersalkebir-1708",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya6-iran-turk-hanedanlari-afsar-zend-ayrimi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "tartisma",
+   "gerekce": "dunya siyaseti/cografyasi — bir soruyu tartisan cozumleme"
+  },
+  {
+   "id": "dunya7-istanbulun-buyuk-depremleri",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "sok-haberler",
+   "gerekce": "Istanbul afet tarihi (deprem · yangin · sel/Bogaz'in donmasi); bugun BOS olan kovayi dolduruyor"
+  },
+  {
+   "id": "dunya7-istanbulun-buyuk-yanginlari",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "sok-haberler",
+   "gerekce": "Istanbul afet tarihi (deprem · yangin · sel/Bogaz'in donmasi); bugun BOS olan kovayi dolduruyor"
+  },
+  {
+   "id": "dunya7-istanbul-sel-zemheri-bogazin-donmasi",
+   "dosya": "data/ekokuma_dunya.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "sok-haberler",
+   "gerekce": "Istanbul afet tarihi (deprem · yangin · sel/Bogaz'in donmasi); bugun BOS olan kovayi dolduruyor"
+  },
+  {
+   "id": "lale-devri-mimari-ve-sehir",
+   "dosya": "data/ekokuma_lale.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "kasir/cesme/sehir mimarisi"
+  },
+  {
+   "id": "camitarz-bes-donem",
+   "dosya": "data/ekokuma_camitarz.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "cami mimarisi uslubu"
+  },
+  {
+   "id": "camitarz-bursa-ulucami",
+   "dosya": "data/ekokuma_camitarz.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "cami mimarisi uslubu"
+  },
+  {
+   "id": "camitarz-nusretiye-camii",
+   "dosya": "data/ekokuma_camitarz.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "cami mimarisi uslubu"
+  },
+  {
+   "id": "teknik-osmanli-spor-gelenekleri",
+   "dosya": "data/ekokuma_tamamla.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "🔴 EMRE'NIN ADIYLA SAYDIGI KART (0073/H-0018): gures sporu, teknik/bilimsel degil"
+  },
+  {
+   "id": "teknik-osmanli-kiyafet-statu",
+   "dosya": "data/ekokuma_tamamla.js",
+   "eski": "teknik-bilimsel",
+   "yeni": "kultur-sanat",
+   "gerekce": "kiyafet ve statu — kultur"
+  }
+ ],
+ "kalan": [
+  {
+   "id": "hukum-alani-mesafe",
+   "ad": "EKOKUMA",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-osmanli-devlet-kademeleri",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-osmanli-idari-yapi-degisimi",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-narh-defterleri",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-tahrir-defterleri",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-osmanli-egitim-sistemi",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-osmanli-hukuk-sistemi",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-iltizam-sistemi",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-osmanli-tabi-statu-listesi",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-eflak-bogdan-erdel-haklari",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-osmanli-tarihciligi-kaynaklari",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-cezayir-dayilik",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-osmanli-fas-iliskileri",
+   "ad": "EKOKUMA_KURUM",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "dunya-icatlar-erken-donem",
+   "ad": "EKOKUMA_DUNYA",
+   "sebep": "KALIYOR — icat/teknoloji tarihi, olcute uyan tek dunya* ailesi"
+  },
+  {
+   "id": "dunya-icatlar-sinai-donem",
+   "ad": "EKOKUMA_DUNYA",
+   "sebep": "KALIYOR — icat/teknoloji tarihi, olcute uyan tek dunya* ailesi"
+  },
+  {
+   "id": "teknik-cihannuma-katib-celebi",
+   "ad": "EKOKUMA_RIVAYET",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-kesfuzzunun-katib-celebi",
+   "ad": "EKOKUMA_RIVAYET",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-karlofca-yuvarlak-masa-protokolu",
+   "ad": "EKOKUMA_RIVAYET",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-dogu-afrika-eyaletleri-idari-yapi",
+   "ad": "EKOKUMA_RIVAYET",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "lale-devri-yenilikler",
+   "ad": "EKOKUMA_LALE",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "yenilesme-uc-kurum-gecikme-kiyasi",
+   "ad": "EKOKUMA_YENILESME",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "matbaa-kesintili-tarihi-1747-1826",
+   "ad": "EKOKUMA_YENILESME",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-tophane-tersane-amire",
+   "ad": "EKOKUMA_TAMAMLA",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "rusiran-takvim-farki",
+   "ad": "EKOKUMA_RUSIRAN",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-muhendishane-i-bahri-i-humayun",
+   "ad": "EKOKUMA_KURUM2",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-osmanli-vergi-sistemi",
+   "ad": "EKOKUMA_KURUM2",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-muhendishane-ardil-okullar",
+   "ad": "EKOKUMA_KURUM2",
+   "sebep": "desen tutmadi"
+  },
+  {
+   "id": "teknik-nizam-i-cedid",
+   "ad": "EKOKUMA_KURUM2",
+   "sebep": "desen tutmadi"
+  }
+ ]
+}

@@ -1,34 +1,34 @@
 {
  "ozet": {
-  "kart": 631,
-  "bag_degeri": 1304,
-  "cozulen_bag_madde_cifti": 2217,
-  "oksuz_bag": 14,
-  "kova_A_guclu_temas": 1607,
-  "kova_B_yalniz_govde": 526,
-  "kova_C_hic_temas_yok": 84,
-  "kova_B_yuzde": 23.7,
+  "kart": 635,
+  "bag_degeri": 1318,
+  "cozulen_bag_madde_cifti": 2239,
+  "oksuz_bag": 13,
+  "kova_A_guclu_temas": 1625,
+  "kova_B_yalniz_govde": 529,
+  "kova_C_hic_temas_yok": 85,
+  "kova_B_yuzde": 23.6,
   "kova_C_yuzde": 3.8,
   "eksen_dagilim": {
    "kisi": {
-    "guclu": 179,
-    "zayif": 533
+    "guclu": 181,
+    "zayif": 537
    },
    "yer": {
-    "guclu": 308,
-    "zayif": 482
+    "guclu": 309,
+    "zayif": 485
    },
    "zaman": {
-    "guclu": 432,
-    "zayif": 1199
+    "guclu": 433,
+    "zayif": 1210
    },
    "olay": {
-    "guclu": 917,
-    "zayif": 1000
+    "guclu": 927,
+    "zayif": 1010
    },
    "olay_ters": {
-    "guclu": 715,
-    "zayif": 285
+    "guclu": 720,
+    "zayif": 289
    }
   },
   "genis_bag_40tan_cok_maddeye_dusen": 0
@@ -104,13 +104,6 @@
    "tur": "teknik-bilimsel",
    "bag": "1883-01-01|Hendese-i Mülkiyye Mektebi açıldı",
    "gun_var_mi": "gun var, ayirt edici tutmadi"
-  },
-  {
-   "kart": "teknik-muhendishane-ardil-okullar",
-   "kaynak": "EKOKUMA_KURUM2",
-   "tur": "teknik-bilimsel",
-   "bag": "1944-01-01|İstanbul Teknik Üniversitesi kuruldu",
-   "gun_var_mi": "o gun HIC madde yok"
   },
   {
    "kart": "deniz-ebukir-osmanli-ittifak",
@@ -19544,8 +19537,8 @@
    "kart": "mehter-yeniceriyle-birlikte-lagvi",
    "kaynak": "EKOKUMA_TOPLUM",
    "tur": "sebep-sonuc",
-   "bag": "1826-07-31",
-   "madde_t": "1826-07-31",
+   "bag": "1826-06-15|Rusya",
+   "madde_t": "1826-06-15",
    "madde_b": "Osmanlı, Yeniçeri Ocağı'nı kaldırdı — Rusya için stratejik fırsat",
    "madde_kova": "KRONOLOJI",
    "madde_dosya": "KRONOLOJI_RUSYA",
@@ -42116,8 +42109,8 @@
    "kart": "yeniceri-vakai-hayriyye-gun-gun",
    "kaynak": "EKOKUMA_YENICERI",
    "tur": "sebep-sonuc",
-   "bag": "1826-07-31|Yeniçeri",
-   "madde_t": "1826-07-31",
+   "bag": "1826-06-15|Rusya",
+   "madde_t": "1826-06-15",
    "madde_b": "Osmanlı, Yeniçeri Ocağı'nı kaldırdı — Rusya için stratejik fırsat",
    "madde_kova": "KRONOLOJI",
    "madde_dosya": "KRONOLOJI_RUSYA",
@@ -43210,6 +43203,490 @@
    },
    "kart_baslik": "Ocağın kaldırılması imparatorluğu askersiz mi bıraktı — iki okuma ve bir takvim",
    "kart_kisa": "Soru şudur: 1826'da ocağın kaldırılması imparatorluğu bir anda askersiz bırakıp çözülmeyi hızlandırdı mı? Kart taraf TUTMAZ, üç şey yapar: ① çözülme belirtilerinin takvimini ölçer — Sırp, Vehhâbî ve Y"
+  },
+  {
+   "kova": "A",
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "sebep-sonuc",
+   "bag": "1820-07-20|Sudan seferi",
+   "madde_t": "1820-07-20",
+   "madde_b": "Sudan seferi başladı",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK4",
+   "eksen": {
+    "kisi": 1,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 2,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve bu hesap tutmadı."
+  },
+  {
+   "kova": "A",
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "sebep-sonuc",
+   "bag": "1820-07-20|Sudan seferi",
+   "madde_t": "1820-07-20",
+   "madde_b": "Sudan seferinin başlaması",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_MISIR",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 2,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve bu hesap tutmadı."
+  },
+  {
+   "kova": "A",
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "sebep-sonuc",
+   "bag": "1821-06-14|Sennâr",
+   "madde_t": "1821-06-14",
+   "madde_b": "Sennâr (Fûnc) Sultanlığı teslim oldu",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK4",
+   "eksen": {
+    "kisi": 0,
+    "yer": 1,
+    "zaman": 1,
+    "olay": 1,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve bu hesap tutmadı."
+  },
+  {
+   "kova": "A",
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "sebep-sonuc",
+   "bag": "1821-06-14|Sennâr",
+   "madde_t": "1821-06-14",
+   "madde_b": "Sennâr (Fûnc) Sultanlığı'nın teslimi",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_MISIR",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 1,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve bu hesap tutmadı."
+  },
+  {
+   "kova": "C",
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "sebep-sonuc",
+   "bag": "1818-09-09|Dir'iye",
+   "madde_t": "1818-09-09",
+   "madde_b": "Dir'iye düştü — ilk Suûdî Devleti sona erdi",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK4",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 0,
+    "olay_ters": 0,
+    "ozne_capraz": false,
+    "govde_temasi": false
+   },
+   "kart_baslik": "",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve bu hesap tutmadı."
+  },
+  {
+   "kova": "A",
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "sebep-sonuc",
+   "bag": "1818-09-09|Dir'iye",
+   "madde_t": "1818-09-09",
+   "madde_b": "Dir'iye'nin düşüşü — İlk Suûdî Devleti'nin sonu",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_MISIR",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 0,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": false
+   },
+   "kart_baslik": "",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve bu hesap tutmadı."
+  },
+  {
+   "kova": "A",
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "sebep-sonuc",
+   "bag": "1885-01-26|Sudan",
+   "madde_t": "1885-01-26",
+   "madde_b": "Hartum'un düşüşü — Sudan'ın tamamının kaybı",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK6",
+   "eksen": {
+    "kisi": 1,
+    "yer": 1,
+    "zaman": 0,
+    "olay": 1,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve bu hesap tutmadı."
+  },
+  {
+   "kova": "A",
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "sebep-sonuc",
+   "bag": "1885-01-26|Sudan",
+   "madde_t": "1885-01-26",
+   "madde_b": "Hartum'un düşüşü — Sudan'ın tamamının kaybı",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_MISIR",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 1,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez, dört sebep sayar: asker, altın, Nil ve kaçan Kölemenler. Kavalalı'nın kurmak istediği yeni ordunun insan kaynağı Sudan'dan gelecekti — ve bu hesap tutmadı."
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1822-06-28|Girit",
+   "madde_t": "1822-06-28",
+   "madde_b": "Girit'e Mısır kuvvetleri çıktı",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK4",
+   "eksen": {
+    "kisi": 1,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 2,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Mısır'ın yapıp Osmanlı'nın yapamadığı neydi? Bir vilâyetin modernleşmesi ile bir imparatorluğunki",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez. Mehmed Ali rakip askerî kastını 1811'de tasfiye etti, II. Mahmud aynı şeyi ancak 1826'da yapabildi — ve yaptığı anda Mısır'ınkine çok benzeyen bir reform programı başla"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1822-06-28|Girit",
+   "madde_t": "1822-06-28",
+   "madde_b": "Girit'e Mısır kuvvetlerinin çıkması",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_MISIR",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 2,
+    "olay_ters": 0,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Mısır'ın yapıp Osmanlı'nın yapamadığı neydi? Bir vilâyetin modernleşmesi ile bir imparatorluğunki",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez. Mehmed Ali rakip askerî kastını 1811'de tasfiye etti, II. Mahmud aynı şeyi ancak 1826'da yapabildi — ve yaptığı anda Mısır'ınkine çok benzeyen bir reform programı başla"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1824-07-19|Mora",
+   "madde_t": "1824-07-19",
+   "madde_b": "II. Mahmud Mora için Mehmed Ali'den yardım istedi",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK4",
+   "eksen": {
+    "kisi": 2,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 2,
+    "olay_ters": 1,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Mısır'ın yapıp Osmanlı'nın yapamadığı neydi? Bir vilâyetin modernleşmesi ile bir imparatorluğunki",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez. Mehmed Ali rakip askerî kastını 1811'de tasfiye etti, II. Mahmud aynı şeyi ancak 1826'da yapabildi — ve yaptığı anda Mısır'ınkine çok benzeyen bir reform programı başla"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1824-07-19|Mora",
+   "madde_t": "1824-07-19",
+   "madde_b": "II. Mahmud'un Mora için Mehmed Ali'den yardım istemesi",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_MISIR",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 2,
+    "olay_ters": 1,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Mısır'ın yapıp Osmanlı'nın yapamadığı neydi? Bir vilâyetin modernleşmesi ile bir imparatorluğunki",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez. Mehmed Ali rakip askerî kastını 1811'de tasfiye etti, II. Mahmud aynı şeyi ancak 1826'da yapabildi — ve yaptığı anda Mısır'ınkine çok benzeyen bir reform programı başla"
+  },
+  {
+   "kova": "B",
+   "kart": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1826-06-18|Mansûre",
+   "madde_t": "1826-06-18",
+   "madde_b": "Asâkir-i Mansûre-i Muhammediyye kuruldu",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK7",
+   "eksen": {
+    "kisi": 2,
+    "yer": 1,
+    "zaman": 1,
+    "olay": 1,
+    "olay_ters": 0,
+    "ozne_capraz": false,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Mısır'ın yapıp Osmanlı'nın yapamadığı neydi? Bir vilâyetin modernleşmesi ile bir imparatorluğunki",
+   "kart_kisa": "Kaynaklar tek bir sebep vermez. Mehmed Ali rakip askerî kastını 1811'de tasfiye etti, II. Mahmud aynı şeyi ancak 1826'da yapabildi — ve yaptığı anda Mısır'ınkine çok benzeyen bir reform programı başla"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-1821-osmanli-ordusu-nerede",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1822-12-12|Anabolu",
+   "madde_t": "1822-12-12",
+   "madde_b": "Anabolu'nun (Nauplion) isyancılara kaybı",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK6",
+   "eksen": {
+    "kisi": 0,
+    "yer": 2,
+    "zaman": 2,
+    "olay": 1,
+    "olay_ters": 2,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "İsyancılar şehirleri birer birer alırken Osmanlı ordusu neredeydi? 1821-1822'nin eşzamanlı dört cephesi",
+   "kart_kisa": "Anabolu düştüğünde Osmanlı Devleti aynı anda dört yerde meşguldü: Erzurum İran kuşatması altındaydı, Bağdat işgal edilmişti, Mora valisi Yanya'da bir isyancı paşayı kuşatıyordu ve ordunun kendisi hâlâ"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-1821-osmanli-ordusu-nerede",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1824-07-19|Mora",
+   "madde_t": "1824-07-19",
+   "madde_b": "II. Mahmud Mora için Mehmed Ali'den yardım istedi",
+   "madde_kova": "OLAYLAR",
+   "madde_dosya": "OLAYLAR_EK4",
+   "eksen": {
+    "kisi": 1,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 1,
+    "olay_ters": 1,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "İsyancılar şehirleri birer birer alırken Osmanlı ordusu neredeydi? 1821-1822'nin eşzamanlı dört cephesi",
+   "kart_kisa": "Anabolu düştüğünde Osmanlı Devleti aynı anda dört yerde meşguldü: Erzurum İran kuşatması altındaydı, Bağdat işgal edilmişti, Mora valisi Yanya'da bir isyancı paşayı kuşatıyordu ve ordunun kendisi hâlâ"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-1821-osmanli-ordusu-nerede",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1824-07-19|Mora",
+   "madde_t": "1824-07-19",
+   "madde_b": "II. Mahmud'un Mora için Mehmed Ali'den yardım istemesi",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_MISIR",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 1,
+    "olay_ters": 1,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "İsyancılar şehirleri birer birer alırken Osmanlı ordusu neredeydi? 1821-1822'nin eşzamanlı dört cephesi",
+   "kart_kisa": "Anabolu düştüğünde Osmanlı Devleti aynı anda dört yerde meşguldü: Erzurum İran kuşatması altındaydı, Bağdat işgal edilmişti, Mora valisi Yanya'da bir isyancı paşayı kuşatıyordu ve ordunun kendisi hâlâ"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1515-04-01|Hürmüz",
+   "madde_t": "1515-04-01",
+   "madde_b": "Hürmüz'ün ikinci kez alınması — Basra Körfezi'nin kilidi",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_PORTEKIZ",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 2,
+    "olay_ters": 2,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Hürmüz Boğazı kimin oldu? Beş yüz yılda altı el değiştirme",
+   "kart_kisa": "Boğazın kilidi hiçbir zaman uzun süre aynı elde kalmadı: Hürmüz Krallığı, Portekiz, Safevî İran, Ya‘rubî ve Bûsaîdî Umman, Kavâsim ve nihayet İngiltere. Her el değiştirme bir ticaret yolunun yön değiş"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1552-08-01|Hürmüz",
+   "madde_t": "1552-08-01",
+   "madde_b": "Pîrî Reis'in Hürmüz kuşatması — Portekiz kaleyi savundu",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_PORTEKIZ",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 2,
+    "olay_ters": 2,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Hürmüz Boğazı kimin oldu? Beş yüz yılda altı el değiştirme",
+   "kart_kisa": "Boğazın kilidi hiçbir zaman uzun süre aynı elde kalmadı: Hürmüz Krallığı, Portekiz, Safevî İran, Ya‘rubî ve Bûsaîdî Umman, Kavâsim ve nihayet İngiltere. Her el değiştirme bir ticaret yolunun yön değiş"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1622-04-23|Hürmüz",
+   "madde_t": "1622-04-23",
+   "madde_b": "Hürmüz'ün kaybı — Safevî-İngiliz ortak seferi",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_PORTEKIZ",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 2,
+    "olay_ters": 2,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Hürmüz Boğazı kimin oldu? Beş yüz yılda altı el değiştirme",
+   "kart_kisa": "Boğazın kilidi hiçbir zaman uzun süre aynı elde kalmadı: Hürmüz Krallığı, Portekiz, Safevî İran, Ya‘rubî ve Bûsaîdî Umman, Kavâsim ve nihayet İngiltere. Her el değiştirme bir ticaret yolunun yön değiş"
+  },
+  {
+   "kova": "A",
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1622-05-01|Hürmüz",
+   "madde_t": "1622-05-01",
+   "madde_b": "Hürmüz'ün Portekiz'den geri alınması",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_IRAN",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 1,
+    "olay_ters": 2,
+    "ozne_capraz": true,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Hürmüz Boğazı kimin oldu? Beş yüz yılda altı el değiştirme",
+   "kart_kisa": "Boğazın kilidi hiçbir zaman uzun süre aynı elde kalmadı: Hürmüz Krallığı, Portekiz, Safevî İran, Ya‘rubî ve Bûsaîdî Umman, Kavâsim ve nihayet İngiltere. Her el değiştirme bir ticaret yolunun yön değiş"
+  },
+  {
+   "kova": "B",
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1650-01-26|Maskat",
+   "madde_t": "1650-01-26",
+   "madde_b": "Maskat, Portekiz'den geri alındı",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_ARABISTAN",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 0,
+    "olay": 1,
+    "olay_ters": 0,
+    "ozne_capraz": false,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Hürmüz Boğazı kimin oldu? Beş yüz yılda altı el değiştirme",
+   "kart_kisa": "Boğazın kilidi hiçbir zaman uzun süre aynı elde kalmadı: Hürmüz Krallığı, Portekiz, Safevî İran, Ya‘rubî ve Bûsaîdî Umman, Kavâsim ve nihayet İngiltere. Her el değiştirme bir ticaret yolunun yön değiş"
+  },
+  {
+   "kova": "B",
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "kaynak": "EKOKUMA_BOLGE0073",
+   "tur": "tartisma",
+   "bag": "1798-01-18|Maskat",
+   "madde_t": "1798-01-18",
+   "madde_b": "İngiltere ile 'kavilnâme' — Maskat'ta İngiliz temsilciliği açıldı",
+   "madde_kova": "KRONOLOJI",
+   "madde_dosya": "KRONOLOJI_ARABISTAN",
+   "eksen": {
+    "kisi": 0,
+    "yer": 0,
+    "zaman": 1,
+    "olay": 2,
+    "olay_ters": 0,
+    "ozne_capraz": false,
+    "govde_temasi": true
+   },
+   "kart_baslik": "Hürmüz Boğazı kimin oldu? Beş yüz yılda altı el değiştirme",
+   "kart_kisa": "Boğazın kilidi hiçbir zaman uzun süre aynı elde kalmadı: Hürmüz Krallığı, Portekiz, Safevî İran, Ya‘rubî ve Bûsaîdî Umman, Kavâsim ve nihayet İngiltere. Her el değiştirme bir ticaret yolunun yön değiş"
   },
   {
    "kova": "B",
