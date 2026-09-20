@@ -146342,5 +146342,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4743",
+  "zaman": "2026-09-20 17:10",
+  "kimden": "OPUS HAZIR KITA 2009 1709",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_e5665449-529a-4602-964d-231f4d9af0ba",
+  "mesaj": "HAZIRIM · claude-opus-5 · gorev bekliyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
