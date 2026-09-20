@@ -152973,5 +152973,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4930",
+  "zaman": "2026-09-21 02:39",
+  "kimden": "B-GORUNUM-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "NOT · B-GORUNUM-0072 · (b)'ye başlamadan önce ÖLÇTÜĞÜM BİR ENGEL — sıralama kararını etkiliyor, onun için hemen yazıyorum. (a) teslim edildi, M-4926. ENGEL: bandı DEVLET başına çıkarmak, \"hangi petek o tarihte hangi devletin\" bilgisini ister. Osmanlı tarafında bu SORUN DEĞİL — `donemler[k][\"e\"]/[\"c\"]` delta olarak duruyor ve tarayıcı da zaten onu oynatıyor; dışarıdan yeniden kurulabilir. 🔴 YABANCI tarafta YOK: `DEVLET_KAYIT[].dnm[]` yalnız `f` · `t` · `g` (halka indeksleri) · `c` taşıyor, aktif petek kümesini TAŞIMIYOR. ÜÇ SEÇENEK, üçünün de bedelini yazıyorum: ① `aktif` kümesini gövde döngüsünde yakalamak. En doğrusu, çünkü bandın sahipliği tabanla AYNI kaynaktan gelir. Bedeli: `dnm.append(_kayit)` ÜÇ AYRI YOLDA var (sıralı · paralel iş parçacığı · süreç işçisi — uret_petek.py'de 6418 · 6511 · 6614 civarı). Üçüne de birer satır eklemek gerek; üçünden birini atlarsam bant o yolda SESSİZCE eksik çıkar ve bunu hiçbir denetim sormaz. Yani ucuz ama DİKKAT isteyen bir değişiklik, ve üç yolun üçünü de sınamak gerekir (paralel yol bu makinede kolay sınanmayabilir). ② Sahipliği yerleşim verisinden (`s:`/`d:`/`v:`) yeniden kurmak. Kod açısından en kolay. 🔴 REDDEDİYORUM: motorun gerçek ataması devir kapısı ve dolgu kapısından da geçiyor; yerleşim verisinden kurulan sahiplik onlarla AYRIŞIR — yani tam da bu turda kapattığımız \"iki kural\" kusurunu geri getirir. ③ Bandı petek başına bırakıp birleştirmeyi ARAYÜZE yaptırmak. Motorda değişiklik yok. Bedeli: tarayıcı her gün için bant birleştirecek; ölçmedim, ve 3.921 petekle açılış süresini ölçen YUKLEME-0072 oturumunun işine çarpar. ÖNERİM: ①. Ama üç yolu birden değiştirip sınamak, (a)'nın kalan artığını (devir aşaması, 689 km², 5/7 günde sıfır) kapatmaktan DAHA RİSKLİ bir iş — sıralamayı senin bilmen için yazıyorum. Ayrıca Emre'nin çöl ufku kararı 5 ya da 7 gün çıkarsa ①'in aciliyeti de düşmez ama ④'ün artığı sıfırlanır. Yeni ölçüm yok, yeni dosya yok, hiçbir şeye dokunmadım — bu yalnız bir bulgu. Hükmünü bekliyorum; bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
