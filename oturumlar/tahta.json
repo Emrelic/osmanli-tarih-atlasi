@@ -148456,5 +148456,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4834",
+  "zaman": "2026-09-20 22:52",
+  "kimden": "YUKLEME-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · YUKLEME-0072 · rapor: denetim/YUKLEME-0072-RAPOR.md · commit 1d95903 ① NE OLCTUM (yayindan, headless Chrome + CDP, 20 Eyl): - 261 yerel dosya, 157,58 MB ham, tel ustu 44,75 MB. gzip ACIK, h2, cache-control max-age=600, etag var. Senin taban olcumun DOGRULANDI. - SOGUK ziyaret: FCP 3,0 sn · DCL 39,8 sn · HARITA KULLANILABILIR 64,5 sn. - SICAK ziyaret (2. ziyaret): tel ustu 0,00 MB indirildi ve harita yine 65,2 sn'de acildi. >>> BU TEK SATIR ISIN HUKMUDUR: dert INDIRME DEGIL. Bayt kismak tek basina bu saniyeleri geri vermez. - Ayristirma+calistirma (260 dosya tek tek, ag yok): TOPLAM 20,8 sn. devletler_harita.js 11 392 ms / donemler.js 7 214 ms / altlik.js 983 ms = 19,6 sn = %94. KALAN 257 DOSYA HEP BIRLIKTE 1,2 sn. JS yigini 1 072 MB. - Artik ~33 sn: nesne kurma + cop toplama. Sebebi js/app.js:332 ve js/app.js:430 — 579 Osmanli + 581 yabanci donemin HEPSININ govdesi acilista parcaCoz ile cozuluyor. Kullanici tek gun gorecekken 1281-1923'un butun gunleri kuruluyor. ② NE BULAMADIM: - 10 dakikayi (max-age=600) ASAN tekrar ziyarette 263 kosullu istek (304) turu dogar mi: OLCULEMEDI, olcum penceresi 10 dk icindeydi. - Yarim/ceyrek yuzyil diliminin cakisma egrisi: olcmedim (hukum verilirse olcerim). ③ NE ONERIYORUM (hukum senin/Emre'nin): 1) YENI KALDIRAC — brief'te yoktu, ilk sirada: <script> yerine fetch + JSON.parse. Ayni veri, ayni oge sayisi, iki okuma yolu olculdu: PARCALAR 57,56 MB: 8 964 ms -> 3 040 ms (%66), yigin 366 -> 161 MB DEVLET_PARCALAR 69,89 MB: 10 481 ms -> 2 843 ms (%73), yigin 434 -> 191 MB TOPLAM 19,4 sn -> 5,9 sn · yigin 800 -> 352 MB. VERI KAYBI YOK, HARITA DEGISMEZ, uret_petek.py KOSMAZ. js/app.js:306'daki not bu gocu zaten ongoruyor ve %51 diyor; bagimsiz olcumum %66-73 cikardi. 2) (b) DEVRE DILIMI — en buyuk bayt kazanci. Havuz 127,38 MB = sitenin %81'i. BIR GUN icin gereken govde: 3,22-6,85 MB = havuzun %2,5-5,4'u. (1878-07-13 en kotu: 6,85 MB.) Yuzyil dilimi: 1300'ler 6,3 MB (%4,9) · 1500'ler 23,7 · 1700'ler 31,1 · 1800'ler 50,3 MB (%39,5) · 1900'ler 25,0. 8 dilimin toplami 174,4 MB ⇒ cakisma bedeli 1,37 kat: yayin %37 buyur, ACILIS yuku %61-95 kuculur. Motorda dokunulacak yer: js/app.js:332, js/app.js:430 (parcaCoz) + js/app.js:311 (geometriKapisi). Dilim sinirinda komsu dilimi onden cekmek beklemeyi gizler; gecisin kullaniciya nasil gorunecegi TASARIM karari, Emre'nin. 3) BEDAVA (kayipsiz, kosusuz): DEVLET_PARCALAR'da 68 647 ogenin 11 858'i BIREBIR ayni = 8,74 MB saf tekrar. altlik.js 6->3 ondalik = 4,9 MB (sapma <=55 m). Toplam -13,6 MB. 4) (a) DOUGLAS-PEUCKER — ONGORUM YANLIS CIKTI, dikkat: DP EN BUYUK dosyada EN AZ ise yariyor. 1 km tolerans: Osmanli havuzu %40,1 kalir (-%60) · YABANCI havuzu %76,2 kalir (yalniz -%24) · altlik 3 ondalik+1 km %36,9. Sebep: DEVLET_PARCALAR 68 647 kucuk petek hucresi (~64 dugum/oge) — atacak dugumu yok. O dosyadaki fazlalik GEOMETRIDE degil ZAMANDA; caresi DP degil (b). Kaba kazanc -59 MB ham (%37) ama BEDELI: uret_petek.py ~40 dk kosu + sinirlar 1 km'ye kadar kayar + denetle.py yeniden sinanir. SIRAYI 4. yaptim. 5) (c) PARALEL CEKME — ONERMIYORUM, kazanc ~0. Indirme ZATEN paralel: 264 eszamanli istek olculdu (h2, tek baglanti). Uc buyuk dosya disindaki 257 dosyanin ayristirmasi hep birlikte 1,2 sn. Sicak kosu (0 bayt) bunu kesinlestiriyor. ?v=rNNNN damgasi Pages'ta onbellegi UZATMAZ (ozel baslik kabul edilmiyor); damga dogruluk icindir, hiz icin degil. 1+2 birlikte: acilis govdesi 127,4 -> 25-31 MB, ayristirma 20,8 -> ~3 sn, yigin 1,07 -> ~0,35 GB ve TEK BIR SINIR BILE OYNAMAZ. (Bu uc sayi olculen birim maliyetlerden KESTIRIMDIR, olcum degil.) DEGISEN DOSYALAR (commit 1d95903, hepsi denetim/ altinda, kendi adimla): ARAC-YUKLEME-0072-{YEREL.py,SINAV.js,AYRISTIRMA.js,JSON.js,KALDIRAC.py,DP2.py,DILIM.py} YUKLEME-0072-{ONGORU.md,RAPOR.md,YEREL.json,SINAV-A.json,SINAV-B.json,AYRISTIRMA.json,JSON.json,KALDIRAC.json,DP2.json,DILIM.json} data/, js/, index.html'e DOKUNULMADI. Kod yazilmadi, kosu istenmedi. NOT (kapsam disi, sana birakiyorum): CLAUDE.md §1 \"MapLibre GL JS 4.7.1\" diyor, index.html 5.24.0 yukluyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
