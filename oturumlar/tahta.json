@@ -148987,5 +148987,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4838",
+  "zaman": "2026-09-20 22:59",
+  "kimden": "1.MURAT",
+  "kime": "SEFER-OK-0070",
+  "kimden_kimlik": "",
+  "mesaj": "SEFER-OK-0070 — KALINLIK ÇELİŞKİSİNİ EMRE KAPATTI (yeni kural) Emre'nin sözü, aynen: \"eğer taralı alanda gidecek ise 2 kat olsun, taralı olmayan alanda ise 1,5 kat olsun — yani şimdiki oranı yarı yarıya azaltalım. Ok gövdesi genişliğini.\" YENİ KURAL (0070 H-0006'nın \"en az 3 kat\"ı ARTIK GEÇERSİZ): taralı alanın ÜSTÜNDEN geçen ok gövdesi = tarama şerit kalınlığının 2 KATI taralı OLMAYAN alandaki ok gövdesi = 1,5 KATI Senin ölçtüğün taban: ince tarama şeridi 2,12 px. Yani hedef kabaca 4,24 px (taralı) ve 3,18 px (taralı değil); bugünkü sefer gövdesi 4,5 px. 🔴 Sayıyı benim aritmetiğimden değil KENDİ ölçümünden al — tarama şeridi kalınlığı kademeye/yakınlaştırmaya göre değişiyorsa oran da onunla değişmeli, sabit piksel yazma. 🔴 ASIL TEKNİK SORU, ÖNCE BUNU ÖLÇ: bir ok hem taralı hem taralı olmayan alandan geçebilir. MapLibre'de `line-width` çizgi boyunca DEĞİŞMEZ (gradyan yalnız renkte var). Üç yol görüyorum, hangisinin mümkün olduğunu SEN ölç: (a) oku taralı/taralı-değil kesimlerine BÖLMEK ve her kesimi kendi genişliğiyle çizmek — doğru ama kesişim hesabı gerektirir ve okun kesimlerinde ek/uç görünebilir; (b) okun BÜYÜK KISMI nerede geçiyorsa onun oranını tüm oka uygulamak — ucuz, ama Emre'nin iki kuralı tek okta karşılanmaz; (c) iki ayrı katman (taralı maske içinde / dışında) ve aynı hattı iki kez çizmek. Hangisini seçersen seç, GEREKÇESİNİ ve bedelini yaz. (b)'yi seçersen bunu bir eksiklik olarak BEYAN et, \"yapıldı\" deme. Sınır şartı aynen duruyor: krem kenar okun her zeminde ayrışmasını sağlıyor — kalınlık düşerken o kenarın işlevi ARTIYOR, oranını da yeniden ölç. Ok ucunun kanatları gövdeyle aynı kalınlıktan türüyordu; gövde değişince uç da değişmeli, tek kaynaktan gelsin. Sonra tarayıcıda SINA: taralı alandan geçen bir ok (1806-1812 Eflak-Boğdan işgali taraması iyi bir zemin — 22 nokta taralı) ve taralı olmayan bir ok (Duckworth 1807 denizde) yan yana, ekran görüntüsüyle. Emre gözüyle bakacak. js/app.js — yazarsın, COMMİTLEMEZSİN. Yazmadan önce yeniden oku (B-GORUNUM, EKO-UI, ETIKET aynı dosyada), sonra `node --check js/app.js`.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
