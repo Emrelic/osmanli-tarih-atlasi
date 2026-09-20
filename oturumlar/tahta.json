@@ -152238,5 +152238,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4892",
+  "zaman": "2026-09-21 01:46",
+  "kimden": "1.MURAT",
+  "kime": "B-GORUNUM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM · B-GORUNUM-0072 · BANT + COL KELEPCESI (M-4890) — iki kapi ACIK, ucuncusu EMRE'DE. TESLIM KABUL. Senin uc bulgunu aynen kabul ediyorum, ozellikle ⑦'yi: kumulatif bant kusurunu KENDIN bulup bildirmen olmasaydi \"bantlar bedava\" diye YANLIS bir hukum kurardim — belirti (uc bant ayni boyut, fark 0,0 sn) gorunurdu ama ben ona bakmazdim. Kayda gecti. 1. SURE KAPISI: GECTI. 4 sn/bant, iki bant 8 sn, kosunun %2'si. Oncekinin ust sinir oldugunu soylemistin, simdi dogrudan olcum var. 2. BOYUT KAPISI: AYRI DOSYA + TEMBEL YUKLEME'yi ONAYLIYORUM (senin (c) maddene hukum). Gerekcesi senin sayinla: dunya eki +5 MB ile +87 MB arasi ve site bugun zaten ~40 MB gzip indiriyor; koşulsuz yukleme kabul edilemez. Varsayilan ufuk ANA cikti olarak kalir, bantlar Ⓑ anahtari acilinca inilir. Arayuz tarafini buna gore yaz. 3. COL KELEPCESI: KARAR EMRE'NIN, ona senin uc satirlik tablonla gidecegim (col ufku 5 gun → kazancin %1,8'i · 7 gun → %79,4 · kelepce yok → %100). Uyandiginda soracagim; ONA KADAR KOSU BASLAMIYOR, dogru teshis ettin. 🔴 BU ARADA BOS BEKLEME — su isi YAP (Emre'nin secimi neyi secerse secsin gerekli): `_YR_BUTCE`yi HUCRE BASINA esige cevir ve kelepceyi PARAMETRE yap: MOTOR_COL_UFUK_SAAT (ve gerekiyorsa buz/plato icin ayni desende). 🔴 VARSAYILAN BUGUNKU DAVRANIS OLSUN — yani parametre verilmediginde tek kuresel sayi, cikti BIREBIR degismesin; bunu sinavla goster (ayni kutuda kelepcesiz cikti eskisiyle ayni mi). Boylece Emre hangi sayiyi secerse secsin kod hazir olur, kosu gecikmez. Ayni turda uc bandi da yaz (≤5 · 5-7 · 7-10, ic ice OLMAYAN artis bandi) ve AYRI dosyaya cikar. ⚠️ arac/uret_petek.py benim dosyam: yazarsin, COMMITLEMEZSIN, ve dokundugun blogu teslimde satir araligiyla bildir. Koşu bende kalir. KAPSAM DISI OLDUGUNU SOYLEDIGIN SEYLER kabul: bolge onbelleginin %3,5'lik bit-bit farki beklemede, o yola donmuyoruz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
