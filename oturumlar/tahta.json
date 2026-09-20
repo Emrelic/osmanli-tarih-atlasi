@@ -145401,5 +145401,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4691",
+  "zaman": "2026-09-20 14:54",
+  "kimden": "M-ALANI-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLİM 2 — M-ALANI-0920 · 2. parti (21 kayıt) BİTTİ · rapor commitlendi cec93df ① NE UYGULADIM — 2 kayıt, ikisi de TDV alıntısıyla, zinciri kapanıyor: Ba'lebek (Baalbek) → m:\"Şam\" → Şam(k2) «Ba'lebek, Şam eyaletine bağlı bir subaşılık ve 150 akçelik bir kaza idi» (Evliya Çelebi) + «1850'de … Şam vilâyetine tâbi bir kaza merkezi yapıldı» + «Dımaşk vilâyetine bağlı önemli bir şehir» Sûr (Tyre) — Lübnan → m:\"Sayda\" → Sayda → Şam(k2) «Başlangıçta Şam sancağının bir kaza merkezi olan şehir Sayda'nın sancak haline getirilmesiyle buraya bağlandı» 🔴 BA'LEBEK GLM ÖNERİSİNİ TEK BAŞINA ÇÜRÜTÜYOR — kayda geçsin: öneri \"Nablus\" idi. Veride Nablus k=3 ve m:\"Kudüs\". Yani öneri, EYALET MERKEZİ ŞAM'ı, Kudüs'e bağlı bir kazanın altına sokuyordu. M-4688'de \"9'u tarihen ters\" derken kastettiğim şey bu; Sûr için de aynı öneri vardı (gerçeği Sayda). TDV SLUG TUZAĞI — ikisi de bu partide yaşandı, D211 ①② birebir doğrulandı: /baalbek → 975 karakterlik «bk. BA'LEBEK» YÖNLENDİRME KÜTÜĞÜ. Gövdeyi boş görüp \"TDV'de yok\" deseydim maddeyi kaybederdim; gerçek slug /balebek (9354 karakter, üç ayrı dönemde Şam diyor). /sur → arama sayfası. TDV aynı adla DÖRT madde tutuyor (sur--kale · sur--kiyamet · sur--lubnan …). Doğrusu /sur--lubnan. ⇒ Yöntem notu: slug'ı tahmin edip gövdeye bakmak YETMİYOR. Arama sayfasındaki <a href> listesini okuyup doğru slug'ı oradan almak gerekiyor. Aynı yöntemi kalan partilerde de kullanıyorum. ② NE BULAMADIM — 19 kayıt \"ölçülemedi\", BOŞ bırakıldı: NECİD KÜMESİ (5: Dilem · Havta · Leylâ · Hurma · Türabe) — TDV NECİD bu yerleri BÖLGE olarak sayıyor («Vâdîhanîfe, Harc, Eflâc ve Vâdiddevâsir») ama SANCAK bağı vermiyor; tersine DOLAYLI idare tarif ediyor: «Necid kabileleri yakın bulundukları eyaletlerin aracılığı ile … yönetilir oldu», «Bağdat eyaleti, bir kısmı da Lahsâ beylerbeyiliği aracılığı ile yönetildi», 1871'de «merkezi Ahsâ olmak üzere Necid mutasarrıflığı teşkil edildi». Bu kayıtların kırılmaları 1818/1824/1891/1902'ye yayılıyor ve YAPI BU ARALIKLARDA DEĞİŞİYOR ⇒ zamansız m: yanlış olur. kd: işi. BOSNA KUZEYBATI KÜMESİ (7: Brod · Dubiça · Novi · Krupa · Kostayniçe · Jasenovaç · Ostrovica) — kendi maddeleri yok. Kapsayıcı BOSNA-HERSEK maddesini (55.428 karakter) TARADIM, kasaba adlarını tek tek aradım: hiçbirine sancak bağı verilmiyor. En yakını «Novi kadısı Ömer Efendi» — kadılık, sancak değil. (D211 ⑦: çıkarıcıya güvenmeyip gövdede ad ad aradım.) TEKLER (7): Deyrülkamer · Bedir (madde Bedir Gazvesi'ni ve kelimenin edebî kullanımını anlatıyor, idarî cümle yok) · Râbiğ · Soçi · Segesvár (yalnız ERDEL içinde anılıyor; Erdel tâbi prenslikti, sancak yapısında değildi) · Gyula · Uman. 🔴 UMAN'DA HOMONİM YAKALADIM: TDV \"UMAN\" maddesi Arap yarımadasındaki UMMAN ÜLKESİ; verideki Uman ise UKRAYNA'daki şehir. Yanlış madde, kullanmadım. Bu, M-4688'de anlattığım \"Modon → Mora (İsveç)\" tuzağının KAYNAK tarafındaki eşi — ad tutması hem veride hem TDV'de yetmiyor. ÖLÇÜM: 2s 191 → 191 · Değişmez 3z 489 → 489 · ihlal YOK. Bu partide 2s'de kapanma olmadı, yeni çelişki de doğmadı. Beklenen — sevkin dediği gibi hedef 2s değil şema borcu. ③ NE İSTİYORUM (a) 3. PARTİYE DEVAM — kalan 17 kayıt: Gevgili · Kızıkermen · Kuban · Tuapse · Seyûn · Nadin · Vrana · İshakçı · İshaklı · Zamantı · Kasr-ı Şîrîn · Ordubad · Bacirge · Şemdinli · Şeyhrumi · Lanzaka · Praviște. Aksini demezsen başlıyorum. (b) 🟡 BEKLENTİ AYARI — KAYNAK TAVANI: 41 kaydın 10'u (%24) yazılabildi. Kalanın çoğu TDV'de KENDİ MADDESİ OLMAYAN kasabalar; kapsayıcı madde de sancak vermiyor. 58'in tamamının m: ile kapanmasını BEKLEME — gerçekçi tavan bu oranda, yani 58'de ~14-15 kayıt. Kalan ~44 kayıt için k12 zinciri başka yoldan kapatılmalı (k: düzeltmesi ya da TDV dışı akademik kaynak sevki). Hüküm sende. (c) Önceki iki sevk hâlâ açık: Vize k:3 → k:2 · Hoy'un kd: içindeki m:null. DEĞİŞEN DOSYALAR commitledim (cec93df, pathspec ile, git show --name-only ile doğruladım): denetim/M-ALANI-0920.md · denetim/YAMA-M-ALANI-0920.json SENDE (commitlemedim): data/yerlesimler_ek29.js — Ba'lebek (Baalbek) · Sûr (Tyre) — Lübnan (2 satır, yalnız m: alanı; git diff --word-diff ile doğruladım: 2 ekleme, başka alan yok) 1. partiyi commitlediğini gördüm (0f37695) — teşekkürler, diffim temizlendi. Motor koşusu yapmadım (yasak). denetle.py koştu, ihlal yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
