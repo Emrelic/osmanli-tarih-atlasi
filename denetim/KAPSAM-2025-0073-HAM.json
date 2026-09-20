@@ -1,0 +1,1484 @@
+{
+ "_belge": "KAPSAM-2025-0073 — 1923 sonrası kapsam genişlemesinin ham ölçümleri",
+ "_tarih": "2026-09-21",
+ "_oturum": "KAPSAM-2025-0073",
+ "_rapor": "denetim/KAPSAM-2025-0073-MALIYET.md",
+ "_ongoru": "denetim/KAPSAM-2025-0073-ONGORU.md",
+ "_uyari": "ÖLÇÜLEN ile TÜRETİLEN ayrı bölümlerde. 'turetilen' altındaki her sayı bir modelden çıkar ve modelin girdisi 'olculen'dedir; kaynaklı bir tarih verisi DEĞİLDİR, maliyet tahminidir.",
+ "olculen": {
+  "kunye_kronoloji_yerlesim_kesit_boyut": {
+   "kunye_toplam_regex_idli": 678,
+   "kunye_ustduzey": 678,
+   "kunye_ft_okunan": 455,
+   "kunye_bitis_yil_histogram_10yil": {
+    "1230": 1,
+    "1260": 1,
+    "1270": 1,
+    "1290": 2,
+    "1300": 3,
+    "1310": 1,
+    "1320": 4,
+    "1330": 2,
+    "1340": 3,
+    "1350": 3,
+    "1360": 2,
+    "1370": 2,
+    "1380": 4,
+    "1390": 5,
+    "1400": 7,
+    "1410": 5,
+    "1420": 7,
+    "1430": 3,
+    "1450": 4,
+    "1460": 6,
+    "1470": 6,
+    "1480": 5,
+    "1490": 1,
+    "1500": 2,
+    "1510": 5,
+    "1520": 12,
+    "1530": 3,
+    "1540": 2,
+    "1550": 4,
+    "1560": 4,
+    "1570": 7,
+    "1580": 2,
+    "1590": 2,
+    "1600": 3,
+    "1610": 3,
+    "1630": 1,
+    "1640": 5,
+    "1660": 3,
+    "1670": 3,
+    "1680": 5,
+    "1690": 3,
+    "1700": 3,
+    "1720": 4,
+    "1730": 2,
+    "1740": 1,
+    "1750": 3,
+    "1760": 5,
+    "1770": 1,
+    "1780": 8,
+    "1790": 9,
+    "1800": 8,
+    "1810": 6,
+    "1820": 7,
+    "1830": 11,
+    "1840": 2,
+    "1850": 10,
+    "1860": 7,
+    "1870": 10,
+    "1880": 20,
+    "1890": 54,
+    "1900": 26,
+    "1910": 19,
+    "1920": 74,
+    "1940": 11,
+    "1950": 4,
+    "1960": 2,
+    "1970": 1
+   },
+   "kunye_bitis_1900_sonrasi": {
+    "1900": 8,
+    "1901": 2,
+    "1902": 3,
+    "1903": 5,
+    "1904": 2,
+    "1905": 1,
+    "1908": 3,
+    "1909": 2,
+    "1910": 2,
+    "1911": 2,
+    "1912": 2,
+    "1913": 2,
+    "1914": 2,
+    "1915": 1,
+    "1916": 3,
+    "1917": 2,
+    "1918": 3,
+    "1920": 3,
+    "1921": 2,
+    "1923": 68,
+    "1926": 1,
+    "1945": 1,
+    "1946": 1,
+    "1947": 2,
+    "1948": 3,
+    "1949": 4,
+    "1953": 1,
+    "1954": 1,
+    "1957": 1,
+    "1958": 1,
+    "1962": 1,
+    "1966": 1,
+    "1975": 1
+   },
+   "kunye_bitis_1918_1924": 76,
+   "kunye_bitis_1923_veya_1924": 68,
+   "kunye_1925_sonrasi_uzanan": 19,
+   "kunye_bitis_tarihi_okunamayan": 0,
+   "kunye_1918_1924_kesilen_ornek": [
+    "habsburg",
+    "macaristan-habsburg",
+    "sirbistan-kralligi",
+    "aiz",
+    "hive",
+    "buhara",
+    "gurcistan-demokratik-cumhuriyeti",
+    "sammar",
+    "abd",
+    "afganistan",
+    "almanya",
+    "arnavutluk-bagimsiz",
+    "avustralya",
+    "avusturya-cumhuriyet",
+    "bahreyn",
+    "belcika",
+    "bhopal",
+    "bolivya-cumhuriyeti",
+    "brezilya-cumhuriyeti",
+    "brunei-sultanligi",
+    "buganda",
+    "bulgaristan-kralligi",
+    "cekoslovakya",
+    "cimma-sultanligi",
+    "cin-cumhuriyeti",
+    "cohor-sultanligi",
+    "dominik-cumhuriyeti",
+    "finlandiya",
+    "fransiz-guyanasi",
+    "habesistan",
+    "haiti",
+    "hicaz-kralligi",
+    "hollanda",
+    "ingiliz-kuzey-amerika",
+    "ingiltere",
+    "irlanda-serbest-devlet",
+    "ispanya",
+    "isvec",
+    "isvicre",
+    "italya",
+    "izlanda",
+    "kamboc-kralligi",
+    "katar",
+    "kolombiya-cumhuriyeti",
+    "kuba-cumhuriyeti",
+    "kuveyt",
+    "letonya",
+    "litvanya",
+    "luksemburg",
+    "macaristan-naiplik",
+    "meiji-japonya",
+    "meksika",
+    "nepal",
+    "norvec",
+    "oniki-ada-italyan",
+    "paraguay-cumhuriyeti",
+    "peru-cumhuriyeti",
+    "polonya",
+    "portekiz",
+    "romanya-kralligi",
+    "san-devletleri",
+    "sili-cumhuriyeti",
+    "siyam-chakri",
+    "somali",
+    "surakarta",
+    "tannu-tuva",
+    "tbmm-turkiye",
+    "tibet-ganden-phodrang",
+    "tidore-sultanligi",
+    "tonga-kralligi",
+    "umman",
+    "umman-zengibar",
+    "yemen-zeydi",
+    "yeni-zelanda",
+    "yugoslavya",
+    "yunanistan"
+   ],
+   "kronoloji_madde_toplam": 1704,
+   "kronoloji_bantlar": {
+    "1281-1499": 339,
+    "1500-1699": 526,
+    "1700-1799": 267,
+    "1800-1899": 365,
+    "1900-1913": 69,
+    "1914-1918": 52,
+    "1919-1923": 85,
+    "1924+": 1,
+    "1281oncesi": 0
+   },
+   "kronoloji_yogunluk_yil_basina": {
+    "1281-1499": 1.55,
+    "1500-1699": 2.63,
+    "1700-1799": 2.67,
+    "1800-1899": 3.65,
+    "1900-1913": 4.93,
+    "1914-1918": 10.4,
+    "1919-1923": 17.0
+   },
+   "kronoloji_kuyruk_madde": 4955,
+   "yerlesim_nokta": 3921,
+   "yerlesim_girdi_dosya": 87,
+   "yerlesim_dilim": {
+    "d": 1302,
+    "v": 493,
+    "s": 13375,
+    "isg": 326
+   },
+   "yerlesim_dilim_toplam": 15496,
+   "yerlesim_son_kapsam_yil_1900sonrasi": {
+    "1923": 3752,
+    "9999": 1
+   },
+   "yerlesim_son_kapsam_1923_ve_oncesi": 3770,
+   "yerlesim_son_kapsam_1924_sonrasi": 1,
+   "yerlesim_donemsiz": 150,
+   "yerlesim_dilim_1800_1899": 6087,
+   "yerlesim_dilim_1900_1923": 6457,
+   "yerlesim_dilim_1700_1799": 4634,
+   "kesit_motor_d_v": 594,
+   "kesit_d_v_s": 1924,
+   "kesit_d_v_s_isg": 2033,
+   "kesit_50yil_histogram": {
+    "1250": 10,
+    "1300": 55,
+    "1350": 96,
+    "1400": 78,
+    "1450": 88,
+    "1500": 197,
+    "1550": 139,
+    "1600": 130,
+    "1650": 170,
+    "1700": 138,
+    "1750": 184,
+    "1800": 262,
+    "1850": 254,
+    "1900": 232
+   },
+   "kesit_1900_1923": 232,
+   "kesit_1800_1899": 516,
+   "data_dosya_sayisi": 445,
+   "data_toplam_bayt": 181422813,
+   "data_en_buyuk": {
+    "devletler_harita.js": 75814859,
+    "donemler.js": 61856990,
+    "altlik.js": 13810695,
+    "petek_govde.js": 10936465,
+    "devletler.js": 1014852,
+    "devletler.js.yedek": 742350,
+    "yerlesimler.js": 575398,
+    "bolgeler.js": 494040,
+    "d_sinirlar_avrupa_orta.js": 433978,
+    "yer_yama_kademe2.js": 392375
+   },
+   "kesitle_olcekleyen_bayt": 137671849,
+   "kesitle_olcekleyen_oran": 0.7588
+  },
+  "kunye_basliklari_ve_index_yuku": {
+   "kunye_kayit": 678,
+   "kunye_t_okunan": 678,
+   "kunye_t_bos": 0,
+   "kunye_bitis_1900_sonrasi_yil": {
+    "1900": 8,
+    "1901": 2,
+    "1902": 6,
+    "1903": 5,
+    "1904": 2,
+    "1905": 3,
+    "1908": 4,
+    "1909": 3,
+    "1910": 2,
+    "1911": 3,
+    "1912": 2,
+    "1913": 4,
+    "1914": 5,
+    "1915": 2,
+    "1916": 4,
+    "1917": 4,
+    "1918": 6,
+    "1919": 1,
+    "1920": 6,
+    "1921": 2,
+    "1922": 1,
+    "1923": 90,
+    "1924": 3,
+    "1925": 1,
+    "1926": 1,
+    "1932": 1,
+    "1934": 1,
+    "1935": 1,
+    "1939": 1,
+    "1945": 1,
+    "1946": 2,
+    "1947": 3,
+    "1948": 6,
+    "1949": 5,
+    "1953": 1,
+    "1954": 1,
+    "1955": 1,
+    "1956": 2,
+    "1957": 2,
+    "1958": 2,
+    "1959": 1,
+    "1960": 3,
+    "1961": 3,
+    "1962": 2,
+    "1963": 1,
+    "1964": 2,
+    "1966": 2,
+    "1967": 2,
+    "1974": 1,
+    "1975": 3,
+    "1980": 1,
+    "1981": 1,
+    "1990": 1,
+    "2026": 1
+   },
+   "kunye_bitis_1918_1924": 109,
+   "kunye_bitis_1922_1924": 94,
+   "kunye_bitis_1925_sonrasi": 56,
+   "kunye_bitis_1917_oncesi": 513,
+   "kunye_1925_sonrasi_liste": [
+    [
+     "1925-01-01",
+     "kacar"
+    ],
+    [
+     "1926-05-27",
+     "rif-cumhuriyeti"
+    ],
+    [
+     "1932-09-18",
+     "suud-ucuncu"
+    ],
+    [
+     "1934-02-16",
+     "newfoundland-dominyonu"
+    ],
+    [
+     "1935-03-01",
+     "saar-havzasi-mandasi"
+    ],
+    [
+     "1939-09-01",
+     "danzig-serbest-sehri"
+    ],
+    [
+     "1945-08-25",
+     "nguyen-hanedani"
+    ],
+    [
+     "1946-05-25",
+     "urdun-emirligi"
+    ],
+    [
+     "1946-07-01",
+     "sarawak-brooke"
+    ],
+    [
+     "1947-08-15",
+     "ingiliz-hindistani"
+    ],
+    [
+     "1947-08-15",
+     "meysur-racaligi"
+    ],
+    [
+     "1947-08-15",
+     "racput"
+    ],
+    [
+     "1948-02-20",
+     "cunagadh"
+    ],
+    [
+     "1948-03-18",
+     "bharatpur-cat"
+    ],
+    [
+     "1948-05-14",
+     "filistin-mandasi"
+    ],
+    [
+     "1948-05-28",
+     "gvalyar"
+    ],
+    [
+     "1948-05-28",
+     "indor"
+    ],
+    [
+     "1948-09-17",
+     "haydarabad-nizam"
+    ],
+    [
+     "1949-03-01",
+     "kolhapur"
+    ],
+    [
+     "1949-05-01",
+     "baroda"
+    ],
+    [
+     "1949-07-01",
+     "travankur"
+    ],
+    [
+     "1949-10-15",
+     "manipur"
+    ],
+    [
+     "1949-12-27",
+     "hollanda-dogu-hint"
+    ],
+    [
+     "1953-06-18",
+     "misir-kralligi"
+    ],
+    [
+     "1954-07-21",
+     "fransiz-cinhindi"
+    ],
+    [
+     "1955-10-14",
+     "bahavelpur"
+    ],
+    [
+     "1956-01-01",
+     "ingiliz-sudani"
+    ],
+    [
+     "1956-03-20",
+     "tunus-beyligi-fransiz"
+    ],
+    [
+     "1957-03-06",
+     "ingiliz-altin-kiyisi"
+    ],
+    [
+     "1957-08-31",
+     "ingiliz-malaya"
+    ],
+    [
+     "1958-01-01",
+     "fransiz-ekvator-afrikasi"
+    ],
+    [
+     "1958-07-14",
+     "irak-kralligi"
+    ],
+    [
+     "1959-01-01",
+     "fransiz-bati-afrika"
+    ],
+    [
+     "1960-01-01",
+     "fransiz-kamerun-mandasi"
+    ],
+    [
+     "1960-06-30",
+     "belcika-kongo"
+    ],
+    [
+     "1960-10-01",
+     "ingiliz-nijerya"
+    ],
+    [
+     "1961-04-27",
+     "ingiliz-siyera-leon"
+    ],
+    [
+     "1961-05-31",
+     "guney-afrika-birligi"
+    ],
+    [
+     "1961-12-09",
+     "ingiliz-tanganika-mandasi"
+    ],
+    [
+     "1962-07-01",
+     "ruanda-urundi-mandasi"
+    ],
+    [
+     "1962-07-05",
+     "cezayir-fransiz"
+    ],
+    [
+     "1963-12-12",
+     "ingiliz-kenya-kolonisi"
+    ],
+    [
+     "1964-07-06",
+     "ingiliz-nyasaland"
+    ],
+    [
+     "1964-10-24",
+     "ingiliz-kuzey-rodezya"
+    ],
+    [
+     "1966-05-26",
+     "ingiliz-guyanasi"
+    ],
+    [
+     "1966-09-30",
+     "ingiliz-becuanaland"
+    ],
+    [
+     "1967-11-30",
+     "kesiri-sultanligi"
+    ],
+    [
+     "1967-11-30",
+     "kuayti-sultanligi"
+    ],
+    [
+     "1974-09-10",
+     "portekiz-gine"
+    ],
+    [
+     "1975-06-25",
+     "portekiz-mozambik"
+    ],
+    [
+     "1975-11-11",
+     "portekiz-angola"
+    ],
+    [
+     "1975-11-25",
+     "hollanda-guyanasi"
+    ],
+    [
+     "1980-04-18",
+     "ingiliz-guney-rodezya"
+    ],
+    [
+     "1981-09-21",
+     "ingiliz-hondurasi"
+    ],
+    [
+     "1990-03-21",
+     "guneybati-afrika-mandasi"
+    ],
+    [
+     "2026-08-07",
+     "iran"
+    ]
+   ],
+   "kunye_1922_1924_bolge": {
+    "guney-amerika": 11,
+    "guneydogu-asya": 8,
+    "orta-amerika-karayip": 8,
+    "arabistan": 7,
+    "bati-avrupa": 6,
+    "balkanlar": 6,
+    "dogu-avrupa": 5,
+    "kuzey-avrupa": 5,
+    "orta-avrupa": 5,
+    "dogu-afrika": 5,
+    "dogu-asya": 4,
+    "kuzey-amerika": 3,
+    "okyanusya": 3,
+    "guney-asya": 3,
+    "orta-asya": 3,
+    "kuzey-afrika": 2,
+    "iberya": 2,
+    "bati-afrika": 2,
+    "orta-amerika": 2,
+    "italya": 1,
+    "anadolu": 1,
+    "misir-sudan": 1,
+    "sibirya-bozkir": 1
+   },
+   "kunye_1922_1924_idler": [
+    "abd",
+    "afganistan",
+    "agadez-sultanligi",
+    "almanya",
+    "arjantin-cumhuriyeti",
+    "arnavutluk-bagimsiz",
+    "avustralya",
+    "avusturya-cumhuriyet",
+    "bahreyn",
+    "belcika",
+    "bhopal",
+    "bolivya-cumhuriyeti",
+    "brezilya-cumhuriyeti",
+    "brunei-sultanligi",
+    "buganda",
+    "buhara-halk-cumhuriyeti",
+    "bulgaristan-kralligi",
+    "cammu-kesmir",
+    "cekoslovakya",
+    "cimma-sultanligi",
+    "cin-cumhuriyeti",
+    "cohor-sultanligi",
+    "danimarka",
+    "dominik-cumhuriyeti",
+    "ekvador-cumhuriyeti",
+    "el-salvador-cumhuriyeti",
+    "estonya",
+    "fas",
+    "finlandiya",
+    "fransa-cumhuriyet",
+    "fransiz-guyanasi",
+    "guatemala",
+    "habesistan",
+    "haiti",
+    "harezm-halk-cumhuriyeti",
+    "hicaz-kralligi",
+    "hollanda",
+    "honduras-cumhuriyeti",
+    "ingiliz-kuzey-amerika",
+    "ingiltere",
+    "irlanda-serbest-devlet",
+    "ispanya",
+    "isvec",
+    "isvicre",
+    "italya",
+    "izlanda",
+    "kamboc-kralligi",
+    "kanada",
+    "katar",
+    "kolombiya-cumhuriyeti",
+    "kosta-rika-cumhuriyeti",
+    "kuba-cumhuriyeti",
+    "kuveyt",
+    "letonya",
+    "liberya",
+    "litvanya",
+    "luksemburg",
+    "macaristan-naiplik",
+    "meiji-japonya",
+    "meksika",
+    "misir-sultanligi",
+    "mogolistan",
+    "nepal",
+    "nikaragua-cumhuriyeti",
+    "norvec",
+    "oniki-ada-italyan",
+    "panama-cumhuriyeti",
+    "paraguay-cumhuriyeti",
+    "peru-cumhuriyeti",
+    "polonya",
+    "portekiz",
+    "romanya-kralligi",
+    "san-devletleri",
+    "senusi",
+    "sili-cumhuriyeti",
+    "siyam-chakri",
+    "somali",
+    "sovyet-rusya",
+    "surakarta",
+    "suriye-lubnan-mandasi",
+    "tannu-tuva",
+    "tbmm-turkiye",
+    "tibet-ganden-phodrang",
+    "tidore-sultanligi",
+    "tonga-kralligi",
+    "umman",
+    "umman-zengibar",
+    "uruguay-cumhuriyeti",
+    "venezuela-cumhuriyeti",
+    "yemen-zeydi",
+    "yeni-zelanda",
+    "yogyakarta",
+    "yugoslavya",
+    "yunanistan"
+   ],
+   "kunye_bolge_dagilimi": {
+    "kuzey-amerika": 61,
+    "guneydogu-asya": 60,
+    "bati-afrika": 58,
+    "guney-asya": 55,
+    "dogu-afrika": 44,
+    "balkanlar": 39,
+    "anadolu": 35,
+    "arabistan": 29,
+    "guney-amerika": 28,
+    "orta-afrika": 28,
+    "dogu-asya": 28,
+    "guney-afrika": 23,
+    "dogu-avrupa": 21,
+    "iran": 20,
+    "italya": 18,
+    "kuzey-afrika": 17,
+    "orta-asya": 16,
+    "orta-avrupa": 15,
+    "misir-sudan": 13,
+    "orta-amerika-karayip": 13,
+    "bati-avrupa": 12,
+    "kafkasya": 12,
+    "sibirya-bozkir": 9,
+    "kuzey-avrupa": 8,
+    "iberya": 6,
+    "orta-amerika": 5,
+    "okyanusya": 5
+   },
+   "index_script_sayisi": 262,
+   "index_bulunamayan": [
+    "https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js",
+    "data/dolgu.js"
+   ],
+   "index_toplam_bayt": 165148248,
+   "index_en_buyuk": [
+    {
+     "bayt": 75814859,
+     "dosya": "data/devletler_harita.js"
+    },
+    {
+     "bayt": 61856990,
+     "dosya": "data/donemler.js"
+    },
+    {
+     "bayt": 13810695,
+     "dosya": "data/altlik.js"
+    },
+    {
+     "bayt": 1014852,
+     "dosya": "data/devletler.js"
+    },
+    {
+     "bayt": 790601,
+     "dosya": "js/app.js"
+    },
+    {
+     "bayt": 575398,
+     "dosya": "data/yerlesimler.js"
+    },
+    {
+     "bayt": 494040,
+     "dosya": "data/bolgeler.js"
+    },
+    {
+     "bayt": 433978,
+     "dosya": "data/d_sinirlar_avrupa_orta.js"
+    },
+    {
+     "bayt": 353350,
+     "dosya": "data/olaylar_ek5.js"
+    },
+    {
+     "bayt": 330244,
+     "dosya": "data/sinir_sinif_dizini.js"
+    },
+    {
+     "bayt": 301204,
+     "dosya": "data/d_sinirlar_avrupa_bati.js"
+    },
+    {
+     "bayt": 249697,
+     "dosya": "data/d_sinirlar_asya.js"
+    }
+   ],
+   "index_kesitle_olcekleyen_bayt": 137671849,
+   "index_kesitle_olcekleyen_oran": 0.8336
+  },
+  "kosu_suresi_kesit_egrisi": [
+   {
+    "log": "kosu3.log",
+    "kesit": 504,
+    "duvar_sn": 5248,
+    "islemci_sn": 5184
+   },
+   {
+    "log": "kosu4_28agu.log",
+    "kesit": 529,
+    "duvar_sn": 16674,
+    "islemci_sn": 16392
+   },
+   {
+    "log": "kosu4b.log",
+    "kesit": 541,
+    "duvar_sn": 58100,
+    "islemci_sn": 57159
+   },
+   {
+    "log": "kosu7.log",
+    "kesit": 504,
+    "duvar_sn": 17785,
+    "islemci_sn": 6679
+   },
+   {
+    "log": "kosu9.log",
+    "kesit": 500,
+    "duvar_sn": 5150,
+    "islemci_sn": 5112
+   },
+   {
+    "log": "kosu_11agu_b.log",
+    "kesit": 504,
+    "duvar_sn": 4207,
+    "islemci_sn": 4172
+   },
+   {
+    "log": "kosu_11agu_c.log",
+    "kesit": 510,
+    "duvar_sn": 4755,
+    "islemci_sn": 4678
+   },
+   {
+    "log": "kosu_11agu_d.log",
+    "kesit": 512,
+    "duvar_sn": 5112,
+    "islemci_sn": 5084
+   },
+   {
+    "log": "kosu_1eylul.log",
+    "kesit": 533,
+    "duvar_sn": 41952,
+    "islemci_sn": 33684
+   },
+   {
+    "log": "kosu_2133.log",
+    "kesit": 504,
+    "duvar_sn": 4396,
+    "islemci_sn": 4367
+   },
+   {
+    "log": "kosu_25agu.log",
+    "kesit": 526,
+    "duvar_sn": 12845,
+    "islemci_sn": 12723
+   },
+   {
+    "log": "kosu_27agu.log",
+    "kesit": 526,
+    "duvar_sn": 12902,
+    "islemci_sn": 12782
+   },
+   {
+    "log": "kosu_27agu_2.log",
+    "kesit": 526,
+    "duvar_sn": 14505,
+    "islemci_sn": 14276
+   },
+   {
+    "log": "kosu_28agu.log",
+    "kesit": 527,
+    "duvar_sn": 19003,
+    "islemci_sn": 18750
+   },
+   {
+    "log": "kosu_2eylul.log",
+    "kesit": 536,
+    "duvar_sn": 38089,
+    "islemci_sn": 33245
+   },
+   {
+    "log": "kosu_30agu.log",
+    "kesit": 534,
+    "duvar_sn": 28756,
+    "islemci_sn": 26879
+   },
+   {
+    "log": "kosu_31agu.log",
+    "kesit": 533,
+    "duvar_sn": 25059,
+    "islemci_sn": 24584
+   },
+   {
+    "log": "kosu_3eylul_2.log",
+    "kesit": 541,
+    "duvar_sn": 30198,
+    "islemci_sn": 28171
+   },
+   {
+    "log": "kosu_4_16agu.log",
+    "kesit": 516,
+    "duvar_sn": 8058,
+    "islemci_sn": 6254
+   },
+   {
+    "log": "kosu_egim_16agu.log",
+    "kesit": 516,
+    "duvar_sn": 6191,
+    "islemci_sn": 6019
+   },
+   {
+    "log": "kosu_epok_16agu.log",
+    "kesit": 516,
+    "duvar_sn": 7105,
+    "islemci_sn": 6591
+   },
+   {
+    "log": "kosu_puanlama.log",
+    "kesit": 516,
+    "duvar_sn": 40071,
+    "islemci_sn": 11751
+   },
+   {
+    "log": "kosu_r772.log",
+    "kesit": 500,
+    "duvar_sn": 4320,
+    "islemci_sn": 4294
+   },
+   {
+    "log": "kosu_r834.log",
+    "kesit": 500,
+    "duvar_sn": 4343,
+    "islemci_sn": 4296
+   },
+   {
+    "log": "kosu_r865.log",
+    "kesit": 502,
+    "duvar_sn": 4890,
+    "islemci_sn": 4839
+   },
+   {
+    "log": "kosu_r891.log",
+    "kesit": 502,
+    "duvar_sn": 4210,
+    "islemci_sn": 4176
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 512,
+    "duvar_sn": 5159,
+    "islemci_sn": 4903
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 511,
+    "duvar_sn": 5166,
+    "islemci_sn": 5081
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 511,
+    "duvar_sn": 4756,
+    "islemci_sn": 4726
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 541,
+    "duvar_sn": 71048,
+    "islemci_sn": 64975
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 528,
+    "duvar_sn": 60459,
+    "islemci_sn": 59419
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 527,
+    "duvar_sn": 72267,
+    "islemci_sn": 68141
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 525,
+    "duvar_sn": 71821,
+    "islemci_sn": 63234
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 533,
+    "duvar_sn": 69011,
+    "islemci_sn": 67021
+   },
+   {
+    "log": "kosu_zincir.log",
+    "kesit": 540,
+    "duvar_sn": 68862,
+    "islemci_sn": 66603
+   }
+  ],
+  "devir_hizi_ve_1923_acik_pencere": {
+   "dilim_baslangic_25yil": {
+    "1200": 1,
+    "1275": 2469,
+    "1300": 144,
+    "1325": 376,
+    "1350": 276,
+    "1375": 316,
+    "1400": 1070,
+    "1425": 173,
+    "1450": 385,
+    "1475": 196,
+    "1500": 779,
+    "1525": 521,
+    "1550": 368,
+    "1575": 225,
+    "1600": 164,
+    "1625": 288,
+    "1650": 270,
+    "1675": 271,
+    "1700": 353,
+    "1725": 455,
+    "1750": 307,
+    "1775": 571,
+    "1800": 827,
+    "1825": 477,
+    "1850": 573,
+    "1875": 983,
+    "1900": 2657,
+    "1925": 1
+   },
+   "s_dilim_baslangic_25yil": {
+    "1200": 1,
+    "1275": 2458,
+    "1300": 121,
+    "1325": 350,
+    "1350": 218,
+    "1375": 202,
+    "1400": 882,
+    "1425": 121,
+    "1450": 277,
+    "1475": 153,
+    "1500": 550,
+    "1525": 394,
+    "1550": 226,
+    "1575": 164,
+    "1600": 162,
+    "1625": 262,
+    "1650": 208,
+    "1675": 252,
+    "1700": 239,
+    "1725": 420,
+    "1750": 287,
+    "1775": 539,
+    "1800": 673,
+    "1825": 332,
+    "1850": 529,
+    "1875": 858,
+    "1900": 2496,
+    "1925": 1
+   },
+   "dilim_bas_1800-1824": 827,
+   "s_dilim_bas_1800-1824": 673,
+   "dilim_bas_1825-1849": 477,
+   "s_dilim_bas_1825-1849": 332,
+   "dilim_bas_1850-1874": 573,
+   "s_dilim_bas_1850-1874": 529,
+   "dilim_bas_1875-1899": 983,
+   "s_dilim_bas_1875-1899": 858,
+   "dilim_bas_1900-1923": 2657,
+   "s_dilim_bas_1900-1923": 2496,
+   "1923_10_29_acik_dilim": 3844,
+   "1923_10_29_kapsanan_nokta": 3753,
+   "kapsanmayan_nokta": 168,
+   "nokta_basina_dilim": 3.95
+  },
+  "1923_10_29_siyasi_bolumlenme": {
+   "tarih": "1923-10-29",
+   "nokta": 3921,
+   "sahipsiz": 168,
+   "farkli_kimlik": 115,
+   "dagilim": {
+    "sovyet-rusya": 410,
+    "ingiltere": 338,
+    "tbmm-turkiye": 263,
+    "fransa-cumhuriyet": 261,
+    "abd": 200,
+    "kanada": 188,
+    "italya": 127,
+    "ingiliz-hindistani": 120,
+    "kacar": 108,
+    "cin-cumhuriyeti": 105,
+    "yunanistan": 99,
+    "avustralya": 79,
+    "meksika": 78,
+    "yugoslavya": 77,
+    "hollanda-dogu-hint": 67,
+    "habesistan": 64,
+    "portekiz": 60,
+    "belcika": 59,
+    "meiji-japonya": 55,
+    "misir-kralligi": 52,
+    "ispanya": 47,
+    "fransiz-cinhindi": 46,
+    "romanya-kralligi": 42,
+    "brezilya-cumhuriyeti": 40,
+    "ingiliz-sudani": 37,
+    "arjantin-cumhuriyeti": 37,
+    "OSMANLI": 36,
+    "irak-kralligi": 35,
+    "fas": 34,
+    "almanya": 34,
+    "isvec": 30,
+    "peru-cumhuriyeti": 27,
+    "suriye-lubnan-mandasi": 25,
+    "bulgaristan-kralligi": 24,
+    "siyam-chakri": 24,
+    "finlandiya": 22,
+    "macaristan-naiplik": 20,
+    "suud-ucuncu": 20,
+    "norvec": 20,
+    "umman": 19,
+    "polonya": 17,
+    "bolivya-cumhuriyeti": 16,
+    "somali": 15,
+    "arnavutluk-bagimsiz": 14,
+    "sili-cumhuriyeti": 14,
+    "hicaz": 13,
+    "mogolistan": 13,
+    "cekoslovakya": 12,
+    "danimarka": 12,
+    "irlanda-serbest-devlet": 11,
+    "ingiliz-malaya": 11,
+    "yemen": 9,
+    "hollanda": 8,
+    "haydarabad-nizam": 8,
+    "umman-zengibar": 8,
+    "racput": 7,
+    "filistin-mandasi": 6,
+    "isvicre": 6,
+    "ekvador-cumhuriyeti": 6,
+    "venezuela-cumhuriyeti": 6,
+    "paraguay-cumhuriyeti": 6,
+    "rusya": 5,
+    "afganistan": 5,
+    "kolombiya-cumhuriyeti": 5,
+    "uruguay-cumhuriyeti": 5,
+    "liberya": 5,
+    "tibet-ganden-phodrang": 4,
+    "kuba-cumhuriyeti": 4,
+    "estonya": 4,
+    "letonya": 3,
+    "litvanya": 3,
+    "cammu-kesmir": 3,
+    "meysur": 3,
+    "san-devletleri": 3,
+    "cohor-sultanligi": 3,
+    "ingiliz-guyanasi": 3,
+    "yeni-zelanda": 3,
+    "urdun-emirligi": 2,
+    "avusturya-cumhuriyet": 2,
+    "maratha": 2,
+    "guatemala": 2,
+    "dominik-cumhuriyeti": 2,
+    "izlanda": 2,
+    "panama-cumhuriyeti": 2,
+    "agadez-sultanligi": 1,
+    "danzig-serbest-sehri": 1,
+    "kuveyt": 1,
+    "katar": 1,
+    "kuayti-sultanligi": 1,
+    "piombino": 1,
+    "cimma": 1,
+    "luksemburg": 1,
+    "nepal": 1,
+    "bahavelpur": 1,
+    "bharatpur-cat": 1,
+    "cunagadh": 1,
+    "indor": 1,
+    "gvalyar": 1,
+    "bhopal": 1,
+    "manipur": 1,
+    "kolhapur": 1,
+    "travankur": 1,
+    "yogyakarta": 1,
+    "surakarta": 1,
+    "brunei-sultanligi": 1,
+    "sarawak-brooke": 1,
+    "tidore-sultanligi": 1,
+    "haiti": 1,
+    "hollanda-guyanasi": 1,
+    "fransiz-guyanasi": 1,
+    "adal": 1,
+    "tonga-kralligi": 1,
+    "buganda": 1,
+    "baroda": 1,
+    "kesiri-sultanligi": 1
+   }
+  },
+  "gzip_orani": {
+   "devletler_harita.js": {
+    "bayt": 75814859,
+    "ornek_bayt": 20971520,
+    "ornek_gzip": 5061469,
+    "oran": 0.2413,
+    "tahmini_gzip_mb": 18.3
+   },
+   "donemler.js": {
+    "bayt": 61856990,
+    "ornek_bayt": 20971520,
+    "ornek_gzip": 6352645,
+    "oran": 0.3029,
+    "tahmini_gzip_mb": 18.7
+   },
+   "altlik.js": {
+    "bayt": 13810695,
+    "ornek_bayt": 9207130,
+    "ornek_gzip": 3303511,
+    "oran": 0.3588,
+    "tahmini_gzip_mb": 5.0
+   }
+  },
+  "uretim_hizi_kalibrasyonu": {
+   "revler": {
+    "30": "19882b4659151db0e464478a292533bd805f4a83",
+    "60": "",
+    "90": ""
+   },
+   "kunye_simdi": 678,
+   "kunye_gecmis": {
+    "30": {
+     "kunye": 431
+    }
+   },
+   "commit_son_14gun": 3071,
+   "data_commit_son_14gun": 284,
+   "commit_son_30gun": 6904,
+   "data_commit_son_30gun": 495,
+   "commit_son_60gun": 9763,
+   "data_commit_son_60gun": 1039,
+   "tahta_mesaj": 4889,
+   "tahta_farkli_gonderen": 682,
+   "tahta_teslim": 791,
+   "tahta_son14gun_mesaj": {
+    "2026-09-06": 14,
+    "2026-09-07": 180,
+    "2026-09-10": 29,
+    "2026-09-11": 220,
+    "2026-09-12": 108,
+    "2026-09-13": 254,
+    "2026-09-14": 100,
+    "2026-09-15": 1,
+    "2026-09-16": 219,
+    "2026-09-17": 252,
+    "2026-09-18": 89,
+    "2026-09-19": 132,
+    "2026-09-20": 181,
+    "2026-09-21": 39
+   },
+   "tahta_son14gun_oturum": {
+    "2026-09-06": 4,
+    "2026-09-07": 32,
+    "2026-09-10": 12,
+    "2026-09-11": 82,
+    "2026-09-12": 32,
+    "2026-09-13": 54,
+    "2026-09-14": 28,
+    "2026-09-15": 1,
+    "2026-09-16": 40,
+    "2026-09-17": 68,
+    "2026-09-18": 21,
+    "2026-09-19": 36,
+    "2026-09-20": 61,
+    "2026-09-21": 19
+   }
+  },
+  "motor_asama_bilancosu_15eylul": {
+   "_kaynak": "kosu_zincir.log — son AŞAMA BİLANÇOSU",
+   "kesit_kirilma_tarihi": 540,
+   "duvar_saat": 19.13,
+   "islemci_saat": 18.5,
+   "kesit_basina_sn": 123.3,
+   "asamalar_pay": {
+    "Yabanci devlet govdeleri": 0.815,
+    "Donemler kuruluyor (delta yapisi)": 0.105,
+    "Col tavani": 0.031,
+    "Varlik epoklari": 0.025,
+    "Petek alanlari": 0.005,
+    "diger_toplam": 0.019
+   },
+   "capraz_sayac": {
+    "yabanci_govde_geometrisi": {
+     "cagri": 3643,
+     "saat": 14.72,
+     "sn_basina": 14.55
+    },
+    "osmanli_govde_geometrisi": {
+     "cagri": 535,
+     "saat": 1.216,
+     "sn_basina": 8.19
+    },
+    "kusatilmislik": {
+     "cagri": 1844,
+     "dk": 57.9
+    },
+    "serbest_kenar": {
+     "cagri": 535,
+     "dk": 47.4
+    }
+   },
+   "not": "CLAUDE.md §9 'tam kosu ~40 dk' der; OLCULEN 18,5 SAAT islemci. 40 dk 28 kat bayattir."
+  },
+  "birim_maliyetler": {
+   "kosu_sn_yeni_yabanci_govde": 14.55,
+   "kosu_sn_yeni_kesit_tarihi": 13.3,
+   "bayt_yeni_yabanci_govde_ham": 18918,
+   "bayt_yeni_yabanci_govde_gzip": 4563,
+   "donemler_js_govde_basina_bayt": 104000,
+   "donemler_js_1923_sonrasi_buyume": 0,
+   "kesit_tarihi_govde_orani": 0.42,
+   "degismez2s_kirilma_govde_orani": 0.37
+  }
+ },
+ "turetilen": {
+  "_yontem": "Kademe A=1923-1945 (21,9 yil) · B=1945-1991 (46,3 yil) · C=1991-2025 (33,1 yil). 1918 kademe DEGILDIR: atlasin penceresi zaten 1923-10-29'da biter (girdi.py UFUK, app.js BITIS).",
+  "yeni_kunye": {
+   "A": [
+    130,
+    170,
+    145
+   ],
+   "B": [
+    120,
+    165,
+    140
+   ],
+   "C": [
+    50,
+    85,
+    65
+   ],
+   "TOPLAM": [
+    300,
+    420,
+    350
+   ],
+   "birim": "[alt, ust, orta]"
+  },
+  "yeni_kronoloji_maddesi": {
+   "A": [
+    180,
+    320,
+    225
+   ],
+   "B": [
+    200,
+    450,
+    300
+   ],
+   "C": [
+    135,
+    205,
+    170
+   ],
+   "TOPLAM": [
+    515,
+    975,
+    695
+   ],
+   "degismez2s_zorunlu_taban": {
+    "A": 96,
+    "B": 229,
+    "C": 74,
+    "TOPLAM": 399
+   }
+  },
+  "yeni_yerlesim_dilimi": {
+   "A": [
+    2000,
+    3500,
+    2600
+   ],
+   "B": [
+    1800,
+    3000,
+    2300
+   ],
+   "C": [
+    600,
+    1000,
+    800
+   ],
+   "TOPLAM": [
+    4400,
+    7500,
+    5700
+   ],
+   "ayrica_tasinacak_acik_pencere": 3844,
+   "kapsanan_nokta": 3753
+  },
+  "yeni_yabanci_govde": {
+   "A": [
+    180,
+    400,
+    260
+   ],
+   "B": [
+    450,
+    850,
+    620
+   ],
+   "C": [
+    120,
+    300,
+    200
+   ],
+   "TOPLAM": [
+    750,
+    1550,
+    1080
+   ]
+  },
+  "kosu_suresi_saat": {
+   "bugun": 18.5,
+   "A": 20.0,
+   "B": 23.5,
+   "C": 24.6,
+   "toplam_artis_saat": 6.1,
+   "toplam_artis_oran": 0.33
+  },
+  "cikti_ham_mb": {
+   "bugun": 165.1,
+   "A": 170.0,
+   "B": 181.7,
+   "C": 185.5,
+   "toplam_artis_mb": 20.4,
+   "toplam_artis_oran": 0.124
+  },
+  "cikti_gzip_mb": {
+   "bugun": 44.0,
+   "A": 45.2,
+   "B": 48.0,
+   "C": 48.9
+  },
+  "proje_gunu": {
+   "A": [
+    12,
+    18
+   ],
+   "B": [
+    18,
+    27
+   ],
+   "C": [
+    10,
+    15
+   ],
+   "TOPLAM": [
+    40,
+    60
+   ]
+  },
+  "oturum_gunu_30oturum_gun": {
+   "A": [
+    350,
+    550
+   ],
+   "B": [
+    550,
+    800
+   ],
+   "C": [
+    300,
+    450
+   ],
+   "TOPLAM": [
+    1200,
+    1800
+   ]
+  },
+  "icerik_buyume_orani": {
+   "kunye": 0.52,
+   "kronoloji": 0.41,
+   "yerlesim_dilimi": 0.37,
+   "agirlikli": 0.43
+  }
+ },
+ "olcemedim": [
+  "Hedef tarihlerin siyasi haritasinin KAYNAKTAN cikarilmasi — yeni kunye sayisinin ilk terimi tahmindir (+-%25).",
+  "TOKEN cinsinden maliyet — is/oturum eslesmesi tahtada yok.",
+  "PALET maliyeti — +350 kimlik renkler.py'nin 602 boyasini %58 buyutur, renk_olc.py kisiti dogrusal degil. Bu raporun sayilarina DAHIL DEGIL.",
+  "NOKTA YOGUNLUGU — somurgesizlesmeyi gostermek icin Afrika/Amerika'da kac yeni yerlesim noktasi gerektigi olculmedi.",
+  "B (dolgu) katmaniyla birlesik maliyet — B-GORUNUM-0072'nin 4,5-6 gun sayisi %33 ile carpildi, sayinin kendisi dogrulanmadi.",
+  "denetle.py KOSTURULMADI — veri degistirilmedi, evreninde hicbir seye dokunulmadi."
+ ]
+}
