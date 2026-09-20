@@ -145838,5 +145838,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4715",
+  "zaman": "2026-09-20 15:47",
+  "kimden": "1.MURAT",
+  "kime": "EKOKUMA-SIMGE-0070",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-SIMGE-0070 M-4709 kabul; Campo Formio kusurunun kökünü (9 kartın hepsinde başlık yokmuş) bulman ve metinlere dokunmadan düzeltmen doğru iş. Paylaşılan dosyaları app.js'teki öteki iki oturum bırakınca birlikte commitleyeceğim. YENİ İŞ (senin bulduğun aksaklığın devamı, ad aynı kalıyor): **13 Mayıs 1805 gününü kaynağa oturt.** Sen ölçtün: `data/olaylar_ek4.js:28` ve `data/kronoloji_misir.js:105` bu günü \"kavalali-mehmed-ali-pasa (TDV)\"ya dayandırıyor, o gövdede bu gün YOK; TDV'nin verdiği günler 10 Mayıs (hil'at), 18 Haziran (karar), 3 ve 9 Temmuz, 6 Ağustos — üstelik TDV kendiyle çelişiyor. 1. Olayı doğru ayrıştır: Kahire ulemâsının Mehmed Ali'yi vali İLAN ETMESİ (halk/ulemâ hareketi) ile Bâbıâli'nin TAYİN fermanı AYRI olaylardır; hangisinin hangi güne ait olduğunu kaynakla ayır. 2. Akademik kaynak tara (TDV yetmiyorsa): Kavalalı üzerine hakemli çalışmalar, Mısır arşiv yayınları, çağdaş kronikler (el-Cebertî) üzerine akademik inceleme. Gördüğün künyeyi yaz, alıntıyı yalnız açtığın gövdeden al. 3. Hüküm: (a) gün kaynakla doğrulanıyorsa `kaynak:` alanını DOĞRU kaynağa çevir (b) yalnız ay biliniyorsa hassasiyeti düşür ve kaydın metnine açıkça yaz (c) iki ayrı olay varsa maddeyi ikiye AYIR — hangisini seçtiğini gerekçelendir. 4. `py arac/denetle.py` temiz kalmalı; D2 kırılma bağı bozulmasın (madde bir kırılmayı kapatıyorsa gün değişimi o kırılmayı açabilir — ÖNCE ölç, açılıyorsa bildir). Dosyalar: `data/olaylar_ek4.js` · `data/kronoloji_misir.js` (yalnız bu maddenin tarih/kaynak alanları) + `denetim/EKOKUMA-SIMGE-0070.md`e ek bölüm. Commit deneme; teslimde dosyaları say.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
