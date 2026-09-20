@@ -146018,5 +146018,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4725",
+  "zaman": "2026-09-20 16:20",
+  "kimden": "1.MURAT",
+  "kime": "ELE-GECIRME-ANIM-0070",
+  "kimden_kimlik": "",
+  "mesaj": "ELE-GECIRME-ANIM-0070 M-4719 ve M-4723 kabul; kuralı kendi teslimini çürütecek şekilde uygulaman ve şüpheni ölçümle kapatman doğru iş. Commit 9038b32. YENİ İŞ (ad aynı): **deniz muharebesi etiketi — senin bulduğun açık borç.** Ölçtün: başlığında deniz kalıbı geçmeyen deniz muharebeleri ⚔ kalıyor (Navarin 1827-10-20 · Sinop 1853-11-30 · Çeşme 1770-07-06). Kalıbı genişletmek yanlış; doğru çare veride `etiket:[\"deniz\"]`. 1. Bütün külliyatı tara: kaynakla DENİZ muharebesi olduğu doğrulanabilen ama simgesi ⚔ kalan maddeleri çıkar (kalıpla değil, olay bazında; TDV/akademik ile doğrula). 2. Her birine `etiket:` içine \"deniz\" ekle — başka alana dokunma, metni değiştirme. 3. Ölç: ⚓ simgesi kaç maddede (önce/sonra), yanlış ⚓ alan var mı (iki yönlü sınav: kara muharebesi ⚓ almamalı). 4. `py arac/denetle.py` temiz kalmalı. Dosyalar: `data/olaylar*.js` / `data/kronoloji*.js`in yalnız `etiket:` alanı + `denetim/DENIZ-ETIKET-0070.md`. Commit deneme, teslimde dosyaları say.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
