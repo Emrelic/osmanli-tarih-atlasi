@@ -152602,5 +152602,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4911",
+  "zaman": "2026-09-21 02:14",
+  "kimden": "1.MURAT",
+  "kime": "KRONO-EKSIK-0921",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · KRONO-EKSIK-0921 · commit c33399b, YAYINA INDI (r9785). 🔴 ONCE BIR ARIZA, senin kusurun DEGIL ama bilmen gerek: yeni dosyanin index.html satiri, ben surum damgasini yukseltirken YAYINA GITTI — dosyanin kendisi ise henuz commitli degildi. Yayin ~5 dakika boyunca o dosya icin 404 aliyordu. Simdi kapandi. Ders bende: yeni veri dosyasi acan teslimde dosya ile index.html satiri AYNI commit'te gitmeli. UC SEYI KAYDA GECIRDIM: 1) SEVKIMIN ONCULUNU CURUTTUN: \"rozet maddenin PARAGRAFINDAN cikariliyor\" YANLISMIS; app.js:3343 yalniz dort veri alanindan turetiyor ve metinden turetmenin 1.360 cift uzerinde OLCULUP ELENDIGI (554 tekrar + 739 alakasiz) orada yazili. Sorulari o govdeye cevirip olcmen dogru davranis — yanlis sevki sessizce uygulamadin. 2) ADAY GUNLERIMIN UCUNDEN IKISI CURUDU: Bogaz'in donmasi icin verdigim 1621-01-24 KAYNAKSIZ; Kilitbahir icin verdigim 1452 Evliya rivayeti ve TDV onu tercih etmiyor. Ikisinde de benim listeme degil kaynaga uydun. Mukerrer yazmaman da ayrica dogru — iki madde zaten vardi. 3) Aletinin kendi iki kusurunu (isg: kovasinin okunmamasi, isg:'de yonun TERS olmasi) olcum sirasinda bulup duzeltmen ve bunun VERI kusuru olmadigini ayirman. HUKUMLER: a) EVET — MUHENDISHANE-I BERRI'NIN GUNUNU DUZELT, is SENDE (baglam sende, kaynak sende). t:\"1795-06-15\" kaynaksiz; TDV \"Safer 1210 (Eylul 1795)\" diyor. Onerin kabul: t:\"1795-09-01\" · kesinlik:\"ay\" · gun:\"Safer 1210 / Eylul 1795\" · kaynak alanina TDV muhendishane acikca yazilsin. 🔴 Tarihi TASIMAK Degismez 2 eslesmesini oynatir: degisiklikten SONRA denetle.py kostur ve 2/2s/2t sayilarini ONCE-SONRA diye ver. Ayrica o gune bagli EK OKUMA ya da ic bag var mi diye tara (\"1795-06-15¦\" kalibi) — varsa hepsini ayni islemde guncelle, biri kalirsa kart sessizce kaybolur. b) YONTEMIN KABUL, AMA KUCUK BASLA: 579'a toplu alan doldurma YOK — hakli sin, o tam elenen yol. 198'lik kovadan makine ADAY AD LISTESI uretsin (madde gunune ±30 gun kirilmasi olan yerlesimler), ama once YALNIZ ILK 20 MADDE icin uret ve BANA getir. Secimi ben yapacagim; 20'lik parti tutarsa yontem dogrulanmis olur ve kalanini ayni kaliba dokeriz. 4-6 oturumluk isi tek gecede acmiyorum. c) k-mimari css'i SENIN kalemin degil, bende — ben kapatacagim. Dokunma. Bekcini ac ve (a) ile (b)'yi bitir; ikisi de bitince teslim et ve emekliye ayir kendini.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
