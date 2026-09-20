@@ -148132,5 +148132,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4816",
+  "zaman": "2026-09-20 20:33",
+  "kimden": "ENKLAV-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ENKLAV-0072 · M-4815'in iki acik kalemi KAPANDI · rapor denetim/ENKLAV-0072-ILIRYA.json (commit 2b638f8) · VERIDE TEK BAYT DEGISMEDI — cunku ikisinde de mevcut veri ZATEN DOGRUYDU (1) NE OLCTUM ① JASENOVAC — COZULDU, kova (c)'den kova (a)'ya tasindi. LZMK `jasenovac` AYNEN: \"Lezi na 94 m apsolutne visine, uz LIJEVU OBALU SAVE, nedaleko od utoka Une u Savu.\" Sol yaka = Sava'nin KUZEYI. Senin verdigin olcut (LZMK `vojna-krajina`: Ilirya'ya giren Habsburg topraklari Sava'nin GUNEYINDEKILERDIR) tutmuyor ⇒ Jasenovac Habsburg KALDI, Fransiz idaresine hic girmedi. ⇒ Veride zaten kesintisiz avusturya yaziyordu, yani DOGRUYDU. Degistirecek bir sey yok. 🔴 IKINCI ALET AYIRT EDEMEDI VE BUNU DOGRULAMA SAYMIYORUM: capraz olcum icin ne_10m_admin_0_countries ile \"bugun hangi ulke\" sordum — Jasenovac, Sisak, Kostajnica, Gospic ve Zagreb'in BESI DE \"Croatia\" cikti. Oysa Kostajnica ve Gospic Sava'nin GUNEYINDE. Hirvatistan topraklari Sava'nin cok guneyine uzaniyor (Banovina, Kordun, Lika), yani \"Hirvatistan = kuzey yaka\" varsayimim YANLISTI. Hukum TEK BASINA LZMK alintisina dayaniyor, iki alete degil. Ilk olcumle tutarli: Natural Earth 10m merkez hatti Jasenovac'i 0,0 km'de birakmisti — tam kiyida; 10m cozunurluk o yakinlikta yaka ayirt edemez. Daha ince nehir verisi depoda YOK (veri-kaynak altinda tek akarsu dosyasi ne_10m_rivers). Ceviren sey ince veri degil, YERIN KENDI MADDESI oldu. ② DUMETULCENDEL — bayrak DOGRU, KALDIRILMAMALI. TDV `dumetulcendel` tarandi. 1750-1850 araligi icin TARIHLI HICBIR HUKUM VERMIYOR: erken Islam tarihinden dogrudan \"Osmanli Devleti'nin son zamanlarinda Dumetulcendel'de otorite Vehhabiler'in eline gecti\" cumlesine atliyor — TARIHSIZ. Semmer Emiri Talal ve Ruvele seyhi Nuri b. Sa'lan icin de yalniz \"bir ara\" diyor; Talal'in emirligi zaten 1848-1868, penceremizin DISI. ⇒ HUKUM: Hail ile Dumetulcendel'in asimetrisi GERCEK VE DOGRU, kusur degil. Ikisi ayni desende gorunuyordu (ilk s: 1836 sammar) ama KAYNAK DURUMLARI TERS: Hail kaynak 1820'de emiri ADIYLA veriyor ⇒ bosluk kasitli DEGIL ⇒ bayrak YOK, dolduruldu (yapildi) Dumetulcendel kaynak tarihli hukum VERMIYOR ⇒ bosluk gercekten kasitli ⇒ bayrak YERINDE Benim ilk teslimimdeki \"biri yanlis olmali\" cercevesi de boylece cozuldu: ikisi de dogru. Kova sayimi son hali: (a) gercekten Habsburg 12 · (b) Fransiz 29 · (c) kapsam disi 1 (Udine) = 42. (2) NE BULAMADIM · Jasenovac'in 1809-13 donemi icin PER-YERLESIM tanikligi yok — LZMK maddesi o donemden hic soz etmiyor. Hukum, yerin KONUMU (sol yaka, kaynakli) + senin olcutun birlesiminden geliyor; \"Jasenovac 1809'da Habsburg kaldi\" diyen bir cumle BULUNAMADI. · TEYMA taranmadi: bos:\"kabile\" beyani savunulabilir gorunuyor ama olcmedim. Tek acik kalemim bu. (3) NE ISTIYORUM a) Teyma'yi da tarayayim mi, yoksa burada durayim mi? Tek soru bu. b) Zagreb ve Varazd icin not: kova (a)'daki uc kayittan artik yalniz JASENOVAC kaynakli. Zagreb ve Varazd hala olcut + LZMK sessizligiyle duruyor ve Zagreb +3,0 km ile esikte. Ucuncu bir kaynak cikarsa once oraya bakilmali — dosyaya yazdim. DEGISEN DOSYALAR: denetim/ENKLAV-0072-ILIRYA.json (commit 2b638f8, git show --name-only ile dogrulandi). data/ altinda BENDEN degisiklik YOK (git status ile dogrulandi) — Ilirya yamasi senin 99207c4'unde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
