@@ -567,7 +567,7 @@ window.YERLESIMLER_EK29 = [
 // yerlesimler.js:665) kapatıldı, arada doğrudan Osmanlı `d:` dönemi
 // eklendi (1516-09-27→1521-01-01, Harfûş ailesinin fiilen yerleşmesine
 // kadar). Harfûşoğulları künyesinin kendi f:'i (1521-01-01) DEĞİŞMEDİ.
-{ ad:"Ba'lebek (Baalbek)", tur:"kasaba", lat:34.0059, lon:36.2181, g:0, k:3,
+{ ad:"Ba'lebek (Baalbek)", tur:"kasaba", lat:34.0059, lon:36.2181, g:0, k:3, m:"Şam",
   s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},
      {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
      {f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
@@ -575,7 +575,7 @@ window.YERLESIMLER_EK29 = [
   d:[{f:"1516-09-27",t:"1521-01-01"},{f:"1850-01-01",t:"1918-10-08"}],
   kaynak:"TDV `balebek` (gövdesi okundu, `baalbek` slug'ı ona yönlendiriyor — §4② tuzağı): '1516'da Yavuz Sultan Selim'in Suriye seferi sırasında Osmanlı hâkimiyetine geçti... küçük beylerin, özellikle Harfûş ailesinin elinde kaldı' · '1850'de Bâbıâli'nin yeni düzenlemesiyle Şam vilâyetine tâbi bir kaza merkezi yapıldı'. Fetih günü Şam/Mercidabık (1516-09-27, komşu emsali) ile hizalandı; Harfûş hâkimiyeti künyenin kendi f:'i (1521-01-01, Canbirdi Gazâlî isyanı sonrası) ile başlıyor." },
 
-{ ad:"Sûr (Tyre) — Lübnan", tur:"liman", lat:33.2704, lon:35.2038, g:0, k:3,
+{ ad:"Sûr (Tyre) — Lübnan", tur:"liman", lat:33.2704, lon:35.2038, g:0, k:3, m:"Sayda",
   s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},
      {f:"1918-10-08",t:"1920-07-24",d:"fransa-cumhuriyet"},
      {f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
