@@ -2138,7 +2138,16 @@ harita.on("load", function () {
     // beğenmedim … sarı çizgileri Osmanlı kırmızısından daha koyu kırmızı
     // çizgiler yapalım." Altın (#ffd700) kesikli kenar → kopkoyu kırmızı düz
     // kenar (#3a0510, Osmanlı dolgusu #8e0b22'den belirgin koyu).
-    paint: { "line-color": "#3a0510", "line-width": 1.8 } });
+    // 🆕 DALGA-0074 H-0013 — `kenar`: ÜÇ KADEME kümesi bugünkü fark kümesinden
+    // GENİŞ (ORTA kapsam). Fark DIŞINDAKİ petekler (işgal edilip antlaşmayla
+    // geri verilen toprak) yalnız ①/② kademesinde görünmeli; eski dört hâlde
+    // (once/koyu/sonra/yok) HİÇ görünmemeli ki H-0008'in yanıp sönme dili
+    // birebir eskisi gibi kalsın. Dolguyu saydam renkle gizlemek yetmiyor,
+    // çünkü bu çizgi katmanı `fill-opacity`den etkilenmiyor — kenarı da
+    // özellikten okuyoruz. `has` sınaması şart: PAKET-UI3'ün aynı gün kutusu
+    // da bu kaynağı kullanır ve `kenar` yazmayan bir sürüm kalırsa null gelir.
+    paint: { "line-color": "#3a0510", "line-width": 1.8,
+             "line-opacity": ["case", ["has", "kenar"], ["get", "kenar"], 1] } });
 
   // ═══ GÜVEN KUŞAKLARI — KITA 12 PROTOTİPİ (bkz. yukarıdaki fonksiyon
   // bloğu, satır ~440). Bütün katmanlar başlangıçta GİZLİ — yalnız
@@ -9185,7 +9194,8 @@ function obGoster(o) {
 //   medyan 7 ms / azami 16 ms · sınır indeksi ilk açılışta bir kez ~35 ms.
 // "YOK" dürüstçe yazılır: antlaşma var olan durumu tanımış olabilir ya da toprak
 // değişimi o güne işlenmemiş olabilir — hangisi olduğunu arayüz UYDURMAZ.
-var ANT_FARK = { madde: null, son: 0, zaman: [], ix: null, petAd: null, fs: null, kutu: null, dugmeler: null };
+var ANT_FARK = { madde: null, son: 0, zaman: [], ix: null, petAd: null, fs: null, kutu: null, dugmeler: null,
+                 isgListe: null };   // DALGA-0074 H-0013 — `isg:` taşıyan 238 yerleşim, bir kez çıkarılır
 function _antlasmaKaydi(o) {
   return (window.ANTLASMALAR || []).filter(function (a) {
     return Math.abs(gunIdx(a.t) - o.gi) < 60 && o.b.indexOf(a.ad.split(" (")[0]) >= 0;
@@ -9224,6 +9234,14 @@ function _sahipRengi(key) {
     var kid = key.slice(5);
     return (kid && _KID_YABANCI_UST[kid]) ? (_DEVLET_RENK[kid] || "#9a9a9a") : "#b2384a";
   }
+  // 🆕 DALGA-0074 H-0013 — FİİLÎ işgal. ⚠️ Bu katmanda TARAMA YOK (kuruluşunda
+  // "TARALI DEĞİL" yazıyor, `fill-pattern` dalı hiç açılmadı), elimizde yalnız
+  // `fill-color` var. İşgali "işgalcinin rengi" diye basmak onu İLHAK gibi
+  // gösterirdi; bunun yerine işgalcinin KOYU tonu kullanılıyor — H-0008'in
+  // zaten kurduğu dil (`koyuTon`, tek renk otoritesi) — ve kutu metni hangi
+  // peteğin işgal hangisinin ilhak olduğunu AÇIKÇA sayar. Bu bir gösterim
+  // sınırıdır, uydurma değil: ikinci bir palet açılmadı.
+  if (key.indexOf("isg:") === 0) return koyuTon(_cTarafRengi(key.slice(4)), 0.3);
   return _cTarafRengi(key.slice(2));
 }
 function _sahipAdi(key) {
@@ -9231,6 +9249,7 @@ function _sahipAdi(key) {
   if (key === "osmanli") return "Osmanlı";
   if (key.indexOf("tabi:") === 0) { var kid = key.slice(5); return kid ? devletAdi(kid) + " (tâbi)" : "Osmanlı tâbii"; }
   if (key === "s:__BOSLUK__") return "kimsenin değil (boşluk beyanı)";   // PAKET-UI3: ham kimlik basılmasın
+  if (key.indexOf("isg:") === 0) return devletAdi(key.slice(4)) + " işgalinde";   // DALGA-0074 H-0013
   return devletAdi(key.slice(2));
 }
 function antlasmaFarkiHesapla(o) {
@@ -9248,7 +9267,21 @@ function antlasmaFarkiHesapla(o) {
   var T = SG.antlasmaTaraflari(o.b + " " + (o.d || ""),
                                kayit && Array.isArray(kayit.taraf) ? kayit.taraf : [],
                                window.DEVLETLER || []);
-  return { f: SG.antlasmaFarki(Y, ANT_FARK.ix, _khGunStr(o.gi), _khGunStr(sonIx), T), sonIx: sonIx };
+  var f = SG.antlasmaFarki(Y, ANT_FARK.ix, _khGunStr(o.gi), _khGunStr(sonIx), T);
+  // 🆕 DALGA-0074 H-0013 — üç kademe. `savas_basi` YALNIZ `ANTLASMALAR`da var
+  // (ölçüldü: 37/41 kayıtta dolu, ama 137 antlaşma maddesinin yalnız 44'ü bir
+  // kayda bağlı). Bağsız maddede ① kademesi TÜRETİLEMEZ ve düğmesi HİÇ ÇIKMAZ —
+  // gri pasif düğme değil, çünkü kullanıcı "veri yok"u "değişim yok" sanardı.
+  var kademe = null;
+  if (f && SG.kademeKumesi) {
+    var k2gun = SG.gunKaydir(f.gun, -1);
+    var k1gun = (kayit && kayit.savas_basi) ? SG.gunKaydir(kayit.savas_basi, -1) : "";
+    if (!ANT_FARK.isgListe) ANT_FARK.isgListe = SG.isgalliYerlesimler(Y);
+    kademe = { k1gun: k1gun, k2gun: k2gun, k3gun: f.gun, savasBasi: (kayit && kayit.savas_basi) || "",
+               kume: SG.kademeKumesi(Y, ANT_FARK.isgListe, f.degisim, k1gun, k2gun, f.gun,
+                                     _khGunStr(o.gi - 1), _khGunStr(sonIx), T) };
+  }
+  return { f: f, sonIx: sonIx, kademe: kademe };
 }
 // Sınır indeksi + petek adı sözlüğü: ilk kullanımda bir kez (antlaşma ve aynı gün kutusu ortak).
 function _farkIndeksiKur() {
@@ -9265,17 +9298,31 @@ function antlasmaFarkiTemizle() {
   ANT_FARK.madde = null;
   if (haritaHazir && harita.getSource("antlasma-fark")) harita.getSource("antlasma-fark").setData(bosVeri());
 }
-// "once" | "sonra" | "koyu" | "yok"
+// "once" | "sonra" | "koyu" | "yok" | "savasOncesi" | "fiili"
 // 🆕 `koyu` (DALGA-0070 H-0008): el değiştiren bölgenin YENİ sahibinin koyu
 // tonu. Ayrı bir katman/dal AÇILMADI — özellik `_farkKutusuCiz`te her petek
 // için hesaplanıp geometrinin üstüne yazılıyor, burada yalnız `["get", hal]`
 // anahtarı değişiyor (D023: var olan mekanizma).
+// 🆕 `savasOncesi` / `fiili` (DALGA-0074 H-0013): Emre'nin üç kademesinin ① ve
+// ②'si. Yine yeni katman YOK — aynı desen, iki yeni özellik adı.
+// 🔴 GERİYE DÖNÜK: eski dört hâlin davranışı BİREBİR korunuyor. ORTA kapsamın
+// fark DIŞINDAKİ petekleri o dört hâlde saydam renk + `kenar:0` taşır, yani
+// `ANIM.kayitOl("cozul")`, `_eleGecirmeSahnesi` ve sefer okunun gördüğü sahne
+// değişmez (1.MURAT şartı (b), M-4893).
 function _antlasmaHal(hal) {
   if (ANT_FARK.dugmeler) {
-    ANT_FARK.dugmeler.once.classList.toggle("secili", hal === "once");
-    ANT_FARK.dugmeler.sonra.classList.toggle("secili", hal === "sonra");
+    var D = ANT_FARK.dugmeler;
+    D.once.classList.toggle("secili", hal === "once" || hal === "fiili");
+    D.sonra.classList.toggle("secili", hal === "sonra");
+    if (D.savasOncesi) D.savasOncesi.classList.toggle("secili", hal === "savasOncesi");
   }
   if (!haritaHazir || !harita.getLayer("antlasma-fark-dolgu")) return;
+  // Kademe hâllerinde ORTA kümenin TAMAMI kenarlanır; eski dört hâlde yalnız
+  // fark kümesi (özellikteki `kenar`) — eski görünüm bozulmasın.
+  if (harita.getLayer("antlasma-fark-cizgi")) {
+    harita.setPaintProperty("antlasma-fark-cizgi", "line-opacity",
+      (hal === "savasOncesi" || hal === "fiili") ? 1 : ["case", ["has", "kenar"], ["get", "kenar"], 1]);
+  }
   if (hal === "yok") { harita.setPaintProperty("antlasma-fark-dolgu", "fill-opacity", 0); return; }
   harita.setPaintProperty("antlasma-fark-dolgu", "fill-color", ["get", hal]);
   harita.setPaintProperty("antlasma-fark-dolgu", "fill-opacity", 0.92);
@@ -9464,7 +9511,17 @@ function antlasmaFarkiGoster(o, ozelEl) {
   var kirilma = gunIdx(r.f.gun);
   var anaMetin = (kirilma === o.gi ? "Aynı gün" : "Haritadaki kırılma " + (kirilma - o.gi) + " gün sonra (" + _khGunYazi(kirilma) + ")") +
     " · " + r.f.degisim.length + " yerleşim bölgesi el değiştirdi: " + _farkOzeti(r.f.degisim);
-  _farkKutusuCiz(o, kutuEl, yazi, r.f.degisim, anaMetin, r.f.once, kirilma, Math.max(kirilma, r.sonIx));
+  // 🆕 DALGA-0074 H-0013 — fiilî kademenin ne anlattığı METİNDE de söylenir.
+  // Katmanda tarama yok (yalnız `fill-color`), o yüzden "hangisi işgal" sorusu
+  // renge bırakılmaz: işgal edilen bölgeler burada SAYILIR ve adlandırılır.
+  if (r.kademe) {
+    var isgAd = [], iade = 0;
+    r.kademe.kume.forEach(function (x) { if (x.k2isg) isgAd.push((window.YERLESIMLER || [])[x.i].ad); if (!x.fark) iade++; });
+    if (isgAd.length) anaMetin += " · Antlaşmadan önceki gün " + isgAd.length + " bölge fiilen işgal altındaydı" +
+      (iade ? ", bunların " + iade + " tanesi bu antlaşmayla boşaltıldı (haritada sahibi değişmediği için ayrıca el değiştirmiş görünmez)" : "") +
+      ": " + isgAd.slice(0, 8).join(", ") + (isgAd.length > 8 ? " …" : "");
+  }
+  _farkKutusuCiz(o, kutuEl, yazi, r.f.degisim, anaMetin, r.f.once, kirilma, Math.max(kirilma, r.sonIx), r.kademe);
 }
 // "Osmanlı → Habsburg 6 · Osmanlı → Lehistan 5" — çoktan aza
 function _farkOzeti(degisim) {
@@ -9477,13 +9534,33 @@ function _farkOzeti(degisim) {
 // parçası olarak buraya çıkarıldı (antlaşma kutusu ve aynı gün madde kutusu).
 // Davranış antlaşma için BİREBİR aynı: aynı katman, aynı 7 hâl, aynı düğmeler.
 // degisim: [{i, once, sonra}] · onceStr: "YYYY-MM-DD" · kirilma/sonIdx: gün indeksi
-function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, sonIdx) {
+// 🆕 `kademe` (DALGA-0074 H-0013) — verilirse üç kademe düğmeleri eklenir.
+// `aynı gün` kutusu bunu VERMEZ (o bir antlaşma değil): orada davranış birebir eski.
+function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, sonIdx, kademe) {
   var Y = window.YERLESIMLER || [], liste = [];
   var x0 = 180, y0 = 90, x1 = -180, y1 = -90;
+  var SAYDAM = "rgba(0,0,0,0)";
+  // DALGA-0074 H-0013 — ORTA kapsamın sahiplikleri, yerleşim indeksiyle.
+  var kmIx = {};
+  if (kademe) kademe.kume.forEach(function (r) { kmIx[r.i] = r; });
+  function kademeRenk(r, alan) { return r ? _sahipRengi(r[alan]) : SAYDAM; }
   degisim.forEach(function (d) {
-    var y = Y[d.i];
+    var y = Y[d.i], r = kmIx[d.i];
     if (typeof y.lon === "number") { x0 = Math.min(x0, y.lon); x1 = Math.max(x1, y.lon); y0 = Math.min(y0, y.lat); y1 = Math.max(y1, y.lat); }
-    liste.push({ pi: ANT_FARK.petAd[y.ad], once: _sahipRengi(d.once), sonra: _sahipRengi(d.sonra), ad: y.ad });
+    liste.push({ pi: ANT_FARK.petAd[y.ad], once: _sahipRengi(d.once), sonra: _sahipRengi(d.sonra), ad: y.ad,
+                 kenar: 1,
+                 savasOncesi: (kademe && kademe.k1gun) ? kademeRenk(r, "k1") : SAYDAM,
+                 fiili: kademe ? kademeRenk(r, "k2") : _sahipRengi(d.once) });
+  });
+  // ORTA kapsamın fark DIŞINDAKİ petekleri: işgal edilip antlaşmayla GERİ
+  // VERİLEN toprak. `s:` hiç değişmediği için bugünkü fark listesine girmezdi —
+  // ölçüldü: Bükreş 1812'de 8 → 25, Bozcaada 1913'te 2 → 29, Lozan'da 23 → 78.
+  // Eski dört hâlde SAYDAM + `kenar:0` taşırlar, yani H-0008 sahnesi değişmez.
+  if (kademe) kademe.kume.forEach(function (r) {
+    if (r.fark) return;
+    var y = Y[r.i];
+    liste.push({ pi: ANT_FARK.petAd[y.ad], once: SAYDAM, sonra: SAYDAM, ad: y.ad, kenar: 0, saydamKoyu: true,
+                 savasOncesi: kademe.k1gun ? _sahipRengi(r.k1) : SAYDAM, fiili: _sahipRengi(r.k2) });
   });
   var fsYerel = [];
   // Bölge geometrisi: PETEK_GOVDE[pi] → PETEK_GOVDE_PARCA poligonları (MultiPolygon).
@@ -9504,7 +9581,10 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
       // çünkü aynı maddede birden çok yeni sahip olabilir (1463: Travnik
       // kazanılırken Yayça kaybediliyor); tek bir "koyu renk" sabiti ikisini
       // de yanlış anlatırdı.
-      fsYerel.push({ type: "Feature", properties: { once: x.once, sonra: x.sonra, koyu: koyuTon(x.sonra), ad: x.ad },
+      fsYerel.push({ type: "Feature",
+                     properties: { once: x.once, sonra: x.sonra, koyu: x.saydamKoyu ? x.sonra : koyuTon(x.sonra),
+                                   ad: x.ad, kenar: (x.kenar === undefined ? 1 : x.kenar),
+                                   savasOncesi: x.savasOncesi || x.once, fiili: x.fiili || x.once },
                      geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return P[j]; }) } });
     });
     // H-0012 ④: "N bölgenin peteği yok" bizim veri borcumuz, okurun işi değil.
@@ -9540,8 +9620,36 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
     dugmeler.appendChild(b);
     return b;
   }
-  var bOnce = dugme("◀ Öncesi · " + _khGunYazi(gunIdx(onceStr)), "El değiştiren bölgeler ÖNCEKİ sahiplerinin renginde", function () { _antlasmaHal("once"); });
+  // 🆕 DALGA-0074 H-0013 — ÜÇ KADEME. ① düğmesi YALNIZ `savas_basi` varsa çıkar.
+  // 🔴 GÜN YAZILMAZ (1.MURAT hükmü M-4893, şık (a) · D210): `ANTLASMALAR`ın 41
+  // kaydının HİÇBİRİNDE `kaynak` alanı yok, yani `savas_basi` günleri bugün
+  // KAYNAKSIZ. Kaynaksız bir günü ekrana basmak sahte kesinliktir; gün yalnız
+  // ipucunda durur, orada da "kayıtlı başlangıç" diye nitelenir.
+  var bSavas = null;
+  if (kademe && kademe.k1gun) {
+    bSavas = dugme("◀◀ Savaştan önce",
+      "Savaşın başındaki durum — kayıtlı başlangıç " + _khGunYazi(gunIdx(kademe.savasBasi)) +
+      " (bu gün için ayrıca kaynak gösterilmiş değil)",
+      function () { _antlasmaHal("savasOncesi"); });
+  }
+  // ② — bugünkü "Öncesi" düğmesinin YERİ. Ölçülen teşhis: bu gün savaşın BAŞI
+  // değil SONUDUR. ① varsa düğme doğru adını alır; ① yoksa (96 madde) metin
+  // eskisi gibi kalır, yani hiçbir maddede davranış GERİLEMEZ.
+  var ikinciMetin = (kademe && kademe.k1gun) ? "⚑ Savaş sonrası · fiilî durum"
+                                             : "◀ Öncesi · " + _khGunYazi(gunIdx(onceStr));
+  var ikinciIpucu = (kademe && kademe.k1gun)
+    ? "Antlaşmadan önceki gün (" + _khGunYazi(gunIdx(onceStr)) + ") fiilen kimin elindeydi — işgaller işgalcinin KOYU tonunda"
+    : "El değiştiren bölgeler ÖNCEKİ sahiplerinin renginde";
+  var bOnce = dugme(ikinciMetin, ikinciIpucu, function () { _antlasmaHal(kademe ? "fiili" : "once"); });
   var bSonra = dugme("Sonrası · " + _khGunYazi(kirilma) + " ▶", "El değiştiren bölgeler SONRAKİ sahiplerinin renginde", function () { _antlasmaHal("sonra"); });
+  if (bSavas) dugme("⏵ Üç kademe", "Savaştan önce → savaş sonrası fiilî durum → antlaşmadan sonra", function () {
+    var dizi = [["savasOncesi", 1500], ["fiili", 1500], ["sonra", 1700], ["yok", 0]], t = 0;
+    dizi.forEach(function (a) {
+      var an = t;
+      ANT_FARK.zaman.push(setTimeout(function () { _antlasmaHal(a[0]); }, an));
+      t += a[1];
+    });
+  });
   dugme("↻ Yakıp söndür", "Farkları yeniden yakıp söndür", function () { antlasmaFarkiKirp(0, true); });
   dugme("⌖ Farka odaklan", "Haritayı el değiştiren bölgelere çerçevele", function () {
     if (!ANT_FARK.kutu || !haritaHazir) return;
@@ -9549,7 +9657,7 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
     harita.fitBounds([[k[0], k[1]], [k[2], k[3]]], { padding: 50, duration: 900, maxZoom: 7, essential: true });
   });
   kutuEl.appendChild(dugmeler);
-  ANT_FARK.dugmeler = { once: bOnce, sonra: bSonra };
+  ANT_FARK.dugmeler = { once: bOnce, sonra: bSonra, savasOncesi: bSavas };
   _antlasmaYukle(o, fsYerel);
   _antlasmaHal("yok");
   // ⚠️ Sahne burada BAŞLATILMIYOR — tetik `obGoster`ın sonunda, HER maddede

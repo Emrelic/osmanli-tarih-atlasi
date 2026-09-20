@@ -530,6 +530,70 @@ function antlasmaFarki(Y, ix, basGun, sonGun, T) {
   }
   return null;
 }
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 DALGA-0074 H-0013 (ANTLASMA-KADEME-0074, 21 Eylül 2026) — ÜÇ KADEME.
+// EMRE: *"1) savaştan önce · 2) savaş sonrası FİİLÎ durum (işgaller) · 3) barış
+// antlaşmasından sonra."*
+// 🔴 ÖLÇÜLEN TEŞHİS (denetim/ANTLASMA-KADEME-0074-PLAN.md): eksik olan kademe
+// Emre'nin sandığı yerde değildi. Bugünkü "◀ Öncesi" düğmesi savaşın BAŞINI
+// değil SONUNU gösteriyordu — `antlasmaFarki` penceredeki ilk sınır gününü
+// bulup bir gün öncesini basıyor; savaş başıyla arası ÖLÇÜLDÜ: 80–5867 gün
+// (Lozan 1530 · Mondros 1454 · Kaynarca 2111 · Karlofça 5674). Üstelik
+// `sahipAnahtari` `isg:` alanını HİÇ okumaz, yani o hâl HUKUKÎ, fiilî değil.
+// ⇒ ① kademesi YOKTU (kaynağı `ANTLASMALAR[].savas_basi` — 37/41 kayıtta dolu,
+//   bugüne kadar hiç kullanılmamış alan), ② kademesi YARIMDI (işgal örtüsü yok).
+// KAPSAM = **ORTA** (1.MURAT hükmü M-4893): fark kümesi ∪ ②'de taraf işgali
+// altındaki ∪ pencerede işgali BİTEN yerleşimler. Ölçülen yük 23 KB/madde
+// (DAR 12 · GENİŞ 85). DAR alınmadı çünkü üçüncü kademenin ASIL anlatısını
+// kaçırıyor: işgal edilip antlaşmayla GERİ VERİLEN toprak `s:`te hiç
+// değişmediği için bugünkü fark listesine girmiyor (Bükreş 1812 8→25 ·
+// Bozcaada 1913 2→29 · Lozan 23→78). GENİŞ alınmadı: Lozan tek başına 406
+// petek / 337 KB, ve o antlaşmanın değil dört yılın anlatısı.
+// Veriyi ölçen alet: denetim/ARAC-ANTLASMA-{KADEME,ZINCIR,AYIRT,KAPSAM}-0074.js
+function isgalAnahtari(y, gs) {
+  var L = y.isg || [];
+  for (var i = 0; i < L.length; i++) if (L[i].f <= gs && gs < L[i].t) return L[i].d || "";
+  return "";
+}
+// `isg:` sınır günleri `sinirIndeksi`de YOKTUR (o yalnız d/v/s okur) — ölçüldü:
+// 326 `isg:` kaydı, 238 yerleşimde, 132 ayrı gün. Bütün dünyayı taramak yerine
+// bu 238'lik liste bir kez çıkarılır.
+function isgalliYerlesimler(Y) {
+  var L = [];
+  (Y || []).forEach(function (y, i) { if ((y.isg || []).length) L.push(i); });
+  return L;
+}
+// Üç kademenin ORTA kümesi → [{ i, fark, k1, k2, k2isg, k3 }]
+//   k1 savaş başından bir gün önceki HUKUKÎ sahip ("" = kademe türetilemez)
+//   k2 savaş sonu FİİLÎ sahip — taraf işgali varsa "isg:<kid>", yoksa hukukî
+//   k3 antlaşma kırılması günündeki hukukî sahip
+// ⚠️ TAM TARAMA YAPILMAZ. Ölçülen 111 ms ortalama / 662 ms azami (bugünkü fark
+// 7 ms medyan) GENİŞ kapsamın 3921'lik taramasına aitti; ORTA kapsamda küme
+// zaten fark listesi ∪ 238 işgalli yerleşimdir, `sahipAnahtari` yalnız o küme
+// için çağrılır (Lozan'da 78 kayıt).
+function kademeKumesi(Y, isgListe, degisim, k1gun, k2gun, k3gun, basGun, sonGun, T) {
+  var kume = {}, sira = [];
+  function al(i) { if (!kume[i]) { kume[i] = { i: i, fark: false }; sira.push(kume[i]); } return kume[i]; }
+  (degisim || []).forEach(function (d) { var r = al(d.i); r.fark = true; r.k2h = d.once; r.k3 = d.sonra; });
+  (isgListe || []).forEach(function (i) {
+    var y = Y[i], g = isgalAnahtari(y, k2gun), ilgili = !!(g && T[g]);
+    if (!ilgili) {
+      var L = y.isg || [];
+      for (var j = 0; j < L.length; j++) if (L[j].t >= basGun && L[j].t <= sonGun && T[L[j].d]) { ilgili = true; break; }
+    }
+    if (ilgili) al(i);
+  });
+  sira.forEach(function (r) {
+    var y = Y[r.i], isg = isgalAnahtari(y, k2gun);
+    r.k1 = k1gun ? sahipAnahtari(y, k1gun) : "";
+    if (r.k2h === undefined) r.k2h = sahipAnahtari(y, k2gun);
+    r.k2isg = (isg && T[isg]) ? isg : "";
+    r.k2 = r.k2isg ? "isg:" + r.k2isg : r.k2h;
+    if (r.k3 === undefined) r.k3 = sahipAnahtari(y, k3gun);
+  });
+  return sira;
+}
+
 // Bir sahiplik anahtarı verilen kimliklerden birine mi ait? (odak kutusu + halka için)
 //   "osmanli" → d · tâbi dahil  ·  "eflak" → tabi:eflak, s:eflak, künye harita anahtarı,
 //   ya da kid'siz v: döneminin `k` adı künyenin çekirdek adıyla başlıyorsa.
@@ -776,6 +840,9 @@ var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  sgNorm: sgNorm, kunyeCekirdek: kunyeCekirdek, antlasmaTaraflari: antlasmaTaraflari,
                  sahipIlgiliMi: sahipIlgiliMi, antlasmaFarki: antlasmaFarki,
                  sahipKimlikte: sahipKimlikte, aktifVAdi: aktifVAdi,
+                 // DALGA-0074 H-0013 — antlaşmanın üç kademesi
+                 isgalAnahtari: isgalAnahtari, isgalliYerlesimler: isgalliYerlesimler,
+                 kademeKumesi: kademeKumesi,
                  // PAKET-ISYAN
                  isyanAktif: isyanAktif, isyanSecim: isyanSecim,
                  // PAKET-UI3
