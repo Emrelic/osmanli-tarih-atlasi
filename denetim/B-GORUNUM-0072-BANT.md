@@ -171,6 +171,42 @@ YÜKSEK bir tahmindi — artımlı kontur ~0,1 sn.
 **GERİLEME SINAVI:** `MOTOR_UFUK_BANT` açıkken taban `PETEK_D`
 sha256 `1c8640677e92c6df…` — bantsız koşuyla **BİREBİR AYNI**. ✓
 
+### 5.7 · FARK KAPATILDI — bantlar artık aynı boru hattından geçiyor
+
+1.MURAT'ın hükmü (M-4921): *"bant ile taban AYNI boru hattından geçmeli,
+çünkü geçmezse '5-7 bandındaki toprak' ile 'tabandaki toprak' FARKLI kural
+görmüş olur ve bunu hiçbir denetim sormaz."* Yazıldı:
+
+- **Çöl tavanı** bantlara da uygulanıyor — aynı `_col_kes_hesap`, aynı su
+  koridoru muafiyeti, aynı önbellek anahtarı. (Koşu logu: `Ⓑ bant tavanı:
+  9 bant-petek kısaldı, 65.737 km²`.)
+- **Ada kuralı** bantlara da uygulanıyor — iki adımı da: taşan pay kesiliyor,
+  boşta kalan pay parçanın içindeki en yakın yerleşime **bandın kendi
+  bütçesiyle** kesilerek veriliyor. (Logu: `4 taşma kesildi, 8 boşta kalan
+  pay verildi`.)
+
+| bütçe | ÖNCE | SONRA |
+|---|---|---|
+| 40 sa (5 gün) | %0,005 · 1 petek 108 km² fazla | **%0,000** · fazla YOK |
+| 56 sa (7 gün) | %0,004 · 1 petek 108 km² fazla | **%0,000** · fazla YOK |
+| 80 sa (10 gün) | %1,317 · 11 petek **66.686 km²** fazla | **%0,027** · 1 petek **689 km²** fazla |
+
+⇒ Fazla taşınan çöl **66.686 → 689 km² (−%99)**.
+
+**AYNILIK SINAVI (1.MURAT'ın şartı) — GEÇTİ:** aynı kutuda taban `PETEK_D`
+sha256 `2215d266c28eb76b…` üç hâlde de AYNI — ① değişiklikten ÖNCE (bant
+açık) ② değişiklikten SONRA (bant açık) ③ değişiklikten sonra (bant KAPALI).
+Çöl tavanına dokundum ama taban yolu kımıldamadı; bu yapısal, çünkü eklenen
+bloklar yalnız `_BANT_HAM` üzerinde çalışıyor.
+
+**KALAN ARTIK: %0,027 (yalnız 10 günde; 5 ve 7 günde SIFIR).**
+Kaynağı: *"Kara-kısıtlı sahiplik: parçaları sına ve devret"* aşaması
+bantlara uygulanmadı. Niçin: ~100 satırlık, durum taşıyan bir aşama
+(`_kvana` · bileşen ağacı · ızgara sahibi karşılaştırması); ikinci bir
+kopya yazmak, kapatmaya çalıştığımız "iki kural" riskinin ta kendisini
+üretirdi. Ölçülen artık 689 km² ve 5/7 günde sıfır. ⇒ **Hüküm koordinatörün:**
+kapatılacaksa doğru yol o aşamayı işleve almaktır, kopyalamak değil.
+
 ### 5.5 · (b) DEVLET BANDI MALİYETİ — **0,7–0,8 kat** (1'in ALTINDA)
 
 1.MURAT'ın istediği tek sayı: bant geometrisini dönem dönem DEVLET

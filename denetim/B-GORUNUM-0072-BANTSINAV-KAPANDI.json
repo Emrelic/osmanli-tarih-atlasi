@@ -1,0 +1,57 @@
+{
+ "c_asama_farki": [
+  {
+   "saat": 40.0,
+   "fazla_petek": 0,
+   "fazla_km2": 0,
+   "eksik_petek": 1,
+   "eksik_km2": 8,
+   "toplam_km2": 4259696,
+   "fark_yuzde": 0.0
+  },
+  {
+   "saat": 56.0,
+   "fazla_petek": 0,
+   "fazla_km2": 0,
+   "eksik_petek": 1,
+   "eksik_km2": 8,
+   "toplam_km2": 4989631,
+   "fark_yuzde": 0.0
+  },
+  {
+   "saat": 80.0,
+   "fazla_petek": 1,
+   "fazla_km2": 689,
+   "eksik_petek": 2,
+   "eksik_km2": 697,
+   "toplam_km2": 5123989,
+   "fark_yuzde": 0.027
+  }
+ ],
+ "b_devlet_bandi": [
+  {
+   "gun": "1520-06-15",
+   "taban_devlet": 10,
+   "taban_sn": 0.12,
+   "bant_devlet": 16,
+   "bant_sn": 0.08,
+   "kat": 0.69
+  },
+  {
+   "gun": "1683-06-15",
+   "taban_devlet": 8,
+   "taban_sn": 0.14,
+   "bant_devlet": 15,
+   "bant_sn": 0.09,
+   "kat": 0.69
+  },
+  {
+   "gun": "1800-06-15",
+   "taban_devlet": 8,
+   "taban_sn": 0.13,
+   "bant_devlet": 15,
+   "bant_sn": 0.09,
+   "kat": 0.66
+  }
+ ]
+}
