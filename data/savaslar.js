@@ -17,8 +17,17 @@
 //              +31 gün) bu kalıba girmiyor — kuşatma değil, isyan; kronolojide
 //              başlangıcı için İKİ çelişen madde var (Mart/Nisan 1511), o yüzden
 //              t: değiştirilmedi, bkz. OTURUM-10-ILERLEME.md.
-// ANTLASMALAR: {t, ad, taraf_metin, ozet, taraf, topraklar}
+// ANTLASMALAR: {t, ad, savas_basi, savas_basi_kaynak?, taraf_metin, ozet, taraf, topraklar}
 //              topraklar: hangi yerin kimden kime geçtiği (OTURUM 10 eklendi)
+//              savas_basi: antlaşmaya götüren savaşın başlangıcı. 21 Eylül 2026'dan
+//              beri EKRANA BESLENİYOR — antlaşma üç kademesinin ①'i (DALGA-0074
+//              H-0013). Yani buradaki gün artık iç bir not değil, bir İDDİADIR.
+//              savas_basi_kaynak: O GÜNÜN TANIKLIĞI (ANTLASMA-KADEME-0074, 21 Eylül).
+//              🔴 ALAN YOKSA GÜN KAYNAKSIZDIR. Boş dizgi YAZILMAZ: "aranmadı" ile
+//              "arandı, bulunamadı" ayrı şeylerdir ve ikincisi ölçülüp
+//              denetim/ANTLASMA-SAVASBASI-KAYNAK-0074.md'ye yazılır.
+//              ⚠️ Künyenin kendi günü KAYNAK DEĞİLDİR (D210) — bu alan doldurulana
+//              kadar o gün yalnız bizim derlememizdir.
 // SERILER    : ülkeler arası savaş dizileri {id, ad, aralik, ozet}
 // SEFERLER   : ordu/donanma hareketleri {ad, f, t, yol:[[lon,lat],...]}
 //              (haritada f-t aralığında ok olarak çizilir)
@@ -435,6 +444,7 @@ window.ANTLASMALAR = [
 { t:"1612-11-20", ad:"Nasuh Paşa", savas_basi:"1603-09-01",           taraf_metin:"Safevî",           ozet:"1590 kazanımları iade edildi; 1555 sınırına dönüş",
   taraf:["osmanli","safevi"], topraklar:"Tebriz, Karabağ, Şirvan ve Gürcistan Osmanlı'dan Safevî'ye geri döndü — sınır 1555 Amasya hattına çekildi." },
 { t:"1639-05-17", ad:"Kasr-ı Şirin", savas_basi:"1638-05-08",         taraf_metin:"Safevî",           ozet:"Bugünkü İran sınırının temeli",
+  savas_basi_kaynak:"TDV murad-iv — “23 Zilhicce 1047'de (8 Mayıs 1638) … hareket” (IV. Murad'ın Bağdat seferine çıkışı). kasr-i-sirin-antlasmasi slug'ı ÖLÜ; bagdat maddesi yalnız kuşatma başını (15 Ekim 1638) veriyor.",
   taraf:["osmanli","safevi"], topraklar:"Bağdat ve Irak-ı Arab kesin olarak Osmanlı'da kaldı; Revan ve Karabağ Safevî'de kaldı — bugünkü Türkiye-İran-Irak sınırının temeli atıldı." },
 { t:"1672-10-18", ad:"Bucaş", savas_basi:"1672-06-01",                taraf_metin:"Lehistan",         ozet:"Podolya katıldı; en geniş sınırlar",
   taraf:["osmanli","lehistan"], topraklar:"Podolya (Kamaniçe dahil) Lehistan'dan Osmanlı'ya geçti, Podolya Eyaleti kuruldu; Ukrayna'daki Kazak toprakları üzerinde Osmanlı himayesi tanındı." },
@@ -445,6 +455,7 @@ window.ANTLASMALAR = [
 // okunmayacaktı. İkisi de düzeltildi (bkz. `app.js:savasIsaretleri`).
 // Karlofça = Sremski Karlovci, Tuna kıyısı, Petrovaradin'in kuzeyi.
 { t:"1699-01-26", ad:"Karlofça", savas_basi:"1683-07-14", lat:45.201, lon:19.932, taraf_metin:"Kutsal İttifak",   ozet:"Macaristan, Mora, Podolya kaybedildi",
+  savas_basi_kaynak:"TDV viyana — “14 Temmuz - 12 Eylül arasında devam etmişti” (ikinci Viyana kuşatmasının başlangıcı, 1683). karlofca-antlasmasi maddesi savaşın başını vermiyor.",
   taraf:["osmanli","habsburg","lehistan","venedik","rusya"],
   topraklar:"Macaristan ve Erdel Osmanlı'dan Habsburg'a; Podolya Osmanlı'dan Lehistan'a; Mora ve Dalmaçya kıyıları Osmanlı'dan Venedik'e geçti. Azak konusu ayrı olarak Rusya ile 1700 İstanbul Antlaşması'na bırakıldı." },
 { t:"1711-07-21", ad:"Prut", savas_basi:"1711-05-01",                 taraf_metin:"Rusya",            ozet:"Azak geri alındı",
@@ -458,6 +469,7 @@ window.ANTLASMALAR = [
 { t:"1812-05-28", ad:"Bükreş", savas_basi:"1806-12-22",               taraf_metin:"Rusya",            ozet:"Besarabya kaybedildi",
   taraf:["osmanli","rusya"], topraklar:"Besarabya (Prut-Dinyester arası) Osmanlı'ya bağlı Boğdan'dan koparılıp Rusya'ya bırakıldı." },
 { t:"1829-09-14", ad:"Edirne", savas_basi:"1828-04-26",               taraf_metin:"Rusya",            ozet:"Tuna deltası kaybı; Yunanistan yolu",
+  savas_basi_kaynak:"TDV edirne-antlasmasi — “Rusya … savaş açmıştı (26 Nisan 1828)”.",
   taraf:["osmanli","rusya"], topraklar:"Tuna deltasındaki adalar ve Ahıska-Ahılkelek Rusya'ya bırakıldı; Eflak ve Boğdan'da Rus işgali sona erdi ama özerklik genişledi; Yunanistan'ın bağımsızlığının önü açıldı." },
 { t:"1830-02-03", ad:"Londra Protokolü", savas_basi:"1821-03-25",     taraf_metin:"İng-Fra-Rus",      ozet:"Bağımsız Yunanistan tanındı",
   taraf:["osmanli","ingiltere","rusya","yunanistan"], topraklar:"Mora ve orta Yunanistan Osmanlı'dan ayrılıp bağımsız Yunanistan Krallığı'na verildi." },
@@ -477,9 +489,11 @@ window.ANTLASMALAR = [
   taraf:["osmanli","ingiltere","rusya","habsburg","sardinya-piyemonte"],
   topraklar:"Güney Besarabya Rusya'dan geri alınıp Boğdan'a katıldı; Karadeniz tarafsızlaştırılıp bütün devletlerin savaş gemilerine kapatıldı; Eflak-Boğdan'ın özerkliği güvence altına alındı." },
 { t:"1878-07-13", ad:"Berlin", savas_basi:"1877-04-24",               taraf_metin:"Büyük devletler",  ozet:"Balkanlar'ın büyük tasfiyesi",
+  savas_basi_kaynak:"TDV ayastefanos-antlasmasi — “24 Nisan 1877 tarihinde Osmanlı Devleti'ne savaş ilân etti” (Berlin aynı savaşın ikinci antlaşmasıdır).",
   taraf:["osmanli","ingiltere","rusya","habsburg","almanya","italya","sirbistan-prensligi","bulgaristan-prensligi","karadag","romanya"],
   topraklar:"Sırbistan, Romanya ve Karadağ tam bağımsızlığını kazandı (toprakları büyüdü); küçültülmüş özerk Bulgaristan Prensliği kuruldu, Rumeli-i Şarkî ayrı özerk vilayet oldu; Bosna-Hersek'in idaresi Osmanlı'dan Avusturya-Macaristan'a geçti (egemenlik nominal Osmanlı'da kaldı); Kars, Ardahan, Batum Rusya'ya bırakıldı." },
 { t:"1912-10-18", ad:"Uşi", savas_basi:"1911-09-29",                  taraf_metin:"İtalya",           ozet:"Libya ve Oniki Ada kaybı",
+  savas_basi_kaynak:"TDV trablusgarp-savasi — “29 Eylül'de ilân edilen savaş”. ⚠️ TDV KENDİYLE ÇELİŞİYOR: trablusgarp (yer) maddesi “1 Eylül 1911'de savaş ilân edişi” diyor; dar ve konuya özel madde esas alındı (D211 ⑥).",
   taraf:["osmanli","italya"], topraklar:"Trablusgarp ve Bingazi (Libya) Osmanlı'dan İtalya'ya geçti; Oniki Ada İtalya'ya \"geçici\" işgal olarak bırakıldı (fiilen kalıcılaştı)." },
 // Düzeltme (Koordinatör, OTURUM-10 turu — A5 ölçümü): ardıl id'ler kullanıldı,
 // bkz. yukarıdaki I./II. Balkan Savaşı notu.
@@ -487,6 +501,12 @@ window.ANTLASMALAR = [
   taraf:["osmanli","bulgaristan-kralligi","sirbistan-kralligi","yunanistan","karadag"],
   topraklar:"Midye-Enez hattının batısındaki bütün Rumeli toprakları (Selanik, Yanya, Girit dahil) Osmanlı'dan Balkan devletlerine bırakıldı." },
 { t:"1918-10-30", ad:"Mondros Mütarekesi", savas_basi:"1914-11-05",   taraf_metin:"İtilaf devletleri",ozet:"Fiilî teslimiyet; işgaller başladı",
+  // EKOKUMA-BAG-0921 (21 Eylül 2026): çıplak `t:` bağı 1918-10-30'u paylaşan
+  // ilgisiz maddelere de düşüyordu ("Polonyalılar Krakov'da yönetimi ele
+  // geçirdi", "Avusturya Cumhuriyeti'nin kuruluşu"). `ekKartBagliMi` `tur`suz
+  // kayıtta önce `olay:`ya bakar, aynı günü taşıyan `t:` devreder → ayırt
+  // edicili tek bağ yeter. Kart üç Mondros maddesinde çıkmaya devam ediyor.
+  olay:["1918-10-30|Mondros"],
   taraf:["osmanli","ingiltere","italya"], topraklar:"Toprak resmen devredilmedi ama İtilaf devletlerine stratejik nokta ve demiryollarını işgal hakkı tanındı; fiilen Anadolu ve Trakya'nın işgalinin yolu açıldı." },
 { t:"1920-08-10", ad:"Sevr", savas_basi:"1914-11-05",                 taraf_metin:"İtilaf devletleri",ozet:"Uygulanamayan paylaşım projesi",
   taraf:["osmanli","ingiltere","italya","yunanistan"],
@@ -497,6 +517,7 @@ window.ANTLASMALAR = [
   taraf:["tbmm-turkiye","ingiltere","italya"],
   topraklar:"Doğu Trakya, Yunan işgalinden çıkıp savaş yapılmadan TBMM Türkiyesi'ne bırakıldı; İstanbul ve Boğazlar TBMM idaresine geçene dek İtilaf kuvvetlerinde kaldı." },
 { t:"1923-07-24", ad:"Lozan", savas_basi:"1919-05-15",                taraf_metin:"İtilaf devletleri",ozet:"Yeni Türkiye'nin tanınması",
+  savas_basi_kaynak:"TDV izmir — “15 Mayıs 1919'da başlayıp 9 Eylül 1922'ye kadar süren Yunan işgali”. lozan-antlasmasi maddesi savaşın başını vermiyor.",
   taraf:["tbmm-turkiye","ingiltere","italya","yunanistan"],
   topraklar:"Sevr'in bütün toprak talepleri düştü; bugünkü Türkiye sınırları (Musul hariç, ileride ayrı çözüldü) uluslararası tanındı; Ege adalarının çoğu Yunanistan'da, Oniki Ada İtalya'da kaldı." }
 ];
@@ -526,6 +547,7 @@ window.ANTLASMALAR.push(
   { t:"1826-10-07", ad:"Akkerman", savas_basi:null, taraf_metin:"Rusya", ozet:"Savaşsız dayatıldı; 1812 Bükreş kazanımları genişletildi",
     taraf:["osmanli","rusya"], topraklar:"Toprak el değiştirmedi; Sırbistan'ın ve Eflak-Boğdan'ın özerkliği genişletildi, Rusya'nın Kafkasya'daki 1812 sınır kazanımları teyit edildi." },
   { t:"1878-03-03", ad:"Ayastefanos (San Stefano)", savas_basi:"1877-04-24", taraf_metin:"Rusya", ozet:"Büyük Bulgaristan öngörüldü — üç ay sonra Berlin'de küçültüldü",
+    savas_basi_kaynak:"TDV ayastefanos-antlasmasi — “24 Nisan 1877 tarihinde Osmanlı Devleti'ne savaş ilân etti”.",
     taraf:["osmanli","rusya"], topraklar:"Ege'ye kadar uzanan büyük özerk Bulgaristan, Sırbistan/Karadağ/Romanya'nın tam bağımsızlığı ve Kars-Ardahan-Batum Rusya'ya öngörüldü; büyük devletlerin itirazıyla Berlin Kongresi'nde küçültüldü." },
   { t:"1913-09-29", ad:"İstanbul (Bulgaristan, 1913)", savas_basi:"1912-10-08", taraf_metin:"Bulgaristan", ozet:"Edirne ve Kırklareli Osmanlı'da kesin kaldı",
     taraf:["osmanli","bulgaristan-kralligi"], topraklar:"Edirne ve Kırklareli, II. Balkan Savaşı'nda geri alındığı gibi Osmanlı'da kesin kaldı; sınır Meriç'in biraz doğusundan çizildi." },
