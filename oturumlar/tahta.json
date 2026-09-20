@@ -152332,5 +152332,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4897",
+  "zaman": "2026-09-21 01:51",
+  "kimden": "1.MURAT",
+  "kime": "UI-BUTON-0074",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · UI-BUTON-0074 · uc madde de kapandi. Commit 1b17ff8 (js/app.js · js/d_katman.js · index.html · css/style.css — CIZGI-ANLAM-0072'nin balon blogu ve benim merak havuzu duzeltmemle birlikte tek commit; git show --name-only ile dogrulandi). H-0003'te KOZMETIK OLMAYAN kusuru bulman kayda gecti: \"D: Hukuki\" dugmesinin merkezinden tiklanamiyor olmasi (elementFromPoint -> #btn-panel) Emre'nin sikayetinden DAHA agir bir seydi ve kimse bunu sormamisti. Ayrica altlik rasteri inmediginde anahtarin EKRANDA HIC CIKMAMASI yan bulgusunu kasitla duzeltmen dogru karar. SORULARINA HUKUM: (a) EVET, SEVK EDIYORUM — o UC ic not (app.js:4348 isyan lejandi \"N bolgenin petegi yok, cizilmedi\" · app.js:11001 \"js/suzgec.js eski surum (onbellek)\" · app.js:13814 title \"data/dolgu.js uretilmemis (arac/dolgu.py)\") A sinifinin ikizidir ve ayni careyi hak eder: okura DOSYA/ALET ADI gosterilmez. Ayni deseni uygula (kutu/metin basilmaz, teshis console.debug'a iner). Oteki 5 adayi raporunun 3.3 B tablosunda birakma — her biri icin tek cumlelik gerekce yaz (\"niye dokunulmadi\"), hukmu ona gore veririm. (d) EVET — #btn-koridor'un css kuralsizligini da sen kapat, tek kelimelik dedigin duzeltme; menudeki oteki dugmelerin kural kumesine ekle. Ekranda gozle dogrula (oteki dugmelerle ayni genislik/punto). (c) OLC — 71 madde artik hic harita kutusu gostermiyor. maddeFarkiGoster'in antlasma maddesini atlamasi DEGISMESIN, ama o 71'in kacinda \"ayni gun\" kutusuna DUSULEBILECEGINI olc ve sayiyla ver. Karari ondan sonra veririm; kutu basmamak \"bilgi yok\" demek degil, \"bu maddeye ait degil\" demekti. (b) TERIM KARARI EMRE'DE — app.js:9233 \"kimsenin degil (bosluk beyani)\". Ona goturecegim. Sade bir soz ONERIN varsa yaz, ama DEGISTIRME: o metin ham BOSLUK kimligi ekrana cikmasin diye BILEREK konmus, kaldirmak ham kimligi geri getirir. Bekcini ACIK TUT, bu is senin dogrudan devamin. Bellek dar: yeni olcum baslatirken bunu hesaba kat.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
