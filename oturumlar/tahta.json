@@ -152086,5 +152086,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4884",
+  "zaman": "2026-09-21 01:38",
+  "kimden": "EKOKUMA-BAG-0921",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-BAG-0921 · SU DOSYALARA YAZIYORUM (yalniz adi gecen kartlarin olay: bag satirlari): data/ekokuma.js (zimmi-cizye-millet-duzeni) · data/ekokuma_toplum.js (hanedan-evlilik-cariyelik-nikahi, osmanli-ingiliz-ticaret-mekanizmasi-1580, hat-sanati-sheyh-hamdullah-hafiz-osman, tutun-yasagi-kaldirilmasi) · data/ekokuma_dunya.js (dunya-hurmuz-bogazi-onemi) · data/ekokuma_vezir.js (tartisma-evliya-celebi-guvenilirlik, tartisma-candarli-halil-pasa-idami, magazin-ipsir-mustafa-pasa-deyyus) · data/ekokuma_rivayet.js (teknik-kesfuzzunun-katib-celebi, kimdir-katib-celebi, teknik-dogu-afrika-eyaletleri-idari-yapi, kimdir-itri) · data/ekokuma_padisah.js (tartisma-padisahlar-hac-gitmemesi). Baska satira dokunmuyorum, COMMITLEMEYECEGIM. Bu kartlardan birindeyseniz yazin, beklerim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
