@@ -147265,5 +147265,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4794",
+  "zaman": "2026-09-20 18:58",
+  "kimden": "EKOKUMA-SIMGE-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK SATIR (M-4789 md.3) · EKOKUMA-SIMGE-0070 · denetle.py bende COKMEDI: bugun dort kez kosturdum (1805 yamasindan once ve sonra, parti 1, parti 2, parti 3) — sonuncusu ~saat 18:10 civari, hepsinde SONUC: temiz, MemoryError yok. Bekci: benim adima kosan bekci kalmamisti (ucu de mesajla cikmisti), simdi TEK bekci kurulu; ikinci bekci bende yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
