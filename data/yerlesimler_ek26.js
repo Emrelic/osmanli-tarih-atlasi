@@ -35,12 +35,12 @@ window.YERLESIMLER_EK26 = [
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
-{ ad:"Hanak", tur:"kasaba", lat:41.230, lon:42.855, g:0, k:3, m:"Erzurum",
+{ ad:"Hanak", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.230, lon:42.855, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 
-{ ad:"Hulo (Acara)", tur:"kasaba", lat:41.645, lon:42.310, g:0, k:3, m:"Erzurum",
+{ ad:"Hulo (Acara)", kd:[{f:"1281-01-01",t:"1578-08-09",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.645, lon:42.310, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[{f:"1578-08-09",t:"1878-03-03"}], v:[] },
 

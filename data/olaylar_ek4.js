@@ -80,7 +80,18 @@ window.OLAYLAR_EK4 = [
 { t:"1816-09-01", k:"sefer", etiket:["savas","konu-askeri"], b:"İbrâhim Paşa Necid seferine çıktı", gun:"Eylül 1816", yer:"Necid",
   kisiler:"İbrâhim Paşa (Kavalalı)",
   d:"Kardeşi Tosun'un ölümü üzerine komutayı devralan İbrâhim Paşa, çölde iki yıl süren ağır bir yürüyüşe girişti. Kuyu kuyu ilerleyen ordu, kabileleri tek tek bertaraf ederek Suûdî başkentine dayandı.",
-  kaynak:"ibrahim-pasa-kavalali", duygu:["🐎"], kapsam_genis:true },
+  kaynak:"ibrahim-pasa-kavalali", duygu:["🐎"], odak_kimlik:"suud-birinci" },
+  // 🔴 KRONO-YER-0072 (H-0009, Emre: "bu olayın haritada yeri yok onun için
+  // odaklanmıyor imparatorluk görünümüne geçiyor"). `kapsam_genis:true` idi —
+  // ama bu sefer imparatorluk çapında DEĞİL, Necid'e yönelik bir harekât;
+  // bayrak YANLIŞ BEYANDI ve `haritayiOlayaGotur` onu okuyup `donemler[di].b`ye
+  // (bütün Osmanlı sınırına) uçuruyordu. Hareket noktası için TDV yalnız
+  // "1816 Eylülünde Mısır'dan Hicaz'a hareket" diyor, ŞEHİR VERMİYOR
+  // (ibrahim-pasa-kavalali · suudiler · vehhabilik üçünde de yok) — bu yüzden
+  // `yer_id` UYDURULMADI. Onun yerine 1594 voyvodalık maddesinin mekanizması:
+  // `odak_kimlik` madde GÜNÜNDE o kimliğe ait atlas noktalarının kutusunu
+  // kurar. Ölçüldü (1816-09-01): 14 yerleşim · kutu [40.65, 21.94, 50.56, 28.65]
+  // (künye `harita:"suud"` olduğu için `s:"suud"` kayıtları da eşleşiyor).
 { t:"1818-09-09", k:"fetih", etiket:["toprak-kazanc","konu-askeri"], b:"Dir'iye düştü — ilk Suûdî Devleti sona erdi", gun:"9 Eylül 1818", yer:"Dir'iye, Necid",
   kisiler:"İbrâhim Paşa (Kavalalı), Abdullah b. Suûd",
   d:"Altı ay süren kuşatmanın ardından Dir'iye teslim oldu ve yıkıldı. Emîr Abdullah b. Suûd İstanbul'a gönderilerek idam edildi. Osmanlı bayrağı Arabistan'ın içlerinde ilk defa bu kadar derine ulaştı; Necid garnizonu 1824'e kadar kaldı. Aynı tarihte katılan öteki yerler: Dir'iye (Necid).", ic_not_d:"eski ifade: Aynı tarihte haritaya katılan diğer yerleşimler:",

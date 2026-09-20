@@ -34,16 +34,16 @@
 window.YERLESIMLER_EK27 = [
 
 // ───────── DOĞU KARADENİZ · Gürcistan sınırı ─────────
-{ ad:"Artvin", tur:"sehir", lat:41.183, lon:41.822, g:0, k:3, m:"Erzurum",
+{ ad:"Artvin", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1551-01-01",t:"1579-01-01",k:2,m:"Erzurum"},{f:"1579-01-01",t:"1829-09-14",k:2,m:"Ahıska"},{f:"1829-09-14",t:"1878-03-03",k:3,m:"Batum"},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"sehir", lat:41.183, lon:41.822, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
-{ ad:"Hopa", tur:"liman", lat:41.390, lon:41.427, g:0, k:3, m:"Erzurum",
+{ ad:"Hopa", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"liman", lat:41.390, lon:41.427, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 // Sarp — sınırın Karadeniz'e kavuştuğu nokta (Türkiye yakası)
-{ ad:"Sarp", tur:"koy", lat:41.520, lon:41.545, g:0, k:3, m:"Erzurum",
+{ ad:"Sarp", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"koy", lat:41.520, lon:41.545, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
