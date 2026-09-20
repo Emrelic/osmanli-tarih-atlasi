@@ -135,6 +135,41 @@ atlasta hiç yoktu. Gereken iki madde (kaynağı hazır):
 ⚠️ **Tavan tam sınırda (3/3).** Bu iki madde yazılana kadar yeni bir açık işgal
 kırılması Değişmez 2i'yi ihlale düşürür.
 
+### 5.3 İKİ MADDE YAZILDI — kırılmalar kapandı (M-4735)
+
+Yeni dosya: **`data/olaylar_misir1801.js`** → `window.OLAYLAR_MISIR1801`
+(2 madde). `index.html` satırı **eklenmedi** — koordinatör ekler; `denetle.py`
+`olaylar*.js` glob'uyla okuduğu için denetim bağlanmadan da görüyor.
+
+| Madde | Gün | Kırılmayı kapattığı yerleşimler |
+|---|---|---|
+| Kahire'nin Fransızlardan teslim alınması — Belliard'ın kapitülasyonu | 1801-06-27 | Kahire, Süveyş |
+| İskenderiye'nin Fransızlardan teslim alınması — Menou'nun kapitülasyonu | 1801-08-31 | İskenderiye |
+
+**Kaynak (§4):** TDV'de karşılık **bulunamadı ve bu ölçüldü** — `misir`
+maddesinin gövdesinde 1801 yılı geçmiyor, `kahire` ve `iskenderiye` maddeleri bu
+iki teslime gün vermiyor. Akademik kaynak künyesiyle yazıldı: Fondation Napoléon,
+*Correspondance générale… tome 3 — Pacifications, 1800-1802* kronolojisi;
+alıntılar gerçekten açılan gövdeden (27 juin · 17/21/31 août · 2 septembre).
+
+**Öngörü önce yazıldı** (`denetim/ONGORU-MISIR1801-0070.md`), sonra ölçüldü:
+
+| Ölçüt | Öngörü | Ölçülen |
+|---|---|---|
+| Değişmez 2i açık | 1 | **1** ✓ (kalan 1878-09-18 Bihaç/Ostrovica) |
+| Değişmez 2i kırılma | 130 | 130 ✓ |
+| Değişmez 2 · 2t · 1 | aynı | aynı ✓ |
+| Değişmez 2s açık | aynı (183) | **180** ✗ (öngörü tutmadı, yön iyi; tavan 195) |
+| Genel | temiz | **temiz** |
+
+🔴 Ara adımda bir ihlal doğdu: maddeler inince `mükerrer madde` ölçütü 1 şüpheli
+çift verdi (ikisi benim maddelerim — aynı yıl, ortak başlık kalıbı). Denetimin
+kendi talimatıyla çift `arac/denetle.py`nin `BILINEN_AYRI` kümesine gerekçesiyle
+yazıldı (iki şehir, iki ay ara, iki kumandan, **veride iki ayrı `isg:`
+kırılması**). Başlıkları benzemesin diye değiştirmek tercih edilmedi — o,
+denetimi metinle atlatmak olurdu. `arac/denetle.py` paylaşılan dosya: commit
+koordinatörde.
+
 ## 6. ÖLÇÜLEMEYEN
 
 - **Kırsal yayılım:** kutuda yalnız 8 işgal noktası var; petek motoru sahipliği en
