@@ -9192,6 +9192,9 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_bakis",       // window.EKOKUMA_BAKIS — EKO-BAKIS-0069 teslimi (0069/H-0003, tür karsi-anlati, 17 kart)
   // 🆕 20 Eylül 2026 — EKOKUMA-SIMGE-0070 (0070/H-0009)
   "ekokuma_misir1805",   // window.EKOKUMA_MISIR1805 — 13 Mayıs 1805'in Mısır tarih yazımındaki yeri (1 kart)
+  // 🆕 20 Eylül 2026 — DALGA-0920 teslimleri (koordinatör 1.MURAT bağladı)
+  "ekokuma_alemdar",     // window.EKOKUMA_ALEMDAR — EKO-ALEMDAR teslimi (Alemdar Mustafa Paşa · âyanlar)
+  "ekokuma_1806",        // window.EKOKUMA_1806 — EKO-1806 teslimi, M-4765 (6 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
