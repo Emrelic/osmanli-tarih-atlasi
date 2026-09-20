@@ -125,7 +125,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"TEMSİLÎ YIL: kuruluş günü kaynaklarda tek bir güne bağlanmaz. Aynı güne düşen Cumberland House (İngiliz Kuzey Amerikası) kırılmasıyla İLGİSİ YOKTUR — yalnız yıl yuvarlaması ikisini aynı tarihe düşürmüştür." },
 
 // ── 1821 · Orta Amerika ──────────────────────────────────────────────
-{ t:"1821-09-15", k:"siyaset", onem:4, dunya:4, kapsam:"dis", yer_id:"Antigua Guatemala (Santiago de los Caballeros)",
+{ t:"1821-09-15", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Antigua Guatemala (Santiago de los Caballeros)",
   b:"Orta Amerika Bağımsızlık Bildirisi — Guatemala Genel Kaptanlığı İspanya'dan ayrıldı",
   gun:"15 Eylül 1821", yer:"Antigua Guatemala (Santiago de los Caballeros), Nojpetén (Tayasal / Flores), Guatemala Genel Kaptanlığı",
   kisiler:"Gabino Gaínza, Orta Amerika eşrafı",
@@ -170,7 +170,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Almagro'nun daha önce (Ağustos 1534) kurduğu Santiago de Quito ayrı bir olaydır; atlas kırılması Benalcázar'ın 6 Aralık kuruluşunda duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1535 · Lima ──────────────────────────────────────────────────────
-{ t:"1535-01-18", k:"kurulus", onem:4, dunya:4, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
+{ t:"1535-01-18", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
   b:"Lima kuruldu — İspanyol Peru'sunun başkenti Rimac vadisine taşındı",
   gun:"18 Ocak 1535", yer:"Lima (Ciudad de los Reyes)", kisiler:"Francisco Pizarro",
   etiket:["siyasi","toprak-kazanc","konu-idari"],

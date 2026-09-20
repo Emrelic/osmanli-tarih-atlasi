@@ -563,7 +563,8 @@ window.KRONOLOJI_RUSYA = [
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 
 // === I) I. NİKOLAY (1825-1855) ================================================
-{ t:"1826-07-31", b:"Osmanlı, Yeniçeri Ocağı'nı kaldırdı — Rusya için stratejik fırsat", tur:"diger", onem:1, dunya:1, kapsam:"dis",
+{ t:"1826-06-15", b:"Osmanlı, Yeniçeri Ocağı'nı kaldırdı — Rusya için stratejik fırsat", tur:"diger", onem:1, dunya:1, kapsam:"dis",
+  ic_not_gun:"20 Eylül 2026 · EKO-ILGI-0073 (M-4837/d): kayıt t:\"1826-07-31\" taşıyordu, oysa Vak'a-i Hayriyye 15 Haziran 1826'dır — aynı olayın 46 gün ayrışık ikiziydi. Kayıt KALDIRILMADI çünkü tekrar değil: çekirdek maddenin söylemediği bir şeyi, olayın RUSYA açısından sonucunu anlatıyor. Yalnız günü çekirdek maddeyle (data/olaylar.js, 1826-06-15) aynı güne çekildi. Bu kayda bağlı 2 ek okuma kartının bağı aynı işlemde '…|Rusya' ayırt edicisiyle yeniden hedeflendi.",
   etiket:["siyaset","isyan","konu-siyasi","konu-isyan"],
   yer_id:"İstanbul",
   d:"Vak'a-i Hayriye ile Yeniçeri Ocağı'nın kaldırılması, Osmanlı ordusunun geçici bir zafiyet dönemine girmesine yol açtı; I. Nikolay yönetimindeki Rusya bunu bir sonraki savaşta (1828-29) fırsata çevirdi.",

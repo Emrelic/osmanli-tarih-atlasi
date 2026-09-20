@@ -104,7 +104,7 @@ window.EKOKUMA_TOPLUM = [
   metin:"Mehter, Batı müziğini XIX. yüzyıl Avrupa'sında da etkilemiş bir ihraç ürünüydü ('Türk marşı' modası, Mozart ve Beethoven'ın mehter esinli eserleri) — ama kendi vatanında modernleşme dalgasının ilk kurbanlarından biri oldu; yerini alan Muzıka-yi Hümâyun'un ilk şefi bizzat Giuseppe Donizetti'ydi (besteci Gaetano Donizetti'nin ağabeyi).",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1826-06-15|Hayriyye","1826-07-31"],
+  olay:["1826-06-15|Hayriyye","1826-06-15|Rusya"],
   kaynak:"TDV: mehter" },
 
 // ═══ H-0054 — el sanatları/atölyecilik (yalnız matbaacılık) ════════════════

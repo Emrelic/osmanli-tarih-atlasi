@@ -95,7 +95,11 @@ window.EKOKUMA_KURUM2 = [
     +"■ ORTAK DESEN\n"
     +"İki mühendishane de aynı krizden (1768-1774 Rus savaşı, 1770 Çeşme) doğdu, aynı reform paketinin (Nizâm-ı Cedîd, bk. ayrı kart H-0014/DALGA-0068) parçasıydı ve ikisi de defalarca ad/bina değiştirerek 19. yüzyılı aştı — kesintisiz değil, ama KOPMADAN 20. yüzyıla ulaştı.",
   kesinlik:"kesin",
-  olay:["1795-01-01|Mühendishâne-i Berrî-i Hümâyun kuruldu","1883-01-01|Hendese-i Mülkiyye Mektebi açıldı","1944-01-01|İstanbul Teknik Üniversitesi kuruldu"],
+  // EKO-ILGI-0073 (M-4837/c1): "1944-01-01|İstanbul Teknik Üniversitesi" bağı
+  // KALDIRILDI — atlasın kapsamı 1281-1923, o tarihe hiçbir zaman madde gelmeyecek
+  // ve kapsam dışı bir güne bağ kurmak öksüzlüğü KALICILAŞTIRIR. Okulun bugünkü
+  // ardılı bilgisi kartın METNİNDE duruyor, bağ olarak durmasına gerek yok.
+  olay:["1795-01-01|Mühendishâne-i Berrî-i Hümâyun kuruldu","1883-01-01|Hendese-i Mülkiyye Mektebi açıldı"],
   kaynak:"TDV: muhendishane-i-berri-i-humayun · muhendishane-i-bahri-i-humayun" },
 
 // ── H-0014 (DALGA-0068) · Nizâm-ı Cedîd ─────────────────────────────────────
