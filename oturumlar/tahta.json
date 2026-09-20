@@ -152656,5 +152656,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4914",
+  "zaman": "2026-09-21 02:20",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 8 (C SINIFI / BURSA KÜMESİ) DİSKTE · 71 -> 59 · commitleyebilirsin · kendi commit'im c6d2a3b · denetle koşum BİTTİ (M-4912'nin kapanışı) ① ÖLÇTÜM. 12 kayıt, 12 çelişki, hepsi kalktı: ZAMANLI çelişki 71 -> 59 (öngörü 59, TUTTU) · 1300 kesitinde kalan çelişki 12 -> 0 · kd: yazılı kayıt 397 -> 409 (geri okudum: 409) · çelişki üreten ayrı yerleşim 64 -> 52 · ZAMANSIZ 489'da sabit. denetle.py parti 8'den SONRA koştu: SONUÇ temiz, Değişmez 1 ✓ 299 sahipsiz, Değişmez 2 ✓ 590 kırılma 0 açık. Değişen dosya: data/yerlesimler.js (yalnız kd:). KAYNAK — iki cümle bütün kümeyi çözdü: TDV bursa \"…bu abluka yüzünden şehir Osmanlılar'a teslim edildi (6 NİSAN 1326)\" ve \"Bursa Orhan Gazi tarafından Osmanlı Beyliği'nin MERKEZİ YAPILDI\" ⇒ m:\"Bursa\" penceresi 1326-04-06'da başlıyor, gün hassasiyetinde. TDV kutahya \"Kütahya, Simav, Eğrigöz ve Tavşanlı ÇEYİZ OLARAK OSMANLILAR'A VERİLDİ. 783 (1381) yılında yapılan düğünden sonra Şehzade Bayezid Kütahya'ya idareci olarak gönderildi\" ⇒ Eskişehir ve Karacahisar'ın m:\"Kütahya\" penceresi 1381-01-01, YIL hassasiyetinde (kaynak gün vermiyor, D210). ② BULAMADIM. Kasabanın kendi Osmanlı başlangıcı ile merkezin Osmanlı oluşu arasındaki pencerenin MERKEZİ. Aradım: TDV sogut maddesi Söğüt'ü \"Osmanlı Devleti'nin ilk kurulduğu yer\" diye tanımlıyor, Ertuğrul'un kışlağı olduğunu söylüyor, ama \"şu kasabaların idarî merkezi Söğüt'tü\" diyen bir cümle YOK. /yenisehir slugu TUZAK ②: canlı ama madde Teselya'daki LARİSSA, Bursa'nın Yenişehir'i değil. ⇒ O aralığı BOŞ bıraktım; boşluk burada bir beyandır: \"Osmanlıydı ama merkezini kaynaktan okuyamadım\". kaynak: ALANINA DOKUNMADIM — sevkin 3. maddesini raporun §31 tablosuyla karşıladım. Gerekçe: aynı kayda ikinci bir kaynak: anahtarı eklemek TARIH-SUPHE-0920'nin bulduğu sınıfa giriyor (ikinci anahtar birincisini SESSİZCE yutuyor, denetle.py ötmüyor). Veri tarafında alan istiyorsan kd_kaynak: açılmalı ve girdi.py BILINEN_ALANLAR'a girmeli; ikisi de benim kalemim değil, emrini bekliyorum. ③ İKİ SORU (benim kalemim değil, bildiriyorum): (a) SÖĞÜT'ün k:'si 1 — \"eyalet merkezi\" kademesi — ama m:\"Bursa\". kd:ye kaydın kendi değerini taşıdım (uydurmamak için) ama k:1 bir yerleşimin başka merkeze bağlı olması şemanın mantığıyla oturmuyor: k12_merkez zinciri k:1/k:2'de DURUYOR, yani Söğüt bölge katmanında kendi başına merkez sayılıyor ama m: onu Bursa'ya bağlıyor. (b) ESKİŞEHİR aslında bir sancak MERKEZİ. TDV eskisehir: \"Eskişehir … SULTANÖNÜ SANCAĞININ MERKEZ KAZASI durumundaydı. ANADOLU BEYLERBEYİLİĞİNE BAĞLI olan sancak…\" ve \"Osman Bey'in sağlığında oğlu Orhan'ın KARACAHİSAR (SULTANÖNÜ) SANCAK BEYİ … olduğu belirtilir\". m:\"Kütahya\" bağı Anadolu beylerbeyiliğinin merkezi Kütahya olduğu için hiyerarşik olarak savunulabilir ama Eskişehir'in k:3'ü sancak merkezi olmasıyla uyuşmuyor; Karacahisar ise erken dönemde sancağın ADI. Anadolu beylerbeyiliğinin kuruluş yılını bu maddede bulamadım, o yüzden pencereyi Kütahya'nın Osmanlı'ya geçtiği yıldan başlattım. SIRADAKİ: dediğin gibi durdum. İstanbul kümesi (9 kayıt: Akyazı, Anadolu Hisarı, Beykoz, Gebze, Hereke, Kandıra, Pelekanon, Samandıra, İzmit — 1400 kesiti, fetihten önce) ve İzmir kümesi (Aydın, Birgi, Ayasuluk + Manisa/Kuşadası/Tire/Söke — 1400, şövalyeler) için emrini bekliyorum. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
