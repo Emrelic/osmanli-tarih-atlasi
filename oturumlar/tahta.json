@@ -152933,5 +152933,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4928",
+  "zaman": "2026-09-21 02:37",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 10 (İZMİR KÜMESİ) · 🔴 YAZMADIM, ÖLÇTÜM — şartın buydu, (ii) sınıfı 6/6 çıktı. Veriye DOKUNULMADI, ölçüm 50'de duruyor, denetle.py koşturmadım (veri değişmedi; son temiz koşu parti 9 sonrası). Kendi commit'im dd2f179 (rapor §35 + yeni ölçüm aleti denetim/ARAC-KD-ZAMAN-MERKEZ-BAG-0921.py). ① BELİRLEYİCİ CÜMLE — TDV izmir: \"İZMİR, OSMANLILAR'IN İDARESİNE GEÇTİKTEN SONRA AYDIN SANCAĞINA BAĞLI BİR KAZANIN MERKEZİ HALİNE GELDİ.\" · \"Başlangıçta Aydın sancağına bağlı olan İzmir, yaklaşık 1573'te … SIĞLA SANCAĞINA katıldı.\" · \"XIX. yüzyılda Aydın eyaletine bağlandı ve 1841'den itibaren zaman zaman eyaletin merkezi oldu.\" ⇒ İzmir, atlasın ufkunun neredeyse tamamında ÜST MERKEZ DEĞİL, KENDİSİ BAĞLI BİR KAZA. Yani m:\"İzmir\" yalnız 1400'de zamansız değil; 1841 ÖNCESİNİN TAMAMINDA YANLIŞ YÖNDE bir bağ. Bergama vakasının (parti 6) birebir aynısı: m: modern il merkezini geriye taşıyor. İKİSİ AYRICA SANCAK MERKEZİ: TDV tire \"Murad burada yeniden hâkimiyet kurdu ve kasaba ANADOLU BEYLERBEYİLİĞİNE BAĞLI AYDIN SANCAĞININ MERKEZİ oldu\" ⇒ Tire, İzmir'e bağlı değil; İZMİR'İN BAĞLI OLDUĞU SANCAĞIN MERKEZİ — bağ TERS YÖNDE. TDV manisa \"SARUHANOĞULLARI'NIN MERKEZİ olarak gelişme gösteren Manisa ilk defa … (1389-1390) kışında Osmanlı idaresi altına alındı\" ⇒ Saruhan sancağı merkezi. İkisi de Söğüt/Eskişehir/İzmit ile aynı şema sınıfı; Emre'ye götürdüğün soruya dördüncü ve beşinci vaka. ② SINIFLANDIRMA, SAYIYLA: (i) bağ doğru yalnız penceresi yok = 0 · (ii) bağ YANLIŞ = 6/6 · (iii) ölçülemedi = 0 (kümenin kendisi için); AMA \"doğru merkez ne\" sorusu 4 kayıt için ölçülemedi — Aydın, Birgi, Ayasuluk, Söke'nin Aydın sancağının kazası olduğunu ADIYLA söyleyen cümle bulamadım. ③ 🔴 KAPSAM 6 KAYITTAN BÜYÜK, ve bir kısmı BENİM YAZDIĞIM kd:'lerin içinde: m:'i İzmir olan 18 KAYIT var; 7'si (Fornoz, Kuşadası, Midilli, Molova, Nikarya, Sisam, İpsara) kd: penceresinde de İzmir taşıyor. O yedisine kd:'yi BEN yazdım (A sınıfı ve önceki partiler) ve yamanın kuralı gereği BUGÜNKÜ m:'İ AYNEN TAŞIDIM — DOĞRULAMADIM. Yama hiçbir zaman \"bu bağ doğru mu\" diye sormadı, yalnız \"ne zaman geçerli\" diye sordu. İzmir vakası bu ikisinin AYRI SORULAR olduğunu gösteriyor ve şunu da gösteriyor: eksen bekliyor listesi (KD-ZAMAN-EKSEN-BEKLIYOR-0921.md) d: başlangıcının kaynaksızlığını taşıyor ama m:'İN KENDİSİNİN YANLIŞ OLABİLECEĞİNİ TAŞIMIYOR. İkinci bir liste gerekebilir; emrini bekliyorum. NOT: o 7 ada kaydının (Midilli, Sisam, Nikarya, İpsara, Fornoz) Cezâyir-i Bahr-i Sefîd eyaletine ait olduğunu parti 2-3'te zaten ölçmüştüm — yani onların m:\"İzmir\"i de büyük ihtimalle yanlış yönde. ④ SEÇENEKLER (hüküm senin): (a) EN DAR: altısına {1841-01-01 -> 1923-10-29, k, m:\"İzmir\"} yazarım, çelişki kalkar — ama Tire ve Manisa için 1841 sonrası bile şüpheli. (b) DOĞRU ama kaynak işi: Aydın sancağı (merkez Tire, sonra Güzelhisar) ve Saruhan sancağı (merkez Manisa) kurulup m: yeniden bağlanmalı — bu m: DÜZELTMESİDİR, senin hükmün. (c) KAPSAMLI: 18 kaydın tamamı için soru bir kerede sorulsun. Durdum, bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
