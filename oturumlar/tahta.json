@@ -145149,5 +145149,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4677",
+  "zaman": "2026-09-20 11:28",
+  "kimden": "KUNYE-BORC-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-BORC-0920 · SON TESLIM (kalem B: sessiz borc) · rapor: denetim/KUNYE-BORC-0920.md (commit 21a2969) (1) NE OLCTUM - Sessiz borc 41 -> 53 (12 kunyemi yazinca). Sebep kusur degil EVREN: durum_tablosu.kimlik_evreni() yalniz yerlesimler*.js'in s: ve isg: alanlarini tariyor; d_sinirlar*.js · olaylar*.js · kronoloji*.js · savaslar.js · kisiler.js EVRENIN DISINDA. - 53'un dagilimi (olculdu, dosya dosya sayim): ① d_sinirlar*.js'te TARAF: 30 · ② yalniz kronoloji/savas/kisi metninde: 9 · ③ gercekten hicbir yerde: 14. ⇒ \"Sessiz borc\"un 39'u SESSIZ DEGIL. Sayac bakmadigi yeri \"yok\" diye raporluyor. - Kova ① icin her kunyenin D kayitlarindan kutu cikarip KUNYENIN KENDI PENCERESINDE yerlesim verisine karsi taradim: D kutusunda KENDI kimligini tasiyan nokta 0/30. Toprak metropol kimligiyle cizili (fransiz-ekvator-afrikasi kutusunda 98 nokta: fransa-cumhuriyet 44 · ingiltere 21 · belcika 19 · sahipsiz 10; belcika-kongo 65; portekiz-angola 39; fransiz-bati-afrika 36...). ⇒ Bu bir \"yerlesim eksik\" kusuru DEGIL: noktalar orada. Harita \"Ingiltere\" derken D katmani \"ingiliz-nyasaland\" diyor — IKI KATMAN IKI KIMLIK SISTEMI. - Kova ①'in 7'sinin kutusunda hic yerlesim yok (asil nokta borcu): nikaragua-cumhuriyeti · kosta-rika-cumhuriyeti · el-salvador-cumhuriyeti · ingiliz-hondurasi · portekiz-gine · saar-havzasi-mandasi · bohemya (bohemya'nin kutusu D kaydindan geldigi icin Prag'i kapsamiyor — KUTU sorunu, borc degil). - Kova ② (9): misir-eyaleti kronolojide 28 kez, sirbistan-eyaleti 5 — Osmanli eyaletleri, topragi `osmanli` cizer, kunye kronolojiyi tasir. KUSUR DEGIL, TASARIM. - Kova ③ (14): 5'i halk/kabile kunyesi (aleut · arua · charrua · ranquel · guarani-misyonlari) = KASITLI · 2'si sahsi birlik adlandirmasi (norvec-isvec · luksemburg-hollanda) = KASITLI · 6'si GERCEK BORC ve hepsi DONEM eksikligi: kibris-ingiliz (Lefkosa 1878'den `ingiltere`) · oniki-ada-italyan (Rodos yalniz 1923-07-24'ten `italya`, 1912-23 isgali veride YOK) · girit-devleti (ozerk donem YOK) · italya-napolyon (Milano 1714-1859 kesintisiz `avusturya`, Napolyon donemi HIC YOK) · sabah-emirligi · sani-emirligi. - OLCUMUN KENDINDEN DERS: ilk turda pencereyi `f <= g < t` yazdim, 30 kunyenin 30'u da \"SAHIPSIZ\" cikti (1923-10-29'da biten butun donemler elendi). Pencere ucu GUNU DAHIL (M-4656). Yanlis olcum raporlanmadi, duzeltilmis olcum raporda. (2) NE BULAMADIM - Kunye YANLIS/MUKERRER kovasi (sartnamenin ② sikki) BOS CIKTI: 53'un hicbirinde \"bu kunye su kunyeyle birlesmeli\" diyebilecegim olcum bulamadim. Ad benzerligi taramasi yalniz metropol/kardes koloni eslesmeleri verdi (belcika-kongo~belcika gibi) ki bunlar birlesme DEGIL ana devlet iliskisi. `bulunamadi` bir sonuctur. - Sayacin ③ kovasindaki 14 kimligin renk durumu: hicbirinin boyasi yok (zaten kova tanimi bu). (3) NE ISTIYORUM / ONERIYORUM a) 🔴 KAPSAM KARARI (Emre/sen — isci hukmu degil): atlas somurgeyi METROPOL rengiyle mi cizecek, KENDI kimligiyle mi? · Metropol kalsin ⇒ bu 30 kunye dizin kaydi olarak DOGRUdur ve sessiz borc sayacindan CIKARILMALIDIR; aksi halde her dogru kunye eklemesi sayaci sisirir. · Kendi kimligiyle cizilsin ⇒ is yerlesim YAZMAK degil, mevcut noktalarin s: donemlerinde kimligi DEGISTIRMEK + 30 renk. yerlesimler.js sahibinin (Oturum 0) isi ve Degismez 2'yi dogrudan etkiler. b) ALET: renksiz_kovalari'nin \"sessiz\" kovasinin ya ADI (\"yerlesim katmaninda govdesi yok\") ya EVRENI duzeltilmeli. Olculen: 53'un 39'u baska katmanda canli. §11 — \"denetim var ≠ o soruyu soruyor\". c) SONRAKI KALEM ONERISI (kucuk ve sevk edilebilir): kova ③'un 6 gercek borcu, ~10-15 noktaya DONEM yazma isi (her dilim Degismez 2 geregi bir kronoloji maddesi ister). Ozellikle italya-napolyon ve oniki-ada-italyan gozle gorulur harita bosluklari. d) A kaleminin acik kalemleri (renk 0/12 · `koloni` turu · `orta-amerika-karayip` sozlukte yok · iki dayanaksiz D gunu) M-4676'da duruyor, hala acik. DEGISEN DOSYALAR: data/devletler.js (+12 kunye, dosya SONUNA; mevcut kayitlara dokunulmadi — commit SENDE) · denetim/KUNYE-BORC-0920.md (adimla commit ettim: 21a2969, git show --name-only ile dogrulandi, tek dosya). py arac/denetle.py: SONUC TEMIZ. Bekci acik tutuyorum (a ve b senin hukmunu bekliyor). Is bittiyse soyle, bekciyi oldurup emekliye ayrilayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
