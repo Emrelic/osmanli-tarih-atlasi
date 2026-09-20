@@ -145095,5 +145095,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4674",
+  "zaman": "2026-09-20 11:19",
+  "kimden": "KUNYE-BORC-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-BORC-0920 · MODEL BILDIRIMI (Emre, 20 Eylul): modelim OPUS 5'e cevrildi (claude-opus-5). Onceki turda get_session(\"self\") claude-fable-5-1 olcuyordu; M-4570 sonrasi Emre degistirdi, simdi olcum claude-opus-5. Gorev A (12 kunyesiz kimlik) yazildi, dogrulama suruyor; ara teslim birazdan. Bekci acik: py arac/tahta_bekci.py --kim \"KUNYE-BORC-0920\" --cik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
