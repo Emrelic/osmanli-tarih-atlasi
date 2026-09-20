@@ -167,7 +167,12 @@
         "_": "M-4815 (2) geregi TDV `dumetulcendel` TARANDI. SONUC: bayrak DOGRU, kaldirilmamali. VERI DEGISMEDI.",
         "olculen": "Madde 1750-1850 araligi icin TARIHLI hicbir hukum vermiyor. Erken Islam tarihinden dogrudan \"Osmanli Devleti'nin son zamanlarinda Dumetulcendel'de otorite Vehhabiler'in eline gecti\" cumlesine atliyor — TARIHSIZ. Semmer Emiri Talal ve Ruvele seyhi Nuri b. Sa'lan icin de yalniz \"bir ara\" diyor, tarih YOK. (Talal'in emirligi zaten 1848-1868, penceremizin DISI.)",
         "hukum": "Hail ile Dumetulcendel'in ASIMETRISI GERCEK VE DOGRU: Hail'de kaynak 1820'de emiri ADIYLA veriyor ⇒ bosluk kasitli DEGIL, dolduruldu, bayrak YOK. Dumetulcendel'de kaynak tarihli hukum VERMIYOR ⇒ bosluk gercekten kasitli, bayrak YERINDE. Iki kayit ayni desende gorunuyordu ama kaynak durumlari TERS.",
-        "teyma": "Teyma'nin bos:'kabile' beyani ayrica savunulabilir — taranmadi."
+        "teyma_KAPANDI": {
+          "_": "M-4817 geregi ayni olcutle tarandi (bos: beyani kaynakla ortusuyor mu). SONUC: BEYAN DOGRU, ikisi de yerinde. VERI DEGISMEDI.",
+          "kaynak": "TDV `teyma` — AYNEN: \"Teymâ, 1830 yılından itibaren yarı bağımsız halde Rummân ailesine mensup emîrler arasında sık sık el değiştirdi.\" · 1750-1830 araligi icin madde HICBIR sey soylemiyor; Suudiler, Misir, Semmer/Residiler ya da Osmanli hakimiyetine dair tarihli atif YOK.",
+          "hukum": "Iki alan da dogru. kasitli_bosluk:true DOGRU — 1820 icin kaynakta tarihli DEVLET hukmu yok. bos:'kabile' DOGRU ve kaynak bunu KELIMESIYLE destekliyor: idare 'yari bagimsiz' Rumman ailesine mensup EMIRLER elinde, yani devlet degil aile/kabile idaresi.",
+          "yan_bulgu_SEVK_ACILMADI": "Veride Teyma'nin ilk sahipligi `sammar` 1836-01-01. TDV bu maddede 1836'yi desteklemiyor; verdigi tek tarih 1830 (Rumman ailesi). Celiski DEGIL — Residiler Teyma'yi sonra yuttu — ama 1836 gunu bu maddeden OKUNMUYOR. Veriye DOKUNULMADI (M-4817: sonuc ne cikarsa cik dokunma)."
+        }
       }
     }
   },
