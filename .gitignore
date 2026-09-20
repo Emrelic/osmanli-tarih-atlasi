@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
 .claude/
+!.claude/commands/
+!.claude/commands/*.md
 
 # Koşu damgası — her üretimde değişir, TAKİPÇİ yerelde okur
 .uretim-basladi
