@@ -42,6 +42,7 @@ import sys
 import time
 
 import shapely
+from shapely import STRtree
 from shapely.geometry import (MultiPoint, MultiPolygon, Polygon, mapping,
                               shape)
 from shapely.ops import unary_union, voronoi_diagram
@@ -81,6 +82,14 @@ PAYLASIM_NOKTA_TAVAN = int(os.environ.get("MOTOR_DOLGU_NOKTA_TAVAN", "400"))
 TEMAS = 0.02
 
 CINSLER = ("bosluk", "koridor", "enklav-bag", "paylasim")
+# Hesap yolu: "devlet" (birim = tek devlet + 1 sıçrama, ÖNBELLEKLİ) ·
+# "butun" (eski tek parça hesap). İkincisi üretim için DEĞİL, bit bit
+# aynılık sınavının karşı tarafı içindir (M-4848 ②. şart).
+# ⚠️ AD `MOTOR_BDOLGU_YOL` — `MOTOR_DOLGU_YOL` ZATEN ALINMIŞ:
+#    `uret_petek.py:5630` onu kendi petek düzeyindeki dolgusu için
+#    ("satir"/"matris"/"sina") okuyor. Aynı adı kullansaydım bu modülü
+#    "butun"a almak motorun BAŞKA bir hesabını sessizce bozardı.
+YOL = os.environ.get("MOTOR_BDOLGU_YOL", "devlet")
 
 # ═══════════════════════════════════════════════════════════════════════════
 # KAPANIŞ ÖNBELLEĞİ — ölçümle bulunan TEK BÜYÜK kazanç
@@ -427,6 +436,200 @@ def _cins(parca, govde, a_tampon):
 # ═══════════════════════════════════════════════════════════════════════════
 # ④ KESİT — B-1'in çekirdeği
 # ═══════════════════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════════════════
+# BÖLGE BİRİMİ — "tek devlet + 1 sıçrama" (M-4848, 1.MURAT'ın ①. şartı)
+# ═══════════════════════════════════════════════════════════════════════════
+# Şart: *"Bölge biriminin TANIMINI ölçüyle seç, coğrafî sezgiyle değil…
+# bir boşluk bileşeni İKİ bölgeye birden değiyorsa anahtarı hangi bölgeye
+# ait?"*
+#
+# 🔴 ÜÇ ADAY ÖLÇÜLDÜ (`denetim/ARAC-B-GORUNUM-BOLGE-0072.py`, 12 kesit,
+#    kesit başına 238,2 gövde). Öngörü ölçümden önce yazıldı
+#    (`denetim/B-GORUNUM-0072-BOLGE-ONGORU.md`):
+#      A) bağlı bileşen (transitif) : birim %90,8 · tek devlet değişince %90,8
+#      B) 1 sıçrama                 : birim  %3,8 · tek devlet değişince %14,9
+#      C) 2 sıçrama                 : birim %14,9 · tek devlet değişince %31,7
+#    ⇒ A ÇÜRÜDÜ ve öngörüm bunu ÖNCEDEN yazmıştı: 13 bileşen var ama en
+#      büyüğü gövdelerin %91'ini yutuyor (Avrasya+Afrika kesintisiz kara).
+#      Bileşen bölge birimi OLAMAZ — bugünkü kesit anahtarının neredeyse
+#      aynısıdır.
+#
+# 🔴 "İKİ BÖLGEYE BİRDEN DEĞEN PARÇA" SORUSU BURADA SORULMUYOR, çünkü
+#    birim coğrafî bir KUTU değil, bir DEVLETTİR. Her dolgu parçasının
+#    tek bir sahibi vardır (`kim`) ve o parçayı yalnız sahibinin birimi
+#    üretir. Paylaşım parçaları bile öyle: çekişmeli alan iki tarafta da
+#    AYNI kanonik sırayla bölünür (`_paylas` çifti `kim`e göre sıralı
+#    alır) ve her taraf YALNIZ KENDİ payını yazar. ⇒ ne boşluk ne mükerrer.
+#
+# 🔴 NİÇİN 1 SIÇRAMA YETİYOR — ve bu sezgi değil CEBİR:
+#    ham_i = kapanış(i) − gövde_i (komşuya bakmaz) · B_i = ham_i'nin
+#    kutusuna değen gövdelerin birleşimi · t_i = ham_i − B_i.
+#      ① t_i ∩ t_j = (ham_i ∩ ham_j) − B_i
+#         çünkü ham_i∩ham_j'ye değen HER gövde ham_i'ye de değer ⇒ B_i'de.
+#      ② t_i − t_j = t_i − ham_j
+#         çünkü t_i ∩ B_j = ∅ (t_i'ye değen gövdeler zaten B_i'de çıkarıldı).
+#    ⇒ İkisi de yalnız ham_j'yi (yani gövde_j'yi) okuyor, B_j'yi DEĞİL.
+#      2. sıçrama gereksiz; ölçülen %31,7 yerine %14,9.
+#    ⚠️ Bu denklikler yazılı duruyor ki biri kodu değiştirince neyin
+#      bozulduğunu bilsin: ①/② kırılırsa anahtar EKSİK girdi taşır ve
+#      önbellek SESSİZCE bayat sonuç verir.
+def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
+    """Her devletin dolgu parçalarını AYRI AYRI ve önbellekli üretir."""
+    n = len(govdeler)
+    ham_var = [i for i in range(n) if not ham[i].is_empty]
+    if not ham_var:
+        return []
+    h_liste = [ham[i] for i in ham_var]
+    h_agac = STRtree(h_liste)
+
+    def komsu_govde(i):
+        """`ham_i`nin kutusuna değen gövdeler (kendisi hariç) — B_i'nin
+        indeksleri. `_yakin`ın sorduğu soruyla BİREBİR aynı soru."""
+        try:
+            ix = [int(q) for q in g_agac.query(ham[i])]
+        except Exception:
+            ix = list(range(n))
+        return sorted(q for q in ix if q != i)
+
+    def komsu_talep(i):
+        """`ham_i`nin kutusuna değen ÖTEKİ ham talepler."""
+        try:
+            ix = [int(q) for q in h_agac.query(ham[i])]
+        except Exception:
+            ix = list(range(len(ham_var)))
+        return sorted(ham_var[int(q)] for q in ix if ham_var[int(q)] != i)
+
+    parcalar = []
+    for i in ham_var:
+        kim, g = govdeler[i]
+        kb = komsu_govde(i)
+        kt = komsu_talep(i)
+        # ── ANAHTAR: kendisi + 1 SIÇRAMA komşuluğu (gövde ∪ talep) ──────
+        # Kapsam TAM: yukarıdaki ①/② cebirine göre hesaba giren her gövde
+        # bu iki kümededir. Dar tutulursa sessizce bayat sonuç doğar.
+        _cevre = sorted(set(kb) | set(kt))
+        an = _ONB.anahtar(
+            "dolgu2_devlet", kara_oz, "%.4f" % r_km,
+            "%s=%s" % (kim, _oz(g)),
+            "|".join("%s=%s" % (govdeler[j][0], _oz(govdeler[j][1]))
+                     for j in _cevre))
+        var, deger = _ONB.oku("dolgu2_devlet", an)
+        if var:
+            ps, eng, km2t = deger
+            parcalar.extend(ps)
+            rapor["engellendi"].extend(eng)
+            rapor["talep_km2"] += km2t
+            continue
+
+        ps, eng, km2t = _devlet_hesap(i, kim, g, ham, govdeler, kb, kt,
+                                      g_liste, rapor)
+        _ONB.yaz("dolgu2_devlet", an, (ps, eng, km2t))
+        parcalar.extend(ps)
+        rapor["engellendi"].extend(eng)
+        rapor["talep_km2"] += km2t
+    return parcalar
+
+
+def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
+    """TEK devletin parçaları. YALNIZ `kb`/`kt` içindeki gövdeleri okur."""
+    t = ham[i]
+    eng_liste = []
+    # B_i — ham talebin kutusuna değen gövdelerin birleşimi.
+    B = Polygon()
+    if kb:
+        try:
+            B = _temiz(unary_union([g_liste[j] for j in kb]))
+        except Exception:
+            B = Polygon()
+    if not B.is_empty:
+        # 🔴 ENKLAV KURALI: başka devletin A toprağına denk gelen kısım
+        #    DOLGU OLMAZ; köprü kurulmaz, "incelenecek" diye raporlanır.
+        engel = _temiz(t.intersection(B))
+        if not engel.is_empty and _km2(engel) >= ESIK_KM2:
+            eng_liste.append((kim, round(_km2(engel), 1)))
+        t = _temiz(t.difference(B))
+    if t.is_empty:
+        return [], eng_liste, 0.0
+    km2t = _km2(t)
+
+    # ── ÇEKİŞME — ①/② denklikleriyle, yalnız ham_j okunarak ────────────
+    _sn = time.time()
+    cekisme, cik = [], []
+    for j in kt:
+        hj = ham[j]
+        if hj.is_empty:
+            continue
+        try:
+            ort = _temiz(t.intersection(hj))        # = t_i ∩ t_j  (①)
+        except Exception:
+            continue
+        if ort.is_empty or _km2(ort) < ESIK_KM2:
+            continue
+        cekisme.append((j, ort))
+        cik.append(hj)                              # t_i − t_j = t_i − ham_j (②)
+    ozel = t
+    if cik:
+        try:
+            ozel = _temiz(ozel.difference(unary_union(cik)))
+        except Exception:
+            for x in cik:
+                ozel = _temiz(ozel.difference(x))
+    rapor["sn_cekisme"] += time.time() - _sn
+
+    atamalar = []
+    if not ozel.is_empty:
+        atamalar.append((ozel, None))
+    for j, ort in cekisme:
+        kim2, g2 = govdeler[j]
+        # 🔴 KANONİK ÇİFT SIRASI — iki taraf da AYNI bölmeyi üretsin diye.
+        #    `_paylas` adayların sırasına duyarlıdır (örnek noktaların
+        #    sırası Voronoi'ye girer); sıralamazsak i ile j farklı böler,
+        #    ortada ya boşluk ya mükerrer kalır ve kimse fark etmez.
+        cift = sorted([(kim, g), (kim2, g2)], key=lambda kg: kg[0])
+        for k3, par in _paylas(ort, cift):
+            if k3 == kim and not par.is_empty:
+                atamalar.append((par, "paylasim"))
+
+    # ── CİNS ──────────────────────────────────────────────────────────
+    _sn = time.time()
+    yerel = [g_liste[j] for j in kb]
+    yerel_agac = STRtree(yerel) if yerel else None
+    yakin_onb = {}
+
+    def yakin(p):
+        """`p`nin kutusuna değen komşu gövdeler + kendi gövdesi, tamponlu.
+        `_yakin`ın küresel ağaçla verdiği cevabın AYNISI: `p ⊆ ham_i`
+        olduğu için o cevabın her öğesi zaten `kb`dedir."""
+        ix = ()
+        if yerel_agac is not None:
+            try:
+                ix = tuple(sorted(int(q) for q in yerel_agac.query(p)))
+            except Exception:
+                ix = tuple(range(len(yerel)))
+        v = yakin_onb.get(ix)
+        if v is None:
+            try:
+                v = _temiz(unary_union([yerel[q] for q in ix] + [g]).buffer(TEMAS))
+            except Exception:
+                v = _temiz(g.buffer(TEMAS))
+            yakin_onb[ix] = v
+        return v
+
+    ps = []
+    for alan, zorla in atamalar:
+        for p in _parcalar(alan):
+            if _km2(p) < ESIK_KM2:
+                continue
+            p2 = _temiz(p.simplify(SADE_TOL, preserve_topology=True))
+            if p2.is_empty:
+                continue
+            c = zorla or _cins(p, g, yakin(p))
+            rapor["yazilan_km2"] += _km2(p2)
+            ps.append({"kim": kim, "cins": c, "g": p2})
+    rapor["sn_cins"] += time.time() - _sn
+    return ps, eng_liste, km2t
+
+
 def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None):
     """Bir kesitteki (tek tarih) bütün A gövdelerinden dolgu parçaları üretir.
 
@@ -459,8 +662,12 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None):
     # Anahtar KESİTTEKİ HER GÖVDEYİ taşır (kim + içerik özeti, sıralı) —
     # paylaşım ve engelleme komşulara baktığı için kapsam bu olmak zorunda.
     _kara_oz = getattr(kara_hazir, "oz", "kara-yok")
+    # 🔴 YOL ANAHTARA GİRER. İki yol AYNI sonucu vermeli — ama bunu SINAV
+    #    ispatlar, anahtar VARSAYMAZ. Yol anahtarda olmasaydı "butun"un
+    #    yazdığı kesidi "devlet" okur ve aynılık sınavı kendi kendini
+    #    doğrulardı (boş küme her öngörüyü doğrular ailesinin yeni üyesi).
     _kesit_an = _ONB.anahtar(
-        "dolgu2_kesit", _kara_oz, "%.4f" % r_km,
+        "dolgu2_kesit", YOL, _kara_oz, "%.4f" % r_km,
         "|".join("%s=%s" % (k, _oz(g)) for k, g in govdeler))
     _var, _deger = _ONB.oku("dolgu2_kesit", _kesit_an)
     if _var:
@@ -505,6 +712,10 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None):
             _yakin_onb[ix] = v
         return v
 
+    # ── ① HAM TALEPLER — komşuya BAKMAYAN kapanışlar ───────────────────
+    # Bu adım her iki yolun da ortağıdır ve tamamen YERELDİR: bir gövdenin
+    # ham talebi yalnız o gövdeye, karaya ve kural sürümüne bağlıdır.
+    ham = []
     talepler = []
     for _ix, (kim, g) in enumerate(govdeler):
         # 🔴 YAVAŞ GÖVDE SESSİZ KALMAZ. Bu işin ilk sınavı "hangi adımda
@@ -539,6 +750,19 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None):
                 _TALEP_SIRA.append(_an)
                 while len(_TALEP_SIRA) > _TALEP_TAVAN:
                     _TALEP_ONB.pop(_TALEP_SIRA.pop(0), None)
+        ham.append(t)
+
+    # ── YOL AYRIMI ─────────────────────────────────────────────────────
+    # "devlet" (varsayılan): birim TEK DEVLET + 1 SIÇRAMA komşuluğu.
+    # "butun": eski tek parça hesap — BİT BİT AYNILIK SINAVININ karşı tarafı.
+    if YOL == "devlet":
+        parcalar = _yol_devlet(govdeler, ham, rapor, _kara_oz, r_km,
+                               _g_agac, _g_liste)
+        _ONB.yaz("dolgu2_kesit", _kesit_an, (parcalar, rapor))
+        return parcalar, rapor
+
+    for _ix, (kim, g) in enumerate(govdeler):
+        t = ham[_ix]
         if t.is_empty:
             continue
         # 🔴 ENKLAV KURALI: BÜTÜN devletlerin A toprağı çıkarılır. Kapanışın
