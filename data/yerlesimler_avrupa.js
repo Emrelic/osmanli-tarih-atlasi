@@ -410,7 +410,7 @@ window.YERLESIMLER_AVRUPA = [
 // Friuli 1420'de Venedik'e (Aquileia patrikliğinden)
 { ad:"Udine", tur:"sehir", lat:46.065, lon:13.235, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1420-06-07",d:"almanya"},{f:"1420-06-07",t:"1797-05-12",d:"venedik"},{f:"1797-05-12",t:"1866-10-03",d:"avusturya"},{f:"1866-10-03",t:"1923-10-29",d:"italya"}] },
 // Trieste 1382'de Habsburg'a dedition; 1918'de İtalya
-{ ad:"Trieste", tur:"liman", lat:45.650, lon:13.770, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1382-09-30",d:"almanya"},{f:"1382-09-30",t:"1918-11-03",d:"avusturya"},{f:"1918-11-03",t:"1923-10-29",d:"italya"}] },
+{ ad:"Trieste", tur:"liman", lat:45.650, lon:13.770, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1382-09-30",d:"almanya"},{f:"1382-09-30",t:"1809-10-14",d:"avusturya"},{f:"1809-10-14",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `ilirske-pokrajine` (Schönbrunn devir listesinde Trst ve Kranjska ADIYLA geçer) · LZMK `ljubljana`: \"1809-13 ... političko-upravno središte Napoleonovih Ilirskih pokrajina\" · ENKLAV-0072"},{f:"1813-01-01",t:"1918-11-03",d:"avusturya"},{f:"1918-11-03",t:"1923-10-29",d:"italya"}] },
 // Trento piskoposluğu 1803'te sekülerleşip Avusturya'ya katıldı
 { ad:"Trento", tur:"sehir", lat:46.067, lon:11.121, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1803-02-25",d:"almanya"},{f:"1803-02-25",t:"1918-11-03",d:"avusturya"},{f:"1918-11-03",t:"1923-10-29",d:"italya"}] },
 // Mantua: Gonzaga dükalığı, 1708'de Avusturya'ya geçti

@@ -71,6 +71,15 @@
            ALTYAPI, ok bir ANLATI öğesidir; ayrı kutu, varsayılan AÇIK. -->
       <label><input type="checkbox" data-katman="harekat" checked> <span>③b Harekât okları</span><em id="kat-sayi-harekat"></em></label>
       <label><input type="checkbox" data-katman="siyasi" checked> <span>④ Siyasî yapılar</span><em id="kat-sayi-siyasi"></em></label>
+      <!-- ④b Ⓑ DOLGU — B GÖRÜNÜMÜ (B-GORUNUM-0072, 20 Eylül 2026).
+           Emre'nin tanımı: A = sürtünmeli yürüyüş haritası (DOKUNULMAMIŞ),
+           B = A + dolgu (boşluk · koridor · enklav bağı · paylaşım).
+           Dolgu A'nın ÜSTÜNE, o devletin rengiyle, biraz saydam çizilir;
+           tarama ve simgelerin ALTINDA kalır (Emre'nin 0071'deki
+           "gösterimler birbirine girmeyecek" kuralı).
+           VARSAYILAN KAPALI — A bugünkü yayının hâlidir, B bir SEÇENEKTİR.
+           Anahtar yeni koşu GEREKTİRMEZ: veri zaten yüklü. -->
+      <label><input type="checkbox" data-katman="dolgu"> <span>④b Ⓑ Dolgu (B görünümü)</span><em id="kat-sayi-dolgu"></em></label>
       <!-- ⑤ RENK ÜSLUBU — bir görünürlük değil, bir KİP. 4 Eylül
            2026, Emre: "şimdiki renk tarzı da korunsun ama eski
            soft renk tarzını da getirelim, coğrafya görünsün."
@@ -846,6 +855,7 @@
 <script src="data/olaylar_ek4.js?v=r9454"></script>
 <script src="data/olaylar_ek5.js?v=r9454"></script>
 <script src="data/olaylar_ek6.js?v=r9454"></script>
+<script src="data/olaylar_ilirya_0072.js?v=r9454"></script>
 <script src="data/olaylar_ek7.js?v=r9454"></script>
 <!-- 16 Ağustos gece partisi: `Değişmez 5a` (62 hayalet yerleşim) düzeltilince
      dört harita kırılması maddesiz kaldı; bu dosya onları kapatıyor.
@@ -1291,6 +1301,12 @@
 <script src="data/devletler_harita.js?v=r9454"></script>
 <script src="data/sehirler.js?v=r9454"></script>
 <script src="data/donemler.js?v=r9454"></script>
+<!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
+     DOLGU_PARCA_HALKA. Üretilmemişse dosya YOKTUR ve bu satır 404 verir;
+     app.js `window.DOLGU || []` ile karşılar, atlas A görünümünde çalışır.
+     ⚠️ Boyutu ölçülmeden KOŞULSUZ yüklenmemeli — B-4 ölçümü bunu
+     cevaplıyor (denetim/B-GORUNUM-0072-OLCUM.md). -->
+<script src="data/dolgu.js?v=r9454"></script>
 <script src="data/altlik.js?v=r9454"></script>
 <!-- 🔴 KORİDOR AĞI — 5. altyapı maddesi. 65 boğum düğümü · 64 kenar.
      Osmanlı menzil sistemi: sağ kol (Üsküdar→Konya→Halep→Şam→Mekke) ·

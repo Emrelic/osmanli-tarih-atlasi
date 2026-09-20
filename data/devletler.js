@@ -1549,6 +1549,10 @@ window.DEVLETLER = [
     { t:"1932-09-18", tur:"son", b:"Suûdî Arabistan Krallığı ilan edilerek tam birleşme sağlandı" }
   ]
 },
+{ id:"hail-ibn-ali", ad:"Hâil Emirliği (İbn Ali ailesi — Abde/Şemmer)", tur:"emirlik", bolge:"arabistan",
+  f:"1779-01-01", t:"1836-01-01", baskent:"Hâil", harita:"hail-ibn-ali",
+  ozet:"Reşîdîlerden ÖNCEKİ Hâil emirliği. 20 Eylül 2026'da açıldı (ENKLAV-0072'nin ölçümü, paket 0072 H-0011): TDV 1820'de Hâil'in emirini adıyla veriyor, oysa atlasın `sammar` künyesi ancak Reşîdîleri karşılıyordu — yani şehrin 1779-1835 arası idaresi künyesizdi ve harita onu sahipsiz gösteriyordu. ⚠️ `f:` bir KURULUŞ günü DEĞİL: TDV 1779'da yönetimin ZATEN İbn Ali ailesinde olduğunu söylüyor, yani terminus ante quem; kuruluş yılı BULUNAMADI (D210). ⚠️ `t:` TDV'nin kendisiyle çeliştiği yerdir: `residiler` maddesi Abdullah b. Reşîd'in Hâil'i alışını 1835, `ibnur-resid` 1251/1835-36 veriyor; veri 1836-01-01'de devrediyor ve künye ona hizalandı — `sammar` künyesinin 1835 başlangıcıyla bir yıl ÖRTÜŞÜR, bu örtüşme beyandır, harita deliği değildir.",
+  kaynak:"residiler" },
 { id:"sammar", ad:"Şammar (Reşîdî) Emirliği", tur:"devlet", bolge:"arabistan",
   f:"1835-01-01", t:"1921-11-02", baskent:"Hâil", harita:"sammar",
   ozet:"Hâil merkezli Arap emirliği (hanedan ömrü, Reşîdîler); 1835'te Cebel Şammar'da kuruldu, Osmanlı'ya yakın durup Suûdîlerin tarihî rakibi oldu, 1921'de yıkıldı. ⚠️ 10 Ağustos 2026: f: 1836 → 1835 düzeltildi — TDV `residiler` maddesi kuruluşu net biçimde 1835 veriyor.",

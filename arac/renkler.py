@@ -982,6 +982,10 @@ BOYALAR = {
     "suud":       ("Suûdî / Vehhâbî",        "#304b0f"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 11,0° · pay 14,3 · altlık 26,4
     "sammar":     ("Şammar (Hâil)",          "#ba6f15"),
+    # Reşîdî ÖNCESİ Hâil (1779-1836) — ENKLAV-0072, 20 Eylül 2026. Ardılı
+    # `sammar` ile aynı şehir, ayrı hanedan: tonu ona yakın ama ayrışır
+    # tutuyoruz; çakışma hükmünü renk_olc.py verir, burada iddia edilmez.
+    "hail-ibn-ali": ("Hâil (İbn Ali)",       "#8f5a2b"),
     # TDV ASÎR: Mondros'tan sonra bölge Osmanlı idaresinden çıktı; Ebhâ'da
     # Hasan b. Muhammed Âiz'in emirliği kaldı, 1920'de Abdülazîz b. Suûd
     # Ebhâ'yı zaptetti. Bu 15 ay yazılı olmadığı için Asîr yaylası boştu.

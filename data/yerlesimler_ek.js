@@ -148,13 +148,13 @@ window.YERLESIMLER_EK = [
     s:[{f:"1281-01-01",t:"1358-02-18",d:"venedik"},
        {f:"1358-02-18",t:"1409-01-01",d:"macaristan"},
        {f:"1409-01-01",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 // Şibenik: teslim sözleşmesi 30 Ekim 1412; Venedik 1412-1797.
 { ad:"Şibenik (Sebenico)", tur:"liman", lat:43.734, lon:15.894, g:0, k:3,kd:[{f:"1412-10-30",t:"1797-10-17",k:2,m:null}], d:[],
     s:[{f:"1281-01-01",t:"1412-10-30",d:"macaristan"},
        {f:"1412-10-30",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 // Split: Venedik 1420 (gün belirsiz). ⚠️ 1327-1357 arasındaki Venedik ara
 // dönemi MODELLENMEDİ — kaynak gün vermiyor, uydurmak yerine eksik bırakıldı.
@@ -162,7 +162,7 @@ window.YERLESIMLER_EK = [
 { ad:"Split (Spalato)", tur:"liman", lat:43.511, lon:16.439, g:0, k:3,kd:[{f:"1420-01-01",t:"1797-10-17",k:2,m:null}], d:[],
     s:[{f:"1281-01-01",t:"1420-01-01",d:"macaristan"},
        {f:"1420-01-01",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 // Kotor: Venedik himayesi 1420, Campo Formio'ya kadar KESİNTİSİZ.
 // 📌 ARAŞTIRMA BALKAN'ın "Venedik Arnavutluğu tamamen yok" bulgusunun
@@ -176,7 +176,7 @@ window.YERLESIMLER_EK = [
     s:[{f:"1281-01-01",t:"1371-01-01",d:"sirbistan"},
        {f:"1371-01-01",t:"1420-01-01",d:"macaristan"},
        {f:"1420-01-01",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-01-01",d:"avusturya"},{f:"1806-01-01",t:"1807-01-01",d:"rusya",enklav:true,kaynak:"LZMK `boka-kotorska`: \"prva austrijska 1797-1806; ruska 1806-07. i francuska 1807-13; od 1814. druga austrijska uprava\" · ⚠️ LZMK `herceg-novi` ilk Avusturya idaresini \"do 1805\" diye bitirir (çelişki BEYAN) · enklav:true — HAKİKİ enklav, ÖLÇÜLDÜ: ana Rus gövdesine 923 km, kara bağlantısı YOK; Boka 1806-07'de Senyavin filosunun tuttuğu deniz aşırı bir idareydi, kopukluk veri kusuru DEĞİL olgunun kendisi (denetle.py Değişmez 7 C-hakiki dalının önerdiği çare) · ENKLAV-0072, 20 Eyl 2026"},{f:"1807-01-01",t:"1814-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `boka-kotorska`: \"prva austrijska 1797-1806; ruska 1806-07. i francuska 1807-13; od 1814. druga austrijska uprava\" · ⚠️ LZMK `herceg-novi` ilk Avusturya idaresini \"do 1805\" diye bitirir (çelişki BEYAN) · ENKLAV-0072"},{f:"1814-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 
 // ═══ ③ DALMAÇYA — OSMANLI DÖNEMİ OLAN KALELER ═════════════════════════════
@@ -199,7 +199,7 @@ window.YERLESIMLER_EK = [
 { ad:"Knin", tur:"kale", lat:44.041, lon:16.197, g:0, k:3,kd:[{f:"1580-01-01",t:"1688-09-11",k:2,m:null}],
     s:[{f:"1281-01-01",t:"1522-05-29",d:"macaristan"},
        {f:"1688-09-11",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1522-05-29",t:"1688-09-11",y:"kusatma"}] },
 // Sin (Sinj): Osmanlı 1513 (gün belirsiz, §76 → YYYY-01-01); Venedik
@@ -207,7 +207,7 @@ window.YERLESIMLER_EK = [
 { ad:"Sin (Sinj)",neden:"`m:` NULL idi; `oneri.m`=\"Klis\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1513-01-01..1686-09-30 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",kaynak:"TDV klis — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:HUKUM). Gerekçe: Klis sancağı içinde kale. TDV'de Sinj adı GEÇMİYOR (arandı).",m:"Klis", tur:"kale", lat:43.704, lon:16.639, g:0, k:4,
     s:[{f:"1281-01-01",t:"1513-01-01",d:"macaristan"},
        {f:"1686-09-30",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1513-01-01",t:"1686-09-30",y:"kusatma"}] },
 // Klis: TDV `klis` (CANLI) 1537 fethini Gazi Hüsrev Bey'in kethüdâsı Murad
@@ -220,7 +220,7 @@ window.YERLESIMLER_EK = [
 { ad:"Klis", tur:"kale", lat:43.559, lon:16.519, g:0, k:2,kd:[{f:"1537-03-12",t:"1648-03-31",k:2,m:null}],
     s:[{f:"1281-01-01",t:"1537-03-12",d:"macaristan"},
        {f:"1648-03-31",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1537-03-12",t:"1648-03-31",y:"kusatma"}] },
 // Herseknovi: 1382'de Bosna kralı I. Tvrtko kurdu (`kur:` bu yüzden var),
@@ -242,7 +242,7 @@ window.YERLESIMLER_EK = [
     kur:"1382-01-01",
     s:[{f:"1382-01-01",t:"1482-01-01",d:"bosna"},
        {f:"1687-09-30",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-01-01",d:"avusturya"},{f:"1806-01-01",t:"1807-01-01",d:"rusya",enklav:true,kaynak:"LZMK `boka-kotorska`: \"prva austrijska 1797-1806; ruska 1806-07. i francuska 1807-13; od 1814. druga austrijska uprava\" · ⚠️ LZMK `herceg-novi` ilk Avusturya idaresini \"do 1805\" diye bitirir (çelişki BEYAN) · enklav:true — HAKİKİ enklav, ÖLÇÜLDÜ: ana Rus gövdesine 932 km, kara bağlantısı YOK; Boka 1806-07'de Senyavin filosunun tuttuğu deniz aşırı bir idareydi, kopukluk veri kusuru DEĞİL olgunun kendisi (denetle.py Değişmez 7 C-hakiki dalının önerdiği çare) · ENKLAV-0072, 20 Eyl 2026"},{f:"1807-01-01",t:"1814-01-01",d:"fransa-cumhuriyet",kaynak:"LZMK `boka-kotorska`: \"prva austrijska 1797-1806; ruska 1806-07. i francuska 1807-13; od 1814. druga austrijska uprava\" · ⚠️ LZMK `herceg-novi` ilk Avusturya idaresini \"do 1805\" diye bitirir (çelişki BEYAN) · ENKLAV-0072"},{f:"1814-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1482-01-01",t:"1687-09-30"}],
     isg:[{f:"1538-01-01",t:"1539-08-10",d:"ispanya",kaynak:"dalmacya · barbaros-hayreddin-pasa"}] },
@@ -304,7 +304,7 @@ window.YERLESIMLER_EK = [
        {f:"1358-02-18",t:"1409-01-01",d:"macaristan"},
        {f:"1409-01-01",t:"1540-10-02",d:"venedik"},
        {f:"1699-01-26",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1540-10-02",t:"1699-01-26",y:"antlasma"}] },
 { ad:"Nadin", tur:"kale", lat:44.074, lon:15.498, g:0, k:4,
@@ -312,7 +312,7 @@ window.YERLESIMLER_EK = [
        {f:"1358-02-18",t:"1409-01-01",d:"macaristan"},
        {f:"1409-01-01",t:"1540-10-02",d:"venedik"},
        {f:"1699-01-26",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1797-10-17",t:"1806-02-01",d:"avusturya"},{f:"1806-02-01",t:"1813-01-01",d:"fransa-cumhuriyet",kaynak:"bölge hükmü (LZMK `dalmacija`: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji\" · LZMK `zadar`: \"francuske uprave 1806-13\") — ŞEHİR TANECİĞİNDE AYRI TANIKLIK YOK, kaynağın kendi birimi burada bölgedir · ENKLAV-0072, 20 Eyl 2026"},{f:"1813-01-01",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1540-10-02",t:"1699-01-26",y:"antlasma"}] },
 
