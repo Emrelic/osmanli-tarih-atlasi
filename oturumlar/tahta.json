@@ -145059,5 +145059,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4672",
+  "zaman": "2026-09-20 11:08",
+  "kimden": "AMERIKA-KRONO-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1 · AMERIKA-KRONO-0920 · Meksika-Aztek-Maya kumesi (1) NE OLCTUM/YAZDIM - glm/SAHTE-343.json GERCEK-EKSIK (178) icinden Ispanyol/Latin Amerika kumesi: 40 TARIH, 62 YERLESIM. (sinir: taraflarindan biri aztek / maya / muisca / inka / ispanya / ispanyol-peru / yeni-ispanya / guatemala / gran-kolombiya / meksika ve Latin Amerika ardil cumhuriyetleri olan kayitlar) - BAGIMSIZ DOGRULAMA (kendi ayristiricimla, 68 olaylar*.js dosyasi / 1690 madde): 40 tarihin 39'unda +-30 gun icinde KONUYLA ILGILI madde GERCEKTEN yok. Komsular Kibris'in fethi, Yavuz'un vefati, Bagdat'in fethi gibi ilgisiz Osmanli maddeleri. - 🔴 GLM SINIFLAMASI 1 KAYITTA YANILMIS: 1762-11-03 (fransa->yeni-ispanya, Luizyana) ZATEN konuyla ilgili bir maddeyle kapali — data/olaylar_kamerika.js \"Fontainebleau Antlasmasi — Luizyana Ispanya'ya birakildi\", +0 gun. O tarihe madde YAZMADIM. Gercek eksik: 40 degil 39. - YAZDIM: 11 madde, data/olaylar_amerika_0920.js (window.OLAYLAR_AMERIKA0920) — 1. parti, Meksika-Aztek-Maya-Yeni Ispanya kumesi. 11'inin 11'i kirilma gununun TAM USTUNDE (+0 gun), basligi/yer_id'si kirilan yerlesimi aniyor (DENETIM-YER-0920'nin yeni yer sartini gecer). Tarihler: 1511-08-15 Baracoa · 1519-03-25 Potonchan · 1520-09-04 Tepeaca · 1523-07-25 Colima · 1540-10-04 Campeche · 1545-01-01 Sotuta · 1596-09-20 Monterrey · 1718-05-01 San Antonio · 1774-01-01 Matamoros(Refugio) · 1821-09-15 Antigua Guatemala+Nojpeten · 1839-01-01 Sutter's Fort. - DENETLE: py arac/denetle.py -> SONUC: temiz. Degismez 2 ✓ 587 kirilma 0 acik · 2s ✓ 1418 yabanci kirilmasi, 201 ACIK (tavan 201), 602 kapsam disi, 149 yil-temsili borc · 2i ✓ 1 acik · 2t ✓ 1 · konum ✓ 0. (2) NE BULAMADIM - TDV bu cografyayi kapsamiyor (yer-kisi ansiklopedisi, Ispanyol Amerikasi maddesi yok) ⇒ her madde akademik kaynagin KUNYESIYLE yazildi: Gerhard (A Guide to the Historical Geography of New Spain, CUP 1972; The North Frontier of New Spain, Princeton 1982) · Chamberlain (Yucatan, Carnegie 1948) · Roys (Carnegie 1943) · Hassig (Mexico and the Spanish Conquest, Longman 1994) · Chipman (Spanish Texas, UT Press 1992) · Weber (The Spanish Frontier, Yale 1992; The Mexican Frontier, UNM 1982) · Woodward (Central America: A Nation Divided, OUP) · Wright (Early History of Cuba, Macmillan 1916). - 🔴 HASSASIYET DURUSTLUGU: kitaplarin basili sayfasina bu oturumda erisemedim ⇒ HICBIR maddede \"AYNEN:\" tirnagi YOK; kunye veriliyor, alinti uydurulmuyor. Gunu standart tarih yaziminda yerlesik OLMAYAN 3 maddede gun dayanagi ic_not_d'de acikca \"GUN DOGRULANAMADI\" diye yazili (1511-08-15 Baracoa — Asuncion yortusu geleneksel gunu · 1519-03-25 Potonchan — muharebe 14 Mart, kasaba kurulusu 25 Mart · 1520-09-04 Tepeaca — kaynaklar Agustos sonu-Eylul der). 3 madde yil-temsili (1545 Sotuta · 1774 Refugio · 1839 Nueva Helvetia), ic_not_d'de yazili. - Ayni gune dusen ILGISIZ kumeler BAGLANMADI (olaylar_2s_0918 dersi): 1545'te Berdicev, 1774'te Cumberland House, 1839'da Armidale/Port Lincoln — her birinde ic_not_d'ye \"ILGISI YOKTUR\" yazildi, tek anlatiya cekilmedi. (3) NE ISTIYORUM - index.html satiri (ben eklemedim): <script src=\"data/olaylar_amerika_0920.js?v=rNN\"></script> — olaylar_2s_0919.js satirinin hemen altina. - DEGISEN DOSYA: 1 adet, YENI: data/olaylar_amerika_0920.js (11 madde). Baska hicbir dosyaya dokunmadim. Commit sende (data/ paylasilan). - NOT: denetle.py ilk kosumda NameError: BEKLENEN_2S_YIL_BORC ile COKTU (DENETIM-YER-0920 duzenleme ortasindaydi); ikinci kosuda duzelmis, yukaridaki sayilar ikinci kosudan. - SIRA: 2. parti Peru-Inka kumesine geciyorum (1519-08-15 Panama · 1534-12-06 Quito · 1535-01-18 Lima · 1537-01-13 Popayan · 1537-08-01 Hunza · 1537-08-15 Asuncion · 1538-08-06 Bogota · 1539-01-09 Huamanga · 1539-08-06 Hunza · 1541-02-12 Santiago · 1571-08-15 Cochabamba · 1572-06-24 Vilcabamba · 1619-01-01 Borja = 13 tarih). Geriye kalan 15 tarih (Karayip + bagimsizlik donemi: 1684 · 1697 · 1698 · 1757 · 1811 · 1819 · 1821-07 · 1828 · 1830 · 1844 · 1848 · 1861 · 1894 · 1902 · 1903) 3. parti olur — ONAYINI BEKLEMEDEN 2'ye basliyorum, 3'u istersen soyle. Bekci acik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
