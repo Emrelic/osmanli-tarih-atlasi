@@ -146797,5 +146797,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4768",
+  "zaman": "2026-09-20 17:59",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLİM 2 · KD-ZAMAN-0920 · parti 2 bitti + BİR AKSAKLIK 🔴 AKSAKLIK (bekletmiyorum): data/yerlesimler.js'i ŞU ANDA en az iki oturum daha yazıyor (çalışma ağacında EKO-1806'nın isg: satırları, TARIH-SUPHE-0920'nin not: satırları duruyor). Ben dosyayı TOPTAN okuyup TOPTAN yazıyorum (yalnız kd: alanı ekleyerek); kendi yazımdan önce başkasının yazdığı her şey duruyor — 24 kaydın hepsinde kd: yerinde, kontrol ettim. AMA dosyayı bellekte tutan bir oturum sonradan yazarsa BENİM kd:'lerim sessizce silinir. İki sorum: (a) yerlesimler.js'e yazan öteki oturumlara \"oku-yaz arasını kısa tut\" denmeli mi? (b) partileri durdurup dosyayı sana mı devretmeliyim? Cevabını beklemeden parti 3'e devam ediyorum, her partide kd: sayısını geri okuyorum. ① ÖLÇTÜM — parti 2: 12 kayıt, 39 çelişki. ÖNGÖRÜ (ölçümden önce yazıldı): 422 -> 383. ÖLÇÜLEN: 383. TUTTU. Bugünkü toplam: zamanlı çelişki 483 -> 422 -> 383 (iki partide -100, %20,7) · kd: yazılı kayıt 192 -> 216 · çelişen ayrı yerleşim 262 -> 238 · zamansız (m:) 489, HİÇ değişmedi (m:'ye dokunmuyorum). py arac/denetle.py: SONUÇ temiz. Parti 2 kümesi: İstendil(Tinos) 5 · Uyvar 4 · Nakşa 3 · Eğriboz 3 · Modon 3 · Anabolu 3 · Malatya 3 · Rakka 3 · Batum 3 · Ahıska 3 · Sohum 3 · Sakız 3. Kaynak: TDV (cezayir-i-bahr-i-sefid, naksa, egriboz, modon, anabolu, uyvar, malatya, rakka, batum, ahiska, sohum). En çok işe yarayan kapsayıcı madde CEZÂYİR-i BAHR-i SEFÎD oldu: \"Yalnız Tine adası 1715 yılına kadar alınamadı\" (İstendil) ve \"Sakız adası da 1566 yılında Cenova… elinden alınarak eyalete bağlanmıştı\" (Sakız) — dar sluglar (istendil, sakiz, andros, karpatos) ÖLÜ, 302. ② BULAMADIM / YAZMADIM Batum'un Osmanlı dönemine kademe YAZMADIM: TDV batum \"Kanûnî'nin padişahlığının İLK YILINDA (1520) Trabzon eyaletine bağlı bir sancak olarak teşkilâtlandırıldı\" diyor, atlas 1578-08-09'a kadar gurcistan — 58 YIL FARK. Eksen kararı verilmeden kademe yazmak kusuru katlar. Malatya'da 1516-1588 arası BOŞ: vilâyeti sık değişiyor (Arap vilâyeti -> Rûm-ı Hâdis 1522 -> Dulkadır 1568 -> Maraş 1588 sonrası), merkez adlarının atlas karşılığı belirsiz. ③ İSTİYORUM — yeni eksen sevkleri (parti 1'dekilere EK): 5) Batum 1520 vs 1578 (yukarıda). 6) Nakşa Girit savaşında (1645-1669) Venedik kontrolüne girmiş (TDV naksa); atlas d: 1566-1830 kesintisiz. 7) Modon: TDV \"10 Ağustos 1500\", atlas d: 1500-08-09 — bir gün geride. DEĞİŞEN DOSYA: data/yerlesimler.js (parti 2'nin 12 kaydı; data/ COMMIT EDİLMEDİ, senin). Rapor güncellendi: denetim/KD-ZAMAN-0920.md §6-§7b. Parti 3'e giriyorum (Andros, Karpatos, Anapa, Tarki, Derbend, Zeyla, Hacıbey, Çehrin, Koron, Paros, Değirmenlik…).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
