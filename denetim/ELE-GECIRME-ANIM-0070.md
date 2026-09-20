@@ -189,6 +189,84 @@ kullandığı headless Chrome koşucusuyla).
 
 ---
 
+---
+
+# EK — EMRE'NİN M-4714 KURALI UYGULANDI (20 Eylül 2026, teslimden sonra)
+
+1.MURAT tahtadan Emre'nin kuralını iletti: *"ok gösterimi taralı alanla karışmayacak;
+animasyon, simge ve yazılar birbirine girmeyecek."* Beş ölçüt geldi; **ikisi benim teslimimi
+çürüttü**, biri gizli bir kusuru açığa çıkardı.
+
+## 🔴 ÇÜRÜYEN ① — pasif kipte animasyon OYNUYORDU
+
+Kural §5: *"PASİF kipte animasyon oynamaz; son durum doğrudan gösterilir."*
+Ben H-0008'in metnine dayanarak ("pasif modda … sanki bu odaklanma gerçekleşmiş gibi bu ADIM
+pas geçilecektir") **atlananın yalnız ODAK olduğunu** savunmuş, SEFER-OK-0070'e de öyle
+yazmıştım (M-4703 §③). Emre hükmü verdi, okuma çürüdü. Artık pasifte sahne **hiç** koşmuyor.
+
+**Sınav A2 (gerçek veri, Mekke 1803-04-30, pasif kip, petek gövdesi YÜKLÜ, 117 örnek/4 sn):**
+`fs = 1` (animasyon edilecek bölge VAR) · örtü boyunca `op = 0` · `koyu` hiç görülmedi ✓
+— yani sınav boş kümede değil, gerçekten bir şeyin olmadığı ölçüldü.
+
+## 🔴 ÇÜRÜYEN ② — simge, vuruşlarla AYNI ANDA yanıyordu
+
+Kural §3: *"SİMGE (deniz savaşı, olay alanı) FAZ BİTİNCE görünür, faz sırasında yanıp sönen
+başka bir şey olmaz."* Eski `_varista()` halka + savaş işareti + öncesi/sonrası kırpmasını
+varış anında **hep birlikte** başlatıyordu. Hepsi sahnenin arkasına alındı (`ANIM.bitince`).
+`oncesiSonrasiKirp` ayrıca **vuruşlar oynayan maddede hiç koşmuyor** — ikisi de "toprak el
+değiştirdi" diyor, kural §4 bir maddede en çok BİR yanıp sönme istiyor. Vuruş oynamayan
+maddelerde (bağ kurulamayan 148 madde) kırpma eskisi gibi koşuyor: sessiz adım bırakılmadı.
+
+**Sınav B2 (Mekke 1803-04-30, `ani` kip, temiz başlangıç — t0'da halka YOK):**
+
+| an (ms) | örtü | halka |
+|---|---|---|
+| 10840 | `koyu` 0.92 | — |
+| 10928 | `koyu` 0.92 (2. vuruş) | — |
+| 11551 | `sonra` 0.92 (3. vuruş) | — |
+| 12102 | çözülme | — |
+| 12156 | — | **🔥** |
+
+Simge son vuruştan **sonra** (12156 ≥ 12102) ✓ · vuruşlar boyunca başka yanıp sönen yok ✓
+
+## 🔴 SINAVIN YAKALADIĞI KUSUR — "ok" fazı çoğu maddede HİÇ KOŞMUYORDU
+
+Sahne tetiği `_farkKutusuCiz`in içindeydi: sahne **yalnız el değiştirme kutusu çizilen**
+maddelerde kuruluyordu. Ölçüm: "Piramitler Muharebesi ve Kahire'nin Fransızlarca alınması"
+(1798-07-21) → **faz listesi BOŞ**. O maddede el değiştirme maddeye bağlanmıyor, dolayısıyla
+**SEFER-OK-0070'in "ok" fazı da hiç çağrılmıyordu** — oysa Emre'nin sahnesi okla başlıyor.
+⇒ Tetik `obGoster`ın sonuna alındı, **her maddede** koşuyor; hangi fazın oynayacağına fazlar
+kendisi karar veriyor. Boş sahne 0 ms sürüyor.
+
+## Faz sırası — gerçek veriyle, üç sınıf
+
+| madde | faz izi | sınıf |
+|---|---|---|
+| Bursa'nın fethi 1326-04-06 | `ok/atlandı → vurus 1625→3452 → cozul` | yalnız el değiştirme |
+| Vehhâbîler Mekke'yi aldı 1803-04-30 | `ok 4468→10395 → vurus 10395→13197 → cozul` | ok + el değiştirme |
+| Napolyon'un Mısır'ı işgali 1798-07-01 · Piramitler 1798-07-21 | `ok/atlandı → vurus/atlandı → cozul` (0 ms) | ikisi de yok |
+
+**Fazlar kesinlikle sıralı, üst üste binme YOK** (`ok/bit` ile `vurus/bas` aynı milisaniye).
+Bursa'da vuruş fazı **1827 ms** sürdü — tablo 1820 ms, sapma 7 ms ✓
+Zoom: vuruşlar z3 ve z6'da ölçüldü (örtü `fill` katmanı, zoomdan bağımsız).
+
+🟡 **Üretemediğim sınıf:** "yalnız ok" (ok koşar, el değiştirme yok). Denediğim iki Napolyon
+maddesinde `ok` fazı **false** döndü; SEFER-OK-0070 kendi headless sınavında aynı maddede okun
+ilerlediğini bildirmişti (M-4711). Ayrışmayı teşhis etmedim — onun kalemi; tahtadan bildirdim.
+
+## Katman sırası (kural §1 sayıyla istiyor) — canlı haritadan ölçüldü
+
+```
+29 devir-dolgu · 30 devir-cizgi · 31 isgal-dolgu · 32 isgal-cizgi
+34 antlasma-fark-dolgu · 35 antlasma-fark-cizgi      ← el değiştirme vuruşu
+48-56 sefer-cizgi-* · 57 sefer-kaynak                 ← ok gövdesi (taramanın ÜSTÜNDE ✓)
+64 antlasma-harita-etiket   ← ilk symbol katmanı
+65 sefer-anim-cizgi · 66 sefer-anim-nokta
+```
+Şehir adları/işaretleri DOM işaretçisidir (`maplibregl.Marker`), tuvalin üstünde — ok onları
+örtmüyor. 🟡 **Ama `sefer-anim-*` (65-66) tek symbol katmanının (64) ÜSTÜNDE**; o katmanlar
+SEFER-OK-0070'in — tahtadan bildirdim, benim kalemim değil.
+
 ## Değişen dosyalar
 
 | Dosya | Ne |
