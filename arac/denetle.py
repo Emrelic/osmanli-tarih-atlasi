@@ -560,7 +560,36 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 #   Artik yukseltmiyor: uzak kirilma ACIK degil KAPSAM DISI sayiliyor.
 #   Esik kronolojiden olculdugu icin, kronoloji genisledikce esik de buyur
 #   ⇒ sistem kendi kendini ayarliyor.
-BEKLENEN_ACIK_S = 121
+# ═══ 🔴 121 → 201, 20 EYLÜL 2026 — TAVAN YÜKSELDİ ÇÜNKÜ ÖLÇÜT DÜZELDİ ═════
+# Bu YÜKSELİŞ bir GERİLEME DEĞİL, bir İTİRAFTIR. Eski 121, ölçütün sorduğu
+# yanlış sorunun cevabıydı: "±30 günde madde var mı". Yeni 201, doğru sorunun
+# cevabı: "±30 günde o YERİ ya da TARAFLARI anlatan madde var mı".
+# Aradaki fark hiç ödenmemiş bir borçtu; bugüne kadar alakasız maddeler
+# ödenmiş gösteriyordu (Aztek'in doğuşunu "Konuralp'in Bolu fethi" kapatıyordu).
+#
+# ÖLÇÜLDÜ (`denetim/ARAC-DENETIM-YER-0920.py`, JSON yanında):
+#     ÖNCE   1418 kırılma · 363 açık ham → 13 KAPSAM İÇİ · 350 kapsam dışı
+#     SONRA  1418 kırılma · 952 açık ham → 350 KAPSAM İÇİ · 602 kapsam dışı
+#            KAPSAM İÇİ 350 = 201 gün-hassas AÇIK + 149 YIL-TEMSİLÎ BORÇ
+# ⚠️ SAYI BİR AN'IN FOTOĞRAFIDIR: ölçüm sırasında AMERIKA-KRONO-0920
+#   `data/olaylar_amerika_0920.js`e madde yazıyordu ve iki koşu arasında açık
+#   ham 960 → 952 düştü. Tavanı doğrulamadan güvenme — betiği yeniden koştur.
+# İKİ YÖNLÜ SINAV (şartname md. 5, ikisi de GEÇTİ):
+#     ① Mankup 1349 (bilinen sahte kapanış)  → AÇILDI ✓
+#     ② `yer_id`si tutan 605 gerçek kapanış  → 0'ı bozuldu ✓
+#        ⚠️ ② önce TARİH biriminde sınandı ve "220 bozuldu" dedi; ölçüp
+#        baktım, 220'sinde de açıklanmış yerleşim kapalıydı, tarihi açan
+#        SUSAN komşularıydı. Sınavın kendi birimi kabaydı — kural değil.
+# ⚠️ TAVAN BURADAN AŞAĞI İNER: 201 gün-hassas açığın her biri "madde yaz"
+#   işidir (AMERIKA-KRONO-0920 ilk partiyi alıyor). Düşmüyorsa borç ödenmiyor
+#   demektir; YUKARI çıkıyorsa yeni sessiz devir yazılmıştır.
+BEKLENEN_ACIK_S = 201
+
+# 🟡 AYRI DEFTER — `YYYY-01-01` kırılmaları (bkz. yil_temsili_ayir).
+# İhlal DEĞİL: bunların çaresi madde yazmak değil GÜNÜ BULMAKTIR; ±30 günlük
+# pencere günü bilinmeyen bir kırılma için takvimsel kurgudur. Tavan aşılırsa
+# uyarı basar, çıkış kodunu DEĞİŞTİRMEZ.
+BEKLENEN_2S_YIL_BORC = 149
 
 # ═══ `Degismez 2i` — ISGAL kirilmasinin maddesi var mi ═══════════════════
 # 🔴 VERI KRONOLOJI 3 (7 Agustos 2026) olctu ve IKI VAKAYLA dogruladi:
@@ -1214,8 +1243,110 @@ def bosluk_cinsi_denetimi(Y):
 
 
 # ---------------- Değişmez 2 — sessiz toprak değişimi yok ----------------
-def degismez2(Y, O, kategoriler=("d", "v")):
+# ═══ 2s YER/TARAF ŞARTI — 20 Eylül 2026, DENETIM-YER-0920 ════════════════
+# 🔴 ÖLÇÜLEN KUSUR (GLM taraması, 1.MURAT doğruladı — `glm/2S-YER-TARAMA.json`):
+#   `2s` bir yabancı kırılmayı ±30 gün içinde HERHANGİ bir madde varsa kapalı
+#   sayıyordu; maddenin o YERİ ya da TARAFLARI anlatıp anlatmadığını HİÇ
+#   sormuyordu. Kapalı 1052 tarihin **343'ünde** madde ne yeri ne tarafları
+#   anıyor. Vakalar, hepsi gerçek ve hepsi "kapalı" görünüyordu:
+#       Mankup 1349 (Bizans→Teodoro)  ↔ "Mora Despotluğu'nun kuruluşu"
+#       Tenochtitlan 1325 (Aztek doğuşu) ↔ "Konuralp'in Bolu yöresini fethi"
+#       Moskova 1325 (Altınorda→Moskova) ↔ aynı madde
+#       Aztek 1520-09-04              ↔ "Yavuz'un Çorlu'da vefatı"
+#   ⇒ Takvim yakınlığı bir AÇIKLAMA DEĞİLDİR. `2s`nin bütün amacı "haritada
+#     renk değişti, kullanıcı niçin değiştiğini okuyabiliyor mu" sorusuydu;
+#     alakasız madde o soruya "evet" diyordu. Ölçüt yanlış soruyu soruyordu.
+#
+# 🟢 YENİ ŞART — bir maddenin kırılmayı KAPATMASI için ikisinden biri:
+#   (a) YER: maddenin `yer_id`si kırılmanın yerleşimlerinden biri, YA DA
+#       metninde (başlık+yer+gövde) yerleşimin ad çekirdeği ya da `m:` bölgesi
+#       kelime sınırıyla geçiyor.
+#   (b) TARAF: taraflardan biri madde BAŞLIĞINDA geçiyor (mevzu odur), YA DA
+#       iki taraf (eski ve yeni sahip) tam metinde BİRLİKTE geçiyor (devri
+#       anlatıyor).
+#   ⚠️ GEVŞEK KOL KABUL EDİLMEDİ — "gövdede tek kelime devlet adı geçiyor"
+#     ölçütü denendi ve ÇÜRÜDÜ: Marconi'nin radyo maddesi Nijerya'daki bir
+#     kırılmayı, Mora Despotluğu maddesi de gövdesindeki "Bizans" teşhis
+#     sözüyle Mankup 1349'u kapatıyordu. Teşhis sözü mevzu değildir.
+#
+# ⚠️ BİRİM DEĞİŞMEDİ: kapanış TARİH birimindedir (bir tarihte N yerleşim
+#   kırılırsa madde birini anıyorsa tarih kapanır). Yerleşim birimine geçmek
+#   ayrı ve çok daha büyük bir reformdur (7926 kırılmanın 3557'si sahte) —
+#   ölçüldü, teslimde bildirildi, TEK BAŞINA YAPILMADI.
+#
+# ⚠️ ŞART YALNIZ `2s`DE: `d:`/`v:` (Değişmez 2) ve `isg:` (2i) kolları
+#   DOKUNULMADAN eski davranışta kaldı — bu oturumun kalemi 2s'dir.
+_2S_ESLEME = str.maketrans({
+    "İ": "i", "I": "i", "ı": "i", "Ş": "s", "ş": "s", "Ğ": "g", "ğ": "g",
+    "Ü": "u", "ü": "u", "Ö": "o", "ö": "o", "Ç": "c", "ç": "c",
+    "Â": "a", "â": "a", "Î": "i", "î": "i", "Û": "u", "û": "u",
+    "’": "'", "‘": "'", "”": '"', "“": '"', "–": "-", "—": "-",
+})
+
+
+def _2s_norm(s):
+    """`denetim/ARAC-NORMAL-0903.py` norm()'unun kopyası — ve niçin KOPYA:
+    o dosyanın adında tire var (import edilemez, importlib gerekir) ve
+    `_madde_yeri_aniyor`ın yorumunda yazılı tuzak burada da geçerli —
+    denetim modüllerini içeriden import etmek stdout sarmalayıcısını
+    kapatıyor. `"İ".lower()` iki kod noktası verir; `casefold()` de çözmez."""
+    import unicodedata as _u
+    if not s:
+        return ""
+    s = s.translate(_2S_ESLEME)
+    s = _u.normalize("NFKD", s)
+    s = "".join(c for c in s if not _u.combining(c))
+    return s.lower().strip()
+
+
+def _2s_gecer(nrm_metin, nrm_ad):
+    """Kelime sınırıyla geçiyor mu? (norm düzleminde, 3 harften kısa ad sayılmaz)"""
+    if not nrm_ad or len(nrm_ad) < 3:
+        return False
+    return re.search(r"(?<![a-z0-9])" + re.escape(nrm_ad) + r"(?![a-z0-9])",
+                     nrm_metin) is not None
+
+
+_2S_KUNYE = {}
+
+
+def _2s_kunye_adlari():
+    """devlet id → norm'lu ad adayları (tam ad + yeterince uzun ilk kelime)."""
+    if _2S_KUNYE:
+        return _2S_KUNYE
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import girdi
+        kayitlar = girdi.oku_devletler()
+    except Exception:
+        kayitlar = []
+    for k in kayitlar:
+        sid = k.get("id")
+        if not sid:
+            continue
+        n = _2s_norm(k.get("ad") or sid.replace("-", " "))
+        adaylar = [n] if len(n) >= 3 else []
+        parcalar = n.split()
+        if parcalar and len(parcalar[0]) >= 4 and parcalar[0] not in adaylar:
+            adaylar.append(parcalar[0])
+        _2S_KUNYE[sid] = adaylar
+    return _2S_KUNYE
+
+
+def _2s_taraf_adaylari(sid):
+    ix = _2s_kunye_adlari()
+    if sid in ix:
+        return ix[sid]
+    n = _2s_norm((sid or "").replace("-", " "))
+    return [n] if len(n) >= 3 else []
+
+
+def degismez2(Y, O, kategoriler=("d", "v"), yer_sarti=False):
     """Belirtilen kategorilerin kırılmalarını ve ±30 günde maddesizleri döker.
+
+    `yer_sarti=True` (yalnız `2s`): yakın madde ALÂKALI da olmalı — bkz.
+    yukarıdaki "2s YER/TARAF ŞARTI" bloğu. Varsayılan False, yani `d:`/`v:`
+    ve `isg:` kollarının davranışı BİREBİR aynı kaldı.
 
     ⚠️ `s:` VARSAYILANDA YOK VE BU BİR TASARIM DEĞİL, ON AYLIK BİR KÖRLÜKTÜ.
     CLAUDE.md §3'ün tek satırlığı `(y.d||[]).concat(y.v||[])` yazıyor; yani
@@ -1237,6 +1368,16 @@ def degismez2(Y, O, kategoriler=("d", "v")):
     # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
     ol = [{"g": gun_no(o["t"]), "b": o["b"],
            "yer": o.get("yer_id") or o.get("yer")} for o in O]
+    if yer_sarti:
+        for kayit_o, o in zip(ol, O):
+            kayit_o["nrm"] = _2s_norm(" ".join([o.get("b") or "",
+                                                o.get("yer") or "",
+                                                o.get("d") or ""]))
+            kayit_o["nrm_b"] = _2s_norm(o.get("b") or "")
+            kayit_o["yer_id"] = o.get("yer_id") or ""
+        Y_KOK = {y["ad"]: _2s_norm(re.sub(r"\s*\(.*?\)", "", y["ad"] or "").strip())
+                 for y in Y}
+        Y_BOLGE = {y["ad"]: _2s_norm(y.get("m") or "") for y in Y}
     kir = {}
     for y in Y:
         donemler = []
@@ -1246,8 +1387,11 @@ def degismez2(Y, O, kategoriler=("d", "v")):
             for d, tip in ((p.get("f"), "kazanc"), (p.get("t"), "kayip")):
                 if not d or d <= "1281-01-01" or d >= "1923-10-29":
                     continue
-                kayit = kir.setdefault(d, {"t": tip, "ad": set()})
+                kayit = kir.setdefault(d, {"t": tip, "ad": set(), "sahip": {}})
                 kayit["ad"].add(y["ad"])
+                # TARAF testi için: o gün bu yerleşimde eski/yeni sahip kim
+                taraf = kayit["sahip"].setdefault(y["ad"], {"eski": "", "yeni": ""})
+                taraf["yeni" if tip == "kazanc" else "eski"] = p.get("d") or ""
     acik = []
     for d in sorted(kir):
         gd = gun_no(d)
@@ -1278,14 +1422,85 @@ def degismez2(Y, O, kategoriler=("d", "v")):
             if fark <= 30:
                 adlar = kir[d]["ad"]
                 yakinlar = [o for o in ol if abs(o["g"] - gd) <= 30]
-                esli = [o for o in yakinlar if o["yer"] and o["yer"] in adlar]
-                if esli:
-                    # yer_id eşleşenler arasından yine EN YAKINI
-                    en_yakin = min(esli, key=lambda o: abs(o["g"] - gd))
-                    fark = abs(en_yakin["g"] - gd)
+                if yer_sarti:
+                    # 🔴 ALÂKA ŞARTI — yakınlık artık TEK BAŞINA kapatmıyor,
+                    #   VE SORU HER YERLEŞİME AYRI SORULUYOR.
+                    #
+                    #   🔴 NİÇİN AYRI AYRI — sınav noktası bunu mecbur etti:
+                    #   1349-01-01 kovasında ÜÇ yerleşim var (Mora · Mankup ·
+                    #   İnkirman) ve penceredeki tek madde "Mora Despotluğu'nun
+                    #   kuruluşu" (yer_id = Mora). Mora için bu DOĞRU kapanış;
+                    #   ama Mankup ile İnkirman Bizans'tan Teodoro'ya KIRIM'da
+                    #   geçiyor ve maddede yokturlar. "Tarihte bir yerleşim
+                    #   açıklandıysa tarih kapalıdır" ölçütü onları görünmez
+                    #   yapıyordu — Mankup 1349 sahte kapanışının MEKANİZMASI
+                    #   budur, kapatan maddenin alakasızlığı değil.
+                    #   ⇒ Tarih ancak HER yerleşimi açıklanmışsa kapanır.
+                    #
+                    #   Rapora giden `adlar` artık AÇIKLANMAYANLARdır: hem satır
+                    #   dürüst olur, hem `kapsam_disi` mesafeyi SUSAN noktadan
+                    #   ölçer (açıklanmış komşusundan değil).
+                    eksik, secim_havuz = [], []
+                    for ad in sorted(adlar):
+                        sah = {ad: kir[d]["sahip"].get(ad, {})}
+                        uyan = [o for o in yakinlar
+                                if _2s_yeri_aniyor(o, {ad}, Y_KOK, Y_BOLGE)
+                                or _2s_tarafi_aniyor(o, sah)]
+                        if uyan:
+                            secim_havuz += uyan
+                        else:
+                            eksik.append(ad)
+                    if eksik:
+                        fark = 31          # açıklanmayan yerleşim VAR ⇒ AÇIK
+                        kir[d]["eksik"] = eksik
+                    else:
+                        en_yakin = min(secim_havuz, key=lambda o: abs(o["g"] - gd))
+                        fark = abs(en_yakin["g"] - gd)
+                else:
+                    esli = [o for o in yakinlar if o["yer"] and o["yer"] in adlar]
+                    if esli:
+                        # yer_id eşleşenler arasından yine EN YAKINI
+                        en_yakin = min(esli, key=lambda o: abs(o["g"] - gd))
+                        fark = abs(en_yakin["g"] - gd)
         if fark > 30:
-            acik.append((d, kir[d]["t"], sorted(kir[d]["ad"])[:4], en_yakin["b"], fark))
+            # açıklanmayanlar varsa rapor ONLARI gösterir (bkz. ALÂKA ŞARTI)
+            gosterilecek = kir[d].get("eksik") or sorted(kir[d]["ad"])
+            acik.append((d, kir[d]["t"], gosterilecek[:4], en_yakin["b"], fark))
     return kir, acik
+
+
+def _2s_yeri_aniyor(o, adlar, Y_KOK, Y_BOLGE):
+    """(a) YER kolu: madde kırılmanın yerleşimlerinden birini anıyor mu?"""
+    if o.get("yer_id") and o["yer_id"] in adlar:
+        return True
+    for ad in adlar:
+        if _2s_gecer(o["nrm"], Y_KOK.get(ad, "")):
+            return True
+        bolge = Y_BOLGE.get(ad, "")
+        if bolge and _2s_gecer(o["nrm"], bolge):
+            return True
+    return False
+
+
+def _2s_tarafi_aniyor(o, sahipler):
+    """(b) TARAF kolu — Mankup 1349 sınavıyla kalibre edilmiş İKİ kol:
+    ① taraflardan biri madde BAŞLIĞINDA geçiyor (maddenin mevzuu odur), ya da
+    ② eski VE yeni sahip tam metinde BİRLİKTE geçiyor (madde devri anlatıyor).
+    Tek tarafın gövdede teşhis sözü olarak geçmesi (ör. "Bizans İmparatoru …")
+    SAYILMAZ — gevşek kol ölçüldü ve çürüdü (bkz. blok başı)."""
+    for taraf in sahipler.values():
+        for sid in (taraf.get("eski"), taraf.get("yeni")):
+            if sid and any(_2s_gecer(o["nrm_b"], a)
+                           for a in _2s_taraf_adaylari(sid)):
+                return True
+    for taraf in sahipler.values():
+        eski, yeni = taraf.get("eski"), taraf.get("yeni")
+        if eski and yeni and any(_2s_gecer(o["nrm"], a)
+                                 for a in _2s_taraf_adaylari(eski)) \
+                and any(_2s_gecer(o["nrm"], a)
+                        for a in _2s_taraf_adaylari(yeni)):
+            return True
+    return False
 
 
 def _madde_yeri_aniyor(baslik, adlar):
@@ -1454,6 +1669,22 @@ def kapsam_disi(Y, acik):
         else:
             ici.append(kayit)                    # 5 alan, dokunulmadan
     return ici, disi
+
+
+# 🟡 DÖRDÜNCÜ KOVA — YIL-TEMSİLÎ BORÇ (şartname md. 3, 20 Eylül 2026)
+# `YYYY-01-01` bir ÖLÇÜM DEĞERİ DEĞİL, "günü bilinmiyor" damgasıdır (CLAUDE.md
+# §4). Böyle bir kırılmanın ±30 gün penceresi TAKVİMSEL BİR KURGUDUR: gerçek
+# olay Haziran'da olmuş olabilir ve Ocak penceresindeki madde onu ne kapatır ne
+# kapatmalıdır. Ölçüldü: yeni açılanların önemli kısmı bu sınıftan (GLM: 343
+# sahtenin 53'ü) ve bunların çaresi "madde yaz" değil "GÜNÜ BUL"dur.
+# ⇒ İhlal sayılmaz, AYRI DEFTERDE sayılır. Tavana katılmaz; ödenince iner.
+# ⚠️ Kova YALNIZ kırılmanın kendi tarihine bakar — kapatan maddenin
+#   hassasiyeti ayrı bir borçtur (`D213`) ve buraya karıştırılmadı.
+def yil_temsili_ayir(acik):
+    """(yil_temsili_borc, gun_hassas_acik) — `YYYY-01-01` ayrı defterde."""
+    borc = [k for k in acik if str(k[0])[4:] == "-01-01"]
+    gercek = [k for k in acik if str(k[0])[4:] != "-01-01"]
+    return borc, gercek
 
 
 def _isg_yeri_mi(o, adlar):
@@ -3558,15 +3789,24 @@ def main():
             print(f"    {d}  {tip:<7} {', '.join(adlar):<40} en yakın madde {fark} gün uzakta: {baslik}{im}")
 
     # ---- Değişmez 2'nin `s:` boyutu — ON AYLIK KÖRLÜK, bilinen borç olarak açıldı
-    kir_s, acik_ham = degismez2(Y_cekirdek, O, ("s",))
+    kir_s, acik_ham = degismez2(Y_cekirdek, O, ("s",), yer_sarti=True)
     # ÜÇÜNCÜ SINIF: "maddesi bu kronolojide OLAMAZ" (bkz. kapsam_disi)
-    acik_s, disi_s = kapsam_disi(Y, acik_ham)
+    acik_kapsam, disi_s = kapsam_disi(Y, acik_ham)
+    # DÖRDÜNCÜ KOVA: `YYYY-01-01` — günü bilinmeyen kırılma (bkz. yil_temsili_ayir)
+    yil_borc_s, acik_s = yil_temsili_ayir(acik_kapsam)
     durum2s = "✓" if len(acik_s) <= BEKLENEN_ACIK_S else "✗"
     if len(acik_s) > BEKLENEN_ACIK_S:
         ihlal = True
     print(f"Değişmez 2s {durum2s}  {len(kir_s)} YABANCI kırılması · "
           f"{len(acik_s)} AÇIK (tavan {BEKLENEN_ACIK_S}) · "
-          f"{len(disi_s)} KAPSAM DIŞI")
+          f"{len(disi_s)} KAPSAM DIŞI · {len(yil_borc_s)} YIL-TEMSİLÎ BORÇ")
+    print( "            i AÇIK = ±30 günde maddesi olan AMA o maddenin kırılan")
+    print( "              YERİ ya da TARAFLARI anmadığı kırılma (20 Eylül 2026:")
+    print( "              takvim yakınlığı tek başına artık kapatmıyor).")
+    if len(yil_borc_s) > BEKLENEN_2S_YIL_BORC:
+        print(f"            ⚠️ YIL-TEMSİLÎ BORÇ tavanı aşıldı "
+              f"({len(yil_borc_s)} > {BEKLENEN_2S_YIL_BORC}) — ihlal DEĞİL, "
+              f"ama yeni `YYYY-01-01` kırılması yazılmış olabilir.")
     print(f"            i KAPSAM DIŞI = Osmanlı küresine {KAPSAM_ESIGI_KM:.0f} km'den"
           f" uzak; maddesi bu kronolojide OLAMAZ, yazılmamış DEĞİL.")
     if disi_s and args.ayrinti:
