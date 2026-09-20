@@ -134,7 +134,7 @@ window.YERLESIMLER_EK23 = [
 // 5,6 km ötede 1395'ten Osmanlı. Kırılma günü ondan alındı (`1395-08-01`).
 // Tek başına ölçüldü: 1400-1440 **+216 km²** Osmanlı · 1350-1355 **−97 km²**
 // (iki yönlü — Aydos/Samandıra'nın kuzeye taşan payı geri alınıyor).
-{ ad:"Beykoz", tur:"sehir", lat:41.1275, lon:29.0925, g:0, k:4, m:"İstanbul",
+{ ad:"Beykoz", kd:[{f:"1281-01-01",t:"1395-08-01",k:0,m:null},{f:"1453-05-29",t:"1923-10-29",k:4,m:"İstanbul"}], tur:"sehir", lat:41.1275, lon:29.0925, g:0, k:4, m:"İstanbul",
   s:[{f:"1281-01-01",t:"1395-08-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1395-08-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
