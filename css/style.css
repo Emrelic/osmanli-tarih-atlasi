@@ -1602,6 +1602,25 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 .ek-ak-baslik[aria-expanded="true"]::before { content: "▾"; }
 .ek-ak-etiket { flex: none; font-weight: 600; }
 .ek-ak-ipucu { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #6b5a33; }
+/* 🆕 EKOKUMA-SIMGE-0070 (20 Eylül 2026) — 0070/H-0001, Emre: satır başında
+   yalnız SİMGE dursun, yazı alanı maddenin BAŞLIĞINA kalsın; simgenin üstüne
+   gelince kategori adı ("teknik bilimsel ek okuma") görünsün. Kategori adı
+   `data-ipucu`da (js/app.js ekAkordeonKur); aynı metin `title`da da duruyor —
+   CSS ipucu ANINDA çıkar, `title` yavaş ve yedek (dokunmatikte/odakta). */
+.ek-ak-simge { flex: none; font-size: 14px; line-height: 1; position: relative; cursor: help; }
+.ek-ak-simge::after {
+  content: attr(data-ipucu);
+  position: absolute; left: -4px; bottom: calc(100% + 5px); z-index: 30;
+  background: #2b2317; color: #f6ecd2;
+  border-radius: 4px; padding: 3px 7px;
+  font-size: 11px; font-weight: 600; white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  opacity: 0; visibility: hidden; transition: opacity 0.12s ease 0.05s, visibility 0s linear 0.17s;
+  pointer-events: none;                 /* ipucu kendi üstüne gelen fareyi yutmasın */
+}
+.ek-ak-simge:hover::after, .ek-ak-baslik:focus-visible .ek-ak-simge::after {
+  opacity: 1; visibility: visible; transition-delay: 0.05s, 0s;
+}
 .ek-ak-satir.acik > .ek-ak-baslik,
 #ob-detay-baslik.acik { background: #ffe9a8; }
 .ek-ak-satir.acik > .ek-ak-baslik { border-radius: 6px 6px 0 0; }
@@ -2222,6 +2241,31 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
      animasyon yazmak bir bilgiyi iki yerde tutar, §11) uygulandı.
      JS tarafı (app.js:8129 `isaretYanipSon`) süreyi AYNI ORANLA güncelledi. */
   animation: odakParla 0.55s ease-in-out 3;
+}
+/* 🆕 20 Eylül 2026 — DALGA-0070 H-0007 (ELE-GECIRME-ANIM-0070). Emre:
+   *"olayın gerçekleştiği alan yanıp sönen emoji ile gösterilmeli."*
+   Glif halkanın İÇİNDE durur: ayrı bir keyframe ve ayrı bir işaret
+   AÇILMADI — halka zaten `odakParla` ile yanıp sönüyor, çocuk eleman
+   onunla birlikte sönüyor (D045 · §11: tek animasyon, tek süre).
+   ⚠️ `display:flex` + `height:100%` ŞART: `.odak-parlama` 34px'lik bir
+   DAİRE ve içine yazı konması hesaba katılmamıştı; ortalamazsak emoji
+   halkanın sol üstüne yapışır. Gölge, emoji koyu haritada da okunsun diye
+   (halkanın kendi altın gölgesi arkada kalıyor). */
+.odak-parlama .odak-glif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 19px;
+  line-height: 1;
+  text-shadow: 0 0 3px #fff, 0 0 6px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  /* Hareket istemeyene glif KAYBOLMAZ, yalnız hareketsiz durur —
+     `.panel-sinyal`ın 20 satır yukarıdaki aynı kararı. */
+  .odak-parlama { animation: none; opacity: 0.95; }
 }
 
 /* 🔴 21 Ağustos — Emre: "devletsiz şehirlerin isimlerini de … yazalım."

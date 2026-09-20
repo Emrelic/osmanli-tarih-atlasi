@@ -1,0 +1,213 @@
+// -*- coding: utf-8 -*-
+// ═══════════════════════════════════════════════════════════════════════
+// SEFER OKU — "ok" ANİMASYON FAZI            SEFER-OK-0070 · 20 Eylül 2026
+// ═══════════════════════════════════════════════════════════════════════
+// Emre (paket 0070 / H-0006): *"işgal eden ordu bir yuvarlak kalın bir nokta
+// şeklinde gösteriliyor iken bu nokta kaynak alınarak bu noktadan çıkan ince
+// bir çizgi … ordunun geçtiği güzergaha kabataslak sadık kalınarak … işgal
+// edilen ülkenin topraklarına doğru ilerleyecektir. işgal veya ilerleme
+// aksiyonunun bittiği noktaya kadar gelen ok sonrası ilgili bölge iki kez …
+// yanıp sönecektir."*
+//
+// BU DOSYANIN SINIRI — ok'un İLERLEMESİ. Varıştaki yanıp sönme ve sahibin
+// değişmesi ELE-GECIRME-ANIM-0070'in fazlarıdır (uzlaşma: tahta M-4701/M-4703).
+// Sözleşme:
+//     ANIM.kayitOl("ok", fn)   fn(olay, bitti)
+//     fn false dönerse         bu maddede ok YOK, sahne "vurus"tan başlar
+//     bitti()                  sıradaki faza geç (çağrılmazsa 2400 ms tavan)
+//     ANIM yoksa               window.SEFER_OK_FAZ ile dışarıdan alınabilir
+//
+// 🔴 YENİ VERİ ŞEMASI AÇILMADI, YENİ OK UYDURULMADI. Faz yalnız `window.
+//    SEFERLER*`ta ZATEN DURAN güzergâhları canlandırır; güzergâhı olmayan
+//    madde "ok yok" kovasına düşer ve false döner (ölçüm: denetim/
+//    SEFER-OK-0070.md — 2209 harekât maddesinin 1877'sinde güzergâh YOK).
+// 🔴 İKİNCİ BİR OK ÇİZİCİ DE YOK: durağan çizim app.js `seferGuncelle`de
+//    kalıyor; bu dosya yalnız faz süresince onu `SEFER_ANIM_GIZLI` ile
+//    susturup aynı geometriyi kısmi olarak çiziyor (D023 — var olanı kullan).
+(function () {
+  "use strict";
+
+  var KAYNAK = "sefer-anim";
+  var CIZGI = "sefer-anim-cizgi";
+  var NOKTA = "sefer-anim-nokta";
+  var TAVAN_MS = 2400, TABAN_MS = 900;
+  var ESLESME_GUN = 15;       // maddenin günü ile okun penceresi arası tolerans
+  var ESLESME_KM = 400;       // okun ucu ile maddenin yeri arası tavan
+
+  var etkin = null;           // süren animasyonun durumu
+  var kare = null;
+
+  // ---- geometri yardımcıları (app.js'in kmArasi'sı kullanılır, kopyalanmaz)
+  function parcaKm(a, b) { return kmArasi(a[1], a[0], b[1], b[0]); }
+
+  function kumulatif(yol) {
+    var d = [0], top = 0;
+    for (var i = 1; i < yol.length; i++) { top += parcaKm(yol[i - 1], yol[i]); d.push(top); }
+    return { d: d, top: top };
+  }
+
+  // Yolun ilk `oran` kadarını (mesafeye göre) döndürür; son parçada ARA NOKTA
+  // üretir ki ok düğümden düğüme sıçramasın.
+  function kismiYol(yol, k, oran) {
+    if (oran <= 0) return [yol[0], yol[0]];
+    if (oran >= 1) return yol.slice();
+    var hedef = k.top * oran, out = [yol[0]];
+    for (var i = 1; i < yol.length; i++) {
+      if (k.d[i] <= hedef) { out.push(yol[i]); continue; }
+      var p = (hedef - k.d[i - 1]) / Math.max(1e-9, k.d[i] - k.d[i - 1]);
+      out.push([yol[i - 1][0] + (yol[i][0] - yol[i - 1][0]) * p,
+                yol[i - 1][1] + (yol[i][1] - yol[i - 1][1]) * p]);
+      break;
+    }
+    return out.length >= 2 ? out : [yol[0], yol[0]];
+  }
+
+  function aci(son, onceki) {
+    var dx = (son[0] - onceki[0]) * Math.cos(son[1] * Math.PI / 180);
+    var dy = son[1] - onceki[1];
+    return Math.atan2(dx, dy) * 180 / Math.PI;
+  }
+
+  // ---- katmanlar (tembel: ilk animasyonda kurulur; harita hazır olmadan
+  // faz zaten çağrılmaz)
+  function katmanKur() {
+    if (!window.harita || harita.getSource(KAYNAK)) return !!(window.harita && harita.getSource(KAYNAK));
+    var bos = { type: "geojson", data: { type: "FeatureCollection", features: [] } };
+    harita.addSource(KAYNAK, bos);
+    harita.addLayer({ id: CIZGI, type: "line", source: KAYNAK,
+      filter: ["!=", ["geometry-type"], "Point"],
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
+               "line-opacity": 0.95,
+               "line-width": ["coalesce", ["get", "kalinlik"], 9] } });
+    harita.addLayer({ id: NOKTA, type: "circle", source: KAYNAK,
+      filter: ["==", ["geometry-type"], "Point"],
+      paint: { "circle-color": ["coalesce", ["get", "renk"], "#2b1006"],
+               "circle-radius": ["*", ["coalesce", ["get", "kalinlik"], 9], 0.8],
+               "circle-opacity": 0.95,
+               "circle-stroke-width": 1.4, "circle-stroke-color": "#fdf6e9" } });
+    return true;
+  }
+
+  function ciz(yol, renk, kalinlik) {
+    harita.getSource(KAYNAK).setData({ type: "FeatureCollection", features: [
+      { type: "Feature", properties: { renk: renk, kalinlik: kalinlik },
+        geometry: { type: "LineString", coordinates: yol } },
+      { type: "Feature", properties: { renk: renk, kalinlik: kalinlik },
+        geometry: { type: "Point", coordinates: yol[0] } }
+    ] });
+  }
+
+  function temizle() {
+    if (window.harita && harita.getSource(KAYNAK))
+      harita.getSource(KAYNAK).setData({ type: "FeatureCollection", features: [] });
+  }
+
+  // ---- ok seçimi: madde → SEFERLER kaydı
+  // 🔴 BAĞ VERİDE YOK: sefer kayıtları kronoloji maddesine `id` ile bağlı
+  //    DEĞİL (ölçüldü: 114 kaydın hiçbirinde madde referansı yok). Bu yüzden
+  //    eşleşme İKİ ÖLÇÜTLE kuruluyor ve ikisi de ölçülebilir:
+  //      ① zaman  — maddenin günü okun [fi,ti] penceresinde (±15 gün)
+  //      ② yer    — okun UCU maddenin yerine 400 km'den yakın
+  //    Yer çözülemiyorsa (madde `yer_id`siz) yalnız zaman ölçütü kalır ve
+  //    aday çoksa penceresi maddenin gününe EN YAKIN biten ok seçilir.
+  //    Uydurma yok: hiçbir aday yoksa faz false döner.
+  function okSec(o) {
+    if (!window.seferler || !seferler.length) return null;
+    var g = (o && o.gi !== undefined) ? o.gi : (o && o.t ? gunIdx(o.t) : null);
+    if (g === null || g === undefined) return null;
+    var kon = (typeof olayKonumu === "function") ? olayKonumu(o) : null;
+    var en = null, enPuan = Infinity;
+    for (var i = 0; i < seferler.length; i++) {
+      var m = seferler[i];
+      if (!m.yol || m.yol.length < 2) continue;
+      if (g < m.fi - ESLESME_GUN || g > m.ti + ESLESME_GUN) continue;
+      var uc = m.yol[m.yol.length - 1], puan;
+      if (kon) {
+        var km = kmArasi(kon.lat, kon.lon, uc[1], uc[0]);
+        if (km > ESLESME_KM) continue;
+        puan = km;                                   // yakınlık önceliği
+      } else {
+        puan = ESLESME_KM + Math.abs(g - m.ti);      // yer yoksa: bitişi en yakın ok
+      }
+      if (puan < enPuan) { enPuan = puan; en = m; }
+    }
+    return en;
+  }
+
+  function sure(km) {
+    if (window.ANIM && ANIM.OK_MS) return ANIM.OK_MS;
+    return Math.max(TABAN_MS, Math.min(TAVAN_MS, 900 + km * 1.2));
+  }
+
+  function bitir(bitti) {
+    if (kare) { cancelAnimationFrame(kare); kare = null; }
+    if (etkin) {
+      if (etkin.mk) etkin.mk.remove();
+      if (window.SEFER_ANIM_GIZLI) delete SEFER_ANIM_GIZLI[etkin.id];
+      etkin = null;
+    }
+    temizle();
+    // durağan çizim geri gelsin (ok artık tam boy görünür)
+    try { if (typeof seferGuncelle === "function") seferGuncelle(suanki); } catch (e) { }
+    if (typeof bitti === "function") bitti();
+  }
+
+  // ---- FAZ
+  function fazOk(o, bitti) {
+    if (!window.harita || !window.haritaHazir) return false;
+    var m = okSec(o);
+    if (!m) return false;                      // "güzergâh yok" kovası — UYDURULMAZ
+    if (!katmanKur()) return false;
+    if (etkin) bitir(null);                    // önceki sahne yarıda kaldıysa kapat
+
+    var k = kumulatif(m.yol);
+    var sr = sure(k.top);
+    var kal = (window.HAREKET && HAREKET[m.tur] ? HAREKET[m.tur] : { kalinlik: 9 }).kalinlik;
+    SEFER_ANIM_GIZLI[m.id] = true;
+    try { seferGuncelle(suanki); } catch (e) { }   // durağan kopyayı hemen sustur
+
+    // ok başı: durağan çizimdekiyle AYNI glif ve renk (app.js HAREKET tablosu)
+    var el = document.createElement("div");
+    var ic = document.createElement("div");
+    ic.className = "sefer-ok tur-" + m.tur;
+    ic.textContent = (window.HAREKET && HAREKET[m.tur] ? HAREKET[m.tur] : HAREKET.sefer).glif;
+    ic.style.color = m.renk;
+    el.appendChild(ic);
+    var mk = new maplibregl.Marker({ element: el, anchor: "center", rotation: 0 })
+               .setLngLat(m.yol[0]).addTo(harita);
+
+    etkin = { id: m.id, mk: mk };
+    var bas = (window.performance && performance.now) ? performance.now() : Date.now();
+
+    function tik(simdi) {
+      if (!etkin) return;
+      var gecen = ((simdi !== undefined ? simdi : Date.now()) - bas);
+      var p = Math.max(0, Math.min(1, gecen / sr));
+      // yumuşak giriş-çıkış: ordu ne bir anda fırlar ne de sona sert çarpar
+      var e = p < 0.5 ? 2 * p * p : -1 + (4 - 2 * p) * p;
+      var ky = kismiYol(m.yol, k, e);
+      ciz(ky, m.renk, kal);
+      var son = ky[ky.length - 1], onceki = ky[ky.length - 2] || ky[0];
+      mk.setLngLat(son);
+      if (son[0] !== onceki[0] || son[1] !== onceki[1]) mk.setRotation(aci(son, onceki) - 90);
+      if (p >= 1) { bitir(bitti); return; }
+      kare = requestAnimationFrame(tik);
+    }
+    kare = requestAnimationFrame(tik);
+    return true;
+  }
+
+  window.SEFER_OK_FAZ = fazOk;
+  function kaydol() {
+    if (window.ANIM && ANIM.kayitOl) { ANIM.kayitOl("ok", fazOk); return true; }
+    return false;
+  }
+  // anim_dili.js bu dosyadan ÖNCE de SONRA da yüklenebilir: ikisini de karşıla.
+  if (!kaydol()) {
+    var dene = 0;
+    var zaman = setInterval(function () {
+      if (kaydol() || ++dene > 40) clearInterval(zaman);   // en çok ~10 sn
+    }, 250);
+  }
+})();

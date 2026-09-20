@@ -167,16 +167,116 @@ var SERBEST = window.SERBEST || [];
 // tam da ölçtüğümüz farkı gizlemek olurdu: Anadolu'daki 23 km'lik kenar neredeyse
 // gerçek bir sınır, Arabistan'daki 217 km'lik kenar neredeyse hiçbir şey söylemiyor.
 var SERBEST_U = window.SERBEST_U || [];
+
+// ═══════════════════════════════════════════════════════════════════════════
+// 🔴 SINIR DİŞLERİ — hat ÇİZİLMEDEN ÖNCE SADELEŞTİRİLİR (SINIR-DIS-0070, 20 Eylül 2026)
+// ═══════════════════════════════════════════════════════════════════════════
+// EMRE (H-0003 · H-0004, 1798-07-21): *"sınır boyuncaki üçgensel gösterim
+// bozukluğunun sebebi nedir engelleyemez miyiz"* — sahiplik sınırının dış
+// kenarında güneş ışını gibi üçgen dişler (Bağdat–Şam çölü ve Mısır–Sina).
+//
+// ÖLÇÜLDÜ (`denetim/SINIR-DIS-0070.md`, alet `denetim/ARAC-SINIR-DIS-0070.py`):
+//   · Dişler GEOMETRİDE YOK: dolgu halkalarında mızrak (uç ≤20°, boy ≥5 km)
+//     iki kutuda da 0/0. Motor kusuru, çöl tavanı, yürüyüş ızgarası ELENDİ.
+//   · Dişler ÇİZİMDEN doğuyor: aşağıdaki iki `serbest-*` katmanı, kendi
+//     segmentleri 0,072–6,08 km olan bir hattı 60–80 px kalınlıkta çiziyor.
+//     genişlik/segment: medyan 19,3× · Q3 32,2× · MAX 1333,6× (z5,4) ve
+//     25.590 segmentin %85,7'si kendi uzunluğunun ≥8 katı kalınlıkta.
+//     O kalınlıkta bir hat her keskin köşede bisektör boyunca 35–72 px
+//     (55–142 km) dışarı fırlayan bir lob üretir — ekranda "ışın".
+//   · TARAYICIDA İKİ YÖNDE SINANDI: iki katman söndürülünce dişler tamamen
+//     kayboldu; hat sadeleştirilip katmanlar AÇIK bırakılınca dişler kayboldu
+//     ama SÖNEN HÂLE yerinde kaldı ⇒ çare hâleyi değil, hattı düzeltmek.
+//
+// ⚠️ NİÇİN PİKSEL TAVANINI DÜŞÜRMEK DEĞİL (ölçüldü, reddedildi): TAVAN_PX
+// 80→24 dişlerin yalnız %17'sini siliyor ama hâlenin anlattığı belirsizliğin
+// 79 km'sini siliyor. Hâle bir görsel efekt değil BELİRSİZLİK ÖLÇÜSÜ (aşağıda
+// SERBEST KENAR bloğu) — onu kısmak kusuru değil BİLGİYİ siler.
+//
+// ── KURAL ─────────────────────────────────────────────────────────────────
+// Hattın kendi belirsizliği `u` km ise, o hattın `u/10`'undan ince ayrıntısı
+// ZATEN hâlenin altında görünmez. Douglas–Peucker toleransı budur; 1 km'nin
+// altına inmez (dar belirsizlikli Anadolu kenarı ayrıntısını korusun) ve
+// 5 km'nin üstüne çıkmaz (geniş belirsizlikte hattın kabası bozulmasın).
+// ÖLÇÜM (K-A Bağdat–Şam z5,4 · K-B Mısır–Sina z5,2, diş ölçütü: dönüş ≥25° ve
+// genişlik/segment ≥8×):
+//       kural                    K-A diş    K-B diş   en büyük sapma
+//       bugünkü (sadeleştirmesiz)   171         50        —
+//       kıskaç(u/10, 1..5 km)         4          0      ≤4,84 km
+// Sapma, o hatların kendi belirsizliğinin (106–157 km) %3–5'i.
+// 📌 Tolerans DERECE cinsinden uygulanır (km/111,32): boylam derecesi enlemle
+//    kısaldığı için doğu-batı yönünde gerçek sapma bu sayıdan KÜÇÜKTÜR —
+//    yani kıskaç tek yönlü güvenli.
+// 📌 B ŞIKKI (aynı kuralın `uret_petek.py` içinde kalıcı olması, havuz
+//    26.070→3.204 köşe, −%87,7) SIRADAKİ KOŞUYA yazıldı (1.MURAT, M-4705).
+//    O koşu indiğinde buradaki sadeleştirme zararsız biçimde etkisiz kalır —
+//    zaten sade olan hat DP'den değişmeden çıkar.
+var SRB_SADE_TOL_MIN = 1.0;      // km — kıskacın alt ucu
+var SRB_SADE_TOL_MAX = 5.0;      // km — kıskacın üst ucu
+var SRB_SADE_ONBELLEK = [];      // hat indeksine paralel; aynı hat çok dönemde kullanılıyor
+
+// Douglas–Peucker (derece düzleminde). Halka değil AÇIK hat: uçlar her zaman
+// korunur, yani gövdeyle temas noktaları kaymaz.
+// ⚠️ UZAKLIK PARÇAYA, SONSUZ DOĞRUYA DEĞİL — ve bu fark BU VERİDE ÖLÇÜLDÜ.
+// Klasik DP anlatımı "noktanın ab DOĞRUSUNA dik uzaklığı" der. Serbest kenar
+// firkete (hairpin) yapıyor: zincir b'nin ötesine taşıp geri dönüyor. Öyle bir
+// köşe ab doğrusuna çok yakın ama ab PARÇASINA uzaktır; doğru-uzaklığı onu
+// atılabilir sanır. ÖLÇÜLDÜ (bütün havuz, kıskaç(u/10,1..5 km)):
+//     doğru uzaklığıyla   en büyük sapma 10,11 km  (hat 351, u 47,2 km)
+//     parça uzaklığıyla   en büyük sapma  4,97 km  — kıskacın kendi tavanı (5 km)
+// Yani parça uzaklığı, "sapma toleransı aşmaz" sözünü GERÇEKTEN tutuyor.
+function dpSadelestir(noktalar, tolDerece) {
+  var n = noktalar.length;
+  if (n < 3) return noktalar;
+  var tut = new Array(n);
+  tut[0] = tut[n - 1] = true;
+  var yigin = [[0, n - 1]];
+  while (yigin.length) {
+    var par = yigin.pop(), a = par[0], b = par[1];
+    if (b <= a + 1) continue;
+    var xa = noktalar[a][0], ya = noktalar[a][1];
+    var xb = noktalar[b][0], yb = noktalar[b][1];
+    var dx = xb - xa, dy = yb - ya, L = dx * dx + dy * dy;
+    var en = -1, eni = -1;
+    for (var i = a + 1; i < b; i++) {
+      var x = noktalar[i][0], y = noktalar[i][1];
+      var t = L > 0 ? ((x - xa) * dx + (y - ya) * dy) / L : 0;
+      if (t < 0) t = 0; else if (t > 1) t = 1;          // parçanın DIŞINA taşma
+      var qx = xa + t * dx, qy = ya + t * dy;
+      var d = Math.sqrt((x - qx) * (x - qx) + (y - qy) * (y - qy));
+      if (d > en) { en = d; eni = i; }
+    }
+    if (en > tolDerece) { tut[eni] = true; yigin.push([a, eni]); yigin.push([eni, b]); }
+  }
+  var out = [];
+  for (var k = 0; k < n; k++) if (tut[k]) out.push(noktalar[k]);
+  return out;
+}
+
+// Hat indeksinin SADELEŞTİRİLMİŞ hâli (bir kez hesaplanır, önbellekte kalır).
+function serbestHat(i, u) {
+  if (i < 0) return null;
+  if (SRB_SADE_ONBELLEK[i]) return SRB_SADE_ONBELLEK[i];
+  var ham = SERBEST[i];
+  if (!ham || ham.length < 3) return (SRB_SADE_ONBELLEK[i] = ham || []);
+  var tolKm = Math.max(SRB_SADE_TOL_MIN, Math.min(SRB_SADE_TOL_MAX, (u || 60) / 10));
+  return (SRB_SADE_ONBELLEK[i] = dpSadelestir(ham, tolKm / 111.32));
+}
+
 // Her hat AYRI bir feature: kalınlık artık veriden geliyor (`u` özniteliği).
 function hatCoz(dizi) {
   if (!dizi || !dizi.length) return null;
   return { type: "FeatureCollection",
            features: dizi.map(function (h) {
              var i = typeof h === "number" ? h : -1;
+             var u = i >= 0 ? (SERBEST_U[i] || 60) : 60;
              return { type: "Feature",
-                      properties: { u: i >= 0 ? (SERBEST_U[i] || 60) : 60 },
+                      properties: { u: u },
                       geometry: { type: "LineString",
-                                  coordinates: i >= 0 ? SERBEST[i] : h } };
+                                  // ⚠️ Doğrudan verilen hat (i < 0) DOKUNULMADAN
+                                  // geçer: sadeleştirme yalnız havuz hatlarına,
+                                  // yani `u`su ölçülmüş olanlara uygulanır.
+                                  coordinates: i >= 0 ? serbestHat(i, u) : h } };
            }) };
 }
 
@@ -1755,9 +1855,28 @@ harita.on("load", function () {
       filter: ["==", ["coalesce", ["get", "tur"], "sefer"], tur],
       layout: { "line-cap": "round", "line-join": "round" },
       paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
+               // 🔴 H-0006 ile gövde 1.6–2.6 px'ten 7–9 px'e çıktı (HAREKET'teki
+               // ölçüm notu). 9 px TAM OPAK bir çizgi altındaki sahiplik
+               // renginin okunmasını engelliyordu; 0.92 opaklık, kalınlık
+               // kuralını bozmadan altını sezdiriyor.
+               "line-opacity": 0.92,
                "line-width": h.kalinlik, "line-dasharray": h.desen }
     });
   });
+  // 🔴 KAYNAK NOKTASI — Emre (H-0006): *"işgal eden ordu bir yuvarlak kalın bir
+  // nokta şeklinde gösteriliyor iken bu nokta kaynak alınarak bu noktadan çıkan
+  // ince bir çizgi … ilerleyecektir."* Ok başı (DOM marker, glif) VARDI, ordunun
+  // ÇIKIŞ noktası YOKTU: bir ok nereye vardığını söylüyor, nereden çıktığını
+  // söylemiyordu. Aynı kaynağa `nokta:"kaynak"` özellikli Point feature'lar
+  // basılıyor; çizgi katmanları Point'i, bu katman LineString'i yok sayar.
+  harita.addLayer({ id: "sefer-kaynak", type: "circle", source: "seferler",
+    filter: ["==", ["coalesce", ["get", "nokta"], ""], "kaynak"],
+    paint: { "circle-color": ["coalesce", ["get", "renk"], "#2b1006"],
+             // yarıçap gövdenin ~0.8 katı (9 px gövde ↔ 7 px yarıçap = 14 px
+             // çap): "kalın yuvarlak" gövdeden belirgin biçimde iri olmalı.
+             "circle-radius": ["*", ["coalesce", ["get", "kalinlik"], 9], 0.8],
+             "circle-opacity": 0.95,
+             "circle-stroke-width": 1.4, "circle-stroke-color": "#fdf6e9" } });
 
   // ⚠️ GENEL KURAL (kullanıcı, hatalar 8.docx madde 1): "her ülkeye verilen
   // toprakları kırmızı ve diğer ülkenin renginde olacak şekilde ... taralı bir
@@ -2698,15 +2817,32 @@ function olayYeriKur() {
 // taşıyor, `OLAY_YERI` zaten maddeyi şehre bağlıyor — ikisi birleşince
 // hiçbir veri dosyasına dokunmadan aynı sonuç çıkıyor. Glif SAVAS_TUR_SIMGE
 // ile AYNI (kullanıcı lejanttan zaten öğrendi, yeni bir dil icat edilmedi).
-var MUHAREBE_K = { savas: "meydan", kusatma: "kusatma", isyan: "isyan", ayaklanma: "isyan" };
+// 🆕 DALGA-0070 H-0005 (ELE-GECIRME-ANIM-0070, 20 Eylül 2026) — DENİZ KOLU.
+// Emre: *"[Ebukır deniz muharebesinin] gerçekleştiği noktayı haritada DENİZ
+// SAVAŞI SEMBOLÜ ile işaretleyelim."* Glif ZATEN vardı (`SAVAS_TUR_SIMGE.deniz`
+// = ⚓, lejantta da duruyor) — eksik olan TÜRETME koluydu: `MUHAREBE_K`
+// yalnız meydan/kuşatma/isyan biliyordu, her deniz muharebesi ⚔ çıkıyordu.
+// ⚠️ TEK TEK MADDEYE BAYRAK KONMADI (şartname: "kural madde türünden/
+//    etiketinden türetilmeli"). Sıra: ① `k:` ② `etiket:` ③ başlık/`yer:`
+//    metninde deniz kalıbı. ③ bir TAHMİN değil bir KURAL — ama etiketten
+//    zayıftır, o yüzden yalnız ①/② "meydan" derken devreye girer.
+// 🔴 ÖLÇÜLDÜ (denetim/ARAC-ELE-GECIRME-0070.js, 1605 madde): bu kolla ⚓ alan
+//    madde sayısı 0 → 21. Yirmi birinin tam listesi raporda; biri yanlışsa
+//    kural değil O KAYIT tartışılır.
+var MUHAREBE_K = { savas: "meydan", kusatma: "kusatma", isyan: "isyan", ayaklanma: "isyan",
+                   deniz: "deniz", "deniz-savasi": "deniz", donanma: "deniz" };
+var DENIZ_KALIP = /(deniz muharebesi|deniz savaş|donanma|filo|amiral|korsan)/i;
 function olayMuharebeTuru(o) {
   var tur = MUHAREBE_K[o.k];
-  if (!tur && o.etiket) {
+  if (o.etiket) {
     for (var i = 0; i < o.etiket.length; i++) {
-      tur = MUHAREBE_K[o.etiket[i]];
-      if (tur) break;
+      var c = MUHAREBE_K[o.etiket[i]];
+      if (!c) continue;
+      if (c === "deniz") { tur = c; break; }        // deniz etiketi başka türü EZER
+      if (!tur) tur = c;
     }
   }
+  if ((!tur || tur === "meydan") && DENIZ_KALIP.test((o.b || "") + " " + (o.yer || ""))) tur = "deniz";
   return tur ? SAVAS_TUR_SIMGE[tur] : null;
 }
 
@@ -3943,16 +4079,38 @@ function lejantYerlestir() {
 //
 // Veri tarafı geriye dönük uyumlu: tur/sonuc yoksa eski davranış (dolu ok,
 // kesikli çizgi) aynen sürüyor — mevcut 50 kaydın hiçbiri bozulmuyor.
+// 🔴 KALINLIK — Emre kuralı (paket 0070 H-0006, SEFER-OK-0070 · 20 Eylül 2026):
+//   *"harekat oku taralı bölge gösterimindeki çizgilerden en az 3 katı kalın
+//    olmak zorundadır"*
+// ÖLÇÜLDÜ (bu dosyanın kendi desen üreticilerinden, tahmin edilmedi):
+//   isgalDesenleriKur()  K=8 · işgalci şeridi 5 px, nominal sahip şeridi 3 px
+//   devirDesenleriKur()  K=8 · 4/4 px
+//   Şeritler ÇAPRAZ, yani ekrandaki DİK genişlikleri /√2:
+//     sahip (en ince, tarayan "çizgi")  3/√2 = 2.12 px  ⇒ 3 katı = 6.4 px
+//     işgalci (baskın şerit)            5/√2 = 3.54 px  ⇒ 3 katı = 10.6 px
+//   Ölçüt olarak İNCE şerit alındı (algıda "tarama çizgisi" odur); yine de en
+//   ince ok türü bile 7 px ile 6.4'ü aşıyor. Katı okuyuş (10.6 px) istenirse
+//   tek yapılacak iş bu tablodaki sayıları 1.2 ile çarpmaktır — desen
+//   otomatik uyar (aşağıya bak). Eski değerler: 1.6–2.6 px, yani kural
+//   BÜTÜN türlerde ihlal ediliyordu.
+// ⚠️ DESEN AYNI EKRAN UZUNLUĞUNDA KALIR: MapLibre'de `line-dasharray`ın birimi
+//   ÇİZGİ GENİŞLİĞİDİR. Kalınlık 2.6 → 9 px olunca eski [1.5,1.5] deseni
+//   ekranda 3.5 kat uzardı; bu yüzden her desen eski/yeni kalınlık oranıyla
+//   ölçeklendi (`_dsn`). Kesik ritmi korunuyor, yalnız gövde kalınlaşıyor.
+function _dsn(desen, eskiKalinlik, yeniKalinlik) {
+  var o = eskiKalinlik / yeniKalinlik;
+  return desen.map(function (d) { return +(d * o).toFixed(3); });
+}
 var HAREKET = {
-  sefer:    { glif: "➤", desen: [1.5, 1.5], kalinlik: 2.6, ad: "sefer" },
-  cekilme:  { glif: "⇤", desen: [5, 4],     kalinlik: 2.2, ad: "geri çekilme" },
-  tahliye:  { glif: "⇥", desen: [5, 4],     kalinlik: 2.2, ad: "tahliye" },
-  akin:     { glif: "⇢", desen: [1, 2],     kalinlik: 1.8, ad: "akın" },
-  kusatma:  { glif: "⊗", desen: [0.5, 2],   kalinlik: 2.4, ad: "kuşatma" },
-  deniz:    { glif: "⚓", desen: [4, 3],     kalinlik: 2.4, ad: "deniz harekâtı" },
-  teslim:   { glif: "⇲", desen: [2, 3],     kalinlik: 2.0, ad: "teslim / devir" },
-  seyahat:  { glif: "❖", desen: [1, 3],     kalinlik: 1.6, ad: "seyahat" },
-  isyan:    { glif: "✹", desen: [0.5, 1.5], kalinlik: 2.0, ad: "isyan" }
+  sefer:    { glif: "➤", desen: _dsn([1.5, 1.5], 2.6, 9.0), kalinlik: 9.0, ad: "sefer" },
+  cekilme:  { glif: "⇤", desen: _dsn([5, 4],     2.2, 8.0), kalinlik: 8.0, ad: "geri çekilme" },
+  tahliye:  { glif: "⇥", desen: _dsn([5, 4],     2.2, 8.0), kalinlik: 8.0, ad: "tahliye" },
+  akin:     { glif: "⇢", desen: _dsn([1, 2],     1.8, 7.2), kalinlik: 7.2, ad: "akın" },
+  kusatma:  { glif: "⊗", desen: _dsn([0.5, 2],   2.4, 8.5), kalinlik: 8.5, ad: "kuşatma" },
+  deniz:    { glif: "⚓", desen: _dsn([4, 3],     2.4, 8.5), kalinlik: 8.5, ad: "deniz harekâtı" },
+  teslim:   { glif: "⇲", desen: _dsn([2, 3],     2.0, 7.5), kalinlik: 7.5, ad: "teslim / devir" },
+  seyahat:  { glif: "❖", desen: _dsn([1, 3],     1.6, 7.0), kalinlik: 7.0, ad: "seyahat" },
+  isyan:    { glif: "✹", desen: _dsn([0.5, 1.5], 2.0, 7.5), kalinlik: 7.5, ad: "isyan" }
 };
 // Sonuç eksenі: aynı hareket kazançla da bozgunla da bitebilir.
 var SONUC_ROZET = { zafer: "▲", yenilgi: "▼", belirsiz: "" };
@@ -4128,6 +4286,17 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
   var renk = s.renk || (s.hal === "planlanan" ? "#c98a00"
              : (s.taraf === "dusman" ? "#1b7a3f" : "#2b1006"));
   ic.style.color = renk;
+  // 🔴 H-0006 (SEFER-OK-0070): *"okun rengi de işgal eden ülkenin renginin koyu
+  // bir ton ile gösterimi olacak."* Yukarıdaki satır TARAFA bakıyor (dost/düşman
+  // iki sabit renk), DEVLETE değil: 1798'de Fransız oku ile 1683'te Habsburg oku
+  // aynı yeşildi. `devlet:` alanı yazılı 25/114 kayıt için renk artık devletin
+  // KENDİ harita renginden türetiliyor — ama ÇÖZÜM TEMBEL (aşağıda
+  // seferGuncelle'de), çünkü `_DEVLET_RENK` bu satırdan ~2000 satır SONRA
+  // kuruluyor; burada çağrılsa hepsi gri düşerdi.
+  // 📌 Koyulaştırma TEK YERDE: `ANIM.koyuTon` (js/anim_dili.js,
+  // ELE-GECIRME-ANIM-0070 · M-4703 uzlaşması). O dosya bağlı değilse renk
+  // KOYULAŞTIRILMADAN devletin kendi tonu kullanılır — ikinci bir koyuTon
+  // kopyası yazmak §11'in "aynı olgu iki yerde durur" borcunu üretirdi.
   if (s.hal === "planlanan") ic.classList.add("hal-planlanan");
   // `isyanYayilmaUret()` fi/ti'yi hazır veriyor (SAVASLAR'ın kendi `sure`si
   // üstünden); window.SEFERLER hâlâ f/t METİN tarihinden hesaplatıyor.
@@ -4145,10 +4314,13 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
   //    ⇒ Bir düzeltme, aynı kusurun BÜTÜN dallarında aranmalı — bugün
   //      bu dersin ikinci vakası (ilki `_varista`nın konumsuz dalı).
   var ti = s.fi !== undefined ? s.ti : gunIdx(s.t);
-  return { fi: fi, ti: ti, ad: s.ad, yol: s.yol,
+  return { fi: fi, ti: ti, ad: s.ad, yol: s.yol, id: s.id || s.ad,
            // sonuc lejant için de lazım: rozet ancak sahnede o sonuçtan bir ok
            // varsa açıklanır (md.4.3 — açıklanmayan simge kalabalıktır).
            renk: renk, tur: (s.tur || "sefer"), sonuc: (s.sonuc || "belirsiz"),
+           // tembel renk çözümü ve "ok" animasyon fazı için taşınıyor
+           devlet: s.devlet || null, taraf: s.taraf || null, hal: s.hal || null,
+           renk_veriden: !!s.renk, ic: ic,
            ekli: false,
            mk: new maplibregl.Marker({ element: el, anchor: "center", rotation: aci - 90 })
                  .setLngLat(son),
@@ -4160,9 +4332,77 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
            })() };
 });
 
+// 🔴 TEMBEL RENK ÇÖZÜMÜ — H-0006, SEFER-OK-0070 (20 Eylül 2026).
+// NİÇİN TEMBEL: `seferler` dizisi app.js'in ~4100. satırında kuruluyor,
+// `_DEVLET_RENK` ~6100'de. Kuruluşta çağırmak bütün devlet renklerini gri
+// yapardı — ölçülmeden yazılsa sessiz bir kusur olurdu (D048 ailesi: renk
+// `harita:` anahtarına bakar, `id`ye değil; `_cTarafRengi` o köprüyü zaten
+// kuruyor, ikinci bir çözücü YAZILMADI).
+// VERİNİN ELLE YAZDIĞI RENK ASLA EZİLMEZ (mevcut sözleşme, 27 Ağustos).
+function _seferRengiCoz(m) {
+  if (m.renk_veriden || m.hal === "planlanan") return m.renk;
+  var taban = null;
+  if (m.devlet) taban = _cTarafRengi(m.devlet);
+  else if (m.taraf === "osmanli") taban = "#8e0b22";      // Osmanlı kırmızısı
+  if (!taban || taban === "#9a9a9a") return m.renk;       // çözülemedi: eski davranış
+  // Koyulaştırıcı TEK: app.js:8534 `koyuTon` (ELE-GECIRME-ANIM-0070 bunu
+  // `ANIM.koyuTon` diye dışarı veriyor, KOPYASI yok — M-4703). Buradan
+  // doğrudan çağrılıyor ki js/anim_dili.js bağlı olmasa da renk doğru olsun.
+  return (typeof koyuTon === "function") ? koyuTon(taban, 0.35) : taban;
+}
+
+// "ok" animasyon fazı sürerken o ok'un DURAĞAN çizimi gizlenir; yoksa ilerleyen
+// ok ile tam boy ok üst üste düşer. Sözleşme js/sefer_ok.js ile paylaşılıyor
+// (ELE-GECIRME-ANIM-0070 · M-4703: faz "ok" bende, sıralayıcı onda).
+window.SEFER_ANIM_GIZLI = window.SEFER_ANIM_GIZLI || {};
+
+// 🔴 SIRA KUSURU — ÖLÇÜLDÜ (SEFER-OK-0070, 20 Eylül 2026, tarayıcıda):
+//   sefer-cizgi-* ve sefer-kaynak  →  yığın sırası 29–38
+//   devir-dolgu 39 · isgal-dolgu 41 · isyan-dolgu 43 · antlasma-fark-dolgu 44
+// Yani ok, tam da ANLATTIĞI olayın dolgusunun ALTINDA kalıyordu: 1798 Mısır'ında
+// Fransız işgali taraması (opaklık 0.85) Napolyon'un okunun üstünü örtüyordu.
+// H-0006'nın kalınlık kuralı (3 kat) okunurluk içindir; kalınlık tek başına
+// örtülen bir çizgiyi görünür yapmaz — sıra da düzeltilmeli.
+// ⚠️ EN ÜSTE DEĞİL: hedef, ilk `symbol` katmanının ALTI. Böylece ok bütün
+// dolguların üstünde, şehir/etiket yazılarının altında kalır (yazıyı örten bir
+// ok, okunurluğu bir yerde kazanıp başka yerde kaybederdi).
+// 📌 Kurulum sırasını değiştirmek yerine tek seferlik taşıma seçildi: sefer
+// katmanları `addLayer` blokları arasında yer değiştirseydi isgal/devir
+// katmanlarının kurulum kodu da kaymak zorunda kalırdı (o bloklar bu oturumun
+// DEĞİL, ELE-GECIRME-ANIM-0070'in alanı — M-4703).
+var _seferSirasiDuzeltildi = false;
+function _seferKatmanSirasi() {
+  if (_seferSirasiDuzeltildi || !window.harita) return;
+  _seferSirasiDuzeltildi = true;
+  try {
+    var kat = harita.getStyle().layers;
+    var hedef = null;
+    for (var i = 0; i < kat.length; i++) {
+      if (kat[i].type === "symbol" && kat[i].id.indexOf("sefer") !== 0) { hedef = kat[i].id; break; }
+    }
+    var tasi = Object.keys(HAREKET).map(function (t) { return "sefer-cizgi-" + t; });
+    tasi.push("sefer-kaynak");
+    tasi.forEach(function (id) {
+      if (!harita.getLayer(id)) return;
+      if (hedef && harita.getLayer(hedef)) harita.moveLayer(id, hedef); else harita.moveLayer(id);
+    });
+  } catch (e) { /* stil hazır değilse bir sonraki güncellemede zaten çizilir */ }
+}
+
 function seferGuncelle(t) {
   if (!haritaHazir) return;
+  _seferKatmanSirasi();
   var cizgiler = [], turler = {}, sonuclar = {};
+  // 🔴 TEK ANLATI — Emre kuralı (20 Eylül, M-4714 §4): *"mükerrer kayıt varsa
+  // çizim TEK olur."* ÖLÇÜLDÜ (denetim/OLCUM-SEFER-OK-0070.json): aynı uçlar +
+  // aynı başlangıç günü taşıyan 1 çift var — "Abdülaziz'in Avrupa seyahati
+  // (1867)" hem `SEFERLER` hem `SEFERLER_P0037` içinde; harita aynı oku İKİ KEZ
+  // çiziyor (iki gövde üst üste → kalınlık ve opaklık yalan söylüyor, iki ad
+  // etiketi çakışıyor).
+  // ⚠️ VERİ DÜZELTİLMEDİ (mükerreri işçi silmez — M-4714 aynı maddede bunu da
+  // söylüyor, teslimde bildirildi): elenen yalnız ÇİZİM. Anahtar veri
+  // kimliğinden değil GEOMETRİDEN türüyor, çünkü mükerrerin `id`leri farklı.
+  var _cizilen = {};
   seferler.forEach(function (m) {
     // 🔴 23 Ağustos, 0029/H-0004 — OK KENDİ ÇAPASINDAN ÖNCE BELİRMEZ.
     // Emre: *"katalan birliklerin anadolu seferi oku BİR OLAY ERKEN
@@ -4233,10 +4473,34 @@ function seferGuncelle(t) {
         if (isFinite(sonraki)) m._tiKirpik = sonraki;
       } catch (e2) { /* olaylar hazır değil — kırpma yok, eski davranış */ }
     }
+    if (!m._renkCozuldu) {
+      m._renkCozuldu = true;
+      var yeni = _seferRengiCoz(m);
+      if (yeni && yeni !== m.renk) { m.renk = yeni; if (m.ic) m.ic.style.color = yeni; }
+    }
     var aktif = m._fiKirpik <= t && t < m._tiKirpik;
+    if (aktif && window.SEFER_ANIM_GIZLI[m.id]) {
+      // faz "ok" bu oku ŞU ANDA ilerletiyor — durağan kopyasını çizme
+      if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
+      turler[m.tur] = (turler[m.tur] || 0) + 1;
+      return;
+    }
     if (aktif) {
+      var _anahtar = m.yol[0] + "|" + m.yol[m.yol.length - 1] + "|" + m.fi + "|" + m.tur;
+      if (_cizilen[_anahtar]) {                       // mükerrer: TEK çizim
+        if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
+        return;
+      }
+      _cizilen[_anahtar] = true;
       cizgiler.push({ type: "Feature", properties: { renk: m.renk, tur: m.tur },
                       geometry: { type: "LineString", coordinates: m.yol } });
+      // 🔴 ORDUNUN ÇIKIŞ NOKTASI (H-0006: "yuvarlak kalın bir nokta") — okun
+      // yol[0]'ı. Ayrı kaynak açılmadı: çizgi katmanları Point'i, `sefer-kaynak`
+      // katmanı LineString'i yok sayar.
+      cizgiler.push({ type: "Feature",
+                      properties: { renk: m.renk, tur: m.tur, nokta: "kaynak",
+                                    kalinlik: (HAREKET[m.tur] || HAREKET.sefer).kalinlik },
+                      geometry: { type: "Point", coordinates: m.yol[0] } });
       turler[m.tur] = (turler[m.tur] || 0) + 1;
       if (m.sonuc !== "belirsiz") sonuclar[m.sonuc] = 1;
       if (!m.ekli) { m.mk.addTo(harita); m.ad_mk.addTo(harita); m.ekli = true; }
@@ -8285,6 +8549,27 @@ function antlasmaMaddesiMi(o) {
   if (o.k === "antlasma") return true;
   return /antla[sş]ma/i.test(o.b) && !!_antlasmaKaydi(o);
 }
+// 🆕 DALGA-0070 H-0008 (ELE-GECIRME-ANIM-0070, 20 Eylül 2026) — KOYU TON.
+// Emre: *"ele geçirilen bölge önce KOYU RENK ile gösterilip 2 kere yanıp
+// söndükten sonra üçüncüde ele geçiren ülkenin rengine bürünmeli."*
+// Yani yanıp sönen ara hâlin rengi yeni sahibin renginin KOYULAŞTIRILMIŞIDIR —
+// yeni bir palet açılmadı (§11: ikinci bir renk otoritesi doğsaydı `renkler.py`
+// ile ayrışırdı), var olan renk çarpanla karartılıyor.
+// 🔴 TEK OTORİTE: SEFER-OK-0070'in oku da "işgal edenin renginin KOYU tonu"nu
+// istiyor (H-0006). O oturum `ANIM.koyuTon()` üzerinden BU fonksiyonu çağırır
+// (js/anim_dili.js yalnız vekâlet eder, kendi hesabını yazmaz).
+// ⚠️ Hex DIŞI bir değer (adlandırılmış renk, rgb()) gelirse KARARTILMAZ, aynen
+// döner — sessizce yanlış bir renk üretmektense değişmemiş renk yeğdir.
+function koyuTon(renk, oran) {
+  var m = /^#?([0-9a-f]{6})$/i.exec(String(renk || "").trim());
+  if (!m) return renk;
+  var o = (oran === undefined ? 0.45 : oran), n = parseInt(m[1], 16);
+  var r = Math.round(((n >> 16) & 255) * (1 - o));
+  var g = Math.round(((n >> 8) & 255) * (1 - o));
+  var b = Math.round((n & 255) * (1 - o));
+  return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+}
+
 function _sahipRengi(key) {
   if (!key) return "#e8dfc8";                       // sahipsiz — kara zemininin rengi
   if (key === "osmanli") return "#8e0b22";
@@ -8333,7 +8618,12 @@ function antlasmaFarkiTemizle() {
   ANT_FARK.madde = null;
   if (haritaHazir && harita.getSource("antlasma-fark")) harita.getSource("antlasma-fark").setData(bosVeri());
 }
-function _antlasmaHal(hal) {                         // "once" | "sonra" | "yok"
+// "once" | "sonra" | "koyu" | "yok"
+// 🆕 `koyu` (DALGA-0070 H-0008): el değiştiren bölgenin YENİ sahibinin koyu
+// tonu. Ayrı bir katman/dal AÇILMADI — özellik `_farkKutusuCiz`te her petek
+// için hesaplanıp geometrinin üstüne yazılıyor, burada yalnız `["get", hal]`
+// anahtarı değişiyor (D023: var olan mekanizma).
+function _antlasmaHal(hal) {
   if (ANT_FARK.dugmeler) {
     ANT_FARK.dugmeler.once.classList.toggle("secili", hal === "once");
     ANT_FARK.dugmeler.sonra.classList.toggle("secili", hal === "sonra");
@@ -8343,9 +8633,54 @@ function _antlasmaHal(hal) {                         // "once" | "sonra" | "yok"
   harita.setPaintProperty("antlasma-fark-dolgu", "fill-color", ["get", hal]);
   harita.setPaintProperty("antlasma-fark-dolgu", "fill-opacity", 0.92);
 }
-// Yanıp sönme: (öncesi → sonrası) × 3, sonra dolgu kalkar, altın kenar kalır.
-// Kare başına HESAP YOK — yalnız 7 kez setPaintProperty.
-function antlasmaFarkiKirp(gecikme) {
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 EL DEĞİŞTİRME DİLİ — DALGA-0070 H-0008 (Emre, 20 Eylül 2026), birebir:
+//   *"ele geçirilen bölge önce KOYU RENK ile gösterilip 2 kere yanıp
+//    söndükten sonra ÜÇÜNCÜDE ele geçiren ülkenin rengine bürünmeli. Bu
+//    BÜTÜN ülkelerin diğer ülke toprağını ele geçirme durumlarında bu şekilde
+//    olmalı, atlas boyunca TÜM ZAMANLARDA ve TÜM DEVLETLERDE."*
+//
+// 🔴 ESKİ DİZİ NEYDİ, NİÇİN DEĞİŞTİ: ["once","sonra"] × 3 + "yok" (MS 520).
+// O dizi "önce kimindi / sonra kimin oldu" sorusunu cevaplıyordu (PAKET-UI2,
+// antlaşma kutusu). Emre'nin yeni hükmü ONU DEĞİL, ele geçirmenin KENDİSİNİ
+// anlatan bir vurgu istiyor: iki karanlık vuruş, sonra yeni sahip.
+// 📌 Eski dizinin cevapladığı soru KAYBOLMADI — "◀ Öncesi / Sonrası ▶"
+//    düğmeleri duruyor ve elle istenildiği kadar karşılaştırma yapılıyor.
+//
+// ⚠️ SON VURUŞ "sonra"DA ASILI KALMAZ, ÇÖZÜLÜR. Sebebi ölçülebilir bir
+// doğruluk kuralı: örtü kalkınca altından haritanın KENDİ çizimi çıkar —
+// ilhaksa düz renk, İŞGALSE TARAMA. Örtüyü "yeni sahibin düz rengi"nde asılı
+// bıraksaydık işgal maddelerinde harita YALAN söylerdi (işgal edilen yer
+// nominal olarak hâlâ eski sahibinin — bkz. isgal katmanı notu, ~app.js:1780).
+// Böylece terim ayrımı (TERIM-STANDART-0070) ileride ne karara bağlanırsa
+// bağlansın bu animasyon kırılmaz. (SEFER-OK-0070 ile anlaşma: M-4703.)
+//
+// Kare başına HESAP YOK — yalnız 6 kez setPaintProperty; geçişi MapLibre'nin
+// `fill-opacity-transition`ı (250 ms, katman tanımında) yapıyor.
+var ELE_GECIRME_DILI = {
+  vurus: 2,          // Emre: "2 kere yanıp sönmeli"
+  yanikMs: 420,      // koyu tonun ekranda kaldığı süre
+  araMs: 180,        // iki vuruş arasındaki karanlık (sönük) aralık
+  sahipMs: 620       // 3. vuruş: yeni sahibin rengi — sonra örtü çözülür
+};
+// Diziyi ayrı bir fonksiyon üretir ki hem burası hem ölçüm aleti AYNI
+// tablodan okusun (sayıyı iki yere yazmamak — §11).
+function eleGecirmeDizisi() {
+  var s = [];
+  for (var i = 0; i < ELE_GECIRME_DILI.vurus; i++) {
+    s.push({ hal: "koyu", ms: ELE_GECIRME_DILI.yanikMs });
+    s.push({ hal: "yok", ms: ELE_GECIRME_DILI.araMs });
+  }
+  s.push({ hal: "sonra", ms: ELE_GECIRME_DILI.sahipMs });
+  s.push({ hal: "yok", ms: 0 });                    // çözülme — harita kendi rengini gösterir
+  return s;
+}
+
+// Yanıp sönme. Kare başına HESAP YOK — yalnız birkaç setPaintProperty.
+// `elle` — bu çağrı KULLANICININ "↻ Yakıp söndür" tıklaması mı, yoksa madde
+// açılınca kendiliğinden koşan SAHNE mi? Ayrım yalnız `prefers-reduced-motion`
+// açıkken önem kazanıyor (aşağıda).
+function antlasmaFarkiKirp(gecikme, elle) {
   ANT_FARK.zaman.forEach(clearTimeout);
   ANT_FARK.zaman = [];
   var azHareket = false;
@@ -8357,14 +8692,34 @@ function antlasmaFarkiKirp(gecikme) {
   // GERÇEKTEN true (azHareket=true), yani bu bir uydurma senaryo değil.
   // Animasyonu geri açmak erişilebilirliği bozar; çare TEK ADIMDA TOGGLE —
   // hareket yok ama düğme yine de bir şey yapıyor (önce↔sonra).
-  if (azHareket) {
+  if (azHareket && elle) {
     var suSonraMi = !!(ANT_FARK.dugmeler && ANT_FARK.dugmeler.sonra.classList.contains("secili"));
     _antlasmaHal(suSonraMi ? "once" : "sonra");
     return;
   }
-  var MS = 520, sira = ["once", "sonra", "once", "sonra", "once", "sonra", "yok"];
-  sira.forEach(function (h, i) {
-    ANT_FARK.zaman.push(setTimeout(function () { _antlasmaHal(h); }, (gecikme || 0) + i * MS));
+  // 🔴 DÜZELTİLDİ (DALGA-0070 H-0008, ELE-GECIRME-ANIM-0070, 20 Eylül 2026) —
+  // VE BU ÖLÇÜLDÜ, TAHMİN DEĞİL. Yukarıdaki toggle DÜĞME için doğruydu ama
+  // KENDİLİĞİNDEN koşan sahnede yanlıştı: tarayıcıda `azHareket` true çıkınca
+  // örtü "sonra" renginde %92 opaklıkta ASILI KALIYOR ve bir sonraki maddeye
+  // kadar haritanın KENDİ çizimini (işgal taraması dahil) örtüyordu.
+  // Ölçüm (bu oturum, Mekke 1803-04-30): tek iz satırı "797ms sonra op=0.92",
+  // 4,2 saniye boyunca değişmedi — yani sahne hiç bitmiyordu.
+  // ⇒ Hareket istemeyene AKAN bir animasyon verilmez, ama SONSUZ bir örtü de
+  //   verilmez: tek durak (yeni sahibin rengi) gösterilir ve ÇÖZÜLÜR.
+  if (azHareket) {
+    var durak = ELE_GECIRME_DILI.yanikMs + ELE_GECIRME_DILI.sahipMs;
+    ANT_FARK.zaman.push(setTimeout(function () { _antlasmaHal("sonra"); }, (gecikme || 0)));
+    ANT_FARK.zaman.push(setTimeout(function () { _antlasmaHal("yok"); }, (gecikme || 0) + durak));
+    return;
+  }
+  // 🆕 H-0008 dili: koyu × 2 → yeni sahip → çözül. Süreler artık EŞİT DEĞİL
+  // (koyu vuruş 420, ara 180, sahip 620) — bu yüzden `i * MS` yerine biriken
+  // zaman. Eski hâlde tek bir MS vardı ve "ara" ile "vuruş" aynı uzunluktaydı.
+  var t = (gecikme || 0);
+  eleGecirmeDizisi().forEach(function (adim) {
+    var an = t;
+    ANT_FARK.zaman.push(setTimeout(function () { _antlasmaHal(adim.hal); }, an));
+    t += adim.ms;
   });
 }
 function _antlasmaYukle(o, fs) {
@@ -8454,7 +8809,11 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
     liste.forEach(function (x) {
       var ix = (x.pi === undefined) ? null : G[x.pi];
       if (!ix || !ix.length) { eksik++; return; }
-      fsYerel.push({ type: "Feature", properties: { once: x.once, sonra: x.sonra, ad: x.ad },
+      // `koyu` — H-0008'in yanıp sönen ara hâli. Petek BAŞINA hesaplanıyor
+      // çünkü aynı maddede birden çok yeni sahip olabilir (1463: Travnik
+      // kazanılırken Yayça kaybediliyor); tek bir "koyu renk" sabiti ikisini
+      // de yanlış anlatırdı.
+      fsYerel.push({ type: "Feature", properties: { once: x.once, sonra: x.sonra, koyu: koyuTon(x.sonra), ad: x.ad },
                      geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return P[j]; }) } });
     });
     yazi.textContent = anaMetin + (eksik ? " · " + eksik + " bölgenin peteği yok, çizilmedi" : "");
@@ -8488,7 +8847,7 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
   }
   var bOnce = dugme("◀ Öncesi · " + _khGunYazi(gunIdx(onceStr)), "El değiştiren bölgeler ÖNCEKİ sahiplerinin renginde", function () { _antlasmaHal("once"); });
   var bSonra = dugme("Sonrası · " + _khGunYazi(kirilma) + " ▶", "El değiştiren bölgeler SONRAKİ sahiplerinin renginde", function () { _antlasmaHal("sonra"); });
-  dugme("↻ Yakıp söndür", "Farkları yeniden yakıp söndür", function () { antlasmaFarkiKirp(0); });
+  dugme("↻ Yakıp söndür", "Farkları yeniden yakıp söndür", function () { antlasmaFarkiKirp(0, true); });
   dugme("⌖ Farka odaklan", "Haritayı el değiştiren bölgelere çerçevele", function () {
     if (!ANT_FARK.kutu || !haritaHazir) return;
     var k = ANT_FARK.kutu;
@@ -8498,9 +8857,48 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
   ANT_FARK.dugmeler = { once: bOnce, sonra: bSonra };
   _antlasmaYukle(o, fsYerel);
   _antlasmaHal("yok");
-  // Gecikme: panel açılışı + uçuş başlangıcı; mevcut öncesi/sonrası KIRPMASI
-  // (bütün harita, ~900 ms) ile üst üste binmesin. Ölçülmedi — gözle ayarlanır.
-  antlasmaFarkiKirp(1600);
+  _eleGecirmeSahnesi();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// SAHNE TETİĞİ — DALGA-0070 H-0008 · ELE-GECIRME-ANIM-0070
+// Emre'nin sahne sırası: *"kronoloji maddesine geçildiği zaman harita uçuşa
+// geçerek olayın olduğu bölgeye ODAKLANMALI … odaklanma olduktan sonra ele
+// geçirilen bölge önce koyu renk ile gösterilip …"*  ⇒ vuruşlar kamera
+// VARDIKTAN sonra başlar.
+// 🔴 PASİF KİPTE ODAK ADIMI PAS GEÇİLİR, ANİMASYON GEÇİLMEZ. Emre: *"pasif
+// modda ise o zaman sanki bu odaklanma gerçekleşmiş gibi bu adım pas
+// geçilecektir."* — ATLANAN ODAKTIR, vuruşlar değil. `ANIM.sahnele` bunu
+// `ucusAcik()`e sorarak kendi ayırıyor (tek kapı — app.js:9837).
+//
+// ⚠️ İKİ ZAMANLAYICI DEĞİL, TEK TABLO: `js/anim_dili.js` yüklüyse sahne
+// sıralayıcıdan geçer (önce SEFER-OK-0070'in "ok" fazı yürür, sonra bizimki);
+// yüklü değilse AYNI `eleGecirmeDizisi()` tablosu sabit gecikmeyle koşar.
+// Vuruş sayısı/süresi TEK yerde (`ELE_GECIRME_DILI`) durur — dosya bağlansa da
+// bağlanmasa da animasyon dili AYNIDIR (D099: bağlanmamış dosya canlı değildir,
+// ama bu özellik onun yokluğunda da çalışmak zorunda).
+var _ELE_GECIRME_ANIM_GECIKME = 1600;   // ANIM yokken: panel açılışı + uçuş payı
+var _eleGecirmeKayitli = false;
+function _eleGecirmeFazlariniKaydet() {
+  if (_eleGecirmeKayitli || !window.ANIM || typeof ANIM.kayitOl !== "function") return;
+  _eleGecirmeKayitli = true;
+  ANIM.kayitOl("vurus", function (o, bitti) {
+    if (!ANT_FARK.fs || !ANT_FARK.fs.length) return false;   // bu maddede el değiştiren bölge yok → faz atlanır
+    antlasmaFarkiKirp(0);
+    var toplam = 0;
+    eleGecirmeDizisi().forEach(function (a) { toplam += a.ms; });
+    setTimeout(bitti, toplam);
+    return true;
+  });
+  // "cozul" — dizinin son adımı örtüyü zaten kaldırıyor; bu faz onu TEYİT
+  // eder (idempotent) ve sahnenin son halkası olarak adıyla durur, ileride
+  // araya girecek bir iş (ör. ok başının sönmesi) yerini burada bulur.
+  ANIM.kayitOl("cozul", function (o, bitti) { _antlasmaHal("yok"); bitti(); return true; });
+}
+function _eleGecirmeSahnesi() {
+  _eleGecirmeFazlariniKaydet();
+  if (window.ANIM && typeof ANIM.sahnele === "function") { ANIM.sahnele(ANT_FARK.madde); return; }
+  antlasmaFarkiKirp(_ELE_GECIRME_ANIM_GECIKME);
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -8741,6 +9139,8 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_akdeniz",     // window.EKOKUMA_AKDENIZ — EKO-AKDENIZ teslimi, tür 'tartisma'
   "ekokuma_deniz",       // window.EKOKUMA_DENIZ — EKO-DENIZ-0069 teslimi (0069/H-0001, 4 kart)
   "ekokuma_bakis",       // window.EKOKUMA_BAKIS — EKO-BAKIS-0069 teslimi (0069/H-0003, tür karsi-anlati, 17 kart)
+  // 🆕 20 Eylül 2026 — EKOKUMA-SIMGE-0070 (0070/H-0009)
+  "ekokuma_misir1805",   // window.EKOKUMA_MISIR1805 — 13 Mayıs 1805'in Mısır tarih yazımındaki yeri (1 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
@@ -9100,6 +9500,24 @@ function _ekSatirBasligi(tur, k) {
   if (ip.length > 60) ip = ip.slice(0, 59).replace(/\s+\S*$/, "") + "…";
   return { etiket: et, ipucu: ip, tam: ham };
 }
+// 🆕 20 Eylül 2026 — EKOKUMA-SIMGE-0070 (paket 0070/H-0001, Emre): *"yerden
+// tasarruf için … simge yapalım ve üzerine gelince teknik bilimsel ek okuma
+// kategorisi … yansın ama madde başlığı görünsün. satırın başında sembol
+// olsun ve sembolün üstüne gelince … yazı görülsün, sembolün yanında ek okuma
+// maddesinin başlığı görünsün."* ⇒ Satır başındaki tür etiketi artık YALNIZ
+// SİMGE; kategori adı simgenin ipucunda, satırın yazı alanı tamamen maddenin
+// BAŞLIĞINA kalıyor (ölçüm: "🔬 Teknik / Bilimsel" 18 karakter yiyordu).
+// 🔴 İKİNCİ KAYNAK AÇILMADI: simge ve ad AYNI `etiket` dizgesinden ayrılıyor
+// (ilk boşluğa kadarı simge). Ayrı bir {simge, ad} tablosu açmak, EKOKUMA_TUR
+// ile AKORDEON_EK_TUR'ün etiketlerini ikinci kez yazmak olurdu — bu projede
+// üç kez bayatlayan desen (D045). Etiketi olmayan/boşluksuz bir tür gelirse
+// simge = etiketin kendisi, ad = etiket: satır yine çizilir.
+function _ekEtiketiBol(et) {
+  var s = String(et == null ? "" : et).trim();
+  var i = s.indexOf(" ");
+  if (i < 0) return { simge: s, ad: s };
+  return { simge: s.slice(0, i), ad: s.slice(i + 1).trim() };
+}
 var _ekAkordeonAcik = -1;              // -1 = ana açıklama açık
 function ekAkordeonKur(kutu, satirlar) {
   var detay = document.getElementById("ob-detay");
@@ -9128,17 +9546,30 @@ function ekAkordeonKur(kutu, satirlar) {
     btn.type = "button";
     btn.className = "ek-ak-baslik";
     btn.setAttribute("aria-expanded", "false");
+    // EKOKUMA-SIMGE-0070 (0070/H-0001): satır başı = SİMGE, yanı = maddenin
+    // BAŞLIĞI. Kategori adı simgenin ipucunda.
+    var bol = _ekEtiketiBol(bas.etiket);
+    // İpucu cümlesi: ek okuma türlerinde Emre'nin istediği biçim ("… ek
+    // okuma"), kartvizit/kişi satırlarında yalnız adı — o satırlar ek okuma
+    // KARTI değil (AKORDEON_EK_TUR), "künye ek okuma" yanlış olurdu.
+    var turAdi = bol.ad + (EKOKUMA_TUR[s.tur] ? " ek okuma" : "");
     var e1 = document.createElement("span");
-    e1.className = "ek-ak-etiket";
-    e1.textContent = bas.etiket;
+    e1.className = "ek-ak-simge";
+    e1.textContent = bol.simge;
+    e1.title = turAdi;                        // yerli ipucu (gecikmeli, yedek)
+    e1.setAttribute("data-ipucu", turAdi);    // CSS ipucu (anında) — css/style.css
+    e1.setAttribute("aria-label", turAdi);    // simge tek başına okunmaz
     btn.appendChild(e1);
-    if (bas.ipucu) {
-      var e2 = document.createElement("span");
-      e2.className = "ek-ak-ipucu";
-      e2.textContent = bas.ipucu;
-      btn.appendChild(e2);
-      btn.title = bas.etiket + " — " + bas.tam;
-    }
+    // 🔴 BAŞLIKSIZ KART SİMGEYLE YALNIZ KALMAZ. Ölçüm (20 Eylül 2026, bu
+    // oturum): havuzdaki 554 kartın 197'sinde `soru`/`baslik`/`ad` YOK;
+    // 168'ini `EKOBASLIK_ONERI` kurtarıyor, 29'unda o da yok. Eski satırda
+    // bu kartlar hiç değilse tür etiketini gösteriyordu; etiket simgeye
+    // inince bu 29 satır BOŞ görünürdü. ⇒ başlık yoksa kategori adı yazıya düşer.
+    var yazi = document.createElement("span");
+    yazi.className = bas.ipucu ? "ek-ak-ipucu" : "ek-ak-etiket";
+    yazi.textContent = bas.ipucu || bol.ad;
+    btn.appendChild(yazi);
+    btn.title = turAdi + (bas.tam ? " — " + bas.tam : "");
     var gov = document.createElement("div");
     gov.className = "ek-ak-govde";
     gov.hidden = true;
@@ -9481,7 +9912,9 @@ function oynatDurdur() {
           ? olaylar[_lo - 1] : null;
         if (_son && _son.gi !== _sonIsaretGun) {
           var _kon = olayKonumu(_son);
-          if (_kon) { _sonIsaretGun = _son.gi; isaretYanipSon(_kon); }
+          // H-0007: zaman akarken geçilen olayın işareti de aynı dili konuşur
+          // (glif aynı kuraldan — iki ayrı çağrı, TEK kural).
+          if (_kon) { _sonIsaretGun = _son.gi; isaretYanipSon(_kon, olayMuharebeTuru(_son)); }
         }
       } catch (eAkis) { /* işaret şart değil, akış durmasın */ }
       if (zamanlayici) requestAnimationFrame(_tik);
@@ -10205,7 +10638,7 @@ function haritayiOlayaGotur(o, zorla) {
   // üçünü ayrı ayrı çağırmak, birini unutmanın kesin yoluydu.
   // 📌 `KAMERA` hakemi kamerayı tek kapıya toplamıştı; bu da VARIŞI topluyor.
   function _varista() {
-    isaretYanipSon(hedef);              // NEREDE olduğunu söyler
+    isaretYanipSon(hedef, olayMuharebeTuru(o));   // NEREDE (halka) + NE (glif, H-0007)
     // 🆕 13 Eylül 2026 — H-0006: savaş maddelerinde savaşın KENDİ simgesi de
     // (kılıç/çapa/ateş — SAVAS_TUR_SIMGE) ayrıca 3 kez parlar; genel altın
     // halkanın (`hedef`, yer_id/yer_kon'a bağlı) yanı sıra, savaşın kendi
@@ -10213,6 +10646,11 @@ function haritayiOlayaGotur(o, zorla) {
     if (o.k === "savas") savasIsaretiParlat(o.gi);
     oncesiSonrasiKirp(o.gi);            // NE OLDUĞUNU söyler
     panelCarp();                        // ADIM ATILDIĞINI söyler
+    // 🆕 DALGA-0070 H-0008: kamera VARDI — el değiştirme sahnesi tavanı
+    // beklemeden başlasın. Sahneyi burada KURMUYORUZ (onu `obGoster` yolundaki
+    // `_farkKutusuCiz` kuruyor), yalnız "vardım" diyoruz; varış kapısı zaten
+    // TEK ve burası (22 Ağustos notu, yukarıda).
+    try { if (window.ANIM && ANIM.varisBildir) ANIM.varisBildir(); } catch (eAn) { }
   }
 
   if (_ekrandaMi(hedef, _kap) &&
@@ -10729,12 +11167,27 @@ function panelCarp() {
 }
 
 var _yanipSonEl = null, _yanipSonZaman = null;
-function isaretYanipSon(hedef) {
+// 🆕 DALGA-0070 H-0007 (ELE-GECIRME-ANIM-0070, 20 Eylül 2026) — `glif`.
+// Emre: *"olayın gerçekleştiği alan YANIP SÖNEN EMOJİ ile gösterilmeli."*
+// Bugüne kadar burada yalnız altın HALKA yanıp sönüyordu; halka "nerede"yi
+// söylüyor, "ne"yi söylemiyordu. Glif halkanın İÇİNE giriyor — ikinci bir
+// işaret, ikinci bir animasyon ve ikinci bir zamanlayıcı AÇILMADI (D045);
+// aynı `.odak-parlama` elemanı, aynı `odakParla` keyframe'i, aynı 1800 ms.
+// ⚠️ Glif UYDURULMAZ: `olayMuharebeTuru(o)` kuralından gelir (madde türü /
+//    etiketi). Türetilemeyen maddede halka ESKİSİ GİBİ yalnız halkadır —
+//    boş bir emoji koymak, hiç koymamaktan kötüdür.
+function isaretYanipSon(hedef, glif) {
   try {
     if (_yanipSonZaman) { clearTimeout(_yanipSonZaman); _yanipSonZaman = null; }
     if (_yanipSonEl) { _yanipSonEl.remove(); _yanipSonEl = null; }
     var el = document.createElement("div");
     el.className = "odak-parlama";
+    if (glif) {
+      var g = document.createElement("span");
+      g.className = "odak-glif";
+      g.textContent = glif;
+      el.appendChild(g);
+    }
     _yanipSonEl = new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat([hedef.lon, hedef.lat]).addTo(harita);
     // CSS animasyonu 3 çevrim (0,55 sn × 3 = 1,65 sn) — süre oradan geliyor,
