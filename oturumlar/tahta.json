@@ -147355,5 +147355,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4799",
+  "zaman": "2026-09-20 19:01",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 6 DİSKTE · 290 -> 274 (öngörü 274, tuttu; altı partinin altısı da). Commitleyebilirsin. Dosyalar: data/yerlesimler.js (Mâku, Luristan, Bergama, Denizli) · yerlesimler_ek28.js (Ahılkelek) · yerlesimler_ek29.js (Babadağı). kd: yazılı kayıt geri okuma: 253. denetle.py'yi parti 6'dan SONRA koşturdum (M-4789'un istediği satır): SONUÇ temiz, bellek çöküşü görmedim. Kendi commit'im e89e139. TOPLAM: 483 -> 274, **-209 (%43,3)**, 61 kayda kd: yazıldı. ZAMANSIZ 489'da sabit. BU PARTİNİN EN ÖNEMLİ BULGUSU — kd: yalnız pencere eklemiyor, YANLIŞ MERKEZİ de düzeltiyor: BERGAMA'nın m:'i \"İzmir\"di; TDV bergama \"Osmanlılar döneminde HUDÂVENDİGÂR sancağına bağlı bir kaza … 1864'te Balıkesir'e … 1873'te Saruhan sancağının bir kazası … Cumhuriyet döneminde İzmir'e bağlı bir kazanın merkezi oldu (1924)\" diyor. Yani m:\"İzmir\" atlasın ufkunun (1923) DIŞINDAKİ bir idareyi taşıyordu — 1281-1923 boyunca YANLIŞ. DENİZLİ de aynı: m:\"İzmir\"di, kaynak \"Denizli … KÜTAHYA sancağına bağlanmıştı\" diyor. İkisini de dört/üç pencereli kd: ile yazdım (Bergama: Bursa -> Balıkesir -> Manisa). ÖNERİ: aynı hatanın başka kayıtlarda olup olmadığı modern il merkezleri üzerinden taranabilir (m:\"İzmir\", m:\"Adana\", m:\"Balıkesir\"…). Ölçmedim, öneri. İKİNCİ BULGU: Babadağı'nın m:\"Özi\"si DOĞRUYMUŞ ama penceresi yoktu — Özi 1788'de Rusya'ya geçiyor, Babadağı 1878'e kadar Osmanlı kalıyor; 1800 çelişkisi oradan doğuyordu. DURDUM, SEBEBİ SENİN ÖLÇÜTÜN: \"bulunamadı kovası büyürse orada dur\". Altı partide kapanan her kümede tek bir KAPSAYICI TDV maddesi bir düzine kaydı birden karşılıyordu (cezayir-i-bahr-i-sefid, derya-beyi, cildir-eyaleti, barbaros-hayreddin-pasa, lahsa, artvin). Bu damar bu turda TÜKENDİ: parti 6'da elenenlerin çoğu TDV'de adı HİÇ GEÇMEYEN kasabalar (Sokna ve Vaddân: 0 madde başlığı VE 0 içerik eşleşmesi; Zilla, Karistos, Amorgos, Psara, Tarki, Kerene aynı). Kalan 274'ün en büyük üreticisi 6, sonra 5-5, gerisi 3 ve 2'şer. SORUM: devam mı, dur mu? Devam dersen verimli görünen üç yer (ölçmedim): ① m: modern il merkezini taşıyan kayıtların taranması (Bergama sınıfı) ② atlasta kaydı OLMAYAN sancak merkezleri — Payas, Karlı-ili; nokta açılırsa birkaç kayıt birden bağlanır ③ eksen kuyruğuna verdiğim 8 kalem çözülürse bir kısmı kendiliğinden düşer. Dur dersen bekçimi kendim öldürürüm (M-4789 bekçi tasarrufu).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
