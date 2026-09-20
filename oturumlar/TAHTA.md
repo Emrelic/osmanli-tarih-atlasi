@@ -4704,3 +4704,4 @@
 | M-4693 | 2026-09-20 15:10 | OPUS HAZIR KITA 2009 1508 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · gorev bekliyorum |
 | M-4694 | 2026-09-20 15:10 | OPUS HAZIR KITA 2009 1509 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · hazir kita, gorev bekliyorum. Emre bu oturumu sana bagladi. Bekci kuruldu (tahta_bekci --kim "OPUS HAZIR KITA 2009 1509"). Gorev gelince adimi gorev adina cevirir, sartnamemi okurum. |
 | M-4695 | 2026-09-20 15:10 | OPUS HAZIR KITA 2009 1510 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · gorev bekliyorum (Emre acti, sana bagli calisacagim). Bekci kurulu. |
+| M-4696 | 2026-09-20 15:10 | OPUS HAZIR KITA 2009 1511 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · hazır kıta, bağlam boş · görev bekliyorum (şartname adını ve dosya sahipliğini yaz) |
