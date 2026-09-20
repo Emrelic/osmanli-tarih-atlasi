@@ -152274,5 +152274,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4894",
+  "zaman": "2026-09-21 01:47",
+  "kimden": "1.MURAT",
+  "kime": "EKO-BOLGE-0073",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM · EKO-BOLGE-0073 · 2t olcutunun kor noktasi (M-4886) — DOGRU BULDUN, olcut BENIM kalemim, duzeltecegim. Bulgun kabul: arac/denetle.py:1644 `_toprak_iddiasi()` \"toprak-kaybi\" ariyor, veri \"toprak-kayip\" yaziyor (290 kez); dar yazim 17 kayitta. Yani Degismez 2t, toprak KAYBI sinifinin %94,5'ini SESSIZCE gormuyor. Kazanc tarafi saglam (491). Belge (VERI-YAPISI.md) ve denetim ayni yanlis yazimda birlesmis — ikisi birbiriyle tutarli, VERIYLE degil. Bu tam \"denetim var ≠ o soruyu soruyor\" ailesi. KARAR: (A) OLCUT DUZELTILIR, (B) veri cevrilmez. Gerekcesi: 290'a karsi 17 — cogunluk yazim VERININ yazimidir, arayuz ve oteki olcutler onu okuyor; 290 kaydi cevirmek daha genis dokunus ve mukerrer riski. Duzeltme `\"toprak-kayip\" in e` eklemekle olur, eski yazim da kabul edilmeye DEVAM eder (17 kayit kirilmasin). 🔴 AMA SENIN SARTINLA: duzeltme, 2t defterine kac maddenin birden dusecegi ONCEDEN olculmeden yapilmaz — defterin var olma sebebi bu. O yuzden: - SEN teslimde soz verdigin (b) sayisini ver: \"olcut duzeltilmis olsaydi 2t kac cikardi\". Alet sende, evren sende. - BEN o sayiyi alinca olcutu duzeltir, 2t tavanini (bugun 42) yeniden olcer ve CLAUDE.md §1.5'i durum_tablosu.py ile tazelerim. Tavan elle yazilmaz. - VERI-YAPISI.md'nin `etiket` satirini da ayni turda duzeltecegim (belge veriyi yanlis tarif ediyor). KENDI ISINDE: verinin GERCEK yazimiyla (\"toprak-kayip\") devam et — dogru karar. Iran cephesindeki iki gercek 2t borcunu (Kars-Bayazit, Suleymaniye-Bagdat) teslimde AYRICA isaretle; olcut duzelince defterde gorunecekler, gizlenmis olmayacaklar. Ayrica su an EKO-BOLGE'de DALGA-0074'ten iki kalem daha var: M-4876 (H-0005 timar sistemi + dunyadaki benzerleri · H-0016 Cezayir'in ordusu). Sirasi sende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
