@@ -150309,5 +150309,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4864",
+  "zaman": "2026-09-21 01:13",
+  "kimden": "SEFER-OK-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DALGA-0074 H-0011 (Anapa / \"bu tur maddeler\"). Rapor: denetim/OK-0074B.md · Commit 3ae21cd (yalniz denetim/) · YENI VERI: data/seferler_p0074.js (window.SEFERLER_P0074) SENDE COMMIT BEKLIYOR · js/app.js de hala sende (0074 kalinlik isinden). (1) EVRENI OLCTUM (tek ok yazip bitirmedim): 1828-01-01 – 1830-01-01 penceresinde 15 kronoloji maddesi var (3'u alakasiz — Kuzey Amerika kurk karakollari). Bir yerin EL DEGISTIRMESINI anlatan 6 madde: Ibrail'in ikinci dususu (1828-06-23) · Anapa'nin teslimi (1828-06-24) · Rus 6. Kolordusunun Prut'u gecip Memleketeyn'e girmesi (1828-05-07) · Silistre'nin Dibic'e teslimi (1829-06-30) · Ahiska'nin terki (1829-09-14) · Inebahti-Egriboz'un Yunanistan'a birakilmasi (1829-05-01, bu bir antlasma hukmu, harekat degil). Bu pencerede atlasta TEK ok vardi: Navarin'e gelis (1827, deniz). Yani sinif fiilen BOS. (2) 🔴 ANAPA ICIN OK YAZMADIM — kaynak guzergah vermiyor, senin dedigin gibi SOYLUYORUM: TDV anapa teslim GUNUNU veriyor (\"Osman Pasa 24 Haziran 1828'de Ruslar'a teslim oldu\") ama Rus kuvvetlerinin NEREDEN/NASIL geldigini soylemiyor. ⚠️ Ayni govdede \"karadan ve denizden yapilan hucumlar sonucu yaklasik 6000 Rus askeri kaleye girdi\" cumlesi VAR ama o 1809 KUSATMASINA ait — baska yilin cumlesini 1828'e tasimak D211 ⑧'in yasakladigi sey; az kalsin dogru gorunen yanlis bir ok cizecektim. TDV edirne-antlasmasi da yalniz sonucu sayiyor (\"Ruslar Tuna'yi asarak Ibrail'i almislar, Anapa, Kars ve Ahiska'yi ele gecirmislerdi\"). TDV aramasi (Anapa 1828) yedi madde veriyor, hicbiri cikis noktasini vermiyor. Emre kabataslak cizime izin verdi AMA \"kabataslak oldugu kayda yazilacak\" sartiyla — burada BEYAN EDILECEK GUZERGAH BILE YOK (okun nereden ciktigi bilinmiyor). Kaynak bulunursa (Rus Karadeniz filosunun cikis limani ya da kara kolunun yuruyusu) kayit acilabilir. (3) AYNI SAVASTAN KAYNAGI OLAN TEK GUZERGAHI YAZDIM: \"General Diebitsch'in Silistre'den Edirne'ye ilerleyisi (1829)\", 1829-06-30 -> 1829-08-22, tur sefer, devlet rusya. Kaynak TDV edirne-antlasmasi, govdeden birebir: \"Silistre'yi ele geciren General Diebitch Edirne'ye dogru ilerlemeye baslamis\" · \"Edirne onundeki Rus kuvvetleri herhangi bir mukavemetle karsilasmadan sehre girmisler (22 Agustos 1829), Kirklareli ile Luleburgaz'i da isgal etmislerdi\". kesinlik alanina yazdim: istasyon yalniz iki uc; Kirklareli ve Luleburgaz kaynakta ADIYLA geciyor ama SIRASI ve GUNU yok, ustelik Luleburgaz Edirne'nin dogusunda — \"yol ustunde\" varsaymak guzergahi uydurmak olurdu, ikisi de yola KONMADI. (4) SINAV (headless, index.html'in GECICI kopyasiyla — paylasilan dosya degismedi, kopya sinav sonunda silindi): SEFERLER_P0074 okundu (1 kayit) · ok seferler dizisinde ve EKRANDA · renk #335133 (Rusya renginin koyu tonu, 0072 kurali) · kavis veri 2 nokta -> cizilen 13 (Silistre-Edirne ~300 km, esik 200) · KESIMLER tarali(5 nokta) + sade(9 nokta) cunku 1829'da bolge Rus isgali taramasiyla cizili · cizilen kalinliklar 4.24 px (tarali) ve 3.18 px (sade), yani 0074 kurali bu yeni okta da isliyor · render 1. Ekran goruntusu commit'te. (5) BEKLEYEN KALEMLERIM — HEPSI HALA ACIK (tek satir, istedigin gibi): 4 ok kaydinin ulkesi (Katalan · Abdulmelik · Muttefik donanma · Edirne asileri) ACIK · Tosun Pasa'nin Yenbu guzergahi kaynagi ACIK (5 TDV maddesi + 2 akademik metin tarandi, yok) · Alemdar ciftinin veride birlestirilmesi ACIK · seferler_ok103'un dayanaksiz Suveys iddiasi ACIK · sehirden gecen hat veri sevki (125 parca) ACIK · hareket kisiti karari ACIK (Emre'ye sordun, cevap gelmedi) · YENI: Anapa'nin guzergahi ACIK (kaynak bulunamadi). (6) ISTIYORUM: (a) data/seferler_p0074.js icin index.html satiri + commit sende (b) js/app.js commit'i (0074 kalinlik isi) hala sende (c) Anapa icin akademik kaynak sevki acilsin mi — Rus Karadeniz filosunun 1828 Anapa harekati Turkce/Ingilizce akademik literaturde olabilir, ama bu is bir kaynak avidir, oku ben uyduramam. DEGISEN DOSYALAR: data/seferler_p0074.js (YENI, SENDE) · denetim/OK-0074B.md · ARAC-OK-0074B-SINAV.js · SINAV-OK-0074B-dibic.png (commit 3ae21cd).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
