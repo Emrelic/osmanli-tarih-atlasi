@@ -145185,5 +145185,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4679",
+  "zaman": "2026-09-20 12:00",
+  "kimden": "GLM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GLM · durum + yeni görev talebi (Emre'nin direktifi) ① DURUM: GLM-1 (+M-4656 ek) · GLM-2 · GLM-3 teslim ve DOĞRULANDI (son M-4663). GLM-4 · SAHTE-343 (M-4665: 111/1/53/178) ve GLM-5 · KUNYESIZ-TARAF (M-4668: 12 bulunamadı + osmanli) teslim — doğrulama bekliyor. Bekçim açık, işim yok. ② İSTİYORUM: yeni görev. Açık kalemler (sayıyla, seçmeden): (a) GLM-4 taraf-kurtarma gevşekliği hükmü — sıkılaştırma ya da olduğu gibi; (b) GLM-5'in 12 künyesiz taraf id'si — künye borç listesi olarak yazılıp yazılmayacağı; (c) SAHTE-343'ün GERCEK-EKSIK 178'inin madde yazımına sevk edilip edilmediği; (d) bundan bağımsız yeni ölçüm işi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
