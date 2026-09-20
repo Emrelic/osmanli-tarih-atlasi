@@ -35,6 +35,20 @@
         "not": "Bu partide 2s'de kapanma ve yeni celiski OLMADI — beklenen: hedef sema borcu, 2s degil.",
         "ihlal": "yok"
       }
+    },
+    {
+      "parti": 3,
+      "tarih": "2026-09-20",
+      "incelenen_kayit": 18,
+      "uygulanan": 1,
+      "olculemedi": 17,
+      "olcum": {
+        "2s_acik_once": 191,
+        "2s_acik_sonra": 191,
+        "degismez3z_zamansiz_once": 489,
+        "degismez3z_zamansiz_sonra": 489,
+        "ihlal": "yok"
+      }
     }
   ],
   "uygulanan": [
@@ -127,6 +141,18 @@
       "kaynak_url": "https://islamansiklopedisi.org.tr/sur--lubnan",
       "guven": "ORTA",
       "not": "UC DONEM var: Sam (1516-1660) -> Sayda (1660-1865) -> «1865 Vilayet Nizamnamesi'nin ardindan ... Sur Beyrut sancagina bagli bir kaza merkezi haline getirildi». m: zamansiz oldugu icin EN UZUN donem (Sayda, ~205 yil) yazildi; dogru ifade kd: ister. Slug tuzagi: /sur arama sayfasina dusuyor, dogru slug /sur--lubnan (TDV ayni adda 4 madde tutuyor: sur--kale, sur--kiyamet, sur--lubnan)."
+    },
+    {
+      "yerlesim": "Ordubad",
+      "parti": 3,
+      "dosya": "data/yerlesimler.js",
+      "eski_m": null,
+      "yeni_m": "Nahçıvan",
+      "zincir": "Ordubad(k=3) -> Nahçıvan(k=3) -> Revan(k=2)",
+      "dayanak": "TDV 'NAHCIVAN': «1590'larda Revan eyaletine bağlı Nahcıvan bölgesi, Nahcıvan (yedi nahiye…), Şerûr (beş nahiye…) ve Ordubâd (beş nahiye: Ordubâd, Culha, Âzad-Ceyr…)» ⇒ Ordubâd, Revan eyaletine bağlı Nahcıvan bölgesinin üç ana biriminden biri.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/nahcivan",
+      "guven": "YUKSEK",
+      "not": "Verideki Osmanli donemi 1586-01..1603-10; TDV'nin '1590'larda' ifadesi TAM bu pencerenin icinde. Veri zinciri TDV'nin hiyerarsisini birebir tasiyor: Ordubad -> Nahcivan -> Revan. Ayrica bu madde GLM'in 'Revan -> Ardahan/Sarikamis' onerisini de curutuyor: Revan EYALET merkezidir."
     }
   ],
   "olculemedi": [
@@ -303,6 +329,108 @@
       "parti": 2,
       "sebep": "Ayni — BOSNA kumesi.",
       "kaynak_url": "https://islamansiklopedisi.org.tr/bosna-hersek"
+    },
+    {
+      "yerlesim": "Gevgili (Gevgelija)",
+      "parti": 3,
+      "sebep": "TDV 'GEVGİLİ' maddesi VAR (12.444 karakter) ama sancak vermiyor — «1383'ten 1912'ye kadar Osmanlı idaresi altında kalan … Osmanlı kazasının da adıdır» diyor, kaza seviyesinde kaliyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/gevgili"
+    },
+    {
+      "yerlesim": "İshaklı",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK; tek isabet 'İSHAKLI KERVANSARAYI — Akşehir yakınlarında'. Bu idari hukum degil. 🔴 AMA GLM onerisini ('Beysehir') curutuyor: TDV yeri AKSEHIR yakini diye konumluyor, Beysehir degil.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=işhaklı"
+    },
+    {
+      "yerlesim": "Kızıkermen (Gazi Kerman)",
+      "parti": 3,
+      "sebep": "TDV'de madde basligi YOK (ne 'kızıkermen' ne 'gazi kerman').",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=kızıkermen"
+    },
+    {
+      "yerlesim": "Kuban (Yekaterinodar)",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK; tek madde ANAPA ('Kuban nehri havzasinda eski bir sinir kalesi') — nehir havzasi, sehir degil.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=kuban"
+    },
+    {
+      "yerlesim": "Tuapse",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK; yalniz 3 madde icinde adi geciyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=tuapse"
+    },
+    {
+      "yerlesim": "Seyûn (Sayvan)",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK; SABBAN maddesinde 'Sultanligi'nin merkezi olan Sey'un sehri' diye geciyor — Kasiri sultanligi baglami, Osmanli sancagi degil. Kayit zaten yalniz tabi (1538-1635).",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=seyûn"
+    },
+    {
+      "yerlesim": "Nadin",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK; DALMAÇYA maddesinde adi geciyor ama sancagi verilmiyor. Kapsayici TDV 'KLİS' maddesi (Klis sancagi, 1537-1699 — kaydin 1540-1699 penceresiyle ortusuyor) TARANDI: Nadin ve Vrana maddede HIC gecmiyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/klis"
+    },
+    {
+      "yerlesim": "Vrana (Urana)",
+      "parti": 3,
+      "sebep": "Ayni — KLİS maddesinde gecmiyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/klis"
+    },
+    {
+      "yerlesim": "İshakçı (Isaccea)",
+      "parti": 3,
+      "sebep": "TDV aramasinda HIC sonuc yok (madde basligi da icerik de 0).",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=isakcı"
+    },
+    {
+      "yerlesim": "Zamantı (Pınarbaşı)",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK; ANADOLU maddesinde bir liste icinde geciyor («Sivas'tan Yeni-il, Zamantı, Kayseri, Nevşehir, Niğde…») — liste, idari hukum degil.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=zamantı"
+    },
+    {
+      "yerlesim": "Kasr-ı Şîrîn",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK; uc isabetin ucu de YANLIS POZITIF ('sirin bir vadi', 'Kasr-ı Süreyyâ').",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=kasr-ı şirin"
+    },
+    {
+      "yerlesim": "Şemdinli (Şemdinni)",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK. Kapsayici TDV 'HAKKÂRİ' maddesi Hakkari'nin Van eyaletine bagli ocaklik sancak oldugunu soyluyor, ama Semdinli'yi yalniz MODERN ilce olarak aniyor («…ilçeden başka Çukurca, Şemdinli ve Yüksekova ilçelerine…»). Modern ilce, Osmanli kazasi degildir — yazilmadi.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/hakkari"
+    },
+    {
+      "yerlesim": "Bacirge (Esendere)",
+      "parti": 3,
+      "sebep": "Ayni — koy taneciginde TDV maddesi yok; HAKKÂRİ maddesi de anmiyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/hakkari"
+    },
+    {
+      "yerlesim": "Şeyhrumi (Yücelen)",
+      "parti": 3,
+      "sebep": "Ayni — koy taneciginde TDV maddesi yok.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/hakkari"
+    },
+    {
+      "yerlesim": "Lanzaka (Lagkadas)",
+      "parti": 3,
+      "sebep": "TDV aramasinda HIC sonuc yok.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=lagkadas"
+    },
+    {
+      "yerlesim": "Praviște (Eleftheroupoli)",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK; yalniz BATI TRAKYA gibi maddelerin icinde geciyor.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=pravişte"
+    },
+    {
+      "yerlesim": "Yagodina (Jagodina)",
+      "parti": 3,
+      "sebep": "Kendi maddesi YOK ('jagodina' aramasi 0 sonuc). Tek isabet HACI İVAZ PAŞA maddesinde dogum yeri notu: «Belgrad yakınlarındaki Yagodina'da doğdu» — konum bilgisi, idari hukum degil. 🔴 Bu not GLM'in 'Yenipazar' onerisini de curutuyor: TDV yeri BELGRAD yakini diye konumluyor, Yenipazar (Novi Pazar) degil.",
+      "kaynak_url": "https://islamansiklopedisi.org.tr/arama/?q=yagodina"
     }
   ],
   "baska_alan_borcu": [
@@ -314,26 +442,33 @@
       "etki": "k:2 yazilirsa Vize'nin k12 zinciri m: OLMADAN kapanir ve 86'lik acik zincir listesinden duser."
     }
   ],
-  "kalan": {
-    "not": "58 hedef kaydin 41'i incelendi (parti 1: 20, parti 2: 21). Kalan 17, 3. partiye.",
-    "liste": [
-      "Gevgili (Gevgelija)",
-      "Kızıkermen (Gazi Kerman)",
-      "Kuban (Yekaterinodar)",
-      "Tuapse",
-      "Seyûn (Sayvan)",
-      "Nadin",
-      "Vrana (Urana)",
-      "İshakçı (Isaccea)",
-      "İshaklı",
-      "Zamantı (Pınarbaşı)",
-      "Kasr-ı Şîrîn",
-      "Ordubad",
-      "Bacirge (Esendere)",
-      "Şemdinli (Şemdinni)",
-      "Şeyhrumi (Yücelen)",
-      "Lanzaka (Lagkadas)",
-      "Praviște (Eleftheroupoli)"
+  "kapanis": {
+    "durum": "58 hedef kaydin TAMAMI incelendi (parti 1: 20 · parti 2: 21 · parti 3: 18). Sayim denetim/ARAC-M-ALANI-0920.py [3] bolumuyle karsilastirilarak dogrulandi; ilk sayimda atlanan Yagodina bu kontrolde yakalandi ve eklendi.",
+    "uygulanan": 9,
+    "olculemedi": 48,
+    "baska_alan_borcu": 1,
+    "kaynak_orani": "9/58 = %16 yazilabildi. Kalanin buyuk cogunlugu TDV'de KENDI MADDESI OLMAYAN kasaba/koy; kapsayici madde de sancak vermiyor.",
+    "zincir_olcumu": {
+      "k12_zinciri_acik_once": 86,
+      "k12_zinciri_acik_sonra": 77,
+      "kesisim_once": 58,
+      "kesisim_sonra": 49,
+      "not": "Isin ASIL olcusu budur: motorun uret_petek.py:1075'te uyardigi acik zincir sayisi 9 azaldi."
+    },
+    "2s_olcumu": {
+      "once": 192,
+      "sonra": 191,
+      "not": "Yan urun — hedef degildi (M-4689)."
+    },
+    "degismez3z": {
+      "once": 482,
+      "sonra": 489,
+      "not": "+7, hepsi zaman penceresi sinifi; dogru m: yazmak celiski EVRENINI buyutur."
+    },
+    "acik_sevkler": [
+      "Vize: k:3 -> k:2 (TDV: 'Vize sancagi' vardi; m: degil k: isi)",
+      "Hoy: kd: icindeki m:null karari (kd_oku ust duzey m:'yi okumaz)",
+      "2s kapisinin m: bacagi: kaldirilirsa acik 192 -> 244"
     ]
   }
 }

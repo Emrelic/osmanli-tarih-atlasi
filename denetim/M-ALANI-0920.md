@@ -257,22 +257,71 @@ Kudüs'e bağlı bir kazanın altına sokuyordu. TDV üç ayrı dönemde (Memlü
 Bu partide 2s'de kapanma **olmadı** ve yeni çelişki **doğmadı**. Beklenen: hedef 2s değil,
 şema borcudur (M-4689: *"2s'de kapanma olursa yan üründür, hedef değil"*).
 
-## 8. Açık kalemler
-- **3. parti — kalan 17 kayıt** (58 − 41): Gevgili · Kızıkermen · Kuban · Tuapse · Seyûn ·
-  Nadin · Vrana · İshakçı · İshaklı · Zamantı · Kasr-ı Şîrîn · Ordubad · Bacirge ·
-  Şemdinli · Şeyhrumi · Lanzaka · Praviște.
-- **Sevk edilen:** Vize `k:3 → k:2` · Hoy'un `kd:` içindeki `m:null` kararı · 2s kapısının
-  `m:` bacağı (taban 244).
-- **Gözlem — kaynak tavanı:** 41 kaydın **10'u** (%24) yazılabildi. Kalanın çoğu TDV'de
-  kendi maddesi olmayan kasabalar; kapsayıcı madde de sancak vermiyor. 58'in tamamının
-  `m:` ile kapanmasını **beklemeyin** — gerçekçi tavan bu oranda.
+### 7.6 (B) — 3. parti: 18 kayıt · **hedef küme tamamlandı**
+
+**Uygulanan — 1:**
+
+| yerleşim | `m:` | zincir | TDV dayanağı |
+|---|---|---|---|
+| Ordubad | `Nahçıvan` | → Nahçıvan → Revan(k2) | «1590'larda **Revan eyaletine bağlı Nahcıvan bölgesi**, Nahcıvan …, Şerûr … ve **Ordubâd** (beş nahiye…)» |
+
+Verideki Osmanlı dönemi **1586-01 … 1603-10**; TDV'nin *"1590'larda"* ifadesi tam bu
+pencerenin içinde. Zincir TDV'nin hiyerarşisini birebir taşıyor. Bu madde ayrıca GLM'in
+`Revan → Ardahan` / `Revan → Sarıkamış` önerisini de çürütüyor: **Revan eyalet merkezidir.**
+
+**Ölçülemedi — 17.** Üç öğretici tanesi, çünkü GLM önerilerini kaynakta çürütüyorlar:
+- **İshaklı** — kendi maddesi yok; tek isabet «İSHAKLI KERVANSARAYI — **Akşehir**
+  yakınlarında». İdarî hüküm değil, ama GLM'in `Beyşehir` önerisini yerinden ediyor.
+- **Yagodina** — kendi maddesi yok; tek isabet «**Belgrad yakınlarındaki** Yagodina'da
+  doğdu». GLM'in `Yenipazar` (Novi Pazar) önerisi buraya da uymuyor.
+- **Şemdinli** — kapsayıcı `HAKKÂRİ` maddesi Hakkâri'nin Van eyaletine bağlı ocaklık
+  sancak olduğunu söylüyor, ama Şemdinli'yi yalnız **modern ilçe** olarak anıyor.
+  Modern ilçe Osmanlı kazası değildir — yazılmadı.
+
+Kalanlar: Gevgili (maddesi var, sancak vermiyor) · Kızıkermen · Kuban · Tuapse · Seyûn ·
+Nadin · Vrana (kapsayıcı `KLİS` maddesi tarandı, ikisi de geçmiyor) · İshakçı · Zamantı ·
+Kasr-ı Şîrîn (üç isabetin üçü de yanlış pozitif) · Bacirge · Şeyhrumi · Lanzaka · Praviște.
+
+---
+
+## 8. Kapanış — hedef kümenin tamamı
+
+| ölçü | önce | sonra |
+|---|---|---|
+| **k12 zinciri açık** (motorun `uret_petek.py:1075`'te uyardığı) | **86** | **77** |
+| bunlardan 2s açık listesinde de olan | 58 | **49** |
+| Değişmez 2s AÇIK | 192 | 191 |
+| Değişmez 3z zamansız | 482 | 489 |
+| ihlal | — | **yok** |
+
+**İşin asıl ölçüsü birinci satırdır:** açık zincir **9 azaldı** — yazılan 9 kaydın tamamı.
+2s'deki −1 yan üründür (M-4689: *"2s'de kapanma olursa yan üründür, hedef değil"*).
+
+**58 kaydın tamamı incelendi:** 9 uygulandı · 48 ölçülemedi · 1 başka alanın borcu.
+Sayım `ARAC-M-ALANI-0920.py` `[3]` bölümüyle karşılaştırılarak doğrulandı; ilk sayımda
+atlanan **Yagodina** bu kontrolde yakalandı ve eklendi.
+
+🟡 **KAYNAK TAVANI — sonraki oturum bunu bilsin.** Yazılabilme oranı **9/58 = %16**.
+Kalan 48'in ezici çoğunluğu **TDV'de kendi maddesi olmayan** kasaba/köy; kapsayıcı madde
+de sancak vermiyor (Bosna 55.428 karakter · Karaferye 15.970 karakter tarandı, ikisi de
+boş çıktı). *"`m:` yazılınca kapanır"* beklentisi bu kümede **gerçekçi değil** —
+938'lik ilk tahminle arasındaki mesafenin ölçülmüş hâli budur.
+
+## 8.1 Açık sevkler (üçü de bu oturumun kalemini aşıyor)
+1. **Vize** `k:3 → k:2` — TDV `KIRKLARELİ` "Vize sancağı"nı adıyla anıyor. Yapılırsa
+   Vize zinciri `m:` olmadan kapanır (77 → 76).
+2. **Hoy** — `kd:` içindeki `m:null`. `girdi.kd_oku()` `kd:` varsa üst düzey `m:`yi hiç
+   okumaz; yazdığım `m:"Tebriz"` yalnız `k12_merkez()` ve Değişmez 3 için geçerli.
+3. **2s kapısının `m:` bacağı** — kaldırılırsa açık **192 → 244**. Ölçüm aleti hazır.
 
 ## 9. Değişen dosyalar
 - `denetim/ARAC-M-ALANI-0920.py` · `denetim/ARAC-M-ALANI-KAPI-0920.py` (ölçüm aletleri)
 - `denetim/M-ALANI-0920.md` · `denetim/YAMA-M-ALANI-0920.json`
 - **1. parti** — `data/yerlesimler.js` (Hoy) · `data/yerlesimler_ek29.js` (Üsküdar ·
-  Babadağı) · `data/yerlesimler_ok107.js` (Siirt · İştip · Ustrumca). 1.MURAT commitledi: `0f37695`.
-- **2. parti** — `data/yerlesimler_ek29.js` (Ba'lebek · Sûr). **1.MURAT'ı bekliyor.**
+  Babadağı) · `data/yerlesimler_ok107.js` (Siirt · İştip · Ustrumca). 1.MURAT: `0f37695`.
+- **2. parti** — `data/yerlesimler_ek29.js` (Ba'lebek · Sûr). 1.MURAT: `3a268e3`.
+- **3. parti** — `data/yerlesimler.js` (Ordubad). **1.MURAT'ı bekliyor.**
 
-Toplam **8 kayıt**, hepsinde **yalnız `m:` alanı** yazıldı; `git diff --word-diff` ile
-doğrulandı (8 satır, 8 ekleme, başka hiçbir alan değişmedi).
+Toplam **9 kayıt**, hepsinde **yalnız `m:` alanı** yazıldı; her parti
+`git diff --word-diff` ile doğrulandı (9 satır, 9 ekleme, başka hiçbir alan değişmedi).
+`arac/` · `index.html` · `glm/` dosyalarına dokunulmadı. Motor koşusu yapılmadı.
