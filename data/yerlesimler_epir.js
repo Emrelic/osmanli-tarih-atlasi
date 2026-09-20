@@ -240,7 +240,7 @@ window.YERLESIMLER_EPIR = [
 //   ⇒ Aynı fetih dalgası; ama Ergiri için DOĞRUDAN ALINTI DEĞİLDİR.
 // k GEREKÇESİ: sancak merkezi ⇒ Delvine ile aynı kademe (k:3).
 
-{ ad:"Butrint (Butrinto)", tur:"kale", lat:39.7458, lon:20.0206, g:0, k:4, m:"Yanya",
+{ ad:"Butrint (Butrinto)", kd:[{f:"1281-01-01",t:"1798-10-23",k:0,m:null},{f:"1798-10-23",t:"1912-11-28",k:4,m:"Yanya"},{f:"1912-11-28",t:"1923-10-29",k:0,m:null}], tur:"kale", lat:39.7458, lon:20.0206, g:0, k:4, m:"Yanya",
   kaynak:"tepedelenli-ali-pasa",
   s:[{f:"1281-01-01", t:"1386-01-01", d:"bizans"},
      {f:"1386-01-01", t:"1797-10-17", d:"venedik"},

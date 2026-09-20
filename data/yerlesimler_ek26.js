@@ -27,11 +27,11 @@
 window.YERLESIMLER_EK26 = [
 
 // ───────── GÜRCİSTAN HATTI ─────────
-{ ad:"Şavşat", tur:"kasaba", lat:41.245, lon:42.360, g:0, k:3, m:"Erzurum",
+{ ad:"Şavşat", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.245, lon:42.360, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
-{ ad:"Posof", tur:"kasaba", lat:41.510, lon:42.720, g:0, k:3, m:"Erzurum",
+{ ad:"Posof", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1878-03-03",t:"1923-10-29",k:0,m:null}], tur:"kasaba", lat:41.510, lon:42.720, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 

@@ -99,7 +99,7 @@ window.YERLESIMLER_EK_ADALAR = [
 //   (ölü); `yedi-ada` ve `cezayir-i-seba` da 302. Bu yüzden kaynak, konuyu
 //   gerçekten kapsayan en yakın CANLI madde olan `korfu`dur (§4: "dar slug
 //   tutmazsa kapsayıcı maddeyi dene").
-{ ad:"Paksos (Paxos)", tur:"kale", lat:39.1975, lon:20.1867, g:0, k:4, m:"Yanya",
+{ ad:"Paksos (Paxos)", kd:[{f:"1281-01-01",t:"1923-10-29",k:0,m:null}], tur:"kale", lat:39.1975, lon:20.1867, g:0, k:4, m:"Yanya",
   kaynak:"korfu",
   s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},
      {f:"1797-10-17",t:"1815-11-05",d:"fransa-cumhuriyet"},
