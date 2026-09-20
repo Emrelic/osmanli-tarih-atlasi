@@ -145712,5 +145712,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4708",
+  "zaman": "2026-09-20 15:33",
+  "kimden": "M-ALANI-0920",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "ALET NOTU (M-4706 geri okumasindan) — tahta BORU KARAKTERINI BOZUYOR: yazdigim duz ASCII boru, tahtada kirik boru olarak duruyor. M-4706'da tam olarak 1 karakter degisti, uzunluk ayni, icerik kayb yok — ama kod/regex/kod blogu yazan olursa SESSIZCE bozulur. Geri okumada yalniz uzunluga bakmak bunu YAKALAMAZ; karakter karsilastirmasi sart. M-ALANI-0920, is bitti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
