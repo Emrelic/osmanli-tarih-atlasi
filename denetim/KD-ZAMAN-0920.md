@@ -443,6 +443,88 @@ alınmış görünüyor.
 
 ---
 
+---
+
+# PARTİ 6 — kuyruk (6 kayıt, 16 çelişki)
+
+## 20. ÖNGÖRÜ (parti 6) — ölçümden ÖNCE
+
+**Küme:** Mâku 3 · Ahılkelek 3 · Babadağı 3 · Luristan 3 · Bergama 2 · Denizli 2 =
+**16 çelişki**. **ÖNGÖRÜ: 290 → 274 (−16).**
+
+Parti 6 **6 kayıt** — kuyruk gerçekten inceldi ve 1.MURAT'ın "bulunamadı kovası
+büyürse dur" ölçütü işliyor: bu tur elenenler **Sokna, Vaddân, Zilla** (TDV'de
+"Sokna" ve "Vaddân" kelimeleri **hiçbir maddenin gövdesinde bile** geçmiyor — 0/0),
+**Selmâs** (0 madde başlığı), **Anamur** (tek sonucu `/alakopru`, bir köprü maddesi).
+
+## 21. PARTİ 6 KAYNAKLARI
+
+| Kayıt | TDV kaynağı | Yazılan `kd:` |
+|---|---|---|
+| **Mâku** | `maku`: "**1574** yılında Osmanlı Devleti, Mahmûdî Kürt kabilesi reisi İvaz Bey'i Mâkû'yu İranlılar'dan alıp burada bir kale yapmakla görevlendirdi" · "İvaz Bey'in **ocaklığına** verilen Mâkû'ya **1605**'te Safevî Şahı…" | Osmanlı dışı üç pencere `k:0 m:null`; Osmanlı pencereleri BOŞ (`m:"Van"` kaynakta YOK) |
+| **Ahılkelek** | `cildir-eyaleti`: "1551'de … İskender Paşa … **Ahılkelek** ve Ahıska civarına kadar ilerledi"; `ahiska`: "**Ahıska ve Ahılkelek sancakları**" | 1551 öncesi + 1829 sonrası `k:0 m:null` |
+| **Babadağı** | `babadagi`: "Babadağı ve çevresi … **Osmanlı hâkimiyetine girdi (819/1416)**" · "**Özü eyaletinde paşa hassı bir voyvodalık** olan şehir" | 1393 öncesi `k:0 m:null` · **1593→1788-12-17 `k:3 m:"Özi"`** — `m:` DOĞRU ama penceresi yoktu; 1788'de Özi Rusya'ya geçtiği hâlde Babadağı 1878'e kadar Osmanlı kalıyordu, çelişki oradan doğuyordu |
+| **Luristan** | `luristan`: "**998'de (1590)** İstanbul'da yapılan antlaşmaya göre **Osmanlı idaresine bağlanan** Luristan'ı Şah I. Abbas Safevîler'e tam olarak bağladı (**1603**)" | 1589 öncesi + 1603 sonrası `k:0 m:null`; 1589-1603 tâbilik penceresi BOŞ (`m:"Hemedan"` kaynakta YOK) |
+| **Bergama** | `bergama`: "Osmanlılar döneminde **Hudâvendigâr sancağına bağlı bir kaza**" · "**1864**'te **Balıkesir**'e bağlandı" · "1868'de teşkil edilen Aydın eyaletine bağlı **Saruhan sancağının** bir kazası haline geldi (**1873**)" · "Cumhuriyet döneminde **İzmir**'e bağlı bir kazanın merkezi oldu (**1924**)" | 1345 öncesi `k:0 m:null` · 1345→1864 `k:3 m:"Bursa"` · 1864→1873 `k:3 m:"Balıkesir"` · 1873→1920 `k:3 m:"Manisa"` · sonrası `k:0 m:null` |
+| **Denizli** | `denizli`: "Işıklı, Homa, Çal, Baklan, **Denizli**, Honaz, Sarayköy ve Buldan **Kütahya sancağına** … bağlanmıştı" | 1390 öncesi `k:0 m:null` · 1429→1920 `k:3 m:"Kütahya"` · sonrası `k:0 m:null`; 1390-1429 arası BOŞ |
+
+🔴 **BERGAMA — `m:"İzmir"` ATLASTA 1281-1923 BOYUNCA YANLIŞ.** Kaynak, İzmir'e
+bağlanışı **1924**'e, yani atlasın ufkunun DIŞINA koyuyor. Aynı sınıftan: **Denizli**
+de İzmir'e değil Kütahya sancağına bağlıydı. Bu ikisi `kd:`nin yalnız "pencere ekleme"
+değil, **yanlış merkezi düzeltme** işini de yaptığı vakalar.
+
+📌 **Sancak adı → merkez adı eşlemesi:** kaynak "Hudâvendigâr sancağı" ve "Saruhan
+sancağı" diyor; `m:` bir YERLEŞİM adı istediği için sancak merkezlerinin adları
+(**Bursa**, **Manisa**) yazıldı. Eşleme standarttır ama TDV'nin o cümlesinde AÇIKÇA
+yazmaz — bildiriyorum.
+📌 **Babadağı'nın 1593'ü** Özi eyaletinin kuruluş tarihidir ve atlasın kendi `Özi`
+kaydının `kd:`inden devralınmıştır — **kaynak günü değildir** (`D210`/`D213`).
+
+## 22. PARTİ 6 SONUCU
+
+| Ölçü | Önce | Sonra | Öngörü |
+|---|---|---|---|
+| ZAMANLI çelişki | 290 | **274** | 274 ✓ **TUTTU** |
+| ZAMANSIZ çelişki | 489 | **489** | değişmemeli ✓ |
+| `kd:` taşıyan kayıt | 247 | **253** | +6 ✓ |
+| çelişki üreten ayrı yerleşim | 207 | **201** | −6 ✓ |
+
+`py arac/denetle.py` (20 Eylül, parti 6 sonrası koşu): **SONUÇ temiz** — M-4789'daki
+bellek çöküşü bu koşuda görülmedi.
+
+## 23. ALTI PARTİNİN TOPLAMI — işin bugünkü hâli
+
+| | taban | bugün |
+|---|---|---|
+| ZAMANLI çelişki (`kd_gun`) | 483 | **274** — **−209 (%43,3)** |
+| ZAMANSIZ çelişki (`m:`) | 489 | 489 (hiç dokunulmadı) |
+| `kd:` taşıyan kayıt | 192 | **253** (+61 kayıt) |
+| çelişki üreten ayrı yerleşim | 262 | **201** |
+
+**Altı partinin altısında da öngörü ölçümden önce yazıldı ve altısı da birebir tuttu:**
+−61 · −39 · −36 · −24 · −33 · −16. Altısında da `denetle.py` temiz.
+
+### NEREDE DURDUM VE NİÇİN
+`m:`i olan 827 kaydın çelişki üreten kısmı artık **uzun kuyruk**: kalan 274 çelişkinin
+en büyük üreticisi 6, sonra 5-5, gerisi 3 ve 2'şer. Altı partide kapanan kümelerin
+hepsinde ortak bir şey vardı: **tek bir kapsayıcı TDV maddesi bir düzine kaydı birden
+karşılıyordu** (`cezayir-i-bahr-i-sefid`, `derya-beyi`, `cildir-eyaleti`,
+`barbaros-hayreddin-pasa`, `lahsa`, `artvin`). Bu damar **bu turda tükendi**: parti
+6'da elenenlerin çoğu TDV'de adı HİÇ GEÇMEYEN kasabalar (Sokna, Vaddân, Zilla,
+Karistos, Amorgos, Psara, Tarki, Kerene). 1.MURAT'ın ölçütü ("bulunamadı kovası
+büyürse dur") burada devreye girdi.
+
+**Sıradaki turun verimli olabileceği yerler** (ölçülmedi, öneri):
+① `m:` yanlış sınıfı — Bergama/Denizli vakası gösterdi ki `m:` bazı kayıtlarda
+CUMHURİYET dönemi idaresini taşıyor; aynı hatayı taşıyan başka kayıtlar için
+`m:"İzmir"`, `m:"Adana"`, `m:"Balıkesir"` gibi modern il merkezlerine bakılabilir.
+② Atlasta KAYDI OLMAYAN sancak merkezleri (Payas, Karlı-ili) — nokta açılırsa
+birkaç kayıt birden bağlanır.
+③ Eksen kuyruğuna sevk edilen 8 kalem çözülürse bir kısmı çelişkiden kendiliğinden
+düşer.
+
+---
+
 🔴 **ÇALIŞMA AĞACI UYARISI:** `data/yerlesimler.js` bu oturum sürerken en az iki başka
 oturum tarafından da yazıldı (EKO-1806'nın `isg:` satırları, TARIH-SUPHE-0920'nin `not:`
 satırları çalışma ağacında duruyor). Yama betiği dosyayı TOPTAN okuyup TOPTAN yazıyor;
