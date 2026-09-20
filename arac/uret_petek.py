@@ -6982,6 +6982,54 @@ open(_dyol, "w", encoding="utf-8").write(_dj)
 print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
       f"data/devletler_harita.js ({os.path.getsize(_dyol)//1024} KB)")
 
+# ═══════════════════════════════════════════════════════════════════════════
+# Ⓑ DOLGU KATMANI — B GÖRÜNÜMÜ (B-GORUNUM-0072, 20 Eylül 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+# Emre (16 Eylül): *"A ile B iki ayrı koşu DEĞİLDİR. Motor tek koşuda A'yı
+# dokunulmamış yazar, AYNI koşuda dolgu parçalarını AYRI çıktıya yazar."*
+# Bu blok o şartın karşılığı — ve yeri TESADÜF DEĞİL:
+#   • A'nın İKİ çıktısı da (donemler.js gövdeleri + devletler_harita.js)
+#     bu satırda HAZIR ve bellekte; dolgu "o kesitteki BÜTÜN A gövdeleri"ni
+#     istiyor, o yüzden ikisinden önce çağrılamaz.
+#   • `seyrelt()`ten SONRA: tarayıcı SEYRELTİLMİŞ gövdeyi çiziyor, dolgu da
+#     onunla hizalanmalı. Seyreltmeden önce hesaplansaydı dolgu ile A
+#     arasında kılcal boşluk/bindirme çıkardı — ve kimse fark etmezdi.
+#
+# 🔴 A'YA HİÇ DOKUNMAZ, ve bu yapısal: `arac/dolgu.py` yukarıdaki listeleri
+#    YALNIZ OKUR, yalnız `data/dolgu.js`i yazar. `try/except` de bilerek —
+#    `gosterim_duzelt`in gerekçesinin aynısı: dolgu bir GÖRÜNÜM seçeneğidir,
+#    patlarsa 4 saatlik koşuyu öldürmesin ama GÖRÜNÜR olsun.
+#
+# 🔴 VARSAYILAN KAPALI (`MOTOR_B_DOLGU=1` ile açılır) — ve sebebi ölçülmüş
+#    bir sayı DEĞİL, ölçülmemiş olmasıdır: B-4 maliyet ölçümü dar dilimde
+#    yapıldı, tam koşudaki maliyeti (≈2.000 kesit) HENÜZ ONAYLANMADI.
+#    Koşuyu başlatan (Oturum 0) açar. "Kapalı" hâlde bu blok bir `if` kadardır.
+if os.environ.get("MOTOR_B_DOLGU") == "1":
+    asama("Ⓑ dolgu katmanı (B görünümü)")
+    try:
+        import dolgu as _bdolgu
+        _b_ar = []
+        for _r in donemler:
+            _bix = (_r.get("o") or []) + (_r.get("v") or [])
+            if _bix:
+                _b_ar.append((_r["f"], _r["t"], "OSMANLI",
+                              _bdolgu._coz(_bix, OSM_HALKA, OSM_PARCA)))
+        for _d in DEVLET_KAYIT:
+            for _p in _d["dnm"]:
+                if _p.get("g"):
+                    _b_ar.append((_p["f"], _p["t"], _d["id"],
+                                  _bdolgu._coz(_p["g"], DEV_HALKA, DEV_PARCA)))
+        _b_n, _b_boy, _b_cins, _b_sn = _bdolgu.kosudan(
+            _b_ar, KARA, os.path.join(KOK, "data", "dolgu.js"),
+            kesit_sinir=int(os.environ.get("MOTOR_DOLGU_KESIT", "0") or "0"))
+        print(f"  Ⓑ dolgu → data/dolgu.js ({_b_boy//1024} KB, {_b_n} kayıt, "
+              f"{_b_sn:.0f} sn) · "
+              + " · ".join(f"{_c} {_b_cins.get(_c, 0)}" for _c in _bdolgu.CINSLER))
+    except Exception as _be:
+        print("  UYARI Ⓑ dolgu atlandı (A ETKİLENMEDİ):", _be)
+else:
+    print("  Ⓑ dolgu: KAPALI (MOTOR_B_DOLGU=1 ile açılır) — data/dolgu.js YAZILMADI")
+
 # ---------------- Dönemleri kur ----------------
 
 asama("Çıktı yazımı (petek_govde.js + donemler.js)")
