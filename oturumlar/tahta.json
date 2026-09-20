@@ -146707,5 +146707,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4763",
+  "zaman": "2026-09-20 17:48",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLİM 1/N · KD-ZAMAN-0920 · rapor: denetim/KD-ZAMAN-0920.md · commit 0b4ab72 ① ÖLÇTÜM (denetle.py'nin kendi kolu, 3921 kayıt, 6 kesit) TABAN: zamansız (m:) 489 — sevkteki sayıyla BİREBİR tuttu · zamanlı (kd:) 483 · kd: yazılı kayıt 192 · m: taşıyan (çelişki evreni) 827 · çelişen ayrı yerleşim 262. SINIF: A = bağ hiçbir kesitte geçerli değil 34 çelişki/9 çift · B = bağın penceresi var 449/253. 🔴 ÜÇÜNCÜ SAYI (gerçek eksen kusuru) AYRIŞTIRILAMADI — \"ölçülemedi\". Gerekçe ölçülebilir: degismez3z'in saydığı her üçlüde y ile m TANIM GEREĞİ farklı devlettedir; \"merkez o tarihte başkaydı\" ile \"sahiplik tarihi yanlış\" AYNI İMZAYI üretir. Denediğim vekil ölçüt (yakın çift + bağ baskın geçerli) 113 üçlü verdi ve ÇÜRÜDÜ: listenin başı Söğüt→Bursa, Bilecik→Bursa (1300 OSMANLI/bizans) — verinin DOĞRU olduğu klasik zaman penceresi vakaları. Rapora hüküm olarak girmedi. SINAV: öngörüyü ölçümden ÖNCE yazdım (483→406, parti 15 kayıt/77 çelişki); kaynak taraması 3 kaydı boşa çıkarınca ölçümden ÖNCE 483→422'ye düzelttim. ÖLÇÜLEN: 422. TUTTU. Zamansız 489 değişmedi (m:'ye dokunmadım), kd: yazılı kayıt 192→204. ② BULAMADIM — 3 kayıt BOŞ bırakıldı (16 çelişki duruyor) Kerene (TDV'de 0 madde/0 içerik; habes-eyaleti maddesi \"bugünkü Eritre\" diyor ama kasabayı anmıyor — bölgeden şehre hüküm taşımadım) · Ukayr (yalnız ad olarak geçiyor, idarî bağlılık cümlesi yok) · Cübeyl (🔴 TUZAK ②: /cubeyl slugu CANLI ama o madde Lübnan'daki BYBLOS; bu kayıt Körfez'deki Cubeyl — yanlış maddeyi kaynak göstermedim). ③ İSTİYORUM — eksen kusuru sevkleri (benim kalemim DEĞİL, dokunmadım) 1) 🔴 YEDİ ADA 1800, 7 kaydı birden ilgilendirir: TDV yedi-ada-cumhuriyeti \"Osmanlı ve Rusya himayesinde 1800'de kurulan… Korfu, Kefalonya, Zanta, Ayamavra, Çuka, İtaki, Pakso\" (Osmanlı adı: Cezâyir-i Seb'a-i Müctemia Cumhuru). Atlasta yedisi de 1797-10-17→1815-11-05 fransa-cumhuriyet. Devlet künyesi de gerekebilir. 2) 1479 fethinin bitişi: TDV \"Fâtih'in ölümü üzerine son buldu\" (1481); atlas Zaklise 1482 ama Kefalonya/İthaki 1500-12-24 — 19 yıl fark. 3) Lahsâ/Katîf'in bağlanışı: TDV 1547 (lahsa) / \"1550'den itibaren\" (katif); atlas d: 1550-01-01. 4) Kerene ↔ Habeş eyaleti sorusu açık (yukarıda). ŞEMA BORCU: kd_gun, pencere BOŞLUĞU ile k:0/m:null penceresini aynı (0,None) olarak döndürüyor — \"kademesiz\" ile \"bilmiyorum\" veride ayrışmıyor; bu turda ayrımı yalnız rapora yazabildim. DEĞİŞEN DOSYALAR (yalnız kd: alanı eklendi, başka alana dokunulmadı; data/ COMMIT EDİLMEDİ, senin): data/yerlesimler.js (10 kayıt: Korfu, Zaklise, Kefalonya, İthaki, Ayamavra, Çuha Adası, Otranto, Parga, Lahsa, Katîf) · data/yerlesimler_epir.js (Butrint) · data/yerlesimler_ek_adalar.js (Paksos). KENDİ COMMIT'İM 0b4ab72: denetim/KD-ZAMAN-0920.md + denetim/ARAC-KD-ZAMAN-SINIF-0920.py. py arac/denetle.py tam koşu: SONUÇ temiz. Parti 2'ye giriyorum (İstendil, Uyvar, Ege adaları kümesi, Karadeniz kümesi). Aksi emir gelmezse aynı kalıpla sürdürüyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
