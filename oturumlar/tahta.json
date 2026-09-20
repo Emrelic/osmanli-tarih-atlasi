@@ -146090,5 +146090,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4729",
+  "zaman": "2026-09-20 16:30",
+  "kimden": "SEFER-OK-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · NAPOLYON-MISIR (H-0002) + mukerrer ok hukmu. Rapor: denetim/NAPOLYON-MISIR-0070.md · Yama: denetim/YAMA-NAPOLYON-MISIR-0070.json (VERIYE YAZILMADI) · Olcum: ARAC-NAPOLYON-MISIR-0070.py + OLCUM-NAPOLYON-MISIR-0070.json · Commit 12390ea (yalniz denetim/). (1) OLCTUM: Misir+Sina kutusunda (lat 21-32,5 lon 24-36,5) 70 yerlesim, 8'inde 1797-1802 penceresine degen isgal kaydi. YEDISI TEK BLOK: f=1798-07-01 · t=1801-10-09 · kaynak alani yalniz \"kahire\" (Iskenderiye, Kahire, Resid, Dimyat, Suveys, Asyut, Sina guneyi). Sekizinci El-Aris (1799-02-18 -> 1799-11-17, kaynak \"aris\") AYRI ve DOGRU. Kesit sayilari: 1798-07-01'de 7 isgal, 1801-09-02'de 7 — yani atlas isgalin YAYILMA SURECINI hic gostermiyor, ilk gunden son gune sabit. Emre'nin gorselinde 1798-07-01 kesitinde Sina'nin, Suveys'in ve Yukari Misir'in tarali gorunmesinin sebebi bu. (2) HUKUM — haritadaki isgal YANLIS, uc ayri sinifta: (a) ANAKRONIZM (kesin): Fransiz ordusu 1 Temmuz 1798'de Iskenderiye yakininda karaya cikti; o gun Kahire (22 Temmuz), Suveys (8 Kasim), Yukari Misir (Ekim 1798-Subat 1799) ve Sina (El-Aris 18 Subat 1799) denetimde DEGILDI. (b) SAHTE KESINLIK: yedi kaydin gunu TDV'nin kahire maddesinden turetilmis, o madde zaten gun VERMIYOR — bolgeden sehre tasinan hukum (§4). (c) DESTEKSIZ KAYIT: \"Sina guneyi\" isgali icin okunan hicbir kaynakta tek cumle yok; TDV'nin tur maddesi Hz. Musa'nin dagi hakkinda, sehir maddesi degil. (3) KAYNAK (TDV birincil + Fondation Napoleon \"Correspondance generale\" kronolojileri, Fayard ciltleri): Iskenderiye 30 Haziran 1798 (TDV; NAPO-2 ise cikarma 1, alinis 2 Temmuz — CELISKI BILDIRILIYOR, §4 geregi TDV esas) · Kahire teslim 22 Temmuz, giris 24 Temmuz 1798 (NAPO-2; TDV kahire gun vermiyor) · Fayyum 7 Ekim 1798 · Suveys limani 8 Kasim 1798 · Asvan 1 Subat 1799 · El-Aris 18 Subat 1799 (TDV aris; NAPO-2 20 Subat — veride ZATEN TDV gunu var, dokunulmadi) · geri alinis 17 Kasim 1799 (TDV aris) · Kahire kapitulasyonu 27 Haziran 1801 (Belliard, NAPO-3) · Iskenderiye kapitulasyonu 31 Agustos 1801 (Menou, NAPO-3). (4) YAMA (7 kalem): KAYNAKLI DUZELTME 3 — Iskenderiye f 1798-06-30 / t 1801-08-31 · Kahire f 1798-07-22 / t 1801-06-27 · Suveys f 1798-11-08 (t: Kahire kapitulasyonundan DEVRALINDI, kaynaksizligi kaydin icine yazildi). KALDIRMA ONERISI 1 — Sina guneyi (ya da El-Aris penceresine daraltilsin; karar Emre'nin). BULUNAMADI 3 — Asyut, Resid (Rosetta), Dimyat: 1798-07-01'in yanlisligi kesin ama dogru gun okunan kaynaklarda YOK, bu yuzden DEGISTIRILMEDILER (TDV asyut'ta Fransiz isgali govdede yok · TDV'de Misir'daki Resid icin MADDE YOK · TDV dimyat yalniz YIL veriyor). DOKUNULMADI 1 — El-Aris. (5) OLCEMEDIGIM: kirsal yayilim. Kutuda yalnizca 8 isgal noktasi var; petek motoru sahipligi en yakin noktadan turettigi icin TEK \"Sina guneyi\" kaydi butun yarimadayi boyuyor. Gorseldeki genis tarali alanlarin bir kismi kayit hatasi degil NOKTA SEYREKLIGI (CLAUDE.md §2). Resid, Menzile, Benha, Feyyum gibi noktalar eklendikce gosterim incelir — ayri sevk onerisi. (6) MUKERRER OK HUKMU: savaslar.js:995'teki kayit 5 nokta ve kaynaksiz (kendi yorumu \"ara duraklar uydurulmadi\" diyor); seferler_p0037.js'teki kayit 20+ nokta, gunu gunune istasyonlu ve IKI HAKEMLI calismaya dayali. Ustelik p0037 dosyasinin kendi basligi bunu zaten soyluyor: \"savaslar.js:743'teki kaydin YERINE GECECEK tam halidir ... Iki yol da olur; ikisi birden OLMAZ (mukerrer ok)\". Dosya sonradan index.html'e baglandi ama savaslar.js'teki eski kayit dusurulmedi. ONERIM: savaslar.js 995-997 satirlari dusurulsun, SEFERLER_P0037 kalsin. savaslar.js PAYLASILAN — DOKUNMADIM. (Cizim tarafindaki mukerrerlik zaten kapandi: seferGuncelle ayni ucu+ayni gunu TEK ciziyor.) (7) ISTIYORUM: (a) yamanin 3 kaynakli kalemini onaylarsan uygulayayim mi, yoksa yerlesim dosyasinin sahibi mi uygulasin? (b) Sina guneyi kaydi icin karar: KALDIR mi, El-Aris penceresine DARALT mi? (c) Asyut/Resid/Dimyat icin akademik kaynak avi ayri sevk mi olsun? (d) savaslar.js mukerrer kaydinin dusurulmesi sende. DEGISEN DOSYALAR: denetim/NAPOLYON-MISIR-0070.md · denetim/YAMA-NAPOLYON-MISIR-0070.json · denetim/ARAC-NAPOLYON-MISIR-0070.py · denetim/OLCUM-NAPOLYON-MISIR-0070.json. data/ ve js/ DOSYASINA DOKUNULMADI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
