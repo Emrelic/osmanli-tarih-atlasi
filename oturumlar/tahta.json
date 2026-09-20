@@ -147157,5 +147157,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4788",
+  "zaman": "2026-09-20 18:50",
+  "kimden": "EKO-ISYAN-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKO-ISYAN-0072 · paket 0072 H-0006 + H-0013 · 3 kart ① NE OLCTUM · Dosya: data/ekokuma_isyan1821.js -> window.EKOKUMA_ISYAN1821, 3 kart: isyan-sirp-milli-anlati (karsi-anlati) · isyan-fenerli-voyvodalar (sebep-sonuc) · isyan-ypsilanti (kimdir). Uc tur de app.js EKOKUMA_TUR'da KAYITLI, yeni tur ACILMADI. · BAG: 11 bag / 7152 kronoloji maddesi (125 dosya) -> TUTMAYAN 0. Alet: denetim/ARAC-ISYAN-BAG-0072.js (node ile kosar). Eslestiriciyi yeniden YAZMAZ, app.js'in kendi _ekNorm + _ekBagEslesir'ini dosyadan ayiklar (D045). 1821-02-22'deki IKI ayri madde (olaylar_ek5 \"Eflak Isyani...\" ve kronoloji_balkan \"Ipsilantis'in ... girisi\") ayri ayirt edicilerle AYRI AYRI tutuldu. · TDV slug: 18 slug tarandi, 13 canli / 5+2 olu. · py arac/denetle.py -> SONUC: temiz. · ONGORU (olcumden ONCE, denetim/EKO-ISYAN-0072-ONGORU.md): 5 maddenin 3'u tuttu, 2'si CURUDU -> ipsilanti-ailesi ve fener-rum-patrikhanesi sluglarinin CANLI oldugunu sanmistim, ikisi de 302. Ayrica \"Sirp isyanlari icin hic kart yok\" ongorum de yanlisti: ekokuma_bakis.js'teki bakis-sirp karti var (konusu FARKLI — ders kitaplari; cakisma yok, atif verildi). ② NE BULAMADIM · Ipsilanti'nin Avusturya'daki gozaltisi ve olum gunu OLCULEMEDI (Brill \"Those Infidel Greeks\" HTTP 403). Kart yalniz \"Avusturya'ya kacti\" + \"1828'de oldu\" dedi; gozalti yillari ve olum gunu YAZILMADI. · TDV'de Ipsilanti maddesi YOK (ipsilanti-ailesi 302, arama da vermedi). · Brancoveanu'nun idam yili TDV eflak govdesinde acikca YOK; 1714 parantezde, gun yazilmadi. Vikipedi/GreekReporter cikti, KULLANILMADI. ③ NE ISTIYORUM (ucu de sende) 1. YUKLEYICI SATIRI — js/app.js _EKOKUMA_DOSYA_ADLARI dizisine: \"ekokuma_isyan1821\", // window.EKOKUMA_ISYAN1821 — EKO-ISYAN-0072 teslimi Bu satir olmadan kartlar HIC gorunmez (D045). app.js'e dokunmadim. 2. data/ekokuma_isyan1821.js commit'i SENDE (DALGA-0072: paylasilan dosya). Ben yalniz kendi uc dosyami commitledim: d36be9b (pathspec ile, git show ile dogrulandi): denetim/EKO-ISYAN-0072-ONGORU.md · -RAPOR.md · ARAC-ISYAN-BAG-0072.js 3. IKI AKSAKLIK, hukum sende: a) GUN CELISKISI — 1821 Prut gecisi icin uc deger dolasiyor: atlas 1821-02-22 · Heraclides-Dialla (Manchester UP 2015) 21 Subat · literaturde yaygin Gregoryen karsilik 6 Mart 1821 (= eski takvim 22 Subat). Kart GUN IDDIA ETMEDI, \"Subat 1821\" yazdi (D210/D213). ONERIM: atlasin gununu DEGISTIRME, yalniz ic_not_b'ye \"eski takvim; Gregoryen karsiligi 6 Mart 1821\" dusur. b) 50 TUTMAYAN EK OKUMA BAGI — ayni aleti butun ekokuma/merak dosyalarina kosturdum: 1169 bagin 50'si hicbir maddeye TUTMUYOR (kartlar sessizce gorunmuyor olabilir). Yogunluk: ekokuma_kurum 13 · kurum2 9 · ihtilal 5 · rusiran 4. Ornek: savas-hacova-1596 -> \"1596-10\" (ay hassasiyetli, esleyici TAM ESITLIK arar). ⚠️ Bu HUKUM DEGIL OLCUM: evrenime yalniz olaylar*/ kronoloji* aldim, bir kismi baska katmana bagli olabilir. Siniflandirmayi YAPMADIM. Ayri is olarak sevk edilirse alet devredilebilir. Kaynak seti (govdeleri bu oturumda acildi): TDV sirbistan (Hacisalihoglu) · eflak (Karpat) · bogdan (Ozcan) · fener (Artan) · handjeri-alexandre (Eren) · yunanistan (Hacisalihoglu) ¦ Batakovic Balcanica XXXVI (2006) · Savic GEI SANU LXVIII/3 (2020) · Markovich Balcanica LI (2020) · Heraclides-Dialla (Manchester UP 2015) · Balcanica LIII (2022). Aktarim olanlar (Ranke 1848, Vuk 1828, Ljusic) ic_not'ta isaretlendi. GORSEL YOK. Tam rapor: denetim/EKO-ISYAN-0072-RAPOR.md Degisen dosyalar: data/ekokuma_isyan1821.js (YENI, commit SENDE) · denetim/EKO-ISYAN-0072-ONGORU.md · denetim/EKO-ISYAN-0072-RAPOR.md · denetim/ARAC-ISYAN-BAG-0072.js (commit d36be9b, bende)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
