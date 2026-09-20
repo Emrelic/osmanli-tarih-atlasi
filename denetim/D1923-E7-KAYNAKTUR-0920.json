@@ -1,0 +1,620 @@
+{
+ "gorev": "D1923-CIZGI-0920 · E7 kaynak türü",
+ "e7_adet": 48,
+ "kaynak_turune_gore": {
+  "T2 · antlaşma metni ADLA tarif": 18,
+  "T3 · komisyon protokolü/haritası": 15,
+  "T4 · hakem kararı": 7,
+  "T5 · hat tarif eden belge künyesi YOK": 6,
+  "T1 · astronomik/cetvel — HESAPLANIR": 2
+ },
+ "liste": [
+  {
+   "id": "d1923-bo-cl-DEGISTI-chipapa-olca",
+   "kaynak_turu": "T1 · astronomik/cetvel — HESAPLANIR",
+   "gerekce": "geometrik ilkel damgası",
+   "cografi_kume": "K1 · Güney Amerika iç sınırları",
+   "kutu_kosegen_km": 47.1,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "IBS No. 67 Bolivia–Chile"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-co-br-kuzey",
+   "kaynak_turu": "T1 · astronomik/cetvel — HESAPLANIR",
+   "gerekce": "geometrik ilkel damgası",
+   "cografi_kume": "K1 · Güney Amerika iç sınırları",
+   "kutu_kosegen_km": 542.9,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Sınır, Transit ve İç Ulaşım Antlaşması",
+    "IBS No. 174 Brazil–Colombia"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-bo-cl-tacna",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K1 · Güney Amerika iç sınırları",
+   "kutu_kosegen_km": 46.9,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "Barış, Dostluk ve Ticaret Antlaşması (onay 10 Mar 1905)",
+    "IBS No. 65 Chile–Peru"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-ca-us-DEGISTI-lake-of-the-woods",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K4 · Kuzey Amerika",
+   "kutu_kosegen_km": 76.7,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "ABD–Britanya Antlaşması 24 Şub 1925"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-de-pl-3",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 317.3,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Versay Antlaşması",
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-ee-su",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 233.7,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Tartu Barışı Estonya–RSFSC (LNTS 11:51-71)"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-fi-su-guney",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 393.2,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "IBS 74 Finlandiya–SSCB (ABD Dışişleri, 1967)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-fi-su-kuzey",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 385.7,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Tartu Barışı Finlandiya–RSFSC, onay tutanağı (LNTS 3:65-79)",
+    "IBS 74 Finlandiya–SSCB (ABD Dışişleri, 1967)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-fi-su-petsamo",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 131.1,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Tartu Barışı Finlandiya–RSFSC, onay tutanağı (LNTS 3:65-79)",
+    "IBS 74 Finlandiya–SSCB (ABD Dışişleri, 1967)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-cenis",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)",
+   "kutu_kosegen_km": 26.9,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-chaberton",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)",
+   "kutu_kosegen_km": 15.6,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-pstbernard",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)",
+   "kutu_kosegen_km": 20.9,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-tende",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)",
+   "kutu_kosegen_km": 90.7,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-fr-it-DEGISTI-thabor",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon) (kısmî)",
+   "kutu_kosegen_km": 22.5,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "Torino Antlaşması",
+    "Torino sınır sözleşmesi",
+    "IBS No. 4 France–Italy",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-iq-kw-DEGISTI",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan",
+   "kutu_kosegen_km": 205.3,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Irak Yüksek Komiseri notası",
+    "İngiliz-Osmanlı taslak sözleşmesi"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-it-shs",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 160.5,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Rapallo Antlaşması",
+    "İtalya ile Barış Antlaşması (Paris)"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-it-shs-zara",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 17.5,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "Rapallo Antlaşması",
+    "Roma Anlaşması (Santa Margherita)"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-lv-su",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 189.2,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Letonya–RSFSC Barışı, Riga"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-saar-de",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 78.7,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "FRUS 1919 c. XIII notları (md. 45-50)"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-sscb-ir-DEGISTI-hazar-serahs",
+   "kaynak_turu": "T2 · antlaşma metni ADLA tarif",
+   "gerekce": "dayanak türü antlaşma/sözleşme",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 733.7,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Ahal–Horasan Sözleşmesi",
+    "Tahran Sözleşmesi",
+    "Sovyet-İran Dostluk Antlaşması",
+    "IBS No. 25 Iran–U.S.S.R."
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-al-yu-vermos",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 39.1,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "IBS 116 Arnavutluk–Yugoslavya (ABD Dışişleri, 1971)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-bg-ro-DEGISTI-dobruca",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 201.5,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Neuilly Antlaşması",
+    "Bükreş Antlaşması"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-de-cs-4",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 274.9,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "FRUS 1919 c. XIII notları (md. 81-86)"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-de-pl-1",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 462.5,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Versay Antlaşması",
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-de-pl-2",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 157.0,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-dz-de",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 80.1,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Versay Antlaşması",
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-dz-pl",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 102.5,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Versay Antlaşması + FRUS 1919 c. XIII notları"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-fi-sy-DEGISTI",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan",
+   "kutu_kosegen_km": 100.3,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Paulet–Newcombe nihai komisyon raporu"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-iq-sy-DEGISTI",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan",
+   "kutu_kosegen_km": 556.0,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Fransız-İngiliz Sözleşmesi",
+    "IBS No. 100 Iraq–Syria"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-necid-kuveyt-tarafsiz-guney",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan",
+   "kutu_kosegen_km": 146.9,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Ukayr Protokolü"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-pl-su-1",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 322.8,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Riga Antlaşması (LNTS 6:123-169) + Żurawski, Przegląd Historyczno-Wojskowy 2011"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-pl-su-2",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 272.6,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Riga Antlaşması (LNTS 6:123-169) + Żurawski, Przegląd Historyczno-Wojskowy 2011"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-pl-su-3",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K5 · SSCB dış çemberi (Baltık–Polonya–Finlandiya–İran–Moğolistan–Çin)",
+   "kutu_kosegen_km": 318.2,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Riga Antlaşması (LNTS 6:123-169) + Żurawski, Przegląd Historyczno-Wojskowy 2011"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-sy-jo-DEGISTI",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan",
+   "kutu_kosegen_km": 331.5,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Fransız-İngiliz Sözleşmesi",
+    "IBS No. 94 Jordan–Syria"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-us-mx-DEGISTI-colorado",
+   "kaynak_turu": "T3 · komisyon protokolü/haritası",
+   "gerekce": "protokol/komisyon damgası",
+   "cografi_kume": "K4 · Kuzey Amerika",
+   "kutu_kosegen_km": 30.6,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "IBWC — Treaties"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-al-yu-naum",
+   "kaynak_turu": "T4 · hakem kararı",
+   "gerekce": "dayanak türü hakem/yargı",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 22.9,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "IBS 116 Arnavutluk–Yugoslavya (ABD Dışişleri, 1971)",
+    "UDAD Danışma Görüşü No. 9 (Saint-Naoum) — BM özeti"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-cs-pl-1",
+   "kaynak_turu": "T4 · hakem kararı",
+   "gerekce": "dayanak türü hakem/yargı",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 405.8,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "UDAD Danışma Görüşü No. 8 (Jaworzina) — BM özeti",
+    "Polonya–Çekoslovakya Anlaşması (forost)"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-cs-pl-2",
+   "kaynak_turu": "T4 · hakem kararı",
+   "gerekce": "dayanak türü hakem/yargı",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 157.6,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "UDAD Danışma Görüşü No. 8 (Jaworzina) — BM özeti"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-ee-lv",
+   "kaynak_turu": "T4 · hakem kararı",
+   "gerekce": "dayanak türü hakem/yargı",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 351.7,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Estonya Dışişleri — Estonya-Letonya ilişkileri kronolojisi",
+    "Letonya–Estonya Devlet Sınırının Yeniden Kurulması Antlaşması (Latvijas Vēstnesis)"
+   ],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-pl-ro-1940",
+   "kaynak_turu": "T4 · hakem kararı",
+   "gerekce": "dayanak türü hakem/yargı",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 30.4,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "IBS 43 Romanya–SSCB (ABD Dışişleri, 1964)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-pl-ro-2",
+   "kaynak_turu": "T4 · hakem kararı",
+   "gerekce": "dayanak türü hakem/yargı",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 139.5,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "IBS 43 Romanya–SSCB (ABD Dışişleri, 1964)",
+    "Büyükelçiler Konferansı kararı (LNTS 15:261-265)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-ro-yu-banat",
+   "kaynak_turu": "T4 · hakem kararı",
+   "gerekce": "dayanak türü hakem/yargı",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 182.8,
+   "yerel_mi": false,
+   "dayanak_adlari": [
+    "Belirli Sınırlara Dair Sèvres Antlaşması (UK Treaty Series 1921 No. 20)",
+    "Timár & Varga, e-Perimetron 17(3), 2022",
+    "IBS 47 Macaristan–Romanya (ABD Dışişleri, 1965)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-bo-cl-DEGISTI-patalani-panantalla",
+   "kaynak_turu": "T5 · hat tarif eden belge künyesi YOK",
+   "gerekce": "damga yok",
+   "cografi_kume": "K1 · Güney Amerika iç sınırları",
+   "kutu_kosegen_km": 53.3,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "IBS No. 67 Bolivia–Chile"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-gr-shs-DEGISTI-gevgeli",
+   "kaynak_turu": "T5 · hat tarif eden belge künyesi YOK",
+   "gerekce": "damga yok",
+   "cografi_kume": "K6 · Orta Avrupa ardıl devletleri (Versay/Trianon)",
+   "kutu_kosegen_km": 31.5,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "IBS No. 79 Greece–Yugoslavia"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-hd-sw-DEGISTI-api-raja",
+   "kaynak_turu": "T5 · hat tarif eden belge künyesi YOK",
+   "gerekce": "damga yok",
+   "cografi_kume": "K10 · Batı Avrupa + sömürge adaları",
+   "kutu_kosegen_km": 31.8,
+   "yerel_mi": true,
+   "dayanak_adlari": [
+    "IBS No. 45 Indonesia–Malaysia (Borneo)"
+   ],
+   "dayanak_ibs": true
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-bacirge-1932-1937",
+   "kaynak_turu": "T5 · hat tarif eden belge künyesi YOK",
+   "gerekce": "dayanak boş",
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan",
+   "kutu_kosegen_km": 77.4,
+   "yerel_mi": false,
+   "dayanak_adlari": [],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-kotur-1932",
+   "kaynak_turu": "T5 · hat tarif eden belge künyesi YOK",
+   "gerekce": "dayanak boş",
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan",
+   "kutu_kosegen_km": 90.1,
+   "yerel_mi": false,
+   "dayanak_adlari": [],
+   "dayanak_ibs": false
+  },
+  {
+   "id": "d1923-tr-ir-DEGISTI-kucuk-agri-1932",
+   "kaynak_turu": "T5 · hat tarif eden belge künyesi YOK",
+   "gerekce": "dayanak boş",
+   "cografi_kume": "K9 · Orta Doğu mandaları + Arabistan",
+   "kutu_kosegen_km": 60.0,
+   "yerel_mi": false,
+   "dayanak_adlari": [],
+   "dayanak_ibs": false
+  }
+ ]
+}
