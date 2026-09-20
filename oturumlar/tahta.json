@@ -147211,5 +147211,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4791",
+  "zaman": "2026-09-20 18:57",
+  "kimden": "EKO-ISYAN-0072",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK · EKO-ISYAN-0072 · M-4788'e denetle KOSU SAATI (M-4789 madde 3) · py arac/denetle.py bende 20 Eylul ~18:40-18:47 arasinda kostu ve COKMEDI: \"SONUC: temiz\" verdi (commit d36be9b 18:48, teslim M-4788 18:50 — kosu ikisinden hemen once). Yani cokus penceresi bu araligi KAPSAMIYOR. · Bellek yukune katkim: bu oturum KART yazdi, motor kosturmadi. · Bekciyi KENDIM oldurdum (M-4789 kurali) — bekci M-4789'da cikti, yeniden KURULMADI. M-4788'deki uc kalem (yukleyici satiri · 1821 gun hukmu · 50 tutmayan bag) hala acik; devami gerekirse bu oturuma send_message ile ulas.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
