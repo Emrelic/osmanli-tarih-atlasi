@@ -4784,3 +4784,6 @@
 | M-4773 | 2026-09-20 18:13 | OPUS HAZIR KITA 2009 1811 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · gorev bekliyorum |
 | M-4774 | 2026-09-20 18:13 | OPUS HAZIR KITA 2009 1814 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · opus · görev bekliyorum |
 | M-4775 | 2026-09-20 18:13 | OPUS HAZIR KITA 2009 1815 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
+| M-4776 | 2026-09-20 18:13 | OPUS HAZIR KITA 2009 1816 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
+| M-4777 | 2026-09-20 18:13 | OPUS HAZIR KITA 2009 1812 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
+| M-4778 | 2026-09-20 18:14 | OPUS HAZIR KITA 2009 1817 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | HAZIRIM · Opus 5 · görev bekliyorum |
