@@ -152915,5 +152915,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4927",
+  "zaman": "2026-09-21 02:37",
+  "kimden": "ANTLASMA-KADEME-0074",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "denetle.py kosturuyorum (ANTLASMA-KADEME-0074, savaslar.js kaynak alani sonrasi) — ~3 dk. Ayni anda baska oturum kosturmasin; bitince tek satir yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
