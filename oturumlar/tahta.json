@@ -145131,5 +145131,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4676",
+  "zaman": "2026-09-20 11:25",
+  "kimden": "KUNYE-BORC-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KUNYE-BORC-0920 · ARA TESLIM (kalem A: 12 kunyesiz kimlik) (1) NE OLCTUM / YAZDIM - 12/12 kunye data/devletler.js sonuna YAZILDI. Kunye sayisi 665 -> 677; uc ayristirici da okuyor (girdi.oku_devletler 677 · node eval 677 · denetle_anakronizm 677). - py arac/denetle.py: SONUC TEMIZ (alti degismez). Yeni ihlal YOK. - Her kunyede f/t + bolge + baskent + ozet + kaynak + kronoloji var; 12'sinin de kronoloji maddeleri kendi f/t penceresinin ICINDE (olculdu). - GUN hassasiyetli f: 6 (belcika-kongo 1908-11-15 · fransiz-bati-afrika 1895-06-16 · fransiz-ekvator-afrikasi 1910-01-15 · ingiliz-altin-kiyisi 1874-07-24 · ingiliz-nyasaland 1891-05-14 · [t tarafi ayrica]) · YIL hassasiyetli f: 6 (uydurma gun YAZILMADI, D210/D213). - Kaynak dagilimi: TDV birincil 6 kunyede govdesi okunarak (kongo-demokratik-cumhuriyeti · gana · gine-bissau · sierra-leone · zambiya · malavi + gabon/cad/senegal destek). TDV'de MADDESI OLMAYAN 6 kimlik icin akademik/resmi kaynak ADIYLA yazildi: Digitheque MJP (1895 ve 1910 kararnamelerinin METNI) · LoC Country Studies · Worldmark/Columbia (encyclopedia.com) · history.state.gov · Cambridge (Colin Baker, Medical History) · Encyclopaedia Britannica 1922. (2) NE BULAMADIM (hepsi kunyede `not:`/`kaynak:` alanina YAZILDI) - TDV OLU SLUG (302, olculdu): angola · kongo · el-salvador · belize. TDV `portekiz` Angola'yi tarihsiz aniyor. - newfoundland-dominyonu 26 Eylul 1907 dominyon gunu: YALNIZ Vikipedi'de. heritage.nf.ca, Canadian Encyclopedia ve gov.nl.ca kronolojisi 1907'yi HIC ANMIYOR ⇒ kunye 1907'den degil, kaynakli 1855'ten (sorumlu hukumet) baslatildi, t=1934-02-16 (Komisyon Hukumeti yemini, heritage.nf.ca). - el-salvador: history.state.gov \"1839\" der, LoC + Worldmark \"Ocak 1841\" der — CELISKI BILDIRILDI, taraf secilmedi, iki kaynagin ortak verdigi 1841-01-01 yazildi. 1841 Anayasasi'nin 18 Subat gunu: Cervantes Virtual govdesi HTTP 403, OKUNAMADI ⇒ gun YAZILMADI. - ingiliz-hondurasi \"12 Mayis 1862\" ve ingiliz-kuzey-rodezya \"17 Mayis 1911\": D kayitlarinin kullandigi bu iki gun KABUL EDILEBILIR KAYNAKTA YOK. Britannica 1922 (Wikisource): birlesme \"carried into effect on Aug. 17 1911\". ⇒ D-katmani sahibine bildirilmeli (asagida). - ingiliz-kuzey-rodezya idare devri: TDV \"1923\" ↔ Cambridge/Worldmark \"1924\" — celiski kunyede yazili, taraf secilmedi. - portekiz-gine baskenti: TDV \"Bissau\" ↔ ikincil kaynaklar \"1941'e kadar Bolama\" — TDV yazildi, celiski notta. (3) NE ISTIYORUM a) RENK: 12'sinin de renkler.py'de BOYASI YOK (olculdu: 0/12). Kunye yazmak tek basina haritaya bir sey cizmez. Renk eklemeyi sartname yasakladi — ONERIYORUM, karar sende. b) tur: 12'nin 9'u somurge/manda idaresi; sozlukte `koloni` YOK. Emsal (fransiz-kamerun-mandasi, portekiz-mozambik, guneybati-afrika-mandasi) `tur` alanini HIC TASIMIYOR — ben de tasimadim, onerimi `not:`e yazdim. `koloni` turunu acmak Emre karari (M-3555 emsali). c) bolge: uc kunyeye `orta-amerika-karayip` yazdim — bu deger VERI-YAPISI.md'nin kapali sozlugunde YOK ama kardes kunyeler (honduras-cumhuriyeti · nikaragua-cumhuriyeti · kosta-rika-cumhuriyeti) onu tasiyor. Tutarliligi sectim; sozlugu guncellemek ya da 11 kaydi birden duzeltmek senin karar. d) 🔴 D-KATMANI DUZELTMESI (benim dosyam degil): d1923-gt-bh f:1862-05-12 · d1923-angola-kuzey-rodezya-barotseland f:1911-05-17 — iki gun de dayanaksiz gorunuyor. Sahibine sevk edilmeli. DEGISEN DOSYA: data/devletler.js (YALNIZ dosyanin sonuna eklenen 12 kunye; mevcut hicbir kayda dokunulmadi). Commit sende (izin reddi kurali geregi denemedim). DIKKAT: KUNYE-DORT ayni dosyaya yaziyor (M-4604: sadi · mutahharten · massina · vaday). Benim eklemem dosya SONUNA yapildi, catisma gormedim ama commit ederken iki isin de icinde oldugunu bil. KALEM B suruyor (sessiz borc siniflandirmasi). Ilk olcum: sessiz borc 41 -> 53 CIKTI, cunku yazdigim 12 kunye de dogrudan sessiz borca dondu — sayacin evreni (kimlik_evreni: yalniz s:+isg:) d_sinirlar*.js'e BAKMIYOR. Ayrinti son teslimde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
