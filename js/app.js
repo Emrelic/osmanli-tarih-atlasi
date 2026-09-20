@@ -2236,6 +2236,23 @@ harita.on("load", function () {
         // haritadaki bütün yerleşim etiketleri tek bir hizalama dilinde.
         new maplibregl.Marker({ element: kutu, anchor: "left", offset: [-5, 0] })
           .setLngLat([k.lon, k.lat]).addTo(harita);
+        // 🔴 ETIKET-0073 — HALKA ADI ÇAKIŞMA ELEMESİNE GİRSİN DİYE KAYDEDİLİYOR.
+        // Emre'nin H-0010 görselinde Riyad'ın üstüne binen yazı bir BAŞKA ŞEHİR
+        // değil, AYNI ŞEHRİN İKİNCİ ETİKETİYDİ: düz "Dir'iye (Necid)" (`.sehir`)
+        // ile italik "Dir'iye (Necid)" (bu halka). ÖLÇÜLDÜ
+        // (denetim/ETIKET-0073-BOSLUK.json): 92 halka kaydının 92'si de aynı
+        // adlı bir yerleşimle 0,00 km'de örtüşüyor — yani mükerrerlik istisna
+        // değil KURAL. Sebebi bu bloğun kendi notunda zaten yazılı: halka
+        // katmanının ZAMAN BOYUTU YOK, her tarihte çiziliyor; `.sehir` katmanı
+        // ise artık üç statünün üçünü de (`d`/`v`/`s`) çizdiği için Emre'nin
+        // 21 Ağustos'taki "devletsiz şehirlerin adı da yazılsın" isteği bugün
+        // ORADAN karşılanıyor ve buradaki ad ikinci nüsha kalmış.
+        // ⇒ Halka SİLİNMİYOR ve kararı VERİ DEĞİL ÇAKIŞMA veriyor: adı ancak
+        // başka bir etiketin üstüne biniyorsa gizlenir (`.bosluk-kutu.sade`),
+        // glifi ve hover'daki adı her hâlükârda durur. Yerleşim etiketi o
+        // tarihte çizilmiyorsa halka adı GÖRÜNÜR kalır — bilgi kaybolmaz.
+        if (!window.BOSLUK_HALKALARI) window.BOSLUK_HALKALARI = [];
+        window.BOSLUK_HALKALARI.push({ el: kutu, lon: k.lon, lat: k.lat, ad: k.ad });
         kacHalka++;
         return;
       }
@@ -3631,6 +3648,14 @@ function sehirGuncelle(t) {
   // hiç denenmez, yani yamadan ÖNCEKİ davranış birebir geri gelir. A/B
   // kıyası böyle kuruluyor (denetim/ARAC-ETIKET-0073-SINAV.js).
   var aynalaAcik = (window.ETIKET_AYNALA !== false) && harita.getZoom() >= 5.2;
+  // ⚠️ DENEME TAVANI — ÖLÇÜLDÜ, seçilmedi. Sınavda (denetim/ETIKET-0073-SINAV.json)
+  // `sehirGuncelle` süresi: z8'de 12 aynalama ile 36 → 182 ms (deneme başına
+  // ~12 ms yeniden yerleşim), z6'da 75 aynalama ile 112 → 2993 ms. Üç saniye
+  // bir zaman çubuğu adımında kabul edilemez. Tavan 20 denemeyi (~240 ms)
+  // bağlar; z8 ve altındaki her sahne bu tavanın ALTINDA kaldığı için Emre'nin
+  // vakası tam kapsanır, kalabalık uzak zoomda eskisi gibi ELEMEYLE çözülür.
+  var AYNALA_TAVAN = 20;
+  var aynalaDeneme = 0;
   var tutulan = [];
   // ⚠️ ELEME ERTELENİR. `mk.remove()` bir DOM yazmasıdır; döngünün içinde
   // yapılırsa bir sonraki `getBoundingClientRect` yeniden yerleşim tetikler.
@@ -3656,37 +3681,80 @@ function sehirGuncelle(t) {
     if (ck < 0) { tutulan.push({ r: r, m: mm }); continue; }
 
     var kurtuldu = false;
-    if (aynalaAcik) {
+    if (aynalaAcik && aynalaDeneme < AYNALA_TAVAN) {
+      aynalaDeneme++;
       var o = tutulan[ck];
       if (mm.s.lon < o.m.s.lon) {
-        // Yeni gelen BATIDA — kural onu sola yaslar.
+        // Yeni gelen BATIDA — kural onu sola yaslar. Geri alması güvenli:
+        // `mm` henüz `tutulan`da değil, kimse onun kutusuna dayanmıyor.
         mm.ic.classList.add("sol");
         var r2 = mm.ic.getBoundingClientRect();
         if (r2.width && _carpisanIdx(r2, tutulan) < 0) { r = r2; kurtuldu = true; }
         else mm.ic.classList.remove("sol");
-      } else {
+      } else if (!o.aynali) {
         // Tutulan BATIDA — kural TUTULANI sola yaslar; yeri boşalınca yeni gelen
         // kendi yerinde kalabilir. Tutulan zaten yerleşmiş olduğu için üç şart
         // birden aranır: aynalanmış hâli ne öteki tutulanlarla, ne yeni gelenle
         // çakışmayacak; yeni gelen de öteki tutulanlarla çakışmayacak. Biri bile
         // tutmazsa aynalama GERİ ALINIR — yarım kurtarma, elemeden kötüdür.
+        //
+        // 🔴 `!o.aynali` ŞARTI BİR KUSUR ONARIMIDIR, süs değil. İlk sürümde yoktu
+        // ve sınav onu yakaladı (denetim/ETIKET-0073-SINAV.json, z6): ZATEN
+        // aynalanmış bir tutulan ikinci bir çakışmada yeniden denenip
+        // başarısız oluyor, `classList.remove("sol")` ile ESKİ yerine dönüyor —
+        // ama `o.r` hâlâ AYNALI kutuyu gösteriyordu. Yani hem kaydı yalan
+        // oluyor hem de ilk turda kurtardığı etiketin üstüne geri biniyordu.
+        // Gözlenen artık çakışmalar tam buradan geliyordu (Pelekanon ↔ İzmit,
+        // Pelekanon ↔ Akyazı, Bursa ↔ Dimbos, Ferecik ↔ Keşan).
+        // ⇒ KARAR BİR KEZ VERİLİR: bir etiket aynalandıysa o turda öyle kalır.
         o.m.ic.classList.add("sol");
         var o2 = o.m.ic.getBoundingClientRect();
         var digerleri = tutulan.slice();
         digerleri.splice(ck, 1);
         if (o2.width && _carpisanIdx(o2, digerleri) < 0 && !_kesisir(o2, r) &&
             _carpisanIdx(r, digerleri) < 0) {
-          o.r = o2; kurtuldu = true;
+          o.r = o2; o.aynali = true; kurtuldu = true;
         } else {
           o.m.ic.classList.remove("sol");
         }
       }
     }
-    if (kurtuldu) tutulan.push({ r: r, m: mm });
+    if (kurtuldu) tutulan.push({ r: r, m: mm, aynali: mm.ic.classList.contains("sol") });
     else elenecek.push(mm);
   }
   for (var ei = 0; ei < elenecek.length; ei++) {
     if (elenecek[ei].ekli) { elenecek[ei].mk.remove(); elenecek[ei].ekli = false; }
+  }
+
+  // ---- ÜÇÜNCÜ GEÇİŞ: devletsiz-yerleşim HALKALARININ adı (ETIKET-0073)
+  // Halka etiketleri bugüne kadar HİÇBİR elemeye girmiyordu; tek kez kuruluyor
+  // ve 1281–1923 boyunca aynı yerde duruyorlardı. Emre'nin gördüğü çakışma
+  // buydu (yukarıdaki `boslukKur` notu). Şehirler ÖNCELİKLİ — onlar zaten
+  // kendi elemesini geçmiş durumda; halka yalnız ARTAN yere adını yazar.
+  // `sade` savaş işaretindeki `sv-sade` deseninin aynısı: silme yok, küçülme
+  // var (glif kalır, ad gider, hover'daki ad da kalır).
+  // ⚠️ YAZ–OKU–YAZ SIRASI AYRIK: önce bütün `sade`ler kalkar (yazma), sonra
+  // bütün kutular okunur (okuma), sonra kararlar basılır (yazma). Karışık
+  // sıra 92 halka için 92 ayrı yeniden yerleşim demekti — bu dosyada aynı
+  // hata bir kez yapıldı ve sınavda sayfayı kilitledi.
+  var halkalar = window.BOSLUK_HALKALARI || [];
+  if (halkalar.length) {
+    for (var hi = 0; hi < halkalar.length; hi++) halkalar[hi].el.classList.remove("sade");
+    var hkutu = [];
+    for (var hj = 0; hj < halkalar.length; hj++) {
+      hkutu.push(halkalar[hj].el.getBoundingClientRect());
+    }
+    var sadeOlacak = [];
+    for (var hk = 0; hk < halkalar.length; hk++) {
+      var hr = hkutu[hk];
+      if (!hr || !hr.width) continue;
+      // Ekranın tamamen dışındakini kıyaslamaya gerek yok.
+      if (hr.right < 0 || hr.bottom < 0 ||
+          hr.left > window.innerWidth || hr.top > window.innerHeight) continue;
+      if (_carpisanIdx(hr, tutulan) >= 0) sadeOlacak.push(halkalar[hk].el);
+      else tutulan.push({ r: hr, m: null, aynali: false });
+    }
+    for (var hs = 0; hs < sadeOlacak.length; hs++) sadeOlacak[hs].classList.add("sade");
   }
 }
 
@@ -9646,6 +9714,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_1806",        // window.EKOKUMA_1806 — EKO-1806 teslimi, M-4765 (6 kart)
   "ekokuma_yunan",       // window.EKOKUMA_YUNAN — EKO-YUNAN-0072 teslimi, M-4785 (4 kart)
   "ekokuma_yeniceri",    // window.EKOKUMA_YENICERI — EKO-YENICERI-0073 teslimi, M-4830 (4 kart)
+  "ekokuma_bolge0073",   // window.EKOKUMA_BOLGE0073 — EKO-BOLGE-0073 teslimi, M-4833 (4 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
