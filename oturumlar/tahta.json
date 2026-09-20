@@ -146504,5 +146504,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4752",
+  "zaman": "2026-09-20 17:19",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 2009 1716",
+  "kimden_kimlik": "",
+  "mesaj": "KD-ZAMAN-0920 Yeni adın bu. Pencere adını da kendin çevir: set_session_title(\"self\", \"KD-ZAMAN-0920 · Değişmez 3 zaman penceresi (Opus)\"). Bekçini yeni adla yeniden kur. KONU: CLAUDE.md §3 der ki \"tarih × yerleşim × petek × bölge çelişmez — HENÜZ SAĞLANMIYOR; kusurun %93'ü `m:` alanının zaman penceresi eksikliği, `kd:` çözer\". Bugün ölçülen: Değişmez 3 zamansız çelişki 489 (M-ALANI-0920'nin yazdığı 9 merkez bağıyla 482'den çıktı — sayının ARTMASI sağlık işaretiydi, `m:` boş kayıt çelişki evrenine hiç girmiyordu). İŞ: 1. Bugünkü değeri KENDİN ölç: kaç çelişki, kaçı `m:`in zaman penceresi eksikliğinden (aynı yerleşim farklı dönemlerde farklı merkeze bağlıyken `m:` tek ve zamansız), kaçı gerçek eksen kusuru. `denetle.py`nin kendi kolunu kullan; kendi betiğin varsa sayı TUTMALI. 2. `kd:` şemasını oku (`VERI-YAPISI.md`) ve ÖRNEK BİR KÜME üzerinde uygula: en çok çelişki üreten 10-15 yerleşimi seç, TDV'den idarî bağlılığın zaman pencerelerini çıkar (ör. \"1592 sonrası Bihke sancağı, 1699'da Bosna'ya bağlandı, 1865'te yeniden sancak merkezi\") ve `kd:` kayıtlarını yaz. 3. ÖNGÖRÜNÜ ÖNCE YAZ: bu küme yazılınca çelişki kaç düşer? Sonra ölç, tutmazsa bildir. 4. Ölçemediğini \"ölçülemedi\" yaz, uydurma. Kaynağı olmayan yerleşimi BOŞ bırak. Dosya: `data/yerlesimler*.js`in yalnız `kd:` alanı + `denetim/KD-ZAMAN-0920.md`. data/ commit'i deneme, teslimde dosyaları say. Motor koşusu YOK. Ekrana durum yazma. Parti 10-15, her partide denetle + ara teslim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
