@@ -145748,5 +145748,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4710",
+  "zaman": "2026-09-20 15:43",
+  "kimden": "SEFER-OK-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · SEFER-OK-0070 (H-0006 harekat oklari) · rapor: denetim/SEFER-OK-0070.md (1) OLCTUM — node ile index.html'in 250 data dosyasi birebir yuklenerek (denetim/ARAC-SEFER-OK-0070.js): · 114 ok kaydi / 6 ad alani · yolu olmayan kayit 0 · desene uymayip sessizce elenen ad alani 0 · devlet: alani yazili 25/114 · renk: yazili 58/114 · taraf bos 56 · harekat maddesi 2209 (k: savas/fetih/kusatma/sefer/isyan/isgal/akin + etiket toprak-*/savas/isyan/isgal) · GUZERGAH YOK KOVASI 1877 madde (%85). Kalan 332 bir UST SINIRDIR: olcut yalniz tarih cakismasi, cografi dogrulama YOK. · mukerrer ok 1: \"Abdulaziz'in Avrupa seyahati (1867)\" hem SEFERLER hem SEFERLER_P0037'de — harita ayni oku IKI KEZ ciziyor. · Tarama seridi app.js'in kendi ureticilerinden olculdu: isgal K=8 (isgalci 5 px, sahip 3 px), devir 4/4 px; capraz olduklari icin ekrandaki dik genislik 3.54 / 2.12 / 2.83 px. Emre'nin \"3 kat\" kurali ince serit uzerinden 6.36 px eder. · Emre'nin alti sartindan UCU bugun ihlaldeydi: kaynak noktasi YOK · renk devlete gore DEGIL (taraf bazli 2 sabit renk) · govde 1.6-2.6 px (butun turlerde ihlal). Ustune bir de SIRA kusuru: sefer katmanlari 29-38, isgal-dolgu 41 — yani ok, ANLATTIGI olayin taramasinin ALTINDA kaliyordu (1798 Misir'da Napolyon'un oku isgal taramasiyla orluyordu). (2) YAPTIM — js/app.js'te YALNIZ SEFER/HAREKET bloklari + yeni js/sefer_ok.js: · HAREKET kalinliklari 7-9 px (desen line-width biriminde oldugu icin _dsn() ile telafi edildi: kesik ritmi ekranda ayni kaldi) · sefer-kaynak circle katmani (ordunun cikis noktasi, \"kalin yuvarlak\") · _seferRengiCoz(): devlet: alanindan _cTarafRengi + koyuTon(0.35); VERININ yazdigi renk asla ezilmiyor; cozum TEMBEL cunku _DEVLET_RENK 2000 satir sonra kuruluyor · _seferKatmanSirasi(): sefer katmanlari ilk symbol katmaninin ALTINA tasindi (dolgularin ustu, sehir yazilarinin alti) · js/sefer_ok.js — \"ok\" animasyon fazi. Ad alani: window.SEFER_OK_FAZ (+ ANIM.kayitOl(\"ok\", fn) ile siralayiciya kaydolur). (3) SINADIM — headless Chrome/CDP (denetim/ARAC-SEFER-OK-SINAV-0070.js). NICIN: uygulamanin tarayici panosu gizlenince document.hidden=true olup rAF duruyor, MapLibre HIC render etmiyor (isStyleLoaded false, katman 0) — \"olcemedim\"in sebebi bu, atlasta kusur degil. · sefer-cizgi-sefer 9 px, en ince tur 7 px (>= 6.36) ✓ · sira: sefer 48/57 > isgal 31, ilk symbol 64 ✓ · durgun cizim 1798-07-20: 4 ozellik = 2 cizgi + 2 kaynak noktasi ✓ · \"ok\" fazi (Napolyon'un Misir'i isgali): kismi yol 5 -> 15 nokta ILERLIYOR, bitiste anim kaynagi bos, gizleme kalkti ✓ · guzergahsiz madde (Bursa'nin fethi 1326): faz false dondu — OK UYDURULMADI ✓ · ortak sahne: ANIM.sahnele ile faz kayitli ve cizdi ✓ (ELE-GECIRME-ANIM-0070'in anim_dili.js'i ile birlikte sinandi) (4) BULAMADIM / ACIK BORC: · 1877 maddede guzergah verisi yok — kod isi degil KAYNAK isi (cikis gunu + adi gecen istasyonlar + koordinat). Ok uydurulmadi. · Madde <-> ok bagi VERIDE YOK; eslesme tarih (±15 gun) + ucun maddeye uzakligi (<=400 km) ile kuruluyor. Dogruluk veriden degil mesafeden geliyor. · Mukerrer ok (Abdulaziz 1867) DOKUNMADIM — hangi dosyanin elenecegi veri sahibinin karari. (5) ISTIYORUM: a) index.html satirini SEN ekle (paylasilan dosya): <script src=\"js/sefer_ok.js?v=rNNNN\"></script> — anim_dili.js'ten once de sonra da kaydoluyor, ikisi de sinandi. b) js/app.js + js/sefer_ok.js commit'i SENDE (paylasilan). Ben yalniz kendi denetim dosyalarimi commitledim: 7e9abbd (denetim/SEFER-OK-0070.md · ARAC-SEFER-OK-0070.js · ARAC-SEFER-OK-SINAV-0070.js · OLCUM-SEFER-OK-0070.json). c) EMRE'YE SORU: kalinlik okuyusu hangisi — ince serit (bugunku 7-9 px) mi, isgalci seridi (taban 10.6 px) mi? Tek satirlik degisiklik, desen otomatik uyar. d) SONRAKI SEVK ONERISI: guzergah borcunun en verimli girisi k:\"sefer\" (13 madde) ve k:\"kusatma\" (10 madde) — kucuk, adlandirilmis, TDV kapsamasi yuksek kumeler; sonra 16. yy (310 madde). Ayrica seferlere olay:/sefer_id: bagi icin sema karari (VERI-YAPISI.md sahibinde). DEGISEN DOSYALAR: js/app.js (sefer bloklari) · js/sefer_ok.js (YENI) · denetim/SEFER-OK-0070.md · denetim/ARAC-SEFER-OK-0070.js · denetim/ARAC-SEFER-OK-SINAV-0070.js · denetim/OLCUM-SEFER-OK-0070.json. data/ DOSYASINA DOKUNULMADI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
