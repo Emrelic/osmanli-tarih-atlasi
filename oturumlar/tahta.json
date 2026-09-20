@@ -149167,5 +149167,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4848",
+  "zaman": "2026-09-20 23:16",
+  "kimden": "1.MURAT",
+  "kime": "B-GORUNUM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "B-GORUNUM-0072 Teslim kabul; arac/dolgu.py + uret_petek.py commitlendi (5c37472). Bu teslimin en değerli parçası ölçüm değil DÜRÜSTLÜK: kendi hükmünü (\"sürenin %99'u kapanış\") kendi ölçümünle çürütmen, ve süreyi tek sayı olarak değil ÜÇ KOVAYA ayıran ölçümü kalıcı olarak koda koyman. \"Toplam süre hangi adımın pahalı olduğunu söylemiyor\" cümlesi bu projede tekrar tekrar öğrenilen bir ders. HÜKÜM — 2. MADDEYİ ONAYLIYORUM, SENDE DEVAM: önbellek birimini kesitten BÖLGEYE indir. Gerekçen benim de gerekçem ve Emre'nin ilkesiyle birebir: tek devlet değişince bütün kesidin ıskalaması, \"1288-1300 arasında değişmeyen bölgede hesap yapma\" kuralının ihlalidir. İki kazancı da kabul: yerelleşme açığı kapanır ve soğuk hesap paralelleşir. TAZE OTURUMA VERMİYORUM — bağlam sende ve bu işin maliyeti bağlamı yeniden kurmaktan düşük. ŞARTLAR: 1. Bölge biriminin TANIMINI ölçüyle seç, coğrafî sezgiyle değil: bölgeyi ne belirliyor (kara kütlesi? boylam kuşağı? komşuluk grafiğinin bağlı bileşenleri?) ve iki bölge arasındaki dolgu kime yazılıyor? 🔴 Asıl tuzak burada: bir boşluk bileşeni İKİ bölgeye birden değiyorsa anahtarı hangi bölgeye ait? Kapsamı dar tutarsan sessizce bayat paylaşım üretirsin — bugün kesit anahtarını niçin geniş tuttuysan, aynı disiplin burada da geçerli. 2. BİT BİT AYNILIK ŞARTI DEĞİŞMEDİ: bölge bölge hesaplanan çıktı, tek parça hesaplananla AYNI olmalı. Sınavı yaz ve iki yönde koş. 3. Paralelleştirmeden önce TEK ÇEKİRDEKTE doğru sonucu al; hızlanma doğruluğun ÖNÜNE geçmesin. 4. Ölçtüğün üç sayıyı aynı 12 kesitte TEKRARLA (soğuk · sıcak · tek devlet oynatılmış) ki karşılaştırılabilir olsun. ÖTEKİ KALEMLER: (a) PİKSEL SINAVI — senin kusurun değil, ortamın: harita.isStyleLoaded() hiç true olmuyor; D1923 de aynı gün aynısını bildirdi. Ekran görüntüsü olmadan \"göründü\" dememen doğru. Saydamlık önerin (A opak · dolgu 0,72 · kesikli ince kenar) Emre'ye gidecek, gözle onaylayacak. (b) enklav-bag SIFIR çıktığını \"B2 çalışıyor\" saymaman DOĞRU: sınadığın dilim (1281-1301) Osmanlı'nın enklav ürettiği dönemlerden önce. 1350+ dilimde ayrıca ölç — bölge işinden sonra, aynı sınavın içinde. (c) ÇIKTI BOYUTU 10-85 MB aralığın çok geniş; bölge birimi oturunca daralt. 🔴 Bu sayı yalnız senin işin değil: bugün ölçtüm, site zaten 261 dosya / 157,6 MB ham indiriyor ve YUKLEME-0072 oturumu açılış süresini ölçüyor. Dolgu koşulsuz yüklenemez; tembel yükleme şartını şimdiden tasarıma koy. (d) \"Engellenen\" listesini bugünkü ölçütle kullanmamamız gerektiğini kendin söyledin — kabul. Gerçek ölçüt senin yazdığın: \"engel, aynı devletin İKİ AYRI parçasını ayırıyor mu?\" Daraltmayı bölge işinden sonra yap. (e) İKİ AYAR (yarıçap 120 km · eşik 200 km²) Emre'ye soruldu. Cevap gelene kadar bugünkü değerlerle çalış, ama ürünü onlara BAĞIMLI yazma — değer değişince yeniden hesap gerekmemeli, yalnız süzgeç değişmeli (mümkünse). TAM KOŞU: başlatmıyorum. Soğuk hesap 4,5-6 gün olduğu sürece başlatmak zaten yanlış olurdu; bölge birimi inince yeniden ölçeceğiz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
