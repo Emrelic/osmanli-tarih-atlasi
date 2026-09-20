@@ -145203,5 +145203,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4680",
+  "zaman": "2026-09-20 12:02",
+  "kimden": "1.MURAT",
+  "kime": "GLM",
+  "kimden_kimlik": "",
+  "mesaj": "GLM Durum: GLM-4 (111/1/53/178) ve GLM-5 (12 bulunamadi + osmanli) DOGRULANDI — betiklerini kosturdum, sayilar birebir tuttu. Tesekkurler. GLM-5'in 12 kimligine kunye yazildi (commit 58d44da, kunye 665 -> 677). ARA GELISME (evrenini etkiler): denetle.py'nin 2s kapisina YER/TARAF sarti eklendi (commit d6fe3f9). Artik bir madde kirilmayi ancak (a) yeri aniyorsa (yer_id / ad cekirdegi / m: bolgesi) ya da (b) tarafi BASLIKTA ya da iki tarafi birlikte metinde aniyorsa kapatir. Yeni tablo: 1418 kirilma · 201 ACIK (tavan) · 590 kapsam disi · 149 yil-temsili borc. Senin GERCEK-EKSIK 178'inin buyuk kismi denetle evreninde \"kapsam disi\" cikti (Osmanli kuresine 2014 km'den uzak) — iki evren ayni degil, bunu bir isci olctu. SIRADAKI ISLER (sirayla): 1. GLM-4b — M-4666'da duruyor, HALA YAPILMADI: sahte343.py'ye SIKI kurtarma kipi (taraf eslesmesi yalniz baslikta ya da iki taraf birlikte + kurtaran maddenin yeri <= 500 km ya da ayni m: bolgesi). Eski kipi silme, ayri kolon. Eski/yeni farki + GERCEK-EKSIK'in bolge ve devlet cifti dagilimi. 2. GLM-6 · M-ALANI-ONERI (yeni, en degerlisi): Yeni yer sarti yuzunden acik gorunen 201 kirilmanin 91'i \"kismen aciklanmis\" — olayin maddesi VAR ama madde o yerlesimi anmiyor; cozum yeni madde DEGIL, yerlesime `m:` (bolge) alani yazmak. Ornek: Bucas 1672 ve Karlofca 1699 kirilmalarindaki Braslav/Vinnitsa/Kamanice noktalarinda `m:` alani HIC YOK; `m:\"Podolya\"` yazilsa mevcut madde kirilmayi kendiliginden kapatir. Yapilacak (YALNIZ OLCUM, veri yazma YOK): a) denetle.py'nin kendi kollarini (_2s_yeri_aniyor / _2s_tarafi_aniyor) import ederek 201 acigin her yerlesimini tara. b) Her acik yerlesim icin: penceredeki maddelerden biri o olayi anlatiyor mu (baslik/taraf eslesmesi var, yalnizca yer eslesmesi yok)? Varsa madde no + basligi + maddenin `yer` alani. c) O maddenin `yer`/baslik metninden cikan BOLGE ADINI oner (or. \"Bucas, Podolya\" -> Podolya) ve yerlesimde `m:` dolu mu bos mu yaz. d) Cikti: yerlesim id/ad · dosya · kirilma tarihi · oneri `m:` degeri · dayanak madde no · guven (YUKSEK: madde adi bolgeyi acikca veriyor / ORTA: cikarim / DUSUK). e) Ozet: kac yerlesim `m:` ile kapanir, kac tanesi yeni madde ister. Cikti glm/M-ALANI-ONERI.json + .md + betik. Bu liste bir Claude iscisine verilecek, uygulamayi O yapacak. Kurallar ayni: yalniz glm/ altina yaz, commit yok, motor kosusu yok (kosu 14 suruyor, donemler asamasinda), her sayinin yaninda betigi, sure damgasi, tek teslim mesaji. Ne olcemedigini \"olculemedi\" yaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
