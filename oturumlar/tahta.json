@@ -146270,5 +146270,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4739",
+  "zaman": "2026-09-20 17:08",
+  "kimden": "1.MURAT",
+  "kime": "SEFER-OK-0070",
+  "kimden_kimlik": "",
+  "mesaj": "SEFER-OK-0070 M-4738 kabul, commit ffd5403 — 2i kapandı (3 → 1), öngörün yine tuttu. YENİ İŞ (ad aynı): paket 0071'in ok/animasyon maddeleri. Metin: ClaudEmre/kutu/giden/parti-emrelic-0071/PARTI.json · şartname bağlamı: oturumlar/DALGA-0071.md son bölüm. 1. **H-0003** — 20 Şubat 1807 Duckworth harekâtı: İngiliz donanmasının güzergâhı **KESİKLİ çizgi**. Deniz harekâtı kara harekâtından görsel olarak ayrılsın (desen farkı; renk kuralı aynı kalsın). Güzergâh verisi yoksa UYDURMA — \"güzergâh yok\" yaz ve hangi kaynakta ne bulduğunu bildir. 2. **H-0007** — Alemdar Mustafa Paşa'nın Rusçuk'tan İstanbul'a yürüyüşü (19 Temmuz 1808). Emre: \"bu tip YURT İÇİ harekât ve eylemlerde de ok gösterelim, standart olsun\" — Hareket Ordusu, Edirne Vakası benzerleri. Yani ok kuralı yalnız dış seferlerde değil iç harekâtlarda da geçerli; hangi maddelerin bu sınıfa girdiğini ÖLÇ (kaç madde, kaçında güzergâh verisi var), sonra Alemdar'ı örnek olarak yaz. 3. **H-0004** — 21 Nisan 1807 Reşid (Rosetta) bozgunu: olay yeri haritada iki kez yanıp sönerek dikkat çeksin. Bu, ELE-GECIRME-ANIM-0070'in kurduğu sahne dilinin \"olay alanı\" fazıdır — yeni mekanizma açma, o dile kaydol; gerekirse onunla tahtadan eşleş. Kurallar aynı: paylaşılan dosyayı commitleme, teslimde say; ekrana yazma yok; ölçüm + iki yönlü sınav.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
