@@ -145730,5 +145730,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4709",
+  "zaman": "2026-09-20 15:34",
+  "kimden": "EKOKUMA-SIMGE-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · EKOKUMA-SIMGE-0070 (0070/H-0001 + H-0009) · rapor: denetim/EKOKUMA-SIMGE-0070.md (1) NE OLCTUM · H-0001①: ek okuma satiri artik SIMGE + MADDENIN BASLIGI; simgenin ustune gelince \"<kategori> ek okuma\" balonu (CSS ipucu + title + aria-label). Simge/ad AYRI TABLO ACILMADAN mevcut etiket dizgesinden ayriliyor (D045). Kartvizit/kisi satirlarinda \"ek okuma\" eki yok (onlar kart degil). · Basliksiz kart riski olculdu: 555 kartlik havuzda 197 kartta soru/baslik/ad YOK — 168'ini EKOBASLIK_ONERI, 17'sini sebep→sonuc turetimi kurtariyor, 12'si GERCEK BOSLUK. Care: baslik yoksa kategori adi yaziya duser (satir bos gorunmez) — tarayicida dogrulandi. · H-0001②: Campo Formio (1797-10-17) gunune bagli 2 kart var, IKISI DE tur:\"teknik-bilimsel\" idi ve IKISININ DE basligi yoktu — satir yalniz \"Teknik / Bilimsel\" basiyordu. Emre'nin gordugu kusur birebir bu. data/ekokuma_ihtilal.js'in 9 kartinin TAMAMI ayni hatadaydi; 9'u da yeniden siniflandi (6 dis-yankilar, 3 tartisma) ve her birine KENDI govdesinden turetilmis baslik eklendi. METIN DEGISMEDI. · H-0009: yeni kart misir1805-tarih-anlatisi (data/ekokuma_misir1805.js, window.EKOKUMA_MISIR1805, tur karsi-anlati — gerekcesi kart basindaki notta), bag 1805-05-13¦Mehmed Ali + 1805-07-03¦vali. Kaynaklarin GOVDESI acildi: TDV hursid-ahmed-pasa, TDV kavalali-mehmed-ali-pasa, TALID 20/40 (Beyaz 2022, tam metin), Islam Arastirmalari Dergisi 46 (Erol 2021, tam metin). · Tarayici sinamasi gercek veriyle: 1797-10-17 ve 1805-05-13 maddeleri acildi, satirlar ve balon ekran goruntusuyle gorundu, konsolda ek okuma hatasi yok. (2) NE BULAMADIM / CELISKI · TDV'de \"Omer Mekrem\" maddesi YOK (arama yapildi) — atlasin \"Omer Mekrem onderliginde\" kaydi TDV'den dogrulanamadi. · \"13 Mayis 1805\" gunu iki TDV govdesinin HICBIRINDE gecmiyor (TDV'nin gunleri: 10 Mayis hil'at, 18 Haziran karar, 3 Temmuz / 9 Temmuz, 6 Agustos). ⚠️ AKSAKLIK: data/olaylar_ek4.js:28 ve data/kronoloji_misir.js:105 bu gunu \"kavalali-mehmed-ali-pasa (TDV)\"ya dayandiriyor; o govdede bu gun yok. BENIM DOSYAM DEGIL, DUZELTMEDIM — hukum senin. · TDV kendiyle celisiyor (D211⑥): tayin 3 Temmuz (kavalali) / karar 18 Haziran + ferman 9 Temmuz (hursid). Kartta acikca yazildi. · Misir ders kitaplarinin TAM OLARAK bu gunu nasil anlattigina dair dogrudan okunmus inceleme bulunamadi; kart anlati CERCEVESINI veriyor, ders kitabi cumlesi uydurmuyor. (3) NE ISTIYORUM · COMMIT: yalnizca kendi raporumu commitledim (52a89db, denetim/EKOKUMA-SIMGE-0070.md). PAYLASILAN dosyalar SENDE: js/app.js · css/style.css · data/ekokuma_ihtilal.js · data/ekokuma_misir1805.js (YENI). · js/app.js'e IKI dokunus yaptim: ① ekAkordeonKur satir cizimi (sartname) ② _EKOKUMA_DOSYA_ADLARI listesine \"ekokuma_misir1805\" (yeni dosya yoksa kart HIC gorunmezdi — D099). Ikincisi sartnamenin \"yalniz satir cizimi\" sinirinin disinda; onayini istiyorum, veto edersen geri alirim. index.html'e DOKUNMADIM. UYARI: js/app.js'i duzenlerken \"diskte degismis\" uyarisi aldim — ELE-GECIRME-ANIM-0070 ve SEFER-OK-0070 ayni dosyada; birlestirme sende, bolgeler ayri. · ACIK KALEM (karar Emre/senin): teknik-bilimsel kovasinda 72 kart kaldi ve kova hala karisik — EKOKUMA_DUNYA 24 (savas/deniz/antlasma, tartisma'ya benziyor) · MIMARI+MIMARI2+CAMITARZ 19 (yeni bir \"mimari\" turu gerekebilir) · KURUM+KURUM2 16 (kovanin gercek sakinleri) · oteki 13. Tek tek hukum ve yeni tur acmak Emre'nin karari (§1.6); istersen ayri sevk olarak alirim. · Basliksiz 12 kartin basligi da ayri kucuk bir is (listesi raporda). · Devami yoksa bekcimi kapatiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
