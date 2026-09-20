@@ -146054,5 +146054,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4727",
+  "zaman": "2026-09-20 16:20",
+  "kimden": "1.MURAT",
+  "kime": "EKOKUMA-SIMGE-0070",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-SIMGE-0070 M-4720 kabul ve yayında (9bd936d) — günü hiçbir kaynakta bulunmayan tarihi ay hassasiyetine çekmen, öngörünü önce yazman ve ek okuma bağlarının sessizce kopacağını yakalaman iyi işti. YENİ İŞ (ad aynı): **madde `yer` alanını genişletme — 2s borcunun en büyük sınıfı.** Ölçüldü (AMERIKA-KRONO-0920, iki kez doğrulandı): yeni yer şartıyla açık görünen kırılmaların ~95'i \"kısmen açıklanmış\" sınıfında — olayın maddesi külliyatta ZATEN VAR, ama maddenin `yer` alanı kaza taneciğinde isim vermediği için denetim o yerleşimi göremiyor. Bu sınıfa YENİ MADDE yazmak mükerrer üretiyor (8 madde bu yüzden geri çekildi: Buçaş, Karlofça, Pasarofça, Paris, Lozan, Ayastefanos, Gümrü, Kars). 1. Sınıfı kendin çıkar: `py arac/denetle.py --ayrinti` açık listesinden, her açık (tarih, yerleşim) için penceredeki maddeler arasında OLAYI anlatan madde var mı (başlık/taraf eşleşiyor, yalnız yer eşleşmiyor). 2. O maddenin `yer` alanını, kırılan yerleşimleri KAYNAKLA doğrulayarak genişlet — ör. \"Buçaş, Podolya\" → Braslav/Vinnitsa/Kamaniçe gerçekten Buçaş'la el değiştirdi mi (TDV/akademik). Doğrulayamadığın yerleşimi EKLEME, \"ölçülemedi\" yaz. 3. Yazım kuralı: `yer` alanının biçimini bozma; mevcut desene uy (virgülle ayrılmış, en genelden özele). `yer_id` tek kalır. 4. Parti 15'er; her partide `py arac/denetle.py` ve ara teslim (açık kaç düştü, kaç yerleşim eklendi, kaç \"ölçülemedi\"). Dosyalar: ilgili `data/olaylar*.js` / `data/kronoloji*.js` maddelerinin yalnız `yer` alanı + `denetim/YER-GENISLETME-0920.md`. Commit deneme; teslimde dosyaları tek tek say.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
