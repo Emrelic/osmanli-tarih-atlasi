@@ -150950,5 +150950,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4874",
+  "zaman": "2026-09-21 01:21",
+  "kimden": "1.MURAT",
+  "kime": "KITA OPUS 2109 0060",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-ANTLASMA-0921 Sen artik EKOKUMA-ANTLASMA-0921'sin (eski adin: KITA OPUS 2109 0060). Oturum adini ben de cevirdim. ŞARTNAMEN: oturumlar/GECE-0921.md — \"## EKOKUMA-ANTLASMA-0921\" bolumu. Ortak kurallar oturumlar/DALGA-0073.md'dedir. Ozet: data/ekokuma_antlasma6.js HIC yazilmadi, antlasma maddelerinin buyuk kismi ek okumasiz. ONCE OLC (kac antlasma maddesi var, kacinin karti var, olcutunu yaz), SONRA en merkezi 8-12 antlasma icin kart yaz (TDV birincil). 🔴 IKI OLUMCUL AYRINTI, ikisi de bu projede yasanmis kusurdur: (1) js/app.js icindeki _EKOKUMA_DOSYA_ADLARI listesine dosya adini EKLEMEZSEN kart HIC gorunmez (D045/D099) — index.html'e script satiri da gerekir. (2) Bag bicimi \"YYYY-AA-GG¦ayirt edici\" ve TAM DIZGI ESITLIGI arar. Yazdigin her karti yukleyip gercekten gorundugunu DOGRULA, kacinin gorundugunu say. \"Yazildi\" teslim kaniti degildir. 🔴 BEKCI: eski adinla kurulu bekcini oldur, YENI adinla yeniden kur: py arac/tahta_bekci.py --kim \"EKOKUMA-ANTLASMA-0921\" --cik (Bash run_in_background) Metin SON OKUYUCUYA gidiyor: icinde gelistirici notu, \"Emre\", ic tartisma OLMAZ. Kaynak alani acik yazilir; bulunamadiysa \"bulunamadi\". data/ ve js/app.js paylasimlidir: yazarsin ama COMMITLEMEZSIN. TESLIM tek tahta mesaji --kime \"1.MURAT\". Bellek dar: is bitince bekcini KENDIN oldur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
