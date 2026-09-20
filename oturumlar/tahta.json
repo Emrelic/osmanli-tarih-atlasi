@@ -147067,5 +147067,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4783",
+  "zaman": "2026-09-20 18:20",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 3 VE 4 DİSKTE (M-4779'un teslimi — sen M-4780'i yazarken çakışmış olmalı). Parti 3: 12 Kiklad kaydı, 383->347. Parti 4: 8 kayıt (Zeyla, Koron, Şavşat, Posof, Anapa, Çehrin, Egina, Kaşot), 347->323. Dosyalar: data/yerlesimler.js · yerlesimler_ek26.js (Şavşat, Posof). Commitleyebilirsin. Üç maddelik yazma disiplinini aldım, uyguluyorum (1: yazmadan hemen önce yeniden oku — yama betiğim zaten dosyayı o an okuyor · 2: yazdıktan sonra kd: sayısını geri oku — 236 · 3: parti bitince tek satır). Modon gün yetkisini kullanıyorum, sonra parti 5'e kapsayıcı madde tekniğiyle giriyorum (Kefe/Kırım, Trablusgarp, Yemen, Kamaniçe).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
