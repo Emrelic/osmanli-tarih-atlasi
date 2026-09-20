@@ -78,7 +78,16 @@ window.OLAYLAR_EK2 = [
 // Buradaki 11 Ekim 1579 kaydı SİLİNDİ; olaylar_ek7.js'teki 12 Ekim 1579 kaydı
 // bırakıldı, çünkü o kayıt TDV "SOKULLU MEHMED PAŞA" maddesindeki hicrî günü
 // (20 Şâban 987) veriyor ve 20 Şâban 987 = 12 Ekim 1579'dur.
-{ t:"1808-11-15", k:"sadrazam", etiket:["siyaset","ittifak","isyan","konu-siyasi","konu-diplomasi","konu-kisiler","konu-isyan","konu-burokrasi"], b:"Alemdar Mustafa Paşa'nın ölümü", gun:"15 Kasım 1808", yer:"İstanbul, Bâbıâli", kisiler:"Alemdar Mustafa Paşa", d:"Yeniçeri ayaklanmasında Bâbıâli'de kuşatılan reformcu sadrazam, cephaneliği ateşleyerek öldü; Sened-i İttifak düzeni ve ilk reform denemesi onunla birlikte gömüldü.", kaynak:"alemdar-mustafa-pasa", duygu:["🏛"], yer_id:"İstanbul" },
+// 🔴 20 Eylül 2026, EKO-ALEMDAR (yetki: tahta M-4758, 1.MURAT) — GÜN 15 KASIM'DAN
+// 16 KASIM'A ÇEKİLDİ. Gövdesi açılan dört künye de ölümü 16 Kasım 1808'e veriyor:
+// TDV `alemdar-mustafa-pasa` ("15 Kasım 1808 gecesi başlayan ayaklanma neticesinde …
+// kendisi de öldü (16 Kasım 1808)") · TDV `ayan` ("16 Kasım 1808'de çıkan bu
+// ayaklanmada … hayatını kaybetti") · TDV `sened-i-ittifak` ("öldüğü için (16 Kasım
+// 1808)") · Bayrak (Ferlibaş) 2009, s. 65, 78. Ayaklanmanın 15 Kasım gecesi başlaması
+// AYRI madde YAPILMADI: hiçbir kaynak onu adıyla ayrı bir olay olarak anmıyor, ayırmak
+// haritada karşılığı olmayan bir madde (Değişmez 2t borcu) üretirdi — başlangıç `d:`
+// metnine yazıldı. Ayrıntı ve öngörü/ölçüm: denetim/EKO-ALEMDAR-0920.md §1.
+{ t:"1808-11-16", k:"sadrazam", etiket:["siyaset","ittifak","isyan","konu-siyasi","konu-diplomasi","konu-kisiler","konu-isyan","konu-burokrasi"], b:"Alemdar Mustafa Paşa'nın ölümü", gun:"16 Kasım 1808", yer:"İstanbul, Bâbıâli", kisiler:"Alemdar Mustafa Paşa", d:"15 Kasım 1808 gecesi başlayan yeniçeri ayaklanmasında Bâbıâli'de kuşatılan reformcu sadrazam, beklediği yardım gelmeyince ertesi gün cephaneliği ateşleyerek yüzlerce saldırganla birlikte öldü; Sened-i İttifak düzeni ve ilk reform denemesi onunla birlikte gömüldü.", kaynak:"alemdar-mustafa-pasa (TDV, Kemal Beydilli — 16 Kasım 1808) · ayan (TDV, Özcan Mert — 16 Kasım 1808) · sened-i-ittifak (TDV, Ali Akyıldız — 16 Kasım 1808) · Meral Bayrak (Ferlibaş), \"Alemdar Mustafa Paşa'nın Muhallefatı\", Türk Kültürü İncelemeleri Dergisi 21 (2009), 63-120, s. 65, 78", duygu:["🏛"], yer_id:"İstanbul" },
 // --- Darbeler / hal'ler / isyanlar ---
 { t:"1648-08-18", k:"darbe", etiket:["siyaset","isyan","ittifak","darbe-askeri","konu-siyasi","konu-diplomasi","konu-isyan","konu-darbe","konu-kisiler"], b:"Sultan İbrahim'in katli", gun:"18 Ağustos 1648", yer:"İstanbul", yer_id:"İstanbul", kisiler:"Sultan İbrahim, Turhan Sultan", d:"Savurganlık ve yönetim bunalımı gerekçesiyle ocak-ulema ittifakı İbrahim'i tahttan indirdi; on gün sonra fetvayla boğduruldu. Tahta yedi yaşındaki IV. Mehmed geçti; iktidar fiilen büyük vâlide Kösem Sultan'ın eline geçti.", kaynak:"kosem-sultan", vefat_id:"ibrahim", duygu:["🗡","😔"] },
 // hatalar 5.docx madde 3 — SİLİNDİ (1656-03-04): mükerrer: aynı gün, olaylar_ek7.js kaydı TDV atıflı ve daha ayrıntılı
