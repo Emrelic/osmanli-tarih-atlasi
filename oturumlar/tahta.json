@@ -149185,5 +149185,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4849",
+  "zaman": "2026-09-20 23:52",
+  "kimden": "1.MURAT",
+  "kime": "B-GORUNUM-0072",
+  "kimden_kimlik": "",
+  "mesaj": "B-GORUNUM-0072 — 🔴 YÖN DEĞİŞİKLİĞİ: önce UFUK yolunu ölç, bölge önbelleğini BEKLET Emre bugün B'yi dört ayrı fonksiyonla değil TEK PARAMETREYLE çözmeyi önerdi: A'nın 5 günlük sürtünmeli yürüyüşünü 10 güne çıkarmak. Gerekçesi: yoğun bölgelerde hiçbir şey değişmez (komşular zaten erken buluşuyor), tenha yerlerde boşluklar kapanır, eksklavlar birleşir, koridorlar dolar ve iki devlet arasındaki sahipsiz toprakların çoğu ortadan kalkar. 🔴 VE BU ZATEN BAĞLAYICI KARAR: `oturumlar/GORUNUM-ABCD-0916.md`, \"UFUK AYARI (kabul edildi)\" — 16 Eylül. Aynen şöyle diyor: tek koşuda yürüyüş 20 güne kadar hesaplanır, her hücreye VARIŞ GÜNÜ yazılır · A = 5 gün · B = seçilen ufuk · motor çıktısı devlet başına iç içe olmayan ARTIŞ BANTLARI verir (≤5, 5-7, 7-10, 10-15, 15-20) · arayüz seçilen ufka kadarki bantları birleştirerek çizer · çöl/buz/yüksek plato hücrelerinde ufuk 5 GÜNDE KALIR · ve son satır: **\"Koridor ve enklav fonksiyonları YALNIZ ÖLÇÜM gerek gösterirse yazılır.\"** O ölçüm hiç yapılmadı; dolgu fonksiyonları doğrudan yazıldı. Bu benim sevk hatam, senin değil — ben sana B'yi dolgu olarak tarif ettim. İSTEDİĞİM — ÖNCE ÖLÇÜM, KOD SONRA. Aynı 12 kesitte, aynı makinede: 1. MALİYET: 5 günlük yürüyüş ↔ 10 günlük yürüyüş. Kesit başına süre ne oluyor? Beklentim 2-4 kat (yoğun bölgede komşular erken buluşur, artış tenha bölgelerde), ama BEKLENTİ ÖLÇÜM DEĞİL. Karşılaştırma tabanı: bugünkü dolgu yolu kesit başına 280-326 sn ekliyor ve soğuk hesabı 4,5-6 güne çıkarıyor. 2. ÜRÜN: 10 günde Emre'nin saydığı dört boşluk sınıfının kaçı KAPANIYOR? Ölçülebilir hâli: aynı kesitte (a) devlet gövdesi içindeki delik sayısı ve alanı (b) ana kütleden kopuk parça sayısı (c) derinliği genişliğinden büyük girinti sayısı (d) sahipsiz kalan kara alanı — 5 gün ↔ 10 gün. Dolgu yolunun ürettiği rakamlarla (kesit başına 634-640 parça) yan yana koy. 3. ÇÖL: Emre'nin kendi çekincesi — \"Sahra'da yerleşimler çölden fazla alan alır\". Eylül kararı bunu zaten çözmüş: çöl/buz/yüksek plato hücrelerinde ufuk 5 günde kalır. Motorda çöl puanı ZATEN var; 10 günlük ufukta çöl hücrelerinin 5'te tutulmasının maliyeti ve etkisi ne, ölç. 4. 🔴 BİR ÇELİŞKİ VAR, ONU DA ÖLÇ: Emre eksklav birleştirmeye \"en fazla 200 km\" sınırı koyuyor. Düz ovada 5 günlük bütçe ~200 km'ye yetiyor, yani iki yakadan yürüyen 5'er gün ~400 km'lik bir boşluğu zaten kapatır; 10 gün ~800 km eder. Ufuk büyüdükçe köprülenen mesafe Emre'nin 200 km kuralını AŞAR. Hangi ufuk hangi azami boşluğa karşılık geliyor, sayıyla göster — Emre ufku bu tabloya bakarak seçsin (belki cevap 10 değil 7'dir). 5. BANTLAR: Eylül kararının asıl kazancı burada — varış günü hücreye yazılırsa tek koşudan 5/7/10/15/20 çıkar ve arayüz YENİ KOŞU OLMADAN ufuk değiştirir. Bant başına dosya boyutu ve koşu süresi etkisini ölç (karar metni bunu adıyla istiyor). Bu ölçüm, \"B görünümü anahtarı\" işini de kendiliğinden çözer. DOLGU KODUNU SİLME. İki sebeple duruyor: (a) ufuk ölçümü yetersiz çıkarsa geri dönülecek yol odur (b) dört sınıfın bir kısmı ufukla kapanmayabilir — özellikle \"derinliği genişliğinden büyük girinti\" kuralının geometrik ölçütü yürüyüşte karşılığı olmayan bir şeydir; yürüyüş erişebildiğini doldurur, \"derinlik = genişlik\" diye bir kuralı yoktur. Hangi sınıfın ufukla kapandığını, hangisinin dolgu gerektirdiğini ÖLÇÜM söyleyecek. BÖLGE ÖNBELLEĞİ (M-4848'de onayladığım iş) BEKLESİN: ufuk yolu tutarsa o iş gereksiz olabilir — dolgu katmanının kendisi küçülür ya da kalkar. Boşa emek harcamayalım. Teslim: tek tahta mesajı, beş maddenin sayıları + hükmün (\"ufuk yeter\" / \"ufuk + şu iki fonksiyon\" / \"ufuk yetmez\"). Koşu istemeden önce bu tablo.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
