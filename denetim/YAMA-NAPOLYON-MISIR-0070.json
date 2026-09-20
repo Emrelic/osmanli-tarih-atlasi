@@ -1,5 +1,7 @@
 {
- "_NOT": "NAPOLYON-MISIR (oturum SEFER-OK-0070) · 20 Eylül 2026 · koordinatör 1.MURAT (M-4724). Paket 0070 H-0002, görsel ClaudEmre/kutu/giden/parti-emrelic-0070/H-0002-1.png (kesit 1798-07-01). VERİYE YAZILMADI — öneridir; şartname (DALGA-0070 §5) yamanın ancak onaydan sonra uygulanmasını söylüyor. Ölçüm: denetim/ARAC-NAPOLYON-MISIR-0070.py + denetim/OLCUM-NAPOLYON-MISIR-0070.json. Rapor: denetim/NAPOLYON-MISIR-0070.md",
+ "_NOT": "NAPOLYON-MISIR (oturum SEFER-OK-0070) · 20 Eylül 2026 · koordinatör 1.MURAT (M-4724). Paket 0070 H-0002, görsel ClaudEmre/kutu/giden/parti-emrelic-0070/H-0002-1.png (kesit 1798-07-01). Ölçüm: denetim/ARAC-NAPOLYON-MISIR-0070.py + denetim/OLCUM-NAPOLYON-MISIR-0070.json. Rapor: denetim/NAPOLYON-MISIR-0070.md",
+
+ "_DURUM": "🟢 UYGULANDI — 1.MURAT hükmü M-4731 (20 Eylül 2026). data/yerlesimler.js'e işlendi: Kahire · İskenderiye · Süveyş düzeltildi, Sina güneyi işgal kaydı kaldırıldı, Dimyat · Asyut · Reşîd'in GÜNÜ DEĞİŞMEDİ ama kaynak alanına 'İŞGAL GÜNÜ BULUNAMADI … 1798-07-01 mevcut kayıttır ve kaynağı yoktur … alt sınır 1798-06-30' beyanı eklendi. denetle.py: SONUÇ temiz; Değişmez 2i 125→130 kırılma, 1→3 açık (tavan 3). İki yeni açık: 1801-06-27 (Kahire, Süveyş) ve 1801-08-31 (İskenderiye) — kronolojide o iki teslim maddesi YOK, madde YAZILMADI, koordinatöre bildirildi.",
 
  "olculen_kusur": {
   "ozet": "Mısır kutusundaki (lat 21–32,5 · lon 24–36,5) 70 yerleşimin 8'inde işgal kaydı var. Bunların YEDİSİ tek bir blok tarih taşıyor: f=1798-07-01, t=1801-10-09, kaynak alanı yalnız 'kahire'. Sekizincisi (El-Arîş) ayrı ve DOĞRU.",

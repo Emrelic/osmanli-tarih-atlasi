@@ -82,8 +82,58 @@ sonuçtur): `kahire` (yalnız "1798'de"), `suveys` (yalnız kanal çalışmalar�
 | Dimyat | **beklesin** — TDV yalnız yıl veriyor; 1798-07-01 sahte kesinlik, 1798-01-01 pencere dışı | bulunamadı |
 | El-Arîş | **dokunulmadı** — TDV ile birebir uyuyor | doğru |
 
-🔴 Uydurma yapılmadı: gün bulunamayan dört kayıt DEĞİŞTİRİLMEDİ, `bulunamadı`
-olarak yazıldı (§4). Yama veriye **uygulanmadı** — onay 1.MURAT/Emre'de.
+🔴 Uydurma yapılmadı: gün bulunamayan üç kayıt DEĞİŞTİRİLMEDİ, `bulunamadı`
+olarak yazıldı (§4).
+
+### 5.1 UYGULANDI — 1.MURAT hükmü (M-4731), 20 Eylül 2026
+
+Yama `data/yerlesimler.js`e işlendi. Uygulayıcı betik tam eşleşme sayısını önce
+ölçtü (7 blok kayıt), sonra değiştirdi; `replace` körlemesine çalıştırılmadı (§11).
+
+| Kayıt | Yeni hâli |
+|---|---|
+| Kahire | `f:"1798-07-22" t:"1801-06-27"` + NAPO-2/NAPO-3 alıntılı `kaynak` |
+| İskenderiye | `f:"1798-06-30" t:"1801-08-31"` + TDV alıntısı + NAPO-2 çelişkisi yazılı |
+| Süveyş | `f:"1798-11-08" t:"1801-06-27"` + **"gün komşudan: Kahire kapitülasyonu 1801-06-27 · NAPO-3"** (§4 şartlı devralma; zincirleme devralma yok) |
+| Sina güneyi | işgal kaydı **KALDIRILDI**; gerekçe `not:` alanına yazıldı |
+| Dimyat · Asyut · Reşîd | gün DEĞİŞMEDİ; `kaynak` alanına **"🔴 İŞGAL GÜNÜ BULUNAMADI … 1798-07-01 mevcut kayıttır ve KAYNAĞI YOKTUR … alt sınır 1798-06-30"** beyanı eklendi (sahte kesinlik artık işaretli) |
+
+**Yayılma ölçüldü — atlas artık süreci gösteriyor** (`ARAC-NAPOLYON-MISIR-0070.py`):
+
+| Kesit | Önce | Sonra |
+|---|---|---|
+| 1798-07-01 | 7 | **4** (İskenderiye + 3 beyanlı borç) |
+| 1798-07-24 | 7 | 5 (Kahire eklendi) |
+| 1799-02-20 | 8 | 7 (Süveyş + El-Arîş eklendi) |
+| 1801-09-02 | 7 | 3 (Kahire ve İskenderiye teslim oldu) |
+
+### 5.2 DENETİM — `py arac/denetle.py` önce/sonra
+
+| Ölçüt | Önce | Sonra |
+|---|---|---|
+| Değişmez 1 | 3921 yerleşim, 299 sahipsiz | **aynı** |
+| Değişmez 2 | 587 kırılma, 0 açık | **aynı** |
+| Değişmez 2s | 1418 kırılma, 183 açık (tavan 195) | **aynı** |
+| **Değişmez 2i** | 125 İŞGAL kırılması, **1 açık** (tavan 3) | **130 kırılma, 3 açık (tavan 3)** |
+| Değişmez 2t | 1 (tavan 42) | aynı |
+| Genel | temiz | **temiz** |
+
+🔴 **İki yeni açık işgal kırılması — kronolojide madde YOK** (madde YAZILMADI,
+bildiriliyor; koordinatör hükmü M-4731 §4):
+
+| Kırılma | Yerleşim | En yakın madde |
+|---|---|---|
+| **1801-06-27** | Kahire, Süveyş | 87 gün uzakta (Vehhâbîlerin Kerbelâ baskını) |
+| **1801-08-31** | İskenderiye | 39 gün uzakta ("Mısır'ın Fransızlardan tahliyesi", 1801-10-09) |
+
+Sebebi açık: eski veri bütün işgali **tek bir güne** (1801-10-09) bağlamıştı ve o
+günün maddesi vardı — senkron "tam" görünüyordu çünkü gerçek iki teslim günü
+atlasta hiç yoktu. Gereken iki madde (kaynağı hazır):
+* **27 Haziran 1801** — General Belliard'ın Kahire'deki kapitülasyonu (NAPO-3)
+* **31 Ağustos 1801** — Menou'nun İskenderiye'deki kapitülasyonu (NAPO-3)
+
+⚠️ **Tavan tam sınırda (3/3).** Bu iki madde yazılana kadar yeni bir açık işgal
+kırılması Değişmez 2i'yi ihlale düşürür.
 
 ## 6. ÖLÇÜLEMEYEN
 
