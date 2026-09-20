@@ -1,0 +1,3199 @@
+{
+ "olculdu": "2026-09-20T22:43:35.661Z",
+ "evren": {
+  "indexDataDosyasi": 255,
+  "yuklenen": 254,
+  "yuklenmeyen": [
+   "data/dolgu.js"
+  ],
+  "ekOkumaAdi": 59,
+  "ekOkumaDiskteYok": [],
+  "olayKovasi": 68,
+  "olayToplam_kapsamKonuDahil": 1626,
+  "olayToplam_varsayilan": 1625,
+  "antlasmalarKaydi": 41,
+  "ekHavuzKart": 592,
+  "merakHavuzKart": 15
+ },
+ "kesin": {
+  "ad": "k=antlasma",
+  "toplam": 131,
+  "kartli": 99,
+  "kartsiz": 32,
+  "kartliListe": [
+   {
+    "t": "1555-05-29",
+    "b": "Amasya Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "amasya-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1606-11-11",
+    "b": "Zitvatorok Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "zitvatorok-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "kimdir",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1639-05-17",
+    "b": "Kasr-ı Şirin Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "kasrisirin-antlasmasi + Remzi Kılıç, Türk Kültürü XXXIX/460 (2001), ss. 479-493 (antlaşmanın Osmanlıca metni) + British and Foreign State Papers 105, s. 763-766",
+    "kartSayisi": 11,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1672-10-18",
+    "b": "Bucaş Antlaşması — en geniş sınırlar",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "bucas-antlasmasi",
+    "kartSayisi": 6,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "karsi-anlati",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "karlofca",
+    "kartSayisi": 15,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "teknik-bilimsel",
+     "savas-hikayesi",
+     "karsi-anlati",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1739-09-18",
+    "b": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "belgrad-antlasmalari",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1774-07-21",
+    "b": "Küçük Kaynarca Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "kucuk-kaynarca-antlasmasi",
+    "kartSayisi": 15,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir",
+     "karsi-anlati",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1808-10-07",
+    "b": "Sened-i İttifak",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "sened-i-ittifak",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir"
+    ]
+   },
+   {
+    "t": "1878-07-13",
+    "b": "Berlin Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "berlin-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1918-10-30",
+    "b": "Mondros Mütarekesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "mondros-mutarekesi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1923-07-24",
+    "b": "Lozan Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "lozan-antlasmasi",
+    "kartSayisi": 6,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1387-06-08",
+    "b": "Osmanlı-Ceneviz ahidnâmesi — 1352 antlaşmasının yenilenmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "ceneviz",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1479-01-25",
+    "b": "İstanbul Antlaşması — Arnavutluk ve İşkodra",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "iskodra",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1812-05-28",
+    "b": "Bükreş Antlaşması — Besarabya'nın kaybı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "bukres-antlasmalari",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1829-09-14",
+    "b": "Edirne Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "edirne-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1921-10-13",
+    "b": "Kars Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "kars",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1403-06-01",
+    "b": "Süleyman Çelebi – Bizans antlaşması: Selanik'in iadesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "suleyman-celebi-emir",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1444-06-12",
+    "b": "Edirne-Segedin Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "edirne-segedin-antlasmalari",
+    "kartSayisi": 8,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "tartisma",
+     "savas-hikayesi",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1590-03-21",
+    "b": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK2",
+    "kaynak": "luristan · murad-iii · safeviler",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1612-11-20",
+    "b": "Nasuh Paşa Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK2",
+    "kaynak": "nasuh-pasa-antlasmasi",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1403-06-15",
+    "b": "Gelibolu Antlaşması — Bizans'a tavizler",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK3",
+    "kaynak": "suleyman-celebi-emir",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1828-08-06",
+    "b": "İskenderiye Sözleşmesi: Mısır Mora'dan çekilme kararı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "navarin",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1833-05-14",
+    "b": "Kütahya Sözleşmesi — Suriye ve Adana Kavalalı'ya",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "kutahya",
+    "kartSayisi": 1,
+    "turler": [
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1833-07-08",
+    "b": "Hünkâr İskelesi Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "hunkar-iskelesi-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1840-07-15",
+    "b": "Londra Antlaşması: dört devlet Osmanlı'nın yanında",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "londra-antlasmasi",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1840-11-27",
+    "b": "İskenderiye Konvansiyonu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "kavalali-mehmed-ali-pasa",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1841-07-13",
+    "b": "Londra Boğazlar Sözleşmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "londra-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1333-08-01",
+    "b": "Bizans'ın haraca bağlanması — İzmit kuşatması ve antlaşma",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "orhan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1352-01-01",
+    "b": "Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "orhan",
+    "kartSayisi": 5,
+    "turler": [
+     "sebep-sonuc",
+     "merak"
+    ]
+   },
+   {
+    "t": "1415-03-01",
+    "b": "Konya kuşatması ve Karamanoğulları ile antlaşma — Hamîd-ili, Said-ili, Beyşehir, Seydişehir ve Akşehir geri alındı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "mehmed-i AYNEN: 'Mehmed bu seferde Karamanlılar'ı yendi ve Konya'yı kuşatma altına aldı (Muharrem 818 / Mart 1415).' · 'Karamanoğlu barış istedi, Hamîd-ili (Isparta yöresi), Said-ili toprakları Osmanlı ülkesine katıldı.' · ÇELİŞKİ: karamanogullari AYNEN 'Mehmed Bey Beyşehir, Seydişehir ve Akşehir'i Osmanlılar'a geri vermek zorunda kaldı (817/1414).'",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "merak"
+    ]
+   },
+   {
+    "t": "1491-05-01",
+    "b": "Osmanlı-Memlük barışı — Tunus arabuluculuğu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "bayezid-ii",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1502-12-14",
+    "b": "Osmanlı-Venedik Savaşı'nın sona ermesi ve barış",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "venedik",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1533-01-01",
+    "b": "İstanbul Antlaşması — Habsburglarla ilk barış",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "suleyman-i",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1547-06-18",
+    "b": "İstanbul Antlaşması — Habsburglarla beş yıllık barış",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "suleyman-i",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1553-02-01",
+    "b": "Osmanlı-Fransız ittifakı — Fransız donanmasının Osmanlı emrine girmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "turgut-reis",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1573-03-07",
+    "b": "Venedik'le İstanbul Antlaşması — Kıbrıs'ın tanınması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "kibris",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "magazin",
+     "savas-hikayesi"
+    ]
+   },
+   {
+    "t": "1612-07-06",
+    "b": "Hollanda'ya ilk ahidnâme verilmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "hollanda",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1618-09-26",
+    "b": "Serav Antlaşması — İran'la barışın yenilenmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osman-ii",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1621-10-09",
+    "b": "Hotin Seferi ve Hotin Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "hotin",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1664-08-09",
+    "b": "Vasvar Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "vasvar-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1681-01-11",
+    "b": "Bahçesaray Antlaşması — Rusya ile ilk resmî barış",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "merzifonlu-kara-mustafa-pasa",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1700-07-14",
+    "b": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "karlofca · rusya · mustafa-ii",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1711-07-21",
+    "b": "Prut Antlaşması — Azak ve Taygan'ın geri alınması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "prut-antlasmasi",
+    "kartSayisi": 9,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir",
+     "savas-hikayesi",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1713-06-24",
+    "b": "Rusya ile Edirne Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ahmed-iii",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir",
+     "savas-hikayesi"
+    ]
+   },
+   {
+    "t": "1724-06-24",
+    "b": "İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ahmed-iii",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1727-10-04",
+    "b": "Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ahmed-iii",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1732-01-10",
+    "b": "Ahmed Paşa Antlaşması — Batı İran'ın büyük bölümünün iadesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1736-09-01",
+    "b": "İstanbul Antlaşması — Güney Kafkasya'nın İran'a terki",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1739-10-03",
+    "b": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1746-09-04",
+    "b": "Kerden Antlaşması — Osmanlı-İran savaşlarının sonu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 5,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1779-03-10",
+    "b": "Aynalıkavak Tenkihnâmesi — Kırım üzerine geçici uzlaşma",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "kirim",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1790-01-31",
+    "b": "Osmanlı-Prusya İttifakı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "selim-iii",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1791-08-04",
+    "b": "Ziştovi Antlaşması — Avusturya cephesinin kapanması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1792-01-10",
+    "b": "Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "yas-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1802-06-25",
+    "b": "Paris Antlaşması — Fransa ile barışın yeniden kurulması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "misir",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1809-01-05",
+    "b": "Kal'a-i Sultâniyye Antlaşması — İngiltere ile barış ve Boğazlar kaidesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1826-10-07",
+    "b": "Akkirman Antlaşması — Sırbistan ve prensliklere tavizler",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "sirbistan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1849-05-01",
+    "b": "Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himayesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "eflak",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1854-03-12",
+    "b": "İstanbul'da İngiltere ve Fransa ile ittifak antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1856-03-30",
+    "b": "Paris Antlaşması: Kırım Savaşı'nın sonu ve Osmanlı'nın Avrupa devletler sistemine kabulü",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "paris-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "savas-hikayesi",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1878-01-31",
+    "b": "Edirne Mütarekesi: 93 Harbi'nde silahların susması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ayastefanos-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "savas-hikayesi",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1878-03-03",
+    "b": "Ayastefanos Antlaşması: Büyük Bulgaristan tasarısı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ayastefanos-antlasmasi",
+    "kartSayisi": 7,
+    "turler": [
+     "sebep-sonuc",
+     "teknik-bilimsel",
+     "savas-hikayesi",
+     "karsi-anlati",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1913-09-29",
+    "b": "İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "bulgaristan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1913-11-14",
+    "b": "Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "yunanistan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1914-08-02",
+    "b": "İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "birinci-dunya-savasi",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1918-03-03",
+    "b": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "birinci-dunya-savasi",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1920-12-03",
+    "b": "Gümrü Antlaşması: TBMM hükümetinin ilk uluslararası antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "milli-mucadele",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1921-10-20",
+    "b": "Ankara İtilâfnâmesi: Fransa ile barış ve güney cephesinin kapanması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "milli-mucadele",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1922-10-11",
+    "b": "Mudanya Mütarekesi: İstanbul ve Boğazlar'ın savaşsız devri",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "mudanya-mutarekesi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1718-07-21",
+    "b": "Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve Banat kaybedildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "pasarofca-antlasmasi",
+    "kartSayisi": 9,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1735-03-21",
+    "b": "Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK7",
+    "kaynak": "dagistan · BRE Гянджинский трактат 1735 (10(21) Mart)",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1828-02-22",
+    "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK7",
+    "kaynak": "revan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "teknik-bilimsel"
+    ]
+   },
+   {
+    "t": "1830-02-03",
+    "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK8",
+    "kaynak": "yunanistan",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "dis-yankilar",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1920-08-10",
+    "b": "Sevr Antlaşması — imparatorluğun paylaşım metni",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK8",
+    "kaynak": "sevr-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1899-01-19",
+    "b": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK9",
+    "kaynak": "sudan",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1797-10-17",
+    "b": "Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 2,
+    "turler": [
+     "dis-yankilar"
+    ]
+   },
+   {
+    "t": "1772-08-05",
+    "b": "Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 1,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1793-01-23",
+    "b": "Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 2,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1795-10-24",
+    "b": "Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 1,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1489-02-26",
+    "b": "Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — Haçlı devletinin sonu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1815-06-09",
+    "b": "Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Congress of Vienna / Final Act tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1654-01-08",
+    "b": "Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Pereyaslav Council 1654 tarihyazımı)",
+    "kartSayisi": 4,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1667-02-09",
+    "b": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Andrusovo tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1802-03-25",
+    "b": "Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Amiens tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1916-11-03",
+    "b": "İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Anglo-Qatari Treaty of 1916 tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1913-08-10",
+    "b": "Bükreş Antlaşması — Batı Trakya ve Kavala havzası Bulgaristan'dan Yunanistan'a geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_2S0920",
+    "kaynak": "TDV `balkan-savasi` — AYNEN: \"II. Balkan Savaşı 10 Ağustos 1913'te Bulgaristan'la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi.\" · hassasiyet: GÜN",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1921-03-16",
+    "b": "Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0049",
+    "kaynak": "kars · ahiska",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1424-02-22",
+    "b": "II. Murad ile Bizans barışı — Bizans yeniden haraç ödemeyi kabul etti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0058",
+    "kaynak": "murad-ii · bizans",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1919-09-10",
+    "b": "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "avusturya",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1920-06-04",
+    "b": "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "macaristan",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1919-06-28",
+    "b": "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". ⚠️ TANECİKLİK BOŞLUĞU (CLAUDE.md §4): TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir.",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1919-11-27",
+    "b": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "bulgaristan — gövde okundu: \"Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.\" ⚠️ TDV antlaşmanın adını \"Neully\" diye yazıyor; \"Neuilly\" aramasi bu maddede 0 sonuç verir. `neuilly` slugu 302 (ÖLÜ).",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1847-05-31",
+    "b": "II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK106",
+    "kaynak": "sattularap",
+    "kartSayisi": 6,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1913-07-29",
+    "b": "Katar'dan Osmanlı feragati — Londra Sözleşmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0036",
+    "kaynak": "katar",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1906-10-01",
+    "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı tarif edildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "Taba hakem kararı, RIAA XX (1988) Ek B s.114-116 (anlaşma metni) ve §54-59 (dikim) · IBS 46",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1739-12-12",
+    "b": "Rusya ile barışın ahidnamesi: Kabartay tarafsız, Azak yıkılacak",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917KOSU13",
+    "kaynak": "mahmud-i--osmanli · Kurtaran, Tarih İncelemeleri Dergisi 29/1 (2014; BOA DVE 83/1) · azak · Manstein s.246",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1790-09-18",
+    "b": "Yergöğü Mütarekesi — Avusturya cephesinde silahların susması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1791-08-11",
+    "b": "Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "yas-antlasmasi",
+    "kartSayisi": 1,
+    "turler": [
+     "teknik-bilimsel"
+    ]
+   },
+   {
+    "t": "1792-02-10",
+    "b": "Yaş tasdiknâmelerinin mübadelesi — barışın devletler hukukunda kesinleşmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "yas-antlasmasi",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   }
+  ],
+  "kartsizListe": [
+   {
+    "t": "1830-05-07",
+    "b": "Amerika Birleşik Devletleri ile ilk antlaşma",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1806-02-01",
+    "b": "Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislava) Antlaşması'nın uygulanması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_ILIRYA0072",
+    "kaynak": "Hrvatska enciklopedija (LZMK) `dalmacija` — AYNEN: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji.\" ve Pojun için \"26. XII. 1805\" · LZMK `zadar` — AYNEN: \"Uspostavom francuske uprave 1806-13. Zadar je ostao sjedištem generalnoga providura.\" · hassasiyet: AY (Şubat 1806) · TDV bu coğrafyayı bu tanecikte KAPSAMIYOR (CLAUDE.md §4)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1806-01-01",
+    "b": "Kvarner adalarının Napolyon İtalya Krallığı'na, Boka Kotorska'nın Rus idaresine geçişi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_ILIRYA0072",
+    "kaynak": "LZMK `krk-otok` — AYNEN: \"Požunskim mirom 1806. ušao u sastav Napoleonove Kraljevine Italije, a 1809. u sastav Ilirskih pokrajina.\" · LZMK `boka-kotorska` — AYNEN: \"prva austrijska 1797-1806; ruska 1806-07. i francuska 1807-13\" · hassasiyet: YIL",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1884-06-03",
+    "b": "Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK9",
+    "kaynak": "habesistan",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1662-01-30",
+    "b": "Tanca İngiltere'ye devredildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK11",
+    "kaynak": null,
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1861-05-31",
+    "b": "Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK13",
+    "kaynak": "bahreyn",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1809-09-17",
+    "b": "Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1814-01-14",
+    "b": "Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1884-07-18",
+    "b": "Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "somali",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1503-04-02",
+    "b": "Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Moskova-Litvanya savaşları tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1561-11-28",
+    "b": "Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Livonian War / Treaty of Vilnius tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1581-07-26",
+    "b": "Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İspanya'dan bağımsızlığını ilan etti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Act of Abjuration tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1714-03-07",
+    "b": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Rastatt tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1721-08-30",
+    "b": "Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Nystad tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1617-02-27",
+    "b": "Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Stolbovo tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1618-12-11",
+    "b": "Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Deulino tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1820-01-08",
+    "b": "Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye başladı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (General Maritime Treaty of 1820 tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1466-10-19",
+    "b": "İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Second Peace of Thorn 1466 tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1815-11-05",
+    "b": "Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK17",
+    "kaynak": "bulunamadı — TDV bu dönemi/bölgeyi kapsamıyor, dayanak: Encyclopaedia Britannica 'Treaty of Paris (1815)'",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1525-04-08",
+    "b": "Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü",
+    "k": "antlasma",
+    "kova": "OLAYLAR_SESSIZBORC0919",
+    "kaynak": "NDB 'Albrecht' (deutsche-biographie.de/sfz56560): 'mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches weltliches Herzogtum den Brandenburgern beließ, jedoch unter polnische Lehnshoheit.' · 'Begründung der Königsberger Albertus-Universität am 17.8.1544'",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1918-11-03",
+    "b": "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "birinci-dunya-savasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1723-09-23",
+    "b": "Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyısı eyaletlerini Rusya'ya bıraktı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0060",
+    "kaynak": "BRE Петербургский договор 1723 (12(23) сент.) · Iranica BOUNDARIES ii ('22 Ḏu'l-ḥejja 1135/23 September 1723') · Iranica RUSSIA i",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1732-01-01",
+    "b": "Reşt Antlaşması — Rusya Gîlân, Mâzenderân ve Esterâbâd'ı İran'a iade etti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0060",
+    "kaynak": "Iranica BOUNDARIES ii ('Under the Treaty of Rašt (1144/1732) Astarābād and Māzandarān were restored, and the Russian forces abandoned Gīlān and Ṭāleš') · Iranica RUSSIA i · BRE Константинопольский договор 1724 · Salamova, Omskiy nauçnıy vestnik 2007",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1909-04-19",
+    "b": "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1913-11-17",
+    "b": "İstanbul Protokolü — Türk-İran sınırının tahdidi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS No. 28 Iran-Turkey (1964) s.5-7 · H. Efe-M. Kızıl, ERZSOSDE X-I (2017) s.77-90",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1915-09-06",
+    "b": "Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS No. 49 Bulgaria-Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1886-01-01",
+    "b": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary ... for a limited distance')",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1892-01-01",
+    "b": "İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy ... as far as Ghudamis')",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1910-05-19",
+    "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS 121 (1972) s.2-5 · Martens, Nouveau Recueil Général 3. seri c.VII s.91-93 · IBS 001 (1961) s.2, s.6 ('12 May 1910')",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1868-07-03",
+    "b": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_KAMERIKA",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1762-11-03",
+    "b": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_KAMERIKA",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1851-09-17",
+    "b": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_KAMERIKA",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   }
+  ]
+ },
+ "gevsek": {
+  "ad": "k=antlasma VEYA baslik kalibi",
+  "toplam": 154,
+  "kartli": 109,
+  "kartsiz": 45,
+  "kartliListe": [
+   {
+    "t": "1555-05-29",
+    "b": "Amasya Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "amasya-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1606-11-11",
+    "b": "Zitvatorok Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "zitvatorok-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "kimdir",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1639-05-17",
+    "b": "Kasr-ı Şirin Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "kasrisirin-antlasmasi + Remzi Kılıç, Türk Kültürü XXXIX/460 (2001), ss. 479-493 (antlaşmanın Osmanlıca metni) + British and Foreign State Papers 105, s. 763-766",
+    "kartSayisi": 11,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1672-10-18",
+    "b": "Bucaş Antlaşması — en geniş sınırlar",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "bucas-antlasmasi",
+    "kartSayisi": 6,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "karsi-anlati",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1699-01-26",
+    "b": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "karlofca",
+    "kartSayisi": 15,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "teknik-bilimsel",
+     "savas-hikayesi",
+     "karsi-anlati",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1739-09-18",
+    "b": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "belgrad-antlasmalari",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1774-07-21",
+    "b": "Küçük Kaynarca Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "kucuk-kaynarca-antlasmasi",
+    "kartSayisi": 15,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir",
+     "karsi-anlati",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1808-10-07",
+    "b": "Sened-i İttifak",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "sened-i-ittifak",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir"
+    ]
+   },
+   {
+    "t": "1878-07-13",
+    "b": "Berlin Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "berlin-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1913-05-30",
+    "b": "Londra Antlaşması — Rumeli'nin kaybı",
+    "k": "kayip",
+    "kova": "OLAYLAR",
+    "kaynak": "balkan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1918-10-30",
+    "b": "Mondros Mütarekesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "mondros-mutarekesi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1923-07-24",
+    "b": "Lozan Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR",
+    "kaynak": "lozan-antlasmasi",
+    "kartSayisi": 6,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1387-06-08",
+    "b": "Osmanlı-Ceneviz ahidnâmesi — 1352 antlaşmasının yenilenmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "ceneviz",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1479-01-25",
+    "b": "İstanbul Antlaşması — Arnavutluk ve İşkodra",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "iskodra",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1812-05-28",
+    "b": "Bükreş Antlaşması — Besarabya'nın kaybı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "bukres-antlasmalari",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1829-09-14",
+    "b": "Edirne Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "edirne-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1921-10-13",
+    "b": "Kars Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "kars",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1403-06-01",
+    "b": "Süleyman Çelebi – Bizans antlaşması: Selanik'in iadesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "suleyman-celebi-emir",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1444-06-12",
+    "b": "Edirne-Segedin Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK",
+    "kaynak": "edirne-segedin-antlasmalari",
+    "kartSayisi": 8,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "tartisma",
+     "savas-hikayesi",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1838-08-16",
+    "b": "Balta Limanı Ticaret Antlaşması",
+    "k": "ekonomi",
+    "kova": "OLAYLAR_EK2",
+    "kaynak": "baltalimani-muahedesi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1590-03-21",
+    "b": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK2",
+    "kaynak": "luristan · murad-iii · safeviler",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1612-11-20",
+    "b": "Nasuh Paşa Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK2",
+    "kaynak": "nasuh-pasa-antlasmasi",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1403-06-15",
+    "b": "Gelibolu Antlaşması — Bizans'a tavizler",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK3",
+    "kaynak": "suleyman-celebi-emir",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1698-11-13",
+    "b": "Karlofça barış görüşmeleri başladı",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_EK3",
+    "kaynak": "karlofca",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "teknik-bilimsel"
+    ]
+   },
+   {
+    "t": "1827-07-06",
+    "b": "Londra Antlaşması: üç devlet Yunan özerkliğini dayattı",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "londra-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "dis-yankilar"
+    ]
+   },
+   {
+    "t": "1828-08-06",
+    "b": "İskenderiye Sözleşmesi: Mısır Mora'dan çekilme kararı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "navarin",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1833-05-14",
+    "b": "Kütahya Sözleşmesi — Suriye ve Adana Kavalalı'ya",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "kutahya",
+    "kartSayisi": 1,
+    "turler": [
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1833-07-08",
+    "b": "Hünkâr İskelesi Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "hunkar-iskelesi-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1840-07-15",
+    "b": "Londra Antlaşması: dört devlet Osmanlı'nın yanında",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "londra-antlasmasi",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1840-11-27",
+    "b": "İskenderiye Konvansiyonu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "kavalali-mehmed-ali-pasa",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1841-07-13",
+    "b": "Londra Boğazlar Sözleşmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK4",
+    "kaynak": "londra-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1333-08-01",
+    "b": "Bizans'ın haraca bağlanması — İzmit kuşatması ve antlaşma",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "orhan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1352-01-01",
+    "b": "Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "orhan",
+    "kartSayisi": 5,
+    "turler": [
+     "sebep-sonuc",
+     "merak"
+    ]
+   },
+   {
+    "t": "1415-03-01",
+    "b": "Konya kuşatması ve Karamanoğulları ile antlaşma — Hamîd-ili, Said-ili, Beyşehir, Seydişehir ve Akşehir geri alındı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "mehmed-i AYNEN: 'Mehmed bu seferde Karamanlılar'ı yendi ve Konya'yı kuşatma altına aldı (Muharrem 818 / Mart 1415).' · 'Karamanoğlu barış istedi, Hamîd-ili (Isparta yöresi), Said-ili toprakları Osmanlı ülkesine katıldı.' · ÇELİŞKİ: karamanogullari AYNEN 'Mehmed Bey Beyşehir, Seydişehir ve Akşehir'i Osmanlılar'a geri vermek zorunda kaldı (817/1414).'",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "merak"
+    ]
+   },
+   {
+    "t": "1491-05-01",
+    "b": "Osmanlı-Memlük barışı — Tunus arabuluculuğu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "bayezid-ii",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1502-12-14",
+    "b": "Osmanlı-Venedik Savaşı'nın sona ermesi ve barış",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "venedik",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1533-01-01",
+    "b": "İstanbul Antlaşması — Habsburglarla ilk barış",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "suleyman-i",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1547-06-18",
+    "b": "İstanbul Antlaşması — Habsburglarla beş yıllık barış",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "suleyman-i",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1553-02-01",
+    "b": "Osmanlı-Fransız ittifakı — Fransız donanmasının Osmanlı emrine girmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "turgut-reis",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1573-03-07",
+    "b": "Venedik'le İstanbul Antlaşması — Kıbrıs'ın tanınması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "kibris",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "magazin",
+     "savas-hikayesi"
+    ]
+   },
+   {
+    "t": "1612-07-06",
+    "b": "Hollanda'ya ilk ahidnâme verilmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "hollanda",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1618-09-26",
+    "b": "Serav Antlaşması — İran'la barışın yenilenmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osman-ii",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1621-10-09",
+    "b": "Hotin Seferi ve Hotin Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "hotin",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1664-08-09",
+    "b": "Vasvar Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "vasvar-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1681-01-11",
+    "b": "Bahçesaray Antlaşması — Rusya ile ilk resmî barış",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "merzifonlu-kara-mustafa-pasa",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1700-07-14",
+    "b": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "karlofca · rusya · mustafa-ii",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1711-07-21",
+    "b": "Prut Antlaşması — Azak ve Taygan'ın geri alınması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "prut-antlasmasi",
+    "kartSayisi": 9,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir",
+     "savas-hikayesi",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1713-06-24",
+    "b": "Rusya ile Edirne Antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ahmed-iii",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir",
+     "savas-hikayesi"
+    ]
+   },
+   {
+    "t": "1724-06-24",
+    "b": "İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ahmed-iii",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1727-10-04",
+    "b": "Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ahmed-iii",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1732-01-10",
+    "b": "Ahmed Paşa Antlaşması — Batı İran'ın büyük bölümünün iadesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1736-09-01",
+    "b": "İstanbul Antlaşması — Güney Kafkasya'nın İran'a terki",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1739-10-03",
+    "b": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1746-09-04",
+    "b": "Kerden Antlaşması — Osmanlı-İran savaşlarının sonu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 5,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1779-03-10",
+    "b": "Aynalıkavak Tenkihnâmesi — Kırım üzerine geçici uzlaşma",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "kirim",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1790-01-31",
+    "b": "Osmanlı-Prusya İttifakı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "selim-iii",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1791-08-04",
+    "b": "Ziştovi Antlaşması — Avusturya cephesinin kapanması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1792-01-10",
+    "b": "Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "yas-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1802-06-25",
+    "b": "Paris Antlaşması — Fransa ile barışın yeniden kurulması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "misir",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1809-01-05",
+    "b": "Kal'a-i Sultâniyye Antlaşması — İngiltere ile barış ve Boğazlar kaidesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1826-10-07",
+    "b": "Akkirman Antlaşması — Sırbistan ve prensliklere tavizler",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "sirbistan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1849-05-01",
+    "b": "Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himayesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "eflak",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1854-03-12",
+    "b": "İstanbul'da İngiltere ve Fransa ile ittifak antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1856-03-30",
+    "b": "Paris Antlaşması: Kırım Savaşı'nın sonu ve Osmanlı'nın Avrupa devletler sistemine kabulü",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "paris-antlasmasi",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "savas-hikayesi",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1878-01-31",
+    "b": "Edirne Mütarekesi: 93 Harbi'nde silahların susması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ayastefanos-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "savas-hikayesi",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1878-03-03",
+    "b": "Ayastefanos Antlaşması: Büyük Bulgaristan tasarısı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "ayastefanos-antlasmasi",
+    "kartSayisi": 7,
+    "turler": [
+     "sebep-sonuc",
+     "teknik-bilimsel",
+     "savas-hikayesi",
+     "karsi-anlati",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1912-10-18",
+    "b": "Uşi Antlaşması: Trablusgarp ve Bingazi'nin İtalya'ya terki",
+    "k": "kayip",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "trablusgarp",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1913-09-29",
+    "b": "İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "bulgaristan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1913-11-14",
+    "b": "Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "yunanistan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1914-08-02",
+    "b": "İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "birinci-dunya-savasi",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1918-03-03",
+    "b": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "birinci-dunya-savasi",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1919-10-22",
+    "b": "Amasya Protokolü: İstanbul hükümetiyle Heyet-i Temsîliyye görüşmesi",
+    "k": "siyaset",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "milli-mucadele",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1920-12-03",
+    "b": "Gümrü Antlaşması: TBMM hükümetinin ilk uluslararası antlaşması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "milli-mucadele",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1921-10-20",
+    "b": "Ankara İtilâfnâmesi: Fransa ile barış ve güney cephesinin kapanması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "milli-mucadele",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1922-10-11",
+    "b": "Mudanya Mütarekesi: İstanbul ve Boğazlar'ın savaşsız devri",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "mudanya-mutarekesi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1540-11-01",
+    "b": "Anabolu'nun (Nauplion) antlaşmayla devralınması",
+    "k": "fetih",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "anabolu",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1718-07-21",
+    "b": "Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve Banat kaybedildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "pasarofca-antlasmasi",
+    "kartSayisi": 9,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma",
+     "kimdir",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1913-11-01",
+    "b": "Bozcaada ve İmroz'un geri alınışı — Atina Antlaşması",
+    "k": "fetih",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "bozcaada",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1580-01-01",
+    "b": "İngiltere ile ilk ticaret ahidnâmesi — İngilizlere kapitülasyon verildi",
+    "k": "siyaset",
+    "kova": "OLAYLAR_EK7",
+    "kaynak": "ingiltere — TDV ingiltere birebir: '…Sultan III. Murad ile görüşebildi ve Osmanlı ülkesinde ticaret yapabilmek için bir ahidnâme aldı. 1580 tarihli bu ahidnâmeye göre İngiliz tüccarları da Fransız ve Venedikliler’e daha önce verilen ticarî imtiyazlardan (kapitülasyon) aynı derecede istifade edeceklerdi. Bu arada konuyu olgunlaştırmak için İngiltere Kraliçesi I. Elizabeth ile III. Murad arasında mektuplar teâti edildi, böylece resmî bir ilişki de kurulmuş oldu.' · '…bu imtiyazlarla başlatılan resmî-ticarî münasebetlerin hemen ardından 1581’de Londra’da Levant Company adlı bir şirket kuruldu.' · Düzeltme (KITA 14, 13 Eylül 2026): (1) olaylar_ek2.js’teki 1580-06-01 'İngiltere’ye kapitülasyon verildi' maddesiyle MÜKERRERDİ (KITA 26 bildirdi) — o madde kaldırıldı, bilgisi buraya taşındı. (2) t: 1580-02-01 → 1580-01-01: TDV yalnız yıl veriyor (§4, ay uydurulmaz).",
+    "kartSayisi": 6,
+    "turler": [
+     "sebep-sonuc",
+     "merak",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1735-03-21",
+    "b": "Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK7",
+    "kaynak": "dagistan · BRE Гянджинский трактат 1735 (10(21) Mart)",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1828-02-22",
+    "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK7",
+    "kaynak": "revan",
+    "kartSayisi": 2,
+    "turler": [
+     "sebep-sonuc",
+     "teknik-bilimsel"
+    ]
+   },
+   {
+    "t": "1830-02-03",
+    "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK8",
+    "kaynak": "yunanistan",
+    "kartSayisi": 4,
+    "turler": [
+     "sebep-sonuc",
+     "dis-yankilar",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1920-08-10",
+    "b": "Sevr Antlaşması — imparatorluğun paylaşım metni",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK8",
+    "kaynak": "sevr-antlasmasi",
+    "kartSayisi": 3,
+    "turler": [
+     "sebep-sonuc",
+     "antlasma"
+    ]
+   },
+   {
+    "t": "1899-01-19",
+    "b": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK9",
+    "kaynak": "sudan",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1797-10-17",
+    "b": "Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 2,
+    "turler": [
+     "dis-yankilar"
+    ]
+   },
+   {
+    "t": "1772-08-05",
+    "b": "Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 1,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1793-01-23",
+    "b": "Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 2,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1795-10-24",
+    "b": "Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 1,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1489-02-26",
+    "b": "Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — Haçlı devletinin sonu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1815-06-09",
+    "b": "Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Congress of Vienna / Final Act tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1654-01-08",
+    "b": "Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Pereyaslav Council 1654 tarihyazımı)",
+    "kartSayisi": 4,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1667-02-09",
+    "b": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Andrusovo tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1802-03-25",
+    "b": "Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Amiens tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1916-11-03",
+    "b": "İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Anglo-Qatari Treaty of 1916 tarihyazımı)",
+    "kartSayisi": 1,
+    "turler": [
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1807-07-09",
+    "b": "Tilsit Antlaşması — Prusya topraklarının yarısını kaybetti, Varşova Dukalığı kuruldu",
+    "kova": "OLAYLAR_EK20",
+    "kaynak": "prusya",
+    "kartSayisi": 1,
+    "turler": [
+     "dis-yankilar"
+    ]
+   },
+   {
+    "t": "1913-08-10",
+    "b": "Bükreş Antlaşması — Batı Trakya ve Kavala havzası Bulgaristan'dan Yunanistan'a geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_2S0920",
+    "kaynak": "TDV `balkan-savasi` — AYNEN: \"II. Balkan Savaşı 10 Ağustos 1913'te Bulgaristan'la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi.\" · hassasiyet: GÜN",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1921-03-16",
+    "b": "Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0049",
+    "kaynak": "kars · ahiska",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1424-02-22",
+    "b": "II. Murad ile Bizans barışı — Bizans yeniden haraç ödemeyi kabul etti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0058",
+    "kaynak": "murad-ii · bizans",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1919-09-10",
+    "b": "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "avusturya",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1920-06-04",
+    "b": "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "macaristan",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1919-06-28",
+    "b": "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". ⚠️ TANECİKLİK BOŞLUĞU (CLAUDE.md §4): TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir.",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1919-11-27",
+    "b": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "bulgaristan — gövde okundu: \"Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.\" ⚠️ TDV antlaşmanın adını \"Neully\" diye yazıyor; \"Neuilly\" aramasi bu maddede 0 sonuç verir. `neuilly` slugu 302 (ÖLÜ).",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1847-05-31",
+    "b": "II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK106",
+    "kaynak": "sattularap",
+    "kartSayisi": 6,
+    "turler": [
+     "sebep-sonuc",
+     "tartisma"
+    ]
+   },
+   {
+    "t": "1913-07-29",
+    "b": "Katar'dan Osmanlı feragati — Londra Sözleşmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0036",
+    "kaynak": "katar",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1906-10-01",
+    "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı tarif edildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "Taba hakem kararı, RIAA XX (1988) Ek B s.114-116 (anlaşma metni) ve §54-59 (dikim) · IBS 46",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1739-12-12",
+    "b": "Rusya ile barışın ahidnamesi: Kabartay tarafsız, Azak yıkılacak",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917KOSU13",
+    "kaynak": "mahmud-i--osmanli · Kurtaran, Tarih İncelemeleri Dergisi 29/1 (2014; BOA DVE 83/1) · azak · Manstein s.246",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1790-09-18",
+    "b": "Yergöğü Mütarekesi — Avusturya cephesinde silahların susması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   },
+   {
+    "t": "1791-08-11",
+    "b": "Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "yas-antlasmasi",
+    "kartSayisi": 1,
+    "turler": [
+     "teknik-bilimsel"
+    ]
+   },
+   {
+    "t": "1792-02-10",
+    "b": "Yaş tasdiknâmelerinin mübadelesi — barışın devletler hukukunda kesinleşmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "yas-antlasmasi",
+    "kartSayisi": 1,
+    "turler": [
+     "sebep-sonuc"
+    ]
+   }
+  ],
+  "kartsizListe": [
+   {
+    "t": "1830-05-07",
+    "b": "Amerika Birleşik Devletleri ile ilk antlaşma",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "osmanlilar",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1427-01-01",
+    "b": "Belgrad'ın Macaristan'a bırakılması — Tata Antlaşması",
+    "k": "kayip",
+    "kova": "OLAYLAR_EK5",
+    "kaynak": "belgrad",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1806-02-01",
+    "b": "Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislava) Antlaşması'nın uygulanması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_ILIRYA0072",
+    "kaynak": "Hrvatska enciklopedija (LZMK) `dalmacija` — AYNEN: \"U veljači 1806. Francuska preuzima vlast u Dalmaciji.\" ve Pojun için \"26. XII. 1805\" · LZMK `zadar` — AYNEN: \"Uspostavom francuske uprave 1806-13. Zadar je ostao sjedištem generalnoga providura.\" · hassasiyet: AY (Şubat 1806) · TDV bu coğrafyayı bu tanecikte KAPSAMIYOR (CLAUDE.md §4)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1806-01-01",
+    "b": "Kvarner adalarının Napolyon İtalya Krallığı'na, Boka Kotorska'nın Rus idaresine geçişi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_ILIRYA0072",
+    "kaynak": "LZMK `krk-otok` — AYNEN: \"Požunskim mirom 1806. ušao u sastav Napoleonove Kraljevine Italije, a 1809. u sastav Ilirskih pokrajina.\" · LZMK `boka-kotorska` — AYNEN: \"prva austrijska 1797-1806; ruska 1806-07. i francuska 1807-13\" · hassasiyet: YIL",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1884-06-03",
+    "b": "Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK9",
+    "kaynak": "habesistan",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1662-01-30",
+    "b": "Tanca İngiltere'ye devredildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK11",
+    "kaynak": null,
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1861-05-31",
+    "b": "Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK13",
+    "kaynak": "bahreyn",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1809-09-17",
+    "b": "Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1814-01-14",
+    "b": "Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1884-07-18",
+    "b": "Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "somali",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1503-04-02",
+    "b": "Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Moskova-Litvanya savaşları tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1561-11-28",
+    "b": "Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi Lehistan-Litvanya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Livonian War / Treaty of Vilnius tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1581-07-26",
+    "b": "Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İspanya'dan bağımsızlığını ilan etti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Act of Abjuration tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1714-03-07",
+    "b": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avusturya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Rastatt tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1721-08-30",
+    "b": "Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Nystad tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1617-02-27",
+    "b": "Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Stolbovo tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1618-12-11",
+    "b": "Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Deulino tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1820-01-08",
+    "b": "Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiyeti sona erdi, İngiltere himayeye başladı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (General Maritime Treaty of 1820 tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1466-10-19",
+    "b": "İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK16",
+    "kaynak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Second Peace of Thorn 1466 tarihyazımı)",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1815-11-05",
+    "b": "Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
+    "k": "antlasma",
+    "kova": "OLAYLAR_EK17",
+    "kaynak": "bulunamadı — TDV bu dönemi/bölgeyi kapsamıyor, dayanak: Encyclopaedia Britannica 'Treaty of Paris (1815)'",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1768-05-15",
+    "b": "Korsika Ceneviz'den Fransa'ya satıldı — Versailles Antlaşması",
+    "kova": "OLAYLAR_EK20",
+    "kaynak": "korsika",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1648-10-24",
+    "b": "Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü",
+    "kova": "OLAYLAR_EK20",
+    "kaynak": "almanya",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1525-04-08",
+    "b": "Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü",
+    "k": "antlasma",
+    "kova": "OLAYLAR_SESSIZBORC0919",
+    "kaynak": "NDB 'Albrecht' (deutsche-biographie.de/sfz56560): 'mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches weltliches Herzogtum den Brandenburgern beließ, jedoch unter polnische Lehnshoheit.' · 'Begründung der Königsberger Albertus-Universität am 17.8.1544'",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1918-11-03",
+    "b": "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya geçti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_OK109",
+    "kaynak": "birinci-dunya-savasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1723-09-23",
+    "b": "Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyısı eyaletlerini Rusya'ya bıraktı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0060",
+    "kaynak": "BRE Петербургский договор 1723 (12(23) сент.) · Iranica BOUNDARIES ii ('22 Ḏu'l-ḥejja 1135/23 September 1723') · Iranica RUSSIA i",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1732-01-01",
+    "b": "Reşt Antlaşması — Rusya Gîlân, Mâzenderân ve Esterâbâd'ı İran'a iade etti",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0060",
+    "kaynak": "Iranica BOUNDARIES ii ('Under the Treaty of Rašt (1144/1732) Astarābād and Māzandarān were restored, and the Russian forces abandoned Gīlān and Ṭāleš') · Iranica RUSSIA i · BRE Константинопольский договор 1724 · Salamova, Omskiy nauçnıy vestnik 2007",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1909-04-19",
+    "b": "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1913-11-17",
+    "b": "İstanbul Protokolü — Türk-İran sınırının tahdidi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS No. 28 Iran-Turkey (1964) s.5-7 · H. Efe-M. Kızıl, ERZSOSDE X-I (2017) s.77-90",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1915-09-06",
+    "b": "Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS No. 49 Bulgaria-Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1886-01-01",
+    "b": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary ... for a limited distance')",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1892-01-01",
+    "b": "İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy ... as far as Ghudamis')",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1910-05-19",
+    "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames'e çizildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_P0917TARAF",
+    "kaynak": "IBS 121 (1972) s.2-5 · Martens, Nouveau Recueil Général 3. seri c.VII s.91-93 · IBS 001 (1961) s.2, s.6 ('12 May 1910')",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1788-01-25",
+    "b": "Melek Mehmed Paşa'nın vezirlikten azli — barış yanlılarının tasfiyesi",
+    "k": "siyaset",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "melek-mehmed-pasa",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1791-07-09",
+    "b": "Maçin bozgunu — barışı getiren yenilgi",
+    "k": "savas",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "yas-antlasmasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1790-09-06",
+    "b": "İstanbul meşveret meclisinin mütareke kararı — ön şartlardan vazgeçilmesi",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1790-09-21",
+    "b": "Yergöğü Mütarekesi'nin Coburg tarafından imzalanması ve metinlerin mübadelesi",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1791-06-11",
+    "b": "Yergöğü Mütarekesi'nin sona ermesi — barışın aynı yaza sıkışması",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1791-08-08",
+    "b": "Kalas'ta Vâsıf Efendi ile Prens Repnin arasında mütareke mutabakatı",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "yusuf-pasa-koca",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1790-12-30",
+    "b": "Ziştovi barış konferansının açılışı",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1791-07-18",
+    "b": "Barış müzakerelerinin yeniden başlaması — Herbert'in Ziştovi'ye dönüşü",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1791-08-12",
+    "b": "Ziştovi Antlaşması'nın padişah tarafından onaylanması",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "zistovi-antlasmasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1792-01-18",
+    "b": "Yaş Antlaşması'nın sadrazam senediyle onaylanması",
+    "k": "diplomasi",
+    "kova": "OLAYLAR_P0068B",
+    "kaynak": "yas-antlasmasi",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1868-07-03",
+    "b": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
+    "k": "antlasma",
+    "kova": "OLAYLAR_KAMERIKA",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1762-11-03",
+    "b": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
+    "k": "antlasma",
+    "kova": "OLAYLAR_KAMERIKA",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   },
+   {
+    "t": "1851-09-17",
+    "b": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+    "k": "antlasma",
+    "kova": "OLAYLAR_KAMERIKA",
+    "kaynak": "bulunamadı",
+    "kartSayisi": 0,
+    "turler": []
+   }
+  ]
+ }
+}
