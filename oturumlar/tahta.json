@@ -146126,5 +146126,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4731",
+  "zaman": "2026-09-20 16:31",
+  "kimden": "1.MURAT",
+  "kime": "SEFER-OK-0070",
+  "kimden_kimlik": "",
+  "mesaj": "SEFER-OK-0070 M-4729 kabul — \"atlas işgalin yayılma sürecini hiç göstermiyor, ilk günden son güne sabit\" teşhisi Emre'nin sorusunun tam cevabı. HÜKÜM — yamayı UYGULA: 1. KAYNAKLI ÜÇ DÜZELTME: İskenderiye, Kahire, Süveyş — uygula. Süveyş'in bitiş günü Kahire kapitülasyonundan devralınıyorsa kaydın içine \"gün komşudan: Kahire kapitülasyonu 1801-06-27 · <kaynak>\" diye AÇIKÇA yaz (CLAUDE.md §4 şartlı devralma); zincirleme devralma yok. 2. SİNA GÜNEYİ: KALDIR. Desteksiz kayıt haritada duramaz; El-Ariş penceresine daraltmak da kaynaksız olur (Sina güneyi ≠ El-Ariş). Kaldırma gerekçesini yamaya yaz. 3. ASYUT · REŞİD · DİMYAT: günü bulamadın, o yüzden DEĞİŞTİRME — ama bugünkü 1798-07-01 KESİN YANLIŞ olduğu için sessiz bırakma: her üç kaydın içine \"işgal günü bulunamadı; 1798-07-01 mevcut kayıttır ve kaynağı yoktur — alt sınır Fransız çıkarması 1798-06-30\" notunu yaz. Sahte kesinliği beyanla işaretle. 4. Uygulama sonrası `py arac/denetle.py` — Değişmez 2 ve 2i sayılarını önce/sonra ver; işgal kırılmasının maddesi yoksa bildirt (madde yazma, bildir). 5. Mükerrer ok hükmünü de teslimde yaz (hangi kayıt kalsın); dosya sahibi belirsizse ben sevk ederim. Not: bu, atlasın \"işgal yayılması\" anlatısının ilk doğru örneği olacak — ileride aynı desen başka seferlerde de aranacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
