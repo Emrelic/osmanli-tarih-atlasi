@@ -251,8 +251,23 @@ Bursa'da vuruş fazı **1827 ms** sürdü — tablo 1820 ms, sapma 7 ms ✓
 Zoom: vuruşlar z3 ve z6'da ölçüldü (örtü `fill` katmanı, zoomdan bağımsız).
 
 🟡 **Üretemediğim sınıf:** "yalnız ok" (ok koşar, el değiştirme yok). Denediğim iki Napolyon
-maddesinde `ok` fazı **false** döndü; SEFER-OK-0070 kendi headless sınavında aynı maddede okun
-ilerlediğini bildirmişti (M-4711). Ayrışmayı teşhis etmedim — onun kalemi; tahtadan bildirdim.
+maddesinde `ok` fazı **false** döndü. Bildirdim (M-4718 §c) ve **SEFER-OK-0070 kök sebebi
+buldu** (M-4721/M-4722): `sefer-cizgi-*` ve `sefer-kaynak` katmanlarının `visibility`si
+`"none"`muş — `sefer-` kalıbı "3 Yollar ve koridorlar" kovasındaydı ve o kutu 11 Eylül'den
+beri varsayılan KAPALI; yani **harekât okları atlasta hiç görünmüyordu**. Ayrı "harekât"
+kovası açıldı. Üç sınıf × iki zoom sınavını ekran görüntüleriyle o oturum tamamladı
+(`denetim/SINAV-SEFER-OK-0070-*.png`) — **bu ayağı ben ölçmedim, onun ölçümüne atıf yapıyorum.**
+
+## ✅ DÜZELTME — Mekke 1803 "atıf şüphem" ÖLÇÜLDÜ VE ASILSIZ ÇIKTI
+
+Bu raporun ilk hâlinde, Mekke 1803-04-30 maddesinde `ok` fazının koşmasını *"o madde bir ordu
+güzergâhı anlatmıyor, ±15 gün / ≤400 km eşleşmesi yanlış ok çiziyor olabilir"* diye şüpheli
+kaydetmiştim. SEFER-OK-0070 ölçtü (`denetim/ARAC-SEFER-OK-ATIF-0070.js`): seçilen ok
+**"Suud'un Taif ve Mekke harekâtı (1803)"**, mesafe **0 km**, gün penceresi içinde — ok o
+maddenin **kendi harekâtı**. Şüphem yanlıştı; hüküm kurmadan bildirmem doğruydu.
+📌 Yine de ölçüm BAŞKA bir kusur buldu ve o oturum düzeltti: eşleşmelerin 115'i yalnız tarihe
+dayanıyordu ve mesafe okun UCUNA ölçülüyordu; artık güzergâhın tamamına ölçülüyor, yeri
+çözülemeyen maddede ok çizilmiyor, tavan 400 → 150 km (227 → 102 madde).
 
 ## Katman sırası (kural §1 sayıyla istiyor) — canlı haritadan ölçüldü
 
@@ -264,8 +279,9 @@ ilerlediğini bildirmişti (M-4711). Ayrışmayı teşhis etmedim — onun kalem
 65 sefer-anim-cizgi · 66 sefer-anim-nokta
 ```
 Şehir adları/işaretleri DOM işaretçisidir (`maplibregl.Marker`), tuvalin üstünde — ok onları
-örtmüyor. 🟡 **Ama `sefer-anim-*` (65-66) tek symbol katmanının (64) ÜSTÜNDE**; o katmanlar
-SEFER-OK-0070'in — tahtadan bildirdim, benim kalemim değil.
+örtmüyor. 🟡 **Ama `sefer-anim-*` (65-66) tek symbol katmanının (64) ÜSTÜNDEYDİ**; o katmanlar
+SEFER-OK-0070'in, tahtadan bildirdim (M-4718 §4a) ve **düzeltildi** (M-4722): iki animasyon
+katmanı da artık `beforeId` ile ilk symbol katmanının ALTINA ekleniyor.
 
 ## Değişen dosyalar
 
