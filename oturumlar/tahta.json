@@ -152462,5 +152462,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4904",
+  "zaman": "2026-09-21 02:07",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 7 (A SINIFI) DİSKTE · 272 -> 71 · commitleyebilirsin · kendi commit'im f29018f ① ÖLÇTÜM. Hükmü ara yoluyla uyguladım: 143 kayda mekanik kd:, 201 çelişki kalktı. ZAMANLI çelişki 272 -> 71 (öngörü 71, TUTTU) · kd: yazılı kayıt 254 -> 397 (geri okudum: 397) · çelişki üreten ayrı yerleşim 206 -> 64 · ZAMANSIZ 489'da sabit. denetle.py'yi onarımdan SONRA koşturdum (21 Eylül): SONUÇ temiz, Değişmez 1 ✓ 299 sahipsiz, Değişmez 2 ✓ 590 kırılma 0 açık. ARA YOL ÇIKTISI: denetim/KD-ZAMAN-EKSEN-BEKLIYOR-0921.md — ilk Osmanlı döneminin kaynak: alanı OLMAYAN 84 kayıt (kaynaklı 59 kayıt bilgi olarak altında). Kütüğü: denetim/KD-ZAMAN-A-SINIFI-0921.json. Alet: denetim/ARAC-KD-ZAMAN-A-SINIFI-0921.py. ② 🔴 ÖNGÖRÜM İLK SEFERDE TUTMADI VE SEBEBİ YAMANIN KENDİSİYDİ — bildiriyorum çünkü senin şartını çiğniyordu. İlk ölçüm 61 verdi, öngörü 71 demişti; 10 çelişki FAZLADAN düşmüştü. İyi haber sayıp geçmedim, yamayı bellekte geri alıp yeniden ölçtüm: TEK PENCERE YETMİYOR. Yalnız {1281-01-01 -> ilk Osmanlı} yazılınca, ilk Osmanlı başlangıcından SONRAKİ her gün kd: BOŞLUĞUNA düşüyor, kd_gun orada (0,None) döndürüyor ve denetim o kaydı atlıyor — yani kaydın C SINIFI çelişkileri de SUSUYOR. Susanlar: Cübeyl 2, Ukayr 2, Selmâs 2, Hacıbey 1, Karistos 1, Çamlıca 1, İzdin 1 = 10 çelişki / 7 kayıt. Tam da ara yolun önlemek istediği şey: uyarı ışığını söndürmek. ÇIKARIM YANLIŞIM NEREDEYDİ: M-4871'de \"A kesişim C = 0\" yazmıştım. Bunu ÖLÇMEMİŞTİM; 143+64=207 toplamını BAŞKA BİR KOŞUDAN (parti 6 sonrası, Cetinje'den önce) kalma \"207 ayrı yerleşim\" sayısıyla karşılaştırmıştım. Gerçek kesişim 7 kayıt. Bayat sayıyı yeni ölçümün yanına koymak, kesişim ölçümünün yerini tutmuyor — bu benim hatamdı, hükmün değil. ONARIM: her A kaydına ikinci pencere {ilk Osmanlı -> 1923-10-29, k:<kaydın k:si>, m:<kaydın m:si>}. Yeni bilgi taşımaz, bugünkü k:/m:'nin aynısıdır, yalnız zaman sınırı kazanır. Böylece yama SADECE fetih öncesi çelişkiyi kaldırıyor, fetih sonrası sinyal YERİNDE duruyor. Onarımdan sonra 71, öngörü tuttu. Aleti de iki pencereli hâle getirdim ve niçin öyle olduğunu kodun içine yazdım. İKİNCİ ALET TUZAĞI (düzeltildi): alet A sınıfını ÇELİŞKİLERDEN türetiyor; yama uygulanınca çelişki kalmadığı için ikinci koşuda 84 satırlık listeyi BOŞ olarak üzerine yazdı. Liste artık kütükten render ediliyor, ölçüm boş çıkarsa kütük korunuyor. ③ İSTİYORUM: (a) data/ commit'i sende — 23 veri dosyası değişti (hepsinde yalnız kd:). (b) C sınıfına (71 çelişki / 64 kayıt) geçeyim mi? Dediğin gibi Bursa kümesinden başlarım: 12 kayıt (Söğüt, Bilecik, İnegöl, Yarhisar, Domaniç, Bozüyük, Pazaryeri, Köprühisar, Kulacahisar, Ermeni Derbendi, Karacahisar, Eskişehir), tek kaynak ekseni TDV bursa + osmanlilar; sorulacak şey \"Bursa 1326'da alınana kadar bu kasabaların merkezi neresiydi\". (c) Bir ders adayı: \"tek pencereli kd: bir kaydın SONRAKİ bütün denetim sorularını da susturur — kd: yazarken kaydın ömrünün TAMAMI kapsanmalı ya da boşluğun neyi sustuğu ölçülmeli.\"",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
