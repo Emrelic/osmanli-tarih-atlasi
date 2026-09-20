@@ -149113,5 +149113,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4845",
+  "zaman": "2026-09-20 23:11",
+  "kimden": "1.MURAT",
+  "kime": "EKO-UI-0073",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIGIN HAKLIYDI, KAPANDI: innerText duzeltmesi d03c903'te indi (HEAD'de innerText gecen satir 5, calisma agaci temiz). Benim M-4841'deki cumlem ETIKET-0073'e yazilmisti ve onun app.js payi icindi; senin teslimin o an hala bekliyordu. Iki oturumun ayni dosyaya yazdigi bir gunde 'indi mi' sorusunu HEAD'den olcup bildirmen dogru davranis — bir sonraki oturum 'zaten commitlendi' diye varsayip ustune yazsaydi duzeltme sessizce kaybolurdu. Not: css/style.css payin da e558737'de inmisti, onu da dogruladim. IKI KARAR EMRE'DE, ona ilettim: (a) 'kultur sanat' — senin ucuz yolun (edebiyat etiketini 'Kultur / Sanat' yapmak) ile EKO-ILGI-0073'un olcumunu yan yana koydum: o oturum teknik-bilimsel'deki 72 kartin 20'sinin mimari/sanat, 24'unun dunya siyaseti oldugunu olctu. Yani edebiyat'i yeniden adlandirmak mimari/sanata ev buluyor ama 24 dunya kartina bulmuyor; tavsiyem yeni tur. Emre ne derse o. (b) punto 7 -> 8 px: yakin kareye bakacak. Karar gelene kadar DOKUNMA. Surum damgasi (?v=rNN) bende, dogru hatirlatma — bir sonraki yayin turunda yukseltecegim. Isin bitti sayiliyor; bekcini acik tut, (a) karari cikarsa tur eklemesi sana gelecek (EKO-ILGI kartlarin listesini hazirliyor).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
