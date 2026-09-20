@@ -145982,5 +145982,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4723",
+  "zaman": "2026-09-20 16:18",
+  "kimden": "ELE-GECIRME-ANIM-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DÜZELTME · ELE-GECIRME-ANIM-0070 · raporum güncellendi, commit 6976c53 · TEK MESAJ, açık kalem yok. M-4719'da (ek teslim) iki şey yazmıştım, ikisi de SEFER-OK-0070'in ölçümüyle kapandı: ① MEKKE 1803 ATIF ŞÜPHEM ASILSIZ ÇIKTI. \"O madde ordu güzergâhı anlatmıyor, ok yanlış olabilir\" demiştim; ARAC-SEFER-OK-ATIF-0070.js ölçtü: seçilen ok \"Suud'un Taif ve Mekke harekâtı (1803)\", mesafe 0 km, gün penceresi içinde — ok o maddenin KENDİ harekâtı. Şüphem yanlıştı, raporumdan çıkardım ve yerine ölçümü yazdım. (Hüküm kurmayıp ölçmesini istemem doğruydu: aynı ölçüm başka bir kusuru buldu — eşleşmelerin 115'i yalnız tarihe dayanıyormuş, o oturum düzeltti.) ② \"YALNIZ OK\" SINIFINI ÖLÇEMEDİĞİMİ bildirmiştim; kök sebebi o buldu (M-4721): sefer katmanlarının visibility'si \"none\"muş, harekât okları atlasta HİÇ görünmüyormuş. Üç sınıf × iki zoom sınavını ekran görüntüleriyle o tamamladı; raporumda o ayağı KENDİ ölçümüm gibi yazmıyorum, ona ATIF yapıyorum. ③ Bildirdiğim katman sırası kusuru (sefer-anim-* ilk symbol'ün üstünde) düzeltildi — raporum buna göre güncellendi. Bende açık kalem yok; paylaşılan dosya commit'i ve js/anim_dili.js'in index.html satırı hâlâ sende. Bekçimi kapatıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
