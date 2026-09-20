@@ -1,0 +1,1389 @@
+{
+ "olculdu": "2026-09-21",
+ "alet": "denetim/ARAC-ANTLASMA-ZINCIR-0074.js",
+ "evren": 137,
+ "antlasmaKaydi": 41,
+ "savasBasiDolu": 37,
+ "kayda_bagli": 44,
+ "sinif": {
+  "K1+K2+K3": 12,
+  "K2+K3": 5,
+  "K1+K3": 13,
+  "yalnizK3": 35,
+  "K1+K2": 4,
+  "yalnizK2": 3,
+  "hicbiri": 65
+ },
+ "maddeler": [
+  {
+   "t": "1333-08-01",
+   "b": "Bizans'ın haraca bağlanması — İzmit kuşatması ve antlaşma",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1352-01-01",
+   "b": "Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1387-06-08",
+   "b": "Osmanlı-Ceneviz ahidnâmesi — 1352 antlaşmasının yenilenmesi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1403-06-01",
+   "b": "Süleyman Çelebi – Bizans antlaşması: Selanik'in iadesi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1403-06-15",
+   "b": "Gelibolu Antlaşması — Bizans'a tavizler",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1415-03-01",
+   "b": "Konya kuşatması ve Karamanoğulları ile antlaşma — Hamîd-ili, Said-",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 9,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1424-02-22",
+   "b": "II. Murad ile Bizans barışı — Bizans yeniden haraç ödemeyi kabul e",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1444-06-12",
+   "b": "Edirne-Segedin Antlaşması",
+   "savas_basi": "1443-09-01",
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1466-10-19",
+   "b": "İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1479-01-25",
+   "b": "İstanbul Antlaşması — Arnavutluk ve İşkodra",
+   "savas_basi": "1463-01-01",
+   "K1": 52,
+   "C": 0,
+   "B": 0,
+   "fark": 4,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1489-02-26",
+   "b": "Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — Haçlı devle",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 6,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1491-05-01",
+   "b": "Osmanlı-Memlük barışı — Tunus arabuluculuğu",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1502-12-14",
+   "b": "Osmanlı-Venedik Savaşı'nın sona ermesi ve barış",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1503-04-02",
+   "b": "Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya ",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 6,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1525-04-08",
+   "b": "Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1533-01-01",
+   "b": "İstanbul Antlaşması — Habsburglarla ilk barış",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1547-06-18",
+   "b": "İstanbul Antlaşması — Habsburglarla beş yıllık barış",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1553-02-01",
+   "b": "Osmanlı-Fransız ittifakı — Fransız donanmasının Osmanlı emrine gir",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1555-05-29",
+   "b": "Amasya Antlaşması",
+   "savas_basi": "1548-07-27",
+   "K1": 75,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1561-11-28",
+   "b": "Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Riga bölgesi ",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1573-03-07",
+   "b": "Venedik'le İstanbul Antlaşması — Kıbrıs'ın tanınması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1581-07-26",
+   "b": "Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İspanya'd",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 7,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1590-03-21",
+   "b": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+   "savas_basi": "1578-08-09",
+   "K1": 41,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1606-11-11",
+   "b": "Zitvatorok Antlaşması",
+   "savas_basi": "1593-07-01",
+   "K1": 28,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1612-07-06",
+   "b": "Hollanda'ya ilk ahidnâme verilmesi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1612-11-20",
+   "b": "Nasuh Paşa Antlaşması",
+   "savas_basi": "1603-09-01",
+   "K1": 36,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1617-02-27",
+   "b": "Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kayb",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1618-09-26",
+   "b": "Serav Antlaşması — İran'la barışın yenilenmesi",
+   "savas_basi": "1616-01-01",
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1618-12-11",
+   "b": "Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehist",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 2,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1621-10-09",
+   "b": "Hotin Seferi ve Hotin Antlaşması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1639-05-17",
+   "b": "Kasr-ı Şirin Antlaşması",
+   "savas_basi": "1638-05-08",
+   "K1": 21,
+   "C": 0,
+   "B": 0,
+   "fark": 3,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1654-01-08",
+   "b": "Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1662-01-30",
+   "b": "Tanca İngiltere'ye devredildi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1664-08-09",
+   "b": "Vasvar Antlaşması",
+   "savas_basi": "1663-04-01",
+   "K1": 2,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1667-02-09",
+   "b": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1672-10-18",
+   "b": "Bucaş Antlaşması — en geniş sınırlar",
+   "savas_basi": "1672-06-01",
+   "K1": 6,
+   "C": 0,
+   "B": 0,
+   "fark": 2,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1681-01-11",
+   "b": "Bahçesaray Antlaşması — Rusya ile ilk resmî barış",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1699-01-26",
+   "b": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+   "savas_basi": "1683-07-14",
+   "K1": 75,
+   "C": 0,
+   "B": 0,
+   "fark": 13,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1700-07-14",
+   "b": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1711-07-21",
+   "b": "Prut Antlaşması — Azak ve Taygan'ın geri alınması",
+   "savas_basi": "1711-05-01",
+   "K1": 2,
+   "C": 0,
+   "B": 0,
+   "fark": 2,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1713-06-24",
+   "b": "Rusya ile Edirne Antlaşması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1714-03-07",
+   "b": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol H",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1718-07-21",
+   "b": "Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve Banat kaybedildi",
+   "savas_basi": "1714-12-08",
+   "K1": 27,
+   "C": 0,
+   "B": 0,
+   "fark": 8,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1721-08-30",
+   "b": "Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları ",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 7,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1723-09-23",
+   "b": "Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyısı eyaletlerin",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1724-06-24",
+   "b": "İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1727-10-04",
+   "b": "Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1732-01-01",
+   "b": "Reşt Antlaşması — Rusya Gîlân, Mâzenderân ve Esterâbâd'ı İran'a ia",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1732-01-10",
+   "b": "Ahmed Paşa Antlaşması — Batı İran'ın büyük bölümünün iadesi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 4,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1735-03-21",
+   "b": "Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1736-09-01",
+   "b": "İstanbul Antlaşması — Güney Kafkasya'nın İran'a terki",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1739-09-18",
+   "b": "Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri",
+   "savas_basi": "1737-07-01",
+   "K1": 16,
+   "C": 2,
+   "B": 2,
+   "fark": 11,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1739-10-03",
+   "b": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve ",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1739-12-12",
+   "b": "Rusya ile barışın ahidnamesi: Kabartay tarafsız, Azak yıkılacak",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1746-09-04",
+   "b": "Kerden Antlaşması — Osmanlı-İran savaşlarının sonu",
+   "savas_basi": "1743-10-23",
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1762-11-03",
+   "b": "Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 4,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1772-08-05",
+   "b": "Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1774-07-21",
+   "b": "Küçük Kaynarca Antlaşması",
+   "savas_basi": "1768-10-08",
+   "K1": 26,
+   "C": 20,
+   "B": 13,
+   "fark": 23,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1779-03-10",
+   "b": "Aynalıkavak Tenkihnâmesi — Kırım üzerine geçici uzlaşma",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1790-01-31",
+   "b": "Osmanlı-Prusya İttifakı",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1790-09-18",
+   "b": "Yergöğü Mütarekesi — Avusturya cephesinde silahların susması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1791-08-04",
+   "b": "Ziştovi Antlaşması — Avusturya cephesinin kapanması",
+   "savas_basi": "1788-02-09",
+   "K1": 4,
+   "C": 9,
+   "B": 8,
+   "fark": 2,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1791-08-11",
+   "b": "Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1791-08-12",
+   "b": "Ziştovi Antlaşması'nın padişah tarafından onaylanması",
+   "savas_basi": "1788-02-09",
+   "K1": 4,
+   "C": 1,
+   "B": 0,
+   "fark": 0,
+   "sinif": "K1+K2"
+  },
+  {
+   "t": "1792-01-10",
+   "b": "Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı",
+   "savas_basi": "1787-08-17",
+   "K1": 8,
+   "C": 0,
+   "B": 4,
+   "fark": 0,
+   "sinif": "K1+K2"
+  },
+  {
+   "t": "1792-01-18",
+   "b": "Yaş Antlaşması'nın sadrazam senediyle onaylanması",
+   "savas_basi": "1787-08-17",
+   "K1": 8,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1792-02-10",
+   "b": "Yaş tasdiknâmelerinin mübadelesi — barışın devletler hukukunda kes",
+   "savas_basi": "1787-08-17",
+   "K1": 8,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1793-01-23",
+   "b": "Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 3,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1795-10-24",
+   "b": "Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 2,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1797-10-17",
+   "b": "Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında ",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 31,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1802-03-25",
+   "b": "Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1802-06-25",
+   "b": "Paris Antlaşması — Fransa ile barışın yeniden kurulması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1806-01-01",
+   "b": "Kvarner adalarının Napolyon İtalya Krallığı'na, Boka Kotorska'nın ",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1806-02-01",
+   "b": "Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislava) Antlaşm",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 15,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1808-10-07",
+   "b": "Sened-i İttifak",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1809-01-05",
+   "b": "Kal'a-i Sultâniyye Antlaşması — İngiltere ile barış ve Boğazlar ka",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1809-09-17",
+   "b": "Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 19,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1812-05-28",
+   "b": "Bükreş Antlaşması — Besarabya'nın kaybı",
+   "savas_basi": "1806-12-22",
+   "K1": 35,
+   "C": 25,
+   "B": 25,
+   "fark": 8,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1814-01-14",
+   "b": "Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 20,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1815-06-09",
+   "b": "Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası ye",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 18,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1815-11-05",
+   "b": "Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon ",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 8,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1820-01-08",
+   "b": "Genel Deniz Antlaşması — Umman'ın Korsan Kıyısı üzerindeki hâkimiy",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 2,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1826-10-07",
+   "b": "Akkirman Antlaşması — Sırbistan ve prensliklere tavizler",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1828-02-22",
+   "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1828-08-06",
+   "b": "İskenderiye Sözleşmesi: Mısır Mora'dan çekilme kararı",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1829-09-14",
+   "b": "Edirne Antlaşması",
+   "savas_basi": "1828-04-26",
+   "K1": 17,
+   "C": 13,
+   "B": 2,
+   "fark": 10,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1830-02-03",
+   "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
+   "savas_basi": "1821-03-25",
+   "K1": 113,
+   "C": 11,
+   "B": 0,
+   "fark": 21,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1830-05-07",
+   "b": "Amerika Birleşik Devletleri ile ilk antlaşma",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1833-05-14",
+   "b": "Kütahya Sözleşmesi — Suriye ve Adana Kavalalı'ya",
+   "savas_basi": "1831-10-31",
+   "K1": 14,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1833-07-08",
+   "b": "Hünkâr İskelesi Antlaşması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 11,
+   "B": 0,
+   "fark": 0,
+   "sinif": "yalnizK2"
+  },
+  {
+   "t": "1838-08-16",
+   "b": "Balta Limanı Ticaret Antlaşması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1840-07-15",
+   "b": "Londra Antlaşması: dört devlet Osmanlı'nın yanında",
+   "savas_basi": "1839-04-21",
+   "K1": 11,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1840-11-27",
+   "b": "İskenderiye Konvansiyonu",
+   "savas_basi": "1839-04-21",
+   "K1": 7,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1841-07-13",
+   "b": "Londra Boğazlar Sözleşmesi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1847-05-31",
+   "b": "II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının b",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1849-05-01",
+   "b": "Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himay",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 2,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1851-09-17",
+   "b": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 3,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1854-03-12",
+   "b": "İstanbul'da İngiltere ve Fransa ile ittifak antlaşması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1856-03-30",
+   "b": "Paris Antlaşması: Kırım Savaşı'nın sonu ve Osmanlı'nın Avrupa devl",
+   "savas_basi": "1853-10-04",
+   "K1": 8,
+   "C": 0,
+   "B": 0,
+   "fark": 3,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1861-05-31",
+   "b": "Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine gir",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1868-07-03",
+   "b": "Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 4,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1878-01-31",
+   "b": "Edirne Mütarekesi: 93 Harbi'nde silahların susması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1878-03-03",
+   "b": "Ayastefanos Antlaşması: Büyük Bulgaristan tasarısı",
+   "savas_basi": "1877-04-24",
+   "K1": 21,
+   "C": 0,
+   "B": 0,
+   "fark": 15,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1878-07-13",
+   "b": "Berlin Antlaşması",
+   "savas_basi": "1877-04-24",
+   "K1": 77,
+   "C": 0,
+   "B": 0,
+   "fark": 46,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1884-06-03",
+   "b": "Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1884-07-18",
+   "b": "Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1886-01-01",
+   "b": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sın",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 36,
+   "B": 0,
+   "fark": 2,
+   "sinif": "K2+K3"
+  },
+  {
+   "t": "1892-01-01",
+   "b": "İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gada",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1899-01-19",
+   "b": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1906-10-01",
+   "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Tab",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1909-04-19",
+   "b": "İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsı",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1910-05-19",
+   "b": "Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sın",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 36,
+   "B": 0,
+   "fark": 0,
+   "sinif": "yalnizK2"
+  },
+  {
+   "t": "1912-10-18",
+   "b": "Uşi Antlaşması: Trablusgarp ve Bingazi'nin İtalya'ya terki",
+   "savas_basi": "1911-09-29",
+   "K1": 43,
+   "C": 16,
+   "B": 3,
+   "fark": 40,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1913-05-30",
+   "b": "Londra Antlaşması — Rumeli'nin kaybı",
+   "savas_basi": "1912-10-08",
+   "K1": 107,
+   "C": 27,
+   "B": 0,
+   "fark": 26,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1913-07-29",
+   "b": "Katar'dan Osmanlı feragati — Londra Sözleşmesi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 1,
+   "sinif": "yalnizK3"
+  },
+  {
+   "t": "1913-08-10",
+   "b": "Bükreş Antlaşması — Batı Trakya ve Kavala havzası Bulgaristan'dan ",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 27,
+   "B": 0,
+   "fark": 4,
+   "sinif": "K2+K3"
+  },
+  {
+   "t": "1913-09-29",
+   "b": "İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili",
+   "savas_basi": "1912-10-08",
+   "K1": 103,
+   "C": 0,
+   "B": 0,
+   "fark": 4,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1913-11-01",
+   "b": "Bozcaada ve İmroz'un geri alınışı — Atina Antlaşması",
+   "savas_basi": "1912-10-08",
+   "K1": 102,
+   "C": 27,
+   "B": 0,
+   "fark": 2,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1913-11-14",
+   "b": "Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri",
+   "savas_basi": "1912-10-08",
+   "K1": 119,
+   "C": 27,
+   "B": 17,
+   "fark": 17,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1913-11-17",
+   "b": "İstanbul Protokolü — Türk-İran sınırının tahdidi",
+   "savas_basi": "1912-10-08",
+   "K1": 120,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1914-08-02",
+   "b": "İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1915-09-06",
+   "b": "Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1916-11-03",
+   "b": "İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1918-03-03",
+   "b": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1918-10-30",
+   "b": "Mondros Mütarekesi",
+   "savas_basi": "1914-11-05",
+   "K1": 207,
+   "C": 68,
+   "B": 0,
+   "fark": 25,
+   "sinif": "K1+K2+K3"
+  },
+  {
+   "t": "1918-11-03",
+   "b": "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Tren",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 13,
+   "B": 0,
+   "fark": 2,
+   "sinif": "K2+K3"
+  },
+  {
+   "t": "1919-06-28",
+   "b": "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 46,
+   "B": 0,
+   "fark": 4,
+   "sinif": "K2+K3"
+  },
+  {
+   "t": "1919-09-10",
+   "b": "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1919-11-27",
+   "b": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını ka",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 13,
+   "B": 0,
+   "fark": 0,
+   "sinif": "yalnizK2"
+  },
+  {
+   "t": "1920-06-04",
+   "b": "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1920-08-10",
+   "b": "Sevr Antlaşması — imparatorluğun paylaşım metni",
+   "savas_basi": "1914-11-05",
+   "K1": 484,
+   "C": 134,
+   "B": 0,
+   "fark": 0,
+   "sinif": "K1+K2"
+  },
+  {
+   "t": "1920-12-03",
+   "b": "Gümrü Antlaşması: TBMM hükümetinin ilk uluslararası antlaşması",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1921-03-16",
+   "b": "Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 0,
+   "B": 0,
+   "fark": 0,
+   "sinif": "hicbiri"
+  },
+  {
+   "t": "1921-10-13",
+   "b": "Kars Antlaşması",
+   "savas_basi": "1920-09-24",
+   "K1": 13,
+   "C": 0,
+   "B": 0,
+   "fark": 13,
+   "sinif": "K1+K3"
+  },
+  {
+   "t": "1921-10-20",
+   "b": "Ankara İtilâfnâmesi: Fransa ile barış ve güney cephesinin kapanmas",
+   "savas_basi": null,
+   "K1": 0,
+   "C": 48,
+   "B": 8,
+   "fark": 1,
+   "sinif": "K2+K3"
+  },
+  {
+   "t": "1922-10-11",
+   "b": "Mudanya Mütarekesi: İstanbul ve Boğazlar'ın savaşsız devri",
+   "savas_basi": "1919-05-15",
+   "K1": 317,
+   "C": 80,
+   "B": 0,
+   "fark": 0,
+   "sinif": "K1+K2"
+  },
+  {
+   "t": "1923-07-24",
+   "b": "Lozan Antlaşması",
+   "savas_basi": "1919-05-15",
+   "K1": 351,
+   "C": 78,
+   "B": 23,
+   "fark": 23,
+   "sinif": "K1+K2+K3"
+  }
+ ]
+}
