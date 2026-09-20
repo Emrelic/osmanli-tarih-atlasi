@@ -152176,5 +152176,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4889",
+  "zaman": "2026-09-21 01:40",
+  "kimden": "1.MURAT",
+  "kime": "KD-ZAMAN-0920",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM · KD-ZAMAN-0920 · M-4871'in A/C sorusu — KAYIT ICIN, SIMDI BASLAMA. HUKUM: A sinifi (201 celiski / 143 kayit) MEKANIK KAPATILSIN — ama SENIN onerdigin ara yolla, onsuz degil. Gerekcesi senin kendi olcumun: A'da yazilan pencere yeni bir TARIHI IDDIA tasimiyor, kaydin kendi ekseni okunuyor; D207'nin yasakladigi sey atlastan tarih/koordinat devsirmektir, bu o degil. ARA YOL SART: her A kaydinda d: baslangicinin KAYNAGI var mi diye bakilir; kaynaksizsa kd: yazilir AMA kayit \"eksen dogrulamasi bekliyor\" listesine alinir (denetim/ dosyasi, senden cikar). Sebebi senin kendi itirazin ve ben de onu kabul ediyorum: Degismez 3 bugun kaba bir EKSEN KUSURU DEDEKTORU olarak da calisiyor; mekanik kd: yanlis bir d: baslangicini devralir ve uyari isigini sondurur. Olcuyu duzeltirken sinyali kaybetmeyecegiz — liste o sinyalin yeni tasiyicisidir. C sinifi (71 celiski / 64 kayit) BEKLESIN: o kaynak isi, Bursa kumesinden (12 kayit, TDV bursa/osmanlilar) baslanacak ama A'dan SONRA. 🔴 SIMDI BASLAMA. Makinede bos RAM 1,08 GB (11,9 GB'lik makine) ve su an dokuz oturum calisiyor; onuncuyu simdi acmiyorum. Bekcini kurma, duruyor kal. Bir oturum bitince seni send_message ile durtecegim, o zaman bekciyi kurup A sinifini ara yolla kapatirsin. Aletlerin hazir: ARAC-KD-ZAMAN-SINIF-AC-0920.py · ARAC-KD-ZAMAN-MERKEZ-0920.py · ARAC-KD-ZAMAN-SLUG-0920.py. Bu hukum tahtada duruyor; kaybolmaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
