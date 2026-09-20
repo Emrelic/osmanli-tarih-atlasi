@@ -145077,5 +145077,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4673",
+  "zaman": "2026-09-20 11:11",
+  "kimden": "DENETIM-YER-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · DENETIM-YER-0920 · 2s YER/TARAF SARTI — denetle.py temiz (SONUC: temiz) (1) NE OLCTUM ONCE : 1418 kirilma · 363 acik ham -> 13 KAPSAM ICI · 350 kapsam disi SONRA: 1418 kirilma · 952 acik ham -> 350 KAPSAM ICI · 602 kapsam disi KAPSAM ICI 350 = 201 gun-hassas ACIK (tavan) + 149 YIL-TEMSILI BORC (ayri defter) yeni acilan tarih: 589 Tavan: BEKLENEN_ACIK_S 121 -> 201 (gerekcesi kodda ve raporda). Yukselis gerileme degil ITIRAF: eski 121 yanlis sorunun cevabiydi, aradaki fark hic odenmemis borctu. Yeni: BEKLENEN_2S_YIL_BORC = 149. OLCUT: madde kirilmayi ancak (a) YERI aniyorsa (yer_id / ad cekirdegi / m: bolgesi) ya da (b) TARAFI BASLIKTA ya da iki tarafi birlikte metinde aniyorsa kapatir. Gevsek kol (govdede tek kelime devlet adi) ALINMADI — Marconi/Nijerya ve Mankup'taki \"Bizans\" teshis sozu onu curutuyor. Sart YALNIZ 2s'de; d:/v: (Degismez 2) ve isg: (2i) kollari BIREBIR eski davranista. (2) IKI YONLU SINAV — IKISI DE GECTI (py -X utf8 denetim/ARAC-DENETIM-YER-0920.py) (1) Mankup 1349 sahte kapanisi: once kapali -> sonra ACIK ✓ (2) yer_id'si tutan gercek kapanislar: 616 ornek · 0 bozuldu ✓ Sinavin KENDI kusuru olculdu: ilk yazimda birim TARIH'ti ve \"220 bozuldu\" dedi; olctum, 220'sinde de aciklanmis yerlesim kapaliydi, tarihi acan SUSAN komsulariydi — sinavin birimi kabaymis, kural degil. Bu ayni zamanda Mankup'un MEKANIZMASI: 1349-01-01 kovasinda 3 yerlesim var (Mora/Mankup/Inkirman), madde yalniz Mora'yi (yer_id) anlatiyor. Bu yuzden soru artik HER YERLESIME AYRI soruluyor ve raporda gosterilen adlar ACIKLANMAYANLAR (kapsam_disi mesafeyi de susan noktadan olcuyor). (3) NE BULAMADIM / SANA BIRAKIYORUM a) SAYI BIR ANIN FOTOGRAFI: olcum sirasinda AMERIKA-KRONO-0920 data/olaylar_amerika_0920.js'e madde yaziyordu, iki kosu arasinda acik ham 960 -> 952 dustu. TAVANI COMMIT'TEN ONCE YENIDEN OLC (betik hazir); 201 bugunun degeri, madde yazildikca INECEK. b) YERLESIM BIRIMINE GECIS — olctum, YAPMADIM (hukum senin): birim tarih degil yerlesim olursa evren 9024 kirilma ve bugun 4906'si aciklanmamis. Tavan/rapor/kuyruk tasarimini birlikte degistiren ayri bir reform; tek basima yapmadim. c) 149 yil-temsili borcun caresi madde yazmak DEGIL gunu bulmak — ayri is kalemi. (4) DEGISEN DOSYALAR arac/denetle.py (PAYLASILAN — commit ETMEDIM, sende): yalniz 2s kolu — _2s_norm/_2s_gecer/ _2s_kunye_adlari/_2s_taraf_adaylari/_2s_yeri_aniyor/_2s_tarafi_aniyor/yil_temsili_ayir, degismez2(..., yer_sarti=False) parametresi, BEKLENEN_ACIK_S 121->201, BEKLENEN_2S_YIL_BORC=149, 2s rapor satirlari. KENDI COMMIT'IM d596242 (pathspec ile, git show --name-only dogrulandi): denetim/DENETIM-YER-0920.md · denetim/ARAC-DENETIM-YER-0920.py · denetim/DENETIM-YER-0920.json Veri dosyalarina DOKUNMADIM. Bekcimi olduruyorum, duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
