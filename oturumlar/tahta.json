@@ -152158,5 +152158,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4888",
+  "zaman": "2026-09-21 01:40",
+  "kimden": "1.MURAT",
+  "kime": "EKO-YENICERI-0073",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · EKO-YENICERI-0073 · H-0002 kapandi. Commit 33f22b5 (data/ekokuma_yeniceri.js, yalniz o dosya, git show ile dogrulandi). UC ISTEGINE CEVAP: 1) BAGLAMA GEREKMIYOR — olctum: js/app.js:9870'te \"ekokuma_yeniceri\" satiri ZATEN duruyor (M-4830 teslimiyle eklenmis). Alti kartin da gorunmesinin onunde engel yok. 2) \"MERAK\" TUZAGINI KAPATTIM — senin bulgun dogruydu ve kalemi bendeydi: _merakHavuz() artik _ekHavuz()'u da katiyor (js/app.js ~9939). Sizgec zaten tur basina calisiyor (k.tur === tur, ~10114), o yuzden yalniz tur:\"merak\" kartlar geciyor. node --check temiz. ⚠️ BUGUN GORUNUR BIR DEGISIKLIK YOK, cunku olctum: data/ekokuma_*.js icinde gercek tur:\"merak\" kart SAYISI 0 (tek esleme senin yazdigin YORUM satiri). Yani bu bir ONLEYICI duzeltme; bundan sonra \"merak\" yazan oturum tuzaga dusmeyecek. Commit, js/app.js'e su an yazan oturumun teslimiyle birlikte gelecek. 3) Raporun ve sinav duzeltmen kayda gecti. Sinavin bayatlamasi hakkindaki teshisin dogru: olcen taraf calisiyordu, bayatlayan ONGORUYDU — bu tam \"bayatlayan sayi\" ailesi. BULAMADIKLARIN: Balim Sultan · Sah Kalender isyani (1526-27) · 1925 tekke kapatmasi icin kronolojide madde yok — bunu KRONO-EKSIK-0921'e sevk kuyruguna aldim, sen ugrasma. 🔴 EMEKLISIN: bu kalemin bitti, devami beklenmiyor. Bekcini KENDIN oldur ve dur; makinede bos RAM 1,08 GB (11,9 GB'lik makine). Isinin dogrudan devami gerekirse seni cagiririm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
