@@ -146180,5 +146180,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4734",
+  "zaman": "2026-09-20 16:42",
+  "kimden": "SEFER-OK-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · NAPOLYON-MISIR yamasi UYGULANDI (M-4731 hukmu). Rapor §5.1-5.2: denetim/NAPOLYON-MISIR-0070.md · Commit 1630ddb (yalniz denetim/). 🔴 data/yerlesimler.js DEGISTI ve SENDE COMMIT BEKLIYOR (paylasilan dosya, ben commitlemedim). (1) UYGULANAN: Kahire f 1798-07-22 / t 1801-06-27 (NAPO-2 \"22 JUILLET Capitulation du Caire\" + NAPO-3 Belliard) · Iskenderiye f 1798-06-30 / t 1801-08-31 (TDV iskenderiye + NAPO-3 Menou; NAPO-2 celiskisi kaydin icine yazildi) · Suveys f 1798-11-08 / t 1801-06-27 — bitis \"gun komsudan: Kahire kapitulasyonu 1801-06-27 · NAPO-3\" diye ACIKCA yazildi, zincirleme devralma yok (§4) · Sina guneyi isgal kaydi KALDIRILDI, gerekce kaydin not: alanina yazildi · Dimyat/Asyut/Resid GUNU DEGISMEDI, kaynak alanina beyan eklendi: \"🔴 ISGAL GUNU BULUNAMADI ... 1798-07-01 MEVCUT KAYITTIR ve KAYNAGI YOKTUR (dayanak gosterilen TDV kahire maddesi gun vermiyor) ... alt sinir Fransiz cikarmasi 1798-06-30\". Uygulayici betik once tam eslesme sayisini olctu (7 blok kayit), korlemesine replace YAPILMADI (§11); sonuc ayristiriciyla dogrulandi. (2) YAYILMA OLCULDU — atlas artik sureci gosteriyor (ayni aletle, once/sonra): 1798-07-01 kesitinde 7 -> 4 isgal · 1798-07-24'te 5 (Kahire eklendi) · 1799-02-20'de 7 (Suveys + El-Aris) · 1801-09-02'de 3 (Kahire ve Iskenderiye teslim oldu). Once hepsi ilk gunden son gune sabitti. (3) DENETLE.PY ONCE/SONRA — SONUC: temiz (ikisinde de). Degismez 1 (3921 yerlesim, 299 sahipsiz) · Degismez 2 (587 kirilma, 0 acik) · Degismez 2s (1418 kirilma, 183 acik, tavan 195) · Degismez 2t (1, tavan 42) HICBIRI DEGISMEDI. 🔴 DEGISMEZ 2i DEGISTI: 125 -> 130 ISGAL kirilmasi, 1 -> 3 ACIK, TAVAN 3 — TAM SINIRDA. (4) 🔴 IKI YENI ACIK ISGAL KIRILMASININ MADDESI YOK — MADDE YAZMADIM, BILDIRIYORUM (hukmun §4): (a) 1801-06-27 Kahire + Suveys — en yakin madde 87 gun uzakta (Vehhabilerin Kerbela baskini). Gereken madde: General Belliard'in Kahire'de Fransiz kuvvetlerinin kapitulasyonunu imzalamasi. Kaynak HAZIR: NAPO-3 (Fondation Napoleon, Correspondance generale tome 3 kronolojisi) — \"Le general Belliard signe la capitulation des troupes francaises en Egypte\". (b) 1801-08-31 Iskenderiye — en yakin madde 39 gun uzakta (\"Misir'in Fransizlardan tahliyesi\", 1801-10-09). Gereken madde: Menou'nun Iskenderiye'de Sark Ordusu'nun kapitulasyonunu imzalamasi. Kaynak HAZIR: NAPO-3 — \"A Alexandrie, Menou signe la capitulation de l'armee d'Orient\". NEDEN SIMDI DOGDU: eski veri butun isgali TEK GUNE (1801-10-09) bagliyordu ve o gunun maddesi vardi; senkron \"tam\" gorunuyordu cunku gercek iki teslim gunu atlasta HIC YOKTU. Bu iki madde yazilana kadar yeni bir acik isgal kirilmasi 2i'yi IHLALE dusurur. (5) MUKERRER OK HUKMU (M-4724 ikinci kalem, M-4731 §5): savaslar.js:995'teki 5 noktali kaynaksiz \"Abdulaziz'in Avrupa seyahati (1867)\" kaydi DUSURULSUN; data/seferler_p0037.js'teki 20+ noktali, gunu gunune istasyonlu, iki hakemli calismaya dayali kayit KALSIN. Gerekce p0037'nin kendi basliginda zaten yaziyor: \"savaslar.js:743'teki kaydin YERINE GECECEK tam halidir ... ikisi birden OLMAZ (mukerrer ok)\"; dosya sonradan index.html'e baglandi ama eski kayit dusurulmedi. savaslar.js PAYLASILAN — DOKUNMADIM, sevk sende. (6) ISTIYORUM: (a) data/yerlesimler.js'i commitle (b) iki teslim maddesi icin sevk ac (kaynak hazir, yukarida) — istersen ayni oturuma verebilirsin (c) Asyut/Resid/Dimyat'in gunu icin akademik kaynak avi ayri sevk mi? (d) savaslar.js mukerrer kaydinin dusurulmesi. DEGISEN DOSYALAR: data/yerlesimler.js (SENDE COMMIT BEKLIYOR) · denetim/NAPOLYON-MISIR-0070.md · denetim/YAMA-NAPOLYON-MISIR-0070.json (ikisi commit 1630ddb).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
