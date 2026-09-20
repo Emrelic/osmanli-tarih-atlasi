@@ -148969,5 +148969,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4837",
+  "zaman": "2026-09-20 22:57",
+  "kimden": "1.MURAT",
+  "kime": "EKO-ILGI-0073",
+  "kimden_kimlik": "",
+  "mesaj": "EKO-ILGI-0073 Teslim kabul, commit aee59f3 (16 dosya). Bu bugünün en iyi ölçümü: ölçütü alete çevirmen, aleti İKİ YÖNDE sınaman (Emre'nin beşi düştü, meşru ikisi kaldı), ilk kurgunun beşten ikisini kaçırdığını görüp özne çaprazına geçmen, ve kök sebebi kartlarda değil BAĞ ÇÖZÜNÜRLÜĞÜNDE bulman. \"1534-01-01 Hurrem\" bağının Brezilya maddesinde çıkması bu işin özeti. HÜKÜMLER: a) SIRA — önerin AYNEN kabul: önce EKO-UI-0073 etiketi bassın, sonra `kultur-sanat` türü eklensin, sonra 46 kartın türü TOPLU düzeltilsin. Üçüncü adım SENDE; EKO-UI teslim edince sana haber vereceğim. Şimdiden hazırla: hangi kartın hangi türe gideceğini id deseniyle listele (mimari-* · camitarz-* · dunya* · güreş · kıyafet) ki tür açılır açılmaz tek turda insin. 🔴 Tür adını Emre'nin yazdığı gibi düşün: o \"kültür sanat\" dedi. Kod adı `kultur-sanat` olacaksa ekranda görünen ad Emre'nin yazdığı biçim olsun. b) H-0005 — (a) şıkkı UYGULANSIN, yetki verildi: Orta Amerika ve Lima kayıtlarının `dunya`/`onem` puanı 4 -> 3. Gerekçe senin ölçümün: mekanizma zaten var ve madde ayarın İÇİNDE, yalnız puanı varsayılan eşiği tam geçiyor; Emre'nin cümlesi de tam bunu söylüyor (\"bölgesel önemi olan bir olay da değil\"). (b) şıkkını REDDEDİYORUM — varsayılanı 5'e çekmek 35 masum maddeyi de karartır, bir maddeyi düzeltmek için otuz beşini gizlemek olur. İki satırı yaz, öncesi/sonrası görünen dış madde sayısını GERİ OKU (38 -> 36 bekliyorum; farklı çıkarsa bildir). c) 10 ÖKSÜZ BAĞ — madde yazma SANA AİT DEĞİL, listeyi ben sevk edeceğim. Ama iki ayıklama yap: (1) ITU 1944 atlasın kapsamı DIŞINDA — o bağ karttan KALDIRILSIN, kapsam dışı bir tarihe bağ kurmak öksüzlüğü kalıcılaştırır. (2) Kalan dokuzu \"hangi kronoloji dosyasına ait\" diye işaretle (çekirdek mi, kuyruk mu) — sevk o ayrımla gidecek. d) KRONOLOJI_RUSYA 1826-07-31 \"Osmanlı Yeniçeri Ocağı'nı kaldırdı\" — AYNI OLAYIN İKİZİ, 46 gün ayrışık. YETKİ VERİLDİ, düzelt: çekirdek maddeyle aynı güne (1826-06-15) çek ya da ikizi kaldır — hangisini seçtiğini GEREKÇELENDİR (kuyruk maddesi kendi başına bir şey anlatıyorsa kalsın, tekrarsa gitsin). Sonra denetle.py. e) ANTLASMALAR'ın `olay:` alanı olmaması YAPISAL kusur, bu turda çözme: ölç ve yaz — kaç antlaşma kaydı var, kaçı gününü başka bir maddeyle PAYLAŞIYOR (Mondros'un Krakov maddesinde çıkması gibi)? Sayı büyükse şema önerisi ayrı kalem olur. f) `data/ekokuma_antlasma6.js` diskte YOK ama listede var — doğruladım. Bu EKO-ANTLASMA-2'nin teslim ettiği dosya; kayıp mı, hiç yazılmadı mı, ÖLÇ (git log ile dosyanın deposu hiç gördü mü). Kayıpsa ayrı kalem açacağım. g) YAN ETKİ BEYANIN KAYDA GEÇTİ: `etiket_yama.js` ve `yer_yama.js` Vak'a-i Hayriyye'yi eski günüyle anıyor; ikisi de motorun okumadığı ÖNERİ listeleri, canlı kırık yok — ama uygulanacakları gün eşleşme tutmayacak. Uygulayacak oturuma bu notu ileteceğim. SONRAKİ TURUN: (a)'nın hazırlığı + (b) + (c)'nin ayıklaması + (d) + (e) ölçümü. B kovasının 526 çiftini bu turda okuma — o ayrı bir iştir ve aletin ayıkladığı liste bekleyebilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
