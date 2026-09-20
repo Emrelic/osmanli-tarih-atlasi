@@ -3616,7 +3616,26 @@ function sehirGuncelle(t) {
   // ve iki etiketi birbirinden EN ÇOK uzaklaştıran yön budur — batıdaki
   // zaten solda durur, adı da sola giderse aradaki boşluk açılır. Elenen
   // kademe (`g`) ölçüt olamazdı: yakın çiftlerin çoğu g=0/g=0, yani berabere.
+  //
+  // 🔴 AYNALAMA YALNIZ YAKIN ZOOMDA DENENİR — ve bu bir performans kaçamağı
+  // değil, ölçülmüş bir doğruluk sınırı. Uzakta (z < 5.2) bu katmanda onlarca
+  // etiket birbirine girer (bu dosyanın kendi ölçümü: z6'da 101 DOM → 21
+  // görünür, 80 elendi). 60 px sola kaydırmak o 80 çakışmanın hemen hiçbirini
+  // ayırmaz — kalabalığın çaresi ayırma değil ELEMEdir. Üstelik denemenin
+  // maliyeti orada ödenir: her deneme bir DOM YAZMASI (`classList`) ile bir
+  // DOM OKUMASI (`getBoundingClientRect`) arasına girer ve tarayıcıyı her
+  // seferinde yeniden yerleşime zorlar (layout thrashing). İlk sürüm bu
+  // kapıyı koymamıştı ve headless sınavda sayfa YANIT VEREMEZ hâle geldi —
+  // kusur ölçümle bulundu, tahminle değil.
+  // 📌 `window.ETIKET_AYNALA` sınav kapısıdır: `false` yapılınca aynalama
+  // hiç denenmez, yani yamadan ÖNCEKİ davranış birebir geri gelir. A/B
+  // kıyası böyle kuruluyor (denetim/ARAC-ETIKET-0073-SINAV.js).
+  var aynalaAcik = (window.ETIKET_AYNALA !== false) && harita.getZoom() >= 5.2;
   var tutulan = [];
+  // ⚠️ ELEME ERTELENİR. `mk.remove()` bir DOM yazmasıdır; döngünün içinde
+  // yapılırsa bir sonraki `getBoundingClientRect` yeniden yerleşim tetikler.
+  // Okumalar bitene kadar bekletilir, sonra topluca uygulanır.
+  var elenecek = [];
   // Kutu kesişimi — tek yerde, çünkü aynalamayı sınamak için iki kez sorulur.
   function _kesisir(a, b) {
     return a.left < b.right && a.right > b.left &&
@@ -3636,33 +3655,38 @@ function sehirGuncelle(t) {
     var ck = _carpisanIdx(r, tutulan);
     if (ck < 0) { tutulan.push({ r: r, m: mm }); continue; }
 
-    var o = tutulan[ck];
     var kurtuldu = false;
-    if (mm.s.lon < o.m.s.lon) {
-      // Yeni gelen BATIDA — kural onu sola yaslar.
-      mm.ic.classList.add("sol");
-      var r2 = mm.ic.getBoundingClientRect();
-      if (r2.width && _carpisanIdx(r2, tutulan) < 0) { r = r2; kurtuldu = true; }
-      else mm.ic.classList.remove("sol");
-    } else {
-      // Tutulan BATIDA — kural TUTULANI sola yaslar; yeri boşalınca yeni gelen
-      // kendi yerinde kalabilir. Tutulan zaten yerleşmiş olduğu için üç şart
-      // birden aranır: aynalanmış hâli ne öteki tutulanlarla, ne yeni gelenle
-      // çakışmayacak; yeni gelen de öteki tutulanlarla çakışmayacak. Biri bile
-      // tutmazsa aynalama GERİ ALINIR — yarım kurtarma, elemeden kötüdür.
-      o.m.ic.classList.add("sol");
-      var o2 = o.m.ic.getBoundingClientRect();
-      var digerleri = tutulan.slice();
-      digerleri.splice(ck, 1);
-      if (o2.width && _carpisanIdx(o2, digerleri) < 0 && !_kesisir(o2, r) &&
-          _carpisanIdx(r, digerleri) < 0) {
-        o.r = o2; kurtuldu = true;
+    if (aynalaAcik) {
+      var o = tutulan[ck];
+      if (mm.s.lon < o.m.s.lon) {
+        // Yeni gelen BATIDA — kural onu sola yaslar.
+        mm.ic.classList.add("sol");
+        var r2 = mm.ic.getBoundingClientRect();
+        if (r2.width && _carpisanIdx(r2, tutulan) < 0) { r = r2; kurtuldu = true; }
+        else mm.ic.classList.remove("sol");
       } else {
-        o.m.ic.classList.remove("sol");
+        // Tutulan BATIDA — kural TUTULANI sola yaslar; yeri boşalınca yeni gelen
+        // kendi yerinde kalabilir. Tutulan zaten yerleşmiş olduğu için üç şart
+        // birden aranır: aynalanmış hâli ne öteki tutulanlarla, ne yeni gelenle
+        // çakışmayacak; yeni gelen de öteki tutulanlarla çakışmayacak. Biri bile
+        // tutmazsa aynalama GERİ ALINIR — yarım kurtarma, elemeden kötüdür.
+        o.m.ic.classList.add("sol");
+        var o2 = o.m.ic.getBoundingClientRect();
+        var digerleri = tutulan.slice();
+        digerleri.splice(ck, 1);
+        if (o2.width && _carpisanIdx(o2, digerleri) < 0 && !_kesisir(o2, r) &&
+            _carpisanIdx(r, digerleri) < 0) {
+          o.r = o2; kurtuldu = true;
+        } else {
+          o.m.ic.classList.remove("sol");
+        }
       }
     }
     if (kurtuldu) tutulan.push({ r: r, m: mm });
-    else if (mm.ekli) { mm.mk.remove(); mm.ekli = false; }
+    else elenecek.push(mm);
+  }
+  for (var ei = 0; ei < elenecek.length; ei++) {
+    if (elenecek[ei].ekli) { elenecek[ei].mk.remove(); elenecek[ei].ekli = false; }
   }
 }
 
@@ -9621,6 +9645,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_alemdar",     // window.EKOKUMA_ALEMDAR — EKO-ALEMDAR teslimi (Alemdar Mustafa Paşa · âyanlar)
   "ekokuma_1806",        // window.EKOKUMA_1806 — EKO-1806 teslimi, M-4765 (6 kart)
   "ekokuma_yunan",       // window.EKOKUMA_YUNAN — EKO-YUNAN-0072 teslimi, M-4785 (4 kart)
+  "ekokuma_yeniceri",    // window.EKOKUMA_YENICERI — EKO-YENICERI-0073 teslimi, M-4830 (4 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
