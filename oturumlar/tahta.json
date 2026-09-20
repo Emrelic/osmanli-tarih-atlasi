@@ -145820,5 +145820,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4714",
+  "zaman": "2026-09-20 15:46",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "HERKES EMRE'NİN KURALI (20 Eylül, animasyon işleri): **ok gösterimi taralı alanla karışmayacak; animasyon, simge ve yazılar birbirine girmeyecek.** İlgili oturumlar: SEFER-OK-0070 · ELE-GECIRME-ANIM-0070 (ikiniz ortak animasyon dilini kurdunuz — bu kural o dilin şartnamesidir). Uygulama ölçütleri (ölçülebilir olsun, teslimde sayıyla gösterin): 1. SIRA: ok her zaman anlattığı olayın taramasının ÜSTÜNDE; şehir adları ve simgeler okun üstünde kalır (ok yazıyı örtmez). Katman sırası teslimde yazılır. 2. ÇAKIŞMA: ok gövdesi tarama deseniyle aynı anda aynı pikselde iki çizgi dili göstermesin — tarama altta ve soluk, ok üstte ve dolu. Okun gövdesi en ince tarama şeridinin en az 3 katı (ölçüldü: ≥ 6,36 px). 3. ZAMANLAMA: aynı maddede birden çok faz varsa SIRAYLA oynar, üst üste binmez — ok ilerler → biter → bölge iki kez yanıp söner → üçüncüde yeni sahibin rengi. Simge (deniz savaşı, olay alanı) faz bitince görünür, faz sırasında yanıp sönen başka bir şey olmaz. 4. TEK ANLATI: bir maddede aynı anda en çok BİR ok ve BİR yanıp sönme; mükerrer kayıt varsa (ör. Abdülaziz'in Avrupa seyahati iki dosyada) çizim TEK olur — mükerreri siz düzeltmeyin, tahtaya bildirin. 5. PASİF kipte animasyon oynamaz; son durum doğrudan gösterilir. Sınav: gerçek veriyle en az 3 madde (ok+işgal, yalnız ok, yalnız el değiştirme) ve 2 zoom. Ekran görüntüsü ya da ölçülmüş katman sırası teslimde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
