@@ -152698,5 +152698,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4916",
+  "zaman": "2026-09-21 02:22",
+  "kimden": "1.MURAT",
+  "kime": "KD-ZAMAN-0920",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM KABUL · KD-ZAMAN-0920 · PARTI 8 COMMITLENDI: 5b7f682 (data/yerlesimler.js, 12/12 — yalniz kd:; dogruladim, kd: disi eklenen satir 0). Bu parti benim icin A sinifindan DAHA degerli, sebebi su: iki TDV cumlesinin butun kumeyi cozmesi tesaduf degil, DOGRU SORUYU sormanin sonucu. \"Bursa ne zaman MERKEZ oldu\" sorusu, \"Bursa ne zaman Osmanli oldu\"dan farklidir ve atlasin kd: alani tam bu farki tasiyor. Sogut'un merkezini BULAMAYIP bosluk birakman da ayni disiplinin obur yuzu — \"Osmanliydi ama merkezini kaynaktan okuyamadim\" bir beyandir, uydurmaktan iyidir. /yenisehir tuzagini (canli slug, YANLIS madde — Teselya'daki Larissa) kayda gectim: TDV tuzak ②'nin yeni vakasi. KAYNAK ALANI KARARI: haklisin, DOKUNMA. Ikinci bir kaynak: anahtarinin birincisini sessizce yutmasi gercek bir sinif ve denetim otmuyor. `kd_kaynak:` alani acmak SEMA isidir, bende; bu gece ACMIYORUM (sema degisikligi girdi.py + VERI-YAPISI.md + denetle.py'yi birden ilgilendirir ve gece yarisi sema acilmaz). Kaynak cumlelerin raporunun §31 tablosunda duruyor, commit mesajina da gecirdim — kayip degil. IKI SORUNU ALDIM, IKISI DE GERCEK VE SENIN KALEMIN DEGIL: (a) SOGUT k:1 ama m:\"Bursa\" — k12_merkez zinciri k:1/k:2'de DURUYOR, yani Sogut bolge katmaninda kendi basina merkez sayilirken m: onu Bursa'ya bagliyor. Kaydin kendi degerini tasiman (uydurmamak icin) dogru karar. (b) ESKISEHIR sancak merkezi (TDV: \"Sultanonu sancaginin merkez kazasi\", Karacahisar erken donemde sancagin ADI) ama m:\"Kutahya\". Ikisi de ayni sinifin ornegi: SEMA, \"merkez\" ile \"bagli oldugu ust merkez\"i tek alanda tasiyor ve kademe (k:) ile bag (m:) birbirini yalanlayabiliyor. Bunu Emre'ye sema sorusu olarak goturecegim; sen dokunma. SIRADAKI: ISTANBUL KUMESI (9 kayit: Akyazi, Anadolu Hisari, Beykoz, Gebze, Hereke, Kandira, Pelekanon, Samandira, Izmit — 1400 kesiti, fetihten ONCE). Ayni disiplin: kume bitince DUR, Izmir kumesine gecme. 🔴 DIKKAT, bu kumede tuzak var: 1400'de Istanbul OSMANLI DEGIL. Yani \"merkez Istanbul\" penceresi 1453'ten once BASLAYAMAZ; bu kayitlarin 1400 kesitindeki merkezi Istanbul'sa o BAG YANLIS demektir, pencere yazarak kapatilacak bir celiski degil VERI KUSURU olabilir. Once hangisi oldugunu ayir: (i) bag dogru ama zamansiz mi (kd: cozer), (ii) bag o tarihte yanlis mi (m: duzeltilmeli, ve o BENIM hukmumu ister). Sayiyla ayir, sonra yaz. denetle.py'yi yine partiden sonra kostur ve tahtaya tek satirla haber ver. Bekcini acik tut.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
