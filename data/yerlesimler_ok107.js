@@ -59,7 +59,7 @@ window.YERLESIMLER_OK107 = [
   neden:"kunye-yok — 1508-01-01 / 1515-09-19 arasi (7,7 yil) BILEREK bos. TDV cizre maddesi bu araligi ACIKCA anlatiyor: Emir II. Seref 1508'de sehri Akkoyunlulardan aliyor ve MAHALLI YONETIMI yeniden kuruyor, arada kisa bir Sah Ismail idaresi var ama TDV gununu VERMIYOR. Yani kaynak KONUSUYOR, devletler.js'te Cizre/Bohtan emirligi kunyesi YOK. Kunye yazilirsa bu bosluk kapanir — KUNYE ONERISI raporda."
 },
 
-{ ad:"Siirt", tur:"sehir", lat:37.930, lon:41.940, k:3, m:null,
+{ ad:"Siirt", tur:"sehir", lat:37.930, lon:41.940, k:3, m:"Diyarbakır",
   // TDV `siirt` (200, gövde 15.849 kr, okundu):
   //   "İlhanlılar'ın ve onların halefleri durumundaki Celâyirliler'in
   //    hâkimiyeti altına giren Siirt, Timur istilâsını da gördükten sonra
@@ -408,7 +408,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1413-07-05",t:"1912-10-26"}],
   kaynak:"koprulu" },
 
-{ ad:"İştip (Štip)", tur:"sehir", lat:41.746, lon:22.195, k:3, m:null,
+{ ad:"İştip (Štip)", tur:"sehir", lat:41.746, lon:22.195, k:3, m:"Köstendil",
   s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
@@ -421,7 +421,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1413-07-05",t:"1912-10-26"}],
   kaynak:"istip" },
 
-{ ad:"Ustrumca (Strumica)", tur:"sehir", lat:41.437, lon:22.643, k:3, m:null,
+{ ad:"Ustrumca (Strumica)", tur:"sehir", lat:41.437, lon:22.643, k:3, m:"Köstendil",
   s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},

@@ -338,7 +338,7 @@ window.YERLESIMLER_EK29 = [
 //   Avrupa yakasında görünecekti.
 // kaynak: TDV `uskudar` (HTTP 200, gövdesi okundu)
 
-{ ad:"Üsküdar", tur:"sehir", lat:41.0227, lon:29.0153, g:0, k:3,
+{ ad:"Üsküdar", tur:"sehir", lat:41.0227, lon:29.0153, g:0, k:3, m:"İzmit",
   s:[{f:"1281-01-01",t:"1329-06-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
   d:[{f:"1329-06-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
@@ -454,7 +454,7 @@ window.YERLESIMLER_EK29 = [
 // kaynak: bulunamadı — çizgi Silistre (Osmanlı başlangıcı) ve
 //   1878-07-13 Berlin (Romanya'ya devir) günlerine yaslandı
 
-{ ad:"Babadağı (Babadag)", tur:"kasaba", lat:44.8917, lon:28.7169, g:0, k:3,
+{ ad:"Babadağı (Babadag)", tur:"kasaba", lat:44.8917, lon:28.7169, g:0, k:3, m:"Özi",
   s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
   d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1413-07-05",t:"1878-07-13"}], v:[] },
 
