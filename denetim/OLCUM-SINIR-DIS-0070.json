@@ -1,0 +1,1039 @@
+{
+ "tarih": "1798-07-21",
+ "donem": [
+  "1795-04-01",
+  "1798-10-23"
+ ],
+ "esik": {
+  "donus": 25.0,
+  "oran": 8.0
+ },
+ "kutular": [
+  {
+   "kutu": "K-A Bağdat–Şam çölü",
+   "gorsel": "H-0003-1.png",
+   "zoom": 5.4,
+   "kutu_derece": [
+    24.93,
+    34.9,
+    36.19,
+    47.06
+   ],
+   "hatlar": [
+    {
+     "sb": 324,
+     "u_km": 48.9,
+     "kose_sayisi": 34,
+     "kutudaki_kose": 32,
+     "uzunluk_km": 101.5,
+     "seg_min_km": 0.223,
+     "seg_medyan_km": 2.859,
+     "hale_px": 30.5,
+     "cekirdek_px": 10.7,
+     "dis": 1,
+     "en_keskin": [
+      {
+       "i": 1,
+       "lon": 46.056,
+       "lat": 29.325,
+       "ic_aci": 127.9,
+       "donus": 52.1,
+       "seg_once_km": 1.558,
+       "seg_sonra_km": 0.807,
+       "kisa_seg_px": 0.5,
+       "genislik_px": 30.5,
+       "oran": 61.0,
+       "lob_px": 16.9,
+       "lob_km": 27.4,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 85,
+     "u_km": 110.0,
+     "kose_sayisi": 121,
+     "kutudaki_kose": 119,
+     "uzunluk_km": 894.5,
+     "seg_min_km": 0.093,
+     "seg_medyan_km": 4.866,
+     "hale_px": 68.5,
+     "cekirdek_px": 24.0,
+     "dis": 37,
+     "en_keskin": [
+      {
+       "i": 112,
+       "lon": 38.413,
+       "lat": 33.0,
+       "ic_aci": 150.5,
+       "donus": 29.5,
+       "seg_once_km": 4.287,
+       "seg_sonra_km": 0.093,
+       "kisa_seg_px": 0.06,
+       "genislik_px": 68.5,
+       "oran": 1142.0,
+       "lob_px": 35.4,
+       "lob_km": 55.1,
+       "dis": true
+      },
+      {
+       "i": 113,
+       "lon": 38.412,
+       "lat": 33.0,
+       "ic_aci": 149.2,
+       "donus": 30.8,
+       "seg_once_km": 0.093,
+       "seg_sonra_km": 1.086,
+       "kisa_seg_px": 0.06,
+       "genislik_px": 68.5,
+       "oran": 1142.0,
+       "lob_px": 35.5,
+       "lob_km": 55.2,
+       "dis": true
+      },
+      {
+       "i": 34,
+       "lon": 42.131,
+       "lat": 32.948,
+       "ic_aci": 153.2,
+       "donus": 26.8,
+       "seg_once_km": 11.087,
+       "seg_sonra_km": 0.187,
+       "kisa_seg_px": 0.12,
+       "genislik_px": 68.5,
+       "oran": 571.0,
+       "lob_px": 35.2,
+       "lob_km": 54.8,
+       "dis": true
+      },
+      {
+       "i": 2,
+       "lon": 43.309,
+       "lat": 30.506,
+       "ic_aci": 120.2,
+       "donus": 59.8,
+       "seg_once_km": 0.399,
+       "seg_sonra_km": 3.553,
+       "kisa_seg_px": 0.25,
+       "genislik_px": 68.5,
+       "oran": 274.2,
+       "lob_px": 39.5,
+       "lob_km": 63.1,
+       "dis": true
+      },
+      {
+       "i": 111,
+       "lon": 38.453,
+       "lat": 33.019,
+       "ic_aci": 147.2,
+       "donus": 32.8,
+       "seg_once_km": 1.004,
+       "seg_sonra_km": 4.287,
+       "kisa_seg_px": 0.65,
+       "genislik_px": 68.5,
+       "oran": 106.0,
+       "lob_px": 35.7,
+       "lob_km": 55.5,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 318,
+     "u_km": 105.9,
+     "kose_sayisi": 215,
+     "kutudaki_kose": 213,
+     "uzunluk_km": 1083.4,
+     "seg_min_km": 0.096,
+     "seg_medyan_km": 4.547,
+     "hale_px": 66.0,
+     "cekirdek_px": 23.1,
+     "dis": 73,
+     "en_keskin": [
+      {
+       "i": 89,
+       "lon": 37.193,
+       "lat": 29.791,
+       "ic_aci": 115.0,
+       "donus": 65.0,
+       "seg_once_km": 9.573,
+       "seg_sonra_km": 0.096,
+       "kisa_seg_px": 0.06,
+       "genislik_px": 66.0,
+       "oran": 1099.5,
+       "lob_px": 39.1,
+       "lob_km": 62.9,
+       "dis": true
+      },
+      {
+       "i": 90,
+       "lon": 37.194,
+       "lat": 29.791,
+       "ic_aci": 114.8,
+       "donus": 65.2,
+       "seg_once_km": 0.096,
+       "seg_sonra_km": 5.756,
+       "kisa_seg_px": 0.06,
+       "genislik_px": 66.0,
+       "oran": 1099.5,
+       "lob_px": 39.1,
+       "lob_km": 63.0,
+       "dis": true
+      },
+      {
+       "i": 175,
+       "lon": 38.35,
+       "lat": 27.131,
+       "ic_aci": 112.3,
+       "donus": 67.7,
+       "seg_once_km": 2.3,
+       "seg_sonra_km": 0.388,
+       "kisa_seg_px": 0.24,
+       "genislik_px": 66.0,
+       "oran": 280.5,
+       "lob_px": 39.7,
+       "lob_km": 65.5,
+       "dis": true
+      },
+      {
+       "i": 176,
+       "lon": 38.352,
+       "lat": 27.128,
+       "ic_aci": 148.4,
+       "donus": 31.6,
+       "seg_once_km": 0.388,
+       "seg_sonra_km": 6.705,
+       "kisa_seg_px": 0.24,
+       "genislik_px": 66.0,
+       "oran": 280.5,
+       "lob_px": 34.3,
+       "lob_km": 56.5,
+       "dis": true
+      },
+      {
+       "i": 113,
+       "lon": 38.056,
+       "lat": 29.393,
+       "ic_aci": 64.1,
+       "donus": 115.9,
+       "seg_once_km": 0.971,
+       "seg_sonra_km": 0.592,
+       "kisa_seg_px": 0.37,
+       "genislik_px": 66.0,
+       "oran": 180.0,
+       "lob_px": 62.2,
+       "lob_km": 100.4,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 319,
+     "u_km": 156.7,
+     "kose_sayisi": 27,
+     "kutudaki_kose": 25,
+     "uzunluk_km": 117.1,
+     "seg_min_km": 1.219,
+     "seg_medyan_km": 4.833,
+     "hale_px": 80.0,
+     "cekirdek_px": 28.0,
+     "dis": 10,
+     "en_keskin": [
+      {
+       "i": 25,
+       "lon": 40.851,
+       "lat": 26.033,
+       "ic_aci": 85.3,
+       "donus": 94.7,
+       "seg_once_km": 1.409,
+       "seg_sonra_km": 2.096,
+       "kisa_seg_px": 0.85,
+       "genislik_px": 80.0,
+       "oran": 94.6,
+       "lob_px": 59.0,
+       "lob_km": 98.3,
+       "dis": true
+      },
+      {
+       "i": 1,
+       "lon": 40.25,
+       "lat": 26.85,
+       "ic_aci": 131.7,
+       "donus": 48.3,
+       "seg_once_km": 1.984,
+       "seg_sonra_km": 4.62,
+       "kisa_seg_px": 1.2,
+       "genislik_px": 80.0,
+       "oran": 66.7,
+       "lob_px": 43.8,
+       "lob_km": 72.5,
+       "dis": true
+      },
+      {
+       "i": 16,
+       "lon": 40.656,
+       "lat": 26.306,
+       "ic_aci": 140.9,
+       "donus": 39.1,
+       "seg_once_km": 4.253,
+       "seg_sonra_km": 2.58,
+       "kisa_seg_px": 1.55,
+       "genislik_px": 80.0,
+       "oran": 51.5,
+       "lob_px": 42.5,
+       "lob_km": 70.5,
+       "dis": true
+      },
+      {
+       "i": 17,
+       "lon": 40.681,
+       "lat": 26.3,
+       "ic_aci": 142.0,
+       "donus": 38.0,
+       "seg_once_km": 2.58,
+       "seg_sonra_km": 2.647,
+       "kisa_seg_px": 1.55,
+       "genislik_px": 80.0,
+       "oran": 51.5,
+       "lob_px": 42.3,
+       "lob_km": 70.3,
+       "dis": true
+      },
+      {
+       "i": 18,
+       "lon": 40.697,
+       "lat": 26.281,
+       "ic_aci": 146.4,
+       "donus": 33.6,
+       "seg_once_km": 2.647,
+       "seg_sonra_km": 4.902,
+       "kisa_seg_px": 1.59,
+       "genislik_px": 80.0,
+       "oran": 50.2,
+       "lob_px": 41.8,
+       "lob_km": 69.4,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 115,
+     "u_km": 56.6,
+     "kose_sayisi": 35,
+     "kutudaki_kose": 33,
+     "uzunluk_km": 129.1,
+     "seg_min_km": 0.981,
+     "seg_medyan_km": 3.237,
+     "hale_px": 35.2,
+     "cekirdek_px": 12.3,
+     "dis": 31,
+     "en_keskin": [
+      {
+       "i": 1,
+       "lon": 46.906,
+       "lat": 30.902,
+       "ic_aci": 77.9,
+       "donus": 102.1,
+       "seg_once_km": 1.493,
+       "seg_sonra_km": 2.296,
+       "kisa_seg_px": 0.94,
+       "genislik_px": 35.2,
+       "oran": 37.5,
+       "lob_px": 28.0,
+       "lob_km": 44.6,
+       "dis": true
+      },
+      {
+       "i": 31,
+       "lon": 47.003,
+       "lat": 30.724,
+       "ic_aci": 53.3,
+       "donus": 126.7,
+       "seg_once_km": 1.777,
+       "seg_sonra_km": 1.595,
+       "kisa_seg_px": 1.0,
+       "genislik_px": 35.2,
+       "oran": 35.2,
+       "lob_px": 35.2,
+       "lob_km": 56.2,
+       "dis": true
+      },
+      {
+       "i": 32,
+       "lon": 46.99,
+       "lat": 30.733,
+       "ic_aci": 73.8,
+       "donus": 106.2,
+       "seg_once_km": 1.595,
+       "seg_sonra_km": 1.748,
+       "kisa_seg_px": 1.0,
+       "genislik_px": 35.2,
+       "oran": 35.2,
+       "lob_px": 29.4,
+       "lob_km": 46.8,
+       "dis": true
+      },
+      {
+       "i": 22,
+       "lon": 46.91,
+       "lat": 30.729,
+       "ic_aci": 100.5,
+       "donus": 79.5,
+       "seg_once_km": 5.313,
+       "seg_sonra_km": 1.711,
+       "kisa_seg_px": 1.07,
+       "genislik_px": 35.2,
+       "oran": 32.8,
+       "lob_px": 22.9,
+       "lob_km": 36.5,
+       "dis": true
+      },
+      {
+       "i": 23,
+       "lon": 46.906,
+       "lat": 30.744,
+       "ic_aci": 123.8,
+       "donus": 56.2,
+       "seg_once_km": 1.711,
+       "seg_sonra_km": 6.239,
+       "kisa_seg_px": 1.07,
+       "genislik_px": 35.2,
+       "oran": 32.8,
+       "lob_px": 20.0,
+       "lob_km": 31.8,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 121,
+     "u_km": 56.6,
+     "kose_sayisi": 6,
+     "kutudaki_kose": 4,
+     "uzunluk_km": 19.9,
+     "seg_min_km": 1.338,
+     "seg_medyan_km": 2.54,
+     "hale_px": 35.2,
+     "cekirdek_px": 12.3,
+     "dis": 4,
+     "en_keskin": [
+      {
+       "i": 2,
+       "lon": 46.756,
+       "lat": 30.744,
+       "ic_aci": 75.5,
+       "donus": 104.5,
+       "seg_once_km": 2.297,
+       "seg_sonra_km": 1.338,
+       "kisa_seg_px": 0.84,
+       "genislik_px": 35.2,
+       "oran": 42.0,
+       "lob_px": 28.8,
+       "lob_km": 45.8,
+       "dis": true
+      },
+      {
+       "i": 3,
+       "lon": 46.77,
+       "lat": 30.744,
+       "ic_aci": 37.8,
+       "donus": 142.2,
+       "seg_once_km": 1.338,
+       "seg_sonra_km": 2.54,
+       "kisa_seg_px": 0.84,
+       "genislik_px": 35.2,
+       "oran": 42.0,
+       "lob_px": 35.2,
+       "lob_km": 56.2,
+       "dis": true
+      },
+      {
+       "i": 1,
+       "lon": 46.762,
+       "lat": 30.724,
+       "ic_aci": 52.8,
+       "donus": 127.2,
+       "seg_once_km": 7.771,
+       "seg_sonra_km": 2.297,
+       "kisa_seg_px": 1.44,
+       "genislik_px": 35.2,
+       "oran": 24.5,
+       "lob_px": 35.2,
+       "lob_km": 56.2,
+       "dis": true
+      },
+      {
+       "i": 4,
+       "lon": 46.749,
+       "lat": 30.758,
+       "ic_aci": 134.7,
+       "donus": 45.3,
+       "seg_once_km": 2.54,
+       "seg_sonra_km": 5.975,
+       "kisa_seg_px": 1.59,
+       "genislik_px": 35.2,
+       "oran": 22.1,
+       "lob_px": 19.1,
+       "lob_km": 30.4,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 86,
+     "u_km": 55.9,
+     "kose_sayisi": 4,
+     "kutudaki_kose": 2,
+     "uzunluk_km": 4.4,
+     "seg_min_km": 0.436,
+     "seg_medyan_km": 1.444,
+     "hale_px": 34.8,
+     "cekirdek_px": 12.2,
+     "dis": 2,
+     "en_keskin": [
+      {
+       "i": 2,
+       "lon": 43.429,
+       "lat": 32.71,
+       "ic_aci": 118.1,
+       "donus": 61.9,
+       "seg_once_km": 2.516,
+       "seg_sonra_km": 0.436,
+       "kisa_seg_px": 0.28,
+       "genislik_px": 34.8,
+       "oran": 124.5,
+       "lob_px": 20.3,
+       "lob_km": 31.7,
+       "dis": true
+      },
+      {
+       "i": 1,
+       "lon": 43.439,
+       "lat": 32.731,
+       "ic_aci": 100.8,
+       "donus": 79.2,
+       "seg_once_km": 1.444,
+       "seg_sonra_km": 2.516,
+       "kisa_seg_px": 0.93,
+       "genislik_px": 34.8,
+       "oran": 37.6,
+       "lob_px": 22.6,
+       "lob_km": 35.2,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 87,
+     "u_km": 22.5,
+     "kose_sayisi": 21,
+     "kutudaki_kose": 19,
+     "uzunluk_km": 80.9,
+     "seg_min_km": 1.522,
+     "seg_medyan_km": 4.006,
+     "hale_px": 14.0,
+     "cekirdek_px": 4.9,
+     "dis": 11,
+     "en_keskin": [
+      {
+       "i": 17,
+       "lon": 43.426,
+       "lat": 32.8,
+       "ic_aci": 86.8,
+       "donus": 93.2,
+       "seg_once_km": 4.642,
+       "seg_sonra_km": 1.522,
+       "kisa_seg_px": 0.98,
+       "genislik_px": 14.0,
+       "oran": 14.3,
+       "lob_px": 10.2,
+       "lob_km": 15.9,
+       "dis": true
+      },
+      {
+       "i": 18,
+       "lon": 43.412,
+       "lat": 32.807,
+       "ic_aci": 39.6,
+       "donus": 140.4,
+       "seg_once_km": 1.522,
+       "seg_sonra_km": 6.378,
+       "kisa_seg_px": 0.98,
+       "genislik_px": 14.0,
+       "oran": 14.3,
+       "lob_px": 14.0,
+       "lob_km": 21.8,
+       "dis": true
+      },
+      {
+       "i": 4,
+       "lon": 43.535,
+       "lat": 33.115,
+       "ic_aci": 47.4,
+       "donus": 132.6,
+       "seg_once_km": 4.559,
+       "seg_sonra_km": 1.644,
+       "kisa_seg_px": 1.06,
+       "genislik_px": 14.0,
+       "oran": 13.2,
+       "lob_px": 14.0,
+       "lob_km": 21.8,
+       "dis": true
+      },
+      {
+       "i": 5,
+       "lon": 43.522,
+       "lat": 33.105,
+       "ic_aci": 129.9,
+       "donus": 50.1,
+       "seg_once_km": 1.644,
+       "seg_sonra_km": 8.015,
+       "kisa_seg_px": 1.06,
+       "genislik_px": 14.0,
+       "oran": 13.2,
+       "lob_px": 7.7,
+       "lob_km": 12.0,
+       "dis": true
+      },
+      {
+       "i": 19,
+       "lon": 43.435,
+       "lat": 32.753,
+       "ic_aci": 133.5,
+       "donus": 46.5,
+       "seg_once_km": 6.378,
+       "seg_sonra_km": 1.868,
+       "kisa_seg_px": 1.2,
+       "genislik_px": 14.0,
+       "oran": 11.7,
+       "lob_px": 7.6,
+       "lob_km": 11.9,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 88,
+     "u_km": 25.5,
+     "kose_sayisi": 6,
+     "kutudaki_kose": 4,
+     "uzunluk_km": 30.9,
+     "seg_min_km": 1.584,
+     "seg_medyan_km": 4.704,
+     "hale_px": 15.9,
+     "cekirdek_px": 5.6,
+     "dis": 2,
+     "en_keskin": [
+      {
+       "i": 1,
+       "lon": 43.208,
+       "lat": 33.795,
+       "ic_aci": 114.0,
+       "donus": 66.0,
+       "seg_once_km": 3.735,
+       "seg_sonra_km": 1.584,
+       "kisa_seg_px": 1.03,
+       "genislik_px": 15.9,
+       "oran": 15.4,
+       "lob_px": 9.5,
+       "lob_km": 14.6,
+       "dis": true
+      },
+      {
+       "i": 2,
+       "lon": 43.201,
+       "lat": 33.782,
+       "ic_aci": 118.0,
+       "donus": 62.0,
+       "seg_once_km": 1.584,
+       "seg_sonra_km": 9.023,
+       "kisa_seg_px": 1.03,
+       "genislik_px": 15.9,
+       "oran": 15.4,
+       "lob_px": 9.3,
+       "lob_km": 14.3,
+       "dis": true
+      }
+     ]
+    }
+   ],
+   "dis_sayisi": 171
+  },
+  {
+   "kutu": "K-B Mısır–Sina",
+   "gorsel": "H-0004-1.png",
+   "zoom": 5.2,
+   "kutu_derece": [
+    16.44,
+    23.37,
+    30.72,
+    36.8
+   ],
+   "hatlar": [
+    {
+     "sb": 166,
+     "u_km": 117.3,
+     "kose_sayisi": 78,
+     "kutudaki_kose": 76,
+     "uzunluk_km": 381.0,
+     "seg_min_km": 0.21,
+     "seg_medyan_km": 4.338,
+     "hale_px": 63.6,
+     "cekirdek_px": 22.3,
+     "dis": 27,
+     "en_keskin": [
+      {
+       "i": 14,
+       "lon": 35.537,
+       "lat": 18.969,
+       "ic_aci": 137.2,
+       "donus": 42.8,
+       "seg_once_km": 5.731,
+       "seg_sonra_km": 0.21,
+       "kisa_seg_px": 0.1,
+       "genislik_px": 63.6,
+       "oran": 608.9,
+       "lob_px": 34.1,
+       "lob_km": 68.8,
+       "dis": true
+      },
+      {
+       "i": 15,
+       "lon": 35.539,
+       "lat": 18.969,
+       "ic_aci": 146.2,
+       "donus": 33.8,
+       "seg_once_km": 0.21,
+       "seg_sonra_km": 6.199,
+       "kisa_seg_px": 0.1,
+       "genislik_px": 63.6,
+       "oran": 608.9,
+       "lob_px": 33.2,
+       "lob_km": 66.9,
+       "dis": true
+      },
+      {
+       "i": 57,
+       "lon": 35.922,
+       "lat": 20.748,
+       "ic_aci": 148.7,
+       "donus": 31.3,
+       "seg_once_km": 7.382,
+       "seg_sonra_km": 0.383,
+       "kisa_seg_px": 0.19,
+       "genislik_px": 63.6,
+       "oran": 330.5,
+       "lob_px": 33.0,
+       "lob_km": 65.8,
+       "dis": true
+      },
+      {
+       "i": 58,
+       "lon": 35.919,
+       "lat": 20.75,
+       "ic_aci": 147.0,
+       "donus": 33.0,
+       "seg_once_km": 0.383,
+       "seg_sonra_km": 4.541,
+       "kisa_seg_px": 0.19,
+       "genislik_px": 63.6,
+       "oran": 330.5,
+       "lob_px": 33.2,
+       "lob_km": 66.0,
+       "dis": true
+      },
+      {
+       "i": 75,
+       "lon": 35.478,
+       "lat": 21.307,
+       "ic_aci": 72.2,
+       "donus": 107.8,
+       "seg_once_km": 12.854,
+       "seg_sonra_km": 0.996,
+       "kisa_seg_px": 0.5,
+       "genislik_px": 63.6,
+       "oran": 126.7,
+       "lob_px": 54.0,
+       "lob_km": 107.1,
+       "dis": true
+      }
+     ]
+    },
+    {
+     "sb": 60,
+     "u_km": 133.0,
+     "kose_sayisi": 59,
+     "kutudaki_kose": 57,
+     "uzunluk_km": 246.1,
+     "seg_min_km": 0.103,
+     "seg_medyan_km": 4.038,
+     "hale_px": 72.1,
+     "cekirdek_px": 25.2,
+     "dis": 23,
+     "en_keskin": [
+      {
+       "i": 12,
+       "lon": 32.813,
+       "lat": 21.781,
+       "ic_aci": 125.0,
+       "donus": 55.0,
+       "seg_once_km": 7.196,
+       "seg_sonra_km": 0.103,
+       "kisa_seg_px": 0.05,
+       "genislik_px": 72.1,
+       "oran": 1380.8,
+       "lob_px": 40.6,
+       "lob_km": 80.4,
+       "dis": true
+      },
+      {
+       "i": 13,
+       "lon": 32.812,
+       "lat": 21.781,
+       "ic_aci": 151.7,
+       "donus": 28.3,
+       "seg_once_km": 0.103,
+       "seg_sonra_km": 2.815,
+       "kisa_seg_px": 0.05,
+       "genislik_px": 72.1,
+       "oran": 1380.8,
+       "lob_px": 37.2,
+       "lob_km": 73.5,
+       "dis": true
+      },
+      {
+       "i": 18,
+       "lon": 32.663,
+       "lat": 21.531,
+       "ic_aci": 125.1,
+       "donus": 54.9,
+       "seg_once_km": 7.2,
+       "seg_sonra_km": 0.103,
+       "kisa_seg_px": 0.05,
+       "genislik_px": 72.1,
+       "oran": 1380.8,
+       "lob_px": 40.6,
+       "lob_km": 80.5,
+       "dis": true
+      },
+      {
+       "i": 19,
+       "lon": 32.662,
+       "lat": 21.531,
+       "ic_aci": 152.7,
+       "donus": 27.3,
+       "seg_once_km": 0.103,
+       "seg_sonra_km": 2.91,
+       "kisa_seg_px": 0.05,
+       "genislik_px": 72.1,
+       "oran": 1380.8,
+       "lob_px": 37.1,
+       "lob_km": 73.5,
+       "dis": true
+      },
+      {
+       "i": 2,
+       "lon": 33.032,
+       "lat": 22.148,
+       "ic_aci": 38.4,
+       "donus": 141.6,
+       "seg_once_km": 0.729,
+       "seg_sonra_km": 0.152,
+       "kisa_seg_px": 0.08,
+       "genislik_px": 72.1,
+       "oran": 938.3,
+       "lob_px": 72.1,
+       "lob_km": 142.2,
+       "dis": true
+      }
+     ]
+    }
+   ],
+   "dis_sayisi": 50
+  }
+ ],
+ "yayginlik": {
+  "zoom": 5.0,
+  "donem_toplam": 579,
+  "donem_dis_ureten": 469,
+  "hat_toplam_kullanilan": 480,
+  "hat_dis_ureten": 436,
+  "dis_kose_toplam": 8665,
+  "u_medyan": 57.5,
+  "u_max": 187.2
+ },
+ "havuz": {
+  "segment_sayisi": 25590,
+  "seg_min_km": 0.072,
+  "seg_medyan_km": 4.278,
+  "seg_q1_km": 2.259,
+  "seg_q3_km": 6.078,
+  "seg_500m_altı": 1312,
+  "seg_1km_altı": 2495,
+  "oran_medyan": 19.3,
+  "oran_q3": 32.2,
+  "oran_max": 1333.6,
+  "oran_8_ustu_yuzde": 85.7
+ },
+ "care": {
+  "tavan": [
+   {
+    "tavan_px": 80.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 171,
+      "hale_daralmasi_km_medyan": 0.0
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 50,
+      "hale_daralmasi_km_medyan": 0.0
+     }
+    ]
+   },
+   {
+    "tavan_px": 48.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 171,
+      "hale_daralmasi_km_medyan": 0.0
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 50,
+      "hale_daralmasi_km_medyan": 31.2
+     }
+    ]
+   },
+   {
+    "tavan_px": 32.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 169,
+      "hale_daralmasi_km_medyan": 5.2
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 50,
+      "hale_daralmasi_km_medyan": 63.3
+     }
+    ]
+   },
+   {
+    "tavan_px": 24.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 142,
+      "hale_daralmasi_km_medyan": 18.1
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 49,
+      "hale_daralmasi_km_medyan": 79.3
+     }
+    ]
+   },
+   {
+    "tavan_px": 16.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 98,
+      "hale_daralmasi_km_medyan": 30.9
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 31,
+      "hale_daralmasi_km_medyan": 95.3
+     }
+    ]
+   }
+  ],
+  "sadelestirme": [
+   {
+    "tol_km": 1.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 145,
+      "en_buyuk_sapma_km": 1.0
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 41,
+      "en_buyuk_sapma_km": 0.99
+     }
+    ],
+    "havuz": {
+     "kose_eski": 26070,
+     "kose_yeni": 12259,
+     "azalma_yuzde": 53.0
+    }
+   },
+   {
+    "tol_km": 2.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 73,
+      "en_buyuk_sapma_km": 1.95
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 10,
+      "en_buyuk_sapma_km": 1.79
+     }
+    ],
+    "havuz": {
+     "kose_eski": 26070,
+     "kose_yeni": 7775,
+     "azalma_yuzde": 70.2
+    }
+   },
+   {
+    "tol_km": 5.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 2,
+      "en_buyuk_sapma_km": 4.84
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 0,
+      "en_buyuk_sapma_km": 4.28
+     }
+    ],
+    "havuz": {
+     "kose_eski": 26070,
+     "kose_yeni": 3204,
+     "azalma_yuzde": 87.7
+    }
+   },
+   {
+    "tol_km": 10.0,
+    "kutular": [
+     {
+      "kutu": "K-A Bağdat–Şam çölü",
+      "dis": 0,
+      "en_buyuk_sapma_km": 9.55
+     },
+     {
+      "kutu": "K-B Mısır–Sina",
+      "dis": 0,
+      "en_buyuk_sapma_km": 6.7
+     }
+    ],
+    "havuz": {
+     "kose_eski": 26070,
+     "kose_yeni": 2265,
+     "azalma_yuzde": 91.3
+    }
+   }
+  ]
+ }
+}
