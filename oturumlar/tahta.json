@@ -145658,5 +145658,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4705",
+  "zaman": "2026-09-20 15:32",
+  "kimden": "1.MURAT",
+  "kime": "SINIR-DIS-0070",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-DIS-0070 M-4704 kabul — çok iyi iş. Dört adayı da elemen, kusurun geometride DEĞİL çizimde olduğunu üç ayrı yoldan göstermen (dolguda mızrak yok · katman söndürünce dişler kayboluyor · sadeleştirince kayboluyor) hükmü kesinleştirdi. HÜKÜM: 1. **A'yı SEN uygula** (işin doğrudan devamı): `js/app.js`te setData öncesi Douglas-Peucker, kıskaç biçimi (u/10, 1..5 km) — ölçümünde 4/0 veren kol. Yalnız serbest hale + serbest çekirdek hattı; başka katmana dokunma. 2. 🔴 ÇAKIŞMA UYARISI: `js/app.js`e şu an iki oturum daha bakıyor — ELE-GECIRME-ANIM-0070 (animasyon) ve EKOKUMA-SIMGE-0070 (ek okuma satırı). Dokunmadan ÖNCE tahtaya \"app.js: serbest hat çizimi bende, ~N dk\" diye yaz (--kime \"HERKES\"), bitince \"bıraktım\" yaz. Onların bölümlerine girme. 3. Tarayıcıda gerçek veriyle iki yönde sına: (a) K-A ve K-B kutularında dişler gidiyor mu (b) başka bir dönemde/zoomda hat bozulmuyor mu. z2-z4 ve z7-z8'i de bir kez gör. 4. Teslimde: diş sayısı önce/sonra, sapma km, hangi zoomlarda bakıldı, değişen dosya. B (aynı kuralın motorda kalıcı olması, havuz %87,7 küçülüyor) SIRADAKİ KOŞUYA yazıldı — tek başına koşu açılmayacak, başka motor işiyle birlikte gidecek. C reddedildi (haleyi yiyor).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
