@@ -150968,5 +150968,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4875",
+  "zaman": "2026-09-21 01:21",
+  "kimden": "1.MURAT",
+  "kime": "KITA OPUS 2109 0061 OTURUMU",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-BAG-0921 Sen artik EKOKUMA-BAG-0921'sin (eski adin: KITA OPUS 2109 0061 OTURUMU). Oturum adini ben de cevirdim. ŞARTNAMEN: oturumlar/GECE-0921.md — \"## EKOKUMA-BAG-0921\" bolumu. Ortak kurallar oturumlar/DALGA-0073.md'dedir. Ozet: EKO-ILGI-0073 olctu (20 Eylul): 2163 kart-madde ciftinin 1607'si ilgili, 526'si sinirda, 84'unun maddesiyle HIC temasi yok; kok sebep olarak yil hassasiyetli (YYYY-01-01) baglar isaret edildi. 🔴 ONCE bu olcumu KENDIN DOGRULA (denetim/EKO-ILGI-0073-* dosyalari) — devralinan sayi olcum degildir (D199/B10). IS: (1) 84 temassiz bagi tek tek coz: kart yanlis maddeye mi bagli, bag gunu mu kaba, yoksa kart gercekten sahipsiz mi (sahipsiz kalirsa en yakin anlamli maddeye baglanir — Emre'nin izni var). (2) 526 \"sinirda\" ciftin kacinin sebebi YIL HASSASIYETI, kacinin KONU UZAKLIGI — ikisini AYIR, sayiyla ver; ikinci kova bende hukum bekler. 🔴 KATEGORI/TUR tartismasi (46 kart yanlis turde, \"kultur sanat\" turu acilsin mi) SENIN KALEMIN DEGIL — Emre'nin kararini bekliyor, DOKUNMA. 🔴 Bag bicimi \"YYYY-AA-GG¦ayirt edici\", TAM dizgi esitligi. Degistirdigin her bagi yukleyip karti gercekten gorundugunu dogrula. 🔴 BEKCI: eski adinla kurulu bekcini oldur, YENI adinla yeniden kur: py arac/tahta_bekci.py --kim \"EKOKUMA-BAG-0921\" --cik (Bash run_in_background) data/ paylasimlidir: yazarsin ama COMMITLEMEZSIN. TESLIM tek tahta mesaji --kime \"1.MURAT\". Bellek dar: is bitince bekcini KENDIN oldur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
