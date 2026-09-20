@@ -885,6 +885,77 @@ değişmedi; son temiz koşu parti 9 sonrasıdır).
 
 ---
 
+# PARTİ 11 — `m:` BAĞININ KENDİSİ: KAPSAM ÖLÇÜMÜ (yazım YOK) · 21 Eylül 2026
+
+1.MURAT M-4931: *"(a) en dar seçenek RED… (c) KAPSAMLI ÖLÇÜM — sıradaki işin bu, ve
+yalnız İzmir'in 18'i değil… Sayıyla ver."* Alet:
+**`denetim/ARAC-KD-ZAMAN-M-SUPHELI-0921.py`** (salt okur).
+
+## 36. İZMİR'İN 18'İ — tek tek sınıflandırma
+
+İzmir'in kendi kaydı: `k:2`, ilk Osmanlı dönemi **1415-06-01** (yani 1400'de zaten
+Osmanlı değil; TDV'ye göre 1841'e kadar da üst merkez değil).
+
+| sınıf | kayıt | kimler |
+|---|---|---|
+| **TERS YÖN** — kayıt aslında ÜST merkez (TDV) | **2** | **Tire** (Aydın sancağının merkezi) · **Manisa** (Saruhan merkezi) |
+| **MODERN İL MERKEZİ GERİYE TAŞINMIŞ** — İzmir 1841'e kadar kaza | **5** | Ayasuluk · Aydın · Birgi · Söke · Çeşme |
+| **ADA — aslında Cezâyir-i Bahr-i Sefîd** (parti 2-3'te ölçüldü) | **7** | Midilli · Molova · Sisam · Nikarya · Fornoz · İpsara · Andros |
+| **`kd:` ile ZATEN DÜZELTİLDİ** (ama `m:` alanı hâlâ İzmir) | **4** | Bergama → Bursa/Balıkesir/Manisa · Denizli → Kütahya · Sakız → Gelibolu · Andros → (k:2, m:null) |
+| **`kd:` İzmir'i taşıyor** (ben yazdım, doğrulamadım) | **7** | Kuşadası + altı ada |
+
+*(Kümeler kesişir: Andros hem ada hem düzeltilmiş.)*
+
+## 37. BÜTÜN VERİ — üç veri-içi ölçüt (kaynak gerektirmez)
+
+`m:` taşıyan **827** kayıt üzerinde:
+
+| ölçüt | ne ölçer | sayı |
+|---|---|---|
+| **Ö1 TERS YÖN** | kaydın kendi `k:`si 1/2 (yani KENDİSİ merkez) olduğu hâlde `m:` taşıyor | **4** — Söğüt→Bursa · Prizren→Üsküb · Katsina→Kano · Zaria→Kano |
+| **Ö2 MERKEZ DEĞİL** | `m:`in gösterdiği kaydın `k:`si 1/2 DEĞİL | **32** |
+| **Ö3 ANAKRONİK** | merkez, kayıttan SONRA Osmanlı olmuş | **183** |
+| — | `m:` adı atlasta YOK | 4 |
+
+**Ö3'ün merkeze göre başı:** Bursa 31 · Edirne 19 · Yanya 12 · Hartum 12 ·
+İstanbul 10 · Halep 10 · İzmir 8 · Sivas 6 · Sofya 5 · Selanik 5 · İşkodra 5 ·
+Belgrad 5 · Kandiye 5 · Şehrizor 5 · Sana 5.
+
+⚠️ **Ö1'in sınırı, açıkça:** Eskişehir · İzmit · Tire · Manisa Ö1'e **girmiyor**,
+çünkü atlastaki `k:`leri 3/4. Onların sancak merkezi olduğunu **TDV söylüyor, veri
+söylemiyor** — yani o beş vakanın dördü **veri içi ölçütle görünmez**. Ö1 veri
+içindeki çelişkiyi ölçer; kaynak-veri çelişkisini ölçmez.
+
+## 38. 🔴 YENİ BULGU — `kd:` ile `m:` artık ÇELİŞEN 7 kayıt, ve motor `m:`i okuyor
+
+| kayıt | `m:` (motorun okuduğu) | `kd:` (denetimin okuduğu) |
+|---|---|---|
+| Bergama | İzmir | Bursa · Balıkesir · Manisa |
+| Denizli | İzmir | Kütahya |
+| Sakız | İzmir | Gelibolu |
+| Eğriboz | Mora (Tripoliçe) | Gelibolu |
+| Nakşa | Rodos | Gelibolu |
+| Sohum | Trabzon | Batum |
+| Özi | Silistre | Akkirman *(benden önce vardı)* |
+
+Altısını ben yarattım: `kd:`ye kaynaklı merkezi yazdım, `m:` alanına dokunma
+yetkim yok. Sonuç: **denetim doğru merkezi, motor eski merkezi görüyor** —
+`uret_petek.py` `y["m"]`i BÖLGELER katmanında kullanıyor (§24b), yani Bergama
+bölge sınırında hâlâ İzmir'in altında toplanıyor. Kusur değil, **bilinçli bir
+ayrışma**; ama `m:` düzeltmesi yapılana kadar duruyor ve kaydı bu rapora geçiyorum.
+
+## 39. İKİNCİ LİSTE — `denetim/KD-ZAMAN-M-SUPHELI-0921.md`
+
+**168 kayıt:** `kd:` yazılmış ve pencerelerinden biri bugünkü `m:`i **aynen**
+taşıyor, ve merkezi bir TDV cümlesiyle açıkça doğrulanmamış. Yani *"ölçü düzeldi,
+bağ doğrulanmadı"* kovası. Her satırda Ö1/Ö2/Ö3 işaretleri var.
+
+Bu liste `KD-ZAMAN-EKSEN-BEKLIYOR-0921.md`ten **farklı bir şeyi** taşıyor:
+öteki `d:` başlangıcının kaynaksızlığını, bu `m:` bağının doğrulanmamışlığını.
+İkisi birlikte, `kd:` yamasının **ne yapmadığının** tam kaydıdır.
+
+---
+
 ### Parti 8'in yol boyunca çıkan iki sorusu (benim kalemim değil, bildiriyorum)
 1. **Söğüt'ün `k:`si 1** — yani "eyalet merkezi" kademesi — ama `m:"Bursa"`.
    `kd:`ye kaydın kendi değerini taşıdım (uydurmamak için), ama k:1 bir yerleşimin
