@@ -146216,5 +146216,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4736",
+  "zaman": "2026-09-20 16:44",
+  "kimden": "EKOKUMA-SIMGE-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 2 · EKOKUMA-SIMGE-0070 · PARTI 2 + M-4733 TOPLU OLCUMU VE UC SECENEK rapor: denetim/YER-GENISLETME-0920.md §6-§8 · alet: denetim/ARAC-YER-GENISLETME-0920.py --toplu (1) NE OLCTUM · PARTI 2 (15 satir islendi): 4 madde yamalandi, 2 satir kapandi. Eklenenler: Bitlis (TDV bitlis, \"Caldiran Seferi donusunde (1514) Idris-i Bitlisi'nin gayretleriyle …\") · Palu (TDV biyikli-mehmed-pasa, \"Mardin muhasarasi surerken … Harput, Cermik, Ergani, Palu ve Sincar ele gecirildi\") · Erbil (TDV erbil, \"Irakeyn Seferi sirasinda (1535) Bagdat'la birlikte\") · Derne (TDV derne, \"1551'de Osmanli idaresine gecti\"). Olculemedi: Cemisgezek · Kifri · Tuz Hurmatu · Segedin · Halepce · Erbil(1638) · Nitra · Sloboda bozkiri. SINIF ② (yeni madde gerekir, yer genisletme YANLIS arac): Helsinki 1550 · Kazan/Simbirsk 1552 · Tambov 1636 · Ostersund 1645 · Maskat/Suhar/Sur 1650 · Timbuktu 1591. · ONGORU ONCE YAZILDI: \"1515-09-15 ve 1551-08-15 kapanir, 1516-05-01 ve 1534-12-04 acik kalir, 183 -> 181.\" OLCUM: denetle.py \"Degismez 2s 181 ACIK (tavan 195)\" · SONUC: temiz. Tuttu. TOPLAM (parti 1+2): 30 satir islendi, 6 satir kapandi, 10 yerlesim adi + 1 kanonik duzeltme. · M-4733 md.1 TOPLU OLCUM (11+ yerlesimli 30 satir) — aletin --toplu kipi: taraf cifti TEK olan (tek devir): 13 · cok ciftli: 17 pencerede TARAFLARINI ANAN madde VAR (olay anlatilmis): 16 ⇒ care yer/kapsam beyani pencerede taraflarini anan madde YOK (olay yazilmamis): 14 ⇒ care YENI MADDE 🔴 Asil ayrim \"kac cift\" degil \"olay anlatilmis mi\". Cok ciftli olmak yigilma demek degil: Berlin (5 cift), Karlofca (3), Lozan (2), Kucuk Kaynarca (3), Polonya III (3) TEK olaydir, alicisi coktur. Buna karsilik TEK ciftli 1547-01-16 (moskova→rusya, 23 yerlesim) tek olayin sonucu degil kunye degisiminin ayni gune yigilmasidir; penceresindeki madde \"Uskudar Iskele Kulliyesi'nin tamamlanmasi\"dir. ② sinifindan ornekler: 1917-03-15 ve 1917-11-07 (Rus ihtilalleri, 367'ser yerlesim) · 1813-10-24 kacar→rusya 15 yerlesim = GULISTAN ANTLASMASI'nin maddesi HIC YOK · 1478-01-15 novgorod→moskova 11 · 1921-10-13 sovyet-rusya→tbmm 13. ⚠️ Olcutun siniri: taraf testi `eski` ya da `yeni` BOS olan devirlerde (\"—→italya\") zayif; 1923 Lozan satiri bu yuzden ② cikti, oysa penceresinde Lozan maddesi var. ② sayisi EN FAZLA 14, gercek deger biraz daha dusuk olabilir. (2) NE BULAMADIM · Segedin: TDV Osmanli idaresini 1541-43 basina baglıyor, Estergon seferiyle bag KURMUYOR — atlasin 1543-08-10 gunu ayri bir soru (bildiriyorum, dokunmadim). · Halepce icin TDV'de madde yok; Nitra Uyvar maddesinde gecmiyor; Cemisgezek Biyikli Mehmed Pasa cumlesinde yok (orada gecen \"Cermik\" baska yerdir). (3) NE ISTIYORUM — UC SECENEK (karar Emre'nin, semaya DOKUNMADIM) (a) Maddeye KAPSAM BEYANI alani: kapsam:{taraf:\"musa-celebi→mehmed-celebi\", bolge:\"Rumeli\"}. Yalniz BEYAN EDILEN taraf ciftine uyan kirilmalari kapatir. Veri maliyeti: bugun 16 maddeye birer alan + VERI-YAPISI.md notu + denetle.py 2s koluna ~20 satir. Yanlis kapanis riski DUSUK-ORTA (taraf cifti sarti olmazsa \"Rumeli\" beyani bolgedeki HER kirilmayi kapatir — Mankup 1349 mekanizmasinin kardesi). Gevsetme DEGIL: kapatan sey \"yakinlik\" degil \"beyan\" olur. (b) Denetimin toplu olayda bolge/taraf eslesmesini yeterli saymasi. Veri maliyeti SIFIR. Yanlis kapanis riski YUKSEK ve BU ACIKCA BIR GEVSETMEDIR — 20 Eylul'de tam bu gevseklik kaldirildi (_2s_merkez_aniyor daraltmasi, DENETIM-KAPI-0920.md). ONERMIYORUM. (c) Yerlesim tarafinda beyan (donem kaydina \"bu devri su madde aciklar\"). Veri maliyeti YUKSEK: 30 satir ≈ 1400 yerlesim donemi. Yanlis kapanis riski DUSUK ama BAYATLAMA riski yuksek (madde adi degisince 1400 beyan sessizce yanlisa doner). ONERIM: (a), taraf-cifti sartiyla ve YALNIZ ① sinifindaki 16 satir icin. ② sinifindaki 14 satir bunlarin hicbiriyle cozulmez — oradaki eksik gercek KRONOLOJI BOSLUGUDUR (Gulistan Antlasmasi ornegi) ve ayri bir madde-yazma sevki ister. · COMMIT DENEMEDIM. Parti 2'de degisen: data/olaylar.js · data/olaylar_ek.js · data/olaylar_ek5.js · denetim/ARAC-YER-GENISLETME-0920.py · denetim/YER-GENISLETME-0920.md. · Parti 3'e (1-3 kovasindan 15 satir daha) devam ediyorum; aksi hukum verirsen dururum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
