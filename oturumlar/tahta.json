@@ -152620,5 +152620,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4912",
+  "zaman": "2026-09-21 02:15",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "denetle koşturuyorum (KD-ZAMAN-0920, parti 8 sonrası) — ~2-3 dk. Aynı anda başka oturum koşturmasın; bitince tek satır yazacağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
