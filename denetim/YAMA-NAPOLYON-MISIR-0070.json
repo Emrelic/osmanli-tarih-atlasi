@@ -1,0 +1,102 @@
+{
+ "_NOT": "NAPOLYON-MISIR (oturum SEFER-OK-0070) · 20 Eylül 2026 · koordinatör 1.MURAT (M-4724). Paket 0070 H-0002, görsel ClaudEmre/kutu/giden/parti-emrelic-0070/H-0002-1.png (kesit 1798-07-01). VERİYE YAZILMADI — öneridir; şartname (DALGA-0070 §5) yamanın ancak onaydan sonra uygulanmasını söylüyor. Ölçüm: denetim/ARAC-NAPOLYON-MISIR-0070.py + denetim/OLCUM-NAPOLYON-MISIR-0070.json. Rapor: denetim/NAPOLYON-MISIR-0070.md",
+
+ "olculen_kusur": {
+  "ozet": "Mısır kutusundaki (lat 21–32,5 · lon 24–36,5) 70 yerleşimin 8'inde işgal kaydı var. Bunların YEDİSİ tek bir blok tarih taşıyor: f=1798-07-01, t=1801-10-09, kaynak alanı yalnız 'kahire'. Sekizincisi (El-Arîş) ayrı ve DOĞRU.",
+  "blok_kayit": ["İskenderiye", "Kahire", "Reşîd (Rosetta)", "Dimyat", "Süveyş", "Asyut", "Sina güneyi"],
+  "nicin_kusur": "Fransız ordusu 1 Temmuz 1798'de İskenderiye yakınında karaya çıktı. O gün Kahire, Süveyş, Asyut ve Sina Fransız denetiminde DEĞİLDİ — Kahire 22 Temmuz'da teslim oldu, Süveyş 8 Kasım'da işgal edildi, Yukarı Mısır'a Desaix Ağustos sonunda yürüdü, Sina'nın kuzey kapısı El-Arîş 18 Şubat 1799'da alındı. Emre'nin görselinde 1798-07-01 kesitinde Sina yarımadası, Süveyş ve Yukarı Mısır'ın taralı görünmesinin sebebi budur.",
+  "ikinci_kusur": "Bitiş günü de tek blok (1801-10-09) ve kaynaksız. Fransız kuvvetleri Mısır'ı şehir şehir teslim etti: Kahire 27 Haziran 1801 (Belliard), İskenderiye 31 Ağustos 1801 (Menou).",
+  "ucuncu_kusur": "Yedi kaydın `kaynak` alanı 'kahire' — yani TDV'nin Kahire maddesi Asyut'un, Süveyş'in ve Sina'nın işgal gününe dayanak yapılmış. CLAUDE.md §4: bölgeden şehre taşınan hüküm dayanak olamaz."
+ },
+
+ "kaynaklar": {
+  "TDV-iskenderiye": "https://islamansiklopedisi.org.tr/iskenderiye — AYNEN: \"30 Haziran 1798'de Fransızlar İskenderiye'yi kuşatıp ele geçirdiler\"",
+  "TDV-aris": "https://islamansiklopedisi.org.tr/aris — AYNEN: \"18 Şubat 1799'da Napolyon tarafından işgal edilen Arîş'i aynı yılın 17 Kasımında Osmanlılar özel bir anlaşmayla geri aldılar.\"",
+  "TDV-dimyat": "https://islamansiklopedisi.org.tr/dimyat — AYNEN: \"1798'de Fransa'nın Mısır'a saldırısı esnasında Dimyat yine önemli siyasî olaylara sahne oldu. Fransızlar aynı yıl Dimyat'ı alarak Mısır topraklarında ilerlediler.\" (GÜN YOK)",
+  "TDV-kahire": "https://islamansiklopedisi.org.tr/kahire — Fransız işgali için GÜN VERMİYOR (yalnız \"Napolyon Bonapart'ın 1798'de Mısır'ı işgal etmesiyle birlikte Kahire tarihinde yeni bir dönem başladı\")",
+  "TDV-suveys": "https://islamansiklopedisi.org.tr/suveys — işgal/alınış için gövdede tarih YOK (yalnız kanal çalışmalarına atıf)",
+  "TDV-asyut": "https://islamansiklopedisi.org.tr/asyut — 1798-1801 Fransız işgali gövdede YOK",
+  "TDV-resid": "Mısır'daki Reşîd (Rosetta) için TDV'de MADDE YOK (arama: \"Reşîd Rosetta için madde başlıklarında sonuç bulunamadı\")",
+  "NAPO-2": "Fondation Napoléon, «Chronologie de la Correspondance générale de Napoléon Bonaparte, tome 2 — La campagne d'Égypte et l'avènement, 1798-1799» (Fayard 2005 cildinin kronolojisi), napoleon.org. AYNEN: \"1er JUILLET … Débarquement des troupes françaises dans l'anse de Marabout près du port d'Alexandrie\" · \"2 JUILLET … Napoléon prend Alexandrie\" · \"22 JUILLET … Capitulation du Caire\" · \"24 JUILLET … Napoléon entre au Caire\" · \"7 OCTOBRE … Victoire de Desaix sur Mourad-Bey à Sediman : les Français maîtrisent le Fayoum, au sud du Caire\" · \"8 NOVEMBRE … Eugène de Beauharnais occupe le port de Suez\" · \"1er FÉVRIER … Victoire de Desaix à Assouan\" · \"20 FÉVRIER … Napoléon et Kléber prennent le fort d'El-Arich\"",
+  "NAPO-3": "aynı dizi, tome 3 «Pacifications, 1800-1802», napoleon.org. AYNEN: \"Le général Belliard signe la capitulation des troupes françaises en Égypte\" (27 Haziran 1801) · \"À Alexandrie, Menou signe la capitulation de l'armée d'Orient\" (31 Ağustos 1801) · \"Début du rapatriement en France de l'armée d'Orient\" (2 Eylül 1801)"
+ },
+
+ "celiskiler": [
+  {
+   "konu": "İskenderiye'nin alınış günü",
+   "TDV": "30 Haziran 1798 (kuşatıp ele geçirdiler)",
+   "NAPO-2": "1 Temmuz çıkarma, 2 Temmuz \"Napoléon prend Alexandrie\"",
+   "hukum": "CLAUDE.md §4 — Osmanlı coğrafyasında TDV birincildir; f: 1798-06-30 önerilir. Fark BİLDİRİLİYOR, gizlenmiyor.",
+   "onerilen": "1798-06-30"
+  },
+  {
+   "konu": "El-Arîş'in alınış günü",
+   "TDV": "18 Şubat 1799",
+   "NAPO-2": "20 Şubat 1799 (\"prennent le fort d'El-Arich\")",
+   "hukum": "TDV esas; veride ZATEN 1799-02-18 yazıyor — DOKUNULMUYOR.",
+   "onerilen": "değişiklik yok"
+  }
+ ],
+
+ "yama": [
+  {
+   "yerlesim": "İskenderiye", "alan": "isg[0]",
+   "eski": {"f": "1798-07-01", "t": "1801-10-09", "d": "fransa-cumhuriyet", "kaynak": "kahire"},
+   "yeni": {"f": "1798-06-30", "t": "1801-08-31", "d": "fransa-cumhuriyet",
+            "kaynak": "TDV iskenderiye — \"30 Haziran 1798'de Fransızlar İskenderiye'yi kuşatıp ele geçirdiler\" · bitiş: NAPO-3 (Fondation Napoléon, tome 3) 31 Ağustos 1801 \"À Alexandrie, Menou signe la capitulation de l'armée d'Orient\" · NAPO-2 çıkarmayı 1, alınışı 2 Temmuz gösterir; TDV esas alındı (§4)"},
+   "guven": "YÜKSEK — iki uç da kaynaklı"
+  },
+  {
+   "yerlesim": "Kahire", "alan": "isg[0]",
+   "eski": {"f": "1798-07-01", "t": "1801-10-09", "d": "fransa-cumhuriyet", "kaynak": "kahire"},
+   "yeni": {"f": "1798-07-22", "t": "1801-06-27", "d": "fransa-cumhuriyet",
+            "kaynak": "NAPO-2 (Fondation Napoléon, tome 2) \"22 JUILLET … Capitulation du Caire\" (Napolyon şehre 24 Temmuz'da girdi: \"24 JUILLET … Napoléon entre au Caire\"; fiilî teslim günü alındı) · bitiş: NAPO-3 27 Haziran 1801 \"Le général Belliard signe la capitulation des troupes françaises en Égypte\" · TDV kahire bu olaylara gün VERMİYOR"},
+   "guven": "YÜKSEK — iki uç da kaynaklı; f için 22 (teslim) ile 24 (giriş) arasında seçim yapıldı, ikisi de kaynakta"
+  },
+  {
+   "yerlesim": "Süveyş", "alan": "isg[0]",
+   "eski": {"f": "1798-07-01", "t": "1801-10-09", "d": "fransa-cumhuriyet", "kaynak": "kahire"},
+   "yeni": {"f": "1798-11-08", "t": "1801-06-27", "d": "fransa-cumhuriyet",
+            "kaynak": "NAPO-2 \"8 NOVEMBRE … Eugène de Beauharnais occupe le port de Suez\" · bitiş: Kahire kapitülasyonu (NAPO-3, 27 Haziran 1801) devralındı — Süveyş'in kendi tahliye günü OKUNAN KAYNAKLARDA YOK, devralma AÇIKÇA yazılıyor"},
+   "guven": "f YÜKSEK · t DEVRALINMIŞ (kaynaksızlığı bildiriliyor)"
+  },
+  {
+   "yerlesim": "Sina güneyi", "alan": "isg[0]",
+   "eski": {"f": "1798-07-01", "t": "1801-10-09", "d": "fransa-cumhuriyet", "kaynak": "kahire"},
+   "yeni": "KAYIT KALDIRILSIN (ya da Emre karar verirse El-Arîş penceresine daraltılsın: 1799-02-18 → 1799-11-17)",
+   "gerekce": "Güney Sina'da (Tûr) Fransız denetimine dair OKUNAN KAYNAKLARDA TEK CÜMLE YOK. TDV'nin 'tûr' maddesi Hz. Mûsâ'nın dağı hakkında, şehir değil. Fransızların Sina'daki tek kanıtlı noktası KUZEY Sina'daki El-Arîş kalesi (18 Şubat – 17 Kasım 1799, TDV aris) ve o kayıt veride ZATEN AYRI VE DOĞRU duruyor. Bugünkü kayıt bütün yarımadayı üç yıl boyunca işgal altında gösteriyor.",
+   "guven": "KALDIRMA ÖNERİSİ — kaynak yokluğu 'işgal yoktu' demez; ama mevcut kayıt da kaynaksız (kaynak: 'kahire'). Karar Emre'nin."
+  },
+  {
+   "yerlesim": "Asyut", "alan": "isg[0]",
+   "eski": {"f": "1798-07-01", "t": "1801-10-09", "d": "fransa-cumhuriyet", "kaynak": "kahire"},
+   "yeni": "BEKLESİN — f: için kaynak BULUNAMADI",
+   "gerekce": "1798-07-01'in YANLIŞ olduğu kesin: Desaix'in Yukarı Mısır seferi 25 Ağustos 1798'de Kahire'den başladı, Fayyum 7 Ekim'de, Asvan 1 Şubat 1799'da denetime girdi (NAPO-2). Asyut'un (Siout) kendi günü ne TDV asyut maddesinde ne NAPO-2 kronolojisinde geçiyor. Uydurma yapılmadı; kayıt DOKUNULMADAN bırakılıyor ve borç olarak yazılıyor.",
+   "guven": "BULUNAMADI"
+  },
+  {
+   "yerlesim": "Reşîd (Rosetta)", "alan": "isg[0]",
+   "eski": {"f": "1798-07-01", "t": "1801-10-09", "d": "fransa-cumhuriyet", "kaynak": "kahire"},
+   "yeni": "BEKLESİN — f: için kaynak BULUNAMADI",
+   "gerekce": "TDV'de Mısır'daki Reşîd için MADDE YOK (arama sonucu yukarıda). NAPO-2 kronolojisinde Rosetta/Rachid girişi yok. Okunan kaynaklarda gün bulunamadı.",
+   "guven": "BULUNAMADI"
+  },
+  {
+   "yerlesim": "Dimyat", "alan": "isg[0]",
+   "eski": {"f": "1798-07-01", "t": "1801-10-09", "d": "fransa-cumhuriyet", "kaynak": "kahire"},
+   "yeni": "BEKLESİN — TDV yalnız YIL veriyor",
+   "gerekce": "TDV dimyat: \"Fransızlar aynı yıl [1798] Dimyat'ı alarak Mısır topraklarında ilerlediler\" — ay/gün yok. §4: hassasiyet kaynağı aşamaz; 1798-07-01 sahte kesinliktir. Yıl hassasiyetiyle 1798-01-01 yazmak ise işgal penceresinin dışına düşer (Fransızlar Temmuz'da geldi). Bu yüzden karar koordinatörde: (a) kayıt dokunulmadan bekler, (b) f: 1798-07-01 KALIR ama kaynak alanına 'TDV dimyat — yıl; gün bulunamadı' yazılır (kaynaksızlığı beyan edilmiş sahte kesinlik), (c) akademik kaynak aranır (ayrı sevk).",
+   "guven": "BULUNAMADI (yıl var, gün yok)"
+  }
+ ],
+
+ "dokunulmayan": [
+  {"yerlesim": "El-Arîş", "kayit": {"f": "1799-02-18", "t": "1799-11-17", "d": "fransa-cumhuriyet", "kaynak": "aris"},
+   "hukum": "DOĞRU — TDV aris ile birebir uyuyor (18 Şubat 1799 işgal, 17 Kasım 1799 geri alınış). Dokunulmadı."}
+ ],
+
+ "olculemeyen": [
+  "Fransız denetiminin KIRSAL yayılımı: veri yalnız 8 yerleşim noktası taşıyor; petek motoru sahipliği en yakın noktadan türettiği için Sina güneyi ve Asyut kayıtları bütün bölgeyi boyuyor. Kayıt sayısı arttıkça (Reşîd, Menzile, Benhâ, Feyyûm…) gösterim de incelir — ayrı sevk.",
+  "1801 tahliyesinin şehir şehir günleri (Dimyat, Reşîd, Süveyş): okunan kaynaklarda yok."
+ ]
+}

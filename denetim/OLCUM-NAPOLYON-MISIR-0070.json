@@ -1,0 +1,421 @@
+{
+ "olcum": "NAPOLYON-MISIR-0070",
+ "tarih": "2026-09-20",
+ "kutu": {
+  "lat1": 21.0,
+  "lat2": 32.5,
+  "lon1": 24.0,
+  "lon2": 36.5
+ },
+ "pencere": [
+  "1797-01-01",
+  "1802-12-31"
+ ],
+ "kutudaki_yerlesim": 70,
+ "isgal_kaydi": 8,
+ "sahiplik_kaydi": 0,
+ "sahip_dagilimi": {},
+ "isgal_baslangic_dagilimi": {
+  "1798-07-01": 7,
+  "1799-02-18": 1
+ },
+ "kesitler": {
+  "1798-07-01": [
+   {
+    "ad": "Kahire",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "İskenderiye",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Dimyat",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Asyut",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Süveyş",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Sina güneyi",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "1798-07-21": [
+   {
+    "ad": "Kahire",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "İskenderiye",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Dimyat",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Asyut",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Süveyş",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Sina güneyi",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "1798-07-24": [
+   {
+    "ad": "Kahire",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "İskenderiye",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Dimyat",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Asyut",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Süveyş",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Sina güneyi",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "1798-08-25": [
+   {
+    "ad": "Kahire",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "İskenderiye",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Dimyat",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Asyut",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Süveyş",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Sina güneyi",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "1799-02-20": [
+   {
+    "ad": "Kahire",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "İskenderiye",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Dimyat",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Asyut",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Süveyş",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Sina güneyi",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "El-Arîş",
+    "f": "1799-02-18",
+    "t": "1799-11-17",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "1800-03-20": [
+   {
+    "ad": "Kahire",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "İskenderiye",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Dimyat",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Asyut",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Süveyş",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Sina güneyi",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "1801-09-02": [
+   {
+    "ad": "Kahire",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "İskenderiye",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Dimyat",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Asyut",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Süveyş",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Sina güneyi",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "f": "1798-07-01",
+    "t": "1801-10-09",
+    "d": "fransa-cumhuriyet"
+   }
+  ]
+ },
+ "kesit_sayilari": {
+  "1798-07-01": 7,
+  "1798-07-21": 7,
+  "1798-07-24": 7,
+  "1798-08-25": 7,
+  "1799-02-20": 8,
+  "1800-03-20": 7,
+  "1801-09-02": 7
+ },
+ "isgal_tamami": [
+  {
+   "ad": "Asyut",
+   "lat": 27.181,
+   "lon": 31.183,
+   "f": "1798-07-01",
+   "t": "1801-10-09",
+   "d": "fransa-cumhuriyet",
+   "kaynak": "kahire"
+  },
+  {
+   "ad": "Dimyat",
+   "lat": 31.418,
+   "lon": 31.814,
+   "f": "1798-07-01",
+   "t": "1801-10-09",
+   "d": "fransa-cumhuriyet",
+   "kaynak": "kahire"
+  },
+  {
+   "ad": "Kahire",
+   "lat": 30.047,
+   "lon": 31.243,
+   "f": "1798-07-01",
+   "t": "1801-10-09",
+   "d": "fransa-cumhuriyet",
+   "kaynak": "kahire"
+  },
+  {
+   "ad": "Reşîd (Rosetta)",
+   "lat": 31.399,
+   "lon": 30.417,
+   "f": "1798-07-01",
+   "t": "1801-10-09",
+   "d": "fransa-cumhuriyet",
+   "kaynak": "kahire"
+  },
+  {
+   "ad": "Sina güneyi",
+   "lat": 28.5,
+   "lon": 33.8,
+   "f": "1798-07-01",
+   "t": "1801-10-09",
+   "d": "fransa-cumhuriyet",
+   "kaynak": "kahire"
+  },
+  {
+   "ad": "Süveyş",
+   "lat": 29.974,
+   "lon": 32.548,
+   "f": "1798-07-01",
+   "t": "1801-10-09",
+   "d": "fransa-cumhuriyet",
+   "kaynak": "kahire"
+  },
+  {
+   "ad": "İskenderiye",
+   "lat": 31.2,
+   "lon": 29.919,
+   "f": "1798-07-01",
+   "t": "1801-10-09",
+   "d": "fransa-cumhuriyet",
+   "kaynak": "kahire"
+  },
+  {
+   "ad": "El-Arîş",
+   "lat": 31.132,
+   "lon": 33.798,
+   "f": "1799-02-18",
+   "t": "1799-11-17",
+   "d": "fransa-cumhuriyet",
+   "kaynak": "aris"
+  }
+ ]
+}
