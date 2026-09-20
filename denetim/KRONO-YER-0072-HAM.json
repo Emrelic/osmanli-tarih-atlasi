@@ -1,0 +1,936 @@
+{
+ "evren_dosya": 71,
+ "evren_madde": 1723,
+ "dosya_sayi": {
+  "olaylar.js": 81,
+  "olaylar_2s_0918.js": 20,
+  "olaylar_2s_0919.js": 71,
+  "olaylar_2s_0920.js": 16,
+  "olaylar_7a4170.js": 4,
+  "olaylar_amerika_0920.js": 24,
+  "olaylar_cukurova_0907.js": 6,
+  "olaylar_ebukir_0919.js": 2,
+  "olaylar_ek.js": 106,
+  "olaylar_ek10.js": 26,
+  "olaylar_ek11.js": 14,
+  "olaylar_ek12.js": 11,
+  "olaylar_ek13.js": 21,
+  "olaylar_ek14.js": 94,
+  "olaylar_ek15.js": 16,
+  "olaylar_ek16.js": 58,
+  "olaylar_ek17.js": 26,
+  "olaylar_ek18.js": 1,
+  "olaylar_ek19.js": 1,
+  "olaylar_ek2.js": 65,
+  "olaylar_ek20.js": 17,
+  "olaylar_ek21.js": 4,
+  "olaylar_ek22.js": 1,
+  "olaylar_ek3.js": 31,
+  "olaylar_ek4.js": 62,
+  "olaylar_ek5.js": 419,
+  "olaylar_ek6.js": 55,
+  "olaylar_ek7.js": 129,
+  "olaylar_ek8.js": 35,
+  "olaylar_ek9.js": 31,
+  "olaylar_kamerika.js": 11,
+  "olaylar_misir1801.js": 2,
+  "olaylar_ok104.js": 1,
+  "olaylar_ok106.js": 7,
+  "olaylar_ok107.js": 2,
+  "olaylar_ok109.js": 11,
+  "olaylar_ortadogu_0919.js": 3,
+  "olaylar_p0036.js": 3,
+  "olaylar_p0037.js": 1,
+  "olaylar_p0043a.js": 1,
+  "olaylar_p0043b.js": 1,
+  "olaylar_p0043kirim.js": 3,
+  "olaylar_p0044.js": 5,
+  "olaylar_p0047.js": 1,
+  "olaylar_p0048.js": 2,
+  "olaylar_p0049.js": 15,
+  "olaylar_p0050.js": 6,
+  "olaylar_p0051.js": 4,
+  "olaylar_p0052.js": 1,
+  "olaylar_p0053.js": 3,
+  "olaylar_p0055.js": 7,
+  "olaylar_p0056.js": 11,
+  "olaylar_p0057.js": 28,
+  "olaylar_p0057b.js": 7,
+  "olaylar_p0058.js": 6,
+  "olaylar_p0059.js": 1,
+  "olaylar_p0060.js": 5,
+  "olaylar_p0063.js": 12,
+  "olaylar_p0065.js": 3,
+  "olaylar_p0067.js": 1,
+  "olaylar_p0068.js": 6,
+  "olaylar_p0068b.js": 37,
+  "olaylar_p0069.js": 9,
+  "olaylar_p0917dunya.js": 11,
+  "olaylar_p0917kosu13.js": 29,
+  "olaylar_p0917taraf.js": 7,
+  "olaylar_senusi_0919.js": 5,
+  "olaylar_serhat.js": 3,
+  "olaylar_sessiz_borc_0919.js": 5,
+  "olaylar_sh110.js": 0,
+  "olaylar_sk105.js": 0
+ },
+ "kovalar": {
+  "yer_id çözüldü": 1552,
+  "yer_kon": 77,
+  "YER BAĞI YOK": 94
+ },
+ "konumsuz": [
+  {
+   "dosya": "olaylar.js",
+   "t": "1877-04",
+   "b": "93 Harbi (1877–78 Osmanlı-Rus Savaşı)",
+   "yer": "Tuna ve Kafkas cepheleri",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar.js",
+   "t": "1914-11",
+   "b": "I. Dünya Savaşı'na giriş",
+   "yer": "Karadeniz / İstanbul",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "t": "1330-01-01",
+   "b": "Osmanlı-Aydın-Saruhan ittifakı",
+   "yer": "Batı Anadolu",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "t": "1305-06-01",
+   "b": "Katalan birliklerinin Anadolu seferi",
+   "yer": "Batı Anadolu",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek.js",
+   "t": "1421-08-15",
+   "b": "Düzmece Mustafa ayaklanması",
+   "yer": "Rumeli",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek10.js",
+   "t": "1594-08-28",
+   "b": "Üç voyvodalığın ayaklanması başlıyor — Erdel Kutsal İttifak'a geçti, O",
+   "yer": "Erdel, Eflak ve Boğdan voyvodalıkları",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": true
+  },
+  {
+   "dosya": "olaylar_ek10.js",
+   "t": "1912-10-23",
+   "b": "Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selân",
+   "yer": "Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "t": "1432-06-01",
+   "b": "Tımar sisteminin kurumsallaşması",
+   "yer": "(genel, merkezi Osmanlı toprakları)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "t": "1421-06-01",
+   "b": "Devşirme sisteminin fiilen uygulanmaya başlaması",
+   "yer": "(genel)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "t": "1830-12-01",
+   "b": "Osmanlı'da ilk düzenli nüfus sayımının yapılması",
+   "yer": "Anadolu ve Rumeli",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "t": "1859-06-01",
+   "b": "Kırım Tatarları ve Kafkas halklarının Osmanlı topraklarına büyük göç d",
+   "yer": "Kırım, Kafkasya → Osmanlı toprakları",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek14.js",
+   "t": "1864-07-01",
+   "b": "Büyük Çerkes Sürgünü'nün doruk noktası",
+   "yer": "Kafkasya → Osmanlı toprakları (Anadolu, Balkanlar, Suriye)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek20.js",
+   "t": "1648-10-24",
+   "b": "Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliğ",
+   "yer": "Münster ve Osnabrück",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek3.js",
+   "t": "1402-08-01",
+   "b": "Şehzadeler arasında ülkenin bölünmesi",
+   "yer": "Anadolu ve Rumeli",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek4.js",
+   "t": "1816-09-01",
+   "b": "İbrâhim Paşa Necid seferine çıktı",
+   "yer": "Necid",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek4.js",
+   "t": "1841-02-25",
+   "b": "Mısır ordusu Suriye ve Çukurova'yı boşalttı",
+   "yer": "Suriye, Adana, Girit",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1821-02-22",
+   "b": "Eflak İsyanı — Ypsilanti'nin Prut'u geçmesi ve Vladimirescu ayaklanmas",
+   "yer": "Eflak (Bükreş ve Yaş)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1827-02-01",
+   "b": "Tımar sisteminin tasfiyesi",
+   "yer": "Rumeli ve Anadolu (53 sancak)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1828-04-26",
+   "b": "1828-1829 Osmanlı-Rus Savaşı'nın başlaması",
+   "yer": "Tuna ve Kafkas cepheleri",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1860-05-30",
+   "b": "Cebel-i Lübnan'da Dürzî-Mârûnî iç savaşı ve Şam olayları",
+   "yer": "Cebel-i Lübnan, Şam",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1861-06-09",
+   "b": "Cebel-i Lübnan Nizamnâmesi: Lübnan'a imtiyazlı mutasarrıflık statüsü",
+   "yer": "Cebel-i Lübnan",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1868-01-04",
+   "b": "Girit Nizamnâmesi: adaya geniş idarî imtiyazlar",
+   "yer": "Girit (Hanya, Kandiye)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1903-10-02",
+   "b": "Mürzsteg Programı: Makedonya'da uluslararası reform denetimi",
+   "yer": "Makedonya (Selanik, Manastır, Kosova vilâyetleri)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1910-04-01",
+   "b": "Arnavutluk İsyanı: Kosova ve İşkodra'da silahlı direniş",
+   "yer": "Kosova, İşkodra, Priştine, Üsküp",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1913-06-29",
+   "b": "II. Balkan Savaşı'nın başlaması: müttefiklerin paylaşım kavgası",
+   "yer": "Makedonya, Trakya",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1914-10-29",
+   "b": "Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması",
+   "yer": "Odessa, Sivastopol, Novorossiysk (Karadeniz)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek5.js",
+   "t": "1915-05-27",
+   "b": "Sevk ve İskân (Tehcir) Kanunu'nun çıkarılması",
+   "yer": "Doğu Anadolu, Suriye, Musul",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek7.js",
+   "t": "1834-07-08",
+   "b": "Redif-i Asâkir-i Mansûre teşkilatı kuruldu",
+   "yer": "İstanbul ve taşra",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek7.js",
+   "t": "1387-11-01",
+   "b": "Timur'un İran'ın büyük bölümünü hakimiyeti altına alması",
+   "yer": "Horasan, Mâzenderan, İran'ın iç bölgeleri",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "t": "1819-11-01",
+   "b": "ʻAi Noa — Hawaii'de geleneksel kapu sisteminin sona erdirilmesi",
+   "yer": "Kailua-Kona, Hawaii adası",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "t": "1901-06-11",
+   "b": "Yeni Zelanda sınırları Cook Adaları ve Niue'yi kapsayacak şekilde geni",
+   "yer": "Rarotonga / Cook Adaları, Niue",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ek8.js",
+   "t": "1924-01-01",
+   "b": "Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayl",
+   "yer": "Hive, Buhara, Taşkent",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1918-10-28",
+   "b": "Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl dev",
+   "yer": "Prag, Bratislava, Kassa (Košice)",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1918-10-30",
+   "b": "Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeğ",
+   "yer": "Viyana, Graz",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1918-11-03",
+   "b": "Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento v",
+   "yer": "Padova (Villa Giusti), Trento, Trieste",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1918-11-11",
+   "b": "Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet h",
+   "yer": "Viyana, Budin, Prag, Zagreb, Belgrad, Erdel, Varşova",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1918-12-01",
+   "b": "Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün,",
+   "yer": "Belgrad, Zagreb, Saraybosna, Erdel, Suçava, Çernovitz",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1919-09-10",
+   "b": "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti",
+   "yer": "Saint-Germain-en-Laye, Viyana",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1920-06-04",
+   "b": "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti",
+   "yer": "Trianon (Versailles), Budapeşte",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1919-06-28",
+   "b": "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü",
+   "yer": "Versailles, Strazburg, Metz, Colmar, Mulhouse",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_ok109.js",
+   "t": "1919-11-27",
+   "b": "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybet",
+   "yer": "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
+   "yer_id": "",
+   "kapsam_genis": true,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0050.js",
+   "t": "1527-01-01",
+   "b": "Cetin Meclisi — Hırvat soyluları Mohaç'tan sonra Habsburg Ferdinand'ı ",
+   "yer": "Cetin (Cetingrad), Hırvatistan Krallığı ve Una-Kupa serhaddi",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0057b.js",
+   "t": "1431-01-01",
+   "b": "Bugüne ulaşan en eski tahrir defteri — Arvanid Sancağı Defteri",
+   "yer": "Arvanid Sancağı (Arnavutluk)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0057b.js",
+   "t": "1520-01-01",
+   "b": "Tarihçi Neşrî'nin ölümü",
+   "yer": "Bursa",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0057b.js",
+   "t": "1574-01-01",
+   "b": "Darüssaade ağalığı Bâbüssaâde ağalığından ayrılıp müstakil makam oldu",
+   "yer": "Topkapı Sarayı",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0057b.js",
+   "t": "1648-01-01",
+   "b": "Evliya Çelebi İznik'te çini imalathanesi sayısının dokuza düştüğünü ka",
+   "yer": "İznik",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0057b.js",
+   "t": "1702-01-01",
+   "b": "Naîmâ vakanüvis olarak tarihini Amcazâde Hüseyin Paşa'ya sundu",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0057b.js",
+   "t": "1734-01-01",
+   "b": "Naîmâ Tarihi (Ravzatü'l-Hüseyn) Müteferrika Matbaası'nda basıldı",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0057b.js",
+   "t": "1756-12-22",
+   "b": "Veliaht Şehzade Mehmed'in ölümü — zehirlenme iddiası tartışmalı",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0060.js",
+   "t": "1723-09-23",
+   "b": "Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyısı eyaletlerini Ru",
+   "yer": "St. Petersburg",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0063.js",
+   "t": "1734-05-31",
+   "b": "Nâdir'in Rus elçisi Golitsın'a tehdidi: Hazar eyaletleri ve Derbend ve",
+   "yer": "Nâdir'in karargâhı",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0063.js",
+   "t": "1735-08-23",
+   "b": "Kutsal Haç kalesinin yıkılması — Rus sınırı Terek'e çekildi, Kızlar ka",
+   "yer": "Sulak ırmağı, Kızlar (Terek)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0063.js",
+   "t": "1737-07-14",
+   "b": "Avusturya Osmanlı'ya savaş ilan etti — Rusya'nın yanında ikinci cephe",
+   "yer": "Viyana, Sırbistan-Bosna cephesi",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0063.js",
+   "t": "1738-08-17",
+   "b": "Adakale'nin Avusturya'dan alınışı",
+   "yer": "Adakale, Tuna",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1788-01-25",
+   "b": "Melek Mehmed Paşa'nın vezirlikten azli — barış yanlılarının tasfiyesi",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1788-02-22",
+   "b": "Serdâr-ı ekrem Koca Yûsuf Paşa'nın mutlak yetkiyle sefere çıkışı",
+   "yer": "İstanbul, Rumeli",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1788-05-10",
+   "b": "Cezayirli Gazi Hasan Paşa'nın donanmayla Karadeniz'e açılması",
+   "yer": "Karadeniz",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1788-01-01",
+   "b": "Yılan Adası (Fidonisi) deniz muharebesi",
+   "yer": "Yılan Adası, Karadeniz",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1789-05-01",
+   "b": "Kalas bozgunu",
+   "yer": "Kalas (Galaţi), Boğdan",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1789-06-07",
+   "b": "Koca Yûsuf Paşa'nın sadâretten azli",
+   "yer": "Ordugâh",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1789-08-01",
+   "b": "Fokşani bozgunu",
+   "yer": "Fokşani (Focşani), Eflak",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1789-09-22",
+   "b": "Rimnik (Boze) bozgunu",
+   "yer": "Rimnik ve Boza suyu, Eflak",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1789-10-11",
+   "b": "İsmâil Kalesi'nin teslimi (1789)",
+   "yer": "İsmâil, Tuna ağzı",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1789-12-03",
+   "b": "Cezayirli Gazi Hasan Paşa'nın sadrazam ve serdâr-ı ekrem tayini",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1790-03-30",
+   "b": "Serdâr-ı ekremin Şumnu ordugâhında vefatı — dört aylık sadâretin sonu",
+   "yer": "Şumnu",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1790-04-16",
+   "b": "Eski Hırsova'nın düşüşü — kış boyu süren muhasaranın sonu",
+   "yer": "Eski Hırsova, Tuna",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1790-01-01",
+   "b": "Kalafat çıkarması ve püskürtülmesi",
+   "yer": "Kalafat, Tuna",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1790-06-08",
+   "b": "Avusturya kuvvetlerinin Yergöğü'ye inişi ve püskürtülmesi",
+   "yer": "Yergöğü (Giurgiu), Tuna",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1789-01-01",
+   "b": "Akkirman'ın Ruslar tarafından ele geçirilmesi",
+   "yer": "Akkirman",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-01-01",
+   "b": "Rusların İbrâil kuşatması — kale alınamadı",
+   "yer": "İbrâil",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-02-27",
+   "b": "Koca Yûsuf Paşa'nın ikinci sadâreti — Şumnu ordugâhında göreve başlama",
+   "yer": "Şumnu",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-07-09",
+   "b": "Maçin bozgunu — barışı getiren yenilgi",
+   "yer": "Maçin, Tuna",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1790-09-06",
+   "b": "İstanbul meşveret meclisinin mütareke kararı — ön şartlardan vazgeçilm",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1790-09-18",
+   "b": "Yergöğü Mütarekesi — Avusturya cephesinde silahların susması",
+   "yer": "Yergöğü (Giurgiu)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1790-09-21",
+   "b": "Yergöğü Mütarekesi'nin Coburg tarafından imzalanması ve metinlerin müb",
+   "yer": "Yergöğü (Giurgiu)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-06-11",
+   "b": "Yergöğü Mütarekesi'nin sona ermesi — barışın aynı yaza sıkışması",
+   "yer": "Ziştovi",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-08-08",
+   "b": "Kalas'ta Vâsıf Efendi ile Prens Repnin arasında mütareke mutabakatı",
+   "yer": "Kalas (Galaţi)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-08-11",
+   "b": "Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes",
+   "yer": "Kalas (Galaţi)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1790-12-30",
+   "b": "Ziştovi barış konferansının açılışı",
+   "yer": "Ziştovi (Svishtov)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-06-10",
+   "b": "Ziştovi görüşmelerinin kesilmesi — Avusturya heyetinin Bükreş'e çekilm",
+   "yer": "Ziştovi, Bükreş",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-07-18",
+   "b": "Barış müzakerelerinin yeniden başlaması — Herbert'in Ziştovi'ye dönüşü",
+   "yer": "Ziştovi (Svishtov)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-08-12",
+   "b": "Ziştovi Antlaşması'nın padişah tarafından onaylanması",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-08-31",
+   "b": "Ziştovi tasdiknâmelerinin merasimle mübadelesi",
+   "yer": "Ziştovi (Svishtov)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-10-16",
+   "b": "Potemkin'in ölümü — Yaş görüşmelerinin Rus tarafında el değiştirmesi",
+   "yer": "Boğdan",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1791-11-10",
+   "b": "Yaş'ta Osmanlı-Rus müzakerelerinin başlaması",
+   "yer": "Yaş (Iaşi)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1792-01-07",
+   "b": "Yaş'ta on dördüncü oturum — Rusya'nın tazminat talebinden vazgeçmesi",
+   "yer": "Yaş (Iaşi)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1792-01-18",
+   "b": "Yaş Antlaşması'nın sadrazam senediyle onaylanması",
+   "yer": "Yaş (Iaşi)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1792-01-27",
+   "b": "Yaş'ta on altıncı oturum — teyidnâmelerin mübadelesi",
+   "yer": "Yaş (Iaşi)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1792-02-10",
+   "b": "Yaş tasdiknâmelerinin mübadelesi — barışın devletler hukukunda kesinle",
+   "yer": "Yaş (Iaşi)",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1792-05-03",
+   "b": "Koca Yûsuf Paşa'nın azli ve Trabzon valiliğine tayini",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0068b.js",
+   "t": "1792-05-04",
+   "b": "Melek Mehmed Paşa'nın sadârete tayini — ıslahat kadrosunun kurulması",
+   "yer": "İstanbul",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0917taraf.js",
+   "t": "1886-01-01",
+   "b": "Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın",
+   "yer": "Tunus-Trablusgarp sınırı",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0917taraf.js",
+   "t": "1892-01-01",
+   "b": "İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'",
+   "yer": "Tunus-Trablusgarp sınırı",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  },
+  {
+   "dosya": "olaylar_p0917taraf.js",
+   "t": "1906-10-01",
+   "b": "Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba ha",
+   "yer": "Refah, Sina",
+   "yer_id": "",
+   "kapsam_genis": false,
+   "odak": false
+  }
+ ],
+ "yer_id_cozulmez": [],
+ "kurtarma": {
+  "birebir": 17,
+  "ilk_parca": 19,
+  "tutmuyor": 58
+ }
+}
