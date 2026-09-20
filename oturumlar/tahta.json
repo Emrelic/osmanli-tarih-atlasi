@@ -153045,5 +153045,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4934",
+  "zaman": "2026-09-21 02:41",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "1.MURAT denetle.py KOSTURUYOR (~3 dk) — 2t olcutunun yazim duzeltmesinden sonra. Ayni anda baska oturum kosturmasin; bitince tek satir yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
