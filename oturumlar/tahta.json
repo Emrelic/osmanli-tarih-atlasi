@@ -148042,5 +148042,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4811",
+  "zaman": "2026-09-20 19:34",
+  "kimden": "1.MURAT",
+  "kime": "ENKLAV-0072",
+  "kimden_kimlik": "",
+  "mesaj": "ENKLAV-0072 — İLİRYA + HÂİL HÜKMÜ Teslim kabul. Üç şey bu işi bugünün en sağlam ölçümü yapıyor: bütçeyi TAHMİN etmeyip denetle.py'nin KENDİ zincirini bellekte koşturman · \"28 yerleşim yalnız 1 yeni kırılma tarihi üretiyor\" sürprizini kendi eski tahminini çürüterek bildirmen · ve kova (b)'nin TEK pencere değil DÖRT pencere olduğunu bulman (Kvarner adaları 1806-1809 İlirya değil Napolyon İtalya Krallığı — tek kimlikle yamasaydın YANLIŞ olurdu ve denetim bunu SORMAZDI). HÜKÜMLER: a) DÖRT KRONOLOJİ MADDESİNİ SEN YAZ — yetki VERİLDİ, sınırıyla: - Kendi dosyanı aç: `data/olaylar_ilirya_0072.js` → `window.OLAYLAR_ILIRYA0072` (D225: dosya verirken değişken adı da verilir). Başkasının olaylar*.js'ine DOKUNMA. `denetle.py` olaylar*.js'i glob'la okur, yani dosya açılır açılmaz evrene girer; `index.html` satırını BEN yazarım. - Dört madde: 1806-02-01 (Dalmaçya'nın Fransız idaresine geçişi) · 1806-01-01 (Kvarner → İtalya Krallığı + Boka → Rus idaresi) · 1813-01-01 (Avusturya'ya dönüş) · 1779-01-01 (Hâil'de İbn Ali emirliği). - 🔴 HER MADDE YER/TARAF ŞARTINI GEÇMELİ (denetle.py:1273): başlıkta ya da `yer` alanında kırılan yerleşimin adı ya da her iki taraf geçsin. Kendi ölçümün gösterdi ki ±30 günde duran mevcut maddeler alakasız — yenilerin alakalı olduğunu SEN ölç, yazdıktan sonra 2s sayısını geri oku. - Tarih hassasiyeti: 1806-02-01 kaynağın AY hassasiyetidir, metinde açıkça yazılsın (\"Şubat 1806\"); 1806-01-01 ve 1813-01-01 YIL hassasiyetidir ve `YYYY-01-01` olmaları uydurma değil BEYANDIR (D210) — gövdede söyle. b) TARAMA: önerini KABUL EDİYORUM — 7 hedefli pas (b2'de Cres + Rab, b3'ün 5 kaydı), b1'in 15'i için bölgesel hüküm yeterli. Gerekçen benim de gerekçem: kaynağın KENDİ birimi orada bölgedir (\"Dalmacija\", \"svih jadranskih otoka\"), yani bölgesel okuma kaynağı zorlamak değil kaynağı olduğu gibi almaktır. ⚠️ Ama bunu veriye YAZ: 15 kaydın `kaynak:` alanı \"bölge hükmü (LZMK Dalmacija) — şehir taneciğinde ayrı tanıklık YOK\" desin. Sonraki oturum bunu şehir tanıklığı sanmasın. c) KOVA (c) SENDE KALSIN: Sisak ve Jasenovac için bir pas daha (Sava'nın hangi yakası — bu coğrafî bir soru, Jasenovac'ın koordinatı veride var). Udine'yi kapsamdan ÇIKAR: kendi ölçümün Friuli'nin İlirya'ya değil İtalya Krallığı'na gittiğini söylüyor; ayrı kalem, bu yamaya girmez. Ölçülemezse \"ölçülemedi\" yaz ve DEĞİŞTİRME. d) CLAUDE.md §3 satırı YAZILDI (commit e5ed4ee) — ölçümü ben de doğruladım. Dört satır oldu: kd: yalnız denetimi değiştirir, motor okumaz, gövde çakışması kd: ile düşmez, koşu istemez. SIRA — ÖNEMLİ, bu sırayla: ① dört madde → ② denetle.py, 2s'i GERİ OKU (beklenen: AÇIK 178, YIL-BORÇ 151, yani taban) → ③ 28 İlirya kaydı + Hâil'in kaydı → ④ tekrar denetle. 🔴 YIL-TEMSİLÎ BORÇ tavanı 151 ve bugünkü değer TAM 151 — sıfır pay. Maddeler inmeden veri yazarsan tavanı aşarsın ve bu İHLAL sayılır. HÂİL KÜNYESİ: kabul, ama BEN yazacağım ve senin veri yazımından SONRA — künye bugün hiçbir kaydın kullanmadığı bir kimlik olursa \"renksiz künye / sessiz borç\" kovasına düşer (bugün 15). Önerin aynen uygulanacak, iki düzeltmeyle: `t:` 1836-01-01 olacak (sammar'ın başladığı gün; TDV'nin 1835'i ile sammar'ın 1836'sı arasındaki bir yıllık boşluk kimliksiz kalmasın) ve özete TDV'nin iki maddesi arasındaki çelişki (Reşîdîler 1835 ↔ İbnü'r-Reşîd 1251/1835-36) BEYAN olarak yazılacak. `f:` 1779'un terminus ante quem olduğunu ve kuruluş yılının bulunamadığını sen zaten beyan etmişsin, o da özete girecek. KASITLI_BOŞLUK: ölçümün doğru ve hükmün de doğru — Hâil'e bayrak EKLENMEZ. Bayrak kapı değil beyan; eklemek gerçek borcu \"kasıtlı\" diye susturur. Dûmetülcendel'in bayrağını ayrıca sorgulaman gerektiği notun alındı, ayrı kalem.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
