@@ -37,6 +37,8 @@
   var _zaman = [];        // bekleyen setTimeout'lar
   var _sahne = 0;         // sahne sayacı — eski sahnenin geç gelen callback'i yeniyi bozmasın
   var _varisBekleyen = null;
+  var _koser = false;     // sahne şu an akıyor mu
+  var _bitince = [];      // sahne bitince koşacaklar (Emre M-4714 §3: simge FAZ BİTİNCE)
 
   function _temizle() {
     for (var i = 0; i < _zaman.length; i++) clearTimeout(_zaman[i]);
@@ -77,7 +79,21 @@
 
     kayitliMi: function (faz) { return typeof _kayit[faz] === "function"; },
 
-    durdur: function () { _sahne++; _temizle(); },
+    durdur: function () { _sahne++; _temizle(); _koser = false; _bitince = []; },
+
+    koserMi: function () { return _koser; },
+
+    // 🔴 EMRE, 20 Eylül 2026 (M-4714 §3): *"SİMGE … faz bitince görünür, faz
+    // sırasında yanıp sönen başka bir şey olmaz."* Bu kanca o kuralın tek
+    // uygulama noktası: sahne akıyorsa fn sahnenin SONUNA alınır, akmıyorsa
+    // HEMEN koşar (sahnesiz maddede gecikme eklenmesin).
+    // ⚠️ Kuyruk sahne başına sıfırlanır — bir önceki maddenin bekleyen simgesi
+    // yeni maddenin sahnesine sarkmaz.
+    bitince: function (fn) {
+      if (typeof fn !== "function") return;
+      if (!_koser) { fn(); return; }
+      _bitince.push(fn);
+    },
 
     // Kamera olay yerine VARDI — bekleyen sahne tavanı beklemeden başlasın.
     // app.js'in tek varış kapısı `_varista()` bunu çağırır.
@@ -90,10 +106,16 @@
       opt = opt || {};
       this.durdur();
       var benim = ++_sahne, self = this;
+      _koser = true;
 
       function faz(ix) {
         if (benim !== _sahne) return;                  // yeni sahne başladı — bu ölü
-        if (ix >= SIRA.length) return;
+        if (ix >= SIRA.length) {                       // SAHNE BİTTİ
+          _koser = false;
+          var k = _bitince; _bitince = [];
+          k.forEach(function (f) { try { f(); } catch (e) { console.error("[anim] bitince", e); } });
+          return;
+        }
         var ad = SIRA[ix], fn = _kayit[ad];
         if (typeof fn !== "function") { faz(ix + 1); return; }
         var gecti = false;
@@ -109,11 +131,17 @@
         _gecikmeli(bitti, self.SABIT.FAZ_TAVAN_MS);                   // tavan: sahne asılı kalmasın
       }
 
-      // ODAK ADIMI — pasif kipte "sanki olmuş sayılır" (Emre, H-0008): kamera
-      // beklenmez, sahne kısa bir gecikmeyle başlar. Uçuş/ani kipte kameranın
-      // varışı beklenir; `varisBildir` gelmezse VARIS_TAVAN_MS sonra başlanır.
+      // 🔴 PASİF KİP — EMRE, 20 Eylül 2026 (M-4714 §5): *"PASİF kipte animasyon
+      // OYNAMAZ; son durum doğrudan gösterilir."* Sahne HİÇ koşmaz; yalnız
+      // `bitince` kuyruğu (simge/halka) hemen boşaltılır, çünkü simge animasyon
+      // değil DURUMDUR — pasifte de görünmesi gerekir.
+      // ⚠️ İlk yazımda burası sahneyi kısa gecikmeyle BAŞLATIYORDU (H-0008'in
+      // "atlanan yalnız ODAK adımıdır" okumasıyla). Emre hükmü verdi, okuma
+      // çürüdü; gerekçe app.js `_eleGecirmeSahnesi`de de yazılı.
       if (opt.varisBekle === false || !_ucusVarMi()) {
-        _gecikmeli(function () { faz(0); }, this.SABIT.PASIF_GECIKME_MS);
+        _koser = false;
+        var k = _bitince; _bitince = [];
+        k.forEach(function (f) { try { f(); } catch (e) { console.error("[anim] bitince", e); } });
         return;
       }
       _varisBekleyen = function () { if (benim === _sahne) faz(0); };

@@ -8492,6 +8492,17 @@ function obGoster(o) {
   try { antlasmaFarkiGoster(o, ozel); } catch (eAnt) { console.error("[antlaşma farkı]", eAnt); }
   // PAKET-UI3 İŞ 1 — antlaşma DEĞİLSE: yalnız bu maddenin değiştirdiği yerleşimler.
   try { maddeFarkiGoster(o, ozel); } catch (eMf) { console.error("[aynı gün farkı]", eMf); }
+  // 🔴 SAHNE TETİĞİ BURADA, ve NİÇİN BURADA olduğu ÖLÇÜLDÜ (20 Eylül 2026,
+  // ELE-GECIRME-ANIM-0070). İlk yazımda tetik `_farkKutusuCiz`in içindeydi —
+  // yani sahne YALNIZ el değiştirme kutusu çizilen maddelerde kuruluyordu.
+  // Sınav bunu yakaladı: "Piramitler Muharebesi ve Kahire'nin Fransızlarca
+  // alınması" (1798-07-21) maddesinde faz listesi BOŞ çıktı; o maddede toprak
+  // el değiştirmesi maddeye bağlanmıyor, dolayısıyla SEFER-OK-0070'in "ok"
+  // fazı da HİÇ KOŞMUYORDU. Oysa Emre'nin sahnesi (M-4714 §3) okla başlıyor.
+  // ⇒ Tetik HER maddede çalışır; hangi fazın oynayacağına fazların KENDİSİ
+  //   karar verir (yolu yoksa "ok" false döner, el değiştirme yoksa "vurus"
+  //   false döner). Boş sahne 0 ms sürer, görünür bir maliyeti yok.
+  try { _eleGecirmeSahnesi(); } catch (eSah) { console.error("[el değiştirme sahnesi]", eSah); }
   // PAKET-ISYAN — isyan taramasına bağlı maddelerde kaynaklı pencere özeti.
   try { isyanMaddeKutusu(o, ozel); } catch (eIsy) { console.error("[isyan taraması]", eIsy); }
   // Kişi kartları (o.kisiler) ve kartvizit (vefat_id) — PAKET-UI4: artık
@@ -8826,7 +8837,7 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
     _petekGovdeYukle(function () {
       if (!kutuEl.isConnected) return;               // bu arada başka madde açıldı
       ozellikleriKur();
-      if (ANT_FARK.madde === o) _antlasmaYukle(o, fsYerel);
+      if (ANT_FARK.madde === o) { _antlasmaYukle(o, fsYerel); _eleGecirmeSahnesi(); }
     });
   }
   ANT_FARK.fs = fsYerel;
@@ -8857,7 +8868,9 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
   ANT_FARK.dugmeler = { once: bOnce, sonra: bSonra };
   _antlasmaYukle(o, fsYerel);
   _antlasmaHal("yok");
-  _eleGecirmeSahnesi();
+  // ⚠️ Sahne burada BAŞLATILMIYOR — tetik `obGoster`ın sonunda, HER maddede
+  // (yukarıdaki gerekçe). Burada yalnız örtü kapatılıyor ki önceki maddenin
+  // rengi yeni maddenin sahnesine sarkmasın.
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -8897,8 +8910,29 @@ function _eleGecirmeFazlariniKaydet() {
 }
 function _eleGecirmeSahnesi() {
   _eleGecirmeFazlariniKaydet();
+  // 🔴 PASİF KİPTE ANİMASYON OYNAMAZ — EMRE, 20 Eylül 2026 (M-4714 §5):
+  //   *"PASİF kipte animasyon oynamaz; son durum doğrudan gösterilir."*
+  // ⚠️ BU BENİM ÖNCEKİ OKUMAMI ÇÜRÜTTÜ ve kayda geçsin: H-0008'in metnine
+  // dayanarak ("pasif modda … sanki bu odaklanma gerçekleşmiş gibi bu ADIM
+  // pas geçilecektir") atlananın yalnız ODAK olduğunu savunmuş, SEFER-OK-0070'e
+  // de öyle yazmıştım (M-4703 §③). Emre hükmü verdi: pasifte sahne HİÇ oynamaz.
+  // Son durum zaten haritanın kendi çizimidir; örtü kapalı tutuluyor.
+  if (typeof ucusAcik === "function" && !ucusAcik()) { _sahneBitisAni = 0; _antlasmaHal("yok"); return; }
   if (window.ANIM && typeof ANIM.sahnele === "function") { ANIM.sahnele(ANT_FARK.madde); return; }
+  // ANIM bağlı değil — aynı tablo, sabit gecikme. Sahnenin BİTİŞ ANI kaydediliyor
+  // ki simge (halka/glif) M-4714 §3'e göre yine sahneden SONRA görünsün.
+  var _toplam = 0;
+  eleGecirmeDizisi().forEach(function (a) { _toplam += a.ms; });
+  _sahneBitisAni = ((ANT_FARK.fs && ANT_FARK.fs.length) ? Date.now() + _ELE_GECIRME_ANIM_GECIKME + _toplam : 0);
   antlasmaFarkiKirp(_ELE_GECIRME_ANIM_GECIKME);
+}
+// Sahne bitince koşacak iş (simge/halka). ANIM varsa onun kuyruğu, yoksa
+// yukarıda hesaplanan bitiş anı — İKİ YOL, TEK KURAL (simge sahneden sonra).
+var _sahneBitisAni = 0;
+function _sahneBitince(fn) {
+  if (window.ANIM && typeof ANIM.bitince === "function") { ANIM.bitince(fn); return; }
+  var kalan = _sahneBitisAni - Date.now();
+  if (kalan > 0) setTimeout(fn, kalan); else fn();
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -10638,19 +10672,38 @@ function haritayiOlayaGotur(o, zorla) {
   // üçünü ayrı ayrı çağırmak, birini unutmanın kesin yoluydu.
   // 📌 `KAMERA` hakemi kamerayı tek kapıya toplamıştı; bu da VARIŞI topluyor.
   function _varista() {
-    isaretYanipSon(hedef, olayMuharebeTuru(o));   // NEREDE (halka) + NE (glif, H-0007)
-    // 🆕 13 Eylül 2026 — H-0006: savaş maddelerinde savaşın KENDİ simgesi de
-    // (kılıç/çapa/ateş — SAVAS_TUR_SIMGE) ayrıca 3 kez parlar; genel altın
-    // halkanın (`hedef`, yer_id/yer_kon'a bağlı) yanı sıra, savaşın kendi
-    // `savaslar.js` koordinatındaki işareti işaret eder.
-    if (o.k === "savas") savasIsaretiParlat(o.gi);
-    oncesiSonrasiKirp(o.gi);            // NE OLDUĞUNU söyler
-    panelCarp();                        // ADIM ATILDIĞINI söyler
+    panelCarp();                        // ADIM ATILDIĞINI söyler — anlatı değil, sinyal
     // 🆕 DALGA-0070 H-0008: kamera VARDI — el değiştirme sahnesi tavanı
     // beklemeden başlasın. Sahneyi burada KURMUYORUZ (onu `obGoster` yolundaki
     // `_farkKutusuCiz` kuruyor), yalnız "vardım" diyoruz; varış kapısı zaten
     // TEK ve burası (22 Ağustos notu, yukarıda).
     try { if (window.ANIM && ANIM.varisBildir) ANIM.varisBildir(); } catch (eAn) { }
+
+    // 🔴🔴 SIRA KURALI — EMRE, 20 Eylül 2026 (tahta M-4714, HERKES):
+    //   *"aynı maddede birden çok faz varsa SIRAYLA oynar, üst üste binmez —
+    //    ok ilerler → biter → bölge iki kez yanıp söner → üçüncüde yeni
+    //    sahibin rengi. SİMGE (deniz savaşı, olay alanı) FAZ BİTİNCE görünür,
+    //    faz sırasında yanıp sönen BAŞKA BİR ŞEY OLMAZ."*
+    //
+    // 🔴 BU SATIRLAR ESKİDEN BURADA, DOĞRUDAN KOŞUYORDU ve kural gelince
+    // ÇÜRÜDÜ: halka + savaş işareti + öncesi/sonrası kırpması varış anında
+    // hep birlikte başlıyor, el değiştirme vuruşlarıyla (ve SEFER-OK'un
+    // okuyla) ÜST ÜSTE BİNİYORDU. Şimdi hepsi sahnenin ARKASINA alındı.
+    // `ANIM.bitince` sahne yoksa/bitmişse HEMEN koşar — yani sahnesiz
+    // maddede davranış eskisinin AYNISI, gecikme eklenmiyor.
+    function _simgeVeAnlati() {
+      isaretYanipSon(hedef, olayMuharebeTuru(o));   // NEREDE (halka) + NE (glif, H-0007)
+      // 13 Eylül 2026 — H-0006: savaş maddelerinde savaşın KENDİ simgesi de
+      // (kılıç/çapa/ateş — SAVAS_TUR_SIMGE) ayrıca 3 kez parlar.
+      if (o.k === "savas") savasIsaretiParlat(o.gi);
+      // ⚠️ ÖNCESİ/SONRASI KIRPMASI (22 Ağustos) — el değiştirme vuruşları
+      // ZATEN oynadıysa KOŞMAZ: ikisi de "toprak el değiştirdi" diyor ve
+      // Emre'nin kuralı bir maddede EN ÇOK BİR yanıp sönme istiyor (M-4714 §4).
+      // Vuruş oynamayan maddelerde (ör. bağ kurulamayan 148 madde) kırpma
+      // ESKİSİ GİBİ koşar — sessiz adım bırakmıyoruz.
+      if (!(ANT_FARK.madde === o && ANT_FARK.fs && ANT_FARK.fs.length)) oncesiSonrasiKirp(o.gi);
+    }
+    _sahneBitince(_simgeVeAnlati);
   }
 
   if (_ekrandaMi(hedef, _kap) &&
@@ -12835,7 +12888,24 @@ var KATMAN_KUMESI = [
   //    ⇒ Ayrı kova + düğmenin kutuyu SENKRONLAMASI (bkz. `altlikGoster`).
   { anahtar: "altlik", ad: "Fizikî altlık", kalip: /^altlik$/ },
   { anahtar: "cografya", ad: "Coğrafya",  kalip: /^(zemin|g-)/ },
-  { anahtar: "yollar",   ad: "Yollar",    kalip: /^(koridor-|sefer-)/ },
+  // 🔴 HAREKÂT OKLARI KENDİ KOVASINDA — `yollar`DAN ÖNCE. 20 Eylül 2026,
+  // SEFER-OK-0070 (paket 0070 H-0006). Ve bu, H-0006'nın KÖK SEBEBİ:
+  //   ÖLÇÜLDÜ (denetim/ARAC-SEFER-OK-TESHIS-0070.js, headless Chrome):
+  //     kaynakta özellik 4 · katman var · filtre doğru · desen suçsuz
+  //     aynı veriyle çıplak sınav katmanı        → render 1
+  //     `sefer-cizgi-*` ve `sefer-kaynak`        → render 0
+  //     sebep: hepsinin `visibility` = "none"
+  //   Çünkü `sefer-` kalıbı `yollar` kovasındaydı ve o kutu (index.html
+  //   "③ Yollar ve koridorlar") varsayılan olarak KAPALI. Yani harekât okları
+  //   atlasın açılışında HİÇ görünmüyordu — veri de kod da yerindeyken.
+  //   Emre'nin "bütün sefer/harekât/işgal maddelerine ok koyalım" isteğinin
+  //   bir kısmı zaten yazılmıştı, yalnız EKRANA DÜŞMÜYORDU.
+  // ⚠️ SIRA ŞART (`katmanSinifla()` ilk eşleşmede döner): bu kova `yollar`dan
+  //   SONRA gelseydi kalıbı hiç çalışmazdı — `tani` kovasının vakasının aynısı.
+  // 📌 Kavramsal ayrım da bunu istiyor: koridor bir ALTYAPI (menzil yolları),
+  //   ok bir ANLATI öğesidir. Birini kapatmak ötekini kapatmamalı.
+  { anahtar: "harekat",  ad: "Harekât okları", kalip: /^sefer-/ },
+  { anahtar: "yollar",   ad: "Yollar",    kalip: /^koridor-/ },
   { anahtar: "siyasi",   ad: "Siyasî",
     // 🆕 `hukuki-sinir-` — C ÇİZİM KATMANI (11 Eylül 2026). devlet/vassal/
     // osmanli'nin ÜSTÜNE binen bölgesel düzeltme; kapatma/açma bakımından
