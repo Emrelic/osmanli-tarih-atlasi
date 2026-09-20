@@ -1,0 +1,156 @@
+{
+ "evren_madde": 5910,
+ "kart": 4,
+ "tanimsiz_tur": [],
+ "bag": [
+  {
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "bag": "1820-07-20|Sudan seferi",
+   "eslesen": 2,
+   "index_te_yuklu": 2,
+   "ornek": [
+    "data/kronoloji_misir.js:127 · Sudan seferinin başlaması",
+    "data/olaylar_ek4.js:101 · Sudan seferi başladı"
+   ]
+  },
+  {
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "bag": "1821-06-14|Sennâr",
+   "eslesen": 2,
+   "index_te_yuklu": 2,
+   "ornek": [
+    "data/kronoloji_misir.js:133 · Sennâr (Fûnc) Sultanlığı'nın teslimi",
+    "data/olaylar_ek4.js:109 · Sennâr (Fûnc) Sultanlığı teslim oldu"
+   ]
+  },
+  {
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "bag": "1818-09-09|Dir'iye",
+   "eslesen": 2,
+   "index_te_yuklu": 2,
+   "ornek": [
+    "data/kronoloji_misir.js:125 · Dir'iye'nin düşüşü — İlk Suûdî Devleti'nin sonu",
+    "data/olaylar_ek4.js:95 · Dir'iye düştü — ilk Suûdî Devleti sona erdi"
+   ]
+  },
+  {
+   "kart": "sebep-sonuc-bolge0073-misir-sudan-siyaseti",
+   "bag": "1885-01-26|Sudan",
+   "eslesen": 2,
+   "index_te_yuklu": 2,
+   "ornek": [
+    "data/kronoloji_misir.js:269 · Hartum'un düşüşü — Sudan'ın tamamının kaybı",
+    "data/olaylar_ek6.js:122 · Hartum'un düşüşü — Sudan'ın tamamının kaybı"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "bag": "1822-06-28|Girit",
+   "eslesen": 2,
+   "index_te_yuklu": 2,
+   "ornek": [
+    "data/kronoloji_misir.js:139 · Girit'e Mısır kuvvetlerinin çıkması",
+    "data/olaylar_ek4.js:123 · Girit'e Mısır kuvvetleri çıktı"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "bag": "1824-07-19|Mora",
+   "eslesen": 2,
+   "index_te_yuklu": 2,
+   "ornek": [
+    "data/kronoloji_misir.js:143 · II. Mahmud'un Mora için Mehmed Ali'den yardım istemesi",
+    "data/olaylar_ek4.js:127 · II. Mahmud Mora için Mehmed Ali'den yardım istedi"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-misir-osmanli-modernlesme",
+   "bag": "1826-06-18|Mansûre",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/olaylar_ek7.js:144 · Asâkir-i Mansûre-i Muhammediyye kuruldu"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-1821-osmanli-ordusu-nerede",
+   "bag": "1822-12-12|Anabolu",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/olaylar_ek6.js:99 · Anabolu'nun (Nauplion) isyancılara kaybı"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-1821-osmanli-ordusu-nerede",
+   "bag": "1824-07-19|Mora",
+   "eslesen": 2,
+   "index_te_yuklu": 2,
+   "ornek": [
+    "data/kronoloji_misir.js:143 · II. Mahmud'un Mora için Mehmed Ali'den yardım istemesi",
+    "data/olaylar_ek4.js:127 · II. Mahmud Mora için Mehmed Ali'den yardım istedi"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "bag": "1515-04-01|Hürmüz",
+   "eslesen": 2,
+   "index_te_yuklu": 2,
+   "ornek": [
+    "data/kronoloji_portekiz.js:224 · Hürmüz'ün ikinci kez alınması — Basra Körfezi'nin kilidi",
+    "data/olaylar_2s_0918.js:67 · Portekiz, Hürmüz Boğazı kıyılarındaki hâkimiyetini tamamladı"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "bag": "1552-08-01|Hürmüz",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/kronoloji_portekiz.js:308 · Pîrî Reis'in Hürmüz kuşatması — Portekiz kaleyi savundu"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "bag": "1622-04-23|Hürmüz",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/kronoloji_portekiz.js:347 · Hürmüz'ün kaybı — Safevî-İngiliz ortak seferi"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "bag": "1622-05-01|Hürmüz",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/kronoloji_iran.js:186 · Hürmüz'ün Portekiz'den geri alınması"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "bag": "1650-01-26|Maskat",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/kronoloji_arabistan.js:293 · Maskat, Portekiz'den geri alındı"
+   ]
+  },
+  {
+   "kart": "tartisma-bolge0073-hurmuz-bogazi-el-degistirme",
+   "bag": "1798-01-18|Maskat",
+   "eslesen": 1,
+   "index_te_yuklu": 1,
+   "ornek": [
+    "data/kronoloji_arabistan.js:347 · İngiltere ile 'kavilnâme' — Maskat'ta İngiliz temsilciliği açıldı"
+   ]
+  }
+ ],
+ "ozet": {
+  "toplam_bag": 15,
+  "tutan": 15,
+  "kopuk": 0,
+  "index_te_yuklu_olmayan": 0
+ }
+}
