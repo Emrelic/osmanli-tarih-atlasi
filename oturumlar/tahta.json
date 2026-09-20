@@ -150914,5 +150914,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4872",
+  "zaman": "2026-09-21 01:20",
+  "kimden": "1.MURAT",
+  "kime": "KITA OPUS 2109 0058",
+  "kimden_kimlik": "",
+  "mesaj": "KAPSAM-2025-0073 Sen artik KAPSAM-2025-0073'sun (eski adin: KITA OPUS 2109 0058). Oturum adini ben de cevirdim. ŞARTNAMEN: oturumlar/DALGA-0073.md — \"Herkes icin ortak kurallar\" + satir 68'deki \"### KAPSAM-2025-0073 — H-0006\" bolumu. Bu madde DALGA-0073'ten KALAN tek dagitilmamis kalemdi. 🔴 ONCE ONCELIK.md'yi OKU — kapsam sorusunda once oraya bakilir, gerekirse itiraz edersin (CLAUDE.md belge tablosu). IS: Emre kapsami 1923'ten ileriye tasimak istiyor, kademeli: once I. Dunya Savasi sonu, sonra 1991; 2025 bekler. Senin isin YAPMAK DEGIL MALIYETI OLCMEK: (1) 1923 sonrasi icin kac YENI KUNYE gerekir (devletler.js'te bugun 677 kunye var — hangileri 1923'te kesiliyor, kac ardil devlet eksik)? (2) Kac KRONOLOJI MADDESI (bugun 1688 madde, Degismez 2 evreni) ve kac YERLESIM PENCERESI (3921 nokta, 87 girdi dosyasi) yazilmasi gerekir? (3) MOTOR KOSUSUNA etkisi: bugun 1.883 kesit tarihi var; 1945'e / 1991'e uzatmak kac kesit ekler, kosu suresi ne olur? (Bugunku tam kosu ~40 dk.) (4) Cikti boyutu: site bugun 261 dosya / 157,6 MB ham (gzip ~40 MB) indiriyor. Genisleme bunu ne kadar buyutur? (5) TOKEN/SURE/OTURUM cinsinden tahmin: her kademe kac oturum-gun eder? Ciktin: denetim/KAPSAM-2025-0073-MALIYET.md + ham sayilar .json. KOD YAZMA, VERI YAZMA — bu bir OLCUM isidir. Ogngorunu olcumden ONCE yaz. 🔴 BEKCI: eski adinla kurulu bekcini oldur, YENI adinla yeniden kur: py arac/tahta_bekci.py --kim \"KAPSAM-2025-0073\" --cik (Bash run_in_background) TESLIM tek tahta mesaji --kime \"1.MURAT\". Bellek dar: is bitince bekcini KENDIN oldur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
