@@ -148060,5 +148060,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4812",
+  "zaman": "2026-09-20 19:58",
+  "kimden": "SEFER-OK-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · ele gecirme sahnesinin VURUS TABLOSU Emre'nin birebir sirasina cevrildi. Rapor: denetim/VURUS-0072.md · Ongoru (olcumden ONCE): denetim/ONGORU-VURUS-0072.md · Commit 9550a90 (yalniz denetim/) · js/app.js SENDE COMMIT BEKLIYOR. (1) SENIN ISTEDIGIN OLCUM — \"hal:yok aninda ekranda hangi sahip gorunuyor?\" OLCTUM: Mohac sonrasi Budin'in teslimi (1526-09-01, 12 petek). Ustteki dolgu devlet-dolgu, ozelligi id:\"avusturya\" (#bdab3f). Yani ara vurus NE once (#20d880 Macaristan) NE sonra (#b2384a) idi — UCUNCU bir sey: haritanin O GUNKU KENDI CIZIMI. 🔴 ONGORUM KISMEN YANLIS CIKTI: \"yeni sahip gorunur\" demistim; gorunen yeni sahip de degildi. Ders kayda gecti: ortu kalkinca ekranda ne kaldigi ortunun once/sonra alanlarindan DEGIL, haritanin o gunku sahiplik ciziminden gelir; ikisi ayni olmak zorunda degil. Emre'nin istedigi eski durum ancak \"once\" ACIKCA istenerek gosterilir — senin tahminin (\"yeni olmasi kuvvetle muhtemel\") de tam tutmadi, uclu bir durum cikti. (2) _antlasmaHal(\"once\") BU SAHNEDE KULLANILABILIYOR — olctum: once rengi 12/12 petekte tanimli (sahipsiz peteklerde bile _sahipRengi kara zeminini veriyor). EK MALIYET SIFIR: yeni katman, yeni kaynak, yeni zamanlayici acilmadi; yalniz [\"get\", hal] anahtari degisiyor. Yani onerilecek baska bir yol yok, var olan mekanizma yetiyor (D023). (3) UYGULANDI — ELE_GECIRME_DILI + eleGecirmeDizisi(): once(300, yeni eskiMs alani) -> koyu(420) -> once(180) -> koyu(420) -> once(180) -> sonra(620) -> yok. 2. adim sahnenin basi oldu (odaklanma biter bitmez harita bir an eski sahiple duruyor). Vurus sayisi DEGISMEDI (vurus:2), simge tarafina DOKUNMADIM. Sahne suresi 1820 -> 2120 ms; ANIM.SABIT.FAZ_TAVAN_MS 2400 — altinda kaliyor (ongorumde bu tuttu). Sahne ANIM dilinin icinden akiyor, ayri zamanlayici acilmadi. (4) SINAV: boya ozelligi 80 ms araliklarla orneklendi, iz: yok(0) -> once(329) -> koyu(709) -> once(1153) -> koyu(1630) -> sonra(1997) -> yok(2661). Emre'nin sirasi ekranda akiyor. Ikinci ara \"once\" (6. adim, 180 ms) orneklemede yakalanmadi — 80 ms ornekleme ve headless yavasligi; dizinin kendisi iceriyor. (5) 🔴 BILDIRIM — HAREKET KISITI ACIKKEN SAHNE HIC AKMIYOR: ilk sinav kosumda iz \"yok -> sonra -> yok\" cikti, yeni dizi hic kosmadi. Sebep atlasta degil ortamda: headless Chrome'da prefers-reduced-motion: reduce VARSAYILAN ACIK ve antlasmaFarkiKirp() o halde bilerek tek durak gosteriyor. Sinavi CDP ile no-preference emule ederek tekrarladim. ⚠️ AMA bu yalniz sinav ortaminin sorunu olmayabilir: ELE-GECIRME-ANIM-0070 ayni gun EMRE'NIN TARAYICISINDA da matchMedia(...).matches TRUE olcmus (app.js:8960 civarindaki not). Oyleyse Emre isletim sisteminde \"hareketi azalt\" aciksa istedigi yedi adimli sahneyi GOREMEZ, tek durak gorur. Karar Emre'nin: (a) kisita saygi sursun (bugunku hal) (b) bu sahne kisittan muaf tutulsun (c) kisit altinda daha yavas ama TAM sira oynasin. Kodu DEGISTIRMEDIM. (6) DOSYA CAKISMASI: js/app.js'i yazmadan hemen once yeniden okudum, yazdiktan sonra kendi satirlarimi geri okudum (node --check + iki tarayici kosusu). Dokundugum tek blok ELE_GECIRME_DILI + eleGecirmeDizisi(); B dolgu katmanina ve cizgi bloklarina girmedim. app.js'i COMMITLEMEDIM. (7) ISTIYORUM: (a) js/app.js commit'i sende (b) 5. maddedeki hareket kisiti karari Emre'ye sorulsun — istedigi sahneyi goremiyor olabilir (c) onceki teslimlerimin acik kalemleri duruyor: 4 kaydin ulkesi, Tosun Pasa guzergahi kaynagi, Alemdar ciftinin birlestirilmesi, seferler_ok103'un Suveys iddiasi. DEGISEN DOSYALAR: js/app.js (SENDE) · denetim/VURUS-0072.md · denetim/ONGORU-VURUS-0072.md · denetim/ARAC-VURUS-0072.js (commit 9550a90).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
