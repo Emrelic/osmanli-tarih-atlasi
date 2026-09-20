@@ -124,7 +124,65 @@ yok olmaz ama harita da boş kalmaz. Karar Emre'nin; sayı burada.
 
 ### Ölçülemeyenler (açıkça)
 - Dünya ölçeğinde bant boyutu — yalnız iki kutu ölçüldü, aralık geniş.
-- Kelepçenin KOŞU SÜRESİNE etkisi — kod yok; ölçtüğüm yalnız ÜRÜNE etkisi.
 - `km2` burada motorun `_ham_km2`'sinden yeniden kuruldu (kesit o işlevi
   dışarıda bırakıyor); mutlak değerlerde ~%0,6 sapma var (950.218 ↔ 944.361),
   oranlar etkilenmiyor.
+
+---
+
+## 5 · UYGULAMA (21 Eylül, M-4892 hükmünden sonra)
+
+### 5.1 · Tekdüzelik — bant hesabının dayanağı, VARSAYILMADI ÖLÇÜLDÜ
+`bant_b = kesim(b) − kesim(b−1)` ancak `kesim(40) ⊆ kesim(56) ⊆ kesim(80)`
+ise "iç içe OLMAYAN artış bandı" anlamına gelir. Tutmasaydı bir toprak iki
+banda birden yazılır ve arayüz onu iki kez çizerdi.
+**Ölçüm: iki kutuda da 0 petek / 0 km² ihlal.** ✓
+
+### 5.2 · Çöl kelepçesi PARAMETRE oldu — `MOTOR_COL_UFUK_SAAT`
+`_YR_BUTCE` tek küresel sayıydı; artık hücre başına eşik (`_YR_ESIK`) var.
+Kelepçe açıkken bedel alanı kendi eşiğine bölünüp kontur 1.0'dan geçiyor
+("bedel > eşik" ile "bedel/eşik > 1" aynı sorudur).
+
+🔴 **Varsayılan bugünkü davranış — ve bu temenni değil YAPISAL:** parametre
+verilmezse normalleştirme bloğu **hiç çalışmaz**, kontur eskisi gibi skaler
+`_YR_BUTCE` seviyesinden geçer. Bölme kayan noktada birebir aynı olmayacağı
+için kapıyı tamamen atlamak, bit bit aynılığı *sormadan* garanti eder.
+
+**SINAV (`denetim/ARAC-B-GORUNUM-KELEPCE-0072.py`), iki yönde:**
+
+| yön | ölçülen | sonuç |
+|---|---|---|
+| ① aynılık: kelepçe kapalı ↔ kelepçe kodundan ÖNCEKİ sürüm | sha256 `1c8640677e92c6df…` ↔ `1c8640677e92c6df…` | ✅ **BİREBİR AYNI** |
+| ② duyarlılık: kelepçe açık (çöl ufku 5 gün) | 3.921 peteğin **90'ı** değişti | ✅ **DEĞİŞTİ** |
+
+②'siz ① bir şey ispatlamazdı: sınav farkı görebildiği için "AYNI" hükmü
+anlamlı.
+
+### 5.3 · Üç bant — `MOTOR_UFUK_BANT=40,56,80`, AYRI DOSYA
+Kontur döngüsü `_yr_kontur(seviye)` işlevine alındı (kopyala-yapıştır ikinci
+gövde yazmak yerine — iki kopya ayrışırsa bantlar tabandan farklı kural
+uygular ve bunu hiçbir denetim sormaz). `_yr_kes(geo, i, bant=…)` artık bant
+bütçesiyle de kesebiliyor. Çıktı: **`data/ufuk_bantlari.js`**, `index.html`
+YÜKLEMEZ (Ⓑ anahtarı açılınca `fetch`).
+
+**ÖLÇÜLEN EK MALİYET (Sahra kutusu):** iki ek kontur **0,2 sn**; bütçe
+bölgesi aşaması 3 sn → 4 sn. Yani §1'de verdiğim "bant başına 4 sn" bile
+YÜKSEK bir tahmindi — artımlı kontur ~0,1 sn.
+**GERİLEME SINAVI:** `MOTOR_UFUK_BANT` açıkken taban `PETEK_D`
+sha256 `1c8640677e92c6df…` — bantsız koşuyla **BİREBİR AYNI**. ✓
+
+### 5.4 · 🔴 AÇIK KALAN İKİ ŞEY — ölçülmeden yayına alınmamalı
+1. **Bantlar PETEK başına üretiliyor, DEVLET başına değil.** 16 Eylül kararı
+   *"devlet başına artış bantları"* diyor. Devlet bandı, bant geometrisinin
+   dönem dönem gövdeye birleştirilmesini ister — yani koşunun EN PAHALI
+   aşamasının (yabancı devlet gövdeleri + dönemler) bant başına tekrarını.
+   **Bunun maliyeti ÖLÇÜLMEDİ** ve "bant ucuzdur" hükmü YALNIZ kontur için
+   geçerlidir. Arayüz kodu bu yüzden HENÜZ YAZILMADI: veri şekli
+   değişebilir, değişecekse önce ölçülmeli.
+2. **Artış bantları kıyı kesiminden SONRAKİ aşamalardan geçmiyor** (ada
+   kuralı · kara-kısıtlı devir · çöl tavanı). Taban bant (`≤5`) `PETEK_D`
+   olduğu için hepsinden geçmiştir; 5-7 ve 7-10 yalnız bütçe kesiminden
+   geçer. Farkın büyüklüğü ölçülmelidir.
+3. ⚪ Epok onarımının yerel Dijkstra tavanı kelepçeye uymuyor (skaler
+   kalıyor); kesim sonradan fazlalığı aldığı için çıktıya değil yalnız ara
+   hesabın menziline bakıyor — kodda yazılı, ölçülmedi.

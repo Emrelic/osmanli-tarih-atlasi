@@ -385,6 +385,36 @@ def bant(a):
     km2 = _km2_olcer()
     kara_km2 = km2(KARA)
 
+    # --- ONCE VARSAYIMI SINA: BUTCE KESIMI TEKDUZE MI? ---
+    # 🔴 BUTUN BANT HESABI BUNA DAYANIYOR ve olculmeden kabul edilemez:
+    #    bant_b = PETEK_D(b) - PETEK_D(b-1) ancak PETEK_D(40) ⊆ PETEK_D(56)
+    #    ⊆ PETEK_D(80) ise "ic ice OLMAYAN artis bandi" anlamina gelir.
+    #    Tutmazsa bantlar ortusur, bir toprak iki banda birden yazilir ve
+    #    arayuz onu iki kez cizer — kimse fark etmez.
+    #    Tekduzelik BEKLENIR (buyuk butce daha az keser) ama ARA ASAMALAR
+    #    (ada kurali, kara-kisitli devir) butceye bagli karar verebilir.
+    ihlal_n, ihlal_km2 = 0, 0.0
+    for k in range(1, len(BANT_SAAT)):
+        kucuk, buyuk = BANT_SAAT[k - 1], BANT_SAAT[k]
+        for i, gk in enumerate(PD[kucuk]):
+            gb = PD[buyuk][i]
+            if gk is None or gk.is_empty:
+                continue
+            try:
+                tasma = gk.difference(gb) if gb is not None else gk
+            except Exception:
+                continue
+            if not tasma.is_empty:
+                a = km2(tasma)
+                if a > 1.0:               # 1 km2 alti: kayan nokta kirintisi
+                    ihlal_n += 1
+                    ihlal_km2 += a
+    sonuc["tekduzelik"] = {"ihlal_petek": ihlal_n, "ihlal_km2": round(ihlal_km2)}
+    print("  TEKDUZELIK SINAVI: kucuk butcenin buyuk butce disina tasmasi -> "
+          "%d petek, %s km2 %s"
+          % (ihlal_n, format(round(ihlal_km2), ","),
+             "(TEMIZ)" if ihlal_n == 0 else "🔴 BANTLAR ORTUSUYOR"), flush=True)
+
     # --- BANT BASINA BOYUT VE SURE ---
     onceki = None
     for k, saat in enumerate(BANT_SAAT):
