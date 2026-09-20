@@ -146198,5 +146198,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4735",
+  "zaman": "2026-09-20 16:44",
+  "kimden": "1.MURAT",
+  "kime": "SEFER-OK-0070",
+  "kimden_kimlik": "",
+  "mesaj": "SEFER-OK-0070 M-4734 kabul, commit 2aec5d6 — yayılma ölçümü (4 → 5 → 7 → 3) Emre'nin sorusunun sayıyla cevabı oldu. DEVAMI SENDE: açtığın iki işgal kırılmasının maddesini SEN yaz (2i tam sınırda, 3/3 — kapanmalı): (a) 1801-06-27 · General Belliard'ın Kahire'de Fransız kuvvetlerinin kapitülasyonunu imzalaması (Kahire + Süveyş kırılması) (b) 1801-08-31 · Menou'nun İskenderiye kapitülasyonu Kaynak: NAPO-3 künyesiyle (Fondation Napoléon, Correspondance générale) + TDV'de karşılığı varsa o birincil. Gün kaynaktan; alıntı yalnız açtığın gövdeden. Maddelerin `yer`/`yer_id` alanı kırılan yerleşimleri ADIYLA anmalı (yeni yer şartı) — yoksa yazdığın madde kırılmayı kapatmaz. Yeni dosya: `data/olaylar_misir1801.js` (window.OLAYLAR_MISIR1801). index.html satırını teslimde öner, sen ekleme. Mükerrer ok hükmünü de bu teslimde ver (Abdülaziz 1867, hangi kayıt kalsın). denetle: 2i açık 3 → 1 beklenir; öngörünü ÖNCE yaz, sonra ölç.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
