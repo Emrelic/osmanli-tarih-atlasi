@@ -525,6 +525,48 @@ düşer.
 
 ---
 
+# 24. CETİNJE — ENKLAV-0072'nin kalemi (M-4807) ve ÖNGÖRÜSÜNÜN KOŞUSUZ ÇÜRÜMESİ
+
+ENKLAV-0072 ölçtü: 1814-01-28'de Osmanlı gövdesi ile Karadağ gövdesi **~1005 km²**
+çakışıyor; Cetinje kaydında `m:"İşkodra"` VAR, `kd:` YOK. Hipotezleri: *"Cetinje'ye
+`kd:` yazılıp koşu yapılırsa OSM-doğrudan + karadag çakışması 1106 noktadan DÜŞMELİ."*
+
+## 24a. `kd:` yazıldı (veri doğru olduğu için, hipotezden bağımsız)
+
+TDV `karadag`: "Burası **İşkodra sancağının bir parçası** haline getirildi, **1514**'te
+Crnojevići'nin soyundan gelen … İskender Bey'in idaresinde … Karadağ kesimi **ayrı bir
+sancak** şeklinde teşkil edildi." · "**Cetinje** Ortodoks piskoposu (Çetine vladikası)
+tedrîcen **en yüksek otorite** haline geldi ve ailesi de hâkim hânedan oldu."
+
+`kd:[{1499-01-01→1514-01-01, k:4, m:"İşkodra"}, {1697-01-01→1923-10-29, k:0, m:null}]`
+(1514-1697 BOŞ: ayrı sancağın ne zamana kadar sürdüğü kaynakta yok.)
+**Ölçüm: 274 → 272** (Cetinje'nin 1700 ve 1800 çelişkileri kalktı) · `denetle.py` temiz.
+
+## 24b. 🔴 HİPOTEZ KOŞUYA GEREK KALMADAN ÇÜRÜDÜ — motor `kd:`yi HİÇ OKUMUYOR
+
+Koşu istemeden önce motoru ölçtüm:
+
+| Ölçü | Sonuç |
+|---|---|
+| `arac/uret_petek.py` içinde `kd` / `kd_oku` / `kd_gun` geçen satır | **0** |
+| `uret_petek.py` içinde `y["m"]` kullanımı | **2 yer**: `k12_merkez` (satır 1063) ve **BÖLGELER** katmanı (satır 5069) — bir de uyarı metni (1075) |
+| `kd_oku`/`kd_gun` çağıran dosyalar | yalnız `arac/denetle.py` (ve tanımı `girdi.py`) |
+
+`m:`in motordaki TEK işlevi `data/bolgeler.js` (k1/k2 merkezlerinin toplu bölge
+sınırı) üretmektir; motorun kendi yorumu da bunu söylüyor: *"Kademe uyarısının bedeli
+**kozmetik** (bölge sınırı çizilmiyor, **toprak boyaması etkilenmiyor**)"*
+(`uret_petek.py:1051`). ENKLAV'ın ölçtüğü çakışma ise `donemler.js` +
+`devletler_harita.js` gövdeleri üzerindedir — **`kd:` bu boruya hiç girmiyor.**
+
+⇒ **`kd:` yazmak o 1106 noktayı DÜŞÜREMEZ; ~40 dakikalık koşu bu soruyu cevaplamaz.**
+Teşhis ENKLAV'ın kendi ikinci dalına gidiyor: gövde üretimindeki
+`delikleri_doldur` / `_b2_enklav_birlestir` / `gosterim_duzelt` zinciri.
+📌 Bu, `CLAUDE.md §3`teki *"kusurun %93'ü `m:`in zaman penceresi eksikliği, `kd:`
+çözer"* cümlesinin **Değişmez 3 ölçümü için** doğru, **gövde çakışması için**
+geçersiz olduğu anlamına gelir: iki ayrı kusur sınıfı, tek cümleyle anılmamalı.
+
+---
+
 🔴 **ÇALIŞMA AĞACI UYARISI:** `data/yerlesimler.js` bu oturum sürerken en az iki başka
 oturum tarafından da yazıldı (EKO-1806'nın `isg:` satırları, TARIH-SUPHE-0920'nin `not:`
 satırları çalışma ağacında duruyor). Yama betiği dosyayı TOPTAN okuyup TOPTAN yazıyor;
