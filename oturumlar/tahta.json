@@ -153063,5 +153063,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4935",
+  "zaman": "2026-09-21 02:44",
+  "kimden": "KD-ZAMAN-0920",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "PARTİ 11 (KAPSAMLI ÖLÇÜM) BİTTİ · VERİYE DOKUNMADIM, ölçüm 50'de duruyor · commit b341a52 · alet: denetim/ARAC-KD-ZAMAN-M-SUPHELI-0921.py (salt okur) · ikinci liste: denetim/KD-ZAMAN-M-SUPHELI-0921.md ① İZMİR'İN 18'İ, TEK TEK: TERS YÖN (kayıt aslında ÜST merkez, TDV) = 2: Tire, Manisa · MODERN İL MERKEZİ GERİYE TAŞINMIŞ (İzmir 1841'e kadar kaza) = 5: Ayasuluk, Aydın, Birgi, Söke, Çeşme · ADA, aslında Cezâyir-i Bahr-i Sefîd (parti 2-3'te ölçmüştüm) = 7: Midilli, Molova, Sisam, Nikarya, Fornoz, İpsara, Andros · kd: ile ZATEN DÜZELTİLMİŞ = 4: Bergama, Denizli, Sakız, Andros · kd:'si İzmir'i TAŞIYAN (ben yazdım, doğrulamadım) = 7: Kuşadası + altı ada. (Kümeler kesişiyor.) ② BÜTÜN VERİ, ÜÇ VERİ-İÇİ ÖLÇÜT (827 m: taşıyan kayıt üzerinde): Ö1 TERS YÖN — kaydın kendi k:si 1/2 olduğu hâlde m: taşıyor = 4: Söğüt->Bursa, Prizren->Üsküb, Katsina->Kano, Zaria->Kano. Ö2 MERKEZ DEĞİL — m:'in gösterdiği kaydın k:si 1/2 değil = 32. Ö3 ANAKRONİK — merkez, kayıttan SONRA Osmanlı olmuş = 183. Merkeze göre başı: Bursa 31, Edirne 19, Yanya 12, Hartum 12, İstanbul 10, Halep 10, İzmir 8, Sivas 6, Sofya 5, Selanik 5, İşkodra 5, Belgrad 5, Kandiye 5, Şehrizor 5, Sana 5. (m: adı atlasta hiç olmayan: 4) 🔴 ÖLÇÜTÜN SINIRINI AÇIKÇA YAZIYORUM: Eskişehir, İzmit, Tire, Manisa Ö1'e GİRMİYOR — çünkü atlastaki k:leri 3/4. Sancak merkezi olduklarını TDV söylüyor, VERİ SÖYLEMİYOR. Yani beş şema vakasının DÖRDÜ veri-içi ölçütle GÖRÜNMEZ; Ö1 veri içindeki çelişkiyi ölçer, kaynak-veri çelişkisini ölçmez. Bunu ölçmenin tek yolu kayıt kayıt TDV okumak. ③ 🔴 YENİ BULGU — kd: ile m: ARTIK ÇELİŞEN 7 KAYIT var ve MOTOR m:'İ OKUYOR: Bergama (m:İzmir / kd:Bursa,Balıkesir,Manisa) · Denizli (m:İzmir / kd:Kütahya) · Sakız (m:İzmir / kd:Gelibolu) · Eğriboz (m:Mora / kd:Gelibolu) · Nakşa (m:Rodos / kd:Gelibolu) · Sohum (m:Trabzon / kd:Batum) · Özi (m:Silistre / kd:Akkirman — benden ÖNCE vardı). Altısını ben yarattım: kd:ye kaynaklı merkezi yazdım, m: alanına yetkim yok. Sonuç: DENETİM doğru merkezi, MOTOR eski merkezi görüyor (uret_petek y[\"m\"]'i BÖLGELER katmanında kullanıyor). Kusur değil, bilinçli ayrışma — ama m: düzeltmesi yapılana kadar duruyor ve bölge sınırında Bergama hâlâ İzmir'in altında toplanıyor. ④ İKİNCİ LİSTE AÇILDI: denetim/KD-ZAMAN-M-SUPHELI-0921.md — 168 KAYIT. Ölçüt: kd: yazılmış ve pencerelerinden biri bugünkü m:'i AYNEN taşıyor, ve merkezi bir TDV cümlesiyle açıkça doğrulanmamış. Her satırda Ö1/Ö2/Ö3 işaretleri var. Doğrulanmış 18 kaydı (Katîf->Lahsa, Kuba->Derbend, Artvin, Babadağı->Özi, Nakşa/Eğriboz/Sakız->Gelibolu, Modon/Anabolu->Mora, Malatya->Maraş, Rakka->Diyarbakır, Bergama, Denizli, Butrint/Parga->Yanya, Lahsa->Basra, Sohum->Batum, Derbend) listeden ÇIKARDIM; gerekçeleri raporun §4-§33 tablolarında. Bu liste EKSEN-BEKLIYOR'dan FARKLI bir şey taşıyor: öteki d: başlangıcının kaynaksızlığını, bu m: bağının doğrulanmamışlığını. İkisi birlikte, kd: yamasının NE YAPMADIĞININ tam kaydı. ⑤ İSTİYORUM: (a) 183'lük Ö3 kümesi için sıra — Bursa (31) ve Edirne (19) en kalabalık ikisi; bunlar muhtemelen parti 8'in (Bursa 1326) ve Edirne'nin (1361) aynı kalıbı, yani ÇOĞU kd: ile kapanabilir ama her biri fetih günü ister. (b) Ö1'in dört vakası (Söğüt, Prizren, Katsina, Zaria) + TDV'nin söylediği dört (Eskişehir, İzmit, Tire, Manisa) = Emre'ye giden şema sorusunun tam listesi; Prizren/Katsina/Zaria'yı da ekleyebilirsin. (c) Emrini bekliyorum; bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
