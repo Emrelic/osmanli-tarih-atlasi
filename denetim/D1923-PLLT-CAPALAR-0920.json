@@ -1,0 +1,494 @@
+{
+ "gorev": "D1923-CIZGI-0920 · d1923-pl-lt çıpa çıkarımı",
+ "kaynak": "Conference of Ambassadors, Eastern Frontiers of Poland, Paris 15 Mart 1923 · LNTS c.15 (1923) s.261–265",
+ "kaynak_url": "http://www.forost.ungarisches-institut.de/pdf/19230315-1.pdf",
+ "harita_olcegi": "Alman 1/100.000 (metnin kendi beyanı)",
+ "ayak_sayisi": 25,
+ "tur_sayimi": {
+  "sahada_tespit": 10,
+  "nehir": 8,
+  "gol": 3,
+  "idari_sinir": 2,
+  "nokta": 1,
+  "belirsiz": 1
+ },
+ "hesaplanabilir_ayak": 13,
+ "yaka_koy_adedi": 103,
+ "ayaklar": [
+  {
+   "sira": 1,
+   "tur": "idari_sinir",
+   "yon": null,
+   "capa": [
+    "German",
+    "Suwalki",
+    "Eastern Prussia",
+    "Eastern Prussia",
+    "Suwalki",
+    "Punsk"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": ": A line described below (according to the German map on the scale of 1/100,000): From the point of intersection of the northern administrative boundary of the district of Suwalki and the frontier of Eastern Prussia (a point common to Eastern Prussia, Poland and Lithuania) to the most southerly point of the re-entrance of the boundary of the Suwalki district, this point being situated about 7 kms. north-west of Punsk"
+  },
+  {
+   "sira": 2,
+   "tur": "idari_sinir",
+   "yon": null,
+   "capa": [
+    "Suwalki"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "the line follows northwards the administrative boundary of the district of Suwalki"
+  },
+  {
+   "sira": 3,
+   "tur": "nehir",
+   "yon": null,
+   "capa": [
+    "Berzniki-Kopciowo",
+    "Berzniki"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence, south-eastwards to a point on the Berzniki-Kopciowo road, about 2 kms. southeast of Berzniki"
+  },
+  {
+   "sira": 4,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Punsk",
+    "Galadusya",
+    "Zegary",
+    "Berzniki",
+    "Zegary"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [
+    "Punsk",
+    "Punsk"
+   ],
+   "ham": "a line to be fixed on the ground leaving Punsk in Poland, crossing lake Galadusya from its north-western extremity to a point situated about 2 kms. north of Zegary, then bearing eastward and then parallel to a chain of small lakes between Berzniki and Zegary, about 2 kms. eastward of these lakes"
+  },
+  {
+   "sira": 5,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Zelwa",
+    "Marycha"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence to a point about 2 1/2 kms. to the east of Zelwa on the Marycha, a line to be fixed on the ground"
+  },
+  {
+   "sira": 6,
+   "tur": "nehir",
+   "yon": "asagi",
+   "capa": [
+    "Marycha",
+    "Sztudjanka"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence following the course of the Marycha, down stream, to the confluence of a small tributary on the left bank of this river and immediately above Sztudjanka"
+  },
+  {
+   "sira": 7,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Igorka",
+    "Warwischki",
+    "Niemen"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence a line to be fixed on the ground as far as the source of the river Igorka, then the course of this river passing Warwischki as far as its confluence with the Niemen"
+  },
+  {
+   "sira": 8,
+   "tur": "nehir",
+   "yon": "asagi",
+   "capa": [
+    "Niemen",
+    "Grawe"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence the course of the Niemen, down stream, as far as the confluence of the river Grawe"
+  },
+  {
+   "sira": 9,
+   "tur": "nehir",
+   "yon": null,
+   "capa": [
+    "Grawe",
+    "Merecs-Rudnica",
+    "Rotnica"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence the river Grawe as far as the point where it is crossed by the Merecs-Rudnica (Rotnica) road"
+  },
+  {
+   "sira": 10,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Skroblis",
+    "Mereczanka"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence a line to be fixed on the ground as far as the confluence of the river Skroblis with the river Mereczanka"
+  },
+  {
+   "sira": 11,
+   "tur": "nehir",
+   "yon": null,
+   "capa": [
+    "Mereczanka",
+    "Podkamien"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence the course of the Mereczanka as far as a point 800 metres south-east of Podkamien"
+  },
+  {
+   "sira": 12,
+   "tur": "nokta",
+   "yon": null,
+   "capa": [
+    "Strzelciski"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "and then as far as Hill 142, about 2 kms. north-east of Strzelciski"
+  },
+  {
+   "sira": 13,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Podkamien",
+    "Karpiszki",
+    "Strzelciski",
+    "Bortele",
+    "Kukle",
+    "Bobryszki",
+    "Olkieniki",
+    "Orany",
+    "Wojtowo",
+    "Grodna",
+    "Vilna"
+   ],
+   "litvanya_yakasi": [
+    "Podkamien",
+    "Karpiszki",
+    "Strzelciski",
+    "Podkamien",
+    "Karpiszki",
+    "Strzelciski"
+   ],
+   "polonya_yakasi": [],
+   "ham": "a line to be fixed on the ground leaving Podkamien, Karpiszki, Strzelciski, in Lithuania, and Bortele and Kukle, in Poland, and passing the crossing of the roads from Bobryszki to Olkieniki and from Orany to Wojtowo on the railway from Grodna to Vilna"
+  },
+  {
+   "sira": 14,
+   "tur": "nehir",
+   "yon": null,
+   "capa": [
+    "Wilia",
+    "Surmance"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "Thence as far as a point to be fixed on the course of the Wilia about 800 metres west of Surmance"
+  },
+  {
+   "sira": 15,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Kalance",
+    "Spengleniki",
+    "Gieceniszki",
+    "Uzuleje",
+    "Prybance",
+    "Greczowka",
+    "Wismance",
+    "Jagielany",
+    "Dergiance",
+    "Kopciszki",
+    "Zailgi",
+    "Chwosz-Na"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [
+    "Lithuania",
+    "Kalance",
+    "Spengleniki",
+    "Gieceniszki",
+    "Uzuleje",
+    "Prybance",
+    "Greczowka",
+    "Wismance",
+    "Jagielany",
+    "Dergiance",
+    "Kopciszki",
+    "Zailgi",
+    "Chwosz-Na",
+    "Niedzwiedowka",
+    "Janczuny",
+    "Daniliszki",
+    "Jerzowa",
+    "Nowy-Dowr [sic!]",
+    "Promyslowka",
+    "Walakiszki",
+    "Kurkliszki",
+    "Kalejkiemie",
+    "Wiluniszki",
+    "Kiermanczyszki",
+    "Bialolesie",
+    "Owsizciseki",
+    "leaving",
+    "in Lithuania",
+    "Kalance",
+    "Spengleniki",
+    "Gieceniszki",
+    "Uzuleje",
+    "Prybance",
+    "Greczowka",
+    "Wismance",
+    "Jagielany",
+    "Dergiance",
+    "Kopciszki",
+    "Zailgi",
+    "Chwosz-Na"
+   ],
+   "ham": "a line to be fixed on the ground leaving in Lithuania, Kalance, Spengleniki, Gieceniszki, Uzuleje, Prybance, Greczowka, Wismance, Jagielany, Dergiance, Kopciszki, Zailgi, Chwosz-Na, Niedzwiedowka, Janczuny, Daniliszki, Jerzowa, Nowy-Dowr [sic!], Promyslowka, Walakiszki, Kurkliszki, Kalejkiemie, Wiluniszki, Kiermanczyszki, Bialolesie and Owsizciseki, and leaving in Poland Wojtowo, Vw-Puskarnia, Czarnokowale, KolLejpuny, Wejkszetelance, Ejgielance, Markowsz-Na, Skobska, Wizgirdy, Dombrowo, Dembniaki Stanislawowka, Kotysz, Staskuniszki, Lebiedzie, Memluszki, Podworance, Glity, Piektoniski, Kierme"
+  },
+  {
+   "sira": 16,
+   "tur": "nehir",
+   "yon": null,
+   "capa": [
+    "Willia",
+    "Sejmieniszki"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence, the course of the Willia as far as a point situated about 1,2 kms. to the south of Sejmieniszki"
+  },
+  {
+   "sira": 17,
+   "tur": "gol",
+   "yon": null,
+   "capa": [
+    "Lake Oswie",
+    "Zoltynie"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence as for as a point to be fixed at the south-west extremity of Lake Oswie to the south of Zoltynie"
+  },
+  {
+   "sira": 18,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Sejmieniski",
+    "Kliszebloto",
+    "Podozierce",
+    "Pojodzie",
+    "Pospierze",
+    "Kejmince",
+    "Skietery",
+    "Olinowo",
+    "Pory",
+    "Kontromiszki",
+    "Kiele",
+    "Awizance"
+   ],
+   "litvanya_yakasi": [
+    "Sejmieniski",
+    "Kliszebloto",
+    "Podozierce",
+    "Pojodzie",
+    "Pospierze",
+    "Kejmince",
+    "Skietery",
+    "Olinowo",
+    "Pory",
+    "Kontromiszki",
+    "Kiele",
+    "Awizance",
+    "Nieczance",
+    "Borowy",
+    "Olany",
+    "Palki",
+    "Ollis",
+    "Okmiana",
+    "Towkiele",
+    "Alexandryszki",
+    "Gawejki",
+    "Zolytnie"
+   ],
+   "polonya_yakasi": [],
+   "ham": "a line to be fixed on the ground leaving Sejmieniski, Kliszebloto, Podozierce, Pojodzie, Pospierze, Kejmince, Skietery, Olinowo, Pory, Kontromiszki, Kiele, Awizance, Nieczance, Borowy, Olany, Palki, Ollis, Okmiana, Towkiele, Alexandryszki, Gawejki, Zolytnie in Lithuanian territory, and Podworzance, Podgajem, Drawcze, Meljuny, Papiernia, Bortkuszki, Uzy blindzie, Lipowko, Poblyndzie, Zyndule, Astyki, Szelkowszna, Romaskance, Pogiry, Borowka, Sontoki, Pulstylki, Rudejki, Stolewsz-na, Zemwiszki, Smilgi, Gawejki, Sidabry in Polish territory"
+  },
+  {
+   "sira": 19,
+   "tur": "gol",
+   "yon": null,
+   "capa": [
+    "Oswie",
+    "Olka"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence, a line crossing the lake of Oswie to a point to be fixed on its north-east shore, about 1,500 metres south-east of Olka"
+  },
+  {
+   "sira": 20,
+   "tur": "gol",
+   "yon": null,
+   "capa": [
+    "Prowa",
+    "Surgance"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence, to a point to be fixed on the southern shore of lake Prowa to the east of Surgance"
+  },
+  {
+   "sira": 21,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Olka",
+    "Boloma",
+    "Labejszyski",
+    "Mlynek",
+    "Janiszki",
+    "Szerajkiszki",
+    "Surgance",
+    "Jankuniszki",
+    "Purwiniszki",
+    "Szarkiszki",
+    "Maciejewa",
+    "Orniany"
+   ],
+   "litvanya_yakasi": [
+    "Olka",
+    "lake Boloma",
+    "Labejszyski",
+    "Mlynek",
+    "Janiszki",
+    "Szerajkiszki",
+    "Surgance"
+   ],
+   "polonya_yakasi": [],
+   "ham": "a line to be fixed on the ground leaving Olka, lake Boloma, Labejszyski, Mlynek, Janiszki, Szerajkiszki, Surgance in Lithuanian territory, and Jankuniszki, Purwiniszki, Szarkiszki, Maciejewa, Orniany, Skardze, Nowosiolka, Grybiance in Polish territory"
+  },
+  {
+   "sira": 22,
+   "tur": "nehir",
+   "yon": null,
+   "capa": [
+    "South",
+    "Antolkony"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence, as far as a point to be fixed on the South shore of the lake on which is situated Antolkony, and 500 metres west of that place"
+  },
+  {
+   "sira": 23,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Madejki",
+    "Mazule",
+    "Szykaliszki",
+    "Andurlance",
+    "Shukowschtschisna",
+    "Shemeityschki",
+    "Prudsischki",
+    "Polukno",
+    "Poshenis",
+    "Shwirblischki",
+    "Rgt-Sidorischki",
+    "Mineischany"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [
+    "Lithuanian territory: Madejki",
+    "Mazule",
+    "Szykaliszki",
+    "Andurlance",
+    "Shukowschtschisna",
+    "Shemeityschki",
+    "Prudsischki",
+    "Polukno",
+    "Poshenis",
+    "Shwirblischki",
+    "Rgt-Sidorischki",
+    "Mineischany",
+    "and"
+   ],
+   "ham": "a line to be fixed on the ground leaving in Lithuanian territory: Madejki, Mazule, Szykaliszki, Andurlance, Shukowschtschisna, Shemeityschki, Prudsischki, Polukno, Poshenis, Shwirblischki, Rgt-Sidorischki, Mineischany, and in Polish territory: Maldziuny, Rutowschtschisna, Baranowo, Antaledse, Bernjuny, Lyngmjany, Antolkony"
+  },
+  {
+   "sira": 24,
+   "tur": "belirsiz",
+   "yon": null,
+   "capa": [
+    "Latvian"
+   ],
+   "litvanya_yakasi": [],
+   "polonya_yakasi": [],
+   "ham": "thence, as far as the Latvian frontier"
+  },
+  {
+   "sira": 25,
+   "tur": "sahada_tespit",
+   "yon": null,
+   "capa": [
+    "Boloscha",
+    "Dringis",
+    "Rgt-Ashussenitz",
+    "Achramjanzy",
+    "Reipe",
+    "Ashany",
+    "Sadsjuny",
+    "Bol-Derewjna",
+    "Suntupe",
+    "Kalnischki",
+    "Schlobwisna",
+    "Muglischki"
+   ],
+   "litvanya_yakasi": [
+    "Rgt-Ashussenitz",
+    "Achramjanzy",
+    "Reipe",
+    "Ashany",
+    "Sadsjuny",
+    "Bol-Derewjna",
+    "Suntupe",
+    "Kalnischki",
+    "Schlobwisna",
+    "Muglischki",
+    "Junkokalne",
+    "Gut Nowo-Smolwy",
+    "Werugischki"
+   ],
+   "polonya_yakasi": [],
+   "ham": "a line to be fixed on the ground from a point going north-east and then northwards, passing between lake Boloscha and lake Dringis, and leaving Rgt-Ashussenitz, Achramjanzy, Reipe, Ashany, Sadsjuny, Bol-Derewjna, Suntupe, Kalnischki, Schlobwisna, Muglischki, Junkokalne, Gut Nowo-Smolwy, Werugischki in Lithuanian territory, and Kosatschisna, Meiluny, Wardsikeme, Aliejuny, Sakischki, Poshemischki, Karatschuny, Smolvy, Paukschte-Lischki, Gut-Smolwy (north) Dulzischki, Matelischki in Polish territory."
+  }
+ ]
+}
