@@ -56,8 +56,21 @@ def _kaydet(H):
         json.dumps(H, ensure_ascii=False, indent=1))
 
 
-def _motor_kesiti(kutu):
-    """Motor metnini kutu moduna cevirir. Capalar TAM BIR KEZ gecmeli."""
+def _motor_kesiti(kutu, kesim="col"):
+    """Motor metnini kutu moduna cevirir. Capalar TAM BIR KEZ gecmeli.
+
+    `kesim`: nerede kesilecegi.
+      "col"        — COL TAVANI'ndan ONCE (varsayilan, ucuz). PETEK_D
+                     kiyi kesimi + ada kurali + kara-kisitli devir gecmis
+                     hâliyle olculur; COL TAVANI GECMEMISTIR.
+      "col-sonrasi"— COL TAVANI'ndan SONRA ("Motorun cizdigi kara"dan once).
+                     🔴 (c) olcumu icin SART: Sahra kutusunda en cok fark
+                     yaratmasi beklenen asama col tavanidir; ondan once
+                     kesmek, olcmek istedigimiz seyi olcum disinda birakir.
+                     ⚠️ Bu kesim `data/` ya da `veri-kaynak/` YAZMAZ —
+                     ilk yazan asama "Motorun cizdigi kara"dir ve o kesimin
+                     DISINDA kalir.
+    """
     src = io.open(ANA_MOTOR, encoding="utf-8", newline="").read().replace("\r\n", "\n")
 
     def degis(eski, yeni):
@@ -79,8 +92,15 @@ def _motor_kesiti(kutu):
     if '".uretim-basladi"' not in src[i:j]:
         raise SystemExit("damga satiri taninmadi - alet guncellenmeli")
     src = src[:i] + "pass  # SINAV: .uretim-basladi YAZILMADI\n" + src[j:]
-    k = src.index("# ---------------- COL TAVANI ----------------\n"
-                  .replace("COL", "\u00c7\u00d6L"))
+    if kesim == "col-sonrasi":
+        capa = 'asama("Motorun \u00e7izdi\u011fi kara (motor_kara.geojson)")\n'
+    else:
+        capa = "# ---------------- COL TAVANI ----------------\n".replace(
+            "COL", "\u00c7\u00d6L")
+    if src.count(capa) != 1:
+        raise SystemExit("KESIM CAPASI %d kez gecti: %r - alet guncellenmeli"
+                         % (src.count(capa), capa[:50]))
+    k = src.index(capa)
     return src[:k], hashlib.sha256(src.encode("utf-8")).hexdigest()[:12]
 
 
@@ -275,7 +295,7 @@ def dokum(a):
     """TEK butce kosar, PETEK_D'yi WKB olarak diske yazar. Ayri surecte
     cagrilir (bkz. `bant` icindeki yalitim gerekcesi)."""
     import pickle
-    src, _sha = _motor_kesiti(a.kutu)
+    src, _sha = _motor_kesiti(a.kutu, getattr(a, "kesim", "col") or "col")
     os.environ["MOTOR_YURUYUS"] = "1"
     os.environ["MOTOR_YURUYUS_SAAT"] = str(a.saat)
     os.environ["MOTOR_EGIM_AB_KAPALI"] = "1"
@@ -289,6 +309,27 @@ def dokum(a):
            if (g is not None and not g.is_empty) else b"") for g in NS["PETEK_D"]]
     paket = {"pd": pd, "kara": _sh.to_wkb(NS["KARA"], output_dimension=2),
              "sure": sure, "saat": a.saat}
+    # Ⓑ BANT HAM KESIMLERI — yalniz butce kesiminden gecmis hâl. (c) olcumu
+    # bunu tam boru hattindan gecmis PETEK_D ile karsilastiracak.
+    _bh = NS.get("_BANT_HAM") or {}
+    if _bh:
+        paket["bant_ham"] = {
+            str(b): [(_sh.to_wkb(g, output_dimension=2)
+                      if (g is not None and not g.is_empty) else b"")
+                     for g in gl] for b, gl in _bh.items()}
+    # SAHIPLIK TABLOSU — (b) olcumu icin: hangi petek hangi tarihte kimin.
+    # `d:`/`v:` Osmanli'nin (kimlik tasimaz), `s:` yabancinin (`d:` alaninda).
+    _sah = []
+    for _y in NS["YERLER"]:
+        _dn = []
+        for _alan in ("d", "v"):
+            for _p in (_y.get(_alan) or []):
+                _dn.append((_p["f"], _p["t"], "OSMANLI"))
+        for _p in (_y.get("s") or []):
+            if _p.get("d"):
+                _dn.append((_p["f"], _p["t"], _p["d"]))
+        _sah.append(_dn)
+    paket["sahiplik"] = _sah
     with open(a.dokum, "wb") as f:
         pickle.dump(paket, f, protocol=4)
 
@@ -515,6 +556,8 @@ def main():
     p.add_argument("--ozet", action="store_true")
     p.add_argument("--bant", action="store_true")
     p.add_argument("--dokum", help="ic kullanim: tek butce kosar, PETEK_D'yi yazar")
+    p.add_argument("--kesim", default="col", choices=("col", "col-sonrasi"),
+                   help="motor metninin nerede kesilecegi (bkz. _motor_kesiti)")
     a = p.parse_args()
     if a.ozet:
         return ozet()

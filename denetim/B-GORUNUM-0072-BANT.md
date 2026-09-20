@@ -171,18 +171,62 @@ YÜKSEK bir tahmindi — artımlı kontur ~0,1 sn.
 **GERİLEME SINAVI:** `MOTOR_UFUK_BANT` açıkken taban `PETEK_D`
 sha256 `1c8640677e92c6df…` — bantsız koşuyla **BİREBİR AYNI**. ✓
 
-### 5.4 · 🔴 AÇIK KALAN İKİ ŞEY — ölçülmeden yayına alınmamalı
-1. **Bantlar PETEK başına üretiliyor, DEVLET başına değil.** 16 Eylül kararı
-   *"devlet başına artış bantları"* diyor. Devlet bandı, bant geometrisinin
-   dönem dönem gövdeye birleştirilmesini ister — yani koşunun EN PAHALI
-   aşamasının (yabancı devlet gövdeleri + dönemler) bant başına tekrarını.
-   **Bunun maliyeti ÖLÇÜLMEDİ** ve "bant ucuzdur" hükmü YALNIZ kontur için
-   geçerlidir. Arayüz kodu bu yüzden HENÜZ YAZILMADI: veri şekli
-   değişebilir, değişecekse önce ölçülmeli.
-2. **Artış bantları kıyı kesiminden SONRAKİ aşamalardan geçmiyor** (ada
-   kuralı · kara-kısıtlı devir · çöl tavanı). Taban bant (`≤5`) `PETEK_D`
-   olduğu için hepsinden geçmiştir; 5-7 ve 7-10 yalnız bütçe kesiminden
-   geçer. Farkın büyüklüğü ölçülmelidir.
+### 5.5 · (b) DEVLET BANDI MALİYETİ — **0,7–0,8 kat** (1'in ALTINDA)
+
+1.MURAT'ın istediği tek sayı: bant geometrisini dönem dönem DEVLET
+gövdesine birleştirmek, petek başına bırakmaya göre kaç kat pahalı?
+
+Alet: `denetim/ARAC-B-GORUNUM-BANTSINAV-0072.py` · Sahra kutusu, 3 tarih.
+Ölçülen: aynı tarihte (i) taban peteklerini devlet gövdesine birleştirme
+süresi ↔ (ii) İKİ artış bandını devlet gövdesine birleştirme süresi.
+
+| gün | taban | iki bant | kat |
+|---|---|---|---|
+| 1520-06-15 | 10 devlet · 0,12 sn | 16 devlet · 0,13 sn | 1,09 |
+| 1683-06-15 | 8 devlet · 0,14 sn | 15 devlet · 0,10 sn | 0,66 |
+| 1800-06-15 | 8 devlet · 0,14 sn | 15 devlet · 0,10 sn | 0,68 |
+| **ortalama** | | | **0,81** |
+
+(Sığ kesimli ilk koşuda 0,73 çıkmıştı; ikisi de 1'in altında, fark makine
+gürültüsü.) ⇒ **İki bandın devlet gövdesine çıkarılması, TABAN gövde
+geçişinden daha UCUZ.** Sebebi geometrik: bant parçaları ince ve az köşeli.
+⚠️ Ölçülen şey `unary_union` maliyetidir; dönem makinesinin tamamı
+(önbellek, halka havuzu, seyreltme) DEĞİL. Büyüklük sırası için yeterli,
+tam koşu tahmini için değil.
+
+### 5.4 · (c) AŞAMA FARKI — 🔴 ÖNCE YANLIŞ ÖLÇTÜM, DÜZELTİYORUM
+
+Artış bantları kıyı kesiminden sonraki aşamalardan geçmiyor. Fark ne kadar?
+
+🔴 **İLK ÖLÇÜMÜM SAKATTI ve sebebi ölçümün EVRENİYDİ:** kutu kesiti
+`ÇÖL TAVANI`ndan ÖNCE duruyor, yani karşılaştırdığım "tam boru hattı" da
+çöl tavanından geçmemişti. Sahra kutusunda en çok fark yaratması beklenen
+aşama TAM DA ODUR. Kesimi derinleştirip (`--kesim col-sonrasi`) yeniden
+ölçtüm:
+
+| bütçe | kesim `col` (SAKAT) | kesim `col-sonrasi` (DOĞRU) |
+|---|---|---|
+| 40 sa (5 gün) | %0,005 | **%0,005** (1 petek, 108 km² fazla) |
+| 56 sa (7 gün) | %0,004 | **%0,004** (1 petek, 108 km² fazla) |
+| 80 sa (10 gün) | %0,031 | 🔴 **%1,317** — **11 petek, 66.686 km² FAZLA** |
+
+⇒ **Hüküm: bantlar ÇÖL TAVANINDAN DA GEÇİRİLMELİ.** 5 ve 7 günde fark
+ihmal edilebilir; 10 günde ham bant, boru hattının KESECEĞİ 66.686 km²
+çölü taşıyor — ekranda yanlış boyanmış çöl demektir, yani Emre'nin
+çekincesinin ta kendisi. Ve fark ufukla BÜYÜYOR (%0,005 → %0,004 → %1,317),
+çünkü ufuk büyüdükçe ham kesim daha çok çöle uzanıyor.
+📌 Ada kuralı + kara-kısıtlı devir farkı ise küçük kalıyor (3 petek,
+805 km² eksik — her üç bütçede de aynı).
+
+### 5.6 · 🔴 AÇIK KALAN — ölçülmeden yayına alınmamalı
+1. ✅ **ÇÖZÜLDÜ (§5.5):** devlet bandının maliyeti ölçüldü — **0,8 kat**,
+   yani taban gövde geçişinin ALTINDA. "Bant ucuzdur" hükmü artık yalnız
+   kontur için değil, devlet bandı için de geçerli. ⇒ Veri şekli
+   DEVLET BAŞINA olmalı ve maliyeti buna engel değil; arayüz kodu bu şekle
+   göre yazılabilir.
+2. ✅ **ÖLÇÜLDÜ (§5.4), ve hüküm ÇIKTI:** bantlar **çöl tavanından da
+   geçirilmeli** — 10 günlük ufukta ham bant 66.686 km² (%1,317) fazla çöl
+   taşıyor. 5 ve 7 günde fark ihmal edilebilir (%0,005).
 3. ⚪ Epok onarımının yerel Dijkstra tavanı kelepçeye uymuyor (skaler
    kalıyor); kesim sonradan fazlalığı aldığı için çıktıya değil yalnız ara
    hesabın menziline bakıyor — kodda yazılı, ölçülmedi.
