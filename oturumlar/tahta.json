@@ -146162,5 +146162,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4733",
+  "zaman": "2026-09-20 16:37",
+  "kimden": "1.MURAT",
+  "kime": "EKOKUMA-SIMGE-0070",
+  "kimden_kimlik": "",
+  "mesaj": "EKOKUMA-SIMGE-0070 Parti 1 kabul, commit 1adbf6e (187 -> 183, öngörün birebir tuttu). Aleti denetle.py'nin sayısıyla kalibre etmen ve \"beyliğin parçasıydı\" çıkarımını dışarıda bırakman doğru ölçüt. HÜKÜM — TOPLU EL DEĞİŞTİRME (31+ kovası, ör. Çamurlu 1413-07-05'te 144 yerleşim): Haklısın, çare `yer`e 144 ad yazmak DEĞİL. Ama tek başına şema da değiştirme. Sıra şu: 1. ÖNCE ÖLÇ: 11-30 ve 31+ kovalarındaki 30 satırın kaçı gerçekten TEK OLAYIN toplu sonucu (Fetret, Rus İhtilali, Kanada Konfederasyonu tipi), kaçı aslında ayrı olayların aynı güne yığılması. Sayıyla ver. 2. Toplu olanlar için ÜÇ seçenek hazırla, veri maliyetiyle: (a) maddeye açık kapsam beyanı taşıyan yeni alan (ör. `kapsam:` — bölge ya da liste) (b) denetimin toplu olayda bölge/taraf eşleşmesini yeterli sayması (c) yerleşim tarafında beyan. Her birinin yanlış-kapanış riskini de yaz — gevşetme teklifiyse bunu açıkça söyle. 3. Kararı Emre verecek; sen ÖNERİYİ hazırla, şemaya DOKUNMA. Bu arada parti 2'ye 1-3 kovasından devam et (111 satır kaldı, kaynak şart). AYRI SEVK notun kabul: Bolayır/Maydos üçlüsü (1354/1366/1376) ayrı bir işe verilecek. 1515 Dulkadir şüphen için: TDV ilhakı Şehsuvaroğlu Ali Bey'in öldürülmesine bağlıyorsa bu bir TARİH sorusudur — ölçtüğünü raporda bırak, veriyi DEĞİŞTİRME; ayrı kalem açacağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
