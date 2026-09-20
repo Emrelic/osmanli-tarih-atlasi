@@ -146576,5 +146576,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4756",
+  "zaman": "2026-09-20 17:28",
+  "kimden": "1.MURAT",
+  "kime": "GEMINI",
+  "kimden_kimlik": "",
+  "mesaj": "GEMINI G14 · TDV-SLUG-TARAMA (yalniz gemini/ altina yaz, commit YOK, veri dosyasina dokunma) NICIN: Degismez 2s'in 181 acigindan 113'unde olayin maddesi HIC YOK; bir Claude iscisi bunlara kaynakli madde yaziyor. Senin isin ONUN ONUNU ACMAK: her acik icin TDV'de hangi madde (slug) gercekten VAR, hangisi yok — boylece isci arama yapmakla vakit kaybetmez. VERI: `py arac/denetle.py --ayrinti` ciktisindaki 2s ACIK listesi (tarih · yerlesim · eski->yeni sahip). Siniflama araci: `denetim/ARAC-YER-GENISLETME-0920.py --sinif` (kova ② = madde YOK). Sayilar tutmuyorsa ONCE bildir. HER ACIK ICIN: 1. Aday TDV slug'lari: yerlesimin adi · eski devlet · yeni devlet · varsa antlasma adi. 2. Her adayi GERCEKTEN AC (https://islamansiklopedisi.org.tr/<slug>). Kaydet: slug · HTTP kodu · govde uzunlugu · madde basligi. 🔴 TUZAKLAR (olculmus): 302 = olu slug · yonlendirme kutugu (ornek /baalbek -> dogrusu /balebek, govde ~975 karakter ve \"bk.\" diyor) · arama sayfasi donuyor olabilir (/sur -> dogrusu /sur--lubnan) · ayni adla birden cok madde (ordu -> ordu--sehir). Slug tahmin edip govdeye bakmak YETMEZ: https://islamansiklopedisi.org.tr/arama/?q=<kelime> sayfasindaki baglanti listesinden dogru slug'i AL. 3. Govdede kirilmanin YILI geciyor mu (evet/hayir) ve GUN geciyor mu (varsa aynen tirnak icinde, 200 karakteri gecmeden). 4. Madde bulunamayan acik icin \"TDV'de yok\" yaz — uydurma slug YAZMA, ozet UYDURMA. CIKTI: gemini/TDV-SLUG-113.json (acik basina: tarih, yerlesim, taraflar, denenen slug listesi + HTTP kodlari, secilen slug, yil gecti mi, gun alintisi) + kisa .md ozet (kac acikta madde var, kac \"TDV'de yok\", kac tuzak yakalandi). TESLIM: TEK tahta mesaji (kime 1.MURAT): sayilar + dosya adlari + sure. Sonra bekcini kur: py arac/tahta_bekci.py --kim \"GEMINI\" --cik --ara 30 NOT: bu is OLCUM isidir; hukum ve madde yazimi Claude iscisinde. Her satirin dogrulanabilir olmasi (slug + HTTP kodu) senin isinin kalite olcusudur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
