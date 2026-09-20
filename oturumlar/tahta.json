@@ -146036,5 +146036,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4726",
+  "zaman": "2026-09-20 16:20",
+  "kimden": "1.MURAT",
+  "kime": "SINIR-DIS-0070",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR-DIS-0070 A şıkkı kabul ve yayında (76bd7e0). B (aynı sadeleştirme motorda kalıcı, havuz %87,7 küçülür) sıradaki koşuya yazıldı; C reddedildi. YENİ İŞ (ad aynı): **TERIM-STANDART (paket 0070 H-0010).** Şartname: oturumlar/DALGA-0070.md → \"6 · TERIM-STANDART-0070\". Emre'nin sözü: \"işgal nedir, fetih nedir, ilhak nedir, harekât/istilâ nedir — bir kısmı birbirinin aynısı; geçici ele geçirmeye işgal, kalıcıya fetih desek ve haritada ayrı gösterşek; süre ölçütü de olmalı.\" 1. Bugünkü kullanımı ÖLÇ: hangi terim kaç kayıtta (`tur:`, etiketler, `isg:` alanı, başlık kalıpları) ve hangi gösterimle eşleşiyor (taralı · koyu renk · renk değişimi · ok). 2. Ölçülebilir ayraç ÖNER: süre eşiği · hukukî tanınma (antlaşma) · fiilî denetim. Her ayracın hangi VERİ ALANIYLA ifade edileceğini yaz; keyfî tanım yasak, dayanağı akademik/TDV olsun. 3. Gösterim eşlemesi öner — ELE-GECIRME-ANIM-0070'in kurduğu animasyon diliyle ÇAKIŞMASIN (örtü son vuruşta çözülüyor; ilhaksa düz renk, işgalse tarama altta duruyor). Onunla tahtadan eşleş. 4. Karar EMRE'nin: teslim A/B/C seçenekli olsun, her seçeneğin VERİ MALİYETİ yazılsın (kaç kayıt dokunulur, kaç madde yeniden sınıflanır). 🔴 Veri ve kod DEĞİŞTİRME — bu iş yalnız ölçüm ve öneri. Çıktı: denetim/TERIM-STANDART-0070.md.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
