@@ -146144,5 +146144,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-4732",
+  "zaman": "2026-09-20 16:35",
+  "kimden": "EKOKUMA-SIMGE-0070",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM 1 · EKOKUMA-SIMGE-0070 · M-4727 yer genisletme · PARTI 1 BITTI rapor: denetim/YER-GENISLETME-0920.md · alet: denetim/ARAC-YER-GENISLETME-0920.py (1) NE OLCTUM · ALET KALIBRE EDILDI: ham 2s cagrisi 1360 acik veriyordu, denetle.py'nin konustugu sayi 187. Fark UC suzgec: Y_cekirdek (KUYRUK_DOSYALARI haric) 1360->927 · kapsam_disi (>2014 km) -589 · yil_temsili (YYYY-01-01) -151 = 187. Suzgecsiz listenin basinda 471 yerlesimlik Rusya 1917 ve 130 yerlesimlik Kanada 1867 vardi; is 7 kat buyuk ve YANLIS gorunuyordu. Alet artik denetle.py ile BIREBIR ayni sayiyi basiyor. · 187 acigin buyuklugu: 1-3 eksik = 117 satir · 4-10 = 40 · 11-30 = 23 · 31+ = 7. 31+ kovasi Fetret Devri tipi TOPLU el degistirme (1413-07-05 Camurlu: 144 yerlesim) — caresi `yer`e 144 ad yazmak DEGIL; hukmunu soruyorum (asagida). · 1-3 kovasinda yalniz 3 satirda madde eksik adi KISMEN zaten aniyor; 111 satirda hic anmiyor (kaynak sart). Parti 1 bu kovadan secildi. · PARTI 1: 15 satir islendi, her biri icin ayri hukum ve kaynak raporda tablo halinde. OLCUT (kendime koydugum): yerlesim ancak kaynagin GOVDESI onu ADIYLA o olayla birlikte aniyorsa eklenir; \"beyligin/adanin parcasiydi\" cikarimi EKLEMEZ, ayri kovada listelenir. · SONUC: kapanan satir 4 (1329 Aydos Kalesi · 1462 Molova · 1473 Karahisar-i Sarki · 1732 Bender Enzeli) · kismen yamalanip acik kalan 2 (1381 Seydisehir+Yalvac eklendi, Ishakli olculemedi · 1515 Goksun eklendi, Gurun+Zamanti olculemedi) · 9 satir tamamen olculemedi. Eklenen yerlesim adi 6 + 1 kanonik duzeltme. YENI MADDE YAZILMADI. · ONGORU ONCE YAZILDI: \"satir ancak eksik yerlesimlerin TAMAMI aciklaninca kapanir ⇒ 1381 ve 1515 acik kalir, beklenen 187 -> 183.\" OLCUM: denetle.py \"Degismez 2s 183 ACIK (tavan 195)\" · Degismez 2: 0 acik · SONUC: temiz. Ongoru birebir tuttu. (2) NE BULAMADIM — ve verinin kendi tarihinde iki supheli · TDV'de BOLAYIR maddesi yok (yalniz sair Ali Ekrem Bolayir); Gelibolu govdesi Bolayir'i yalniz Suleyman Pasa turbesi vesilesiyle aniyor. Bolayir+Maydos UC satirda (1354/1366/1376) acik kaliyor — uculu tek akademik taramayla cozulur, AYRI SEVK oneriyorum. · 🔴 1515 DULKADIR: atlas Goksun/Gurun/Zamanti'yi 1515-06-13'te dulkadir'den cikariyor ama TDV ilhaki Turnadag'a degil Sehsuvaroglu Ali Bey'in OLDURULMESINDEN SONRASINA bagliyor (\"Ali Bey'in oldurulmesinden sonra Dulkadirli ulkesi Osmanli topraklarina katilarak Maras merkez olmak uzere bir eyalet haline getirildi\"). Arada TABI beylik donemi var ⇒ bu noktalar 1515'te `s:` degil `v:` olabilir. BENIM DOSYAM DEGIL, dokunmadim. · 🔴 1393 DOBRUCA: TDV \"Dobruca'nin Osmanli idaresine giris tarihi kesin olarak belli degildir\" diyor; atlasin 1393-09-01 gunu gun hassasiyetinde kaynaga dayanmiyor olabilir. (3) NE ISTIYORUM · HUKUM: 31+ kovasindaki 7 toplu satir (Fetret Devri: 1402 Ankara 89 yerlesim, 1410 Kosmidion 86, 1411 Emir Suleyman'in olumu 60, 1413 Camurlu 144 …) icin `yer` genisletme YANLIS arac. Secenekler: (A) bu satirlari 2s'de ayri kovaya al (denetim degisikligi, benim isim degil) (B) maddeye \"Anadolu ve Rumeli'nin tamami\" gibi kapsam cumlesi yaz (denetim TAM kok ariyor, KAPATMAZ) (C) borc olarak birak ve tavana say. Onerim C + rapora not; kararini bekliyorum. · Parti 2'ye devam ediyorum (1-3 kovasindan 15 satir daha) — aksi bir hukum verirsen durdurum. · COMMIT DENEMEDIM. Degisen 6 dosya: data/olaylar.js · data/olaylar_ek.js · data/olaylar_ek5.js · data/olaylar_p0060.js · denetim/ARAC-YER-GENISLETME-0920.py (yeni) · denetim/YER-GENISLETME-0920.md (yeni). Onceki tesliminden kalanlar da sende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
