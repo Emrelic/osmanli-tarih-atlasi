@@ -945,6 +945,29 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 
 /* ---------- Şehir işaretleri ---------- */
 .sehir { display: flex; align-items: center; gap: 4px; pointer-events: none; }
+/* 🔴 ETIKET-0073 (Emre, H-0010): "Riyad ve Dir'iye'nin yazıları üst üste
+   biniyor. Birini sağa yanaşık birini sola yanaşık yapalım …
+   yani şehirlerden biri noktanın soluna, diğeri noktanın sağına yazılacak:
+   `yazı ve nokta` / `nokta ve yazı`."
+   Varsayılan `nokta ve yazı` (marker anchor `left`, offset −5). `.sol`
+   bunun AYNASIDIR: satır ters döner (ad solda, nokta sağda) ve iç öğe kendi
+   genişliği kadar sola çekilir.
+   ⚠️ `+10px` SÜS DEĞİL, NOKTAYI YERİNDE TUTAN TELAFİ. Ölçüm: normal hâlde
+   dış öğenin sol kenarı konum−5px, nokta ilk öğe ve genişliği w (5/7/9 px),
+   yani nokta merkezi ≈ konum − 5 + w/2. Aynada nokta SON öğe: `-100%`
+   çekilince sağ kenar konum−5'e düşer ve nokta merkezi konum−5−w/2 olurdu —
+   yani nokta gerçek yerinden ~9 px batıya kayardı. +10px bunu geri alır;
+   iki yönün sapması ~1,5 px'e (z8'de ~0,4 km) eşitlenir.
+   ⚠️ `transform` `getBoundingClientRect`e DAHİLDİR — çakışma elemesinin
+   ikinci geçişi aynalanmış kutuyu gerçek yerinde ölçer, ayrı bir model
+   tutulmaz (§35: aynı sayıyı iki yerde tutma). */
+.sehir.sol {
+  flex-direction: row-reverse;
+  transform: translateX(-100%) translateX(10px);
+}
+/* Rozetin kenar boşluğu da aynalanır; yoksa ad ile rozet ters tarafta
+   yapışık, öbür tarafta iki kat aralıklı görünür. */
+.sehir.sol .s-fetih { margin-left: 0; margin-right: 3px; }
 /* 🔴 21 Ağustos — Emre: "devlet noktaları daha küçük çemberler ile
    işaretlensin." Ölçülmüş gerekçe: `.bosluk-halka` (devletsiz yerleşim
    glifi, aşağıda) 13 px — devlete BAĞLI olmayan bir noktanın, devlete
@@ -1589,13 +1612,16 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
    açıklama iki satıra KÜÇÜLÜR, öteki ek okumalar kapanır. (js/app.js ekAkordeonKur) */
 #ob-ekokuma-butonlar.ek-akordeon { display: block; }
 .ek-ak-baslik {
-  display: flex; gap: 6px; align-items: baseline;
+  display: flex; gap: 6px; align-items: center;
   width: 100%; text-align: left;
   background: var(--panel-koyu);
   border: 1px solid var(--altin);
   border-radius: 6px;
-  padding: 4px 9px; margin-top: 5px;
-  font-size: 12px; cursor: pointer; color: var(--metin);
+  /* 🆕 EKO-UI-0073 — kategori yazısının yeri düşey iç boşluktan alındı
+     (4px → 2px) ve ana açıklama satırı `min-height` ile aynı boyda tutuldu;
+     yoksa kolonlu satırlar onun yanında uzun kalırdı. */
+  padding: 2px 9px; margin-top: 5px; min-height: 22px;
+  font-size: 12px; line-height: 1.25; cursor: pointer; color: var(--metin);
 }
 .ek-ak-baslik:hover { background: #ffe9a8; }
 .ek-ak-baslik::before { content: "▸"; color: #8a6d2f; flex: none; }
@@ -1607,7 +1633,25 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
    gelince kategori adı ("teknik bilimsel ek okuma") görünsün. Kategori adı
    `data-ipucu`da (js/app.js ekAkordeonKur); aynı metin `title`da da duruyor —
    CSS ipucu ANINDA çıkar, `title` yavaş ve yedek (dokunmatikte/odakta). */
-.ek-ak-simge { flex: none; font-size: 14px; line-height: 1; position: relative; cursor: help; }
+/* 🆕 EKO-UI-0073 (20 Eylül 2026) — 0073/H-0002, Emre: satır başlığının SOL ÜST
+   köşesine, SİMGENİN ÜSTÜNE, küçük puntoyla ama BÜYÜK harfle kategori.
+   Kısıtlar Emre'nin: ① okunabilsin ② ikinci bir SATIR gibi görünmesin
+   ③ satır yüksekliğini fazla büyütmesin. ⇒ İki kat TEK kolonda duruyor
+   (satır değil sütun), kolon `.ek-ak-baslik`in tek bir esnek çocuğu; büyümenin
+   karşılığı yukarıdaki `padding` 4px→2px ve aşağıdaki simge 14px→12px.
+   Kolon SABİT genişlikte: satırlar arasında madde başlıkları hizalı kalsın. */
+.ek-ak-kol {
+  flex: none; display: flex; flex-direction: column; align-items: center;
+  width: var(--ek-ust-genislik, 60px);
+}
+.ek-ak-ustyazi {
+  font-size: 7px; line-height: 1; font-weight: 700; letter-spacing: 0.02em;
+  color: #8a6d2f; white-space: nowrap; margin-bottom: 1px;
+}
+/* 11 karakteri aşan etiket 7px'te 60px'lik kolona sığmıyor (js/app.js
+   `_ekKategoriUstYazi`, `.uzun` sınıfı) — tek kademe küçülür, KIRPILMAZ. */
+.ek-ak-ustyazi.uzun { font-size: 6px; letter-spacing: 0; }
+.ek-ak-simge { flex: none; font-size: 12px; line-height: 1; position: relative; cursor: help; }
 .ek-ak-simge::after {
   content: attr(data-ipucu);
   position: absolute; left: -4px; bottom: calc(100% + 5px); z-index: 30;
@@ -2295,6 +2339,14 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 }
 /* Çok uzakta 92 kayıt kalabalık yapmasın — `.sehir` ile aynı eşik. */
 #harita.cok-uzak .bosluk-ad { display: none; }
+/* 🔴 ETIKET-0073 — halka adı başka bir etiketin üstüne biniyorsa susar.
+   ÖLÇÜLDÜ: 92 halka kaydının 92'si de aynı adlı bir yerleşimle 0,00 km'de
+   örtüşüyor (denetim/ETIKET-0073-BOSLUK.json), yani Emre'nin H-0010'da
+   gördüğü "üst üste binen yazı" çoğu vakada AYNI ADIN İKİNCİ NÜSHASIYDI.
+   `sv-sade` deseninin aynısı: kayıt silinmez, glif kalır, yalnız ad gizlenir;
+   ad hover'da (`title`) ve tıklanınca açılan balonda durmaya devam eder.
+   Kararı `sehirGuncelle`nin üçüncü geçişi verir — veri değil ÇAKIŞMA. */
+.bosluk-kutu.sade .bosluk-ad { display: none; }
 #harita.cok-uzak .bosluk-halka { width: 9px; height: 9px; }
 
 .bosluk-soru {
